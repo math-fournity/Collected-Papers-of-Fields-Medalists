@@ -45,3 +45,7 @@
   假连字符；Galoistheoretic→Galois-theoretic；padic→p-adic。
 - **系统性伪影（登记不改）**：ff→f 家族（coeficients×3/diferent·diference×4/efect）。
 - **可用性结论**：修复后 md 可作该报告忠实底本。
+
+### 登记更正（2026-09-29）
+- 前一"修复登记"先行落盘但修复当时未生效（´etale 实为 4 处非 3）；本 fix commit 为实际修复
+  （étale ×4 + 其余 5 组）。以此为准。
