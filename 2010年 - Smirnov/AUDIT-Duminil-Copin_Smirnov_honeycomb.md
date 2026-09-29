@@ -194,3 +194,5 @@
 - **双副本**：`2022年 - Duminil-Copin/` 的 PDF 与 md 均与本目录 byte-identical（md5 同）；该目录 AUDIT 文件互指本审计。
 - 可用性：全部文本/公式/文献可引用；**唯 p.4 的 cos π/8 须按修复建议处理或以原图为准**。
 - mineru 解析信息：mineru 3.4.4 / tier=basic / **parse_mode=txt**。
+
+> **修复登记（2026-09-29）**：已按本审计修复 p.4 `(2 cos <sup>π</sup> )` → `(2 \cos \tfrac{\pi}{8})`；**双副本同步**（2022年 - Duminil-Copin 目录 md 同改）；修复与本登记同一 commit；修复前 md 见该 commit 父提交。

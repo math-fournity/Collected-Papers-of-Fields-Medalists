@@ -116,7 +116,7 @@ $$
 c (\gamma_ {1}) + c (\gamma_ {2}) + c (\gamma_ {3}) = (p - v) \mathrm{e} ^ {- \mathrm{i} \sigma \mathrm{W} _ {\gamma_ {1}} (a, p)} x _ {c} ^ {\ell (\gamma_ {1})} \left(1 + x _ {c} j \bar {\lambda} + x _ {c} \bar {j} \lambda\right) = 0.
 $$
 
-Above is the only place where we use that x takes its critical value, i.e.$x _ { c } ^ { - 1 } = { \sqrt { 2 + { \sqrt { 2 } } } } =$ (2 cos <sup>π</sup> ).
+Above is the only place where we use that x takes its critical value, i.e.$x _ { c } ^ { - 1 } = { \sqrt { 2 + { \sqrt { 2 } } } } =$ (2 \cos \tfrac{\pi}{8}).
 
 The claim of the lemma follows readily by summing over all pairs and triplets. 
 
