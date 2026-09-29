@@ -59,3 +59,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:05 | PAGE | Atiyah-Singer index | p.9/12 | PASS± | Proposition3/脚注8全吻合
 2026-09-29 16:06 | PAGE | Atiyah-Singer index | p.10/12 | PASS± | Cobordism/Prop4全吻合；𝔡混并同族
 2026-09-29 16:06 | PAGE | Atiyah-Singer index | p.11/12 | PASS± | §6/文献1-3全吻合
+2026-09-29 16:08 | PAGE | Atiyah-Singer index | p.12/12 | FAIL | 文献9整条丢失+机构行丢失；其余吻合

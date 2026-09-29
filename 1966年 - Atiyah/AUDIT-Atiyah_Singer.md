@@ -159,3 +159,54 @@
     (1962), 511-514）✓
 - 结果：**PASS±**（±：页眉未收）
 - 备注：本页无内容级差异。
+
+## p.012（PDF p.12 / 印刷 p.433）
+- PNG：audit/p012.png（pngmono 150dpi）
+- 核对：参考文献 4-22 逐条（作者/刊名/卷期页年）：
+  - 4. Atiyah Stockholm ICM 1962 (to appear) ✓；5. Atiyah-Hirzebruch Proc. Sympos. Pure Math. 3, pp.7-38, 1961 ✓；
+    6. Analytic cycles, Topology 1 (1962), 25-45 ✓
+  - 7. Borel-Hirzebruch Amer. J. Math. 80 (1958), 458-538; 81 (1959); 315-382, 82 (1960), 491-504——
+    "81 (1959);" 后分号系原刊排印，md 忠实 ✓
+  - 8. Bott Ann. of Math. (2) 70 (1959), 313-337 ✓
+  - **9. ——, The index theorem for homogeneous differential operators (to appear)——原刊存在此条，
+    md 整条丢失（8 直接跳 10）→ FAIL**
+  - 10-22 逐条 ✓（Brauer-Weyl 57 (1935), 425-449；Calderon-Zygmund 79 (1957), 901-921；Conner-Floyd 1963；
+    Douglis-Nirenberg 8 (1955), 503-538；Dynin 2 (1961), 1375-1377 / 1431-1433；Gel'fand 15 (1960), no.3, 113；
+    Hirzebruch 1956；Kodaira 73 (1951), 813-875；Seeley 81 (1959), 658-690 / 83 (1961), 265-275 / to appear；
+    Vol'pert 3 (1962), 154）
+  - **结尾机构行 OXFORD UNIVERSITY / HARVARD UNIVERSITY AND / MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+    ——md 未收（对照：前篇论文的 UC Davis 机构行在 p.1 被如实转写）→ FAIL（整块丢失）**
+  - Ref 17 "New Topologische Methoden"——300dpi 级辨读原刊即印 "New"（实书为 Neue topologische…，
+    系公告原文排印），md 忠实；Ref 18 "Amer. J. Math. 73 (1951)"——原刊如此（该文实刊
+    Ann. of Math. (2) 73 (1951), 813-875，源级笔误，同 Selberg (1.4) 案例），md 忠实
+- 结果：**FAIL（两点）**：①文献 9 整条丢失；②结尾机构三行丢失。
+  修复建议：在 8 与 10 间补 "9. ——, The index theorem for homogeneous differential operators (to appear)."；
+  末尾补机构三行。
+- 备注：± 页眉未收。
+
+---
+
+## 总评
+
+- **覆盖声明**：12/12 页逐页目检（pngmono 150dpi，`audit/p001-p012.png`），每页五点比对
+  （题录/定理陈述/公式上下标/记号/参考文献）后即时落签并提交；疑难处按 SOP 仲裁①做
+  300dpi 灰度局部 4 件（`audit/p008_*_300dpi.png`，已目检裁剪位置并入库）。 mineru：
+  standard 档云端解析，middle_json schema `docvortex.middle` v2.0（is_full_document=true，
+  无 doc_id 字段）。
+- **定理/公式可信度**：Theorem 1（指标公式）、Theorem 2（universal class）、Theorem 3（HRR）、
+  Theorem 4（Dirac/Â）、Proposition 1-4、(i)-(iii) 性质、cobordism 定义、(A)/(B) 同构——
+  逐字核对全部吻合。Theorem 4 显示式 "h⁻(D)=A(X)"（D 而非 S、A 无帽）**系原刊排印**（where 行有 Â），
+  md 忠实保留；Prop 1 的 "{σ(S)(ξ)}⁻¹" 亦经 300dpi 证实系原刊排印（数学上应预期 σ(D)(ξ)）。
+- **系统性瑕疵（PASS± 家族）**：①页眉/页码全篇未收；②花体 𝔡（外微分算子的形式伴随，
+  p.6 D=∂̄+𝔡、p.10 D=*d+𝔡* 及脚注 9）并作普通 d，同篇内另处作 \mathfrak{d}，不一致；
+  ③Todd 类字形 \Im/\mathfrak{I} 混用、ℚ 作 \mathcal{Q}；④脚注以 page_footnote span 保留
+  但编号错乱（见 FAIL）且有 5 个孤立碎片 span（p.3）；⑤PDF 首页含前篇论文结尾（实物如此，
+  md 如实转写）；⑥"Grothen-dieck" 等跨行连字照排、"spinorstructure" 一处丢空格。
+- **FAIL 清单（4 项）**：p.003 脚注 3 编号误识为 8；p.008 脚注 6 正文误标为 "*"；
+  p.012 文献 9 整条丢失；p.012 结尾机构三行丢失。
+- **原刊排印 quirk（md 忠实，不代改）**：σ(S)(ξ)、h⁻(D)/无帽 A、Prop 2 游离撇号、
+  Prop 2 "D=Γ(E)" 用等号、Ref 7 分号、Ref 17 "New Topologische"、Ref 18 "Amer. J. Math."
+  （源级笔误：Kodaira 该文实刊 Ann. of Math. (2) 73 (1951), 813-875）。
+- **可用性结论**：修复 4 项 FAIL 后，本 md 可作为该公告的忠实检索/阅读底本；
+  定理陈述与公式逐字可信；脚注编号以修复版为准；文献表 22 条（修复后含 9）逐条对原刊核实。
+  阅读时应知：期刊页眉未收、𝔡/d 字形已并、原刊 quirk 清单如上。
