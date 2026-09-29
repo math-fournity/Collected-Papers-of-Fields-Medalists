@@ -32,6 +32,7 @@
 | **本 repo（工作对象）** | `/Users/aurolafly/Collected-Papers-of-Fields-Medalists/`（独立 git repo，直接 `git add -A && git commit` 即可，勿 push） |
 | **审计 SOP（规范原文）** | `AUDIT-SOP.md`（repo 根）——渲染命令、七步流程、签体格式、PASS/PASS±/FAIL 分级 |
 | **资产地图与目录 schema** | `README.md`（repo 根）——层级/命名/来源链/论文目录清单（计数）；结构变化时同批更新 |
+| **ZCode 接手提示词** | `ZCODE-HANDOFF-PROMPT.md`（repo 根）——自包含；其它客户端新 Session 直接粘贴即可接手 |
 | **进度总账（唯一进度真值）** | `AUDIT-INDEX.md`（repo 根）——每完成一篇加一行 |
 | **逐页进度日志（抗中断）** | `AUDIT-PROGRESS.log`（repo 根）——每页落签后立即 `echo … >>` 追加；会话随时可能中断，恢复先读其末尾 |
 | 论文底稿（repo 内镜像） | `/Users/aurolafly/shuxuedashi-glm5.2-worktree/算思系统/tasks/ot-fields68/corpus/papers/` |

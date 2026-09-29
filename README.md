@@ -13,6 +13,7 @@
 ├── AUDIT-INDEX.md             # 篇级进度总账（一行=一篇；审计状态唯一真值）
 ├── AUDIT-PROGRESS.log         # 页级进度日志（append-only；每页一行；恢复入口）
 ├── HANDOFF-AUDIT.md           # 交接手册（接力程序、坑清单、当前状态）
+├── ZCODE-HANDOFF-PROMPT.md    # ZCode 新 Session 接手提示词（自包含；直接粘贴）
 ├── tools/
 │   ├── mineru_batch.py        # 批量解析脚本（已含“跳过已完成”逻辑）
 │   └── mineru_batch.log       # 解析日志（ALL DONE = 84/85 导出成功）
@@ -44,7 +45,9 @@
 4. `git log` —— 原始 mineru 产出 → `fix(md): …` 修复的每次精确变更
    （修复前 md = 对应 fix commit 的父提交，可 `git show <fix>^:<md path>` 回溯来源）；
 5. [AUDIT-PROGRESS.log](AUDIT-PROGRESS.log) —— 页级时间线（会话中断后的恢复入口）；
-6. [HANDOFF-AUDIT.md](HANDOFF-AUDIT.md) —— 方法与坑清单。
+6. [HANDOFF-AUDIT.md](HANDOFF-AUDIT.md) —— 方法与坑清单；
+7. [ZCODE-HANDOFF-PROMPT.md](ZCODE-HANDOFF-PROMPT.md) —— 供其它客户端（如 ZCode）新 Session 直接粘贴的
+   接手提示词（自包含：读什么/当前状态/接力程序/红线/坑/验收）。
 
 ## 3. 论文目录清单（65 个目录 / 86 个 PDF）
 
