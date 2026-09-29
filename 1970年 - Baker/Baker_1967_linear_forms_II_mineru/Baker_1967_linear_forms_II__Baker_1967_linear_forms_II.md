@@ -93,7 +93,7 @@ $$
 where $L = [k^{1 - \varepsilon}]$ and $\gamma_r = \lambda_r + \lambda_n\beta_r$$(1\leqslant r < n)$, satisfies
 
 $$
-\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h \kappa}\tag{3}
+\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h {\kappa}}\tag{3}
 $$
 
 for all integers $l$ with $1 \leqslant l \leqslant h$ and all non-negative integers $m_1, \ldots, m_{n-1}$ with $m_1 + \ldots + m_{n-1} \leqslant k$.
@@ -195,7 +195,7 @@ $$
 Hence we obtain
 
 $$
-| \phi (w) | \leqslant 2 e ^ {4 h k} c _ {1} ^ {L X \log h} (\frac {1}{4} \log h) ^ {- X (Y + 1)} + (2 X) ^ {2 X Y} e ^ {- \frac {1}{4} h *}.
+| \phi (w) | \leqslant 2 e ^ {4 h k} c _ {1} ^ {L X \log h} (\frac {1}{4} \log h) ^ {- X (Y + 1)} + (2 X) ^ {2 X Y} e ^ {- \frac {1}{4} h ^ {\kappa}}.
 $$
 
 Now
