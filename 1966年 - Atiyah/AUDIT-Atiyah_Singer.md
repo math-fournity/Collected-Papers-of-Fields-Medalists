@@ -99,3 +99,21 @@
 - 结果：**PASS±**（±：①"spinor-structure" 跨行连字合并时丢空格作 "spinorstructure"；
   ②页眉未收）
 - 备注：无 mineru 内容级错误。
+
+## p.008（PDF p.8 / 印刷 p.429）
+- PNG：audit/p008.png（pngmono 150dpi）；仲裁：audit/p008_prop1_sigma_300dpi.png、
+  audit/p008_prop1_opmarker_300dpi.png、audit/p008_prop2_line_300dpi.png、audit/p008_footnotes_300dpi.png（pnggray 300dpi）
+- 核对：
+  - **PROPOSITION 1**：σ(D)(−ξ)·{σ(S)(ξ)}⁻¹ 仅依赖 π(ξ) ⇒ ch D=0——300dpi 证实**原刊即印
+    "σ(S)(ξ)"**（数学上应预期 σ(D)(ξ)；系原刊排印 quirk，md 忠实保留，非 mineru 伪影）✓；
+    "elliptic differential operator … homogeneous polynomial in ξ" ✓
+  - **PROPOSITION 2**：dim X=n、trivial bundles dimension m、(i) (ch D)_q=0 for q>2m−n、
+    (ii) (ch D)_0=0 if Euler number nonzero ✓；(a) m<n/2 / (b) m=n/2 ∧ (Euler≠0 ∨ n≢0 mod 4) /
+    (c) m<n ∧ Pontrjagin classes zero（e.g. hypersurface in R^{n+1}）✓；[2;3;14;15;20;22] ✓
+  - §4 开头：Diff(E,F)/Int(E,F)、Seeley [19]、Dynin [14]、commutative diagram⁷——图以
+    `![](images/page_7_image_13.jpg)` 保留（文件在库 ✓）；bottom σ surjective、λ = Calderon-Zygmund [11] ✓
+  - 页脚脚注 6/7 文本均在 md；正文锚点：Prop 1 "operator⁶" ✓（300dpi 证实上标 6）
+- 结果：**FAIL（单点）**：脚注 6 正文在 md 中被标为 "* Differential or integral (see §4)."，
+  300dpi 证实原刊编号为 6（Prop 2 "operator" 后的撇号系原刊实物的游离排印符，非脚注标记）。
+  修复建议："* Differential or integral" 改为 "$^{6}$ Differential or integral"。
+- 备注：± ①\mathbb{R}^{n+1} 原刊为粗体 R（记号级）；②Prop 2 "D=Γ(E)→Γ(F)" 原刊即用 "="（忠实保留）。
