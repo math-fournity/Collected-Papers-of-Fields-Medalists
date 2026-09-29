@@ -34,3 +34,7 @@
 ## 总评
 - 4/4 页逐页目检+文本层对账；FAIL 3 点（Ampère×5、opti mal、Caffarelli）修复后可作忠实底本；
   原刊 quirk 2 项（possesses、bounded on）忠实保留。
+
+### 修复登记（2026-09-29）
+- Monge-Amp\`ere→Monge-Ampère（5 处）；opti mal→optimal；Cafarelli→Caffarelli。
+  fix commit 见 `git log --grep 'fix(md): ICM2018 Figalli'`。
