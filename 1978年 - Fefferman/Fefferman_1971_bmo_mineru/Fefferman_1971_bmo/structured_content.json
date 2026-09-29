@@ -1,0 +1,416 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2708333333333333,
+            0.18567251461988304,
+            0.7245370370370371,
+            0.22076023391812866
+          ],
+          "level": 2,
+          "content": "CHARACTERIZATIONS OF BOUNDED MEAN OSCILLATION"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3680555555555556,
+            0.2309941520467836,
+            0.6319444444444444,
+            0.24561403508771928
+          ],
+          "level": 2,
+          "content": "BY CHARLES FEFFERMAN"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2638888888888889,
+            0.2543859649122807,
+            0.7361111111111112,
+            0.2719298245614035
+          ],
+          "level": 2,
+          "content": "Communicated by M. H. Protter, December 14, 1970"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.2777777777777778,
+            0.8657407407407407,
+            0.3157894736842105
+          ],
+          "content": "BMO (bounded mean oscillation) is the Banach space of all functions $f \\in L_{\\mathrm{loc}}^{1}(R^{n})$ for which"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22916666666666666,
+            0.3230994152046784,
+            0.7615740740740741,
+            0.36403508771929827
+          ],
+          "content": "\\left| \\left| f \\right| \\right| _ {\\mathrm{BMO}} = \\sup _ {Q} \\left(\\frac {1}{| Q |} \\int_ {Q} | f (x) - \\operatorname{av} _ {Q} f | d x\\right) <   \\infty ,",
+          "image_source": "images/page_0_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12731481481481483,
+            0.37280701754385964,
+            0.8657407407407407,
+            0.4269005847953216
+          ],
+          "content": "where the sup ranges over all cubes  $Q \\subseteq R^{n}$ , and  $av_{Q} f$  is the mean of f over Q. See [5]. For convenience, we identify f and  $f'$  in BMO if  $f - f'$  is constant."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.4327485380116959,
+            0.8657407407407407,
+            0.4868421052631579
+          ],
+          "content": "THEOREM 1. BMO is the dual of the Hardy space $H^{1}(R^{n})$. The inner product is given by $\\langle f, g \\rangle = \\int_{R^{n}} f(x) g(x) dx$ for $f \\in BMO$ and $g$ belonging to the dense subspace of $C^{\\infty}$ rapidly decreasing functions in $H^{1}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.4956140350877193,
+            0.8657407407407407,
+            0.5321637426900585
+          ],
+          "content": "Here, we regard $H^1$ as the space of $f \\in L^1(R^n)$ whose Riesz transforms $R_j(f)$ are all in $L^1$. See [7]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.5380116959064327,
+            0.8657407407407407,
+            0.5760233918128655
+          ],
+          "content": "THEOREM 2. A function belongs to BMO if and only if it can be written in the form $g_0 + \\sum_{j=1}^{n} R_j(g_j)$ with $g_0, g_1, \\cdots, g_n \\in L^\\infty(R^n)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1574074074074074,
+            0.5833333333333334,
+            0.4837962962962963,
+            0.6008771929824561
+          ],
+          "content": "Note that the usual definition"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24768518518518517,
+            0.6111111111111112,
+            0.7476851851851852,
+            0.6505847953216374
+          ],
+          "content": "R _ {j} (g) (x) = \\lim _ {\\epsilon \\rightarrow 0; M \\rightarrow \\infty} \\int_ {\\epsilon <   | x - y | <   M} K _ {j} (x - y) f (y) d y",
+          "image_source": "images/page_0_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.6578947368421053,
+            0.8657407407407407,
+            0.695906432748538
+          ],
+          "content": "with $K_{j}(y) = cy_{j} / |y|^{n + 1}$ need not make sense for all $g \\in L^{\\infty}$. (Consider $g(x) = \\operatorname{sgn}(x)$ on the line.) Therefore, we define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21296296296296297,
+            0.7046783625730995,
+            0.7685185185185185,
+            0.7441520467836257
+          ],
+          "content": "R _ {j} (g) (x) = \\lim _ {\\epsilon \\rightarrow 0} \\int_ {\\epsilon <   | x - y |} \\left[ K _ {j} (x - y) - K _ {j} ^ {0} (- y) \\right] g (y) d y,",
+          "image_source": "images/page_0_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.7514619883040936,
+            0.8657407407407407,
+            0.8055555555555556
+          ],
+          "content": "where $K_{j}^{0}(y) = K_{j}(y)$ for $|y| > 1$ and $K_{j}^{0}(y) = 0$ for $|y| \\leq 1$. This makes sense for all $g \\in L^{\\infty}$, and agrees with the usual definition up to an additive constant if $g$ has compact support. See [3, p. 105]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13194444444444445,
+            0.8055555555555556,
+            0.8657407407407407,
+            0.8421052631578947
+          ],
+          "content": "The main idea in proving Theorems 1 and 2 is to study the Poisson integral of a function in BMO. Recall that any function $f$ satisfying"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.47453703703703703,
+            0.15204678362573099
+          ],
+          "content": "BULLETIN OF THE\nAMERICAN MATHEMATICAL SOCIETY\nVolume 77, Number 4, July 1971"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1597222222222222,
+            0.847953216374269,
+            0.6180555555555556,
+            0.8640350877192983
+          ],
+          "content": "AMS 1969 subject classifications. Primary 3067, 4635."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.13194444444444445,
+            0.8625730994152047,
+            0.8657407407407407,
+            0.8947368421052632
+          ],
+          "content": "Key words and phrases. Bounded mean oscillation, Riesz transforms, maximal function, Poisson integral."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.49074074074074076,
+            0.8976608187134503,
+            0.8657407407407407,
+            0.9137426900584795
+          ],
+          "content": "Copyright © 1971, American Mathematical Society"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4837962962962963,
+            0.9195906432748538,
+            0.5208333333333334,
+            0.935672514619883
+          ],
+          "content": "587"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.3587962962962963,
+            0.15350877192982457,
+            0.6388888888888888,
+            0.19736842105263158
+          ],
+          "content": "\\int_ {R ^ {n}} \\frac {| f (x) |}{(| x | + 1) ^ {n + 1}} d x <   \\infty\\tag{*}",
+          "image_source": "images/page_1_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12731481481481483,
+            0.20760233918128654,
+            0.8564814814814815,
+            0.22660818713450293
+          ],
+          "content": "has a Poisson integral $u(x, t) = \\mathrm{P.I.}(f)$ defined on $R_{+}^{n + 1} = R^n \\times (0, \\infty)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12962962962962962,
+            0.23391812865497075,
+            0.8634259259259259,
+            0.2719298245614035
+          ],
+          "content": "THEOREM 3. A function $f$ belongs to BMO if and only if (\\*) holds and $\\iint_{|x - x_0| < \\delta; 0 < t < \\delta} t|\\nabla u(x, t)|^2 dx dt \\leq C\\delta^n$ for all $x_0 \\in R^n$ and $\\delta > 0$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12962962962962962,
+            0.2777777777777778,
+            0.8634259259259259,
+            0.3157894736842105
+          ],
+          "content": "Theorems 1–3 and their proofs can be used to study  $H^{1}$ . For example,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12962962962962962,
+            0.3216374269005848,
+            0.8634259259259259,
+            0.39473684210526316
+          ],
+          "content": "THEOREM 4. Let $F = (u_0(x, t); u_1(x, t), \\dots, u_n(x, t))$ be an $(n+1)$-tuple of harmonic functions on $R_+^{n+1}$, satisfying the Cauchy-Riemann equations of [7]. If the nontangential maximal function $u_0^*(x) \\equiv \\sup_{|x'| < t; t > 0} |u_0(x - x', t)|$ belongs to $L^1$, then $F$ is in $H^1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12962962962962962,
+            0.40058479532163743,
+            0.8657407407407407,
+            0.4546783625730994
+          ],
+          "content": "Different techniques enable us to replace  $L^{1}$  and  $H^{1}$  by  $L^{p}$  and  $H^{p}$,  $0 < p < \\infty$. This generalizes a one-dimensional result of D. Burkholder, R. Gundy, and M. Silverstein (see [1] and [2])."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12731481481481483,
+            0.45321637426900585,
+            0.8657407407407407,
+            0.489766081871345
+          ],
+          "content": "Further applications of Theorems 1–3 appear in [4] and [6]. [4] contains detailed proofs of the results stated here."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.42824074074074076,
+            0.5043859649122807,
+            0.5717592592592593,
+            0.52046783625731
+          ],
+          "level": 2,
+          "content": "REFERENCES"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12962962962962962,
+            0.5263157894736842,
+            0.8634259259259259,
+            0.5555555555555556
+          ],
+          "content": "1. D. Burkholder and R. Gundy, Extrapolation and interpolation of quasi-linear operators on martingales, Acta Math. 124 (1970), 249–304."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12962962962962962,
+            0.5555555555555556,
+            0.8634259259259259,
+            0.5847953216374269
+          ],
+          "content": "2. D. Burkholder, R. Gundy and M. Silverstein, A maximal function characterization of the class  $H^{p}$  (to appear)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13194444444444445,
+            0.5847953216374269,
+            0.8634259259259259,
+            0.6140350877192983
+          ],
+          "content": "3. A. P. Calderón and A. Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952), 85–139. MR 14, 637."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1597222222222222,
+            0.6140350877192983,
+            0.5324074074074074,
+            0.6301169590643275
+          ],
+          "content": "4. C. Fefferman and E. M. Stein, (in prep.)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13194444444444445,
+            0.6286549707602339,
+            0.8634259259259259,
+            0.6578947368421053
+          ],
+          "content": "5. F. John and L. Nirenberg, On functions of bounded mean oscillation, Comm. Pure Appl. Math. 14 (1961), 785–799."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13194444444444445,
+            0.6578947368421053,
+            0.8634259259259259,
+            0.6871345029239766
+          ],
+          "content": "6. E. M. Stein, $L^p$ boundedness of certain convolution operators, Bull. Amer. Math. Soc. 77 (1971), 404-405."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13194444444444445,
+            0.6871345029239766,
+            0.8657407407407407,
+            0.7178362573099415
+          ],
+          "content": "7. E. M. Stein and G. Weiss, Introduction to Fourier analysis on euclidean spaces, Princeton, 1971."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16203703703703703,
+            0.7251461988304093,
+            0.6134259259259259,
+            0.7412280701754386
+          ],
+          "content": "UNIVERSITY OF CHICAGO, CHICAGO, ILLINOIS 60637"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.12962962962962962,
+            0.12280701754385964,
+            0.16898148148148148,
+            0.13596491228070176
+          ],
+          "content": "588"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3912037037037037,
+            0.12280701754385964,
+            0.6018518518518519,
+            0.13596491228070176
+          ],
+          "content": "CHARLES FEFFERMAN"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

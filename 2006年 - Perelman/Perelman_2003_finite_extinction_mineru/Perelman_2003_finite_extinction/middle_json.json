@@ -1,0 +1,3129 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.24019607843137256,
+            0.20454545454545456,
+            0.7565359477124183,
+            0.2537878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.42483660130718953,
+            0.273989898989899,
+            0.576797385620915,
+            0.28914141414141414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grisha Perelman"
+            },
+            {
+              "type": "text",
+              "content": "∗",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.4150326797385621,
+            0.30176767676767674,
+            0.5800653594771242,
+            0.3194444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "November 26, 2024"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.34974747474747475,
+            0.7826797385620915,
+            0.5176767676767676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In our previous paper we constructed complete solutions to the Ricci flow with surgery for arbitrary initial riemannian metric on a (closed, oriented) three-manifold [P,6.1], and used the behavior of such solutions to classify threemanifolds into three types [P,8.2]. In particular, the first type consisted of those manifolds, whose prime factors are difeomorphic copies of spherical space forms and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { 2 } \\times \\mathbb { S } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "; they were characterized by the property that they admit metrics, that give rise to solutions to the Ricci flow with surgery, which become extinct in finite time. While this classification was suficient to answer topological questions, an analytical question of significant independent interest remained open, namely, whether the solution becomes extinct in finite time for every initial metric on a manifold of this type."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.21241830065359477,
+            0.5189393939393939,
+            0.7826797385620915,
+            0.5946969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this note we prove that this is indeed the case. Our argument (in conjunction with [P,§1-5]) also gives a direct proof of the so called ”elliptization conjecture”. It turns out that it does not require any substantially new ideas: we use only a version of the least area disk argument from [H,§11] and a regularization of the curve shortening flow from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ \\mathrm { A } \\mathrm { - } \\mathrm { G } \\right]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.21405228758169934,
+            0.61489898989899,
+            0.511437908496732,
+            0.6338383838383839
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 Finite time extinction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.21405228758169934,
+            0.6464646464646465,
+            0.7826797385620915,
+            0.6919191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 Theorem. Let M be a closed oriented three-manifold, whose prime decomposition contains no aspherical factors. Then for any initial metric on M the solution to the Ricci flow with surgery becomes extinct in finite time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.21241830065359477,
+            0.6919191919191919,
+            0.7810457516339869,
+            0.8143939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof for irreducible M. Let ΛM denote the space of all contractible loops in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { 1 } ( \\mathbb { S } ^ { 1 } \\to M )"
+            },
+            {
+              "type": "text",
+              "content": ". Given a riemannian metric g on M and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Lambda M ,"
+            },
+            {
+              "type": "text",
+              "content": "define"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( c , g )"
+            },
+            {
+              "type": "text",
+              "content": "to be the infimum of the areas of all lipschitz maps from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { D } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "to M, whose restriction to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial \\mathbb { D } ^ { 2 } = \\mathbb { S } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "is c. For a family"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\subset \\Lambda M"
+            },
+            {
+              "type": "text",
+              "content": "let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( \\Gamma , g )"
+            },
+            {
+              "type": "text",
+              "content": "be the supremum of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( c , g )"
+            },
+            {
+              "type": "text",
+              "content": " over all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": ". Finally, for a nontrivial homotopy class"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in \\pi _ { * } ( \\Lambda M , M )"
+            },
+            {
+              "type": "text",
+              "content": "let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( \\alpha , g )"
+            },
+            {
+              "type": "text",
+              "content": "be the infimum of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( \\Gamma , g )"
+            },
+            {
+              "type": "text",
+              "content": "over all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\in \\alpha"
+            },
+            {
+              "type": "text",
+              "content": ". Since M is not aspherical, it follows from a classical (and elementary) result of Serre that such a nontrivial homotopy class exists."
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 8,
+          "bbox": [
+            0.02287581699346405,
+            0.21212121212121213,
+            0.058823529411764705,
+            0.702020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "arXiv:math/0307245v1 [math.DG] 17 Jul 2003"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 9,
+          "bbox": [
+            0.21405228758169934,
+            0.8181818181818182,
+            0.7826797385620915,
+            0.8446969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "∗",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "St.Petersburg branch of Steklov Mathematical Institute, Fontanka 27, St.Petersburg 191023, Russia. Email: perelman@pdmi.ras.ru or perelman@math.sunysb.edu"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5032679738562091,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21241830065359477,
+            0.15782828282828282,
+            0.7826797385620915,
+            0.19065656565656566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.2 Lemma. (cf. [H,§11])"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is a smooth solution to the Ricci flow, then for any α the rate of change of the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { t } = A ( \\alpha , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "satisfies the estimate"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.4084967320261438,
+            0.19696969696969696,
+            0.5866013071895425,
+            0.22853535353535354
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "\\frac {d}{d t} A ^ {t} \\leq - 2 \\pi - \\frac {1}{2} R _ {\\mathrm{min}} ^ {t} A ^ {t}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.21405228758169934,
+            0.2361111111111111,
+            0.7794117647058824,
+            0.2676767676767677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(in the sense of the lim sup of the forward diference quotients), where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { \\operatorname* { m i n } } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": " denotes the minimum of the scalar curvature of the metric"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.2676767676767677,
+            0.7826797385620915,
+            0.4027777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A rigorous proof of this lemma will be given in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ S 3 ."
+            },
+            {
+              "type": "text",
+              "content": ", but the idea is simple and can be explained here. Let us assume that at time t the value"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is attained by the family Γ, such that the loops"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( c , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "is close to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "are embedded and suficiently smooth. For each such c consider the minimal disk "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "with boundary c and with area"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( c , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": ". Now let the metric evolve by the Ricci flow and let the curves c evolve by the curve shortening flow (which moves every point of the curve in the direction of its curvature vector at this point) with the same time parameter. Then the rate of change of the area of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "can be computed as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.39052287581699346,
+            0.40025252525252525,
+            0.6045751633986928,
+            0.43434343434343436
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "\\int_ {D _ {c}} (- \\mathrm{Tr} (\\mathrm{Ric} ^ {\\mathrm{T}})) + \\int_ {c} (- k _ {g})"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.21241830065359477,
+            0.4393939393939394,
+            0.7826797385620915,
+            0.5315656565656566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { R i c ^ { T } }"
+            },
+            {
+              "type": "text",
+              "content": "is the Ricci tensor of M restricted to the tangent plane of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c } ,"
+            },
+            {
+              "type": "text",
+              "content": "and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { g }"
+            },
+            {
+              "type": "text",
+              "content": "is the geodesic curvature of c with respect to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "(cf. [A-G, Lemma 3.2]). In three dimensions the first integrand equals"
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\frac { 1 } { 2 } R - ( K - \\dot { \\operatorname * { d e t } \\mathrm { I I } } )"
+            },
+            {
+              "type": "text",
+              "content": ", where K is the intrinsic curvature of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "and det II, the determinant of the second fundamental form, is nonpositive, because"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "is minimal. Thus, the rate of change of the area of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "can be estimated from above by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.32679738562091504,
+            0.5378787878787878,
+            0.6699346405228758,
+            0.571969696969697
+          ],
+          "image_path": "images/page_1_equation_6.jpg",
+          "content": "\\int_ {D _ {c}} \\left(- \\frac {1}{2} R - K\\right) + \\int_ {c} (- k _ {g}) = \\int_ {D _ {c}} \\left(- \\frac {1}{2} R\\right) - 2 \\pi"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.21241830065359477,
+            0.5808080808080808,
+            0.7287581699346405,
+            0.5959595959595959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by the Gauss-Bonnet theorem, and the statement of the lemma follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.21241830065359477,
+            0.5959595959595959,
+            0.7826797385620915,
+            0.7474747474747475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The problem with this argument is that if Γ contains curves, which are not immersed (for instance, a curve could pass an arc once in one direction and then make an about turn and pass the same arc in the opposite direction), then it is not clear how to define curve shortening flow so that it would be continuous both in the time parameter and in the family parameter. In §3 we’ll explain how to circumvent this dificulty, essentially by adding one dimension to the ambient manifold. This regularization of the curve shortening flow has been worked out by Altschuler and Grayson [A-G] (who were interested in approximating the singular curve shortening flow on the plane and obtained for that case more precise results than what we need)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.21241830065359477,
+            0.7462121212121212,
+            0.7843137254901961,
+            0.8547979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.3 Now consider the solution to the Ricci flow with surgery. Since M is assumed irreducible, the surgeries are topologically trivial, that is one of the components of the post-surgery manifold is difeomorphic to the pre-surgery manifold, and all the others are spheres. Moreover, by the construction of the surgery [P,4.4], the difeomorphism from the pre-surgery manifold to the post-surgery one can be chosen to be distance non-increasing ( more precisely, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 + \\xi ) \\mathrm { - l i p s c h i t z }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi > 0"
+            },
+            {
+              "type": "text",
+              "content": "can be made as small as we like). It follows that"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21241830065359477,
+            0.15782828282828282,
+            0.7810457516339869,
+            0.18686868686868688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the conclusion of the lemma above holds for the solutions to the Ricci flow with surgery as well."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.2369281045751634,
+            0.18813131313131312,
+            0.6928104575163399,
+            0.2032828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now recall that the evolution equation for the scalar curvature"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3333333333333333,
+            0.21338383838383837,
+            0.6633986928104575,
+            0.24494949494949494
+          ],
+          "image_path": "images/page_2_equation_2.jpg",
+          "content": "\\frac {d}{d t} R = \\triangle R + 2 | \\mathrm{Ric} | ^ {2} = \\triangle R + \\frac {2}{3} R ^ {2} + 2 | \\mathrm{Ric} ^ {\\circ} | ^ {2}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.2537878787878788,
+            0.7826797385620915,
+            0.30934343434343436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "implies the estimate"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { R _ { \\mathrm { m i n } } ^ { t } \\geq - \\frac { 3 } { 2 } \\frac { 1 } { t + \\mathrm { c o n s t } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\hat { A } ^ { t } = \\frac { A ^ { t } } { t + \\mathrm { c o n s t } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "satisfies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\frac { d } { d t } \\hat { A } ^ { t } \\leq - \\frac { 2 \\pi } { t + \\mathrm { c o n s t } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", which implies finite extinction time since the right hand side is non-integrable at infinity whereas"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { A } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "can not become negative."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.21241830065359477,
+            0.30934343434343436,
+            0.7826797385620915,
+            0.4292929292929293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.4 Remark. The finite time extinction result for irreducible non-aspherical manifolds already implies (in conjuction with the work in [P,§1-5] and the Kneser finiteness theorem) the so called ”elliptization conjecture”, claiming that a closed manifold with finite fundamental group is difeomorphic to a spherical space form. The analysis of the long time behavior in [P,§6-8] is not needed in this case; moreover the argument in [P,§5] can be slightly simplified, replacing the sequences"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r _ { j } , \\kappa _ { j } , \\bar { \\delta } _ { j }"
+            },
+            {
+              "type": "text",
+              "content": "by single values"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r , \\kappa , \\bar { \\delta } ."
+            },
+            {
+              "type": "text",
+              "content": ", since we already have an upper bound on the extinction time in terms of the initial metric."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.21241830065359477,
+            0.4292929292929293,
+            0.7826797385620915,
+            0.5202020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, we can even avoid the use of the Kneser theorem. Indeed, if we start from an initial metric on a homotopy sphere (not assumed irreducible), then at each surgery time we have (almost) distance non-increasing homotopy equivalences from the pre-surgery manifold to each of the post-surgery components, and this is enough to keep track of the nontrivial relative homotopy class of the loop space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.21241830065359477,
+            0.5202020202020202,
+            0.7826797385620915,
+            0.6275252525252525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.5 Proof oftheorem 1.1 for general M. The Kneser theorem implies that our solution undergoes only finitely many topologically nontrivial surgeries, so from some time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": "on all the surgeries are trivial. Moreover, by the Milnor uniqueness theorem, each component at time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": "satisfies the assumption of the theorem. Since we already know from 1.4 that there can not be any simply connected prime factors, it follows that every such component is either irreducible, or has nontrivial"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi _ { 2 } ;"
+            },
+            {
+              "type": "text",
+              "content": "in either case the proof in 1.1-1.3 works."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.21241830065359477,
+            0.648989898989899,
+            0.75,
+            0.6679292929292929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 Preliminaries on the curve shortening flow"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.21241830065359477,
+            0.6792929292929293,
+            0.5408496732026143,
+            0.6944444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section we rather closely follow [A-G]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.21241830065359477,
+            0.6957070707070707,
+            0.7826797385620915,
+            0.8345959595959596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1 Let M be a closed n-dimensional manifold,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 3 ."
+            },
+            {
+              "type": "text",
+              "content": ", and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "be a smooth family of riemannian metrics on M evolving by the Ricci flow on a finite time interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": ". It is known [B] that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t > t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": "are real analytic. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "be a solution to the curve shortening flow in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( M , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": ", that is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "satisfies the equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\frac { d } { d t } c ^ { t } ( x ) \\ = \\ H ^ { t } ( x ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x"
+            },
+            {
+              "type": "text",
+              "content": "is the parameter on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is the curvature vector field of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "with respect to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". It is known [G-H] that for any smoothly immersed initial curve c the solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "exists on some time interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ t _ { 0 } , t _ { 1 } ^ { \\prime } )"
+            },
+            {
+              "type": "text",
+              "content": ", each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t > t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": "is an analytic immersed curve, and either"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } ^ { \\prime } = t _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", or the curvature "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ^ { t } = g ^ { t } ( H ^ { t } , H ^ { t } ) ^ { \\frac { 1 } { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": "is unbounded when"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t  t _ { 1 } ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21241830065359477,
+            0.15656565656565657,
+            0.7826797385620915,
+            0.20454545454545456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Denote by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "the tangent vector field to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ", and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { t } = g ^ { t } ( X ^ { t } , X ^ { t } ) ^ { - \\frac { 1 } { 2 } } X ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": " be the unit tangent vector field; then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H = \\nabla _ { S } S"
+            },
+            {
+              "type": "text",
+              "content": "(from now on we drop the superscript t except where this omission can cause confusion). We compute"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.34477124183006536,
+            0.21464646464646464,
+            0.6486928104575164,
+            0.24494949494949494
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "\\frac {d}{d t} g (X, X) = - 2 \\mathrm{Ric} (X, X) - 2 g (X, X) k ^ {2},\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.21241830065359477,
+            0.2537878787878788,
+            0.31699346405228757,
+            0.2689393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which implies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.4019607843137255,
+            0.27904040404040403,
+            0.5947712418300654,
+            0.29797979797979796
+          ],
+          "image_path": "images/page_3_equation_3.jpg",
+          "content": "[ H, S ] = (k ^ {2} + \\operatorname{Ric} (S, S)) S\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.21241830065359477,
+            0.30934343434343436,
+            0.37254901960784315,
+            0.3244949494949495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we can compute"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.315359477124183,
+            0.3345959595959596,
+            0.6764705882352942,
+            0.3648989898989899
+          ],
+          "image_path": "images/page_3_equation_5.jpg",
+          "content": "\\frac {d}{d t} k ^ {2} = (k ^ {2}) ^ {\\prime \\prime} - 2 g ((\\nabla_ {S} H) ^ {\\perp}, (\\nabla_ {S} H) ^ {\\perp}) + 2 k ^ {4} + \\dots ,\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.21241830065359477,
+            0.375,
+            0.7826797385620915,
+            0.43434343434343436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where primes denote diferentiation with respect to the arclength parameter"
+            },
+            {
+              "type": "equation_inline",
+              "content": "s ,"
+            },
+            {
+              "type": "text",
+              "content": " and where dots stand for the terms containing the curvature tensor of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { g , }"
+            },
+            {
+              "type": "text",
+              "content": "which can be estimated in absolute value by const"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( k ^ { 2 } + k )"
+            },
+            {
+              "type": "text",
+              "content": ". Thus the curvature"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k"
+            },
+            {
+              "type": "text",
+              "content": " satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3839869281045752,
+            0.44191919191919193,
+            0.6111111111111112,
+            0.4722222222222222
+          ],
+          "image_path": "images/page_3_equation_7.jpg",
+          "content": "\\frac {d}{d t} k \\leq k ^ {\\prime \\prime} + k ^ {3} + \\mathrm{const} \\cdot (k + 1)\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.21241830065359477,
+            0.4810606060606061,
+            0.7826797385620915,
+            0.5138888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now it follows from (1) and (4) that the length L and the total curvature "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Theta = \\int k d s"
+            },
+            {
+              "type": "text",
+              "content": "satisfy"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.4035947712418301,
+            0.523989898989899,
+            0.5882352941176471,
+            0.5555555555555556
+          ],
+          "image_path": "images/page_3_equation_9.jpg",
+          "content": "\\frac {d}{d t} L \\leq \\int (\\mathrm{const} - k ^ {2}) d s,\\tag{5}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.4019607843137255,
+            0.577020202020202,
+            0.5947712418300654,
+            0.6098484848484849
+          ],
+          "image_path": "images/page_3_equation_10.jpg",
+          "content": "\\frac {d}{d t} \\Theta \\leq \\int \\mathrm{const} \\cdot (k + 1) d s\\tag{6}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.21241830065359477,
+            0.6199494949494949,
+            0.7810457516339869,
+            0.6502525252525253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In particular, both quantities can grow at most exponentially in t (they would be non-increasing in a flat manifold)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.21241830065359477,
+            0.6515151515151515,
+            0.7826797385620915,
+            0.8169191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2 In general the curvature of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "may concentrate near certain points, creating singularities. However, if we know that this does not happen at some time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": ", then we can estimate the curvature and higher derivatives at times shortly thereafter. More precisely, there exist constants"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon , C _ { 1 } , C _ { 2 } , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": "(which may depend on the curvatures of the ambient space and their derivatives, but are independent of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": ", such that if at time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": "for some"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0"
+            },
+            {
+              "type": "text",
+              "content": "the length of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is at least r and the total curvature of each arc of length r does not exceed"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon ,"
+            },
+            {
+              "type": "text",
+              "content": "then for every"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in ( t ^ { * } , t ^ { * } + \\epsilon r ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": "the curvature k and higher derivatives satisfy the estimates"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ^ { 2 } = g ( H , H ) \\leq C _ { 0 } ( t - t ^ { * } ) ^ { - 1 } , g ( \\nabla _ { S } H , \\nabla _ { S } H ) \\leq C _ { 1 } ( t - t ^ { * } ) ^ { - 2 }"
+            },
+            {
+              "type": "text",
+              "content": " This can be proved by adapting the arguments of Ecker and Huisken [E-Hu]; see also [A-G,§4]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.21241830065359477,
+            0.8169191919191919,
+            0.7794117647058824,
+            0.8472222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3 Now suppose that our manifold"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( M , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "is a metric product"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\bar { M } , \\bar { g } ^ { t } ) \\times \\mathbb { S } _ { \\lambda } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " where the second factor is the circle of constant length"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda ;"
+            },
+            {
+              "type": "text",
+              "content": "let U denote the unit"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21241830065359477,
+            0.15782828282828282,
+            0.7810457516339869,
+            0.1893939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "tangent vector field to this factor. Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\ : = \\ : g ( S , U )"
+            },
+            {
+              "type": "text",
+              "content": "satisfies the evolution equation"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.39052287581699346,
+            0.19823232323232323,
+            0.6062091503267973,
+            0.2297979797979798
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "\\frac {d}{d t} u = u ^ {\\prime \\prime} + (k ^ {2} + \\mathrm{Ric} (S, S)) u\\tag{7}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.21241830065359477,
+            0.23737373737373738,
+            0.7826797385620915,
+            0.3282828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Assume that u was strictly positive everywhere at time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": "(in this case the curve is called a ramp). Then it will remain positive and bounded away from zero as long as the solution exists. Now combining (4) and (7) we can estimate the right hand side of the evolution equation for the ratio"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { k } { u } }"
+            },
+            {
+              "type": "text",
+              "content": "and conclude that this ratio, and hence the curvature"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ,"
+            },
+            {
+              "type": "text",
+              "content": "stays bounded (see"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\mathrm { A - G } , \\ S 2 ] )"
+            },
+            {
+              "type": "text",
+              "content": "). It follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is defined on the whole interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ t _ { 0 } , t _ { 1 } ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.32702020202020204,
+            0.7826797385620915,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4 Assume now that we have two ramp solutions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t } , c _ { 2 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ", each winding once around the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } _ { \\lambda } ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "factor. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "be the infimum of the areas of the annuli with boundary"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t } \\cup c _ { 2 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.4068627450980392,
+            0.3838383838383838,
+            0.5866013071895425,
+            0.41414141414141414
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "\\frac {d}{d t} \\mu^ {t} \\leq (2 n - 1) | \\mathrm{Rm} ^ {t} | \\mu^ {t},\\tag{8}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.21241830065359477,
+            0.42297979797979796,
+            0.7826797385620915,
+            0.5151515151515151
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mathrm { R m } ^ { t } |"
+            },
+            {
+              "type": "text",
+              "content": "denotes a bound on the absolute value of sectional curvatures of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Indeed, the curves"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 2 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ", being ramps, are embedded and without substantial loss of generality we may assume them to be disjoint. In this case the results of Morrey [M] and Hildebrandt [Hi] yield an analytic minimal annulus"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " immersed, except at most finitely many branch points, with prescribed boundary and with area"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": ". The rate of change of the area of A can be computed as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3137254901960784,
+            0.523989898989899,
+            0.6813725490196079,
+            0.5972222222222222
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "\\begin{array}{l} \\int_ {A} (- \\mathrm{Tr} (\\mathrm{Ric} ^ {T})) + \\int_ {\\partial A} (- k _ {g}) \\leq \\int_ {A} (- \\mathrm{Tr} (\\mathrm{Ric} ^ {T}) + K) \\\\ \\qquad \\leq \\int_ {A} (- \\mathrm{Tr} (\\mathrm{Ric} ^ {T}) + \\mathrm{Rm} ^ {T}) \\leq (2 n - 1) | \\mathrm{Rm} | \\mu , \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.21241830065359477,
+            0.6022727272727273,
+            0.7826797385620915,
+            0.6628787878787878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the first inequality comes from the Gauss-Bonnet theorem, with possible contribution of the branch points, and the second one is due to the fact that a minimal surface has nonpositive extrinsic curvature with respect to any normal vector."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.21241830065359477,
+            0.6628787878787878,
+            0.7826797385620915,
+            0.7853535353535354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.5 The estimate (8) implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "can grow at most exponentially; in particular, if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 2 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "were very close at time"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 0 } ."
+            },
+            {
+              "type": "text",
+              "content": "then they would be close for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in [ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "in the sense of minimal annulus area. In general this does not imply that the lengths of the curves are also close. However, an elementary argument shows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { i f } \\ \\epsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": "is small then, given any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r > 0"
+            },
+            {
+              "type": "text",
+              "content": ", one can find"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\mu } ,"
+            },
+            {
+              "type": "text",
+              "content": " depending only on r and on upper bound for sectional curvatures of the ambient space, such that if the length of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "is at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r ,"
+            },
+            {
+              "type": "text",
+              "content": "each arc of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "with length"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r"
+            },
+            {
+              "type": "text",
+              "content": "has total curvature at most"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon ,"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu ^ { t } \\leq \\bar { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( c _ { 2 } ^ { t } ) \\geq ( 1 - 1 0 \\bar { 0 } \\epsilon ) L ( c _ { 1 } ^ { t } /"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.21405228758169934,
+            0.8055555555555556,
+            0.4803921568627451,
+            0.8244949494949495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 Proof of lemma 1.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.21241830065359477,
+            0.8371212121212122,
+            0.5915032679738562,
+            0.8535353535353535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.1 In this section we prove the following statement"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21405228758169934,
+            0.15782828282828282,
+            0.7826797385620915,
+            0.2638888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let M be a closed three-manifold, and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( M , g ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "be a smooth solution to the Ricci flow on a finite time interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\subset \\Lambda M"
+            },
+            {
+              "type": "text",
+              "content": "is a compact family. Then for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi > 0"
+            },
+            {
+              "type": "text",
+              "content": "one can construct a continuous deformation"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma ^ { t } , t \\in"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ t _ { 0 } , t _ { 1 } ] , \\Gamma ^ { t _ { 0 } } = \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": ", such that for each curve"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": "either the value"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( c ^ { t _ { 1 } } , g ^ { t _ { 1 } } )"
+            },
+            {
+              "type": "text",
+              "content": "is bounded from above by ξ plus the value at"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = t _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "of the solution to the ODE "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\frac { d } { d t } w ( t ) = - 2 \\pi - \\frac { 1 } { 2 } R _ { \\mathrm { m i n } } ^ { t } w ( t ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "with the initial data"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w ( t _ { 0 } ) = A ( c ^ { t _ { 0 } } , g ^ { t _ { 0 } } )"
+            },
+            {
+              "type": "text",
+              "content": "or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\bar { L } ( c ^ { t _ { 1 } } ) \\leq \\xi ; } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "moreover,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i f c"
+            },
+            {
+              "type": "text",
+              "content": "was a constant map, then all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "are constant maps."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.21405228758169934,
+            0.2638888888888889,
+            0.7810457516339869,
+            0.29419191919191917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is clear that our statement implies lemma 1.2, because a family consisting of very short loops can not represent a nontrivial relative homotopy class."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.21241830065359477,
+            0.29419191919191917,
+            0.7826797385620915,
+            0.3547979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2 As a first step of the proof of the statement we can replace Γ by a family, which consists of piecewise geodesic loops with some large fixed number of vertices and with each segment reparametrized in some standard way to make the parametrizations of the whole curves twice continuously diferentiable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.3547979797979798,
+            0.7810457516339869,
+            0.5189393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now consider the manifold"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\lambda } = M \\times \\mathbb { S } _ { \\lambda } ^ { 1 } , 0 < \\lambda < 1"
+            },
+            {
+              "type": "text",
+              "content": ", and for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " consider the smooth embedded closed curve"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } c _ { \\lambda } ( x ) = c ( x )"
+            },
+            {
+              "type": "text",
+              "content": "and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 2 } c _ { \\lambda } ( x ) = \\lambda x"
+            },
+            {
+              "type": "text",
+              "content": "mod λ, where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "are projections of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": "to the first and second factor respectively, and x is the parameter of the curve c on the standard circle of length one. Using 2.3 we can construct a solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t } , t \\in [ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "to the curve shortening flow with initial data"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": ". The required deformation will be obtained as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma ^ { t } = p _ { 1 } \\Gamma _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "(where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "denotes the family consisting of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "for certain suficiently small"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda > 0"
+            },
+            {
+              "type": "text",
+              "content": ". We’ll verify that an appropriate λ can be found for each individual curve c, or for any finite number of them, and then show that if our λ works for all elements of a µ-net in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma ,"
+            },
+            {
+              "type": "text",
+              "content": "for suficiently small"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu > 0"
+            },
+            {
+              "type": "text",
+              "content": "4 then it works for all elements of Γ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.21405228758169934,
+            0.5202020202020202,
+            0.7810457516339869,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.3 In the following estimates we shall denote by C large constants that may depend on metrics"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ", family Γ and ξ, but are independent of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda , \\mu"
+            },
+            {
+              "type": "text",
+              "content": "and a particular curve c."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.21241830065359477,
+            0.5656565656565656,
+            0.7810457516339869,
+            0.6287878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first step in 3.2 implies that the lengths and total curvatures of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda }"
+            },
+            {
+              "type": "text",
+              "content": "are uniformly bounded, so by 2.1 the same is true for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that the area swept by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t } , t \\in [ t ^ { \\prime } , t ^ { \\prime \\prime } ] \\subset [ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "is bounded above by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { C } ( t ^ { \\prime \\prime } - t ^ { \\prime } )"
+            },
+            {
+              "type": "text",
+              "content": ", and therefore we have the estimates"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( p _ { 1 } c _ { \\lambda } ^ { t } , g ^ { t } ) \\leq C , A ( p _ { 1 } c _ { \\lambda } ^ { t ^ { \\prime \\prime } } , g ^ { t ^ { \\prime \\prime } } ) - A ( p _ { 1 } c _ { \\lambda } ^ { t ^ { \\prime } } , g ^ { t ^ { \\prime } } ) \\leq C ( t ^ { \\prime \\prime } - t ^ { \\prime } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.21405228758169934,
+            0.6287878787878788,
+            0.7810457516339869,
+            0.7512626262626263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.4 It follows from (5) that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\int _ { t _ { 0 } } ^ { t _ { 1 } } \\int k ^ { 2 } d s d t \\leq C } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Fix some large constant B, to be chosen later. Then there is a subset"
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { B } ( c _ { \\lambda } ) ~ \\subset ~ [ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "of measure at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } - t _ { 0 } - C B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\int k ^ { 2 } d s \\leq B"
+            },
+            {
+              "type": "text",
+              "content": ", hence kds"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leq \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": "on any arc of length"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\le \\epsilon ^ { 2 } B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Assuming that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "are at least that long, we can apply 2.2 and construct another subset"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c _ { \\lambda } ) \\subset [ t _ { 0 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "of measure at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } - t _ { 0 } - C B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "，consisting of finitely many intervals of measure at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { - 1 } B ^ { - 2 }"
+            },
+            {
+              "type": "text",
+              "content": "each, such that for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in J _ { B } ( c _ { \\lambda } )"
+            },
+            {
+              "type": "text",
+              "content": "we have pointwise estimates on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "for curvature and higher derivatives, of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\leq C B , . ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.21241830065359477,
+            0.7512626262626263,
+            0.7826797385620915,
+            0.8446969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now fix"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c , B"
+            },
+            {
+              "type": "text",
+              "content": ", and consider any sequence of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda  0"
+            },
+            {
+              "type": "text",
+              "content": ". Assume again that the lengths of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "are bounded below by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon ^ { 2 } B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", at least for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in [ t _ { 0 } , t _ { 2 } ]"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 2 } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } - B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Then an elementary argument shows that we can find a subsequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "and a subset"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c ) \\subset [ t _ { 0 } , t _ { 2 } ]"
+            },
+            {
+              "type": "text",
+              "content": "of measure at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } - t _ { 0 } - C B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", consisting of finitely many intervals, such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c ) \\subset J _ { B } ( c _ { \\lambda } )"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\Lambda _ { c }"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that on every interval of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c )"
+            },
+            {
+              "type": "text",
+              "content": "the curve shortening flows"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "smoothly converge"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.21405228758169934,
+            0.15782828282828282,
+            0.7287581699346405,
+            0.17297979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda  0"
+            },
+            {
+              "type": "text",
+              "content": "in some subsequence of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda _ { c } { \\bf \\Psi } )"
+            },
+            {
+              "type": "text",
+              "content": "to a curve shortening flow in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.21241830065359477,
+            0.17297979797979798,
+            0.7826797385620915,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w _ { c } ( t )"
+            },
+            {
+              "type": "text",
+              "content": "be the solution of the ODE"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\frac { d } { d t } w _ { c } ( t ) = - 2 \\pi - \\frac { 1 } { 2 } R _ { \\mathrm { m i n } } ^ { t } w _ { c } ( t ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "with initial data"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w _ { c } ( t _ { 0 } ) ~ = ~ A ( c , g ^ { t _ { 0 } } )"
+            },
+            {
+              "type": "text",
+              "content": ". Then for suficiently small"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\ \\in \\ \\Lambda _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( p _ { 1 } c _ { \\lambda } ^ { t } , g ^ { t } ) \\leq w _ { c } ( t ) + \\frac { 1 } { 2 } \\xi"
+            },
+            {
+              "type": "text",
+              "content": "provided that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B > C \\xi ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Indeed, on the intervals of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c )"
+            },
+            {
+              "type": "text",
+              "content": "we can estimate the change of A for the limit flow using the minimal disk argument as in 1.2, and this implies the corresponding estimate for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ p } _ { 1 } { c } _ { \\lambda } ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda \\in \\Lambda _ { c }"
+            },
+            {
+              "type": "text",
+              "content": "is small enough, whereas for the intervals of the complement of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { B } ( c )"
+            },
+            {
+              "type": "text",
+              "content": " we can use the estimate in 3.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.21241830065359477,
+            0.27904040404040403,
+            0.7810457516339869,
+            0.30934343434343436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, if our assumption on the lower bound for lengths does not hold, then it follows from (5) that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( c _ { \\lambda } ^ { t _ { 2 } } ) \\leq C B ^ { - 1 } \\leq \\frac { 1 } { 2 } \\xi } \\end{array}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.21241830065359477,
+            0.30934343434343436,
+            0.7826797385620915,
+            0.4810606060606061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.5 Now apply the previous argument to all elements of some finite µ-net "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\Gamma } \\subset \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": "for small"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu > 0"
+            },
+            {
+              "type": "text",
+              "content": "to be determined later. We get a"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda > 0"
+            },
+            {
+              "type": "text",
+              "content": "such that for each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { c } \\in \\hat { \\Gamma }"
+            },
+            {
+              "type": "text",
+              "content": "either"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { A ( p _ { 1 } \\hat { c } _ { \\lambda } ^ { t _ { 1 } } , g ^ { t _ { 1 } } ) \\leq w _ { \\hat { c } } ( t _ { 1 } ) + \\frac { 1 } { 2 } \\xi \\mathrm { o r } L ( \\hat { c } _ { \\lambda } ^ { t _ { 2 } } ) \\leq \\frac { 1 } { 2 } \\xi } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ". Now for any curve"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": " pick a curve"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { c } \\in \\hat { \\Gamma }"
+            },
+            {
+              "type": "text",
+              "content": ", µ-close to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ,"
+            },
+            {
+              "type": "text",
+              "content": "and apply the result of 2.4. It follows that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( p _ { 1 } \\hat { c } _ { \\lambda } ^ { t _ { 1 } } , g ^ { t _ { 1 } } ) \\leq w _ { \\hat { c } } ( t _ { 1 } ) + \\frac 1 2 \\xi"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\leq C ^ { - 1 } \\xi ,"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ( p _ { 1 } c _ { \\lambda } ^ { t _ { 1 } } , g ^ { t _ { 1 } } ) \\leq w _ { c } ( t _ { 1 } ) + \\xi"
+            },
+            {
+              "type": "text",
+              "content": ". On the other hand, if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( \\hat { c } _ { \\lambda } ^ { t _ { 2 } } ) \\leq \\frac { 1 } { 2 } \\xi } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", then we can conclude that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( c _ { \\lambda } ^ { t _ { 1 } } ) \\leq \\xi"
+            },
+            {
+              "type": "text",
+              "content": "provided that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu > 0"
+            },
+            {
+              "type": "text",
+              "content": "is small enough in comparison with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Indeed, if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( c _ { \\lambda } ^ { t _ { 1 } } ) > \\xi ,"
+            },
+            {
+              "type": "text",
+              "content": " then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( c _ { \\lambda } ^ { t } ) > \\frac { 3 } { 4 } \\xi } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in [ t _ { 2 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "; on the other hand, using (5) we can find a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t \\in [ t _ { 2 } , t _ { 1 } ]"
+            },
+            {
+              "type": "text",
+              "content": "], such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\int k ^ { 2 } d s \\dot { \\leq } C B"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\lambda } ^ { t } ;"
+            },
+            {
+              "type": "text",
+              "content": "hence, applying 2.5, we get"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( \\hat { c } _ { \\lambda } ^ { t } ) > \\frac { 2 } { 3 } \\xi } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " for this t, which is incompatible with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { L ( \\hat { c } _ { \\lambda } ^ { t _ { 2 } } ) \\leq \\frac { 1 } { 2 } \\xi . } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ". The proof of the statement 3.1 is complete."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.21405228758169934,
+            0.5037878787878788,
+            0.3431372549019608,
+            0.523989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.21405228758169934,
+            0.5366161616161617,
+            0.7794117647058824,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[A-G] S.Altschuler, M.Grayson Shortening space curves and flow through singularities. Jour. Dif. Geom. 35 (1992), 283-298."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.21568627450980393,
+            0.5669191919191919,
+            0.7777777777777778,
+            0.5959595959595959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[B] S.Bando Real analyticity of solutions of Hamilton’s equation. Math. Zeit. 195 (1987), 93-97."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.21568627450980393,
+            0.5959595959595959,
+            0.7794117647058824,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[E-Hu] K.Ecker, G.Huisken Interior estimates for hypersurfaces moving by mean curvature. Invent. Math. 105 (1991), 547-569."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.21568627450980393,
+            0.6262626262626263,
+            0.7794117647058824,
+            0.6565656565656566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[G-H] M.Gage, R.S.Hamilton The heat equation shrinking convex plane curves. Jour. Dif. Geom. 23 (1986), 69-96."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.21568627450980393,
+            0.6565656565656566,
+            0.7777777777777778,
+            0.6868686868686869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[H] R.S.Hamilton Non-singular solutions of the Ricci flow on three-manifolds. Commun. Anal. Geom. 7 (1999), 695-729."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.21568627450980393,
+            0.6868686868686869,
+            0.7777777777777778,
+            0.7159090909090909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[Hi] S.Hildebrandt Boundary behavior of minimal surfaces. Arch. Rat. Mech. Anal. 35 (1969), 47-82."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.21568627450980393,
+            0.7159090909090909,
+            0.7777777777777778,
+            0.7462121212121212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[M] C.B.Morrey The problem of Plateau on a riemannian manifold. Ann. Math. 49 (1948), 807-851."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.24019607843137256,
+            0.7474747474747475,
+            0.6650326797385621,
+            0.7626262626262627
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[P] G.Perelman Ricci flow with surgery on three-manifolds."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.238562091503268,
+            0.7638888888888888,
+            0.44281045751633985,
+            0.7765151515151515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "arXiv:math.DG/0303109 v1"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.4934640522875817,
+            0.8762626262626263,
+            0.5049019607843137,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

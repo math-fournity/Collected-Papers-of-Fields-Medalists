@@ -1,0 +1,5164 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.2337962962962963,
+            0.12573099415204678,
+            0.7685185185185185,
+            0.1608187134502924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A POLYNOMIAL INVARIANT FOR KNOTS VIA VON NEUMANN ALGEBRAS "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.3680555555555556,
+            0.17690058479532164,
+            0.6342592592592593,
+            0.19298245614035087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BY VAUGHAN F. R. JONES "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12037037037037036,
+            0.2134502923976608,
+            0.8819444444444444,
+            0.29678362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A theorem of J. Alexander [1] asserts that any tame oriented link in 3-space may be represented by a pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b, n)"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " is an element of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": "-string braid group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_n"
+            },
+            {
+              "type": "text",
+              "content": ". The link "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is obtained by closing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": ", i.e., tying the top end of each string to the same position on the bottom of the braid as shown in Figure 1. The closed braid will be denoted "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^\\wedge"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.30116959064327486,
+            0.8842592592592593,
+            0.35233918128654973
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the trivial link with n components is represented by the pair  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(1,n)"
+            },
+            {
+              "type": "text",
+              "content": " , and the unknot is represented by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(s_{1}s_{2}\\cdots s_{n-1},n)"
+            },
+            {
+              "type": "text",
+              "content": "  for any n, where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_{1},s_{2},\\ldots,s_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": "  are the usual generators for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12731481481481483,
+            0.3508771929824561,
+            0.8888888888888888,
+            0.5526315789473685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The second example shows that the correspondence of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": "  with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge}"
+            },
+            {
+              "type": "text",
+              "content": "  is many-to-one, and a theorem of A. Markov [15] answers, in theory, the question of when two braids represent the same link. A Markov move of type 1 is the replacement of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": "  by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(gbg^{-1},n)"
+            },
+            {
+              "type": "text",
+              "content": "  for any element g in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": ", and a Markov move of type 2 is the replacement of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": "  by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(bs_{n}^{\\pm1},n+1)"
+            },
+            {
+              "type": "text",
+              "content": ". Markov's theorem asserts that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(c,m)"
+            },
+            {
+              "type": "text",
+              "content": "  represent the same closed braid (up to link isotopy) if and only if they are equivalent for the equivalence relation generated by Markov moves of types 1 and 2 on the disjoint union of the braid groups. Unfortunately, although the conjugacy problem has been solved by F. Garside [8] within each braid group, there is no known algorithm to decide when  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(c,m)"
+            },
+            {
+              "type": "text",
+              "content": "  are equivalent. For a proof of Markov's theorem see J. Birman's book [4]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12962962962962962,
+            0.5511695906432749,
+            0.8912037037037037,
+            0.672514619883041
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The difficulty of applying Markov's theorem has made it difficult to use braids to study links. The main evidence that they might be useful was the existence of a representation of dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n - 1"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": " discovered by W. Burau in [5]. The representation has a parameter "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t"
+            },
+            {
+              "type": "text",
+              "content": ", and it turns out that the determinant of 1-(Burau matrix) gives the Alexander polynomial of the closed braid. Even so, the Alexander polynomial occurs with a normalization which seemed difficult to predict."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13194444444444445,
+            0.672514619883041,
+            0.8935185185185185,
+            0.7573099415204678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this note we introduce a polynomial invariant for tame oriented links via certain representations of the braid group. That the invariant depends only on the closed braid is a direct consequence of Markov's theorem and a certain trace formula, which was discovered because of the uniqueness of the trace on certain von Neumann algebras called type II "
+            },
+            {
+              "type": "equation_inline",
+              "content": "_{1}"
+            },
+            {
+              "type": "text",
+              "content": " factors."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13425925925925927,
+            0.7587719298245614,
+            0.8935185185185185,
+            0.8099415204678363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notation. In this paper the Alexander polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta"
+            },
+            {
+              "type": "text",
+              "content": " will always be normalized so that it is symmetric in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " and satisfies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta(1) = 1"
+            },
+            {
+              "type": "text",
+              "content": " as in Conway's tables in [6]."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 8,
+          "bbox": [
+            0.12268518518518519,
+            0.06578947368421052,
+            0.4537037037037037,
+            0.09649122807017543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BULLETIN (New Series) OF THE AMERICAN MATHEMATICAL SOCIETY Volume 12, Number 1, January 1985"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 9,
+          "bbox": [
+            0.16203703703703703,
+            0.8157894736842105,
+            0.5138888888888888,
+            0.8318713450292398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Received by the editors August 15, 1984."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 10,
+          "bbox": [
+            0.16203703703703703,
+            0.8289473684210527,
+            0.7731481481481481,
+            0.8435672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1980 Mathematics Subject Classification. Primary 57M25; Secondary 46L10."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 11,
+          "bbox": [
+            0.16203703703703703,
+            0.8421052631578947,
+            0.7013888888888888,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            },
+            {
+              "type": "text",
+              "content": " Research partially supported by NSF grant no. MCS-8311687."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 12,
+          "bbox": [
+            0.16203703703703703,
+            0.8538011695906432,
+            0.5185185185185185,
+            0.8698830409356725
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            },
+            {
+              "type": "text",
+              "content": " The author is a Sloan foundation fellow."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.5902777777777778,
+            0.8669590643274854,
+            0.8935185185185185,
+            0.8903508771929824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "©1985 American Mathematical Society\n0273-0979/85 $1.00 + $.25 per page"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.5,
+            0.8888888888888888,
+            0.5347222222222222,
+            0.9005847953216374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.17592592592592593,
+            0.09649122807017543,
+            0.8263888888888888,
+            0.28654970760233917
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.17592592592592593,
+                0.09649122807017543,
+                0.8263888888888888,
+                0.28654970760233917
+              ],
+              "image_path": "images/page_1_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.4398148148148148,
+                0.2997076023391813,
+                0.5462962962962963,
+                0.3172514619883041
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "FIGURE 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12037037037037036,
+            0.3201754385964912,
+            0.8773148148148148,
+            0.38742690058479534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While investigating the index of a subfactor of a type  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "II_{1}"
+            },
+            {
+              "type": "text",
+              "content": "  factor, the author was led to analyze certain finite-dimensional von Neumann algebras  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  generated by an identity 1 and n projections, which we shall call  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_{1}, e_{2}, \\ldots, e_{n}"
+            },
+            {
+              "type": "text",
+              "content": " . They satisfy the relations"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.16666666666666666,
+            0.3888888888888889,
+            0.3587962962962963,
+            0.40789473684210525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(I) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_i^2 = e_i, e_i^* = e_i,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1574074074074074,
+            0.40789473684210525,
+            0.4305555555555556,
+            0.42543859649122806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(II) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_i e_{i \\pm 1} e_i = t / (1 + t)^2 e_i"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15046296296296297,
+            0.42543859649122806,
+            0.44212962962962965,
+            0.4444444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(III) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_i e_j = e_j e_i"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|i - j| \\geq 2"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12037037037037036,
+            0.4444444444444444,
+            0.8819444444444444,
+            0.5277777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here t is a complex number. It has been shown by H. Wenzl [24] that an arbitrarily large family of such projections can only exist if t is either real and positive or  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{\\pm2\\pi i/k}"
+            },
+            {
+              "type": "text",
+              "content": "  for some  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = 3, 4, 5, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . When t is one of these numbers, there exists such an algebra for all n possessing a trace tr:  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n} \\to C"
+            },
+            {
+              "type": "text",
+              "content": "  completely determined by the normalization  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{tr}(1) = 1"
+            },
+            {
+              "type": "text",
+              "content": "  and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15046296296296297,
+            0.5277777777777778,
+            0.35648148148148145,
+            0.5467836257309941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(IV) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{tr}(ab) = \\operatorname{tr}(ba)"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1574074074074074,
+            0.5467836257309941,
+            0.6180555555555556,
+            0.5657894736842105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(V) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{tr}(we_{n+1}) = t / (1 + t)^2 \\operatorname{tr}(w)"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w"
+            },
+            {
+              "type": "text",
+              "content": " is in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_n"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15046296296296297,
+            0.5657894736842105,
+            0.4027777777777778,
+            0.5833333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(VI) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{tr}(a^* a) > 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\neq 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.5833333333333334,
+            0.2777777777777778,
+            0.6008771929824561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(note "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_0 = \\mathbf{C}"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12268518518518519,
+            0.6008771929824561,
+            0.8819444444444444,
+            0.6695906432748538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conditions (I)-(VI) determine the structure of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " up to *-isomorphism. This fact was proved in [9], and a more detailed description appears in [10]. Remember that a finite-dimensional von Neumann algebra is just a product of matrix algebras, the * operation being conjugate-transpose."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.6681286549707602,
+            0.8819444444444444,
+            0.7865497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For real t, D. Evans pointed out that an explicit representation of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  on  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{2n+2}"
+            },
+            {
+              "type": "text",
+              "content": "  was discovered by H. Temperley and E. Lieb [23], who used it to show the equivalence of the Potts and ice-type models of statistical mechanics. A readable account of this can be found in R. Baxter's book [2]. This representation was rediscovered in the von Neumann algebra context by M. Pimsner and S. Popa [18], who also found that the trace tr is given by the restriction of the Powers state with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = \\lambda"
+            },
+            {
+              "type": "text",
+              "content": "  (see [18])."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.7865497076023392,
+            0.8819444444444444,
+            0.8216374269005848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the roots of unity the algebras "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": " are intimately connected with Coxeter groups in a way that is far from understood."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.12731481481481483,
+            0.8216374269005848,
+            0.8842592592592593,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The similarity between relations (II) and (III) and Artin's presentation of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": "-string braid group,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.1875,
+            0.8698830409356725,
+            0.8217592592592593,
+            0.8888888888888888
+          ],
+          "image_path": "images/page_1_equation_15.jpg",
+          "content": "\\left\\{s _ {1}, s _ {2}, \\dots , s _ {n} \\colon s _ {i} s _ {i + 1} s _ {i} = s _ {i + 1} s _ {i} s _ {i + 1}, s _ {i} s _ {j} = s _ {j} s _ {i} \\text {if} | i - j | \\geq 2 \\right\\},"
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.12037037037037036,
+            0.06578947368421052,
+            0.1550925925925926,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "104"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.42824074074074076,
+            0.06578947368421052,
+            0.5694444444444444,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. F. R. JONES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12037037037037036,
+            0.10087719298245613,
+            0.8773148148148148,
+            0.15204678362573099
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "was first pointed out by D. Hatt and P. de la Harpe. It transpires that if one defines  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_{i} = \\sqrt{t}(te_{i} - (1 - e_{i}))"
+            },
+            {
+              "type": "text",
+              "content": " , the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  satisfy the correct relations, and one obtains representations  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}"
+            },
+            {
+              "type": "text",
+              "content": "  of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  by sending  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  to  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_{i}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12268518518518519,
+            0.1564327485380117,
+            0.8796296296296297,
+            0.19298245614035087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 1. The number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(- (t + 1) / \\sqrt{t})^{n - 1}\\operatorname {tr}(r_t(b))"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": " depends only on the isotopy class of the closed braid "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12037037037037036,
+            0.19736842105263158,
+            0.8796296296296297,
+            0.2324561403508772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "DEFINITION. If L is a tame oriented classical link, the trace invariant  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(t)"
+            },
+            {
+              "type": "text",
+              "content": "  is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3287037037037037,
+            0.23684210526315788,
+            0.6736111111111112,
+            0.2573099415204678
+          ],
+          "image_path": "images/page_2_equation_3.jpg",
+          "content": "V _ {L} (t) = (- (t + 1) / \\sqrt {t}) ^ {n - 1} \\operatorname{tr} \\left(r _ {t} (b)\\right)"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12037037037037036,
+            0.26169590643274854,
+            0.4375,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b,n)"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge} = L"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14814814814814814,
+            0.2777777777777778,
+            0.6365740740740741,
+            0.29678362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Hecke algebra approach shows the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12268518518518519,
+            0.3026315789473684,
+            0.8819444444444444,
+            0.35526315789473684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 2. If the link L has an odd number of components,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(t)"
+            },
+            {
+              "type": "text",
+              "content": "  is a Laurent polynomial over the integers. If the number of components is even,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(t)"
+            },
+            {
+              "type": "text",
+              "content": "  is  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{t}"
+            },
+            {
+              "type": "text",
+              "content": "  times a Laurent polynomial."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12268518518518519,
+            0.35964912280701755,
+            0.8819444444444444,
+            0.4444444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The reader may have observed that the von Neumann algebra structure (i.e., the * operation) and condition (VI) are redundant for the definition of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(t)"
+            },
+            {
+              "type": "text",
+              "content": " . This explains why  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}"
+            },
+            {
+              "type": "text",
+              "content": "  can be extended to all values of t except 0. However, it must be pointed out that for positive t and the relevant roots of unity, the presence of positivity gives a powerful method of proof."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12268518518518519,
+            0.4444444444444444,
+            0.8796296296296297,
+            0.4780701754385965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The trace invariant depends on the oriented link but not on the chosen orientation. Let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^{\\sim}"
+            },
+            {
+              "type": "text",
+              "content": "  denote the mirror image link of L."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15046296296296297,
+            0.48391812865497075,
+            0.4837962962962963,
+            0.5029239766081871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 3. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}\\sim (t) = V_{L}(1 / t)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12268518518518519,
+            0.5087719298245614,
+            0.8819444444444444,
+            0.5745614035087719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the trace invariant can be used to detect a lack of amphicheirality. It seems to be very good at this. A glance at Table 1 shows that it distinguishes the trefoil knot from its mirror image and hence, via Theorem 6, it distinguishes the two granny knots and the square knot."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1527777777777778,
+            0.5745614035087719,
+            0.6851851851851852,
+            0.5921052631578947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CONJECTURE 4. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is not amphicheiral, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L^{\\sim}} \\neq V_L"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12268518518518519,
+            0.5921052631578947,
+            0.8819444444444444,
+            0.6608187134502924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is some evidence for this conjecture, but only $10 hangs on it. In this direction we have the following result, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " is in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_n"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_+"
+            },
+            {
+              "type": "text",
+              "content": " is the sum of the positive exponents of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_-"
+            },
+            {
+              "type": "text",
+              "content": " is the (unsigned) sum of the negative ones in some expression for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " as a word on the usual generators."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1527777777777778,
+            0.6652046783625731,
+            0.8819444444444444,
+            0.6827485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 5. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_{+} - 3b_{-} - n + 1"
+            },
+            {
+              "type": "text",
+              "content": " is positive, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge}"
+            },
+            {
+              "type": "text",
+              "content": " is not amphicheiral."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.125,
+            0.6900584795321637,
+            0.8819444444444444,
+            0.7558479532163743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_{-} = 0"
+            },
+            {
+              "type": "text",
+              "content": ", i.e., positive braids, this follows from a recent result of L. Rudolf [21]. Also, if the condition of the theorem holds, we conclude that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge}"
+            },
+            {
+              "type": "text",
+              "content": " is not the unknot. This is similar in kind to a recent result of D. Bennequin [3]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.7558479532163743,
+            0.8842592592592593,
+            0.8084795321637427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The connected sum of two links can be handled in the braid group provided one pays proper attention to the components being joined. Let us ignore the subtleties and state the following (where # denotes the connected sum)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.1527777777777778,
+            0.8128654970760234,
+            0.4930555555555556,
+            0.8318713450292398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 6. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L_1\\# L_2} = V_{L_1}V_{L_2}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.8377192982456141,
+            0.8842592592592593,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As evidence for the power of the trace invariant, let us answer two questions posed in [4]. Both proofs are motivated by the fact, shown in [10], that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}(B_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  is sometimes finite."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.30787037037037035,
+            0.06725146198830409,
+            0.6944444444444444,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A POLYNOMIAL INVARIÀNT FOR KNOTS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.8449074074074074,
+            0.07017543859649122,
+            0.8773148148148148,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12037037037037036,
+            0.097953216374269,
+            0.8773148148148148,
+            0.15058479532163743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 7. For every n there are infinitely many words in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n+1}"
+            },
+            {
+              "type": "text",
+              "content": "  which give close braids inequivalent to closed braids coming from elements of the form  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Us_{n}^{-1}Vs_{n}"
+            },
+            {
+              "type": "text",
+              "content": " , where U and V are in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.125,
+            0.1652046783625731,
+            0.8796296296296297,
+            0.20029239766081872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explicit examples are easy to find; e.g., all but a finite number of powers of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_1^{-1}s_2s_3"
+            },
+            {
+              "type": "text",
+              "content": " will do."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12268518518518519,
+            0.2149122807017544,
+            0.8819444444444444,
+            0.2675438596491228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 8 (SEE [4 P. 217, Q. 8]). If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " is in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{n}"
+            },
+            {
+              "type": "text",
+              "content": " and there is an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k"
+            },
+            {
+              "type": "text",
+              "content": " greater than 3 for which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\in \\ker r_{t}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = e^{2\\pi i / k}"
+            },
+            {
+              "type": "text",
+              "content": ", then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge}"
+            },
+            {
+              "type": "text",
+              "content": " has braid index "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12037037037037036,
+            0.28362573099415206,
+            0.8773148148148148,
+            0.3333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here the braid index of a link "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is the smallest "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " for which there is a pair "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(b, n)"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{\\wedge} = L"
+            },
+            {
+              "type": "text",
+              "content": ". The kernel of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_t"
+            },
+            {
+              "type": "text",
+              "content": " is not hard to get into for these values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.35233918128654973,
+            0.8796296296296297,
+            0.38742690058479534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 9. If the greatest common divisor of the exponents of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\in B_n"
+            },
+            {
+              "type": "text",
+              "content": " is more than 1, then the braid index of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^\\wedge"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12037037037037036,
+            0.40058479532163743,
+            0.8773148148148148,
+            0.4678362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "More interesting examples can be obtained by using generators and relations for certain finite groups; e.g., the finite simple group of order 25,920 (see [10, 7]). In general, the trace invariant can probably be used to determine the braid index in a great many cases."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.14583333333333334,
+            0.4678362573099415,
+            0.7175925925925926,
+            0.48391812865497075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note also that the trace invariant detects the kernel of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12037037037037036,
+            0.49707602339181284,
+            0.875,
+            0.5350877192982456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 10. For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = e^{2\\pi i / k}, k = 3,4,5,\\ldots"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{b^{\\wedge}}(t) = (-2\\cos \\pi /k)^{n - 1}"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b\\in \\ker r_t"
+            },
+            {
+              "type": "text",
+              "content": " (for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b\\in B_n"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.5467836257309941,
+            0.8796296296296297,
+            0.5833333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 11. For transcendental "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\in \\ker r_t"
+            },
+            {
+              "type": "text",
+              "content": " if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{b^{\\wedge}}(t) = (-(t + 1)/\\sqrt{t})^{n-1}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.14814814814814814,
+            0.597953216374269,
+            0.6550925925925926,
+            0.6154970760233918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For transcendental "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_t"
+            },
+            {
+              "type": "text",
+              "content": " is very likely to be faithful."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12037037037037036,
+            0.6154970760233918,
+            0.8796296296296297,
+            0.6827485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is an alternate way to calculate  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}"
+            },
+            {
+              "type": "text",
+              "content": "  without first converting L into a closed braid. In [6] Conway describes a method for rapidly computing the Alexander polynomials of links inductively. In fact, his first identity suffices in principle—see [11]. This identity is as follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12037037037037036,
+            0.6827485380116959,
+            0.8796296296296297,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^{+}, L^{-}"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " be links related as in Figure 2, the rest of the links being identical. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta_{L^{+}} - \\Delta_{L^{-}} = (\\sqrt{t} - 1 / \\sqrt{t})\\Delta_{L}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.20601851851851852,
+            0.7675438596491229,
+            0.8032407407407407,
+            0.8581871345029239
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.20601851851851852,
+                0.7675438596491229,
+                0.8032407407407407,
+                0.8581871345029239
+              ],
+              "image_path": "images/page_3_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.45601851851851855,
+                0.8845029239766082,
+                0.5625,
+                0.9005847953216374
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "FIGURE 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.12268518518518519,
+            0.06578947368421052,
+            0.1550925925925926,
+            0.07894736842105263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "106"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.42824074074074076,
+            0.06578947368421052,
+            0.5717592592592593,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. F. R. JONES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.14318706697459585,
+            0.097953216374269,
+            0.45727482678983833,
+            0.1154970760233918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the trace invariant we have"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14549653579676675,
+            0.11842105263157894,
+            0.6466512702078522,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 12. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / tV_{L^{-}} - tV_{L^{+}} = (\\sqrt{t} - 1 / \\sqrt{t})V_{L}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.14549653579676675,
+            0.14473684210526316,
+            0.6859122401847575,
+            0.16228070175438597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 13. For any link "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(-1) = \\Delta_{L}(-1)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11778290993071594,
+            0.16812865497076024,
+            0.8752886836027713,
+            0.22076023391812866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That the trace invariant may always be calculated by using Theorem 12 follows from the proof of the same thing for the Alexander polynomial. We urge the reader to try this method on, say, the trefoil knot."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11778290993071594,
+            0.21929824561403508,
+            0.8752886836027713,
+            0.2543859649122807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The special nature of the algebras  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  when t is a relevant root of unity can be exploited to give information about  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}"
+            },
+            {
+              "type": "text",
+              "content": "  at these values."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14780600461893764,
+            0.25877192982456143,
+            0.6651270207852193,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 14. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a knot then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{K}(e^{2\\pi \\imath /3}) = 1"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12240184757505773,
+            0.2850877192982456,
+            0.8775981524249422,
+            0.3201754385964912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 15. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}(1) = (-2)^{p - 1}"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is the number of components of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12009237875288684,
+            0.3260233918128655,
+            0.8775981524249422,
+            0.3611111111111111
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A more subtle analysis at t = 1 via the Temperley-Lieb-Pimsner-Popa representation gives the next result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.14780600461893764,
+            0.3669590643274854,
+            0.6628175519630485,
+            0.38596491228070173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 16. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a knot then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d / dtV_K(1) = 0"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.14780600461893764,
+            0.391812865497076,
+            0.8267898383371824,
+            0.4093567251461988
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is thus sensible to simplify the trace invariant for knots as follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14780600461893764,
+            0.4093567251461988,
+            0.8775981524249422,
+            0.4269005847953216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "DEFINITION 17. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a knot, define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{K}"
+            },
+            {
+              "type": "text",
+              "content": " to be the Laurent polynomial"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3140877598152425,
+            0.4298245614035088,
+            0.6812933025404158,
+            0.44883040935672514
+          ],
+          "image_path": "images/page_4_equation_11.jpg",
+          "content": "W _ {K} (t) = \\left(1 - V _ {K} (t)\\right) / \\left(1 - t ^ {3}\\right) (1 - t)."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12009237875288684,
+            0.4546783625730994,
+            0.8775981524249422,
+            0.5073099415204678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Amphicheirality is less obvious for W. In fact,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{K}\\sim(t)=1/t^{4}W_{K}(1/t)"
+            },
+            {
+              "type": "text",
+              "content": " . It is amusing that for W the unknot is 0 and the trefoil is 1. The connected sum is also less easy to see in the W picture. For the record the formula is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.2471131639722864,
+            0.5102339181286549,
+            0.7505773672055427,
+            0.5307017543859649
+          ],
+          "image_path": "images/page_4_equation_13.jpg",
+          "content": "W _ {K _ {1} \\# K _ {2}} = W _ {K _ {1}} + W _ {K _ {2}} - (1 - t) (1 - t ^ {3}) W _ {K _ {1}} W _ {K _ {2}}."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.14780600461893764,
+            0.5350877192982456,
+            0.6027713625866051,
+            0.5526315789473685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 18. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta_K(-1) \\equiv 1"
+            },
+            {
+              "type": "text",
+              "content": " or 5 (mod 8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.12009237875288684,
+            0.5599415204678363,
+            0.8775981524249422,
+            0.5950292397660819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = i"
+            },
+            {
+              "type": "text",
+              "content": " the algebras "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": " are the complex Clifford algebras. This together with a recent result of J. Lannes [13] allows one to show the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.14780600461893764,
+            0.6008771929824561,
+            0.8083140877598153,
+            0.6198830409356725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 19. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a knot the Arf invariant is of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{K}(i)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.12240184757505773,
+            0.6257309941520468,
+            0.8775981524249422,
+            0.6608187134502924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 20. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta_K(-1) = 1"
+            },
+            {
+              "type": "text",
+              "content": " or 5 (mod 8) when the Arf invariant is 0 or 1, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.12240184757505773,
+            0.6666666666666666,
+            0.8775981524249422,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is an alternate proof of a result in Levine [14]; also see [11, p. 155]. Note also that Corollary 20 allows one to define an Arf invariant for links as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V(i)"
+            },
+            {
+              "type": "text",
+              "content": ". It may be zero and is always plus or minus a power of two otherwise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.12240184757505773,
+            0.7178362573099415,
+            0.8799076212471132,
+            0.8026315789473685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The values of V at  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{\\pi\\imath/3}"
+            },
+            {
+              "type": "text",
+              "content": "  are also of considerable interest, as the algebra  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  is then related to a kind of cubic Clifford algebra. Also, in this case,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}(B_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  is always a finite group, so one can obtain a rapid method for calculating  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V(t)"
+            },
+            {
+              "type": "text",
+              "content": "  without knowing V completely. We have included this value of V in the tables. Note that it is always in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 + 2\\mathbf{Z}(e^{\\imath\\pi/3})"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.12240184757505773,
+            0.8026315789473685,
+            0.8822170900692841,
+            0.9049707602339181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is yet a third way to calculate the trace invariant. The decomposition of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  as a direct sum of matrix algebras is known [10], and H. Wenzl has explicit formulae for the (irreducible) representations of the braid group in each direct summand. So in principle this method could always be used. This brings in the Burau representation as a direct summand of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}"
+            },
+            {
+              "type": "text",
+              "content": " . For 3 and 4 braids this allows one to deduce some powerful relations with the"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 21,
+          "bbox": [
+            0.2979214780600462,
+            0.06578947368421052,
+            0.6859122401847575,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A POLYNOMIAL INVARIANT FOR KNOTS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.836027713625866,
+            0.06578947368421052,
+            0.8683602771362586,
+            0.07894736842105263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12037037037037036,
+            0.097953216374269,
+            0.8773148148148148,
+            0.15058479532163743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Alexander polynomial. An application of Theorem 16 allows one to determine the normalization of the Alexander polynomial in the Burau matrix for proper knots, and one has the following formulae."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14583333333333334,
+            0.1564327485380117,
+            0.8472222222222222,
+            0.1739766081871345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 21. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_3"
+            },
+            {
+              "type": "text",
+              "content": " has exponent sum "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^\\wedge"
+            },
+            {
+              "type": "text",
+              "content": " is a knot, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2152777777777778,
+            0.17690058479532164,
+            0.7800925925925926,
+            0.195906432748538
+          ],
+          "image_path": "images/page_5_equation_2.jpg",
+          "content": "V _ {b ^ {\\wedge}} (t) = t ^ {e / 2} \\left(1 + t ^ {e} + \\dot {t} + 1 / t - t ^ {e / 2 - 1} \\left(1 + t + t ^ {2}\\right) \\Delta_ {b ^ {\\wedge}} (t)\\right)."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.14583333333333334,
+            0.19883040935672514,
+            0.8449074074074074,
+            0.21783625730994152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 22. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_4"
+            },
+            {
+              "type": "text",
+              "content": " has exponent sum "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^\\wedge"
+            },
+            {
+              "type": "text",
+              "content": " is a knot, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.18981481481481483,
+            0.21783625730994152,
+            0.8125,
+            0.26169590643274854
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "\\begin{array}{c} t ^ {- e} V (t) + t ^ {e} V (1 / t) = (t ^ {- 3 / 2} + t ^ {- 1 / 2} + t ^ {1 / 2} + t ^ {3 / 2}) (t ^ {e / 2} + t ^ {- e / 2}) \\\\ - (t ^ {- 2} + t ^ {- 1} + 2 + t + t ^ {2}) \\Delta (t) \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12268518518518519,
+            0.2646198830409357,
+            0.4375,
+            0.28362573099415206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = V_{b^{\\wedge}}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta = \\Delta_{b^{\\wedge}}"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12037037037037036,
+            0.2909356725146199,
+            0.8796296296296297,
+            0.34210526315789475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These formulas have many interesting consequences. They show that, except in special cases, e is a knot invariant. They also give many obstructions to being closed 3 and 4 braids."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12037037037037036,
+            0.347953216374269,
+            0.8819444444444444,
+            0.3845029239766082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 23. If K is a knot and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\Delta_{K}(i)| > 3"
+            },
+            {
+              "type": "text",
+              "content": " , then K cannot be represented as a closed 3 braid."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12037037037037036,
+            0.391812865497076,
+            0.8819444444444444,
+            0.42543859649122806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Of the 59 knots with 9 crossings or less which are known not to be closed 3 braids, this simple criterion establishes the result for 43 of them, at a glance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12268518518518519,
+            0.4327485380116959,
+            0.8819444444444444,
+            0.4678362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 24. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is a knot and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta_K(e^{2\\pi i / 5}) > 6.5"
+            },
+            {
+              "type": "text",
+              "content": ", then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " cannot be represented as a closed 4 braid."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12268518518518519,
+            0.47368421052631576,
+            0.8819444444444444,
+            0.5248538011695907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For n > 4 there should be no simple relation with the Alexander polynomial, since the other direct summands of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r_{t}"
+            },
+            {
+              "type": "text",
+              "content": "  look less and less like Burau representations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12268518518518519,
+            0.5248538011695907,
+            0.8819444444444444,
+            0.6081871345029239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In conclusion, we would like to point out that the q-state Potts model could be solved if one understood enough about the trace invariant for braids resembling certain braids discovered by sailors and known variously as the “French sinnet” (sennit) or the “tresse anglaise”, depending on the nationality of the sailor. See  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[21, p. 90]"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12268518518518519,
+            0.6067251461988304,
+            0.8842592592592593,
+            0.6593567251461988
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The author would like to thank Joan Birman. It was because of a long discussion with her that the relation between condition (V) and Markov's theorem became clear."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.6652046783625731,
+            0.8819444444444444,
+            0.7002923976608187
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Tables. A single example should serve to explain how to read the tables. The knot  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8_{8}"
+            },
+            {
+              "type": "text",
+              "content": "  has trace invariant"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.24074074074074073,
+            0.7046783625730995,
+            0.7662037037037037,
+            0.7236842105263158
+          ],
+          "image_path": "images/page_5_equation_14.jpg",
+          "content": "t ^ {- 3} \\left(- 1 + 2 t - 3 t ^ {2} + 5 t ^ {3} - 4 t ^ {4} + 4 t ^ {5} - 3 t ^ {6} + 2 t ^ {7} - t ^ {8}\\right)."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.12731481481481483,
+            0.7266081871345029,
+            0.3101851851851852,
+            0.7441520467836257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Its "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": " invariant is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.3773148148148148,
+            0.7412280701754386,
+            0.6365740740740741,
+            0.7616959064327485
+          ],
+          "image_path": "images/page_5_equation_16.jpg",
+          "content": "t ^ {- 3} (1 - t + 2 t ^ {2} - t ^ {3} + t ^ {4})."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.12731481481481483,
+            0.7660818713450293,
+            0.4398148148148148,
+            0.783625730994152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A braid representation for it is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.37962962962962965,
+            0.7880116959064327,
+            0.6388888888888888,
+            0.8099415204678363
+          ],
+          "image_path": "images/page_5_equation_18.jpg",
+          "content": "s _ {1} ^ {- 1} s _ {2} s _ {1} ^ {2} s _ {3} ^ {- 1} s _ {2} ^ {2} s _ {3} ^ {- 2} \\quad \\text { in } B _ {4}."
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.12962962962962962,
+            0.8157894736842105,
+            0.3819444444444444,
+            0.8333333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w = e^{\\pi i / 3}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.12731481481481483,
+            0.8333333333333334,
+            0.8888888888888888,
+            0.9049707602339181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ADDED IN PROOF. The similarity between the relation of Theorem 12 and Conway's relation has led several authors to a two-variable generalization of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{L}"
+            },
+            {
+              "type": "text",
+              "content": " . This has been done (independently) by Lickorish and Millett, Ocneanu, Freyd and Yetter, and Hoste."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.12037037037037036,
+            0.06725146198830409,
+            0.1550925925925926,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "108"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 22,
+          "bbox": [
+            0.42824074074074076,
+            0.06578947368421052,
+            0.5717592592592593,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. F. R. JONES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1793103448275862,
+            0.09635036496350365,
+            0.7954022988505747,
+            0.11532846715328467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TABLE 1. The trace invariant for prime knots to 8 crossings."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.11494252873563218,
+            0.12408759124087591,
+            0.3103448275862069,
+            0.1416058394160584
+          ],
+          "image_path": "images/page_6_equation_1.jpg",
+          "content": "\\text { knot } | \\text {   braid   rep.   }"
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.4068965517241379,
+            0.12554744525547445,
+            0.5379310344827586,
+            0.145985401459854
+          ],
+          "image_path": "images/page_6_equation_2.jpg",
+          "content": "\\left| \\mathbf {p} _ {0} \\right| \\text { pol } (v)"
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.632183908045977,
+            0.12700729927007298,
+            0.8367816091954023,
+            0.14744525547445256
+          ],
+          "image_path": "images/page_6_equation_3.jpg",
+          "content": "| \\mathbf {V} (\\mathbf {w}) | \\mathbf {p} _ {0} | \\text { pol } (\\mathbf {w})"
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.4114942528735632,
+            0.15474452554744525,
+            0.4850574712643678,
+            0.17226277372262774
+          ],
+          "image_path": "images/page_6_equation_4.jpg",
+          "content": "\\left| \\begin{array}{c c} 0 & 1 \\end{array} \\right."
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.41379310344827586,
+            0.17518248175182483,
+            0.5333333333333333,
+            0.1897810218978102
+          ],
+          "image_path": "images/page_6_equation_5.jpg",
+          "content": "\\left| \\begin{array}{c c} 1 & 1 0 1 - 1 \\end{array} \\right."
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.12183908045977011,
+            0.1897810218978102,
+            0.27816091954022987,
+            0.20875912408759123
+          ],
+          "image_path": "images/page_6_equation_6.jpg",
+          "content": "{ } _ { 4 } ^ { - } \\mid { } _ { 1 } { } _ { 2 } ^ { - 1 } { } _ { 1 } { } _ { 2 } ^ { - 1 }"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.41379310344827586,
+            0.1927007299270073,
+            0.5586206896551724,
+            0.20875912408759123
+          ],
+          "image_path": "images/page_6_equation_7.jpg",
+          "content": "\\mid - 2 \\mid 1 - 1 1 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.6413793103448275,
+            0.17372262773722627,
+            0.7862068965517242,
+            0.19124087591240876
+          ],
+          "image_path": "images/page_6_equation_8.jpg",
+          "content": "\\mid \\mathbf {i} \\sqrt {3} \\quad \\mid 0 \\quad \\mid 1"
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.639080459770115,
+            0.1927007299270073,
+            0.7977011494252874,
+            0.20875912408759123
+          ],
+          "image_path": "images/page_6_equation_9.jpg",
+          "content": "\\vert - 1 \\quad \\vert - 2 \\vert - 1"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.12413793103448276,
+            0.20875912408759123,
+            0.20689655172413793,
+            0.22773722627737225
+          ],
+          "image_path": "images/page_6_equation_10.jpg",
+          "content": "\\mathbf {5} _ {1} \\mid \\mathbf {1} ^ {5}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.41379310344827586,
+            0.2116788321167883,
+            0.5701149425287356,
+            0.22773722627737225
+          ],
+          "image_path": "images/page_6_equation_11.jpg",
+          "content": "\\mid 2 \\quad \\mid 1 0 1 - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.12413793103448276,
+            0.22627737226277372,
+            0.28045977011494255,
+            0.24671532846715327
+          ],
+          "image_path": "images/page_6_equation_12.jpg",
+          "content": "\\mathbf {5} _ {2} ^ {\\perp} \\mid 2 ^ {2} \\mathbf {1} ^ {- 1} \\mathbf {2} \\mathbf {1} ^ {2}"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.41379310344827586,
+            0.23065693430656933,
+            0.5839080459770115,
+            0.24671532846715327
+          ],
+          "image_path": "images/page_6_equation_13.jpg",
+          "content": "\\mid 1 \\quad \\mid 1 - 1 2 - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.639080459770115,
+            0.2116788321167883,
+            0.8229885057471265,
+            0.24671532846715327
+          ],
+          "image_path": "images/page_6_equation_14.jpg",
+          "content": "\\begin{array}{l l} \\mid - 1 & \\quad \\mid 0 \\quad \\mid 1 1 0 1 \\\\ \\mid - 1 & \\quad \\mid 0 \\quad \\mid 1 0 1 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.12413793103448276,
+            0.24525547445255474,
+            0.3632183908045977,
+            0.2656934306569343
+          ],
+          "image_path": "images/page_6_equation_15.jpg",
+          "content": "6 _ {1} \\mid 1 2 ^ {- 1} 1 3 ^ {- 1} 2 3 ^ {- 1} 2 ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.6413793103448275,
+            0.24963503649635035,
+            0.8344827586206897,
+            0.2656934306569343
+          ],
+          "image_path": "images/page_6_equation_16.jpg",
+          "content": "\\mid \\mathbf {i} \\sqrt {3} \\quad \\mid - 4 \\mid - 1 0 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.12413793103448276,
+            0.2656934306569343,
+            0.2942528735632184,
+            0.2846715328467153
+          ],
+          "image_path": "images/page_6_equation_17.jpg",
+          "content": "6 _ {2} \\mid 1 ^ {- 1} 2 1 ^ {- 1} 2 ^ {3}"
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.41379310344827586,
+            0.2686131386861314,
+            0.5977011494252874,
+            0.2846715328467153
+          ],
+          "image_path": "images/page_6_equation_18.jpg",
+          "content": "\\mid - 1 \\mid 1 - 1 2 - 2 2 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.7149425287356321,
+            0.2686131386861314,
+            0.832183908045977,
+            0.2846715328467153
+          ],
+          "image_path": "images/page_6_equation_19.jpg",
+          "content": "\\vert - 1 \\vert - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.12413793103448276,
+            0.2846715328467153,
+            0.29195402298850576,
+            0.30364963503649633
+          ],
+          "image_path": "images/page_6_equation_20.jpg",
+          "content": "6 _ {3} ^ {2} \\mid 1 ^ {- 1} 2 ^ {2} 1 ^ {- 2} 2"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.41379310344827586,
+            0.2875912408759124,
+            0.6068965517241379,
+            0.30364963503649633
+          ],
+          "image_path": "images/page_6_equation_21.jpg",
+          "content": "\\vert - 3 \\vert - 1 2 - 2 3 - 2 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.12413793103448276,
+            0.30364963503649633,
+            0.20919540229885059,
+            0.32262773722627736
+          ],
+          "image_path": "images/page_6_equation_22.jpg",
+          "content": "\\mathbf {7} _ {1} \\mid \\mathbf {1} ^ {7}"
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.7149425287356321,
+            0.2875912408759124,
+            0.8229885057471265,
+            0.30364963503649633
+          ],
+          "image_path": "images/page_6_equation_23.jpg",
+          "content": "\\mid - 3 \\mid 1 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.41379310344827586,
+            0.30656934306569344,
+            0.6114942528735632,
+            0.32262773722627736
+          ],
+          "image_path": "images/page_6_equation_24.jpg",
+          "content": "\\mid 3 \\quad \\mid 1 0 1 - 1 1 - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.41379310344827586,
+            0.32554744525547447,
+            0.6183908045977011,
+            0.3416058394160584
+          ],
+          "image_path": "images/page_6_equation_25.jpg",
+          "content": "\\mid 1 \\quad \\mid 1 - 1 2 - 2 2 - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 26,
+          "bbox": [
+            0.6436781609195402,
+            0.30656934306569344,
+            0.8551724137931035,
+            0.3416058394160584
+          ],
+          "image_path": "images/page_6_equation_26.jpg",
+          "content": "\\begin{array}{l l} \\mid - 1 & \\quad \\mid 0 \\quad \\mid 1 1 1 1 1 0 1 \\\\ \\mid 1 & \\quad \\mid 0 \\quad \\mid 1 0 1 0 1 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 27,
+          "bbox": [
+            0.12643678160919541,
+            0.3416058394160584,
+            0.2827586206896552,
+            0.35912408759124087
+          ],
+          "image_path": "images/page_6_equation_27.jpg",
+          "content": "{ } _ { 7 } ^ { - } { } _ { 3 } \\mid { } _ { 2 } ^ { 5 } { } _ { 1 } { } _ { 2 } ^ { 2 } { } _ { 1 } ^ { - 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 28,
+          "bbox": [
+            0.4160919540229885,
+            0.3445255474452555,
+            0.6183908045977011,
+            0.3605839416058394
+          ],
+          "image_path": "images/page_6_equation_28.jpg",
+          "content": "\\mid 2 \\quad \\mid 1 - 1 2 - 2 3 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 29,
+          "bbox": [
+            0.12413793103448276,
+            0.35912408759124087,
+            0.34022988505747126,
+            0.3795620437956204
+          ],
+          "image_path": "images/page_6_equation_29.jpg",
+          "content": "{ } _ { 7 } { } _ { 4 } \\mid { } _ { 3 } { } ^ { 2 } { } _ { 1 } { } ^ { - 1 } { } _ { 2 } { } _ { 3 } { } ^ { - 1 } { } _ { 2 } { } _ { 1 } { } ^ { 2 } { } _ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 30,
+          "bbox": [
+            0.4160919540229885,
+            0.3635036496350365,
+            0.6183908045977011,
+            0.3795620437956204
+          ],
+          "image_path": "images/page_6_equation_30.jpg",
+          "content": "\\mid 1 \\quad \\mid 1 - 2 3 - 2 3 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 31,
+          "bbox": [
+            0.12643678160919541,
+            0.3781021897810219,
+            0.2827586206896552,
+            0.3970802919708029
+          ],
+          "image_path": "images/page_6_equation_31.jpg",
+          "content": "7 _ {5} \\mid 2 ^ {3} 1 2 ^ {4} 1 ^ {- 2}"
+        },
+        {
+          "type": "equation",
+          "index": 32,
+          "bbox": [
+            0.12413793103448276,
+            0.3956204379562044,
+            0.367816091954023,
+            0.41605839416058393
+          ],
+          "image_path": "images/page_6_equation_32.jpg",
+          "content": "\\mathbf {7} _ {6} ^ {5} \\mid 3 ^ {- 1} \\mathbf {1} ^ {- 1} \\mathbf {2} \\mathbf {1} \\mathbf {1} \\mathbf {3} ^ {- 1} \\mathbf {2} ^ {- 3}"
+        },
+        {
+          "type": "equation",
+          "index": 33,
+          "bbox": [
+            0.4160919540229885,
+            0.38248175182481753,
+            0.6183908045977011,
+            0.39854014598540144
+          ],
+          "image_path": "images/page_6_equation_33.jpg",
+          "content": "\\mid 2 \\quad \\mid 1 - 1 3 - 3 3 - 3 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 34,
+          "bbox": [
+            0.12413793103448276,
+            0.41605839416058393,
+            0.38850574712643676,
+            0.43503649635036495
+          ],
+          "image_path": "images/page_6_equation_34.jpg",
+          "content": "7 _ {7} \\mid 1 3 ^ {- 1} 2 3 ^ {- 1} 2 1 ^ {- 1} 2 3 ^ {- 1} 2"
+        },
+        {
+          "type": "equation",
+          "index": 35,
+          "bbox": [
+            0.4160919540229885,
+            0.4,
+            0.6183908045977011,
+            0.41751824817518246
+          ],
+          "image_path": "images/page_6_equation_35.jpg",
+          "content": "\\vert - 6 \\vert - 1 2 - 3 4 - 3 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 36,
+          "bbox": [
+            0.6436781609195402,
+            0.40145985401459855,
+            0.8482758620689655,
+            0.41751824817518246
+          ],
+          "image_path": "images/page_6_equation_36.jpg",
+          "content": "\\mid - 1 \\quad \\mid - 6 \\mid 1 - 1 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 37,
+          "bbox": [
+            0.41379310344827586,
+            0.41897810218978104,
+            0.6229885057471264,
+            0.43503649635036495
+          ],
+          "image_path": "images/page_6_equation_37.jpg",
+          "content": "\\vert - 3 \\vert - 1 3 - 3 4 - 4 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 38,
+          "bbox": [
+            0.12643678160919541,
+            0.43503649635036495,
+            0.33793103448275863,
+            0.4554744525547445
+          ],
+          "image_path": "images/page_6_equation_38.jpg",
+          "content": "\\mathbf {8} _ {1} \\mid 1 2 ^ {- 1} 3 ^ {- 1} 2 1 4 ^ {- 2}."
+        },
+        {
+          "type": "equation",
+          "index": 39,
+          "bbox": [
+            0.6436781609195402,
+            0.41897810218978104,
+            0.8482758620689655,
+            0.43503649635036495
+          ],
+          "image_path": "images/page_6_equation_39.jpg",
+          "content": "\\left| - \\mathbf {i} \\sqrt {3} \\right. | - 3 | \\mathbf {1} - 2 \\mathbf {1} - \\mathbf {1}"
+        },
+        {
+          "type": "equation",
+          "index": 40,
+          "bbox": [
+            0.41379310344827586,
+            0.43795620437956206,
+            0.6298850574712643,
+            0.454014598540146
+          ],
+          "image_path": "images/page_6_equation_40.jpg",
+          "content": "\\mid - 6 \\mid 1 - 1 1 - 2 2 - 2 2 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 41,
+          "bbox": [
+            0.26666666666666666,
+            0.45255474452554745,
+            0.367816091954023,
+            0.47007299270072994
+          ],
+          "image_path": "images/page_6_equation_41.jpg",
+          "content": "\\mathbf {3} ^ {- 1} \\mathbf {2} ^ {- 1} \\mathbf {4}"
+        },
+        {
+          "type": "equation",
+          "index": 42,
+          "bbox": [
+            0.6436781609195402,
+            0.43795620437956206,
+            0.8689655172413793,
+            0.4554744525547445
+          ],
+          "image_path": "images/page_6_equation_42.jpg",
+          "content": "\\mid 1 \\quad \\quad \\quad \\mid - 6 \\mid - 1 0 - 1 0 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 43,
+          "bbox": [
+            0.12643678160919541,
+            0.47153284671532847,
+            0.2988505747126437,
+            0.491970802919708
+          ],
+          "image_path": "images/page_6_equation_43.jpg",
+          "content": "{ } ^ { 8 } _ { 2 } \\mid 2 ^ { 5 } 1 ^ { - 1 } 2 1 ^ { - 1 }"
+        },
+        {
+          "type": "equation",
+          "index": 44,
+          "bbox": [
+            0.12643678160919541,
+            0.491970802919708,
+            0.3310344827586207,
+            0.5094890510948905
+          ],
+          "image_path": "images/page_6_equation_44.jpg",
+          "content": "8 _ {3} \\mid 1 2 3 ^ {- 1} 4 ^ {- 1} 3 ^ {- 1} 2"
+        },
+        {
+          "type": "equation",
+          "index": 45,
+          "bbox": [
+            0.4160919540229885,
+            0.4948905109489051,
+            0.6298850574712643,
+            0.5109489051094891
+          ],
+          "image_path": "images/page_6_equation_45.jpg",
+          "content": "\\mid - 4 \\mid 1 - 1 2 - 3 3 - 3 2 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 46,
+          "bbox": [
+            0.7149425287356321,
+            0.4948905109489051,
+            0.8689655172413793,
+            0.5109489051094891
+          ],
+          "image_path": "images/page_6_equation_46.jpg",
+          "content": "\\vert - 4 \\vert - 1 0 - 2 0 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 47,
+          "bbox": [
+            0.1724137931034483,
+            0.5094890510948905,
+            0.3448275862068966,
+            0.527007299270073
+          ],
+          "image_path": "images/page_6_equation_47.jpg",
+          "content": "\\mathbf {1} ^ {- 1} \\mathbf {3} ^ {2} \\mathbf {2 4 3} ^ {- 1} \\mathbf {2} ^ {- 2}"
+        },
+        {
+          "type": "equation",
+          "index": 48,
+          "bbox": [
+            0.12643678160919541,
+            0.5284671532846715,
+            0.35402298850574715,
+            0.5489051094890511
+          ],
+          "image_path": "images/page_6_equation_48.jpg",
+          "content": "\\mathbf {8} _ {4} \\mid 1 1 1 3 2 ^ {- 1} 3 ^ {- 2} 1 2 ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 49,
+          "bbox": [
+            0.4160919540229885,
+            0.5313868613138686,
+            0.632183908045977,
+            0.5489051094890511
+          ],
+          "image_path": "images/page_6_equation_49.jpg",
+          "content": "\\mid - 3 \\mid 1 - 1 2 - 3 3 - 3 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 50,
+          "bbox": [
+            0.6459770114942529,
+            0.5313868613138686,
+            0.871264367816092,
+            0.5489051094890511
+          ],
+          "image_path": "images/page_6_equation_50.jpg",
+          "content": "\\mid - 1 \\quad \\mid - 3 \\mid - 1 0 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 51,
+          "bbox": [
+            0.12643678160919541,
+            0.5489051094890511,
+            0.3333333333333333,
+            0.5678832116788322
+          ],
+          "image_path": "images/page_6_equation_51.jpg",
+          "content": "{ } _ { 5 } ^ { 8 } \\mid 1 1 1 2 ^ { - 1 } 1 1 1 2 ^ { - 1 }"
+        },
+        {
+          "type": "equation",
+          "index": 52,
+          "bbox": [
+            0.41839080459770117,
+            0.5518248175182482,
+            0.632183908045977,
+            0.5678832116788322
+          ],
+          "image_path": "images/page_6_equation_52.jpg",
+          "content": "\\mid 0 \\quad \\mid 1 - 1 3 - 3 3 - 4 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 53,
+          "bbox": [
+            0.6459770114942529,
+            0.5503649635036496,
+            0.8528735632183908,
+            0.5678832116788322
+          ],
+          "image_path": "images/page_6_equation_53.jpg",
+          "content": "\\mid 1 \\sqrt {3} \\quad \\mid 1 \\quad \\mid 1 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 54,
+          "bbox": [
+            0.12643678160919541,
+            0.5664233576642336,
+            0.3333333333333333,
+            0.5854014598540146
+          ],
+          "image_path": "images/page_6_equation_54.jpg",
+          "content": "\\mathbf {8} _ {6} \\mid 3 ^ {- 2} \\mathbf {1 2} ^ {- 1} \\mathbf {1 3 2} ^ {- 3}"
+        },
+        {
+          "type": "equation",
+          "index": 55,
+          "bbox": [
+            0.41839080459770117,
+            0.5693430656934306,
+            0.6344827586206897,
+            0.5854014598540146
+          ],
+          "image_path": "images/page_6_equation_55.jpg",
+          "content": "\\vert - 7 \\vert 1 - 2 3 - 4 4 - 4 3 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 56,
+          "bbox": [
+            0.7172413793103448,
+            0.5693430656934306,
+            0.8689655172413793,
+            0.5854014598540146
+          ],
+          "image_path": "images/page_6_equation_56.jpg",
+          "content": "\\vert - 7 \\vert - 1 1 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 57,
+          "bbox": [
+            0.12643678160919541,
+            0.583941605839416,
+            0.2988505747126437,
+            0.6043795620437956
+          ],
+          "image_path": "images/page_6_equation_57.jpg",
+          "content": "8 _ {7} \\mid 2 ^ {- 2} 1 2 ^ {- 1} 1 ^ {4}"
+        },
+        {
+          "type": "equation",
+          "index": 58,
+          "bbox": [
+            0.41839080459770117,
+            0.5883211678832116,
+            0.6436781609195402,
+            0.6043795620437956
+          ],
+          "image_path": "images/page_6_equation_58.jpg",
+          "content": "\\mid - 2 \\mid - 1 2 - 2 4 - 4 4 - 3 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 59,
+          "bbox": [
+            0.7195402298850575,
+            0.5883211678832116,
+            0.8597701149425288,
+            0.602919708029197
+          ],
+          "image_path": "images/page_6_equation_59.jpg",
+          "content": "\\vert - 2 \\vert 1 - 1 2 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 60,
+          "bbox": [
+            0.12873563218390804,
+            0.602919708029197,
+            0.3586206896551724,
+            0.621897810218978
+          ],
+          "image_path": "images/page_6_equation_60.jpg",
+          "content": "\\mathbf {8} _ {8} ^ {\\prime} \\mid 1 ^ {- 1} \\mathbf {2 1 1 3} ^ {- 1} \\mathbf {2 2 3} ^ {- 2}"
+        },
+        {
+          "type": "equation",
+          "index": 61,
+          "bbox": [
+            0.41839080459770117,
+            0.6058394160583942,
+            0.6459770114942529,
+            0.6233576642335766
+          ],
+          "image_path": "images/page_6_equation_61.jpg",
+          "content": "\\vert - 3 \\vert - 1 2 - 3 5 - 4 4 - 3 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 62,
+          "bbox": [
+            0.7172413793103448,
+            0.6058394160583942,
+            0.8620689655172413,
+            0.6233576642335766
+          ],
+          "image_path": "images/page_6_equation_62.jpg",
+          "content": "\\vert - 3 \\vert 1 - 1 2 - 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 63,
+          "bbox": [
+            0.12873563218390804,
+            0.621897810218978,
+            0.30114942528735633,
+            0.6408759124087591
+          ],
+          "image_path": "images/page_6_equation_63.jpg",
+          "content": "\\mathbf {8} _ {\\mathbf {9}} \\mid 2 ^ {3} \\mathbf {1} ^ {- 1} \\mathbf {2} \\mathbf {1} ^ {- 3}"
+        },
+        {
+          "type": "equation",
+          "index": 64,
+          "bbox": [
+            0.41839080459770117,
+            0.6248175182481752,
+            0.6367816091954023,
+            0.6423357664233577
+          ],
+          "image_path": "images/page_6_equation_64.jpg",
+          "content": "\\mid - 4 \\mid 1 - 2 3 - 4 5 - 4 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 65,
+          "bbox": [
+            0.12873563218390804,
+            0.6408759124087591,
+            0.3080459770114943,
+            0.6598540145985401
+          ],
+          "image_path": "images/page_6_equation_65.jpg",
+          "content": "_ {1 0} | 2 2 1 ^ {- 2} _ {2} ^ {3} _ {1} ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 66,
+          "bbox": [
+            0.7195402298850575,
+            0.6248175182481752,
+            0.871264367816092,
+            0.6423357664233577
+          ],
+          "image_path": "images/page_6_equation_66.jpg",
+          "content": "\\vert - 4 \\vert - 1 1 - 2 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 67,
+          "bbox": [
+            0.41839080459770117,
+            0.6437956204379562,
+            0.6436781609195402,
+            0.6613138686131387
+          ],
+          "image_path": "images/page_6_equation_67.jpg",
+          "content": "\\vert - 2 \\vert - 1 2 - 3 5 - 4 5 - 4 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 68,
+          "bbox": [
+            0.12873563218390804,
+            0.6598540145985401,
+            0.37471264367816093,
+            0.6817518248175183
+          ],
+          "image_path": "images/page_6_equation_68.jpg",
+          "content": "8 _ {1 1} | 1 2 ^ {- 2} 3 2 ^ {- 1} 3 ^ {- 2} 1 2 ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 69,
+          "bbox": [
+            0.6482758620689655,
+            0.6437956204379562,
+            0.864367816091954,
+            0.6598540145985401
+          ],
+          "image_path": "images/page_6_equation_69.jpg",
+          "content": "\\mid \\mathbf {i} \\sqrt {3} \\quad \\mid - 2 \\mid \\mathbf {1} - \\mathbf {1} \\mathbf {3} - \\mathbf {1} \\mathbf {1}"
+        },
+        {
+          "type": "equation",
+          "index": 70,
+          "bbox": [
+            0.6459770114942529,
+            0.6627737226277373,
+            0.871264367816092,
+            0.6802919708029197
+          ],
+          "image_path": "images/page_6_equation_70.jpg",
+          "content": "\\left| - \\mathbf {i} \\sqrt {3} \\quad \\right| - 7 \\left| - \\mathbf {1 1} - 2 2 - \\mathbf {1} \\right."
+        },
+        {
+          "type": "equation",
+          "index": 71,
+          "bbox": [
+            0.12643678160919541,
+            0.6846715328467153,
+            0.34942528735632183,
+            0.7197080291970803
+          ],
+          "image_path": "images/page_6_equation_71.jpg",
+          "content": "\\begin{array}{c} \\mathbf {8} _ {1 2} | \\mathbf {1 2} ^ {- 1} \\mathbf {3 4} ^ {- 1} \\mathbf {3 4} ^ {- 1} \\\\ \\mathbf {2 1 3} ^ {- 1} \\mathbf {2} ^ {- 1} \\end{array} ."
+        },
+        {
+          "type": "equation",
+          "index": 72,
+          "bbox": [
+            0.41839080459770117,
+            0.6861313868613139,
+            0.6344827586206897,
+            0.7036496350364964
+          ],
+          "image_path": "images/page_6_equation_72.jpg",
+          "content": "\\vert - 4 \\vert 1 - 2 4 - 5 5 - 5 4 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 73,
+          "bbox": [
+            0.6459770114942529,
+            0.6861313868613139,
+            0.871264367816092,
+            0.7036496350364964
+          ],
+          "image_path": "images/page_6_equation_73.jpg",
+          "content": "\\mid - 1 \\quad \\mid - 4 \\mid - 1 1 - 3 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 74,
+          "bbox": [
+            0.12873563218390804,
+            0.7211678832116788,
+            0.3586206896551724,
+            0.7416058394160584
+          ],
+          "image_path": "images/page_6_equation_74.jpg",
+          "content": "_ {1 3} \\mid_ {1 1 2 3} ^ {- 1} _ {2 1} ^ {- 1} _ {3} ^ {- 2} _ {2}"
+        },
+        {
+          "type": "equation",
+          "index": 75,
+          "bbox": [
+            0.12873563218390804,
+            0.7416058394160584,
+            0.367816091954023,
+            0.7635036496350365
+          ],
+          "image_path": "images/page_6_equation_75.jpg",
+          "content": "{ } ^ { 8 } _ { 1 4 } | { } ^ { 1 1 2 2 1 } { } ^ { - 1 } { } ^ { 3 } { } ^ { - 1 } { } ^ { 2 } { } ^ { 3 } { } ^ { - 1 } { } ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 76,
+          "bbox": [
+            0.41839080459770117,
+            0.724087591240876,
+            0.6436781609195402,
+            0.7605839416058394
+          ],
+          "image_path": "images/page_6_equation_76.jpg",
+          "content": "\\begin{array}{l} \\mid - 3 \\mid - 1 3 - 4 5 - 5 5 - 3 2 - 1 \\\\ \\mid - 1 \\mid 1 - 2 4 - 5 6 - 5 4 - 3 1 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 77,
+          "bbox": [
+            0.6459770114942529,
+            0.7226277372262774,
+            0.8735632183908046,
+            0.7605839416058394
+          ],
+          "image_path": "images/page_6_equation_77.jpg",
+          "content": "\\begin{array}{l l} \\mid - 1 & \\quad \\mid - 3 \\mid 1 - 2 2 - 1 1 \\\\ \\mid - 1 & \\quad \\mid - 1 \\mid - 1 2 - 2 2 - 1 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 78,
+          "bbox": [
+            0.12873563218390804,
+            0.7664233576642335,
+            0.3586206896551724,
+            0.7883211678832117
+          ],
+          "image_path": "images/page_6_equation_78.jpg",
+          "content": "\\mathbf {8} _ {1 5} \\mid 1 1 1 2 3 1 ^ {- 1} 2 ^ {3} 3 2 ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 79,
+          "bbox": [
+            0.41839080459770117,
+            0.7678832116788321,
+            0.6367816091954023,
+            0.7868613138686131
+          ],
+          "image_path": "images/page_6_equation_79.jpg",
+          "content": "\\mid 2 \\quad \\mid 1 - 2 5 - 5 6 - 6 4 - 3 1"
+        },
+        {
+          "type": "equation",
+          "index": 80,
+          "bbox": [
+            0.6459770114942529,
+            0.7678832116788321,
+            0.8827586206896552,
+            0.7854014598540145
+          ],
+          "image_path": "images/page_6_equation_80.jpg",
+          "content": "\\mid - \\mathbf {i} \\sqrt {3} \\mid 0 \\mid 1 1 0 3 - 2 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 81,
+          "bbox": [
+            0.12873563218390804,
+            0.7868613138686131,
+            0.3563218390804598,
+            0.8072992700729927
+          ],
+          "image_path": "images/page_6_equation_81.jpg",
+          "content": "{ } ^ { 8 } _ { 1 6 } |   { } ^ { 1 } { } _ { 1 2 } ^ { - 1 } { } _ { 1 1 2 } ^ { - 1 } { } _ { 1 2 } ^ { - 1 }"
+        },
+        {
+          "type": "equation",
+          "index": 82,
+          "bbox": [
+            0.41839080459770117,
+            0.7883211678832117,
+            0.6436781609195402,
+            0.8058394160583942
+          ],
+          "image_path": "images/page_6_equation_82.jpg",
+          "content": "\\vert - 2 \\vert - 1 3 - 4 6 - 6 6 - 5 3 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 83,
+          "bbox": [
+            0.7195402298850575,
+            0.7883211678832117,
+            0.8597701149425288,
+            0.8043795620437956
+          ],
+          "image_path": "images/page_6_equation_83.jpg",
+          "content": "\\mid - 2 \\mid 1 - 2 3 - 2 1"
+        },
+        {
+          "type": "equation",
+          "index": 84,
+          "bbox": [
+            0.12873563218390804,
+            0.8058394160583942,
+            0.3471264367816092,
+            0.8277372262773722
+          ],
+          "image_path": "images/page_6_equation_84.jpg",
+          "content": "{ } ^ { 8 } { } _ { 1 7 } | { } ^ { 2 1 } { } ^ { - 1 } { } ^ { 2 1 } { } ^ { - 1 } { } ^ { 2 2 1 } { } ^ { - 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 85,
+          "bbox": [
+            0.4206896551724138,
+            0.8072992700729927,
+            0.6367816091954023,
+            0.8248175182481752
+          ],
+          "image_path": "images/page_6_equation_85.jpg",
+          "content": "\\vert - 4 \\vert 1 - 3 5 - 6 7 - 6 5 - 3 1"
+        },
+        {
+          "type": "equation",
+          "index": 86,
+          "bbox": [
+            0.1310344827586207,
+            0.8248175182481752,
+            0.27816091954022987,
+            0.8467153284671532
+          ],
+          "image_path": "images/page_6_equation_86.jpg",
+          "content": "{ } ^ { 8 } _ { 1 8 } | ( 1 2 ^ { - 1 } ) ^ { 3 }"
+        },
+        {
+          "type": "equation",
+          "index": 87,
+          "bbox": [
+            0.7195402298850575,
+            0.8072992700729927,
+            0.8735632183908046,
+            0.8233576642335766
+          ],
+          "image_path": "images/page_6_equation_87.jpg",
+          "content": "\\mid - 4 \\mid - 1 2 - 3 2 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 88,
+          "bbox": [
+            0.41839080459770117,
+            0.8277372262773722,
+            0.632183908045977,
+            0.8613138686131386
+          ],
+          "image_path": "images/page_6_equation_88.jpg",
+          "content": "\\begin{array}{l l} \\mid - 4 & 1 - 4 6 - 7 9 - 7 6 - 4 1 \\\\ \\mid 3 & 1 0 1 0 0 - 1 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 89,
+          "bbox": [
+            0.6505747126436782,
+            0.8262773722627738,
+            0.8735632183908046,
+            0.8423357664233576
+          ],
+          "image_path": "images/page_6_equation_89.jpg",
+          "content": "\\mid 3 \\quad \\mid - 4 \\mid - 1 3 - 3 3 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 90,
+          "bbox": [
+            0.1310344827586207,
+            0.8437956204379562,
+            0.28735632183908044,
+            0.8642335766423358
+          ],
+          "image_path": "images/page_6_equation_90.jpg",
+          "content": "{ } ^ { 8 } _ { 1 9 } | 1 2 1 2 1 2 ^ { 2 } _ { 1 }"
+        },
+        {
+          "type": "equation",
+          "index": 91,
+          "bbox": [
+            0.6482758620689655,
+            0.8437956204379562,
+            0.8390804597701149,
+            0.8613138686131386
+          ],
+          "image_path": "images/page_6_equation_91.jpg",
+          "content": "\\mid - 1 \\sqrt {3} \\mid 0 \\mid 1 1 1 1 1"
+        },
+        {
+          "type": "equation",
+          "index": 92,
+          "bbox": [
+            0.1310344827586207,
+            0.8627737226277372,
+            0.28045977011494255,
+            0.8817518248175182
+          ],
+          "image_path": "images/page_6_equation_92.jpg",
+          "content": "{ } ^ { 8 } _ { 2 0 } | 2 1 ^ { 3 } 2 1 ^ { - 3 }"
+        },
+        {
+          "type": "equation",
+          "index": 93,
+          "bbox": [
+            0.1310344827586207,
+            0.8802919708029197,
+            0.33793103448275863,
+            0.9036496350364963
+          ],
+          "image_path": "images/page_6_equation_93.jpg",
+          "content": "\\mathbf {8} _ {\\mathbf {2 1}} ^ {2 0} \\mid \\mathbf {2} ^ {3} \\mathbf {1 2} ^ {2} \\mathbf {1} ^ {- 2} \\mathbf {2 1} ^ {- 1}"
+        },
+        {
+          "type": "equation",
+          "index": 94,
+          "bbox": [
+            0.4206896551724138,
+            0.8642335766423358,
+            0.6137931034482759,
+            0.8817518248175182
+          ],
+          "image_path": "images/page_6_equation_94.jpg",
+          "content": "\\vert - 1 \\vert - 1 2 - 1 2 - 1 1 - 1"
+        },
+        {
+          "type": "equation",
+          "index": 95,
+          "bbox": [
+            0.6505747126436782,
+            0.8627737226277372,
+            0.8229885057471265,
+            0.8802919708029197
+          ],
+          "image_path": "images/page_6_equation_95.jpg",
+          "content": "\\mid \\mathbf {i} \\sqrt {3} \\quad \\mid - \\mathbf {1} \\mid \\mathbf {1 0 1}"
+        },
+        {
+          "type": "equation",
+          "index": 96,
+          "bbox": [
+            0.4206896551724138,
+            0.8832116788321168,
+            0.6045977011494252,
+            0.9007299270072993
+          ],
+          "image_path": "images/page_6_equation_96.jpg",
+          "content": "\\left| \\begin{array}{c c} 1 & 2 - 2 3 - 3 2 - 2 1 \\end{array} \\right."
+        },
+        {
+          "type": "equation",
+          "index": 97,
+          "bbox": [
+            0.6482758620689655,
+            0.8817518248175182,
+            0.8528735632183908,
+            0.9007299270072993
+          ],
+          "image_path": "images/page_6_equation_97.jpg",
+          "content": "\\mid \\mathbf {i} \\sqrt {3} \\quad \\mid \\mathbf {0} \\quad \\mid \\mathbf {1 - 1 1 - 1}"
+        },
+        {
+          "type": "header",
+          "index": 98,
+          "bbox": [
+            0.2988505747126437,
+            0.06569343065693431,
+            0.6919540229885057,
+            0.08029197080291971
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A POLYNOMIAL INVARIANT FOR KNOTS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 99,
+          "bbox": [
+            0.8367816091954023,
+            0.06715328467153285,
+            0.8735632183908046,
+            0.08029197080291971
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "109"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "table",
+          "index": 1,
+          "bbox": [
+            0.12844036697247707,
+            0.12536443148688048,
+            0.8876146788990825,
+            0.6297376093294461
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 0,
+              "bbox": [
+                0.1926605504587156,
+                0.09766763848396501,
+                0.8119266055045872,
+                0.1151603498542274
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "TABLE 2. The trace invariant for some divers knots and links."
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 1,
+              "bbox": [
+                0.12844036697247707,
+                0.12536443148688048,
+                0.8876146788990825,
+                0.6297376093294461
+              ],
+              "image_path": "images/page_7_table_1.jpg",
+              "content": "<table><tr><td>link</td><td><eq>p_0</eq></td><td>pol(V)</td><td>V(w)</td><td><eq>p_0</eq></td><td>pol(W)</td><td>braid rep.</td></tr><tr><td><eq>10_{141}^{(1)}</eq></td><td>-2</td><td>1-23-34-32-21</td><td><eq>i\\sqrt{3}</eq></td><td>-2</td><td>-11-11-1</td><td><eq>2^{-4}112221</eq></td></tr><tr><td><eq>KT^{(2)}</eq></td><td>-4</td><td>-12-22001-22-21</td><td>1</td><td>-4</td><td>1-110-11-1</td><td><eq>1113323^{-1}1^{-2}2.</eq><eq>1^{-1}3^{-1}2^{-1}</eq></td></tr><tr><td><eq>C^{(3)}</eq></td><td>-4</td><td>-12-22001-22-21</td><td>1</td><td>-4</td><td>1-110-11-1</td><td><eq>22213^{-1}2^{-2}1.</eq><eq>2^{-1}13^{-1}</eq></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><eq>2^2_1</eq></td><td>1/2</td><td>-10-1</td><td>-i</td><td></td><td></td><td><eq>1^2</eq></td></tr><tr><td><eq>4^2_1 (4)</eq></td><td>3/2</td><td>-10-11-1</td><td>-i</td><td></td><td></td><td><eq>1^4</eq></td></tr><tr><td><eq>4^2_1 (4)</eq></td><td>1/2</td><td>-11-10-1</td><td>i</td><td></td><td></td><td><eq>12^{-1}122</eq></td></tr><tr><td><eq>5^2_1</eq></td><td>-7/2</td><td>1-21-21-1</td><td>i</td><td></td><td></td><td><eq>12^{-1}12^{-2}</eq></td></tr><tr><td><eq>6^2_1</eq></td><td>5/2</td><td>-10-11-11-1</td><td><eq>\\sqrt{3}</eq></td><td></td><td></td><td><eq>1^6</eq></td></tr><tr><td><eq>6^2_2</eq></td><td>3/2</td><td>-11-22-21-1</td><td>-i</td><td></td><td></td><td><eq>2221121^{-1}</eq></td></tr><tr><td><eq>6^2_3</eq></td><td>-3/2</td><td>-12-22-31-1</td><td><eq>\\sqrt{3}</eq></td><td></td><td></td><td><eq>21^{-1}23^{-1}2123^{-1}</eq></td></tr><tr><td><eq>H_1^{(5)}</eq></td><td>1/2</td><td>-11-10-1</td><td>i</td><td></td><td></td><td><eq>12^{-1}122</eq></td></tr><tr><td><eq>H_2^{(5)}</eq></td><td>-3/2</td><td>1-10-10-1</td><td>-i</td><td></td><td></td><td><eq>12^{-3}122</eq></td></tr><tr><td>W (6)</td><td>-3/2</td><td>-11-21-21</td><td>-i</td><td></td><td></td><td><eq>11221^{-1}2^{-2}</eq></td></tr><tr><td><eq>6^3_1</eq></td><td>-1</td><td>1-13-13-21</td><td><eq>i\\sqrt{3}</eq></td><td></td><td></td><td><eq>221^{-1}221^{-1}</eq></td></tr><tr><td><eq>6^3_2</eq></td><td>-3</td><td>-13-24-23-1</td><td>1</td><td></td><td></td><td><eq>12^{-1}12^{-1}12^{-1}</eq></td></tr><tr><td><eq>6^3_3</eq></td><td>2</td><td>10102</td><td>1</td><td></td><td></td><td>122122</td></tr><tr><td>A (7)</td><td>5/2</td><td>-10-32-34-22-1</td><td>3i</td><td></td><td></td><td>11222333</td></tr><tr><td>B (7)</td><td>5/2</td><td>-10-32-34-22-1</td><td>3i</td><td></td><td></td><td>11122333</td></tr></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 2,
+              "bbox": [
+                0.12844036697247707,
+                0.6355685131195336,
+                0.25688073394495414,
+                0.6516034985422741
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table Notes"
+                }
+              ]
+            },
+            {
+              "type": "table_footnote",
+              "index": 3,
+              "bbox": [
+                0.12844036697247707,
+                0.6516034985422741,
+                0.7110091743119266,
+                0.6705539358600583
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(1) Compare "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "8_{5}"
+                },
+                {
+                  "type": "text",
+                  "content": " which has the same Alexander polynomial."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12844036697247707,
+            0.6705539358600583,
+            0.7247706422018348,
+            0.6865889212827988
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) The Kinoshita-Terasaka knot with 11 crossings. See [12]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12844036697247707,
+            0.6865889212827988,
+            0.8142201834862385,
+            0.7055393586005831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) This is Conway's knot with trivia Alexander polynomial. See [20]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13073394495412843,
+            0.7026239067055393,
+            0.481651376146789,
+            0.7186588921282799
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) Same link, different orientation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12844036697247707,
+            0.7186588921282799,
+            0.6192660550458715,
+            0.7376093294460642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(5) These links have homeomorphic complements."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13073394495412843,
+            0.7361516034985423,
+            0.3738532110091743,
+            0.7521865889212828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(6) The Whitehead link."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12844036697247707,
+            0.7521865889212828,
+            0.6697247706422018,
+            0.7711370262390671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(7) Two composite links with the same trace invariant."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.4380733944954128,
+            0.7798833819241983,
+            0.5779816513761468,
+            0.7944606413994169
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REFERENCES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.13073394495412843,
+            0.8046647230320699,
+            0.8784403669724771,
+            0.8338192419825073
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. J. W. Alexander, A lemma on systems of knotted curves, Proc. Nat. Acad. 9 (1923), 93–95."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.1559633027522936,
+            0.8338192419825073,
+            0.8784403669724771,
+            0.8469387755102041
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. R. J. Baxter, Exactly solved models in statistical mechanics, Academic Press, London, 1982."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.1559633027522936,
+            0.8469387755102041,
+            0.7660550458715596,
+            0.8615160349854227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. D. Bennequin, Entrelacements et structures de contact, These, Paris, 1982."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.15825688073394495,
+            0.8600583090379009,
+            0.8119266055045872,
+            0.8746355685131195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. J. Birman, Braids, links and mapping class groups, Ann. Math. Stud. 82 (1974)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.13302752293577982,
+            0.8746355685131195,
+            0.8807339449541285,
+            0.902332361516035
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. W. Burau, Uber Zopfgruppen und gleichsinning verdrillte Verkettunger, Abh. Math. Sem. Hanischen Univ. 11 (1936), 171–178."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.12844036697247707,
+            0.06559766763848396,
+            0.1628440366972477,
+            0.07871720116618076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "110"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.43577981651376146,
+            0.06705539358600583,
+            0.5711009174311926,
+            0.08163265306122448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V. F. R. JONES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.125,
+            0.1023391812865497,
+            0.875,
+            0.1301169590643275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. J. H. Conway, An enumeration of knots and links. Computational Problems in Abstract Algebra, Pergamon, New York, 1970, pp. 329–358."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.14583333333333334,
+            0.1301169590643275,
+            0.7268518518518519,
+            0.14473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. H. Coxeter, Regular complex polytopes, Cambridge Univ. Press, 1974."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.12037037037037036,
+            0.14473684210526316,
+            0.875,
+            0.17105263157894737
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. F. Garside, The braid group and other groups. Quart J. Math. Oxford Ser. 20 (1969), 235–254."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.14583333333333334,
+            0.17251461988304093,
+            0.7222222222222222,
+            0.18567251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. V. F. R. Jones, Index for subfactors, Invent. Math. 72 (1983), 1–25."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.14583333333333334,
+            0.18567251461988304,
+            0.8611111111111112,
+            0.20029239766081872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. ____, Braid groups, Hecke algebras and type II "
+            },
+            {
+              "type": "equation_inline",
+              "content": "_{1}"
+            },
+            {
+              "type": "text",
+              "content": " factors, Japan-U.S. Conf. Proc. 1983."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.14814814814814814,
+            0.19883040935672514,
+            0.8263888888888888,
+            0.2134502923976608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. L. H. Kaufman, Formal knot theory, Math. Notes, Princeton Univ. Press, 1983."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.14814814814814814,
+            0.2134502923976608,
+            0.875,
+            0.22660818713450293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. S. Kinoshita and H. Terasaka, On unions of knots, Osaka Math. J. 9 (1959), 131-153."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.12268518518518519,
+            0.22807017543859648,
+            0.875,
+            0.25584795321637427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. J. Lannes, Sur l'invariant de Kervaire pour les noeuds classiques, École Polytechnique, Palaiseau, 1984 (preprint)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.12268518518518519,
+            0.25584795321637427,
+            0.875,
+            0.2821637426900585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. J. Levine, Polynomial invariants of knots of codimension two, Ann. of Math. (2) 84 (1966), 534–554."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.14814814814814814,
+            0.28362573099415206,
+            0.8680555555555556,
+            0.2982456140350877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. A. A. Markov, Uber die freie Aquivalenz geschlossener Zopfe, Mat. Sb. 1 (1935), 73–78."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.14814814814814814,
+            0.2982456140350877,
+            0.6504629629629629,
+            0.3128654970760234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. K. Murasugi, On closed 3-braids. Mem. Amer. Math. Soc."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.14814814814814814,
+            0.3128654970760234,
+            0.875,
+            0.32456140350877194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. K. A. Perko, On the classification of knots, Proc. Amer. Math. Soc. 45 (1974), 262-266."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.125,
+            0.3260233918128655,
+            0.8773148148148148,
+            0.3538011695906433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. M. Pimsner and S. Popa, Entropy and index for subfactors, INCREST, Bucharest, 1983 (preprint)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.12731481481481483,
+            0.3538011695906433,
+            0.8796296296296297,
+            0.3815789473684211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. R. T. Powers, Representations of uniformly hyperfinite algebras and the associated von Neumann algebras, Ann. of Math. (2) 86 (1967), 138–171."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.14583333333333334,
+            0.3815789473684211,
+            0.7777777777777778,
+            0.39473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. D. Rolfsen, Knots and links, Publish or Perish Math. Lecture Ser., 1976."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.39473684210526316,
+            0.875,
+            0.42251461988304095
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. L. Rudolph, Nontrivial positive braids have positive signature, Topology 21 (1982), 325-327."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.14814814814814814,
+            0.42251461988304095,
+            0.7939814814814815,
+            0.4371345029239766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22. S. Svensson, Handbook of Seaman's ropework, Dodd, Mead, New York, 1971."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.125,
+            0.4371345029239766,
+            0.8819444444444444,
+            0.4780701754385965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23. H. N. V. Temperley and E. H. Lieb, Relations between the percolation and colouring problem and other graph-theoretical problems associated with regular planar lattices: some exact results for the percolation problem, Proc. Roy. Soc. (London) (1971), 251–280."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.15046296296296297,
+            0.4780701754385965,
+            0.8148148148148148,
+            0.4926900584795322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24. H. Wenzl, On sequences of projections, Univ. of Pennsylvania, 1984 (preprint)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.125,
+            0.5087719298245614,
+            0.8796296296296297,
+            0.5365497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "DEPARTMENT OF MATHEMATICS, UNIVERSITY OF PENNSYLVANIA, PHILADELPHIA, PENNSYLVANIA 19104"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.125,
+            0.543859649122807,
+            0.8819444444444444,
+            0.5730994152046783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICAL SCIENCES RESEARCH INSTITUTE, 2223 FULTON STREET, ROOM 3603, BERKELEY, CALIFORNIA 94720"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 21,
+          "bbox": [
+            0.3055555555555556,
+            0.06578947368421052,
+            0.6944444444444444,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A POLYNOMIAL INVARIANT FOR KNOTS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.8425925925925926,
+            0.06725146198830409,
+            0.875,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "111"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

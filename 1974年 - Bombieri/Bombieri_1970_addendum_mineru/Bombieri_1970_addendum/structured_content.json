@@ -1,0 +1,949 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06050420168067227,
+            0.18171021377672208,
+            0.12436974789915967,
+            0.1995249406175772
+          ],
+          "level": 2,
+          "content": "Werk"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06050420168067227,
+            0.22565320665083136,
+            0.2991596638655462,
+            0.24228028503562946
+          ],
+          "content": "Titel: Inventiones Mathematicae"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06050420168067227,
+            0.24584323040380046,
+            0.18823529411764706,
+            0.2648456057007126
+          ],
+          "content": "Verlag: Springer"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06050420168067227,
+            0.2672209026128266,
+            0.14789915966386555,
+            0.2838479809976247
+          ],
+          "content": "Jahr: 1970"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06050420168067227,
+            0.28741092636579574,
+            0.2504201680672269,
+            0.30522565320665085
+          ],
+          "content": "Kollektion: Mathematica"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06050420168067227,
+            0.3087885985748218,
+            0.2857142857142857,
+            0.32660332541567694
+          ],
+          "content": "Werk Id: PPN356556735\\_0011"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.058823529411764705,
+            0.32897862232779096,
+            0.680672268907563,
+            0.3479809976247031
+          ],
+          "content": "PURL: http://resolver.sub.uni-goettingen.de/purl?PID=PPN356556735\\_0011 | LOG\\_0020"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.05546218487394958,
+            0.5498812351543944,
+            0.280672268907563,
+            0.5676959619952494
+          ],
+          "level": 2,
+          "content": "Terms and Conditions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05378151260504202,
+            0.5748218527315915,
+            0.9310924369747899,
+            0.6235154394299287
+          ],
+          "content": "The Goettingen State and University Library provides access to digitized documents strictly for noncommercial educational, research and private purposes and makes no warranty with regard to their use for other purposes. Some of our collections are protected by copyright. Publication and/or broadcast in any form (including electronic) requires prior written permission from the Goettingen State- and University Library."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05378151260504202,
+            0.6211401425178147,
+            0.8974789915966387,
+            0.6460807600950119
+          ],
+          "content": "Each copy of any part of this document must contain there Terms and Conditions. With the usage of the library's online system to access or download a digitized document you accept the Terms and Conditions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05378151260504202,
+            0.6448931116389549,
+            0.8823529411764706,
+            0.671021377672209
+          ],
+          "content": "Reproductions of material on the web site may not be made for or donated to other repositories, nor may be further reproduced without written permission from the Goettingen State- and University Library."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05378151260504202,
+            0.6769596199524941,
+            0.8873949579831932,
+            0.7042755344418052
+          ],
+          "content": "For reproduction requests and permissions, please contact us. If citing materials, please give proper attribution of the source."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.05546218487394958,
+            0.8598574821852731,
+            0.14285714285714285,
+            0.8776722090261283
+          ],
+          "level": 2,
+          "content": "Contact"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.5630252100840336,
+            0.027315914489311165,
+            0.9428571428571428,
+            0.055819477434679333
+          ],
+          "content": "SUB NIEDERSÄCHSISCHE STAATS- UND UNIVERSITÄTSBIBLIOTHEK GÖTTINGEN"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.05378151260504202,
+            0.8847980997624703,
+            0.5008403361344538,
+            0.9596199524940617
+          ],
+          "content": "Niedersächsische Staats- und Universitätsbibliothek Göttingen\nGeorg-August-Universität Göttingen\nPlatz der Göttinger Sieben 1\n37073 Göttingen\nGermany\nEmail: gdz@sub.uni-goettingen.de"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.0962566844919786,
+            0.16134185303514376,
+            0.8048128342245989,
+            0.21725239616613418
+          ],
+          "level": 1,
+          "content": "Addendum to My Paper \"Algebraic Values of Meromorphic Maps\""
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3048128342245989,
+            0.23003194888178913,
+            0.5935828877005348,
+            0.2507987220447284
+          ],
+          "content": "ENRICO BOMBIERI (Pisa)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.36363636363636365,
+            0.2795527156549521,
+            0.5401069518716578,
+            0.3003194888178914
+          ],
+          "level": 2,
+          "content": "I. Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.03208556149732621,
+            0.3035143769968051,
+            0.8689839572192514,
+            0.34345047923322686
+          ],
+          "content": "In my previous paper [1] the following result is crucial (notations are as in [1]):"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.029411764705882353,
+            0.3498402555910543,
+            0.8689839572192514,
+            0.38977635782747605
+          ],
+          "content": "Existence Theorem. Let V be a plurisubharmonic function in  $C^{n}$ . There exists  $F(z)$  holomorphic in  $C^{n}$  and not identically zero, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2620320855614973,
+            0.3961661341853035,
+            0.6363636363636364,
+            0.42971246006389774
+          ],
+          "content": "\\int_ {C ^ {n}} | F | ^ {2} e ^ {- V} (1 + | z |) ^ {- 3 n} \\omega_ {n} <   + \\infty .",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.029411764705882353,
+            0.43769968051118213,
+            0.8689839572192514,
+            0.5527156549520766
+          ],
+          "content": "In the proof of this theorem we make use of the fact that if V is plurisubharmonic in an open set  $\\Omega$  then the set of points at which  $e^{-V}$  is not summable is closed in  $\\Omega$  and of measure zero. It has been brought to my attention that a proof of this latter assertion does not seem to be available in the literature and it is the purpose of this short note to elucidate this point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06951871657754011,
+            0.5543130990415336,
+            0.5267379679144385,
+            0.5766773162939297
+          ],
+          "content": "Following the notation of [1] we write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3770053475935829,
+            0.5846645367412141,
+            0.5213903743315508,
+            0.6246006389776357
+          ],
+          "content": "\\frac {1}{\\pi} \\partial \\bar {\\partial} V = T",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.026737967914438502,
+            0.634185303514377,
+            0.8689839572192514,
+            0.6932907348242812
+          ],
+          "content": "and denote by $\\Theta(\\|T\\|; r, a)$ the average mass of $T$ in the ball $B(r, a)$ of radius $r$ and center $a$. The function $\\Theta(\\|T\\|; r, a)$ is monotone nondecreasing for $r < \\text{dist}(a, \\partial\\Omega)$; in particular"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2807486631016043,
+            0.7012779552715654,
+            0.6149732620320856,
+            0.7300319488817891
+          ],
+          "content": "\\Theta (\\| T \\|; a) = \\lim _ {r \\rightarrow 0} \\Theta (\\| T \\|; r, a)",
+          "image_source": "images/page_1_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.026737967914438502,
+            0.7364217252396166,
+            0.8636363636363636,
+            0.7763578274760383
+          ],
+          "content": "exists. $\\Theta(\\|T\\|; a)$ is also called the Lelong number of $T$ at the point $a$. We note also the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.18181818181818182,
+            0.7843450479233227,
+            0.7085561497326203,
+            0.8738019169329073
+          ],
+          "content": "\\begin{array}{r l} \\left(1 - \\frac {| a |}{r}\\right) ^ {2 n - 2} & \\Theta (\\| T \\|; r - | a |, 0) \\leq \\Theta (\\| T \\|; r, a) \\\\ & \\leq \\left(1 + \\frac {| a |}{r}\\right) ^ {2 n - 2} \\Theta (\\| T \\|; r + | a |, 0) \\end{array}",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.02406417112299465,
+            0.8849840255591054,
+            0.820855614973262,
+            0.9233226837060703
+          ],
+          "content": "(see [1], Lemma 6) which will be used later in the proof of Lemma 1. 12 a Inventiones math., Vol. 11"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.034759358288770054,
+            0.05591054313099041,
+            0.37967914438502676,
+            0.08945686900958466
+          ],
+          "content": "Inventiones math. 11, 163–166 (1970)\n© by Springer-Verlag 1970"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.128686327077748,
+            0.08306709265175719,
+            0.3136729222520107,
+            0.10383386581469649
+          ],
+          "content": "We shall prove"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08579088471849866,
+            0.11022364217252396,
+            0.9249329758713136,
+            0.15175718849840256
+          ],
+          "content": "Theorem 1. There exists a constant $\\gamma(n) > 0$ depending only on the dimension $n$, with the property that if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40482573726541554,
+            0.15654952076677317,
+            0.6032171581769437,
+            0.17891373801916932
+          ],
+          "content": "\\Theta (\\| T \\|; a) <   \\gamma (n)",
+          "image_source": "images/page_2_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08579088471849866,
+            0.17891373801916932,
+            0.6997319034852547,
+            0.20447284345047922
+          ],
+          "content": "then $e^{-V(z)}$ is summable in some neighborhood of $z = a$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08042895442359249,
+            0.20926517571884984,
+            0.9222520107238605,
+            0.28594249201277955
+          ],
+          "content": "Note that one has trivially  $\\Theta(\\|T\\|; a)=0$  almost everywhere hence  $e^{-V}$  is locally summable outside a set closed in  $\\Omega$  and of measure zero, as was asserted in [1]. Actually much more than this is true and the existence Theorem gives at once:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08042895442359249,
+            0.29073482428115016,
+            0.9195710455764075,
+            0.33386581469648563
+          ],
+          "content": "Theorem 2. Let $V$ be a plurisubharmonic function in $\\mathbf{C}^n$. Then $e^{-V}$ is locally summable outside a complex analytic hypersurface of $\\mathbf{C}^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12064343163538874,
+            0.3354632587859425,
+            0.9168900804289544,
+            0.35942492012779553
+          ],
+          "content": "It is possible to show that $e^{-V}$ is not summable at every point for which"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40214477211796246,
+            0.36421725239616615,
+            0.5951742627345844,
+            0.3865814696485623
+          ],
+          "content": "\\Theta (\\| T \\|; a) > 2 n,",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0777479892761394,
+            0.38817891373801916,
+            0.9195710455764075,
+            0.48242811501597443
+          ],
+          "content": "by using the argument of [1], (ii) of Lemma 7 together with the fact that one can represent $V(z)$ locally by a Newtonian potential modulo harmonic functions. Combining this result with a local version of our Existence Theorem one gets the following statement of independent interest:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11796246648793565,
+            0.48881789137380194,
+            0.9168900804289544,
+            0.512779552715655
+          ],
+          "content": "Structure Theorem. For every positive $c$ the set of points at which"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4128686327077748,
+            0.5175718849840255,
+            0.579088471849866,
+            0.5383386581469649
+          ],
+          "content": "\\Theta (\\| T \\|; a) > c",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07506702412868632,
+            0.5399361022364217,
+            0.9142091152815014,
+            0.5830670926517572
+          ],
+          "content": "is locally contained in a complex analytic hypersurface. In particular, this set has a locally finite $(2n - 2)$-dimensional Hausdorff measure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07238605898123325,
+            0.5862619808306709,
+            0.9115281501340483,
+            0.6277955271565495
+          ],
+          "content": "The Structure Theorem and Theorem 1 give immediately a local version of Theorem 2, namely:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07238605898123325,
+            0.6325878594249201,
+            0.9115281501340483,
+            0.6916932907348243
+          ],
+          "content": "Theorem 2A. Let $V$ be a plurisubharmonic function in an open set $\\Omega$. Then $e^{-V}$ is locally summable in $\\Omega \\setminus N$, where $N$ is closed in $\\Omega$ and locally contained in a complex analytic hypersurface."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.353887399463807,
+            0.7124600638977636,
+            0.6219839142091153,
+            0.7332268370607029
+          ],
+          "level": 2,
+          "content": "II. Proof of Theorem 1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1126005361930295,
+            0.731629392971246,
+            0.38873994638069703,
+            0.7715654952076677
+          ],
+          "content": "Let $T = \\frac{1}{\\pi} \\partial \\bar{\\partial} V$ and let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3967828418230563,
+            0.768370607028754,
+            0.5844504021447721,
+            0.7891373801916933
+          ],
+          "content": "d \\| T \\| = i T \\wedge \\omega_ {n}",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06970509383378017,
+            0.7875399361022364,
+            0.9088471849865952,
+            0.8514376996805112
+          ],
+          "content": "be the associated positive Radon measure. We shall examine the summability of  $e^{-V}$  at the origin; the problem is clearly local so we may assume that V is defined in the ball  $|z|<1$ . The Newtonian potential"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24128686327077747,
+            0.854632587859425,
+            0.7345844504021448,
+            0.9009584664536742
+          ],
+          "content": "P _ {\\varepsilon} (z) = - \\frac {(n - 2) !}{4 \\pi^ {n - 1}} \\int_ {| \\zeta | <   \\varepsilon} \\frac {1}{| z - \\zeta | ^ {2 n - 2}} d \\| T \\| (\\zeta)",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.09115281501340483,
+            0.04792332268370607,
+            0.13136729222520108,
+            0.06230031948881789
+          ],
+          "content": "164"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.44235924932975873,
+            0.051118210862619806,
+            0.5683646112600537,
+            0.0670926517571885
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.03753351206434316,
+            0.08466453674121406,
+            0.8793565683646113,
+            0.12460063897763578
+          ],
+          "content": "differs from  $V(z)$  in  $|z|<\\varepsilon$  only by a harmonic function, so that we shall consider the equivalent problem of the summability of  $P_{\\varepsilon}(z)$  at the origin."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08042895442359249,
+            0.13099041533546327,
+            0.5067024128686327,
+            0.1501597444089457
+          ],
+          "content": "Lemma 1. If $|a| < \\varepsilon$ and $r < \\varepsilon$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2037533512064343,
+            0.1597444089456869,
+            0.7131367292225201,
+            0.19329073482428116
+          ],
+          "content": "\\int_ {| z - a | <   r} | \\nabla P _ {\\varepsilon} (z) | \\omega_ {n} (z) \\leq c _ {1} \\Theta (\\| T \\|; 3 \\varepsilon , 0) r ^ {2 n - 1}.",
+          "image_source": "images/page_3_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0777479892761394,
+            0.19968051118210864,
+            0.26541554959785524,
+            0.21884984025559107
+          ],
+          "content": "Proof. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24396782841823056,
+            0.22044728434504793,
+            0.6702412868632708,
+            0.26357827476038337
+          ],
+          "content": "| \\nabla P _ {\\varepsilon} (z) | \\leq c _ {2} \\int_ {| \\zeta | <   \\varepsilon} \\frac {1}{| z - \\zeta | ^ {2 n - 1}} d \\| T \\| (\\zeta)",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.03753351206434316,
+            0.268370607028754,
+            0.5415549597855228,
+            0.28913738019169327
+          ],
+          "content": "because $d\\| T\\|$ is a positive measure. Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.08042895442359249,
+            0.3035143769968051,
+            0.8284182305630027,
+            0.4169329073482428
+          ],
+          "content": "\\begin{array}{l} \\int_ {| z - a | <   r} | V P _ {\\varepsilon} (z) |   \\omega_ {n} (z) \\leq c _ {2} \\int_ {| z - a | <   r} \\int_ {| \\zeta | <   \\varepsilon} \\frac {1}{| z - \\zeta | ^ {2 n - 1}} d \\| T \\| (\\zeta)   \\omega_ {n} (z) \\\\ \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\\\ \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qend{array}",
+          "image_source": "images/page_3_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07506702412868632,
+            0.426517571884984,
+            0.4075067024128686,
+            0.44568690095846647
+          ],
+          "content": "Next, one checks easily that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24396782841823056,
+            0.4536741214057508,
+            0.6675603217158177,
+            0.4984025559105431
+          ],
+          "content": "\\int_ {| z - a | <   r} \\frac {\\omega_ {n} (z)}{| z - \\zeta | ^ {2 n - 1}} \\leq c _ {3} r (t + 1) ^ {- 2 n + 1}",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.03753351206434316,
+            0.4936102236421725,
+            0.11796246648793565,
+            0.5111821086261981
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3806970509383378,
+            0.5063897763578274,
+            0.5388739946380697,
+            0.5463258785942492
+          ],
+          "content": "t = \\frac {1}{r} | \\zeta - a |;",
+          "image_source": "images/page_3_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.03753351206434316,
+            0.547923322683706,
+            0.8766756032171582,
+            0.6038338658146964
+          ],
+          "content": "for if  $t \\geq 2$  then  $|z - \\zeta| \\geq r(t - 1)$ , while if t < 2 then  $|z - a| < r$  is contained in  $|z - \\zeta| < 3r$  and the computation again becomes obvious. We deduce the bound"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.08847184986595175,
+            0.6054313099041534,
+            0.8257372654155496,
+            0.7587859424920128
+          ],
+          "content": "\\begin{array}{l} I \\leq c _ {3} r \\int_ {| \\zeta - a | <   2 \\varepsilon} \\left(1 + \\frac {1}{r} | \\zeta - a |\\right) ^ {- 2 n + 1} d \\| T \\| (\\zeta) \\\\ = c _ {3} r \\int_ {0} ^ {2 \\varepsilon / r} (1 + t) ^ {- 2 n + 1} d \\| T \\| B (r t, a) \\\\ = \\frac {c _ {3} r}{\\left(1 + \\frac {2 \\varepsilon}{r}\\right) ^ {2 n - 1}} \\| T \\| B (2 \\varepsilon , a) + c _ {3} r (2 n - 1) \\int_ {0} ^ {2 \\varepsilon / r} \\frac {\\| T \\| B (r t , a)}{(1 + t) ^ {2 n}} d t. \\end{array}",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0777479892761394,
+            0.768370607028754,
+            0.16890080428954424,
+            0.7875399361022364
+          ],
+          "content": "Finally"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19302949061662197,
+            0.7779552715654952,
+            0.7158176943699732,
+            0.9009584664536742
+          ],
+          "content": "\\begin{array}{r l} \\| T \\| B (r t, a) & = \\frac {\\pi^ {n - 1}}{(n - 1) !} (r t) ^ {2 n - 2} \\Theta (\\| T \\|; r t, a) \\\\ & \\leq \\frac {\\pi^ {n - 1}}{(n - 1) !} (r t) ^ {2 n - 2} \\Theta (\\| T \\|; 2 \\varepsilon , a) \\\\ & \\leq c _ {4} (r t) ^ {2 n - 2} \\Theta (\\| T \\|; 3 \\varepsilon , 0) \\end{array}",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.03485254691689008,
+            0.9009584664536742,
+            0.2707774798927614,
+            0.9137380191693291
+          ],
+          "content": "12 b Inventiones math., Vol. 11"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.14209115281501342,
+            0.04952076677316294,
+            0.7774798927613941,
+            0.0670926517571885
+          ],
+          "content": "Addendum to My Paper “Algebraic Values of Meromorphic Maps”"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8418230563002681,
+            0.052715654952076675,
+            0.8766756032171582,
+            0.06549520766773163
+          ],
+          "content": "165"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13404825737265416,
+            0.08146964856230032,
+            0.9731903485254692,
+            0.12140575079872204
+          ],
+          "content": "the last inequality being one noted earlier. Combining this estimate with the bound already obtained for I, Lemma 1 follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13404825737265416,
+            0.12779552715654952,
+            0.9705093833780161,
+            0.16293929712460065
+          ],
+          "content": "Lemma 2 (John and Nirenberg). Let $U(z)$ be a summable function in $|z| < 2R$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38337801608579086,
+            0.1597444089456869,
+            0.7211796246648794,
+            0.19329073482428116
+          ],
+          "content": "\\int_ {| z - a | <   r} | \\nabla U (z) | \\omega_ {n} (z) \\leq \\gamma r ^ {2 n - 1}",
+          "image_source": "images/page_4_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13404825737265416,
+            0.19808306709265175,
+            0.5603217158176944,
+            0.21884984025559107
+          ],
+          "content": "for every $a, r$ satisfying $|a| < R, r < R$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1769436997319035,
+            0.22044728434504793,
+            0.3378016085790885,
+            0.23961661341853036
+          ],
+          "content": "Then we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28418230563002683,
+            0.2476038338658147,
+            0.8176943699731903,
+            0.2827476038338658
+          ],
+          "content": "\\min _ {k} \\int_ {| z | <   \\frac {1}{2} R} \\exp \\left(c _ {5} \\gamma^ {- 1} | U (z) - k |\\right) \\omega_ {n} (z) \\leq c _ {6} R ^ {2 n},",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13136729222520108,
+            0.28913738019169327,
+            0.47989276139410186,
+            0.30990415335463256
+          ],
+          "content": "where $c_{5}, c_{6}$ depend only on $n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13136729222520108,
+            0.31309904153354634,
+            0.967828418230563,
+            0.3929712460063898
+          ],
+          "content": "Proof. This is a special case of a famous result of John and Nirenberg [2]; a simple proof of Lemma 2 has been found recently by Trudinger [3]. Combining Lemmas 1 and 2 we get that $\\exp\\bigl(-c_5\\gamma^{-1}P_\\varepsilon(z)\\bigr)$, and hence $\\exp\\bigl(-c_5\\gamma^{-1}V(z)\\bigr)$, is summable in $|z|<\\varepsilon/2$ with $\\gamma$ given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4289544235924933,
+            0.4009584664536741,
+            0.6675603217158177,
+            0.42012779552715657
+          ],
+          "content": "\\gamma = c _ {1} \\Theta (\\| T \\|; 3 \\varepsilon , 0).",
+          "image_source": "images/page_4_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128686327077748,
+            0.4281150159744409,
+            0.967828418230563,
+            0.48881789137380194
+          ],
+          "content": "Finally assume $\\Theta(\\|T\\|; 0) < c_5 / c_1 = \\gamma(n)$. Then there exists $\\varepsilon > 0$ such that $\\Theta(\\|T\\|; 3\\varepsilon, 0) < c_5 / c_1$ and $\\exp(-V(z))$ will be summable in a neighborhood of the origin; this completes the proof of Theorem 1."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.48257372654155495,
+            0.5079872204472844,
+            0.613941018766756,
+            0.5255591054313099
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13136729222520108,
+            0.5319488817891374,
+            0.9597855227882037,
+            0.5623003194888179
+          ],
+          "content": "1. Bombieri, E.: Algebraic values of meromorphic maps. Inventiones Math. 10, 267–287 (1970)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13136729222520108,
+            0.5638977635782748,
+            0.9597855227882037,
+            0.5942492012779552
+          ],
+          "content": "2. John, F., Nirenberg, L.: On functions of bounded mean oscillation. Comm. Pure Appl. Math. 14, 415-426 (1961)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13136729222520108,
+            0.5942492012779552,
+            0.9597855227882037,
+            0.6246006389776357
+          ],
+          "content": "3. Trudinger, N.S.: On embeddings into Orlicz spaces and some applications. J. Math. Mech. 17, 473-483 (1967)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5415549597855228,
+            0.646964856230032,
+            0.6595174262734584,
+            0.6629392971246006
+          ],
+          "content": "E. Bombieri"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5388739946380697,
+            0.6597444089456869,
+            0.9168900804289544,
+            0.7236421725239617
+          ],
+          "content": "Istituto Matematico “Leonida Tonelli”\nUniversità di Pisa\nVia Derna 1\nI-56100 Pisa"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13941018766756033,
+            0.0463258785942492,
+            0.1769436997319035,
+            0.06070287539936102
+          ],
+          "content": "166"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.19571045576407506,
+            0.0463258785942492,
+            0.9544235924932976,
+            0.06549520766773163
+          ],
+          "content": "E. Bombieri: Addendum to My Paper “Algebraic Values of Meromorphic Maps”"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.4075067024128686,
+            0.744408945686901,
+            0.6863270777479893,
+            0.7619808306709265
+          ],
+          "content": "(Received September 7, 1970)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

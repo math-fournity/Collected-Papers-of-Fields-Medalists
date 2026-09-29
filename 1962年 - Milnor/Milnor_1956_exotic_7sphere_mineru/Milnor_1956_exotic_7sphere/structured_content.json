@@ -1,0 +1,1564 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.1759465478841871,
+            0.12537764350453173,
+            0.7861915367483296,
+            0.14350453172205438
+          ],
+          "level": 1,
+          "content": "ON MANIFOLDS HOMEOMORPHIC TO THE 7-SPHERE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.39643652561247217,
+            0.1555891238670695,
+            0.5679287305122495,
+            0.17069486404833836
+          ],
+          "content": "By John Milnor $^{1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.37193763919821826,
+            0.1782477341389728,
+            0.5924276169265034,
+            0.19486404833836857
+          ],
+          "content": "(Received June 14, 1956)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.20694864048338368,
+            0.8752783964365256,
+            0.24169184290030213
+          ],
+          "content": "The object of this note will be to show that the 7-sphere possesses several distinct differentiable structures."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.24169184290030213,
+            0.8797327394209354,
+            0.3867069486404834
+          ],
+          "content": "In §1 an invariant  $\\lambda$  is constructed for oriented, differentiable 7-manifolds  $M^{7}$  satisfying the hypothesis (\\*)  $H^{3}(M^{7}) = H^{4}(M^{7}) = 0$ . (Integer coefficients are to be understood.) In §2 a general criterion is given for proving that an n-manifold is homeomorphic to the sphere  $S^{n}$ . Some examples of 7-manifolds are studied in §3 (namely 3-sphere bundles over the 4-sphere). The results of the preceding two sections are used to show that certain of these manifolds are topological 7-spheres, but not differentiable 7-spheres. Several related problems are studied in §4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.3867069486404834,
+            0.8775055679287305,
+            0.4607250755287009
+          ],
+          "content": "All manifolds considered, with or without boundary, are to be differentiable, orientable and compact. The word differentiable will mean differentiable of class  $C^{\\infty}$ . A closed manifold  $M^{n}$  is oriented if one generator  $\\mu \\in H_{n}(M^{n})$  is distinguished."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3585746102449889,
+            0.4697885196374622,
+            0.6035634743875279,
+            0.48942598187311176
+          ],
+          "level": 2,
+          "content": "§1. The invariant λ(M⁷)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.49395770392749244,
+            0.8775055679287305,
+            0.56797583081571
+          ],
+          "content": "For every closed, oriented 7-manifold satisfying (\\*) we will define a residue class $\\lambda(M^{7})$ modulo 7. According to Thom [5] every closed 7-manifold $M^{7}$ is the boundary of an 8-manifold $B^{8}$. The invariant $\\lambda(M^{7})$ will be defined as a function of the index $\\tau$ and the Pontrjagin class $p_{1}$ of $B^{8}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.56797583081571,
+            0.8775055679287305,
+            0.6404833836858006
+          ],
+          "content": "An orientation $\\nu \\in H_8(B^8, M^7)$ is determined by the relation $\\partial \\nu = \\mu$. Define a quadratic form over the group $H^4(B^8, M^7) / (\\text{torsion})$ by the formula $\\alpha \\to \\langle \\nu, \\alpha^2 \\rangle$. Let $\\tau(B^8)$ be the index of this form (the number of positive terms minus the number of negative terms, when the form is diagonalized over the real numbers)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.6389728096676737,
+            0.8775055679287305,
+            0.6948640483383686
+          ],
+          "content": "Let $p_1 \\in H^4(B^8)$ be the first Pontrjagin class of the tangent bundle of $B^8$. (For the definition of Pontrjagin classes see [2] or [6].) The hypothesis (\\*) implies that the inclusion homomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36302895322939865,
+            0.7009063444108762,
+            0.6013363028953229,
+            0.7205438066465257
+          ],
+          "content": "i \\colon H ^ {4} (B ^ {8}, M ^ {7}) \\to H ^ {4} (B ^ {8})",
+          "image_source": "images/page_0_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.729607250755287,
+            0.7661469933184856,
+            0.7477341389728097
+          ],
+          "content": "is an isomorphism. Therefore we can define a “Pontrjagin number”"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37639198218262804,
+            0.7537764350453172,
+            0.5857461024498887,
+            0.7749244712990937
+          ],
+          "content": "q (B ^ {8}) = \\langle \\nu , (i ^ {- 1} p _ {1}) ^ {2} \\rangle .",
+          "image_source": "images/page_0_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.783987915407855,
+            0.8775055679287305,
+            0.8187311178247734
+          ],
+          "content": "THEOREM 1. The residue class of $2q(B^{8}) - \\tau(B^{8})$ modulo 7 does not depend on the choice of the manifold $B^{8}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1091314031180401,
+            0.8187311178247734,
+            0.8552338530066815,
+            0.8368580060422961
+          ],
+          "content": "Define $\\lambda(M^{7})$ as this residue class.$^{2}$ As an immediate consequence we have:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.8368580060422961,
+            0.8797327394209354,
+            0.8746223564954683
+          ],
+          "content": "COROLLARY 1. If $\\lambda(M^{7}) \\neq 0$ then $M^{7}$ is not the boundary of any 8-manifold having fourth Betti number zero."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.08685968819599109,
+            0.07250755287009064,
+            0.2984409799554566,
+            0.10876132930513595
+          ],
+          "content": "ANNALS OF MATHEMATICS\nVol. 64, No. 2, September, 1956\nPrinted in U.S.A."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1091314031180401,
+            0.8927492447129909,
+            0.5523385300668151,
+            0.9108761329305136
+          ],
+          "content": "$^{1}$  The author holds an Alfred P. Sloan fellowship."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.46770601336302897,
+            0.9138972809667674,
+            0.49888641425389757,
+            0.9274924471299094
+          ],
+          "content": "399"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.10574018126888217,
+            0.9665924276169265,
+            0.19939577039274925
+          ],
+          "content": "Let $B_{1}^{8}$, $B_{2}^{8}$ be two manifolds with boundary $M^{7}$. (We may assume they are disjoint.) Then $C^{8} = B_{1}^{8} \\cup B_{2}^{8}$ is a closed 8-manifold which possesses a differentiable structure compatible with that of $B_{1}^{8}$ and $B_{2}^{8}$. Choose that orientation $\\nu$ for $C^{8}$ which is consistent with the orientation $\\nu_{1}$ of $B_{1}^{8}$ (and therefore consistent with $-\\nu_{2}$). Let $q(C^{8})$ denote the Pontrjagin number $\\langle \\nu, p_{1}^{2}(C^{8}) \\rangle$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19376391982182628,
+            0.19788519637462235,
+            0.688195991091314,
+            0.2175226586102719
+          ],
+          "content": "According to Thom [5] or Hirzebruch [2] we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39420935412026725,
+            0.22356495468277945,
+            0.7438752783964365,
+            0.24471299093655588
+          ],
+          "content": "\\tau (C ^ {8}) = \\langle \\nu , \\frac {1}{4 5} (7 p _ {2} (C ^ {8}) - p _ {1} ^ {2} (C ^ {8}) \\rangle ;",
+          "image_source": "images/page_1_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.25075528700906347,
+            0.311804008908686,
+            0.2688821752265861
+          ],
+          "content": "and therefore"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3830734966592428,
+            0.27794561933534745,
+            0.7505567928730512,
+            0.2990936555891239
+          ],
+          "content": "4 5 \\tau (C ^ {8}) + q (C ^ {8}) = 7 \\langle \\nu , p _ {2} (C ^ {8}) \\rangle \\equiv 0\\tag{mod 7).}",
+          "image_source": "images/page_1_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.30362537764350456,
+            0.3028953229398664,
+            0.32326283987915405
+          ],
+          "content": "This implies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17371937639198218,
+            0.33081570996978854,
+            0.20935412026726058,
+            0.34894259818731116
+          ],
+          "content": "(1)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.46325167037861914,
+            0.33081570996978854,
+            0.6726057906458798,
+            0.35196374622356497
+          ],
+          "content": "2 q (C ^ {8}) - \\tau (C ^ {8}) \\equiv 0\\tag{mod 7).}",
+          "image_source": "images/page_1_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1915367483296214,
+            0.3580060422960725,
+            0.6414253897550112,
+            0.3776435045317221
+          ],
+          "content": "LEMMA 1. Under the above conditions we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44988864142538976,
+            0.3851963746223565,
+            0.6859688195991092,
+            0.40634441087613293
+          ],
+          "content": "\\tau (C ^ {8}) = \\tau (B _ {1} ^ {8}) - \\tau (B _ {2} ^ {8})\\tag{2}",
+          "image_source": "images/page_1_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.4123867069486405,
+            0.21603563474387527,
+            0.42900302114803623
+          ],
+          "content": "and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17371937639198218,
+            0.4395770392749245,
+            0.20935412026726058,
+            0.4561933534743202
+          ],
+          "content": "(3)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44543429844098,
+            0.4380664652567976,
+            0.6859688195991092,
+            0.4607250755287009
+          ],
+          "content": "q (C ^ {8}) = q (B _ {1} ^ {8}) - q (B _ {2} ^ {8}).",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1915367483296214,
+            0.46676737160120846,
+            0.5478841870824054,
+            0.486404833836858
+          ],
+          "content": "Formulas 1, 2, 3 clearly imply that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38752783964365256,
+            0.49244712990936557,
+            0.7394209354120267,
+            0.513595166163142
+          ],
+          "content": "2 q (B _ {1} ^ {8}) - \\tau (B _ {1} ^ {8}) \\equiv 2 q (B _ {2} ^ {8}) - \\tau (B _ {2} ^ {8})\\tag{mod 7);}",
+          "image_source": "images/page_1_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.5196374622356495,
+            0.5812917594654788,
+            0.5377643504531722
+          ],
+          "content": "which is just the assertion of Theorem 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1915367483296214,
+            0.5377643504531722,
+            0.6169265033407573,
+            0.5574018126888217
+          ],
+          "content": "PROOF OF LEMMA 1. Consider the diagram"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3585746102449889,
+            0.5664652567975831,
+            0.7683741648106904,
+            0.6661631419939577
+          ],
+          "content": "\\begin{array}{c} H ^ {n} (B _ {1}, M) \\oplus H ^ {n} (B _ {2}, M) \\xleftarrow [ \\approx ]{h} H ^ {n} (C, M) \\\\ \\Biggl \\downarrow i _ {1} \\oplus i _ {2} \\qquad \\qquad \\qquad \\Biggl \\downarrow j \\\\ H ^ {n} (B _ {1}) \\oplus H ^ {n} (B _ {2}) \\xleftarrow {k} H ^ {n} (C) \\end{array}",
+          "image_source": "images/page_1_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16703786191536749,
+            0.6737160120845922,
+            0.9643652561247216,
+            0.7099697885196374
+          ],
+          "content": "Note that for $n = 4$, these homomorphisms are all isomorphisms. If $\\alpha = jh^{-1}(\\alpha_1 \\oplus \\alpha_2) \\in H^4(C)$, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.16926503340757237,
+            0.716012084592145,
+            0.9599109131403119,
+            0.7386706948640483
+          ],
+          "content": "\\langle \\nu , \\alpha^ {2} \\rangle = \\langle \\nu , j h ^ {- 1} (\\alpha_ {1} ^ {2} \\oplus \\alpha_ {2} ^ {2}) \\rangle = \\langle \\nu_ {1} \\oplus (- \\nu_ {2}), \\alpha_ {1} ^ {2} \\oplus \\alpha_ {2} ^ {2} \\rangle = \\langle \\nu_ {1}, \\alpha_ {1} ^ {2} \\rangle - \\langle \\nu_ {2}, \\alpha_ {2} ^ {2} \\rangle . \\tag {4}",
+          "image_source": "images/page_1_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16703786191536749,
+            0.7447129909365559,
+            0.9599109131403119,
+            0.783987915407855
+          ],
+          "content": "Thus the quadratic form of $C^8$ is the \"direct sum\" of the quadratic form of $B_1^8$ and the negative of the quadratic form of $B_2^8$. This clearly implies formula (2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18930957683741648,
+            0.7809667673716012,
+            0.7884187082405345,
+            0.8006042296072508
+          ],
+          "content": "Define $\\alpha_{1} = i_{1}^{-1}p_{1}(B_{1})$ and $\\alpha_{2} = i_{2}^{-1}p_{1}(B_{2})$. Then the relation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4209354120267261,
+            0.8081570996978852,
+            0.7060133630289532,
+            0.8293051359516617
+          ],
+          "content": "k (p _ {1} (C)) = p _ {1} (B _ {1}) \\oplus p _ {1} (B _ {2})",
+          "image_source": "images/page_1_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.8338368580060423,
+            0.2962138084632517,
+            0.8534743202416919
+          ],
+          "content": "implies that"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1759465478841871,
+            0.07099697885196375,
+            0.21603563474387527,
+            0.08459214501510574
+          ],
+          "content": "400"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.49888641425389757,
+            0.0755287009063444,
+            0.6391982182628062,
+            0.0891238670694864
+          ],
+          "content": "JOHN MILNOR"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.32516703786191536,
+            0.8746223564954683,
+            0.4298440979955457,
+            0.8882175226586103
+          ],
+          "content": "$n = 4k - 1$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.3184855233853007,
+            0.8897280966767371,
+            0.43207126948775054,
+            0.9033232628398792
+          ],
+          "content": "$k = 1,2,3,4$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.5679287305122495,
+            0.8746223564954683,
+            0.621380846325167,
+            0.8897280966767371
+          ],
+          "content": "$\\lambda (M^n)$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.6971046770601337,
+            0.8761329305135952,
+            0.7594654788418709,
+            0.8912386706948641
+          ],
+          "content": "$s_{k}\\mu (L_k)$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.5077951002227171,
+            0.8897280966767371,
+            0.6614699331848553,
+            0.904833836858006
+          ],
+          "content": "$s_{k}\\mu (L_k) = 1,7,62,$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.16926503340757237,
+            0.8731117824773413,
+            0.9599109131403119,
+            0.9078549848942599
+          ],
+          "content": "$^{2}$  Similarly for n = 4k - 1 a residue class  $\\lambda(M^{n})$  modulo  $s_{k}\\mu(L_{k})$  could be defined. (See [2] page 14.) For k = 1, 2, 3, 4 we have  $s_{k}\\mu(L_{k}) = 1, 7, 62, 381$  respectively."
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.3518930957683742,
+            0.10725075528700906,
+            0.5879732739420935,
+            0.1268882175226586
+          ],
+          "content": "j h ^ {- 1} \\left(\\alpha_ {1} \\oplus \\alpha_ {2}\\right) = p _ {1} (C).",
+          "image_source": "images/page_2_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0779510022271715,
+            0.13595166163141995,
+            0.4521158129175947,
+            0.1540785498489426
+          ],
+          "content": "The computation (4) now shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.30957683741648107,
+            0.16163141993957703,
+            0.6369710467706013,
+            0.18277945619335348
+          ],
+          "content": "\\langle \\nu , p _ {1} ^ {2} (C) \\rangle = \\langle \\nu_ {1}, \\alpha_ {1} ^ {2} \\rangle - \\langle \\nu_ {2}, \\alpha_ {2} ^ {2} \\rangle ,",
+          "image_source": "images/page_2_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0779510022271715,
+            0.18882175226586104,
+            0.7416481069042317,
+            0.2084592145015106
+          ],
+          "content": "which is just formula (3). This completes the proof of Theorem 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.2084592145015106,
+            0.6013363028953229,
+            0.22507552870090636
+          ],
+          "content": "The following property of the invariant $\\lambda$ is clear."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.22356495468277945,
+            0.8641425389755011,
+            0.26132930513595165
+          ],
+          "content": "LEMMA 2. If the orientation of $M^7$ is reversed then $\\lambda(M^7)$ is multiplied by -1. As a consequence we have"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0801781737193764,
+            0.26132930513595165,
+            0.8708240534521158,
+            0.2990936555891239
+          ],
+          "content": "COROLLARY 2. If $\\lambda(M^{7}) \\neq 0$ then $M^{7}$ possesses no orientation reversing diffeomorphism$^{3}$ onto itself."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2383073496659243,
+            0.30966767371601206,
+            0.6904231625835189,
+            0.32779456193353473
+          ],
+          "level": 2,
+          "content": "§2. A partial characterization of the n-sphere"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0801781737193764,
+            0.3338368580060423,
+            0.8708240534521158,
+            0.3685800604229607
+          ],
+          "content": "Consider the following hypothesis concerning a closed manifold $M^n$ (where $R$ denotes the real numbers)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08240534521158129,
+            0.3685800604229607,
+            0.8730512249443207,
+            0.40634441087613293
+          ],
+          "content": "(H) There exists a differentiable function $f: M^n \\to R$ having only two critical points $x_0, x_1$. Furthermore these critical points are non-degenerate."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08240534521158129,
+            0.40634441087613293,
+            0.8708240534521158,
+            0.4425981873111782
+          ],
+          "content": "(That is if  $u_{1}, \\cdots, u_{n}$  are local coordinates in a neighborhood of  $x_{0}$  (or  $x_{1}$ ) then the matrix  $(\\partial^{2}f/\\partial u_{i}\\partial u_{j})$  is non-singular at  $x_{0}$  (or  $x_{1}$ ).)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08240534521158129,
+            0.4425981873111782,
+            0.8708240534521158,
+            0.4788519637462236
+          ],
+          "content": "THEOREM 2. If $M^n$ satisfies the hypothesis (H) then these exists a homeomorphism of $M^n$ onto $S^n$ which is a diffeomorphism except possibly at a single point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.4788519637462236,
+            0.6703786191536748,
+            0.49697885196374625
+          ],
+          "content": "Added in proof. This result is essentially due to Reeb [7]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08463251670378619,
+            0.49697885196374625,
+            0.8685968819599109,
+            0.5317220543806647
+          ],
+          "content": "The proof will be based on the orthogonal trajectories of the manifolds $f =$ constant."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08240534521158129,
+            0.5317220543806647,
+            0.8752783964365256,
+            0.676737160120846
+          ],
+          "content": "Normalize the function $f$ so that $f(x_0) = 0$, $f(x_1) = 1$. According to Morse ([3] Lemma 4) there exist local coordinates $v_1, \\cdots, v_n$ in a neighborhood $V$ of $x_0$ so that $f(x) = v_1^2 + \\cdots + v_n^2$ for $x \\in V$. (Morse assumes that $f$ is of class $C^3$, and constructs coordinates of class $C^1$; but the same proof works in the $C^\\infty$ case.) The expression $ds^2 = dv_1^2 + \\cdots + dv_n^2$ defines a Riemannian metric in the neighborhood $V$. Choose a differentiable Riemannian metric for $M^n$ which coincides with this one in some neighborhood$^4$$V'$ of $x_0$. Now the gradient of $f$ can be considered as a contravariant vector field."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10690423162583519,
+            0.676737160120846,
+            0.6391982182628062,
+            0.6948640483383686
+          ],
+          "content": "Following Morse we consider the differential equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34966592427616927,
+            0.7039274924471299,
+            0.6057906458797327,
+            0.7386706948640483
+          ],
+          "content": "\\frac {d x}{d t} = \\operatorname{grad} f / \\| \\operatorname{grad} f \\| ^ {2}.",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08463251670378619,
+            0.7477341389728097,
+            0.5968819599109132,
+            0.7673716012084593
+          ],
+          "content": "In the neighborhood $V'$ this equation has solutions"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2828507795100223,
+            0.7719033232628398,
+            0.6748329621380846,
+            0.7945619335347432
+          ],
+          "content": "(v _ {1} (t), \\dots , v _ {n} (t)) = (a _ {1} (t) ^ {\\frac {1}{2}}, \\dots , a _ {n} (t) ^ {\\frac {1}{2}})",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08685968819599109,
+            0.8006042296072508,
+            0.8775055679287305,
+            0.8580060422960725
+          ],
+          "content": "for  $0 \\leq t < \\varepsilon$ , where  $a = (a_{1}, \\cdots, a_{n})$  is any n-tuple with  $\\sum a_{i}^{2} = 1$ . These can be extended uniquely to solutions  $x_{a}(t)$  for  $0 \\leq t \\leq 1$ . Note that these solutions satisfy the identity"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24276169265033407,
+            0.07401812688821752,
+            0.7015590200445434,
+            0.0891238670694864
+          ],
+          "content": "MANIFOLDS HOMEOMORPHIC TO THE 7-SPHERE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8285077951002228,
+            0.07250755287009064,
+            0.8663697104677061,
+            0.08761329305135952
+          ],
+          "content": "401"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.688195991091314,
+            0.8761329305135952,
+            0.7149220489977728,
+            0.8912386706948641
+          ],
+          "content": "$f^{-1}$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.111358574610245,
+            0.8927492447129909,
+            0.4365256124721604,
+            0.9093655589123867
+          ],
+          "content": "$^{4}$  This is possible by [4] 6.7 and 12.2."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1091314031180401,
+            0.8761329305135952,
+            0.8752783964365256,
+            0.8927492447129909
+          ],
+          "content": "$^{3}$  A diffeomorphism f is a homeomorphism onto, such that both f and  $f^{-1}$  are differentiable."
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.48775055679287305,
+            0.10876132930513595,
+            0.6169265033407573,
+            0.1268882175226586
+          ],
+          "content": "f (x _ {a} (t)) = t.",
+          "image_source": "images/page_3_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18040089086859687,
+            0.13444108761329304,
+            0.7928730512249443,
+            0.1555891238670695
+          ],
+          "content": "Map the interior of the unit sphere of $R^n$ into $M^n$ by the map"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4142538975501114,
+            0.16012084592145015,
+            0.6904231625835189,
+            0.18277945619335348
+          ],
+          "content": "\\left(a _ {1} (t) ^ {\\frac {1}{2}}, \\dots , a _ {n} (t) ^ {\\frac {1}{2}}\\right)\\rightarrow x _ {a} (t).",
+          "image_source": "images/page_3_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.18882175226586104,
+            0.9487750556792873,
+            0.22507552870090636
+          ],
+          "content": "It is easily verified that this defines a diffeomorphism of the open $n$-cell onto $M^n - (x_1)$. The assertion of Theorem 2 now follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.22507552870090636,
+            0.9487750556792873,
+            0.2598187311178248
+          ],
+          "content": "Given any diffeomorphism $g: S^{n-1} \\to S^{n-1}$, an $n$-manifold can be obtained as follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.26132930513595165,
+            0.9487750556792873,
+            0.2990936555891239
+          ],
+          "content": "CONSTRUCTION (C). Let $M^n(g)$ be the manifold obtained from two copies of $R^n$ by matching the subsets $R^n - (0)$ under the diffeomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41870824053452116,
+            0.30513595166163143,
+            0.6815144766146993,
+            0.3459214501510574
+          ],
+          "content": "u \\rightarrow v = \\frac {1}{\\| u \\|} g \\left(\\frac {u}{\\| u \\|}\\right).",
+          "image_source": "images/page_3_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.3504531722054381,
+            0.9465478841870824,
+            0.3867069486404834
+          ],
+          "content": "(Such a manifold is clearly homeomorphic to $S^n$. If $g$ is the identity map then $M^n(g)$ is diffeomorphic to $S^n$.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.3867069486404834,
+            0.9465478841870824,
+            0.4229607250755287
+          ],
+          "content": "COROLLARY 3. A manifold $M^n$ can be obtained by the construction (C) if and only if it satisfies the hypothesis (H)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1759465478841871,
+            0.4229607250755287,
+            0.8797327394209354,
+            0.4425981873111782
+          ],
+          "content": "Proof. If  $M^{n}(g)$  is obtained by the construction (C) then the function"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32516703786191536,
+            0.4486404833836858,
+            0.7706013363028953,
+            0.4697885196374622
+          ],
+          "content": "f (x) = \\left\\| u \\right\\| ^ {2} / \\left(1 + \\left\\| u \\right\\| ^ {2}\\right) = 1 / \\left(1 + \\left\\| v \\right\\| ^ {2}\\right)",
+          "image_source": "images/page_3_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.47583081570996977,
+            0.9465478841870824,
+            0.513595166163142
+          ],
+          "content": "will satisfy the hypothesis (H). The converse can be established by a slight modification of the proof of Theorem 2."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.40089086859688194,
+            0.525679758308157,
+            0.6993318485523385,
+            0.5438066465256798
+          ],
+          "level": 2,
+          "content": "§3. Examples of 7-manifolds"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.5513595166163142,
+            0.9443207126948775,
+            0.6601208459214502
+          ],
+          "content": "Consider 3-sphere bundles over the 4-sphere with the rotation group SO(4) as structural group. The equivalence classes of such bundles are in one-one correspondence $^{5}$ with elements of the group $\\pi_{3}(\\mathrm{SO}(4))\\approx Z+Z$. A specific isomorphism between these groups is obtained as follows. For each $(h,j)\\in Z+Z$ let $f_{hj}:\\mathrm{S}^{3}\\to\\mathrm{SO}(4)$ be defined by $f_{hj}(u)\\cdot v=u^{h}vu^{j}$, for $v\\in R^{4}$. Quaternion multiplication is understood on the right."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.6601208459214502,
+            0.9420935412026726,
+            0.6963746223564955
+          ],
+          "content": "Let $\\iota$ be the standard generator for $H^{4}(S^{4})$. Let $\\xi_{hj}$ denote the sphere bundle corresponding to $(f_{hj}) \\in \\pi_{3}(\\mathrm{SO}(4))$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17371937639198218,
+            0.6963746223564955,
+            0.7394209354120267,
+            0.7145015105740181
+          ],
+          "content": "LEMMA 3. The Pontrjagin class $p_1(\\xi_{hj})$ equals $\\pm 2(h - j)\\iota$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.7145015105740181,
+            0.9420935412026726,
+            0.7522658610271903
+          ],
+          "content": "(The proof will be given later. One can show that the characteristic class $\\bar{c}(\\xi_{h_j})$ (see [4]) is equal to $(h + j)\\iota$.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.7507552870090635,
+            0.9443207126948775,
+            0.8217522658610272
+          ],
+          "content": "For each odd integer k let  $M_{k}^{7}$  be the total space of the bundle  $\\xi_{h,j}$  where h and j are determined by the equations  $h + j = 1$ , h - j = k. This manifold  $M_{k}^{7}$  has a natural differentiable structure and orientation, which will be described later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.8217522658610272,
+            0.8485523385300668,
+            0.8413897280966768
+          ],
+          "content": "LEMMA 4. The invariant $\\lambda(M_k^7)$ is the residue class modulo 7 of $k^2 - 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.8398791540785498,
+            0.7149220489977728,
+            0.8595166163141994
+          ],
+          "content": "LEMMA 5. The manifold $M_k^7$ satisfies the hypothesis (H)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16258351893095768,
+            0.8595166163141994,
+            0.42761692650334077,
+            0.877643504531722
+          ],
+          "content": "Combining these we have:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1603563474387528,
+            0.07250755287009064,
+            0.2026726057906459,
+            0.08761329305135952
+          ],
+          "content": "402"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.48552338530066813,
+            0.0755287009063444,
+            0.6258351893095768,
+            0.09063444108761329
+          ],
+          "content": "JOHN MILNOR"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.17371937639198218,
+            0.8972809667673716,
+            0.29175946547884185,
+            0.9138972809667674
+          ],
+          "content": "$^{5}$  See [4] §18."
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.11178247734138973,
+            0.8485523385300668,
+            0.14954682779456194
+          ],
+          "content": "THEOREM 3. For $k^2 \\not\\equiv 1 \\mod 7$ the manifold $M_k^7$ is homeomorphic to $S^7$ but not diffeomorphic to $S^7$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.14954682779456194,
+            0.8463251670378619,
+            0.18580060422960726
+          ],
+          "content": "(For $k = \\pm 1$ the manifold $M_k^7$ is diffeomorphic to $S^7$; but it is not known whether this is true for any other $k$.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.18580060422960726,
+            0.8418708240534521,
+            0.22054380664652568
+          ],
+          "content": "Clearly any differentiable structure on $S^7$ can be extended through $R^8 - (0)$. However:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.22205438066465258,
+            0.8463251670378619,
+            0.2583081570996979
+          ],
+          "content": "COROLLARY 4. There exists a differentiable structure on $S^7$ which cannot be extended throughout $R^8$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.2583081570996979,
+            0.8463251670378619,
+            0.2945619335347432
+          ],
+          "content": "This follows immediately from the preceding assertions, together with Corollary 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.2945619335347432,
+            0.8485523385300668,
+            0.38368580060422963
+          ],
+          "content": "PROOF OF LEMMA 3. It is clear that the Pontrjagin class $p_1(\\xi_{h_j})$ is a linear function of $h$ and $j$. Furthermore it is known that it is independent of the orientation of the fibre. But if the orientation of $S^3$ is reversed, then $\\xi_{h_j}$ is replaced by $\\xi_{-j - h}$. This shows that $p_1(\\xi_{h_j})$ is given by an expression of the form $c(h - j)\\iota$. Here $c$ is a constant which will be evaluated later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.38368580060422963,
+            0.8485523385300668,
+            0.45770392749244715
+          ],
+          "content": "PROOF OF LEMMA 4. Associated with each 3-sphere bundle $M_k^7 \\to S^4$ there is a 4-cell bundle $\\rho_k: B_k^8 \\to S^4$. The total space $B_k^8$ of this bundle is a differentiable manifold with boundary $M_k^7$. The cohomology group $H^4(B_k^8)$ is generated by the element $\\alpha = \\rho_k^*(\\iota)$. Choose orientations $\\mu, \\nu$ for $M_k^7$ and $B_k^8$ so that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3585746102449889,
+            0.4637462235649547,
+            0.5456570155902004,
+            0.48489425981873113
+          ],
+          "content": "\\langle \\nu , (i ^ {- 1} \\alpha) ^ {2} \\rangle = + 1.",
+          "image_source": "images/page_4_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.4909365558912387,
+            0.38752783964365256,
+            0.5105740181268882
+          ],
+          "content": "Then the index $\\tau(B_k^8)$ will be $+1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.5105740181268882,
+            0.8485523385300668,
+            0.6193353474320241
+          ],
+          "content": "The tangent bundle of  $B_{k}^{8}$  is the “Whitney sum” of (1) the bundle of vectors tangent to the fibre, and (2) the bundle of vectors normal to the fibre. The first bundle (1) is induced (under  $\\rho_{k}$ ) from the bundle  $\\xi_{hj}$ , and therefore has Pontrjagin class  $p_{1} = \\rho_{k}^{*}(c(h - j)\\iota) = ck\\alpha$ . The second is induced from the tangent bundle of  $S^{4}$ , and therefore has first Pontrjagin class zero. Now by the Whitney product theorem ([2] or [6])"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3518930957683742,
+            0.6268882175226587,
+            0.5456570155902004,
+            0.6465256797583081
+          ],
+          "content": "p _ {1} (B _ {k} ^ {8}) = c k \\alpha + 0.",
+          "image_source": "images/page_4_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.6570996978851964,
+            0.8463251670378619,
+            0.729607250755287
+          ],
+          "content": "For the special case k = 1 it is easily verified that  $B_{1}^{8}$  is the quaternion projective plane  $P_{2}(K)$  with an 8-cell removed. But the Pontrjagin class  $p_{1}(P_{2}(K))$  is known to be twice a generator of  $H^{4}(P_{2}(K))$ . (See Hirzebruch [1].) Therefore the constant c must be  $\\pm2$ , which completes the proof of Lemma 3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.060133630289532294,
+            0.7280966767371602,
+            0.844097995545657,
+            0.7658610271903323
+          ],
+          "content": "Now $q(B_k^8) = \\langle \\nu, (i^{-1}(\\pm 2k\\alpha))^2 \\rangle = 4k^2$; and $2q - \\tau = 8k^2 - 1 \\equiv k^2 - 1 \\pmod{7}$. This completes the proof of Lemma 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.7658610271903323,
+            0.8485523385300668,
+            0.8564954682779456
+          ],
+          "content": "PROOF OF LEMMA 5. As coordinate neighborhoods in the base space $S^4$ take the complement of the north pole, and the complement of the south pole. These can be identified with euclidean space $R^4$ under stereographic projection. Then a point which corresponds to $u \\in R^4$ under one projection will correspond to $u' = u / \\| u \\|^2$ under the other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05790645879732739,
+            0.8549848942598187,
+            0.8463251670378619,
+            0.8942598187311178
+          ],
+          "content": "The total space  $M_{k}^{7}$  can now be obtained as follows. $^{5}$  Take two copies of  $R^{4} \\times S^{3}$  and identify the subsets  $(R^{4} - (0)) \\times S^{3}$  under the diffeomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24498886414253898,
+            0.8987915407854985,
+            0.6570155902004454,
+            0.9214501510574018
+          ],
+          "content": "(u, v) \\rightarrow (u ^ {\\prime}, v ^ {\\prime}) = (u / \\| u \\| ^ {2}, u ^ {h} v u ^ {j} / \\| u \\|)",
+          "image_source": "images/page_4_equation_15.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.22494432071269488,
+            0.08006042296072508,
+            0.6815144766146993,
+            0.09516616314199396
+          ],
+          "content": "MANIFOLDS HOMEOMORPHIC TO THE 7-SPHERE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8084632516703786,
+            0.07854984894259819,
+            0.8485523385300668,
+            0.09365558912386707
+          ],
+          "content": "403"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.10876132930513595,
+            0.9487750556792873,
+            0.1419939577039275
+          ],
+          "content": "(using quaternion multiplication). This makes the differentiable structure of $M_k^T$ precise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.14350453172205438,
+            0.9487750556792873,
+            0.1797583081570997
+          ],
+          "content": "Replace the coordinates $(u', v')$ by $(u'', v')$ where $u'' = u'(v')^{-1}$. Consider the function $f: M_k^7 \\to R$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289532293986637,
+            0.18882175226586104,
+            0.8084632516703786,
+            0.20996978851963746
+          ],
+          "content": "f (x) = \\Re (v) / (1 + \\| u \\| ^ {2}) ^ {\\frac {1}{2}} = \\Re (u ^ {\\prime \\prime}) / (1 + \\| u ^ {\\prime \\prime} \\| ^ {2}) ^ {\\frac {1}{2}};",
+          "image_source": "images/page_5_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.21450151057401812,
+            0.9487750556792873,
+            0.2719033232628399
+          ],
+          "content": "where  $\\Re(v)$  denotes the real part of the quaternion v. It is easily verified that f has only two critical points (namely  $(u, v) = (0, \\pm1)$ ) and that these are non-degenerate. This completes the proof."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.41870824053452116,
+            0.2824773413897281,
+            0.6792873051224945,
+            0.30060422960725075
+          ],
+          "level": 2,
+          "content": "§4. Miscellaneous results"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.3066465256797583,
+            0.9443207126948775,
+            0.3595166163141994
+          ],
+          "content": "THEOREM 4. Either (a) there exists a closed topological 8-manifold which does not possess any differentiable structure; or (b) the Pontrjagin class $p_1$ of an open 8-manifold is not a topological invariant."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1759465478841871,
+            0.3595166163141994,
+            0.6481069042316259,
+            0.3776435045317221
+          ],
+          "content": "(The author has no idea which alternative holds.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.3776435045317221,
+            0.9443207126948775,
+            0.46827794561933533
+          ],
+          "content": "PROOF. Let  $X_{k}^{8}$  be the topological 8-manifold obtained from  $B_{k}^{8}$  by collapsing its boundary (a topological 7-sphere) to a point  $x_{0}$ . Let  $\\bar{\\alpha} \\in H^{4}(X_{k}^{8})$  correspond to the generator  $\\alpha \\in H^{4}(B_{k}^{8})$ . Suppose that  $X_{k}^{8}$ , possesses a differentiable structure, and that  $p_{1}(X_{k}^{8} - (x_{0}))$  is a topological invariant. Then  $p_{1}(X_{k}^{8})$  must equal  $\\pm2k\\bar{\\alpha}$ , hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3741648106904232,
+            0.47583081570996977,
+            0.7594654788418709,
+            0.49697885196374625
+          ],
+          "content": "2 q (X _ {k} ^ {8}) - \\tau (X _ {k} ^ {8}) = 8 k ^ {2} - 1 \\equiv k ^ {2} - 1\\tag{mod 7).}",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.5030211480362538,
+            0.5590200445434298,
+            0.5211480362537765
+          ],
+          "content": "But for $k^2 \\not\\equiv 1 \\pmod{7}$ this is impossible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.5226586102719033,
+            0.9398663697104677,
+            0.5755287009063444
+          ],
+          "content": "Two diffeomorphisms $f, g: M_1^n \\to M_2^n$ will be called differentiably isotopic if there exists a diffeomorphism $M_1^n \\times R \\to M_2^n \\times R$ of the form $(x, t) \\to (h(x, t), t)$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.46325167037861914,
+            0.5845921450151057,
+            0.621380846325167,
+            0.6238670694864048
+          ],
+          "content": "h (x, t) = \\left\\{ \\begin{array}{l} f (x) \\\\ g (x) \\end{array} \\right.\\tag{\\((t \\leq 0)\\}",
+          "image_source": "images/page_5_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8574610244988864,
+            0.6057401812688822,
+            0.933184855233853,
+            0.6238670694864048
+          ],
+          "content": "$(t \\geq 1)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.6299093655589124,
+            0.9376391982182628,
+            0.6706948640483383
+          ],
+          "content": "LEMMA 6. If the diffeomorphisms $f, g: S^{n-1} \\to S^{n-1}$ are differentiably isotopic, then the manifolds $M^n(f), M^n(g)$ obtained by the construction (C) are diffeomorphic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.6646525679758308,
+            0.45879732739420936,
+            0.6827794561933535
+          ],
+          "content": "The proof is straightforward."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1447661469933185,
+            0.6842900302114804,
+            0.9376391982182628,
+            0.7205438066465257
+          ],
+          "content": "THEOREM 5. There exists a diffeomorphism $f: S^6 \\to S^6$ of degree $+1$ which is not differentiably isotopic to the identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1447661469933185,
+            0.7205438066465257,
+            0.9398663697104677,
+            0.7779456193353474
+          ],
+          "content": "Proof. By Lemma 5 and Corollary 3 the manifold $M_3^7$ is diffeomorphic to $M^7(f)$ for some $f$. If $f$ were differentiably isotopic to the identity then Lemma 6 would imply that $M_3^7$ was diffeomorphic to $S^7$. But this is false by Lemma 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.7854984894259819,
+            0.3830734966592428,
+            0.8006042296072508
+          ],
+          "content": "PRINCETON UNIVERSITY"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.48106904231625836,
+            0.8141993957703928,
+            0.5991091314031181,
+            0.8308157099697885
+          ],
+          "level": 2,
+          "content": "REFERENCES"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.8338368580060423,
+            0.9309576837416481,
+            0.8655589123867069
+          ],
+          "content": "1. F. HIRZEBRUCH, Ueber die quaternionalen projektiven Räume, S.-Ber. math.- naturw. Kl. Bayer. Akad. Wiss. München (1953), pp. 301–312."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.8640483383685801,
+            0.8975501113585747,
+            0.8821752265861027
+          ],
+          "content": "2. ——, Neue topologische Methoden in der algebraischen Geometrie, Berlin, 1956."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1603563474387528,
+            0.07099697885196375,
+            0.20044543429844097,
+            0.08459214501510574
+          ],
+          "content": "404"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.48552338530066813,
+            0.0755287009063444,
+            0.623608017817372,
+            0.09063444108761329
+          ],
+          "content": "JOHN MILNOR"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10467706013363029,
+            0.10876132930513595,
+            0.89086859688196,
+            0.13897280966767372
+          ],
+          "content": "3. M. MORSE, Relations between the numbers of critical points of a real function of $n$ independent variables, Trans. Amer. Math. Soc., 27 (1925), pp. 345-396."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10690423162583519,
+            0.13897280966767372,
+            0.6748329621380846,
+            0.15256797583081572
+          ],
+          "content": "4. N. STEENROD, The topology of fibre bundles, Princeton, 1951."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10690423162583519,
+            0.15256797583081572,
+            0.89086859688196,
+            0.18277945619335348
+          ],
+          "content": "5. R. THOM, Quelques propriétés globale des variétés différentiables, Comment. Math. Helv., 28 (1954), pp. 17-86."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10690423162583519,
+            0.18277945619335348,
+            0.89086859688196,
+            0.21299093655589124
+          ],
+          "content": "6. WU WEN-TSUN, Sur les classes caractéristiques des structures fibrées sphériques, Actual. sci. industr. 1183, Paris, 1952, pp. 5–89."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10690423162583519,
+            0.21450151057401812,
+            0.89086859688196,
+            0.24471299093655588
+          ],
+          "content": "7. G. REEB, Sur certain propriétés topologiques des variétés feuilletées, Actual. sci. industr. 1183, Paris, 1952, pp. 91–154."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.267260579064588,
+            0.0755287009063444,
+            0.7260579064587973,
+            0.0891238670694864
+          ],
+          "content": "MANIFOLDS HOMEOMORPHIC TO THE 7-SPHERE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8507795100222717,
+            0.07250755287009064,
+            0.89086859688196,
+            0.08761329305135952
+          ],
+          "content": "405"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

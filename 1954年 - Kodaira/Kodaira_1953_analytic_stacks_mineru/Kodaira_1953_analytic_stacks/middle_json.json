@@ -1,0 +1,3913 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.15824175824175823,
+            0.11722141823444283,
+            0.8791208791208791,
+            0.16063675832127353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "* This note is an abstract of results to appear in the Acta Mathematica 1954, or in the Report"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            },
+            {
+              "type": "text",
+              "content": " of the Michigan Conference of June 1953. These papers, together with three earlier papers of this series and papers by Kaplan"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{6}"
+            },
+            {
+              "type": "text",
+              "content": " are listed below:"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.15824175824175823,
+            0.16063675832127353,
+            0.8791208791208791,
+            0.20260492040520983
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            },
+            {
+              "type": "text",
+              "content": "  “Topological Methods on Riemann Surfaces. Pseudoharmonic Function,” Contributions to the Theory of Riemann Surfaces, Ann. Math. Studies, No. 30, 111–139 (1953)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.15824175824175823,
+            0.20260492040520983,
+            0.8791208791208791,
+            0.23154848046309695
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            },
+            {
+              "type": "text",
+              "content": "  “The Existence of Pseudoconjugates on Riemann Surfaces,” Fund. Math., 39, 269–287 (1952)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.16043956043956045,
+            0.23299565846599132,
+            0.8791208791208791,
+            0.26049204052098407
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{3}"
+            },
+            {
+              "type": "text",
+              "content": "  “Curve Families F* Locally the Level Curves of a Pseudoharmonic Function,” Acta Mathematica (1954)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.16263736263736264,
+            0.2619392185238784,
+            0.8791208791208791,
+            0.2894356005788712
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{4}"
+            },
+            {
+              "type": "text",
+              "content": "  “Contour Equivalent Pseudoharmonic Functions and Pseudoconjugates,” Am. J. Math., 75, 23–51 (1952)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.16043956043956045,
+            0.29088277858176553,
+            0.8791208791208791,
+            0.31982633863965265
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            },
+            {
+              "type": "text",
+              "content": "  “Conjugate Nets on an Open Riemann Surface,” Report of the Michigan Conference of June 1953; (to be published)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.16043956043956045,
+            0.31982633863965265,
+            0.8769230769230769,
+            0.361794500723589
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{6}"
+            },
+            {
+              "type": "text",
+              "content": "  Kaplan, “Regular Curve Families Filling the Plane,” Duke Math. J., I, 7, 154–185 (1940); II, 8, 11–45 (1941). “The Structure of a Curve-Family on a Surface in the Neighborhood of an Isolated Singularity,” Am. J. Math., 64, 1–35 (1942)."
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 7,
+          "bbox": [
+            0.21978021978021978,
+            0.41678726483357453,
+            0.8197802197802198,
+            0.45007235890014474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ON A DIFFERENTIAL-GEOMETRIC METHOD IN THE THEORY OF ANALYTIC STACKS*"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.43956043956043955,
+            0.4602026049204052,
+            0.6021978021978022,
+            0.47756874095513746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By K. KODAIRA"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.2835164835164835,
+            0.4833574529667149,
+            0.756043956043956,
+            0.49782923299565845
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "DEPARTMENT OF MATHEMATICS, PRINCETON UNIVERSITY"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.3076923076923077,
+            0.5036179450072359,
+            0.734065934065934,
+            0.5195369030390738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Communicated by S. Lefschetz, September 9, 1953"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15604395604395604,
+            0.5253256150506512,
+            0.8835164835164835,
+            0.6989869753979739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Introduction.—Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " be a compact Kähler variety of complex dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " be a complex line bundle"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            },
+            {
+              "type": "text",
+              "content": " over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " whose structure group is the multiplicative group of complex numbers. Moreover let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)"
+            },
+            {
+              "type": "text",
+              "content": " be the stack (faisceau) over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " of germs of holomorphic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-forms with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{q}(V; \\Omega^{p}(F))"
+            },
+            {
+              "type": "text",
+              "content": " be the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": "th cohomology group of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)"
+            },
+            {
+              "type": "text",
+              "content": ". It is important for applications to determine the circumstances under which the cohomology group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{q}(V; \\Omega^{p}(F))"
+            },
+            {
+              "type": "text",
+              "content": " vanishes. In the present note we shall prove by a differential-geometric method due to Bochner"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            },
+            {
+              "type": "text",
+              "content": " some sufficient conditions for the vanishing of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{q}(V; \\Omega^{p}(F))"
+            },
+            {
+              "type": "text",
+              "content": " in terms of the characteristic class of the bundle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15604395604395604,
+            0.6989869753979739,
+            0.8835164835164835,
+            0.8219971056439942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Harmonic Forms with Coefficients in Complex Line Bundles. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{3}"
+            },
+            {
+              "type": "text",
+              "content": " —We denote by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ds^{2} = 2 \\sum g_{\\alpha\\beta} (dz^{\\alpha} d\\bar{z}^{\\beta})"
+            },
+            {
+              "type": "text",
+              "content": "  the Kähler metric on V. Take a sufficiently fine finite covering  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\{U_{j}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of V. Then the bundle F is determined by the system  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{f_{jk}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of non-vanishing holomorphic functions  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{jk}"
+            },
+            {
+              "type": "text",
+              "content": "  defined, respectively, in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_{j} \\cap U_{k}"
+            },
+            {
+              "type": "text",
+              "content": "  and satisfying  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{jk} f_{kl} f_{lj} = 1"
+            },
+            {
+              "type": "text",
+              "content": "  in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_{j} \\cap U_{k} \\cap U_{l}"
+            },
+            {
+              "type": "text",
+              "content": " . Clearly there exists a system  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_{j}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of real positive functions  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{j}"
+            },
+            {
+              "type": "text",
+              "content": "  of class  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": "  defined, respectively, in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_{j}"
+            },
+            {
+              "type": "text",
+              "content": "  satisfying"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3868131868131868,
+            0.8277858176555717,
+            0.6637362637362637,
+            0.8639652677279306
+          ],
+          "image_path": "images/page_0_equation_13.jpg",
+          "content": "\\frac {a _ {j}}{a _ {k}} = \\left| f _ {j k} \\right| ^ {2}, \\quad \\text { in } U _ {j} \\cap U _ {k}.\\tag{1}"
+        },
+        {
+          "type": "aside_text",
+          "index": 14,
+          "bbox": [
+            0.008791208791208791,
+            0.3950795947901592,
+            0.035164835164835165,
+            0.9276410998552822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.16043956043956045,
+            0.08104196816208394,
+            0.2043956043956044,
+            0.09406657018813314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1268"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.37142857142857144,
+            0.07959479015918958,
+            0.6681318681318681,
+            0.0955137481910275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: K. KODAIRA"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.865934065934066,
+            0.03762662807525326,
+            0.9318681318681319,
+            0.07959479015918958
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Check for updates"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.7538461538461538,
+            0.08104196816208394,
+            0.8791208791208791,
+            0.0955137481910275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proc. N. A. S."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.10989010989010989,
+            0.11287988422575977,
+            0.832967032967033,
+            0.14905933429811866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " is, by definition, a system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{\\varphi_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " of exterior differential forms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi_j"
+            },
+            {
+              "type": "text",
+              "content": " defined, respectively, in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3274725274725275,
+            0.1577424023154848,
+            0.6175824175824176,
+            0.17655571635311143
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "\\varphi_ {j} = f _ {j k} \\cdot \\varphi_ {k}, \\quad \\text { in } U _ {j} \\cap U _ {k}."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.10989010989010989,
+            0.18234442836468887,
+            0.8307692307692308,
+            0.21852387843704776
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi = \\{\\varphi_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{\\partial}\\varphi = \\{(\\bar{\\partial}\\varphi)_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{d}\\varphi = \\{(\\mathfrak{d}\\varphi)_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " are defined, respectively, by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.25934065934065936,
+            0.2199710564399421,
+            0.6857142857142857,
+            0.2575976845151954
+          ],
+          "image_path": "images/page_1_equation_3.jpg",
+          "content": "(\\bar {\\partial} \\varphi) _ {j} = \\bar {\\partial} \\varphi_ {j}, \\quad (\\mathfrak {d} \\varphi) _ {j} = - * a _ {j} \\partial \\left(\\frac {1}{a _ {j}} * \\varphi_ {j}\\right),"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.10989010989010989,
+            0.26483357452966716,
+            0.8351648351648352,
+            0.31693198263386396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "provided that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi"
+            },
+            {
+              "type": "text",
+              "content": " is differentiable, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "*\\varphi_j"
+            },
+            {
+              "type": "text",
+              "content": " denotes the dual form of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi_j"
+            },
+            {
+              "type": "text",
+              "content": " with respect to the preassigned Kähler metric "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ds^2"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ". The form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi"
+            },
+            {
+              "type": "text",
+              "content": " is called harmonic if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{\\partial}\\varphi = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{d}\\varphi = 0"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.10989010989010989,
+            0.31693198263386396,
+            0.8351648351648352,
+            0.402315484804631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)"
+            },
+            {
+              "type": "text",
+              "content": " be the stack (faisceau) over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " of germs of holomorphic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-forms with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": ". Then, as was shown by the author,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{4}"
+            },
+            {
+              "type": "text",
+              "content": " the cohomology group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{q}(V; \\Omega^{p}(F))"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)"
+            },
+            {
+              "type": "text",
+              "content": " is isomorphic to the space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p,q}(F)"
+            },
+            {
+              "type": "text",
+              "content": " consisting of all harmonic forms of type "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p, q)"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": ":"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.34945054945054943,
+            0.40520984081041966,
+            0.6065934065934065,
+            0.42257597684515197
+          ],
+          "image_path": "images/page_1_equation_6.jpg",
+          "content": "H ^ {q} (V; \\Omega^ {p} (F)) \\cong H ^ {p, q} (F).\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10989010989010989,
+            0.43270622286541244,
+            0.45494505494505494,
+            0.45007235890014474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As one readily infers, the mapping"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.2725274725274725,
+            0.4515195369030391,
+            0.6571428571428571,
+            0.487698986975398
+          ],
+          "image_path": "images/page_1_equation_8.jpg",
+          "content": "\\varphi = \\{\\varphi_ {j} \\} \\rightarrow \\varphi^ {\\dagger} = \\{\\varphi_ {j} ^ {\\dagger} \\}, \\quad \\varphi_ {j} ^ {\\dagger} = \\frac {1}{a _ {j}} * \\bar {\\varphi} j"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.10989010989010989,
+            0.49493487698986977,
+            0.8351648351648352,
+            0.548480463096961
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "maps "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p,q}(F)"
+            },
+            {
+              "type": "text",
+              "content": " isomorphically onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{n - p,n - q}(-F)"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-F"
+            },
+            {
+              "type": "text",
+              "content": " denotes the complex line bundle defined by the system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{f_{jk}^{-1}\\}"
+            },
+            {
+              "type": "text",
+              "content": ". Combining this with (2), we obtain therefore the isomorphism"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.2879120879120879,
+            0.5542691751085383,
+            0.6681318681318681,
+            0.5745296671490593
+          ],
+          "image_path": "images/page_1_equation_10.jpg",
+          "content": "H ^ {q} (V; \\Omega^ {p} (F)) \\cong H ^ {n - q} (V; \\Omega^ {n - p} (- F)).\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13186813186813187,
+            0.5817655571635311,
+            0.7868131868131868,
+            0.6005788712011577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. An Inequality.—The equations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{\\partial}\\varphi = 0"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{d}\\varphi = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi = \\{\\varphi_j\\}"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.2153846153846154,
+            0.6063675832127352,
+            0.7296703296703296,
+            0.6280752532561505
+          ],
+          "image_path": "images/page_1_equation_12.jpg",
+          "content": "\\varphi_ {j} = (1 / p! q!) \\sum \\varphi_ {j \\tau_ {1} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}} d z ^ {\\tau_ {1}} \\dots d z ^ {\\tau_ {p}} d \\bar {z} ^ {\\alpha_ {1}} \\dots d \\bar {z} ^ {\\alpha_ {q}},"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.10989010989010989,
+            0.6367583212735166,
+            0.4879120879120879,
+            0.6541244573082489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "can be written explicitly in the forms"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.22857142857142856,
+            0.662807525325615,
+            0.7032967032967034,
+            0.6989869753979739
+          ],
+          "image_path": "images/page_1_equation_14.jpg",
+          "content": "\\sum_ {m = 0} ^ {q} (- 1) ^ {m} \\nabla_ {\\alpha_ {m} ^ {*} \\varphi_ {j _ {\\tau_ {1}} \\dots \\tau_ {p}} \\alpha_ {0} ^ {*} \\dots \\alpha_ {m - 1} ^ {*}} \\alpha_ {m + 1} ^ {*} \\dots \\alpha_ {q} ^ {*} = 0,\\tag{4) \\( _{1} \\}"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.2923076923076923,
+            0.7047756874095513,
+            0.6681318681318681,
+            0.7279305354558611
+          ],
+          "image_path": "images/page_1_equation_15.jpg",
+          "content": "\\sum g ^ {\\lambda \\mu^ {*}} (\\nabla_ {\\lambda} + \\rho_ {j \\lambda}) \\varphi_ {j \\tau_ {1} \\dots \\tau_ {p} \\mu^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}} = 0,\\tag{4) \\( _{2} \\}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.10989010989010989,
+            0.7351664254703328,
+            0.8351648351648352,
+            0.7698986975397974
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nabla_{\\lambda}, \\nabla_{\\alpha^{*}}"
+            },
+            {
+              "type": "text",
+              "content": "  denote the covariant differentiations with respect to the local coordinates  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z^{\\lambda}, \\bar{z}^{\\alpha}"
+            },
+            {
+              "type": "text",
+              "content": "  and where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.3098901098901099,
+            0.7713458755426917,
+            0.6307692307692307,
+            0.804630969609262
+          ],
+          "image_path": "images/page_1_equation_17.jpg",
+          "content": "\\rho_ {j \\lambda} = - \\partial_ {\\lambda} \\log a _ {j}, \\quad \\partial_ {\\lambda} = \\frac {\\partial}{\\partial z ^ {\\lambda}}."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.10989010989010989,
+            0.8147612156295224,
+            0.8307692307692308,
+            0.8523878437047757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{\\tau \\alpha^{*}\\beta}^{\\sigma} = \\bar{\\partial}_{\\alpha}(\\sum g^{\\sigma \\nu^{*}}\\partial_{\\beta}g_{\\tau \\nu^{*}})"
+            },
+            {
+              "type": "text",
+              "content": " be the curvature tensor and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{\\alpha^{*}\\beta} = \\sum R_{\\tau \\alpha^{*}\\beta}^{\\tau}"
+            },
+            {
+              "type": "text",
+              "content": " be the Ricci tensor. Moreover we set"
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 19,
+          "bbox": [
+            0.008791208791208791,
+            0.3950795947901592,
+            0.035164835164835165,
+            0.9261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.11208791208791209,
+            0.07814761215629522,
+            0.23296703296703297,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Vol. 39, 1953"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 21,
+          "bbox": [
+            0.3252747252747253,
+            0.07814761215629522,
+            0.621978021978022,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: K. KODAIRA"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.7912087912087912,
+            0.07959479015918958,
+            0.8351648351648352,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1269"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "equation",
+          "index": 0,
+          "bbox": [
+            0.3758241758241758,
+            0.11287988422575977,
+            0.6835164835164835,
+            0.13314037626628075
+          ],
+          "image_path": "images/page_2_equation_0.jpg",
+          "content": "X _ {\\lambda \\alpha^ {*}} = - \\bar {\\partial} _ {\\alpha} \\rho_ {j \\lambda} = \\partial_ {\\lambda} \\bar {\\partial} _ {\\alpha} \\log a _ {j}.\\tag{5}"
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.16263736263736264,
+            0.14037626628075253,
+            0.8879120879120879,
+            0.17510853835021709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then, by a simple computation, we infer from (4) that, for any harmonic form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi = \\{\\varphi_j\\} \\epsilon H^{p,q}(F)"
+            },
+            {
+              "type": "text",
+              "content": ", the following relation holds:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.16483516483516483,
+            0.1808972503617945,
+            0.7296703296703296,
+            0.2098408104196816
+          ],
+          "image_path": "images/page_2_equation_2.jpg",
+          "content": "\\sum g ^ {\\lambda \\mu^ {*}} (\\nabla_ {\\lambda} + \\rho_ {j \\lambda}) \\nabla_ {\\mu^ {*}} \\varphi_ {j _ {\\tau_ {1}} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}} = \\sum_ {m} \\sum_ {h} \\sum R _ {\\tau_ {h} \\alpha_ {m} ^ {*}} ^ {\\sigma} ^ {\\mu^ {*}} \\times"
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.25054945054945055,
+            0.22141823444283648,
+            0.8,
+            0.25470332850940663
+          ],
+          "image_path": "images/page_2_equation_3.jpg",
+          "content": "\\varphi_ {j \\tau_ {1} \\dots (\\sigma) _ {h}} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots (\\mu^ {*}) _ {m} \\dots \\alpha_ {q} ^ {*} + \\sum_ {m} \\sum [ X _ {\\alpha_ {m} ^ {*}} ^ {\\mu^ {*}} - R _ {\\alpha_ {m} ^ {*}} ^ {\\mu^ {*}} ] \\times"
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.6043956043956044,
+            0.26483357452966716,
+            0.8153846153846154,
+            0.28364688856729375
+          ],
+          "image_path": "images/page_2_equation_4.jpg",
+          "content": "\\varphi_ {j \\tau_ {1}} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots (\\mu^ {*}) _ {m} \\dots \\alpha_ {q} ^ {*},\\tag{6}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.16263736263736264,
+            0.28798842257597684,
+            0.8879120879120879,
+            0.34442836468885674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X^{\\mu^{*}}_{\\alpha^{*}} = \\sum g^{\\lambda \\mu^{*}}X_{\\lambda \\alpha^{*}}, R^{\\mu^{*}}_{\\alpha^{*}} = \\sum g^{\\lambda \\mu^{*}}\\bar{R}_{\\lambda^{*}\\alpha}"
+            },
+            {
+              "type": "text",
+              "content": " and where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(\\sigma)_h"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(\\mu^{*})_m"
+            },
+            {
+              "type": "text",
+              "content": " indicates that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau_h"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_m^*"
+            },
+            {
+              "type": "text",
+              "content": " is to be replaced by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu^*"
+            },
+            {
+              "type": "text",
+              "content": " respectively. We note here that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial \\overline{\\partial} \\log a_j = \\partial \\overline{\\partial} \\log a_k"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j \\cap U_k"
+            },
+            {
+              "type": "text",
+              "content": ", so"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3978021978021978,
+            0.34876989869753977,
+            0.6637362637362637,
+            0.3704775687409551
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "\\sum X _ {\\lambda \\alpha^ {*}} d z ^ {\\lambda} d \\bar {z} ^ {\\alpha} = \\partial \\bar {\\partial} \\log a _ {j}\\tag{7}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.16263736263736264,
+            0.37771345875542695,
+            0.7120879120879121,
+            0.39363241678726485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a well defined 2-form on the whole of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ". Now we set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3142857142857143,
+            0.402315484804631,
+            0.7296703296703296,
+            0.4384949348769899
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "\\xi_ {\\mu^ {*}} = \\frac {1}{a _ {j}} \\sum \\nabla_ {\\mu^ {*}} \\varphi_ {j \\tau_ {1} \\dots \\tau_ {p}} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*} \\cdot \\bar {\\varphi} _ {j} ^ {\\tau_ {1} \\dots \\tau_ {p}} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.16263736263736264,
+            0.44573082489146165,
+            0.23076923076923078,
+            0.4602026049204052
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.23296703296703297,
+            0.4732272069464544,
+            0.8065934065934066,
+            0.49782923299565845
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "\\bar {\\varphi} _ {j} ^ {\\tau_ {1} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}} = \\sum g ^ {\\tau_ {1} \\sigma_ {1} ^ {*}} \\dots g ^ {\\tau_ {p} \\sigma_ {p} ^ {*}} g ^ {\\beta_ {1} \\alpha_ {1} ^ {*}} \\dots g ^ {\\beta_ {q} \\alpha_ {q} ^ {*} \\overline {{\\varphi_ {j \\sigma_ {1} \\cdots \\sigma_ {p} \\beta_ {1} ^ {*} \\cdots \\beta_ {q} ^ {*}}}}}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.16263736263736264,
+            0.5108538350217077,
+            0.6813186813186813,
+            0.5282199710564399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi = \\sum \\xi_{\\tau^{*}}d\\bar{z}^{\\tau}"
+            },
+            {
+              "type": "text",
+              "content": " is a well defined 1-form on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.4307692307692308,
+            0.5340086830680174,
+            0.6241758241758242,
+            0.5557163531114327
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "- \\delta \\xi = \\sum g ^ {\\lambda \\mu^ {*}} \\nabla_ {\\lambda} \\xi_ {\\mu^ {*}}"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.18681318681318682,
+            0.5615050651230101,
+            0.7692307692307693,
+            0.597684515195369
+          ],
+          "image_path": "images/page_2_equation_13.jpg",
+          "content": "= \\# + \\frac {1}{a _ {j}} \\sum g ^ {\\lambda \\mu^ {*}} (\\nabla_ {\\lambda} + \\rho_ {j \\lambda}) \\nabla_ {\\mu^ {*} \\varphi_ {j _ {\\tau_ {1}} \\dots \\tau_ {p}}} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*} \\cdot \\bar {\\varphi} _ {j} ^ {\\tau_ {1} \\dots \\tau_ {p}} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}\\tag{8}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.16263736263736264,
+            0.6005788712011577,
+            0.23076923076923078,
+            0.6164978292329957
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.189010989010989,
+            0.6208393632416788,
+            0.7472527472527473,
+            0.6555716353111433
+          ],
+          "image_path": "images/page_2_equation_15.jpg",
+          "content": "\\# = \\frac {1}{a _ {j}} \\sum g ^ {\\lambda \\mu^ {*}} \\nabla_ {\\mu^ {*} \\varphi_ {j \\tau_ {1}} \\dots \\tau_ {p} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*}} \\cdot \\overline {{\\nabla_ {\\lambda^ {*} \\varphi_ {j}}}} ^ {\\tau_ {1} \\dots \\tau_ {p}} \\alpha_ {1} ^ {*} \\dots \\alpha_ {q} ^ {*} \\geq 0."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.16263736263736264,
+            0.662807525325615,
+            0.8857142857142857,
+            0.7163531114327062
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Denoting by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " the determinant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = |g_{\\alpha \\beta^*}|"
+            },
+            {
+              "type": "text",
+              "content": ", we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int_V \\delta \\xi \\cdot g dV = 0"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "dV = (i)^n dz^1 d\\bar{z}^1 \\ldots dz^n d\\bar{z}^n"
+            },
+            {
+              "type": "text",
+              "content": ". Combining (6) with (8), we obtain therefore the inequality"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.16043956043956045,
+            0.723589001447178,
+            0.8351648351648352,
+            0.7988422575976846
+          ],
+          "image_path": "images/page_2_equation_17.jpg",
+          "content": "\\begin{array}{l} 0 \\geq \\int_ {V} \\left\\{q \\sum (\\delta_ {\\tau} ^ {\\sigma} [ X _ {\\alpha^ {*}} ^ {\\beta^ {*}} - R _ {\\alpha^ {*}} ^ {\\beta^ {*}} ] + p R _ {\\tau \\alpha^ {*}} ^ {\\sigma \\beta^ {*}}) \\cdot \\right. \\\\ \\left. \\frac {1}{a _ {j}} \\varphi_ {j \\sigma \\tau_ {2} \\dots \\tau_ {p} \\beta^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}} \\bar {\\varphi} _ {j} ^ {\\tau \\tau_ {2} \\dots \\tau_ {p} \\alpha^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}} \\right\\} g d V. \\end{array}\\tag{9}"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.16263736263736264,
+            0.804630969609262,
+            0.8857142857142857,
+            0.8581765557163531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p, q)"
+            },
+            {
+              "type": "text",
+              "content": "-form we shall mean a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p + q)"
+            },
+            {
+              "type": "text",
+              "content": "-form of type "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p, q)"
+            },
+            {
+              "type": "text",
+              "content": ". A real (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " can be written in the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi = i \\sum \\psi_{\\alpha\\beta^*}(z, \\bar{z}) dz^\\alpha d\\bar{z}^\\beta"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi_{\\alpha\\beta^*} = \\psi_{\\alpha\\beta^*}(z, \\bar{z})"
+            },
+            {
+              "type": "text",
+              "content": " satisfy "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{\\psi}_{\\alpha\\beta^*} = \\psi_{\\beta\\alpha^*}"
+            },
+            {
+              "type": "text",
+              "content": ". We say that such a form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi"
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 19,
+          "bbox": [
+            0.008791208791208791,
+            0.3950795947901592,
+            0.035164835164835165,
+            0.9276410998552822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.16483516483516483,
+            0.07959479015918958,
+            0.210989010989011,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1270"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 21,
+          "bbox": [
+            0.378021978021978,
+            0.07959479015918958,
+            0.6747252747252748,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: K. KODAIRA"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 22,
+          "bbox": [
+            0.7582417582417582,
+            0.07959479015918958,
+            0.8857142857142857,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proc. N. A. S."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13186813186813187,
+            0.10998552821997105,
+            0.8571428571428571,
+            0.1447178002894356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is positive and write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi > 0"
+            },
+            {
+              "type": "text",
+              "content": " if the Hermitian form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum \\psi_{\\alpha \\beta *} (z, \\bar{z}) \\bar{u}^{\\alpha} u^{\\beta}"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " variables "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u^{1}, u^{2}, \\ldots, u^{n}"
+            },
+            {
+              "type": "text",
+              "content": " is positive definite at each point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13406593406593406,
+            0.1447178002894356,
+            0.8549450549450549,
+            0.17800289435600578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " be the characteristic class of the principal bundle associated with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13406593406593406,
+            0.17945007235890015,
+            0.8571428571428571,
+            0.26772793053545585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LEMMA. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_{j}\\}"
+            },
+            {
+              "type": "text",
+              "content": " be a system of functions satisfying (1). Then the real "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = (i/2\\pi)\\partial\\overline{\\partial}\\log a_{j}"
+            },
+            {
+              "type": "text",
+              "content": " belongs to the characteristic class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " of the bundle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": ". Conversely, given a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed real (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": " belonging to the characteristic class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": ", there exists a system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_{j}\\}"
+            },
+            {
+              "type": "text",
+              "content": " of positive functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{j}"
+            },
+            {
+              "type": "text",
+              "content": " of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (1) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(i/2\\pi)\\partial\\overline{\\partial}\\log a_{j} = \\gamma"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13186813186813187,
+            0.2662807525325615,
+            0.8549450549450549,
+            0.33719247467438496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof: Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi"
+            },
+            {
+              "type": "text",
+              "content": " be the canonical projection of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " onto "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta_j"
+            },
+            {
+              "type": "text",
+              "content": " be the linear coordinate on the fibre "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi^{-1}(z)"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in U_j"
+            },
+            {
+              "type": "text",
+              "content": ", such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta_j = f_{jk}(z)\\zeta_k"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in U_j \\cap U_k"
+            },
+            {
+              "type": "text",
+              "content": ". The principal bundle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F^*"
+            },
+            {
+              "type": "text",
+              "content": " associated with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " is obtained from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " by removing the origin "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta_j = 0"
+            },
+            {
+              "type": "text",
+              "content": " of each fibre "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi^{-1}(z)"
+            },
+            {
+              "type": "text",
+              "content": ". Now"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.34285714285714286,
+            0.3429811866859624,
+            0.6395604395604395,
+            0.37771345875542695
+          ],
+          "image_path": "images/page_3_equation_4.jpg",
+          "content": "\\Phi = \\frac {1}{2 \\pi i} (d \\log \\zeta_ {j} - \\partial \\log a _ {j})"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13186813186813187,
+            0.3849493487698987,
+            0.7758241758241758,
+            0.402315484804631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a well defined 1-form of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^\\infty"
+            },
+            {
+              "type": "text",
+              "content": " on the principal bundle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F^*"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.389010989010989,
+            0.40665701881331406,
+            0.6043956043956044,
+            0.44138929088277856
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "- d \\Phi = \\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log a _ {j},"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13186813186813187,
+            0.4515195369030391,
+            0.8549450549450549,
+            0.5209840810419681
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "while the restriction of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi"
+            },
+            {
+              "type": "text",
+              "content": " to the fibre "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi^{-1}(z)^{*} = \\pi^{-1}(z) - (0)"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F^{*}"
+            },
+            {
+              "type": "text",
+              "content": " equals the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed 1-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(1/2\\pi i)d \\log \\zeta_{j}"
+            },
+            {
+              "type": "text",
+              "content": " which represents the basic cohomology class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi^{-1}(z)^{*}"
+            },
+            {
+              "type": "text",
+              "content": ". This shows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = (i/2\\pi)\\partial\\bar{\\partial} \\log a_{j}"
+            },
+            {
+              "type": "text",
+              "content": " belongs to the characteristic class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F^{*}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13186813186813187,
+            0.5209840810419681,
+            0.8549450549450549,
+            0.6772793053545586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove that every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " belonging to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " can be written in the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = (i/2\\pi)\\partial\\overline{\\partial}\\log a_j"
+            },
+            {
+              "type": "text",
+              "content": ", we take a system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_j'\\}"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (1) and consider the difference "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_0 = \\gamma - (i/2\\pi)\\partial\\overline{\\partial}\\log a_j'"
+            },
+            {
+              "type": "text",
+              "content": ". Obviously the harmonic part "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H\\gamma_0"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_0"
+            },
+            {
+              "type": "text",
+              "content": " vanishes and consequently "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_0 = \\Delta G\\gamma_0 = 2\\partial\\overline{\\partial}G\\gamma_0"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " denotes the Green's operator. Using the formula"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^8"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda\\partial - \\partial\\Lambda = -i\\partial"
+            },
+            {
+              "type": "text",
+              "content": ", we get therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_0 = i2\\partial\\overline{\\partial}\\Lambda G\\gamma_0"
+            },
+            {
+              "type": "text",
+              "content": ". Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 2\\Lambda G\\gamma_0"
+            },
+            {
+              "type": "text",
+              "content": " is a real scalar function of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^\\infty"
+            },
+            {
+              "type": "text",
+              "content": " defined on the whole of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " and, hence, setting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_j = a_j' \\cdot e^{i\\pi r}"
+            },
+            {
+              "type": "text",
+              "content": " we obtain a system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " of positive functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_j"
+            },
+            {
+              "type": "text",
+              "content": " of class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^\\infty"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (1) and also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(i/2\\pi)\\partial\\overline{\\partial}\\log a_j = \\gamma"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13186813186813187,
+            0.6758321273516642,
+            0.8527472527472527,
+            0.7120115774240231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, letting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = (i/2\\pi) \\sum X_{\\alpha\\beta*} dz^{\\alpha} d\\bar{z}^{\\beta}"
+            },
+            {
+              "type": "text",
+              "content": " be an arbitrary real (1,1)-form, we introduce the Hermitian form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.13186813186813187,
+            0.7178002894356006,
+            0.6615384615384615,
+            0.7395079594790159
+          ],
+          "image_path": "images/page_3_equation_10.jpg",
+          "content": "\\Theta^ {p, q} (\\gamma , u; z) = \\sum \\left(\\delta_ {\\tau} ^ {\\sigma} \\left[ X _ {\\alpha^ {*}} ^ {\\beta^ {*}} - R _ {\\alpha^ {*}} ^ {\\beta^ {*}} \\right] + p R _ {\\tau \\alpha^ {*}} ^ {\\sigma \\beta^ {*}}\\right) \\times"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.545054945054945,
+            0.7409551374819102,
+            0.8549450549450549,
+            0.7655571635311144
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "\\mathcal {U} _ {\\sigma \\tau_ {2}} \\dots \\tau_ {p} \\beta^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*} \\bar {\\mathcal {U}} ^ {\\tau \\tau_ {2}} \\dots \\tau_ {p} \\alpha^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13186813186813187,
+            0.7727930535455861,
+            0.8549450549450549,
+            0.8118668596237337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "in a skew-symmetric tensor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u_{\\tau_1\\tau_2 \\ldots \\tau_p\\alpha_1^* \\ldots \\alpha_q^*}"
+            },
+            {
+              "type": "text",
+              "content": " at each point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ", provided that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": ". Then the inequality (9) can be written in the following form:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.29010989010989013,
+            0.8176555716353111,
+            0.7142857142857143,
+            0.8552821997105644
+          ],
+          "image_path": "images/page_3_equation_13.jpg",
+          "content": "\\int_ {V} \\frac {g}{a _ {j}} \\Theta^ {p, q} (\\gamma , \\varphi_ {j}; z) d V \\leq 0, \\quad \\text { for } q \\geq 1.\\tag{10}"
+        },
+        {
+          "type": "aside_text",
+          "index": 14,
+          "bbox": [
+            0.008791208791208791,
+            0.3950795947901592,
+            0.035164835164835165,
+            0.9261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.13846153846153847,
+            0.07380607814761216,
+            0.2549450549450549,
+            0.08972503617945007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Vol. 39, 1953"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.34725274725274724,
+            0.07380607814761216,
+            0.6461538461538462,
+            0.08972503617945007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: K. KODAIRA"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.8153846153846154,
+            0.07525325615050651,
+            0.8571428571428571,
+            0.08827785817655572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1271"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13626373626373625,
+            0.10998552821997105,
+            0.8593406593406593,
+            0.14327062228654125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With the help of the above lemma, we derive from (10) the following theorem:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13626373626373625,
+            0.1447178002894356,
+            0.8593406593406593,
+            0.23154848046309695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 1. If the characteristic class "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " contains a real "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma = (i/2\\pi) \\sum X_{\\alpha\\beta*} dz^{\\alpha} d\\bar{z}^{\\beta}"
+            },
+            {
+              "type": "text",
+              "content": " which is sufficiently large with respect to the order "
+            },
+            {
+              "type": "equation_inline",
+              "content": ">"
+            },
+            {
+              "type": "text",
+              "content": " in the sense that the Hermitian form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Theta^{p,q}(\\gamma, u; z)"
+            },
+            {
+              "type": "text",
+              "content": " is positive definite at each point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ", then the cohomology groups "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{q}(V, \\Omega^{p}(F))"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{n-q}(V, \\Omega^{n-p}(-F))"
+            },
+            {
+              "type": "text",
+              "content": " both vanish, provided that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqq q \\leqq n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13626373626373625,
+            0.23154848046309695,
+            0.8571428571428571,
+            0.31982633863965265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof: In view of (2) and (3), it is sufficient to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p,q}(F) = 0"
+            },
+            {
+              "type": "text",
+              "content": ". By virtue of the above lemma, we may choose the system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " satisfying (1) such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(i / 2\\pi)\\partial \\bar{\\partial}\\log a_j = \\gamma"
+            },
+            {
+              "type": "text",
+              "content": ". Then the inequality (10) holds for any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi = \\{\\varphi_j\\} \\in H^{p,q}(F)"
+            },
+            {
+              "type": "text",
+              "content": ", while, by hypothesis, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Theta^{p,q}(\\gamma, \\varphi_j; z) > 0"
+            },
+            {
+              "type": "text",
+              "content": " unless "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varphi_j = 0"
+            },
+            {
+              "type": "text",
+              "content": ". This proves that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p,q}(F) = 0"
+            },
+            {
+              "type": "text",
+              "content": ", q. e. d."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15824175824175823,
+            0.31982633863965265,
+            0.4967032967032967,
+            0.3357452966714906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the case where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = n"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.210989010989011,
+            0.3429811866859624,
+            0.7736263736263737,
+            0.36324167872648333
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "\\Theta^ {n, q} (\\gamma , u; z) = n! \\sum X _ {\\alpha^ {*}} ^ {\\beta^ {*}} u _ {1 2 \\dots n \\beta^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}} \\bar {u} ^ {1 2 \\dots n \\alpha^ {*} \\alpha_ {2} ^ {*} \\dots \\alpha_ {q} ^ {*}}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13406593406593406,
+            0.3719247467438495,
+            0.8549450549450549,
+            0.40665701881331406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Theta^{n,q}(\\gamma, u; z)"
+            },
+            {
+              "type": "text",
+              "content": " is positive definite if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma > 0"
+            },
+            {
+              "type": "text",
+              "content": ". As a corollary to the above theorem, we therefore obtain the following:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13186813186813187,
+            0.40665701881331406,
+            0.8571428571428571,
+            0.45875542691751087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 2. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F)"
+            },
+            {
+              "type": "text",
+              "content": " contains a real "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma > 0"
+            },
+            {
+              "type": "text",
+              "content": ", then the cohomology groups "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^q(V, \\Omega^n(F))"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{n - q}(V, \\Omega^0(-F))"
+            },
+            {
+              "type": "text",
+              "content": " both vanish for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq q \\leq n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13626373626373625,
+            0.45875542691751087,
+            0.8549450549450549,
+            0.49493487698986977
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By the canonical bundle over V we shall mean the complex line bundle K defined by the system  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{J_{jk}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of Jacobians"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3956043956043956,
+            0.5007235890014472,
+            0.5956043956043956,
+            0.5412445730824892
+          ],
+          "image_path": "images/page_4_equation_8.jpg",
+          "content": "J _ {j k} = \\frac {\\partial (z _ {k} ^ {1} , \\dots , z _ {k} ^ {n})}{\\partial (z _ {j} ^ {1} , \\dots , z _ {j} ^ {n})},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13186813186813187,
+            0.548480463096961,
+            0.8549450549450549,
+            0.5846599131693199
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(z_j^1, \\ldots, z_j^n)"
+            },
+            {
+              "type": "text",
+              "content": " is the local coordinates in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j"
+            },
+            {
+              "type": "text",
+              "content": ". We note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-c(K)"
+            },
+            {
+              "type": "text",
+              "content": " equals the first Chern class of the variety "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ". Since the isomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.3934065934065934,
+            0.5918958031837916,
+            0.5934065934065934,
+            0.6092619392185239
+          ],
+          "image_path": "images/page_4_equation_10.jpg",
+          "content": "\\Omega^ {0} (F) \\cong \\Omega^ {n} (F - K)"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13186813186813187,
+            0.61794500723589,
+            0.8549450549450549,
+            0.6729377713458755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "holds in an obvious manner, we get from the above theorem the following: THEOREM 3. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(F) - c(K)"
+            },
+            {
+              "type": "text",
+              "content": " contains a real "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed (1,1)-form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma > 0"
+            },
+            {
+              "type": "text",
+              "content": ", then the cohomology group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^q(V, \\Omega^0(F))"
+            },
+            {
+              "type": "text",
+              "content": " vanishes for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq q \\leq n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 12,
+          "bbox": [
+            0.008791208791208791,
+            0.39652677279305354,
+            0.035164835164835165,
+            0.9276410998552822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.14065934065934066,
+            0.07380607814761216,
+            0.18461538461538463,
+            0.08683068017366136
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1272"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.3516483516483517,
+            0.07380607814761216,
+            0.6483516483516484,
+            0.08972503617945007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: K. KODAIRA"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.7318681318681318,
+            0.07525325615050651,
+            0.8593406593406593,
+            0.08972503617945007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proc. N. A. S."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.1912087912087912,
+            0.7409551374819102,
+            0.21978021978021978,
+            0.7539797395079595
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "C^*"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.13186813186813187,
+            0.6816208393632417,
+            0.8549450549450549,
+            0.7105643994211288
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "* This work was supported by a research project at Princeton University sponsored by the Office of Ordnance Research, U. S. Army."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.6417582417582418,
+            0.7409551374819102,
+            0.6725274725274726,
+            0.7539797395079595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K.,"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 19,
+          "bbox": [
+            0.13186813186813187,
+            0.7105643994211288,
+            0.8571428571428571,
+            0.7829232995658466
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            },
+            {
+              "type": "text",
+              "content": "  By a complex line bundle over V will be meant an analytic fibre bundle over V whose fibre is the complex number field C and whose structure group is the multiplicative group  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{*}"
+            },
+            {
+              "type": "text",
+              "content": "  of complex numbers acting on C. Cf. Kodaira, K., and Spencer, D. C., \"Groups of Complex Line Bundles Over Compact Kähler Varieties,\" these PROCEEDINGS, 39, 868–872 (1953)."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 20,
+          "bbox": [
+            0.13186813186813187,
+            0.7829232995658466,
+            0.8549450549450549,
+            0.8118668596237337
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            },
+            {
+              "type": "text",
+              "content": "  Bochner, S., “Curvature and Betti Numbers” (I) and (II), Ann. Math., 49, 379–390 (1948); 50, 77–93 (1949)."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 21,
+          "bbox": [
+            0.15164835164835164,
+            0.8408104196816208,
+            0.3076923076923077,
+            0.8552821997105644
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{4}"
+            },
+            {
+              "type": "text",
+              "content": "  Kodaira, loc. cit."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 22,
+          "bbox": [
+            0.13186813186813187,
+            0.8118668596237337,
+            0.8549450549450549,
+            0.8408104196816208
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{3}"
+            },
+            {
+              "type": "text",
+              "content": "  See Kodaira, K., “On Cohomology Groups of Compact Analytic Varieties with Coefficients in Some Analytic Faisceaux,” these PROCEEDINGS, 39, 865–868 (1953)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.12747252747252746,
+            0.11432706222865413,
+            0.6747252747252748,
+            0.1287988422575977
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            },
+            {
+              "type": "text",
+              "content": "  This result reduces to a special case of Serre's duality theorem."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.10989010989010989,
+            0.1287988422575977,
+            0.8285714285714286,
+            0.1577424023154848
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{6}"
+            },
+            {
+              "type": "text",
+              "content": "  See Garabedian, P. R., and Spencer, D. C., “A Complex Tensor Calculus for Kähler Manifolds,” Acta Math., 89, 279–331 (1953)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.1076923076923077,
+            0.1577424023154848,
+            0.8285714285714286,
+            0.18668596237337193
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{7}"
+            },
+            {
+              "type": "text",
+              "content": " In view of de Rham's theorem, any cohomology class may be regarded as a class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed forms. By a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-closed form we shall mean a form which is closed under "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.12527472527472527,
+            0.18668596237337193,
+            0.48131868131868133,
+            0.2011577424023155
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{8}"
+            },
+            {
+              "type": "text",
+              "content": "  Garabedian and Spencer, loc. cit., p. 290."
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 4,
+          "bbox": [
+            0.15164835164835164,
+            0.25470332850940663,
+            0.7868131868131868,
+            0.2894356005788712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ON A THEOREM OF LEFSCHETZ AND THE LEMMA OF ENRIQUES-SEVERI-ZARISKI*"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.2879120879120879,
+            0.2995658465991317,
+            0.6483516483516484,
+            0.31693198263386396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By K. Kodaira and D. C. Spencer"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.23296703296703297,
+            0.3256150506512301,
+            0.7032967032967034,
+            0.3386396526772793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "DEPARTMENT OF MATHEMATICS, PRINCETON UNIVERSITY"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.26593406593406593,
+            0.34876989869753977,
+            0.6703296703296703,
+            0.36324167872648333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Communicated by S. Lefschetz, October 8, 1953"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1054945054945055,
+            0.3719247467438495,
+            0.8285714285714286,
+            0.492040520984081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Introduction.—The present note is mainly concerned with a generalization of a theorem of Lefschetz which establishes a relation between the cohomology groups of an algebraic variety and those of its general hyperplane sections. We generalize the theorem to the case of cohomology groups of Kähler varieties with coefficients in some analytic stacks. Our generalization includes the lemma of Enriques-Severi-Zariski as a special case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.10329670329670329,
+            0.4934876989869754,
+            0.8285714285714286,
+            0.7206946454413893
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Some Exact Sequences of Stacks.—Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " be a compact Kähler variety of complex dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S"
+            },
+            {
+              "type": "text",
+              "content": " be a non-singular analytic subvariety of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " of complex dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n-1"
+            },
+            {
+              "type": "text",
+              "content": ". Take a sufficiently fine finite covering "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{U_j\\}"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ". Then, in each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j"
+            },
+            {
+              "type": "text",
+              "content": ", the subvariety "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S"
+            },
+            {
+              "type": "text",
+              "content": " is defined by a holomorphic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_j = 0"
+            },
+            {
+              "type": "text",
+              "content": ". We associate with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S"
+            },
+            {
+              "type": "text",
+              "content": " the complex line bundle"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^1"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{S\\}"
+            },
+            {
+              "type": "text",
+              "content": " determined by the system "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{s_{jk}\\}"
+            },
+            {
+              "type": "text",
+              "content": " of non-vanishing holomorphic functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_{jk} = s_j/s_k"
+            },
+            {
+              "type": "text",
+              "content": " defined, respectively, in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j \\cap U_k"
+            },
+            {
+              "type": "text",
+              "content": ". We note that the characteristic class"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^2"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(\\{S\\})"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{S\\}"
+            },
+            {
+              "type": "text",
+              "content": " is the dual of the homology class of the cycle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S"
+            },
+            {
+              "type": "text",
+              "content": ". For simplicity's sake, we set "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c(S) = c(\\{S\\})"
+            },
+            {
+              "type": "text",
+              "content": ". Now, let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " be an arbitrary complex line bundle over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^p(F)"
+            },
+            {
+              "type": "text",
+              "content": " be the stack over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": " of the germs of holomorphic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-forms with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": ". Take a point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{p} \\in S \\cap U_j"
+            },
+            {
+              "type": "text",
+              "content": " and choose a system of local coordinates "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(z_j^1, \\ldots, z_j^n)"
+            },
+            {
+              "type": "text",
+              "content": " in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U_j"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s_j(z) = z_j^1"
+            },
+            {
+              "type": "text",
+              "content": ". Then each germ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta_j \\in \\Omega^p(F)_{\\mathfrak{p}}"
+            },
+            {
+              "type": "text",
+              "content": " can be written in the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.10989010989010989,
+            0.7264833574529667,
+            0.8197802197802198,
+            0.7568740955137482
+          ],
+          "image_path": "images/page_5_equation_10.jpg",
+          "content": "\\eta_ {j} = \\sum_ {1 <   \\alpha_ {1} <   \\dots <   \\alpha_ {p}} \\eta_ {j \\alpha_ {1} \\dots \\alpha_ {p}} d z _ {j} ^ {\\alpha_ {1}} \\dots d z _ {j} ^ {\\alpha_ {p}} + \\sum_ {1 <   \\alpha_ {2} <   \\dots <   \\alpha_ {p}} \\eta_ {j 1 \\alpha_ {2} \\dots \\alpha_ {p}} d z _ {j} ^ {1} d z _ {j} ^ {\\alpha_ {2}} \\dots d z _ {j} ^ {\\alpha_ {p}},"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.10329670329670329,
+            0.7626628075253257,
+            0.8285714285714286,
+            0.8147612156295224
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)_{\\mathfrak{p}}"
+            },
+            {
+              "type": "text",
+              "content": " is the fiber of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega^{p}(F)"
+            },
+            {
+              "type": "text",
+              "content": " over the point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{p}"
+            },
+            {
+              "type": "text",
+              "content": ". With the help of this expression, we associate with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta_{j}"
+            },
+            {
+              "type": "text",
+              "content": " two germs "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta_{j}^{\\prime}, \\eta_{j}^{\\prime \\prime}"
+            },
+            {
+              "type": "text",
+              "content": " of holomorphic forms on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S"
+            },
+            {
+              "type": "text",
+              "content": " defined, respectively, by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.26593406593406593,
+            0.8205499276410999,
+            0.6659340659340659,
+            0.8509406657018813
+          ],
+          "image_path": "images/page_5_equation_12.jpg",
+          "content": "\\eta_ {j} ^ {\\prime} = \\sum_ {1 <   \\alpha_ {1} <   \\dots <   \\alpha_ {p}} (\\eta_ {j \\alpha_ {1} \\dots \\alpha_ {p}}) _ {S} d z _ {j} ^ {\\alpha_ {1}} \\dots d z _ {j} ^ {\\alpha_ {p}},"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.26593406593406593,
+            0.8552821997105644,
+            0.6659340659340659,
+            0.8856729377713459
+          ],
+          "image_path": "images/page_5_equation_13.jpg",
+          "content": "\\eta_ {j} ^ {\\prime \\prime} = \\sum_ {1 <   \\alpha_ {2} <   \\dots <   \\alpha_ {p}} (\\eta_ {j 1 \\alpha_ {2} \\dots \\alpha_ {p}}) _ {S} d z _ {j} ^ {\\alpha_ {2}} \\dots d z _ {j} ^ {\\alpha_ {p}},"
+        },
+        {
+          "type": "aside_text",
+          "index": 14,
+          "bbox": [
+            0.008791208791208791,
+            0.39652677279305354,
+            0.035164835164835165,
+            0.9276410998552822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.10989010989010989,
+            0.07959479015918958,
+            0.22637362637362637,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Vol. 39, 1953"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.26153846153846155,
+            0.07959479015918958,
+            0.6835164835164835,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS: KODAIRA AND SPENCER"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.7868131868131868,
+            0.07959479015918958,
+            0.8307692307692308,
+            0.09261939218523878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1273"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

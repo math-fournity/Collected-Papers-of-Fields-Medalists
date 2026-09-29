@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.07317073170731707,
+            0.1743827160493827,
+            0.1975609756097561,
+            0.19598765432098766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Erratum"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.07073170731707316,
+            0.2175925925925926,
+            0.6658536585365854,
+            0.26851851851851855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.07073170731707316,
+            0.2916666666666667,
+            0.2,
+            0.3117283950617284
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "G. Faltings"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.07073170731707316,
+            0.32253086419753085,
+            0.35609756097560974,
+            0.3395061728395062
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Invent. math. (1983) 73, 349–366"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.07073170731707316,
+            0.37191358024691357,
+            0.9195121951219513,
+            0.42746913580246915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N. Katz hat bemerkt, daß der Satz 2 in der obigen Arbeit nicht ganz korrekt ist (O. Gabber hat ein Gegenbeispiel konstruiert). Seine Aussage sollte durch die folgende ersetzt werden, die für das Weitere ausreicht:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1073170731707317,
+            0.43364197530864196,
+            0.44390243902439025,
+            0.4537037037037037
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Die Folge  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h(A_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  wird stationär."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.07073170731707316,
+            0.46141975308641975,
+            0.9195121951219513,
+            0.5169753086419753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Der Fehler besteht darin, daß zwei Feinheiten übersehen wurden. Der ursprüngliche Beweis funktioniert jedoch, wenn man gleich zu Beginn "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A_{0}"
+            },
+            {
+              "type": "text",
+              "content": " durch ein "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{m}"
+            },
+            {
+              "type": "text",
+              "content": " ersetzt, mit genügend großem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10975609756097561,
+            0.5154320987654321,
+            0.43902439024390244,
+            0.5339506172839507
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Es handelt sich um folgendes:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.07073170731707316,
+            0.5339506172839507,
+            0.9219512195121952,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a) Wenn  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W \\subseteq T_{l}(\\hat{A})"
+            },
+            {
+              "type": "text",
+              "content": "  ein  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_{i}"
+            },
+            {
+              "type": "text",
+              "content": " -invariantes Untergitter ist, so entspricht dem zwar eine l-divisible Untergruppe von  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A/K_{i}"
+            },
+            {
+              "type": "text",
+              "content": " , und durch Bildung der Zariski-Abschlüsse erhält man ein System endlicher flacher Gruppenschemata  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G_{i,n} \\subseteq \\hat{A}"
+            },
+            {
+              "type": "text",
+              "content": "  über  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Spf}(R_{i})"
+            },
+            {
+              "type": "text",
+              "content": "  oder auch  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Spec}(R_{i})"
+            },
+            {
+              "type": "text",
+              "content": " . Diese bilden jedoch nur dann eine l-divisible Gruppe, wenn die Abbildungen"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.37073170731707317,
+            0.6373456790123457,
+            0.6268292682926829,
+            0.6589506172839507
+          ],
+          "image_path": "images/page_0_equation_9.jpg",
+          "content": "G _ {i, n + 1} / G _ {i, n} \\rightarrow G _ {i, n} / G _ {i, n - 1}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.07317073170731707,
+            0.6666666666666666,
+            0.9243902439024391,
+            0.7577160493827161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Isomorphismen für  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": "  sind. Dies kann man im Allgemeinen nicht erwarten, doch lehrt eine Betrachtung der Diskriminanten, daß dies für große n der Fall ist. Der Übergang von  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A_{0}"
+            },
+            {
+              "type": "text",
+              "content": "  zu  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{m}"
+            },
+            {
+              "type": "text",
+              "content": "  bedeutet, daß man diese Abbildungen nur für n > m betrachten muß. Dies Argument findet man schon bei Tate ([1], S. 182)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.07317073170731707,
+            0.7577160493827161,
+            0.9243902439024391,
+            0.8317901234567902
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "b) Der Durchschnitt  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G_{i}=G\\cap H_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  von l-divisiblen Gruppen über  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Spec}(R_{i})"
+            },
+            {
+              "type": "text",
+              "content": "  definiert im Allgemeinen nicht einmal über  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  eine l-divisible Gruppe. Auch dieses Problem verschwindet beim Übergang zu einem passenden  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A_{m}"
+            },
+            {
+              "type": "text",
+              "content": " . Man kann dann wieder wie in a) weitermachen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.07560975609756097,
+            0.8672839506172839,
+            0.1975609756097561,
+            0.8858024691358025
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.07804878048780488,
+            0.9058641975308642,
+            0.9219512195121952,
+            0.9367283950617284
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Tate, J.: p-divisible groups. Proceedings of a conference on local fields. Driebergen 1966, pp. 158–183. Berlin-Heidelberg-New York: Springer 1967"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.07073170731707316,
+            0.05246913580246913,
+            0.3097560975609756,
+            0.07098765432098765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Invent. math. 75, 381 (1984)"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.6780487804878049,
+            0.038580246913580245,
+            0.9170731707317074,
+            0.1095679012345679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Inventiones mathematicae\n© Springer-Verlag 1984"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

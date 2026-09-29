@@ -1,0 +1,760 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.1712962962962963,
+            0.20497803806734993,
+            0.8194444444444444,
+            0.2547584187408492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TRAVAUX DE HEISOUKÉ HIRONAKA SUR L'À RÉSOLUTION DES SINGULARITÉS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.35185185185185186,
+            0.27379209370424595,
+            0.6458333333333334,
+            0.28989751098096633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "par A. GROTHENDIECK"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13194444444444445,
+            0.3162518301610542,
+            0.5949074074074074,
+            0.3323572474377745
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Le résultat principal de Hironaka est le suivant :"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1111111111111111,
+            0.3440702781844802,
+            0.8865740740740741,
+            0.4538799414348463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THÉORÈME DE HIRONAKA. — Soit X une variété algébrique sur un corps k de caractéristique nulle, U un ouvert (de Zariski) de X tel que U soit non singulier et partout dense. Il existe alors une variété algébrique non singulière  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X'"
+            },
+            {
+              "type": "text",
+              "content": "  et un morphisme propre  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f: X' \\to X"
+            },
+            {
+              "type": "text",
+              "content": " , tels que le morphisme  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f^{-1}(U) \\to U"
+            },
+            {
+              "type": "text",
+              "content": "  soit un isomorphisme, et que  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = X' - f^{-1}(U)"
+            },
+            {
+              "type": "text",
+              "content": "  soit un diviseur « à croisements normaux » dans  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X'"
+            },
+            {
+              "type": "text",
+              "content": "  (i. e. localement donné par une équation de la forme  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1}f_{2} \\ldots f_{k} = 0"
+            },
+            {
+              "type": "text",
+              "content": " , où les  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  font partie d'un système de « coordonnées locales »)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1111111111111111,
+            0.4568081991215227,
+            0.8865740740740741,
+            0.6603221083455344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "En fait le théorème complet de Hironaka est plus précis : il donne une information très précise sur la façon d'obtenir une telle « résolution » du couple "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(X, U)"
+            },
+            {
+              "type": "text",
+              "content": " à l'aide d'une suite « d'éclatements » de nature très particulière. Cette précision supplémentaire est inutile dans toutes les applications connues du rapporteur, sauf pour nous dire que si "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " est projective, on peut choisir "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X'"
+            },
+            {
+              "type": "text",
+              "content": " également projective. Le théorème complet de Hironaka est aussi plus général : il s'applique à tous les « schémas excellents » de caractéristique nulle, et en particulier aux schémas de type fini sur les anneaux de séries formelles ou de séries convergentes (au-dessus d'un corps de caractéristique nulle). Cela implique par exemple facilement que le théorème énoncé reste vrai au voisinage d'un point de "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ", lorsqu'on suppose maintenant que "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " est un espace analytique complexe (ou sur un corps valué complet algébriquement clos, plus généralement), et "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": " est le complémentaire d'une partie fermée analytique de "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ". Il semble que Hironaka ait démontré également la version globale de ce résultat local."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1087962962962963,
+            0.6632503660322109,
+            0.8842592592592593,
+            0.8843338213762811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Contrairement à ce qui était l'impression générale chez les géomètres algébristes avant qu'on ne dispose du théorème de Hironaka, celui-ci n'est pas un résultat tout platonique, qui donnerait seulement une sorte de justification après coup d'un point de vue en géométrie algébrique (celui où les variétés sont plongées à tout prix dans l'espace projectif) qui est désormais dépassé. C'est au contraire aujourd'hui un outil d'une très grande puissance, sans doute le plus puissant dont nous disposions, pour l'étude des variétés algébriques ou analytiques (en caractéristique zéro pour le moment). Cela est vrai pour l'étude des singularités d'une variété, mais également pour l'étude « globale » des variétés algébriques (ou analytiques) non singulières, notamment pour le cas des variétés non compactes. L'application du théorème de Hironaka pour ces dernières se présente généralement ainsi : X étant supposée quasi projective i. e. immergeable comme sous-variété (en général non fermée) dans l'espace projectif P, l'adhérence  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{X}"
+            },
+            {
+              "type": "text",
+              "content": "  de X dans P contient X comme ouvert partout dense non singulier, de sorte qu'on peut appliquer le théorème de Hironaka au couple ( "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{X}"
+            },
+            {
+              "type": "text",
+              "content": " , X). On en conclut que"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 6,
+          "bbox": [
+            0.1111111111111111,
+            0.09224011713030747,
+            0.5810185185185185,
+            0.10980966325036604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Actes, Congrès intern. math., 1970. Tome 1, p. 7 à 9."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1111111111111111,
+            0.12884333821376281,
+            0.8865740740740741,
+            0.17715959004392387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X est le complémentaire, dans une variété non singulière compacte  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X'"
+            },
+            {
+              "type": "text",
+              "content": " , d'un diviseur D à croisements normaux. Un tel théorème de structure pour X, et diverses variantes qu'on prouve de façon analogue, sont extrêmement utiles dans l'étude de X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.1111111111111111,
+            0.1800878477306003,
+            0.8842592592592593,
+            0.2445095168374817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Les théorèmes démontrés à l'aide du théorème de Hironaka ne se comptent plus. Pour la plupart, on a l'impression que la résolution des singularités est vraiment au fond du problème, et ne pourra être évitée par recours à des méthodes différentes. Citons quelques-uns de ces résultats (sur un corps de car. nulle)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11342592592592593,
+            0.24743777452415813,
+            0.8842592592592593,
+            0.28111273792093705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a) Si "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f: X' \\to X"
+            },
+            {
+              "type": "text",
+              "content": " est un morphisme birationnel et propre de variétés algébriques non singulières, alors les faisceaux "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R^{i}f_{*}(O_{X'})"
+            },
+            {
+              "type": "text",
+              "content": " sont nuls pour "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i > 1"
+            },
+            {
+              "type": "text",
+              "content": " (Hironaka)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11342592592592593,
+            0.28550512445095166,
+            0.8865740740740741,
+            0.3645680819912152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "b) Si X est une variété algébrique affine sur le corps des complexes, sa cohomologie complexe peut être calculée à l'aide du « complexe de De Rham algébrique », i. e. le complexe formé des formes différentielles algébriques sur X (Grothendieck ; divers raffinements, inspirés par une question soulevée par Atiyah et Hörmander, ont été développés par P. Deligne)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11342592592592593,
+            0.3689604685212299,
+            0.8865740740740741,
+            0.43191800878477304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "c) Si X est une variété algébrique sur le corps des complexes, alors ses « groupes de cohomologie étales » à coefficients dans des faisceaux de torsion sont isomorphes aux groupes de cohomologie de l'espace localement compact sous-jacent à X (M. Artin et A. Grothendieck)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11342592592592593,
+            0.4363103953147877,
+            0.8865740740740741,
+            0.48462664714494874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "d) La construction par P. Deligne d'une théorie de Hodge pour les variétés algébriques complexes quelconques (supposées ni compactes ni non singulières) utilise de façon essentielle la résolution des singularités."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11342592592592593,
+            0.4890190336749634,
+            0.8865740740740741,
+            0.5534407027818448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "e) Même remarque pour divers théorèmes de P. A. Griffiths et de ses élèves sur la « variation des structures de Hodge », ou pour divers théorèmes de E. Brieskorn sur l'étude locale de certains types de singularités (singularités de Klein des surfaces, points critiques isolés d'un germe de fonction holomorphe...)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11342592592592593,
+            0.5563689604685212,
+            0.8842592592592593,
+            0.5885797950219619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Certains des résultats mentionnés dans "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": " et "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": ") figureront sans doute dans des rapports des auteurs cités dans ce même Congrès."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1111111111111111,
+            0.5929721815519766,
+            0.8865740740740741,
+            0.7481698389458272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Du point de vue technique, la démonstration du théorème de Hironaka constitue une prouesse peu commune. Le rapporteur avoue n'en avoir pas fait entièrement le tour. Aboutissement d'années d'efforts concentrés, elle est sans doute l'une des démonstrations les plus « dures » et les plus monumentales qu'on connaisse en mathématique. Elle introduit d'ailleurs, comme on peut s'en douter, diverses idées géométriques nouvelles, dont il est trop tôt d'évaluer le rôle dans le développement futur de la géométrie algébrique (*). Notons d'autre part que Hironaka souligne que plusieurs de ces idées étaient déjà en germe chez son maître, O. Zariski, qui avait beaucoup fait depuis longtemps pour populariser le problème de la résolution des singularités parmi un public réticent, et qui avait dans un travail classique traité le cas de la dimension 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1111111111111111,
+            0.7510980966325037,
+            0.8865740740740741,
+            0.8169838945827232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Pour terminer, il faut souligner que le problème de la résolution des singularités est loin d'être résolu. En effet, seul le cas de la caractéristique nulle est actuellement réglé. La solution de nombreux problèmes de géométrie algébrique, en caractéristique p > 0 comme en inégales caractéristiques, dépend de la démonstration d'un"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.11805555555555555,
+            0.08931185944363104,
+            0.13425925925925927,
+            0.10395314787701318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 11,
+          "bbox": [
+            0.4097222222222222,
+            0.09077598828696926,
+            0.5949074074074074,
+            0.10395314787701318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. GROTHENDIECK"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 12,
+          "bbox": [
+            0.1111111111111111,
+            0.8345534407027818,
+            0.8842592592592593,
+            0.8799414348462665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(*) Cela est d'autant plus vrai que le développement de la géométrie algébrique s'arrêtera court, comme tout le reste, si notre espèce devait disparaître dans les prochaines décades, — éventualité qui apparaît aujourd'hui de plus en plus probable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1111111111111111,
+            0.1301169590643275,
+            0.8842592592592593,
+            0.28654970760233917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "théorème analogue pour n'importe quel « schéma excellent », par exemple pour n'importe quelle variété algébrique sur un corps k de caractéristique arbitraire. Le cas de la dimension 2 a été traité par Abhyankar, et a déjà été un outil indispensable dans diverses questions, par exemple dans la théorie de Néron de la dégénérescence des variétés abéliennes ou des courbes algébriques (« théorème de réduction semistable »), et ses applications par Deligne-Mumford aux variétés de modules des courbes algébriques, en caractéristique quelconque. Depuis plusieurs années déjà, Hironaka travaille sur le cas de la dimension quelconque. Nul doute que le problème mérite qu'un mathématicien du format de H. Hironaka lui consacre dix ans d'efforts incessants. Nul doute aussi que tous les géomètres lui souhaitent, de tout cœur : Bon succès !"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.24537037037037038,
+            0.3157894736842105,
+            0.4212962962962963,
+            0.33187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. GROTHENDIECK"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.24537037037037038,
+            0.33187134502923976,
+            0.4236111111111111,
+            0.34649122807017546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Collège de France"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.19907407407407407,
+            0.34502923976608185,
+            0.4675925925925926,
+            0.36257309941520466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11, Place Marcelin-Berthelot,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.28935185185185186,
+            0.3611111111111111,
+            0.375,
+            0.37719298245614036
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Paris "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5^{\\mathrm{e}}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.2916666666666667,
+            0.37719298245614036,
+            0.375,
+            0.39473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(France)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.5763888888888888,
+            0.31432748538011696,
+            0.7129629629629629,
+            0.3304093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "H. HIRONAKA"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.5509259259259259,
+            0.33187134502923976,
+            0.7384259259259259,
+            0.347953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Harvard University"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.5046296296296297,
+            0.34502923976608185,
+            0.7800925925925926,
+            0.36257309941520466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Department of Mathematics,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.5509259259259259,
+            0.3611111111111111,
+            0.7337962962962963,
+            0.3786549707602339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 Divinity Avenue"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.49074074074074076,
+            0.37719298245614036,
+            0.7962962962962963,
+            0.3932748538011696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Cambridge, Massachusetts 02138"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.5972222222222222,
+            0.3932748538011696,
+            0.6898148148148148,
+            0.4108187134502924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(U. S. A.)"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 12,
+          "bbox": [
+            0.16435185185185186,
+            0.09064327485380116,
+            0.8310185185185185,
+            0.1067251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TRAVAUX DE H. HIRONAKA SUR LA RÉSOLUTION DES SINGULARITÉS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.8657407407407407,
+            0.09064327485380116,
+            0.8819444444444444,
+            0.10380116959064327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

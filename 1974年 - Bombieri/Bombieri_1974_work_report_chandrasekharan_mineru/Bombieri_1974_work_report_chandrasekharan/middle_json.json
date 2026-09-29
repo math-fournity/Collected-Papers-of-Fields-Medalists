@@ -1,0 +1,1872 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.09027777777777778,
+            0.10648148148148148,
+            0.9004629629629629,
+            0.16203703703703703
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "made in later years by H. Rademacher, T. Estermann, G. Ricci, and A. A. Buchstab; until Atle Selberg, during the years 1946—1951, developed a sieve method more general and more powerful than Brun's and its improved versions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.09027777777777778,
+            0.16203703703703703,
+            0.9027777777777778,
+            0.2345679012345679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are here concerned, however, with the method of the large sieve, which is different from the small sieves of Brun and of Selberg, and which, when combined with analytical arguments, yields results that are beyond the reach of the other sieves."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.09027777777777778,
+            0.2345679012345679,
+            0.9027777777777778,
+            0.345679012345679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The idea of the large sieve originated with Yu. V. Linnik in 1941, in his attempt to tackle I. M. Vinogradov's hypothesis (which is yet to be proved or disproved) on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_2(p)"
+            },
+            {
+              "type": "text",
+              "content": ", the least quadratic nonresidue modulo "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ". The hypothesis is that given "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": ", there exists a constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = c(\\varepsilon)"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_2(p) < cp^\\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": ". Linnik sought to estimate the number of primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq x"
+            },
+            {
+              "type": "text",
+              "content": ", say, for which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_2(p) > p^\\varepsilon"
+            },
+            {
+              "type": "text",
+              "content": ", for any given "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.09259259259259259,
+            0.3487654320987654,
+            0.9027777777777778,
+            0.5169753086419753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n_1, n_2, \\cdots, n_Z"
+            },
+            {
+              "type": "text",
+              "content": " be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z"
+            },
+            {
+              "type": "text",
+              "content": " integers, such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M + 1 \\leq n_1 < n_2 < \\cdots < n_Z \\leq M + N"
+            },
+            {
+              "type": "text",
+              "content": ". Let the prime "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " be called exceptional, if the number of residue classes not represented by the numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n_j), j = 1, 2, \\cdots, Z"
+            },
+            {
+              "type": "text",
+              "content": ", is greater than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau p"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau"
+            },
+            {
+              "type": "text",
+              "content": " is a fixed number such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\tau < 1"
+            },
+            {
+              "type": "text",
+              "content": ". Linnik proved that for any such sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n_j)"
+            },
+            {
+              "type": "text",
+              "content": ", the number of exceptional primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": " does not exceed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c_1 N / \\tau^2 Z"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c_1"
+            },
+            {
+              "type": "text",
+              "content": " is an absolute constant. As an application, he proved the striking theorem that the number of primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq N"
+            },
+            {
+              "type": "text",
+              "content": " for which the least quadratic nonresidue is greater than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N^\\epsilon"
+            },
+            {
+              "type": "text",
+              "content": ", for a fixed number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": ", is bounded. It follows that the number of primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq X"
+            },
+            {
+              "type": "text",
+              "content": " for which the least quadratic nonresidue is greater than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^\\epsilon"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ll \\log \\log X"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.09490740740740741,
+            0.5154320987654321,
+            0.9027777777777778,
+            0.6265432098765432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the context of the definition of a sieve, the sequence  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n_{j}), j = 1, 2, \\cdots, Z"
+            },
+            {
+              "type": "text",
+              "content": " , may be looked upon as the sequence of elements left over in the interval  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[M + 1, M + N]"
+            },
+            {
+              "type": "text",
+              "content": " , after a sieving has been effected (on the sequence of all integers in that interval, for example), with a sieving set  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{\\Omega_{p}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of residue classes modulo  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p, p \\leq N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": " , which has the property that for each exceptional  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": " , the corresponding  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega_{p}"
+            },
+            {
+              "type": "text",
+              "content": "  has more than  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau p"
+            },
+            {
+              "type": "text",
+              "content": "  elements. Hence the name large sieve."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.09490740740740741,
+            0.6265432098765432,
+            0.9050925925925926,
+            0.7006172839506173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next important step was taken by A. Rényi. If  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z(p, a)"
+            },
+            {
+              "type": "text",
+              "content": "  denotes the number of elements in the given sequence  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n_j)"
+            },
+            {
+              "type": "text",
+              "content": "  such that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n_j = a \\pmod{p}"
+            },
+            {
+              "type": "text",
+              "content": " , Linnik's result takes the form: The number of primes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": "  such that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z(p, a) = 0"
+            },
+            {
+              "type": "text",
+              "content": "  for at least  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau p"
+            },
+            {
+              "type": "text",
+              "content": "  values of a, where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < \\tau < 1"
+            },
+            {
+              "type": "text",
+              "content": " , does not exceed"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.4513888888888889,
+            0.7083333333333334,
+            0.5416666666666666,
+            0.7268518518518519
+          ],
+          "image_path": "images/page_0_equation_6.jpg",
+          "content": "c _ {1} N / \\tau^ {2} Z."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.09722222222222222,
+            0.7345679012345679,
+            0.42592592592592593,
+            0.7530864197530864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Rényi considered instead the sum"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3425925925925926,
+            0.7577160493827161,
+            0.6550925925925926,
+            0.7947530864197531
+          ],
+          "image_path": "images/page_0_equation_8.jpg",
+          "content": "S _ {X} = \\sum_ {p \\leq X} p \\sum_ {a = 0} ^ {p - 1} (Z (p, a) - Z / p) ^ {2},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.09722222222222222,
+            0.7993827160493827,
+            0.3425925925925926,
+            0.8179012345679012
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and proved in 1950 that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.33796296296296297,
+            0.8225308641975309,
+            0.6574074074074074,
+            0.8425925925925926
+          ],
+          "image_path": "images/page_0_equation_10.jpg",
+          "content": "S _ {X} \\leq 2 N Z, \\quad \\text { for } X = (N / 1 2) ^ {1 / 3}.\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.09722222222222222,
+            0.8472222222222222,
+            0.9027777777777778,
+            0.8842592592592593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Again, in the context of the definition of a sieve, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z(p, a) = 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\Omega_p"
+            },
+            {
+              "type": "text",
+              "content": ", so that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.4027777777777778,
+            0.8827160493827161,
+            0.5902777777777778,
+            0.9243827160493827
+          ],
+          "image_path": "images/page_0_equation_12.jpg",
+          "content": "S _ {X} \\geq \\sum_ {p \\leq X} \\frac {| \\Omega_ {p} |}{p} Z ^ {2},"
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.3449074074074074,
+            0.06790123456790123,
+            0.6458333333333334,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE WORK OF ENRICO BOMBIERI"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.8819444444444444,
+            0.06635802469135803,
+            0.8981481481481481,
+            0.08179012345679013
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.09490740740740741,
+            0.10493827160493827,
+            0.9004629629629629,
+            0.1419753086419753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which, when combined with (2), gives an upper bound for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z"
+            },
+            {
+              "type": "text",
+              "content": " — and also Linnik's result provided that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.09490740740740741,
+            0.1419753086419753,
+            0.9004629629629629,
+            0.19753086419753085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As an application of his inequality, Rényi proved the striking theorem that every sufficiently large even integer is the sum of a prime and an almost prime (that is, an integer which is the product of a bounded number of prime factors)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.09259259259259259,
+            0.19753086419753085,
+            0.9027777777777778,
+            0.3472222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Though Rényi's inequality yields more precise information than Linnik's result for the range of primes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\ll N^{1/3}"
+            },
+            {
+              "type": "text",
+              "content": " , it does not work for the wider range  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\ll N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": "  of Linnik, which is more appropriate in the context of arithmetical applications. This defect was sought to be repaired by many mathematicians. It was not until 1965, however, that important further progress was made by K. F. Roth (Mathematika 12 (1965), 1–9) and, independently, by Bombieri (Mathematika 12 (1965), 201–225). Roth proved that Rényi's inequality (2) holds for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = (N/\\log N)^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": " , and Bombieri that it holds for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = N^{1/2}"
+            },
+            {
+              "type": "text",
+              "content": "  (with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leqslant"
+            },
+            {
+              "type": "text",
+              "content": "  in place of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leqslant"
+            },
+            {
+              "type": "text",
+              "content": " )."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.09259259259259259,
+            0.345679012345679,
+            0.9027777777777778,
+            0.45987654320987653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri proceeded to place Rényi's inequality in a more general setting and proved, by a simple and ingenious argument, an inequality for trigonometrical double sums, which is as follows: Let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{1}, x_{2}, \\cdots, x_{R}"
+            },
+            {
+              "type": "text",
+              "content": "  be real numbers which are  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta"
+            },
+            {
+              "type": "text",
+              "content": " -well-spaced, in the sense that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|x_{k} - x_{l}\\| \\geq \\delta > 0"
+            },
+            {
+              "type": "text",
+              "content": "  for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\neq l"
+            },
+            {
+              "type": "text",
+              "content": "  (where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\|\\theta\\|"
+            },
+            {
+              "type": "text",
+              "content": " , for any real  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta"
+            },
+            {
+              "type": "text",
+              "content": " , denotes the distance of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta"
+            },
+            {
+              "type": "text",
+              "content": "  from the nearest integer). Let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T(x) = \\sum_{n=M+1}^{M+N} a_{n} e^{2\\pi i n x}"
+            },
+            {
+              "type": "text",
+              "content": " , where the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  are complex numbers. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.3148148148148148,
+            0.4675925925925926,
+            0.6736111111111112,
+            0.5046296296296297
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "\\sum_ {k = 1} ^ {R} \\left| T (x _ {k}) \\right| ^ {2} \\leq \\left(N + \\frac {2}{\\delta}\\right) \\sum_ {n = M + 1} ^ {M + N} \\left| a _ {n} \\right| ^ {2}\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.09259259259259259,
+            0.5154320987654321,
+            0.9004629629629629,
+            0.5709876543209876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Acta Arith. 18 (1971), 401–404; Proc. Internat. Conf. Number Theory, Moscow, 1971). This corresponds, as Bombieri has shown, to something like Bessel's inequality in a Hilbert space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.09259259259259259,
+            0.5709876543209876,
+            0.9004629629629629,
+            0.6450617283950617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{k}"
+            },
+            {
+              "type": "text",
+              "content": " to be rational, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{k} = a / q"
+            },
+            {
+              "type": "text",
+              "content": ", say, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a, q) = 1"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q \\leq Q"
+            },
+            {
+              "type": "text",
+              "content": ", with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{n} = 1"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = n_{j}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{n} = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq n_{j}"
+            },
+            {
+              "type": "text",
+              "content": ", we get (more than) Rényi's inequality (2) in case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " is a prime, and something similar to the inequality given by Selberg's upper-bound sieve, in case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " is composite."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.09259259259259259,
+            0.6450617283950617,
+            0.9004629629629629,
+            0.6820987654320988
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus many results previously obtained by Selberg's method can now be proved by using (3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.09259259259259259,
+            0.6820987654320988,
+            0.9027777777777778,
+            0.7376543209876543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri then considered the analogue of his large-sieve inequality (3) for sums of Dirichlet characters  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi"
+            },
+            {
+              "type": "text",
+              "content": "  modulo q instead of trigonometrical sums. The connecting link is the Gaussian sum"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.35185185185185186,
+            0.75,
+            0.6319444444444444,
+            0.7839506172839507
+          ],
+          "image_path": "images/page_1_equation_9.jpg",
+          "content": "G (\\chi) = \\sum_ {a = 1} ^ {q} \\chi (a) \\exp (2 \\pi i a / q),"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.09259259259259259,
+            0.7885802469135802,
+            0.15046296296296297,
+            0.8055555555555556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.2337962962962963,
+            0.8070987654320988,
+            0.7430555555555556,
+            0.8564814814814815
+          ],
+          "image_path": "images/page_1_equation_11.jpg",
+          "content": "\\begin{array}{r l} \\sum_ {\\chi} \\big | G (\\chi) \\big | ^ {2}   \\chi (m) \\overline {{\\chi (n)}} = \\varphi (q) S _ {m - n, q}, & \\text { if } (m n, q) = 0, \\\\ = 0, & \\text { if } (m n, q) > 1, \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.09490740740740741,
+            0.8611111111111112,
+            0.16203703703703703,
+            0.8765432098765432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3449074074074074,
+            0.8858024691358025,
+            0.6458333333333334,
+            0.9228395061728395
+          ],
+          "image_path": "images/page_1_equation_13.jpg",
+          "content": "S _ {m, q} = \\sum_ {a = 1; (a, q) = 1} ^ {q} \\exp (2 \\pi i a m / q)"
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.09722222222222222,
+            0.06635802469135803,
+            0.11574074074074074,
+            0.08024691358024691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.38425925925925924,
+            0.06635802469135803,
+            0.6064814814814815,
+            0.08179012345679013
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. CHANDRASEKHARAN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.09259259259259259,
+            0.10185185185185185,
+            0.7754629629629629,
+            0.12191358024691358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is the well-known Ramanujan sum (not to be confused with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S_{X}"
+            },
+            {
+              "type": "text",
+              "content": "  in (2))."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.09259259259259259,
+            0.12191358024691358,
+            0.9004629629629629,
+            0.17746913580246915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Vital for Bombieri's proof of his theorem on arithmetical progressions is the following inequality: Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": " be any finite set of positive integers, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a_n)"
+            },
+            {
+              "type": "text",
+              "content": " any complex numbers. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.14583333333333334,
+            0.1867283950617284,
+            0.8912037037037037,
+            0.22376543209876543
+          ],
+          "image_path": "images/page_2_equation_2.jpg",
+          "content": "\\sum_ {q \\in Q} \\frac {1}{\\varphi (q)} \\sum_ {\\chi} | G (\\chi) | ^ {2} \\cdot \\left| \\sum_ {X <   n \\leq Y} \\chi (n) a _ {n} \\right| ^ {2} \\leq 7 D \\max (Y - X, M ^ {2}) \\sum_ {X <   n \\leq Y} d (n) | a _ {n} | ^ {2}.\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.09259259259259259,
+            0.22993827160493827,
+            0.8981481481481481,
+            0.26851851851851855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{\\chi}"
+            },
+            {
+              "type": "text",
+              "content": " denotes summation over all characters "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi"
+            },
+            {
+              "type": "text",
+              "content": " modulo "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q, d(n)"
+            },
+            {
+              "type": "text",
+              "content": " denotes the divisor function, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = D(q) = \\max_{q \\in Q} d(q)"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M = M(Q) = \\max_{q \\in Q} q"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.09259259259259259,
+            0.26851851851851855,
+            0.9027777777777778,
+            0.32407407407407407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By skilful and repeated application of this inequality, with different choices of X, Y, and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{n}"
+            },
+            {
+              "type": "text",
+              "content": " , Bombieri deduced a new type of density theorem for the zeros of L-functions. The theorem gives an estimate for the sum"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.33564814814814814,
+            0.33487654320987653,
+            0.6458333333333334,
+            0.37191358024691357
+          ],
+          "image_path": "images/page_2_equation_5.jpg",
+          "content": "\\sum_ {q \\in Q} \\frac {1}{\\varphi (q)} \\sum_ {\\chi} | G (\\chi) | ^ {2} N (\\alpha , T; \\chi),"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.09259259259259259,
+            0.3765432098765432,
+            0.8981481481481481,
+            0.4351851851851852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is uniform with respect to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": ", for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2} \\leq \\alpha \\leq 1"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T \\geq 2"
+            },
+            {
+              "type": "text",
+              "content": ". Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N(\\alpha, T; \\chi)"
+            },
+            {
+              "type": "text",
+              "content": " denotes the number of zeros of Dirichlet's function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(s, \\chi)"
+            },
+            {
+              "type": "text",
+              "content": " in the rectangle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\leq \\operatorname{Re}s \\leq 1"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2} \\leq \\alpha \\leq 1"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\operatorname{Im}s| \\leq T"
+            },
+            {
+              "type": "text",
+              "content": ", in the complex "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s"
+            },
+            {
+              "type": "text",
+              "content": "-plane."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.09027777777777778,
+            0.43364197530864196,
+            0.9004629629629629,
+            0.5077160493827161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From his density theorem Bombieri deduced his theorem on primes in arithmetical progressions, by an appeal to classical arguments in the theory of L-functions, combined with an application of the Siegel-Walfisz theorem (stated at the beginning)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.09027777777777778,
+            0.5077160493827161,
+            0.9027777777777778,
+            0.7129629629629629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri's work has given rise to a general method for treating problems that were previously solved either on the assumption of the extended Riemann hypothesis, or by Linnik's 'dispersion method', or by highly complicated, ad hoc methods. It thus furnishes a new approach to such important results as I. M. Vinogradov's theorem (1937) that every sufficiently large odd integer is a sum of three primes, or Linnik's theorem (1961) that every sufficiently large integer is a sum of a prime and two squares, or Chen's result (1967) that every sufficiently large even integer is a sum of a prime and an integer with at most two prime factors. Bombieri's theorem represents a deep synthesis of the most important modern methods in prime number theory. It has not put an end to any one question; rather it has led to many new ones."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.09027777777777778,
+            0.7129629629629629,
+            0.8981481481481481,
+            0.9197530864197531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "His inequality for sums of Dirichlet characters has been extended to general multiplicative characters of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi(n)n^{it}"
+            },
+            {
+              "type": "text",
+              "content": " which are “"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta"
+            },
+            {
+              "type": "text",
+              "content": "-well-spaced”. In consequence, the best bounds so far known have been obtained for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N(\\alpha, T; \\chi)"
+            },
+            {
+              "type": "text",
+              "content": ", yielding as special cases such results as the following: The difference between the consecutive primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n+1}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_n"
+            },
+            {
+              "type": "text",
+              "content": " has the estimate "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{n+1} - p_n \\ll p_n^{7/12+\\varepsilon}"
+            },
+            {
+              "type": "text",
+              "content": ", for every "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": ". (It is known that the Riemann hypothesis implies this with the exponent 1/2 in place of 7/12.) The “density hypothesis” "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N(\\alpha, T; \\chi_0) \\ll T^{2(1-\\alpha)+\\varepsilon}"
+            },
+            {
+              "type": "text",
+              "content": " holds for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha > 13/16"
+            },
+            {
+              "type": "text",
+              "content": ". (Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi_0"
+            },
+            {
+              "type": "text",
+              "content": " is the principal character, so that the zeros are those of Riemann's zeta-function.) Bombieri's method has also been generalized to algebraic number fields. Many mathematicians have played a part in the development of his method—H. Davenport, H. Halberstam, P. X. Gallagher, H. L. Montgomery,"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 10,
+          "bbox": [
+            0.3449074074074074,
+            0.06481481481481481,
+            0.6504629629629629,
+            0.0787037037037037
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE WORK OF ENRICO BOMBIERI"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.8819444444444444,
+            0.06172839506172839,
+            0.8981481481481481,
+            0.0787037037037037
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.09027777777777778,
+            0.09876543209876543,
+            0.9004629629629629,
+            0.1558641975308642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "G. Halász, M. N. Huxley, M. Jutila and, more recently, M. Forti and C. Viola, to mention but a few. There is little doubt that Bombieri's theorems have inspired that development."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.09259259259259259,
+            0.16203703703703703,
+            0.9004629629629629,
+            0.2361111111111111
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Univalent functions and the local Bieberbach conjecture. Bombieri's work on the local validity of the Bieberbach conjecture is an impressive achievement in an altogether different branch of mathematics. It shows his power and ingenuity in attacking problems of 'hard analysis'."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.09259259259259259,
+            0.2361111111111111,
+            0.9004629629629629,
+            0.3287037037037037
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let S denote the family of functions  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = z + a_{2}z^{2} + a_{3}z^{3} + \\cdots"
+            },
+            {
+              "type": "text",
+              "content": "  which are (normalized) holomorphic and univalent in the unit disc  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|z| < 1"
+            },
+            {
+              "type": "text",
+              "content": " . Bieberbach's conjecture is that if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) \\in \\mathcal{S}"
+            },
+            {
+              "type": "text",
+              "content": " , then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Re} a_{n} \\leq n"
+            },
+            {
+              "type": "text",
+              "content": " , with the equality holding only if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = z/(1 - \\rho z)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " , and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho^{n-1} = 1"
+            },
+            {
+              "type": "text",
+              "content": " . The conjecture has so far been proved for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\leq n \\leq 6"
+            },
+            {
+              "type": "text",
+              "content": "  on the one hand, and for a large number of subfamilies of S on the other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.09259259259259259,
+            0.3287037037037037,
+            0.9004629629629629,
+            0.4228395061728395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1965 P. R. Garabedian and M. Schiffer raised the question of the local validity of that conjecture, that is: If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 - \\operatorname{Re} a_2"
+            },
+            {
+              "type": "text",
+              "content": " is small enough, is it true that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n - \\operatorname{Re} a_n"
+            },
+            {
+              "type": "text",
+              "content": " is nonnegative? They answered it in the affirmative if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " is even. They proved the existence of a positive constant "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon_{2m}"
+            },
+            {
+              "type": "text",
+              "content": ", say, such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|2 - a_2| < \\varepsilon_{2m}"
+            },
+            {
+              "type": "text",
+              "content": ", then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Re} a_{2m} \\leq 2m"
+            },
+            {
+              "type": "text",
+              "content": ", with the equality holding if and only if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z) = z(1 - z)^{-2} = \\sum_{n=1}^{\\infty} nz^n"
+            },
+            {
+              "type": "text",
+              "content": ", the Koebe function."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.09259259259259259,
+            0.4228395061728395,
+            0.9004629629629629,
+            0.45987654320987653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri proved this in 1967 for all n, odd as well as even, the case of n odd being the more difficult (Invent. Math. 4 (1967), 26–67). To be precise, he proved that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.30324074074074076,
+            0.4675925925925926,
+            0.6712962962962963,
+            0.5030864197530864
+          ],
+          "image_path": "images/page_3_equation_5.jpg",
+          "content": "\\liminf _ {a _ {2} \\to 2} \\frac {n - \\operatorname{Re} a _ {n}}{2 - \\operatorname{Re} a _ {2}} > 0, \\quad \\text { if   } n \\text {   is   even },"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.09259259259259259,
+            0.5046296296296297,
+            0.1388888888888889,
+            0.5216049382716049
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.30324074074074076,
+            0.5277777777777778,
+            0.6736111111111112,
+            0.5632716049382716
+          ],
+          "image_path": "images/page_3_equation_7.jpg",
+          "content": "\\liminf _ {a _ {3} \\to 3} \\frac {n - \\operatorname{Re} a _ {n}}{3 - \\operatorname{Re} a _ {3}} > 0, \\quad \\text { if   } n \\text {   is   odd },"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.09259259259259259,
+            0.5694444444444444,
+            0.6944444444444444,
+            0.5879629629629629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the 'lim inf' is taken over all functions of the family S."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.09259259259259259,
+            0.5879629629629629,
+            0.8981481481481481,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An independent, though less direct, proof of this has since been published by Garabedian and Schiffer (Arch. Rational Mech. Anal. 26 (1967), 1–32)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.09027777777777778,
+            0.625,
+            0.9004629629629629,
+            0.8503086419753086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri's proof is based on an ingenious combination of K. Löwner's 'parametric method' with the theory of the 'second variation' developed by P. L. Duren and M. Schiffer. He uses the results of A. C. Schaefer and D. C. Spencer on Löwner curves, as well as an earlier result of his own concerning a set of quadratic forms  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(Q_{n})"
+            },
+            {
+              "type": "text",
+              "content": " , in an infinite number of variables, which had been encountered by Duren and Schiffer in their theory of the second variation. These quadratic forms  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  have the property that: (a) if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  is an indefinite form, then Bieberbach's conjecture is false for that n; (b) if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  is positive definite, then every analytic variation of the Koebe function decreases Re  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{n}"
+            },
+            {
+              "type": "text",
+              "content": " . Duren and Schiffer proved (1962/63) that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  is positive definite for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = 2, 3, \\cdots, 9"
+            },
+            {
+              "type": "text",
+              "content": " , and the same was checked with a computer for all  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leq 100"
+            },
+            {
+              "type": "text",
+              "content": " . Bombieri proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  is positive definite for all n (Boll. Un. Mat. Ital. (3) 22 (1967), 25–32)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.09490740740740741,
+            0.8564814814814815,
+            0.9027777777777778,
+            0.8950617283950617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Several complex variables. Bombieri's theorem concerning algebraic values of meromorphic maps (Invent. Math. 10 (1970), 267–287; 11 (1970), 163–166), moti-"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.09953703703703703,
+            0.05864197530864197,
+            0.11574074074074074,
+            0.07407407407407407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.3726851851851852,
+            0.06172839506172839,
+            0.5949074074074074,
+            0.07561728395061729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. CHANDRASEKHARAN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

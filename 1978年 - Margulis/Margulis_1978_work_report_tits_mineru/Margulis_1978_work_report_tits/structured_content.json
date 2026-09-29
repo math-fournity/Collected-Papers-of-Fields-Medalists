@@ -1,0 +1,595 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0787037037037037,
+            0.08796296296296297,
+            0.9189814814814815,
+            0.26697530864197533
+          ],
+          "content": "destroying the algebraicity. On the other hand, theorems of Selberg, Weil and Mostow showed that in semi-simple Lie groups different from  $\\mathrm{SL}_{2}(R)$  (up to local isomorphism) cocompact discrete subgroups are rigid, and Selberg had observed that rigidity implies a “certain amount of arithmeticity”: in fact, it is readily seen to imply that  $\\Gamma$  is contained in  $\\mathcal{G}(K)$  for some algebraic group G and some number field K. As before, the crux of the matter is the proof that the matrix coefficients of the elements of  $\\Gamma$  have bounded denominators. This is achieved by Margulis through a “superrigidity” theorem which, for groups of real rank at least 2, is a vast generalization of Weil’s and Mostow’s rigidity theorems:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0787037037037037,
+            0.279320987654321,
+            0.9166666666666666,
+            0.35802469135802467
+          ],
+          "content": "Assume $\\operatorname{rk}_R G \\geqslant 2$, let $F$ be a locally compact nondiscrete field and let $\\varrho: \\Gamma \\to \\mathrm{GL}_n(F)$ be a linear representation such that $\\varrho(\\Gamma)$ is not relatively compact and that its Zariskiclosure is connected; then $F = R$ or $C$ and $\\varrho$ extends to a rational representation of $\\mathcal{G}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0787037037037037,
+            0.36882716049382713,
+            0.9212962962962963,
+            0.5447530864197531
+          ],
+          "content": "The proof of this theorem is relatively short (considering the power of the result), but is a succession of extraordinarily ingenious arguments using a great variety of very strong techniques belonging to ergodic theory (the “multiplicative ergodic theorem”), the theory of unitary representations, the theory of functional spaces (spaces of measurable maps), algebraic geometry, the structure theory of semi-simple algebraic groups, etc. In 1975–1976, I devoted my course at the Collège de France to those results of Margulis; I believe that I learned more mathematics during that year than in any other year of my life. A summary of the main ideas of that beautiful piece of work is given in [27]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08101851851851852,
+            0.5447530864197531,
+            0.9189814814814815,
+            0.6049382716049383
+          ],
+          "content": "Another, quite different proof of the superrigidity theorem and its application to arithmeticity (both in the cocompact and the noncocompact case)—using the work of H. Furstenberg—can be found in [20]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.10648148148148148,
+            0.6188271604938271,
+            0.2777777777777778,
+            0.6358024691358025
+          ],
+          "level": 2,
+          "content": "4. Other results."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08101851851851852,
+            0.6481481481481481,
+            0.9212962962962963,
+            0.7669753086419753
+          ],
+          "content": "4.1. S-arithmetic groups. Let K be a number field, S a finite set of places of K including all places at infinity, o the ring of elements of K which are integral at all finite places not belonging to S,  $H \\subset GL_{n}$  a simply connected semisimple linear algebraic group defined over K and  $\\mathcal{H}(\\mathfrak{o}) = \\mathcal{H} \\cap \\mathrm{GL}_{n}(\\mathfrak{o})$ . Then,  $\\mathcal{H}(\\mathfrak{o})$  injects as a discrete subgroup of finite covolume in the product  $H = \\prod_{v \\in s} \\mathcal{H}(K_v)$ , where  $K_v$  denotes the completion of K at v."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08333333333333333,
+            0.7669753086419753,
+            0.9212962962962963,
+            0.9259259259259259
+          ],
+          "content": "(Example: if o is the ring of rational numbers whose denominator is a power of 2,  $\\mathrm{SL}_{n}(\\mathfrak{o})$  is a discrete subgroup of finite covolume of  $\\mathrm{SL}_{n}(\\boldsymbol{R})\\times\\mathrm{SL}_{n}(\\boldsymbol{Q}_{2})$ ). Now let G be a direct product of simply connected semi-simple real or p-adic Lie groups. A discrete subgroup  $\\Gamma$  of G is called S-arithmetic if there exist K, S, H as above and a homomorphism  $\\alpha:H\\to G$  with compact kernel such that  $\\Gamma$  and  $\\alpha(\\mathcal{H}(\\mathfrak{o}))$  are commensurable. All results of [18], stated above for ordinary Lie groups and arithmetic groups, are in fact proved by Margulis in the more general framework described here. In particular, he shows that if G is as above, if the"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08101851851851852,
+            0.047839506172839504,
+            0.1087962962962963,
+            0.06172839506172839
+          ],
+          "content": "60"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4699074074074074,
+            0.047839506172839504,
+            0.5300925925925926,
+            0.06172839506172839
+          ],
+          "content": "J. Tits"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.09259259259259259,
+            0.9143518518518519,
+            0.1527777777777778
+          ],
+          "content": "rank of G (i.e. the sum of the relative ranks of its factors) is at least 2 and if  $\\Gamma$  is a discrete subgroup of finite covolume in G, which is irreducible (as defined in  $n^{\\circ}2$ ), then  $\\Gamma$  is S-arithmetic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.1697530864197531,
+            0.9166666666666666,
+            0.30864197530864196
+          ],
+          "content": "4.2. “Abstract” isomorphisms. The very general and powerful superrigidity theorem (in the framework of 4.1) has far-reaching consequences besides the arithmeticity. For instance, it enables Margulis to solve almost completely the problem of “abstract isomorphisms” between groups of points of algebraic simple groups over number fields or arithmetic subrings of such fields; his result embodies, in the arithmetic case, all those obtained before on that problem by Dieudonné, O'Meara and his school, A. Borel and me, and goes considerably further."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.32407407407407407,
+            0.9166666666666666,
+            0.4845679012345679
+          ],
+          "content": "4.3. Normal subgroups. Let $G$ be as in 4.1 and let $\\Gamma$ be an irreducible discrete subgroup of $G$ of finite covolume. Margulis was able to show (cf. [27]) that if $\\operatorname{rk} G \\geqslant 2$, then every noncentral normal subgroup of $\\Gamma$ has finite index. (In fact, the conditions of Margulis' theorem are more general: under suitable hypotheses, $G$ is allowed to have factors defined over locally compact local fields of finite characteristic.) So far, the only results known in that direction—results of Mennicke, Bass, Milnor, Serre, Raghunathan—were connected with the congruence subgroup problem and valid only in the cases where that problem has a positive solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.49691358024691357,
+            0.9166666666666666,
+            0.6759259259259259
+          ],
+          "content": "4.4. Action on trees. In a paper which appeared in the Springer Lecture Notes, no 372, Serre showed that the group of integral points of a simple Chevalley group-scheme of rank $\\geqslant 2$ cannot act without fixed point on a tree; this also means that such a group is not an amalgam in a nontrivial way. Serre points out that his method of proof does not extend to congruence subgroups and asks whether the result generalizes to such subgroups or to other arithmetic groups. With his own methods, Margulis was able to solve at once the problem in its widest generality: if $G$ is as in 4.1, of rank at least 2, and if $\\Gamma$ is an irreducible discrete subgroup of finite covolume in $G$, then $\\Gamma$ cannot act without fixed point on a tree."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.6898148148148148,
+            0.9166666666666666,
+            0.8888888888888888
+          ],
+          "content": "5. Conclusion. Margulis has completely or almost completely solved a number of important problems in the theory of discrete subgroups of Lie groups, problems whose roots lie deep in the past and whose relevance goes far beyond that theory itself. It is not exaggerated to say that, on several occasions, he has bewildered the experts by solving questions which appeared to be completely out of reach at the time. He managed that through his mastery of a great variety of techniques used with extraordinary resources of skill and ingenuity. The new and most powerful methods he has invented have already had other important applications besides those for which they were created and, considering their generality, I have no doubt that they will have many more in the future."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0763888888888889,
+            0.8888888888888888,
+            0.9143518518518519,
+            0.9274691358024691
+          ],
+          "content": "I wish to conclude this report by a nonmathematical comment. This is probably neither the time nor the place to start a polemic. However, I cannot but express"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.28935185185185186,
+            0.05246913580246913,
+            0.7037037037037037,
+            0.06944444444444445
+          ],
+          "content": "The Work of Gregori Aleksandrovitch Margulis"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8865740740740741,
+            0.05246913580246913,
+            0.9120370370370371,
+            0.06790123456790123
+          ],
+          "content": "61"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0787037037037037,
+            0.08950617283950617,
+            0.9189814814814815,
+            0.18981481481481483
+          ],
+          "content": "my deep disappointment—no doubt shared by many people here—in the absence of Margulis from this ceremony. In view of the symbolic meaning of this city of Helsinki, $^{1}$ I had indeed grounds to hope that I would have a chance at last to meet a mathematician whom I know only through his work and for whom I have the greatest respect and admiration."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4444444444444444,
+            0.22376543209876543,
+            0.5578703703703703,
+            0.24074074074074073
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10185185185185185,
+            0.2623456790123457,
+            0.40046296296296297,
+            0.279320987654321
+          ],
+          "content": "Published work of G. A. Margulis"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.28858024691358025,
+            0.9166666666666666,
+            0.32098765432098764
+          ],
+          "content": "1. Positive harmonic functions on nilpotent groups, Dokl. Akad. Nauk S.S.S.R. 166 (1966), 1054—1057."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10185185185185185,
+            0.32253086419753085,
+            0.8333333333333334,
+            0.33796296296296297
+          ],
+          "content": "2. (with D. A. Každan) Proof of a conjecture of Selberg, Mat. Sb. 75 (1968), 163—168."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.3395061728395062,
+            0.9166666666666666,
+            0.37037037037037035
+          ],
+          "content": "3. Appendix to \"Certain smooth ergodic systems\" by D. V. Anosov and Ya. G. Sinai, Uspehi Mat. Nauk 22 (1967), 169–171."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10185185185185185,
+            0.37191358024691357,
+            0.8055555555555556,
+            0.3888888888888889
+          ],
+          "content": "4. Discrete subgroups of real semi-simple Lie groups, Mat. Sb. 80 (1960), 600–615."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.3888888888888889,
+            0.9166666666666666,
+            0.41975308641975306
+          ],
+          "content": "5. Certain applications of ergodic theory to the investigation of manifolds of negative curvature, Funkcional. Anal. i Priložen, 3 (4) (1969), 89–90."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.4212962962962963,
+            0.9166666666666666,
+            0.4537037037037037
+          ],
+          "content": "6. On the problem of arithmeticity of discrete groups, Dokl. Akad. Nauk S.S.S.R. 187 (1969), 518–520."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.4537037037037037,
+            0.9166666666666666,
+            0.4861111111111111
+          ],
+          "content": "7. Certain measures that are connected with U-flows, Funkcional. Anal. i Priložen 4 (1) (1970), 62–76."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.4876543209876543,
+            0.9143518518518519,
+            0.5200617283950617
+          ],
+          "content": "8. Isometry of closed manifolds of constant negative curvature having the same fundamental group, Dokl. Akad. Nauk S.S.S.R. 192 (1970), 736–737."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09722222222222222,
+            0.5200617283950617,
+            0.8472222222222222,
+            0.5370370370370371
+          ],
+          "content": "9. On the action of unipotent groups in the space of lattices, Mat. Sb. 86 (1971), 552–556."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.5385802469135802,
+            0.9166666666666666,
+            0.5709876543209876
+          ],
+          "content": "10. Nonuniform lattices in semi-simple algebraic groups, Lie groups and their representations, Summer school of the Bolyai Janos Math. Soc. (Budapest, 1971), Akademiai Kiado, Budapest, 1975."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.5709876543209876,
+            0.9143518518518519,
+            0.6033950617283951
+          ],
+          "content": "11. Correspondence of boundaries in biholomorphic mappings, Tezis dokladov Vsesoyuznoi konferencii po teorii funkci kompleksnogo peremennogo (1971)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.6033950617283951,
+            0.9143518518518519,
+            0.6358024691358025
+          ],
+          "content": "12. Metric questions in the theory of U-systems, in Devyataya Letnyaya Mat. Škola, Kiev. Inst. Mat. Akad. Nauk S.S.S.R., 1972, pp. 342–348."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09953703703703703,
+            0.6358024691358025,
+            0.8564814814814815,
+            0.6527777777777778
+          ],
+          "content": "13. Arithmeticity of nonuniform lattices, Funkcional. Anal. i Priložen 7 (3) (1973), 88—89."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10185185185185185,
+            0.6527777777777778,
+            0.8356481481481481,
+            0.6697530864197531
+          ],
+          "content": "14. Explicit constructions of dilatators, Probl. Peredači Informacii 9 (4) (1973), 71—80."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.10185185185185185,
+            0.6697530864197531,
+            0.8657407407407407,
+            0.6851851851851852
+          ],
+          "content": "15. Arithmetic properties of discrete groups, Uspehi Mat. Nauk S.S.S.R. 29 (1974), 49—98."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.6851851851851852,
+            0.9050925925925926,
+            0.7175925925925926
+          ],
+          "content": "16. Arithmeticity and finite dimensional representations of uniform lattices, Funkcional. Anal. Priložen 8 (3) (1974), 77–78."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.7175925925925926,
+            0.9166666666666666,
+            0.7515432098765432
+          ],
+          "content": "17. Probabilistic characteristics of graphs with high connectivity, Probl. Peredači Informacii 10(2) (1974), 101—108."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08333333333333333,
+            0.7515432098765432,
+            0.9143518518518519,
+            0.7839506172839507
+          ],
+          "content": "18. Discrete groups of motions of manifolds with nonpositive curvature, Proc. Internat. Congr. Math. (Vancouver, 1974), vol. 2, 1975, pp. 21–34."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.7854938271604939,
+            0.8981481481481481,
+            0.8179012345679012
+          ],
+          "content": "19. Arithmeticity of nonuniform lattices in weakly noncompact groups, Funkcional. Anal. Priložen 9 (1) (1975), 35–44."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.08101851851851852,
+            0.8179012345679012,
+            0.9166666666666666,
+            0.8672839506172839
+          ],
+          "content": "20. Arithmeticity of irreducible lattices in semisimple groups of rank greater than 1, Appendix to the Russian translation of M. Raghunathan's book: Discrete Subgroups of Lie Groups, Moscow, 1977, pp. 277—313."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08333333333333333,
+            0.04938271604938271,
+            0.1111111111111111,
+            0.06327160493827161
+          ],
+          "content": "62"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4699074074074074,
+            0.04938271604938271,
+            0.5300925925925926,
+            0.06481481481481481
+          ],
+          "content": "J. Tits"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.10185185185185185,
+            0.8935185185185185,
+            0.9166666666666666,
+            0.9274691358024691
+          ],
+          "content": "$^{1}$  The address was delivered in Finlandia Hall, where the 1975 Helsinki Agreements were concluded."
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0787037037037037,
+            0.09259259259259259,
+            0.9097222222222222,
+            0.125
+          ],
+          "content": "21. (with G. A. Soifer), Criteria for the existence of maximal subgroups of infinite index in finitely generated linear groups, Dokl. Akad. Nauk S.S.S.R. 234 (1977), 1261—1264."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0787037037037037,
+            0.12654320987654322,
+            0.9097222222222222,
+            0.1574074074074074
+          ],
+          "content": "22. Cobounded subgroups in algebraic groups over local fields, Funkcional. Anal. i Priložen 11 (1977), 45–57."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0787037037037037,
+            0.15895061728395063,
+            0.9097222222222222,
+            0.18981481481481483
+          ],
+          "content": "23. Factor groups of discrete subgroups and measure theory, Funkcional. Anal. i Priložen 12 (4) (1978), 64–76."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09722222222222222,
+            0.19290123456790123,
+            0.8472222222222222,
+            0.20679012345679013
+          ],
+          "content": "24. Factor groups of discrete subgroups, Dokl. Akad. Nauk S.S.S.R. 242 (1978) 533—536."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09722222222222222,
+            0.20833333333333334,
+            0.9074074074074074,
+            0.24382716049382716
+          ],
+          "content": "25. Finiteness of factor groups of discrete subgroups, Funkcional. Anal. i Priložen (to appear). Other references"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.09953703703703703,
+            0.2345679012345679,
+            0.24074074074074073,
+            0.25
+          ],
+          "level": 2,
+          "content": "Other references"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0763888888888889,
+            0.26080246913580246,
+            0.9074074074074074,
+            0.30864197530864196
+          ],
+          "content": "26. A. Borel, Sous-groupes discrets de groups semi-simples (d'après D. A. Kajdan et G. A. Margoulis), Sém. Bourbaki, 1969, Lecture Notes in Math., vol. 179, Springer-Verlag, Berlin, pp. 199—215."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0787037037037037,
+            0.3101851851851852,
+            0.9097222222222222,
+            0.3425925925925926
+          ],
+          "content": "27. J. Tits, Travaux de Margulis sur les sous-groupes discrets de groupes de Lie, Sém. Bourbaki, 1976, Lecture Notes in Math., vol. 567, Springer-Verlag, Berlin, pp. 174–190."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09722222222222222,
+            0.36419753086419754,
+            0.2777777777777778,
+            0.37808641975308643
+          ],
+          "content": "COLLÈGE DE FRANCE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11342592592592593,
+            0.37962962962962965,
+            0.3819444444444444,
+            0.3966049382716049
+          ],
+          "content": "75231 PARIS CEDEX 05, FRANCE"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.28703703703703703,
+            0.05092592592592592,
+            0.6967592592592593,
+            0.06635802469135803
+          ],
+          "content": "The Work of Gregori Aleksandrovitch Margulis"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8819444444444444,
+            0.05092592592592592,
+            0.9120370370370371,
+            0.06481481481481481
+          ],
+          "content": "63,"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": []
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

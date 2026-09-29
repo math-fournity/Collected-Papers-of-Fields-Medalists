@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.2152777777777778,
+            0.2005856515373353,
+            0.7847222222222222,
+            0.22108345534407028
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ON THE WORK OF SERGE NOVIKOV"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.3888888888888889,
+            0.24011713030746706,
+            0.6134259259259259,
+            0.25768667642752563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "by M. F. ATIYAH"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11342592592592593,
+            0.28550512445095166,
+            0.8888888888888888,
+            0.3806734992679356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It gives me great pleasure to report on the work of Serge Novikov. For many years he has been generally acknowledged as one of the most outstanding workers in the fields of Geometric and Algebraic Topology. In this rapidly developing area, which has attracted many brilliant young mathematicians, Novikov is perhaps unique in demonstrating great originality and very powerful technique both in its geometric and algebraic aspects."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1111111111111111,
+            0.383601756954612,
+            0.8888888888888888,
+            0.5563689604685212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Novikov made his first impact, as a very young man, by his calculation of the unitary cobordism ring of Thom (independently of similar work by Milnor). Essentially Thom had reduced a geometrical problem of classification of manifolds to a difficult problem of homotopy theory. Despite the great interest aroused by the work of Thom this problem had to wait several years before its successful solution by Milnor and Novikov. Many years later Novikov returned to this area and, combining cobordism with homotopy theory, he developed some very powerful algebraic machinery which gives one of the most refined tools at present available in Algebraic Topology. In his early work it was a question of applying homotopy to solve the geometric problem of cobordism; in this later work it was the reverse, cobordism was used to attack general homotopy theory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1111111111111111,
+            0.5607613469985359,
+            0.8865740740740741,
+            0.7642752562225475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the purely geometric side I would like to single out a very beautiful and striking theorem of Novikov about foliations on the 3-dimensional sphere. Perhaps I should remind you that a foliation of a manifold is (roughly speaking) a decomposition into manifolds (of some smaller dimension) called the leaves of the foliation: one leaf passing through each point of the big manifold. If the leaves have dimension one then we are dealing with the trajectories (or integral curves) of a vector field, and closed trajectories are of course particularly interesting. In the general case a basic question therefore concerns the existence of closed leaves. Very little was known about this problem. Thus even in the simplest case of a foliation of the 3-sphere into 2-dimensional leaves the answer was not known until Novikov, in 1964, proved that every foliation in this case does indeed have a closed leaf (which is then necessarily a torus). Novikov's proof is very direct and involves many delicate geometric arguments. Nothing better has been proved since in this direction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1111111111111111,
+            0.767203513909224,
+            0.8865740740740741,
+            0.8784773060029283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Undoubtedly the most important single result of Novikov, and one which combines in a remarkable degree both algebraic and geometric methods, is his famous proof of the topological invariance of the Pontrjagin classes of a differentiable manifold. In order to explain this result and its significance I must try in a few minutes to summarize the history of manifold theory over the past 20 years. Fortunately, during this Congress you will be able to hear many more detailed and comprehensive surveys."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 6,
+          "bbox": [
+            0.11574074074074074,
+            0.08784773060029283,
+            0.6064814814814815,
+            0.10395314787701318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Actes, Congrès intern. math., 1970. Tome 1, p. 11 à 13."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1087962962962963,
+            0.12280701754385964,
+            0.8842592592592593,
+            0.5745614035087719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are 3 different kinds or categories of manifold: differentiable, piece-wise linear (or combinatorial) and topological. For each category the main problem is to understand the structure or to give some kind of classification. There was no clear idea about the distinction between these 3 categories until Milnor produced his famous example of 2 different differentiable structures on the 7-sphere. After that the subject developed rapidly with important contributions from many people, including Novikov, so that in a few years the distinction between differentiable and piece-wise linear manifolds, and their classification, was very understood. However, there were still no real indications about the status of topological manifolds. Were they essentially similar to piece-wise linear manifolds or were they quite different? Nobody knew. In fact, there were no known invariants of topological manifolds except homotopy invariants. On the other hand, there were many invariants known for differentiable or piece-wise linear manifolds which were finer than homotopy invariants. Notable among these were the Pontrjagin classes. For a differentiable manifold these are cohomology classes which measure, in some sense, the amount of global twisting in the tangent spaces. For a manifold with a global parallelism like a torus they are zero. In the context of Riemannian geometry there is a generalized Gauss-Bonnet theorem which expresses them in terms of the curvature. In any case their definition relies heavily on differentiability. Around 1957 it was shown by Thom, Rohlin and Svarc, using important earlier work of Hirzebruch, that the Pontrjagin classes are actually piece-wise linear invariants (provided we use rational or real coefficients). When Novikov, in 1965, proved their topological invariance this was the first real indication that topological manifolds might be essentially similar to piece-wise linear ones. It was a big break-through and was quickly followed by very rapid progress which, in the past few years, through the work of many mathematicians — notably Kirby and Siebenmann — has resulted in fairly complete information about the topological piece-wise linear situation. Thus we now know that nearly all topological manifolds can be triangulated and essentially in a unique way. You will undoubtedly hear about this in the Congress lectures."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.1087962962962963,
+            0.577485380116959,
+            0.8819444444444444,
+            0.6257309941520468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Perhaps you will understand Novikov's result more easily if I mention a purely geometrical theorem (not involving Pontrjagin classes) which lies at the heart of Novikov's proof. This is as follows:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1087962962962963,
+            0.6374269005847953,
+            0.8819444444444444,
+            0.685672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM (*). — If a differentiable manifold X is homeomorphic to a product  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M \\times R^{n}"
+            },
+            {
+              "type": "text",
+              "content": "  (where M is compact, simply-connected and has dimension  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geq 5"
+            },
+            {
+              "type": "text",
+              "content": " ) then X is diffeomorphic to a product  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M' \\times R^{n}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1087962962962963,
+            0.6885964912280702,
+            0.8819444444444444,
+            0.7529239766081871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here both M,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M'"
+            },
+            {
+              "type": "text",
+              "content": "  are differentiable manifolds. The theorem thus asserts that a topological factorization implies a differentiable factorization: it is clearly a deep result. Combined with the earlier Thom-Hirzebruch work it leads easily to the invariance of the Pontrjagin classes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1087962962962963,
+            0.7558479532163743,
+            0.8819444444444444,
+            0.8362573099415205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I hope I have now indicated the importance of this result of Novikov's and its place in the general development of manifold theory. I would like also to stress the remarkable nature of the proof which combines very ingenious geometric ideas with considerable algebraic virtuosity. One aspect of the geometry is particularly worth mentioning. As is well-known many topological problems are very much easier if one"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.11342592592592593,
+            0.0847953216374269,
+            0.1412037037037037,
+            0.097953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 6,
+          "bbox": [
+            0.43287037037037035,
+            0.0847953216374269,
+            0.5694444444444444,
+            0.10087719298245613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 7,
+          "bbox": [
+            0.13425925925925927,
+            0.8581871345029239,
+            0.5324074074074074,
+            0.8757309941520468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(*) This formulation is due to L. SIEBENMANN."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1111111111111111,
+            0.12445095168374817,
+            0.8865740740740741,
+            0.28257686676427524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is dealing with simply-connected spaces. Topologists are very happy when they can get rid of the fundamental group and its algebraic complications. No so Novikov! Although the theorem above involves only simply-connected spaces, a key step in his proof consists in perversely introducing a fundamental group, rather in the way that (on a much more elementary level) puncturing the plane makes it non-simply-connected. This bold move has the effect of simplifying the geometry at the expense of complicating the algebra, but the complication is just manageable and the trick works beautifully. It is a real master stroke and completely unprecedented. Since then a somewhat analogous device has proved crucial in the important work of Kirby mentioned earlier."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.1111111111111111,
+            0.2840409956076135,
+            0.8865740740740741,
+            0.3806734992679356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I hope this brief report has given some idea of the real individuality of Novikov's work, its variety and its importance, all of which fully justifies the award of the Fields Medal. It is all the more remarkable when we remember that he worked in relative isolation from the main body of mathematicians in his particular field. We offer him our heartiest congratulations in the full confidence that he will continue, for many years to come, to produce mathematics of the highest order."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.19675925925925927,
+            0.4333821376281113,
+            0.4722222222222222,
+            0.513909224011713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael ATIYAH\nInstitute for Advanced Study\nDepartment of Mathematics,\nPrinceton, New Jersey 08540\n(U. S. A.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.5069444444444444,
+            0.4333821376281113,
+            0.7939814814814815,
+            0.513909224011713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Serge Novikov\nSteklov Mathematical Institute\nul Vavilova 42,\nMoscow V 333\n(U. R. S. S.)"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 4,
+          "bbox": [
+            0.32175925925925924,
+            0.08638360175695461,
+            0.6736111111111112,
+            0.10102489019033675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ON THE WORK OF SERGE NOVIKOV"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.8564814814814815,
+            0.0849194729136164,
+            0.8842592592592593,
+            0.10102489019033675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

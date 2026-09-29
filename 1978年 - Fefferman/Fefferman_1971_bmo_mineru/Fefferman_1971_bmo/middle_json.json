@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.2708333333333333,
+            0.18567251461988304,
+            0.7245370370370371,
+            0.22076023391812866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHARACTERIZATIONS OF BOUNDED MEAN OSCILLATION"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.3680555555555556,
+            0.2309941520467836,
+            0.6319444444444444,
+            0.24561403508771928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BY CHARLES FEFFERMAN"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.2638888888888889,
+            0.2543859649122807,
+            0.7361111111111112,
+            0.2719298245614035
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Communicated by M. H. Protter, December 14, 1970"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13194444444444445,
+            0.2777777777777778,
+            0.8657407407407407,
+            0.3157894736842105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BMO (bounded mean oscillation) is the Banach space of all functions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in L_{\\mathrm{loc}}^{1}(R^{n})"
+            },
+            {
+              "type": "text",
+              "content": " for which"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.22916666666666666,
+            0.3230994152046784,
+            0.7615740740740741,
+            0.36403508771929827
+          ],
+          "image_path": "images/page_0_equation_4.jpg",
+          "content": "\\left| \\left| f \\right| \\right| _ {\\mathrm{BMO}} = \\sup _ {Q} \\left(\\frac {1}{| Q |} \\int_ {Q} | f (x) - \\operatorname{av} _ {Q} f | d x\\right) <   \\infty ,"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.37280701754385964,
+            0.8657407407407407,
+            0.4269005847953216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the sup ranges over all cubes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\subseteq R^{n}"
+            },
+            {
+              "type": "text",
+              "content": " , and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "av_{Q} f"
+            },
+            {
+              "type": "text",
+              "content": "  is the mean of f over Q. See [5]. For convenience, we identify f and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f'"
+            },
+            {
+              "type": "text",
+              "content": "  in BMO if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f - f'"
+            },
+            {
+              "type": "text",
+              "content": "  is constant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13194444444444445,
+            0.4327485380116959,
+            0.8657407407407407,
+            0.4868421052631579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 1. BMO is the dual of the Hardy space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{1}(R^{n})"
+            },
+            {
+              "type": "text",
+              "content": ". The inner product is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\langle f, g \\rangle = \\int_{R^{n}} f(x) g(x) dx"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in BMO"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " belonging to the dense subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": " rapidly decreasing functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{1}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13194444444444445,
+            0.4956140350877193,
+            0.8657407407407407,
+            0.5321637426900585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, we regard "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^1"
+            },
+            {
+              "type": "text",
+              "content": " as the space of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\in L^1(R^n)"
+            },
+            {
+              "type": "text",
+              "content": " whose Riesz transforms "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_j(f)"
+            },
+            {
+              "type": "text",
+              "content": " are all in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^1"
+            },
+            {
+              "type": "text",
+              "content": ". See [7]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13194444444444445,
+            0.5380116959064327,
+            0.8657407407407407,
+            0.5760233918128655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 2. A function belongs to BMO if and only if it can be written in the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_0 + \\sum_{j=1}^{n} R_j(g_j)"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g_0, g_1, \\cdots, g_n \\in L^\\infty(R^n)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1574074074074074,
+            0.5833333333333334,
+            0.4837962962962963,
+            0.6008771929824561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the usual definition"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.24768518518518517,
+            0.6111111111111112,
+            0.7476851851851852,
+            0.6505847953216374
+          ],
+          "image_path": "images/page_0_equation_10.jpg",
+          "content": "R _ {j} (g) (x) = \\lim _ {\\epsilon \\rightarrow 0; M \\rightarrow \\infty} \\int_ {\\epsilon <   | x - y | <   M} K _ {j} (x - y) f (y) d y"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13194444444444445,
+            0.6578947368421053,
+            0.8657407407407407,
+            0.695906432748538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{j}(y) = cy_{j} / |y|^{n + 1}"
+            },
+            {
+              "type": "text",
+              "content": " need not make sense for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in L^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": ". (Consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g(x) = \\operatorname{sgn}(x)"
+            },
+            {
+              "type": "text",
+              "content": " on the line.) Therefore, we define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.21296296296296297,
+            0.7046783625730995,
+            0.7685185185185185,
+            0.7441520467836257
+          ],
+          "image_path": "images/page_0_equation_12.jpg",
+          "content": "R _ {j} (g) (x) = \\lim _ {\\epsilon \\rightarrow 0} \\int_ {\\epsilon <   | x - y |} \\left[ K _ {j} (x - y) - K _ {j} ^ {0} (- y) \\right] g (y) d y,"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13194444444444445,
+            0.7514619883040936,
+            0.8657407407407407,
+            0.8055555555555556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{j}^{0}(y) = K_{j}(y)"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|y| > 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{j}^{0}(y) = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|y| \\leq 1"
+            },
+            {
+              "type": "text",
+              "content": ". This makes sense for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in L^{\\infty}"
+            },
+            {
+              "type": "text",
+              "content": ", and agrees with the usual definition up to an additive constant if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": " has compact support. See [3, p. 105]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13194444444444445,
+            0.8055555555555556,
+            0.8657407407407407,
+            0.8421052631578947
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The main idea in proving Theorems 1 and 2 is to study the Poisson integral of a function in BMO. Recall that any function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " satisfying"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.47453703703703703,
+            0.15204678362573099
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BULLETIN OF THE\nAMERICAN MATHEMATICAL SOCIETY\nVolume 77, Number 4, July 1971"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.1597222222222222,
+            0.847953216374269,
+            0.6180555555555556,
+            0.8640350877192983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "AMS 1969 subject classifications. Primary 3067, 4635."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.13194444444444445,
+            0.8625730994152047,
+            0.8657407407407407,
+            0.8947368421052632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Key words and phrases. Bounded mean oscillation, Riesz transforms, maximal function, Poisson integral."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.49074074074074076,
+            0.8976608187134503,
+            0.8657407407407407,
+            0.9137426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Copyright © 1971, American Mathematical Society"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.4837962962962963,
+            0.9195906432748538,
+            0.5208333333333334,
+            0.935672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "587"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "equation",
+          "index": 0,
+          "bbox": [
+            0.3587962962962963,
+            0.15350877192982457,
+            0.6388888888888888,
+            0.19736842105263158
+          ],
+          "image_path": "images/page_1_equation_0.jpg",
+          "content": "\\int_ {R ^ {n}} \\frac {| f (x) |}{(| x | + 1) ^ {n + 1}} d x <   \\infty\\tag{*}"
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12731481481481483,
+            0.20760233918128654,
+            0.8564814814814815,
+            0.22660818713450293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has a Poisson integral "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u(x, t) = \\mathrm{P.I.}(f)"
+            },
+            {
+              "type": "text",
+              "content": " defined on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{+}^{n + 1} = R^n \\times (0, \\infty)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12962962962962962,
+            0.23391812865497075,
+            0.8634259259259259,
+            0.2719298245614035
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 3. A function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " belongs to BMO if and only if (*) holds and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\iint_{|x - x_0| < \\delta; 0 < t < \\delta} t|\\nabla u(x, t)|^2 dx dt \\leq C\\delta^n"
+            },
+            {
+              "type": "text",
+              "content": " for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_0 \\in R^n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta > 0"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12962962962962962,
+            0.2777777777777778,
+            0.8634259259259259,
+            0.3157894736842105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorems 1–3 and their proofs can be used to study  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{1}"
+            },
+            {
+              "type": "text",
+              "content": " . For example,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12962962962962962,
+            0.3216374269005848,
+            0.8634259259259259,
+            0.39473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = (u_0(x, t); u_1(x, t), \\dots, u_n(x, t))"
+            },
+            {
+              "type": "text",
+              "content": " be an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n+1)"
+            },
+            {
+              "type": "text",
+              "content": "-tuple of harmonic functions on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_+^{n+1}"
+            },
+            {
+              "type": "text",
+              "content": ", satisfying the Cauchy-Riemann equations of [7]. If the nontangential maximal function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u_0^*(x) \\equiv \\sup_{|x'| < t; t > 0} |u_0(x - x', t)|"
+            },
+            {
+              "type": "text",
+              "content": " belongs to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^1"
+            },
+            {
+              "type": "text",
+              "content": ", then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " is in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^1"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12962962962962962,
+            0.40058479532163743,
+            0.8657407407407407,
+            0.4546783625730994
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Different techniques enable us to replace  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^{1}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{1}"
+            },
+            {
+              "type": "text",
+              "content": "  by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^{p}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p}"
+            },
+            {
+              "type": "text",
+              "content": ",  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < p < \\infty"
+            },
+            {
+              "type": "text",
+              "content": ". This generalizes a one-dimensional result of D. Burkholder, R. Gundy, and M. Silverstein (see [1] and [2])."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12731481481481483,
+            0.45321637426900585,
+            0.8657407407407407,
+            0.489766081871345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further applications of Theorems 1–3 appear in [4] and [6]. [4] contains detailed proofs of the results stated here."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.42824074074074076,
+            0.5043859649122807,
+            0.5717592592592593,
+            0.52046783625731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REFERENCES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.12962962962962962,
+            0.5263157894736842,
+            0.8634259259259259,
+            0.5555555555555556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. D. Burkholder and R. Gundy, Extrapolation and interpolation of quasi-linear operators on martingales, Acta Math. 124 (1970), 249–304."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.12962962962962962,
+            0.5555555555555556,
+            0.8634259259259259,
+            0.5847953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. D. Burkholder, R. Gundy and M. Silverstein, A maximal function characterization of the class  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p}"
+            },
+            {
+              "type": "text",
+              "content": "  (to appear)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.13194444444444445,
+            0.5847953216374269,
+            0.8634259259259259,
+            0.6140350877192983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. A. P. Calderón and A. Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952), 85–139. MR 14, 637."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.1597222222222222,
+            0.6140350877192983,
+            0.5324074074074074,
+            0.6301169590643275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. C. Fefferman and E. M. Stein, (in prep.)"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.13194444444444445,
+            0.6286549707602339,
+            0.8634259259259259,
+            0.6578947368421053
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. F. John and L. Nirenberg, On functions of bounded mean oscillation, Comm. Pure Appl. Math. 14 (1961), 785–799."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.13194444444444445,
+            0.6578947368421053,
+            0.8634259259259259,
+            0.6871345029239766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. E. M. Stein, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L^p"
+            },
+            {
+              "type": "text",
+              "content": " boundedness of certain convolution operators, Bull. Amer. Math. Soc. 77 (1971), 404-405."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.13194444444444445,
+            0.6871345029239766,
+            0.8657407407407407,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. E. M. Stein and G. Weiss, Introduction to Fourier analysis on euclidean spaces, Princeton, 1971."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.16203703703703703,
+            0.7251461988304093,
+            0.6134259259259259,
+            0.7412280701754386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "UNIVERSITY OF CHICAGO, CHICAGO, ILLINOIS 60637"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.12962962962962962,
+            0.12280701754385964,
+            0.16898148148148148,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "588"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.3912037037037037,
+            0.12280701754385964,
+            0.6018518518518519,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CHARLES FEFFERMAN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

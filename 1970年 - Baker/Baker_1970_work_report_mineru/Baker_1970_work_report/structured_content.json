@@ -1,0 +1,178 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1111111111111111,
+            0.13177159590043924,
+            0.8865740740740741,
+            0.2869692532942899
+          ],
+          "content": "it was known that its d would have to exceed  $\\exp(10^{7})$ . Hence, if it can be shown that there exists an upper bound  $d_{0} < \\exp(10^{7})$  for all “good” d’s then the tenth possible field cannot exist. Now the Gelfond-Linnik discovery was that the afore mentioned effective lower bound for the three-term sum could furnish such an effective  $d_{0}$ . Baker found that one of his general results implies an upper bound  $d_{0} = 10^{500}$  enough by far for this purpose. This outcome provides a striking new example, illustrating once more how effectivity can play a decisive role in essential problems. Again, the value of this approach is of course not diminished by H. M. Stark’s outstanding achievement in showing the non-existence of the tenth field, simultaneously and independently, by quite different methods."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1111111111111111,
+            0.28989751098096633,
+            0.8842592592592593,
+            0.3528550512445095
+          ],
+          "content": "To illustrate further the many-sided applicability of Baker's work I mention that it could be employed to make effective some ineffective results of Linnik on the coefficients of a complete reduced set of binary quadratic forms belonging to a fixed negative discriminant (Linnik had used ideas from ergodic theory)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1087962962962963,
+            0.3528550512445095,
+            0.8842592592592593,
+            0.5724743777452416
+          ],
+          "content": "As one can guess, obtaining such long-sought solutions was a very complicated task. It is very difficult to attempt even a sketch of the underlying ideas in the short time at my disposal beyond the remark that they are of hard-analysis type. Fortunately, you will have the opportunity of hearing about them in some detail from Baker himself in his address to this Congress. To conclude, I remark that his work exemplifies two things very convincingly. Firstly, that beside the worthy tendency to start a theory in order to solve a problem it pays also to attack specific difficult problems directly. Particularly is this the case with such problems where rather singular circumstances do not make it probable that a solution would fall out as an easy consequence of a general theory. Secondly, it shows that a direct solution of a deep problem develops itself quite naturally into a healthy theory and gets into early and fruitful contact with other significant problems of mathematics. So, let the two different ways of doing mathematics live in peaceful coexistence for the benefit of our science."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2569444444444444,
+            0.6251830161054173,
+            0.3587962962962963,
+            0.6412884333821376
+          ],
+          "content": "P. TURÁN"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.6458333333333334,
+            0.6251830161054173,
+            0.7685185185185185,
+            0.6412884333821376
+          ],
+          "content": "Alan BAKER"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19907407407407407,
+            0.6412884333821376,
+            0.41435185185185186,
+            0.657393850658858
+          ],
+          "content": "Mathematical Institute"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.6342592592592593,
+            0.6398243045387995,
+            0.7800925925925926,
+            0.657393850658858
+          ],
+          "content": "Trinity College"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2222222222222222,
+            0.657393850658858,
+            0.3958333333333333,
+            0.6734992679355783
+          ],
+          "content": "of the Hungarian"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.6504629629629629,
+            0.6559297218155198,
+            0.7638888888888888,
+            0.6734992679355783
+          ],
+          "content": "Cambridge"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2037037037037037,
+            0.6720351390922401,
+            0.41203703703703703,
+            0.6881405563689604
+          ],
+          "content": "Academy of Sciences,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2152777777777778,
+            0.6866764275256223,
+            0.4027777777777778,
+            0.705710102489019
+          ],
+          "content": "Budapest, Hungary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.6180555555555556,
+            0.6705710102489019,
+            0.7962962962962963,
+            0.6896046852122987
+          ],
+          "content": "(Grande-Bretagne)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3402777777777778,
+            0.09370424597364568,
+            0.6574074074074074,
+            0.10688140556368961
+          ],
+          "content": "ON THE WORK OF ALAN BAKER"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8703703703703703,
+            0.09224011713030747,
+            0.8865740740740741,
+            0.10688140556368961
+          ],
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            0.0029282576866764276,
+            1.0,
+            1.0
+          ],
+          "content": "The Ground Truth image displays a single, solid horizontal line. According to Rule 2 (UNDERSCORE & LINE RULES), this is a stylistic or background line, not a placeholder underscore. Therefore, the OCR result must ignore it. The provided OCR content is \"\\_\\_\\_\\_\", which consists of four underscores. This is an incorrect interpretation of the line as a placeholder, violating the rule that stylistic lines must be ignored. The OCR has hallucinated text (underscores) where none should exist in the GT. This adheres to the strict requirement to ignore such lines."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

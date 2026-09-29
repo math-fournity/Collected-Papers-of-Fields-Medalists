@@ -1,0 +1,1303 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1075050709939148,
+            0.11470985155195682,
+            0.845841784989858,
+            0.1417004048582996
+          ],
+          "content": "$^{19}$  Gardner, R. S., A. J. Wahba, C. Basilio, R. S. Miller, P. Lengyel, and J. F. Speyer, these PROCEEDINGS, 48, 2087 (1962)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.1417004048582996,
+            0.6835699797160243,
+            0.15519568151147098
+          ],
+          "content": "$^{20}$  Ralph, R. K., and H. G. Khorana, J. Am. Chem. Soc., 83, 2926 (1961)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.15519568151147098,
+            0.6166328600405679,
+            0.16869095816464239
+          ],
+          "content": "$^{21}$  Ames, B. N., and D. T. Dubin, J. Biol. Chem., 235, 769 (1960)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.16869095816464239,
+            0.744421906693712,
+            0.18083670715249664
+          ],
+          "content": "$^{22}$  Chen, P. S., Jr., T. Y. Toribara, and H. Warner, Anal. Chem., 28, 1756 (1956)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.18083670715249664,
+            0.768762677484787,
+            0.19568151147098514
+          ],
+          "content": "$^{23}$  Heppel, L. A., D. R. Harkness, and R. J. Hilmoe, J. Biol. Chem., 237, 841 (1962)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.19568151147098514,
+            0.6673427991886409,
+            0.2078272604588394
+          ],
+          "content": "$^{24}$  Razzell, W. E., and H. G. Khorana, J. Biol. Chem., 234, 2114 (1959)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.2078272604588394,
+            0.8032454361054767,
+            0.22267206477732793
+          ],
+          "content": "$^{25}$  Kay, E. R. M., N. S. Simmons, and A. L. Dounce, J. Am. Chem. Soc., 74, 1724 (1952)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.22267206477732793,
+            0.6125760649087221,
+            0.23481781376518218
+          ],
+          "content": "$^{26}$  Sherman, J. R., and J. Adler, J. Biol. Chem., 238, 873 (1962)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.23481781376518218,
+            0.5801217038539553,
+            0.2483130904183536
+          ],
+          "content": "$^{27}$  Waley, S. G., and J. Watson, Biochem. J., 55, 328 (1953)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.2496626180836707,
+            0.7342799188640974,
+            0.26180836707152494
+          ],
+          "content": "$^{28}$  Akabori, S., K. Ohno, and K. Narita, Bull. Chem. Soc. Japan, 25, 214 (1952)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.11156186612576065,
+            0.26180836707152494,
+            0.8559837728194726,
+            0.28879892037786775
+          ],
+          "content": "$^{29}$  Lowry, O. H., N. J. Rosebrough, A. L. Farr, and R. J. Randall, J. Biol. Chem., 193, 265 (1951)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1257606490872211,
+            0.28879892037786775,
+            0.6632860040567952,
+            0.30364372469635625
+          ],
+          "content": "$^{30}$  Nakamoto, T., and S. B. Weiss, these PROCEEDINGS, 48, 880 (1962)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.30364372469635625,
+            0.6876267748478702,
+            0.31713900134952766
+          ],
+          "content": "$^{31}$  Fox, C. F., W. S. Robinson, and S. B. Weiss, Fed. Proc., 22, 463 (1963)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12778904665314403,
+            0.31713900134952766,
+            0.6308316430020284,
+            0.33063427800269907
+          ],
+          "content": "$^{32}$  Krakow, J. S., and S. Ochoa, these PROCEEDINGS, 49, 88 (1963)."
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.16227180527383367,
+            0.3792172739541161,
+            0.7910750507099391,
+            0.3967611336032389
+          ],
+          "level": 1,
+          "content": "THE INDEPENDENCE OF THE CONTINUUM HYPOTHESIS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3793103448275862,
+            0.4048582995951417,
+            0.5699797160243407,
+            0.42105263157894735
+          ],
+          "content": "By Paul J. Cohen\\*"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2697768762677485,
+            0.43049932523616735,
+            0.6795131845841785,
+            0.44399460188933876
+          ],
+          "content": "DEPARTMENT OF MATHEMATICS, STANFORD UNIVERSITY"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2880324543610548,
+            0.4507422402159244,
+            0.6612576064908722,
+            0.46558704453441296
+          ],
+          "content": "Communicated by Kurt Gödel, September 30, 1963"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10547667342799188,
+            0.47368421052631576,
+            0.8438133874239351,
+            0.6194331983805668
+          ],
+          "content": "This is the first of two notes in which we outline a proof of the fact that the Continuum Hypothesis cannot be derived from the other axioms of set theory, including the Axiom of Choice. Since Gödel $^{3}$ has shown that the Continuum Hypothesis is consistent with these axioms, the independence of the hypothesis is thus established. We shall work with the usual axioms for Zermelo-Fraenkel set theory, $^{2}$ and by Z-F we shall denote these axioms without the Axiom of Choice, (but with the Axiom of Regularity). By a model for Z-F we shall always mean a collection of actual sets with the usual $\\epsilon$-relation satisfying Z-F. We use the standard definitions $^{3}$ for the set of integers $\\omega$, ordinal, and cardinal numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1257606490872211,
+            0.6194331983805668,
+            0.718052738336714,
+            0.6356275303643725
+          ],
+          "content": "THEOREM 1. There are models for Z-F in which the following occur:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10547667342799188,
+            0.6369770580296896,
+            0.8417849898580122,
+            0.6666666666666666
+          ],
+          "content": "(1) There is a set $a, a \\subseteq \\omega$ such that $a$ is not constructible in the sense of reference 3, yet the Axiom of Choice and the Generalized Continuum Hypothesis both hold."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.6680161943319838,
+            0.8052738336713996,
+            0.6842105263157895
+          ],
+          "content": "(2) The continuum (i.e., $\\mathcal{P}(\\omega)$ where $\\mathcal{P}$ means power set) has no well-ordering."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.6842105263157895,
+            0.5314401622718052,
+            0.699055330634278
+          ],
+          "content": "(3) The Axiom of Choice holds, but $\\aleph_1 \\neq 2^{\\aleph_0}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.7004048582995951,
+            0.768762677484787,
+            0.7165991902834008
+          ],
+          "content": "(4) The Axiom of Choice for countable pairs of elements in $\\mathcal{P}(\\mathcal{P}(\\omega))$ fails."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10344827586206896,
+            0.717948717948718,
+            0.8438133874239351,
+            0.7975708502024291
+          ],
+          "content": "Only part 3 will be discussed in this paper. In parts 1 and 3 the universe is well-ordered by a single definable relation. Note that 4 implies that there is no simple ordering of $\\mathcal{P}(\\mathcal{P}(\\omega))$. Since the Axiom of Constructibility implies the Generalized Continuum Hypothesis,$^{3}$ and the latter implies the Axiom of Choice,$^{5}$ Theorem 1 completely settles the question of the relative strength of these axioms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10344827586206896,
+            0.7975708502024291,
+            0.8438133874239351,
+            0.8785425101214575
+          ],
+          "content": "Before giving details, we sketch the intuitive ideas involved. The starting point is the realization $^{1,4}$ that no formula $\\mathfrak{a}(x)$ can be shown from the axioms of Z-F to have the property that the collection of all x satisfying it form a model for Z-F in which the Axiom of Constructibility $(V = L,^{3})$ fails. Thus, to find such models, it seems natural to strengthen Z-F by postulating the existence of a set which is a"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.43724696356275305,
+            0.032454361054766734,
+            0.9311740890688259
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1075050709939148,
+            0.08097165991902834,
+            0.21703853955375255,
+            0.09581646423751687
+          ],
+          "content": "Vol. 50, 1963"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.33874239350912777,
+            0.08097165991902834,
+            0.6125760649087221,
+            0.09581646423751687
+          ],
+          "content": "MATHEMATICS: P. J. COHEN"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8762677484787018,
+            0.033738191632928474,
+            0.9371196754563894,
+            0.07557354925775979
+          ],
+          "content": "Check for updates"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8052738336713996,
+            0.08232118758434548,
+            0.847870182555781,
+            0.09581646423751687
+          ],
+          "content": "1143"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.15821501014198783,
+            0.11740890688259109,
+            0.9006085192697769,
+            0.4426450742240216
+          ],
+          "content": "model for Z-F, thus giving us greater flexibility in constructing new models. (In the next paper we discuss how the question of independence, as distinct from that of models, can be handled entirely within Z-F.) The Löwenheim-Skolem theorem yields the existence of a countable model M. Let  $N_{1}, N_{2}$ , etc., denote the corresponding cardinals in M. Since M is countable, there exist distinct sets  $a_{\\delta} \\subseteq \\omega$ ,  $0 \\leq \\delta \\leq N_{2}$ . Put  $V = \\{\\langle a_{\\delta}, a_{\\delta'} \\rangle | \\delta < \\delta' \\}$ . We form the model N “generated” from M,  $a_{\\delta}$ , and V and hope to prove that in N the continuum has cardinality at least  $N_{2}$ . Of course, N will contain many new sets and, if the  $a_{\\delta}$  are chosen indiscriminately, the set  $N_{2}$  (in M) may become countable in N. Rather than determine the  $a_{\\delta}$  directly, we first list all the countably many possible propositions concerning them and decide in advance which are to be true. Only those properties which are true in a “uniform” manner for “generic” subsets of  $\\omega$  in M shall be true for the  $a_{\\delta}$  in N. For example, each  $a_{\\delta}$  contains infinitely many primes, has no asymptotic density, etc. If the  $a_{\\delta}$  are chosen in such a manner, no new information will be extracted from them in N which was not already contained in M, so that, e.g.,  $N_{2}$  will remain the second uncountable cardinal. The primitive conditions  $n \\in a_{\\delta}$  are neither generically true nor false, and hence must be treated separately. Only when given a finite set of such conditions will we be able to speak of properties possibly being forced to hold for “generic” sets. The precise definition of forcing will be given in Definition 6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.4426450742240216,
+            0.9006085192697769,
+            0.5560053981106613
+          ],
+          "content": "From now on, let $\\mathfrak{M}$ be a fixed countable model for Z-F, satisfying $V = L$, such that $x \\in \\mathfrak{M}$ implies $x \\subset \\mathfrak{M}$. If $\\mathfrak{M}'$ is a countable model without this property, define $\\Psi$ by transfinite induction on the rank of $x$, so that $\\Psi(x) = \\{y | \\exists z \\in \\mathfrak{M}', z \\in x, \\Psi(z) = y\\}$; the image $\\mathfrak{M}$ of $\\mathfrak{M}'$ under $\\Psi$ is isomorphic to $\\mathfrak{M}'$ with respect to $\\epsilon$ and satisfies our requirement. Thus, the ordinals in $\\mathfrak{M}$ are truly ordinals. Let $\\tau > 1$ be a fixed ordinal in $\\mathfrak{M}$, $\\aleph_{\\tau}$ the corresponding cardinal in $\\mathfrak{M}$, and let $a_{\\delta}, 0 \\leq \\delta < \\aleph_{\\tau}$ be subsets of $\\omega$, not necessarily in $\\mathfrak{M}$, $V = \\{\\langle a_{\\delta}, a_{\\delta'} \\rangle | \\delta < \\delta'\\}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.5560053981106613,
+            0.9006085192697769,
+            0.5883940620782726
+          ],
+          "content": "LEMMA 1. There exist unique functions $j$, $K_{1}$, $K_{2}$, $N$, from ordinals to ordinals definable in $\\mathfrak{M}$ such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.5897435897435898,
+            0.9026369168356998,
+            0.6531713900134952
+          ],
+          "content": "(1) $j(\\alpha + 1) > j(\\alpha)$ and for all $\\beta$ such that $j(\\alpha) + 1 < \\beta < j(\\alpha + 1)$ the map $\\beta \\to (N(\\beta), K_1(\\beta), K_2(\\beta))$ is a 1-1 correspondence between all such $\\beta$, and the set of all triples $(i, \\gamma, \\delta)$, $1 \\leq i \\leq 8$, $\\gamma < j(\\alpha)$, $\\delta < j(\\alpha)$. Furthermore, this map is order-preserving if the triples are given the natural ordering $S$ (Ref. 3, p. 36)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18661257606490872,
+            0.6531713900134952,
+            0.7931034482758621,
+            0.6707152496626181
+          ],
+          "content": "(2) $j(0) = 3\\aleph_{\\tau} + 1, j(\\alpha) = \\sup \\{j(\\beta) | \\beta < \\alpha\\}$ if $\\alpha$ is a limit ordinal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18661257606490872,
+            0.6707152496626181,
+            0.7342799188640974,
+            0.6869095816464238
+          ],
+          "content": "(3) $N(j(\\alpha)) = 0, N(j(\\alpha) + 1) = 9, K_i = 0$ for these values."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18661257606490872,
+            0.6869095816464238,
+            0.5253549695740365,
+            0.7017543859649122
+          ],
+          "content": "(4) $N(\\alpha), K_i(\\alpha)$ are zero if $\\alpha \\leq 3\\aleph_r$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1643002028397566,
+            0.7017543859649122,
+            0.9026369168356998,
+            0.7341430499325237
+          ],
+          "content": "(5) If $\\beta$ is as above, and $N(\\beta) = i$, put $J(i, K_1(\\beta), K_2(\\beta), j(\\alpha)) = \\beta$. Also put $I(\\beta) = j(\\alpha)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1845841784989858,
+            0.7327935222672065,
+            0.9026369168356998,
+            0.766531713900135
+          ],
+          "content": "Definition 1: For $\\alpha$ an ordinal in $\\mathfrak{M}$, define $F_{\\alpha}$ by means of induction as follows: (1) $F_{\\alpha} = \\alpha$ if $\\alpha \\leq \\omega$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1663286004056795,
+            0.766531713900135,
+            0.9026369168356998,
+            0.8137651821862348
+          ],
+          "content": "(2) For $\\omega < \\alpha < 3\\aleph_r$, let $F_{\\alpha}$ successively enumerate $a_{\\delta}$, the unordered pairs $(a_{\\delta}, a_{\\delta'})$ and the ordered pairs $\\langle a_{\\delta}, a_{\\delta'} \\rangle$ in any standard manner (e.g., the ordering $R$ on pairs of ordinals def. 7.81$^3$)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18661257606490872,
+            0.8137651821862348,
+            0.44016227180527384,
+            0.8299595141700404
+          ],
+          "content": "(3) For $\\alpha = 3\\aleph_{\\tau}, F_{\\alpha} = V$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18864097363083165,
+            0.8299595141700404,
+            0.5882352941176471,
+            0.8461538461538461
+          ],
+          "content": "(4) For $\\alpha > 3\\aleph_{\\tau}$, if $K_{1}(\\alpha) = \\beta$, $K_{2}(\\alpha) = \\gamma$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35699797160243407,
+            0.8434547908232118,
+            0.6551724137931034,
+            0.8623481781376519
+          ],
+          "content": "\\text { if } N (\\alpha) = 0, F _ {\\alpha} = \\left\\{F _ {\\alpha^ {\\prime}} \\mid \\alpha^ {\\prime} <   \\alpha \\right\\}",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35699797160243407,
+            0.8623481781376519,
+            0.7119675456389453,
+            0.8798920377867746
+          ],
+          "content": "\\text { if   } 1 \\leq i = N (\\alpha) \\leq 8, F _ {\\alpha} = \\mathfrak {F} _ {i} (F _ {\\beta}, F _ {\\gamma})",
+          "image_source": "images/page_1_equation_13.jpg"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.4358974358974359,
+            0.032454361054766734,
+            0.9311740890688259
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16227180527383367,
+            0.08502024291497975,
+            0.2028397565922921,
+            0.09716599190283401
+          ],
+          "content": "1144"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.39148073022312374,
+            0.08367071524966262,
+            0.665314401622718,
+            0.09851551956815115
+          ],
+          "content": "MATHEMATICS: P. J. COHEN"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7809330628803245,
+            0.08367071524966262,
+            0.896551724137931,
+            0.09851551956815115
+          ],
+          "content": "Proc. N. A. S."
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12981744421906694,
+            0.11740890688259109,
+            0.5152129817444219,
+            0.1349527665317139
+          ],
+          "content": "where $\\mathfrak{F}_i$ are defined as follows (Def. 9.1):"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3022312373225152,
+            0.15654520917678813,
+            0.6957403651115619,
+            0.2901484480431849
+          ],
+          "content": "\\begin{array}{l} \\mathfrak {F} _ {1} (x, y) = \\{x, y \\} \\\\ \\mathfrak {F} _ {2} (x, y) = \\{\\langle s, t \\rangle | s \\in t, \\langle s, t \\rangle \\in x \\} \\\\ \\mathfrak {F} _ {3} (x, y) = x - y \\\\ \\mathfrak {F} _ {4} (x, y) = \\{\\langle s, t \\rangle | \\langle s, t \\rangle \\in x, t \\in y \\} \\\\ \\mathfrak {F} _ {5} (x, y) = \\{s | s \\in x, \\exists t \\langle t, s \\rangle \\in y \\} \\\\ \\mathfrak {F} _ {6} (x, y) = \\{\\langle s, t \\rangle | \\langle s, t \\rangle \\in x, \\langle t, s \\rangle \\in y \\} \\\\ \\mathfrak {F} _ {7} (x, y) = \\{\\langle r, s, t \\rangle | \\langle r, s, t \\rangle \\in x, \\langle t, r, s \\rangle \\in y \\} \\\\ \\mathfrak {F} _ {8} (x, y) = \\{\\langle r, s, t \\rangle | \\langle r, s, t \\rangle \\in x, \\langle r, t, s \\rangle \\in y \\} \\end{array}",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.31039136302294196,
+            0.8661257606490872,
+            0.37786774628879893
+          ],
+          "content": "if $N(\\alpha) = 9$, $F_{\\alpha} = \\{F_{\\alpha'} | \\alpha' < \\alpha, N(\\alpha') = 9\\}$. We also define $T_{\\alpha} = \\{F_{\\beta} | \\beta < \\alpha\\}$. We have introduced the case $N = 9$ for the convenience of later arguments. It ensures that the ordinals in $\\mathfrak{M}$ are listed among the $F_{\\alpha}$ in a canonical manner. Observe that since $V = L$ holds in $\\mathfrak{M}$, it is not difficult to see that this implies $\\mathfrak{M} \\subseteq \\mathfrak{N}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.37786774628879893,
+            0.8661257606490872,
+            0.47368421052631576
+          ],
+          "content": "Denote by $\\mathfrak{N}$, the set of all $F_{\\alpha}$ for $\\alpha \\in \\mathfrak{M}$. Note that in $\\mathfrak{N}$ each $F_{\\alpha}$ is a collection of preceding $F_{\\beta}$. We shall often write $\\alpha$ in place of $F_{\\alpha}$ if $\\alpha \\leq \\omega$, and $a_{\\delta}$ in place of $F_{\\delta + \\omega + 1}$, etc., if there is no danger of confusion. If $N(\\alpha) = 9$, then the set $F_{\\alpha}$ is defined independently of $a_{\\delta}$. We shall now examine statements concerning $F_{\\alpha}$ before the $a_{\\delta}$ are actually determined, and thus the $F_{\\alpha}$ for a while shall be considered as merely formal symbols."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.47368421052631576,
+            0.8661257606490872,
+            0.5074224021592443
+          ],
+          "content": "Definition 2: (1) $x \\in y$, $x \\in F_{\\alpha}$, $F_{\\alpha} \\in x$, $F_{\\alpha} \\in F_{\\beta}$ are formulas; (2) if $\\varphi$ and $\\psi$ are formulas, so are $\\neg \\varphi$ and $\\varphi \\& \\psi$; and (3) only (1) and (2) define formulas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.5074224021592443,
+            0.8661257606490872,
+            0.5708502024291497
+          ],
+          "content": "Definition 3: A Limited Statement is a formula $\\mathfrak{a}(x_1, \\ldots, x_n)$ in which all variables are bound by a universal quantifier $(x_i)_\\alpha$ or an existential quantifier $\\exists_{\\alpha} x_i$ placed in front of it, where $\\alpha$ is an ordinal in $\\mathfrak{M}$. An Unlimited Statement is the same except that no ordinals are attached to the quantifiers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.5708502024291497,
+            0.8661257606490872,
+            0.6531713900134952
+          ],
+          "content": "Our intention is that the variable x in  $(x)_{\\alpha}$  or  $\\exists_{\\alpha}x$  is restricted to range over all  $F_{\\beta}$  with  $\\beta < \\alpha$ . The symbol = is not used since by means of the Axiom of Extensionality it can be avoided. We only consider statements in prenex form. Since it is clear how to reduce negations, conjunctions, etc., of such statements to prenex form, we shall not do so if there is no risk of confusion."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1257606490872211,
+            0.6518218623481782,
+            0.8661257606490872,
+            0.717948717948718
+          ],
+          "content": "Definition 4: The rank of a limited statement $\\mathfrak{a}$ is $(\\alpha, r)$ if $r$ is the number of quantifiers and $\\alpha$ is the least ordinal such that for all $\\beta, \\beta < \\alpha$ if $F_{\\beta}$ occurs in $\\mathfrak{a}$, and $\\beta \\leq \\alpha$ if $(x)_{\\beta}$ or $\\exists_{\\beta} x$ occurs in $\\mathfrak{a}$. We write $(\\alpha, r) < (\\beta, s)$ if $\\alpha < \\beta$ or $\\alpha = \\beta$ and $r < s$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14807302231237324,
+            0.7165991902834008,
+            0.6815415821501014,
+            0.7341430499325237
+          ],
+          "content": "Thus, if $\\operatorname{rank} \\mathfrak{a} = (\\alpha, r)$, $\\mathfrak{a}$ can be formulated in $\\{F_{\\beta} | \\beta < \\alpha\\}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.7341430499325237,
+            0.8661257606490872,
+            0.766531713900135
+          ],
+          "content": "Definition 5: Let $P$ denote a finite set of conditions of the form $n \\in a_{\\delta}$ or $\\neg n \\in a_{\\delta}$ such that no condition and its negation are both included."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1257606490872211,
+            0.766531713900135,
+            0.8661257606490872,
+            0.8798920377867746
+          ],
+          "content": "In the following definition, which is the key point of the paper, we shall define a certain concept for all limited statements by means of transfinite induction. The well-ordering we use is not, however, precisely the corresponding ordering of the ranks, but requires a slight modification. We say $\\mathfrak{a}$ is of type $\\mathfrak{R}$, if $\\operatorname{rank} \\mathfrak{a} = (\\alpha + 1, r)$, $(x)_{\\alpha + 1}$ and $\\exists_{\\alpha + 1} x$ do not occur in $\\mathfrak{a}$, and no expression of the form $F_{\\alpha} \\epsilon(\\cdot)$ occurs in $\\mathfrak{a}$. We order the limited statements by saying, if $\\operatorname{rank} \\mathfrak{a} = (\\alpha, r)$ and $\\operatorname{rank} \\mathfrak{b} = (\\beta, s)$, $\\mathfrak{a}$ precedes $\\mathfrak{b}$ if and only if $\\operatorname{rank} \\mathfrak{a} < \\operatorname{rank} \\mathfrak{b}$, unless $\\alpha = \\beta$ and one of"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.4358974358974359,
+            0.032454361054766734,
+            0.9325236167341431
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.13184584178498987,
+            0.08367071524966262,
+            0.23935091277890466,
+            0.09851551956815115
+          ],
+          "content": "Vol. 50, 1963"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.36105476673427994,
+            0.08367071524966262,
+            0.6369168356997972,
+            0.09851551956815115
+          ],
+          "content": "MATHEMATICS: P. J. COHEN"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8275862068965517,
+            0.08502024291497975,
+            0.8681541582150102,
+            0.09716599190283401
+          ],
+          "content": "1145"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.11470985155195682,
+            0.8782961460446247,
+            0.145748987854251
+          ],
+          "content": "the two statements a, b is of type R and the other is not of type R, in which case the former precedes the latter."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.14709851551956815,
+            0.8762677484787018,
+            0.19568151147098514
+          ],
+          "content": "Definition 6: By induction, we define the concept of “P forces a” as follows:\nI. If r > 0, P forces  $\\mathfrak{a} = (x)_{\\alpha}\\mathfrak{b}(x)$  if for all  $P' \\supset P$ ,  $P'$  does not force  $\\neg\\mathfrak{b}(F_{\\beta})$  for  $\\beta < \\alpha$ . P forces  $\\exists_{\\alpha}x\\mathfrak{b}(x)$  if for some  $\\beta < \\alpha$ , P forces  $\\mathfrak{b}(F_{\\beta})$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.19568151147098514,
+            0.8782961460446247,
+            0.26045883940620784
+          ],
+          "content": "II. If r = 0, and a has propositional connectives, P forces a if for each component  $F_{\\alpha} \\in F_{\\beta}$  or  $\\neg F_{\\alpha} \\in F_{\\beta}$  appearing in a, these, by case III of this definition, are forced to be true or their negations are forced to be true so that in the usual sense of the propositional calculus a is true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15821501014198783,
+            0.26045883940620784,
+            0.8356997971602435,
+            0.27800269905533065
+          ],
+          "content": "III. If $\\mathfrak{a}$ is of the form $F_{\\alpha} \\in F_{\\beta}$ or $\\neg F_{\\alpha} \\in F_{\\beta}$, we define $P$ forces $\\mathfrak{a}$ as follows:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.2766531713900135,
+            0.8782961460446247,
+            0.3252361673414305
+          ],
+          "content": "(i) If $\\alpha, \\beta \\leq 3\\aleph_r$, then $\\mathfrak{a}$ must hold as a formal consequence of $P$, i.e., $P$ forces $\\mathfrak{a}$, if $\\mathfrak{a}$ is true whenever $a_{\\delta}$ are distinct subsets of $\\omega$, satisfying $P$, different from any integer and $\\omega$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16024340770791076,
+            0.3252361673414305,
+            0.45841784989858014,
+            0.34143049932523617
+          ],
+          "content": "(ii) $\\neg F_{\\alpha} \\in F_{\\alpha}$ is always forced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.34143049932523617,
+            0.8782961460446247,
+            0.3913630229419703
+          ],
+          "content": "(iii) If $\\alpha < \\beta, N(\\beta) = i < 9, \\beta > 3\\aleph_r$, $P$ forces $\\mathfrak{a}$, where $\\mathfrak{a} \\equiv F_{\\alpha} \\in F_{\\beta}$ or $\\neg F_{\\alpha} \\in F_{\\beta}$, if $P$ forces $\\psi_i$ or $\\neg \\psi_i$, respectively, where $\\psi_i$ is the limited statement expressing the definition of $F_{\\beta}$. That is, if $K_1(\\beta) = \\gamma$, $K_2(\\beta) = \\delta$:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16024340770791076,
+            0.3913630229419703,
+            0.5273833671399595,
+            0.407557354925776
+          ],
+          "content": "(0) $\\psi_0$ is vacuous and always forced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16024340770791076,
+            0.407557354925776,
+            0.46247464503042596,
+            0.42375168690958165
+          ],
+          "content": "(1) $\\psi_{1} \\equiv F_{\\alpha} = F_{\\gamma} \\vee F_{\\alpha} = F_{\\delta}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16024340770791076,
+            0.42375168690958165,
+            0.6206896551724138,
+            0.4399460188933873
+          ],
+          "content": "(2) $\\psi_{2} \\equiv \\exists_{\\beta} x \\exists_{\\beta} y (F_{\\alpha} = \\langle x, y \\rangle \\& x \\in y \\& F_{\\alpha} \\in F_{\\gamma}).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.4399460188933873,
+            0.4543610547667343,
+            0.45614035087719296
+          ],
+          "content": "(3) $\\psi_{3} \\equiv F_{\\alpha} \\in F_{\\gamma} \\& \\neg F_{\\alpha} \\in F_{\\delta}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.45614035087719296,
+            0.6288032454361054,
+            0.47368421052631576
+          ],
+          "content": "(4) $\\psi_{4} \\equiv \\exists_{\\beta} x \\exists_{\\beta} y (F_{\\alpha} = \\langle x, y \\rangle \\& F_{\\alpha} \\in F_{\\gamma} \\& y \\in F_{\\delta}).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.47368421052631576,
+            0.5111561866125761,
+            0.4898785425101215
+          ],
+          "content": "(5) $\\psi_{5} \\equiv \\exists_{\\beta} x (F_{\\alpha} \\in F_{\\gamma} \\& \\langle x, F_{\\alpha} \\rangle \\in F_{\\delta}).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.4898785425101215,
+            0.3630831643002028,
+            0.50472334682861
+          ],
+          "content": "(6), (7), (8), similarly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.50472334682861,
+            0.8762677484787018,
+            0.5371120107962213
+          ],
+          "content": "Here the use of ordered pairs must eventually be replaced by their definition, and the use of equality in $x = y$ is replaced by $(z)_{\\beta}(z \\in x \\Longleftrightarrow z \\in y)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.5371120107962213,
+            0.8762677484787018,
+            0.5856950067476383
+          ],
+          "content": "(iv) If $\\alpha < \\beta$, $N(\\beta) = 9$, $\\beta > 3\\aleph_r$, $P$ forces $\\mathfrak{a} \\equiv F_{\\alpha} \\in F_{\\beta}$ if for some $\\beta' < \\beta$, $N(\\beta') = 9$, $P$ forces $F_{\\alpha} = F_{\\beta'}$. $P$ forces $\\neg F_{\\alpha} \\in F_{\\beta}$, if for all $\\beta' < \\beta$, $N(\\beta') = 9$ and all $P' \\supset P$, $P'$ does not force $F_{\\alpha} = F_{\\beta'}$. Again the symbol = is treated as before."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.5856950067476383,
+            0.8782961460446247,
+            0.6666666666666666
+          ],
+          "content": "(v) If $\\alpha > \\beta$, we reduce the case $F_{\\alpha} \\in F_{\\beta}$ to cases (iii) and (iv) treated above. We say $P$ forces $F_{\\alpha} \\in F_{\\beta}$ if for some $\\beta' < \\beta$, $P$ forces $F_{\\beta'} \\in F_{\\beta}$ and $P$ forces $F_{\\alpha} = F_{\\beta'}$ (i.e., $(x)_{\\alpha}(x \\in F_{\\alpha} \\Longleftrightarrow x \\in F_{\\beta'})$ which is a statement of type $\\mathfrak{R}$ and hence precedes $F_{\\alpha} \\in F_{\\beta}$). We say $P$ forces $\\neg F_{\\alpha} \\in F_{\\beta}$ if for all $\\beta' < \\beta$ and $P' \\supset P$, $P'$ does not force both $F_{\\beta'} \\in F_{\\beta}$ and $F_{\\beta'} = F_{\\alpha}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.6666666666666666,
+            0.8782961460446247,
+            0.699055330634278
+          ],
+          "content": "The most important part of Definition 6 is I, the other parts are merely obvious derivatives of it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.699055330634278,
+            0.8782961460446247,
+            0.7638326585695007
+          ],
+          "content": "Definition 7: If a is an unlimited statement with r quantifiers, we define “P forces a” by induction on r. If r = 0, then a is a limited statement. If  $\\mathfrak{a} \\equiv (x) \\mathfrak{b}(x)$ , P forces a, if for all  $P' \\supset P$ , and  $\\alpha$ ,  $P'$  does not force  $\\neg \\mathfrak{b}(F_{\\alpha})$ . If  $\\mathfrak{a} \\equiv \\exists x \\mathfrak{b}(x)$ , P forces a if for some  $\\alpha$ , P forces  $\\mathfrak{b}(F_{\\alpha})$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.7638326585695007,
+            0.8782961460446247,
+            0.7948717948717948
+          ],
+          "content": "In the proofs of Lemmas 2, 3, 4, and 5, we keep the same well-ordering on limited statements as in Definition 6, and proceed by induction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16227180527383367,
+            0.7948717948717948,
+            0.6450304259634888,
+            0.8110661268556005
+          ],
+          "content": "LEMMA 2. $P$ does not force $\\mathfrak{a}$ and $\\neg \\mathfrak{a}$, for any $\\mathfrak{a}$ and $P$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.8110661268556005,
+            0.8803245436105477,
+            0.8771929824561403
+          ],
+          "content": "Proof: Let $\\mathfrak{a}$ be a limited statement with $r$ quantifiers. If $r > 0$, and $P$ forces both $\\exists_{\\alpha}x\\mathfrak{b}(x)$ and $(x)_{\\alpha}\\neg \\mathfrak{b}(x)$, then $P$ must force $\\mathfrak{b}(F_{\\beta})$ for $\\beta < \\alpha$ which means $P$ cannot force $(x)_{\\alpha}\\neg \\mathfrak{b}(x)$. Case II of Definition 6 will clearly follow from case III. Parts (i) and (ii) are trivial. If $\\mathfrak{a}$ is in part (iii), then $P$ forces $\\mathfrak{a}$ if and only if $P$"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.4358974358974359,
+            0.032454361054766734,
+            0.9325236167341431
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.14198782961460446,
+            0.08097165991902834,
+            0.18255578093306288,
+            0.09446693657219973
+          ],
+          "content": "1146"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3711967545638945,
+            0.08097165991902834,
+            0.6470588235294118,
+            0.09581646423751687
+          ],
+          "content": "MATHEMATICS: P. J. COHEN"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7606490872210954,
+            0.08367071524966262,
+            0.8762677484787018,
+            0.09716599190283401
+          ],
+          "content": "Proc. N. A. S."
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12170385395537525,
+            0.11875843454790823,
+            0.8600405679513184,
+            0.21727395411605938
+          ],
+          "content": "forces a statement of lower rank and in this case the lemma follows by induction. In part (iv), if $P$ forces $F_{\\alpha} \\in F_{\\beta}$, then for some $\\beta' < \\beta$, $N(\\beta') = 9$, and $P$ forces $F_{\\alpha} = F_{\\beta'}$ which means $P$ can not force $\\neg F_{\\alpha} \\in F_{\\beta}$. In part (v) if $P$ forces $F_{\\alpha} \\in F_{\\beta}$, for some $\\beta' < \\beta$, $P$ forces $F_{\\beta'} \\in F_{\\beta}$ and $F_{\\alpha} = F_{\\beta'}$ which again violates $P$ forcing $\\neg F_{\\alpha} \\in F_{\\beta}$. If $\\mathfrak{a}$ is an unlimited statement, the lemma follows in the same manner by induction on the number of quantifiers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.21862348178137653,
+            0.6166328600405679,
+            0.23481781376518218
+          ],
+          "content": "LEMMA 3. If $P$ forces $\\mathfrak{a}$ and $P' \\supset P$, then $P'$ forces $\\mathfrak{a}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.23616734143049933,
+            0.45841784989858014,
+            0.252361673414305
+          ],
+          "content": "Proof by induction as in Lemma 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12170385395537525,
+            0.25371120107962214,
+            0.8600405679513184,
+            0.2874493927125506
+          ],
+          "content": "LEMMA 4. For any statement $\\mathfrak{a}$ and condition $P$, there is $P' \\supset P$ such that either $P'$ forces $\\mathfrak{a}$ or $P'$ forces $\\neg \\mathfrak{a}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12373225152129817,
+            0.2874493927125506,
+            0.8620689655172413,
+            0.4669365721997301
+          ],
+          "content": "Proof: Let $\\mathfrak{a}$ be a limited statement with $r$ quantifiers. If $r > 0$ and $P$ does not force $\\mathfrak{a} \\equiv (x)_{\\alpha} \\mathfrak{b}(x)$, then for some $P' \\supset P$, $P'$ forces $\\neg \\mathfrak{b}(F_{\\beta})$, $\\beta < \\alpha$, which means $P'$ forces $\\neg \\mathfrak{a}$. If $r = 0$, we may restrict ourselves to III, for if we enumerate the components of $\\mathfrak{a}$, by defining a finite sequence $P_n$, $P_0 = P$ and $P_{n+1} \\supset P_n$ we may successively force each component or its negation so that finally either $\\mathfrak{a}$ or $\\neg \\mathfrak{a}$ is forced. Again, cases (i) and (ii) are trivially disposed of. Case (iii) is handled by induction as before. If $\\mathfrak{a} \\equiv F_{\\alpha} \\in F_{\\beta}$ is in case (iv) then if $P$ does not force $\\neg \\mathfrak{a}$, for some $P' \\supset P$ and $\\beta' < \\beta$, $N(\\beta') = 9$, $P'$ forces $F_{\\alpha} = F_{\\beta'}$ so $P'$ forces $\\mathfrak{a}$. If $\\mathfrak{a} \\equiv F_{\\alpha} \\in F_{\\beta}$ is in case (v) if $P$ does not force $\\neg \\mathfrak{a}$, then for some $P' \\supset P$, $\\beta' < \\beta$, $P'$ forces $F_{\\beta'} \\in F_{\\beta}$ and $F_{\\beta'} = F_{\\alpha'}$ hence $P'$ forces $\\mathfrak{a}$. Unlimited statements are handled as before."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12373225152129817,
+            0.4669365721997301,
+            0.8620689655172413,
+            0.5506072874493927
+          ],
+          "content": "Definition 8: Enumerate all statements $\\mathfrak{a}_n$, both limited and unlimited, and all ordinals $\\alpha_n$ in $\\mathfrak{M}$. Define $P_{2n}$ as the first extension of $P_{2n-1}$ which forces either $\\mathfrak{a}_n$ or $\\neg \\mathfrak{a}_n$. Define $P_{2n+1}$ as the first extension of $P_{2n}$ which has the property that it forces $F_\\beta \\in F_{\\alpha_n}$ where $\\beta$ is the least possible ordinal for which there exists such an extension of $P_{2n}$, whereas if no such $\\beta$ exists, put $P_{2n+1} = P_{2n}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1257606490872211,
+            0.5519568151147098,
+            0.8620689655172413,
+            0.601889338731444
+          ],
+          "content": "The sequence  $P_{n}$  is not definable in M. Since all statements of the form  $n \\in a_{\\delta}$  are enumerated,  $P_{n}$  clearly approach in an obvious sense, sets  $a_{\\delta}$  of integers. With this choice of  $a_{\\delta}$, let N be defined as the set of all  $F_{\\alpha}$  defined by Definition 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.6032388663967612,
+            0.8620689655172413,
+            0.6369770580296896
+          ],
+          "content": "LEMMA 5. All statements in $\\mathfrak{N}$ which are forced by some $P_{n}$ are true in $\\mathfrak{N}$ and conversely."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.6369770580296896,
+            0.8640973630831643,
+            0.8488529014844804
+          ],
+          "content": "Proof: Let $\\mathfrak{a}$ be a limited statement with $r$ quantifiers. If $r > 0$, then if $P_{n}$ forces $(x)_{\\alpha} \\mathfrak{b}(x)$, if $\\beta < \\alpha$, then some $P_{m}$ must force $\\mathfrak{b}(F_{\\beta})$ since no $P_{m}$ can force $\\neg \\mathfrak{b}(F_{\\beta})$. By induction we have that $\\mathfrak{b}(F_{\\beta})$ holds, so that $(x)_{\\alpha} \\mathfrak{b}(x)$ holds in $\\mathfrak{N}$. If $P_{n}$ forces $\\exists_{\\alpha} x \\mathfrak{b}(x)$, for some $\\beta < \\alpha$, $P_{n}$ forces $\\mathfrak{b}(F_{\\beta})$ so by induction $\\mathfrak{b}(F_{\\beta})$ holds and hence $\\exists_{\\alpha} x \\mathfrak{b}(x)$ holds in $\\mathfrak{N}$. Case II will clearly follow from case III and (i) and (ii) are trivial. If $\\mathfrak{a}$ is $F_{\\alpha} \\in F_{\\beta}$ or $\\neg F_{\\alpha} \\in F_{\\beta}$ in case (iii) then if $P_{n}$ forces $\\mathfrak{a}, P_{n}$ forces precisely the statement which because of the definition of $F_{\\beta}$ is equivalent to $\\mathfrak{a}$. In case (iv) if $P_{n}$ forces $F_{\\alpha} \\in F_{\\beta}$, for some $\\beta' < \\beta$, $N(\\beta') = 9$, $P_{n}$ forces $F_{\\beta'} = F_{\\alpha}$, which therefore holds by induction in $\\mathfrak{N}$. If $P_{n}$ forces $\\neg F_{\\alpha} \\in F_{\\beta}$, then for each $\\beta' < \\beta$, $N(\\beta') = 9$, $F_{\\alpha} = F_{\\beta'}$ is not forced by any $P_{m}$ so some $P_{m}$ must force $F_{\\alpha} \\neq F_{\\beta'}$ which proves $\\neg F_{\\alpha} \\in F_{\\beta}$ holds in $\\mathfrak{N}$. Similarly for case (v) and for unlimited statements. Since every statement or its negation is forced eventually, the converse is also true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12778904665314403,
+            0.8475033738191633,
+            0.8661257606490872,
+            0.8825910931174089
+          ],
+          "content": "Lemma 5 is the justification of the definition of forcing since we can now throw back questions about N to questions about forcing which can be formulated in M."
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.4358974358974359,
+            0.032454361054766734,
+            0.9311740890688259
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.12373225152129817,
+            0.08771929824561403,
+            0.2332657200811359,
+            0.10121457489878542
+          ],
+          "content": "Vol. 50, 1963"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.35496957403651114,
+            0.08636977058029689,
+            0.6308316430020284,
+            0.10121457489878542
+          ],
+          "content": "MATHEMATICS: P. J. COHEN"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.821501014198783,
+            0.08771929824561403,
+            0.8600405679513184,
+            0.09986504723346828
+          ],
+          "content": "1147"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.12550607287449392,
+            0.8782961460446247,
+            0.15789473684210525
+          ],
+          "content": "In the next paper, we shall prove that N is a model for Z-F in which part 3 of Theorem 1 holds."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15618661257606492,
+            0.16464237516869096,
+            0.59026369168357,
+            0.1794871794871795
+          ],
+          "content": "\\* The author is a fellow of the Alfred P. Sloan Foundation."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15415821501014199,
+            0.1794871794871795,
+            0.8519269776876268,
+            0.19298245614035087
+          ],
+          "content": "$^{1}$  Cohen, P. J., “A minimal model for set theory,” Bull. Amer. Math. Soc., 69, 537–540 (1963)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15618661257606492,
+            0.19298245614035087,
+            0.6592292089249493,
+            0.20647773279352227
+          ],
+          "content": "$^{2}$  Fraenkel, A., and Y. Bar-Hillel, Foundations of Set Theory (1958)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15618661257606492,
+            0.20512820512820512,
+            0.8438133874239351,
+            0.21997300944669365
+          ],
+          "content": "$^{3}$  Gödel, K., The Consistency of the Continuum Hypothesis (Princeton University Press, 1940)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15618661257606492,
+            0.21997300944669365,
+            0.8073022312373225,
+            0.23346828609986506
+          ],
+          "content": "$^{4}$  Shepherdson, J. C., “Inner models for set theory,” J. Symb. Logic, 17, 225–237 (1957)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14198782961460446,
+            0.23346828609986506,
+            0.8782961460446247,
+            0.26045883940620784
+          ],
+          "content": "$^{5}$  Sierpinski, W., “L’hypothèse généralisée du continu et l’axiome du choix,” Fund. Math., 341-5 (1947)"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.18661257606490872,
+            0.31039136302294196,
+            0.8296146044624746,
+            0.3427800269905533
+          ],
+          "level": 1,
+          "content": "A SPECIFIC COMPLEMENT-FIXING ANTIGEN PRESENT IN SV40 TUMOR AND TRANSFORMED CELLS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20892494929006086,
+            0.3522267206477733,
+            0.8093306288032455,
+            0.38596491228070173
+          ],
+          "content": "BY PAUL H. BLACK, WALLACE P. ROWE, HORACE C. TURNER, AND ROBERT J. HUEBNER"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14807302231237324,
+            0.3940620782726046,
+            0.8701825557809331,
+            0.4089068825910931
+          ],
+          "content": "LABORATORY OF INFECTIOUS DISEASES, NATIONAL INSTITUTES OF HEALTH, BETHESDA, MARYLAND"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3935091277890467,
+            0.4143049932523617,
+            0.6267748478701826,
+            0.4291497975708502
+          ],
+          "content": "Communicated October 4, 1963"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.4358974358974359,
+            0.8803245436105477,
+            0.5182186234817814
+          ],
+          "content": "Many experimental tumors, both carcinogen-induced $^{1}$ and virus-induced, $^{2-5}$ contain new cellular antigens, generally demonstrable by transplant rejection procedures. Huebner et al. $^{6}$ first demonstrated the presence of new, noninfectious, complement-fixing (CF) antigens clearly under viral genetic control, in adenovirus-induced tumors in hamsters and rats."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13793103448275862,
+            0.5182186234817814,
+            0.8823529411764706,
+            0.6005398110661269
+          ],
+          "content": "A new transplantation antigen(s) has been found in SV40-induced hamster tumors, $^{7-9}$ but it is not established whether its synthesis is under viral or host cell genetic control. This paper presents evidence for a new CF antigen in SV40 tumors and transformed tissue culture cells, formed from information contained within the viral genome. Preliminary results of these studies were presented by Huebner et al. $^{6}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.6032388663967612,
+            0.8823529411764706,
+            0.7125506072874493
+          ],
+          "content": "Materials and Methods.—The CF procedure was identical with that used by Huebner et al.; this is a Bengtson procedure done in microplates using overnight fixation at 4°C, with two exact units of complement. Tumor extracts consisted of 10% suspensions in Eagle's basal medium, clarified by centrifugation at 2500 rpm for 30 min, and stored at -60°C. The extracts were tested for antigens only if the undiluted extract was not anticomplementary (AC). The primary SV40-induced hamster tumors used in these studies are from experiments described in detail elsewhere. $^{10}$  Tumor extracts used as standard CF antigens were selected for having high titer reactivity with sera from tumorous hamsters."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13995943204868155,
+            0.7112010796221323,
+            0.8803245436105477,
+            0.7786774628879892
+          ],
+          "content": "Suspensions of both normal and transformed tissue culture cells of various species, $^{[11]}$ as well as tissue culture cells from a variety of hamster tumors, were prepared in the following manner. Cells grown in 32-oz Blake bottles were washed with phosphate-buffered saline (PBS) (pH 7.2), scraped off the glass with a rubber policeman, centrifuged at 150 g for 8 min, and resuspended in 9 volumes of PBS. These suspensions were stored at $-60^{\\circ}C$ before use."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.7773279352226721,
+            0.8823529411764706,
+            0.8326585695006747
+          ],
+          "content": "\"Viral antigen\" was prepared by inoculating SV40 strain 776$^{12}$ into a continuous tissue culture cell line (strain BSC-1) of African green monkey kidney (AGMK) at a multiplicity of about 10$^{-4}$, and harvesting the cells and fluid together when cytopathogenicity was maximal. The cell suspension was stored at -20°C, thawed, and used without further processing.$^{13}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14198782961460446,
+            0.8313090418353576,
+            0.8823529411764706,
+            0.8866396761133604
+          ],
+          "content": "Four types of sera were used as standard reagents; to avoid undue heterogeneity of antibodies, sera of individual animals generally were used: (1) serum from tumorous hamsters, selected for having high CF antibody titer against SV40 tumor extracts, and no reaction with viral antigen; (2) serum from similar hamsters, but having high CF antibody titers for both tumor extracts and"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.008113590263691683,
+            0.4358974358974359,
+            0.032454361054766734,
+            0.9325236167341431
+          ],
+          "content": "Downloaded from https://www.pnas.org by 149.40.62.120 on September 29, 2026 from IP address 149.40.62.120."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13995943204868155,
+            0.09176788124156546,
+            0.18052738336713997,
+            0.10526315789473684
+          ],
+          "content": "1148"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37322515212981744,
+            0.09176788124156546,
+            0.640973630831643,
+            0.10661268556005399
+          ],
+          "content": "PATHOLOGY: BLACK ET AL."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7586206896551724,
+            0.09176788124156546,
+            0.8762677484787018,
+            0.10661268556005399
+          ],
+          "content": "Proc. N. A. S."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}
