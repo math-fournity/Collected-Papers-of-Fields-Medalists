@@ -121,6 +121,9 @@
 - **数字件（pdfTeX/TeX 源）**：mineru 走 `txt` 文本层；可直接用 `pdftotext` 做逐字符对账
   （注意 ff 合字→f、arXiv 戳记惯例不收），无需大量 300dpi 目检。
 - **进度追踪**：每页落签后 `echo "$(date '+%F %H:%M') | PAGE | …" >> AUDIT-PROGRESS.log`；中断恢复先读其末尾。
+- **mineru 上标 κ 系统性误识**（Baker II 案例，5 处）：指数位置的小号 κ 被识成**乘积**
+  （`e^{-½hκ}`，应为 `e^{-½h^κ}`）或**孤立 `*`**（`e^{-¼h*}`）；同篇内幂形/乘积形混排——
+  篇内不一致本身就是误识信号，发现一处须排查全篇；300dpi 4x 放大可裁决。
 
 ## 5. 内容缺口（"不留遗憾"遗留项，均已有垫底件，非阻塞）
 
@@ -204,6 +207,26 @@
   与 4 件新文件，约 39 件）。③今日已完成审计（INDEX 真值）：Atiyah-Singer、Baker 俄译、Smale、
   dim24、IMU citation×3、ICM2018 Figalli、ICM2018 Birkar（**29 篇闭环**）+ Baker II 4/6 页在途
   （p.5-p.6 待续，修复登记已注明）。
+- **★ 2026-09-29 会话收尾记录（用户要求登记）**：
+  1. **云端配额耗尽（重要操作事实）**：本轮 51 件批次中后段 ~35 件失败（连 2 页小件都被拒）——
+     `mineru usage` 显示当日已处理 **2026 页 / 55 jobs**，失败潮自 ~1900 页起，属匿名档日配额
+     耗尽；重置于 UTC 零点（≈当地 20:00）。**无需特殊操作**：重跑 `python3 /tmp/mineru_batch.py`
+     即可，脚本自动跳过已有 md，只补 ~39 件（35 失败 + 4 换件：Huh_2020 60p / Birkar fano 93p /
+     Smirnov conformal 70p / Villani-Mouhot landau 10p）。
+  2. **审计进度（AUDIT-INDEX 真值：29 篇闭环）**：①Viazovska dim24（17p）闭环——born-digital
+     文本层+PNG 双通道，7 点 FAIL 修复（S/T 矩阵重建、孤立字符 2/9、脚注 1 重建、丢箭头×2、
+     École 重音）；该 PDF 实为 Annals 已刊版（1017–1033），审计头曾误记 arXiv 版已更正。
+     ②IMU citation ×3（Birkar/Scholze/Venkatesh）+ ICM2018 报告 ×2（Figalli/Birkar）闭环——
+     FAIL 均修复（Venkatesh effective/差集反斜杠、Figalli Ampère×5/Caffarelli、Birkar 连字符/
+     句点类 4 点）。③**Baker II 在途 4/6 页**——p.3-p.4 发现 mineru 系统性把上标 κ 识成乘积或
+     `*`（5 处已按 300dpi 修复，见 §4 坑清单）；p.5-p.6 待续（`AUDIT-PROGRESS.log` 末行为
+     精确恢复点；md 行 324/330 的 e^{−hκ}×2 待 p.5 裁定）。
+  3. **计数更正**：收尾小结曾称"24 篇闭环"——系 citation×3 与 ICM×2 共 5 行漏登 INDEX 前的
+     陈旧计数；5 行已补登（commit bb028adf），INDEX 现为 **29 行 ✅**。以 INDEX 为准。
+  4. **下一步（配额重置后按序）**：①重跑批次补 ~39 件导出；②接续 Baker II p.5-p.6；③按页数
+     升序接力新增件（Villani landau 10p → 小件 laudatio/ICM 报告 → Wang-Zahl 127p → Deng 三件
+     （34/138/192p）→ Hironaka partI/II → 大部头殿后）；④用户并行下载件（2026 四目录、Quillen
+     目录等 23 项未跟踪）待稳定后同批入库+导出。新会话粘贴 `ZCODE-HANDOFF-PROMPT.md` 即可接力。
 
 ## 6. 验收标准（任务完成的定义）
 
