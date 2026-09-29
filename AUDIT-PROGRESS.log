@@ -101,3 +101,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:22 | PAGE | Viazovska dim24 | p.3/17 | PASS± | (2.1)数字逐位吻合
 2026-09-29 17:23 | PAGE | Viazovska dim24 | p.4/17 | FAIL | as t→∞ 丢箭头（单点）
 2026-09-29 17:24 | PAGE | Viazovska dim24 | p.5/17 | PASS± | 围道分解/(2.6)吻合
+2026-09-29 17:24 | PAGE | Viazovska dim24 | p.6/17 | PASS± | p(t)/p̃(r)数字逐位吻合
