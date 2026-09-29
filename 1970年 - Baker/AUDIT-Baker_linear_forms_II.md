@@ -98,3 +98,8 @@
   篇，此处略）；本篇未发现源级笔误；脚注 †（Ax/Leopoldt）完整保留。
 - **可用性结论**：修复后 md 可作该文忠实底本；阅读时应知：页眉/页码未收、脚注位置漂移、
   7 个孤立碎片 span（p.1）。本篇与 (I) 俄译件（AUDIT-Baker_linear_forms_ru.md）配套阅读。
+
+### 修复登记（2026-09-29）
+- 全篇 κ 指数误识 8 处修复完成（p.3-p.6）；补 Received on the 21st of March, 1967. 收稿行。
+  fix commits 见 `git log --grep 'fix(md): Baker linear forms II'`；修复前 md = 各 fix 父提交。
+- 本篇 6/6 页审计完成，无未决项。

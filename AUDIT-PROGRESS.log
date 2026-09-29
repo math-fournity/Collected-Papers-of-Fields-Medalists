@@ -143,3 +143,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:32 | NOTE | 会话收尾记录+κ误识坑已入HANDOFF；INDEX补登5行至29篇（更正24之陈旧计数）
 2026-09-29 18:51 | PAGE | Baker linear forms II | p.5/6 | FAIL | e^hκ乘积（8x证）
 2026-09-29 18:52 | PAGE | Baker linear forms II | p.6/6 | FAIL | hκ×2+收稿行丢失
+2026-09-29 18:52 | DONE | Baker linear forms II | 6/6 | 8处κ+收稿行已修复 | 累计30/140
