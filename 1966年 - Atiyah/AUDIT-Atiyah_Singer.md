@@ -210,3 +210,10 @@
 - **可用性结论**：修复 4 项 FAIL 后，本 md 可作为该公告的忠实检索/阅读底本；
   定理陈述与公式逐字可信；脚注编号以修复版为准；文献表 22 条（修复后含 9）逐条对原刊核实。
   阅读时应知：期刊页眉未收、𝔡/d 字形已并、原刊 quirk 清单如上。
+
+### 修复登记（2026-09-29）
+- 脚注 3 编号 8→3（p.003）；脚注 6 标记 *→6（p.008）；补文献 9 "——, The index theorem for
+  homogeneous differential operators (to appear)."（p.012，300dpi 原刊核实）；补结尾机构三行
+  Oxford/Harvard/MIT（p.012）。
+- fix commit：见 `git log --grep 'fix(md): Atiyah-Singer'`；修复前 md = 该 fix commit 的父提交
+  （`git show <fix>^:'*Atiyah_Singer*.md'`），mineru 原始产出来源链保持完整。
