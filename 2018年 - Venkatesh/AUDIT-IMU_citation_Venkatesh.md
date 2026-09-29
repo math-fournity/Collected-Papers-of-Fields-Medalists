@@ -18,3 +18,6 @@
 
 ## 总评
 - 2/2 页逐页目检+文本层对账；2 点 FAIL 修复后 md 可作忠实底本。
+
+### 修复登记（2026-09-29）
+- efective→effective；SL(3,Z)\SL(3,R) 补 \backslash。fix commit 见 `git log --grep 'fix(md): IMU citation Venkatesh'`。
