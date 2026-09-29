@@ -321,7 +321,7 @@ $$
 and, noting that $|\psi_r| < c_5 L$ and $j \leqslant R$, we obtain from (2)
 
 $$
-\left| \left(\gamma_ {1} \log \alpha_ {1} + \dots + \gamma_ {n - 1} \log \alpha_ {n - 1}\right) ^ {j} - \psi_ {r} ^ {j} \right| <   (c _ {6} L) ^ {R} e ^ {- h \kappa}.
+\left| \left(\gamma_ {1} \log \alpha_ {1} + \dots + \gamma_ {n - 1} \log \alpha_ {n - 1}\right) ^ {j} - \psi_ {r} ^ {j} \right| <   (c _ {6} L) ^ {R} e ^ {- h ^ {\kappa}}.
 $$
 
 Hence
