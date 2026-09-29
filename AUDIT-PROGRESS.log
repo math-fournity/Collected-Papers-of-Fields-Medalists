@@ -71,3 +71,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:26 | PAGE | Baker linear forms ru | p.7/12 | FAIL | ln-负号+λ_l下标（均300dpi证）
 2026-09-29 16:27 | PAGE | Baker linear forms ru | p.8/12 | FAIL | f_m求值下标丢失
 2026-09-29 16:28 | PAGE | Baker linear forms ru | p.9/12 | PASS± | (15)-(18)吻合；r/τ原刊字形、κ→x修复项
+2026-09-29 16:31 | PAGE | Baker linear forms ru | p.10/12 | FAIL | 6点：标签错位/2处结构乱/ζ→5/т→τ/丢负号
