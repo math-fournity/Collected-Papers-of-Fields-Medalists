@@ -152,3 +152,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:55 | DONE | ICM2018 Scholze | 5/5 | 6点FAIL已修复 | 累计31/140
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.1/5 | PASS± | 开篇吻合
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.2/5 | FAIL | m≥n+5丢句号
+2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.3/5 | FAIL | pre-dicts残迹
