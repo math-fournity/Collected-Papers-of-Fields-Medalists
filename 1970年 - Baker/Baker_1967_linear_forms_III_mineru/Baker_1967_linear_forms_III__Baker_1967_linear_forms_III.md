@@ -23,7 +23,7 @@ It will be observed that although some or all of  $\beta_{1}, \ldots, \beta_{n}$
 THEOREM 2. Let $\alpha_{1},\ldots ,\alpha_{n}$ and $\beta_{1},\ldots ,\beta_{n}$ denote non-zero algebraic numbers. Suppose that either $\log \alpha_1,\dots ,\log \alpha_n$ or $\beta_{1},\dots ,\beta_{n}$ are linearly independent over the rationals. Suppose further that $\kappa >n$ and let $d$ and $H$ denote respectively the maximum of the degrees and heights of $\beta_{1},\ldots ,\beta_{n}$. Then
 
 $$
-\left| \beta_ {1} \log \alpha_ {1} + \dots + \beta_ {n} \log \alpha_ {n} \right| > C e ^ {- (\log H) \kappa}
+\left| \beta_ {1} \log \alpha_ {1} + \dots + \beta_ {n} \log \alpha_ {n} \right| > C e ^ {- (\log H) ^ {\kappa}}
 $$
 
 for some effectively computable number
@@ -127,7 +127,7 @@ $$
 where $\gamma_r = \lambda_r + \lambda_n\beta_r$ (1 ≤ r < n), satisfies
 
 $$
-\left| \Phi_ {m _ {0}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h \kappa}\tag{4}
+\left| \Phi_ {m _ {0}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h ^ {\kappa}}\tag{4}
 $$
 
 for all integers $l$ with $1 \leqslant l \leqslant h$ and all non-negative integers $m_0, \ldots, m_{n-1}$ with $m_0 + \ldots + m_{n-1} \leqslant k$.
@@ -249,7 +249,7 @@ $$
 in the latter, by substituting $\alpha_{n}$ for $e^{\beta_0}\alpha_1^{\beta_1}\ldots \alpha_{n - 1}^{\beta_{n - 1}}$. From (3) we deduce that
 
 $$
-\left| \left(e ^ {\beta_ {0}} \alpha_ {1} ^ {\beta_ {1}} \dots \alpha_ {n - 1} ^ {\beta_ {n - 1}}\right) ^ {\lambda_ {n} l} - \alpha_ {n} ^ {\lambda_ {n} l} \right| \leqslant \lambda_ {n} l \left(\left| \alpha_ {n} \right| + 1\right) ^ {\lambda_ {n} l} \left| e ^ {\beta_ {0}} \alpha_ {1} ^ {\beta_ {1}} \dots \alpha_ {n - 1} ^ {\beta_ {n - 1}} - \alpha_ {n} \right| \leqslant c _ {4} ^ {L h} e ^ {- h \kappa}.
+\left| \left(e ^ {\beta_ {0}} \alpha_ {1} ^ {\beta_ {1}} \dots \alpha_ {n - 1} ^ {\beta_ {n - 1}}\right) ^ {\lambda_ {n} l} - \alpha_ {n} ^ {\lambda_ {n} l} \right| \leqslant \lambda_ {n} l \left(\left| \alpha_ {n} \right| + 1\right) ^ {\lambda_ {n} l} \left| e ^ {\beta_ {0}} \alpha_ {1} ^ {\beta_ {1}} \dots \alpha_ {n - 1} ^ {\beta_ {n - 1}} - \alpha_ {n} \right| \leqslant c _ {4} ^ {L h} e ^ {- h ^ {\kappa}}.
 $$
 
 Further, since $|\beta_r| \leqslant dH$ (see (I), §2), we have
@@ -267,7 +267,7 @@ $$
 Thus we obtain
 
 $$
-\left| \Phi_ {m _ {3}, \dots , m _ {n - 1}} (l, \dots , l) \right| \leqslant (L + 1) ^ {n + 1} e ^ {4 h k} c _ {4} ^ {L h} e ^ {- h \kappa}
+\left| \Phi_ {m _ {3}, \dots , m _ {n - 1}} (l, \dots , l) \right| \leqslant (L + 1) ^ {n + 1} e ^ {4 h k} c _ {4} ^ {L h} e ^ {- h ^ {\kappa}}
 $$
 
 and (4) follows since $L \leqslant k$, $Lh \leqslant hk \leqslant h^{1 + \zeta}$ and $\kappa > 1 + \zeta$. This completes the proof of the lemma.
@@ -438,7 +438,7 @@ $$
 \psi_ {i} = \lambda_ {n} \beta_ {0} + \gamma_ {1} \log \alpha_ {1} + \dots + \gamma_ {n - 1} \log \alpha_ {n - 1}.
 $$
 
-From (2) we see that $\psi_{i}$ differs from $\lambda_{1} \log \alpha_{1} + \ldots + \lambda_{n} \log \alpha_{n}$ by at most an amount $Le^{-h\kappa}$ and, since $L < k < H$, it follows easily from Lemma 6, together with the assumption made above, that any two $\psi_{i}$ which correspond to distinct sets $\lambda_{1}, \ldots, \lambda_{n}$ differ by at least $c_{8}^{-L} - 2Le^{-h\kappa} > \frac{1}{2} c_{8}^{-L}$. In particular we see that exactly $R$ of the $\psi_{i}$ are distinct, and we denote the different values, in some order, by $\sigma_{0}, \ldots, \sigma_{R-1}$. If $\sigma, \rho$ are defined as in Lemma 7, we have then $\sigma \leqslant c_{9}k$ and $\rho > c_{10}^{-L}$.
+From (2) we see that $\psi_{i}$ differs from $\lambda_{1} \log \alpha_{1} + \ldots + \lambda_{n} \log \alpha_{n}$ by at most an amount $Le^{-h^{\kappa}}$ and, since $L < k < H$, it follows easily from Lemma 6, together with the assumption made above, that any two $\psi_{i}$ which correspond to distinct sets $\lambda_{1}, \ldots, \lambda_{n}$ differ by at least $c_{8}^{-L} - 2Le^{-h^{\kappa}} > \frac{1}{2} c_{8}^{-L}$. In particular we see that exactly $R$ of the $\psi_{i}$ are distinct, and we denote the different values, in some order, by $\sigma_{0}, \ldots, \sigma_{R-1}$. If $\sigma, \rho$ are defined as in Lemma 7, we have then $\sigma \leqslant c_{9}k$ and $\rho > c_{10}^{-L}$.
 
 Let now t be any suffix such that  $p_{t} \neq 0$ , let  $s = v_{t}$ , let r be that suffix for which  $\psi_{t} = \sigma_{r}$ , and let  $W(z)$  denote the polynomial given by Lemma 7. By the properties of  $W(z)$  specified in the lemma we see that
 
