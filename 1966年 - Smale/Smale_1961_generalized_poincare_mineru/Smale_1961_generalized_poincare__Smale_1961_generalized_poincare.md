@@ -258,7 +258,7 @@ Let $f_{\varepsilon}$ be the restriction of $f$ to $\partial D^{s+1} \times D_{\
 
 induced from $F_{x}$.
 
-It can be proved  $k_{e}$  and  $g_{e}$  are differentiably isotopic. (The referee has remarked that there is a theorem, Milnor's “tubular neighborhood theorem”, which is useful in this connection and can indeed be used to make this proof clearer in general.)
+It can be proved  $k_{\varepsilon}$  and  $g_{\varepsilon}$  are differentiably isotopic. (The referee has remarked that there is a theorem, Milnor's “tubular neighborhood theorem”, which is useful in this connection and can indeed be used to make this proof clearer in general.)
 
 We finish the proof of (3.3) as follows. Suppose $V$ is as in (3.3) and $V' = \chi(H_{\beta}; f'; s + 1), \pi_{\varepsilon}(V') = 0$. It is sufficient to prove $V$ and $V'$ are diffeomorphic since it is clear that one can obtain $D^n$ by choosing $f'$ properly and using the fact that $H_{\beta}$ is a product of $S^s$ and $D^{n - s}$. From the previous paragraph, we can replace $f$ and $f'$ by $k_{\varepsilon}$ and $k_{\varepsilon}'$ with those properties listed. We can also suppose without loss of generality that the images of $k_{\varepsilon}$ and $k_{\varepsilon}'$ coincide. It is now sufficient to find a diffeomorphism $h$ of $H_{\beta}$ with $hf = f'$. For each $x$, define $h$ on image $f \cap F_x$ to be the linear map which has this property. One can now easily extend $h$ to all of $H_{\beta}$ and thus we have finished the proof of (3.3).
 
