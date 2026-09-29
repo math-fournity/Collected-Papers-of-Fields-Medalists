@@ -37,8 +37,8 @@
 | **MinerU CLI / Kit** | `/Volumes/D/toolchain-cache/mineru-venv/bin/mineru` 与 `…/mineru-kit`（v4.0.8，不在 PATH） |
 | mineru 使用规范 | ZCode 用户级 skill `mineru`（`~/.zcode/skills/mineru/SKILL.md`，含云端解析/App 导出/输出 schema 的完整说明——**先读它**） |
 | 论文获取方法论（如需补文件） | ZCode 用户级 skills：`~/.agents/skills/math-paper-harvest/`（渠道路由+5 个 references：gdz/numdam-eudml/ams-jstor-msp/mathnet-icm/author-sites/validation-assembly）与 `~/.agents/skills/sciverse-direct-api/` |
-| 批量解析脚本（可复用/重跑） | `/tmp/mineru_batch.py`（后台运行中；逻辑：按页数升序、跳过已有 md、>200 页先 gs 分 180 页卷、mineru-kit 导出 zip 解压到 `<base>_mineru/`、md 提升为 `<base>__<zip名>.md`） |
-| 解析日志 | `/tmp/mineru_batch.log`（`EXPORT OK/FAIL` 计数即进度） |
+| 批量解析脚本（可复用/重跑） | **入库副本 `tools/mineru_batch.py`**（运行时路径 `/tmp/mineru_batch.py`；逻辑：按页数升序、跳过已有 md（含 `<base>_mineru/` 修复版）、>200 页先 gs 分 180 页卷、mineru-kit 导出 zip 解压到 `<base>_mineru/`、md 提升为 `<base>__<zip名>.md`） |
+| 解析日志 | **入库副本 `tools/mineru_batch.log`**（运行时 `/tmp/mineru_batch.log`；`EXPORT OK/FAIL` 计数即进度；ALL DONE=84/85） |
 | 浏览器（付费墙/人机验证时） | BrowserOS（browseros-neo MCP）；JSTOR 一键导出插件在 `~/Downloads/jstor-page-exporter/` |
 | 主任务交接（论文收集阶段的历史） | worktree repo `算思系统/tasks/ot-fields68/HANDOFF-CORPUS.md` 与 `MEMORY.md`（只读参考） |
 
@@ -143,7 +143,11 @@
 - `Huh_2020_lorentzian_polynomials` 连续 2 次 FAIL，待排查。
 - 新增约定：`AUDIT-PROGRESS.log` 每页一行；数字件用 `pdftotext` 逐字符对账；批次脚本 skip 逻辑已修复。
 - **新增纪律（2026-09-29）**：每页一提交（`audit(page): …`）；FAIL 项在总评后按审计建议**修复 md**，
-  独立 `fix(md): …` commit 并在总评登记「修复登记」。已审计件的 FAIL 正按新规回填修复（见各总评与日志）。
+  独立 `fix(md): …` commit 并在总评登记「修复登记」；审计图片必须入库、禁止只存 `/tmp`。
+- **回填修复已完成（2026-09-29）**：7 篇 audited 件的 FAIL/内容级缺陷全部修复并登记——
+  Selberg(3)/Lions(1)/Bombieri 报告(1)/Bombieri Addendum(3)/Baker(幻觉段)/Perelman(幻觉4)/honeycomb(cos 分母,双副本)，
+  见 `git log` 的 `fix(md):` 系列。**当前暂停新审计**（按用户指令转入 repo/git 整理）；恢复时从
+  `AUDIT-PROGRESS.log` 末行 + 本文件「下一步队列」继续。
 - 下一步队列（页数升序）：Atiyah–Singer 1963 (12p)、Baker 俄译 (12p)、Ahlfors 1930 (38p)、…
 
 ## 6. 验收标准（任务完成的定义）
