@@ -213,6 +213,25 @@
      耗尽；重置于 UTC 零点（≈当地 20:00）。**无需特殊操作**：重跑 `python3 /tmp/mineru_batch.py`
      即可，脚本自动跳过已有 md，只补 ~39 件（35 失败 + 4 换件：Huh_2020 60p / Birkar fano 93p /
      Smirnov conformal 70p / Villani-Mouhot landau 10p）。
+- **★ 2026-09-29 深度收尾（第四轮，本条为最新状态）**：
+  1. **导出管线完成**：重试+补跑全部结束——**Huh_2020 换件后首次导出成功**（Brändén–Huh
+     LORENTZIAN POLYNOMIALS，证实三败=错件根因）、Serre_1951 82p 等全部就位；**唯一缺口 =
+     Scholze_2012_perfectoid_published（70p，两次重试均败，文件特定问题；其 arXiv 版
+     Scholze_2011 已有导出可先审）**；Mori 走库藏 md 属正常约定。
+  2. **Villani landau 陈旧导出事件**：换件前某并发批次把 Batenkov 错件导出写回 `_mineru/`——
+     已删除并从正确 PDF 重导出（LANDAU DAMPING 验证）。**教训：换件后必须核查 `_mineru/`
+     是否为错件时代产物**。
+  3. **审计进度（INDEX 真值：36 篇 ✅）**：本轮闭环——Baker II (6p，κ 族 9 点)、Viazovska
+     dim24 (17p，7 点)、IMU citation×3、ICM2018 Figalli(4p)/Birkar(5p)/Scholze(5p)/Venkatesh(5p)、
+     Superrigidity 讲义 (6p，**cmap 损坏件**33 处族修复)、Harper 讲义 (7p，1 点)、Baker III
+     (9p，κ 族 9 点+c₁₁ 漏幂)、Villani landau (10p，14 组)。
+  4. **下一步队列（页数升序）**：Baker I/IV/Evertse (13p×3) → ICM2022 Viazovska (14p) →
+     IMU laudatio Maynard (15p)/Huh (16p) → Faltings 1983 (18p) → Roth (20p) → Huh 2012 (21p) →
+     Bombieri GDZ/taylorwiles/Perelman II (22p) → Mirzakhani/Okounkov JAMS (23p) → Viazovska
+     dim8 (24p) → Bhargava/Figalli OT/Maynard (25p) → … → 大部头殿后（Wiles 270p/Thompson
+     282p/Hairer 236p/Schwartz 352p/Lafforgue 241p/EGA 227p/Wang-Zahl 127p/Deng×3）。
+     Scholze_2012_published 待导出成功后补（或先审 arXiv 版）。
+  5. **推送**：origin 常设授权同步；最新 27044c0a+。
   2. **审计进度（AUDIT-INDEX 真值：29 篇闭环）**：①Viazovska dim24（17p）闭环——born-digital
      文本层+PNG 双通道，7 点 FAIL 修复（S/T 矩阵重建、孤立字符 2/9、脚注 1 重建、丢箭头×2、
      École 重音）；该 PDF 实为 Annals 已刊版（1017–1033），审计头曾误记 arXiv 版已更正。
