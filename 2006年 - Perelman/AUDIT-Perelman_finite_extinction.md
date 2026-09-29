@@ -78,3 +78,5 @@
   被 md 忠实保留；
 - 作者原始 LaTeX 源码已存档于本目录（Perelman_2003_finite_extinction_arxiv_source.tex）。
 - 结论：md 可作为正文引用与检索底本（引用 p.006 该句时须剔除多余 "4"）。
+
+> **修复登记（2026-09-29）**：已按本审计删除 p.6 幻觉字符 "4"（arXiv LaTeX 源仲裁结论）；修复与本登记同一 commit；修复前 md 见该 commit 父提交。
