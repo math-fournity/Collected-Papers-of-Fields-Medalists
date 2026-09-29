@@ -87,3 +87,18 @@
   R/T_i/S 及条件（i>1、j≠1,j≠i,i=2,⋯,r）✓；free abelian case ✓；𝓐 生成元归约句 ✓；
   α=R 开头 h: D^{s+1}×D^{n−s−1} 定义句 ✓
 - 结果：**PASS±**（±：页眉 "398 STEPHEN SMALE" 与页码未收）
+
+## p.010（PDF p.10 / 印刷 p.399）
+- PNG：audit/p010.png（pngmono 150dpi）；仲裁：audit/p010_300dpi.png + hxy_zoom2x.png、
+  gammag_zoom.png、gline2_300dpi.png、h32_300dpi.png（入库）
+- 核对：
+  - α=R 情形：h(x,y)=(r,x,y)——300dpi 证实**原刊即印 "(r,x,y)"**（数学上应预期 (rx,y)；源级笔误）
+    ——md 忠实 ✓；f_i′=f₁h、χ(σ′) realizes f_σ′=f_σ α ✓；α=T_i/(1.1) ✓
+  - V₁/Q₁ 定义、γ/β 同态 ✓；**(2.6) LEMMA**（φ₂ ∈ γ Ker β）+ PROOF（ψ̄、γψ̄=φ₂、βψ̄=0、
+    g=y+ψ̄（s=1 时 yψ̄））✓；n=2s+2 情形 (2.4) 应用 ✓
+  - "Since γg=g₁+g₂, f_σα(D₁)=f_σ(D₁+D₂)=g₁+g₂, f_σ′(D₁)=gD₁=g₁+g₂, f_σα=f_σ′"——300dpi 证实
+    **原刊即用 g₁+g₂/gD₁**（未先行定义，应预期 φ₁+φ₂/γḡ——源级行文瑕疵）——md 忠实 ✓
+  - §3/(3.1) THEOREM ✓；**(3.2) LEMMA**——300dpi 证实**原刊即缺 "H ∈"**（"If 𝓗(n,k,s) then
+    π_s(H) is"；源级笔误）——md 忠实 ✓；(a)(b)(c) +Furthermore ✓；PROOF 开头 ✓
+- 结果：**PASS±**（±：①页眉 "POINCARÉ CONJECTURE 399" 与页码未收；②(r,x,y)/g₁+g₂/缺 "H ∈"
+  三处均系原刊实物）
