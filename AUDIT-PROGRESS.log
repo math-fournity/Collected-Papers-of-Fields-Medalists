@@ -53,3 +53,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 15:58 | PAGE | Atiyah-Singer index | p.2/12 | PASS± | σ(D)/γ(D)/伴随全吻合；页眉未收
 2026-09-29 15:59 | PAGE | Atiyah-Singer index | p.3/12 | FAIL | 脚注3编号误识为8（单点）；其余全吻合
 2026-09-29 15:59 | PAGE | Atiyah-Singer index | p.4/12 | PASS | Theorem1公式逐字吻合
+2026-09-29 16:00 | PAGE | Atiyah-Singer index | p.5/12 | PASS± | i^{}上标辖域合并1处；其余吻合

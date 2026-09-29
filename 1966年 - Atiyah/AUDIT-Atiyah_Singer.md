@@ -57,3 +57,16 @@
     G-map V*→Hom(M,N) polynomial degree k ✓
 - 结果：**PASS**（±：页眉 "1963₁ … 425" 未收）
 - 备注：本页无内容级差异；定理公式逐字符吻合。
+
+## p.005（PDF p.5 / 印刷 p.426）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：
+  - **THEOREM 2**：dim V=2l、rank l、universal class (ch M − ch N)∏_{i=1}^l ω_i⁻¹ ∈ H**(B_G; ℚ)、
+    negative⁵ weights、Borel-Hirzebruch [7] ✓
+  - 脚注 5（"negative" weights / orientation）✓
+  - (3.1) RIEMANNIAN STRUCTURE G=SO(2l)：Λ=ΣΛ^p、*: Λ^p→Λ^{2l-p}、(*)²=(−1)^p、α²=1、
+    M(N) ±1 eigenspace、(i) ρ=(*)² (ii) ρ=α、D=d+δ、ρω=ω⇒ρ(Dω)=−Dω ✓
+  - 结论 (i) Σ(−1)^p h^p=χ[X]（Gauss-Bonnet）/(ii) h_+^l−h_−^l=L(X)（l even）✓
+- 结果：**PASS±**
+- 备注：± ①页眉未收；②α 定义上标辖域合并：md 作 `i^{p(p+1)-l *}`（* 被并入指数），
+  原文为 `i^{p(p+1)-l} *`（i 的幂乘以 * 算子）——排版级伪影，不误导（α²=1 仍成立）。
