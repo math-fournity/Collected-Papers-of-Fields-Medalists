@@ -224,7 +224,7 @@ $$
 By taking here $z = x / d$, we get
 
 $$
-\begin{array}{r l} \sum_ {d \leq x} \frac {\mu (d)}{d} \log^ {2} \frac {x}{d} & = 2 \sum_ {d \leq x} \frac {\mu (d)}{d} \sum_ {\nu \leq x / d} \frac {\tau (\nu)}{\nu} + c _ {5} \sum_ {d \leq x} \frac {\mu (d)}{d} \sum_ {\nu \leq x / d} \frac {1}{\nu} \\ & + c _ {6} \sum_ {d \leq x} \frac {\mu (d)}{d} + O (x ^ {- \frac {1}{4}} \sum_ {d \leq x} d ^ {- \frac {4}{3}}) = 2 \sum_ {d \nu \leq x} \frac {\mu (d) \tau (\nu)}{d \nu} \\ & + c _ {5} \sum_ {d \nu \leq x} \frac {\mu (d)}{d \nu} + c _ {6} \sum_ {d \leq x} \frac {\mu (d)}{d} + O (1) \\ & = 2 \sum_ {n \leq x} \frac {1}{n} \sum_ {d / n} \mu (d) \tau \left(\frac {n}{d}\right) + c _ {5} \sum_ {n \leq x} \frac {1}{n} \sum_ {d / n} \mu (d) \\ & + O (1) = 2 \sum_ {n \leq x} \frac {1}{n} + c _ {5} + O (1) = 2 \log x + O (1). \end{array}
+\begin{array}{r l} \sum_ {d \leq x} \frac {\mu (d)}{d} \log^ {2} \frac {x}{d} & = 2 \sum_ {d \leq x} \frac {\mu (d)}{d} \sum_ {\nu \leq x / d} \frac {\tau (\nu)}{\nu} + c _ {5} \sum_ {d \leq x} \frac {\mu (d)}{d} \sum_ {\nu \leq x / d} \frac {1}{\nu} \\ & + c _ {6} \sum_ {d \leq x} \frac {\mu (d)}{d} + O (x ^ {- \frac {1}{4}} \sum_ {d \leq x} d ^ {- \frac {3}{4}}) = 2 \sum_ {d \nu \leq x} \frac {\mu (d) \tau (\nu)}{d \nu} \\ & + c _ {5} \sum_ {d \nu \leq x} \frac {\mu (d)}{d \nu} + c _ {6} \sum_ {d \leq x} \frac {\mu (d)}{d} + O (1) \\ & = 2 \sum_ {n \leq x} \frac {1}{n} \sum_ {d / n} \mu (d) \tau \left(\frac {n}{d}\right) + c _ {5} \sum_ {n \leq x} \frac {1}{n} \sum_ {d / n} \mu (d) \\ & + O (1) = 2 \sum_ {n \leq x} \frac {1}{n} + c _ {5} + O (1) = 2 \log x + O (1). \end{array}
 $$
 
 We used here that $\sum_{d/n} \mu(d) \tau(n/d) = 1$, and the well-known $\sum_{d \leq x} (\mu(d)) / d = O(1)$. Now (2.6) yields
@@ -288,7 +288,7 @@ $$
 since
 
 $$
-\sum_ {p \geq x} \frac {\log p \log q}{p q \log p q} = \log x + O (\log \log x),
+\sum_ {p q \leq x} \frac {\log p \log q}{p q \log p q} = \log x + O (\log \log x),
 $$
 
 which follows by partial summation from
@@ -466,7 +466,7 @@ $$
 writing now $\rho = e^{\kappa_2 / \delta}$, we get further, using (4.3) and (4.4),
 
 $$
-\begin{array}{l} | R (x) | <   \frac {\alpha x}{\log x} \sum_ {n \leq (x / x _ {0})} \frac {1}{n} - \frac {\alpha x}{2 \log x} \sum_ {1 \leq \nu \leq (\log (x / x _ {0}) / \log \rho)} \\ \sum_ {\substack {y _ {n} \leq n \leq y _ {\nu} e ^ {(\delta / 2)} \\ \rho^ {\nu - 1} <   y _ {\nu} \leq \rho^ {\nu} e ^ {- (\delta / 2)}}} \frac {1}{n} + O \left(\frac {x}{\sqrt {\log x}}\right) = \alpha x - \frac {\alpha x}{2 \log x} \sum_ {1 \leq \nu \leq (\log (x / x _ {0}) / \log \rho)} \frac {\delta}{2} \\ + O \left(\frac {x}{\sqrt {\log x}}\right) = \alpha x - \frac {\alpha \delta}{4 \log \rho} x + O \left(\frac {x}{\sqrt {\log x}}\right) \\ = \alpha \left(1 - \frac {\alpha^ {2}}{256K _ {2}}\right) x + O \left(\frac {x}{\sqrt {\log x}}\right) <   \alpha \left(1 - \frac {\alpha^ {2}}{300K _ {2}}\right) x, \end{array}
+\begin{array}{l} | R (x) | <   \frac {\alpha x}{\log x} \sum_ {n \leq (x / x _ {0})} \frac {1}{n} - \frac {\alpha x}{2 \log x} \sum_ {1 \leq \nu \leq (\log (x / x _ {0}) / \log \rho)} \\ \sum_ {\substack {y _ {\nu} \leq n \leq y _ {\nu} e ^ {(\delta / 2)} \\ \rho^ {\nu - 1} <   y _ {\nu} \leq \rho^ {\nu} e ^ {- (\delta / 2)}}} \frac {1}{n} + O \left(\frac {x}{\sqrt {\log x}}\right) = \alpha x - \frac {\alpha x}{2 \log x} \sum_ {1 \leq \nu \leq (\log (x / x _ {0}) / \log \rho)} \frac {\delta}{2} \\ + O \left(\frac {x}{\sqrt {\log x}}\right) = \alpha x - \frac {\alpha \delta}{4 \log \rho} x + O \left(\frac {x}{\sqrt {\log x}}\right) \\ = \alpha \left(1 - \frac {\alpha^ {2}}{256K _ {2}}\right) x + O \left(\frac {x}{\sqrt {\log x}}\right) <   \alpha \left(1 - \frac {\alpha^ {2}}{300K _ {2}}\right) x, \end{array}
 $$
 
 for $x > x_{1}$. Since the iteration-process

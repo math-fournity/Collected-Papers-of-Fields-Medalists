@@ -194,3 +194,5 @@
 - 系统性瑕疵：页眉/页码/JSTOR 页脚全部丢弃；脚注以 page_footnote span 保留（⁴ 被拆三段）。
 - 可用性：文本、文献与绝大多数公式可引用；**3 处 FAIL 单点须按上表修复或以原图为准**。
 - mineru 解析信息：mineru 3.4.4 / tier=basic / parse_mode=ocr。
+
+> **修复登记（2026-09-29）**：已按本审计修复 3 处单点 FAIL（d^(-4/3)→d^(-3/4)、Σ_{p≥x}→Σ_{pq≤x}、y_n→y_ν）；修复与本登记同一 commit；修复前 md 见该 commit 父提交。
