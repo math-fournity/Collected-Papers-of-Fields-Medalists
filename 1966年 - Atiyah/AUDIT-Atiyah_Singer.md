@@ -70,3 +70,16 @@
 - 结果：**PASS±**
 - 备注：± ①页眉未收；②α 定义上标辖域合并：md 作 `i^{p(p+1)-l *}`（* 被并入指数），
   原文为 `i^{p(p+1)-l} *`（i 的幂乘以 * 算子）——排版级伪影，不误导（α²=1 仍成立）。
+
+## p.006（PDF p.6 / 印刷 p.427）
+- PNG：audit/p006.png（pngmono 150dpi）
+- 核对：
+  - Hirzebruch index theorem [17, §8] 承接、d+δ self-adjoint REMARK ✓
+  - (3.2) HERMITIAN STRUCTURE G=U(l)×U(m)：M=(Σ_k Λ^{2k})⊗C^m、N=(Σ_k Λ^{2k+1})⊗C^m ✓
+  - V≅V̄*、D=∂̄+𝔡、γ(D)=Σ(−1)^p h^{0,p}(W)、Laplacian、Dolbeault isomorphism [17, §15]、
+    H^{0,p}(W)≅H^p(X,W) ✓
+  - **THEOREM 3**（HRR）：Σ(−1)^p dim H^p(X,W)={ch(W)𝕀(X)}[X] ✓；Hirzebruch [17]/Kodaira [18] Kahler surfaces ✓
+- 结果：**PASS±**
+- 备注：± ①页眉未收；②伴随算子字形（原刊花体 𝔡）混并：md 行 "D=∂̄+d … and d is its formal adjoint"
+  把 𝔡 转写为普通 d，而同段 Laplacian 行又作 \mathfrak{d}——同篇内前后不一致（Fraktur 混排家族伪影，
+  数学内容可由上下文唯一确定，不误导）；③Todd 类字形 \Im 与 \mathfrak{I} 混用（同上）。
