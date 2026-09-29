@@ -128,3 +128,12 @@
 - 结果：**FAIL（单点）**：k_e/g_e → k_ε/g_ε（6x 仲裁）。
 - 备注：± ①页眉 "POINCARÉ CONJECTURE 401" 与页码未收；②π_ε(V′)/D^{n−1}×i/γ_i 缺横杠
   三处均系原刊实物。
+
+## p.013（PDF p.13 / 印刷 p.402）
+- PNG：audit/p013.png（pngmono 150dpi）
+- 核对：g₁′/(3.5) and f₁ 承接 ✓；§4 s=0（permutation i₁,…,i_r、Y=χ(H;f_{i₁},…,f_{i_k};1)、
+  V=χ(Y;f_{i_{k+1}},…,f_{i_r};1) ∈ 𝓗(n,r−k,1)）✓；s=1（g: G_k→π₁(∂H)、ḡ_i、(2.4)、
+  χ(Y,g₁,…,g_k)=χ(H;…)=χ(Dⁿ,f₁,…,f_{r−k}) ∈ 𝓗(n,r−k,2)）✓；**(4.1) LEMMA** + PROOF
+  （rank G − rank G′、p: G′+G″→G′、0→f^{-1}(0)→G→G′→0 splits、α = f+kh）✓；
+  Grusko [6] REMARK ✓；f_σα=g 归结段 ✓；§5 开头 ✓
+- 结果：**PASS±**（±：页眉 "402 STEPHEN SMALE" 与页码未收）
