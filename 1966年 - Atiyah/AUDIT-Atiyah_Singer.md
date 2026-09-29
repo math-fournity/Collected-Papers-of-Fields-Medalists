@@ -117,3 +117,16 @@
   300dpi 证实原刊编号为 6（Prop 2 "operator" 后的撇号系原刊实物的游离排印符，非脚注标记）。
   修复建议："* Differential or integral" 改为 "$^{6}$ Differential or integral"。
 - 备注：± ①\mathbb{R}^{n+1} 原刊为粗体 R（记号级）；②Prop 2 "D=Γ(E)→Γ(F)" 原刊即用 "="（忠实保留）。
+
+## p.009（PDF p.9 / 印刷 p.430）
+- PNG：audit/p009.png（pngmono 150dpi）
+- 核对：
+  - γ(D)=γ(λ(D))、Iso(π*E, π*F)、(i) γ(σ⊕σ′)=γ(σ)+γ(σ′)、(ii) γ(σσ′)=γ(σ)+γ(σ′)、
+    (iii) σ 延拓到 B(X) ⇒ γ(σ)=0 ✓（(ii) 乘法给加法系原刊如此，md 忠实）
+  - σ∼σ′ 等价关系 α₁..α₄、σ′⊕α₁=α₂(σ⊕α₃)α₄、Ell(X) abelian semi-group、γ: Ell(X)→Z ✓
+  - μ(σ)={ch(σ)𝕀(X)}[X]、μ: Ell(X)→ℚ、μ=γ ✓
+  - **PROPOSITION 3**：Ell(X) abelian group/K(X)-module、Ell(X)/K(X)σ₀ finite group ✓
+  - Ell(X)≅K̃(B(X)/S(X))、ch(σ₀) invertible ✓；脚注 8（K̃ "reduced" group, cf. [5]）✓ 编号正确
+  - REMARK（(3.2) W=1 或 (3.3) freely generate）✓；γ(Wσ₀)=μ(Wσ₀) 归约 ✓
+- 结果：**PASS±**（±：①页眉未收；②"Ell(X)/K(X)σ₀" 被拆成两个相邻 math span，内容完整）
+- 备注：本页无内容级差异。
