@@ -76,3 +76,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:37 | DONE | Baker linear forms ru | 12/12 | 16点FAIL已修复 | 累计22/85
 2026-09-29 16:51 | NOTE | 盘点：全仓90个PDF（Baker系列I-IV四件补入库+导出）；Huh三败诊断=schema版本偏移待用户决定；目标行数85→90
 2026-09-29 16:51 | START | Smale generalized poincare | 17p | PNG渲染完成（pngmono 150dpi p001-p017）
+2026-09-29 16:53 | PAGE | Smale generalized poincare | p.1/17 | PASS± | JSTOR封面忠实；戳记未收
