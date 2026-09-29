@@ -621,7 +621,7 @@ $$
 we obtain (cf. the proof of Lemma 2)
 
 $$
-\left| \alpha_ {1} ^ {\gamma_ {1} l} \dots \alpha_ {n - 1} ^ {\gamma_ {n - 1} l} - \alpha_ {1} ^ {\lambda_ {1} l} \dots \alpha_ {n} ^ {\lambda_ {n} l} \right| <   c _ {1 7} ^ {L l} e ^ {- \hbar \kappa},
+\left| \alpha_ {1} ^ {\gamma_ {1} l} \dots \alpha_ {n - 1} ^ {\gamma_ {n - 1} l} - \alpha_ {1} ^ {\lambda_ {1} l} \dots \alpha_ {n} ^ {\lambda_ {n} l} \right| <   c _ {1 7} ^ {L l} e ^ {- h ^ {\kappa}},
 $$
 
 and hence
@@ -651,7 +651,7 @@ $$
 Clearly  $\omega$  represents an algebraic integer with degree at most D. Further, any of its conjugates, obtained by substituting arbitrary conjugates for  $\alpha_{1}, \ldots, \alpha_{n}$ , has absolute value at most
 
 $$
-(L + 1) ^ {n} e ^ {2 h k} c _ {1 8} ^ {L l} <   c _ {1 9} ^ {h \kappa (1 - \epsilon)}.
+(L + 1) ^ {n} e ^ {2 h k} c _ {1 8} ^ {L l} <   c _ {1 9} ^ {h ^ {\kappa (1 - \epsilon)}}.
 $$
 
 It follows easily, on using (22), that
