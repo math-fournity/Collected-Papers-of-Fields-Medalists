@@ -124,3 +124,5 @@
   p.8 "Schaefer"（单 f）——三者均为原刊自身写法，md 逐字忠实。
 - 可用性：除上述 1 处符号外，可放心作为正文引用与检索底本；页界以原 PDF 为准。
 - mineru 解析信息：mineru 3.4.4 / tier=basic / parse_mode=ocr（本目录导出件无 doc_id 字段）。
+
+> **修复登记（2026-09-29）**：已按本审计将 "(with ≪ in place of ≤)" 中误识的首个 \leqslant 修回 \ll；修复与本登记同一 commit；修复前 md 见该 commit 父提交。
