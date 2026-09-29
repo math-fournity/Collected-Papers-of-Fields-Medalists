@@ -70,7 +70,7 @@
 | 1966年 - Cohen | 1 | 1 | 1 |
 | 1966年 - Grothendieck | 2 | 2 | 0 |
 | 1966年 - Smale | 1 | 1 | 0 |
-| 1970年 - Baker | 2 | 2 | 2 |
+| 1970年 - Baker | 6 | 6 | 2 |
 | 1970年 - Hironaka | 2 | 2 | 1 |
 | 1970年 - Novikov | 2 | 2 | 1 |
 | 1970年 - Thompson | 1 | 1 | 0 |
@@ -122,8 +122,12 @@
 | 2022年 - Maynard | 1 | 1 | 0 |
 | 2022年 - Viazovska | 2 | 2 | 0 |
 
-> 注：`1990年 - Mori` 使用库藏 `full.md`（未经 batch 导出）；`2022年 - Huh` 的
-> `Huh_2020_lorentzian_polynomials` 云端解析两次失败（待排查），其余 84/85 导出成功。
+> 注：`1990年 - Mori` 使用库藏 md（`Mori_1979_ample_tangent.md`，目录根；未经 batch 导出）。
+> **2026-09-29 实物盘点：全仓 90 个 PDF**（此前 85/86 为陈旧计数；差额 = Baker 系列
+> Linear forms I/II/III/IV 四件——PDF 在工作区但此前未入库，批次重跑已补齐其导出）。
+> `2022年 - Huh` 的 `Huh_2020_lorentzian_polynomials` 云端解析**三次失败**（诊断：云端响应
+> middle_json schema 版本非 2.0，本地 kit v4.0.8 校验拒绝，与模式/页范围无关——需升级本地
+> mineru 包或用新版 App 导出，均待用户决定），其余 89/90 导出成功。
 
 ## 4. 维护规则
 

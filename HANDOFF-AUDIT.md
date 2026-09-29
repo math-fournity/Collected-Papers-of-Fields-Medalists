@@ -160,6 +160,14 @@
   噪声高，300dpi 仲裁 30 件入库；16 点 FAIL 全数修复并登记（fix ea01ed4）；原刊 quirk 11 项
   （х/κ 混用、r 形代 τ/γ、乘积印作逗号列表等）登记于总评；累计 **22/85**。下一步：
   Ahlfors 1930 (38p) → 按 AUDIT-INDEX 无✅行页数升序接力。
+- **2026-09-29 盘点与 Huh 诊断（第三轮接力续）**：①实物对账——全仓 **90 个 PDF**（65 目录），
+  此前 85/86 为陈旧计数；差额 = Baker 系列 Linear forms I (13p)/II (6p)/III (9p)/IV (13p) 四件
+  （PDF 在工作区但从未入库），批次重跑已补齐 4 件导出；审计目标行数改为 90（INDEX 头部注）。
+  ②**Huh_2020_lorentzian_polynomials 第三次失败已诊断**：云端响应 middle_json schema 版本非 2.0，
+  本地 kit v4.0.8 校验拒绝（zip/markdown/显式 standard/--ocr-mode ocr/分页 5 种变体全部同错，
+  确定性）；修复路径 = 用户授权升级本地 mineru 包（须先停 server）或用新版 MinerU App 导出后
+  按 App-parity 布局入库；flash 层 md 已缓存（doc:71b0bde）但**不入库**（不符合 standard 档约定）。
+  ③ mineru server 曾因 CLI parse 需要**启动**（PID 99459，允许操作；未 stop/restart）。
 
 ## 6. 验收标准（任务完成的定义）
 

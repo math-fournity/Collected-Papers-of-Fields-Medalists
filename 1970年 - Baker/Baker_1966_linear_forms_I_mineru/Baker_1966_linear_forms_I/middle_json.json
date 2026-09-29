@@ -1,0 +1,6756 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.1752136752136752,
+            0.097953216374269,
+            0.8269230769230769,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.452991452991453,
+            0.15789473684210525,
+            0.5512820512820513,
+            0.17690058479532164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1346153846153846,
+            0.20175438596491227,
+            0.8632478632478633,
+            0.5423976608187134
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Introduction. In 1934 Gelfond [2] and Schneider [6] proved, independently, that the logarithm of an algebraic number to an algebraic base, other than 0 or 1, is either rational or transcendental and thereby solved the famous seventh problem of Hilbert. Among the many subsequent developments (cf. [4, 7, 8]), Gelfond [3] obtained, by means of a refinement of the method of proof, a positive lower bound for the absolute value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1} \\log \\alpha_{1} + \\beta_{2} \\log \\alpha_{2}"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\beta_{2}"
+            },
+            {
+              "type": "text",
+              "content": " denote algebraic numbers, not both 0, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1}, \\alpha_{2}"
+            },
+            {
+              "type": "text",
+              "content": " denote algebraic numbers not 0 or 1, with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log \\alpha_{1}/\\log \\alpha_{2}"
+            },
+            {
+              "type": "text",
+              "content": " irrational. Of particular interest is the special case in which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\beta_{2}"
+            },
+            {
+              "type": "text",
+              "content": " denote integers. In this case it is easy to obtain a trivial positive lower bound (cf. [1; Lemma 2]), and the existence of a non-trivial bound follows from the Thue-Siegel-Roth theorem (see [4; Ch. I]). But Gelfond's result improves substantially on the former, and, unlike the latter, it is derived by an effective method of proof. Gelfond [4; p. 177] remarked that an analogous theorem for linear forms in arbitrarily many logarithms of algebraic numbers would be of great value for the solution of some apparently very difficult problems of number theory. It is the object of this paper to establish such a result."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1346153846153846,
+            0.5423976608187134,
+            0.8611111111111112,
+            0.6388888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We define, as usual, the height of an algebraic number to be the maximum of the absolute values of the relatively prime integer coefficients in its minimal defining polynomial. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " denote an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_1, \\ldots, \\alpha_n"
+            },
+            {
+              "type": "text",
+              "content": " denote algebraic numbers, not 0 or 1, such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dagger \\log \\alpha_1, \\ldots, \\log \\alpha_n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ddagger 2\\pi i"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent over the rationals. Further suppose that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.44871794871794873,
+            0.6549707602339181,
+            0.5363247863247863,
+            0.6710526315789473
+          ],
+          "image_path": "images/page_0_equation_4.jpg",
+          "content": "\\kappa > n + 1\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1346153846153846,
+            0.6885964912280702,
+            0.8589743589743589,
+            0.7076023391812866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and let d be any positive integer. We shall prove the following theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.16666666666666666,
+            0.7266081871345029,
+            0.7051282051282052,
+            0.7456140350877193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM. There is an effectively computable number"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.36752136752136755,
+            0.7616959064327485,
+            0.6410256410256411,
+            0.7807017543859649
+          ],
+          "image_path": "images/page_0_equation_7.jpg",
+          "content": "C = C (n, \\alpha_ {1}, \\dots , \\alpha_ {n}, \\kappa , d) > 0"
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.14102564102564102,
+            0.06725146198830409,
+            0.1794871794871795,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "204"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 9,
+          "bbox": [
+            0.13247863247863248,
+            0.7967836257309941,
+            0.8589743589743589,
+            0.8260233918128655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† For log z we take any fixed determination of the logarithm; and then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z^{w}"
+            },
+            {
+              "type": "text",
+              "content": "  means  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{w}\\log z"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 10,
+          "bbox": [
+            0.7777777777777778,
+            0.7982456140350878,
+            0.7991452991452992,
+            0.8114035087719298
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "z^{\\prime \\prime}"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 11,
+          "bbox": [
+            0.24358974358974358,
+            0.8435672514619883,
+            0.2670940170940171,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{n}"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 12,
+          "bbox": [
+            0.16452991452991453,
+            0.8435672514619883,
+            0.21581196581196582,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1},\\ldots,"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 13,
+          "bbox": [
+            0.13247863247863248,
+            0.8260233918128655,
+            0.8589743589743589,
+            0.8713450292397661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "‡ A similar theorem holds if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2\\pi i"
+            },
+            {
+              "type": "text",
+              "content": "  is excluded and we merely postulate that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log \\alpha_{1}, \\ldots, \\log \\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  are linearly independent over the rationals, but the proof is more complicated."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 14,
+          "bbox": [
+            0.2329059829059829,
+            0.9005847953216374,
+            0.27350427350427353,
+            0.9137426900584795
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\kappa > 2"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 15,
+          "bbox": [
+            0.13247863247863248,
+            0.8698830409356725,
+            0.8589743589743589,
+            0.9152046783625731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "§ The precise rôle played by this inequality will be apparent later. The number  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n+1"
+            },
+            {
+              "type": "text",
+              "content": "  arises naturally from the argument, but it is not to be regarded as best possible; indeed it is known that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa>2"
+            },
+            {
+              "type": "text",
+              "content": "  suffices when n=2."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.38247863247863245,
+            0.9005847953216374,
+            0.4337606837606838,
+            0.9137426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n = 2."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.3547008547008547,
+            0.9195906432748538,
+            0.6431623931623932,
+            0.935672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[MATHEMATIKA 13 (1966), 204–216]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.14102564102564102,
+            0.097953216374269,
+            0.8653846153846154,
+            0.13304093567251463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "such that for all algebraic numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots ,\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": ", not all 0, with degrees at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3162393162393162,
+            0.13157894736842105,
+            0.6816239316239316,
+            0.15204678362573099
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "\\left| \\beta_ {1} \\log \\alpha_ {1} + \\dots + \\beta_ {n} \\log \\alpha_ {n} \\right| > C e ^ {- (\\log H) ^ {\\kappa}},\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1388888888888889,
+            0.1564327485380117,
+            0.6858974358974359,
+            0.17690058479532164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": " denotes the maximum of the heights of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots ,\\beta_{n}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1388888888888889,
+            0.18128654970760233,
+            0.8675213675213675,
+            0.23976608187134502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The inequality (2) implies, in particular, that the number on the left is not 0. This immediately gives the first of the following corollaries, and we obtain the second as a direct deduction (see §5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1388888888888889,
+            0.24561403508771928,
+            0.8653846153846154,
+            0.3026315789473684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 1. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1},\\ldots,\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " denote non-zero algebraic numbers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log\\alpha_{1},\\ldots,\\log\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2\\pi i"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent over the rationals then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log\\alpha_{1},\\ldots,\\log\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent over the field of all algebraic numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13675213675213677,
+            0.30701754385964913,
+            0.8632478632478633,
+            0.36403508771929827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COROLLARY 2. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1},\\ldots,\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " denote positive real algebraic numbers other than 1 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots,\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": " denote real algebraic numbers with 1, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots,\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": " linearly independent over the rationals then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1}^{\\beta_{1}}\\ldots\\alpha_{n}^{\\beta_{n}}"
+            },
+            {
+              "type": "text",
+              "content": " is transcendental."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13675213675213677,
+            0.36988304093567254,
+            0.8632478632478633,
+            0.5409356725146199
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The detailed discussion of other applications of the theorem will be deferred to later papers. It is well known, however, that the theorem can be employed to give explicit upper bounds for the size of all the solutions of Diophantine equations of the type "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(x,y) = 1"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " denotes any irreducible binary form with integer coefficients and degree at least 3 (see [4; p. 176]). Furthermore it follows from work of Gelfond and Linnik [5] that the theorem suffices, at least in principle, to settle the celebrated conjecture, dating back to Gauss (cf. Disquisitiones Arithmeticae §303), that there are only nine imaginary quadratic fields with class number 1."
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dagger"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13247863247863248,
+            0.5409356725146199,
+            0.8611111111111112,
+            0.7309941520467836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, as regards the proof of the theorem, our method depends on the construction of an auxiliary function of several complex variables which would seem to be the natural generalisation of the function of a single variable used in Gelfond's original work. The subsequent treatment employed by Gelfond, however, is not applicable in the more general context and so it has been necessary to devise a new technique. Nevertheless it will be appreciated that the argument involves many familiar ideas. The method will probably be capable of considerable development for it applies in principle to many other auxiliary functions apart from the one constructed here."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13247863247863248,
+            0.7309941520467836,
+            0.8589743589743589,
+            0.7690058479532164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The author is grateful to Prof. H. Davenport, who read the original draft of this paper, for his helpful criticism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13034188034188035,
+            0.7807017543859649,
+            0.8589743589743589,
+            0.8976608187134503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Preliminary simplification. It will be apparent from the nature of the proof that the number c specified in the theorem is effectively computable and no further reference will be made to this fact. The purpose of the present section is to show that it suffices to establish the following modified form of the theorem, which relates to only n-1 numbers  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\ldots, \\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 10,
+          "bbox": [
+            0.23076923076923078,
+            0.06578947368421052,
+            0.7756410256410257,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.8269230769230769,
+            0.06578947368421052,
+            0.8653846153846154,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "205"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 12,
+          "bbox": [
+            0.13034188034188035,
+            0.9035087719298246,
+            0.8568376068376068,
+            0.9342105263157895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† Added in proof. I understand that Dr. H. Stark of the University of Michigan has recently proved this conjecture by a different method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13034188034188035,
+            0.097953216374269,
+            0.8568376068376068,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Assume the hypotheses of the theorem. Then there is a number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c > 0"
+            },
+            {
+              "type": "text",
+              "content": " such that for all algebraic numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\ldots, \\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " with degrees at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.26495726495726496,
+            0.14473684210526316,
+            0.7264957264957265,
+            0.16666666666666666
+          ],
+          "image_path": "images/page_2_equation_1.jpg",
+          "content": "\\left| \\beta_ {1} \\log \\alpha_ {1} + \\dots + \\beta_ {n - 1} \\log \\alpha_ {n - 1} - \\log \\alpha_ {n} \\right| \\geqslant e ^ {- (\\log H) ^ {\\kappa}},"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13034188034188035,
+            0.17543859649122806,
+            0.811965811965812,
+            0.19444444444444445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": " denotes any number not less than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c"
+            },
+            {
+              "type": "text",
+              "content": " and the heights of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots,\\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13034188034188035,
+            0.20175438596491227,
+            0.8568376068376068,
+            0.260233918128655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We proceed to prove that this implies the assertion of the theorem. First we note that if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": "  is an algebraic number with degree d and height H then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\alpha| \\leqslant dH"
+            },
+            {
+              "type": "text",
+              "content": " . For if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": "  satisfies an equation of the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.35683760683760685,
+            0.2675438596491228,
+            0.6217948717948718,
+            0.28654970760233917
+          ],
+          "image_path": "images/page_2_equation_4.jpg",
+          "content": "a _ {0} \\alpha^ {d} + a _ {1} \\alpha^ {d - 1} + \\ldots + a _ {d} = 0,"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13247863247863248,
+            0.2953216374269006,
+            0.8547008547008547,
+            0.3347953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{j}"
+            },
+            {
+              "type": "text",
+              "content": " denote integers with absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_0 \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": ", then either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\alpha| < 1"
+            },
+            {
+              "type": "text",
+              "content": " or"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.2777777777777778,
+            0.34210526315789475,
+            0.7136752136752137,
+            0.36257309941520466
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "\\left| \\alpha \\right| \\leqslant \\left| a _ {0} \\alpha \\right| = \\left| a _ {1} + a _ {2} \\alpha^ {- 1} + \\dots + a _ {d} \\alpha^ {- d + 1} \\right| \\leqslant d H."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1346153846153846,
+            0.36988304093567254,
+            0.7457264957264957,
+            0.3888888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe also that for each non-negative integer j we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.32905982905982906,
+            0.40497076023391815,
+            0.6688034188034188,
+            0.42543859649122806
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "(a _ {0} \\alpha) ^ {j} = a _ {0} ^ {(j)} + a _ {1} ^ {(j)} \\alpha + \\ldots + a _ {d - 1} ^ {(j)} \\alpha^ {d - 1},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1346153846153846,
+            0.44005847953216376,
+            0.8589743589743589,
+            0.4780701754385965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the integers  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{m}^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": "  have absolute values at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(2H)^{j}"
+            },
+            {
+              "type": "text",
+              "content": " ; this follows easily from the recurrence relations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.29273504273504275,
+            0.4926900584795322,
+            0.7243589743589743,
+            0.5146198830409356
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "a _ {m} ^ {(j)} = a _ {0} a _ {m - 1} ^ {(j - 1)} - a _ {d - 1} ^ {(j - 1)} a _ {d - m}, \\quad (0 \\leqslant m <   d, j \\geqslant d)"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1346153846153846,
+            0.5277777777777778,
+            0.8611111111111112,
+            0.6447368421052632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{-1}^{(j-1)}=0.\\dagger"
+            },
+            {
+              "type": "text",
+              "content": "  Further we note that, if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha,\\beta"
+            },
+            {
+              "type": "text",
+              "content": "  are algebraic numbers with degrees at most d and heights at most H, then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha\\beta"
+            },
+            {
+              "type": "text",
+              "content": "  has degree at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d^{2}"
+            },
+            {
+              "type": "text",
+              "content": "  and height at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H'"
+            },
+            {
+              "type": "text",
+              "content": ", where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log H'/\\log H"
+            },
+            {
+              "type": "text",
+              "content": "  is bounded above by a number depending only on d. For let a,b denote the leading coefficients in the minimal defining polynomials of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha,\\beta"
+            },
+            {
+              "type": "text",
+              "content": "  and let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha^{(i)},\\beta^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": "  denote their respective conjugates. Then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha\\beta"
+            },
+            {
+              "type": "text",
+              "content": "  is a root of the polynomial"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.4081196581196581,
+            0.6505847953216374,
+            0.6004273504273504,
+            0.6798245614035088
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "(a b) ^ {d ^ {2}} \\prod_ {i, j} (x - \\alpha^ {(i)} \\beta^ {(j)})"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13675213675213677,
+            0.685672514619883,
+            0.8632478632478633,
+            0.7616959064327485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which clearly has integer coefficients‡ and degree at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d^{2}"
+            },
+            {
+              "type": "text",
+              "content": " . The roots of the minimal polynomial of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha\\beta"
+            },
+            {
+              "type": "text",
+              "content": "  are thus given by some subset of the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha^{(i)}\\beta^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": " , and the leading coefficient divides  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(ab)^{d^{2}}"
+            },
+            {
+              "type": "text",
+              "content": " . The assertion now follows from the fact that the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha^{(i)},\\beta^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": "  have absolute values at most dH."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13675213675213677,
+            0.7616959064327485,
+            0.8653846153846154,
+            0.8596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We suppose now that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots,\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": " denote algebraic numbers, not all 0, with degrees at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": ", and we proceed to prove the validity of (2) for some "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C>0"
+            },
+            {
+              "type": "text",
+              "content": ". Without loss of generality we can assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{n}\\neq0"
+            },
+            {
+              "type": "text",
+              "content": ". We write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{r}^{\\prime}=-\\beta_{r}/\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\leqslant r<n"
+            },
+            {
+              "type": "text",
+              "content": ") and we denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " the maximum of the heights of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots,\\beta_{n}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}^{\\prime},\\ldots,\\beta_{n-1}^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " respectively. Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}^{\\prime},\\ldots,\\beta_{n-1}^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " have"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.1346153846153846,
+            0.06578947368421052,
+            0.17307692307692307,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "206"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.44017094017094016,
+            0.06578947368421052,
+            0.5384615384615384,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.7136752136752137,
+            0.9035087719298246,
+            0.7329059829059829,
+            0.9166666666666666
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "d^{2}"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.13675213675213677,
+            0.8728070175438597,
+            0.8632478632478633,
+            0.9035087719298246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† The result will not be needed until the next section, but it is convenient to record it here."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 19,
+          "bbox": [
+            0.13675213675213677,
+            0.902046783625731,
+            0.8653846153846154,
+            0.9327485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "‡ The same is true, though it is not quite so obvious, if the exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d^2"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ab"
+            },
+            {
+              "type": "text",
+              "content": " is replaced by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1346153846153846,
+            0.097953216374269,
+            0.8632478632478633,
+            0.15497076023391812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "degrees at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d^{2}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log H^{\\prime}/\\log H"
+            },
+            {
+              "type": "text",
+              "content": "  is bounded above by a number depending only on d. Further, on writing  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa^{\\prime}=\\frac{1}{2}(\\kappa+n+1)"
+            },
+            {
+              "type": "text",
+              "content": " , so that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa>\\kappa^{\\prime}>n+1"
+            },
+            {
+              "type": "text",
+              "content": " , we deduce from the modified result enunciated above that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.2564102564102564,
+            0.16374269005847952,
+            0.7350427350427351,
+            0.18421052631578946
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "\\left| \\beta_ {1} ^ {\\prime} \\log \\alpha_ {1} + \\dots + \\beta_ {n - 1} ^ {\\prime} \\log \\alpha_ {n - 1} - \\log \\alpha_ {n} \\right| > e ^ {- (\\log H ^ {\\prime \\prime}) \\kappa^ {\\prime}},"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13675213675213677,
+            0.19298245614035087,
+            0.8632478632478633,
+            0.2675438596491228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H''"
+            },
+            {
+              "type": "text",
+              "content": "  denotes the greater of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H'"
+            },
+            {
+              "type": "text",
+              "content": "  and some positive number depending only on  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n, \\alpha_{1}, \\ldots, \\alpha_{n}, \\kappa, d"
+            },
+            {
+              "type": "text",
+              "content": " . Since  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\beta_{n}| \\geqslant (dH)^{-1}"
+            },
+            {
+              "type": "text",
+              "content": " , it follows that the number on the left of (2) exceeds  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(dH)^{-1} e^{-(\\log H'')\\kappa'}"
+            },
+            {
+              "type": "text",
+              "content": " , and this is certainly greater than  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Ce^{-(\\log H)\\kappa}"
+            },
+            {
+              "type": "text",
+              "content": "  for a suitable C. The assertion is thus proved."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13675213675213677,
+            0.2807017543859649,
+            0.8611111111111112,
+            0.31871345029239767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Lemmas. This section establishes four lemmas preliminary to the proof of the theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1346153846153846,
+            0.31871345029239767,
+            0.8632478632478633,
+            0.4517543859649123
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We use the following notation. The numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n, \\alpha_1, \\ldots, \\alpha_n, \\kappa, d"
+            },
+            {
+              "type": "text",
+              "content": " are defined as in §1, except that it will be assumed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": " is not less than the degrees of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_1, \\ldots, \\alpha_n"
+            },
+            {
+              "type": "text",
+              "content": "; this will involve no loss of generality. By "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c, c_1, c_2, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " we denote numbers, greater than 1, which depend only on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n, \\alpha_1, \\ldots, \\alpha_n, \\kappa, d"
+            },
+            {
+              "type": "text",
+              "content": ". The number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c"
+            },
+            {
+              "type": "text",
+              "content": ", which will finally represent the constant specified in the modified form of the theorem given in §2, will be supposed sufficiently large throughout."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13675213675213677,
+            0.4517543859649123,
+            0.8611111111111112,
+            0.5102339181286549
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We assume that the modified form of the theorem is not valid and we shall ultimately deduce a contradiction. Thus we assume that there exist algebraic numbers  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\ldots, \\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": "  with degrees at most d such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.2670940170940171,
+            0.5160818713450293,
+            0.7307692307692307,
+            0.5365497076023392
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "\\left| \\beta_ {1} \\log \\alpha_ {1} + \\dots + \\beta_ {n - 1} \\log \\alpha_ {n - 1} - \\log \\alpha_ {n} \\right| <   e ^ {- (\\log H) ^ {\\kappa}},\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1346153846153846,
+            0.5453216374269005,
+            0.8589743589743589,
+            0.5833333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where H denotes some number not less than c and the heights of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1}, \\ldots, \\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " . Since, for any complex number z,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.4230769230769231,
+            0.5906432748538012,
+            0.5769230769230769,
+            0.6111111111111112
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "\\left| e ^ {z} - 1 \\right| \\leqslant | z | e ^ {| z |},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1346153846153846,
+            0.6111111111111112,
+            0.3247863247863248,
+            0.6286549707602339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we obtain from (3)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.32264957264957267,
+            0.6447368421052632,
+            0.6623931623931624,
+            0.6666666666666666
+          ],
+          "image_path": "images/page_3_equation_10.jpg",
+          "content": "\\left| \\alpha_ {1} ^ {\\beta_ {1}} \\dots \\alpha_ {n - 1} ^ {\\beta_ {n - 1}} - \\alpha_ {n} \\right| <   \\left| \\alpha_ {n} \\right| e ^ {- (\\log H) ^ {\\kappa} + 1}.\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.16880341880341881,
+            0.6798245614035088,
+            0.3888888888888889,
+            0.6988304093567251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We write, for brevity,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.31196581196581197,
+            0.7076023391812866,
+            0.688034188034188,
+            0.7280701754385965
+          ],
+          "image_path": "images/page_3_equation_12.jpg",
+          "content": "\\zeta = \\frac {1}{2} \\{1 + \\kappa / (n + 1) \\}, \\quad \\epsilon = (1 - 1 / \\zeta) / (2 n).\\tag{5}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1346153846153846,
+            0.7368421052631579,
+            0.36538461538461536,
+            0.7543859649122807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then from (1) we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3247863247863248,
+            0.7646198830409356,
+            0.6666666666666666,
+            0.7821637426900585
+          ],
+          "image_path": "images/page_3_equation_14.jpg",
+          "content": "1 <   \\zeta <   \\kappa / (n + 1) \\text {   and   } 0 <   \\epsilon <   1 / (2 n)."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.1346153846153846,
+            0.7807017543859649,
+            0.23931623931623933,
+            0.7967836257309941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.38675213675213677,
+            0.7982456140350878,
+            0.6004273504273504,
+            0.8172514619883041
+          ],
+          "image_path": "images/page_3_equation_16.jpg",
+          "content": "h = [ \\log H ], \\quad k = [ h ^ {\\zeta} ],"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.13247863247863248,
+            0.8260233918128655,
+            0.8547008547008547,
+            0.8435672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where, as usual, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[x]"
+            },
+            {
+              "type": "text",
+              "content": " denotes the integral part of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x"
+            },
+            {
+              "type": "text",
+              "content": ". We write also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = d^{2n - 1}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.1346153846153846,
+            0.8450292397660819,
+            0.8589743589743589,
+            0.8845029239766082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, for any integral function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(z_{1}, \\ldots, z_{n-1})"
+            },
+            {
+              "type": "text",
+              "content": " of the complex variables "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z_{1}, \\ldots, z_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " and any non-negative integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_{1}, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " we put"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.23504273504273504,
+            0.8888888888888888,
+            0.7585470085470085,
+            0.9298245614035088
+          ],
+          "image_path": "images/page_3_equation_19.jpg",
+          "content": "f _ {m _ {1}, \\dots , m _ {n - 1}} (z _ {1}, \\dots , z _ {n - 1}) = \\frac {\\partial^ {m _ {1} + \\dots + m _ {n - 1}}}{\\partial z _ {1} ^ {m _ {1}} \\dots \\partial z _ {n - 1} ^ {m _ {n - 1}}} f (z _ {1}, \\dots , z _ {n - 1})."
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.22435897435897437,
+            0.06725146198830409,
+            0.7713675213675214,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.8247863247863247,
+            0.06725146198830409,
+            0.8589743589743589,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "207"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13675213675213677,
+            0.09502923976608187,
+            0.8632478632478633,
+            0.17251461988304093
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LEMMA 1. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M, N"
+            },
+            {
+              "type": "text",
+              "content": " denote integers with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N > M > 0"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u_{ij} (1 \\leqslant i \\leqslant M, 1 \\leqslant j \\leqslant N)"
+            },
+            {
+              "type": "text",
+              "content": " denote integers with absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": ". Then there exist integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_1, \\ldots, x_N"
+            },
+            {
+              "type": "text",
+              "content": ", not all 0, with absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(NU)^{M/(N-M)}"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.38247863247863245,
+            0.1783625730994152,
+            0.6324786324786325,
+            0.21637426900584794
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "\\sum_ {j = 1} ^ {N} u _ {i j} x _ {j} = 0 \\quad (1 \\leqslant i \\leqslant M).\\tag{6}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1346153846153846,
+            0.22514619883040934,
+            0.8611111111111112,
+            0.2631578947368421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. The lemma is well known, but to avoid reference to external results we give the following proof."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1346153846153846,
+            0.2631578947368421,
+            0.8632478632478633,
+            0.31871345029239767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = [(NU)^{M / (N - M)}]"
+            },
+            {
+              "type": "text",
+              "content": " and note that there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(B + 1)^N"
+            },
+            {
+              "type": "text",
+              "content": " different sets of integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_1, \\ldots, x_N"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant x_j \\leqslant B"
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant N"
+            },
+            {
+              "type": "text",
+              "content": "). For each such set we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.3418803418803419,
+            0.3201754385964912,
+            0.6517094017094017,
+            0.3406432748538012
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "- V _ {i} B \\leqslant y _ {i} \\leqslant W _ {i} B \\quad (1 \\leqslant i \\leqslant M)"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1346153846153846,
+            0.347953216374269,
+            0.8632478632478633,
+            0.4064327485380117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  denotes the left-hand side of (6), and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-V_{i}"
+            },
+            {
+              "type": "text",
+              "content": " ,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  denote the sum of the negative and positive  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u_{ij}"
+            },
+            {
+              "type": "text",
+              "content": "  ( "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j \\leqslant N"
+            },
+            {
+              "type": "text",
+              "content": " ) respectively. Since  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{i} + W_{i} \\leqslant NU"
+            },
+            {
+              "type": "text",
+              "content": "  there are at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(NUB + 1)^{M}"
+            },
+            {
+              "type": "text",
+              "content": "  different sets  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{1}, \\ldots, y_{M}"
+            },
+            {
+              "type": "text",
+              "content": " . Now"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.38675213675213677,
+            0.4137426900584795,
+            0.5961538461538461,
+            0.4327485380116959
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "(B + 1) ^ {N - M} > (N U) ^ {M}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1346153846153846,
+            0.4415204678362573,
+            0.8632478632478633,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and so  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(B+1)^{N}>(NUB+1)^{M}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence there are two distinct sets  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{1},\\ldots,x_{N}"
+            },
+            {
+              "type": "text",
+              "content": "  which correspond to the same set  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{1},\\ldots,y_{M}"
+            },
+            {
+              "type": "text",
+              "content": " , and their difference gives the required solution of (6)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1346153846153846,
+            0.5073099415204678,
+            0.8632478632478633,
+            0.5453216374269005
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LEMMA 2. There are integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_1, \\ldots, \\lambda_n)"
+            },
+            {
+              "type": "text",
+              "content": ", not all 0, with absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{2hk}"
+            },
+            {
+              "type": "text",
+              "content": ", such that the function"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.22435897435897437,
+            0.5526315789473685,
+            0.7777777777777778,
+            0.5906432748538012
+          ],
+          "image_path": "images/page_4_equation_9.jpg",
+          "content": "\\Phi (z _ {1}, \\dots , z _ {n - 1}) = \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\gamma_ {1} z _ {1}} \\dots \\alpha_ {n - 1} ^ {\\gamma_ {n - 1} z _ {n - 1}},"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.1346153846153846,
+            0.5964912280701754,
+            0.6645299145299145,
+            0.6154970760233918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L = [k^{1 - \\epsilon}]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_r = \\lambda_r + \\lambda_n\\beta_r"
+            },
+            {
+              "type": "equation_inline",
+              "content": "(1\\leqslant r < n)"
+            },
+            {
+              "type": "text",
+              "content": ", satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3611111111111111,
+            0.6228070175438597,
+            0.6303418803418803,
+            0.6447368421052632
+          ],
+          "image_path": "images/page_4_equation_11.jpg",
+          "content": "\\left| \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (l, \\dots , l) \\right| <   e ^ {- \\frac {1}{2} h \\kappa}\\tag{7}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1346153846153846,
+            0.6505847953216374,
+            0.8632478632478633,
+            0.6900584795321637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant l \\leqslant h"
+            },
+            {
+              "type": "text",
+              "content": " and all non-negative integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1 + \\ldots + m_{n-1} \\leqslant k"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.17094017094017094,
+            0.695906432748538,
+            0.6944444444444444,
+            0.716374269005848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We shall determine the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_1, \\ldots, \\lambda_n)"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.25,
+            0.7236842105263158,
+            0.7478632478632479,
+            0.7616959064327485
+          ],
+          "image_path": "images/page_4_equation_14.jpg",
+          "content": "\\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} l} \\dots \\alpha_ {n} ^ {\\lambda_ {n} l} \\gamma_ {1} ^ {m _ {1}} \\dots \\gamma_ {n - 1} ^ {m _ {n - 1}} = 0\\tag{8}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.1346153846153846,
+            0.7660818713450293,
+            0.8632478632478633,
+            0.881578947368421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for the above ranges of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": ", and we shall verify subsequently that (8) implies (7). Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_1, \\ldots, a_n, b_1, \\ldots, b_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " denote the leading coefficients (supposed positive) in the minimal defining polynomials of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_1, \\ldots, \\alpha_n, \\beta_1, \\ldots, \\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " respectively. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_1\\alpha_1, \\ldots, a_n\\alpha_n, b_1\\beta_1, \\ldots, b_{n-1}\\beta_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " represent algebraic integers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_1, \\ldots, b_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " do not exceed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": ". Now for any non-negative integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.3034188034188034,
+            0.8859649122807017,
+            0.6858974358974359,
+            0.9254385964912281
+          ],
+          "image_path": "images/page_4_equation_16.jpg",
+          "content": "(a _ {r} \\alpha_ {r}) ^ {j} = \\sum_ {s = 0} ^ {d - 1} a _ {r s} ^ {(j)} \\alpha_ {r} ^ {s}, (b _ {r} \\beta_ {r}) ^ {j} = \\sum_ {t = 0} ^ {d - 1} b _ {r t} ^ {(j)} \\beta_ {r} ^ {t},\\tag{9}"
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.1388888888888889,
+            0.06432748538011696,
+            0.17735042735042736,
+            0.07894736842105263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "208"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.452991452991453,
+            0.06432748538011696,
+            0.5512820512820513,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1346153846153846,
+            0.097953216374269,
+            0.8632478632478633,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{rs}^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_{rt}^{(j)}"
+            },
+            {
+              "type": "text",
+              "content": " denote rational integers with absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c_1^j"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(2H)^j"
+            },
+            {
+              "type": "text",
+              "content": " respectively (see §2). Thus multiplying (8) by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3803418803418803,
+            0.15497076023391812,
+            0.6153846153846154,
+            0.1739766081871345
+          ],
+          "image_path": "images/page_5_equation_1.jpg",
+          "content": "(a _ {1} \\dots a _ {n}) ^ {L l} b _ {1} ^ {m _ {1}} \\dots b _ {n - 1} ^ {m _ {n - 1}},"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1346153846153846,
+            0.19005847953216373,
+            0.21581196581196582,
+            0.20760233918128654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "writing"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3418803418803419,
+            0.19736842105263158,
+            0.6474358974358975,
+            0.23538011695906433
+          ],
+          "image_path": "images/page_5_equation_3.jpg",
+          "content": "\\gamma_ {r} ^ {m _ {r}} = \\sum_ {\\mu_ {r} = 0} ^ {m _ {r}} \\binom{m _ {r}}{\\mu_ {r}} \\lambda_ {r} ^ {m _ {r} - \\mu_ {r}} (\\lambda_ {n} \\beta_ {r}) ^ {\\mu_ {r}}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13675213675213677,
+            0.23976608187134502,
+            0.8611111111111112,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and substituting from (9) for the powers of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{r}\\alpha_{r}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b_{r}\\beta_{r}"
+            },
+            {
+              "type": "text",
+              "content": "  which result, we obtain the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.2329059829059829,
+            0.28362573099415206,
+            0.7585470085470085,
+            0.32456140350877194
+          ],
+          "image_path": "images/page_5_equation_5.jpg",
+          "content": "\\sum_ {s _ {1} = 0} ^ {d - 1} \\dots \\sum_ {s _ {n} = 0} ^ {d - 1} \\sum_ {t _ {1} = 0} ^ {d - 1} \\dots \\sum_ {t _ {n - 1} = 0} ^ {d - 1} A (s, t) \\alpha_ {1} ^ {s _ {1}} \\dots \\alpha_ {n} ^ {s _ {n}} \\beta_ {1} ^ {t _ {1}} \\dots \\beta_ {n - 1} ^ {t _ {n - 1}} = 0,"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1346153846153846,
+            0.3304093567251462,
+            0.202991452991453,
+            0.34649122807017546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.2222222222222222,
+            0.35526315789473684,
+            0.7649572649572649,
+            0.39473684210526316
+          ],
+          "image_path": "images/page_5_equation_7.jpg",
+          "content": "A (s, t) = \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} \\sum_ {\\mu_ {1} = 0} ^ {m _ {1}} \\dots \\sum_ {\\mu_ {n - 1} = 0} ^ {m _ {n - 1}} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) v (\\lambda) w (\\lambda , \\mu)"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13675213675213677,
+            0.3991228070175439,
+            0.18376068376068377,
+            0.4166666666666667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3782051282051282,
+            0.40789473684210525,
+            0.6132478632478633,
+            0.44298245614035087
+          ],
+          "image_path": "images/page_5_equation_9.jpg",
+          "content": "v (\\lambda) = \\prod_ {r = 1} ^ {n} \\left\\{a _ {r} ^ {(L - \\lambda_ {r}) l} a _ {r, s _ {r}} ^ {(\\lambda_ {r} l)} \\right\\},"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.30128205128205127,
+            0.45614035087719296,
+            0.6923076923076923,
+            0.4956140350877193
+          ],
+          "image_path": "images/page_5_equation_10.jpg",
+          "content": "w (\\lambda , \\mu) = \\prod_ {r = 1} ^ {n - 1} \\left\\{\\binom{m _ {r}}{\\mu_ {r}} (b _ {r} \\lambda_ {r}) ^ {m _ {r} - \\mu_ {r}} \\lambda_ {n} ^ {\\mu_ {r}} b _ {r, t _ {r}} ^ {(\\mu_ {r})} \\right\\}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1346153846153846,
+            0.5,
+            0.8611111111111112,
+            0.5555555555555556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus (8) will be satisfied if the D equations  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(s, t)=0"
+            },
+            {
+              "type": "text",
+              "content": "  hold. Now these represent linear equations in the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_{1}, \\ldots, \\lambda_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  with integer coefficients. Further, since"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.2841880341880342,
+            0.5628654970760234,
+            0.7094017094017094,
+            0.5994152046783626
+          ],
+          "image_path": "images/page_5_equation_12.jpg",
+          "content": "l \\leqslant h, \\quad m _ {1} + \\ldots + m _ {n - 1} \\leqslant k \\text {and} \\binom{m _ {r}}{\\mu_ {r}} \\leqslant 2 ^ {m _ {r}},"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1346153846153846,
+            0.6067251461988304,
+            0.22435897435897437,
+            0.6228070175438597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3333333333333333,
+            0.6140350877192983,
+            0.6388888888888888,
+            0.6505847953216374
+          ],
+          "image_path": "images/page_5_equation_14.jpg",
+          "content": "\\left| v (\\lambda) \\right| \\leqslant \\prod_ {r = 1} ^ {n} \\left\\{a _ {r} ^ {(L - \\lambda_ {r}) l} c _ {1} ^ {\\lambda_ {r} l} \\right\\} \\leqslant c _ {2} ^ {L h},"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.31196581196581197,
+            0.6637426900584795,
+            0.6410256410256411,
+            0.7002923976608187
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "\\left| w (\\lambda , \\mu) \\right| \\leqslant \\prod_ {r = 1} ^ {n - 1} (4 H L) ^ {m _ {r}} \\leqslant (4 H L) ^ {k}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.1346153846153846,
+            0.7076023391812866,
+            0.8141025641025641,
+            0.7266081871345029
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence the coefficient of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_1, \\ldots, \\lambda_n)"
+            },
+            {
+              "type": "text",
+              "content": " in the linear form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(s, t)"
+            },
+            {
+              "type": "text",
+              "content": ", namely"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.35683760683760685,
+            0.7353801169590644,
+            0.6004273504273504,
+            0.7719298245614035
+          ],
+          "image_path": "images/page_5_equation_17.jpg",
+          "content": "\\sum_ {\\mu_ {1} = 0} ^ {m _ {1}} \\dots \\sum_ {\\mu_ {n - 1} = 0} ^ {m _ {n - 1}} v (\\lambda) w (\\lambda , \\mu),"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.1346153846153846,
+            0.7763157894736842,
+            0.6858974358974359,
+            0.7967836257309941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has absolute value at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = c_{2}^{L\\mathbf{h}}(8HL)^{k}"
+            },
+            {
+              "type": "text",
+              "content": "; for clearly"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.3141025641025641,
+            0.8070175438596491,
+            0.6901709401709402,
+            0.827485380116959
+          ],
+          "image_path": "images/page_5_equation_19.jpg",
+          "content": "(m _ {1} + 1) \\dots (m _ {n - 1} + 1) \\leqslant 2 ^ {m _ {1} + \\dots + m _ {n - 1}} \\leqslant 2 ^ {k}."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.13247863247863248,
+            0.8377192982456141,
+            0.8611111111111112,
+            0.9342105263157895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now there are at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(k + 1)^{n - 1}h"
+            },
+            {
+              "type": "text",
+              "content": " distinct sets of integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l, m_1, \\ldots, m_{n - 1}"
+            },
+            {
+              "type": "text",
+              "content": " and hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M \\leqslant D(k + 1)^{n - 1}h"
+            },
+            {
+              "type": "text",
+              "content": " equations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(s,t) = 0"
+            },
+            {
+              "type": "text",
+              "content": " corresponding to them. Further, there are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = (L + 1)^n"
+            },
+            {
+              "type": "text",
+              "content": " unknowns "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_1,\\dots,\\lambda_n)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N > k^{n - n\\epsilon} > 2M"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k > \\frac{1}{2} h^{\\zeta}"
+            },
+            {
+              "type": "text",
+              "content": " and, by (5), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n\\epsilon < 1 - 1 / \\zeta"
+            },
+            {
+              "type": "text",
+              "content": ". It follows from Lemma 1 that the system of equations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A(s,t) = 0"
+            },
+            {
+              "type": "text",
+              "content": " can be solved non-trivially and indeed the"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.8333333333333334,
+            0.9385964912280702,
+            0.8589743589743589,
+            0.9488304093567251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N*"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 22,
+          "bbox": [
+            0.2222222222222222,
+            0.06578947368421052,
+            0.7692307692307693,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.8226495726495726,
+            0.06578947368421052,
+            0.8611111111111112,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "209"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13675213675213677,
+            0.09502923976608187,
+            0.8611111111111112,
+            0.13304093567251463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_1, \\ldots, \\lambda_n)"
+            },
+            {
+              "type": "text",
+              "content": " can be chosen to have absolute values at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "NU"
+            },
+            {
+              "type": "text",
+              "content": ". Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\leqslant k^{1 - \\epsilon}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log H < \\frac{3}{2} h"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\leqslant h^\\zeta"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3611111111111111,
+            0.14473684210526316,
+            0.6367521367521367,
+            0.16374269005847952
+          ],
+          "image_path": "images/page_6_equation_1.jpg",
+          "content": "N U \\leqslant k ^ {n} c _ {2} ^ {L h} (8 k e ^ {(3 / 2) h}) ^ {k} \\leqslant e ^ {2 h k}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13675213675213677,
+            0.17543859649122806,
+            0.48504273504273504,
+            0.19298245614035087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h"
+            },
+            {
+              "type": "text",
+              "content": " is sufficiently large, as required."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1346153846153846,
+            0.195906432748538,
+            0.8632478632478633,
+            0.2719298245614035
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It remains only to verify that (8) implies (7). Now it is clear that the left-hand side of (8) is obtained from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi_{m_1,\\ldots,m_{n-1}}(l,\\ldots,l)"
+            },
+            {
+              "type": "text",
+              "content": ", apart from a factor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(\\log \\alpha_1)^{m_1}\\ldots (\\log \\alpha_{n-1})^{m_n - 1}"
+            },
+            {
+              "type": "text",
+              "content": " in the latter, by substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1}^{\\beta_{1}}\\ldots \\alpha_{n-1}^{\\beta_{n-1}}"
+            },
+            {
+              "type": "text",
+              "content": ". From (4) we deduce that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.2670940170940171,
+            0.2880116959064328,
+            0.7393162393162394,
+            0.30994152046783624
+          ],
+          "image_path": "images/page_6_equation_4.jpg",
+          "content": "\\left| \\left(\\alpha_ {1} ^ {\\beta_ {1}} \\dots \\alpha_ {n - 1} ^ {\\beta_ {n - 1}}\\right) ^ {\\lambda_ {n} l} - \\alpha_ {n} ^ {\\lambda_ {n} l} \\right| \\leqslant c _ {3} ^ {L l} e ^ {- (\\log H) ^ {\\kappa}} \\leqslant c _ {3} ^ {L h} e ^ {- h ^ {\\kappa}}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1346153846153846,
+            0.3260233918128655,
+            0.6474358974358975,
+            0.347953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\beta_r| \\leqslant dH"
+            },
+            {
+              "type": "text",
+              "content": ", we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\gamma_r| \\leqslant 2dLH"
+            },
+            {
+              "type": "text",
+              "content": " and so"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.1346153846153846,
+            0.3654970760233918,
+            0.8589743589743589,
+            0.38596491228070173
+          ],
+          "image_path": "images/page_6_equation_6.jpg",
+          "content": "\\left| \\left(\\log \\alpha_ {1}\\right) ^ {m _ {1}} \\dots \\left(\\log \\alpha_ {n - 1}\\right) ^ {m _ {n - 1}} \\alpha_ {1} ^ {\\lambda_ {1} l} \\dots \\alpha_ {n - 1} ^ {\\lambda_ {n - 1} l} \\gamma_ {1} ^ {m _ {1}} \\dots \\gamma_ {n - 1} ^ {m _ {n - 1}} \\right| \\leqslant c _ {4} ^ {k + L l} (2 d L H) ^ {k} <   e ^ {2 h k}."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1346153846153846,
+            0.40058479532163743,
+            0.2948717948717949,
+            0.4166666666666667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.2905982905982906,
+            0.4269005847953216,
+            0.7094017094017094,
+            0.44883040935672514
+          ],
+          "image_path": "images/page_6_equation_8.jpg",
+          "content": "\\left| \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (l, \\dots , l) \\right| \\leqslant (L + 1) ^ {n} e ^ {4 h k} c _ {3} ^ {L h} e ^ {- h \\kappa}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1346153846153846,
+            0.45760233918128657,
+            0.8589743589743589,
+            0.49707602339181284
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and (7) follows since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\leqslant k"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Lh \\leqslant hk \\leqslant h^{1 + \\zeta}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa > 1 + \\zeta"
+            },
+            {
+              "type": "text",
+              "content": ". This completes the proof of the lemma."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.16666666666666666,
+            0.5087719298245614,
+            0.75,
+            0.5277777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LEMMA 3. For any non-negative integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " with"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.40384615384615385,
+            0.5365497076023392,
+            0.5876068376068376,
+            0.5555555555555556
+          ],
+          "image_path": "images/page_6_equation_11.jpg",
+          "content": "m _ {1} + \\dots + m _ {n - 1} \\leqslant k"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13247863247863248,
+            0.564327485380117,
+            0.48717948717948717,
+            0.5818713450292398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and any complex number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3418803418803419,
+            0.5906432748538012,
+            0.6602564102564102,
+            0.6125730994152047
+          ],
+          "image_path": "images/page_6_equation_13.jpg",
+          "content": "\\left| \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (z, \\dots , z) \\right| \\leqslant e ^ {4 h k} c _ {5} ^ {L | z |}.\\tag{10}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1346153846153846,
+            0.618421052631579,
+            0.7264957264957265,
+            0.6374269005847953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, for any integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 < l \\leqslant h^{\\kappa - \\zeta + \\frac{1}{2}\\epsilon \\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ", either (7) holds or"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.3269230769230769,
+            0.6461988304093568,
+            0.6666666666666666,
+            0.6681286549707602
+          ],
+          "image_path": "images/page_6_equation_15.jpg",
+          "content": "\\left| \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (l, \\dots , l) \\right| > (e ^ {6 h k} c _ {6} ^ {L l}) ^ {- D}.\\tag{11}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.16880341880341881,
+            0.6783625730994152,
+            0.34615384615384615,
+            0.6973684210526315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.23504273504273504,
+            0.7046783625730995,
+            0.7585470085470085,
+            0.7426900584795322
+          ],
+          "image_path": "images/page_6_equation_17.jpg",
+          "content": "\\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (z, \\dots , z) = P \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) q (\\lambda , z),"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.1346153846153846,
+            0.7470760233918129,
+            0.20085470085470086,
+            0.7631578947368421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.18376068376068377,
+            0.7777777777777778,
+            0.8162393162393162,
+            0.7967836257309941
+          ],
+          "image_path": "images/page_6_equation_19.jpg",
+          "content": "P = (\\log \\alpha_ {1}) ^ {m _ {1}} \\dots (\\log \\alpha_ {n - 1}) ^ {m _ {n - 1}}, q (\\lambda , z) = \\alpha_ {1} ^ {\\gamma_ {1} z} \\dots \\alpha_ {n - 1} ^ {\\gamma_ {n - 1} z} \\gamma_ {1} ^ {m _ {1}} \\dots \\gamma_ {n - 1} ^ {m _ {n - 1}}."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.13247863247863248,
+            0.8099415204678363,
+            0.344017094017094,
+            0.8289473684210527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now (3) implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.36538461538461536,
+            0.8435672514619883,
+            0.6367521367521367,
+            0.8640350877192983
+          ],
+          "image_path": "images/page_6_equation_21.jpg",
+          "content": "\\left| \\alpha_ {1} ^ {\\beta_ {1} z} \\dots \\alpha_ {n - 1} ^ {\\beta_ {n - 1} z} \\right| \\leqslant e ^ {(| \\log \\alpha_ {n} | + 1) | z |}"
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.14102564102564102,
+            0.06432748538011696,
+            0.1794871794871795,
+            0.07894736842105263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "210"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 23,
+          "bbox": [
+            0.452991452991453,
+            0.06286549707602339,
+            0.5512820512820513,
+            0.07894736842105263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 24,
+          "bbox": [
+            0.26495726495726496,
+            0.9152046783625731,
+            0.7222222222222222,
+            0.9327485380116959
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "|x^{\\lambda} - y^{\\lambda}| = |x - y| |x^{\\lambda - 1}y + \\ldots + xy^{\\lambda - 1}| \\leqslant \\lambda |x - y| (|y| + 1)^{\\lambda}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 25,
+          "bbox": [
+            0.16666666666666666,
+            0.8918128654970761,
+            0.6602564102564102,
+            0.9108187134502924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\alpha_{1}^{\\beta_{1}} \\ldots \\alpha_{n-1}^{\\beta_{n-1}}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = \\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda = \\lambda_{n} l"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|x| < |y| + 1"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1388888888888889,
+            0.09941520467836257,
+            0.5085470085470085,
+            0.11842105263157894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and since also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\gamma_r| \\leqslant 2dLH"
+            },
+            {
+              "type": "text",
+              "content": ", we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.24786324786324787,
+            0.12719298245614036,
+            0.75,
+            0.16374269005847952
+          ],
+          "image_path": "images/page_7_equation_1.jpg",
+          "content": "\\mid P q (\\lambda , z) \\mid \\leqslant \\prod_ {r = 1} ^ {n - 1} \\left\\{c _ {7} ^ {L | z |} (2 c _ {8} d L H) ^ {m _ {r}} \\right\\} \\leqslant c _ {5} ^ {L | z |} (2 c _ {8} d L H) ^ {k}."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13675213675213677,
+            0.1695906432748538,
+            0.5876068376068376,
+            0.18859649122807018
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus the number on the left of (10) is at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3162393162393162,
+            0.195906432748538,
+            0.6858974358974359,
+            0.21637426900584794
+          ],
+          "image_path": "images/page_7_equation_3.jpg",
+          "content": "(L + 1) ^ {n} e ^ {2 h k} c _ {5} ^ {L | z |} (2 c _ {8} d L H) ^ {k} \\leqslant e ^ {4 h k} c _ {5} ^ {L | z |},"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1388888888888889,
+            0.22076023391812866,
+            0.25854700854700857,
+            0.23684210526315788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "as required."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.16880341880341881,
+            0.23830409356725146,
+            0.6666666666666666,
+            0.2573099415204678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove the second assertion we begin by defining"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.32051282051282054,
+            0.2646198830409357,
+            0.6816239316239316,
+            0.3026315789473684
+          ],
+          "image_path": "images/page_7_equation_6.jpg",
+          "content": "Q = P ^ {\\prime} \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) q ^ {\\prime} (\\lambda , l),"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1388888888888889,
+            0.3055555555555556,
+            0.20512820512820512,
+            0.3216374269005848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.19230769230769232,
+            0.3362573099415205,
+            0.8012820512820513,
+            0.3567251461988304
+          ],
+          "image_path": "images/page_7_equation_8.jpg",
+          "content": "P ^ {\\prime} = (a _ {1} \\dots a _ {n}) ^ {L l} b _ {1} ^ {m _ {1}} \\dots b _ {n - 1} ^ {m _ {n - 1}}, q ^ {\\prime} (\\lambda , l) = \\alpha_ {1} ^ {\\lambda_ {1} l} \\dots \\alpha_ {n} ^ {\\lambda_ {n} l} \\gamma_ {1} ^ {m _ {1}} \\dots \\gamma_ {n - 1} ^ {m _ {n - 1}}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13675213675213677,
+            0.37280701754385964,
+            0.8632478632478633,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{r}, b_{r}"
+            },
+            {
+              "type": "text",
+              "content": "  are given as in the proof of Lemma 2. Then it is clear that Q represents an algebraic integer with degree at most D. Further, any conjugate of Q, obtained by substituting arbitrary conjugates for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{r}, \\beta_{r}"
+            },
+            {
+              "type": "text",
+              "content": " , has absolute value at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.3311965811965812,
+            0.4546783625730994,
+            0.6666666666666666,
+            0.47514619883040937
+          ],
+          "image_path": "images/page_7_equation_10.jpg",
+          "content": "(L + 1) ^ {n} e ^ {2 h k} c _ {9} ^ {L l} (2 d L H) ^ {2 k} \\leqslant e ^ {6 h k} c _ {9} ^ {L l}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13675213675213677,
+            0.48391812865497075,
+            0.5341880341880342,
+            0.5029239766081871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|\\operatorname{Norm} Q| \\geqslant 1"
+            },
+            {
+              "type": "text",
+              "content": " and hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.3952991452991453,
+            0.5116959064327485,
+            0.5897435897435898,
+            0.5307017543859649
+          ],
+          "image_path": "images/page_7_equation_12.jpg",
+          "content": "\\mid Q \\mid \\geqslant (e ^ {6 h k} c _ {9} ^ {L l}) ^ {- D + 1}."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13675213675213677,
+            0.5380116959064327,
+            0.7243589743589743,
+            0.5584795321637427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now by (4) we see that (cf. the end of the proof of Lemma 2)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3247863247863248,
+            0.5657894736842105,
+            0.6666666666666666,
+            0.5862573099415205
+          ],
+          "image_path": "images/page_7_equation_14.jpg",
+          "content": "\\left| q (\\lambda , l) - q ^ {\\prime} (\\lambda , l) \\right| \\leqslant c _ {1 0} ^ {L l} (2 d L H) ^ {k} e ^ {- h \\kappa}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.1346153846153846,
+            0.5935672514619883,
+            0.8611111111111112,
+            0.6330409356725146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and, by virtue of the inequalities "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L \\leqslant h^{\\zeta(1 - \\epsilon)}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa > 1 + \\zeta"
+            },
+            {
+              "type": "text",
+              "content": " and the supposition "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l \\leqslant h^{\\kappa - \\zeta + \\frac{1}{2}\\epsilon\\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ", the number on the right is at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{-\\frac{1}{2}h\\kappa}"
+            },
+            {
+              "type": "text",
+              "content": ". Hence we deduce that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.21367521367521367,
+            0.6403508771929824,
+            0.7777777777777778,
+            0.6608187134502924
+          ],
+          "image_path": "images/page_7_equation_16.jpg",
+          "content": "\\left| P ^ {- 1} \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (l, \\dots , l) - P ^ {\\prime - 1} Q \\right| \\leqslant (L + 1) ^ {n} e ^ {2 h k - \\frac {3}{4} h \\kappa} <   e ^ {- \\frac {5}{8} h \\kappa}."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.13675213675213677,
+            0.6681286549707602,
+            0.8611111111111112,
+            0.6885964912280702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The second part of the lemma now follows on using the trivial inequalities"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.3418803418803419,
+            0.695906432748538,
+            0.6495726495726496,
+            0.716374269005848
+          ],
+          "image_path": "images/page_7_equation_18.jpg",
+          "content": "\\mid P / P ^ {\\prime} \\mid > c _ {1 1} ^ {- L l - k} H ^ {- k}, \\quad \\mid P \\mid <   c _ {1 2} ^ {k},"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.13675213675213677,
+            0.7236842105263158,
+            0.7863247863247863,
+            0.7426900584795322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the asserted alternatives corresponding to the cases Q=0 or  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q\\neq0"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.16880341880341881,
+            0.7543859649122807,
+            0.7243589743589743,
+            0.7733918128654971
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LEMMA 4. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J"
+            },
+            {
+              "type": "text",
+              "content": " be any integer satisfying "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant J < \\tau"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.35683760683760685,
+            0.7821637426900585,
+            0.6239316239316239,
+            0.8011695906432749
+          ],
+          "image_path": "images/page_7_equation_21.jpg",
+          "content": "\\tau = 2 \\epsilon^ {- 1} \\left\\{\\left(\\kappa - 1\\right) \\zeta^ {- 1} - 1 \\right\\} + 1.\\tag{12}"
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.1346153846153846,
+            0.8099415204678363,
+            0.8611111111111112,
+            0.8494152046783626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then (7) holds for all integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant l \\leqslant hk^{\\frac{1}{2} \\epsilon J}"
+            },
+            {
+              "type": "text",
+              "content": " and each set of non-negative integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1 + \\ldots + m_{n-1} \\leqslant k / 2^J"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.13247863247863248,
+            0.8596491228070176,
+            0.8611111111111112,
+            0.9342105263157895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. The lemma is true for J=0 by Lemma 2. We suppose that K is an integer satisfying  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant K < \\tau - 1"
+            },
+            {
+              "type": "text",
+              "content": "  and we assume that the lemma is true for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J=0, 1, \\ldots, K"
+            },
+            {
+              "type": "text",
+              "content": " . We proceed to prove the validity of the lemma for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "J=K+1"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 24,
+          "bbox": [
+            0.2264957264957265,
+            0.06871345029239766,
+            0.7735042735042735,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 25,
+          "bbox": [
+            0.8269230769230769,
+            0.06725146198830409,
+            0.8632478632478633,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "211"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17094017094017094,
+            0.09649122807017543,
+            0.38461538461538464,
+            0.1154970760233918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin by defining"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.29273504273504275,
+            0.12280701754385964,
+            0.7029914529914529,
+            0.14327485380116958
+          ],
+          "image_path": "images/page_8_equation_1.jpg",
+          "content": "R _ {J} = [ h k ^ {\\frac {1}{2} \\epsilon J} ], \\quad S _ {J} = [ k / 2 ^ {J} ] \\quad (J = 0, 1, \\dots)."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1346153846153846,
+            0.15058479532163743,
+            0.8611111111111112,
+            0.20760233918128654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It suffices then to prove that for any integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_K < l \\leqslant R_{K+1}"
+            },
+            {
+              "type": "text",
+              "content": " and any set of non-negative integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1, \\ldots, m_{n-1}"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m_1 + \\ldots + m_{n-1} \\leqslant S_{K+1}"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.4358974358974359,
+            0.20760233918128654,
+            0.5662393162393162,
+            0.22807017543859648
+          ],
+          "image_path": "images/page_8_equation_3.jpg",
+          "content": "\\mid f (l) \\mid <   e ^ {- \\frac {1}{2} h ^ {\\kappa}},\\tag{13}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13675213675213677,
+            0.22514619883040934,
+            0.202991452991453,
+            0.24269005847953215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3717948717948718,
+            0.2412280701754386,
+            0.6260683760683761,
+            0.26169590643274854
+          ],
+          "image_path": "images/page_8_equation_5.jpg",
+          "content": "f (z) = \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (z, \\dots , z)."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1346153846153846,
+            0.2675438596491228,
+            0.8589743589743589,
+            0.30701754385964913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By our inductive hypothesis we see that for each integer r with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant r \\leqslant R_{K}"
+            },
+            {
+              "type": "text",
+              "content": "  and each integer m satisfying  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant m \\leqslant S_{K+1}"
+            },
+            {
+              "type": "text",
+              "content": "  we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.41452991452991456,
+            0.31432748538011696,
+            0.5876068376068376,
+            0.3347953216374269
+          ],
+          "image_path": "images/page_8_equation_7.jpg",
+          "content": "\\left| f _ {m} (r) \\right| <   n ^ {k} e ^ {- \\frac {1}{2} h ^ {\\kappa}};\\tag{14}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1346153846153846,
+            0.3347953216374269,
+            0.3333333333333333,
+            0.3538011695906433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{m}(r)"
+            },
+            {
+              "type": "text",
+              "content": " is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.28205128205128205,
+            0.358187134502924,
+            0.7136752136752137,
+            0.39766081871345027
+          ],
+          "image_path": "images/page_8_equation_9.jpg",
+          "content": "\\left(\\frac {\\partial}{\\partial z _ {1}} + \\dots + \\frac {\\partial}{\\partial z _ {n - 1}}\\right) ^ {m} \\Phi_ {m _ {1}, \\dots , m _ {n - 1}} (z _ {1}, \\dots , z _ {n - 1})"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.1346153846153846,
+            0.40497076023391815,
+            0.6132478632478633,
+            0.4239766081871345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "evaluated at the point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z_{1} = \\ldots = z_{n - 1} = r"
+            },
+            {
+              "type": "text",
+              "content": ", that is by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.24572649572649571,
+            0.4298245614035088,
+            0.75,
+            0.4766081871345029
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "\\sum_{\\substack{j_{1} = 0\\\\ j_{1} + \\ldots +j_{n - 1} = m}}^{m}\\dots \\sum_{j_{n - 1} = 0}^{m}\\frac{m!}{j_{1}!\\cdots j_{n - 1}!}\\Phi_{m_{1} + j_{1},\\ldots ,m_{n - 1} + j_{n - 1}}(r,\\ldots ,r),"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1346153846153846,
+            0.48391812865497075,
+            0.8055555555555556,
+            0.5029239766081871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and the absolute values of the derivatives here are at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{-\\frac{1}{2}h\\kappa}"
+            },
+            {
+              "type": "text",
+              "content": "  since"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3162393162393162,
+            0.5116959064327485,
+            0.6794871794871795,
+            0.5307017543859649
+          ],
+          "image_path": "images/page_8_equation_13.jpg",
+          "content": "m _ {1} + \\dots + m _ {n - 1} + j _ {1} + \\dots + j _ {n - 1} \\leqslant k / 2 ^ {K}."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1346153846153846,
+            0.5380116959064327,
+            0.35683760683760685,
+            0.5570175438596491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We write, for brevity,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.33760683760683763,
+            0.5628654970760234,
+            0.6431623931623932,
+            0.5833333333333334
+          ],
+          "image_path": "images/page_8_equation_15.jpg",
+          "content": "F (z) = \\{(z - 1) \\dots (z - R _ {K}) \\} ^ {S _ {\\mathbb {R} + 1} + 1}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13247863247863248,
+            0.5906432748538012,
+            0.8611111111111112,
+            0.6476608187134503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and we denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C"
+            },
+            {
+              "type": "text",
+              "content": " the circle in the complex plane, described in the positive sense, with centre the origin and with radius "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{K+1} \\log h"
+            },
+            {
+              "type": "text",
+              "content": ". Then by Cauchy's residue theorem we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.1346153846153846,
+            0.6535087719298246,
+            0.7905982905982906,
+            0.6929824561403509
+          ],
+          "image_path": "images/page_8_equation_17.jpg",
+          "content": "\\frac {1}{2 \\pi i} \\int_ {C} \\frac {f (z)}{(z - l) F (z)} d z = \\frac {f (l)}{F (l)} + \\frac {1}{2 \\pi i} \\sum_ {r = 1} ^ {R \\pi} \\sum_ {m = 0} ^ {S _ {K + 1}} \\frac {f _ {m} (r)}{m !} \\int_ {\\Gamma_ {r}} \\frac {(z - r) ^ {m} d z}{(z - l) F (z)},\\tag{15}"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.13247863247863248,
+            0.6988304093567251,
+            0.8611111111111112,
+            0.7558479532163743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma_{r}"
+            },
+            {
+              "type": "text",
+              "content": "  denotes the circle in the complex plane, described in the positive sense, with centre r and radius  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}"
+            },
+            {
+              "type": "text",
+              "content": " ; for the residue of the pole of the integrand on the left at z=r is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.3269230769230769,
+            0.7616959064327485,
+            0.6645299145299145,
+            0.8011695906432749
+          ],
+          "image_path": "images/page_8_equation_19.jpg",
+          "content": "\\frac {1}{S _ {K + 1} !} \\frac {d ^ {S _ {K + 1}}}{d z ^ {S _ {K + 1}}} \\left\\{\\frac {(z - r) ^ {S _ {K + 1} + 1} f (z)}{(z - l) F (z)} \\right\\}"
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.13247863247863248,
+            0.8084795321637427,
+            0.7649572649572649,
+            0.827485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "evaluated at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z=r"
+            },
+            {
+              "type": "text",
+              "content": ", and the integral over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma_{r}"
+            },
+            {
+              "type": "text",
+              "content": " on the right is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.3141025641025641,
+            0.8318713450292398,
+            0.6837606837606838,
+            0.8728070175438597
+          ],
+          "image_path": "images/page_8_equation_21.jpg",
+          "content": "\\frac {2 \\pi i}{(S _ {K + 1} - m) !} \\frac {d ^ {S _ {K + 1} - m}}{d z ^ {S _ {K + 1} - m}} \\left\\{\\frac {(z - r) ^ {S _ {K + 1} + 1}}{(z - l) F (z)} \\right\\}"
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.13247863247863248,
+            0.8786549707602339,
+            0.8589743589743589,
+            0.9152046783625731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "again evaluated at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z = r"
+            },
+            {
+              "type": "text",
+              "content": ", and (15) now follows by Leibnitz's theorem. Since, for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "z"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma_r"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.3717948717948718,
+            0.9122807017543859,
+            0.6047008547008547,
+            0.9327485380116959
+          ],
+          "image_path": "images/page_8_equation_23.jpg",
+          "content": "\\left| (z - r) ^ {m} / F (z) \\right| \\leqslant 8 ^ {S _ {K + 1} + 1},"
+        },
+        {
+          "type": "page_number",
+          "index": 24,
+          "bbox": [
+            0.1388888888888889,
+            0.06578947368421052,
+            0.17735042735042736,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "212"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 25,
+          "bbox": [
+            0.452991452991453,
+            0.06432748538011696,
+            0.5491452991452992,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1388888888888889,
+            0.097953216374269,
+            0.5512820512820513,
+            0.11695906432748537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we deduce from (14) and the inequalities"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3547008547008547,
+            0.12573099415204678,
+            0.6474358974358975,
+            0.14473684210526316
+          ],
+          "image_path": "images/page_9_equation_1.jpg",
+          "content": "R _ {K} (S _ {K + 1} + 1) \\leqslant h k ^ {\\frac {1}{2} \\epsilon (\\tau - 1) + 1} \\leqslant h ^ {\\kappa},"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1388888888888889,
+            0.15497076023391812,
+            0.8675213675213675,
+            0.1739766081871345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that the absolute value of the double sum on the right of (15) is at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.25854700854700857,
+            0.17982456140350878,
+            0.7393162393162394,
+            0.20029239766081872
+          ],
+          "image_path": "images/page_9_equation_3.jpg",
+          "content": "R _ {K} (S _ {K + 1} + 1) 8 ^ {S _ {K + 1} + 1} n ^ {k} e ^ {- \\frac {1}{2} h \\kappa} \\leqslant h ^ {\\kappa} (8 n) ^ {k} e ^ {- \\frac {1}{2} h \\kappa} <   e ^ {- \\frac {1}{2} h \\kappa}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1388888888888889,
+            0.20760233918128654,
+            0.3717948717948718,
+            0.22660818713450293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further it is clear that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.34615384615384615,
+            0.23684210526315788,
+            0.6495726495726496,
+            0.25877192982456143
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "\\left| F (l) \\right| \\leqslant l ^ {R _ {K} (S _ {K + 1} + 1)} \\leqslant R _ {K + 1} ^ {R _ {K} (S _ {K + 1} + 1)}\\tag{16}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13675213675213677,
+            0.2675438596491228,
+            0.3504273504273504,
+            0.2850877192982456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also since, from (12),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.38247863247863245,
+            0.2850877192982456,
+            0.6111111111111112,
+            0.3055555555555556
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "R _ {K + 1} \\leqslant h k ^ {\\frac {1}{2} \\epsilon \\tau} \\leqslant h ^ {\\kappa - \\zeta + \\frac {1}{2} \\epsilon \\zeta},\\tag{17}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1346153846153846,
+            0.3128654970760234,
+            0.8632478632478633,
+            0.3508771929824561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the condition of Lemma 3 is satisfied, we see that either (13) holds or, by (11),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3803418803418803,
+            0.3508771929824561,
+            0.6068376068376068,
+            0.3713450292397661
+          ],
+          "image_path": "images/page_9_equation_9.jpg",
+          "content": "\\mid f (l) \\mid > (e ^ {6 h k} c _ {6} ^ {L R _ {K + 1}}) ^ {- D}.\\tag{18}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.1388888888888889,
+            0.3786549707602339,
+            0.8632478632478633,
+            0.4166666666666667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We show that the assumption that (18) is valid leads to a contradiction. By (12), (16), (17), (18) and the inequalities"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.2863247863247863,
+            0.42543859649122806,
+            0.7136752136752137,
+            0.44590643274853803
+          ],
+          "image_path": "images/page_9_equation_11.jpg",
+          "content": "R _ {K} \\leqslant h k ^ {\\frac {1}{2} \\epsilon K}, \\quad S _ {K + 1} + 1 \\leqslant k \\leqslant h ^ {\\zeta}, \\quad L \\leqslant h ^ {\\zeta (1 - \\epsilon)},"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1346153846153846,
+            0.45321637426900585,
+            0.3995726495726496,
+            0.4722222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K < \\tau - 1"
+            },
+            {
+              "type": "text",
+              "content": ", we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dagger"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.36538461538461536,
+            0.48099415204678364,
+            0.6367521367521367,
+            0.5014619883040936
+          ],
+          "image_path": "images/page_9_equation_13.jpg",
+          "content": "\\left| F (l) \\right| \\leqslant e ^ {\\frac {1}{5} h ^ {\\kappa}}, \\quad \\left| f (l) \\right| > 2 e ^ {- \\frac {1}{5} h ^ {\\kappa}}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1346153846153846,
+            0.5087719298245614,
+            0.4636752136752137,
+            0.5277777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h"
+            },
+            {
+              "type": "text",
+              "content": " is sufficiently large, and thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.4017094017094017,
+            0.5365497076023392,
+            0.5897435897435898,
+            0.5570175438596491
+          ],
+          "image_path": "images/page_9_equation_15.jpg",
+          "content": "\\left| f (l) / F (l) \\right| > 2 e ^ {- \\frac {1}{2} h \\kappa}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.1346153846153846,
+            0.564327485380117,
+            0.8632478632478633,
+            0.6403508771929824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows that the right-hand side of (15) is at least  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}|f(l)/F(l)|"
+            },
+            {
+              "type": "text",
+              "content": " . Now let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Theta"
+            },
+            {
+              "type": "text",
+              "content": "  denote respectively the upper bound of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|f(z)|"
+            },
+            {
+              "type": "text",
+              "content": "  and the lower bound of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|F(z)|"
+            },
+            {
+              "type": "text",
+              "content": "  with z on C. Since  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2|z-l|"
+            },
+            {
+              "type": "text",
+              "content": "  with z on C exceeds the radius of C, we obtain from (15)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.40384615384615385,
+            0.6418128654970761,
+            0.5876068376068376,
+            0.6622807017543859
+          ],
+          "image_path": "images/page_9_equation_17.jpg",
+          "content": "4 \\theta | F (l) | > \\Theta | f (l) |."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.1346153846153846,
+            0.6578947368421053,
+            0.2841880341880342,
+            0.6769005847953217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is clear that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.3696581196581197,
+            0.6739766081871345,
+            0.6260683760683761,
+            0.6929824561403509
+          ],
+          "image_path": "images/page_9_equation_19.jpg",
+          "content": "\\Theta \\geqslant (\\frac {1}{2} R _ {K + 1} \\log h) ^ {R _ {K} (S _ {K + 1} + 1)}\\tag{19}"
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.1346153846153846,
+            0.6988304093567251,
+            0.3888888888888889,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and, by (10) of Lemma 3,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.4017094017094017,
+            0.7236842105263158,
+            0.5833333333333334,
+            0.7426900584795322
+          ],
+          "image_path": "images/page_9_equation_21.jpg",
+          "content": "\\theta \\leqslant e ^ {4 h k} c _ {5} ^ {L R _ {R + 1} \\log h}."
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.1346153846153846,
+            0.7456140350877193,
+            0.3888888888888889,
+            0.7646198830409356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus from (16) we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.35683760683760685,
+            0.7733918128654971,
+            0.6474358974358975,
+            0.793859649122807
+          ],
+          "image_path": "images/page_9_equation_23.jpg",
+          "content": "\\Theta | F (l) | ^ {- 1} \\geqslant (\\frac {1}{2} \\log h) ^ {R _ {K} (S _ {K + 1} + 1)},"
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.1346153846153846,
+            0.793859649122807,
+            0.27564102564102566,
+            0.8114035087719298
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and from (18)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.35683760683760685,
+            0.8099415204678363,
+            0.655982905982906,
+            0.8318713450292398
+          ],
+          "image_path": "images/page_9_equation_25.jpg",
+          "content": "\\theta \\mid f (l) \\mid^ {- 1} \\leqslant (e ^ {6 h k} c _ {5} ^ {L R _ {K + 1} \\log h}) ^ {D + 1}."
+        },
+        {
+          "type": "header",
+          "index": 26,
+          "bbox": [
+            0.21153846153846154,
+            0.06725146198830409,
+            0.7905982905982906,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 27,
+          "bbox": [
+            0.8269230769230769,
+            0.06871345029239766,
+            0.8653846153846154,
+            0.08333333333333333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "213"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 28,
+          "bbox": [
+            0.5769230769230769,
+            0.847953216374269,
+            0.6773504273504274,
+            0.8625730994152047
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "R_{\\pmb{K}}(S_{\\pmb{K} + 1} + 1)"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 29,
+          "bbox": [
+            0.16880341880341881,
+            0.8464912280701754,
+            0.7649572649572649,
+            0.8625730994152047
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† As regards the first of these inequalities note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{K}(S_{K+1} + 1)"
+            },
+            {
+              "type": "text",
+              "content": " is at most"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 30,
+          "bbox": [
+            0.1388888888888889,
+            0.9049707602339181,
+            0.29273504273504275,
+            0.9195906432748538
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "-\\frac{1}{2}\\epsilon \\text{ or } -\\frac{1}{2}\\epsilon (\\tau - [\\tau])"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 31,
+          "bbox": [
+            0.31196581196581197,
+            0.8669590643274854,
+            0.6858974358974359,
+            0.8845029239766082
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "h k^{\\frac{1}{2} \\epsilon K + 1} = k^{\\frac{1}{2} \\epsilon (K + 1 - \\tau)} (h k^{1 + \\frac{1}{2} \\epsilon (\\tau - 1)}) \\leqslant k^{\\frac{1}{2} \\epsilon (K + 1 - \\tau)} h^{K}"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 32,
+          "bbox": [
+            0.4252136752136752,
+            0.8918128654970761,
+            0.4658119658119658,
+            0.9035087719298246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "τ-1"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 33,
+          "bbox": [
+            0.1346153846153846,
+            0.8903508771929824,
+            0.8611111111111112,
+            0.935672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " is an integer less than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau - 1"
+            },
+            {
+              "type": "text",
+              "content": ", the exponent of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k"
+            },
+            {
+              "type": "text",
+              "content": " on the right does not exceed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-\\frac{1}{2}\\epsilon"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-\\frac{1}{2}\\epsilon (\\tau - [\\tau])"
+            },
+            {
+              "type": "text",
+              "content": " according as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau"
+            },
+            {
+              "type": "text",
+              "content": " is or is not an integer; thus, in either case, the exponent of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k"
+            },
+            {
+              "type": "text",
+              "content": " is a negative number depending only on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13247863247863248,
+            0.097953216374269,
+            0.37393162393162394,
+            0.1154970760233918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence (19) implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.1388888888888889,
+            0.12426900584795321,
+            0.811965811965812,
+            0.14473684210526316
+          ],
+          "image_path": "images/page_10_equation_1.jpg",
+          "content": "\\log 4 + (D + 1) \\left\\{6 h k + c _ {1 3} L R _ {K + 1} \\log h \\right\\} \\geqslant R _ {K} \\left(S _ {K + 1} + 1\\right) \\left\\{\\log \\log h - \\log 2 \\right\\}.\\tag{20}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13247863247863248,
+            0.15204678362573099,
+            0.8611111111111112,
+            0.19005847953216373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "LR_{K+1} \\leqslant h^{\\frac{1}{2}\\epsilon\\zeta(K-1)+1+\\zeta}"
+            },
+            {
+              "type": "text",
+              "content": " and, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "hk \\leqslant h^{1+\\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ", it follows that the number on the left of (20) is at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.34615384615384615,
+            0.19736842105263158,
+            0.6538461538461539,
+            0.21783625730994152
+          ],
+          "image_path": "images/page_10_equation_3.jpg",
+          "content": "c _ {1 4} h ^ {1 + \\zeta} \\text {   or   } c _ {1 4} h ^ {\\frac {1}{2} \\epsilon \\zeta (K - 1) + 1 + \\zeta} \\log h"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1346153846153846,
+            0.22660818713450293,
+            0.6794871794871795,
+            0.24561403508771928
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "according as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = 0"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K > 0"
+            },
+            {
+              "type": "text",
+              "content": ". On the other hand we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3482905982905983,
+            0.2543859649122807,
+            0.6538461538461539,
+            0.27485380116959063
+          ],
+          "image_path": "images/page_10_equation_5.jpg",
+          "content": "R _ {K} (S _ {K + 1} + 1) \\geqslant \\frac {1}{2} h k ^ {\\frac {1}{2} \\epsilon K} (k / 2 ^ {K + 1})"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1346153846153846,
+            0.2821637426900585,
+            0.8589743589743589,
+            0.31871345029239767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K + 1 < \\tau"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k > \\frac{1}{2} h^{\\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ", we see that the number on the right of (20) exceeds"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.391025641025641,
+            0.31871345029239767,
+            0.6089743589743589,
+            0.3391812865497076
+          ],
+          "image_path": "images/page_10_equation_7.jpg",
+          "content": "c _ {1 5} ^ {- 1} h ^ {\\frac {1}{2} \\epsilon \\zeta K + 1 + \\zeta} \\log \\log h."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1346153846153846,
+            0.347953216374269,
+            0.8589743589743589,
+            0.3845029239766082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The contradiction implies the validity of (13) and the lemma follows by induction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1346153846153846,
+            0.40789473684210525,
+            0.8611111111111112,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Proof of the Theorem. It is clear from Lemma 4, on taking J to be the largest integer less than  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tau"
+            },
+            {
+              "type": "text",
+              "content": " , that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.4017094017094017,
+            0.4546783625730994,
+            0.5876068376068376,
+            0.47368421052631576
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "\\left| \\Phi (l, \\dots , l) \\right| <   e ^ {- \\frac {1}{2} h ^ {\\kappa}}\\tag{21}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13247863247863248,
+            0.48391812865497075,
+            0.8611111111111112,
+            0.5380116959064327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for each integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " satisfying "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant l \\leqslant \\frac{1}{2} h^{\\kappa - \\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ". We proceed to verify that the inequalities (21) cannot all be valid. This will suffice to establish the theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13247863247863248,
+            0.5409356725146199,
+            0.8611111111111112,
+            0.5789473684210527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\kappa > \\zeta(n + 1)"
+            },
+            {
+              "type": "text",
+              "content": " we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(L + 1)^n < k^n < \\frac{1}{2} h^{\\kappa - \\zeta}"
+            },
+            {
+              "type": "text",
+              "content": ", and so (21) certainly holds for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant l \\leqslant (L + 1)^n"
+            },
+            {
+              "type": "text",
+              "content": ". For this range of values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " we define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.2905982905982906,
+            0.5847953216374269,
+            0.7051282051282052,
+            0.6228070175438597
+          ],
+          "image_path": "images/page_10_equation_13.jpg",
+          "content": "\\Psi (l) = \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} l} \\dots \\alpha_ {n} ^ {\\lambda_ {n} l}."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1346153846153846,
+            0.6286549707602339,
+            0.4423076923076923,
+            0.6476608187134503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now from (4) and the estimate"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.4017094017094017,
+            0.6637426900584795,
+            0.5854700854700855,
+            0.6842105263157895
+          ],
+          "image_path": "images/page_10_equation_15.jpg",
+          "content": "\\left| \\alpha_ {1} ^ {\\lambda_ {1}} \\dots \\alpha_ {n - 1} ^ {\\lambda_ {n - 1}} \\right| <   c _ {1 6} ^ {L},"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13247863247863248,
+            0.6988304093567251,
+            0.5,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we obtain (cf. the proof of Lemma 2)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.3076923076923077,
+            0.7339181286549707,
+            0.688034188034188,
+            0.7543859649122807
+          ],
+          "image_path": "images/page_10_equation_17.jpg",
+          "content": "\\left| \\alpha_ {1} ^ {\\gamma_ {1} l} \\dots \\alpha_ {n - 1} ^ {\\gamma_ {n - 1} l} - \\alpha_ {1} ^ {\\lambda_ {1} l} \\dots \\alpha_ {n} ^ {\\lambda_ {n} l} \\right| <   c _ {1 7} ^ {L l} e ^ {- \\hbar \\kappa},"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.1346153846153846,
+            0.7660818713450293,
+            0.24145299145299146,
+            0.783625730994152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.30128205128205127,
+            0.783625730994152,
+            0.6858974358974359,
+            0.804093567251462
+          ],
+          "image_path": "images/page_10_equation_19.jpg",
+          "content": "\\left| \\Phi (l, \\dots , l) - \\Psi^ {*} (l) \\right| \\leqslant (L + 1) ^ {n} e ^ {2 h k} c _ {1 7} ^ {L l} e ^ {- h \\kappa}."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.13247863247863248,
+            0.8128654970760234,
+            0.8611111111111112,
+            0.8508771929824561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, the number on the right of the last inequality is at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e^{-1h\\kappa}"
+            },
+            {
+              "type": "text",
+              "content": " , since clearly"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.3076923076923077,
+            0.8581871345029239,
+            0.6901709401709402,
+            0.8771929824561403
+          ],
+          "image_path": "images/page_10_equation_21.jpg",
+          "content": "L l \\leqslant L (L + 1) ^ {n} \\leqslant 2 ^ {n} h ^ {\\zeta (n + 1) (1 - \\epsilon)} <   2 ^ {n} h ^ {\\kappa (1 - \\epsilon)}."
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.13034188034188035,
+            0.8859649122807017,
+            0.4722222222222222,
+            0.9049707602339181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows therefore from (21) that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.4230769230769231,
+            0.9137426900584795,
+            0.5705128205128205,
+            0.9342105263157895
+          ],
+          "image_path": "images/page_10_equation_23.jpg",
+          "content": "\\left| \\Psi^ {*} (l) \\right| <   2 e ^ {- \\frac {1}{2} h ^ {\\kappa}}.\\tag{22}"
+        },
+        {
+          "type": "page_number",
+          "index": 24,
+          "bbox": [
+            0.1346153846153846,
+            0.06578947368421052,
+            0.1752136752136752,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "214"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 25,
+          "bbox": [
+            0.45085470085470086,
+            0.06578947368421052,
+            0.5470085470085471,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A. BAKER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.16452991452991453,
+            0.097953216374269,
+            0.8076923076923077,
+            0.11695906432748537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let now "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_1, \\ldots, a_n"
+            },
+            {
+              "type": "text",
+              "content": " be defined as in the proof of Lemma 2 and write"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3974358974358974,
+            0.12719298245614036,
+            0.6004273504273504,
+            0.1476608187134503
+          ],
+          "image_path": "images/page_11_equation_1.jpg",
+          "content": "\\omega = (a _ {1} \\dots a _ {n}) ^ {L l} \\Psi^ {\\prime} (l)."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13247863247863248,
+            0.15789473684210525,
+            0.8589743589743589,
+            0.21637426900584794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega"
+            },
+            {
+              "type": "text",
+              "content": "  represents an algebraic integer with degree at most D. Further, any of its conjugates, obtained by substituting arbitrary conjugates for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{1}, \\ldots, \\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": " , has absolute value at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.37606837606837606,
+            0.22514619883040934,
+            0.6089743589743589,
+            0.24561403508771928
+          ],
+          "image_path": "images/page_11_equation_3.jpg",
+          "content": "(L + 1) ^ {n} e ^ {2 h k} c _ {1 8} ^ {L l} <   c _ {1 9} ^ {h \\kappa (1 - \\epsilon)}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13034188034188035,
+            0.2573099415204678,
+            0.49786324786324787,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It follows easily, on using (22), that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.42094017094017094,
+            0.28654970760233917,
+            0.5598290598290598,
+            0.3084795321637427
+          ],
+          "image_path": "images/page_11_equation_5.jpg",
+          "content": "\\left| \\mathbf {N o r m} \\omega \\right| <   1,"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13034188034188035,
+            0.3201754385964912,
+            0.717948717948718,
+            0.3391812865497076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "whence  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega"
+            },
+            {
+              "type": "text",
+              "content": " , and thus also  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Psi(l)"
+            },
+            {
+              "type": "text",
+              "content": " , must be 0.† Now the equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3547008547008547,
+            0.3508771929824561,
+            0.6175213675213675,
+            0.3786549707602339
+          ],
+          "image_path": "images/page_11_equation_7.jpg",
+          "content": "\\Psi (l) = 0 \\quad \\left(1 \\leqslant l \\leqslant (L + 1) ^ {n}\\right)"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13034188034188035,
+            0.39035087719298245,
+            0.8611111111111112,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "are linear in the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p(\\lambda_{1}, \\ldots, \\lambda_{n})"
+            },
+            {
+              "type": "text",
+              "content": "  and, since the latter are not all 0, we see that the determinant of coefficients must vanish. But the determinant is of Vandermonde type, and its vanishing would imply"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3717948717948718,
+            0.45760233918128657,
+            0.6153846153846154,
+            0.4780701754385965
+          ],
+          "image_path": "images/page_11_equation_9.jpg",
+          "content": "\\alpha_ {1} ^ {\\lambda_ {1}} \\dots \\alpha_ {n} ^ {\\lambda_ {n}} = \\alpha_ {1} ^ {\\lambda_ {1} ^ {\\prime}} \\dots \\alpha_ {n} ^ {\\lambda_ {n} ^ {\\prime}}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13034188034188035,
+            0.48830409356725146,
+            0.8589743589743589,
+            0.5467836257309941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for distinct sets of integers  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda_{1},\\ldots,\\lambda_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda_{1}^{\\prime},\\ldots,\\lambda_{n}^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " . This is contrary to the hypothesis that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log\\alpha_{1},\\ldots,\\log\\alpha_{n}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2\\pi i"
+            },
+            {
+              "type": "text",
+              "content": "  are linearly independent over the rationals, and the contradiction proves the theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13034188034188035,
+            0.5672514619883041,
+            0.8589743589743589,
+            0.6447368421052632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Proof of Corollary 2. It is clear that Corollary 1 (used with the real value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\log \\alpha_{1}"
+            },
+            {
+              "type": "text",
+              "content": ") implies the validity of Corollary 2 for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = 1"
+            },
+            {
+              "type": "text",
+              "content": ". We suppose that Corollary 2 is true for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = m - 1"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " denotes an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": ", and we proceed to prove the validity for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = m"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.16452991452991453,
+            0.6447368421052632,
+            0.5106837606837606,
+            0.6637426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose the contrary, namely that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3995726495726496,
+            0.6754385964912281,
+            0.5811965811965812,
+            0.695906432748538
+          ],
+          "image_path": "images/page_11_equation_13.jpg",
+          "content": "\\alpha_ {1} ^ {\\beta_ {1}} \\dots \\alpha_ {m} ^ {\\beta_ {m}} = \\alpha_ {m + 1}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13247863247863248,
+            0.7046783625730995,
+            0.8589743589743589,
+            0.7456140350877193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some algebraic number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{m+1}"
+            },
+            {
+              "type": "text",
+              "content": ". We cannot have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{m+1} = 1"
+            },
+            {
+              "type": "text",
+              "content": "; for then, on writing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma_j = -\\beta_j / \\beta_m"
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j < m"
+            },
+            {
+              "type": "text",
+              "content": "), as we may since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_m \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": ", we would obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.405982905982906,
+            0.7616959064327485,
+            0.5811965811965812,
+            0.7807017543859649
+          ],
+          "image_path": "images/page_11_equation_15.jpg",
+          "content": "\\alpha_ {1} ^ {\\gamma_ {1}} \\dots \\alpha_ {m - 1} ^ {\\gamma_ {m - 1}} = \\alpha_ {m},"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13247863247863248,
+            0.793859649122807,
+            0.8568376068376068,
+            0.8333333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1, \\gamma_{1}, \\ldots, \\gamma_{m-1}"
+            },
+            {
+              "type": "text",
+              "content": "  are linearly independent over the rationals, contrary to the inductive hypothesis. We put  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{m+1} = -1"
+            },
+            {
+              "type": "text",
+              "content": " . Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.41025641025641024,
+            0.8450292397660819,
+            0.5662393162393162,
+            0.8669590643274854
+          ],
+          "image_path": "images/page_11_equation_17.jpg",
+          "content": "\\alpha_ {1} ^ {\\beta_ {1}} \\dots \\alpha_ {m + 1} ^ {\\beta_ {m + 1}} = 1"
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.22008547008547008,
+            0.06578947368421052,
+            0.7670940170940171,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.8183760683760684,
+            0.06578947368421052,
+            0.8568376068376068,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "215"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 20,
+          "bbox": [
+            0.3247863247863248,
+            0.8888888888888888,
+            0.358974358974359,
+            0.9049707602339181
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\Psi (l)"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 21,
+          "bbox": [
+            0.6068376068376068,
+            0.8888888888888888,
+            0.6602564102564102,
+            0.9049707602339181
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "Q = 0"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 22,
+          "bbox": [
+            0.13247863247863248,
+            0.8874269005847953,
+            0.8589743589743589,
+            0.9166666666666666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "† The vanishing of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Psi(l)"
+            },
+            {
+              "type": "text",
+              "content": " corresponds to the alternative "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q = 0"
+            },
+            {
+              "type": "text",
+              "content": " at the end of the proof of Lemma 3."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 23,
+          "bbox": [
+            0.16666666666666666,
+            0.9166666666666666,
+            0.688034188034188,
+            0.9342105263157895
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\dagger"
+            },
+            {
+              "type": "text",
+              "content": " This is in fact the Gelfond–Schneider theorem for real numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1346153846153846,
+            0.09649122807017543,
+            0.8611111111111112,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta_{1},\\ldots ,\\beta_{m + 1}"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent over the rationals. Now, by Corollary 1, there exist rationals "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho_{1},\\dots,\\rho_{m + 1}"
+            },
+            {
+              "type": "text",
+              "content": ", not all 0, such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.4166666666666667,
+            0.15204678362573099,
+            0.5769230769230769,
+            0.17105263157894737
+          ],
+          "image_path": "images/page_12_equation_1.jpg",
+          "content": "\\alpha_ {1} ^ {\\rho_ {1}} \\dots \\alpha_ {m + 1} ^ {\\rho_ {m + 1}} = 1."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13675213675213677,
+            0.18567251461988304,
+            0.8589743589743589,
+            0.2222222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By a suitable permutation of suffixes we can suppose that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho_{m+1} \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " . Then the numbers"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.344017094017094,
+            0.2236842105263158,
+            0.6581196581196581,
+            0.24415204678362573
+          ],
+          "image_path": "images/page_12_equation_3.jpg",
+          "content": "\\delta_ {j} = \\rho_ {m + 1} \\beta_ {j} - \\beta_ {m + 1} \\rho_ {j} \\quad (1 \\leqslant j \\leqslant m)"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1346153846153846,
+            0.25146198830409355,
+            0.7948717948717948,
+            0.27046783625730997
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "are linearly independent over the rationals (in particular "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta_{m} \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": ") and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.42094017094017094,
+            0.27923976608187134,
+            0.5726495726495726,
+            0.2982456140350877
+          ],
+          "image_path": "images/page_12_equation_5.jpg",
+          "content": "\\alpha_ {1} ^ {\\delta_ {1}} \\dots \\alpha_ {m} ^ {\\delta_ {m}} = 1."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1346153846153846,
+            0.3055555555555556,
+            0.8589743589743589,
+            0.3435672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, writing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon_{j} = -\\delta_{j} / \\delta_{m}"
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant j < m"
+            },
+            {
+              "type": "text",
+              "content": "), we see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1, \\epsilon_{1}, \\ldots, \\epsilon_{m-1}"
+            },
+            {
+              "type": "text",
+              "content": " are linearly independent over the rationals and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.41025641025641024,
+            0.36257309941520466,
+            0.5790598290598291,
+            0.38011695906432746
+          ],
+          "image_path": "images/page_12_equation_7.jpg",
+          "content": "\\alpha_ {1} ^ {\\epsilon_ {1}} \\dots \\alpha_ {m - 1} ^ {\\epsilon_ {m - 1}} = \\alpha_ {m},"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1346153846153846,
+            0.39473684210526316,
+            0.811965811965812,
+            0.4137426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "again contrary to the inductive hypothesis. This proves the corollary."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.1346153846153846,
+            0.4137426900584795,
+            0.8611111111111112,
+            0.47076023391812866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A more general result, relating to real or complex algebraic numbers, follows from the more general theorem mentioned in the footnote on page 204."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.4465811965811966,
+            0.4853801169590643,
+            0.5512820512820513,
+            0.5029239766081871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.1346153846153846,
+            0.5087719298245614,
+            0.8589743589743589,
+            0.5365497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. N. I. Feldman, “Approximation by algebraic numbers to the logarithms of algebraic numbers”, Izv. Akad. Nauk SSSR, 24 (1960), 475–492 (in Russian)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.1346153846153846,
+            0.5380116959064327,
+            0.8589743589743589,
+            0.5657894736842105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. A. O. Gelfond, “On Hilbert’s seventh problem”, Doklady Akad. Nauk SSSR, 2 (1934), 1–6; Izv. Akad. Nauk SSSR, 7 (1934), 623–634 (in Russian and French)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.1346153846153846,
+            0.5672514619883041,
+            0.8589743589743589,
+            0.6081871345029239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. ——, “On the approximation of the ratio of logarithms of two algebraic numbers by algebraic numbers”, Izv. Akad. Nauk SSSR, 5–6 (1939), 509–518 (in Russian).\n4. ——, Transcendental and algebraic numbers (New York, 1960)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.1346153846153846,
+            0.6111111111111112,
+            0.8589743589743589,
+            0.6403508771929824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. —— and Yu. V. Linnik “On Thue’s method and the problem of effectiveness in quadratic fields”, Doklady Akad. Nauk SSSR, 61 (1948), 773–776 (in Russian)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.1346153846153846,
+            0.6403508771929824,
+            0.8589743589743589,
+            0.6681286549707602
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Th. Schneider, “Transzendenzuntersuchungen periodischer Funktionen I. Transzendenz von Potenzen”, J. Reine Angew. Math. 172 (1934), 65–69."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.1346153846153846,
+            0.6695906432748538,
+            0.8568376068376068,
+            0.6827485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. ——, Einführung in die transzendenten Zahlen (Berlin, Göttingen, Heidelberg, 1957)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.1346153846153846,
+            0.6842105263157895,
+            0.6025641025641025,
+            0.6988304093567251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. C. L. Siegel, Transcendental numbers (Princeton, 1949)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.16880341880341881,
+            0.7134502923976608,
+            0.32905982905982906,
+            0.7514619883040936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Trinity College,\nCambridge."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.13675213675213677,
+            0.06578947368421052,
+            0.1752136752136752,
+            0.0804093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "216"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.22435897435897437,
+            0.06578947368421052,
+            0.7692307692307693,
+            0.08187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN THE LOGARITHMS OF ALGEBRAIC NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.5555555555555556,
+            0.7558479532163743,
+            0.8589743589743589,
+            0.7719298245614035
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Received on the 17th of October, 1966.)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}
