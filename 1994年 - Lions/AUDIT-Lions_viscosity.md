@@ -193,3 +193,5 @@
 - 可用性：9 页文本与 162 条文献可放心引用；唯一须手工修复的是 p.1 的 "→"。
 - mineru 解析信息：mineru 3.4.4 / tier=basic / **parse_mode=txt**（本 PDF 含文本层；ff→f 系该字体
   ff 合字在 mineru 文本提取路径未还原，而 `pdftotext` 可还原）。
+
+> **修复登记（2026-09-29）**：已按本审计补回 p.1 "for y → x" 的箭头（md 第 14 行）；修复与本登记同一 commit；修复前 md 见该 commit 父提交。
