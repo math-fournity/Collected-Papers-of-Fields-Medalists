@@ -42,3 +42,13 @@
   - countable/unique structures 段（[9, p. 442]、Munkres [14]、Milnor [8]）✓；Γⁿ/Aⁿ/i: Γⁿ→Aⁿ、
     p: Aⁿ→𝓗ⁿ 段 ✓
 - 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 393" 与页码未收）
+
+## p.005（PDF p.5 / 印刷 p.394）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：**THEOREM K**（(a) Aⁿ→𝓗ⁿ→0, n≠3,4；(b) Γⁿ→Aⁿ→0, n even≠4；(c) 0→Aⁿ→𝓗ⁿ, n odd≠3；
+  Γⁿ=Aⁿ/Aⁿ=𝓗ⁿ 推论）✓；(a)/(b)/(c) 来源句 ✓；Kervaire [4] ✓；**THEOREM L** ✓
+  - W₀ 论证：Theorem 4.1 [10] k=3、∂W₀→S¹¹、12-disk、H⁶(M, π₅(SO(12)))=0、index 8、
+    Lemma 3.7 [10]、Bott [1] ✓ 逐字
+  - **THEOREM M** ✓；Schoenflies/Mazur [7] 段 ✓；Poincaré duality 论证段（∂C homotopy sphere、
+    attach 2m-disk、Theorem H）✓
+- 结果：**PASS±**（±：页眉 "394 STEPHEN SMALE" 与页码未收）
