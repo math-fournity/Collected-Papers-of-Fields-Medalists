@@ -31,6 +31,7 @@
 |---|---|
 | **本 repo（工作对象）** | `/Users/aurolafly/Collected-Papers-of-Fields-Medalists/`（独立 git repo，直接 `git add -A && git commit` 即可，勿 push） |
 | **审计 SOP（规范原文）** | `AUDIT-SOP.md`（repo 根）——渲染命令、七步流程、签体格式、PASS/PASS±/FAIL 分级 |
+| **资产地图与目录 schema** | `README.md`（repo 根）——层级/命名/来源链/论文目录清单（计数）；结构变化时同批更新 |
 | **进度总账（唯一进度真值）** | `AUDIT-INDEX.md`（repo 根）——每完成一篇加一行 |
 | **逐页进度日志（抗中断）** | `AUDIT-PROGRESS.log`（repo 根）——每页落签后立即 `echo … >>` 追加；会话随时可能中断，恢复先读其末尾 |
 | 论文底稿（repo 内镜像） | `/Users/aurolafly/shuxuedashi-glm5.2-worktree/算思系统/tasks/ot-fields68/corpus/papers/` |
@@ -87,7 +88,8 @@
    Perelman "4" 案例即此法）；
    ③ 出版商官方页对照。
 5. **收尾**：签体加「## 总评」（覆盖声明+系统性瑕疵+可用性结论）→ 在 `AUDIT-INDEX.md`
-   加一行 → collection repo `git add -A && git commit`（信息格式：`audit: <篇名> N页审计完成（累计X/85）`）。
+   加一行 → 更新 `README.md` 中该目录行的 AUDIT 计数 → collection repo `git add -A && git commit`
+   （信息格式：`audit: <篇名> N页审计完成（累计X/85）`）。
    **注意（2026-09-29 新增两道纪律，详见 SOP）**：①**每页一提交**——每页落签+进度行后立即
    `git add -A && git commit -m "audit(page): …"`；②**FAIL 修复**——总评后按审计建议修复 md，
    以独立 `fix(md): …` commit 提交，并在总评追加「修复登记」（原始 md 由先前 commit 保源）。

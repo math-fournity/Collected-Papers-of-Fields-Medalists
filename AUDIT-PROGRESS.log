@@ -45,3 +45,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 15:03 | FIX | Perelman finite-extinction | 删除 p.6 幻觉字符4
 2026-09-29 15:03 | FIX | honeycomb 双副本 | cos 分母修复（2cosπ→2cos(π/8)）
 2026-09-29 15:05 | NOTE | 整理完成并暂停：7篇FAIL回填修复已分批提交；tools/入库；SOP/交接补齐图片资产与密集提交纪律。恢复时读本日志末行。
+2026-09-29 15:12 | NOTE | 治理补建：根 README.md（资产地图+目录schema+65目录清单/86PDF）+ SOP「README与索引维护」节 + 交接表/收尾步骤同步

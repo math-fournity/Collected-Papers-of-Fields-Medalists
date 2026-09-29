@@ -84,6 +84,15 @@ echo "$(date '+%Y-%m-%d %H:%M') | PAGE | <论文短名> | p.N/总页 | <PASS±/F
 - 大件分卷按分片各自落签、各自提交（信息注明片号与 PDF 页区间）。
 - collection repo 允许 `git add -A`；**禁止 push**；历史只在本地。
 
+## README 与索引维护（资产地图）
+
+- `README.md`（repo 根）是**资产地图与目录 schema 的唯一真值**：层级结构、命名约定、审计与来源链、
+  论文目录清单（PDF / `_mineru` / AUDIT 文件计数）。规范见本 SOP，进度见 `AUDIT-INDEX.md` / `AUDIT-PROGRESS.log`。
+- **必须更新 README 的时机（与触发变更同一批 commit）**：新增/删除论文目录或 PDF；新增 `_mineru/` 导出；
+  **每完成一篇审计**（新增 `AUDIT-<短名>.md` 时同步该行计数）；根资产、命名约定或 schema 变化。
+- 审计进度本身不进 README：篇级真值 = `AUDIT-INDEX.md`；页级日志 = `AUDIT-PROGRESS.log`。
+- README 与实物不一致时，以实物为准并立即修复 README；不得让两份“当前结构”并存。
+
 ## mineru 处理约束
 
 - 云端 standard 档：`mineru parse <pdf> --remote --json`；>200 页文件先 gs 分卷；
