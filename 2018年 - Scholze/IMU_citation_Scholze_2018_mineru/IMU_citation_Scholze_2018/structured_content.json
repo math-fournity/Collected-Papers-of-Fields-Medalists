@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.37478991596638656,
+            0.2734839476813318,
+            0.6487394957983194,
+            0.2901307966706302
+          ],
+          "level": 2,
+          "content": "— Scholze short citation —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.30677764565992865,
+            0.8403361344537815,
+            0.3590963139120095
+          ],
+          "content": "For transforming arithmetic algebraic geometry over p-adic fields through his introduction of perfectoid spaces, with application to Galois representations, and for the development of new cohomology theories."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.835909631391201
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4050420168067227,
+            0.14982164090368608,
+            0.6168067226890757,
+            0.16765755053507728
+          ],
+          "level": 2,
+          "content": "Scholze long citation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.18192627824019025,
+            0.8403361344537815,
+            0.21759809750297265
+          ],
+          "content": "Peter Scholze has transformed arithmetic algebraic geometry over p-adic fields."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.2318668252080856,
+            0.8420168067226891,
+            0.33650416171224734
+          ],
+          "content": "Scholze’s theory of perfectoid spaces has profoundly altered the subject of p-adic geometry by relating it to geometry in characteristic p. Making use of this theory, Peter Scholze proved Deligne’s weight-monodromy conjecture for complete intersections. As a further application, he constructed Galois representations that are attached to torsion cohomology classes of locally symmetric spaces, resolving a longstanding conjecture."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.34839476813317477,
+            0.8403361344537815,
+            0.41854934601664684
+          ],
+          "content": "Scholze’s version of p-adic Hodge theory extends to general p-adic rigid spaces. Together with Bhatt and Morrow, Scholze developed an integral version of p-adic Hodge theory that establishes a relation between the torsion in Betti and crystalline cohomologies."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.43162901307966706,
+            0.8403361344537815,
+            0.4839476813317479
+          ],
+          "content": "On the way to the revolution that he launched in arithmetic geometry, Scholze took up a variety of topics that he reshaped, such as algebraic topology and topological Hochschild homology."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17983193277310924,
+            0.4958382877526754,
+            0.8487394957983193,
+            0.549346016646849
+          ],
+          "content": "Scholze developed new cohomological methods. Beyond p-adic fields, Scholze’s vision of a cohomology theory over the integers has become a guideline that fascinates the entire mathematical community."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.519327731092437,
+            0.8347205707491082
+          ],
+          "content": "2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "is_full_document": true
+}
