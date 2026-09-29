@@ -75,3 +75,13 @@
 - 结果：**FAIL（单点）**：S/T 矩阵转写结构乱码——md 作
   "S = {\binom{0}{1}}\quad{\overset{}{0}}\end{array}−1…"（binom 嵌套破碎）；文本层证实原刊为
   **S = (0 −1; 1 0)，T = (1 1; 0 1)**。修复建议：按原文重建两矩阵。
+
+## p.009（PDF p.9 / 印刷 p.1025）
+- PNG：audit/dim24_p009.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：**(3.3)** ψ_I(it)=O(e^{4πt})（t→∞ 箭头在 ✓）/**(3.4)** O(t¹⁰e^{−π/t})（t→0 ✓）；
+  b(r) 定义 ✓；**Lemma 3.1** ✓；Proof（Proposition 6 [12]、−4sin² 分解 e^{−πir²}−2+e^{πir²}、
+  围道移位四行、ψ_I(z±1)=ψ_T、i∞±1→i∞ 端点移位论证、ψ_T−ψ_I=−ψ_S）✓；
+  解析延拓到 r≤2 + Schwartz 收尾 ✓
+- 结果：**FAIL（单字符）**：md 行 "for $r > 2$2" 末尾多一孤立 "2"（原刊为 "for r > 2,"；
+  Perelman "4" 同类 mineru 幻觉）。修复建议：删尾部 "2"。
+- 备注：± 页眉 "THE SPHERE PACKING PROBLEM IN DIMENSION 24 1025" 未收。
