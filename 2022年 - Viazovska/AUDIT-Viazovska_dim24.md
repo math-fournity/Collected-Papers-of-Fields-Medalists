@@ -42,3 +42,9 @@
 - 结果：**FAIL（单点）**：md 行 "(2.3) … as $t\ \infty,$"——**丢失 → 箭头**（原刊/文本层
   "as t → ∞"）。修复建议：补 \to。（注：md 行 125/309 "neighborhood $o f\ \mathbb{R}$" 的
   "o f" 分字与行 127 "diferent" ff→f 为排版级伪影。）
+
+## p.005（PDF p.5 / 印刷 p.1021）
+- PNG：audit/dim24_p005.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：围道分解（∫_{-1}^{i∞−1} − 2∫_0^{i∞} + ∫_1^{i∞+1} 拆为六段）✓ md 结构逐项吻合；
+  拟模性组合 = 2φ(z)（(z+1)²/…/φ₂ 三行展开）✓；**(2.6)** ✓；Proposition 1 [12] Schwartz 估计 ✓
+- 结果：**PASS±**（±：页眉/页码 1021 未收；"sufices" ff→f 伪影）
