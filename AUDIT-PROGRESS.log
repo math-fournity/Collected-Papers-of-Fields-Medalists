@@ -129,3 +129,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:09 | PAGE | ICM2018 Figalli | p.3/4 | FAIL | Amp`ere字面×5+opti mal拆词
 2026-09-29 18:09 | PAGE | ICM2018 Figalli | p.4/4 | FAIL | Cafarelli丢ff
 2026-09-29 18:10 | DONE | ICM2018 Figalli | 4/4 | 3点FAIL已修复 | 累计28/140
+2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.1/5 | PASS± | 入门段吻合
