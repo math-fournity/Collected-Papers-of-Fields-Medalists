@@ -117,3 +117,17 @@
   =(10−3π)(2−r²)+3)/117π²(r²−2)²·e^{−π(r²−2)} ✓；(4.5) ✓；Theorem 1.1 证明完成 ✓；
   Appendix A 开头（Sturm 定理路线、ancillary file appendix.txt、PARI/GP [10]、arXiv 1603.06518）✓
 - 结果：**PASS±**（±：页眉/页码 1029 未收；"inequalit" 类 ff→f 伪影若干）
+
+## p.014（PDF p.14 / 印刷 p.1030）
+- PNG：audit/dim24_p014.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：Sturm/截断策略段 ✓；系数界（E₂: 24(n+1)²、E₄: 240(n+1)⁴、E₆: 504(n+1)⁶、
+  Θ⁴: 24(n+1)²）✓；乘法界 (n+1)^{ℓ+m+1} ✓；φΔ²/ψ_IΔ²/ψ_SΔ² 与 t≥1/t≤1 分情形 ✓；
+  **Lemma A.1** 陈述与 t≥1 证明（1/535、513200655360(n+1)²⁰、Σ_{n=50}^∞<10^{−50}、
+  σ+10^{−50}q⁶ 在 (0,1/535) 不变号）✓ 数字逐位吻合
+- 结果：**FAIL（脚注区）**：脚注 1 的 md 转写碎片化且缺损——①"Both Θ⁴₀₀ **and have**
+  nonnegative coefficients"（丢 Θ⁴₁₀）；②"in the variable **from which**"（丢 q^{1/2},）；
+  ③出现乱码重复 "Θ⁴₀₁=Θ⁴₀₀−Θ⁴₁₀**.Θ01 = Θ00 − Θ40**"。文本层全文：
+  "¹Both Θ⁴₀₀ and Θ⁴₁₀ have nonnegative coefficients, and their sum is the theta series of the
+  D₄ root lattice in the variable q^{1/2}, from which one can bound their coefficients.
+  Furthermore, Θ⁴₀₁ = Θ⁴₀₀ − Θ⁴₁₀." 修复建议：以文本层重建脚注 1。
+- 备注：± 页眉 "1030 COHN, KUMAR, …" 未收。
