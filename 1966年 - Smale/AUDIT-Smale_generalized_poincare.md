@@ -148,3 +148,18 @@
     points index s）✓；SKETCH OF PROOF（Morse [13] 坐标式 f(x)=−Σ_{i=1}^λ x_i²+Σ_{i=λ+1}^n x_i²、
     E₁/E₂ 平面、D^λ）✓
 - 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 403" 与页码未收）
+
+## p.015（PDF p.15 / 印刷 p.404）
+- PNG：audit/p015.png（pngmono 150dpi）；仲裁：audit/p015_300dpi.png + exists_zoom.png、
+  cap_zoom2x.png（入库）
+- 核对：T′ = T∩f^{−1}[−ε₁,ε₁] ≅ D^λ×D^{n−λ} 段 ✓；(6.1) 证明收尾（ε₁→ε 替换）✓；
+  (6.2) converse 句 ✓；§7 开头 ✓；**(7.1) THEOREM**（f(V₁)=−(1/2)、f(V₂)=n+(1/2)、
+  f(β)=index β）✓；nice functions 命名 ✓；X_s = f^{−1}[0, s+(1/2)] ✓；**(7.2)** ✓；**(7.3)**——
+  "then there **exists—a** C^∞ non-degenerate function"：300dpi 证实**原刊即有长横线**
+  （源级标点 quirk）——md 忠实 ✓
+  - Theorem C 证明开头：X₀ ∈ 𝓗(n,q,0)、π₁(M)=1 & n≥6、Samelson 论证、X₂′ = X₂ + k copies
+    D^{n−2}×S²、X₂′ ∈ 𝓗(n,r,2)、f_i: ∂D³×D^{n−3}→∂H_i **∩** ∂X₂′（inline 原刊 ∩，md 忠实）✓；
+    显示式 π₂(∂D³×D^{n−3}) → π₂(**∂H_i × ∂X₂′**) → π₂(∂H_i)——300dpi 证实显示式中间项原刊即 **×**
+    （与 inline 的 ∩ 不一致系原刊排印自身；md 逐处忠实）✓
+- 结果：**PASS±**（±：①页眉 "404 STEPHEN SMALE" 与页码未收；②exists—a 长横线与
+  inline∩/display× 不一致均系原刊实物）

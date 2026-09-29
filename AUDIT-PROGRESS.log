@@ -90,3 +90,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:03 | PAGE | Smale generalized poincare | p.12/17 | FAIL | k_e/g_e→ε（6x证）；π_ε/×i/γ_i缺杠均原刊
 2026-09-29 17:03 | PAGE | Smale generalized poincare | p.13/17 | PASS± | (4.1)与s=0/1情形吻合
 2026-09-29 17:04 | PAGE | Smale generalized poincare | p.14/17 | PASS± | (5.x)/(6.x)全吻合
+2026-09-29 17:05 | PAGE | Smale generalized poincare | p.15/17 | PASS± | exists—a与∩/×不一致均原刊实物
