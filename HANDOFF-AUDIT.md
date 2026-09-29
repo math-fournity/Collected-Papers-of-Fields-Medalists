@@ -168,6 +168,12 @@
   确定性）；修复路径 = 用户授权升级本地 mineru 包（须先停 server）或用新版 MinerU App 导出后
   按 App-parity 布局入库；flash 层 md 已缓存（doc:71b0bde）但**不入库**（不符合 standard 档约定）。
   ③ mineru server 曾因 CLI parse 需要**启动**（PID 99459，允许操作；未 stop/restart）。
+- **2026-09-29 第三轮接力（续 2）**：Smale generalized Poincaré（17p）完成——17/17 逐页签，
+  300dpi 仲裁 17 件入库；1 项 FAIL（k_e/g_e→ε）已修复登记；Theorem B 缺 type 等 13 项原刊
+  quirk（含 Ref 16 "9 (1919)"、Ref 30 "Now Ser."）登记于总评；累计 **23/90**。下一队列
+  （页数升序，以 PDF 级对账为准）：Viazovska dim24 (17p)、Roth (20p)、Huh 2012 (21p)、
+  taylorwiles (22p)、Faltings 1983 (18p，已补导出)……（Baker I/II/III/IV 与 Huh 2020 待导出件
+  已就绪，Huh 2020 除外）。
 
 ## 6. 验收标准（任务完成的定义）
 
