@@ -68,3 +68,12 @@
   **原刊即印 k−s**（应为 n−s，同页 "handle" 与 corners 处均作 n−s；源级笔误）——md 忠实保留 ✓；
   straightening the angle/Milnor [10] 段 ✓；(1.1) LEMMA (a)(b)(c) ✓；presentation 定义 ✓
 - 结果：**PASS±**（±：①页眉 "396 STEPHEN SMALE" 与页码未收；②D_i^{k−s} 系原刊笔误）
+
+## p.008（PDF p.8 / 印刷 p.397）
+- PNG：audit/p008.png（pngmono 150dpi）
+- 核对：presentation 句 ✓；handlebody 定义（𝓗(n,k,0)、𝓗(2,1,1)=S¹×I+Möbius、𝓗(3,k,1)
+  Henkelkörper [19]）✓；**(1.2) HANDLEBODY THEOREM**（n≥2s+2、s=1 时 n≥5、
+  π₁(χ(H;f₁,…,f_{r−k};2))=1 附加假设、V∈𝓗(n,r−k,s+1)、括号注）✓
+  - §2 记号（G_r 自由/自由交换、f_σ(D_i)=φ_i、f̄_i: ∂D^{s+1}×0→Q、x₀/y₀/U 基点处理）✓
+  - realizes F 定义 ✓；**(2.1) THEOREM**（automorphism α、V realizes f_σ α）✓；**(2.2) LEMMA** ✓
+- 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 397" 与页码未收）
