@@ -83,3 +83,19 @@
 - 备注：± ①页眉未收；②伴随算子字形（原刊花体 𝔡）混并：md 行 "D=∂̄+d … and d is its formal adjoint"
   把 𝔡 转写为普通 d，而同段 Laplacian 行又作 \mathfrak{d}——同篇内前后不一致（Fraktur 混排家族伪影，
   数学内容可由上下文唯一确定，不误导）；③Todd 类字形 \Im 与 \mathfrak{I} 混用（同上）。
+
+## p.007（PDF p.7 / 印刷 p.428）
+- PNG：audit/p007.png（pngmono 150dpi）
+- 核对：
+  - (3.3) SPINOR STRUCTURE：M=S⁺, N=S⁻ half-spin、Dirac operator Ds=Σ e_i ∂_i(s)、
+    Clifford multiplication [10, §10]、H(S)=H(S⁺)⊕H(S⁻)、h⁺(S)/h⁻(S) 定义 ✓
+  - **THEOREM 4**：显示式 md 作 h⁺(S)−h⁻(D)=A(X)——**与原刊印刷逐字一致**（原刊显示式即写
+    "h⁻(D)" 且 A 无帽；紧随的 where 行则作 Â(X) Hirzebruch Â-genus [7]）。md 忠实保留原刊排印，
+    非 mineru 伪影；阅读时以 where 行 Â 为准（该显示式的 D/S 属原刊排印 quirk，本研究不代改）。
+  - REMARKS (1)(2)：integrality theorems（L/Â/Todd genus [7]）、Spin-manifolds 整性解释 ✓
+  - (3.4) HOMOGENEOUS SPACES：Bott **[9]** has shown、(i) rank G<rank H ⇒ γ(D)=0、
+    (ii) rank G=rank H、Hermann Weyl character formula ✓（正文确有 [9] 引用——文献表核对见 p.012）
+  - (3.5) CASES OF ZERO INDEX 开头 ✓
+- 结果：**PASS±**（±：①"spinor-structure" 跨行连字合并时丢空格作 "spinorstructure"；
+  ②页眉未收）
+- 备注：无 mineru 内容级错误。
