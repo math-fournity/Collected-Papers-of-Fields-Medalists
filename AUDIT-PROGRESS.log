@@ -75,3 +75,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:31 | PAGE | Baker linear forms ru | p.11/12 | FAIL | я→ω；2026-09-29 16:34 | PAGE | Baker linear forms ru | p.12/12 | FAIL | intercal→γ+transzendenten；文献8条吻合
 2026-09-29 16:37 | DONE | Baker linear forms ru | 12/12 | 16点FAIL已修复 | 累计22/85
 2026-09-29 16:51 | NOTE | 盘点：全仓90个PDF（Baker系列I-IV四件补入库+导出）；Huh三败诊断=schema版本偏移待用户决定；目标行数85→90
+2026-09-29 16:51 | START | Smale generalized poincare | 17p | PNG渲染完成（pngmono 150dpi p001-p017）
