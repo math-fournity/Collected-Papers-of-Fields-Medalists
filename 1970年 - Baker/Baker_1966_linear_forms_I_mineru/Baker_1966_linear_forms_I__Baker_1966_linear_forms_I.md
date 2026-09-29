@@ -18,7 +18,7 @@ $$
 C = C (n, \alpha_ {1}, \dots , \alpha_ {n}, \kappa , d) > 0
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† For log z we take any fixed determination of the logarithm; and then  $z^{w}$  means  $e^{w}\log z$ .</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† For log z we take any fixed determination of the logarithm; and then  $z^{w}$  means  $e^{w \log z}$.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$z^{\prime \prime}$</span></small>
 
@@ -109,10 +109,10 @@ We suppose now that $\beta_{1},\ldots,\beta_{n}$ denote algebraic numbers, not a
 degrees at most  $d^{2}$  and  $\log H^{\prime}/\log H$  is bounded above by a number depending only on d. Further, on writing  $\kappa^{\prime}=\frac{1}{2}(\kappa+n+1)$ , so that  $\kappa>\kappa^{\prime}>n+1$ , we deduce from the modified result enunciated above that
 
 $$
-\left| \beta_ {1} ^ {\prime} \log \alpha_ {1} + \dots + \beta_ {n - 1} ^ {\prime} \log \alpha_ {n - 1} - \log \alpha_ {n} \right| > e ^ {- (\log H ^ {\prime \prime}) \kappa^ {\prime}},
+\left| \beta_ {1} ^ {\prime} \log \alpha_ {1} + \dots + \beta_ {n - 1} ^ {\prime} \log \alpha_ {n - 1} - \log \alpha_ {n} \right| > e ^ {- (\log H ^ {\prime \prime}) ^ {\kappa^ {\prime}}},
 $$
 
-where  $H''$  denotes the greater of  $H'$  and some positive number depending only on  $n, \alpha_{1}, \ldots, \alpha_{n}, \kappa, d$ . Since  $|\beta_{n}| \geqslant (dH)^{-1}$ , it follows that the number on the left of (2) exceeds  $(dH)^{-1} e^{-(\log H'')\kappa'}$ , and this is certainly greater than  $Ce^{-(\log H)\kappa}$  for a suitable C. The assertion is thus proved.
+where  $H''$  denotes the greater of  $H'$  and some positive number depending only on  $n, \alpha_{1}, \ldots, \alpha_{n}, \kappa, d$ . Since  $|\beta_{n}| \geqslant (dH)^{-1}$ , it follows that the number on the left of (2) exceeds  $(dH)^{-1} e^{-(\log H'')^{\kappa'}}$ , and this is certainly greater than  $Ce^{-(\log H)^{\kappa}}$  for a suitable C. The assertion is thus proved.
 
 3. Lemmas. This section establishes four lemmas preliminary to the proof of the theorem.
 
@@ -193,7 +193,7 @@ $$
 where $L = [k^{1 - \epsilon}]$ and $\gamma_r = \lambda_r + \lambda_n\beta_r$$(1\leqslant r < n)$, satisfies
 
 $$
-\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h \kappa}\tag{7}
+\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| <   e ^ {- \frac {1}{2} h ^ {\kappa}}\tag{7}
 $$
 
 for all integers $l$ with $1 \leqslant l \leqslant h$ and all non-negative integers $m_1, \ldots, m_{n-1}$ with $m_1 + \ldots + m_{n-1} \leqslant k$.
@@ -297,7 +297,7 @@ $$
 Thus we obtain
 
 $$
-\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| \leqslant (L + 1) ^ {n} e ^ {4 h k} c _ {3} ^ {L h} e ^ {- h \kappa}
+\left| \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) \right| \leqslant (L + 1) ^ {n} e ^ {4 h k} c _ {3} ^ {L h} e ^ {- h ^ {\kappa}}
 $$
 
 and (7) follows since $L \leqslant k$, $Lh \leqslant hk \leqslant h^{1 + \zeta}$ and $\kappa > 1 + \zeta$. This completes the proof of the lemma.
@@ -383,13 +383,13 @@ $$
 Now by (4) we see that (cf. the end of the proof of Lemma 2)
 
 $$
-\left| q (\lambda , l) - q ^ {\prime} (\lambda , l) \right| \leqslant c _ {1 0} ^ {L l} (2 d L H) ^ {k} e ^ {- h \kappa}
+\left| q (\lambda , l) - q ^ {\prime} (\lambda , l) \right| \leqslant c _ {1 0} ^ {L l} (2 d L H) ^ {k} e ^ {- h ^ {\kappa}}
 $$
 
 and, by virtue of the inequalities $L \leqslant h^{\zeta(1 - \epsilon)}$, $\kappa > 1 + \zeta$ and the supposition $l \leqslant h^{\kappa - \zeta + \frac{1}{2}\epsilon\zeta}$, the number on the right is at most $e^{-\frac{1}{2}h\kappa}$. Hence we deduce that
 
 $$
-\left| P ^ {- 1} \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) - P ^ {\prime - 1} Q \right| \leqslant (L + 1) ^ {n} e ^ {2 h k - \frac {3}{4} h \kappa} <   e ^ {- \frac {5}{8} h \kappa}.
+\left| P ^ {- 1} \Phi_ {m _ {1}, \dots , m _ {n - 1}} (l, \dots , l) - P ^ {\prime - 1} Q \right| \leqslant (L + 1) ^ {n} e ^ {2 h k - \frac {3}{4} h ^ {\kappa}} <   e ^ {- \frac {5}{8} h ^ {\kappa}}.
 $$
 
 The second part of the lemma now follows on using the trivial inequalities
@@ -491,7 +491,7 @@ $$
 that the absolute value of the double sum on the right of (15) is at most
 
 $$
-R _ {K} (S _ {K + 1} + 1) 8 ^ {S _ {K + 1} + 1} n ^ {k} e ^ {- \frac {1}{2} h \kappa} \leqslant h ^ {\kappa} (8 n) ^ {k} e ^ {- \frac {1}{2} h \kappa} <   e ^ {- \frac {1}{2} h \kappa}.
+R _ {K} (S _ {K + 1} + 1) 8 ^ {S _ {K + 1} + 1} n ^ {k} e ^ {- \frac {1}{2} h ^ {\kappa}} \leqslant h ^ {\kappa} (8 n) ^ {k} e ^ {- \frac {1}{2} h ^ {\kappa}} <   e ^ {- \frac {1}{4} h ^ {\kappa}}.
 $$
 
 Further it is clear that
@@ -521,13 +521,13 @@ $$
 where $K < \tau - 1$, we have $\dagger$
 
 $$
-\left| F (l) \right| \leqslant e ^ {\frac {1}{5} h ^ {\kappa}}, \quad \left| f (l) \right| > 2 e ^ {- \frac {1}{5} h ^ {\kappa}}
+\left| F (l) \right| \leqslant e ^ {\frac {1}{4} h ^ {\kappa}}, \quad \left| f (l) \right| > 2 e ^ {- \frac {1}{4} h ^ {\kappa}}
 $$
 
 if $h$ is sufficiently large, and thus
 
 $$
-\left| f (l) / F (l) \right| > 2 e ^ {- \frac {1}{2} h \kappa}.
+\left| f (l) / F (l) \right| > 2 e ^ {- \frac {1}{4} h ^ {\kappa}}.
 $$
 
 It follows that the right-hand side of (15) is at least  $\frac{1}{2}|f(l)/F(l)|$ . Now let  $\theta$  and  $\Theta$  denote respectively the upper bound of  $|f(z)|$  and the lower bound of  $|F(z)|$  with z on C. Since  $2|z-l|$  with z on C exceeds the radius of C, we obtain from (15)
@@ -545,7 +545,7 @@ $$
 and, by (10) of Lemma 3,
 
 $$
-\theta \leqslant e ^ {4 h k} c _ {5} ^ {L R _ {R + 1} \log h}.
+\theta \leqslant e ^ {4 h k} c _ {5} ^ {L R _ {K + 1} \log h}.
 $$
 
 Thus from (16) we obtain
@@ -566,7 +566,7 @@ $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$-\frac{1}{2}\epsilon \text{ or } -\frac{1}{2}\epsilon (\tau - [\tau])$</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$h k^{\frac{1}{2} \epsilon K + 1} = k^{\frac{1}{2} \epsilon (K + 1 - \tau)} (h k^{1 + \frac{1}{2} \epsilon (\tau - 1)}) \leqslant k^{\frac{1}{2} \epsilon (K + 1 - \tau)} h^{K}$</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$h k^{\frac{1}{2} \epsilon K + 1} = k^{\frac{1}{2} \epsilon (K + 1 - \tau)} (h k^{1 + \frac{1}{2} \epsilon (\tau - 1)}) \leqslant k^{\frac{1}{2} \epsilon (K + 1 - \tau)} h^{\kappa}$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">τ-1</span></small>
 
@@ -627,10 +627,10 @@ $$
 and hence
 
 $$
-\left| \Phi (l, \dots , l) - \Psi^ {*} (l) \right| \leqslant (L + 1) ^ {n} e ^ {2 h k} c _ {1 7} ^ {L l} e ^ {- h \kappa}.
+\left| \Phi (l, \dots , l) - \Psi (l) \right| \leqslant (L + 1) ^ {n} e ^ {2 h k} c _ {1 7} ^ {L l} e ^ {- h ^ {\kappa}}.
 $$
 
-Further, the number on the right of the last inequality is at most  $e^{-1h\kappa}$ , since clearly
+Further, the number on the right of the last inequality is at most  $e^{-h^{\kappa}}$ , since clearly
 
 $$
 L l \leqslant L (L + 1) ^ {n} \leqslant 2 ^ {n} h ^ {\zeta (n + 1) (1 - \epsilon)} <   2 ^ {n} h ^ {\kappa (1 - \epsilon)}.
@@ -639,13 +639,13 @@ $$
 It follows therefore from (21) that
 
 $$
-\left| \Psi^ {*} (l) \right| <   2 e ^ {- \frac {1}{2} h ^ {\kappa}}.\tag{22}
+\left| \Psi (l) \right| <   2 e ^ {- \frac {1}{2} h ^ {\kappa}}.\tag{22}
 $$
 
 Let now $a_1, \ldots, a_n$ be defined as in the proof of Lemma 2 and write
 
 $$
-\omega = (a _ {1} \dots a _ {n}) ^ {L l} \Psi^ {\prime} (l).
+\omega = (a _ {1} \dots a _ {n}) ^ {L l} \Psi (l).
 $$
 
 Clearly  $\omega$  represents an algebraic integer with degree at most D. Further, any of its conjugates, obtained by substituting arbitrary conjugates for  $\alpha_{1}, \ldots, \alpha_{n}$ , has absolute value at most
@@ -749,3 +749,5 @@ A more general result, relating to real or complex algebraic numbers, follows fr
 
 Trinity College,
 Cambridge.
+
+(Received on the 17th of October, 1966.)
