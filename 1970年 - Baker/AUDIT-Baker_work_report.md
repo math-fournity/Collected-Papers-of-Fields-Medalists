@@ -27,3 +27,5 @@
 ## 总评
 - 2 页逐页审计完成；论文内容转写正确，但 **md 含一段 mineru 幻觉文本（p.001 末）**，
   使用该 md 时须剔除最后一段。其余同系统性瑕疵（running head 丢失）。
+
+> **修复登记（2026-09-29）**：已按本审计删除 md 末尾 mineru 幻觉段（"The Ground Truth image…" 整段）；修复与本登记同一 commit；修复前 md 见该 commit 父提交。
