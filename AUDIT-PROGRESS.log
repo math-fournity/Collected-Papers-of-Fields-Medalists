@@ -165,3 +165,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 19:24 | COMMIT | Baker III 闭环
 2026-09-29 19:25 | NOTE | Baker III c11 补修完成（字节级匹配）；9点全落实
 2026-09-29 19:28 | START | Villani landau10 | 10p | 陈旧错件导出已删并重导出（内容验证=Landau Damping）
+2026-09-29 19:31 | PAGE | Villani landau10 | p.1-10/10 | FAIL族9点 | (4)(5)合并/伪影/重音
