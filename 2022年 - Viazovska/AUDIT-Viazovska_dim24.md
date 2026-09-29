@@ -110,3 +110,10 @@
   ψ_S 显示式 ✓；φ(it)≤0 归约与 Lemma A.1 预告 ✓；**(4.2)**/**(4.3)** B(t) ✓；**(4.4)** ✓；
   "(4.2) holds for r>√2"（√2 根号 md 正确保留）✓；B(t) 渐近与 e^{4πt} 相消论证 ✓
 - 结果：**PASS±**（±：页眉 "1028 COHN, KUMAR, …" 未收）
+
+## p.013（PDF p.13 / 印刷 p.1029）
+- PNG：audit/dim24_p013.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：B(t)=1/39·te^{2πt}−10/(117π)e^{2πt}+O(t) ✓；[1,∞) 减法项积分
+  =(10−3π)(2−r²)+3)/117π²(r²−2)²·e^{−π(r²−2)} ✓；(4.5) ✓；Theorem 1.1 证明完成 ✓；
+  Appendix A 开头（Sturm 定理路线、ancillary file appendix.txt、PARI/GP [10]、arXiv 1603.06518）✓
+- 结果：**PASS±**（±：页眉/页码 1029 未收；"inequalit" 类 ff→f 伪影若干）

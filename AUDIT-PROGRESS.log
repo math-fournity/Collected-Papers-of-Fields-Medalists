@@ -109,3 +109,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:59 | PAGE | Viazovska dim24 | p.10/17 | PASS± | b̂=-b/(3.5)吻合
 2026-09-29 18:00 | PAGE | Viazovska dim24 | p.11/17 | FAIL | 孤立字符9（幻觉）
 2026-09-29 18:00 | PAGE | Viazovska dim24 | p.12/17 | PASS± | A(t)/B(t)/(4.1)-(4.4)逐位吻合
+2026-09-29 18:00 | PAGE | Viazovska dim24 | p.13/17 | PASS± | (4.5)/附录A开头吻合
