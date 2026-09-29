@@ -131,3 +131,66 @@
   - 页码 8 未转写（系统性）
 - 结果：**PASS±**（±：页码；QED `□` 未录）
 - 备注：本页逐字吻合（图版已随导出）。
+
+## p.009（PDF p.9）
+- PNG：audit/honeycomb_p009.png（pngmono 150dpi）
+- 核对：
+  - **Remark 2** 续：c/T ≤ B_T^{x_c} ≤ 1 ✓
+  - [6] 3.3.3/3.4.3 节猜想行为 ⟹ **Σ_{γ⊂S_T : 0→T+iyT} x_c^{ℓ(γ)} ≈ T^{−5/4}H(0,1+iy)^{5/4}** ✓；
+    H 为 Poisson 核的边界导数；对 y 积分 ⟹ B_T^{x_c} ~ T^{−1/4}；S_T 内 0→iyT 的类似猜想 ✓
+  - **4 Conjectures** ✓；Nienhuis [8, 9] 更精确渐近 ✓
+  - **(7)** c_n ∼ A n^{γ−1}√(2+√2)^n，γ = 43/32 ✓；∼ 的含义（比值 n^{o(1)} 阶或趋常）✓
+  - Flory 预测：**⟨|γ(n)|²⟩ = (1/c_n)Σ_{γ n-step SAW}|γ(n)|² = n^{2ν+o(1)}**，ν = 3/4 ✓（(8)）
+  - "Despite the precision …" 段 ✓；Lawler–Schramm–Werner [6]（共形不变极限 ⟹ γ、ν 可算）✓
+  - 离散逼近设定（Ω ≠ C、Ω_δ ⊂ Ω、a_δ/b_δ 最近顶点、P_{x,δ} 权重 ∝ x^{ℓ(γ)}、γ_δ 随机曲线）✓
+  - **Conjecture 1**（x = x_c 时 γ_δ 的 law → chordal SLE κ = 8/3，δ→0）✓ —— "posses" 系源拼写（忠实）
+  - 页码 9 未转写（系统性）
+- 结果：**PASS±**（±：页码）
+- 备注：本页公式逐符号吻合。
+
+## p.010（PDF p.10）
+- PNG：audit/honeycomb_p010.png（pngmono 150dpi）
+- 核对：
+  - SLE 收敛判据 [7, 10]；F_δ 归一化版共形不变极限（全纯 + 预定边界值）✓
+  - [11] 界面绕数唯一；**Riemann BVP**：**Im(F(z)·(tangent to ∂Ω)^{5/8}) = 0, z ∈ ∂Ω**（(9)）✓
+    （md "tangentto" 空格合并——排版级）；奇点于 a；(dz)^{5/8}-forms、fractal 边界仍良定义 ✓
+  - Remark 1 续（离散围道积分消失、次列极限全纯）；仅 relation (1) 不足（≈(2/3)E 关系 vs E 值，
+    无法由边界值重构）；divergence-free 向量场、curl 极限消失 ✓（源拼写 "vertice"、"unsufficient" 忠实）
+  - **Conjecture 2**（Ω、z、a/b、b 处光滑、F_δ 与 z_δ 最近点）✓；
+    **(10)** lim_{δ→0}F_δ(z_δ)/F_δ(b_δ) = (φ′(z)/φ′(b))^{5/8} ✓
+  - Φ 为 Ω→上半平面、a→∞、b→0 的共形映射；(10) 右侧良定义（φ 唯一至实因子）✓
+  - **Acknowledgements** 全段（Slade、Lawler、EU Marie-Curie RTN CODY、ERC AG CONFRA、Swiss FNS、
+    Chebyshev Laboratory、RF governement grant 11.G34.31.0026——源拼写 "governement" 忠实）✓
+  - 页码 10 未转写（系统性）
+- 结果：**PASS±**（±：页码；"tangentto" 空格合并）
+- 备注：本页公式逐符号吻合。
+
+## p.011（PDF p.11，**末页**）
+- PNG：audit/honeycomb_p011.png（pngmono 150dpi）
+- 核对：**References [1]–[11] 逐条**（作者/题名/期刊卷页年/出版信息）——全部吻合：
+  [1] Cardy–Ikhlef（J. Phys. A 42(10), 102001, 2009）；[2] Chelkak–Smirnov（Invent. Math. to appear; arXiv:0910.2045, 2009）；
+  [3] Flory（Cornell, ISBN 0-8014-0134-8, 1953）；[4] Madras–Slade（Birkhäuser, 1993）；[5] Hammersley–Welsh（Quart. J. Math. Oxford Ser. (2) 13 108–110, 1962）；
+  [6] Lawler–Schramm–Werner（Fractal Geometry … Part 2, 339–364; Proc. Sympos. Pure. Math. 72, 2004）；
+  [7] ——（Ann. Probab. 32(1B) 939–995, 2004）；[8] Nienhuis（Phys. Rev. Lett. 49 1062–1065, 1982）；
+  [9] Nienhuis（J. Stat. Phys. 34 731–761, 1984）；[10] Smirnov（ICM Eur. Math. Soc. Zürich, Vol. II 1421–1451, 2006）；
+  [11] Smirnov（ICM Hyderabad 2010, Plenary lectures, World Scientific, 2010）
+  - **md 遗漏作者单位/邮箱块**（页底右栏 "DÉPARTEMENT DE MATHÉMATIQUES / UNIVERSITÉ DE GENÈVE /
+    GENÈVE, SWITZERLAND / E-MAIL: hugo.duminil@unige.ch ; stanislav.smirnov@unige.ch"）——见 ±
+  - 重音修饰符伪影："Birkh¨auser"、"Benoˆıt"、"Z¨urich"；页码 11 未转写（系统性）
+- 结果：**PASS±**（±：页码；作者单位/邮箱块遗漏；重音伪影）
+- 备注：文献 11 条逐条吻合。
+
+## 总评
+- **覆盖声明**：11 页全部逐页审计（audit/honeycomb_p001–p011.png，pngmono 150dpi）；因本件为 pdfTeX 数字件
+  （parse_mode=txt），另以 `pdftotext` 做**全篇 token 级逐字符复核**。
+- 结论分布：**PASS± ×10 + FAIL ×1（单点）**。
+- **FAIL（1 处，单点，公式缺字符）**：p.4（md 第 119 行）`(2 cos <sup>π</sup> )` 应为 **(2 cos π/8)**——
+  分母 8 丢失（300dpi 确认）。**以原图为准**；修复建议：`(2 \cos \tfrac{\pi}{8})`。
+- 系统性瑕疵：①页码（1–11）与 arXiv 侧栏戳记未转写（惯例）；②**ff→f 伪影 8 处词位**（different→diferent×2、
+  differing→difering、Coefficients→Coeficients×2、sufficient→suficient、suffice→sufice、unsufficient→unsuficient）；
+  ③行内箭头 **→** 丢失（p.2 "γ : a → E"/"γ : a → b"）；④重音字符修饰符分解（Birkh¨auser / Benoˆıt / Z¨urich）；
+  ⑤空格合并（tangentto、forthanks、ofthe 等）；⑥**p.11 作者单位/邮箱块遗漏**；⑦QED `□` 未录（p.4/p.6/p.8）。
+- 忠实性正面案例（勿改）：源拼写 "posses"、"unsufficient"、"vertice"、"governement"。
+- **双副本**：`2022年 - Duminil-Copin/` 的 PDF 与 md 均与本目录 byte-identical（md5 同）；该目录 AUDIT 文件互指本审计。
+- 可用性：全部文本/公式/文献可引用；**唯 p.4 的 cos π/8 须按修复建议处理或以原图为准**。
+- mineru 解析信息：mineru 3.4.4 / tier=basic / **parse_mode=txt**。
