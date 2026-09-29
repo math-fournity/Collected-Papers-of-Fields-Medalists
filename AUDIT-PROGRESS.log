@@ -136,3 +136,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.5/5 | FAIL | p>5丢句号
 2026-09-29 18:12 | DONE | ICM2018 Birkar | 5/5 | 4点FAIL已修复 | 累计29/140
 2026-09-29 18:13 | PAGE | Baker linear forms II | p.1/6 | PASS± | 题录/Thm1-2/(1)吻合
+2026-09-29 18:13 | PAGE | Baker linear forms II | p.2/6 | PASS± | (2)/ζ/ε/h/k/D吻合
