@@ -20,3 +20,4 @@
 | 1974年 - Bombieri | Chandrasekharan 工作报告（ICM74 摘录 pp.5-8） | 4 | ✅ | ✅ 完成（4/4；⚠️p.6 ≪→⩽ 单符号误识1处） | [AUDIT-Bombieri_work_report.md](1974年%20-%20Bombieri/AUDIT-Bombieri_work_report.md) |
 | 1974年 - Bombieri | Addendum "Algebraic Values of Meromorphic Maps"（Invent. 11, 163-166 + GDZ封面） | 5 | ✅ | ✅ 完成（5/5；⚠️p.4 三处内容级缺陷：∇→V／整行丢失+`\qend`／负号丢失） | [AUDIT-Bombieri_addendum.md](1974年%20-%20Bombieri/AUDIT-Bombieri_addendum.md) |
 | 1978年 - Margulis | Tits《The Work of G. A. Margulis》（Helsinki 1978 工作报告摘录 pp.60–64） | 5 | ✅ | ✅ 完成（5/5；摘录件，p.64 空白，无 FAIL） | [AUDIT-Margulis_report.md](1978年%20-%20Margulis/AUDIT-Margulis_report.md) |
+| 1994年 - Lions | Crandall–Ishii–Lions《User's guide to viscosity solutions…》BAMS 27 (1992)（MathSciNet 评审记录打印件：评论+文献162条） | 9 | ✅ | ✅ 完成（9/9；⚠️p.1 "y→x"箭头丢失1处；ff→f 伪影53处；无 FAIL） | [AUDIT-Lions_viscosity.md](1994年%20-%20Lions/AUDIT-Lions_viscosity.md) |
