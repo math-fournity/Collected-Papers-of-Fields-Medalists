@@ -77,3 +77,13 @@
   - §2 记号（G_r 自由/自由交换、f_σ(D_i)=φ_i、f̄_i: ∂D^{s+1}×0→Q、x₀/y₀/U 基点处理）✓
   - realizes F 定义 ✓；**(2.1) THEOREM**（automorphism α、V realizes f_σ α）✓；**(2.2) LEMMA** ✓
 - 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 397" 与页码未收）
+
+## p.009（PDF p.9 / 印刷 p.398）
+- PNG：audit/p009.png（pngmono 150dpi）
+- 核对：(2.2) PROOF（covering homotopy property、Thom [23] + Palais CMH 34 (1960)、
+  F_t/G_t、hf₂ = G₂^{-1}F₂ = F₁F₂^{-1}F₂ = f₁——原刊即如此）✓；**(2.3) THEOREM
+  (H. Whitney, W.T. Wu)**（n ≥ max(2k+1,4)）✓；Whitney [29]/Wu [30] 注 ✓；
+  **(2.4) LEMMA** + PROOF ✓；See [16] ✓；**(2.5) LEMMA (Nielson)** 生成元阵列
+  R/T_i/S 及条件（i>1、j≠1,j≠i,i=2,⋯,r）✓；free abelian case ✓；𝓐 生成元归约句 ✓；
+  α=R 开头 h: D^{s+1}×D^{n−s−1} 定义句 ✓
+- 结果：**PASS±**（±：页眉 "398 STEPHEN SMALE" 与页码未收）
