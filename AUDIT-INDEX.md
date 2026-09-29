@@ -21,3 +21,4 @@
 | 1974年 - Bombieri | Addendum "Algebraic Values of Meromorphic Maps"（Invent. 11, 163-166 + GDZ封面） | 5 | ✅ | ✅ 完成（5/5；⚠️p.4 三处内容级缺陷：∇→V／整行丢失+`\qend`／负号丢失） | [AUDIT-Bombieri_addendum.md](1974年%20-%20Bombieri/AUDIT-Bombieri_addendum.md) |
 | 1978年 - Margulis | Tits《The Work of G. A. Margulis》（Helsinki 1978 工作报告摘录 pp.60–64） | 5 | ✅ | ✅ 完成（5/5；摘录件，p.64 空白，无 FAIL） | [AUDIT-Margulis_report.md](1978年%20-%20Margulis/AUDIT-Margulis_report.md) |
 | 1994年 - Lions | Crandall–Ishii–Lions《User's guide to viscosity solutions…》BAMS 27 (1992)（MathSciNet 评审记录打印件：评论+文献162条） | 9 | ✅ | ✅ 完成（9/9；⚠️p.1 "y→x"箭头丢失1处；ff→f 伪影53处；无 FAIL） | [AUDIT-Lions_viscosity.md](1994年%20-%20Lions/AUDIT-Lions_viscosity.md) |
+| 1950年 - Selberg | An Elementary Proof of the Prime-Number Theorem（Annals 50, 305–313；JSTOR 版） | 10 | ✅ | ✅ 完成（10/10；⚠️3 处单点 FAIL：d^{-4/3}→-3/4／Σ_{p≥x}→Σ_{pq≤x}／y_n→y_ν；源级笔误 (1.4) 已考证） | [AUDIT-Selberg.md](1950年%20-%20Selberg/AUDIT-Selberg.md) |

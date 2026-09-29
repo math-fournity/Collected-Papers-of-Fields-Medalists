@@ -1,0 +1,1831 @@
+# THE TOPOLOGY OF FOUR-DIMENSIONAL MANIFOLDS
+
+MICHAEL HARTLEY FREEDMAN
+
+To my teachers and friends
+
+## 0. Introduction
+
+Manifold topology enjoyed a golden age in the late 1950's and 1960's. Of the mysteries still remaining after that period of great success the most compelling seemed to lie in dimensions three and four. Although experience suggested that manifold theory at these dimensions has a distinct character, the dream remained since my graduate school days $^{1}$ that some key principle from the high dimensional theory would extend, at least to dimension four, and bring with it the beautiful adherence of topology to algebra familiar in dimensions greater than or equal to five. There is such a principle. It is a homotopy theoretic criterion for imbedding (relatively) a topological 2-handle in a smooth four-dimensional manifold with boundary. The main impact, as outlined in §1, is to the classification of 1-connected 4-manifolds and topological end recognition. However, certain applications to nonsimply connected problems such as knot concordance are also obtained.
+
+The discovery of this principle was made in three stages. From 1973 to 1975 Andrew Casson developed his theory of “flexible handles” $^{2}$ . These are certain pairs having the proper homotopy type of the common place open 2-handle  $\dot{H} = (D^{2} \times \dot{D}^{2}, \partial D^{2} \times \dot{D}^{2})$  but “flexible” in the sense that finding imbeddings is rather easy; in fact imbedding is implied by a homotopy theoretic criterion. It was clear to Casson $^{3}$  that: (1) no known invariant—link theoretic
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Received May 10, 1982. This work was supported by the University of California at San Diego, the Institute for Advanced Study, a National Science Foundation grant, and the Alfred P. Sloan Foundation.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  My graduate work was under the direction of William Browder and, informally, Frank Quinn at Princeton University, 1969–1973.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ So named by Casson but generally called “Casson handles.” We will adhere to the latter, terminology.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$ See Notes by Guillou on Casson's lectures [15].</span></small>
+
+or otherwise—could be used to show that a Casson handle CH was not diffeomorphic (as a pair) to the standard open 2-handle $\dot{H}$; and (2) if all Casson handles were discovered to be diffeomorphic to the standard open 2-handle, then 4-manifolds would be much simpler than most researchers expected. In particular, 1-connected smooth 4-manifolds would be completely classified. (The complexities arising from the possibility that “homeomorphic” might replace “diffeomorphic” were not, however, considered in advance.)
+
+In 1978 [22] I developed a reimbedding technique which can be used to construct a new Casson handle $\mathrm{CH}^1$ inside a predictably large compact piece $T_{6}$ of any given Casson handle $\mathrm{CH}^0$. This gives a small but useful amount of geometric control over Casson's construction. The payoff for this refinement was a 1-connected noncompact surgery theorem.
+
+The last stage can be seen as a systematic exploitation of the control obtained in 1978. We construct an explicit but somewhat singular parametrization $\dot{H} \stackrel{\alpha}{\to}\mathrm{CH}/\{\mathrm{gaps}^{+}\}$ of any Casson handle modulo a countable-null collection of cell-like sets which will be called $\{\mathrm{gaps}^{+}\}$. The gaps are regarded as recalcitrant pockets of resistance to our explorations and essentially unknowable. To make progress we crush them to points. Although singular, the parametrization $\alpha$ is shown by an explicit shrinking argument provided by Robert Edwards$^{4}$ (§8) to be approximable by a homeomorphism $\bar{\alpha}: \dot{H} \to \mathrm{CH}\{\mathrm{gaps}^{+}\}$. On the other hand, an abstract approximation argument which uses no specific knowledge of individual point inverses, but exploits the fact that the interiors of CH and $\dot{H}$ are both homeomorphic to 4-space $R^{4}$, is used to show that $\beta: \mathrm{CH} \to \mathrm{CH}/\{\mathrm{gaps}^{+}\}$ is also approximable by a homeomorphism $\bar{\beta}$. Putting these together we obtain a homeomorphism (of pairs) $\bar{\beta}^{-1} \circ \bar{\alpha}: \dot{H} \to \mathrm{CH}$. Thus topologically a 2-handle may be imbedded in a 4-manifold whenever Casson's homotopy theoretic criterion, or the appropriate nonsimply connected generalization, is satisfied.
+
+This imbedding theorem leads to a great wealth of consequences which are outlined in §1. While some consequences are immediate, the path to most leads through a five-dimensional proper $h$-cobordism theorem which is proved in §10. The proof of this theorem, ultimately based on the high dimensional argument of Larry Siebenmann's[46], was not clear for several weeks following the establishment of $\dot{H} \cong_{\mathrm{Top}} \mathrm{CH}$ and I would like to thank Frank Quinn for many valuable conversations during that period.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{4}$§8 expounds Edwards' argument and serves as my take-home final in Bing topology! My thanks to my teacher!</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{5}$ Siebenmann's proof generalized to a noncompact setting Stephen Smale's landmark $h$-cobordism theorem [50].</span></small>
+
+Both the viewpoint and technical detail of this paper were much sharpened during three seminars (La Jolla, California, Aug. 22–30, 1981; Austin, Texas, Oct. 12–21, 1981; Princeton, New Jersey, Oct. 22–28, 1981). I would like to thank all the participants for their interest, criticism, and finally stamina as the hours wore on.
+
+Rob Kirby introduced me to Casson's work in a private session some time in 1974. It was several years before I fully understood Casson's ideas and their potential. This was a difficult time for me and through much of it Kirby was my contact with the mathematical world. In May of 1978 I visited Bob Edwards to show him my work on splitting surgery problems leading to a fake $S^3 \times R$. He immediately saw that shrinking could be added to my techniques to gain useful geometric control. In July 1981 I found that the theme of geometric control could be elaborated and repeated even uncountably. The result is the singular parametrization $\alpha$ which serves as the entrance into the third and final stage of the proof.
+
+I owe special thanks to Ric Ancel, Jim Cannon, Bob Edwards, Frank Quinn, and Larry Siebenmann for their efforts (partly successful) to make the proof less ugly.
+
+The body of the paper, §§2 through 9, is the proof of one theorem, Theorem 1.1: $\dot{H} \cong_{\mathrm{Top}} \mathrm{CH}$. A final and long §10 proves the second main theorem, that 1-connected, simply connected at infinity, smooth, 5-dimensional proper-$h$-cobordisms are products. This allows both smoothing theory and Kirby's theorem on nonlocally flat points to enter into the general scheme. With these tools come many results which are described in §1. The proofs are mostly given in §1 with reference, where necessary, to succeeding material.
+
+## TABLE OF CONTENTS
+
+0. Introduction ..... 357
+1. The final results ..... 360
+2. Handle calculus ..... 374
+3. Casson's imbedding theorem and fundamental group improvement ..... 381
+4. Reimbedding theorems ..... 385
+5. Geometric control and the imbedding of a design $\mathfrak{D}$ in CH ..... 393
+6. The decomposition space $\mathrm{CH}/\{\mathrm{gaps}^{+}\}$ intermediate between CH and $\dot{H}$: a reduction of the main theorem ..... 404
+7. A short course in Bing topology (from the teachings of Robert Edwards) ..... 413
+8. The approximation of $\alpha: \dot{H} \to \dot{\mathrm{CH}}/\{\mathrm{gaps}^{+}\}$ ..... 425
+9. Approximating certain self-maps of $S^{n}$ ..... 431
+10. The proper $h$-cobordism theorem ..... 435
+
+There seems to be a small cluster of interrelated unsolved problems which the present techniques come tantalizingly close to, but still leave untouched. Among these are the four-dimensional annulus conjecture, the question of smoothing compact topological 4-manifolds in the complement of a point, and the nonsimply connected versions of surgery and s-cobordism theorems. In contrast, the question of smooth structures on closed 4-manifolds seems to be not at all advanced. In the former cases one cannot yet tell whether there is an obstruction or no obstacle at all.
+
+## 1. The final results
+
+We present the main results in logical/historical order even though some are technical and cannot be fully appreciated until the paper is read. For a quick perusal of well-known questions settled here we recommend reading the statements of Theorems 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 1.10, 1.11 and 1.14, also Corollaries 1.1, 1.2, 1.3', 1.4, 1.5 and 1.6.
+
+In dimension four piecewise linear manifolds are smoothable (the final obstruction group $\Gamma^3$ is trivial by Smale's theorem [27], thus we will ignore the P.L. Category and discuss only smooth and topological manifolds.
+
+The following theorem of Casson's (circa '73) is the homotopy theoretic criterion mentioned in the introduction (see §2 and §3 for definitions, or [15]).
+
+Theorem 3.1 (Casson). Let $(M, \partial)$ be a smooth simply connected 4-manifold with boundary, and $\bar{d} = \mathrm{II}d_i$: $\mathrm{II}(D^2, \partial); \Leftrightarrow (M_1\partial)$ be an immersion of a finite disjoint union of disks, which is an imbedding on $\mathrm{II}\partial D_i^2$. If there exist classes $x_i \in H_2(M; Z)$ with integral intersection numbers $x_i \cdot d_j = \delta_{ij}$ and $x_i \cdot x_i = \text{even}$, and if $d_i \cdot d_j = 0$ (this is defined for $i \neq j$), then $\bar{d}$ is regularly homotopic to the first stage of a disjoint union of smoothly imbedded Casson handles.
+
+A “Casson handle” is one of a certain class of smooth 4-manifolds with boundary which have the same proper homotopy type as the open 2-handle  $(D^{2} \times \dot{D}^{2}, \partial D^{2} \times \dot{D}^{2})$ . They were constructed by Casson with the above theorem in mind. We describe them in detail in §2. Roughly speaking, a Casson handle is an open regular neighborhood of an infinite tower of 2-disks immersed in a 4-manifold M with boundary, the  $(n + 1)$ st stage of the lower being attached to annihilate the fundamental group resulting from the double points of the nth stage. The boundary of the first stage disk lies in  $\partial M$ , thereafter the construction is in interior M. This sketch is not yet complete since there is also a framing condition designed to keep the fundamental group at infinity isomorphic to the integers.
+
+The hypothesis of simple connectivity above can be replaced with a hypothesis involving a 6-fold fundamental group death, $^{6}$ and the requirement on the existence of a dual can be weakened. Theorem 5.1 is a good example of this. This theorem “reimbeds” (with control) some Casson handle CH $^{1}$ in the first six stages of an arbitrary Casson handle CH. It is not important that the number turns out to be six; it is only important that there is some bound.
+
+Theorem 1.1. Any Casson handle CH is homeomorphic as a pair to the standard open 2-handle $(D^2\times \dot{D}^2,\partial D^2\times \dot{D}^2)$.
+
+The proof is assembled at the end of §6, by which time only two pieces remain unproved, Theorem 8.1 and Theorem 9.1.
+
+Since the smooth Hauptvermutung for open 2-handles will now be an obvious question, it is worth saying how much the newly discovered topological parametrization $\dot{H} \stackrel{\text{homeo}}{\rightarrow}$ CH differs from a diffeomorphism. Larry Siebenmann and Bob Edwards have observed that the maps in the diagram (§6) $\dot{H} \stackrel{\alpha}{\rightarrow}\mathrm{CH}/\{\mathrm{gaps}^{+}\} \stackrel{\beta}{\leftarrow}\mathrm{CH}$ can be so carefully approximated by the homeomorphisms $\alpha_{i}^{\prime}$ and $\beta_{i}^{\prime}$ that $\beta_{i}^{\prime-1} \circ \alpha_{i}^{\prime}$ is actually a diffeomorphism over the complement of a closed set $K \subset$ interior(CH) where $\dim(K)=2$, that is, $K$ has general position properties similar to a 2-complex; see [19]. A category “Flex” (presumably) intermediate between Top and Diff can be formed where transition functions are homeomorphisms which are diffeomorphisms off a $\dim=2$ set (a slightly stronger condition on transition functions may eventually prove profitable). All known 4-manifolds are flex, and all known homeomorphisms between such may be replaced by flexomorphisms. Possibly this will become the best language to describe many of the results of this paper. However for the present we are content to make statements in the topological category and ignore the additional structure.
+
+In 1978 certain smooth disks with a (possible) isolated singularity were constructed [22] as “cores” to Casson handles. Siebenmann asked whether the image under the homeomorphism  $h: \dot{H} \rightarrow CH$  of a core disk can also be made smooth in CH except (possibly) at a single point. In effect can [22] and the present paper be synthesized? Fortunately the answer is yes, but no use is made of this in the present paper.
+
+Addendum A to Theorem 1.1. Any Casson handle CH admits a homeomorphism of pairs $h \colon (D^2 \times \dot{D}^2, \partial D^2 \times \dot{D}^2) \to \mathrm{CH}$ which is a diffeomorphism on a collar $C$ of $\partial D^2 \times \dot{D}^2$ and carries $0 \times D^2$ into a submanifold of CH which is smooth except (possibly) at $h(0 \times 0)$.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Wh $_{4}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}$  Robert Gompf has drawn some explicit handle diagrams which show that 6 can actually be replaced by 5. This same improvement also justifies the claim that  $Wh_{4}$  is topologically slice (see [22]).</span></small>
+
+Proof. That h is a diffeomorphism on C is immediate from the proof of Theorem 1.1; all the shrinking argument takes place well away from the attaching regions.
+
+For the second claim a certain familiarity with §§5, 6, and 7 are required; the reader may wish to postpone this argument. $D' \times D'$ is the exceptional (type III) element of $D(\alpha)$. It corresponds to the central gap; $G = (K_0 \setminus \text{open collar of attaching region})$, in CH. It is a fact that $G$ is smoothly cellular in CH, that is, $G$ is a nested intersection of smoothly imbedded 4-cells in CH. To see this, return to the construction of the design $\mathfrak{D}$ in §5. For any element in the complement of the standard Cantor set in [0, 1] with length $n (= \text{number of initial zeros of its base three expansion})$ there is a $6(n + 1)$-stage tower $T^\rho$ contained in CH and containing $G$. For any such $\rho > 0$ no matter how long there is a longer $\rho'$. $T^{\rho'} \subset T_i^\rho$ with the inclusion homotopic to a point. Set $Y = T^{\rho'} \setminus (\text{open collar of attaching region})$. Recalling (§2) that towers have 1-complex splines, we see $Y$ can be smooth engulfed by a smooth ball $B \subset T^\rho$. If, previously, we adjust $T^\rho$ by removing a suitable open collar of the attaching region, we can think of it as a typical member of a neighborhood system for $G$. Thus $G$ is defined by the intersection of smooth balls such as $B$.
+
+It is easily verified that the showing G smoothly cellular is equivalent to showing the end of CH - G converging to G is smoothly equivalent to the standard end  $S^{3} \times [0, \infty)$ . Thus the quotient space CH/G carries a smooth structure and is diffeomorphic to CH. In CH/G there is an obvious imbedded “core” 2-disk, called  $\Delta$ , which is smooth except at a point. It comes from an annulus  $S^{1} \times [0, \infty)$  in the collar structure on CH whose open end converged to G. See Diagram 1.1.
+
+![](images/page_5_chart_3.jpg)
+
+![](images/page_5_chart_4.jpg)
+
+DIAGRAM 1.1
+
+Now replace (\*) in §6 by
+
+$$
+\dot {H} / D ^ {\prime} \times D ^ {\prime} \stackrel {\tilde {\alpha}} {\rightarrow} \mathrm{CH} / \left\{\text { gaps } ^ {+} \right\} \stackrel {\tilde {\beta}} {\leftarrow} \mathrm{CH} / G.
+$$
+
+Applying fact 7.2 to the diagrams
+
+![](images/page_6_image_1.jpg)
+
+shows that $\tilde{\alpha}$ and $\tilde{\beta}$ are $ABH$. Now the corollary to the majorant shrinking principle (Cor. 7.1) allows approximation by homeomorphisms. $\overline{\alpha}_i$ and $\overline{\beta}_i$ which agree with $\tilde{\alpha}$ on $D^2 \times 0 / D' \times 0$ and $\tilde{\beta}$ on $\Delta$ respectively. Thus the homeomorphisms $k = (\overline{\beta}_i)^{-1} \circ \overline{\alpha}_1$ carry $D^2 \times 0 / D' \times 0$ onto the almost smooth $\Delta$. Precomposing $k_i$ with a homeomorphism $l: D^2 \times \dot{D}^2 \to D^2 \times \dot{D}^2 / D' \times D'$ satisfying $l(D^2 \times 0) = D^2 \times 0 / D' \times 0$ gives the desired map $k \circ l: D^2 \times \overline{D}^2 \to \mathrm{CH}$. q.e.d.
+
+Two immediate consequences of Theorem 1.1 are Theorems 1.2 and 1.3.
+
+Theorem 1.2. Let $f \colon (M^4\partial) \to (X^4,\partial)$ be a degree-one map between a compact 1-connected smooth manifolds and a 1-connected Poincaré space, and suppose $f$ is covered by a map of linear bundles $b \colon \nu^k(M) \to \xi^k$, $\nu^k(M)$ a normal bundle to $M$. Assume $f / \partial M \colon \partial M \to \partial X$ induces an isomorphism on integral homology (the boundary may be empty). Then $f$ is topologically normally bordant rel boundary (see [7] and [13] for definitions) to a homotopy equivalence (absolute) from a topological 4-manifold $(M',\partial)$ if and only if the surgery obstructions, (signature $M$)- (signature $X$), is zero.
+
+Addendum. $M'$ has a smooth structure in the complement of a flat 4-cell contained in $M$.
+
+Theorem 1.3. A compact 1-connected smooth 5-dimensional h-cobordism (W; M, M') (which is a product over the possibly empty boundary  $\partial M$ ) is topologically a product, i.e., W is homeomorphic to  $M \times [0, 1]$ .
+
+Addendum. The product structure is smooth over the complement of a flat 4-cell in M.
+
+Proof of Theorem 1.2. Let $\alpha_{1},\ldots ,\alpha_{n}$ be a subbase for the surgery kernel. Remove the interiors of $n$ disjoint balls from $M$ to form $(M^{-},\partial B_{1}\cup \dots \cup \partial B_{n})$. $\alpha_{i}$ corresponds to relative classes in $M^{-}$, and these can be represented by immersions with boundaries imbedded and distinct components $\partial B_{i}$. Theorem 3.1 applies to engulf regularly homotopic immersions with Casson handles which by Theorem 1.1 are actual open 2-handles. Since the self-intersections $\mu (\alpha_i)$ equal 0, the framings are zero. The open 2-handles union $B_{i}$ form a disjoint collection of $n$ imbedded copies of $S^2\times \dot{D}^2$ in $M$. These contain flat imbeddings of $S^2\times \frac{1}{2} D^2$ on which surgery (in the topological category) can be done as usual to create a topological normal bordism to a homotopy equivalence from a topological manifold $M'$.
+
+To verify the addendum, instead of representing a subbase  $\alpha_{1},\cdots,\alpha_{n}$ , represent an entire hyperbolic base  $\alpha_{1},\ldots,\alpha_{n},\beta_{1},\ldots,\beta_{n}$  using the same method by n disjoint topological imbeddings  $(S^{2}\times S^{2}\text{-point})_{i}\subset M$  such that  $(S^{2}\times point)_{i}$  and  $(point\times S^{2})_{i}$  represent  $\alpha_{i}$  and  $\beta_{i}$  respectively. To do this think of  $S^{2}\times S^{2}$ -pt as  $\dot{B}^{4}$  union two Casson handles  $\cong_{Top}$  open 2-handles attached with zero framing to an open neighborhood of the Hopf link lying in the limiting 3-sphere. Trimming off open collars of the ends we find n topologically flat 3-sphere bounding  $nS^{2}\times S^{2}$  summands on one side. The desired  $M'$  is the result of removing the summands and gluing in 4-cells.  $M'$  is clearly smooth away from these 4-cells. Since the separating 3-spheres have smooth spots (the portion which is inherently topological, i.e., constructed using the topological parametrization of CH is only a closed tubular neighborhood of the Hopf link in  $S^{3}$ ), the 4-cells may be all joined by thickened arcs to form one flat 4-cell.
+
+Finally a standard argument (write  $(S^{2} \times S^{2})_{i}$  as  $\partial(D^{3} \times S^{2})_{i}$ ) can be used to “fill in” the normal bordism between M and  $M'$ .
+
+Proof of Theorem 1.3. This argument is outlined in §10 as Theorem 10.3 (also compare with [15]); it rests on a topological Whitney trick in the middle level of a 5-dimensional h-cobordism.
+
+To prove the addendum one modifies the argument in §10 as follows. In the middle level construct twice the number of topological 2-handles, the cores of these being somewhat arbitrarily divided into the Whitney and accessory disks of [25]. In the simplest nontrivial example the ascending the descending manifolds of the middle level will each be a single 2-sphere $A$ and $D$ with $A \cap D$ consisting of 2 positive and 1 negative intersection points. Using Kirby's handle calculus (introduced in §2) we illustrate this situation. A regular neighborhood $\mathfrak{N}_0$ of $A \cup D$ (Diagram 1.2) and then a regular neighborhood $\mathfrak{N}$ of $A \cup D \cup$ Whitney disk $\cup$ accessory disk
+
+![](images/page_7_image_4.jpg)
+
+DIAGRAM 1.2
+
+![](images/page_8_image_0.jpg)
+
+DIAGRAM 1.3
+
+The conclusion suggested by Diagram 1.3 is that the second regular neighborhood N is homeomorphic to  $S^{2} \times S^{2}$ -interior ( $D^{4}$ ) with the ascending and descending spheres being isotopic to the standard inclusions of the factors. (In the more general cases N may be a finite boundary connected sum of copies of  $(S^{2} \times S^{2}$ -interior ( $D^{4}$))). But this generalization is safely ignored; we may restrict our attention to the example. The bordism W may be restricted to the portion  $W'$  “above or below” N, that is, the bordism:  $N \times [0, 1] \cup_{A \times 1}$  Top 3-handle  $\cup_{D \times 0}$  Top 3-handle. By elementary handle body theory,  $W'$  is a topological product ( $D^{4} \times I; D^{4} \times 0, D^{4} \times 1$ ). The complement of this product (in fact, the complement of the smaller subbordism above and below  $N_{0}$ ) is already trivialized as a smooth product by the smooth gradient like vector field on W. q.e.d.
+
+A simple corollary to the proof of Theorem 1.2 is a realization theorem for the particular subbase, the singleton $\{(p,q)\}$, $(p,q) \in H_2(S^2 \times S^2; Z)$ with $p$ and $q$ relatively prime. Since the question of representing these classes by smooth or even topologically flat imbeddings has attracted some interest we state
+
+Corollary 1.1. If $p$ and $q$ are relatively prime integers, then the class $(p, q) \in H_2(S^2 \times S^2; Z)$ is represented by a topologically flat 2-sphere, that is, by topological imbedding of $S^2 \times D^2$.
+
+Theorem 1.3 has a noncompact version which at the present state of the art is a quite lengthy deduction from Theorem 1.1 and 5.1.
+
+Theorem 10.3. Let $(W, V, V')$ be a simply connected smooth proper h-cobordism of dimension 5. Suppose $W$ (and therefore $V$ and $V'$) are simply connected at infinity. Then $W$ is homeomorphic to $V \times I$.
+
+Corollary 1.2. Any topological 4-manifold $V$ which is proper-homotopy equivalent $(p)$ to $R^4$ is homeomorphic to $R^4$. (The assumption $V \underset{\cong}{\rho} R^4$ is equivalent to requiring: (1) $\pi_1(V) \cong 0$, $H_2(V; Z) \cong 0$, and $V$ simply connected at infinity. For this see Larry Siebenmann's Bourbaki seminar [48].
+
+Proof. Smoothing theory [32], [33] says that a connected noncompact $n$-manifold (for any $0 < n < \infty$) can be smoothed if the classing map for its topological tangent microbundle can be lifted over $BO(n) \to B \operatorname{Top}(n)$. When $n = 4$ the second space is quite mysterious, but if the manifold in question is contractible there can be no obstruction to the lifting. Thus any $V$ (proper)-homotopy equivalent to $R^4$ admits a smoothing $V_{\Sigma}$.
+
+By hand one can construct a proper-h-cobordism $W$ between $V_{\Sigma}$ and $R^4$. Set $(W; V_{\Sigma}, R^4) \cong (V_{\Sigma} \times [0,1)) \cup \dot{B}^4 \times 1$; $V_{\Sigma} \times 0, B^4 \times 1$ where $B^4$ is the interior of a smooth 4-ball in $V_{\Sigma}$. Now apply Theorem 10.4 to obtain $R^4 \cong_{\text{Top}} V_{\Sigma} \cong_{\text{Top}} V$. q.e.d.
+
+In [22] the author constructed a smooth proper imbedding of the punctured Poincaré homology sphere  $P^{-}$ into V, a smooth manifold known to be proper homotopy equivalent to  $R^{4}$ . (Proper implies that the imbedding carries end( $\Sigma^{-}$ ) to end ( $R^{4}$ ).) A similar construction shows that any homology 3-sphere minus a point  $\Sigma^{-}$ can be so imbedded. (The only difference is that more than one framed 1-surgery may be necessary to make (homology 3-sphere) × I simply connected.) By Corollary 1.2 any  $\Sigma^{-}$ has a topologically flat proper imbedding in  $R^{4}$  (flat means the imbedding extends to an imbedding of  $\Sigma^{-} \times [-\varepsilon, \varepsilon]$ .) A beautiful theorem of Rob Kirby's (actually a special case [29] says that except for surfaces in three-manifolds no codimension-1 topological imbedding can have an isolated non-locally-flat point. Thus if we take the 1 point compactification of the pair ( $R^{4}$ , imbedding ( $\Sigma^{-}$ )) we must get a topologically flat imbedding  $\Sigma \leftrightarrow S^{4}$  since flatness is apparent away from the compactification point. Thus we have
+
+Theorem 1.4. Every three-manifold $\Sigma^3$ with the integral homology of the three-sphere admits a topologically flat imbedding into $S^4$.
+
+Note. In the case of Rochlin-invariant-one homology spheres such as P, this imbedding cannot be made smooth. For  $P \# P$  smoothness is an important open question; see [26] for a discussion of the implication for polyhedral structures on manifolds.
+
+In [22] the imbedding  $P^{-} \Leftrightarrow V$  separates V into two (symmetrical) contractible pieces. The same is true for  $\Sigma^{-} \Leftrightarrow V \cong_{Top} R^{4}$ . Thus we obtain a slight strengthening of Theorem 1.4.
+
+Theorem 1.4'. Every three-manifold $\Sigma^3$ with the integral homology of a 3-sphere bounds a topological contractible 4-manifold $\Delta^4$. $S^4$ is homeomorphic to the double $\Delta^4 \cup_{\mathrm{id}_{\Sigma^3}} - \Delta^4$. Thus $S^4$ admits a tame topological involution with any homology 3-sphere as a fixed point set.
+
+As a simple consequence of Theorem 10.3 and [29] we have
+
+Corollary 1.3. Any smooth 4-manifold X proper homotopy equivalent to  $S^{3} \times R$  is homeomorphic to  $S^{3} \times R$ .
+
+Proof. According to [14] there are at most two proper-h-cobordism classes of such manifolds X, distinguished by the mod 2 of Rochlin invariant of the end. (To define this, frame X in any way. Let  $F^{3}$  be a compact 3-manifold separating ends. F has a canonical almost-framing and so a mod 8 Rochin invariant = [2k] ∈ interiors/16 integers. Since  $S^{3} \times R$  is normally bordant to  $id_{S^{3} \times R}$  and since 2k becomes a signature splitting obstruction on the normal bordism, 2k must be the signature of a nonsingular form. Consequently 8 divides 2k, and  $F^{3}$  has a well-defined mod 2 Rochlin invariant.) According to [22] both values are realized, so there are exactly two p-h-cobordism classes of fake  $S^{3} \times R$ 's.
+
+By Theorem 10.4 any X p-h-cobordant to  $S^{3} \times R$  is homeomorphic to  $S^{3} \times R$ . Now consider X with Rochlin invariant  $\mathcal{R}(X) = 1$ . Let 2X be the “connected sum along a line” running from one end of X to the other of X and -X. That is  $2X = (X - \text{line } X \times \dot{D}^{3}) \cup_{\text{id}_{\text{line} \times \partial D^{3}}} -(X - \text{line} \times \dot{D}^{3})$ . By additivity  $\mathcal{R}(2X) = 0$ , so 2X is p-h-cobordant to  $S^{3} \times R$  and therefore homeomorphic to  $S^{3} \times R$ . Form the end-compactification  $\overline{2X}$  of 2X, this is,  $2X \cup \pm\infty \cong_{Top} S^{3} \times R \cup \pm\infty \cong_{Top} S^{4}$ .  $Y = (\text{line} \times \partial D^{3} \cup \pm\infty)$  is a 3-sphere in  $\overline{2X}$ , which is flat except possibly at  $\pm\infty$ . By [29] Y is a flat 3-sphere in 2X. By the generalized Schoenflies theorem Y bounds two 4-balls B and  $B'$  in  $\overline{2X}$ . Consider either ball minus compactification points  $B \setminus (\pm\infty) \cong D^{3} \times R$ . But  $(X - \text{line} \times \dot{D}^{3}) = B \setminus \pm\infty$ , so  $X \cong_{Top} D^{3} \times R \cup_{\partial D^{3} \times R} D^{3} \times R$ . Since all orientation preserving homeomorphisms of  $S^{2} \times R$  are isotopic (see [34] for example)  $X \cong_{Top} D^{3} \times R \cup_{\text{id}_{\partial D^{3}} \times R} D^{3} \times R = S^{3} \times R$ .
+
+Larry Siebenmann has pointed out that the assumption that $X$ has a smooth structure can be dispensed with.
+
+Corollary 1.3' (Siebenmann). Any topological 4-manifold proper-homotopy equivalent to $S^3 \times R$ is homeomorphic to $S^3 \times R$.
+
+Outline of Proof. Step 1. Use techniques of Homma (see [28] and [11]) to construct a flat arc in X running from end to end. The complement is, of course, (topologically)  $R^{4}$ .
+
+Step 2. At intervals along the arc place transverse 3 disks. By [29] the image of these disks in $X \cup \pm \infty / \operatorname{arc} \cup \pm \infty \simeq_{\operatorname{Top}} S^4$ are still flat 3-disks $\Delta$.
+
+Step 3. Use flatness to produce nested 1-sided thickenings $\Delta \times [01] \subset S^4$ as shown below.
+
+![](images/page_11_image_1.jpg)
+
+![](images/page_11_image_2.jpg)
+
+DIAGRAM 1.4
+
+Step 4. Parametrize X as  $S^{3} \times R$  using a “spine-ribs-meat picture”. The line is the spine, the inverse image of  $\partial(\Delta \times [0,1]$ 's) are flat 3-sphere ribs, the meat consists of 4-balls found, by an application of the generalized Schoenflies theorem, to lie between the ribs. q.e.d.
+
+The following classification can be considered the main theorem of this paper.
+
+Definition 1.1. A manifold is almost-smooth if it has been given a smooth structure in the complement of a single point.
+
+Theorem 1.5. (Existence) Given any integral unimodular quadratic form $\omega$ there is a (oriented) closed almost-smooth 1-connected 4-dimensional manifold $M$ realizing $\omega$ as its intersection form:
+
+$$
+\langle , \rangle : H _ {2} (M; Z) \otimes H _ {2} (M; Z) \rightarrow Z.
+$$
+
+(Uniqueness) In the case where the form $\omega$ is even (that is $\langle x, x \rangle =$ even for all $x \in H_2(M; Z)$), then any two manifolds above $M$ and $M'$ which realize $\omega$ are homeomorphic. If $\omega$ is odd (that is not even), there are exactly two homeomorphism classes $[M]$ and $[M']$ of almost smooth 4-manifolds realizing $\omega$. One will have vanishing Kirby-Siebenmann obstruction (so $M \times S^1$, for example, will be smoothable), the other will have nontrivial Kirby-Siebenmann obstruction (so $M \times S^1$ will not be smoothable).
+
+Proof of existence. Once a basis is chosen,  $\omega$  determines a symmetric integral matrix with determinant equal to  $\pm1$ . Associated to this matrix is a smooth plumbing (see [7]) which is a 1-connected 4-manifold N with  $N=\Sigma$ , a
+
+homology sphere. M has intersection pairing  $\omega$ . By Theorem 1.4,  $\Sigma = \partial\Delta^{4}$ ,  $\Delta^{4}$  a compact contractible topological manifold. Set  $M = N \cup_{\Sigma} \Delta^{4}$ . Van Kampen's theorem and the Mayer-Vietoris theorem establish that M is 1-connected with intersection form W. Finally the inclusion  $N \to M$ -(point of  $\Delta^{4}$ ) is a homotopy equivalence, so the lifting of the classifying map for the topological tangent microbundle of N over  $BO(4) \to B \text{Top}(4)$  extends to a lifting:
+
+![](images/page_12_image_1.jpg)
+
+By smoothing theory $M - (\text{point of } \Delta^4)$ can now be given a smooth structure.
+
+Proof of Uniqueness. Let M and  $M'$  be a compact, 1-connected, almost smooth 4-manifolds both realizing the same form  $\omega$ . It has long been known [36] that there is a homotopy equivalence.  $f: M' \to M$ . This allows the stable normal bundles of M and  $M'$  to be compared, the difference is an element of  $[M, G/\text{Top}]$ . Recall the fibration:
+
+![](images/page_12_image_4.jpg)
+
+The obstruction to lifting to  $[M, G/PL]$  is the Kirby-Siebenmann obstruction which lies in  $[M, B(\text{Top}/PL)] \cong [M, K(Z_{2}, 4)] \cong H^{4}(M, Z_{2}) \cong Z_{2}$ .
+
+Assume this obstruction vanishes and lifts. Wall shows how to use a self equivalence to replace $f$ by $f'$ where $[f'] = 0 \in [M, G/PL]$ (see [52, Chapter 16]; follow Wall's argument using the presence of the smooth structure in the complement of a point). Necessarily $\langle f' \rangle = 0 \in [M, G/Top]$ as well. Thus if the $K - S$ obstruction vanishes, there is a homotopy equivalence $f': M' \to M$ which is (topologically) normally cobordant to $\mathrm{id}_M$. Since the surgery obstruction group $L_5(0) \cong 0$, $f'$ is actually (topologically) $h$-cobordant to $\mathrm{id}_M$. Call the $h$-cobordism $(\overline{W}; M', M)$. Let $W = \overline{W} \backslash \operatorname{arc}$, where $\operatorname{arc}$ is a flat arc (see [12] for existence) running from the non-smoothed point of $M$ to the non-smoothed point of $M$. It is easily seen that $(W; M' - \mathrm{pt}, M - \mathrm{pt})$ is a (topological) proper $h$-cobordism which is 1-connected and simply connected at infinity. It has a smooth structure at (actually near) each end and the only obstruction to extension of the structure lies in the zero group
+
+$$
+H ^ {4} (W, \partial W; Z _ {2}) \stackrel {\text {suspension}} {\cong} H ^ {3} (M \text {-pt}) \cong H ^ {3} (M) \cong H _ {1} (M) \cong 0.
+$$
+
+Thus we may extend the smooth structure over $W$. Apply Theorem 10.4 to write $(W; M' \text{-pt.}, M \text{-pt.}) \cong_{\mathrm{top}} (M' - \mathrm{pt} \times [0,1], (M' \text{-pt.}) \times 0, (M' \text{-pt.}) \times 1)$. This gives a homeomorphism of $M$-pt. to $M'$-pt. which extends to the 1-point compactification $M \cong M'$.
+
+In the case where  $\omega$  is even, M and  $M'$  are spin manifolds. For closed spin 4-manifold the K-S obstruction is well known [45] to be (signature M/8) mod 2. Thus the difference class  $[f] \in [M, B(\text{Top}/PL)]$  satisfies  $[f] = \frac{1}{8} (\text{signature } M - \text{signature } M') (\text{mod } 2) = 0$ . This explains why in the even case there is only one manifold; a normal bordism to the identity can always be found (after a change of f to  $f'$ ) as in the preceding paragraph.
+
+In the case where $\omega$ is odd and indefinite, by the classification of quadratic forms [36] one representative will always be of the form $H = (\#_{n\text{ copies}}(P^{2})\# (\#_{m\text{-copies}} - CP^{2})$. This is a smooth manifold. It is sufficient to produce (realizing $\omega$) a non-smoothable manifold. For if there is such a manifold there are at least two homeomorphism classes corresponding to $\omega$. There cannot be more than two since for any homotopy equivalence $f\colon M' \to M'', \langle f \rangle \in [M'', BG / PL]$ is nonzero only if one manifold has zero and the other nonzero $K - S$ obstruction.
+
+To produce the second example replace one  $CP^{2}$  summand with the “Chern manifold” (Named for S. S. Chern in honor of his seventieth birthday) Ch = 4-ball  $\cup_{rt. trefoil} 2$  handle  $\cup \Delta^{4}$ . Ch is built by attaching a 2-handle to the trefoil knot with framing = +1 (see §2) and then recognizing the boundary to be the Poincaré homology sphere  $\Sigma^{3}$  [31] and capping off with the  $\Delta^{4}$  produced by Theorem 1.4'.
+
+It remains to verify $\mathrm{Ch}\# Q = \mathrm{Ch}\# (\underset{n-1}{\#}CP^{2})\# (\underset{m}{\#}CP^{2})$ is not smoothable. By construction $\mathrm{CH}\# Q - (\text{point of } \Delta^4)$ can be given a smooth structure $\Gamma$ containing $P$ as a smooth submanifold $P = \partial \Delta^4$. For manifolds of dimension 5 uniqueness of structure is measured by $H^3( ; Z_2)$. Thus $(\mathrm{CH}\# Q\text{-pt}) \times R$ has a unique smooth structure containing a smooth imbedding of $P \times R$ (with structure $(P_{\text{unique structure}}) \times R$). This imbedding bounds $\Delta^4 \times R$. If $(\mathrm{Ch}\# Q) \times R$ could be given any smooth structure $\theta$, then $P \times R$ could by uniqueness, be moved by an ambient $\varepsilon$-isotopy $\mathcal{G}$ to a smooth submanifold. But this would mean that $\mathcal{G}(P \times R)$ was the boundary of a smooth contractible 5-manifold with two ends. This well known to be impossible (compare with [45]). One finds a contradiction to Rochlin's theorem by making $P \times 0$ bound a cross-section of the contractible 5-manifold. This will be a smooth spin 4-manifold with index zero.
+
+The case where  $\omega$  is odd and definite is similar but less explicit. The preceding discussion reduces the realization problem for  $\omega$  to producing two framed links  $L_{0}$  and  $L_{1}$  both with linking-framing matrix representing  $\omega$  with
+
+$\mathcal{R}(\partial\mathcal{K}(L_{0}))=0$ and $\mathcal{R}(\partial\mathcal{K}(L_{1}))=1$. $\mathcal{K}(L_{i})$ is the 2-handle body (see §2) formed by glueing 2-handles to $L_{i}$, and $\mathcal{R}$ is the $Z_{2}$-valued Rochlin invariant (see [36]) of the boundary homology three-sphere. Capping off the boundaries with contractable topological 4-manifolds results in examples of $M_{\omega}$ with trivial and nontrivial K-S obstruction. Let $x_{1},\ldots,x_{n}$ be a basis for the underlying locus of $\omega$ so that $x_{1}$ is “characteristic,” i.e., $\omega(x_{1},x_{j})\equiv\omega(x_{j},x_{j})$, mod 2. Let $(\gamma_{1},\ldots,\gamma_{n})=L$ be a framed link representing $(x_{1},\ldots,x_{n})$, and let $\mathcal{K}$ be the associated 2-handle body. The geometric formula generalizing Rochlin’s theorem [24] for $\mathcal{K}(L)$ is: $\frac{1}{8}[\omega(x_{1},x_{1})-\text{signature }(\omega)]\pmod{2}=\text{Arf}(X)+\mathcal{R}(\partial\mathcal{K}(L))$, where $\text{Arf}(X)$ is the Arf invariant $(\in Z_{2})$ of a characteristic surface in $\mathcal{K}$. This is simply the Arf invariant of the knot $\gamma_{1}$. Clearly, connected sum of $\gamma_{1}$ with a small zero-framed trefoil knot (or any knot with Arf invariant = 1) changes $\mathcal{R}(\partial\mathcal{K})$. This yields the two desired examples.
+
+Theorem 1.5, Addendum. Any automorphism of a nonsingular $\omega$ is realised by a self homeomorphism of either (replace "either" with "the" when $\omega$ is even) almost smooth $M_{\omega}$. If $M_{\omega}$ is smooth, Wall shows [52, Chap. 16] how any automorphism of $\omega$ will be represented by a self map of $M_{\omega}$ which is normally cobordant to the identity. Five-dimensional surgery ($L_5^h(0) \cong 0$) turns the normal bordism into an $h$-cobordism inducing the given automorphism of $\omega$. This outline may be carried out for $M_m \setminus pt$ in a proper setting when $M_{\omega}$ is almost smooth. (The noncompact surgery groups also vanish (see [51]).) The resulting (proper) $h$-cobordism is a topological product by Theorems 1.3 and 10.4. Following the product lines gives the desired automorphism which is fixed on the deleted point in the almost smooth case.
+
+It is worth pointing out the following special cases of the classification as separate theorems.
+
+Theorem 1.6 (The 4-dimensional Poincaré conjecture). If $\Sigma^4$ is a topological 4-manifold homotopy equivalent to the 4-sphere $S^4$, then $\Sigma^4$ is homeomorphic to $S^4$.
+
+Proof. This simply corresponds to the case  $\omega = \varnothing$  of no intersection matrix. It remains only to see that any possible  $\Sigma^{4}$  will be an almost smooth manifold.  $\Sigma^{4}$ -pt is contractible so there is no obstruction to lifting the bundle. Apply smoothing theory for noncompact manifolds to smooth  $\Sigma^{4}$ -pt.
+
+Note. Using Theorem 1.3 the relative version may be established. Any compact contractible 4-manifold with boundary $\cong_{\mathrm{Top}} S^3$ is homeomorphic to $B^4$.
+
+Perhaps the most interesting special case is
+
+Theorem 1.7. There is a closed 1-connected almost-parallelizable, almost-smooth, 4-manifold $|E_8|$ with intersection matrix $E_8$.
+
+The next corollary follows directly from [43].
+
+Corollary 1.4. There is a topological transversality theorem for maps $f \colon M^m \to (L^l \subset N^n)$ from (top) manifolds to flat (manifold/submanifold) pairs except possibly when $n$ or $m = 4$ and $l = 1,2$, or 3. See the above reference for details.
+
+Corollary 1.5. The triangulation conjecture fails for 4-dimensional manifolds, since $|E_8|$ has $K - S$ obstruction = generator $\in H_4(|E_8|;Z_2)$; $|E_8|$ cannot be given a P.L. structure.
+
+Corollary 1.6. Either $|E_8|$ is the first example in any dimension of a manifold not homeomorphic to a polyhedron or the 3-dimensional Poincaré conjecture is false.
+
+Proof. Suppose  $|E_{8}|$  is a (simplicial) polyhedron. Then since it is not P.L., the link of some vertex must fail to be a combinatorial triangulation of  $S^{3}$ . The link L will, however, be a homology-3-manifold with the homotopy type of a sphere in dimension equal to 3. All 3-complexes which are homology manifolds are manifolds, so L is a manifold. The 3-dimensional Hauptvermutung [38] tells us that if  $L \cong_{Top} S^{3}$ , its triangulation must be the standard combinatorial one. So the assumption that  $|E_{8}|$  is polyhedral leads to the conclusion that some link L is a homotopy 3-sphere not homeomorphic to  $S^{3}$ .
+
+Theorem 1.8. There are two closed 4-manifolds homotopy equivalent but not homeomorphic: CP$^{2}$ and Ch.
+
+Theorem 1.9. The Kummer surface $K$ is topologically reducible. ($K$ equals the zero set of $z_1^4 + z_2^4 + z_3^4 + z_4^4$ in $\mathbf{CP}^3$.) In fact given any direct sum decomposition of the intersection form of a closed 1-connected almost-smooth 4-manifold, there is an analogous (topological) connected sum decomposition. In the case of $K$ the form is $\omega \cong E_8 \oplus E_8 \oplus |_{10}^{01}| \oplus |_{10}^{01}| \oplus |_{10}^{01}|$.
+
+Remark 1.1. There are no known 4-manifolds which are not also known to be almost-smooth.
+
+Theorem 1.10. The 4-dimensional Hauptvermutung is false at least for noncompact manifolds. A non-straightenable open 3-handle carrying the K-S obstruction exists in dimension four.
+
+Proof. The two (at least) smooth structures on  $S^{3} \times R$  (see the proof of Theorem 1.4') show that homeomorphisms are not always isotopic to P.L. homeomorphisms.
+
+If the proof of Corollary 1.3 is applied to the example in [22] of a fake $S^3 \times R$, then during the proof $(D^3 \times R, \partial D^3 \times R) \xrightarrow{h} ((\text{fake } S^3 \times R - \text{open } nbd(\text{arc})), \partial)$ is constructed. $h$ is not topologically isotopic to a P.L. homeomorphism on $D^3 \times B^1$, in particular $h$ is not straightenable. $h \times \text{id}_{R^n}$ for $n \geqslant 1$ is the nonstraightenable parameterization detected by Kirby and Siebermann in 1969 [32], [33].
+
+McMillan's cellularity criterion [35] is now known in all dimensions. The new case is;
+
+Theorem 1.11. Suppose M is a 4-dimensional topological manifold, and  $K \subset M$  a compact set with the Cêch homology of a point. Assume K is tame, that is, given any open set U containing K there is always smaller open set V containing K with  $\pi_{1}(V - K) \to \pi_{1}(U - K)$  zero. Then K is the infinite intersection of topologically imbedded 4-Balls  $B_{i+1} \subset interior B_i$ ,  $0 \leq i < \infty$ , (K is cellular).
+
+Proof. The first step is to argue that for all $U$ above there is a $V \subset U$, as above with the inclusion null homotopic. One approach is to cross with $B^3$ (for example) and use Siebenmann's thesis [44] to recognize the end toward $K \times B^3$ as $S^3 \times B^3 \times [0, \infty)$. As long as $(U - V) \times B^3$ contains, for some $r \in R$, a copy of $S^3 \times B^3 \times r$ the desired null homotopy will be available. The classifying map for that topological tangent microbundle over $V$ now lifts to $BO(4)$ so $V$ may be smoothed as $V_\Gamma$. Trim off some of $V_\Gamma$ to obtain a compact smooth manifold with boundary $N$ containing $K$. Without touching some small open neighborhood of $K$ first cap off $\partial N$ to form a smooth closed oriented 4-manifold $N_1$ containing $K$, and then do 1-surgeries to arrive at a smooth simply connected $N_2$ containing $K$. Let $W = (N_2 \times I - p \times I \cup K \times 1)$ for some $p \in K$. $W$ is an $h$-cobordism by Alexander duality. A stabilization argument as above shows $W$ is a proper-$h$-cobordism. $W$ is 1-connected and 1-connected at infinity. Thus Theorem 10.5 implies $N_2 - K$ is homeomorphic to $N_2 - p$. A deleted neighborhood system for $K$ can now be pulled back under such a homeomorphism from $\{\text{Ball}_{1/i}(p) \setminus p\}$, $i$ large. That $K \cup \text{homeo}^{-1}(\text{Ball}_{1/i}(p) \setminus p)$ is a ball follows from the note beneath Theorem 1.6.
+
+Theorem 1.12. If a smooth 4-dimensional manifold $M$ has a 1-connected end (which does not meet $\partial M$), then the end is topologically collared as $S^3 \times [0, \infty)$.
+
+Proof. Using the method above, capture the end in a simply connected smooth 4-manifold N which is 1-connected at infinity. Using [45] N is a proper homotopy equivalent and actually p-h-cobordant one of the almost smooth 4-manifolds of Theorem 1.5 with the single bad point deleted. Thus the unknown end is homeomorphic to the standard end. q.e.d.
+
+Although the methods of this paper apply with most force in simply connected settings, it is possible to obtain some new results on topological knot concordance. In [23] the author proved two knot slicing theorems which involved possible singularities. The allowable singularity could, depending on the hypotheses, occur either both on the 2-dimensional slice and in the ambient 4-manifold or only in the ambient 4-manifold. Now we know that, topologically, any smooth end proper homotopy equivalent to $S_3 \times [0, \infty)$ is standard, so no ambient singularity occurs. As remarked in Note 1.1, any compact
+
+contractible 4-manifold with boundary  $S^{3}$  as homeomorphic to  $B^{4}$ . Thus the unidentified space in [23] can now be replaced by  $B^{4}$ .
+
+Theorem 1.13. Let $S^1 \stackrel{k}{\hookrightarrow} S^3$ be a smooth knot. $k$ has Alexander polynomial $\Delta_k(t) = 1$ if and only if the smooth imbedding $k$ extends to some topological imbedding ("slice") $B^2 \stackrel{k}{\hookrightarrow} B^4$ with the following properties:
+
+(1) $\bar{k}$ is smooth except for a single point $p$ which is nevertheless local-homotopically unknotted. (The local homotopy condition at $p$ is equivalent to assuming the end $(B^4 - k(B^2))$ is proper homotopy equivalent to the standard end $(S^1 \times D^2 \times [0, \infty))$.)
+
+(2) $\pi_1(B^4 -\bar{k} (B^2)\cong Z.$
+
+Theorem 1.14. Let $S^1 \to S^3$ be either untwisted double of a knot $k$ with Alexander polynomial $\Delta_k(t) = 1$. $D(k)$ is topologically slice, that is, $D(k)$ extends to a topologically flat imbedding of $B^2$ into $B^4$. Equivalently a 2-handle $(D^2 \times D^2, \partial D^2 \times D^2)$ can be topologically imbedded in $(B^4, S^3)$ with its attaching region $\partial D^2 \times D^2$ parameterizing a closed tubular neighborhood of $D(k)$.
+
+## 2. Handle calculus
+
+While developing my approach to 4-manifolds, I spent a moderate amount of time exploring examples and making fundamental group calculations using the calculus for 1- and 2-handles. This is the art form called “Kirby calculus” by his students and friends. Although its ardent practitioners are few, perhaps even fewer mathematicians have entirely escaped the shock of accidentally encountering a monstrous link diagram in an otherwise friendly looking journal.
+
+We will use the calculus to: (1) define Casson handles and their finite stages (§2); (2) make fundamental group calculations (§3); and (3) describe the frontier of a geometrically controlled Casson handle (§4). Alternatives to the calculus are available for these purposes, but none give so explicit a geometric understanding.
+
+We will introduce only the handle body theory specifically needed for this paper. For a general discussion of the calculus see [2].
+
+We represent a 4-dimensional handle body:  $B^{4} \cup k$  1-handles  $\cup l$  2-handles by a labeled  $(k + l)$ -component link in  $S^{3} = \partial B^{4}$ . We, of course, draw the link as if it lies in  $R^{3}$ . The first k-components of the link are trivial—that is, k unknotted and unlinked circles and they are labeled with a dot to indicate that they represent 1-handles. Then each of the last l components of the link is labeled with an integer. This integer  $n_{i}$  is the twisting (measured as a linking
+
+number in $\partial B^4$) of a trivialization of the normal bundle of the link component $\nu_{\text{component} \to \partial B^4}$ and specifies an isotopy class of an attaching map $\partial^{-}(2\text{-handle}) = \partial D^2 \times D^2 \xrightarrow{g_i} nbd(\text{component})$. In particular $g_i(S^1 \times (0,0))$ and $g(S^1 \times (0,1))$ will have linking number $= n_i$. To interpret the dotted components, subtract the standard (unknotted, unlinked) slice, $\Pi_{k\text{-copies}}(D^2,\partial) \to (B^4,\partial)$, for this $k$-component unlink from $B^4$. More precisely delete the interior of a tubular neighborhood of this slice. This is Alexander dual to erecting 1-handles and has the convenient feature that the attaching regions for the 2-handles may in this way be regarded as lying in $\partial B^4$, so that the integers which indicate the twist of their normal framing have meaning. This saves the trouble of establishing some conventional notion of untwisted framing around each 1-handle to serve as the zero framing. The ever-present zero handle is not explicitly drawn, yet its boundary serves as our blackboard.
+
+Before proceeding to examples let us introduce two additional conventions. We need to label subsets, generally “attaching regions” in the boundary of a handle body and also occasionally to indicate that the interior of a thin sub-handle body, the 0-handle and certain of the 1 and 2-handles have been subtracted. In lectures color coding is quite successful (orange for “attaching regions”, green for deleting handles). Not wishing to strain the resources of this journal we will modify the color coding: indicated subsets will be drawn in boldface; deleted handles (of index 1 and 2) will be drawn in dashed lines (the zero handle is never drawn) lines. The utility of marking subsets will become apparent since the spaces to be diagrammed are in some sense substitutes for 2-handles and like 2-handles are actually pairs, (space, attaching region). We will indicate the exact position of the attaching region  $S^{1} \times D^{2}$  in the boundary with a boldface curve. The point of subtracting a subhandle body is that it gives an easy method for describing handle bodies based on 3-manifolds other than the 3-sphere. Certain complements whose fundamental groups we must calculate ( $§4$ ) have the homotopy type of such handle bodies.
+
+Example 0. The 2-handle $(D^2\times D^2,\partial D^2\times D^2)$
+
+![](images/page_18_image_3.jpg)
+
+## (empty link diagram)
+
+Example 1. A kinky handle is a pair obtained from a 2-handle by finitely many self-plumbings away from the attaching region. A self-plumbing is an identification of $D_0^2 \times D^2$ with $D_1^2 \times D^2$ where $D_0^2$, $D_1^2 \subset D^2$ are disjoint subdisks of the first factor disk. In complex coordinates the plumbing may be written as $(z, w) \mapsto (w, z)$ or $(z, w) \mapsto (\overline{w}, \overline{z})$ creating either a positive or negative (respectively) double point on the core $D^2 \times 0$.
+
+Kinky handle with one self plumbing:
+
+![](images/page_19_image_1.jpg)
+
+Kinky handle with one positive and one negative self-plumbing:
+
+![](images/page_19_image_3.jpg)
+
+DIAGRAM 2.1
+
+It is an exercise to prove that (1) kinky handles, as an absolute space are  $\mathbb{H}_{finite} S^{1} \times D^{3}$ , (2) as pairs are determined up to diffeomorphisms by the numbers p = positive kins, (= +self plumbings) and n = negative kinks, (3) the handle diagram for the pairs is:
+
+![](images/page_19_image_6.jpg)
+
+![](images/page_19_image_7.jpg)
+
+DIAGRAM 2.2
+
+In the following paragraph, we will give a brief description of the geometry, or rather combinatorial topology, of a (kinky handle, attaching region) =  $(k, \partial^{-} k)$ . (For more details see [15].)
+
+Let $C = \text{core}(k)$ be the image under the self-plumbing $\pi$ of the 2-handle core $D^2 \times 0$. There is an identification of $\partial^- k$ with $S^1 \times D^2$ which takes $\partial(\text{core } k)$ to $S^1 \times (0,0)$ and under which the curves $S^1 \times (0,0)$ and $S^1 \times (0,1)$
+
+have linking number zero. This linking number is defined to be the number of (transverse) intersections, counted according to sign, of C and  $C'$ , a normally displaced copy of C with  $\partial(C') = S^{1} \times (0, 1)$ .
+
+Caution. The identification  $\pi^{-1}\colon\partial^{-}K\to S^{1}\times D^{2}$  is not, in general, the one we have described. In fact under this identification link  $(S^{1}\times(0,0),S^{1}\times(0,1))=\langle D^{2}\times(0,0),D^{2}\times(0,1)\rangle=2(\#\text{ self plumbing counted by sign}).$
+
+Having a notion of ““parallel” circles in  $\partial^{-}k$  now enables us to attach kinky handles to a framed link in  $\partial B^{4}$  just as we previously saw how to attach 2-handles. It is in this sense that we will write Casson handles CH and their finite approximations, n-stage towers  $T_{n}$ , as kinky-handle bodies. This is not really a new notion but a combinatorical convenience: attaching a kinky handle with m kinks is the same as attaching m 1-handles and then a 2-handle.
+
+The key to understanding  $(k,\partial C)$  is to think of  $(k,C)$  as obtained (in the case of one kink) from  $(B^{4};(B^{4}\cap(w,x)\text{-plane})\cup(B^{4}\cap(y,z)\text{-plane}))$  by the addition of a 1-handle pair  $(D^{1}\times D^{3},D^{1}\times D^{1};S^{0}\times D^{3},S^{0}\times D^{1})$ .
+
+k
+
+![](images/page_20_image_5.jpg)
+
+$B^4\cup 1$ -handle
+
+![](images/page_20_image_7.jpg)
+
+Diagram 2.3
+
+![](images/page_20_image_9.jpg)
+
+Observe that the two planes meet $\partial B^4$ in the Hopf link: and that there is a torus in $\partial B^4$, $\{(w, x, y, z) | w^2 + y^2 = 1/2 \text{ and } y^2 + z^2 = 1/2\}$, which separates the components. In the diagram the torus appears as $S^0 \times S^0 = 4$ points. Its image in the kinky handle will be called the distinguished torus.
+
+The sign of the self-plumbing determines the attaching map of the sub-2-handle. One could now draw the position of $C$ (= attaching region $\partial^{-}k$) in $\partial k = S^1 \times S^2$ by starting with the Hopf link and performing a 0-surgery on $(S^3, \text{Hopf link})$. Below I have drawn, in handle body notation, the result. The distinguished torus appears as a punctured torus Siefert surface for the 1-handle which is completed to a torus by the addition of a parallel copy of the scooped out slice.
+
+![](images/page_21_image_0.jpg)
+
+DIAGRAM 2.4
+
+The clasp  $\varnothing$  or  $\varnothing$  depends on the sign (+, - respectively) of the self plumbing. Using the symmetry of the Whitehead link diagram Diagram 2.4 can be redrawn as:
+
+![](images/page_21_image_3.jpg)
+
+DIAGRAM 2.5
+
+A k with several kinks can be formed from several copies of k's each with one kink by boundary connected sums along  $[\theta, \theta'] \times D^{2} \subset S^{1} \times D^{2} = \partial^{-}k$ . Thus the general case drawn in Diagram 2.2 is now readily understood.
+
+All kinky handles will be attached with zero framing. Beyond this, the sign of the self plumbings plays no role for us; so we will henceforth draw clasps ambiguously. In effect we are considering both cases simultaneously.
+
+Definitions. A one-stage tower is a kinky handle  $(k, \partial^{-} k)$ . An  $(n + 1)$ -stage tower is an n-stage tower  $(T_{n}, \partial^{-} T_{n})$  union kinky handles. These kinky handles are attached to the zero-framed link consisting of simple linking circles to those dotted circles representing the 1-handles of  $T_{n} - T_{n-1}$ . (Caution: When drawing handle diagrams a different picture is needed for each component of a disconnected space since the background is by convention the boundary of a single O-handle =  $B^{4}$ .)
+
+Schematically $T_{3}$ might look like:
+
+![](images/page_22_image_1.jpg)
+
+DIAGRAM 2.6
+
+Each kinky handle $(k, \partial k)$ is a mapping cylinder of a piecewise smooth $\rho$: $(\overline{\partial k - \partial^{-}k}\partial (\partial^{-}k)) \to (C, \partial C)$. If one kinky handle is attached to another, say $(k^1, \partial^{-}k^1)$ is attached to $(k, \partial^{-}k)$ to form $(L, \partial^{-}k)$, one can consider the connected piecewise smooth subcomplex $J = C \cup C^1 \cup$ mapping cylinder of $\partial C^1$. It is not difficult to see that $(L, \partial^{-}k)$ is itself a mapping cylinder of a piecewise smooth map $\rho'$: $(\overline{\partial L - \partial^{-}k}, \partial (\partial^{-}k)) \to (J, \partial C)$.
+
+Let $C_p$ represent a core of a $p$th-stage kinky handle, that is, a kinky handle in $\overline{T_p - T_{p-1}}$. Let $C_{p-q}$ denote the disjoint union of the cores of the kinky handles in stages $p$ through $q$, that is, the kinky handles of $\overline{T_q - T_q}$, union the mapping cylinders connecting each $C_{p+i+1}$ to the $C_{p+i}, 0 \leqslant i \leqslant q - p - 1$.
+
+Let $T_{p-q} = \overline{T_q - T_p}$. $T_{p-q}$ a (q - p)-stage tower
+
+§3 treats the key reimbedding theorem which describes how one n-stage tower can be imbedded in another n-stage tower for n = 3, 4, 5, and 6.
+
+Absent, to this point, from our discussion of handle body theory are the lovely rules for changing one diagram to another—one set of rules if the diagrams are supposed to represent precisely the same 4-manifold; another set if only the boundary 3-manifold is to be preserved. We will use only a single rule. It is the Morse cancellation lemma applied to a 1-handle two handle pair. This well known operation (which preserves the 4-manifold) must be interpreted in terms of the link calculus.
+
+Cancellation is possible whenever a framed curve  $(\gamma, n)$  has exactly one point (and that transverse) of intersection with the spanning disk  $\Lambda$  of a dotted circle  $\alpha$  representing a 1-handle.  $\alpha$  is, of course, unknotted but  $\gamma$  is not necessarily unknotted. However, the well-known lamp-cord trick [29] shows that  $\gamma$  may be isotoped in  $S^{1} \times S^{2} = (\partial(B^{4}-\dot{h} (\text{slice for } \alpha)))$  to assume an unknotted position back in the 2-sphere (the isotopy may have to slide  $\gamma$  across
+
+the slice). Thus we only need describe cancellation in the case where  $\alpha$  and  $(\gamma, n)$  assume the standard form of the Hopf link with  $\alpha$  spanning the disk  $\Delta$  and  $\gamma$  spanning a disk  $\Delta'$ .
+
+Rule. To cancel: (0) Arrange that nothing in the diagram meet the open interval int  $\Delta \cap int \Delta'$ , (1) erase  $\alpha$  and  $(\gamma, n)$ , (2) give all material in the diagram which passes through  $\Delta$  (attaching curves framing, regions marked (as in orange) on the boundary, deleted handles (marked in green), etc.) n full right handed twists across  $\Delta$ , and (3) clasp with all material which passes through  $\Delta'$ .
+
+Schematically the dimensions can be divided in half, and the handle cancellation rule assumes the pleasing form:
+
+![](images/page_23_image_3.jpg)
+
+DIAGRAM 2.7
+
+Checking the rule amounts to following through the isomorphism $S^1 \times D^2 \times [0,1] \cup_h D^2 \times D^2 \cong B^4$ where $h \colon S^1 \times D^2 \times 1 \to \partial D^2 \times D^2$ is given by $h(0,(\rho,\phi)) = (0,(\rho,2\pi\theta + \phi))$.
+
+Here are two sample handle body pictures of the same 3-stage tower. Use the cancellation rule to check that the two pairs are in fact diffeomorphic.
+
+![](images/page_23_image_7.jpg)
+
+DIAGRAM 2.8
+
+For another example consult the proof of Theorem 4.1.
+
+Finally, we define a Casson bundle CH.  $T_{n}$  is an n-stage tower. Let  $T_{n}^{-}$ be (interior  $T_{n}$ )  $\cup \partial^{-}T_{n}$ . Suppose  $T_{1} \Leftrightarrow T_{2} \Leftrightarrow T_{3} \Leftrightarrow \cdots$  are inclusions of towers as specified by the inductive definition of  $T_{n}$ . There will be a corresponding sequence of inclusions  $T_{1}^{-} \Leftrightarrow T_{2}^{-} \Leftrightarrow T_{3}^{-} \Leftrightarrow \cdots$ . Define CH to be the union (with direct limit topology) of such a string of inclusions. Casson handles are smooth manifold pairs which are a priori indexed by finitely branching trees
+
+(with signed edges). The symbol CH will mean “any Casson handle.” It is not known if all Casson handles are diffeomorphic.
+
+## Theorem 2.1. The interior of any CH is diffeomorphic to $R^4$.
+
+Proof. Interior (CH) can be described as an infinite union of $\bigcup_{n=1}^{n<\infty}\mathrm{int}(T_n)$ where $\mathrm{int}(T_{n-1})\subset\mathrm{interior}(T_n)$. By trimming open collars of thickness $\varepsilon/n$ from $\mathrm{int}(T_n)$ we have a description of $\mathrm{int(CH)}$ as a nested notion of smooth submanifolds $H_n = \mathrm{interior}_{k_n\text{-copies}}(\mathfrak{h}S^1\times D^3)$ where $\pi_1(H_{n-1})\to\pi_1(H_n)$ is the zero map. Smooth engulfing factors the inclusion $H_{n-1}\hookrightarrow B_{n-1}^4\hookrightarrow H_n$ through a smooth 4-ball. It follows that $\mathrm{int(CH)}$ is a nested union of smooth 4-balls $B_n^4$, $B_{n-1}^4$ being contained in the interior of $B_n$. It follows that $\mathrm{int(CH)}\cong_{\mathrm{smooth}}R^4$. q.e.d.
+
+The zero framings are an essential feature of the definition of  $T_{n}$ . For the limiting Casson handle to have the proper homotopy type of  $(D^{2} \times \dot{D}^{2}, \partial D^{2} \times \dot{D}^{2})$  all the framings of the 2-handles must be zero. Regardless of framings the fundamental group of the end is an infinite free product with amalgamation. A handle body calculation shows that this group system will be stably isomorphic to Z if and only if all framings are zero. Compare this with [15].
+
+## 3. Casson's imbedding theorem and fundamental group improvement
+
+In §§3–6 we will work in the smooth  $(C^{\infty})$  category. We will assume that maps of surfaces into 4-manifolds are in general position, that is, immersions with isolated normal crossings.
+
+Andrew Casson lectured on the following imbedding theorem in the summer of 1973 at Institut des Hautes Études Scientifiques. This theorem motivates the study of Casson handles CH.
+
+Theorem 3.1 (Casson). Let $(M, \partial)$ be a smooth simply connected 4-manifold with boundary, and $d = \mathrm{II}d_i$: $\mathrm{II}(D^2, \partial); \Leftrightarrow (M, \partial)$ be an immersion of a finite disjoint union of disks which is an imbedding on $\mathrm{II}\partial D_i^2$. If there exist classes $x_i \in H_2(M; Z)$ with integral intersection numbers $x_i \cdot d_j = \delta_{ij}$ and $x_i \cdot x_i = \text{even}$ and if $d_i \cdot d_j = 0$ (this is defined for $i \neq j$). Then $d$ is regularly homotopic to the first stage of a disjoint union of smoothly imbedded Casson handles.
+
+Addendum. If the  $d_{i}$  are disjoint and with normal crossings, then the cores of the first stage  $c_{i}$  result from  $d_{i}$  after a finite number of “births of pairs of double points.”
+
+The key to this theorem is the fundamental group improvement lemma which we state in a nonsimply connected setting.
+
+Lemma 3.1 ($\pi_1$-lemma). Let $f: (S, \partial) \to (M, \partial)$ be an immersion of a compact oriented, connected surface into an oriented 4-manifold. Assume that $f$ has an algebraic dual $x$. Then that if is regularly homotopic to $f'$ with $\pi_1(M, -f'(S)) \stackrel{\text{inc}_#}{\to} \pi_1(M)$ and isomorphism.
+
+Definition. An immersion 2-sphere $x$ in $M$ is an algebraic dual for an immersed surface $f\colon (S,\partial)\to (M,\partial)$ iff $x$ meets $f$ transversely and $f\cap x = \{p,q_1,q_1',\ldots ,q_n,q_n'\}$ where for each $1\leqslant i\leqslant n$, $q_{i}$ and $q_{i}'$ are paired over $\pi_1(M)$, that is, $\mathrm{sign}(q_i) = -\mathrm{sign}(q_i')$ and some Whitney circle consisted of an arc on $f(S)$ and an arc on $x$ between $q_{i}$ and $q_{i}'$ is null homotopic in $M$. Equivalently $x\cdot f = 1$ in the module generated by cosets $Z[\pi_1(M) / \pi_1(S)]$.
+
+Note. In the present application S will be a disk.
+
+Terminology. In the above lemma  $f'(S)$  is  $\pi_{1}$ -negligible. We will use the terminology  $A \subset X$  is  $\pi_{1}$ -negligible if and only if  $\operatorname{inc}_{\#}\pi_{1}(X-A) \to \pi_{1}(X)$  is an isomorphism.
+
+Addendum.  $f'$  will result from finitely many birth of pairs of self intersections of f. These births are essentially inverse to the “Whitney tricks” and have come to be called “Casson moves”.
+
+Proof of Lemma 3.1. If we can find an $x'$ with $f'(S) \cap x' = p$, that is, $n = 0$ in the previous definition, we will say $x'$ is geometrically dual to $f'(s)$. We will modify $f$ and $x$ simultaneously to make them geometrically dual. The inductive step is a weak sort of Whitney trick which lowers the number $n$; when $n = 0$ we are finished.
+
+Let $\Delta \subset M$ be an immersed disk bounding the Whitney circle pairing $q_{n}$ and $q_{n}^{\prime}$. We assume without loss of generality that $\Delta$ meets the sheets of $f(S)$ and $x$ normally along its boundary but beyond that we do not attempt to establish the usual circumstance requisite for Whitney's trick. In particular the following four circumstances are all expected to arise.
+
+1. $\Delta$ is not imbedded.
+
+2. The natural section $\theta$ of the normal bundle $\nu_{\Delta \to M}$ defined over $\partial \Delta$ by $\nu_{\partial \Theta \leftrightarrow x} \cup \text{orth. comp. } (\tau(\Delta)|_{\partial \Delta \cap f(S)} \oplus V_{\partial \Delta \cap f(S) \to f(S)})$ does not extend to a nonzero section over $\Delta$.
+
+3. int(Δ) ∩ x ≠ ∅.
+
+4. int(Δ) ∩ f(S) ≠ ∅.
+
+We avoid only the fourth possibility. This done by a regular homotopy of  $f(S)$  which removes points of intersection of  $f(S)$  with int  $\Delta$  by pushing these points along disjointly imbedded arcs in  $\Delta$  until they fall off  $\partial\Delta \cap f(S)$ . This introduces new pairs of self-intersections of  $f(S)$ , and these are the advertised “Casson moves.”
+
+Now use some (possibly singular) extension  $\bar{\theta}$  of  $\theta$  to define a homotopy (regular except at the singularities of  $\theta$ ) of x across  $\Delta$  to cancel  $q_{n}$  and  $q_{n}^{\prime}$ . This is done using the traditional formula for the Whitney trick. Since x was not imbedded, at the start possibilities 1, 2, and 3 do not cause any loss of inductive hypothesis.
+
+Theorem 3.2 (Tower construction). Let $\{f_i\}$ be a collection of disjoint immersions, each of which is imbedded along the boundary $f_i\colon (D^2,\partial)\Leftrightarrow (M_1^4,\partial M_1)$. Assume that there are dual spherical classes $\{x_i\}$ with $f_i\cdot x_j = \delta_{ij}, f_i\cdot f_j = 0$, $i\neq j$, and $x_{i}\cdot x_{i} = \text{even}$, where the dot denotes integral intersecting number. Assume there exists a sequence of inclusions $M_1\subset M_2\subset M_3\subset \dots \subset M_{n + 1}$ such that the induced maps on $\pi_1$ are all zero. Also assume that $\mathrm{IIf}_i(\mathrm{II}\partial D^2)$ is contained in some open 3-manifold which is included in all the boundaries $\partial M_i$, $1\leqslant i\leqslant n + 1$. Then $\mathrm{IIf}_i$ is homotopic to disjoint normal immersions $\mathrm{IIf}_i'$ which are the first cores $(c_j)$ of disjoint $n$-stage towers $\mathrm{II}(T_n,\partial^{-}T_n)\subset (M_n,\partial M_n)$ with $\mathrm{II}T_n\pi_1$-negligible in $M_{n}$.
+
+Note. Theorem 3.2 generalizes Theorem 3.1. For this set $M_j = M$ for $1 \leqslant j < \infty$, and let CH be the direct limit defined in §2.
+
+Note. For simplicity we will give the argument for only a single $f_{i} = f$. The general case follows by repeated application of this special case. That is, use the special case to construct $T_{k,i}$ inside $M_{k + 1}$ and in the complement of $T_{k - 1,i}$, and $T_{k,i}$ for all $i' \neq i$ and for all $\tilde{i} < i$, $k \leqslant n$. This is possible since our construction keeps the tower $\pi_1$-negligible in any containing $M_j$. (Compare this construction with the proof given by A. Casson in the simply connected case [15].)
+
+Proof of Theorem 3.2. The first step is to follow the inclusion into $M_2$ and apply Lemma 3.1 to replace $(f, x)$ with $(f', x')$. We will be content to construct the next stage of the tower to be $\pi_1$-negligible in $M_3$. This is equivalent to the inductive step.
+
+Let $T_{1}$ be a regular neighborhood of $f'(D^{2})$ in $M_{2}$. Let $h_{1},\ldots,h_{k}$ represent the 1-handles as in Diagram 2.2 for $T_{1}$, with the boldface curve representing $\partial^{-}T_{1}$, let $l_{1},\ldots,l_{k}$ be the small linking circle to $h_{1},\ldots,h_{k}$.
+
+We work first with  $l_{1}$ .  $l_{1}$  bounds an immersed disk  $\Delta \leftrightarrow M_{3}$  with  $\Delta \cap T_{1} = \partial\Delta$ . We cannot be content simply to take  $\Delta$  as the core of a second stage kinky handle; the framing of the attachment may not be zero, and  $\pi_{1}$ -negligibility has not been arranged. Fixing up the framing takes four steps, the  $\pi_{1}$ -condition requires a fifth. First, one may twist a collar of  $\partial\Delta$  around the normal disk to  $f'(D^{2})$ . This changes a certain relative Euler class by one, but in the Kirby calculus notation we see this as a connected sum of the old attaching region for  $\Delta$  with the zero framed small linking circle to  $\partial^{-}T_{1}$ . Thus the change  $\Delta \leadsto \Delta^{1}$  is
+
+interpreted below as a change in the attaching regions but not in the framing of the second stage kinky handle.
+
+![](images/page_27_image_1.jpg)
+
+Picture for k = 1. The 2-hand represents the attaching region of  $\Delta$ . The framing equals n.
+
+![](images/page_27_image_3.jpg)
+
+Now the 2-handle represents the attaching region of $\Delta'$. The framing is still $n$.
+
+DIAGRAM 3.1
+
+This change is equivalent (compare with Diagrams 2.3 and 2.4) to changing the attaching framing by one and leaving the attaching curve unchanged.
+
+Thus we may assume that $\Delta^1$ induces an even framing and that $\partial\Delta$ is the small linking circle $l_1$. However, int $\Delta^1 \cap T_1 \neq \varnothing$. Next using the “Norman trick” [41] to form an ambient connected sum of $\Delta^1$ with $0 \leqslant m < \infty$ copies of $x'$ to obtain $\Delta^2 = \Delta^1 \# x$'s with $\Delta^2 \cap T_1 = \varnothing$. The framing for $\Delta^2$ will be even since it is given by the formula
+
+$$
+\operatorname{frame} \left(\Delta^ {2}\right) = \operatorname{frame} \left(\Delta^ {1}\right) + 2 \left(\Delta^ {1} \cdot f ^ {\prime} \left(D ^ {2}\right)\right) \left(\Delta^ {1} \cdot x ^ {\prime}\right) + m ^ {2} \left(x ^ {\prime} \cdot x ^ {\prime}\right).
+$$
+
+The third step changes  $\Delta^{2}$  to  $\Delta^{3}$  which admits a geometric dual y in  $M_{3}$ .  $\Delta^{2}$  meets the distinguished torus  $\tau$  transversely and in one point. Since both generators of  $\tau$  are linking circles to  $f'(D^{2})$ , and  $f'(D^{2})$  admits the geometric dual  $x'$ , we see that  $\tau$  represents a spherical class  $[\tau]$  (actually lying in  $M_{2}$ ). By lifting to the universal cover one verifies that the class  $[\tau] \in \pi_{2}(M_{3})$  contains an algebraic dual  $\bar{\tau}$  to  $\Delta^{2}$  with the Wall form  $\mu(\tau) = 0 \in Z[\pi_{1}(M_{3})]/\text{indeterminancy}$ . Compare with [23] and [52]. Apply Lemma 3.1 to replace  $(\Delta^{2}, \bar{\tau})$  with  $(\Delta^{3}, y)$ .
+
+Step four. Let  $\Delta^{4}$  be a connected sum with  $-\frac{1}{2}\text{frame}(\Delta^{2})$  copies of y. By the displayed formula frame( $\Delta^{4}$ ) = 0. Since  $\mu(y) = 0$ , another copy of y will serve as an algebraic dual to  $\Delta^{4}$ . Now a final application of Lemma 3.1 changes ( $\Delta^{4}, y$ ) to ( $\Delta^{5}, y'$ ), a zero framed kinky-handly core attached to  $l_{1}$  with a geometrically dual sphere assuring that  $\Delta^{5}$  is  $\pi_{1}$ -negligible in  $M_{3} - T_{1}$ . Inductively construct  $\Delta_{i}^{5}, 1 < i \leqslant k$ , to attach to  $l_{i}$  with zero framing and be  $\pi_{1}$ -negligible in  $M_{3} - (T_{1} \cup_{j<i} nbd(\Delta_{j}^{5}))$ . This completes the proof of Theorem 3.2.
+
+Addendum to Theorem 3.2. Suppose that an $(n - 1)$-stage tower $(T_{n-1}, \partial^{-} T_{n-1})$ is imbedded in $(M^4, \partial M^4)$. Further assume that (1) the inclusion is $\pi_1$-negligible and (2) $\pi_1(T_{n-1}) \to \pi_1(M^4)$ is the zero map. Under these assumptions the inductive step of the above proof shows that a new layer of kinky handles can be added to $T_{n-1}$ to create an $n$-stage tower $(T_n, \partial^{-} T_n) \subset (M^4, \partial M^4)$. Furthermore $T_n$ will be $\pi_1$-negligible in $M^4$. The requisite algebraic duals arise from the distinguished tori in the $n - 1$st layer of the tower.
+
+## 4. Reimbedding theorems
+
+Reimbedding theorems for towers  $T_{n}$ , n = 3, 4, 5, and 6 will be presented in this section. The four theorems are actually a sequence of lemmas leading to the best. The final result is the mitosis Theorem 4.5. Reimbedding was discovered by studying the surgery problems associated with slicing higher order Whitehead links  $\partial^{-}T_{n} \subset \partial T_{n}$  (in handle calculus notation). However the description given here does not involve surgery.
+
+Without further mention the reader should assume that all imbeddings  $T_{m} \subset T_{n}$  of one tower in another will satisfy  $\partial T_{m} \cap \partial T_{n} = \partial^{-} T_{m} = \partial^{-} T_{n}$ . Also we use the notation  $C_{a} - C_{b}$  or simply  $C_{a-b}$  to mean the union of all cores at levels a through b,  $C_{a} \cup \cdots \cup C_{b}$ , union the mapping cylinders  $M_{p|\partial C_{i}} a < i \leqslant b$  (compare with §2). We use  $T_{a-b}$  to mean the union of kinky handles in tower T at levels a through b.  $C_{a-b}$  is the spine of  $T_{a-b}$ . The subscript to  $\tau$  will indicate which stage of  $T_{n}$  a given distinguished torus  $\tau$  lies. We state the theorems.
+
+Theorem 4.1 (3-stage reimbedding). For every $T_3^0$ there exists $T_3^1 \subset T_3^0$ satisfying:
+
+(1) (agreement) $C_{1-2}^{0} = C_{1-2}^{1}$,
+
+(2) $(\pi_1$-negligibility) $\pi_1(T_3^0 - T_3^1) \to \pi_1(T_3^0 - C_1^0)$ is an isomorphism.
+
+Theorem 4.2 (4-stage reimbedding). For every $T_4^0$ there exists $T_4^1 \subset T_4^0$ satisfying:
+
+(1) (agreement) $C_{1-3}^{0} = C_{1-3}^{1}$,
+
+(2) $(\pi_{1}\text{-negligibility})\pi_{1}(T_{4}^{0} - T_{4}^{1})\to \pi_{1}(T_{4}^{0} - C_{1}^{0})$ is an isomorphism,
+
+(3) (no linking $C_1$) The image of $\pi_1(T_{2-4}^1)$ in $\pi_1(T_4^0 - C_1^0)$ lies in the (in fact equals) the image of $\pi_1(T_{2-4}^0)$ in $\pi_1(T_4^0)$.
+
+Theorem 4.3 (5-stage reimbedding). For every $T_5^0$ there exists $T_5^1 \subset T_5^0$ satisfying:
+
+(1) (agreement) $C_{1-3}^{0} = C_{1-3}^{1}$,
+
+(2) $(\pi_1\text{-negligibility})\pi_1(T_5^0 - T_5^1)\to \pi_1(T_5^0 -C_1^0)$ is an isomorphism,
+
+(3) (nullity) $\pi_1(T_5^1) \to \pi_1(T_5^0)$ is the zero map.
+
+Theorem 4.4 ($T_7$ imbeds in $T_6$). For every $T_6^0$ there is a $T_7^1 \subset T_6^0$ satisfying: (1) (agreement) $C_{1-3}^0 = C_{1-3}^1$,
+
+(2) $(\pi_1$-negligibility) $\pi_1(T_6^0 - T_7^1) \to \pi_1(T_6^0 - C_1^0)$ is an isomorphism.
+
+Before we begin the proof, a word about the fundamental group. All the groups mentioned in the above theorems are free groups. To discuss these groups without picking base points we pick in each space a system of disjoint three-dimensional submanifolds “duals to the generators”. To any oriented loop with a distinguished point (not on one of the submanifolds) associate the ordered word of  $\pm$  transverse intersections with the system. The systems are easily seen. For  $T_{n}$  the system is  $\{Y's\}$  where each Y is a “distinguished solid torus” (with boundary the previously defined distinguished torus) in the nth layer of kinky handles.
+
+nth layer with three distinguished solid tori
+
+![](images/page_29_image_4.jpg)
+
+## DIAGRAM 4.1
+
+Note. At a self plumbing there are two natural choices of distinguished solid torus." Make either choice.
+
+For $T_{n} - C_{1}$, or the spaces with isomorphic $\pi_{1}$ the system consists of $\{X\} \cup \{Y's\}$. $X$ is dual to the linking circle to $C_{1}$. Specifically $X$ is $X \times [0,1)$ in the mapping cylinder structure on $T_{1}$ where $S$ is an open Siefert surface for $\partial C_{1}$ in $(\partial T_{1} \setminus nbd$ (curves represent 1-handles)).
+
+![](images/page_29_image_8.jpg)
+
+DIAGRAM 4.2
+
+Lemma 4.1. $\pi_1(T_3 - C_{1-2})$ is a free group with dual generators $\{X, Y's\}$. The inclusion $\pi_1(T_3 - C_{1-2}) \to \pi_1(T_3 - C_1)$ is an isomorphism.
+
+Proof. The proof is a handle body calculation.  $(T_{3}-C_{1-2})\cong_{smoothly}(T_{2}-C_{1-2})\cup$  kinky handles  $\cong_{smoothly}(T_{2}-C_{1-2})\cup$  1-handles  $\cup$  2-handles  $\simeq(T_{2}-C_{1-2})\cup$  2-handles  $\cup$  1-handles  $\simeq(\partial T_{2}-\partial C_{1})\cup$  2-handles  $\cup$  1-handles. The first homotopy equivalence results from changing the attaching maps of the two-handles within their homotopy classes so that they do not run over the one-handles. Consider an unramified example:
+
+![](images/page_30_image_2.jpg)
+
+DIAGRAM 4.3
+
+Observe the importance of the two zero framings. Only zeros would result in the last diagram being an unlink. (It can, however, be shown that the assumption of zero framing is only essential to Theorems 4.1–4.4 in the first two levels.) Another framing would yield a knot and a separated unknot (or many mutually separated unknots in the ramified case—they correspond to the  $\{Y's\}$ ); there would still be a representation to a free group but the map would no longer be an isomorphism.
+
+The ramified case is similar.
+
+The distinguished solid tori  $\{Y's\}$  do not meet the 2-handles so they can be picture in the final homotopy equivalent handle body of Diagram 4.3. Drawing as a motion picture: torus through time; we see Y:
+
+![](images/page_30_image_7.jpg)
+
+Time $= 1$
+
+![](images/page_30_image_9.jpg)
+
+Time $= \frac{1}{2}$
+
+DIAGRAM 4.4
+
+![](images/page_30_image_12.jpg)
+
+Time $= 0$
+
+For the final assertion we should verify injectivity. This amounts to showing that a small linking circle to  $C_{2}$  is already null homotopic in  $T_{3} - C_{1-2}$ . This is true since  $C_{2} \cap (X \cup Y's) = \varnothing$ .
+
+Lemma 4.2 (Changing distinguished tori into algebraic duals). Suppose $\tau$ is a torus imbedded in an oriented 4-manifold $M$, and that $d: (S, \partial) \to (M, \partial)$ is an oriented immersed surface meeting $\tau$ transversely in one point. If the inclusion $\pi_1(\tau) \to \pi_1(M)$ is zero, then $d$ has an algebraic dual $\bar{\tau}$.
+
+Proof. Use a null homotopy of one generator of  $\tau$  to surgery  $\tau$  into an immersed sphere  $\bar{\tau}$ . The intersection points  $\{\bar{\tau} \cap d\} - \{\tau \cap d\}$  come in pairs of opposite sign with a Whitney loop homotopic in M to a dual generator of  $\pi_{1}(\tau)$ , thus homotopic to zero. (See [23].)
+
+Proof of Theorem 4.1. $\tau_{2}$ is disjoint from the dual 3-manifold $\{X, Y$'s\} of $T_{3}^{0} - C_{1}^{0}$ so Lemma 4.1 says that $\pi_{1}(\tau_{2}) \to \pi_{1}(T_{3}^{0} - C_{1-2}^{0})$ is zero. Lemma 4.2 replaces $\tau_{2}$ with an algebraic dual $\bar{\tau}_{2}$ to $C_{3}^{0}$ in $T_{3}^{0} - C_{1-2}^{0}$ (several algebraic duals in the case $C_{3}$ is a disjoint union of kinky cores). Lemma 3.1 applied to $M = T_{3}^{0}$-(open $nbdC_{1-2}$) may be used to replace $C_{3}^{0}$ by $C_{3}^{1}$ so that $\pi_{1}(T_{3}^{0} - C_{1}^{0} \cup C_{2}^{0} \cup C_{3}^{1}) \to \pi_{1}(T_{3}^{0} - C_{1}^{0} \cup C_{2}^{0})$ an isomorphism. The proof is completed by setting $T_{3}$ equal to a regular neighborhood of $C_{1}^{0} - C_{3}^{1}$.
+
+Proof of Theorem 4.2. Simply apply Theorem 4.1 to $T_{2-4}^{0}$ to find $T_{2-4}^{1} \subset T_{2-4}^{0}$. Set $T_{1}^{0} \subset T_{4}^{0}$ to obtain $T_{4}^{1} \subset T_{4}^{0}$. Since the circles generating $\pi_{1}(T_{2-4}^{1})$ lie in $T_{2-4}^{0}$, they will not meet the dual 3-manifold $X \subset T_{1}^{0}$; thus Lemma 4.1 implies conclusion 3. To verify conclusion 2 we much check that a small linking circle $\alpha_{2}$ to $C_{2}$ is null homotopic in $T_{4} - C_{1-3}$. $\alpha_{2}$ is null homologous since it is essentially the boundary of a top-cell for $\tau_{1}$. Specifically $\alpha_{2}$ is a commutator of the form $[\alpha_{1}, \gamma^{-1}\alpha_{1}\gamma] \in \pi_{1}(T_{4} - C_{1-3})$ where $\gamma \subset T_{1} \cap T_{2-4}$ is a standard generator of $\pi_{1}(T_{1})$ and $\alpha_{1}$ is a small linking circle to $C_{1}$. Since $\gamma$ can be taken disjoint from $X \subset T_{2-4}$, $\gamma$ is zero in $\pi_{1}(T_{2-4} - C_{2-3})$. Thus $\alpha_{2} = [\alpha_{1}, \alpha_{1}] = 0$. Conclusion 1 is immediate.
+
+Proof of Theorem 4.3. The argument here is similar to Theorem [22] and bears comparison. The main difference here is that the “triangular basis” of the earlier paper occurs only transiently during our proof and is not part of the conclusion (and could be likewise eliminated from statements in the earlier paper). Another difference is that all framing induced by kinky handles will be made zero; the outer framings were unimportant in [22].
+
+Let $m$ be the number of kinky handles in the fifth layer of $T_5^0$, (that is, in $T_5^0 - T_4^0$). Let $n_1, \ldots, n_m$ be the total number of self-plumbings (not counted by sign) in the fifth layer kinky handles. Let $w = m + \sum_{i=1}^{m} n_i$. Apply Theorem 4.2 $w$ times to create a succession of inclusions $T_4^w \Leftrightarrow \dots \Leftrightarrow T_4^1 \Leftrightarrow T_4^0$ each satisfying the conclusions of Theorem 4.2. Let $\mathbf{C}_j = T_4^{j-1} - T_4^j$, $1 \leqslant j \leqslant w$. In
+
+each $\mathbf{C}_j$ there is a collection of $m$ immersed annulli $a_j^i$, $1 \leqslant i \leqslant m$ and $1 \leqslant j \leqslant w$.
+
+We first describe the boundary curve of a typical $a_j^i$. The upper boundary component $\partial^{+}a_{1}^{i}$ is the core circle along which the $i$th kinky 2-handle of $\overline{T_5^1 - T_4^0}$ is attached to $T_4^0$. (As described in §3, this curve may also be identified as the small linking circle to the $i$th 1-handle curve in the handle diagram of $T_4^0$.) There is a mapping cylinder structure on $T_4^0$ which gives a collapse of $T_4^0$ to its spine $C_{1-4}$, the shadow of $\partial^{+}a_{1}^{i}$ is an imbedded annulus $A^{i}$. Consider $w + 1$ intermediate levels $(\partial T_4^0)_k$, $0 \leqslant k \leqslant w$, $((\partial T_4^0)_0 = \partial T_4^0)$ in this mapping cylinder structure between $\partial T_4^0$ and $C_{1-4}^0$, $\partial^{+}a_{k+1}^{i} = \partial^{-}a_{k}^{i}$ will be defined to be $A^{i} \cap (\partial T_4^0)_k$. The reader may object that $\partial^{+}a_{k}^{i}$ (for example) should lie in $\partial T_4^k$ not $(\partial T_4^0)_k$. However the Addendum to Lemma 3.1 tells us that $C_4^k$ agrees with $C_4^{k-1}$ except along a finite number of smooth arcs in $T_4^{k-1}$, along which pairs of double points are born via “Casson moves”. Thus by general position (of points and arcs in a 2-disk and arcs and annuli in a $C_j$) we can assume $\partial^{+}a_{k+1}^{i} = \partial^{-}a_{k}^{i} \subset \partial^{-}(T_4^k)$ and in fact that $A^{i} \cap \mathbf{C}_{j}$ is an imbedded annulus $\bar{a}_j^i$. $\bar{a}_j^i$ is not precisely the annulus we are looking for. We will form $a_j^i \subset C_j$ with $\partial a_j^i = \partial \bar{a}_j^i$ and $\cup_i a_j^i \subset C_j$$\pi_i$-negligible. The annuli $\bar{a}_j^i$ meets a distinguished torus $\tau_j^i \subset \partial C_j$ transversely at a single point, in fact $\bar{a}_j^i \cap \tau_j^k = \delta_{ik}$ transverse points. Lemma 4.2 allows us to turn $\tau_j^1$ into a spherical algebraic dual $\bar{x}_j^1$. Now apply Lemma 3.1 to change $\bar{a}_j^1$ by Casson moves and $\bar{x}_j^1$ by a homotopy to arrive at an immersed annulus and an immersed 2-sphere $x_j^1$ geometrically dual to $a_j^1$. Again by general position $\bar{a}_j^2, \ldots, \bar{a}_j^r$ lie in $\mathbf{C}_j - a_j^1$. The geometric dual $x_j^1$ shows that $\pi_1(\mathbf{C}_j - a_j^1) \to \pi_1(\mathbf{C}_j)$ is an isomorphism. Thus $\pi_1(\tau^2) \to \pi_1(\mathbf{C}_j - a_j^1)$ is the zero map. Consequently Lemmas 4.2 and 3.1 can be applied again to find $a_j^2$ and geometric spherical $x_j^2$ contained in $\mathbf{C}_j - a_j^1$. Continuing in this way we construct $a_j^3, \ldots, a_j^m$ and $x_j^3, \ldots, x_j^m$.
+
+Now create m immersed disks  $\delta^{1},\ldots,\delta^{m}$  in  $T_{5}^{0}$ . These will be the cores of some of the kinky handles of  $\left(T_{5}^{1}-T_{4}^{0}\right)$ . We begin with an “approximation” to what we want:  $\bar{\delta}^{1},\ldots,\bar{\delta}^{m}$  with  $\bar{\delta}^{i}=\bigcup_{j=1}^{w+1}\alpha_{j}^{i}\cup C_{5}^{i}$ . The most obvious thing wrong with these cores is that conclusion (3) of Theorem 4.3 will not be satisfied—the essential loops of  $T_{5}^{0}$  are carried by loops in  $\bar{\delta}^{i}$ . This defect is corrected by ambient connected sums with the transverse spheres  $x_{1}^{1},\ldots,x_{n_{1}}^{1},x_{n_{1}+1}^{2},\ldots,x_{n_{1}+n_{2}}^{2},\ldots,x_{\Sigma n_{i}}^{m}$ . This is the “singular Norman trick” of [22], [23]. Briefly, a double point of k in  $C_{5}^{i}$  is removed by cutting out a  $D^{2}\times S^{0}$ , where  $D^{2}\times-1$  is a sheet at q and  $D^{2}\times1$  is a patch of  $x_{k}^{i}$  containing the intersection point with  $\bar{\delta}^{i}$  and gluing back  $S^{1}\times D^{1}$ , the normal circle bundle over an arc in  $\bar{\delta}^{i}$  connecting q with  $\bar{\delta}^{i}$  (copy  $x_{k}^{i}$ ). Call the resulting collection of disjointly immersed disks  $\{\bar{\delta}^{i},\bar{i}\leqslant1\leqslant m\}$ . Since  $x_{k}^{i}$  is not imbedded, this only trades one sort of intersection for another, and it does not eliminate intersections. Recall
+
+our method for using dual generators to measure fundamental groups. The distinguished solid tori $\{Y_k, 1 \leqslant k \leqslant w - m\}$ associated with the self-plumbing in $\overline{T_5^0 - T_4^0}$ are dual to a basis for $\pi_1(T_5^0)$. Any loop in $\bar{\delta}_i^i$ which is transverse to the $Y_k$'s is easily seen to represent a cancelling word, thus those disks are compatible with conclusion (3).
+
+There remains a framing problem. These “singular-Norman-tricks” have changed the framing of the attachment of  $\bar{\delta}_{1}^{i}$ , frame( $\bar{\delta}$ ) = frame( $C_{5}^{i}$ ) = 0.
+
+It is a consequence of the formula:
+
+(\*) framing = relative algebraic intersection = relative Euler class + 2,
+
+(# double points counted by sign)
+
+and the fact that the normal bundle $\nu_{x_k^i\subset T_5^0}$ are all trivial that framing $(\bar{\delta}^i)$ is even. Now consider the effect of changing $\bar{\delta}^i$ to $\delta^i = \bar{\delta}^i\# \mathrm{copies}(x_{r + i}^i)$, where $1\leqslant i\leqslant m$. By formula (\*) the number of copies can be adjusted to make framing $\delta^i = 0$.
+
+Apply Lemma 3.1 successively to $\delta_{1},\cdots,\delta_{m}$ to achieve $\pi_{1}$-negligibility: $\pi_{1}[(T_{5}^{0}-T_{4}^{0})-\bigcup_{i=1}^{m}\delta_{i}]\cong\pi_{1}(T_{5}^{0}-T_{4}^{0})$. This is accomplished by Casson moves; the disjointness and zero framing of the $\delta_{i}$ is preserved.
+
+In the difference,  $D = \overline{T_{4}^{0} - T_{4}^{w}} - \cup_{i=1}^{m} \delta_{i}$ , it remains to attach kinky handles to the new  $\pi_{1}$ -generators  $\gamma_{1}, \cdots, \gamma_{g}$  of  $T_{4}^{w}$ . The new generators are introduced by each Casson move made during each of the w applications of Theorem 4.2. The canonical generators (= the small linking circles to the 1-handles in the handle diagram) are not null homotopic in D or equivalently in  $T_{4}^{0} - T_{4}^{w}$  and so cannot be capped of directly. However according to conclusion (3) of Theorem 4.2 each new generator can be composed with a word in the old generators to yield loops  $\alpha_{1}, \cdots, \alpha_{s}$  which are null homotopic in  $\overline{T_{4}^{0} - T_{4}^{w}}$ . The loops  $\alpha_{1}, \cdots, \alpha_{s}$  correspond to the “triangular basis” in [22], [23]. The handle body diagram for  $T_{4}^{w}$  has  $m + s, s > 0$ , 1-handles in the 4th stage.  $\partial\delta^{1}, \cdots, \partial\delta^{m}$  represent small linking circles to the first m of these 1-handles. The curves  $\alpha_{1}, \cdots, \alpha_{s}$  can, without loss of generality, be chosen so that they would become (isotopic to) small, zero-framed, linking circles to the last s 1-handles if the first m 1-handles were deleted from the diagram.
+
+![](images/page_33_image_8.jpg)
+
+Example: $s = m = 1$.
+
+DIAGRAM 4.5
+
+A  $\pi_{1}$ -negligible collection of null homotopies:  $\delta^{m+1},\cdots,\delta^{m+s}$  for  $\alpha_{1},\cdots,\alpha_{s}$  (resp.) in  $C_{w+1}-\bigcup_{i=1}^{m}\delta^{i}$  can be chosen so that the corresponding kinky handles attach to the curves  $\alpha_{1},\cdots,\alpha_{s}$  in the handle diagram with framing = zero. The control of the framing and  $\pi_{1}$ -negligibility is obtained just as in the inductive step of the tower construction Theorem 3.2. We do not actually care about the  $\pi_{1}$ -negligibility of the  $\delta$ 's in the end, but it is needed to keep the different  $\delta$ 's disjoint as we construct them.
+
+Set  $V_{5}^{1}=nbd(T_{4}^{m+1}\cup\delta^{1}\cup\cdots\cup\delta^{m+s})\subset T_{5}^{0}$ .  $V_{5}^{1}$  is not a 5-stage tower according to our definition since the fifth stage of kinky handles was attached to a triangular rather than a standard collection of curves. Despite this  $V_{5}^{1}$  satisfies conclusions (1) agreement and (2) nullity required of  $T_{5}^{1}$ . The desired  $T_{5}^{1}$  will be found within  $V_{5}^{1}$ . Set  $\tilde{T}_{4}^{w}=T_{4}^{w}$ -collar  $(\partial^{+}T_{4}^{w})$  so that  $\tilde{T}_{4}^{w}\cap V_{5}^{1}=\partial^{-}T_{4}^{w}$ , the attaching region. Let  $\hat{C}_{1}^{0}\subset int T_{1}^{0}$  be the interior of a tubular neighborhood of  $C_{1}^{0}$ .
+
+Apply the Addendum to Theorem 3.2 to extend $\tilde{T}_{2-4}^{w} = \tilde{T}_{4}^{w} \cap (V_{5}^{1} - \hat{C}_{1}^{0})$ to a $\pi_{1}$-negligible 4-stage tower $T_{2-5}^{1} \subset V_{5}^{1} - \hat{C}_{1}^{0}$. Set $T_{5}^{1} = T_{1}^{0} \cup T_{2-5}^{1}$. $T_{5}^{1}$ is an honest 5-stage tower and satisfies conclusion (2) $\pi_{1}$-negligibility, as well as conclusions (1) and (3). Thus the proof is completed by verifying that the hypotheses to the Addendum to Theorem 3.2 is in fact satisfied. To check the $\pi_{1}$-negligibility hypothesis it suffices to determine that both $\pi_{1}(V_{5}^{1} - C_{1}^{0})$ and $\pi_{1}(V_{5}^{1} - \tilde{T}_{4}^{w})$ are free groups with dual generators $\{Y's\} \cup \{X\}$, the solid tori associated to the fifth stage self-plumbings and the (Siefert surface to $\partial^{-}V_{5}^{1}$) $\times I$ respectively. Nullity is clear.
+
+This calculation is an easy variant of the proof of Lemma 4.1, drawing the pictures is left as an exercise. We remark that here, as in Lemma 4.1, the zero framing of the last stage $\delta^{1},\cdots,\delta^{m+s}$ is crucial. That the attachment is to a triangular rather than the standard diagonal basis does not affect the calculation: First move the 2-handle curves $\partial\delta^{1},\cdots,\partial\delta^{m}$ so that they are geometrically unlinked from the 1-handles with which they have linking number zero. Then cancel away these 2-handle curves. At this point $\partial\delta^{m+1},\cdots,\partial\delta^{m+s}$ becomes isotopic to small linking circles to the remaining fourth stage 1-handles. We are now in the standard diagonal case handled by Lemma 4.1 q.e.d.
+
+Proof of Theorem 4.4. Apply Theorem 4.3 to the top 5-stages of $T_6^0$ to obtain $T_6^1 \subset T_6^0$. We claim that the small linking circle $\alpha_2$ to the second stage core $C_2$ is null homotopic in $T_6^0 - T_6^1$. By conclusion (2) Theorem 4.3 it is sufficient to check that $\alpha_2$ is null homotopic in $T_6^0 - C_{1-2}$. But $\alpha_2$ is already null in $T_3^0 - C_{1-2}$ by Lemma 4.1. It follows that the loops at the top of $T_6^1$ which generate $\pi_1(T_6^1)$ are null homotopic in $T_6^0 - T_6^1$.
+
+Now apply the Addendum to Theorem 3.2. Set $M_{n} = T_{6}^{0} - nbd(C_{1-2})$ and $T_{3-6}^{1}$ is the $\pi_{1}$-negligible, $n - 1$ stage tower included into $M_{n}$ inducing the zero
+
+map on $\pi_1$. $T_{3-7}^1 \subset M_n$ is the output of the addendum. Adding back the lower stages we obtain $T_7^1 \subset T_6^0$ as desired.
+
+Theorem 4.5 (Mitosis). Given any $T_6^0$ there exists $T_{13}^* \subset T_6^0$ such that
+
+(1) (agreement) $C_{1-3}^{*} = C_{1-3}^{0}$, and
+
+(2) $(\pi_1$-negligibility) $\pi_1(T_6^0 - T_{13}^*) \to \pi_1(T_6^0 - C_1^0)$ is an isomorphism.
+
+Certainly this theorem could be proved with any finite number in place of thirteen. The purpose of thirteen is that  $13 = 6 + 6 + 1$  and we should train ourselves to think in units of 6-stage towers. The 6-stage tower will be thought of as the heart of a Casson handle; the minimum initial segment (as far as is known) which can replicate. Thus the Mitosis theorem says that inside any 6-stage tower there is “smaller” one whose fundamental group is killed by attaching 6-stage towers. And further, the thirteenth stage guarantees that these final towers also induce the zero map on fundamental groups.
+
+![](images/page_35_image_5.jpg)
+
+DIAGRAM 4.6
+
+To illustrate the combinatorics (but not the homotopy theory) of some rather complicated nestings used in §5 we introduce a schematic notation in Diagram 4.6. A 6-stage tower is drawn as a disk, its attaching region as a lower more or less straight segment of its boundary. The towers attached on top of another tower are assumed to be attached to the canonical $\pi_1$ generators with "zero framing". This is equivalent to saying that the union of the indicated subtowers is itself a 12-stage tower. (Compare with the definition of Whitney towers in §9.)
+
+The last two conclusions of Theorem 4.5 are not actually important; we state them only to preserve the parallel with the previous five theorems.
+
+Proof of Theorem 4.5. We apply Theorem 4.4 in seven successive steps. First form  $T_{7}^{1} \subset T_{6}^{0}$  and set aside its first stage  $T_{1}^{1}$ . Now consider the (possibly disconnected) 6-stage tower  $T_{2-7}^{1}$ . Apply Theorem 4.4 to the tower to find  $T_{2-8}^{2} \subset T_{2-7}^{1}$ , and set  $T_{2}^{2}$  aside. Next apply Theorem 4.4 to find  $T_{3-9}^{3} \subset T_{3-8}^{2}$ , and set  $T_{3}^{3}$  aside. Continuing in this way form and lay aside  $T_{4}^{4}$ ,  $T_{5}^{5}$ ,  $T_{6}^{6}$  and finally  $T_{7-13}^{7} \subset T_{12}^{6}$ . Define  $T_{13}^{*} = T_{1}^{1} \cup T_{2}^{2} \cup \cdots \cup T_{6}^{6} \cup T_{7-3}^{3}$ .
+
+To check that  $\pi_{1}$ -negligibility is satisfied (conclusion (2)) observe that the core  $C_{2}^{2}$  has a geometrically dual sphere x made from a transverse disk union a null homotopy of the linky circle in  $T_{1-6}^{0}-T_{1-7}^{1}$ . By piping to copies of x, transverse spheres to all higher cores in  $T_{13}^{*}$  can be formed. Conclusion (1) of Theorem 4.5 is immediate from conclusion (1) of Theorem 4.4 and our construction of  $T_{13}^{*}$ .
+
+## 5. Geometric control and the imbedding of a design $\mathfrak{D}$ in CH
+
+It was already known to Casson in 1974 that any Casson handle could be described as a certain open dense subset of a standard 2-bundle $(D^2 \times D^2, \partial D^2 \times D^2)$. In the simplest (= unramified) case $\mathrm{CH} \cong (D^2 \times D^2 - (D^2 \times \partial D^2 \cup \text{cone(Whitehead continuum)}$, $\partial D^2 \times D^2$). Thus among possible compactifications of a CH is the standard handle $H$. There is another quite useful compactification; we will call it in the Shapiro-Bing$^7$ compactification or $S - B$ handle and reserve the letter $K$ for it. The frontier $\operatorname{Fr}(K)$ is divided as $\operatorname{Fr}(K) = \operatorname{Fr}^{+}(K) \cup \partial^{-}K$, $\partial^{-}K = \partial D^2 \times D^2$ and $\operatorname{Fr}^{+}(K) = \overline{\operatorname{Fr}(K) \setminus \partial^{-}K}$. In the unramified case $K$ is $H/$cone (Whitehead continuum). If one uses Theorem 3.1 to find $\mathrm{CH} \subset M$, the closure $\overline{\mathrm{CH}}$ will be totally unpredictable and therefore useless. However, the Mitosis Theorem 4.5 can be used to gain geometric control (that is, decay the diameter of higher stage kinky handles) as a new imbedding $\mathrm{CH}' \subset M$ can be found with closure $\overline{\mathrm{CH}}'$ homeomorphic (as a pair) to $K$. Notice that our theorem only requires a $T_6$ to start with, not a full CH. The precise definition of $K$ follows the following theorem.
+
+Theorem 5.1 (geometric control). Given any $(T_6, \partial^- T_6)$ there are some $S - B$ handle $K$ and an imbedding of it $(K, \partial^- K) \subset (T_6, \partial^- T_6)$ satisfying $\partial^- K = \partial^- T_6$ and $\operatorname{Fr}(K) \cap \partial T_6 = \partial^- T_6$. The imbedding is smooth on the Casson handle $(K \setminus \operatorname{Fr}^+(K), \partial^- K)$, in fact smooth except at the non-manifold points of $\operatorname{Fr}^+(K)$. Furthermore, the spines of the first 4 stages of $K$ and $T_6$ agree, that is, $\tilde{C}_{1-4} = C_{1-4}$.
+
+A Casson handle is specified up to (orientation preserving) diffeomorphism (of pairs) by a labeled finitely-branching tree with basepoint \*, having all edge paths infinitely extendable away from \*. Each edge should be given a label + or -. Here is the construction: tree  $\sim$  CH. Each vertex corresponds to a kinky handle; the self-plumbing number of that kinky handle equals the number of branches leaving the vertex. The sign on each branch corresponds to the sign of the associated self plumbing. Of course to ensure we are building a true Casson
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\mathbf{Fr}^{+}(K)$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}$ Named in recognition of A. Shapiro's discovery (1957) of the first manifold factor. The space he considered appears here as  $\mathrm{Fr}^{+}(K)$ . Bing rediscovered and generalized this fact. The example appears in print after being independently found by Andrews and Rubin [3] in 1965.</span></small>
+
+handle each kinky handle is attached with zero framing $^{8}$ to a standard generator (see Diagram 2.7) of an earlier kinky handle. As remarked in §2 the sign of the self-plumbings will have no importance for us. We will not bother to establish explicit orientation conversions, and will quickly be abusing terminology by calling the Whitehead link and its mirror image by the same name.
+
+Given a labeled based tree Q, let us describe a subset  $U_{Q}$  of  $D^{2} \times D^{2}$ . It will be verified that  $(U_{Q}, \partial D^{2} \times D^{2})$  is diffeomorphic to the Casson handle associated to Q. In  $D^{2} \times \partial D^{2}$  imbed a ramified Whitehead link with one Whitehead link component for every + labeled edge leaving \* and one mirror image Whitehead link component for every-labeled edge leaving \*. In handle notation this is Diagram 2.2.
+
+Thicken the circles just imbedded to become smoothly imbedded solid tori. Using the null homotopy, each of these imbedded solid tori acquires a preferred normal framing ( $\equiv$  linking number = 0 in  $\partial(D^{2} \times D^{2})$  that is a framing  $v_{core \subset solid torus}$ . With respect to this framing it makes sense that a circle imbedded inside one of these solid tori is a Whitehead link (or a mirror image of a Whitehead link); simply use the framing to identify the open solid torus with  $R^{3}-z$ -axis and ask if (z-axis, image (circle)) is a Whitelead link (or a mirror image).
+
+Corresponding to each first level node of Q we have already found a normally framed solid torus imbedded in  $D^{2} \times \partial D^{2}$ . In each of these solid tori imbed a ramified Whitehead link, ramified according to the number of + and - labeled branches leaving that node.
+
+Thicken these ramified Whitehead links to obtain a second level collection of normally framed solid tori. As before Q determines a third family, normally framed solid tori imbedded in the second family. Let the disjoint union of the (closed) solid tori in the nth family (one solid torus for each branch at level n in Q) be denoted by  $X_{n}$ . Q tells us how to construct an infinite chain of inclusions:
+
+$$
+\dots \subset X _ {n + 1} \subset X _ {n} \subset \dots \subset X _ {1} \subset D ^ {2} \times \partial D ^ {2}.
+$$
+
+Let $\mathrm{Wh}_Q$ be the set of connected components of $\bigcap_{n=1}^{\infty} X_n$, and let $\mathrm{Wh}_Q^* = \bigcap_{n=1}^{\infty} T_n$. $\mathrm{Wh}_Q$ is the Whitehead decomposition associated to $Q$ (technically,
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\pi_{1}(k)$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k_{1},\ldots ,k_{k}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\overline{k}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\cup \dots \cup H_n, \partial^{-}\bar{k})$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$B^4$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{8}$ Via a standard imbedding a kinky handle is a subset of a standard 2-handle H (compare with the following page). If  $k_{1},\ldots,k_{k}$  are kinky handles attached to kinky handle  $\bar{k}$  along standard generators for  $\pi_{1}(\bar{k})$ . The zero-framings are the unique framings so that the pair  $(\bar{k}\cup H_{1}\cup\cdots\cup H_{n},\partial^{-}\bar{k})$  is the 4-ball  $B^{4}$  with the unknoted solid torus imbedded in  $\partial B^{4}$ , the attachment of  $H_{i}$  being determined by the attachment of  $k_{i}$  and the above imbedding  $(k_{i},\partial^{-}k_{i})\subset(H_{i},\partial^{-}H_{i})$ .</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">so</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$(\bar{k}\cup H_{1}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\partial B^4$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$H_{i}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k_{i}$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$(k_{i},\partial^{-}k_{i})\subset (H_{i},\partial^{-}H_{i})$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$D^2\times \partial D^2 /\mathrm{Wh}_Q$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{9}$  Actually this set inherits a natural topology from the quotient space  $D^{2} \times \partial D^{2}/Wh_{Q}$ .</span></small>
+
+the nondegenerate elements of same). In the simplest case where Q is non-branching and all edges are labeled +, then  $Wh_{Q}^{*}$  is the famous Whitehead continuum (see [53]).
+
+The $n$th stage $X_{n}$ of the defining sequence of $\mathrm{Wh}_Q$ can be thought of as the attaching region of a disjoint union of 2-handles $W_{n}$ relatively imbedded in $(D^{2} \times D^{2}, D^{2} \times \partial D^{2})$. Inductively, we see that $X_{n}$ is an unknotted unlinked collection of solid tori in $\partial W_{n-1}$, with $W_{0} = (D^{2} \times D^{2})$. (To prove this, note that deleting the curves representing $\partial^{-}$ in Diagram 2 leaves the unlink.) We choose $W_{n} \subset W_{n-1}$ to be (isotopic to) the standard slice for the unlink.
+
+Set $\overline{\mathrm{Wh}_Q} =$ set of components of $\cap_{n=1}^{\infty} W_n$ and $\overline{\mathrm{Wh}_Q^*} = \cap_{n=1}^{\infty} W_n$. If one chooses it is easy to arrange the geometry of the inclusions $W_{n+1} \subset W_n$ so that $\overline{\mathrm{Wh}_Q^*}$ is homeomorphic to the mapping cylinder of $\alpha: \mathrm{Wh}_q^* \to \mathrm{End}(Q)$ where $\alpha$ associates to a component of $\mathrm{Wh}_Q$ the end to which the corresponding path in $Q$ converges. To do this begin with the mapping cylinder and building, in abstract, at a defining sequence for it is homeomorphic to $\{W_n\}$.
+
+The subset $U_{Q} \subset D^{2} \times D^{2}$ is defined as $U_{Q} = D^{2} \times D^{2} - (D^{2} \times \partial D^{2} \cup \overline{\mathrm{Wh}}_{Q}^{*})$. The compactification $K$ (or more precisely $K_{Q}$) is defined as the decomposition space $K_{Q} = (D^{2} \times D^{2} / \overline{\mathrm{Wh}}_{Q}, \partial D^{2} \times D^{2})$. This means that each element of $\overline{\mathrm{Wh}}_{Q}$ (and these a parametrized by $\operatorname{End}(Q)$) is declared to be a point and the resulting set is given the quotient topology. We set $\partial^{-}K - \partial D^{2} \times D^{2}$ and $\mathrm{Fr}^{+}(K) = \mathrm{Frontier}(K) - \partial D^{2} \times \mathrm{interior}(D^{2})$.
+
+Theorem 2.2. $U_{Q}$ is diffeomorphic as a pair to the Casson handle indexed by $Q, \mathrm{CH}_Q$.
+
+Proof. It is enough to see that  $(D^{2} \times D^{2} - \text{int}(W_{n}), \partial D^{2} \times D^{2})$  is (diffeomorphic to) an n-stage tower. Since an unknottedness of the 2-handles  $W_{i} \subset W_{i-1}, i \leqslant n$ , is transitive,  $W_{n}$  is a union of unknotted slices in  $B^{4} = D^{2} \times D^{2}$ . Thus  $X_{n} = \partial W_{n} \cap \partial (D^{2} \times D^{2})$  yields the dot-bearing circles (Diagram|2.3) indicating 1-handles in the Kirby calculus. The only question is whether the solid torus  $\partial D^{2} \times D^{2}$  is positioned appropriately in the handle diagram. Following the cancellation rule, consider the effect of cancelling all the 2-handles in the bundle body description of the first n stages of  $CH_{Q}, T_{6_{Q}}$ . (For example, cancel the 2-handles in Diagram 2.7.) The result is an iterated-ramified link precisely of the type determined by the cores of the solid tori  $X_{n}\Pi\partial D^{2} \times D^{2}$ . The cancellation rule given in §2 allows us to compute the result of cancelling all 2-handles in the description of  $T_{Q_{n}}$ , the first n stages of  $CH_{Q}$ . (Try this with Diagram 2.7!) The result is precisely the link:  $X_{n}\Pi\partial D^{2} \times D^{2}$  of 1-handle curves with the attaching region. Below we illustrate a simple example showing how doubling and ramification occur as we cancel (Diagram 5.1).
+
+The next theorem is immediate but quite important. It recognizes  $Fr^{+}K_{Q}$  as a rather famous space, in fact a space which is known (see [3]) to become a manifold after the Cartesian product with the real line is taken. This property provides a motivation for the design P at the end of this section.
+
+Theorem 5.3. $\mathrm{Fr}^{+}(K_{Q})$ is homeomorphic to $D^2\times \partial D^2 /\mathrm{Wh}_Q$ Proof. $\mathrm{Fr}^{+}(K_{Q}) = \partial^{+}(D^{2}\times D^{2}) / \overline{\mathrm{Wh}}_{Q}\cap \partial (D^{2}\times D^{2}) = D^{2}\times$$\partial D^2 /\mathrm{Wh}_Q.$
+
+Proof of Theorem 5.1. We construct $\mathrm{CH} \subset T_6 = T_6^0$ as a union of (disjoint unions of) 6-stage towers. Apply Mitosis to find $T_{12}^{1} \subset T_{6}^{0}$, the inclusion zero on $\pi_1$. Think of $T_{12}^{1}$ as $T_{12}^{1} \cup T_{7-12}^{1}$. (We have
+
+![](images/page_39_image_3.jpg)
+
+DIAGRAM 5.1
+
+abused notation by not indicating that the last six stages form a disjoint union of 6-stage towers.) Use the fact that $T_{6-12}^{1}$ has a 1-complex spine, and thus is engulfable, to construct a diffeomorphism of $T_6^0$ which is the identity on $\partial T_6$ and carries the various components of $T_{7-12}^{1}$ into disjoint closed 4-balls of diameter $< \varepsilon$. Now apply Mitosis to each six stage tower: component $(T_{7-12}^{1})$ to find $T_{7-18}^{2} \subset T_{7-12}^{1}$ (inducing the zero mapping on $\pi_1$ and an isomorphism on $\pi_0$).
+
+As before it is possible to find a diffeomorphism of  $T_{7-12}^{1}$  which is the identity on  $\partial T_{7-12}^{1}$  and carries the various components of  $T_{13-18}^{2}$  into disjoint closed 4-balls of diameter less than  $\varepsilon/2$ .
+
+Continue in this way. The general step is to imbed $(T_{6(k + 1) + 1 - 6(k + 2)}^{k + 1},\partial^{-})\subset (T_{6k + 1 - 6(k + 1)}^k,\partial^{-}), k\geqslant 0$. Homotopically the inclusion inducing an isomorphism on $\pi_0$ and the zero map on $\pi_1$ and geometrically the components of $T_{6(k + 1) + 1 - 6(k + 2)}^{k + 1}$ should lie in disjoint closed 4-balls of diameter $< \varepsilon /k + 1$. Call this disjoint union of closed balls $\beta_{k}$. Define $K = \overline{\bigcup_{k = 0}^{\infty}T_{6k + 1 - 6(k + 1)}^{k + 1}}$ and $\partial^{-}K = \partial^{-}T_{6}^{1} = \partial^{-}T_{6}^{0}$, where the bar denotes closure in $T_{6}^{0}$. We must prove $K$ is a $S - B$ handle.
+
+It is clear from the construction that skinning $K$ yields a Casson handle smoothly imbedded in $T_6^0$: $(K = (\overline{\operatorname{Fr}(K) - \partial^- K}), \partial^- K) = (\mathrm{CH}_Q, \partial^- \mathrm{CH}_Q \subset T_6^0$ for some index tree 0. The simple union $Y = \bigcup_{k=0} T_{6k+1-6(k+1)}^{k+1}$ is smoothly imbedded in $T_6^0$ and is the source of a diffeomorphism $d$: $(Y, \partial^-) \to (D^2 \times D^2 - \overline{\mathrm{Wh}}_Q^*, \partial D^2 \times D^2)$. To see this recall that $(\bigcup_{k=0}^m T_{6k+1-6(k+1)}^{k+1}, \partial^-)$ is an $n = m(k+1)$-stage tower and as such is a handle minus (open) slices $(H - \dot{W}_n, \partial^- H)$. Thus $(Y, \partial^-)$ is simply a handle minus the infinite intersection $= \overline{\mathrm{Wh}}_Q^*$. Any point $p$ which is a limit point of $Y$ but not in $Y$ must be the limit of a sequence $q$, with $q_i \in T_{6i+1-6(i+1)}^{i+1}$ and thus must lie in $\bigcap_{k=1}^\infty \beta_k$. On the other hand, $\bigcap_{k=1}^\infty \beta_k$ certainly is contained in the closure $\overline{Y}$. Thus $Y = Y \cup \bigcap_{k=1}^\infty \beta_k$. Call $\bigcap_{k=1}^\infty \beta_k = L$. $L \cap Y = \varnothing$ since $T_{6k+1-6(k+1)}^k \cap \beta_k = \varnothing$.
+
+L is naturally identified with  $\operatorname{End}(Q)$  and therefore with  $\overline{Wh}_{Q}$ . This allows the definition of a one-to-one onto function f from  $\overline{Y}$  to  $K_{Q}$  extending d. We need only verify continuity of f/L. A base of open sets for  $\overline{Wh}_{Q}$  consists of elements contained in a component of the nth defining element  $W_{n}$ . The  $f^{-1}$  of such a base is the set of points in L inside a particular component of  $\beta_{n}$ , but this is an open set (in fact a typical basic open set) in the induced topology on L. It follows that f is continuous, and smooth off L. q.e.d.
+
+A way to regard the situation at this point is that CH is unexplored territory (insofar as establishing any map from H to CH is concerned), but its compactification K has a well understood frontier  $Fr^{+}K = S^{-1} \times D^{2}/Wh$ . Theorem 5.1 therefore allows us to explore a little of the unknown by placing  $Fr^{+}K_{Q}, \subset T_{6} \subset CH_{Q} \subset K_{Q}$  (for any Q). Granted that this does not explore very much of  $CH_{Q}$ , only a “codimension” 1-sliver. It is however a beginning. We will actually send uncountably many such frontiers across  $CH_{Q}$  (indexed by a Cantor set), and still more frontiers will have imbeddings “partially defined” into CH, that is defined over a compact piece of predictable size. Together these functions map out enough to CH to completely determine its topology. But to be of any use these frontiers must be arranged coherently in a space we call a design D.
+
+It is convenient to work in the compact world. We begin with an arbitrary labeled tree $Q$ and form $K_{Q}$. Next construct a design, dependent on $Q$, $(\mathfrak{D}_q; \mathrm{Fr}^+ \mathfrak{D}_Q, \partial^- \mathfrak{D}_Q)$, and finally a topological imbedding $i$ of this triad into $(K_Q; \mathrm{Fr}^+ K_Q, \partial^- K_Q)$ which is a homeomorphism over $\mathrm{Fr}^+ K_Q \cup \partial^- K_Q$. For some purposes it will be better to focus on the noncompacted design $(\mathfrak{D}_Q - \mathrm{Fr}^+ \mathfrak{D}_Q, \partial^- \mathfrak{D}_Q)$ which is now imposed on $\mathrm{CH}_Q$ by $i|: (\mathfrak{D}_Q - \mathrm{Fr}^+ \mathfrak{D}_Q, \partial^- \mathfrak{D}_Q) \to (\mathrm{CH}_Q, \partial^- \mathrm{CH}_Q)$.
+
+The construction of $\mathfrak{D}_Q$ and $i$ is the last task of this section. Since $i\mid$ is not onto, it is natural to wonder how even a complete understanding of the design $\mathfrak{D}_Q$ can determine the homeomorphism type of (CH, $\partial^{-}\mathrm{CH}$). Although this is the subject of §§6 and 9, we may, without digressing unduly, offer a thought experiment. Suppose we have explored all of (CH, $\partial^{-}\mathrm{CH}$) except for a region bounded by a topologically flat 3-sphere $\Sigma$ in interior (CH). By Theorem 2.1 we know that interior (CH) $\cong_{\mathrm{diff}}R^4$, so by the topological Schoenflies theorem [9] $\Sigma$ bounds a 4-ball in CH. There is only one isotopy class of the gluing map along $\Sigma$ (by smooth approximation [38] and Cerf's theorem $\Gamma^4 = 0$ [16], [17]), so we now have explored all of (CH, $\partial^{-}\mathrm{CH}$) up to homeomorphism.
+
+We must describe a new sort of labeled tree S,  $S = S(Q)$  will be a bookkeeping device constructed from a ± labelled tree Q.  $S(Q)$  will ultimately be used to construct the design  $D_{Q}$ . The form of S is quite simple. There is a base point from which a single edge called “decimal point” (“.”) emerges. Thereafter the tree branches in a simple dyadic fashion; one edge enters and two edges leave every vertex. The edges are named by initial segments of infinite base 3 decimals representing numbers in the standard “middle third” Cantor set C.S. ⊆ [0, 1]. S is shown below.
+
+![](images/page_41_image_3.jpg)
+
+DIAGRAM 5.2
+
+The letter e will be reversed for finite base 3-expansion of 0's and 2's. Notice that .0 and .00 are different edges and therefore different expansions. The letter c will denote an infinite expansion of zeros and 2's,  $c \in C.S$ .
+
+Each edge $e$ of $S$ carries a label $\tau_e$ where $\tau_e$ is an ordered finite disjoint union of 6-stage towers with an ordered collection of standard loops generating the fundamental groups. The standard loops will be the small linking circles (in some fixed order) to the sixth stage 1-handle curves. The first constraint on the labels is the requirement that if the base three decimal $e'$ is formed by adding either a zero or a two to the end of the base three decimal $e$, then the number of connected components of $\tau_{e'}$ is equal to the total number of standard fundamental group generators (that is, 6th stage 1-handles) in all the components of $\tau_e$. This condition means that any branch of $S$, that is, any edge path beginning at $b$ and heading (steadily) out toward infinity, represents some $\pm$ labeled tree $Q'$. Each edge in the branch determining six stages of $Q'$. Equivalently we may think of each branch of $S$ as specifying a $K_{Q'}$. Also observe that any terminal segment of a branch represents some disjoint union of $K_{Q''}$'s. The branches of $S$ are, of course, enumerated by the standard Cantor set C.S. The second constraint on the labels $\tau_e$ is simply that the top branch $B_{.222...}$ represent the $\pm$ labeled tree $Q$.
+
+Suppose e is a finite base three decimal ending in 2. Let  $e^{0}$  be the decimal that results when the last place 2 is changed to zero. Let  $e^{k}$  be the finite base three decimal  $e^{0}$  followed by k 2's. Associated to the terminal segment  $e^{0} \cup e^{1} \cup e^{2} \cup \cdots$  is some disjoint union of S - B handles  $(\Pi K)_{e}$ . The third and final constraint on the labels  $\{\tau's\}$  is that Theorem 5.1 must provide an imbedding (preserving the orderings)  $((\Pi K)_{e}, \partial^{-}\Pi K)_{e}) \Leftrightarrow (\tau_{e}, \partial^{-}\tau_{e})$ .
+
+Given a  $\pm$  labeled tree Q call any dyadic  $\tau$ -labeled tree S associated to Q if it satisfies the three constraints above.
+
+These constraints are achieved by an inductive process which simultaneously imbeds in  $K_{Q}$  a collection  $\{K_{c}, c \in C.S.\}$  of S - B handles indexed by the Cantor set of {branches of S}.
+
+Theorem 5.2. For any $\pm$ labeled tree $Q$ there exists an associated $\tau$-labeled tree $S$.
+
+Proof. $Q$ determines (constraint #2) a $\tau$-labeling along the branch $B_{.222\ldots}$. As inductive hypothesis assume that a $\tau$-labeling has been given along all branches $B_c$ where $c$ terminates in 2's and has no zero beyond the $n$th place. We assume that this partial $\tau$ labeling satisfies constraint 1 and 3 where these apply. The inductive step consists of indexing branches $B_{c'}$ where $c'$ has a zero in its $(n + 1)$st place and 2's occupying all $(n + k)$th places, $k > 1$. $\tau$'s have already been assigned to the initial $n$ edges by the inductive hypothesis so we need to
+
+assign $\tau$'s only to the terminal segment of $B_{c'}$ beginning with the edge $[c']_{n+1} = (\text{the first } (n+1)\text{-place of } c')$. Apply Theorem 5.1 to the (disjoint union of) 6-stage tower(s) $\tau_e$, where $e$ is the shortest base three expansion representing the same real number as $c'$. The resulting (disjoint union of) $K$'s $\subset \tau_e$ may be read six stages at a time to yield the required labels along the terminal segment of $B_{c'}$. This labeling satisfies constraints 1 and 3 by construction and establishes the inductive step.
+
+Since every edge in S is part of a branch  $B_{c}$  where c ends in all 2's after some initial segment the induction labels all of S. The associate  $\tau$ -labeled tree  $S(Q)$  is constructed.
+
+Theorem 5.3. Let $Q_{c}$ be the $\pm$ labeled trees associated with the branches $B_{c}$ of $S(Q)$, $c \in C.S. =$ Cantor set. There is a nested family of imbeddings $\{i_{c}\}$ so that if $c' < c$ and $c'$, $c \in C.S.$, we have $i_{c'}(K_{Q_c}) \subset i_{c}K_{Q_c} \subset K_{Q_{222\ldots}} = K_{Q_1} = K_Q$. (We will identify $i_{c}(K_{Q_i})$ and $K_{Q_i}$.) Also if $c'$ and $c$ have base three expansions agreeing for $n$ places, then the first $6(n + 1)$ stages of $i_{c'}K_{Q_c}$, and $i_{c}k_{Q_c}$ are identical. All imbeddings are normalized at $\partial^{-}$ by requiring that $K_{Q_c} \cap \partial K_Q = \partial^{-}K_{Q_c} \cap \partial^{-}K_Q = \partial^{-}K_Q$ for all $c \in C.S.$.
+
+Proof. In the proof of Theorem 5.2 we imbedded all  $K_{Q_{c}} = K_{c}$  where c ends in an infinite string of two's. These imbeddings are into 6-stage towers  $\tau_{e}$  and are provided by Theorem 5.1. Their geometry is controlled by the choice of  $\varepsilon$  in the proof of Theorem 5.1. It is necessary now to make a universal choice of  $\varepsilon$ . Pick  $\bar{\varepsilon} > 0$  and let the epsilon in the proof of Theorem 5.1 be  $\varepsilon = \bar{\varepsilon}/l$  when imbedding  $K_{c}$  in  $\tau_{e}$ . l is the length of the finite base three expansion e associated to c.
+
+Now in the course of imbedding $K_{c}$, $c$ infinite and ending in 2's, we have imbedded for each edge $e$ of $S$ a (disjoint union of) 6-stage tower(s) $\tau_{e}$. These may be fitted together along any branch $B_{c}, c \in \mathrm{C.S.}$, regardless of whether $c$ has an infinite expansion ending in 2's. We must verify that the closure $\overline{\bigcup \tau_{e}} \stackrel{\mathrm{def}}{=} \dot{Z}_{c}$ is in fact the Bing-Shapiro handle $K_{c}$.
+
+Let $e_1, e_2, \ldots$ be the edges of $B_c$, or as expansions, the finite initial segments of $c$. Because of our universal choice $\bar{\varepsilon}$ the diameter of the components of $\tau_{e_i}$ approaches zero as $i$ approaches infinite. Thus we may argue as in the final paragraph of the proof of Theorem 5.1 that the closure $Z_c$ is in fact homeomorphic to $K_c$.
+
+The agreement of $K_{c'}$ and $K_{c}$ for $6(n + 1)$ stages is immediate from the construction of each space as the closure of an infinite union; the first $n + 1$ layers of 6-stages towers will be identical. The one in $n + 1$ has been built in for a technical reason which will surface in §6 when we solve the problem of
+
+“threading disks”; it corresponds to the fact that there is no branching at the base point b of S. q.e.d.
+
+Let $i_c \colon K_c \to K$ denote the imbedding just constructed.
+
+Addendum to Theorem 5.3. Under the imbeddings $i_{c'}$ and $i_c$ the Frontiers of $K_{c'}$ and $K_c$ match up through $6(n + 1)$ stages and then are disjoint (where $n$ is the number of decimal places to which $c'$ and $c$ agree (both written with zero's and twos in base three)). That is, $i_{c'}(\mathrm{Fr}(K_{c'}) \cap i_c(\mathrm{Fr}(K_c)) = i_{c'}(T_{6(n + 1)}')$-interior of attaching region of kinky handles of stage $6(n + 1) + 1$. $= \partial i_c(T_{6(n + 1)}^c)$-interior of attaching region of kinky handles of stage $6(n + 1) + 1$.
+
+The proof is a matter of checking that the limit points $L_{c'}$ of $\operatorname{Fr}(K_{c'})$ do not meet $\operatorname{Fr}(K_c)$. If $c' < c$, then eventually the defining sequence $\beta_k$ for $L_{c'}$ is contained in the interior of a 6-stage tower contained in $K_c$. q.e.d.
+
+We now construct the design $\mathfrak{D}(S(Q))$, or $\mathfrak{D}_Q$. It will be a decomposition space (= quotient space) of a closed subset $A$ of the standard 2-handle $H = (D^2 \times D^2, \partial D^2 \times D^2)$. Give a collar of the boundary of each factor disk a radial coordinate zero to one. Set $D^2$-collar = $D'$ and $S_r^1$, the circle with radial coordinate = $r$.
+
+![](images/page_44_image_5.jpg)
+
+DIAGRAM 5.3
+
+For every  $c \in C.S. \subset [0,1]$  we have a branch  $B_{c}$  of  $S(Q)$  which gives a ± labeled tree  $Q_{i}$ . As explained at the beginning of this section,  $Q_{c}$  determines a defining sequence  $X_{n}^{c}$  for a decomposition of a solid torus. In our coordinates for H we let this solid torus be  $D' \times S_{c}^{1}$ . Each of  $X_{n}^{c}$  is a disjoint collection of imbedded solid tori. Suppose c and  $c'$  have expansion agreeing for n places, then for  $k \leqslant 6(n+1)$  the collections,  $X_{k}^{c'}$  and  $X_{k}^{c}$  will be isotopic (after identifying  $D' \times S_{c'}^{1}$  and  $D' \times S_{c}^{1}$  by a radial push). This is because the agreement of  $c'$  and c means  $B_{c'}$  and  $B_{c}$  shares the first n edges and that  $Q_{i'}$  and  $Q_{i}$  agree for  $6(n+1)$  stages.
+
+It will simplify notation to reindex setting  $new X_{n}^{c}=^{old}X_{6(n+1)}^{c}$ . We do this without further indication.
+
+Because of this radial coherence between $X_{n}^{c'}$ and $X_{n}^{c}$ we can construct a countable four dimensional defining sequence $\overline{X}_{n}$ consisting of a disjoint union of (solid tori $x$ internal) whose infinite intersection $\bigcap_{n=1}^{\infty} \overline{X}_{n} =$ the union of the elements of $\bigcup_{c \in \mathbb{C.S.}} \mathrm{Wh}_{Q_c}$, where $\mathrm{Wh}_{Q_c} \subset D' \times S_c^1$.
+
+Call  $[0,.1]\cup[.2,1]$  the “first complement”, and  $(.1,.2)$  the first third. Call  $[0,.01]\cup[.02.1]\cup[.2,.2]\cup[.22,1]$  the second complement, and call  $(.01,.02)\cup(.21,.22)$  the second thirds. Continue this terminology according to the usual “middle” third construction of the Cantor set. Write  $D'\times D^{2}$  as  $D'\times D'\cup D'\times S^{1}\times[0,1]$ .
+
+The set $\overline{X}_1 = X_1^0 \times [0,1] \subset D' \times S^1 \times [0,1]$, meaning the product interval over the submanifold $X_1^0 \subset D^2 \times S^1 \times 0$. Set $\overline{X}_2 = X_2^0 \times [0,.1] \cup X_2^2 \times [.2,1]$. Similarly, $\overline{X}_n$ is defined as the result of a positive radial thickening (to a thickness of $(1/3)^{n-1}$) of the $n$th stage of the defining sequence $X_n^e$, for $e$ a base 3 expansion of $n$ places of zeros and twos ($e$ may terminate in any number $k \leqslant n$ of zeros). $X_n^e$ is, of course, given by the link diagram of the $6(n+1)$-stage tower determined by any branch $B_c$ containing the edge $e \subset S$. So $X_n^e$ is determined by $S$ (up to smooth isotopy).
+
+Set $\mathcal{B} = \bigcup_{k=1}^{\infty}$ (interior $(\overline{X}_k)\cap D'\times S^1\times(k$th middle thirds)) $= \bigcup_{k=1}^{\infty}\mathcal{B}_{k}$. These are middle third boxes. Define $A = H - (\mathcal{B}\cup \operatorname {int}(D')\times$ int(D')). Set $\mathcal{D}(S(Q)) = A / \overline{\mathrm{Wh}}_S$ where $\overline{\mathrm{Wh}}_S$ is the collection of closed subsets
+
+![](images/page_45_image_4.jpg)
+
+DIAGRAM 5.4
+
+of $A$ consisting of the components of $\bigcup_{n=1}^{\infty}\overline{X}_{n}$. $\mathfrak{D}$ is given the quotient topology. $A$ and $\mathfrak{D}$ are actually pairs $(A,\partial^{-}A)$, $(\mathfrak{D},\partial^{-}\mathfrak{D})$ with $\partial^{-}A=\partial^{-}\mathfrak{D}=\partial D^{2}\times D^{2}\subset H$. Define $\mathrm{Fr}^{+}(\mathfrak{D})$ to be the image of $D^{2}\times\partial D^{2}$ under the quotient map.
+
+In the above diagram the interior of the smaller boxes represent B. The vertical spacing reflects the radial coordinate  $[0,1]$  in collar  $(D^{2})\subset$  second factor  $D^{2}$ . The horizontal diameter of the components of B in our illustration is designed to suggest the nesting  $\overline{X}_{n+1}\subset X_{n}$ . A component of B is homotopically a circle but is shown in “cross-section” as  $2^{j}$ -boxes.
+
+We will use Theorem 5.3 and its addendum to construct an imbedding
+
+$$
+\big (\mathfrak {D} (S (Q)); \partial^ {-} \mathfrak {D}, F _ {r} ^ {+} \mathfrak {D} \big) \rightarrow \big (K _ {Q} \colon \partial^ {-} K _ {Q}, \mathrm{Fr} ^ {+} K _ {Q} \big).
+$$
+
+We do this by thinking of $\mathfrak{D}$ as the Freudenthal ("end point") compactification "” of a certain infinite union $\Delta$ equal to $\mathfrak{D}$ minus the singular set
+
+$$
+\begin{array}{l} \mathfrak {D} - \overline {{\overline {{\mathrm{Wh}}}}} _ {Q}. \Delta = \left(\operatorname{collar} (\partial D ^ {2}) \times D ^ {2}\right) \cup \overline {{\left(D ^ {\prime} \times \operatorname{collar} \partial D ^ {2} - \overline {{X}} _ {1}\right)}} \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qend{array}
+$$
+
+The dotted compartments in Diagram 5.4 represent these pieces of $\Delta$. In fact $\Delta = A - \mathrm{Wh}_{\mathfrak{S}}^{*}$. $\mathfrak{D} = \hat{\Delta}$. Diagram 5.5 suggests how we will imbed $\mathfrak{D}$ in $K_{Q}$.
+
+The imbeddings $\{i_c\}$ constructed in Theorem 5.3 assigns to every edge $e \subset S$ a (disjoint union of) 6-stage tower(s) $\tau_e$ imbedded in $K_Q$. We suppress the imbedding in our notation. The space $y_k$ may be identified as the (disjoint) union of one-sided relative regular neighborhoods $\mathcal{K}(\mathrm{Fr}^+ \tau_e - \partial^- \tau_{e'})$ where $e$ is an expansion of length $k$, and $e'$ an expansion of length $(k + 1)$. Thus these 1-sided neighborhoods fit together as shown in Diagram 5.6 to give $\bigcup_{e, e' \in S} \mathcal{K}(\mathrm{Fr}^+ \tau_e \setminus \partial^- \tau_{e'}) \stackrel{\text{def}}{=} E \subset K$. $E$ is the 1-1 continuous image of $D$, $E = f^{-}(D)$, and from the construction Frontier $E =$ Frontier $y \in K_Q$.
+
+Let $\overline{S}$ be the tree which results from replacing each edge $e \subset S$ with the 6-stage $\pm$ labeled tree describing $\tau_e$. The limit point $\mathcal{S} = \mathfrak{D} - \Delta$, correspond bijectively with the ends of $\overline{S}$. Also in bijective correspondence with the ends of $\overline{S}$ are the limit points $\mathfrak{M}$ of the imbed towers $\tau_e \subset K_Q$. The composite bijection $\mathcal{L} \leftrightarrow \mathfrak{M}$ is a homeomorphism in the induce (inverse limit) topologies. Thus $f^{-}: D \to E$ extends to the desired imbedding $f: \mathfrak{D} \to K_Q$. q.e.d.
+
+![](images/page_47_image_0.jpg)
+
+6. The decomposition space $\mathrm{CH} / \{\mathrm{gaps}^{+}\}$ intermediate between CH and $\dot{H}$: a reduction of the main theorem
+
+The main theorem of this paper is:
+
+Theorem 1.1. For any Casson handle (CH, $\partial^{-}\mathrm{CH}$) is homeomorphic to the standard open 2-handle ($D^2 \times \dot{D}^2$, $\partial D^2 \times \dot{D}^2$).
+
+This section uses §5 to reduce the proof to showing that two maps  $\alpha$  and  $\beta$  are each approximable by homeomorphisms. Bob Edwards solved the problem of approximating  $\alpha$ . His proof is a virtuoso performance in classical Bing topology. It is given, with minor modifications, in §8.
+
+§7 will be devoted to background. In §9, β is approximated by homeomorphisms. This is done by an infinite replacement “swindle”.
+
+What has §5 accomplished? Let us phrase the answer in terms of an arbitrary Casson handle CH rather than its Shapiro-Bing compactification $K$. Let $\dot{A} = A - D^2 \times \partial D$ and $\dot{\mathfrak{D}} = \mathfrak{D} - \mathrm{Fr}^+ \mathfrak{D} = \dot{A} / \overline{\overline{\mathrm{Wh}}}$. The imbedding $f: \mathfrak{D} \to K$ restricts to $g: \dot{\mathfrak{D}} \to \mathrm{CH}$. Let $\dot{H}$ be the standard open handle ($D^2 \times \dot{D}^2, \partial D^2 \times \dot{D}^2$). One strategy for establishing a homeomorphism $h: \dot{H} \to \mathrm{CH}$ would be to somehow extend the composition $\dot{A} \xrightarrow{\pi} \dot{\mathfrak{D}} \xrightarrow{g} \mathrm{CH}$ to a map $h'$
+
+![](images/page_48_image_3.jpg)
+
+which could later be approximated by a homeomorphism $h$. This is not an unreasonable idea, since there is a good theory (shrinking theory of Bing topology, see §7) for solving the problem of approximation by a homeomorphism. The point inverses of $j$ are cellular in $\dot{H}$. This raises the hope that $h$ could be found with all its point inverses cellular, which is at least a prerequisite for being approximable by homeomorphisms $h$ (see Observation 7.2).
+
+The problem with this approach is that  $\mathrm{CH} - (g^{\mathfrak{D}})$  is still unexplored territory. We have no idea how to extend a map over it maintaining any geometric property (like cellular point inverses). Our solution is to crush to points closed subsets of CH which contain the unknown parts of CH.
+
+One could call {gaps} the collection of closures of the components of $\mathrm{CH} - g(\mathfrak{Q})$ and, as a first approximation, form the quotient space $\mathrm{CH}/\{\mathrm{gaps}\}$ by declaring each gap to be a point. $j$ would now induce a map of pairs $j$: $H/\{\mathrm{holes}\} \to \mathrm{CH}/\{\mathrm{gaps}\}$ where $\{\mathrm{holes}\} = \{D' \times D'\}\cup\{\mathrm{closure of components of B}\}$ (see Diagram 5.5). $\bar{j}$ is a homeomorphism over a neighborhood of $\partial^{-}\mathrm{CH}/\{\mathrm{gaps}\}$.
+
+Consider the two maps (of pairs) $a$ and $b$:
+
+![](images/page_48_image_8.jpg)
+
+Unfortunately there is no hope of showing these maps to be approximable by homeomorphisms since all but one nondegenerate (definition: not itself a point) point inverse of each map $a$ or $b$ has fundamental group isomorphic to $Z$ and in particular is not cellular. However, the simplest possible remedy leads directly to the solution. We will run certain disjoint, imbedded, topologically flat disks through $\dot{A}$ which attach to and kill the fundamental group of the holes (which are different from $D' \times D'$). Transported by $g \circ \pi$ these will (still!) be disjoint flat imbedded disks in CH attaching to the gaps and annihilating their fundamental groups. Call $\{\text{holes}^{+}\}$ the collection of components of $\{\text{holes}\} \cup \{\text{disks}\}$ and call $\{\text{gaps}^{+}\}$ the collection of components of $\{\text{gaps}\} \cup \{\text{disks}\}$.
+
+Now we divide out by these sets to get maps of pairs, which are homeomorphisms near $\partial^{-}$:
+
+$$
+\dot {H} \stackrel {\alpha} {\rightarrow} \mathrm{CH} / \left\{g a p s ^ {+} \right\} \stackrel {\beta} {\leftarrow} \mathrm{CH}.\tag{*}
+$$
+
+Heuristically, we divide CH out by “the smallest cellular sets” which contain the unexplored region  $\mathrm{CH}-g(\dot{D})$ . It is these maps  $\alpha$  and  $\beta$  which we will approximate by homeomorphisms.
+
+Description of the disks $\{d_k^j\}$. It remains to describe the disjointly imbedded disks $\{d_k^j\}$ in $\dot{A}$. Flatness of $g \circ \pi(d_k^j)$ will not be proved until §8.
+
+The boundaries  $\{\partial d_{k}^{j}\}$  lie in  $\mathrm{Fr}(\mathcal{B})$ , the frontier of the middle third boxes, and establish a bijection  $\{\partial d_{k}^{j}\}$  and  $\{components\ of\ closure\ (\mathcal{B})=\overline{\mathcal{B}}\}$ . The subscript k corresponds to the k in the definition (§5) of B; it is a “diagonal subscript” in the sense that a component  $B_{k}^{j}$  is both at depth k in the nesting  $\overline{X}_{k}\subset\overline{X}_{k-1}\subset\cdots\subset\mathring{X}_{1}\subset D^{\prime}\times D^{2}$  and in the [0,1] coordinates at a “kth middle third”. The index j simply keeps track of ramification. Thus  $B_{k}^{j}$  are the components of  $B_{k}$ .
+
+It is useful to introduce what could be called the “upper diagonal boxes”  $\overline{B}_{k-1,k}^{j}$  which are the components of  $\overline{X}_{k-1} \cap D' \times S^{1} \times (\text{closed kth middle thirds})$ . The range of j depends on the value k-1. Set  $\overline{B}_{k-1,k} = \bigcup_{j} B_{k-1,k}^{j}$ .
+
+Each $B_{k}^{j}$ and each $B_{k-1,k}^{j'}$ is homeomorphic to $S^{1} \times D^{3}$ and each $B_{k}^{j}$ and $\overline{B_{k-1,k}^{j'}}$ meets exactly one diatic level of the form
+
+$$
+D ^ {\prime} \times \partial D ^ {2} \times \frac {\mathrm{odd}}{2 ^ {k}} \subset D ^ {\prime} \times \text { collar } \partial D ^ {2}.
+$$
+
+The intersections with that level are the solid tori. Call them $b_k^j$ and $b_{k-1,k}^j$ (resp.). These solid tori are simply equal to the intersections of $X_k$ and $X_{k-1}$ respectively with the particular diatic level $D' \times \partial D^2 \times \frac{\text{odd}}{2^k}$. Thus if we vary $j$ to realize all $b_k^j \subset b_{k-1,k}^{j'}$ imbedded for a fixed $j'$ we see that $\cup_{j \subset j'} b_k^j \subset S_{k-1,k}^{j'}$
+
+is at regular neighborhood of some highly ramified-iterated Whitehead link in the solid torus. Each inclusion  $b_{k}^{j} \subset b_{k-1,k}^{j'}$  is null homotopic so there is a collection of immersed disks  $\Delta_{k}^{j}$  with  $\partial\Delta_{k}^{j} = c_{k}^{j}$ , the core circle of  $b_{k}^{j}$ . A standard argument in 3-manifold topology moves these disks by regular homotopy (relative to their boundedness) so that all double points (intersections and self intersections) are simply clasps:
+
+![](images/page_50_image_1.jpg)
+
+(Argument: (1) Pipe off boundary to turn all double circles into double arcs, (2) pipe triple points off double arcs.) Note that in our situation, ramified Whitehead links in $S^1 \times D^2$ and most obvious choices for $\Delta_k^j$ are of this form already.
+
+We may assume that each $\Delta_k^j\cap (\bigcup_{j\subset j'}b_k^j)$ consists of a collar $c_k^j$ on $\partial \Delta_k^j$ and various closed subdisks $\omega_{k}^{ij}\subset \Delta_{k}^{j}$. Let $\delta_k^j = \overline{\Delta_k^j - ic_k^j}$. $\{\delta_k^j\}$ will be adjusted by a function $\theta$ taking values in the [0,1] coordinate of $D^{\prime}\times \partial D^{2}\times [0,1]$. $\theta = \Pi_{j,k}\theta_{k}^{j}$, $\theta_{k}^{j}\colon (\delta_{k}^{j},\partial \delta_{k}^{j})\to ([0,1],0)$. We define $d_k^j = \delta_k^j +\theta_k^j (\delta_k^j)$ with addition interpreted as translation in the radial [0,1] coordinate.
+
+Before defining $\theta_{k}^{j}$ we list the properties that the dependent $d_{k}^{j}$ must satisfy:
+
+(1) Each $d_k^j$ is imbedded in $(\dot{A} - \bigcup_{l=k}^{\infty} \mathfrak{B}_{l,l+1}) = \dot{A} - J_k \subset \dot{H}$.
+
+(2) Distinct disks do not intersect, $d_k^j \cap d_{k'}^{j'} = \varnothing$ unless $k = k'$ and $j = k'$.
+
+(3) No disk $d_k^j$ intersects any component $\omega$ of Wh in more than one point.
+
+(4) No component $\omega$ of $\overline{\mathbf{Wh}}$ intersects more than one disk of the collection $\{d_{k'}^j; k' \leqslant k, j \text{ arbitrary}\}$.
+
+In the first condition the requirement that $d_k^j \cap J_k = \varnothing$ is not logically necessary but is a simple way to make sure we leave some room $nbd(\overline{B}_{k,k+1})$ for the disks $\{d_{k+1}^j\}$ after we have inserted the disks $\{d_k^j\}$.
+
+We construct $\theta$ by induction. To be precise the base for the induction is $k = -1$ with $\{d_{-1}^{j}\} = \varnothing$. As induction hypothesis assume that all $\theta_{k}^{j'}$ have been defined so that $\{d_{k}^{j'}\}$ satisfy (1)-(4). $\theta_{k+1}^{j}$ will be defined as the limit of a certain uniformly convergent sequence $\{i\theta_{k+1}^{j}, i = 0,1,2,\ldots\}$ all of which are zero on the boundary $\partial \delta_{k+1}^{i}$.
+
+Fix a particular $j, k + 1$ is already fixed. By (1) there is a real number $r > 0$ so that the previously constructed disks $\{d_k^j\}$ do not come within distance $r$ of $\overline{\mathcal{B}}_{k,k+1}$. Let $\overline{\mathcal{B}}_{k,k+1} = \overline{X}_n \cap (D' \times S^1 \times (\{\text{points distance} \leqslant r \text{ from closed } (k + 1)\text{st middle thirds}\})$, that is, $\overline{\mathcal{B}}_{k,k+1}$ is a slight radial thickening of $\overline{\mathcal{B}}_{k,k+1}$.
+
+Consider the inverse image pattern on $\Pi\delta = \Pi_j \delta_{k+1}^j$.
+
+arcs = preimages of double curves of  $\Pi\delta$ 
+hatched region = preimage of  $\Pi_{j}b_{k}^{j}$
+
+![](images/page_51_image_1.jpg)
+
+## DIAGRAM 6.1
+
+Although the above picture is simplest, it is locally the general case; our earlier preparation removed circle preimages and triple points. The function $\Pi_{j0}\theta_{k+1}^{j}=_{0}\theta_{k+1}$ must be chosen so that: (a) On oriented arcs $\gamma$, $\gamma'$, paired under the immersion, $_{0}\theta_{k+1}$ is increasing on one and decreasing on the other. (b) On hatched disks $_{0}\theta_{k+1}$ assumes one of 2 values, $\pm\frac{1}{2}((\frac{1}{3})^{k+1}+r')$ where $0<r'<\min(r,(\frac{1}{3})^{k+1})$ is some fixed element of C.S$^{-}$. C.S.$^{-}$ is the Cantor set with end points deleted (= complement of closed middle thirds). (c) Range $_{0}\theta_{k+1}\subset[-r,r]$.
+
+Set $_0 d_{k+1} = \delta_{k+1} + _0 \theta_{k+1}(\delta)$. The $_0 d_{k+1}$'s are (by (a)) imbedded and (by (c)) disjoint from the previously imbedded disks. Condition (b) implies that each $_0 d_{k+1} \subset \dot{\Lambda}$ and that $_0 d_{k+1} \cap J_{k+1} = \varnothing$. For the second assertion note that the projection in the collar $D' \times \partial D^2 \times [0, 1] \xrightarrow{\pi} D' \times \partial D^2 \times \frac{\text{odd}}{2^{k+1}}$ carries $L \stackrel{\text{def}}{=} (\overline{X}_{k+1} \cap D' \times \partial D^2 \times [\frac{\text{odd} - 1}{2^{k+1}}, \frac{\text{odd} + 1}{2^{k+1}}])$ onto $\Pi_j b_{k+1}^j$. To miss $\overline{\mathcal{B}}_{l,l+1}, l \geqslant k + 1$ it is only necessary to make sure that $_0 \theta_{k+1}$ lifts to C.S. level, the intersection $\delta \cap \pi(\overline{\mathcal{B}}_{l,l+1}) \subset \delta \cap \pi L = \text{preimage } \Pi_j b_{k+1}^j$ (see Diagram 6.1). Unfortunately $\Pi_0 d_{k+1}^j$ does not satisfy conditions (3) and (4).
+
+Make the sub-induction hypothesis that the  $\theta$ 's have been defined so that (I)  $\{\Pi_{j\quad q}\theta_{k+1}^{j}\}$  are disjoint imbeddings onto  $\overline{B}_{k,k+1}\cap(\dot{A}-J_{k+1})$ , and (II) intersections of  $\Pi_{j\quad q}d_{k+1}^{j}$  with  $\overline{X}_{q+k+1}$  are all horizontal (meaning constant in the radial [0, 1] coordinates of  $D'\times\partial D^{2}\times[0,1]$ ) with each component assuming a distinct radial coordinate value:  $v_{k+1}^{1},\cdots,v_{k+1}^{n}\in C.S.^{-}$
+
+We construct $_{q+1}\theta_{k+1}$ with the corresponding properties. (Below we omit the subscript $k+1$ on $\theta$.) Let $0 < \varepsilon_{k+1} \leqslant \min\{\frac{1}{3} \min\{|v_{k+1}^i - v_{k+1}^j|, i, j \in \{1, \ldots, n_{k+1}\} \text{ with } i \neq j\}, \varepsilon_k/2\}$. Now change $_q\theta$ only over $_q\theta^{-1}(X_{q+k+1})$ to make $_{q+1}\theta_{k+1}$ assume distinct constant values $\in \mathrm{C.S.}^-$ on the components of $_q\theta^{-1}(X_{q+k+2})$. Do this so that sup. dist. $(_q\theta, \theta_{q+1}) \leqslant \varepsilon_{k+1}$. Finding the nearby new values is possible since the Cantor set is a perfect set. Also there is no difficulty preserving property (I). The set $_{q+1}\theta^{-1}(J_{k+1})$ is contained in
+
+$(_{q}\theta^{-1}(X_{q + k + 1}) - _{q}\theta^{-1}(X_{q + k + 2}))$. Since $\mathrm{dist}_{(q}\theta (S),J_{k + 1}) > 0$ the $\varepsilon_{k + 1}$ above can be chosen so that ${}_{q + 1}\theta^{-1}(J_{k + 1}) = \emptyset$ ($\varepsilon$ most also be constrained so that $d\subset \overline{B}_{k,k + 1}$.)
+
+Thus by our sub-induction for any  $q \geqslant 0$ ,  $\{\theta_{k+1}^{j}\}$  are obtained satisfying (I) and (II). Since these sequences are uniformly convergent, let  $\{\theta_{k+1}^{j}\}$  be the set of limiting functions. These functions satisfy (I). The disk limiting  $\{d_{k+1}^{j}\}$  are graph over flat disks and thus flat, although they are not smooth being the graphs of “Cantor functions”  $\{\theta_{k+1}^{j}\}$ .
+
+Now return to the main induction. $\{d_{k+1}^{j}\}$ have been segregated into $\overline{B}_{k+1,k+2}$ and will satisfy (1) and (2). Because of this segregation (4) could only fail if two disks $d_{k+1}^{j}$ and $l_{k+1}^{j'}$ meet the same $\omega \in \overline{\mathbf{Wh}}$. This possibility and any possible violation of (3) are ruled out simultaneously by showing that $\Pi_j \theta_{k+1}^j = \theta_{k+1}$ becomes an injection $\theta_{k+1}|_{\Gamma} \colon \Gamma \to [0, 1]$ when restricted to $\Gamma$, the set of limit points for our construction $\subset \Pi_j \delta_{k+1}^j = \delta$ is defined to be the set of points $p$, such that $\{q \theta_{k+1}^j(p), q = 0, 1, 2, \ldots\}$ is infinite. This will suffice since any point carried by $\delta + \theta(\delta)$ into $\overline{\mathbf{Wh}}^*$ must be, by construction, a limit point.
+
+The elements of $\gamma$ are indexed by the (infinite) branches $\gamma$ of the based finitely branching tree $S$. $\theta_{k+1}(\gamma) = \Sigma v$ where the values in the sum $v$ depend on the branch $\gamma$. Assume $\gamma \neq \gamma'$ once the branches separate the corresponding terms of the sum differ by an amount $\geqslant 3\varepsilon$, let us say, but the construction in the sub-induction the latter terms differ by no more than $\varepsilon$, $\varepsilon/2$, $\varepsilon/4$, $\varepsilon/8,\ldots$ and thus the sums $\theta_{k+1}(\gamma)$ and $\theta_{k+1}(\gamma')$ are not equal.
+
+This completes the main induction. We can now set  $\theta = \Pi_{k} \theta_{k}$  and  $d = \Pi_{k,j} \delta_{k}^{j} + \theta_{k} (\delta_{k}^{j})$ . This is the desired family of disjointly imbedded disks annihilating the fundamental groups of the holes.
+
+Define $\{\text{holes}^{+}\}$ as the set of components of $\{\text{holes}\} \cup \{d_{k}^{j}\}$ and $\{\text{gaps}^{+}\}$ as the set of components of $\{\text{gaps}\} \cup \{i \circ \pi(d_{k}^{j})\}$, where $\pi$ is the projection, and $i$ the imbedding
+
+$$
+\dot {\Lambda} \stackrel {\pi} {\rightarrow} \dot {\Lambda} / \overline {{\overline {{\mathbf {W h}}}}} = \dot {\mathfrak {D}} \stackrel {i} {\rightarrow} \mathbf {C H}.
+$$
+
+Conditions (3) and (4) of the main induction show that $i \circ \pi | \Pi_{k,j} d_k^j$ is one-to-one. So $i \circ \pi(d_k^j)$ is also a collection of disjointly imbedded disk.
+
+Two sketches may help in understanding where the disks  $d_{k}^{j}$  we have constructed are actually located. Diagram 6.2 shows the position of  $\delta_{k+1}$  inside a  $b_{k}$  (except that we could not draw a 6-fold (untwisted) double and so settle for a 2-fold (untwisted) double).
+
+![](images/page_53_image_0.jpg)
+
+DIAGRAM 6.2
+
+Diagram 6.3 reproduces the schematic and description of the (open) holes $B = \cup B_k$ given in Diagram 5.4 and adds to it a representation of the disks $d_k^j$ having been threaded around to avoid not only “diagonal” the $B_k$'s but also the “upper diagonal” $B_{k-1,k}$'s. In the diagram the vertical direction (upward in top third, downward in bottom third) is the radial coordinate [0, 1] of $D^2 \times S^1 \times [0, 1]$. The horizontal direction is used to represent depth in nest $X_{k+1} \subset X_k \subset \cdots \subset X_0 \subset D^2 \times S^1 \times r$ (at any radial value = r). Thus horizontal intervals at level $\pm r$ represent a solid torus (or disjoint union of solid tori) and an inclusion of intervals represents the three-dimensional situation of one (or several) solid torus imbedded according to a highly iterated (and ramified) Whitehead link in another (as shown in Diagram 6.2).
+
+![](images/page_54_image_0.jpg)
+
+Diagram 6.3
+
+The lines drawn and labeled  $d_{k}^{j}$  can actually be interpreted literally. They are the graphs (with radial [0, 1] the absica) of  $\theta_{k}^{j}$  restricted to a middle line in  $\delta_{k}^{j}$  which contains the singular points  $\delta_{k}^{j} \cap \Gamma$ .
+
+We now show how the proof of the main theorem (Theorem 1.1) can be put together from three theorems to be proved in §§7, 8 and 9. The statements abbreviated slightly are reproduced here.
+
+Definition. $^{10}$  A map  $\pi: A \to B$  between compact metric spaces is said to be approximable by homeomorphisms, ABH, if and only if for every  $\varepsilon > 0$  there is a homeomorphism  $h: A \to B$  with  $\text{dist}(\pi, h) < \varepsilon$ . (The notion of distance is, of course,  $\text{dist}(\pi, h) = \sup_{a \in A} \text{dist}_B(\pi(a), h(a))$ .)
+
+Corollary 7.1 (consequence $^{11}$ of Edwards-Kirby [20]). Suppose $\pi: M \to N$ is a continuous map between closed topological $^{12}$ manifolds (of any dimension). Suppose that $\pi$ is ABH. Finally suppose that $C \subset N$ is a closed set and $\pi|_{\pi^{-1}(C)}: \pi^{-1}(C) \to C$ is already a homeomorphism. Then there is a homeomorphism $h: M \to N$ which agrees with $\pi$ on $\pi^{-1}(C)$. (Also h may be chosen to approximate $\pi; \forall \varepsilon > 0 \exists h$, as above, with $\text{dist}(\pi, h) < \infty$.)
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§7.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{10}$  This definition is extended to a noncompact setting in §7.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§7</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{11}$  Bob Edwards observed Theorem 7.3 of which the above is a corollary shortly after [20] was written. It quickly entered the folklore but never was published.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{12}$  See §7 for precise definitions and conversions regarding metrics.</span></small>
+
+Theorem 8.3. For any Casson handle CH there is a homeomorphism of pairs $\mathrm{CH} / \{\mathrm{gaps}^{+}\} \cong_{\mathrm{Top}} \dot{H}$.
+
+Theorem 9.1'. $^{13}$  Let  $f: S^{n} \to S^{n}$  be a continuous map between spheres. Suppose that f is countable null (meaning:  $\forall \varepsilon > 0$  there are only finitely many sets  $(f^{-1}(point))$  having diameter  $\geqslant \varepsilon)$  and that the singular set  $S(f) = \{x \in S^{n} \text{ such that } f^{-1}(x) \text{ consists of more than one point}\}$  is nowhere dense in  $S^{n}$ . Then f is ABH.
+
+From these we prove
+
+Theorem 1.1. For any Casson handle CH there is a homeomorphism of pairs $\dot{H} \cong_{\mathrm{Top}} \mathrm{CH}$.
+
+Proof. The design $\dot{\mathfrak{D}}$ which we impose on CH (see §5) has a product collar $\partial D^2 \times \dot{D}^2 \times [0, \in]$ on its attaching region $\partial^{-}\dot{\mathfrak{D}} = \partial D^2 \times \dot{D}^2$. The imbedding $i: \dot{\mathfrak{D}} \to \mathrm{CH}$ shows that $\partial^{-}\mathrm{CH}$ also has a closed product collar $W = \partial D^2 \times \dot{D}^2 \times [0, \varepsilon]$, with $\partial D^2 \times D^2 \times 0 = \partial^{-}\mathrm{CH}$, which is disjoint from $\cup$ gaps$^+$.
+
+By Theorem 2.1, $\mathrm{CH} \setminus \partial^{-}\mathrm{CH}$ is homeomorphic (actually diffeomorphic) to $R^4$. By Theorem 8.3, $\mathrm{CH} / \{\mathrm{gaps}^{+}\} \setminus \partial^{-}(\mathrm{CH} / \{\mathrm{gaps}^{+}\})$ is also homeomorphic to $R^4$. Consider the proper map of pairs $\beta: \mathrm{CH} \to \mathrm{CH} / \{\mathrm{gaps}^{+}\}$. Compose with the homeomorphism given by Theorem 8.3 to obtain a map of pairs $\overline{\beta}: \mathrm{CH} \to \dot{H}$. Since $W \cap \{\mathrm{gaps}^{+}\} = \varnothing, \beta | W$ is a homeomorphism and $\overline{\beta}^{-1}\overline{\beta}(W) = W$.
+
+Delete the attaching regions and the forming the 1-point compactifications (denoted by $\cup \infty$) of both domain and range. From $\overline{\beta}$ we obtain a map $f\colon S^4\to S^4$ between the 1-point compactifications of spaces homeomorphic to $R^4$.
+
+We verify that $f$ satisfies the hypotheses of Theorem 9.1 As a result of the geometric control of §5 only finitely many gaps have diameter larger than any fixed $\varepsilon > 0$. We constructed the disks $d_k^j$ for a given gap within the upper diagonal blocks $\overline{B}_{k-1,k}^j$ whose diameter also tends to zero. Thus the diameter of the disks in $\mathrm{CH}\{i \circ \pi(d_k^j)\}$ also tends to zero. Thus $\{\text{gaps}^+\}$ is countable-null.
+
+Next observe that the singular set of $\alpha$ contains the singular set of $\beta$, $S(\alpha) \supset S(\beta)$. (The difference is that $\beta(S(\dot{A} \to \dot{\mathfrak{D}}))$ (See §5.)
+
+Definition.  $D^{*}(f) = \text{union of all point inverses consisting of more than one point.}$
+
+To check that $S(\alpha)$ is nowhere dense we show that if $p$ is a limit point, $p \in \overline{D^{*}(\alpha)} - D^{*}(\alpha)$, then there are points $q$ in $\dot{H} - \overline{D^{*}(\alpha)}$ arbitrarily close to $p$. By the construction of the disk $\{d_k^j\}$, each hole$^+ = \overline{\mathfrak{B}}_k^j \cup d_k^j$ is contained in the
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$C\subset S^n$</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{13}$  A relative version can be proved where f is supposed to already be a homeomorphism over a closed set  $C \subset S^{n}$ , this would eliminate the need for Corollary 7 or its parent theorem. Theorem 9.1 (see §9) has a slightly more general statement.</span></small>
+
+upper diagonal box $\overline{\mathcal{B}}_{k-1,k}^{j}$. Any limit point $p$ will be approached by a sequence of upper diagonal boxes with $k$ approaching infinity. Thus $p \in \overline{\mathrm{Wh}}^*$, the intersection of the defining sequence $\{X_k\}$ of which the $\overline{\mathcal{B}}_{k-1,k}^{j}$ are subsets. Since $p \notin D^{*}(\alpha)$, $p$ will have radial coordinates C.S.$^{-} \subset [0,1]$, the Cantor set minus end points. On the level $r$ only a 1-dimensional set, defined by a nested intersection of (finite disjoint unions of) solid tori $\{X_k \cap r\text{-level}\}$ lies in $\overline{D''(\alpha)}$. Thus $p$ may be approached by points $q \in (r\text{-level} \setminus \overline{D^{*}(\alpha)})$.
+
+Apply Theorem 9.1 to conclude $f$ is $ABH$. Let $\hat{C}$ denote the image under 1-point compactification of the half open collar $C^{-} = D^{2} \times R \times (0, \varepsilon] \subset \mathrm{CH} - \partial^{-}\mathrm{CH}$. Our observation that $f$ is a homeomorphism over $f(W)$ now implies that $f_{|\hat{C}}$ is a homeomorphism onto its image (and that $f^{-1}(f(\hat{C})) = \hat{C}$). Thus setting $f(\hat{C}) = C$ we can apply Corollary 7.1 to find a homeomorphism $h: S^4 \to S^4$ with $h_{|\hat{C}} = f_{|\hat{C}}$. In particular $h(\infty) = \infty$.
+
+Now remove the compactification point $\infty$ from source and target 4-spheres. This yields $h|: \mathrm{CH} \setminus \partial^{-}\mathrm{CH} \to \dot{H} \setminus \partial^{-}\dot{H}$ which agrees with $f$ on a neighborhood of the deleted attaching region $h|_{C^{-}} = f|_{C^{-}}$ (and $f^{-1} \circ f(C^{-}) = C^{-}$). The two homeomorphisms $f|_{C}$ and $h|_{(\mathrm{CH},\partial^{-}\mathrm{CH})}$ may be spliced together over $C^{-}$ to yield the required homeomorphism of pairs $\bar{\bar{h}} = f|_{W} \cup h|_{S^{4-}\{\infty\}}: (\mathrm{CH}, \partial^{-}\mathrm{CH}) \to (\dot{H}, \partial^{-}\dot{H})$.
+
+## 7. A short course in Bing topology
+
+## (from the teachings of Robert Edwards)
+
+We consider epimorphisms between spaces which are locally compact and metric. One theorem relies, ultimately, on the torus trick and it will be stated for (metrizable) manifolds. Manifolds here are assumed to be finite dimensional, separable, and metric. A proper map will mean a map under which the inverse image of compact sets is compact. The chief question will be: When is a proper surjection $f \colon X \to Y$ approximable by homeomorphisms (ABH)?
+
+Definition (1). A proper surjection $f \colon X \to Y$ is ABH iff for any majorant function $\varepsilon \colon X \to (0, \infty)$ there exists a homeomorphism $h \colon X \to Y$ with $\mathrm{dist}_Y(h(x), f(x)) < \varepsilon(x)$ for all $x \in X$.
+
+Definition (2). A proper surjection $f \colon X \to Y$ is ABH iff for any majorant function $\varepsilon' \colon Y \to (0, \infty)$ there exist a homeomorphism $h \colon X \to Y$ with $\text{dist}_Y(h(x), f(x)) < \varepsilon' \circ f(x)$ for all $x \in X$.
+
+For X and Y locally compact metric spaces the two definitions are equivalent: setting  $\varepsilon = \varepsilon' \circ f$  shows  $(1) \Rightarrow 2$ . To show  $(2) \Rightarrow 1$  one must construct a continuous  $\varepsilon'$  satisfying  $\varepsilon'(y) \leqslant \inf(\varepsilon(f^{-1}(y)))$ . This is done using paracompactness: see Lemma 3.1 of [47].
+
+Note. For $X, Y$ compact it is sufficient to consider $\varepsilon$ and $\varepsilon'$ constant
+
+Associated to a proper surjection, $f \colon X \to Y$ is a decomposition $D(f) = \{f^{-1}(y), y \in Y\} \subset \{\text{closed sets of } X\}$. In general a decomposition $D$ is nothing more than a collection of disjoint closed subsets which cover $X$, and to it is associated the quotient map $\pi \colon X \to X / D$ where the elements of $D$ are declared to be points in $X / D$ and the target is given the weak topology. The elements of $D$ which are not singletons are called nondegenerate and form the sub-collection $\overline{D}$. $\overline{D}$ actually has a topology induced from inclusion in $X / D$. An open set $U$ is saturated if it is the union of elements of $D$.
+
+Various properties of  $\pi$  and X/D correspond to conditions on D. Consider the following table for X locally compact and metric.
+
+<table><tr><td colspan="3">TABLE</td></tr><tr><td></td><td> $\pi$  is proper  $\Rightarrow$ </td><td>Elements of  $D$  are compact</td></tr><tr><td> $X/D$  is Hausdorff  $\Leftarrow$ </td><td> $\pi$  is closed  $\Leftrightarrow$ </td><td> $D$  is “upper semi-continuous,”i.e., every element of  $D$  has asaturated neighborhood system.</td></tr><tr><td colspan="2"> $X/D$  is metrizable  $\Leftarrow$ See [39]</td><td> $D$  upper semi-continuous and  $\overline{D}$  is countable</td></tr></table>
+
+Niceness of Y = X/D depends on the structure of D. All decompositions which we consider will have locally compact, metric spaces as quotients; in particular D will be upper semi-continuous. The projection map  $\pi$  will always be proper.
+
+Warning. Even nice quotients X/D do not generally have any “canonical” metric induced by X but are metrized from scratch using the familiar theorems; see [39].
+
+The main question asked of a decomposition D of X is: Is D shrinkable? We will define shrinking in terms of presumed metrics on X and X/D (both written d).
+
+Definition. $D$ is shrinkable if given any majorant function $\varepsilon: X \to (0, \infty)$, there exists a self homeomorphism $k: X \to X$ such that for all $\Delta \in D$ we have: (1) diam $k(\Delta) < \min_{x \in \Delta} \{\varepsilon(x)\}$ and (2) $d(\pi(x), \pi \circ k(x)) < \varepsilon(x)$.
+
+Bing discovered and exploited the following beautiful connection between approximation and shrinking.
+
+Theorem 7.1 (Bing shrinking criterion (BSC)). A proper surjection between locally compact metric spaces $f \colon X \to Y$ is ABH iff $D(f)$ is shrinkable.
+
+Proof. To establish the forward implication, shrinking homeomorphisms k can be constructed as  $k = h^{-1} \circ h'$  where h is a closely, and  $h'$  a still more closely approximating homeomorphism to f.
+
+For the reverse implication we must pick a majorant  $\varepsilon\colon X\to(0,\infty)$  and show that there is an homeomorphism  $h\colon X\to Y\varepsilon$ -close (definition (1)) to f. Consider the space C of maps from X to Y with the metric
+
+$$
+\operatorname{dist} _ {C} (p, q) = \min \left(1, \sup \left(\frac {\operatorname{dist} _ {Y} (p (x) , q (x))}{\varepsilon (x)}\right)\right).
+$$
+
+C is complete with respect to this metric and hence a Baire space. Let E be the closure in C of  $\{f \circ h \mid h: X \to X$  is a homeomorphism}. E is closed so it is also a Baire space. Let  $E_{i} = \{g \in E \text{ such that } \text{diam}(g^{-1}(y)) < \min_{x \in g^{-1}(y)} \{(1/i) \in (x)\}\}$ . One checks that  $D(f)$  shrinkable implies  $E_{i}$  is dense in E, it is clearly open in E. The residual set  $\bigcap_{i=1}^{\infty} E_{i}$  consists of homeomorphism and has f as a limit point. Thus f is  $\varepsilon$  (in fact  $\varepsilon/i$  for any i) approximated by homeomorphisms. Since  $\varepsilon$  was an arbitrary majorant f is ABH.
+
+The following observation clarifies the relationship between choice of metric  $d: X \times X \to [0, \infty)$  and majorant  $\varepsilon: X \to (0, \infty)$ .
+
+Observation 7.1. Suppose $d_1$ and $d_2$ are metrics on a locally compact $X$. Let $\varepsilon \colon X \to (0, \infty)$ be an arbitrary majorant. Then there exists a (smaller) majorant $\delta \colon X \to (0, \infty)$ so that for any compact $K \subset X$, $\mathrm{diam}_{d_2}(K) < \min_{x \in K} \{\delta(x)\}$ implies $\mathrm{diam}_{d_1}(K) < \min_{x \in K} \{\varepsilon(x)\}$.
+
+The proof depends on the fact that for any metric on X the majorants determine a neighborhood system for the diagonal  $\Delta \subset X \times X$ . Choose  $\delta$  so that the  $(d_{2}, \delta)$ -neighborhood  $N'$  of  $\Delta$  is within the  $(d_{1}, \varepsilon)$ -neighborhood N; then any set K whose square  $K \times K$  lies in  $N'$  also lies in N. One immediate consequence is that our notions of ABH do not actually depend on the choice of metric.
+
+In the case where X is a manifold, the notion of cellularity enters as a necessary condition to shrinking.
+
+Definition. A subset $A \subset M^{n}$ of a manifold is cellular if it is the intersection $\bigcap_{i=1}^{\infty} B_{i}$ where $B_{i+1} \subset$ interior $B_{i}$, and each $B_{i}$ is an imbedded $n$-ball.
+
+Observation 7.2. If $f \colon M \to N$ is a proper surjection of manifolds and $f$ is ABH, then for each $n \in N$, $f^{-1}(n)$ is a cellular subset of $M$.
+
+Proof. Let  $f_{i}\colon M\to N$  be homeomorphisms for  $i=1,2,3,\cdots$  inductively defined to satisfy: (1) dist.  $(f_{1}f_{i})\leqslant\delta_{i},\quad(2)\;f^{-1}(\mathrm{Ball}_{3\delta_{i+1}}(n))\subset\operatorname{int}(f_{i}^{-1}\mathrm{Ball}_{2\delta_{i}}(n))$ , and (3) the  $\delta_{i}$  approach zero. Let  $B_{i}=f_{i}^{-1}(\mathrm{Ball}_{2\delta_{i}}(n))$ . Then  $B_{i}\subset\operatorname{int}B_{i+1}$  and  $\bigcap_{i=1}^{\infty}B_{i}=f^{-1}(n)$ . q.e.d.
+
+However the converse is not true. There is an example of Bing's (drawn below) of a decomposition D of  $S^{1} \times D^{2}$  with only countable many nondegenerate elements all of which are cellular, yet D is not shrinkable.
+
+Definition. A decomposition of a compact metric space is countable-null iff for every  $\varepsilon > 0$  there exists a only finitely many elements of D with diameter larger than  $\varepsilon$ .
+
+The example is in fact countable-null.
+
+Consider the imbedding $S^1 \times D^2 \amalg S^1 \times D^2 \subset S^1 \times D^2, i = i_0 \amalg i_2$.
+
+![](images/page_59_image_4.jpg)
+
+DIAGRAM 7.1
+
+In both subsolid tori repeat the imbedding.
+
+In each of the resulting four solid tori again repeat the imbedding. If continued indefinitely, the components of the nested intersection are indexed by the dyadic-Cantor set of base 3 decimals between 0 and 1 with only 0's and 2's in their expansions. The nondegenerate elements will be those with only finitely many zeros (making the correspondence with the subscripts of $i_0$ and $i_2$). Suppose the quotient were homeomorphic to $S^1 \times D^2$. Using countability of $\overline{D}$, for some distinct $\theta$ and $\theta' \in S^1$ we obtain disjoint imbedded disks $A$, $B = \pi^{-1}(\theta \times D^2)$, $\pi^{-1}(\theta' \times D^2)$. An argument in the 2-fold cover shows that one of the two sub-solid-tori $i_0(S^1 \times D^2)$ or $i_2(S^1 \times D^2)$ (say $i_2(S^1 \times D^2)$ must meet both $A$ and $B$ in essential disks $A^1 \subset A$ and $B^1 \subset B$. By the same token another 2-fold covering argument shows that one of the sub-sub-solid-tori $i_{20}(S^1 \times D^2)$ or $i_{22}(S^1 \times D^2)$ must meet both $A^1$ and $B^1$ in essential disks $A'' \subset A'$ and $B'' \subset B'$. Continuing this argument to the limit we see that some element of $\overline{D}$ will meet both $A$ and $B$ contradicting our assumption. q.e.d.
+
+We will present one quite general situation, however, which is shrinkable. The theorem slightly generalizes arguments of Bing's [6] and Bean [4]. It was told to the author in this form by Bob Edwards. It will be used twice in §8.
+
+Theorem 7.2. A countable-null “star-like”-equivalent decompositions D of a locally compact metric space X is shrinkable. (Equivalently the projection  $\pi: X \to X/D$  is ABH.)
+
+Remark. We put “star-like” in quotation marks since we use a notion slightly more general than is usually associated with that term. Replacing the metric space Z by  $S^{n}$  in the definition below would recover the usual notion (see [6]).
+
+Definitions. Let Z be a compact metric space. Let  $C(Z) = Z \times [0, \infty)/Z \times 0$  be the open cone on Z. A subset of  $C(Z)$  is “star-like” iff it has a polar coordinate representation  $S = \{(z, t) \mid z \in Z \text{ and } 0 \leqslant t \leqslant q(z)\}$  for some upper-semi-continuous function  $q: Z \to [0, \infty)$  (q can jump down but not up). A subset  $T \subset X$  is called “star-like”-equivalent if T has a neighborhood  $\mathcal{N}(T) \subset X$  and there is a topological homeomorphism  $k: \mathcal{N}(T) \subset C(Z)$  such that  $k(T) = S$  a “star-like” set. We will call  $k^{-1}(Z, 0) = \alpha$  the cone point. A decomposition D of metric space X is countable-null iff given any majorant  $\varepsilon: X \to (0, \infty)$  the elements  $K \in D$  with  $\text{diam}(K) > \min_{x \in K} \varepsilon(K)$  is a discrete subspace of  $D \subset X/D$ . Notice that Observation 7.1 implies that this notion does not depend on the metric. The term null expresses the fact that if elements  $K_i$  approach an element K, then  $\text{diam}(K_i)$  approach zero. Finally, an upper-semi-continuous decomposition D of a metric space is countable-null, “star-like” equivalent iff it is countable-null and each nondegenerate element of D is a “star-like”-equivalent subset of X (Z, in the definition of “star-like” may vary).
+
+Proof. According to our table X/D = Y is metrizable so approximating by homeomorphisms, as we have described it here, makes sense.
+
+The strategy of the proof is to use the Bing Shrinking Criterion (Theorem 7.1). Since only a discrete collection of $T$'s $\in D$ has diameter greater than $\varepsilon$ (that is, if $\Delta$ is the metric on $X$, then $\mathrm{diam}_{\Delta}(T) > \min_{x \in T} \varepsilon(T)$) for any majorant $\varepsilon$. We can consider these large $T$'s one at a time.
+
+Lemma 7.1. For any $T \in D$, any constant $\varepsilon > 0$, and any neighborhood $U$ of $T$, there exist a smaller neighborhood $\mathfrak{N}$ of $T$ and a homeomorphism $h: X \to X$ with support in $\mathfrak{N}$ which satisfies: (1) diam $h(T) < \varepsilon$ and (2) if $T' \in D$ and $T'$ meets support $(h)$, then diam $h(T') < \varepsilon$.
+
+By applying this lemma (with $\varepsilon$ varying) in disjoint neighborhoods of the large $T$'s is possible to construct (by an infinite composition which at any point is the identity except for at most one function) a homeomorphism $\bar{h}$$\varepsilon$-close to $\pi$ for any preassigned majorant $\varepsilon$ and with $\pi \circ \bar{h}$ arbitrarily close to $\pi$. The theorem then follows from the BSC. q.e.d.
+
+Actually any decomposition which is countable-null and whose elements satisfy Lemma 7.1 is shrinkable. For completeness we give a proof of Lemma 7.1 for T a “star-like”-equivalent element.
+
+Without loss of generality we take to be  $\mathfrak{N}(T)=\mathfrak{N}$  compact, and assume  $k(\mathfrak{N})$  is star-like with a continuous radius function.  $(k(T)$  has a neighborhood base consisting of such “star-like” sets.)  $k:\mathfrak{N}\to C(Z)$  is uniformly continuous. Consequently for every  $\varepsilon>0$  there is a  $\delta>0$  (the “Lebesgue number”) so that  $\operatorname{diam}_{d}(k(\operatorname{compaction})<\delta\Rightarrow\operatorname{diam}_{\Delta}(\operatorname{compaction}<\varepsilon)$ . Henceforth we will work in the cone  $C(Z)$ ; we simplify notation by omitting k and speaking of T and  $\mathfrak{N}\subset C(Z)$ . We will find  $h:C(Z)\to C(Z)$  with support in some star-like neighborhood  $V\subset\mathfrak{N}$  which makes a given countable-null collection of compactums  $\{k_{i}\}$  (e.g. and those nondegenerate decomposition-elements whose image under k meets V,  $\{k_{i}\}$  have diameter smaller than  $\delta$ ).
+
+We presume $C(Z)$ has been given a metric $d$ which shares the following properties with Euclidean space: (1) $d((p_2, z), (p_0, z')) \geqslant d((p_1, z), (p_0, z'))$ for $z, z' \in Z$ if $p_0 \leqslant p_1 \leqslant p_2$, (2) $d((p_1, z), (p_2, z)) = |p_2 - p_1|$ for all $z \in Z$, and (3) $d((p_1, z), (p_1, z')) \geqslant d((p_0, z), (p_0, z'))$ if $p_1 > p_0$. These conditions are easily arranged.
+
+Using nullity, make  $V = \{(p, z) | p \leqslant r(z), r: Z \to (0, \infty) \text{ continuous}\}$  so small that we may assume that no element  $k_i$  of diameter  $\geqslant \delta/2$  meets V. For simplicity assume that the maximum radius of  $V = \max(r) < 1$ . Let n be a fixed integer  $>4/\delta$ . Let  $V = V_n \supset int V_n \supset V_{n-1} \supset int V_{n-1} \supset \cdots \supset int V_2 \supset V_1$  be a sequence of star-like neighborhoods of T with continuous radial functions  $r = r_n, \ldots, r_1$ . Using the upper semicontinuity of the decomposition we choose the r's to decrease sufficiently fast that every k lies in  $V_j - V_{j-2}$  for some  $2 \leqslant j \leqslant n + 1$  (letting  $V_{n+1} = C(Z)$  and  $V_0 = \varnothing$ ). For each  $1 \leqslant j \leqslant n$ , let  $B_j$  be the ball of radius j/n about the cone point  $\alpha$ .
+
+Let $g$ be the natural homeomorphism of the pair $(C(Z), \alpha)$ which is invariant and piecewise linear on each cone line which: (1) is fixed off $V_{n} \subset B_{n}$ and (2) which carries each set $V_{j} \cup B_{j}$ onto $B_{j}$. Note that the graph of $g$ on any cone line is made of at most $n$ straight segments and an infinite straight ray. This graph is below the diagonal; any point which is moved is moved closer to $\alpha$. We must slow diam $g(k_{i}) < \delta$. First we establish
+
+Claim. For each $1 \leqslant j \leqslant n$, every point of $B_j \setminus V_j$ is moved by $g$ a distance less than $1/n$.
+
+Proof. Suppose $x \in B_j \setminus V_j$. Without loss $x \notin B_{j-1}$, for otherwise we could replace $j$ by $j-1$, since $x \notin V_{j-1} \subset V_j$; continuing this way until $x$ no longer lies in the next smaller ball. Now since $x \notin V_{j-1} \cup B_{j-1}$, $g(x) \notin g(V_{j-1} \cup B_{j-1}) = B_{j-1}$, and hence $\{x, g(x)\} \subset B_j - B_{j-1}$, establishing the claim. q.e.d.
+
+Now suppose $k_{i} \cap V_{n} \neq \emptyset$. Then $\text{diam } k_{i} < \delta / 2$. Let $x, y$ be two points of $k_{i}$. Let $2 \leqslant j \leqslant n + 1$ satisfy $x, y \in V_{j} - V_{j-2}$ (see above). We consider three possibilities.
+
+Case 1. Both $x$ and $y$ lie in $B_{j-2}$.
+
+By the triangle inequality
+
+$$
+d (g (x), g (y)) \leqslant d (x, g (x)) + d (y, g (y)) + d (x, y) <   \frac {1}{n} + \frac {1}{n} + \frac {\delta}{2} \leqslant \delta .
+$$
+
+Case 2. $x$ lies in $B_{j - 2},y$ does not lie in $B_{j - 2}$.
+
+$$
+d (g (x), y) \leqslant d (g (x), x) + d (y, x) <   \frac {1}{n} + \frac {\delta}{2} \leqslant \frac {3 \delta}{4}.
+$$
+
+Since  $y \notin B_{j-2}$  and  $y \notin V_{j-2}$  it follows that  $g(y) \notin B_{j-2}$ . Thus the radial coordinate of  $g(y)$  lies between the radial coordinates of y and  $g(x)$ . By our first requirement on the metric d,  $d(g(x), g(y)) \leqslant d(g(x), y) < 3/4\delta$ . (Roughly, we have just argued that when y is moved to  $g(y)$ , it is moved toward  $g(x)$ , which is closest to  $\alpha$ , and so decreased distance.)
+
+Case 3. Neither $x$ nor $y$ lies in $B_{j-2}$.
+
+$g(x), g(y) \in B_j - B_{j-2}$. Assume without loss of generality that the radial coordinate of $g(x)$ is smaller than $g(y)$'s, $\rho(g(x) \leqslant \rho(g(y))$. Let $u$ be the point $(\rho(g(x), z(g(y)))$ in polar coordinates, and let $v$ be the point which has $\rho = \min(\rho(x), \rho(y))$ say $\rho(v) = \rho(y)$, and the $z$-coordinate of the other, say $z(u) = z(x)$. Using property (1) of $d, \delta/2 > d(x, y) \geqslant d(v, y)$. By property (3) of $d, d(g(x), u) \leqslant d(v, y)$ so $d(g(x), u) < \delta/2$. Since $u, g(y) \in B_j - B_{j-2}$ and have the same $z$-coordinate, property (2) of $d$ yields $d(u, g(y)) \leqslant \delta/2$. Again using the triangle inequality $d(g(x), g(y)) < \delta$. See Diagram 7.3.
+
+The above cases show that diameter  $g(k_{i}) < \delta$  for all  $k_{i}$ . This completes the proof of Lemma 7.1 and Theorem 7.2.
+
+![](images/page_62_image_10.jpg)
+
+DIAGRAM 7.2
+
+![](images/page_63_image_0.jpg)
+
+Another quite general tool is the majorant shrinking principle. It says that shrinking, at least for epimorphisms of manifolds, is a local problem. Its proof uses the Edwards-Kirby [20] results on deformations in the group of homeomorphisms and hence, ultimately, the torus trick. This result was observed by Edwards in the early seventies but does not seem to have found its way into print.
+
+Theorem 7.3 (Majorant shrinking principle (MSP) $^{14}$ ). Let  $f: M^{n} \to N^{n}$  be a proper surjection of topological manifolds (metrizable and without boundary). Assume that if is ABH. Let  $V \subset N$  be any open set. Set  $f^{-1}(V) = U$ . Then  $f|_{U}: U \to V$  is ABH.
+
+Proof. Set $g = f|_{U} \colon U \to V$. Let $m \colon V \to [0, \infty)$ be a proper map. Let $i = 0, 1, 2, 3, \ldots$, define
+
+$$
+A = m ^ {- 1} ([ 0, 3 / 4 ] \cup [ 2 1 / 4, 2 3 / 4 ] \cup [ 4 1 / 4, 4 3 / 4 ] \cup \dots),
+$$
+
+$$
+B = m ^ {- 1} \left(\left[ 1 1 / 4, 1 3 / 4 \right] \cup \left[ 3 1 / 4, 3 3 / 4 \right] \cup \dots\right),
+$$
+
+$$
+C = m ^ {- 1} \left(\left[ 3 / 4, 1 1 / 4 \right] \cup \left[ 1 3 / 4, 2 3 / 4 \right] \cup \dots\right),
+$$
+
+$$
+C ^ {+} = m ^ {- 1} \left(\left[ 1, 1 1 / 4 \right] \cup [ 2, 2 1 / 4 ] \cup \dots\right),
+$$
+
+$$
+C ^ {-} = m ^ {- 1} ([ 3 / 4, 1 ] \cup [ 1 3 / 4, 2 ] \cup \dots),
+$$
+
+$$
+D = m ^ {- 1} (1 \cup 2 \cup 3 \cup \dots),
+$$
+
+and let $D^{+} \subset C$ be an open neighborhood of $D$.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">8),</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{14}$  With care the use of this theorem can be avoided (it is used in both Chapters 6 and 8), making this paper logically independent of the torus trick.</span></small>
+
+Let $h: h^{-1}(\mathrm{AUC}) \to \mathrm{AUC}$ (and $k: k^{-1}(\mathrm{BUC}) \to \mathrm{BUC}$) be a homeomorphism approximating $f, h$ (and $k$) can be constructed sequentially over each component of AUC (BUC) to achieve any desired degree of closeness to $f/h^{-1}(\mathrm{AUC})(f/k^{-1}(\mathrm{BUC}))$ as measured by a majorant $\varepsilon'': V \to (0, \infty)$.
+
+If $h$ and $k$ are sufficiently close to $f$, $h \circ k^{-1}|_{D^+} \colon D^+ \rightrightarrows C$ will be so close to the inclusion $D^+ \subset V$ that there will exist an autohomeomorphism $G \colon C \to C$ with $G|_{\text{Frontier}(C)} = \text{id}_{\text{Fr}(C)}$ and $G|_D = k \circ h^{-1}|_D$. This is by Theorem 5.1(1) of [20]. Furthermore the same theorem allows us to choose $G$ as close to the identity as we like, $\text{norm}(G) < \varepsilon''': V \to (0, \infty)$, provided $\varepsilon''$ is sufficiently small.
+
+If $\varepsilon''$ is chosen so that $\varepsilon''(v) + \varepsilon'''(h(v))$ is less than a predetermined majorant $\varepsilon'(v)$, then a homeomorphism $H: U \to V$, $\varepsilon'$-approximating $f$, will be given by the following formula:
+
+$$
+\begin{array}{l l} H = h & \text { on } h ^ {- 1} (A), \\ H = G \circ h & \text { on } h ^ {- 1} (C ^ {+}), \\ H = k & \text { on } U \setminus h ^ {- 1} (\mathrm{AUC} ^ {+}). \end{array}
+$$
+
+Corollary 7.1. Let $f \colon M^n \to N^n$ be an epimorphism between (metrizable) topological manifolds. Assume that $f$ is ABH and that $f$ is a homeomorphism over a closed set $C \subset N$ (that is, $f|_{f^{-1}(C)} \colon f^{-1}(C) \to C$ is a homeomorphism). Then $f$ is approximable by homeomorphisms $h_i$ which agree with $f$ over $C$ (that is, when restricted to $f^{-1}(C)$).
+
+Proof. Apply Theorem 7.4 to $f|_{f^{-1}(N \setminus C)}: (M \setminus f^{-1}(C)) \to N \setminus C$ to construct an $\varepsilon'$-approximating homeomorphism $g: (M \setminus f^{-1}(C)) \to N \setminus C$ with $\varepsilon': N \setminus C \to (0, \infty)$ which limit to zero as the argument tends to $C$. In particular for any majorant $\varepsilon': N \to (0, \infty)$ set $\varepsilon'' = \min(\varepsilon', \text{distance from } C)$. The required approximating homeomorphisms $h_i: M \to N$ are defined by $h|_{f^{-1}(C)} = f|_{f^{-1}(C)}$ and $h|_{M - f^{-1}(C)} = g$.
+
+It is helpful to collect the following two facts about diagrams involving ABH maps. Below all spaces will be locally compact and metric, and maps will be proper.
+
+Fact 7.1. Let $X, Y$, and $Z$ be space and $f$ and $g$ ABH, $X \xrightarrow{f} Y \xrightarrow{g} Z$. Then $g \circ f$ is ABH.
+
+The proof is easy.
+
+Fact 7.2. Let $X, Y$, and $Z$ be spaces. Suppose we have the following commutative diagram in which $p$ and $q$ are ABH:
+
+![](images/page_65_image_1.jpg)
+
+Then $r$ is ABH.
+
+Proof. Let $\varepsilon': Z \to (0, \infty)$ be a majorant fraction. Construct $\delta: Y \to (0, \infty)$ to satisfy $\text{dist}(y_0, y_1) < \delta(y_0) \Rightarrow \text{dist}(r(y_0), r(y_1)) < \varepsilon'(y_0)$. Let $p': X \to Y$$\delta$-approximate $p, r \circ p' \varepsilon'$-approximates $p \circ r = q$. A sufficiently close approximation $q'$ to $p$ will also be $\varepsilon'$-approximated by $r \circ p'$. Thus $q' \circ p'^{-1}$$\varepsilon$-approximates $r$.
+
+For the shrink in §8 it is necessary (and a pleasure) to discuss an example which holds a central position in the history of decomposition spaces. In its simplest form one considers the cell-like compactum Wh = “Whitehead continuum”  $\subset D^{2} \times S^{1}$ , the solid torus. Wh is defined as the nested intersection of solid tori  $\bigcap_{i=1}^{\infty} T_{i}$  with  $T_{i+1} \subset interior T$ ; and each inclusion null homotopic, but not null isotopic! (Actually, the term Whitehead continuum is usually reserved for a particular example of the above. It is the set Wh with  $D^{2} \times S^{1}/Wh \cong Fr^{+}K$ , for K the standard compactification of an unramified Casson handle.) For our discussion of shrinking, however, only the null homotopy assumption is used. Wh is cell-like since given any neighborhood of Wh there is a second smaller neighborhood which contracts to a point in the first.
+
+Since $T_{i+1} \subset T_i$ is not null-isotopic $D^2 \times S^1 \setminus \text{Wh}$ fails to be simply connected at infinity. Consequently, $D^2 \times S^1 / \text{Wh}$ is not a manifold.
+
+Theorem 7.4 (Shapiro, Bing, Andrews-Rubin [3]). $(D^2 \times S^1 / \mathrm{Wh}) \times R$ is homeomorphic to $D^2 \times S^1 \times R$. In particular the quotient $\pi: D^2 \times S^1 \times R \to (D^2 \times S^1 / \mathrm{Wh}) \times R$ is ABH.
+
+$D^{2} \times S^{1}/Wh$ is perhaps the simplest nontrivial example of a “manifold factor,” that is, a nonmanifold which becomes a manifold after crossing with a Euclidean space. R. H. Bing has told the author that Arnold Shapiro discovered this example, and indeed the phenomenon, shortly before his death. The next year at the Institute for Advanced Study, Bing learned of Shaprio’s (lost?) discovery from Deane Montgomery and quickly reconstructed the proof. Bing went on (1959) to generalize the technique in his remarkable shrinking of “dog bone”×R [6], however, this simplest example of a manifold factor did not enter the literature until Andrews and Rubin described it in 1965.
+
+Proof of Theorem 7.4. An individual shrinking homeomorphism  $h_{i}$  will have support in  $T_{i} \times R$  and consist of a composition  $h = T \circ L$ , a “lift” followed by a “twist.” The lift shears in the fourth coordinate to exchange “self-clasping” of each  $T_{i+1} \times r$  with “clasping” of  $T_{i+1} \times r_{0}$  with  $T_{i+1} \times r_{1}$ . The twist places each  $T_{i+1}$  in a fixed rod  $D^{2} \times \theta \times R$  and is tapered continuously (but not uniformly continuously) to the identity near  $\partial T_{i}$ . Below is a schematic picture; for details see [3].
+
+![](images/page_66_image_1.jpg)
+
+DIAGRAM 7.4
+
+The statement of Theorem 7.4 can be generalized and varied in several ways.
+
+Theorem 7.4, Addendum A. Wh may be taken in Theorem 7.4 to be any “Whitehead Decomposition” of  $D^{2} \times S^{1}$ . These have already occurred in §5. For the present purposes we may say that the nondegenerate elements of a Whitehead decomposition are the components of  $\bigcap_{i=1}^{\infty} T_{i}$  where  $T_{i}$  is a finite disjoint union of solid tori and  $T_{i+1} \subset interior T_{i}$  with the inclusion restricted to any component of  $T_{i+1}$  inessential. Thus the nondegenerate elements of Wh are parameterized by the ends of a finitely branching tree. The proof is unaltered.
+
+From now on Wh will indicate a general Whitehead decomposition.
+
+Theorem 7.4, Addendum B. The projection $D^2 \times S^1 \times R \to D^2 \times S^1 \times R / \mathrm{Wh} \times 0$ is ABH. The necessary shrinking argument is quite simple. By a tapered thickening in the fourth coordinate $\mathrm{Wh} \times 0$ can be given a defining sequence of (disjoint unions of) 4-dimensional solid tori $S^1 \times D^2$ Wh = $\bigcap_{i=1}^{\infty} \overline{T}_i$. The inclusions $\overline{T}_{i+1} \subset$ interior $\overline{T}_i$ are now null isotopic (homotopy
+
+implies isotopy for 1-complexes in 4-manifolds) so $\overline{T}_{i+1}$ may be shrunk small inside $\overline{T}_i$. Now the BSC (Theorem 7.1) applies.
+
+Theorem 7.4, Addendum C. The projection $D^2 \times S^1 \times [0, \infty) / \mathrm{Wh} \times 0 \to D^2 \times S^1 \times [0, \sigma) / \mathrm{Wh} \times [0, \infty)$ is ABH (of pairs) ($\mathrm{Wh} \times [0, \infty)$ means the collection of closed sets of the form $\Delta \times r, \Delta \in \mathrm{Wh}, r \in [0, \infty)$.) This may be proved by hand, tapering the $h_i$ in the Andrews-Rubin argument. Alternatively it is a formal consequence from the diagram:
+
+$$
+\begin{array}{c} (D ^ {2} \times \dot {D} ^ {2} - D ^ {\prime}) = D ^ {2} \times S ^ {1} \times (0, 1) \xrightarrow {d} D ^ {2} \times S ^ {1} \times (0, 1) / \epsilon \\ \Bigg \backslash b \Bigg \backslash \Bigg \backslash \pi \\ D ^ {2} \times S ^ {1} \times (0, 1) / \mathrm{Wh} _ {c} \end{array}
+$$
+
+Addendum A says a is ABH. Addendum B says b is ABH so Fact 7.2 says  $\pi$  is ABH. Corollary 7.1 says the approximating homeomorphism  $\pi_{i}^{\prime}$  may be taken to be the identity (that is, agree with  $\pi$ ) on  $D^{2} \times S^{1} \times 0/\mathrm{Wh} \times 0$ . The argument is completed by restricting  $\pi_{i}^{\prime}$  to  $D^{2} \times S^{1} \times [0, \infty)/\mathrm{Wh} \times 0$ .
+
+Theorem 7.4, Addendum D. The decompositions of the open 2-handle introduced in §6, $\overline{\overline{\mathrm{Wh}}}$ is shrinkable. That is, $(D^2 \times \dot{D}^2, \partial D^2 \times \dot{D}^2) \xrightarrow{\pi} (D^2 \times \dot{D}^2 / \overline{\overline{\mathrm{Wh}}}, \partial D^2 \times \dot{D}^2)$ is approximable by a homeomorphism equal the identity on $\partial D^2 \times \dot{D}^2$. The exceptional element of $\overline{\overline{\mathrm{Wh}}}$ is $D' \times D'$, a flat 4-ball. If the decomposition $\cup_{C \in \mathbb{C.S.}} \mathrm{Wh}_{Q_c} = \mathfrak{E}$ of $D^2 \times (\dot{D}^2 - D')$ is shrinkable, then so is $\overline{\overline{\mathrm{Wh}}}$. $\mathfrak{E}$ has a defining sequence consisting of a disjoint union of 4-dimensional solid tori $\{\overline{X}_n\} = \{\pi S^1 \times D^3's\}$, each $S^1 \times D^3$ being null homotopic in its containing $S^1 \times D^3$. The discussion of Addendum B applies to give the shrinking.
+
+Theorem 7.5, Addendum E. Consider $\mathcal{E}' \subset \mathcal{E}$ to be the subset of generalized Whitehead continuums which lie in $M = D^2 \times S^1 \times [c, 1) \Leftrightarrow D^2 \times (\dot{D}^2 - D') \subset \dot{H}$, where $c$ belongs to the Cantor set (and also for $M = D^2 \times S^1 \times (0, c]$. Let $\mathrm{Wh}_c$ be the subset $\mathcal{E}$ lying at level $c$. The projection $M / \mathrm{Wh}_c \to M / \mathcal{E}'$ is ABH; the approximations may be taken to be the identity on $D^2 \times S^1 \times c / \mathrm{Wh}_c$. To see this consider the factoring:
+
+![](images/page_68_image_0.jpg)
+
+One argues as in Addendum C that $\pi$ is approximable by homeomorphisms equal to $\pi$ on $D^2 \times S^1 \times c$.
+
+We conclude this section with the observation that the Bing Shrinking Criterion has a straightforward generalization to pairs of spaces. In §8 this will be exploited to establish that certain flat disks (the $d_{k}^{j}$ of §6) stay flat under a decomposition map $(\pi)$.
+
+Theorem 7.1, Addendum. Let $f: X \to Y$ be a proper surjection of locally compact metric spaces. Suppose $f$ is actually a surjection of pairs $(X, X') \xrightarrow{f} (Y, Y')$, $f$ may be approximated (with respect to $\varepsilon: X \to (0, \infty)$ or $\varepsilon': Y \to (0, \infty)$) by homeomorphisms of pairs $h_i$ iff given $\varepsilon: X \to (0, \infty)$ there is an autohomeomorphism of pairs $k: (X, X') \to (X, X')$ such that for all $\Delta \in D(f)$ we have: (1) diam $k(\Delta) < \min_{x \in \Delta}\{\varepsilon(x)\}$ and (2) $d(f(x), f \circ k(x)) < \varepsilon(x)$.
+
+## 8. The approximation of $\alpha$: $\dot{H} \to \mathrm{CH}/\{\mathrm{gaps}^{+}\}$
+
+Let us recall the notation of §6 for the various pieces of  $D(\alpha)$ , the decomposition associated to the projection  $\alpha$ .  $D(\alpha)$  contains three types of elements.
+
+I. Consider the family of closed sets {the components of $\bigcap_{i=1}^{\infty}\overline{X}_{n}$} called Wh in §6. These elements are all generalized Whitehead continua. Some of these elements intersect the disks $\{d_{k}^{j}\}$ threaded through $\dot{A}$ in §6. Consider the elements whose 4th-coordinate (in $D^{2}\times R^{2}-D^{1}\approx D^{2}\times S^{1}\times(0,1)$) is at a Cantor set endpoint $c$ at the top or bottom of a diagonal $B_{k}^{j}$. Such elements must be amalgamated into large, type II, elements. The $G_{\delta}$ subset of Wh which does not meet $\{d_{k}^{j}\}$ or $\{B_{k}\}$ is, by definition, the set of type I elements.
+
+II. The type two elements have been descriptively named hairy red cells. Any such element is the union of a diagonal “solid torus”  $B_{k}^{j}$ , diffeomorphic to  $S^{1} \times D^{2} \times I$ , a topologically flat disk  $d_{k}^{j}$ , meeting  $B_{k}^{j}$  along  $S^{1} \times (\text{boundary point}) \times 1/2$ , and finally a Cantor set’s worth of a generalized Whitehead continua belonging to Wh each of which meets  $d_{k}^{j}$  in one point and is disjoint from all other  $d_{k}^{j}$ ’s.
+
+![](images/page_69_image_0.jpg)
+
+DIAGRAM 8.1
+
+III. The exceptional type III element is the smooth (with corners) 4-cell $D' \times D' \subset \dot{H}$.
+
+It is convenient to work in the space $D^2 \times (\dot{D}^2 - D^1)$ with coordinates given by $D^2 \times \dot{D}^2 - D' \cong D^2 \times S^1 \times (0, 1)$ and ignore the element of type III. Let $D(\alpha^-)$ be the collection of elements of types I and II. $D(\alpha^-)$ is a decomposition of $D^2 \times (\dot{D}^2 - D')$. Suppose that we determine that $D(\alpha^-)$ is shrinkable. Then $\alpha^- = \alpha | D^2 \times S^1 \times (0, 1)$ is approximable by a homeomorphism onto image $(\alpha^-)$. Adding the collar of the attaching region $(D^2 - D') \times D^2$ we see that $\alpha | D^2 \times \dot{D}^2 - D' \times D'$ is approximable by homeomorphisms $h_i: D^2 \times \dot{D}^2 - D' \times D' \times D' \to \alpha (D^2 \times \dot{D}^2 - D' \times D')$. Sending $D' \times D'$ to $\alpha (D' \times D')$ extends $h_i$ to $\hat{h}_i: D^2 \times \dot{D}^2 \to \mathrm{CH}$ which is certainly ABH since its only nondegenerate preimage is cellular. Thus $D(\alpha^-)$ shrinkable implies that $\alpha$ is itself approximable by homeomorphism.
+
+The shrinking of  $D(\alpha^{-})$  will be carried out in three steps. That is  $D(\alpha^{-})$  will be divided out in three successive stages and each successive projection will be shown to be ABH. Here is the factoring
+
+$$
+\begin{array}{c} \overbrace D ^ {2} \times S ^ {1} \times (0 , 1) \xrightarrow {\alpha_ {1}} D ^ {2} \times S ^ {1} \times (0 , 1) / \overline {{\overline {{\text { Wh }}}} \xrightarrow {\alpha_ {2}} D ^ {2} \times S ^ {1} \times (0 , 1) / \operatorname{set} _ {1} \cup \operatorname{set} _ {2}} ^ {\alpha^ {-}} \\ \xrightarrow {\alpha_ {3}} D ^ {2} \times S ^ {1} \times (0, 1) / D (\alpha^ {-}), \end{array}
+$$
+
+Set $1 = \{\text{elements of } \overline{\overline{\mathbf{Wh}}}\text{ not meeting } \{d_k^j\}\}$,
+
+Set $2 = \{d_k^j\cup$ elements (hairs) of $\overline{\mathbf{Wh}}$ which meet $d_{k}^{j}\}$,
+
+$$
+\overline {{D}} \left(\alpha_ {1}\right) = \overline {{\overline {{\mathbf {W h}}}}},
+$$
+
+$\overline{D} (\alpha_{2}) = \{\alpha_{1}(d_{k}^{j})\}$, the image of the spanning disks,
+
+$\overline{D} (\alpha_3) = \{Q_k^j\}$, where the compacta $Q_{k}^{j}\cong (B_{k}^{j} / \partial d_{k}^{j})/$ elements of $\overline{\mathrm{Wh}}$ lying in $\partial B_k^j$ identified to points.
+
+Step 1. Divide out to points the generalized Whitehead continua of Wh. These lie at Cantor-set levels in the  $(0,1)$  coordinate of  $D^{2} \times S^{1} \times (0,1)$ . The projection map is  $\alpha_{1}$ . By Theorem 7.4, Addendum D,  $\alpha_{1}$  is ABH.
+
+Step 2. Divide out to points the disks $\{\alpha_1(d_k^j)\}$. The disks $d_k^j$ are flat since they are the graph (in the (0,1) coordinate) of a continuous function over a smooth disk. If we establish that each $\alpha_1(d_k^j)$ is flat, we can apply Theorem 7.2 to conclude that $\alpha_2$ is ABH. The hypothesis is satisfied since a flat $q$-cell, having by definition the neighborhood structure of the pair $(B^q \times B^{n-q}, \frac{1}{2} B^q \times 0)$ where $B$ denotes the $q$-ball of radius $= 1$, $\frac{1}{2} B^q$ denotes the $q$-ball of radius $= 1/2$, is certainly a star-like equivalent set. Furthermore, the collection $\{d_k^j\}$ is null by construction; since $\alpha_1$ is proper, $\{\alpha_1(d_k^j)\}$ is also null. Let $d$ be a typical $d_k^j$. We finish step 2 by showing that $\alpha_1 d$ is flat in a relative boundary sense. We use $Y$ as a shorthand for $D^2 \times S^1 \times (0,1)$.
+
+Lemma 8.1. Let $d \times \Delta^2$ be a product neighborhood of $d$ in $Y$. Then the projection $\alpha_{1|_{d \times \Delta^2}} \colon d \times \Delta^2 \to Y / \overline{\overline{\mathbf{Wh}}}$ can be approximated by an imbedding $\alpha_1' \colon d \times \Delta^2 \hookrightarrow Y / \overline{\overline{\mathbf{Wh}}}$ which agrees with $\alpha_1$ on $d$ and a neighborhood of $\partial d$.
+
+Proof. Let $S \subset \overline{\overline{\mathbf{Wh}}}$ be the closed subdecomposition of $\overline{\overline{\mathbf{Wh}}}$ consisting of the sub-Cantor set of generalized Whitehead continuums which meet $d$. Like $\overline{\overline{\mathbf{Wh}}}$$S$ has a defining sequence $\{S_n = \Pi_{\text{finite}} S^1 \times D^3\}$, $S^* = \bigcap_{n=1}^{\infty} S_n$. $\alpha_1$ may be factored as $\alpha_{2/3} \circ \alpha_{1/3} \colon Y \to Y / S \overset{\alpha_{1/3}}{\to} Y / \overline{\overline{\mathbf{Wh}}}$.
+
+Think of $\alpha_{1/3}$ as a map of pairs: $(Y, d) \to (Y/S, \alpha_{1/3}d)$. $\alpha_{1/3}$ is approximable by homeomorphisms of pairs, which agree with $\alpha_{1/3}$ on $d$ and near $\partial d$. This follows from the Addendum to Theorem 7.1 once we see that shrinking homeomorphisms described in Theorem 7.4. Addendum D (described there for $\overline{\dot{\overline{\mathbf{Wh}}}}$ rather than $S$) can be chosen to be the identity on $d$ and near boundary $d$. But this is easily seen, as in Theorem 7.4, Addendum B, the shrinking homeomorphisms consist of an unclasping (away from $d$) followed by an ambient isotopy which may be taken to be the identity near $d$ (see Diagram 8.2).
+
+![](images/page_71_image_0.jpg)
+
+The point $z$ is an intersection of $d$ and $S_{n}$. The points $w, x,$ and $y$ are not intersections since $d$ and $S_{n}$ have distinct 4-coordinates there.
+
+![](images/page_71_image_2.jpg)
+
+DIAGRAM 8.2
+
+By Fact 7.2, $\alpha_{2/3}$ is ABH. Now $\alpha_{2/3} \circ \alpha_{1/3}(d)$ is a homeomorphism over its image. Corollary 7.1 says that the approximations to $\alpha_{2/3}$ can be made to agree with $\alpha_{2/3}$ on $d$ (and also over a closed neighborhood of $\partial d$). Composing the approximations (Fact 7.1) to $\alpha_{1/3}$ and $\alpha_{2/3}$ completes the proof.
+
+Step 3. Divide out by $\overline{D}(\alpha_3) = \{Q_k^j\}$. Let $Q$ be a typical element. Abstractedly $Q$ is the closed cone on $S^1 \times D^2$ with two disjoint generalized Whitehead decompositions divide out at the base of the cone. We wish to prove that $Q$ has a “star-like” equivalent neighborhood. We do this in four stages.
+
+Stage 1. Consider $S^1 \times D^2 \times I \cup d$ to be a typical type-two element less the "hairs" (= generalized Whitehead continua meeting $d$). $S^1 \times D^2 \times I \cup d$ is part of an obvious mapping cylinder to $d$, namely a mapping cylinder $M(q: S^3 \to d)$ when $S^3$ is a tamely imbedded sphere surrounding $S^1 \times D^2 \times I \cup d$ (see below):
+
+![](images/page_72_image_3.jpg)
+
+DIAGRAM 8.3
+
+This structure may be chosen to have three useful properties: (1) the mapping cylinder lines may be taken vertical (only the 4th coordinate of  $S^{1} \times D^{2} \times I$  varying) near  $S^{1} \times D^{2} \times \{0, 1\}$ ; (2) the mapping cylinder structure restricts to a flatness structure normal to d; and (3)  $S^{1} \times D^{2} \times I$  is a union of closed mapping cylinder intervals terminating on  $\partial d$ .
+
+Stage 2. Consider the image of $S^1 \times D^2 \times I \cup d$ in $Y / D(\alpha_1)$. The mapping cylinder on the neighborhood structure (in which the nondegenerate element is a sub-mapping cylinder) may have been destroyed, but let us see what remains. We have seen that $\alpha_1(d)$ remains flat (Step 2), so the structure lines normal to $\alpha_1(d)$ persist. It follows from Theorem 7.4, Addendum C, that
+
+$\alpha_{1}(S^{1} \times D^{2} \times I - \partial\alpha_{1}d)$ has an open product structure, it is homeomorphic to $(S^{1} \times \dot{D}^{2}/\mathrm{Wh} \times [0,\infty)$, where Wh is some generalized Whitehead decomposition. Using Theorem 7.4, Addendum E then Addendum C we that the just mentioned product structure extends outward beyond the $\alpha_{1}(S^{1} \times D^{2} \times I)$, this by following the homeomorphisms of pairs:
+
+$$
+((S ^ {1} \times D ^ {2}) \times (- \infty , 0) / \text { Wh } \times (- \infty , 0), S ^ {1} \times D ^ {2} \times 0 / \text { Wh } \times 0) \leftarrow (S ^ {1} \times D ^ {2} \times (- \infty , 0) / \text { Wh } \times 0, S ^ {1} \times D ^ {2} \times 0 / \text { Wh } \times 0)
+$$
+
+The mapping cylinder structure over  $\alpha_{1}(d)$  and the product structure containing  $\alpha_{1}(S^{1} \times D^{2} \times I)$  fail to match up at  $\partial d$ , so there is no obvious mapping cylinder neighborhood at this stage.
+
+Stage 3. We now factor $\alpha_{2} = \alpha_{5/3} \circ \alpha_{4/3}$. $\overline{D}(\alpha_{4/3}) = \{\alpha_{1}d\}$, that is, $\alpha_{4/3}$ simply divides out the single flat disk of the element which we are considering. The rest of the disks are divided out under $\alpha_{5/3}$.
+
+Dividing out by  $\alpha_{1}d$ , that is, forming  $X/D(\alpha_{4/3} \circ \alpha_{1})$ , restores the mapping cylinder neighborhood by providing each line of the product structure  $S^{1} \times D^{2}/Wh \times (-\infty, \infty)$  a unique limit point, image  $(\partial d)$ . But this is a mapping cylinder to a point, in other words, a “star-like” equivalent neighborhood. If one were to look for the base Z of the cone, it would be  $S^{3}$  divided by the generalized Whitehead continua in  $S^{1} \times D^{2} \times \{0, 1\}$ .
+
+Stage 4. Now divide out by the remaining 2-disks to form  $Y/D(\alpha_{5/3} \circ \alpha_{4/3} \circ \alpha_{1}) = Y/D(\alpha_{2} \circ \alpha_{1})$ . We must check that the “star-like” equivalent neighborhood is not destroyed. The easiest way to check this is purely formal. Consider the diagram:
+
+$$
+\begin{array}{c} Y / D (\alpha_ {1}) \xrightarrow {\alpha_ {2}} Y / D (\alpha_ {2} \circ \alpha_ {1}) \\ \alpha_ {4 / 3} \Bigg \downarrow \quad \Bigg \backslash \quad \alpha_ {5 / 3} \\ Y / D (\alpha_ {4 / 3} \circ \alpha_ {1}) \end{array}
+$$
+
+$\alpha_{4/3}$ and $\alpha_{2}$ are already known to be ABH, so $\alpha_{5/3}$ is as also ABH by Fact 7.2. But by Corollary 7.1 the approximating homeomorphisms $\alpha_{5/3}'$ (to $\alpha_{5/3}$)
+
+may be taken to agree with $\alpha_{5/3}$ on the closed set $Q$ (more precisely the closed set $\alpha_{4/3} \circ \alpha_1(S^1 \times D^2 \times [0,1])$. Such a homeomorphism will transport the "star-like" equivalent neighborhood from $X/D(\alpha_{4/3} \circ \alpha_1)$ to $X/D(\alpha_2 \circ \alpha_1)$.
+
+Now that we have established that one (so each) Q has “star-like” equivalent neighborhood, we may apply Theorem 7.2 to approximate  $\alpha_{3}$  by homeomorphisms. (The type II elements were countable null in X, and this property is preserved by proper decomposition maps.) Finally, two specifications of Fact 7.1 show  $\alpha^{-} = \alpha_{3} \circ \alpha_{2} \circ \alpha_{1}$  is ABH. By our preliminary reduction we have proved
+
+Theorem 8.1. $\alpha\colon\dot{H}\to\mathrm{CH}/\{\mathrm{gap}^{+}\}$ is ABH.
+
+Note that we have really proved the analogous relative boundary statement. However the stronger assertion is easily recovered from the weaker using Corollary 7.1. This same principle allows the pieces of the main argument, assembled in §6, to arrive there without careful relative statements and still be sufficient to complete the job.
+
+## 9. Approximating Certain Self-maps of $S^n$
+
+The previous section was devoted to understanding Edward's explicit shrinking of the decomposition  $D(\dot{H} \to \mathrm{CH}/\{\mathrm{gaps}^{+}\})$ . The present section is devoted to an approximation procedure which is in effect a “blindfold” shrinking of certain decompositions of  $S^{n}$ . That is, we shrink without ever seeing what we are trying to shrink. The main theorem, Theorem 9.1, is a generalization of Morton Brown's [8] Schoenflies' theorem (set  $\operatorname{Sing}(f) = \{\text{two points}\}$  for this). Brown's proof may be regarded as the prototype for the argument presented here. In both cases knowledge of the quotient space replaces explicit information about the sets to be shrunk.
+
+We recall some terminology. Let $f \colon X \to Y$ be a (continuous) surjection between compact metric spaces. $D(f) = \{f^{-1}(y) | y \in Y\}$. The nondegenerate elements of $D(f)$ are the $f^{-1}(y)$ which are not singletons. $\overline{D}(f)$ is the subset of nondegenerate elements of $D(f)$. $D^*$ will represent the union of the elements of $\overline{D}$. The singular set is $\operatorname{Sing}(f) = f(D^*(f))$. $\operatorname{Sing}(f)$ is filtered by the diameter of preimages, $\operatorname{Sing}(f) = \bigcup_{i \in Z^+} \{y \in Y | \text{diam } f^{-1}(y) \geqslant 1/i\}$, and is therefore $\sigma$-compact.
+
+We say that subsets $Q_{i} \subset S^{n}$ are mutually separated if closure $(Q_{j}) \cap Q_{j} = \varnothing$ for $i \neq j$.
+
+A $\sigma$-compact subset $A$ of the $n$-sphere is tame-zero-dimensional if given $x \in A$ and $\varepsilon > 0$, there is a flat $n$-cell $B$ of diameter less than $\varepsilon$ such that $x \in B \subset S^n$ and $A \cap \partial B = \varnothing$.
+
+We say $f \colon X \to Y$ is approximable by homeomorphisms (ABH) iff for every $\varepsilon > 0$ there is a homeomorphism $h \colon X \to Y$ with $d(f(x), h(x)) < \varepsilon$ for all $x \in X$.
+
+Theorem 9.1. Let $f \colon S^n \to S^n$ be a continuous function with the singular set $\operatorname{Sing}(f)$ tame-zero-dimensional and nowhere dense. Then $f$ is approximable by homeomorphisms.
+
+Ric Ancel and Jim Cannon (independently) suggested the above formulation of Theorem 9.1. My original statement assumed  $\bar{D}(f)$  was countable, null, and  $\text{Sing}(f)$  nowhere dense. They pointed out that my argument would cover the more general case. Also I would like to thank them for showing me an elegant way to handle the convergence questions by constructing the limit homeomorphism as the intersection of a family of closed relations.
+
+Theorem 9.1 only yields new information for $n = 4$. For $n \geqslant 5$ it is a special case of Siebenmann's approximation theorem [47]; for $n = 3$ (and certainly $n < 3$) Theorem 9.1 is subsummed under a more general theorem of $S$. Armentrout [1].
+
+Lemma 9.1 (General position). Suppose $A \subset S^n$ is $\sigma$-compact and tame-zero-dimensional, and $X \subset S^n$ is nowhere dense. Given a neighborhood $U$ of $X$ and any $\varepsilon > 0$, there is an $\varepsilon$-homeomorphism $h$ of $S^n$ (that is, $\text{dist}(y, h(y)) \leqslant \varepsilon$ for all $y \in S^n$) which agrees with $\text{id}_{S^n}$ outside $U$ and moves $X$ off $A$, $h(X) \cap A = \emptyset$.
+
+Proof. The proof is an exercise in the use of the Baire category theorem. Apply it to the (Baire) space of auto-homeomorphisms of $S^n$ fixed off $U$.
+
+Definition. A diagram
+
+![](images/page_75_image_7.jpg)
+
+is admissible iff the following hold:
+
+(1) $X = Y = Z = S^n$, the $n$-sphere for $n \geqslant 1$.
+
+(2) $r$ and $s$ are epimorphic functions; $R$ and $S$ may be closed relations.
+
+(3) $R = S^{-1}$, $s \circ R = r$, and $r \circ S = s$ (Relations are inverted and composed according to the rules: $(x, y) \in R \Leftrightarrow (y, x) \in R^{-1}$ and $(x, z) \in R' \circ R \Leftrightarrow \exists y$ such that $(x, y) \in R$ and $(y, z) \in R'$).
+
+(4) The union $\operatorname{Sing}(r) \cup \operatorname{Sing}(s)$ may be written as: $\operatorname{Sing}(r) \cup \operatorname{Sing}(s) = \mathcal{A} \cup \mathcal{B} \cup \mathcal{C}$ of three mutually separated sets $\mathcal{A}, \mathcal{B}$, and $\mathcal{C}$, which are $\sigma$-compact, tame-zero-dimensional, and nowhere dense, and $\mathcal{A} = \operatorname{Sing}(r) \setminus \operatorname{Sing}(s)$, $\mathcal{B} = \operatorname{Sing}(s) \setminus \operatorname{Sing}(r)$, and $\mathcal{C} = \operatorname{Sing}(s) \cap \operatorname{Sing}(r)$.
+
+(5) The restriction $R \mid r^{-1}(\mathcal{C}) \to s^{-1}(\mathcal{C})$ is a homeomorphism.
+
+If $f$ satisfies the hypothesis of Theorem 9.1, then an admissible diagram is obtained by setting $R_0 = f$, $S_0 = f^{-1}$, $r_0 = f$, and $s_0 = \mathrm{id}_{S^n}$. The next lemmas will be applied to an infinite sequence of diagrams beginning with $(X, Y, Z, R_0, S_0, r_0, s_0)$.
+
+Lemma 9.2. Suppose $(X, Y, Z, R, S, r, s)$ is an admissible diagram. Given any neighborhood $N$ of $R$ and any $\varepsilon > 0$, there is a new diagram $(X, Y, Z, R', S', r', s')$ satisfying conditions (1)-(5) with $R' \subset N$ and maximum$_{y \in Y} \{ (\text{diam } S(y)) \} < \varepsilon$.
+
+Proof. Let  $Q_{\varepsilon}$  be the subset of Q consisting of points  $a \in Q$  such that  $\text{diam } r^{-1}(a) \geqslant \varepsilon$ .  $Q_{\varepsilon}$  is compact tame-zero-dimensional and is therefore covered by the interiors of a finite collection of tiny disjoint tame n-cells in Z. The procedure for producing  $(R', S', r', s')$  from  $(R, S, r, s)$  consists of a sequence of changes each defined on the interior of one of these n-disks. Thus there is no loss of generality in assuming that there is only one such cell B. Since we may restrict the size of such cells B we may arrange that the following two conditions are satisfied:
+
+(A) $r^{-1}(B)\times s^{-1}(B)\subset N$ . (Later this will ensure that $R^{\prime}\subset N$ .)
+
+(B) $B \subset Z$-closure ($\mathfrak{B} \cup \mathcal{C}$). (This makes $s$ a homeomorphism over $B$ and will enable us to avoid changing $R$ over $\mathcal{C}$.)
+
+Choose a (closed) tame $n$-cell $U \subset$ interior $B$ with $(\mathcal{A} \cup \mathcal{B} \cup \mathcal{C}) \cap \partial U = \varnothing$ and $B \cap (\mathcal{A}_{\epsilon}) \subset U$. Choose a large $n$-cell $B' \subset Z$ such that both $B$ and the nowhere dense set closure $(\mathcal{A} \cup \mathcal{B} \cup \mathcal{C})$ are contained in interior $B'$. Without loss of generality require that the imbedding of $U$ and $B'$ are in the same stable (see [10]) class as $B$. ($U$ may be taken to be $B \setminus$ collar and $B'$ to be the image under some stretching diffeomorphism which carries a small round ball inside $U$ to $Z$ minus a small round ball disjoint from $(\overline{\mathcal{A} \cup \mathcal{B} \cup \mathcal{C}})$.) Thus there is a stretching homeomorphism $i: Z \to Z$ which fixes $U$ and makes $i(B) = B'$. After perturbing $i$ (use Lemma 9.1) we can assume without loss of generality that $\operatorname{Sing}(r) - U$ and $\mathcal{B}^0 = \mathcal{B} = (i^{-1}\operatorname{Sing}(r) - U)$ are mutually separated.
+
+Since $\partial B' \cap$ closure $(\mathcal{Q} \cup C) = \varnothing$, $r^{-1}(\partial B')$ is a collared $(n - 1)$-sphere. By the generalized Schoenflies theorem [9] $r^{-1}(B')$ is a (tame) $n$-cell. Thus we may define a map $j: r^{-1}(B') \to s^{-1}(B)$ to be any homeomorphism extending the boundary homeomorphism $s^{-1} \circ i^{-1} \circ r: r^{-1}(\partial B') \to s^{-1}(\partial B)$.
+
+We make the following new definitions:
+
+$$
+R ^ {\prime} = \left\{ \begin{array}{l l} R & \text { on } X - r ^ {-} (B), \\ j & \text { on } r ^ {- 1} (U), \\ j \circ r ^ {- 1} \circ i \circ r & \text { on } r ^ {- 1} (B \setminus U). \end{array} \right.
+$$
+
+(Compatibility on $r^{-1}(\partial B)$ is verifiable noting that $(s^{-1} \circ i^{-1} \circ r) \circ r^{-1} \circ i \circ r$, is $^{-1} \circ r$, and $R$ are equal when restricted to $r^{-1}(\partial B)$.)
+
+$$
+S ^ {\prime} = \left(R ^ {\prime}\right) ^ {- 1}, r ^ {\prime} = r, r ^ {\prime} \circ S ^ {\prime} = \left\{ \begin{array}{l l} s & \text { on } Y - s ^ {- 1} (B), \\ i ^ {- 1} \circ r \circ j ^ {- 1} & \text { on } s ^ {- 1} (B) \end{array} \right..
+$$
+
+The new sets  $A'$ ,  $B'$ , and  $C'$  are expressible in terms of the old:
+
+$$
+\begin{array}{l} \mathcal {Q} ^ {\prime} = \mathcal {Q} - U, \\ \mathcal {B} ^ {\prime} = \mathcal {B} \cup \mathcal {B} _ {0} = \mathcal {B} \cup (i ^ {- 1} \operatorname{Sing} (r) - U), \\ \mathcal {C} ^ {\prime} = \mathcal {C} \cup (\mathcal {Q} \cap U). \end{array}
+$$
+
+One can now check that the requirements of Lemma 9.2 are satisfied. q.e.d. The proof of Lemma 9.2 is summarized in the following figure:
+
+![](images/page_77_image_5.jpg)
+
+DIAGRAM 9.1
+
+Lemma 9.3. Let $X$ and $Y$ be compact metric spaces, and $T \subset X \times Y$ a closed relation. Assume maximum $_{y \in Y} \{ (\text{diam}(T^{-1}(y))) < \varepsilon$. Then there exists a closed neighborhood $M$ of $T$ such that maximum $\{ M^{-1}(y)) \} < \varepsilon$ as well.
+
+The proof is an easy exercise.
+
+Proof of Theorem 9.1. We start with the admissible diagram $(X, Y, Z, R = f, S = f^{-1}, r = f, s = \mathrm{id}_{S^n})$. Fix a neighborhood $N$ of graph $(f) \subset X \times Y$. We will find a homeomorphism inside $N$.
+
+An application of Lemma 9.2 yields $(X, Y, Z, R', S', r', s')$. On the one hand, $R'$ no longer has large (larger than $\varepsilon$) point inverses, but on the other hand, it is no longer a function. A point may map to a large set (so long as $pt \times$ set is contained in $N$).
+
+Next we exploit the symmetry  $(X \leftrightarrow Y, R \leftrightarrow S, r \leftrightarrow s, \mathcal{Q} \leftrightarrow \mathcal{B}, \text{and } \mathcal{C} \leftrightarrow \mathcal{C})$  of admissible diagrams. Use Lemma 9.3 to find, inside N, a closed  $N^{1}$  containing  $R'$  with “y-inverse-diameter”  $(N^{1}) (= \max_{y \in Y} \{\operatorname{diam}(N^{1})^{-1}(y)\}) < \varepsilon$ . Now apply Lemma 9.2 to find  $S^{2} \subset (N^{1})^{-1} \subset Y \times X$  with “x-inverse-diameter”  $(S^{2}) (= \max_{x \in X} \{\operatorname{diam}(S^{2})^{-1}(x)\}) < \varepsilon$ . Lemma 9.3 yields  $S^{2} \subset N^{2}$  with X-inverse-diameter  $(N^{2}) < \varepsilon$ .
+
+We proceed in this way to construct closed sets  $N^{3}$ ,  $N^{4}$ ,  $N^{5}$ ,  $\cdots$ , and  $\{S^{\mathrm{even}}\}$  and  $\{R^{\mathrm{odd}}\}$ . These should satisfy (1)  $N^{k+1} \subset (N^{k})^{-1}$ , (2) y - inverse-diameter  $(N^{2k+1}) < \varepsilon/(k+1)$  and x-inverse-diameter  $(N^{2k}) < \varepsilon/k$  and (3)  $N^{\mathrm{even}}$  contains an  $S^{\mathrm{even}}$ ;  $N^{\mathrm{odd}}$  contains an  $R^{\mathrm{odd}}$ .
+
+Define $h = \bigcap_{k=1}^{\infty} N^{2k+1} \subset X \times Y$. $h$ is (the graph of) a function since $y$-inverse-diameter $(h) < \varepsilon / (k+1)$ for all $k$ and must therefore be zero. $h$ is an epimorphism (use property (2) of admissible diagrams) since $(R^{\mathrm{odd}})^{-1}(y) \subset (N^{\mathrm{odd}})^{-1}(y)$ is never empty for any $y \in Y$. $h$ is also $\bigcap_{k=1}^{\infty} (N^{2k})^{-1}$ so $x$-inverse-diameter $(h) = 0$, that is, $h$ is one to one. $(N^{\mathrm{even}})^{-1}(x)$ is never empty for $x \in X$ so the domain of definition of $h$ is all of $X$. Thus $h$ is a one to one, onto map of, compact metric spaces and therefore a homeomorphism. Since $h$ was constructed to lie within an arbitrary neighborhood $N$ of $f$, $h$ approximates $f$ in a sense equivalent to approximation in the supremum norm.
+
+## 10. The Proper $h$-cobordism theorem
+
+The most detailed information on the topology of compact 4-manifolds requires the noncompact, proper h-cobordism theorem described in this section. This peculiar circumstance results from the existence of a smoothing theory for open but not compact 4-manifolds. Thus the smooth structure necessary for the construction of Casson handles and the consequent application of Theorem 1.1 may be available in the complement of a point, if not on the entire manifold.
+
+Theorem 10.3. Let $(W; V, V')$ be a simply connected smooth proper h-cobordism of dimension 5. Suppose $W$ (and therefore $V$ and $V'$) are simply connected at infinity and if $C = \partial W - (V \cup V')$ is not empty, assume that $C$ already has product structure $C \cong_{\text{Diff}} (C \cap V) \times I$. Then $W$ is homeomorphic to $V \times I$ (extending the product structure on $C$).
+
+Note. A space X is simply connected at infinity if given any compactum  $K_{1} \subset X$  there exists a larger compactum  $K_{2} \subset X$ ,  $K_{1} \subset K_{2}$ , such that every loop in  $X - K_{2}$  contracts in  $X - K_{1}$ . A space with more than one end, such as  $S^{3} \times R$ , may be simply connected at infinity.
+
+Lemma 10.1 (negligibility of two collections). Suppose $\{a_i\}$ and $\{b_i\}$ are finite collections of compact immersed surfaces in a smooth 4-manifold $M$. Suppose $\{a_i\}$ and $\{b_i\}$ are each (separately) $\pi_1$-negligible in $M$. Let $\{T_{a_i}\}$ and $\{T_{b_j}\}$ be the geometrically dual spheres following from the previous hypothesis. Suppose that the intersections of $a_i$ with $T_{b_j}$, and $b_j$ with $T_{a_i}$ are paired over $\pi_1(M)$. Then Casson moves between $\{a_i\}$ and $\{b_j\}$ (but not permitting Casson moves within either collection) will make the new union, say $\{a_i'\} \cup \{b_j\}$, $\pi_1$-negligible in $M$ (as the notation indicates only one collection need be moved).
+
+Addendum. The $a$'s and $b$'s may be taken to be immersed 2-complexes with a main section. Define main section of an immersed complex $X$ to be an imbedded 2-patch $R^2 \subset X$ with the property that any disk $D$ in $M$ which meets $X$ in a single point $\subset \operatorname{int}(D)$ is isotopic rel $\partial D$ to a disk $D'$ which meets $X$ only in the 2-patch $R^2$. Interpret the geometric duals $T_{a_i}$ (and $T_{b_j}$) as meeting $a_i$ (and $b_j$) in a single point lying in the main section. Also the arcs in the $a$'s and $b$'s used to define the above pairing are required to lie in the main section. In this situation the conclusion to Lemma 10.1 becomes: Casson moves between the main sections of $\{a_i\}$ and the main sections of $\{b_j\}$ result in $\{a_i'\} \cup \{b_j\}$, $\pi_1$-negligible in $M$.
+
+Proof. The proof is similar to Lemma 3.1 so only the outline is sketched. We change $\{a_i\}$ to $\{a_i'\}$ and $\{T_{a_i}\}$ to $\{T_{a_i}'\}$ so that $T_{a_i}' \cap b_j = \varnothing \forall i, j$.
+
+We will use the pairing hypothesis to eliminate intersections of  $T_{a_{i}}$  and  $b_{j}$  two at a time. Let  $\Delta$  be a weak Whitney disk (see Lemma 3.1) cancelling a pair  $p, p' \in T_{a_{i}} \cap b_{j}$ . We may assume that  $\operatorname{int}\Delta \cap (\cup b_{j}) = \varnothing$  since  $\{b_{j}\}$  is  $\pi_{1}$ -negligible. Now pipe intersections of  $(\cup a_{i})$  with  $\Delta$  off the part of  $\partial\Delta$  incident on  $(\cup b_{j})$ ; this results in the Casson moves between the two collections. A singular Whitney trick pushing  $\{T_{a_{i}}\}$  across  $\Delta$  eliminates the pair  $(p, p')$ . Now  $\{a_{i}'\}$  has dual spheres  $\{T_{a_{i}}'\}$  disjoint from  $\{b_{j}\}$ . To find the dual spheres to  $\{b_{j}\}$  simply apply a “singular normal trick” [40], that is, change each  $T_{b_{j}}$  by ambient connected sums of copies of  $T_{a_{i}}'$ 's to remove intersection between  $\{T_{b_{j}}\}$  and  $\{a_{i}\}$ . The resulting collections of duals  $\{T_{a_{i}}'\}$  and  $\{T_{b_{j}}'\}$  establishes the required  $\pi_{1}$ -negligibility.
+
+Proof of Addendum. Consider complexes with a main section. In the preceding argument one checks that there is no loss of generality in assuming:
+
+① $(\cup T_{a_i})\cap (\cup b_j)\subset \cup$ main section $(b_{j})$
+
+② $\partial \Delta \cap b_j\subset$ main section $(b_{j})$
+
+③ $\Delta \cap a_{i}\subset$ main section $(a_{i})$ , and finally
+
+④ $(\cup T_{b_i})\cap (\cup a_i)\subset \cup$ main section $(a_{i})$ . q.e.d.
+
+A (smooth) Whitney circle is a pair of arcs each lying on a sheet and connecting two double points  $(p, p')$  of opposite sign of some normal immersion of an orient (but not necessarily connected) surface in an oriented 4-manifold. A (smooth) Whitney disk, in the strong sense, is a smoothly imbedded disk  $\Delta$  which meets some normally immersed surface X (possibly a disconnected one) along  $\partial\Delta$  in a Whitney circle  $\Delta \cap X = \partial\Delta \cap X = \partial\Delta$ . This intersection should be normal in the sense that any unit speed curve in X transverse to the Whitney circle is transverse to  $\Delta$ . There is also a framing condition: The section  $\theta$  of the normal bundle  $v_{\Delta \leftrightarrow M}$  given over  $\partial\Delta$  by  $\theta = \text{oriented normal to } \partial\Delta \subset \text{sheet}_{1}(X)$  over  $\partial\Delta \cap \text{sheet}_{1}(X)$ ,  $\theta = \text{an oriented complement to the 3-plane bundle } (\tau(\Delta) \oplus \tau(X))_{|\partial\Delta \cap \text{sheet}_{2}(X)}$  in the 4-plane bundle  $\tau(M)_{|\partial\Delta \cap \text{sheet}_{2}(X)}$  should extend to a global nonzero section  $\bar{\theta}$  of  $v_{\Delta \leftrightarrow M}$ . (The fact that double points have opposite sign makes  $\theta$  a section.)
+
+Let us suggest two ways of thinking about this framing condition:
+
+(1) One may use a coordinate tangent to the first frame vector to write down a formula (cf. [36], [37]) for pushing sheet $_{1}$ across $\Delta$ and push sheet $_{2}$. The choice of $\bar{0}$ assures that no new double points are introduced as we cancel those paired by the Whitney circle $\partial\Delta$.
+
+(2) Extend $\delta$ to a slightly larger 2-disk $\Delta$. Exponentiate $\nu_{\overline{\Delta} \leftrightarrow M}^{\varepsilon}$ to form a small smoothly imbedded closed 4-ball $B^{4} \subset M$. $\partial B^{4} \cap X$ will (if $\overline{\Delta} - \Delta$ and $\varepsilon$ are small enough) consist of two linking circles $S_{1}^{1} \cup S_{2}^{1} \subset S^{3}$. The linking number $\mathrm{link}(S_{1}^{1}, S_{2}^{1}) = \mathrm{sign}(p) + \mathrm{sign}(p') = 0$. The link has the form:
+
+![](images/page_80_image_6.jpg)
+
+DIAGRAM 10.1
+
+The $n$ in Diagram 10.1 is the integral obstruction $\omega \in H^{2}$ ($\Delta, \partial; \pi_{1}(\mathrm{SO}(2))$) $\cong Z$ to extending the section $\theta$ to $\bar{\theta}$. Thus for a Whitney disk $n = 0$ and $S_{1}^{1} \cup S_{1}^{2}$ is the trivial two component link. Slicing this link is tantamount to the Whitney trick cancelling $(p, p')$.
+
+Being unable to construct smooth Whitney disks in a general situation, we will use the notion of a 6-stage Whitney tower as a substitute. These are now known to contain topological 2-handles (Theorems 5.1 and 1.1) whose cores can be thought of as topological Whitney disks. That is, the core $\Delta$ is a flat disk ($= \text{extends to an imbedding of } \Delta \times R^2$) which is only assumed smooth near $\partial \Delta$; $\theta$ admits an extension to a section $\bar{\theta}$ of $\Delta$'s topological normal bundle which is only smooth near $\partial \Delta$.
+
+Definition. A Whitney tower is a 6-stage tower  $(T_{6}, \partial^{-}) \subset (M - \mathfrak{N}(X), \partial\mathfrak{N}(X))$  imbedded in a 4-manifold M minus an open tubular neighborhood of a normal immersion of a surface X with the attaching region  $\partial^{-} T_{6}$  lying in  $\partial\mathfrak{N}(X)$ . On the imbedding we impose the following two conditions which correspond to the requirement that the boundary of a Whitney disk be a Whitney circle and the framing condition:
+
+(1) The core of the attaching region $\partial^{-}T_{6}$ should lie on a circle $\gamma\subset\partial\mathfrak{N}(X)$ which projects under the collapse $\partial\mathfrak{N}(X)\to X$ to a Whitney circle $\bar{\gamma}$ in $X$.
+
+(2) Let $\mathcal{F}$ be the framing of $\nu_{\gamma \subset \partial \mathfrak{N}(X)}$ so that if a 2-handle is abstractly attached to $\mathfrak{N}(X)$ along $(\gamma, \mathcal{F})$, then $\Delta = (\text{core of the 2-handle}) \cup (\text{natural annulus (the shadow of } \gamma \text{ under collapse})$ bounded by $\gamma \amalg \gamma$ becomes a Whitney disk. Let $\gamma'$ be a parallel copy of $\gamma$ in $\partial \mathfrak{N}$, parallel in the sense of $\mathcal{F}$. The framing condition on the attachment of $T_6$ is that $\gamma$ and $\gamma'$ should have vanishing linking number in $\partial T_6$. This means that if $\gamma$ and $\gamma'$ are each made to bound singular disks $d$ and $d'$ (resp.) in $T_6$ (e.g., appropriately displaced copies of the core $c_1$), then $d \cdot d' = 0$.
+
+We need an existence theorem for Whitney towers.
+
+Theorem 10.1 (Existence of Whitney towers). Suppose that X is a normally immerse surface in M, an oriented 4-manifold, and that X is  $\pi_{1}$ -negligible in the following rather strong way: Assume that for each component  $X_{i}$  of X there is an immersed 2-sphere  $T_{i}$  (transverse to X) such that  $T_{i} \cap X_{j} = \delta_{ij}$  points and the algebraic self intersection number  $T_{i} \cdot T_{i} = even \in Z$  for all i. Suppose  $\bar{\gamma}$  is a Whitney loop pairing double points of X. If the fundamental group hypothesis stated below is satisfied, then there is a Whitney tower  $T_{6}$  attached to a  $\gamma \subset \partial\mathfrak{N}(X)$ ,  $(T_{6}, \partial) \subset (M_{6} - \mathfrak{N}(X), \partial\mathfrak{N}(X))$ , where  $\gamma$  is related to  $\bar{\gamma}$  as in the definition of Whitney tower. Furthermore,  $T_{6}$  is  $\pi_{1}$ -negligible in  $M_{6} - \mathfrak{N}(X)$ .
+
+$\pi_{1}$ -Hypothesis. There is an inclusion of smooth four-manifolds  $M \subset M_{1} \subset M_{2} \subset M_{3} \subset M_{4} \subset M_{5} \subset M_{6}$  such that each inclusion is the zero map on  $\pi_{1}$ .
+Note. We refer to the  $\pi_{1}$ -hypothesis as “multiple death.”
+
+Addendum. As with Lemma 10.1 the  $X_{i}$  can be replaced by a 2-complex with main sections with the same conventions (and modifications of proof) as in the addendum to Lemma 10.1.
+
+Proof of Theorem 10.1. The proof has, in disguised form, already been given—it is Theorem 3.2. There we were given, up to homotopy, the first stage core f, so were in no way concerned with modifying the framing ( $\equiv$  notion of linking number) that f induced on its boundary. Framing considerations did not arise until it was time to construct  $c_{2}$  the second stage core. Now, however, we wish to control the framing of the first stage, and consequently we have provided in the hypothesis of Theorem 10.2 exactly what was used in Theorem 3.2 to control the second stage framing, namely even geometric duals. q.e.d.
+
+In lectures which Casson gave in the spring of 1975 at the Institute for Advanced Study (also see [15]), he observed that the compact 5-dimensional h-cobordism theorem would follow if his open handles were shown to be smoothly standard. Here we sketch an analogous argument using the topological parameterization of Casson handles. We do this as a “warm up” for the proof of Theorem 10.4.
+
+Theorem 10.2. Let $(W; V, V')$ be a smooth 1-connected compact five dimensional h-cobordism. Then $W$ is topologically a product, $W \cong_{\text{Top}} V \times [0, 1]$.
+
+Sketch of proof. Put a handle body structure on the compact $h$-cobordism $(W: V, V')$. Follow the Appendix of [37] to replace 1-handles by 3-handles and 4-handles by 2-handles. Let $M$ be the middle level lying above the 2-handles and below the 3-handles. $M$ is 1-connected since $M \cup 3$-cells $\simeq W$. The ascending spheres $\{a_i\}$ and descending spheres $\{d_i\}$ are each $\pi_1$-negligible collections (e.g., $M \setminus \cup a_i \cong_{\text{diff}} V' \setminus (\cup \text{circles})$ and $\pi_1(V' \setminus \cup \text{circles}) \cong \pi_1(V') \cong 0$). Since the integral intersection pairing $\langle , \rangle$ between $\{a_i\}$ and $\{d_i\}$ is nonsingular, one may assume after handle passes (= row operations) among the 3-handles that $a_i \cdot d_j = \delta_{ij} \in Z$. Now $\{d_i\}$ serves as the $\{T_{a_i}\}$, and $\{a_i\}$ serves as the $\{T_{d_i}\}$ in the hypothesis of Lemma 10.1, so we may find $\{a_i'\}$ with $\{a_i'\} \cup \{d_i\}$$\pi_1$-negligible in $M$. Since $M$ is simply connected, set $M = M_1 = \cdots = M_6$. The hypotheses of Theorem 10.1 are now satisfied. Thus we obtain Whitney towers in $M$ pairing the excess intersections between $\{a_i\}$ and $\{d_i\}$. Use Theorems 5.1 and 1.1 to thread topological 2-handles ($D^2 \times D^2, \partial D^2 \times D^2) \subset (T_6, \partial^- T_6)$ through each tower. Now a topological ambient isotopy at the middle level which tapers to the identity just above the middle level moves the descending 3-manifold to cancel all excess intersection between $\{a_i\}$ and $\{d_i\}$. What results is a topological 2 and 3-handle body structure which has a standard geometric pairing. $a_i \cap d_j = \delta_{ij}$ transverse points. This cancels down to a topological product structure on $(W; V, V')$. q.e.d.
+
+We are ready for the proof of the proper $h$-cobordism theorem, stated at the beginning of the section. The proof is intricate, but it is the natural consequence of attempting to follow Siebenmann's proof in dimensions $\geqslant 6$, [44], [46] (Siebenmann's argument itself is mildly intricate). It is interesting that the
+
+more modern proofs (in dimensions  $\geqslant6$ ), e.g., [21] and [41], which analyze intersection theory on a global middle level using locally finite algebra, have not so far been generalized. The older argument accomplishes less geometry prior to handle cancellation (achieving a triangular rather than diagonal intersection pairing), and this seems, in dimension = 5, to be the margin of success. The author is indebted to Frank Quinn for many hours of discussions on the known arguments and their varied prospects in dimension five.
+
+Proof. Equivalent to the definition of proper $h$-cobordism is the existence of proper deformation retractions $r_t \colon W \to W$ and $r_t' \colon W \to W$, $r_0 = r_0' = \mathrm{id}_W$, $r_1 \colon W \to V$, $r_1' \colon W \to V'$.
+
+Using the separability of $\overline{W}$ construct a proper Morse function $f\colon W\to [0,\infty)$. Since $r_t$ and $r_t'$ are proper, for every regular value $x\in [0,\infty)$ there is another regular value $y_1 > x$ such that $r_t(f^{-1}[y,\infty))\subset f^{-1}[x,\infty)$ and $r_t'(f^{-1}[y_1,\infty))\subset f^{-1}[x,\infty)$ for all $0\leqslant t\leqslant 1$. Also the hypothesis of simple connectivity at infinity means that for sufficiently large $y_2$ loops in $f^{-1}[y_2,\infty)$ contract in $f^{-1}[x,\infty)$. Similarly, if $g$ and $g'$ are the respective restrictions of $f$ to $V$ and $V'$, there exist $y_3$ and $y_4$ so that loops in $g^{-1}[y_3,\infty)$ contract in $g^{-1}[x,\infty)$ and loops in $g'^{-1}[y_4,\infty)$ contract in $g'^{-1}[x,\infty)$. Set $y = \max [y_1,\ldots ,y_4]$. Reparameterizing $[0,\infty)$ so that $x = 1$, $y = 2$, and that in general the pair of positive integers $n$ and $n + 1$ bear the same relation to each other as we have just created between $x$ and $y$.
+
+Call  $f^{-1}[n,\infty)$ ,  $g^{-1}[n,\infty)$ ,  $g'^{-1}[n,\infty)=(W_{n},V_{n},V_{n}^{\prime})$  (throughout  $W=W_{0}$ ). We will make finitely many modifications of these triples to create certain relative connectivities and fundamental group deaths. These modifications or improvements will be progressive; nothing gained will later be given up. All but the first modification will “use up neighborhoods” that is, the improved information will only hold for the neighborhoods inverse to some infinite but proper subset of the positive integers. This subset could be spread out quite thinly toward infinity. Formally this should be handled by indexing the indexes and then the sub-indexes, etc.... We will not do this but simply imagine that  $[0,\infty)$  is reparameterized following each step so that the improved neighborhoods are still defined as inverse to  $\{[n,\infty), n$  a positive integer\}. In particular all  $(W_{n}; V_{n}, V_{n}^{\prime})$  will satisfy the conditions involving  $y_{1},\ldots,y_{4}$  arranged above.
+
+The first improvement is simply to delete from each  $W_{n}$  all its compact connected components.
+
+The second improvement together with the first will make  $\pi_{0}(V_{n}^{(')})\to\pi_{0}(W_{n})$  an isomorphism for all n>0 (the prime in parenthesis above V means that the statement holds with and without the prime. To make the map  $\pi_{0}(V_{n})\to\pi_{0}(W_{n})$  an injection, consider  $r_{1}(\gamma)\subset V_{n-1}$  where  $\gamma$  is an arc connecting the frontiers
+
+of two components of  $V_{n}$  which lie in the boundary of a single component of  $W_{n}$ . Back and forth 1-handle exchanges along  $\gamma$  realize injectivity. Similarly for  $V_{n}^{\prime}$ . See the picture below and [8] for a careful description of handle tracing.
+
+![](images/page_84_image_1.jpg)
+
+DIAGRAM 10.2
+
+What is actually exchanged are handle pairs lying in  $(W, V)$  of index = 1 and dimension = (5.4), It is easy to see how to get by with one exchange per arc  $\gamma$ , but it is the back and forth method which is generalized in improvement (3). Surjectivity is automatically satisfied since a (noncompact!) component of  $W_{n}$  not bounded by  $V_{n}^{(')}$  would imply that the map between the space of ends  $\operatorname{End}(V^{(')}) \to \operatorname{End}(W)$  is not onto, but this map must be an isomorphism.
+
+The third improvement is to make $\pi_1(W_n V_n^{(')}) \cong 0$ for all $n > 0$. This is done by a back and forth handle exchange argument similar to the previous improvement; only now 2-handles are involved. The inductive step is to let $\Delta$ be an imbedded homotopy (given by $r_t$) of an arc $(\gamma, \partial)$ in $(W_n, V_n^{(')})$ to an arc $(\gamma', \partial) \subset (V_{n-1}^{(')}, V_n^{(')})$. Assume $\Delta$ is transverse to frontier $(W_n)$. A sequence of 2-handle exchanges along all the sub-disks of $\Delta$ bounded by $(\Delta \cap \mathrm{Fr}(W_n)) \cup \partial \Delta$ imbeds the original homotopy $\Delta$ within $W_n$. It follows quickly from compactness of $\mathrm{Fr}(W_n)$ that only finitely many operations as above are necessary to make $\pi_1(W_n, V_n^{(')}) \cong 0$.
+
+At this point we introduce a crucial asymmetry. Let $\partial^{-}W_{n} = \operatorname{Fr}(W_{n})\cup V_{n}^{\prime}$, $\partial^{+}W_{n} = V_{n}$ for $n$ odd $\geqslant 1$ and $\partial^{-}W_{n} = \operatorname{Fr}(W_{n})\cup V_{n},\partial^{+}W_{n} = V_{n}^{\prime}$ for $n$ even $\geqslant 2$.
+
+To simplify notation we will discuss the case n = odd, the other case being similar. The fourth improvement is to make  $H_{2}(W_{n}, \partial^{-} W_{n}; Z) \cong 0$ . Do this by subtracting 2-handles representing a generating set. Such a set can be taken to
+
+be finite since the pair  $(W_{n}, \partial^{-} W_{n})$  is compactly commensurate with the trivial pair  $(W, V')$  (for n = odd). That is to say the two pairs are related by a triple, one pair of which is equivalent by excision to a compact pair and therefore is acyclic mod the category of finitely generated Z-modules. Specifically we have:
+
+$$
+\begin{array}{r l}H _ {k} \big (\overline {{W - W _ {n}}}, \overline {{v ^ {\prime} \setminus V _ {n} ^ {\prime}}} \big)&\underset {\text {ex}} {\rightarrow} H _ {k} (W, V ^ {\prime}) \underset {\text {ex}} {\rightarrow} H _ {k} (W _ {n}, \partial^ {-} W _ {n})\\&\cong \bmod \mathcal {C}\\&0\\&\overset {\partial} {\rightarrow} H _ {k - 1} \big (\overline {{W \setminus W _ {n}}}, \overline {{V ^ {\prime} \setminus V _ {n} ^ {\prime}}} \big)\\&\cong \bmod \mathcal {C}\\&0\end{array}
+$$
+
+The fifth improvement, to make  $\pi_{1}(\mathrm{Fr}\;W_{n})\cong0$  for all n, is accomplished by the back and forth trading of 5-dimensional 2-handles in interior (W) and with attaching region in  $\mathrm{Fr}(W_{n})$ . This will not affect the first four improvements. (Following Siebenmann [46], homotopy groups of disconnected spaces will mean the direct sum of fundamental groups of the components.) Finiteness of the procedure follows from the compactness of  $\mathrm{Fr}(W_{n})$ . A consequence of the fifth improvement is that  $\pi_{1}(W_{n})\cong0$  for all  $n\geqslant1$ .
+
+![](images/page_85_image_3.jpg)
+
+"Back and forth" 2-handle trade
+
+DIAGRAM 10.3
+
+Up to this point the fact that  $\dim W = 5$  has not presented a problem. The sixth and final improvement in Siebenmann's program should be the annihilation of the free module  $H_{3}(W_{n}, \partial^{-}W_{n}; Z)$  by subtracting handles exactly representing a basis. This step even in high dimensions requires rearranging the handle body structure of  $(W_{n}, \partial W_{n})$  via a Whitney trick. After this is done, the high-dimensional proof is completed by trivializing the infinitely many compact h-cobordisms into which W has been divided. In dimension five we encounter a technical problem in that we have only Whitney towers, not smooth Whitney disks. This requires a significant departure from the high dimensional argument. Having found the Whitney towers and within these (Theorems 5.1 and 1.1) topological 2-handles (= topological Whitney disks)
+
+we defer until the end of the proof the actual (topological) Whitney isotopy. We do this to stay in the smooth category on which we depend for the final construction: So what follows is not a “sixth improvement” but preparatory work for a grand cancellation at the end of the proof.
+
+Taking our first five “improvements” as a starting point, we will lay out a blueprint of the structure which we intend to impose on  $(W; V, V')$ , and then list the design specifications of the constituent pieces. Understanding what the pieces are supposed to do is actually more difficult than the proof that the specifications can be met—this comes next. Finally, we will see how the specifications feed into the hypothesis of Lemma 10.1 and Theorem 3.2 to construct Whitney towers in certain middle levels. As in the compact case they are the key to creating the topological product structure.
+
+Let $z_{n} = \overline{W_{n} \setminus W_{n+1}}$, $n \geqslant 0$, and $\partial^{+}z_{n} = \overline{z_{n} \cap V}$, $\partial^{-}z_{n} = \overline{\partial z_{n} \setminus \partial^{+}z_{n}}$ for $n =$ odd and $\partial^{-}z_{n} = \overline{z_{n} \cap V'}$, $\partial^{+}a_{n} = \overline{\partial z_{n} \setminus \partial^{-}z_{n}}$ for $n =$ even.
+
+![](images/page_86_image_3.jpg)
+
+DIAGRAM 10.4
+
+Redrawing the W so  $\partial^{-}z_{odd}$  and  $\partial^{+}z_{even}$  lie in a single “level” (of some handle structure soon to be determined) we have:
+
+![](images/page_86_image_6.jpg)
+
+Vertical boundary represents (3-manifold) x interval.
+
+DIAGRAM 10.5
+
+It will be convenient to alter this picture of W by adding certain thin “slabs” near various junctures. A “slab” will simply mean a product  $M^{4} \times [0,1]$  (or  $M^{4} \times [0,2]$ ) where  $M^{4}$  is some compact submanifold of  $\partial W$ . Whether stuck on or carved out, these slabs are just relative collars along the boundary and do not change the diffeomorphism type of W. The shading in Diagram 10.5 indicates the interval product lines in the slabs.
+
+In addition to the slabs Diagram 10.4 indicates certain compact submanifolds “blocks”  $B_{i} \subset z_{i}$  which carry the relative homology we would like to remove (cf. Siebenmann’s sixth improvement). The slabs and blocks use up
+
+many neighborhoods of infinity so we have, of course, reparameterized between Diagrams 10.5 and 10.6.
+
+Below is a representative chunk of W.
+
+![](images/page_87_image_2.jpg)
+
+DIAGRAM 10.6
+
+Specifications:
+
+0. Diagram 10.6 accurately represents incidence, i.e., two regions meet in the diagram, iff they meet.
+
+1. Shadings represent pt × I in product structure of slabs.
+
+2. Regions represented as having vertical sides possess a product (with I) structure there and have a naturally defined upper and lower portion of boundary  $\partial^{+}$  and  $\partial^{-}$ .
+
+3. $\pi_1(\partial^+ B_i) \to \pi_1(B_i) \to 1\pi_1(\partial^- B_i)$ are isomorphisms for all $i$. ($B_i, \partial^- B_i$) has a 2 & 3-handle body structure with the boundary map of the integral chain complex generated by these handle identically zero:
+
+$$
+0 \rightarrow H _ {3} \left(B _ {i}, \partial^ {-} B _ {i}\right)\rightarrow C _ {3} \stackrel {\partial \equiv 0} {\rightarrow} C _ {2} \rightarrow 0
+$$
+
+Furthermore the handle basis of  $C_{3}$  is required to represent a basis for  $H_{3}(W_{i},\partial^{-}W_{i};Z)$ .
+
+4. $X_{i} = \overline{z_{i} - B_{i}}$. $\pi_1(\partial^+ X_i) \to \pi_1(X_i) \to 1\pi_1(\partial^- X_i)$ are isomorphisms for all $i$.
+
+5. We represent certain compact 4-manifolds with boundary by a string of numbers under a bar as line segments are represented in plane geometry. The numbers refer to the vertex labels in Diagram 10.6. We require that:
+
+$$
+\pi_ {1} \left(\overline {{0 1 _ {0} 2 _ {0}}}\right)\rightarrow \pi_ {1} \left(\overline {{0 1 _ {0} 2 _ {0} 3 _ {0}}}\right),
+$$
+
+$$
+\pi_ {1} \big (\overline {{{{5 _ {i} 6 _ {i}}}}} \big) \rightarrow \pi_ {1} \big (\overline {{{{4 _ {i} 5 _ {i} 6 _ {i} 7 _ {i}}}}} \big), \quad i \geqslant 1,
+$$
+
+$$
+\pi_ {1} \left(\overline {{9 _ {i} 1 _ {i} 2 _ {i}}}\right)\rightarrow \pi_ {1} \left(\overline {{8 _ {i} 9 _ {i} 1 _ {i} 2 _ {i} 3 _ {i}}}\right), \quad i \geqslant 1
+$$
+
+are all seven-fold maps. That is, in each of the above cases the indicated inclusions factor through seven (7) compact manifolds (the seventh being the space at the right-hand side of arrow) with each successive inclusion inducing the zero map on  $\pi_{1}$ . The slabs (with the exception of  $S_{i}^{3}$ ) inherit this seven part structure.
+
+The first specification requiring comment is #3.  $H_{3}(W_{n}, \partial W_{n}; Z)$  is the only nonzero relative module, and consequently it is projective and therefore free. Since it is finitely generated, a basis is represented in some compact region  $\overline{W_{n} \setminus W_{n+k}} = Y$ . Y should be thought of as a first approximation to B. We have temporarily discarded the subscript. If n is odd, call  $\partial^{-}Y = \overline{V_{n}' \setminus V_{n+k}'} \cup Fr W_{n}$  and  $\partial^{+}Y = \overline{V_{n} \setminus V_{n+k}} \cup Fr W_{n+k}$ . For n even, exchange V and  $V'$  in the above. The height function should be thought of as inverted in the case n even to match this labeling. A simple Van Kampen argument using improvement #5 shows that  $\pi_{1}(Y) \cong 0$  (for every  $Y = W_{n} \setminus W_{n+k}$ ).
+
+![](images/page_88_image_2.jpg)
+
+DIAGRAM 10.7
+
+Another Van Kampen argument using the simple connectivity of W, V, and  $V'$  shows that two slabs can be glued on V and  $V'$  as shown in Diagram 10.7 (toward and away from  $\infty$ ) so that if + denotes this addition, then  $\pi_{1}(\partial^{-}Y) \to \pi_{1}(\partial^{-}Y^{+})$ ,  $\pi_{1}(\partial^{+}Y) \to \pi_{1}(\partial^{+}Y^{+})$ , and  $\pi_{1}(Y) \to \pi_{1}(Y^{+})$  are all three zero. It follows quickly that
+
+$$
+\pi_ {1} \left(\partial^ {-} Y ^ {+}\right)\rightarrow \pi_ {1} \left(Y ^ {+}\right) \leftarrow \pi_ {1} \left(\partial^ {+} Y ^ {+}\right)
+$$
+
+are isomorphisms. Note that the two slabs are not necessarily connected. However, the component graphs associated to  $Y^{+}$ ,  $\partial^{+}Y^{+}$ , and  $\partial^{-}Y^{+}$  are trees, so Van Kampen's theorem applies as in the case of connected intersection.  $Y^{+}$  is the second approximation to B.
+
+Give $(Y^{+},\partial^{-}Y^{+})$ a 2- & 3-handle body structure. If the handles are thought of as generation of chain groups, we have an exact sequence
+
+$$
+0 \to H _ {3} \big (W _ {n}, \partial^ {-} W _ {n} \big) \to C _ {3} \stackrel {\partial} {\to} C _ {2} \to 0.
+$$
+
+There is no obstruction to sliding 3-handles over each other to realize generators for this kernel by a collection of 3-handles $\{x's\}$. Let $B$ be the handle
+
+body consisting of all the 2-handles in the above structure union $\{x$'s\}. (A slight modification to $B$ will be made after we arrange specification #4.)
+
+The inclusion of  $\partial^{-}Y^{+}=\partial^{-}B$  into B still induces an isomorphism on  $\pi_{1}$  since the deleted 3-handles did not affect  $\pi_{1}$ . To check that the upper boundary  $\partial^{+}B_{i}$  of  $B_{i}$  induces an isomorphism on  $\pi_{1}$  observe that the deleted 3-handles of  $Y^{+}$ are trivially attached 2-handles when regarded as being attached to  $\partial^{+}Y^{+}$ , so deleting then does not change  $\pi_{1}$  of the upper boundary. This arranges specification number 3.
+
+Geometrically, the boundary map in the above exact sequence is given by intersection number with ascending 2-spheres, so $\{x$'s\} have zero ($\in$ integers) algebraic intersection with $\{a\}$, with ascending spheres of the 2-handles.
+
+For specification #4 consider the region  $\overline{W_{n+k} \setminus W_{n+k+l}}$  where l is a sufficiently large odd number so that the slab pointing toward the end belonging to  $Y^{+} \setminus Y$  is contained in  $\overline{W_{n+k} \setminus W_{n+k-l}} = Q$ . Shortly we will require l to be even larger, but for specification #4 this suffices.
+
+An easy Van Kampen argument using $\pi_1(V) \cong \pi_1(V') \cong 0$ and $\pi_1(\mathrm{Fr}W_{n + k}) \cong \pi_1(\mathrm{Fr}W_{n + k + l}) \cong 0$ shows that slabs can be added along $V$ (for $n = \text{odd}$, $V'$ for $n = \text{even}$) to make $Q^+ = W_{n + k} \setminus W_{n + k + l} \cup$ slabs with $\pi_1(\partial^- Q^+) \to \pi_1(Q^+) \leftarrow \pi_1(\partial^+ Q^+)$ isomorphisms. To conform to the illustration (Diagram 10.5) one should enlarge the slab away from $\infty$ in this and/or in the prior step (establishment of specification number 3) to obtain the alignment, shown in Diagram 10.5, over the points $5_i$.
+
+Product 3-manifold × I:—
+
+![](images/page_89_image_6.jpg)
+
+DIAGRAM 10.8
+
+Give $(Q^{+},\partial^{-}Q^{+})$ a 2- & 3-handle body structure. By sliding underneath this handle body the 3-handles of $Y^{+}\setminus \dot{B}$ and reordering the levels we find a 2- & 3-handle decomposition for $X = \overline{Z\setminus B}$, where $Z = \overline{W_{n}\setminus W_{n + k + l}}\cup$ (slabs so far constructed). The inclusions $\pi_1(\partial^- X)\to \pi_1(X)\to \pi_1(\partial^+(X))$ are fundamental group isomorphisms since the 3-handles we slipped underneath are (when regarded upsidedown) trivially attached because $\pi_1(\partial^+ Y^+) \to \pi_1(Y^+)$ is an isomorphism. This 2- & 3-handle structure on $X$ will be important later.
+
+The final specification is #5.
+
+So far we have constructed everything in Diagram 10.6 except the slabs $S_{i}^{1}, \ldots, S_{i}^{6}$. This will require space, that is, on another reparameterization of $[0, \infty)$. This means, for example, the extent of $X_{1}$ to the right (that is, the size of the odd number $= l$) will not be determined until the slab $S_{1}^{5}$ is constructed. The slab $S_{i}^{3}$ is simply $(\overline{\partial^{-}B_{i}\setminus\partial^{+}Z_{i-1}})\times[0,1]$.
+
+Slabs away from infinity  $S_{i}^{2}$ ,  $S_{i}^{4}$ , and  $S_{i}^{6}$  will simply consist of a product over the closed difference between seven improved (improvements #1-5) neighborhoods of infinity  $(V_{n}^{(')} \setminus V_{n+7}^{('}) \times \text{Interval}$ , the interval being [0, 1], [1, 2], or [0, 2], whichever matches Diagram 10.6.
+
+The remaining slabs toward infinity are essentially determined by specification #5. To say exactly what this means, let  $\infty(\infty')$  represent the ends of  $V(V')$ . It is easy to check that, in the notation for Diagram 10.5, the following maps are zero:
+
+(1) $\pi_1(\overline{01_02_0})\to \pi_1(\overline{01_02_0\infty'})$
+
+(2) $\pi_1(\overline{5_i6_i})\to \pi_1(4_i^{1 / 7}5_i6_i7_i8_i\infty^{(')})$, for all $i$, and
+
+(3) $\pi_1(\overline{9_i 1_i 2_i}) \to \pi_1(8_{9i}^{1/7} 1_i 2_i, \infty^{(')})$, for all $i$,
+
+We have used fractions to correspond to a factor of an inclusion which induces “multiple  $\pi_{1}$ -death.”
+
+Begin by considering (2) for $i=1$. By compactness of the source space, some finite terminus $\mathrm{Fr}(V_{n}^{(')})$, some $n$ can be found to replace $\infty^{(')}$ and still induce the zero map. Label the terminus $7_{1}^{1/7}$. Similarly, $\pi_{1}(5_{1}6_{1}7_{1}^{1/7}) \to \pi_{1}(4_{1}^{2/7}5_{1}6_{1}7_{1}8_{1}, \infty')$ is zero and so $7^{2/7}$ can be found to replace $\infty^{(')}$ in the above statements. Continuing in this way the slab $S_{1}^{1}$ is determined by: $\partial^{-}S_{1}^{1}=\overline{6_{1}7_{1}^{1/2}7_{1}^{2/7}}\cdots 7_{1}^{7/7}$ with $7_{1}^{7/7}=7_{1}$.
+
+Next consider (1) above, $S_1^5$ is determined by the condition $\partial^{+}(S_{1}^{5}) = \partial^{-}S_{1}^{1} \cup \text{collar}$. The collar comes from seven closed differences $V_{n}^{\prime} - V_{n + k_{i}}^{\prime}, 1 \leqslant i \leqslant 7$, where each difference is large enough to allow a fundamental group death
+
+$$
+\pi_ {1} \overline {{\left(0 1 _ {0} 2 _ {0} 3 _ {0} ^ {j / 7}\right)}} \stackrel {\text { zero }} {\rightarrow} \pi_ {1} \overline {{\left(0 1 _ {0} 2 _ {0} 3 _ {0} ^ {j + 1 / 7}\right)}}.
+$$
+
+Now the slabs with subscript = 1 are constructed. Mark off 16 closed differences toward infinity  $\overline{V_{n}^{\prime}\setminus V_{n+16}^{\prime}}$  to allow room for the slabs  $S_{2}^{2}$ ,  $S_{2}^{4}$ , and  $S_{2}^{6}$ . ( $16 = 1 + 1 + 7 + 7$ , one needs to construct  $Y_{2}^{+}$ from  $Y_{2}$ , one needs to construct  $Q_{2}^{+}$ from  $Q_{2}$ , seven for  $S_{2}^{2}$ , and seven for  $S_{2}^{6}$ .)
+
+Next construct the slabs with subscript = 2 and make  $X_{2}$  extend far enough to allow for the slabs with subscript = 3 and even superscript. Continuing in this way one may impose the pattern of Diagram 10.5 with its specifications #1-5 on  $(W; V, V')$ .
+
+We will use the natural fractional notation to denote the part of a slab which lies over the first-constructed portion:  $\frac{1}{7}S_{i}^{1}$ ,  $\frac{1}{7}S_{i}^{2}$ ,  $\frac{1}{7}S_{i}^{6}$ ,  $\frac{1}{7}S_{i+1}^{5}$ , etc.
+
+Let us make the convention that the handle body structures of  $B_{i}$  and  $X_{i}$  are considered to be turned upside-down when i is even.
+
+Inside each $B_{i}$ (we will drop the subscript) there is a middle level $N$ between the two and three handles. Forming $B \cup \frac{1}{7} S^{1} \cup \frac{1}{7} S^{2}$ we form a new 5-manifold with a natural handle structure on it whose middle level can be thought of as $N^{1/7}$ extending $N$. In $N$ we know that the $\{\partial X's\}$ and $\{a's\}$ (the descending 2-spheres and ascending 2-spheres, resp.) have integral intersections zero; in $N^{1/7}$ we know that the intersections are zero over the fundamental group ring. The Lemma 10.2 below enables us to apply Lemma 10.1 to find Casson moves (in $N^{1/7}$) between the two collections so that $\{\partial X's\} \cup \{a's\}$ is $\pi_{1}$-negligible in $N^{1/7}$. The triviality of the intersections over $Z[\pi_{1}]$ is preserved by these Casson moves. Now add the remaining 6 mini-slabs of $S^{1}$ and $S^{2}$ to obtain a 5-manifold $B \cup S^{1} \cup S^{2}$ with a natural middle level $N^{1}$ extending $N^{1/7}$. Theorem 10.1 can now be applied to find disjointly imbedded $\pi_{1}$-negligible Whitney towers $\{T\}$ pairing the intersections between the spheres of $\{\partial W's\}$ and $\{a's\}$.
+
+Let $\{d's\} = \{\partial X's\}$ denote the descending spheres.
+
+Lemma 10.2. In N there are second homology classes  $\{T_{d}\}$  and  $\{T_{a}\}$  with integral intersections  $d_{k} \cdot T_{d_{j}} = \delta_{kj} = a_{k} \cdot T_{a_{j}}$  and  $d_{k} \cdot T_{a_{j}} = a_{k} \cdot T_{d_{j}} = 0$ , for all k, j. When included into  $N^{1/7}$  these become the spherical duals required in the hypothesis of Lemma 10.1.
+
+Proof. $d_k$ represents a class $[d_k] \in H_2(\partial^- W_i; Z)$. It is sufficient to find classes $[e_j] \in H_2(\partial^- W_i; Z)$ with $[d_k] \cdot [e_j] = \delta_{kj}$. For floating the $e_j$'s to $N$ we will have intersections formulas in $H_2(N; Z)$:
+
+$$
+\left\langle d _ {k} \right\rangle \cdot \left\langle e _ {j} \right\rangle = \delta_ {k j}, \left\langle e _ {j} \right\rangle \cdot \left\langle a _ {k} \right\rangle = 0, \text { for   all } k, j.
+$$
+
+$\langle e_j \rangle$ will serve as $T_{d_j}$ and the desired $T_{a_j}$ can be produced from any dual to $a_k$ by adding an appropriate linear combination of $\langle e_j \rangle$'s and $\langle d_k \rangle$'s (for this use $\langle d_k \rangle \cdot \langle a_j \rangle = 0$ for all $k, j$).
+
+Lefshetz duality implies that the existence of  $\{[e_{j}]\}$  is equivalent to the claim  $\{[d_{k}]\}$  is a basis for a summand of  $H_{2}(\partial^{-}W_{i},\partial(\partial^{-}W_{i})\cup\mathrm{end}(\partial^{-}W_{i});Z)/\mathrm{torsion}$ . (We continue to consider only the case i=odd.)
+
+To show this, one first shows $\{[d_k]\}$ is a basis for a summand $\Delta$ of $H_2(\partial^- W_i; Z)/\text{Torsion}$. If any nontrivial linear combination of $\{[d_k]\}$ bounds, then the same linear combination of descending 3-manifolds can be capped off to form a 3-cycle in $W$ with a relative rational dual consisting of some ascending 2-manifold whose dual is represented in the linear combination. This is impossible in an $h$-cobordism. Thus the $[d_k]$'s are linearly independent. The
+
+same consideration replacing integral with  $Z_{p}$  coefficients for all primes p shows that the  $[d_{k}]$ 's generate a summand  $\Delta$ .
+
+It is now necessary and sufficient to check (using coefficients Z and  $Z_{p}$ ) that no nontrivial linear combination of the  $[d_{k}]$ 's is in the image of  $H_{2}(\partial(\partial^{-}W_{i})\cup\text{end}\partial^{-}W_{i})$ . In this case we cap off the nontrivial combination of ascending 3-manifolds to form a relative 3-cycle in  $H_{3}(W,V\cup\text{end}W)$ . Some ascending 2-manifold whose dual is represented in the linear combination can be capped off in interior  $V_{i}$  to form a 2-cycle in  $H_{2}(W)$  rationally dual to the relative 3-cycle. Again this cannot happen in an h-cobordism.
+
+![](images/page_92_image_2.jpg)
+
+DIAGRAM 10.9
+
+Consider the union $K = \{\partial X's\} \cup \{a's\} \cup \{\text{spine } T's\}$ and $K^{+} = K/\text{surgery on } \{\partial X's\}, K^{-} = K/\text{surgery on } \{a's\}. K^{+}$ is the result of pushing $K$ via the associated gradient-like Morse flow into $\partial^{+}B$, and $K^{-}$ is the result of pushing $K$ to $\partial^{-}B$. Now without meeting any singularity we can keep pushing $K_{i}^{+} \cup K_{i+1}^{-}$ to $M_{i}^{1}$, the mid-level of $X_{i} \cup S_{i}^{4} \cup S_{i+1}^{3}$.
+
+In $M_i^1$ we see a disjoint collection of honest ascending 2-spheres; disjoint from these we see immersed complexes, these are the components of $K_i^+ \cup K_{i+1}^-$. The spheres are the ascending spheres of the 2-handles of our handle body structure on $X_i$. Call the total collection $\{A's\}$. $\cup A's$ is easily checked to be $\pi_1$-negligible in $M_i^1$ (note that: $K_i^+$ is $\pi_1$-negligible in $\partial^+ B_i$, and $K_{i+1}^-$ is $\pi$-negligible in $\partial^- B_{i+1}$). Also in $M_i^1$ we see $\{D's\}$ the descending 2-spheres of the 3-handles of $X_i$. These are separately $\pi_1$-negligible collections, and the nonspheres of $K_i^+ \cup K_{i+1}^-$ are complexes possessing main sections.
+
+To check this last ascension it is only necessary to work out the general form of such a complex. It is formed by: taking a sphere with an even number of round open disks deleted; identify the boundary components in pairs with total orientation = 0, attach the spines of 6-stage towers to kill the half basis of loops formed from arcs connecting identified disk boundaries. Clearly all intersections with another 2-complex can be deformed into a patch contained in the punctured sphere portion.
+
+We will check that the pairing $\langle ,\rangle$ in $M_i'$ between $\{A$'s\} and $\{D\}'s\}$ is nonsingular over the integers. Suppose this is done; we postpone this verification. Change $\{D\}'s\}$ by handle passes so that $\langle ,\rangle$ is given by $\delta_{ij}$.
+
+Form $X_{i} \cup S_{i}^{4} \cup \frac{1}{7} S_{i}^{6} \cup S_{i+1}^{3} \cup \frac{1}{7} S_{i+1}^{5}$, and call $M_{i}^{8/14}$ the corresponding extension of the middle level of $X$. In $M^{8/14}$, $\langle A's, D, s \rangle$ is $\delta_{ij}$ over the fundamental group ring. Since the self-intersection of any $D$ or $A$ is zero (hence even), we can regard the $A's$ as suitable duals for the $D's$ and the $D's$ as duals for the $A's$. All the hypotheses of Theorem 10.1 are now satisfied. In the extended middle level $M_{i}^{2}$ of $X_{i} \cup S_{i}^{4} \cup S_{i}^{6} \cup S_{i+1}^{3} \cup S_{i+1}^{5}$, we may insert Whitney towers $T''s$ pairing all the excess geometrical intersections. We obtain a $\pi_{1}$-negligible collection $\{D\} \cup \{A\} \cup \{T''s\} \subset M^{2}$.
+
+We must return to check that the pairing $\langle ,\rangle$ in $M^1$ is non-singular over $Z$. Consider $W\times I$. In fact, cross the entire decomposition of $W$ (diagram 10.6) with $I$ to obtain a decomposition of $W\times I$. This possesses an obvious generalized Morse function with interval critical manifolds replacing the original critical points in $W$. By “bending upward” the interval direction we obtain an honest handle structure (or Morse function) on $W\times I = \overline{W}$ which combinatorically is “parallel” to the handle structure on $W$. However, dimension $\overline{W} = 6$, so we can apply the sixth improvement in Siebenmann’s program which previously was frustrated by the lowness of dimension ($W$). Thus the three handles corresponding to $\{X_i\}$ may be subtracted from every $z_i$. The resulting chunk $\overline{Z}_i$ satisfy $\overline{Z}_i = (z_i - 3$-handles) $\cup$ 2-handles. The 3-handles correspond to $\{X_i$'s\}. The 2-handles correspond to $\{X_{i+1}$'s\} turned upside-down; what is subtracted from $Z_{i+1}$ must be added to $Z_i$. Siebenmann [46] shows by a simple excision argument that each $\overline{Z}_i$ is a $Z$-homology $H$-cobordism. $\overline{Z}_i$ is a 2- & 3-handle body, so necessarily the intersection pairing between the ascending $\{\overline{A}$'s\} and descending $\{\overline{D}$'s\} spheres in the middle level (which is simply the boundary between the relative chain groups $C_3\stackrel{\partial}{\to}C_2$) is an isomorphism. However, there are natural 1-1 correspondences $\{\overline{D}$'s\} $\leftrightarrow$$\{D$'s\} and $\{\overline{A}$'s\} $\leftrightarrow$$\{A\}'s\}$ which preserve the intersection pairing. This establishes the nonsingularity of $\langle ,\rangle$.
+
+We come to the final step of the proof. Through each Whitney tower thread a topological 2-handle (by Theorems 5.1 and 1.1). By “each” we mean all T’s contained in  $K_{i}^{+}$  and  $K_{i+1}^{-}$ , which we slid into  $M_{i}^{1}$ , and all the T’s, which we constructed in  $M_{i}^{2}$ . Now take these topological 2-handles and slide them along gradient lines of the Morse function back into the level in which their containing tower was first constructed. This means the T”s are not moved, a  $T \subset K_{i}^{+}$  is slid into  $N_{i}^{1} \subset B_{i} \cup S_{i}^{2} \cup S_{i}^{1}$ , and a  $T \subset K_{i+1}^{-}$  is slid into  $N_{i+1}^{1} \subset B_{i+1} \cup S_{i+1}^{2} \cup S_{i+1}^{1}$ .
+
+Now the topological coordinates of the 2-handles allows the usual formula to produce “Whitney tricks” at all the levels  $N_{i}^{1}$  and  $M_{i}^{2}$ . These Whitney tricks amount to an ambient topological isotopy G of descending 3-manifolds. When
+
+the isotopy is completed, we find the three handles  \( \{X\_{i} \) 's\} and  \( \{X\_{i+1} \) 's\} (the later are, of course, 3-handles with respect to the inverted handle structure) are off (not intersecting) the 2-handles in  \( B\_{i} \)  and  \( B\_{i+1} \) . Thus the “sixth improvement” is belatedly accomplished by exchanging these topological 3-handles. We obtain  \( \underline{Z}\_{i} = (Z\_{i} - 3 \) -handles  \( \{\mathcal{G}X\_{i} \) 's\}) \cup 2 \) -handles  \( \{\mathcal{G}X\_{i+1} \) 's\}.
+
+Indeed  $Z_{i}$  is a compact h-cobordism, but it is only a topological manifold, so we would now be hard pressed to continue the argument except that we have prearranged  $Z_{i}$  to have a cancelling 2- and 3-handle body structure. In fact the ascending and descending spheres of this structure are  $\{D's\}$  and  $\{A's\}$  (actually these A's coming from upside down 3-handles in  $B_{i+1}$  are also moved by I) which meet according to the formula  $D_{k} \cap A_{j} = \delta_{kj}$  standard transverse points. Since the Morse cancellation lemma proceeds in the topological category each  $(Z_{i}; \partial^{-} Z_{i}, \partial^{+} Z_{i})$  is a topological product.
+
+The proof is completed by observing that a product structure on  $(W; V, V')$  is obtained by following (never through more than two  $Z_{i}$ 's) the product structures in each  $Z_{i}$ .
+
+## References
+
+[1] S. Armentrout, Cellular decompositions of 3-manifolds that yield 3-manifolds, Mem. Amer. Math. Soc. No. 107, 1970.
+
+[2] S. Akbulut & R. Kirby, Mazur manifolds, Michigan Math. J. 26 (1979) 259–284.
+
+[3] J. J. Andrews & L. Rubin, Some spaces whose products with  $E^{1}$  is  $E^{4}$ , Bull. Amer. Math. Soc. 71 (1965) 675–677.
+
+[4] R. J. Bean, Decompositions of $E^3$ with a null sequence of starlike equivalent nondegenerate elements are $E^3$, Illinois J. Math. 11 (1967), 21-23.
+
+[5] R. H. Bing, Upper semicontinuous decompositions of  $E^{3}$ , Ann. of Math. 65 (1957), 363–374.
+
+[6] \_\_\_\_, The cartesian product of a certain non-manifold and the line is  $E^{4}$ , Ann. of Math. 70 (1959) 399–412.
+
+[7] W. Browder, Surgery on simply-connected manifolds, Ergebnisse Math. und ihrer Grenzgebiete, Vol. 65, Springer, Berlin, 1972.
+
+[8] W. Browder, J. Levine & G. Livesay, Finding a boundary for an open manifold, Amer. J. Math. 87 (1965) 1017-1028.
+
+[9] M. Brown, A proof of the generalized Schoenflies theorem, Bull. Amer. Math. Soc. 66 (1960) 74–76.
+
+[10] M. Brown & H. Gluck, Stable structures on manifolds. I, II, III, Ann. of Math. 79 (1964) 1-58.
+
+[11] J. Bryant & C. Seebeck, Locally nice imbeddings in codimension three, Quart. J. Math. Oxford Ser. 21 (1970) 265–272.
+
+[12] S. Cappell, R. Lashof & J. Shaneson, A splitting theorem and the structure of 5-manifolds, 1st. Maz. Mat. Sympos. Mat. 10 (1972) 47–58.
+
+[13] S. Cappell & J. Shaneson, On topological knots and knot cobordism, Topology 12 (1973) 33–40.
+
+[14] \_\_\_\_, On four-dimensional surgery and applications, Comment. Math. Helv. 46 (1971) 500–528.
+
+[15] A. Casson, Three lectures on new infinite constructions in 4-dimensional manifolds, Notes prepared by L. Guillou, Prépublications Orsay 81 T 06.
+
+[16] J. Cerf, La nullité de  $\pi_{0}(\text{Diff } S^{3})$ , Séminaire H. Cartan, 1962/63, Exp. 9, 10, 20, 21.
+
+[17] \_\_\_\_, Sur les difféomorphismes de la sphere de dimension trois ( $\Gamma_{4}=0$ ), Lecture Notes in Math. Vol. 53, Springer, Berlin, 1968.
+
+[18] R. Edwards, The topology of manifolds and cell like maps, Proc. Internat. Congress Math. Helsinki, 1978, 111–128.
+
+[19] \_\_\_\_, Dimension theory. I, Lecture Notes in Math. Vol. 438, Springer, Berlin, 1975, 195–211.
+
+[20] R. Edwards & R. Kirby, Deformations of spaces imbeddings, Ann. of Math. 93 (1971), 63-88.
+
+[21] F. Farrel & J. Wagnor, Lecture on a proof of the proper-h-cobordism theorem, University of California, Berkeley, 1972.
+
+[22] M. H. Freedman, A fake $S^3 \times R$, Ann. of Math. 110 (1979) 177-201.
+
+[23] \_\_\_\_, A surgery sequence in dimension four; the relations with knot concordance, Invent. Math., to appear.
+
+[24] M. H. Freedman & R. Kirby, A geometric proof of Rochlin's theorem, Proc. Sympos. Pure Math. Vol. 32, Part 2, 1978, 85–98.
+
+[25] M. H. Freedman & F. Quinn, Slightly singular 4-manifolds, Topology 20 (1981) 161–173.
+
+[26] D. Galewski & R. Stern, Classification of simplicial triangulations of topological manifolds, Ann. of Math. 111 (1980) 1-34.
+
+[27] M. Hirsh & B. Mazur, Smoothing piecewise linear manifolds, Annals of Math. Studies No. 80, Princeton University Press, Princeton, 1974.
+
+[28] T. Homma, On the imbedding of polyhedra into manifolds, Yokohama Math. J. 10 (1962) 5–10.
+
+[29] R. Kirby, On the set of nonlocally flat points of a submanifold of codimension one, Ann. of Math. 88 (1968) 281-290.
+
+[30] \_\_\_\_, A calculus for framed links in  $S^{3}$ , Invent. Math. 45 (1978) 35–56.
+
+[31] R. Kirby & M. Scharlemann, Eight faces of the Poincaré homology 3-sphere, Geometric Topology, edited by J. C. Cantrell (Athens, Georgia 1979), Academic Press, New York, 1979, 113–146.
+
+[32] R. Kirby & L. Siebenmann, On the triangulation of manifolds and the Haupvermutung, Bull. Amer. Math. Soc. 75 (1969) 742-749.
+
+[33] \_\_\_\_, Foundational essays on topological manifolds, smoothings, and triangulations, Annals of Math. Studies No. 88, Princeton University Press, Princeton, 1977.
+
+[34] F. Laudenbath, Sur les 2-sphères d'une variété de dimension 3, Ann. of Math. 97 (1973) 57–81.
+
+[35] D. R. McMillan, A criterion for cellularity in a manifold, Ann. of Math. 79 (1964) 327-337.
+
+[36] J. Milnor, On simply connected 4-manifolds, Internat. Sympos. on Algebraic Topology, 1958, 122-128.
+
+[37] \_\_\_\_, Lectures on the h-cobordism theorem, Math. Notes, Princeton University Press, Princeton, 1965.
+
+[38] E. Moise, Affine structures on 3-manifolds, Ann. of Math. 56 (1952) 96-114.
+
+[39] J. R. Munkres, Elementary differential topology, Annals of Math. Studies, No. 54, Princeton University Press, Princeton, 1961.
+
+[40] R. A. Norman, Dehn's lemma for certain 4-manifolds, Invent. Math. 7 (1969) 143–147.
+
+[41] F. Quinn, Ends of maps, Ann. of Math. 110 (1979) 275-331.
+
+[42] D. Rolfsen, Knots and links, Publish or Perish, Boston, 1976.
+
+[43] M. Scharlemann, Transversality theories at dimension 4, Invent. Math. 33 (1976) 1–14.
+
+[44] L. Siebenmann, The obstruction to finding a boundary for an open manifold of dimension  $\geqslant 5$ , Ph.D. Thesis, Princeton University, Princeton, 1965.
+
+[45] \_\_\_\_, Disruption of low-dimensional handle body theory by Rochlin's theorem, Topology of Manifolds, edited by J. C. Cantrell and C. H. Edwards (Athens, Georgia Conf. 1969), Markham, Chicago, 1970, 57–76.
+
+[46] \_\_\_\_, Infinite simple homotopy types, Indag. Math. 32 (1970) 479–495.
+
+[47] \_\_\_\_, Approximating cellular maps by homeomorphisms, Topology 11 (1973) 271–294.
+
+[48] \_\_\_\_, Séminaire Bourbaki, 1982, Exp. 588, 1–30.
+
+[49] S. Smale, Diffeomorphisms of the 2-sphere, Proc. Amer. Math. Soc. 10 (1959) 621–626.
+
+[50] \_\_\_\_, Generalized Poincaré's conjecture in dimensions > 4, Ann. of Math. 74 (1961) 391–466.
+
+[51] L. Taylor, Doctoral dissertation, University of California, Berkeley, 1972.
+
+[52] C. T. C. Wall, Surgery on compact manifolds, Academic Press, New York, 1971.
+
+[53] J. H. C. Whitehead, A certain open manifold whose group is unity, Quart. J. Math. Oxford Ser. 6 (1935) 268–279.
+
+UNIVERSITY OF CALIFORNIA AT SAN DIEGO
