@@ -192,6 +192,18 @@
   页数升序：IMU citation 2p 起 → 大件殿后；Huh_2020 预期再败）。
   **注意**：`1998年 - Quillen/` 整目录此前未入库（含 Quillen 手写笔记/Birkhäuser 讲义/Rognes 讲义
   三个衍生大件），批次会处理；新增件入库沿用**精确路径 staging**。
+- **2026-09-29 晚 2：错件替换 + 配额耗尽（第三轮接力续 3）**：
+  ①**用户发现并替换 4 个错件**（下载时拿错论文）：Huh_2020（旧件竟是生物医学论文——**三连
+  EXPORT FAIL 之谜解开**，schema 报错疑似该错件特定；新件 Brändén–Huh 60p）、Birkar_2016_fano_flips
+  （旧件为经济学论文；新件 93p）、Smirnov_2010_conformal_invariance（旧件为矩阵正则化论文；新件
+  70p，另在 Duminil-Copin 目录放共享副本）、Villani_Mouhot_2010_landau（旧件为 Fourier 重构论文；
+  新件 10p）。三件旧错件的 `_mineru/` 导出已由用户删除（内容无效）；换件已提交（a69f2f1）。
+  ②**匿名云端配额耗尽**：本轮批次 51 件中后段 ~35 件 EXPORT FAIL（含 2-6p 小件——非文件问题），
+  `mineru usage` 显示当日已处理 **2026 页/55 jobs**；失败潮自 ~1900 页起。**重试须待配额重置
+  （UTC 零点 ≈ 当地 20:00）**：重跑 `python3 /tmp/mineru_batch.py`（自动跳过已有 md，仅补失败件
+  与 4 件新文件，约 39 件）。③今日已完成审计（INDEX 真值）：Atiyah-Singer、Baker 俄译、Smale、
+  dim24、IMU citation×3、ICM2018 Figalli、ICM2018 Birkar（**29 篇闭环**）+ Baker II 4/6 页在途
+  （p.5-p.6 待续，修复登记已注明）。
 
 ## 6. 验收标准（任务完成的定义）
 
