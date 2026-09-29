@@ -138,3 +138,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:13 | PAGE | Baker linear forms II | p.1/6 | PASS± | 题录/Thm1-2/(1)吻合
 2026-09-29 18:13 | PAGE | Baker linear forms II | p.2/6 | PASS± | (2)/ζ/ε/h/k/D吻合
 2026-09-29 18:15 | PAGE | Baker linear forms II | p.3/6 | FAIL | (3)(6)指数hκ应为h^κ（300dpi证）
+2026-09-29 18:17 | PAGE | Baker linear forms II | p.4/6 | FAIL | 3处hκ乘积+1处孤立星号
