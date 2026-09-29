@@ -38,3 +38,7 @@
 - 5/5 页逐页目检+文本层对账；FAIL 4 点（blowingdown/afirmatively/open-ing/丢句号——均
   ff 合字与跨行残迹类伪影）修复后可作忠实底本；原刊 quirk 1 项（Mori-Fano 与 Fano-Mori
   两序并存）忠实保留。
+
+### 修复登记（2026-09-29）
+- blowingdown→blowing-down；afirmatively→affirmatively；open-ing→opening；p>5 补句号。
+  fix commit 见 `git log --grep 'fix(md): ICM2018 Birkar'`。
