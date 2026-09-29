@@ -144,3 +144,18 @@
 - 结果：**PASS±**（±：①页眉未收；②花体 𝔡（伴随）在 "D=*d+d*" 与脚注 9 中并作普通 d——
   与 p.006 同族字形混并伪影）
 - 备注：本页无内容级差异。
+
+## p.011（PDF p.11 / 印刷 p.432）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：
+  - μ/γ multiplicative：μ(X₁,W₁)·μ(X₂,W₂)=μ(X₁×X₂, W₁⊗W₂) ✓
+  - (i) Hirzebruch index of P₂ₙ(C)=1、(ii) Euler number of S²ⁿ=2 ✓；homogeneous bundles/(3.4)、
+    odd X → X×S¹ ✓
+  - §6 Further remarks (1)-(4)：[13] 更一般 ellipticity、elliptic complexes
+    E: 0→E_n→E_{n-1}→⋯→E_0→0（D 上标）、D²=0、symbols exact、Examples D=d or ∂̄、
+    Euler characteristic of Γ(E) cohomology、GRR 展望、boundary problems [3] ✓
+  - REFERENCES 开头：1. Agmon-Douglas-Nirenberg（Comm. Pure Appl. Math. 12 (1959), 623-727; II to appear）✓、
+    2. Agranovic（Soviet Math. Dokl. 3 (1962), 194）✓、3. Agranovic-Dynin（Dokl. Akad. Nauk SSSR. 146
+    (1962), 511-514）✓
+- 结果：**PASS±**（±：页眉未收）
+- 备注：本页无内容级差异。
