@@ -85,3 +85,11 @@
 - 结果：**FAIL（单字符）**：md 行 "for $r > 2$2" 末尾多一孤立 "2"（原刊为 "for r > 2,"；
   Perelman "4" 同类 mineru 幻觉）。修复建议：删尾部 "2"。
 - 备注：± 页眉 "THE SPHERE PACKING PROBLEM IN DIMENSION 24 1025" 未收。
+
+## p.010（PDF p.10 / 印刷 p.1026）
+- PNG：audit/dim24_p010.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：b̂=−b 论证（Proposition 5 [12]、四项积分、w=−1/z、ψ_I|S=ψ_S/ψ_S|S=ψ_I/ψ_T|S=−ψ_T
+  三方程）✓；**(3.5)** ✓；ψ_I(it) 展开（2e^{4πt}−464e^{2πt}+172128+O(e^{−πt})）✓；
+  积分 2/(π(r²−4))−464/(π(r²−2))+172128/(πr²) ✓；b 的特殊值（b(0)=b(√2)=b(2)=0、
+  b′(√2)=928iπ√2、b′(2)=−8πi）✓
+- 结果：**PASS±**（±：页眉 "1026 COHN, KUMAR, …" 未收）
