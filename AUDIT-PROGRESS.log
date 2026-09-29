@@ -160,3 +160,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 19:09 | DONE | Superrigidity exposition | 6/6 | cmap族33处已修复 | 累计33/140
 2026-09-29 19:15 | PAGE | Harper exposition | p.1-7/7 | 1点FAIL | playing of→off；其余PASS±
 2026-09-29 19:15 | DONE | Harper exposition | 7/7 | 1点FAIL已修复 | 累计34/140
+2026-09-29 19:22 | PAGE | Baker linear forms III | p.1-9/9 | FAIL族 | κ指数乘积×8+c11漏幂

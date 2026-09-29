@@ -45,3 +45,6 @@
   efect？——原刊均双 f）；Liouvilleesque 连字丢失；孤立 "z.." 双句点 ×2；项目符号并入显示式。
 - **可用性结论**：修复 1 点后 md 可作该讲义忠实底本。本篇为 Baker 主题的现代二次文献，
   与 (I)(II) 原文审计件互为参照。
+
+### 修复登记（2026-09-29）
+- playing of→off。fix commit 见 `git log --grep 'fix(md): Harper'`。
