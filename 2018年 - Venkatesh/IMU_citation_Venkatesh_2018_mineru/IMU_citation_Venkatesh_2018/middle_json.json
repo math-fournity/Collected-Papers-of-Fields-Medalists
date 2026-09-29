@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.3596638655462185,
+            0.2734839476813318,
+            0.6621848739495798,
+            0.28894173602853745
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "— Venkatesh short citation —"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.30677764565992865,
+            0.8403361344537815,
+            0.3579072532699168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For his synthesis of analytic number theory, homogeneous dynamics, topology, and representation theory, which has resolved long-standing problems in areas such as the equidistribution of arithmetic objects."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 2,
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.3915966386554622,
+            0.14982164090368608,
+            0.6302521008403361,
+            0.16765755053507728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Venkatesh long citation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.18192627824019025,
+            0.8420168067226891,
+            0.28894173602853745
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Akshay Venkatesh has made profound contributions to an exceptionally broad range of subjects in mathematics, including number theory, homogeneous dynamics, representation theory and arithmetic geometry. He solved many longstanding problems by combining methods from seemingly unrelated areas, presented novel viewpoints on classical problems, and produced strikingly far-reaching conjectures."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1815126050420168,
+            0.30083234244946494,
+            0.6907563025210084,
+            0.31866825208085614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What follows is a small sample of his major achievements:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.33174791914387636,
+            0.8420168067226891,
+            0.41854934601664684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Venkatesh introduced a general and unifying technique based on representation theory and homogeneous dynamics in the subconvexity problem for L-functions and (partly in collaboration with Michel) used these ideas to give a complete treatment of all cases of subconvexity for GL(2) over number fields."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.43162901307966706,
+            0.8403361344537815,
+            0.46730083234244946
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "He made major progress on the local-global principle for the representations of one quadratic lattice by another, in joint work with Ellenberg."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.17983193277310924,
+            0.4803804994054697,
+            0.8420168067226891,
+            0.549346016646849
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In joint work with Einsiedler, Lindenstrauss and Michel, Venkatesh proved equidistribution of the periodic torus orbits in SL(3, Z) SL(3, R) that are attached to the ideal classes of totally real cubic number fields as the discriminant tends to infinity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.17983193277310924,
+            0.5624256837098692,
+            0.8403361344537815,
+            0.6159334126040428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Venkatesh established efective equidistribution of periodic orbits of many semisimple groups both in the local and adelic settings, in joint work with Einsiedler, Margulis, and in part with Mohammadi."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.17983193277310924,
+            0.6278240190249703,
+            0.8403361344537815,
+            0.6801426872770512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With Ellenberg and Westerland, Venkatesh established significant special cases of the Cohen-Lenstra conjectures concerning class groups in the function field setting."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

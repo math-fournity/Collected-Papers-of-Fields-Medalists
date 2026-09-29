@@ -121,3 +121,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:06 | PAGE | IMU citation Scholze | p.1/2 | PASS± | short逐字
 2026-09-29 18:06 | PAGE | IMU citation Scholze | p.2/2 | PASS± | long逐字
 2026-09-29 18:06 | DONE | IMU citation Scholze | 2/2 | 全PASS± | 累计26/140
+2026-09-29 18:07 | PAGE | IMU citation Venkatesh | p.1/2 | PASS± | short逐字
+2026-09-29 18:07 | PAGE | IMU citation Venkatesh | p.2/2 | FAIL | efective+丢反斜杠
