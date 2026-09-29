@@ -73,3 +73,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:28 | PAGE | Baker linear forms ru | p.9/12 | PASS± | (15)-(18)吻合；r/τ原刊字形、κ→x修复项
 2026-09-29 16:31 | PAGE | Baker linear forms ru | p.10/12 | FAIL | 6点：标签错位/2处结构乱/ζ→5/т→τ/丢负号
 2026-09-29 16:31 | PAGE | Baker linear forms ru | p.11/12 | FAIL | я→ω；2026-09-29 16:34 | PAGE | Baker linear forms ru | p.12/12 | FAIL | intercal→γ+transzendenten；文献8条吻合
+2026-09-29 16:37 | DONE | Baker linear forms ru | 12/12 | 16点FAIL已修复 | 累计22/85
