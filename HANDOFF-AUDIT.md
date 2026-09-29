@@ -184,6 +184,14 @@
   ②inventory 是动态目标——README/INDEX 的总数与分母以最新实物盘点为准，交接时必须重新
   `find . -name "*.pdf" | wc -l`；③这些新 PDF 均无 mineru 导出，待用户下载稳定后统一补跑批次
   （脚本 os.walk 自动发现，含目录根 `<base>.md` 库藏 md 与 `<base>_mineru/` 两种 skip 判定）。
+- **2026-09-29 晚：用户完成扩展并重写 README**——collection 扩至 **72 人/70 目录/140 PDF**
+  （新增 2026 年 Hong Wang / Jacob Tsimerman / John Pardon / Yu Deng 四目录，及大量已刊版、
+  ICM 会议报告、IMU citation/laudatio、衍生阅读件）。**README 结构变更**：新 README 为分节索引
+  （每人：获奖方向/来源/文件），**不再有 §3 计数表与 AUDIT 列——审计进度唯一真值 = AUDIT-INDEX.md**。
+  用户指令：新增件全部按 SOP 处理（mineru 导出 + 逐页审计）。批次已重启（51 件缺口，
+  页数升序：IMU citation 2p 起 → 大件殿后；Huh_2020 预期再败）。
+  **注意**：`1998年 - Quillen/` 整目录此前未入库（含 Quillen 手写笔记/Birkhäuser 讲义/Rognes 讲义
+  三个衍生大件），批次会处理；新增件入库沿用**精确路径 staging**。
 
 ## 6. 验收标准（任务完成的定义）
 
