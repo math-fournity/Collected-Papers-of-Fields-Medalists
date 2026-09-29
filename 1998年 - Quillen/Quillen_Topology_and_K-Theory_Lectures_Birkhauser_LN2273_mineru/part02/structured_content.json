@@ -1,0 +1,3818 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.682648401826484,
+            0.13813813813813813
+          ],
+          "level": 2,
+          "content": "Chapter 36 Long Exact Sequences of $K$-Groups"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1141552511415525,
+            0.3708708708708709,
+            0.18493150684931506,
+            0.39039039039039036
+          ],
+          "level": 2,
+          "content": "Recall"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.3978978978978979,
+            0.8812785388127854,
+            0.43543543543543545
+          ],
+          "content": "Theorem A: $f:\\mathcal{C}\\to\\mathcal{C}'$ is a homotopy equivalence provided any of the following hold for all $Y$ in $\\mathcal{C}'$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.44294294294294295,
+            0.2420091324200913,
+            0.4624624624624625
+          ],
+          "content": "(i)  $f/Y \\simeq *,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.4624624624624625,
+            0.4680365296803653,
+            0.481981981981982
+          ],
+          "content": "(i') f is pre-cofibered and  $f^{-1}Y \\simeq *,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.481981981981982,
+            0.24885844748858446,
+            0.4984984984984985
+          ],
+          "content": "(ii)  $Y \\setminus f \\simeq *,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.4984984984984985,
+            0.45662100456621,
+            0.5165165165165165
+          ],
+          "content": "(ii') $f$ is pre-fibered and $f^{-1}Y\\simeq *$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5255255255255256,
+            0.8812785388127854,
+            0.5825825825825826
+          ],
+          "content": "Pre-cofibered means “there are cobase change operations,” i.e., given  $u: Y \\to Y'$  in  $C'$ , we have a cobase change functor  $u_{*}: f^{-1}(Y) \\to f^{-1}(Y')$ , that is,  $f^{-1}Y \\hookrightarrow f/Y$  has an adjoint, namely,  $(X, fX \\stackrel{u}{\\longmapsto} Y) \\longmapsto u_{*}(X)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5825825825825826,
+            0.8835616438356164,
+            0.6366366366366366
+          ],
+          "content": "Suppose $\\mathcal{M}$ is an exact category. Let $\\mathcal{E}(\\mathcal{M})$ denote the category of short exact sequences $M' \\hookrightarrow M \\twoheadrightarrow M''$ in $\\mathcal{M}$. $\\mathcal{E}(\\mathcal{M})$ is itself an exact category, and we have three exact functors $s, t, q$ from $\\mathcal{E}(\\mathcal{M})$ to $\\mathcal{M}$:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.6441441441441441,
+            0.5273972602739726,
+            0.6621621621621622
+          ],
+          "content": "$s(M^{\\prime} \\hookrightarrow M \\twoheadrightarrow M^{\\prime\\prime}) = \\text{sub-object} = M^{\\prime},$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1415525114155251,
+            0.6636636636636637,
+            0.5251141552511416,
+            0.6801801801801802
+          ],
+          "content": "t (M ^ {\\prime} \\hookrightarrow M \\twoheadrightarrow M ^ {\\prime \\prime}) = \\text { total   object } = M,",
+          "image_source": "images/page_0_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.6816816816816816,
+            0.5730593607305936,
+            0.6996996996996997
+          ],
+          "content": "$q(M' \\hookrightarrow M \\twoheadrightarrow M'') = \\text{quotient object} = M''.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7117117117117117,
+            0.8470319634703196,
+            0.7312312312312312
+          ],
+          "content": "Remark Exact functors induce maps on $Q$-categories and hence on $K$-groups."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7432432432432432,
+            0.8812785388127854,
+            0.7807807807807807
+          ],
+          "content": "Theorem  $(s,q):\\mathcal{E}(\\mathcal{M})\\to\\mathcal{M}\\times\\mathcal{M}$  induces a homotopy equivalence on Q-categories, i.e.,  $Q(\\mathcal{E}(\\mathcal{M}))\\simeq Q\\mathcal{M}\\times Q\\mathcal{M}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7927927927927928,
+            0.8812785388127854,
+            0.8498498498498499
+          ],
+          "content": "(†) Corollary: Given an exact category N and an exact sequence of exact functors  $0 \\rightarrow F' \\rightarrow F \\rightarrow F'' \\rightarrow 0$  from N into M. Then on K-groups, we have  $F_{*} = F_{*}' + F_{*}'' : K_{i}(\\mathcal{N}) \\rightarrow K_{i}(\\mathcal{M})$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8603603603603603,
+            0.3835616438356164,
+            0.8798798798798799
+          ],
+          "content": "Proof We have the diagram"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8036529680365296,
+            0.08708708708708708,
+            0.8789954337899544,
+            0.13663663663663664
+          ],
+          "content": "Check for updates"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1141552511415525,
+            0.9009009009009009,
+            0.684931506849315,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5\\_36"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8470319634703196,
+            0.9024024024024024,
+            0.8812785388127854,
+            0.9174174174174174
+          ],
+          "content": "189"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.3515981735159817,
+            0.08258258258258258,
+            0.6461187214611872,
+            0.16666666666666666
+          ],
+          "content": "\\begin{array}{c} Q (\\mathcal {E} (\\mathcal {M})) \\xrightarrow [ (s , q) ]{t} Q \\mathcal {M} \\\\ \\hline \\end{array} Q \\mathcal {M} \\times Q \\mathcal {M}",
+          "image_source": "images/page_1_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.18768768768768768,
+            0.5319634703196348,
+            0.21171171171171171
+          ],
+          "content": "and a section $\\eta$ of $\\mathcal{E}(\\mathcal{M})\\xrightarrow{(s,q)}\\mathcal{M}\\times \\mathcal{M}$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3059360730593607,
+            0.22672672672672672,
+            0.6940639269406392,
+            0.24774774774774774
+          ],
+          "content": "(M ^ {\\prime}, M ^ {\\prime \\prime}) \\mapsto (M ^ {\\prime} \\hookrightarrow M ^ {\\prime} \\oplus M ^ {\\prime \\prime} \\twoheadrightarrow M ^ {\\prime \\prime}).",
+          "image_source": "images/page_1_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.2627627627627628,
+            0.5958904109589042,
+            0.28378378378378377
+          ],
+          "content": "Thus adding  $Q(\\eta)$  to the diagram, we get the result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.2957957957957958,
+            0.8812785388127854,
+            0.3333333333333333
+          ],
+          "content": "Proof of Theorem It is sufficient by Theorem A to show that for any $(M', M'') \\in Q\\mathcal{M} \\times Q\\mathcal{M}$, we have $Q(\\mathcal{E}(M))(M', M'') \\simeq *$. The typical element is"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.3858447488584475,
+            0.35135135135135137,
+            0.6118721461187214,
+            0.487987987987988
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.503003003003003,
+            0.8812785388127854,
+            0.5405405405405406
+          ],
+          "content": "By pulling back with respect to $\\eta$ and pushing forward by $\\xi$, we retract $Q(\\mathcal{E}(\\mathcal{M})) / (M', M'')$ into the full subcategory of diagrams"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.3881278538812785,
+            0.5585585585585585,
+            0.6118721461187214,
+            0.6336336336336337
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.6501501501501501,
+            0.5662100456621004,
+            0.6696696696696697
+          ],
+          "content": "But this full subcategory has the initial object"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.2968036529680365,
+            0.6876876876876877,
+            0.7009132420091324,
+            0.8168168168168168
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_9.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.1552511415525114,
+            0.06456456456456457
+          ],
+          "content": "190"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.5547945205479452,
+            0.04954954954954955,
+            0.8812785388127854,
+            0.06756756756756757
+          ],
+          "content": "36 Long Exact Sequences of $K$-Groups"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.8812785388127854,
+            0.13963963963963963
+          ],
+          "content": "Theorem B: Let $f: \\mathcal{C} \\to \\mathcal{C}'$ and suppose that for any $Y \\to Y'$ in $\\mathcal{C}'$, the induced functor $f/Y \\to f/Y$ is a homotopy equivalence. Then the homotopy fiber of $Bf: BC \\to BC'$ over $Y$ is homotopy equivalent to $B(f/Y)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.15015015015015015,
+            0.8835616438356164,
+            0.2057057057057057
+          ],
+          "content": "Geometrical Example Let $g: K \\to L$ be a map of simplicial complexes. Take $\\mathcal{C}$ to be the poset of simplices in $K, \\mathcal{C}'$ to be the poset of simplices in $L$ and suppose $y$ is a simplex in $L$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3287671232876712,
+            0.2222222222222222,
+            0.6666666666666666,
+            0.26426426426426425
+          ],
+          "content": "\\begin{array}{r l} f / y & = \\{\\text { simplices } x \\text { in } K: f x \\subset y \\} \\\\ & = \\{\\text { simplices   in } f ^ {- 1} \\overline {{y}} \\}, \\end{array}",
+          "image_source": "images/page_2_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.2807807807807808,
+            0.7876712328767124,
+            0.3003003003003003
+          ],
+          "content": "and  $f^{-1}y' \\simeq f^{-1}y$  for all  $y' \\leq y$  implies that  $f^{-1}y \\simeq$  homotopy fiber."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3108108108108108,
+            0.8812785388127854,
+            0.3483483483483483
+          ],
+          "content": "Localization Theorem Suppose $\\mathcal{A}$ is an abelian category and $\\mathcal{B}$ a Serre subcategory with $\\mathcal{A} / \\mathcal{B}$ the quotient abelian category. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2534246575342466,
+            0.36486486486486486,
+            0.7420091324200914,
+            0.38288288288288286
+          ],
+          "content": "B Q \\mathcal {B} \\simeq \\text { homotopy   fiber   of } (B Q \\mathcal {A} \\longrightarrow B Q (\\mathcal {A} / \\mathcal {B})).",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.4009009009009009,
+            0.8013698630136986,
+            0.42042042042042044
+          ],
+          "content": "Proof From Theorem B plus lots of work, we have a short exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3607305936073059,
+            0.4369369369369369,
+            0.639269406392694,
+            0.45495495495495497
+          ],
+          "content": "Q \\mathcal {B} \\longrightarrow Q \\mathcal {A} \\longrightarrow Q (\\mathcal {A} / \\mathcal {B}).",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.47297297297297297,
+            0.3059360730593607,
+            0.4924924924924925
+          ],
+          "content": "See Quillen's paper."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8561643835616438,
+            0.4744744744744745,
+            0.8835616438356164,
+            0.4894894894894895
+          ],
+          "content": "□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.503003003003003,
+            0.593607305936073,
+            0.521021021021021
+          ],
+          "content": "Corollary There is an exact sequence of $K$-groups"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2191780821917808,
+            0.5375375375375375,
+            0.776255707762557,
+            0.5570570570570571
+          ],
+          "content": "\\dots \\longrightarrow K _ {i} \\mathcal {B} \\longrightarrow K _ {i} \\mathcal {A} \\longrightarrow K _ {i} \\mathcal {A} / \\mathcal {B} \\longrightarrow K _ {i - 1} \\mathcal {B} \\longrightarrow \\dots",
+          "image_source": "images/page_2_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8561643835616438,
+            0.575075075075075,
+            0.8812785388127854,
+            0.5900900900900901
+          ],
+          "content": "□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6036036036036037,
+            0.4771689497716895,
+            0.6216216216216216
+          ],
+          "content": "Remark Suppose $V \\in \\mathcal{A} / \\mathcal{B}$. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3675799086757991,
+            0.6396396396396397,
+            0.6301369863013698,
+            0.6576576576576577
+          ],
+          "content": "S B \\operatorname{Aut} V \\longrightarrow B Q (\\mathcal {A} / \\mathcal {B}),",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6786786786786787,
+            0.1461187214611872,
+            0.6936936936936937
+          ],
+          "content": "so"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.363013698630137,
+            0.6936936936936937,
+            0.632420091324201,
+            0.7117117117117117
+          ],
+          "content": "B \\operatorname{Aut} V \\longrightarrow \\Omega B Q (\\mathcal {A} / \\mathcal {B}),",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7312312312312312,
+            0.2237442922374429,
+            0.7477477477477478
+          ],
+          "content": "and we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22602739726027396,
+            0.7657657657657657,
+            0.769406392694064,
+            0.8408408408408409
+          ],
+          "content": "\\begin{array}{c} \\Omega B Q (\\mathcal {A} / \\mathcal {B}) \\longrightarrow B Q \\mathcal {B} \\longrightarrow B Q \\mathcal {A} \\longrightarrow B Q (\\mathcal {A} / \\mathcal {B}). \\\\ \\uparrow \\\\ B \\text {Aut} V \\end{array}",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8588588588588588,
+            0.8835616438356164,
+            0.8963963963963963
+          ],
+          "content": "We exhibit this map. Given $V \\in \\mathcal{A} / \\mathcal{B}$, take $\\mathcal{A} = \\operatorname{Modf} A, \\mathcal{B} = S$-torsion and $\\mathcal{A} / \\mathcal{B} = \\operatorname{Modf}(S^{-1}A)$, where $A$ is a noetherian ring."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.14383561643835616,
+            0.06456456456456457
+          ],
+          "content": "36"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1506849315068493,
+            0.04954954954954955,
+            0.4429223744292237,
+            0.06756756756756757
+          ],
+          "content": "Long Exact Sequences of $K$-Groups"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8789954337899544,
+            0.06456456456456457
+          ],
+          "content": "191"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.08558558558558559,
+            0.8835616438356164,
+            0.13963963963963963
+          ],
+          "content": "Construction: Take the poset $JV$ of all finitely generated $A$-submodules in $M \\subset V$ so that $V = S^{-1}(M)$. $J(V) \\simeq *$ because we can take suprema. Let $\\widetilde{JV} = \\text{poset of layers in } JV$. We have a functor"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3835616438356164,
+            0.15465465465465467,
+            0.6141552511415526,
+            0.1996996996996997
+          ],
+          "content": "\\begin{array}{c} \\widetilde {J} V \\longrightarrow Q \\mathcal {B} \\\\ (M _ {0}, M _ {1}) \\longmapsto M _ {1} / M _ {0}. \\end{array}",
+          "image_source": "images/page_3_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.2147147147147147,
+            0.8812785388127854,
+            0.25375375375375375
+          ],
+          "content": "Now form the cofibered category $\\widetilde{JV}$ Aut $V$ over Aut $V$ with fiber $\\widetilde{JV}$. The objects are still $(M_0, M_1)$ but now morphisms"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3812785388127854,
+            0.26876876876876876,
+            0.6187214611872146,
+            0.2897897897897898
+          ],
+          "content": "(M _ {0} ^ {\\prime}, M _ {1} ^ {\\prime}) \\longrightarrow (M _ {0}, M _ {1})",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3048048048048048,
+            0.8401826484018264,
+            0.3258258258258258
+          ],
+          "content": "are automorphisms $\\theta$ of $V$ so that $(\\theta M_0', \\theta M_1') \\leq (M_0, M_1)$. We have a functor"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3470319634703196,
+            0.34234234234234234,
+            0.6506849315068494,
+            0.4219219219219219
+          ],
+          "content": "\\begin{array}{c} \\widetilde {J}   V \\text {Aut}   V \\longrightarrow Q \\mathcal {B} \\\\ \\Biggl \\downarrow_ {\\text {homotopy equivalence by Theorem A}} \\\\ \\text {Aut}   V \\end{array}",
+          "image_source": "images/page_3_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.43993993993993996,
+            0.58675799086758,
+            0.45795795795795796
+          ],
+          "content": "Example 1 Recall if $A$ is regular noetherian, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.410958904109589,
+            0.47597597597597596,
+            0.58675799086758,
+            0.493993993993994
+          ],
+          "content": "K _ {0} A \\cong K _ {0} A [ T ].",
+          "image_source": "images/page_3_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5105105105105106,
+            0.5114155251141552,
+            0.53003003003003
+          ],
+          "content": "This generalizes with a proof as before, so"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.408675799086758,
+            0.5465465465465466,
+            0.58675799086758,
+            0.5645645645645646
+          ],
+          "content": "K _ {n} A \\cong K _ {n} A [ T ].",
+          "image_source": "images/page_3_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5825825825825826,
+            0.6757990867579908,
+            0.6021021021021021
+          ],
+          "content": "Example 2 For $A$ regular, consider $K_{*}A[T,T^{-1}]$. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.271689497716895,
+            0.6186186186186187,
+            0.723744292237443,
+            0.6366366366366366
+          ],
+          "content": "K _ {*} (\\mathcal {P} _ {A}) = K _ {*} (\\text { Modf   } A) \\text {   for   } A \\text {   and   also   for   } A [ T ]",
+          "image_source": "images/page_3_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6546546546546547,
+            0.2420091324200913,
+            0.6726726726726727
+          ],
+          "content": "and consider"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2465753424657534,
+            0.6906906906906907,
+            0.7488584474885844,
+            0.7357357357357357
+          ],
+          "content": "\\begin{array}{c} \\text {Modf} A [ T ] \\longrightarrow \\text {Modf} A ([ T ]) \\longrightarrow \\text {Modf} A [ T, T ^ {- 1} ]. \\\\ _ {T - \\text {torsion}} \\\\ \\mathcal {B} \\end{array}",
+          "image_source": "images/page_3_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7507507507507507,
+            0.8356164383561644,
+            0.7717717717717718
+          ],
+          "content": "By Devissage, $\\mathcal{B}$ has the same $K$-groups as $A[T]$-modules killed by $T$, and so"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4246575342465753,
+            0.7867867867867868,
+            0.5707762557077626,
+            0.8048048048048048
+          ],
+          "content": "K _ {*} \\mathcal {B} = K _ {*} A.",
+          "image_source": "images/page_3_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8243243243243243,
+            0.410958904109589,
+            0.8438438438438438
+          ],
+          "content": "We get the long exact sequence"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.1552511415525114,
+            0.06456456456456457
+          ],
+          "content": "192"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.5547945205479452,
+            0.04954954954954955,
+            0.8812785388127854,
+            0.06756756756756757
+          ],
+          "content": "36 Long Exact Sequences of $K$-Groups"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.13013698630136986,
+            0.08558558558558559,
+            0.8698630136986302,
+            0.16516516516516516
+          ],
+          "content": "\\begin{array}{c} \\dots \\longrightarrow K _ {i} A \\xrightarrow {\\alpha} K _ {i} A [ T ] \\longrightarrow K _ {i} A [ T, T ^ {- 1} ] \\longrightarrow K _ {i - 1} A \\longrightarrow \\dots . \\\\ \\Bigg \\| \\\\ K _ {i} A \\end{array}",
+          "image_source": "images/page_4_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.1831831831831832,
+            0.7671232876712328,
+            0.20270270270270271
+          ],
+          "content": "To compute $\\alpha$, take $M \\in \\operatorname{Modf} A \\subset \\mathcal{B}$. We have the exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2534246575342466,
+            0.21771771771771772,
+            0.7420091324200914,
+            0.25675675675675674
+          ],
+          "content": "0 \\longrightarrow \\overbrace {A [ T ] \\otimes_ {A}} ^ {F} M \\stackrel {\\times T} {\\longrightarrow} A [ T ] \\otimes_ {A} M \\longrightarrow M \\longrightarrow 0",
+          "image_source": "images/page_4_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.2732732732732733,
+            0.54337899543379,
+            0.2897897897897898
+          ],
+          "content": "of exact functors from Modf A to Modf A[T]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.2897897897897898,
+            0.8378995433789954,
+            0.30930930930930933
+          ],
+          "content": "By Corollary (†), we conclude that  $\\alpha = 0$ , i.e.,  $F_{*} = F_{*} + \\alpha$ , and so finally"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3401826484018265,
+            0.3258258258258258,
+            0.6575342465753424,
+            0.34534534534534533
+          ],
+          "content": "K _ {i} A [ T, T ^ {- 1} ] \\cong K _ {i} A \\oplus K _ {i - 1} A.",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.14383561643835616,
+            0.06456456456456457
+          ],
+          "content": "36"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1506849315068493,
+            0.04954954954954955,
+            0.4452054794520548,
+            0.06756756756756757
+          ],
+          "content": "Long Exact Sequences of $K$-Groups"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "193"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.33633633633633636,
+            0.1598173515981735,
+            0.35585585585585583
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2694063926940639,
+            0.3708708708708709,
+            0.6232876712328768,
+            0.3918918918918919
+          ],
+          "content": "X = algebraic variety over a field k,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24885844748858446,
+            0.3948948948948949,
+            0.7397260273972602,
+            0.4159159159159159
+          ],
+          "content": "$M_{X} = (\\text{abelian})$ category of coherent sheaves on X,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2579908675799087,
+            0.4174174174174174,
+            0.678082191780822,
+            0.4369369369369369
+          ],
+          "content": "$P_{X}$  = category of locally free sheaves on X."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3219178082191781,
+            0.43993993993993996,
+            0.502283105022831,
+            0.45795795795795796
+          ],
+          "content": "(\"vector-bundles\")"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.47597597597597596,
+            0.14383561643835616,
+            0.493993993993994
+          ],
+          "content": "If"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2694063926940639,
+            0.5015015015015015,
+            0.7442922374429224,
+            0.5225225225225225
+          ],
+          "content": "X = Spec A, for A a finitely generated k-algebra,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2465753424657534,
+            0.5255255255255256,
+            0.6529680365296804,
+            0.545045045045045
+          ],
+          "content": "$M_{X}$  = finitely generated modules over A,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2557077625570776,
+            0.5480480480480481,
+            0.7488584474885844,
+            0.5675675675675675
+          ],
+          "content": "$P_{X}$  = finitely generated projective modules over A,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.5855855855855856,
+            0.8812785388127854,
+            0.6246246246246246
+          ],
+          "content": "then  $K_{i} X \\stackrel{d}{=} K_{i} P_{X}$  is a contravariant functor in X because  $f : X \\to Y$  induces an exact functor  $f^{*} : P_{Y} \\to P_{X}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.6276276276276276,
+            0.8835616438356164,
+            0.7012012012012012
+          ],
+          "content": "Let us also define $K_{i}^{\\prime}X \\stackrel{a}{=} K_{i}\\mathcal{M}_{X}$, a covariant functor in $X$ for proper maps. This holds because of Grothendieck's argument for $i = 0$: If $f: X \\to Y$ and $F$ is a coherent sheaf on $X$, then $R^{q}f_{*}F$ are coherent sheaves on $Y$ and vanish for $q > \\dim X$. So we can form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3470319634703196,
+            0.7147147147147147,
+            0.6484018264840182,
+            0.7567567567567568
+          ],
+          "content": "\\sum_ {q \\geq 0} (- 1) ^ {q} \\left[ R ^ {q} f _ {*} F \\right] \\in K _ {0} \\mathcal {M} _ {Y}.",
+          "image_source": "images/page_5_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.7702702702702703,
+            0.8812785388127854,
+            0.8078078078078078
+          ],
+          "content": "This gives a map $\\mathcal{M}_X \\to K_0\\mathcal{M}_Y$ which is additive for short exact sequences, namely, the Euler characteristic, and so induces $K_0\\mathcal{M}_X \\to K_0\\mathcal{M}_Y$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.8078078078078078,
+            0.8835616438356164,
+            0.8648648648648649
+          ],
+          "content": "For higher $K$-groups, assume that $X$ is quasi-projective, i.e., $X$ can be embedded in projective space, so a proper morphism $f: X \\to Y$ is projective, i.e., factors as a composition $X \\stackrel{\\epsilon}{\\hookrightarrow} Y \\times P^n \\stackrel{p}{\\to} Y$ with $i\\epsilon$ a closed embedding and $p$ the projection."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.317351598173516,
+            0.13513513513513514
+          ],
+          "content": "Chapter 37 Localization"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8036529680365296,
+            0.08708708708708708,
+            0.8812785388127854,
+            0.13663663663663664
+          ],
+          "content": "Check for updates"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1141552511415525,
+            0.9009009009009009,
+            0.6872146118721462,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5\\_37"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8470319634703196,
+            0.9024024024024024,
+            0.8812785388127854,
+            0.9174174174174174
+          ],
+          "content": "195"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.08558558558558559,
+            0.8812785388127854,
+            0.12162162162162163
+          ],
+          "content": "Then the map $\\epsilon_{*}:K_{i}^{\\prime}(X)\\to K_{i}^{\\prime}(Y\\times P^{n})$ is induced by the embedding $\\mathcal{M}_X\\to \\mathcal{M}_{Y\\times P^n}$. The map $p_*:K_i(Y\\times P^n)\\to K_i(Y)$ can be defined using Serre's theorem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3607305936073059,
+            0.13813813813813813,
+            0.636986301369863,
+            0.15765765765765766
+          ],
+          "content": "R ^ {q} p _ {*} (F (n)) = 0, \\text { for } q > 0",
+          "image_source": "images/page_6_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.17567567567567569,
+            0.182648401826484,
+            0.1921921921921922
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3926940639269406,
+            0.19369369369369369,
+            0.6050228310502284,
+            0.21171171171171171
+          ],
+          "content": "F (n) = F \\otimes \\mathcal {O} (1) ^ {\\otimes n}.",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.22972972972972974,
+            0.8835616438356164,
+            0.28378378378378377
+          ],
+          "content": "This shows that large chunks of $\\mathcal{M}_{Y\\times P^n}$ (and thus of $\\mathcal{M}_X$) map, by $R^0 p_*$ (resp. by $R^0 f_*$) into $\\mathcal{M}_Y$, in a way preserving short exact sequences, and that is sufficient. For a more detailed and sophisticated explanation see §6.2 of Quillen's paper [10]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.28678678678678676,
+            0.8812785388127854,
+            0.3258258258258258
+          ],
+          "content": "Suppose $A \\xrightarrow{f} B$ is a map between noetherian rings. This induces an exact functor $\\mathcal{P}_A \\to \\mathcal{P}_B$, where $P \\mapsto P \\otimes_A B$, and hence a map $K_i A \\to K_i B$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.3258258258258258,
+            0.8835616438356164,
+            0.37987987987987987
+          ],
+          "content": "However in general, the map Modf $A \\to \\text{Modf } B$ given by $M \\mapsto B \\otimes_A M$ is not exact. But assume that $B_A$ has finite Tor dimension, i.e., the $i$th left derived functor $\\text{Tor}_i(B, M) = 0$ for all sufficiently large $i$. Then we can define a map"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3013698630136986,
+            0.3963963963963964,
+            0.6963470319634704,
+            0.45495495495495497
+          ],
+          "content": "\\begin{array}{c} K _ {0} \\operatorname{Modf} A \\longrightarrow K _ {0} \\operatorname{Modf} B \\\\ M \\longmapsto \\sum_ {q \\geq 0} (- 1) ^ {q} [ \\operatorname{Tor} _ {i} ^ {A} (B, M) ]. \\end{array}",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.46996996996997,
+            0.5114155251141552,
+            0.4894894894894895
+          ],
+          "content": "For higher K-groups, introduce a filtration"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2602739726027397,
+            0.506006006006006,
+            0.7374429223744292,
+            0.5255255255255256
+          ],
+          "content": "F _ {0} \\mathcal {M} _ {A} \\subset \\dots \\subset F _ {p} \\mathcal {M} _ {A} \\subset \\dots \\subset \\operatorname{Modf} A = \\mathcal {M} _ {A},",
+          "image_source": "images/page_6_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.5405405405405406,
+            0.7374429223744292,
+            0.5615615615615616
+          ],
+          "content": "where  $M \\in F_{p} M_{A}$  if and only if  $\\operatorname{Tor}_{i}^{A}(B, M) = 0$  for i > p. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3881278538812785,
+            0.5780780780780781,
+            0.6095890410958904,
+            0.5945945945945946
+          ],
+          "content": "M \\mapsto \\operatorname{Tor} _ {0} = B \\otimes_ {A} M",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.6141141141141141,
+            0.58675799086758,
+            0.6321321321321322
+          ],
+          "content": "is exact from $F_{0}\\mathcal{M}_{A}$ to $\\mathcal{M}_B$ and so induces a map"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3789954337899543,
+            0.6501501501501501,
+            0.6232876712328768,
+            0.6681681681681682
+          ],
+          "content": "K _ {i} F _ {0} \\mathcal {M} _ {A} \\longrightarrow K _ {0} \\mathcal {M} _ {B}.",
+          "image_source": "images/page_6_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6876876876876877,
+            0.2762557077625571,
+            0.7042042042042042
+          ],
+          "content": "Now, we use the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7177177177177178,
+            0.8127853881278538,
+            0.7357357357357357
+          ],
+          "content": "Resolution Theorem Suppose we have a category closed under extensions"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3287671232876712,
+            0.7537537537537538,
+            0.6666666666666666,
+            0.7702702702702703
+          ],
+          "content": "0 \\longrightarrow M ^ {\\prime} \\longrightarrow M \\longrightarrow M ^ {\\prime \\prime} \\longrightarrow 0.",
+          "image_source": "images/page_6_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.7897897897897898,
+            0.5,
+            0.8078078078078078
+          ],
+          "content": "Then we have an induced exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.11187214611872145,
+            0.8153153153153153,
+            0.8858447488584474,
+            0.8378378378378378
+          ],
+          "content": "\\dots \\longrightarrow \\operatorname{Tor} _ {p} ^ {A} (B, M ^ {\\prime}) \\longrightarrow \\operatorname{Tor} _ {p} ^ {A} (B, M) \\longrightarrow \\operatorname{Tor} _ {p} ^ {A} (B, M ^ {\\prime \\prime}) \\longrightarrow \\operatorname{Tor} _ {p - 1} ^ {A} (B, M ^ {\\prime}) \\longrightarrow \\dots .",
+          "image_source": "images/page_6_equation_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.1552511415525114,
+            0.06456456456456457
+          ],
+          "content": "196"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7374429223744292,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "37 Localization"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.08558558558558559,
+            0.8835616438356164,
+            0.11861861861861862
+          ],
+          "content": "Moreover, if $M$ in a subcategory implies that $M'$ is also in the subcategory, then we find"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3675799086757991,
+            0.12162162162162163,
+            0.6255707762557078,
+            0.14114114114114115
+          ],
+          "content": "K _ {i} F _ {p - 1} \\mathcal {M} _ {A} \\cong K _ {i} F _ {p} \\mathcal {M} _ {A}",
+          "image_source": "images/page_7_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.15765765765765766,
+            0.5296803652968036,
+            0.17567567567567569
+          ],
+          "content": "and get an induced map in higher K-groups."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.18768768768768768,
+            0.8835616438356164,
+            0.22522522522522523
+          ],
+          "content": "Example of Localization Theorem Let $\\mathbb{Q}$ be the quotient field of $\\mathbb{Z}$. Then we have the exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1872146118721461,
+            0.24324324324324326,
+            0.8059360730593608,
+            0.2627627627627628
+          ],
+          "content": "\\mathcal {T} = \\text { finitely   generated   torsion } \\mathbb {Z} \\text {-modules } \\longrightarrow \\mathcal {M} _ {\\mathbb {Z}} \\longrightarrow \\mathcal {M} _ {\\mathbb {Q}},",
+          "image_source": "images/page_7_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.2822822822822823,
+            0.1598173515981735,
+            0.2987987987987988
+          ],
+          "content": "and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2100456621004566,
+            0.2987987987987988,
+            0.7876712328767124,
+            0.31681681681681684
+          ],
+          "content": "$K_{*} \\mathcal{M}_{\\mathbb{Z}} = K_{*} \\mathbb{Z}$ since $\\mathbb{Z}$ is regular by the Resolution Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.33483483483483484,
+            0.3356164383561644,
+            0.35285285285285284
+          ],
+          "content": "and similarly for  $K_{*}$  Q."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.35435435435435436,
+            0.17123287671232876,
+            0.3708708708708709
+          ],
+          "content": "Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4360730593607306,
+            0.36786786786786785,
+            0.5593607305936074,
+            0.4069069069069069
+          ],
+          "content": "\\mathcal {T} = \\prod_ {p} \\mathcal {T} _ {p},",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.4219219219219219,
+            0.8835616438356164,
+            0.45645645645645644
+          ],
+          "content": "where the product is over primes p and  $T_{p}$  denotes the p-torsion finite abelian groups, whence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3972602739726027,
+            0.45495495495495497,
+            0.5958904109589042,
+            0.493993993993994
+          ],
+          "content": "K _ {*} \\mathcal {T} = \\bigoplus_ {p} K _ {*} \\mathcal {T} _ {p}.",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5075075075075075,
+            0.319634703196347,
+            0.527027027027027
+          ],
+          "content": "Use Devissage to get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.365296803652968,
+            0.5255255255255256,
+            0.632420091324201,
+            0.545045045045045
+          ],
+          "content": "K _ {*} \\operatorname{Modf} (\\mathbb {Z} / p \\mathbb {Z}) \\approx K _ {*} T _ {p},",
+          "image_source": "images/page_7_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5615615615615616,
+            0.3561643835616438,
+            0.5795795795795796
+          ],
+          "content": "whence from localization"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1643835616438356,
+            0.5945945945945946,
+            0.8333333333333334,
+            0.6336336336336337
+          ],
+          "content": "\\dots \\longrightarrow \\bigoplus_ {p} K _ {i} \\mathbb {Z} / p \\longrightarrow K _ {i} \\mathbb {Z} \\longrightarrow K _ {i} \\mathbb {Q} \\longrightarrow \\bigoplus_ {p} K _ {i - 1} \\mathbb {Z} / p \\longrightarrow \\dots .",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6486486486486487,
+            0.4383561643835616,
+            0.6666666666666666
+          ],
+          "content": "There is an obvious generalization"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1643835616438356,
+            0.6831831831831832,
+            0.8310502283105022,
+            0.7222222222222222
+          ],
+          "content": "\\dots \\longrightarrow \\bigoplus_ {m} K _ {i} A / m \\longrightarrow K _ {i} A \\longrightarrow K _ {i} F \\longrightarrow \\bigoplus_ {m} K _ {i - 1} A / m \\longrightarrow \\dots",
+          "image_source": "images/page_7_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7357357357357357,
+            0.5502283105022832,
+            0.7537537537537538
+          ],
+          "content": "to a Dedekind domain A with quotient field F."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7627627627627628,
+            0.18493150684931506,
+            0.7807807807807807
+          ],
+          "content": "Facts:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182648401826484,
+            0.8213213213213213,
+            0.2785388127853881,
+            0.8438438438438438
+          ],
+          "content": "[Quillen]"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3013698630136986,
+            0.7927927927927928,
+            0.8127853881278538,
+            0.8708708708708709
+          ],
+          "content": "K _ {i} (\\mathbb {F} _ {q}) = \\left\\{ \\begin{array}{c c} \\mathbb {Z}, & i = 0, \\\\ \\mathbb {F} _ {q} ^ {*} \\cong \\mathbb {Z} / (q - 1), & i = 1, \\\\ 0, & i \\text {even}, \\\\ \\mathbb {Z} / (q ^ {j} - 1), & i = 2 j - 1, \\text {for} j \\geq 1. \\end{array} \\right.",
+          "image_source": "images/page_7_equation_21.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.14383561643835616,
+            0.06456456456456457
+          ],
+          "content": "37"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1506849315068493,
+            0.04954954954954955,
+            0.2579908675799087,
+            0.06606606606606606
+          ],
+          "content": "Localization"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "197"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.08558558558558559,
+            0.8812785388127854,
+            0.12162162162162163
+          ],
+          "content": "Suppose A is the ring of integers in a number field F with  $r_{1}$  real places and  $r_{2}$  complex places. Then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.21232876712328766,
+            0.16966966966966968,
+            0.2899543378995434,
+            0.1906906906906907
+          ],
+          "content": "[Borel]"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3127853881278539,
+            0.13363363363363365,
+            0.7785388127853882,
+            0.22822822822822822
+          ],
+          "content": "\\text { rank } K _ {i} A = \\left\\{ \\begin{array}{c c} 1, & i = 0, \\\\ r _ {1} + r _ {2} - 1, & i = 1, \\\\ 0, & i = \\text { even }, \\\\ r _ {2}, & i = 3, 7, 1 1, 1 5, \\dots , \\\\ r _ {1} + r _ {2}, & i = 5, 9, 1 3, \\dots . \\end{array} \\right.",
+          "image_source": "images/page_8_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.24174174174174173,
+            0.7557077625570776,
+            0.26126126126126126
+          ],
+          "content": "A general fact [Bass] is that $K_{1}A = A^{*}$ for integers in number fields."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.26126126126126126,
+            0.365296803652968,
+            0.27927927927927926
+          ],
+          "content": "From [Quillen], we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3310502283105023,
+            0.2927927927927928,
+            0.6598173515981736,
+            0.37987987987987987
+          ],
+          "content": "K_{i}(\\overline{\\mathbb{F}}_{p}) = \\left\\{ \\begin{array}{ll}\\mathbb{Z}, & i = 0,\\\\ 0, & i\\equiv 0(2),\\\\ \\bigoplus_{\\substack{i\\neq p\\\\ \\text{prime}}}\\mathbb{Q}_{\\ell} / \\mathbb{Z}_{\\ell}, & i\\text{odd}, \\end{array} \\right.",
+          "image_source": "images/page_8_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3948948948948949,
+            0.4474885844748858,
+            0.4159159159159159
+          ],
+          "content": "and in fact  $Q_{\\ell}/Z_{\\ell}=\\bigcup_{n\\geq0}Z/\\ell^{n}Z$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.4294294294294294,
+            0.8812785388127854,
+            0.46396396396396394
+          ],
+          "content": "Example Suppose $k = \\overline{\\mathbb{F}}_p$ and let $X$ be a complete non singular curve over $k$. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4246575342465753,
+            0.46096096096096095,
+            0.5662100456621004,
+            0.5525525525525525
+          ],
+          "content": "\\begin{array}{c c} k [ T ^ {- 1} ] \\subset A _ {-} \\\\ \\cap & \\cap \\\\ k (T) \\subset F \\\\ \\cup & \\cup \\\\ k [ T ] \\subset A _ {+} \\end{array}",
+          "image_source": "images/page_8_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5690690690690691,
+            0.8287671232876712,
+            0.5885885885885885
+          ],
+          "content": "where  $A_{\\pm}$  is the integral closure of  $k[T^{\\pm1}]$  in F, and we set  $B = A_{+}A_{-} \\subset F$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6006006006006006,
+            0.8835616438356164,
+            0.6366366366366366
+          ],
+          "content": "Then $X = \\operatorname{Spec} A_{+} \\cup \\operatorname{Spec} A_{-}$ is a finite ramified cover of $\\mathbb{P}_1(k)$, and we have $\\mathcal{P}_X = (P_+, P_-, \\alpha)$, for $P_{\\pm} \\in \\mathcal{P}_{A_{\\pm}}$, where $\\alpha$ an isomorphism of $P_{+} \\otimes B$ with $P_{-} \\otimes B$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.6366366366366366,
+            0.8378995433789954,
+            0.6546546546546547
+          ],
+          "content": "This is like a Dedekind domain where we have the following “localization”"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23972602739726026,
+            0.6711711711711712,
+            0.7579908675799086,
+            0.7147147147147147
+          ],
+          "content": "\\dots \\longrightarrow \\bigoplus_ {\\substack {\\text {closed points} \\\\ x \\text {in} X}} K _ {i} k (x) \\longrightarrow K _ {i} X \\longrightarrow K _ {i} F \\longrightarrow \\dots ,",
+          "image_source": "images/page_8_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7327327327327328,
+            0.6529680365296804,
+            0.7537537537537538
+          ],
+          "content": "and note that $k(x) \\cong \\overline{\\mathbb{F}}_p$ because $k$ is algebraically closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.7537537537537538,
+            0.19863013698630136,
+            0.7687687687687688
+          ],
+          "content": "Take"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3059360730593607,
+            0.7882882882882883,
+            0.6917808219178082,
+            0.8303303303303303
+          ],
+          "content": "D = the group of divisors on curve\n= free abelian group on closed points,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8468468468468469,
+            0.1963470319634703,
+            0.8648648648648649
+          ],
+          "content": "whence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3675799086757991,
+            0.8603603603603603,
+            0.632420091324201,
+            0.9009009009009009
+          ],
+          "content": "\\bigoplus_ {x \\in X} K _ {i} (k) = D \\bigotimes_ {\\mathbb {Z}} K _ {i} (k).",
+          "image_source": "images/page_8_equation_17.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.1552511415525114,
+            0.06456456456456457
+          ],
+          "content": "198"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7374429223744292,
+            0.04954954954954955,
+            0.8812785388127854,
+            0.06606606606606606
+          ],
+          "content": "37 Localization"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.2191780821917808,
+            0.1036036036036036
+          ],
+          "content": "This gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.18493150684931506,
+            0.12162162162162163,
+            0.8127853881278538,
+            0.13963963963963963
+          ],
+          "content": "\\dots \\longrightarrow D \\otimes K _ {i} k \\longrightarrow K _ {i} X \\longrightarrow K _ {i} F \\longrightarrow D \\otimes K _ {i - 1} k \\longrightarrow \\dots ,",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.15765765765765766,
+            0.18949771689497716,
+            0.17567567567567569
+          ],
+          "content": "ending"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2328767123287671,
+            0.17417417417417416,
+            0.7648401826484018,
+            0.24774774774774774
+          ],
+          "content": "\\begin{array}{c} K _ {1} F \\longrightarrow D \\otimes K _ {0} k \\longrightarrow K _ {0} X \\longrightarrow K _ {0} F \\longrightarrow 0 \\\\ \\Big \\| \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\\\ F ^ {*} \\longrightarrow D \\end{array}",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.26576576576576577,
+            0.5684931506849316,
+            0.28378378378378377
+          ],
+          "content": "with this bottom map associating to F its divisor"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4246575342465753,
+            0.30180180180180183,
+            0.5684931506849316,
+            0.3258258258258258
+          ],
+          "content": "D = \\mathbb {Z} \\bigoplus D _ {0}",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.34234234234234234,
+            0.8835616438356164,
+            0.3963963963963964
+          ],
+          "content": "of zeros and poles, where  $D_{0}$  are divisors with total degree zero and the summand Z captures the degree. Let J be the Jacobian of the curve. Then it is well-known that  $D_{0}/Im F^{*} = J$ , and so"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.363013698630137,
+            0.3948948948948949,
+            0.632420091324201,
+            0.42492492492492495
+          ],
+          "content": "K _ {0} X = \\underset {\\text { rank }} {\\mathbb {Z}} \\bigoplus \\underset {\\text { degree }} {\\mathbb {Z}} \\bigoplus J.",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.44294294294294295,
+            0.3401826484018265,
+            0.45795795795795796
+          ],
+          "content": "Note that $J$ is divisible."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.11643835616438356,
+            0.04954954954954955,
+            0.2579908675799087,
+            0.06456456456456457
+          ],
+          "content": "37 Localization"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "199"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.6575342465753424,
+            0.13813813813813813
+          ],
+          "level": 1,
+          "content": "Chapter 38 The Plus Construction, $K_{1}$ and $K_{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.37237237237237236,
+            0.8835616438356164,
+            0.4084084084084084
+          ],
+          "content": "An acyclic map $f:X\\to Y$ is one so that either of the following two equivalent conditions holds"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1187214611872146,
+            0.42042042042042044,
+            0.4794520547945205,
+            0.43843843843843844
+          ],
+          "content": "(i) the homotopy fiber of f is acyclic,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.43843843843843844,
+            0.8105022831050228,
+            0.45795795795795796
+          ],
+          "content": "(ii) for all local coefficient systems L, we have  $H_{*}(X, f^{-1}L) \\simeq H_{*}(Y, L)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.46996996996997,
+            0.8835616438356164,
+            0.5255255255255256
+          ],
+          "content": "Theorem Given X and a perfect normal subgroup N of  $\\pi_{1}X$ , there is a unique acyclic map  $f: X \\to Y$  with kernel N. Also, there is the following universal property in the homotopy category"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.4429223744292237,
+            0.5255255255255256,
+            0.5570776255707762,
+            0.6036036036036037
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6216216216216216,
+            0.7968036529680366,
+            0.6411411411411412
+          ],
+          "content": "with a unique h making the diagram commute if and only if  $N < Ker \\pi_{1} g$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6531531531531531,
+            0.7922374429223744,
+            0.6696696696696697
+          ],
+          "content": "Recall that the set of acyclic maps is closed under push out and pull back."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6711711711711712,
+            0.8812785388127854,
+            0.7267267267267268
+          ],
+          "content": "Take $X = BGL(A)$ and so $\\pi_1 X = GL(A)$ with $\\pi_q X = 0$ for all $q \\geq 2$. Take $N = E(A)$, which is perfect and the commutator subgroup by Whitehead. Denote the unique acyclic map $f: X \\to Y$ with $\\operatorname{Ker} \\pi_1 f = E(A)$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3515981735159817,
+            0.7417417417417418,
+            0.6415525114155252,
+            0.7627627627627628
+          ],
+          "content": "f: B G L (A) \\longrightarrow B G L (A) ^ {+}.",
+          "image_source": "images/page_10_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7972972972972973,
+            0.6963470319634704,
+            0.8168168168168168
+          ],
+          "content": "Review of $K_{1}A$ [Bass] and $K_{2}A$ [Milnor], see Milnor's book:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.8243243243243243,
+            0.3789954337899543,
+            0.8423423423423423
+          ],
+          "content": "According to Bass, $K_{1}$ is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2511415525114155,
+            0.8603603603603603,
+            0.7488584474885844,
+            0.8828828828828829
+          ],
+          "content": "K _ {1} A \\stackrel {{d}} {{=}} G L (A) ^ {a b} = G L (A) / E (A) = \\pi_ {1} (B G L A ^ {+}).",
+          "image_source": "images/page_10_equation_12.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4885844748858447,
+            0.1111111111111111,
+            0.5319634703196348,
+            0.13513513513513514
+          ],
+          "content": "$K_{1}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.6073059360730594,
+            0.1111111111111111,
+            0.6529680365296804,
+            0.13513513513513514
+          ],
+          "content": "$K_{2}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8036529680365296,
+            0.08708708708708708,
+            0.8789954337899544,
+            0.13663663663663664
+          ],
+          "content": "Check for updates"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1141552511415525,
+            0.9024024024024024,
+            0.6872146118721462,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5\\_38"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.9024024024024024,
+            0.8789954337899544,
+            0.9159159159159159
+          ],
+          "content": "201"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.4497716894977169,
+            0.1036036036036036
+          ],
+          "content": "One way of defining Milnor's $K_{2}$ is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3881278538812785,
+            0.12012012012012012,
+            0.6073059360730594,
+            0.16666666666666666
+          ],
+          "content": "\\begin{array}{c} K _ {2} A \\stackrel {{d}} {{=}} H _ {2} (E (A), \\mathbb {Z}) \\\\ = H _ {2} (B E A, \\mathbb {Z}). \\end{array}",
+          "image_source": "images/page_11_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.1831831831831832,
+            0.4315068493150685,
+            0.20270270270270271
+          ],
+          "content": "Meanwhile we have the pull back"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3105022831050228,
+            0.22072072072072071,
+            0.6872146118721462,
+            0.3063063063063063
+          ],
+          "content": "\\begin{array}{c} B E A = \\overline {{B G L A}} \\xrightarrow {\\text {   acyclic   }} \\widetilde {B G L A ^ {+}} \\\\ \\Bigg \\downarrow \\\\ B G L A \\xrightarrow {} B G L A ^ {+} \\end{array}",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3228228228228228,
+            0.1598173515981735,
+            0.33933933933933935
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2968036529680365,
+            0.35285285285285284,
+            0.6986301369863014,
+            0.44594594594594594
+          ],
+          "content": "\\begin{array}{r l} \\pi_ {2} B G L A ^ {+} & = \\pi_ {2} \\widetilde {B G L A ^ {+}} \\\\ & = H _ {2} \\widetilde {B G L A ^ {+}}, \\text { by   Hurewicz } \\\\ & = H _ {2} \\overline {{B G L A}} \\\\ & = H _ {2} B E A. \\end{array}",
+          "image_source": "images/page_11_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.47147147147147145,
+            0.4931506849315068,
+            0.49099099099099097
+          ],
+          "content": "Note that  $\\Omega BQ P_{A} = K_{0} A \\times BGLA^{+}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5105105105105106,
+            0.8515981735159818,
+            0.5480480480480481
+          ],
+          "content": "The Schur multiplier and the universal central extension of a perfect group Recall from day one that  $H^{2}(G, M)$  is the collection of extensions"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3470319634703196,
+            0.566066066066066,
+            0.6506849315068494,
+            0.5825825825825826
+          ],
+          "content": "* \\longrightarrow M \\longrightarrow E \\longrightarrow G \\longrightarrow *",
+          "image_source": "images/page_11_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6006006006006006,
+            0.8812785388127854,
+            0.6366366366366366
+          ],
+          "content": "of $G$ by $M$, and the extension is central if and only if $G$ acts trivially on $M$. If $M$ is a trivial $G$-module, then we have a Universal Coefficient Theorem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1780821917808219,
+            0.6546546546546547,
+            0.8127853881278538,
+            0.6726726726726727
+          ],
+          "content": "0 \\longrightarrow \\operatorname{Ext} ^ {1} \\left(H _ {1} G, M\\right) \\longrightarrow H ^ {2} (G, M) \\longrightarrow \\operatorname{Hom} \\left(H _ {2} G, M\\right) \\longrightarrow 0,",
+          "image_source": "images/page_11_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6906906906906907,
+            0.4360730593607306,
+            0.7102102102102102
+          ],
+          "content": "and G perfect implies Ext = 0, so"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3515981735159817,
+            0.7267267267267268,
+            0.6461187214611872,
+            0.7447447447447447
+          ],
+          "content": "H ^ {2} (G, M) = \\operatorname{Hom} (H _ {2} G, M).",
+          "image_source": "images/page_11_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7627627627627628,
+            0.8812785388127854,
+            0.8018018018018018
+          ],
+          "content": "Translation: there exists a canonical central extension $\\xi \\in H^{2}(G, H_{2}G)$ so that any other extension is induced by a unique map from $H_{2}G$ to $M$:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2534246575342466,
+            0.8183183183183184,
+            0.7420091324200914,
+            0.8978978978978979
+          ],
+          "content": "\\begin{array}{c} \\xi : \\\\ * \\longrightarrow H _ {2} G \\longrightarrow \\widetilde {G} \\longrightarrow G \\longrightarrow * \\\\ * \\longrightarrow M \\longrightarrow E \\longrightarrow G \\longrightarrow * \\end{array}",
+          "image_source": "images/page_11_equation_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.15296803652968036,
+            0.06456456456456457
+          ],
+          "content": "202"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.5684931506849316,
+            0.04954954954954955,
+            0.8812785388127854,
+            0.06756756756756757
+          ],
+          "content": "38 The Plus Construction, $K_{1}$ and $K_{2}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7899543378995434,
+            0.05105105105105105,
+            0.817351598173516,
+            0.06456456456456457
+          ],
+          "content": "$K_{1}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8515981735159818,
+            0.05105105105105105,
+            0.8789954337899544,
+            0.06456456456456457
+          ],
+          "content": "$K_{2}$"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.2557077625570776,
+            0.1036036036036036
+          ],
+          "content": "For $G$ perfect,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.10960960960960961,
+            0.5684931506849316,
+            0.12912912912912913
+          ],
+          "content": "$\\widetilde{G}$ is the universal central extension of $G$, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14383561643835616,
+            0.13663663663663664,
+            0.4611872146118721,
+            0.15465465465465467
+          ],
+          "content": "$H_{2}$  G is the Schur multiplier of G,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.16216216216216217,
+            0.3515981735159817,
+            0.18018018018018017
+          ],
+          "content": "and in particular for EA,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1415525114155251,
+            0.18618618618618618,
+            0.4383561643835616,
+            0.2072072072072072
+          ],
+          "content": "$\\widetilde{EA}$ is the Steinberg group, and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3150684931506849,
+            0.22072072072072071,
+            0.680365296803653,
+            0.24324324324324326
+          ],
+          "content": "H _ {2} E A = \\operatorname{Ker} \\{\\widetilde {E A} \\longrightarrow E A \\} = K _ {2} A.",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.25975975975975973,
+            0.7146118721461188,
+            0.2807807807807808
+          ],
+          "content": "EA is generated by  $I + a E_{ij} = e_{ij}(a)$ , and the commutators are"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2557077625570776,
+            0.2957957957957958,
+            0.7397260273972602,
+            0.31681681681681684
+          ],
+          "content": "$[e_{ij}a, e_{jk}b] = e_{ik}(ab)$, for $i, j, k$ pairwise distinct."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.33183183183183185,
+            0.5388127853881278,
+            0.35135135135135137
+          ],
+          "content": "In fact, Milnor uses this to show  $K_{2}(\\mathbb{F}_{q}) = 0$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.36186186186186187,
+            0.4885844748858447,
+            0.38288288288288286
+          ],
+          "content": "Exercise $\\pi_3(BGLA^+) = H_3(\\widetilde{EA},\\mathbb{Z})$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3918918918918919,
+            0.8789954337899544,
+            0.43093093093093093
+          ],
+          "content": "BGLA is not an H-space since  $\\pi_{1}$  is not abelian. Put  $N = \\{1, 2, \\ldots\\}$  and let  $\\theta : N \\hookrightarrow N$  be any embedding. Then  $\\theta$  induces a map  $GLA \\to GLA$  given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3059360730593607,
+            0.4444444444444444,
+            0.6872146118721462,
+            0.493993993993994
+          ],
+          "content": "\\alpha_ {i j} \\mapsto \\left\\{ \\begin{array}{l l} \\delta_ {i j}, & \\text { if   } i \\text {   or   } j \\notin \\operatorname{Im} \\theta , \\\\ \\alpha_ {\\theta^ {- 1} (i) \\theta^ {- 1} (j)}, & \\text { else }, \\end{array} \\right.",
+          "image_source": "images/page_12_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5105105105105106,
+            0.860730593607306,
+            0.5465465465465466
+          ],
+          "content": "which for instance simply shifts  $\\alpha$  diagonally  $\\alpha\\mapsto\\begin{pmatrix}1&0\\\\0&\\alpha\\end{pmatrix}$  in case  $\\theta(n)=n+1$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.545045045045045,
+            0.1917808219178082,
+            0.5645645645645646
+          ],
+          "content": "We get"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.3789954337899543,
+            0.5615615615615616,
+            0.6187214611872146,
+            0.6441441441441441
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6606606606606606,
+            0.20776255707762556,
+            0.6786786786786787
+          ],
+          "content": "and have"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7027027027027027,
+            0.273972602739726,
+            0.7207207207207207
+          ],
+          "content": "Lemma $\\theta \\simeq \\mathrm{id}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7312312312312312,
+            0.182648401826484,
+            0.7492492492492493
+          ],
+          "content": "Proof"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7492492492492493,
+            0.5821917808219178,
+            0.7687687687687688
+          ],
+          "content": "Step 1: Show the homotopy equivalence. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4018264840182648,
+            0.7852852852852853,
+            0.5958904109589042,
+            0.8603603603603603
+          ],
+          "content": "\\begin{array}{c} G L _ {n} A \\longrightarrow G L A \\\\ \\Biggl \\downarrow_ {\\theta} \\\\ G L A \\end{array}",
+          "image_source": "images/page_12_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.8768768768768769,
+            0.8812785388127854,
+            0.9129129129129129
+          ],
+          "content": "and there exists an $\\alpha \\in EA$ so that conjugation by $\\alpha$ and the map $\\theta$ have the same effect on $GL_{n}A$. Thus the diagram"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.14383561643835616,
+            0.06456456456456457
+          ],
+          "content": "38"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.15296803652968036,
+            0.04954954954954955,
+            0.4292237442922374,
+            0.06756756756756757
+          ],
+          "content": "The Plus Construction, $K_{1}$ and $K_{2}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3378995433789954,
+            0.05105105105105105,
+            0.365296803652968,
+            0.06456456456456457
+          ],
+          "content": "$K_{1}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3995433789954338,
+            0.05105105105105105,
+            0.4269406392694064,
+            0.06456456456456457
+          ],
+          "content": "$K_{2}$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "203"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.365296803652968,
+            0.08558558558558559,
+            0.632420091324201,
+            0.16066066066066065
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.18018018018018017,
+            0.8812785388127854,
+            0.23423423423423423
+          ],
+          "content": "commutes because conjugation acts trivially. So $\\theta_{*}$ acts identically with the same argument showing that $\\theta_{*} = \\mathrm{id}$ on $H_{*}(GLA, M)$ for $M$ any (GLA/EA)-module, and meanwhile"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23972602739726026,
+            0.25075075075075076,
+            0.7579908675799086,
+            0.26876876876876876
+          ],
+          "content": "H _ {*} (G L A, M) = H _ {*} (B G L A, M) = H _ {*} (B G L A ^ {+}, M).",
+          "image_source": "images/page_13_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.28678678678678676,
+            0.8812785388127854,
+            0.32432432432432434
+          ],
+          "content": "It follows that  $\\theta$  induces an isomorphism on  $BGLA^{+}$  for all kinds of homology, and so it is a homotopy equivalence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.33183183183183185,
+            0.8812785388127854,
+            0.36786786786786785
+          ],
+          "content": "Step 2 (Exercise) Any self-homomorphism of the monoid $M$ of all embeddings $\\theta : \\mathbb{N} \\to \\mathbb{N}$ is trivial."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.3768768768768769,
+            0.3378995433789954,
+            0.3963963963963964
+          ],
+          "content": "This proves the lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.4084084084084084,
+            0.7808219178082192,
+            0.42792792792792794
+          ],
+          "content": "Proposition BGLA $^{+}$ is a homotopy commutative associative H-space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.43993993993993996,
+            0.8812785388127854,
+            0.47597597597597596
+          ],
+          "content": "Proof Choose $\\mathbb{N} \\coprod \\mathbb{N} \\hookrightarrow \\mathbb{N}$. This gives a homomorphism $GLA \\times GLA \\to GLA$ and hence a map $B(GLA \\times GLA)^{+} \\to BGLA^{+}$. But"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1780821917808219,
+            0.4924924924924925,
+            0.819634703196347,
+            0.5105105105105106
+          ],
+          "content": "B (G L A \\times G L A) ^ {+} = (B G L A \\times B G L A) ^ {+} = B G L A ^ {+} \\times B G L A ^ {+},",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5285285285285285,
+            0.8812785388127854,
+            0.6021021021021021
+          ],
+          "content": "which gives a product. The previous lemma shows independence of the choice of $\\mathbb{N}\\coprod\\mathbb{N}\\hookrightarrow\\mathbb{N}$. Also, the restriction of the product to both of $*\\times BGLA^{+}$ and $BGLA^{+}\\times *$ are homotopic to the identity by the lemma again. We thus have an $H$-space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6141141141141141,
+            0.6187214611872146,
+            0.6336336336336337
+          ],
+          "content": "Example For  $F = \\overline{F}_{p}$ , compute  $\\pi_{*} BGLF^{+} = K_{*} F$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.6456456456456456,
+            0.8835616438356164,
+            0.7042042042042042
+          ],
+          "content": "To this end, following [R. Brauer], construct a map $BG \\to BU$ using character theory starting from a representation of a finite group $G$ over $F$. Namely, suppose given $G \\xrightarrow{\\rho} GL_n F$. Then choose an embedding"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.365296803652968,
+            0.7207207207207207,
+            0.6301369863013698,
+            0.7402402402402403
+          ],
+          "content": "F ^ {*} \\subset \\{\\text { roots   of   unity } \\} \\subset \\mathbb {C},",
+          "image_source": "images/page_13_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.7552552552552553,
+            0.6757990867579908,
+            0.7882882882882883
+          ],
+          "content": "where $F^{*} = \\coprod_{\\ell \\neq p}\\mathbb{Q}_{\\ell} / \\mathbb{Z}_{\\ell}$. Define the Brauer character $\\chi$ to be"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2557077625570776,
+            0.8048048048048048,
+            0.7374429223744292,
+            0.8228228228228228
+          ],
+          "content": "$\\chi(\\rho)(g) = \\text{the sum of the eigenvalues of } \\rho(g) \\text{ in } \\mathbb{C}^*.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8408408408408409,
+            0.8789954337899544,
+            0.8768768768768769
+          ],
+          "content": "Theorem (Brauer) $\\chi(\\rho)$ is the character of a virtual representation of $G$ over $\\mathbb{C}$, that is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3949771689497717,
+            0.8768768768768769,
+            0.6027397260273972,
+            0.8963963963963963
+          ],
+          "content": "\\chi (\\rho) = \\chi V _ {1} - \\chi V _ {2}.",
+          "image_source": "images/page_13_equation_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.1552511415525114,
+            0.06456456456456457
+          ],
+          "content": "204"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.5684931506849316,
+            0.04954954954954955,
+            0.8789954337899544,
+            0.06756756756756757
+          ],
+          "content": "38 The Plus Construction,  $K_{1}$  and  $K_{2}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7899543378995434,
+            0.05105105105105105,
+            0.817351598173516,
+            0.06456456456456457
+          ],
+          "content": "$K_{1}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8515981735159818,
+            0.05105105105105105,
+            0.8789954337899544,
+            0.06456456456456457
+          ],
+          "content": "$K_{2}$"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.8835616438356164,
+            0.12162162162162163
+          ],
+          "content": "We get $BGLF \\to BU$ hence $BGLF^{+} \\to BU$ since $BU$ is simply connected, and this is almost a homology equivalence."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1415525114155251,
+            0.13363363363363365,
+            0.4383561643835616,
+            0.14864864864864866
+          ],
+          "level": 2,
+          "content": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.15315315315315314,
+            0.8835616438356164,
+            0.24474474474474475
+          ],
+          "content": "As noted in the Foreword, the class and the notes ended abruptly and embarrassedly here with this vague remark on homology equivalence owing to the end of class time, which Quillen always meticulously respected. The precise statement proved in Quillen's 1972 paper [9] is that this map lifts to the homotopy fiber of $\\Psi^q - 1$, where $\\Psi$ is an Adams operation, and this lift is almost a homotopy equivalence."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1187214611872146,
+            0.05105105105105105,
+            0.14383561643835616,
+            0.06456456456456457
+          ],
+          "content": "38"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.15296803652968036,
+            0.04954954954954955,
+            0.4292237442922374,
+            0.06606606606606606
+          ],
+          "content": "The Plus Construction, $K_{1}$ and $K_{2}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3378995433789954,
+            0.05105105105105105,
+            0.365296803652968,
+            0.06456456456456457
+          ],
+          "content": "$K_{1}$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4018264840182648,
+            0.05105105105105105,
+            0.4269406392694064,
+            0.06456456456456457
+          ],
+          "content": "$K_{2}$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06456456456456457
+          ],
+          "content": "205"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.11643835616438356,
+            0.07957957957957958,
+            0.6506849315068494,
+            0.10810810810810811
+          ],
+          "level": 1,
+          "content": "Afterword by Mikhail Karpranov"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.34384384384384387,
+            0.8835616438356164,
+            0.47147147147147145
+          ],
+          "content": "This volume contains the notes of a course given by Daniel Quillen at MIT in 1979/80, almost 40 years ago. The goal of the course was to provide an introduction to Quillen's fundamental work on higher algebraic K-theory. It begins from scratch, making very minimal requirements on the mathematical background of the participants (only an elementary knowledge of groups, rings etc. is assumed), and in the space of 38 lectures brings them to the subject matter of Quillen's original work. Among the subjects covered are:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.47897897897897895,
+            0.3287671232876712,
+            0.496996996996997
+          ],
+          "content": "\\- Group cohomology."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.496996996996997,
+            0.5251141552511416,
+            0.5135135135135135
+          ],
+          "content": "• Homological algebra. Derived categories."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.5135135135135135,
+            0.5799086757990868,
+            0.5315315315315315
+          ],
+          "content": "\\- Simplicial sets and simplicial homotopy theory."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.5330330330330331,
+            0.636986301369863,
+            0.5495495495495496
+          ],
+          "content": "\\- Homotopy theory of categories via classifying spaces."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.5495495495495496,
+            0.5684931506849316,
+            0.5675675675675675
+          ],
+          "content": "\\- Higher K-theory via Quillen's Q-construction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.5690690690690691,
+            0.5228310502283106,
+            0.5855855855855856
+          ],
+          "content": "\\- Sketches of relations to other techniques:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1324200913242009,
+            0.5945945945945946,
+            0.8812785388127854,
+            0.6306306306306306
+          ],
+          "content": "\\- Tits complexes (used in Quillen's proof of the finite generation of K-groups for algebraic integers and curves over finite fields)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1324200913242009,
+            0.6306306306306306,
+            0.7123287671232876,
+            0.6501501501501501
+          ],
+          "content": "\\- The definition of higher K-groups via the Plus construction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6576576576576577,
+            0.8835616438356164,
+            0.8018018018018018
+          ],
+          "content": "Most of this material is available in modern textbooks and in Quillen's original and excellently written papers [9–11]. For further study the reader will definitely need to master these as well. Among the standard modern references on homological algebra one can name the books of Gelfand–Manin [2] and Weibel [15] as well as the classic [1] of Cartan–Eilenberg. The basics of simplicial homotopy theory can also be found in Gelfand–Manin [2] and a more systematic treatment in the book of Goerss–Jardine [3]. The books of Srinivas [13] and Weibel [16] provide systematic treatments of various approaches to higher K-theory."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8018018018018018,
+            0.8835616438356164,
+            0.8558558558558559
+          ],
+          "content": "The present volume gives a shortened overview of the subject which may be useful and less intimidating for the beginner than a more fundamental course of reading which can come later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8558558558558559,
+            0.8835616438356164,
+            0.8933933933933934
+          ],
+          "content": "Comparison of modern treatments shows how difficult it is to improve on Quillen. The sheer perfection of his work is almost frightening. As far as the foundations of"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1141552511415525,
+            0.9024024024024024,
+            0.6872146118721462,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.9024024024024024,
+            0.8789954337899544,
+            0.9174174174174174
+          ],
+          "content": "207"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11187214611872145,
+            0.08558558558558559,
+            0.8835616438356164,
+            0.19369369369369369
+          ],
+          "content": "K-theory go, one important later development is the S-construction of Segal and Waldhausen [14, 16] which can be viewed as a somewhat more flexible analog of the Q-construction, applicable to a wider class of categories. Quillen famously expressed hope [10] that the techniques around his theorems A and B will some day be incorporated into a general homotopy theory for toposes. One can see Lurie's theory of $\\infty$-categories and $\\infty$-toposes [7] as a confirmation of this hope."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.19369369369369369,
+            0.8835616438356164,
+            0.24924924924924924
+          ],
+          "content": "These notes, with their informal style, provide a direct window into the way of operation of a great mind. Their preservation, owing to the effort of Robert Penner, will be very much appreciated by the readers."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.05105105105105105,
+            0.15296803652968036,
+            0.06456456456456457
+          ],
+          "content": "208"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.6164383561643836,
+            0.05105105105105105,
+            0.8812785388127854,
+            0.06756756756756757
+          ],
+          "content": "Afterword by Mikhail Karpranov"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.37987987987987987,
+            0.8721461187214612,
+            0.3963963963963964
+          ],
+          "content": "1. H. Cartan, S. Eilenberg, Homological Algebra (Princeton University Press, Princeton, 1956)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.3963963963963964,
+            0.8059360730593608,
+            0.4114114114114114
+          ],
+          "content": "2. S.I. Gelfand, Y.I. Manin, Methods of Homological Algebra (Springer, Berlin, 1997)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.4114114114114114,
+            0.7853881278538812,
+            0.4264264264264264
+          ],
+          "content": "3. P.G. Goerss, J.F. Jardine, Simplicial Homotopy Theory (Birkhäuser, Basel, 1999)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.42792792792792794,
+            0.8812785388127854,
+            0.45645645645645644
+          ],
+          "content": "4. D. Grayson, Higher algebraic K-theory II (after Daniel Quillen). Lecture Notes in Mathematics, vol. 551 (Springer, Berlin, 1976), pp. 217–240"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.45645645645645644,
+            0.8789954337899544,
+            0.4864864864864865
+          ],
+          "content": "5. D. Grayson, Finite generation of K-groups of a curve over a finite field (after Daniel Quillen), vol. 966, Lecture Notes in Mathematics (Springer, Berlin, 1982), pp. 69–90"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.4864864864864865,
+            0.8789954337899544,
+            0.515015015015015
+          ],
+          "content": "6. A. Grothendieck, J.-L. Verdier, Préfaisceaux (SGA4 Éxp. 1), Lecture Notes in Mathematics, vol. 269 (Springer, Berlin, 1972), pp. 17–233"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.515015015015015,
+            0.7488584474885844,
+            0.5315315315315315
+          ],
+          "content": "7. J. Lurie, Higher Topos Theory (Princeton University Press, Princeton, 2009)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.12557077625570776,
+            0.53003003003003,
+            0.8789954337899544,
+            0.5615615615615616
+          ],
+          "content": "8. J. Milnor, Introduction to Algebraic K-Theory, Annals of Mathematics Studies, vol. 72 (Princeton University Press, Princeton, 1971)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1232876712328767,
+            0.5615615615615616,
+            0.8812785388127854,
+            0.5915915915915916
+          ],
+          "content": "9. D. Quillen, On the cohomology and K-theory of the general linear groups over a finite field. Ann. Math. 96, 552–586 (1972)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.5900900900900901,
+            0.8812785388127854,
+            0.6216216216216216
+          ],
+          "content": "10. D. Quillen, Algebraic K-theory I, vol. 341, Lecture Notes in Mathematics (Springer, Berlin, 1973), pp. 85–147"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.6216216216216216,
+            0.8812785388127854,
+            0.6516516516516516
+          ],
+          "content": "11. D. Quillen, Finite generation of the groups  $K_{i}$  of rings of algebraic integers, vol. 341, Lecture Notes in Mathematics (Springer, Berlin, 1973), pp. 179–198"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.6516516516516516,
+            0.5365296803652968,
+            0.6666666666666666
+          ],
+          "content": "12. J.-P. Serre, Local Fields (Springer, Berlin, 1979)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.6666666666666666,
+            0.6027397260273972,
+            0.6816816816816816
+          ],
+          "content": "13. V. Srinivas, Algebraic K-Theory (Birkäuser, Basel, 1996)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.6816816816816816,
+            0.8812785388127854,
+            0.7102102102102102
+          ],
+          "content": "14. F. Waldhausen, Algebraic K-theory of generalized free products. Ann. Math. 108, 135–204 (1978)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.7102102102102102,
+            0.8812785388127854,
+            0.7402402402402403
+          ],
+          "content": "15. C.A. Weibel, Introduction to Homological Algebra (Cambridge University Press, Cambridge, 1994)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1187214611872146,
+            0.7402402402402403,
+            0.8812785388127854,
+            0.7717717717717718
+          ],
+          "content": "16. C.A. Weibel, The K-book: An Introduction to Algebraic K-theory (American Mathematical Society Publishing, Providence, 2013)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1141552511415525,
+            0.08258258258258258,
+            0.2945205479452055,
+            0.10510510510510511
+          ],
+          "content": "References"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1141552511415525,
+            0.9024024024024024,
+            0.684931506849315,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.9024024024024024,
+            0.8812785388127854,
+            0.9159159159159159
+          ],
+          "content": "209"
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.33783783783783783,
+            0.13926940639269406,
+            0.35285285285285284
+          ],
+          "level": 2,
+          "content": "A"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.35285285285285284,
+            0.3881278538812785,
+            0.5225225225225225
+          ],
+          "content": "Abelian category, 51, 55  \nAcyclic map, 201  \nAdditive category, 54  \nAdditive functor, 23  \nAdditive non-abelian category, 57  \nAdjoint functors, 43  \nAdjunction formula, 127  \nAdmissible layer, 172  \nAdmissible morphism, 144  \nArrow, 6  \nAxioms for simplicial objects, 10"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.551051051051051,
+            0.136986301369863,
+            0.5645645645645646
+          ],
+          "level": 2,
+          "content": "B"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.566066066066066,
+            0.2922374429223744,
+            0.5975975975975976
+          ],
+          "content": "Bi-simplicial set, 179  \nBurnside ring, 103"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.6276276276276276,
+            0.13926940639269406,
+            0.6426426426426426
+          ],
+          "level": 2,
+          "content": "C"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.6426426426426426,
+            0.3835616438356164,
+            0.8888888888888888
+          ],
+          "content": "Cartesian morphism, 63  \nCategory, 6  \nCategory object, 156  \nClassifying space, 156  \n1-coboundary, 6  \n2-cocycle, 3  \nCo-chain complex, 4  \nCofibered category, 64  \nCogroup structure, 52  \nCohomology of cyclic groups, 28  \nCohomology of free groups, 22  \nCokernel, 54  \nComplex in abelian category, 72  \nConical contractibility, 17  \nConical contraction, 170  \nConnecting homomorphism, 23"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.33783783783783783,
+            0.7511415525114156,
+            0.3708708708708709
+          ],
+          "content": "Contractibility, 169  \nCrossed homomorphism, 5"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.4009009009009009,
+            0.5570776255707762,
+            0.4144144144144144
+          ],
+          "level": 2,
+          "content": "D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.4159159159159159,
+            0.7511415525114156,
+            0.5375375375375375
+          ],
+          "content": "$\\delta$ -functor, 23  \nDerivation, 5, 22  \nDerived category, 91  \nDevissage Theorem, 106  \nDirect limit, 42  \nDirect sum, 42  \nDiscrete category, 47, 69  \nDold-Thom Theorem, 182"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.566066066066066,
+            0.5547945205479452,
+            0.581081081081081
+          ],
+          "level": 2,
+          "content": "E"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.581081081081081,
+            0.8013698630136986,
+            0.6456456456456456
+          ],
+          "content": "Effaceable functor, 21  \nEqualizer, 41  \nExact category, 143  \nExact sequence of $K$-groups, 191"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.6726726726726727,
+            0.5547945205479452,
+            0.6861861861861862
+          ],
+          "level": 2,
+          "content": "F"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.6876876876876877,
+            0.7602739726027398,
+            0.7807807807807807
+          ],
+          "content": "Fiber, 47  \nFibered category, 63  \nFinal object, 40  \nFirst homotopy property, 95  \nFull subcategory, 73  \nFunctor, 7"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.8093093093093093,
+            0.5570776255707762,
+            0.8243243243243243
+          ],
+          "level": 2,
+          "content": "G"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.8243243243243243,
+            0.7785388127853882,
+            0.8873873873873874
+          ],
+          "content": "Generalized Kan formula, 134  \nGeometric realization, 155  \nGrothendieck group, 102  \nGroup completion, 101"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1141552511415525,
+            0.08408408408408409,
+            0.2146118721461187,
+            0.10960960960960961
+          ],
+          "content": "Index"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1141552511415525,
+            0.9024024024024024,
+            0.6872146118721462,
+            0.948948948948949
+          ],
+          "content": "© Springer Nature Switzerland AG 2020\nR. Penner, Topology and K-Theory, Lecture Notes in Mathematics 2262, https://doi.org/10.1007/978-3-030-43996-5"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8447488584474886,
+            0.9024024024024024,
+            0.8789954337899544,
+            0.9174174174174174
+          ],
+          "content": "211"
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08708708708708708,
+            0.273972602739726,
+            0.13363363363363365
+          ],
+          "content": "Group extension, 1  \nGroupoid, 7  \nG-set, 41"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.16366366366366367,
+            0.13926940639269406,
+            0.18018018018018017
+          ],
+          "level": 2,
+          "content": "H"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.1816816816816817,
+            0.4657534246575342,
+            0.35135135135135137
+          ],
+          "content": "Higher K-groups, 161\nHochschild–Serre spectral sequence, 140\nHomology groups with coefficients in a module, 13\nHomology of category with values in a functor, 12\nHomology of cyclic groups, 27\nHomology of simplicial complex, 16\nHomotopy between functors, 72\nHomotopy equivalence, 169\nHyper-homology spectral sequence, 126"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.37987987987987987,
+            0.1324200913242009,
+            0.3948948948948949
+          ],
+          "level": 2,
+          "content": "I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.3948948948948949,
+            0.3150684931506849,
+            0.44594594594594594
+          ],
+          "content": "Increasing filtration, 123  \nInitial object, 40  \nInjective object, 71"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.4744744744744745,
+            0.13926940639269406,
+            0.4894894894894895
+          ],
+          "level": 2,
+          "content": "K"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.4894894894894895,
+            0.2557077625570776,
+            0.5225225225225225
+          ],
+          "content": "Kan formula, 47  \nKernel, 55"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.5525525525525525,
+            0.136986301369863,
+            0.5675675675675675
+          ],
+          "level": 2,
+          "content": "L"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.5675675675675675,
+            0.3493150684931507,
+            0.6636636636636637
+          ],
+          "content": "Layer, 170  \nLeft-derived functor, 91  \nLeft-fiber, 47  \nLeray spectral sequence, 133  \nLocalization, 101  \nLocalization Theorem, 191"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.6936936936936937,
+            0.14383561643835616,
+            0.7087087087087087
+          ],
+          "level": 2,
+          "content": "M"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11643835616438356,
+            0.7087087087087087,
+            0.2899543378995434,
+            0.8033033033033034
+          ],
+          "content": "Mackey formula, 35  \nMapping cone, 87  \nMapping cylinder, 85  \nModules, 2  \nMonoid, 6  \nMorphisms, 6"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.8318318318318318,
+            0.136986301369863,
+            0.8468468468468469
+          ],
+          "level": 2,
+          "content": "N"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.8468468468468469,
+            0.3949771689497717,
+            0.8963963963963963
+          ],
+          "content": "Nerve of a category, 7  \nNerve of topological category, 156  \nNormalization Theorem, 15"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.08708708708708708,
+            0.6232876712328768,
+            0.12012012012012012
+          ],
+          "content": "O Objects, 6"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.14564564564564564,
+            0.5547945205479452,
+            0.16066066066066065
+          ],
+          "level": 2,
+          "content": "P"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.16066066066066065,
+            0.7465753424657534,
+            0.2852852852852853
+          ],
+          "content": "Plus construction, 201  \nPoset, 6  \nPostnikov filtration, 123  \nPre-cofibered category, 64  \nPre-fibered category, 63  \nProjective object, 71  \nProjective resolution, 73  \nPuppe sequence, 111"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.3108108108108108,
+            0.5570776255707762,
+            0.3258258258258258
+          ],
+          "level": 2,
+          "content": "Q"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.3258258258258258,
+            0.723744292237443,
+            0.3738738738738739
+          ],
+          "content": "Quasi-fibration, 182  \nQuasi-isomorphism, 72  \nQuis, 72"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.4009009009009009,
+            0.5547945205479452,
+            0.4144144144144144
+          ],
+          "level": 2,
+          "content": "R"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.4144144144144144,
+            0.819634703196347,
+            0.4774774774774775
+          ],
+          "content": "Representable functor, 40  \nResolution of a complex, 73  \nResolution Theorem, 107, 144, 196  \nRight fiber, 47"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.503003003003003,
+            0.5547945205479452,
+            0.5180180180180181
+          ],
+          "level": 2,
+          "content": "s"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.5180180180180181,
+            0.7922374429223744,
+            0.7777777777777778
+          ],
+          "content": "Schreier Lemma, 106  \nSchur multiplier, 203  \nSchur-Zassenhaus Theorem, 36  \nSecond cohomology group, 4  \nSection, 3  \nSemi-simplicial space, 155  \nSerpent Lemma, 59  \nSimplex in a category, 7  \nSimplicial abelian group, 10  \nSimplicial object, 9  \nSimplicial set, 7  \nSmall category, 6  \nSpectral sequence, 115  \nSplit extension, 22  \ns.s., 155  \nSteinberg group, 203  \nSteinberg module, 177"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.5365296803652968,
+            0.8033033033033034,
+            0.5547945205479452,
+            0.8168168168168168
+          ],
+          "level": 2,
+          "content": "T"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.8183183183183184,
+            0.723744292237443,
+            0.8978978978978979
+          ],
+          "content": "Theorem A, 189  \nTheorem B, 191  \nThick subcategory, 147  \nTits building, 177  \nTits complex, 187"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.11643835616438356,
+            0.04954954954954955,
+            0.15296803652968036,
+            0.06456456456456457
+          ],
+          "content": "212"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8287671232876712,
+            0.04954954954954955,
+            0.8835616438356164,
+            0.06606606606606606
+          ],
+          "content": "Index"
+        }
+      ]
+    },
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.08558558558558559,
+            0.3287671232876712,
+            0.1036036036036036
+          ],
+          "content": "Topological category, 156"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.1021021021021021,
+            0.2602739726027397,
+            0.12012012012012012
+          ],
+          "content": "Transfer map, 33"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5342465753424658,
+            0.08558558558558559,
+            0.5593607305936074,
+            0.1021021021021021
+          ],
+          "content": "Y"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5319634703196348,
+            0.1006006006006006,
+            0.6963470319634704,
+            0.11861861861861862
+          ],
+          "content": "Yoneda Lemma, 39"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11643835616438356,
+            0.14114114114114115,
+            0.1415525114155251,
+            0.15615615615615616
+          ],
+          "level": 2,
+          "content": "U"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1141552511415525,
+            0.15615615615615616,
+            0.3767123287671233,
+            0.17567567567567569
+          ],
+          "content": "Universal central extension, 203"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.1141552511415525,
+            0.04954954954954955,
+            0.17123287671232876,
+            0.06756756756756757
+          ],
+          "content": "Index"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8424657534246576,
+            0.04954954954954955,
+            0.8835616438356164,
+            0.06606606606606606
+          ],
+          "content": "213"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}
