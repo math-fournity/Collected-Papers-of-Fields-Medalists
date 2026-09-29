@@ -509,7 +509,7 @@ $$
 we obtain
 
 $$
-\left| w _ {j} \right| \leqslant (8 \sigma / \rho) ^ {R S} \leqslant \left(8 c _ {9} c _ {1 0} k e ^ {(\log k) ^ {n + 2}}\right) ^ {R S} \leqslant c _ {1 1} ^ {k n + 1}.
+\left| w _ {j} \right| \leqslant (8 \sigma / \rho) ^ {R S} \leqslant \left(8 c _ {9} c _ {1 0} k e ^ {(\log k) ^ {n + 2}}\right) ^ {R S} \leqslant c _ {1 1} ^ {k ^ {n + 1}}.
 $$
 
 Furthermore, it was only in the final deduction that critical use was made of the inequality $\kappa > \zeta(n+2)$; at all other places in the proof (including, in particular, Lemma 5) the inequality $\kappa > \zeta(n+1)$ would suffice. Moreover, in the final deduction, the need for the stricter inequality arose only from the estimate for $|w_j|$. Hence, on re-defining $\zeta$ as $\frac{1}{2}\{1 + \kappa/(n+1)\}$, so that $\kappa > \zeta(n+1)$, all the above arguments will now be valid, and Theorem 1 follows. Similar considerations apply to Theorem 2.
