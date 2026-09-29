@@ -125,7 +125,7 @@ $$
 because $d\| T\|$ is a positive measure. Hence
 
 $$
-\begin{array}{l} \int_ {| z - a | <   r} | V P _ {\varepsilon} (z) |   \omega_ {n} (z) \leq c _ {2} \int_ {| z - a | <   r} \int_ {| \zeta | <   \varepsilon} \frac {1}{| z - \zeta | ^ {2 n - 1}} d \| T \| (\zeta)   \omega_ {n} (z) \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qend{array}
+\begin{array}{l} \int_ {| z - a | <   r} | \nabla P _ {\varepsilon} (z) |   \omega_ {n} (z) \leq c _ {2} \int_ {| z - a | <   r} \int_ {| \zeta | <   \varepsilon} \frac {1}{| z - \zeta | ^ {2 n - 1}} d \| T \| (\zeta)   \omega_ {n} (z) \\ \qquad \leq c _ {2} \int_ {| z - a | <   r} \int_ {| \zeta - a | <   2 \varepsilon} \frac {1}{| z - \zeta | ^ {2 n - 1}} d \| T \| (\zeta)   \omega_ {n} (z) \\ \qquad = c _ {2} I. \end{array}
 $$
 
 Next, one checks easily that
@@ -143,7 +143,7 @@ $$
 for if  $t \geq 2$  then  $|z - \zeta| \geq r(t - 1)$ , while if t < 2 then  $|z - a| < r$  is contained in  $|z - \zeta| < 3r$  and the computation again becomes obvious. We deduce the bound
 
 $$
-\begin{array}{l} I \leq c _ {3} r \int_ {| \zeta - a | <   2 \varepsilon} \left(1 + \frac {1}{r} | \zeta - a |\right) ^ {- 2 n + 1} d \| T \| (\zeta) \\ = c _ {3} r \int_ {0} ^ {2 \varepsilon / r} (1 + t) ^ {- 2 n + 1} d \| T \| B (r t, a) \\ = \frac {c _ {3} r}{\left(1 + \frac {2 \varepsilon}{r}\right) ^ {2 n - 1}} \| T \| B (2 \varepsilon , a) + c _ {3} r (2 n - 1) \int_ {0} ^ {2 \varepsilon / r} \frac {\| T \| B (r t , a)}{(1 + t) ^ {2 n}} d t. \end{array}
+\begin{array}{l} I \leq c _ {3} r \int_ {| \zeta - a | <   2 \varepsilon} \left(1 + \frac {1}{r} | \zeta - a |\right) ^ {- 2 n + 1} d \| T \| (\zeta) \\ = c _ {3} r \int_ {0} ^ {2 \varepsilon / r} (1 + t) ^ {- 2 n + 1} d \| T \| B (r t, a) \\ = - \frac {c _ {3} r}{\left(1 + \frac {2 \varepsilon}{r}\right) ^ {2 n - 1}} \| T \| B (2 \varepsilon , a) + c _ {3} r (2 n - 1) \int_ {0} ^ {2 \varepsilon / r} \frac {\| T \| B (r t , a)}{(1 + t) ^ {2 n}} d t. \end{array}
 $$
 
 Finally
