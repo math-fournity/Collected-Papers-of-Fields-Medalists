@@ -52,3 +52,11 @@
   - **THEOREM M** ✓；Schoenflies/Mazur [7] 段 ✓；Poincaré duality 论证段（∂C homotopy sphere、
     attach 2m-disk、Theorem H）✓
 - 结果：**PASS±**（±：页眉 "394 STEPHEN SMALE" 与页码未收）
+
+## p.006（PDF p.6 / 印刷 p.395）
+- PNG：audit/p006.png（pngmono 150dpi）
+- 核对：Palais [17] 承接段 ✓；Theorem B 证明段（[Munkres 15]、double W、Mazur [7]）✓；
+  **THEOREM N**（Hauptvermutung for closed cells）✓；Hirsch [3]/Whitehead [27] 论证 ✓；
+  **THEOREM O**（Hauptvermutung for spheres）✓；Gluck [2] 段 ✓；program 段（[21]、F/G）✓；
+  proofs similar 段 ✓
+- 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 395" 与页码未收）
