@@ -57,3 +57,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:01 | PAGE | Atiyah-Singer index | p.6/12 | PASS± | 𝔡/d字形混并、Todd字形不一致；HRR吻合
 2026-09-29 16:01 | PAGE | Atiyah-Singer index | p.7/12 | PASS± | Theorem4显示式=原刊排印(含h⁻(D)quirk)；spinorstructure连字丢空格
 2026-09-29 16:05 | PAGE | Atiyah-Singer index | p.9/12 | PASS± | Proposition3/脚注8全吻合
+2026-09-29 16:06 | PAGE | Atiyah-Singer index | p.10/12 | PASS± | Cobordism/Prop4全吻合；𝔡混并同族

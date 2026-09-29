@@ -130,3 +130,17 @@
   - REMARK（(3.2) W=1 或 (3.3) freely generate）✓；γ(Wσ₀)=μ(Wσ₀) 归约 ✓
 - 结果：**PASS±**（±：①页眉未收；②"Ell(X)/K(X)σ₀" 被拆成两个相邻 math span，内容完整）
 - 备注：本页无内容级差异。
+
+## p.010（PDF p.10 / 印刷 p.431）
+- PNG：audit/p010.png（pngmono 150dpi）
+- 核对：
+  - μ(Wσ₀)=μ(X,W)、γ(Wσ₀)=γ(X,W) ✓
+  - §5 Cobordism：cobordism 定义 ∂Y=X₁∪(−X₂)、U|X_i≅W_i、abelian group A ✓
+  - **PROPOSITION 4**：If (X,W)∼0 then μ(X,W)=0 and γ(X,W)=0 ✓
+  - REMARKS：D=*d+𝔡* operates⁹ on Σ_k Λ^{2k}⊗W、boundary splits E⊗W/F⊗W ✓；
+    Du=0 (u|X∈F⊗W) 与 Du=0 (u|X∈E⊗W) 两行 ✓；well-posed [1]、singular integral operator T [3]、
+    (i) γ(T)=0、(ii) σ(T)=Wσ₀ ✓；Thom [12]、A⊗ℚ ✓
+  - 脚注 9（connection in W）✓ 编号正确
+- 结果：**PASS±**（±：①页眉未收；②花体 𝔡（伴随）在 "D=*d+d*" 与脚注 9 中并作普通 d——
+  与 p.006 同族字形混并伪影）
+- 备注：本页无内容级差异。
