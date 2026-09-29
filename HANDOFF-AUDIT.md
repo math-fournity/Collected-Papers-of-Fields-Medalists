@@ -227,6 +227,12 @@
      升序接力新增件（Villani landau 10p → 小件 laudatio/ICM 报告 → Wang-Zahl 127p → Deng 三件
      （34/138/192p）→ Hironaka partI/II → 大部头殿后）；④用户并行下载件（2026 四目录、Quillen
      目录等 23 项未跟踪）待稳定后同批入库+导出。新会话粘贴 `ZCODE-HANDOFF-PROMPT.md` 即可接力。
+- **★ 2026-09-29 上游对接（用户明确授权 push）**：远端 `origin = https://github.com/math-fournity/
+  Collected-Papers-of-Fields-Medalists`；仓库身份切换为 **math-fournity <math-fournity@proton.me>**
+  （repo-local config；此后新提交以此署名，既有 139 个提交保留原 0x10debug 署名——未经明确指示
+  不改写历史）。远端原有 2 行 README 的 Initial commit 以 unrelated-histories 合并保留（README
+  以本库为准，merge 425821d7），**正常推送成功**（6557b630..425821d7，无 force）。此后会话结束/
+  阶段收尾时：`git push` 同步（推送本身已获用户常设授权于本 repo；如有新的破坏性操作仍须问）。
 
 ## 6. 验收标准（任务完成的定义）
 
