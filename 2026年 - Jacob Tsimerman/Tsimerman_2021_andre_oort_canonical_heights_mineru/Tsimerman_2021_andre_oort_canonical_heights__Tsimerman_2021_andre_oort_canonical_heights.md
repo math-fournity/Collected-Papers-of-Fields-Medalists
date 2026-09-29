@@ -1,0 +1,2123 @@
+# Canonical Heights on Shimura Varieties and the André-Oort Conjecture
+
+Jonathan Pila, Ananth N. Shankar, Jacob Tsimerman with an appendix by Hélène Esnault and Michael Groechenig
+
+December 18, 2024
+
+## Contents
+
+1 Introduction 3
+1.1 History and main results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.2 Method of proof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 Constructing canonical heights on Shimura varieties . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.4 Solid height functions .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 4
+1.5 Organization of the paper .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. 5
+1.6 Acknowledgements .. .. .. .. .. .. .. .. .. .. .. .. .. .. 6
+2 p-adic Hodge Theory 6
+2.1 Notation ..... 6
+2.2 The p-adic Riemann-Hilbert correspondence of Liu-Zhu ..... 7
+2.3 Review of Tsuji's constructions ..... 8
+2.3.1 Recovering M from T$_{cris}$M. ..... 9
+2.4 Compatibility of passage to fibers ..... 10
+2.5 Compatibility of Tsuji with Liu-Zhu ..... 12
+3 Adelically Metrized Bundles 13
+3.1 Heights ..... 14
+4 Canonical Heights and Admissible Metrics 14
+4.1 Metrizing D$_{HT}$ ..... 14
+4.2 Metrizing Hodge-Tate metrics in families ..... 16
+4.3 Comparison of the two metrics ..... 19
+5 Some Ramified Examples 21
+5.1 Elliptic curves with CM by a maximal order ramified at p ..... 21
+5.1.1 The intrinsic norm ..... 21
+5.1.2 The crystalline norm ..... 22
+5.2 Elliptic curves with CM by a non-maximal order ..... 22
+5.2.1 Intrinsic norm ..... 22
+6 Shimura Varieties 23
+6.1 Basic definitions ..... 23
+6.2 Special points ..... 24
+6.3 Useful group-theoretic reductions for Shimura varieties ..... 24
+6.4 Principle bundles ..... 25
+
+6.5 Automorphic vector bundles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25   
+6.6 Rational representations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25   
+6.7 Canonical metrics at infinity . . . . . . . . . . . . . . . . . . . . 26   
+6.8 Automorphic line bundles on tori . . . . . . . . . . . . . . 26   
+6.9 Partial CM types . . . . . . . . . . . . . . 26   
+6.10 CM points in adjoint Shimura varieties. 26   
+6.11 Motives associated to special points 28   
+7 p-adic Local Systems on Shimura Varieties are Crystalline 29   
+7.1 Rigidity and crystalline descent 29   
+7.2 Crystallinity of $p$ -adic local systems. 30   
+8 Good Reduction of CM Points 30   
+8.1 Punctured formal neighborhoods 31   
+8.2 Specialization homomorphisms and setup 31   
+9 Canonical Norm on Local Systems of Shimura Varieties 32   
+10 Solid Height Functions 34   
+10.1 Notation. 34   
+10.2 Height function requirements 34   
+10.3 Properties of heights of total CM types. 36   
+10.4 Main height bound. 36   
+10.5 Using the height bound to prove André-Oort 38   
+11 Construction of a Solid Height Function 39   
+11.1 Norms on 0-dimensional Shimura varieties. 39   
+11.2 Definition of the function 40   
+11.3 Establishing Properties (1)-(3) 40   
+11.4 Establishing Property (4) 41   
+A Frobenius structures and unipotent monodromy at infinity by Hélène Esnault and Michael C   
+A.1 Construction of a suitable arithmetic model 45   
+A.2 Applications of the Higgs-de Rham flow 47   
+A.3 Higgs-de Rham flow over truncated Witt rings 49
+
+## 1 Introduction
+
+## 1.1 History and main results
+
+The main purpose of this work is to prove the André-Oort conjecture in full generality. Recall the statement of the conjecture:
+
+Theorem 1.1. Let S be a Shimura variety. Let$V \subset S$be a subvariety. Then there are only finitely many maximal special subvarieties contained in V.
+
+The first unconditional result was obtained by André [1] for a product of two modular curves. In the past two decades there has been much work on the conjecture. First, spurred by an idea of Edixhoven [18], the conjecture was proven conditionally on GRH in a series of works by Klingler-Ullmo-Yafaev [33, 60].
+
+Further unconditional results were obtained, starting with [49], using a diferent strategy. This strategy was originally proposed by Zannier and had been implemented to reprove the Manin-Mumford conjecture in [51]. The approach has three main ingredients:
+
+• Estimates [50] for counting rational points on a transcendental set
+
+• Functional Transcendence theorems, specifically for the uniformization map of Shimura varieties
+
+• Lower bounds for Galois orbits of special points.
+
+The required functional transcendence results were generalized to arbitrary Shimura varieties in a series of works including [47, 31], and inspired stronger transcendence results in these and other contexts, including recently a proof of the so called Ax-Schanuel theorem in the context of arbitrary variations of mixed Hodge structures [46,4,12,24]. Such generalizations are important for studying deeper unlikely intersection questions such as the Zilber-Pink conjecture.
+
+The remaining missing ingredient was the lower bound for Galois orbits of special points. Such bounds were obtained for$A _ { g }$in [58] by relying on the average Colmez conjecture[10] (proved independently by Andreatta-Goren-Howard-Madapusi–Pera[2] and Yuan-Zhang [61]) to obtain bounds for the height of Galois orbits and the Masser-Wüstholz isogeny estimates. The isogeny estimates are not available in arbitrary Shimura varieties, but this ingredient was recently removed in a paper of Binyamini-Schmidt-Yafaev [6] based on a recent breakthrough of Binyamini [5] obtaining strong point-counting results in terms of both the height and degree of the points being counted. The idea for this strategy to obtain Galois orbit bounds first appeared in work of Schmidt [53] in the context of tori and elliptic curves.
+
+In essence, this means that the conjecture is reduced to finding suitable upper bounds for heights of special points. Our main contribution is to establish this result:
+
+Theorem 1.2 (Theorem 10.9 + §11). Fix a Shimura variety$S _ { K } ( G , X )$with G of adjoint type. Let$( T , r ) \subset$ G, X be a (varying) 0-dimensional Shimura datum such that K$\cap T ( \mathbf { A } _ { f } )$is of index M in the maximal compact$K _ { T }$, and let$E _ { T }$be the splitting field of T. Then the height of$( T , r )$with respect to an ample line bundle is M disc${ \cal E } _ { T } ) ^ { o ( 1 ) }$
+
+Gao [23] has shown how to deduce the André-Oort conjecture for a mixed Shimura variety from Galois bounds for the associated pure Shimura variety, and so the conjecture (which is as stated in Theorem 1.1 for S a mixed Shimura variety) follows for all mixed Shimura varieties also.
+
+## 1.2 Method of proof
+
+The idea is to reduce the general case to the height bounds for CM points in$\mathcal { A } _ { g } .$. We thus need a way to compare heights for CM points which embed in diferent Shimura varieties. To facilitate this comparison, we require a ‘canonical’ height on arbitrary Shimura varieties, similar to the Faltings height on$A _ { g }$. At first glance this might feel minor, because all Weil heights on a line bundle are the same up to bounded functions, so why is it so important to get a canonical height function? The reason is that we have a diferent comparison for each CM point, so knowing the result up to a bounded function for each CM point separately tells us nothing! As such, we need to have better pointwise control. We explain how to do this in the next subsection. Once this is done, then for every 0-dimensional Shimura variety and automorphic line bundle - i.e. a character of the split torus - we obtain a canonical height <sup>1</sup>.
+
+We first explain in 6.9 how to associate a 0-dimensional Shimura datum$\left( E ^ { \times } / F ^ { \times } , r _ { \Phi } \right)$to a partial CM type Φ associated to a CM field$E / F _ { ; }$, and a canonical character$\chi _ { \Phi }$on the associated torus. We are thus reduced to bounding the corresponding intrinsic heights of$\chi _ { \Phi }$on$( T _ { \Phi } , r _ { \Phi } )$, and the case where Φ is a full CM-type is covered by the case of$A _ { g }$
+
+The idea is then to use Deligne’s construction for augmenting partial CM types into full CM types. Namely, suppose that$E _ { 1 } , E _ { 2 }$are CM fields over the same real totally real field$F .$. Say$\Phi _ { 1 } , \Phi _ { 2 }$are partial CM types for$E _ { 1 } , E _ { 2 }$respectively, such that their restrictions to$F$are complementary. Then one may form a complete CM type Φ on$E _ { t o t } : = E _ { 1 } E _ { 2 }$by taking the union of the pullbacks of the$\Phi _ { i }$. Moreover, $( E _ { t o t } ^ { \times } / F _ { t o t } ^ { \times } , r _ { \Phi } )$admits maps (up to isogeny) to$( E _ { i } ^ { \times } / F ^ { \times } , r _ { \Phi _ { i } } )$via the norm map on tori, and$\chi _ { \Phi }$is the product of the pullbacks of the$\chi _ { \Phi _ { i } }$. In this way, we are able to deduce from the case of full CM type, bounds for the sum of the intrinsic heights of$\Phi _ { 1 }$and$\Phi _ { 2 }$
+
+Armed with this technique, the key observation is that we may combine these partial CM types in many diferent ways, allowing us to extract individual bounds by taking linear combinations. This is a simple combinatorial argument, which we carry out in Theorem 10.10.
+
+## 1.3 Constructing canonical heights on Shimura varieties
+
+Given a Z-local system V arising from an algebraic representation V of$G _ { \mathbb { Q } }$, we may form an associated flat vector bundle$_ \mathrm { d R } V$via the Riemann-Hilbert correspondence, which in this setting is equipped with a filtration. Our line bundles will arise as determinants of sub-bundles of$_ \mathrm { d R } V$, and so we seek to give$\mathrm { G r } _ { \mathrm { d R } } ^ { \bullet } V$ the structure of a normed vector bundle. At the Archimedean places, we simply use the Hodge norm<sup>2</sup>. Our construction of canonical heights is similar in spirit to previous constructions of heights for motives, in particular, works of Kato [29] and Koshikawa [30].
+
+At the finite places, work of Scholze[54] and Liu-Zhu[36] has shown how to interpret$_ \mathrm { d R } V$in terms of a p-adic Riemann-Hilbert correspondence, which specializes to the functor$D _ { \mathrm { d R } }$from$p \mathrm { . }$-adic Hodge theory pointwise. This allows us to equip its grading with a canonical norm, and it is not hard to show that this norm behaves well at each finite place.
+
+A dificulty arises in showing that the above local norms piece together to give a well-behaved global norm. We suspect that this is the case for all Shimura varieties<sup>3</sup> (and perhaps much more generally), but have been unable to establish this.
+
+Here we use in an essential way the work of Esnault-Groechenig, which they generalize in the appendix to accommodate non-proper Shimura varieties. Specifically, they establish that if the local system is rigid, then for all but finitely many places it is in fact crystalline in the sense of Faltings. It is this extra data that allows us to prove that the heights piece together well.
+
+## 1.4 Solid height functions
+
+Most fundamentally for us is a height on 0-dimensional Shimura varieties which behaves well with respect to embeddings. For a 0-dimensional Shimura variety$( T , r )$we can assign automorphic line bundles corresponding to solid characters$\chi$of T (See definition 10.2). To such a triple$( T , r , \chi )$we associate a real-valued height function h (note that this is level invariant), satisfying the following four properties:
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>In fact the details are a bit more complicated and require us to make some arbitrary and unaesthetic choices between what we dub the intrinsic and crystalline norms, but morally this is what is happening.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>This depends on the choice of polarization</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>This would follow from the (conjectured) existence of suitable motives over exceptional Shimura varieties</span></small>
+
+1. If$\chi _ { 1 } , \chi _ { 2 }$are both solid characters then4
+
+$$
+h (T, r, \chi_ {1} \chi_ {2}) = h (T, r, \chi_ {1}) + h (T, r, \chi_ {2}) + O _ {\mathrm{rng} _ {\chi_ {1}} + \mathrm{rng} _ {\chi_ {2}} + \dim T} (\log \operatorname{Disc} E _ {T})
+$$
+
+2. Given a solid triple$( T , r , \chi )$and a positive integer m we have
+
+$$
+h (T, r ^ {m}, \chi) = m h (T, r, \chi) + O _ {m + \mathrm{rng} _ {\chi} + \dim T} (\log \operatorname{Disc} E _ {T})
+$$
+
+3. If$( T _ { 2 } , r _ { 2 } , \chi )$is solid, and$f : ( T _ { 1 } , r _ { 1 } )  ( T _ { 2 } , r _ { 2 } )$is a morphisms of Shimura data with$T _ { 1 } , T _ { 2 }$tori, then
+
+$$
+h \left(T _ {1}, r _ {1}, \chi \circ f\right) = h \left(T _ {2}, r _ {2}, \chi\right) + O _ {\operatorname{rng} _ {\chi} + \dim T _ {1} + \dim T _ {2}} \left(\log \operatorname{Disc} E _ {T _ {1}} + \log \operatorname{Disc} E _ {T _ {2}}\right).
+$$
+
+4. Let$S = S _ { K } ( G , X )$be a Shimura variety, and V an irreducible representation of G with a sublattice V fixed by K. Assume that the highest weight piece$L : = \mathrm { F i l } _ { \mathrm { d R } } ^ { a } V _ { \mathbb { C } }$is 1-dimensional, and let$h _ { L }$be a Weil height on a Toroidal compactification S<sup>¯</sup> of S corresponding to the Deligne extension of L. Let $h _ { A }$be a Weil height corresponding to any ample bundle on a Toroidal compactification of S. Finally, let$( T , r ) \subset ( G , X )$be a 0-dimensional Shimura subdatum, and$\chi : = { \mathrm { F i l } } _ { r } ^ { a } V _ { \mathbb { C } }$the corresponding solid character of T. Then for all points$x \in S _ { K } ( G , X )$in the image of$S _ { K \cap T ( \mathbf { A } _ { f } ) } ( T , r )$, we have
+
+$$
+\left| h (T, r, \chi) - h _ {L} (x) \right| = O _ {S} \Big (\log \operatorname{Disc} E _ {T} + \log \left(\left[ K _ {T}: K \cap T (\mathbf {A} _ {f}) \right]\right) + \log^ {+} h _ {A} (x) \Big)
+$$
+
+The most important property is the last one, establishing a uniform comparison between the solid height function of a 0-dimensional Shimura variety, and the Weil height of a corresponding CM point when embedded in a larger Shimura variety.
+
+In 10.7 we show that the existence of a solid height function implies the validity of the André-Oort conjecture, and in §11 we construct a solid height function using the canonical heights from before.
+
+## 1.5 Organization of the paper
+
+The paper is roughly broken up into 3 parts:
+
+1. §2-5: Using p–adic Hodge theory to construct canonical norms on vector bundles corresponding to Crystalline and De-Rham representations
+
+2. §6-9: Endowing Shimura varieties with canonical height functions
+
+3. §10-11: Proving the André-Oort conjecture
+
+In §2 we recall the relevant integral p-adic Hodge theory results from Tsuji[59] and Liu-Zhu[36] and show a compatibility between them. In §3 we define notions of well-behaved norms on vector bundles that allows us to discuss global heights. In §4 we work in the general context of a variety and a de Rham local system on it and enow the corresponding vector bundle with canonical norms (crystalline and de Rham). In §5 we present concrete examples of what our constructions give in the case of CM elliptic curves with CM by ramified and non-maximal orders.
+
+In §6 we recall some basics about Shimura varieties, introduce the concept of partial CM-types and show that the associated 0-dimensional Shimura varieties are suficient to understand every 0-dimensional Shimura variety arising in a Shimura variety of adjoint type. In$\ S 7$we combine results of Esnault-Groechenig ([20] and generalized to our setting in the appendix) and Margulis [38] to show that automorphic local systems on Shimura varieties are (log-)crystalline, so that we may apply the theory of relative Fontaine-Lafaille modules to them. In §8 by showing that in a given Shimura variety, all CM points are integral with respect to an appropriate integral model in the spirit of the Neron-Ogg-Shafarevich criterion. This is important for us as we need our representations to be crystalline at almost every prime for the analysis when we compare heights. Finally, In$\ S 9$we combine the previous results to obtain global ‘canonical’ heights on Shimura varieties.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ET</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>We denote by E<sub>T</sub> the splitting field of T</span></small>
+
+In section §10 we define solid height functions and prove that their existence implies the truth of the André-Oort conjecture. This section is self-contained (except for some background on Shimura varieties). Finally, in section §11 we construct a solid height function using the results of §9.
+
+## 1.6 Acknowledgements
+
+The authors would like to thank Yves André, Fabrizo Andreatta, Ben Bakker, Bhargav Bhatt, George Boxer, Antoine Chambert-Loir, Hélène Esnault, Michael Groechenig, Haoyang Guo, Mark Kisin, Ruochan Liu, Davesh Maulik, Yong Suk Moon, Matthew Morrow, Will Sawin, Peter Scholze, Andrew Snowden, Takeshi Tsuji, Zijian Yao, Shouwu Zhang, and Roy Zhao for useful conversations. We would also like to thank Teruhisa Koshikawa for useful comments and for pointing out several inaccuracies regarding the rigid geometry and p-adic Hodge theory parts of the paper. We thank the referees for pointing us to the work of Brinon[8] and many useful suggestions.
+
+A.S. was partially supported by NSF grant DMS-2100436.
+
+## 2 p-adic Hodge Theory
+
+## 2.1 Notation
+
+We use the following definitions and notations from [8, 54, 59, 36]<sup>5</sup>:
+
+•$V$is a complete DVR of mixed characteristic p with perfect residue field k and fraction field K. We assume p is a uniformizer of V, so that$V \cong W ( k )$, the Witt-vectors of k.
+
+$\overline { V }$is the integral closure of V in$\overline { { K } }$.
+
+• R is a smooth V -algebra. Let R denote its p-adic completion.
+
+$\overline { { R } }$is the integral closure of R in the maximal étale extension of$R [ 1 / p ]$, and define$\overline { { \mathcal { R } } }$analogously. Let $\hat { \mathcal { R } }$denote the p-adic completion of$\overline { { \mathcal { R } } }$.
+
+$f : V [ s _ { 1 } , s _ { 1 } ^ { - 1 } , \ldots , s _ { n } , s _ { n } ^ { - 1 } ]  R$is an étale map.
+
+• Let$\overline { { \mathcal { R } } } ^ { \flat }$be$\underline { { \operatorname* { l i m } } } _ { x \mapsto x ^ { p } } ( \overline { { \mathcal { R } } } / p \overline { { \mathcal { R } } } )$
+
+• Define$A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$to be$W ( \overline { { \mathcal { R } } } ^ { \flat } )$, the ring of Witt-vectors of$\overline { { \mathcal { R } } } ^ { \flat }$. This ring has a Frobenius$\varphi$by functoriality. For any element$x \in \overline { { \mathcal { R } } } ^ { \flat }$, let$[ x ] \in A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } )$denote its Teichmuller lift.
+
+• There is the following ring homomorphism$\theta : A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } )  { \hat { \overline { { \mathcal { R } } } } } .$, characterized by$\begin{array} { r } { \theta ( [ a ] ) = \operatorname* { l i m } _ { n \to \infty } \widetilde { a _ { n } } ^ { p ^ { n } } } \end{array}$ where$a \in \overline { { \mathcal { R } } } ^ { \flat } = \left( a _ { n } \right)$and$\widetilde { a _ { n } } \in \overline { { \mathcal { R } } }$is some lift of$a _ { n }$
+
+• Fix a compatible system$\beta _ { n } \in \overline { { \mathcal { R } } }$of$p ^ { n }$th roots of$p ,$with$\beta _ { 0 } = p$. Define$p ^ { \flat } \in \overline { { \mathscr { R } } } ^ { \flat }$to be the element$( \beta _ { n }$ mod$p ) _ { n }$. Let$[ p ^ { \flat } ]$denote the Teichmuller lift of$p ^ { \flat }$
+
+• Define$\xi \in A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } ) = p - [ p ^ { \flat } ]$. It generates the kernel of$\theta .$
+
+• Define ǫ to be an inverse limit of primitive$p ^ { n . }$th roots of unity, and$\pi = [ \epsilon ] - 1$
+
+• Define$\mathrm { F i l } ^ { r } ( A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) )$to be the ideal ker$( \theta ) ^ { r } { \mathrm { ~ i f ~ } } r \geqslant 1$, and to be$A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } ) { \mathrm { ~ i f ~ } } r \leqslant 0$ • Define$A _ { \mathrm { c r i s } , m } ( \overline { { \mathcal { R } } } )$to be divided power envelope of$A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) / p ^ { m }$with respect to the ideal ker θ mod$p ^ { m }$ Define$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$to be the inverse limit lim$\Omega _ { m } ^ { \ A _ { \mathrm { c r i s } } , m } ^ { ( \overline { { \mathcal { R } } } ) }$endowed with the inverse limit topology with respect to the discrete topology on$A _ { \mathrm { c r i s } , m } ( \overline { { \mathcal { R } } } )$. This is the same as the following construction: consider the divided power envelope$A _ { \mathrm { 0 , c r i s } } ( { \overline { { \mathcal { R } } } } )$of$A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$with respect to the ideal ker θ . Then$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$is the p-adic completion of$A _ { \mathrm { 0 , c r i s } } ( \overline { { \mathcal { R } } } )$.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>The notation in [54] isn’t always consistent with the notation in [8]. In cases when the notation conflicts, we defer to [54].</span></small>
+
+• Define$A _ { \mathrm { c r i s } , m } ( \overline { { \mathcal { R } } } )$to be the divided power envelope of$A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) \otimes _ { V } \mathcal { R } / p ^ { m }$with respect to the kernel of the surjective homomorphism θ mod$p ^ { m } \otimes$Id mod$p ^ { m } : A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) \otimes \mathcal { R }$mod$p ^ { m } \to \overline { { \mathcal { R } } }$mod$p ^ { m }$. Define$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$to be the inverse limit of$A _ { \mathrm { { c r i s } } , m } ( { \overline { { \mathcal { R } } } } )$. This ring is isomorphic to$A _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) \langle v _ { 1 } , . . . v _ { n } \rangle ^ { \overline { { P } } D }$9 which is the p-adic completion of the PD-algebra$\dot { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) [ v _ { 1 } , \ldots v _ { n } ] ^ { P D }$. Here, the elements$v _ { i }$map to $\left[ s _ { i } ^ { \flat } \right] \otimes s _ { i } ^ { - 1 } - 1 = ( 1 \otimes s _ { i } ^ { - 1 } ) ( \left[ s _ { i } ^ { \flat } \right] \otimes 1 - 1 \otimes s _ { i } )$
+
+• Following Brinon,$B _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) : = A _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) [ { \textstyle \frac { 1 } { \pi } } ] , \ B _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) : = \ A _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) [ { \textstyle \frac { 1 } { \pi } } ]$. The element$p$is invertible in $B _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } )$and$B _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$. We note that the notation for$B _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } )$(resp.$B _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) )$in [8] is$B _ { \mathrm { c r i s } } ^ { \nabla }$(resp. $B _ { \mathrm { c r i s } } )$
+
+$B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) : = A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) [ \frac { 1 } { p } ]$. We use θ to refer also to the natural extension$B _ { \operatorname* { i n f } } ( \overline { { \mathcal { R } } } ) \to \hat { \overline { { \mathcal { R } } } } [ \frac { 1 } { p } ]$
+
+$B _ { _ { \mathrm { d R } } } ^ { + } ( \overline { { \mathcal { R } } } ) : = \varprojlim B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) / ( \ker \theta ) ^ { n }$with its natural filtration$\mathrm { F i l } ^ { i } B _ { \mathrm { d R } } ^ { + } ( \overline { { \mathcal { R } } } )$generated by ker θ <sup>i</sup>.
+
+$B _ { \mathrm { d R } } ( \overline { { \mathcal { R } } } ) : = B _ { \mathrm { d R } } ^ { + } ( \overline { { \mathcal { R } } } ) [ \frac { 1 } { \xi } ]$. We note that this is the ring that Brinon denotes by$B _ { \mathrm { d R } } ^ { \nabla }$
+
+$\mathcal { O } B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) : = \overline { { \mathcal { R } } } \otimes _ { V } B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } )$. Note this still admits a map θ to$\scriptstyle { \hat { \mathcal { R } } } [ { \frac { 1 } { p } } ]$
+
+$\mathcal { O } B _ { \mathrm { { d R } } } ^ { + } ( \overline { { \mathcal { R } } } )$is a suitable p-adic completion of lim$\mathcal { O } B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) / ( \ker \theta ) ^ { n }$as in [55] with its natural filtration $\mathrm { F i l } ^ { i } { \mathcal { O } } B _ { \mathrm { d R } } ^ { + } ( { \overline { { \mathcal { R } } } } )$generated by ker$\theta ) ^ { i }$. It is a power-series ring over$B _ { \mathrm { d R } } ^ { + } ( \overline { { \mathcal { R } } } )$, with variables$X _ { i }$. We note that this is the ring Brinon denotes by$B _ { \mathrm { d R } }$
+
+$\mathcal { O B } _ { \mathrm { d R } } ( \overline { { \mathcal { R } } } ) : = \mathcal { O B } _ { \mathrm { d R } } ^ { + } ( \overline { { \mathcal { R } } } ) [ \frac { 1 } { \xi } ]$
+
+• Note that$\mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) , \mathcal { B } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) , \mathcal { O } B _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) , \mathcal { O } B _ { \mathrm { d R } } ^ { + } ( \overline { { \mathcal { R } } } ) , \mathcal { O } B _ { \mathrm { d R } } ( \overline { { \mathcal { R } } } )$all admit integrable connections$\otimes _ { \mathcal { R } } \Omega _ { \mathcal { R } / V } ^ { 1 }$ inherited from$\mathcal { R } _ { : }$, as well as an action of$G = \operatorname { G a l } ( { \overline { { \mathcal { R } } } } / \mathcal { R } )$
+
+• There are natural embeddings$B _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )  B _ { \mathrm { d R } } ( \overline { { \mathcal { R } } } )$and${ \mathcal { B } } _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } )  { \mathcal { O } } B _ { \mathrm { d R } } ( { \overline { { \mathcal { R } } } } )$, compatible with filtrations, G-actions and the connection. Under these embeddings, the local coordinates$v _ { i }$map to $( 1 \otimes s _ { i } ^ { - 1 } ) X _ { i } ( [ 8$, Section 6.2.1, Proposition 6.2.1, Corollaire 6.2.3]).
+
+• Define$\begin{array} { r } { t = \log ( [ \epsilon ] ) : = \sum _ { i \geq 1 } ( - 1 ) ^ { i + 1 } \frac { \pi ^ { i } } { i } } \end{array}$as an element of$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$. Note that$\begin{array} { r } { t - \pi \in \mathrm { F i l } ^ { 2 } A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) , \frac { t } { \pi } } \end{array}$is a unit in$A _ { \mathrm { c r i s } } \left( \mathcal { O } _ { \mathbb { C } _ { p } } \right)$and that the Galois action on$A _ { \mathrm { c r i s } } \left( \mathcal { O } _ { \mathbb { C } _ { p } } \right)$scales t via the cyclotomic character.
+
+## 2.2 The p-adic Riemann-Hilbert correspondence of Liu-Zhu
+
+We summarize here (a consequence of) one of the main results from [36], in the context of$X = \operatorname { S p f } \mathcal { R }$. To set the stage, we let L be a$\mathbb { Z } _ { p } \ .$- local system of finite rank r over$X ^ { \mathrm { r i g } }$, the generic fiber of$X$. We can identify this with a$G = \operatorname { G a l } ( { \overline { { \mathcal { R } } } } / \mathcal { R } )$- module L, free of rank r over$\mathbb { Z } _ { p }$. The following Theorem<sup>6</sup> is [36, Thm 3.9].
+
+Theorem 2.1. Define$D _ { \scriptscriptstyle \mathrm { d R } } ^ { 0 } ( L ) : = ( L \otimes \mathcal { O } B _ { \scriptscriptstyle \mathrm { d R } } ( \overline { { \mathcal { R } } } ) ) ^ { G }$. Then$D _ { \mathrm { d R } } ^ { 0 } ( L )$is a locally-free$\textstyle { \mathcal { R } } [ { \frac { 1 } { p } } ]$-module with an integrable connection. It is of rank$\leqslant r$wth equality if L is a de Rham local system in the sense of Brinon and Scholze.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Q<sub>p</sub></span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>6</sup>Liu-Zhu work in far greater generality. Indeed, they work with local systems on rigid-analytic varieties over finite extensions of . The goal of this section is to compare Liu-Zhu’s construction with the relative Fontaine-Lafaile correspondence, and hence we work in a more restricted setup. However, we will use Liu-Zhu’s general framework in later sections.</span></small>
+
+Proof. The definition of$D _ { \mathrm { d R } } ^ { 0 } ( L )$is taken from [36, §3.2] once one makes the translations from sheaves to rings. The statement about ranks follows from the pullback compatiblity [36, Thm 3.9(ii)] together with the corresponding statement for the classical case$R = V$, as well as the statement [36, Thm 1.3] showing that a local system is de Rham if its stalk is de Rham at a single classical point in every connected component.
+
+## 2.3 Review of Tsuji’s constructions
+
+Let R, R be as above. We fix a Frobenius-lift$\phi$on$V [ s _ { i } ] _ { ; }$, by setting$\phi ( s _ { i } ) = s _ { i } ^ { p }$. There is a unique extension of φ on R which we will also denote by the same φ. We recall the category$\begin{array} { r } { \dot { \mathrm { M F } } _ { [ 0 , p - 2 ] , \mathrm { f r e e } } ^ { \nabla } ( \mathcal { R } , \phi ) } \end{array}$. An object of$\mathrm { M F } _ { [ 0 , p - 2 ] , \mathrm { f r e e } } ^ { \nabla } ( \mathcal { R } , \phi )$is given by the quadruple$( M , { \mathrm { F i l } } , \nabla , \Phi )$where (see [59, §4] for more details):
+
+1. M is a finitely-generated locally free R-module .
+
+2. A topologically nilpotent integrable connection$\nabla : M \to M \otimes \Omega ^ { 1 }$
+
+3. A decreasing filtration Fil of M by R-submodules, satisfying:
+
+(a)$\mathrm { F i l } ^ { 0 } M = M$and${ \mathrm { F i l } } ^ { p - 1 } M = 0$
+
+(b)$\mathrm { G r } ^ { \bullet } M$is finitely generated free R-module.
+
+(c)$\nabla ( \mathrm { F i l } ^ { r } M ) \subset \mathrm { F i l } ^ { r - 1 } M \otimes \Omega ^ { 1 }$(Grifiths transversality).
+
+4. Associated to M is the filtered module$F ^ { * } ( M )$where the underlying module is simply$\phi ^ { * } M ,$and the underlying filtration is
+
+$$
+\operatorname{Fil} ^ {r} F ^ {*} (M) := \sum_ {s \geqslant 0} \frac {p ^ {s}}{s !} \phi^ {*} (\operatorname{Fil} ^ {r - s} M)
+$$
+
+5. An R-linear homomorphism$\Phi : F ^ { * } ( M ) \to M$where
+
+(a) Φ is compatible with the connections
+
+(b)$\Phi ( { \mathrm { F i l } } ^ { r } ( F ^ { * } M ) ) \subset p ^ { r } M$for$r \in [ 0 , p - 2 ]$
+
+$$
+\mathrm{(c)} \sum_ {r = 0} ^ {p - 2} p ^ {- r} \Phi (\operatorname{Fil} ^ {r} (F ^ {*} (M))) = M
+$$
+
+Tsuji in [59, Section 5] associates the following objects to an object M of$\operatorname { M F } _ { [ 0 , p - 2 ] , \operatorname { f r e e } } ^ { \nabla } ( \mathcal { R } , \varphi ) ;$
+
+• An$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$-module$T A _ { \mathrm { c r i s } } ( M ) : = M \otimes _ { \mathcal { R } } A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) [ 5 9 , ( 3 7 ) ]$
+
+• An$A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$-module$T A _ { \mathrm { i n f } } ( M )$, with a canonical isomorphism
+
+$$
+T A _ {\text { inf }} (M) \otimes_ {A _ {\text { inf }} (\overline {{\mathcal {R}}})} A _ {\text { cris }} (\overline {{\mathcal {R}}}) \cong T A _ {\text { cris }} (M)
+$$
+
+• A G-module$T _ { \mathrm { c r i s } } M$of rank the same as M. This is defined as the dual of$T _ { \mathrm { c r i s } } ^ { * } ( M )$where
+
+$$
+T _ {\text { cris }} ^ {*} (M) := \operatorname{Hom} _ {\mathcal {R}, \text { Fil }, \phi , \nabla} (M, \mathcal {A} _ {\text { cris }} (\overline {{\mathcal {R}}})).
+$$
+
+Any G-module obtained this way is defined to be a crystalline local system.
+
+Remark 2.2. 1. Let${ \overline { { X } } } / V$denote a proper smooth scheme, let$D \subset { \overline { { X } } }$denote a relative normal crossing divisor, and let$X = { \overline { { X } } } \backslash D$. Faltings defines the notion of a “logarithmic Fontaine-Lafaille module" on $\overline { { X } }$(see [22, Theorem$2 . 6 ^ { \prime }$, page 43, i)]), associated to which is a local system on$X _ { V [ 1 / p ] }$. Outside the appendix, we will refer to such local systems as log-crystalline in order to distinguish this notion from the notion of crystalline local systems on the generic fiber of smooth formal schemes. We note that such local systems are usually deemed crystalline in the literature (and in the appendix, are called crystalline local systems).
+
+2. In the setting of$X , { \bar { X } }$and D above, let$L / X _ { V [ 1 / p ] } ^ { \mathrm { a n } }$be a log-crystalline local system. Then the restriction $L | \mathcal { X } ^ { \mathrm { r i g } }$is crystalline in the usual sense, where X is the p-adic completion of X and${ \mathcal { X } } ^ { \mathrm { r i g } }$is the rigid generic fiber of this formal scheme. Similarly, the restriction of a log Fontaine-Lafaile module to$\mathcal { X }$ is a Fontaine-Lafaile module in the usual sense. Further, the log Fontaine-Lafaile correspondence agrees with the usual Fontaine-Lafaile correspondence when restricted to$\mathcal { X }$and${ \mathcal { X } } ^ { \mathrm { r i g } }$. We will abuse notation and let$T _ { \mathrm { c r i s } }$and$S _ { \mathrm { c r i s } }$denote the forward and backwards direction of the log Fontaine-Lafaile correspondence.
+
+3. By [22, Theorem 2.6], any subrepresentation and quotient-representation of a crystalline representation is also a crystalline representation. The same holds in the log-crystalline setting by [22, Theorem$2 . 6 ^ { \prime }$ page 43, i)].
+
+## 2.3.1 Recovering M from$T _ { \mathrm { c r i s } } M$
+
+Following Brinon, we mention how to recover$M \otimes \mathbb { Q } _ { p }$from$T _ { \mathrm { c r i s } } ( M ) \textrm { - }$note that$M \otimes \mathbb { Q } _ { p }$only depends on $T _ { \mathrm { c r i s } } ( M ) \otimes \mathbb { Q } _ { p }$and not on the actual lattice itself. We have$M \otimes \mathbb { Q } _ { p } \cong ( T _ { \mathrm { c r i s } } ( M ) \otimes \mathcal { B } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) ) ^ { G }$
+
+It is implicit though not formally stated in [59] how to recover M from$T _ { \mathrm { c r i s } } ( M )$. We summarize it here in two steps:
+
+$T A _ { \mathrm { i n f } } ( M )$is the unique G-stable free$A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$-submodule of$T _ { \mathrm { c r i s } } M \otimes A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$which generates$T _ { \mathrm { c r i s } } M \otimes$ $\textstyle A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } ) [ { \frac { 1 } { \pi } } ]$and which is trivial modulo π in the following sense: namely, that$T A _ { \mathrm { i n f } } ( M ) / \pi$is isomorphic to$( A _ { \mathrm { i n f } } / \ddot { \pi } )$<sup>rank</sup> <sup>M</sup> as a (semi-linear)$A _ { \mathrm { i n f } } / \pi \mathrm { - }$representation of G. [59, Lemma$6 4 ( 2 )  { \mathrm { ~ + ~ } } ( 6 6 )  { \mathrm { + ~ } }  { \mathrm { P r o p ~ } } 7 6 ]$
+
+• M – ´T AinfpMq bAinfpRq Acris pRq¯<sup>G</sup>. [59, Prop 61]<sup>7</sup>
+
+We denote the above procedure by$L  S _ { \mathrm { c r i s } } ( L )$. We also have that$S _ { \mathrm { c r i s } } ( L ) \otimes _ { \mathbb { Z } _ { p } } \mathbb { Q } _ { p } \cong ( L \otimes A _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) [ 1 / \pi ] ) ^ { G }$ for crystalline local systems L (note that inverting π also inverts$p )$
+
+We shall require the following (almost certainly known) results for later:
+
+Lemma 2.3. Let$L _ { 1 } , L _ { 2 }$be crystalline local systems of weights in$[ 0 , a ]$and 0, b such that$a + b \leqslant p - 2$ Then$L _ { 1 } \otimes L _ { 2 }$is crystalline and there is a natural isomorphism
+
+$$
+S _ {\mathrm{cris}} (L _ {1}) \otimes S _ {\mathrm{cris}} (L _ {2}) \to S _ {\mathrm{cris}} (L _ {1} \otimes L _ {2})
+$$
+
+Proof. Define$M _ { i } : = S _ { \mathrm { c r i s } } \left( L _ { i } \right)$for$i = 1 , 2$. Then$M : = M _ { 1 } { \otimes } _ { { \mathcal { R } } } M _ { 2 }$is naturally an object of$M F _ { [ 0 , a + b ] , \mathrm { f r e e } } ^ { \nabla } ( \mathcal { R } , \phi )$ Thus we may associate to M the module$T _ { \mathrm { c r i s } } ^ { * } ( M )$. Now it is clear that$T _ { \mathrm { c r i s } } ^ { * } ( M ) \supset T _ { \mathrm { c r i s } } ^ { * } ( \dot { M } _ { 1 } ) \ddot { \otimes } T _ { \mathrm { c r i s } } ^ { * } ( M _ { 2 } )$ Therefore there is an injective isogeny$f : T _ { \mathrm { c r i s } } ^ { } ( M )  L _ { 1 } ^ { } \otimes L _ { 2 } ^ { }$. It follows that$L _ { 1 } \otimes L _ { 2 }$is crystalline.
+
+By [59, (39)] it follows that
+
+$$
+T A _ {\text { cris }} (M) \cong T A _ {\text { cris }} (M _ {1}) \otimes_ {A _ {\text { cris }} (\overline {{\mathcal {R}}})} T A _ {\text { cris }} (M _ {2}).
+$$
+
+It follows by the characterization of$T A _ { \mathrm { i n f } } ( M )$that
+
+$$
+T A _ {\inf} (M) \cong T A _ {\inf} (M _ {1}) \otimes_ {A _ {\inf} (\overline {{\mathcal {R}}})} T A _ {\inf} (M _ {2}).
+$$
+
+It follows by [59, Thm 70] that$\begin{array} { r } { f \otimes A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) [ \frac { 1 } { \pi } ] } \end{array}$is an isomorphism. Since$\textstyle A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } ) [ { \frac { 1 } { \pi } } ]$is a domain it is flat over$\mathbb { Z } _ { p }$. Moreover$A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } ) [ { \frac { 1 } { \pi } } ] \otimes \mathbb { F } _ { p } \neq 0$and therefore$f$must be an isomorphism. This shows the second part of the claim.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">T A<sub>inf</sub> pMq</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">cris</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>7</sup>Technically the proof of this proposition works with T A pMq but the version written follows immediately from the definition of given above.</span></small>
+
+We next prove the log-crystalline version. To do this, we recall the definition of$A _ { \mathrm { c r i s } } , \mathrm { l o g }$following Faltings: In the afine setting, we have a smooth scheme Spec R over$V ,$and a relatively normal crossings divisor $D \subset \operatorname { S p e c } R$defined by a principal ideal$( T ) \subset R$, and we define$\overline { { R } }$to be the integral closure of R in the maximal étale extension of$\begin{array} { r } { R [ \frac { 1 } { p T } ] } \end{array}$. The rest of the construction proceeds exactly as for$A _ { \mathrm { c r i s } }$
+
+Lemma 2.4. Let$L _ { 1 } , L _ { 2 }$be log crystalline local systems of weights in 0, a and 0, b such that$a + b \leqslant p - 2$ Then$L _ { 1 } \otimes L _ { 2 }$is log crystalline and there is a natural isomorphism
+
+$$
+S _ {\mathrm{cris}} (L _ {1}) \otimes S _ {\mathrm{cris}} (L _ {2}) \to S _ {\mathrm{cris}} (L _ {1} \otimes L _ {2})
+$$
+
+Proof. We first construct the map in question. Let$M _ { i } = S _ { \mathrm { c r i s } } ( L _ { i } )$be the corresponding log Fontaine-Lafaile modules. The fact that${ \cal M } : = { \cal M } _ { 1 } \otimes { \cal M } _ { 2 }$is log Fontaine-Lafaille is obvious by definition. By Faltings’ description on the top of [22, page 37], the Galois action on$M \otimes A _ { \mathrm { c r i s } } , \log$is determined by specifying the action of the geometric Galois group$\Delta$where an element σ acts on m 1 via$e ^ { T }$where$\begin{array} { r } { T : = \sum _ { i } \nabla ( \widehat { \boldsymbol { \sigma } } _ { i } ) \otimes \beta ( \boldsymbol { \sigma } _ { i } ) } \end{array}$ Note that$T$is a derivation, hence
+
+$$
+e ^ {T} (m _ {1} \otimes m _ {2} \otimes 1) = \sum_ {i} \frac {1}{i !} \cdot T ^ {i} (m _ {1} \otimes m _ {2} \otimes 1)\tag{2.3.1}
+$$
+
+$$
+= \sum_ {a, b} \frac {\binom {a + b} {a}}{(a + b) !} T ^ {a} (m _ {1}) \otimes T ^ {b} (m _ {2}) \otimes 1)\tag{2.3.2}
+$$
+
+$$
+= e ^ {T} (m _ {1} \otimes 1) \otimes e ^ {T} (m _ {2} \otimes 1)\tag{2.3.3}
+$$
+
+showing that that the natural isomorphism
+
+$$
+\left(M _ {1} \otimes A _ {\mathrm{cris}, \log}\right) \otimes \left(M _ {2} \otimes A _ {\mathrm{cris}, \log}\right) \to M \otimes A _ {\mathrm{cris}, \log}\tag{2.3.4}
+$$
+
+is Galois equivariant.
+
+Recall that the dual of the crystalline local systems associated to a log Fontaine-Lafaile module M is just
+
+$$
+T _ {\text { cris }} (M) := \Big (\varprojlim_ {n} \operatorname{Hom} _ {\operatorname{Fil}, \varphi} (M / p ^ {n} \otimes A _ {\text { cris }, \log}, A _ {\text { cris }, \log} / p ^ {n}) \Big) ^ {*}.
+$$
+
+Combining with (2.3.4), this allows us to view$( L _ { 1 } \otimes L _ { 2 } ) ^ { * }$as a Galois-stable sub-lattice of$( T _ { \mathrm { c r i s } } ( M _ { 1 } \otimes M _ { 2 } ) ) ^ { * }$ Therefore, we have that$T _ { \mathrm { c r i s } } ( M _ { 1 } \otimes M _ { 2 } )$is a Galois stable sublattice of$L _ { 1 } \otimes L _ { 2 }$, and so$L _ { 1 } \otimes L _ { 2 }$is a logcrystalline local system by Remark$2 . 2 ( 3 )$
+
+In order to show that$L _ { 1 } \otimes L _ { 2 } = T _ { \mathrm { c r i s } } ( M _ { 1 } \otimes M _ { 2 } )$, it sufices to establish this equality when both local systems are restricted to the crystalline locus. But this is true by Lemma 2.3. We have proved that ${ \dot { T } } _ { \mathrm { c r i s } } ( M _ { 1 } \otimes M _ { 2 } ) = T _ { \mathrm { c r i s } } ( M _ { 1 } ) \otimes T _ { \mathrm { c r i s } } ( M _ { 2 } )$, and therefore it follows that$S _ { \mathrm { c r i s } } ( L _ { 1 } \otimes L _ { 2 } ) = S _ { \mathrm { c r i s } } ( L _ { 1 } ) \otimes S _ { \mathrm { c r i s } } ( L _ { 2 } )$ 1
+
+## 2.4 Compatibility of passage to fibers
+
+We fix a map$i : \mathcal { R }  V$. Our goal is to show that the constructions given in the previous section are compatible with restriction to i.
+
+We fix an extension$i : \overline { { \mathcal { R } } } \to \overline { { V } }$to a geometric point, inducing a map$G _ { V } \to G _ { \mathcal R }$. Let L be a crystalline $G _ { \mathcal { R } }$representation, which also gives a$G _ { V }$representation$\boldsymbol { L } _ { i }$via the map$G _ { V }  G _ { \mathcal R }$induced by i.
+
+By following the description in 2.3.1, we first form$T A _ { \mathrm { i n f } } ( L )$as the unique$G _ { \mathcal { R } ^ { \mathrm { - S t a b l e } } }$free$A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$ submodule of$L \otimes A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } )$which generates$T _ { \mathrm { c r i s } } M \otimes A _ { \mathrm { i n f } } ( { \overline { { \mathcal { R } } } } ) [ { \frac { 1 } { \pi } } ]$and which is trivial modulo$\pi .$
+
+Lemma 2.5. There is a functorially induced isomorphism
+
+$$
+T A _ {\mathrm{inf}} (L) \otimes_ {A _ {\mathrm{inf}} (\overline {{\mathcal {R}}})} A _ {\mathrm{inf}} (\overline {{V}}) \to T A _ {\mathrm{inf}} (L _ {i}).
+$$
+
+Proof. Note that there is a natural map$A _ { \operatorname* { i n f } } ( { \overline { { \mathcal { R } } } } ) \to A _ { \operatorname* { i n f } } ( { \overline { { V } } } )$induced by functoriality, which is equivariant for the map of Galois groups. Now consider the map
+
+$$
+i ^ {\#}: T A _ {\inf} (L) \otimes_ {A _ {\inf} (\overline {{\mathcal {R}}})} A _ {\inf} (\overline {{V}}) \to L \otimes A _ {\inf} (\overline {{V}}).
+$$
+
+Note that$i ^ { \# }$is surjective after tensoring with the fraction field F of$A _ { \mathrm { i n f } } ( { \overline { { V } } } )$(in fact, even after inverting $\pi )$. Since both sides have the same dimension as$L ,$it follows that$i ^ { \# }$is an isomorphism after tensoring with F. It follows that$i ^ { \# }$is injective (here we are using that$A _ { \mathrm { i n f } } ( { \overline { { V } } } )$is torsion free).
+
+Thus, the image of$i ^ { \# }$satisfies the universal property characterizing$T A _ { \mathrm { i n f } } ( L _ { i } )$and the claim follows.
+
+We come to our main theorem for this subsection.
+
+Theorem 2.6. There is a functorially induced isomorphism$S _ { \mathrm { c r i s } } ( L ) \otimes _ { \mathcal { R } } V \cong S _ { \mathrm { c r i s } } ( L _ { i } )$
+
+Proof. Recall that$S _ { \mathrm { \tiny { c r i s } } } ( L ) \cong \left( T A _ { \mathrm { \tiny { i n f } } } ( L ) \otimes _ { A _ { \mathrm { \tiny { i n f } } } ( \overline { { \mathcal { R } } } ) } { \mathcal A } _ { \mathrm { \tiny { c r i s } } } ( \overline { { \mathcal { R } } } ) \right) ^ { G _ { \mathcal { R } } }$. Moreover, by [59, (39)] it follows that
+
+$$
+S _ {\mathrm{cris}} (L) \otimes_ {\mathcal {R}} \mathcal {A} _ {\mathrm{cris}} (\overline {{\mathcal {R}}}) \cong T A _ {\mathrm{inf}} (L) \otimes_ {A _ {\mathrm{inf}} (\overline {{\mathcal {R}}})} \mathcal {A} _ {\mathrm{cris}} (\overline {{\mathcal {R}}}).
+$$
+
+And so
+
+$$
+(S _ {\text { cris }} (L) \otimes_ {\mathcal {R}} V) \otimes_ {V} \mathcal {A} _ {\text { cris}} (\overline {{V}}) \cong T A _ {\inf} (L) \otimes_ {A _ {\inf} (\overline {{\mathcal {R}}})} \mathcal {A} _ {\text { cris}} (\overline {{V}}),
+$$
+
+$$
+(S _ {\mathrm{cris}} (L) \otimes_ {\mathcal {R}} V) \otimes_ {V} \mathcal {A} _ {\mathrm{cris}} (\overline {{V}}) \cong (T A _ {\mathrm{inf}} (L) \otimes_ {A _ {\mathrm{inf}} (\overline {{\mathcal {R}}})} A _ {\mathrm{inf}} (\overline {{V}})) \otimes_ {A _ {\mathrm{inf}} (\overline {{V}})} \mathcal {A} _ {\mathrm{cris}} (\overline {{V}}),
+$$
+
+$$
+(S _ {\text { cris }} (L) \otimes_ {\mathcal {R}} V) \otimes_ {V} \mathcal {A} _ {\text { cris }} (\overline {{V}}) \cong T A _ {\inf} (L _ {i}) \otimes_ {A _ {\inf} (\overline {{V}})} \mathcal {A} _ {\text { cris }} (\overline {{V}})
+$$
+
+where the last step follows by Lemma 2.5. Finally, it follows that
+
+$$
+(S _ {\mathrm{cris}} (L) \otimes_ {\mathcal {R}} V) \cong \left(T A _ {\mathrm{inf}} (L _ {i}) \otimes_ {A _ {\mathrm{inf}} (\overline {{V}})} \mathcal {A} _ {\mathrm{cris}} (\overline {{V}})\right) ^ {G _ {V}}
+$$
+
+from which the Theorem follows.
+
+We end this subsection with an elementary lemma.
+
+Lemma 2.7. Let χ denote the cyclotomic charact$e r ^ { 8 }$(thought of as a$\mathbb { Z } _ { p }$-representation). Let L be a crystalline$G _ { \mathcal { R } }$-module with weights between a and$b ,$with$0 \leqslant a \leqslant b \leqslant p - 2$. Then,$L \otimes \chi ^ { - n }$is also crystalline$f o r - a \leqslant n \leqslant p - 2 - b$
+
+Proof. The lemma follows from Lemma 2.3 if$n \geqslant 0$(we remark that$\chi ^ { - n }$is indeed crystalline for$0 ~ \leqslant$ $n \leqslant p - 2 )$. Therefore, suppose that$n < 0$. Let$M = ( M , \mathrm { F i l } , \nabla , \Phi )$denote the object in MF associated to L. For any$n \in \mathbb { Z } ,$, consider the data$M ( - n ) : = ( M , \operatorname { F i l } ( - n ) , \nabla , \Phi ( - n ) )$where${ \mathrm { F i l } } ( - n ) ^ { i } = { \mathrm { F i l } } ^ { i - n }$, and $\Phi ( - n ) = p ^ { n } \cdot \Phi$${ \mathrm { F o r ~ } } - a \leqslant n \leqslant p - 2 - b .$, it’s clear that$\operatorname { F i l } ( - n ) ^ { 0 } = M , \operatorname { F i l } ( - n ) ^ { p - 1 } = \{ 0 \}$. The compatibility of Φ n with Fil n follows directly from the compatibility of Φ and Fil.
+
+Let$T _ { \mathrm { c r i s } } ( M ( - n ) ) = L ^ { \prime }$. We then have that$L ^ { \prime } \otimes \chi ^ { n }$is crystalline (by Lemma 2.3), and further, that $S _ { \mathrm { c r i s } } \left( L ^ { \prime } { \otimes } \chi ^ { n } \right) \cong S _ { \mathrm { c r i s } } ( L ^ { \prime } ) { \otimes } S _ { \mathrm { c r i s } } \left( \chi ^ { n } \right)$. However,$S _ { \mathrm { c r i s } } \left( \chi ^ { n } \right)$is just the data$\mathcal { R } ( n ) = ( \mathcal { R } , \mathrm { F i l _ { T r i v } } ( n ) , \nabla _ { \mathrm { T r i v } } , \Phi _ { \mathrm { T r i v } } ( n ) )$ where:
+
+${ \mathrm { F i l } _ { \operatorname { T r i v } } } ( n ) ^ { - n } = M$and${ \mathrm { F i l } } _ { \mathrm { T r i v } } ( n ) ^ { 1 - n } = 0 .$
+
+$\nabla _ { \mathrm { T r i v } } ( n ) = d ,$and
+
+$\Phi _ { \mathrm { T r i v } } ( n ) ( 1 \otimes r ) = p ^ { - n } r , { \mathrm { ~ f o r ~ } } r \in { \mathcal { R } } .$
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>8</sup>We work with the convention that the cyclotomic character has weight -1</span></small>
+
+It therefore follows that$S _ { \mathrm { c r i s } } ( L ^ { \prime } \otimes \chi ^ { n } ) \cong S _ { \mathrm { c r i s } } ( L )$, and since$S _ { \mathrm { c r i s } }$is fully faithful, we conclude that $L ^ { \prime } \cong L \otimes \chi ^ { - n }$
+
+Remark 2.8. The same conclusion holds in the setting of log-crystalline local systems.
+
+## 2.5 Compatibility of Tsuji with Liu-Zhu
+
+We will need to compare the relative Fontaine-Lafaile correspondence (both in the crystalline case and the log-crystalline case) with Liu-Zhu’s functor later in the paper. This follows by assembling the results of [36], [17], [22] and [59]:
+
+Theorem 2.9. Let L be a crystalline (respectively log-crystalline) Gal<sub>R</sub>-module. Then L is de Rham in the sense of Scholze and there is a natural isomorphism of filtered vector bundles with connection$S _ { \mathrm { c r i s } } ( L ) \otimes \mathbb { Q } _ { p }$ $D _ { \mathrm { d R } } ^ { 0 } ( L )$
+
+Proof. There is an embedding$A _ { \mathrm { { c r i s } } }  \mathcal { O } B _ { \mathrm { { d R } } }$(see for eg. [8, Proposition 8.2.12]), and upto inverting p the Fontaine-Lafaile module associated to a crystalline local system L is given by$( L [ 1 / p ] \otimes \mathcal { A } _ { \mathrm { c r i s } } ) ^ { \mathrm { G a l } _ { R } }$. However, we are not aware of a reference that constructs a logarithmic analogue of$\mathcal { A } _ { \mathrm { c r i s } }$. We will therefore deduce the crystalline compatibility using results of [22] and [59] that bypasses the need for$\mathcal { A } _ { \mathrm { c r i s } } ,$and only uses$A _ { \mathrm { c r i s } }$ and$\mathcal { O } B _ { \mathrm { d R } }$(both of which have logarithmic avatars in [22] and [17]).
+
+We will first consider the crystalline case to illustrate the idea. Let M denote the Fontaine-Lafaile module associated to L. By [36], the filtered flat bundle$D _ { \mathrm { d R } } ^ { 0 } ( L )$is given by$( L \otimes \mathcal { O } B _ { \mathrm { d R } } ) ^ { \mathrm { G a l } _ { R } }$. It sufices to show that M maps naturally to a subset of Galois fixed elements of$L \otimes { \mathcal { O } } B _ { \mathrm { d R } }$
+
+Faltings associates to M an$A _ { \mathrm { { c r i s } } } { \mathrm { - m o d u l e } }$, which (following Tsuji) we shall denote by$T _ { A _ { \mathrm { c r i s } } } ( M )$. This is a filtered module equipped with a Frobenius action, as well as an action of the Galois group ([22, Page 37]). Note however that$T _ { A _ { \mathrm { c r i s } } } ( M )$is not equipped with a flat connection – indeed, Faltings defines the Galois action on$T _ { A _ { \mathrm { c r i s } } } ( M )$using the connection on M. We have that$T _ { A _ { \mathrm { c r i s } } } ( M )$is isomorphic to$M \otimes _ { \beta } A _ { \mathrm { c r i s } } ,$, where $\beta : R  A _ { \mathrm { c r i s } }$is constructed in page 192 of [59] (see also [22, Page 36], where the same map is described). Note that this isomorphism is compatible with Frobenius and the filtration, but not with the Galois action.
+
+We note that$A _ { \mathrm { c r i s } }$is equipped with a natural embedding into$\mathcal { O } B _ { \mathrm { d R } }$. Therefore, there are two maps $R  \mathcal { O } B _ { \mathrm { d R } } \mathrm { ~ - ~ } \mathrm { o n e }$the natural inclusion and the other constructed using β. By [59, Equation (40)], there is an isomorphism$M \otimes _ { \beta } { \mathcal { O } } B _ { \mathrm { d R } } \to M \otimes { \mathcal { O } } B _ { \mathrm { d R } }$that is compatible with all the extra structure (where the Galois action on the left hand side is defined via the one on$T _ { A _ { \mathrm { c r i s } } } ( M )$, and the connection on the left hand side has $T _ { A _ { \mathrm { c r i s } } } ( M )$as its set of flat sections). The Galois action on the right hand side is solely through$\mathcal { O } B _ { \mathrm { d R } }$, and the filtration and connection are defined by the tensor-product filtration and connection. The left hand side is naturally isomorphic to$L \otimes { \mathcal { O } } B _ { \mathrm { d R } }$(by [22, Theorem$2 . 6 ^ { * }$remark h]). This yields the required embedding of M into$D _ { \mathrm { d R } } ^ { 0 } ( L )$
+
+To treat the log-crystalline case, we first recall Tsuji’s explicit formula ([59, Equation (42)]) in the crystalline case that embeds M in$M \otimes _ { \beta } \mathcal { O } B _ { \mathrm { d R } }$. We will use the toric chart and coordinates$s _ { i }$introduced in Section 2.1.
+
+For$\underline { { N } } \ = \ ( N _ { 1 } , \ldots , N _ { n } )$a tuple of integers, define$\begin{array} { r } { \nabla _ { \underline { { N } } } ( m ) \ = \ \Big ( \prod _ { 1 \leqslant i \leqslant n } \prod _ { 0 \leqslant j \leqslant N _ { i } - 1 } ( \nabla ( s \frac { d } { d s _ { i } } ) - j ) \Big ) ( m ) } \end{array}$ where$m \in M$. Let$X _ { i } ^ { \prime } = ( [ s _ { i } ^ { \flat } ] ^ { - 1 } \otimes 1 ) X _ { i }$. Then, we have:
+
+$$
+m \otimes 1 \mapsto \sum_ {\underline {{N}}} (\nabla_ {\underline {{N}}} (m) \otimes \prod_ {i} X _ {i} ^ {\prime [ N _ {i} ]}).\tag{2.5.1}
+$$
+
+Here, the exponent <sup>rN</sup>i<sup>s</sup> refers to the divided power operation$\frac { X _ { i } ^ { \prime N _ { i } } } { N _ { i } }$
+
+We now consider the logarithmic setting, and work with the toric chart$V [ s _ { 1 } , s _ { 2 } , \ldots s _ { n } ]  R$, where the log structure is given by$s _ { 1 } s _ { 2 } \ldots s _ { n }$. We again let M denote a log-Fontaine-Lafaile module and we let L denote the log-Crystalline local system associated to it. By [17, Equation 2.3.14], the sum in equation (2.5.1) converges and thus gives an isomorphism of$\mathcal { O } B _ { \mathrm { d R , l o g } } –$-modules.
+
+$$
+\Phi : M \otimes \mathcal {O} B _ {\mathrm{dR}, \log} \to M \otimes_ {\beta} \mathcal {O} B _ {\mathrm{dR}, \log}.
+$$
+
+By [22, Theorem$2 . 6 ^ { * }$, remarks h, i], there is a natural map$\Psi : M \otimes _ { \beta } A _ { \mathrm { { c r i s } } , \mathrm { { l o g } } }  L \otimes A _ { \mathrm { { c r i s } } , \mathrm { { l o g } } }$which is an ismorphism upto inverting t, which yields natural morphisms;
+
+$$
+\tau : M \otimes \mathcal {O} B _ {\mathrm{dR}, \log} \xrightarrow {\Phi} M \otimes_ {\beta} \mathcal {O} B _ {\mathrm{dR}, \log} \xrightarrow {\Psi} L \otimes \mathcal {O} B _ {\mathrm{dR}, \log}.
+$$
+
+Since Φ and Ψ are Galois equivariant for the respective actions,$\tau ( M { \otimes } 1 ) \subset ( L { \otimes } { \mathcal { O } } B _ { \mathrm { d R , l o g } } ) ^ { \mathrm { G a l } _ { R } } = D _ { \mathrm { d R } } ^ { 0 } ( L )$，which completes the proof.
+
+## 3 Adelically Metrized Bundles
+
+Throughout we work with the norm on$\bar { \mathbb { Q } } _ { p }$and all of its subfields such that$\textstyle | p | = { \frac { 1 } { p } }$. Given a$\bar { \mathbb { Q } } _ { p }$vector space V, we work with norms on V such that$| \alpha v | = | \alpha | | v |$for all$\alpha \in \bar { \mathbb { Q } } _ { p }$
+
+Definition 3.1. Let F be a non-Archimedean local field, and let$X / F$denote a rigid-analytic variety with a vector bundle V on it. Following [7, 2.7.1], we define a norm on V to be a norm$| \cdot | _ { x }$on every fiber $V _ { x } , x \in X ( \overline { { F } } )$. We say such a norm is acceptable if it is Galois-invariant, and for every afinoid$U \subset X$on which V is trivial, there exist sections$s _ { 1 } , \ldots , s _ { n } \in V ( U )$trivializing V on$U$, and an integer$N$such that for every$u \in E$we have
+
+1. l$\begin{array} { r } { \log _ { p } | s _ { i } ( u ) | _ { u } \leqslant N } \end{array}$
+
+$$
+2. p ^ {N} \cdot \{v \in V _ {u}: | v | _ {u} \leqslant 1 \} \subset \bigoplus_ {i = 1} ^ {n} \mathcal {O} _ {\overline {{F}}} \cdot s _ {i} (u).
+$$
+
+Lemma 3.2. If U is an afinoid,$V , s _ { i }$is a vector bundle with a set of trivializing section and$| \cdot |$is a norm such that the$s _ { i }$satisfy the conditions above, then any trivializing sections$t _ { 1 } , \ldots , t _ { n }$satisfy the two conditions above.
+
+Proof. Let$g \in \Gamma ( U , \mathrm { G L } ( { \mathcal { O } } _ { U } ) )$be the matrix such that$g { \vec { s } } = { \vec { t } } .$Note that$g , g _ { . } ^ { - 1 }$have entries that are elements of${ \mathcal { O } } _ { U } ( U )$and therefore are globally bounded. It follows that the norms of <sup>\~</sup>t are uniformly bounded by those of${ \vec { s } } ,$and also that the two lattices$O _ { \overline { { F } } } \cdot s _ { i } ( u )$and$O _ { \overline { { F } } } \cdot t _ { i } ( u )$are comparable uniformly for$u \in U$. The claim follows.
+
+Lemma 3.3. Let F be a non-Archimedean local field, and$X / F$a rigid-analytic variety, V a vector bundle on X and a norm on V. Then$| \cdot |$is acceptable if it is acceptable on a finite afinoid cover.
+
+Proof. Let$\textstyle X = \bigcup _ { j = 1 } ^ { J } U _ { j }$denote an afinoid cover, such that there are trivializing sections$s _ { i , j }$of$V | _ { U _ { j } }$which satisfy the conditions of Definition 3.1. Let$U ^ { \prime }$denote any afinoid on which$V$is trivial, and let$t _ { 1 } \ldots t _ { n }$ denote a set of trivializing sections of$V | _ { U ^ { \prime } }$. Define$U _ { j } ^ { \prime } = U ^ { \prime } \cap U _ { j }$. By Lemma 3.2, the$\left\{ { { t } _ { i } } \right\} \left| { { { U } _ { j } ^ { \prime } } } \right.$satisfy the conditions of Definition 3.1 follows from the fact that the$\left\{ { s } _ { i , j } \right\} \left| { U } _ { j } ^ { \prime } \right|$do. The lemma follows.□
+
+Given an integral scheme${ \mathcal { V } } / { \mathcal { O } } _ { F }$and vector bundle V on Y, there is a natural norm on$\mathcal { V } ^ { \mathrm { r i g } }$over Y<sup>rig</sup> which is easily seen to be acceptable. We call this the V-norm.
+
+We now come to our central definition:
+
+Definition 3.4. Let X be a proper variety over a number field F, V a vector bundle on X, and$Y$an open subscheme of X. We define an admissible collection of norms on V to consist of the following data:
+
+1. An integral model Y of Y over$\mathcal { O } _ { F } [ N ^ { - 1 } ]$
+
+2. A vector bundle V on Y extending V.
+
+3. For each infinite place$v ,$a continuous metric$h _ { v }$on$V _ { v } \mid Y _ { v }$
+
+4. For each finite place$v \mid N$, a norm$| \cdot | _ { v }$on$V _ { v } ^ { \mathrm { a n } } \ | \ Y _ { v } ^ { \mathrm { a n } }$which extends to an acceptable norm on$X _ { v } ^ { \mathrm { a n } }$
+
+5. For each finite place$v \nmid N$, an acceptable norm$| \cdot | _ { v }$on$\mathcal { V } _ { v } ^ { \mathrm { r i g } } \mid \mathcal { V } _ { v } ^ { \mathrm { r i g } }$such that for almost all finite places it is the$\nu _ { v } \mathrm { - n o r m }$
+
+Moreover, we say that this collection is strongly admissible if it also satisfies that for each infinite place v, the metric$h _ { v }$extends to a continuous metric on$V _ { v } \ | \ X _ { v }$. Abusing notation somewhat, we refer to$( V , ( | \cdot | _ { v } ) _ { v } )$ as an (strongly) admissible normed vector bundle on the triple$( X , Y , V )$
+
+Lemma 3.5. For a vector bundle V on a proper variety$X / F$with open subscheme$Y ,$any two admissible collections of norms on$( X , Y , V )$agree at almost all finite places, and difer by O 1 at every finite place.
+
+Proof. Any two integral models agree at almost all places, which implies the corresponding norms agree. As for the second claim, it sufices to prove that two acceptable norms difer by a uniform$O ( 1 )$
+
+It is suficient to work over afinoids since ever proper variety is covered by finitely many such, on which the vector bundle is trivial.
+
+So let U be an afinoid and \~s be any set of trivializing the vector bundle V. The claim immediately follows by property 2 of definition 3.1.□
+
+The following lemma is straightforward:
+
+Lemma 3.6. The restriction of an acceptable (resp. admissible) norm(resp. collection of norms) to a sub-vector bundle is admissible (resp. admissible). Likewise for the induced norm(s) on a quotient bundle.
+
+## 3.1 Heights
+
+Note that if the vector bundle is a line bundle, then an acceptable collection of norms is - when$X = Y$ nothing other than an M-metric [7] on our line bundle. Analogously to that context, we have an associated height function for points$P \in \mathcal { V } ( \bar { \mathcal { O } } _ { F } [ N ^ { - 1 } ] )$given by taking a section s of V not vanishing at P and defining
+
+$$
+h _ {V, (| \cdot | _ {v}, v \in M _ {F})} (P) := - \sum_ {v} \frac {\left[ F _ {v} : \mathbb {Q} _ {p} \right]}{\left[ F : \mathbb {Q} \right]} \log | s (P) | _ {v}.
+$$
+
+Moreover, this extends in a natural way to points in the algebraic closure$\mathscr { y } ( \mathscr { O } _ { \overline { { F } } } [ N ^ { - 1 } ] )$
+
+It follows from Lemma 3.5 that up to an additive$O ( 1 )$the height depends only on the triple$( X , Y , V )$ and the diference of metrics at infinity. If however our metrics are strongly admissible, then this latter point is also bounded by an$O ( 1 )$. To make it very concrete, we have the following:
+
+Corollary 3.7. Let X be a proper variety over a number field F,$Y \subset X$an open subscheme, and V a line bundle on X. Let$( V , ( | \cdot | _ { v } ) _ { v } )$be a strongly admissible normed vector bundle on$( X , Y , V )$. Then the associated height function on$\dot { \mathcal { V } } ( \mathcal { O } _ { \overline { { F } } } [ N ^ { - 1 } ] )$is the restriction of a Weil height$h _ { V }$on$X ( { \overline { { \mathbb { Q } } } } )$
+
+Proof. An integral model X for X together with a model V of V and continuous metrics at all the infinite places yields a Weil height, and also yields a strongly admissible collection of norms. The lemma now follows from the fact that all strongly admissible collections of norms give the same height up to an additive $O ( 1 )$□
+
+## 4 Canonical Heights and Admissible Metrics
+
+## 4.1 Metrizing$D _ { \mathbf { H T } }$
+
+Let K be a finite extension of$\mathbb { Q } _ { p }$. We let$G _ { K }$be the absolute Galois group of K. We let$\mathbb { C } _ { p }$be the completion of$\bar { K }$, and we let B<sub>HT</sub>$\mathbf { \Psi } : = \mathbb { \oplus } _ { i } \mathbb { C } _ { p } ( i )$where we think of$B _ { \mathrm { H T } }$as a$\mathbb { C } _ { p } .$-vector space with a semi-linear$G _ { K }$action. We metrize$\mathbb { C } _ { p } ( i )$by identifying$\mathbb { C } _ { p } ( i )$with$\mathbb { C } _ { p }$with the Galois action on 1 being through the ith power of the cyclotomic character, and then pulling back the metric on$\mathbb { C } _ { p }$under this identification. See [9] for background on p-adic Hodge theory.
+
+We let$V / \mathbb { Q } _ { p }$be a finite dimensional$G _ { K } \mathrm { - r e p r e s e n t a t i o n }$, and define$D _ { \mathrm { H T } } ( V ) : = ( V \otimes B _ { \mathrm { H T } } ) ^ { G _ { K } }$. We assume that V is Hodge-Tate, which means that dim$D _ { \mathrm { H T } } ( V ) = \dim V$
+
+In integral p-adic Hodge theory, one typically fixes lattices in V and attempts to define a lattice in $D _ { \mathrm { H T } } ( V )$. For our purposes it will be more convenient to work with norms, which record more information since they may not be$p ^ { \mathbb { Z } } .$-valued. Thus, let assume that$| \bullet |$is a p-adic norm on$V$which is invariant under $G _ { K }$. We call such a$( V , | \bullet | )$a metrized$G _ { K }$-representation, and say it is Hodge-Tate if V is Hodge-Tate (likewise for de Rham, crystalline,...)
+
+We shall construct a norm on$D _ { \mathrm { H T } } ( V )$(in fact on all graded pieces of it) in a way which will works well in families:
+
+Definition 4.1. Let$( V , | \bullet | )$be a metrized G -representation which is Hodge-Tate. For each integer$n _ { : }$, let $V _ { n } ^ { \circ } = ( V \otimes \mathbb { C } _ { p } ( n ) ) ^ { G _ { k } } \otimes \mathbb { C } _ { p } .$. There is a natural map$V _ { n } ^ { \circ } ( - n ) \to V \otimes \mathbb { C } _ { p }$and we let$V _ { n }$be the image of this map. Finally let$V _ { < n } : = \bigoplus _ { m < n } V _ { m }$. Now$V _ { < n }$has an induced norm, and thus we may equip$V _ { \mathbb { C } _ { p } } / V _ { < n }$with the quotient norm. This then yields a norm on
+
+$$
+V _ {\mathbb {C} _ {p}} / V _ {<   n} \otimes_ {\mathbb {C} _ {p}} \mathbb {C} _ {p} (n).
+$$
+
+Note that this latter space is isomorphic to$V _ { n } ^ { \circ }$and we endow it with the corresponding norm. We call it the intrinsic metric on$V _ { n } ^ { \circ }$and likewise on$D _ { \mathrm { H T } } ( V )$. We call the corresponding norm$\leqslant 1$set on$V _ { n } ^ { \circ }$the intrinsic lattice.
+
+Recall that$\mathrm { G r } B _ { \mathrm { d R } } \cong B _ { H T }$as rings with Galois-actions. This isomorphism is unique up to an element of $\mathbb { Q } _ { p } ^ { \times }$. We choose an isomorphism where the image of t mod$\mathrm { F i l } ^ { 2 } B _ { \mathrm { d R } }$is sent to the element$1 \in \mathbb { C } _ { p } ( 1 )$. Note that this means π mod$\mathrm { F i l } ^ { 2 } ( B _ { \mathrm { d R } } )$also maps to 1 in$\mathbb { C } _ { p } ( 1 )$
+
+Now let V be a crystalline representation in the sense of Fontaine-Lafaille. Then by Theorem 2.9 we obtain a map$\mathrm { G r } S _ { \mathrm { c r i s } } ( \mathbb { V } )  \mathrm { G r } D _ { \mathrm { d R } } ( V ) \cong D _ { H T } ( V )$. The image of the crystalline lattice defines another norm, which we call the crystalline norm. We note that the intrinsic and crystalline norms are compatible with tensor and wedge powers, the former by construction as a subquotient and the latter by Lemma 2.3. We will now prove that these two norms exactly agree for one-dimensional representations.
+
+Lemma 4.2. Let the the setting be as above, with the further condition that V is a one-dimensional representation. Then, the two norms agree.
+
+Proof. After replacing K with$W ( \overline { { \mathbb { F } } } _ { p } ) [ 1 / p ]$, the Galois representation being crystalline must be of the form $\chi ^ { - a }$with$0 \leqslant a \leqslant p - 2$. Recall the element$t \in \mathrm { F i l } ^ { 1 } B _ { \mathrm { d R } }$, on which the Galois action is through the cyclotomic character (t is unique up to scaling by$\mathbb { Z } _ { p } ^ { \times } )$. For brevity, we will use the term intrinsic lattice to denote the norm$\leqslant 1$elements of$D _ { \mathrm { H T } } ( \mathbb { V } )$. It sufices to prove that this equals the crystalline lattice.
+
+We first compute the intrinsic lattice. Let t<sup>n</sup> also denote the image of$t ^ { n }$mod$\operatorname { F i l } ^ { n + 1 } \in \mathbb { C } _ { p } ( n )$. We have that$D _ { \mathrm { H T } } ^ { n } ( \mathbb { V } ) = \{ e \otimes t ^ { n } z : z \in \mathbb { C } _ { p } \} \subset L \otimes \mathbb { C } _ { p } ( n )$where e is a generator of$L$. Therefore, the intrinsic lattice consists of elements$\{ e \otimes t ^ { n } z : z \in W ( \overline { { \mathbb { F } } } _ { p } ) [ 1 / \bar { p } ] \}$with$\frac { t ^ { n } } { \pi ^ { n } } \cdot z \in \check { O } _ { \mathbb { C } _ { p } }$, where we identify$\frac { t ^ { n } } { \pi ^ { n } }$with$\textstyle \theta \big ( { \frac { t ^ { n } } { \pi ^ { n } } } \big ) \in \mathbb { C } _ { p }$. As $\textstyle { \frac { t } { \pi } } \mapsto 1$under$\theta ,$we see that$z \in W ( \overline { { \mathbb { F } } } _ { p } )$
+
+We now compute the crystalline lattice. Note that the crystalline lattice is defined by considering the image of$S _ { \mathrm { c r i s } } ( L ) \subset D _ { \mathrm { H T } } ^ { n } ( L )$. To compute$S _ { \mathrm { c r i s } } ( L )$, observe that$T A _ { \mathrm { i n f } }$(as in Section 2) is$L \otimes \pi ^ { n } A _ { \mathrm { i n f } }$(this follows from [59, Lemma 75] and the defining property of$T A _ { i n f } )$. Therefore, the crystalline lattice is the image of$( { \cal L } \otimes \bar { \pi } ^ { n } A _ { c r y s } ) ^ { \mathrm { G a l } = 1 }$in$( L \otimes t ^ { n } B _ { \mathrm { d R } } ) ^ { G a { \bar { l } } = 1 }$. This shows that the crystalline lattice consists of elements of the form$\{ e \otimes z t ^ { \bar { n } } : z \in W ( \overline { { \mathbb { F } } } _ { p } ) [ 1 / p ] \}$with$z t ^ { n } \in \pi ^ { n } A _ { \mathrm { c r i s } } . \mathrm { A s } \ \frac { t } { \pi }$is a unit in$A _ { \mathrm { c r i s } }$, we see that$z \in W ( \overline { { \mathbb { F } } } _ { p } ) .$ and hence the two lattices are the same.□
+
+As both norms are compatible with tensor products, the above result yields that both norms are invariant upon twisting by powers of the cyclotomic character (as long the representation remains crystalline). In fact, this allows us to define the crystalline norm on representations that are only crystalline up to twist.
+
+Definition 4.3. Let$\mathbb { V }$be a representation such that there exists some integer a such that$\mathbb { V } ( a )$is crystalline in the sense of Fontaine-Lafaile. Then the identification of Gr$D _ { \mathrm { d R } } ( V )$with Gr$D _ { \mathrm { d R } } ( V ( a ) )$(via multiplication by$t ^ { a } )$yields a crystalline norm on$\mathrm { G r } D _ { \mathrm { d R } } ( V )$
+
+Lemma 4.2 shows that the crystalline norm on a representation that is crystalline upto twist doesn’t depend on which power of the cyclotomic character we choose to twist it by. For ease of notation, we make the following definition.
+
+Definition 4.4. Let V be a Hodge-Tate Galois representation. We define its weight interval to be$[ b _ { 1 } , b _ { 2 } ]$ if$b _ { 1 }$is the smallest Hodge-Tate weight and$b _ { 2 }$to be the biggest. We define its weight range to be the non-negative integer${ \mathrm { r n g } } _ { V } = b _ { 2 } - b _ { 1 }$. We define the normalized weight-sum to be the$S - b _ { 1 }$dim$V$, where$S$ is the sum of the Hodge-Tate weights<sup>9</sup>.
+
+In the next subsection, we will define the intrinsic norm in the case of families, and show that the intrinsic and crystalline norms are comparable for local systems up to twist. One advantage to carrying out the argument in families is it allows us to deal with points defined over ramified fields by specializing, without having to directly confront the Faltings-Fontaine-Lafaille theory in that context (for example, Tsuji[59] insists that$p$is a uniformizer throughout). However, we will first show that the intrinsic and crystalline norms are comparable in the absolute case as it illuminates some of the steps needed in the case of families. This is related to results obtained by Faltings on integral comparison theorems (see [22]).
+
+Theorem 4.5. Let K denote an unramified extension of$\mathbb { Q } _ { p }$and suppose that$\mathbb { V }$is a$\mathbb { Z } _ { p }$-representation of $\operatorname { G a l } _ { K }$that is crystalline (in the sense of Fontaine-Lafaile) up to twist. Suppose that the normalized weightsum of$\mathbb { V } \ i s \ \leqslant p - 2$and that the weight range is b. Then the intrinsic norm on Gr$D _ { \mathrm { d R } } ( V )$agrees with the crystalline norm (induced by the image of$\mathrm { G r } S _ { \mathrm { c r i s } } )$up to a multiple of$p ^ { \frac { b ( \dim \mathbb { V } - 1 ) } { p - 1 } }$
+
+Proof of Theorem$4 . 5 .$Without loss of generality, we can and will assume that the weight interval is$[ 0 , b ]$ We have that$S _ { \mathrm { c r i s } } ( \mathbb { V } ) \subset \mathbb { V } \otimes A _ { \mathrm { c r i s } }$. Note that for$0 \leqslant i \leqslant p - 2 , \mathrm { G r } ^ { i } ( A _ { \mathrm { c r i s } } ) \cong \xi ^ { i } \mathcal { O } _ { \mathbb { C } _ { p } }$. Therefore, the image of $\mathrm { G r } ^ { i } S _ { \mathrm { c r i s } } ( \mathbb { V } )$in$\mathrm { G r } ^ { i } D _ { \mathrm { d R } } ( \mathbb { V } )$is contained in the Galois invariants of V$\xi ^ { i } { \mathcal { O } } _ { \mathbb { C } _ { p } }$. As we have metrized$\mathrm { G r } ^ { i } B _ { \mathrm { d R } }$ with the convention that$t ^ { i }$has norm 1, it follows that$\mathrm { G r } ^ { i } S _ { \mathrm { c r i s } } ( \mathbb { V } )$is contained in$\theta ( \xi / t ) ^ { i }$times the intrinsic lattice. As$\begin{array} { r } { v _ { p } ( \theta ( \frac { \xi } { t } ) ) = \frac { - 1 } { p - 1 } } \end{array}$(see [22, Page 29]), the crystalline lattice is contained in$p ^ { \frac { - b } { p - 1 } }$times the intrinsic lattice.
+
+To obtain the other inclusion, note that the intrinsic norm and crystalline norm are both compatible with tensor and wedge powers, the former by construction as a subquotient and the latter by Lemma 2.3. We thus get two${ \mathcal { O } } _ { \mathbb { C } _ { \pi } }$lattices$A , B$such that$A \subset p ^ { \frac { - b } { p - 1 } } B$and det$A = \operatorname* { d e t } B$
+
+Let$v _ { 1 } \in B$be primitive and such that$p ^ { c } v _ { 1 } \in A$is primitive, and complete it to a basis$p ^ { c } v _ { 1 } , w _ { 2 } , \ldots , w _ { \dim V }$ of A. Then since det$A = \operatorname* { d e t } B$we have
+
+$$
+1 \leqslant | p ^ {c} v _ {1} | _ {B} \prod_ {i = 2} ^ {\dim V} | w _ {i} | _ {B} \leqslant p ^ {- c} p ^ {\frac {b (\dim V - 1)}{p - 1}}
+$$
+
+from which the desired inequality$c \leqslant { \frac { b ( \dim V - 1 ) } { p - 1 } }$follows.
+
+## 4.2 Metrizing Hodge-Tate metrics in families
+
+We will borrow heavily from$[ 3 6 ] , [ 1 7 ] ,$, and [54]. Let X be a smooth geometrically connected rigid-analytic variety over$k .$. In the case where one exists, we let$\overline { { X } }$denote a partial compactification of$X$such that $D : = { \overline { { X } } } - X$is a smooth normal crossings divisor. In this setting, we equip$\overline { { X } }$with the structure of a smooth log-adic space in the natural way. We will assume that$L$is a$\mathbb { Z } _ { p } .$-local system on$X _ { e t }$which is de Rham in the sense of [54], and such that the local geometric monodromy around the components of$D$is unipotent.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">V p´b<sub>1</sub>q,</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>9</sup>This is just the sum of the Hodge-Tate weights of  which is the unique twist of V whose minimal Hodge-Tate weight is 0.</span></small>
+
+We shall work with the pro-étale site$X _ { p r o e t }$and the pro-Kummer-étale site$\overline { { X } } _ { p r o k e t }$. We shall denote by $L _ { k e t }$the extension of L to$\dot { \overline { { X } } } _ { k e t }$, which is also a Z -local system<sup>10</sup>
+
+Let${ \hat { \mathcal { O } } } _ { X }$and$\hat { \mathcal { O } } _ { \overline { { X } } }$be the completed structure sheaf on$X _ { p r o e t } , \overline { { X } } _ { p r o k e t }$respectively. Let$\widehat { L }$be the induced p psheaf of local systems on$X _ { p r o e t }$and likewise let$\widehat { L } _ { k e t }$be the sheaf on$\overline { { X } } _ { p r o k e t }$p. Finally we set$\bar { L } : = \widehat { L } \otimes _ { \widehat { \mathbb { Z } _ { p } } } \widehat { \mathcal { O } } _ { X }$ and$\bar { L } _ { k e t } : = \widehat { L } _ { k e t } \otimes _ { \widehat { \mathbb { Z } } _ { p } } \widehat { \mathcal { O } } _ { \overline { { X } } }$. These are locally free sheaves on$X _ { p r o e t } , \overline { { X } } _ { p r o k e t }$(over their respective structure sheaves). Let$\nu : X _ { p r o e t } \to X _ { e t } , \nu _ { k e t } : \overline { { X } } _ { p r o k e t } \to \overline { { X } } _ { e t }$be the natural maps. Note that$\bar { L } , \bar { L } _ { k e t }$have natural norms at every classical point of$X , { \overline { { X } } }$which agree on$X$
+
+We will now define an ascending filtration on$\bar { L } , \bar { L } _ { k e t }$, and will use this filtration to metrize the graded pieces of$D _ { \mathrm { d R } } ^ { 0 } ( L )$. We work only in the Kummer case as it is more general, though it is unnecessary (and we will drop it) when we work in settings without log-structures (or, equivalently, trivial log-structures)
+
+First, recall that by combining the second displayed equation in the proof of [17, Lemma 3.3.17], the first equation in the proof of [17, Cor 3.4.22], and the isomorphism at the bottom of page 36 of [17], we obtain
+
+$$
+\bigoplus_ {r} \nu_ {k e t} ^ {*} \nu_ {k e t, *} (\hat {L} _ {k e t} \otimes \mathcal {O C} _ {\log} (r)) \otimes_ {\nu_ {k e t} ^ {*} \mathcal {O} _ {\bar {X}}} \mathcal {O C} _ {\log} (- r) \cong \hat {L} _ {k e t} \otimes \mathcal {O C} _ {\log}.\tag{4.2.1}
+$$
+
+Locally on$X ,$we may pick a smooth toric chart with co-ordinates$x _ { 1 } , \ldots , x _ { m }$. Recall also that we have [17, 2.3.17]
+
+$$
+\mathcal {O} \mathbb {C} _ {\log} \cong \hat {\mathcal {O}} _ {\bar {X}} \left[ \frac {y _ {1}}{t}, \ldots , \frac {y _ {m}}{t} \right]\tag{4.2.2}
+$$
+
+where the$y _ { i }$are as in [17, 2.3.6].
+
+Assume the weights for L are in 0, m . We have the following important structural theorem(see also [27, §5]):
+
+Theorem 4.6. Let L be as above. Then:
+
+1. For$r \geqslant 0$The elements of$\nu _ { k e t , * } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( r ) )$have degree (in the variables$y _ { i } ) \leqslant r$under the isomorphism (4.2.2).
+
+2. For$r ~ \geqslant ~ 1$, the positive degree monomials of$\nu _ { k e t , * } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( r ) )$, lie in the$\mathcal { O } \mathbb { C } _ { \mathrm { l o g } }$- span of $\nu _ { k e t , * } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( s ) ) ( r - s ) \ f o r \ 0 \ \leqslant \ s \ < \ r _ { i }$p, when pulled back via$\nu _ { k e t } ^ { * }$to$\hat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( r )$under pthe identification (4.2.2).
+
+Proof. 1. We proceed by strong induction on r. Consider the induced map
+
+$$
+\nabla_ {r}: \nu_ {k e t, *} \left(\hat {L} \otimes \mathcal {O C} _ {\log} (r)\right)\rightarrow \nu_ {k e t, *} \left(\hat {L} \otimes \mathcal {O C} _ {\log} \otimes_ {\mathcal {O} _ {\overline {{X}}}} \Omega_ {\bar {X}} ^ {\log} (r - 1)\right)
+$$
+
+given by [17, 2.4.2(4)]. Now$\Omega _ { X } ^ { \mathrm { l o g } }$is locally free and so
+
+$$
+\nu_ {k e t, *} \bigg (\hat {L} \otimes \mathcal {O} \mathbb {C} _ {\log} \otimes_ {\mathcal {O} _ {\overline {{X}}}} \Omega_ {X} ^ {\log} (r - 1) \bigg) \cong \nu_ {k e t, *} \bigg (\hat {L} \otimes \mathcal {O} \mathbb {C} _ {\log} (r - 1) \bigg) \otimes_ {\mathcal {O} _ {\overline {{X}} _ {\mathrm{et}}}} \Omega_ {\overline {{X}} _ {\mathrm{et}}} ^ {\log}
+$$
+
+Therefore by induction, the image consists of elements of degree$\leqslant r - 1$. We now finish with the claim that if$\alpha \in \mathcal { O } \mathbb { C } _ { \mathrm { l o g } }$and$\nabla ( \alpha )$has degree$\leqslant r - 1$then α has degree$\leqslant r$. Indeed, writing
+
+$$
+\alpha = \sum_ {h \in \mathbb {Z} _ {\geqslant 0} ^ {m}} a _ {h} \left(\frac {\vec {y}}{t}\right) ^ {h}
+$$
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>10</sup>To those unfamiliar, the point is that L is an inverse limit of local systems with finite fibers. On each of those, monodromy is finite and can therefore be unwound by taking a suficiently large Kummer extension.</span></small>
+
+we compute that
+
+$$
+\nabla \alpha = \sum_ {h \in \mathbb {Z} _ {\geqslant 0} ^ {m}} a _ {h} \sum_ {1 \leqslant i \leqslant m} \left(\frac {\vec {y}}{t}\right) ^ {h - e _ {i}} \delta (y _ {i}).
+$$
+
+where we have used the notation in [17, §2.4]. Now since$\Omega _ { \bar { X } _ { \mathrm { e t } } } ^ { \mathrm { l o g } }$is locally free over${ \mathcal { O } } _ { \overline { { X } } }$with generators $\delta ( y _ { i } )$(see proof of [17, 2.4.2]) the claim follows.
+
+2. We again proceed by induction. As above, applying$\nabla _ { { r } }$to an element$f \operatorname { o f } \nu _ { k e t , * } \biggl ( \hat { L } \otimes \mathcal { O } \mathbb { C } _ { \log } ( r ) \biggr )$gives an element$\nabla _ { \boldsymbol { r } } ( f )$of$\nu _ { k e t , * } \bigg ( \hat { L } \otimes \mathcal { O } \mathbb { C } _ { \log } ( r - 1 ) \bigg ) \otimes \mathcal { O } _ { \overline { { x } } _ { \mathrm { e t } } } \Omega _ { \overline { { X } } _ { \mathrm { e t } } } ^ { \mathrm { l o g } }$. By induction, all the positive degree monomials of this element lie in the$\mathcal { O } \mathbb { C } _ { \mathrm { l o g } } { \mathrm { - s p a n } }$of$\nu _ { k e t , * } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( s ) ) ( r - 1 - s ) \otimes \Omega _ { \overline { { X } } _ { \mathrm { e t } } } ^ { \log }$for$0 \leqslant s < r - 1$ 2 and therefore the constant term is in the$\mathcal { O } \mathbb { C } _ { \mathrm { l o g } ^ { - \mathrm { { S p a n } } } }$of$\nu _ { k e t , * } \big ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( s ) \big ) ( r - 1 - s ) \otimes \Omega _ { \overline { { X } } _ { \mathrm { e t } } } ^ { \mathrm { l o g } }$for $0 \leqslant s \leqslant r - 1$
+
+Now by the computation in part 1, each positive-degree monomial in α can be extracted from the monomials of$\nabla _ { \boldsymbol { r } } ( \alpha )$by taking the projection operators for$\Omega \frac { \mathrm { l o g } } { X _ { \mathrm { e t } } }$with respect to the basis$\delta ( y _ { i } )$, and the claim follows.
+
+We now define$\overline { { L } } _ { < r } \subset \overline { { L } } _ { k e t }$to be the generated by all coeficients of the constant terms of
+
+$\nu _ { k e t , * } \bigg ( \hat { L } \otimes \mathcal { O } \mathbb { C } _ { \log } ( s ) \bigg ) ( - s )$for s  r.
+
+It follows from Theorem 4.6 that
+
+$$
+\overline {{L}} _ {<   r} \otimes \mathcal {O} \mathbb {C} _ {\log} \cong \bigoplus_ {s <   r} \nu_ {k e t} ^ {*} \nu_ {k e t, *} \Bigg (\hat {L} \otimes \mathcal {O} \mathbb {C} _ {\log} (s) \Bigg) (- s) \otimes_ {\nu_ {k e t} ^ {*} \mathcal {O} _ {\bar {X}}} \mathcal {O} \mathbb {C} _ {\log}\tag{4.2.3}
+$$
+
+and consequently by (4.2.2) that$\overline { { L } } _ { < r }$is a locally split filtration of$\overline { { L } } _ { k e t }$. Finally, we define$\overline { { L } } _ { n } : =$ $\overline { { L } } _ { < n + 1 } / \overline { { L } } _ { < n }$
+
+Proposition 4.7. We have a natural isomorphism
+
+$$
+\nu_ {k e t} ^ {*} \nu_ {k e t, *} (\hat {L} \otimes \mathcal {O C} _ {\log} (n)) \otimes_ {\nu_ {k e t} ^ {*} \mathcal {O} _ {\bar {X}}} \widehat {\mathcal {O}} _ {\overline {{X}}} (- n) \cong \overline {{L}} _ {n}
+$$
+
+Proof. First, note there is a natural map
+
+$$
+\psi : \nu_ {k e t} ^ {*} \nu_ {k e t, *} (\hat {L} \otimes \mathcal {O C} _ {\log} (n)) \otimes_ {\nu_ {k e t} ^ {*} \mathcal {O} _ {\bar {X}}} \hat {\mathcal {O}} _ {\overline {{X}}} (- n) \to \hat {L} \otimes \mathcal {O C} _ {\log}.
+$$
+
+The image of$\psi$is actually in$\bar { L } _ { < n + 1 } \otimes \mathcal { O } \mathbb { C } _ { \mathrm { l o g } }$by (4.2.3) and therefore there is (étale locally on$X )$a map
+
+$$
+\phi : \nu_ {k e t} ^ {*} \nu_ {k e t, *} (\hat {L} \otimes \mathcal {O C} _ {\log} (n)) \otimes_ {\nu_ {k e t} ^ {*} \mathcal {O} _ {\bar {X}}} \hat {\mathcal {O}} _ {\overline {{X}}} (- n) \to \bar {L} _ {n} \otimes \mathcal {O C} _ {\log}
+$$
+
+given by composing$\psi$with the quotient map. Using the isomorphism (4.2.2) and part 2 of Theorem 4.6 we conclude that the image of$\phi$is in fact simply${ \bar { L } } _ { n }$, which gives us our desired map.
+
+It remains to show this map is an isomorphism. But it becomes one when tensored with$\mathcal { O } \mathbb { C } _ { \mathrm { l o g } }$by (4.2.3) and so the claim follows since the$\mathcal { O } \mathbb { C } _ { \mathrm { l o g } }$is faithfully flat (in fact free) over$\hat { \mathcal { O } } _ { \overline { { X } } }$
+
+Given the theorem, we make the following definition.
+
+Definition 4.8. We endow$\mathrm { G r } ^ { n } D _ { _ { \mathrm { \scriptsize { d R } } } } ^ { 0 } ( L ) = \nu _ { k e t } { _ { \ast } } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( n ) )$with the norm coming from${ \bar { L } } _ { n }$, induced from the quotient norm on$\bar { L }$p, and we call this the intrinsic norm.
+
+We remark that the norm on$\bar { L }$and therefore${ \bar { L } } _ { n }$is Galois-invariant and therefore descends to a norm on $\mathrm { G r } ^ { n } D _ { \mathrm { d R } } ^ { 0 } ( L )$.
+
+Lemma 4.9. The intrinsic norms on$\nu _ { * } ( \widehat { L } \otimes \mathcal { O } \mathbb { C } ) ( n ) )$and$\nu _ { k e t } \mathbf { \Omega } _ { * } ( \widehat { L } _ { k e t } \otimes \mathcal { O } \mathbb { C } _ { \log } ( n ) )$are acceptable, (according to definition 3.1).
+
+Proof. We deal with the$\overline { { X } }$case, the other case being identical. By Lemma 3.3, it sufices to check the conditions of acceptability with respect to any one finite afinoid cover. Therefore, we may assume that all the graded pieces$\mathrm { G r } ^ { i } D _ { \mathrm { d R } } ^ { 0 } ( L )$are trivial vector bundles.
+
+We work with a subafinoid$U \subset { \overline { { X } } }$and a perfectoid cover$\tilde { U } = \varprojlim _ { i } U _ { i }$on which$L _ { k e t }$trivializes. We may then pick a basis$e _ { j }$for$L _ { k e t }$and a basis$l _ { i }$for$\bar { L } _ { k e t }$compatible with the filtration$\bar { L } _ { < n , k e t }$. Let$t _ { i , j } \in \hat { \mathcal { O } } _ { \overline { { X } } } ( \tilde { U } )$ be the coeficients of the$l _ { i }$w.r.t the$e _ { j }$. That the norms of the$t _ { i , j }$are bounded above is trivial, hence condition 1 of definition 3.1) is satisfied.
+
+For condition 2, note that the norm 1 lattice in the quotient is the image of the norm 1 lattice in the source which is generated by the$e _ { j }$. Since the$l _ { i }$are a basis, that means that they generate the$e _ { j }$over $\hat { \mathcal { O } } _ { \overline { { X } } } ( \tilde { U } )$. The demnominators of the coeficients are bounded, which immediately yields condition 2.□
+
+The intrinsic norm is completely functorial, as per the following result:
+
+Proposition 4.10. Let X be a smooth rigid analytic variety, and let L be a$\mathbb { Z } _ { p }$-local system on$X _ { e t }$which is de Rham. Let$\phi : Y  X$be a map of smooth rigid analytic varieties. Then the intrinsic norm on
+
+$$
+\nu_ {X} ^ {*} \nu_ {X, *} ((\hat {L} \otimes \mathcal {O} \mathbb {C} _ {X, \log} (n)) \otimes_ {\nu_ {X} ^ {*} \mathcal {O} _ {\bar {X}}} \widehat {\mathcal {O}} _ {\overline {{X}}} (- n))
+$$
+
+pulls back to the intrinsic norm on
+
+$$
+\nu_ {Y} ^ {*} \nu_ {Y, *} ((\widehat {\phi^ {- 1} L} \otimes \mathcal {O C} _ {Y, \log} (n)) \otimes_ {\nu_ {Y} ^ {*} \mathcal {O} _ {\bar {Y}}} \widehat {\mathcal {O}} _ {\overline {{Y}}} (- n)).
+$$
+
+Proof. Note that the natural map$\phi ^ { * } ( \nu _ { X , * } ) ( ( \hat { L } \otimes \mathcal { O } \mathbb { C } _ { X , \log } ( n ) ) \to ( ( \overline { { \phi ^ { - 1 } L } } \otimes \mathcal { O } \mathbb { C } _ { Y , \log } ( n ) )$is an isomorphism {by [36, Thm 2.1(3)]. It follows from comparing the direct sum decompositions (4.2.2) forX and$Y$that $\phi ^ { \ast } \overline { { L } } _ { < n } \cong \overline { { \phi ^ { - 1 } L } } _ { < n }$and thus that$\phi ^ { * } \overline { { L } } _ { n } \cong \overline { { \phi ^ { - 1 } L } } _ { n }$. The claim follows.
+
+## 4.3 Comparison of the two metrics
+
+Now, suppose that X has a smooth integral model X over$\mathcal { O } _ { k }$and let$L$be a crystalline local system on the generic fiber of the formal completion$\widehat { \mathcal { X } } _ { \mathrm { g e n } }$
+
+pThen by Theorem 2.9 we get a natural map$S _ { \mathrm { c r i s } } ( L )  D _ { \mathrm { d R } } ^ { 0 } ( L )$which induces a map
+
+$$
+\operatorname{Gr} S _ {\mathrm{cris}} (L) \to \operatorname{Gr} D _ {\mathrm{dR}} ^ {0} (L) \cong D _ {H T} (L) = \oplus_ {n} \nu_ {*} (\widehat {L} \otimes \mathcal {O C} (n)).
+$$
+
+We thus obtain a canonical lattice in$L _ { n } ^ { \circ }$which we call the crystalline lattice. We define the corresponding norm the crystalline norm. We will show that the two norms agree in two cases: the case of crystalline local systems all of whose Hodge-Tate weights are 0 and rank 1 crystalline local systems.
+
+Lemma 4.11. Let L denote a crystalline local system with all Hodge-Tate weights 0. Then, the crystalline and intrinsic norms agree.
+
+Proof. We will first show that the crystalline lattice is contained in the norm$\leqslant 1$subset of the intrinsic norm. For brevity, call the latter subset the intrinsic lattice.
+
+As 0 is the only Hodge-Tate weight, we have that$D _ { \mathrm { d R } } ^ { 0 } ( L ) = \nu _ { * } ( \hat { L } \otimes \hat { \mathcal { O } } _ { X } )$. Further, we have$S _ { \mathrm { c r i s } } ( L ) \subset$ $( L \otimes \mathrm { G r } ^ { 0 } { \mathcal { A } } _ { \mathrm { c r i s } } ) ^ { \mathrm { G a l = 1 } } = ( L \otimes { \overline { { \mathcal { R } } } } ) ^ { \mathrm { G a l = 1 } }$. It follows that the image of$S _ { \mathrm { c r i s } } ( L )$pin$D _ { \mathrm { d R } } ^ { 0 } ( L )$is contained in$L \otimes { \overline { { \mathcal { R } } } }$ and therefore the crystalline lattice is contained in the intrinsic lattice.
+
+To finish the lemma, it sufices to prove the other containment. In particular, it sufices to prove that the crystalline and intrinsic lattices agree for the determinant of$L$(as both norms and therefore lattices are compatible with tensor products, see Lemma 2.3). Therefore, we assume that$L$is a crystalline rank-1 local system with Hodge-Tate weight 0. By [22, Theorem$2 . 6 ^ { * }$, h)], the dual local system$L ^ { * }$of$L$is also crystalline. As$L ^ { * }$(and$L \otimes L ^ { * }$, which is the trivial local system) also has Hodge-Tate weight 0, we have that the crystalline lattices for$L , L ^ { * }$and$L \otimes L ^ { * }$are each contained in the intrinsic lattices for each local system. $\mathrm { A s } \ L \otimes L ^ { * }$is the trivial local system, the two lattices clearly agree for$L \otimes L ^ { * }$. It follows from lemma 2.3 that the two lattices therefore must agree for both L and$L ^ { * }$. The lemma follows.
+
+Lemma 4.12. Let L denote a rank 1 crystalline local system with Hodge-Tate weight$0 \leqslant n \leqslant p - 2$. Then the intrinsic norm is the same as the crystalline norm.
+
+Proof. Consider the local system$L ^ { \prime } = L \otimes \chi ^ { n }$. This is crystalline with Hodge-Tate weight 0, and so the intrinsic and crystalline norms agree for$L ^ { \prime } .$
+
+We identify$L , L ^ { \prime }$as rank-1$\mathbb { Z } _ { p }$-modules (with the Galois action difering by a twist), and therefore also identify$L \otimes A$with$L ^ { \prime } \otimes A$with$A = A _ { \mathrm { i n f } } ( \overline { { \mathcal { R } } } ) ~ \mathrm { o r } ~ A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$. We choose a generator e of L. By [59, Lemma $7 5 ]$, we have that$T A _ { \mathrm { i n f } } ( L ) = \pi ^ { n } T A _ { \mathrm { i n f } } ( L ^ { \prime } )$We view$T A _ { \mathrm { i n f } } ( L ^ { \prime } ) , T A _ { \mathrm { i n f } } ( L )$as subsets of$L ^ { \prime } \otimes \mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$. We claim that$e \otimes f$(with$f \in \mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) )$is an element of$S _ { \mathrm { c r i s } } ( L ^ { \prime } )$if and only if$e \otimes t ^ { n } f$is an element of$S _ { \mathrm { c r i s } } \left( L \right)$ In other words, we claim that$e \otimes f$is in the$\mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) \mathrm { - s p a n }$of$T A _ { \mathrm { i n f } } ( L ^ { \prime } )$if and only if$e \otimes t ^ { n } f$is in the $A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$-span of$T A _ { \mathrm { i n f } } ( L )$. This follows from the fact that$\begin{array} { r } { \frac { t } { \pi } \in \mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) } \end{array}$is a unit. The claim follows from the easy observation that e$f \in L \otimes \mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$is Galois invariant if and only if$e \otimes t ^ { n } f \in L \otimes \mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$is. Therefore, the crystalline norm of$e \otimes f \in S _ { \mathrm { c r i s } } ( L ^ { \prime } )$is the same as the crystalline norm of$e \otimes t ^ { n } f \in S _ { \mathrm { c r i s } } ( L )$
+
+We now calculate the intrinsic norms. By Lemma 4.11, we have that$S _ { \mathrm { c r i s } } ( L ^ { \prime } )$generates the intrinsic lattice in$D _ { \mathrm { d R } } ^ { 0 } \left( L ^ { \prime } \right)$. Again, by identifying$L , L ^ { \prime }$as$\mathbb { Z } _ { p } { \mathrm { - m o d u l e s } }$(with Galois actions difering by$\chi ^ { n } )$, we may identify$\hat { L } \otimes \mathcal { O } B _ { \mathrm { d R } }$and$\hat { L ^ { \prime } } \otimes \mathcal { O } B _ { \mathrm { d R } }$(with the Galois action again difering by$\chi ^ { n } )$. As in the crystalline case, $e \otimes f \in { \hat { L } } ^ { \prime } \otimes { \mathcal { O } } B _ { \mathrm { d R } }$is Galois invariant if and only if$e \otimes t ^ { n } f \in { \hat { L } } \otimes { \mathcal { O } } B _ { \mathrm { d R } }$is. We normalized the intrinsic norm so that the element t has norm 1, and therefore the intrinsic norm of$e \otimes f \in { \hat { L } } ^ { \prime } \otimes { \mathcal { O } } B _ { \mathrm { d R } }$is the same as the intrinsic norm of$e \otimes t ^ { n } f \in { \hat { L } } \otimes { \mathcal { O } } B _ { \mathrm { d R } }$. The result follows.
+
+Analogous to the absolute case, we may define the crystalline norm on a local system that is crystalline up to twist.
+
+Definition 4.13. Let L be a local system such that there exists some integer a such that$L ( a )$is crystalline. Then the identification of Gr$D _ { \mathrm { d R } } ^ { 0 } ( V )$with Gr$D _ { \mathrm { d R } } ^ { 0 } ( V ( a ) )$(via multiplication by$t ^ { a } )$yields a crystalline norm on Gr$D _ { \mathrm { d R } } ^ { 0 } ( V )$. Note by Lemmas 4.12 and 2.3 that the norm is independent of a (as long as$L ( a )$is crystalline).
+
+Our goal is now to show that the crystalline and intrinsic norms are comparable for local systems that are crystalline up to twist.
+
+Theorem 4.14. Let X be a smooth geometrically connected scheme over$\mathcal { O } _ { k }$, and$L$be a$\mathrm { , ~ } \mathbb { Z } _ { p }$local system on$\hat { \mathcal { X } } _ { \mathrm { g e n } }$that is crystalline up to twist. Suppose that the normalized weight-sum of$L \ i s \leqslant p - 2$and that the pweight range is$b .$Then the crystalline norm and the intrinsic norm associated to L are comparable up to bpdim L´1q $p ^ { \longrightarrow } \not \longrightarrow$
+
+Proof. of Theorem$4 . 1 \%$
+
+Without loss of generality, we may and do assume$X = { \mathrm { S p e c } } ( R )$is afine with an étale map
+
+$$
+\mathcal {O} _ {k} \big [ s _ {1}, s _ {1} ^ {- 1} \dots , s _ {n}, s _ {n} ^ {- 1} \big ] \to R,
+$$
+
+and that the weight interval of L is$[ 0 , b ]$. Recall that$v _ { i } = \left[ s _ { i } ^ { \flat } \right] \otimes s _ { i } ^ { - 1 } - 1$are elements of$A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } )$such that $\mathcal { A } _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) = A _ { \mathrm { c r i s } } ( \overline { { \mathcal { R } } } ) \langle v _ { 1 } , \ldots , v _ { n } \rangle ^ { P D }$. Moreover,
+
+$$
+S _ {\mathrm{cris}} (L) \subset \mathcal {A} _ {\mathrm{cris}} (\overline {{\mathcal {R}}}) \otimes L.
+$$
+
+It follows that the image$S _ { i }$of${ \mathrm { F i l } } ^ { i } S _ { \mathrm { c r i s } } ( L )$in$\mathrm { G r } ^ { i } D _ { \mathrm { d R } } ^ { 0 } ( L )$is contained in the image of$\mathrm { F i l } ^ { i } A _ { \mathrm { c r i s } } ( { \overline { { \mathcal { R } } } } ) \otimes L$which is$\begin{array} { r } { L \otimes \xi ^ { i } \overline { { \mathcal { R } } } [ \frac { v _ { 1 } } { \xi } , \dots , \frac { v _ { n } } { \xi } ] ^ { \leqslant i } } \end{array}$by [59, (5)].
+
+Moreover, it follows by Theorem 4.6 that the positive degree components of$S _ { i }$are irrelevant when computing the intrinsic norm. Since we embed$D _ { \mathrm { H T } } ^ { i } ( L )$inside$L \otimes { \widehat { \mathcal { O } } } _ { X }$by scaling by${ \frac { 1 } { \pi ^ { 2 } } } ;$it follows that the crystalline lattice is contained inside$\theta ( { \frac { \xi } { \pi } } ) ^ { i }$ptimes the intrinsic lattice. As$\begin{array} { r } { v _ { p } ( \theta ( \frac { \xi } { \pi } ) ) = - \frac { 1 } { p - 1 } } \end{array}$(see for example [22, page 29]), the crystalline lattice is contained within$p ^ { - \frac { b } { p - 1 } }$times the intrinsic lattice.
+
+To get the other inclusion, note first of all that by Lemma 2.3 that$S _ { \mathrm { c r i s } } ( L \otimes L ^ { \prime } ) = S _ { \mathrm { c r i s } } ( L ) \otimes S _ { \mathrm { c r i s } } ( L ^ { \prime } )$ and by taking direct summands that$\bigwedge ^ { \dim L } S _ { \mathrm { c r i s } } ( L ) = S _ { \mathrm { c r i s } } ( \bigwedge ^ { \dim L } L ) .$note that the Hodge-Tate weights are$\leqslant p - 2$by assumption. The same compatibility for the intrinsic height is immediate.
+
+It follows by Lemma 4.12 that the top wedge powers of the crystalline lattice and of the intrinsic lattices are the same. An argument identical to one used to conclude the proof of Theorem 4.5 proves this result
+
+## 5 Some Ramified Examples
+
+## 5.1 Elliptic curves with CM by a maximal order ramified at$p$
+
+In this subsection, we work out the comparison in the case of the Galois representation associated to an elliptic curve admitting CM by an imaginary quadratic field ramified at$p .$. We will make extensive use of Colmez’s paper [10], where he computes the p-adic valuation of certain p-adic periods.
+
+Let$p > 2$be a prime and let${ \mathfrak { p } } \in { \overline { { \mathbb { Q } } } } _ { p }$denote an element such that${ \mathfrak { p } } ^ { 2 } = - p$. Let$K = \mathbb { Q } _ { p } [ { \mathfrak { p } } ]$. Let $M = \mathbb { Q } [ x ] / ( x ^ { 2 } - p ) -$note that${ \mathcal { O } } _ { M } \otimes \mathbb { Z } _ { p }$is obviously isomorphic to${ \mathcal { O } } _ { K }$, and there are two equally canonical choices of isomorphism which we denote by$\sigma , \tau .$Let$E$denote an elliptic curve with CM by${ \mathcal { O } } _ { M }$. We note that E is defined over the Hilbert class field H of$M$, and the extension$H / M$is totally split at the principal prime ideal p. Therefore, E is defined over$K ,$, as is the CM action.
+
+The ring$\mathcal { O } _ { M } \otimes \mathbb { Z } _ { p }$acts$\mathcal { O } _ { K } { - } \mathrm { l i n e a r l y }$on$H _ { \mathrm { d R } } ^ { 1 } \big ( E _ { { \mathcal O } _ { K } } \big )$, the integral de Rham cohomology of$E .$. Let$H _ { \mathrm { \Gamma _ { d B } } } ^ { 1 } ( E _ { { \mathcal O } _ { K } } ) ^ { \sigma }$ denote the one-dimensional subspace on which${ \mathcal { O } } _ { M } { \otimes { \mathbb { Z } } _ { p } }$acts via the embedding$\sigma ,$and let$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \tau }$denote the analogous object. The action of${ \mathcal { O } } _ { M } \otimes \mathbb { Z } _ { p }$preserves$\mathrm { F i l } ^ { 1 }$, and therefore$\mathrm { F i l } ^ { 1 }$is one of two one-dimensional subspaces described above. Without loss of generality, we suppose that$\mathrm { F i l } ^ { 1 } = H _ { \mathrm { \Gamma _ { \mathrm { d R } } } } ^ { 1 } ( E _ { { \mathcal O } _ { K } } ) ^ { \sigma }$
+
+Note that while$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \sigma }$and$H _ { \mathrm { d B } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \tau }$are each saturated in$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$, the two subspaces don’t span$H _ { \mathrm { d R } } ^ { 1 } \big ( E _ { { \mathcal O } _ { K } } \big )$integrally. This follows because$H _ { \mathrm { \tiny { d B } } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$is free of rank 1 as an$\mathcal { O } _ { M } \otimes _ { \mathbb { Z } } \mathcal { O } _ { K ^ { - } } \mathrm { m o d u l e } \left( \left[ 1 0 \right] \right)$ This description then gives us that$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) / ( H _ { \mathrm { d R } } ^ { 1 ^ { \ast } } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \tau } \oplus H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \tau } )$is isomorphic to${ \mathcal { O } } _ { K } / { \mathfrak { p } } { \mathcal { O } } _ { K }$
+
+Let T denote the p-adic Tate module of E. Note that T is naturally a free rank-1${ \mathcal { O } } _ { M } \otimes \mathbb { Z } _ { p }$-module, and the Galois action is${ \mathcal { O } } _ { M } \otimes \mathbb { Z } _ { p } .$-linear. Let$L = T ^ { \vee }$, and let$u _ { 1 } \in L$denote an${ \mathcal { O } } _ { M } \otimes \mathbb { Z } _ { p }$-generator, and let $u _ { 2 } = \sigma ^ { - 1 } ( { \mathfrak { p } } ) u _ { 1 }$. In [10], Colmez computes the p-adic valuation of periods of Lubin-Tate groups. In particular, Colmez constructs elements$s _ { \sigma } , s _ { \tau } \in B _ { \mathrm { d R } }$on which the Galois action is through the Lubin-Tate characters, with the following properties ([10, Theorem I.2.1]):
+
+$$
+\bullet s _ {\tau} \in \operatorname{Fil} ^ {0} \backslash \operatorname{Fil} ^ {1}, \text {with} v _ {p} \theta (s _ {\tau}) = \frac {1}{2 (p - 1)} + \frac {1}{2}.
+$$
+
+$$
+\bullet s _ {\sigma} \in \operatorname{Fil} ^ {1} \backslash \operatorname{Fil} ^ {2}, \text {   with   } v _ {p} \theta ((s _ {\sigma} / t)) = - \frac {1}{2 (p - 1)} - \frac {1}{2}.
+$$
+
+One can now check that$D _ { \mathrm { d R } } ( L \otimes \mathbb { Q } _ { p } )$is spanned by two elements$A = u _ { 1 } \otimes { \mathfrak { p } } s _ { \sigma } + u _ { 2 } \otimes s _ { \sigma }$and$B =$ $u _ { 1 } \otimes \left( - { \mathfrak { p } } s _ { \tau } \right) + u _ { 2 } \otimes s _ { \tau } - { \mathrm { i . e } }$. the two elements$A , B \in L \otimes B _ { \mathrm { d R } }$are indeed Galois invariants. We are now ready to compare the two norms.
+
+## 5.1.1 The intrinsic norm
+
+Recall that the intrinsic norm is calculated by embedding the graded pieces (starting with the lowest piece and working upwards) of$D _ { \mathrm { d R } } ( L )$into quotients of$L \otimes \mathbb { C } _ { p }$and using the natural norm on$L \otimes \mathbb { C } _ { p }$. In this example, the image of$\mathrm { G r } ^ { 0 } \ddot { D } _ { \mathrm { d R } } \dot { ( L ) }$in$L \otimes \mathbb { C } _ { p }$is obtained by restricting$1 \otimes \theta : L \otimes B _ { \mathrm { d R } } \to \bar { L } \otimes \mathbb { C } _ { p }$to $( L \otimes B _ { \mathrm { d R } } ) ^ { \mathrm { G a l } _ { K } }$. Therefore, it follows that$B$has intrinsic p-adic valuation$\begin{array} { r } { \frac { 1 } { 2 ( p - 1 ) } + \frac { 1 } { 2 } } \end{array}$
+
+The intrinsic norm of A is calculated as follows. Consider the quotient of$L \otimes \mathbb { C } _ { p }$by the$\mathbb { C } _ { p } { \mathrm { - s p a n } }$of $( 1 \otimes \theta ) ( B )$. We endow this with the quotient norm induced by the norm on$L \otimes \mathbb { C } _ { p } .$. The intrinsic norm of A is defined to be the norm of image of$\begin{array} { r } { ( 1 \otimes \theta ) ( \frac { A } { t } ) } \end{array}$in$( L \otimes \mathbb { C } _ { p } ) / \mathbb { C } _ { p } \cdot ( 1 \otimes \theta ) ( B )$. Here,$( L \otimes \mathbb { C } _ { p } ) / \mathbb { C } _ { p } \cdot ( 1 \otimes \theta ) ( B )$ has the quotient norm induced by the norm on$L \otimes \mathbb { C } _ { p }$
+
+We now claim that A has the same intrinsic norm as the element$\textstyle 1 \otimes \theta { \bigl ( } u _ { 1 } \otimes { \mathfrak { p } } { \frac { s _ { \sigma } } { t } } { \bigr ) }$. Indeed,$\begin{array} { r l r } {  { \bigl ( 1 \otimes \theta \bigr ) \bigl ( \frac { A } { t } \bigr ) - } } \end{array}$ $\begin{array} { r } { \frac { \theta ( s _ { \sigma } / t ) } { \theta ( s _ { \tau } ) } \cdot ( 1 \otimes \theta ) ( B ) = u _ { 1 } \otimes \theta ( 2 \mathfrak { p } s _ { \sigma } / t ) } \end{array}$. It now follows that the intrinsic valuation of A is at least$\frac { - 1 } { 2 ( p - 1 ) }$. In order to show that the intrinsic valuation of A is exactly$\frac { - 1 } { 2 ( p - 1 ) }$, it sufices to show the valuation of$\begin{array} { r } { 1 \bigotimes \theta \big ( u _ { 1 } \otimes \frac { 2 \mathfrak { p } s _ { \sigma } } { t } \big ) } \end{array}$ is greater than or equal to that of$\begin{array} { r } { A _ { \alpha } = 1 \otimes \theta ( u _ { 1 } \otimes \frac { 2 \mathfrak { p } s _ { \sigma } } { t } ) + \alpha \cdot \left[ 1 \otimes \theta ( B ) \right] } \end{array}$for any$\alpha \in \mathbb { C } _ { p }$. Note that we calculate the valuation in$L \otimes \mathbb { C } _ { p }$with respect to the lattice$L \otimes \mathcal { O } _ { \mathbb { C } _ { p } }$. Suppose that there exists$\alpha \in \mathbb { C } _ { p }$such that$A _ { \alpha }$had valuation greater than$\frac { - 1 } { 2 ( p - 1 ) }$. Such an α must necessarily satisfy$\begin{array} { r } { v _ { p } ( \alpha \mathfrak { p } \theta ( s _ { \tau } ) ) = v _ { p } ( \mathfrak { p } \bar { \theta } ( \frac { s _ { \sigma } } { t } ) ) } \end{array}$ But in that case, the valuation of$A _ { \alpha }$would then equal the valuation of$u _ { 2 } \otimes \theta ( \alpha t _ { \tau } )$, which is strictly smaller than$\frac { - 1 } { 2 ( p - 1 ) }$
+
+## 5.1.2 The crystalline norm
+
+In order to compute the crystalline norms of A and B, we proceed as follows. We have the canonical identification$H _ { \mathrm { d R } } ^ { 1 } ( E _ { K } ) { \stackrel { \sim } { \to } } D _ { \mathrm { d R } } ( L )$. The image of$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$under this map defines the set of points having crystalline norm$\leqslant 1$. Colmez’s construction of the periods$s _ { \sigma } , s _ { \tau }$yields that the elements$A , B$are integral generators of the two subspaces$H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } ) ^ { \sigma }$and$\bar { H } _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal O } _ { K } } ) ^ { \tau }$. Therefore, it follows that A is an integral generator of$\mathrm { F i l } ^ { 1 } \subset H ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$, and so has valuation 0 under the crystalline norm.
+
+As remarked above, the element B is not an integral generator of$\mathrm { G r } ^ { 0 } H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$, and but$\begin{array} { r } { \frac { B } { \mathfrak { p } } } \end{array}$is integral in$\mathrm { G r } ^ { 0 } H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K } } )$, and indeed generates it. It follows that B has crystalline valuation$\textstyle { \frac { 1 } { 2 } }$. Therefore, the crystalline and intrinsic norm agree up to a factor of$p ^ { \frac { 1 } { 2 ( p - 1 ) } }$, which is (stronger than) what is claimed by Theorem 4.14.
+
+## 5.2 Elliptic curves with CM by a non-maximal order
+
+Let E, K be as in Subsection 5.1. There is a unique degree p cyclic extension$K ^ { \prime } / K$such that every order p subgroup of$E _ { K }$is defined over$K ^ { \prime }$. Let$E ^ { \prime }$denote an elliptic curve with CM by the unique order having index p inside the maximal order. There exists a degree-p isogeny$E  E ^ { \prime }$defined over$K ^ { \prime }$. The p-adic comparison isomorphism relating$H _ { \mathrm { d R } } ^ { 1 } ( E )$with$D _ { \mathrm { d R } } \mathopen { } \mathclose \bgroup \left( T _ { p } ^ { \vee } \left( E \right) \aftergroup \egroup \right)$is compatible with isogenies. Therefore, in order to compare the intrinsic and crystalline norms for$E ^ { \prime }$, it sufices to work inside$D _ { \mathrm { d R } } ( T _ { p } ^ { \vee } ( E ) )$.
+
+We let$L , s _ { \sigma } , s _ { \tau } , A , B _ { }$, etc to mean the same objects as in Section 5.1. Setting$\dot { L } ^ { \prime } = T _ { p } ^ { \vee } \left( E ^ { \prime } \right)$, we may assume without loss of generality that$L ^ { \prime } \subset L$is the$\mathbb { Z } _ { p } .$-sublattice spanned by$u _ { 1 } , p u _ { 2 }$
+
+## 5.2.1 Intrinsic norm
+
+We claim that$B , A$have intrinsic valuation equalling$\begin{array} { r } { - \frac { 1 } { 2 } + \frac { 1 } { 2 ( p - 1 ) } } \end{array}$and$- { \frac { 1 } { 2 ( p - 1 ) } }$respectively. Indeed, the intrinsic valuation for A equals the intrinsic valuation of the element$u _ { 1 } \otimes \left( - { \mathfrak { p } } s _ { \sigma } \right)$as the term u<sub>2</sub>$\otimes s _ { \tau }$is rendered irrelevant while computing the intrinsic valuation as in the maximal case.
+
+## Crystalline norm
+
+It now remains to compute the crystalline valuations of$A , B ,$. As$E \to E ^ { \prime }$is defined by a degree p isogeny, it follows that$H _ { \mathrm { d R } } ^ { 1 } ( E _ { \mathcal { O } _ { K ^ { \prime } } } ^ { \prime } ) \subset H _ { \mathrm { d R } } ^ { 1 } ( E _ { \mathcal { O } _ { K ^ { \prime } } } )$is a sublattice, whose co-kernel has cardinality the same as$\mathcal { O } _ { K ^ { \prime } } / p \mathcal { O } _ { K ^ { \prime } }$ Therefore, as A, B forms a basis of$H _ { \mathrm { d R } } ^ { 1 } ( E _ { K } ^ { \prime } )$, the changes in the crystalline valuations of A and B will sum $\mathrm { t o } - 1$,and therefore the crystalline valuations of A and$B$sum to$- \frac 1 2$. Therefore, it sufices to calculate the crystalline norm of$B .$.
+
+We have that$\mathrm { F i l } ^ { 1 } ( H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal O } _ { K ^ { \prime } } } ^ { \prime } ) ) = \mathrm { F i l } ^ { 1 } ( H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal O } _ { K ^ { \prime } } } ) ) \cap H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal O } _ { K ^ { \prime } } } )$. Therefore, the change in the crystalline norm of B is just the valuation of$\alpha \in { \mathcal O } _ { K ^ { \prime } }$where α is any element that satisfies$\mathrm { F i l } ^ { 1 } ( H _ { \mathrm { d R } } ^ { 1 } ( E _ { \mathcal { O } _ { K ^ { \prime } } } ^ { \prime } ) ) =$ $\alpha \mathrm { F i l } ^ { 1 } ( H _ { \mathrm { d R } } ^ { 1 } ( E _ { { \mathcal { O } } _ { K ^ { \prime } } } ) )$, equivalently$\Omega _ { E ^ { \prime } / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } = \alpha \Omega _ { E / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } .$
+
+We calculate this using a global argument as follows. Recall that$E , E ^ { \prime }$have CM by the imaginary quadratic field M. Let H denote the Hilbert class field of$M ,$and let$H ^ { \prime }$denote the cyclic degree$p$extension of H which is the field of definition of the order p subgroups of$E$and therefore of$E ^ { \prime }$. First, we suppose that$H = M , \mathrm { i . e . } \quad \mathcal { O } _ { M }$has class number 1. The change in the global Faltings heights of$E , E ^ { \prime }$is well understood. Indeed, we have that$h _ { F } ( E ^ { \prime } ) - h _ { F } ( E ) = \frac { p - 1 } { 2 \upsilon } \log p$(see for instance, [45], or [61], or [56, Proposition 5.1.6] and [3]). On the other hand, by the Faltings isogeny theorem, this change in height equals $\begin{array} { r } { \frac { 1 } { 2 } \log p - \frac { 1 } { [ H ^ { \prime } ; \mathbb { Q } ] } \stackrel { \textstyle \dot { \operatorname { o r } } } { \log } ( | \Omega _ { E / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } / \Omega _ { E ^ { \prime } / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } | ) = \frac { 1 } { 2 } \log p - \frac { 1 } { 2 p } \log ( | \Omega _ { E / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } / \Omega _ { E ^ { \prime } / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } | . } \end{array}$This is because the extension $H ^ { \prime } / \mathbb { Q }$is totally ramified at$p ,$and so there is only one local place that contributes to the diference in Faltings heights. Comparing these quantities, we see that$\textstyle \frac { 1 } { 2 p } \log ( | \Omega _ { E / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } / \Omega _ { E ^ { \prime } / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } | = \frac { 1 } { 2 } \log p - \frac { ( p - 1 ) } { 2 p } \log p$, whence $| \Omega _ { E / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } / \Omega _ { E ^ { \prime } / \mathcal { O } _ { K ^ { \prime } } } ^ { 1 } | = p$. It then follows that$\begin{array} { r } { v _ { p } ( \alpha ) = \frac { 1 } { 2 p } } \end{array}$, and therefore that the crystalline valuation of$A$is $- { \frac { 1 } { 2 p } } .$
+
+If M does not have class number 1, then the increase in the degree$[ H ^ { \prime } : \mathbb { Q } ]$would be ofset exactly by the number of places of H above$p$(note that the extension$H / M$is totally split above the unique prime ideal of M dividing$p ,$as this ideal is principal), and so we would still obtain that the crystalline valuation of$A { \mathrm { ~ i s ~ } } - { \frac { 1 } { 2 p } }$
+
+It therefore follows that the crystalline valuation of B must be$\begin{array} { r } { \frac { 1 } { 2 } - 1 + \frac { 1 } { 2 p } = - \frac { 1 } { 2 } + \frac { 1 } { 2 p } } \end{array}$
+
+Therefore, the two norms are indeed seen to be comparable by the above explicit calculation.
+
+## 6 Shimura Varieties
+
+See [42] for further background on this section.
+
+## 6.1 Basic definitions
+
+Let G be a connected reductive group over$\mathbb { Q } , \mathbb { S } = \operatorname { R e s } _ { \mathbb { C } / \mathbb { R } } \mathbb { G } _ { m }$the Deligne torus, X be a$G ( \mathbb { R } )$-conjugacy class of homomorphisms$f : \mathbb { S }  G _ { \mathbb { R } }$satisfying the Shimura axioms in [39]. Note in particular that this includes the axiom that the central torus$Z ( G ) ^ { o }$is split over a CM field. We call$( G , X ) \ \mathrm { a }$Shimura datum
+
+Finally, let$\begin{array} { r } { K = \prod _ { p } K _ { p } \subset G ( \mathbb { A } _ { f } ) } \end{array}$be a split-neat compact subgroup. Let$E ( G , X ) \subset \mathbb { C }$be the reflex field, and E be a field over which G splits. Associated to this data we get
+
+• A complex projective variety$\check { X } _ { \mathbb { C } }$with a transitive action of$G ,$such that X injects into${ \check { X } } _ { \mathbb { C } } ( \mathbb { C } )$in a G R -equivariant way.
+
+• An algebraic variety$S _ { K } ( G , X )$over$E ( G , X )$called a Shimura variety whose complex points can be identified with$G ( \mathbb { Q } ) \backslash \left( X \times G ( \mathbb { A } _ { f } ) \right) / K$
+
+• A canonical model of$\check { X }$over$E ( G , X )$satisfying certain natural properties.
+
+Henceforth we write$\check { X }$and$S _ { K } ( G , X )$to mean the canonical models, which are algebraic varieties defined over$E ( G , X )$.
+
+If G is a simple adjoint group over$\mathbb { Q } ,$then$G = \operatorname { R e s } _ { F / \mathbb { 0 } } G ^ { \prime }$for some totally real field F and a geometrically simple adjoint group$G ^ { \prime }$[41, Thm 3.13]. Thus$G _ { \mathbb { R } } \cong \ \prod \ G _ { \sigma } ^ { \prime }$where$G _ { \sigma } ^ { \prime } = G ^ { \prime } \times _ { F , \sigma }$R. Let$I _ { n c }$be the set of σ:FÑR real places of$\mathbb { R }$such that$G _ { \sigma } ^ { \prime } ( \mathbb { R } )$is non-compact for each$\sigma \in I _ { n c }$. We then have a corresponding splitting of hermitian symmetric domains$X \cong \prod X _ { \sigma }$
+
+## 6.2 Special points
+
+Following [41] we say that a point$x \in X$is special if the corresponding$h : \mathbb { S }  G$factors through a Q-torus T. We define$T _ { h }$to be the smallest such Q-torus.
+
+We say that a point of$S _ { K } ( G , X )$is Special if some (and hence, any) representative$( x , g ) \subset X \times G ( \mathbf { A } _ { f } )$ has the property that x is special.
+
+Lemma 6.1. Given a special point$h \in X$, the torus$T _ { h }$splits over a CM field. Consequently, h lies in a 0-dimensional Shimura sub-datum T, h .
+
+Proof. If G is adjoint, then this follows from [44, A3]. Therefore, the torus$T _ { h ^ { \mathrm { a d } } } \subset G ^ { \mathrm { a d } }$splits over a CM field. But$T _ { h ^ { \mathrm { a d } } }$is the quotient of$T _ { h }$by a subtorus of$Z ( G )$, which also splits over a CM field. The claim follows.
+
+As a result, we see that every special point$h \in X$is contained in a 0-dimensional Shimura datum $( T _ { h } , h ) \subset ( G , X )$
+
+## 6.3 Useful group-theoretic reductions for Shimura varieties
+
+We will record two results that will be used at multiple points in the future.
+
+Proposition 6.2. Let G, X be a Shimura datum. Then there is another Shimura datum$( G ^ { \prime } , X ^ { \prime } )$and a morphism$f : ( G ^ { \prime } , X ^ { \prime } )  ( G , X )$satisfying the following properties.
+
+1.$G ^ { \prime }  G$is surjective.
+
+2.$f$is an isomorphism at the level of adjoint Shimura data.
+
+3.$G ^ { \prime \mathrm { d e r } }$is simply connected.
+
+Proof. We first assume that$G ^ { \mathrm { d e r } }$is adjoint. In this case,$G \cong G ^ { \mathrm { d e r } } \times Z ( G )$. Let$G ^ { s }  G ^ { \mathrm { d e r } }$be the simply connected cover, and set$G _ { 1 } : = G ^ { s } \times Z ( G )$Now let$\mu : \mathbb { S }  G$be a cocharacter in X corresponding to a special point$h ,$so that$\mu$factors through the$\mathbb { Q } \mathrm { . }$-torus$T _ { h }$. By Lemma$6 . 1 ~ T _ { h }$splits over a CM field. Let $T _ { h } ^ { \prime } \subset G _ { 1 }$denote the connected component of the inverse image of$T _ { h }$. Finally, let$K : = T _ { h } ^ { \prime } \cap \left( Z ( G ^ { s } ) \times \{ 1 \} \right)$ We define$G ^ { \prime } : = ( G _ { 1 } \times T _ { h } ^ { \prime } ) / K _ { \Delta }$, where$K _ { \Delta }$is the diagonal embedding of$K$.
+
+Note that there is a diagonal embedding of$T _ { h } ^ { \prime }$into$G _ { 1 }$which induces an embedding$\phi : T _ { h } \hookrightarrow G ^ { \prime }$ We define the conjugacy class of the composition$\mathbb { S } \to T _ { h } \to G ^ { \prime }$to be$X _ { 1 }$. Since$T _ { h }$is split over a CM field the Shimura axioms are immediate, and so it remains to show that$G ^ { \prime \mathrm { d e r } }$is simply connected. But $K _ { \Delta } \cap ( G _ { 1 } \times \{ 1 \} ) = \{ 1 \}$, and so$G _ { 1 }$injects into$G ^ { \prime }$, and thus$G ^ { s } \cong G ^ { \prime } { } ^ { \mathrm { d e r } }$, as desired.
+
+Finally we handle the general case. Suppose now that G is arbitrary. Consider$G _ { 0 } : = G / Z ( G ^ { \mathrm { d e r } } )$so that $G _ { 0 } ^ { \mathrm { d e r } }$is adjoint. Thus by what we proved above there is a Shimura variety$( G _ { 2 } , X _ { 2 } )  ( G _ { 0 } , X _ { 0 } )$inducing an isomorphism on the adjoint groups. We define$G ^ { \prime }$to be the connected component of$G \times _ { G _ { 0 } } G _ { 2 }$, and likewise $X _ { 1 }$to be$X \times _ { X _ { 0 } } X _ { 2 }$. Since$G ^ { \prime }$surjects onto$G _ { 2 }$its derived group must be simply connected, completing the proof.
+
+Proposition 6.3. Let$( G , X )$be a Shimura datum such that$G = G ^ { c }$. Then, there exists another Shimura datum$( H , Y )$that$( G , X )$embeds in, such that$H = H ^ { c }$and such that every$\mathbb { Q } .$-simple factor of$H ^ { \mathrm { d e r } }$has real rank at least 2. Further, we may choose$H ^ { \mathrm { d e r } } ~ t o$be Q-simple$i f \ G ^ { \mathrm { d e r } } \ i s$
+
+Proof. Let F denote a real quadratic field that is linearly disjoint from some finite Galois extension that splits G. Then,$H _ { 1 } = \operatorname { R e s } _ { F / \mathbb { Q } } G _ { F }$is a reductive group such that every Q-simple factor of$H ^ { \prime , \mathrm { d e r } }$has real rank at least 2. The center$Z _ { H _ { 1 } }$of$H _ { 1 }$contains the center$Z _ { G }$as a subtorus. We have the canonical surjective morphism that we call det :$H _ { 1 } \to H _ { 1 } / H _ { 1 } ^ { \mathrm { d e r } }$. This map det$\big | Z _ { H _ { 1 } }$is an isogeny. Let$Z _ { G } ^ { \prime } = \operatorname* { d e t } ( Z _ { G } )$. Set $H = \operatorname* { d e t } ^ { - 1 } ( Z _ { G } ^ { \prime } )$. This group has the same derived group as$H _ { 1 }$, and satisfies$H ^ { c } = H$, as$Z _ { G }$and$Z _ { H }$are isogenous tori. The group G embeds in H by construction, and$( G , X )$induces a Shimura data on H in which it embeds as a sub-Shimura datum. By construction,$H ^ { \mathrm { d e r } }$is Q-simple if$G ^ { \mathrm { d e r } }$is. The result follows.
+
+## 6.4 Principle bundles
+
+For an algebraic group G defined over$\mathbb { Q } ,$let$Z ( G ) ^ { o }$denote its central torus. Assuming$Z ( G )$splits over a CM field - which is true for all our Shimura varieties - we may define$Z ( G ) _ { s } < Z ( G ) ^ { o }$to be the maximal anisotropic Q-subtorus which splits over R. We define${ \cal G } ^ { c } : = { \cal G } / { \cal Z } ( { \cal G } ) _ { s } .$
+
+There is an algebraic variety$P = P _ { K } ( G , X )$over$E ( G , X )$such that$P ( \mathbb { C } ) \cong G ( \mathbb { Q } ) \backslash ( X \times G ( \mathbb { C } ) \times G ( \mathbb { A } _ { f } ) ) / K$ and maps
+
+$$
+S _ {K} (G, X) \xleftarrow {\pi} P \xrightarrow {\psi} \check {X}
+$$
+
+which over$\mathbb { C }$are naturally identified with the maps$[ ( x , g , k ) ] \to [ ( x , k ) ]$and$\left\lceil ( x , g , k ) \right\rceil \to g ^ { - 1 } x$. Moreover, there is a left action of G on P such that$g ^ { \prime } \circ [ ( x , g , k ) ] = [ ( x , g g ^ { \prime - 1 } , k ] )$and$\psi ( [ x , g g ^ { \prime } , k ] ) = g ^ { \prime } \psi ( [ x , g , k ] )$.
+
+$P$has a natural$G _ { E ( G , X ) } ^ { c }$-action under which ψ is$G _ { E ( G , X ) } ^ { c }$-equivariant, and P is a$G _ { E ( G , X ) } ^ { c }$-torsor under π.
+
+## 6.5 Automorphic vector bundles
+
+A$G ^ { c } .$-vector bundle V on$\check { X }$is a vector bundle equipped with an equivariant$G ^ { c }$action over$\check { X }$. We may pull back V to obtain a$G ^ { c } .$-equivariant vector bundle$\psi ^ { * } V$on$P .$. This may then in turn be descended to obtain a vector bundle W on$S _ { K } ( G , X )$. We call this the automorphic vector bundle. If$V$is defined over a field$F \supset E ( G , X )$then W has a canonical model over$F$as well.
+
+## 6.6 Rational representations
+
+Let$\rho$be a representation of$G ^ { c }$acting on a vector space V defined over$\mathbb { Q } .$This in turn induces a rational local system${ _ B V _ { \mathbb { Q } } }$on$S _ { K } ( G , X ) ( \mathbb { C } )$as well as étale local systems$\mathit { \Pi } _ { \mathrm { e t } } V _ { \ell }$for each finite prime$\ell .$There are canonical isomorphisms$_ { \mathrm { e t } } V _ { \ell } \to _ { B } V _ { \mathbb { Q } } \otimes \mathbb { Q } _ { \ell }$. The étale local systems$\it \Omega _ { \mathrm { e t } } V _ { \ell }$descend to the reflex field (see for example [39, III, Remark 6.1]).
+
+Fixing a K-stable lattice$\mathbb { V } \subset V$yields a Z-local system on$S _ { K } ( G , X ) ( \mathbb { C } )$, which in turn (using the canonical isomorphism$_ \mathrm { e t } V _ { \ell } \to _ { B } V _ { \mathbb { Q } } \otimes \mathbb { Q } _ { \ell } )$yields integral models$\mathrm { e t } ^ { \mathbb { V } _ { \ell } \subset } \mathrm { e t } ^ { V _ { \ell } }$The local systems$\operatorname* { e t } \mathbb { V } _ { \ell }$also canonically descend to the reflex field.
+
+Proposition 6.4. Suppose$f : ( G , X ) \to ( H , Y )$is a morphism of Shimura data, and let$f$also denote the morphism of Shimura varieties thus induced. Suppose$( \rho , V )$is a rational representation of$H ^ { c }$. Let $f ^ { * } V$denote represent$a t i o n ^ { 1 1 }$of G induced by$f : G \to H$. Then,$B  ( f ^ { * } V ) _ { \mathbb { C } }$and$\operatorname { e t } ( f ^ { * } V ) _ { \ell }$are canonically isomorphic to$f ^ { * } ( \mathbf { \Sigma } _ { B } V _ { \mathbb { Q } } )$and$f ^ { * } ( _ { \mathrm { e t } } V _ { \ell } )$respectively.
+
+Proof. The statement about Betti local systems is immediate. The statement for the étale local systems follow from the following two facts. Firstly, that the Betti-étale isomorphism is canonical, and secondly, the descent of the étale local system to the reflex field is also canonical (see [39, Remark 6.1] and the preceding discussion).□
+
+The Riemann-Hilbert correspondence yields a vector bundle with connection$_ \mathrm { d R } V$on$S _ { K } ( G , X )$, which has a filtration$\mathrm { F i l } ^ { \bullet }$- induced pointwise by the action of S - with each filtered piece being an automorphic vector bundle. Further, the data of$_ \mathrm { d R } V , \mathrm { F i l } ^ { \bullet }$descends to the reflex field. Moreover, by the work of Diao-Lan-Liu-Zhu[17, §4.1], for each finite place$v \mid p$of$E ( G , X )$we obtain algebraic vector bundles with connection $\begin{array}{c} \boldsymbol { p } - \mathrm { d } \mathrm { R } ^ { }  \end{array} V _ { E _ { \imath } }$equipped with a flat connection and filtration. By [17, Thm 5.3.1] these are naturally isomorphic in a way which is compatible with morphisms of Shimura data.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>11</sup>Which factors through G<sup>c</sup>.</span></small>
+
+## 6.7 Canonical metrics at infinity
+
+Let$S _ { K } ( G , X )$be a Shimura variety. Suppose that$\rho : G \to G L ( V )$is an irreducible rational representation of G. We pick a lattice V preserved by$K .$. It follows by [41, II,Prop 3.3]that$\rho \circ f _ { x }$is a Hodge structure$V _ { x }$on $V$for any$x \in X$. By [39, Prop 3.2] it follows that V admits a G-equivariant bilinear form$\psi : V \times V \to \mathbb { Q } _ { \psi }$ for a rational character$\psi$of$G ,$which becomes a polarization on$V _ { x }$for all$x \in X$. Corresponding to such a polarization, we obtain a canonical metric on$_ \mathrm { d R } V _ { \mathbb { C } }$on$S _ { K } ( G , X )$by taking the Hodge norm$( \mathrm { s e e ~ } [ 5 3 , 6 . 6 ^ { \prime } ] )$, and this is compatible with pullbacks under maps of Shimura varieties.
+
+Now, following [39, II.4.2] for any element$\tau \in \operatorname { G a l } ( { \overline { { \mathbb { Q } } } } / \mathbb { Q } )$one may associate to$\tau S _ { K } ( G , X )$the structure of a Shimura variety$S _ { \tau K } ( { } ^ { \tau } G , { } ^ { \tau } X )$in a manner unique up to a canonical isomorphism. Following [39, III.6.2] one obtains canonical representation$V _ { \tau }$of$\tau _ { G }$in a way compatible with the passage to the de-Rham vector bundles or the ℓ-adic local systems, such that$_ { \mathrm { d R } } V _ { \tau } \cong \tau _ { \mathrm { d R } } V$. Moreover, conjugating ψ gives us a polarization $\psi _ { \tau }$. Thus we obtain canonical Hodge metrics on$\ O _ { \mathrm { d R } } V _ { \mathbb { C } _ { \tau } }$as well.
+
+## 6.8 Automorphic line bundles on tori
+
+We shall require the following lemma, which tells us that for tori, there is essentially only one way given an automorphic line bundle to find it as a sub-bundle of the associated vector bundle corresopnding to a local system. To see the relation recall that for tori, automorphic bundles are in bijection with complex representations of the torus, whereas local systems are in bijection with rational representations.
+
+Lemma 6.5. The irreducible representations of a Torus defined over k are in bijection with$G _ { k } { - } o r b i t s$on its character lattice$X ^ { \ast } ( k ^ { s e p } )$
+
+Proof. This is [43, Theorem 14.22]
+
+## 6.9 Partial CM types
+
+Let$K / F$be a quadratic CM extension of a totally real field. We define a torus$R _ { K } : = \mathrm { R e s } _ { K / \mathbb { Q } } \mathbb { G } _ { m } / \mathrm { R e s } _ { F / \mathbb { Q } } \mathbb { G } _ { m }$ Note that the cocharacter lattice$X _ { * } ( R _ { K } )$is isomorphic to$\mathbb { Z } \langle e _ { \sigma } , \sigma : K  \mathbb { C } \rangle / ( e _ { \sigma } + e _ { \overline { { \sigma } } } )$as a Galois module. Similarly, the character lattice$X ^ { \ast } ( R _ { K } ) \subset X ^ { \ast } ( \mathrm { R e s } _ { K / \mathbb { Q } } \mathbb { G } _ { m } )$as a Galois module is isomorphic to$\mathbb { Z } \langle e _ { \sigma } ^ { \ast } - e _ { \sigma } ^ { \ast } \rangle$
+
+We define a partial CM type [26, 4.2] to be a subset Φ of Hom$( K , \mathbb { C } )$such that$\Phi \cap \overline { { \Phi } } = \emptyset$. We associate a homomorphism$r _ { \Phi } : \mathbb { S } \to R _ { K , \mathbb { R } }$as follows: We first note that
+
+$$
+R _ {K} (\mathbb {C}) \cong \prod_ {\sigma \in \operatorname{Hom} (K, \mathbb {C})} \mathbb {C} _ {\sigma} ^ {\times} / \sim
+$$
+
+where  identifies$\mathbb { C } _ { \sigma }$and$\mathbb { C } _ { \overline { { \sigma } } }$via inversion. Thus, identifying$\mathbb { S } ( \mathbb { C } ) \cong \mathbb { C } ^ { \times } \times \mathbb { C } ^ { \times }$, the map from the first factor to$\mathbb { C } _ { \sigma } ^ { \times }$is
+
+$$
+\left\{ \begin{array}{l l} z \to z & \sigma \in \Phi \\ z \to 1 & \sigma \in \overline {{\Phi}} \\ z \to 1 & \text { else } \end{array} \right..
+$$
+
+The map from the second factor is determined by the conjugation action.
+
+The data$\left( R _ { K } , r _ { \Phi } \right)$defines a Shimura datum, which we shall show to be suficient to discuss CM points in adjoint Shimura varieties. We finally define the (complex) character$\chi _ { \Phi }$of$R _ { K , \mathbb { C } }$to be
+
+$$
+\chi_ {\phi} := \sum_ {\sigma \in \Phi} e _ {\sigma} ^ {*} - e _ {\overline {{\sigma}}} ^ {*}.
+$$
+
+## 6.10 CM points in adjoint Shimura varieties
+
+The purpose of this subsection is to prove the following:
+
+Theorem 6.6. Let$( G , X )$be a Shimura datum with G an adjoint group over$\mathbb { Q } ,$, and let$( T _ { x } , h _ { x } )$denote a 0-dimensional Shimura sub-datum such that$T _ { x }$splits over a CM field K. Then there are B maps$a _ { i }$: $( T _ { x } , h _ { x } )  ( R _ { K } , r _ { \Phi _ { i } } )$to Shimura data corresponding to partial CM types, such that
+
+$$
+\left(\det F _ {x} ^ {1} \operatorname{Lie} G \mid T _ {x}\right) ^ {N} = \prod_ {i = 1} ^ {B} \left(\chi_ {\Phi_ {i}} \circ a _ {i}\right) ^ {c _ {i}}
+$$
+
+where$N , B , c _ { i }$are positive integers bounded in terms of dim$G$
+
+The rest of this section is devoted to the proof of Theorem$6 . 6$
+
+## Step 1: Constructing the maps of tori
+
+As in the beginning of the section, we may write$\begin{array} { r } { G _ { \mathbb { R } } \cong \prod _ { i \in J } G _ { j } } \end{array}$where each$G _ { i }$is absolutely simple, and the Galois action on J factors through a totally real field$F \ \mathrm { [ 4 1 }$, Thm 3.13]. There is then a corresponding splitting of hermitian symmetric domains$\begin{array} { r } { X \cong \prod _ { j \in J _ { n c } } X _ { j } } \end{array}$where$J _ { n c }$denotes the elements$j$where$G _ { j } ( \mathbb { R } )$is non-compact.
+
+Let$K$be the splitting field of$T _ { x }$. Even though$T _ { x }$needn’t be a maximal torus of$G _ { i }$, we will still use the term ‘root’ to refer to a character of$T _ { x }$that occurs in the adjoint representation of G restricted to$T _ { x }$ For each compact factor$G _ { j }$the map$\pi _ { j } \circ f _ { x }$is trivial, whereas for each noncompact factor we denote the corresponding co-root by$\mu _ { j } : = \pi _ { j } \circ f _ { x } ( z , 1 )$. Let$\mu = ( \mu _ { j } ) _ { j }$be the corresponding cocharacter of$T _ { x }$. Then$\mu$ is special, in the sense that$\left. \mu , \beta \right. \in \left\{ - 1 , 0 , 1 \right\}$for any root$\beta$of$T _ { x } [ 4 2 , \mathrm { p . 2 0 } ]$
+
+The Galois group$\mathrm { G a l } _ { \mathbb { Q } }$acts on cocharacters of$T _ { x }$and the action on factors through a Galois CM field $K _ { x }$which contains$K$, with complex conjugation acting as negation [42, 12.4.e]. Let$F _ { x }$be the totally real subfield of$K _ { x }$. Let$\tau _ { 0 }$be a complex place of$K _ { x }$
+
+Let$\beta$be a root of$T _ { x }$occurring in Lie$G .$Since$\beta$is fixed by$\operatorname { G a l } ( { \overline { { \mathbb { Q } } } } / K _ { x } )$and acted on by complex conjugation as negation, there is a Galois-equivariant map$X ^ { * } ( R _ { K _ { x } } )  X ^ { * } ( T _ { x } )$sending$e _ { \tau _ { 0 } } ^ { * } - e _ { \tau _ { 0 } } ^ { * }$to$\beta .$ Thus, there is a map$f _ { \beta } : T _ { x }  R _ { K _ { \beta } }$such that$( e _ { \tau _ { 0 } } ^ { * } - e _ { \tau _ { 0 } } ^ { * } ) \circ f _ { \beta } = \beta$. The maps$f _ { \beta }$will be our$a _ { i }$above.
+
+## Step 2: Establishing the Map of Shimura varieties
+
+We now check that the maps$f _ { \beta }$induce maps on Shimura varieties from$( T _ { x } , h _ { x } )$to$( R _ { K } , r _ { \Phi _ { \beta } } )$for an appropriately chosen partial CM type$\Phi _ { \beta }$
+
+For$g \in \operatorname { G a l } _ { \mathbb { Q } }$, we have
+
+$$
+\left(e _ {g \tau_ {0}} ^ {*} - e _ {g \overline {{\tau}} _ {0}} ^ {*}\right) \circ f _ {\beta} = g \beta .
+$$
+
+Since$\mu _ { i }$is special for each i we have that$\left. \mu , g \beta \right. \in \left\{ - 1 , 0 , 1 \right\}$. Let$\Phi _ { \beta }$denote the embeddings$g \tau _ { 0 }$of$K _ { x }$for which the inner product is 1. Then evidently$\Phi _ { \beta }$is a partial CM-type.
+
+Moreover,$r _ { \Phi _ { \beta } }$is characterized by the property that
+
+$$
+\forall \sigma \in \mathrm{Hom} (K, \mathbb {C}), (e _ {\sigma} ^ {*} - e _ {\bar {\sigma}} ^ {*}) \circ r _ {\Phi_ {\beta}} (z, 1) = \left\{ \begin{array}{l l} z & \sigma \in \Phi_ {\beta} \\ z ^ {- 1} & \sigma \in \overline {{\Phi}} _ {\beta} \\ 1 & \text {else} \end{array} \right.,
+$$
+
+and
+
+$$
+\forall g \in \operatorname{Gal} _ {\mathbb {Q}}, (e _ {g \tau_ {0}} ^ {*} - e _ {g \overline {{\tau}} _ {0}} ^ {*}) \circ f _ {\beta} \circ h _ {x} (z, 1) = ((g \beta) \circ \mu) (z) = \left\{ \begin{array}{l l} z & g \tau_ {0} \in \Phi_ {\beta} \\ z ^ {- 1} & g \tau_ {0} \in \overline {{\Phi}} _ {\beta} \\ 1 & \text {else} \end{array} \right.
+$$
+
+We thus conclude that$f _ { \beta } \circ h _ { x } = r _ { \Phi _ { \beta } }$as desired.
+
+## Step 2: Establishing the identity.
+
+We now prove the main identity. Note that by definition
+
+$$
+f _ {\beta} ^ {*} \chi_ {\Phi_ {\beta}} = \sum_ {g \in \operatorname{Gal} (K _ {x} / \mathbb {Q}) | \langle \mu , g \beta \rangle = 1} g \beta .
+$$
+
+We define$n _ { \beta }$to be the order of the stabilizer of$\beta$in$\operatorname { G a l } ( K _ { x } / \mathbb { Q } )$
+
+The filtration on Lie<sub>G</sub> at x is determine by the co-character$\mu ,$and thus$F _ { x } ^ { 1 }$Lie<sub>G</sub> consists of the span of the β-eigenspaces for all roots$\beta$satisfying$\langle \mu , \beta \rangle = 1$. Let$m _ { \beta }$be the multiplicity of that eigenspace. Then
+
+$$
+\det F _ {\mathrm{dR}} ^ {1} \operatorname{Lie} G \mid T _ {x} = \sum_ {\beta | \langle \mu , \beta \rangle = 1} m _ {\beta} \beta
+$$
+
+where$m _ { \beta }$is the multiplicity with which$\beta$occurs. Let B denote the number of${ \mathrm { G a l } } ( K _ { x } / \mathbb { Q } )$-orbits of roots occurring in Lie$G ,$counting with multiplicity and$\beta _ { 1 } , \ldots , \beta _ { B }$a representative from each.
+
+Finally, we let$\begin{array} { r } { N : = \prod _ { i = 1 } ^ { B } n _ { \beta _ { i } } , a _ { i } = f _ { \beta _ { i } } , c _ { i } = N \cdot \frac { m _ { \beta _ { i } } } { n _ { \beta _ { i } } } } \end{array}$. It is clear that all these numbers are bounded in terms of dim G.
+
+## 6.11 Motives associated to special points
+
+Definition 6.7. Following Milne[40] we define a rational Hodge structure to be be a finite dimensional Q-vector space W, together with a map$h : \mathbb { S } \to { \mathrm { G L } } ( W _ { \mathbb { R } } )$such that the corresponding weight map$h ^ { - 1 } \mid \mathbb { G } _ { m }$ is defined over$\mathbb { Q } .$
+
+Let$( T , h )$denote a Shimura datum with$T = T ^ { c }$a torus. Let$\begin{array} { r } { K \ : = \ : \prod _ { p } K _ { p } \subset T ( \mathbb { A } _ { f } ) } \end{array}$denote a neat compact open subgroup. Let$V$denote a Q-representation of$T _ { i }$, and let$\mathbb { V } \subset V ^ { \prime }$denote a lattice stabilized by $K$. Recall from the discussion in Section 6.6 the étale local systems$\operatorname { e t } \mathbb { V } _ { \ell }$on$S _ { K } ( T , h )$defined over the reflex field of$( T , h )$. Note also that the map$h : \mathbb { S }  T _ { \mathbb { R } }$makes$V$a rational hodge structure.
+
+Theorem 6.8. The rational Hodge structure associated to V is in the Tannakian category generated by the rational Hodge structures corresponding to complex CM abelian varieties.
+
+Proof. This is the content of [40, Proposition 4.6].
+
+Let$x \in S _ { K } ( T , h )$denote some point, and let E denote the field of definition of$x .$. The fiber of the local system$\operatorname* { e t } { \mathbb { V } _ { p } }$at x yields a Galois representation$\rho _ { p } : { \mathrm { G a l } } _ { E } \to { \mathrm { G L } } ( \mathbb { V } _ { p } )$. The following result asserts that the representations$\rho _ { p }$are potentially crystalline for large enough primes$p .$
+
+Proposition 6.9. Let the setup be as above, and let a be the lowest Hodge weight occurring in$V . \quad T h e n .$ there exists a finite extension$E ^ { \prime } / E$such that for$p \gg 1 , \rho _ { p } ( - a ) | _ { \mathrm { G a l } _ { E ^ { \prime } } }$is crystalline at all places of$E ^ { \prime }$dividing $p .$
+
+Note that here we use crystalline in the same sense as$\ S 2 ,$, so that the weights all lie in$[ 0 , p - 2 ]$
+
+Proof. Without loss of generality, we assume that there is no subtorus$T ^ { \prime \prime } ~ \subset ~ T$defined over$\mathbb { Q }$whose base-change to R contains the image of$h$(otherwise, we may just replace T by$T ^ { \prime \prime } )$. We already have that the rational Hodge structure associated to V is in the Tannakian category generated by some CM complex abelian variety A. Said more explicitly, V is a direct summand of some tensor power$W : =$ $H ^ { 1 } ( \ b { \mathscr { A } } ( \mathbb { C } ) , \mathbb { Q } ) ^ { \otimes m } \otimes ( H ^ { 1 } ( \ b { A } ( \mathbb { C } ) , \mathbb { Q } ) ^ { \vee } ) ^ { \otimes n }$in the category of rational Hodge structures. Let$\mathbb { W } \subset W$denote the lattice induced by$H ^ { 1 } ( A ( \mathbb { C } ) , \mathbb { Z } ) \subset H ^ { 1 } ( A ( \mathbb { C } ) , \mathbb { Q } )$
+
+Let$( T ^ { \prime } , r ^ { \prime } )$be the Shimura variety corresponding to$H ^ { 1 } ( A )$Then W is naturally a representation of $T ^ { \prime }$, and the projection map$W  V$naturally induces a map$r ^ { \prime } ( \mathbb { S } ) \to h ( \mathbb { S } )$and taking Q-zariski closures a surjection$T ^ { \prime }  T$. Thus we have a map of Shimura varieties$f : ( T ^ { \prime } , r ^ { \prime } ) \to ( T , h )$such that$f ^ { * } V$is a direct summand of W. By Proposition 6.4, the associated Galois representations don’t change, and thus we may reduce to proving the claim for$( T , h ) = ( T , r ^ { \prime } )$and$V = f ^ { \ast } V$
+
+We have that V is a direct summand of W, and hence$\mathbb { V } \otimes \mathbb { Z } _ { p }$is a direct summand of$\mathbb { W } \otimes \mathbb { Z } _ { p }$for$p$large enough. The discussion in Section 6.6 (specifically, the canonical isomorphism between the Betti and étale realizations) implies that$\operatorname* { e t } \mathbb { V } _ { p }$is a direct summand of$\begin{array} { r } { \operatorname* { e t } { \mathbb { W } _ { p } } . } \end{array}$, and therefore it sufices to prove the claim for W. By Lemma 2.3, tensor products of crystalline representations are crystalline as long as the weights stay within$[ 0 , p - 2 ]$. We are thus reduced to proving the claim for$W = H ^ { \hat { 1 } } ( A )$
+
+Let$E ^ { \prime } / E$denote a number field over which A is defined, and has CM (and therefore has good reduction everywhere). The crystallinity over$E ^ { \prime }$for large primes now follows from the fact that A has good reduction modulo primes above$p .$
+
+## 7 p-adic Local Systems on Shimura Varieties are Crystalline
+
+In this section, we use work of Esnault-Groechenig to prove results pertaining to the crystallinity of p-adic local systems on Shimura varieties. Let$( G , X )$be a Shimura datum, with reflex field$E ( G , X )$. We also fix a neat compact open subgroup$K \subset G ( \mathbb { A } _ { f } )$. For any positive integer m, it is well known that there are only finitely many rigid flat vector bundles of rank m on$S _ { K } ( G , X ) _ { \mathbb { C } }$, and these must all be defined over some number field$E ^ { \prime }$which we may assume contains$E ( G , X )$. We fix a log-smooth compactification${ \overline { { S _ { K } ( G , X ) } } }$ of$S _ { K } ( G , X )$defined over$E ( G , X )$, which spreads out to such a compactification${ \overline { { { \mathcal { S } } _ { K } ( G , X ) } } }$of$\mathcal { S } _ { K } ( G , X )$ away from finitely many places v. This allows us to discuss the notion of log-crystalline local systems on $S _ { K } ( G , X )$at almost all places. Throughout this section, the term log-crystalline will always be relative to the log smooth compactification${ \overline { { { \mathcal { S } } _ { K } ( G , X ) } } }$
+
+Theorem 7.1. Let$( \rho , V )$denote a degree n rational representation of G that factors through$G ^ { c } { } _ { ; }$, and let$\mathbb { V }$ be a lattice stable under K. Recall that$\operatorname* { e t } \mathbb { V } _ { p }$denotes the corresponding$\mathbb { Z } _ { p }$-local system on$S _ { K } ( G , X )$. There exists a positive integer N<sup>1</sup> such that the following holds: Let$p \nmid N ^ { \prime }$denote a prime, and let v be a place of $E ^ { \prime }$dividing p. Then$\mathrm { \Pi _ { e t } } \mathbb { V } _ { p } / S _ { K } ( G , X ) _ { E _ { \tau } }$is a log-crystalline local system up to cyclotomic twist.
+
+## 7.1 Rigidity and crystalline descent
+
+We remind the reader that local systems called crystalline in the appendix are called log-crystalline in this section. As a first step, we use Esnault-Groechenig’s Theorem A.22 in conjunction with Margulis superrigidity to show that a self-direct sum of$\operatorname { e t } { \mathbb { V } } _ { p } { \big | } _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$admits a log-crystalline descent to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } ) }$ where q is a power of a large prime$p .$. More precisely, let$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } } }$denote$\operatorname { e t } { \mathbb { V } } _ { p } \otimes W ( \mathbb { F } _ { p ^ { f } } )$
+
+Corollary 7.2 (Esnault-Groechenig, Margulis). Let$( \rho , V )$be as in Theorem 7.1, and$_ { \mathrm { d R } } V _ { \rho } / \mathcal { S } _ { K } ( G , X )$denote the vector bundle with connection associated to$\rho .$. There exist integers n and N such that the following holds: For every prime$p \nmid N$, and a prime v of$E ( G , X )$above$p ,$there exists a positive integer$f$such that e$\mathbb { V } _ { p ^ { f } } ^ { \oplus n } \mid _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$admits a descent to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } [ 1 / p ] ) }$that is log-crystalline. Here, q is a power of p.
+
+Proof. We can and will replace G by$G ^ { c }$. We first deduce the corollary under the assumption that$G ^ { \mathrm { d e r } }$ is a Q-simple group. By Proposition 6.3, there exists an embedding of Shimura data$( G , X ) \to ( H , Y )$ such that$H ^ { c } = H , H ^ { \mathrm { d e r } }$is Q-simple, and has real rank at least 2. Let W be a faithful representation of H. By applying Margulis super-rigidity ([38, Thm.IX.6.15.ii]), we deduce that every local system on the Shimura variety associated to$( H , Y )$is strongly cohomologically rigid, and we may therefore apply A.22 to$S _ { K } ( H , Y )$to deduce that$\operatorname { e t } W _ { S _ { K } ( H , Y ) \mathbb { C } }$admits a log-crystalline descent. We now restrict to$S _ { K } ( G , X )$to deduce that$\operatorname { e t } W | _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$admits a log-crystalline descent. By replacing W by some tensor power, we may assume that V is a sub G-representation of W. As any sub-local system of a log-crystalline local system is log-crystalline, any sub local system of$\operatorname { e t } W | _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$that descends to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } ) [ 1 / p ] }$also admits a log-crystalline descent. The isotypic component of V in W induces such a local system. This concludes the case when$G ^ { \mathrm { d e r } }$is Q-simple.
+
+We will now deduce the corollary for arbitrary Shimura varieties. Let$( G ^ { \prime } , X ^ { \prime } ) \ \to \ ( G , X )$be as in Proposition 6.2. The induced map$S _ { K ^ { \prime } } ( G ^ { \prime } , X ^ { \prime } )  S ( G , X )$is a finite étale map. Replacing N by a larger integer if necessary, we may assume that the map is finite étale at the level of integral models. By the remark immediately following [22, Theorem 2.6], it sufices to check that$\operatorname { e t } { \mathbb { V } } _ { p } ^ { \oplus n }$pulled back to$S _ { K ^ { \prime } } ( G ^ { \prime } , X ^ { \prime } )$admits a descent that is log-crystalline. This reduces the corollary to the case where$G ^ { \mathrm { d e r } }$is simply connected, and we shall henceforth assume that this is the case.
+
+We may therefore write$G ^ { \mathrm { d e r } } = G _ { 1 } \times G _ { 2 } . . . G _ { k }$, where each$G _ { i }$is Q-simple. Define$\begin{array} { r } { G ^ { ( i ) } = G / \prod _ { i \neq j } G _ { j } } \end{array}$ The Shimura datum$( G , X )$induces canonical Shimura data$\left( \boldsymbol { G } ^ { ( i ) } , \boldsymbol { X } _ { i } \right)$for$1 \leqslant i \leqslant k ,$and there is a natural inclusion of Shimura data$\begin{array} { r } { ( G , X ) \to \prod _ { i } ( G ^ { ( i ) } , X _ { i } ) } \end{array}$. Note that the induced map$\begin{array} { r } { S _ { K } ( G , X )  \prod _ { i } S _ { K _ { i } } ( G ^ { ( i ) } , X _ { i } ) } \end{array}$ is a finite étale map, as the morphism of Shimura data is an isomorphism at the level of adjoint Shimura data. We have already dealt with the case of Q-simple groups, and therefore there exist faithful representations$V _ { i }$ of$G ^ { ( i ) }$such that the associated local systems on$S _ { K _ { i } } ( G ^ { ( i ) } , X _ { i } )$admit crystalline descents. There exists an integer m such that$V$is a direct summand of$( V _ { 1 } \boxtimes \dot { V } _ { 2 } . . . \boxtimes V _ { k } ) ^ { \otimes m } | _ { G } = ( V _ { 1 } ^ { \otimes m } \boxtimes . . . \boxtimes V _ { k } ^ { \otimes m } ) | _ { G }$. By replacing $V _ { i }$by$V _ { i } ^ { \otimes m }$, we assume that$m = 1$. The representations$V _ { i }$are fixed independent of$p ,$and so by replacing N by a larger integer if necessary, we may assume that the diference between the maximum and minimum Hodge weights of$\bigcap { \big ( } V _ { 1 } \boxtimes V _ { 2 } . . . \boxtimes V _ { k } { \big ) } / S { \big ( } \prod G ^ { ( i ) } , X _ { i } { \big ) }$are smaller than$p - 1$. So,$\mathbb { S } _ { i \mathrm { e t } } \mathbb { V } _ { i , p ^ { f } } \mid _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$admits a log-crystalline descent to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } ) [ 1 / p ] }$. As any direct summand of a log-crystalline local system is log-crystalline, any sub local system of$( \breve { \boxtimes } _ { i \mathrm { e t } } \breve { \mathbb { V } } _ { i , p ^ { f } } ) \mid _ { S _ { K } ( G , X ) _ { \mathbb { C } } }$that descends to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } ) }$is also logcrystalline. The isotypic component of V in$( { \bar { V _ { 1 } } } \boxtimes V _ { 2 } . . . \boxtimes V _ { k } ) | _ { G }$induces such a local system. We note in passing that the multiplicity n of$V$in this isotypic component only depends on the initial data of$G$and$V ,$ and not on the prime$p .$The corollary now follows.
+
+## 7.2 Crystallinity of p-adic local systems
+
+Proof of Theorem 7.1. The log-crystallinity of$\operatorname { e t } { \mathbb { V } } _ { p } | _ { S _ { K } ( G , X ) }$would follow from that of$\operatorname { e t } { \mathbb { V } } _ { p } ^ { \oplus n }$as it is a sub local-system. Therefore, by letting V denote$V ^ { \oplus n }$with n as in Corollary 7.2, we may assume (by Corollary 7.2) that$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } } | _ { S _ { K } ( G , X ) _ { \mathbb { C } } } }$admits a descent to$S _ { K } ( G , X ) _ { W ( \mathbb { F } _ { q } ) [ 1 / p ] }$which is log-crystalline. We call this local system W.
+
+Consider the p-adic local system$\mathbb { L } / S _ { K } ( G , X )$given by$\pi ^ { * } \pi _ { * } \operatorname { H o m } _ { W ( \mathbb { F } _ { p } f ) } ( \mathbb { W } ^ { \vee } , \mathrm { e t } \mathbb { V } _ { p ^ { f } } ^ { \vee } )$, where$\pi : S _ { K } ( G , X ) \to$ Spec$W ( \mathbb { F } _ { q } ) [ 1 / p ]$is the structure map. By adjointness, we have a map of arithmetic local systems$\mathbb { L }$ $\mathrm { H o m } _ { W ( \mathbb { F } _ { p ^ { f } } ) } ( \mathbb { W } ^ { \vee } , \mathrm { e t } ~ \mathbb { V } _ { p ^ { f } } ^ { \vee } )$, and therefore$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } } } \to \mathbb { L } ^ { \vee } \otimes _ { W ( \mathbb { F } _ { p ^ { f } } ) } \mathbb { W }$. This map is injective, since$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } } }$and$\mathbb { W }$are isomorphic on$S _ { K } ( G , X ) _ { \mathbb { C } _ { p } }$
+
+Recall that if a local system is crystalline up to cyclotomic twist, so is its dual (by [22, Theorem$2 . 6 ^ { * } \mathrm { h } | )$ We now claim that$\mathbb { L } ,$and therefore$\mathbb { L } ^ { \vee }$, are crystalline up to cyclotomic twist. Let$x \in S _ { K } ( G , X ) ( W ( \mathbb { F } _ { q ^ { m } } ) )$ be a special point (such a point exists as we have assumed that$p$is a large prime). It sufices to check that$\mathbb { L } _ { x }$is crystalline as L is pulled back from a point. The Galois representation$\mathbb { W } _ { x }$is crystalline, and therefore$\mathbb { W } _ { x } ^ { \vee }$is crystalline up to cyclotomic twist. Moreover,$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } , x } }$is crystalline up to cyclotomic twist (by Lemma 6.9), therefore so is$\operatorname { e t } { \mathbb { V } } _ { p ^ { f } , x } ^ { \vee }$. For suficiently large$p$the Hodge weights of Hom$\left( \mathbb { W } ^ { \vee } , \mathrm { e t } ^ { \mathbb { V } _ { p ^ { f } } ^ { \vee } } \right)$are in the Fontaine-Lafaile range up to cyclotomic twist. Therefore, we have that L and$\mathbb { L } ^ { \vee }$are crystalline up to cyclotomic twist by Lemma 2.3. We may also assume that the Hodge weights of$\mathbb { L } ^ { \vee } \otimes \mathbb { W }$are in the Fontaine-Lafaile range up to twist, and therefore$\mathbb { L } ^ { \vee } \otimes \mathbb { W }$is log-crystalline up to cyclotomic twist by Lemma 2.4. Finally, as$\operatorname { e t } ^ { \mathbb { V } _ { p ^ { f } } }$is a sub-local system of a local system that is log-crystalline up to cyclotomic twist, we have that it must be log-crystalline up to cyclotomic twist. The theorem follows as$\operatorname* { e t } { \mathbb { V } _ { p } }$is a$\mathbb { Z } _ { p }$-local subsystem of$\mathbb { V } _ { p ^ { f } }$
+
+## 8 Good Reduction of CM Points
+
+The purpose of this section is to show that all CM points in a Shimura variety are integral with respect to some fixed model. Ideally, we would show this for all primes, even the finitely many ‘bad ones’. However, we have been unable to show this, settling instead for handling almost all primes
+
+Question: Given a Shimura variety, is there an integral model of it over some${ \mathcal { O } } _ { F }$with respect to which all CM points are integral?
+
+As such, our main theorem is as follows:
+
+Theorem 8.1. Let$S = S _ { K } ( G , X )$be a Shimura variety defined over a number field$F$. For some positive integer N, there exists an integral model$\boldsymbol { \mathcal { S } }$over$\mathcal { O } _ { F } [ N ^ { - 1 } ]$such that every CM point of$S ( \overline { { \mathbb { Q } } } )$extends to a point of$S ( \overline { { \mathbb { Z } } } [ N ^ { - 1 } ] )$.
+
+## 8.1 Punctured formal neighborhoods
+
+Lemma 8.2. Let R be a regular local ring of mixed characteristic$p ,$and consider
+
+$S = R [ [ x _ { 1 } , \dotsc , x _ { n } , y _ { 1 } , \dotsc , y _ { m } ] ] \left| { \frac { 1 } { y } } _ { 1 } , \dotsc { \frac { 1 } { y } } _ { n } \right|$. Let$R _ { 0 } , S _ { 0 }$denote the maximal prime-to-p Galois étale extension of$R , S$respectively. Then$S _ { 0 }$is generated by$R _ { 0 }$and the prime-to-p roots of the$y _ { i }$
+
+Proof. Without loss of generality we may assume$R \ = \ R _ { 0 }$by base-changing. Let W be a Galois étale extension of S of degree prime-to-p. Let$T$denote the normal closure of$R [ [ x _ { 1 } , \ldots , x _ { n } , y _ { 1 } , \ldots , y _ { m } ] ]$in$W$ Now for each$j \in \{ 1 , \dots , m \}$we let$R _ { j }$and$T _ { j }$denote the localization of$R [ [ x _ { 1 } , \ldots , x _ { n } , y _ { 1 } , \ldots , y _ { m } ] ]$and$T$at the prime ideals$( y _ { j } )$and$\mathfrak { h } _ { \mathcal { j } }$respectively, where${ \mathfrak { p } } _ { j }$is some prime ideal of$T _ { j }$sitting above$( y _ { j } )$. Now$T _ { j } , R _ { j }$ are discrete valuation rings. Let$e _ { j }$denote the ramification degree and let$e = \prod _ { j } e _ { j }$. Now let$W ^ { \prime }$denote the compositum of$W$and the e’th roots of all the$y _ { i } ,$and let$T ^ { \prime } , T _ { j } ^ { \prime }$be as before. Then by Abhyankar’s lemma [62, Tag 0BRM],$T _ { j } ^ { \prime }$is unramified over$R [ [ x _ { i } , \ldots , x _ { n } , y _ { 1 } ^ { \frac { 1 } { e } } , \ldots , y _ { m } ^ { \frac { 1 } { e } } ] ] ,$<sub>j</sub> for all$j .$. By the purity of the branch locus [62, Tag 0BMB] it follows that$T ^ { \prime }$is unramified over$R [ [ x _ { 1 } , \ldots , x _ { n } , y _ { 1 } ^ { \frac { 1 } { e } } , \ldots , y _ { m } ^ { \frac { 1 } { e } } ]$. Finally, étale covers of$R$ correspond bijectively to étale covers of$R [ [ x _ { 1 } , \ldots , x _ { n } , y _ { 1 } ^ { \frac { 1 } { e } } , \ldots , y _ { m } ^ { \frac { 1 } { e } } ] ]$and thus$T ^ { \prime } = R [ [ x _ { 1 } , \dots , x _ { n } , y _ { 1 } ^ { \frac { 1 } { e } } , \dots , y _ { m } ^ { \frac { 1 } { e } } ] ] .$ The claim is thus proven.□
+
+## 8.2 Specialization homomorphisms and setup
+
+Let$S = S _ { K } ( G , X )$be a Shimura variety, and let$\overline { S }$be a log-smooth compactification of$S$with$D = \overline { { S } } - S$ By blowing up further, we may and do ensure that the irreducible components of D are smooth, i.e. they have no self-intersections. By spreading out, we may form a model$( \overline { { \cal S } } , \cal { S } , \bar { \cal D } )$over$\begin{array} { r l } { \mathcal { O } _ { E } { \left[ \frac { 1 } { N } \right] } } \end{array}$for some large even integer$N$such that$\overline { { \boldsymbol { S } } }$is proper smooth and D is a normal crossings divisor of$\overline { { \boldsymbol { S } } }$over$\begin{array} { r } { \mathcal { O } _ { E } \big [ \frac { 1 } { N } \big ] } \end{array}$
+
+We fix a faithful G -representation V with a lattice$\mathbb { V }$invariant under$K$. By shrinking<sup>12</sup> K we may assume that the action of$K _ { 2 }$on$\mathbb { V } _ { 2 } = \mathbb { V } \otimes \mathbb { Z } _ { 2 }$is trivial mod 4. We fix a CM point$x \in S ( { \overline { { \mathbb { Q } } } } )$and by possibly enlarging N assume that x is induced by an integral point of$s ,$unramified outside of primes dividing$N$
+
+The following lemma is essentially [21, Prop 3.1]:
+
+Lemma 8.3. For all primes$p \nmid N$, the local system$\mathrm { _ { e t } \mathbb { V } _ { 2 } }$extends to${ \mathcal S } _ { W ( \overline { { \mathbb { F } } } _ { p } ) }$
+
+Proof. For a profinite group$H$, denote by$H ^ { \prime }$denote the prime-to-p quotient of H. By [35, Thm$\mathrm { A } . 7 ]$we have that
+
+$$
+\pi_ {1} ^ {\prime} (\mathcal {S} _ {W (\overline {{\mathbb {F}}} _ {p})}) \cong \pi_ {1} ^ {\prime} (S _ {\overline {{\mathbb {Q}}} _ {p}}).
+$$
+
+We claim we have a canonical direct product decomposition
+
+$$
+\pi_ {1} ^ {\prime} (S _ {\mathbb {Q} _ {p} ^ {\mathrm{ur}}}) \cong \pi_ {1} ^ {\prime} (S _ {\overline {{\mathbb {Q}}} _ {p}}) \times \pi_ {1} ^ {\prime} (\mathbb {Q} _ {p} ^ {\mathrm{ur}}).\tag{8.2.1}
+$$
+
+Indeed, we have the natural maps
+
+$$
+\pi_ {1} ^ {\prime} (S _ {\overline {{\mathbb {Q}}} _ {p}}) \xrightarrow {f _ {1}} \pi_ {1} ^ {\prime} (S _ {\mathbb {Q} _ {p} ^ {\mathrm{ur}}}) \xrightarrow {f _ {2}} \pi_ {1} ^ {\prime} (\mathcal {S} _ {W (\overline {{\mathbb {F}}} _ {p})}).
+$$
+
+Since the composition is an isomorphism, it follows that$f _ { 1 }$is injective and$f _ { 2 }$determines a canonical leftinverse$\eta$to$f _ { 1 }$. Thus the natural right-exact sequence
+
+$$
+\pi_ {1} ^ {\prime} (S _ {\overline {{\mathbb {Q}}} _ {p}}) \to \pi_ {1} ^ {\prime} (S _ {\mathbb {Q} _ {p} ^ {\mathrm{ur}}}) \to \pi_ {1} ^ {\prime} (\mathbb {Q} _ {p} ^ {\mathrm{ur}}) \to 1
+$$
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>12</sup>Note that Theorem 8.1 is invariant under finite covers.</span></small>
+
+is in actually exact and admits a natural splitting given by$\eta ,$proving the claim.
+
+Finally, via this decomposition, we see that a prime-to-p local system on$S _ { \mathbb { Q } _ { p } ^ { \mathrm { u r } } }$extends to${ \mathcal { S } } _ { W ( { \overline { { \mathbb { F } } } } _ { p } ) }$if and only if the induced action of$\pi _ { 1 } ^ { \prime } ( \mathbb { Q } _ { p } ^ { \mathrm { u r } } )$is trivial, which can be checked on any$\mathbb { Q } _ { p } ^ { \mathrm { u r } }$point of$S$which extends to a$\mathbb { Z } _ { p } ^ { \mathrm { u r } }$point of S. Indeed, this follows from$\mathbb { Z } _ { p } ^ { \mathrm { u r } }$having no étale extensions.
+
+Now, by assumption, x is a point of$S$which extends to$s { \mathrm { . } }$, so it is enough to check that$\operatorname { e t } { \mathbb { V } } _ { 2 , x }$is unramified at$p .$. However, since x is a CM point and$2 \neq p$we see that the image of inertia on$\operatorname { e t } { \mathbb { V } } _ { 2 , \overline { { x } } }$is finite, and therefore is trivial since the monodromy of$\mathrm { _ { e t } \mathbb { V } _ { 2 } }$is contained in$K _ { 2 }$which is torsion-free by construction. This completes the proof.
+
+The following lemma completes the proof of Theorem 8.1.
+
+Lemma 8.4. With the above notation, for every place$v \nmid N$, every CM point of$S _ { v }$extends to a point of$S _ { v }$.
+
+Proof. Let$y$be such a CM point with field of definition$E ^ { \prime } \supset E$and consider its extension$y _ { 0 }$to$\overline { { \cal S } } ( \overline { { \cal E } } _ { v } ) =$ $\overline { { \cal S } } ( \overline { { \mathcal { O } _ { E _ { v } } } } )$corresponding to some place w v of$E ^ { \prime }$. Let$M = E _ { w } ^ { \prime \mathrm { u r } }$
+
+Suppose for the sake of contradiction that$y _ { 0 , \overline { { \mathbb { F } } } _ { p } } \in D$. Then we may pick a regular system of parameters such that$\widehat { \mathcal { O } } _ { S , y _ { 0 , \overline { { \mathbb { F } } } _ { n } } } \cong \mathcal { O } _ { E , v } [ [ t _ { 1 } , \dots , t _ { n } ] ] [ [ s _ { 1 } , \dots , s _ { m } ] ]$with D cut out by the$t _ { i } .$. Since$y _ { 0 }$reduces to$D$we see that the$t _ { i }$ppull back to elements of the maximal ideal of${ \mathcal { O } } _ { M }$
+
+This induces a map
+
+$$
+f: \mathcal {O} _ {M} [ [ t _ {1}, \dots , t _ {n}, s _ {1}, \dots , s _ {m} ] ] \left[ \frac {1}{t _ {i}}, \dots \frac {1}{t _ {n}} \right] \to M.
+$$
+
+Now by lemma 8.2 f induces a map of prime-to-p Galois Groups$\begin{array} { r } { G _ { M } ^ { ( p ) } \to \prod _ { \ell \neq p } \mathbb { Z } _ { \ell } ^ { n } ( 1 ) } \end{array}$. Moreover, by the same lemma the image of this map is completely determined by the (positive) valuations of$f ( t _ { i } )$
+
+Now, by choosing an embedding$\iota : { \mathcal { O } } _ { M } \to \mathbb { C }$we obtain an induced map
+
+$$
+\mathcal {O} _ {M} [ [ t _ {1}, \ldots , t _ {n}, s _ {1}, \ldots , s _ {m} ] ] [ \frac {1}{t _ {i}}, \ldots \frac {1}{t _ {n}} ] \to \mathbb {C} [ [ t _ {1}, \ldots , t _ {n}, s _ {1}, \ldots , s _ {m} ] ] \left[ \frac {1}{t _ {i}}, \ldots \frac {1}{t _ {n}} \right]
+$$
+
+inducing an isomorphism of prime-to-p Galois groups. Moreover, we may consider a map
+
+$$
+F: \mathbb {C} [ [ t _ {1}, \ldots , t _ {n}, s _ {1}, \ldots , s _ {m} ] ] \left[ \frac {1}{t _ {i}}, \ldots \frac {1}{t _ {n}} \right] \to \mathbb {C} [ [ t ] ] \left[ \frac {1}{t} \right]
+$$
+
+defined by$F ( s _ { i } ) = 0 , F ( t _ { i } ) = t ^ { v _ { M } ( f ( t _ { i } ) ) }$which thus has the same fundamental group image as$f .$
+
+Since$\mathbf { \Pi } _ { \mathrm { e t } } \mathbb { V } _ { 2 , y _ { M } }$is trivial, it follows that$F _ { \mathrm { e t } } ^ { * } \mathbb { V } _ { 2 }$is also trivial. Now, since the$t _ { i } , s _ { j }$are regular parameters, the map$F$is the completion of an holomorphic map$F ^ { \prime } : \Delta ^ { * } \to S ( \mathbb { C } )$where t is identified with a coordinate of$\Delta$vanishing at the origin, and since the (profinite completion of the) topological fundamental group of $\Delta ^ { * }$is naturally identified with the étale fundamental group of Spec$\mathbb { C } [ [ t ] ] \left[ { \frac { 1 } { t } } \right]$, it follows that$F _ { \mathrm { e t } } ^ { \prime * } { } _ { B } L _ { \mathbb { C } }$is also trivial. However,$_ B V _ { \mathbb { C } }$underlies a variation of Hodge structures with maximal domain of definition$S _ { \mathbb { C } }$, and thus$F _ { \mathrm { e t } B } ^ { * } V _ { \mathbb { C } }$must have infinite monodromy around 0 [52]. This is our desired contradiction.
+
+## 9 Canonical Norm on Local Systems of Shimura Varieties
+
+Let$S = S _ { K } ( G , X )$be a Shimura variety, and let$\overline { S }$be a log-smooth compactification. We assume as always that$K$is neat. Let$\rho$be a rational representation of G on a polarized vector space$( V , q )$that factors through $G ^ { c }$, and let$\mathbb { V } \subset V$denote a lattice. By Theorem 4.3 for large$p$we have that$\operatorname* { e t } \mathbb { V } _ { p }$is log-crystalline up to cyclotomic twist. Let$( \cal { S } , \mathscr { V } )$be a smooth integral model of$( S , \ l _ { \mathrm { d R } } V )$over$\mathcal { O } _ { E } [ N ^ { - 1 } ]$as in Theorem 8.1. We assign an admissible norm to$( \mathrm { G r } _ { \mathrm { \scriptsize ~ d R } } V , \overline { { S } } , S )$as follows:
+
+• For each Archimedean place, we simply use the norm on the graded pieces induced by the Hodge norm as described in section 6.7.
+
+• For each non-Archimedean place v (dividing$p \in \mathbb Z )$at which$\operatorname* { e t } { \mathbb { V } _ { p } }$is crystalline and which doesn’t divide N from Theorem 8.1, and with$p > { \mathrm { r n g } _ { V } }$dim$V + 2 :$: we identify$_ { \mathrm { d R } } V _ { E _ { v } }$with$p - \mathrm { d R } ^ { }  V _ { E _ { \imath } }$via [17, Thm 5.3.1], and use the crystalline norm on the graded pieces of$_ { p - _ { \mathrm { d R } } } V _ { E _ { v } , x } \cong D _ { H T } ( _ { \mathrm { e t } } V _ { E _ { v } , x } )$
+
+• For the (finitely many) other non-Archimedean placed$v ,$we identify$\phantom { } _ { \mathrm { d R } } V _ { E _ { v } }$with$p - \mathrm { d R }  ^ { } V _ { E _ { \tau } }$via [17, Thm 5.3.1], and use the intrinsic norm on the graded pieces of$_ { p - _ { \mathrm { d R } } } V _ { E _ { v } , x } \cong D _ { H T } ( _ { \mathrm { e t } } V _ { E _ { v } , x } )$
+
+Theorem 9.1. With the notation above, the normed vector bundle$\operatorname { G r } _ { \mathrm { d R } } V$is admissible.
+
+Proof. For every finite place$v ,$the intrinsic norm on the graded pieces of$D _ { H T } ( \operatorname { e t } V _ { E _ { v } , x } )$extends to an acceptable norm on$\overline { { S } } _ { v }$
+
+The fact that the norms at infinity are continuous is immediate, and the acceptability of the norms at each finite place follows from Theorem 4.14 and Lemma 4.9.
+
+The Theorem is then reduced to the proof of the following proposition:
+
+Proposition 9.2. For almost all places$v ,$the image of the integral model$S _ { \mathrm { c r i s } } \left( \mathrm { e t } \mathbb { V } _ { E _ { v } } \right)$in$_ { \mathrm { d R } } V _ { E _ { i } }$under the canonical isomorphism agrees with$\mathcal { V } _ { v }$
+
+Proof. We first reduce to the case where$G ^ { \mathrm { d e r } }$is Q-simple and$G = G ^ { c }$. By Proposition 6.2 we may find a cover$f : ( G ^ { \prime } , X ^ { \prime } )  ( G , X )$such that$G ^ { \prime \mathrm { d e r } }$is simply-connected. Since the map on Shimura varieties is finite étale, is is enough to check the proposition on$G ^ { \prime }$after pullback. We therefore assume that$G ^ { \mathrm { d e r } }$is simply connected.
+
+We write$G ^ { \mathrm { d e r } } = G _ { 1 } \times G _ { 2 } . . . G _ { k }$, where each$G _ { i }$is Q-simple. Define$\begin{array} { r } { G ^ { ( i ) } = G / \prod _ { i \neq j } G _ { j } } \end{array}$. The Shimura datum$( G , X )$induces canonical Shimura data$\left( \boldsymbol { G } ^ { ( i ) } , \boldsymbol { X } _ { i } \right)$for$1 \leqslant i \leqslant k ,$and there is a natural inclusion of Shimura data$\begin{array} { r } { ( G , X ) \to \prod _ { i } ( G ^ { ( i ) } , X ^ { i } ) } \end{array}$. Note that the induced map$\begin{array} { r } { ( G , X ) \to \prod _ { i } ( G ^ { ( i ) } , X _ { i } ) } \end{array}$induces a finite étale map of Shimura varieties, as the morphism of Shimura data is an isomorphism at the level of adjoint Shimura data. There exist Q-representations$V _ { i }$of$G ^ { ( i ) }$such that V is a direct summand of$( V _ { 1 } \boxtimes V _ { 2 } \dotsc . . . \boxtimes V _ { k } ) | _ { G }$ Since this is true rationally, it follows for almost all places that the same is true for$\mathbb { V } _ { v }$. Thus the claim for V follows from the claim for each of the$V _ { i } .$We have therefore reduced to the case where$G ^ { \mathrm { d e r } }$is$\mathbb { Q } \mathrm { . }$-simple.
+
+Finally, we easily reduce to the case where$G = G ^ { c }$, noting that our local systems by definition comes form a rational representation that factors through$G ^ { c }$, therefore all our associated data is canonically pulled back along the map$( G , X ) \to ( G ^ { c } , X ^ { c } )$.
+
+Next, we will now reduce to the case where$G ^ { \mathrm { d e r } }$has real rank at least 2, so that we may apply the results of the appendix. First, we note that the Tannakian argument above reduces to proving the result for some faithful representation of$G .$. By Proposition 6.3, there exists an embedding of Shimura data$( G , X ) \to ( H , Y )$ where$H ^ { \mathrm { d e r } }$is Q-simple and has real rank at least 2, and$H = H ^ { c }$. Any faithful representation of H induces a faithful representation of$G ,$and so we have reduced to the case when the real rank of the derived group is at least 2.
+
+Henceforth we assume that$G ^ { \mathrm { d e r } }$is Q-simple, has real rank at least$^ { 2 , }$and that$G = G ^ { c }$in what follows. We first note that both$S _ { \mathrm { c r i s } } \left( \mathrm { e t } \mathbb { V } _ { E _ { v } } \right)$and$\mathcal { V } _ { v }$are equipped with flat log-connections. We claim that they are abstractly isomorphic after an unramified based change base. Indeed, V splits as a direct sum of representations after some finite extension of$\mathbb { Q } ,$and hence$\mathbb { V } _ { v }$does as well for almost all v. For v suficiently large this field extension is unramified at$v .$. Hence, after such a base change, both$S _ { \mathrm { c r i s } } \left( \mathrm { e t } \mathbb { V } _ { E _ { v } } \right)$and$\nu _ { v }$are direct sums of integral models of irreducible flat log-bundles on the generic fiber. The claim now follows by Proposition A.10, which applies because every local system on$S _ { K } ( G , X )$is strongly cohomologically rigid.
+
+It follows that the image of two models in$\operatorname { d e r } V$are the same up to a global automorphism of the generic fiber$_ { \mathrm { d R } } V _ { E _ { v } } \otimes \mathbb { Q } _ { p } .$, which corresponds to a global automorphism of the associated$\mathbb { Q } _ { p }$-local system. We may thus check that these two structures agree at a single point. By the crystalline compatibility on passage to fibers in Theorem 2.6 we are thus reduced to checking the agreement for a 0-dimensional Shimura datum $( T , r )$that is a sub of$( G , X )$. We pick$T$as the smallest Q-subtorus containing the image of r.
+
+Since the R-split center of$G = G ^ { c }$is Q-split, it follows that the weight character of$( G , X )$is rational, and hence the same is true for$( T , r )$. Thus, by [40, Prop 4.1] it follows that$( T , r )$arises from a rational Hodge structure V of CM type. Moreover, by [40, Prop 4.7] there is a CM abelian variety A such that V is in the Tannakian category generated by the rational Hodge structure$H ^ { 1 } ( A )$. It follows that$( T , r )$is a quotient of the Shimura variety$( T ^ { \prime } , r ^ { \prime } )$corresponding to$H ^ { 1 } ( A )$. By Proposition 6.4, it is suficient to prove the proposition for the Shimura variety$( T ^ { \prime } , r ^ { \prime } )$
+
+Now$( T ^ { \prime } , r ^ { \prime } )$admits a faithful representation on$\mathbb { V } _ { 0 } : = H ^ { 1 } ( A )$The canonical isomorphism between $\boldsymbol { p } - \mathrm { { \mathrm { { d R } } } }  \nabla _ { 0 }$and$\mathbf { \Omega } _ { \mathrm { d R } } \mathbb { V } _ { 0 }$constructed in [17] is just the usual p-adic comparison isomorphism constructed by Faltings (note that the former object is$D _ { \mathrm { d R } } ^ { ^ { \mathrm { ~ ~ } } } ( \mathrm { e t } ^ { \mathbb { V } _ { 0 , p } [ 1 / p ] ) } = D _ { \mathrm { d R } } ( H _ { \mathrm { e t } } ^ { 1 } ( A , \mathbb { Q } _ { p } ) )$and the latter object is canonically $H _ { \mathrm { d R } } ^ { 1 } ( A ) )$. Further, for this particular representation, our statement follows from the integral version of this theorem [22, Thm 5.3]. By [17, Theorem 5.3.1], the canonical isomorphisms between the p-adic and usual Rieman Hilbert correspondences are compatible under Tannakian operations.$\operatorname { A s } \mathbb { V } \otimes \mathbb { Q }$is in the Tannakian category generated by$\mathbb { V } _ { 0 } \otimes \mathbb { Q }$, it is a direct summand of some tensor power of$\mathbb { V } _ { 0 } \otimes \mathbb { Q }$. This remains true integrally for almost all places. Furthermore, The functor$S _ { \mathrm { c r i s } }$is also compatible under tannakian operations as long as$p$is large enough relative to the Hodge-Tate weights of$\mathbb { V }$(Lemma 2.3), and therefore the claim follows.
+
+Corollary 9.3. For any integer a, let L det$\mathrm { G r } _ { F ^ { \cdot } \ \mathrm { d R } } ^ { a } V$. Let h denote the height corresponding to$\mathcal { L }$with its normed vector bundle structure as above. Let$h _ { \mathcal { L } }$denote a Weil height corresponding to L considered as a line bundle on$\overline { S }$via the Deligne extension. The height h difers from$h _ { \mathcal { L } }$by at most$O ( \operatorname* { m a x } ( 1 , \log h _ { A } ) )$ where A is an ample line bundle on${ \overline { { S } } } .$In particular, if L is ample then h is comparable to$h _ { \mathcal { L } }$
+
+Proof. The key is that the Hodge metric has logarithmic singularities by [52, Thm$6 . 6 7$
+
+By Theorem 9.1 and corollary 3.7 the diference$h - h _ { \mathscr { L } }$is$O ( 1 )$plus the diference at the Archimedean places coming from the fact that our normed line bundle is not strongly admissible.$\mathrm { B y }$Schmid’s work[52, Thm 6.6’] this is bounded by the logarithm of a power of the absolute value of logarithm of the distance to the boundary$D = \overline { { S } } - S$. Since the absolute value of the logarithm of the distance to the boundary is bounded above by$h _ { A }$, the result follows.
+
+Definition 9.4. We keep the setup of this section, and suppose that the weights of$_ \mathrm { d R } V$are in$[ a , b ]$, such that$\mathrm { G r } _ { \mathrm { d R } } ^ { b } V$is 1-dimensional. Call the height constructed using the above norms on$\mathrm { G r } _ { \mathrm { d R } } ^ { b } V$the canonical height.
+
+## 10 Solid Height Functions
+
+## 10.1 Notation
+
+Given two functions$f , g$we write$f \prec _ { \vec { x } } g \ ( g \succ _ { \vec { x } } f )$if there exist functions$A , B > 0$depending only on \~x such that$f \leqslant A g ^ { B }$. Given a torus$T$, we define$E _ { T }$to be the splitting field of$T$, and we define$K _ { T } \subset T ( \mathbf { A } _ { f } )$ to be the maximal compact subgroup.
+
+## 10.2 Height function requirements
+
+Following previous notation, we make the following definition:
+
+Definition 10.1. Let V denote a representation of$\mathbb { G } _ { m }$. Define${ \mathrm { r n g } } _ { V }$to be the diference between the highest and lowest weight of$\mathbb { G } _ { m }$on$V$
+
+Definition 10.2. Let$( T , r )$be a Shimura datum with$T$a torus, and let$\chi$be a character of$T ^ { c }$. We say that$\chi$is solid if there exists an irreducible$\mathbb { Q } \mathrm { - }$representation$V _ { \chi }$of$T ^ { c }$, such that under the filtration Fil$V _ { x , \mathbb { C } }$ induced by$r ,$we have that the highest weight piece$\mathrm { F i l } ^ { a } V _ { \chi , \mathbb { C } }$is 1-dimensional and is isomorphic to$\chi .$. By Lemma 6.5 the representation$V _ { \chi }$is unique and we define$\mathrm { r n g } _ { \chi }$to be${ \mathrm { r n g } } _ { V _ { \chi } }$
+
+Observe that if$\chi _ { 1 } , \chi _ { 2 }$are both solid characters then so is$\chi _ { 1 } \chi _ { 2 }$and$\mathrm { r n g } _ { \chi _ { 1 } \chi _ { 2 } } \leqslant \mathrm { r n g } _ { \chi _ { 1 } } + \mathrm { r n g } _ { \chi _ { 2 } }$
+
+Lemma 10.3. Let$f : ( T _ { 1 } , r _ { 1 } )  ( T _ { 2 } , r _ { 2 } )$be a map of Shimura vaieties with$T _ { 1 } , T _ { 2 }$Tori, and let$\chi$be a solid character of$T _ { 2 }$. Then$\chi \circ f$is a solid character of$T _ { 1 }$of the same weight.
+
+Proof. Let$V _ { \chi }$be the corresponding representation of$T _ { 2 } .$, and consider$V _ { \chi }$as a representation of$T _ { 1 }$via$f .$ The filtration induced by$r _ { 1 }$is the same as that induced by$r _ { 2 }$since$r _ { 2 } \circ f = r _ { 1 }$and thus the highest weight piece${ \mathrm { F i l } } ^ { a } V _ { \chi , \mathbb { C } }$is also the heighest weight piece for$T _ { 1 }$. The claim follows.□
+
+Definition 10.4. We consider Toric Triple to be a triple$( T , r , \chi )$where
+
+1. T is a Torus
+
+2.$( T , r )$is a Shimura variety
+
+3.$\chi$is a solid character of$T ^ { c }$
+
+The example that we will be most concerned with is the setting of CM fields and partial CM types. We have the following lemma:
+
+Lemma 10.5. Let E be a CM field with totally real subfield$F \subset E$. Let Φ be a partial CM type on$E$with $| \Phi | = g _ { 1 }$. Then$\left( R _ { E } , r _ { \Phi } , \chi _ { \Phi } \right)$is a toric triple.
+
+Proof. We need to produce a representation of$R _ { E }$whose highest weight (with respect to the cocharacter $\rho _ { \Phi } )$is one-dimensional and the highest weight is$\chi _ { \Phi }$. We have the map$h : \mathrm { R e s } _ { E / \mathbb { Q } } \mathbb { G } _ { m }  \mathrm { R e s } _ { E / \mathbb { Q } } \mathbb { G } _ { m }$given by$\textstyle \alpha \mapsto { \frac { \alpha } { \bar { \alpha } } }$. This map factors through$R _ { K }$, and therefore we obtain a homomorphism$f : R _ { K } \to \operatorname { \mathrm { R e s } } _ { E / \mathbb { Q } } \mathbb { G } _ { m }$ We have that$V ^ { \prime } = \mathrm { R e s } _ { E / \mathbb { Q } } \mathbb { G } _ { a }$is a representation of$R _ { K }$via$f .$Base-changing to$\mathbb { C }$, we see that the weight spaces of$r _ { \Phi }$are$\begin{array} { r } { V _ { 1 } ^ { \prime } = \bigoplus _ { \sigma \in \Phi } \mathbb { C } _ { \sigma } , V _ { - 1 } ^ { \prime } = \bigoplus _ { \sigma \in \bar { \Phi } } \quad } \end{array}$, and$V _ { 0 } ^ { \prime } = \bigoplus _ { \sigma \notin \Phi \cup \bar { \Phi } }$. The characters of$R _ { E }$on$V _ { 1 } ^ { \prime }$are precisely $e _ { \sigma } ^ { * } - e _ { \bar { \sigma } } ^ { * }$, for each$\sigma \in \Phi$. Further, each such$e _ { \sigma } ^ { * } - e _ { \bar { \sigma } } ^ { * }$appears with multiplicity one. We may thus define$V _ { \chi _ { \Phi } }$ to be the irreducible subspace of$\textstyle { \bigwedge } ^ { g _ { 1 } } V$containing the line$\wedge ^ { g _ { 1 } } V _ { 1 } ^ { \prime }$
+
+Definition 10.6. A solid height is a real-valued h function on the set of solid triples, such that:
+
+1. If$\chi _ { 1 } , \chi _ { 2 }$are both solid characters then
+
+$$
+h (T, r, \chi_ {1} \chi_ {2}) = h (T, r, \chi_ {1}) + h (T, r, \chi_ {2}) + O _ {\mathrm{rng} _ {\chi_ {1}} + \mathrm{rng} _ {\chi_ {2}} + \dim T} (\log \operatorname{Disc} E _ {T})
+$$
+
+2. Gi$\mathrm { { v e n } ^ { 1 3 } }$a solid triple$( T , r , \chi )$and a positive integer m we have
+
+$$
+h (T, r ^ {m}, \chi) = m h (T, r, \chi) + O _ {m + \operatorname{rng} _ {\chi} + \dim T} (\log \operatorname{Disc} E _ {T})
+$$
+
+3. If$( T _ { 2 } , r _ { 2 } , \chi )$is solid, and$f : ( T _ { 1 } , r _ { 1 } )  ( T _ { 2 } , r _ { 2 } )$is a morphisms of Shimura data with$T _ { 1 } , T _ { 2 }$Tori, then
+
+$$
+h \left(T _ {1}, r _ {1}, \chi \circ f\right) = h \left(T _ {2}, r _ {2}, \chi\right) + O _ {\operatorname{rng} _ {\chi} + \dim T _ {1} + \dim T _ {2}} \left(\log \operatorname{Disc} E _ {T _ {1}} + \log \operatorname{Disc} E _ {T _ {2}}\right).
+$$
+
+4. Let$S = S _ { K } ( G , X )$be a Shimura variety, and V an irreducible representation of G with a sublattice V fixed by K. Assume that the highest weight piece$L : = \mathrm { F i l } _ { \mathrm { d R } } ^ { a } V _ { \mathbb { C } }$is 1-dimensional, and let$h _ { L }$be a Weil height on a Toroidal compactification$\bar { S }$of S corresponding to the Deligne extension of$L .$. Let $h _ { A }$be a Weil height corresponding to any ample bundle on a Toroidal compactification of S. Finally, let$( T , r ) \subset ( G , X )$be a 0-dimensional Shimura subdatum, and$\chi : = { \mathrm { F i l } } _ { r } ^ { a } V _ { \mathbb { C } }$the corresponding Solid character of T. Then for all points$x \in S _ { K } ( G , X )$in the image of$S _ { K \cap T ( \mathbf { A } _ { f } ) } ( T , r )$, we have
+
+$$
+\left. \left| h (T, r, \chi) - h _ {L} (x) \right| = O _ {S} \left(\log \operatorname{Disc} E _ {T} + \log \left(\left[ K _ {T}: K \cap T (\mathbf {A} _ {f}) \right]\right) + \log^ {+} h _ {A} (x)\right) \right.
+$$
+
+We shall prove the following theorem:
+
+Theorem 10.7. Suppose a solid height function exists. Then the André-oort conjecture holds.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>13</sup>As we explain in the next section, property (2) follows from (1) and (3) formally, but we still decided to include it for clarity as it is used in the proofs.</span></small>
+
+## 10.3 Properties of heights of total CM types
+
+In this section, we will prove the following proposition.
+
+Proposition 10.8. Let E be a CM field of degree 2g with totally real field$F ,$and let$\Phi$be a complete CM type on E. Then,$h ( R _ { E } , r _ { \Phi } , \chi _ { \Phi } ) = O _ { g } ( \mathrm { D i s c } E ^ { o _ { g } ( 1 ) } )$
+
+Proof. By properties (1) and (3) we may assume$\Phi$is a primitive CM type.
+
+Consider the norm map
+
+$$
+\mathrm{Nm} _ {E / F} \colon \operatorname{Res} _ {E / \mathbb {Q}} \mathbb {G} _ {m} \to \operatorname{Res} _ {F / \mathbb {Q}} \mathbb {G} _ {m},
+$$
+
+and define$S _ { E } : = \mathrm { N m } _ { E / \mathbb { Q } } ^ { - 1 } ( \mathbb { G } _ { m } )$. Now Res$\begin{array} { r } { { \cal E } / Q ^ { \mathrm { ~ \tiny ~  ~ } } \mathcal { \mathbb { G } } _ { m } ( \mathbb { R } ) ~ \cong ~ \bigoplus _ { \sigma \in \mathrm { H o m } ( F , \mathbb { C } ) } \mathbb { C } _ { \sigma } } \end{array}$. There is a natural morphism $\mathbb { S } \to ( \mathrm { R e s } _ { E / Q } \mathbb { G } _ { m } ) _ { \mathbb { R } }$which on the σ co-ordinate induces the isomorphism corresponding to the element of Φ above σ, and this morphism factors through$S _ { E }$. We denote by$s _ { \phi }$the corresponding map$\mathbb { S } \longrightarrow S _ { E , \mathbb { R } }$
+
+There is a natural quotient map$i : ( S _ { E } , s _ { \Phi } )  ( R _ { E } , r _ { \Phi } )$, so by property (3), it sufices to prove that $h ( S _ { E } , s _ { \Phi } , i ^ { * } ( \chi _ { \Phi } ) ) = O _ { q } ( \mathrm { D i s c } E ^ { o _ { g } ( 1 ) } )$
+
+Let$V ^ { \prime } : = \mathrm { R e s } _ { E / \mathbb { Q } } \mathbb { G } _ { a }$denote the standard representation of$S _ { E }$, and let$\mathrm { N m } _ { E / \mathbb { Q } }$denote the Norm character, which is solid as its a rational character. The highest weight space (with respect to$s _ { \Phi } )$$\textstyle { \bigwedge } ^ { g } V ^ { \prime }$is onedimensional. Let$\chi _ { \mathrm { S t d } }$denote the the character of this weight space. A direct computation shows that $\chi _ { \mathrm { S t d } } ^ { 2 } = i ^ { * } \chi _ { \Phi } \cdot \mathrm { N } _ { \mathrm { l } }$m. By property (1), it sufices to prove that
+
+$$
+\max \left(h (S _ {E}, s _ {\Phi}, \mathrm{Nm} _ {E / \mathbb {Q}}), h (S _ {E}, s _ {\Phi}, \chi_ {\mathrm{Std}})\right) = O _ {g} ((\operatorname{Disc} E) ^ {o _ {g} (1)}).
+$$
+
+Now Nm$\mathbf { \Sigma } _ { E / \mathbb { Q } } : ( S _ { E } , s _ { \Phi } )  ( \mathbb { G } _ { m } , \mathrm { N m } _ { E / \mathbb { Q } } )$is a Shimura morphism, and if we let 1 denote the identity ccharacter of$\mathbb { G } _ { m }$then${ \bf 1 } \circ \mathrm { N m } _ { E / \mathbb { Q } } = \mathrm { N m } _ { E / \mathbb { Q } } .$, and so by property (3) we have that$h ( S _ { E } , s _ { \Phi } , \mathrm { N m } _ { E / \mathbb { Q } } ) \ =$ $O _ { g } ( \log \operatorname { D i s c } E )$
+
+The representation$V ^ { \prime }$of$S _ { E }$is equipped with a canonical (isomorphism class of) symplectic form, and $S _ { E }$acts on Std by symplectic similitudes.By$\mathrm { B y }$Zarhin’s trick, the representation$\mathrm { S t d } ^ { \mathrm { \tiny { \textregistered 8 } } }$contains a full rank lattice L such that:
+
+$L$is self-dual for the symplectic form on$\mathrm { S t d } ^ { \oplus 8 }$
+
+$L \otimes { \hat { \mathbb { Z } } }$is stable by the maximal compact subgroup of$S _ { E } ( \mathbb { A } ^ { f } )$(indeed, by the maximal compact subgroup of$\mathrm { R e s } _ { E / \mathbb { Q } } \mathbb { G } _ { m } )$
+
+This induces an embedding of the Shimura variety$S _ { K _ { S _ { E } } } ( S _ { E } , s _ { \Phi } )$into$\mathcal { A } _ { 8 g }$. By construction, the highest weight on$\Lambda ^ { 8 g } ( V ^ { \prime } ) ^ { \oplus 8 }$respect to$s _ { \Phi }$is$\chi _ { \mathrm { S t d } } ^ { 8 }$. By Properties (1) and (4) it sufices to prove that for any fixed Weil height$h _ { A }$on$\mathcal { A } _ { 8 g }$and any$x \in A _ { 8 g }$in the image of$\left( S _ { E } , s _ { \Phi } \right)$that$h _ { A } ( x ) = O _ { g } ( \mathbf { \bar { \Sigma } }$Disc$E ^ { o _ { g } ( 1 ) } |$.
+
+Any Weil height$h _ { A }$induced by the highest weight piece of$\wedge ^ { 8 g } { \mathrm { S t d } } ^ { \oplus 8 }$on all of$\mathcal { A } _ { 8 g }$satisfies$h _ { A } \ =$ $h _ { \mathrm { F a l } } + O _ { g } ( \log h _ { A } )$by [11, Prop 4.4-4.5]. Therefore, it sufices to prove that$h _ { \mathrm { F a l } } ( x ) = O _ { g } ( \mathrm { D i s c } E ^ { o _ { g } ( 1 ) } )$ By construction of the self-dual lattice in$\mathrm { S t d } ^ { \textregistered 8 }$, the abelian variety underlying x has the form$B =$ $A ^ { 4 } \times ( A ^ { \vee } ) ^ { 4 }$, where A is a g-dimensional abelian variety with CM by$\mathcal { O } _ { E }$and having CM type Φ.
+
+We have that$h _ { \mathrm { F a l } } ( B ) = 8 h _ { \mathrm { F a l } } ( A )$. The claim is now exactly [58, Cor 3.3], which uses the average form of Colmez’s conjecture (proved in [2] and [61]) to bound the heights of such CM abelian varieties.
+
+The completes the proof of this proposition.
+
+## 10.4 Main height bound
+
+Theorem 10.9. Assume a solid height function exists. Fix a Shimura variety$S = S _ { K } ( G , X )$with G of adjoint type, and K neat of split-adjoint type. Let$( T , r ) \subset ( G , X )$be a 0-dimensional Shimura sub-datum, and let L be an ample bundle on$S ,$with a corresponding Weil height function$h _ { L }$. Then$f o r$any point x$\equiv S _ { K } ( G , X ) ( { \overline { { \mathbb { Q } } } } )$in the image of$S _ { K \cap T ( \mathbf { A } _ { f } ) } ( T , r )$, we have
+
+$$
+h _ {L} (x) = O _ {S} \left(\left(\operatorname{Disc} E _ {T} \cdot \left[ K _ {T}: K \cap T (\mathbf {A} _ {f}) \right]\right) ^ {o _ {S} (1)}\right).
+$$
+
+Proof. Since all Weil heights associated to ample bundles are comparable, it is suficient to prove the theorem for any choice of Weil height.
+
+Let V denote the adjoint representation of G so that$\mathrm { F i l } _ { \mathrm { d R } } ^ { - 1 } V = _ { \mathrm { d R } } V$and$\mathrm { F i l } _ { \mathrm { d R } } ^ { 2 } V = 0 ;$, and fix a lattice V stabilized by K. Then$_ \mathrm { d R } V$is naturally equipped with an admissible collection of norms via the canonical norm. Then$L : = \operatorname * { d e t } \mathrm { F i l } _ { \mathrm { d R } } ^ { \mathrm { \tilde { 1 } } } V$is an ample bundle on S. By property (4) of Definition 10.4, it is suficient to show that
+
+$$
+h (T, r, \chi) = O _ {S} \left(\left(\operatorname{Disc} E _ {T} \cdot \left[ K _ {T}: K \cap T (\mathbf {A} _ {f}) \right]\right) ^ {o _ {S} (1)}\right)
+$$
+
+where$\chi$is the character det$\mathrm { F i l } _ { r } ^ { 1 } V _ { \mathbb { C } } \mid T$
+
+By Theorem 6.6 there there are$B$maps$a _ { i } : ( T _ { x } , h _ { x } )  ( R _ { E _ { T } } , r _ { \Phi _ { i } } )$to Shimura data corresponding to partial CM types, such that
+
+$$
+\chi^ {N} = \prod_ {i} (\chi_ {\Phi_ {i}} \circ a _ {i}) ^ {c _ {i}}
+$$
+
+where$N , B , c _ { i }$are positive integers bounded in terms of dim G.
+
+By properties (2) and (3) of Definition 10.4 we see that
+
+$$
+h (T, r, \chi) ^ {N} = \sum_ {i = 1} ^ {N} c _ {i} h (R _ {K}, r _ {\Phi_ {i}}, \chi_ {\Phi_ {i}}) + O _ {S} (\log \operatorname{Disc} E _ {T}).
+$$
+
+The result therefore follows from the Theorem below.
+
+Theorem 10.10. Let$E / F$be a CM field of degree 2d, Ψ a partial CM type of E. Then$h ( R _ { E } , r _ { \Psi } , \chi _ { \Psi } ) =$ $O _ { d } ( \mathrm { D i s c } E ^ { o _ { d } ( 1 ) } )$.
+
+The proof of this will heavily use an idea of Deligne[15, Prop. 2.3.10] for combining partial CM types to get a complete CM type for a larger CM fields, which he used to classify Shimura varieties of abelian type.
+
+Proof.
+
+Step 1: The full CM type
+
+This is Proposition 10.8.
+
+Step 2: Reduction to$E / \mathbb { Q }$a Galois extension
+
+We may reduce to the case where$E$is Galois as follows: Let$E ^ { \prime }$denotes the Galois closure of$E ,$, set $m = \left[ E ^ { \prime } : E \right]$, and define$\Psi ^ { \prime }$to be the pullback of Ψ to a partial CM type of$E ^ { \prime }$. Then the Norm map $\mathrm { N m } _ { E ^ { \prime } / E } : R _ { E ^ { \prime } }  R _ { E }$gives a map of Shimura Data$( R _ { E ^ { \prime } } , r _ { \Psi ^ { \prime } } )  ( R _ { E } , r _ { \Psi } ^ { m } )$, and satisfies$\mathrm { N m } _ { E ^ { \prime } / E } \circ \chi _ { \Psi } = \chi _ { \Psi ^ { \prime } }$ The reduction now follows from properties (2) and (3) of Definition 10.4.
+
+Step$\mathcal { B } : | \Phi | = 1$
+
+We next handle the case where$\Phi$consists of a single place. In that case, note that the isomorphism class of the toric triple$\left( R _ { E } , r _ { \Phi } , \chi _ { \Phi } \right)$is independent of Φ, as$\operatorname { G a l } ( E / \mathbb { Q } )$acts transitively on Hom$( E , \mathbb { C } )$. Therefore we refer to$h ( R _ { E } , r _ { \Phi } , \chi _ { \Phi } )$simply by$h _ { 1 } ( E )$
+
+For$i = 1 , \ldots , d$let$E _ { i } = F ( { \sqrt { p _ { i } } } )$for distinct primes$p _ { 1 } , \ldots , p _ { d }$. One may pick these primes of size$O _ { d } ( 1 )$ such that$E , E _ { 1 } , \ldots , E _ { d }$are disjoint extensions of$F$. We set$E = E _ { 0 }$
+
+Next, fix$0 \leqslant j \leqslant d .$. We choose$\Phi _ { 1 } , \ldots , \Phi _ { d }$to be partial CM types of$E _ { 0 } , \ldots , \hat { E _ { j } } , \ldots , E _ { d }$consisting of a single place, such that all of these places lie above a distinct place of$F .$. Let$E ^ { ( j ) }$denote the compositum
+
+$E ^ { ( j ) } = E _ { 0 } \ldots \hat { E _ { j } } \ldots E _ { d }$, and define$\Phi _ { i } ^ { ( j ) }$to be the pullback of$\Phi _ { i }$to$E ^ { ( j ) }$. Then$\Phi ^ { ( j ) } : = \bigcup _ { i = 0 \atop i \neq j } ^ { d } \Phi _ { i } ^ { \prime }$is a full CM
+
+type on$E ^ { \prime } .$
+
+For$i \neq j .$, the norm map$\mathrm { N m } _ { E ^ { \prime } / E _ { i } }$induces a map of Shimura data$( R _ { E ^ { ( j ) } } , \rho _ { \Phi ^ { ( j ) } } )  ( R _ { E _ { i } } , \rho _ { \Phi _ { i } } ^ { 2 ^ { d - 1 } } )$. Moreover, $\chi _ { \Phi ^ { ( j ) } } = \prod _ { i = 0 } ^ { d } \chi _ { \Phi _ { i } } \circ \mathrm { N m } _ { E ^ { ( j ) } / E _ { i } }$. It follows from properties (1) and (3) of definition 10.4 that
+
+$$
+h\big(R_{E^{(j)}},r_{\Phi^{(j)}},\chi_{\Phi^{(j)}}\big) = 2^{d - 1}\sum_{\substack{i = 0\\ i\neq j}}^{d}h_{1}(E_{i}) + O_{\dim E}(\log \operatorname{Disc}E).
+$$
+
+and therefore that
+
+$$
+h _ {1} (E _ {0}) = \frac {1}{d 2 ^ {d - 1}} \cdot \left(\sum_ {j = 1} ^ {d} h \left(R _ {E ^ {(j)}}, r _ {\Phi^ {(j)}}, \chi_ {\Phi^ {(j)}}\right) - (d - 1) h \left(R _ {E ^ {(0)}}, r _ {\Phi^ {(0)}}, \chi_ {\Phi^ {(0)}}\right)\right) + O _ {\dim E} (\log \operatorname{Disc} E).
+$$
+
+The bound now follows Step 1.
+
+## Step 4: The general case
+
+Finally, we handle the general case. Let$E , F ,$Φ be arbitrary and we set$\begin{array} { r } { e = d - | \Phi | } \end{array}$. For$i = 1 , \ldots , e$ we pick$E _ { i } = F ( { \sqrt { p _ { i } } } )$for primes numbers$p _ { i } = O _ { [ E : \mathbb { Q } ] } ( 1 )$so that$E , E _ { 1 } , \dots , E _ { d }$are disjoint over$F .$We set $E = E _ { 0 }$
+
+For$i = 1 , \dots , e$we pick singleton sets$\Phi _ { i }$consisting of one place of$E _ { i }$such that each place of$F$is either below an element of$\Phi .$, or below the element of$\Phi _ { i }$for$1 \leqslant i \leqslant e$. Now we set$E _ { t o t }$to be the compositum $E _ { t o t } : = E _ { 0 } \ldots E _ { e }$and$\Phi _ { t o t }$the union of the pullbacks of the$\Phi _ { i }$and Φ to$E _ { t o t }$under$\mathrm { N m } _ { E _ { t o t } / E _ { i } }$, which is a complete CM type. Then as above, we obtain:
+
+$$
+h (E _ {t o t}, r _ {\Phi_ {t o t}}, \chi_ {\Phi_ {t o t}}) = 2 ^ {e} h (R _ {E}, r _ {\Phi}, \chi_ {\Phi}) + 2 ^ {e} \sum_ {i = 1} ^ {e} h _ {1} (E _ {i}) + O _ {\dim E} (\log \operatorname{Disc} E).\tag{10.4.1}
+$$
+
+The result now follows from steps 1 and 3.
+
+## 10.5 Using the height bound to prove André-Oort
+
+We finally obtain André-Oort conjecture for Shimura varieties:
+
+Theorem 10.11. Let$S ~ = ~ { \cal S } _ { K } ( G , X )$be a Shimura variety. Then the André-Oort conjecture holds$f o r$ $S _ { K } ( G , x )$
+
+Proof. First, by [19, Prop 2.1-2.2] we may reduce to the case where G is of adjoint type and K is neat and split-adjoint. Let L be an ample bundle on S and let h be a corresponding Weil height.
+
+Next, using [6, Theorem 2] it is suficient to prove that for any Shimura subdatum$( T , r ) \subset ( G , X )$and any points in$S _ { K } ( G , X )$in the image of$S _ { K \cap T ( \mathbb { A } _ { f } ) } ( T , r )$, that
+
+$$
+h (w) = (\mathrm{Disc} (E _ {T}) \cdot [ K _ {T}: K \cap T (\mathbb {A} _ {f}) ]) ^ {o _ {S} (1)}\tag{10.5.1}
+$$
+
+But this is precisely Theorem 10.9
+
+## 11 Construction of a Solid Height Function
+
+## 11.1 Norms on 0-dimensional Shimura varieties
+
+Definition 11.1. Let$S _ { K } ( T , r )$be a Shimura variety such that K is split,$V \textrm { a } T ^ { c }$representation of weights $[ a , b ]$. We let$q : V \times V \to \mathbb { Q } _ { \psi }$be a polarization of$V ,$, for a Q-character ψ of T, and$\mathbb { V } \subset V$be a lattice. We define an admissible collection of norms$\textstyle | K , \mathbb { V } , q | \cdot |$on$( S _ { K } ( T , r ) , S _ { K } ( T , r ) , \mathrm { G r } _ { \mathrm { d R } } ^ { b } V )$as follows:
+
+• For each Archimedean place, we simply use the norm induced by the Hodge norm as described in section 6.7 using the polarization q above.
+
+• For each non-Archimedean place$v \mid p$such that
+
+T is unramified at$p ,$
+
+$K _ { p }$is maximal, and
+
+$p \geqslant \mathrm { r n g } _ { V }$dim$V + 2 { \ : } ^ { 1 4 }$
+
+we identify$\ O _ { \mathrm { d R } } V _ { E _ { \imath } }$with$p - \mathrm { d R } ^ { } { \cal V } _ { E _ { \imath } } ^ { }$via$[ 1 7 ,$Thm 5.3.1], and use the crystalline norm associated to V.
+
+• For the (finitely many) other non-Archimedean places v, we identify$_ \mathrm { d R }  V _ { E _ { v } }$with$\boldsymbol { p } - \mathrm { d } \mathrm { R } ^ { \aa } V _ { E _ { v } }$via$[ 1 7 ,$, Thm 5.3.1], and use the intrinsic norm corresponding to$\phantom { } _ { p - \mathrm { d R } } \mathbb { V } _ { E _ { v } }$
+
+This collection is admissible by Theorem 9.1. We write$h _ { K , \mathbb { V } , q }$for the corresponding height function on $S _ { K } ( T , X )$. If the level$K = K _ { T }$is maximal, we suppress it from the notation and simply write$\mathbb { V } , q | \cdot |$or$h _ { \mathbb { V } , q } .$
+
+Lemma 11.2. Assume the setup above. Then$h _ { K , \mathbb { V } , q }$is constant on$S _ { K } ( T , X ) ( { \overline { { \mathbb { Q } } } } )$
+
+Proof. This proof is morally similar to the proof that principally polarized, CM abelian varieties with the same CM type and the same maximal endomorphism ring have the same height<sup>15</sup>.
+
+Recall that the complex points of$S _ { K } ( T , r )$can be described as${ \cal T } ( \mathbb { Q } ) \backslash { \cal T } ( { \bf A } _ { f } ) / { K }$. Let$x _ { 1 } , x _ { 2 }$be two distinct points. Then there are many elements t in$T ( \mathbf { A } _ { f } )$such that tx$_ 1 = x _ { 2 }$. We define S t to be the set of primes p such that$t _ { p } \notin K _ { p } .$Each such element defines a map$f _ { t } : S _ { K } ( T , r ) \to S _ { K } ( T , r )$. Moreover, the pullback of the automorphic local system$\operatorname* { e t } \mathbb { V } _ { p }$is naturally isomorphic to the local system$\operatorname { e t } ( t ^ { - 1 } \mathbb { V } ) _ { p }$where
+
+$$
+t ^ {- 1} \mathbb {V} := t ^ {- 1} (\mathbb {V} \otimes \hat {\mathbb {Z}}) \cap \mathbb {V} _ {\mathbb {Q}}.
+$$
+
+The intrinsic and crystalline norms are functorial by Theorem 2.6 and Proposition 4.10. Therefore$h _ { K , \mathbb { V } , q } ( x _ { 2 } ) =$ $h _ { K , t ^ { - 1 } \mathbb { V } , t ^ { - 1 } q } ( x _ { 1 } )$
+
+Recall the polarization q is a T -equivariant map$V \times V \to \mathbb { Q } _ { \psi }$for a Q-character ψ of T , giving the induced map
+
+$$
+T (\mathbb {Q}) \backslash (V \times V) \times T (\mathbf {A} _ {f}) / K \to T (\mathbb {Q}) \backslash \mathbb {Q} _ {\psi} \times T (\mathbf {A} _ {f}) / K \to \mathbb {Z},
+$$
+
+wherethe second map sends$( a , t ^ { \prime } ) \to a | \psi ( t ^ { \prime } ) |$where we use the adelic norm on$\mathbb { Q } ^ { \times } \backslash \mathbf { A } _ { f } ^ { \times } / \widehat { \mathbb { Z } } ^ { \times }$. It therefore follows that$t ^ { - 1 } q = | \psi ( t ^ { - 1 } ) | \cdot q$
+
+Moreover, the lattices corresponding to$t ^ { - 1 } \mathbb { V } , \mathbb { V }$agree at places v above primes$p \notin S ( t )$, and so at for such places$\begin{array} { r } { K , \mathbb { V } , q | \cdot | _ { v } = _ { K , t ^ { - 1 } \mathbb { V } , t ^ { - 1 } q } \mid \cdot | _ { v } . } \end{array}$
+
+Thus the diference$h _ { K , \mathbb { V } , q } ( x _ { 2 } ) - h _ { K , t ^ { - 1 } \mathbb { V } , t ^ { - 1 } q } ( x _ { 1 } )$is a sum of rational multiples of log$p , p \in S ( t )$. By weak approximation we may pick t so as to make$S ( t )$exclude any given prime. Since the logarithms of primes are Q-linearly independent, we see that$h _ { K , \mathbb { V } , q } ( x _ { 2 } ) = h _ { K , t ^ { - 1 \mathbb { V } } , t ^ { - 1 } q } ( x _ { 1 } )$and the claim follows.□
+
+By the above lemma, we write$h _ { K , \mathbb { V } , q }$for the constant value taken by the height function.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>14</sup>This condition allows us to compare this norm with the intrinsic norm, by Theorem 4.14.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>p</sub></span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>15</sup>Note that Abelian varieties arising in the same 0-dimensional Shimura variety have locally isomorphic endomorphism rings: i.e, isomorphic over for each prime p. In particular, maximal and non-maximal endomorphism rings do not occur in the same 0-dimensional Shimura variety. On the level of groups, these correspond to distinct embeddings of the torus in GSp<sub>2g</sub>GSp2g</span></small>
+
+## 11.2 Definition of the function
+
+Let$( T , r , \chi )$be a Toric triple, and let$V _ { \chi }$be the corresponding irreducible Q-representation. We set$[ a , b ]$to be the smallest interval containing the weights ofV$V _ { \chi }$
+
+We define$\mathbb { Q } _ { \chi }$to be the the commutative algebra$\mathsf { E n d } _ { T } ( V )$, and$R _ { \chi } \subset \mathbb { Q } _ { \chi }$to be the maximal order. Note that$\mathbb { Q } _ { \chi }$is a subfield of$E _ { T }$and$R _ { \chi }$is the ring of integers. We set$\mathbb { V } _ { \chi } \subset V _ { \chi }$to be a free$R _ { \chi }$sub-module, which we may therefore trivialize.
+
+All Q-polarizations of$V _ { \chi }$are of the form$q ( a , b ) : = \mathrm { t r } _ { \mathbb { Q } _ { x } / \mathbb { Q } } ( \alpha a \bar { b } )$where$\alpha \in \mathbb { Q } _ { \chi }$is an element which is either totally imaginary or totally real (depending on whether the weight is odd of even), and of a pre-specified sign in each complex embedding. The discriminant of this polarization is Disc$\mathbb { Q } _ { \chi } \cdot \mathrm { N m } _ { \mathbb { Q } _ { \chi } / \mathbb { Q } } ( \alpha )$, so we pick an $\alpha \in R _ { \chi }$with as small a norm as possible. This can be accomplished with the following elementary lemma:
+
+Lemma 11.3. Let$E / F$be a CM field, with$d = \left[ F : \mathbb { Q } \right]$, and let Φ be a CM type. For each real embedding σ of$F , \ f u x \ a$sign$s _ { \sigma } \in \{ \pm 1 \}$. There exists an element$\alpha \in { \mathcal { O } } _ { F }$with$s _ { \sigma } \sigma ( \alpha ) > 0$for all σ with$\mathrm { N m } _ { E / \mathbb { Q } } ( \alpha ) =$ $O _ { d } ( ( \mathrm { D i s c } E ) ^ { d } )$
+
+Likewise, there exists a totally imaginary$\alpha ~ \in ~ { \mathcal { O } } _ { E }$with$i s _ { \sigma } \sigma ( \alpha ) ~ > ~ 0$for all σ with$\mathrm { N m } _ { E / \mathbb { Q } } ( \alpha ) \ =$ $O _ { d } ( ( \mathrm { D i s c } E ) ^ { d } )$
+
+Proof. Consider the lattice$\mathcal { O } _ { E } \subset \mathbb { C } ^ { d }$. By [57, Lecture X], there exists a Minkowski reduced basis of$\mathcal { O } _ { E }$with elements all of size at most$O _ { d } ( ( \operatorname { D i s c } E ) ^ { \frac { 1 } { 2 } } )$. Thus we may pick$\beta \in { \mathcal { O } } _ { E }$within at most$O _ { d } ( ( \operatorname { D i s c } E ) ^ { \frac { 1 } { 2 } } )$of any element in$\mathbb { C } ^ { d }$, and so in particular within any hyper-quadrant. The first claim follows by taking$\alpha = \beta + \bar { \beta } .$ and the second by taking$\alpha = \beta - \bar { \beta }$
+
+We now define$h ( T , r , \chi )$to be the constant value taken by the function$h _ { \mathbb { V } , q }$where q corresponds to a polarization of Discriminant$O _ { d } ( ( \mathrm { D i s c } E ) ^ { d } )$.
+
+## 11.3 Establishing Properties (1)-(3)
+
+Property (1): Let$\chi _ { 1 } , \chi _ { 2 }$be solid characters of$( T , r )$, and set$\chi _ { 3 } = \chi _ { 1 } \chi _ { 2 }$. Define$\mathbb { V } _ { \chi _ { i } , i } = 1 , 2 , 3$as above, together with the polarizations$q _ { 1 } , q _ { 2 } , q _ { 3 }$
+
+Consider$W = V _ { \chi _ { 1 } } \otimes V _ { \chi _ { 2 } }$and$\mathbb { W } = \mathbb { V } _ { \chi _ { 1 } } \otimes \mathbb { V } _ { \chi _ { 2 } }$. There is a projection map$f : W \to V _ { \chi _ { 3 } }$and$f ( \mathbb { W } )$is stable under the image of$R _ { \chi _ { 1 } } \otimes R _ { \chi _ { 2 } }  R _ { \chi _ { 3 } }$. We may therefore take$\mathbb { V } _ { \chi _ { 3 } } : = R _ { \chi _ { 3 } } f ( \mathbb { W } )$, and note that
+
+$$
+\left[ \mathbb {V} _ {\chi_ {3}}: f (\mathbb {W}) \right] \prec_ {\dim T} \operatorname{Disc} E _ {T}.
+$$
+
+It follows that we may write$\mathbb { W }$as a superlattice containing$\mathbb { V } _ { \chi _ { 3 } } \oplus \mathbb { V } ^ { \prime }$with index${ \prec } _ { \dim T }$Disc$E _ { T }$ Let$q _ { W } : = q _ { 1 } \otimes q _ { 2 }$be the induced polarization on W. Now the Crystalline norm is used for all of $\mathbb { W } , q _ { W } | \cdot | , \mathbb { V } _ { 1 } , q _ { 1 } | \cdot | , \mathbb { V } _ { 2 } , q _ { 2 } | \cdot | ,$for all places above primes$p \gg \mathrm { d i m } T + \mathrm { r n g } _ { \chi _ { 1 } } + \mathrm { r n g } _ { \chi _ { 2 } }$1 which don’t divide Disc$E _ { T }$, so that by the comparison Theorem 4.14,
+
+$$
+h (T, r, \chi_ {1}) + h (T, r, \chi_ {2}) = h _ {\mathbb {W}, q _ {W}} + O _ {\dim T + \operatorname{rng} _ {\chi_ {1}} + \operatorname{rng} _ {\chi_ {2}}} (\log \operatorname{Disc} E _ {T}).
+$$
+
+Passing to a sublattice of index M changes all the intrinsic and crystalline norms at a place v by at most $| M | _ { v }$, and so restricting the collection of admissible norms$\mathbb { w } , _ { q _ { W } } | \cdot | \mathrm { ~ t o ~ } \mathbb { V } _ { \chi _ { 3 } } \oplus \mathbb { V } ^ { \prime }$we see that
+
+$$
+h (T, r, \chi_ {1}) + h (T, r, \chi_ {2}) = h _ {\mathbb {V} _ {\chi_ {3}} \oplus \mathbb {V} ^ {\prime}, q _ {W}} + O _ {\dim T + \operatorname{rng} _ {\chi_ {1}} + \operatorname{rng} _ {\chi_ {2}})} (\log \operatorname{Disc} E _ {T}).
+$$
+
+Since the highest filtered piece of$\mathbb { V } _ { \chi _ { 3 } } \oplus \mathbb { V } ^ { \prime }$lies within$\mathbb { V } _ { \chi _ { 3 } } ,$we have
+
+$$
+h _ {\mathbb {V} _ {\chi_ {3}} \oplus \mathbb {V} ^ {\prime}, q _ {W}} = h _ {\mathbb {V} _ {\chi_ {3}}, q _ {W}} + O _ {\dim T + \mathrm{rng} _ {\chi_ {1}} + \mathrm{rng} _ {\chi_ {2}}} (1).
+$$
+
+It remains to compare the polarizations$q _ { W } \ | \ \mathbb { V } _ { \chi 3 }$and$q _ { 3 }$. They are both of discriminant$\prec _ { d }$Disc$E _ { T }$ and so trivializing$\mathbb { V } _ { \chi _ { 3 } }$we may write them as$( x , y )  \mathrm { t r } _ { \mathbb { Q } _ { x _ { 3 } } / \mathbb { Q } } ( x \alpha \bar { y } )$for elements$\alpha _ { W } , \alpha _ { 3 } \in R _ { \mathbb { Q } _ { x _ { 3 } } }$of norms $\prec _ { d }$Disc$E _ { T }$. It follows that at an archimedean places w the induced norms difer by a multiplicative factor of w$\circ \chi ( \alpha _ { W } \alpha _ { 3 } ^ { - 1 } )$on$\mathrm { G r } ^ { b } V _ { \chi _ { 3 } , \mathbb { C } }$, and hence the diference$h _ { \mathbb { V } _ { x _ { 3 } } , q _ { W } } - h _ { \mathbb { V } _ { x _ { 3 } } , q _ { 3 } }$is equal to log$| \mathrm { N m } _ { \mathbb { Q } _ { x 3 } / \mathbb { Q } } ( \alpha _ { W } \alpha _ { 3 } ^ { - 1 } ) |$ which is$O _ { \mathrm { d i m } T + \mathrm { r n g } _ { \chi _ { 1 } } + \mathrm { r n g } _ { \chi _ { 2 } } } ( \log$Disc$E _ { T } )$as desired.
+
+Property (3):
+
+Let$\left( T _ { 2 } , r _ { 2 } , \chi _ { 2 } \right)$is solid, and$f : ( T _ { 1 } , r _ { 1 } )  ( T _ { 2 } , r _ { 2 } )$is a morphisms of Shimura data with$T _ { 1 } , T _ { 2 }$Tori. Let $\chi _ { 1 } : = \chi _ { 2 } \circ f ;$, and we identify$V _ { \chi _ { 1 } }$with$V _ { \chi _ { 2 } }$. We claim that$\mathbb { Q } _ { \chi _ { 1 } } = \mathbb { Q } _ { \chi _ { 2 } }$. Indeed, both may be described as the elements of$\mathsf { E n d } _ { \mathbb { Q } } ( V _ { \chi _ { 1 } } )$which preserve the Hodge decomposition. Thus we may take$\mathbb { V } = \mathbb { V } _ { \chi _ { 2 } }$
+
+Now as in the proof of property (1), the archimedean contributions to the solid heights of the two polarizations$q _ { 1 } , q _ { 2 }$difer by$O _ { \mathrm { d i m } T _ { 1 } }$<sub>\`dim T2\`rngχ</sub> log Disc$\begin{array} { r } { E _ { T _ { 1 } } + \log \operatorname { D i s c } E _ { T _ { 2 } } \quad } \end{array}$, and the intrinsic and crystalline norms agree whenever they are both defined. Now the crystalline norm is used for$\mathbb { V } _ { \chi } , q _ { i } \vert \cdot \vert _ { v }$for$i = 1 , 2$for all places v lying above primes$p$with$p \gg _ { \mathrm { r n g } _ { \chi } }$\`dim T<sub>1</sub>\`dim$T _ { 2 }$1 which don’t divide log Disc$E _ { T }$, so by another application of Theorem 4.14 the result follows.
+
+Property (2):
+
+We claim that property (2) follows formally from (1) and (3). Indeed, the m’th power map gives a morphism$f : ( T , r ) \to ( T , r ^ { m } )$such that$\chi \circ f = \chi ^ { m }$. Therefore (3) says that
+
+$$
+h (T, r ^ {m}, \chi) - h (T, r, \chi^ {m}) = O _ {\dim T + \operatorname{rng} _ {\chi} + m} (\log \operatorname{Disc} E _ {T}).
+$$
+
+Finally, by applying property (1) we have that
+
+$$
+h (T, r, \chi^ {m}) - m h (T, r, \chi) = O _ {\dim T + \operatorname{rng} _ {\chi} + m} (\log \operatorname{Disc} E _ {T})
+$$
+
+and the result follows.
+
+## 11.4 Establishing Property (4)
+
+Let$S = S _ { K } ( G , X )$be a Shimura variety, and V an irreducible representation of G with a sublattice$\mathbb { V }$fixed by$K$, and a polarization$q .$Assume that the highest weight piece$L : = \mathrm { F i l } _ { \mathrm { d R } } ^ { a } V _ { \mathbb { C } }$is 1-dimensional, and let$h _ { L }$ be a Weil height on a Toroidal compactification$\bar { S }$of S corresponding to the Deligne extension of$L$. The result of (4) is evidently invariant under changing$K$, so we assume that K is split. We let$h _ { 0 }$denote the canonical norm. By Corollary 9.3 the diferent$| h _ { L } - h _ { 0 } |$is bounded by$O _ { S } ( \log ^ { + } h _ { A } ( x ) )$so it is suficient for us to prove (4) with$h _ { 0 }$replacing$h _ { L }$
+
+Now for a Shimura subdatum$i : ( T , r ) \hookrightarrow ( G , X )$, let$K ^ { \prime } : = i ^ { * } K$, and let$\chi$denote the character ${ \mathrm { F i l } } _ { r } ^ { a } V _ { \mathbb { C } } \mid T$. Let$_ 0 | \cdot |$denote the collection of norms on the line bundle${ \mathrm { G r } } _ { \mathrm { d R } } ^ { a } ( V \mid T )$on$S _ { K ^ { \prime } } ( T , r )$pulled back from those on$S _ { K } ( G , X )$. Then for any$x \in S _ { K } ( T , r ) ( \overline { { \mathbb { Q } } } )$the value$h _ { 0 } ( i ( x ) )$can be computed on$S _ { K } ( T , r )$ using the bundle$\operatorname { G r } _ { \mathrm { d R } } ^ { a } ( V \mid T )$with the collection$_ 0 | \cdot |$. Now these norms agree with the norms$K ^ { \prime } , \mathbb { V } , q \vert \cdot \vert$at the archimedean places, and at all finite places v lying above primes$p \gg _ { G } 1$not dividing$[ K _ { T } : K ^ { \prime } ]$disc$E _ { T }$ Thus, by the comparison Theorem 4.14 it is suficient to prove (4) replacing$h _ { 0 } ( i ( x ) )$by$h _ { K ^ { \prime } , \mathbb { V } , q } ( x )$
+
+Let E denote the center of the endomorphism algebra$\mathsf { E n d } _ { T } ( V )$, and$\mathcal { O } _ { E }$denote the maximal order. By [14, Theorem 4.1], there is a subring$R \subset { \mathcal { O } } _ { E }$preserving V with$[ { \mathcal { O } } _ { E } : R ] \prec _ { G } [ K _ { T } : K ^ { \prime } ]$disc$E _ { T }$. There is therefore a sublattice$\mathbb { V } ^ { \prime } \subset \mathbb { V }$of index$\prec _ { G } \left[ K _ { T } : K ^ { \prime } \right]$disc$E _ { T }$which is stable under$\mathcal { O } _ { E }$
+
+Since V admits$V _ { \chi }$as a summand of multiplicity 1,$\mathcal { O } _ { E }$admits$R _ { \chi }$as a direct summand, and therefore $\mathbb { V } ^ { \prime }$admits an$R _ { \chi }$sublattice$U$as a direct summand. U may not be free, but it is isomorphic to an ideal class, and so has a free submodule of index bounded by$O ( \operatorname { D i s c } ( E _ { T } ) ^ { \frac { 1 } { 2 } } )$. Thus, we may pick$\mathbb { V } ^ { \prime }$to admit$\mathbb { V } _ { \chi }$ as a direct summand. Again using Theorem 4.14 and arguing as above, we have that
+
+$$
+\max \left(\left| h _ {K ^ {\prime}, \mathbb {V}, q} - h _ {K ^ {\prime}, \mathbb {V} ^ {\prime}, q} \right|, \left| h _ {K ^ {\prime}, \mathbb {V} ^ {\prime}, q} - h _ {K ^ {\prime}, \mathbb {V} _ {\chi}, q} \right|\right) = O _ {G} \left(\log \operatorname{disc} E _ {T} + \log \left[ K _ {T}: K ^ {\prime} \right]\right),
+$$
+
+so it suficient to prove (4) replacing$h _ { K ^ { \prime } , \mathbb { V } , q }$by$h _ { K ^ { \prime } , \mathbb { V } _ { x } , q }$
+
+Now the only diference between$h _ { K , \mathbb { V } _ { \mathcal { X } } , q } ( x )$and$h _ { K _ { T } , \mathbb { V } _ { \mathcal { X } } , q _ { \mathcal { X } } } ( x )$occur at the archimedean places corresponding to the distinct polarizations, and at the finite places at which we use the intrinsic norms vs. crystalline norms. The polarizations are both of discriminant$\prec _ { G } \left[ K _ { T } : K ^ { \prime } \right]$disc$E _ { T }$and so are handled as in the proof of property (3), and the norms agree for primes not dividing$[ K _ { T } : K ^ { \prime } ]$and so are handled by Theorem 4.14. This completes the proof.
+
+## References
+
+[1] Y. André, Finitude des couples d’invariants modulaires singuliers sur une courbe algébrique plane non modulaire. J. Reine Angew. Math. 505 1998,p. 203–208
+
+[2] F. Andreatta, E. Goren, B. Howard, and K. Madapusi, Faltings heights of abelian varieties with complex multiplication Ann. of Math. (2) 187 2018, no. 2, 391–531
+
+[3] P. Autissier, Hauteur moyenne de variétés abéliennes isogènes, Manuscripta Math. 117 (2005), no. 1.
+
+[4] B. Bakker and J. Tsimerman, The Ax-Schanuel conjecture for variations of Hodge structures, Invent. Math. 217 2019, no. 1, p. 77–94
+
+[5] G. Binyamini, Point counting for foliations over number fields, https://arxiv.org/abs/2009.00892
+
+[6] G. Binyamini, H. Schmidt, and A. Yafaev, Lower bounds for Galois orbits of special points on Shimura varieties: a point-counting approach Math. Ann. 385 2023 no. 1-2, p. 961–973.
+
+[7] E. Bombieri and W. Gubler, Heights in Diophantine Geometry Cambridge University Press 2009
+
+[8] O. Brinon, Representations p-adiques cristallines et de de Rham dans le cas relatif, Mem. Soc. Math. Fr. (N.S.), no. 112 (2008).
+
+[9] O. Brinon and B. Conrad, CMI summer school notes on p-adic Hodge theory https://math.stanford.edu/ conrad/papers/notes.pdf
+
+[10] P.Colmez, Périodes des variétés abéliennes à multiplication complexe, Ann. of Math. (2), no.138, (1993)
+
+[11] C.Chai, G.Faltings, Degeneration of Abelian Varieties, Springer Science and Business Media, Vol.22.
+
+[12] K. Chiu, Ax-Schanuel for variations of mixed Hodge structures, https://arxiv.org/abs/2101.10968
+
+[13] B. Conrad, Lifting global representations with local properties http://virtualmath1.stanford.edu/„conrad/papers/locchar.pdf
+
+[14] C. Daw and M. Orr, Heights of pre-special points of Shimura varieties Math. Ann. 365 2016, no. 3-4, p. 1305–1357
+
+[15] P. Deligne, Variétés de Shimura: interprétation modulaire, et techniques de construction de modéles canoniques Automorphic forms, representations and L-functions (Proc. Sympos. Pure Math., Oregon State Univ., Corvallis, Ore., 1977) Part 2, Proc. Sympos. Pure Math., XXXIII. Amer. Math. Soc., Providence, R.I 1979 p. 247–289
+
+[16] P.Deligne, Travaux de Shimura,info Sém. Bourbaki Fév 1971, Exposé 389, Lect. Notes Math. vol. 244, Springer, Heidelberg
+
+[17] H. Diao, K.-W. Lan, R. Liu, and X. Zhu, Logarithmic Riemann-Hilbert correspondences for rigid varieties https://arxiv.org/abs/1803.05786
+
+[18] B. Edixhoven, Special points on products of modular curves Duke Math. J. 126 2005, no. 2, p. 325–348
+
+[19] B. Edixhoven, A, Yafaev, Subvarieties of Shimura varieties. Annals of Mathematics Volume 157 (2003).
+
+[20] H. Esnault, M. Groechenig, Rigid connections and F-isocrystals, Acta Mathematica 225, no. 1 2020 p. 103–158.
+
+[21] H. Esnault, M. Groechenig, Cohomologically rigid local systems and integrality, Selecta Mathematica, Volume 24, No 5, 2018 p.4279–4292
+
+[22] G. Faltings, Crystalline Cohomology and p-Adic Galois Representations Algebraic analysis, geometry, and number theory , Johns Hopkins Univ. Press 1989 p.25-80
+
+[23] Z. Gao, About the mixed Andrè-Oort conjecture: reduction to a lower bound for the pure case Comptes rendus Mathématiques vol. 354, 2016 p. 659-663
+
+[24] Z. Gao and B. Klingler, Ax-Schanuel for variations of mixed Hodge structures, https://arxiv.org/abs/2101.10938
+
+[25] R.M. Guralnick Small representations are completely reducible J. Algebra 220 1999, no. 2, 531-541.
+
+[26] M. Harris, Period Invariants of Hilbert Modular Forms, II, Compositio Mathematica, tome 94, no 2,1994, p. 201-226
+
+[27] D. Hansen, Period morphisms and variations of p-adic Hodge structure (preliminary draft), http://www.davidrenshawhansen.com/periodmapmod.pdf
+
+[28] J.C. Jantzen, Representations of algebraic groups Pure and applied mathematics, 131 Academic Press, Inc., Boston, MA.1987
+
+[29] K. Kato, Heights of motives Proc. Japac Acad. Ser. A Math. Sci. 90 (2014), no.3, 49–53.
+
+[30] T. Koshikawa, On heights of motives with semistable reduction, https://arxiv.org/abs/1505.01873v3[31] B. Klingler, E. Ullmo, A. Yafaev, The hyperbolic Ax-Lindemann-Weierstrass conjecture Publ. Math. Inst. Hautes Études Sci. 123 2016, p. 333–360
+
+[32] R.Kiehl, Die de Rham Kohomologie algebraischer Mannigfaltigkeiten über einem bewerteten Körper Inst. Hautes Etudes Sci. Publ. Math. 33, 1967, p.5-20
+
+[33] B. Klingler and A. Yafaev, The André-Oort conjecture Ann. of Math. (2) 180 2014, no. 3, p. 867–925
+
+[34] K. Lan, An example-based introduction to Shimura varieties https://www-users.cse.umn.edu/ kwlan/articles/intro sh-ex.pdf, preprint
+
+[35] M. Lieblich, M. Olsson, Martin Generators and relations for the étale fundamental group Pure Appl. Math. Q. 6 2010, no. 1, Special Issue: In honor of John Tate. Part 2, p. 209–243
+
+[36] R. Liu and X. Zhu, Rigidity and a Riemann-Hilbert correspondence for p-adic local systems. Invent. Math. 207 2017, no. 1, p.291–343
+
+[37] T. Lovering, Integral canonical models for automorphic vector bundles of abelian type. Algebra Number Theory 11 2017, no. 8, p. 1837–1890.
+
+[38] G. Margulis, Discrete subgroups of semisimple lie groups, vol. 17, Springer Science & Business Media, 1991
+
+[39] J. Milne, Canonical Models of (Mixed) Shimura Varieties and Automorphic Vector Bundles Automorphic forms, Shimura varieties, and L-functions, Vol. I (Ann Arbor, MI, 1988), 283-414, Perspect. Math., 10, Academic Press, Boston, MA, 1990.
+
+[40] J.Milne, Motives over finite fields. Motives (Seattle, WA, 1991), 401–459, Proc. Sympos. Pure Math., 55, Part 1, Amer. Math. Soc., Providence, RI, 1994
+
+[41] J. Milne, Shimura Varieties and Moduli https://www.jmilne.org/math/xnotes/svh.pdf
+
+[42] J. Milne, Introduction to Shimura Varieties https://www.jmilne.org/math/xnotes/svi.pdf
+
+[43] J. Milne, Algebraic Groups https://www.jmilne.org/math/CourseNotes/iAG200.pdf
+
+[44] J.Milne, Automorphic vector bundles on connected Shimura varieties, Invent.math. 92, 1988, pp. 91–128.
+
+[45] L. Mocz, A new Northcott property for Faltings height, Ph.D. dissertation, Princeton University, Princeton, 2017.
+
+[46] N. Mok, J. Pila, and J. Tsimerman, Ax-Schanuel for Shimura varieties Ann. of Math. (2) 189 2019, no. 3, p.945–978
+
+[47] J. Pila and J. Tsimerman, Ax-Lindemann for$A _ { g } ,$Ann. of Math. (2) 179 2014, no. 2, p. 659–681
+
+[48] J. Pila and J. Tsimerman, The André-Oort conjecture for the moduli space of abelian surfaces Compos. Math. 149 2013, no. 2, p.204–216
+
+[49] J. Pila, O-minimality and the André-Oort conjecture for$\mathbb { C } ^ { n }$Ann. of Math. (2) 173 2011, no. 3,p. 1779–1840
+
+[50] J. Pila and A. Wilkie, The rational points of a definable set. Duke Math. J. 133 2006, no. 3,p. 591–616
+
+[51] J. Pila and U. Zannier, Rational points in periodic analytic sets and the Manin-Mumford conjecture. Atti Accad. Naz. Lincei Rend. Lincei Mat. Appl. 19 2008, no. 2, p.149–162
+
+[52] W. Schmid, Variation of Hodge structure: the singularities of the period mapping Invent. Math. 22 1973, p.211–319
+
+[53] H. Schmidt, Counting rational points and lower bounds for Galois orbits, Rend. Acad. Lincei 30 2019, p. 497–509
+
+[54] P. Scholze, p-adic Hodge theory for rigid-analytic varieties Forum Math. Pi 1 2013 p.1-77
+
+[55] P. Scholze, p-adic Hodge theory for rigid-analytic varieties-corrigendum Forum Math. Pi 1 2016
+
+[56] A.N. Shankar and Y. Tang, Exceptional splitting of reductions of abelian surfaces, Duke Math. J. 169 (2020), no. 3.
+
+[57] C. L. Siegel, Lectures on the Geometry of Numbers, Springer-Verlag, Berlin, 1989.
+
+[58] J. Tsimerman, The André-Oort conjecture for${ \mathcal { A } } _ { g } ,$Ann. of Math. (2) 187 2018, no. 2, 379–390
+
+[59] T. Tsuji, Crystalline$\mathbb { Z } _ { p } .$-Representations and A -Representations with Frobenius P-adic Hodge Theory, Simons Symposia, Springer, 2020, p.161-319
+
+[60] E. Ullmo and A. Yafaev, Galois orbits and equidistribution of special subvarieties: towards the André-Oort conjecture, Ann. of Math. (2) 180 2014, no. 3, 823-865
+
+[61] X. Yuan, S.-W. Zhang, On the averaged Colmez conjecture Ann. of Math. (2) 187 2018, no. 2, p. 533–638
+
+[62] The Stacks project authors, The Stacks project, https://stacks.math.columbia.edu, 2021.
+
+# A Frobenius structures and unipotent monodromy at infinity by Hélène Esnault and Michael Groechenig
+
+We fix an irreducible afine base scheme S which is of finite type over a universally Japanese ring. For the purpose of this appendix, S will either be Spec C, Spec$\mathbb { F } _ { q }$or Spec R, where R is a finite type algebra. Let us denote by$\bar { X } _ { S }$a smooth and projective S-scheme with a relatively very ample line bundle${ \mathcal O } _ { \bar { X } _ { S } } ( 1 )$. Let $X _ { S } \subset \bar { X } _ { S }$be an open subscheme such that$\bar { X } _ { S } \backslash X _ { S }$is a strict normal crossings divisor (snc)$\begin{array} { r } { D _ { S } = \breve { \bigcup } _ { \mu = 1 } ^ { c } D _ { S } ^ { \mu } } \end{array}$ The sheaf of degree n Kähler diferentials with log-poles along D will be denoted by$\Omega _ { \bar { X } _ { S } / S } ^ { n } \langle D \rangle$. For$\mu =$ $1 , \ldots , c$we write$\mathrm { r e s } _ { \mu } \colon \Omega _ { \bar { X } _ { S } / S } ^ { 1 } \zeta D \rangle  \mathcal { O } _ { D _ { S } ^ { \mu } / S }$for the residue map.
+
+Definition A.1. (a) A log-dR local system on$\bar { X } _ { S }$is a pair$( E _ { S } , \nabla _ { S } )$where$E _ { S }$is a vector bundle of rank r on$\bar { X } _ { S }$and
+
+$$
+\nabla \colon E _ {S} \to E _ {S} \otimes \Omega_ {\bar {X} _ {S / S}} ^ {1} \langle D \rangle
+$$
+
+is a flat logarithmic connection such that$\mathrm { r e s } _ { \mu } ( \nabla ) \in H ^ { 0 } ( D _ { S } ^ { \mu } , \mathsf { E n d } ( E _ { S } | _ { D _ { S } ^ { \mu } } ) )$is nilpotent for all$\mu ~ =$ $1 , \ldots , c .$
+
+(b) We say that$( E _ { S } , \nabla _ { S } )$is strongly cohomologically rigid, if
+
+$$
+\mathbb {H} ^ {1} \big (\bar {X} _ {S}, [ \operatorname{End} (E _ {S}) \xrightarrow {\operatorname{End} (\nabla_ {S})} \operatorname{End} (E _ {S}) \otimes \Omega^ {1} \langle D \rangle \xrightarrow {\operatorname{End} (\nabla_ {S})} \dots ] \big) = 0.\tag{A.0.1}
+$$
+
+(c) A log-Higgs bundle on$\bar { X } _ { S }$is a pair$( V _ { S } , \theta _ { S } )$, where$V _ { S }$is a vector bundle of rank r on$\bar { X } _ { S }$and$\theta _ { S }$is an O-linear morphism$V \to V \otimes \Omega _ { \bar { X } } ^ { 1 } \langle D \rangle$satisfying$\theta _ { S } \wedge \theta _ { S } = 0$
+
+(d) A log-Higgs bundle$( V _ { S } , \theta _ { S } )$is called strongly cohomologically rigid, if
+
+$$
+\mathbb {H} ^ {1} \left(\bar {X} _ {S}, \left[ \operatorname{End} \left(V _ {S}\right) \xrightarrow {\operatorname{End} \left(\theta_ {S}\right)} \operatorname{End} \left(V _ {S}\right) \otimes \Omega^ {1} \langle D \rangle \xrightarrow {\operatorname{End} \left(\theta_ {S}\right)} \dots \right]\right) = 0.\tag{A.0.2}
+$$
+
+Remark A.2. (a) If$S = { \mathrm { S p e c } } \mathbb { C }$, the underlying vector bundle E of a log-dR local system has vanishing Chern classes. This follows from the formula for the Atiyah class of E given in [EV86, Proposition B.1]. In addition, the left-hand side of$\left( \mathrm { A . 0 . 1 } \right)$computes$H ^ { 1 } ( X ( \mathbb { C } )$, End E<sub>C,an</sub> <sup>Endp∇Cq</sup> . Indeed, as$\mathrm { r e s } _ { \mu } ( \nabla _ { \mathbb { C } } )$ is nilpotent for$\mu = 1 , \ldots , c$, so is$\operatorname { r e s } _ { \mu } ( \mathsf { E n d } ( \nabla _ { \mathbb { C } } ) )$, thus End E<sub>C</sub> is Deligne’s extension the cohomology of which computes analytically$R j _ { * }$where$j : X _ { \mathbb { C } , \mathrm { a n } } \to \bar { X } _ { \mathbb { C } , \mathrm { a n } }$, see [Del70, II, Proposition 3.13, Corollaire 3.14].
+
+(b) The notion of strong cohomological rigidity is more restrictive than the one of cohomological rigidity used in [Kat96,EG18]. A cohomological rigid local system, in the traditional sense, does not have any non-trivial infinitesimal deformations which leave the monodromies at infinity invariant. A strongly cohomologically rigid log-dR local system does not have any non-trivial infinitesimal deformations, independently of any constraints at the boundary.
+
+Definition A.3 (Arithmetic models). Let$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } , \mathcal { O } _ { \bar { X } } ( 1 ) )$be a triple consisting of a smooth projective complex variety${ \bar { X } } _ { \mathbb { C } } .$, an snc divisor$D _ { \mathbb { C } } .$, and a very ample line bundle$\mathcal { O } _ { \bar { X } _ { \mathbb { C } } } ( 1 )$.
+
+(a) An arithmetic model for$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } , \mathcal { O } _ { \bar { X } _ { \mathbb { C } } } ( 1 ) )$is given by an afine scheme S where$\Gamma ( S , { \mathcal { O } } _ { S } )$is a finite type subring$R \subset \mathbb { C }$, a smooth projective S-scheme$\bar { X } _ { S }$together with an snc divisor$D _ { S }$such that
+
+$$
+\bar {X} _ {\mathbb {C}} = \bar {X} _ {S} \times_ {S} \operatorname{Spec} \mathbb {C} \text {and} D _ {\mathbb {C}} = D _ {S} \times_ {S} \operatorname{Spec} \mathbb {C},
+$$
+
+and a relatively very ample line bundle${ \mathcal { O } } _ { { \bar { X } } _ { S } } ( 1 )$pulling back to$\mathcal { O } _ { \bar { X } _ { \mathbb { C } } } ( 1 )$
+
+(b) Let$\{ ( E _ { \mathbb { C } } ^ { i } , \nabla _ { \mathbb { C } } ^ { i } ) \} _ { i \in I }$be a family of log-dR local systems on$X _ { \mathbb { C } }$. An arithmetic model for$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } , \mathcal { O } _ { \bar { X } _ { r } } , \{ E _ { \mathbb { C } } ^ { i } , \nabla _ { \mathbb { C } } ^ { i } \} _ { i \in I } )$ is given by an arithmetic model for$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } , \mathcal { O } _ { \bar { X } _ { \mathbb { C } } } ( 1 ) )$as in (a), and log-dR local systems$\{ ( E _ { S } ^ { i } , \nabla _ { S } ^ { i } ) \} _ { i \in I }$ on$X / S$satisfying
+
+$$
+(E _ {\mathbb {C}} ^ {i}, \nabla_ {\mathbb {C}} ^ {i}) = (E _ {S} ^ {i}, \nabla_ {S} ^ {i}) | _ {\bar {X} _ {\mathbb {C}}} \text {   for   all   } i \in I.
+$$
+
+Theorem A.4. Suppose that every stable log-dR local system$( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } )$of rank r on$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } )$is strongly cohomologically rigid. Then, there exists a finite type subalgebra$R \subset \mathbb { C }$and a model of$( \bar { X } _ { \mathbb { C } } , X _ { \mathbb { C } } , D _ { \mathbb { C } } )$over $S = { \mathrm { S p e c } } R$such that every stable log-dR local system of rank r on$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } )$has an S-model$( E _ { S } , \nabla _ { S } )$such that for every finite field k and every morphism$R \to W ( k )$the formal flat connection
+
+$$
+(\hat {E} _ {W}, \hat {\nabla} _ {W})
+$$
+
+is endowed with the structure of a torsionfree Fontaine-Lafaille module on$X _ { W } = \bar { X } _ { W } \backslash D _ { W }$
+
+Remark A.5. In [EG20] we prove a stronger result for the case where$D _ { \mathbb { C } } = \varnothing$. The assumptions of loc. cit. are less stringent, as they apply more generally to arbitrary rigid dR local system, i.e. isolated points of the moduli space$\mathcal { M } _ { d R }$. The additional assumptions above allow one to simplify the argument significantly.
+
+## A.1 Construction of a suitable arithmetic model
+
+Moduli spaces of logarithmic flat connections on complex varieties were constructed by Nitsure in [Nit93]. Using Langer’s boundedness (see [Lan14]), this construction was extended to more general base schemes ([Lan14, Theorem 1.1]):
+
+Theorem A.6 (Langer). For a fixed polynomial P there exists a quasi-projective S-scheme$\mathcal { M } _ { d R } ( \bar { X } _ { S } , D _ { S } )$ of stable flat logarithmic connections on$\bar { X } _ { S }$with Hilbert polynomial$P .$
+
+More generally, Langer constructs moduli spaces for semistable Λ-modules, where Λ is a ring of operators in the sense of [Sim94]. It is explained on p. 87 of loc. cit. that flat logarithmic connections are a special case of the general theory of Λ-modules. We are interested in moduli spaces of flat logarithmic connections with vanishing Chern classes (see Remark A.2). The corresponding Hilbert polynomial satisfies
+
+$$
+P _ {0} (n) = \int r \cdot \mathrm{td} _ {\bar {X} _ {\mathbb {C}}} \mathrm{ch} (\mathcal {O} _ {\bar {X} _ {\mathbb {C}}} (n)) \text {   for   all   } n \in \mathbb {N}.
+$$
+
+Corollary A.7. There exists a closed subscheme$\mathcal { M } _ { l o g - d R } ( \bar { \boldsymbol { X } } _ { S } , D _ { S } ) \subset \mathcal { M } _ { d R } ( \bar { \boldsymbol { X } } _ { S } , D _ { S } )$, which is the moduli space of stable log-dR local systems with Hilbert polynomial$P _ { 0 }$
+
+Proof. There is an étale covering$\left( U _ { i } \to \mathcal { M } _ { d R } ( \bar { X } _ { S } , D _ { S } ) \right) _ { i \in I }$such that we have a universal family$( \mathcal { E } _ { U _ { i } } , \nabla _ { U _ { i } } )$on $U _ { i } \times _ { S } \bar { X } _ { S }$. By stability, such a universal log-dR$U _ { i } \mathbf { \cdot }$-family is well-defined up to tensoring by a line bundle on$U _ { i }$ By construction, the characteristic polynomial$\chi _ { i , \mu } ( T )$of$\mathrm { r e s } _ { \mu } ( \nabla _ { U _ { i } } )$is a section of a locally free sheaf on$U _ { i }$ We let$Z _ { i } \hookrightarrow U _ { i }$be the closed immersion corresponding to the vanishing locus of$( \chi _ { i , \mu } ( T ) - T ^ { r } ) , \mu = 1 , \ldots , c .$ This closed immersion is independent of the choice of a U -universal family, since tensoring by a line bundle on$U _ { i }$leaves$\chi _ { i , \mu }$invariant. We may thus apply faithfully flat descent theory to glue those closed immersions to a closed embedding
+
+$$
+Z \hookrightarrow \mathcal {M} _ {d R} (\bar {X} _ {S}, D _ {S}).
+$$
+
+The scheme Z is the sought-for moduli space$\mathcal { M } _ { l o g - d R } ( \bar { X } _ { S } , D _ { S } )$
+
+We record the following consequence of non-abelian Hodge theory for later reference.
+
+Theorem A.8. For every strongly cohomologically rigid log-dR local system$( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } )$on$\bar { X } _ { \mathbb { C } }$there exists an F-filtration$\cdot \cdot \cdot \subset F ^ { i } \subset F ^ { i - 1 } \subset \cdot \cdot \cdot F ^ { 0 } = E$satisfying Grifiths transversality ∇:$F ^ { i } \to F ^ { i - 1 } \otimes _ { { \mathcal { O } } _ { X } } \Omega _ { X } ^ { 1 } \langle D \rangle$ and with the associated graded sheaves$\mathrm { g r } _ { F } ^ { i } E = F ^ { i } / F ^ { i + 1 }$being locally free. The associated Higgs bundle is denoted by
+
+$$
+\left(\operatorname{gr} _ {F} E, \mathrm{KS}\right),
+$$
+
+where KS stands for Kodaira-Spencer and is defined by the linear maps
+
+$$
+\mathrm{gr} _ {F} \nabla \colon \mathrm{gr} _ {F} ^ {i} E \to \mathrm{gr} _ {F} ^ {i - 1} E \otimes_ {\mathcal {O} _ {X}} \Omega_ {X} ^ {1} \langle D \rangle .
+$$
+
+Proof. Mochizuki proved in [Mo06, Theorem 10.5] that every log-dR local system on$\bar { X } _ { \mathbb { C } }$can be complex analytically deformed to a polarised variation of Hodge structures, which implies the existence of the requisite F-filtration on the rigid$\left( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } \right)$. In loc. cit., this is stated in terms of Betti local systems on$X _ { \mathbb { C } } = \bar { X } _ { \mathbb { C } } \backslash D _ { \mathbb { C } }$ This is an equivalent perspective, by virtue of the Riemann-Hilbert correspondence which is complex analytic. Due to strong cohomological rigidity,$( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } )$cannot be deformed in a non-trivial manner. We conclude that$( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } )$underlies a polarised variation of Hodge structures.□
+
+Remark A.9. Stability of the log-Higgs bundle$\left( \bigoplus _ { j } \operatorname { g r } _ { F } ^ { i j } E _ { \mathbb { C } } ^ { i } , \operatorname { K S } ( \nabla _ { \mathbb { C } } ^ { i } ) \right)$is implied by Mochizuki’s parabolic Simpson correspondence [Mo06]. We remark that the parabolic structure is trivial in the case at hand, since we assume that the monodromies around the divisor at infinity are unipotent and therefore in this case, parabolic stability amounts to stability in the usual sense of log-Higgs bundles. See [Sim90, p. 722] where the triviality of the parabolic structure is justified for the curve case. The argument given there generalises directly to higher dimensional varieties.
+
+Subsequently, for every strongly cohomologically rigid log-dR local system$( E _ { \mathbb { C } } , \nabla _ { \mathbb { C } } )$on$\bar { X } _ { \mathbb { C } }$we fix the F-filtration constructed in Theorem A.8.
+
+Proposition A.10. We keep the assumptions ofTheorem A.4. There exists an arithmetic model$( S , \bar { X } _ { S } , D _ { S } , { \mathcal { O } } _ { X _ { S } } ( 1 ) )$ of$( X _ { \mathbb { C } } , D _ { \mathbb { C } } , { \mathcal { O } } _ { X _ { \mathbb { C } } } ( 1 ) )$such that
+
+(a) all rank r log-dR local systems$( E _ { \mathbb { C } } ^ { i } , \nabla _ { \mathbb { C } } ^ { i } ) _ { i \in I }$have a locally free model$( E _ { S } ^ { i } , \nabla _ { S } ^ { i } ) _ { i \in I }$over$S ,$
+
+(b) the models$( E _ { S } ^ { i } , \nabla _ { S } ^ { i } ) _ { i \in I }$are also strongly cohomologically rigid,
+
+(c) the filtrations$( F _ { \mathbb { C } } ^ { i j } \subset E _ { \mathbb { C } } ^ { i } )$are defined over S such that the S-relative filtrations$F _ { S } ^ { i j } \subset E _ { S } ^ { i }$satisfy the Grifiths-transversality condition,
+
+(d) for every$i \in I$the associated graded
+
+$$
+\left(\bigoplus_ {j} \mathrm{gr} _ {F} ^ {i j} E _ {S} ^ {i}, \mathrm{KS} (\nabla_ {S} ^ {i})\right)
+$$
+
+is a stable logarithmic Higgs bundle which is also locally free.
+
+Furthermore, if s: Spec$\bar { k }  S$is a geometric point of S, then
+
+(e)$( E _ { s } , \nabla _ { s } )$is a log-dR local system on$\bar { X } _ { s } = \bar { X } _ { S } \times _ { S }$Spec <sup>¯</sup>k, then there exists$i \in I$such that$\left( E _ { s } , \nabla _ { s } \right) =$ $( E _ { S } ^ { i } , \nabla _ { S } ^ { i } ) | _ { X _ { s } }$，
+
+(f )$p = \operatorname { c h a r } ( { \bar { k } } ) > 2 r + 2$, and
+
+(g) S  Spec Z is smooth.
+
+Proof. The proof is analogous to the one of [EG20, Proposition 3.3] and will therefore only be sketched. Consider the set R of all finite type subrings$R \subset \mathbb { C }$. Since$\mathbb { C } = \bigcup _ { R \in \mathcal { R } } R$and$( \bar { X } , D _ { \mathbb { C } } )$are defined in terms of finitely many homogenous equations, there exists$\tilde { R } \in \mathcal { R }$such that$( \bar { X } _ { \mathbb { C } } , D _ { \mathbb { C } } )$are obtained by base change from a pair of projective schemes$( \bar { X } _ { \tilde { S } } , D _ { \tilde { S } } ) \subset \mathbb { P } _ { \tilde { S } } ^ { N }$r, where we write$\widetilde { S }$for Spec R. We may assume that$D _ { \widetilde { S } }$is an snc divisor and that$\bar { X } _ { \tilde { S } }$ris smooth.
+
+rWe now consider the moduli space$\mathcal { M } _ { l o g - d R } ( \bar { X } _ { \widetilde { S } } / \widetilde { S } )$. Since
+
+$$
+\mathcal {M} _ {\text { log - dR }} (\bar {X} _ {\mathbb {C}} / \mathbb {C}) \simeq \mathcal {M} _ {\text { log - dR }} (\bar {X} _ {\tilde {S}} / \tilde {S}) \times_ {\tilde {S}} \operatorname{Spec} \mathbb {C}
+$$
+
+is finite and flat over Spec$\mathbb { C } ,$there exists a finite type algebra${ \tilde { R } } \subset R .$, such that the base change (we denote Spec R by S)
+
+$$
+\mathcal {M} _ {l o g - d R} (\bar {X} _ {S} / S) = \mathcal {M} _ {l o g - d R} (\bar {X} _ {\widetilde {S}} / \widetilde {S}) \times_ {\widetilde {S}} S
+$$
+
+is finite and flat over$S .$
+
+Since there are only finitely many log-dR local systems$( E _ { \mathbb { C } } ^ { i } , \nabla _ { \mathbb { C } } ^ { i } ) _ { i \in I }$over$\mathbb { C } ,$we may assume that they have stable and locally free models$( E _ { S } ^ { i } , \nabla _ { S } ^ { i } ) _ { i \in I }$over S. This amounts to property (a) above. By further enlarging R we obtain strong cohomological rigidity (property (b)), and properties$^ \mathrm { ( c , d ) }$about the F-filtrations and the associated graded log-Higgs bundles.
+
+The S-models above give rise to sections
+
+$$
+[ (E _ {S} ^ {i}, \nabla_ {S} ^ {i}) ] _ {i \in I} \colon S \colon \mathcal {M} _ {l o g - d R} (\bar {X} _ {\widetilde {S}} / \widetilde {S}).\tag{A.1.1}
+$$
+
+Since the structural morphism$\mathcal { M } _ { l o g - d R } ( \bar { X } _ { \widetilde { S } } / \widetilde { S } )  S$is finite and flat, we infer that the sections of (A.1.1) r rare jointly surjective. This implies (e). By inverting$( 2 r + 2 ) !$we can achieve (f). And, property$\mathrm { ( g ) }$can be arranged by passing to the maximal open subset of S which is smooth over Spec Z.□
+
+## A.2 Applications of the Higgs-de Rham flow
+
+In this subsection, we apply the logarithmic Higgs-de Rham flow from [LSYZ19] (the smooth and proper case is due to [LSZ13]).
+
+We fix an arithmetic model as in Proposition A.10. Let$\bar { k }$be an algebraic closure of a finite field and let s: Spec$\bar { k }  S$be a geometric point of S.
+
+Definition A.11 ([LSZ13, LSYZ19]). An f-periodic Higgs-de Rham flow on$X _ { s }$is a tuple
+
+$$
+(E _ {0}, \nabla_ {0}, F _ {0}, \phi_ {0}, E _ {1}, \nabla_ {1}, F _ {1}, \dots , E _ {f - 1}, \nabla_ {f - 1}, F _ {f - 1}, \phi_ {f - 1}),
+$$
+
+where for all$i \in \mathbb { Z } / f \mathbb { Z }$we have a log-dR local system$\left( E _ { i } , \nabla _ { i } , F _ { i } \right)$with nilpotent p-curvature of level$\leqslant p - 1$，a locally split Grifiths-transverse filtration$F _ { i }$, and an isomorphism$\phi _ { i } \colon C _ { 1 } ^ { - 1 } ( \mathrm { g r } _ { F } E _ { i } , \mathrm { K S } _ { i } ) \simeq \left( E _ { i + 1 } , \nabla _ { i + 1 } \right)$
+
+We denote the set of isomorphism classes of stable rank r logarithmic Higgs bundles on$X _ { s }$with Hilbert polynomial$P _ { 0 }$by$M _ { D o l } ( s )$. Likewise, we write$M _ { d R } ( s )$for the set of isomorphism classes of stable rank r log-dR local systems on$X _ { s }$with Hilbert polynomial$P _ { 0 }$. For the purpose of this subsection, it will not matter that those sets are <sup>¯</sup>k-rational points of moduli spaces, which could be constructed with Langer’s methods (see Theorem A.6).
+
+We informally refer to the following diagram as the Higgs-de Rham flow:
+
+$$
+M _ {D o l} (s) \underset {\leftarrow} {-} \underset {\text { gr }} {-} \underset {-} {C ^ {- 1}} - \underset {-} {\rightarrow} M _ {d R} (s).
+$$
+
+The dashed arrows represent merely correspondences, rather than actual maps. The reason is that$\mathrm { g r } ( E , \nabla )$ could be not stable, and$C ^ { - 1 }$can only be defined if the p-curvature is nilpotent of level$\leqslant p - 1$and the residues at infinity are nilpotent.
+
+Using this viewpoint, one calls an element$[ ( E , \nabla ) ]$of$M _ { d R } ( s )$periodic, if there exists$f \in \mathbb { N }$with
+
+$$
+[ (E, \nabla) ] = (C ^ {- 1} \circ \mathrm{gr}) ^ {f} ([ (E, \nabla) ]).
+$$
+
+We let$R _ { D o l } ( s ) \subset M _ { D o l } ( s )$denote the subset of stable rank r log Higgs bundles with nilpotent Higgs field $\theta$and nilpotent$\operatorname { r e s } _ { \mu } \theta$for all$\mu = 1 , \ldots , c$of level$\leqslant p - 1$. We denote by$R _ { d R } ( s ) \subset M _ { d R } ( s )$the subset of stable log-dR local systems with nilpotent residues or level$\leqslant p - 1$. Restricting the Higgs-de Rham flow to these subsets has the added advantage of turning the correspondences above into maps of sets:
+
+$$
+R _ {D o l} (s) \xrightarrow [ \text {gr} ]{C ^ {- 1}} R _ {d R} (s).\tag{A.2.1}
+$$
+
+It is not immediately obvious that the above maps are well-defined, since one has to justify that strong cohomological rigidity and stability is preserved by$\mathrm { g r }$and$C ^ { - 1 }$
+
+## Lemma A.12. The maps in (A.2.1) are well-defined.
+
+Proof. Proposition A.10(c) allows us to fix for every$( E _ { s } , \nabla _ { s } ) \in R _ { d R } ( s )$an F-filtration. It follows from Proposition$\mathrm { A . 1 0 ( d ) }$that$\mathrm { g r } ( E _ { s } , \nabla _ { s } ) = ( \mathrm { g r } _ { F } E _ { s } , \mathrm { K S } )$is stable. This shows that gr :$R _ { d R } ( s )  R _ { D o l } ( s )$is a well-defined map, which a priori depends on the chosen filtration (but see the end of the proof of Lemma A.15). Arguing as in [Lan14, Corollary 5.10] one shows that$C ^ { - 1 }$preserves stability.□
+
+## Lemma A.13. Every element of$R _ { D o l } ( s )$is strongly cohomologically rigid.
+
+Proof. There is an equivalence of categories (see [LSYZ19, Theorem 6.1])
+
+$$
+C ^ {- 1} \colon \mathsf {H i g g s} _ {p - 1} (\bar {X} _ {s}, D _ {s}) \cong \mathsf {M I C} _ {p - 1} (\bar {X} _ {s}, D _ {s}),
+$$
+
+where the left-hand side denotes a subcategory of logarithmic Higgs bundles$( V , \theta )$satisfying several technical assumptions, and similarly, the right-hand side denotes a subcategory of log-dR local systems with nilpotent p-Higgs bundles which are required to satisfy various assumptions. We refer the reader to [LSYZ19, Section 6] for more details. This is an equivalence of categories, and therefore
+
+$$
+\mathrm{Ext} (C ^ {- 1} (V _ {s}, \theta_ {s}), C ^ {- 1} (V _ {s}, \theta_ {s})) = \mathrm{Ext} ((V _ {s}, \theta_ {s}), (V _ {s}, \theta_ {s})) = 0.
+$$
+
+Here, we implicitly use Proposition$\mathrm { A . 1 0 ( e ) }$to guarantee that all self-extensions of$( V _ { s } , \theta _ { s } )$(respectively $C ^ { - 1 } ( V _ { s } , \theta _ { s } ) )$belong to${ \sf H i g g s } _ { p - 1 } ( \bar { X } _ { s } , D _ { s } )$(respectively$\mathsf { M l C } _ { p - 1 } \big ( \bar { X } _ { s } , D _ { s } \big ) \big )$). Indeed, since$p > 2 r + 2$by Proposition A.10(f), the Higgs field of such a self-extension is automatically nilpotent of level$\leqslant p - 1$. Thus,$C ^ { - 1 }$ preserves strong cohomological rigidity. The same assertion holds for its inverse functor C.
+
+We conclude the proof of the lemma by applying assertion (e) of Proposition A.10, according to which every log-dR local system with Hilbert polynomial$P _ { 0 }$on$\bar { X } _ { s }$is strongly cohomologically rigid. Therefore, for every$[ ( V , \theta ) ] \in R _ { D o l } ( s )$we have that$C ^ { - 1 } ( V , \theta )$is strongly cohomologically rigid. This implies that $( V , \theta ) = \mathrm { g r } \circ C ^ { - 1 } ( V , \theta )$is strongly cohomologically rigid.□
+
+## Lemma A.14. The set$R _ { \mathrm { d R } } ( s )$is finite.
+
+Proof. Let$( E , \nabla )$be a strongly cohomologically rigid log-dR local system which is stable and has Hilbert polynomial$P _ { 0 }$. The hypercohomology group (A.0.1) computes the tangent space of$\mathcal { M } _ { d R } ( \bar { X } , D )$in$[ ( E , \nabla ) ]$ By the vanishing assumption, the point$[ ( E , \nabla ) ]$is isolated. We conclude the proof by recalling that the number of isolated points of a Noetherian scheme is finite.□
+
+Lemma A.15. The maps gr and$C ^ { - 1 }$are bijections.
+
+Proof. It sufices to prove that$\mathrm { g r }$and$C ^ { - 1 }$are injective. Indeed, it then follows from Lemma A.14, they must be of equal cardinality if both maps are injective. The pigeonhole principle is used to conclude that gr and$C ^ { - 1 }$are bijections.
+
+Since$C ^ { - 1 }$is defined using an equivalence of categories (see [LSYZ19, Theorem 6.1]), it is clear that $C ^ { - 1 } \colon R _ { D o l } ( s ) \to R _ { d R } ( s )$is injective.
+
+The associated graded gr is injective for diferent reasons. In particular, we will use strong cohomological rigidity to prove this. The Artin-Rees construction applied to the F-filtration on$( E , \nabla )$yields a$\mathbb { G } _ { m ^ { - } }$ equivariant$\mathbb { A } _ { s } ^ { 1 } { - } \mathrm { f a m i l y }$of vector bundles$( \nu , \nabla _ { t } )$, endowed with a log-t-connection$\nabla _ { t } ,$, where$t \colon \mathbb { A } _ { s } ^ { 1 }  \mathbb { A } _ { s } ^ { 1 }$ denotes the identity map. Furthermore, we have
+
+$$
+(\mathcal {V}, \nabla_ {t}) | _ {t = 0} \simeq (\mathrm{gr} _ {F} E, \mathrm{KS}).
+$$
+
+Recall from Proposition$\mathrm { A . 1 0 ( d ) }$that the right-hand side is a strongly cohomologically rigid log-Higgs bundle. There is therefore a unique way to lift it to a t-connection over Spec$\bar { k } [ t ] / ( t ^ { 2 } )$, and likewise for Spec$\bar { k } [ t ] / ( t ^ { n } )$. We infer from the Grothendieck existence theorem that there is a unique way to lift it to a t-connection on Spec <sup>¯</sup>k t . This implies that there cannot be a pair of distinct elements
+
+$$
+(E _ {s} ^ {1}, \nabla_ {s} ^ {1}), (E _ {s} ^ {2}, \nabla_ {s} ^ {2}) \in R _ {d R} (s) \text {   such   that   } (\mathrm{gr} _ {F} E _ {s} ^ {1}, \mathrm{KS}) \simeq (\mathrm{gr} _ {F} E _ {s} ^ {2}, \mathrm{KS}).
+$$
+
+Otherwise, we would have
+
+$$
+(E _ {s} ^ {1}, \nabla_ {s} ^ {1}) \otimes \bar {k} ((t)) \simeq (E _ {s} ^ {2}, \nabla_ {s} ^ {2}) \otimes \bar {k} ((t)),
+$$
+
+which implies the existence of an isomorphism over <sup>¯</sup>k (by stability). This concludes the proof of injectivity, and furthermore proves that the map gr doesn’t depend on the chosen F-filtration.□
+
+Proposition A.16. The p-curvature of$[ ( E , \nabla ) ] \in R _ { d R } ( s )$is nilpotent.
+
+Proof. By virtue of definition of$C ^ { - 1 }$, every log-dR local system in the image of$C ^ { - 1 }$has nilpotent p-curvature. According to Lemma A.15 the map$C ^ { - 1 }$is bijective. This concludes the proof.□
+
+Proposition A.17. Every$[ ( E , \nabla ) ] \in R _ { d R } ( s )$is periodic.
+
+Proof. Let$\sigma = C ^ { - 1 } \circ \mathrm { g r }$. By definition, it is a permutation of the finite set$R _ { d R } ( s )$. Let$f ^ { \prime }$be the order of σ. We then have that$\overset { \circ } { \sigma } ^ { f ^ { \prime } } ( [ ( E , \nabla ) ] ) = [ ( E , \nabla ) ]$, and thus$[ ( E , \nabla ) ]$is f-periodic for some$f | f ^ { \prime }$□
+
+## A.3 Higgs-de Rham flow over truncated Witt rings
+
+As before, we denote by <sup>¯</sup>k the algebraic closure of a finite field of characteristic$p ,$and let s: Spec$\bar { k }  S$be a <sup>¯</sup>k-point of S. Furthermore, we write$W = W ( \bar { k } )$for the associated Witt ring, and$K$for its fraction field. Hensel’s lemma and Proposition$\mathrm { A . 1 0 ( g ) }$implies that s can be extended to a morphism
+
+$$
+s _ {W} \colon \operatorname{Spec} W \to S.
+$$
+
+For$n \in \mathbb { N }$we denote by$W _ { n }$the ring of n-th Witt vectors and by${ \bar { X } } _ { n }$the base change${ \bar { X } } _ { S } \times _ { S } W _ { n }$
+
+We define$\mathcal { H } ( \bar { X } _ { n } / W _ { n } )$to be the category of tuples$( V , \theta , \bar { E } , \bar { \nabla } , \bar { F } , \phi ) .$, where$( V , \theta )$is a graded log-Higgs bundle on${ \bar { X } } _ { n }$of level$\leqslant p - 1 , \ ( \bar { E } , \bar { \nabla } , \bar { F } )$is a log-dR local system on$\bar { X } _ { n - 1 }$with a locally split Grifithstransverse filtration$\bar { F }$of level$\leqslant p - 2 .$, and$\phi \colon g r _ { \bar { F } } ( \bar { E } , \bar { \nabla } ) \simeq ( V , \theta ) \times _ { W _ { n } } W _ { n - 1 }$is an isomorphism of graded log-Higgs bundles.
+
+Similarly, we denote by$\mathsf { M l C } ( { \bar { X } } _ { n } / W _ { n } )$the category of quasi-coherent sheaves with$W _ { n }$-linear flat connections on${ \bar { X } } _ { n }$. There is a functor
+
+$$
+C _ {n} ^ {- 1} \colon \mathcal {H} (\bar {X} _ {n} / W _ {n}) \to \mathsf {M I C} (\bar {X} _ {n} / W _ {n})
+$$
+
+which extends the logarithmic inverse Cartier transform. In the proper non-logarithmic case this is due to [LSZ13, Theorem 4.1]. Closely related results were obtained by Xu in [Xu19]. The logarithmic version is covered in [LSYZ19, Section 5] immediately before the proof of Proposition 5.2.
+
+Let$\left( E _ { W _ { n } } , \nabla _ { W _ { n } } , F _ { n } \right)$be an W -linear log-dR local system endowed with an F-filtration. We denote by ${ \overline { { \operatorname { g r } } } } ( E , \nabla , F )$the tuple$( \mathrm { g r } _ { F } ( E ) , \mathrm { K S } , ( E , \nabla , F ) _ { W _ { n - 1 } } , \mathrm { i d } )$
+
+Definition A.18 (Lan–Sheng–Zuo & Lan–Shen–Yang–Zuo). An f-periodic log-dR local system on$\bar { X } _ { n } / W _ { n }$ is a tuple
+
+$$
+(E _ {W _ {n}} ^ {0}, \nabla_ {W _ {n}} ^ {0}, F _ {W _ {n}} ^ {0}, \phi_ {0}, E _ {W _ {n}} ^ {1}, \nabla_ {W _ {n}} ^ {1}, F _ {W _ {n}} ^ {1}, \ldots , E _ {W _ {n}} ^ {f - 1}, \nabla_ {W _ {n}} ^ {f - 1}, F _ {W _ {n}} ^ {f - 1}, \phi_ {f - 1}),
+$$
+
+where for all i we have that$( E ^ { i } , \nabla ^ { i } , F ^ { i } )$is a log-dR local system on${ \bar { X } } _ { W _ { n } }$(nilpotent of level$\leqslant p - 2$on the special fibre) with a locally split Grifiths-transverse filtration$F _ { W _ { n } } ^ { i }$, such that for all integers n we have that $\overline { { \mathrm { g r } } } _ { F } ( E _ { W _ { n } } ^ { i } , \nabla _ { W _ { n } } ^ { i } )$belongs to$\mathcal { H } ( \bar { X } _ { n } / W _ { n } )$and$\phi _ { i } \colon C _ { 1 } ^ { - 1 } ( \mathrm { g r } _ { F } E _ { W _ { n } } ^ { i } , \mathrm { K S } _ { i } ^ { \cdot } ) \simeq ( E _ { W _ { n } } ^ { i + 1 } , \nabla _ { W _ { n } } ^ { i + 1 } )$
+
+By taking the inverse limit with respect to n, we obtain a notion of periodicity relative to W. Using $[ \mathrm { L S Z 1 3 } , \ \mathrm { p . 3 }$, Theorem 3.2, Variant 2], [LSYZ19, Theorem 1.1] together with [Fal88, Theorem$2 . 6 ^ { * } , \mathrm { p . 4 3 \ i } ) ]$ one obtains:
+
+Theorem A.19 (Lan–Sheng–Zuo & Lan–Sheng–Yang–Zuo). A 1-periodic log-dR local system on$\bar { X } _ { W } / W$ gives rise to a torsion-free Fontaine–Lafaille module on$X _ { W } = \bar { X } _ { W } \backslash D _ { W }$. Furthermore, we can associate to an f-periodic log-dR local system on$\bar { X } _ { W } / W$a crystalline étale local system of free$W ( \mathbb { F } _ { p ^ { f } } )$-modules on$X _ { K }$ This is a fully faithful functor.
+
+We remark that Faltings only treats the case$f = 1$, in which he constructs a fully faithful functor from Fontaine-Lafaille modules to étale local systems of$\mathbb { Z } _ { p } { \mathrm { - m o d u l e s } }$. The general case can be reduced to this one using a categorical construction, as explained in [LSZ13, Variant 2]. It is clear that this formal procedure preserves fully faithfulness of the functor. In combination with the above, the following result concludes the proof of Theorem A.4.
+
+Theorem A.20. Every element$[ ( E _ { s } , \nabla _ { s } ) ] \in R _ { d R } ( s )$can be lifted to a periodic Higgs-de Rham flow over$W _ { n }$ on${ \bar { X } } _ { n }$
+
+Proof. Recall from Lemma A.14 that there is a finite number of non-isomorphic log-dR local systems $( E _ { s } ^ { i } , \nabla _ { s } ^ { i } ) _ { i \in I }$in$R _ { d R } ( s )$. For every$i \in I$there exists an extension to an S-family of log-dR local systems $( E _ { S } ^ { i } , \nabla _ { S } ^ { i } )$(see Proposition$\mathrm { A . 1 0 ( a , b ) }$). By pulling back along$s w :$Spec$W  S$we therefore obtain a lift to a W-family$( E _ { W } ^ { i } , \nabla _ { W } ^ { i } )$, and hence also a$W _ { n } { \mathrm { - l i f t ~ } } ( E _ { W _ { n } } ^ { i } , \nabla _ { W _ { n } } ^ { i } )$
+
+Since$( E _ { s } ^ { i } , \nabla _ { s } ^ { i } )$is strongly cohomologically rigid, deformation theory implies that such a W-lift is unique up to isomorphism.
+
+We have seen in Proposition A.17 that every$( E _ { s } ^ { i } , \nabla _ { s } ^ { i } )$is periodic over s (this corresponds to the case $n = 0 )$since the map
+
+$$
+\sigma = C ^ {- 1} \circ \mathrm{gr} \colon R _ {d R} (s) \to R _ {d R} (s)
+$$
+
+is a permutation (Lemma A.15). The$W _ { n } \mathrm { - r e l a t i v e }$log-dR local system$( E _ { W _ { n } } ^ { i } , \nabla _ { W _ { n } } ^ { i } )$is endowed with an F-filtration by Proposition$\mathrm { A . 1 0 ( c ) }$. We can therefore evaluate$\overline { { \mathrm { g r } } } ( E _ { W _ { n } } ^ { i } , \nabla _ { W _ { n } } ^ { i } )$
+
+Since the functor$C _ { n } ^ { - 1 }$extends$C ^ { - 1 }$on the special fibre, we see that we have
+
+$$
+(C _ {n} ^ {- 1} \circ \overline {{\mathrm{gr}}}) (E _ {W _ {n}} ^ {i}, \nabla_ {W _ {n}} ^ {i}) \simeq (E _ {W _ {n}} ^ {\sigma (i)}, \nabla_ {W _ {n}} ^ {i}).
+$$
+
+In particular, for$( E _ { s } ^ { i } , \nabla _ { s } ^ { i } )$being f-periodic, we have$\sigma ^ { f } ( i ) = i$, and thus
+
+$$
+(C _ {n} ^ {- 1} \circ \overline {{\mathrm{gr}}}) (E _ {W _ {n}} ^ {i}, \nabla_ {W _ {n}} ^ {i}) \simeq (E _ {W _ {n}} ^ {i}, \nabla_ {W _ {n}} ^ {i}).
+$$
+
+This equation establishes periodicity of$( E _ { W _ { n } } ^ { i } , \nabla _ { W _ { n } } ^ { i } )$relative to$W _ { n }$
+
+We will now state a Betti version of Theorem A.4. For this purpose, let us recall that the Betti moduli space${ \mathcal { M } } _ { B } ( X )$of irreducible rank r complex local systems of is zero-dimensional, since every such local system is assumed to be strongly cohomologically rigid. Furthermore,${ \mathcal { M } } _ { B } ( X )$is defined over$\mathbb { Q } ,$, and therefore the irreducible rank r local systems$\rho _ { 1 } , \ldots , \rho _ { n } ,$are defined over a number field F. By finite generation of $\pi _ { 1 } ^ { \mathrm { t o p } } ( X )$we have that the representations$\rho _ { 1 } , \ldots , \rho _ { n _ { i } }$can be defined over$\mathcal { O } _ { F } [ M ^ { - 1 } ]$, for a suficiently big positive integer M.
+
+Remark A.21. As by Remark$\mathrm { A . 2 \ ( a ) , } H ^ { 1 } ( X ( \mathbb { C } ) , \mathsf { E n d } ( E _ { \mathbb { C } , \mathrm { a n } } ) ^ { \mathsf { E n d } ( \nabla _ { \mathbb { C } } ) } )$computes the left-hand side of$\mathrm { ( A . 0 . 1 ) }$ so is equal to zero, we can apply [EG18, Theorem 1.1] to conclude that Simpson’s integrality conjecture holds. Therefore, M can be chosen to be 1. In fact, under the assumption that all log-dR bundles in a given rank are rigid, the proof of loc. cit. applies without verifying this vanishing assumption. We do not use this remark in the sequel.
+
+For every prime$p \nmid M$, and every choice of an embedding$\mathcal { O } _ { F }  W ( \bar { \mathbb { F } } _ { p } )$we can therefore consider the induced W$\left( { \bar { \mathbb { F } } } _ { p } \right)$-representations
+
+$$
+\rho_ {1} ^ {W (\bar {\mathbb {F}} _ {p})}, \ldots , \rho_ {n _ {r}} ^ {W (\bar {\mathbb {F}} _ {p})}: \pi_ {1} ^ {\mathrm{top}} (X _ {\mathbb {C}}) \to \mathrm{GL} _ {r} (W (\bar {\mathbb {F}} _ {p})).
+$$
+
+The étale fundamental group$\pi _ { 1 } ( X _ { \mathbb { C } } )$is the profinite completion of$\pi _ { 1 } ^ { \mathrm { t o p } } ( X _ { \mathbb { C } } )$. Thus, we obtain continuous representations
+
+$$
+\rho_ {1} ^ {W (\bar {\mathbb {F}} _ {p})}, \dots , \rho_ {n _ {r}} ^ {W (\bar {\mathbb {F}} _ {p})}: \pi_ {1} (X _ {\mathbb {C}}) \to \operatorname{GL} _ {r} (W (\bar {\mathbb {F}} _ {p})).
+$$
+
+Theorem A.22. Let$( \bar { X } _ { \mathbb { C } } , X _ { \mathbb { C } } , D _ { \mathbb { C } } )$and$( \bar { X } _ { S } , X _ { S } , D _ { S } )$be as in Theorem A.4. Suppose that p is a prime, which belongs to the image of$S \to \operatorname { S p e c } \mathbb { Z }$. Let k be a finite field of characteristic p and fix a morphism Spec$W ( k ) \to S$. Then, the representations$\{ \rho _ { i } ^ { W ( \bar { \mathbb { F } } _ { p } ) } \} _ { i = 1 , \dots , n _ { r } }$descend to crystalline representations $\{ \rho _ { i } ^ { \mathrm { c r i s } } \} _ { i = 1 , \dots , n _ { r } } : \pi _ { 1 } ( X _ { K } ) \to G L _ { r } ( W ( \bar { \mathbb { F } } _ { p } ) )$, where$K = \operatorname { F r a c } ( W ( k ) )$
+
+Proof. By combining Theorem A.19 and Theorem A.4, we obtain crystalline representations
+
+$$
+\{\pi_ {i} \} _ {i = 1, \dots , n _ {r}}: \pi_ {1} (X _ {K}) \to G L _ {r} (W (\bar {\mathbb {F}} _ {p}))
+$$
+
+associated to the corresponding log-dR systems$( E _ { i } , \nabla _ { i } ) _ { i = 1 , \dots , r }$on$\bar { X } _ { K }$Restricting these representations further to the geometric fundamental group$\pi _ { 1 } ( X _ { \bar { K } } )$, we obtain
+
+$$
+(\pi_ {i} ^ {\mathrm{geom}}) _ {i = 1, \dots , n _ {r}} \colon \pi_ {1} (X _ {\bar {K}}) \to G L _ {r} (W (\bar {\mathbb {F}} _ {p})).
+$$
+
+Claim. The geometric representations$( \pi _ { i } ^ { \mathrm { g e o m } } ) _ { i = 1 , \dots , n _ { \tau } }$are irreducible.
+
+Proof of the claim. Assume by contradiction that there exists$\pi _ { i } ^ { \mathrm { g e o m } }$which is reducible. Then, the residual representation$\pi _ { i } ^ { \mathrm { g e o m } } \otimes \bar { \mathbb { F } } _ { p } : \pi _ { 1 } ( X _ { \bar { K } } ) \to G L _ { r } ( \bar { \mathbb { F } } _ { p } )$is reducible as well. The continuous representation$\pi _ { i } \otimes { \bar { \mathbb { F } } } _ { p }$ $\pi _ { 1 } ( X _ { K } ) \to G L _ { r } ( \bar { \mathbb { F } } _ { p } )$factors through the finite group$G L _ { r } ( \mathbb { F } _ { q } )$for a p-power q. By Proposition A.10 (g) we may assume that X has a rational point, which yields a section$\operatorname { G a l } ( { \bar { K } } / K ) \to \pi _ { 1 } ( X _ { K } )$. The kernel of the restriction$\pi _ { i } \big | _ { \mathrm { G a l } ( \bar { K } / K ) }$yields a finite extension$K ^ { \prime } / K$such that$\pi _ { i } \otimes \bar { \mathbb { F } } _ { p } \big | _ { \pi _ { 1 } ( X _ { K ^ { \prime } } ) }$is reducible.
+
+Let α be a subrepresentation of$\pi _ { i } \otimes \bar { \mathbb { F } } _ { p } \big | _ { \pi _ { 1 } ( X _ { K ^ { \prime } } ) }$. We will now use work by Sun–Yang–Zuo. It develops a version of the Higgs-de Rham flow over ramified extensions of W. Theorem 5.15 in [SYZ22] implies that the subrepresentation α gives rise to a sub-log-dR local system of$( E _ { i } , \nabla )$, which is furthermore periodic and thus of slope 0. This contradicts stability. Note that loc. cit. deals with the more general setting of twisted Higgs-de Rham flows and projective representations. When applying their result we may therefore assume that the twisting line bundle$\mathcal { L }$is trivial, since our representations are not projective.□
+
+Claim. The geometric representations$\pi _ { i } ^ { \mathrm { g e o m } }$are pairwise non-isomorphic.
+
+Proof of the claim. As before, it sufices to show that the residual$\bar { \mathbb { F } } _ { p }$-representations are pairwise non-isomorphic. We will use the same strategy as before. An isomorphism between$\pi _ { i } ^ { \mathrm { g e o m } } \otimes \bar { \mathbb { F } } _ { p }$and$\pi _ { j } ^ { \mathrm { g e o m } } \otimes { \bar { \mathbb { F } } } _ { \boldsymbol { \pi } }$ therefore implies the existence of a finite extension$K ^ { \prime } / K$such that there exists an isomorphism
+
+$$
+\pi_ {i} ^ {\mathrm{geom}} \otimes \bar {\mathbb {F}} _ {p} \simeq \pi_ {j} ^ {\mathrm{geom}} \otimes \bar {\mathbb {F}} _ {p} \colon \pi_ {1} (X _ {K ^ {\prime}}) \to G L _ {r} (\bar {\mathbb {F}} _ {p}).
+$$
+
+According to [SYZ22, Theorem 5.15] (which relies on [SYZ22, Theorem$5 . 8 ( \mathrm { i i } ) ] )$, the functor from periodic Higgs-de Rham flows to$\bar { \mathbb { F } } _ { p } .$-linear representations of$\pi _ { 1 } ( X _ { K ^ { \prime } } )$is fully faithful. Thus, we obtain an isomorphism of the associated Higgs-de Rham flows, and in particular we have that$( E _ { i } , \nabla _ { i } ) _ { K ^ { \prime } } \simeq ( E _ { j } , \nabla _ { j } ) _ { K ^ { \prime } }$. This implies $i = j$since the associated complex log-dR local systems$( E _ { i } , \nabla _ { i } ) _ { \mathbb { C } }$and$( E _ { j } , \nabla _ { j } ) _ { \mathbb { C } }$are non-isomorphic, and hence concludes the proof.□
+
+Applying these two claims we see that the geometric representations
+
+$$
+\pi_ {i} \big | _ {\pi_ {1} (X _ {\bar {K}})}: \pi_ {1} (X _ {\bar {K}}) \to G L _ {r} (W (\bar {\mathbb {F}} _ {p}))
+$$
+
+for$i = 1 , \ldots , n _ { r }$remain irreducible since the set$\{ \pi _ { i } | _ { \pi _ { 1 } ( X _ { \bar { K } } ) } \} _ { i = 1 , \dots , n _ { r } }$defines$n _ { r }$pairwise non-isomorphic $W ( { \bar { \mathbb { F } } } ) _ { p }$-local systems on$X _ { \bar { K } }$, which by the pigeonhole principle has to be the set of$W ( { \bar { \mathbb { F } } } _ { p } )$-local systems defined by$\{ \rho _ { i } ^ { W ( \bar { \mathbb { F } } _ { p } ) } \} _ { i = 1 , \dots , n _ { r } } ,$and thus each single one of them descends to a crystalline representation.
+
+## References
+
+[Del70] Deligne, P.: Équations Diférentielles à Points Singuliers Réguliers, Lecture Notes in Mathematics 163 (1974), Springer Verlag.
+
+[EG18] Esnault, H., Groechenig, M.: Cohomologically rigid local systems and integrality, Selecta Mathematica 24 5 (2017), 4279–4292.
+
+[EG20] Esnault, H., Groechenig, M.: Rigid connections and F-isocrystals, Acta Math. 225 1 (2020), 103–158.
+
+[EV86] Esnault, H., Viehweg, E.: Logarithmic de Rham complexes and vanishing theorems, Inventiones math. 86 (1986), 161–194.
+
+[Fal88] Faltings, G.: Crystalline cohomology and p-adic Galois-representations, Algebraic analysis, geometry, and number theory (Baltimore, MD, 1988), 25-80, Johns Hopkins Univ. Press, Baltimore, MD, 1989.
+
+[Kat96] Katz, N.: Rigid local systems, Princeton University Press (1996).
+
+[LSZ13] Lan, G., Sheng, M., Zuo, K.: Semistable Higgs bundles, periodic Higgs bundles and representations of algebraic fundamental groups, J. Eur. Math. Soc. (JEMS) 21 (2019), no. 10, 3053–3112.
+
+[LSYZ19] Lan, G., Sheng, M., Yang, Y., Zuo, K.: Uniformization of p-adic curves via Higgs-de Rham flows, Journal für die reine und angewandte Mathematik (Crelles Journal) 747 (2019), 63–108.
+
+[Lan14] Langer, A.: Semistable modules over Lie algebroids in positive characteristic, Doc. Math. 19 (2014), 509–540.
+
+[Mo06] Mochizuki, T.: Kobayashi-Hitchin correspondence for tame harmonic bundles and an application, Astérisque 309 (2006), viii+117.
+
+[Nit93] Nitsure, N.: Moduli of semistable logarithmic connections, Jour. Amer. Math. Soc. 6 (1993) no 3, 597–609.
+
+[Sch08] Schepler, D.: Logarithmic nonabelian Hodge theory in characteristic p, https://arxiv.org/abs/0802.1977 (2008).
+
+[SYZ22] Sun, R., Yang, J., Zuo, K.: Projective crystalline representations of étale fundamental groups and twisted periodic Higgs-de Rham flow, J. Eur. Math. Soc. 24 (2022) no 6, 1991–2076.
+
+[Sim90] Simpson, C.: Harmonic bundles on non-compact curves, Jour. Amer. Math. Soc. 3 (1990) no 3, 713–770.
+
+[Sim94] Simpson, C.: Moduli of representations of the fundamental group of a smooth projective variety. I, Publ. math. Inst. Hautes Études Sci. 79 (1994), 47–129.
+
+[Xu19] Xu, D.: Relèvement de la transformée de Cartier d’Ogus-Vologodsky modulo p<sup>n</sup>, Mémoires de la SMF 163 (2019), 6–144.

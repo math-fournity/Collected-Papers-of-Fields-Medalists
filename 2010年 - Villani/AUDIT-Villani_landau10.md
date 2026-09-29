@@ -64,3 +64,10 @@
 - **系统性伪影（登记不改）**：ff→f（suficient/coeficients/efect/diferent/dificulties）。
 - **可用性结论**：修复后 md 可作该 note 忠实底本；与 Acta 长文（`Villani_Mouhot_2011_landau_published`）
   互为短长版本。
+
+### 修复登记（2026-09-29）
+- 14 组修复落实：(4)(5) 拆分为双 display（恢复 \tag{4}）；中文逗号 ×2；σ: 乱码；calong；
+  66 乱码（→“à la Sobolev”）；binfinite；作者区 Clément/Cédric/allée/CNRS DMA 重音与杂行；
+  ref[13] 乱码上标；ref[5]/[10] 游离 ´。
+- **更正**：总评原记 ";;×2" 系读档误判（实为 ";$" 跨界形态，非缺陷）——该项撤销。
+- ff→f 家族与源级 typo 按总评登记不改。
