@@ -174,3 +174,39 @@
   UNIVERSITY OF CALIFORNIA, BERKELEY ✓；REFERENCES + Ref 1 (Bott, Ann. of Math., 70 (1959),
   313-337) ✓
 - 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 405" 与页码未收）
+
+## p.017（PDF p.17 / 印刷 p.406）
+- PNG：audit/p017.png（pngmono 150dpi）；仲裁：audit/p017_300dpi.png + ref16b_zoom.png、
+  ref30_zoom.png（入库）
+- 核对：参考文献 2-30 逐条（作者/题名/刊名/卷页年）：2. Gluck (66 (1960), 282-284) ✓；
+  3. Hirsch to appear ✓；4. Kervaire (CMH 34 (1960), 304-312) ✓；5. Kervaire-Milnor to appear ✓；
+  6. Kurosh ✓；7. Mazur (65 (1959), 59-65) ✓；8. Milnor (AJM 81 (1959), 962-972) ✓；
+  9. Milnor (BSMF 87 (1959), 439-444) ✓；10. Milnor mimeographed ✓；11. Moise ✓；12. Morse ✓；
+  13. Morse (Ann. 71 (1960), 352-383) ✓；14/15. Munkres ✓；**16. Nielsen——300dpi 证实原刊即印
+  "Math. Ann., 9 (1919), 269-272"**（实刊为 Math. Ann. 91 (1924), 269-272——原刊卷/年双误，
+  md 忠实）✓；17. Palais ✓；18. Papakyriakopoulos ✓；**19. "THRELLFALL"**（原刊拼写，实为
+  Threlfall——源级笔误，md 忠实）✓；20/21. Smale ✓；22-25. Thom ✓（25 "caracteristiques"
+  无重音系原刊）✓；26. Wallace ✓；27/28. Whitehead ✓；29. Whitney ✓；
+  **30. Wu——300dpi 证实原刊即印 "Now Ser."**（应为 New Ser.，源级笔误，md 忠实）✓
+- 结果：**PASS±**（±：①页眉 "406 STEPHEN SMALE" 与页码未收；②Ref 16/19/30 三处系原刊实物）
+
+---
+
+## 总评
+
+- **覆盖声明**：17/17 页逐页目检（pngmono 150dpi，`audit/p001-p017.png`），每页五点比对后即时
+  落签并提交；300dpi 灰度仲裁 17 件入库（含 2x/3x/6x 放大 5 件）。mineru：standard 档云端解析
+  （JSTOR 扫描件）。
+- **数学内容可信度**：Theorems A-O（含微分结构表逐格）、(1.1)-(1.2) Handlebody Theorem、
+  (2.1)-(2.6)、(3.1)-(3.6)、(4.1)、(5.1)-(5.3)、(6.1)-(6.2)、(7.1)-(7.4) 及各证明的公式链逐式
+  核对全部吻合；30 条参考文献逐条对原刊核实。
+- **系统性瑕疵（PASS± 家族）**：①页眉/页码全篇未收；②JSTOR 封面页下载戳记未收；③原刊
+  𝓗/H 花体与斜体混用（md 逐处忠实）；④χ_V/χ_v 大小写混用（同上）。
+- **FAIL 清单（1 项）**：p.012 "k_e/g_e" → 原刊为 "k_ε/g_ε"（6x 放大仲裁）。
+- **原刊排印 quirk（md 忠实，不代改）**：①Theorem B 缺 "type"；②D_i^s×D_i^{k−s}（应 n−s）；
+  ③(h(x,y)=(r,x,y)（应 (rx,y)）；④γg=g₁+g₂/f_σ′(D₁)=gD₁ 未定义记号（应 φ₁+φ₂）；⑤(3.2) 缺
+  "H ∈"；⑥π_ε(V′)（应 π_s）；⑦D^{n−1}×i（应 ×{i}）；⑧"image of γ_i" 缺横杠（应 γ̄_i）；
+  ⑨(7.3) "exists—a" 长横线；⑩inline ∩/display × 不一致（∂H_i 与 ∂X₂′）；⑪Ref 16 "9 (1919)"
+  （实为 91 (1924)）；⑫Ref 19 "THRELLFALL"；⑬Ref 30 "Now Ser."。
+- **可用性结论**：修复 1 项 FAIL 后，本 md 可作为该文的忠实检索/阅读底本；定理陈述与公式链
+  逐字可信；阅读时应知：JSTOR 封面混入（实物如此）、页眉未收、上列 13 项原刊 quirk。
