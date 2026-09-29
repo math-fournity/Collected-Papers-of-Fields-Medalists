@@ -103,3 +103,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:24 | PAGE | Viazovska dim24 | p.5/17 | PASS± | 围道分解/(2.6)吻合
 2026-09-29 17:24 | PAGE | Viazovska dim24 | p.6/17 | PASS± | p(t)/p̃(r)数字逐位吻合
 2026-09-29 17:25 | PAGE | Viazovska dim24 | p.7/17 | PASS± | 特殊值/Taylor逐位吻合
+2026-09-29 17:25 | PAGE | Viazovska dim24 | p.8/17 | FAIL | S/T矩阵结构乱码
