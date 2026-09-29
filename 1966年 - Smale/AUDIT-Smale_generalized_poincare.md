@@ -163,3 +163,14 @@
     （与 inline 的 ∩ 不一致系原刊排印自身；md 逐处忠实）✓
 - 结果：**PASS±**（±：①页眉 "404 STEPHEN SMALE" 与页码未收；②exists—a 长横线与
   inline∩/display× 不一致均系原刊实物）
+
+## p.016（PDF p.16 / 印刷 p.405）
+- PNG：audit/p016.png（pngmono 150dpi）
+- 核对：χ(X₂′,f₁,…,f_k;3)≅X₂、X₃=χ(X₂′,f₁,…,f_k,g₁,…,g_l;3) ∈ **H**(n,k+l−r,3)（原刊此处
+  即印斜体 H 而非花体 𝓗——排印不一致，md 逐处忠实）✓；X_m′ ∈ 𝓗(n,r,m)、h^{-1}[n−m−(1/2),n]
+  =X_m^* ∈ 𝓗(n,k₁,m)、modify h by (7.3) ✓；Theorem I 证明（∂V=V₁−V₂、n=2m+2、(5.1) 替换、
+  index m+1）✓；**(7.4) LEMMA**（χ_v = Σ(−1)^q M_q + χ_{v₁}；χ_V/χ_v 大小写原刊混用，md 忠实）✓；
+  §8（M_m = M_{m+1}、f^{-1}[0,m+(1/2)] ∈ 𝓗(2m+1,M_m,m)）✓；Theorem G 收尾 ✓；
+  UNIVERSITY OF CALIFORNIA, BERKELEY ✓；REFERENCES + Ref 1 (Bott, Ann. of Math., 70 (1959),
+  313-337) ✓
+- 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 405" 与页码未收）
