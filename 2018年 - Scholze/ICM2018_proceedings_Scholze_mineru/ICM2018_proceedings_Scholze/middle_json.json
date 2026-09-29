@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.21284185493460167,
+            0.8436974789915966,
+            0.8002378121284186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Peter Scholze possesses a type of mathematical talent that emerges only rarely. He has the capacity to absorb and digest the entire frontier of a broad swath of mathematical research ranging over many diverse and often inchoate developments. What is more, he sees how to integrate these developments through stunning new syntheses that bring forth the simplicity that had previously been shrouded. Much of his work is highly abstract and foundational, but it also exhibits a keen sense of exactly which new concepts and techniques will enable proofs of important concrete results. His unifying vision is transforming mathematics. It was at a 2011 conference that Scholze, then still a doctoral student, first described the concept of perfectoid spaces, thereby setting of a revolution in algebraic and arithmetic geometry. The concept was quickly embraced by researchers the world over as just the right notion to clarify a wide variety of phenomena and shed new light on problems that had evaded solution for decades. Formulating the concept of perfectoid spaces required a new kind of thinking. One reason is simply that these spaces are huge. They transcend the usual finiteness conditions that researchers rely on to make mathematical objects tractable. Perfectoid spaces are not fractals but do exhibit the jagged structure and layered endlessness of fractals. They also resemble a mathematical solenoid, an infinite nested spiral that never closes up. Despite their intricacy, perfectoid spaces have brought about great unification and simplification. A precise definition of perfectoid spaces would be too technical for the present account. Instead, we present a brief description of some of the developments leading up to their conception. The basic object of study in algebraic geometry is an abstract space called an algebraic variety. On the most basic level, a variety is the solution set of a collection of polynomial equations. For example, consider the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + y ^ { 2 } = 3 z ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". If we regard the coeficients of this polynomial as real numbers, the variety that results is a geometric space that is easy to visualize, namely the surface of a three-dimensional cone. If we regard the coeficients as ranging over other kinds of numbers, we get abstract objects that might not be directly visualizable. For example,"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.37478991596638656,
+            0.14982164090368608,
+            0.6470588235294118,
+            0.16765755053507728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Work of Peter Scholze"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.44873949579831934,
+            0.18192627824019025,
+            0.5764705882352941,
+            0.1985731272294887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Allyn Jackson"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "page_number",
+          "index": 3,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5159663865546219,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8420168067226891,
+            0.20095124851367419
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "algebraic geometers often study varieties over the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 , 1 , 2 , . . . p - 1"
+            },
+            {
+              "type": "text",
+              "content": ", where p is a prime number. Endowed with “clock arithmetic”, this is called a field of characteristic"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ,"
+            },
+            {
+              "type": "text",
+              "content": "because if we add 1 to itself"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "times, we come back to 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.20214030915576695,
+            0.8436974789915966,
+            0.356718192627824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also much studied are varieties over the p-adic numbers (p again is a prime number). The p-adic numbers upend our usual intuition: We think of two numbers being close together when their diference is small, whereas two"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p { \\cdot }"
+            },
+            {
+              "type": "text",
+              "content": "-adic numbers are close together when their diference is a multiple of a high power of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { \\cdot }"
+            },
+            {
+              "type": "text",
+              "content": ". The p-adic numbers are a field of characteristic 0, because if we p-adically add 1 repeatedly to itself we never reach 0. Given a set of polynomial equations with integer coeficients, we obtain one variety over a field of characteristic"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ,"
+            },
+            {
+              "type": "text",
+              "content": "and a diferent variety with diferent properties over the p-adic numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.356718192627824,
+            0.8420168067226891,
+            0.5457788347205708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One of the great themes of 20th and 21st century mathematics is cohomology theory, which provides a set of lenses through which one can view properties of spaces. There are many diferent types of cohomology, corresponding to diferent kinds of properties the spaces have. The most basic type of topological cohomology, called singular cohomology, organizes information about the number of holes in a space. Another cohomology, called de Rham cohomology, organizes analytic information—that is, information about calculus structures on the space. A major achievement of what is known as Hodge theory, named for W.V.D. Hodge, is a theorem stating that, in the case of varieties over the complex numbers, singular and de Rham cohomologies are actually two diferent ways of getting the same information."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.5457788347205708,
+            0.8420168067226891,
+            0.7158145065398336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "During the 1960s, Alexander Grothendieck (a 1966 Fields Medalist) reworked the foundations of algebraic geometry and brought an entirely new, more general perspective to the notion of an abstract space. This led him and his co-workers to formulate a new kind of cohomology, called ´etale co-homology, which can be thought of as a purely algebraic version of singular cohomology. A crucial feature of ´etale cohomology is that, for a variety over a field of characteristic"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ,"
+            },
+            {
+              "type": "text",
+              "content": "it establishes a connection to the Galois group of the defining polynomials of the variety. A powerful tool from number theory, Galois groups encode a great deal of information about the structure of the solutions of polynomial equations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.7158145065398336,
+            0.8420168067226891,
+            0.8038049940546967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grothendieck conjectured that there should be a p-adic version of Hodge theory—that is, a method for comparing cohomologies of varieties over the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\mathrm { - }"
+            },
+            {
+              "type": "text",
+              "content": " adic numbers. In particular, he envisioned that such a theory would provide a way to compare ´etale cohomology to an algebraic version of de Rham cohomology."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8420168067226891,
+            0.2877526753864447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In pursuit of this conjecture, Jean-Marc Fontaine introduced some new objects that allowed him to relate Galois structure and diferential structure. To construct these objects, he developed a way to pass from the field of p-adic numbers to the field of characteristic p, a procedure that in today’s perfectoid parlance is called “tilting.” These fields can be viewed as zero-dimensional algebraic varieties possessing Galois representations. A major new insight came in the late 1970s, when Fontaine and Jean-Pierre Wintenberger proved that these two fields have the same Galois representations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.28894173602853745,
+            0.8420168067226891,
+            0.3733650416171225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This era also saw the proliferation of new analytic spaces adapted to the p-adic setting. The first was the theory of rigid-analytic varieties due to John Tate. Among the others subsequently proposed was Roland Huber’s theory of adic spaces, which went somewhat unnoticed until Scholze realized that they provided the correct setting for his perfectoid spaces."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.3745541022592152,
+            0.8420168067226891,
+            0.5279429250891795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can now say, indirectly and imprecisely, what perfectoid spaces are. They are abstract spaces that come equipped with ´etale cohomology and provide exactly the right setting for the p-adic Hodge theory that Grothendieck proposed. They are adic spaces that enable one to “tilt” from the p-adic numbers to characteristic p, thereby permitting the translation of tools for characteristic p to the setting of the p-adic numbers. And last but not least, perfectoid spaces allow the generalization of the Fontaine-Wintenberger theorem to n-dimensional varieties, thereby enabling the transport of Galoistheoretic information from the world of characteristic p to the p-adic world."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.5279429250891795,
+            0.8420168067226891,
+            0.7170035671819263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The creation of perfectoid spaces quickly led to dramatic advances. One of the first was Scholze’s application of the tilting operation to the weight monodromy conjecture of Pierre Deligne (1978 Fields Medalist). Since Deligne first proposed the conjecture in 1970, some cases of it were proved, including by Deligne himself. Through a perfectoid tilt of Deligne’s proof, Scholze was able to establish the conjecture in important new cases. In fact, it was pondering the weight monodromy conjecture that set Scholze on the path to defining the concept of perfectoid spaces. Scholze also proved a significant generalization of the “almost purity theorem” of Gerd Faltings (1986 Fields Medalist), which is one of the key ingredients of Faltings’ fundamental work in p-adic Hodge theory."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.7170035671819263,
+            0.8420168067226891,
+            0.8038049940546967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In addition, Scholze extended the foundational results of p-adic Hodge theory to a new setting. That such an extension should be possible was conjectured by Tate in 1966. Scholze showed that Tate’s rigid-analytic spaces are, in a local sense, perfectoid spaces. With his collaborators Bhargav Bhatt and Matthew Morrow, Scholze went on to develop an integral version of p-"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8403361344537815,
+            0.18430439952437574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "adic Hodge theory that relates the cohomology of the characteristic p fiber with the cohomology of the p-adic fiber."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.18549346016646848,
+            0.8420168067226891,
+            0.3733650416171225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A final example of Scholze’s achievements is his work on the cohomology of locally symmetric spaces, which reconfirms the power of the perfectoid viewpoint. In one of his deepest and most striking theorems, Scholze proved the existence of Galois representations attached to the cohomology of locally symmetric spaces. What is remarkable is that Scholze can treat torsion classes and obtain from them, using a limit procedure, the classical cohomology classes. Again, perfectoid spaces play a key role in the proof. This result represents a significant advance in and an enlargement of the Langlands program, which is a web of deep and far-reaching conjectures that were originated by Robert Langlands and that are driving a great deal of work in mathematics today."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.3733650416171225,
+            0.8420168067226891,
+            0.5790725326991677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Scholze is not simply a specialist in p-adic mathematics for a fixed p. For instance, he has recently been developing a sweeping vision of a “universal” cohomology that works over any field and over any space. In the 1960s, Grothendieck described his theory of motives, the goal of which was to build such a universal cohomology theory. While Vladimir Voevodsky (2002 Fields Medalist) made significant advances in developing the theory of motives, for the most part Grothendieck’s vision has gone unfulfilled. Scholze is coming at the problem from the other side, so to speak, by developing an explicit cohomology theory that in all observable ways behaves like a universal cohomology theory. Whether this theory fulfills the motivic vision then becomes a secondary question. Mathematicians the world over are following these developments with great excitement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.5790725326991677,
+            0.8436974789915966,
+            0.7158145065398336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of Peter Scholze is in one sense radically new, but in another sense represents an enormous expansion, unification, and simplification of ideas that were already in the air. It was as if a room were in semi-darkness, with only certain corners illuminated, when Scholze’s work caused the flip of a light switch, revealing in bright detail the features of the room. The efect was exhilarating if rather disorienting. Once mathematicians had adjusted to the new light, they began applying the perfectoid viewpoint to a host of outstanding problems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.7158145065398336,
+            0.8420168067226891,
+            0.8038049940546967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The clarity of Scholze’s lectures and written expositions played a large role in making the prospect of joining the perfectoid adventure appear so attractive to so many mathematicians, as has his personality, universally described as kind and generous. Just 30 years of age, Peter Scholze is sure to continue to make ground-breaking contributions and to remain a profoundly"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.46050420168067224,
+            0.16884661117717004
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "inspiring figure in mathematics."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.519327731092437,
+            0.835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}
