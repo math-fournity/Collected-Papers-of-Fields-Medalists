@@ -110,3 +110,21 @@
   regular homotopy [29]、β=0、S^s×D^{n−s} 乘积）✓；σ₁/f̄ 同伦段（orientation reversing 注）✓；
   f_ε/g_ε/r_ε/k_ε/p_x 构造段（D_ε^{n−s−1}、(x, εy)、F_x fibre、σ^{-1}g_ε(x,0)）✓
 - 结果：**PASS±**（±：页眉 "400 STEPHEN SMALE" 与页码未收）
+
+## p.012（PDF p.12 / 印刷 p.401）
+- PNG：audit/p012.png（pngmono 150dpi）；仲裁：audit/p012_300dpi.png + keps_zoom6x.png、
+  pis_zoom2x.png、dni_300dpi.png、gammabar_zoom.png（入库）
+- 核对：
+  - "It can be proved k_ε and g_ε are differentiably isotopic"——6x 证实原刊下标为 **ε**，
+    **md 作 k_e/g_e → FAIL**（修复：e→\varepsilon）；referee/tubular neighborhood theorem 注 ✓
+  - (3.3) 证明收尾：V′=χ(H_β;f′;s+1)、**π_ε(V′)=0**——300dpi 证实原刊即印 **ε 下标**
+    （数学上应预期 π_s；源级笔误）——md 忠实 ✓；replace f/f′ by k_ε/k_ε′、hf=f′、image f∩F_x ✓
+  - M₁ⁿ/M₂ⁿ 段：**f_i: D^{n−1}×i → ∂M_i**——300dpi 证实原刊即印小写 i（应预期 ×{i}/×I；
+    源级笔误）——md 忠实 ✓；M₁+M₂ 定义 ✓；**(3.4)** ✓；**(3.5)** + PROOF（φ(D^s)、T cell、
+    H_β、V∈M+H_β）✓
+  - (3.1) 证明开头：H=χ(Dⁿ;f₁,⋯,f_k;s)、γ̄_i ∈ π_s(H,Dⁿ)、"Let γ_i ∈ π_s(∂H) be the image of
+    **γ_i**"——300dpi 证实原刊第二个 γ_i **无横杠**（应预期 γ̄_i；源级笔误）——md 忠实 ✓；
+    gD_i=γ_i (i≤k)、gD_i=0 (i>k) ✓；**(3.6)** ✓
+- 结果：**FAIL（单点）**：k_e/g_e → k_ε/g_ε（6x 仲裁）。
+- 备注：± ①页眉 "POINCARÉ CONJECTURE 401" 与页码未收；②π_ε(V′)/D^{n−1}×i/γ_i 缺横杠
+  三处均系原刊实物。
