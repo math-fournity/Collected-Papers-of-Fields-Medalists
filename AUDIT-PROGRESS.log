@@ -50,3 +50,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 15:52 | NOTE | 提示词补充「启动位置」：ZCode 会话必须在目标 repo 根（Collected-Papers-of-Fields-Medalists）启动，非 shuxuedashi-worktree
 2026-09-29 15:55 | START | Atiyah-Singer index | 12p | PNG渲染完成（pngmono 150dpi p001-p012）
 2026-09-29 15:58 | PAGE | Atiyah-Singer index | p.1/12 | PASS± | 前篇尾巴如实转写；页眉未收
+2026-09-29 15:58 | PAGE | Atiyah-Singer index | p.2/12 | PASS± | σ(D)/γ(D)/伴随全吻合；页眉未收
