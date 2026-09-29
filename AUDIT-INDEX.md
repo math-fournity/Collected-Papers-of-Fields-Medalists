@@ -16,3 +16,4 @@
 | 1966年 - Cohen | Independence of CH (PNAS) | 6 | ✅ | ✅ 完成（6/6 全PASS） | [AUDIT-Cohen.md](1966年%20-%20Cohen/AUDIT-Cohen.md) |
 | 1962年 - Milnor | Exotic 7-sphere (Ranicki扫描) | 7 | ✅ | ✅ 完成（7/7 全PASS） | [AUDIT-Milnor.md](1962年%20-%20Milnor/AUDIT-Milnor.md) |
 | 2006年 - Perelman | Finite extinction time (arXiv) | 7 | ✅ | ✅ 完成（7/7；⚠️p6多一"4"经LaTeX源裁决） | [AUDIT-Perelman_finite_extinction.md](2006年%20-%20Perelman/AUDIT-Perelman_finite_extinction.md) |
+| 1990年 - Jones | Knot polynomial via von Neumann algebras | 9 | ✅ | ✅ 完成（9/9 全PASS，表转文本） | [AUDIT-Jones.md](1990年%20-%20Jones/AUDIT-Jones.md) |
