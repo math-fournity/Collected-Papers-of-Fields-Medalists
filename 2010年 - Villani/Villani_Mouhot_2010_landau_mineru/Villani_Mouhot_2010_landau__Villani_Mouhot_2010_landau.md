@@ -30,7 +30,7 @@ The Landau damping has been since long understood at the linearized level [3, 8,
 
 ## 2. Main result
 
-If f is a function defined on$\mathbb { T } ^ { d } \times \mathbb { R } ^ { d }$, we note, for any$k \in  { \mathbb { Z } ^ { d } }$and$\eta \in \mathbb { R } ^ { d }$，
+If f is a function defined on$\mathbb { T } ^ { d } \times \mathbb { R } ^ { d }$, we note, for any$k \in  { \mathbb { Z } ^ { d } }$and$\eta \in \mathbb { R } ^ { d }$, 
 
 $$
 \widehat {f} (k, v) = \int_ {\mathbb {T} ^ {d}} f (x, v) e ^ {- 2 i \pi k \cdot x} d x, \quad \widetilde {f} (k, \eta) = \iint_ {\mathbb {T} ^ {d} \times \mathbb {R} ^ {d}} f (x, v) e ^ {- 2 i \pi k \cdot x} e ^ {- 2 i \pi \eta \cdot v} d v d x.
@@ -42,7 +42,7 @@ $$
 \| f \| _ {\lambda , \mu , \beta} = \sup _ {k, \eta} \Bigl (| \widetilde {f} (k, \eta) | e ^ {2 \pi \lambda | \eta |} e ^ {2 \pi \mu | k |} \Bigr) + \iint_ {\mathbb {T} ^ {d} \times \mathbb {R} ^ {d}} | f (x, v) | e ^ {2 \pi \beta | v |} d v d x.\tag{3}
 $$
 
-Theorem 1 (nonlinear Landau damping for general interaction). Let d$\geq 1$, and $f ^ { 0 } : \mathbb { R } ^ { d }  \mathbb { R } _ { + }$an analytic velocity profile. Let$W :  { \mathbb { T } } ^ { d } \to  { \mathbb { R } }$be an interaction potential. For any k$\mathbf { \sigma } : \in \mathbb { Z } ^ { d } , \mathbf { \sigma } \xi \in \mathbb { C }$, we set
+Theorem 1 (nonlinear Landau damping for general interaction). Let d$\geq 1$, and $f ^ { 0 } : \mathbb { R } ^ { d }  \mathbb { R } _ { + }$an analytic velocity profile. Let$W :  { \mathbb { T } } ^ { d } \to  { \mathbb { R } }$be an interaction potential. For any$k \in \mathbb { Z } ^ { d } , \ \xi \in \mathbb { C }$, we set
 
 $$
 \mathcal {L} (k, \xi) = - 4 \pi^ {2} \widehat {W} (k) \int_ {0} ^ {\infty} e ^ {2 \pi | k | \xi^ {*} t} | \widetilde {f} ^ {0} (k t) | | k | ^ {2} t d t.
@@ -50,10 +50,12 @@ $$
 
 We assume that there is$\lambda > 0$such that, for ǫ small enough,
 
-(4)
+$$
+\sup _ {\eta \in \mathbb {R} ^ {d}} | \widetilde {f} ^ {0} (\eta) | e ^ {2 \pi \lambda | \eta |} \leq C _ {0},\tag{4}
+$$
 
 $$
-\sup _ {\eta \in \mathbb {R} ^ {d}} | \widetilde {f} ^ {0} (\eta) | e ^ {2 \pi \lambda | \eta |} \leq C _ {0}, \quad \sum_ {n \in \mathbb {N} ^ {d}} \frac {\lambda^ {n}}{n !} \| \nabla_ {v} ^ {n} f ^ {0} \| _ {L ^ {1} (d v)} \leq C _ {0},\tag{5}
+\sum_ {n \in \mathbb {N} ^ {d}} \frac {\lambda^ {n}}{n !} \| \nabla_ {v} ^ {n} f ^ {0} \| _ {L ^ {1} (d v)} \leq C _ {0},\tag{5}
 $$
 
 $$
@@ -64,7 +66,7 @@ $$
 \exists \gamma \geq 1; \forall k \in \mathbb {Z} ^ {d}; \quad | \widehat {W} (k) | \leq \frac {C _ {W}}{| k | ^ {1 + \gamma}}.
 $$
 
-Then as soon as$0 < \lambda ^ { \prime } < \lambda , 0 < \mu ^ { \prime } < \mu , \beta > 0 , r \in \mathbb { N }$, there are$\varepsilon > 0$and$C > 0$，depending on$d , \gamma , \lambda , \lambda ^ { \prime } , \mu , \mu ^ { \prime } , C _ { 0 } , \kappa , C _ { W } , \beta , r ,$such that if$f _ { i } \geq 0$satisfies
+Then as soon as$0 < \lambda ^ { \prime } < \lambda , 0 < \mu ^ { \prime } < \mu , \beta > 0 , r \in \mathbb { N }$, there are$\varepsilon > 0$and$C > 0$, depending on$d , \gamma , \lambda , \lambda ^ { \prime } , \mu , \mu ^ { \prime } , C _ { 0 } , \kappa , C _ { W } , \beta , r ,$such that if$f _ { i } \geq 0$satisfies
 
 $$
 \delta := \| f _ {i} - f ^ {0} \| _ {\lambda , \mu , \beta} \leq \varepsilon ,\tag{7}
@@ -144,7 +146,7 @@ Since Landau, this study is traditionally performed thanks to the Laplace transf
 
 With this method we establish the linear Landau damping, under conditions (5) and (4), for any interaction W such that$\nabla W \in L ^ { 1 } (  { \mathbb { T } } ^ { d } )$, and any analytical initial condition (without any size restriction in this linear context). We recover as particular cases all the results previously established on the linear Landau damping [3, 8, 10]; but we also cover for instance Newton interaction. Indeed, condition (5) is satisfied as soon as any one of the following conditions is satisfied:
 
-(a)$\forall k \in \mathbb { Z } ^ { d } , \forall z \in \mathbb { R } , \widehat { W } ( k ) \geq 0 , z \phi _ { k } ^ { \prime } ( z ) \leq 0 .$, where$\phi _ { k }$is the “marginal” of$f ^ { 0 }$ calong the direction k, defined by
+(a)$\forall k \in \mathbb { Z } ^ { d } , \forall z \in \mathbb { R } , \widehat { W } ( k ) \geq 0 , z \phi _ { k } ^ { \prime } ( z ) \leq 0 .$, where$\phi _ { k }$is the “marginal” of$f ^ { 0 }$ along the direction k, defined by
 
 $$
 \phi_ {k} (z) = \int_ {\frac {k z}{| k |} + k ^ {\perp}} f ^ {0} (w) d w;
@@ -166,7 +168,7 @@ $$
 \left\| f \right\| _ {\mathcal {Z} _ {\tau} ^ {\lambda_ {1} (\mu , \gamma); p}} = \sum_ {k \in \mathbb {Z} ^ {d}} \sum_ {n \in \mathbb {N} ^ {d}} e ^ {2 \pi \mu | k |} (1 + | k |) ^ {\gamma} \frac {\lambda^ {n}}{n !} \left\| \left(\nabla_ {v} + 2 i \pi \tau k\right) ^ {n} \widehat {f} (k, v) \right\| _ {L ^ {p} (d v)}.\tag{13}
 $$
 
-(By default$\gamma = 0 . )$A tedious injection theorem${ } ^ { 6 6 } \mathrm { \dot { a } }$la Sobolev” compares these norms to more traditional ones, such as the$\| f \| _ { \lambda , \mu , \beta }$norms appearing in (3).
+(By default$\gamma = 0 . )$A tedious injection theorem“à la Sobolev” compares these norms to more traditional ones, such as the$\| f \| _ { \lambda , \mu , \beta }$norms appearing in (3).
 
 The$\mathcal { Z }$norms enjoy remarkable properties with respect to composition and product. The parameter$\tau$partly compensates for filamentation. Finally, the hybrid nature of these norms is well adapted to the geometry of the problem. If$f$depends only on$x ,$, the norm (13) coincides with the norm$\mathcal { F } ^ { \lambda \tau + \mu , \gamma }$defined by
 
@@ -240,7 +242,7 @@ The kernel$K ( t , \tau )$has integral$O ( t )$as$t \to \infty$, which would let
 
 Then we analyze the nonlinear response due to echoes. If$\gamma > 1$, from (21) one deduces that the response is subexponential, and therefore can be controlled by an arbitrarily small loss of gliding regularity, at the price of a gigantic constant, which later will be absorbed by the ultrafast convergence of the Newton scheme. In the end, part of the gliding regularity of$\overline { { f } }$has been converted into a large-time decay.
 
-When$\gamma = 1$, a finer strategy is needed. To handle this case, we work on the response mode by mode, that is, estimating the size of${ \widehat { \rho } } ( t , k )$for all$k ,$via an binfinite system of inequalities. Then we are able to take advantage of the fact that echoes occurring at diferent frequencies are asymptotically rather well separated. For instance, in dimension 1, the dominant echo occurring at time t and frequency $k$corresponds to$\tau = k t / ( k + 1 )$
+When$\gamma = 1$, a finer strategy is needed. To handle this case, we work on the response mode by mode, that is, estimating the size of${ \widehat { \rho } } ( t , k )$for all$k ,$via an infinite system of inequalities. Then we are able to take advantage of the fact that echoes occurring at diferent frequencies are asymptotically rather well separated. For instance, in dimension 1, the dominant echo occurring at time t and frequency $k$corresponds to$\tau = k t / ( k + 1 )$
 
 In practice, straight trajectories in (21) must be replaced by characteristics (this reflects the fact that$\overline { { f } }$also exerts a force on$f )$, which is a source of considerable technical dificulties. Among the tools used to overcome them, let us mention a second mechanism of regularity extortion, acting in short time and close in spirit to velocity-averaging lemmas; here is a simplified version of it:
 
@@ -260,7 +262,7 @@ We see in (22) that the regularity of$\sigma$is better than that of$F [ f ]$, wi
 
 [4] Glassey, R., and Schaeffer, J. On time decay rates in Landau damping. Comm. Partial Diferential Equations 20, 3-4 (1995), 647–676.
 
-[5] Hwang, J.-H., and Velazquez, J. ´ On the existence of exponentially decreasing solutions of the nonlinear landau damping problem. Preprint, 2008.
+[5] Hwang, J.-H., and Velazquez, J. On the existence of exponentially decreasing solutions of the nonlinear landau damping problem. Preprint, 2008.
 
 [6] Landau, L. On the vibration of the electronic plasma. J. Phys. USSR 10 (1946), 25. English translation in JETP 16, 574. Reproduced in Collected papers of L.D. Landau, edited and with an introduction by D. ter Haar, Pergamon Press, 1965, pp. 445–460; and in Men of Physics: L.D. Landau, Vol. 2, Pergamon Press, D. ter Haar, ed. (1965).
 
@@ -270,24 +272,22 @@ We see in (22) that the regularity of$\sigma$is better than that of$F [ f ]$, wi
 
 [9] Mouhot, C., and Villani, C. On the landau damping. Available online at http://arxiv.org/abs/0904.2760. Preprint, 2009.
 
-[10] Saenz, A. W.´ Long-time behavior of the electic potential and stability in the linearized Vlasov theory. J. Mathematical Phys. 6 (1965), 859–875.
+[10] Saenz, A. W. Long-time behavior of the electic potential and stability in the linearized Vlasov theory. J. Mathematical Phys. 6 (1965), 859–875.
 
 [11] Villani, C. Hypocoercivity. To appear in Mem. Amer. Math. Soc.
 
 [12] Villani, C. A review of mathematical topics in collisional kinetic theory. In Handbook of mathematical fluid dynamics, Vol. I. North-Holland, Amsterdam, 2002, pp. 71–305.
 
-[13] Vlasov, A. A. On the oscillation properties of an electron gas. Zh. Eksper. Teoret. Fiz. 8 <sup>\`</sup> (1938), 291–318.
+[13] Vlasov, A. A. On the oscillation properties of an electron gas. Zh. Eksper. Teoret. Fiz. 8 (1938), 291–318.
 
-Cl´ement Mouhot
+Clément Mouhot
 
-University of Cambridge DAMTP, Centre for Mathematical Sciences Wilberforce Road Cambridge CB3 0WA ENGLAND On leave from: ENS Paris & CNRS<sup>´</sup> DMA, UMR CNRS 8553 45 rue d’Ulm F 75320 Paris cedex 05 FRANCE
+University of Cambridge DAMTP, Centre for Mathematical Sciences Wilberforce Road Cambridge CB3 0WA ENGLAND On leave from: ENS Paris & CNRS DMA, UMR CNRS 8553 45 rue d’Ulm F 75320 Paris cedex 05 FRANCE
 
 e-mail: Clement.Mouhot@ens.fr
 
-C´edric Villani
+Cédric Villani
 
-C. MOUHOT AND C. VILLANI
-
-ENS Lyon & Institut Universitaire de France UMPA, UMR CNRS 5669 46 all´ee d’Italie 69364 Lyon Cedex 07 FRANCE
+ENS Lyon & Institut Universitaire de France UMPA, UMR CNRS 5669 46 allée d’Italie 69364 Lyon Cedex 07 FRANCE
 
 e-mail: cvillani@umpa.ens-lyon.fr
