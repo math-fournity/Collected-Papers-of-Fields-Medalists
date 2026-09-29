@@ -157,3 +157,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.5/5 | FAIL | 收尾段丢失
 2026-09-29 18:59 | DONE | ICM2018 Venkatesh | 5/5 | 3点FAIL已修复 | 累计32/140
 2026-09-29 19:07 | PAGE | Superrigidity exposition | p.1-6/6 | FAIL族 | cmap损坏：𝔨/pq/ă/ˆ/丢箭头/θ/Hausdorff/𝔞∈𝔫/交换图
+2026-09-29 19:09 | DONE | Superrigidity exposition | 6/6 | cmap族33处已修复 | 累计33/140
