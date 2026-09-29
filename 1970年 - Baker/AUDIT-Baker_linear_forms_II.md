@@ -72,3 +72,29 @@
     **md 作 e^{−h\kappa}（乘积）→ FAIL**（md 行 324；行 330 的同形待 p.6 裁定）
 - 结果：**FAIL（单点）**：e^{−hκ}→e^{−h^{\kappa}}。
 - 备注：± 页眉 "106 A. BAKER" 未收。
+
+## p.006（PDF p.6 / 印刷 p.107）
+- PNG：audit/baker2_p006.png（pngmono 150dpi；指数形态与 p.5 8x 裁定同族一致）
+- 核对：|φ_j(0)−Ψ_j|⩽(R+1)e^{2hk}(c₆L)^R e^{−h^κ}（PNG κ 上标；md 乘积 → FAIL①）；
+  L⩽h^{ζ(1−ε)}/R⩽h^{nζ}/κ>ζ(2n+1)、"at most e^{−½h^κ}"（PNG 上标；md 乘积 → FAIL②）；
+  **(8)** log|Ψ_j|<−½h^κ/log h ✓（md 幂形正确）；Vandermonde Δ 定义与 ∏(ψ_s−ψ_r) ✓；
+  |ψ_s−ψ_r|>c₂^{−L}、(L+1)^{2n} 对、log|Δ|⩾−c₇k^{2n+1}⩾−c₈h^{ζ(2n+1)} ✓；p₀≠0、行变换
+  行列式展示 ✓；log|Δ|⩽log((R+1)!)+R²log(c₉k)−½h^κ/log h、R²⩽k^{2n}、(R+1)!⩽k^{nk^n} ✓；
+  log|Δ|⩽−¼h^κ/log h、矛盾收尾 ✓；Trinity College, Cambridge ✓
+- 结果：**FAIL（三点）**：①②两处乘积 hκ→h^{\kappa}；③**(Received on the 21st of March, 1967.)**
+  收稿行整行丢失（页脚右下，md 未收）。修复：两处指数 + 补收稿行。
+- 备注：± 页眉 "…107" 未收。
+
+---
+
+## 总评
+
+- **覆盖声明**：6/6 页逐页目检（pngmono 150dpi）+ 300dpi 仲裁 6 件（含 4x/6x/8x 放大 5 件）。
+  扫描件文本层噪声大，未作对账依据。mineru：standard 档云端解析（OCR）。
+- **数学内容可信度**：Theorems 1-3、(1)-(8)、Lemmas 1-5 及证明的公式链逐式核对；**κ 指数被
+  mineru 系统性识成乘积或 `*` 共 8 处**（(3)/(6)/双和界×2/|φ(w)| 花括号/星号/e^{−hκ}×2——
+  全部按 300dpi 修复为 h^{κ} 幂形），是本篇最主要伪影家族（已录入 HANDOFF §4 坑清单）。
+- **原刊排印 quirk（md 忠实，不代改）**：①"pseudo efective"（Baker II 无此词——该项属 citation
+  篇，此处略）；本篇未发现源级笔误；脚注 †（Ax/Leopoldt）完整保留。
+- **可用性结论**：修复后 md 可作该文忠实底本；阅读时应知：页眉/页码未收、脚注位置漂移、
+  7 个孤立碎片 span（p.1）。本篇与 (I) 俄译件（AUDIT-Baker_linear_forms_ru.md）配套阅读。
