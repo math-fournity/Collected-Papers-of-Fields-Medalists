@@ -4,11 +4,11 @@
 
 ## 1 Statement and some Corollaries
 
-Throughout, we assume that$K / \mathscr { R }$is an extension of fields, with k a local field of characteristic zero, and K algebraically closed.
+Throughout, we assume that$K / \mathfrak { k }$is an extension of fields, with k a local field of characteristic zero, and K algebraically closed.
 
-Theorem 1.1 (Margulis Superrigidity). Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with$\mathbb { R } - \mathrm { r k } ( G ) \geq 2$ and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact R-algebraic group. Suppose$\pi \colon \Gamma \to H$is a homomorphism with πpΓq Zariski dense. Then π extends to a rational homomorphism $G  H$
+Theorem 1.1 (Margulis Superrigidity). Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with$\mathbb { R } - \mathrm { r k } ( G ) \geq 2$ and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact R-algebraic group. Suppose$\pi \colon \Gamma \to H$is a homomorphism with π(\Gamma) Zariski dense. Then π extends to a rational homomorphism $G \to H$
 
-## 2 Proof of Margulis Superrigidity for$\mathcal { k } = \mathbb { R }$
+## 2 Proof of Margulis Superrigidity for$\mathfrak { k } = \mathbb { R }$
 
 Proposition 2.1. Suppose$P < G$and$L < H$are proper algebraic R-subgroups, and there is a rational Γ-equivariant map ϕ:$G / P \to H / L$defined over R. Then π extends to a rational homomorphism$G  H$
 
@@ -126,7 +126,7 @@ But this map is rational for fixed$^ { g , }$and so$\phi | _ { U _ { i } }$is ra
 
 Proposition 2.7. Any Γ-equivariant measurable map ϕ:$G / P \to H / L$is rational.
 
-Proof. Abusing notation, instead let ϕ denote the P-invariant map$G  H / L$. Let$\mathcal { F } ( C _ { i } , H / L )$denote the space of measurable maps$C _ { i } \to H / L$, modulo a.e. equivalence. Consider the function$\Phi \colon G \to { \mathcal { F } } ( C _ { i } , H / L )$ given by
+Proof. Abusing notation, instead let ϕ denote the P-invariant map$G \to H / L$. Let$\mathcal { F } ( C _ { i } , H / L )$denote the space of measurable maps$C _ { i } \to H / L$, modulo a.e. equivalence. Consider the function$\Phi \colon G \to { \mathcal { F } } ( C _ { i } , H / L )$ given by
 
 $$
 \Phi (g) (c) = \phi (g c).
@@ -152,9 +152,9 @@ Theorem 3.1 (Howe-Moore Vanishing Theorem). Suppose G is a semisimple connected 
 
 Theorem 3.2 (Smoothness of Actions). Suppose H is k-group.
 
-(i) Suppose Q is a k-cocompact algebraic subgroup in H. Then$H _ { \hbar }$acts smoothly on$\mathcal { M } ( H _ { \mathcal { R } } / Q _ { \mathcal { R } } )$
+(i) Suppose Q is a k-cocompact algebraic subgroup in H. Then$H _ { \mathfrak { k } }$acts smoothly on$\mathcal { M } ( H _ { \mathcal { R } } / Q _ { \mathcal { R } } )$
 
-(ii) Suppose V is a k-variety, and H acts k-regularly on V. Then for any σ-finite measure space X, the $H _ { \hbar }$acts smoothly on${ \mathcal { F } } ( X , V _ { \mathbb { R } } )$
+(ii) Suppose V is a k-variety, and H acts k-regularly on V. Then for any σ-finite measure space X, the $H _ { \mathfrak { k } }$acts smoothly on${ \mathcal { F } } ( X , V _ { \mathbb { R } } )$
 
 Theorem 3.3 (Borel Density). Suppose G is a connected semisimple algebraic R-group with no compact factors. Then any lattice in G is Zariski dense.
 
@@ -168,7 +168,7 @@ $$
 \exp (g) = \sum_ {k = 0} ^ {\infty} \frac {g ^ {k}}{k !}
 $$
 
-is in fact a regular map, since a P n is nilpotent (and so the sum is zero after m terms). Moreover, exp has an inverse log :$N _ { m } \to \mathfrak { n } _ { m }$given by
+is in fact a regular map, since $\mathfrak { a } \in \mathfrak { n }$ is nilpotent (and so the sum is zero after m terms). Moreover, exp has an inverse log :$N _ { m } \to \mathfrak { n } _ { m }$given by
 
 $$
 \log (g) = \sum_ {k = 0} ^ {\infty} (- 1) ^ {k} \frac {(g - \mathrm{id}) ^ {k}}{k !},
@@ -179,7 +179,7 @@ which is again a regular map. Thus, if u is the Lie algebra of U, then$\exp \col
 As π is a measurable homomorphism, it is automatically continuous, hence automatically smooth. Let dπ :$\mathfrak { u } \to \mathfrak { g l } _ { n } ( \mathbb { R } )$denote the derivative of π at the identity; since π has unipotent image, the codomain of dπ may be taken to be the Lie algebra${ \mathfrak { n } } _ { n }$. Then we have a commutative diagram
 
 $$
-\begin{array}{c} U \xrightarrow {\pi} N _ {n} \\ \log \Biggl \downarrow \\ \mathfrak {u} \xrightarrow {d \pi} \mathfrak {n} _ {n} \end{array} \Bigg | _ {\text {exp}}
+\begin{array}{ccc} U & \xrightarrow {\ \pi \ } & N _ {n} \\ \log \downarrow & & \uparrow \exp \\ \mathfrak {u} & \xrightarrow {\ d \pi \ } & \mathfrak {n} _ {n} \end{array}
 $$
 
 But log and exp are regular and dπ is linear, hence π is regular.
@@ -202,7 +202,7 @@ $$
 f (x, y) = \frac {y ^ {r} + \sum_ {i = 0} ^ {r - 1} a _ {i} (x) y ^ {i}}{\sum_ {i = 0} ^ {s} b _ {i} (x) y ^ {i}}.
 $$
 
-It thus sufices to show that the functions$a _ { i } , b _ { i }$are essentially rational. However, if we let$\lambda _ { 1 } , . . . , \lambda _ { r + s + 1 } \in ]$R denote a set such that, for each$j , f ( \cdot , \lambda _ { j } )$is essentially rational; then the$a _ { i } , b _ { i }$are solutions to the system of equations
+It thus sufices to show that the functions$a _ { i } , b _ { i }$are essentially rational. However, if we let$\lambda _ { 1 } , . . . , \lambda _ { r + s + 1 } \in \mathbb { R }$ denote a set such that, for each$j , f ( \cdot , \lambda _ { j } )$is essentially rational; then the$a _ { i } , b _ { i }$are solutions to the system of equations
 
 $$
 f _ {\lambda_ {j}} (x) = \frac {\lambda_ {j} ^ {r} + \sum_ {i = 0} ^ {r - 1} a _ {i} (x) \lambda_ {j} ^ {i}}{\sum_ {i = 0} ^ {s} b _ {i} (x) \lambda_ {j} ^ {i}}.
@@ -214,17 +214,17 @@ This is a system of equations over the field$\mathbb { C } ( x )$with$r + s + 1$
 
 Note that the only place in which we used that H was an algebraic R-group was in the proof of Proposition 2.2., where we used the fact that L was an algebraic R-group. For general local fields k this is not true; we instead have the following result:
 
-Proposition 4.1. Suppose H is a connected k-group, almost simple over$\mathcal { k }$, and that$Q < H$is a proper k-cocompact subgroup. Then for any$\mu \in \mathcal { M } ( H _ { \mathcal { k } } / Q _ { \mathcal { k } } )$, either
+Proposition 4.1. Suppose H is a connected k-group, almost simple over$\mathfrak { k }$, and that$Q < H$is a proper k-cocompact subgroup. Then for any$\mu \in \mathcal { M } ( H _ { \mathfrak { k } } / Q _ { \mathfrak { k } } )$, either
 
-(i) the stabilizer$\left( H _ { \hbar } \right) _ { \mu }$of µ in$H _ { \hbar }$is compact, or;
+(i) the stabilizer$\left( H _ { \mathfrak { k } } \right) _ { \mu }$of µ in$H _ { \mathfrak { k } }$is compact, or;
 
-(ii) there is an algebraic k-group$L < G$with dim L ă dim G and$L _ { \mathcal { k } } \supseteq ( H _ { \mathcal { k } } ) _ { \mu }$
+(ii) there is an algebraic k-group$L < G$with dim L < dim G and$L _ { \mathfrak { k } } \supseteq ( H _ { \mathfrak { k } } ) _ { \mu }$
 
-Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection$H _ { \mathbb { R } } \mu \to H _ { \mathbb { R } } / L _ { \mathbb { R } } ;$: by smoothness the natural map$H _ { \hbar } \mu \to H _ { \hbar } / ( H _ { \hbar } ) _ { \mu }$ is a homeomorphism and$L _ { \mathcal { k } }$is a proper closed subgroup containing$\left( H _ { \hbar } \right) _ { \mu }$, and all maps are obviously Γ- equivariant, so we again obtain a map$G / P \to H _ { \hbar } / L _ { \hbar }$. Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity.
+Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection$H _ { \mathbb { R } } \mu \to H _ { \mathbb { R } } / L _ { \mathbb { R } } ;$: by smoothness the natural map$H _ { \mathfrak { k } } \mu \to H _ { \mathfrak { k } } / ( H _ { \mathfrak { k } } ) _ { \mu }$ is a homeomorphism and$L _ { \mathfrak { k } }$is a proper closed subgroup containing$\left( H _ { \mathfrak { k } } \right) _ { \mu }$, and all maps are obviously Γ- equivariant, so we again obtain a map$G / P \to H _ { \mathfrak { k } } / L _ { \hbar }$. Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity.
 
-Proposition 4.2. Suppose Γ is a locally compact group,$( X , \mu )$is a quasi-invariant Γ-space with quasi-invariant measure, and the action of Γ on X is weak mixing. Let$\pi \colon \Gamma  H$be a homomorphism with H also locally compact, and suppose there exists a measurable Γ-equivariant map$\phi \colon X \to H / K$, where$K \leqslant H$ is a compact subgroup. Then$\overline { { \pi ( \Gamma ) } }$is compact.
+Proposition 4.2. Suppose Γ is a locally compact group,$( X , \mu )$is a quasi-invariant Γ-space with quasi-invariant measure, and the action of Γ on X is weak mixing. Let$\pi \colon \Gamma \to H$be a homomorphism with H also locally compact, and suppose there exists a measurable Γ-equivariant map$\phi \colon X \to H / K$, where$K \leqslant H$ is a compact subgroup. Then$\overline { { \pi ( \Gamma ) } }$is compact.
 
-Proof. Without loss of generality, we may choose µ to be a probability measure on$X$, so that$\nu = \phi _ { * } \mu$is a probability measure on$H / K$. The map$\phi \times \phi \colon X \times X \to H / K \times H / K$is still Γ-equivariant; moreover, since the action of Γ is weak mixing,$\mu \times \mu$is ergodic, and so ν ˆ ν is ergodic. Now, the action of K on H is smooth by compactness of K, and hence the action of H on$H / K \times H / K$is smooth. Therefore, the induced map $\bar { \phi } \colon X \times X \to H \backslash ( H / K \times H / K )$is Γ-invariant, and since the quotient space is countably separated, it follows that the map is essentially constant, and so$\nu \times \nu$is supported on an H-orbit$\mathcal { O } = H ( u , v )$. By Fubini’s theorem, there must exist$x \in H$so that ν is supported on the slice$E _ { x } = \{ y K \in H / K : ( x K , y K ) \in \theta \}$
+Proof. Without loss of generality, we may choose µ to be a probability measure on$X$, so that$\nu = \phi _ { * } \mu$is a probability measure on$H / K$. The map$\phi \times \phi \colon X \times X \to H / K \times H / K$is still Γ-equivariant; moreover, since the action of Γ is weak mixing,$\mu \times \mu$is ergodic, and so $\nu \times \nu$ is ergodic. Now, the action of K on H is smooth by compactness of K, and hence the action of H on$H / K \times H / K$is smooth. Therefore, the induced map $\bar { \phi } \colon X \times X \to H \backslash ( H / K \times H / K )$is Γ-invariant, and since the quotient space is countably separated, it follows that the map is essentially constant, and so$\nu \times \nu$is supported on an H-orbit$\mathcal { O } = H ( u , v )$. By Fubini’s theorem, there must exist$x \in H$so that ν is supported on the slice$E _ { x } = \{ y K \in H / K : ( x K , y K ) \in \mathcal { O } \}$
 
 Suppose$y K , y ^ { \prime } K \in E _ { x }$. Then there exist$h , h ^ { \prime } \in H$so that
 
@@ -234,10 +234,10 @@ $$
 
 Thus$h ^ { - 1 } h ^ { \prime } \in u K u ^ { - 1 }$, and so there exists$k \in \ K$so that$y K = h v K = u k u ^ { - 1 } h ^ { \prime } v K = u k u ^ { - 1 } y ^ { \prime } K$. In particular, the set$E _ { x }$is$\mathrm { ~ a ~ } u K u ^ { - 1 }$-orbit in$H / K ;$since K is compact, so is$u K u ^ { - 1 }$, and orbits of compact groups are compact, so$E _ { x } \subseteq H / K$is compact. In other words, supp ν is compact. But ν is quasi-invariant with respect to$\pi ( \Gamma )$, and so$\pi ( \Gamma )$leaves supp ν invariant. Lifting to$H ,$we see that$\pi ( \Gamma )$leaves a compact set$B \subseteq H$invariant under translation. Thus$\pi ( \Gamma ) \subseteq B B ^ { - 1 }$, and so$\overline { { \pi ( \Gamma ) } }$is compact.□
 
-Theorem 4.3 (The Case$\mathcal { k } = \mathbb { C } )$. Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with$\mathbb { R } - \mathrm { r k } ( G ) \geq 2$and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact C-algebraic group. Suppose$\pi \colon \Gamma  H _ { \mathbb { C } }$is a homomorphism with$\pi ( \Gamma )$Zariski dense. Then either$\overline { { \pi ( \Gamma ) } } \leqslant H _ { \mathbb { C } }$is compact in the Hausdorf topology or π extends to a rational homomorphism$G \to H _ { \mathbb { C } }$
+Theorem 4.3 (The Case$\mathfrak { k } = \mathbb { C } )$. Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with$\mathbb { R } - \mathrm { r k } ( G ) \geq 2$and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact C-algebraic group. Suppose$\pi \colon \Gamma \to H _ { \mathbb { C } }$is a homomorphism with$\pi ( \Gamma )$Zariski dense. Then either$\overline { { \pi ( \Gamma ) } } \leqslant H _ { \mathbb { C } }$is compact in the Hausdorff topology or π extends to a rational homomorphism$G \to H _ { \mathbb { C } }$
 
 Proof. By Howe-Moore, the action of Γ on$G / P$is weak mixing. Suppose condition (i) holds in Proposition 4.1. As in the proof of Proposition 2.2., we obtain a measurable Γ-equivariant map ϕ :$G / P \to H _ { \mathbb { C } } / ( H _ { \mathbb { C } } ) _ { \mu } .$ By the assumption that the stabilizer of$\mu$is compact, Proposition 4.2 states that$\overline { { \pi ( \Gamma ) } }$is compact.□
 
-Theorem 4.4 (The Case of k Nonarchimedean). Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with $\mathbb { R } - \operatorname { r k } ( G ) \geq 2$and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact k-algebraic group, for k a non-Archimedean local field. Suppose$\pi \colon \Gamma  H _ { \mathcal { k } }$is a homomorphism with$\pi ( \Gamma )$ Zariski dense. Then$\overline { { \pi ( \Gamma ) } } \leqslant H _ { \mathcal { k } }$is compact.
+Theorem 4.4 (The Case of k Nonarchimedean). Let$G \leqslant \mathrm { S L } _ { n } ( \mathbb { R } )$be a semisimple algebraic group with $\mathbb { R } - \operatorname { r k } ( G ) \geq 2$and no compact factors. Let$\Gamma \leqslant G$be an irreducible lattice. Let H be a simple noncompact k-algebraic group, for k a non-Archimedean local field. Suppose$\pi \colon \Gamma \to H _ { \mathfrak { k } }$is a homomorphism with$\pi ( \Gamma )$ Zariski dense. Then$\overline { { \pi ( \Gamma ) } } \leqslant H _ { \mathfrak { k } }$is compact.
 
-Proof. By Propositions 4.1 and 4.2, it sufices to show that (ii) cannot occur. Suppose for sake of contradiction that, as in Proposition 4.1, there were to exist an algebraic k-group$L < G$with dim$L <$dim G such that $L _ { \mathcal { k } } \subseteq ( H _ { \mathcal { k } } ) _ { \mu }$. Then as in Proposition 2.2, there exists a Γ-invariant measurable map$\phi \colon G / P \to H / L$. The rest of the proof of superrigidity does not depend on the local field k that is chosen; at the same time, the maps$\phi | _ { U _ { i } }$as in the proof are then continuous maps from a connected set into a totally disconnected set, thus they must be constant. It then follows that$\phi | _ { U }$is constant, hence after identifying U with$G / P ,$we see that the rational map$\phi$we have constructed is in fact constant. However, Γ-equivariance implies that$\pi ( \Gamma )$ is contained in some conjugate of$L _ { \mathcal { k } }$, which contradicts Zariski density.□
+Proof. By Propositions 4.1 and 4.2, it sufices to show that (ii) cannot occur. Suppose for sake of contradiction that, as in Proposition 4.1, there were to exist an algebraic k-group$L < G$with dim$L <$dim G such that $L _ { \mathfrak { k } } \subseteq ( H _ { \mathfrak { k } } ) _ { \mu }$. Then as in Proposition 2.2, there exists a Γ-invariant measurable map$\phi \colon G / P \to H / L$. The rest of the proof of superrigidity does not depend on the local field k that is chosen; at the same time, the maps$\phi | _ { U _ { i } }$as in the proof are then continuous maps from a connected set into a totally disconnected set, thus they must be constant. It then follows that$\phi | _ { U }$is constant, hence after identifying U with$G / P ,$we see that the rational map$\phi$we have constructed is in fact constant. However, Γ-equivariance implies that$\pi ( \Gamma )$ is contained in some conjugate of$L _ { \mathfrak { k } }$, which contradicts Zariski density.□
