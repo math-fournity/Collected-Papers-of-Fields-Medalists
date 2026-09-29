@@ -61,3 +61,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:06 | PAGE | Atiyah-Singer index | p.11/12 | PASS± | §6/文献1-3全吻合
 2026-09-29 16:08 | PAGE | Atiyah-Singer index | p.12/12 | FAIL | 文献9整条丢失+机构行丢失；其余吻合
 2026-09-29 16:09 | DONE | Atiyah-Singer index | 12/12 | 4项FAIL已修复 | 累计21/85
+2026-09-29 16:10 | START | Baker linear forms ru | 12p | PNG渲染完成（pngmono 150dpi baker_ru_p001-p012）
+2026-09-29 16:13 | PAGE | Baker linear forms ru | p.1/12 | FAIL | зависимости→зависимы 单词错
