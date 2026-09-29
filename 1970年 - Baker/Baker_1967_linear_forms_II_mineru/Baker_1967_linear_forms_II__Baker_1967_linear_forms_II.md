@@ -145,7 +145,7 @@ $$
 Then it is easily verified that $[hk^{\frac{1}{2}\varepsilon\sigma}] \geqslant X$ and $[k/2^{\sigma}] \geqslant Y$, where $\sigma$ denotes the largest integer $< \tau$, and so, by Lemma 3, we see that (3) holds for each integer $l$ with $1 \leqslant l \leqslant X$ and each set of non-negative integers $m_1, \ldots, m_{n-1}$ satisfying $m_1 + \ldots + m_{n-1} \leqslant Y$. Hence we have
 
 $$
-| \phi_ {m} (r) | <   n ^ {k} e ^ {- \frac {1}{2} h \kappa}\tag{6}
+| \phi_ {m} (r) | <   n ^ {k} e ^ {- \frac {1}{2} h ^ {\kappa}}\tag{6}
 $$
 
 for each integer $r$ with $1 \leqslant r \leqslant X$ and each integer $m$ satisfying $0 \leqslant m \leqslant Y$ [cf. (I), the proof of Lemma 4]. Let $\Gamma$ and $\Lambda$ denote circles in the complex plane, described in the positive sense, with centres the origin and with radii $X \log h$ and $\frac{1}{4}$ respectively. Suppose further that $w$ is any complex number on $\Lambda$. We proceed to calculate an upper bound for $|\phi(w)|$.
@@ -171,13 +171,13 @@ $$
 it follows, on using (6), that the absolute value of the double sum on the right of (7) is at most
 
 $$
-X (Y + 1) 8 ^ {Y + 2} n ^ {k} e ^ {- \frac {1}{2} h \kappa} <   (8 n) ^ {k + 2} h ^ {\kappa} e ^ {- \frac {1}{2} h \kappa} <   e ^ {- \frac {1}{4} h \kappa}.
+X (Y + 1) 8 ^ {Y + 2} n ^ {k} e ^ {- \frac {1}{2} h ^ {\kappa}} <   (8 n) ^ {k + 2} h ^ {\kappa} e ^ {- \frac {1}{2} h ^ {\kappa}} <   e ^ {- \frac {1}{4} h ^ {\kappa}}.
 $$
 
 Now let $\xi$ and $\Xi$ denote respectively the upper bound of $|\phi(z)|$ and the lower bound of $|E(z)|$ with $z$ on $\Gamma$. From (7) we have
 
 $$
-| \phi (w) | \leqslant \{2 \xi \Xi^ {- 1} + e ^ {- \frac {1}{4} h \kappa} \} | E (w) |.
+| \phi (w) | \leqslant \{2 \xi \Xi^ {- 1} + e ^ {- \frac {1}{4} h ^ {\kappa}} \} | E (w) |.
 $$
 
 Now it is clear that
