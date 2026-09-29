@@ -10,7 +10,7 @@ Theorem 1.1 (Margulis Superrigidity). Let$G \leqslant \mathrm { S L } _ { n } ( 
 
 ## 2 Proof of Margulis Superrigidity for$\mathfrak { k } = \mathbb { R }$
 
-Proposition 2.1. Suppose$P < G$and$L < H$are proper algebraic R-subgroups, and there is a rational Γ-equivariant map ϕ:$G / P \to H / L$defined over R. Then π extends to a rational homomorphism$G  H$
+Proposition 2.1. Suppose$P < G$and$L < H$are proper algebraic R-subgroups, and there is a rational Γ-equivariant map ϕ:$G / P \to H / L$defined over R. Then π extends to a rational homomorphism$G \to H$
 
 Proof. Consider the graph-closure${ \mathcal { Z } } \subseteq G \times H$given by
 
@@ -64,7 +64,7 @@ so$\bar { \phi }$is constant along Γ-orbits. But the codomain of$\bar { \phi }$
 
 Proposition 2.3. Every measurable Γ-equivariant map$\phi \colon G / P \to H / L$is rational.
 
-The proof of this proposition is by far the most dificult step in the proof, and proceed via a series of reductions. To start, we will lift$\phi$to a right P-invariant map$G  H / L$. We also let$U$denote the intersection of$G$in$\mathrm { S L } _ { n } ( \mathbb { R } )$with the subgroup of unipotent lower triangular matrices.
+The proof of this proposition is by far the most dificult step in the proof, and proceed via a series of reductions. To start, we will lift$\phi$to a right P-invariant map$G \to H / L$. We also let$U$denote the intersection of$G$in$\mathrm { S L } _ { n } ( \mathbb { R } )$with the subgroup of unipotent lower triangular matrices.
 
 A rational function$U \to H / L$then defines a$P -$-invariant function$U \times P \to H / L .$, which in turn defines a map$G / P \to H / L$. Thus, if$\phi | _ { U }$is rational, then$\phi$is rational.
 
@@ -220,7 +220,7 @@ Proposition 4.1. Suppose H is a connected k-group, almost simple over$\mathfrak 
 
 (ii) there is an algebraic k-group$L < G$with dim L < dim G and$L _ { \mathfrak { k } } \supseteq ( H _ { \mathfrak { k } } ) _ { \mu }$
 
-Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection$H _ { \mathbb { R } } \mu \to H _ { \mathbb { R } } / L _ { \mathbb { R } } ;$: by smoothness the natural map$H _ { \mathfrak { k } } \mu \to H _ { \mathfrak { k } } / ( H _ { \mathfrak { k } } ) _ { \mu }$ is a homeomorphism and$L _ { \mathfrak { k } }$is a proper closed subgroup containing$\left( H _ { \mathfrak { k } } \right) _ { \mu }$, and all maps are obviously Γ- equivariant, so we again obtain a map$G / P \to H _ { \mathfrak { k } } / L _ { \hbar }$. Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity.
+Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection$H _ { \mathbb { R } } \mu \to H _ { \mathbb { R } } / L _ { \mathbb { R } } ;$: by smoothness the natural map$H _ { \mathfrak { k } } \mu \to H _ { \mathfrak { k } } / ( H _ { \mathfrak { k } } ) _ { \mu }$ is a homeomorphism and$L _ { \mathfrak { k } }$is a proper closed subgroup containing$\left( H _ { \mathfrak { k } } \right) _ { \mu }$, and all maps are obviously Γ- equivariant, so we again obtain a map$G / P \to H _ { \mathfrak { k } } / L _ { \mathfrak { k } }$. Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity.
 
 Proposition 4.2. Suppose Γ is a locally compact group,$( X , \mu )$is a quasi-invariant Γ-space with quasi-invariant measure, and the action of Γ on X is weak mixing. Let$\pi \colon \Gamma \to H$be a homomorphism with H also locally compact, and suppose there exists a measurable Γ-equivariant map$\phi \colon X \to H / K$, where$K \leqslant H$ is a compact subgroup. Then$\overline { { \pi ( \Gamma ) } }$is compact.
 

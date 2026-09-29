@@ -51,3 +51,10 @@
   （忠实不改）：representaion 拼写、"proceed via"（原刊如此）、"Proposition 2.2.."双句点、
   "we induct" 小写、"the H_𝔨 acts"。
 - **可用性结论**：系统性修复后 md 可作该讲义忠实底本；修复以"族"为单位逐一核验。
+
+### 修复登记（2026-09-29）
+- 15 组族修复共 33 处：𝔨（\mathscr{R}×1、\mathcal{k}×12、H_\hbar×9 → \mathfrak{k}）；
+  丢箭头 ×5（→）；πpΓq→π(Γ)；ă→<；ˆ→×；θ→𝒪；Hausdorf→Hausdorff；a P n→𝔞∈𝔫；
+  ∈]R→∈ℝ；交换图重建（U→Nₙ / log↓exp↑ / 𝔲→𝔫ₙ 三行 array）。
+- fix commit 见 `git log --grep 'fix(md): Superrigidity'`；修复前 md = 父提交。
+- 残留检查：pΓq/ă/ˆ/\hbar/\mathcal{k}/\mathscr{R}/双空格箭头全数清零。
