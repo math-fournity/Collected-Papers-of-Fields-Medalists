@@ -174,6 +174,16 @@
   （页数升序，以 PDF 级对账为准）：Viazovska dim24 (17p)、Roth (20p)、Huh 2012 (21p)、
   taylorwiles (22p)、Faltings 1983 (18p，已补导出)……（Baker I/II/III/IV 与 Huh 2020 待导出件
   已就绪，Huh 2020 除外）。
+- **⚠️ 2026-09-29 并行下载警告（第三轮接力发现）**：用户正在会话外并行向 repo 添加各论文的
+  **已刊版本（_published/_jams/_springer 后缀）**——本会话期间出现 17 个新 PDF（10 个被页级提交
+  d316fd5 的 `git add -A` 误收：Hironaka_1964_partI/II、Kontsevich_2003_published、
+  Okounkov_2003_jams、Villani_2011_published、Hairer_2014_published、Mirzakhani_jams/published、
+  Bombieri_springer、Lindenstrauss_2007_published 等；7 个仍未跟踪：Tao/Lindenstrauss/Avila/
+  Bhargava/Maynard/Viazovska×2 的 _published）。**接力纪律变更**：①用户下载进行期间，
+  页级提交改用**精确路径 staging**（`git add <论文目录>`），停用 `git add -A`，避免误收在途文件；
+  ②inventory 是动态目标——README/INDEX 的总数与分母以最新实物盘点为准，交接时必须重新
+  `find . -name "*.pdf" | wc -l`；③这些新 PDF 均无 mineru 导出，待用户下载稳定后统一补跑批次
+  （脚本 os.walk 自动发现，含目录根 `<base>.md` 库藏 md 与 `<base>_mineru/` 两种 skip 判定）。
 
 ## 6. 验收标准（任务完成的定义）
 

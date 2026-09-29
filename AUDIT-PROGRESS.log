@@ -94,3 +94,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:06 | PAGE | Smale generalized poincare | p.16/17 | PASS± | (7.4)/§8/Ref1吻合
 2026-09-29 17:08 | PAGE | Smale generalized poincare | p.17/17 | PASS± | 文献30条逐条吻合（3处原刊笔误忠实）
 2026-09-29 17:08 | DONE | Smale generalized poincare | 17/17 | 1项FAIL已修复 | 累计23/90
+2026-09-29 17:15 | NOTE | 并行下载警告：用户会话外添加_published已刊版17件（10件被d316fd5误收、7件未跟踪）；接力改精确路径staging；inventory动态化
