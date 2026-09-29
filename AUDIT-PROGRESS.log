@@ -132,3 +132,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.1/5 | PASS± | 入门段吻合
 2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.2/5 | FAIL | blowingdown丢连字符
 2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.3/5 | FAIL | afirmatively丢ff
+2026-09-29 18:11 | PAGE | ICM2018 Birkar | p.4/5 | FAIL | open-ing残迹
