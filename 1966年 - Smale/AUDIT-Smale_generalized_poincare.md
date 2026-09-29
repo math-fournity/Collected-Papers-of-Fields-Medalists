@@ -137,3 +137,14 @@
   （rank G − rank G′、p: G′+G″→G′、0→f^{-1}(0)→G→G′→0 splits、α = f+kh）✓；
   Grusko [6] REMARK ✓；f_σα=g 归结段 ✓；§5 开头 ✓
 - 结果：**PASS±**（±：页眉 "402 STEPHEN SMALE" 与页码未收）
+
+## p.014（PDF p.14 / 印刷 p.403）
+- PNG：audit/p014.png（pngmono 150dpi）
+- 核对：**(5.1) THEOREM**（𝓗_M(n,k,s)、Q=∂H−M×0、π_s(M×0)→π_s(V) isomorphism、
+  s=1 附加假设、V∈𝓗_M(n,r−k,s+1)）✓；(1.2) 归约句 ✓；**(5.2)** ✓；p₁/p₂ 投影 ✓；**(5.3)** ✓
+  - (5.1) 证明（p₁f_σ trivial、p₂f_σ epimorphism、(4.1)、p₂f_σα=p₂g）✓——σ=(H,Q;g₁,⋯,g_r,s+1)
+    逗号系原刊 ✓
+  - §6 开头 ✓；**(6.1) THEOREM**（f^{-1}[−∞,ε] presentation）✓；**(6.2) THEOREM**（k new critical
+    points index s）✓；SKETCH OF PROOF（Morse [13] 坐标式 f(x)=−Σ_{i=1}^λ x_i²+Σ_{i=λ+1}^n x_i²、
+    E₁/E₂ 平面、D^λ）✓
+- 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 403" 与页码未收）
