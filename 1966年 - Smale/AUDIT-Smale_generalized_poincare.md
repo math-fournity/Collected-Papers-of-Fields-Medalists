@@ -23,3 +23,12 @@
   - cellular structure 段 ✓；脚注 *（Alfred P. Sloan Fellow）✓
 - 结果：**PASS±**（±：①页眉 "ANNALS OF MATHEMATICS Vol. 74, No. 2, September, 1961 Printed in
   Japan" 与页码 391 未收；②Theorem B 缺 "type" 系原刊实物）
+
+## p.003（PDF p.3 / 印刷 p.392）
+- PNG：audit/p003.png（pngmono 150dpi）
+- 核对：Theorem D（Morse [13]）✓；§1 handlebodies 预告（s-disks, k in number, Heegard）✓；
+  **THEOREM F**（M=H∪H′, H∩H′=∂H=∂H′, 𝓗(2m+1,k,m)）✓；**THEOREM G**（type numbers = Betti
+  numbers、𝓗(2m,k,m)）✓；Morse relation [12] 注 ✓；**THEOREM H**（一个极大一个极小、
+  S^{2m−1} 交）✓；J-equivalence 定义（[25]/[10]、∂V ≅ M₁⊔(−M₂)、deformation retract）✓；
+  **THEOREM I**（(m−1)-connected、2m+1 维、J-equivalent、m≠1 ⇒ diffeomorphic）✓
+- 结果：**PASS±**（±：页眉 "392 STEPHEN SMALE" 与页码未收）
