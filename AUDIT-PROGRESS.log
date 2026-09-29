@@ -67,3 +67,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 16:21 | PAGE | Baker linear forms ru | p.3/12 | FAIL | (ab)^a2→d2；х′/х指数md行110忠实
 2026-09-29 16:22 | PAGE | Baker linear forms ru | p.4/12 | FAIL | 行119指数2'/2误读；ε的ξ系原刊
 2026-09-29 16:24 | PAGE | Baker linear forms ru | p.5/12 | FAIL | 行197удовлетворяют乱码；Φ的γ指数md忠实(300dpi)
+2026-09-29 16:24 | PAGE | Baker linear forms ru | p.6/12 | PASS± | A(s,t)/估计链全吻合
