@@ -1,0 +1,11 @@
+— Birkar short citation —
+
+For the proof of the boundedness of Fano varieties and for contributions to the minimal model program.
+
+## Birkar long citation
+
+Caucher Birkar has made fundamental contributions to birational geometry in two particular areas: the minimal model program (MMP) and the boundedness of Fano varieties. The original MMP involves two kinds of projective varieties Y with so-called terminal singularities whose canonical divisors K have opposite properties: for a minimal model K is non-negative on curves on Y; while for a Fano fibering Y has a surjective morphism onto a lower dimensional projective variety with -K relatively ample. The MMP attempts to construct for each smooth projective variety a birational map to either a minimal model or a Fano fibering.
+
+Although the MMP is not always known to work, Birkar jointly with Cascini, Hacon, and M<sup>c</sup>Kernan made a stunning contribution; a special version of the MMP works for complex varieties of arbitrary dimension whose canonical divisor is either big or not pseudo efective, a situation which covers many important cases. They actually established the MMP for a wider class of singularities, which was essential for the induction on dimension in the proof, and it implies many important consequences such as the finite generation of canonical rings of arbitrary smooth projective varieties. The MMP is now a fundamental tool which is used extensively.
+
+It was Birkar who further proved that complex Fano varieties (i.e., Fano fiberings over a point) of arbitrary fixed dimension with terminal singularities are parametrized by a (possibly reducible) algebraic variety. Since these Fano varieties constitute one of the main outputs of MMP as applied to smooth projective varieties, their boundedness, previously considered unreachable, is fundamentally important. Birkar has settled the more general Borisov-Alexeev-Borisov conjecture building upon results by Hacon, McKernan, Xu, and others. Birkar’s boundedness will be crucial as a paradigm for the full MMP.

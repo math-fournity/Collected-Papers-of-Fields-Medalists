@@ -115,3 +115,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:02 | PAGE | Viazovska dim24 | p.16/17 | PASS± | A.3/文献1-5吻合
 2026-09-29 18:02 | PAGE | Viazovska dim24 | p.17/17 | FAIL | École重音碎裂；文献11-13吻合
 2026-09-29 18:04 | DONE | Viazovska dim24 | 17/17 | 7点FAIL已修复 | 累计24/140
+2026-09-29 18:05 | PAGE | IMU citation Birkar | p.1/2 | PASS± | short citation逐字
