@@ -210,3 +210,8 @@
   （实为 91 (1924)）；⑫Ref 19 "THRELLFALL"；⑬Ref 30 "Now Ser."。
 - **可用性结论**：修复 1 项 FAIL 后，本 md 可作为该文的忠实检索/阅读底本；定理陈述与公式链
   逐字可信；阅读时应知：JSTOR 封面混入（实物如此）、页眉未收、上列 13 项原刊 quirk。
+
+### 修复登记（2026-09-29）
+- k_{e}/g_{e} → k_{\varepsilon}/g_{\varepsilon}（p.012，6x 放大仲裁证实原刊为 ε）。
+- fix commit：`git log --grep 'fix(md): Smale generalized poincare'`；修复前 md = 该 fix commit
+  的父提交，mineru 原始产出来源链保持完整。原刊 quirk 13 项清单见总评（未代改）。
