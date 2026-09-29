@@ -108,7 +108,7 @@ $$
 \varphi (i / t) = O \left(t ^ {- 1 0} e ^ {4 \pi t}\right)\tag{2.3}
 $$
 
-as$t  \infty ,$, while the q-series (2.1) for$\varphi$shows that
+as$t \to \infty ,$, while the q-series (2.1) for$\varphi$shows that
 
 $$
 \varphi (i / t) = O \bigl (e ^ {- 2 \pi / t} \bigr)\tag{2.4}
@@ -258,7 +258,7 @@ $$
 \begin{array}{l l l} \Theta_ {0 0} ^ {4} | _ {2} S = - \Theta_ {0 0} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} S = - \Theta_ {1 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} S = - \Theta_ {0 1} ^ {4}, \\ \Theta_ {0 0} ^ {4} | _ {2} T = \Theta_ {0 1} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} T = \Theta_ {0 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} T = - \Theta_ {1 0} ^ {4}, \end{array}
 $$
 
-where$\begin{array}{c} S = { \binom { 0 } { 1 } } \quad { \overset { } { 0 } } \end{array} {array} - 1 { \overset { } { ) } } , T = { \binom { 1 } { 0 } } \quad 1 { \overset { } { ) } }$, and
+where$S = \left( { \begin{matrix} 0 & - 1 \\ 1 & 0 \end{matrix} } \right) , \ T = \left( { \begin{matrix} 1 & 1 \\ 0 & 1 \end{matrix} } \right)$, and
 
 $$
 \big (g | _ {k} M \big) (z) = (c z + d) ^ {- k} g \bigg (\frac {a z + b}{c z + d} \bigg)
@@ -292,7 +292,7 @@ $$
 \psi_ {I} (i t) = O \big (e ^ {4 \pi t} \big)\tag{3.3}
 $$
 
-as$t  \infty ,$, and
+as$t \to \infty ,$, and
 
 $$
 \psi_ {I} (i t) = O \big (t ^ {1 0} e ^ {- \pi / t} \big)\tag{3.4}
@@ -314,7 +314,7 @@ $$
 - 4 \sin (\pi r ^ {2} / 2) ^ {2} = e ^ {- \pi i r ^ {2}} - 2 + e ^ {\pi i r ^ {2}}
 $$
 
-and shift contours to show that for$r > 2$2
+and shift contours to show that for$r > 2$,
 
 $$
 \begin{array}{l} b (r) = \int_ {- 1} ^ {i \infty - 1} \psi_ {I} (z + 1) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i \infty} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ \qquad + \int_ {1} ^ {i \infty + 1} \psi_ {I} (z - 1) e ^ {\pi i r ^ {2} z} d z \\ \qquad = \int_ {- 1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z + \int_ {1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ \qquad + 2 \int_ {i} ^ {i \infty} (\psi_ {T} (z) - \psi_ {I} (z)) e ^ {\pi i r ^ {2} z} d z. \end{array}
@@ -394,7 +394,7 @@ $$
 
 around$r = 0$, and b maps$\mathbb { R }$to$i \mathbb { R } .$.
 
-To obtain the definition (3.1) of$\psi _ { I }$, we began with the Ansatz that$\Delta ^ { 2 } \psi _ { I }$ should be a holomorphic modular form of weight 14 for$\Gamma ( 2 )$The space of such forms is eight-dimensional, spanned by$\Theta _ { 0 1 } ^ { 4 i } \Theta _ { 1 0 } ^ { 2 8 - 4 i }$with$i = 0 , 1 , \ldots , 7 ,$ and the subspace of forms satisfying the linear constraint$\psi _ { S } + \psi _ { T } = \psi _ { I }$is three-dimensional. As in the case of$\varphi$in Section 2, one can solve for$\psi _ { I }$in several ways. In particular, within the subspace satisfying$\psi _ { S } + \psi _ { T } = \psi _ { I } .$9 the asymptotic behavior specified by (3.3) and (3.4) determines$\psi _ { I }$up to a constant factor.
+To obtain the definition (3.1) of$\psi _ { I }$, we began with the Ansatz that$\Delta ^ { 2 } \psi _ { I }$ should be a holomorphic modular form of weight 14 for$\Gamma ( 2 )$The space of such forms is eight-dimensional, spanned by$\Theta _ { 0 1 } ^ { 4 i } \Theta _ { 1 0 } ^ { 2 8 - 4 i }$with$i = 0 , 1 , \ldots , 7 ,$ and the subspace of forms satisfying the linear constraint$\psi _ { S } + \psi _ { T } = \psi _ { I }$is three-dimensional. As in the case of$\varphi$in Section 2, one can solve for$\psi _ { I }$in several ways. In particular, within the subspace satisfying$\psi _ { S } + \psi _ { T } = \psi _ { I } .$ the asymptotic behavior specified by (3.3) and (3.4) determines$\psi _ { I }$up to a constant factor.
 
 ## 4. Proof of Theorem 1.1
 
@@ -524,17 +524,7 @@ $$
 
 Thus, the sum of the absolute values of the terms in$\varphi \Delta ^ { 2 }$for$n \geq 5 0$amounts to at most$1 0 ^ { - 5 0 } q ^ { 6 }$. Let$\sigma$be the sum of the terms with$n < 5 0$. We use Sturm’s theorem to check that$\sigma + { 1 0 ^ { - 5 0 } } { q ^ { 6 } }$never changes sign on$( 0 , 1 / 5 3 5 )$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ00</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">D₄</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>10</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.Θ01 = Θ00 − Θ40</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">q<sup>1/2</sup>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both Θ<sup>4</sup><sub>00</sub> and have nonnegative coeficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable from which one can bound their coeficients. Furthermore,</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both Θ<sup>4</sup><sub>00</sub> and Θ<sup>4</sup><sub>10</sub> have nonnegative coefficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable q<sup>1/2</sup>, from which one can bound their coefficients. Furthermore, Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.</span></small>
 
 as a polynomial in$q ,$and we observe that it is negative in the limit as$q \to 0$ This proves that$\varphi ( i t ) < 0$for$t \geq 1$
 
@@ -624,7 +614,7 @@ Berlin Mathematical School and Humboldt University of Berlin,
 
 Berlin<sub>,</sub> Germany
 
-Current address : Ecole Polytechnique F <sup>´</sup> ed<sup>´</sup> erale de Lausanne, <sup>´</sup>
+Current address : École Polytechnique Fédérale de Lausanne,
 
 Lausanne<sub>,</sub> Switzerland
 
