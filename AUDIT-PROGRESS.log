@@ -164,3 +164,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 19:24 | DONE | Baker linear forms III | 9/9 | 9点FAIL已修复 | 累计35/140
 2026-09-29 19:24 | COMMIT | Baker III 闭环
 2026-09-29 19:25 | NOTE | Baker III c11 补修完成（字节级匹配）；9点全落实
+2026-09-29 19:28 | START | Villani landau10 | 10p | 陈旧错件导出已删并重导出（内容验证=Landau Damping）
