@@ -1,0 +1,2382 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.24705882352941178,
+            0.13793103448275862,
+            0.7058823529411765,
+            0.15695600475624258
+          ],
+          "level": 1,
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.37142857142857144,
+            0.178359096313912,
+            0.5815126050420169,
+            0.1938168846611177
+          ],
+          "level": 1,
+          "content": "JAN-HENDRIK EVERTSE"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.42857142857142855,
+            0.2294887039239001,
+            0.5243697478991597,
+            0.2473246135552913
+          ],
+          "level": 2,
+          "content": "April 2011"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.42857142857142855,
+            0.25802615933412604,
+            0.5243697478991597,
+            0.272294887039239
+          ],
+          "level": 2,
+          "content": "Literature:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.28180737217598095,
+            0.8117647058823529,
+            0.31272294887039237
+          ],
+          "content": "T.N. Shorey, R. Tijdeman, Exponential Diophantine equations, Cambridge University Press, 1986; reprinted 2008."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2319327731092437,
+            0.3329369797859691,
+            0.7226890756302521,
+            0.34720570749108204
+          ],
+          "level": 2,
+          "content": "1. Linear forms in logarithms and applications"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.3638525564803805,
+            0.8117647058823529,
+            0.41854934601664684
+          ],
+          "content": "We start with recalling some results from transcendence theory and then work towards lower bounds for linear forms in logarithms which are of crucial importance in efectively solving Diophantine equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.4268727705112961,
+            0.8117647058823529,
+            0.46135552913198574
+          ],
+          "content": "We start with a transcendence result proved independently by the Russian Gel’fond and the German Schneider in 1934."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.4708680142687277,
+            0.8134453781512605,
+            0.5065398335315101
+          ],
+          "content": "Theorem 1.1. (Gel’fond, Schneider, 1934) Let$\\alpha , \\beta$be algebraic numbers in C, with α$\\neq 0 ,$, 1 and$\\beta \\notin \\mathbb { Q }$. Then$\\alpha ^ { \\beta }$is transcendental."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5196195005945303,
+            0.8117647058823529,
+            0.5755053507728894
+          ],
+          "content": "Here,$\\alpha ^ { \\beta } : = e ^ { \\beta \\log \\alpha }$, where$\\textstyle e ^ { z } = \\sum _ { n = 0 } ^ { \\infty } z ^ { n } / n !$and log$\\alpha = \\log | \\alpha | + i \\arg ( \\alpha )$. The argument of$\\alpha$is determined only up to a multiple of 2π. Thus, log α and hence$\\alpha ^ { \\beta }$are multi-valued. The theorem holds for any choice of value of arg α."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5838287752675386,
+            0.8134453781512605,
+            0.6183115338882283
+          ],
+          "content": "Corollary 1.2. Let$\\beta$be an algebraic number in C with$i \\beta \\notin \\mathbb { Q }$. Then$e ^ { \\pi \\beta }$is transcendental."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6325802615933412,
+            0.426890756302521,
+            0.6516052318668252
+          ],
+          "content": "Proof.$e ^ { \\pi \\beta } = e ^ { \\pi i \\cdot ( - i \\beta ) } = ( - 1 ) ^ { - i \\beta }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6658739595719382,
+            0.8134453781512605,
+            0.7217598097502973
+          ],
+          "content": "Given a subring R of$\\mathbb { C } \\ ( \\mathrm { e . g . , ~ \\mathbb { Z } , ~ \\mathbb { Q } }$, field of algebraic numbers), we say that complex numbers$\\theta _ { 1 } , \\ldots , \\theta _ { m }$are called linearly independent over R if the equation$x _ { 1 } \\theta _ { 1 } + \\cdot \\cdot \\cdot + x _ { m } \\theta _ { m } = 0$has no solution$( x _ { 1 } , \\ldots , x _ { m } ) \\in R ^ { m } \\setminus \\{ \\mathbf { 0 } \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.7288941736028538,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "Corollary 1.3. Let$\\alpha , \\beta$be algebraic numbers from C diferent from 0, 1 such that log α, log$\\beta$are linearly independent over$\\mathbb { Q }$. Then for all non-zero algebraic numbers γ, δ from C we have γ log$\\alpha + \\delta \\log \\beta \\neq 0$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.47058823529411764,
+            0.7847800237812128,
+            0.48067226890756304,
+            0.7942925089179548
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1581450653983353
+          ],
+          "content": "Proof. Assume γ log$\\alpha + \\delta$log$\\beta = 0$. Then log$\\alpha = - ( \\delta / \\gamma )$log β, hence$\\alpha =$ $\\beta ^ { - \\delta / \\gamma }$. By Theorem 1.1 this is possible only if$a : = \\delta / \\gamma \\in \\mathbb { Q }$. But then, log$\\alpha - a \\log \\beta = 0$, contrary to our assumption.✷"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.1724137931034483,
+            0.8117647058823529,
+            0.20689655172413793
+          ],
+          "content": "We now come to Baker’s generalization to linear forms in an arbitrary number of logarithms of algebraic numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.21878715814506539,
+            0.8151260504201681,
+            0.291319857312723
+          ],
+          "content": "Theorem 1.4. (A. Baker, 1966) Let$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$be algebraic numbers from C diferent from 0, 1 such that log$\\alpha _ { 1 } , \\ldots , \\log \\alpha _ { m }$are linearly independent over $\\mathbb { Q }$. Then for every tuple$\\left( \\beta _ { 0 } , \\beta _ { 1 } , \\ldots , \\beta _ { m } \\right)$of algebraic numbers from C diferent from$( 0 , 0 , \\ldots , 0 )$we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31596638655462184,
+            0.29964328180737215,
+            0.6336134453781512,
+            0.31747919143876335
+          ],
+          "content": "\\beta_ {0} + \\beta_ {1} \\log \\alpha_ {1} + \\dots + \\beta_ {m} \\log \\alpha_ {m} \\neq 0.",
+          "image_source": "images/page_1_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.33531510107015455,
+            0.8134453781512605,
+            0.40784780023781214
+          ],
+          "content": "For applications to Diophantine problems, it is important that not only the above linear form is non-zero, but also that we have a strong enough lower bound for the absolute value of this linear form. We give a special case, where $\\beta _ { 0 } = 0$and$\\beta _ { 1 } , \\ldots , \\beta _ { m }$are rational integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4173602853745541,
+            0.8134453781512605,
+            0.45422116527942924
+          ],
+          "content": "Theorem 1.5. (A. Baker, 1975) Let$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$be algebraic numbers from C diferent from 0, 1. Further, let$b _ { 1 } , \\ldots , b _ { m }$be rational integers such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33949579831932775,
+            0.4625445897740785,
+            0.6100840336134454,
+            0.4803804994054697
+          ],
+          "content": "b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} \\neq 0.",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1411764705882353,
+            0.48989298454221164,
+            0.19327731092436976,
+            0.5041617122473246
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3092436974789916,
+            0.5077288941736029,
+            0.6420168067226891,
+            0.5279429250891795
+          ],
+          "content": "\\left| b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} \\right| \\geqslant (e B) ^ {- C},",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5326991676575505,
+            0.8134453781512605,
+            0.5695600475624257
+          ],
+          "content": "where$B : = \\operatorname* { m a x } ( | b _ { 1 } | , . . . , | b _ { m } | )$and$C$is an efectively computable constant depending only on m and on$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5862068965517241,
+            0.8117647058823529,
+            0.6218787158145065
+          ],
+          "content": "It is possible to get rid of the logarithms. Then Theorem 1.5 leads to the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6325802615933412,
+            0.8117647058823529,
+            0.6682520808561236
+          ],
+          "content": "Corollary 1.6. Let$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$be algebraic numbers from C diferent from 0, 1 and let$b _ { 1 } , \\ldots , b _ { m }$be rational integers such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40672268907563025,
+            0.6753864447086801,
+            0.5445378151260504,
+            0.6956004756242569
+          ],
+          "content": "\\alpha_ {1} ^ {b _ {1}} \\dots \\alpha_ {m} ^ {b _ {m}} \\neq 1.",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14285714285714285,
+            0.703923900118906,
+            0.1915966386554622,
+            0.7193816884661117
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35798319327731093,
+            0.7217598097502973,
+            0.5966386554621849,
+            0.7419738406658739
+          ],
+          "content": "| \\alpha_ {1} ^ {b _ {1}} \\dots \\alpha_ {m} ^ {b _ {m}} - 1 | \\geqslant (e B) ^ {- C ^ {\\prime}},",
+          "image_source": "images/page_1_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.746730083234245,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "where again$B : = \\operatorname* { m a x } ( | b _ { 1 } | , \\ldots , | b _ { m } | )$and where$C ^ { \\prime }$is an efectively computable constant depending only on m and on$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": "2"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.17479191438763378
+          ],
+          "content": "Proof. For the logarithm of a complex number z we choose log$z = \\log | z | +$ iarg z with$- \\pi < \\arg z \\leqslant \\pi$. With this choice of log we have log$( 1 + w ) =$ $\\scriptstyle \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n - 1 } w ^ { n } / n$for$w \\in \\mathbb { C }$with$| w | < 1$. Using this power series expansion, one easily shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33277310924369746,
+            0.18549346016646848,
+            0.6184873949579832,
+            0.20332936979785968
+          ],
+          "content": "| \\log (1 + w) | \\leqslant 2 | w | \\text {   if   } | w | \\leqslant 1 / 2.",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.2116527942925089,
+            0.8134453781512605,
+            0.2497027348394768
+          ],
+          "content": "We apply this with$w : = \\alpha _ { 1 } ^ { b _ { 1 } } \\cdot \\cdot \\cdot \\alpha _ { m } ^ { b _ { m } } - 1$$\\mathrm { I f } \\ | w | > 1 / 2$we are done, so we suppose that$| w | \\leqslant 1 / 2$. We have to estimate from below$\\left| \\log ( 1 + w ) \\right|$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15798319327731092,
+            0.2568370986920333,
+            0.7865546218487395,
+            0.2734839476813318
+          ],
+          "content": "Recall that the complex logarithm is additive only modulo 2πi. That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2722689075630252,
+            0.28299643281807374,
+            0.680672268907563,
+            0.30083234244946494
+          ],
+          "content": "\\log (1 + w) = b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} + 2 k \\pi i",
+          "image_source": "images/page_2_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.3091557669441142,
+            0.8117647058823529,
+            0.3448275862068966
+          ],
+          "content": "for some$k \\in \\mathbb { Z }$. We can apply Theorem 1.5 since$2 k \\pi i = 2 k \\log ( - 1 )$. Thus, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3226890756302521,
+            0.3448275862068966,
+            0.6285714285714286,
+            0.3686087990487515
+          ],
+          "content": "| \\log (1 + w) | \\geqslant \\left(e \\max (B, | 2 k |)\\right) ^ {- C _ {1}}",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3745541022592152,
+            0.8134453781512605,
+            0.4090368608799049
+          ],
+          "content": "where$C _ { 1 }$is an efectively computable constant depending only on m and $\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$. Since$| \\log ( 1 + w ) | \\leqslant 2 | w | \\leqslant 1$we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.253781512605042,
+            0.4161712247324614,
+            0.6974789915966386,
+            0.460166468489893
+          ],
+          "content": "\\left| 2 k \\pi i \\right| \\leqslant 1 + \\sum_ {j = 1} ^ {m} \\left| \\log \\alpha_ {j} \\right| \\cdot \\left| b _ {j} \\right| \\leqslant \\left(1 + \\sum_ {j = 1} ^ {m} \\log | \\alpha_ {j} |\\right) B.",
+          "image_source": "images/page_2_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.4684898929845422,
+            0.8117647058823529,
+            0.5065398335315101
+          ],
+          "content": "Hence$| k | \\leqslant C _ { 2 } B$, say, and$| \\log ( 1 + w ) | \\geqslant ( e C _ { 2 } B ) ^ { - C _ { 1 } }$. This implies$| w | \\geqslant$ ${ \\scriptstyle \\frac { 1 } { 2 } } ( e C _ { 2 } B ) ^ { - C _ { 1 } } \\geq ( e B ) ^ { - C ^ { \\prime } }$for a suitable$C ^ { \\prime }$, as required.✷"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.5196195005945303,
+            0.8117647058823529,
+            0.5743162901307967
+          ],
+          "content": "For completeness, we give a completely explicit version of Corollary 1.6 in the case that$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$are integers. The height of a rational number$a = x / y$ with$x , y \\in \\mathbb { Z }$coprime, is defined by$H ( a ) : = \\operatorname* { m a x } ( | x | , | y | )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5850178359096314,
+            0.8134453781512605,
+            0.6206896551724138
+          ],
+          "content": "Theorem 1.7. (Matveev, 2000) Let$a _ { 1 } , \\ldots , a _ { m }$be non-zero rational numbers and let$b _ { 1 } , \\ldots , b _ { m }$be integers such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41008403361344536,
+            0.6278240190249703,
+            0.5411764705882353,
+            0.6480380499405469
+          ],
+          "content": "a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} \\neq 1.",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1411764705882353,
+            0.6551724137931034,
+            0.48403361344537815,
+            0.6753864447086801
+          ],
+          "content": "Then$| a _ { 1 } ^ { b _ { 1 } } \\cdot \\cdot \\cdot a _ { m } ^ { b _ { m } } - 1 | \\geqslant ( e B ) ^ { - C ^ { \\prime } }$, where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3058823529411765,
+            0.6837098692033293,
+            0.6773109243697479,
+            0.7502972651605232
+          ],
+          "content": "\\begin{array}{l} B = \\max (| b _ {1} |, \\ldots , | b _ {m} |), \\\\ C ^ {\\prime} = \\frac {1}{2} e \\cdot m ^ {4. 5} 3 0 ^ {m + 3} \\prod_ {j = 1} ^ {m} \\max \\big (1, \\log H (a _ {j}) \\big). \\end{array}",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15966386554621848,
+            0.7657550535077289,
+            0.7210084033613445,
+            0.7835909631391201
+          ],
+          "content": "To illustrate the power of this result we give a quick application."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08204518430439953
+          ],
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1581450653983353
+          ],
+          "content": "Corollary 1.8. let$a , b$be integers with a$\\geqslant 2 , b \\geqslant 2$. Then there is an efectively computable number$C _ { 1 } > 0$, depending only on$a , b ,$such that for any two positive integers m, n,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34789915966386553,
+            0.16527942925089179,
+            0.6033613445378151,
+            0.20214030915576695
+          ],
+          "content": "\\left| a ^ {m} - b ^ {n} \\right| \\geqslant \\frac {\\max \\left(a ^ {m} , b ^ {n}\\right)}{\\left(e \\max (m , n)\\right) ^ {C _ {1}}}.",
+          "image_source": "images/page_3_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.2080856123662307,
+            0.8134453781512605,
+            0.26397146254458975
+          ],
+          "content": "Consequently, for any non-zero integer k, there exists an efectively computable number$C _ { 2 }$, depending on a, b, k such that if m, n are positive integers with $a ^ { m } - b ^ { n } = k$, then m,$n \\leqslant C _ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.28180737217598095,
+            0.8134453781512605,
+            0.31866825208085614
+          ],
+          "content": "Proof. Let m, n be positive integers. Put$B : = \\operatorname* { m a x } ( m , n )$. Assume without loss of generality that$a ^ { m } \\geqslant b ^ { n }$. By Corollary 1.6 or Theorem 1.7 we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37142857142857144,
+            0.3269916765755054,
+            0.5798319327731093,
+            0.34720570749108204
+          ],
+          "content": "\\left| 1 - b ^ {n} a ^ {- m} \\right| \\geqslant (e B) ^ {- C _ {1}},",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3579072532699168,
+            0.8117647058823529,
+            0.3935790725326992
+          ],
+          "content": "where$C _ { 1 }$is an efectively computable number depending only on$a , b .$. Multi-plying with$a ^ { m }$gives our first assertion."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.40071343638525564,
+            0.8117647058823529,
+            0.43757431629013077
+          ],
+          "content": "Now let m, n be positive integers with$a ^ { m } - b ^ { n } = k$. Put again$B : =$ $\\operatorname* { m a x } ( m , n )$. Then since$a , b \\geqslant 2$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3915966386554622,
+            0.4447086801426873,
+            0.5579831932773109,
+            0.464922711058264
+          ],
+          "content": "| k | \\geqslant 2 ^ {B} \\cdot (e B) ^ {- C _ {1}}.",
+          "image_source": "images/page_3_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4768133174791914,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": "This proves that B is bounded above by an efectively computable number depending on$a , b , k$✷"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15798319327731092,
+            0.5267538644470868,
+            0.7327731092436974,
+            0.5434007134363853
+          ],
+          "content": "In 1844, Catalan conjectured that the equation in four unknowns,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2605042016806723,
+            0.5541022592152199,
+            0.692436974789916,
+            0.5719381688466112
+          ],
+          "content": "x ^ {m} - y ^ {n} = 1 \\text { in } x, y, m, n \\in \\mathbb {Z} \\text { with } x, y, m, n \\geqslant 2",
+          "image_source": "images/page_3_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.582639714625446,
+            0.8151260504201681,
+            0.7847800237812128
+          ],
+          "content": "has only one solution, namely$3 ^ { 2 } - 2 ^ { 3 } = 1$. In 1976, as one of the striking consequences of the results on linear forms in logarithms mentioned above, Tijdeman proved that there is an efectively computable constant C, such that for every solution$( x , y , m , n )$of Catalan’s equation, one has$x ^ { m } , y ^ { n } \\leqslant C$ The constant C can be computed but it is extremely large. Several people tried to prove Catalan’s conjecture, on the one hand by reducing Tijdeman’s constant C using sharper linear forms in logarithm estimates, on the other hand by showing that$x ^ { m } , y ^ { n }$have to be very large as long as$( x ^ { m } , y ^ { n } ) \\neq ( 3 ^ { 2 } , 2 ^ { 3 } )$ and finally using heavy computations. This didn’t lead to success. In 2000 Mihailescu managed to prove Catalan’s conjecture by an algebraic method which is completely independent of linear forms in logarithms."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1411764705882353,
+            0.07253269916765755,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": "4"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.10225921521997622,
+            0.8134453781512605,
+            0.2318668252080856
+          ],
+          "content": "We give another application. Consider the sequence$\\{ a _ { n } \\}$with$a _ { n } \\ = \\ 2 ^ { n }$ for$n = 0 , 1 , 2 , \\ldots$Note that$a _ { n + 1 } - a _ { n } = a _ { n }$. Similarly, we may consider the increasing sequence$\\{ a _ { n } \\}$of numbers which are all composed of primes from$\\{ 2 , 3 \\} , \\ \\mathrm { i . e . , ~ } 1 , 2 , 3 , 4 , 6 , 8 , 9 , 1 2 , 1 6 , 1 8 , 2 4 , 2 7 , 3 2 , . .$. and ask how the gap $a _ { n + 1 } - a _ { n }$compares with$a _ { n } { \\mathrm { ~ a s ~ } } n \\to \\infty$. More generally, we may take a finite set of primes and ask this question about the sequence of consecutive integers composed of these primes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.2413793103448276,
+            0.8134453781512605,
+            0.31391200951248516
+          ],
+          "content": "Theorem 1.9. (Tijdeman, 1974) Let$S = \\{ p _ { 1 } , \\ldots . p _ { t } \\}$be a finite set of distinct primes, and let$a _ { 1 } < a _ { 2 } < a _ { 3 } < \\cdots$be the sequence of consecutive positive integers composed of primes from S. Then there are efectively computable positive numbers$c _ { 1 } , c _ { 2 }$, depending on$t , p _ { 1 } , \\ldots , p _ { t } ,$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2907563025210084,
+            0.31866825208085614,
+            0.6588235294117647,
+            0.3507728894173603
+          ],
+          "content": "a _ {n + 1} - a _ {n} \\geqslant \\frac {a _ {n}}{c _ {1} (\\log a _ {n}) ^ {c _ {2}}} \\text {   for   } n = 1, 2, \\dots .",
+          "image_source": "images/page_4_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.36504161712247324,
+            0.8117647058823529,
+            0.40309155766944116
+          ],
+          "content": "Proof. We have$a _ { n } = p _ { 1 } ^ { k _ { 1 } } \\cdot \\cdot \\cdot p _ { t } ^ { k _ { t } }$, and$a _ { n + 1 } = p _ { 1 } ^ { l _ { 1 } } \\cdot \\cdot \\cdot p _ { t } ^ { l _ { t } }$with non-negative integers$k _ { i } , l _ { i }$. By Corollary 1.6,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28403361344537814,
+            0.40784780023781214,
+            0.66890756302521,
+            0.4399524375743163
+          ],
+          "content": "\\left| \\frac {a _ {n + 1}}{a _ {n}} - 1 \\right| = | p _ {1} ^ {l _ {1} - k _ {1}} \\dots p _ {t} ^ {l _ {t} - k _ {t}} - 1 | \\geqslant (e B) ^ {- C},",
+          "image_source": "images/page_4_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4447086801426873,
+            0.6218487394957983,
+            0.4637336504161712
+          ],
+          "content": "where$B : = \\operatorname* { m a x } ( | l _ { 1 } - k _ { 1 } | , \\ldots , | l _ { t } - k _ { t } | )$. First note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3126050420168067,
+            0.469678953626635,
+            0.6386554621848739,
+            0.5053507728894173
+          ],
+          "content": "k _ {i} \\leqslant \\frac {\\log a _ {n}}{\\log p _ {i}} \\leqslant \\frac {\\log a _ {n}}{\\log 2} \\mathrm{for} i = 1, \\ldots , t.",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5101070154577884,
+            0.31932773109243695,
+            0.5279429250891795
+          ],
+          "content": "Next,$a _ { n + 1 } \\leqslant a _ { n } ^ { 2 }$. So"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3058823529411765,
+            0.5338882282996433,
+            0.6436974789915967,
+            0.5719381688466112
+          ],
+          "content": "l _ {i} \\leqslant \\frac {\\log a _ {n + 1}}{\\log p _ {i}} \\leqslant \\frac {\\log a _ {n} ^ {2}}{\\log 2} \\text { for } i = 1, \\dots , t.",
+          "image_source": "images/page_4_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.5778834720570749,
+            0.8117647058823529,
+            0.5969084423305588
+          ],
+          "content": "Hence$B \\leqslant 2 \\log a _ { n } /$log 2. It follows that$a _ { n + 1 } - a _ { n } \\geqslant a _ { n } ( 2 e \\log a _ { n } / \\log 2 ) ^ { - C }$. ✷"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.6099881093935791,
+            0.8134453781512605,
+            0.7360285374554102
+          ],
+          "content": "Most results in Diophantine approximation that have been proved for algebraic numbers in C have an analogue for p-adic numbers. We can define $p { \\cdot }$adic exponentiation, p-adic logarithms, etc., and this enables us to formulate analogues for Theorem 1.1– Theorem 1.7 in the p-adic setting. We give an analogue of Corollary 1.6 in the case that$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$are rational numbers. There is a more general version for algebraic$\\alpha _ { 1 } , \\ldots , \\alpha _ { m }$but this is more dificult to state."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.7479191438763377,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "Theorem 1.10. (Yu, 1986) Let p be a prime number, let$a _ { 1 } , \\ldots , a _ { m }$be non-zero rational numbers which are not divisible by$p .$. Further, let$b _ { 1 } , \\ldots , b _ { m }$be"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8,
+            0.07253269916765755,
+            0.8117647058823529,
+            0.08323424494649227
+          ],
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.10463733650416171,
+            0.2991596638655462,
+            0.12009512485136742
+          ],
+          "content": "integers such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41008403361344536,
+            0.12009512485136742,
+            0.5411764705882353,
+            0.14149821640903687
+          ],
+          "content": "a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} \\neq 1.",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.1450653983353151,
+            0.4504201680672269,
+            0.16409036860879905
+          ],
+          "content": "Put$B : = \\operatorname* { m a x } ( | b _ { 1 } | , \\ldots , | b _ { m } | )$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3596638655462185,
+            0.16884661117717004,
+            0.5949579831932773,
+            0.1902497027348395
+          ],
+          "content": "| a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} - 1 | _ {p} \\geqslant (e B) ^ {- C}",
+          "image_source": "images/page_5_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.19738406658739596,
+            0.8084033613445378,
+            0.21521997621878716
+          ],
+          "content": "where$C$is an efectively computable number depending on$p ,$m and$a _ { 1 } , \\ldots , a _ { m }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.2318668252080856,
+            0.8117647058823529,
+            0.26872770511296074
+          ],
+          "content": "For$m = 1$there is a sharper result which can be proved by elementary means (Exercise 6a). But for m$\\geqslant 2$the proof is very dificult."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2319327731092437,
+            0.2901307966706302,
+            0.7210084033613445,
+            0.3079667063020214
+          ],
+          "level": 2,
+          "content": "2. The effective Siegel-Mahler-Lang Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3234244946492271,
+            0.8134453781512605,
+            0.3769322235434007
+          ],
+          "content": "Let K be an algebraic number field and let Γ be a finitely generated, multi-plicative subgroup of$K ^ { * } , \\mathrm { i . e . }$, there are$\\gamma _ { 1 } , \\dotsc , \\gamma _ { t } \\in \\Gamma$such that every element of Γ can be expressed as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426890756302521,
+            0.3793103448275862,
+            0.5243697478991597,
+            0.3971462544589774
+          ],
+          "content": "\\zeta \\gamma_ {1} ^ {z _ {1}} \\dots \\gamma_ {t} ^ {z _ {t}}",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.40190249702734837,
+            0.8134453781512605,
+            0.43757431629013077
+          ],
+          "content": "where$\\zeta$is a root of unity in$K .$, and$z _ { 1 } , \\ldots , z _ { t }$are integers. Further, let$a , b$be non-zero elements from K and consider the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3663865546218487,
+            0.44589774078478,
+            0.584873949579832,
+            0.4637336504161712
+          ],
+          "content": "a x + b y = 1 \\text { in } x, y \\in \\Gamma .\\tag{2.1}",
+          "image_source": "images/page_5_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15798319327731092,
+            0.4780023781212842,
+            0.8100840336134454,
+            0.4958382877526754
+          ],
+          "content": "In 1979, Gy˝ory gave an efective proof of the Siegel-Mahler-Lang Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5065398335315101,
+            0.8134453781512605,
+            0.5422116527942925
+          ],
+          "content": "Theorem 2.1. (Gy˝ory, 1979) Equation (2.1) has only finitely many solutions, and its set of solutions can be determined efectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15798319327731092,
+            0.558858501783591,
+            0.7008403361344537,
+            0.5778834720570749
+          ],
+          "content": "The idea of the proof is to express a solution$( x , y )$of (2.1) as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3277310924369748,
+            0.582639714625446,
+            0.6235294117647059,
+            0.6052318668252081
+          ],
+          "content": "x = \\zeta_ {1} \\gamma_ {1} ^ {b _ {1}} \\dots \\gamma_ {t} ^ {b _ {t}}, y = \\zeta_ {2} \\gamma_ {1} ^ {b _ {1} ^ {\\prime}} \\dots \\gamma_ {t} ^ {b _ {t} ^ {\\prime}}",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.6123662306777645,
+            0.8151260504201681,
+            0.72294887039239
+          ],
+          "content": "with$\\zeta _ { 1 } , \\zeta _ { 2 } \\in U _ { K } , b _ { i } , b _ { i } ^ { \\prime } \\in \\mathbb { Z }$. By combining Corollary 1.6 and a generalization of Theorem 1.10 for algebraic numbers instead of the rational numbers$a _ { 1 } , \\ldots , a _ { m }$ in the statement of that lemma, Gy˝ory shows that for every solution$( x , y )$of (2.1) one has max$( | b _ { 1 } | , \\dots , | b _ { t } ^ { \\prime } | ) \\leqslant C$, where$C$is efectively computable in terms of$K , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }$. Then one can find all solutions of (2.1) by checking for each$\\zeta _ { 1 } , \\zeta _ { 2 } \\in U _ { K }$and$b _ { i } , b _ { i } ^ { \\prime } \\leqslant C$whether$a x + b y = 1$holds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.7288941736028538,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "We prove two special cases of Theorem 2.1, namely the case that$a , b \\in \\mathbb { Q }$ and Γ is contained in$\\mathbb { Q } ^ { * }$, and the case that$a , b$lie in an algebraic number field $K$and Γ is the group of units of the ring of integers of$K$."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": "6"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.21284185493460167
+          ],
+          "content": "As has been explained before, if$a , b \\in \\mathbb { Q }$and Γ is contained in$\\mathbb { Q } ^ { * }$, then Eq. (2.1) can be reduced to an S-unit equation. There are rational numbers $\\gamma _ { 1 } , \\ldots , \\gamma _ { t }$such that all elements of Γ are of the shape$\\pm \\gamma _ { 1 } ^ { z _ { 1 } } \\cdots \\gamma _ { t } ^ { z _ { t } }$. Let$S =$ $\\{ p _ { 1 } , \\ldots , p _ { t } \\}$be the prime numbers occurring in the prime factorizations of the numerators and denominators of$a , b , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }$. Then$a , b , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }$lie in the multiplicative group of S-units"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31932773109243695,
+            0.21997621878715815,
+            0.6302521008403361,
+            0.2390011890606421
+          ],
+          "content": "\\mathbb {Z} _ {S} ^ {*} = \\{\\pm p _ {1} ^ {z _ {1}} \\dots p _ {t} ^ {z _ {t}}: z _ {1}, \\ldots , z _ {t} \\in \\mathbb {Z} \\}.",
+          "image_source": "images/page_6_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.2473246135552913,
+            0.8134453781512605,
+            0.28299643281807374
+          ],
+          "content": "Hence if$( x , y )$is a solution to (2.1), the numbers ax, by are S-units. So instead of (2.1), we may as well consider"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37142857142857144,
+            0.291319857312723,
+            0.5798319327731093,
+            0.3091557669441142
+          ],
+          "content": "x + y = 1 \\text { in } x, y \\in \\mathbb {Z} _ {S} ^ {*}.\\tag{2.2}",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.31985731272294887,
+            0.8151260504201681,
+            0.3745541022592152
+          ],
+          "content": "Theorem 2.2. Let$S ~ = ~ \\{ p _ { 1 } , . . . , p _ { t } \\}$be a finite set of primes. Then (2.2) has only finitely many solutions, and its set of solutions can be determined efectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3912009512485137,
+            0.8117647058823529,
+            0.4268727705112961
+          ],
+          "content": "Proof. Let$( x , y )$be a solution of (2.2). We may write$x = u / w , y = v / w$ where$u , v , w$are integers with$\\operatorname* { g c d } ( u , v , w ) = 1$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426890756302521,
+            0.43876337693222356,
+            0.5243697478991597,
+            0.4518430439952438
+          ],
+          "content": "u + v = w.\\tag{2.3}",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4625445897740785,
+            0.8134453781512605,
+            0.5160523186682521
+          ],
+          "content": "The integers$u , v , w$are composed of primes from$S _ { ; }$and moreover, no prime divides two numbers among$u , v ,$, w since$u , v ,$, w are coprime. After reordering the primes$p _ { 1 } , \\ldots , p _ { t } .$, we may assume that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22857142857142856,
+            0.5219976218787158,
+            0.7226890756302521,
+            0.5434007134363853
+          ],
+          "content": "u = \\pm p _ {1} ^ {b _ {1}} \\dots p _ {r} ^ {b _ {r}}, \\quad v = \\pm p _ {r + 1} ^ {b _ {r + 1}} \\dots p _ {s} ^ {b _ {s}}, \\quad w = \\pm p _ {s + 1} ^ {b _ {s + 1}} \\dots p _ {t} ^ {b _ {t}},",
+          "image_source": "images/page_6_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.5517241379310345,
+            0.8134453781512605,
+            0.6409036860879905
+          ],
+          "content": "where$0 \\leqslant r \\leqslant s \\leqslant t$and the$b _ { i }$are non-negative integers (empty products are equal to 1; for instance if$r = 0$then$u = \\pm 1 )$). We have to prove that $B : = \\operatorname* { m a x } ( b _ { 1 } , \\ldots , b _ { t } )$is bounded above by an efectively computable number depending only on$p _ { 1 } , \\ldots , p _ { t }$. By symmetry, we may assume that$B = b _ { t }$. Then using$- ( u / v ) - 1 = - ( w / v )$we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20840336134453782,
+            0.6480380499405469,
+            0.7394957983193278,
+            0.6694411414982164
+          ],
+          "content": "0 <   | \\pm p _ {1} ^ {b _ {1}} \\dots p _ {r} ^ {b _ {r}} p _ {r + 1} ^ {- b _ {r + 1}} \\dots p _ {s} ^ {- b _ {s}} - 1 | _ {p _ {t}} = | w / v | _ {p _ {t}} = p _ {t} ^ {- b _ {t}} = p _ {t} ^ {- B}.",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.6753864447086801,
+            0.8117647058823529,
+            0.7122473246135553
+          ],
+          "content": "From Theorem 1.10 we obtain that$| \\cdot \\cdot \\cdot | _ { p _ { t } } \\geqslant ( e B ) ^ { - C }$, where C is efectively computable in terms of$p _ { 1 } , \\ldots , p _ { t }$. Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40672268907563025,
+            0.718192627824019,
+            0.5462184873949579,
+            0.7384066587395958
+          ],
+          "content": "(e B) ^ {- C _ {2}} \\leqslant p _ {t} ^ {- B}.",
+          "image_source": "images/page_6_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.746730083234245,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "So indeed, B is bounded above by an efectively computable number depending on$p _ { 1 } , \\ldots , p _ { t }$✷"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8,
+            0.07253269916765755,
+            0.8134453781512605,
+            0.08323424494649227
+          ],
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1938168846611177
+          ],
+          "content": "Remark. In his PhD-thesis from 1988, de Weger gave a practical algorithm, based on strong linear forms in logarithms estimates and the LLL-basis reduction algorithm, to solve equations of the type (2.2). As a consequence, he showed that the$x + y = z$has precisely 545 solutions in positive integers$x , y , z$ with$x \\leqslant y .$, all of the shape$2 ^ { b _ { 1 } } 3 ^ { b _ { 2 } } 5 ^ { b _ { 3 } } 7 ^ { b _ { 4 } } 1 1 ^ { b _ { 5 } } 1 3 ^ { b _ { 6 } }$with$b _ { i } \\in \\mathbb { Z }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.13949579831932774,
+            0.20451843043995244,
+            0.5697478991596638,
+            0.2211652794292509
+          ],
+          "level": 2,
+          "content": "Theorem 2.3. Let$a , b \\in K ^ { * }$. Then the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3596638655462185,
+            0.23067776456599287,
+            0.5915966386554622,
+            0.24851367419738407
+          ],
+          "content": "a x + b y = 1 \\text { in } x, y \\in \\mathcal {O} _ {K} ^ {*}\\tag{2.4}",
+          "image_source": "images/page_7_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.2568370986920333,
+            0.8151260504201681,
+            0.291319857312723
+          ],
+          "content": "has only finitely many solutions and its set of solutions can be determined efectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.30083234244946494,
+            0.8134453781512605,
+            0.356718192627824
+          ],
+          "content": "Corollary 2.4. Let$F ( X , Y ) = a _ { 0 } X ^ { d } + a _ { 1 } X ^ { d - 1 } Y + \\cdot \\cdot \\cdot + a _ { d } Y ^ { d }$be a binary form in$\\mathbb { Z } [ X , Y ]$such that$F ( X , 1 )$has at least three distinct roots in C, and let m be a non-zero integer. Then the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3663865546218487,
+            0.3638525564803805,
+            0.5865546218487395,
+            0.3816884661117717
+          ],
+          "content": "F (x, y) = m \\text { in } x, y \\in \\mathbb {Z}",
+          "image_source": "images/page_7_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.38882282996432815,
+            0.8151260504201681,
+            0.42568370986920334
+          ],
+          "content": "has only finitely many solutions, and its set of solutions can be determined efectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4351961950059453,
+            0.8151260504201681,
+            0.48989298454221164
+          ],
+          "content": "Corollary 2.5. Let$f ( X ) \\in \\mathbb { Z } [ X ]$be a polynomial without multiple zeros and n an integer$\\geqslant 2$. Assume that f has at least two zeros in C if n$\\geqslant 3$and at least three zeros in$\\mathbb { C } \\ i f \\ n = 2$. Then the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3764705882352941,
+            0.49702734839476814,
+            0.5764705882352941,
+            0.5148632580261593
+          ],
+          "content": "y ^ {n} = f (x) \\text { in } x, y \\in \\mathbb {Z}",
+          "image_source": "images/page_7_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5231866825208086,
+            0.8151260504201681,
+            0.558858501783591
+          ],
+          "content": "has only finitely many solutions, and its set of solutions can be determined efectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5766944114149821,
+            0.8134453781512605,
+            0.6123662306777645
+          ],
+          "content": "In Frits’ lecture notes on the Siegel-Mahler Theorem it was explained how the equations in Corollaries 2.4 and 2.5 can be reduced to (2.4)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.619500594530321,
+            0.8134453781512605,
+            0.7847800237812128
+          ],
+          "content": "In the proof of Theorem 2.3 we need some facts on units. Suppose the number field K has degree d. Then K has precisely d distinct embeddings in $\\mathbb { C } .$, which can be divided into real embeddings (of which the image lies in R) and complex embeddings (with image in C but not in R). Further, the complex embeddings occur in complex conjugate pairs$\\sigma , { \\overline { { \\sigma } } }$, where$\\overline { { \\sigma } } ( x ) : = \\overline { { \\sigma ( x ) } }$for $x \\in K$. Suppose that K has precisely$r _ { 1 }$real embeddings, and precisely$r _ { 2 }$ pairs of complex conjugate embeddings, where$r _ { 1 } + 2 r _ { 2 } = d . \\nonumber$. We renumber the embeddings such that$\\sigma _ { 1 } , \\ldots , \\sigma _ { r _ { 1 } }$are the real embeddings of$K$, and$\\sigma _ { r _ { 1 } + r _ { 2 } + i } =$ $\\overline { { \\sigma _ { r _ { 1 } + i } } }$for$i = 1 , \\ldots , r _ { 2 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": "8"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.15966386554621848,
+            0.10344827586206896,
+            0.44873949579831934,
+            0.12009512485136742
+          ],
+          "content": "The following fact is well known."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.13198573127229488,
+            0.5176470588235295,
+            0.14982164090368608
+          ],
+          "content": "Lemma 2.6. Let ε be a unit of${ \\mathcal { O } } _ { K }$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3596638655462185,
+            0.15695600475624258,
+            0.5915966386554622,
+            0.20332936979785968
+          ],
+          "content": "N _ {K / \\mathbb {Q}} (\\varepsilon) = \\prod_ {i = 1} ^ {d} \\sigma_ {i} (\\varepsilon) = \\pm 1.",
+          "image_source": "images/page_8_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.21759809750297265,
+            0.2907563025210084,
+            0.2318668252080856
+          ],
+          "content": "Proof. Exercise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.24851367419738407,
+            0.8134453781512605,
+            0.2853745541022592
+          ],
+          "content": "To study the units of${ \\mathcal { O } } _ { K }$, it is useful to consider the absolute values of their conjugates. Clearly, for$\\varepsilon \\in { \\mathcal { O } } _ { K } ^ { * }$we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31596638655462184,
+            0.29369797859690844,
+            0.6672268907563025,
+            0.31272294887039237
+          ],
+          "content": "| \\sigma_ {r _ {1} + r _ {2} + i} (\\varepsilon) | = | \\sigma_ {r _ {1} + i} (\\varepsilon) | \\mathrm{for} i = 1 \\dots r _ {2},",
+          "image_source": "images/page_8_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31596638655462184,
+            0.3162901307966706,
+            0.561344537815126,
+            0.3590963139120095
+          ],
+          "content": "\\prod_ {i = 1} ^ {r _ {1}} | \\sigma_ {i} (\\varepsilon) | \\prod_ {i = r _ {1} + 1} ^ {r _ {1} + r _ {2}} | \\sigma_ {i} (\\varepsilon) | ^ {2} = 1,",
+          "image_source": "images/page_8_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3686087990487515,
+            0.746218487394958,
+            0.38525564803804996
+          ],
+          "content": "so$| \\sigma _ { i } ( \\varepsilon ) | \\ ( i = 1 , \\ldots , r _ { 1 } + r _ { 2 } - 1 )$determine$| \\sigma _ { i } ( \\varepsilon ) | \\ ( i = r _ { 1 } + r _ { 2 } , \\ldots , d )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15798319327731092,
+            0.3923900118906064,
+            0.8100840336134454,
+            0.4090368608799049
+          ],
+          "content": "The following lemma is a more precise version of Dirichlet’s Unit Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.42092746730083236,
+            0.611764705882353,
+            0.43876337693222356
+          ],
+          "content": "Lemma 2.7. Let$r : = r _ { 1 } + r _ { 2 } - 1$and define the map"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27058823529411763,
+            0.4470868014268728,
+            0.6789915966386555,
+            0.464922711058264
+          ],
+          "content": "L: \\mathcal {O} _ {K} ^ {*} \\to \\mathbb {R} ^ {r}: \\varepsilon \\mapsto (\\log | \\sigma_ {1} (\\varepsilon), \\dots , \\log | \\sigma_ {r} (\\varepsilon) |).",
+          "image_source": "images/page_8_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.4756242568370987,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": "Then L is a group homomorphism. The kernel of L is the group$U _ { K }$of roots $o f$unity of K and the image of L is a lattice of rank r in$\\mathbb { R } ^ { r }$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5291319857312723,
+            0.8117647058823529,
+            0.5659928656361475
+          ],
+          "content": "Choose units$\\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { r }$such that$L ( \\varepsilon _ { 1 } ) , \\dots , L ( \\varepsilon _ { r } )$form a basis of the lattice $L ( { \\mathcal { O } } _ { K } ^ { * } )$. Then every$\\varepsilon \\in { \\mathcal { O } } _ { K } ^ { * }$can be expressed uniquely as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3042016806722689,
+            0.5719381688466112,
+            0.6470588235294118,
+            0.5909631391200951
+          ],
+          "content": "\\zeta \\varepsilon_ {1} ^ {b _ {1}} \\dots \\varepsilon_ {r} ^ {b _ {r}} \\text { with } \\zeta \\in U _ {K}, b _ {1}, \\ldots , b _ {r} \\in \\mathbb {Z}.\\tag{2.5}",
+          "image_source": "images/page_8_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6016646848989299,
+            0.31596638655462184,
+            0.6171224732461356
+          ],
+          "content": "Further, the matrix"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29747899159663865,
+            0.6242568370986921,
+            0.6504201680672269,
+            0.6860879904875149
+          ],
+          "content": "M := \\left( \\begin{array}{c c c} \\log | \\sigma_ {1} (\\varepsilon_ {1}) | & \\dots & \\log | \\sigma_ {1} (\\varepsilon_ {r}) | \\\\ \\vdots & & \\vdots \\\\ \\log | \\sigma_ {r} (\\varepsilon_ {1}) | & \\dots & \\log | \\sigma_ {r} (\\varepsilon_ {r}) | \\end{array} \\right)\\tag{2.6}",
+          "image_source": "images/page_8_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6932223543400713,
+            0.2504201680672269,
+            0.7098692033293698
+          ],
+          "content": "is invertible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15966386554621848,
+            0.7193816884661117,
+            0.3915966386554622,
+            0.7348394768133175
+          ],
+          "content": "We deduce a consequence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.7479191438763377,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": "Lemma 2.8. There is a constant$C > 0$with the following property.$I f \\varepsilon i s$ any unit$o f { \\mathcal { O } } _ { K }$, and$b _ { 1 } , \\ldots , b _ { r }$are the corresponding integers defined by (2.4),"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08323424494649227
+          ],
+          "content": "9"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.10582639714625446,
+            0.18487394957983194,
+            0.11890606420927467
+          ],
+          "content": "then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3025210084033613,
+            0.12128418549346016,
+            0.6487394957983194,
+            0.14625445897740785
+          ],
+          "content": "\\max (| b _ {1} |, \\dots , | b _ {r} |) \\leqslant C \\cdot \\max _ {1 \\leqslant i \\leqslant d} \\log | \\sigma_ {i} (\\varepsilon) |.",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.1629013079667063,
+            0.8117647058823529,
+            0.19976218787158145
+          ],
+          "content": "Proof. Let b$\\mathbf { \\Psi } : = ( b _ { 1 } , \\dots , b _ { r } ) ^ { T }$(column vector). Then$L ( \\varepsilon ) = M \\mathbf { b }$, hence$\\mathbf { b } =$ $M ^ { - 1 } L ( \\varepsilon )$. Writing$M ^ { - 1 } = \\left( a _ { i j } \\right)$, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33613445378151263,
+            0.20689655172413793,
+            0.6134453781512605,
+            0.2497027348394768
+          ],
+          "content": "b _ {i} = \\sum_ {j = 1} ^ {r} a _ {i j} \\sigma_ {j} (\\varepsilon) (i = 1, \\dots , r).",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.2556480380499406,
+            0.48739495798319327,
+            0.272294887039239
+          ],
+          "content": "Applying the triangle inequality, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292436974789916,
+            0.27586206896551724,
+            0.6588235294117647,
+            0.3234244946492271
+          ],
+          "content": "\\max _ {1 \\leqslant i \\leqslant r} | b _ {i} | \\leqslant \\left(\\max _ {1 \\leqslant i \\leqslant r} \\sum_ {j = 1} ^ {r} | a _ {i j} |\\right) \\cdot \\max _ {1 \\leqslant j \\leqslant r} | \\sigma_ {j} (\\varepsilon) |.",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.356718192627824,
+            0.8117647058823529,
+            0.3923900118906064
+          ],
+          "content": "Proof of Theorem 2.3. Let$( x , y )$be a solution of (2.3). There are$\\zeta _ { 1 } , \\zeta _ { 2 } \\in$ $U _ { K }$, as well as integers$a _ { 1 } , \\dotsc , a _ { r } , b _ { 1 } , \\dotsc , b _ { r }$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3243697478991597,
+            0.3971462544589774,
+            0.6235294117647059,
+            0.41854934601664684
+          ],
+          "content": "x = \\zeta_ {1} \\varepsilon_ {1} ^ {a _ {1}} \\dots \\varepsilon_ {r} ^ {a _ {r}}, y = \\zeta_ {2} \\varepsilon_ {1} ^ {b _ {1}} \\dots \\varepsilon_ {r} ^ {b _ {r}}.",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.42568370986920334,
+            0.1915966386554622,
+            0.441141498216409
+          ],
+          "content": "Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.334453781512605,
+            0.4423305588585018,
+            0.6168067226890757,
+            0.4625445897740785
+          ],
+          "content": "a \\zeta_ {1} \\varepsilon_ {1} ^ {a _ {1}} \\cdot \\cdot \\cdot \\varepsilon_ {r} ^ {a _ {r}} + b \\zeta_ {2} \\varepsilon_ {1} ^ {b _ {1}} \\cdot \\cdot \\cdot \\varepsilon_ {r} ^ {b _ {r}} = 1.",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.464922711058264,
+            0.8134453781512605,
+            0.5017835909631391
+          ],
+          "content": "We assume without loss of generality that$B : = \\operatorname* { m a x } ( | a _ { 1 } | , \\ldots , | b _ { r } | ) = | b _ { r } |$. We estimate from above and below,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24033613445378152,
+            0.5089179548156956,
+            0.7109243697478992,
+            0.5279429250891795
+          ],
+          "content": "\\Lambda_ {i} := | \\sigma_ {i} (a) \\sigma (\\zeta_ {1}) \\sigma_ {i} (\\varepsilon_ {1}) ^ {a _ {1}} \\dots \\sigma_ {i} (\\varepsilon_ {r}) ^ {a _ {r}} - 1 | = | \\sigma_ {i} (b) \\sigma_ {i} (y) |",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5338882282996433,
+            0.35798319327731093,
+            0.5517241379310345
+          ],
+          "content": "for a suitable choice of$i .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.558858501783591,
+            0.8588235294117647,
+            0.5945303210463734
+          ],
+          "content": "In fact, let$| \\sigma _ { i } ( y ) |$be the smallest, and$| \\sigma _ { j } ( y ) |$the largest among$| \\sigma _ { 1 } ( y ) | , \\dots , | \\sigma _ { d } ( y ) |$|. Then by Lemma 2.6,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3865546218487395,
+            0.5957193816884662,
+            0.5647058823529412,
+            0.6147443519619501
+          ],
+          "content": "\\left| \\sigma_ {i} (y) \\right| ^ {d - 1} \\left| \\sigma_ {j} (y) \\right| \\leqslant 1",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.6183115338882283,
+            0.42857142857142855,
+            0.6349583828775267
+          ],
+          "content": "and subsequently by Lemma 2.8,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3126050420168067,
+            0.6409036860879905,
+            0.6369747899159663,
+            0.6623067776456599
+          ],
+          "content": "| \\sigma_ {i} (y) | \\leqslant | \\sigma_ {j} (y) | ^ {- 1 / (d - 1)} \\leqslant e ^ {- B / C (d - 1)}.",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6694411414982164,
+            0.25882352941176473,
+            0.6848989298454221
+          ],
+          "content": "This leads to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3764705882352941,
+            0.6848989298454221,
+            0.5747899159663865,
+            0.7051129607609988
+          ],
+          "content": "\\Lambda_ {i} \\leqslant | \\sigma_ {i} (\\beta) | e ^ {- B / C (d - 1)}.",
+          "image_source": "images/page_9_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3546218487394958,
+            0.7621878715814506,
+            0.5966386554621849,
+            0.7835909631391201
+          ],
+          "content": "(e B) ^ {- C ^ {\\prime}} \\leqslant | \\sigma_ {i} (a) | e ^ {- B / C (d - 1)}",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.7098692033293698,
+            0.8117647058823529,
+            0.7621878715814506
+          ],
+          "content": "By Corollary 1.6 we have$\\left| \\Lambda _ { i } \\right| \\geqslant ( e B ) ^ { - C ^ { \\prime } }$for some efectively computable number$C ^ { \\prime }$depending on$a , \\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { r }$and the finitely many roots of unity of$K$. We infer"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1411764705882353,
+            0.0713436385255648,
+            0.16134453781512606,
+            0.08204518430439953
+          ],
+          "content": "10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.10463733650416171,
+            0.6857142857142857,
+            0.12009512485136742
+          ],
+          "content": "and this leads to an efectively computable upper bound for B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.13555291319857313,
+            0.8134453781512605,
+            0.26397146254458975
+          ],
+          "content": "Remark. There are practical algorithms to solve equations of the type (2.4) which work well as long as the degree of the field K, and the fundamental units of the ring of integers of$K$, are not too large. These algorithms are again based on linear forms in logarithms estimates and the LLL-algorithm. For instance, in 2000 Wildanger determined all solutions of the equation$x + y = 1$ in$x , y \\in { \\mathcal { O } } _ { K } ^ { * }$, with$K = \\mathbb { Q } ( \\cos ( 2 \\pi / 1 9 ) )$). The number field K has degree 9 and all its embeddings are real. Thus, the unit group$\\mathcal { O } _ { K } ^ { * }$has rank 8."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4117647058823529,
+            0.28894173602853745,
+            0.5411764705882353,
+            0.30439952437574314
+          ],
+          "level": 2,
+          "content": "3. Exercises"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.3258026159334126,
+            0.8134453781512605,
+            0.3793103448275862
+          ],
+          "content": "Exercise 1. Let$p _ { 1 } , \\ldots , p _ { s } , p _ { s + 1 } , \\ldots , p _ { t }$be distinct prime numbers. Let$A$be the set of positive integers composed of primes from$p _ { 1 } , \\ldots , p _ { s }$, and$B$the set of positive integers composed of primes from$p _ { s + 1 } , \\ldots , p _ { t }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16974789915966387,
+            0.39001189060642094,
+            0.8134453781512605,
+            0.4268727705112961
+          ],
+          "content": "(a) Prove that there exist positive numbers$c _ { 1 } , c _ { 2 }$, efectively computable in terms of$p _ { 1 } , \\ldots , p _ { t }$such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25210084033613445,
+            0.4328180737217598,
+            0.6974789915966386,
+            0.4708680142687277
+          ],
+          "content": "| x - y | \\geqslant \\frac {\\max (x , y)}{c _ {1} (\\log \\max (x , y)) ^ {c _ {2}}} \\text { for   all } x \\in A, y \\in B.",
+          "image_source": "images/page_10_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.4768133174791914,
+            0.8117647058823529,
+            0.5136741973840666
+          ],
+          "content": "(b) Given a non-zero integer a, denote by$P ( a )$the largest prime number dividing a, with$P ( \\pm 1 ) : = 1$. Prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32100840336134456,
+            0.5243757431629013,
+            0.6302521008403361,
+            0.5505350772889417
+          ],
+          "content": "\\lim _ {x \\in A, y \\in B, \\max (| x |, | y |) \\to \\infty} P (x - y) = \\infty .",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.5624256837098692,
+            0.8134453781512605,
+            0.6361474435196195
+          ],
+          "content": "Exercise 2. Let$f ( X ) = X ^ { 2 } - A X - B$be a polynomial with coeficients $A , B \\in \\mathbb { Z }$. Let$\\alpha , \\beta$be the two zeros of f in C. Assume that f is irreducible, and that$\\alpha / \\beta$is not a root of unity. Let the sequence$U = \\{ u _ { n } \\} _ { n = 0 } ^ { \\infty }$in$\\mathbb { Z }$be given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3445378151260504,
+            0.6409036860879905,
+            0.6067226890756302,
+            0.6563614744351962
+          ],
+          "content": "u _ {n} = A u _ {n - 1} + B u _ {n - 2} (n \\geqslant 0)",
+          "image_source": "images/page_10_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.6634958382877527,
+            0.492436974789916,
+            0.6801426872770512
+          ],
+          "content": "and initial values$u _ { 0 } , u _ { 1 } \\in \\mathbb { Z }$, not both 0."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16974789915966387,
+            0.6920332936979786,
+            0.507563025210084,
+            0.7098692033293698
+          ],
+          "content": "(a) Prove that$M : = \\operatorname* { m a x } ( | \\alpha | , | \\beta | ) > 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16974789915966387,
+            0.7110582639714625,
+            0.8117647058823529,
+            0.7455410225921522
+          ],
+          "content": "(b) Prove that there are non-zero algebraic numbers$\\gamma _ { 1 } , \\gamma _ { 2 }$such that$u _ { n } =$ $\\gamma _ { 1 } \\alpha ^ { n } + \\gamma _ { 2 } \\beta ^ { n }$for$n \\geqslant 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17142857142857143,
+            0.7479191438763377,
+            0.8117647058823529,
+            0.7812128418549346
+          ],
+          "content": "(c) Prove that there is an efectively computable number C such that$u _ { n } \\neq$ 0 for$n \\geqslant C$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7932773109243697,
+            0.0713436385255648,
+            0.8117647058823529,
+            0.08204518430439953
+          ],
+          "content": "11"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.13912009512485138
+          ],
+          "content": "(d) Prove that there are efectively computable positive numbers$c _ { 1 } , c _ { 2 }$such that$| u _ { n } | \\geqslant M ^ { n } / c _ { 1 } n ^ { c _ { 2 } }$for$n \\geqslant C$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.15338882282996433,
+            0.653781512605042,
+            0.1700356718192628
+          ],
+          "content": "Exercise 3. Let$A , B , C$be integers such that$C \\neq 0$and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2453781512605042,
+            0.17717003567181927,
+            0.7075630252100841,
+            0.1961950059453032
+          ],
+          "content": "X ^ {3} - A X ^ {2} - B X - C = (X - \\alpha_ {1}) (X - \\alpha_ {2}) (X - \\alpha_ {3}),",
+          "image_source": "images/page_11_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.20451843043995244,
+            0.8134453781512605,
+            0.2413793103448276
+          ],
+          "content": "where$\\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\in \\mathbb { C }$, and none of the quotients$\\alpha _ { i } / \\alpha _ { j } \\ ( 1 \\le i < j \\le 3 )$is a root of unity. Consider the linear recurrence sequence$U = \\{ u _ { n } \\} _ { n = 0 } ^ { \\infty } , \\mathrm { g i v e n }$by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3042016806722689,
+            0.2497027348394768,
+            0.6470588235294118,
+            0.26516052318668254
+          ],
+          "content": "u _ {n} = A u _ {n - 1} + B u _ {n - 2} + C u _ {n - 3} (n \\geqslant 3)",
+          "image_source": "images/page_11_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.2746730083234245,
+            0.5277310924369748,
+            0.291319857312723
+          ],
+          "content": "and initial values$u _ { 0 } , u _ { 1 } , u _ { 2 } \\in \\mathbb { Z }$, not all zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.30202140309155767,
+            0.7260504201680672,
+            0.31985731272294887
+          ],
+          "content": "(a) Prove that there exist algebraic numbers$\\gamma _ { 1 } , \\gamma _ { 2 } , \\gamma _ { 3 }$such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31596638655462184,
+            0.3269916765755054,
+            0.6369747899159663,
+            0.3460166468489893
+          ],
+          "content": "u _ {n} = \\gamma_ {1} \\alpha_ {1} ^ {n} + \\gamma_ {2} \\alpha_ {2} ^ {n} + \\gamma_ {3} \\alpha_ {3} ^ {n} \\mathrm{for} n \\geqslant 0.",
+          "image_source": "images/page_11_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.35315101070154575,
+            0.5680672268907563,
+            0.37098692033293695
+          ],
+          "content": "(b) Prove that$| \\alpha _ { 1 } | = | \\alpha _ { 2 } | = | \\alpha _ { 3 } |$cannot hold."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16974789915966387,
+            0.37217598097502974,
+            0.8134453781512605,
+            0.42568370986920334
+          ],
+          "content": "(c) Prove that there exists an efectively computable number$C ,$depending on$A , B , C$, such that if n is a non-negative integer with$u _ { n } = 0$then $n < C .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.4399524375743163,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": "Exercise 4. In 1995, Laurent, Mignotte and Nesterenko proved the following explicit estimate for linear forms in two logarithms. Let$a _ { 1 } , a _ { 2 }$be two positive rational numbers$\\neq 1$. Further, let$b _ { 1 } , b _ { 2 }$be non-zero integers. Suppose that $\\Lambda : = b _ { 1 } \\log a _ { 1 } - b _ { 2 } \\log a _ { 2 } \\neq 0$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.17142857142857143,
+            0.5208085612366231,
+            0.838655462184874,
+            0.5802615933412604
+          ],
+          "content": "\\begin{array}{l} \\log | \\Lambda | \\geqslant \\\\ - 2 2 \\left(\\max \\left\\{\\log \\left(\\frac {| b _ {1} |}{\\log H (a _ {2})} + \\frac {| b _ {2} |}{\\log H (a _ {1})}\\right) + 0. 0 6, 2 1 \\right\\}\\right) ^ {2} \\log H (a _ {1}) \\log H (a _ {2}). \\end{array}",
+          "image_source": "images/page_11_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.5838287752675386,
+            0.8134453781512605,
+            0.619500594530321
+          ],
+          "content": "Using this estimate, compute an upper bound$C ,$such that for all positive integers$m , n$with$9 7 ^ { m } - 8 9 ^ { n } = 8$we have$m , n \\leqslant C$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.619500594530321,
+            0.48739495798319327,
+            0.6397146254458977
+          ],
+          "content": "Hint. Use$| \\log ( 1 + z ) | \\leqslant 2 | z | { \\mathrm { ~ i f ~ } } | z | \\leqslant { \\frac { 1 } { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13781512605042018,
+            0.6480380499405469,
+            0.8117647058823529,
+            0.6848989298454221
+          ],
+          "content": "Exercise 5. In this exercise you are asked to apply the estimate of Laurent, Mignotte and Nesterenko to more advanced equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16974789915966387,
+            0.6956004756242569,
+            0.41680672268907565,
+            0.713436385255648
+          ],
+          "content": "(a) Prove that the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25882352941176473,
+            0.7217598097502973,
+            0.692436974789916,
+            0.7384066587395958
+          ],
+          "content": "x ^ {n} - 2 y ^ {n} = 1 \\text { in   unknowns } x, y \\text { with } x \\geqslant 2, y \\geqslant 2",
+          "image_source": "images/page_11_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.7479191438763377,
+            0.4638655462184874,
+            0.7633769322235434
+          ],
+          "content": "has no solutions if$n > 1 0 0 0 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.7657550535077289,
+            0.8117647058823529,
+            0.7835909631391201
+          ],
+          "content": "Hint. Applying Laurent-Mignotte-Nesterenko to an appropriate linear"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.14285714285714285,
+            0.0713436385255648,
+            0.16134453781512606,
+            0.08204518430439953
+          ],
+          "content": "12"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.10463733650416171,
+            0.8134453781512605,
+            0.1759809750297265
+          ],
+          "continues_prev": true,
+          "content": "form in two logarithms you will get a lower estimate depending on n and$x , y$. But you can derive also an upper estimate which depends on $n , x , y$. Comparing the two estimates leads to an upper bound for n independent of$x , y$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.1759809750297265,
+            0.8117647058823529,
+            0.21284185493460167
+          ],
+          "content": "(b) Let$a , b , c$be positive integers. Prove that there is a number$C ,$efectively computable in terms of$a , b , c ,$such that the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4134453781512605,
+            0.21997621878715815,
+            0.5411764705882353,
+            0.23543400713436385
+          ],
+          "content": "a x ^ {n} - b y ^ {n} = c",
+          "image_source": "images/page_12_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.24494649227110582,
+            0.8117647058823529,
+            0.2794292508917955
+          ],
+          "content": "has no solutions if$n > C$. In the case$a = b$you may give an elementary proof, without using the result of Laurent-Mignotte-Nesterenko."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17142857142857143,
+            0.2806183115338882,
+            0.66890756302521,
+            0.2972651605231867
+          ],
+          "content": "(c) Let k be a fixed integer$\\geqslant 2$. Prove that the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24033613445378152,
+            0.30202140309155767,
+            0.7109243697478992,
+            0.3388822829964328
+          ],
+          "content": "y ^ {z} = \\binom{x}{k} \\text {   in   integers   } x, y, z \\text {   with   } x > 0, y \\geqslant 2, z \\geqslant 3",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.34244946492271106,
+            0.48739495798319327,
+            0.36028537455410226
+          ],
+          "content": "has only finitely many solutions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13949579831932774,
+            0.3745541022592152,
+            0.8134453781512605,
+            0.4102259215219976
+          ],
+          "content": "Exercise 6. In this exercise, you are asked to prove a very simple case of Theorem 1.10 and to apply this to certain Diophantine equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.41973840665873957,
+            0.8117647058823529,
+            0.45659928656361476
+          ],
+          "content": "(a) Let a be an integer, and$p \\textrm { a }$prime, such that$| a | _ { p } \\leqslant p ^ { - 1 } { \\mathrm { ~ i f ~ } } p > 2$and $| a | _ { 2 } \\leqslant 2 ^ { - 2 } { \\mathrm { ~ i f ~ } } p = 2$. Prove that for any positive integer b we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3445378151260504,
+            0.46135552913198574,
+            0.6067226890756302,
+            0.4815695600475624
+          ],
+          "content": "\\left| (1 + a) ^ {b} - 1 \\right| _ {p} = \\left| a b \\right| _ {p} \\geqslant 1 / a b.",
+          "image_source": "images/page_12_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20168067226890757,
+            0.5041617122473246,
+            0.8134453781512605,
+            0.558858501783591
+          ],
+          "content": "Hint. You may either prove that$| { \\binom { b } { k } } a ^ { k } | _ { p } < | a b | _ { p }$for$k \\geqslant 2$or write $b = u p ^ { t }$where u is an integer not divisible by p and t a non-negative integer, and use induction on t."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16806722689075632,
+            0.5600475624256838,
+            0.8117647058823529,
+            0.6159334126040428
+          ],
+          "content": "(b) Let p be a prime$\\geqslant 5$. Using (a), prove that the equation$p ^ { x } - 2 ^ { y } = 1$ has no solutions in integers$x \\geqslant 2 , y \\geqslant 2$. Prove also that the equation $2 ^ { x } - p ^ { y } = 1$has no solutions in integers$x \\geq 2 , y \\geqslant 2$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": "LINEAR FORMS IN LOGARITHMS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7915966386554621,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08204518430439953
+          ],
+          "content": "13"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "is_full_document": true
+}

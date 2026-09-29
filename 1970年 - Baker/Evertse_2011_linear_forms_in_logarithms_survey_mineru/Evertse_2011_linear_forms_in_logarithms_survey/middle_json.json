@@ -1,0 +1,5790 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.24705882352941178,
+            0.13793103448275862,
+            0.7058823529411765,
+            0.15695600475624258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.37142857142857144,
+            0.178359096313912,
+            0.5815126050420169,
+            0.1938168846611177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "JAN-HENDRIK EVERTSE"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.42857142857142855,
+            0.2294887039239001,
+            0.5243697478991597,
+            0.2473246135552913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "April 2011"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.42857142857142855,
+            0.25802615933412604,
+            0.5243697478991597,
+            0.272294887039239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Literature:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13949579831932774,
+            0.28180737217598095,
+            0.8117647058823529,
+            0.31272294887039237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "T.N. Shorey, R. Tijdeman, Exponential Diophantine equations, Cambridge University Press, 1986; reprinted 2008."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.2319327731092437,
+            0.3329369797859691,
+            0.7226890756302521,
+            0.34720570749108204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Linear forms in logarithms and applications"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13949579831932774,
+            0.3638525564803805,
+            0.8117647058823529,
+            0.41854934601664684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We start with recalling some results from transcendence theory and then work towards lower bounds for linear forms in logarithms which are of crucial importance in efectively solving Diophantine equations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13949579831932774,
+            0.4268727705112961,
+            0.8117647058823529,
+            0.46135552913198574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We start with a transcendence result proved independently by the Russian Gel’fond and the German Schneider in 1934."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13949579831932774,
+            0.4708680142687277,
+            0.8134453781512605,
+            0.5065398335315101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.1. (Gel’fond, Schneider, 1934) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": "be algebraic numbers in C, with α"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\neq 0 ,"
+            },
+            {
+              "type": "text",
+              "content": ", 1 and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta \\notin \\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { \\beta }"
+            },
+            {
+              "type": "text",
+              "content": "is transcendental."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13949579831932774,
+            0.5196195005945303,
+            0.8117647058823529,
+            0.5755053507728894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { \\beta } : = e ^ { \\beta \\log \\alpha }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle e ^ { z } = \\sum _ { n = 0 } ^ { \\infty } z ^ { n } / n !"
+            },
+            {
+              "type": "text",
+              "content": "and log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = \\log | \\alpha | + i \\arg ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": ". The argument of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": "is determined only up to a multiple of 2π. Thus, log α and hence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ^ { \\beta }"
+            },
+            {
+              "type": "text",
+              "content": "are multi-valued. The theorem holds for any choice of value of arg α."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13949579831932774,
+            0.5838287752675386,
+            0.8134453781512605,
+            0.6183115338882283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 1.2. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": "be an algebraic number in C with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\beta \\notin \\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { \\pi \\beta }"
+            },
+            {
+              "type": "text",
+              "content": "is transcendental."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13949579831932774,
+            0.6325802615933412,
+            0.426890756302521,
+            0.6516052318668252
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof."
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { \\pi \\beta } = e ^ { \\pi i \\cdot ( - i \\beta ) } = ( - 1 ) ^ { - i \\beta }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.6658739595719382,
+            0.8134453781512605,
+            0.7217598097502973
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given a subring R of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } \\ ( \\mathrm { e . g . , ~ \\mathbb { Z } , ~ \\mathbb { Q } }"
+            },
+            {
+              "type": "text",
+              "content": ", field of algebraic numbers), we say that complex numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta _ { 1 } , \\ldots , \\theta _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "are called linearly independent over R if the equation"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } \\theta _ { 1 } + \\cdot \\cdot \\cdot + x _ { m } \\theta _ { m } = 0"
+            },
+            {
+              "type": "text",
+              "content": "has no solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { 1 } , \\ldots , x _ { m } ) \\in R ^ { m } \\setminus \\{ \\mathbf { 0 } \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13949579831932774,
+            0.7288941736028538,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 1.3. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": "be algebraic numbers from C diferent from 0, 1 such that log α, log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": "are linearly independent over"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". Then for all non-zero algebraic numbers γ, δ from C we have γ log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha + \\delta \\log \\beta \\neq 0"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.47058823529411764,
+            0.7847800237812128,
+            0.48067226890756304,
+            0.7942925089179548
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1581450653983353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Assume γ log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha + \\delta"
+            },
+            {
+              "type": "text",
+              "content": "log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta = 0"
+            },
+            {
+              "type": "text",
+              "content": ". Then log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = - ( \\delta / \\gamma )"
+            },
+            {
+              "type": "text",
+              "content": "log β, hence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta ^ { - \\delta / \\gamma }"
+            },
+            {
+              "type": "text",
+              "content": ". By Theorem 1.1 this is possible only if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a : = \\delta / \\gamma \\in \\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". But then, log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha - a \\log \\beta = 0"
+            },
+            {
+              "type": "text",
+              "content": ", contrary to our assumption.✷"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13781512605042018,
+            0.1724137931034483,
+            0.8117647058823529,
+            0.20689655172413793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now come to Baker’s generalization to linear forms in an arbitrary number of logarithms of algebraic numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13781512605042018,
+            0.21878715814506539,
+            0.8151260504201681,
+            0.291319857312723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.4. (A. Baker, 1966) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be algebraic numbers from C diferent from 0, 1 such that log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\log \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "are linearly independent over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". Then for every tuple"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\beta _ { 0 } , \\beta _ { 1 } , \\ldots , \\beta _ { m } \\right)"
+            },
+            {
+              "type": "text",
+              "content": "of algebraic numbers from C diferent from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 0 , 0 , \\ldots , 0 )"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.31596638655462184,
+            0.29964328180737215,
+            0.6336134453781512,
+            0.31747919143876335
+          ],
+          "image_path": "images/page_1_equation_3.jpg",
+          "content": "\\beta_ {0} + \\beta_ {1} \\log \\alpha_ {1} + \\dots + \\beta_ {m} \\log \\alpha_ {m} \\neq 0."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13781512605042018,
+            0.33531510107015455,
+            0.8134453781512605,
+            0.40784780023781214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For applications to Diophantine problems, it is important that not only the above linear form is non-zero, but also that we have a strong enough lower bound for the absolute value of this linear form. We give a special case, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 0 } = 0"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } , \\ldots , \\beta _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "are rational integers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.4173602853745541,
+            0.8134453781512605,
+            0.45422116527942924
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.5. (A. Baker, 1975) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be algebraic numbers from C diferent from 0, 1. Further, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , \\ldots , b _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be rational integers such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.33949579831932775,
+            0.4625445897740785,
+            0.6100840336134454,
+            0.4803804994054697
+          ],
+          "image_path": "images/page_1_equation_6.jpg",
+          "content": "b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} \\neq 0."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1411764705882353,
+            0.48989298454221164,
+            0.19327731092436976,
+            0.5041617122473246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3092436974789916,
+            0.5077288941736029,
+            0.6420168067226891,
+            0.5279429250891795
+          ],
+          "image_path": "images/page_1_equation_8.jpg",
+          "content": "\\left| b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} \\right| \\geqslant (e B) ^ {- C},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13949579831932774,
+            0.5326991676575505,
+            0.8134453781512605,
+            0.5695600475624257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( | b _ { 1 } | , . . . , | b _ { m } | )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C"
+            },
+            {
+              "type": "text",
+              "content": "is an efectively computable constant depending only on m and on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13949579831932774,
+            0.5862068965517241,
+            0.8117647058823529,
+            0.6218787158145065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is possible to get rid of the logarithms. Then Theorem 1.5 leads to the following:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13949579831932774,
+            0.6325802615933412,
+            0.8117647058823529,
+            0.6682520808561236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 1.6. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be algebraic numbers from C diferent from 0, 1 and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , \\ldots , b _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be rational integers such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.40672268907563025,
+            0.6753864447086801,
+            0.5445378151260504,
+            0.6956004756242569
+          ],
+          "image_path": "images/page_1_equation_12.jpg",
+          "content": "\\alpha_ {1} ^ {b _ {1}} \\dots \\alpha_ {m} ^ {b _ {m}} \\neq 1."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.14285714285714285,
+            0.703923900118906,
+            0.1915966386554622,
+            0.7193816884661117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.35798319327731093,
+            0.7217598097502973,
+            0.5966386554621849,
+            0.7419738406658739
+          ],
+          "image_path": "images/page_1_equation_14.jpg",
+          "content": "| \\alpha_ {1} ^ {b _ {1}} \\dots \\alpha_ {m} ^ {b _ {m}} - 1 | \\geqslant (e B) ^ {- C ^ {\\prime}},"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.13949579831932774,
+            0.746730083234245,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where again"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( | b _ { 1 } | , \\ldots , | b _ { m } | )"
+            },
+            {
+              "type": "text",
+              "content": "and where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": "is an efectively computable constant depending only on m and on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.17479191438763378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. For the logarithm of a complex number z we choose log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z = \\log | z | +"
+            },
+            {
+              "type": "text",
+              "content": " iarg z with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\pi < \\arg z \\leqslant \\pi"
+            },
+            {
+              "type": "text",
+              "content": ". With this choice of log we have log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 + w ) ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\scriptstyle \\sum _ { n = 1 } ^ { \\infty } ( - 1 ) ^ { n - 1 } w ^ { n } / n"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w \\in \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| w | < 1"
+            },
+            {
+              "type": "text",
+              "content": ". Using this power series expansion, one easily shows that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.33277310924369746,
+            0.18549346016646848,
+            0.6184873949579832,
+            0.20332936979785968
+          ],
+          "image_path": "images/page_2_equation_1.jpg",
+          "content": "| \\log (1 + w) | \\leqslant 2 | w | \\text {   if   } | w | \\leqslant 1 / 2."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13781512605042018,
+            0.2116527942925089,
+            0.8134453781512605,
+            0.2497027348394768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We apply this with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w : = \\alpha _ { 1 } ^ { b _ { 1 } } \\cdot \\cdot \\cdot \\alpha _ { m } ^ { b _ { m } } - 1"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { I f } \\ | w | > 1 / 2"
+            },
+            {
+              "type": "text",
+              "content": "we are done, so we suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| w | \\leqslant 1 / 2"
+            },
+            {
+              "type": "text",
+              "content": ". We have to estimate from below"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\log ( 1 + w ) \\right|"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15798319327731092,
+            0.2568370986920333,
+            0.7865546218487395,
+            0.2734839476813318
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that the complex logarithm is additive only modulo 2πi. That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.2722689075630252,
+            0.28299643281807374,
+            0.680672268907563,
+            0.30083234244946494
+          ],
+          "image_path": "images/page_2_equation_4.jpg",
+          "content": "\\log (1 + w) = b _ {1} \\log \\alpha_ {1} + \\dots + b _ {m} \\log \\alpha_ {m} + 2 k \\pi i"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13949579831932774,
+            0.3091557669441142,
+            0.8117647058823529,
+            0.3448275862068966
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": ". We can apply Theorem 1.5 since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 k \\pi i = 2 k \\log ( - 1 )"
+            },
+            {
+              "type": "text",
+              "content": ". Thus, we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3226890756302521,
+            0.3448275862068966,
+            0.6285714285714286,
+            0.3686087990487515
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "| \\log (1 + w) | \\geqslant \\left(e \\max (B, | 2 k |)\\right) ^ {- C _ {1}}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13781512605042018,
+            0.3745541022592152,
+            0.8134453781512605,
+            0.4090368608799049
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "is an efectively computable constant depending only on m and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": ". Since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\log ( 1 + w ) | \\leqslant 2 | w | \\leqslant 1"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.253781512605042,
+            0.4161712247324614,
+            0.6974789915966386,
+            0.460166468489893
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "\\left| 2 k \\pi i \\right| \\leqslant 1 + \\sum_ {j = 1} ^ {m} \\left| \\log \\alpha_ {j} \\right| \\cdot \\left| b _ {j} \\right| \\leqslant \\left(1 + \\sum_ {j = 1} ^ {m} \\log | \\alpha_ {j} |\\right) B."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13949579831932774,
+            0.4684898929845422,
+            0.8117647058823529,
+            0.5065398335315101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| k | \\leqslant C _ { 2 } B"
+            },
+            {
+              "type": "text",
+              "content": ", say, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\log ( 1 + w ) | \\geqslant ( e C _ { 2 } B ) ^ { - C _ { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": ". This implies"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| w | \\geqslant"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\scriptstyle \\frac { 1 } { 2 } } ( e C _ { 2 } B ) ^ { - C _ { 1 } } \\geq ( e B ) ^ { - C ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": "for a suitable"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": ", as required.✷"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13781512605042018,
+            0.5196195005945303,
+            0.8117647058823529,
+            0.5743162901307967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For completeness, we give a completely explicit version of Corollary 1.6 in the case that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "are integers. The height of a rational number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = x / y"
+            },
+            {
+              "type": "text",
+              "content": " with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": "coprime, is defined by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ( a ) : = \\operatorname* { m a x } ( | x | , | y | )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13949579831932774,
+            0.5850178359096314,
+            0.8134453781512605,
+            0.6206896551724138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.7. (Matveev, 2000) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be non-zero rational numbers and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , \\ldots , b _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be integers such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.41008403361344536,
+            0.6278240190249703,
+            0.5411764705882353,
+            0.6480380499405469
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} \\neq 1."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1411764705882353,
+            0.6551724137931034,
+            0.48403361344537815,
+            0.6753864447086801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a _ { 1 } ^ { b _ { 1 } } \\cdot \\cdot \\cdot a _ { m } ^ { b _ { m } } - 1 | \\geqslant ( e B ) ^ { - C ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3058823529411765,
+            0.6837098692033293,
+            0.6773109243697479,
+            0.7502972651605232
+          ],
+          "image_path": "images/page_2_equation_14.jpg",
+          "content": "\\begin{array}{l} B = \\max (| b _ {1} |, \\ldots , | b _ {m} |), \\\\ C ^ {\\prime} = \\frac {1}{2} e \\cdot m ^ {4. 5} 3 0 ^ {m + 3} \\prod_ {j = 1} ^ {m} \\max \\big (1, \\log H (a _ {j}) \\big). \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15966386554621848,
+            0.7657550535077289,
+            0.7210084033613445,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To illustrate the power of this result we give a quick application."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.8,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13949579831932774,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1581450653983353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 1.8. let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b"
+            },
+            {
+              "type": "text",
+              "content": "be integers with a"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2 , b \\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": ". Then there is an efectively computable number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 1 } > 0"
+            },
+            {
+              "type": "text",
+              "content": ", depending only on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b ,"
+            },
+            {
+              "type": "text",
+              "content": "such that for any two positive integers m, n,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.34789915966386553,
+            0.16527942925089179,
+            0.6033613445378151,
+            0.20214030915576695
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "\\left| a ^ {m} - b ^ {n} \\right| \\geqslant \\frac {\\max \\left(a ^ {m} , b ^ {n}\\right)}{\\left(e \\max (m , n)\\right) ^ {C _ {1}}}."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13949579831932774,
+            0.2080856123662307,
+            0.8134453781512605,
+            0.26397146254458975
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consequently, for any non-zero integer k, there exists an efectively computable number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", depending on a, b, k such that if m, n are positive integers with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { m } - b ^ { n } = k"
+            },
+            {
+              "type": "text",
+              "content": ", then m,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leqslant C _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13781512605042018,
+            0.28180737217598095,
+            0.8134453781512605,
+            0.31866825208085614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let m, n be positive integers. Put"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( m , n )"
+            },
+            {
+              "type": "text",
+              "content": ". Assume without loss of generality that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { m } \\geqslant b ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". By Corollary 1.6 or Theorem 1.7 we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.37142857142857144,
+            0.3269916765755054,
+            0.5798319327731093,
+            0.34720570749108204
+          ],
+          "image_path": "images/page_3_equation_4.jpg",
+          "content": "\\left| 1 - b ^ {n} a ^ {- m} \\right| \\geqslant (e B) ^ {- C _ {1}},"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.3579072532699168,
+            0.8117647058823529,
+            0.3935790725326992
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "is an efectively computable number depending only on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b ."
+            },
+            {
+              "type": "text",
+              "content": ". Multi-plying with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { m }"
+            },
+            {
+              "type": "text",
+              "content": "gives our first assertion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13781512605042018,
+            0.40071343638525564,
+            0.8117647058823529,
+            0.43757431629013077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let m, n be positive integers with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { m } - b ^ { n } = k"
+            },
+            {
+              "type": "text",
+              "content": ". Put again"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { m a x } ( m , n )"
+            },
+            {
+              "type": "text",
+              "content": ". Then since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\geqslant 2"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3915966386554622,
+            0.4447086801426873,
+            0.5579831932773109,
+            0.464922711058264
+          ],
+          "image_path": "images/page_3_equation_7.jpg",
+          "content": "| k | \\geqslant 2 ^ {B} \\cdot (e B) ^ {- C _ {1}}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13781512605042018,
+            0.4768133174791914,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This proves that B is bounded above by an efectively computable number depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , k"
+            },
+            {
+              "type": "text",
+              "content": "✷"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15798319327731092,
+            0.5267538644470868,
+            0.7327731092436974,
+            0.5434007134363853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1844, Catalan conjectured that the equation in four unknowns,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.2605042016806723,
+            0.5541022592152199,
+            0.692436974789916,
+            0.5719381688466112
+          ],
+          "image_path": "images/page_3_equation_10.jpg",
+          "content": "x ^ {m} - y ^ {n} = 1 \\text { in } x, y, m, n \\in \\mathbb {Z} \\text { with } x, y, m, n \\geqslant 2"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13781512605042018,
+            0.582639714625446,
+            0.8151260504201681,
+            0.7847800237812128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has only one solution, namely"
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 ^ { 2 } - 2 ^ { 3 } = 1"
+            },
+            {
+              "type": "text",
+              "content": ". In 1976, as one of the striking consequences of the results on linear forms in logarithms mentioned above, Tijdeman proved that there is an efectively computable constant C, such that for every solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y , m , n )"
+            },
+            {
+              "type": "text",
+              "content": "of Catalan’s equation, one has"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { m } , y ^ { n } \\leqslant C"
+            },
+            {
+              "type": "text",
+              "content": " The constant C can be computed but it is extremely large. Several people tried to prove Catalan’s conjecture, on the one hand by reducing Tijdeman’s constant C using sharper linear forms in logarithm estimates, on the other hand by showing that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { m } , y ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": "have to be very large as long as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x ^ { m } , y ^ { n } ) \\neq ( 3 ^ { 2 } , 2 ^ { 3 } )"
+            },
+            {
+              "type": "text",
+              "content": " and finally using heavy computations. This didn’t lead to success. In 2000 Mihailescu managed to prove Catalan’s conjecture by an algebraic method which is completely independent of linear forms in logarithms."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.1411764705882353,
+            0.07253269916765755,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13781512605042018,
+            0.10225921521997622,
+            0.8134453781512605,
+            0.2318668252080856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We give another application. Consider the sequence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ a _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n } \\ = \\ 2 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = 0 , 1 , 2 , \\ldots"
+            },
+            {
+              "type": "text",
+              "content": "Note that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n + 1 } - a _ { n } = a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". Similarly, we may consider the increasing sequence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ a _ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": "of numbers which are all composed of primes from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ 2 , 3 \\} , \\ \\mathrm { i . e . , ~ } 1 , 2 , 3 , 4 , 6 , 8 , 9 , 1 2 , 1 6 , 1 8 , 2 4 , 2 7 , 3 2 , . ."
+            },
+            {
+              "type": "text",
+              "content": ". and ask how the gap "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n + 1 } - a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "compares with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n } { \\mathrm { ~ a s ~ } } n \\to \\infty"
+            },
+            {
+              "type": "text",
+              "content": ". More generally, we may take a finite set of primes and ask this question about the sequence of consecutive integers composed of these primes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13781512605042018,
+            0.2413793103448276,
+            0.8134453781512605,
+            0.31391200951248516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.9. (Tijdeman, 1974) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S = \\{ p _ { 1 } , \\ldots . p _ { t } \\}"
+            },
+            {
+              "type": "text",
+              "content": "be a finite set of distinct primes, and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } < a _ { 2 } < a _ { 3 } < \\cdots"
+            },
+            {
+              "type": "text",
+              "content": "be the sequence of consecutive positive integers composed of primes from S. Then there are efectively computable positive numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } , c _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t , p _ { 1 } , \\ldots , p _ { t } ,"
+            },
+            {
+              "type": "text",
+              "content": ", such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2907563025210084,
+            0.31866825208085614,
+            0.6588235294117647,
+            0.3507728894173603
+          ],
+          "image_path": "images/page_4_equation_2.jpg",
+          "content": "a _ {n + 1} - a _ {n} \\geqslant \\frac {a _ {n}}{c _ {1} (\\log a _ {n}) ^ {c _ {2}}} \\text {   for   } n = 1, 2, \\dots ."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13781512605042018,
+            0.36504161712247324,
+            0.8117647058823529,
+            0.40309155766944116
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n } = p _ { 1 } ^ { k _ { 1 } } \\cdot \\cdot \\cdot p _ { t } ^ { k _ { t } }"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n + 1 } = p _ { 1 } ^ { l _ { 1 } } \\cdot \\cdot \\cdot p _ { t } ^ { l _ { t } }"
+            },
+            {
+              "type": "text",
+              "content": "with non-negative integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k _ { i } , l _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ". By Corollary 1.6,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.28403361344537814,
+            0.40784780023781214,
+            0.66890756302521,
+            0.4399524375743163
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "\\left| \\frac {a _ {n + 1}}{a _ {n}} - 1 \\right| = | p _ {1} ^ {l _ {1} - k _ {1}} \\dots p _ {t} ^ {l _ {t} - k _ {t}} - 1 | \\geqslant (e B) ^ {- C},"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.4447086801426873,
+            0.6218487394957983,
+            0.4637336504161712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( | l _ { 1 } - k _ { 1 } | , \\ldots , | l _ { t } - k _ { t } | )"
+            },
+            {
+              "type": "text",
+              "content": ". First note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3126050420168067,
+            0.469678953626635,
+            0.6386554621848739,
+            0.5053507728894173
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "k _ {i} \\leqslant \\frac {\\log a _ {n}}{\\log p _ {i}} \\leqslant \\frac {\\log a _ {n}}{\\log 2} \\mathrm{for} i = 1, \\ldots , t."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13949579831932774,
+            0.5101070154577884,
+            0.31932773109243695,
+            0.5279429250891795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Next,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n + 1 } \\leqslant a _ { n } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". So"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3058823529411765,
+            0.5338882282996433,
+            0.6436974789915967,
+            0.5719381688466112
+          ],
+          "image_path": "images/page_4_equation_8.jpg",
+          "content": "l _ {i} \\leqslant \\frac {\\log a _ {n + 1}}{\\log p _ {i}} \\leqslant \\frac {\\log a _ {n} ^ {2}}{\\log 2} \\text { for } i = 1, \\dots , t."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13781512605042018,
+            0.5778834720570749,
+            0.8117647058823529,
+            0.5969084423305588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\leqslant 2 \\log a _ { n } /"
+            },
+            {
+              "type": "text",
+              "content": "log 2. It follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n + 1 } - a _ { n } \\geqslant a _ { n } ( 2 e \\log a _ { n } / \\log 2 ) ^ { - C }"
+            },
+            {
+              "type": "text",
+              "content": ". ✷"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13781512605042018,
+            0.6099881093935791,
+            0.8134453781512605,
+            0.7360285374554102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Most results in Diophantine approximation that have been proved for algebraic numbers in C have an analogue for p-adic numbers. We can define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p { \\cdot }"
+            },
+            {
+              "type": "text",
+              "content": "adic exponentiation, p-adic logarithms, etc., and this enables us to formulate analogues for Theorem 1.1– Theorem 1.7 in the p-adic setting. We give an analogue of Corollary 1.6 in the case that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "are rational numbers. There is a more general version for algebraic"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\ldots , \\alpha _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "but this is more dificult to state."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13781512605042018,
+            0.7479191438763377,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.10. (Yu, 1986) Let p be a prime number, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be non-zero rational numbers which are not divisible by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ."
+            },
+            {
+              "type": "text",
+              "content": ". Further, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , \\ldots , b _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 12,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.8,
+            0.07253269916765755,
+            0.8117647058823529,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13949579831932774,
+            0.10463733650416171,
+            0.2991596638655462,
+            0.12009512485136742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "integers such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.41008403361344536,
+            0.12009512485136742,
+            0.5411764705882353,
+            0.14149821640903687
+          ],
+          "image_path": "images/page_5_equation_1.jpg",
+          "content": "a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} \\neq 1."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13949579831932774,
+            0.1450653983353151,
+            0.4504201680672269,
+            0.16409036860879905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Put"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( | b _ { 1 } | , \\ldots , | b _ { m } | )"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3596638655462185,
+            0.16884661117717004,
+            0.5949579831932773,
+            0.1902497027348395
+          ],
+          "image_path": "images/page_5_equation_3.jpg",
+          "content": "| a _ {1} ^ {b _ {1}} \\dots a _ {m} ^ {b _ {m}} - 1 | _ {p} \\geqslant (e B) ^ {- C}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13949579831932774,
+            0.19738406658739596,
+            0.8084033613445378,
+            0.21521997621878716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C"
+            },
+            {
+              "type": "text",
+              "content": "is an efectively computable number depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ,"
+            },
+            {
+              "type": "text",
+              "content": "m and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { m }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.2318668252080856,
+            0.8117647058823529,
+            0.26872770511296074
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = 1"
+            },
+            {
+              "type": "text",
+              "content": "there is a sharper result which can be proved by elementary means (Exercise 6a). But for m"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": "the proof is very dificult."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.2319327731092437,
+            0.2901307966706302,
+            0.7210084033613445,
+            0.3079667063020214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The effective Siegel-Mahler-Lang Theorem"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13781512605042018,
+            0.3234244946492271,
+            0.8134453781512605,
+            0.3769322235434007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let K be an algebraic number field and let Γ be a finitely generated, multi-plicative subgroup of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { * } , \\mathrm { i . e . }"
+            },
+            {
+              "type": "text",
+              "content": ", there are"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } , \\dotsc , \\gamma _ { t } \\in \\Gamma"
+            },
+            {
+              "type": "text",
+              "content": "such that every element of Γ can be expressed as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.426890756302521,
+            0.3793103448275862,
+            0.5243697478991597,
+            0.3971462544589774
+          ],
+          "image_path": "images/page_5_equation_8.jpg",
+          "content": "\\zeta \\gamma_ {1} ^ {z _ {1}} \\dots \\gamma_ {t} ^ {z _ {t}}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13781512605042018,
+            0.40190249702734837,
+            0.8134453781512605,
+            0.43757431629013077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta"
+            },
+            {
+              "type": "text",
+              "content": "is a root of unity in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ."
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z _ { 1 } , \\ldots , z _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "are integers. Further, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b"
+            },
+            {
+              "type": "text",
+              "content": "be non-zero elements from K and consider the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.3663865546218487,
+            0.44589774078478,
+            0.584873949579832,
+            0.4637336504161712
+          ],
+          "image_path": "images/page_5_equation_10.jpg",
+          "content": "a x + b y = 1 \\text { in } x, y \\in \\Gamma .\\tag{2.1}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15798319327731092,
+            0.4780023781212842,
+            0.8100840336134454,
+            0.4958382877526754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1979, Gy˝ory gave an efective proof of the Siegel-Mahler-Lang Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.5065398335315101,
+            0.8134453781512605,
+            0.5422116527942925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2.1. (Gy˝ory, 1979) Equation (2.1) has only finitely many solutions, and its set of solutions can be determined efectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15798319327731092,
+            0.558858501783591,
+            0.7008403361344537,
+            0.5778834720570749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The idea of the proof is to express a solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "of (2.1) as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3277310924369748,
+            0.582639714625446,
+            0.6235294117647059,
+            0.6052318668252081
+          ],
+          "image_path": "images/page_5_equation_14.jpg",
+          "content": "x = \\zeta_ {1} \\gamma_ {1} ^ {b _ {1}} \\dots \\gamma_ {t} ^ {b _ {t}}, y = \\zeta_ {2} \\gamma_ {1} ^ {b _ {1} ^ {\\prime}} \\dots \\gamma_ {t} ^ {b _ {t} ^ {\\prime}}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.13781512605042018,
+            0.6123662306777645,
+            0.8151260504201681,
+            0.72294887039239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta _ { 1 } , \\zeta _ { 2 } \\in U _ { K } , b _ { i } , b _ { i } ^ { \\prime } \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": ". By combining Corollary 1.6 and a generalization of Theorem 1.10 for algebraic numbers instead of the rational numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\ldots , a _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " in the statement of that lemma, Gy˝ory shows that for every solution"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "of (2.1) one has max"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( | b _ { 1 } | , \\dots , | b _ { t } ^ { \\prime } | ) \\leqslant C"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C"
+            },
+            {
+              "type": "text",
+              "content": "is efectively computable in terms of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Then one can find all solutions of (2.1) by checking for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta _ { 1 } , \\zeta _ { 2 } \\in U _ { K }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { i } , b _ { i } ^ { \\prime } \\leqslant C"
+            },
+            {
+              "type": "text",
+              "content": "whether"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a x + b y = 1"
+            },
+            {
+              "type": "text",
+              "content": "holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13949579831932774,
+            0.7288941736028538,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We prove two special cases of Theorem 2.1, namely the case that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": " and Γ is contained in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": ", and the case that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b"
+            },
+            {
+              "type": "text",
+              "content": "lie in an algebraic number field "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": "and Γ is the group of units of the ring of integers of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.21284185493460167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As has been explained before, if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in \\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": "and Γ is contained in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": ", then Eq. (2.1) can be reduced to an S-unit equation. There are rational numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } , \\ldots , \\gamma _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "such that all elements of Γ are of the shape"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pm \\gamma _ { 1 } ^ { z _ { 1 } } \\cdots \\gamma _ { t } ^ { z _ { t } }"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ p _ { 1 } , \\ldots , p _ { t } \\}"
+            },
+            {
+              "type": "text",
+              "content": "be the prime numbers occurring in the prime factorizations of the numerators and denominators of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , \\gamma _ { 1 } , \\ldots , \\gamma _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "lie in the multiplicative group of S-units"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.31932773109243695,
+            0.21997621878715815,
+            0.6302521008403361,
+            0.2390011890606421
+          ],
+          "image_path": "images/page_6_equation_1.jpg",
+          "content": "\\mathbb {Z} _ {S} ^ {*} = \\{\\pm p _ {1} ^ {z _ {1}} \\dots p _ {t} ^ {z _ {t}}: z _ {1}, \\ldots , z _ {t} \\in \\mathbb {Z} \\}."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13781512605042018,
+            0.2473246135552913,
+            0.8134453781512605,
+            0.28299643281807374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "is a solution to (2.1), the numbers ax, by are S-units. So instead of (2.1), we may as well consider"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.37142857142857144,
+            0.291319857312723,
+            0.5798319327731093,
+            0.3091557669441142
+          ],
+          "image_path": "images/page_6_equation_3.jpg",
+          "content": "x + y = 1 \\text { in } x, y \\in \\mathbb {Z} _ {S} ^ {*}.\\tag{2.2}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13949579831932774,
+            0.31985731272294887,
+            0.8151260504201681,
+            0.3745541022592152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2.2. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ~ = ~ \\{ p _ { 1 } , . . . , p _ { t } \\}"
+            },
+            {
+              "type": "text",
+              "content": "be a finite set of primes. Then (2.2) has only finitely many solutions, and its set of solutions can be determined efectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.3912009512485137,
+            0.8117647058823529,
+            0.4268727705112961
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "be a solution of (2.2). We may write"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = u / w , y = v / w"
+            },
+            {
+              "type": "text",
+              "content": " where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u , v , w"
+            },
+            {
+              "type": "text",
+              "content": "are integers with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname* { g c d } ( u , v , w ) = 1"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.426890756302521,
+            0.43876337693222356,
+            0.5243697478991597,
+            0.4518430439952438
+          ],
+          "image_path": "images/page_6_equation_6.jpg",
+          "content": "u + v = w.\\tag{2.3}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13781512605042018,
+            0.4625445897740785,
+            0.8134453781512605,
+            0.5160523186682521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u , v , w"
+            },
+            {
+              "type": "text",
+              "content": "are composed of primes from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { ; }"
+            },
+            {
+              "type": "text",
+              "content": "and moreover, no prime divides two numbers among"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u , v ,"
+            },
+            {
+              "type": "text",
+              "content": ", w since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u , v ,"
+            },
+            {
+              "type": "text",
+              "content": ", w are coprime. After reordering the primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { t } ."
+            },
+            {
+              "type": "text",
+              "content": ", we may assume that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.22857142857142856,
+            0.5219976218787158,
+            0.7226890756302521,
+            0.5434007134363853
+          ],
+          "image_path": "images/page_6_equation_8.jpg",
+          "content": "u = \\pm p _ {1} ^ {b _ {1}} \\dots p _ {r} ^ {b _ {r}}, \\quad v = \\pm p _ {r + 1} ^ {b _ {r + 1}} \\dots p _ {s} ^ {b _ {s}}, \\quad w = \\pm p _ {s + 1} ^ {b _ {s + 1}} \\dots p _ {t} ^ {b _ {t}},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13781512605042018,
+            0.5517241379310345,
+            0.8134453781512605,
+            0.6409036860879905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leqslant r \\leqslant s \\leqslant t"
+            },
+            {
+              "type": "text",
+              "content": "and the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "are non-negative integers (empty products are equal to 1; for instance if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 0"
+            },
+            {
+              "type": "text",
+              "content": "then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = \\pm 1 )"
+            },
+            {
+              "type": "text",
+              "content": "). We have to prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( b _ { 1 } , \\ldots , b _ { t } )"
+            },
+            {
+              "type": "text",
+              "content": "is bounded above by an efectively computable number depending only on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". By symmetry, we may assume that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = b _ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Then using"
+            },
+            {
+              "type": "equation_inline",
+              "content": "- ( u / v ) - 1 = - ( w / v )"
+            },
+            {
+              "type": "text",
+              "content": "we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.20840336134453782,
+            0.6480380499405469,
+            0.7394957983193278,
+            0.6694411414982164
+          ],
+          "image_path": "images/page_6_equation_10.jpg",
+          "content": "0 <   | \\pm p _ {1} ^ {b _ {1}} \\dots p _ {r} ^ {b _ {r}} p _ {r + 1} ^ {- b _ {r + 1}} \\dots p _ {s} ^ {- b _ {s}} - 1 | _ {p _ {t}} = | w / v | _ {p _ {t}} = p _ {t} ^ {- b _ {t}} = p _ {t} ^ {- B}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13781512605042018,
+            0.6753864447086801,
+            0.8117647058823529,
+            0.7122473246135553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Theorem 1.10 we obtain that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\cdot \\cdot \\cdot | _ { p _ { t } } \\geqslant ( e B ) ^ { - C }"
+            },
+            {
+              "type": "text",
+              "content": ", where C is efectively computable in terms of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { t }"
+            },
+            {
+              "type": "text",
+              "content": ". Hence"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.40672268907563025,
+            0.718192627824019,
+            0.5462184873949579,
+            0.7384066587395958
+          ],
+          "image_path": "images/page_6_equation_12.jpg",
+          "content": "(e B) ^ {- C _ {2}} \\leqslant p _ {t} ^ {- B}."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13781512605042018,
+            0.746730083234245,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So indeed, B is bounded above by an efectively computable number depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "✷"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.8,
+            0.07253269916765755,
+            0.8134453781512605,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13781512605042018,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.1938168846611177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark. In his PhD-thesis from 1988, de Weger gave a practical algorithm, based on strong linear forms in logarithms estimates and the LLL-basis reduction algorithm, to solve equations of the type (2.2). As a consequence, he showed that the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + y = z"
+            },
+            {
+              "type": "text",
+              "content": "has precisely 545 solutions in positive integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y , z"
+            },
+            {
+              "type": "text",
+              "content": " with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\leqslant y ."
+            },
+            {
+              "type": "text",
+              "content": ", all of the shape"
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { b _ { 1 } } 3 ^ { b _ { 2 } } 5 ^ { b _ { 3 } } 7 ^ { b _ { 4 } } 1 1 ^ { b _ { 5 } } 1 3 ^ { b _ { 6 } }"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { i } \\in \\mathbb { Z }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.13949579831932774,
+            0.20451843043995244,
+            0.5697478991596638,
+            0.2211652794292509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2.3. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b \\in K ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": ". Then the equation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3596638655462185,
+            0.23067776456599287,
+            0.5915966386554622,
+            0.24851367419738407
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "a x + b y = 1 \\text { in } x, y \\in \\mathcal {O} _ {K} ^ {*}\\tag{2.4}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13949579831932774,
+            0.2568370986920333,
+            0.8151260504201681,
+            0.291319857312723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has only finitely many solutions and its set of solutions can be determined efectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13949579831932774,
+            0.30083234244946494,
+            0.8134453781512605,
+            0.356718192627824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 2.4. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( X , Y ) = a _ { 0 } X ^ { d } + a _ { 1 } X ^ { d - 1 } Y + \\cdot \\cdot \\cdot + a _ { d } Y ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "be a binary form in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Z } [ X , Y ]"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( X , 1 )"
+            },
+            {
+              "type": "text",
+              "content": "has at least three distinct roots in C, and let m be a non-zero integer. Then the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3663865546218487,
+            0.3638525564803805,
+            0.5865546218487395,
+            0.3816884661117717
+          ],
+          "image_path": "images/page_7_equation_5.jpg",
+          "content": "F (x, y) = m \\text { in } x, y \\in \\mathbb {Z}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13949579831932774,
+            0.38882282996432815,
+            0.8151260504201681,
+            0.42568370986920334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has only finitely many solutions, and its set of solutions can be determined efectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13781512605042018,
+            0.4351961950059453,
+            0.8151260504201681,
+            0.48989298454221164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Corollary 2.5. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( X ) \\in \\mathbb { Z } [ X ]"
+            },
+            {
+              "type": "text",
+              "content": "be a polynomial without multiple zeros and n an integer"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": ". Assume that f has at least two zeros in C if n"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 3"
+            },
+            {
+              "type": "text",
+              "content": "and at least three zeros in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } \\ i f \\ n = 2"
+            },
+            {
+              "type": "text",
+              "content": ". Then the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3764705882352941,
+            0.49702734839476814,
+            0.5764705882352941,
+            0.5148632580261593
+          ],
+          "image_path": "images/page_7_equation_8.jpg",
+          "content": "y ^ {n} = f (x) \\text { in } x, y \\in \\mathbb {Z}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13949579831932774,
+            0.5231866825208086,
+            0.8151260504201681,
+            0.558858501783591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has only finitely many solutions, and its set of solutions can be determined efectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13949579831932774,
+            0.5766944114149821,
+            0.8134453781512605,
+            0.6123662306777645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Frits’ lecture notes on the Siegel-Mahler Theorem it was explained how the equations in Corollaries 2.4 and 2.5 can be reduced to (2.4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13781512605042018,
+            0.619500594530321,
+            0.8134453781512605,
+            0.7847800237812128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the proof of Theorem 2.3 we need some facts on units. Suppose the number field K has degree d. Then K has precisely d distinct embeddings in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } ."
+            },
+            {
+              "type": "text",
+              "content": ", which can be divided into real embeddings (of which the image lies in R) and complex embeddings (with image in C but not in R). Further, the complex embeddings occur in complex conjugate pairs"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma , { \\overline { { \\sigma } } }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\sigma } } ( x ) : = \\overline { { \\sigma ( x ) } }"
+            },
+            {
+              "type": "text",
+              "content": "for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in K"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that K has precisely"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "real embeddings, and precisely"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " pairs of complex conjugate embeddings, where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r _ { 1 } + 2 r _ { 2 } = d . \\nonumber"
+            },
+            {
+              "type": "text",
+              "content": ". We renumber the embeddings such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { 1 } , \\ldots , \\sigma _ { r _ { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": "are the real embeddings of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma _ { r _ { 1 } + r _ { 2 } + i } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\sigma _ { r _ { 1 } + i } } }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i = 1 , \\ldots , r _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.0713436385255648,
+            0.1546218487394958,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.15966386554621848,
+            0.10344827586206896,
+            0.44873949579831934,
+            0.12009512485136742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The following fact is well known."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13949579831932774,
+            0.13198573127229488,
+            0.5176470588235295,
+            0.14982164090368608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.6. Let ε be a unit of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { O } } _ { K }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3596638655462185,
+            0.15695600475624258,
+            0.5915966386554622,
+            0.20332936979785968
+          ],
+          "image_path": "images/page_8_equation_2.jpg",
+          "content": "N _ {K / \\mathbb {Q}} (\\varepsilon) = \\prod_ {i = 1} ^ {d} \\sigma_ {i} (\\varepsilon) = \\pm 1."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13949579831932774,
+            0.21759809750297265,
+            0.2907563025210084,
+            0.2318668252080856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Exercise."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13781512605042018,
+            0.24851367419738407,
+            0.8134453781512605,
+            0.2853745541022592
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To study the units of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { O } } _ { K }"
+            },
+            {
+              "type": "text",
+              "content": ", it is useful to consider the absolute values of their conjugates. Clearly, for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon \\in { \\mathcal { O } } _ { K } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.31596638655462184,
+            0.29369797859690844,
+            0.6672268907563025,
+            0.31272294887039237
+          ],
+          "image_path": "images/page_8_equation_5.jpg",
+          "content": "| \\sigma_ {r _ {1} + r _ {2} + i} (\\varepsilon) | = | \\sigma_ {r _ {1} + i} (\\varepsilon) | \\mathrm{for} i = 1 \\dots r _ {2},"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.31596638655462184,
+            0.3162901307966706,
+            0.561344537815126,
+            0.3590963139120095
+          ],
+          "image_path": "images/page_8_equation_6.jpg",
+          "content": "\\prod_ {i = 1} ^ {r _ {1}} | \\sigma_ {i} (\\varepsilon) | \\prod_ {i = r _ {1} + 1} ^ {r _ {1} + r _ {2}} | \\sigma_ {i} (\\varepsilon) | ^ {2} = 1,"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13781512605042018,
+            0.3686087990487515,
+            0.746218487394958,
+            0.38525564803804996
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\sigma _ { i } ( \\varepsilon ) | \\ ( i = 1 , \\ldots , r _ { 1 } + r _ { 2 } - 1 )"
+            },
+            {
+              "type": "text",
+              "content": "determine"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\sigma _ { i } ( \\varepsilon ) | \\ ( i = r _ { 1 } + r _ { 2 } , \\ldots , d )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15798319327731092,
+            0.3923900118906064,
+            0.8100840336134454,
+            0.4090368608799049
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The following lemma is a more precise version of Dirichlet’s Unit Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13781512605042018,
+            0.42092746730083236,
+            0.611764705882353,
+            0.43876337693222356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.7. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r : = r _ { 1 } + r _ { 2 } - 1"
+            },
+            {
+              "type": "text",
+              "content": "and define the map"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.27058823529411763,
+            0.4470868014268728,
+            0.6789915966386555,
+            0.464922711058264
+          ],
+          "image_path": "images/page_8_equation_10.jpg",
+          "content": "L: \\mathcal {O} _ {K} ^ {*} \\to \\mathbb {R} ^ {r}: \\varepsilon \\mapsto (\\log | \\sigma_ {1} (\\varepsilon), \\dots , \\log | \\sigma_ {r} (\\varepsilon) |)."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13949579831932774,
+            0.4756242568370987,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then L is a group homomorphism. The kernel of L is the group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { K }"
+            },
+            {
+              "type": "text",
+              "content": "of roots "
+            },
+            {
+              "type": "equation_inline",
+              "content": "o f"
+            },
+            {
+              "type": "text",
+              "content": "unity of K and the image of L is a lattice of rank r in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { r }"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.5291319857312723,
+            0.8117647058823529,
+            0.5659928656361475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Choose units"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { r }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( \\varepsilon _ { 1 } ) , \\dots , L ( \\varepsilon _ { r } )"
+            },
+            {
+              "type": "text",
+              "content": "form a basis of the lattice "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( { \\mathcal { O } } _ { K } ^ { * } )"
+            },
+            {
+              "type": "text",
+              "content": ". Then every"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\varepsilon \\in { \\mathcal { O } } _ { K } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": "can be expressed uniquely as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3042016806722689,
+            0.5719381688466112,
+            0.6470588235294118,
+            0.5909631391200951
+          ],
+          "image_path": "images/page_8_equation_13.jpg",
+          "content": "\\zeta \\varepsilon_ {1} ^ {b _ {1}} \\dots \\varepsilon_ {r} ^ {b _ {r}} \\text { with } \\zeta \\in U _ {K}, b _ {1}, \\ldots , b _ {r} \\in \\mathbb {Z}.\\tag{2.5}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13949579831932774,
+            0.6016646848989299,
+            0.31596638655462184,
+            0.6171224732461356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, the matrix"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.29747899159663865,
+            0.6242568370986921,
+            0.6504201680672269,
+            0.6860879904875149
+          ],
+          "image_path": "images/page_8_equation_15.jpg",
+          "content": "M := \\left( \\begin{array}{c c c} \\log | \\sigma_ {1} (\\varepsilon_ {1}) | & \\dots & \\log | \\sigma_ {1} (\\varepsilon_ {r}) | \\\\ \\vdots & & \\vdots \\\\ \\log | \\sigma_ {r} (\\varepsilon_ {1}) | & \\dots & \\log | \\sigma_ {r} (\\varepsilon_ {r}) | \\end{array} \\right)\\tag{2.6}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.13949579831932774,
+            0.6932223543400713,
+            0.2504201680672269,
+            0.7098692033293698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is invertible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.15966386554621848,
+            0.7193816884661117,
+            0.3915966386554622,
+            0.7348394768133175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We deduce a consequence."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.13949579831932774,
+            0.7479191438763377,
+            0.8134453781512605,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.8. There is a constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C > 0"
+            },
+            {
+              "type": "text",
+              "content": "with the following property."
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f \\varepsilon i s"
+            },
+            {
+              "type": "text",
+              "content": " any unit"
+            },
+            {
+              "type": "equation_inline",
+              "content": "o f { \\mathcal { O } } _ { K }"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , \\ldots , b _ { r }"
+            },
+            {
+              "type": "text",
+              "content": "are the corresponding integers defined by (2.4),"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 19,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.8,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13949579831932774,
+            0.10582639714625446,
+            0.18487394957983194,
+            0.11890606420927467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3025210084033613,
+            0.12128418549346016,
+            0.6487394957983194,
+            0.14625445897740785
+          ],
+          "image_path": "images/page_9_equation_1.jpg",
+          "content": "\\max (| b _ {1} |, \\dots , | b _ {r} |) \\leqslant C \\cdot \\max _ {1 \\leqslant i \\leqslant d} \\log | \\sigma_ {i} (\\varepsilon) |."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.13949579831932774,
+            0.1629013079667063,
+            0.8117647058823529,
+            0.19976218787158145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let b"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\Psi } : = ( b _ { 1 } , \\dots , b _ { r } ) ^ { T }"
+            },
+            {
+              "type": "text",
+              "content": "(column vector). Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ( \\varepsilon ) = M \\mathbf { b }"
+            },
+            {
+              "type": "text",
+              "content": ", hence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { b } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ^ { - 1 } L ( \\varepsilon )"
+            },
+            {
+              "type": "text",
+              "content": ". Writing"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ^ { - 1 } = \\left( a _ { i j } \\right)"
+            },
+            {
+              "type": "text",
+              "content": ", we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.33613445378151263,
+            0.20689655172413793,
+            0.6134453781512605,
+            0.2497027348394768
+          ],
+          "image_path": "images/page_9_equation_3.jpg",
+          "content": "b _ {i} = \\sum_ {j = 1} ^ {r} a _ {i j} \\sigma_ {j} (\\varepsilon) (i = 1, \\dots , r)."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.13949579831932774,
+            0.2556480380499406,
+            0.48739495798319327,
+            0.272294887039239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Applying the triangle inequality, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.292436974789916,
+            0.27586206896551724,
+            0.6588235294117647,
+            0.3234244946492271
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "\\max _ {1 \\leqslant i \\leqslant r} | b _ {i} | \\leqslant \\left(\\max _ {1 \\leqslant i \\leqslant r} \\sum_ {j = 1} ^ {r} | a _ {i j} |\\right) \\cdot \\max _ {1 \\leqslant j \\leqslant r} | \\sigma_ {j} (\\varepsilon) |."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13781512605042018,
+            0.356718192627824,
+            0.8117647058823529,
+            0.3923900118906064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof of Theorem 2.3. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "be a solution of (2.3). There are"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta _ { 1 } , \\zeta _ { 2 } \\in"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { K }"
+            },
+            {
+              "type": "text",
+              "content": ", as well as integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , \\dotsc , a _ { r } , b _ { 1 } , \\dotsc , b _ { r }"
+            },
+            {
+              "type": "text",
+              "content": ", such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3243697478991597,
+            0.3971462544589774,
+            0.6235294117647059,
+            0.41854934601664684
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "x = \\zeta_ {1} \\varepsilon_ {1} ^ {a _ {1}} \\dots \\varepsilon_ {r} ^ {a _ {r}}, y = \\zeta_ {2} \\varepsilon_ {1} ^ {b _ {1}} \\dots \\varepsilon_ {r} ^ {b _ {r}}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13949579831932774,
+            0.42568370986920334,
+            0.1915966386554622,
+            0.441141498216409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.334453781512605,
+            0.4423305588585018,
+            0.6168067226890757,
+            0.4625445897740785
+          ],
+          "image_path": "images/page_9_equation_9.jpg",
+          "content": "a \\zeta_ {1} \\varepsilon_ {1} ^ {a _ {1}} \\cdot \\cdot \\cdot \\varepsilon_ {r} ^ {a _ {r}} + b \\zeta_ {2} \\varepsilon_ {1} ^ {b _ {1}} \\cdot \\cdot \\cdot \\varepsilon_ {r} ^ {b _ {r}} = 1."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13781512605042018,
+            0.464922711058264,
+            0.8134453781512605,
+            0.5017835909631391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We assume without loss of generality that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B : = \\operatorname* { m a x } ( | a _ { 1 } | , \\ldots , | b _ { r } | ) = | b _ { r } |"
+            },
+            {
+              "type": "text",
+              "content": ". We estimate from above and below,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.24033613445378152,
+            0.5089179548156956,
+            0.7109243697478992,
+            0.5279429250891795
+          ],
+          "image_path": "images/page_9_equation_11.jpg",
+          "content": "\\Lambda_ {i} := | \\sigma_ {i} (a) \\sigma (\\zeta_ {1}) \\sigma_ {i} (\\varepsilon_ {1}) ^ {a _ {1}} \\dots \\sigma_ {i} (\\varepsilon_ {r}) ^ {a _ {r}} - 1 | = | \\sigma_ {i} (b) \\sigma_ {i} (y) |"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.5338882282996433,
+            0.35798319327731093,
+            0.5517241379310345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for a suitable choice of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13949579831932774,
+            0.558858501783591,
+            0.8588235294117647,
+            0.5945303210463734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\sigma _ { i } ( y ) |"
+            },
+            {
+              "type": "text",
+              "content": "be the smallest, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\sigma _ { j } ( y ) |"
+            },
+            {
+              "type": "text",
+              "content": "the largest among"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\sigma _ { 1 } ( y ) | , \\dots , | \\sigma _ { d } ( y ) |"
+            },
+            {
+              "type": "text",
+              "content": "|. Then by Lemma 2.6,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3865546218487395,
+            0.5957193816884662,
+            0.5647058823529412,
+            0.6147443519619501
+          ],
+          "image_path": "images/page_9_equation_14.jpg",
+          "content": "\\left| \\sigma_ {i} (y) \\right| ^ {d - 1} \\left| \\sigma_ {j} (y) \\right| \\leqslant 1"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.13781512605042018,
+            0.6183115338882283,
+            0.42857142857142855,
+            0.6349583828775267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and subsequently by Lemma 2.8,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.3126050420168067,
+            0.6409036860879905,
+            0.6369747899159663,
+            0.6623067776456599
+          ],
+          "image_path": "images/page_9_equation_16.jpg",
+          "content": "| \\sigma_ {i} (y) | \\leqslant | \\sigma_ {j} (y) | ^ {- 1 / (d - 1)} \\leqslant e ^ {- B / C (d - 1)}."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.13949579831932774,
+            0.6694411414982164,
+            0.25882352941176473,
+            0.6848989298454221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This leads to"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.3764705882352941,
+            0.6848989298454221,
+            0.5747899159663865,
+            0.7051129607609988
+          ],
+          "image_path": "images/page_9_equation_18.jpg",
+          "content": "\\Lambda_ {i} \\leqslant | \\sigma_ {i} (\\beta) | e ^ {- B / C (d - 1)}."
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.3546218487394958,
+            0.7621878715814506,
+            0.5966386554621849,
+            0.7835909631391201
+          ],
+          "image_path": "images/page_9_equation_19.jpg",
+          "content": "(e B) ^ {- C ^ {\\prime}} \\leqslant | \\sigma_ {i} (a) | e ^ {- B / C (d - 1)}"
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.13781512605042018,
+            0.7098692033293698,
+            0.8117647058823529,
+            0.7621878715814506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Corollary 1.6 we have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\Lambda _ { i } \\right| \\geqslant ( e B ) ^ { - C ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": "for some efectively computable number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": "depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , \\varepsilon _ { 1 } , \\ldots , \\varepsilon _ { r }"
+            },
+            {
+              "type": "text",
+              "content": "and the finitely many roots of unity of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": ". We infer"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.1411764705882353,
+            0.0713436385255648,
+            0.16134453781512606,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 22,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13949579831932774,
+            0.10463733650416171,
+            0.6857142857142857,
+            0.12009512485136742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and this leads to an efectively computable upper bound for B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13781512605042018,
+            0.13555291319857313,
+            0.8134453781512605,
+            0.26397146254458975
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark. There are practical algorithms to solve equations of the type (2.4) which work well as long as the degree of the field K, and the fundamental units of the ring of integers of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": ", are not too large. These algorithms are again based on linear forms in logarithms estimates and the LLL-algorithm. For instance, in 2000 Wildanger determined all solutions of the equation"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + y = 1"
+            },
+            {
+              "type": "text",
+              "content": " in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y \\in { \\mathcal { O } } _ { K } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": ", with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K = \\mathbb { Q } ( \\cos ( 2 \\pi / 1 9 ) )"
+            },
+            {
+              "type": "text",
+              "content": "). The number field K has degree 9 and all its embeddings are real. Thus, the unit group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { O } _ { K } ^ { * }"
+            },
+            {
+              "type": "text",
+              "content": "has rank 8."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.4117647058823529,
+            0.28894173602853745,
+            0.5411764705882353,
+            0.30439952437574314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Exercises"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13781512605042018,
+            0.3258026159334126,
+            0.8134453781512605,
+            0.3793103448275862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 1. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { s } , p _ { s + 1 } , \\ldots , p _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "be distinct prime numbers. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": "be the set of positive integers composed of primes from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { s }"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B"
+            },
+            {
+              "type": "text",
+              "content": "the set of positive integers composed of primes from"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { s + 1 } , \\ldots , p _ { t }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.16974789915966387,
+            0.39001189060642094,
+            0.8134453781512605,
+            0.4268727705112961
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Prove that there exist positive numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } , c _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", efectively computable in terms of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } , \\ldots , p _ { t }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.25210084033613445,
+            0.4328180737217598,
+            0.6974789915966386,
+            0.4708680142687277
+          ],
+          "image_path": "images/page_10_equation_5.jpg",
+          "content": "| x - y | \\geqslant \\frac {\\max (x , y)}{c _ {1} (\\log \\max (x , y)) ^ {c _ {2}}} \\text { for   all } x \\in A, y \\in B."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.16806722689075632,
+            0.4768133174791914,
+            0.8117647058823529,
+            0.5136741973840666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Given a non-zero integer a, denote by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( a )"
+            },
+            {
+              "type": "text",
+              "content": "the largest prime number dividing a, with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( \\pm 1 ) : = 1"
+            },
+            {
+              "type": "text",
+              "content": ". Prove that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.32100840336134456,
+            0.5243757431629013,
+            0.6302521008403361,
+            0.5505350772889417
+          ],
+          "image_path": "images/page_10_equation_7.jpg",
+          "content": "\\lim _ {x \\in A, y \\in B, \\max (| x |, | y |) \\to \\infty} P (x - y) = \\infty ."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13781512605042018,
+            0.5624256837098692,
+            0.8134453781512605,
+            0.6361474435196195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 2. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( X ) = X ^ { 2 } - A X - B"
+            },
+            {
+              "type": "text",
+              "content": "be a polynomial with coeficients "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta"
+            },
+            {
+              "type": "text",
+              "content": "be the two zeros of f in C. Assume that f is irreducible, and that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha / \\beta"
+            },
+            {
+              "type": "text",
+              "content": "is not a root of unity. Let the sequence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\{ u _ { n } \\} _ { n = 0 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": "in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": "be given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3445378151260504,
+            0.6409036860879905,
+            0.6067226890756302,
+            0.6563614744351962
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "u _ {n} = A u _ {n - 1} + B u _ {n - 2} (n \\geqslant 0)"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13949579831932774,
+            0.6634958382877527,
+            0.492436974789916,
+            0.6801426872770512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and initial values"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { 0 } , u _ { 1 } \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": ", not both 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.16974789915966387,
+            0.6920332936979786,
+            0.507563025210084,
+            0.7098692033293698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Prove that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M : = \\operatorname* { m a x } ( | \\alpha | , | \\beta | ) > 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.16974789915966387,
+            0.7110582639714625,
+            0.8117647058823529,
+            0.7455410225921522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Prove that there are non-zero algebraic numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } , \\gamma _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } \\alpha ^ { n } + \\gamma _ { 2 } \\beta ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.17142857142857143,
+            0.7479191438763377,
+            0.8117647058823529,
+            0.7812128418549346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) Prove that there is an efectively computable number C such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } \\neq"
+            },
+            {
+              "type": "text",
+              "content": " 0 for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant C"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.7932773109243697,
+            0.0713436385255648,
+            0.8117647058823529,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.16806722689075632,
+            0.10344827586206896,
+            0.8134453781512605,
+            0.13912009512485138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) Prove that there are efectively computable positive numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 1 } , c _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| u _ { n } | \\geqslant M ^ { n } / c _ { 1 } n ^ { c _ { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geqslant C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13949579831932774,
+            0.15338882282996433,
+            0.653781512605042,
+            0.1700356718192628
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 3. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B , C"
+            },
+            {
+              "type": "text",
+              "content": "be integers such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2453781512605042,
+            0.17717003567181927,
+            0.7075630252100841,
+            0.1961950059453032
+          ],
+          "image_path": "images/page_11_equation_2.jpg",
+          "content": "X ^ {3} - A X ^ {2} - B X - C = (X - \\alpha_ {1}) (X - \\alpha_ {2}) (X - \\alpha_ {3}),"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13781512605042018,
+            0.20451843043995244,
+            0.8134453781512605,
+            0.2413793103448276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , \\alpha _ { 2 } , \\alpha _ { 3 } \\in \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": ", and none of the quotients"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } / \\alpha _ { j } \\ ( 1 \\le i < j \\le 3 )"
+            },
+            {
+              "type": "text",
+              "content": "is a root of unity. Consider the linear recurrence sequence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U = \\{ u _ { n } \\} _ { n = 0 } ^ { \\infty } , \\mathrm { g i v e n }"
+            },
+            {
+              "type": "text",
+              "content": "by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.3042016806722689,
+            0.2497027348394768,
+            0.6470588235294118,
+            0.26516052318668254
+          ],
+          "image_path": "images/page_11_equation_4.jpg",
+          "content": "u _ {n} = A u _ {n - 1} + B u _ {n - 2} + C u _ {n - 3} (n \\geqslant 3)"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13781512605042018,
+            0.2746730083234245,
+            0.5277310924369748,
+            0.291319857312723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and initial values"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { 0 } , u _ { 1 } , u _ { 2 } \\in \\mathbb { Z }"
+            },
+            {
+              "type": "text",
+              "content": ", not all zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.16806722689075632,
+            0.30202140309155767,
+            0.7260504201680672,
+            0.31985731272294887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Prove that there exist algebraic numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma _ { 1 } , \\gamma _ { 2 } , \\gamma _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.31596638655462184,
+            0.3269916765755054,
+            0.6369747899159663,
+            0.3460166468489893
+          ],
+          "image_path": "images/page_11_equation_7.jpg",
+          "content": "u _ {n} = \\gamma_ {1} \\alpha_ {1} ^ {n} + \\gamma_ {2} \\alpha_ {2} ^ {n} + \\gamma_ {3} \\alpha_ {3} ^ {n} \\mathrm{for} n \\geqslant 0."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.16806722689075632,
+            0.35315101070154575,
+            0.5680672268907563,
+            0.37098692033293695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Prove that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha _ { 1 } | = | \\alpha _ { 2 } | = | \\alpha _ { 3 } |"
+            },
+            {
+              "type": "text",
+              "content": "cannot hold."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.16974789915966387,
+            0.37217598097502974,
+            0.8134453781512605,
+            0.42568370986920334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) Prove that there exists an efectively computable number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ,"
+            },
+            {
+              "type": "text",
+              "content": "depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B , C"
+            },
+            {
+              "type": "text",
+              "content": ", such that if n is a non-negative integer with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { n } = 0"
+            },
+            {
+              "type": "text",
+              "content": "then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n < C ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13781512605042018,
+            0.4399524375743163,
+            0.8134453781512605,
+            0.5124851367419738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 4. In 1995, Laurent, Mignotte and Nesterenko proved the following explicit estimate for linear forms in two logarithms. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 } , a _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "be two positive rational numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\neq 1"
+            },
+            {
+              "type": "text",
+              "content": ". Further, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { 1 } , b _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "be non-zero integers. Suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda : = b _ { 1 } \\log a _ { 1 } - b _ { 2 } \\log a _ { 2 } \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.17142857142857143,
+            0.5208085612366231,
+            0.838655462184874,
+            0.5802615933412604
+          ],
+          "image_path": "images/page_11_equation_11.jpg",
+          "content": "\\begin{array}{l} \\log | \\Lambda | \\geqslant \\\\ - 2 2 \\left(\\max \\left\\{\\log \\left(\\frac {| b _ {1} |}{\\log H (a _ {2})} + \\frac {| b _ {2} |}{\\log H (a _ {1})}\\right) + 0. 0 6, 2 1 \\right\\}\\right) ^ {2} \\log H (a _ {1}) \\log H (a _ {2}). \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13949579831932774,
+            0.5838287752675386,
+            0.8134453781512605,
+            0.619500594530321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using this estimate, compute an upper bound"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ,"
+            },
+            {
+              "type": "text",
+              "content": "such that for all positive integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 7 ^ { m } - 8 9 ^ { n } = 8"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m , n \\leqslant C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13949579831932774,
+            0.619500594530321,
+            0.48739495798319327,
+            0.6397146254458977
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hint. Use"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\log ( 1 + z ) | \\leqslant 2 | z | { \\mathrm { ~ i f ~ } } | z | \\leqslant { \\frac { 1 } { 2 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.13781512605042018,
+            0.6480380499405469,
+            0.8117647058823529,
+            0.6848989298454221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 5. In this exercise you are asked to apply the estimate of Laurent, Mignotte and Nesterenko to more advanced equations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.16974789915966387,
+            0.6956004756242569,
+            0.41680672268907565,
+            0.713436385255648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Prove that the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.25882352941176473,
+            0.7217598097502973,
+            0.692436974789916,
+            0.7384066587395958
+          ],
+          "image_path": "images/page_11_equation_16.jpg",
+          "content": "x ^ {n} - 2 y ^ {n} = 1 \\text { in   unknowns } x, y \\text { with } x \\geqslant 2, y \\geqslant 2"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.20168067226890757,
+            0.7479191438763377,
+            0.4638655462184874,
+            0.7633769322235434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has no solutions if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n > 1 0 0 0 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.20168067226890757,
+            0.7657550535077289,
+            0.8117647058823529,
+            0.7835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hint. Applying Laurent-Mignotte-Nesterenko to an appropriate linear"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.14285714285714285,
+            0.0713436385255648,
+            0.16134453781512606,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.24201680672268908,
+            0.07015457788347206,
+            0.7092436974789916,
+            0.08442330558858502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MASTER COURSE DIOPHANTINE EQUATIONS, SPRING 2011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.20168067226890757,
+            0.10463733650416171,
+            0.8134453781512605,
+            0.1759809750297265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "form in two logarithms you will get a lower estimate depending on n and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y"
+            },
+            {
+              "type": "text",
+              "content": ". But you can derive also an upper estimate which depends on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , x , y"
+            },
+            {
+              "type": "text",
+              "content": ". Comparing the two estimates leads to an upper bound for n independent of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , y"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.16806722689075632,
+            0.1759809750297265,
+            0.8117647058823529,
+            0.21284185493460167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c"
+            },
+            {
+              "type": "text",
+              "content": "be positive integers. Prove that there is a number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ,"
+            },
+            {
+              "type": "text",
+              "content": "efectively computable in terms of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c ,"
+            },
+            {
+              "type": "text",
+              "content": "such that the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.4134453781512605,
+            0.21997621878715815,
+            0.5411764705882353,
+            0.23543400713436385
+          ],
+          "image_path": "images/page_12_equation_2.jpg",
+          "content": "a x ^ {n} - b y ^ {n} = c"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.20168067226890757,
+            0.24494649227110582,
+            0.8117647058823529,
+            0.2794292508917955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has no solutions if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n > C"
+            },
+            {
+              "type": "text",
+              "content": ". In the case"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = b"
+            },
+            {
+              "type": "text",
+              "content": "you may give an elementary proof, without using the result of Laurent-Mignotte-Nesterenko."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17142857142857143,
+            0.2806183115338882,
+            0.66890756302521,
+            0.2972651605231867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) Let k be a fixed integer"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": ". Prove that the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.24033613445378152,
+            0.30202140309155767,
+            0.7109243697478992,
+            0.3388822829964328
+          ],
+          "image_path": "images/page_12_equation_5.jpg",
+          "content": "y ^ {z} = \\binom{x}{k} \\text {   in   integers   } x, y, z \\text {   with   } x > 0, y \\geqslant 2, z \\geqslant 3"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.20168067226890757,
+            0.34244946492271106,
+            0.48739495798319327,
+            0.36028537455410226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has only finitely many solutions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13949579831932774,
+            0.3745541022592152,
+            0.8134453781512605,
+            0.4102259215219976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise 6. In this exercise, you are asked to prove a very simple case of Theorem 1.10 and to apply this to certain Diophantine equations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.16806722689075632,
+            0.41973840665873957,
+            0.8117647058823529,
+            0.45659928656361476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) Let a be an integer, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\textrm { a }"
+            },
+            {
+              "type": "text",
+              "content": "prime, such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a | _ { p } \\leqslant p ^ { - 1 } { \\mathrm { ~ i f ~ } } p > 2"
+            },
+            {
+              "type": "text",
+              "content": "and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a | _ { 2 } \\leqslant 2 ^ { - 2 } { \\mathrm { ~ i f ~ } } p = 2"
+            },
+            {
+              "type": "text",
+              "content": ". Prove that for any positive integer b we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3445378151260504,
+            0.46135552913198574,
+            0.6067226890756302,
+            0.4815695600475624
+          ],
+          "image_path": "images/page_12_equation_9.jpg",
+          "content": "\\left| (1 + a) ^ {b} - 1 \\right| _ {p} = \\left| a b \\right| _ {p} \\geqslant 1 / a b."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.20168067226890757,
+            0.5041617122473246,
+            0.8134453781512605,
+            0.558858501783591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hint. You may either prove that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| { \\binom { b } { k } } a ^ { k } | _ { p } < | a b | _ { p }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": "or write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = u p ^ { t }"
+            },
+            {
+              "type": "text",
+              "content": "where u is an integer not divisible by p and t a non-negative integer, and use induction on t."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.16806722689075632,
+            0.5600475624256838,
+            0.8117647058823529,
+            0.6159334126040428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) Let p be a prime"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geqslant 5"
+            },
+            {
+              "type": "text",
+              "content": ". Using (a), prove that the equation"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ^ { x } - 2 ^ { y } = 1"
+            },
+            {
+              "type": "text",
+              "content": " has no solutions in integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\geqslant 2 , y \\geqslant 2"
+            },
+            {
+              "type": "text",
+              "content": ". Prove also that the equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { x } - p ^ { y } = 1"
+            },
+            {
+              "type": "text",
+              "content": "has no solutions in integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\geq 2 , y \\geqslant 2"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 12,
+          "bbox": [
+            0.34285714285714286,
+            0.07015457788347206,
+            0.6100840336134454,
+            0.08323424494649227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LINEAR FORMS IN LOGARITHMS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.7915966386554621,
+            0.0713436385255648,
+            0.8134453781512605,
+            0.08204518430439953
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

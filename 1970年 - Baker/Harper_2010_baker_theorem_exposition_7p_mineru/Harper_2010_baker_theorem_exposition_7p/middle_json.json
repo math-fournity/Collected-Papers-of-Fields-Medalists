@@ -1,0 +1,2697 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.16638655462184873,
+            0.15219976218787157,
+            0.8285714285714286,
+            0.2080856123662307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A version of Baker’s theorem on linear forms in logarithms"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.4134453781512605,
+            0.23067776456599287,
+            0.5815126050420169,
+            0.2497027348394768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Adam J Harper"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.3983193277310924,
+            0.26397146254458975,
+            0.5983193277310924,
+            0.28299643281807374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1st December 2010"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.453781512605042,
+            0.3151010701545779,
+            0.5428571428571428,
+            0.33174791914387636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Abstract"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1915966386554622,
+            0.33531510107015455,
+            0.8016806722689076,
+            0.38525564803804996
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We reproduce a proof of a fairly weak version of Baker’s theorem on linear forms in the logarithms of algebraic numbers. We try to motivate the argument by analogy with a proof that Euler’s number e is transcendental."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.14453781512605043,
+            0.4102259215219976,
+            0.3764705882352941,
+            0.43162901307966706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.14285714285714285,
+            0.44589774078478,
+            0.8504201680672269,
+            0.4982164090368609
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1966, Baker proved a landmark result about linear forms in the logarithms of algebraic numbers, which helped to earn him the Fields Medal in 1970. The following is a somewhat weak version of that result:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.14285714285714285,
+            0.5077288941736029,
+            0.8504201680672269,
+            0.5422116527942925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Baker’s Theorem 1 (A. Baker, 1966). Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "be non-zero algebraic numbers for which log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\log { \\alpha _ { n } } ,"
+            },
+            {
+              "type": "text",
+              "content": "2πi are linearly independent over"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q }"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3697478991596639,
+            0.5529131985731273,
+            0.626890756302521,
+            0.5719381688466112
+          ],
+          "image_path": "images/page_0_equation_8.jpg",
+          "content": "\\beta_ {1} \\log \\alpha_ {1} + \\ldots + \\beta_ {n} \\log \\alpha_ {n} \\neq 0"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.14285714285714285,
+            0.5814506539833532,
+            0.6369747899159663,
+            0.5992865636147443
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for any algebraic numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } , . . . , \\beta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "that are not all zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14285714285714285,
+            0.6087990487514863,
+            0.8504201680672269,
+            0.7110582639714625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is weak in that, firstly, the theorem remains true if we just suppose that log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\log { \\alpha _ { n } }"
+            },
+            {
+              "type": "text",
+              "content": "are linearly independent over"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ."
+            },
+            {
+              "type": "text",
+              "content": ", with no reference to 2πi. (Baker asserted this in his original paper, and published a proof slightly later.) Moreover one can say, not just that the linear combination is non-zero, but that it is bounded away from zero in an efective way (as Baker did in his original paper). However, the theorem as stated admits a slightly more transparent proof."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.14285714285714285,
+            0.7110582639714625,
+            0.8521008403361344,
+            0.797859690844233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Baker’s theorem is ubiquitous in (transcendental) number theory, and has been discussed in many places, but it seems to be a commonly held view that the proof is rather mysterious and unintuitive. In this note we will attempt to dispel that view. To that end, we recall the following broad outline of a proof that Euler’s number e is transcendental:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.17142857142857143,
+            0.807372175980975,
+            0.5394957983193277,
+            0.8228299643281808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Argue by contradiction, supposing that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.36470588235294116,
+            0.8347205707491082,
+            0.680672268907563,
+            0.8525564803804994
+          ],
+          "image_path": "images/page_0_equation_13.jpg",
+          "content": "a _ {n} e ^ {n} + a _ {n - 1} e ^ {n - 1} + \\ldots + a _ {1} e + a _ {0} = 0"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.1915966386554622,
+            0.8632580261593341,
+            0.5546218487394958,
+            0.8810939357907254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { N }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { i } \\in \\mathbb { Z } { \\mathrm { ~ ( w i t h ~ } } a _ { n } \\neq 0 { \\mathrm { ) } }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.492436974789916,
+            0.901307966706302,
+            0.5025210084033613,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17142857142857143,
+            0.10344827586206896,
+            0.8504201680672269,
+            0.1902497027348395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Because of the properties of the exponential function, there is a large class of “nice” functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( i )"
+            },
+            {
+              "type": "text",
+              "content": "that approximate"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { i }"
+            },
+            {
+              "type": "text",
+              "content": "very well for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i = 0 , 1 , . . . , n"
+            },
+            {
+              "type": "text",
+              "content": " (For example, one can choose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { F ( i ) = \\sum _ { k = 0 } ^ { m } f ^ { ( k ) } ( i ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "for a suitable high degree polynomial"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ,"
+            },
+            {
+              "type": "text",
+              "content": "where m is a parameter. Note that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( i )"
+            },
+            {
+              "type": "text",
+              "content": "satisfies"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ^ { \\prime } ( i ) \\approx F ( i )"
+            },
+            {
+              "type": "text",
+              "content": " if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "is chosen suitably.)"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.173109243697479,
+            0.20095124851367419,
+            0.5899159663865546,
+            0.21878715814506539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• For suitable choice of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ,"
+            },
+            {
+              "type": "text",
+              "content": "we can arrange that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.1915966386554622,
+            0.2318668252080856,
+            0.8504201680672269,
+            0.25089179548156954
+          ],
+          "image_path": "images/page_1_equation_2.jpg",
+          "content": "a _ {n} F (n) + a _ {n - 1} F (n - 1) + \\ldots + a _ {1} F (1) + a _ {0} \\approx a _ {n} e ^ {n} + a _ {n - 1} e ^ {n - 1} + \\ldots + a _ {1} e + a _ {0} = 0"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1899159663865546,
+            0.26397146254458975,
+            0.8504201680672269,
+            0.3151010701545779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a non-zero rational with fairly small denominator. But it is clearly impossible to approximate zero very well by a non-zero rational with small denominator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.14285714285714285,
+            0.3269916765755054,
+            0.8504201680672269,
+            0.3769322235434007
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the slightly complicated construction of an approximating function F replaces e.g. the appeal to the series expansion of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { x }"
+            },
+            {
+              "type": "text",
+              "content": "in the proof that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": "is irrational."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14285714285714285,
+            0.37812128418549346,
+            0.853781512605042,
+            0.4827586206896552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "At a very high level, the proof that e is transcendental may be described in the following way: if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": "were algebraic, it would satisfy a “simple” polynomial equation (i.e. one of bounded degree and bounded height of coeficients), and this contradicts the analytic properties of the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { x }"
+            },
+            {
+              "type": "text",
+              "content": ", because rational numbers are “fairly well spaced”. We stress here that the key work in the proof is in determining functional properties of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { x }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.14285714285714285,
+            0.4958382877526754,
+            0.853781512605042,
+            0.5481569560047562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will see that, at this rather high level of inspection, the proof of Baker’s Theorem is precisely analogous to the proof that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e"
+            },
+            {
+              "type": "text",
+              "content": "is transcendental. Firstly we suppose, for a contradiction, that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3697478991596639,
+            0.5612366230677764,
+            0.626890756302521,
+            0.5790725326991677
+          ],
+          "image_path": "images/page_1_equation_7.jpg",
+          "content": "\\beta_ {1} \\log \\alpha_ {1} + \\ldots + \\beta_ {n} \\log \\alpha_ {n} = 0"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.14285714285714285,
+            0.5921521997621879,
+            0.8504201680672269,
+            0.6456599286563615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some algebraic numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } , . . . , \\beta _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "that are not all zero. In fact, without loss of generality (after possibly relabelling the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", and dividing through by a non-zero "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": "we may suppose that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3092436974789916,
+            0.6587395957193817,
+            0.6823529411764706,
+            0.6765755053507729
+          ],
+          "image_path": "images/page_1_equation_9.jpg",
+          "content": "\\beta_ {1} \\log \\alpha_ {1} + \\ldots + \\beta_ {n - 1} \\log \\alpha_ {n - 1} - \\log \\alpha_ {n} = 0."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14285714285714285,
+            0.6896551724137931,
+            0.8521008403361344,
+            0.7931034482758621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We do not try to (directly) contradict this relation, which in particular is not a polynomial relation. Instead, going slightly beyond what happens in the proof that e is transcendental, we will indirectly construct a function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "that vanishes, together with several of its derivatives, at many integer points"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z ."
+            },
+            {
+              "type": "text",
+              "content": ". The putative expression for log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "as a combination of log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\log { \\alpha _ { n - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": "is input into this construction, and implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "vanishes rather more than might be expected."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.14285714285714285,
+            0.7919143876337693,
+            0.8521008403361344,
+            0.8799048751486326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Having done this, we analyse the functional properties of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": ". The so-called “extrapolation procedure” for doing this involves repeatedly playing of an analytic result, obtained by complex variable methods, against the fact (roughly— see "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ S \\ S 3 - 4 )"
+            },
+            {
+              "type": "text",
+              "content": "that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "takes algebraic values at integer z and therefore either vanishes at such z, or is efectively bounded away from zero there. The extrapolation"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.4907563025210084,
+            0.901307966706302,
+            0.5058823529411764,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.14285714285714285,
+            0.10344827586206896,
+            0.8504201680672269,
+            0.1545778834720571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "method is, perhaps, the most novel ingredient of Baker’s proof, and he wrote himself that it would “...probably be capable of considerable development for it applies in principle to many other auxiliary functions...”."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14285714285714285,
+            0.15576694411414982,
+            0.8521008403361344,
+            0.2235434007134364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, the extrapolation procedure reveals that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "must actually vanish at an enormous number of integer points. Because of the construction of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": ", this implies a linear dependence over Q between log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\log { \\alpha _ { n } }"
+            },
+            {
+              "type": "text",
+              "content": "and 2πi, which is a contradiction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.14285714285714285,
+            0.23781212841854935,
+            0.853781512605042,
+            0.3579072532699168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We conclude this introduction by recalling that the special case of Baker’s theorem where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = 2"
+            },
+            {
+              "type": "text",
+              "content": "was proved rather earlier, by Gelfond and by Schneider independently in 1934. The author has not been able to view Schneider’s argument, but it certainly seems fair to describe Baker’s method as being a generalisation of Gelfond’s method. In his book [3], Gelfond describes his argument as using “...the idea of analytic-arithmetic continuation.” The author believes that to be a fitting description."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.14285714285714285,
+            0.38287752675386444,
+            0.8016806722689076,
+            0.40665873959571935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 Construction of the auxiliary function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.14285714285714285,
+            0.41973840665873957,
+            0.8521008403361344,
+            0.5219976218787158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now launch into the construction of the auxiliary function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": ", which we want to vanish, along with many of its derivatives, at a number of integer points. Our account from this point on is a hybrid of Baker’s original article [1], and Chapter 2 of his book [2] on this subject, with just a few changes to the exposition. We have a parameter"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": ", which at the end of the proof will be taken to be large in a way depending on the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } ,"
+            },
+            {
+              "type": "text",
+              "content": "the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": ", and n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.17142857142857143,
+            0.5219976218787158,
+            0.7142857142857143,
+            0.539833531510107
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall the hypothesis that we wish to contradict, namely that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3126050420168067,
+            0.5541022592152199,
+            0.6823529411764706,
+            0.5719381688466112
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "\\beta_ {1} \\log \\alpha_ {1} + \\ldots + \\beta_ {n - 1} \\log \\alpha_ {n - 1} - \\log \\alpha_ {n} = 0"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.14285714285714285,
+            0.5838287752675386,
+            0.7529411764705882,
+            0.6028537455410226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some algebraic numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } , . . . , \\beta _ { n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Exponentiating, this becomes"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.4117647058823529,
+            0.6135552913198573,
+            0.5831932773109244,
+            0.6349583828775267
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "\\alpha_ {1} ^ {\\beta_ {1}} \\dots \\alpha_ {n - 1} ^ {\\beta_ {n - 1}} \\alpha_ {n} ^ {- 1} = 1,"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.14285714285714285,
+            0.6468489892984542,
+            0.8504201680672269,
+            0.7158145065398336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "but this is not much more helpful, because the purpose of proving the theorem is to understand how algebraic powers of algebraic numbers behave. On the other hand, we can say things about integer powers of algebraic numbers, which motivates the following choice of auxiliary function:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.2773109243697479,
+            0.7288941736028538,
+            0.7176470588235294,
+            0.7752675386444708
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "\\phi (z) := \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} z} \\dots \\alpha_ {n} ^ {\\lambda_ {n} z}, \\quad z \\in \\mathbb {C},"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.14285714285714285,
+            0.7895362663495838,
+            0.8487394957983193,
+            0.8228299643281808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L = [ h ^ { 2 - 1 / ( 4 n ) } ]"
+            },
+            {
+              "type": "text",
+              "content": ", and the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": "are integers not all of which are zero, with absolute values at most"
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { h ^ { 3 } }"
+            },
+            {
+              "type": "text",
+              "content": ", such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.29747899159663865,
+            0.835909631391201,
+            0.6957983193277311,
+            0.8692033293697978
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "\\frac {d ^ {m}}{d z ^ {m}} \\phi (z) = 0 \\forall 0 \\leq m \\leq h ^ {2}, z \\in \\{1, 2,..., h \\}."
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.4907563025210084,
+            0.901307966706302,
+            0.5058823529411764,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.14285714285714285,
+            0.10344827586206896,
+            0.8504201680672269,
+            0.17122473246135553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In a moment we will show that we can find such integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": ", and the reader should note that the fact that we can do so with L smaller than"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "by a power of h, which exploits our (to be contradicted) hypothesis about the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": ", is crucial to the subsequent argument."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14285714285714285,
+            0.17122473246135553,
+            0.8521008403361344,
+            0.20689655172413793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Actually it is not too hard to find such integers, just a little fiddly. Because of our (to be contradicted) hypothesis, we can equivalently write"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.1949579831932773,
+            0.2140309155766944,
+            0.7983193277310925,
+            0.2615933412604043
+          ],
+          "image_path": "images/page_3_equation_2.jpg",
+          "content": "\\phi (z) := \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1},..., \\lambda_ {n}) e ^ {(\\lambda_ {1} + \\lambda_ {n} \\beta_ {1}) z \\log \\alpha_ {1} +... + (\\lambda_ {n - 1} + \\lambda_ {n} \\beta_ {n - 1}) z \\log \\alpha_ {n - 1}},"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.14285714285714285,
+            0.26872770511296074,
+            0.6941176470588235,
+            0.28656361474435194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and we will be done if we can choose the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.1949579831932773,
+            0.29488703923900117,
+            0.7966386554621848,
+            0.3412604042806183
+          ],
+          "image_path": "images/page_3_equation_4.jpg",
+          "content": "\\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} z} \\dots \\alpha_ {n} ^ {\\lambda_ {n} z} (\\lambda_ {1} + \\lambda_ {n} \\beta_ {1}) ^ {m _ {1}} \\dots (\\lambda_ {n - 1} + \\lambda_ {n} \\beta_ {n - 1}) ^ {m _ {n - 1}}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14285714285714285,
+            0.34958382877526756,
+            0.8504201680672269,
+            0.41854934601664684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "vanishes for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m _ { 1 } + . . . + m _ { n - 1 } \\leq h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "and all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , h \\}"
+            },
+            {
+              "type": "text",
+              "content": ". Now if d is an upper bound for the degrees of the minimal polynomials of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\alpha _ { n } , \\beta _ { 1 } , . . . , \\beta _ { n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "is the leading coeficient in the minimal polynomial of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", we have for example that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.33949579831932775,
+            0.4161712247324614,
+            0.653781512605042,
+            0.4625445897740785
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "(a _ {1} \\alpha_ {1}) ^ {j} = \\sum_ {s = 0} ^ {d - 1} a _ {1, s} ^ {(j)} \\alpha_ {1} ^ {s} \\quad \\forall j \\in \\mathbb {N} \\cup \\{0 \\},"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.14285714285714285,
+            0.4684898929845422,
+            0.8504201680672269,
+            0.5208085612366231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for certain integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 1 , s } ^ { ( j ) }"
+            },
+            {
+              "type": "text",
+              "content": ". So multiplying through by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a _ { 1 } . . . a _ { n } ) ^ { L z } b _ { 1 } ^ { m _ { 1 } } . . . b _ { n - 1 } ^ { m _ { n - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " is the leading coeficient in the minimal polynomial of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": ", similarly for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", we see we would be done if"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.1495798319327731,
+            0.525564803804994,
+            0.838655462184874,
+            0.5731272294887039
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "\\sum_ {s _ {1} = 0} ^ {d - 1} \\dots \\sum_ {s _ {n} = 0} ^ {d - 1} \\sum_ {t _ {1} = 0} ^ {d - 1} \\dots \\sum_ {t _ {n - 1} = 0} ^ {d - 1} \\alpha_ {1} ^ {s _ {1}} \\dots \\alpha_ {n} ^ {s _ {n}} \\beta_ {1} ^ {t _ {1}} \\dots \\beta_ {n - 1} ^ {t _ {n - 1}} \\left(\\sum_ {\\mu_ {1} = 0} ^ {m _ {1}} \\dots \\sum_ {\\mu_ {n - 1} = 0} ^ {m _ {n - 1}} \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1},..., \\lambda_ {n}) \\cdot \\right."
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.2823529411764706,
+            0.582639714625446,
+            0.7126050420168067,
+            0.6278240190249703
+          ],
+          "image_path": "images/page_3_equation_9.jpg",
+          "content": "\\cdot (\\prod_ {i = 1} ^ {n} a _ {i} ^ {L z - \\lambda_ {i} z} a _ {i, s _ {i}} ^ {(\\lambda_ {i} z)}) (\\prod_ {j = 1} ^ {n - 1} \\binom{m _ {j}}{\\mu_ {j}} (b _ {j} \\lambda_ {j}) ^ {m _ {j} - \\mu_ {j}} \\lambda_ {n} ^ {\\mu_ {j}} b _ {j, t _ {j}} ^ {(\\mu_ {j})})"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14285714285714285,
+            0.633769322235434,
+            0.7092436974789916,
+            0.6504161712247325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "vanished for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m _ { 1 } + . . . + m _ { n - 1 } \\leq h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "and all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , h \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.14285714285714285,
+            0.6516052318668252,
+            0.8504201680672269,
+            0.7693222354340071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But this can be achieved just by choosing the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": "to solve a system of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M \\leq ( h ^ { 2 } + 1 ) ^ { n - 1 } h d ^ { 2 n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "integer linear equations, namely the equations that the inner bracket should equal zero for each choice of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { 1 } , . . . , m _ { n - 1 } , z , s _ { 1 } , . . . , s _ { n } , t _ { 1 } , . . . , t _ { n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " If h is large enough, then we have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L + 1 ) ^ { n } \\geq h ^ { 2 n - 1 / 4 } \\geq 2 M"
+            },
+            {
+              "type": "text",
+              "content": "variables"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": " so we can certainly find a non-trivial solution. Moreover, an easy induction shows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| a _ { i , s } ^ { ( j ) } | , | b _ { i , t } ^ { ( j ) } | \\leq C ^ { j }"
+            },
+            {
+              "type": "text",
+              "content": ", where C depends on the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "only; and therefore one has"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.16806722689075632,
+            0.7776456599286563,
+            0.8235294117647058,
+            0.8204518430439952
+          ],
+          "image_path": "images/page_3_equation_12.jpg",
+          "content": "| \\prod_ {i = 1} ^ {n} a _ {i} ^ {L z - \\lambda_ {i} z} a _ {i, s _ {i}} ^ {(\\lambda_ {i} z)} | \\leq K ^ {L z} \\leq K ^ {L h}, \\quad | \\prod_ {j = 1} ^ {n - 1} \\binom {m _ {j}} {\\mu_ {j}} (b _ {j} \\lambda_ {j}) ^ {m _ {j} - \\mu_ {j}} \\lambda_ {n} ^ {\\mu_ {j}} b _ {j, t _ {j}} ^ {(\\mu_ {j})} | \\leq (K L) ^ {h ^ {2}},"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.14285714285714285,
+            0.8299643281807372,
+            0.8504201680672269,
+            0.8810939357907254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for a suitable constant K depending on the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", and on n only. So the estimates on the size of the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": "can be obtained using the following famous (but easily proved) result:"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.4907563025210084,
+            0.901307966706302,
+            0.5042016806722689,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.14285714285714285,
+            0.10225921521997622,
+            0.8504201680672269,
+            0.13793103448275862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Siegel’s Lemma 1 (C. Siegel, 1929, and others). If"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N > M > 0"
+            },
+            {
+              "type": "text",
+              "content": "are integers, then the system of equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.37478991596638656,
+            0.14387633769322236,
+            0.6168067226890757,
+            0.19143876337693222
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "\\sum_ {j = 1} ^ {N} u _ {i, j} x _ {j} = 0, \\quad 1 \\leq i \\leq M"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.14285714285714285,
+            0.19738406658739596,
+            0.7394957983193278,
+            0.2140309155766944
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "has a non-trivial solution in integers x with absolute values at most"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3798319327731092,
+            0.21997621878715815,
+            0.6134453781512605,
+            0.24851367419738407
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "1 + (N \\max _ {i, j} | u _ {i, j} |) ^ {M / (N - M)}."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.14285714285714285,
+            0.267538644470868,
+            0.5176470588235295,
+            0.2901307966706302
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 Easy estimates on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14285714285714285,
+            0.3032104637336504,
+            0.8504201680672269,
+            0.3376932223543401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Having constructed"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": ", we begin to analyse its properties as a function of the complex variable z. In the first place, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.14453781512605043,
+            0.34244946492271106,
+            0.9563025210084034,
+            0.41854934601664684
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "\\begin{array}{l} \\left| \\log^ {m _ {1}} \\alpha_ {1}... \\log^ {m _ {n - 1}} \\alpha_ {n - 1} \\sum_ {\\lambda_ {1} = 0} ^ {L}... \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1},..., \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} z}... \\alpha_ {n} ^ {\\lambda_ {n} z} (\\lambda_ {1} + \\lambda_ {n} \\beta_ {1}) ^ {m _ {1}}... (\\lambda_ {n - 1} + \\lambda_ {n} \\beta_ {n - 1}) ^ {m _ {n - 1}} \\right| \\\\ \\qquad \\leq e ^ {h ^ {3}} (K L) ^ {h ^ {2}} K ^ {L | z |}, \\quad 0 \\leq m _ {1} +... + m _ {n - 1} \\leq h ^ {2}, \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.14285714285714285,
+            0.4233055885850178,
+            0.8504201680672269,
+            0.4577883472057075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where K depends only on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } , \\beta _ { i } , n"
+            },
+            {
+              "type": "text",
+              "content": ", as before. It follows that, for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m \\leq h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "but for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a l l z \\in \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "一，"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.4016806722689076,
+            0.45541022592152197,
+            0.5932773109243697,
+            0.4887039239001189
+          ],
+          "image_path": "images/page_4_equation_8.jpg",
+          "content": "| \\frac {d ^ {m}}{d z ^ {m}} \\phi (z) | \\leq K ^ {h ^ {3} + L | z |}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.14285714285714285,
+            0.48989298454221164,
+            0.8504201680672269,
+            0.5267538644470868
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for suitable (diferent) K depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } , \\beta _ { i } , n"
+            },
+            {
+              "type": "text",
+              "content": "only. Note the appearance of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " which we arranged to be a power of h slightly smaller than"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", in this estimate."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14285714285714285,
+            0.539833531510107,
+            0.8504201680672269,
+            0.6087990487514863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Our other (fairly) easy estimate will encode, in a useful way, the fact that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { d ^ { m } } { d z ^ { m } } } \\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "takes (up to various multipliers involving the log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } )"
+            },
+            {
+              "type": "text",
+              "content": "algebraic values when z is an integer, and that algebraic numbers are fairly well spaced. Thus if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\le"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { 1 } + . . . + m _ { n - 1 } \\leq h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\mathbb { N }"
+            },
+            {
+              "type": "text",
+              "content": ", then the number"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.14285714285714285,
+            0.6159334126040428,
+            0.957983193277311,
+            0.6623067776456599
+          ],
+          "image_path": "images/page_4_equation_11.jpg",
+          "content": "X := (a _ {1}... a _ {n}) ^ {L z} b _ {1} ^ {m _ {1}}... b _ {n - 1} ^ {m _ {n - 1}} \\sum_ {\\lambda_ {1} = 0} ^ {L}... \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1},..., \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} z}... \\alpha_ {n} ^ {\\lambda_ {n} z} (\\lambda_ {1} + \\lambda_ {n} \\beta_ {1}) ^ {m _ {1}}... (\\lambda_ {n - 1} + \\lambda_ {n} \\beta_ {n - 1}) ^ {m _ {n - 1}}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.14285714285714285,
+            0.6694411414982164,
+            0.8504201680672269,
+            0.7705112960760999
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is an algebraic integer with degree at most"
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ^ { 2 n - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "(by the Tower Law for field extensions, and since algebraic integers form a ring). Now arguing in a Liouvilleesque way, either"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = 0"
+            },
+            {
+              "type": "text",
+              "content": "or the norm of X is at least 1. But any conjugate of X has absolute value at most"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K ^ { h ^ { 3 } + L z }"
+            },
+            {
+              "type": "text",
+              "content": ", arguing exactly as above, so either"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = 0"
+            },
+            {
+              "type": "text",
+              "content": "or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| X | \\geq K ^ { - d ^ { 2 n - 2 } ( h ^ { 3 } + L z ) }"
+            },
+            {
+              "type": "text",
+              "content": ". This obviously implies that for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m \\leq h ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", and any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\mathbb { N }"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3277310924369748,
+            0.7669441141498217,
+            0.66890756302521,
+            0.8097502972651606
+          ],
+          "image_path": "images/page_4_equation_13.jpg",
+          "content": "\\frac {d ^ {m}}{d z ^ {m}} \\phi (z) = \\sum_ {m _ {1} + \\ldots + m _ {n - 1} = m} f _ {m _ {1}, \\ldots , m _ {n - 1}} (z),"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.14285714285714285,
+            0.8133174791914387,
+            0.27563025210084036,
+            0.8287752675386445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.27563025210084036,
+            0.835909631391201,
+            0.7176470588235294,
+            0.8573127229488704
+          ],
+          "image_path": "images/page_4_equation_15.jpg",
+          "content": "f _ {m _ {1}, \\ldots , m _ {n - 1}} (z) = 0 \\quad \\mathrm{or} \\quad | f _ {m _ {1}, \\ldots , m _ {n - 1}} (z) | \\geq K ^ {- h ^ {3} - L z}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.14285714285714285,
+            0.8632580261593341,
+            0.6033613445378151,
+            0.8810939357907254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for suitable (diferent) K depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { i } , \\beta _ { i } , n"
+            },
+            {
+              "type": "text",
+              "content": "only."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.4907563025210084,
+            0.901307966706302,
+            0.5042016806722689,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.14453781512605043,
+            0.09988109393579073,
+            0.6016806722689075,
+            0.12128418549346016
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4 The extrapolation argument"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14285714285714285,
+            0.13436385255648037,
+            0.8487394957983193,
+            0.20332936979785968
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By construction, we know that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "vanishes for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , h \\}"
+            },
+            {
+              "type": "text",
+              "content": ". In this section we will argue, using the information that we also have about the derivatives of φ, and the bounds in §3, that actually"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( z )"
+            },
+            {
+              "type": "text",
+              "content": "must vanish for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , ( L + 1 ) ^ { n } \\}"
+            },
+            {
+              "type": "text",
+              "content": " (or even for a larger set of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z { \\mathrm { ~ v a l u e s } } )"
+            },
+            {
+              "type": "text",
+              "content": ". This will swiftly imply Baker’s Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.14285714285714285,
+            0.20332936979785968,
+            0.8504201680672269,
+            0.2556480380499406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We need one key lemma, which is squarely complex-analytic. Rather than presenting a version that is highly tailored to our situation, it seems more revealing to state and prove a somewhat general version."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.14285714285714285,
+            0.26397146254458975,
+            0.8504201680672269,
+            0.2984542211652794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Baker’s Lemma 1. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { C } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "be holomorphic, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": ", and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A , B , C , T , U"
+            },
+            {
+              "type": "text",
+              "content": " be large real numbers. Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C \\gg T / ( A \\log A ) + U B A ^ { \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ", and that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.16806722689075632,
+            0.3055885850178359,
+            0.561344537815126,
+            0.3258026159334126
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "1. | \\frac {d ^ {m}}{d z ^ {m}} f (z) | \\leq e ^ {T + U | z |} \\forall 0 \\leq m \\leq C, z \\in \\mathbb {C};"
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.16638655462184873,
+            0.3329369797859691,
+            0.5932773109243697,
+            0.35315101070154575
+          ],
+          "image_path": "images/page_5_equation_5.jpg",
+          "content": "2. \\frac {d ^ {m}}{d z ^ {m}} f (z) = 0 \\forall 0 \\leq m \\leq C, z \\in \\{1, 2,..., [ A ] \\}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.14453781512605043,
+            0.3590963139120095,
+            0.8033613445378152,
+            0.3793103448275862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { | \\frac { d ^ { m } } { d z ^ { m } } f ( z ) | \\leq e ^ { - 2 ( T + U z ) } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m \\leq C / 2"
+            },
+            {
+              "type": "text",
+              "content": "and all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , [ A B ] \\}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.14285714285714285,
+            0.3876337693222354,
+            0.8504201680672269,
+            0.47205707491082044
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will prove this using the elegant argument from Baker’s book [2], which exploits the maximum-modulus principle. However, we caution that this makes it appear that the exact vanishing of the derivatives in condition (2) is essential, and in fact that is not the case. (Indeed, the argument in Baker’s paper [1], proving a quantitative version of his theorem, does not assume such vanishing.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.14285714285714285,
+            0.4708680142687277,
+            0.8504201680672269,
+            0.5089179548156956
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq m \\leq C / 2"
+            },
+            {
+              "type": "text",
+              "content": ", and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { g ( z ) = \\frac { d ^ { m } } { d z ^ { m } } f ( z ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", so we are aiming to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| g ( z ) | \\leq e ^ { - 2 ( T + U z ) }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , [ A B ] \\}"
+            },
+            {
+              "type": "text",
+              "content": ". Because of assumption (2), we see that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.33613445378151263,
+            0.5160523186682521,
+            0.6588235294117647,
+            0.5529131985731273
+          ],
+          "image_path": "images/page_5_equation_9.jpg",
+          "content": "\\frac {g (z)}{(z - 1) ^ {[ C / 2 ]} (z - 2) ^ {[ C / 2 ]} \\dots (z - [ A ]) ^ {[ C / 2 ]}}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.14285714285714285,
+            0.5612366230677764,
+            0.8504201680672269,
+            0.5957193816884662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a holomorphic function. Thus, by the maximum modulus principle applied on a circle about the origin with radius"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A ^ { 1 + \\epsilon } B"
+            },
+            {
+              "type": "text",
+              "content": ", for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "z \\in \\{ 1 , 2 , . . . , [ A B ] \\}"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.14453781512605043,
+            0.6040428061831153,
+            0.9025210084033614,
+            0.643281807372176
+          ],
+          "image_path": "images/page_5_equation_11.jpg",
+          "content": "| g (z) | \\leq \\max _ {| w | = A ^ {1 + \\epsilon} B} \\left(| g (w) | \\frac {| z - 1 | ^ {[ C / 2 ]} . . . | z - [ A ] | ^ {[ C / 2 ]}}{| w - 1 | ^ {[ C / 2 ]} . . . | w - [ A ] | ^ {[ C / 2 ]}}\\right) \\leq e ^ {- (\\epsilon / 2) \\log A [ A ] [ C / 2 ]} \\max _ {| w | = A ^ {1 + \\epsilon} B} | g (w) |."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.14453781512605043,
+            0.6516052318668252,
+            0.8504201680672269,
+            0.6694411414982164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the assumption (1), and that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A C \\gg ( T / \\log A ) + U A ^ { 1 + \\epsilon } B"
+            },
+            {
+              "type": "text",
+              "content": ", the result follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.7865546218487395,
+            0.6789536266349584,
+            0.8487394957983193,
+            0.6956004756242569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.E.D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.14285714285714285,
+            0.703923900118906,
+            0.8521008403361344,
+            0.8252080856123662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This lemma is applied to the functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { m _ { 1 } , . . . , m _ { n - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": "appearing at the end of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ S 3"
+            },
+            {
+              "type": "text",
+              "content": " where the hypotheses are satisfied with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T = h ^ { 3 } \\log K , U = L"
+            },
+            {
+              "type": "text",
+              "content": "log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K , B = h ^ { 1 / 8 n }"
+            },
+            {
+              "type": "text",
+              "content": ", etc. (The reader should note that the various estimates we derived for φ in previous sections were actually derived separately for each function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { m _ { 1 } , . . . , m _ { n - 1 } } )"
+            },
+            {
+              "type": "text",
+              "content": ". Because of the dichotomy established at the end of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ S 3"
+            },
+            {
+              "type": "text",
+              "content": ", the conclusion of the lemma is untenable unless the derivatives of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { m _ { 1 } , . . . , m _ { n - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": "vanish for z on the wide range supplied. Thus, iteratively applying the lemma"
+            },
+            {
+              "type": "equation_inline",
+              "content": "O ( n ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": "times, the claim that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.3445378151260504,
+            0.835909631391201,
+            0.6487394957983194,
+            0.8537455410225921
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "\\phi (z) = 0 \\quad \\forall z \\in \\{1, 2,..., (L + 1) ^ {n} \\}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.14285714285714285,
+            0.8632580261593341,
+            0.2134453781512605,
+            0.8799048751486326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "follows."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.4907563025210084,
+            0.9001189060642093,
+            0.5058823529411764,
+            0.9131985731272295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.14453781512605043,
+            0.09869203329369798,
+            0.5361344537815126,
+            0.12009512485136742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5 Conclusion of the proof"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14453781512605043,
+            0.13436385255648037,
+            0.3126050420168067,
+            0.14982164090368608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that we had"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.27899159663865547,
+            0.16171224732461356,
+            0.7142857142857143,
+            0.2080856123662307
+          ],
+          "image_path": "images/page_6_equation_2.jpg",
+          "content": "\\phi (z) = \\sum_ {\\lambda_ {1} = 0} ^ {L} \\dots \\sum_ {\\lambda_ {n} = 0} ^ {L} p (\\lambda_ {1}, \\dots , \\lambda_ {n}) \\alpha_ {1} ^ {\\lambda_ {1} z} \\dots \\alpha_ {n} ^ {\\lambda_ {n} z}, \\quad z \\in \\mathbb {C},"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.14285714285714285,
+            0.21997621878715815,
+            0.8504201680672269,
+            0.272294887039239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and we now know that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( 1 ) = \\phi ( 2 ) = . . . = \\phi ( ( L + 1 ) ^ { n } ) = 0"
+            },
+            {
+              "type": "text",
+              "content": ". This means that the vector of numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\lambda _ { 1 } , . . . , \\lambda _ { n } )"
+            },
+            {
+              "type": "text",
+              "content": "is a non-trivial element of the kernel of a certain "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( L + 1 ) ^ { n } \\times ( L + 1 ) ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": "matrix, which must therefore have determinant zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.14285714285714285,
+            0.2734839476813318,
+            0.8504201680672269,
+            0.30677764565992865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But this matrix is clearly a Vandermonde matrix, so the vanishing of its determinant implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.4050420168067227,
+            0.30439952437574314,
+            0.5882352941176471,
+            0.3269916765755054
+          ],
+          "image_path": "images/page_6_equation_5.jpg",
+          "content": "\\alpha_ {1} ^ {\\lambda_ {1}}... \\alpha_ {n} ^ {\\lambda_ {n}} = \\alpha_ {1} ^ {\\lambda_ {1} ^ {\\prime}}... \\alpha_ {n} ^ {\\lambda_ {n} ^ {\\prime}}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.14285714285714285,
+            0.3329369797859691,
+            0.8504201680672269,
+            0.3686087990487515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for some distinct tuples of integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\lambda _ { 1 } , . . . , \\lambda _ { n } \\right)"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\lambda _ { 1 } ^ { \\prime } , . . . , \\lambda _ { n } ^ { \\prime } \\right)"
+            },
+            {
+              "type": "text",
+              "content": ". This contradicts the assumption that log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha _ { 1 } , . . . , \\log \\alpha _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": ", 2πi are linearly independent over"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.7865546218487395,
+            0.380499405469679,
+            0.8470588235294118,
+            0.39595719381688466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.E.D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.14285714285714285,
+            0.4090368608799049,
+            0.8504201680672269,
+            0.4780023781212842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Again, it is perhaps worth pointing out that there are other ways to end this proof that are more “robust” than relying on the appearance of a Vandermonde determinant. In contrast, the extrapolation argument set out in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ S 4"
+            },
+            {
+              "type": "text",
+              "content": "is fundamental to Baker’s approach."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.14453781512605043,
+            0.5029726516052319,
+            0.3025210084033613,
+            0.5243757431629013
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.15630252100840336,
+            0.5386444708680143,
+            0.8504201680672269,
+            0.5731272294887039
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[1] A. Baker. Linear forms in the logarithms of algebraic numbers. Mathematika 13, pp 204-216. 1966"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.15798319327731092,
+            0.5838287752675386,
+            0.8487394957983193,
+            0.6183115338882283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[2] A. Baker. Transcendental number theory. Reissue published by Cambridge University Press. 1990"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.15798319327731092,
+            0.6302021403091558,
+            0.8487394957983193,
+            0.6634958382877527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[3] A. O. Gelfond. Transcendental and Algebraic Numbers. Translated by L. Boron. Dover publ., New York. 1960"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.4907563025210084,
+            0.901307966706302,
+            0.5058823529411764,
+            0.9143876337693222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}
