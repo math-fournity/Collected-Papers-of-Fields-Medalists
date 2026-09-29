@@ -1,0 +1,3048 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.20751633986928106,
+            0.22348484848484848,
+            0.8006535947712419,
+            0.28535353535353536
+          ],
+          "level": 1,
+          "content": "Ring Theoretic Properties of Certain Hecke Algebras"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22058823529411764,
+            0.3068181818181818,
+            0.4477124183006536,
+            0.4633838383838384
+          ],
+          "content": "Richard Taylor\nD.P.M.M.S.,\nCambridge University,\n16 Mill Lane,\nCambridge,\nCB2 1SB,\nU.K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.49019607843137253,
+            0.3068181818181818,
+            0.7875816993464052,
+            0.46464646464646464
+          ],
+          "content": "Andrew Wiles\nDepartment of Mathematics,\nPrinceton University,\nWashington Road,\nPrinceton,\nNJ 08544,\nU.S.A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.42483660130718953,
+            0.47853535353535354,
+            0.5849673202614379,
+            0.49873737373737376
+          ],
+          "content": "7 October 1994"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.5429292929292929,
+            0.35784313725490197,
+            0.5656565656565656
+          ],
+          "level": 2,
+          "content": "Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5808080808080808,
+            0.8316993464052288,
+            0.726010101010101
+          ],
+          "content": "In the work of one of us (A.W.) on the conjecture that all elliptic curves defined over $\\mathbb{Q}$ are modular, the importance of knowing that certain Hecke algebras are complete intersections was established. The purpose of this article is to provide the missing ingredient in [W2] by establishing that the Hecke algebras considered there are complete intersections. As is recorded in [W2], a method going back to Mazur [M] allows one to show that these algebras are Gorenstein, but this seems to be too weak for the purposes of that paper. The methods of this paper are related to those of chapter 3 of [W2]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.726010101010101,
+            0.8333333333333334,
+            0.8926767676767676
+          ],
+          "content": "We would like to thank Henri Darmon, Fred Diamond and Gerd Faltings for carefully reading the first version of this article. Gerd Faltings has also suggested a simplification of our argument and we would like to thank him for allowing us to reproduce this in the appendix to this paper. R.T. would like to thank A.W. for his invitation to collaborate on these problems and for sharing his many insights into the questions considered. R.T. would also like to thank Princeton University, Université de Paris 7 and Harvard University for their hospitality during some of the work on this paper. A.W. was supported by an NSF grant."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.5,
+            0.922979797979798,
+            0.5098039215686274,
+            0.9368686868686869
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1781045751633987,
+            0.16792929292929293,
+            0.35294117647058826,
+            0.1893939393939394
+          ],
+          "level": 2,
+          "content": "1 Notation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2058080808080808,
+            0.8284313725490197,
+            0.24116161616161616
+          ],
+          "content": "Let $p$ denote an odd prime, let $\\mathcal{O}$ denote the ring of integers of a finite extension $K / \\mathbb{Q}_p$, let $\\lambda$ denote its maximal ideal and let $k = \\mathcal{O} / \\lambda$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.24242424242424243,
+            0.8300653594771242,
+            0.3333333333333333
+          ],
+          "content": "If L is a perfect field  $G_{L}$  will denote its absolute Galois group and if the characteristic of L is not p then  $\\epsilon: G_{L} \\to Z_{p}^{\\times}$  will denote the p-adic cyclotomic character. If L is a number field and  $\\wp$  a prime of its ring of integers then  $G_{\\wp}$  will denote a decomposition group at  $\\wp$  and  $I_{\\wp}$  the corresponding inertia group. We will denote by  $Frob_{\\wp}$  the arithmetic Frobenius element of  $G_{\\wp}/I_{\\wp}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.33207070707070707,
+            0.8316993464052288,
+            0.4255050505050505
+          ],
+          "content": "If G is a group and M a G-module we will let  $M^{G}$  and  $M_{G}$  denote respectively the invariants and coinvariants of G on M. If  $\\rho$  is a representation of G into the automorphisms of some abelian group we shall let  $V_{\\rho}$  denote the underlying G-module. If H is a normal subgroup of G then we shall let  $\\rho^{H}$  and  $\\rho_{H}$  denote the representation of G/H on respectively  $V_{\\rho}^{H}$  and  $V_{\\rho,H}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.42424242424242425,
+            0.5849673202614379,
+            0.44191919191919193
+          ],
+          "content": "We shall also fix a continuous representation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4199346405228758,
+            0.45707070707070707,
+            0.5849673202614379,
+            0.476010101010101
+          ],
+          "content": "\\overline {{\\rho}}: G _ {\\mathbb {Q}} \\longrightarrow G L _ {2} (k)",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.4911616161616162,
+            0.42810457516339867,
+            0.5088383838383839
+          ],
+          "content": "with the following properties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.5214646464646465,
+            0.8300653594771242,
+            0.5580808080808081
+          ],
+          "content": "\\- $\\overline{\\rho}$ is modular in the sense that it is a mod $p$ representation associated to some modular newform of some weight and level."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.5694444444444444,
+            0.8300653594771242,
+            0.6060606060606061
+          ],
+          "content": "\\- The restriction of $\\overline{\\rho}$ to the group $\\operatorname{Gal}(\\overline{\\mathbb{Q}} / \\mathbb{Q}(\\sqrt{(-1)^{(p - 1) / 2}p}))$ is absolutely irreducible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6199494949494949,
+            0.673202614379085,
+            0.6388888888888888
+          ],
+          "content": "\\- If $c$ denotes complex conjugation then $\\det \\overline{\\rho}(c) = -1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6502525252525253,
+            0.8284313725490197,
+            0.6691919191919192
+          ],
+          "content": "\\- The restriction of $\\overline{\\rho}$ to the decomposition group at $p$ either has the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.47549019607843135,
+            0.6818181818181818,
+            0.576797385620915,
+            0.7209595959595959
+          ],
+          "content": "\\left( \\begin{array}{c c} \\psi_ {1} & * \\\\ 0 & \\psi_ {2} \\end{array} \\right)",
+          "image_source": "images/page_1_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.7335858585858586,
+            0.8300653594771242,
+            0.8080808080808081
+          ],
+          "content": "with  $\\psi_{1}$  and  $\\psi_{2}$  distinct characters and with  $\\psi_{2}$  unramified; or is induced from a character  $\\chi$  of the unramified quadratic extension of  $Q_{p}$  whose restriction to the inertia group is the fundamental character of level 2,  $I_{p} \\twoheadrightarrow F_{p^{2}}^{\\times}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20751633986928106,
+            0.8194444444444444,
+            0.3349673202614379,
+            0.8358585858585859
+          ],
+          "content": "\\- If $l \\neq p$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24509803921568626,
+            0.8459595959595959,
+            0.46568627450980393,
+            0.88510101010101
+          ],
+          "content": "- \\text {   either   } \\overline {{\\rho}} | _ {I _ {l}} \\sim \\left( \\begin{array}{c c} \\chi & 0 \\\\ 0 & 1 \\end{array} \\right),",
+          "image_source": "images/page_1_equation_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49836601307189543,
+            0.922979797979798,
+            0.511437908496732,
+            0.9368686868686869
+          ],
+          "content": "2"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.24509803921568626,
+            0.16792929292929293,
+            0.434640522875817,
+            0.20707070707070707
+          ],
+          "content": "- \\text {or} \\overline {{\\rho}} | _ {I _ {l}} \\sim \\left( \\begin{array}{c c} 1 & * \\\\ 0 & 1 \\end{array} \\right),",
+          "image_source": "images/page_2_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24673202614379086,
+            0.21085858585858586,
+            0.8284313725490197,
+            0.25
+          ],
+          "content": "\\- or $\\overline{\\rho}|_{G_l}$ is absolutely irreducible and in the case $\\overline{\\rho}|_{I_l}$ is absolutely reducible we have $l \\not\\equiv -1 \\bmod p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.2601010101010101,
+            0.8300653594771242,
+            0.31565656565656564
+          ],
+          "content": "(This implies that  $\\overline{\\rho}|_{G_{l}}$  is either unramified or of type A, B or C as defined in chapter 1 of [W2]. On the other hand if  $\\overline{\\rho}|_{G_{l}}$  is of type A, B or C then some twist satisfies the condition above.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.32575757575757575,
+            0.8284313725490197,
+            0.3787878787878788
+          ],
+          "content": "In the case that $\\overline{\\rho}|_{G_p} \\sim \\left( \\begin{array}{cc} \\psi_1 & * \\\\ 0 & \\psi_2 \\end{array} \\right)$ we will fix the pair of characters $\\psi_1, \\psi_2$. Note that in some cases this may involve making a choice."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.3787878787878788,
+            0.7467320261437909,
+            0.398989898989899
+          ],
+          "content": "We will let $Q$ denote a finite set of primes $q$ with the properties"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.41035353535353536,
+            0.40032679738562094,
+            0.42803030303030304
+          ],
+          "content": "\\- $\\overline{\\rho}$ is unramified at $q$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.44065656565656564,
+            0.3366013071895425,
+            0.4583333333333333
+          ],
+          "content": "•  $q \\equiv 1 \\mod p,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.4696969696969697,
+            0.7924836601307189,
+            0.4898989898989899
+          ],
+          "content": "\\- $\\overline{\\rho} (\\mathrm{Frob}_q)$ has distinct eigenvalues, which we shall denote $\\alpha_{q}$ and $\\beta_{q}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.5,
+            0.8284313725490197,
+            0.5353535353535354
+          ],
+          "content": "Much of our notation will involve a subscript $Q$ to denote dependence on $Q$, whenever $Q = \\emptyset$ we may simply drop it from the notation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5366161616161617,
+            0.8300653594771242,
+            0.6098484848484849
+          ],
+          "content": "For  $q \\in Q$  we shall let  $\\Delta_{q}$  denote the Sylow p-subgroup of  $(\\mathbb{Z}/q\\mathbb{Z})^{\\times}$ . We shall let  $\\delta_{q}$  denote a generator. We will write  $\\Delta_{Q}$  for the product of the  $\\Delta_{q}$  with  $q \\in Q$ . We will let  $a_{Q}$  denote the kernel of the map  $O[\\Delta_{Q}] \\to O$  which sends every element of  $\\Delta_{Q}$  to 1. Let  $\\chi_{q}$  denote the character"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32679738562091504,
+            0.6224747474747475,
+            0.6797385620915033,
+            0.6426767676767676
+          ],
+          "content": "G _ {\\mathbb {Q}} \\longrightarrow \\operatorname{Gal} \\left(\\mathbb {Q} (\\zeta_ {q}) / \\mathbb {Q}\\right) \\cong (\\mathbb {Z} / q \\mathbb {Z}) ^ {\\times} \\twoheadrightarrow \\Delta_ {q},",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.6540404040404041,
+            0.3709150326797386,
+            0.6742424242424242
+          ],
+          "content": "and let $\\chi_Q = \\prod_{q\\in Q}\\chi_q$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.672979797979798,
+            0.7303921568627451,
+            0.6919191919191919
+          ],
+          "content": "We will denote by $N_{Q}$ the product of the following quantities:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7032828282828283,
+            0.39052287581699346,
+            0.7209595959595959
+          ],
+          "content": "• the conductor of $\\overline{\\rho}$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7348484848484849,
+            0.36764705882352944,
+            0.7512626262626263
+          ],
+          "content": "\\- the primes in $Q$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7638888888888888,
+            0.8316993464052288,
+            0.8547979797979798
+          ],
+          "content": "\\- $p$, if $\\overline{\\rho}$ is not flat (i.e. $\\overline{\\rho}$ does not arise from the action of $G_p$ on the $\\overline{\\mathbb{Q}_p}$-points of some finite flat group scheme over $\\mathbb{Z}_p$) or if $\\det \\overline{\\rho}|_{I_p} \\neq \\epsilon$. (We remark that if $\\overline{\\rho}|_{G_p}$ is flat but $\\det \\overline{\\rho}|_{I_p} \\neq \\epsilon$ then $\\overline{\\rho}|_{G_p}$ arises from an etale group scheme over $\\mathbb{Z}_p$. We also note that in [W2] the term flat is not used when the group scheme is ordinary.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.86489898989899,
+            0.8300653594771242,
+            0.9027777777777778
+          ],
+          "content": "We will let $\\Gamma_Q$ denote the inverse image under $\\Gamma_0(N_Q) \\to (\\mathbb{Z}/N_Q\\mathbb{Z})^\\times$ of the product of the following subgroups:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49673202614379086,
+            0.9242424242424242,
+            0.511437908496732,
+            0.9381313131313131
+          ],
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.1717171717171717,
+            0.8316993464052288,
+            0.20959595959595959
+          ],
+          "content": "\\- the Sylow $p$-subgroup of $(\\mathbb{Z} / M\\mathbb{Z})^{\\times}$, where $M$ denotes the conductor of $\\overline{\\rho}$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.22095959595959597,
+            0.8284313725490197,
+            0.25757575757575757
+          ],
+          "content": "\\- for each $q \\in Q$ the unique maximal subgroup of $(\\mathbb{Z} / q\\mathbb{Z})^{\\times}$ of order prime to $p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2689393939393939,
+            0.8316993464052288,
+            0.5441919191919192
+          ],
+          "content": "Let $\\mathbb{T}(\\Gamma_Q)$ denote the $\\mathbb{Z}$-subalgebra of the complex endomorphisms of the space of weight 2 cusp forms on $\\Gamma_Q$ which is generated by the Hecke operators $T_l$ and $\\langle l\\rangle$ for $l\\nmid pN_Q$, by $U_q$ for $q\\in Q$ and by $U_p$ if $p|N_Q$. Let $\\mathfrak{m}$ denote the ideal of $\\mathbb{T}(\\Gamma_Q)\\otimes_{\\mathbb{Z}}\\mathcal{O}$ generated by $\\lambda$, by $\\operatorname{tr}\\overline{\\rho} (\\mathrm{Frob}_l) - T_l$ and $\\det \\overline{\\rho} (\\mathrm{Frob}_l) - l\\langle l\\rangle$ for $l\\nmid pN_Q$, by $U_q - \\alpha_q$ for $q\\in Q$ and by $U_{p} - \\psi_{2}(\\mathrm{Frob}_{p})$ if $p|N_Q$. Note that if $Q\\neq \\emptyset$ this definition only makes sense if $\\mathcal{O}$ is sufficiently large that $k$ contains the eigenvalues of $\\overline{\\rho} (\\mathrm{Frob}_q)$ for all $q\\in Q$. It is a deep result following from the work of many mathematicians that $\\mathfrak{m}$ is a proper ideal (see [D]), and so maximal. We let $\\mathbb{T}_Q$ denote the localisation of $\\mathbb{T}(\\Gamma_Q)\\otimes_{\\mathbb{Z}}\\mathcal{O}$ at $\\mathfrak{m}$. Note that $\\mathbb{T}_Q$ is reduced because the operators $T_l$ for $l\\nmid N_Q$ act semi-simply on the space of cusp forms for $\\Gamma_Q$ and the $U_{q}$ for $q\\in Q$ act semi-simply on all common eigenspaces for the $T_l$ for which the corresponding $p$-adic representation $\\tau$ is either ramified at $q$ or for which $\\tau (\\mathrm{Frob}_q)$ has distinct eigenvalues. There is a natural map $\\mathcal{O}[\\Delta_Q]\\to \\mathbb{T}_Q$, which sends $x\\in \\Delta_Q$ to $\\langle y\\rangle$ where $y\\in \\mathbb{Z}$, $y\\equiv x\\bmod q$ for all $q\\in Q$ and $y\\equiv 1\\bmod N_\\emptyset$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5429292929292929,
+            0.8284313725490197,
+            0.5808080808080808
+          ],
+          "content": "It follows from the discussion after theorem 2.1 of [W2] or from the work of Carayol [C2] that there is a continuous representation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39869281045751637,
+            0.5946969696969697,
+            0.6078431372549019,
+            0.61489898989899
+          ],
+          "content": "\\rho_ {Q} ^ {\\text { mod }}: G _ {\\mathbb {Q}} \\longrightarrow G L _ {2} (\\mathbb {T} _ {Q});",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6287878787878788,
+            0.8284313725490197,
+            0.6843434343434344
+          ],
+          "content": "such that if $l \\nmid N_Q p$ then $\\rho_Q^{mod}$ is unramified at $l$ and we have $\\operatorname{tr} \\rho_Q^{mod}(\\operatorname{Frob}_l) = T_l$ and $\\det \\rho_Q^{mod}(\\operatorname{Frob}_l) = l \\langle l \\rangle$. In particular the reduction of $\\rho_Q^{mod}$ modulo the maximal ideal of $\\mathbb{T}_Q$ is $\\overline{\\rho}$. From [C1] we can deduce the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6957070707070707,
+            0.8284313725490197,
+            0.7348484848484849
+          ],
+          "content": "\\- If $q \\in Q$ then $\\rho_{Q}^{mod}|_{G_q} = \\phi_1 \\oplus \\phi_2$ where $\\phi_1$ is unramified and $\\phi_1(\\mathrm{Frob}_q) = U_q$, and where $\\phi_2|_{I_q} = \\chi_q|_{I_q}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7449494949494949,
+            0.8104575163398693,
+            0.7638888888888888
+          ],
+          "content": "\\- If $l \\neq p$ and $\\overline{\\rho}|_{I_l}$ is non-trivial but unipotent then $\\rho_Q^{mod}|_{I_l}$ is unipotent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7752525252525253,
+            0.8284313725490197,
+            0.8131313131313131
+          ],
+          "content": "\\- If $l \\notin Q \\cup \\{p\\}$ and either $\\overline{\\rho}|_{I_l} = \\chi \\oplus 1$ or $\\overline{\\rho}|_{G_l}$ is absolutely irreducible then $\\rho_Q^{mod}(I_l) \\xrightarrow{\\sim} \\overline{\\rho}(I_l)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.8244949494949495,
+            0.7254901960784313,
+            0.8446969696969697
+          ],
+          "content": "\\- $\\operatorname{det} \\rho_{Q}^{mod} = \\chi_{Q} \\epsilon \\phi$ where $\\phi$ is a character of order prime to $p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.8547979797979798,
+            0.8284313725490197,
+            0.8939393939393939
+          ],
+          "content": "Moreover if $\\overline{\\rho}|_{G_p}$ is flat and if $\\det \\overline{\\rho}|_{I_p} = \\epsilon$ then $p / N_Q$ so $\\rho_Q^{mod}|_{G_p}$ is flat (i.e. the reduction modulo every ideal of finite index is flat). If $\\overline{\\rho}|_{G_p}$ is not flat"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49836601307189543,
+            0.9242424242424242,
+            0.5098039215686274,
+            0.9368686868686869
+          ],
+          "content": "4"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.1717171717171717,
+            0.8300653594771242,
+            0.33964646464646464
+          ],
+          "content": "or if  $\\det\\overline{\\rho}|_{I_{p}}\\neq\\epsilon$  then  $p|N_{Q},\\;\\overline{\\rho}|_{G_{p}}\\sim\\left(\\begin{array}{cc}\\psi_{1}&*\\\\0&\\psi_{2}\\end{array}\\right)$  and  $U_{p}$  is a unit in  $T_{Q}$ . It follows from theorem 2 of [W1] (or more directly in the case  $\\psi_{1}|_{I_{q}}\\neq\\epsilon$  from proposition 12.9 of [G]) that  $\\rho_{Q}^{mod}|_{G_{p}}\\sim\\left(\\begin{array}{cc}\\chi_{1}\\epsilon & *\\\\0 & \\chi_{2}\\end{array}\\right)$ , where  $\\chi_{2}$  is unramified and  $\\chi_{1}(I_{p})$  has order prime to p. In the case that  $\\chi_{1}$  is unramified we know further that  $\\chi_{1}=\\chi_{2}$  (see proposition 1.1 of [W2]) and that this character has finite order. It will be convenient to introduce the twist  $\\rho_{Q}^{\\prime}=\\rho_{Q}^{mod}\\otimes\\chi_{Q}^{-1/2}$  of  $\\rho_{Q}^{mod}$ . In particular we see that  $\\det\\rho_{Q}^{\\prime}$  is valued in  $O^{\\times}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.3383838383838384,
+            0.8300653594771242,
+            0.375
+          ],
+          "content": "The main theorem of this paper is as follows. Recall that we may write $\\mathbb{T}$ for $\\mathbb{T}_{\\emptyset}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.3888888888888889,
+            0.6127450980392157,
+            0.4078282828282828
+          ],
+          "content": "Theorem 1 The ring $\\mathbb{T}$ is a complete intersection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.42045454545454547,
+            0.8316993464052288,
+            0.6603535353535354
+          ],
+          "content": "We note that if  $O'$  is the ring of integers of a finite extension  $K'/K$  then the ring constructed using  $O'$  in place of O is just  $T_{Q} \\otimes_{O} O'$ . Also T is a complete intersection if and only if  $T \\otimes_{O} O'$  is (using for instance corollary 2.8 on page 209 of [K2]). Thus we may and we shall assume that O is sufficiently large that the eigenvalues of every element of  $\\overline{\\rho}$  are rational over k and that there is a homomorphism  $\\pi : T \\twoheadrightarrow O$ . In particular the definition of  $T_{Q}$  makes sense for all Q. There is an induced map  $\\pi_{Q} : T_{Q} \\to T \\to O$ . The map  $T_{Q} \\to T$  takes the operators  $T_{l}$  and  $\\langle l \\rangle$  to themselves and the operator  $U_{q}$  to the unique root of  $U^{2} - T_{q}U + q\\langle q \\rangle$  in T above  $\\alpha_{q}$ . We will let  $\\wp_{Q}$  denote the kernel of  $\\pi_{Q}$  and will let  $\\eta_{Q}$  denote the ideal  $\\pi_{Q}(\\text{Ann}_{\\mathbb{T}_{Q}}(\\wp_{Q}))$ . Then it is known that  $\\infty > \\# \\wp_{Q}/\\wp_{Q}^{2} \\geq \\#O/\\eta_{Q}$  with equality if and only if  $T_{Q}$  is a complete intersection (see the appendix of [W2] or [L], we are using the fact that  $T_{Q}$  is reduced)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.6856060606060606,
+            0.761437908496732,
+            0.7083333333333334
+          ],
+          "level": 2,
+          "content": "2 Generalisation of a Result of de Shalit"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7234848484848485,
+            0.8300653594771242,
+            0.76010101010101
+          ],
+          "content": "In this section we shall use the methods of de Shalit (see [dS]) to prove the following theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.773989898989899,
+            0.8316993464052288,
+            0.8106060606060606
+          ],
+          "content": "Theorem 2 The ring $\\mathbb{T}_Q$ is a free $\\mathcal{O}[\\Delta_Q]$ module of $\\mathcal{O}[\\Delta_Q]$-rank equal to the $\\mathcal{O}$-rank of $\\mathbb{T}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2042483660130719,
+            0.8244949494949495,
+            0.8300653594771242,
+            0.8446969696969697
+          ],
+          "content": "By lemma 3 of [DT] we may choose a prime R with the following properties:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.8535353535353535,
+            0.3088235294117647,
+            0.8737373737373737
+          ],
+          "content": "•  $R \\not\\perp 6N_{Q}p;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.8838383838383839,
+            0.34477124183006536,
+            0.9027777777777778
+          ],
+          "content": "\\- $R \\not\\equiv 1 \\bmod p$;"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49836601307189543,
+            0.922979797979798,
+            0.511437908496732,
+            0.9381313131313131
+          ],
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "code",
+          "bbox": [
+            0.20261437908496732,
+            0.39141414141414144,
+            0.6683006535947712,
+            0.5669191919191919
+          ],
+          "sub_type": "algorithm",
+          "content": "- $\\lambda$;\n- $T_{l} - \\mathrm{tr}\\overline{\\rho} (\\mathrm{Frob}_l)$ and $l\\langle l\\rangle -\\det \\overline{\\rho} (\\mathrm{Frob}_l)$ for $l\\nmid N_QRp$;\n- $U_{q} - \\alpha_{q}$ for $q\\in Q$ or $q = R$;\n- $U_{l} - \\mathrm{tr}\\overline{\\rho}_{I_l}(\\mathrm{Frob}_l)$ if $l|N_{\\emptyset}$ and $l\\neq p$;\n- $U_{p} - \\psi_{2}(\\mathrm{Frob}_{p})$ if $p|N_{\\emptyset}$;\n- $T_{p} - \\mathrm{tr}\\overline{\\rho}_{I_p}(\\mathrm{Frob}_p)$ if $p\\nmid N_{\\emptyset}$.",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.17297979797979798,
+            0.6111111111111112,
+            0.1919191919191919
+          ],
+          "content": "\\- $\\overline{\\rho} (\\mathrm{Frob}_R)$ has distinct eigenvalues $\\alpha_{R}$ and $\\beta_{R}$;"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20588235294117646,
+            0.20075757575757575,
+            0.5751633986928104,
+            0.2222222222222222
+          ],
+          "content": "\\bullet (1 + R) ^ {2} \\det \\overline {{\\rho}} (\\operatorname{Frob} _ {R}) \\neq R (\\operatorname{tr} \\overline {{\\rho}} (\\operatorname{Frob} _ {R})) ^ {2}.",
+          "image_source": "images/page_5_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.23232323232323232,
+            0.8316993464052288,
+            0.380050505050505
+          ],
+          "content": "Let $\\Gamma_{Q-}$ be defined in the same way as $\\Gamma_{Q}$ but with $(\\mathbb{Z}/q\\mathbb{Z})^{\\times}$ replacing its maximal subgroup of order prime to $p$ in the definition for each $q\\in Q$. Let $\\Gamma_{Q}^{\\prime}=\\Gamma_{Q}\\cap\\Gamma_{1}(R)$ and let $\\Gamma_{Q-}^{\\prime}=\\Gamma_{Q-}\\cap\\Gamma_{1}(R)$. The purpose of introducing the auxiliary prime $R$ is to make these groups act freely on the upper half complex plane. Let $\\mathbb{T}^{\\prime}(\\Gamma_{Q}^{\\prime})$ denote the $\\mathbb{Z}$-subalgebra of the complex endomorphism ring of the space of weight two modular (not necessarily cusp) forms generated by the operators $T_{l}$ and $\\langle l\\rangle$ for $l|N_{Q}R$ and by $U_{l}$ for $l|N_{Q}R$. Let $\\mathfrak{m}_{Q}^{\\prime}$ denote the maximal ideal of $\\mathbb{T}^{\\prime}(\\Gamma_{Q}^{\\prime})\\otimes_{\\mathbb{Z}}\\mathcal{O}$ generated by the following elements:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5744949494949495,
+            0.8316993464052288,
+            0.6856060606060606
+          ],
+          "content": "Let $\\mathbb{T}_Q'$ denote the localisation of $\\mathbb{T}'(\\Gamma_Q') \\otimes_{\\mathbb{Z}} \\mathcal{O}$ at $\\mathfrak{m}_Q'$. Let $Y_Q'$ denote the quotient of the upper half complex plane by $\\Gamma_Q'$ and let $X_Q'$ denote its standard compactification. Complex conjugation $c$ acts continuously on these Riemann surfaces. We let $H^1(Y_Q', \\mathcal{O})^\\pm$ and $H^1(X_Q', \\mathcal{O})^\\pm$ denote the $\\pm 1$ eigenspaces of $c$ on $H^1(Y_Q', \\mathcal{O})$ and $H^1(X_Q', \\mathcal{O})$. All these definitions go over verbatim, but with $Q-$ replacing $Q$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.6994949494949495,
+            0.47875816993464054,
+            0.7209595959595959
+          ],
+          "content": "Lemma 1 $\\mathbb{T}_Q^{\\prime}\\cong \\mathbb{T}_Q$ and $\\mathbb{T}_{Q - }^{\\prime}\\cong \\mathbb{T}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7348484848484849,
+            0.8316993464052288,
+            0.9040404040404041
+          ],
+          "content": "This is a standard argument which we will only sketch. First observe that because  $\\overline{\\rho}$  is irreducible  $T_{Q}^{\\prime}$  and  $T_{Q-}^{\\prime}$  can be defined using the ring generated by the Hecke operators on the spaces of weight two cusp forms  $S_{2}(\\Gamma_{Q}^{\\prime})$  and  $S_{2}(\\Gamma_{Q-}^{\\prime})$  (rather than spaces of all modular forms). The same arguments as in the proof of proposition 2.15 of [W2] show that we can drop the Hecke operators  $T_{p}$  if  $p \\nmid N_{Q}$  and the Hecke operators  $U_{l}$  for  $l \\neq p$  and  $l|N_{\\emptyset}$  from the definition without changing the Hecke algebra. Next we will show that we need only consider the algebras generated in the endomorphisms of  $S_{2}(\\Gamma_{Q})^{2} \\subset S_{2}(\\Gamma_{Q}^{\\prime})$  and  $S_{2}(\\Gamma)^{2^{\\#Q+1}} \\subset S_{2}(\\Gamma_{Q-}^{\\prime})$ . This follows from the following facts."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49673202614379086,
+            0.9242424242424242,
+            0.511437908496732,
+            0.9368686868686869
+          ],
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.1717171717171717,
+            0.8316993464052288,
+            0.22727272727272727
+          ],
+          "content": "\\- As $R \\not\\equiv 1 \\mod p$ and $\\det \\overline{\\rho}$ is unramified at $R$, no component of $\\mathbb{T}_Q'$ nor of $\\mathbb{T}_{Q^-}'$ can correspond to an eigenform with a non-trivial action of $(\\mathbb{Z}/R\\mathbb{Z})^\\times$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.23863636363636365,
+            0.8300653594771242,
+            0.31186868686868685
+          ],
+          "content": "\\- As $\\alpha_{R} / \\beta_{R} \\neq R^{\\pm 1}$ in $k$, no component of $\\mathbb{T}_Q'$ nor of $\\mathbb{T}_{Q-}'$ can correspond to an eigenform which is special at $R$ (i.e. an eigenform which corresponds to a cuspidal automorphic representation of $GL_2(\\mathbb{A})$ whose component at $R$ is special)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.32196969696969696,
+            0.8284313725490197,
+            0.35984848484848486
+          ],
+          "content": "\\- As for each prime $q \\in Q$, $\\alpha_q / \\beta_q \\neq q^{\\pm 1}$ in $k$, no component of $\\mathbb{T}_{Q^-}'$ can correspond to an eigenform which is special at $q$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.369949494949495,
+            0.8284313725490197,
+            0.42676767676767674
+          ],
+          "content": "The ring generated by the Hecke operators $T_{l}$ and $\\langle l\\rangle$ for $l\\nmid pN_{Q}R$, by $U_{q}$ for $q\\in Q\\cup \\{R\\}$ and by $U_{p}$ if $p|N_{Q}$ on $S_{2}(\\Gamma_{Q})^{2}$ is isomorphic to $\\mathbb{T}(\\Gamma_Q)[u_R] / (u_R^2 - T_Ru_R + R\\langle R\\rangle)$. In fact $U_{R}$ acts by the matrix"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43790849673202614,
+            0.4356060606060606,
+            0.5686274509803921,
+            0.47474747474747475
+          ],
+          "content": "\\left( \\begin{array}{c c} T _ {R} & 1 \\\\ - R \\langle R \\rangle & 0 \\end{array} \\right)",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.48484848484848486,
+            0.8316993464052288,
+            0.6161616161616161
+          ],
+          "content": "on $S_2(\\Gamma_Q)^2$. Similarly the ring generated by the Hecke operators $T_l$ and $\\langle l \\rangle$ for $l \\nmid pN_Q R$, by $U_q$ for $q \\in Q \\cup \\{R\\}$ and by $U_p$ if $p|N_Q$ on $S_2(\\Gamma)^{2^{\\#Q+1}}$ is isomorphic to $\\mathbb{T}(\\Gamma)[u_q : q \\in Q \\cup \\{R\\}] / (u_q^2 - T_q u_q + q \\langle q \\rangle : q \\in Q \\cup \\{R\\})$. Tensoring with $\\mathcal{O}$ and localising at the appropriate maximal ideal we get the desired isomorphism. We have to use the fact that $u_R^2 - T_R u_R + R \\langle R \\rangle$ has two roots in $\\mathbb{T}_Q$ with distinct reductions modulo the maximal ideal and the similar facts over $\\mathbb{T}$ for $u_q^2 - T_q u_q + q \\langle q \\rangle$ with $q \\in Q \\cup \\{R\\}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.61489898989899,
+            0.8300653594771242,
+            0.7171717171717171
+          ],
+          "content": "Because $\\overline{\\rho}$ is irreducible we see that $H^{1}(Y_{Q}^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q}^{\\prime}} = H^{1}(X_{Q}^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q}^{\\prime}}$ and that $H^{1}(Y_{Q - }^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q - }^{\\prime}} = H^{1}(X_{Q - }^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q - }^{\\prime}}$. By corollary 1 of theorem 2.1 of [W2] we see that $H^{1}(X_{Q}^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q}^{\\prime}}^{\\pm}$ are free rank one $\\mathbb{T}_Q^\\prime$-modules and that $H^{1}(X_{Q - }^{\\prime},\\mathcal{O})_{\\mathfrak{m}_{Q - }^{\\prime}}^{\\pm}$ are free rank one $\\mathbb{T}_{Q - }^{\\prime}$-modules. Hence it will suffice to prove the following proposition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.7285353535353535,
+            0.8316993464052288,
+            0.7664141414141414
+          ],
+          "content": "Proposition 1 $H^{1}(Y_{Q}^{\\prime},\\mathcal{O})^{-}$ is a free $\\mathcal{O}[\\Delta_Q]$-module, with $\\mathcal{O}[\\Delta_Q]$-rank equal to the $\\mathcal{O}$-rank of $H^{1}(Y_{Q-}^{\\prime},\\mathcal{O})^{-}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7777777777777778,
+            0.8316993464052288,
+            0.8724747474747475
+          ],
+          "content": "Because $H^{1}(Y_{Q-}^{\\prime}, K) = H^{1}(Y_{Q}^{\\prime}, K)^{\\Delta_{Q}}$ we need only show that $H^{1}(Y_{Q}^{\\prime}, \\mathcal{O})^{-}$ is a free $\\mathcal{O}[\\Delta_{Q}]$-module. Because $R \\geq 5$, $\\Gamma_{Q-}^{\\prime}$ acts freely on the upper half complex plane and so may be identified with the fundamental group of $Y_{Q-}^{\\prime}$. In particular we see that $\\Gamma_{Q-}^{\\prime}$ is a free group. Similarly $\\Gamma_{Q}^{\\prime}$ acts freely on the upper half complex plane and we get identifications"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3137254901960784,
+            0.8813131313131313,
+            0.6911764705882353,
+            0.9040404040404041
+          ],
+          "content": "H ^ {1} (Y _ {Q} ^ {\\prime}, \\mathcal {O}) \\cong H ^ {1} (\\Gamma_ {Q} ^ {\\prime}, \\mathcal {O}) \\cong H ^ {1} (\\Gamma_ {Q -} ^ {\\prime}, \\mathcal {O} [ \\Delta_ {Q} ]),",
+          "image_source": "images/page_6_equation_9.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49836601307189543,
+            0.922979797979798,
+            0.5098039215686274,
+            0.9368686868686869
+          ],
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.17297979797979798,
+            0.8300653594771242,
+            0.27904040404040403
+          ],
+          "content": "the latter arising from Shapiro's lemma. Under these identifications complex conjugation goes over to the involution induced by conjugation by $\\xi = \\left( \\begin{array}{cc} -1 & 0\\\\ 0 & 1 \\end{array} \\right)$ and trivial action on the coefficients. (This follows because the action of $c$ on $Y_{Q}^{\\prime}$ is induced by the map $z\\mapsto -\\overline{z}$ of the upper half complex plane to itself.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.27904040404040403,
+            0.8284313725490197,
+            0.3181818181818182
+          ],
+          "content": "Because $\\Gamma_{Q-}^{\\prime}$ is a free group, the cocycles $Z^{1}(\\Gamma_{Q-}^{\\prime},\\mathcal{O}[\\Delta_{Q}])$ are a free $\\mathcal{O}[\\Delta_Q]$-module. (If $\\gamma_1,\\ldots,\\gamma_a$ are free generators of $\\Gamma_{Q-}^{\\prime}$ then we have an isomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33169934640522875,
+            0.33080808080808083,
+            0.6764705882352942,
+            0.369949494949495
+          ],
+          "content": "\\begin{array}{r c l} Z ^ {1} (\\Gamma_ {Q -} ^ {\\prime}, \\mathcal {O} [ \\Delta_ {Q} ]) & \\stackrel {{\\sim}} {{\\to}} & \\mathcal {O} [ \\Delta_ {Q} ] ^ {a} \\\\ \\psi & \\mapsto & (\\psi (\\gamma_ {1}),..., \\psi (\\gamma_ {a})).) \\end{array}",
+          "image_source": "images/page_7_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.38257575757575757,
+            0.8284313725490197,
+            0.43686868686868685
+          ],
+          "content": "On the other hand $\\xi$ acts trivially on $\\Delta_Q$ and so the coboundaries are contained in $Z^{1}(\\Gamma_{Q-}^{\\prime},\\mathcal{O}[\\Delta_{Q}])^{+}$. Thus $H^{1}(Y_{Q}^{\\prime},\\mathcal{O})^{-}\\cong Z^{1}(\\Gamma_{Q-}^{\\prime},\\mathcal{O}[\\Delta_{Q}])^{-}$ is a free $\\mathcal{O}[\\Delta_Q]$-module, as desired."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.43686868686868685,
+            0.8284313725490197,
+            0.4734848484848485
+          ],
+          "content": "Before leaving this section we remark the following corollaries of theorem 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.48737373737373735,
+            0.826797385620915,
+            0.5303030303030303
+          ],
+          "content": "Corollary 1 If $q \\notin Q$ then $\\mathbb{T}_{Q \\cup \\{q\\}} / (\\delta_q - 1) \\xrightarrow{\\sim} \\mathbb{T}_Q$. Moreover $(\\delta_q - 1)\\mathbb{T}_{Q \\cup \\{q\\}}$ and $(1 + \\delta_q + \\ldots + \\delta_q^{\\# \\Delta_q - 1})\\mathbb{T}_{Q \\cup \\{q\\}}$ are annihilators of each other in $\\mathbb{T}_{Q \\cup \\{q\\}}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5429292929292929,
+            0.8316993464052288,
+            0.5782828282828283
+          ],
+          "content": "Corollary 2 If for some $Q$ the ring $\\mathbb{T}_Q$ is a complete intersection then so is $\\mathbb{T}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5946969696969697,
+            0.8316993464052288,
+            0.7234848484848485
+          ],
+          "content": "The proof is by showing that under the assumption that  $T_{Q\\cup\\{q\\}}$  is a complete intersection, so is  $T_{Q}$ . The argument in section 2 of [K1] shows that if a complete local noetherian ring S is a complete intersection, if  $f \\in S$  and if  $\\operatorname{Hom}_{S}(S/(f), S) = \\operatorname{Hom}_{S}(S/(f), \\operatorname{Ann}_{S}(f))$  is a free  $S/(f)$  module then  $S/(f)$  is a complete intersection. We apply this result with  $S = T_{Q\\cup\\{q\\}}$  and  $f = \\delta_{q} - 1$ . The final condition is met because the annihilator of  $\\delta_{q} - 1$  in  $T_{Q\\cup\\{q\\}}$  is a free rank one  $T_{Q}$  module by the last corollary."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.7373737373737373,
+            0.4035947712418301,
+            0.7550505050505051
+          ],
+          "content": "Corollary 3 $\\eta_Q = \\eta \\# \\Delta_Q$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7689393939393939,
+            0.8316993464052288,
+            0.9040404040404041
+          ],
+          "content": "We remind the reader that $\\eta_{Q}$ is defined at the end of section one and that $\\eta = \\eta_{\\emptyset}$. The proof of the corollary is by showing that $\\eta_{Q\\cup \\{q\\}} = \\eta_Q\\# \\Delta_q$ if $q\\notin Q$. Write $Q^{\\prime} = Q\\cup \\{q\\}$ and let $\\theta$ denote the natural surjection $\\mathbb{T}_{Q'}\\twoheadrightarrow \\mathbb{T}_Q$. It suffices to prove that in $\\mathbb{T}_{Q'}$ we have the equation Ann $\\wp_{Q'} = (1 + \\delta_q + \\ldots +\\delta_q^{\\#\\Delta_q - 1})\\theta^{-1}(\\mathrm{Ann}_{\\mathbb{T}_Q}(\\wp_Q))$. However $\\theta^{-1}(\\mathrm{Ann}_{\\mathbb{T}_Q}(\\wp_Q))$ is just the set of elements $t$ of $\\mathbb{T}_{Q'}$ for which $t\\wp_{Q'}\\subset (\\delta_q - 1)\\mathbb{T}_{Q'}$. The inclusion Ann $\\wp_{Q'}\\supset (1 + \\delta_q + \\ldots +\\delta_q^{\\#\\Delta_q - 1})\\theta^{-1}(\\mathrm{Ann}_{\\mathbb{T}_Q}(\\wp_Q))$ is now clear. Conversely if $t\\in \\mathrm{Ann}\\wp_{Q'}$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49673202614379086,
+            0.9242424242424242,
+            0.5098039215686274,
+            0.9381313131313131
+          ],
+          "content": "8"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.17045454545454544,
+            0.8316993464052288,
+            0.22727272727272727
+          ],
+          "content": "then $t$ annihilates $\\ker \\theta$ and hence $t = (1 + \\delta_q + \\ldots + \\delta_q^{\\#^{\\Delta_q - 1}})s$. Then we see that $s_{\\wp_{Q'}} \\subset (\\delta_q - 1)\\mathbb{T}_{Q'}$, i.e. that $s \\in \\theta^{-1}(\\mathrm{Ann}_{\\mathbb{T}_Q}(\\wp_Q))$. The other inclusion now follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.24116161616161616,
+            0.630718954248366,
+            0.26136363636363635
+          ],
+          "content": "Corollary 4 $\\# (\\mathfrak{a}_Q\\mathbb{T}_Q / \\wp_Q\\mathfrak{a}_Q\\mathbb{T}_Q)\\# (\\mathcal{O} / \\eta) = \\# (\\mathcal{O} / \\eta_Q)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.273989898989899,
+            0.8316993464052288,
+            0.34974747474747475
+          ],
+          "content": "To prove this corollary note that $\\mathfrak{a}_Q / \\mathfrak{a}_Q^2 \\cong \\bigoplus_{q \\in Q} \\mathcal{O} / \\# \\Delta_q$. Thus it follows from theorem 2 that $\\mathfrak{a}_Q \\mathbb{T}_Q / \\mathfrak{a}_Q^2 \\mathbb{T}_Q \\cong \\mathbb{T}_Q \\otimes_{\\mathcal{O}[\\Delta_Q]} \\mathfrak{a}_Q / \\mathfrak{a}_Q^2 \\cong \\bigoplus_{q \\in Q} \\mathbb{T} / \\# \\Delta_q$ and so we deduce that $\\mathfrak{a}_Q \\mathbb{T}_Q / \\wp_Q \\mathfrak{a}_Q \\mathbb{T}_Q \\cong \\bigoplus_{q \\in Q} \\mathcal{O} / \\# \\Delta_q$. This corollary now follows from the last one."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.37752525252525254,
+            0.42483660130718953,
+            0.40025252525252525
+          ],
+          "level": 2,
+          "content": "3 Some Algebra"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.4154040404040404,
+            0.8316993464052288,
+            0.5429292929292929
+          ],
+          "content": "In this section we shall establish certain criteria for rings to be complete intersections. We shall rely on the numerical criterion established in the appendix of  $[W2]$ . In that appendix there is a Gorenstein hypothesis which can be checked in the cases where we will apply the results of this section. However in order to state the results of this section in somewhat greater generality we shall reference the paper  $[L]$ , where the Gorenstein hypothesis in the appendix of  $[W2]$  is removed, rather than the appendix of  $[W2]$  directly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5429292929292929,
+            0.8300653594771242,
+            0.6338383838383839
+          ],
+          "content": "Fix a finite flat reduced local O algebra T with a section  $\\pi: T \\twoheadrightarrow O$ . We will consider complete local noetherian O algebras R together with maps  $R \\twoheadrightarrow T$ . We will denote by  $J_{R}$  the kernel of the map  $R \\twoheadrightarrow T$ , by  $\\pi_{R}$  the induced map  $R \\twoheadrightarrow O$ , by  $\\wp_{R}$  the kernel of  $\\pi_{R}$  and by  $\\eta_{R}$  the image under  $\\pi_{R}$  of the annihilator in R of  $\\wp_{R}$ . We will let  $\\Psi_{R} = (\\wp_{R}^{2} \\cap J_{R}) / \\wp_{R} J_{R}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20261437908496732,
+            0.6338383838383839,
+            0.826797385620915,
+            0.6704545454545454
+          ],
+          "content": "If $S \\twoheadrightarrow R \\twoheadrightarrow T$ then $\\wp_S^2 \\twoheadrightarrow \\wp_R^2$, $J_S$ is the pre-image of $J_R$ and so $\\Psi_S \\twoheadrightarrow \\Psi_R$. We have an exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28921568627450983,
+            0.6843434343434344,
+            0.7156862745098039,
+            0.7045454545454546
+          ],
+          "content": "(0) \\to \\Psi_ {R} \\to J _ {R} / \\wp_ {R} J _ {R} \\to \\wp_ {R} / \\wp_ {R} ^ {2} \\to \\wp_ {T} / \\wp_ {T} ^ {2} \\to (0).",
+          "image_source": "images/page_8_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.7171717171717171,
+            0.5196078431372549,
+            0.7348484848484849
+          ],
+          "content": "From this we deduce the following facts."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7462121212121212,
+            0.8284313725490197,
+            0.803030303030303
+          ],
+          "content": "\\- $\\# \\Psi_R < \\infty$. (To see this it suffices to show that $(\\Psi_R)_{\\wp_R} = (0)$. However as $T$ is reduced $(J_R)_{\\wp_R} = (\\wp_R)_{\\wp_R}$ and so the map $(J_R / \\wp_R J_R)_{\\wp_R} \\to (\\wp_R / \\wp_R^2)_{\\wp_R}$ is an isomorphism. The result follows.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.8131313131313131,
+            0.5849673202614379,
+            0.8333333333333334
+          ],
+          "content": "•  $\\#\\Psi_{R}\\#(\\wp_{R}/\\wp_{R}^{2})=\\#(\\wp_{T}/\\wp_{T}^{2})\\#(J_{R}/\\wp_{R}J_{R}).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.8472222222222222,
+            0.8316993464052288,
+            0.9027777777777778
+          ],
+          "content": "Lemma 2 Suppose we have the inequalities $\\# (\\wp_T / \\wp_T^2)\\leq \\# (\\mathcal{O} / \\eta_T)\\# \\Psi_R$ and $\\# (\\mathcal{O} / \\eta_T)\\# (J_R / \\wp_RJ_R)\\leq \\# (\\mathcal{O} / \\eta_R) <   \\infty$ and suppose $R$ is a finite flat $\\mathcal{O}$-algebra. Then $R$ is a complete intersection."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.49673202614379086,
+            0.9242424242424242,
+            0.5098039215686274,
+            0.9368686868686869
+          ],
+          "content": "9"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.2042483660130719,
+            0.17297979797979798,
+            0.6503267973856209,
+            0.19065656565656566
+          ],
+          "content": "To show this first note that we have the inequalities"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27941176470588236,
+            0.20202020202020202,
+            0.7271241830065359,
+            0.2588383838383838
+          ],
+          "content": "\\begin{array}{r c l} \\# (\\wp_ {R} / \\wp_ {R} ^ {2}) & = & \\# (\\wp_ {T} / \\wp_ {T} ^ {2}) \\# (J _ {R} / \\wp_ {R} J _ {R}) / \\# \\Psi_ {R} \\\\ & \\leq & \\# (\\wp_ {T} / \\wp_ {T} ^ {2}) \\# (\\mathcal {O} / \\eta_ {R}) / (\\# \\Psi_ {R} \\# (\\mathcal {O} / \\eta_ {T})) \\\\ & \\leq & \\# (\\mathcal {O} / \\eta_ {R}). \\end{array}",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.2727272727272727,
+            0.803921568627451,
+            0.2904040404040404
+          ],
+          "content": "Now applying the criterion of [L] we see that $R$ is a complete intersection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.3055555555555556,
+            0.47875816993464054,
+            0.32323232323232326
+          ],
+          "content": "Lemma 3 We have the inequality:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.3371212121212121,
+            0.6535947712418301,
+            0.3560606060606061
+          ],
+          "content": "\\# (\\mathcal {O} / \\eta_ {R}) \\leq \\# (J _ {R} / \\wp_ {R} J _ {R}) \\# (\\mathcal {O} / \\eta_ {T}).",
+          "image_source": "images/page_9_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.369949494949495,
+            0.8284313725490197,
+            0.4078282828282828
+          ],
+          "content": "As  $\\operatorname{Fitt}_{R}(J_{R})\\subset\\operatorname{Ann}_{R}(J_{R})$  we see that  $\\operatorname{Fitt}_{\\mathcal{O}}(J_{R}/\\wp_{R}J_{R})\\subset\\pi_{R}\\operatorname{Ann}_{R}(J_{R})$ . On the other hand it is easy to see that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31862745098039214,
+            0.4217171717171717,
+            0.6862745098039216,
+            0.44065656565656564
+          ],
+          "content": "\\operatorname{Ann} _ {R} \\left(\\wp_ {R}\\right) \\supset \\{s \\in R | s \\wp_ {R} \\subset J _ {R} \\} \\operatorname{Ann} _ {R} \\left(J _ {R}\\right).",
+          "image_source": "images/page_9_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.45454545454545453,
+            0.39052287581699346,
+            0.4722222222222222
+          ],
+          "content": "Applying $\\pi_R$ we see that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3937908496732026,
+            0.4861111111111111,
+            0.6127450980392157,
+            0.5063131313131313
+          ],
+          "content": "\\eta_ {R} \\supset \\eta_ {T} \\mathrm{Fitt} _ {\\mathcal {O}} (J _ {R} / \\wp_ {R} J _ {R}),",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5189393939393939,
+            0.37745098039215685,
+            0.5366161616161617
+          ],
+          "content": "and the lemma follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5517676767676768,
+            0.8316993464052288,
+            0.6262626262626263
+          ],
+          "content": "Lemma 4 If R is a complete intersection which is finite and flat over O and  $\\eta_{R} \\neq (0)$  then  $\\#(\\wp_{T}/\\wp_{T}^{2}) \\leq \\#(\\mathcal{O}/\\eta_{T})\\# \\Psi_{R}$ . If R is a power series ring the same result is true without the assumptions that it is finite over O and that  $\\eta_{R} \\neq (0)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.6401515151515151,
+            0.8284313725490197,
+            0.6767676767676768
+          ],
+          "content": "For the first part we see that, as $R$ is a complete intersection, $\\# (\\wp_R / \\wp_R^2) = \\# (\\mathcal{O} / \\eta_R)$ (see [L]). Thus we see that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1895424836601307,
+            0.6906565656565656,
+            0.815359477124183,
+            0.7108585858585859
+          ],
+          "content": "\\# \\Psi_ {R} \\# (\\mathcal {O} / \\eta_ {R}) = \\# (\\wp_ {T} / \\wp_ {T} ^ {2}) \\# (J _ {R} / \\wp_ {R} J _ {R}) \\geq \\# (\\wp_ {T} / \\wp_ {T} ^ {2}) \\# (\\mathcal {O} / \\eta_ {R}) / \\# (\\mathcal {O} / \\eta_ {T}).",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7234848484848485,
+            0.8300653594771242,
+            0.8143939393939394
+          ],
+          "content": "The first result follows. For the second result note that we can factor $R \\twoheadrightarrow T$ as $R \\twoheadrightarrow R' \\twoheadrightarrow T$ with $R'$ a complete intersection which is finite and flat over $\\mathcal{O}$ and for which $\\wp_{R'} / \\wp_{R'}^2 \\stackrel{\\sim}{\\to} \\wp_T / \\wp_T^2$ (by the proof of lemma 9 of [L]). Then $\\# \\mathcal{O} / \\eta_{R'} = \\# \\wp_{R'} / \\wp_{R'}^2 < \\infty$ and so $\\# \\wp_T / \\wp_T^2 \\leq \\# (\\mathcal{O} / \\eta_T) \\# \\Psi_{R'}$. However $\\Psi_R \\twoheadrightarrow \\Psi_{R'}$, so the result follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.8143939393939394,
+            0.8300653594771242,
+            0.8535353535353535
+          ],
+          "content": "We now return to the notation of the first section. We will let $\\Psi_{Q}$ denote $\\Psi_{\\mathbb{T}_Q}$ and $J_{Q}$ denote $J_{\\mathbb{T}_Q}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.86489898989899,
+            0.8251633986928104,
+            0.9027777777777778
+          ],
+          "content": "Proposition 2 Suppose that for a series of sets $Q_{n}$ we have ideals $I_{n}$ in $\\mathbb{T}_{Q_n}$ with the following properties."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5163398692810458,
+            0.9368686868686869
+          ],
+          "content": "10"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.1717171717171717,
+            0.7140522875816994,
+            0.1919191919191919
+          ],
+          "content": "1. $I_{n}$ is contained in $\\mathfrak{m}_{\\mathbb{T}_{Q_n}}^2$ and $\\mathbb{T}_{Q_n} / I_n$ has finite cardinality."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.2032828282828283,
+            0.4918300653594771,
+            0.22348484848484848
+          ],
+          "content": "2. $I_{n + 1}\\mathbb{T}\\subset I_n\\mathbb{T}$ and $\\bigcap_{n}I_{n}\\mathbb{T} = (0)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.23484848484848486,
+            0.8316993464052288,
+            0.2702020202020202
+          ],
+          "content": "3. There is a surjective map of $\\mathcal{O}$-algebras $\\mathbb{T}_{Q_{n+1}} / I_{n+1} \\twoheadrightarrow \\mathbb{T}_{Q_n} / I_n$ such that the diagram"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4150326797385621,
+            0.2689393939393939,
+            0.6388888888888888,
+            0.32575757575757575
+          ],
+          "content": "\\begin{array}{c c c} \\mathbb {T} _ {Q _ {n + 1}} / I _ {n + 1} & \\longrightarrow & \\mathbb {T} _ {Q _ {n}} / I _ {n} \\\\ \\downarrow & & \\downarrow \\\\ \\mathbb {T} / I _ {n + 1} \\mathbb {T} & \\longrightarrow & \\mathbb {T} / I _ {n} \\mathbb {T} \\end{array}",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.3333333333333333,
+            0.8316993464052288,
+            0.369949494949495
+          ],
+          "content": "commutes. (Note that this map is not assumed to take a given Hecke operator to itself.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.38257575757575757,
+            0.5277777777777778,
+            0.4015151515151515
+          ],
+          "content": "4.  $\\lim_{\\leftarrow} T_{Q_{n}} / I_{n}$  is a power series ring."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.4128787878787879,
+            0.8300653594771242,
+            0.45075757575757575
+          ],
+          "content": "Then for $n$ sufficiently large $\\mathbb{T}_{Q_n}$ is a complete intersection, and hence $\\mathbb{T}$ is a complete intersection (by corollary 2 of theorem 2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.4659090909090909,
+            0.8300653594771242,
+            0.5391414141414141
+          ],
+          "content": "Let $P$ denote $\\lim_{\\leftarrow}\\mathbb{T}_{Q_n}/I_n$. We get a natural map $P\\to\\mathbb{T}$ and can choose maps $P\\to\\mathbb{T}_{Q_n}$ compatible with the maps $\\mathbb{T}_{Q_n}\\to\\mathbb{T}$ and $\\mathbb{T}_{Q_n}\\to\\mathbb{T}_{Q_n}/I_n$. Because $I_n\\subset\\mathfrak{m}_{\\mathbb{T}_{Q_n}}^2$ we see that the map $P\\to\\mathbb{T}_{Q_n}$ is surjective. We have a sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25326797385620914,
+            0.553030303030303,
+            0.7532679738562091,
+            0.5744949494949495
+          ],
+          "content": "\\Psi_ {P} \\longrightarrow \\Psi_ {Q _ {n}} \\longrightarrow ((J _ {Q _ {n}} + I _ {n}) \\cap (\\wp_ {Q _ {n}} ^ {2} + I _ {n})) / (J _ {Q _ {n}} \\wp_ {Q _ {n}} + I _ {n}).",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5858585858585859,
+            0.8300653594771242,
+            0.6994949494949495
+          ],
+          "content": "(Note that although the maps $P \\to \\mathbb{T}_{Q_n}$ and $\\Psi_P \\to \\Psi_{Q_n}$ are not compatible as $n$ varies the composite map above is.) Moreover $\\Psi_P = \\lim_{\\leftarrow} ((J_{Q_n} + I_n) \\cap (\\wp_{Q_n}^2 + I_n)) / (J_{Q_n} \\wp_{Q_n} + I_n)$ (using the fact that $\\mathbb{T}_{Q_n} / I_n$ is finite for all $n$) and so as $\\Psi_P$ is finite we have that the map $\\Psi_P \\to ((J_{Q_n} + I_n) \\cap (\\wp_{Q_n}^2 + I_n)) / (J_{Q_n} \\wp_{Q_n} + I_n)$ is injective for $n$ sufficiently large. Thus for $n$ sufficiently large $\\Psi_P \\xrightarrow{\\sim} \\Psi_{Q_n}$. We deduce the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32189542483660133,
+            0.7133838383838383,
+            0.684640522875817,
+            0.7348484848484849
+          ],
+          "content": "\\# (\\wp / \\wp^ {2}) \\leq \\# (\\mathcal {O} / \\eta) \\# \\Psi_ {P} = \\# (\\mathcal {O} / \\eta) \\# \\Psi_ {Q _ {n}},",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7474747474747475,
+            0.8284313725490197,
+            0.7853535353535354
+          ],
+          "content": "where the first inequality follows from lemma 4. The proposition follows on applying corollary 4 of theorem 2 and lemma 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.8005050505050505,
+            0.8300653594771242,
+            0.8371212121212122
+          ],
+          "content": "Corollary 1 Suppose that we have an integer $r$ and a series of sets $Q_{m}$ with the following properties:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.8497474747474747,
+            0.4820261437908497,
+            0.8686868686868687
+          ],
+          "content": "1. if  $q \\in Q_{m}$  then  $q \\equiv 1 \\mod p^{m}$ ;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.8787878787878788,
+            0.7222222222222222,
+            0.898989898989899
+          ],
+          "content": "2. $\\overline{\\rho}$ is unramified at $q$ and $\\overline{\\rho} (\\mathrm{Frob}_q)$ has distinct eigenvalues;"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "11"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.17297979797979798,
+            0.31699346405228757,
+            0.19065656565656566
+          ],
+          "content": "3. $\\# Q_{m} = r;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1977124183006536,
+            0.2032828282828283,
+            0.6748366013071896,
+            0.2222222222222222
+          ],
+          "content": "4. $\\mathbb{T}_{Q_m}$ can be generated as an $\\mathcal{O}$-algebra by $r$ elements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1781045751633987,
+            0.23484848484848486,
+            0.47058823529411764,
+            0.25126262626262624
+          ],
+          "content": "Then $\\mathbb{T}$ is a complete intersection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2689393939393939,
+            0.8316993464052288,
+            0.3055555555555556
+          ],
+          "content": "To prove this corollary it is useful to have the following definition. By a level n structure we shall mean a quadruple  $B = (A, \\alpha, \\beta, \\gamma)$ , where"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.3181818181818182,
+            0.3872549019607843,
+            0.33585858585858586
+          ],
+          "content": "\\- $A$ is an $\\mathcal{O}$-algebra,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.3472222222222222,
+            0.4199346405228758,
+            0.3661616161616162
+          ],
+          "content": "•  $\\alpha : \\mathcal{O}[[T_{1}, ..., T_{r}]] \\twoheadrightarrow A,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.37752525252525254,
+            0.8300653594771242,
+            0.41792929292929293
+          ],
+          "content": "\\- $\\beta : \\mathcal{O}[[S_1, ..., S_r]] / (p^n, (S_1 + 1)^{p^n} - 1, ..., (S_r + 1)^{p^n} - 1) \\to A$ makes $A$ a free module over $\\mathcal{O}[[S_1, ..., S_r]] / (p^n, (S_1 + 1)^{p^n} - 1, ..., (S_r + 1)^{p^n} - 1)$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.42676767676767674,
+            0.4803921568627451,
+            0.44696969696969696
+          ],
+          "content": "\\- and $\\gamma : A / (S_1, \\dots, S_r) \\xrightarrow{\\sim} \\mathbb{T} / p^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.4583333333333333,
+            0.8284313725490197,
+            0.49747474747474746
+          ],
+          "content": "If $B$ is a structure of level $n$ and $n' \\leq n$ then it induces a structure of level $n'$ by reducing $\\text{mod}(p^{n'}, (S_1 + 1)^{p^{n'}} - 1, \\ldots, (S_r + 1)^{p^{n'}} - 1)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.49747474747474746,
+            0.8316993464052288,
+            0.5883838383838383
+          ],
+          "content": "Let $A_{m} = \\mathbb{T}_{Q_{m}} / (p^{m},\\delta_{q}^{p^{m}} - 1|q\\in Q_{m})$. This extends to a level $m$ structure that we will denote $B_{m}$. For $n\\leq m$ we will let $B_{m,n}$ denote the level $n$ structure induced by $B_{m}$. There are only finitely many isomorphism classes of structures of level $n$ and so we may choose recursively integers $m(n)$ with the following two properties."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20098039215686275,
+            0.601010101010101,
+            0.434640522875817,
+            0.6199494949494949
+          ],
+          "content": "1. B _ {m (n), n - 1} \\cong B _ {m (n - 1), n - 1}.",
+          "image_source": "images/page_11_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.6313131313131313,
+            0.6143790849673203,
+            0.6502525252525253
+          ],
+          "content": "2. $B_{m(n),n} \\cong B_{m,n}$ for infinitely many integers $m$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6628787878787878,
+            0.8316993464052288,
+            0.773989898989899
+          ],
+          "content": "Let $I_n$ denote the kernel of the map from $\\mathbb{T}_{Q_{m(n)}}$ to the ring underlying $B_{m(n),n}$. We claim that the pairs $(Q_{m(n)}, I_n)$ for $n \\geq 2$ satisfy the requirements of proposition 2 (we use $n \\geq 2$ to ensure that $I_n \\subset \\mathfrak{m}_{Q_n}^2$). We need only check that $\\lim_{\\leftarrow} B_{m(n),n}$ is a power series ring. On the one hand it is a finite free $\\mathcal{O}[[S_1, ..., S_r]]$-module, and so has Krull dimension $r + 1$. On the other hand it is a quotient of $\\mathcal{O}[[T_1, ..., T_r]]$ and so must in fact equal $\\mathcal{O}[[T_1, ..., T_r]]$."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.7992424242424242,
+            0.49673202614379086,
+            0.8232323232323232
+          ],
+          "level": 2,
+          "content": "4 Galois Cohomology"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.8371212121212122,
+            0.8300653594771242,
+            0.8939393939393939
+          ],
+          "content": "It remains to find a sequence of sets  $Q_{m}$  with the properties of corollary 1 of proposition 2. We must recall some definitions in Galois cohomology. We define  $H_{f}^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho})$ ."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5163398692810458,
+            0.9368686868686869
+          ],
+          "content": "12"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.1691919191919192,
+            0.8284313725490197,
+            0.21085858585858586
+          ],
+          "content": "1. If $l \\neq p$ then $H_{f}^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho}) = H^{1}(\\mathbb{F}_{l},(\\mathrm{ad}^{0}\\overline{\\rho})^{I_{l}}) = \\ker (H^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho}) \\to H^{1}(I_{l},\\mathrm{ad}^{0}\\overline{\\rho}))$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.22095959595959597,
+            0.8316993464052288,
+            0.30176767676767674
+          ],
+          "content": "2. If $\\overline{\\rho}|_{G_p}$ is flat and $\\det \\overline{\\rho}|_{I_p} = \\epsilon$ then we will let $H_f^1 (\\mathbb{Q}_p,\\mathrm{ad}^0\\overline{\\rho})$ denote those elements in $H^{1}(\\mathbb{Q}_{p},\\mathrm{ad}^{0}\\overline{\\rho})\\subset \\mathrm{Ext}_{k[G_p]}^1 (V_{\\overline{\\rho}},V_{\\overline{\\rho}})$ which correspond to extensions which can be realised as the $\\overline{\\mathbb{Q}_p}$-points on the generic fibre of a finite flat group scheme over $\\mathbb{Z}_p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.31186868686868685,
+            0.8300653594771242,
+            0.3888888888888889
+          ],
+          "content": "3. If $\\overline{\\rho}|_{G_p} \\sim \\left( \\begin{array}{cc} \\psi_1 & * \\\\ 0 & \\psi_2 \\end{array} \\right)$ with $\\psi_1|_{I_p} \\neq \\epsilon$ then we let $H_f^1(\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho})$ denote the kernel of $H^1(\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho}) \\to H^1(I_p, (\\mathrm{ad}^0\\overline{\\rho}) / \\mathrm{Hom}_k(V_{\\overline{\\rho}}/F, F))$, where $F$ denotes the line in $V_{\\overline{\\rho}}$ where $G_p$ acts by the character $\\psi_1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.398989898989899,
+            0.8300653594771242,
+            0.4962121212121212
+          ],
+          "content": "4. Finally if $\\overline{\\rho}|_{G_p} \\sim \\left( \\begin{array}{cc} \\psi_1 & * \\\\ 0 & \\psi_2 \\end{array} \\right)$ with $\\psi_1|_{I_p} = \\epsilon$ but $\\overline{\\rho}$ is not flat then we will let $H_f^1 (\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho})$ denote the kernel of the map $H^1 (\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho}) \\to H^1 (\\mathbb{Q}_p, (\\mathrm{ad}^0\\overline{\\rho}) / \\mathrm{Hom}_k(V_\\overline{\\rho} / F,F))$, where $F$ denotes the line in $V_{\\overline{\\rho}}$ where $G_p$ acts by the character $\\psi_1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.5050505050505051,
+            0.630718954248366,
+            0.5252525252525253
+          ],
+          "content": "We define $H_{Q}^{1}(\\mathbb{Q},\\mathrm{ad}^{0}\\overline{\\rho})$ to be the inverse image under"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35947712418300654,
+            0.5404040404040404,
+            0.6454248366013072,
+            0.5795454545454546
+          ],
+          "content": "H ^ {1} (\\mathbb {Q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}}) \\longrightarrow \\prod_ {l \\not \\in Q} H ^ {1} (\\mathbb {Q} _ {l}, \\mathrm{ad} ^ {0} \\overline {{\\rho}})",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.5921717171717171,
+            0.35947712418300654,
+            0.61489898989899
+          ],
+          "content": "of $\\prod_{l\\notin Q}H_{f}^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho})$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6136363636363636,
+            0.8300653594771242,
+            0.672979797979798
+          ],
+          "content": "We also define $H_{f}^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho}(1))$ to be the annihilator of $H_{f}^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho})$ under the pairing of Tate local duality $H^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho})\\times H^{1}(\\mathbb{Q}_{l},\\mathrm{ad}^{0}\\overline{\\rho}(1))\\to k$. We then define $H_{Q^{*}}^{1}(\\mathbb{Q},\\mathrm{ad}^{0}\\overline{\\rho}(1))$ to be the inverse image under"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3366013071895425,
+            0.6868686868686869,
+            0.6699346405228758,
+            0.7247474747474747
+          ],
+          "content": "H ^ {1} (\\mathbb {Q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}} (1)) \\longrightarrow \\prod_ {l \\not \\in Q} H ^ {1} (\\mathbb {Q} _ {l}, \\mathrm{ad} ^ {0} \\overline {{\\rho}} (1))",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.73989898989899,
+            0.38562091503267976,
+            0.7613636363636364
+          ],
+          "content": "of $\\prod_{l\\notin Q}H_f^1 (\\mathbb{Q}_l,\\mathrm{ad}^0\\overline{\\rho} (1)).$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.7752525252525253,
+            0.6879084967320261,
+            0.797979797979798
+          ],
+          "content": "Lemma 5 $\\dim_k H_Q^1 (\\mathbb{Q},\\mathrm{ad}^0\\overline{\\rho})\\leq \\dim_k H_{Q^*}^1 (\\mathbb{Q},\\mathrm{ad}^0\\overline{\\rho}(1)) + \\# Q$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.8118686868686869,
+            0.8300653594771242,
+            0.8699494949494949
+          ],
+          "content": "To see this we apply proposition 1.6 of [W2]. For $l \\notin Q$ and $l \\neq p$ we see that $h_l = 1$ because the index of $H_f^1(\\mathbb{Q}_l, \\mathrm{ad}^0\\overline{\\rho})$ in $H^1(\\mathbb{Q}_l, \\mathrm{ad}^0\\overline{\\rho})$ is equal to $\\# H^1(I_l, \\mathrm{ad}^0\\overline{\\rho})^{G_{\\mathbb{F}_l}}$ which in turn equals"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24836601307189543,
+            0.8800505050505051,
+            0.7565359477124183,
+            0.9027777777777778
+          ],
+          "content": "\\# ((\\mathrm{ad} ^ {0} \\overline {{\\rho}} (- 1)) _ {I _ {l}}) ^ {G _ {\\mathbb {F} _ {l}}} = \\# ((\\mathrm{ad} ^ {0} \\overline {{\\rho}} (1)) ^ {I _ {l}}) _ {G _ {\\mathbb {F} _ {l}}} = \\# H ^ {0} (\\mathbb {Q} _ {l}, \\mathrm{ad} ^ {0} \\overline {{\\rho}} (1)).",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "13"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.1717171717171717,
+            0.8300653594771242,
+            0.2638888888888889
+          ],
+          "content": "For $q \\in Q$ we have that $h_q = \\# H^0(\\mathbb{Q}_q, \\mathrm{ad}^0\\overline{\\rho}(1)) = \\# k$. It remains to check that $h_p h_\\infty \\leq 1$. In the case that $\\overline{\\rho}|_{G_p}$ is not flat or $\\det \\overline{\\rho}|_{I_p} \\neq \\epsilon$ this is proved in parts (iii) and (iv) of proposition 1.9 of [W2]. Thus suppose that $\\overline{\\rho}|_{G_p}$ is flat and $\\det \\overline{\\rho}|_{I_p} = \\epsilon$. We must show that $\\dim_k H_f^1(\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho}) \\leq 1 + \\dim_k H^0(\\mathbb{Q}_p, \\mathrm{ad}^0\\overline{\\rho}) (= 1 \\text{ if } \\overline{\\rho}|_{G_p} \\text{ is indecomposable and } = 2 \\text{ otherwise})$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2638888888888889,
+            0.8284313725490197,
+            0.3181818181818182
+          ],
+          "content": "Following [FL] let M denote the abelian category of k vector spaces M with a distinguished subspace  $M^{1}$  and a k-linear isomorphism  $\\phi: M/M^{1} \\oplus M^{1} \\stackrel{\\sim}{\\to} M$ . Then there are equivalences of categories between:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.33080808080808083,
+            0.27450980392156865,
+            0.3484848484848485
+          ],
+          "content": "• $\\mathcal{M}^{op}$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.3611111111111111,
+            0.6568627450980392,
+            0.380050505050505
+          ],
+          "content": "\\- finite flat group schemes $A / \\mathbb{Z}_p$ with an action of $k$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.39015151515151514,
+            0.8284313725490197,
+            0.4305555555555556
+          ],
+          "content": "\\- $k[G_p]$-modules which are isomorphic as modules over $\\mathbb{F}_p[G_p]$ to the $\\overline{\\mathbb{Q}_p}$ points of some finite flat group scheme over $\\mathbb{Z}_p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.44065656565656564,
+            0.8300653594771242,
+            0.5340909090909091
+          ],
+          "content": "See section 9 of [FL] for details. The only point here is that an action of $k$ on the generic fibre of a finite flat group scheme over $\\mathbb{Z}_p$ extends uniquely to an action on the whole scheme. Let $M(\\overline{\\rho})$ denote the object of $\\mathcal{M}$ corresponding to $\\overline{\\rho}$. Then $\\dim_k M(\\overline{\\rho}) = 2$ and $\\dim_k M(\\overline{\\rho})^1 = 1$ (since $\\det \\overline{\\rho}|_{I_p} = \\epsilon$). We get an embedding $\\mathrm{Ext}_{\\mathcal{M}}^1(M(\\overline{\\rho}), M(\\overline{\\rho})) \\hookrightarrow H^1(\\mathbb{Q}_p, \\mathrm{ad}\\overline{\\rho})$. We will show that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.5441919191919192,
+            0.8284313725490197,
+            0.5808080808080808
+          ],
+          "content": "1. $\\dim_k\\operatorname{Ext}_{\\mathcal{M}}^1 (M(\\overline{\\rho}),M(\\overline{\\rho})) = 2$ if $\\overline{\\rho}|_{G_p}$ is indecomposable and $= 3$ otherwise;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1977124183006536,
+            0.5946969696969697,
+            0.8300653594771242,
+            0.6338383838383839
+          ],
+          "content": "2. the composite map $\\mathrm{Ext}_{\\mathcal{M}}^{1}(M(\\overline{\\rho}), M(\\overline{\\rho})) \\hookrightarrow H^{1}(\\mathbb{Q}_{p}, \\mathrm{ad}\\overline{\\rho}) \\xrightarrow{\\mathrm{tr}} H^{1}(\\mathbb{Q}_{p}, k)$ is non-trivial, where $\\operatorname{tr}$ denotes the map induced by the trace."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.6452020202020202,
+            0.4166666666666667,
+            0.6628787878787878
+          ],
+          "content": "The lemma will then follow."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6628787878787878,
+            0.8300653594771242,
+            0.7537878787878788
+          ],
+          "content": "For the first point it is explained in lemma 4.4 of [R] how to calculate $\\mathrm{Ext}_{\\mathcal{M}}^{1}(M(\\overline{\\rho}), M(\\overline{\\rho}))$. Let $\\{e_0, e_1\\}$ be a basis of $M(\\overline{\\rho})$ with $e_1 \\in M(\\overline{\\rho})^1$. Let $\\phi(e_0, 0) = \\alpha e_0 + \\beta e_1$ and $\\phi(0, e_1) = \\gamma e_0 + \\delta e_1$. Then $\\mathrm{Ext}_{\\mathcal{M}}^{1}(M(\\overline{\\rho}), M(\\overline{\\rho}))$ can be identified as a $k$-vector space with $M_2(k)$ modulo the subspace of matrices of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.184640522875817,
+            0.7638888888888888,
+            0.8186274509803921,
+            0.8042929292929293
+          ],
+          "content": "\\left( \\begin{array}{c c} r & 0 \\\\ s & t \\end{array} \\right) \\left( \\begin{array}{c c} \\alpha & \\gamma \\\\ \\beta & \\delta \\end{array} \\right) - \\left( \\begin{array}{c c} \\alpha & \\gamma \\\\ \\beta & \\delta \\end{array} \\right) \\left( \\begin{array}{c c} r & 0 \\\\ 0 & t \\end{array} \\right) = \\left( \\begin{array}{c c} 0 & (r - t) \\gamma \\\\ s \\alpha + (t - r) \\beta & s \\gamma \\end{array} \\right),",
+          "image_source": "images/page_13_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.8169191919191919,
+            0.8316993464052288,
+            0.8926767676767676
+          ],
+          "content": "for any $r, s, t \\in k$. Thus $\\dim_k \\operatorname{Ext}_\\mathcal{M}^1(M(\\overline{\\rho}), M(\\overline{\\rho})) = 2$ if $\\gamma \\neq 0$ and $= 3$ if $\\gamma = 0$. However $\\gamma = 0$ if and only if $M(\\overline{\\rho})^1$ is a subobject of $M(\\overline{\\rho})$ in $\\mathcal{M}$. This is true if and only if $\\overline{\\rho}$ has a one dimensional quotient on which inertia acts by $\\epsilon$ which itself is true if and only if $\\overline{\\rho}|_{G_p}$ is decomposable."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "14"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.17297979797979798,
+            0.8300653594771242,
+            0.20833333333333334
+          ],
+          "content": "For the second point consider the  $k[G_{p}]$ -module  $\\overline{\\rho} \\otimes \\tau$  where  $\\tau$  is the unramified representation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4084967320261438,
+            0.2058080808080808,
+            0.5947712418300654,
+            0.24494949494949494
+          ],
+          "content": "\\operatorname{Frob} _ {p} \\longmapsto \\left( \\begin{array}{c c} 1 & 1 \\\\ 0 & 1 \\end{array} \\right).",
+          "image_source": "images/page_14_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.25,
+            0.8316993464052288,
+            0.32702020202020204
+          ],
+          "content": "Then  $\\overline{\\rho}\\otimes\\tau$  is an extension of  $\\overline{\\rho}$  by itself. Moreover its extension class maps to the element of  $H^{1}(\\mathbb{Q}_{p},k)=\\operatorname{Hom}(\\mathbb{Q}_{p}^{\\times},k)$  which is trivial on  $Z_{p}^{\\times}$  and takes  $p\\mapsto2$ . Finally it is isomorphic to the action of  $G_{p}$  on the  $\\overline{Q_{p}}$  points of a finite flat group scheme over  $Z_{p}$ , because this is true over an unramified extension."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.33964646464646464,
+            0.8300653594771242,
+            0.37626262626262624
+          ],
+          "content": "Lemma 6 $\\mathbb{T}_Q$ can be generated as an $\\mathcal{O}$ algebra by $\\dim_k H_Q^1 (\\mathbb{Q},\\mathrm{ad}^0\\overline{\\rho})$ elements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.3926767676767677,
+            0.8284313725490197,
+            0.4292929292929293
+          ],
+          "content": "Let $\\mathfrak{m}_Q$ denote the maximal ideal of $\\mathbb{T}_Q$. It will suffice to show that there is an embedding of $k$-vector spaces"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32516339869281047,
+            0.44191919191919193,
+            0.6813725490196079,
+            0.46464646464646464
+          ],
+          "content": "\\kappa : \\mathrm{Hom} _ {k} (\\mathfrak {m} _ {Q} / (\\mathfrak {m} _ {Q} ^ {2}, \\lambda), k) \\hookrightarrow H _ {Q} ^ {1} (\\mathbb {Q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}}).",
+          "image_source": "images/page_14_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.47474747474747475,
+            0.3055555555555556,
+            0.4936868686868687
+          ],
+          "content": "We first define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32516339869281047,
+            0.5063131313131313,
+            0.6797385620915033,
+            0.5277777777777778
+          ],
+          "content": "\\kappa : \\operatorname{Hom} _ {k} (\\mathfrak {m} _ {Q} / (\\mathfrak {m} _ {Q} ^ {2}, \\lambda), k) \\longrightarrow H ^ {1} (\\mathbb {Q}, \\mathrm{ad} \\overline {{\\rho}}).",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5391414141414141,
+            0.8300653594771242,
+            0.5959595959595959
+          ],
+          "content": "If $\\theta$ is a non-zero element of the left hand group we may extend it uniquely to a map of local $\\mathcal{O}$-algebras $\\tilde{\\theta}:\\mathbb{T}_Q\\twoheadrightarrow k[\\epsilon ]$ where $\\epsilon^2 = 0$. Let $\\rho_{\\theta} = \\tilde{\\theta}\\circ \\rho_{Q}^{\\prime}$. We get an exact sequence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35784313725490197,
+            0.6098484848484849,
+            0.6503267973856209,
+            0.6287878787878788
+          ],
+          "content": "(0) \\longrightarrow V _ {\\overline {{\\rho}}} \\longrightarrow V _ {\\rho_ {\\theta}} \\longrightarrow V _ {\\overline {{\\rho}}} \\longrightarrow (0),",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6401515151515151,
+            0.8284313725490197,
+            0.6805555555555556
+          ],
+          "content": "and hence a class $\\kappa(\\theta)$ in $\\mathrm{Ext}_{k[G_{\\mathbb{Q}}]}^{1}(\\overline{\\rho},\\overline{\\rho})\\cong H^{1}(\\mathbb{Q},\\mathrm{ad}\\overline{\\rho})$. Because $\\operatorname{det}\\rho_{\\theta}$ is valued in $k\\subset k[\\epsilon]$ we see that $\\kappa(\\theta)$ actually lies $H^{1}(\\mathbb{Q},\\mathrm{ad}^{0}\\overline{\\rho})$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6792929292929293,
+            0.8316993464052288,
+            0.9002525252525253
+          ],
+          "content": "We claim that  $\\operatorname{res}_{l}\\kappa(\\theta)$  lies in  $H_{f}^{1}(\\mathbb{Q}_{l},\\operatorname{ad}^{0}\\overline{\\rho})$  for  $l\\notin Q$ . This computation is very similar to some in [W2], but is not actually carried out there, so we give an argument here. First suppose that  $l\\neq p$  and that either  $p\\nmid\\#\\overline{\\rho}(I_{l})$  or  $\\overline{\\rho}|_{G_{l}}$  is absolutely irreducible. In this case  $\\rho_{Q}^{\\prime}(I_{l})\\stackrel{\\sim}{\\to}\\overline{\\rho}(I_{l})$  and  $\\det\\rho_{Q}^{\\prime}|_{I_{l}}$  has order prime to l. Because either  $p\\nmid\\#\\overline{\\rho}(I_{l})$  or p=3 and  $\\operatorname{ad}\\overline{\\rho}(I_{l})\\cong A_{4}$  we have that  $H^{1}(\\overline{\\rho}(I_{l}),\\operatorname{ad}^{0}\\overline{\\rho})=(0)$  and so  $\\rho_{\\theta}|_{I_{l}}\\cong\\overline{\\rho}|_{I_{l}}\\otimes_{k}k[\\epsilon]$ . The result follows in this case. Secondly suppose that  $\\overline{\\rho}|_{I_{l}}$  is unipotent and nontrivial. Then the same is true for  $\\rho_{Q}^{\\prime}|_{I_{l}}$  and then also for  $\\rho_{\\theta}$ . However the Sylow p-subgroup of  $I_{l}$  is pro-cyclic and so  $\\rho_{\\theta}|_{I_{l}}$  must also be of the form  $\\overline{\\rho}\\otimes_{k}k[\\epsilon]$  and  $\\operatorname{res}_{l}\\kappa(\\theta)\\in H^{1}(I_{l},\\operatorname{ad}^{0}(\\overline{\\rho}))$  must vanish. In the case l=p,  $\\overline{\\rho}$  is flat and  $\\det\\overline{\\rho}|_{I_{p}}=\\epsilon$  the claim is immediate from the definitions. In the case l=p and  $\\overline{\\rho}|_{G_{p}}\\sim\\left(\\begin{array}{cc}\\psi_{1}&*\\\\0&\\psi_{2}\\end{array}\\right)$  with  $\\psi_{1}|_{I_{p}}\\neq\\epsilon$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "15"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.1691919191919192,
+            0.8316993464052288,
+            0.26262626262626265
+          ],
+          "content": "use the fact that $\\rho_Q'\\mid_{I_p}\\sim\\left(\\begin{array}{cc}\\tilde{\\psi}_1 & *\\\\ 0 & 1\\end{array}\\right)$ where $\\tilde{\\psi}_1$ denotes the Teichmuller lifting of $\\psi_1\\mid_{I_p}$. Finally in the case $l=p$, $\\overline{\\rho}\\mid_{G_p}\\sim\\left(\\begin{array}{cc}\\psi_1 & *\\\\ 0 & \\psi_2\\end{array}\\right)$ with $\\psi_1\\mid_{I_p}=\\epsilon$ but $\\overline{\\rho}$ not flat use the fact that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4199346405228758,
+            0.2638888888888889,
+            0.5833333333333334,
+            0.30303030303030304
+          ],
+          "content": "\\rho_ {Q} ^ {\\prime} | _ {G _ {p}} \\sim \\left( \\begin{array}{c c} \\delta \\epsilon & * \\\\ 0 & \\delta \\end{array} \\right)",
+          "image_source": "images/page_15_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.30808080808080807,
+            0.6405228758169934,
+            0.32575757575757575
+          ],
+          "content": "where $\\delta$ is an unramified character of order prime to $p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.32575757575757575,
+            0.8316993464052288,
+            0.5618686868686869
+          ],
+          "content": "It remains to show that $\\kappa$ is injective. Suppose it were not. Then we could find a non-zero $\\theta$ such that $\\rho_{\\theta} \\sim \\overline{\\rho} \\otimes_k k[\\epsilon]$. Thus $\\operatorname{tr} \\rho_Q'$ is valued in $\\mathcal{O} + \\ker \\tilde{\\theta}$ and in particular $\\mathbb{T}_Q$ is not generated as an $\\mathcal{O}$-algebra by $\\operatorname{tr} \\rho_Q'$. We will show this is not the case. If $q \\in Q$ and $\\delta \\in \\Delta_q$ then we can find $\\sigma \\in G_q$ such that $(U_q\\delta)^2 - (\\operatorname{tr} \\rho_Q'(\\sigma))(U_q\\delta) + \\det \\rho_Q'(\\sigma) = 0$. ($\\sigma$ will in fact lie above $\\operatorname{Frob}_q$.) This polynomial has distinct roots in $k$ and so both its roots in $\\mathbb{T}_Q$ lie in the sub-$\\mathcal{O}$-algebra $T$ generated by the image of $\\operatorname{tr} \\rho_Q'$. Thus for all $\\delta \\in \\Delta_q$, $U_q\\delta \\in T$. Hence $U_q \\in T$, and as $U_q$ is a unit, $\\delta \\in T$. Moreover for all $l \\notin Q$ for which $\\overline{\\rho}$ is unramified we see that $T_l\\chi_Q(\\operatorname{Frob}_l)^{-1/2} \\in T$ and hence $T_l \\in T$. If $p|N_Q$ then $U_p\\chi_Q(\\operatorname{Frob}_p)^{-1/2}$ is a root of the polynomial $X^2 - (\\operatorname{tr} \\rho_Q'(\\sigma))X + \\det \\rho_Q'(\\sigma)$ for any element $\\sigma$ of $G_p$ which lies above $\\operatorname{Frob}_p$. For some $\\sigma$ over $\\operatorname{Frob}_p$ this polynomial has two distinct roots in $k$ and so $U_p \\in T$. Thus $T = \\mathbb{T}_Q$ as we required."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5618686868686869,
+            0.8284313725490197,
+            0.5997474747474747
+          ],
+          "content": "Finally we turn to the proof of the main theorem. As in [W2] (after equation (3.8)) we may find a set of primes $Q_{m}$ with the following properties:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.6047979797979798,
+            0.47875816993464054,
+            0.6237373737373737
+          ],
+          "content": "1. if  $q \\in Q_{m}$  then  $q \\equiv 1 \\mod p^{m}$ ;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.6338383838383839,
+            0.8284313725490197,
+            0.6527777777777778
+          ],
+          "content": "2. if  $q \\in Q_{m}$  then  $\\overline{\\rho}$  is unramified at q and  $\\overline{\\rho}(\\mathrm{Frob}_{q})$  has distinct eigenvalues;"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22549019607843138,
+            0.6603535353535354,
+            0.5866013071895425,
+            0.6818181818181818
+          ],
+          "content": "H _ {\\emptyset^ {*}} ^ {1} (\\mathbb {Q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}} (1)) \\hookrightarrow \\bigoplus_ {q \\in Q _ {m}} H ^ {1} (\\mathbb {F} _ {q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}} (1))",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6868686868686869,
+            0.8316993464052288,
+            0.8017676767676768
+          ],
+          "content": "As for each such $q$, $H^{1}(\\mathbb{F}_{q}, \\mathrm{ad}^{0}\\overline{\\rho}) = k$ we see that by shrinking $Q_{m}$ we may suppose that the latter map is an isomorphism. Then we have that $\\# Q_{m} = \\dim_{k} H_{\\emptyset *}^{1}(\\mathbb{Q}, \\mathrm{ad}^{0}\\overline{\\rho}(1))$. Also $H_{Q_m}^{1}(\\mathbb{Q}, \\mathrm{ad}^{0}\\overline{\\rho}(1))$ is the kernel of the map in 3. above and so is trivial. Thus by lemma 5 we see that $\\dim_{k} H_{Q_{m}}^{1}(\\mathbb{Q}, \\mathrm{ad}^{0}\\overline{\\rho}) \\leq \\# Q_{m}$ and so $\\mathbb{T}_{Q_m}$ can be generated by $\\# Q_{m} = \\dim_{k} H_{\\emptyset *}^{1}(\\mathbb{Q}, \\mathrm{ad}^{0}\\overline{\\rho}(1))$ elements. The main theorem now follows from corollary 1."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.8282828282828283,
+            0.33169934640522875,
+            0.8497474747474747
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.86489898989899,
+            0.8284313725490197,
+            0.9015151515151515
+          ],
+          "content": "[C1] H.Carayol, Sur les représentations p-adiques associées aux formes modulaires de Hilbert, Ann. Sci. Ec. Norm. Super. 19 (1986) 409-468."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "16"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.1717171717171717,
+            0.8316993464052288,
+            0.24494949494949494
+          ],
+          "content": "[C2] H.Carayol, Formes modulaires et représentations Galoisiennes à valeurs dans un anneau local complet, in “p-adic monodromy and the Birch-Swinnerton-Dyer conjecture” (eds. B.Mazur and G.Stevens), Contemporary Math. 165 (1994)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.25757575757575757,
+            0.8316993464052288,
+            0.29545454545454547
+          ],
+          "content": "[D] F.Diamond, The refined conjecture of Serre, to appear in the proceedings of the 1993 Hong Kong conference on modular forms and elliptic curves."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.3055555555555556,
+            0.8300653594771242,
+            0.3434343434343434
+          ],
+          "content": "[DT] F. Diamond and R. Taylor, Lifting modular mod l representations, Duke Math. J. 74 (1994) 253-269."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.3547979797979798,
+            0.8300653594771242,
+            0.3926767676767677
+          ],
+          "content": "[FL] J.-M. Fontaine and G. Lafaille, Construction de représentations p-adiques, Ann. Sci. Ec. Norm. Super. 15 (1982) 547-608."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.40404040404040403,
+            0.8316993464052288,
+            0.44191919191919193
+          ],
+          "content": "[G] B. Gross, A tameness criterion for Galois representations associated to modular forms modp, Duke Math. J. 61 (1990), 445-517."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.4532828282828283,
+            0.8300653594771242,
+            0.4898989898989899
+          ],
+          "content": "[K1] E.Kunz, Almost complete intersections are not Gorenstein, J. of Algebra 28 (1974), 111-115."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.5025252525252525,
+            0.8284313725490197,
+            0.5391414141414141
+          ],
+          "content": "[K2] E.Kunz, Introduction to commutative algebra and algebraic geometry, Birkhäuser 1985."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.5517676767676768,
+            0.8316993464052288,
+            0.6060606060606061
+          ],
+          "content": "[L] H. Lenstra, Complete intersections and Gorenstein rings, to appear in the proceedings of the 1993 Hong Kong conference on modular forms and elliptic curves."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.6186868686868687,
+            0.8300653594771242,
+            0.6565656565656566
+          ],
+          "content": "[M] B.Mazur, Modular curves and the Eisenstein ideal, Publ. Math. IHES 47 (1977), 133-186."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.6679292929292929,
+            0.8316993464052288,
+            0.7058080808080808
+          ],
+          "content": "[dS] E. de Shalit, On certain Galois representations related to the modular curve $X_{1}(p)$, to appear in Compositio Math."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.7159090909090909,
+            0.8284313725490197,
+            0.7537878787878788
+          ],
+          "content": "[R] R.Ramakrishna, On a variation of Mazur's deformation functor, Comp. Math. 87 (1993), 269-286."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.7651515151515151,
+            0.8316993464052288,
+            0.8042929292929293
+          ],
+          "content": "[W1] A. Wiles, On ordinary $\\lambda$-adic representations associated to modular forms, Invent. Math. 94 (1988), 529-573."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.17973856209150327,
+            0.8143939393939394,
+            0.8284313725490197,
+            0.8497474747474747
+          ],
+          "content": "[W2] A.Wiles, Modular elliptic curves and Fermat's last theorem, preprint (1994)."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9381313131313131
+          ],
+          "content": "17"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.17647058823529413,
+            0.16792929292929293,
+            0.31862745098039214,
+            0.1919191919191919
+          ],
+          "level": 2,
+          "content": "Appendix"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2058080808080808,
+            0.8316993464052288,
+            0.351010101010101
+          ],
+          "content": "The purpose of this appendix is to explain certain simplifications to the arguments of chapter 3 of [W2] and to section 3 of this paper. These simplifications were found by G.Faltings and we would like to thank him for allowing us to include them here. We should make it clear that the arguments of this appendix (just as those of chapter 3 of [W2] and section 3 of this paper) apply only to proving conjecture 2.16 of [W2] for the minimal Hecke ring and minimal deformation problem. In order to prove theorem 3.3 of [W2] one needs to invoke theorem 2.17 and the arguments of chapter 2 of [W2]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.351010101010101,
+            0.8316993464052288,
+            0.4444444444444444
+          ],
+          "content": "We will keep the notation and assumptions of the main body of this paper. Let $Q$ denote a finite set of primes as described in section 1 of this paper. By a deformation of $\\overline{\\rho}$ of type $Q$ we shall mean a complete noetherian local $\\mathcal{O}$-algebra $A$ with residue field $k$ together with an equivalence class of continuous representations $\\rho: G_{\\mathbb{Q}} \\to GL_2(A)$ with the following properties:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.45580808080808083,
+            0.3545751633986928,
+            0.4734848484848485
+          ],
+          "content": "•  $\\rho \\mod m_{A} = \\overline{\\rho};$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.48484848484848486,
+            0.6388888888888888,
+            0.5037878787878788
+          ],
+          "content": "\\- $\\epsilon^{-1} \\det \\rho$ is a character of finite order prime to $p$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.5151515151515151,
+            0.6977124183006536,
+            0.5353535353535354
+          ],
+          "content": "\\- if $l \\notin Q \\cup \\{p\\}$ and $\\overline{\\rho}|_{I_l}$ is semi-simple then $\\rho(I_l) \\xrightarrow{\\sim} \\overline{\\rho}(I_l)$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.5454545454545454,
+            0.7075163398692811,
+            0.5858585858585859
+          ],
+          "content": "\\- if $l \\notin Q \\cup \\{p\\}$ and $\\overline{\\rho}|_{I_l} \\sim \\left( \\begin{array}{cc} 1 & * \\\\ 0 & 1 \\end{array} \\right)$ then $\\rho|_{I_l} \\sim \\left( \\begin{array}{cc} 1 & * \\\\ 0 & 1 \\end{array} \\right)$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.5959595959595959,
+            0.5669934640522876,
+            0.61489898989899
+          ],
+          "content": "\\- if $\\overline{\\rho}$ is flat and $\\det \\overline{\\rho}|_{I_p} = \\epsilon$ then $\\rho$ is flat;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6287878787878788,
+            0.8284313725490197,
+            0.6818181818181818
+          ],
+          "content": "\\- if either $\\overline{\\rho}$ is not flat or if $\\det \\overline{\\rho}|_{I_p} \\neq \\epsilon$ then $\\rho|_{G_p} \\sim \\left( \\begin{array}{cc} \\phi_1 & * \\\\ 0 & \\phi_2 \\end{array} \\right)$ where $\\phi_2$ is unramified and $\\phi_2 \\bmod \\mathfrak{m}_A = \\psi_2$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6944444444444444,
+            0.8316993464052288,
+            0.7676767676767676
+          ],
+          "content": "As in chapter 1 of [W2] there is a universal lift $\\rho_{Q}^{univ}: G_{\\mathbb{Q}} \\to GL_2(R_Q)$ of type $Q$. Recall that the universal property is for lifts up to conjugation. Moreover one checks (c.f. the second paragraph of the proof of lemma 6) that there is a natural isomorphism"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33169934640522875,
+            0.7803030303030303,
+            0.6748366013071896,
+            0.8017676767676768
+          ],
+          "content": "\\mathrm{Hom} _ {k} (\\mathfrak {m} _ {R _ {Q}} / (\\lambda , \\mathfrak {m} _ {R _ {Q}} ^ {2}), k) \\cong H _ {Q} ^ {1} (\\mathbb {Q}, \\mathrm{ad} ^ {0} \\overline {{\\rho}}).",
+          "image_source": "images/page_17_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.8169191919191919,
+            0.8300653594771242,
+            0.8547979797979798
+          ],
+          "content": "There is also a natural map $R_{Q} \\to \\mathbb{T}_{Q}$ so that $\\rho_{Q}^{univ}$ pushes forward to a conjugate of $\\rho_{Q}'$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.8547979797979798,
+            0.8316993464052288,
+            0.8901515151515151
+          ],
+          "content": "Recall that if  $Q = \\emptyset$  we shall often drop it from the notation. In this appendix we shall reprove the following result."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "18"
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.17297979797979798,
+            0.7156862745098039,
+            0.1893939393939394
+          ],
+          "content": "Theorem 3 $R\\stackrel {\\sim}{\\to}\\mathbb{T}$ and these rings are complete intersections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2058080808080808,
+            0.8300653594771242,
+            0.31691919191919193
+          ],
+          "content": "We note that if  $O'$  is the ring of integers of a finite extension  $K'/K$  then the rings  $T_{Q}'$  and  $R_{Q}'$  constructed using  $O'$  in place of O are just  $T_{Q} \\otimes_{O} O'$  and  $R_{Q} \\otimes_{O} O'$ . Also  $T_{Q}$  is a complete intersection if and only if  $T_{Q} \\otimes_{O} O'$  is (using for instance corollary 2.8 on page 209 of [K2]). Thus we may and we shall assume that O is sufficiently large that the eigenvalues of every element of  $\\overline{\\rho}(G_{\\mathbb{Q}})$  are rational over k."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.31691919191919193,
+            0.8300653594771242,
+            0.369949494949495
+          ],
+          "content": "We recall that in the penultimate paragraph of section 4 of this paper we showed that $\\mathbb{T}_Q$ is generated as an $\\mathcal{O}$-algebra by $\\operatorname{tr} \\rho_Q'(G_{\\mathbb{Q}})$. Thus we see that the map $R_Q \\to \\mathbb{T}_Q$ is a surjection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20751633986928106,
+            0.3712121212121212,
+            0.49019607843137253,
+            0.3888888888888889
+          ],
+          "content": "We will need the following result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.40404040404040403,
+            0.8300653594771242,
+            0.4595959595959596
+          ],
+          "content": "Lemma 7 If $q \\in Q$ then $\\rho_{Q}^{univ}|_{G_q} \\sim \\left( \\begin{array}{cc} \\phi_1 & 0 \\\\ 0 & \\phi_2 \\end{array} \\right)$ where $\\phi_1|_{I_q} = \\phi_2|_{I_q}^{-1}$ and both these characters factor through $\\chi_q: I_q \\twoheadrightarrow \\Delta_q$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.47474747474747475,
+            0.8284313725490197,
+            0.6590909090909091
+          ],
+          "content": "It suffices to check the first assertion. As $\\overline{\\rho}$ is unramified at $q$, $\\rho_Q^{univ}|_{G_q}$ factors through $\\hat{\\mathbb{Z}} \\ltimes \\mathbb{Z}_p(1)$, where $\\hat{\\mathbb{Z}}$ is topologically generated by some lift $f$ of $\\mathrm{Frob}_q$, $\\mathbb{Z}_p(1)$ is topologically generated by some element $\\sigma$ and where $f\\sigma f^{-1} = \\sigma^q$. As $\\overline{\\rho}(\\mathrm{Frob}_q)$ has distinct eigenvalues it is easy to see that after conjugation we may assume that $\\rho_Q^{univ}(f) = \\left( \\begin{array}{cc}a & 0\\\\ 0 & b \\end{array} \\right)$ where $a\\not\\equiv b\\bmod \\mathfrak{m}_{R_Q}$. We will show that $\\rho_Q^{univ}(\\sigma)$ is a diagonal matrix with entries congruent to $1\\bmod \\mathfrak{m}_{R_Q}$. We will in fact prove this mod $\\mathfrak{m}_{R_Q}^n$ for all $n$ by induction on $n$. For $n = 1$ there is nothing to prove. So suppose this is true modulo $\\mathfrak{m}_{R_Q}^n$ with $n > 0$. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31862745098039214,
+            0.6565656565656566,
+            0.6879084967320261,
+            0.6944444444444444
+          ],
+          "content": "\\rho_ {Q} ^ {u n i v} (\\sigma) \\equiv \\left( \\begin{array}{c c} \\mu_ {1} & 0 \\\\ 0 & \\mu_ {2} \\end{array} \\right) (1 _ {2} + N) \\bmod {\\mathfrak {m}} _ {R _ {Q}} ^ {n + 1},",
+          "image_source": "images/page_18_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.6994949494949495,
+            0.8284313725490197,
+            0.7424242424242424
+          ],
+          "content": "where each $\\mu_i \\equiv 1 \\mod \\mathfrak{m}_{R_Q}$ and where $N \\equiv 0 \\mod \\mathfrak{m}_{R_Q}^n$. We see that mod $\\mathfrak{m}_{R_Q}^{n+1}$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36437908496732024,
+            0.73989898989899,
+            0.6405228758169934,
+            0.8977272727272727
+          ],
+          "content": "\\begin{array}{l l} & 1 + \\left( \\begin{array}{c c} a & 0 \\\\ 0 & b \\end{array} \\right) N \\left( \\begin{array}{c c} a & 0 \\\\ 0 & b \\end{array} \\right) ^ {- 1} \\\\ \\equiv & \\left( \\begin{array}{c c} \\mu_ {1} ^ {q - 1} & 0 \\\\ 0 & \\mu_ {2} ^ {q - 1} \\end{array} \\right) (1 + N) ^ {q} \\\\ \\equiv & \\left( \\begin{array}{c c} \\mu_ {1} ^ {q - 1} & 0 \\\\ 0 & \\mu_ {2} ^ {q - 1} \\end{array} \\right) (1 + q N) \\\\ \\equiv & \\left( \\begin{array}{c c} \\mu_ {1} ^ {q - 1} & 0 \\\\ 0 & \\mu_ {2} ^ {q - 1} \\end{array} \\right) + N, \\end{array}",
+          "image_source": "images/page_18_equation_8.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4950980392156863,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "19"
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.1717171717171717,
+            0.8137254901960784,
+            0.1919191919191919
+          ],
+          "content": "and as $a \\not\\equiv b \\bmod \\mathfrak{m}_{R_Q}$ we deduce that $N$ is diagonal mod $\\mathfrak{m}_{R_Q}^{n+1}$ as required."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.1919191919191919,
+            0.8316993464052288,
+            0.2840909090909091
+          ],
+          "content": "We can choose $\\phi_2$ so that $\\phi_2(f) \\equiv \\beta_q \\bmod \\mathfrak{m}_{R_Q}$. Then we can define a map $\\Delta_q \\to R_Q^\\times$ to be $\\phi_2|_{I_q}^2$. This makes $R_Q$ into an $\\mathcal{O}[\\Delta_Q]$-algebra. Using the last lemma and the universal properties of $R_Q$ and of $R$ it is easy to see that $R_Q / \\mathfrak{a}_Q \\stackrel{\\sim}{\\to} R$. It moreover follows from the discussion preceding theorem 1 of this paper that the map $R_Q \\twoheadrightarrow T_Q$ is a map of $\\mathcal{O}[\\Delta_Q]$-algebras."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.2840909090909091,
+            0.8316993464052288,
+            0.3939393939393939
+          ],
+          "content": "The key observation is the following ring theoretic proposition. Theorem 3 follows on applying it to the rings $R_{Q_n}$ and $\\mathbb{T}_{Q_n}$ for the sets $Q_n$ constructed in section 4 of this paper. Note that there is a map $\\mathcal{O}[[S_1, ..., S_r]] \\twoheadrightarrow \\mathcal{O}[\\Delta_{Q_n}]$ with kernel the ideal $((1 + S_1)^{\\#^{\\Delta_{q_1}}} - 1, ..., (1 + S_r)^{\\#^{\\Delta_{qr}}} - 1)$, where $Q_n = \\{q_1, ..., q_r\\}$. Note also that by the displayed isomorphism a couple of lines before theorem 3 there exists a surjection of $\\mathcal{O}$-algebras $\\mathcal{O}[[X_1, ..., X_r]] \\twoheadrightarrow R_{Q_n}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.4090909090909091,
+            0.8316993464052288,
+            0.4810606060606061
+          ],
+          "content": "Proposition 3 Suppose r is a non-negative integer and that we have a map of O-algebras  $R \\twoheadrightarrow T$  with T finite and flat over O. Suppose for each positive integer n we have a map of O-algebras  $R_{n} \\twoheadrightarrow T_{n}$  and a commutative diagram of O-algebras"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3709150326797386,
+            0.4797979797979798,
+            0.6356209150326797,
+            0.5340909090909091
+          ],
+          "content": "\\begin{array}{c c c c c} \\mathcal {O} [ [ S _ {1}, \\ldots , S _ {r} ] ] & \\to & R _ {n} & \\twoheadrightarrow & R \\\\ & & \\downarrow & & \\downarrow \\\\ & & T _ {n} & \\twoheadrightarrow & T, \\end{array}",
+          "image_source": "images/page_19_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1781045751633987,
+            0.5429292929292929,
+            0.23366013071895425,
+            0.5593434343434344
+          ],
+          "content": "where"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.5732323232323232,
+            0.7009803921568627,
+            0.5921717171717171
+          ],
+          "content": "1. there is a surjection of $\\mathcal{O}$-algebras $\\mathcal{O}[[X_1,\\dots,X_r]]\\twoheadrightarrow R_n$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.6047979797979798,
+            0.4869281045751634,
+            0.6224747474747475
+          ],
+          "content": "2. $(S_{1},\\dots,S_{r})R_{n}\\subset \\ker (R_{n}\\twoheadrightarrow R),$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.6338383838383839,
+            0.47875816993464054,
+            0.6540404040404041
+          ],
+          "content": "3. $(S_{1},\\dots,S_{r})T_{n} = \\ker (T_{n}\\twoheadrightarrow T),$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1977124183006536,
+            0.6641414141414141,
+            0.8071895424836601,
+            0.7032828282828283
+          ],
+          "content": "4. if $\\mathfrak{b}_n$ denotes the kernel of $\\mathcal{O}[[S_1,\\dots,S_r]]\\to T_n$ then $\\mathfrak{b}_n\\subset ((1 + S_1)^{p^n}$$1,\\ldots ,(1 + S_r)^{p^n} - 1)$ and $T_{n}$ is a finite free $\\mathcal{O}[[S_1,\\dots,S_r]] / \\mathfrak{b}_n$-module."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1781045751633987,
+            0.7146464646464646,
+            0.6535947712418301,
+            0.7323232323232324
+          ],
+          "content": "Then $R \\xrightarrow{\\sim} T$ and these rings are complete intersections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.75,
+            0.8300653594771242,
+            0.8598484848484849
+          ],
+          "content": "Reducing mod  $\\lambda$  we see that it suffices to prove this result with k replacing O everywhere. In this case we see that the last condition becomes  $\\mathfrak{b}_{n} \\subset (S_{1}^{p^{n}}, ..., S_{r}^{p^{n}})$ . Further we may replace R by its reduction modulo  $\\mathfrak{m}_{R}\\ker (R \\to T)$ , and so we may assume that R is finite over k. We may replace  $T_{n}$  by  $T_{n}/(S_{1}^{p^{n}}, ..., S_{r}^{p^{n}})$  and so assume that  $\\mathfrak{b}_{n} = (S_{1}^{p^{n}}, ..., S_{r}^{p^{n}})$ . Finally we may replace  $R_{n}$  by its image in  $R \\oplus T_{n}$ ."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "20"
+        }
+      ]
+    },
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.17297979797979798,
+            0.8284313725490197,
+            0.20959595959595959
+          ],
+          "content": "Now define an n-structure to be a pair of k-algebras  $B \\twoheadrightarrow A$  together with a commutative diagram of k-algebras"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32679738562091504,
+            0.2196969696969697,
+            0.6797385620915033,
+            0.31186868686868685
+          ],
+          "content": "k [ [ X _ {1}, \\dots , X _ {r} ] ] \\quad\\begin{array}{c c c c}&k [ [ S _ {1}, \\dots , S _ {r} ] ]\\\\&\\downarrow\\\\&B&\\rightarrow&R\\\\&\\downarrow&&\\downarrow\\\\&A&\\rightarrow&T,\\end{array}",
+          "image_source": "images/page_20_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.32575757575757575,
+            0.2630718954248366,
+            0.3421717171717172
+          ],
+          "content": "such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20098039215686275,
+            0.3547979797979798,
+            0.3366013071895425,
+            0.3712121212121212
+          ],
+          "content": "1.  $B \\hookrightarrow R \\oplus A,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.3838383838383838,
+            0.47058823529411764,
+            0.40404040404040403
+          ],
+          "content": "2. $(S_{1},\\dots,S_{r})B\\subset \\ker (B\\twoheadrightarrow R),$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.41414141414141414,
+            0.46895424836601307,
+            0.43434343434343436
+          ],
+          "content": "3. $(S_{1},\\dots,S_{r})A=\\ker(A\\twoheadrightarrow T)$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19934640522875818,
+            0.4444444444444444,
+            0.6633986928104575,
+            0.4659090909090909
+          ],
+          "content": "4. A is a finite free $k[[S_1, \\dots, S_r]] / (S_1^{p^n}, \\dots, S_r^{p^n})$-module."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.47474747474747475,
+            0.8316993464052288,
+            0.5492424242424242
+          ],
+          "content": "Note that  $\\#B \\leq (\\#T)^{p^{nr}} \\#R$  and so we see that there are only finitely many isomorphism classes of n-structures. If S is an n-structure and if  $m \\leq n$  then we may obtain an m-structure  $\\mathcal{S}^{(m)}$  by replacing A by  $A/(S_{1}^{p^{m}}, ..., S_{r}^{p^{m}})$  and B by its image in  $R \\oplus (A/(S_{1}^{p^{m}}, ..., S_{r}^{p^{m}}))$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5492424242424242,
+            0.8316993464052288,
+            0.6237373737373737
+          ],
+          "content": "As explained above, it follows from the hypotheses of the proposition that an n-structure  $S_{n}$  exists for each n. We next claim that we can find, for each n, n-structures  $S_{n}^{\\prime}$  such that for  $m \\leq n$  we have  $\\mathcal{S}_{m}^{\\prime} \\cong (\\mathcal{S}_{n}^{\\prime})^{(m)}$ . To prove this observe that we can find recursively integers  $n(m)$  with the following properties"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6313131313131313,
+            0.5179738562091504,
+            0.6578282828282829
+          ],
+          "content": "\\- $\\mathcal{S}_{n(m)}^{(m)} \\cong \\mathcal{S}_n^{(m)}$ for infinitely many $n$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.6679292929292929,
+            0.5065359477124183,
+            0.6931818181818182
+          ],
+          "content": "\\- and for $m > 1$, $\\mathcal{S}_{n(m)}^{(m - 1)} \\cong \\mathcal{S}_{n(m - 1)}^{(m - 1)}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.7045454545454546,
+            0.3627450980392157,
+            0.7272727272727273
+          ],
+          "content": "Then set $\\mathcal{S}_m^\\prime = \\mathcal{S}_{n(m)}^{(m)}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.7247474747474747,
+            0.545751633986928,
+            0.7436868686868687
+          ],
+          "content": "Thus we obtain a commutative diagram"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3627450980392157,
+            0.7537878787878788,
+            0.6454248366013072,
+            0.8118686868686869
+          ],
+          "content": "\\begin{array}{c c c c c c c c} \\ldots & R _ {n} ^ {\\prime} & \\ldots & R _ {2} ^ {\\prime} & \\twoheadrightarrow & R _ {1} ^ {\\prime} & \\twoheadrightarrow & R \\\\ & \\downarrow & & \\downarrow & & \\downarrow & & \\downarrow \\\\ \\ldots & T _ {n} ^ {\\prime} & \\ldots & T _ {2} ^ {\\prime} & \\twoheadrightarrow & T _ {1} ^ {\\prime} & \\twoheadrightarrow & T \\end{array}",
+          "image_source": "images/page_20_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17647058823529413,
+            0.8232323232323232,
+            0.6748366013071896,
+            0.8434343434343434
+          ],
+          "content": "of $k[[X_1, \\dots, X_r, S_1, \\dots, S_r]]$-algebras. Moreover we have that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2042483660130719,
+            0.8522727272727273,
+            0.4591503267973856,
+            0.8737373737373737
+          ],
+          "content": "•  $k[[X_{1},\\ldots,X_{r}]] \\twoheadrightarrow R'_{n} \\twoheadrightarrow T'_{n},$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.8825757575757576,
+            0.6699346405228758,
+            0.9040404040404041
+          ],
+          "content": "\\- $T_n'$ is a finite free $k[[S_1, ..., S_r]] / (S_1^{p^n}, ..., S_r^{p^n})$-module,"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5147058823529411,
+            0.9368686868686869
+          ],
+          "content": "21"
+        }
+      ]
+    },
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.20588235294117646,
+            0.1717171717171717,
+            0.6078431372549019,
+            0.19065656565656566
+          ],
+          "content": "\\bullet \\quad R _ {n} ^ {\\prime} / (S _ {1},..., S _ {r}) \\twoheadrightarrow R \\text {   and   } T _ {n} ^ {\\prime} / (S _ {1},..., S _ {r}) \\xrightarrow {\\sim} T.",
+          "image_source": "images/page_21_equation_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.20075757575757575,
+            0.8316993464052288,
+            0.2765151515151515
+          ],
+          "content": "Let $R_{\\infty}^{\\prime}$ denote the quotient of $k[[X_1, ..., X_r]]$ by the intersection of the ideals $\\ker (k[[X_1, ..., X_r]] \\twoheadrightarrow R_n^{\\prime})$ and let $T_{\\infty}^{\\prime}$ denote the quotient of $k[[X_1, ..., X_r]]$ by the intersection of the ideals $\\ker (k[[X_1, ..., X_r]] \\twoheadrightarrow T_n^{\\prime})$. Then we have a commutative diagram"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32679738562091504,
+            0.2878787878787879,
+            0.6797385620915033,
+            0.3838383838383838
+          ],
+          "content": "\\begin{array}{c c c c c} & & k [ [ S _ {1}, \\ldots , S _ {r} ] ] \\\\ & & \\downarrow \\\\ k [ [ X _ {1}, \\ldots , X _ {r} ] ] & \\twoheadrightarrow & R _ {\\infty} ^ {\\prime} & \\twoheadrightarrow & R \\\\ & & \\downarrow & & \\downarrow \\\\ & & T _ {\\infty} ^ {\\prime} & \\twoheadrightarrow & T, \\end{array}",
+          "image_source": "images/page_21_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.3952020202020202,
+            0.2630718954248366,
+            0.4128787878787879
+          ],
+          "content": "such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.4255050505050505,
+            0.32516339869281047,
+            0.4457070707070707
+          ],
+          "content": "•  $R'_{\\infty} \\twoheadrightarrow T'_{\\infty}$ ,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20588235294117646,
+            0.45580808080808083,
+            0.5604575163398693,
+            0.476010101010101
+          ],
+          "content": "\\- $T_{\\infty}^{\\prime}$ is a finite free $k[[S_1,\\dots,S_r]]$-module,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20588235294117646,
+            0.4861111111111111,
+            0.6176470588235294,
+            0.5063131313131313
+          ],
+          "content": "\\bullet \\quad R _ {\\infty} ^ {\\prime} / (S _ {1},..., S _ {r}) \\twoheadrightarrow R \\text {   and   } T _ {\\infty} ^ {\\prime} / (S _ {1},..., S _ {r}) \\xrightarrow {\\sim} T.",
+          "image_source": "images/page_21_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17483660130718953,
+            0.5189393939393939,
+            0.8316993464052288,
+            0.6098484848484849
+          ],
+          "content": "We deduce that $T_{\\infty}^{\\prime}$ has Krull dimension $r$ and hence we deduce that the map $k[[X_1, ..., X_r]] \\twoheadrightarrow T_{\\infty}^{\\prime}$ has trivial kernel. That is we have isomorphisms $k[[X_1, ..., X_r]] \\xrightarrow{\\sim} R_{\\infty}^{\\prime} \\xrightarrow{\\sim} T_{\\infty}^{\\prime}$. Thus $R \\xrightarrow{\\sim} T$. As $T$ has Krull dimension 0 and $T \\cong k[[X_1, ..., X_r]] / (S_1, ..., S_r)$ we see that $T$ is a complete intersection, and the proposition is proved."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5163398692810458,
+            0.9368686868686869
+          ],
+          "content": "22"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

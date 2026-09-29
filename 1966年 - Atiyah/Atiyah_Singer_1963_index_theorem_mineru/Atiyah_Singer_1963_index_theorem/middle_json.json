@@ -1,0 +1,6039 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13394919168591224,
+            0.15474452554744525,
+            0.8683602771362586,
+            0.22773722627737225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " be a positive prime number, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T_{p}"
+            },
+            {
+              "type": "text",
+              "content": " be the semigroup of all positive rational numbers of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "j/p^{i}"
+            },
+            {
+              "type": "text",
+              "content": " with respect to the usual addition. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_{1}, p_{2}, \\cdots, p_{n}"
+            },
+            {
+              "type": "text",
+              "content": " be distinct positive prime numbers. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T_{p_{1}} \\times \\cdots \\times T_{p_{n}}"
+            },
+            {
+              "type": "text",
+              "content": " is a completely exclusive direct product."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.43187066974595845,
+            0.23795620437956205,
+            0.5750577367205543,
+            0.25255474452554744
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REFERENCES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.13394919168591224,
+            0.25985401459854013,
+            0.8637413394919169,
+            0.28905109489051095
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. A. H. Clifford, Naturally totally ordered commutative semigroups, Amer. J. Math. 76 (1954), 631–646."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.13394919168591224,
+            0.2905109489051095,
+            0.8637413394919169,
+            0.3182481751824818
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. ——, Totally ordered commutative semigroups, Bull. Amer. Math. Soc. 64 (1958), 305–316."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.13394919168591224,
+            0.3182481751824818,
+            0.8637413394919169,
+            0.34890510948905107
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. O. Hölder, Die Axiome der Quantität und die Lehre vom Mass, Ber. Verh. Sächs. Ges. Wiss. Leipzig Math.-Phys. Kl. 53 (1901), 1–64."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.13394919168591224,
+            0.34890510948905107,
+            0.8637413394919169,
+            0.37664233576642336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. T. Tamura, Commutative nonpotent archimedean semigroup with cancellation law. I, J. Gakugei Tokushima Univ. 8 (1957), 5–11."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.16397228637413394,
+            0.3854014598540146,
+            0.4780600461893764,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "UNIVERSITY OF CALIFORNIA, DAVIS"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 7,
+          "bbox": [
+            0.23325635103926096,
+            0.44963503649635034,
+            0.76905311778291,
+            0.4846715328467153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS ON COMPACT MANIFOLDS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.3163972286374134,
+            0.49635036496350365,
+            0.6882217090069284,
+            0.5109489051094891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BY M. F. ATIYAH AND I. M. SINGER "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.2863741339491917,
+            0.5197080291970803,
+            0.7159353348729792,
+            0.5357664233576642
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Communicated by Raoul Bott, February 1, 1963"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13163972286374134,
+            0.5445255474452555,
+            0.8706697459584296,
+            0.7897810218978102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Introduction. In his paper [16] Gel'fand posed the general problem of investigating the relationship between topological and analytical invariants of elliptic differential operators. In particular he suggested that it should be possible to express the index of an elliptic operator (see §1 for the definition) in topological terms. This problem has been taken up by Agranovic [2; 3], Dynin [3; 14; 15], Seeley [20; 21] and Vol'pert [22] who have solved it in special cases. The purpose of this paper is to give a general formula for the index of an elliptic operator on any compact oriented differentiable manifold (Theorem 1). As a special case of this formula we get the Hirzebruch-Riemann-Roch theorem for any compact complex manifold (Theorem 3). This was previously known only for projective algebraic manifolds. Some other special cases, of interest in differential topology, are discussed in §3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13394919168591224,
+            0.7897810218978102,
+            0.8683602771362586,
+            0.8262773722627738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are greatly indebted to A. P. Calderon, L. Nirenberg, and R. T. Seeley for their generous help."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15704387990762125,
+            0.8335766423357664,
+            0.8660508083140878,
+            0.8525547445255475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Elliptic operators. Let X be a compact oriented smooth mani-"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.13163972286374134,
+            0.8598540145985402,
+            0.8683602771362586,
+            0.891970802919708
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{1}"
+            },
+            {
+              "type": "text",
+              "content": "  Part of this work was done with the first author supported by the National Science Foundation and the second author holding a Sloan Fellowship."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.13625866050808313,
+            0.12262773722627737,
+            0.17782909930715934,
+            0.13722627737226278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "422"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.34872979214780603,
+            0.12262773722627737,
+            0.6558891454965358,
+            0.13722627737226278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.8198614318706697,
+            0.12262773722627737,
+            0.8637413394919169,
+            0.1386861313868613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12731481481481483,
+            0.15497076023391812,
+            0.8657407407407407,
+            0.1915204678362573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "fold, E, F two smooth complex vector bundles over X. We shall consider linear differential operators"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.4097222222222222,
+            0.195906432748538,
+            0.5949074074074074,
+            0.2149122807017544
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "D \\colon \\Gamma (E) \\to \\Gamma (F),"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12731481481481483,
+            0.2222222222222222,
+            0.8657407407407407,
+            0.32894736842105265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e., linear operators defined on the spaces  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma"
+            },
+            {
+              "type": "text",
+              "content": "  of smooth sections and expressible locally by a matrix of partial derivatives. The extra generality involved in considering vector bundles presents no serious difficulties and it is quite essential in a systematic treatment on manifolds, since all the geometrically interesting operators operate on vector bundles (cf. §3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.32748538011695905,
+            0.8657407407407407,
+            0.3991228070175439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T^{*}(X)"
+            },
+            {
+              "type": "text",
+              "content": " denote the cotangent vector bundle of X, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(X)"
+            },
+            {
+              "type": "text",
+              "content": " the unit sphere bundle in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T^{*}(X)"
+            },
+            {
+              "type": "text",
+              "content": " (relative to some Riemannian metric), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi: S(X) \\to X"
+            },
+            {
+              "type": "text",
+              "content": " the projection. Then associated with D there is a vector bundle homomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.4027777777777778,
+            0.40350877192982454,
+            0.5972222222222222,
+            0.42105263157894735
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "\\sigma (D) \\colon \\pi^ {*} E \\to \\pi^ {*} F"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.4283625730994152,
+            0.8657407407407407,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is called the symbol of D. In terms of local coordinates  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  is obtained from D by replacing  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial/\\partial x_{j}"
+            },
+            {
+              "type": "text",
+              "content": "  by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i\\xi_{j}"
+            },
+            {
+              "type": "text",
+              "content": "  in the highest order terms of D ( "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi_{j}"
+            },
+            {
+              "type": "text",
+              "content": "  is the jth coordinate in the cotangent bundle). D is elliptic if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  is an isomorphism. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12731481481481483,
+            0.49853801169590645,
+            0.8657407407407407,
+            0.5526315789473685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One of the basic properties of elliptic operators is that Ker D (i.e., the null space) and Coker  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D=\\Gamma(F)/D\\Gamma(E)"
+            },
+            {
+              "type": "text",
+              "content": "  are both finite-dimensional. The index  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  is defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.30324074074074076,
+            0.5555555555555556,
+            0.6921296296296297,
+            0.5745614035087719
+          ],
+          "image_path": "images/page_1_equation_7.jpg",
+          "content": "\\gamma (D) = \\dim \\operatorname{Ker} D - \\dim \\operatorname{Coker} D."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12731481481481483,
+            0.5804093567251462,
+            0.8657407407407407,
+            0.6169590643274854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D^{*} \\colon \\Gamma(F) \\to \\Gamma(E)"
+            },
+            {
+              "type": "text",
+              "content": " denotes the formal adjoint of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D"
+            },
+            {
+              "type": "text",
+              "content": " (relative to metrics in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E, F, X"
+            },
+            {
+              "type": "text",
+              "content": ") then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D^{*}"
+            },
+            {
+              "type": "text",
+              "content": " is also elliptic and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3912037037037037,
+            0.6213450292397661,
+            0.6087962962962963,
+            0.6388888888888888
+          ],
+          "image_path": "images/page_1_equation_9.jpg",
+          "content": "\\text { Coker } D \\cong \\text { Ker } D ^ {*},"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12731481481481483,
+            0.6447368421052632,
+            0.5740740740740741,
+            0.6637426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D) = \\dim \\operatorname{Ker} D - \\dim \\operatorname{Ker} D^{*}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12731481481481483,
+            0.6637426900584795,
+            0.8657407407407407,
+            0.7368421052631579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The problem is to express  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  in terms of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": " . More precisely what we shall do is to associate to  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  a cohomological invariant, denoted by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{ch}(D)"
+            },
+            {
+              "type": "text",
+              "content": " , and then to give an explicit formula for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  in terms of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{ch}(D)"
+            },
+            {
+              "type": "text",
+              "content": "  and of the characteristic (Pontrjagin) classes of X."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12731481481481483,
+            0.7426900584795322,
+            0.8680555555555556,
+            0.868421052631579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The index formula. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E, F"
+            },
+            {
+              "type": "text",
+              "content": " are trivial bundles of dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": " is essentially a map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(X) \\to GL(m, \\mathbf{C})"
+            },
+            {
+              "type": "text",
+              "content": ". This makes it clear that the homotopy of the linear group, and in particular the Bott periodicity theorems [8], will be of crucial importance. The appropriate machinery for questions of this kind is provided by the Grothen-dieck groups "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": " introduced in [5] (cf. also [4]). Roughly speaking "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": " is the abelian group generated by the complex vector bundles"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.13194444444444445,
+            0.12280701754385964,
+            0.17824074074074073,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963i"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.3194444444444444,
+            0.12280701754385964,
+            0.6782407407407407,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.8240740740740741,
+            0.12134502923976608,
+            0.8657407407407407,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "423"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.41435185185185186,
+            0.8742690058479532,
+            0.46064814814814814,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "E, F"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.1574074074074074,
+            0.8728070175438597,
+            0.6898148148148148,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{2}"
+            },
+            {
+              "type": "text",
+              "content": "  This implies of course that E, F have the same dimension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12933025404157045,
+            0.15350877192982457,
+            0.8660508083140878,
+            0.20760233918128654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "on X. The tensor product of bundles makes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": "  into a commutative ring. An important cohomological invariant is provided by the Chern character which is a ring homomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.37644341801385683,
+            0.2149122807017544,
+            0.6212471131639723,
+            0.23391812865497075
+          ],
+          "image_path": "images/page_2_equation_1.jpg",
+          "content": "\\operatorname{ch} \\colon K (X) \\to H ^ {*} (X; \\mathcal {Q})"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12933025404157045,
+            0.24269005847953215,
+            0.6027713625866051,
+            0.26169590643274854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": " into the rational cohomology ring."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13163972286374134,
+            0.26169590643274854,
+            0.8637413394919169,
+            0.29678362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two vector bundles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E, F"
+            },
+            {
+              "type": "text",
+              "content": " on a space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y"
+            },
+            {
+              "type": "text",
+              "content": " with an isomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " on a subspace"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{3}"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y_{0}"
+            },
+            {
+              "type": "text",
+              "content": " define a difference element [6, §3]"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.37644341801385683,
+            0.30409356725146197,
+            0.6189376443418014,
+            0.3230994152046784
+          ],
+          "image_path": "images/page_2_equation_4.jpg",
+          "content": "d (E, F, \\sigma) \\in K (Y / Y _ {0})"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12933025404157045,
+            0.33187134502923976,
+            0.8660508083140878,
+            0.38596491228070173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y/Y_{0}"
+            },
+            {
+              "type": "text",
+              "content": "  is Y with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y_{0}"
+            },
+            {
+              "type": "text",
+              "content": "  pinched to a point. Hence, if we denote by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(X)"
+            },
+            {
+              "type": "text",
+              "content": "  the unit ball bundle of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T^{*}(X)"
+            },
+            {
+              "type": "text",
+              "content": " , an elliptic operator D defines an element"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.30484988452655887,
+            0.391812865497076,
+            0.6905311778290993,
+            0.41228070175438597
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "d (p ^ {*} E, p ^ {*} F, \\sigma (D)) \\in K (B (X) / S (X))"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12933025404157045,
+            0.4195906432748538,
+            0.7852193995381063,
+            0.43859649122807015
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p: B(X) \\to X"
+            },
+            {
+              "type": "text",
+              "content": " is the projection) and hence an element"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.2863741339491917,
+            0.44590643274853803,
+            0.7113163972286374,
+            0.4649122807017544
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "\\operatorname{ch} d (E, F, \\sigma (D)) \\in H ^ {*} (B (X) / S (X); \\mathcal {Q})."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12933025404157045,
+            0.4722222222222222,
+            0.45727482678983833,
+            0.4926900584795322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the Thom isomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.23094688221709006,
+            0.49707602339181284,
+            0.8637413394919169,
+            0.5175438596491229
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "\\phi_ {*} \\colon H ^ {k} (X; Q) \\cong H ^ {n + k} (B (X) / S (X); Q) \\quad (n = \\dim X)"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12933025404157045,
+            0.5277777777777778,
+            0.45496535796766746,
+            0.5453216374269005
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we obtain finally the element"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.3163972286374134,
+            0.5526315789473685,
+            0.6812933025404158,
+            0.5716374269005848
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "\\phi_ {*} ^ {- 1} \\operatorname{ch} d (E, F, \\sigma (D)) \\in H ^ {*} (X; Q)"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.12702078521939955,
+            0.5789473684210527,
+            0.7297921478060047,
+            0.597953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which we shall simply denote by ch  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  or just ch(D)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.12702078521939955,
+            0.597953216374269,
+            0.8660508083140878,
+            0.6345029239766082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We recall next the definition of the Todd class. For any n-dimensional complex vector bundle  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi"
+            },
+            {
+              "type": "text",
+              "content": "  we define  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Im(\\xi)"
+            },
+            {
+              "type": "text",
+              "content": "  by putting"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.2748267898383372,
+            0.6432748538011696,
+            0.7251732101616628,
+            0.6827485380116959
+          ],
+          "image_path": "images/page_2_equation_15.jpg",
+          "content": "\\Im (\\xi) = \\prod_ {i = 1} ^ {n} \\frac {x _ {i}}{1 - e ^ {- x _ {i}}} \\quad \\text { where } \\quad \\operatorname{ch} \\xi = \\sum_ {i = 1} ^ {n} e ^ {x _ {i}}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.12702078521939955,
+            0.695906432748538,
+            0.8660508083140878,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  are of degree 2. The elementary symmetric functions of the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  are the Chern classes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c_{i}(\\xi)"
+            },
+            {
+              "type": "text",
+              "content": " , so that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Im(\\xi)"
+            },
+            {
+              "type": "text",
+              "content": "  is given by a power series in the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c_{i}(\\xi)"
+            },
+            {
+              "type": "text",
+              "content": " . For a real vector bundle  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta"
+            },
+            {
+              "type": "text",
+              "content": "  we define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.4018475750577367,
+            0.7573099415204678,
+            0.5958429561200924,
+            0.7763157894736842
+          ],
+          "image_path": "images/page_2_equation_17.jpg",
+          "content": "\\Im (\\eta) = \\Im (\\eta \\otimes_ {R} C)"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.12702078521939955,
+            0.7850877192982456,
+            0.8660508083140878,
+            0.8406432748538012
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak{I}(\\eta)"
+            },
+            {
+              "type": "text",
+              "content": " will be given by a power series in the Chern classes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta \\otimes_{R} \\mathbf{C}"
+            },
+            {
+              "type": "text",
+              "content": ", i.e., in the Pontrjagin classes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\eta"
+            },
+            {
+              "type": "text",
+              "content": ". For a differentiable manifold"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{4}"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " we define"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.13394919168591224,
+            0.11988304093567251,
+            0.17551963048498845,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "424"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.3464203233256351,
+            0.12134502923976608,
+            0.6535796766743649,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 21,
+          "bbox": [
+            0.8198614318706697,
+            0.12280701754385964,
+            0.8637413394919169,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 22,
+          "bbox": [
+            0.2817551963048499,
+            0.847953216374269,
+            0.3071593533487298,
+            0.8611111111111112
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "Y_{0}"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 23,
+          "bbox": [
+            0.2863741339491917,
+            0.8757309941520468,
+            0.3348729792147806,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "T(Y)"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 24,
+          "bbox": [
+            0.46882217090069284,
+            0.8611111111111112,
+            0.4896073903002309,
+            0.8757309941520468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 25,
+          "bbox": [
+            0.15473441108545036,
+            0.8464912280701754,
+            0.7066974595842956,
+            0.8625730994152047
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{8}"
+            },
+            {
+              "type": "text",
+              "content": "  We assume  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y_{0}"
+            },
+            {
+              "type": "text",
+              "content": "  a “reasonable” subspace, e.g., a subcomplex."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 26,
+          "bbox": [
+            0.3810623556581986,
+            0.8757309941520468,
+            0.4780600461893764,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "T(X)\\otimes_{R}C."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 27,
+          "bbox": [
+            0.12702078521939955,
+            0.8611111111111112,
+            0.8660508083140878,
+            0.8932748538011696
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{4}"
+            },
+            {
+              "type": "text",
+              "content": "  If Y is a complex manifold with X as underlying differentiable manifold, one must not confuse  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T(Y)"
+            },
+            {
+              "type": "text",
+              "content": "  with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T(X) \\otimes_{R} C"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "equation",
+          "index": 0,
+          "bbox": [
+            0.4097222222222222,
+            0.15497076023391812,
+            0.5879629629629629,
+            0.1739766081871345
+          ],
+          "image_path": "images/page_3_equation_0.jpg",
+          "content": "\\Im (X) = \\Im (T (X))"
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12731481481481483,
+            0.18128654970760233,
+            0.8657407407407407,
+            0.23684210526315788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T(X)"
+            },
+            {
+              "type": "text",
+              "content": "  is the tangent bundle of X. Thus, if the Pontrjagin classes of X are as usual regarded as the elementary symmetric functions in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y_{j}^{2}"
+            },
+            {
+              "type": "text",
+              "content": " , the Todd class is given by:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.33564814814814814,
+            0.24269005847953215,
+            0.6620370370370371,
+            0.2807017543859649
+          ],
+          "image_path": "images/page_3_equation_2.jpg",
+          "content": "\\Im (X) = \\prod_ {j} \\frac {y _ {j}}{1 - e ^ {- y _ {j}}} \\cdot \\frac {- y _ {j}}{1 - e ^ {y _ {j}}}."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.2880116959064328,
+            0.8657407407407407,
+            0.32456140350877194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in H^{*}(X;Q)"
+            },
+            {
+              "type": "text",
+              "content": " we denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha[X]"
+            },
+            {
+              "type": "text",
+              "content": " the value of the top-dimensional component of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " on the fundamental homology class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1527777777777778,
+            0.32456140350877194,
+            0.7731481481481481,
+            0.3406432748538012
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With these definitions we can now state our main result:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.3406432748538012,
+            0.8657407407407407,
+            0.3786549707602339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 1. For any elliptic differential operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D"
+            },
+            {
+              "type": "text",
+              "content": " on a compact oriented differentiable manifold "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " the index "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)"
+            },
+            {
+              "type": "text",
+              "content": " is given by the formula"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3726851851851852,
+            0.3815789473684211,
+            0.6689814814814815,
+            0.40497076023391815
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "\\gamma (D) = \\left\\{\\operatorname{ch} (D) \\cdot \\Im (X) \\right\\} [ X ]."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12731481481481483,
+            0.4108187134502924,
+            0.8657407407407407,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARKS. 1. This formula applies also to elliptic singular integral operators (cf. §4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12731481481481483,
+            0.4473684210526316,
+            0.8657407407407407,
+            0.4824561403508772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. In some special cases one can deduce from Theorem 1 that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)=0"
+            },
+            {
+              "type": "text",
+              "content": " (cf. (3.5))."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12731481481481483,
+            0.4824561403508772,
+            0.8680555555555556,
+            0.5365497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. The right-hand side of this equation gives, a priori, only a rational number. It is a consequence of the theorem that this number must be an integer (cf. §3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12962962962962962,
+            0.5409356725146199,
+            0.8680555555555556,
+            0.631578947368421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Special cases. The most interesting differential operators are those associated with some geometrical structure on X in the following way. Let G be a Lie group, V a fixed real oriented G-module,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V^{*}"
+            },
+            {
+              "type": "text",
+              "content": "  its dual. Then a G-structure on X will mean a principal G-bundle P on X together with an isomorphism (of oriented bundles)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.4097222222222222,
+            0.6374269005847953,
+            0.5902777777777778,
+            0.6564327485380117
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "P \\times_ {G} V \\cong T (X)\\tag{A}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12962962962962962,
+            0.6637426900584795,
+            0.8680555555555556,
+            0.7178362573099415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P \\times_{G} V"
+            },
+            {
+              "type": "text",
+              "content": "  is the vector bundle associated to P by the G-module V. A differential operator  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D: \\Gamma(E) \\to \\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": "  of order k is said to be associated to the G-structure of X if"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.18055555555555555,
+            0.7178362573099415,
+            0.8055555555555556,
+            0.7368421052631579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) there are complex "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "-modules "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M, N"
+            },
+            {
+              "type": "text",
+              "content": " and isomorphisms"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3263888888888889,
+            0.7412280701754386,
+            0.6759259259259259,
+            0.7602339181286549
+          ],
+          "image_path": "images/page_3_equation_14.jpg",
+          "content": "P \\times_ {G} M \\cong E, \\quad P \\times_ {G} N \\cong F,\\tag{B}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.18055555555555555,
+            0.7675438596491229,
+            0.41435185185185186,
+            0.7865497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) there is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "-map"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.4027777777777778,
+            0.793859649122807,
+            0.5995370370370371,
+            0.8128654970760234
+          ],
+          "image_path": "images/page_3_equation_16.jpg",
+          "content": "V ^ {*} \\rightarrow \\operatorname{Hom} (M, N)"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.13194444444444445,
+            0.8201754385964912,
+            0.8680555555555556,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is polynomial of degree k and, via the isomorphisms (A) and (B), induces the symbol  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.13194444444444445,
+            0.8567251461988304,
+            0.8703703703703703,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For such operators we have the following theorem which gives a universal formula for ch D."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 19,
+          "bbox": [
+            0.12962962962962962,
+            0.12280701754385964,
+            0.17592592592592593,
+            0.1388888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.31712962962962965,
+            0.12280701754385964,
+            0.6759259259259259,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.8217592592592593,
+            0.12134502923976608,
+            0.8657407407407407,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "425"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12731481481481483,
+            0.15497076023391812,
+            0.8680555555555556,
+            0.22660818713450293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 2. Let X have a G-structure, dim V=2l, let the image of G in Aut V have rank l, and suppose D:  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma(E)\\to\\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": "  is an elliptic operator associated to the G-structure. Then ch D is the characteristic class of the G-structure corresponding to the universal class"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.30324074074074076,
+            0.23684210526315788,
+            0.7037037037037037,
+            0.2777777777777778
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "(\\operatorname{ch} M - \\operatorname{ch} N) \\prod_ {i = 1} ^ {l} \\omega_ {i} ^ {- 1} \\in H ^ {* *} (B _ {G}; Q)"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12731481481481483,
+            0.2880116959064328,
+            0.8657407407407407,
+            0.35964912280701755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega_{i}"
+            },
+            {
+              "type": "text",
+              "content": " are the negative"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            },
+            {
+              "type": "text",
+              "content": " weights of the real "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "-module "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V"
+            },
+            {
+              "type": "text",
+              "content": ", ch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M"
+            },
+            {
+              "type": "text",
+              "content": " and ch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N"
+            },
+            {
+              "type": "text",
+              "content": " denote the characters of these complex "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "-modules and we use the Borel-Hirzebruch method [7] of describing the cohomology of the classifying space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B_{G}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.35964912280701755,
+            0.8657407407407407,
+            0.39473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARK. This shows that ch D depends, in this case, only on E, F and not on the particular D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12731481481481483,
+            0.39473684210526316,
+            0.8657407407407407,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In (3.1)-(3.3) below we give examples of such operators. In all cases "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = 1"
+            },
+            {
+              "type": "text",
+              "content": ", i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D"
+            },
+            {
+              "type": "text",
+              "content": " is of first order, and the ellipticity is easily verified. (3.1) RIEMANNIAN STRUCTURE. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = SO(2l)"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = R^{2l}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.44590643274853803,
+            0.8657407407407407,
+            0.5526315789473685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda = \\sum_{p=0}^{2l} \\Lambda^p"
+            },
+            {
+              "type": "text",
+              "content": " denote the complexification of the exterior algebra of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V^*"
+            },
+            {
+              "type": "text",
+              "content": ". Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "*"
+            },
+            {
+              "type": "text",
+              "content": " be the usual dualizing transformation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda"
+            },
+            {
+              "type": "text",
+              "content": "; thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "*: \\Lambda^p \\to \\Lambda^{2l-p}"
+            },
+            {
+              "type": "text",
+              "content": " is an isomorphism and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(*)^2 = (-1)^p"
+            },
+            {
+              "type": "text",
+              "content": " when applied to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda^p"
+            },
+            {
+              "type": "text",
+              "content": ". Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha: \\Lambda^p \\to \\Lambda^{2l-p}"
+            },
+            {
+              "type": "text",
+              "content": " be defined by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = i^{p(p+1)-l *}"
+            },
+            {
+              "type": "text",
+              "content": " so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha^2 = 1"
+            },
+            {
+              "type": "text",
+              "content": ". Now take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M(N)"
+            },
+            {
+              "type": "text",
+              "content": " to be the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "+1(-1)"
+            },
+            {
+              "type": "text",
+              "content": " eigenspace of the involution "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda"
+            },
+            {
+              "type": "text",
+              "content": " in the two cases"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.32175925925925924,
+            0.5628654970760234,
+            0.6597222222222222,
+            0.5833333333333334
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "\\text {(i)} \\rho = (*) ^ {2}, \\quad \\text {(ii)} \\rho = \\alpha ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.125,
+            0.5935672514619883,
+            0.8657407407407407,
+            0.6476608187134503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In each case we take  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D=d+\\delta"
+            },
+            {
+              "type": "text",
+              "content": "  where, as usual, d denotes the exterior derivative of forms and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta"
+            },
+            {
+              "type": "text",
+              "content": "  is its formal adjoint. It is easily verified that for any form  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.35185185185185186,
+            0.6578947368421053,
+            0.6458333333333334,
+            0.6769005847953217
+          ],
+          "image_path": "images/page_4_equation_8.jpg",
+          "content": "\\rho \\omega = \\omega \\Rightarrow \\rho (D \\omega) = - D \\omega ,"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.125,
+            0.685672514619883,
+            0.8634259259259259,
+            0.7207602339181286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D: \\Gamma(E) \\to \\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": " is defined. Theorems 1, 2 applied in these two cases give"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.7207602339181286,
+            0.8611111111111112,
+            0.7573099415204678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{p=0}^{2l} (-1)^{p} h^{p} = \\chi[X]"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h^{p} = \\dim H^{p}"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p}"
+            },
+            {
+              "type": "text",
+              "content": " is the space of harmonic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-forms and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi"
+            },
+            {
+              "type": "text",
+              "content": " is the Euler class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ";"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1527777777777778,
+            0.7558479532163743,
+            0.43287037037037035,
+            0.7748538011695907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{+}^{l} - h_{-}^{l} = 0"
+            },
+            {
+              "type": "text",
+              "content": " if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " is odd"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.19675925925925927,
+            0.7748538011695907,
+            0.8078703703703703,
+            0.793859649122807
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "= L(X)"
+            },
+            {
+              "type": "text",
+              "content": ", the Hirzebruch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": "-genus [17], if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " is even,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.125,
+            0.7923976608187134,
+            0.8611111111111112,
+            0.827485380116959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{+}^{l}=\\dim H_{+}^{l}"
+            },
+            {
+              "type": "text",
+              "content": " ,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{-}^{l}=\\dim H_{-}^{l}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{l}=H_{+}^{l}\\oplus H_{-}^{l}"
+            },
+            {
+              "type": "text",
+              "content": "  is the decomposition into the eigenspaces of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15046296296296297,
+            0.827485380116959,
+            0.8634259259259259,
+            0.8464912280701754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Case (i) is an elementary consequence of the Hodge theory and the"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.1736111111111111,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "426"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.3449074074074074,
+            0.12280701754385964,
+            0.6550925925925926,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.8194444444444444,
+            0.12280701754385964,
+            0.8657407407407407,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.125,
+            0.8611111111111112,
+            0.8611111111111112,
+            0.8932748538011696
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{5}"
+            },
+            {
+              "type": "text",
+              "content": "  The “negative” weights depend on some choices, but their product depends only on the orientation of V which is fixed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12962962962962962,
+            0.15497076023391812,
+            0.8657407407407407,
+            0.20760233918128654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Gauss-Bonnet formula. Case (ii) is the Hirzebruch index theorem [17, §8], since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h_{+}^{l} - h_{-}^{l}"
+            },
+            {
+              "type": "text",
+              "content": " is, for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "l"
+            },
+            {
+              "type": "text",
+              "content": " even, easily seen to be the index (or signature) of the quadratic form in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{l}"
+            },
+            {
+              "type": "text",
+              "content": " given by the cup-product."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12731481481481483,
+            0.20760233918128654,
+            0.8657407407407407,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARK. Operating on the space of all forms  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d+\\delta"
+            },
+            {
+              "type": "text",
+              "content": "  is formally self-adjoint and so has index zero. We get an interesting index therefore only by decomposing the space of forms and restricting the domain of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d+\\delta"
+            },
+            {
+              "type": "text",
+              "content": "  as above. The same remark applies to the next two examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1550925925925926,
+            0.2777777777777778,
+            0.7430555555555556,
+            0.2953216374269006
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3.2) HERMITIAN STRUCTURE. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = U(l) \\times U(m), V = \\mathbf{C}^l"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12962962962962962,
+            0.29678362573099415,
+            0.8657407407407407,
+            0.3669590643274854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We start now with a complex manifold X of complex dimension l, and a holomorphic vector bundle W of dimension m, both with Hermitian metrics. Let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Lambda = \\sum_{p=0}^{l} \\Lambda^{p}"
+            },
+            {
+              "type": "text",
+              "content": "  denote the exterior algebra of V and define the G-modules"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.2337962962962963,
+            0.3757309941520468,
+            0.7708333333333334,
+            0.4152046783625731
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "M = \\left(\\sum_ {k} \\Lambda^ {2 k}\\right) \\otimes \\mathbf {C} ^ {m}, \\quad N = \\left(\\sum_ {k} \\Lambda^ {2 k + 1}\\right) \\otimes \\mathbf {C} ^ {m}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.4269005847953216,
+            0.8657407407407407,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V \\cong \\overline{V}^{*}"
+            },
+            {
+              "type": "text",
+              "content": "  as G-modules we can interpret  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma(E)"
+            },
+            {
+              "type": "text",
+              "content": " ,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": "  as spaces of forms of type  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(0, p)"
+            },
+            {
+              "type": "text",
+              "content": "  with coefficients in W. We take  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = \\overline{\\partial} + d"
+            },
+            {
+              "type": "text",
+              "content": "  where, as usual,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline{\\partial}"
+            },
+            {
+              "type": "text",
+              "content": "  is the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(0, 1)"
+            },
+            {
+              "type": "text",
+              "content": "  component of the exterior derivative and d is its formal adjoint. The index of D is now"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3587962962962963,
+            0.5073099415204678,
+            0.6342592592592593,
+            0.5497076023391813
+          ],
+          "image_path": "images/page_5_equation_6.jpg",
+          "content": "\\gamma (D) = \\sum_ {p = 0} ^ {l} (- 1) ^ {p} h ^ {0, p} (W)"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12731481481481483,
+            0.5599415204678363,
+            0.8657407407407407,
+            0.6301169590643275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h^{0,p}(W) = \\dim H^{0,p}(W)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{0,p}(W)"
+            },
+            {
+              "type": "text",
+              "content": " denotes the space of harmonic forms of type "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(0, p)"
+            },
+            {
+              "type": "text",
+              "content": " with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": " (relative to the Laplacian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline{\\partial}\\mathfrak{d} + \\mathfrak{d}\\overline{\\partial}"
+            },
+            {
+              "type": "text",
+              "content": "). But by the Dolbeault isomorphism [17, §15] we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.3819444444444444,
+            0.6286549707602339,
+            0.6157407407407407,
+            0.6476608187134503
+          ],
+          "image_path": "images/page_5_equation_8.jpg",
+          "content": "H ^ {0, p} (W) \\cong H ^ {p} (X, W)"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12731481481481483,
+            0.6578947368421053,
+            0.8657407407407407,
+            0.7309941520467836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{p}(X, W)"
+            },
+            {
+              "type": "text",
+              "content": "  denotes the p-dimensional cohomology group of X with coefficients in the sheaf of germs of holomorphic sections of W. Applying Theorems 1, 2 we get the Hirzebruch-Riemann-Roch theorem:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12962962962962962,
+            0.7368421052631579,
+            0.8657407407407407,
+            0.7748538011695907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 3. For any compact complex manifold X and any holomorphic vector bundle W we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.2569444444444444,
+            0.7807017543859649,
+            0.7407407407407407,
+            0.8026315789473685
+          ],
+          "image_path": "images/page_5_equation_11.jpg",
+          "content": "\\sum (- 1) ^ {p} \\dim H ^ {p} (X, W) = \\left\\{\\operatorname{ch} (W) \\mathfrak {I} (X) \\right\\} [ X ],"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12962962962962962,
+            0.8128654970760234,
+            0.8611111111111112,
+            0.8318713450292398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Im(X)"
+            },
+            {
+              "type": "text",
+              "content": " denotes the Todd class of the (complex) tangent bundle of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.12731481481481483,
+            0.8406432748538012,
+            0.8657407407407407,
+            0.8932748538011696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This theorem was proved for projective algebraic manifolds by Hirzebruch [17] and, in a weaker form, by Kodaira [18] for Kahler surfaces."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.13194444444444445,
+            0.12280701754385964,
+            0.17824074074074073,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.32175925925925924,
+            0.12280701754385964,
+            0.6782407407407407,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.8240740740740741,
+            0.12134502923976608,
+            0.8657407407407407,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "427"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.1527777777777778,
+            0.15497076023391812,
+            0.6736111111111112,
+            0.1739766081871345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3.3) SPINOR STRUCTURE. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = \\operatorname{Spin}(2l)"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = R^{2l}"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12731481481481483,
+            0.1739766081871345,
+            0.8657407407407407,
+            0.24415204678362573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We take  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M = S^{+}"
+            },
+            {
+              "type": "text",
+              "content": " ,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = S^{-}"
+            },
+            {
+              "type": "text",
+              "content": "  to be the two half-spin representations. The Dirac operator D is a first order differential operator on spinor fields given, in terms of an orthonormal base  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{e_{i}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  of the tangent space, by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.4097222222222222,
+            0.23976608187134502,
+            0.5810185185185185,
+            0.2719298245614035
+          ],
+          "image_path": "images/page_6_equation_2.jpg",
+          "content": "D s = \\sum_ {i} e _ {i} \\partial_ {i} (s)"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.27923976608187134,
+            0.8657407407407407,
+            0.38742690058479534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial_{i}(s)"
+            },
+            {
+              "type": "text",
+              "content": " is the covariant derivative in the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i"
+            },
+            {
+              "type": "text",
+              "content": "th direction and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e_{i}"
+            },
+            {
+              "type": "text",
+              "content": " operates on spinors by Clifford multiplication (cf. [10, §10]). "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D"
+            },
+            {
+              "type": "text",
+              "content": " interchanges positive and negative spinors. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H(S)"
+            },
+            {
+              "type": "text",
+              "content": " denote the space of all harmonic spinors (relative to the Laplacian "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D^{2}"
+            },
+            {
+              "type": "text",
+              "content": "), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H(S)=H(S^{+})\\oplus H(S^{-})"
+            },
+            {
+              "type": "text",
+              "content": " the decomposition into positive and negative spinors, and put"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.2569444444444444,
+            0.391812865497076,
+            0.7268518518518519,
+            0.41228070175438597
+          ],
+          "image_path": "images/page_6_equation_4.jpg",
+          "content": "h ^ {+} (S) = \\dim H (S ^ {+}), \\quad h ^ {-} (S) = \\dim H (S ^ {-})."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12731481481481483,
+            0.4195906432748538,
+            0.5416666666666666,
+            0.43859649122807015
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then, applying Theorems 1, 2 we get"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12731481481481483,
+            0.44590643274853803,
+            0.8657407407407407,
+            0.4824561403508772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THEOREM 4. Let X be a manifold of even dimension with a spinorstructure. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3726851851851852,
+            0.4868421052631579,
+            0.625,
+            0.5058479532163743
+          ],
+          "image_path": "images/page_6_equation_7.jpg",
+          "content": "h ^ {+} (S) - h ^ {-} (D) = A (X)"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12731481481481483,
+            0.5116959064327485,
+            0.5879629629629629,
+            0.533625730994152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat{A}(X)"
+            },
+            {
+              "type": "text",
+              "content": " is the Hirzebruch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat{A}"
+            },
+            {
+              "type": "text",
+              "content": "-genus [7]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12731481481481483,
+            0.5409356725146199,
+            0.8680555555555556,
+            0.5760233918128655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARKS. (1) The results of (3.1) and (3.3) can, like (3.2), be generalized to forms or spinors with coefficients in a vector bundle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12731481481481483,
+            0.5745614035087719,
+            0.8680555555555556,
+            0.6812865497076024
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) These results give an interesting analytical interpretation to the various “integrality theorems” for the L-genus,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat{A}"
+            },
+            {
+              "type": "text",
+              "content": " -genus and Todd genus (cf. [7]). All these integers now appear as the indices of elliptic operators. For example, it was known that the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat{A}"
+            },
+            {
+              "type": "text",
+              "content": " -genus was an integer for Spin-manifolds, but not for general manifolds. Theorem 4 provides an explanation of this."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12731481481481483,
+            0.6812865497076024,
+            0.8703703703703703,
+            0.7690058479532164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3.4) HOMOGENEOUS SPACES. Consider a homogeneous space "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = H / G"
+            },
+            {
+              "type": "text",
+              "content": " of a compact Lie group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": ", let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M, N"
+            },
+            {
+              "type": "text",
+              "content": " be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "-modules and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D"
+            },
+            {
+              "type": "text",
+              "content": " any elliptic operator between the associated vector bundles which is invariant under the action of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H"
+            },
+            {
+              "type": "text",
+              "content": ". Then, by direct methods, using induced representations, Bott [9] has shown that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.1550925925925926,
+            0.7675438596491229,
+            0.5115740740740741,
+            0.7865497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) if rank "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G < \\operatorname{rank} H"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D) = 0"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.12731481481481483,
+            0.7865497076023392,
+            0.8680555555555556,
+            0.8377192982456141
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) if rank G=rank H (so that dim H/G is even) the formula for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)"
+            },
+            {
+              "type": "text",
+              "content": "  given by Theorems 1, 2 comes out of the Hermann Weyl character formula."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.12731481481481483,
+            0.8391812865497076,
+            0.8680555555555556,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3.5) CASES OF ZERO INDEX. In some cases one can prove that ch D=0 and so, from Theorem 1,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)=0"
+            },
+            {
+              "type": "text",
+              "content": " . For example one can prove"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.17592592592592593,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "428"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.3449074074074074,
+            0.12280701754385964,
+            0.6527777777777778,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 17,
+          "bbox": [
+            0.8194444444444444,
+            0.12280701754385964,
+            0.8657407407407407,
+            0.1388888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12962962962962962,
+            0.15497076023391812,
+            0.8657407407407407,
+            0.1915204678362573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROPOSITION 1. Let dim X be odd and let D be an elliptic operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{6}"
+            },
+            {
+              "type": "text",
+              "content": " such that, for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi\\in S(X)"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.37962962962962965,
+            0.19298245614035087,
+            0.6180555555555556,
+            0.2149122807017544
+          ],
+          "image_path": "images/page_7_equation_1.jpg",
+          "content": "\\sigma (D) (- \\xi) \\cdot \\left\\{\\sigma (S) (\\xi) \\right\\} ^ {- 1}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12731481481481483,
+            0.2222222222222222,
+            0.5671296296296297,
+            0.2412280701754386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "depends only on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi (\\xi)\\in X"
+            },
+            {
+              "type": "text",
+              "content": " . Then ch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12731481481481483,
+            0.24853801169590642,
+            0.8680555555555556,
+            0.3026315789473684
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An elliptic differential operator always fulfills the condition above (since  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma(D)(\\xi)"
+            },
+            {
+              "type": "text",
+              "content": "  is then a homogeneous polynomial in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\xi"
+            },
+            {
+              "type": "text",
+              "content": " ). Hence the index is zero in this case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12962962962962962,
+            0.30994152046783624,
+            0.8657407407407407,
+            0.34502923976608185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROPOSITION 2. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dim X = n"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D = \\Gamma(E) \\to \\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": " an elliptic operator' where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " are trivial bundles of dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": ". Then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1574074074074074,
+            0.34502923976608185,
+            0.4722222222222222,
+            0.36257309941520466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) (ch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D)_{q} = 0"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q > 2m - n"
+            },
+            {
+              "type": "text",
+              "content": ","
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1550925925925926,
+            0.36257309941520466,
+            0.7060185185185185,
+            0.3815789473684211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) (ch "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D)_{0} = 0"
+            },
+            {
+              "type": "text",
+              "content": " if the Euler number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " is nonzero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.12962962962962962,
+            0.3888888888888889,
+            0.8657407407407407,
+            0.42543859649122806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From this, using Theorem 1, and the fact that Pontrjagin classes only occur in dimensions divisible by 4 we deduce that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(D)=0"
+            },
+            {
+              "type": "text",
+              "content": " if"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1574074074074074,
+            0.4239766081871345,
+            0.28935185185185186,
+            0.44298245614035087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m <   n / 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12731481481481483,
+            0.45760233918128657,
+            0.8217592592592593,
+            0.4926900584795322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = n / 2"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " has nonzero Euler number or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\neq 0 \\mod 4"
+            },
+            {
+              "type": "text",
+              "content": " or"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12962962962962962,
+            0.49415204678362573,
+            0.8657407407407407,
+            0.5307017543859649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m < n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " has zero Pontrjagin classes in positive dimensions (e.g., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " a hypersurface in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb{R}^{n+1}"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12962962962962962,
+            0.5307017543859649,
+            0.8657407407407407,
+            0.5672514619883041
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The preceding cases of zero index include and generalize all the cases given in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[2; 3; 14; 15; 20; 22]"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12962962962962962,
+            0.5730994152046783,
+            0.8680555555555556,
+            0.6637426900584795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. The group of elliptic symbols. If E, F are two vector bundles on X we have the set  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\text{Diff}(E, F)"
+            },
+            {
+              "type": "text",
+              "content": "  of all differential operators  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D: \\Gamma(E) \\to \\Gamma(F)"
+            },
+            {
+              "type": "text",
+              "content": " . We can also consider the set  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\text{Int}(E, F)"
+            },
+            {
+              "type": "text",
+              "content": "  of all singular integral operators (cf. Seeley [19] and Dynin [14]), and we have a commutative diagram "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{7}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.2847222222222222,
+            0.672514619883041,
+            0.7129629629629629,
+            0.7631578947368421
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.2847222222222222,
+                0.672514619883041,
+                0.7129629629629629,
+                0.7631578947368421
+              ],
+              "image_path": "images/page_7_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.12962962962962962,
+            0.7748538011695907,
+            0.8680555555555556,
+            0.847953216374269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The bottom  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma"
+            },
+            {
+              "type": "text",
+              "content": "  (which is surjective) is a symbol given by a Fourier transform and the vertical map  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda"
+            },
+            {
+              "type": "text",
+              "content": "  is that of Calderon-Zygmund [11]. Ellipticity and the index  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": "  are defined for integral operators as for differential operators and one has"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.13194444444444445,
+            0.12280701754385964,
+            0.17592592592592593,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.3194444444444444,
+            0.12134502923976608,
+            0.6782407407407407,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.8263888888888888,
+            0.12134502923976608,
+            0.8657407407407407,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "429"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 18,
+          "bbox": [
+            0.1597222222222222,
+            0.8742690058479532,
+            0.8263888888888888,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{7}"
+            },
+            {
+              "type": "text",
+              "content": "  Hom denotes here the set of all continuous vector bundle homomorphisms."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 19,
+          "bbox": [
+            0.1597222222222222,
+            0.8581871345029239,
+            0.46296296296296297,
+            0.8757309941520468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "* Differential or integral (see §4)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "equation",
+          "index": 0,
+          "bbox": [
+            0.4050925925925926,
+            0.15058479532163743,
+            0.5902777777777778,
+            0.1695906432748538
+          ],
+          "image_path": "images/page_8_equation_0.jpg",
+          "content": "\\gamma (D) = \\gamma (\\lambda (D))."
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.12731481481481483,
+            0.17543859649122806,
+            0.8657407407407407,
+            0.24415204678362573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Moreover the index depends only on the symbol, so that we can regard  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": "  as an integer-valued function on Iso  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(\\pi^{*}E, \\pi^{*}F)"
+            },
+            {
+              "type": "text",
+              "content": "  (the set of all continuous vector bundle isomorphisms). Moreover, one can show that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.1550925925925926,
+            0.24561403508771928,
+            0.44212962962962965,
+            0.2646198830409357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma (\\sigma \\oplus \\sigma^{\\prime}) = \\gamma (\\sigma) + \\gamma (\\sigma^{\\prime}),"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.1574074074074074,
+            0.2631578947368421,
+            0.4236111111111111,
+            0.2807017543859649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma (\\sigma \\sigma^{\\prime}) = \\gamma (\\sigma) + \\gamma (\\sigma^{\\prime}),"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12962962962962962,
+            0.2807017543859649,
+            0.8657407407407407,
+            0.3538011695906433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii)  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(\\sigma)=0"
+            },
+            {
+              "type": "text",
+              "content": "  if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma"
+            },
+            {
+              "type": "text",
+              "content": "  extends to an isomorphism  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^{*}E\\to p^{*}F"
+            },
+            {
+              "type": "text",
+              "content": "  on  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(X)"
+            },
+            {
+              "type": "text",
+              "content": " . Let us now define an equivalence relation on the set of all elliptic symbols by:  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma\\sim\\sigma'"
+            },
+            {
+              "type": "text",
+              "content": "  if there exist  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{i}\\ (i=1,\\cdots,4)"
+            },
+            {
+              "type": "text",
+              "content": "  which extend to  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(X)"
+            },
+            {
+              "type": "text",
+              "content": "  such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3680555555555556,
+            0.35964912280701755,
+            0.6273148148148148,
+            0.3786549707602339
+          ],
+          "image_path": "images/page_8_equation_5.jpg",
+          "content": "\\sigma^ {\\prime} \\oplus \\alpha_ {1} = \\alpha_ {2} (\\sigma \\oplus \\alpha_ {3}) \\alpha_ {4},"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12731481481481483,
+            0.38742690058479534,
+            0.8657407407407407,
+            0.4415204678362573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and denote the set of equivalence classes by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Ell}(X)"
+            },
+            {
+              "type": "text",
+              "content": ". It is an abelian semi-group under "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\oplus"
+            },
+            {
+              "type": "text",
+              "content": " and (i)-(iii) show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " induces a homomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.41435185185185186,
+            0.44883040935672514,
+            0.5787037037037037,
+            0.4678362573099415
+          ],
+          "image_path": "images/page_8_equation_7.jpg",
+          "content": "\\gamma \\colon \\operatorname{Ell} (X) \\to \\mathbf {Z}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1527777777777778,
+            0.4766081871345029,
+            0.44212962962962965,
+            0.4956140350877193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " defined by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3680555555555556,
+            0.5,
+            0.625,
+            0.5219298245614035
+          ],
+          "image_path": "images/page_8_equation_9.jpg",
+          "content": "\\mu (\\sigma) = \\left\\{\\operatorname{ch} (\\sigma) \\Im (X) \\right\\} [ X ]"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.12731481481481483,
+            0.5307017543859649,
+            0.4722222222222222,
+            0.5497076023391813
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "defines another homomorphism"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.44212962962962965,
+            0.5584795321637427,
+            0.6041666666666666,
+            0.5760233918128655
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "\\mu \\colon \\operatorname{Ell} (X) \\to Q"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12731481481481483,
+            0.5862573099415205,
+            0.8657407407407407,
+            0.6228070175438597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and Theorem 1 asserts that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu = \\gamma"
+            },
+            {
+              "type": "text",
+              "content": ". The first main step in the proof is the determination of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Ell}(X)"
+            },
+            {
+              "type": "text",
+              "content": ":"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.12731481481481483,
+            0.6301169590643275,
+            0.8657407407407407,
+            0.685672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROPOSITION 3. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Ell}(X)"
+            },
+            {
+              "type": "text",
+              "content": " is an abelian group and the tensor product makes it into a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": "-module. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dim X"
+            },
+            {
+              "type": "text",
+              "content": " is even, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_0"
+            },
+            {
+              "type": "text",
+              "content": " denotes the operator of (3.1) (ii), and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma_0 = \\sigma(D_0)"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Ell}(X)/K(X)"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma_0"
+            },
+            {
+              "type": "text",
+              "content": " is a finite group."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.12731481481481483,
+            0.6915204678362573,
+            0.8657407407407407,
+            0.7456140350877193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is proved by first showing that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{8}"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{Ell}(X) \\cong \\tilde{K}(B(X)/S(X))"
+            },
+            {
+              "type": "text",
+              "content": ", then applying the Chern character and observing that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname{ch}(\\sigma_{0})"
+            },
+            {
+              "type": "text",
+              "content": " is an invertible element of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H^{*}(X; \\mathcal{Q})"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.12731481481481483,
+            0.7441520467836257,
+            0.8657407407407407,
+            0.7967836257309941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARK. If X admits either a complex or spinor structure then the symbols of the operators of (3.2) (with W=1) or (3.3) actually generate  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\text{Ell}(X)"
+            },
+            {
+              "type": "text",
+              "content": "  freely as a  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K(X)"
+            },
+            {
+              "type": "text",
+              "content": " -module."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.12731481481481483,
+            0.7967836257309941,
+            0.8657407407407407,
+            0.8698830409356725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 3 reduces us to checking that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(W\\sigma_0) = \\mu(W\\sigma_0)"
+            },
+            {
+              "type": "text",
+              "content": " for all vector bundles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ". Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(W\\sigma_0)"
+            },
+            {
+              "type": "text",
+              "content": " may be computed as the index of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D_0"
+            },
+            {
+              "type": "text",
+              "content": " \"with coefficients in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": ".\" Thus, for fixed "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ", we have replaced the general elliptic operator by one of this standard type. Having"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.1736111111111111,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "430"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.3449074074074074,
+            0.12280701754385964,
+            0.6527777777777778,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.8194444444444444,
+            0.12280701754385964,
+            0.8657407407407407,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 20,
+          "bbox": [
+            0.1574074074074074,
+            0.8742690058479532,
+            0.5787037037037037,
+            0.8918128654970761
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{8} \\tilde{K}"
+            },
+            {
+              "type": "text",
+              "content": " denotes the “reduced” group of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K"
+            },
+            {
+              "type": "text",
+              "content": " (cf. [5])."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12731481481481483,
+            0.15497076023391812,
+            0.8634259259259259,
+            0.19298245614035087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "thus normalized our operators we propose next to vary X. To exhibit the dependence on X we shall now write"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.2638888888888889,
+            0.20175438596491227,
+            0.7291666666666666,
+            0.22076023391812866
+          ],
+          "image_path": "images/page_9_equation_1.jpg",
+          "content": "\\mu (W \\sigma_ {0}) = \\mu (X, W), \\quad \\gamma (W \\sigma_ {0}) = \\gamma (X, W)."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12731481481481483,
+            0.2309941520467836,
+            0.8657407407407407,
+            0.33771929824561403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Cobordism. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W = 1"
+            },
+            {
+              "type": "text",
+              "content": " the equality "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu(X, 1) = \\gamma(X, 1)"
+            },
+            {
+              "type": "text",
+              "content": " is just the Hirzebruch index theorem (3.1) (ii). We shall therefore imitate Hirzebruch's proof [17, §8] in our more general case. First we introduce the equivalence relation of cobordism on pairs "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(X, W)"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " is a smooth compact oriented manifold of even dimension and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W"
+            },
+            {
+              "type": "text",
+              "content": " is a complex vector bundle on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ":"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.38425925925925924,
+            0.347953216374269,
+            0.6111111111111112,
+            0.3669590643274854
+          ],
+          "image_path": "images/page_9_equation_3.jpg",
+          "content": "(X _ {1}, W _ {1}) \\sim (X _ {2}, W _ {2})"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12731481481481483,
+            0.37719298245614036,
+            0.8657407407407407,
+            0.48391812865497075
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "if there exists a smooth compact oriented manifold Y with boundary  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial Y = X_{1} \\cup (-X_{2})"
+            },
+            {
+              "type": "text",
+              "content": "  ( "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-X_{2}"
+            },
+            {
+              "type": "text",
+              "content": "  denotes  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X_{2}"
+            },
+            {
+              "type": "text",
+              "content": "  with the opposite orientation) and a complex vector bundle U on Y with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U|X_{i} \\cong W_{i}"
+            },
+            {
+              "type": "text",
+              "content": " . The set of cobordism classes forms an abelian group, the addition being given by disjoint sums. We denote this group by A. Then the second main step in the proof of Theorem 1 is:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.1527777777777778,
+            0.49122807017543857,
+            0.8402777777777778,
+            0.5102339181286549
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "\\text { PROPOSITION   4.   If } (X, W) \\sim 0 \\text { then } \\mu (X, W) = 0 \\text { and } \\gamma (X, W) = 0."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12731481481481483,
+            0.5175438596491229,
+            0.8680555555555556,
+            0.6578947368421053
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REMARKS. The vanishing of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": " is elementary. In the case considered by Hirzebruch ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "W=1"
+            },
+            {
+              "type": "text",
+              "content": ") the vanishing of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": " follows from the topological interpretation of the index. In the general case, however, we have to give an analytical proof. The idea of the proof is as follows. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\partial Y=X"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "U|X=W"
+            },
+            {
+              "type": "text",
+              "content": ". On "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Y"
+            },
+            {
+              "type": "text",
+              "content": " the elliptic differential operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D=*d+d*"
+            },
+            {
+              "type": "text",
+              "content": " operates"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^{9}"
+            },
+            {
+              "type": "text",
+              "content": " on the vector bundle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sum_{k}\\Lambda^{2k}\\otimes W"
+            },
+            {
+              "type": "text",
+              "content": ". Along the boundary "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " this vector bundle splits into "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E\\otimes W"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F\\otimes W"
+            },
+            {
+              "type": "text",
+              "content": " of (3.1) (ii). Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3425925925925926,
+            0.6564327485380117,
+            0.6597222222222222,
+            0.7017543859649122
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "\\begin{array}{l l} D u = 0, & \\quad u \\mid X \\in F \\otimes W, \\\\ D u = 0, & \\quad u \\mid X \\in E \\otimes W \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12962962962962962,
+            0.7076023391812866,
+            0.8657407407407407,
+            0.7441520467836257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "are well-posed boundary problems in the sense of [1] which give rise to a singular integral operator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T"
+            },
+            {
+              "type": "text",
+              "content": " on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": " (see [3]) such that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.16203703703703703,
+            0.7426900584795322,
+            0.30787037037037035,
+            0.7616959064327485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i)  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma(T)=0,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13194444444444445,
+            0.7646198830409356,
+            0.18055555555555555,
+            0.7807017543859649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.1550925925925926,
+            0.783625730994152,
+            0.3425925925925926,
+            0.8011695906432749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma (T) = W\\sigma_0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12962962962962962,
+            0.8011695906432749,
+            0.8680555555555556,
+            0.8567251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, by generalizing the basic work of Thom, one can determine the group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " (cf. [12]). In fact for our purposes it is enough to determine "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\otimes Q"
+            },
+            {
+              "type": "text",
+              "content": " which is somewhat easier. To complete the proof of"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.12962962962962962,
+            0.12280701754385964,
+            0.17592592592592593,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.31712962962962965,
+            0.12280701754385964,
+            0.6759259259259259,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.8217592592592593,
+            0.12134502923976608,
+            0.8611111111111112,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "431"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 16,
+          "bbox": [
+            0.45601851851851855,
+            0.8625730994152047,
+            0.4837962962962963,
+            0.8771929824561403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "W"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 17,
+          "bbox": [
+            0.12962962962962962,
+            0.8625730994152047,
+            0.8657407407407407,
+            0.8932748538011696
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "^{9}"
+            },
+            {
+              "type": "text",
+              "content": "  One has to use a connection in W so that d will operate on forms with coefficients in W."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.12731481481481483,
+            0.15497076023391812,
+            0.8657407407407407,
+            0.20760233918128654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1, for dim X even, we therefore need only check that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu=\\gamma"
+            },
+            {
+              "type": "text",
+              "content": "  on the generators of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A\\otimes Q"
+            },
+            {
+              "type": "text",
+              "content": " . In fact one can prove that both  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": "  are multiplicative, i.e., that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.24768518518518517,
+            0.2149122807017544,
+            0.7453703703703703,
+            0.23391812865497075
+          ],
+          "image_path": "images/page_10_equation_1.jpg",
+          "content": "\\mu (X _ {1}, W _ {1}) \\cdot \\mu (X _ {2}, W _ {2}) = \\mu (X _ {1} \\times X _ {2}, W _ {1} \\otimes W _ {2})"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.12962962962962962,
+            0.24269005847953215,
+            0.8657407407407407,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and similarly for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": ". Using this one is finally reduced to checking the following:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12962962962962962,
+            0.2777777777777778,
+            0.8657407407407407,
+            0.3128654970760234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the Hirzebruch index of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P_{2n}(\\mathbf{C})"
+            },
+            {
+              "type": "text",
+              "content": "  (complex projective space) is equal to 1;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15046296296296297,
+            0.3128654970760234,
+            0.6412037037037037,
+            0.3304093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the Euler number of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S^{2n}"
+            },
+            {
+              "type": "text",
+              "content": " (the sphere) is 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12962962962962962,
+            0.3304093567251462,
+            0.8657407407407407,
+            0.3669590643274854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Alternatively we observe that the generators of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\otimes Q"
+            },
+            {
+              "type": "text",
+              "content": "  are all homogeneous bundles over homogeneous spaces so that one can use (3.4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.12962962962962962,
+            0.3654970760233918,
+            0.8657407407407407,
+            0.41812865497076024
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By using the multiplicative property of the index the case of an odd-dimensional X can be reduced to that of the even-dimensional manifold  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\times S^{1}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13194444444444445,
+            0.4269005847953216,
+            0.8680555555555556,
+            0.48099415204678364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Further remarks. (1) A more general definition of ellipticity than that used here has been given in [13]. It is not difficult to formulate this for vector bundles and show that Theorem 1 still holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13194444444444445,
+            0.48099415204678364,
+            0.8680555555555556,
+            0.5146198830409356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) Another generalization is to introduce elliptic complexes, i.e., sequences"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3055555555555556,
+            0.52046783625731,
+            0.6921296296296297,
+            0.5497076023391813
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "E \\colon 0 \\longrightarrow E _ {n} \\stackrel {D} {\\longrightarrow} E _ {n - 1} \\stackrel {D} {\\longrightarrow} \\cdot \\cdot \\cdot \\stackrel {D} {\\longrightarrow} E _ {0} \\longrightarrow 0"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13194444444444445,
+            0.5628654970760234,
+            0.8680555555555556,
+            0.6345029239766082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "of differential operators (of the same order) with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "D^{2}=0"
+            },
+            {
+              "type": "text",
+              "content": "  and such that the sequence of symbols on  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S(X)"
+            },
+            {
+              "type": "text",
+              "content": "  is exact. Examples: D=d or  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline{\\partial}"
+            },
+            {
+              "type": "text",
+              "content": " . The index now gets replaced by the Euler characteristic of the cohomology of the complex  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma(E)"
+            },
+            {
+              "type": "text",
+              "content": " . Theorem 1 extends to this case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13194444444444445,
+            0.6345029239766082,
+            0.8703703703703703,
+            0.6871345029239766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) In view of Theorem 3 it is natural to hope that the Grothen-dieck-Riemann-Roch theorem for proper maps of complex manifolds will come out of a suitable generalization of Theorem 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.13194444444444445,
+            0.685672514619883,
+            0.8726851851851852,
+            0.7587719298245614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) The problem of extending Theorem 1 to manifolds with boundary presents some difficulties. However, using the results of [3] one can use Theorem 1 to compute the index of a large class of boundary problems."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.43287037037037035,
+            0.7631578947368421,
+            0.5787037037037037,
+            0.7792397660818714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REFERENCES"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.13425925925925927,
+            0.7850877192982456,
+            0.8680555555555556,
+            0.8304093567251462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. S. Agmon, A. Douglas and L. Nirenberg, Estimates near the boundary for solutions of elliptic PDE satisfying general boundary conditions. I, Comm. Pure Appl. Math. 12 (1959), 623–727; II (to appear)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.13425925925925927,
+            0.8304093567251462,
+            0.8680555555555556,
+            0.8581871345029239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. M. S. Agranovic, On the index of elliptic operators, Soviet Math. Dokl. 3 (1962), 194."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.13425925925925927,
+            0.8581871345029239,
+            0.8703703703703703,
+            0.8888888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. M. S. Agranovic and A. D. Dynin, General boundary value problems for elliptic systems in higher-dimensional regions, Dokl. Akad. Nauk SSSR. 146 (1962), 511–514."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.13194444444444445,
+            0.12134502923976608,
+            0.1736111111111111,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "432"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 18,
+          "bbox": [
+            0.3449074074074074,
+            0.12280701754385964,
+            0.6527777777777778,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M. F. ATIYAH AND I. M. SINGER"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 19,
+          "bbox": [
+            0.8171296296296297,
+            0.12280701754385964,
+            0.8634259259259259,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[May"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.13394919168591224,
+            0.15497076023391812,
+            0.8637413394919169,
+            0.18567251461988304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. M. F. Atiyah, The Grothendieck ring in geometry and topology. Proc. Internat. Congr. Math., Stockholm, 1962 (to appear)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.13394919168591224,
+            0.18421052631578946,
+            0.8637413394919169,
+            0.2149122807017544
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. M. F. Atiyah and F. Hirzebruch, Vector bundles and homogeneous spaces, Proc. Sympos. Pure Math., Vol. 3, pp. 7–38, Amer. Math. Soc., Providence, R. I., 1961."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.15935334872979215,
+            0.2134502923976608,
+            0.8221709006928406,
+            0.22953216374269006
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. ——, Analytic cycles on complex manifolds, Topology 1 (1962), 25–45."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.13394919168591224,
+            0.22807017543859648,
+            0.8637413394919169,
+            0.25877192982456143
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. A. Borel and F. Hirzebruch, Characteristic classes and homogeneous spaces, Amer. J. Math. 80 (1958), 458–538; 81 (1959); 315–382, 82 (1960), 491–504."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.13394919168591224,
+            0.2573099415204678,
+            0.8637413394919169,
+            0.28654970760233917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. R. Bott, The stable homotopy of the classical groups. Ann. of Math. (2) 70 (1959), 313–337."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.13394919168591224,
+            0.3026315789473684,
+            0.8637413394919169,
+            0.33187134502923976
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. R. Brauer and H. Weyl, Spinors in n-dimensions, Amer. J. Math. 57 (1935), 425–449."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.13394919168591224,
+            0.3304093567251462,
+            0.8660508083140878,
+            0.35964912280701755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. A. P. Calderon and A. Zygmund, Singular integral operators and differential equations, Amer. J. Math. 79 (1957), 901–921."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.13394919168591224,
+            0.35964912280701755,
+            0.8660508083140878,
+            0.3888888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. P. Conner and E. E. Floyd, Differentiable periodic maps, Ergebnisse der Mathematik, Springer, Berlin, 1963."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.13394919168591224,
+            0.3888888888888889,
+            0.8660508083140878,
+            0.41812865497076024
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. A. Douglis and L. Nirenberg, Interior estimates for elliptic systems of PDE, Comm. Pure Appl. Math. 8 (1955), 503–538."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.13394919168591224,
+            0.4166666666666667,
+            0.8660508083140878,
+            0.4473684210526316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. A. S. Dynin, Singular operators of arbitrary order on a manifold, Soviet Math. Dokl. 2 (1961), 1375–1377."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.13394919168591224,
+            0.4473684210526316,
+            0.8660508083140878,
+            0.4766081871345029
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. ——, Multidimensional elliptic boundary value problems with a single unknown function, Soviet Math. Dokl. 2 (1961), 1431–1433."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.13625866050808313,
+            0.4766081871345029,
+            0.8683602771362586,
+            0.5058479532163743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. I. M. Gel'fand, On elliptic equations, Russian Math. Surveys 15 (1960), no. 3, 113."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.13394919168591224,
+            0.5058479532163743,
+            0.8683602771362586,
+            0.5365497076023392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. F. Hirzebruch, New Topologische Methoden in der algebraischen Geometrie, Ergebnisse der Mathematik, Springer, Berlin, 1956."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.13625866050808313,
+            0.5350877192982456,
+            0.8660508083140878,
+            0.5657894736842105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. K. Kodaira, The Riemann-Roch theorem on compact analytic surfaces, Amer. J. Math. 73 (1951), 813–875."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.13394919168591224,
+            0.564327485380117,
+            0.8660508083140878,
+            0.5935672514619883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. R. T. Seeley, Singular integral operators on compact manifolds, Amer. J. Math. 81 (1959), 658–690."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.13856812933025403,
+            0.5935672514619883,
+            0.8683602771362586,
+            0.6228070175438597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. ——, Regularization of singular integral operators on compact manifolds, Amer. J. Math. 83 (1961), 265–275."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.14318706697459585,
+            0.6228070175438597,
+            0.8683602771362586,
+            0.6388888888888888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. ——, The index of elliptic systems of singular integral operators (to appear)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.13625866050808313,
+            0.6374269005847953,
+            0.8683602771362586,
+            0.6666666666666666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22. A. I. Vol'pert, On the index of systems of two-dimensional singular integral equations, Soviet Math. Dokl. 3 (1962), 154."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.16397228637413394,
+            0.6769005847953217,
+            0.6166281755196305,
+            0.7207602339181286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "OXFORD UNIVERSITY,\nHARVARD UNIVERSITY AND\nMASSACHUSETTS INSTITUTE OF TECHNOLOGY"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 19,
+          "bbox": [
+            0.13394919168591224,
+            0.12280701754385964,
+            0.17782909930715934,
+            0.13742690058479531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1963]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 20,
+          "bbox": [
+            0.3210161662817552,
+            0.12280701754385964,
+            0.6789838337182448,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "THE INDEX OF ELLIPTIC OPERATORS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.8244803695150116,
+            0.12134502923976608,
+            0.8660508083140878,
+            0.13596491228070176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "433"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

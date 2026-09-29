@@ -1,0 +1,3009 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "table",
+          "index": 0,
+          "bbox": [
+            0.18137254901960784,
+            0.13383838383838384,
+            0.6029411764705882,
+            0.1527777777777778
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 0,
+              "bbox": [
+                0.18137254901960784,
+                0.13383838383838384,
+                0.6029411764705882,
+                0.1527777777777778
+              ],
+              "image_path": "images/page_0_table_0.jpg",
+              "content": "<table><tr><td>Citations</td><td>From References: 2192</td><td>From Reviews: 31</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17647058823529413,
+            0.11237373737373738,
+            0.3464052287581699,
+            0.1275252525252525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Previous Up Next"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17483660130718953,
+            0.15782828282828282,
+            0.576797385620915,
+            0.17297979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MR1118699 (92j:35050) 35J60 35B05 35D05 35G20"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17483660130718953,
+            0.17297979797979798,
+            0.6356209150326797,
+            0.18813131313131312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Crandall, Michael G. (1-UCSB); Ishii, Hitoshi (J-CHUO);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17483660130718953,
+            0.18813131313131312,
+            0.4477124183006536,
+            0.2032828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lions, Pierre-Louis (F-PARIS9-A)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.17483660130718953,
+            0.20454545454545456,
+            0.8104575163398693,
+            0.23863636363636365
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "User’s guide to viscosity solutions of second order partial diferential equations. Bull. Amer. Math. Soc. (N.S.) 27 (1992), no. 1, 1–67."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.1715686274509804,
+            0.25,
+            0.826797385620915,
+            0.3939393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is a self-contained presentation and survey of results involving the powerful and conceptually simple concept of viscosity solutions. The concept allows one to establish uniqueness and existence results for rather general boundary problems for nonlinear partial diferential equations of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( x , u , D u , D ^ { 2 } u ) = 0"
+            },
+            {
+              "type": "text",
+              "content": ", where F satisfies the monotonicity condition"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( x , r , p , X ) \\leq F ( x , s , p , Y )"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x , p"
+            },
+            {
+              "type": "text",
+              "content": "in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { R } ^ { N }"
+            },
+            {
+              "type": "text",
+              "content": "and for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r \\leq"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s , X \\leq Y"
+            },
+            {
+              "type": "text",
+              "content": "(in the sense of the usual partial order on the space of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N \\times N"
+            },
+            {
+              "type": "text",
+              "content": "symmetric matrices). The main idea is to relax the smoothness property expected from the classical solution, as follows:"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p , X ) \\in J ^ { 2 , + } ( u , x )"
+            },
+            {
+              "type": "text",
+              "content": "(second order superjet of u at x), provided that for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "y  x"
+            },
+            {
+              "type": "text",
+              "content": "we have the inequality"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.2875816993464052,
+            0.398989898989899,
+            0.7107843137254902,
+            0.41792929292929293
+          ],
+          "image_path": "images/page_0_equation_7.jpg",
+          "content": "u (y) \\leq u (x) + \\langle p, y - x \\rangle + \\langle X (y - x), y - x \\rangle + o (| y - x | ^ {2})."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.17320261437908496,
+            0.42297979797979796,
+            0.826797385620915,
+            0.5202020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The reverse inequality gives rise to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J ^ { 2 , - }"
+            },
+            {
+              "type": "text",
+              "content": ", the second-order subjet. A function u is a subsolution of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F = 0"
+            },
+            {
+              "type": "text",
+              "content": "provided u is upper semicontinuous and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F ( x , u , p , X ) \\leq 0"
+            },
+            {
+              "type": "text",
+              "content": "for all X and for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p , X ) \\in J ^ { 2 , + } ( u , x )"
+            },
+            {
+              "type": "text",
+              "content": ". With supersolutions defined in a similar manner, one can now proceed, somewhat like in the classical Perron method, to treat the boundary problems indicated above. The paper contains discussions of numerous important and dificult examples and 161 references.P. Szeptycki"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.4526143790849673,
+            0.5378787878787878,
+            0.5473856209150327,
+            0.553030303030303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.184640522875817,
+            0.5669191919191919,
+            0.8251633986928104,
+            0.6123737373737373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. A.D. Aleksandrov, Almost everywhere existence ofthe second diferential ofa convex function and some properties of convex functions, Leningrad. Univ. Ann. (Math. Ser.) 37 (1939), 3-35. (Russian)"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.1830065359477124,
+            0.6136363636363636,
+            0.8235294117647058,
+            0.6590909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. A.D. Aleksandrov, Uniqueness conditions and estimates for the solution of the Dirichlet problem, Amer. Math. Soc. Transl., vol. 68, Amer. Math. Soc., Providence, RI, 1968, pp. 89-119."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.184640522875817,
+            0.6616161616161617,
+            0.8235294117647058,
+            0.6919191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. A.D. Aleksandrov, Majorization of solutions of second-order linear equations, Amer. Math. Soc. Transl., vol. 68, Amer. Math. Soc., Providence, RI, 1968, pp. 120-143."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.184640522875817,
+            0.6931818181818182,
+            0.8235294117647058,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. R. Alziary de Roquefort, Jeux de poursuite et approximation des fonctions valeur, Th`ese, Universit`e de Paris-Dauphine, 1990; Mod´el. Math. Anal. Num. 25 (1991), 535-560. MR1111654"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.1830065359477124,
+            0.73989898989899,
+            0.8251633986928104,
+            0.7714646464646465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. S. Aizawa and Y. Tomita, On unbounded viscosity solutions of a semilinear second order elliptic equation, Funkcial. Ekvac. 31 (1988), 141-160. MR0951771"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.1830065359477124,
+            0.7714646464646465,
+            0.8235294117647058,
+            0.803030303030303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. I. Ja. Bakelman, On the theory of quasilinear elliptic equations, Sibirsk. Mat. Z. 2 (1961), 179-186. MR0126604"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.1830065359477124,
+            0.8042929292929293,
+            0.8235294117647058,
+            0.8345959595959596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. V. Barbu, Hamilton-Jacobi equations and nonlinear control problems, preprint. MR0864766"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.1830065359477124,
+            0.8358585858585859,
+            0.8251633986928104,
+            0.8661616161616161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. V. Barbu, The dynamic programming equation for the time optimal control problem in infinite dimensions, SIAM J. Control Optim. 29 (1991), 445-456. MR1092737"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.1830065359477124,
+            0.8661616161616161,
+            0.8251633986928104,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. V. Barbu, E. N. Barron, and R. Jensen, Necessary conditions for optimal control in Hilbert spaces, J. Math. Anal. Appl. 133 (1988), 151-162. MR0949325"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.17483660130718953,
+            0.09090909090909091,
+            0.8251633986928104,
+            0.12247474747474747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. V. Barbu and G. Da Prato, Hamilton-Jacobi equations in Hilbert spaces, Research Notes in Math., vol. 86, Pitman, Boston, MA, 1983. MR0704182"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.17483660130718953,
+            0.12247474747474747,
+            0.8251633986928104,
+            0.15404040404040403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. M. Bardi, An asymptotic formula for the Green’s function of an elliptic operator, Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4) 4 (1987), 569-612. MR0963490"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.17483660130718953,
+            0.15404040404040403,
+            0.826797385620915,
+            0.1856060606060606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. M. Bardi and L. C. Evans, On Hopf’s formulas for solutions of Hamilton-Jacobi equations, Nonlinear Anal. Theory Methods Appl. 8 (1984), 1373-1381. MR0764917"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.17483660130718953,
+            0.18686868686868688,
+            0.826797385620915,
+            0.23232323232323232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. M. Bardi and B. Perthame Exponential decay to stable states in phase transitions via a double log-transformation, Comm. Partial Diferential Equations 15 (1990), 1649-1669. MR1080616"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.17483660130718953,
+            0.2335858585858586,
+            0.8251633986928104,
+            0.2638888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. G. Barles, Existence results for first-order Hamilton-Jacobi equations, Ann. Inst. H. Poincar´e Anal. Non Lin´eaire 1 (1984), 325-340. MR0779871"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.17483660130718953,
+            0.26515151515151514,
+            0.8251633986928104,
+            0.31186868686868685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15. G. Barles, Remarques sur des r´esultats d’existence pour les ´equations de Hamilton-Jacobi du premier ordre, Ann. I. H. Poincar´e Anal. Non Lin´eaire 2 (1985), 21-33. MR0781590"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.17483660130718953,
+            0.31186868686868685,
+            0.8088235294117647,
+            0.32954545454545453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16. G. Barles, Remark on a flame propagation model, Rapport INRIA, no. 464, 1985."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.17483660130718953,
+            0.32954545454545453,
+            0.826797385620915,
+            0.35984848484848486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17. G. Barles, Interior gradient bounds for the mean curvature equation by viscosity solution methods, Diferential Integral Equations 4 (1991), 263-275. MR1081183"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.17483660130718953,
+            0.35984848484848486,
+            0.8251633986928104,
+            0.39141414141414144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18. G. Barles, A weak Bernstein method for fully nonlinear elliptic equations, Diferential Integral Equations 4 (1991), 241-262. MR1081182"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.17483660130718953,
+            0.39141414141414144,
+            0.826797385620915,
+            0.42297979797979796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19. G. Barles, Uniqueness and regularity results for first-order Hamilton-Jacobi equations, Indiana Univ. Math. J. 39 (1990), 443-466. MR1089047"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.17483660130718953,
+            0.42424242424242425,
+            0.826797385620915,
+            0.45580808080808083
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20. G. Barles, Regularity results for first-order Hamilton-Jacobi equations, Diferential Integral Equations 3 (1990), 103-125. MR1014729"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.17483660130718953,
+            0.45580808080808083,
+            0.826797385620915,
+            0.48737373737373735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "21. G. Barles, Fully nonlinear Neumann type boundary conditions for second-order elliptic and parabolic equations, J. Diferential Equations (to appear). MR1249178"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.17483660130718953,
+            0.48737373737373735,
+            0.826797385620915,
+            0.5189393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "22. G. Barles, L. Bronsard, and P. E. Souganidis, Front propagation for reactiondifusion equations of bistable type, Analyse Non Lin´eaire (to appear). MR1191007"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.17483660130718953,
+            0.5189393939393939,
+            0.826797385620915,
+            0.5505050505050505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23. G. Barles, L. C. Evans, and P. E. Souganidis, Wave front propagation for reactiondifusion systems of PDE’s, Duke Univ. Math. J. 61 (1990), 835-858. MR1084462"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.17483660130718953,
+            0.5505050505050505,
+            0.826797385620915,
+            0.5972222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24. G. Barles and P. L. Lions, Fully nonlinear Neumann type boundary conditions for first-order Hamilton-Jacobi equations, Nonlinear Anal. Theory Methods Appl. 16 (1991), 143-153. MR1090787"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.17483660130718953,
+            0.5972222222222222,
+            0.826797385620915,
+            0.6287878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "25. G. Barles and B. Perthame, Discontinuous solutions of deterministic optimal stopping-time problems, Mod`el. Math. Anal. Num. 21 (1987), 557-579. MR0921827"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.17483660130718953,
+            0.6287878787878788,
+            0.826797385620915,
+            0.6616161616161617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "26. G. Barles and B. Perthame, Exist time problems in optimal control and the vanishing viscosity method, SIAM J. Control Optim. 26 (1988), 1133-1148. MR0957658"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.17483660130718953,
+            0.6616161616161617,
+            0.826797385620915,
+            0.7095959595959596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "27. G. Barles and B. Perthame, Comparison principle for Dirichlet-type H. J. equations and singular perturbations of degenerate elliptic equations, Appl. Math. Optim. 21 (1990), 21-44. MR1014943"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.17483660130718953,
+            0.7095959595959596,
+            0.826797385620915,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "28. G. Barles and P. E. Souganidis, Convergence of approximation schemes for fully nonlinear second order equations, Asymp. Anal. 4 (1991), 271-283. MR1115933"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.17483660130718953,
+            0.73989898989899,
+            0.8251633986928104,
+            0.7727272727272727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "29. E. N. Barron, Diferential games with maximum cost, Nonlinear Anal. Theory Methods Appl. 14 (1990), 971-989. MR1058417"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.17483660130718953,
+            0.7727272727272727,
+            0.8251633986928104,
+            0.8042929292929293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "30. E. N. Barron and H. Ishii, The Bellman equation for minimizing the maximum cost, Nonlinear Anal. Theory Methods Appl. 13 (1989), 1067-1090. MR1013311"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.17483660130718953,
+            0.8042929292929293,
+            0.826797385620915,
+            0.851010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "31. E. N. Barron and R. Jensen, The Pontryagin maximum principle from dynamic programming and viscosity solutions to first-order partial diferential equations, Trans. Amer. Math. Soc. 298 (1986), 635-641. MR0860384"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.17483660130718953,
+            0.851010101010101,
+            0.826797385620915,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "32. E. N. Barron and R. Jensen, Generalized viscosity solutions for Hamilton-Jacobi equations with time-measurable Hamiltonians, J. Diferential Equations 68 (1987), 10-21. MR0885811"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.17320261437908496,
+            0.09090909090909091,
+            0.826797385620915,
+            0.13762626262626262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "33. E. N. Barron and R. Jensen, Semicontinuous viscosity solutions for Hamilton-Jacobi equations with convex Hamiltonians, Comm. Partial Diferential Equations 15 (1990), 1713-1742. MR1080619"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.17483660130718953,
+            0.1388888888888889,
+            0.8251633986928104,
+            0.1691919191919192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "34. E. N. Barron and R. Jensen, Optimal control and semicontinuous viscosity solutions, Proc. Amer. Math. Soc. 113 (1991), 397-402. MR1076572"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.17483660130718953,
+            0.1691919191919192,
+            0.8251633986928104,
+            0.20075757575757575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "35. E. N. Barron and R. Jensen, A stochastic control approach to the pricing of options, Math. Operations Research 15 (1990), 49-79. MR1038235"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.17483660130718953,
+            0.20075757575757575,
+            0.8251633986928104,
+            0.23232323232323232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "36. S. Benton, The Hamilton-Jacobi equation: A global approach, Academic Press, New York, 1977. MR0442431"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.17483660130718953,
+            0.2335858585858586,
+            0.8251633986928104,
+            0.2638888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "37. A. D. Bony, Principe du maximum dans les espaces de Sobolev, C. R. Acad. Sci. Paris Ser. A 265 (1967), 333-336. MR0223711"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.17483660130718953,
+            0.26515151515151514,
+            0.826797385620915,
+            0.2967171717171717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "38. H. Brezis, Operateurs Maximaux Monotones et semigroupes de contractions dans les espaces de Hilbert, North Holland, Amsterdam, 1973. MR0348562"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.17483660130718953,
+            0.29797979797979796,
+            0.8251633986928104,
+            0.3282828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "39. L. Cafarelli, Interior a priori estimates for solutions of fully non-linear equations, Ann. of Math. (2) 130 (1989), 180-213. MR1005611"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.17483660130718953,
+            0.32954545454545453,
+            0.826797385620915,
+            0.35984848484848486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "40. P. Cannarsa and M. Soner, On the singularities ofthe viscosity solutions to Hamilton-Jacobi-Bellman equations, Indiana Univ. Math. J. 46 (1987), 501-524. MR0905608"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.17483660130718953,
+            0.35984848484848486,
+            0.8284313725490197,
+            0.4078282828282828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "41. P. Cannarsa and M. Soner, Generalized one-sided estimates for solutions of Hamilton-Jacobi equations and applications, Nonlinear Anal. Theory Methods Appl. 13 (1989), 305-323. MR0986450"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.17483660130718953,
+            0.4078282828282828,
+            0.826797385620915,
+            0.4393939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "42. P. Cannarsa, F. Gozzi, and M. Soner, A boundary value problem for Hamilton-Jacobi equations in Hilbert spaces, Appl. Math. Opt. 24 (1991), 197-220. MR1118698"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.17483660130718953,
+            0.4393939393939394,
+            0.826797385620915,
+            0.47095959595959597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "43. I. Cappuzzo-Dolcetta and L. C. Evans, Optimal switching for ordinary diferential equations, SIAM J. Optim. Control 22 (1988), 1133-1148. MR0728678"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.17483660130718953,
+            0.47095959595959597,
+            0.826797385620915,
+            0.5176767676767676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "44. I. Cappuzzo-Dolcetta and P. L. Lions, Viscosity solutions of Hamilton-Jacobiequations and state constraints, Trans. Amer. Math. Soc. 318 (1990), 643-683. MR0951880"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.17483660130718953,
+            0.5189393939393939,
+            0.8284313725490197,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "45. Y. G. Chen, Y. Giga, and S. Goto, Uniqueness and existence of viscosity solutions of generalized mean curvature flow equations, J. Diferential Geom. 33 (1991), 749-786. MR1100211"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.17483660130718953,
+            0.5669191919191919,
+            0.826797385620915,
+            0.6123737373737373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "46. M. G. Crandall, Quadratic forms, semidiferentials and viscosity solutions of fully nonlinear elliptic equations, Ann. I. H. Poincar´e Anal. Non Lin´eaire 6 (1989), 419-435. MR1035337"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.17483660130718953,
+            0.6136363636363636,
+            0.826797385620915,
+            0.6603535353535354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "47. M. G. Crandall, L. C. Evans, and P. L. Lions, Some properties of viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. 282 (1984), 487-502. MR0732102"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.17483660130718953,
+            0.6616161616161617,
+            0.826797385620915,
+            0.6931818181818182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "48. M. G. Crandall and H. Ishii, The maximum principle for semicontinuous functions, Diferential Integral Equations 3 (1990), 1001-1014. MR1073054"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.17483660130718953,
+            0.6931818181818182,
+            0.8284313725490197,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "49. M. G. Crandall, H. Ishii, and P. L. Lions, Uniqueness of viscosity solutions of Hamilton-Jacobi equations revisited, J. Math. Soc. Japan 39 (1987), 581-596. MR0905626"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.17483660130718953,
+            0.73989898989899,
+            0.826797385620915,
+            0.7878787878787878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "50. M. G. Crandall and P. L. Lions, Condition d’unicit´e pour les solutions generalis´ees des ´equations de Hamilton-Jacobi du premier ordre, C. R. Acad. Sci. Paris S´er. I Math. 292 (1981), 183-186. MR0610314"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.17483660130718953,
+            0.7878787878787878,
+            0.8251633986928104,
+            0.8194444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "51. M. G. Crandall and P. L. Lions, Viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. 277 (1983), 1-42. MR0690039"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.17483660130718953,
+            0.8194444444444444,
+            0.826797385620915,
+            0.851010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "52. M. G. Crandall and P. L. Lions, Two approximations of solutions of Hamilton-Jacobi equations, Math. Comp. 43 (1984), 1-19. MR0744921"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.17483660130718953,
+            0.851010101010101,
+            0.8284313725490197,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "53. M. G. Crandall and P. L. Lions, On existence and uniqueness of solutions of Hamilton-Jacobi equations, Nonlin. Anal. Theory Methods Appl. 10 (1986), 353-370. MR0836671"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.17483660130718953,
+            0.09090909090909091,
+            0.826797385620915,
+            0.12373737373737374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "54. M. G. Crandall and P. L. Lions, Unbounded viscosity solutions of Hamilton-Jacobi equations, Illinois J. Math. 31 (1987), 665-688. MR0909790"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.17483660130718953,
+            0.12247474747474747,
+            0.826797385620915,
+            0.20075757575757575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "55. M. G. Crandall and P. L. Lions, Hamilton-Jacobi equations in infinite dimensions, Part I. Uniqueness of viscosity solutions, J. Func. Anal. 62 (1985), 379-396; Part II. Existence of viscosity solutions 65 (1986), 368-405; Part III 68 (1986), 214-247; Part IV. Unbounded linear terms 90 (1990), 237-283; Part V. B-continuous solutions, 97 (1991), 417-465. MR1052335"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.17483660130718953,
+            0.20075757575757575,
+            0.826797385620915,
+            0.24873737373737373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "56. M. G. Crandall and P. L. Lions, Quadratic growth of solutions of fully nonlinear second order equations on R"
+            },
+            {
+              "type": "text",
+              "content": "n",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", Diferential Integral Equations 3 (1990), 601-616. MR1044206"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.17483660130718953,
+            0.25,
+            0.826797385620915,
+            0.2967171717171717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "57. M. G. Crandall, P. L. Lions, and P. E. Souganidis, Maximal solutions and universal bounds for some quasilinear evolution equations of parabolic type, Arch. Rat. Mech. Anal. 105 (1989), 163-190. MR0968459"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.17483660130718953,
+            0.2967171717171717,
+            0.826797385620915,
+            0.3282828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "58. M. G. Crandall and R. Newcomb, Viscosity solutions of Hamilton-Jacobi equations at the boundary, Proc. Amer. Math. Soc. 94 (1985), 283-290. MR0784180"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.17483660130718953,
+            0.32954545454545453,
+            0.826797385620915,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "59. M. G. Crandall, R. Newcomb, and Y. Tomita, Existence and uniqueness of viscosity solutions of degenerate quasilinear elliptic equations in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": ", Appl. Anal. 34 (1989), 1-23. MR1333953"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.17483660130718953,
+            0.37626262626262624,
+            0.826797385620915,
+            0.42297979797979796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "60. P. Dupuis and H. Ishii, On oblique derivative problems for fully nonlinear second order elliptic equations on nonsmooth domains, Nonlinear Anal. Theory Methods Appl. 12 (1991), 1123-1138. MR1082287"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.17483660130718953,
+            0.42424242424242425,
+            0.826797385620915,
+            0.4696969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "61. P. Dupuis and H. Ishii, On oblique derivative problems for fully nonlinear second order elliptic PDE’s on domains with corners, Hokkaido Math. J. 20 (1991), 135-164. MR1096165"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.17483660130718953,
+            0.47095959595959597,
+            0.826797385620915,
+            0.5037878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "62. P. Dupuis, H. Ishii, and H. M. Soner, A viscosity solution approach to the asymptotic analysis of queuing systems, Ann. Probab. 18 (1990), 226-255. MR1043946"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.17483660130718953,
+            0.5037878787878788,
+            0.8251633986928104,
+            0.5340909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "63. H. Engler and S. Lenhart, Viscosity solutions for weakly coupled systems of Hamilton-Jacobi equations, Proc. London Math. Soc. 63 (1991), 212-240. MR1105722"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.17483660130718953,
+            0.5340909090909091,
+            0.826797385620915,
+            0.5669191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "64. L. C. Evans, A convergence theorem for solutions of nonlinear second order elliptic equations, Indiana Univ. Math. J. 27 (1978), 875-887. MR0503721"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.17483660130718953,
+            0.5669191919191919,
+            0.826797385620915,
+            0.5972222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "65. L. C. Evans, On solving certain nonlinear diferential equations by accretive operator methods, Israel J. Math. 36 (1980), 225-247. MR0597451"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.17483660130718953,
+            0.5972222222222222,
+            0.826797385620915,
+            0.6439393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "66. L. C. Evans, The perturbed test function technique for viscosity solutions of partial diferential equations, Proc. Roy. Soc. Edinburgh Sect. A 111 (1989), 359-375. MR1007533"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.17483660130718953,
+            0.6452020202020202,
+            0.826797385620915,
+            0.6767676767676768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "67. L. C. Evans and R. Gariepy, Measure theory and fine properties offunctions, Studies in Advanced Math., CRC Press, Ann Arbor, 1992. MR1158660"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.17483660130718953,
+            0.6767676767676768,
+            0.826797385620915,
+            0.7247474747474747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "68. L. C. Evans and H. Ishii, A pde approach to some asymptotic problems concerning random diferential equations with small noise intensities, Ann. I. H. Poincar´e Anal. Non Lin´eaire 2 (1985), 1-20. MR0781589"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.17483660130718953,
+            0.7247474747474747,
+            0.826797385620915,
+            0.7563131313131313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "69. L. C. Evans, M. Soner, and P. E. Souganidis, The Allen-Cahn equation and generalized motion by mean curvature, preprint. MR1177477"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.17483660130718953,
+            0.7563131313131313,
+            0.826797385620915,
+            0.803030303030303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "70. L. C. Evans and P. E. Souganidis, Diferential games and representation formulas for solutions of Hamilton-Jacobi-Isaacs equations, Indiana Univ. Math. J. 33 (1984), 773-797. MR0756158"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.17483660130718953,
+            0.8042929292929293,
+            0.826797385620915,
+            0.8358585858585859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "71. L. C. Evans and P. E. Souganidis, A PDE approach to geometric optics for semilinear parabolic equations, Indiana Univ. Math. J. 38 (1989), 141-172. MR0982575"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.17483660130718953,
+            0.8358585858585859,
+            0.8251633986928104,
+            0.8661616161616161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "72. L. C. Evans and J. Spruck, Motion of level sets by mean curvature. I, J. Diferential Geom. 33 (1991), 635-681. MR1100206"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.17483660130718953,
+            0.8674242424242424,
+            0.826797385620915,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "73. M. Falcone, A numerical approach to the infinite horizon problem of deterministic control theory, Appl. Math. Optim. 15 (1987), 1-13. MR0866164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.17483660130718953,
+            0.09090909090909091,
+            0.7908496732026143,
+            0.10606060606060606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "74. H. Federer, Geometric measure theory, Springer, New York, 1969. MR0257325"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.17483660130718953,
+            0.10732323232323232,
+            0.8251633986928104,
+            0.1388888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "75. W. H. Fleming and R. Rishel, Determinisitic and stochastic optimal control, Springer-Verlag, New York, 1975. MR0454768"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.17483660130718953,
+            0.1388888888888889,
+            0.826797385620915,
+            0.18434343434343434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "76. W. H. Fleming and P. E. Souganidis, PDE-viscosity solution approach to some problems of large deviations, Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4) 13 (1986), 171-192. MR0876121"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.17483660130718953,
+            0.1856060606060606,
+            0.826797385620915,
+            0.23232323232323232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "77. W. H. Fleming and P. E. Souganidis, On the existence of value functions of two player, zero-sum stochastic diferential games, Indiana Univ. Math. J. 38 (1989), 293-314. MR0997385"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.17483660130718953,
+            0.2335858585858586,
+            0.8235294117647058,
+            0.2638888888888889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "78. H. Frankowska, On the single-valuedness ofHamilton-Jacobi operators, Nonlin. Anal. Theory Methods Appl. 10 (1986), 1477-1483. MR0869555"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.17483660130718953,
+            0.26515151515151514,
+            0.826797385620915,
+            0.31186868686868685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "79. Y. Giga, S. Goto, H. Ishii, and M.-H. Sato, Comparison principle and convexity pre-serving properties for singular degenerate parabolic equations on unbounded domains, Indiana U. Math. J. 40 (1991), 443-470. MR1119185"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.17483660130718953,
+            0.31313131313131315,
+            0.826797385620915,
+            0.3446969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "80. Y. Giga, S. Goto, and H. Ishii, Global existence of weak solutions for interface equations coupled with difusion equations, SIAM J. Math. Anal, (to appear). MR1166559"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.17483660130718953,
+            0.3446969696969697,
+            0.8251633986928104,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "81. D. Gilbarg and N. S. Trudinger, Elliptic partial diferential equations of second order, 2nd Ed., Springer-Verlag, New York, 1983. MR0737190"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.17483660130718953,
+            0.37626262626262624,
+            0.8251633986928104,
+            0.4078282828282828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "82. H. Ishii, Remarks on existence and uniqueness of viscosity solutions of Hamilton-Jacobi equations, Bull. Fac. Sci. Eng. Chuo Univ. 26 (1983), 5-24. MR0742691"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.17483660130718953,
+            0.4078282828282828,
+            0.8251633986928104,
+            0.4393939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "83. H. Ishii, Uniqueness of unbounded viscosity solutions of Hamilton-Jacobi equations, Indiana Univ. Math. J. 33 (1984), 721-748. MR0756156"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.17483660130718953,
+            0.4393939393939394,
+            0.826797385620915,
+            0.47095959595959597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "84. H. Ishii, Hamilton-Jacobi equations with discontinuous Hamiltonians on arbitrary open sets, Bull. Fac. Sci. Eng. Chuo Univ. 28 (1985), 33-77. MR0845397"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.17483660130718953,
+            0.47095959595959597,
+            0.8235294117647058,
+            0.5025252525252525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "85. H. Ishii, Existence and uniqueness of solutions of Hamilton-Jacobi equations, Funkcial. Ekvac. 29 (1986), 167-188. MR0877427"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.17483660130718953,
+            0.5025252525252525,
+            0.8235294117647058,
+            0.5328282828282829
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "86. H. Ishii, Perron’s method for Hamilton-Jacobi equations, Duke Math. J. 55 (1987), 369-384. MR0894587"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.17483660130718953,
+            0.5340909090909091,
+            0.826797385620915,
+            0.5669191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "87. H. Ishii, A simple direct proof for uniqueness for solutions of the Hamilton-Jacobi equations of eikonal type, Proc. Amer. Math. Soc 100 (1987), 247-251. MR0884461"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.17483660130718953,
+            0.5669191919191919,
+            0.8251633986928104,
+            0.5984848484848485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "88. H. Ishii, Representation of solutions of Hamilton-Jacobi equations, Nonlin. Anal. Theory Methods Appl. 12 (1988), 121-146. MR0926208"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.17483660130718953,
+            0.5972222222222222,
+            0.8251633986928104,
+            0.6287878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "89. H. Ishii, On uniqueness and existence ofviscosity solutions offully nonlinear secondorder elliptic PDE’s, Comm. Pure Appl. Math. 42 (1989), 14-45. MR0973743"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.17483660130718953,
+            0.6287878787878788,
+            0.826797385620915,
+            0.6616161616161617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "90. H. Ishii, A boundary value problem of the Dirichlet type for Hamilton-Jacobi equations, Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4) 16 (1989), 105-135. MR1056130"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.17483660130718953,
+            0.6616161616161617,
+            0.826797385620915,
+            0.6931818181818182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "91. H. Ishii, Fully nonlinear oblique derivative problems for nonlinear second-order elliptic PDE’s, Duke Math. J. 62 (1991), 663-661. MR1104812"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.17483660130718953,
+            0.6931818181818182,
+            0.8251633986928104,
+            0.7247474747474747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "92. H. Ishii, Perron’s method for monotone systems of second-order elliptic PDEs, Dif. Integral Equations 5 (1992), 1-24. MR1141724"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.17483660130718953,
+            0.7247474747474747,
+            0.8251633986928104,
+            0.7563131313131313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "93. H. Ishii and S. Koike, Remarks on elliptic singular perturbation problems, Appl. Math. Optim. 23 (1991), 1-15. MR1076052"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.17483660130718953,
+            0.7563131313131313,
+            0.826797385620915,
+            0.803030303030303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "94. H. Ishii and S. Koike, Viscosity solutions of a system of nonlinear second-order elliptic PDEs arising in switching games, Funkcial. Ekvac. 34 (1991), 143-155. MR1116886"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.17320261437908496,
+            0.8042929292929293,
+            0.826797385620915,
+            0.8358585858585859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "95. H. Ishii and S. Koike, Viscosity solutions for monotone systems ofsecond-order elliptic PDE’s, Comm. Partial Diferential Equations 16 (1991), 1095-1128. MR1116855"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.17483660130718953,
+            0.8358585858585859,
+            0.826797385620915,
+            0.8674242424242424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "96. H. Ishii and P. L. Lions, Viscosity solutions of fully nonlinear second-order elliptic partial diferential equations, J. Diferential Equations 83 (1990), 26-78. MR1031377"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 23,
+          "bbox": [
+            0.17483660130718953,
+            0.8674242424242424,
+            0.8251633986928104,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "97. H. Ishii and N. Yamada, A remark on a system of inequalities with bilateral obstacles, Nonlinear Anal. Theory Methods Appl. 13 (1989), 1295-1301. MR1021407"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.17320261437908496,
+            0.09090909090909091,
+            0.826797385620915,
+            0.12247474747474747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "98. A. V. Ivanov, Quasilinear degenerate and nonuniformly elliptic equations of second order, Proc. Steklov Inst. Math. 1 (1984), 1-287. MR0753230"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.1715686274509804,
+            0.12373737373737374,
+            0.8251633986928104,
+            0.15404040404040403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "99. S. Koike, On the rate of convergence of solutions in singular perturbation problems, J. Math. Anal. Appl. 157 (1991), 277-292. MR1109454"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.16666666666666666,
+            0.15404040404040403,
+            0.8251633986928104,
+            0.1856060606060606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "100. S. Koike, An asymptotic formula for solutions of Hamilton-Jacobi-Bellman equations, Nonlinear Anal. Theory Methods Appl. 11 (1987), 429-436. MR0881728"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.16666666666666666,
+            0.18686868686868688,
+            0.826797385620915,
+            0.23232323232323232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "101. R. Jensen, The maximum principle for viscosity solutions of fully nonlinear second order partial diferential equations, Arch. Rat. Mech. Anal. 101 (1988), 1-27. MR0920674"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.16666666666666666,
+            0.2335858585858586,
+            0.826797385620915,
+            0.26515151515151514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "102. R. Jensen, Uniqueness criteria for viscosity solutions of fully nonlinear elliptic partial diferential equations, Indiana Univ. Math. J. 38 (1989), 629-667. MR1017328"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.16666666666666666,
+            0.26515151515151514,
+            0.8218954248366013,
+            0.2815656565656566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "103. R. Jensen, Local quadratic growth estimates for elliptic obstacle problems, preprint."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.16666666666666666,
+            0.2815656565656566,
+            0.826797385620915,
+            0.3282828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "104. R. Jensen, P. L. Lions, and P. E. Souganidis, A uniqueness result for viscosity solutions of second order fully nonlinear partial diferential equations, Proc. Amer. Math. Soc. 102 (1988), 975-978. MR0934877"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.16666666666666666,
+            0.3282828282828283,
+            0.826797385620915,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "105. R. Jensen and P. E. Souganidis, regularity result for viscosity solutions of Hamilton-Jacobi equations in one space dimension, Trans. Amer. Math. Soc. 301 (1987), 137-147. MR0879566"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.16666666666666666,
+            0.375,
+            0.8251633986928104,
+            0.4078282828282828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "106. J. J. Kohn and L. Nirenberg, Degenerate elliptic-parabolic equations of second order, Comm. Pure Appl. Math. 20 (1967), 797-872. MR0234118"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.16666666666666666,
+            0.4078282828282828,
+            0.8235294117647058,
+            0.4393939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "107. S. N. Kruzkov, First order quasilinear equations in several independent variables, Math. USSR-Sb. 10 (1970), 217-243. MR0267257"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.16666666666666666,
+            0.4393939393939394,
+            0.8235294117647058,
+            0.47095959595959597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "108. N. V. Krylov, Controlled difusion processes, Springer-Verlag, Berlin, 1980. MR0601776"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.16666666666666666,
+            0.47095959595959597,
+            0.8251633986928104,
+            0.5025252525252525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "109. N. V. Krylov, Nonlinear elliptic and parabolic equations of second order, D. Reidel Publishing Co., Boston, MA, 1987. MR0815513"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.16666666666666666,
+            0.5037878787878788,
+            0.8251633986928104,
+            0.5340909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "110. J. M. Lasry and P. L. Lions, A remark on regularization in Hilbert spaces, Israel J. Math 55 (1986), 257-266. MR0876394"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.16666666666666666,
+            0.5340909090909091,
+            0.826797385620915,
+            0.5820707070707071
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "111. J. M. Lasry and P. L. Lions, Nonlinear elliptic equations with singular boundary conditions and stochastic control with state constraints, I, The model problem, Math. Ann. 283 (1989), 583-630. MR0990591"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.16666666666666666,
+            0.5820707070707071,
+            0.826797385620915,
+            0.61489898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "112. S. Lenhart, Integro-diferential operators associated with difusion processes with jumps, Appl. Math. Optim. 9 (1982), 177-191. MR0680451"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.16666666666666666,
+            0.61489898989899,
+            0.8251633986928104,
+            0.6452020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "113. S. Lenhart, Viscosity solutions for weakly coupled systems of first order PDEs, J. Math. Anal. Appl. 131 (1988), 180-193. MR0934440"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.16666666666666666,
+            0.6452020202020202,
+            0.826797385620915,
+            0.6767676767676768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "114. S. Lenhart and N. Yamada, Perron’s method for viscosity solutions associated with piecewise-deterministic processes, Funkcial. Ekvac. (to appear). MR1116888"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.16666666666666666,
+            0.6767676767676768,
+            0.826797385620915,
+            0.7095959595959596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "115. S. Lenhart and N. Yamada, Viscosity solutions associated with switching game for piecewise-deterministic processes, preprint. MR1274894"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.16666666666666666,
+            0.7095959595959596,
+            0.8251633986928104,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "116. P. L. Lions, Generalized solutions of Hamilton-Jacobi equations, Research Notes in Mathematics 69, Pitman, Boston, MA, 1982. MR0667669"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.16666666666666666,
+            0.73989898989899,
+            0.8235294117647058,
+            0.7714646464646465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "117. P. L. Lions, On the Hamilton-Jacobi-Bellman equations, Acta Appl. 1 (1983), 17-41. MR0702045"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.16666666666666666,
+            0.7727272727272727,
+            0.826797385620915,
+            0.8194444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "118. P. L. Lions, Some recent results in the optimal control of difusion processes: Stochastic analysis, Proceedings of the Taniguchi International Symposium on Stochastic Analysis (Katata and Kyoto 1982) Kinokuniya, Tokyo, 1984. MR0780764"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.16666666666666666,
+            0.8194444444444444,
+            0.826797385620915,
+            0.8825757575757576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "119. P. L. Lions, Optimal control of difusion processes and Hamilton-Jacobi-Bellman equations. Part 1: The dynamic programming principle and applications and Part 2: Viscosity solutions and uniqueness, Comm. Partial Diferential Equations 8 (1983), 1101-1174 and 1229-1276. MR0709162"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.1650326797385621,
+            0.8838383838383839,
+            0.826797385620915,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "120. P. L. Lions, A remark on the Bony maximum principle, Proc. Amer. Math. Soc. 88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.2042483660130719,
+            0.09090909090909091,
+            0.42320261437908496,
+            0.10606060606060606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1983), 503-508. MR0699422"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.1650326797385621,
+            0.10606060606060606,
+            0.8251633986928104,
+            0.13762626262626262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "121. P. L. Lions, Neumann type boundary conditions for Hamilton-Jacobi equations, Duke J. Math. 52 (1985), 793-820. MR0816386"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.16666666666666666,
+            0.1388888888888889,
+            0.8251633986928104,
+            0.1691919191919192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "122. P. L. Lions, Regularizing efects for first-order Hamilton-Jacobi equations, Applic. Anal. 20 (1985), 283-308. MR0814955"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.16666666666666666,
+            0.1691919191919192,
+            0.826797385620915,
+            0.20075757575757575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "123. P. L. Lions, Equations de Hamilton-Jacobi et solutions de viscosit`e, Colloque De Giorgi, Paris, 1983; Pitman, London, 1985. MR0909709"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.16666666666666666,
+            0.20202020202020202,
+            0.826797385620915,
+            0.24873737373737373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "124. P. L. Lions, Some properties of the viscosity semigroups of Hamilton-Jacobi equations, Nonlinear Diferential Equations and Applications, Pitman, London, 1988. MR0667669"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.16666666666666666,
+            0.25,
+            0.826797385620915,
+            0.2967171717171717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "125. P. L. Lions, Viscosity solutions offully nonlinear second-order equations and optimal stochastic control in infinite dimensions. Part I: The case of bounded stochastic evolutions, Acta Math. 161 (1988), 243-278. MR0971797"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.16666666666666666,
+            0.29797979797979796,
+            0.826797385620915,
+            0.39141414141414144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "126. P. L. Lions, Viscosity solutions of fully nonlinear second-order equations and optimal stochastic control in infinite dimensions. Part II: Optimal Control of Zakai’s Equation, Stochastic Partial Diferential Equations and Applications II, Lecture Notes in Math., vol. 1390, Springer, Berlin, 1989. (G. DuPrato and L. Tubaro, eds.) Proceedings of the International Conference on Infinite Dimensional Stochastic Diferential Equations, Trento, Springer, Berlin, 1988. MR1019600"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.16666666666666666,
+            0.3926767676767677,
+            0.826797385620915,
+            0.4393939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "127. P. L. Lions, Viscosity solutions of fully nonlinear second-order equations and optimal stochastic control in infinite dimensions. Part III: Uniqueness of viscosity solutions of general second order equations, J. Funct. Anal. 86 (1989), 1-18. MR1013931"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.16666666666666666,
+            0.4393939393939394,
+            0.8251633986928104,
+            0.47095959595959597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "128. P. L. Lions, G. Papanicolau, and S. R. S. Varadhan, Homogenization of Hamilton-Jacobi equations, preprint. MR0909709"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.16830065359477125,
+            0.47095959595959597,
+            0.8251633986928104,
+            0.5189393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "129. P. L. Lions and B. Perthame, Remarks on Hamilton-Jacobi-Equations with measurable time-dependent Hamiltonians, Nonlinear Anal. Theory Methods Appl. 11 (1987), 613-622. MR0886652"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.16666666666666666,
+            0.5189393939393939,
+            0.826797385620915,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "130. P. L. Lions and M. Nisio, A uniqueness result for the semigroup associated with the Hamilton-Jacobi-Bellman operator, Proc. Japan Acad. 58 (1982), 273-276. MR0682680"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.16666666666666666,
+            0.5669191919191919,
+            0.8251633986928104,
+            0.5972222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "131. P. L. Lions and Rochet, Hopf formula and multitime Hamilton-Jacobi equations, Proc. Amer. Math. Soc. 90 (1980), 79-84. MR0813815"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.16666666666666666,
+            0.5984848484848485,
+            0.8251633986928104,
+            0.6616161616161617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "132. P. L. Lions and P. E. Souganidis, Viscosity solutions of second-order equations, stochastic control and stochastic diferential games, Stochastic Diferential Systems, Stochastic Control Theory and Applications (W. H. Fleming and P. L. Lions, eds.), IMA Vol. Math. Appl., vol. 10, Springer, Berlin, 1988. MR0934730"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.16830065359477125,
+            0.6616161616161617,
+            0.826797385620915,
+            0.6919191919191919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "133. P. L. Lions and P. E. Souganidis, Convergence of MUSCL type methods for scalar conservation laws, C. R. Acad. Sci. Paris S´er. A 311 (1990), 259-264. MR1071622"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.16666666666666666,
+            0.6931818181818182,
+            0.826797385620915,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "134. P. L. Lions, P. E. Souganidis, and J. Vazquez, The relation between the porous medium equation and the eikonal equation in several space dimensions, Rev. Math. Ibero. 3 (1987), 275-310. MR0996819"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.16666666666666666,
+            0.73989898989899,
+            0.8235294117647058,
+            0.7727272727272727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "135. F. Mignot, Contrˆole optimal dans les in´equations variationelles elliptiques, J. Funct. Anal. 22 (1976), 130-185. MR0423155"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.16666666666666666,
+            0.7727272727272727,
+            0.826797385620915,
+            0.8042929292929293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "136. R. Newcomb, Existence and correspondence of value functions and viscosity solutions of Hamilton-Jacobi equations Univ. of Wisconsin-Madison, 1988. MR2636727"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.16666666666666666,
+            0.8042929292929293,
+            0.826797385620915,
+            0.851010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "137. D. Nunziante, Uniqueness of viscosity solutions of fully nonlinear second-order fully nonlinear parabolic equations with discontinuous time-dependence, Diferential Integral Equations 3 (1990), 77-91. MR1014727"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.16666666666666666,
+            0.851010101010101,
+            0.826797385620915,
+            0.8838383838383839
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "138. D. Nunziante, Existence and uniqueness ofunbounded viscosity solutions ofparabolic equations with discontinuous time-dependence, preprint. MR1167420"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.1650326797385621,
+            0.8838383838383839,
+            0.826797385620915,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "139. O. A. Ole˘ınik and E. V. Radekvic, Second order equations with nonnegative charac-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.20261437908496732,
+            0.09090909090909091,
+            0.8137254901960784,
+            0.10732323232323232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "teristic form, American Mathematical Society, Providence, RI, 1973. MR0457908"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.1650326797385621,
+            0.10732323232323232,
+            0.826797385620915,
+            0.1527777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "140. S. Osher and J. Sethian, Fronts propagating with curvature dependent speed: algorithms based on Hamilton-Jacobi formulations, J. Comp. Physics 79 (1988), 12-49. MR0965860"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.1650326797385621,
+            0.15404040404040403,
+            0.826797385620915,
+            0.20075757575757575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "141. B. Perthame, Perturbed dynamical systems with an attracting singularity and weak viscosity limits in H. J. equations, Trans. Amer. Math. Soc. 317 (1990), 723-747. MR0943607"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.1650326797385621,
+            0.20075757575757575,
+            0.826797385620915,
+            0.2474747474747475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "142. B. Perthame and R. Sanders, The Neumann problem for fully nonlinear second order singular perturbation problems, SIAM J. Math. Anal. 19 (1988), 295-311. MR0930028"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.16666666666666666,
+            0.25,
+            0.8251633986928104,
+            0.2803030303030303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "143. C. Pucci, Su una limitazone per soluzioni di equazioni ellittche, Boll. Un. Mat. Ital. (6) 21 (1966), 228-233. MR0204838"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.16666666666666666,
+            0.2815656565656566,
+            0.8251633986928104,
+            0.31186868686868685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "144. E. Rouy and A. Tourin, A viscosity solution approach to shape—from shading, preprint. MR1163361"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.16666666666666666,
+            0.31186868686868685,
+            0.8251633986928104,
+            0.3434343434343434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "145. W. Rudin, Real and complex analysis, 3rd ed., Mc Graw-Hill, New York, 1987. MR0924157"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.16666666666666666,
+            0.3446969696969697,
+            0.826797385620915,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "146. M. Sato, Comparison principle for singular degenerate elliptic equations on unbounded domains, Proc. Japan Acad. Ser. A 66 (1990), 252-256. MR1077608"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.16666666666666666,
+            0.37626262626262624,
+            0.8251633986928104,
+            0.4078282828282828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "147. N. Yamada, Viscosity solutions for a system of inequalities with biblateral obstacles, Funkcial. Ekvac. 30 (1987), 417-425. MR0927191"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.16666666666666666,
+            0.4078282828282828,
+            0.826797385620915,
+            0.4393939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "148. A. Sayah, Equations d’Hamilton-Jacobi du premier ordre avec termes int´egro diferentiels. Partres I and II, Comm. Partial Diferential Equations 16 (1991), 1057-1221."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.16666666666666666,
+            0.4393939393939394,
+            0.826797385620915,
+            0.47095959595959597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "149. M. Soner, Optimal control with state-space constraint I, SIAM J. Control Optim. 24 (1986), 552-562. MR0838056"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.16830065359477125,
+            0.47095959595959597,
+            0.8235294117647058,
+            0.5025252525252525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "150. M. Soner, Optimal control with state-space constraint II, SIAM J. Control Optim. 24 (1986), 1110-1122. MR0861089"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.16666666666666666,
+            0.5025252525252525,
+            0.8235294117647058,
+            0.5340909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "151. M. Soner, On the Hamilton-Jacobi-Bellman equations in Banach spaces, J. Optim. Theory Appl. 57 (1988), 121-141. MR0944588"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.16666666666666666,
+            0.5340909090909091,
+            0.8235294117647058,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "152. M. Soner, Motion of a set by the curvature of its mean boundary, preprint. MR1204331"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.16666666666666666,
+            0.5669191919191919,
+            0.8251633986928104,
+            0.6136363636363636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "153. P. E. Souganidis, Max-Min representations and product formulas for the viscosity solutions of Hamilton-Jacobi equations with applications to diferential games, Nonlin. Anal. Theory Methods Appl. 9 (1985), 217-257. MR0784388"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.16666666666666666,
+            0.6136363636363636,
+            0.8251633986928104,
+            0.6452020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "154. P. E. Souganidis, Existence of viscosity solutions of Hamilton-Jacobi equations, J. Diferential Equations 56 (1985), 345-390. MR0780496"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.16666666666666666,
+            0.6452020202020202,
+            0.826797385620915,
+            0.6767676767676768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "155. P. E. Souganidis, Approximation schemes for viscosity solutions of Hamilton-Jacobi equations, J. Diferential Equations 59 (1985), 1-43. MR0803085"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.16666666666666666,
+            0.6767676767676768,
+            0.8251633986928104,
+            0.7083333333333334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "156. P. E. Souganidis, A remark about viscosity solutions at the boundary, Proc. Amer. Math. Soc. 96 (1986), 323-330. MR0818466"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.16666666666666666,
+            0.7095959595959596,
+            0.8251633986928104,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "157. D. Tataru, Viscosity solutions of Hamilton-Jacobi equations with unbounded nonlinear terms, J. Math. Anal. Appl. 163 (1992), 345-392. MR1145836"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.16666666666666666,
+            0.73989898989899,
+            0.826797385620915,
+            0.7866161616161617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "158. N. S. Trudinger, Comparison principles and pointwise estimates for viscosity solutions of second order elliptic equations, Rev. Mat. Ibero. 4 (1988), 453-468. MR1048584"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.1650326797385621,
+            0.7878787878787878,
+            0.8251633986928104,
+            0.8194444444444444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "159. N. S. Trudinger, H¨older gradient estimates for fully nonlinear elliptic equations, Proc. Roy. Soc. Edinburgh Sect. A 108 (1988), 57-65. MR0931007"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.16666666666666666,
+            0.8194444444444444,
+            0.826797385620915,
+            0.851010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "160. N. S. Trudinger, On the twice diferentiability of viscosity solutions of nonlinear elliptic equations, Bull. Austral. Math. Soc. 39 (1989), 443-447. MR0995142"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.16666666666666666,
+            0.851010101010101,
+            0.826797385620915,
+            0.8825757575757576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "161. J. L. Vila and T. Zariphopolou, Optimal consumption and portfolio choice with borrowing constraints, preprint. MR1605885"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 23,
+          "bbox": [
+            0.16666666666666666,
+            0.8838383838383839,
+            0.826797385620915,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "162. T. Zariphopolou, Investment-consumption model with transaction costs and Markov-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.2042483660130719,
+            0.09090909090909091,
+            0.7892156862745098,
+            0.1452020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chain parameters, SIAM J. Control Optim. 30 (to appear, 1992). MR1160145 Note: This list reflects references listed in the original paper as accurately as possible with no attempt to correct errors."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17320261437908496,
+            0.16287878787878787,
+            0.5637254901960784,
+            0.18055555555555555
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "c Copyright American Mathematical Society 2021"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,5528 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.15280898876404495,
+            0.13692307692307693,
+            0.8382022471910112,
+            0.19692307692307692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BOUNDS IN THE RESTRICTED BURNSIDE PROBLEM MICHAEL VAUGHAN-LEE and E. I. ZEL'MANOV"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.14382022471910114,
+            0.23384615384615384,
+            0.849438202247191,
+            0.2523076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Dedicated to M. F. (Mike) Newman on the occasion of his 65th birthday"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.2966292134831461,
+            0.28923076923076924,
+            0.6966292134831461,
+            0.30615384615384617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Received 19 January 1999; revised 4 May 1999)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.36179775280898874,
+            0.34307692307692306,
+            0.6314606741573033,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Communicated by E. A. O'Brien"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.45393258426966293,
+            0.39076923076923076,
+            0.5393258426966292,
+            0.4076923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Abstract"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.08089887640449438,
+            0.4230769230769231,
+            0.9146067415730337,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We survey the current state of knowledge of bounds in the restricted Burnside problem. We make two conjectures which are related to the theory of PI-algebras."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.08089887640449438,
+            0.4707692307692308,
+            0.8,
+            0.5061538461538462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1991 Mathematics subject classification (Amer. Math. Soc.): primary 20F05, 20D15.\nKeywords and phrases: Burnside groups, Burnside problem, restricted Burnside problem."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.41797752808988764,
+            0.5507692307692308,
+            0.5865168539325842,
+            0.5692307692307692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.08089887640449438,
+            0.5969230769230769,
+            0.4449438202247191,
+            0.6169230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1902 William Burnside [7] wrote:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.08089887640449438,
+            0.6276923076923077,
+            0.9168539325842696,
+            0.6692307692307692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A still undecided point in the theory of discontinuous groups is whether the order of a group may be not finite, while the order of every operation it contains is finite."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.10786516853932585,
+            0.676923076923077,
+            0.7438202247191011,
+            0.696923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In modern terminology the most general form of this problem is:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.08089887640449438,
+            0.7076923076923077,
+            0.9146067415730337,
+            0.7461538461538462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can a finitely generated group be infinite while every element of the group has finite order?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.08314606741573034,
+            0.7569230769230769,
+            0.9168539325842696,
+            0.8846153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Golod [8] answered this question in 1964 by constructing finitely generated infinite p-groups. However Burnside was particularly interested in the question of whether or not a finitely generated group of finite exponent can be infinite. We can state the Burnside problem (as it has come to be known) in the following form. Let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{m}"
+            },
+            {
+              "type": "text",
+              "content": "  be the free group of rank m, and let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n) = F_{m}/N"
+            },
+            {
+              "type": "text",
+              "content": " , where N is the normal subgroup of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{m}"
+            },
+            {
+              "type": "text",
+              "content": "  generated by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{g^{n} \\mid g \\in F_{m}\\}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.07865168539325842,
+            0.038461538461538464,
+            0.503370786516854,
+            0.055384615384615386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "J. Austral. Math. Soc. (Series A) 67 (1999), 261–271"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 14,
+          "bbox": [
+            0.0853932584269663,
+            0.9046153846153846,
+            0.6606741573033708,
+            0.9215384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "© 1999 Australian Mathematical Society 0263-6115/99 $A2.00 + 0.00"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.4786516853932584,
+            0.9323076923076923,
+            0.5168539325842697,
+            0.9476923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "261"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.01348314606741573,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.2651685393258427,
+            0.0876923076923077,
+            0.7258426966292135,
+            0.10615384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For which values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": " finite?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.07865168539325842,
+            0.11692307692307692,
+            0.9168539325842696,
+            0.5415384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The group  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is known as the m-generator Burnside group of exponent n. It is easy to see that groups of exponent 2 are elementary Abelian, and so  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 2)"
+            },
+            {
+              "type": "text",
+              "content": "  is the direct sum of m copies of the cyclic group of order 2. Burnside proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 3)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite for all m, and also proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(2, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite. In 1940 Sanov [37] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite for all m, and in 1958 Hall [14] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 6)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite for all m. To date, no other Burnside groups (apart from the cyclic Burnside groups) are known to be finite, although a great deal of work has been done in an attempt to determine whether or not  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite. In the other direction, Novikov and Adjan [33–35] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is infinite if m > 1 and n is odd and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 4381"
+            },
+            {
+              "type": "text",
+              "content": " . Adjan [2] improved this result and proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is infinite if m > 1 and n is odd and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 665"
+            },
+            {
+              "type": "text",
+              "content": " . Using a different, more geometrical method, Olshanskii has proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is infinite for m > 1 and n odd,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n > 10^{10}"
+            },
+            {
+              "type": "text",
+              "content": " . Burnside groups of large even exponent appear to be harder to deal with than groups of large odd exponent, and this seems to be connected with the fact that the structure of the finite subgroups of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is more complicated when n is even. For large odd n the finite subgroups of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  are cyclic, but Burnside groups of even exponent will always have finite dihedral subgroups. However in 1994 Ivanov [20] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is infinite for all m > 1, provided  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 2^{48}"
+            },
+            {
+              "type": "text",
+              "content": "  and either n is odd or n is divisible by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^{9}"
+            },
+            {
+              "type": "text",
+              "content": " . In 1996 Lysenok [26] improved this bound by proving that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is infinite for all m > 1, provided  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 8000"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.08089887640449438,
+            0.5415384615384615,
+            0.9123595505617977,
+            0.583076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another variant of Burnside's original question is the restricted Burnside problem, which may be stated as follows."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.15280898876404495,
+            0.5938461538461538,
+            0.8382022471910112,
+            0.6138461538461538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Are there only finitely many finite m-generator groups of exponent n?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.08089887640449438,
+            0.6230769230769231,
+            0.9168539325842696,
+            0.7261538461538461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Equivalently, the question is whether there exists a universal finite m-generator group  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  of exponent n, such that every finite m-generator group of exponent n is a homomorphic image of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n)"
+            },
+            {
+              "type": "text",
+              "content": " . In view of the answers to the unrestricted problem, it is perhaps surprising that the answer to the restricted Burnside problem turns out to be ‘Yes’."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.08314606741573034,
+            0.7276923076923076,
+            0.9191011235955057,
+            0.9415384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1956 Hall and Higman [15] proved the following reduction theorem. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = p_1^{k_1} p_2^{k_2} \\cdots p_r^{k_r}"
+            },
+            {
+              "type": "text",
+              "content": " then (subject to certain assumptions about finite simple groups) a positive solution of the restricted Burnside problem for exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " follows from positive solutions for each prime-power factor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p_i^{k_i}"
+            },
+            {
+              "type": "text",
+              "content": ". The classification of finite simple groups [9] implies that the assumptions made by Hall and Higman are valid. The restricted Burnside problem for prime exponent was solved by Kostrikin in 1959 (see [21, 22]), but it was a further 30 years before Zel'manov [45, 46] solved it for all prime-power exponents "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^k"
+            },
+            {
+              "type": "text",
+              "content": ". Zel'manov's solution of the problem for exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^k"
+            },
+            {
+              "type": "text",
+              "content": ", together with the Hall-Higman reduction and the classification of finite simple groups, implies that for all positive integers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m, n"
+            },
+            {
+              "type": "text",
+              "content": " there exists a unique largest finite "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": "-generator group"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.08089887640449438,
+            0.05692307692307692,
+            0.11685393258426967,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "262"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 7,
+          "bbox": [
+            0.32134831460674157,
+            0.05692307692307692,
+            0.6674157303370787,
+            0.07384615384615385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael Vaughan-Lee and E. I. Zel'manov"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 8,
+          "bbox": [
+            0.8808988764044944,
+            0.05692307692307692,
+            0.9101123595505618,
+            0.07384615384615385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[2]"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.08089887640449438,
+            0.08461538461538462,
+            0.31235955056179776,
+            0.10461538461538461
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "R(m,n)"
+            },
+            {
+              "type": "text",
+              "content": " of exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.43820224719101125,
+            0.13384615384615384,
+            0.5595505617977528,
+            0.15384615384615385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Bounds"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.07865168539325842,
+            0.18,
+            0.9168539325842696,
+            0.3707692307692308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Once we know that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n)"
+            },
+            {
+              "type": "text",
+              "content": "  is finite it is natural ask what order it has. In general this seems to be a very difficult problem, but there has been some success in obtaining bounds on the order. For prime exponent p a primitive recursive upper bound for the order of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": "  was found by Adjan and Razborov [3]. Their proof is based on Kostrikin's original solution of the restricted Burnside problem for exponent p. Another bound of this type is given by Kostrikin in [23]. Both these bounds are wowsers: that is they lie in the class  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Gr^{5}"
+            },
+            {
+              "type": "text",
+              "content": "  of the Grzegorczyk hierarchy (see [1, 11]). A toweric bound (that is a bound in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Gr^{4}"
+            },
+            {
+              "type": "text",
+              "content": " ) for the order of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": "  is given in [42], where it is shown that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3887640449438202,
+            0.36923076923076925,
+            0.6022471910112359,
+            0.42153846153846153
+          ],
+          "image_path": "images/page_2_equation_3.jpg",
+          "content": "| R (m, p) | \\leq \\underbrace {m ^ {m} \\cdot^ {m}} _ {3 ^ {p}}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.07865168539325842,
+            0.4307692307692308,
+            0.9168539325842696,
+            0.47384615384615386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the same article we proved that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " is a finite "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": "-generator group ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "m > 1"
+            },
+            {
+              "type": "text",
+              "content": ") of prime-power exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.4202247191011236,
+            0.4707692307692308,
+            0.5707865168539326,
+            0.5261538461538462
+          ],
+          "image_path": "images/page_2_equation_5.jpg",
+          "content": "| G | \\leq \\underbrace {m ^ {m} {} ^ {m}} _ {q ^ {q ^ {q}}}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.08089887640449438,
+            0.5338461538461539,
+            0.9168539325842696,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the Hall-Higman reduction and the classification of finite simple groups, we were able to extend this result to general exponent in [43]. If G is a finite m-generator group (m > 1) of exponent n, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.42247191011235957,
+            0.6046153846153847,
+            0.5707865168539326,
+            0.6584615384615384
+          ],
+          "image_path": "images/page_2_equation_7.jpg",
+          "content": "| G | \\leq \\underbrace {m ^ {m ^ {\\cdot^ {\\cdot^ {m}}}}} _ {n ^ {n ^ {n}}}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.08089887640449438,
+            0.6661538461538462,
+            0.9168539325842696,
+            0.7076923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A slightly different way of expressing our result is: if G is a finite m-generator group of exponent n, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.42696629213483145,
+            0.7153846153846154,
+            0.5685393258426966,
+            0.7507692307692307
+          ],
+          "image_path": "images/page_2_equation_9.jpg",
+          "content": "| G | \\leq 2 ^ {2 ^ {\\cdot^ {2 ^ {m}}}},"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.08314606741573034,
+            0.7615384615384615,
+            0.34831460674157305,
+            0.7815384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n^{n^n}"
+            },
+            {
+              "type": "text",
+              "content": " twos in the tower."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.08089887640449438,
+            0.7830769230769231,
+            0.9191011235955057,
+            0.8892307692307693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Numbers of this magnitude are incomprehensibly large. Furthermore the formulation of our results owes as much to our wish to find bounds which we could write down as it does to the underlying mathematics. Nevertheless there is an elegant, simple argument due to Mike Newman which shows that bounds of this sort may be the best that can be hoped for. He observed that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.3955056179775281,
+            0.8969230769230769,
+            0.6022471910112359,
+            0.9338461538461539
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "| R (m, 2 ^ {k}) | \\geq 2 ^ {2 ^ {\\cdot^ {2 ^ {m}}}},"
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.08089887640449438,
+            0.05384615384615385,
+            0.1101123595505618,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[3]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 14,
+          "bbox": [
+            0.3258426966292135,
+            0.05384615384615385,
+            0.6696629213483146,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bounds in the restricted Burnside problem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.8786516853932584,
+            0.05692307692307692,
+            0.9146067415730337,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "263"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.07640449438202247,
+            0.08307692307692308,
+            0.9146067415730337,
+            0.12461538461538461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where there are k twos in the tower. To see this let F be the free group of rank m, and consider the series"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3595505617977528,
+            0.14,
+            0.6337078651685393,
+            0.16
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "F = F _ {0} > F _ {1} > F _ {2} > \\dots ,"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.07865168539325842,
+            0.17384615384615384,
+            0.9146067415730337,
+            0.23692307692307693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{i+1} = (F_i)^2"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i = 0, 1, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": ". For each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i"
+            },
+            {
+              "type": "text",
+              "content": " the quotient group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_i / F_{i+1}"
+            },
+            {
+              "type": "text",
+              "content": " is elementary Abelian, and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F / F_k"
+            },
+            {
+              "type": "text",
+              "content": " is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": "-generator group of exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^k"
+            },
+            {
+              "type": "text",
+              "content": ". We obtain Newman's lower bound for the order of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, 2^k)"
+            },
+            {
+              "type": "text",
+              "content": " by showing that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.40898876404494383,
+            0.24769230769230768,
+            0.5842696629213483,
+            0.2846153846153846
+          ],
+          "image_path": "images/page_3_equation_3.jpg",
+          "content": "\\left| F / F _ {k} \\right| \\geq 2 ^ {2 ^ {\\cdot^ {2 ^ {m}}}}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.07865168539325842,
+            0.2969230769230769,
+            0.9168539325842696,
+            0.4523076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|F / F_1| = 2^m"
+            },
+            {
+              "type": "text",
+              "content": ", which establishes the lower bound for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = 1"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose by induction that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|F / F_{k-1}|"
+            },
+            {
+              "type": "text",
+              "content": " has order "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 2^{2^m}"
+            },
+            {
+              "type": "text",
+              "content": " (with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k - 1, 2"
+            },
+            {
+              "type": "text",
+              "content": "'s in the tower). Then by Schreier's formula "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{k-1}"
+            },
+            {
+              "type": "text",
+              "content": " is a free subgroup of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F"
+            },
+            {
+              "type": "text",
+              "content": " of rank "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 + (m - 1)n"
+            },
+            {
+              "type": "text",
+              "content": ", which implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{k-1} / F_k"
+            },
+            {
+              "type": "text",
+              "content": " has order "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^{1 + (m - 1)n} > 2^n"
+            },
+            {
+              "type": "text",
+              "content": ". Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|F / F_k| > 2^n"
+            },
+            {
+              "type": "text",
+              "content": ", as required. This should be compared with the recent striking result of Gowers [10], who showed that some classical Ramsey theorems have elementary functions (that is functions in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Gr^3"
+            },
+            {
+              "type": "text",
+              "content": ") as bounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.10561797752808989,
+            0.45384615384615384,
+            0.8606741573033708,
+            0.47384615384615386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mike Newman conjectures that for all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n"
+            },
+            {
+              "type": "text",
+              "content": " there are polynomials "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f, g"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3258426966292135,
+            0.4846153846153846,
+            0.6651685393258427,
+            0.5461538461538461
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "\\underbrace {2 ^ {2 ^ {2 ^ {f (m)}}}} _ {k} \\leq | R (m, n) | \\leq \\underbrace {2 ^ {2 ^ {2 ^ {g (m)}}}} _ {k},"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.08089887640449438,
+            0.556923076923077,
+            0.9168539325842696,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = \\lfloor \\log_{2} n \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": " . This would imply that the arithmetic nature of n has little bearing on the size of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n)"
+            },
+            {
+              "type": "text",
+              "content": " . An alternative conjecture might be on similar lines, but with the height of the tower being related to the number of prime divisors of n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.08089887640449438,
+            0.62,
+            0.9168539325842696,
+            0.8307692307692308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In particular, groups of prime exponent seem to be more amenable than groups of general exponent. Their associated Lie rings are  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebras over  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z_{p}"
+            },
+            {
+              "type": "text",
+              "content": " , and it has been conjectured (Conjecture A) that if L is a  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebra over a field of characteristic p, then an arbitrary element  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in L"
+            },
+            {
+              "type": "text",
+              "content": "  generates a nilpotent ideal. If Conjecture A is true then there is an integer  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = N(p)"
+            },
+            {
+              "type": "text",
+              "content": "  such that an arbitrary element  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in L"
+            },
+            {
+              "type": "text",
+              "content": "  generates an ideal which is nilpotent of class at most N. This would imply that the free m-generator  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebra over  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z_{p}"
+            },
+            {
+              "type": "text",
+              "content": "  has class at most mN. It would follow from this that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": "  has class at most mN and order at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^{m^{n}}"
+            },
+            {
+              "type": "text",
+              "content": " . Conjecture A was proved correct for p = 5 by Higman [19]. Havas, Newman and Vaughan-Lee [16] showed that it is possible to take N = 6 in Higman's theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.08089887640449438,
+            0.8307692307692308,
+            0.9191011235955057,
+            0.936923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A slightly weaker conjecture (Conjecture B) is that for each prime p there exist integers r and N (depending on p) such that if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{1}, a_{2}, \\ldots, a_{r}"
+            },
+            {
+              "type": "text",
+              "content": "  are arbitrary elements of a  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebra L over a field of characteristic p then the Lie product  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[a_{1}, a_{2}, \\ldots, a_{r}]"
+            },
+            {
+              "type": "text",
+              "content": "  generates an ideal of L which is nilpotent of class at most N. Vaughan-Lee [41] showed that this holds for p = 7, with r = 8. If Conjecture B holds true for"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.08089887640449438,
+            0.05384615384615385,
+            0.11685393258426967,
+            0.06769230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "264"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 12,
+          "bbox": [
+            0.32134831460674157,
+            0.05384615384615385,
+            0.6696629213483146,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael Vaughan-Lee and E. I. Zel'manov"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 13,
+          "bbox": [
+            0.8831460674157303,
+            0.05384615384615385,
+            0.9123595505617977,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.08089887640449438,
+            0.08461538461538462,
+            0.9168539325842696,
+            0.12615384615384614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a prime "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ", then there is a polynomial function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": " (depending on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ") such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " has class at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f(m)"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.08089887640449438,
+            0.1276923076923077,
+            0.9191011235955057,
+            0.19076923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, Mike Newman's lower bound for the order of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, 8)"
+            },
+            {
+              "type": "text",
+              "content": " shows that its class cannot be bounded by a polynomial in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": ". So the associated Lie rings of groups of exponent 8 cannot satisfy a condition of this sort."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.08089887640449438,
+            0.19230769230769232,
+            0.9191011235955057,
+            0.3
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conjecture A and Conjecture B are related to the theory of PI-algebras. For a Lie algebra L over a field F let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  be the subalgebra of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "End_{F}(L)"
+            },
+            {
+              "type": "text",
+              "content": "  generated by the adjoint operators  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(a)"
+            },
+            {
+              "type": "text",
+              "content": "  ( "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in L"
+            },
+            {
+              "type": "text",
+              "content": " ), where if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in L"
+            },
+            {
+              "type": "text",
+              "content": "  then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "xad(a) = [x, a]"
+            },
+            {
+              "type": "text",
+              "content": " . A Lie algebra L is said to be SPI if the algebra  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  satisfies a polynomial identity, that is if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  is a PI-algebra."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.08089887640449438,
+            0.31384615384615383,
+            0.9191011235955057,
+            0.37846153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROPOSITION 1. If Conjecture A holds true for the prime p, then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p-1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebra over fields of characteristic p are SPI. And if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p-1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebras over fields of characteristic p are SPI then Conjecture B holds true for p."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.08314606741573034,
+            0.39384615384615385,
+            0.9213483146067416,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROOF. The proof of the first part of this proposition is based on an idea of Latyshev [24]. Let L be the free  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel Lie algebra of countably infinite rank over a field F of characteristic p, with free generators  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{1}, x_{2}, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": " . Kostrikin showed that the algebra  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  is spanned by elements of the form  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(a_{1})ad(a_{2}) \\cdots ad(a_{r})"
+            },
+            {
+              "type": "text",
+              "content": " , where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{1}, a_{2}, \\ldots, a_{r} \\in L"
+            },
+            {
+              "type": "text",
+              "content": " , and where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq r \\leq p - 1"
+            },
+            {
+              "type": "text",
+              "content": " . His argument also shows that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)^{p-1}"
+            },
+            {
+              "type": "text",
+              "content": "  is spanned by elements of the form  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(a_{1})ad(a_{2}) \\cdots ad(a_{p-1})"
+            },
+            {
+              "type": "text",
+              "content": " . For  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i = 1, 2, \\ldots"
+            },
+            {
+              "type": "text",
+              "content": "  we let"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.23595505617977527,
+            0.5523076923076923,
+            0.7640449438202247,
+            0.5738461538461539
+          ],
+          "image_path": "images/page_4_equation_5.jpg",
+          "content": "w _ {i} = a d \\left(x _ {(p - 1) (i - 1) + 1}\\right) a d \\left(x _ {(p - 1) (i - 1) + 2}\\right) \\dots a d \\left(x _ {(p - 1) i}\\right)."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.0853932584269663,
+            0.5815384615384616,
+            0.9168539325842696,
+            0.6246153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is SPI we need to find a number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " and coefficients "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{\\sigma} \\in F"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\in S_m"
+            },
+            {
+              "type": "text",
+              "content": " (with not all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha_{\\sigma} = 0"
+            },
+            {
+              "type": "text",
+              "content": ") such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3595505617977528,
+            0.6307692307692307,
+            0.6404494382022472,
+            0.6707692307692308
+          ],
+          "image_path": "images/page_4_equation_7.jpg",
+          "content": "\\sum_ {\\sigma \\in S _ {m}} \\alpha_ {\\sigma} w _ {1 \\sigma} w _ {2 \\sigma} \\dots w _ {m \\sigma} = 0."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.0853932584269663,
+            0.68,
+            0.9168539325842696,
+            0.7415384615384616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In other words, we have to find  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": "  such that the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m!"
+            },
+            {
+              "type": "text",
+              "content": "  elements  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{1\\sigma} \\cdots w_{m\\sigma}"
+            },
+            {
+              "type": "text",
+              "content": "  are linearly dependent. Note that all the elements  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{1\\sigma} \\cdots w_{m\\sigma}"
+            },
+            {
+              "type": "text",
+              "content": "  lie in the subspace  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{m(p-1)}"
+            },
+            {
+              "type": "text",
+              "content": "  of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  spanned by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ad(x_{1\\sigma})ad(x_{2\\sigma}) \\cdots ad(x_{m(p-1)\\sigma}) \\mid \\sigma \\in S_{m(p-1)}\\}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.0853932584269663,
+            0.7415384615384616,
+            0.9213483146067416,
+            0.8046153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we assume that Conjecture A holds true, then there is an integer N such that if a is any element of L, then the ideal of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": "  generated by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(a)"
+            },
+            {
+              "type": "text",
+              "content": "  is nilpotent of class at most N. In other words, if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v_{0}, v_{1}, \\ldots, v_{N}"
+            },
+            {
+              "type": "text",
+              "content": "  are any elements of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.298876404494382,
+            0.816923076923077,
+            0.7056179775280899,
+            0.8353846153846154
+          ],
+          "image_path": "images/page_4_equation_10.jpg",
+          "content": "v _ {0} a d (a) v _ {1} a d (a) v _ {2} \\dots v _ {N - 1} a d (a) v _ {N} = 0."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.08764044943820225,
+            0.8461538461538461,
+            0.9213483146067416,
+            0.8876923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Note that this identity also holds true if some of the  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v_{i}"
+            },
+            {
+              "type": "text",
+              "content": "  are omitted.) Linearizing we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.24719101123595505,
+            0.8953846153846153,
+            0.755056179775281,
+            0.9353846153846154
+          ],
+          "image_path": "images/page_4_equation_12.jpg",
+          "content": "\\sum_ {\\sigma \\in S _ {N}} v _ {0} a d (a _ {1 \\sigma}) v _ {1} a d (a _ {2 \\sigma}) v _ {2} \\dots v _ {N - 1} a d (a _ {N \\sigma}) v _ {N} = 0,"
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.01348314606741573,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.08314606741573034,
+            0.055384615384615386,
+            0.11235955056179775,
+            0.07230769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[5]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 15,
+          "bbox": [
+            0.32808988764044944,
+            0.055384615384615386,
+            0.6719101123595506,
+            0.07230769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bounds in the restricted Burnside problem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.8808988764044944,
+            0.05692307692307692,
+            0.9168539325842696,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "265"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.07865168539325842,
+            0.08461538461538462,
+            0.23370786516853934,
+            0.10461538461538461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or equivalently"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.17752808988764046,
+            0.11384615384615385,
+            0.8157303370786517,
+            0.15384615384615385
+          ],
+          "image_path": "images/page_5_equation_1.jpg",
+          "content": "v _ {0} a d \\left(a _ {1}\\right) v _ {1} \\dots a d \\left(a _ {N}\\right) v _ {N} = - \\sum_ {1 \\neq \\sigma \\in S _ {N}} v _ {0} a d \\left(a _ {1 \\sigma}\\right) v _ {1} \\dots a d \\left(a _ {N \\sigma}\\right) v _ {N}.\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.07865168539325842,
+            0.16153846153846155,
+            0.9168539325842696,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Once again, this identity holds true if some of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v_{i}"
+            },
+            {
+              "type": "text",
+              "content": " are omitted.) Now let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geq N"
+            },
+            {
+              "type": "text",
+              "content": " and let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\in S_{k}"
+            },
+            {
+              "type": "text",
+              "content": ". Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq i_{1} < i_{2} < \\cdots < i_{N} \\leq k"
+            },
+            {
+              "type": "text",
+              "content": ", and consider the subsequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(i_{1})\\sigma, (i_{2})\\sigma, \\ldots, (i_{N})\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\sigma, 2\\sigma, \\ldots, k\\sigma"
+            },
+            {
+              "type": "text",
+              "content": ". This subsequence is called an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N"
+            },
+            {
+              "type": "text",
+              "content": "-disorder if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(i_{1})\\sigma > (i_{2})\\sigma > \\cdots > (i_{N})\\sigma"
+            },
+            {
+              "type": "text",
+              "content": ". We let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{k}"
+            },
+            {
+              "type": "text",
+              "content": " be the subspace of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": " spanned by the products "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(x_{1\\sigma})ad(x_{2\\sigma}) \\cdots ad(x_{k\\sigma})"
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\in S_{k}"
+            },
+            {
+              "type": "text",
+              "content": "). Equation (1) implies that if the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\sigma, 2\\sigma, \\ldots, k\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " contains a subsequence which is an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N"
+            },
+            {
+              "type": "text",
+              "content": "-disorder, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(x_{1\\sigma})ad(x_{2\\sigma}) \\cdots ad(x_{k\\sigma})"
+            },
+            {
+              "type": "text",
+              "content": " can be expressed as a linear combination of elements "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(x_{1\\tau})ad(x_{2\\tau}) \\cdots ad(x_{k\\tau})"
+            },
+            {
+              "type": "text",
+              "content": " such that the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\tau, 2\\tau, \\ldots, k\\tau"
+            },
+            {
+              "type": "text",
+              "content": " is lexicographically earlier than the sequence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\sigma, 2\\sigma, \\ldots, k\\sigma"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V_{k}"
+            },
+            {
+              "type": "text",
+              "content": " is spanned by elements "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ad(x_{1\\sigma}) \\cdots ad(x_{k\\sigma})"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\sigma, 2\\sigma, \\ldots, k\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " does not contain an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N"
+            },
+            {
+              "type": "text",
+              "content": "-disorder. Now by Lemma 1 in [5, p. 176], the number of permutations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sigma \\in S_{k}"
+            },
+            {
+              "type": "text",
+              "content": " such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1\\sigma, 2\\sigma, \\ldots, k\\sigma"
+            },
+            {
+              "type": "text",
+              "content": " does not contain an "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N"
+            },
+            {
+              "type": "text",
+              "content": "-disorder is at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(N-1)^{2k}"
+            },
+            {
+              "type": "text",
+              "content": ". So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dim_F(V_k) \\leq (N-1)^{2k}"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dim_F(V_{m(p-1)}) \\leq (N-1)^{2m(p-1)}"
+            },
+            {
+              "type": "text",
+              "content": ". For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " sufficiently large we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(N-1)^{2m(p-1)} < m!"
+            },
+            {
+              "type": "text",
+              "content": ", and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is SPI."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.08314606741573034,
+            0.46,
+            0.9235955056179775,
+            0.5846153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The second part of the proposition follows from a result of Amitsur. He proved that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " is an associative, locally nilpotent algebra which satisfies a polynomial identity of degree "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": ", then an arbitrary product of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lfloor d^2 / 4 \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": " elements of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A"
+            },
+            {
+              "type": "text",
+              "content": " generates a nilpotent ideal. This implies our assertion. (From Kostrikin's solution of the restricted Burnside problem for prime exponent we know that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " is a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": "-Engel Lie algebra over a field of characteristic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ", then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(L)"
+            },
+            {
+              "type": "text",
+              "content": " are locally nilpotent.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.08764044943820225,
+            0.5953846153846154,
+            0.9258426966292135,
+            0.6784615384615384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The question of whether or not the class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " can be bounded by a polynomial in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": " relates to Problem 4 of Hanna Neumann's book [29]: Does there exist an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = d(p)"
+            },
+            {
+              "type": "text",
+              "content": " such that a group of exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is locally finite provided all its "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": "-generator subgroups are finite?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.0853932584269663,
+            0.68,
+            0.9258426966292135,
+            0.936923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To see this connection let  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{2} = [x_{2}, x_{1}, x_{1}]"
+            },
+            {
+              "type": "text",
+              "content": " , and for m > 2 inductively define  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{m} = [x_{m}, w_{m-1}, w_{m-1}]"
+            },
+            {
+              "type": "text",
+              "content": " . Then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{m}"
+            },
+            {
+              "type": "text",
+              "content": "  involves m variables, but the weight of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{m}"
+            },
+            {
+              "type": "text",
+              "content": "  is  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^{m} - 1"
+            },
+            {
+              "type": "text",
+              "content": " . So if the class of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": "  is bounded by a polynomial in m, then there is some integer d such that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d} = 1"
+            },
+            {
+              "type": "text",
+              "content": "  is an identical relation in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(d, p)"
+            },
+            {
+              "type": "text",
+              "content": " . This implies that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d} = 1"
+            },
+            {
+              "type": "text",
+              "content": "  is an identical relation in any locally finite group of exponent p. On the other hand, let G be a group of exponent p satisfying the identical relation  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d} = 1"
+            },
+            {
+              "type": "text",
+              "content": " . Then any value of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d-1}"
+            },
+            {
+              "type": "text",
+              "content": "  in G commutes with all its conjugates, and so lies in an Abelian normal subgroup of G. Thus the values of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d-1}"
+            },
+            {
+              "type": "text",
+              "content": "  lie in the Hirsch-Plotkin radical of G. (The Hirsch-Plotkin radical is the unique maximal locally nilpotent normal subgroup.) Since G has exponent p the Hirsch-Plotkin radical of G is locally finite, and an easy induction shows that G is locally finite. Thus a group of exponent p is locally finite if and only if it satisfies the identity  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "w_{d} = 1"
+            },
+            {
+              "type": "text",
+              "content": " . So the assumption that the class of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 6,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.08089887640449438,
+            0.05384615384615385,
+            0.11685393258426967,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "266"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 8,
+          "bbox": [
+            0.3235955056179775,
+            0.05384615384615385,
+            0.6719101123595506,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael Vaughan-Lee and E. I. Zel'manov"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.08089887640449438,
+            0.08307692307692308,
+            0.9191011235955057,
+            0.14461538461538462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "can be bounded by a polynomial in m implies the existence of an integer d with the property that a group of exponent p is locally finite if and only if its d-generator subgroups are finite."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.08089887640449438,
+            0.1476923076923077,
+            0.9191011235955057,
+            0.25384615384615383
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Although it remains an open question whether the class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " can always be bounded by a polynomial in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": ", there is a theorem of Zel'manov [47] which also implies the existence of such an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d"
+            },
+            {
+              "type": "text",
+              "content": ". For a group "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " we let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N_1(G)"
+            },
+            {
+              "type": "text",
+              "content": " be the product of all the Abelian normal subgroups of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": ", and for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": " we inductively define "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N_{i+1}(G)"
+            },
+            {
+              "type": "text",
+              "content": " to be the subgroup of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.32808988764044944,
+            0.2676923076923077,
+            0.6719101123595506,
+            0.28923076923076924
+          ],
+          "image_path": "images/page_6_equation_2.jpg",
+          "content": "N _ {i + 1} (G) / N _ {i} (G) = N _ {1} (G / N _ {i} (G))."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.08314606741573034,
+            0.3046153846153846,
+            0.9191011235955057,
+            0.3676923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Zel'manov proves that for any prime "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " there is an integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = s(p)"
+            },
+            {
+              "type": "text",
+              "content": " such that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": " is a locally finite group of exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G = N_s(G)"
+            },
+            {
+              "type": "text",
+              "content": ". This result also implies a positive solution to Hanna Neumann's problem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.08314606741573034,
+            0.3676923076923077,
+            0.9213483146067416,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another area of interest is in obtaining bounds for the derived length of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p^{k})"
+            },
+            {
+              "type": "text",
+              "content": " . The most significant results in this area follow from work of Bachmuth, Mochizuki and Walkup and of Razmyslov. Bachmuth, Mochizuki and Walkup [4] showed that there are insoluble locally finite groups of exponent 5, and Razmyslov [36] extended this result to all prime-power exponents  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^{k} \\geq 4"
+            },
+            {
+              "type": "text",
+              "content": " . (Groups of exponent 2 are Abelian, and groups of exponent 3 are nilpotent of class 2 and hence metabelian.) The proofs of these results imply that if  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^{k} \\geq 4"
+            },
+            {
+              "type": "text",
+              "content": " , then the derived length of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p^{k})"
+            },
+            {
+              "type": "text",
+              "content": "  is greater than  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lfloor \\log_{2} m \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.4067415730337079,
+            0.5723076923076923,
+            0.6067415730337079,
+            0.5923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Small exponent"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.0853932584269663,
+            0.62,
+            0.9191011235955057,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leq 7"
+            },
+            {
+              "type": "text",
+              "content": " we have the following bounds for the order of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n)"
+            },
+            {
+              "type": "text",
+              "content": ". (Groups of exponent 2, 3, 4, and 6 are locally finite so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, n) = B(m, n)"
+            },
+            {
+              "type": "text",
+              "content": " for these exponents.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.08764044943820225,
+            0.6661538461538462,
+            0.30112359550561796,
+            0.6846153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|B(m,2)| = 2^{m};"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.08764044943820225,
+            0.6876923076923077,
+            0.701123595505618,
+            0.7076923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|B(m,3)| = 3^{m + \\binom{m}{2} + \\binom{m}{3}}"
+            },
+            {
+              "type": "text",
+              "content": " (Levi and van der Waerden [25]);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.08764044943820225,
+            0.7076923076923077,
+            0.7393258426966293,
+            0.7292307692307692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|B(m,4)| = 2^k"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2} 4^m \\leq k < \\frac{1}{2}(4 + 2\\sqrt{2})^m"
+            },
+            {
+              "type": "text",
+              "content": " (Mann [28]);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.0898876404494382,
+            0.7292307692307692,
+            0.7191011235955056,
+            0.7492307692307693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(4) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|R(m,5)| \\leq 5^{m^{6m}}"
+            },
+            {
+              "type": "text",
+              "content": " (Havas, Newman and Vaughan-Lee [16]);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.0898876404494382,
+            0.7507692307692307,
+            0.9168539325842696,
+            0.7907692307692308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(5) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|B(m,6)| = 2^a \\cdot 3^{b + \\binom{b}{2} + \\binom{b}{3}}"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 1 + (m - 1)3^{m + \\binom{m}{2} + \\binom{m}{3}}, b = 1 + (m - 1)2^m"
+            },
+            {
+              "type": "text",
+              "content": " (Hall [14]);"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.0898876404494382,
+            0.7907692307692308,
+            0.5258426966292135,
+            0.8138461538461539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(6) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "|R(m,7)| \\leq 7^{m^{51m^8}}"
+            },
+            {
+              "type": "text",
+              "content": " (Vaughan-Lee [41])."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.3955056179775281,
+            0.8492307692307692,
+            0.6179775280898876,
+            0.8676923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Use of computers"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.0898876404494382,
+            0.8953846153846153,
+            0.9213483146067416,
+            0.936923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One of Mike Newman's major interests over the last 25 years has been in using computers to investigate Burnside groups. The main computational tools that have"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.0853932584269663,
+            0.05384615384615385,
+            0.1146067415730337,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[7]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 16,
+          "bbox": [
+            0.32808988764044944,
+            0.05384615384615385,
+            0.6719101123595506,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bounds in the restricted Burnside problem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.8808988764044944,
+            0.05384615384615385,
+            0.9168539325842696,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "267"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.01348314606741573,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.07865168539325842,
+            0.08307692307692308,
+            0.9168539325842696,
+            0.14615384615384616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "been used for this are the p-quotient algorithm and the nilpotent quotient algorithm for graded Lie rings. These have been used to obtain detailed information about groups of exponent 4, 5, 7, 8, and 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.07865168539325842,
+            0.1476923076923077,
+            0.9168539325842696,
+            0.21076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If G is a group of prime-power order  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p^{n}"
+            },
+            {
+              "type": "text",
+              "content": " , then G can be described using a power-commutator presentation (PCP). This is a presentation on a generating set  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{a_{1}, a_{2}, \\ldots, a_{n}\\}"
+            },
+            {
+              "type": "text",
+              "content": "  with n power relations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3438202247191011,
+            0.22,
+            0.651685393258427,
+            0.24461538461538462
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "a _ {i} ^ {p} = a _ {i + 1} ^ {\\alpha (i, i + 1)} a _ {i + 2} ^ {\\alpha (i, i + 2)} \\dots a _ {n} ^ {\\alpha (i, n)},"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.07865168539325842,
+            0.25384615384615383,
+            0.7752808988764045,
+            0.27692307692307694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq \\alpha(i, k) < p"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq i < k \\leq n"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\binom{n}{2}"
+            },
+            {
+              "type": "text",
+              "content": " commutator relations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.30337078651685395,
+            0.28615384615384615,
+            0.6921348314606741,
+            0.3123076923076923
+          ],
+          "image_path": "images/page_7_equation_4.jpg",
+          "content": "[ a _ {i}, a _ {j} ] = a _ {i + 1} ^ {\\alpha (i, j, i + 1)} a _ {i + 2} ^ {\\alpha (i, j, i + 2)} \\dots a _ {n} ^ {\\alpha (i, j, n)},"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.07865168539325842,
+            0.32153846153846155,
+            0.9168539325842696,
+            0.40615384615384614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 \\leq \\alpha(i, j, k) < p"
+            },
+            {
+              "type": "text",
+              "content": "  for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq j < i < k \\leq n"
+            },
+            {
+              "type": "text",
+              "content": " . These presentations have been of central importance in allowing effective computation with finite p-groups (see Sims [38]). The p-quotient algorithm can be used to compute power-commutator presentations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.08089887640449438,
+            0.4076923076923077,
+            0.9191011235955057,
+            0.5138461538461538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first p-quotient algorithm was described by Macdonald [27]. The version of the algorithm in common use today is based on the ‘Canberra nilpotent quotient algorithm’ originally developed by Havas and Newman (see [17]). Over the years this algorithm has been improved and extended in a number of ways—for a description of some of these improvements see Newman and O’Brien [30]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.08089887640449438,
+            0.5138461538461538,
+            0.9168539325842696,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In principle, the p-quotient algorithm can be used to compute a PCP for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, q)"
+            },
+            {
+              "type": "text",
+              "content": "  for any number of generators m and any prime-power exponent q, but in practice we are limited to small values of m and q. Once a PCP has been computed for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, q)"
+            },
+            {
+              "type": "text",
+              "content": " , then the order and nilpotency class can be read off from the presentation, and other useful information can be readily obtained."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.08089887640449438,
+            0.62,
+            0.9191011235955057,
+            0.8107692307692308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first major successes of the p-quotient algorithm were the computations of PCPs for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": "  (Havas, Wall and Wamsley [18]) and for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(3, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  (Bayes, Kautsky and Wamsley [6]). Mike Newman computed a PCP for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(4, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  in 1989, and Newman and O'Brien [30] have computed PCPs for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(5, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(3, 5)"
+            },
+            {
+              "type": "text",
+              "content": " . However, the computation of PCPs for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(6, 4)"
+            },
+            {
+              "type": "text",
+              "content": " ,  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(4, 5)"
+            },
+            {
+              "type": "text",
+              "content": " , and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 7)"
+            },
+            {
+              "type": "text",
+              "content": "  are daunting tasks because of the size of the presentations involved and the CPU-time required. A PCP for the class 21 quotient of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 7)"
+            },
+            {
+              "type": "text",
+              "content": "  has been computed by Newman, O'Brien and Vaughan-Lee. This quotient has order  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7^{17199}"
+            },
+            {
+              "type": "text",
+              "content": " . Further computations in  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 7)"
+            },
+            {
+              "type": "text",
+              "content": "  are in progress, but are taking months of CPU-time on a computer with over a gigabyte of RAM."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.08089887640449438,
+            0.8107692307692308,
+            0.9213483146067416,
+            0.936923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The detailed information about groups of exponent 4 and 5 obtained from these PCPs has been used to obtain quite general ‘theoretical’ results. For example Gupta and Newman [13] together with Razmyslov [36] showed that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  has class 3m - 2 for m > 2, and Vaughan-Lee [40] showed that if m > 2 then  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 4)"
+            },
+            {
+              "type": "text",
+              "content": "  has derived length k where  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^{k-1} < 3m - 2 \\leq 2^{k}"
+            },
+            {
+              "type": "text",
+              "content": " . Mann [28] used information from these PCPs to obtain his bounds on the order of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 4)"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.08314606741573034,
+            0.05384615384615385,
+            0.11910112359550562,
+            0.06769230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "268"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 11,
+          "bbox": [
+            0.3258426966292135,
+            0.05384615384615385,
+            0.6719101123595506,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael Vaughan-Lee and E. I. Zel'manov"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 12,
+          "bbox": [
+            0.8853932584269663,
+            0.05384615384615385,
+            0.9146067415730337,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[8]"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.08089887640449438,
+            0.08461538461538462,
+            0.9168539325842696,
+            0.25384615384615383
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Information about groups of exponent 7, 8, and 9 has been obtained by computing certain quotients of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 7)"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 8)"
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 9)"
+            },
+            {
+              "type": "text",
+              "content": ". For example Grunewald, Havas, Mennicke and Newman [12] showed that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(2, 8)"
+            },
+            {
+              "type": "text",
+              "content": " has free generators "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a, b"
+            },
+            {
+              "type": "text",
+              "content": ", then the subgroup "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M"
+            },
+            {
+              "type": "text",
+              "content": " generated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a^4 b^4)^2"
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^2"
+            },
+            {
+              "type": "text",
+              "content": " is finite. Newman [31] used a PCP for the class 14 quotient of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(2, 8)"
+            },
+            {
+              "type": "text",
+              "content": " to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M"
+            },
+            {
+              "type": "text",
+              "content": " has class at least 4 and order at least "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^6"
+            },
+            {
+              "type": "text",
+              "content": ". This contrasts with Ivanov's solution of the Burnside problem for all sufficiently large exponents [20], in which he shows that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geq 48"
+            },
+            {
+              "type": "text",
+              "content": " then the finite subgroups of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "B(m, 2^k)"
+            },
+            {
+              "type": "text",
+              "content": " have class at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.08089887640449438,
+            0.2553846153846154,
+            0.9213483146067416,
+            0.5953846153846154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another important tool (especially for groups of exponent 5 and 7) has been the nilpotent quotient algorithm for graded Lie rings (see Havas, Newman and Vaughan-Lee [16]). It is known that the associated Lie rings of groups of prime exponent "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " satisfy the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": "-Engel identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[x, y, y, \\ldots, y] = 0"
+            },
+            {
+              "type": "text",
+              "content": ". These Lie rings also have characteristic "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ", and so can be viewed as Lie algebras over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb{Z}_p"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that the associated Lie ring of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " is a homomorphic image of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(m, p)"
+            },
+            {
+              "type": "text",
+              "content": ", the free "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m"
+            },
+            {
+              "type": "text",
+              "content": "-generator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p - 1)"
+            },
+            {
+              "type": "text",
+              "content": "-Engel Lie algebra over "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb{Z}_p"
+            },
+            {
+              "type": "text",
+              "content": ". Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " has the same order and same nilpotency class as its associated Lie ring, the order and class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(m, p)"
+            },
+            {
+              "type": "text",
+              "content": " provide upper bounds for the order and class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, p)"
+            },
+            {
+              "type": "text",
+              "content": ". Kostrikin used hand calculation to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": " has order at most "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5^{34}"
+            },
+            {
+              "type": "text",
+              "content": " and class at most 12, providing upper bounds for the order and class of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": ". Havas, Wall and Wamsley [18] used the nilpotent quotient algorithm for graded Lie rings to compute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": ", and showed that Kostrikin's bounds were sharp. They also used a theorem of Wall [44] to show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": " is the associated Lie ring of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": ", providing a proof that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(2, 5)"
+            },
+            {
+              "type": "text",
+              "content": " has order "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5^{34}"
+            },
+            {
+              "type": "text",
+              "content": " which is independent of their calculations with the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-quotient algorithm. The Lie algebras "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(3, 5)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(2, 7)"
+            },
+            {
+              "type": "text",
+              "content": " have also been computed (see [16, 32])."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.08314606741573034,
+            0.5953846153846154,
+            0.9213483146067416,
+            0.8276923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The associated Lie rings of groups of exponent p are known to satisfy a sequence of multilinear identities  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{n}=0"
+            },
+            {
+              "type": "text",
+              "content": "  for  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n\\geq p"
+            },
+            {
+              "type": "text",
+              "content": " . (See [40, Theorem 2.4.7 and Theorem 2.5.1]. The  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(p-1)"
+            },
+            {
+              "type": "text",
+              "content": " -Engel identity is equivalent to the multilinear identity  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "K_{p}=0"
+            },
+            {
+              "type": "text",
+              "content": " .) We denote the (relatively) free m-generator Lie algebra over  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z_{p}"
+            },
+            {
+              "type": "text",
+              "content": "  satisfying all these identities by  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W(m,p)"
+            },
+            {
+              "type": "text",
+              "content": " . Thus  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(m,p)"
+            },
+            {
+              "type": "text",
+              "content": " , the associated Lie ring of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m,p)"
+            },
+            {
+              "type": "text",
+              "content": " , is a homomorphic image of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W(m,p)"
+            },
+            {
+              "type": "text",
+              "content": "  which in turn is a homomorphic image of  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "E(m,p)"
+            },
+            {
+              "type": "text",
+              "content": " . The nilpotent quotient algorithm for graded Lie rings has been used to compute  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W(3,5)"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "W(2,7)"
+            },
+            {
+              "type": "text",
+              "content": "  (see [16,32]). They have orders  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5^{2282}"
+            },
+            {
+              "type": "text",
+              "content": "  and  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7^{20418}"
+            },
+            {
+              "type": "text",
+              "content": "  and classes 17 and 29 respectively. It turns out that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(m,5)=W(m,5)"
+            },
+            {
+              "type": "text",
+              "content": "  for m=2,3 (see [39]), and it seems likely that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(2,7)=W(2,7)"
+            },
+            {
+              "type": "text",
+              "content": " . But it remains an open question whether  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L(m,p)=W(m,p)"
+            },
+            {
+              "type": "text",
+              "content": "  in every case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.0853932584269663,
+            0.8292307692307692,
+            0.9213483146067416,
+            0.9353846153846154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As with the p-quotient algorithm, the nilpotent quotient algorithm for graded Lie rings has been used to obtain more general results. Havas, Newman and Vaughan-Lee [16] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, 5)"
+            },
+            {
+              "type": "text",
+              "content": "  has nilpotency class at most 6m, and hence that it has order at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5^{m^{6m}}"
+            },
+            {
+              "type": "text",
+              "content": " . And Vaughan-Lee [41] proved that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, 7)"
+            },
+            {
+              "type": "text",
+              "content": "  has class at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "51m^{8}"
+            },
+            {
+              "type": "text",
+              "content": " . It follows from this that  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R(m, 7)"
+            },
+            {
+              "type": "text",
+              "content": "  has order at most  "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7^{m^{51m^{8}}}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 4,
+          "bbox": [
+            0.08314606741573034,
+            0.05384615384615385,
+            0.11235955056179775,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[9]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 5,
+          "bbox": [
+            0.3258426966292135,
+            0.05384615384615385,
+            0.6719101123595506,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bounds in the restricted Burnside problem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.8808988764044944,
+            0.055384615384615386,
+            0.9168539325842696,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "269"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.01348314606741573,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.4404494382022472,
+            0.08461538461538462,
+            0.5617977528089888,
+            0.10461538461538461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.10112359550561797,
+            0.12461538461538461,
+            0.9101123595505618,
+            0.14153846153846153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[1] W. Ackermann, 'Zum Hilbertschen Aufbau der reellen Zahlen', Math. Ann. 99 (1928), 118–133."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.10112359550561797,
+            0.14307692307692307,
+            0.9168539325842696,
+            0.17692307692307693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[2] S. I. Adjan, The Burnside problem and identities in groups, Ergebnisse der Mathematik und ihrer Grenzgebiete 95 (Springer, Berlin, 1979)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.10112359550561797,
+            0.17692307692307693,
+            0.9168539325842696,
+            0.21076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[3] S. I. Adjan and A. A. Razborov, 'Periodic groups and Lie algebras', Uspekhi Mat. Nauk 42 (1987), 3–68."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.10112359550561797,
+            0.21076923076923076,
+            0.9168539325842696,
+            0.24461538461538462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[4] S. Bachmuth, H. Y. Mochizuki and D. Walkup, 'A nonsolvable group of exponent 5', Bull. Amer. Math. Soc. 76 (1970), 638–640."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.10112359550561797,
+            0.24615384615384617,
+            0.8089887640449438,
+            0.2630769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[5] Yu. A. Bahturin, Identical relations in Lie algebras (VNU Science Press BV, 1987)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.10337078651685393,
+            0.26461538461538464,
+            0.9168539325842696,
+            0.29846153846153844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[6] A. J. Bayes, J. Kautsky and J. W. Wamsley, Computation in nilpotent groups (application), Lecture Notes in Math. 372 (Springer, Berlin, 1974) pp. 82–89."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.10337078651685393,
+            0.29846153846153844,
+            0.9168539325842696,
+            0.3323076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[7] W. Burnside, 'On an unsettled question in the theory of discontinuous groups', Quart. J. Pure Appl. Math. 33 (1903), 230-238."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.10337078651685393,
+            0.33384615384615385,
+            0.9168539325842696,
+            0.36615384615384616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[8] E. S. Golod, 'On nil-algebras and residually finite "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-groups', Izv. Akad. Nauk SSSR, Ser. Mat. 28 (1964), 273-276."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.10112359550561797,
+            0.3676923076923077,
+            0.698876404494382,
+            0.38461538461538464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[9] D. Gorenstein, Finite simple groups (Plenum Press, New York, 1982)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.09438202247191012,
+            0.3861538461538462,
+            0.4651685393258427,
+            0.4015384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[10] W. T. Gowers, personal communication."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.09438202247191012,
+            0.4015384615384615,
+            0.9168539325842696,
+            0.4369230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[11] R. L. Graham, B. L. Rothschild and J. H. Spencer, Ramsey theory, Ser. in Discrete Math. (Wiley-Interscience, New York, 1990)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.09438202247191012,
+            0.4369230769230769,
+            0.9191011235955057,
+            0.4707692307692308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[12] F. J. Grunewald, G. Havas, J. L. Mennicke and M. F. Newman, Groups of exponent eight, Lecture Notes in Math. 806 (Springer, Berlin, 1981) pp. 49–188."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.09438202247191012,
+            0.4723076923076923,
+            0.9191011235955057,
+            0.5046153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[13] N. D. Gupta and M.F. Newman, The nilpotency class of finitely generated groups of exponent four, Lecture Notes in Math. 372 (Springer, Berlin, 1974) pp. 330–332."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.09438202247191012,
+            0.5061538461538462,
+            0.9168539325842696,
+            0.5230769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[14] M. Hall, 'Solution of the Burnside problem for exponent six', Illinois J. Math. 2 (1958), 764-786."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.09438202247191012,
+            0.5246153846153846,
+            0.9191011235955057,
+            0.556923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[15] P. Hall and G. Higman, 'On the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-length of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-soluble groups and reduction theorems for Burnside's problem', Proc. London Math. Soc. 6 (1956), 1-42."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.09662921348314607,
+            0.5584615384615385,
+            0.9191011235955057,
+            0.5923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[16] G. Havas, M. F. Newman and M. R. Vaughan-Lee, 'A nilpotent quotient algorithm for graded Lie rings', J. Symbolic Computation 9 (1990), 653–664."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.09438202247191012,
+            0.5938461538461538,
+            0.9191011235955057,
+            0.6261538461538462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[17] G. Havas and M. F. Newman, Applications of computers to questions like those of Burnside, Lecture Notes in Math. 806 (Springer, Berlin, 1980) pp. 211–230."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.09662921348314607,
+            0.6276923076923077,
+            0.9191011235955057,
+            0.6615384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[18] G. Havas, G. E. Wall and J. W. Wamsley, 'The two generator restricted Burnside group of exponent five', Bull. Austral. Math. Soc. 10 (1974), 459–470."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.09662921348314607,
+            0.6615384615384615,
+            0.8764044943820225,
+            0.6784615384615384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[19] G. Higman, 'On finite groups of exponent five', Proc. Camb. Phil. Soc. 52 (1956), 381–390."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 20,
+          "bbox": [
+            0.09662921348314607,
+            0.68,
+            0.9213483146067416,
+            0.7123076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[20] S. V. Ivanov, 'The free Burnside groups of sufficiently large exponent', Internat. J. Algebra and Comput. 4 (1994), 1-308."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 21,
+          "bbox": [
+            0.09662921348314607,
+            0.7138461538461538,
+            0.8629213483146068,
+            0.7307692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[21] A. I. Kostrikin, 'The Burnside problem', Izv. Akad. Nauk SSSR, Ser. Mat. 23 (1959), 3–34."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 22,
+          "bbox": [
+            0.09662921348314607,
+            0.7307692307692307,
+            0.6629213483146067,
+            0.7476923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[22] ——, ‘Sandwiches in Lie algebras’, Mat. Sb. 110 (1979), 3–12."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 23,
+          "bbox": [
+            0.09662921348314607,
+            0.7476923076923077,
+            0.9191011235955057,
+            0.7815384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[23] ——, Around Burnside, Ergebnisse der Mathematik und ihrer Grenzgebiete (Springer, Berlin, 1990)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 24,
+          "bbox": [
+            0.09662921348314607,
+            0.7830769230769231,
+            0.9213483146067416,
+            0.816923076923077
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[24] V. N. Latyshev, 'V. N. Regev's theorem on identities of tensor products of PI-algebras', Uspekhi Mat. Nauk 27 (1972), 213–214."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 25,
+          "bbox": [
+            0.09662921348314607,
+            0.816923076923077,
+            0.9191011235955057,
+            0.8507692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[25] F. Levi and B. L. Van der Waerden, ‘Über eine besondere Klasse von Gruppen’, Abh. Math. Sem. Univ. Hamburg 9 (1933), 154–158."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 26,
+          "bbox": [
+            0.09887640449438202,
+            0.8507692307692307,
+            0.9213483146067416,
+            0.8846153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[26] I. G. Lysenok, 'Infinite Burnside groups of even period', Izv. Ross. Akad. Nauk Ser. Mat. 60 (1996), 3–224."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 27,
+          "bbox": [
+            0.09887640449438202,
+            0.8861538461538462,
+            0.9213483146067416,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[27] I. D. Macdonald, 'A computer application to finite "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "-groups', J. Austral. Math. Soc. Ser. A 17 (1974), 102-112."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 28,
+          "bbox": [
+            0.09887640449438202,
+            0.9215384615384615,
+            0.9101123595505618,
+            0.9384615384615385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[28] A. J. Mann, 'On the orders of groups of exponent four', J. London Math. Soc. 26 (1982), 64–76."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 29,
+          "bbox": [
+            0.08314606741573034,
+            0.055384615384615386,
+            0.11910112359550562,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "270"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 30,
+          "bbox": [
+            0.3258426966292135,
+            0.055384615384615386,
+            0.6719101123595506,
+            0.07230769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Michael Vaughan-Lee and E. I. Zel'manov"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 31,
+          "bbox": [
+            0.8786516853932584,
+            0.05384615384615385,
+            0.9168539325842696,
+            0.07230769230769231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[10]"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 32,
+          "bbox": [
+            0.011235955056179775,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.09438202247191012,
+            0.08615384615384615,
+            0.9191011235955057,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[29] H. Neumann, Varieties of groups, Ergebnisse der Mathematik und ihrer Grenzgebiete 37 (Springer, Berlin, 1967)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.09438202247191012,
+            0.12153846153846154,
+            0.9191011235955057,
+            0.15384615384615385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[30] M. F. Newman and E. A. O'Brien, 'Applications of computers to questions like those of Burnside, II', Internat. J. Algebra and Comput. 6 (1996), 593-605."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.09438202247191012,
+            0.15538461538461537,
+            0.9191011235955057,
+            0.1723076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[31] M. F. Newman, 'Groups of exponent 8 are different', Bull. London Math. Soc. 25 (1993), 263-264."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.09662921348314607,
+            0.17384615384615384,
+            0.9191011235955057,
+            0.20615384615384616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[32] M. F. Newman and M. Vaughan-Lee, 'Some Lie rings associated with Burnside groups', ERA Amer. Math. Soc. 4 (1998), 1-3."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.09438202247191012,
+            0.2076923076923077,
+            0.9213483146067416,
+            0.24153846153846154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[33] P. S. Novikov and S. I. Adjan, 'Infinite periodic groups I', Izv. Akad. Nauk SSSR, Ser. Mat. 32 (1968), 212–244."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.09438202247191012,
+            0.24153846153846154,
+            0.8561797752808988,
+            0.26
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[34] ——, ‘Infinite periodic groups II’, Izv. Akad. Nauk SSSR, Ser. Mat. 32 (1968), 251–524."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.09662921348314607,
+            0.26,
+            0.8629213483146068,
+            0.27692307692307694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[35] ——, 'Infinite periodic groups III', Izv. Akad. Nauk SSSR, Ser. Mat. 32 (1968), 709–731."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.09662921348314607,
+            0.27692307692307694,
+            0.9191011235955057,
+            0.30923076923076925
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[36] Ju. P. Razmyslov, 'On a problem of Hall-Higman', Izv. Akad. Nauk SSSR, Ser. Mat. 42 (1978), 833–847."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.09662921348314607,
+            0.31076923076923074,
+            0.9191011235955057,
+            0.3446153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[37] I. N. Sanov, 'Solution of Burnside's problem for exponent four', Leningrad State Univ. Ann. Math. Ser. 10 (1940), 166-170."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.09662921348314607,
+            0.34615384615384615,
+            0.9191011235955057,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[38] C. C. Sims, Computation with finitely presented groups (Cambridge University Press, Cambridge, 1994)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.09662921348314607,
+            0.38,
+            0.9213483146067416,
+            0.41384615384615386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[39] M. R. Vaughan-Lee, 'Lie rings of groups of prime exponent', J. Austral. Math. Soc. Ser. A 49 (1990), 386-398."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.09662921348314607,
+            0.4153846153846154,
+            0.9168539325842696,
+            0.4323076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[40] ——, The restricted Burnside problem, second edition (Oxford University Press, Oxford, 1993)."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.09662921348314607,
+            0.4323076923076923,
+            0.9191011235955057,
+            0.4646153846153846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[41] ——, ‘The nilpotency class of finite groups of exponent p’, Trans. Amer. Math. Soc. 346 (1994), 617–640."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.09662921348314607,
+            0.46615384615384614,
+            0.9191011235955057,
+            0.5015384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[42] M. R. Vaughan-Lee and E. I. Zel'manov, 'Upper bounds in the restricted Burnside problem', J. Algebra 162 (1993), 107-145."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.09662921348314607,
+            0.5015384615384615,
+            0.9213483146067416,
+            0.5353846153846153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[43] ——, 'Upper bounds in the restricted Burnside problem II', Internat. J. Algebra and Comput. 6 (1996), 735–744."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.09662921348314607,
+            0.536923076923077,
+            0.9191011235955057,
+            0.5692307692307692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[44] G. E. Wall, 'On the Lie ring of a group of prime exponent II', Bull. Austral. Math. Soc. 19 (1978), 11-28."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.09887640449438202,
+            0.5707692307692308,
+            0.9191011235955057,
+            0.6046153846153847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[45] E. I. Zel' manov, 'The solution of the restricted Burnside problem for groups of odd exponent', Izv. Math. USSR 36 (1991), 41–60."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.09887640449438202,
+            0.6046153846153847,
+            0.9191011235955057,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[46] ——, ‘The solution of the restricted Burnside problem for 2-groups’, Mat. Sb. 182 (1991), 568–592."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.09887640449438202,
+            0.64,
+            0.9213483146067416,
+            0.6738461538461539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[47] ——, ‘On additional laws in the Burnside problem on periodic groups’, Internat. J. Algebra and Comput. 3 (1993), 583–609."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.08764044943820225,
+            0.696923076923077,
+            0.23595505617977527,
+            0.7153846153846154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Christ Church"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.6337078651685393,
+            0.696923076923077,
+            0.9168539325842696,
+            0.7169230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Department of Mathematics"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.0898876404494382,
+            0.7169230769230769,
+            0.27640449438202247,
+            0.7369230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Oxford, OX1 1DP"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.7460674157303371,
+            0.7169230769230769,
+            0.9146067415730337,
+            0.7369230769230769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PO Box 208283"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.0898876404494382,
+            0.7384615384615385,
+            0.1797752808988764,
+            0.7584615384615384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "England"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.701123595505618,
+            0.7384615384615385,
+            0.9168539325842696,
+            0.7584615384615384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10 Hillhouse Avenue"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.0898876404494382,
+            0.76,
+            0.41797752808988764,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "URL: http://users.ox.ac.uk/~vlee/"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.6314606741573033,
+            0.76,
+            0.9168539325842696,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "New Haven CT 06520-8283"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.08764044943820225,
+            0.7815384615384615,
+            0.3842696629213483,
+            0.8015384615384615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "e-mail: vlee@maths.ox.ac.uk"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 28,
+          "bbox": [
+            0.8584269662921349,
+            0.7815384615384615,
+            0.9146067415730337,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "USA"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 29,
+          "bbox": [
+            0.5101123595505618,
+            0.803076923076923,
+            0.9168539325842696,
+            0.823076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "e-mail: zelmanov@pascal.math.yale.edu"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 30,
+          "bbox": [
+            0.0853932584269663,
+            0.05384615384615385,
+            0.1258426966292135,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[11]"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 31,
+          "bbox": [
+            0.32808988764044944,
+            0.05384615384615385,
+            0.6741573033707865,
+            0.07076923076923076
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bounds in the restricted Burnside problem"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 32,
+          "bbox": [
+            0.8831460674157303,
+            0.05384615384615385,
+            0.9168539325842696,
+            0.06923076923076923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "271"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 33,
+          "bbox": [
+            0.01348314606741573,
+            0.9646153846153847,
+            0.9752808988764045,
+            0.9907692307692307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 10:56:44, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/S144678870000121X"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

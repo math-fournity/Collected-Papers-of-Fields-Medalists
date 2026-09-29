@@ -1,0 +1,2617 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1715686274509804,
+            0.1856060606060606,
+            0.2957516339869281,
+            0.2032828282828283
+          ],
+          "content": "Stephen Smale"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1715686274509804,
+            0.2196969696969697,
+            0.8055555555555556,
+            0.23863636363636365
+          ],
+          "content": "The Annals of Mathematics, 2nd Ser., Vol. 74, No. 2. (Sep., 1961), pp. 391-406."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11274509803921569,
+            0.2537878787878788,
+            0.20261437908496732,
+            0.2689393939393939
+          ],
+          "content": "Stable URL:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11274509803921569,
+            0.2689393939393939,
+            0.8856209150326797,
+            0.2866161616161616
+          ],
+          "content": "http://links.jstor.org/sici?sici=0003-486X%28196109%292%3A74%3A2%3C391%3AGPCIDG%3E2.0.CO%3B2-B"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11274509803921569,
+            0.29924242424242425,
+            0.6290849673202614,
+            0.31691919191919193
+          ],
+          "content": "The Annals of Mathematics is currently published by Annals of Mathematics."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1111111111111111,
+            0.39015151515151514,
+            0.8758169934640523,
+            0.45454545454545453
+          ],
+          "content": "Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at http://uk.jstor.org/about/terms.html. JSTOR's Terms and Conditions of Use provides, in part, that unless you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you may use content in the JSTOR archive only for your personal, non-commercial use."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11274509803921569,
+            0.4659090909090909,
+            0.8839869281045751,
+            0.5
+          ],
+          "content": "Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at http://uk.jstor.org/journals/annals.html."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11274509803921569,
+            0.5126262626262627,
+            0.8823529411764706,
+            0.5441919191919192
+          ],
+          "content": "Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed page of such transmission."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.11437908496732026,
+            0.14898989898989898,
+            0.7026143790849673,
+            0.16792929292929293
+          ],
+          "content": "Generalized Poincare's Conjecture in Dimensions Greater Than Four"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7777777777777778,
+            0.07828282828282829,
+            0.8839869281045751,
+            0.18055555555555555
+          ],
+          "content": "J\nSTOR"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1111111111111111,
+            0.648989898989899,
+            0.8316993464052288,
+            0.6818181818181818
+          ],
+          "content": "JSTOR is an independent not-for-profit organization dedicated to creating and preserving a digital archive of scholarly journals. For more information regarding JSTOR, please contact support@jstor.org."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.7075163398692811,
+            0.8813131313131313,
+            0.8856209150326797,
+            0.9128787878787878
+          ],
+          "content": "http://uk.jstor.org/Fri Mar 17 02:07:43 2006"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.23385300668151449,
+            0.12425149700598802,
+            0.7594654788418709,
+            0.16467065868263472
+          ],
+          "level": 1,
+          "content": "GENERALIZED POINCARÉ'S CONJECTURE IN DIMENSIONS GREATER THAN FOUR"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.40089086859688194,
+            0.17664670658682635,
+            0.5924276169265034,
+            0.19161676646706588
+          ],
+          "content": "BY STEPHEN SMALE\\*"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.37193763919821826,
+            0.20059880239520958,
+            0.6191536748329621,
+            0.2155688622754491
+          ],
+          "content": "(Received October 11, 1960)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3830734966592428,
+            0.21706586826347304,
+            0.6102449888641426,
+            0.23203592814371257
+          ],
+          "content": "(Revised March 27, 1961)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.2440119760479042,
+            0.8930957683741648,
+            0.3997005988023952
+          ],
+          "content": "Poincaré has posed the problem as to whether every simply connected closed 3-manifold (triangulated) is homeomorphic to the 3-sphere, see [18] for example. This problem, still open, is usually called Poincaré's conjecture. The generalized Poincaré conjecture (see [11] or [28] for example) says that every closed n-manifold which has the homotopy type of the n-sphere  $S^{n}$  is homeomorphic to the n-sphere. One object of this paper is to prove that this is indeed the case if  $n \\geq 5$  (for differentiable manifolds in the following theorem and combinatorial manifolds in Theorem B)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.4086826347305389,
+            0.89086859688196,
+            0.4476047904191617
+          ],
+          "content": "THEOREM A. Let  $M^{n}$  be a closed  $C^{\\infty}$  manifold which has the homotopy type of  $S^{n}, n \\geq 5$ . Then  $M^{n}$  is homeomorphic to  $S^{n}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.4476047904191617,
+            0.89086859688196,
+            0.5239520958083832
+          ],
+          "content": "Theorem A and many of the other theorems of this paper were announced in [20]. This work is written from the point of view of differential topology, but we are also able to obtain the combinatorial version of Theorem A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.5329341317365269,
+            0.89086859688196,
+            0.5703592814371258
+          ],
+          "content": "THEOREM B. Let $M^n$ be a combinatorial manifold which has the homotopy of $S^n$, $n \\geq 5$. Then $M^n$ is homeomorphic to $S^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.5718562874251497,
+            0.89086859688196,
+            0.6287425149700598
+          ],
+          "content": "J. Stallings has obtained a proof of Theorem B (and hence Theorem A) for  $n \\geq 7$  using different methods (Polyhedral homotopy-spheres, Bull. Amer. Math. Soc., 66 (1960), 485–488)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.6302395209580839,
+            0.89086859688196,
+            0.6676646706586826
+          ],
+          "content": "The basic theorems of this paper, Theorems C and I below, are much stronger than Theorem A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.6676646706586826,
+            0.8930957683741648,
+            0.7275449101796407
+          ],
+          "content": "A nice function f on a closed  $C^{\\infty}$  manifold is a  $C^{\\infty}$  function with nondegenerate critical points and, at each critical point  $\\beta$ ,  $f(\\beta)$  equals the index of  $\\beta$ . These functions were studied in [21]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10690423162583519,
+            0.7350299401197605,
+            0.8930957683741648,
+            0.812874251497006
+          ],
+          "content": "THEOREM C. Let  $M^{n}$  be a closed  $C^{\\infty}$  manifold which is  $(m-1)$ -connected, and  $n \\geq 2m$ ,  $(n, m) \\neq (4, 2)$ . Then there is a nice function f on M with type numbers satisfying  $M_{0} = M_{n} = 1$  and  $M_{i} = 0$  for 0 < i < m, n - m < i < n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10690423162583519,
+            0.8143712574850299,
+            0.8930957683741648,
+            0.8727544910179641
+          ],
+          "content": "Theorem C can be interpreted as stating that a cellular structure can be imposed on  $M^{n}$  with one 0-cell, one n-cell and no cells in the range 0<i<m, n - m<i<n. We will give some implications of Theorem C."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.10467706013363029,
+            0.07335329341317365,
+            0.32293986636971045,
+            0.10778443113772455
+          ],
+          "content": "ANNALS OF MATHEMATICS\nVol. 74, No. 2, September, 1961\nPrinted in Japan"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12472160356347439,
+            0.8787425149700598,
+            0.5077951002227171,
+            0.8952095808383234
+          ],
+          "content": "\\*The author is an Alfred P. Sloan Fellow."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.48552338530066813,
+            0.8967065868263473,
+            0.5167037861915368,
+            0.9101796407185628
+          ],
+          "content": "391"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.11077844311377245,
+            0.9398663697104677,
+            0.1497005988023952
+          ],
+          "content": "First, by letting $m = 1$ in Theorem C, we obtain a recent theorem of M. Morse [13]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.15718562874251496,
+            0.9398663697104677,
+            0.21407185628742514
+          ],
+          "content": "THEOREM D. Let  $M^{n}$  be a closed connected  $C^{\\infty}$  manifold. There exists a (nice) non-degenerate function on M with just one local maximum and one local minimum."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.2155688622754491,
+            0.9398663697104677,
+            0.3158682634730539
+          ],
+          "content": "In § 1, the handlebodies, elements of $\\mathcal{H}(n, k, s)$ are defined. Roughly speaking if $H \\in \\mathcal{H}(n, k, s)$, then $H$ is defined by attaching $s$-disks, $k$ in number, to the $n$-disk and “thickening” them. By taking $n = 2m + 1$ in Theorem C, we will prove the following theorem, which in the case of 3-dimensional manifolds gives the well known Heegard decomposition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.3218562874251497,
+            0.9398663697104677,
+            0.39820359281437123
+          ],
+          "content": "THEOREM F. Let M be a closed  $C^{\\infty}(2m+1)$ -manifold which is  $(m-1)$ -connected. Then  $M = H \\cup H'$ ,  $H \\cap H' = \\partial H = \\partial H'$  where  $H, H' \\in \\mathcal{H}(2m+1, k, m)$  are handlebodies ( $\\partial V$  means the boundary of the manifold V)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17371937639198218,
+            0.3997005988023952,
+            0.821826280623608,
+            0.42065868263473055
+          ],
+          "content": "By taking $n = 2m$ in Theorem C, we will get the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.4296407185628742,
+            0.9398663697104677,
+            0.5269461077844312
+          ],
+          "content": "THEOREM G. Let  $M^{2m}$  be a closed  $(m-1)$ -connected  $C^{\\infty}$  manifold,  $m\\neq2$ . Then there is a nice function on M whose type numbers equal the corresponding Betti numbers of M. Furthermore M, with the interior of a 2m-disk deleted, is a handlebody, an element of  $\\mathcal{H}(2m,k,m)$  where k is the  $m^{th}$  Betti number of M."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.5269461077844312,
+            0.9398663697104677,
+            0.5838323353293413
+          ],
+          "content": "Note that the first part of Theorem G is an immediate consequence of the Morse relation that the Euler characteristic is the alternating sum of the type numbers [12], and Theorem C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1714922048997773,
+            0.5838323353293413,
+            0.6636971046770601,
+            0.6047904191616766
+          ],
+          "content": "The following is a special case of Theorem G."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.6152694610778443,
+            0.9376391982182628,
+            0.7110778443113772
+          ],
+          "content": "THEOREM H. Let  $M^{2m}$  be a closed  $C^{\\infty}$  manifold  $m \\neq 2$  of the homotopy type of  $S^{2m}$ . Then there exists on M a non-degenerate function with one maximum, one minimum, and no other critical point. Thus M is the union of two 2m-disks whose intersection is a submanifold of M, diffeomorphic to  $S^{2m-1}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.7125748502994012,
+            0.9376391982182628,
+            0.75
+          ],
+          "content": "Theorem H implies the part of Theorem A for even dimensional homotopy spheres."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.7514970059880239,
+            0.9354120267260579,
+            0.8308383233532934
+          ],
+          "content": "Two closed  $C^{\\infty}$  oriented n-dimensional manifolds  $M_{1}$  and  $M_{2}$  are J-equivalent (according to Thom, see [25] or [10]) if there exists an oriented manifold V with  $\\partial V$  diffeomorphic to the disjoint union of  $M_{1}$  and  $-M_{2}$, and each  $M_{i}$  is a deformation retract of V."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.8398203592814372,
+            0.9354120267260579,
+            0.8982035928143712
+          ],
+          "content": "THEOREM I. Let  $M_{1}$  and  $M_{2}$  be  $(m-1)$ -connected oriented closed  $C^{\\infty}(2m+1)$ -dimensional manifolds which are J-equivalent,  $m \\neq 1$ . Then  $M_{1}$  and  $M_{2}$  are diffeomorphic."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.155902004454343,
+            0.0748502994011976,
+            0.19599109131403117,
+            0.09131736526946108
+          ],
+          "content": "392"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.45879732739420936,
+            0.07784431137724551,
+            0.6347438752783965,
+            0.09281437125748503
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.10778443113772455,
+            0.8797327394209354,
+            0.1661676646706587
+          ],
+          "content": "We obtain an orientation preserving diffeomorphism. If one takes  $M_{1}$  and  $M_{2}$  J-equivalent disregarding orientation, one finds that  $M_{1}$  and  $M_{2}$  are diffeomorphic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.16766467065868262,
+            0.8819599109131403,
+            0.30389221556886226
+          ],
+          "content": "In studying manifolds under the relation of J-equivalence, one can use the methods of cobordism and homotopy theory, both of which are fairly well developed. The importance of Theorem I is that it reduces diffeomorphism problems to J-equivalence problems for a certain class of manifolds. It is an open question as to whether arbitrary J-equivalent manifolds are diffeomorphic (see [10, Problem 5])(Since this was written, Milnor has found a counter-example)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.30389221556886226,
+            0.8819599109131403,
+            0.38173652694610777
+          ],
+          "content": "A short argument of Milnor [10, p. 33] using Mazur's theorem [7] applied to Theorem I yields the odd dimensional part of Theorem A. In fact it implies that, if $M^{2m+1}$ is a homotopy sphere, $m \\neq 1$, then $M^{2m+1}$ minus a point is diffeomorphic to euclidean $(2m+1)$-space (see also [9, p. 440])."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0935412026726058,
+            0.38023952095808383,
+            0.8819599109131403,
+            0.44011976047904194
+          ],
+          "content": "Milnor [10] has defined a group  $H^{n}$  of  $C^{\\infty}$  homotopy n-spheres under the relation of J-equivalence. From Theorems A and I, and the work of Milnor [10] and Kervaire [5], the following is an immediate consequence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.44461077844311375,
+            0.8797327394209354,
+            0.5254491017964071
+          ],
+          "content": "THEOREM J. If n is odd,  $n \\neq 3$ ,  $H^{n}$  is the group of classes of all differentiable structures on  $S^{n}$  under the equivalence of diffeomorphism. For n odd there are a finite number of differentiable structures on  $S^{n}$ . For example:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.09799554565701558,
+            0.5404191616766467,
+            0.8752783964365256,
+            0.6062874251497006
+          ],
+          "content": "| n | 3 | 5 | 7 | 9 | 11 | 13 | 15 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Number of Differentiable Structures on $S^n$ | 0 | 0 | 28 | 8 | 992 | 3 | 16256 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.6227544910179641,
+            0.8819599109131403,
+            0.718562874251497
+          ],
+          "content": "Previously it was known that there are a countable number of differentiable structures on  $S^{n}$  for all n (Thom), see also [9, p. 442]; and unique structures on  $S^{n}$  for  $n \\leq 3$  (e.g., Munkres [14]). Milnor [8] has also established lower bounds for the number of differentiable structures on  $S^{n}$  for several values of n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.718562874251497,
+            0.8819599109131403,
+            0.8952095808383234
+          ],
+          "content": "A group  $\\Gamma^{n}$  has been defined by Thom [24] (see also Munkres [14] and Milnor [9]). This is the group of all diffeomorphisms of  $S^{n-1}$  modulo those which can be extended to the n-disk. A group  $A^{n}$  has been studied by Milnor as those structures on the n-sphere which, minus a point, are diffeomorphic to euclidean space [9]. The group  $\\Gamma^{n}$  can be interpreted (by Thom [22] or Munkres [14]) as the group of differentiable structures on  $S^{n}$  which admit a  $C^{\\infty}$  function with the non-degenerate critical points, and hence one has the inclusion map  $i: \\Gamma^{n} \\to A^{n}$  defined. Also, by taking J-equivalence classes, one gets a map  $p: A^{n} \\to H^{n}$ ."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.36302895322939865,
+            0.0748502994011976,
+            0.6080178173719376,
+            0.09131736526946108
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8374164810690423,
+            0.07335329341317365,
+            0.8797327394209354,
+            0.08832335329341318
+          ],
+          "content": "393"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.16258351893095768,
+            0.10778443113772455,
+            0.9510022271714922,
+            0.1467065868263473
+          ],
+          "content": "THEOREM K. With notation as in the preceding paragraph, the following sequences are exact:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18262806236080179,
+            0.15419161676646706,
+            0.579064587973274,
+            0.17664670658682635
+          ],
+          "content": "(a) $A^n \\xrightarrow{p} \\mathcal{H}^n \\longrightarrow 0, \\quad n \\neq 3,4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18485523385300667,
+            0.18263473053892215,
+            0.6124721603563474,
+            0.20359281437125748
+          ],
+          "content": "(b) $\\Gamma^n\\stackrel {i}{\\longrightarrow}A^n\\longrightarrow 0$ ， $n$ even $\\neq 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18485523385300667,
+            0.20958083832335328,
+            0.6102449888641426,
+            0.23053892215568864
+          ],
+          "content": "(c) $0 \\longrightarrow A^n \\stackrel{p}{\\longrightarrow} \\mathcal{H}^n, n \\text{ odd } \\neq 3.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1603563474387528,
+            0.23652694610778444,
+            0.8819599109131403,
+            0.25898203592814373
+          ],
+          "content": "Hence, if $n$ is even, $n \\neq 4$, $\\Gamma^n = A^n$ and, if $n$ is odd $\\neq 3$, $A^n = \\mathcal{H}^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1603563474387528,
+            0.25748502994011974,
+            0.9487750556792873,
+            0.2949101796407186
+          ],
+          "content": "Here (a) follows from Theorem A, (b) from Theorem H, and (c) from Theorem I."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18262806236080179,
+            0.2964071856287425,
+            0.734966592427617,
+            0.31736526946107785
+          ],
+          "content": "Kervaire [4] has also obtained the following result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.32335329341317365,
+            0.9487750556792873,
+            0.36077844311377244
+          ],
+          "content": "THEOREM L. There exists a manifold with no differentiable structure at all."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.36377245508982037,
+            0.9510022271714922,
+            0.5778443113772455
+          ],
+          "content": "Take the manifold $W_0$ of Theorem 4.1 of Milnor [10] for $k = 3$. Milnor shows $\\partial W_0$ is a homotopy sphere. By Theorem A, $\\partial W_0$ is homeomorphic to $S^{11}$. We can attach a 12-disk to $W_0$ by a homeomorphism of the boundary onto $\\partial W_0$ to obtain a closed 12 dimensional manifold $M$. Starting with a triangulation of $W_0$, one can easily obtain a triangulation of $M$. If $M$ possessed a differentiable structure it would be almost parallelizable, since the obstruction to almost parallelizability lies in $H^6(M, \\pi_5(\\mathrm{SO}(12))) = 0$. But the index of $M$ is 8 and hence by Lemma 3.7 of [10] $M$ cannot possess any differentiable structure. Using Bott's results on the homotopy groups of Lie groups [1], one can similarly obtain manifolds of arbitrarily high dimension without a differentiable structure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.5838323353293413,
+            0.9487750556792873,
+            0.7005988023952096
+          ],
+          "content": "THEOREM M. Let  $C^{2m}$  be a contractible manifold,  $m \\neq 2$ , whose boundary is simply connected. Then  $C^{2m}$  is diffeomorphic to the 2m-disk. This implies that differentiable structures on disks of dimension 2m,  $m \\neq 2$ , are unique. Also the closure of the bounded component C of a  $C^{\\infty}$  imbedded (2m - 1)-sphere in euclidean 2m-space,  $m \\neq 2$ , is diffeomorphic to a disk."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.7020958083832335,
+            0.9487750556792873,
+            0.7619760479041916
+          ],
+          "content": "For these dimensions, the last statement of Theorem M is a strong version of the Schoenflies problem for the differentiable case. Mazur's theorem [7] had already implied C was homeomorphic to the 2m-disk."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.7604790419161677,
+            0.9487750556792873,
+            0.8982035928143712
+          ],
+          "content": "Theorem M is proved as follows from Theorems C and I. By Poincaré duality and the homology sequence of the pair  $(C, \\partial C)$ , it follows that  $\\partial C$  is a homotopy sphere and J-equivalent to zero since it bounds C. By Theorem I, then,  $\\partial C$  is diffeomorphic to  $S^{n}$ . Now attach to  $C^{2m}$  a 2m-disk by a diffeomorphism of the boundary to obtain a differentiable manifold V. One shows easily that V is a homotopy sphere and, hence by Theorem H, V is the union of two 2m-disks. Since any two 2m sub-disks of V are"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16481069042316257,
+            0.0718562874251497,
+            0.20489977728285078,
+            0.08832335329341318
+          ],
+          "content": "394"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.46993318485523383,
+            0.07784431137724551,
+            0.6458797327394209,
+            0.09281437125748503
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0935412026726058,
+            0.1092814371257485,
+            0.8819599109131403,
+            0.1661676646706587
+          ],
+          "content": "equivalent under a diffeomorphism of V (for example see Palais [17]), the original  $C^{2m} \\subset V$  must already have been diffeomorphic to the standard 2m-disk."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.16766467065868262,
+            0.8819599109131403,
+            0.30538922155688625
+          ],
+          "content": "To prove Theorem B, note that  $V = (M$  with the interior of a simplex deleted) is a contractible manifold, and hence possesses a differentiable structure [Munkres 15]. The double W of V is a differentiable manifold which has the homotopy type of a sphere. Hence by Theorem A, W is a topological sphere. Then according to Mazur [7],  $\\partial V$ , being a differentiable submanifold and a topological sphere, divides W into two topological cells. Thus V is topologically a cell and M a topological sphere."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.3188622754491018,
+            0.8841870824053452,
+            0.3967065868263473
+          ],
+          "content": "THEOREM N. Let  $C^{2m}$ ,  $m \\neq 2$ , be a contractible combinatorial manifold whose boundary is simply connected. Then  $C^{2m}$  is combinatorially equivalent to a simplex. Hence the Hauptvermutung (see [11]) holds for combinatorial manifolds which are closed cells in these dimensions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.3967065868263473,
+            0.8864142538975501,
+            0.5119760479041916
+          ],
+          "content": "To prove Theorem N, one first applies a recent result of M. W. Hirsch [3] to obtain a compatible differentiable structure on $C^{2m}$. By Theorem M, this differentiable structure is diffeomorphic to the 2m-disk $D^{2m}$. Since the standard 2m-simplex $\\sigma^{2m}$ is a $C^1$ triangulation of $D^{2m}$, Whitehead's theorem [27] applies to yield that $C^{2m}$ must be combinatorially equivalent to $\\sigma^{2m}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.5134730538922155,
+            0.8864142538975501,
+            0.5523952095808383
+          ],
+          "content": "Milnor first pointed out that the following theorem was a consequence of this theory."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.5658682634730539,
+            0.888641425389755,
+            0.6437125748502994
+          ],
+          "content": "THEOREM O. Let  $M^{2m}$ ,  $m \\neq 2$ , be a combinatorial manifold which has the same homotopy type as  $S^{2m}$ . Then  $M^{2m}$  is combinatorially equivalent to  $S^{2m}$ . Hence, in these dimensions, the Hauptvermutung holds for spheres."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.6437125748502994,
+            0.888641425389755,
+            0.6811377245508982
+          ],
+          "content": "For even dimensions greater than four, Theorems N and O improve recent results of Gluck [2]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.6826347305389222,
+            0.89086859688196,
+            0.7200598802395209
+          ],
+          "content": "Theorem O is proved by applying Theorem N to the complement of the interior of a simplex of  $M^{2m}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.7215568862275449,
+            0.8930957683741648,
+            0.8188622754491018
+          ],
+          "content": "Our program is the following. We introduce handlebodies, and then prove “the handlebody theorem” and a variant. These are used together with a theorem on the existence of “nice functions” from  $[21]$  to prove Theorems C and I, the basic theorems of the paper. After that, it remains only to finish the proof of Theorems F and G of the Introduction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.8188622754491018,
+            0.8953229398663697,
+            0.8952095808383234
+          ],
+          "content": "The proofs of Theorems C and I are similar. Although they use a fair amount of the technique of differential topology, they are, in a certain sense, elementary. It is in their application that we use many recent results."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.36525612472160357,
+            0.0748502994011976,
+            0.6102449888641426,
+            0.09281437125748503
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8374164810690423,
+            0.0748502994011976,
+            0.8797327394209354,
+            0.09131736526946108
+          ],
+          "content": "395"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.10778443113772455,
+            0.9443207126948775,
+            0.18413173652694612
+          ],
+          "content": "A slightly different version of this work was mimeographed in May 1960. In this paper J. Stallings pointed out a gap in the proof of the handlebody theorem (for the case s=1). This gap happened not to affect our main theorems."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.18562874251497005,
+            0.9443207126948775,
+            0.24251497005988024
+          ],
+          "content": "Everything will be considered from the  $C^{\\infty}$  point of view. All imbeddings will be  $C^{\\infty}$ . A differentiable isotopy is a homotopy of imbeddings with continuous differential."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23162583518930957,
+            0.25,
+            0.7171492204899778,
+            0.27095808383233533
+          ],
+          "content": "E ^ {n} = \\{x = (x _ {1}, \\dots , x _ {n}) \\}, | | x | | = (\\sum_ {i = 1} ^ {n} x _ {i} ^ {2}) ^ {1 / 2},",
+          "image_source": "images/page_6_equation_2.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22939866369710468,
+            0.27395209580838326,
+            0.8819599109131403,
+            0.2949101796407186
+          ],
+          "content": "D ^ {n} = \\{x \\in E ^ {n} | | | x | | \\leq 1 \\}, \\partial D ^ {n} = S ^ {n - 1} = \\{x \\in E ^ {n} | | | x | | = 1 \\};",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.41202672605790647,
+            0.29790419161676646,
+            0.6859688195991092,
+            0.31736526946107785
+          ],
+          "content": "$D_{i}^{n}$ etc. are copies of $D^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17817371937639198,
+            0.3248502994011976,
+            0.8685968819599109,
+            0.344311377245509
+          ],
+          "content": "A. Wallace's recent article [26] is related to some of this paper."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18040089086859687,
+            0.35179640718562877,
+            0.844097995545657,
+            0.3712574850299401
+          ],
+          "content": "1. Let $M^n$ be a compact manifold, $Q$ a component of $\\partial M$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36302895322939865,
+            0.3772455089820359,
+            0.7505567928730512,
+            0.3967065868263473
+          ],
+          "content": "f _ {i} \\colon \\partial D _ {i} ^ {s} \\times D _ {i} ^ {n - s} \\rightarrow Q, i = 1, \\dots , k",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.3997005988023952,
+            0.9420935412026726,
+            0.6332335329341318
+          ],
+          "content": "imbeddings with disjoint images,  $s \\geq 0$ ,  $n \\geq s$ . We define a new compact  $C^{\\infty}$  manifold  $V = \\chi(M, Q; f_{1}, \\cdots, f_{k}; s)$  as follows. The underlying topological space of V is obtained from M, and the  $D_{i}^{s} \\times D_{i}^{k-s}$  by identifying points which correspond under some  $f_{i}$ . The manifold thus defined has a natural differentiable structure except along corners  $\\partial D_{i}^{s} \\times \\partial D_{i}^{n-s}$  for each i. The differentiable structure we put on V is obtained by the process of “straightening the angle” along these corners. This is carried out in Milnor [10] for the case of the product of manifolds  $W_{1}$  and  $W_{2}$  with a corner along  $\\partial W_{1} \\times \\partial W_{2}$ . Since the local situation for the two cases is essentially the same, his construction applies to give a differentiable structure on V. He shows that this structure is well-defined up to diffeomorphism."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.6347305389221557,
+            0.9398663697104677,
+            0.6916167664670658
+          ],
+          "content": "If  $Q = \\partial M$  we omit it from the notation  $\\chi(M, Q; f_{1}, \\cdots, f_{k}; s)$ , and we sometimes also omit the s. We can consider the “handle”  $D_{i}^{s} \\times D_{i}^{n-s} \\subset V$  as differentiably imbedded."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17371937639198218,
+            0.6931137724550899,
+            0.7282850779510023,
+            0.7125748502994012
+          ],
+          "content": "The next lemma is a consequence of the definition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.7200598802395209,
+            0.9398663697104677,
+            0.7799401197604791
+          ],
+          "content": "(1.1) LEMMA. Let $f_i \\colon \\partial D_i^s \\times D_i^{n-s} \\to Q$ and $f'_i \\colon \\partial D_i^s \\times D_i^{n-s} \\to Q, i = 1, \\cdots, k$ be two sets of imbeddings each with disjoint images, $Q, M$ as above. Then $\\chi(M, Q; f_1, \\cdots, f_k; s)$ and $\\chi(M, Q; f'_1, \\cdots, f'_k; s)$ are diffeomorphic if"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.7799401197604791,
+            0.9354120267260579,
+            0.8158682634730539
+          ],
+          "content": "(a) there is a diffeomorphism $h: M \\to M$ such that $f_i' = hf_i, i = 1, \\cdots, k;$ or"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.8188622754491018,
+            0.9376391982182628,
+            0.8547904191616766
+          ],
+          "content": "(b) there exist diffeomorphisms  $h_{i}: D^{s} \\times D^{n-s} \\to D^{s} \\times D^{n-s}$  such that  $f_{i}' = f_{i}h_{i}, i = 1, \\cdots, k; or$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1759465478841871,
+            0.8577844311377245,
+            0.5812917594654788,
+            0.875748502994012
+          ],
+          "content": "(c) the $f_{i}^{\\prime}$ are permutations of the $f_{i}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1759465478841871,
+            0.875748502994012,
+            0.9376391982182628,
+            0.8967065868263473
+          ],
+          "content": "If $V$ is the manifold $\\chi(M, Q; f_1, \\cdots, f_k; s)$, we say $\\sigma = (M, Q; f_1, \\cdots, f_k; s)$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.15812917594654788,
+            0.0718562874251497,
+            0.2026726057906459,
+            0.08832335329341318
+          ],
+          "content": "396"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.45879732739420936,
+            0.07634730538922156,
+            0.6369710467706013,
+            0.09281437125748503
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.10329341317365269,
+            0.3429844097995546,
+            0.12125748502994012
+          ],
+          "content": "is a presentation of $V$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.12425149700598802,
+            0.8841870824053452,
+            0.281437125748503
+          ],
+          "content": "A handlebody is a manifold which has a presentation of the form  $(D^{n}; f_{1}, \\cdots, f_{k}; s)$ . Fixing n, k, s the set of all handlebodies is denoted by  $\\mathcal{H}(n, k, s)$ . For example,  $\\mathcal{H}(n, k, 0)$  consists of one element, the disjoint union of  $(k+1)$  n-disks; and one can show  $\\mathcal{H}(2, 1, 1)$  consists of  $S^{1} \\times I$  and the Möbius strip, and  $\\mathcal{H}(3, k, 1)$  consists of the classical handlebodies [19; Henkelkörper], orientable and non-orientable, or at least differentiable analogues of them. The following is one of the main theorems used in the proof of Theorem C. An analogue in §5 is used for Theorem I."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.2904191616766467,
+            0.8841870824053452,
+            0.36826347305389223
+          ],
+          "content": "(1.2) HANDLEBODY THEOREM. Let  $n \\geq 2s + 2$  and, if  $s = 1$ ,  $n \\geq 5$ ; let  $H \\in \\mathcal{H}(n, k, s)$ ,  $V = \\chi(H; f_1, \\cdots, f_r; s + 1)$ , and  $\\pi_s(V) = 0$ . Also, if s = 1, assume  $\\pi_1(\\chi(H; f_1, \\cdots, f_{r-k}; 2)) = 1$ . Then  $V \\in \\mathcal{H}(n, r - k, s + 1)$ . (We do not know if the special assumption for s = 1 is necessary.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12026726057906459,
+            0.36826347305389223,
+            0.7149220489977728,
+            0.38772455089820357
+          ],
+          "content": "The next three sections are devoted to a proof of (1.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.3997005988023952,
+            0.8819599109131403,
+            0.5553892215568862
+          ],
+          "content": "2. Let  $G_{r}=G_{r}(s)$  be the free group on r generators  $D_{1},\\cdots,D_{r}$  if s=1, and the free abelian group on r generators  $D_{1},\\cdots,D_{r}$  if s>1. If  $\\sigma=(M,Q;f_{1},\\cdots,f_{r};s+1)$  is a presentation of a manifold V, define a homomorphism  $f_{\\sigma}\\colon G_{r}\\to\\pi_{s}(Q)$  by  $f_{\\sigma}(D_{i})=\\varphi_{i}$, where  $\\varphi_{i}\\in\\pi_{s}(Q)$  is the homotopy class of  $\\bar{f}_{i}\\colon\\partial D^{s+1}\\times0\\to Q$, the restriction of  $f_{i}$. To take care of base points in case  $\\pi_{1}(Q)\\neq1$, we will fix  $x_{0}\\in\\partial D^{s+1}\\times0,y_{0}\\in Q$, Let U be some cell neighborhood of  $y_{0}$  in Q, and assume  $\\bar{f}_{i}(x_{0})\\in U$. We say that the homomorphism  $f_{\\sigma}$  is induced by the presentation  $\\sigma$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0935412026726058,
+            0.5568862275449101,
+            0.8841870824053452,
+            0.6347305389221557
+          ],
+          "content": "Suppose now that  $F: G_{r} \\to \\pi_{s}(Q)$  is a homomorphism where Q is a component of the boundary of a compact n-manifold M. Then we say that a manifold V realizes F if some presentation of V induces F. Manifolds realizing a given homomorphism are not necessarily unique."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11804008908685969,
+            0.6332335329341318,
+            0.6525612472160356,
+            0.6526946107784432
+          ],
+          "content": "The following theorem is the goal of this section."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09131403118040089,
+            0.6646706586826348,
+            0.8819599109131403,
+            0.7425149700598802
+          ],
+          "content": "(2.1) THEOREM. Let  $n \\geq 2s + 2$ , and if  $s = 1, n \\geq 5$ ; let  $\\sigma = (M, Q; f_1, \\cdots, f_r; s + 1)$  be a presentation of a manifold V, and assume  $\\pi_1(Q) = 1$  if  $n = 2s + 2$ . Then for any automorphism  $\\alpha: G_r \\to G_r$ , V realizes  $f_\\sigma \\alpha$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0935412026726058,
+            0.7425149700598802,
+            0.8819599109131403,
+            0.7829341317365269
+          ],
+          "content": "Our proof of (2.1) is valid for s = 1, but we have application for the theorem only for s > 1. For the proof we will need some lemmas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0935412026726058,
+            0.7934131736526946,
+            0.8819599109131403,
+            0.8937125748502994
+          ],
+          "content": "(2.2) LEMMA. Let $Q$ be a component of the boundary of a compact manifold $M^n$ and $f_1 \\colon \\partial D^s \\times D^{n-s} \\to Q$ an imbedding. Let $\\overline{f}_2 \\colon \\partial D^s \\times 0 \\to Q$ be an imbedding, differentiably isotopic in $Q$ to the restriction $\\overline{f}_1$ of $f_1$ to $\\partial D^s \\times 0$. Then there exists an imbedding $f_2 \\colon \\partial D^s \\times D^{n-s} \\to Q$ extending $\\overline{f}_2$ and a diffeomorphism $h \\colon M \\to M$ such that $hf_2 = f_1$."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.36971046770601335,
+            0.0718562874251497,
+            0.6146993318485523,
+            0.08682634730538923
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8418708240534521,
+            0.0718562874251497,
+            0.8819599109131403,
+            0.08682634730538923
+          ],
+          "content": "397"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.10778443113772455,
+            0.9398663697104677,
+            0.28592814371257486
+          ],
+          "content": "PROOF. Let $\\bar{f}_t\\colon \\partial D^s\\times 0\\to Q,1\\leq t\\leq 2$ , be a differentiable isotopy between $\\bar{f}_1$ and $\\bar{f}_2$ . Then by the covering homotopy property for spaces of differentiable imbeddings (see Thom [23] and R. Palais, Comment. Math. Helv. 34 (1960)), there is a differentiable isotopy $F_{t}\\colon \\partial D^{s}\\times D^{n - s}\\rightarrow Q,$$1\\leq t\\leq 2$ , with $F_{1} = f_{1}$ and $F_{t}$ restricted to $\\partial D^s\\times 0 = \\bar{f}_t$ . Now by applying this theorem again, we obtain a differentiable isotopy $G_{t}\\colon M\\to M$$1\\leq t\\leq 2$ , with $G_{1}$ equal the identity, and $G_{t}$ restricted to image $F_{1}$ equal $F_{t}F_{1}^{-1}$ . Then taking $h = G_2^{-1},F_2$ satisfies the requirements of $f_{2}$ of (2.2); i.e., $hf_{2} = G_{2}^{-1}F_{2} = F_{1}F_{2}^{-1}F_{2} = f_{1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.2934131736526946,
+            0.9420935412026726,
+            0.3727544910179641
+          ],
+          "content": "(2.3) THEOREM (H. Whitney, W.T. Wu). Let $n \\geq \\max (2k + 1, 4)$ and $f, g: M^k \\to X^n$ be two imbeddings, $M$ closed, $M$ connected and $X$ simply connected if $n = 2k + 1$. Then, if $f$ and $g$ are homotopic, they are differentiably isotopic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.3712574850299401,
+            0.9398663697104677,
+            0.4311377245508982
+          ],
+          "content": "Whitney [29] proved (2.3) for the case  $n \\geq 2k + 2$ . W.T. Wu [30] (using methods of Whitney) proved it where  $X^{n}$  was euclidean space,  $n = 2k + 1$ . His proof also yields (2.3) as stated."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.43862275449101795,
+            0.9420935412026726,
+            0.5568862275449101
+          ],
+          "content": "(2.4) LEMMA. Let $Q$ be a component of the boundary of a compact manifold $M^n$, $n \\geq 2s + 2$ and if $s = 1, n \\geq 5$, and $\\pi_1(Q) = 1$ if $n = 2s + 2$. Let $f_1: \\partial D^{s+1} \\times D^{n-s-1} \\to Q$ be an imbedding, and $\\overline{f}_2: \\partial D^{s+1} \\times 0 \\to Q$ an imbedding homotopic in $Q$ to $\\overline{f}_1$, the restriction of $f_1$ to $\\partial D^{s+1} \\times 0$. Then there exists an imbedding $f_2: \\partial D^{s+1} \\times D^{n-s-1} \\to Q$ extending $\\overline{f}_2$ such that $\\chi(M, Q; f_2)$ is diffeomorphic to $\\chi(M, Q; f_1)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.5568862275449101,
+            0.9443207126948775,
+            0.6362275449101796
+          ],
+          "content": "PROOF. By (2.3), there exists a differentiable isotopy between $\\bar{f}_1$ and $\\bar{f}_2$. Apply (2.2) to get $f_2: \\partial D^{s+1} \\times D^{n-s-1} \\to Q$ extending $\\bar{f}_2$, and a diffeomorphism $h: M \\to M$ with $h f_2 = f_1$. Application of (1.1) yields the desired conclusion."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17817371937639198,
+            0.6377245508982036,
+            0.46547884187082406,
+            0.657185628742515
+          ],
+          "content": "See [16] for the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155902004454343,
+            0.6646706586826348,
+            0.9443207126948775,
+            0.7245508982035929
+          ],
+          "content": "(2.5) LEMMA (Nielson). Let G be a free group on r-generators  $\\{D_{1},\\cdots,D_{r}\\}$ , and A the group of automorphisms of G. Then A is generated by the following automorphisms:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22048997772828507,
+            0.7305389221556886,
+            0.9465478841870824,
+            0.8068862275449101
+          ],
+          "content": "\\begin{array}{l l} R \\colon D _ {1} \\to D _ {1} ^ {- 1}, & D _ {i} \\to D _ {i} \\\\ T _ {i} \\colon D _ {1} \\to D _ {i}, & D _ {i} \\to D _ {1}, \\quad D _ {j} \\to D _ {j} \\\\ S \\colon D _ {1} \\to D _ {1} D _ {2}, & D _ {i} \\to D _ {i}, \\end{array} \\qquad \\begin{array}{l l} i > 1 \\\\ j \\neq 1, j \\neq i, i = 2, \\dots , r \\\\ i > 1. \\end{array}",
+          "image_source": "images/page_8_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.8158682634730539,
+            0.7750556792873051,
+            0.8353293413173652
+          ],
+          "content": "The same is true for the free abelian case (well-known)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15812917594654788,
+            0.8353293413173652,
+            0.9465478841870824,
+            0.874251497005988
+          ],
+          "content": "It is sufficient to prove (2.1) with $\\alpha$ replaced by the generators of $\\mathcal{A}$ of (2.5)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18262806236080179,
+            0.874251497005988,
+            0.9465478841870824,
+            0.8937125748502994
+          ],
+          "content": "First take $\\alpha = R$. Let $h: D^{s+1} \\times D^{n-s-1} \\to D^{s+1} \\times D^{n-s-1}$ be defined by"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.15367483296213807,
+            0.0748502994011976,
+            0.19376391982182628,
+            0.08982035928143713
+          ],
+          "content": "398"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.45879732739420936,
+            0.07784431137724551,
+            0.6369710467706013,
+            0.09281437125748503
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062360801781737196,
+            0.10479041916167664,
+            0.8485523385300668,
+            0.1631736526946108
+          ],
+          "content": "$h(x,y)=(r,x,y)$  where  $r:D^{s+1}\\rightarrow D^{s+1}$  is a reflection through an equatorial s-plane. Then let  $f_{i}^{\\prime}=f_{1}h$ . If  $\\sigma^{\\prime}=(M,Q;f_{1}^{\\prime},f_{2},\\cdots,f_{r};s+1)$ ,  $\\chi(\\sigma^{\\prime})$  is diffeomorphic to V by (1.1). On the other hand  $\\chi(\\sigma^{\\prime})$  realizes  $f_{\\sigma^{\\prime}}=f_{\\sigma}\\alpha$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0645879732739421,
+            0.1631736526946108,
+            0.8507795100222717,
+            0.20359281437125748
+          ],
+          "content": "The case $\\alpha = T_{i}$ follows immediately from (1.1). So now we proceed with the proof of (2.1) with $\\alpha = S$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06904231625835189,
+            0.20359281437125748,
+            0.8552338530066815,
+            0.3008982035928144
+          ],
+          "content": "Define  $V_{1}$  to be the manifold  $\\chi(M, Q; f_{2}, \\cdots, f_{r}; s + 1)$  and let  $Q_{1} \\subset \\partial V_{1}$  be  $Q_{1} = \\partial V_{1} - (\\partial M - Q)$ . Let  $\\varphi_{i} \\in \\pi_{s}(Q), i = 1, \\cdots, r$  denote the homotopy class of  $f_{i}: \\partial D_{i}^{s+1} \\times 0 \\to Q$ , the restriction of  $f_{i}$ . Let  $\\gamma: \\pi_{s}(Q \\cap Q_{1}) \\to \\pi_{s}(Q)$  and  $\\beta: \\pi_{s}(Q \\cap Q_{1}) \\to \\pi_{s}(Q_{1})$  be the homomorphisms induced by the respective inclusions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06904231625835189,
+            0.30988023952095806,
+            0.8574610244988864,
+            0.46407185628742514
+          ],
+          "content": "(2.6) LEMMA. With notations and conditions as above, $\\varphi_{2} \\in \\gamma$ Ker $\\beta$. PROOF. Let $q \\in \\partial D_{2}^{n - s - 1}$ and $\\psi: \\partial D_{2}^{s + 1} \\times q \\to Q \\cap Q_{1}$ be the restriction of $f_{2}$. Denote by $\\bar{\\psi} \\in \\pi_{s}(Q \\cap Q_{1})$ the homotopy class of $\\psi$. Since $\\psi$ and $\\bar{f}_{2}$ are homotopic in $Q$, $\\gamma \\bar{\\psi} = \\varphi_{2}$. On the other hand $\\beta \\bar{\\psi} = 0$, thus proving (2.6). By (2.6), let $\\bar{\\psi} \\in \\pi_{s}(Q \\cap Q_{1})$ with $\\gamma \\bar{\\psi} = \\varphi_{2}$ and $\\beta \\bar{\\psi} = 0$. Let $g = y + \\bar{\\psi}$ (or $y\\bar{\\psi}$ in case $s = 1$; our terminology assumes $s > 1$) where $y \\in \\pi_{s}(Q \\cap Q_{1})$ is the homotopy class of $\\bar{f}_{1}: \\partial D_{1}^{s + 1} \\times 0 \\to Q \\cap Q_{1}$. Let $\\bar{g}: \\partial D^{s + 1} \\times 0 \\to Q \\cap Q_{1}$ be an imbedding realizing $g$ (see [29])."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06904231625835189,
+            0.4655688622754491,
+            0.8574610244988864,
+            0.5434131736526946
+          ],
+          "content": "If $n = 2s + 2$, then from the fact that $\\pi_1(Q) = 1$, it follows that also $\\pi_1(Q_1) = 1$. Then since $\\bar{g}$ and $\\bar{f}_1$ are homotopic in $Q_1$, i.e., $\\beta g = \\beta y$, (2.4) applies to yield an imbedding $e\\colon \\partial D^{s+1} \\times D^{n-s-1} \\to Q_1$ extending $\\bar{g}$ such that $\\chi(V_1, Q_1; e)$ and $\\chi(V_1, Q_1; f_1)$ are diffeomorphic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07126948775055679,
+            0.5419161676646707,
+            0.8574610244988864,
+            0.6407185628742516
+          ],
+          "content": "On one hand  $V = \\chi(V, Q; f_{1}, \\cdots, f_{r}) = \\chi(V_{1}, Q_{1}; f_{1})$  and, on the other hand,  $\\chi(V, Q; e, f_{2}, \\cdots, f_{r}) = \\chi(V_{1}, Q_{1}; e)$ , so by the preceding statement, V and  $\\chi(V, Q; e, f_{2}, \\cdots, f_{r})$  are diffeomorphic. Since  $\\gamma g = g_{1} + g_{2}$ ,  $f_{\\sigma} \\alpha(D_{1}) = f_{\\sigma}(D_{1} + D_{2}) = g_{1} + g_{2}$ ,  $f'_{\\sigma}(D_{1}) = g D_{1} = g_{1} + g_{2}$ ,  $f_{\\sigma} \\alpha = f_{\\sigma'}$ , where  $\\sigma' = (V, Q; e, f_{2}, \\cdots, f_{r})$ . This proves (2.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.6482035928143712,
+            0.7616926503340757,
+            0.6676646706586826
+          ],
+          "content": "3. The goal of this section is to prove the following theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07349665924276169,
+            0.6736526946107785,
+            0.8574610244988864,
+            0.7335329341317365
+          ],
+          "content": "(3.1) THEOREM. Let $n \\geq 2s + 2$ and, if $s = 1, n \\geq 5$. Suppose $H \\in \\mathcal{H}(n, k, s)$. Then given $r \\geq k$, there exists an epimorphism $g: G_r \\to \\pi_s(H)$ such that every realization of $g$ is in $\\mathcal{H}(n, r - k, s + 1)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0957683741648107,
+            0.7335329341317365,
+            0.5746102449888641,
+            0.7529940119760479
+          ],
+          "content": "For the proof of 3.1, we need some lemmas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.7604790419161677,
+            0.5545657015590201,
+            0.7799401197604791
+          ],
+          "content": "(3.2) LEMMA. If $\\mathcal{H}(n, k, s)$ then $\\pi_s(H)$ is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.781437125748503,
+            0.49443207126948774,
+            0.7994011976047904
+          ],
+          "content": "(a) a set of $k + 1$ elements if $s = 0$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.8008982035928144,
+            0.5612472160356348,
+            0.8188622754491018
+          ],
+          "content": "(b) a free group on $k$ generators if $s = 1$,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.8203592814371258,
+            0.643652561247216,
+            0.8368263473053892
+          ],
+          "content": "(c) a free abelian group on $k$ generators if $s > 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0779510022271715,
+            0.8383233532934131,
+            0.8596881959910914,
+            0.8772455089820359
+          ],
+          "content": "Furthermore if $n \\geq 2s + 2$, then $\\pi_i(\\partial H) \\to \\pi_i(H)$ is an isomorphism for $i \\leq s$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.8772455089820359,
+            0.8596881959910914,
+            0.8967065868263473
+          ],
+          "content": "PROOF. We can assume s > 0 since, if s = 0, H is a set of n-disks  $k + 1$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.33407572383073497,
+            0.0718562874251497,
+            0.579064587973274,
+            0.08682634730538923
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8062360801781737,
+            0.07035928143712575,
+            0.8485523385300668,
+            0.08532934131736528
+          ],
+          "content": "399"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.10778443113772455,
+            0.9376391982182628,
+            0.18413173652694612
+          ],
+          "content": "in number. Then H has as a deformation retract in an obvious way the wedge of k s-spheres. Thus (b) and (c) are true. For the last statement of (3.2), from the exact homotopy sequence of the pair  $(H, \\partial H)$ , it is sufficient to show that  $\\pi_{i}(H, \\partial H) = 0$ ,  $i \\leq s + 1$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.18562874251497005,
+            0.9376391982182628,
+            0.24251497005988024
+          ],
+          "content": "Thus let $f \\colon (D^i, \\partial D^i) \\to (H, \\partial H)$ be a given continuous map with $i \\leq s + 1$. We want to construct a homotopy $f_r \\colon (D^i, \\partial D^i) \\to (H, \\partial H)$ with $f_0 = f$ and $f_1(D^i) \\subset \\partial H$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.24251497005988024,
+            0.9398663697104677,
+            0.4176646706586826
+          ],
+          "content": "Let $f_{1} \\colon (D^{i}, \\partial D^{i}) \\to (H, \\partial H)$ be a differentiable approximation to $f$. Then by a radial projection from a point in $D^{n}$ not in the image of $f_{1}, f_{1}$ is homotopic to a differentiable map $f_{2} \\colon (D^{i}, \\partial D^{i}) \\to (H, \\partial H)$ with the image of $f_{2}$ not intersecting the interior of $D^{n} \\subset H$. Now for dimensional reasons $f_{2}$ can be approximated by a differentiable map $f_{3} \\colon (D^{i}, \\partial D^{i}) \\to (H, \\partial H)$ with the image of $f_{3}$ not intersecting any $D_{i}^{s} \\times 0 \\subset H$. Then by other projections, one for each $i, f_{3}$ is homotopic to a map $f_{4} \\colon (D^{i}, \\partial D^{i}) \\to (H, \\partial H)$ which sends all of $D^{i}$ into $\\partial H$. This shows $\\pi_{i}(H, \\partial H) = 0, i \\leq s + 1$, and proves (3.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.4176646706586826,
+            0.9376391982182628,
+            0.4565868263473054
+          ],
+          "content": "If $\\beta \\in \\pi_{s-1}(\\mathrm{O}(n - s))$, let $H_{\\beta}$ be the $(n - s)$-cell bundle over $S^{s}$ determined by $\\beta$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1514476614699332,
+            0.46407185628742514,
+            0.9376391982182628,
+            0.5224550898203593
+          ],
+          "content": "(3.3) LEMMA. Suppose $V = \\chi(H_{\\beta}; f; s + 1)$ where $\\beta \\in \\pi_{s-1}(O(n - s))$, $n \\geq 2s + 2$, or if $s = 1, n \\geq 5$. Let also $\\pi_s(V) = 0$. Then $V$ is diffeomorphic to $D^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.5239520958083832,
+            0.9398663697104677,
+            0.6392215568862275
+          ],
+          "content": "PROOF. The zero-cross-section  $\\sigma\\colon S^{s}\\to H_{\\beta}$  is homotopic to zero, since  $\\pi_{s}(V)=0$ , and so is regularly homotopic in V to a standard s-sphere  $S_{0}^{s}$  contained in a cell neighborhood by dimensional reasons [29]. Since a regular homotopy preserves the normal bundle structure,  $\\sigma(S^{s})$  has a trivial normal bundle and thus  $\\beta=0$ . Hence  $H_{\\beta}$  is diffeomorphic to the product of  $S^{s}$  and  $D^{n-s}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.6392215568862275,
+            0.9398663697104677,
+            0.7365269461077845
+          ],
+          "content": "Let $\\sigma_{1}\\colon S^{s}\\to\\partial H_{\\beta}$ be a differentiable cross section and $\\bar{f}\\colon\\partial D^{s+1}\\times0\\to\\partial H_{\\beta}$ the restriction of $f\\colon\\partial D^{s+1}\\times D^{n-s-1}\\to\\partial H_{\\beta}$. Then $\\sigma_{1}$ and $\\bar{f}$ are homotopic in $\\partial H_{\\beta}$ (perhaps after changing $f$ by a diffeomorphism of $D^{s+1}\\times D^{n-s-1}$ which reverses orientation of $\\partial D^{s+1}\\times 0$) since $\\pi_{s}(V)=0$, and hence differentiably isotopic. Thus we can assume $\\bar{f}$ and $s_{1}$ are the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15367483296213807,
+            0.7380239520958084,
+            0.9398663697104677,
+            0.8967065868263473
+          ],
+          "content": "Let $f_{\\varepsilon}$ be the restriction of $f$ to $\\partial D^{s+1} \\times D_{\\varepsilon}^{n-s-1}$ where $D_{\\varepsilon}^{n-s-1}$ denotes the disk $\\{x \\in D^{n-s-1} | || x || \\leq \\varepsilon\\}$, and $\\varepsilon > 0$. Then the imbedding $g_{\\varepsilon} \\colon \\partial D^{s+1} \\times D^{n-s-1} \\to \\partial H_{\\beta}$ is differentiably isotopic to $f$ where $g_{\\varepsilon}(x, y) = f_{\\varepsilon} r_{\\varepsilon}(x, y)$ and $r_{\\varepsilon}(x, y) = (x, \\varepsilon y)$. Define $k_{\\varepsilon} \\colon \\partial D^{s+1} \\times D^{n-s-1} \\to \\partial H_{\\beta}$ by $p_x g_{\\varepsilon}(x, y)$ where $p_x \\colon g_{\\varepsilon}(x \\times D^{n-s-1}) \\to F_x$ is projection into the fibre $F_x$ of $\\partial H_{\\beta}$ over $\\sigma^{-1} g_{\\varepsilon}(x, 0)$. If $\\varepsilon$ is small enough, $k_{\\varepsilon}$ is well-defined and an imbedding. In fact if $\\varepsilon$ is small enough, we can even suppose that for each $x$, $k_{\\varepsilon}$ maps $x \\times D^{n-s-1}$ linearly onto image $k_{\\varepsilon} \\cap F_x$ where image $k_{\\varepsilon} \\cap F_x$ has a linear structure"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1514476614699332,
+            0.0748502994011976,
+            0.19376391982182628,
+            0.08982035928143713
+          ],
+          "content": "400"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.45657015590200445,
+            0.0748502994011976,
+            0.6325167037861915,
+            0.08982035928143713
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1091314031180401,
+            0.10778443113772455,
+            0.29398663697104677,
+            0.12874251497005987
+          ],
+          "content": "induced from $F_{x}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1091314031180401,
+            0.12874251497005987,
+            0.8975501113585747,
+            0.20508982035928144
+          ],
+          "content": "It can be proved  $k_{e}$  and  $g_{e}$  are differentiably isotopic. (The referee has remarked that there is a theorem, Milnor's “tubular neighborhood theorem”, which is useful in this connection and can indeed be used to make this proof clearer in general.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1091314031180401,
+            0.20658682634730538,
+            0.8953229398663697,
+            0.3997005988023952
+          ],
+          "content": "We finish the proof of (3.3) as follows. Suppose $V$ is as in (3.3) and $V' = \\chi(H_{\\beta}; f'; s + 1), \\pi_{\\varepsilon}(V') = 0$. It is sufficient to prove $V$ and $V'$ are diffeomorphic since it is clear that one can obtain $D^n$ by choosing $f'$ properly and using the fact that $H_{\\beta}$ is a product of $S^s$ and $D^{n - s}$. From the previous paragraph, we can replace $f$ and $f'$ by $k_{\\varepsilon}$ and $k_{\\varepsilon}'$ with those properties listed. We can also suppose without loss of generality that the images of $k_{\\varepsilon}$ and $k_{\\varepsilon}'$ coincide. It is now sufficient to find a diffeomorphism $h$ of $H_{\\beta}$ with $hf = f'$. For each $x$, define $h$ on image $f \\cap F_x$ to be the linear map which has this property. One can now easily extend $h$ to all of $H_{\\beta}$ and thus we have finished the proof of (3.3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10690423162583519,
+            0.40119760479041916,
+            0.8930957683741648,
+            0.5179640718562875
+          ],
+          "content": "Suppose now $M_1^n$ and $M_2^n$ are compact manifolds and $f_i \\colon D^{n-1} \\times i \\to \\partial M_i$ are imbeddings for $i = 1$ and 2. Then $\\chi(M_1 \\cup M_2; f_1 \\cup f_2; 1)$ is a well defined manifold, where $f_1 \\cup f_2 \\colon \\partial D^1 \\times D^{n-1} \\to \\partial M_1 \\cup \\partial M_2$ is defined by $f_1$ and $f_2$, the set of which, as the $f_i$ vary, we denote by $M_1 + M_2$. (If we pay attention to orientation, we can restrict $M_1 + M_2$ to have but one element.) The following lemma is easily proved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1291759465478842,
+            0.5299401197604791,
+            0.8775055679287305,
+            0.5494011976047904
+          ],
+          "content": "(3.4) LEMMA. The set $M^n + D^n$ consists of one element, namely $M^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.5583832335329342,
+            0.888641425389755,
+            0.6167664670658682
+          ],
+          "content": "(3.5) LEMMA. Suppose an imbedding $f \\colon \\partial D^s \\times D^{n - s} \\to \\partial M^n$ is null-homotopic where $M$ is a compact manifold, $n \\geq 2s + 2$ and, if $s = 1$, $n \\geq 5$. Then $\\chi(M; f) \\in M + H_\\beta$ for some $\\beta \\in \\pi_{s-1}(O(n - s))$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.6167664670658682,
+            0.89086859688196,
+            0.7335329341317365
+          ],
+          "content": "PROOF OF (3.5). Let $\\bar{f}\\colon\\partial D^{s}\\times q\\to\\partial M$ be the restriction of $f$ where $q$ is a fixed point in $\\partial D^{n-s}$. Then by dimensional reasons [29], $\\bar{f}$ can be extended to an imbedding $\\varphi\\colon D^{s}\\to\\partial M$ where the image of $\\varphi$ intersects the image of $f$ only on $\\bar{f}$. Next let $T$ be a tubular neighborhood of $\\varphi(D^{s})$ in $M$. This can be done so that $T$ is a cell, $T\\cup(D^{s}\\times D^{n-s})$ is of the form $H_{\\beta}$ and $V\\in M+H_{\\beta}$. We leave the details to the reader."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.7335329341317365,
+            0.888641425389755,
+            0.8323353293413174
+          ],
+          "content": "To prove (3.1), let  $H = \\chi(D^{n}; f_{1}, \\cdots, f_{k}; s)$ . Then  $f_{i}$  defines a class  $\\overline{\\gamma}_{i} \\in \\pi_{s}(H, D^{n})$ . Let  $\\gamma_{i} \\in \\pi_{s}(\\partial H)$  be the image of  $\\gamma_{i}$  under the inverse of the composition of the isomorphisms  $\\pi_{s}(\\partial H) \\to \\pi_{s}(H) \\to \\pi_{s}(H, D^{n})$  (using (3.2)). Define g of (3.1) by  $gD_{i} = \\gamma_{i}, i \\leq k$ , and  $gD_{i} = 0, i > k$ . That g satisfies (3.1) follows by induction from the following lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.8398203592814372,
+            0.8864142538975501,
+            0.8772455089820359
+          ],
+          "content": "(3.6) LEMMA. $\\chi(H; g_1; s + 1) \\in \\mathcal{H}(n, k - 1, s)$ if the restriction of $g_1$ to $\\partial D^{s+1} \\times 0$ has homotopy class $\\gamma_1 \\in \\pi_s(\\partial H)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12472160356347439,
+            0.8787425149700598,
+            0.8864142538975501,
+            0.8997005988023952
+          ],
+          "content": "Now (3.6) follows from (3.3), (3.4) and (3.5), and the fact that $g_{1}$ is dif-"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3830734966592428,
+            0.07784431137724551,
+            0.6280623608017817,
+            0.09281437125748503
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8552338530066815,
+            0.07784431137724551,
+            0.8975501113585747,
+            0.09281437125748503
+          ],
+          "content": "401"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1447661469933185,
+            0.11077844311377245,
+            0.9354120267260579,
+            0.15119760479041916
+          ],
+          "content": "ferentially isotopic to $g_1'$ whose image is in $\\partial H_{\\beta} \\cap \\partial H$, where $H_{\\beta}$ is defined by (3.5) and $f_1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1447661469933185,
+            0.16167664670658682,
+            0.9354120267260579,
+            0.26047904191616766
+          ],
+          "content": "4. We prove here (1.2). First suppose s = 0. Then  $H \\in \\mathcal{H}(n, k, 0)$  is the disjoint union of n-disks,  $k + 1$  in number, and  $V = \\chi(H; f_1, \\cdots, f_r; 1)$ . Since  $\\pi_0(V) = 1$ , there exists a permutation of  $1, \\cdots, r, i_1, \\cdots, i_r$  such that  $Y = \\chi(H; f_{i_1}, \\cdots, f_{i_k}; 1)$  is connected. By (3.4), Y is diffeomorphic to  $D^n$ . Hence  $V = \\chi(Y; f_{i_{k+1}}, \\cdots, f_{i_r}; 1)$  is in  $\\mathcal{H}(n, r - k, 1)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.25898203592814373,
+            0.9376391982182628,
+            0.3967065868263473
+          ],
+          "content": "Now consider the case s=1. Choose, by (3.1),  $g: G_{k} \\to \\pi_{1}(\\partial H)$  such that every manifold derived from g is diffeomorphic to  $D^{n}$ . Let  $Y = \\chi(H; f_{1}, \\cdots, f_{r-k})$ . Then  $\\pi_{1}(Y)=1$  and by the argument of (3.2),  $\\pi_{1}(\\partial Y)=1$ . Let  $\\bar{g}_{i}: \\partial D^{2} \\times 0 \\to \\partial H$  be disjoint imbeddings realizing the classes  $g(D_{i}) \\in \\pi_{1}(\\partial H)$  which are disjoint from the images of all  $f_{i}, i=1,\\cdots,k$ . Then by (2.4) there exist imbeddings  $g_{1}, \\cdots, g_{k}: \\partial D^{2} \\times D^{n-2} \\to \\partial H$  extending the  $\\bar{g}_{i}$  such that  $V = \\chi(Y; f_{r-k+1}, \\cdots, f_{r})$  and  $\\chi(Y; g_{1}, \\cdots, g_{k})$  are diffeomorphic. But"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24053452115812918,
+            0.4026946107784431,
+            0.8351893095768375,
+            0.44610778443113774
+          ],
+          "content": "\\begin{array}{r l} \\chi (Y, g _ {1}, \\dots , g _ {k}) & = \\chi (H; g _ {1}, \\dots , g _ {k}, f _ {1}, \\dots , f _ {r - k}) \\\\ & = \\chi (D ^ {n}, f _ {1}, \\dots , f _ {r - k}) \\in \\mathcal {H} (n, r - k, 2). \\end{array}",
+          "image_source": "images/page_12_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.4505988023952096,
+            0.33853006681514475,
+            0.47005988023952094
+          ],
+          "content": "Hence so does V."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16926503340757237,
+            0.47155688622754494,
+            0.688195991091314,
+            0.48952095808383234
+          ],
+          "content": "For the case $s > 1$, we use an algebraic lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.49850299401197606,
+            0.9376391982182628,
+            0.5568862275449101
+          ],
+          "content": "(4.1) LEMMA. If $f, g: G \\to G'$ are epimorphisms where $G$ and $G'$ are finitely generated free abelian groups, then there exists an automorphism $\\alpha: G \\to G$ such that $f\\alpha = g$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14699331848552338,
+            0.5568862275449101,
+            0.9376391982182628,
+            0.6541916167664671
+          ],
+          "content": "PROOF. Let  $G''$  be a free abelian group of rank equal to rank  $G - rank G'$ , and let  $p: G' + G'' \\to G'$  be the projection. Then, identifying elements of G and  $G' + G''$  under some isomorphism, it is sufficient to prove the existence of  $\\alpha$  for g = p. Since the groups are free, the following exact sequence splits"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34966592427616927,
+            0.6586826347305389,
+            0.734966592427617,
+            0.6781437125748503
+          ],
+          "content": "0 \\longrightarrow f ^ {- 1} (0) \\longrightarrow G \\stackrel {f} {\\longrightarrow} G ^ {\\prime} \\longrightarrow 0.",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.6856287425149701,
+            0.9398663697104677,
+            0.7455089820359282
+          ],
+          "content": "Let $h: G \\to f^{-1}(0)$ be the corresponding projection and let $k: f^{-1}(0) \\to G''$ be some isomorphism. Then $\\alpha: G \\to G' + G''$ defined by $f + kh$ satisfies the requirements of (4.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.7514970059880239,
+            0.9376391982182628,
+            0.7904191616766467
+          ],
+          "content": "REMARK. Using Grusko's Theorem [6], one can also prove (4.1) when $G$ and $G'$ are free groups."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1492204899777283,
+            0.7919161676646707,
+            0.9398663697104677,
+            0.8697604790419161
+          ],
+          "content": "Now take  $\\sigma=(H;f_{1},\\cdots,f_{r};s+1)$  of (1.2) and  $g\\colon G_{r}\\to\\pi_{s}(\\partial H)$  of (3.1). Since  $\\pi_{s}(V)=0$, and s>1,  $f_{\\sigma}\\colon G_{r}\\to\\pi_{s}(\\partial H)$  is an epimorphism. By (3.2) and (4.1) there is an automorphism  $\\alpha\\colon G_{r}\\to G_{r}$  such that  $f_{\\sigma}\\alpha=g$. Then (2.1) implies that V is in  $\\mathcal{H}(n,r-k,s+1)$  using the main property of g."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1759465478841871,
+            0.8802395209580839,
+            0.933184855233853,
+            0.8997005988023952
+          ],
+          "content": "5. The goal of this section is to prove the following analogue of (1.2)."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.14699331848552338,
+            0.07784431137724551,
+            0.18930957683741648,
+            0.09281437125748503
+          ],
+          "content": "402"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4521158129175947,
+            0.07934131736526946,
+            0.6280623608017817,
+            0.09431137724550898
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.10778443113772455,
+            0.8930957683741648,
+            0.26497005988023953
+          ],
+          "content": "(5.1) THEOREM. Let  $n \\geq 2s + 2$ , or if  $s = 1, n \\geq 5$ ,  $M^{n-1}$  be a simply connected,  $(s - 1)$ -connected closed manifold and  $\\mathcal{H}_{M}(n, k, s)$  the set of all manifolds having presentations of the form  $(M \\times [0, 1], M \\times 1; f_{1} \\cdots, f_{k}; s)$ . Now let  $H \\in \\mathcal{H}_{M}(n, k, s)$ ,  $Q = \\partial H - M \\times 0$ ,  $V = \\chi(H, Q; g_{1}, \\cdots, g_{r}; s + 1)$  and suppose  $\\pi_{s}(M \\times 0) \\to \\pi_{s}(V)$  is an isomorphism. Also suppose if s = 1, that  $\\pi_{1}(\\chi(H, Q; g_{1}, \\cdots, g_{r-k}; 2)) = 1$ . Then  $V \\in \\mathcal{H}_{M}(n, r - k, s + 1)$ . One can easily obtain (1.2) from (5.1) by taking for M, the  $(n - 1)$ -sphere. The following lemma is easy, following (3.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.27095808383233533,
+            0.89086859688196,
+            0.30988023952095806
+          ],
+          "content": "(5.2) LEMMA. With definitions and conditions as in (5.1), $\\pi_s(Q) = G_k$ if $s = 1$, and if $s > 1$, $\\pi_s(Q) = \\pi_s(M) + G_k$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12694877505567928,
+            0.30988023952095806,
+            0.8485523385300668,
+            0.33083832335329344
+          ],
+          "content": "Let $p_1 \\colon \\pi_s(Q) \\to \\pi_s(M)$, $p_2 \\colon \\pi_s(Q) \\to G_k$ be the respective projections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.33682634730538924,
+            0.89086859688196,
+            0.41467065868263475
+          ],
+          "content": "(5.3) LEMMA. With definitions and conditions as in (5.1), there exists a homomorphism $g \\colon G_r \\to \\pi_s(Q)$ such that $p_1g$ is trivial, $p_2g$ is an epimorphism, and every realization of $g$ is in $\\mathcal{H}_M(n, r - k, s + 1)$, each $r \\geq k$. The proof follows (3.1) closely."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.4161676646706587,
+            0.8930957683741648,
+            0.5329341317365269
+          ],
+          "content": "We now prove (5.1). The cases s = 0 and s = 1 are proved similarly to these cases in the proof of (1.2). Suppose s > 1. From the fact that  $\\pi_{s}(M \\times 0) \\to \\pi_{s}(V)$  is an isomorphism, it follows that  $p_{1}f_{\\sigma}$  is trivial and  $p_{2}f_{\\sigma}$  is an epimorphism where  $\\sigma = (H, Q; g_{1}, \\cdots, g_{r}, s + 1)$ . Then apply (4.1) to obtain an automorphism  $\\alpha: G_{r} \\to G_{r}$  such that  $p_{2}f_{\\sigma}\\alpha = p_{2}g$  where g is as in (5.3). Then  $f_{\\sigma}\\alpha = g$ , hence using (2.1), we obtain (5.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12694877505567928,
+            0.5404191616766467,
+            0.8485523385300668,
+            0.5598802395209581
+          ],
+          "content": "6. The goal of this section is to prove the following two theorems."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.5703592814371258,
+            0.89086859688196,
+            0.6497005988023952
+          ],
+          "content": "(6.1) THEOREM. Suppose $f$ is a $C^\\infty$ function on a compact manifold $W$ with no critical points on $f^{-1}[-\\varepsilon, \\varepsilon] = N$ except $k$ non-degenerate ones on $f^{-1}(0)$, all of index $\\lambda$, and $N \\cap \\partial W = \\emptyset$. Then $f^{-1}[-\\infty, \\varepsilon]$ has a presentation of the form $(f^{-1}[-\\infty, -\\varepsilon], f^{-1}(-\\varepsilon); f_1, \\cdots, f_k; \\lambda)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.655688622754491,
+            0.89086859688196,
+            0.7739520958083832
+          ],
+          "content": "(6.2) THEOREM. Let  $(M, Q; f_{1}, \\cdots, f_{k}; s)$  be a presentation of a manifold V, and g be a  $C^{\\infty}$  function on M, regular, in a neighborhood of Q, and constant with its maximum value on Q. Then there exists a  $C^{\\infty}$  function G on V which agrees with g outside a neighborhood of Q, is constant and regular on  $\\partial V - (\\partial M - Q)$ , and has exactly k new critical points, all non-degenerate, with the same value and with index s."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.7799401197604791,
+            0.888641425389755,
+            0.8982035928143712
+          ],
+          "content": "SKETCH OF PROOF OF (6.1). Let  $\\beta_{i}$  denote the critical points of f at level zero,  $i = 1, \\cdots, k$  with disjoint neighborhoods  $V_{i}$ . By a theorem of Morse [13] we can assume  $V_{i}$  has a coordinate system  $x = (x_{1}, \\cdots, x_{n})$  such that for  $\\|x\\| \\leq \\delta$ , some  $\\delta > 0$ ,  $f(x) = -\\sum_{i=1}^{\\lambda} x_{i}^{2} + \\sum_{i=\\lambda+1}^{n} x_{i}^{2}$ . Let  $E_{1}$  be the  $(x_{1}, \\cdots, x_{\\lambda})$  plane of  $V_{i}$  and  $E_{2}$  the  $(x_{\\lambda+1}, \\cdots, x_{n})$  plane. Then for  $\\varepsilon_{1} > 0$  sufficiently small  $E_{1} \\cap f^{-1} [-\\varepsilon_{1}, \\varepsilon_{1}]$  is diffeomorphic to  $D^{\\lambda}$ . A sufficiently"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37639198218262804,
+            0.0748502994011976,
+            0.621380846325167,
+            0.09131736526946108
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8507795100222717,
+            0.0748502994011976,
+            0.89086859688196,
+            0.09131736526946108
+          ],
+          "content": "403"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.10778443113772455,
+            0.9265033407572383,
+            0.1661676646706587
+          ],
+          "content": "small tubular neighborhood $T$ of $E_1$ will have the property that $T' = T \\cap f^{-1}[-\\varepsilon_1, \\varepsilon_1]$ is diffeomorphic to $D^\\lambda \\times D^{n-\\lambda}$ with $T \\cap f^{-1}(-\\varepsilon_1)$ corresponding to $\\partial D^\\lambda \\times D^{n-\\lambda}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.16766467065868262,
+            0.9287305122494433,
+            0.28293413173652693
+          ],
+          "content": "As we pass from  $f^{-1}[-\\infty, -\\varepsilon_{1}]$  to  $f^{-1}[-\\infty, \\varepsilon_{1}]$ , it happens that one such  $T'$  is added for each i, together with a tubular neighborhood of  $f^{-1}(-\\varepsilon_{1})$  so that  $f^{-1}[-\\infty, \\varepsilon_{1}]$  is diffeomorphic to a manifold of the form  $\\chi(f^{-1}[-\\infty, -\\varepsilon_{1}], f^{-1}(-\\varepsilon_{1}); f_{1}, \\cdots, f_{k}; \\lambda)$ . Since there are no critical points between  $-\\varepsilon$  and  $-\\varepsilon_{1}$ ,  $\\varepsilon_{1}$  and  $\\varepsilon$ ,  $\\varepsilon_{1}$  can be replaced by  $\\varepsilon$  in the preceding statement thus proving (6.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.28293413173652693,
+            0.9287305122494433,
+            0.3218562874251497
+          ],
+          "content": "Theorem (6.2) is roughly a converse of (6.1) and a sketch of the proof can be constructed similarly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16481069042316257,
+            0.33083832335329344,
+            0.8819599109131403,
+            0.3502994011976048
+          ],
+          "content": "7. In this section we prove Theorems C and I of the Introduction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16258351893095768,
+            0.35179640718562877,
+            0.623608017817372,
+            0.3712574850299401
+          ],
+          "content": "The following theorem was proved in [21]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1358574610244989,
+            0.3787425149700599,
+            0.9265033407572383,
+            0.47604790419161674
+          ],
+          "content": "(7.1) THEOREM. Let  $V^{n}$  be a  $C^{\\infty}$  compact manifold with  $\\partial V$  the disjoint union of  $V_{1}$  and  $V_{2}$, each  $V_{i}$  closed in  $\\partial V$. Then there exists a  $C^{\\infty}$  function f on V with non-degenerate critical points, regular on  $\\partial V$,  $f(V_{1}) = -(1/2)$,  $f(V_{2}) = n + (1/2)$  and at a critical point  $\\beta$  of  $f, f(\\beta) = \\text{index } \\beta$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16258351893095768,
+            0.47754491017964074,
+            0.7394209354120267,
+            0.49550898203592814
+          ],
+          "content": "Functions described in (7.1) are called nice functions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.49550898203592814,
+            0.9265033407572383,
+            0.5359281437125748
+          ],
+          "content": "Suppose now  $M^{n}$  is a closed  $C^{\\infty}$  manifold and f is the function of (7.1). Let  $X_{s}=f^{-1}[0,s+(1/2)], s=0,\\cdots,n.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1358574610244989,
+            0.5449101796407185,
+            0.9287305122494433,
+            0.5838323353293413
+          ],
+          "content": "(7.2) LEMMA. For each s, the manifold  $X_{s}$  has a presentation of the form  $(X_{s-1}; f_{1}, \\cdots, f_{k}; s)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16258351893095768,
+            0.5838323353293413,
+            0.41870824053452116,
+            0.6032934131736527
+          ],
+          "content": "This follows from (6.1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.6122754491017964,
+            0.9287305122494433,
+            0.688622754491018
+          ],
+          "content": "(7.3). LEMMA. If $H \\in \\mathcal{H}(n, k, s)$, then there exists—a $C^\\infty$ non-degenerate function $f$ on $H$, $f(\\partial H) = s + (1/2)$, $f$ has one critical point of index 0, value 0, $k$ critical points of index $s$, value $s$ and no other critical points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16481069042316257,
+            0.6901197604790419,
+            0.4209354120267261,
+            0.7095808383233533
+          ],
+          "content": "This follows from (6.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13808463251670378,
+            0.7095808383233533,
+            0.9309576837416481,
+            0.8667664670658682
+          ],
+          "content": "The proof of Theorem C then goes as follows. Take a nice function $f$ on $M$ by (7.1), with $X_s$ defined as above. Note that $X_0 \\in \\mathcal{H}(n, q, 0)$ and $\\pi_0(X_1) = 0$, hence by (7.2) and (1.2), $X_1 \\in \\mathcal{H}(n, k, 1)$. Suppose now that $\\pi_1(M) = 1$ and $n \\geq 6$. The following argument suggested by H. Samelson simplifies and replaces a complicated one of the author. Let $X_2'$ be the sum of $X_2$ and $k$ copies $H_1, \\cdots, H_k$ of $D^{n-2} \\times S^2$. Then since $\\pi_1(X_2) = 0$, (1.2) implies that $X_2' \\in H(n, r, 2)$. Now let $f_i: \\partial D^3 \\times D^{n-3} \\to \\partial H_i \\cap \\partial X_2'$ for $i = 1, \\cdots, k$ be differentiable imbeddings such that the composition"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31625835189309576,
+            0.8787425149700598,
+            0.7505567928730512,
+            0.8982035928143712
+          ],
+          "content": "\\pi_ {2} \\left(\\partial D ^ {3} \\times D ^ {n - 3}\\right)\\rightarrow \\pi_ {2} \\left(\\partial H _ {i} \\times \\partial X _ {2} ^ {\\prime}\\right)\\rightarrow \\pi_ {2} \\left(\\partial H _ {i}\\right)",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.14253897550111358,
+            0.0748502994011976,
+            0.18262806236080179,
+            0.08982035928143713
+          ],
+          "content": "404"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.44543429844098,
+            0.07634730538922156,
+            0.621380846325167,
+            0.09131736526946108
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.1122754491017964,
+            0.8864142538975501,
+            0.15119760479041916
+          ],
+          "content": "is an isomorphism. Then by (3.3) and (3.4),  $\\chi(X_{2}^{\\prime}, f_{1}, \\cdots, f_{k}; 3)$  is diffeomorphic to  $X_{2}$ . Since  $X_{3} = \\chi(X_{2}; g_{1}, \\cdots, g_{l}; 3)$  we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2962138084632517,
+            0.15568862275449102,
+            0.688195991091314,
+            0.17365269461077845
+          ],
+          "content": "X _ {3} = \\chi (X _ {2} ^ {\\prime}, f _ {1}, \\dots , f _ {k}, g _ {1}, \\dots , g _ {l}; 3),",
+          "image_source": "images/page_15_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.1781437125748503,
+            0.8240534521158129,
+            0.19760479041916168
+          ],
+          "content": "and another application of (1.2) yields that $X_{3} \\in H(n, k + l - r, 3)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.19760479041916168,
+            0.888641425389755,
+            0.312874251497006
+          ],
+          "content": "Iteration of the argument yields that  $X_{m}^{\\prime}\\in\\mathcal{H}(n,r,m)$ . By applying (7.3), we can replace g by a new nice function h with type numbers satisfying  $M_{0}=1$ ,  $M_{i}=0$ , 0<i<m. Now apply the preceding arguments to -h to yield that  $h^{-1}[n-m-(1/2),n]=X_{m}^{*}\\in\\mathcal{H}(n,k_{1},m)$ . Now we modify h by (7.3) on  $X_{m}^{*}$  to get a new nice function on M agreeing with h on  $M-X_{m}^{*}$  and satisfying the conditions of Theorem C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09799554565701558,
+            0.3158682634730539,
+            0.8864142538975501,
+            0.3727544910179641
+          ],
+          "content": "The proof of Theorem I goes as follows. Let  $V^{n}$  be a manifold with  $\\partial V = V_{1} - V_{2}, n = 2m + 2$ . Take a nice function f on V by (7.1) with  $f(V_{1}) = -(1/2)$  and  $f(V_{2}) = n + (1/2)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.3727544910179641,
+            0.888641425389755,
+            0.47005988023952094
+          ],
+          "content": "Following the proof of Theorem C, replacing the use of (1.2) with (5.1), we obtain a new nice function g on V with  $g(V_{1}) = -(1/2)$ ,  $g(V_{2}) = n + (1/2)$  and no critical points except possibly of index  $m + 1$ . The following lemma can be proved by the standard methods of Morse theory [12]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.4745508982035928,
+            0.888641425389755,
+            0.5134730538922155
+          ],
+          "content": "(7.4) LEMMA. Let $V$ be as in (7.1) and $f$ be a $C^\\infty$ non-degenerate function on $V$ with the same boundary conditions as in (7.1). Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35412026726057905,
+            0.5179640718562875,
+            0.6258351893095768,
+            0.5389221556886228
+          ],
+          "content": "\\chi_ {v} = \\sum (- 1) ^ {q} M _ {q} + \\chi_ {v _ {1}},",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10244988864142539,
+            0.5419161676646707,
+            0.888641425389755,
+            0.5778443113772455
+          ],
+          "content": "where $\\chi_{V},\\chi_{V_{1}}$ are the respective Euler characteristics, and $M_q$ denote the $q^{\\mathrm{th}}$ type number of $f$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10467706013363029,
+            0.5793413173652695,
+            0.888641425389755,
+            0.6182634730538922
+          ],
+          "content": "This lemma implies that our function g has no critical points, and hence  $V_{1}$  and  $V_{2}$  are diffeomorphic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.625748502994012,
+            0.89086859688196,
+            0.7425149700598802
+          ],
+          "content": "8. We have yet to prove Theorems F and G. For Theorem F, observe by Theorem C, there is a nice function $f$ on $M$ with vanishing type numbers except in dimensions $M_0, M_m, M_{m+1}, M_n$, and $M_0 = M_n = 1$. Also, by the Morse relation, observe that the Euler characteristic is the alternating sum of the type numbers, $M_m = M_{m+1}$. Then by (7.2), $f^{-1}[0, m + (1/2)]$, $f^{-1}[m + (1/2), 2m + 1] \\in \\mathcal{H}(2m + 1, M_m, m)$ proving Theorem F."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10022271714922049,
+            0.7425149700598802,
+            0.89086859688196,
+            0.8008982035928144
+          ],
+          "content": "All but the last statement of Theorem G has been proved. For this just note that  $M - D^{2m}$  is diffeomorphic to  $f^{-1}[0, m + (1/2)]$  which by (7.2) is in  $\\mathcal{H}(2m, k, m)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12026726057906459,
+            0.8083832335329342,
+            0.47438752783964366,
+            0.8248502994011976
+          ],
+          "content": "UNIVERSITY OF CALIFORNIA, BERKELEY"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4365256124721604,
+            0.8413173652694611,
+            0.5545657015590201,
+            0.8562874251497006
+          ],
+          "level": 2,
+          "content": "REFERENCES"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.11358574610244988,
+            0.8652694610778443,
+            0.8864142538975501,
+            0.8937125748502994
+          ],
+          "content": "1. R. BOTT, The stable homotopy of the classical groups, Ann. of Math., 70 (1959), 313-337."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37193763919821826,
+            0.0748502994011976,
+            0.6169265033407573,
+            0.09131736526946108
+          ],
+          "content": "POINCARÉ CONJECTURE"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844097995545657,
+            0.0748502994011976,
+            0.8864142538975501,
+            0.08982035928143713
+          ],
+          "content": "405"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.10778443113772455,
+            0.9287305122494433,
+            0.13922155688622753
+          ],
+          "content": "2. H. GLUCK, The weak Hauptvermutung for cells and spheres, Bull. Amer. Math. Soc., 66 (1960), 282-284."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.13922155688622753,
+            0.9309576837416481,
+            0.17065868263473055
+          ],
+          "content": "3. MORRIS W. HIRSCH, On combinatorial submanifolds of differentiable manifolds, to appear."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.17065868263473055,
+            0.9309576837416481,
+            0.20059880239520958
+          ],
+          "content": "4. M. KERVAIRE, A manifold which does not admit any differentiable structure, Comment. Math. Helv., 34 (1960), 304-312."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.20209580838323354,
+            0.7616926503340757,
+            0.218562874251497
+          ],
+          "content": "5. \\_\\_\\_\\_ and J. MILNOR, Groups of homotopy spheres, to appear."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.218562874251497,
+            0.6948775055679287,
+            0.23353293413173654
+          ],
+          "content": "6. K. A. KUROSH, Theory of Groups, v. 2, New York, 1956."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.23353293413173654,
+            0.8975501113585747,
+            0.25
+          ],
+          "content": "7. B. MAZUR, On embeddings of spheres, Bull. Amer. Math. Soc., 65 (1959), 59–65."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.25,
+            0.9287305122494433,
+            0.26646706586826346
+          ],
+          "content": "8. J. MILNOR, Differentiable structures on spheres, Amer. J. Math., 81 (1959), 962-972."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.15367483296213807,
+            0.26646706586826346,
+            0.9309576837416481,
+            0.2964071856287425
+          ],
+          "content": "9. \\_\\_\\_\\_, Sommes de variétés différentiables et structures différentiables des sphères, Bull. Soc. Math. France, 87 (1959), 439-444."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.2964071856287425,
+            0.9309576837416481,
+            0.3278443113772455
+          ],
+          "content": "10. ——, Differentiable manifolds which are homotopy spheres, (mimeographed), Princeton University, 1959."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.3278443113772455,
+            0.9309576837416481,
+            0.3592814371257485
+          ],
+          "content": "11. E. E. MOISE, Certain classical problems of euclidean topology, Lectures of Summer Institute on Set Theoretic Topology, Madison, 1955."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.3592814371257485,
+            0.9309576837416481,
+            0.3907185628742515
+          ],
+          "content": "12. M. MORSE, The calculus of variations in the large, Amer. Math. Soc. Colloq. Publications, v. 18, New York, 1934."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.3907185628742515,
+            0.9309576837416481,
+            0.4221556886227545
+          ],
+          "content": "13. \\_\\_\\_\\_, The existence of polar non-degenerate functions on differentiable manifolds, Ann. of Math., 71 (1960), 352-383."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.4221556886227545,
+            0.9309576837416481,
+            0.4535928143712575
+          ],
+          "content": "14. J. MUNKRES, Obstructions to the smoothing of piecewise-differentiable homeomorphisms. Bull. Amer. Math. Soc., 65 (1959), 332-334."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.4535928143712575,
+            0.9309576837416481,
+            0.48502994011976047
+          ],
+          "content": "15. \\_\\_\\_\\_, Obstructions to imposing differentiable structures, Abstract, Notices of the Amer. Math. Soc., 7 (1960), 204."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.48502994011976047,
+            0.9309576837416481,
+            0.5164670658682635
+          ],
+          "content": "16. J. NIELSON, Über die Isomorphismen unendlicher Gruppen ohne Relationen, Math. Ann., 9 (1919), 269–272."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.5179640718562875,
+            0.9309576837416481,
+            0.5329341317365269
+          ],
+          "content": "17. R. PALAIS, Extending diffeomorphisms, Proc. Amer. Math. Soc., 11 (1960), 274-277."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.5329341317365269,
+            0.9309576837416481,
+            0.562874251497006
+          ],
+          "content": "18. C. D. PAPAKYRIAKOPOULOS, Some problems on 3-dimensional manifolds, Bull. Amer. Math. Soc., 64 (1958), 317-335."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.5643712574850299,
+            0.9242761692650334,
+            0.5808383233532934
+          ],
+          "content": "19. H. SEIFERT and W. THRELLFALL, Lehrbuch der Topologie, Teubner, Leipzig, 1934."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.5808383233532934,
+            0.8975501113585747,
+            0.5958083832335329
+          ],
+          "content": "20. S. SMALE, The generalized Poincaré conjecture in higher dimensions, to appear."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.5958083832335329,
+            0.8641425389755011,
+            0.6122754491017964
+          ],
+          "content": "21. \\_\\_\\_\\_, On gradient dynamical systems, Ann. of Math., 74 (1961), 199–206."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.6122754491017964,
+            0.8619153674832962,
+            0.6272455089820359
+          ],
+          "content": "22. R. THOM, Les structures différentiables des boules et des sphères, to appear."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.6272455089820359,
+            0.9309576837416481,
+            0.6437125748502994
+          ],
+          "content": "23. ——, La classification des immersions, Séminaire Bourbaki, Paris, December, 1957."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.6437125748502994,
+            0.9309576837416481,
+            0.688622754491018
+          ],
+          "content": "24. \\_\\_\\_\\_, Des variétés triangulées aux variétés différentiables, Proceedings of the International Congress of Mathematicians, 1958, Cambridge University Press, 1960."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.688622754491018,
+            0.9309576837416481,
+            0.7200598802395209
+          ],
+          "content": "25. \\_\\_\\_\\_, Les classes caractéristiques de Pontrjagin des variétés triangulées, Topologia Algebraica, Mexico, 1958, pp. 54–67."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.7200598802395209,
+            0.9287305122494433,
+            0.75
+          ],
+          "content": "26. A. H. WALLACE, Modifications and cobounding manifolds, Canad. J. Math., 12 (1960), 503-528."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.75,
+            0.8485523385300668,
+            0.7679640718562875
+          ],
+          "content": "27. J. H. C. WHITEHEAD, On $C^1$-complexes, Ann. of Math., 41 (1940), 809-824."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.7679640718562875,
+            0.8997772828507795,
+            0.7829341317365269
+          ],
+          "content": "28. \\_\\_\\_\\_, On the homotopy type of manifolds, Ann. of Math., 41 (1940), 825-832."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1447661469933185,
+            0.7829341317365269,
+            0.8418708240534521,
+            0.7994011976047904
+          ],
+          "content": "29. H. WHITNEY, Differentiable manifolds, Ann. of Math., 37 (1936), 645-680."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.14699331848552338,
+            0.7994011976047904,
+            0.9265033407572383,
+            0.8308383233532934
+          ],
+          "content": "30. W. T. Wu, On the isotopy of $C^r$ manifolds of dimension $n$ in euclidean $(2n + 1)$-space, Science Record, Now Ser. v. II (1958), 271-275."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.14699331848552338,
+            0.07335329341317365,
+            0.18930957683741648,
+            0.08832335329341318
+          ],
+          "content": "406"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.44988864142538976,
+            0.07634730538922156,
+            0.6258351893095768,
+            0.09131736526946108
+          ],
+          "content": "STEPHEN SMALE"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

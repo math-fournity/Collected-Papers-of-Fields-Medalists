@@ -1,0 +1,5005 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.1608695652173913,
+            0.09261939218523878,
+            0.8369565217391305,
+            0.1447178002894356
+          ],
+          "level": 1,
+          "content": "MATHEMATIKA"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15869565217391304,
+            0.1548480463096961,
+            0.8391304347826087,
+            0.1736613603473227
+          ],
+          "content": "A JOURNAL OF PURE AND APPLIED MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15869565217391304,
+            0.2011577424023155,
+            0.8391304347826087,
+            0.22286541244573083
+          ],
+          "content": "Vol. 2. PART 1. JUNE, 1955. No. 3."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15434782608695652,
+            0.26049204052098407,
+            0.8391304347826087,
+            0.28075253256150506
+          ],
+          "level": 2,
+          "content": "RATIONAL APPROXIMATIONS TO ALGEBRAIC NUMBERS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4282608695652174,
+            0.29667149059334297,
+            0.5652173913043478,
+            0.31693198263386396
+          ],
+          "level": 2,
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.33285094066570187,
+            0.8739130434782608,
+            0.3921852387843705
+          ],
+          "content": "1. It was remarked by Liouville in 1844 that there is an obvious limit to the accuracy with which algebraic numbers can be approximated by rational numbers; if $\\alpha$ is an algebraic number of degree $n$ (at least 2) then†"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4217391304347826,
+            0.40086830680173663,
+            0.5717391304347826,
+            0.4399421128798842
+          ],
+          "content": "\\left| \\alpha - \\frac {h}{q} \\right| > \\frac {A}{q ^ {n}}",
+          "image_source": "images/page_0_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.44862518089725034,
+            0.8717391304347826,
+            0.487698986975398
+          ],
+          "content": "for all rational numbers $h / q$, where $A$ is a positive number depending only on $\\alpha$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.487698986975398,
+            0.8739130434782608,
+            0.5455861070911722
+          ],
+          "content": "More precise and very much more profound results were proved by Thue in 1908, by Siegel in 1921, and by Dyson in 1947. Suppose the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4260869565217391,
+            0.5412445730824892,
+            0.5695652173913044,
+            0.5788712011577424
+          ],
+          "content": "\\left| \\alpha - \\frac {h}{q} \\right| <   \\frac {1}{q ^ {\\kappa}}\\tag{1}",
+          "image_source": "images/page_0_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.5890014471780028,
+            0.8717391304347826,
+            0.6295224312590448
+          ],
+          "content": "is satisfied by infinitely many rational numbers $h / q$. Then Thue proved that $\\kappa \\leqslant \\frac{1}{2} n + 1$, Siegel proved that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.6439942112879884,
+            0.6826086956521739,
+            0.6758321273516642
+          ],
+          "content": "\\kappa \\leqslant s + \\frac {n}{s + 1} \\quad \\text { for } s = 1, 2, \\dots , n - 1,",
+          "image_source": "images/page_0_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.6874095513748191,
+            0.5021739130434782,
+            0.7076700434153401
+          ],
+          "content": "and Dyson‡ proved that κ ≤ √(2n)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.7178002894356006,
+            0.8739130434782608,
+            0.7742402315484804
+          ],
+          "content": "It was conjectured by Siegel that in reality  $\\kappa \\leqslant 2$ , and it is the purpose of this paper to prove that conjecture. Our result is accordingly as follows."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12608695652173912,
+            0.7973950795947902,
+            0.8739130434782608,
+            0.8277858176555717
+          ],
+          "content": "† The result is an immediate deduction from the definition of an algebraic number; see, for example, Davenport, The Higher Arithmetic (London 1952), 165–167."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12608695652173912,
+            0.8277858176555717,
+            0.8739130434782608,
+            0.9015918958031838
+          ],
+          "content": "$\\dagger$ Acta Mathematica, 79 (1947), 225–240. The algebraic part of Dyson's work was simplified by Mahler, Proc. K. Akad. Wet. Amsterdam, 52 (1949), 1175–1184. Another proof of Dyson's result was given by Schneider in Archiv der Math., 1 (1948–9), 288–295. Dyson's result (with a generalization) was apparently obtained independently by Gelfond; see his Transcendental and algebraic numbers (Moscow 1952, in Russian), Chapter 1."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.3347826086956522,
+            0.9059334298118669,
+            0.5934782608695652,
+            0.9232995658465991
+          ],
+          "content": "[MATHEMATIKA 2 (1955), 1-20]"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8108695652173913,
+            0.91027496382055,
+            0.8347826086956521,
+            0.9261939218523878
+          ],
+          "content": "B"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.10130246020260492,
+            0.8717391304347826,
+            0.14182344428364688
+          ],
+          "content": "THEOREM. Let $\\alpha$ be any algebraic number, not rational. If (1) has an infinity of solutions in integers $h$ and $q$ ($q > 0$) then $\\kappa \\leqslant 2$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.15340086830680175,
+            0.8717391304347826,
+            0.2098408104196816
+          ],
+          "content": "The inequality  $\\kappa\\leqslant2$  is, of course, the best possible, since every irrational number, whether algebraic or not, has infinitely many rational approximations satisfying (1) with  $\\kappa=2$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2098408104196816,
+            0.8739130434782608,
+            0.3053545586107091
+          ],
+          "content": "The above theorem, like its predecessors, has applications to other arithmetical questions, and in particular to the theory of Diophantine equations†. Suppose $f(x, y)$ is a homogeneous irreducible polynomial of degree $n$ with integral coefficients. It follows easily from the theorem that if the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3739130434782609,
+            0.31693198263386396,
+            0.6173913043478261,
+            0.3386396526772793
+          ],
+          "content": "\\mid f (x, y) \\mid <   (\\mid x \\mid + \\mid y \\mid) ^ {n - n}",
+          "image_source": "images/page_1_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.34876989869753977,
+            0.8717391304347826,
+            0.40665701881331406
+          ],
+          "content": "has an infinity of solutions in integers $x, y$ then $\\kappa \\leqslant 2$. Thus if $g(x, y)$ is any polynomial, not necessarily homogeneous, every term in which has total degree at most $n - 3$, then the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41304347826086957,
+            0.4182344428364689,
+            0.5826086956521739,
+            0.4384949348769899
+          ],
+          "content": "f (x, y) = g (x, y)",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.44862518089725034,
+            0.6434782608695652,
+            0.46888567293777134
+          ],
+          "content": "can have only a finite number of integral solutions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.46888567293777134,
+            0.8760869565217392,
+            0.622286541244573
+          ],
+          "content": "Various generalizations and analogues of the Thue-Siegel-Dyson theorem are known, and it seems probable that the method of the present paper will lead to improvements in many such results. Certainly this is the case for all the results in Siegel's basic memoir‡, one of the most important of which concerns approximation to an algebraic number by algebraic numbers of given degree. Improving this by the method of the present paper, I have obtained the following generalization of the theorem stated above. Let $\\alpha$ be any algebraic number, not rational. If the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.6338639652677279,
+            0.5956521739130435,
+            0.6599131693198264
+          ],
+          "content": "\\left| \\alpha - \\beta \\right| <   (H (\\beta)) ^ {- \\kappa}",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.6685962373371924,
+            0.8717391304347826,
+            0.7264833574529667
+          ],
+          "content": "is satisfied by infinitely many algebraic numbers $\\beta$ of degree $g$, then $\\kappa \\leqslant 2g$. Here $H(\\beta)$ denotes the maximum absolute value of the rational integral coefficients in the primitive irreducible equation satisfied by $\\beta$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7279305354558611,
+            0.8760869565217392,
+            0.8017366136034733
+          ],
+          "content": "As regards the substance of the present paper, it will be appreciated that many of the ideas and methods used are not new. The novel part of the proof is that culminating in Lemma 7, and even here we make much use of ideas that have occurred before in the literature of the subject."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.8017366136034733,
+            0.8739130434782608,
+            0.8596237337192475
+          ],
+          "content": "I am greatly indebted to Prof. Davenport for his constant encouragement while I was working on the problem, and for rewriting my original manuscript in a form suitable for publication. In particular, my original"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1282608695652174,
+            0.06657018813314038,
+            0.14565217391304347,
+            0.08104196816208394
+          ],
+          "content": "2"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4326086956521739,
+            0.06657018813314038,
+            0.5673913043478261,
+            0.0824891461649783
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12391304347826088,
+            0.8842257597684515,
+            0.8717391304347826,
+            0.914616497829233
+          ],
+          "content": "† See Skolem, Diophantische Gleichungen (Ergebnisse der Math. V4, Berlin, 1938), Chapter 6, §2."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.1608695652173913,
+            0.914616497829233,
+            0.48478260869565215,
+            0.9319826338639653
+          ],
+          "content": "† Math. Zeitschrift, 9 (1921), 173–213."
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.10274963820549927,
+            0.8739130434782608,
+            0.15918958031837915
+          ],
+          "content": "manuscript referred to a lemma of Schneider†, and this Prof. Davenport replaced by the much simpler Lemma 8. This is one of many simplifications and improvements he has introduced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.1808972503617945,
+            0.8739130434782608,
+            0.21852387843704776
+          ],
+          "content": "2. If $\\phi_0(x)$, $\\phi_1(x)$, ..., $\\phi_{l-1}(x)$ are $l$ polynomials in a single variable, the determinant"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2847826086956522,
+            0.2199710564399421,
+            0.7086956521739131,
+            0.25470332850940663
+          ],
+          "content": "\\det \\left(\\frac {1}{\\mu !} \\frac {d ^ {\\mu}}{d x ^ {\\mu}} \\phi_ {\\nu} (x)\\right) \\quad (\\mu , \\nu = 0, 1, \\dots , l - 1)",
+          "image_source": "images/page_2_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.2633863965267728,
+            0.8739130434782608,
+            0.3227206946454414
+          ],
+          "content": "is called their Wronskian. If  $\\phi_{0}(x), \\ldots, \\phi_{l-1}(x)$  have rational coefficients, it is well known that their Wronskian vanishes identically if and only if they are linearly dependent, that is, satisfy identically a linear relation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35434782608695653,
+            0.33285094066570187,
+            0.6434782608695652,
+            0.3516642547033285
+          ],
+          "content": "c _ {0} \\phi_ {0} (x) + \\dots + c _ {l - 1} \\phi_ {l - 1} (x) = 0",
+          "image_source": "images/page_2_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.361794500723589,
+            0.6,
+            0.38060781476121563
+          ],
+          "content": "with rational constant coefficients  $c_{0}, \\ldots, c_{l-1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.38060781476121563,
+            0.8717391304347826,
+            0.4196816208393632
+          ],
+          "content": "We define generalized Wronskians† for polynomials in p variables as follows. We consider differential operators of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34130434782608693,
+            0.42981186685962375,
+            0.65,
+            0.46888567293777134
+          ],
+          "content": "\\Delta = \\frac {1}{i _ {1} ! \\dots i _ {p} !} \\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {i _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {i _ {p}},\\tag{2}",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.47756874095513746,
+            0.6760869565217391,
+            0.49782923299565845
+          ],
+          "content": "and we call $i_1 + \\ldots + i_p$ the order of the operator $\\Delta$. If"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33260869565217394,
+            0.507959479015919,
+            0.6630434782608695,
+            0.5267727930535456
+          ],
+          "content": "\\phi_ {0} (x _ {1}, \\dots , x _ {p}), \\dots , \\phi_ {l - 1} (x _ {1}, \\dots , x _ {p})",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.5369030390738061,
+            0.5021739130434782,
+            0.557163531114327
+          ],
+          "content": "are $l$ polynomials in $p$ variables, and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4108695652173913,
+            0.5658465991316932,
+            0.5804347826086956,
+            0.5875542691751086
+          ],
+          "content": "\\Delta_ {0}, \\Delta_ {1}, \\dots , \\Delta_ {l - 1}",
+          "image_source": "images/page_2_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5947901591895803,
+            0.8717391304347826,
+            0.6338639652677279
+          ],
+          "content": "are any differential operators of the form (2) whose orders are at most 0, 1, ..., l-1 respectively, we call the determinant"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20217391304347826,
+            0.6468885672937771,
+            0.7956521739130434,
+            0.6714905933429812
+          ],
+          "content": "G (x _ {1}, \\dots , x _ {p}) = \\det \\left(\\Delta_ {\\mu} \\phi_ {\\nu} (x _ {1}, \\dots , x _ {p})\\right) (\\mu , \\nu = 0, \\dots , l - 1)",
+          "image_source": "images/page_2_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.6816208393632417,
+            0.8717391304347826,
+            0.7597684515195369
+          ],
+          "content": "a generalized Wronskian of $\\phi_0, \\ldots, \\phi_{l-1}$. If $p > 1$ and $l > 1$ there is more than one such generalized Wronskian. It is plain that if $\\phi_0, \\ldots, \\phi_{l-1}$ are linearly dependent then all their generalized Wronskians vanish identically. We proceed to prove the converse$\\S$."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2782608695652174,
+            0.06657018813314038,
+            0.7195652173913043,
+            0.08393632416787265
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8565217391304348,
+            0.06657018813314038,
+            0.8739130434782608,
+            0.08104196816208394
+          ],
+          "content": "3"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.3521739130434783,
+            0.7959479015918958,
+            0.4,
+            0.8118668596237337
+          ],
+          "content": "$k \\leqslant 2$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12173913043478261,
+            0.7800289435600579,
+            0.8739130434782608,
+            0.8263386396526773
+          ],
+          "content": "† J. für die reine und angew. Math., 175 (1936), 182–192, Lemma 1, formula (7). This paper contains a proof that $\\kappa \\leqslant 2$ provided that the solutions of (1) satisfy a certain very restrictive condition."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12391304347826088,
+            0.8248914616497829,
+            0.8717391304347826,
+            0.8842257597684515
+          ],
+          "content": "‡ Since writing this paper I find that generalized Wronskians were used by Siegel [Math. Annalen, 84 (1921), 80–99] in a similar connection. See also Kellogg, Comptes rendus des séances de la Soc. Math. de France, 41 (1912), 19–21, where the main result (Lemma 1 below) is stated without proof."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12173913043478261,
+            0.8827785817655571,
+            0.8717391304347826,
+            0.9305354558610709
+          ],
+          "content": "§ It should perhaps be remarked (though it is immaterial to our argument) that the generalized Wronskians and their derivatives may satisfy identities, by virtue of which the vanishing of some of the generalized Wronskians implies the vanishing of the others,"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.09985528219971057,
+            0.8782608695652174,
+            0.1577424023154848
+          ],
+          "content": "LEMMA 1. If $\\phi_0(x_1, \\ldots, x_p), \\ldots, \\phi_{l-1}(x_1, \\ldots, x_p)$ are $l$ linearly independent polynomials in $p$ variables, with rational coefficients, then at least one of their generalized Wronskians does not vanish identically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.170767004341534,
+            0.8739130434782608,
+            0.2272069464544139
+          ],
+          "content": "Proof. Let k be an integer which is greater than the degrees of all the polynomials  $\\phi_{0}, \\ldots, \\phi_{l-1}$  in each of the separate variables  $x_{1}, \\ldots, x_{p}$ . Consider the l polynomials"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29347826086956524,
+            0.23589001447178004,
+            0.7043478260869566,
+            0.2575976845151954
+          ],
+          "content": "\\phi_ {\\nu} (t, t ^ {k}, t ^ {k ^ {2}}, \\dots , t ^ {k ^ {p - 1}}) \\quad (\\nu = 0, \\dots , l - 1)\\tag{3}",
+          "image_source": "images/page_3_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2662807525325615,
+            0.8717391304347826,
+            0.3024602026049204
+          ],
+          "content": "in the single variable t. These polynomials are linearly independent. For let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25,
+            0.2995658465991317,
+            0.75,
+            0.34008683068017365
+          ],
+          "content": "\\phi_ {\\nu} (x _ {1}, \\dots , x _ {p}) = \\sum_ {s _ {1} = 0} ^ {k - 1} \\dots \\sum_ {s _ {p} = 0} ^ {k - 1} b ^ {(\\nu)} (s _ {1}, \\dots , s _ {p}) x _ {1} ^ {s _ {1}} \\dots x _ {p} ^ {s _ {p}};",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.34876989869753977,
+            0.8717391304347826,
+            0.3878437047756874
+          ],
+          "content": "if the polynomials (3) were linearly dependent there would be an identity in $t$ of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2543478260869565,
+            0.3950795947901592,
+            0.741304347826087,
+            0.4356005788712012
+          ],
+          "content": "\\sum_ {\\nu = 0} ^ {l - 1} c _ {\\nu} \\sum_ {s _ {1} = 0} ^ {k - 1} \\dots \\sum_ {s _ {p} = 0} ^ {k - 1} b ^ {(\\nu)} (s _ {1}, \\dots , s _ {p}) t ^ {s _ {1} + k s _ {2} + \\dots + k ^ {p - 1} s _ {p}} = 0.",
+          "image_source": "images/page_3_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4442836468885673,
+            0.6413043478260869,
+            0.4630969609261939
+          ],
+          "content": "Since the representation of an integer in the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2108695652173913,
+            0.4717800289435601,
+            0.782608695652174,
+            0.492040520984081
+          ],
+          "content": "s _ {1} + k s _ {2} + \\dots + k ^ {p - 1} s _ {p} \\quad (0 \\leqslant s _ {1} \\leqslant k - 1, \\dots , 0 \\leqslant s _ {p} \\leqslant k - 1)",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4992764109985528,
+            0.782608695652174,
+            0.5209840810419681
+          ],
+          "content": "is unique, this identity would imply the corresponding identity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3782608695652174,
+            0.5267727930535456,
+            0.6173913043478261,
+            0.5643994211287988
+          ],
+          "content": "\\sum_ {\\nu = 0} ^ {l - 1} c _ {\\nu} \\phi_ {\\nu} (x _ {1}, \\dots , x _ {p}) = 0.",
+          "image_source": "images/page_3_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.5745296671490593,
+            0.7956521739130434,
+            0.5947901591895803
+          ],
+          "content": "It follows that the Wronskian of the l polynomials (3), namely"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1934782608695652,
+            0.6049204052098408,
+            0.8,
+            0.6468885672937771
+          ],
+          "content": "W (t) = \\det \\left(\\frac {1}{\\mu !} \\left(\\frac {d}{d t}\\right) ^ {\\mu} \\phi_ {\\nu} (t, t ^ {k}, \\dots , t ^ {k ^ {p - 1}})\\right) (\\mu , \\nu = 0, \\dots , l - 1),\\tag{4}",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.658465991316932,
+            0.47391304347826085,
+            0.6772793053545586
+          ],
+          "content": "does not vanish identically. Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28695652173913044,
+            0.6859623733719248,
+            0.7065217391304348,
+            0.7250361794500724
+          ],
+          "content": "\\frac {d}{d t} = \\frac {\\partial}{\\partial x _ {1}} + k t ^ {k - 1} \\frac {\\partial}{\\partial x _ {2}} + \\dots + k ^ {p - 1} t ^ {k ^ {p - 1} - 1} \\frac {\\partial}{\\partial x _ {p}},",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.7351664254703328,
+            0.8717391304347826,
+            0.8306801736613604
+          ],
+          "content": "where the operators on the right are applied to a polynomial in $x_1, \\ldots, x_p$ and these variables are subsequently replaced by $t, \\ldots, t^{k^p - 1}$. By induction on $\\mu$, we see that the operator $(d / dt)^{\\mu}$ is expressible as a linear combination of differential operators on $x_1, \\ldots, x_p$ of the form (2), of orders not exceeding $\\mu$:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34130434782608693,
+            0.8277858176555717,
+            0.65,
+            0.8610709117221418
+          ],
+          "content": "\\left(\\frac {d}{d t}\\right) ^ {\\mu} = f _ {1} (t) \\Delta^ {(1)} + \\dots + f _ {r} (t) \\Delta^ {(r)},",
+          "image_source": "images/page_3_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11739130434782609,
+            0.8726483357452967,
+            0.8695652173913043,
+            0.9305354558610709
+          ],
+          "content": "where r depends only on  $\\mu$  and p, and  $\\Delta^{(1)}$ , ...,  $\\Delta^{(r)}$  are operators of orders not exceeding  $\\mu$ , and  $f_{1}(t)$ , ...,  $f_{r}(t)$  are polynomials with rational coefficients. Substituting in (4) and expressing the determinant as a"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1282608695652174,
+            0.06657018813314038,
+            0.14782608695652175,
+            0.07959479015918958
+          ],
+          "content": "4"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4369565217391304,
+            0.06512301013024602,
+            0.5717391304347826,
+            0.0824891461649783
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.10130246020260492,
+            0.8760869565217392,
+            0.11866859623733719
+          ],
+          "content": "sum of other determinants, we obtain an expression for W of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2391304347826087,
+            0.1287988422575977,
+            0.7652173913043478,
+            0.1476121562952243
+          ],
+          "content": "W (t) = g _ {1} (t) G ^ {(1)} (t, \\dots , t ^ {k ^ {p - 1}}) + \\dots + g _ {s} (t) G ^ {(s)} (t, \\dots , t ^ {k ^ {p - 1}}),",
+          "image_source": "images/page_4_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.15629522431259044,
+            0.8739130434782608,
+            0.19536903039073805
+          ],
+          "content": "where  $G^{(1)}, \\ldots, G^{(s)}$  are certain generalized Wronskians of  $\\phi_{0}, \\ldots, \\phi_{l-1}$  and  $g_{1}(t), \\ldots, g_{s}(t)$  are polynomials in t."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.1939218523878437,
+            0.8739130434782608,
+            0.25180897250361794
+          ],
+          "content": "Since $W(t)$ does not vanish identically, there is some $i$ for which $G^{(i)}(t, t^k, \\ldots, t^{k^p - 1})$ does not vanish identically, and a fortiori $G^{(i)}(x_1, \\ldots, x_p)$ does not vanish identically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.2706222865412446,
+            0.8739130434782608,
+            0.3299565846599132
+          ],
+          "content": "3. LEMMA 2. Let $R(x_1, \\ldots, x_p)$ be a polynomial in $p \\geqslant 2$ variables, with integral coefficients, which is not identically zero. Let $R$ be of degree at most $r_j$ in $x_j$ for $j = 1, \\ldots, p$. Then there exists an integer $l$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42391304347826086,
+            0.33719247467438496,
+            0.5695652173913044,
+            0.35600578871201155
+          ],
+          "content": "1 \\leqslant l \\leqslant r _ {p} + 1,\\tag{5}",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.36468885672937773,
+            0.8717391304347826,
+            0.4037626628075253
+          ],
+          "content": "and there exist differential operators $\\Delta_0, \\ldots, \\Delta_{l-1}$ on the variables $x_1, \\ldots, x_{p-1}$, of orders at most 0, ..., $l-1$ respectively, such that if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20652173913043478,
+            0.41389290882778584,
+            0.7869565217391304,
+            0.4544138929088278
+          ],
+          "content": "F (x _ {1}, \\dots , x _ {p}) = \\det \\left(\\Delta_ {\\mu} \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} R\\right) (\\mu , \\nu = 0, \\dots , l - 1)\\tag{6}",
+          "image_source": "images/page_4_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4573082489146165,
+            0.17391304347826086,
+            0.47467438494934877
+          ],
+          "content": "then"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.4833574529667149,
+            0.7108695652173913,
+            0.5036179450072359
+          ],
+          "content": "(i) F has integral coefficients and is not identically zero;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15869565217391304,
+            0.5151953690303908,
+            0.2847826086956522,
+            0.5340086830680174
+          ],
+          "content": "(ii) we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.5441389290882779,
+            0.6869565217391305,
+            0.5658465991316932
+          ],
+          "content": "F (x _ {1}, \\dots , x _ {p}) = U (x _ {1}, \\dots , x _ {p - 1}) V (x _ {p}),\\tag{7}",
+          "image_source": "images/page_4_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11739130434782609,
+            0.5759768451519537,
+            0.8673913043478261,
+            0.6150506512301013
+          ],
+          "content": "where $U$ and $V$ have integral coefficients, and $U$ is of degree at most $lr_j$ in $x$, for $j = 1, \\ldots, p - 1$ and $V$ is of degree at most $lr_p$ in $x_p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.6237337192474675,
+            0.7543478260869565,
+            0.6439942112879884
+          ],
+          "content": "Proof. We consider all representations of R in the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.14782608695652175,
+            0.6526772793053546,
+            0.8391304347826087,
+            0.6729377713458755
+          ],
+          "content": "R (x _ {1}, \\dots , x _ {p}) = \\phi_ {0} (x _ {p}) \\psi_ {0} (x _ {1}, \\dots , x _ {p - 1}) + \\dots + \\phi_ {l - 1} (x _ {p}) \\psi_ {l - 1} (x _ {1}, \\dots , x _ {p - 1}),",
+          "image_source": "images/page_4_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10869565217391304,
+            0.6816208393632417,
+            0.8673913043478261,
+            0.7771345875542692
+          ],
+          "content": "where the $\\phi_{\\nu}$ and $\\psi_{\\nu}$ are polynomials with rational coefficients, subject to the condition that the $\\phi_{\\nu}$ are of degree at most $r_p$ and the $\\psi_{\\nu}$ of degree at most $r_j$ in $x_j$ for $j = 1, \\ldots, p - 1$. Such a representation is possible, e.g. with $l - 1 = r_p$ and $\\phi_{\\nu}(x_p) = x_p^{\\nu}$. From all such representations we select one for which $l$ is least. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38913043478260867,
+            0.788712011577424,
+            0.5891304347826087,
+            0.8104196816208393
+          ],
+          "content": "\\phi_ {0} (x _ {p}), \\dots , \\phi_ {l - 1} (x _ {p})",
+          "image_source": "images/page_4_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.8191027496382055,
+            0.55,
+            0.8379160636758322
+          ],
+          "content": "are linearly independent. For if not, say"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.358695652173913,
+            0.8509406657018813,
+            0.6217391304347826,
+            0.869753979739508
+          ],
+          "content": "\\phi_ {l - 1} = d _ {0} \\phi_ {0} + \\dots + d _ {l - 2} \\phi_ {l - 2}",
+          "image_source": "images/page_4_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.8798842257597684,
+            0.6608695652173913,
+            0.8986975397973951
+          ],
+          "content": "with rational coefficients $d_{0},\\ldots,d_{l-2}$, we should have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.26304347826086955,
+            0.9088277858176556,
+            0.7195652173913043,
+            0.9305354558610709
+          ],
+          "content": "R = \\phi_ {0} (\\psi_ {0} + d _ {0} \\psi_ {l - 1}) + \\dots + \\phi_ {l - 2} (\\psi_ {l - 2} + d _ {l - 2} \\psi_ {l - 1}),",
+          "image_source": "images/page_4_equation_20.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2847826086956522,
+            0.06512301013024602,
+            0.7239130434782609,
+            0.0824891461649783
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8608695652173913,
+            0.06657018813314038,
+            0.8782608695652174,
+            0.08104196816208394
+          ],
+          "content": "5"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.10274963820549927,
+            0.5565217391304348,
+            0.12156295224312591
+          ],
+          "content": "contrary to the definition of l. Similarly"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.13024602026049203,
+            0.6956521739130435,
+            0.15050651230101303
+          ],
+          "content": "\\psi_ {0} (x _ {1}, \\dots , x _ {p - 1}), \\dots , \\psi_ {l - 1} (x _ {1}, \\dots , x _ {p - 1})",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.1577424023154848,
+            0.5978260869565217,
+            0.17655571635311143
+          ],
+          "content": "are linearly independent. Also $1 \\leqslant l \\leqslant r_p + 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.17510853835021709,
+            0.8695652173913043,
+            0.23589001447178004
+          ],
+          "content": "Let $W(x_{p})$ denote the Wronskian of $\\phi_{0}(x_{p}), \\ldots, \\phi_{l-1}(x_{p})$, so that W is a polynomial with rational coefficients, not identically zero. Let $G(x_{1}, \\ldots, x_{p-1})$ denote some generalized Wronskian of"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29782608695652174,
+            0.24167872648335745,
+            0.6934782608695652,
+            0.2619392185238784
+          ],
+          "content": "\\psi_ {0} (x _ {1}, \\dots , x _ {p - 1}), \\dots , \\psi_ {l - 1} (x _ {1}, \\dots , x _ {p - 1})",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.26772793053545585,
+            0.8695652173913043,
+            0.3096960926193922
+          ],
+          "content": "which is not identically zero, the existence of such a generalized Wronskian being assured by Lemma 1. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23695652173913043,
+            0.3183791606367583,
+            0.7608695652173914,
+            0.3589001447178003
+          ],
+          "content": "W (x _ {p}) = \\det \\left(\\frac {1}{\\mu !} \\left(\\frac {d}{d x _ {p}}\\right) ^ {\\mu} \\phi_ {\\nu} (x _ {p})\\right) (\\mu , \\nu = 0, \\dots , l - 1)",
+          "image_source": "images/page_5_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.35745296671490595,
+            0.17391304347826086,
+            0.37337192474674386
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1826086956521739,
+            0.38060781476121563,
+            0.8152173913043478,
+            0.40520984081041966
+          ],
+          "content": "G (x _ {1}, \\dots , x _ {p - 1}) = \\det \\left(\\Delta_ {\\mu} \\psi_ {\\nu} (x _ {1}, \\dots , x _ {p - 1})\\right) \\quad (\\mu , \\nu = 0, \\dots , l - 1),",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.4153400868306802,
+            0.8717391304347826,
+            0.47467438494934877
+          ],
+          "content": "where  $\\Delta_{0},\\ldots,\\Delta_{l-1}$  are certain differential operators of the form (2) but with p-1 in place of p, of orders at most 0, ..., l-1 respectively. Multiplying the two determinants by rows, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24347826086956523,
+            0.48480463096960924,
+            0.7521739130434782,
+            0.5817655571635311
+          ],
+          "content": "\\begin{array}{l} G W = \\det \\left(\\sum_ {\\rho = 0} ^ {l - 1} \\Delta_ {\\mu} \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} \\phi_ {\\rho} (x _ {p}) \\psi_ {\\rho} (x _ {1}, \\dots , x _ {p - 1})\\right) \\\\ = \\det \\left(\\Delta_ {\\mu} \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} R\\right) (\\mu , \\nu = 0, \\dots , l - 1). \\end{array}",
+          "image_source": "images/page_5_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.5918958031837916,
+            0.8717391304347826,
+            0.6497829232995659
+          ],
+          "content": "Thus  $W(x_{p}) G(x_{1}, \\ldots, x_{p-1}) = F(x_{1}, \\ldots, x_{p})$ , say, is representable in the form (6). It is plain from (6) that F has integral coefficients, and since W and G are not identically zero, neither is F."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.6497829232995659,
+            0.36086956521739133,
+            0.6671490593342981
+          ],
+          "content": "From the fact that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.6758321273516642,
+            0.6891304347826087,
+            0.6989869753979739
+          ],
+          "content": "F (x _ {1}, \\dots , x _ {p}) = W (x _ {p}) G (x _ {1}, \\dots , x _ {p - 1}),",
+          "image_source": "images/page_5_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7062228654124457,
+            0.8717391304347826,
+            0.7814761215629522
+          ],
+          "content": "where $F$ has integral coefficients and $W$, $G$ have rational coefficients, it follows that there exists a rational number $g$ such that the polynomials $U(x_{1},\\ldots ,x_{p - 1}) = gG(x_{1},\\ldots ,x_{p - 1})$ and $V(x_{p}) = g^{-1}W(x_{p})$ have integral coefficients†."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7829232995658466,
+            0.8739130434782608,
+            0.8581765557163531
+          ],
+          "content": "Finally, since $W$ is a determinant of order $l$ whose elements are polynomials in $x_{p}$ of degree $r_{p}$ at most, it follows that $W$, and therefore $V$, is a polynomial in $x_{p}$ of degree $lr_{p}$ at most. Similarly $G$, and therefore $U$, is of degree at most $lr_{j}$ in $x_{j}$ for $j = 1, \\ldots, p - 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15869565217391304,
+            0.8567293777134588,
+            0.5978260869565217,
+            0.8769898697539797
+          ],
+          "content": "We have now proved all that was asserted."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.12608695652173912,
+            0.06801736613603473,
+            0.14347826086956522,
+            0.08393632416787265
+          ],
+          "content": "6"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4326086956521739,
+            0.06657018813314038,
+            0.5673913043478261,
+            0.08393632416787265
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12173913043478261,
+            0.8958031837916064,
+            0.8695652173913043,
+            0.9290882778581766
+          ],
+          "content": "† See, for example, Perron, Algebra I (Berlin, 1927, 1931, 1951), Satz 88. The deduction does not depend on the separation of the variables between G and W."
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.09696092619392185,
+            0.8739130434782608,
+            0.15629522431259044
+          ],
+          "content": "LEMMA 3. Let R satisfy the hypotheses of Lemma 2 and suppose that all the coefficients of R have absolute values not exceeding B. Then all the coefficients of  $F(x_{1}, \\ldots, x_{p})$ , defined in (6), have absolute values not exceeding"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32608695652173914,
+            0.16208393632416787,
+            0.6717391304347826,
+            0.18813314037626627
+          ],
+          "content": "\\left(\\left(r _ {1} + 1\\right) \\dots \\left(r _ {p} + 1\\right)\\right) ^ {l} l! B ^ {l} 2 ^ {\\left(r _ {1} + \\dots + r _ {p}\\right) l}.",
+          "image_source": "images/page_6_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.19681620839363242,
+            0.8717391304347826,
+            0.23589001447178004
+          ],
+          "content": "Proof. In the definition (6) of $F$, we can regard $R$ as a sum of $(r_1 + 1)\\ldots (r_p + 1)$ terms, each of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41304347826086957,
+            0.24746743849493488,
+            0.5760869565217391,
+            0.26772793053545585
+          ],
+          "content": "a _ {s _ {1}, \\dots , s _ {p}} x _ {1} ^ {s _ {1}} \\dots x _ {\\boldsymbol {p}} ^ {s _ {p}},",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2735166425470333,
+            0.8695652173913043,
+            0.3386396526772793
+          ],
+          "content": "where  $|a_{s_{1},\\ldots,s_{p}}|\\leqslant B$ . The determinant on the right of (6) can be developed into a sum of  $\\left((r_{1}+1)\\ldots(r_{p}+1)\\right)^{l}$  determinants, the general element in one such determinant being of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34782608695652173,
+            0.3458755426917511,
+            0.6347826086956522,
+            0.3849493487698987
+          ],
+          "content": "a _ {s _ {1}, \\dots , s _ {p}} \\Delta_ {\\mu} \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} x _ {1} ^ {s _ {1}} \\dots x _ {p} ^ {s _ {p}},",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.3907380607814761,
+            0.8695652173913043,
+            0.42981186685962375
+          ],
+          "content": "where  $s_{1}, \\ldots, s_{p}$  depend on  $\\mu$ , or alternatively on  $\\nu$ , according as the original determinant is developed by rows or columns. Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32608695652173914,
+            0.4370477568740955,
+            0.6673913043478261,
+            0.47467438494934877
+          ],
+          "content": "\\Delta_ {\\mu} \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} x _ {1} ^ {s _ {1}} \\dots x _ {p} ^ {s _ {p}} = A x _ {1} ^ {t _ {1}} \\dots x _ {p} ^ {t _ {p}}",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4833574529667149,
+            0.8695652173913043,
+            0.5036179450072359
+          ],
+          "content": "for some $t_1 \\leqslant s_1, \\ldots, t_p \\leqslant s_p$, and the coefficient $A$, if not zero, is given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3978260869565217,
+            0.5137481910274964,
+            0.5934782608695652,
+            0.548480463096961
+          ],
+          "content": "A = \\binom{s _ {1}}{t _ {1}} \\dots \\binom{s _ {p}}{t _ {p}}.",
+          "image_source": "images/page_6_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5557163531114327,
+            0.1826086956521739,
+            0.5745296671490593
+          ],
+          "content": "Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3717391304347826,
+            0.5557163531114327,
+            0.6195652173913043,
+            0.5745296671490593
+          ],
+          "content": "A \\leqslant 2 ^ {s _ {1} + \\dots + s _ {p}} \\leqslant 2 ^ {r _ {1} + \\dots + r _ {p}}.",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5832127351664255,
+            0.8673913043478261,
+            0.6208393632416788
+          ],
+          "content": "Hence the coefficients of each of the l! terms in the expansion of an individual determinant have absolute values not exceeding"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4369565217391304,
+            0.6280752532561505,
+            0.5652173913043478,
+            0.6483357452966715
+          ],
+          "content": "(B 2 ^ {r _ {1} + \\dots + r _ {p}}) ^ {l},",
+          "image_source": "images/page_6_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6497829232995659,
+            0.35,
+            0.6671490593342981
+          ],
+          "content": "and the result follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.6845151953690304,
+            0.8673913043478261,
+            0.7814761215629522
+          ],
+          "content": "4. Let  $P(x_{1}, \\ldots, x_{p})$  be any polynomial in p variables which does not vanish identically. Let  $\\alpha_{1}, \\ldots, \\alpha_{p}$  be any real numbers, and let  $r_{1}, \\ldots, r_{p}$  be any positive numbers. We define the index  $\\theta$  of P at the point  $(\\alpha_{1}, \\ldots, \\alpha_{p})$  relative to  $r_{1}, \\ldots, r_{p}$  as follows. Expand  $P(\\alpha_{1} + y_{1}, \\ldots, \\alpha_{p} + y_{p})$  as a polynomial in  $y_{1}, \\ldots, y_{p}$ , say"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21521739130434783,
+            0.788712011577424,
+            0.7652173913043478,
+            0.8263386396526773
+          ],
+          "content": "P \\left(\\alpha_ {1} + y _ {1}, \\dots , \\alpha_ {p} + y _ {p}\\right) = \\sum_ {j _ {1} = 0} ^ {\\infty} \\dots \\sum_ {j _ {p} = 0} ^ {\\infty} c \\left(j _ {1}, \\dots , j _ {p}\\right) y _ {1} ^ {j _ {1}} \\dots y _ {p} ^ {j _ {p}}.",
+          "image_source": "images/page_6_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8437047756874095,
+            0.18043478260869567,
+            0.8596237337192475
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3760869565217391,
+            0.8335745296671491,
+            0.6130434782608696,
+            0.869753979739508
+          ],
+          "content": "\\theta = \\min \\left(\\frac {j _ {1}}{r _ {1}} + \\dots + \\frac {j _ {p}}{r _ {p}}\\right)",
+          "image_source": "images/page_6_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8784370477568741,
+            0.6847826086956522,
+            0.8972503617945007
+          ],
+          "content": "for all sets of non-negative integers $j_1, \\ldots, j_p$ for which"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40869565217391307,
+            0.9059334298118669,
+            0.5760869565217391,
+            0.9261939218523878
+          ],
+          "content": "c (j _ {1}, \\dots , j _ {p}) \\neq 0.",
+          "image_source": "images/page_6_equation_20.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.28043478260869564,
+            0.06222865412445731,
+            0.7217391304347827,
+            0.07959479015918958
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8586956521739131,
+            0.06367583212735166,
+            0.8739130434782608,
+            0.07814761215629522
+          ],
+          "content": "7"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.10274963820549927,
+            0.782608695652174,
+            0.12156295224312591
+          ],
+          "content": "The last condition can obviously be expressed equivalently as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3239130434782609,
+            0.1287988422575977,
+            0.6717391304347826,
+            0.1678726483357453
+          ],
+          "content": "\\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {j _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {j _ {p}} P (\\alpha_ {1}, \\dots , \\alpha_ {p}) \\neq 0.",
+          "image_source": "images/page_7_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.1736613603473227,
+            0.8717391304347826,
+            0.21273516642547033
+          ],
+          "content": "We note that $\\theta \\geqslant 0$ always, and $\\theta = 0$ if and only if $P(\\alpha_{1},\\ldots ,\\alpha_{\\rho})\\neq 0$. We note also that the index of the derived polynomial"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34782608695652173,
+            0.2199710564399421,
+            0.65,
+            0.2575976845151954
+          ],
+          "content": "\\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {k _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {k _ {p}} P (x _ {1}, \\dots , x _ {p})",
+          "image_source": "images/page_7_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.2662807525325615,
+            0.5695652173913044,
+            0.28798842257597684
+          ],
+          "content": "at $(\\alpha_{1},\\ldots ,\\alpha_{p})$ relative to $r_1,\\dots,r_p$ is at least"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4152173913043478,
+            0.2937771345875543,
+            0.5826086956521739,
+            0.3314037626628075
+          ],
+          "content": "\\theta - \\frac {k _ {1}}{r _ {1}} - \\dots - \\frac {k _ {p}}{r _ {p}}",
+          "image_source": "images/page_7_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.33719247467438496,
+            0.8739130434782608,
+            0.3950795947901592
+          ],
+          "content": "for any non-negative integers  $k_{1}, \\ldots, k_{p}$ , provided that the derived polynomial is not identically zero. Some further immediate consequences of the definition are given in the following lemma."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.4037626628075253,
+            0.8739130434782608,
+            0.46164978292329956
+          ],
+          "content": "LEMMA 4. Let $P(x_1, \\ldots, x_p)$ and $Q(x_1, \\ldots, x_p)$ be polynomials, neither of which vanishes identically. Then, if all the indices are formed at the same point $(\\alpha_1, \\ldots, \\alpha_p)$ relative to the same numbers $r_1, \\ldots, r_p$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29347826086956524,
+            0.46888567293777134,
+            0.7065217391304348,
+            0.487698986975398
+          ],
+          "content": "\\operatorname{index} (P + Q) \\geqslant \\min (\\operatorname{index} P, \\operatorname{index} Q),\\tag{8}",
+          "image_source": "images/page_7_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33260869565217394,
+            0.49493487698986977,
+            0.6565217391304348,
+            0.5151953690303908
+          ],
+          "content": "\\text { index   } P Q = \\text { index   } P + \\text { index   } Q.\\tag{9}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.5238784370477568,
+            0.8739130434782608,
+            0.5817655571635311
+          ],
+          "content": "(9) remains true if $P$ is a polynomial in $x_1, \\ldots, x_{p-1}$ only and $Q$ is a polynomial in $x_p$ only, and the index of $P$ is taken at $(\\alpha_1, \\ldots, \\alpha_{p-1})$ relative to $r_1, \\ldots, r_{p-1}$ and that of $Q$ at $\\alpha_p$ relative to $r_p$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.6005788712011577,
+            0.8717391304347826,
+            0.6555716353111433
+          ],
+          "content": "5. We consider, for a particular set of positive integers  $r_{1}, \\ldots, r_{m}$  and a particular number  $B \\geqslant 1$ , polynomials  $R(x_{1}, \\ldots, x_{m})$  in m variables which satisfy the conditions:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.6657018813314037,
+            0.758695652173913,
+            0.6859623733719248
+          ],
+          "content": "(a) $R$ has integral coefficients and is not identically zero;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.6931982633863966,
+            0.6956521739130435,
+            0.7134587554269175
+          ],
+          "content": "(b) $R$ is of degree at most $r_j$ in $x_j$ for $j = 1, \\ldots, m$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.7206946454413893,
+            0.8195652173913044,
+            0.7409551374819102
+          ],
+          "content": "(c) the coefficients of $R$ have absolute values not exceeding $B$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.748191027496382,
+            0.6695652173913044,
+            0.7670043415340086
+          ],
+          "content": "We denote the aggregate of all such polynomials by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3717391304347826,
+            0.7771345875542692,
+            0.6239130434782608,
+            0.7973950795947902
+          ],
+          "content": "\\mathcal {R} _ {m} = \\mathcal {R} _ {m} (B; r _ {1}, \\dots , r _ {m}).",
+          "image_source": "images/page_7_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.804630969609262,
+            0.8717391304347826,
+            0.9015918958031838
+          ],
+          "content": "Let $q_1, \\ldots, q_m$ denote positive integers and let $h_1, \\ldots, h_m$ denote integers satisfying $(h_j, q_j) = 1$ for $j = 1, \\ldots, m$. Let $\\theta(R)$ denote the index of $R(x_1, \\ldots, x_m)$ at the point $(h_1/q_1, \\ldots, h_m/q_m)$ relative to $r_1, \\ldots, r_m$. Our object in the present section is to obtain, under certain conditions, an estimate for $\\theta(R)$ in terms of $B, q_1, \\ldots, q_m, r_1, \\ldots, r_m$. We therefore define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23695652173913043,
+            0.91027496382055,
+            0.7652173913043478,
+            0.9305354558610709
+          ],
+          "content": "\\Theta_ {m} (B; q _ {1}, \\dots , q _ {m}; r _ {1}, \\dots , r _ {m}) = \\text { upper   bound   of } \\theta (R)\\tag{10}",
+          "image_source": "images/page_7_equation_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13043478260869565,
+            0.06657018813314038,
+            0.14782608695652175,
+            0.0824891461649783
+          ],
+          "content": "8"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4369565217391304,
+            0.06657018813314038,
+            0.5717391304347826,
+            0.08393632416787265
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.09985528219971057,
+            0.8695652173913043,
+            0.13748191027496381
+          ],
+          "content": "taken over all polynomials R in the set  $R_{m}$  and over all integers  $h_{1}, \\ldots, h_{m}$  which are relatively prime to  $q_{1}, \\ldots, q_{m}$  respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.13748191027496381,
+            0.8695652173913043,
+            0.1939218523878437
+          ],
+          "content": "It is important to observe the double significance of  $r_{1}, \\ldots, r_{m}$  in the definition (10); these numbers occur both in the definition of the index  $\\theta(R)$  and in condition (b) above."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.1939218523878437,
+            0.8695652173913043,
+            0.25180897250361794
+          ],
+          "content": "Our arguments are based on induction with respect to m, and in the course of the work we shall need to use the above definitions for various values of m and for various sets of values of B,  $q_{1}, \\ldots, q_{m}, r_{1}, \\ldots, r_{m}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.25180897250361794,
+            0.8695652173913043,
+            0.28798842257597684
+          ],
+          "content": "The case m=1 is simple, and can be treated without imposing any new conditions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.3024602026049204,
+            0.3717391304347826,
+            0.31982633863965265
+          ],
+          "content": "LEMMA 5. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36086956521739133,
+            0.32416787264833574,
+            0.6195652173913043,
+            0.361794500723589
+          ],
+          "content": "\\Theta_ {1} (B; q _ {1}; r _ {1}) \\leqslant \\frac {\\log B}{r _ {1} \\log q _ {1}}.\\tag{11}",
+          "image_source": "images/page_8_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.3719247467438495,
+            0.8695652173913043,
+            0.44862518089725034
+          ],
+          "content": "Proof. By the definition of the index $\\theta$ of $R$, the polynomial $R(x_{1})$ is divisible by $\\dagger (x_{1} - h_{1} / q_{1})^{\\theta r_{1}}$. It follows from Gauss's theorem on the factorization of polynomials with integral coefficients into polynomials with rational coefficients, and from the fact that $(h_{1}, q_{1}) = 1$, that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36086956521739133,
+            0.45875542691751087,
+            0.6326086956521739,
+            0.47756874095513746
+          ],
+          "content": "R (x _ {1}) = (q _ {1} x _ {1} - h _ {1}) ^ {\\theta r _ {1}} Q (x _ {1}),",
+          "image_source": "images/page_8_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.487698986975398,
+            0.8695652173913043,
+            0.5282199710564399
+          ],
+          "content": "where  $Q(x_{1})$  is a polynomial with integral coefficients. Hence the coefficient of the highest term in  $R(x_{1})$  is an integral multiple of  $q_{1}^{\\theta r_{1}}$ , so that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44565217391304346,
+            0.5383502170767004,
+            0.5413043478260869,
+            0.5586107091172214
+          ],
+          "content": "q _ {1} ^ {\\theta r _ {1}} \\leqslant B,",
+          "image_source": "images/page_8_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.5687409551374819,
+            0.8717391304347826,
+            0.6266280752532561
+          ],
+          "content": "giving (11). [It may be noted in passing that we have not used the hypothesis that the degree of $R$ is at most $r_1$; the double significance of $r_1, \\ldots, r_m$ mentioned above becomes important only when $m > 1$.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1565217391304348,
+            0.6367583212735166,
+            0.5956521739130435,
+            0.6555716353111433
+          ],
+          "content": "We now come to the inductive argument."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.6714905933429812,
+            0.8695652173913043,
+            0.7091172214182344
+          ],
+          "content": "LEMMA 6. Let $p \\geqslant 2$ be a positive integer, let $r_1, \\ldots, r_p$ be positive integers satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2826086956521739,
+            0.7192474674384949,
+            0.7086956521739131,
+            0.7409551374819102
+          ],
+          "content": "r _ {p} > 1 0 \\delta^ {- 1}, \\quad r _ {j - 1} / r _ {j} > \\delta^ {- 1} f o r j = 2, \\dots , p,\\tag{12}",
+          "image_source": "images/page_8_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.7496382054992764,
+            0.7434782608695653,
+            0.7698986975397974
+          ],
+          "content": "where $0 < \\delta < 1$, and let $q_{1}, \\ldots, q_{p}$ be positive integers. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2217391304347826,
+            0.7800289435600579,
+            0.7739130434782608,
+            0.808972503617945
+          ],
+          "content": "\\Theta_ {p} (B; q _ {1}, \\dots , q _ {p}; r _ {1}, \\dots , r _ {p}) \\leqslant 2 \\max _ {l} (\\Phi + \\Phi^ {1 / 2} + \\delta^ {1 / 2}),\\tag{13}",
+          "image_source": "images/page_8_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8205499276410999,
+            0.6413043478260869,
+            0.8393632416787264
+          ],
+          "content": "where the maximum is taken over integers l satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4217391304347826,
+            0.8509406657018813,
+            0.5673913043478261,
+            0.869753979739508
+          ],
+          "content": "\\mathbf {1} \\leqslant l \\leqslant r _ {p} + \\mathbf {1},\\tag{14}",
+          "image_source": "images/page_8_equation_17.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.27608695652173915,
+            0.06367583212735166,
+            0.717391304347826,
+            0.08104196816208394
+          ],
+          "content": "APPROXIMATIONS TO ALGÉBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8521739130434782,
+            0.06367583212735166,
+            0.8695652173913043,
+            0.07959479015918958
+          ],
+          "content": "9"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.29782608695652174,
+            0.8986975397973951,
+            0.3239130434782609,
+            0.9117221418234442
+          ],
+          "content": "$\\theta r_{1}$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12173913043478261,
+            0.8958031837916064,
+            0.8695652173913043,
+            0.9276410998552822
+          ],
+          "content": "† The exponent $\\theta r_{1}$ is of course a non-negative integer, and can be supposed to be a positive integer."
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.10419681620839363,
+            0.23695652173913043,
+            0.12156295224312591
+          ],
+          "content": "and where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19130434782608696,
+            0.1345875542691751,
+            0.808695652173913,
+            0.15629522431259044
+          ],
+          "content": "\\Phi = \\Theta_ {1} (M; q _ {p}; l r _ {p}) + \\Theta_ {p - 1} (M; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1})\\tag{15}",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.16642547033285093,
+            0.17173913043478262,
+            0.18234442836468887
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3826086956521739,
+            0.1649782923299566,
+            0.6195652173913043,
+            0.18523878437047755
+          ],
+          "content": "M = (r _ {1} + 1) ^ {p l} l! B ^ {l} 2 ^ {p l r _ {1}}.\\tag{16}",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.19536903039073805,
+            0.8717391304347826,
+            0.2706222865412446
+          ],
+          "content": "Proof. We have to show that if  $R(x_{1}, \\ldots, x_{p})$  is any polynomial in the class  $\\mathcal{R}_{p}(B; r_{1}, \\ldots, r_{p})$ , and if  $h_{1}, \\ldots, h_{p}$  are integers relatively prime to  $q_{1}, \\ldots, q_{p}$  respectively, then the index  $\\theta$  of R at  $(h_{1}/q_{1}, \\ldots, h_{p}/q_{p})$  relative to  $r_{1}, \\ldots, r_{p}$  does not exceed the right-hand side of (13)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2706222865412446,
+            0.8717391304347826,
+            0.34876989869753977
+          ],
+          "content": "The polynomial  $R(x_{1}, \\ldots, x_{p})$  satisfies the hypotheses of Lemma 2, and therefore there exist an integer l satisfying (14) and a polynomial  $F(x_{1}, \\ldots, x_{p})$  of the form (6) with the properties (i) and (ii) of Lemma 2. By Lemma 3 the coefficients of F have absolute values not exceeding"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.3589001447178003,
+            0.691304347826087,
+            0.3849493487698987
+          ],
+          "content": "\\left((r _ {1} + 1) \\dots (r _ {p} + 1)\\right) ^ {l} l! B ^ {l} 2 ^ {(r _ {1} + \\dots + r _ {p}) l} <   M",
+          "image_source": "images/page_9_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.39363241678726485,
+            0.6260869565217392,
+            0.41389290882778584
+          ],
+          "content": "by (16), since $r_1 > r_2 > \\ldots > r_p$ by (12). Since"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3673913043478261,
+            0.42257597684515197,
+            0.6347826086956522,
+            0.4442836468885673
+          ],
+          "content": "F = U (x _ {1}, \\dots , x _ {p - 1}) V (x _ {p}),",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.45296671490593343,
+            0.8739130434782608,
+            0.4905933429811867
+          ],
+          "content": "and U, V have integral coefficients, it follows that the coefficients of U and V also have absolute values less than M."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4905933429811867,
+            0.8739130434782608,
+            0.5470332850940666
+          ],
+          "content": "The polynomial  $U(x_{1}, \\ldots, x_{p-1})$  has degree at most  $lr_{j}$  in  $x_{j}$  for  $j = 1, \\ldots, p-1$ . It satisfies the conditions (a), (b), (c) above for the class of polynomials"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3782608695652174,
+            0.5455861070911722,
+            0.6217391304347826,
+            0.5658465991316932
+          ],
+          "content": "\\mathcal {R} _ {\\boldsymbol {p} - 1} (M; l r _ {1}, \\dots , l r _ {\\boldsymbol {p} - 1}).",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5759768451519537,
+            0.8739130434782608,
+            0.6107091172214182
+          ],
+          "content": "Hence its index at $(h_1 / q_1, \\ldots, h_{p-1} / q_{p-1})$ relative to $lr_1, \\ldots, lr_{p-1}$ does not exceed"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3173913043478261,
+            0.6107091172214182,
+            0.6847826086956522,
+            0.6309696092619392
+          ],
+          "content": "\\Theta_ {p - 1} (M; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1}).",
+          "image_source": "images/page_9_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6396526772793053,
+            0.8739130434782608,
+            0.678726483357453
+          ],
+          "content": "It follows from the definition of the index that the index of $U$ at that point relative to $r_1, \\ldots, r_{p-1}$ does not exceed"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.6888567293777135,
+            0.6891304347826087,
+            0.7091172214182344
+          ],
+          "content": "l \\Theta_ {p - 1} (M; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1}).",
+          "image_source": "images/page_9_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7178002894356006,
+            0.8739130434782608,
+            0.7568740955137482
+          ],
+          "content": "Similarly $V(x_{p})$ belongs to the class $\\mathcal{R}_1(M; lr_p)$, and its index at $h_p / q_p$ relative to $r_p$ does not exceed"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4108695652173913,
+            0.7670043415340086,
+            0.5891304347826087,
+            0.788712011577424
+          ],
+          "content": "l \\Theta_ {1} (M; q _ {p}; l r _ {p}).",
+          "image_source": "images/page_9_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7973950795947902,
+            0.8739130434782608,
+            0.8364688856729378
+          ],
+          "content": "By the final clause of Lemma 4, the index of $F = UV$ at $(h_1 / q_1, \\ldots, h_p / q_p)$ relative to $r_1, \\ldots, r_p$ is the sum of the indices of $U$ and $V$, whence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42391304347826086,
+            0.8465991316931982,
+            0.5739130434782609,
+            0.8654124457308249
+          ],
+          "content": "\\text { index   } F \\leqslant l \\Phi ,\\tag{17}",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.874095513748191,
+            0.40869565217391307,
+            0.8929088277858177
+          ],
+          "content": "where $\\Phi$ is defined in (15)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.8929088277858177,
+            0.8760869565217392,
+            0.9305354558610709
+          ],
+          "content": "We now deduce from the determinantal representation of F in (6) a lower bound for the index of F in terms of the index  $\\theta$  of R. Consider first"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13043478260869565,
+            0.0694645441389291,
+            0.1608695652173913,
+            0.08393632416787265
+          ],
+          "content": "10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4369565217391304,
+            0.06801736613603473,
+            0.5717391304347826,
+            0.08683068017366136
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.10130246020260492,
+            0.49130434782608695,
+            0.12011577424023155
+          ],
+          "content": "any differential operator of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3217391304347826,
+            0.12735166425470332,
+            0.6717391304347826,
+            0.1649782923299566
+          ],
+          "content": "\\Delta = \\frac {1}{i _ {1} ! \\dots i _ {p - 1} !} \\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {i _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {p - 1}}\\right) ^ {i _ {p - 1}}",
+          "image_source": "images/page_10_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.17221418234442837,
+            0.8260869565217391,
+            0.1939218523878437
+          ],
+          "content": "on $x_{1}, \\ldots, x_{p-1}$, of order $w = i_{1} + \\ldots + i_{p-1} \\leqslant l - 1$. If the polynomial"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3717391304347826,
+            0.19971056439942114,
+            0.6239130434782608,
+            0.23589001447178004
+          ],
+          "content": "\\Delta \\frac {1}{\\nu !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {\\nu} R (x _ {1}, \\dots , x _ {p})",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.24312590448625182,
+            0.8717391304347826,
+            0.2821997105643994
+          ],
+          "content": "does not vanish identically, its index at $(h_1 / q_1, \\ldots, h_p / q_p)$ relative to $r_1, \\ldots, r_p$ is at least"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.28798842257597684,
+            0.6934782608695652,
+            0.3256150506512301
+          ],
+          "content": "\\theta - \\frac {i _ {1}}{r _ {1}} - \\dots - \\frac {i _ {p - 1}}{r _ {p - 1}} - \\frac {\\nu}{r _ {p}} \\geqslant \\theta - \\frac {w}{r _ {p - 1}} - \\frac {\\nu}{r _ {p}}.",
+          "image_source": "images/page_10_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.3314037626628075,
+            0.8739130434782608,
+            0.36903039073806077
+          ],
+          "content": "Now $w / r_{p - 1} \\leqslant (l - 1) / r_{p - 1} \\leqslant r_p / r_{p - 1} < \\delta$, by (14) and (12). Hence, since the index is never negative, it must be at least"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3934782608695652,
+            0.37771345875542695,
+            0.6,
+            0.3979739507959479
+          ],
+          "content": "\\max (0, \\theta - \\nu / r _ {p}) - \\delta .",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.40520984081041966,
+            0.8739130434782608,
+            0.44283646888567296
+          ],
+          "content": "If we expand the determinant on the right of (6), we obtain for F a sum of l! terms, the typical term being of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22608695652173913,
+            0.45296671490593343,
+            0.758695652173913,
+            0.49493487698986977
+          ],
+          "content": "\\pm \\left(\\Delta_ {\\mu_ {0}} R\\right) \\left(\\Delta_ {\\mu_ {1}} \\frac {1}{1 !} \\frac {\\partial}{\\partial x _ {p}} R\\right) \\dots \\left(\\Delta_ {\\mu_ {l - 1}} \\frac {1}{(l - 1) !} \\left(\\frac {\\partial}{\\partial x _ {p}}\\right) ^ {l - 1} R\\right),",
+          "image_source": "images/page_10_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.5036179450072359,
+            0.8739130434782608,
+            0.5615050651230101
+          ],
+          "content": "where  $\\Delta_{\\mu_{0}}, \\ldots, \\Delta_{\\mu_{l-1}}$  are differential operators on  $x_{1}, \\ldots, x_{p-1}$  whose orders are at most l-1. By Lemma 4, the index of such a term (if it does not vanish identically) is at least"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3652173913043478,
+            0.5687409551374819,
+            0.6369565217391304,
+            0.6049204052098408
+          ],
+          "content": "\\sum_ {\\nu = 0} ^ {l - 1} \\max (0, \\theta - \\nu / r _ {p}) - l \\delta .",
+          "image_source": "images/page_10_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.613603473227207,
+            0.8260869565217391,
+            0.6324167872648335
+          ],
+          "content": "Since $F$ is a sum of such terms, it follows from Lemma 4 again that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.6396526772793053,
+            0.6934782608695652,
+            0.6772793053545586
+          ],
+          "content": "\\text { index } F \\geqslant \\sum_ {\\nu = 0} ^ {l - 1} \\max (0, \\theta - \\nu / r _ {p}) - l \\delta .",
+          "image_source": "images/page_10_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.6859623733719248,
+            0.6543478260869565,
+            0.7047756874095513
+          ],
+          "content": "We can suppose that $\\theta r_p > 10$, for if not we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3869565217391304,
+            0.7120115774240231,
+            0.6086956521739131,
+            0.7322720694645442
+          ],
+          "content": "\\theta \\leqslant 1 0 r _ {p} ^ {- 1} <   \\delta <   2 \\delta^ {1 / 2},",
+          "image_source": "images/page_10_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.7409551374819102,
+            0.782608695652174,
+            0.7597684515195369
+          ],
+          "content": "and the desired inequality for $\\theta$ then holds. If $\\theta r_{p} < l$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2956521739130435,
+            0.7655571635311144,
+            0.7043478260869566,
+            0.8639652677279306
+          ],
+          "content": "\\begin{array}{r l} \\sum_ {\\nu = 0} ^ {l - 1} \\max (0, \\theta - \\nu / r _ {p}) & = r _ {p} ^ {- 1} \\sum_ {0 \\leqslant \\nu \\leqslant \\theta r _ {p}} (\\theta r _ {p} - \\nu) \\\\ & \\geqslant \\frac {1}{2} r _ {p} ^ {- 1} [ \\theta r _ {p} ] ^ {2} \\\\ & > \\frac {1}{3} r _ {p} \\theta^ {2}. \\end{array}",
+          "image_source": "images/page_10_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.8581765557163531,
+            0.33043478260869563,
+            0.8798842257597684
+          ],
+          "content": "If $\\theta r_{p} \\geqslant l$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29347826086956524,
+            0.8871201157742402,
+            0.7086956521739131,
+            0.9261939218523878
+          ],
+          "content": "\\sum_ {\\nu = 0} ^ {l - 1} \\max (0, \\theta - \\nu / r _ {p}) = \\sum_ {\\nu = 0} ^ {l - 1} (\\theta - \\nu / r _ {p}) \\geqslant \\frac {1}{2} l \\theta .",
+          "image_source": "images/page_10_equation_19.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2782608695652174,
+            0.06512301013024602,
+            0.7195652173913043,
+            0.08104196816208394
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8434782608695652,
+            0.06367583212735166,
+            0.8717391304347826,
+            0.07814761215629522
+          ],
+          "content": "11"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.09985528219971057,
+            0.19782608695652174,
+            0.11577424023154848
+          ],
+          "content": "Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33260869565217394,
+            0.09985528219971057,
+            0.6717391304347826,
+            0.11866859623733719
+          ],
+          "content": "\\text { index } F \\geqslant \\min \\left(\\frac {1}{2} l \\theta , \\frac {1}{3} r _ {p} \\theta^ {2}\\right) - l \\delta .\\tag{18}",
+          "image_source": "images/page_11_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.12735166425470332,
+            0.6891304347826087,
+            0.14616497829232997
+          ],
+          "content": "Combining the inequalities (17) and (18), we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3652173913043478,
+            0.1548480463096961,
+            0.6369565217391304,
+            0.1736613603473227
+          ],
+          "content": "\\min \\left(\\frac {1}{2} l \\theta , \\frac {1}{3} r _ {p} \\theta^ {2}\\right) \\leqslant l (\\Phi + \\delta).",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.18234442836468887,
+            0.8695652173913043,
+            0.20260492040520983
+          ],
+          "content": "Hence either $\\theta \\leqslant 2(\\Phi +\\delta)$, in which case $\\theta$ satisfies the desired inequality, or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3282608695652174,
+            0.21128798842257598,
+            0.6630434782608695,
+            0.23299565846599132
+          ],
+          "content": "\\frac {1}{3} r _ {p} \\theta^ {2} \\leqslant l (\\Phi + \\delta) \\leqslant (r _ {p} + 1) (\\Phi + \\delta).",
+          "image_source": "images/page_11_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.23878437047756873,
+            0.5782608695652174,
+            0.2590448625180897
+          ],
+          "content": "Since $r_p + 1 < \\frac{4}{3} r_p$ by (12), the latter implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.2662807525325615,
+            0.658695652173913,
+            0.2865412445730825
+          ],
+          "content": "\\theta <   2 (\\Phi + \\delta) ^ {1 / 2} \\leqslant 2 (\\Phi^ {1 / 2} + \\delta^ {1 / 2}).",
+          "image_source": "images/page_11_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2937771345875543,
+            0.5152173913043478,
+            0.3125904486251809
+          ],
+          "content": "This completes the proof of Lemma 6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.33285094066570187,
+            0.8717391304347826,
+            0.3878437047756874
+          ],
+          "content": "We next deduce an explicit result, in a form suitable for use later, by giving B a particular value and imposing further restrictions on the q's and r's."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1565217391304348,
+            0.40086830680173663,
+            0.7152173913043478,
+            0.4196816208393632
+          ],
+          "content": "LEMMA 7. Let m be a positive integer and let δ satisfy"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4282608695652174,
+            0.4283646888567294,
+            0.5652173913043478,
+            0.44573082489146165
+          ],
+          "content": "0 <   \\delta <   m ^ {- 1}.\\tag{19}",
+          "image_source": "images/page_11_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.4558610709117221,
+            0.5608695652173913,
+            0.4761215629522431
+          ],
+          "content": "Let $r_1, \\ldots, r_m$ be positive integers satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28043478260869564,
+            0.48480463096960924,
+            0.7152173913043478,
+            0.5036179450072359
+          ],
+          "content": "r _ {m} > 1 0 \\delta^ {- 1}, \\quad r _ {j - 1} / r _ {j} > \\delta^ {- 1} f o r j = 2, \\dots , m.\\tag{20}",
+          "image_source": "images/page_11_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.5137481910274964,
+            0.5695652173913044,
+            0.5340086830680174
+          ],
+          "content": "Let $q_{1}, \\ldots, q_{m}$ be positive integers satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4043478260869565,
+            0.5412445730824892,
+            0.6347826086956522,
+            0.5615050651230101
+          ],
+          "content": "\\log q _ {1} > \\delta^ {- 1} m (2 m + 1),\\tag{21}",
+          "image_source": "images/page_11_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3173913043478261,
+            0.5687409551374819,
+            0.6760869565217391,
+            0.5890014471780028
+          ],
+          "content": "r _ {j} \\log q _ {j} \\geqslant r _ {1} \\log q _ {1} f o r j = 2, \\dots , m.\\tag{22}",
+          "image_source": "images/page_11_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.597684515195369,
+            0.18478260869565216,
+            0.6150506512301013
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27608695652173915,
+            0.597684515195369,
+            0.7108695652173913,
+            0.61794500723589
+          ],
+          "content": "\\Theta_ {m} (q _ {1} ^ {\\delta r _ {1}}; q _ {1}, \\dots , q _ {m}; r _ {1}, \\dots , r _ {m}) <   1 0 ^ {m} \\delta^ {(1 / 2) ^ {m}}.\\tag{23}",
+          "image_source": "images/page_11_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.6266280752532561,
+            0.8739130434782608,
+            0.6657018813314037
+          ],
+          "content": "Proof. We establish Lemma 7 by induction on $m$. If $m = 1$, Lemma 5 gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29782608695652174,
+            0.662807525325615,
+            0.7021739130434783,
+            0.7004341534008683
+          ],
+          "content": "\\Theta_ {1} \\left(q _ {1} ^ {\\delta r _ {1}}; q _ {1}; r _ {1}\\right) \\leqslant \\frac {\\delta r _ {1} \\log q _ {1}}{r _ {1} \\log q _ {1}} = \\delta \\leqslant 1 0 \\delta^ {1 / 2},",
+          "image_source": "images/page_11_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7076700434153401,
+            0.7804347826086957,
+            0.7264833574529667
+          ],
+          "content": "and we obtain (23) without using the hypotheses (20) and (21)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7264833574529667,
+            0.8760869565217392,
+            0.8205499276410999
+          ],
+          "content": "Now suppose that $p \\geqslant 2$ is an integer, and that Lemma 7 is valid when $m = p - 1$. We proceed to prove Lemma 7 when $m = p$. The hypotheses of Lemma 7 when $m = p$ are more stringent than those of Lemma 6, hence Lemma 6 is applicable. We now estimate first $M$ in (16) and then $\\Phi$ in (15)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.8219971056439942,
+            0.2608695652173913,
+            0.8379160636758322
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2717391304347826,
+            0.8480463096960926,
+            0.7282608695652174,
+            0.874095513748191
+          ],
+          "content": "M = (r _ {1} + 1) ^ {p l} l!   2 ^ {p l r _ {1}} q _ {1} ^ {\\delta l r _ {1}} \\leqslant \\left((r _ {1} + 1) ^ {p}   l   2 ^ {p r _ {1}} q _ {1} ^ {\\delta r _ {1}}\\right) ^ {l}.",
+          "image_source": "images/page_11_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.8827785817655571,
+            0.5065217391304347,
+            0.9015918958031838
+          ],
+          "content": "Now $l \\leqslant r_{p} + 1 < r_{1} + 1 \\leqslant 2r_{1}$. Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33260869565217394,
+            0.9117221418234442,
+            0.6782608695652174,
+            0.9319826338639653
+          ],
+          "content": "M <   (2 ^ {(2 p + 1) r _ {1}} q _ {1} ^ {\\delta r _ {1}}) ^ {l} <   (e ^ {(2 p + 1) r _ {1}} q _ {1} ^ {\\delta r _ {1}}) ^ {l}.",
+          "image_source": "images/page_11_equation_26.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13260869565217392,
+            0.06367583212735166,
+            0.16304347826086957,
+            0.07959479015918958
+          ],
+          "content": "12"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.44130434782608696,
+            0.06367583212735166,
+            0.5760869565217391,
+            0.08104196816208394
+          ],
+          "content": "K. F. Roth"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.09840810419681621,
+            0.7130434782608696,
+            0.11866859623733719
+          ],
+          "content": "By (21) with $m = p$, we have $2p + 1 < \\delta p^{-1} \\log q_1$, whence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4391304347826087,
+            0.12590448625180897,
+            0.5565217391304348,
+            0.14616497829232997
+          ],
+          "content": "M <   q _ {1} ^ {\\delta_ {1} l r _ {1}},",
+          "image_source": "images/page_12_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.15340086830680175,
+            0.19130434782608696,
+            0.170767004341534
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41956521739130437,
+            0.15340086830680175,
+            0.5760869565217391,
+            0.1736613603473227
+          ],
+          "content": "\\delta_ {1} = \\delta (1 + p ^ {- 1}).\\tag{24}",
+          "image_source": "images/page_12_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.1808972503617945,
+            0.1826086956521739,
+            0.19681620839363242
+          ],
+          "content": "Thus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31521739130434784,
+            0.1808972503617945,
+            0.6782608695652174,
+            0.2011577424023155
+          ],
+          "content": "\\Theta_ {1} (M; q _ {p}; l r _ {p}) \\leqslant \\Theta_ {1} (q _ {1} ^ {\\delta_ {1} l r _ {1}}; q _ {p}; l r _ {p})\\tag{25}",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.20694645441389292,
+            0.17173913043478262,
+            0.22286541244573083
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1673913043478261,
+            0.23299565846599132,
+            0.808695652173913,
+            0.28075253256150506
+          ],
+          "content": "\\begin{array}{r l} \\Theta_ {p - 1} (M; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1}) \\\\ & \\leqslant \\Theta_ {p - 1} (q _ {1} ^ {\\delta_ {1} l r _ {1}}; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1}). \\end{array}\\tag{26}",
+          "image_source": "images/page_12_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.28798842257597684,
+            0.7326086956521739,
+            0.3068017366136035
+          ],
+          "content": "By Lemma 5, the right-hand side of (25) does not exceed"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3521739130434783,
+            0.3140376266280753,
+            0.6478260869565218,
+            0.3545586107091172
+          ],
+          "content": "\\frac {\\log \\left(q _ {1} ^ {\\delta_ {1} l r _ {1}}\\right)}{l r _ {p} \\log q _ {p}} \\leqslant \\frac {\\delta_ {1} l r _ {1} \\log q _ {1}}{l r _ {1} \\log q _ {1}} = \\delta_ {1},",
+          "image_source": "images/page_12_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.34876989869753977,
+            0.29347826086956524,
+            0.3661360347322721
+          ],
+          "content": "in view of (22)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.3675832127351664,
+            0.8695652173913043,
+            0.4630969609261939
+          ],
+          "content": "To estimate the right-hand side of (26) we use the inductive hypothesis of the present proof, namely that Lemma 7 holds when m=p-1. The conditions of Lemma 7 for m=p-1 are satisfied when we replace  $\\delta$  by  $\\delta_{1}$  and  $r_{1},\\ldots,r_{p-1}$  by  $lr_{1},\\ldots,lr_{p-1}$ ; since  $\\delta_{1}>\\delta$  this is immediate for all but (19). To verify the analogue of (19) we have to show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42391304347826086,
+            0.467438494934877,
+            0.5717391304347826,
+            0.487698986975398
+          ],
+          "content": "\\delta_ {1} <   (p - 1) ^ {- 1},",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.49493487698986977,
+            0.8673913043478261,
+            0.5296671490593343
+          ],
+          "content": "and this follows from (24) and the fact that $\\delta < p^{-1}$ by (19) with $m = p$. It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22608695652173913,
+            0.5383502170767004,
+            0.7652173913043478,
+            0.5586107091172214
+          ],
+          "content": "\\Theta_ {p - 1} (q _ {1} ^ {\\delta_ {1} l r _ {1}}; q _ {1}, \\dots , q _ {p - 1}; l r _ {1}, \\dots , l r _ {p - 1}) <   1 0 ^ {p - 1} \\delta_ {1} ^ {(1 / 2) ^ {p - 1}}.",
+          "image_source": "images/page_12_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.5629522431259045,
+            0.7108695652173913,
+            0.5832127351664255
+          ],
+          "content": "Since $\\delta_1 < 2\\delta$, the two results just proved imply that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2826086956521739,
+            0.5875542691751086,
+            0.7130434782608696,
+            0.6078147612156295
+          ],
+          "content": "\\Phi <   2 \\delta + 2 (1 0 ^ {p - 1} \\delta^ {(1 / 2) ^ {p - 1}}) <   3 (1 0 ^ {p - 1} \\delta^ {(1 / 2) ^ {p - 1}}).",
+          "image_source": "images/page_12_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.613603473227207,
+            0.2891304347826087,
+            0.6324167872648335
+          ],
+          "content": "Now (13) gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.12608695652173912,
+            0.638205499276411,
+            0.8717391304347826,
+            0.7308248914616498
+          ],
+          "content": "\\begin{array}{r l} \\Theta_ {p} (q _ {1} ^ {\\delta r _ {1}}; q _ {1}, \\dots , q _ {p}; r _ {1}, \\dots , r _ {p}) & <   2 \\left(3 (1 0 ^ {p - 1} \\delta^ {(1 / 2) ^ {p - 1}}) + 3 ^ {1 / 2} 1 0 ^ {(p - 1) / 2} \\delta^ {(1 / 2) ^ {p}} + \\delta^ {1 / 2}\\right) \\\\ & <   2 \\left(\\frac {3}{1 0} + \\frac {3 ^ {1 / 2}}{1 0 ^ {3 / 2}} + \\frac {1}{1 0 ^ {2}}\\right) 1 0 ^ {p} \\delta^ {(1 / 2)} \\\\ & <   1 0 ^ {p} \\delta^ {(1 / 2) ^ {p}}. \\end{array}",
+          "image_source": "images/page_12_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7409551374819102,
+            0.6021739130434782,
+            0.7597684515195369
+          ],
+          "content": "Thus Lemma 7 holds when $m = p$, as asserted."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7771345875542692,
+            0.8717391304347826,
+            0.8162083936324168
+          ],
+          "content": "6. The next lemma is independent of any hypotheses concerning the positive integers  $r_{1}, \\ldots, r_{m}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8219971056439942,
+            0.8717391304347826,
+            0.8596237337192475
+          ],
+          "content": "LEMMA 8. If $r_1, \\ldots, r_m$ are any positive integers, and $\\lambda > 0$, then the number of sets of integers $j_1, \\ldots, j_m$ which satisfy the inequalities"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22391304347826088,
+            0.8654124457308249,
+            0.7695652173913043,
+            0.9276410998552822
+          ],
+          "content": "\\begin{array}{l} 0 \\leqslant j _ {1} \\leqslant r _ {1}, \\dots , 0 \\leqslant j _ {m} \\leqslant r _ {m}, \\quad \\frac {j _ {1}}{r _ {1}} + \\dots + \\frac {j _ {m}}{r _ {m}} \\leqslant \\frac {1}{2} (m - \\lambda) \\\\ x c e e d \\quad 2 m ^ {1 / 2} \\lambda^ {- 1} (r _ {1} + 1) \\dots (r _ {m} + 1). \\end{array}",
+          "image_source": "images/page_12_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.9073806078147613,
+            0.27608695652173915,
+            0.9261939218523878
+          ],
+          "content": "does not exceed"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.27391304347826084,
+            0.06367583212735166,
+            0.7195652173913043,
+            0.07959479015918958
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8478260869565217,
+            0.06367583212735166,
+            0.8739130434782608,
+            0.07959479015918958
+          ],
+          "content": "13"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.10130246020260492,
+            0.8695652173913043,
+            0.1389290882778582
+          ],
+          "content": "Proof. The result holds when $m = 1$, for the number of integers $j_1$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3565217391304348,
+            0.13603473227206947,
+            0.6391304347826087,
+            0.15629522431259044
+          ],
+          "content": "0 \\leqslant j _ {1} \\leqslant r _ {1}, \\quad j _ {1} \\leqslant \\frac {1}{2} (1 - \\lambda) r _ {1}",
+          "image_source": "images/page_13_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.16353111432706222,
+            0.4652173913043478,
+            0.1808972503617945
+          ],
+          "content": "is at most $r_1 + 1$ and is 0 if $\\lambda > 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.18234442836468887,
+            0.8717391304347826,
+            0.2590448625180897
+          ],
+          "content": "We suppose m > 1 and prove the result by induction on m. The result is trivial if  $\\lambda \\leqslant 2m^{1/2}$ , so we can suppose  $\\lambda > 2m^{1/2}$ . For a particular value of  $j_{m}$ , the conditions on  $j_{1}, \\ldots, j_{m-1}$  are of the same general nature as before but with m - 1 in place of m and with  $\\lambda$  replaced by  $\\lambda'$ , where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3391304347826087,
+            0.2662807525325615,
+            0.6565217391304348,
+            0.2865412445730825
+          ],
+          "content": "\\frac {1}{2} (m - 1 - \\lambda^ {\\prime}) = \\frac {1}{2} (m - \\lambda) - j _ {m} / r _ {m},",
+          "image_source": "images/page_13_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2952243125904486,
+            0.20217391304347826,
+            0.3125904486251809
+          ],
+          "content": "that is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.2937771345875543,
+            0.5934782608695652,
+            0.3140376266280753
+          ],
+          "content": "\\lambda^ {\\prime} = \\lambda - 1 + 2 j _ {m} / r _ {m}.",
+          "image_source": "images/page_13_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.32127351664254705,
+            0.8695652173913043,
+            0.38060781476121563
+          ],
+          "content": "We note that $\\lambda' > 0$ for $0 \\leqslant j_m \\leqslant r_m$, since $\\lambda > 2m^{1/2} > 1$. By the hypothesis of the induction, the number of solutions of the original inequalities in $j_1, \\ldots, j_m$ does not exceed"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23695652173913043,
+            0.3878437047756874,
+            0.7543478260869565,
+            0.426917510853835
+          ],
+          "content": "\\sum_ {j _ {m} = 0} ^ {r _ {m}} 2 (m - 1) ^ {1 / 2} (\\lambda - 1 + 2 j _ {m} / r _ {m}) ^ {- 1} (r _ {1} + 1) \\dots (r _ {m - 1} + 1).",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.43270622286541244,
+            0.43478260869565216,
+            0.45296671490593343
+          ],
+          "content": "Hence it suffices to prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2717391304347826,
+            0.46164978292329956,
+            0.717391304347826,
+            0.4992764109985528
+          ],
+          "content": "\\sum_ {j = 0} ^ {r} (\\lambda - 1 + 2 j / r) ^ {- 1} <   \\lambda^ {- 1} (m - 1) ^ {- 1 / 2} m ^ {1 / 2} (r + 1)",
+          "image_source": "images/page_13_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5065123010130246,
+            0.6413043478260869,
+            0.5253256150506512
+          ],
+          "content": "for any positive integers r and m, when  $\\lambda > 2m^{1/2}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.5253256150506512,
+            0.8021739130434783,
+            0.5455861070911722
+          ],
+          "content": "If we suppose $r$ even, and replace $j$ by $\\frac{1}{2} r + k$, the sum becomes"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2565217391304348,
+            0.5513748191027497,
+            0.7108695652173913,
+            0.662807525325615
+          ],
+          "content": "\\begin{array}{r l} \\sum_ {k = - r / 2} ^ {r / 2} (\\lambda + 2 k / r) ^ {- 1} & = \\lambda^ {- 1} + \\sum_ {k = 1} ^ {r / 2} 2 \\lambda (\\lambda^ {2} - 4 k ^ {2} / r ^ {2}) ^ {- 1} \\\\ & \\leqslant \\lambda^ {- 1} + \\sum_ {k = 1} ^ {r / 2} 2 \\lambda (\\lambda^ {2} - 1) ^ {- 1} \\\\ & \\leqslant (r + 1) \\lambda^ {- 1} (1 - \\lambda^ {- 2}) ^ {- 1}. \\end{array}",
+          "image_source": "images/page_13_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6714905933429812,
+            0.8717391304347826,
+            0.7120115774240231
+          ],
+          "content": "Now $1 - \\lambda^{-2} > 1 - \\frac{1}{4} m^{-1} > (1 - m^{-1})^{1/2}$, whence the result. A similar but slightly simpler argument applies if $r$ is odd†."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7279305354558611,
+            0.8739130434782608,
+            0.804630969609262
+          ],
+          "content": "7. Let $\\alpha$ be a real algebraic number, not rational, and suppose that the inequality (1) is satisfied by infinitely many pairs of integers $h$, $q$ with $q > 0$. We can suppose that $\\alpha$ is an algebraic integer; for if not there is a rational integer $M$ such that $M\\alpha$ is an algebraic integer, and the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41304347826086957,
+            0.8118668596237337,
+            0.5847826086956521,
+            0.8509406657018813
+          ],
+          "content": "\\left| M \\alpha - \\frac {h ^ {\\prime}}{q} \\right| <   \\frac {M}{q ^ {\\kappa}}",
+          "image_source": "images/page_13_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.8581765557163531,
+            0.8739130434782608,
+            0.8798842257597684
+          ],
+          "content": "is satisfied by infinitely many pairs of integers  $h'$ , q. Hence  $M\\alpha$  has the"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.12608695652173912,
+            0.06657018813314038,
+            0.1565217391304348,
+            0.08104196816208394
+          ],
+          "content": "14"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4326086956521739,
+            0.06512301013024602,
+            0.5673913043478261,
+            0.0824891461649783
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.2956521739130435,
+            0.914616497829233,
+            0.31956521739130433,
+            0.9305354558610709
+          ],
+          "content": "§8"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.18695652173913044,
+            0.9160636758321273,
+            0.26956521739130435,
+            0.9305354558610709
+          ],
+          "content": "$r_{1},\\ldots ,r_{m}$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.12391304347826088,
+            0.8986975397973951,
+            0.8739130434782608,
+            0.9319826338639653
+          ],
+          "content": "† The case of even $r$ would in fact suffice for the application later, since we could choose $r_1, \\ldots, r_m$ in §8 so as to be even,"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.09840810419681621,
+            0.8739130434782608,
+            0.1345875542691751
+          ],
+          "content": "same property as $\\alpha$ provided that in (1) we replace $\\kappa$ by any smaller number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1565217391304348,
+            0.13603473227206947,
+            0.6891304347826087,
+            0.1548480463096961
+          ],
+          "content": "If $\\alpha$ is an algebraic integer, there is some polynomial"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35434782608695653,
+            0.16353111432706222,
+            0.6369565217391304,
+            0.18234442836468887
+          ],
+          "content": "f (x) = x ^ {n} + a _ {1} x ^ {n - 1} + \\dots + a _ {n},\\tag{27}",
+          "image_source": "images/page_14_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.191027496382055,
+            0.8695652173913043,
+            0.22575976845151954
+          ],
+          "content": "with integral coefficients and highest coefficient 1, such that $f(\\alpha) = 0$. Put"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3521739130434783,
+            0.22575976845151954,
+            0.6391304347826087,
+            0.24457308248914617
+          ],
+          "content": "A = \\max (1, | a _ {1} |, \\dots , | a _ {n} |).\\tag{28}",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.25180897250361794,
+            0.8717391304347826,
+            0.32706222865412443
+          ],
+          "content": "In the remainder of the paper we shall be concerned with only one set of values of $m, \\delta, q_1, h_1, \\ldots, q_m, h_m, r_1, \\ldots, r_m$, which will be chosen later in the order just indicated. The choice will be so made as to satisfy the following conditions:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4260869565217391,
+            0.3256150506512301,
+            0.5608695652173913,
+            0.3429811866859624
+          ],
+          "content": "0 <   \\delta <   m ^ {- 1},\\tag{29}",
+          "image_source": "images/page_14_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3282608695652174,
+            0.3516642547033285,
+            0.6565217391304348,
+            0.3719247467438495
+          ],
+          "content": "1 0 ^ {m} \\delta^ {(1 / 2) ^ {m}} + 2 (1 + 3 \\delta) n m ^ {1 / 2} <   \\frac {1}{2} m,\\tag{30}",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28695652173913044,
+            0.38060781476121563,
+            0.7217391304347827,
+            0.40086830680173663
+          ],
+          "content": "r _ {m} > 1 0 \\delta^ {- 1}, \\quad r _ {j - 1} / r _ {j} > \\delta^ {- 1} \\text {   for   } j = 2, \\dots , m,\\tag{31}",
+          "image_source": "images/page_14_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23478260869565218,
+            0.4081041968162084,
+            0.7478260869565218,
+            0.4283646888567294
+          ],
+          "content": "\\delta^ {2} \\log q _ {1} > 2 m + 1 + 2 m \\log (1 + A) + 2 m \\log (1 + | \\alpha |),\\tag{32}",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3978260869565217,
+            0.4370477568740955,
+            0.5869565217391305,
+            0.4573082489146165
+          ],
+          "content": "r _ {j} \\log q _ {j} \\geqslant r _ {1} \\log q _ {1}.\\tag{33}",
+          "image_source": "images/page_14_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11739130434782609,
+            0.4645441389290883,
+            0.8608695652173913,
+            0.5021707670043415
+          ],
+          "content": "We note that these conditions imply those of Lemma 7, since (29) and (32) imply $\\delta \\log q_{1} > m(2m + 1)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.5036179450072359,
+            0.3717391304347826,
+            0.5209840810419681
+          ],
+          "content": "Define $\\lambda, \\gamma, \\eta, B_1$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39565217391304347,
+            0.5267727930535456,
+            0.5869565217391305,
+            0.5455861070911722
+          ],
+          "content": "\\lambda = 4 (1 + 3 \\delta) n m ^ {1 / 2},\\tag{34}",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39565217391304347,
+            0.5542691751085383,
+            0.532608695652174,
+            0.5745296671490593
+          ],
+          "content": "\\gamma = \\frac {1}{2} (m - \\lambda),\\tag{35}",
+          "image_source": "images/page_14_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39565217391304347,
+            0.5817655571635311,
+            0.5413043478260869,
+            0.6020260492040521
+          ],
+          "content": "\\eta = 1 0 ^ {m} \\delta^ {(1 / 2) ^ {m}},\\tag{36}",
+          "image_source": "images/page_14_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3869565217391304,
+            0.6092619392185239,
+            0.5021739130434782,
+            0.6309696092619392
+          ],
+          "content": "B _ {1} = \\left[ q _ {1} ^ {\\delta r _ {1}} \\right].\\tag{37}",
+          "image_source": "images/page_14_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.6367583212735166,
+            0.46956521739130436,
+            0.6555716353111433
+          ],
+          "content": "We note that (30) is equivalent to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45869565217391306,
+            0.6671490593342981,
+            0.5239130434782608,
+            0.683068017366136
+          ],
+          "content": "\\eta <   \\gamma .\\tag{38}",
+          "image_source": "images/page_14_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.6917510853835022,
+            0.8630434782608696,
+            0.7293777134587555
+          ],
+          "content": "We note also that $B_{1}$ is necessarily large, since $r_{1} > 10$ and $q_{1}^{\\delta^{3}} > e^{2m + 1} \\geqslant e^{3}$. Thus, in particular, $q_{1}^{\\frac{1}{\\delta}\\delta r_{1}} < B_{1}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.7308248914616498,
+            0.8652173913043478,
+            0.7655571635311144
+          ],
+          "content": "We now come to the main lemma, which is the only lemma to which reference will be made in the final proof of the theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11739130434782609,
+            0.7756874095513748,
+            0.8673913043478261,
+            0.8509406657018813
+          ],
+          "content": "LEMMA 9. Suppose the conditions (29)-(33) are satisfied, and suppose that $h_1, \\ldots, h_m$ are integers relatively prime to $q_1, \\ldots, q_m$ respectively. Then there exists a polynomial $Q(x_1, \\ldots, x_m)$ with integral coefficients, of degree at most $r_j$ in $x_j$ for $j = 1, \\ldots, m$, such that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.8596237337192475,
+            0.8652173913043478,
+            0.8986975397973951
+          ],
+          "content": "(i) the index of $Q$ at the point $(\\alpha, \\ldots, \\alpha)$ relative to $r_1, \\ldots, r_m$ is at least $\\gamma - \\eta$;"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1608695652173913,
+            0.9044862518089725,
+            0.4434782608695652,
+            0.9247467438494935
+          ],
+          "content": "\\text { (ii) } Q (h _ {1} / q _ {1}, \\dots , h _ {m} / q _ {m}) \\neq 0;",
+          "image_source": "images/page_14_equation_23.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2782608695652174,
+            0.06367583212735166,
+            0.7195652173913043,
+            0.07959479015918958
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8478260869565217,
+            0.06367583212735166,
+            0.8739130434782608,
+            0.07814761215629522
+          ],
+          "content": "15"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1608695652173913,
+            0.09840810419681621,
+            0.38913043478260867,
+            0.11577424023154848
+          ],
+          "content": "(iii) for all derivatives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24565217391304348,
+            0.12590448625180897,
+            0.75,
+            0.16353111432706222
+          ],
+          "content": "Q _ {i _ {1}, \\dots , i _ {m}} (x _ {1}, \\dots , x _ {m}) = \\frac {1}{i _ {1} ! \\dots i _ {m} !} \\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {i _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {m}}\\right) ^ {i _ {m}} Q,",
+          "image_source": "images/page_15_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.170767004341534,
+            0.6673913043478261,
+            0.18958031837916064
+          ],
+          "content": "where $i_1, \\ldots, i_m$ are any non-negative integers, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36086956521739133,
+            0.19681620839363242,
+            0.6347826086956522,
+            0.2199710564399421
+          ],
+          "content": "\\left| Q _ {i _ {1}, \\dots , i _ {m}} (\\alpha , \\dots , \\alpha) \\right| <   B _ {1} ^ {1 + 3 \\delta}.\\tag{39}",
+          "image_source": "images/page_15_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15869565217391304,
+            0.22575976845151954,
+            0.8043478260869565,
+            0.24746743849493488
+          ],
+          "content": "Proof. We consider all polynomials $W(x_{1},\\ldots ,x_{m})$ of the form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2543478260869565,
+            0.25615050651230103,
+            0.7391304347826086,
+            0.2952243125904486
+          ],
+          "content": "W (x _ {1}, \\dots , x _ {m}) = \\sum_ {s _ {1} = 0} ^ {r _ {1}} \\dots \\sum_ {s _ {m} = 0} ^ {r _ {m}} c (s _ {1}, \\dots , s _ {m}) x _ {1} ^ {s _ {1}} \\dots x _ {m} ^ {s _ {m}},\\tag{40}",
+          "image_source": "images/page_15_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.3024602026049204,
+            0.8717391304347826,
+            0.34008683068017365
+          ],
+          "content": "where the coefficients  $c(s_{1}, \\ldots, s_{m})$  assume independently all integral values satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3847826086956522,
+            0.33719247467438496,
+            0.6108695652173913,
+            0.35745296671490595
+          ],
+          "content": "0 \\leqslant c (s _ {1}, \\dots , s _ {m}) \\leqslant B _ {1}.\\tag{41}",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.36324167872648333,
+            0.532608695652174,
+            0.38205499276411
+          ],
+          "content": "The number of such polynomials $W$ is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42391304347826086,
+            0.3907380607814761,
+            0.5717391304347826,
+            0.4109985528219971
+          ],
+          "content": "N = (B _ {1} + 1) ^ {r},\\tag{42}",
+          "image_source": "images/page_15_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4182344428364689,
+            0.4043478260869565,
+            0.4356005788712012
+          ],
+          "content": "where for brevity we write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3847826086956522,
+            0.447178002894356,
+            0.6086956521739131,
+            0.46599131693198265
+          ],
+          "content": "r = (r _ {1} + 1) \\dots (r _ {m} + 1).\\tag{43}",
+          "image_source": "images/page_15_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.4732272069464544,
+            0.7369565217391304,
+            0.492040520984081
+          ],
+          "content": "For each such polynomial W we consider the derivatives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24347826086956523,
+            0.5007235890014472,
+            0.7521739130434782,
+            0.5397973950795948
+          ],
+          "content": "W _ {j _ {1}, \\dots , j _ {m}} (x _ {1}, \\dots , x _ {m}) = \\frac {1}{j _ {1} ! \\dots j _ {m} !} \\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {j _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {m}}\\right) ^ {j _ {m}} W",
+          "image_source": "images/page_15_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5455861070911722,
+            0.4717391304347826,
+            0.5658465991316932
+          ],
+          "content": "for all integers $j_{1},\\ldots ,j_{m}$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2543478260869565,
+            0.5658465991316932,
+            0.7326086956521739,
+            0.6034732272069464
+          ],
+          "content": "0 \\leqslant j _ {1} \\leqslant r _ {1}, \\dots , 0 \\leqslant j _ {\\bar {m}} \\leqslant r _ {m}, \\quad \\frac {j _ {1}}{r _ {1}} + \\dots + \\frac {j _ {m}}{r _ {m}} \\leqslant \\gamma .\\tag{44}",
+          "image_source": "images/page_15_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6107091172214182,
+            0.7739130434782608,
+            0.6309696092619392
+          ],
+          "content": "By Lemma 8 and (35), the number D of such derivatives satisfies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4260869565217391,
+            0.638205499276411,
+            0.5869565217391305,
+            0.6570188133140377
+          ],
+          "content": "D \\leqslant 2 m ^ {1 / 2} \\lambda^ {- 1} r,\\tag{45}",
+          "image_source": "images/page_15_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6657018813314037,
+            0.3782608695652174,
+            0.6859623733719248
+          ],
+          "content": "where $r$ is given by (43)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.6859623733719248,
+            0.6717391304347826,
+            0.7047756874095513
+          ],
+          "content": "For each such derivative we form the polynomial"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40869565217391307,
+            0.7120115774240231,
+            0.5869565217391305,
+            0.7337192474674384
+          ],
+          "content": "W _ {j _ {1}, \\dots , j _ {m}} (x, \\dots , x)",
+          "image_source": "images/page_15_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.7424023154848046,
+            0.8673913043478261,
+            0.7785817655571635
+          ],
+          "content": "in a single variable x, and divide this polynomial by  $f(x)$ , denoting the remainder by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41739130434782606,
+            0.7756874095513748,
+            0.5782608695652174,
+            0.7988422575976846
+          ],
+          "content": "T _ {j _ {1}, \\dots , j _ {m}} (W; x).",
+          "image_source": "images/page_15_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.804630969609262,
+            0.8673913043478261,
+            0.8422575976845152
+          ],
+          "content": "This remainder is a polynomial in x with integral coefficients, of degree n-1 at most."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.8437047756874095,
+            0.8695652173913043,
+            0.9030390738060782
+          ],
+          "content": "We proceed to obtain an estimate for the magnitude of the coefficients in any such remainder. The coefficients in each derived polynomial  $W_{j_{1},\\ldots,j_{m}}(x_{1},\\ldots,x_{m})$  have absolute values not exceeding"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34782608695652173,
+            0.9073806078147613,
+            0.6478260869565218,
+            0.9276410998552822
+          ],
+          "content": "2 ^ {r _ {1} + \\dots + r _ {m}} B _ {1} \\leqslant 2 ^ {m r _ {1}} B _ {1} <   B _ {1} ^ {1 + \\delta},",
+          "image_source": "images/page_15_equation_25.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1282608695652174,
+            0.06367583212735166,
+            0.15869565217391304,
+            0.07814761215629522
+          ],
+          "content": "16"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4369565217391304,
+            0.06222865412445731,
+            0.5717391304347826,
+            0.07959479015918958
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.09840810419681621,
+            0.8717391304347826,
+            0.17510853835021709
+          ],
+          "content": "since $mr_1 \\log 2 < \\frac{1}{2}\\delta^2 r_1 \\log q_1$ by (32). When $x_1, \\ldots, x_m$ are all replaced by $x$, some of the terms in the polynomial may coalesce; since the total number of terms is at most $r$, the coefficients in $W_{j_1, \\ldots, j_m}(x, \\ldots, x)$ have absolute values less than $rB_1^{1+\\delta}$. Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2608695652173913,
+            0.18234442836468887,
+            0.7304347826086957,
+            0.20260492040520983
+          ],
+          "content": "r = \\left(r _ {1} + 1\\right) \\dots \\left(r _ {m} + 1\\right) \\leqslant 2 ^ {r _ {1} + \\dots + r _ {m}} \\leqslant 2 ^ {m r _ {1}} <   B _ {1} ^ {\\delta},",
+          "image_source": "images/page_16_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.2098408104196816,
+            0.8695652173913043,
+            0.24891461649782923
+          ],
+          "content": "so that  $rB_{1}^{1+\\delta}<B_{1}^{1+2\\delta}$ . It remains to consider the operation of dividing this polynomial, say"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3695652173913043,
+            0.2460202604920405,
+            0.6239130434782608,
+            0.26483357452966716
+          ],
+          "content": "w _ {s} x ^ {s} + w _ {s - 1} x ^ {s - 1} + \\dots + w _ {0},",
+          "image_source": "images/page_16_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.27206946454413894,
+            0.8717391304347826,
+            0.40665701881331406
+          ],
+          "content": "by $f(x)$, given in (27). The first operation (supposing $s \\geqslant n$) is to subtract $w_s x^{s - n} f(x)$; and this gives a new polynomial whose coefficients are either of the form $w_v - a_{s - v} w_s$ or of the form $w_v$. Hence the coefficients of the new polynomial have absolute values less than $(1 + A) B_1^{1 + 2^5}$, with $A$ as in (28). The same consideration applies to the subsequent operations in the division process, and leads to the conclusion that the coefficients in the remainders $T_{j_1, \\ldots, j_m}(W; x)$ have absolute values less than"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4152173913043478,
+            0.41244573082489144,
+            0.6,
+            0.43270622286541244
+          ],
+          "content": "(1 + A) ^ {s - n + 1} B _ {1} ^ {1 + 2 \\delta}.",
+          "image_source": "images/page_16_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4399421128798842,
+            0.5673913043478261,
+            0.4602026049204052
+          ],
+          "content": "Since $s \\leqslant r_1 + \\ldots + r_m \\leqslant mr_1$, this is less than"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3782608695652174,
+            0.46599131693198265,
+            0.6173913043478261,
+            0.487698986975398
+          ],
+          "content": "(1 + A) ^ {m r _ {1}} B _ {1} ^ {1 + 2 \\delta} <   B _ {1} ^ {1 + 3 \\delta}",
+          "image_source": "images/page_16_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.4833574529667149,
+            0.21304347826086956,
+            0.5021707670043415
+          ],
+          "content": "by (32)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5007235890014472,
+            0.8695652173913043,
+            0.5397973950795948
+          ],
+          "content": "In view of this estimate for the coefficients in each remainder T, the number of distinct sets of D remainders that can arise is less than"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41956521739130437,
+            0.548480463096961,
+            0.5695652173913044,
+            0.5687409551374819
+          ],
+          "content": "(1 + 2 B _ {1} ^ {1 + 3 \\delta}) ^ {n D}.",
+          "image_source": "images/page_16_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.5759768451519537,
+            0.5978260869565217,
+            0.5947901591895803
+          ],
+          "content": "By (45) and the definition of $\\lambda$ in (34), we have"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6280752532561505,
+            0.20434782608695654,
+            0.6468885672937771
+          ],
+          "content": "whence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.6020260492040521,
+            0.7,
+            0.6483357452966715
+          ],
+          "content": "\\begin{array}{l} (1 + 3 \\delta) n D \\leqslant 2 (1 + 3 \\delta) n m ^ {1 / 2} \\lambda^ {- 1} r = \\frac {1}{2} r, \\\\ (1 + 2 B _ {1} ^ {1 + 3 \\delta}) ^ {n D} <   (2 + 2 B _ {1}) ^ {r / 2} <   (1 + B _ {1}) ^ {r}. \\end{array}",
+          "image_source": "images/page_16_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.6555716353111433,
+            0.8717391304347826,
+            0.7308248914616498
+          ],
+          "content": "By reference to (42), we see that the number of distinct possible sets of remainders is less than the number of polynomials W under consideration. Hence there exist two distinct polynomials, say  $W'$  and  $W''$ , of the form (40) such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31521739130434784,
+            0.7279305354558611,
+            0.6847826086956522,
+            0.7496382054992764
+          ],
+          "content": "W _ {j _ {1}, \\dots , j _ {m}} ^ {\\prime} (x, \\dots , x) - W _ {j _ {1}, \\dots , j _ {m}} ^ {\\prime \\prime} (x, \\dots , x)",
+          "image_source": "images/page_16_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7568740955137482,
+            0.8695652173913043,
+            0.7959479015918958
+          ],
+          "content": "is divisible by $f(x)$ for all $j_1, \\ldots, j_m$ satisfying (44). Putting $W^* = W' - W''$, we deduce that all the corresponding derivatives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3978260869565217,
+            0.8031837916063675,
+            0.5934782608695652,
+            0.8248914616497829
+          ],
+          "content": "W _ {j _ {1}, \\dots , j _ {m}} ^ {*} (x _ {1}, \\dots , x _ {m})",
+          "image_source": "images/page_16_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8306801736613604,
+            0.8717391304347826,
+            0.8885672937771346
+          ],
+          "content": "are zero when  $x_{1}=\\ldots=x_{m}=\\alpha$ . Hence the index of  $W^{*}$  at the point  $(\\alpha,\\ldots,\\alpha)$  relative to  $r_{1},\\ldots,r_{m}$  is at least  $\\gamma$ . Also the coefficients of  $W^{*}$  are integers, not all zero, of absolute values not exceeding  $B_{1}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8885672937771346,
+            0.8695652173913043,
+            0.9261939218523878
+          ],
+          "content": "We now appeal to Lemma 7, the conditions of which are satisfied, as was noted earlier. The polynomial  $W^{*}(x_{1}, \\ldots, x_{m})$  satisfies the conditions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.7804347826086957,
+            0.9261939218523878,
+            0.8,
+            0.9392185238784371
+          ],
+          "content": "Q"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.27391304347826084,
+            0.06367583212735166,
+            0.717391304347826,
+            0.07959479015918958
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8434782608695652,
+            0.06367583212735166,
+            0.8717391304347826,
+            0.07814761215629522
+          ],
+          "content": "17"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.09840810419681621,
+            0.5782608695652174,
+            0.11722141823444283
+          ],
+          "content": "(a), (b), (c) of §5 and so belongs to the class"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.12590448625180897,
+            0.6,
+            0.1447178002894356
+          ],
+          "content": "\\mathcal {R} _ {m} (q _ {1} ^ {\\delta r _ {1}}; r _ {1}, \\dots , r _ {m}).",
+          "image_source": "images/page_17_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.1476121562952243,
+            0.8717391304347826,
+            0.18668596237337193
+          ],
+          "content": "By Lemma 7, its index at $(h_1 / q_1, \\ldots, h_m / q_m)$ relative to $r_1, \\ldots, r_m$ is less than $\\eta$, defined in (36). Hence $W^*$ possesses some derivative"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2565217391304348,
+            0.19681620839363242,
+            0.741304347826087,
+            0.23444283646888567
+          ],
+          "content": "Q (x _ {1}, \\dots , x _ {m}) = \\frac {1}{k _ {1} ! \\dots k _ {m} !} \\left(\\frac {\\partial}{\\partial x _ {1}}\\right) ^ {k _ {1}} \\dots \\left(\\frac {\\partial}{\\partial x _ {m}}\\right) ^ {k _ {m}} W ^ {*},",
+          "image_source": "images/page_17_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.25180897250361794,
+            0.18043478260869567,
+            0.26772793053545585
+          ],
+          "content": "with"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40652173913043477,
+            0.24167872648335745,
+            0.5891304347826087,
+            0.2793053545586107
+          ],
+          "content": "\\frac {k _ {1}}{r _ {1}} + \\dots + \\frac {k _ {m}}{r _ {m}} <   \\eta ,",
+          "image_source": "images/page_17_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.2894356005788712,
+            0.22826086956521738,
+            0.3068017366136035
+          ],
+          "content": "such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3695652173913043,
+            0.28798842257597684,
+            0.6108695652173913,
+            0.3096960926193922
+          ],
+          "content": "Q (h _ {1} / q _ {1}, \\dots , h _ {m} / q _ {m}) \\neq 0.",
+          "image_source": "images/page_17_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.31982633863965265,
+            0.8695652173913043,
+            0.35600578871201155
+          ],
+          "content": "The index of $Q$ at the point $(\\alpha, \\ldots, \\alpha)$ relative to $r_1, \\ldots, r_m$ is at least $\\gamma - \\eta$. Thus $Q$ has the properties (i) and (ii) of the enunciation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.35600578871201155,
+            0.8782608695652174,
+            0.39363241678726485
+          ],
+          "content": "Since the coefficients of $W^{*}$ have absolute values at most $B_{1}$, it follows that the coefficients of $Q$ have absolute values at most"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35434782608695653,
+            0.4037626628075253,
+            0.6434782608695652,
+            0.4240231548480463
+          ],
+          "content": "2 ^ {r _ {1} + \\dots + r _ {m}} B _ {1} \\leqslant 2 ^ {m r _ {1}} B _ {1} <   B _ {1} ^ {1 + \\delta}.",
+          "image_source": "images/page_17_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.43270622286541244,
+            0.6217391304347826,
+            0.4515195369030391
+          ],
+          "content": "Hence the coefficients of any further derivative"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4043478260869565,
+            0.46164978292329956,
+            0.591304347826087,
+            0.4833574529667149
+          ],
+          "content": "Q _ {i _ {1}, \\dots , i _ {m}} (x _ {1}, \\dots , x _ {m})",
+          "image_source": "images/page_17_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.4905933429811867,
+            0.7760869565217391,
+            0.5108538350217077
+          ],
+          "content": "have absolute values less than $2^{mr_1}B_1^{1 + \\delta} < B_1^{1 + 2\\delta}$. It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2891304347826087,
+            0.5209840810419681,
+            0.7021739130434783,
+            0.5426917510853835
+          ],
+          "content": "\\left| Q _ {i _ {1}, \\dots , i _ {m}} (\\alpha , \\dots , \\alpha) \\right| <   B _ {1} ^ {1 + 2 \\delta} (1 + | \\alpha |) ^ {r _ {1} + \\dots + r _ {m}},",
+          "image_source": "images/page_17_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.552821997105644,
+            0.39565217391304347,
+            0.5716353111432706
+          ],
+          "content": "and this implies (iii) since"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40869565217391307,
+            0.5832127351664255,
+            0.5847826086956521,
+            0.6034732272069464
+          ],
+          "content": "(1 + | \\alpha |) ^ {m r _ {1}} <   B _ {1} ^ {\\delta}",
+          "image_source": "images/page_17_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.6121562952243126,
+            0.6173913043478261,
+            0.6338639652677279
+          ],
+          "content": "by (32). This completes the proof of Lemma 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.658465991316932,
+            0.8695652173913043,
+            0.6960926193921853
+          ],
+          "content": "8. Completion of the proof. We suppose that $\\kappa > 2$ and that the inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41956521739130437,
+            0.6917510853835022,
+            0.5608695652173913,
+            0.7308248914616498
+          ],
+          "content": "\\left| \\alpha - \\frac {h}{q} \\right| <   \\frac {1}{q ^ {\\kappa}}\\tag{46}",
+          "image_source": "images/page_17_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.7409551374819102,
+            0.8695652173913043,
+            0.7959479015918958
+          ],
+          "content": "has infinitely many solutions in integers h, q with q > 0. Since  $\\alpha$  is irrational there must be infinitely many solutions with  $(h, q) = 1$ . We shall deduce a contradiction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.7973950795947902,
+            0.6413043478260869,
+            0.8147612156295224
+          ],
+          "content": "We first choose $m$ so large that $m > 4nm^{1/2}$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40869565217391307,
+            0.829232995658466,
+            0.5717391304347826,
+            0.8625180897250362
+          ],
+          "content": "\\frac {2 m}{m - 4 n m ^ {1 / 2}} <   \\kappa ,\\tag{47}",
+          "image_source": "images/page_17_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.8755426917510853,
+            0.7108695652173913,
+            0.894356005788712
+          ],
+          "content": "as is possible since $\\kappa > 2$. For sufficiently small $\\delta$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.9059334298118669,
+            0.6369565217391304,
+            0.9247467438494935
+          ],
+          "content": "m - 4 (1 + 3 \\delta) n m ^ {1 / 2} - 2 \\eta > 0,",
+          "image_source": "images/page_17_equation_24.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1282608695652174,
+            0.06367583212735166,
+            0.15869565217391304,
+            0.07814761215629522
+          ],
+          "content": "18"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4369565217391304,
+            0.060781476121562955,
+            0.5717391304347826,
+            0.07959479015918958
+          ],
+          "content": "K. F. Roth"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.10130246020260492,
+            0.8717391304347826,
+            0.1577424023154848
+          ],
+          "content": "where  $\\eta$  is given by (36) and is arbitrarily small with  $\\delta$ . This condition is the same as (30). We choose  $\\delta$  to satisfy this, and to satisfy (29), and further to satisfy"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3565217391304348,
+            0.15629522431259044,
+            0.6413043478260869,
+            0.19247467438494936
+          ],
+          "content": "\\frac {2 m (1 + 4 \\delta)}{m - 4 (1 + 3 \\delta) n m ^ {1 / 2} - 2 \\eta} <   \\kappa ,\\tag{48}",
+          "image_source": "images/page_18_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.19971056439942114,
+            0.782608695652174,
+            0.2199710564399421
+          ],
+          "content": "as is possible in view of (47). The inequality (48) is equivalent to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4260869565217391,
+            0.22865412445730826,
+            0.5739130434782609,
+            0.26483357452966716
+          ],
+          "content": "\\frac {m (1 + 4 \\delta)}{\\gamma - \\eta} <   \\kappa ,\\tag{49}",
+          "image_source": "images/page_18_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.26483357452966716,
+            0.3130434782608696,
+            0.2821997105643994
+          ],
+          "content": "by (34) and (35)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.28364688856729375,
+            0.8739130434782608,
+            0.35745296671490595
+          ],
+          "content": "Having chosen m and  $\\delta$ , we now choose a solution  $h_{1}$ ,  $q_{1}$  of (46) with  $(h_{1}, q_{1}) = 1$  and with  $q_{1}$  sufficiently large to satisfy (32). We then choose further solutions  $h_{2}, q_{2}; \\ldots; h_{m}, q_{m}$ , with  $(h_{j}, q_{j}) = 1$  throughout, to satisfy"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34782608695652173,
+            0.35600578871201155,
+            0.6543478260869565,
+            0.39363241678726485
+          ],
+          "content": "\\frac {\\log q _ {j}}{\\log q _ {j - 1}} > \\frac {2}{\\delta} \\quad (j = 2, \\dots , m).\\tag{50}",
+          "image_source": "images/page_18_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.402315484804631,
+            0.5760869565217391,
+            0.4211287988422576
+          ],
+          "content": "We now take  $r_{1}$  to be any integer satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41956521739130437,
+            0.42981186685962375,
+            0.5717391304347826,
+            0.46599131693198265
+          ],
+          "content": "r _ {1} > \\frac {1 0 \\log q _ {m}}{\\delta \\log q _ {1}},\\tag{51}",
+          "image_source": "images/page_18_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.46599131693198265,
+            0.3652173913043478,
+            0.48480463096960924
+          ],
+          "content": "and define $r_2, \\ldots, r_m$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2891304347826087,
+            0.49493487698986977,
+            0.7282608695652174,
+            0.532561505065123
+          ],
+          "content": "\\frac {r _ {1} \\log q _ {1}}{\\log q _ {j}} \\leqslant r _ {j} <   1 + \\frac {r _ {1} \\log q _ {1}}{\\log q _ {j}} (j = 2, \\dots , m).\\tag{52}",
+          "image_source": "images/page_18_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.5397973950795948,
+            0.4152173913043478,
+            0.5586107091172214
+          ],
+          "content": "Then (33) is satisfied. Also"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2608695652173913,
+            0.5687409551374819,
+            0.7326086956521739,
+            0.6063675832127352
+          ],
+          "content": "\\frac {r _ {j} \\log q _ {j}}{r _ {1} \\log q _ {1}} <   1 + \\frac {\\log q _ {j}}{r _ {1} \\log q _ {1}} \\leqslant 1 + \\frac {\\log q _ {m}}{r _ {1} \\log q _ {1}} <   1 + \\frac {1}{1 0} \\delta .\\tag{53}",
+          "image_source": "images/page_18_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.613603473227207,
+            0.5152173913043478,
+            0.6338639652677279
+          ],
+          "content": "The conditions (31) are satisfied, since"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3869565217391304,
+            0.6439942112879884,
+            0.6086956521739131,
+            0.6816208393632417
+          ],
+          "content": "r _ {m} \\geqslant \\frac {r _ {1} \\log q _ {1}}{\\log q _ {m}} > 1 0 \\delta^ {- 1}",
+          "image_source": "images/page_18_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.6989869753979739,
+            0.17391304347826086,
+            0.7149059334298119
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3456521739130435,
+            0.6888567293777135,
+            0.658695652173913,
+            0.7264833574529667
+          ],
+          "content": "\\frac {r _ {j - 1}}{r _ {j}} > \\frac {\\log q _ {j}}{\\log q _ {j - 1}} (1 + \\frac {1}{1 0} \\delta) ^ {- 1} > \\delta^ {- 1}",
+          "image_source": "images/page_18_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.7337192474674384,
+            0.35434782608695653,
+            0.7525325615050651
+          ],
+          "content": "by (52), (53) and (50)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12391304347826088,
+            0.7525325615050651,
+            0.8739130434782608,
+            0.829232995658466
+          ],
+          "content": "By Lemma 9 there exists a polynomial $Q(x_1, \\ldots, x_m)$ with the properties stated there. The contradiction is reached by comparing two inequalities for $Q(h_1 / q_1, \\ldots, h_m / q_m)$, which is not 0 by (ii) of Lemma 9. Since $Q$ has integral coefficients and is of degree at most $r_j$ in $x_j$ for $j = 1, \\ldots, m$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27391304347826084,
+            0.8350217076700435,
+            0.7282608695652174,
+            0.8567293777134588
+          ],
+          "content": "\\left| Q (h _ {1} / q _ {1}, \\dots , h _ {m} / q _ {m}) \\right| \\geqslant q _ {1} ^ {- r _ {1}} \\dots q _ {m} ^ {- r _ {m}} > q _ {1} ^ {- m r _ {1} (1 + \\delta)}\\tag{54}",
+          "image_source": "images/page_18_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12608695652173912,
+            0.8639652677279306,
+            0.5173913043478261,
+            0.8827785817655571
+          ],
+          "content": "by (53). On the other hand, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1282608695652174,
+            0.8929088277858177,
+            0.8695652173913043,
+            0.9319826338639653
+          ],
+          "content": "Q (h _ {1} / q _ {1}, \\dots , h _ {m} / q _ {m}) = \\sum_ {i _ {1} = 0} ^ {r _ {1}} \\dots \\sum_ {i _ {m} = 0} ^ {r _ {m}} Q _ {i _ {1}, \\dots , i _ {m}} (\\alpha , \\dots , \\alpha) (h _ {1} / q _ {1} - \\alpha) ^ {i _ {1}} \\dots (h _ {m} / q _ {m} - \\alpha) ^ {i _ {m}},",
+          "image_source": "images/page_18_equation_21.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.27391304347826084,
+            0.06657018813314038,
+            0.7195652173913043,
+            0.08393632416787265
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8456521739130435,
+            0.06657018813314038,
+            0.8717391304347826,
+            0.0824891461649783
+          ],
+          "content": "19"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.09985528219971057,
+            0.5130434782608696,
+            0.11866859623733719
+          ],
+          "content": "and by (i) of Lemma 9 the terms with"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3869565217391304,
+            0.12735166425470332,
+            0.5956521739130435,
+            0.1649782923299566
+          ],
+          "content": "\\frac {i _ {1}}{r _ {1}} + \\dots + \\frac {i _ {m}}{r _ {m}} <   \\gamma - \\eta",
+          "image_source": "images/page_19_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.17221418234442837,
+            0.5391304347826087,
+            0.191027496382055
+          ],
+          "content": "all vanish. In every other term we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25,
+            0.19971056439942114,
+            0.741304347826087,
+            0.23733719247467439
+          ],
+          "content": "\\left| \\left(\\frac {h _ {1}}{q _ {1}} - \\alpha\\right) ^ {i _ {1}} \\dots \\left(\\frac {h _ {m}}{q _ {m}} - \\alpha\\right) ^ {i _ {m}} \\right| <   \\frac {1}{(q _ {1} ^ {i _ {1}} \\dots q _ {m} ^ {i _ {m}}) ^ {\\kappa}} \\leqslant q _ {1} ^ {- r _ {1} (\\gamma - \\eta) \\kappa},",
+          "image_source": "images/page_19_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.24457308248914617,
+            0.7934782608695652,
+            0.26483357452966716
+          ],
+          "content": "since $q_{j} \\geqslant q_{1}^{r_{1} / r_{j}}$ by (52). Hence, using (iii) of Lemma 9, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22826086956521738,
+            0.27206946454413894,
+            0.7695652173913043,
+            0.3473227206946454
+          ],
+          "content": "\\begin{array}{r l} | Q (h _ {1} / q _ {1}, \\dots , h _ {m} / q _ {m}) | & <   (r _ {1} + 1) \\dots (r _ {m} + 1) B _ {1} ^ {1 + 3 \\delta} q _ {1} ^ {- r _ {1} (\\gamma - \\eta) \\kappa} \\\\ & <   B _ {1} ^ {1 + 4 \\delta} q _ {1} ^ {- r _ {1} (\\gamma - \\eta) \\kappa} \\\\ & <   q _ {1} ^ {(1 + 4 \\delta) \\delta r _ {1} - r _ {1} (\\gamma - \\eta) \\kappa}. \\end{array}",
+          "image_source": "images/page_19_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12173913043478261,
+            0.3545586107091172,
+            0.5065217391304347,
+            0.3748191027496382
+          ],
+          "content": "Comparing this with (54), we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.30869565217391304,
+            0.3835021707670043,
+            0.6804347826086956,
+            0.4037626628075253
+          ],
+          "content": "- m r _ {1} (1 + \\delta) <   (1 + 4 \\delta) \\delta r _ {1} - r _ {1} (\\gamma - \\eta) \\kappa ,",
+          "image_source": "images/page_19_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.4211287988422576,
+            0.15,
+            0.4356005788712012
+          ],
+          "content": "or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3108695652173913,
+            0.40955137481910275,
+            0.6760869565217391,
+            0.447178002894356
+          ],
+          "content": "\\kappa <   \\frac {m (1 + \\delta) + \\delta (1 + 4 \\delta)}{\\gamma - \\eta} <   \\frac {m (1 + 4 \\delta)}{\\gamma - \\eta},",
+          "image_source": "images/page_19_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11956521739130435,
+            0.4544138929088278,
+            0.75,
+            0.4732272069464544
+          ],
+          "content": "contrary to (49). This completes the proof of the theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15434782608695652,
+            0.4905933429811867,
+            0.3565217391304348,
+            0.5094066570188133
+          ],
+          "content": "University College,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2108695652173913,
+            0.5108538350217077,
+            0.30217391304347824,
+            0.5267727930535456
+          ],
+          "content": "London."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3869565217391304,
+            0.5267727930535456,
+            0.8673913043478261,
+            0.5441389290882779
+          ],
+          "content": "(Received 26th January, 1955.; § 1 revised 20th May, 1955)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.12608695652173912,
+            0.06512301013024602,
+            0.15434782608695652,
+            0.07959479015918958
+          ],
+          "content": "20"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.27608695652173915,
+            0.06512301013024602,
+            0.7152173913043478,
+            0.07959479015918958
+          ],
+          "content": "APPROXIMATIONS TO ALGEBRAIC NUMBERS."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.010869565217391304,
+            0.9667149059334298,
+            0.9434782608695652,
+            0.9927641099855282
+          ],
+          "content": "Downloaded from https://www.cambridge.org/core. IP address: 149.40.62.120, on 29 Sep 2026 at 11:05:53, subject to the Cambridge Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1112/S0025579300000644"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

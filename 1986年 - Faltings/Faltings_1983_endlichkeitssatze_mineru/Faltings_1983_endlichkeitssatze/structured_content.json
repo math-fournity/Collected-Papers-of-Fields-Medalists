@@ -1,0 +1,4203 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.062034739454094295,
+            0.2121684867394696,
+            0.6699751861042184,
+            0.2667706708268331
+          ],
+          "level": 1,
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05955334987593052,
+            0.28861154446177845,
+            0.1935483870967742,
+            0.3088923556942278
+          ],
+          "content": "G. Faltings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05955334987593052,
+            0.31045241809672386,
+            0.8660049627791563,
+            0.3463338533541342
+          ],
+          "content": "Fachbereich Mathematik, Bergische Universitäts-Gesamthochschule Wuppertal, Gaußstr. 20, D-5600 Wuppertal 1, Bundesrepublik Deutschland"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.062034739454094295,
+            0.37597503900156004,
+            0.22084367245657568,
+            0.39781591263650545
+          ],
+          "level": 2,
+          "content": "§1. Einleitung"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05955334987593052,
+            0.4118564742589704,
+            0.9255583126550868,
+            0.46957878315132606
+          ],
+          "content": "Sei K eine endliche Erweiterung von Q, A eine über K definierte abelsche Varietät,  $\\pi=\\text{Gal}(\\overline{K}/K)$  die absolute Galois-Gruppe von K, l eine Primzahl. Dann operiert  $\\pi$  auf dem Tate-Modul"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37965260545905705,
+            0.48985959438377535,
+            0.607940446650124,
+            0.5117004680187207
+          ],
+          "content": "T _ {l} (A) = \\varprojlim A [ l ^ {n} ] (\\overline {{K}}).",
+          "image_source": "images/page_0_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5304212168486739,
+            0.8138957816377171,
+            0.5507020280811232
+          ],
+          "content": "Ziel der vorliegenden Arbeit ist der Beweis der folgenden Resultate:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09925558312655088,
+            0.5538221528861155,
+            0.7295285359801489,
+            0.5741029641185648
+          ],
+          "content": "a) Die Darstellung von $\\pi$ auf $T_{l}(A)\\otimes_{\\mathbf{Z}_{l}}\\mathbb{Q}_{l}$ ist halbeinfach."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09925558312655088,
+            0.5725429017160687,
+            0.3076923076923077,
+            0.592823712948518
+          ],
+          "content": "b) Die Abbildung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3399503722084367,
+            0.5959438377535101,
+            0.6501240694789082,
+            0.6177847113884556
+          ],
+          "content": "\\operatorname{End} _ {K} (A) \\otimes_ {\\mathbf {Z}} \\mathbb {Z} _ {l} \\rightarrow \\operatorname{End} _ {\\pi} (T _ {l} (A))",
+          "image_source": "images/page_0_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6287051482059283,
+            0.3176178660049628,
+            0.6489859594383776
+          ],
+          "content": "ist ein Isomorphismus."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6474258970358814,
+            0.9280397022332506,
+            0.7035881435257411
+          ],
+          "content": "c) Sei S eine endliche Menge von Stellen von K, d>0. Dann gibt es nur endlich viele Isomorphieklassen d-fach polarisierter abelscher Varietäten über K, welche gute Reduktion außerhalb S haben."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.7004680187207488,
+            0.9305210918114144,
+            0.8658346333853354
+          ],
+          "content": "a) und b) sind bekannt unter dem Namen Tate-Vermutung, c) als Shafarevich-Vermutung. Weiter weiß man ([9]), daß aus c) die Mordell-Vermutung folgt. Die Tate-Vermutung ist von Tate selbst für abelsche Varietäten über endlichen Körpern gezeigt worden. Zarhin verallgemeinerte dies auf Funktionenkörper ([15, 16]) über solchen, und unser Beweis ist eine Übertragung seiner Methoden auf den Zahlkörper-Fall. Das zur Übersetzung notwendige Wörterbuch hat Arakelov geliefert ([2]), und seine Methoden sind vom Verfasser ausgebaut worden ([5]). Kurz gesagt handelt es sich darum, „alles“ mit hermiteschen Metriken zu versehen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.8658346333853354,
+            0.9305210918114144,
+            0.9422776911076443
+          ],
+          "content": "Der Beweis für c) erfolgt so, daß zunächst nur die Endlichkeit für Isogenie-Klassen gezeigt wird. Die grundlegende Idee dazu hat mir der Gutachter der „Inventiones“ anläßlich der Veröffentlichung meiner Arbeit [6] mitgeteilt, und ich mußte sie nur noch von der Hodge-Theorie in die étale Kohomologie über-"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.062034739454094295,
+            0.0483619344773791,
+            0.34987593052109184,
+            0.0655226209048362
+          ],
+          "content": "Invent. math. 73, 349–366 (1983)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.6799007444168734,
+            0.0327613104524181,
+            0.9230769230769231,
+            0.10452418096723869
+          ],
+          "content": "Inventiones mathematicae\n© Springer-Verlag 1983"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.08268330733229329,
+            0.9255583126550868,
+            0.12012480499219969
+          ],
+          "content": "setzen. Ich möchte daher dem mir persönlich unbekannten Gutachter an dieser Stelle für seine Anregung herzlich danken."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.11856474258970359,
+            0.9255583126550868,
+            0.1544461778471139
+          ],
+          "content": "Der Rest des Beweises von c) benutzt eine Variante der bei a) und b) verwendeten Methoden."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.15600624024961,
+            0.9280397022332506,
+            0.28549141965678626
+          ],
+          "content": "Die Arbeit beginnt zunächst mit einigen technischen Details über Höhen. Die Komplikationen ergeben sich daraus, daß meines Wissens noch kein guter Modulraum semiabelscher Varietäten über Z existiert. (Mit ähnlichen Problemen hat sich auch L. Moret-Bailly zu kämpfen, der die Verhältnisse über Funktionenkörpern untersucht ([7]).) Danach werden die sehr schönen Ergebnisse von Tate ([13]) über p-divisible Gruppen benutzt. Der Schluß ist dann wieder etwas technischer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.30265210608424337,
+            0.9280397022332506,
+            0.35101404056162244
+          ],
+          "content": "Ich habe viel über das Thema von L. Szpiro gelernt, dem ich an dieser Stelle für seine Einführung in diesen Problemkreis danke. P. Deligne hat mich auf eine Unstimmigkeit in der ursprünglichen Fassung der Arbeit aufmerksam gemacht."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06699751861042183,
+            0.38221528861154447,
+            0.3771712158808933,
+            0.40249609984399376
+          ],
+          "level": 2,
+          "content": "§2. Semiabelsche Varietäten"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.41809672386895474,
+            0.9280397022332506,
+            0.49453978159126366
+          ],
+          "content": "Definition. Sei S ein Schema (oder ein algebraic stack). Eine semiabelsche Varietät der relativen Dimension g über S ist eine glatte algebraische Gruppe  $p: G \\to S$ , so daß die Fasern von p zusammenhängend von der Dimension g sind, und Erweiterungen einer abelschen Varietät durch einen Torus."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.500780031201248,
+            0.8808933002481389,
+            0.5210608424336973
+          ],
+          "content": "Beispiel. Sei $q\\colon C\\to S$ eine stabile Kurve vom Geschlecht $g$ ([4]). Dann ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.53198127925117,
+            0.5930521091811415,
+            0.5507020280811232
+          ],
+          "content": "J = \\operatorname{Pic} ^ {\\tau} (C / S) \\rightarrow S",
+          "image_source": "images/page_1_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5631825273010921,
+            0.6550868486352357,
+            0.5819032761310452
+          ],
+          "content": "eine semiabelsche Varietät der relativen Dimension g."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.5819032761310452,
+            0.4119106699751861,
+            0.6006240249609984
+          ],
+          "content": "Wir benötigen das folgende"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.609984399375975,
+            0.9305210918114144,
+            0.6677067082683308
+          ],
+          "content": "Lemma 1. Sei S normal, $U \\subset S$ offen und dicht $p_{1}: A_{1} \\to S$ und $p_{2}: A_{2} \\to S$ zwei semiabelsche Varietäten, $\\phi: A_{1}/U \\to A_{2}/U$ ein über U definierter Homomorphismus algebraischer Gruppen. Dann läßt sich $\\phi$ eindeutig auf ganz S fortsetzen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6739469578783152,
+            0.9305210918114144,
+            0.7285491419656787
+          ],
+          "content": "Beweis. Dies ist wohlbekannt, falls S Spektrum eines kompletten diskreten Bewertungsringes ist. Im allgemeinen reduziert man sofort auf S noethersch und exzellent, und bezeichnet mit"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42431761786600497,
+            0.7316692667706708,
+            0.5707196029776674,
+            0.7535101404056163
+          ],
+          "content": "X \\subseteq A _ {1} \\times_ {s} A _ {2}",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7644305772230889,
+            0.4491315136476427,
+            0.7831513260530422
+          ],
+          "content": "den Abschluß des Graphen von $\\phi$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.7831513260530422,
+            0.9305210918114144,
+            0.8767550702028081
+          ],
+          "content": "Nach Basiswechsel mit geeigneten Bewertungsringen sieht man, daß die Projektion  $pr_{1}: X \\rightarrow A_{1}$  eigentlich ist, und daß ihre Fasern nur einen Punkt besitzen. Da  $A_{1}$  normal ist, muß  $pr_{1}$  ein Isomorphismus sein, und X der Graph der eindeutig bestimmten Fortsetzung von  $\\phi$ . (Eindeutigkeit folgt zum Beispiel durch Betrachtung von Torsionspunkten, oder auf tausend andere Arten.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.8829953198127926,
+            0.9280397022332506,
+            0.921996879875195
+          ],
+          "content": "Definition. Sei $p: A \\to S$ eine semiabelsche Varietät der relativen Dimension $g$, $s: S \\to A$ der Nullschnitt."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10421836228287841,
+            0.06396255850234009
+          ],
+          "content": "350"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0483619344773791,
+            0.9280397022332506,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1141439205955335,
+            0.08268330733229329,
+            0.18858560794044665,
+            0.0998439937597504
+          ],
+          "content": "Setze:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3002481389578164,
+            0.09828393135725429,
+            0.47146401985111663,
+            0.11856474258970359
+          ],
+          "content": "\\omega_ {A / S} = s ^ {*} (\\Omega_ {A / S} ^ {g}),",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3002481389578164,
+            0.12324492979719189,
+            0.6724565756823822,
+            0.1419656786271451
+          ],
+          "content": "$\\omega_{A/S}$  ist ein Geradenbündel auf S."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.14664586583463338,
+            0.7245657568238213,
+            0.1669266770670827
+          ],
+          "content": "Bemerkungen. a) Wenn $p$ eigentlich ist, so ist $\\omega_{A/S} \\cong p_*(\\Omega_{A/S}^g)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.1669266770670827,
+            0.5186104218362283,
+            0.18408736349453977
+          ],
+          "content": "b) $\\omega_{A / S}$ kommutiert mit Basiswechsel."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.187207488299532,
+            0.9230769230769231,
+            0.22464898595943839
+          ],
+          "content": "c) Wenn $A = \\operatorname{Pic}^{\\tau}(C/S)$ mit einer stabilen Kurve $q: C \\to S$, so ist $\\omega_{A/S} \\cong A^{g} q_{*}(\\omega_{C/S})$, wobei $\\omega_{C/S}$ den relativen dualisierenden Modul bezeichnet."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.22620904836193448,
+            0.9255583126550868,
+            0.26365054602184085
+          ],
+          "content": "d) Wenn $S = \\operatorname{Spec}(\\mathbb{C})$ und $p$ eigentlich ist (d.h., $A / \\mathbb{C}$ ist eine komplexe abelsche Varietät), so besitzt"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.26521060842433697,
+            0.5905707196029777,
+            0.28549141965678626
+          ],
+          "content": "\\omega_ {A / S} \\cong \\Gamma (A, \\Omega_ {A / \\mathbb {C}} ^ {g})",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.2948517940717629,
+            0.5607940446650124,
+            0.31357254290171604
+          ],
+          "content": "ein kanonisches hermitesches Skalarprodukt:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.31357254290171604,
+            0.7890818858560794,
+            0.3338533541341654
+          ],
+          "content": "Wenn  $\\alpha$ ,  $\\beta$  holomorphe Differentialformen auf A sind, so setze"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3870967741935484,
+            0.3463338533541342,
+            0.6054590570719603,
+            0.3868954758190328
+          ],
+          "content": "\\langle \\alpha , \\beta \\rangle = \\left(\\frac {i}{2}\\right) ^ {g} \\int_ {A} \\alpha \\wedge \\bar {\\beta}.",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.39781591263650545,
+            0.9280397022332506,
+            0.47269890795631825
+          ],
+          "content": "Wir benötigen einige Tatsachen über die Modulräume stabiler Kurven und abelscher Varietäten. Dazu scheint die Sprache der „algebraic stacks“ am angemessensten zu sein. Falls dem Leser diese Notation zu abstrakt erscheint, so möge er die folgenden Überlegungen durchführen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.47269890795631825,
+            0.5880893300248139,
+            0.48985959438377535
+          ],
+          "content": "Es geht eigentlich um Endlichkeitsaussagen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.48985959438377535,
+            0.9280397022332506,
+            0.5444617784711389
+          ],
+          "content": "Wenn S einer der demnächst einzuführenden algebraic stacks ist, und S den zugehörigen groben Modulraum bezeichnet, so gibt es stets eine offene Überdeckung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44168734491315137,
+            0.5397815912636506,
+            0.5508684863523573,
+            0.5756630265210608
+          ],
+          "content": "S = \\bigcup_ {i = 1} ^ {r} U _ {i}",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5865834633385335,
+            0.9280397022332506,
+            0.6396255850234009
+          ],
+          "content": "und endlich surjektive Abbildungen $V_{i}\\to U_{i}$, so daß über $V_{i}$ das „universelle Objekt zu $\\mathfrak{S}^{\\prime\\prime}$ existiert. Man kann dann alle Rechnungen in den $V_{i}$ durchführen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.641185647425897,
+            0.5806451612903226,
+            0.6599063962558502
+          ],
+          "content": "Nun zu den hier verwendeten algebraic stacks."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6645865834633385,
+            0.9280397022332506,
+            0.7051482059282371
+          ],
+          "content": "1. $\\overline{\\mathfrak{M}}_g$ klassifiziere die stabilen Kurven vom Geschlecht $g$ ([4]). $\\overline{\\mathfrak{M}}_g$ ist eigentlich über $\\operatorname{Spec}(\\mathbb{Z})$, und der zugehörige grobe Modulraum heiße $\\overline{M}_g$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7051482059282371,
+            0.9280397022332506,
+            0.7425897035881436
+          ],
+          "content": "2. $\\mathfrak{A}_{g}$ klassifiziere die prinzipal-polarisierten abelschen Varietäten der relativen Dimension $g$, und $A_{g}$ sei der zugehörige Modulraum."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7425897035881436,
+            0.9280397022332506,
+            0.7784711388455539
+          ],
+          "content": "$\\mathfrak{A}_{\\mathrm{g}}$ ist nicht eigentlich über $\\operatorname{Spec}(\\mathbf{Z})$, aber die folgenden Tatsachen sind bekannt:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10918114143920596,
+            0.7784711388455539,
+            0.21588089330024815,
+            0.797191887675507
+          ],
+          "content": "a) Wenn"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43672456575682383,
+            0.7909516380655226,
+            0.5558312655086849,
+            0.8112324492979719
+          ],
+          "content": "p \\colon A \\to \\mathfrak {A} _ {g}",
+          "image_source": "images/page_2_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.8221528861154446,
+            0.9280397022332506,
+            0.9157566302652106
+          ],
+          "content": "die universelle abelsche Varietät über $\\mathfrak{A}_{g}$ bezeichnet, so gibt es ein $r>0$, für welches $(\\omega_{A/\\mathfrak{A}_{g}})^{\\otimes r}$ ein sehr amples Geradenbündel auf $A_{g}/\\mathbb{Q}$ definiert ([3]). Sei $\\bar{A}_{g}/\\mathbb{Q}$ der Zariski-Abschluß von $A_{g}/\\mathbb{Q}$ in dem zugehörigen projektiven Raum $\\mathbb{IP}_{\\mathbb{Q}}^{N}$, $\\bar{A}_{g}/\\mathbb{Z}$ der Zariski-Abschluß in $\\mathbb{IP}_{\\mathbb{Z}}^{N}$, und $\\mathcal{M}$ das Geradenbündel $\\mathcal{O}(1)$ auf $\\bar{A}_{g}/\\mathbb{Z}$. ($\\mathcal{M}$ setzt auf $\\bar{A}_{g}/\\mathbb{Q} (\\omega_{A/\\mathfrak{A}_{g}})^{\\otimes r}$ fort.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.9141965678627145,
+            0.7890818858560794,
+            0.9344773790951638
+          ],
+          "content": "b) Es gibt über $\\mathbb{C}^{s}$ einen eigentlichen dominanten Morphismus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41935483870967744,
+            0.9438377535101404,
+            0.575682382133995,
+            0.9672386895475819
+          ],
+          "content": "\\phi \\colon \\mathfrak {N} \\to \\bar {A} _ {g} / \\mathbb {C},",
+          "image_source": "images/page_2_equation_24.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06699751861042183,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8933002481389578,
+            0.0499219968798752,
+            0.9280397022332506,
+            0.06396255850234009
+          ],
+          "content": "351"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9255583126550868,
+            0.15912636505460218
+          ],
+          "content": "so daß über $\\mathfrak{N}$ eine semiabelsche Varietät existiert, welche die universelle abelsche Varietät über $\\mathfrak{A}_{g}$ fortsetzt (siehe [8], §9). Außerdem ist bekannt, daß $\\omega^{\\otimes r}$ dieser semiabelschen Varietät isomorph zu $\\phi^{*}(\\mathcal{M})$ ist. (Hierzu muß man direkt rechnen, siehe meine Ausführungen dazu in [6], §2.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.16536661466458658,
+            0.9255583126550868,
+            0.22152886115444617
+          ],
+          "content": "Lemma 2. Es gibt über $\\operatorname{Spec}(\\mathbb{Z})$ einen eigentlichen algebraic stack $3$, eine offene Teilmenge $\\mathfrak{U}\\subset\\mathfrak{Z}$ und einen eigentlichen Morphismus $\\psi\\colon\\mathfrak{U}\\to\\mathfrak{A}_{\\mathrm{g}}$, welcher sich zu einem $\\bar{\\psi}\\colon\\mathfrak{Z}/\\mathbb{Q}\\to\\bar{A}_{\\mathrm{g}}/\\mathbb{Q}$ fortsetzt, so daß über $3$ die folgenden Objekte existieren:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.22152886115444617,
+            0.4466501240694789,
+            0.23868954758190328
+          ],
+          "content": "a) Eine stabile Kurve $q: C \\to 3$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.23868954758190328,
+            0.8535980148883374,
+            0.2589703588143526
+          ],
+          "content": "b) Ein Untergeradenbündel (= lokal direkter Sumand) $\\mathcal{L} \\subseteq A^{g} q_{*}(\\omega_{C/\\mathbb{Z}})$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.2574102964118565,
+            0.6426799007444168,
+            0.27613104524180965
+          ],
+          "content": "c) Über $\\mathfrak{U}$ ein Paar von Gruppenhomomorphismen"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3746898263027295,
+            0.28861154446177845,
+            0.6178660049627791,
+            0.3088923556942278
+          ],
+          "content": "\\alpha \\colon \\operatorname{Pic} ^ {\\tau} (C / 3) \\rightarrow \\psi^ {*} (A),",
+          "image_source": "images/page_3_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37220843672456577,
+            0.31357254290171604,
+            0.6129032258064516,
+            0.3338533541341654
+          ],
+          "content": "\\beta \\colon \\psi^ {*} (A) \\to \\operatorname{Pic} ^ {\\tau} (C / 3)",
+          "image_source": "images/page_3_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.3369734789391576,
+            0.10918114143920596,
+            0.3541341653666147
+          ],
+          "content": "mit"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2679900744416873,
+            0.358814352574103,
+            0.7295285359801489,
+            0.3790951638065523
+          ],
+          "content": "\\alpha \\circ \\beta = \\text { Multiplikation   mit   einem } d \\in \\mathbb {N}, d \\neq 0.",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.39001560062402496,
+            0.7344913151364765,
+            0.41029641185647425
+          ],
+          "content": "(Dabei sei $A$ wieder die universelle abelsche Varietät über $\\mathfrak{A}_{g}$.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.40873634945397813,
+            0.9255583126550868,
+            0.44773790951638065
+          ],
+          "content": "d) Auf $3 \\otimes_{\\mathbf{Z}} \\mathbb{Q}$ existiert ein Isomorphismus $\\mathcal{L}^{\\otimes r} = \\bar{\\psi}^{*}(\\mathcal{M})$, und $\\mathcal{L}$ ist über $\\mathfrak{U}/\\mathbb{Q}$ das Bild von"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3424317617866005,
+            0.4414976599063963,
+            0.6476426799007444,
+            0.46489859594383776
+          ],
+          "content": "\\alpha^ {*} \\colon \\psi^ {*} (\\omega_ {A / \\mathfrak {U} _ {g}}) \\to \\Lambda^ {g} q _ {*} (\\omega_ {C / Z}).",
+          "image_source": "images/page_3_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.47269890795631825,
+            0.6178660049627791,
+            0.49297971918876754
+          ],
+          "content": "Der daraus resultierende Isomorphismus (über $\\mathfrak{U}/\\mathbb{Q}$)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37965260545905705,
+            0.5039001560062403,
+            0.6129032258064516,
+            0.5273010920436817
+          ],
+          "content": "\\psi^ {*} (\\omega_ {A / \\mathfrak {A} _ {g}}) ^ {\\otimes r} \\cong \\psi^ {*} (\\mathcal {M})",
+          "image_source": "images/page_3_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5366614664586583,
+            0.9280397022332506,
+            0.5772230889235569
+          ],
+          "content": "ist $\\psi^{*}$-Pullback des bei der Konstruktion von $\\mathcal{M}$ angegebenen Isomorphismus über $A_{g}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5819032761310452,
+            0.9280397022332506,
+            0.6396255850234009
+          ],
+          "content": "Beweis. In dem generischen Punkte von $\\mathfrak{A}_{g}$ ist die zugehörige abelsche Varietät Quotient einer Jacobischen. Die zugehörige Kurve entspricht einer rationalen Abbildung von $\\mathfrak{A}_{g}$ in $\\overline{\\mathfrak{M}}_{\\tilde{g}}$, für ein $\\tilde{g}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.6365054602184087,
+            0.9305210918114144,
+            0.8408736349453978
+          ],
+          "content": "Wenn man den Graphen dieser Abbildung betrachtet, so erhält man (mit Hilfe einiger trivialer Zusatzüberlegungen) einen ersten Kandidaten 3, so daß schon a) und (nach Lemma 1) c) erfüllt sind. $\\mathcal{L}$ ist dann über $\\mathfrak{U} \\otimes_{\\mathbb{Z}} \\mathbb{Q}$ durch d) schon festgelegt, und liefert eine rationale Abbildung von $\\mathfrak{U} \\otimes_{\\mathbb{Z}} \\mathbb{Q}$ in ein geeignetes projektives Bündel über 3. Man ersetzt 3 durch die Normalisierung des Abschlusses des zugehörigen Graphen, und dann sind auch b) und der zweite Teil von d) erfüllt. Zum Rest von d) ist zu vermerken, daß man den gesuchten Isomorphismus schon über $\\mathfrak{U} \\otimes_{\\mathbb{Z}} \\mathbb{Q}$ konstruiert hat, und man muß nur noch die Fortsetzbarkeit auf $3 \\otimes_{\\mathbb{Z}} \\mathbb{Q}$ zeigen. Dazu kann man den Grundkörper von $\\mathbb{Q}$ auf $\\mathbb{C}$ erweitern, und es reicht, die Fortsetzbarkeit für ein $\\tilde{3}/\\mathbb{C}$ zu zeigen, welches dominant und eigentlich über 3 liegt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8393135725429017,
+            0.9330024813895782,
+            0.9157566302652106
+          ],
+          "content": "Mit Hilfe des weiter oben eingeführten $\\phi\\colon\\mathfrak{N}\\to\\bar{A}_{g}/\\mathbb{C}$ konstruiert man ein normales $\\tilde{\\mathfrak{Z}}$, so daß $\\psi^{*}(A)$ sich auf $\\tilde{\\mathfrak{Z}}$ zu einer semiabelschen Varietät fortsetzt. Nach Lemma 1 kann man auch $\\alpha$ und $\\beta$ fortsetzen, und diese liefern den gewünschten Isomorphismus über $\\tilde{\\mathfrak{Z}}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.921996879875195,
+            0.8684863523573201,
+            0.9422776911076443
+          ],
+          "content": "Korollar. Es gibt eine natürliche Zahl e>0 mit der folgenden Eigenschaft:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0483619344773791,
+            0.10173697270471464,
+            0.062402496099843996
+          ],
+          "content": "352"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0483619344773791,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.09925558312655088,
+            0.08268330733229329,
+            0.7369727047146402,
+            0.1029641185647426
+          ],
+          "content": "Sei K ein Zahlkörper, R der Ring der ganzen Zahlen in K,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40694789081885857,
+            0.11544461778471139,
+            0.5806451612903226,
+            0.13416536661466458
+          ],
+          "content": "p \\colon A \\to \\operatorname{Spec} (R)",
+          "image_source": "images/page_4_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.14508580343213728,
+            0.9230769230769231,
+            0.20124804992199688
+          ],
+          "content": "eine semiabelsche Varietät, so daß die generische Faser A/K eigentlich über K ist, und eine prinzipale Polarisation bestitzt. Dem entspricht eine Abbildung  $\\rho\\colon\\operatorname{Spec}(K)\\to A_{g}/\\mathbb{Q}$ , welche sich zu einem  $\\rho\\colon\\operatorname{Spec}(R)\\to\\bar{A}_{g}/\\mathbb{Z}$  fortsetzt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.20124804992199688,
+            0.598014888337469,
+            0.21996879875195008
+          ],
+          "content": "Nach Konstruktion besteht ein Isomorphismus"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337468982630273,
+            0.23088923556942278,
+            0.6501240694789082,
+            0.25273010920436817
+          ],
+          "content": "\\rho^ {*} (\\mathcal {M}) \\otimes_ {R} K \\cong (\\omega_ {A / R}) ^ {\\otimes r} \\otimes_ {R} K.",
+          "image_source": "images/page_4_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.2620904836193448,
+            0.5384615384615384,
+            0.2839313572542902
+          ],
+          "content": "Unter Benutzung dieses Isomorphismus gilt:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.228287841191067,
+            0.2948517940717629,
+            0.7593052109181141,
+            0.31513260530421217
+          ],
+          "content": "e \\cdot \\rho^ {*} (\\mathcal {M}) \\subseteq (\\omega_ {A / R}) ^ {\\otimes r} \\subseteq e ^ {- 1} \\cdot \\rho^ {*} (\\mathcal {M}) (\\subseteq \\rho^ {*} (\\mathcal {M}) \\otimes_ {R} K).",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.3244929797191888,
+            0.9255583126550868,
+            0.38221528861154447
+          ],
+          "content": "Beweis. Wir dürfen annehmen, daß $\\bar{\\psi}\\colon 3/\\mathbb{Q}\\to\\bar{A}_{g}/\\mathbb{Q}$ sich fortsetzt zu einem eigentlichen $\\bar{\\psi}\\colon 3/\\mathbb{Z}\\to\\bar{A}_{g}/\\mathbb{Z}$. Dann gibt es eine endliche Körpererweiterung $K^{\\prime}\\supseteq K$ (mit ganzen Zahlen $R^{\\prime}\\subseteq K^{\\prime}$), so daß sich $\\rho$ liften läßt zu"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.39469578783151327,
+            0.5880893300248139,
+            0.41497659906396256
+          ],
+          "content": "\\tilde {\\rho}: \\operatorname{Spec} (R ^ {\\prime}) \\rightarrow 3.",
+          "image_source": "images/page_4_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.4243369734789392,
+            0.9255583126550868,
+            0.46177847113884557
+          ],
+          "content": "Da über $3 \\otimes_{\\mathbb{Z}} \\mathbb{Q} \\bar{\\psi}^{*}(\\mathcal{M})$ und $\\mathcal{L}^{\\otimes r}$ isomorph sind, gibt es ein $e_{1}>0$, so daß über 3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3349875930521092,
+            0.46021840873634945,
+            0.6550868486352357,
+            0.48049921996879874
+          ],
+          "content": "e _ {1} \\cdot \\mathscr {L} ^ {\\otimes r} \\subseteq \\bar {\\psi} ^ {*} (\\mathscr {M}) \\subseteq e _ {1} ^ {- 1} \\cdot \\mathscr {L} ^ {\\otimes r}.",
+          "image_source": "images/page_4_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.49297971918876754,
+            0.9255583126550868,
+            0.5304212168486739
+          ],
+          "content": "Es reicht, die Behauptung nach dem Basiswechsel zu  $R'$  zu zeigen, und wir müssen nur noch  $\\omega_{A/R'}$  und  $\\tilde{\\rho}^{*}(\\mathcal{L})$  vergleichen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.5304212168486739,
+            0.6178660049627791,
+            0.5475819032761311
+          ],
+          "content": "Durch Pullback erhält man eine stabile Kurve"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40694789081885857,
+            0.5600624024960998,
+            0.5880893300248139,
+            0.5819032761310452
+          ],
+          "content": "q \\colon C \\to \\operatorname{Spec} (R ^ {\\prime})",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5850234009360374,
+            0.11910669975186104,
+            0.6021840873634945
+          ],
+          "content": "und"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2506203473945409,
+            0.6068642745709828,
+            0.7419354838709677,
+            0.6271450858034321
+          ],
+          "content": "\\alpha \\colon \\operatorname{Pic} ^ {\\tau} (C / R ^ {\\prime}) \\rightarrow A / R ^ {\\prime}, \\quad \\beta \\colon A / R ^ {\\prime} \\rightarrow \\operatorname{Pic} ^ {\\tau} (C / R ^ {\\prime})",
+          "image_source": "images/page_4_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6396255850234009,
+            0.9280397022332506,
+            0.6786271450858035
+          ],
+          "content": "mit $\\alpha\\circ\\beta=d\\cdot\\text{id}$ (Benutze Lemma 1 über $R'$), so daß $\\tilde{\\rho}^{*}(\\mathscr{L})$ das Unterbündel von $A^{\\mathrm{g}}q_{*}(\\omega_{C/R'})$ ist, welches vom Bild von"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36724565756823824,
+            0.6895475819032761,
+            0.630272952853598,
+            0.7098283931357254
+          ],
+          "content": "\\alpha^ {*}: \\omega_ {A / R ^ {\\prime}} \\rightarrow \\Lambda^ {g} q _ {*} (\\omega_ {C / R ^ {\\prime}})",
+          "image_source": "images/page_4_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7207488299531981,
+            0.9280397022332506,
+            0.7581903276131046
+          ],
+          "content": "erzeugt wird. Daraus folgt unmittelbar, daß $d^{g} \\cdot \\bar{\\rho}^{*}(\\mathcal{L}) \\subseteq \\omega_{A/R'} \\subseteq \\bar{\\rho}^{*}(\\mathcal{L})$, und wir sind fertig."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06947890818858561,
+            0.8096723868954758,
+            0.19106699751861042,
+            0.8299531981279251
+          ],
+          "level": 2,
+          "content": "§ 3. Höhen"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8455538221528861,
+            0.9305210918114144,
+            0.9422776911076443
+          ],
+          "content": "Sei $K$ wieder ein Zahlkörper, $R$ der Ring der ganzen Zahlen in $K$. Analog zu [5] definieren wir ein metrisiertes Geradenbündel auf $\\operatorname{Spec}(R)$ als einen projektiven $R$-Modul $P$ vom Rang 1, zusammen mit Normen $\\| \\cdot \\|_v$ auf $P \\otimes_R K_v$ für alle unendlichen Stellen $v$ von $K$. Dabei bezeichnet $K_v$ die Komplettierung von $K$ in $v$, und wir definieren ein $\\varepsilon_v = 1$ oder 2, je nachdem ob $K_v \\cong \\mathbb{R}$ oder $K_v \\cong \\mathbb{C}$."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06699751861042183,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.06396255850234009
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8883374689826302,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.06396255850234009
+          ],
+          "content": "353"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9230769230769231,
+            0.1029641185647426
+          ],
+          "content": "Der Grad des metrisierten Geradenbündels wird definiert als („#“=Ordnung)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24813895781637718,
+            0.11388455538221529,
+            0.7468982630272953,
+            0.14664586583463338
+          ],
+          "content": "\\operatorname{Grad} (P, \\| \\cdot \\|) = \\log (\\# (P / R \\cdot p)) - \\sum_ {v} \\varepsilon_ {v} \\cdot \\log \\| p \\| _ {v}.",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.15756630265210608,
+            0.9255583126550868,
+            0.21684867394695787
+          ],
+          "content": "Dabei ist p ein von Null verschiedenes Element von P, die Summe geht über alle unendlichen Stellen von K, und die rechte Seite ist selbstverständlich unabhängig von p."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.22152886115444617,
+            0.9255583126550868,
+            0.27613104524180965
+          ],
+          "content": "Bemerkung. Der Begriff des metrischen Geradenbündels stammt von Arakelov ([2]). Der Grad von P hängt natürlich auch mit dem Volumen von P zusammen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09925558312655088,
+            0.27613104524180965,
+            0.9255583126550868,
+            0.29797191887675506
+          ],
+          "content": "Uns interessieren besonders die metrisierten Geradenbündel  $\\omega_{A/R}$ , wobei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40694789081885857,
+            0.31045241809672386,
+            0.5831265508684863,
+            0.33073322932917315
+          ],
+          "content": "p \\colon A \\to \\operatorname{Spec} (R)",
+          "image_source": "images/page_5_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.05955334987593052,
+            0.3416536661466459,
+            0.9280397022332506,
+            0.39781591263650545
+          ],
+          "content": "eine semiabelsche Varietät ist, mit eigentlicher generischer Faser A/K. Die Metriken an den unendlichen Stellen kommen vom schon erwähnten Skalarprodukt:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3746898263027295,
+            0.3915756630265211,
+            0.6178660049627791,
+            0.43369734789391573
+          ],
+          "content": "\\| \\alpha \\| _ {v} ^ {2} = \\left(\\frac {i}{2}\\right) ^ {g} \\cdot \\int_ {A (\\bar {K} _ {v})} \\alpha \\wedge \\bar {\\alpha}.",
+          "image_source": "images/page_5_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.44305772230889234,
+            0.5955334987593052,
+            0.46333853354134164
+          ],
+          "content": "Definition. Die modultheoretische Höhe  $h(A)$  ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3523573200992556,
+            0.47581903276131043,
+            0.6377171215880894,
+            0.5179407176287052
+          ],
+          "content": "h (A) = \\frac {1}{[ K : \\mathbb {Q} ]} \\operatorname{Grad} (\\omega_ {A / R}).",
+          "image_source": "images/page_5_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5288611544461779,
+            0.9280397022332506,
+            0.5663026521060842
+          ],
+          "content": "Man sieht sofort, daß $h(A)$ invariant ist gegenüber Erweiterungen des Grundkörpers. Der Name „Höhe“ rechtfertigt sich wie folgt:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5647425897035881,
+            0.9280397022332506,
+            0.6224648985959438
+          ],
+          "content": "Im allgemeinen definiert man die Höhe eines Punktes  $x \\in \\mathbb{P}^{n}(K)$ , indem man x einen Morphismus  $\\rho: \\operatorname{Spec}(R) \\to \\mathbb{P}_{\\mathbf{Z}}^{n}$  zuordnet, das Bündel  $\\mathcal{O}(1)$  auf  $IP_{C}^{n}$  mit einer Metrik versieht, und dann als Höhe von x"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3746898263027295,
+            0.6333853354134166,
+            0.6203473945409429,
+            0.6755070202808112
+          ],
+          "content": "\\frac {1}{[ K : \\mathbb {Q} ]} \\cdot \\operatorname{Grad} (\\rho^ {*} \\mathcal {O} (1))",
+          "image_source": "images/page_5_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6739469578783152,
+            0.1687344913151365,
+            0.6911076443057722
+          ],
+          "content": "definiert."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.6911076443057722,
+            0.9305210918114144,
+            0.8954758190327613
+          ],
+          "content": "Bei Veränderung der hermiteschen Metrik ändert sich die Höhenfunktion nur um einen beschränkten Betrag, und es ist bekannt, daß für jedes c nur endlich viele K-rationale Punkte des  $IP^{n}$  Höhe  $\\leq c$  haben. Entsprechende Überlegungen gelten für abgeschlossene Untervariatäten des  $IP^{n}$ . Angewandt auf unsere Situation bettet man wie bisher  $A_{g}$  mittels M in  $IP_{Z}^{n}$  ein. Außerdem hat man schon eine Metrik || || auf dem von M auf  $A_{g}(\\mathbb{C})$  induzierten Bündel definiert. Wenn sich diese Metrik auf  $\\bar{A}_{\\mathrm{g}}(\\mathbb{C})$  fortsetzen ließe, so könnte man sie zur Definition der Höhe verwenden, und aus dem Korollar zu Lemma 2 würde folgen, daß für eine semiabelsche Varietät A über R (wie oben), welche über K eine prinzipale Polarisation besitzt und damit ein  $x \\in A_{\\mathrm{g}}(K)$  definiert,  $h(x)$  und  $r \\cdot h(A)$  sich nur um eine beschränkten Betrag unterscheiden."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.8939157566302652,
+            0.9305210918114144,
+            0.9485179407176287
+          ],
+          "content": "Leider hat die Metrik $\\| \\|$ Singularitäten längs $\\bar{A}_{g}(\\mathbb{C}) - A_{g}(\\mathbb{C})$, doch sind diese so mild, daß die fundamentale Endlichkeits-Eigenschaft der Höhe erhalten bleibt:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06451612903225806,
+            0.0499219968798752,
+            0.10421836228287841,
+            0.06396255850234009
+          ],
+          "content": "354"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8188585607940446,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9280397022332506,
+            0.15756630265210608
+          ],
+          "content": "Definition. Sei $X/\\mathbb{C}$ eine kompakte komplexe Varietät, $Y\\subseteq X$ eine abgeschlossene Untervarietät, $\\mathcal{M}$ eine Geradenbündel auf $X$, $\\|\\|$ eine hermitesche Metrik auf $\\mathcal{M}|X-Y$. Die Metrik $\\|\\|$ hat logarithmische Singularitäten längs $Y$, wenn folgendes gilt: Es gibt eine eigentliche dominante Abbildung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43424317617866004,
+            0.1669266770670827,
+            0.5607940446650124,
+            0.18876755070202808
+          ],
+          "content": "\\phi \\colon \\tilde {X} \\to X,",
+          "image_source": "images/page_6_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.1996879875195008,
+            0.9280397022332506,
+            0.25585023400936036
+          ],
+          "content": "so daß $\\tilde{X}$ glatt und $\\phi^{-1}(Y)$ ein Divisor mit normalen Überkreuzungen ist, und so daß für ein lokales Erzeugendes $h$ von $\\phi^{*}(\\mathcal{M})$ und eine lokale Gleichung $f$ von $\\phi^{-1}(Y)$."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.315136476426799,
+            0.2542901716068643,
+            0.6724565756823822,
+            0.2745709828393136
+          ],
+          "content": "\\operatorname * {S u p} \\left\\{\\| h \\|, \\| h \\| ^ {- 1} \\right\\} \\leq c _ {1} \\cdot | (\\log | f |) | ^ {c _ {2}}",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3200992555831266,
+            0.28081123244929795,
+            0.6674937965260546,
+            0.2995319812792512
+          ],
+          "content": "(mit Konstanten $c_{1}, c_{2} > 0$) gilt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.31201248049922,
+            0.16129032258064516,
+            0.33073322932917315
+          ],
+          "content": "Beispiel."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.228287841191067,
+            0.32761310452418096,
+            0.7320099255583127,
+            0.35101404056162244
+          ],
+          "content": "X = \\bar {A} _ {g} (\\mathbb {C}), \\quad Y = \\bar {A} _ {g} (\\mathbb {C}) - A _ {g} (\\mathbb {C}), \\quad \\mathcal {M} \\text {   und   } \\| \\|",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.35257410296411856,
+            0.18858560794044665,
+            0.36973478939157567
+          ],
+          "content": "wie bisher."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.36973478939157567,
+            0.9280397022332506,
+            0.40717628705148207
+          ],
+          "content": "Dies wurde zwar schon in [6] gezeigt (Ende von §2), doch folgt hier auf Wunsch der Referenten eine kurze Beweisskizze:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.40561622464898595,
+            0.9280397022332506,
+            0.44461778471138846
+          ],
+          "content": "Allgemeiner gilt für ein glattes X, einen Divisor Y von X mit normalen Überkreuzungen und eine semiabelsche Varietät"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4392059553349876,
+            0.45709828393135726,
+            0.5558312655086849,
+            0.47581903276131043
+          ],
+          "content": "p \\colon A \\to X,",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.48673946957878317,
+            0.9280397022332506,
+            0.5257410296411856
+          ],
+          "content": "so daß über X-Y p eigentlich und A prinzipal polarisiert ist, daß die kanonische Metrik auf  $\\omega_{A/X}$  logarithmische Singularitäten längs Y hat."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5257410296411856,
+            0.9305210918114144,
+            0.5975039001560063
+          ],
+          "content": "Dazu betrachtet man statt $\\omega_{A/X} p_{*}(\\Omega_{A/X}^{1})$ („logarithmische Singularitäten“ läßt sich auch für Vektorbündel definieren), und mit den Methoden des §2 reduziert man das Problem auf den Fall, daß $A$ Jacobische einer semi-stabilen Kurve $q\\colon C\\to X$ ist."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5959438377535101,
+            0.9305210918114144,
+            0.6365054602184087
+          ],
+          "content": "Wir behandeln kurz den Fall einer semi-stabilen Kurve über dem Einheitskreis ID. Der allgemeine Fall geht genauso. Wenn"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37965260545905705,
+            0.6489859594383776,
+            0.6178660049627791,
+            0.6677067082683308
+          ],
+          "content": "q \\colon C \\to \\mathbb {D} = \\{t | | t | <   1 \\}",
+          "image_source": "images/page_6_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6786271450858035,
+            0.9305210918114144,
+            0.717628705148206
+          ],
+          "content": "eine semi-stabile Kurve ist, mit guter Reduktion außerhalb 0, so besitzt C eine Überdeckung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44168734491315137,
+            0.7098283931357254,
+            0.5607940446650124,
+            0.748829953198128
+          ],
+          "content": "C = \\bigcup_ {i = 1} ^ {l} U _ {i},",
+          "image_source": "images/page_6_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.748829953198128,
+            0.25806451612903225,
+            0.7675507020280812
+          ],
+          "content": "so daß entweder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.7737909516380655,
+            0.9330024813895782,
+            0.8127925117004681
+          ],
+          "content": "a)  $U_{i}=\\{(z,t)||z|<1, |t|<1\\}$ ,  $q|U_{i}: U_{i}\\rightarrow ID$  glatt, z liefert Koordinate auf allen Fasern"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.8190327613104524,
+            0.1315136476426799,
+            0.8377535101404057
+          ],
+          "content": "oder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.10421836228287841,
+            0.8408736349453978,
+            0.7220843672456576,
+            0.859594383775351
+          ],
+          "content": "\\text { b) } U _ {i} = \\{(z _ {1}, z _ {2}, t) | | z _ {1} | <   \\varepsilon , | z _ {2} | <   \\varepsilon , z _ {1} z _ {2} = t ^ {m} \\}, q (z _ {1}, z _ {2}, t) = t.",
+          "image_source": "images/page_6_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.8658346333853354,
+            0.9305210918114144,
+            0.8876755070202809
+          ],
+          "content": "Wenn $\\alpha$ ein lokaler Schnitt von $q_{*}(\\omega_{C/\\mathbb{D}})$ ist, so ist $\\alpha$ auf den $U_{i}$ von der Form"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10669975186104218,
+            0.8939157566302652,
+            0.4119106699751861,
+            0.9141965678627145
+          ],
+          "content": "a) $\\alpha = (\\mathrm{holomorph})\\cdot dz$ bzw."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.10669975186104218,
+            0.9157566302652106,
+            0.3771712158808933,
+            0.9547581903276131
+          ],
+          "content": "\\alpha = (\\text { holomorph }) \\cdot \\frac {d z _ {1}}{z _ {1}}.",
+          "image_source": "images/page_6_equation_23.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.890818858560794,
+            0.0499219968798752,
+            0.9280397022332506,
+            0.06396255850234009
+          ],
+          "content": "355"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.08268330733229329,
+            0.4987593052109181,
+            0.1029641185647426
+          ],
+          "content": "Eine explizite Rechnung ergibt, daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41687344913151364,
+            0.11544461778471139,
+            0.575682382133995,
+            0.15756630265210608
+          ],
+          "content": "\\frac {i}{2} \\int_ {U _ {i} \\cap q ^ {- 1} (t)} \\alpha \\wedge \\overline {{\\alpha}}",
+          "image_source": "images/page_7_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.1684867394695788,
+            0.9255583126550868,
+            0.2059282371294852
+          ],
+          "content": "für  $t \\to 0$  entweder beschränkt bleibt, oder höchstens wie  $|\\log |t||$  wächst. Außerdem sieht man sofort, daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3598014888337469,
+            0.21684867394695787,
+            0.6327543424317618,
+            0.23868954758190328
+          ],
+          "content": "\\| \\quad \\| \\geq (\\text { pos.   Konst. }) \\| \\| _ {1},",
+          "image_source": "images/page_7_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.24960998439937598,
+            0.9255583126550868,
+            0.2870514820592824
+          ],
+          "content": "wobei  $\\parallel\\parallel_{1}$  eine auf ganz X erklärte hermitesche Metrik auf  $q_{*}(\\omega_{C/X})$  bezeichnet."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.2948517940717629,
+            0.9280397022332506,
+            0.36973478939157567
+          ],
+          "content": "Lemma 3. Sei $X \\subseteq \\mathbb{P}_{\\mathbf{Z}}^{n}$ Zariski-abgeschlossen, $Y \\subseteq X$ abgeschlossen, $\\| \\cdot \\|$ eine hermitesche Metrik auf $\\mathcal{O}(1)|(X(\\mathbb{C}) - Y(\\mathbb{C}))$, mit logarithmischen Singularitäten längs $Y$. Für einen Zahlkörper $K$ und $x \\in X(K) - Y(K)$ definiert man wie bisher $h(x)$. Dann gibt es für jedes $c$ nur endlich viele $x \\in X(K) - Y(K)$ mit $h(x) \\leq c$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.37597503900156004,
+            0.9280397022332506,
+            0.41497659906396256
+          ],
+          "content": "Beweis. Sei $\\| \\cdot \\| _1$ eine hermitesche Metrik für $\\mathcal{O}(1)|X(\\mathbb{C})$, $h_1$ die zugehörige Höhenfunktion, und man wähle ein $s > 0$ und"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3746898263027295,
+            0.42589703588143524,
+            0.6228287841191067,
+            0.44773790951638065
+          ],
+          "content": "f _ {1}, \\dots , f _ {t} \\in \\Gamma (X / \\mathbb {Z}, \\mathcal {O} (s)),",
+          "image_source": "images/page_7_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.45865834633385333,
+            0.9280397022332506,
+            0.514820592823713
+          ],
+          "content": "deren gemeinsame Nullstellenmenge genau Y ist. Dann definiert  $\\parallel\\parallel_{1}$  eine Metrik auf  $\\mathcal{O}(s)$  (welche auch  $\\parallel\\parallel_{1}$  heiße), und aus den Voraussetzungen folgt sofort, daß Konstanten  $c_{1}, c_{2} > 0$  existieren"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23821339950372208,
+            0.5257410296411856,
+            0.7518610421836228,
+            0.5694227769110765
+          ],
+          "content": "\\text { mit } \\log \\left| \\frac {\\| \\quad \\|}{\\| \\quad \\| _ {1}} (z) \\right| \\leq c _ {1} + c _ {2} \\cdot \\inf \\{\\log (\\| \\log \\| f _ {i} (z) \\| _ {1} \\|) \\}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5725429017160687,
+            0.20099255583126552,
+            0.5897035881435257
+          ],
+          "content": "für  $z \\in X(\\mathbb{C})$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.5897035881435257,
+            0.5781637717121588,
+            0.609984399375975
+          ],
+          "content": "Wenn $x \\in X(K) - Y(K)$, entsprechend einem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40694789081885857,
+            0.6146645865834633,
+            0.5905707196029777,
+            0.6349453978159126
+          ],
+          "content": "\\rho \\colon \\operatorname{Spec} (R) \\to X,",
+          "image_source": "images/page_7_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6458658346333853,
+            0.9305210918114144,
+            0.7035881435257411
+          ],
+          "content": "so definieren die $f_{i}$ Schnitte $\\rho^{*}(f_{i})$ von $\\rho^{*}(\\mathcal{O}(s))$, mit deren Hilfe man die Höhe $h_{1}(x)$ berechnen kann. Da $\\|f_{i}(z)\\|_{1}$ auf $X(\\mathbb{C})$ nach oben beschränkt ist, erhält man sofort Konstanten $c_{3}, c_{4}>0$ mit"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3200992555831266,
+            0.7145085803432137,
+            0.674937965260546,
+            0.734789391575663
+          ],
+          "content": "| h (x) - h _ {1} (x) | \\leq c _ {3} + c _ {4} \\cdot \\log (h _ {1} (x)).",
+          "image_source": "images/page_7_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7472698907956318,
+            0.5285359801488834,
+            0.765990639625585
+          ],
+          "content": "Daraus folgt unmittelbar die Behauptung."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.765990639625585,
+            0.9280397022332506,
+            0.8049921996879875
+          ],
+          "content": "Wir können nun die Früchte unserer Bemühungen ernten. Das folgende Resultat ist schon fast bewiesen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.8096723868954758,
+            0.9280397022332506,
+            0.8471138845553822
+          ],
+          "content": "Satz 1. Sei c gegeben. Dann gibt es nur endlich viele Isomorphieklassen von Paaren aus"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.8517940717628705,
+            0.7146401985111662,
+            0.8720748829953198
+          ],
+          "content": "i) einer semiabelschen Varietät der relativen Dimension g"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4119106699751861,
+            0.8845553822152886,
+            0.5856079404466501,
+            0.9048361934477379
+          ],
+          "content": "p \\colon A \\to \\operatorname{Spec} (R)",
+          "image_source": "images/page_7_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.9157566302652106,
+            0.48883374689826303,
+            0.9360374414976599
+          ],
+          "content": "mit eigentlicher generischer Faser A/K"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10173697270471464,
+            0.06396255850234009
+          ],
+          "content": "356"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0483619344773791,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.5682382133995038,
+            0.11856474258970359
+          ],
+          "content": "ii) einer prinzipalen Polarisation auf A/K, für welche"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45409429280397023,
+            0.11544461778471139,
+            0.5459057071960298,
+            0.1357254290171607
+          ],
+          "content": "h (A) \\leq c",
+          "image_source": "images/page_8_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.13416536661466458,
+            0.1141439205955335,
+            0.1544461778471139
+          ],
+          "content": "gilt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.1606864274570983,
+            0.9280397022332506,
+            0.3619344773790952
+          ],
+          "content": "Beweis. Nach dem Korollar zu Lemma 2 ist die Differenz zwischen $h(x)$ und $r \\cdot h(A)$ beschränkt ($x \\in A_g(K)$ gehört zu $A$). Nach Lemma 3 liefern die $A$ mit $h(A) \\leq c$ somit nur endlich viele verschiedene $x \\in A_g(K)$. Wir müssen uns nun noch überlegen, daß nur endlich viele $K$-Isomorphieklassen dieselbe Klasse über dem algebraischen Abschluß $\\overline{K}$ induzieren können. Wir fixieren also eine solche Klasse über $\\overline{K}$, und betrachten die entsprechenden $A/K$. Es ist bekannt, daß alle diese an denselben Stellen von $K$ schlechte Reduktion haben. Aus dem Lemma 4 weiter unten folgt dann sofort die Existenz einer endlichen Erweiterung $K' \\supseteq K$, welche für ein $n \\geq 3$ die Koordinaten der $n$-Teilungspunkte aller $A/K$ enthält. Bekanntlich sind dann unsere $A$'s schon über $K'$ isomorph, und der Rest folgt aus allgemeinen Grundsätzen der Galois-Kohomologie."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.3619344773790952,
+            0.40694789081885857,
+            0.38065522620904835
+          ],
+          "content": "Es bleibt nachzutragen das"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.38845553822152884,
+            0.9280397022332506,
+            0.44461778471138846
+          ],
+          "content": "Lemma 4. Sei K ein Zahlkörper, S eine endliche Menge von Stellen von K. Dann gibt es nur endlich viele Körpererweiterungen  $K^{\\prime} \\supseteq K$  von vorgegebener Ordnung, welche außerhalb von S unverzweigt sind."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.45241809672386896,
+            0.49379652605459057,
+            0.4711388455538221
+          ],
+          "content": "Beweis. Bekannt (Hermite-Minkowski)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06699751861042183,
+            0.49453978159126366,
+            0.21836228287841192,
+            0.514820592823713
+          ],
+          "level": 2,
+          "content": "§ 4. Isogenien"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.53198127925117,
+            0.9280397022332506,
+            0.5694227769110765
+          ],
+          "content": "Wir untersuchen das Verhalten von  $h(A)$  unter Isogenien. Wie immer ist K ein Zahlkörper,  $R \\subset K$  der Ring der ganzen Zahlen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.5694227769110765,
+            0.17369727047146402,
+            0.5865834633385335
+          ],
+          "content": "Seien"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.5912636505460218,
+            0.598014888337469,
+            0.6115444617784711
+          ],
+          "content": "p _ {1} \\colon A _ {1} \\to \\operatorname{Spec} (R)",
+          "image_source": "images/page_8_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.6162246489859594,
+            0.12158808933002481,
+            0.6333853354134166
+          ],
+          "content": "und"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.6365054602184087,
+            0.598014888337469,
+            0.6583463338533542
+          ],
+          "content": "p _ {2} \\colon A _ {2} \\to \\operatorname{Spec} (R)",
+          "image_source": "images/page_8_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6692667706708268,
+            0.7146401985111662,
+            0.6895475819032761
+          ],
+          "content": "semiabelsche Varietäten mit eigentlicher generischer Faser,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4094292803970223,
+            0.7004680187207488,
+            0.5905707196029777,
+            0.7207488299531981
+          ],
+          "content": "s \\colon \\operatorname{Spec} (R) \\to A _ {1}",
+          "image_source": "images/page_8_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.734789391575663,
+            0.9280397022332506,
+            0.7706708268330733
+          ],
+          "content": "der Nullschnitt, und $\\phi: A_{1} \\to A_{2}$ eine Isogenie. (Nach Lemma 1 reicht es natürlich, wenn man $\\phi$ über $K$ definiert.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7706708268330733,
+            0.9280397022332506,
+            0.8081123244929798
+          ],
+          "content": "Wir setzen $G = \\operatorname{Ker}(\\phi) \\subseteq A_1$. Da $\\phi$ automatisch flach ist, ist $G$ ein quasiendliches flaches Gruppenschema über $\\operatorname{Spec}(R)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.8081123244929798,
+            0.3920595533498759,
+            0.8268330733229329
+          ],
+          "content": "$\\phi$  induziert eine Injektion"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3945409429280397,
+            0.8377535101404057,
+            0.6029776674937966,
+            0.858034321372855
+          ],
+          "content": "\\phi^ {*}: \\omega_ {A _ {2} / R} \\rightarrow \\omega_ {A _ {1} / R},",
+          "image_source": "images/page_8_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8627145085803433,
+            0.3598014888337469,
+            0.8814352574102964
+          ],
+          "content": "und man sieht sofort, daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24813895781637718,
+            0.890795631825273,
+            0.7518610421836228,
+            0.9126365054602185
+          ],
+          "content": "\\# (\\omega_ {A _ {1} / R} / \\phi^ {*} (\\omega_ {A _ {2} / R})) = \\# s ^ {*} (\\Omega_ {A _ {1} / A _ {2}} ^ {1}) = \\# s ^ {*} (\\Omega_ {G / R} ^ {1}).",
+          "image_source": "images/page_8_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.921996879875195,
+            0.9280397022332506,
+            0.9609984399375975
+          ],
+          "content": "Da außerdem $\\phi^{*}$ die Normen an den unendlichen Stellen um $(\\mathrm{Grad}(\\phi))^{1/2}$ verändert, folgt unmittelbar"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5831265508684863,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8883374689826302,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.06396255850234009
+          ],
+          "content": "357"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.0842433697347894,
+            0.17866004962779156,
+            0.1029641185647426
+          ],
+          "content": "Lemma 5."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1935483870967742,
+            0.1029641185647426,
+            0.7965260545905707,
+            0.1435257410296412
+          ],
+          "content": "h (A _ {2}) = h (A _ {1}) + \\frac {1}{2} \\log (\\operatorname{Grad} (\\phi)) - \\frac {1}{[ K : \\mathbb {Q} ]} \\cdot \\log (\\# s ^ {*} (\\Omega_ {G / R} ^ {1})).",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.15756630265210608,
+            0.9255583126550868,
+            0.19656786271450857
+          ],
+          "content": "Bemerkung. Wenn $G$ von einer Zahl $n\\in\\mathbb{N}$ annulliert wird, so annulliert $n$ auch $\\Omega_{G/R}^{1}$. Daraus folgt, daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3349875930521092,
+            0.1996879875195008,
+            0.6550868486352357,
+            0.21996879875195008
+          ],
+          "content": "\\exp (2 [ K: \\mathbb {Q} ] \\cdot (h (A _ {2}) - h (A _ {1})))",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.23088923556942278,
+            0.9255583126550868,
+            0.28549141965678626
+          ],
+          "content": "eine rationale Zahl ist, in deren Zähler und Nenner nur Primteiler von Grad( $\\phi$ ) auftauchen. Die Exponenten dieser Primteiler darin können durch ihre Exponenten in Grad( $\\phi$ ) beschränkt werden."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.28549141965678626,
+            0.9255583126550868,
+            0.3244929797191888
+          ],
+          "content": "Wir untersuchen nun das Verhalten der  $h(A_{n})$ , falls  $A_{n}=A/G_{n}$ , wobei die  $G_{n}$  die Stufen einer l-divisiblen Gruppe  $G\\subseteq A[l^{\\infty}]$  durchlaufen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.33073322932917315,
+            0.9255583126550868,
+            0.36817472698907955
+          ],
+          "content": "Satz 2. Sei p: $A \\to \\operatorname{Spec}(R)$ eine semiabelsche Varietät mit eigentlicher generischer Faser, $l$ eine Primzahl, und $G/K \\subseteq A[l^{\\infty}]/K$ eine $l$-divisible Untergruppe."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.3666146645865835,
+            0.9255583126550868,
+            0.40561622464898595
+          ],
+          "content": "Weiter sei $G_{n}$ der Kern von $l^{n}$ auf $G$, und $A_{n}$ die semiabelsche Varietät $A_{n} = A / G_{n}$. Dann ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42431761786600497,
+            0.40249609984399376,
+            0.56575682382134,
+            0.42277691107644305
+          ],
+          "content": "h (A _ {n}) = h (A).",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.43057722308892354,
+            0.9255583126550868,
+            0.46957878315132606
+          ],
+          "content": "Beweis. Seien $v_{1},\\ldots,v_{r}$ die über $l$ liegenden Stellen von $k$, $K_{i}=K_{v_{i}}$ die entsprechenden lokalen Körper, $R_{i}\\subseteq K_{i}$ die Bewertungsringe, $m_{i}=[K_{i}:\\mathbb{Q}_{l}]$, so daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38461538461538464,
+            0.48049921996879874,
+            0.6054590570719603,
+            0.5226209048361935
+          ],
+          "content": "m = [ K: \\mathbb {Q} ] = \\sum_ {i = 1} ^ {r} m _ {i}.",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.53198127925117,
+            0.9280397022332506,
+            0.5881435257410297
+          ],
+          "content": "Wir wählen ein festes $i$, und betrachten das formale Gruppenschema $\\hat{A}$ über $Spf(R_{i})$, die Komplettierung von $A/R_{i}$ längs der Faser $A_{s}$ über dem abgeschlossenen Punkt $s$ von $\\operatorname{Spec}(R_{i})$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5865834633385335,
+            0.9280397022332506,
+            0.62402496099844
+          ],
+          "content": "$A_{s}$ ist eine Erweiterung $0 \\to T_{s} \\to A_{s} \\to B_{s} \\to 0$ mit $T_{s}$ Torus, $B_{s}$ eine abelsche Varietät."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.62402496099844,
+            0.9280397022332506,
+            0.6817472698907956
+          ],
+          "content": "Nach allgemeinen Grundsätzen kann man  $T_{s}$  liften zu einem Torus T über  $\\operatorname{Spec}(R_{i})$ , und  $\\hat{T}$  ist abgeschlossenes formales Unterschema von  $\\hat{A}$ . (Morphismen von  $T_{s}$  in glatte Gruppenschemata können geliftet werden.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.6801872074882995,
+            0.14640198511166252,
+            0.6973478939157566
+          ],
+          "content": "Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43424317617866004,
+            0.7004680187207488,
+            0.5607940446650124,
+            0.7223088923556942
+          ],
+          "content": "\\hat {H} _ {i} = \\hat {A} [ l ^ {\\infty} ]",
+          "image_source": "images/page_9_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.733229329173167,
+            0.9280397022332506,
+            0.8096723868954758
+          ],
+          "content": "die assoziierte $l$-divisible Gruppe. $\\hat{H}_{i}$ ist formale Komplettierung einer $l$-divisiblen Gruppe $H_{i}$ über $R_{i}$, und $H_{i}/K_{i}$ ist eine $l$-divisible Untergruppe von $A[l^{\\infty}]/K_{i}$. Dasselbe gilt für $T[l^{\\infty}]$, und zu diesen Untergruppen gehören $\\mathbb{Z}_{l}$-Untergitter"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38213399503722084,
+            0.8049921996879875,
+            0.6129032258064516,
+            0.8252730109204368
+          ],
+          "content": "T _ {l} (T) \\subseteq T _ {l} (H _ {i}) \\subseteq T _ {l} (A).",
+          "image_source": "images/page_9_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.8315132605304212,
+            0.9280397022332506,
+            0.8689547581903276
+          ],
+          "content": "Lemma 6. Sei $D_i = \\text{Gal}(\\overline{K}_i / K_i)$ die absolute Galois-Gruppe von $K_i$, $I_i \\subseteq D_i$ die Verzweigungsgruppe."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8689547581903276,
+            0.9280397022332506,
+            0.9079563182527302
+          ],
+          "content": "Dann operiert $I_{i}$ trivial auf $T_{l}(A)/T_{l}(H_{i})$, und die induzierte Operation von $D_{i}/I_{i} \\cong \\widehat{\\mathbf{Z}}$ erfolgt über einen endlichen Quotienten von $\\widehat{\\mathbf{Z}}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.9157566302652106,
+            0.1935483870967742,
+            0.9329173166926678
+          ],
+          "content": "Beweis. Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3002481389578164,
+            0.9282371294851794,
+            0.6923076923076923,
+            0.9485179407176287
+          ],
+          "content": "\\langle , \\rangle : T _ {l} (A) x T _ {l} (A) \\rightarrow \\mathbb {Z} _ {l} (1) = T _ {l} (\\mathbb {G} _ {m})",
+          "image_source": "images/page_9_equation_21.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10173697270471464,
+            0.06396255850234009
+          ],
+          "content": "358"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9255583126550868,
+            0.12012480499219969
+          ],
+          "content": "die von einer Polarisation von $A/K$ induzierte symplektische Form. $\\langle ,\\rangle$ ist nicht ausgeartet, und bekanntlich (SGA VII, Exp. IX, §7) ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3945409429280397,
+            0.1310452418096724,
+            0.598014888337469,
+            0.15288611544461778
+          ],
+          "content": "\\langle T _ {l} (T), T _ {l} (H _ {i}) \\rangle = 0.",
+          "image_source": "images/page_10_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.16380655226209048,
+            0.8833746898263027,
+            0.1856474258970359
+          ],
+          "content": "Aus Dimensionsgründen ist  $T_{l}(H_{i}) = T_{l}(T)^{\\perp}$ , und wir erhalten eine Injektion"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31265508684863524,
+            0.19656786271450857,
+            0.6799007444168734,
+            0.21684867394695787
+          ],
+          "content": "T _ {l} (A) / T _ {l} \\left(H _ {i}\\right) \\hookrightarrow \\operatorname{Hom} _ {\\mathbf {Z} _ {l}} \\left(T _ {l} (T), \\mathbb {Z} _ {l} (1)\\right).",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.22776911076443057,
+            0.9255583126550868,
+            0.26521060842433697
+          ],
+          "content": "Diese Injektion ist $D_{i}$-linear, und $D_{i}$ operiert in der verlangten Art und Weise auf $\\mathrm{Hom}_{\\mathbb{Z}_{l}}(T_{l}(T),\\mathbb{Z}_{l}(1))$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.26521060842433697,
+            0.9280397022332506,
+            0.3369734789391576
+          ],
+          "content": "Nunmehr zurück zu unserem  $G/K \\subseteq A[l^{\\infty}]/K$ . Nach Basiserweiterung  $K \\subseteq K_{i}$  können wir den Durchschnitt  $G_{i} = G \\cap H_{i}$  bilden. Dies ist die maximale l-divisible Untergruppe von  $G_{i}/K_{i}$ , welche sich über  $R_{i}$  ausdehnen läßt, und es ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3176178660049628,
+            0.34477379095163807,
+            0.6774193548387096,
+            0.3666146645865835
+          ],
+          "content": "\\# (s ^ {*} \\Omega_ {A / A _ {n}} ^ {1} \\otimes_ {R} R _ {i}) = \\# s ^ {*} (\\Omega_ {(G _ {i}) _ {n} / R _ {i}} ^ {1}).",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.37597503900156004,
+            0.9280397022332506,
+            0.41497659906396256
+          ],
+          "content": "Nach [13], Proposition 2 kann man dies sofort ausrechnen: Sei $d_{i}$ die Dimension der maximalen formalen Untergruppe von $G_{i}$. Dann ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3771712158808933,
+            0.42589703588143524,
+            0.6203473945409429,
+            0.44773790951638065
+          ],
+          "content": "\\# s ^ {*} (\\Omega_ {(G _ {i}) _ {n} / R _ {i}} ^ {1}) = l ^ {n \\cdot m _ {i} \\cdot d _ {i}}.",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.45709828393135726,
+            0.9280397022332506,
+            0.49453978159126366
+          ],
+          "content": "Wenn $C_i$ die Komplettierung des algebraischen Abschlusses von $K_i$ bezeichnet, so ist weiter bekannt ([13], Theorem 3, Corollary 2), daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3176178660049628,
+            0.5085803432137286,
+            0.6575682382133995,
+            0.53198127925117
+          ],
+          "content": "T _ {l} (G _ {i}) \\otimes_ {\\mathbb {Z} _ {l}} C _ {i} \\cong C _ {i} ^ {h _ {i} - d _ {i}} \\oplus C _ {i} ^ {d _ {i}} (+ 1),",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21588089330024815,
+            0.5397815912636506,
+            0.7766749379652605,
+            0.5616224648985959
+          ],
+          "content": "(h _ {i} = \\text { Höhe } (G _ {i}),  ,, (+ 1) ^ {\\prime \\prime} = \\text { Tate - Twist }) \\text {   als   } D _ {i} \\text {-Moduln. }",
+          "image_source": "images/page_10_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5725429017160687,
+            0.6799007444168734,
+            0.592823712948518
+          ],
+          "content": "Zusammen mit Lemma 6 ergibt sich daraus, daß $D_{i}$ auf"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33002481389578164,
+            0.6037441497659907,
+            0.6674937965260546,
+            0.6458658346333853
+          ],
+          "content": "\\begin{array}{c} \\Lambda^ {h} T _ {l} (G) \\otimes_ {\\mathbb {Z} _ {l}} C _ {i} \\subseteq \\Lambda^ {h} T _ {l} (A) \\otimes_ {\\mathbb {Z} _ {l}} C _ {i} \\\\ (h = \\mathrm{Höhe} (G)) \\end{array}",
+          "image_source": "images/page_10_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6505460218408736,
+            0.1588089330024814,
+            0.6677067082683308
+          ],
+          "content": "wie auf"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4218362282878412,
+            0.6739469578783152,
+            0.5781637717121588,
+            0.6942277691107644
+          ],
+          "content": "C _ {i} (\\chi_ {0} ^ {d _ {1}}) = C _ {i} (d _ {i})",
+          "image_source": "images/page_10_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7051482059282371,
+            0.5161290322580645,
+            0.7238689547581904
+          ],
+          "content": "operiert ($\\chi_0 =$ zyklotomischer Charakter)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.7238689547581904,
+            0.7096774193548387,
+            0.7425897035881436
+          ],
+          "content": "Wir übertragen dies nun wieder auf den globalen Fall:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.7425897035881436,
+            0.17369727047146402,
+            0.7597503900156006
+          ],
+          "content": "Es ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2878411910669975,
+            0.7597503900156006,
+            0.6898263027295285,
+            0.7987519500780031
+          ],
+          "content": "\\# s ^ {*} (\\Omega_ {A / A _ {n}} ^ {1}) = l ^ {n \\sum_ {i = 1} ^ {r} m _ {i} d _ {i}}, \\quad (l ^ {n} \\cdot \\Omega_ {A / A _ {n}} ^ {1} = 0)",
+          "image_source": "images/page_10_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8065522620904836,
+            0.11910669975186104,
+            0.8237129485179407
+          ],
+          "content": "und"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2878411910669975,
+            0.8205928237129485,
+            0.707196029776675,
+            0.8611544461778471
+          ],
+          "content": "h (A _ {n}) - h (A) = n \\cdot \\log (l) \\cdot \\left(\\frac {h}{2} - \\sum_ {i = 1} ^ {r} \\frac {m _ {i}}{m} \\cdot d _ {i}\\right).",
+          "image_source": "images/page_10_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8736349453978159,
+            0.9305210918114144,
+            0.9329173166926678
+          ],
+          "content": "Wir müssen also zeigen, daß $\\sum_{i=1}^{r} m_i d_i = \\frac{1}{2} m h$. Dazu betrachten wir die absolute Galois-Gruppe $\\tilde{\\pi} = \\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})$, und den $\\tilde{\\pi}$-Modul"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3176178660049628,
+            0.9422776911076443,
+            0.6823821339950372,
+            0.9656786271450858
+          ],
+          "content": "\\tilde {V} = \\operatorname{Ind} _ {\\pi} ^ {\\pi} (T _ {l} (A)) \\quad (\\pi = \\operatorname{Gal} (\\overline {{{K}}} / K)).",
+          "image_source": "images/page_10_equation_23.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8883374689826302,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.06396255850234009
+          ],
+          "content": "359"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.0842433697347894,
+            0.41687344913151364,
+            0.1029641185647426
+          ],
+          "content": "Dieser enthält den Untermodul"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4094292803970223,
+            0.10764430577223089,
+            0.5831265508684863,
+            0.1294851794071763
+          ],
+          "content": "\\tilde {W} = \\operatorname{Ind} _ {\\pi} ^ {\\tilde {\\pi}} (T _ {l} (G))",
+          "image_source": "images/page_11_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.14040561622464898,
+            0.5905707196029777,
+            0.1606864274570983
+          ],
+          "content": "vom Rang mh, und  $\\tilde{\\pi}$  operiert auf der Geraden"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37965260545905705,
+            0.17004680187207488,
+            0.6129032258064516,
+            0.19032761310452417
+          ],
+          "content": "L = \\Lambda^ {m h} (\\tilde {W}) \\subseteq \\Lambda^ {m h} (\\tilde {V})",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.20280811232449297,
+            0.4044665012406948,
+            0.22152886115444617
+          ],
+          "content": "via einen Charakter $\\chi\\colon\\tilde{\\pi}\\to\\mathbb{Z}_{l}^{*}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.22152886115444617,
+            0.9255583126550868,
+            0.2589703588143526
+          ],
+          "content": "Aus der Klassenkörpertheorie folgt, daß $\\chi$ von der Form $\\chi=(l$-adische Potenz von $\\chi_{0})\\cdot(\\text{Charakter endlicher Ordnung})$ ist."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.2589703588143526,
+            0.9255583126550868,
+            0.29797191887675506
+          ],
+          "content": "Die darin auftretende l-adische Potenz von  $\\chi_{0}$  bestimmt sich wie folgt: Sei C die Komplettierung des algebraischen Abschlusses von  $Q_{l}$ ,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3920595533498759,
+            0.3073322932917317,
+            0.6029776674937966,
+            0.32761310452418096
+          ],
+          "content": "D \\cong \\operatorname{Gal} (\\overline {{\\mathbb {Q}}} _ {l} / \\mathbb {Q} _ {l}) \\subseteq \\tilde {\\pi}",
+          "image_source": "images/page_11_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.33853354134165364,
+            0.652605459057072,
+            0.358814352574103
+          ],
+          "content": "die Zerlegungs-Gruppe von l. Dann gilt als D-Modul"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36228287841191065,
+            0.3712948517940718,
+            0.6277915632754343,
+            0.4118564742589704
+          ],
+          "content": "L \\otimes_ {\\mathbf {Z} _ {i}} C \\cong C \\left(+ \\sum_ {i = 1} ^ {r} m _ {i} d _ {i}\\right)",
+          "image_source": "images/page_11_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.42277691107644305,
+            0.9255583126550868,
+            0.46021840873634945
+          ],
+          "content": "(dies folgt aus unseren vorherigen Berechnungen), und somit ist nach [13], Theorem 2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4267990074441687,
+            0.4539781591263651,
+            0.5508684863523573,
+            0.49453978159126366
+          ],
+          "content": "\\chi \\cdot \\chi_ {0} ^ {- \\sum_ {i = 1} ^ {r} m _ {i} d _ {i}}",
+          "image_source": "images/page_11_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.5085803432137286,
+            0.9280397022332506,
+            0.609984399375975
+          ],
+          "content": "ein Charakter endlicher Ordnung auf D und auch auf  $\\tilde{\\pi}$ . Schließlich folgt aus dem schon von Weil bewiesenen Teil der Weil-Vermutungen mit einigen lokalen Überlegungen, daß  $\\chi(F_{p})$  (p=Primzahl,  $F_{p}=Frobenius$ ) für fast alle p eine algebraische Zahl ist, all deren Konjugierte Betrag  $p^{\\frac{mh}{2}}$  haben. Da  $\\chi_{0}(F_{p})=p$ , ist wie verlangt"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41687344913151364,
+            0.6068642745709828,
+            0.575682382133995,
+            0.6489859594383776
+          ],
+          "content": "\\sum_ {i = 1} ^ {r} m _ {i} d _ {i} = \\frac {m h}{2}.",
+          "image_source": "images/page_11_equation_13.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06699751861042183,
+            0.6817472698907956,
+            0.3027295285359802,
+            0.7035881435257411
+          ],
+          "level": 2,
+          "content": "§ 5. Endomorphismen"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.719188767550702,
+            0.9280397022332506,
+            0.7566302652106084
+          ],
+          "content": "Sei K Zahlkörper, A/K eine abelsche Varietät der Dimension g, l eine Primzahl,  $T_{l}=T_{l}(A)$  der Tate-Modul, auf dem  $\\pi=\\operatorname{Gal}(\\overline{K}/K)$  operiert."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7644305772230889,
+            0.674937965260546,
+            0.7847113884555382
+          ],
+          "content": "Satz 3. Die Operation von $\\pi$ auf $T_{l} \\otimes_{\\mathbf{Z}_{l}} \\mathbb{Q}_{l}$ ist halbeinfach."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.7925117004680188,
+            0.3052109181141439,
+            0.8127925117004681
+          ],
+          "content": "Satz 4. Die Abbildung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3598014888337469,
+            0.8127925117004681,
+            0.6377171215880894,
+            0.8330733229329174
+          ],
+          "content": "\\operatorname{End} _ {\\mathbf {K}} (A) \\otimes_ {\\mathbf {Z}} \\mathbb {Z} _ {l} \\rightarrow \\operatorname{End} _ {\\pi} (T _ {l})",
+          "image_source": "images/page_11_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.8361934477379095,
+            0.3076923076923077,
+            0.8549141965678627
+          ],
+          "content": "ist ein Isomorphismus."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.8627145085803433,
+            0.9280397022332506,
+            0.9017160686427457
+          ],
+          "content": "Beweis. Die beiden Sätze werden zusammen bewiesen. Es reicht bekanntlich, statt Satz4 die etwas schwächere Aussage zu beweisen, daß die Abbildung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3225806451612903,
+            0.9126365054602185,
+            0.6724565756823822,
+            0.9344773790951638
+          ],
+          "content": "\\operatorname{End} _ {K} (A) \\otimes_ {\\mathbf {Z}} \\mathbb {Q} _ {l} \\rightarrow \\operatorname{End} _ {\\pi} (T _ {l} \\otimes_ {\\mathbf {Z} _ {l}} \\mathbb {Q} _ {l})",
+          "image_source": "images/page_11_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.9297971918876755,
+            0.1935483870967742,
+            0.9485179407176287
+          ],
+          "content": "bijektiv ist."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10421836228287841,
+            0.06396255850234009
+          ],
+          "content": "360"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.08268330733229329,
+            0.9255583126550868,
+            0.17160686427457097
+          ],
+          "content": "Man darf dann zum Beweis den Grundkörper erweitern, oder A durch eine isogene abelsche Varietät ersetzen. Wir können also annehmen, daß A/K prinzipal polarisiert ist, und daß A sich zu einer semiabelschen Varietät über Spec(R) fortsetzt. Dann besitz  $T_{l}$  eine nichtausgeartete schiefsymmetrische Bilinearform. Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42431761786600497,
+            0.17004680187207488,
+            0.5682382133995038,
+            0.19032761310452417
+          ],
+          "content": "W \\subseteq T _ {l} \\otimes_ {\\mathbf {Z} _ {l}} \\mathbb {Q} _ {l}",
+          "image_source": "images/page_12_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.20124804992199688,
+            0.9255583126550868,
+            0.25585023400936036
+          ],
+          "content": "ein $\\pi$-invarianter maximal isotroper Teilraum. Dem entspricht eine $l$-divisible Untergruppe $G \\subseteq A[l^{\\infty}]$, und die semiabelschen Varietäten $A_{n} = A / G_{n}$ tragen wieder prinzipale Polarisationen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.25585023400936036,
+            0.9230769230769231,
+            0.2917316692667707
+          ],
+          "content": "Nach Satz 2 ist $h(A_n) = h(A)$, und nach Satz 1 sind unendlich viele $A_n$'s isomorph."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.2917316692667707,
+            0.9255583126550868,
+            0.34477379095163807
+          ],
+          "content": "Wie in [16] folgt daraus, daß $W$ Bild eines Idempotents aus $\\operatorname{End}_{K}(A) \\otimes_{\\mathbb{Z}} \\mathbb{Q}_{l}$ ist. Der Rest des Beweises geht genauso wie in [16], und sei daher nur skizziert:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.34789391575663026,
+            0.6774193548387096,
+            0.3666146645865835
+          ],
+          "content": "Wähle $a, b, c, d \\in \\mathbb{Q}_l$ mit $a^2 + b^2 + c^2 + d^2 = -1$. Setze"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34987593052109184,
+            0.37597503900156004,
+            0.6426799007444168,
+            0.45709828393135726
+          ],
+          "content": "v = \\left( \\begin{array}{c c c c} a & - b & - c & - d \\\\ b & a & d & - c \\\\ c & - d & a & b \\\\ d & c & - b & a \\end{array} \\right)",
+          "image_source": "images/page_12_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.46957878315132606,
+            0.9255583126550868,
+            0.5257410296411856
+          ],
+          "content": "(entsprechend dem Quaternion $a + bi + cj + dk$), so daß $v \\cdot {}^t v = -1$. Wenn $W$ ein beliebiger $\\pi$-invarianter Teilraum von $T_l \\otimes_{\\mathbf{Z}_l} \\mathbb{Q}_l$ ist, so wendet man obige Überlegungen an auf den maximal isotropen Teilraum"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.18114143920595532,
+            0.5366614664586583,
+            0.8114143920595533,
+            0.5585023400936038
+          ],
+          "content": "W _ {1} = \\{(x, v x) | x \\in W ^ {4} \\} \\oplus \\{(y, - v y) | y \\in (W ^ {\\perp}) ^ {4} \\} \\subseteq T _ {l} (A) ^ {8} \\otimes_ {\\mathbf {Z} _ {l}} \\mathbf {Q} _ {l}.",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5678627145085804,
+            0.771712158808933,
+            0.5881435257410297
+          ],
+          "content": "Korollar 1. Seien $A_{1}$ und $A_{2}$ abelsche Varietäten über $K$. Dann ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2630272952853598,
+            0.6006240249609984,
+            0.7295285359801489,
+            0.6209048361934477
+          ],
+          "content": "\\operatorname{Hom} _ {K} (A _ {1}, A _ {2}) \\otimes_ {\\mathbb {Z}} \\mathbb {Z} _ {l} \\rightarrow \\operatorname{Hom} _ {\\pi} (T _ {l} (A _ {1}), T _ {l} (A _ {2}))",
+          "image_source": "images/page_12_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.625585023400936,
+            0.2729528535980149,
+            0.6443057722308893
+          ],
+          "content": "ein Isomorphismus."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6536661466458659,
+            0.3598014888337469,
+            0.672386895475819
+          ],
+          "content": "Beweis. Satz 4 für $A_{1} \\times A_{2}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.672386895475819,
+            0.652605459057072,
+            0.6911076443057722
+          ],
+          "content": "Die L-Reihe eines A's ist bekanntlich definiert als"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24069478908188585,
+            0.7051482059282371,
+            0.7593052109181141,
+            0.7457098283931357
+          ],
+          "content": "L (A, s) = \\prod_ {v} \\frac {1}{\\det (1 - (N _ {v}) ^ {- s} \\cdot F _ {v} | T _ {l} (A))} = \\prod_ {v} L _ {v} (A, s),",
+          "image_source": "images/page_12_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7566302652106084,
+            0.9280397022332506,
+            0.7956318252730109
+          ],
+          "content": "wobei das Produkt über fast alle Stellen von K zu erstrecken ist. Die lokalen L-Faktoren  $L_{v}(A,s)$  sind unabhängig von l."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8018720748829953,
+            0.7295285359801489,
+            0.8221528861154446
+          ],
+          "content": "Korollar 2. Seien $A_{1}, A_{2}$ wie im Korollar 1. Es sind äquivalent"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11662531017369727,
+            0.828393135725429,
+            0.3945409429280397,
+            0.8455538221528861
+          ],
+          "content": "i) $A_{1}$ und $A_{2}$ sind isogen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10918114143920596,
+            0.8455538221528861,
+            0.5732009925558312,
+            0.8658346333853354
+          ],
+          "content": "ii) $T_{l}(A_{1})\\otimes_{\\mathbf{Z}}\\mathbb{Q}_{l}\\cong T_{l}(A_{2})\\otimes_{\\mathbf{Z}}\\mathbb{Q}_{l}$ als $\\pi$ -Modul."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.8642745709828393,
+            0.6625310173697271,
+            0.8829953198127926
+          ],
+          "content": "iii) $L_{v}(s,A_{1}) = L_{v}(s,A_{2})$ für fast alle Stellen $v$ von $K$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.8829953198127926,
+            0.46898263027295284,
+            0.9017160686427457
+          ],
+          "content": "iv) $L_{v}(s,A_{1}) = L_{v}(s,A_{2})$ für alle $v$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.9157566302652106,
+            0.9280397022332506,
+            0.9547581903276131
+          ],
+          "content": "Beweis. Die Äquivalenz von i) und ii) folgt aus Satz 4, die von ii) und iii) aus Satz 3 (+Čebotarev), und aus ii) folgt iv) folgt iii) ist trivial."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.890818858560794,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.06396255850234009
+          ],
+          "content": "361"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.08268330733229329,
+            0.9280397022332506,
+            0.14040561622464898
+          ],
+          "content": "Korollar 3. Sei A/K eine abelsche Varietät, d>0. Dann gibt es nur endlich viele Isomorphieklassen d-fach polarisierter abelscher Varietäten B/K, so daß für alle l  $T_{l}(A)\\cong T_{l}(B)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.14664586583463338,
+            0.9280397022332506,
+            0.26053042121684866
+          ],
+          "content": "Beweis. Die Voraussetzung besagt, daß zu jedem l eine Isogenie vom Grad prim zu l zwischen A und B existiert. Wir dürfen weiter den Grundkörper K zum Beweis erweitern, und dann annehmen, daß A und alle B's sich zu semiabelschen Varietäten über Spec(R) fortsetzen, und daß es für alle B's eine Isogenie vom Grad  $\\sqrt{d}$  mit einer prinzipal polarisierten abelschen Varietät gibt. Man kommt dann leicht auf folgende Voraussetzungen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.26365054602184085,
+            0.5508684863523573,
+            0.2823712948517941
+          ],
+          "content": "a) alle B's haben semistabile Reduktion,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.2839313572542902,
+            0.5210918114143921,
+            0.30109204368174725
+          ],
+          "content": "b) alle B/K sind prinzipal polarisiert,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.2995319812792512,
+            0.9280397022332506,
+            0.3369734789391576
+          ],
+          "content": "c) es gibt ein N, so daß für jede Primzahl l und alle B's Isogenien  $\\phi: A \\to B$  existieren, für die die größte l-Potenz in  $\\text{Grad}(\\varphi)$  N teilt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.3369734789391576,
+            0.9305210918114144,
+            0.3915756630265211
+          ],
+          "content": "Die Bemerkung nach Lemma 5 zeigt dann, daß $\\exp(2[K:\\mathbb{Q}](h(B)-h(A))$ eine rationale Zahl ist, deren Zähler und Nenner durch eine geeignete Potenz von $N$ abgeschätzt werden kann."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.3915756630265211,
+            0.8039702233250621,
+            0.4118564742589704
+          ],
+          "content": "Also sind die  $h(B)$  beschränkt, und man kann Satz 1 anwenden."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06699751861042183,
+            0.44461778471138846,
+            0.3027295285359802,
+            0.46489859594383776
+          ],
+          "level": 2,
+          "content": "§ 6. Endlichkeitssätze"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.48205928237129486,
+            0.9280397022332506,
+            0.5397815912636506
+          ],
+          "content": "Satz5. Sei S eine endliche Menge von Stellen von K. Dann gibt es nur endlich viele Isogenie-Klassen abelscher Varietäten vorgegebener Dimension über K, welche gute Reduktion außerhalb S haben."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5460218408736349,
+            0.9305210918114144,
+            0.6755070202808112
+          ],
+          "content": "Beweis. Sei A eine solche abelsche Varietät. Nach den Weil-Vermutungen gibt es für  $v \\notin S$  nur endlich viele Möglichkeiten für den lokalen L-Faktor  $L_{v}(A, s)$ . Wir werden endlich viele Stellen  $v_{1}, \\ldots, v_{r}$  konstruieren, so daß zwei A's schon isogen sind, wenn sie an diesen Stellen denselben lokalen L-Faktor haben. Dazu wähle man eine Primzahl l. Nach Lemma 4 existiert eine endliche Galois-Erweiterung  $K' \\supseteq K$ , welche alle außerhalb l und S unverzweigten Körpererweiterungen von K vom Grad  $\\leq l^{8g^{2}}$  umfaßt ( $g = \\dim(A)$ )."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6739469578783152,
+            0.9305210918114144,
+            0.748829953198128
+          ],
+          "content": "Sei $G=\\mathrm{Gal}(K'/K)$; und man wähle $v_{1},\\ldots,v_{r}$ so daß jede Konjugationsklasse in $G$ das Bild eines Frobenius $F_{v}$ für $v\\in\\{v_{1},\\ldots,v_{r}\\}$ enthält (Čebotarev). Dann erfüllen $v_{1},\\ldots,v_{r}$ unsere Forderungen: Seien $A_{1},A_{2}$ zwei abelsche Varietäten über $K$, welche denselben lokalen $L$-Faktor an $v_{1},\\ldots,v_{r}$ haben."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.7472698907956318,
+            0.14640198511166252,
+            0.7644305772230889
+          ],
+          "content": "Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3176178660049628,
+            0.7613104524180967,
+            0.6799007444168734,
+            0.781591263650546
+          ],
+          "content": "M \\subseteq \\operatorname{End} _ {\\mathbf {Z} _ {l}} (T _ {l} (A _ {1})) \\times \\operatorname{End} _ {\\mathbf {Z} _ {l}} (T _ {l} (A _ {2}))",
+          "image_source": "images/page_13_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7925117004680188,
+            0.6674937965260546,
+            0.8127925117004681
+          ],
+          "content": "die  $Z_{l}$ -Unteralgebra, die vom Bild von  $\\pi$  erzeugt wird."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8112324492979719,
+            0.9305210918114144,
+            0.8486739469578783
+          ],
+          "content": "Dann ist $M$ freier $\\mathbb{Z}_{l}$-Modul vom $\\operatorname{Rang} \\leq 8g^{2}$, und $M$ besitzt Darstellungen auf $T_{l}(A_{1})$ und $T_{l}(A_{2})$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10669975186104218,
+            0.8486739469578783,
+            0.5409429280397022,
+            0.8673946957878315
+          ],
+          "content": "Wir müssen zeigen, daß für jedes  $m \\in M$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3250620347394541,
+            0.8798751950078003,
+            0.6799007444168734,
+            0.9001560062402496
+          ],
+          "content": "\\operatorname{Spur} (m \\mid T _ {l} (A _ {1})) = \\operatorname{Spur} (m \\mid T _ {l} (A _ {2})).",
+          "image_source": "images/page_13_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.9110764430577223,
+            0.9305210918114144,
+            0.9500780031201248
+          ],
+          "content": "Es reicht natürlich, dies für m aus einer  $Z_{l}$ -Modulbasis von M zu zeigen, und nach Voraussetzung gilt die Gleichheit schon, wenn m Bild eines Elements aus"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10421836228287841,
+            0.062402496099843996
+          ],
+          "content": "362"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8213399503722084,
+            0.0483619344773791,
+            0.9280397022332506,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9205955334987593,
+            0.13884555382215288
+          ],
+          "content": "der Konjugationsklasse von  $F_{v}$  ist, für  $v \\in \\{v_{1}, \\ldots, v_{r}\\}$ . Wir zeigen, daß diese Bilder M über  $Z_{l}$  erzeugen. Nach Nakayama reicht es, wenn sie M/lM erzeugen. Dies gilt aber aus folgendem Grund:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09925558312655088,
+            0.13884555382215288,
+            0.4119106699751861,
+            0.15600624024961
+          ],
+          "content": "Wir haben eine Darstellung"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27543424317617865,
+            0.1684867394695788,
+            0.7146401985111662,
+            0.18876755070202808
+          ],
+          "content": "\\rho \\colon \\pi \\rightarrow (M / l M) ^ {*} = \\text { Einheiten   von } M / l M,",
+          "image_source": "images/page_14_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.1981279251170047,
+            0.3523573200992556,
+            0.21840873634945399
+          ],
+          "content": "deren Bild M/lM erzeugt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.21684867394695787,
+            0.14392059553349876,
+            0.23556942277691106
+          ],
+          "content": "Da"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40198511166253104,
+            0.23244929797191888,
+            0.5930521091811415,
+            0.25273010920436817
+          ],
+          "content": "\\# (M / l M) ^ {*} \\leq l ^ {8 g ^ {2}},",
+          "image_source": "images/page_14_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.26521060842433697,
+            0.9255583126550868,
+            0.3042121684867395
+          ],
+          "content": "faktorisiert $\\rho$ über $G$, und $\\rho(\\pi)$ ist die Vereinigung der Bilder der Konjugationsklassen der $F_{v}$, $v\\in\\{v_{1},\\ldots,v_{r}\\}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.31045241809672386,
+            0.9280397022332506,
+            0.3837753510140406
+          ],
+          "content": "Satz 6 (Shafarevich-Vermutung). Sei S eine endliche Menge von Stellen von K, d>0. Dann gibt es nur endlich viele Isomorphie-Klassen d-fach polarisierter abelscher Varietäten über K von vorgegebener Dimension, welche außerhalb S gute Reduktion haben."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.39313572542901715,
+            0.9280397022332506,
+            0.4664586583463339
+          ],
+          "content": "Beweis. Nach Satz 5 nehmen wir an, daß die betrachteten abelschen Varietäten B/K alle isogen zu einem festen A/K sind. Wie im Beweis des Korollar 3 zu Satz 4 dürfen wir weiter voraussetzen, daß sich alle B's zu semiabelschen Varietäten über Spec(R) fortsetzen, und daß d=1 ist. Wir wissen schon, daß"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3523573200992556,
+            0.4789391575663027,
+            0.6426799007444168,
+            0.49921996879875197
+          ],
+          "content": "\\exp (2 [ K: \\mathbb {Q} ] (h (B) - h (A)))",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5101404056162246,
+            0.9280397022332506,
+            0.5663026521060842
+          ],
+          "content": "eine rationale Zahl ist. Wir werden ein N konstruieren, so daß Zähler und Nenner dieser rationalen Zahl keine Primfaktoren l>N besitzen, und daß die auftretenden l-Potenzen für Primzahlen  $l \\leq N$  beschränkt sind."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.5647425897035881,
+            0.4292803970223325,
+            0.5834633385335414
+          ],
+          "content": "Das letztere ist ganz einfach:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5819032761310452,
+            0.9280397022332506,
+            0.6396255850234009
+          ],
+          "content": "Wenn für zwei abelsche Varietäten  $B_{1}/K$  und  $B_{2}/K$$T_{l}(B_{1})$  und  $T_{l}(B_{2})$  als  $\\pi$ -Moduln isomorph sind, so existiert nach Satz4 eine Isogenie vom Grad prim zu l zwischen  $B_{1}$  und  $B_{2}$, und l tritt nicht in"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34491315136476425,
+            0.6505460218408736,
+            0.652605459057072,
+            0.6708268330733229
+          ],
+          "content": "\\exp (2 [ K: \\mathbb {Q} ] (h (B _ {1}) - h (B _ {2})))",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6739469578783152,
+            0.11662531017369727,
+            0.6911076443057722
+          ],
+          "content": "auf."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.6926677067082684,
+            0.9305210918114144,
+            0.765990639625585
+          ],
+          "content": "Es reicht also, wenn es nur endlich viele Isomorphie-Klassen $\\pi$-invarianter Gitter in $T_{l}(A)\\otimes_{\\mathbb{Z}_{l}}\\mathbb{Q}_{l}$ gibt. Dazu sei $M_{l}$ die von $\\pi$ erzeugte $\\mathbb{Z}_{l}$-Unteralgebra von $\\operatorname{End}_{\\mathbb{Z}_{l}}(T_{l}(A))$. Es folgt dann alles aus der Tatsache, daß $M_{l}\\otimes_{\\mathbb{Z}_{l}}\\mathbb{Q}_{l}$ halbeinfach ist (Satz 3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.765990639625585,
+            0.9305210918114144,
+            0.8205928237129485
+          ],
+          "content": "Wir kommen nun zur Wahl von N. Dazu sei n das Produkt der Primzahlen l, für welche entweder die Erweiterung  $K \\supseteq Q$  in l verzweigt, oder A nicht gute Reduktion an allen Stellen der Charakteristik l hat."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10421836228287841,
+            0.8205928237129485,
+            0.7146401985111662,
+            0.8408736349453978
+          ],
+          "content": "Wähle eine Primzahl p, welche n nicht teilt. Sei wieder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3349875930521092,
+            0.8517940717628705,
+            0.6650124069478908,
+            0.8720748829953198
+          ],
+          "content": "\\tilde {\\pi} = \\operatorname{Gal} (\\overline {{{\\mathbb {Q}}}} / \\mathbb {Q}) \\supseteq \\pi = \\operatorname{Gal} (\\overline {{{K}}} / K),",
+          "image_source": "images/page_14_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06947890818858561,
+            0.8829953198127926,
+            0.6054590570719603,
+            0.9048361934477379
+          ],
+          "content": "und, für $0 \\leq h \\leq 2gm$ ($g = \\dim(A)$, $m = [K: \\mathbb{Q}]$), sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31017369727047145,
+            0.9157566302652106,
+            0.6898263027295285,
+            0.9360374414976599
+          ],
+          "content": "P _ {h} (T) = \\det \\left[ T - F _ {p} | \\Lambda^ {h} (\\operatorname{Ind} _ {\\tilde {\\pi}} ^ {\\pi} (T _ {l} (A))) \\right].",
+          "image_source": "images/page_14_equation_20.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5856079404466501,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8883374689826302,
+            0.0499219968798752,
+            0.9230769230769231,
+            0.06396255850234009
+          ],
+          "content": "363"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.08268330733229329,
+            0.9230769230769231,
+            0.12012480499219969
+          ],
+          "content": "Dabei ist l eine zu pn prime Primzahl, und  $F_{p}$  bezeichnet den Frobenius an der Stelle p."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.11856474258970359,
+            0.9230769230769231,
+            0.16536661466458658
+          ],
+          "content": "Die  $P_{h}(T)$  sind unabhängig von l, haben Koeffizienten in Z, und ihre Nullstellen haben absoluten Betrag  $p^{+\\frac{h}{2}}$  (Weil-Vermutung oder besser -Satz)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.16380655226209048,
+            0.9255583126550868,
+            0.18408736349453977
+          ],
+          "content": "Wir wählen nun  $N \\geq 2$  so groß, daß keine Primzahl  $l > N$$P_{h}(\\pm p^{j})$  teilt, falls"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4267990074441687,
+            0.19500780031201248,
+            0.5632754342431762,
+            0.2667706708268331
+          ],
+          "content": "\\begin{array}{l} 0 \\leq h \\leq 2 g m \\\\ 0 \\leq j \\leq g m \\\\ j \\neq \\frac {1}{2} h. \\end{array}",
+          "image_source": "images/page_15_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.2698907956318253,
+            0.31265508684863524,
+            0.28861154446177845
+          ],
+          "content": "Außerdem sei $N \\geq np$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.28861154446177845,
+            0.5583126550868487,
+            0.3088923556942278
+          ],
+          "content": "Wir werden zeigen, daß für jede Isogenie"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4317617866004963,
+            0.31357254290171604,
+            0.5607940446650124,
+            0.3338533541341654
+          ],
+          "content": "\\phi \\colon B _ {1} \\to B _ {2}",
+          "image_source": "images/page_15_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.34477379095163807,
+            0.9280397022332506,
+            0.4165366614664587
+          ],
+          "content": "von zu A isogenen abelschen Varietäten, deren Grad eine l-Potenz mit einer Primzahl l>N ist,  $h(B_{1})$  und  $h(B_{2})$  übereinstimmen. Dies geht ähnlich wie beim Beweis des Satzes 2: Wir dürfen annehmen, daß l den Kern G von  $\\phi$  annuliert. Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3225806451612903,
+            0.4118564742589704,
+            0.6625310173697271,
+            0.5085803432137286
+          ],
+          "content": "\\begin{array}{l} V _ {l} = T _ {l} (B _ {1}) / l \\cdot T _ {l} (B _ {1}) \\cong B _ {1} [ l ] (\\overline {{K}}), \\\\ \\tilde {V} _ {l} = \\mathrm{Ind} _ {\\pi} ^ {\\pi} (V), \\\\ W _ {l} = G (\\overline {{K}}) \\subseteq V _ {l} \\\\ \\tilde {W} _ {l} = \\mathrm{Ind} _ {\\pi} ^ {\\pi} (W _ {l}) \\subseteq \\tilde {V} _ {l}. \\end{array}",
+          "image_source": "images/page_15_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5179407176287052,
+            0.5781637717121588,
+            0.5397815912636506
+          ],
+          "content": "Wenn $\\phi$ die Ordnung $l^h$ hat, so operiert $\\tilde{\\pi}$ auf"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38213399503722084,
+            0.5491419656786272,
+            0.6129032258064516,
+            0.5709828393135725
+          ],
+          "content": "L = \\Lambda^ {m h} (\\tilde {W} _ {l}) \\subseteq \\Lambda^ {m h} (\\tilde {V} _ {l})",
+          "image_source": "images/page_15_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.5819032761310452,
+            0.456575682382134,
+            0.6006240249609984
+          ],
+          "content": "via einen Charakter $\\chi\\colon\\tilde{\\pi}\\to(\\mathbb{Z}/l\\mathbb{Z})^{*}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6006240249609984,
+            0.9280397022332506,
+            0.7129485179407177
+          ],
+          "content": "Wenn $\\varepsilon\\colon\\tilde{\\pi}\\to\\{\\pm1\\}$ den Charakter bezeichnet, mit dem $\\tilde{\\pi}$ auf $A^{m}\\operatorname{Ind}_{\\pi}^{\\tilde{\\pi}}(\\mathbb{Z})$ operiert, so ist $\\chi\\cdot\\varepsilon^{h}$ unverzweigt außerhalb $l$, denn die Trägheitsgruppen der Stellen $v$ von $K$, welche $l$ nicht teilen, operieren unipotent auf $V_{l}$ (semistabile Reduktion). Nach der Klassenkörpertheorie ist $\\chi\\cdot\\varepsilon^{h}$ eine Potenz des zyklotomischen Charakters $\\chi_{0}$. Diese Potenz läßt sich mit Hilfe von [10], Théorème 4.11 (statt der Tateschen Theorie [13]) wie folgt bestimmen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.7098283931357254,
+            0.14640198511166252,
+            0.7269890795631825
+          ],
+          "content": "Sei"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4119106699751861,
+            0.7316692667706708,
+            0.5806451612903226,
+            0.7784711388455539
+          ],
+          "content": "\\begin{array}{l} l ^ {d} = \\# s ^ {*} (\\Omega_ {G / R} ^ {1}), \\\\ 0 \\leq d \\leq g m. \\end{array}",
+          "image_source": "images/page_15_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7909516380655226,
+            0.56575682382134,
+            0.8127925117004681
+          ],
+          "content": "Dann ist (nach Raynaud) $\\chi \\cdot \\varepsilon^{h} = \\chi_{0}^{+d}$. Also ist"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4267990074441687,
+            0.8237129485179407,
+            0.5707196029776674,
+            0.8471138845553822
+          ],
+          "content": "\\chi_ {0} ^ {d} (F _ {p}) = \\pm p ^ {d}",
+          "image_source": "images/page_15_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.8486739469578783,
+            0.9280397022332506,
+            0.8939157566302652
+          ],
+          "content": "eine Nullstelle von $P_{mh}(T)$ modulo $l$, und nach Wahl von $N$ muß $d=\\frac{hm}{2}$ gelten. Da wieder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337468982630273,
+            0.9001560062402496,
+            0.6600496277915633,
+            0.9391575663026521
+          ],
+          "content": "h (B _ {2}) - h (B _ {1}) = \\log (l) \\left(\\frac {h}{2} - \\frac {d}{m}\\right),",
+          "image_source": "images/page_15_equation_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0499219968798752,
+            0.10421836228287841,
+            0.06396255850234009
+          ],
+          "content": "364"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8188585607940446,
+            0.0483619344773791,
+            0.9255583126550868,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.08268330733229329,
+            0.9230769230769231,
+            0.11856474258970359
+          ],
+          "content": "folgt unsere Behauptung, und es ergibt sich, daß die  $h(B)$ 's der betrachteten B's beschränkt sind. Damit folgt Satz6 aus Satz1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.12792511700468018,
+            0.9230769230769231,
+            0.16536661466458658
+          ],
+          "content": "Korollar 1. Es gibt nur endlich viele Isomorphie-Klassen glatter Kurven X/K vom Geschlecht g≥2, welche außerhalb S gute Reduktion haben."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.17160686427457097,
+            0.23573200992555832,
+            0.19032761310452417
+          ],
+          "content": "Beweis. Torelli."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.1996879875195008,
+            0.9230769230769231,
+            0.23712948517940718
+          ],
+          "content": "Satz 7 (Mordell-Vermutung). Sei X/K eine glatte Kurve vom Geschlecht  $g \\geq 2$ . Dann ist  $X(K)$  endlich."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.24492979719188768,
+            0.9230769230769231,
+            0.2839313572542902
+          ],
+          "content": "Beweis. Dies steht in [9]: Nach eventueller Erweiterung des Grundkörpers gibt es eine unverzweigte Überlagerung vom Grad m>2:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4267990074441687,
+            0.2948517940717629,
+            0.5607940446650124,
+            0.31357254290171604
+          ],
+          "content": "\\phi \\colon X _ {1} \\to X.",
+          "image_source": "images/page_16_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.062034739454094295,
+            0.32605304212168484,
+            0.9255583126550868,
+            0.38065522620904835
+          ],
+          "content": "Lemma 4 liefert einen endlichen Oberkörper $K_{1} \\supseteq K$, so daß für jedes $x \\in X(K)$$\\phi^{-1}(x)$ aus $m$ verschiedenen $K_{1}$-rationalen Punkten besteht. Man wähle einen davon aus, etwa $y \\in p^{-1}(x)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.38065522620904835,
+            0.9255583126550868,
+            0.43525741029641185
+          ],
+          "content": "Sei  $D=\\phi^{-1}(x)-\\{y\\}$ , und  $A/K_{1}$  die verallgemeinerte Jacobische zu dem Paar  $(X_{1},D)$ . Mit Hilfe von y konstruiert man eine Abbildung von  $X_{1}-D$  nach A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.43525741029641185,
+            0.9280397022332506,
+            0.5085803432137286
+          ],
+          "content": "Die Multiplikation mit 2 auf A induziert dann eine genaue über D verzweigte Überlagerung  $Y(x) \\to X_{1}$ , wobei die Kurve  $Y(x)$  nur an solchen Stellen v von  $K_{1}$  schlechte Reduktion haben kann, für die eine der drei folgenden Bedingungen gilt:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.514820592823713,
+            0.23076923076923078,
+            0.5304212168486739
+          ],
+          "content": "a) v teilt 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.53198127925117,
+            0.5012406947890818,
+            0.5491419656786272
+          ],
+          "content": "b) $X_{1}$ hat schlechte Reduktion in $v$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10173697270471464,
+            0.5507020280811232,
+            0.48635235732009924,
+            0.5678627145085804
+          ],
+          "content": "c) $\\phi$ verzweigt in der Faser mod $v$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.5678627145085804,
+            0.9280397022332506,
+            0.6037441497659907
+          ],
+          "content": "Dies sind nur endlich viele Stellen, und es gibt somit nur endlich viele Möglichkeiten für  $Y(x)$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6037441497659907,
+            0.9280397022332506,
+            0.6427457098283932
+          ],
+          "content": "Dasselbe gilt für die Abbildung  $Y(x) \\to X_{1} \\to X$ , welche genau über x verzweigt. Es folgt die Behauptung."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.6489859594383776,
+            0.9280397022332506,
+            0.7035881435257411
+          ],
+          "content": "Bemerkungen. 1. Man erhält auf diesem Wege auch einen Beweis des Siegelschen Satzes (über ganze Punkte), welcher ohne diophantische Approximation auskommt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06699751861042183,
+            0.7035881435257411,
+            0.9305210918114144,
+            0.7613104524180967
+          ],
+          "content": "2. Mit Hilfe der Methode aus [16] kann man aus Satz 6 folgern, daß für fast alle Primzahlen $l$ die von $\\pi$ erzeugte Unteralgebra $M_{l}$ von $\\operatorname{End}_{\\mathbb{Z}_{l}}(T_{l}(A))$ der volle Kommutator von $\\operatorname{End}_{K}(A)\\otimes_{\\mathbb{Z}}\\mathbb{Z}_{l}$ ist."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06947890818858561,
+            0.7956318252730109,
+            0.17121588089330025,
+            0.8143525741029641
+          ],
+          "level": 2,
+          "content": "Literatur"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0794044665012407,
+            0.8346333853354134,
+            0.9280397022332506,
+            0.8642745709828393
+          ],
+          "content": "1. Arakelov, S.: Families of curves with fixed degeneracies. Math. USSR Izvestija 5, 1277-1302 (1971)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0794044665012407,
+            0.8658346333853354,
+            0.9280397022332506,
+            0.8939157566302652
+          ],
+          "content": "2. Arakelov, S.: An Intersection theory for divisors on an arithmetic surface. Math. USSR Izvestija 8, 1167-1180 (1974)"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.0794044665012407,
+            0.8954758190327613,
+            0.9280397022332506,
+            0.9235569422776911
+          ],
+          "content": "3. Baily, W.L., Borel, A.: Compactification of arithmetic quotients of bounded symmetric domains. Ann. of Math. 84, 442-528 (1966)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06451612903225806,
+            0.0483619344773791,
+            0.5831265508684863,
+            0.0655226209048362
+          ],
+          "content": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.890818858560794,
+            0.0499219968798752,
+            0.9255583126550868,
+            0.06396255850234009
+          ],
+          "content": "365"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.06699751861042183,
+            0.8876755070202809,
+            0.2853598014888337,
+            0.9048361934477379
+          ],
+          "level": 2,
+          "content": "Zusatz bei der Korrektur"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06451612903225806,
+            0.9079563182527302,
+            0.9255583126550868,
+            0.9391575663026521
+          ],
+          "content": "Herr O. Gabber hat mir mitgeteilt, daß der Beweis von Satz 2 nicht ganz korrekt ist. Man erhält nur, daß die Folge $h(A_{n})$ stationär wird. Dies reicht für unsere Zwecke."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.06699751861042183,
+            0.0514820592823713,
+            0.10421836228287841,
+            0.06396255850234009
+          ],
+          "content": "366"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.8238213399503722,
+            0.0499219968798752,
+            0.9280397022332506,
+            0.0655226209048362
+          ],
+          "content": "G. Faltings"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.08580343213728549,
+            0.9205955334987593,
+            0.11544461778471139
+          ],
+          "content": "4. Deligne, P., Mumford, D.: The irreducibility of the space of curves of a given genus. Publ. math. I.H.E.S. 36, 75-110 (1969)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.11544461778471139,
+            0.7617866004962779,
+            0.1294851794071763
+          ],
+          "content": "5. Faltings, G.: Calculus on arithmetic surfaces. Eingereicht bei Ann. of Math."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.1294851794071763,
+            0.8461538461538461,
+            0.14664586583463338
+          ],
+          "content": "6. Faltings, G.: Arakelov's theorem for abelian varieties. Invent. math. 73, 337-347 (1983)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.14664586583463338,
+            0.9230769230769231,
+            0.1747269890795632
+          ],
+          "content": "7. Moret-Bailly, L.: Variétés abéliennes polarisées sur les corps de fonctions. C.R. Acad. Sc. Paris 296, 267–270 (1983)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.1747269890795632,
+            0.9205955334987593,
+            0.2059282371294852
+          ],
+          "content": "8. Namikawa, Y.: Toroidal compactification of Siegel spaces. Lecture Notes in Mathematics, vol. 812. Berlin-Heidelberg-New York: Springer 1980"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.07692307692307693,
+            0.2059282371294852,
+            0.9230769230769231,
+            0.23400936037441497
+          ],
+          "content": "9. Parshin, A.N.: Algebraic curves over function fields I. Math. USSR Izvestija 2, 1145-1170 (1968)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.23400936037441497,
+            0.9230769230769231,
+            0.26365054602184085
+          ],
+          "content": "10. Raynaud, M.: Schémas en groupes de type $(p,\\dots,p)$. Bull. Soc. Math. France 102, 241-280 (1974)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.26365054602184085,
+            0.9007444168734491,
+            0.28081123244929795
+          ],
+          "content": "11. Szpiro, L.: Sur le théorème de rigidité de Parsin et Arakelov. Astérisque 64, 169-202 (1979)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.2792511700468019,
+            0.9230769230769231,
+            0.2948517940717629
+          ],
+          "content": "12. Szpiro, L.: Séminaire sur les pinceaux de courbes de genre au moins deux. Astérisque 86 (1981)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.2948517940717629,
+            0.9230769230769231,
+            0.3244929797191888
+          ],
+          "content": "13. Tate, J.: p-divisible groups. Proceedings of a conference on local fields, Driebergen 1966, pp. 158–183. Berlin-Heidelberg-New York: Springer 1967"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.3244929797191888,
+            0.9205955334987593,
+            0.33853354134165364
+          ],
+          "content": "14. Tate, J.: Endomorphisms of abelian varieties over finite fields. Invent. math. 2, 134–144 (1966)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.33853354134165364,
+            0.9205955334987593,
+            0.36817472698907955
+          ],
+          "content": "15. Zarhin, J.G.: Isogenies of abelian varieties over fields of finite characteristics. Math. USSR Sbornik 24, 451–461 (1974)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.06947890818858561,
+            0.36817472698907955,
+            0.9230769230769231,
+            0.39781591263650545
+          ],
+          "content": "16. Zarhin, J.G.: A remark on endomorphisms of abelian varieties over function fields of finite characteristics. Math. USSR Izvestija 8, 477–480 (1974)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.36476426799007444,
+            0.42745709828393136,
+            0.6277915632754343,
+            0.44305772230889234
+          ],
+          "content": "Oblatum 8-VI & 10-VII-1983"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}
