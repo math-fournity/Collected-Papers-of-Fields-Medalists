@@ -45,3 +45,15 @@
   脚注 3 缺号。修复建议：将该 "$^{8}$" 改回 "$^{3}$"。
 - 备注：±项（不误导）：①行 121-125 五个孤立 page_footnote 碎片 span（"E, F"/"$Y_0$"/"T(Y)"/"X"/
   "T(X)⊗_R C"——正文片段重复检出，碎片化伪影）；②ℚ 转写为 \mathcal{Q}（Zelmanov 篇同类）。
+
+## p.004（PDF p.4 / 印刷 p.425）
+- PNG：audit/p004.png（pngmono 150dpi）
+- 核对：
+  - 𝕀(X)=𝕀(T(X))、y_j² 初等对称函数、𝕀(X)=∏_j y_j/(1−e^{−y_j})·(−y_j)/(1−e^{y_j}) ✓
+  - α[X] 定义 ✓
+  - **THEOREM 1**：γ(D)={ch(D)·𝕀(X)}[X] ✓（逐字，含黑体 [X]）
+  - REMARKS 1-3（singular integral operators cf. §4 / γ(D)=0 cf. (3.5) / rational→integer）✓
+  - §3 G-structure：G-模 V、principal G-bundle P、(A) P×_G V≅T(X)、(B) P×_G M≅E, P×_G N≅F、
+    G-map V*→Hom(M,N) polynomial degree k ✓
+- 结果：**PASS**（±：页眉 "1963₁ … 425" 未收）
+- 备注：本页无内容级差异；定理公式逐字符吻合。
