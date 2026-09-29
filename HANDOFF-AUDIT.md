@@ -2,8 +2,8 @@
 
 > **致接手 AI**：本文件是「Collected-Papers-of-Fields-Medalists 论文 MinerU 化 + 逐页视觉审计」
 > 任务的唯一交接手册。不需要任何对话历史，按本文执行即可。
-> 上次更新：2026-09-29（第二轮接力后更新）。**当前进度：19/85 完成；mineru 82/86 已导出（剩 Lafforgue/Thompson）；
-> 逐页进度见根目录 `AUDIT-PROGRESS.log`——恢复时先读其末尾一行再行动。**
+> 上次更新：2026-09-29（第二轮接力后更新）。**当前进度：20/85 完成；mineru 批次 ALL DONE（84/85 导出成功，
+> 仅 Huh 失败）；逐页进度见根目录 `AUDIT-PROGRESS.log`——恢复时先读其末尾一行再行动。**
 
 ---
 
@@ -127,8 +127,9 @@
 - **在审**：Duminil-Copin–Smirnov honeycomb（11p；`2010年 - Smirnov/` 与 `2022年 - Duminil-Copin/` 为
   byte-identical 副本——一份审计对两者有效）。p.001–p.008 已签（p.004 单点 FAIL：cos π/8 丢失分母 8）；
   从 p.009 继续（先读 `AUDIT-PROGRESS.log` 末行）。
-- mineru 批次：**82/86 已导出**；正跑 Lafforgue(241p)，其后 Thompson(282p)；EGA I 分卷 2 zips（含一次
-  gs page-range 警告，审计分片时核对完整性）。
+- mineru 批次：**ALL DONE——84/85 导出成功**（Mori 用既有 full.md 跳过）；仅 `Huh_2020_lorentzian_polynomials`
+  失败×2（待排查）。大件分卷件已导出：Thompson 2 片、Lafforgue 2 片、EGA I 2 片、Schwartz II 2 片
+  （md 命名 `<base>__partNN.md`，审计时按分片接力；Schwartz I 为单件）。
 - `Huh_2020_lorentzian_polynomials` 连续 2 次 FAIL，待排查。
 - 新增约定：`AUDIT-PROGRESS.log` 每页一行；数字件用 `pdftotext` 逐字符对账；批次脚本 skip 逻辑已修复。
 - 下一步队列（页数升序）：Atiyah–Singer 1963 (12p)、Baker 俄译 (12p)、Ahlfors 1930 (38p)、…

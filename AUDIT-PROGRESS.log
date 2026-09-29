@@ -35,3 +35,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 14:54 | NOTE | honeycomb 审计文件+总评完成；2022-Duminil-Copin 目录已建互指 AUDIT 文件；待 index+commit
 2026-09-29 14:55 | DONE | honeycomb 11/11 | PASS±×10+FAIL×1(单点) | ab0ae23
 2026-09-29 14:55 | COMMIT | ab0ae23 | 累计20/85
+2026-09-29 14:55 | NOTE | 批次 ALL DONE：84/85 导出成功（Mori 用既有 full.md；仅 Huh 失败×2）；大件分卷件已导出
