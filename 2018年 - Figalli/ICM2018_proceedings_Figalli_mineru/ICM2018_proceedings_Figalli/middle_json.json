@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.373109243697479,
+            0.14982164090368608,
+            0.6504201680672269,
+            0.16765755053507728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Work of Alessio Figalli"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.44873949579831934,
+            0.18192627824019025,
+            0.5764705882352941,
+            0.1985731272294887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Allyn Jackson"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.21284185493460167,
+            0.8420168067226891,
+            0.3329369797859691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the extremely active area of optimal transport theory, which has attracted some of the top minds in mathematics, Alessio Figalli stands out as a major leader and innovator. His oeuvre, comprising around 150 publications, would be remarkable for a mathematician of retirement age; that he has produced so much at 34 is simply astonishing. More important than the sheer number of publications is their breadth and depth, which display a wide-ranging curiosity, brilliant insights, and supreme technical power."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.3329369797859691,
+            0.8420168067226891,
+            0.40190249702734837
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A complete overview of Figalli’s achievements is not possible in a short space. Therefore we present here a brief introduction to the concept of optimal transport, followed by descriptions of three problems that exemplify the range and virtuosity of Figalli’s work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.40190249702734837,
+            0.8420168067226891,
+            0.5053507728894173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Imagine n books standing on a shelf. An optimal way to shift the entire set of books one place to the right would be to shift the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": "book one place to the right, then the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n - 1 ) ^ { s t }"
+            },
+            {
+              "type": "text",
+              "content": "book, and so on, finally moving the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 ^ { s t }"
+            },
+            {
+              "type": "text",
+              "content": "book one place to the right. This method “costs” n moves. There is another optimal solution, also with cost n: Take the first book and shift it n places to the right. Each of these solutions is an optimal transport map."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.17983193277310924,
+            0.5041617122473246,
+            0.8420168067226891,
+            0.6087990487514863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first rigorous analysis of this kind of problem came around 250 years ago in the work of the French mathematician Gaspard Monge, who analyzed how to minimize the cost of transporting building materials from their source to the building site. Taking an abstract view of the geometry of the problem, Monge concluded that an optimal transport map is one that minimizes the distance the building materials travel."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.17983193277310924,
+            0.6076099881093936,
+            0.8420168067226891,
+            0.7633769322235434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Monge’s work went undeveloped for about 150 years, partly because the necessary mathematical tools were lacking. In the 1940s, economist and mathematician Leonid Kantorovich revived the subject using modern tools of measure theory and functional analysis. He widened the setting of the problem to include more-complex situations, such as a collection of several bakeries supplying goods to several diferent cofee shops. In this case an optimal transport map matches bakeries with cofee shops while minimizing the total cost of transporting the baked goods. In 1975, Kantorovich received the Nobel Prize in Economic Sciences for his work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.17983193277310924,
+            0.760998810939358,
+            0.8420168067226891,
+            0.797859690844233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "During the 1980s, mathematicians made several important theoretical advances in optimal transport, leading to an explosion of new applications"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5159663865546219,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8420168067226891,
+            0.25326991676575505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "to areas such as urban planning, engineering design, hydrodynamics, image processing, shape recognition, and biology. These advances also stimulated the use of optimal transport within mathematics, particularly in Riemannian geometry and partial diferential equations. A stellar example of the latter is the work of Figalli and his coauthors, Francesco Maggi and Aldo Pratelli, on what are known as isoperimetric problems."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.2544589774078478,
+            0.8436974789915966,
+            0.3733650416171225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The classic isoperimetric problem can be stated this way: Given a fixed amount of fencing, what shape encloses the largest amount of land? It can be proved that the optimal shape is a circle, which encloses a fixed amount of area while minimizing the length of the fence. Soap bubbles supply another example of isoperimetric phenomena: While enclosing a fixed amount of air, a bubble minimizes a certain kind of energy, namely, the surface tension of the soap film."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.3733650416171225,
+            0.8554621848739495,
+            0.4768133174791914
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Crystals resemble soap bubbles in that they too adopt an energy-minimizing shape—albeit a very diferent shape that is dictated by their atomic structure. These properties of bubbles and crystals, which were understood a century ago, are very idealized and do not take into account other forces that might be operating. For instance, how does a crystal deform when energy is applied from the outside, say in the form of heat?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.4768133174791914,
+            0.8420168067226891,
+            0.6135552913198573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the question Figalli and his collaborators addressed, casting it as an optimal transport problem. With application of a quantity of energy E, the idealized crystal shape is “transported” to a new shape. Taking the cost to be the square of the distance that points in the crystal must move for the crystal to adopt the new shape, Figalli et al reached the surprisingly simple result that on average each point moves by an amount equal to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { E }"
+            },
+            {
+              "type": "text",
+              "content": ". This is a deep theoretical result, as it establishes the stability of the solution, meaning that if the energy added remains moderate, so does the change in shape."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.6147443519619501,
+            0.8420168067226891,
+            0.7348394768133175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A second example of the work of Figalli, carried out with several collaborators, also produced profound theoretical results, and ones that could immediately be applied to advance understanding of a system known as the semi-geostrophic equations. First proposed by meteorologists in the 1990s, these equations model large-scale dynamics in the atmosphere and oceans. They express understanding of the physics of large-scale flows and involve such quantities as velocity, pressure, and the geostrophic wind."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.17983193277310924,
+            0.7348394768133175,
+            0.8420168067226891,
+            0.8038049940546967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While the semi-geostrophic equations seemed intuitively to supply the right description of atmospheric and ocean phenomena, reliable solutions to the equations were dificult to obtain. In such a situation, it is possible that no solution exists, or that there are many solutions but one cannot tell"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.5042016806722689,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8420168067226891,
+            0.23543400713436385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which solution represents the actual physical phenomenon. A computer is of little help, as the needed approximations could end up supplying incorrect solutions. What is needed is a robust theoretical understanding of the system of equations and rigorous results about the existence and uniqueness of solutions."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.23662306777645659,
+            0.8420168067226891,
+            0.40784780023781214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "And these are just the advances Figalli and his coauthors produced. They considered another equation, called the Monge-Amp`ere equation, which has been studied extensively in mathematics, particularly in diferential geometry, and also arises in many problems across science and engineering. In the semi-geostrophic context, the Monge-Amp`ere equation expresses the optimal transport of one density to another, where the “cost” is the square of the distance traveled (a sort of kinetic energy). The densities might be water droplets or particles in a cloud, and these move around in an optimal way. Given a certain density, a solution of the Monge-Amp`ere equation provides the optimal transport map."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.40784780023781214,
+            0.8420168067226891,
+            0.5969084423305588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All of the results that were known about the Monge-Amp`ere equation over the past fifty years failed to provide a clear way to connect optimal transport to the semi-geostrophic context. This is why Figalli’s work, carried out with his co-author Guido De Philippis, caused so much excitement. They made a breakthrough in understanding the structure of solutions to the Monge-Amp`ere equation that provided just what was needed to allow opti mal transport theory to be applied to the semi-geostrophic equations. Their work delicately balanced technical finesse and creative insight. After that, De Philippis and Figalli, together with Luigi Ambrosio and Maria Colombo, attacked the semi-geostrophic equations directly and provided essentially a full solution in three-dimensional convex domains."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.5969084423305588,
+            0.8403361344537815,
+            0.6658739595719382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The final example of the work of Figalli is in the area of free boundary problems. These problems have been intensively studied in mathematics, particularly in the geometry of minimal surfaces, and arise frequently in physics and biology, as well as in many industries and in finance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.17983193277310924,
+            0.6658739595719382,
+            0.8436974789915966,
+            0.8038049940546967
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a block of ice submerged in liquid water. Inside the block is a region with temperature 0 degrees centigrade, and outside the block is a region with a temperature above 0 degrees centigrade. What is the shape of the boundary separating those two regions? Another example is what is known as an obstacle problem. Suppose we have an elastic membrane bounded on a wire and an obstacle, say a ball, sitting on a table. If we lower the membrane onto the obstacle, we see two distinct regions: The region where the membrane and ball have contact, and the region where they do"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.835909631391201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.17983193277310924,
+            0.14982164090368608,
+            0.8420168067226891,
+            0.23543400713436385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "not. When the obstacle is a ball, the boundary between the two regions is a circle. But if the obstacle is more complicated or irregular, the shape of the boundary could be much more dificult to predict. Mathematicians study these questions in abstract settings in which the objects coming into contact can be of any dimension."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.17983193277310924,
+            0.23662306777645659,
+            0.8420168067226891,
+            0.3733650416171225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Intuitively one expects the free boundary to be smooth, but proving this is exceedingly dificult. In principle, the free boundary could be a very irregular set, even fractal in shape, or it could possesses singularities, that is, kinks, folds, or self-intersections. Before the 1970s, very little was understood about the shape and smoothness of the free boundary, even in the simplest cases. A key advance came in 1977, when Luis Cafarelli proved that the free boundary is smooth outside a set of singular points. He also gave a rather precise geometric description of the shape of the set of singular points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.17983193277310924,
+            0.3733650416171225,
+            0.8420168067226891,
+            0.5101070154577884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the intervening 40 years, definitive results were obtained only for the case of two-dimensional objects. For this reason great acclaim greeted the work of Figalli, together with his co-author Joaquim Serra, who in 2017 gave a complete and definitive description of the free boundary. In particular, they showed that in the 3-dimensional case the free boundary is very smooth up to some isolated singularities. And, for any dimension, they proved a sharp result about the nature of the singularities in free boundaries. The new methods introduced in this work are having a wide impact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.17983193277310924,
+            0.5112960760998811,
+            0.8420168067226891,
+            0.6492271105826397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figalli’s area of research is surrounded by formidable technical machinery that often proves dificult for outsiders to penetrate. A master of this machinery, Figalli has made the area more widely accessible through his outstanding expositions, which cut through technicalities and reveal the conceptual structure. His influence has also been amplified by his friendliness and generosity in sharing ideas with students and younger colleagues. These personal qualities combine with mathematical brilliance to make Alessio Figalli an ideal leader whose impact in mathematics has only just begun."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 4,
+          "bbox": [
+            0.5058823529411764,
+            0.8228299643281808,
+            0.5176470588235295,
+            0.8347205707491082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

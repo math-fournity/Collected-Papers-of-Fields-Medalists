@@ -124,3 +124,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:07 | PAGE | IMU citation Venkatesh | p.1/2 | PASS± | short逐字
 2026-09-29 18:07 | PAGE | IMU citation Venkatesh | p.2/2 | FAIL | efective+丢反斜杠
 2026-09-29 18:07 | DONE | IMU citation Venkatesh | 2/2 | 2点FAIL已修复 | 累计27/140
+2026-09-29 18:09 | PAGE | ICM2018 Figalli | p.1/4 | PASS± | 开篇/Monge/Kantorovich吻合
