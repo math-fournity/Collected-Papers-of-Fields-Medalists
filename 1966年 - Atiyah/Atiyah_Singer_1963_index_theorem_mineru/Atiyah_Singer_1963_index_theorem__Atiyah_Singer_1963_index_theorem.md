@@ -124,7 +124,7 @@ so that $\mathfrak{I}(\eta)$ will be given by a power series in the Chern classe
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">X</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{8}$  We assume  $Y_{0}$  a “reasonable” subspace, e.g., a subcomplex.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$  We assume  $Y_{0}$  a “reasonable” subspace, e.g., a subcomplex.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$T(X)\otimes_{R}C.$</span></small>
 
@@ -324,7 +324,7 @@ The bottom  $\sigma$  (which is surjective) is a symbol given by a Fourier trans
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}$  Hom denotes here the set of all continuous vector bundle homomorphisms.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">\* Differential or integral (see §4).</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}$ Differential or integral (see §4).</span></small>
 
 $$
 \gamma (D) = \gamma (\lambda (D)).
@@ -458,6 +458,8 @@ of differential operators (of the same order) with  $D^{2}=0$  and such that the
 
 8. R. Bott, The stable homotopy of the classical groups. Ann. of Math. (2) 70 (1959), 313–337.
 
+9. ——, The index theorem for homogeneous differential operators (to appear).
+
 10. R. Brauer and H. Weyl, Spinors in n-dimensions, Amer. J. Math. 57 (1935), 425–449.
 
 11. A. P. Calderon and A. Zygmund, Singular integral operators and differential equations, Amer. J. Math. 79 (1957), 901–921.
@@ -483,3 +485,9 @@ of differential operators (of the same order) with  $D^{2}=0$  and such that the
 21. ——, The index of elliptic systems of singular integral operators (to appear).
 
 22. A. I. Vol'pert, On the index of systems of two-dimensional singular integral equations, Soviet Math. Dokl. 3 (1962), 154.
+
+OXFORD UNIVERSITY,
+
+HARVARD UNIVERSITY AND
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
