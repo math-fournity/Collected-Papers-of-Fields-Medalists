@@ -22,3 +22,13 @@
   "Optimizing the bound from **Theorem 1.1**"——原刊即印 1.1（应预期 1.2；源级笔误）——md 忠实 ✓
 - 结果：**PASS±**（±：页眉 "1018 COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA" 与页码未收）
 - 备注：Theorem 1.2 定义域/陪域与交叉引用号两处系原刊排印，对照 arXiv 版可进一步查证（本研究不代改）。
+
+## p.003（PDF p.3 / 印刷 p.1019）
+- PNG：audit/dim24_p003.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：r=2 双根条件（√(2k), k=2,3,…）✓；[2] §8 唯一性论证 ✓；Cohn-Miller [4] 猜想、
+  quasimodular 路线（weight −8 depth 2 / weight −10 Γ(2)）✓；**§2 +1 eigenfunction** ✓；
+  **(2.1) φ 定义**：25E₄⁴−49E₆²E₄+48E₆E₄²E₂+(−49E₄³+25E₆²)E₂²）/Δ²，q-展开
+  −3657830400q−314573414400q²−13716864000000q³+O(q⁴)——数字逐位吻合 ✓；E_k 定义 ✓；
+  Δ = (E₄³−E₆²)/1728 = q−24q²+252q³+O(q⁴) ✓；Δ 无零点句 ✓
+- 结果：**PASS±**（±：①页眉/页码 1019 未收；②"k = 2,3,…,."处 md 多一逗号（原刊为省略号+句点）
+  ——单字符排版级）

@@ -98,3 +98,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:17 | START | Viazovska dim24 | 17p | PNG渲染完成（pngmono 150dpi dim24_p001-p017）
 2026-09-29 17:21 | PAGE | Viazovska dim24 | p.1/17 | PASS± | 题录/摘要/Thm1.1吻合
 2026-09-29 17:22 | PAGE | Viazovska dim24 | p.2/17 | PASS± | Thm1.2吻合；Rⁿ→Rⁿ与1.1系原刊
+2026-09-29 17:22 | PAGE | Viazovska dim24 | p.3/17 | PASS± | (2.1)数字逐位吻合
