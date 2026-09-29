@@ -31,3 +31,17 @@
   - 脚注 2 "E, F have the same dimension" ✓
 - 结果：**PASS±**（±：页眉 "1963₁ THE INDEX OF ELLIPTIC OPERATORS 423" 未收）
 - 备注："Grothen-dieck" 连字为原文跨行断字，md 忠实保留。
+
+## p.003（PDF p.3 / 印刷 p.424）
+- PNG：audit/p003.png（pngmono 150dpi）
+- 核对：
+  - Chern character ch: K(X)→H*(X; ℚ)、difference element [6, §3]、d(E,F,σ)∈K(Y/Y₀) ✓
+  - B(X) 单位球丛、d(p*E,p*F,σ(D))∈K(B(X)/S(X))、ch d(...)∈H*(B(X)/S(X); ℚ) ✓
+  - Thom isomorphism φ*: H^k(X;ℚ)≅H^{n+k}(B(X)/S(X);ℚ) (n=dim X)、φ*⁻¹ ch d(...)、ch σ(D)/ch(D) ✓
+  - Todd class 定义 𝕀(ξ)=∏ x_i/(1−e^{−x_i})、ch ξ=Σ e^{x_i}、x_i 次数 2、c_i(ξ) ✓；𝕀(η)=𝕀(η⊗_R C) ✓
+  - 脚注 3/4 文本在 md 中以 page_footnote span 保留，但——
+- 结果：**FAIL（单点）**：脚注 3 编号被误识为 8——md 作 "$^{8}$ We assume Y₀ a 'reasonable' subspace…"，
+  原文页脚清楚为 "³ We assume …"（150dpi 可辨，无需 300dpi 仲裁）；与后文真脚注 8（K̃）形成重复编号、
+  脚注 3 缺号。修复建议：将该 "$^{8}$" 改回 "$^{3}$"。
+- 备注：±项（不误导）：①行 121-125 五个孤立 page_footnote 碎片 span（"E, F"/"$Y_0$"/"T(Y)"/"X"/
+  "T(X)⊗_R C"——正文片段重复检出，碎片化伪影）；②ℚ 转写为 \mathcal{Q}（Zelmanov 篇同类）。
