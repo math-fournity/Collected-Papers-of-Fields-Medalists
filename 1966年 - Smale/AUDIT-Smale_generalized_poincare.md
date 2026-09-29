@@ -102,3 +102,11 @@
     π_s(H) is"；源级笔误）——md 忠实 ✓；(a)(b)(c) +Furthermore ✓；PROOF 开头 ✓
 - 结果：**PASS±**（±：①页眉 "POINCARÉ CONJECTURE 399" 与页码未收；②(r,x,y)/g₁+g₂/缺 "H ∈"
   三处均系原刊实物）
+
+## p.011（PDF p.11 / 印刷 p.400）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：(3.2) PROOF（wedge of k s-spheres、π_i(H,∂H)=0 归零构造 f₁→f₄、D_i^s×0）✓；
+  H_β cell bundle 定义 ✓；**(3.3) LEMMA**（V=χ(H_β;f;s+1)≅Dⁿ）✓；PROOF（zero-cross-section、
+  regular homotopy [29]、β=0、S^s×D^{n−s} 乘积）✓；σ₁/f̄ 同伦段（orientation reversing 注）✓；
+  f_ε/g_ε/r_ε/k_ε/p_x 构造段（D_ε^{n−s−1}、(x, εy)、F_x fibre、σ^{-1}g_ε(x,0)）✓
+- 结果：**PASS±**（±：页眉 "400 STEPHEN SMALE" 与页码未收）
