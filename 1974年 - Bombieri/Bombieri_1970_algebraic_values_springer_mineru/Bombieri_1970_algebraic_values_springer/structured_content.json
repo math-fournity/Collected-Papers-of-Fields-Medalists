@@ -1,0 +1,4638 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.16844919786096257,
+            0.1841680129240711,
+            0.8315508021390374,
+            0.21324717285945072
+          ],
+          "level": 1,
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3582887700534759,
+            0.23263327948303716,
+            0.6363636363636364,
+            0.2520193861066236
+          ],
+          "content": "ENRICO BOMBIERI (Pisa)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4117647058823529,
+            0.28109854604200324,
+            0.5855614973262032,
+            0.30048465266558966
+          ],
+          "level": 2,
+          "content": "I. Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.3069466882067851,
+            0.6844919786096256,
+            0.32794830371567046
+          ],
+          "content": "In this paper we shall prove the following result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.33279483037156704,
+            0.9144385026737968,
+            0.37318255250403876
+          ],
+          "content": "Theorem A. Let $K$ be a number field and let $f = (f_1, \\ldots, f_N)$ be meromorphic functions in $\\mathbf{C}^d$, of finite order. Assume that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.3780290791599354,
+            0.39572192513368987,
+            0.3990306946688207
+          ],
+          "content": "(i) $\\operatorname{tr} \\deg K(f) \\geq d + 1$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.40387722132471726,
+            0.9144385026737968,
+            0.44426494345718903
+          ],
+          "content": "(ii) the partial derivatives $\\partial/\\partial z_{\\alpha}, \\alpha=1,\\ldots,d$ map the ring $K[f]$ into itself."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.44749596122778673,
+            0.9144385026737968,
+            0.4894991922455573
+          ],
+          "content": "Then the set $S$ of points $\\zeta\\in\\mathbf{C}^{d}$ where $f(\\zeta)$ is defined and $f(\\zeta)\\in K^{N}$, is contained in an algebraic hypersurface."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.49434571890145396,
+            0.9144385026737968,
+            0.5347334410339257
+          ],
+          "content": "Remark 1. We shall prove a bit more than Theorem A. If the meromorphic functions $f_{j}$ are of order $\\leq \\rho$, then we get the bound"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3663101604278075,
+            0.5428109854604201,
+            0.6229946524064172,
+            0.5638126009693053
+          ],
+          "content": "d (d + 1) \\rho [ K: \\mathbf {Q} ] + 2 d",
+          "image_source": "images/page_0_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5735056542810986,
+            0.9144385026737968,
+            0.6138933764135702
+          ],
+          "content": "for the degree of the hypersurface containing S (we can replace 2d by d, but we shall not prove this here)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6187399030694669,
+            0.9171122994652406,
+            0.6591276252019386
+          ],
+          "content": "Remark 2. Condition (ii) in Theorem A can be relaxed so to include the more general case in which $\\partial/\\partial z_{\\alpha}$ maps $K(f)$ into itself."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.6607431340872375,
+            0.3449197860962567,
+            0.6817447495961227
+          ],
+          "content": "For assuming that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3716577540106952,
+            0.6752827140549273,
+            0.6229946524064172,
+            0.7189014539579968
+          ],
+          "content": "\\frac {\\partial f _ {i}}{\\partial z _ {\\alpha}} = P _ {i \\alpha} (f) Q (f) ^ {- 1}",
+          "image_source": "images/page_0_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7269789983844911,
+            0.9117647058823529,
+            0.7689822294022617
+          ],
+          "content": "where $P_{i\\alpha}(T), Q(T) \\in K[T]$ we define $f_{N+1} = Q(f)^{-1}$ and consider $\\tilde{f} = (f_1, \\ldots, f_{N+1})$. It is easy to check that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2914438502673797,
+            0.778675282714055,
+            0.6898395721925134,
+            0.8222940226171244
+          ],
+          "content": "\\frac {\\partial f _ {i}}{\\partial z _ {\\alpha}} \\in K [ \\tilde {f} ] \\quad \\text { for } i = 1, \\dots , N + 1",
+          "image_source": "images/page_0_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.8303715670436187,
+            0.9171122994652406,
+            0.8707592891760905
+          ],
+          "content": "and the result of Theorem A still applies, but with the additional condition that $Q(f(\\zeta)) \\neq 0$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.8707592891760905,
+            0.9197860962566845,
+            0.9466882067851373
+          ],
+          "content": "Results in this range of ideas are not new. Theorem A was proved in case d=1 by Lang [5], after previous work by Schneider [10]; in this case the set S is a finite set of cardinality  $\\leq20\\rho[K:Q]$ . In the higher 19 Inventiones math., Vol. 10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.08021390374331551,
+            0.06946688206785137,
+            0.43315508021390375,
+            0.10177705977382875
+          ],
+          "content": "Inventiones math. 10, 267-287 (1970) © by Springer-Verlag 1970"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9144385026737968,
+            0.3037156704361874
+          ],
+          "content": "dimensional case, Lang [5] showed that if S contains a subset of the type  $S_{1} \\times \\cdots \\times S_{d}$  then min card  $S_{\\alpha} \\leq b \\rho [K:Q]$ ; this result may be regarded as a special case of Theorem A, Remark 1. The condition for S to contain a product was clearly artificial and in the historical note in [5], Chapter IV, Lang remarks: “In extending Theorems 1, 2, 3, one has the following possibilities. First, a suggestion of Nagata, that the set S in Theorem 1 may be described as contained in a hypersurface (algebraic). This would be a good way of eliminating the unnatural condition that S be a product. (One would also need to bound the degree of the hypersurface.)” This is exactly what we do in our Theorem A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.30210016155088854,
+            0.9144385026737968,
+            0.47495961227786754
+          ],
+          "content": "While the previous techniques used methods in one complex variable, using the cartesian product structure of  $C^{d}$  (hence the condition  $S = S_{1} \\times \\cdots \\times S_{d}$  in Lang's result), we work directly in  $C^{d}$  and we borrow powerful tools from the theory of holomorphic functions of several complex variables. In particular, we use Lelong's theory of plurisubharmonic functions and positive currents, together with Carleman's estimates and existence theorems for the  $\\bar{\\partial}$  operator in  $C^{d}$ , as given in Andreotti and Vesentini [1] and in the book [4] by Hörmander. In our context, only the elementary theory of [4] is needed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.47334410339256866,
+            0.9144385026737968,
+            0.5508885298869144
+          ],
+          "content": "It is a pleasure to thank here Serge Lang for several enlightening discussions on this subject, and Norberto Kerzman of New York University for useful conversations on the theory of functions of several complex variables."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.31283422459893045,
+            0.5654281098546042,
+            0.6844919786096256,
+            0.5864297253634895
+          ],
+          "level": 2,
+          "content": "II. Positive (1, 1)-Currents in $\\mathbf{C}^n$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.592891760904685,
+            0.9144385026737968,
+            0.6494345718901454
+          ],
+          "content": "We shall review here some fundamental properties of positive  $(1,1)$ -currents in  $C^{n}$ ; actually, the results of this section can be generalized to  $(p,p)$ -currents without much difficulty."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6494345718901454,
+            0.9144385026737968,
+            0.6898222940226171
+          ],
+          "content": "Our notation is as follows. $\\mathcal{D}(\\Omega)$ denotes the space of $C^\\infty$ differential forms of type $(n - 1, n - 1)$ with compact support in $\\Omega$; also given"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27540106951871657,
+            0.6978998384491115,
+            0.7245989304812834,
+            0.7205169628432956
+          ],
+          "content": "\\phi = \\sum \\phi^ {\\alpha \\bar {\\beta}} (d z _ {1} \\wedge d \\bar {z} _ {1} \\wedge \\dots \\wedge d z _ {n} \\wedge d \\bar {z} _ {n}) _ {\\alpha , \\bar {\\beta}} ^ {\\hat {}}",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.72859450726979,
+            0.9144385026737968,
+            0.7689822294022617
+          ],
+          "content": "where the symbol $\\hat{\\alpha},\\bar{\\beta}$ means that the differentials $dz_{\\alpha},d\\overline{z}_{\\beta}$ are omitted, one defines the comass $\\| \\phi \\|$ of $\\phi$ at a point $z$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32887700534759357,
+            0.7754442649434572,
+            0.6711229946524064,
+            0.8109854604200323
+          ],
+          "content": "\\| \\phi \\| = 2 ^ {n - 1} \\sup _ {\\alpha , u} \\left| \\sum_ {p q} u _ {\\alpha p} \\bar {u} _ {\\alpha q} \\phi^ {p \\bar {q}} \\right|",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.8190630048465266,
+            0.9197860962566845,
+            0.925686591276252
+          ],
+          "content": "where the sup is taken over $\\alpha=1,2,\\ldots,n$ and $u=(u_{\\alpha p})$ with $u\\in SU(n)$. It is easily seen that the comass $\\|\\ \\|$ is equivalent to $|\\phi|=\\sup_{p,q}|\\phi^{p\\bar{q}}|$; however the comass has the advantage of being invariant by unitary transformations and leads to a much nicer dual norm in the space of currents."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.0840064620355412
+          ],
+          "content": "268"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.553475935828877,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.1050080775444265,
+            0.37433155080213903,
+            0.12439418416801293
+          ],
+          "content": "If $\\phi \\in \\mathcal{D}(\\Omega)$ we define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3983957219251337,
+            0.12762520193861066,
+            0.5962566844919787,
+            0.1567043618739903
+          ],
+          "content": "\\| \\phi \\| _ {\\Omega} = \\sup _ {\\Omega} \\| \\phi \\|;",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.16639741518578352,
+            0.8048128342245989,
+            0.18578352180936994
+          ],
+          "content": "this norm is equivalent to the sup norm of the coefficients of  $\\phi$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.19063004846526657,
+            0.1711229946524064,
+            0.2084006462035541
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39037433155080214,
+            0.20516962843295639,
+            0.6096256684491979,
+            0.2294022617124394
+          ],
+          "content": "T = \\sum t _ {\\alpha \\bar {\\beta}} d z _ {\\alpha} \\wedge d \\bar {z} _ {\\beta}",
+          "image_source": "images/page_2_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.23909531502423265,
+            0.9144385026737968,
+            0.27948303715670436
+          ],
+          "content": "be a (1, 1)-current. Given a non-negative continuous function $f(z)$ with compact support in $\\mathbf{C}^n$, one defines"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38235294117647056,
+            0.2875605815831987,
+            0.6203208556149733,
+            0.3198707592891761
+          ],
+          "content": "\\| T \\| (f) = \\sup _ {\\phi} | T (\\phi) |",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.32794830371567046,
+            0.9197860962566845,
+            0.40549273021001614
+          ],
+          "content": "where the sup is taken over all $\\phi$ satisfying $\\| \\phi \\| \\leq f$ everywhere. If $\\| T\\| (f) < + \\infty$ for each $f$ then $\\| T\\|$ is extended by linearity to a positive distribution in $\\mathbf{C}^n$ which we can identify to a Radon measure, again denoted by $d\\| T\\|$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.407108239095315,
+            0.4679144385026738,
+            0.42649434571890144
+          ],
+          "content": "Let $\\omega$ be the differential form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3877005347593583,
+            0.4394184168012924,
+            0.6096256684491979,
+            0.4781906300484653
+          ],
+          "content": "\\omega = \\frac {i}{2} \\sum d z _ {\\alpha} \\wedge d \\bar {z} _ {\\alpha}",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.4798061389337641,
+            0.21390374331550802,
+            0.4991922455573506
+          ],
+          "content": "and define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3315508021390374,
+            0.4975767366720517,
+            0.6711229946524064,
+            0.5379644588045234
+          ],
+          "content": "\\omega_ {k} = \\frac {1}{k !} \\omega^ {k}, \\quad k = 1, 2, \\dots , n;",
+          "image_source": "images/page_2_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.5411954765751211,
+            0.19786096256684493,
+            0.5589660743134087
+          ],
+          "content": "note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2994652406417112,
+            0.5573505654281099,
+            0.7005347593582888,
+            0.5815831987075929
+          ],
+          "content": "\\| \\omega_ {n - 1} \\| = 1 \\quad \\text {   at   every   point   of   } \\mathbf {C} ^ {n}.",
+          "image_source": "images/page_2_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.592891760904685,
+            0.7647058823529411,
+            0.6138933764135702
+          ],
+          "content": "Let $T$ be a (1, 1)-current and assume that the distribution"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39572192513368987,
+            0.6268174474959612,
+            0.6042780748663101,
+            0.6510500807754442
+          ],
+          "content": "\\left(\\sum t _ {\\alpha \\bar {\\beta}} w _ {\\alpha} \\overline {{{w}}} _ {\\beta}\\right) \\wedge \\omega_ {n}",
+          "image_source": "images/page_2_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.6607431340872375,
+            0.9197860962566845,
+            0.7237479806138933
+          ],
+          "content": "defines a positive measure for every $w \\in \\mathbf{C}^n$; then we shall say that the current $T$ is positive. In particular this implies that $T$ is hermitian so that $t_{\\alpha \\bar{\\beta}} = \\bar{t}_{\\beta \\bar{\\alpha}}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.7269789983844911,
+            0.7272727272727273,
+            0.7495961227786753
+          ],
+          "content": "Proposition 1. If $T$ is a positive (1, 1)-current we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3048128342245989,
+            0.7576736672051696,
+            0.6951871657754011,
+            0.7819063004846527
+          ],
+          "content": "d \\| T \\| = i T \\wedge \\omega_ {n - 1} = 2 \\left(\\sum t _ {\\alpha \\bar {\\alpha}}\\right) \\wedge \\omega_ {n}.",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0855614973262032,
+            0.7964458804523424,
+            0.9197860962566845,
+            0.8368336025848142
+          ],
+          "content": "Proof. This follows from the fact that  $\\omega_{n}$  is  $SU(n)$ -invariant and  $\\|\\omega_{n-1}\\|=1$  everywhere; see for example [2], p.652."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0855614973262032,
+            0.840064620355412,
+            0.9197860962566845,
+            0.8804523424878837
+          ],
+          "content": "If $T$ is positive then $d \\| T \\|$ is a positive Radon measure in $\\mathbf{C}^n$. If $\\Omega$ is an open set in $\\mathbf{C}^n$, then we define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40106951871657753,
+            0.8869143780290791,
+            0.606951871657754,
+            0.9224555735056543
+          ],
+          "content": "\\| T \\| \\Omega = \\int_ {\\Omega} d \\| T \\|;",
+          "image_source": "images/page_2_equation_21.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08562197092084006
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.0840064620355412
+          ],
+          "content": "269"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08823529411764706,
+            0.9289176090468497,
+            0.12032085561497326,
+            0.9418416801292407
+          ],
+          "content": "19\\*"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9117647058823529,
+            0.16478190630048464
+          ],
+          "content": "$\\| T\\| \\Omega$ is also called the mass of the current $T$ over $\\Omega$. Let $B(r,a)$ denote the ball $|z - a| < r$ in $\\mathbf{C}^n$; the average mass $\\Theta (\\| T\\| ;r,a)$ of $T$ in $B(r,a)$ is by definition the quantity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2700534759358289,
+            0.172859450726979,
+            0.7192513368983957,
+            0.2148626817447496
+          ],
+          "content": "\\Theta (\\| T \\|; r, a) = \\frac {(n - 1) !}{\\pi^ {n - 1} r ^ {2 n - 2}} \\| T \\| B (r, a).",
+          "image_source": "images/page_3_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.23747980613893377,
+            0.56951871657754,
+            0.25848142164781907
+          ],
+          "content": "The density of $T$ at the point $a$ is given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32887700534759357,
+            0.2778675282714055,
+            0.6657754010695187,
+            0.308562197092084
+          ],
+          "content": "\\Theta (\\| T \\|; a) = \\lim _ {r \\rightarrow 0} \\Theta (\\| T \\|; r, a)",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3247172859450727,
+            0.9117647058823529,
+            0.37964458804523427
+          ],
+          "content": "provided the limit exists; more generally, one may define the upper and lower densities  $\\Theta^{*}$ ,  $\\Theta_{*}$  by considering the upper and the lower limit as  $r \\to 0$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.38287560581583197,
+            0.7486631016042781,
+            0.40549273021001614
+          ],
+          "content": "A current $T$ is $\\overline{\\partial}$-closed if $\\overline{\\partial} T = 0$; here $\\overline{\\partial} T$ is defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393048128342246,
+            0.420032310177706,
+            0.5962566844919787,
+            0.44264943457189015
+          ],
+          "content": "\\bar {\\partial} T (\\phi) = - T (\\bar {\\partial} \\phi)",
+          "image_source": "images/page_3_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.45718901453957994,
+            0.9117647058823529,
+            0.4975767366720517
+          ],
+          "content": "for $\\phi$ a $C^\\infty$ differential form with compact support. If $\\Omega$ is an open subset of $\\mathbf{C}^n$ we say that $T$ is $\\overline{\\partial}$-closed in $\\Omega$ if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4358288770053476,
+            0.5105008077544426,
+            0.5588235294117647,
+            0.5347334410339257
+          ],
+          "content": "\\overline {{{{\\partial}}}} T (\\phi) = 0",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.5476575121163166,
+            0.7299465240641712,
+            0.568659127625202
+          ],
+          "content": "for $\\phi$ a $C^\\infty$ differential form with compact support in $\\Omega$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11497326203208556,
+            0.5735056542810986,
+            0.7513368983957219,
+            0.592891760904685
+          ],
+          "content": "Proposition 2. Let $T$ be a $\\overline{\\partial}$-closed positive (1, 1)-current."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.592891760904685,
+            0.9117647058823529,
+            0.6332794830371568
+          ],
+          "content": "Then $\\Theta(\\|T\\|; r, a)$ is monotone non-decreasing in $r$. In particular, the density $\\Theta(\\|T\\|; a)$ exists and is finite for every $a \\in \\mathbf{C}^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.6365105008077544,
+            0.660427807486631,
+            0.6591276252019386
+          ],
+          "content": "Proof. (See [8], p. 73 and [2], pp. 621 and 652.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.6639741518578353,
+            0.9117647058823529,
+            0.7205169628432956
+          ],
+          "content": "The differential form $\\frac{1}{2\\pi} \\partial \\overline{\\partial} \\log |z|$ in $\\mathbf{C}^n - \\{0\\}$ has a positive definite Levi form; hence the current"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3582887700534759,
+            0.72859450726979,
+            0.6363636363636364,
+            0.7722132471728594
+          ],
+          "content": "i T \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1}",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.7867528271405493,
+            0.9144385026737968,
+            0.8287560581583199
+          ],
+          "content": "is a positive measure in $\\mathbf{C}^n -\\{0\\}$. It follows that Proposition 2 will be proved if we show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.12299465240641712,
+            0.8432956381260097,
+            0.8743315508021391,
+            0.8901453957996769
+          ],
+          "content": "\\int_ {B (R, a) \\setminus B (r, a)} i T \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\overline {{\\partial}} \\log | z |\\right) ^ {n - 1} = \\Theta (\\| T \\|; R, a) - \\Theta (\\| T \\|; r, a)",
+          "image_source": "images/page_3_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.9046849757673667,
+            0.732620320855615,
+            0.925686591276252
+          ],
+          "content": "for $0 < r < R < +\\infty$, because the integral is non-negative."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12299465240641712,
+            0.0840064620355412
+          ],
+          "content": "270"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.1050080775444265,
+            0.8315508021390374,
+            0.1260096930533118
+          ],
+          "content": "We have  $\\bar{\\partial}T=0$ , hence there exists a  $(1,0)$ -current S such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44385026737967914,
+            0.13408723747980614,
+            0.5508021390374331,
+            0.15508885298869143
+          ],
+          "content": "i T = \\bar {\\partial} S;",
+          "image_source": "images/page_4_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1631663974151858,
+            0.4304812834224599,
+            0.1841680129240711
+          ],
+          "content": "we may consider $S$ defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39572192513368987,
+            0.19224555735056542,
+            0.5989304812834224,
+            0.2148626817447496
+          ],
+          "content": "S (\\bar {\\partial} \\phi) = - i T (\\phi),",
+          "image_source": "images/page_4_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.22778675282714056,
+            0.7593582887700535,
+            0.24878836833602586
+          ],
+          "content": "which is a consistent definition because T is  $\\bar{\\partial}$ -closed. Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1925133689839572,
+            0.26009693053311794,
+            0.7967914438502673,
+            0.3037156704361874
+          ],
+          "content": "\\bar {\\partial} S \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1} = \\bar {\\partial} \\left[ S \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1} \\right]",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.3198707592891761,
+            0.4625668449197861,
+            0.3392568659127625
+          ],
+          "content": "hence by Stokes' theorem we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.10695187165775401,
+            0.3505654281098546,
+            0.8689839572192514,
+            0.4458804523424879
+          ],
+          "content": "\\begin{array}{l} \\int_ {B (R, a) \\setminus B (r, a)} i T \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1} \\\\ = \\int_ {\\partial B (R, a)} S \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1} - \\int_ {\\partial B (r, a)} S \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1}. \\end{array}",
+          "image_source": "images/page_4_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.45718901453957994,
+            0.8048128342245989,
+            0.4781906300484653
+          ],
+          "content": "On $\\partial B(r, a)$ we have $|z| = r = \\text{const}$ and one computes easily"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.18983957219251338,
+            0.4894991922455573,
+            0.8074866310160428,
+            0.531502423263328
+          ],
+          "content": "\\left(\\frac {i}{2 \\pi} \\partial \\bar {\\partial} \\log | z |\\right) ^ {n - 1} = \\frac {(n - 1) !}{\\pi^ {n - 1} r ^ {2 n - 2}} \\omega_ {n - 1} \\quad \\text { on } \\quad \\partial B (r, a).",
+          "image_source": "images/page_4_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5444264943457189,
+            0.25133689839572193,
+            0.5638126009693053
+          ],
+          "content": "It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.16844919786096257,
+            0.5735056542810986,
+            0.8262032085561497,
+            0.6946688206785138
+          ],
+          "content": "\\begin{array}{r l} \\int_ {\\partial B (r, a)} S \\wedge \\left(\\frac {i}{2 \\pi} \\partial \\overline {{\\partial}} \\log | z |\\right) ^ {n - 1} & = \\frac {(n - 1) !}{\\pi^ {n - 1} r ^ {2 n - 2}} \\int_ {\\partial B (r, a)} S \\wedge \\omega_ {n - 1} \\\\ & = \\int_ {B (r, a)} i T \\wedge \\omega_ {n - 1} \\\\ & = \\int_ {B (r, a)} d \\| T \\| \\end{array}",
+          "image_source": "images/page_4_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7059773828756059,
+            0.9144385026737968,
+            0.7447495961227787
+          ],
+          "content": "because $\\overline{\\partial}\\omega = 0$ hence $\\overline{\\partial}(iT\\wedge \\omega_{n - 1}) = S\\wedge \\omega_{n - 1}$, and because of Proposition 1."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.24598930481283424,
+            0.7705977382875606,
+            0.7540106951871658,
+            0.7915993537964459
+          ],
+          "level": 2,
+          "content": "III. Majorization of Holomorphic Functions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7964458804523424,
+            0.9224598930481284,
+            0.8739903069466882
+          ],
+          "content": "We recall that a real valued function V in  $C^{n}$  is plurisubharmonic if it is locally summable, upper semicontinuous and if its restriction to every complex line in  $C^{n}$  is subharmonic for the Laplace operator. This last condition means simply that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45454545454545453,
+            0.8820678513731826,
+            0.5561497326203209,
+            0.9030694668820679
+          ],
+          "content": "T = \\partial \\overline {{\\partial}} V",
+          "image_source": "images/page_4_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.9046849757673667,
+            0.3877005347593583,
+            0.925686591276252
+          ],
+          "content": "is a positive current in $\\mathbf{C}^n$."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9117647058823529,
+            0.08562197092084006
+          ],
+          "content": "271"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9144385026737968,
+            0.14539579967689822
+          ],
+          "content": "A very important class of plurisubharmonic functions is obtained as follows. Let F be a holomorphic function in  $C^{n}$ ; then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3609625668449198,
+            0.15508885298869143,
+            0.6363636363636364,
+            0.19547657512116318
+          ],
+          "content": "T = \\partial \\bar {\\partial} V = \\frac {1}{\\pi} \\partial \\bar {\\partial} \\log | F |",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.20678513731825526,
+            0.4304812834224599,
+            0.2294022617124394
+          ],
+          "content": "is a positive (1, 1)-current and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41711229946524064,
+            0.2358642972536349,
+            0.5802139037433155,
+            0.2762520193861066
+          ],
+          "content": "V = \\frac {1}{\\pi} \\log | F |",
+          "image_source": "images/page_5_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.2875605815831987,
+            0.8181818181818182,
+            0.308562197092084
+          ],
+          "content": "is plurisubharmonic. The current i T is represented explicitly by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42245989304812837,
+            0.3150242326332795,
+            0.5748663101604278,
+            0.34894991922455576
+          ],
+          "content": "i T (\\phi) = \\int_ {W} \\phi",
+          "image_source": "images/page_5_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.35864297253634897,
+            0.6898395721925134,
+            0.37964458804523427
+          ],
+          "content": "where W is the divisor in  $C^{n}$  defined by the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44385026737967914,
+            0.3893376413570275,
+            0.553475935828877,
+            0.41033925686591277
+          ],
+          "content": "F (z) = 0;",
+          "image_source": "images/page_5_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.420032310177706,
+            0.38235294117647056,
+            0.4410339256865913
+          ],
+          "content": "see for instance [8], p.72."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.44264943457189015,
+            0.3850267379679144,
+            0.46365105008077545
+          ],
+          "content": "In particular, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41711229946524064,
+            0.46849757673667203,
+            0.5828877005347594,
+            0.4894991922455573
+          ],
+          "content": "\\operatorname{supp} (T) = W.",
+          "image_source": "images/page_5_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.4975767366720517,
+            0.9171122994652406,
+            0.5201938610662359
+          ],
+          "content": "The associated Radon measure  $d \\parallel T \\parallel$  is the volume measure on W; hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3850267379679144,
+            0.5266558966074314,
+            0.6149732620320856,
+            0.5977382875605816
+          ],
+          "content": "\\begin{array}{r l} \\| T \\| (f) & = \\int_ {\\mathbf {C} ^ {n}} f d \\| T \\| \\\\ & = \\int_ {W} f d \\sigma \\end{array}",
+          "image_source": "images/page_5_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.6074313408723748,
+            0.9197860962566845,
+            0.6462035541195477
+          ],
+          "content": "where  $d\\sigma$  is the volume element on W. Note also that the current T is determined by the divisor W associated to F."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6462035541195477,
+            0.9197860962566845,
+            0.7059773828756059
+          ],
+          "content": "Proposition 2 of Section II shows that the density $\\Theta(\\|T\\|; a)$ is everywhere defined because $T = \\partial \\overline{\\partial} V$ is clearly $\\overline{\\partial}$-closed. We have the following additional properties of the function $\\Theta(\\|T\\|; r, a)$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7108239095315024,
+            0.9197860962566845,
+            0.7495961227786753
+          ],
+          "content": "Proposition 3. Let $F$ be holomorphic in $\\mathbf{C}^{n}$ and let $T$ be the positive, $\\bar{\\partial}$-closed, (1, 1)-current"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3983957219251337,
+            0.7495961227786753,
+            0.606951871657754,
+            0.789983844911147
+          ],
+          "content": "T = \\frac {1}{\\pi} \\partial \\bar {\\partial} \\log | F |.",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.7915993537964459,
+            0.2967914438502674,
+            0.8109854604200323
+          ],
+          "content": "Then we have:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.815831987075929,
+            0.9197860962566845,
+            0.8562197092084006
+          ],
+          "content": "(i) $\\Theta(\\|T\\|; a)$ is the order of zero of $a$ for $F(z)$; in particular $\\Theta(\\|T\\|; a) = 0$ for $F(a) \\neq 0$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.8594507269789984,
+            0.9197860962566845,
+            0.8982229402261712
+          ],
+          "content": "(ii) If $F(z)$ is a polynomial of degree $m$ in $\\mathbf{C}^n$ then for every $a \\in \\mathbf{C}^n$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37433155080213903,
+            0.8966074313408724,
+            0.6283422459893048,
+            0.9289176090468497
+          ],
+          "content": "\\lim _ {r \\rightarrow \\infty} \\Theta (\\| T \\|; r, a) = m.",
+          "image_source": "images/page_5_equation_20.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08021390374331551,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.0840064620355412
+          ],
+          "content": "272"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.10662358642972536,
+            0.9144385026737968,
+            0.1470113085621971
+          ],
+          "content": "(iii) If $\\Theta(\\|T\\|; r, a) \\leq m$ for some $a$ and every $r$, then $F(z) = 0$ is an algebraic hypersurface of degree $\\leq m$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.1518578352180937,
+            0.9144385026737968,
+            0.2294022617124394
+          ],
+          "content": "Proof. Let W be the divisor  $F(z)=0$ . For  $a\\in C^{n}$  let  $C_{a}$  be the analytic tangent cone of W at a; in other words, if  $P_{m}(z)$  is the first homogeneous non-zero form of degree m in the Taylor expansion of  $F(z)$  in a neighborhood of a, then  $C_{a}$  is the cone defined by the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4411764705882353,
+            0.25363489499192243,
+            0.553475935828877,
+            0.27463651050080773
+          ],
+          "content": "P _ {m} (z) = 0.",
+          "image_source": "images/page_6_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.2827140549273021,
+            0.4117647058823529,
+            0.3037156704361874
+          ],
+          "content": "The associated (1, 1)-current"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37967914438502676,
+            0.3134087237479806,
+            0.6149732620320856,
+            0.35379644588045234
+          ],
+          "content": "\\Gamma_ {a} = \\frac {1}{\\pi} \\partial \\overline {{{{\\partial}}}} \\log | P _ {m} (z) |",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3667205169628433,
+            0.3342245989304813,
+            0.3877221324717286
+          ],
+          "content": "has the property that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3502673796791444,
+            0.40226171243941844,
+            0.6417112299465241,
+            0.4507269789983845
+          ],
+          "content": "\\begin{array}{r l} \\Theta (\\| T \\|; a) & = \\Theta (\\| \\Gamma_ {a} \\|; 0) \\\\ & = \\Theta (\\| \\Gamma_ {a} \\|; r, 0) \\end{array}",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.4717285945072698,
+            0.9144385026737968,
+            0.5105008077544426
+          ],
+          "content": "for every $r$; see [2], Theorems 5.4.3 and 4.3.19. Then the result (i) follows from this equation and (ii)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.5088852988691438,
+            0.7058823529411765,
+            0.529886914378029
+          ],
+          "content": "The result (ii) is proved in [7]; see also [6], p. 397."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.529886914378029,
+            0.9144385026737968,
+            0.5864297253634895
+          ],
+          "content": "The result (iii) is a very special case of a theorem of Stoll [11]; it follows also easily from the results and methods of [6], especially (57) of Theorem 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.5864297253634895,
+            0.9171122994652406,
+            0.6655896607431341
+          ],
+          "content": "We shall apply the results obtained so far to obtain a generalization of Schwartz' lemma for holomorphic functions in  $C^{n}$ . Classically, this states that if  $F(z)$  is holomorphic in an open set containing  $B(R,0)$ , and if  $F(z)$  has a zero of order m at the origin then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34759358288770054,
+            0.6817447495961227,
+            0.6524064171122995,
+            0.7221324717285945
+          ],
+          "content": "| F (w) | \\leq \\left(\\frac {| w |}{R}\\right) ^ {m} \\max _ {| z | = R} | F (z) |",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7237479806138933,
+            0.21390374331550802,
+            0.7431340872374798
+          ],
+          "content": "for $|w| < R$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.7447495961227787,
+            0.9117647058823529,
+            0.7657512116316639
+          ],
+          "content": "Our result is more simply stated in terms of the function $\\log |F(z)|$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7754442649434572,
+            0.9197860962566845,
+            0.8465266558966075
+          ],
+          "content": "Proposition 4. Let $F(z)$ be holomorphic in $|z| \\leq R$, let $\\tau$ be a positive real number, $0 < \\tau < 1$, and let $T = \\frac{1}{\\pi} \\partial \\bar{\\partial} \\log |F(z)|$ be the associated positive (1, 1)-current."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.8497576736672051,
+            0.4679144385026738,
+            0.8691437802907916
+          ],
+          "content": "Then for $|w| < \\tau R / 6n$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1443850267379679,
+            0.8869143780290791,
+            0.8529411764705882,
+            0.9289176090468497
+          ],
+          "content": "\\log | F (w) | \\leq \\max _ {| z | = R} \\log | F (z) | - (1 - \\tau) \\Theta (\\| T \\|; | w |, 0) \\log \\frac {\\tau R / 6 n}{| w |}.",
+          "image_source": "images/page_6_equation_16.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.08562197092084006
+          ],
+          "content": "273"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9144385026737968,
+            0.14539579967689822
+          ],
+          "content": "Proof. Let $d \\| T \\| = iT \\wedge \\omega_{n-1}$ be the positive Radon measure introduced at the beginning of this section. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3315508021390374,
+            0.1567043618739903,
+            0.660427807486631,
+            0.19709208400646203
+          ],
+          "content": "d \\| T \\| = \\frac {1}{2 \\pi} \\Delta \\log | F (z) | \\wedge \\omega_ {n}",
+          "image_source": "images/page_7_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.210016155088853,
+            0.9144385026737968,
+            0.2681744749596123
+          ],
+          "content": "where  $\\Delta$  is the Laplace operator in  $C^{n}$ . Assume  $n \\geq 2$  (the case n = 1 of Proposition 4 being easy to prove and well-known) and consider the potential"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28342245989304815,
+            0.2665589660743134,
+            0.7112299465240641,
+            0.3134087237479806
+          ],
+          "content": "U (z) = - \\frac {(n - 2) !}{2 \\pi^ {n - 1}} \\int_ {| \\zeta | <   R / 3} \\frac {d \\| T \\|}{| \\zeta - z | ^ {2 n - 2}}.",
+          "image_source": "images/page_7_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.308562197092084,
+            0.18983957219251338,
+            0.32794830371567046
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2807486631016043,
+            0.32794830371567046,
+            0.732620320855615,
+            0.37318255250403876
+          ],
+          "content": "\\frac {1}{2 \\pi} \\Delta U (z) \\wedge \\omega_ {n} = \\left\\{ \\begin{array}{c l} d \\| T \\| & \\text { if } | z | <   R / 3 \\\\ 0 & \\text { if } | z | > R / 3 \\end{array} \\right.",
+          "image_source": "images/page_7_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.3715670436187399,
+            0.25935828877005346,
+            0.39095315024232635
+          ],
+          "content": "hence one gets"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33689839572192515,
+            0.3877221324717286,
+            0.6657754010695187,
+            0.41033925686591277
+          ],
+          "content": "\\Delta [ \\log | F (z) | - U (z) ] \\wedge \\omega_ {n} \\geq 0",
+          "image_source": "images/page_7_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.420032310177706,
+            0.9144385026737968,
+            0.4604200323101777
+          ],
+          "content": "in $|z| < R$. It follows that the function $\\log |F(z)| - U(z)$ is subharmonic, hence satisfies the maximum principle. If $|w| < R/3$ we find"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.08288770053475936,
+            0.46849757673667203,
+            0.8796791443850267,
+            0.5525040387722132
+          ],
+          "content": "\\begin{array}{l} \\log | F (w) | \\leq \\max _ {| z | = R} \\log | F (z) | \\\\ - \\frac {(n - 2) !}{2 \\pi^ {n - 1}} \\min _ {| z | = R} \\int_ {| \\zeta | <   R / 3} \\left(\\frac {1}{| \\zeta - w | ^ {2 n - 2}} - \\frac {1}{| \\zeta - z | ^ {2 n - 2}}\\right) d \\| T \\| \\end{array}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5654281098546042,
+            0.9171122994652406,
+            0.6058158319870759
+          ],
+          "content": "and we need a lower bound for the integral. The measure $d \\| T \\|$ is positive hence if $|w| < R/3$ we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13368983957219252,
+            0.6187399030694669,
+            0.8903743315508021,
+            0.9289176090468497
+          ],
+          "content": "\\begin{array}{l} \\int_ {| \\zeta | <   R / 3} \\left(\\frac {1}{| \\zeta - w | ^ {2 n - 2}} - \\frac {1}{| \\zeta - z | ^ {2 n - 2}}\\right) d \\| T \\| \\\\ \\geq \\int_ {| \\zeta | <   R / 3} \\left[ \\frac {1}{(| \\zeta | + | w |) ^ {2 n - 2}} - \\frac {1}{(R - | \\zeta |) ^ {2 n - 2}} \\right] d \\| T \\| \\\\ = \\int_ {0} ^ {R / 3} \\left[ \\frac {1}{(t + | w |) ^ {2 n - 2}} - \\frac {1}{(R - t) ^ {2 n - 2}} \\right] d \\| T \\| B (t, 0) \\\\ = \\left[ \\frac {1}{\\left(\\frac {R}{3} + | w |\\right) ^ {2 n - 2}} - \\frac {1}{\\left(\\frac {2}{3} R\\right) ^ {2 n - 2}} \\right] \\cdot \\| T \\| B \\left(\\frac {R}{3}, 0\\right) \\\\ + (2 n - 2) \\int_ {0} ^ {R / 3} \\left[ \\frac {1}{(t + | w |) ^ {2 n - 1}} + \\frac {1}{(R - t) ^ {2 n - 1}} \\right] \\cdot \\| T \\| B (t, 0) d t \\\\ \\geq (2 n - 2) \\int_ {0} ^ {R / 3} \\frac {\\| T \\| B (t , 0)}{(t - | w |) ^ {2 n - 1}} d t. \\end{array}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12299465240641712,
+            0.0840064620355412
+          ],
+          "content": "274"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4358288770053476,
+            0.06946688206785137,
+            0.5588235294117647,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.1050080775444265,
+            0.5668449197860963,
+            0.1260096930533118
+          ],
+          "content": "Hence we obtain the useful inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20053475935828877,
+            0.13247172859450726,
+            0.7647058823529411,
+            0.210016155088853
+          ],
+          "content": "\\begin{array}{l} \\log | F (w) | \\leq \\max _ {| z | = R} \\log | F (z) | \\\\ - \\int_ {0} ^ {R / 3} \\left(\\frac {t}{t + | w |}\\right) ^ {2 n - 2} \\frac {\\Theta (\\| T \\| ; t , 0)}{t + | w |} d t. \\end{array}",
+          "image_source": "images/page_8_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.21647819063004847,
+            0.9144385026737968,
+            0.2665589660743134
+          ],
+          "content": "By Proposition 2, $\\Theta (\\| T\\| ;t,0)$ is non-decreasing as a function of $t$, in particular $\\Theta (\\| T\\| ;t,0)\\geq \\Theta (\\| T\\| ;|w|,0)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.2778675282714055,
+            0.3582887700534759,
+            0.2988691437802908
+          ],
+          "content": "if $t \\geq |w|$. It follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24866310160427807,
+            0.3037156704361874,
+            0.7513368983957219,
+            0.4458804523424879
+          ],
+          "content": "\\begin{array}{l} \\int_ {0} ^ {R / 3} \\left(\\frac {t}{t + | w |}\\right) ^ {2 n - 2} \\frac {\\Theta (\\| T \\| ; t , 0)}{t + | w |} d t \\\\ \\geq \\Theta (\\| T \\|; | w |, 0) \\int_ {| w |} ^ {R / 3} \\frac {t ^ {2 n - 2}}{(t + | w |) ^ {2 n - 1}} d t \\\\ = \\Theta (\\| T \\|; | w |, 0) \\int_ {1} ^ {R / 3 | w |} \\left(\\frac {t}{t + 1}\\right) ^ {2 n - 2} \\frac {d t}{t}. \\end{array}",
+          "image_source": "images/page_8_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.4555735056542811,
+            0.5668449197860963,
+            0.47495961227786754
+          ],
+          "content": "It is easy to show that if $0 < \\tau < 1$ then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3048128342245989,
+            0.48303715670436187,
+            0.7005347593582888,
+            0.5282714054927302
+          ],
+          "content": "\\int_ {1} ^ {x} \\left(\\frac {t}{t + 1}\\right) ^ {2 n - 2} \\frac {d t}{t} \\geq (1 - \\tau) \\log \\frac {\\tau x}{2 n}",
+          "image_source": "images/page_8_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.5379644588045234,
+            0.7406417112299465,
+            0.5589660743134087
+          ],
+          "content": "and this inequality completes the proof of Proposition 4."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.2807486631016043,
+            0.5767366720516963,
+            0.7219251336898396,
+            0.5977382875605816
+          ],
+          "level": 2,
+          "content": "IV. Entire Functions of Given Growth"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.6025848142164781,
+            0.553475935828877,
+            0.6235864297253635
+          ],
+          "content": "In this section we give a proof of the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.6284329563812601,
+            0.8475935828877005,
+            0.6478190630048465
+          ],
+          "content": "Existence Theorem. Let $V$ be a plurisubharmonic function in $\\mathbf{C}^n$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.6510500807754442,
+            0.9197860962566845,
+            0.6704361873990307
+          ],
+          "content": "There exists $F(z)$ holomorphic in $\\mathbf{C}^n$ and not identically zero, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3074866310160428,
+            0.678513731825525,
+            0.6951871657754011,
+            0.7124394184168013
+          ],
+          "content": "\\int_ {\\mathbf {C} ^ {n}} | F | ^ {2} e ^ {- V} (1 + | z | ^ {2}) ^ {- 3 n} \\omega_ {n} <   + \\infty .",
+          "image_source": "images/page_8_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7172859450726979,
+            0.9197860962566845,
+            0.7932148626817448
+          ],
+          "content": "Remarks. It is essential, for the applications we have in mind, that the plurisubharmonic function V should be allowed to take the value  $-\\infty$ . In particular, the function F will vanish at every point where  $e^{-V}$  is not a summable function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7932148626817448,
+            0.9197860962566845,
+            0.8319870759289176
+          ],
+          "content": "The example V=const shows that the exponent 3n cannot be lowered below n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.8319870759289176,
+            0.9224598930481284,
+            0.9289176090468497
+          ],
+          "content": "Our proof is obtained by an application of the powerful theory of $L^2$ estimates and existence theorems for the $\\overline{\\partial}$ operator, given by Hörmander in his by now classical paper [3]. In fact, a rather similar existence theorem, but assuming $V \\in C^2(\\mathbf{C}^n)$, was obtained by Hörmander; see [4], Theorem 4.4.4. We shall use the approach followed in [4], pp. 116-117."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.08562197092084006
+          ],
+          "content": "275"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.1050080775444265,
+            0.5668449197860963,
+            0.12439418416801293
+          ],
+          "content": "Proof. We use the following notations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.12924071082390953,
+            0.3877005347593583,
+            0.14862681744749595
+          ],
+          "content": "$\\Omega$ is an open set in $\\mathbf{C}^n$;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.1518578352180937,
+            0.6497326203208557,
+            0.17447495961227788
+          ],
+          "content": "$L_{(p,q)}^2 (\\Omega ,V)$ is the Hilbert space of $(p,q)$-forms"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3689839572192513,
+            0.18093699515347333,
+            0.6203208556149733,
+            0.22778675282714056
+          ],
+          "content": "f = \\sum_{\\substack{|I| = p\\\\ |J| = q}}f_{I,J}  dz_{I}\\wedge d\\overline{z}_{J},",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.2294022617124394,
+            0.36363636363636365,
+            0.25040387722132473
+          ],
+          "content": "with the weighted norm"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33689839572192515,
+            0.2568659127625202,
+            0.660427807486631,
+            0.2924071082390953
+          ],
+          "content": "\\| f \\| _ {\\Omega , V} ^ {2} = \\int_ {\\Omega} \\sum | f _ {I, J} | ^ {2} e ^ {- V} \\omega_ {n};",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.30048465266558966,
+            0.9117647058823529,
+            0.3408723747980614
+          ],
+          "content": "analogously, $L_{(p,q)}^2 (\\Omega ,\\mathrm{loc})$ is the Fréchet space of $(p,q)$-forms with coefficients $f_{I,J}$ locally in $L^2$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.345718901453958,
+            0.32085561497326204,
+            0.3667205169628433
+          ],
+          "content": "The key result is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.3715670436187399,
+            0.9171122994652406,
+            0.43134087237479807
+          ],
+          "content": "Hörmander's Theorem. Let $\\Omega$ be a pseudoconvex open set in $\\mathbf{C}^n$ and let $V$ be plurisubharmonic in $\\Omega$. Let $f \\in L_{(p,q)}^2(\\Omega, V) \\cap L_{(p,q)}^2(\\Omega, \\text{loc})$ where $q \\geq 1$, and assume that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45454545454545453,
+            0.4281098546042003,
+            0.5401069518716578,
+            0.4491114701130856
+          ],
+          "content": "\\overline {{{\\partial}}} f = 0.",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.45718901453957994,
+            0.8074866310160428,
+            0.481421647819063
+          ],
+          "content": "Then there exists $U \\in L_{(p,q - 1)}^2(\\Omega, V + 2\\log (1 + |z|^2))$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45187165775401067,
+            0.4878836833602585,
+            0.5427807486631016,
+            0.5105008077544426
+          ],
+          "content": "\\overline {{{{\\partial}}}} U = f",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5105008077544426,
+            0.13368983957219252,
+            0.5266558966074314
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2620320855614973,
+            0.5250403877221325,
+            0.7352941176470589,
+            0.5605815831987075
+          ],
+          "content": "\\int_ {\\Omega} | U | ^ {2} e ^ {- V} (1 + | z | ^ {2}) ^ {- 2} \\omega_ {n} \\leq \\int_ {\\Omega} | f | ^ {2} e ^ {- V} \\omega_ {n}.",
+          "image_source": "images/page_9_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.568659127625202,
+            0.9144385026737968,
+            0.6284329563812601
+          ],
+          "content": "For a proof of this result, see [3], Theorem 2.2.1' and [4], Theorem 4.4.2 (this last reference shows how to eliminate the condition of strict plurisubharmonicity appearing in [3], Theorem 2.2.1')."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6268174474959612,
+            0.9171122994652406,
+            0.7059773828756059
+          ],
+          "content": "It is clear that there exists a bounded polycilinder  $\\Omega_{0}$  such that  $e^{-V}$  is summable in  $\\Omega_{0}$ , because the set of points where  $e^{-V}$  is not summable is closed and of measure 0. After a translation and a linear change of variables we may assume that  $\\Omega_{0}$  is the polycilinder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3315508021390374,
+            0.7140549273021002,
+            0.6657754010695187,
+            0.7350565428109854
+          ],
+          "content": "\\Omega_ {0} = \\{z: | z _ {1} | <   1, \\dots , | z _ {n} | <   1 \\}.",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.7447495961227787,
+            0.7032085561497327,
+            0.7657512116316639
+          ],
+          "content": "Let $\\Omega_{k}, k = 1, \\ldots, n$ be the unbounded polycilinder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32085561497326204,
+            0.7754442649434572,
+            0.679144385026738,
+            0.7964458804523424
+          ],
+          "content": "\\Omega_ {k} = \\{z: | z _ {k + 1} | <   1, \\dots , | z _ {n} | <   1 \\};",
+          "image_source": "images/page_9_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7948303715670436,
+            0.18449197860962566,
+            0.8126009693053312
+          ],
+          "content": "we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36363636363636365,
+            0.8126009693053312,
+            0.6336898395721925,
+            0.8352180936995154
+          ],
+          "content": "\\Omega_ {0} \\subset \\Omega_ {1} \\subset \\dots \\subset \\Omega_ {n} = \\mathbf {C} ^ {n}",
+          "image_source": "images/page_9_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.8449111470113085,
+            0.6684491978609626,
+            0.864297253634895
+          ],
+          "content": "and each $\\Omega_{k}$ is a pseudoconvex domain. We define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4037433155080214,
+            0.8739903069466882,
+            0.5989304812834224,
+            0.8949919224555735
+          ],
+          "content": "W = \\log (1 + | z | ^ {2})",
+          "image_source": "images/page_9_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.9046849757673667,
+            0.5240641711229946,
+            0.925686591276252
+          ],
+          "content": "and note that W is plurisubharmonic."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12299465240641712,
+            0.0840064620355412
+          ],
+          "content": "276"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4358288770053476,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.1050080775444265,
+            0.7994652406417112,
+            0.12762520193861066
+          ],
+          "content": "We claim that there exists $F_{k}$ holomorphic in $\\Omega_{k}$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4411764705882353,
+            0.13893376413570274,
+            0.5561497326203209,
+            0.15993537964458804
+          ],
+          "content": "F _ {k} (0) = 1,",
+          "image_source": "images/page_10_equation_1.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37433155080213903,
+            0.16478190630048464,
+            0.6283422459893048,
+            0.18739903069466882
+          ],
+          "content": "\\| F _ {k} \\| _ {\\Omega_ {k}, V + 3 k W} <   + \\infty ;",
+          "image_source": "images/page_10_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.1987075928917609,
+            0.7967914438502673,
+            0.2197092084006462
+          ],
+          "content": "then $F_{n}(z)$ will satisfy the statement of our Existence Theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.22294022617124395,
+            0.31283422459893045,
+            0.2407108239095315
+          ],
+          "content": "If $k = 0$, we take"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39037433155080214,
+            0.2407108239095315,
+            0.606951871657754,
+            0.2617124394184168
+          ],
+          "content": "F _ {0} (z) = 1 \\quad \\text { in } \\Omega_ {0}",
+          "image_source": "images/page_10_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.27140549273021003,
+            0.9144385026737968,
+            0.33117932148626816
+          ],
+          "content": "and  $\\|F_{0}\\|_{\\Omega_{0},V}<+\\infty$  simply means that  $e^{-V}$  is summable in  $\\Omega_{0}$ , which is true. Now, assuming that  $F_{k-1}(z)$  has been already constructed, we shall use Hörmander's theorem to construct  $F_{k}(z)$  such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39572192513368987,
+            0.34248788368336025,
+            0.5989304812834224,
+            0.3667205169628433
+          ],
+          "content": "\\bar {\\partial} F _ {k} = 0 \\quad \\text { in } \\Omega_ {k},",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.39095315024232635,
+            0.13368983957219252,
+            0.4087237479806139
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3716577540106952,
+            0.36995153473344106,
+            0.6256684491978609,
+            0.39579967689822293
+          ],
+          "content": "\\left\\| F _ {k} \\right\\| _ {\\Omega_ {k}, V + 3 k W} <   + \\infty ,",
+          "image_source": "images/page_10_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2967914438502674,
+            0.4087237479806139,
+            0.7005347593582888,
+            0.43134087237479807
+          ],
+          "content": "F _ {k} (z) = F _ {k - 1} (z) \\quad \\text { on } \\Omega_ {k} \\cap \\{z _ {k} = 0 \\};",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.44426494345718903,
+            0.5855614973262032,
+            0.46365105008077545
+          ],
+          "content": "this last condition will ensure that $F_{k}(0) = 1$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.4668820678513732,
+            0.6042780748663101,
+            0.4878836833602585
+          ],
+          "content": "We follow here an idea of Martineau [9]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.4894991922455573,
+            0.9144385026737968,
+            0.5492730210016155
+          ],
+          "content": "Let $\\psi(\\zeta)$ be a function of one complex variable $\\zeta$, which is 1 in the disk $|\\zeta|<\\frac{1}{2},0$ in $|\\zeta|>1$, and is of class $C^1$ and satisfies $|\\overline{\\partial}\\psi|\\leq4$ everywhere. Then we define $\\psi_k$ in $\\Omega_k$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4144385026737968,
+            0.5589660743134087,
+            0.5802139037433155,
+            0.5799676898222941
+          ],
+          "content": "\\psi_ {k} (z) = \\psi \\left(z _ {k}\\right).",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5767366720516963,
+            0.20320855614973263,
+            0.5961227786752827
+          ],
+          "content": "Note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4037433155080214,
+            0.5961227786752827,
+            0.5935828877005348,
+            0.6187399030694669
+          ],
+          "content": "\\operatorname{supp} \\psi_ {k} \\subset \\Omega_ {k - 1},",
+          "image_source": "images/page_10_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38235294117647056,
+            0.6252019386106623,
+            0.6149732620320856,
+            0.6494345718901454
+          ],
+          "content": "z _ {k} ^ {- 1} \\overline {{{\\partial}}} \\psi_ {k} \\in C _ {(0, 1)} (\\Omega_ {k}).",
+          "image_source": "images/page_10_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6462035541195477,
+            0.13101604278074866,
+            0.6655896607431341
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40106951871657753,
+            0.6639741518578353,
+            0.5962566844919787,
+            0.6865912762520194
+          ],
+          "content": "f = z _ {k} ^ {- 1} F _ {k - 1} \\bar {\\partial} \\psi_ {k}",
+          "image_source": "images/page_10_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.6978998384491115,
+            0.8074866310160428,
+            0.7205169628432956
+          ],
+          "content": "which is defined in $\\Omega_{k}$, with $\\operatorname{supp} f \\subset \\Omega_{k-1}$; we have $\\bar{\\partial}f = 0$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4197860962566845,
+            0.7302100161550888,
+            0.5828877005347594,
+            0.752827140549273
+          ],
+          "content": "| f | \\leq 8 | F _ {k - 1} |,",
+          "image_source": "images/page_10_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7657512116316639,
+            0.7379679144385026,
+            0.789983844911147
+          ],
+          "content": "hence recalling that $\\| F_{k - 1}\\|_{\\Omega_{k - 1},V + 3(k - 1)W} <   + \\infty$ we find"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35561497326203206,
+            0.7996768982229402,
+            0.6443850267379679,
+            0.8255250403877221
+          ],
+          "content": "\\| f \\| _ {\\Omega_ {k}, V + 3 (k - 1) W} <   + \\infty .",
+          "image_source": "images/page_10_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.8336025848142165,
+            0.6577540106951871,
+            0.8546042003231018
+          ],
+          "content": "By Hörmander's theorem, there exists v such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45989304812834225,
+            0.8659127625201939,
+            0.5427807486631016,
+            0.8885298869143781
+          ],
+          "content": "\\overline {{{{\\partial}}}} v = f",
+          "image_source": "images/page_10_equation_25.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.8869143780290791,
+            0.13636363636363635,
+            0.9046849757673667
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25133689839572193,
+            0.9046849757673667,
+            0.7486631016042781,
+            0.9305331179321487
+          ],
+          "content": "\\| v \\| _ {\\Omega_ {k}, V + (3 k - 1) W} \\leq \\| f \\| _ {\\Omega_ {k}, V + 3 (k - 1) W} <   + \\infty .",
+          "image_source": "images/page_10_equation_27.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.08562197092084006
+          ],
+          "content": "277"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9117647058823529,
+            0.14539579967689822
+          ],
+          "content": "The differential form $f$ is continuous, hence $v$ is continuous too (see [4], Theorem 4.2.5). We assert that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3315508021390374,
+            0.1518578352180937,
+            0.6577540106951871,
+            0.172859450726979
+          ],
+          "content": "F _ {k} (z) = \\psi_ {k} (z) F _ {k - 1} (z) - z _ {k} v (z)",
+          "image_source": "images/page_11_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.1825525040387722,
+            0.4037433155080214,
+            0.20193861066235863
+          ],
+          "content": "has the required properties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11497326203208556,
+            0.2035541195476575,
+            0.8048128342245989,
+            0.22617124394184168
+          ],
+          "content": "Clearly, $F_{k}(z)$ is defined in $\\Omega_{k}$ because $\\operatorname{supp} \\psi_{k} \\subset \\Omega_{k-1}$. Also,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3449197860962567,
+            0.23263327948303716,
+            0.6443850267379679,
+            0.2568659127625202
+          ],
+          "content": "\\overline {{{{\\partial}}}} F _ {k} = F _ {k - 1} \\overline {{{{\\partial}}}} \\psi_ {k} - z _ {k} \\overline {{{{\\partial}}}} v = 0,",
+          "image_source": "images/page_11_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.2649434571890145,
+            0.6951871657754011,
+            0.2859450726978998
+          ],
+          "content": "hence $F_{k}$ is holomorphic in $\\Omega_{k}$. It is also obvious that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.2956381260096931,
+            0.6657754010695187,
+            0.3166397415185784
+          ],
+          "content": "F _ {k} = F _ {k - 1} \\quad \\text { on } \\Omega_ {k} \\cap \\{z _ {k} = 0 \\},",
+          "image_source": "images/page_11_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.3263327948303716,
+            0.45989304812834225,
+            0.345718901453958
+          ],
+          "content": "because v is continuous. Finally,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1925133689839572,
+            0.3554119547657512,
+            0.8368983957219251,
+            0.40549273021001614
+          ],
+          "content": "\\begin{array}{r l} & {\\| F _ {k} \\| _ {\\Omega_ {k}, V + 3 k W} \\leq \\| \\psi_ {k} F _ {k - 1} \\| _ {\\Omega_ {k}, V + 3 k W} + \\| z _ {k} v \\| _ {\\Omega_ {k}, V + 3 k W}} \\\\ & {\\quad \\leq \\| F _ {k - 1} \\| _ {\\Omega_ {k - 1}, V + 3 (k - 1) W} + \\| v \\| _ {\\Omega_ {k}, V + (3 k - 1) W}} \\end{array}",
+          "image_source": "images/page_11_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.41195476575121165,
+            0.9117647058823529,
+            0.4507269789983845
+          ],
+          "content": "and this is bounded because of the inductive assumption on $F_{k-1}$ and our previous estimate of the norm of $v$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11497326203208556,
+            0.45395799676898224,
+            0.4197860962566845,
+            0.47495961227786754
+          ],
+          "content": "This completes the proof."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.36363636363636365,
+            0.49434571890145396,
+            0.6256684491978609,
+            0.5137318255250404
+          ],
+          "level": 2,
+          "content": "V. Auxiliary Lemmas"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.518578352180937,
+            0.9117647058823529,
+            0.5783521809369951
+          ],
+          "content": "In this section we use the following notation. If K is a number field and  $\\alpha\\in K$ , a denominator  $d=\\text{den}(\\alpha)$  for  $\\alpha$  is the smallest positive natural integer such that  $d\\alpha$  is an integer in K. We let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40641711229946526,
+            0.5880452342487884,
+            0.5855614973262032,
+            0.6155088852988692
+          ],
+          "content": "\\| \\alpha \\| = \\max _ {\\sigma} | \\sigma \\alpha |",
+          "image_source": "images/page_11_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.6252019386106623,
+            0.8181818181818182,
+            0.6445880452342488
+          ],
+          "content": "where  $\\sigma$  ranges over all embeddings of K into C. We define also"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32620320855614976,
+            0.6494345718901454,
+            0.6657754010695187,
+            0.678513731825525
+          ],
+          "content": "\\operatorname{size} (\\alpha) = \\max _ {\\sigma} (\\log d, \\log | \\sigma \\alpha |)",
+          "image_source": "images/page_11_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.6833602584814217,
+            0.7058823529411765,
+            0.7043618739903069
+          ],
+          "content": "where $d = \\mathrm{den}(\\alpha)$. We have the fundamental inequality"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3342245989304813,
+            0.7140549273021002,
+            0.660427807486631,
+            0.7350565428109854
+          ],
+          "content": "- 2 [ K: \\mathbf {Q} ] \\text { size } (\\alpha) \\leq \\log | \\sigma \\alpha |",
+          "image_source": "images/page_11_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.7399030694668821,
+            0.3663101604278075,
+            0.7576736672051696
+          ],
+          "content": "and in fact one even has"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19518716577540107,
+            0.7689822294022617,
+            0.7941176470588235,
+            0.789983844911147
+          ],
+          "content": "- [ K: \\mathbf {Q} ] \\log \\mathrm{den} (\\alpha) - ([ K: \\mathbf {Q} ] - 1) \\text {   size } (\\alpha) \\leq \\log | \\sigma \\alpha |.",
+          "image_source": "images/page_11_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.7964458804523424,
+            0.9117647058823529,
+            0.8384491114701131
+          ],
+          "content": "If $P = \\sum a_{j} T^{j}, j = (j_{1}, \\ldots, j_{d}), T^{j} = T_{1}^{j_{1}} \\ldots T_{d}^{j_{d}}$ is a polynomial $P \\in K[T_{1}, \\ldots, T_{d}]$ we write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3983957219251337,
+            0.8368336025848142,
+            0.5935828877005348,
+            0.8659127625201939
+          ],
+          "content": "\\| P \\| = \\max _ {j} \\| a _ {j} \\|,",
+          "image_source": "images/page_11_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8626817447495961,
+            0.1497326203208556,
+            0.8804523424878837
+          ],
+          "content": "while"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4117647058823529,
+            0.8691437802907916,
+            0.5828877005347594,
+            0.8982229402261712
+          ],
+          "content": "| P | = \\max _ {j} | a _ {j} |,",
+          "image_source": "images/page_11_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8966074313408724,
+            0.13368983957219252,
+            0.9159935379644588
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32085561497326204,
+            0.9046849757673667,
+            0.6711229946524064,
+            0.925686591276252
+          ],
+          "content": "\\operatorname{size} (P) = \\max (\\deg P, \\log \\| P \\|).",
+          "image_source": "images/page_11_equation_25.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08021390374331551,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.0840064620355412
+          ],
+          "content": "278"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.10662358642972536,
+            0.9144385026737968,
+            0.1825525040387722
+          ],
+          "content": "Lemma 1. Let $K$ be a number field. Let $f_1, \\ldots, f_N$ be functions of $d$ complex variables, holomorphic at a point $\\zeta$ and such that the ring $K[f] = K[f_1, \\ldots, f_N]$ is mapped into itself by the partial derivatives $D_\\alpha = \\partial/\\partial z_\\alpha$, $\\alpha = 1, \\ldots, d$. Assume also that $f(\\zeta) \\in K^N$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1825525040387722,
+            0.9144385026737968,
+            0.24232633279483037
+          ],
+          "content": "There exists a number $C_1 = C_1(f, \\zeta)$ having the following property. If $Q = Q(T_1, \\ldots, T_N)$ is a polynomial with coefficients in $O_K$, the ring of integers of $K$, of total degree $\\deg Q \\leq r$, and if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4117647058823529,
+            0.25040387722132473,
+            0.5828877005347594,
+            0.2730210016155089
+          ],
+          "content": "D ^ {k} = D _ {1} ^ {k _ {1}} \\dots D _ {d} ^ {k _ {d}}",
+          "image_source": "images/page_12_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.284329563812601,
+            0.7112299465240641,
+            0.3053311793214863
+          ],
+          "content": "is a differential operator of order  $|k|=k_{1}+\\cdots+k_{d}$ , then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28342245989304815,
+            0.3166397415185784,
+            0.7085561497326203,
+            0.3392568659127625
+          ],
+          "content": "\\left\\| D ^ {k} (Q (f)) (\\zeta) \\right\\| \\leq \\| Q \\| (r + | k |) ^ {| k |} C _ {1} ^ {| k | + r}.",
+          "image_source": "images/page_12_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.3392568659127625,
+            0.27540106951871657,
+            0.35864297253634897
+          ],
+          "content": "Furthermore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34759358288770054,
+            0.3554119547657512,
+            0.6390374331550802,
+            0.37964458804523427
+          ],
+          "content": "\\mathrm{den} D ^ {k} (Q (f)) (\\zeta) \\leq C _ {1} ^ {| k | + r}.",
+          "image_source": "images/page_12_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.39095315024232635,
+            0.9171122994652406,
+            0.4894991922455573
+          ],
+          "content": "Proof. This is Lemma 1 of [5], Chapter IV, § 2, p. 34 except for the fact that we have $(r + |k|)^{|k|}$ instead of $r^{|k|}|k|$. Note that the statement of this result in [5] assumes implicitly that $f(\\zeta)\\in K^{N}$; see [5], Lemma 1, Chapter IV, § 2, p. 23 for a precise statement and proof in case $d = 1$. The improved constant $(r + |k|)^{|k|}$ follows from the argument given in [5]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.4927302100161551,
+            0.5748663101604278,
+            0.5137318255250404
+          ],
+          "content": "Lemma 2. Let $K$ be a number field. Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45187165775401067,
+            0.5250403877221325,
+            0.5454545454545454,
+            0.5428109854604201
+          ],
+          "content": "A X = 0",
+          "image_source": "images/page_12_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.5573505654281099,
+            0.9117647058823529,
+            0.6138933764135702
+          ],
+          "content": "be a system of r linear equations in n unknowns  $X=(x_{j}), j=1,\\ldots,n$ , where  $A=(a_{ij}), i=1,2,\\ldots,r, j=1,\\ldots,n$  is a  $r \\times n$  matrix with coefficients in  $O_{K}$ , the ring of integers of K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11497326203208556,
+            0.6138933764135702,
+            0.786096256684492,
+            0.6348949919224556
+          ],
+          "content": "If $n > r$ there exists a non-trivial solution $X$ in $O_K$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.6478190630048465,
+            0.6417112299465241,
+            0.6704361873990307
+          ],
+          "content": "\\| X \\| \\leq C _ {2} (C _ {2 n} \\| A \\|) ^ {r / (n - r)}",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.6801292407108239,
+            0.7219251336898396,
+            0.7092084006462036
+          ],
+          "content": "where $C_2 = C_2(K)$, $\\| X\\| = \\max_j\\| x_j\\|$ and $\\| A\\| = \\max_{ij}\\| a_{ij}\\|$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.7124394184168013,
+            0.9117647058823529,
+            0.752827140549273
+          ],
+          "content": "Proof. This is a well-known result of Siegel, easily proved using Dirichlet's box principle. See for instance [5], Chapter I, § 2, Lemma 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.7576736672051696,
+            0.9117647058823529,
+            0.8368336025848142
+          ],
+          "content": "Let $K$ be a number field, let $f = (f_1, \\ldots, f_N)$ be meromorphic functions in $\\mathbf{C}^d$, of finite order $^1 \\leq \\rho$, such that the partial derivatives $\\partial/\\partial z_\\alpha$ map the ring $K[f]$ into itself, and such that $\\operatorname{tr} \\deg K(f) \\geq d + 1$. Thus we may assume that $f_1, f_2, \\ldots, f_{d+1}$ are algebraically independent over $K$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8368336025848142,
+            0.9117647058823529,
+            0.8788368336025848
+          ],
+          "content": "Let $S$ be a finite set of points $\\zeta_i, i = 1, 2, \\ldots, m$ such that $f(\\zeta)$ is defined and $f(\\zeta) \\in K^N$ for $\\zeta \\in S$. Writing (j) for $(j_1, \\ldots, j_{d+1})$ consider the auxiliary"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.0840064620355412
+          ],
+          "content": "279"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.3181818181818182,
+            0.8852988691437803,
+            0.3609625668449198,
+            0.901453957996769
+          ],
+          "content": "$h(z)$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.5187165775401069,
+            0.8869143780290791,
+            0.5561497326203209,
+            0.9030694668820679
+          ],
+          "content": "≤ρ"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.37433155080213903,
+            0.9095315024232633,
+            0.4117647058823529,
+            0.925686591276252
+          ],
+          "content": "≤ρ"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.6577540106951871,
+            0.8852988691437803,
+            0.8021390374331551,
+            0.901453957996769
+          ],
+          "content": "$|h(z)| = O(R^{\\rho + \\varepsilon})$"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.6443850267379679,
+            0.9111470113085622,
+            0.6818181818181818,
+            0.925686591276252
+          ],
+          "content": "≤ρ"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.0748663101604278,
+            0.8836833602584814,
+            0.9117647058823529,
+            0.9273021001615509
+          ],
+          "content": "$^{1}$  An entire function  $h(z)$  is of finite order  $\\leq\\rho$  if  $\\max_{|z|=R}\\log|h(z)|=O(R^{\\rho+\\varepsilon})$ ; a quotient of two entire functions of order  $\\leq\\rho$  is meromorphic of order  $\\leq\\rho$ ."
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.1050080775444265,
+            0.18449197860962566,
+            0.12277867528271405
+          ],
+          "content": "function"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.11147011308562198,
+            0.6363636363636364,
+            0.14539579967689822
+          ],
+          "content": "F (z) = \\sum_ {(j) <   J} a _ {(j)} f _ {1} ^ {j _ {1}} \\dots f _ {d + 1} ^ {j _ {d + 1}}",
+          "image_source": "images/page_13_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.14862681744749595,
+            0.9117647058823529,
+            0.19063004846526657
+          ],
+          "content": "where $(j) < J$ means $0 \\leq j_{\\lambda} < J$ for $\\lambda = 1, \\ldots, d + 1$. We want to choose the coefficients $a_{(j)}$ not all 0 and in $O_K$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43315508021390375,
+            0.19547657512116318,
+            0.5641711229946524,
+            0.21647819063004847
+          ],
+          "content": "D ^ {\\lambda} F (\\zeta) = 0",
+          "image_source": "images/page_13_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.22294022617124395,
+            0.9117647058823529,
+            0.2633279483037157
+          ],
+          "content": "for $|\\lambda| < L$, $\\zeta \\in S$, where $D^{\\lambda}$ is the differential operator $D^{\\lambda} = D_{1}^{\\lambda_{1}} \\ldots D_{d}^{\\lambda_{d}}$ and $D_{\\alpha} = \\partial/\\partial z_{\\alpha}$. Also we want $\\|a_{(j)}\\|$ not too large."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.2617124394184168,
+            0.9117647058823529,
+            0.3198707592891761
+          ],
+          "content": "In the following estimates we shall use the symbol  $\\ll$  to denote estimates uniform with respect to L, for fixed f, S and K. We shall use also the symbols  $O(\\cdots)$ ,  $o(\\cdots)$  with the same meaning."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.32310177705977383,
+            0.9117647058823529,
+            0.36348949919224555
+          ],
+          "content": "Lemma 3. If $J^{d + 1} = [mL^d\\log L]$ we can choose the coefficients $a_{(j)}$ not all 0 and in $O_K$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4304812834224599,
+            0.3570274636510501,
+            0.5614973262032086,
+            0.3764135702746365
+          ],
+          "content": "D ^ {\\lambda} F (\\zeta) = 0",
+          "image_source": "images/page_13_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.37964458804523427,
+            0.42245989304812837,
+            0.40064620355411956
+          ],
+          "content": "for $|\\lambda| < L, \\zeta \\in S$, and moreover"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41711229946524064,
+            0.40064620355411956,
+            0.5748663101604278,
+            0.42326332794830374
+          ],
+          "content": "\\operatorname{size} \\left(a _ {(j)}\\right) \\ll L.",
+          "image_source": "images/page_13_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.42487883683360256,
+            0.45454545454545453,
+            0.44426494345718903
+          ],
+          "content": "Proof. By Lemma 1, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23796791443850268,
+            0.45234248788368336,
+            0.7540106951871658,
+            0.47495961227786754
+          ],
+          "content": "\\left\\| D ^ {\\lambda} f _ {1} ^ {d _ {1}} \\dots f _ {d + 1} ^ {j _ {d + 1}} (\\zeta) \\right\\| \\leq ((d + 1) J + L) ^ {L} C _ {1} ^ {(d + 1) J + L}",
+          "image_source": "images/page_13_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.48465266558966075,
+            0.9117647058823529,
+            0.5250403877221325
+          ],
+          "content": "for $\\zeta \\in S$, $|\\lambda| < L$ and $(j) < J$. It is also clear that there is a common denominator $\\Delta$ for $D^{\\lambda}f_{1}^{j_{1}}\\ldots f_{d+1}^{j_{d+1}}(\\zeta)$ satisfying"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40641711229946526,
+            0.531502423263328,
+            0.5828877005347594,
+            0.555735056542811
+          ],
+          "content": "\\Delta \\leq C _ {1} ^ {(d + 1) J + L};",
+          "image_source": "images/page_13_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.5638126009693053,
+            0.767379679144385,
+            0.5848142164781907
+          ],
+          "content": "here $C_1$ depends only on $f, S$ but is independent of $L$ and $J$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.5896607431340872,
+            0.9144385026737968,
+            0.6478190630048465
+          ],
+          "content": "Solving the system $D^{\\lambda}F(\\zeta) = 0$ amounts to solving a system of $m\\left( \\begin{array}{c}L + d\\\\ d \\end{array} \\right)$ linear equations"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.6494345718901454,
+            0.6657754010695187,
+            0.6736672051696284
+          ],
+          "content": "\\sum a _ {(j)} \\left(\\Delta \\cdot D ^ {\\lambda} f _ {1} ^ {j _ {1}} \\dots f _ {d + 1} ^ {J d + 1} (\\zeta)\\right) = 0",
+          "image_source": "images/page_13_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.6801292407108239,
+            0.8128342245989305,
+            0.7027463651050081
+          ],
+          "content": "in the $J^{d+1}$ unknowns $a_{(j)}$. The coefficients are in $O_K$ and satisfy"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20320855614973263,
+            0.7092084006462036,
+            0.7887700534759359,
+            0.7334410339256866
+          ],
+          "content": "\\left\\| \\Delta \\cdot D ^ {\\lambda} f _ {1} ^ {j _ {1}} \\dots f _ {d + 1} ^ {j _ {d + 1}} (\\zeta) \\right\\| \\leq ((d + 1) J + L) ^ {L} C _ {1} ^ {2 (d + 1) J + 2 L},",
+          "image_source": "images/page_13_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.7415185783521809,
+            0.9117647058823529,
+            0.7819063004846527
+          ],
+          "content": "therefore by Lemma 2 we can find $a_{(j)} \\in O_K$ not all 0 and solution of the system, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22727272727272727,
+            0.7802907915993538,
+            0.7593582887700535,
+            0.8174474959612278
+          ],
+          "content": "\\operatorname{size} \\left(a _ {(j)}\\right) = \\log \\| a _ {(j)} \\| \\ll \\frac {r}{n - r} \\{L \\log (L + J) + J \\}",
+          "image_source": "images/page_13_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8206785137318255,
+            0.7085561497326203,
+            0.8610662358642972
+          ],
+          "content": "where $r = m\\binom{L + d}{d}$ and $n = J^{d + 1}$. We take $J$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37967914438502676,
+            0.8594507269789984,
+            0.6149732620320856,
+            0.8820678513731826
+          ],
+          "content": "J ^ {d + 1} = [ m L ^ {d} \\log L ];",
+          "image_source": "images/page_13_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8852988691437803,
+            0.5909090909090909,
+            0.925686591276252
+          ],
+          "content": "then $\\frac{r}{n - r} \\ll \\frac{1}{\\log L}$ and Lemma 3 is proved."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.0840064620355412
+          ],
+          "content": "280"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.10662358642972536,
+            0.7540106951871658,
+            0.1260096930533118
+          ],
+          "content": "We define $s = s(L)$ to be the integer with this property:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43315508021390375,
+            0.14054927302100162,
+            0.5668449197860963,
+            0.15993537964458804
+          ],
+          "content": "D ^ {\\sigma} F (\\zeta) = 0",
+          "image_source": "images/page_14_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.17447495961227788,
+            0.8609625668449198,
+            0.19547657512116318
+          ],
+          "content": "for $|\\sigma| < s$, $\\zeta \\in S$, while there exists $\\zeta' \\in S$ and $\\sigma'$ with $|\\sigma'| = s$, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41711229946524064,
+            0.2084006462035541,
+            0.5668449197860963,
+            0.2294022617124394
+          ],
+          "content": "D ^ {\\sigma^ {\\prime}} F (\\zeta^ {\\prime}) \\neq 0.",
+          "image_source": "images/page_14_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.23747980613893377,
+            0.25133689839572193,
+            0.25848142164781907
+          ],
+          "content": "It is clear that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4197860962566845,
+            0.25848142164781907,
+            0.5748663101604278,
+            0.2778675282714055
+          ],
+          "content": "L \\leq s <   + \\infty ,",
+          "image_source": "images/page_14_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.29079159935379645,
+            0.9117647058823529,
+            0.3295638126009693
+          ],
+          "content": "by our construction of $F(z)$; in fact $s = +\\infty$ would imply $F(z)$ identically 0, contradicting the algebraic independence of $f_1, \\ldots, f_{d+1}$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3295638126009693,
+            0.9144385026737968,
+            0.36995153473344106
+          ],
+          "content": "Let $g(z)$ be an entire function of order $\\leq \\rho$ such that $g f_j$ is entire for $j = 1, \\ldots, d + 1$, of order $\\leq \\rho$, and let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3689839572192513,
+            0.38287560581583197,
+            0.6256684491978609,
+            0.40549273021001614
+          ],
+          "content": "G _ {s} (z) = g (z) ^ {(d + 1) J} F (z).",
+          "image_source": "images/page_14_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.41518578352180935,
+            0.7620320855614974,
+            0.4345718901453958
+          ],
+          "content": "Lemma 4. There exists $\\sigma'$ with $|\\sigma'| = s$ and $\\zeta' \\in S$ such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24064171122994651,
+            0.44749596122778673,
+            0.7513368983957219,
+            0.4701130856219709
+          ],
+          "content": "\\log | D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) | \\geq - ([ K: \\mathbf {Q} ] - 1) s \\log s + O (s).",
+          "image_source": "images/page_14_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.4798061389337641,
+            0.3074866310160428,
+            0.4991922455573506
+          ],
+          "content": "Proof. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32620320855614976,
+            0.5088852988691438,
+            0.6711229946524064,
+            0.529886914378029
+          ],
+          "content": "D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) = g (\\zeta^ {\\prime}) ^ {(d + 1) J} D ^ {\\sigma^ {\\prime}} F (\\zeta^ {\\prime})",
+          "image_source": "images/page_14_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.5428109854604201,
+            0.9117647058823529,
+            0.5815831987075929
+          ],
+          "content": "because $D^{\\sigma}F(\\zeta') = 0$ for $|\\sigma| < s$. Now $\\xi = D^{\\sigma'} F(\\zeta')$ is $\\xi \\in K$ and is not 0 for some $\\sigma'$ with $|\\sigma'| = s$ and some $\\zeta' \\in S$, by definition of $s$. Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15775401069518716,
+            0.5945072697899838,
+            0.8368983957219251,
+            0.6445880452342488
+          ],
+          "content": "\\begin{array}{c} \\log | D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) | = (d + 1) J \\log | g (\\zeta^ {\\prime}) | + \\log | \\xi | \\\\ \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\geq O (J) - ([ K: \\mathbf {Q} ] - 1) \\text {size} (\\xi) + O (\\log \\operatorname{den} (\\xi)); \\end{array}",
+          "image_source": "images/page_14_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.654281098546042,
+            0.606951871657754,
+            0.6736672051696284
+          ],
+          "content": "Lemma 4 now follows from Lemmas 1 and 3."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3582887700534759,
+            0.6995153473344103,
+            0.6390374331550802,
+            0.7205169628432956
+          ],
+          "level": 2,
+          "content": "VI. Proof of Theorem A"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.7253634894991923,
+            0.6336898395721925,
+            0.7463651050080775
+          ],
+          "content": "We define $T_{s}$ to be the positive (1, 1)-current"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3663101604278075,
+            0.7560581583198708,
+            0.6283422459893048,
+            0.7964458804523424
+          ],
+          "content": "T _ {s} = \\frac {1}{\\pi s} \\partial \\bar {\\partial} \\log | G _ {s} (z) |,",
+          "image_source": "images/page_14_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.8093699515347335,
+            0.9144385026737968,
+            0.8675282714054927
+          ],
+          "content": "where  $G_{s}(z)$  is the entire function constructed at the end of the previous section. The Cauchy inequality for holomorphic functions of several variables gives easily"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.232620320855615,
+            0.875605815831987,
+            0.7620320855614974,
+            0.9079159935379645
+          ],
+          "content": "\\log | D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) | \\leq s \\log s + O (s) + \\max _ {| z | = r} \\log | G _ {s} (z) |",
+          "image_source": "images/page_14_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.9046849757673667,
+            0.33689839572192515,
+            0.925686591276252
+          ],
+          "content": "for every fixed $r > |\\zeta'|$."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.31016042780748665,
+            0.06946688206785137,
+            0.6925133689839572,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8770053475935828,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.0840064620355412
+          ],
+          "content": "281"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.1050080775444265,
+            0.5909090909090909,
+            0.1260096930533118
+          ],
+          "content": "We apply Proposition 4 and noting that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3181818181818182,
+            0.13570274636510501,
+            0.6818181818181818,
+            0.1567043618739903
+          ],
+          "content": "\\Theta (\\| s T _ {s} \\|; r, 0) = \\Theta (\\| T _ {s} \\|; r, 0) \\cdot s",
+          "image_source": "images/page_15_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.1567043618739903,
+            0.1657754010695187,
+            0.17447495961227788
+          ],
+          "content": "we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21657754010695188,
+            0.17932148626817448,
+            0.7834224598930482,
+            0.24878836833602586
+          ],
+          "content": "\\begin{array}{r l} \\log | D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) | & \\leq s \\log s + O (s) + \\max _ {| z | = R} \\log | G _ {s} (z) | \\\\ & - (1 - \\tau) \\Theta (\\| T _ {s} \\|; r, 0) s \\log \\frac {\\tau R}{2 n r}. \\end{array}",
+          "image_source": "images/page_15_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.26009693053311794,
+            0.9144385026737968,
+            0.3037156704361874
+          ],
+          "content": "On $|z| = R \\log |G(z)|$ is bounded by $O(JR^{\\rho + \\varepsilon})$, by Lemma 3 and because $g, g f_j$ are entire of order $\\leq \\rho$. Taking"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4572192513368984,
+            0.31017770597738287,
+            0.5347593582887701,
+            0.3295638126009693
+          ],
+          "content": "R = s ^ {\\kappa}",
+          "image_source": "images/page_15_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3295638126009693,
+            0.16042780748663102,
+            0.34894991922455576
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41711229946524064,
+            0.3408723747980614,
+            0.5828877005347594,
+            0.38449111470113084
+          ],
+          "content": "\\kappa <   \\frac {1}{(d + 1) \\rho},",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.3925686591276252,
+            0.9144385026737968,
+            0.4555735056542811
+          ],
+          "content": "we see that $\\max_{|z|=R} \\log |G_s(z)| = o(s \\log s)$ for large $R$. We conclude that for fixed $r > |\\zeta'$| and $\\kappa < \\frac{1}{(d+1) \\rho}$ and $\\tau > 0$ one has the bound"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.16844919786096257,
+            0.46365105008077545,
+            0.7967914438502673,
+            0.5153473344103393
+          ],
+          "content": "\\begin{array}{r l} \\log | D ^ {\\sigma^ {\\prime}} G _ {s} (\\zeta^ {\\prime}) | & \\leq s \\log s + o (s \\log s) \\\\ & - (1 - \\tau) \\kappa \\Theta (\\| T _ {s} \\|; r, 0) [ s \\log s + O (s) ]. \\end{array}",
+          "image_source": "images/page_15_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5218093699515347,
+            0.7647058823529411,
+            0.5428109854604201
+          ],
+          "content": "Comparison with the lower bound given in Lemma 4 gives"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.5508885298869144,
+            0.9144385026737968,
+            0.5977382875605816
+          ],
+          "content": "Lemma 5. The current $T_{s} = \\frac{1}{\\pi s} \\partial \\overline{\\partial} \\log |G_{s}(z)|$ has the following properties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.6042003231017771,
+            0.9144385026737968,
+            0.6445880452342488
+          ],
+          "content": "(i) $\\Theta (\\| T_s\\| ;r,0)\\leq [(d + 1)\\rho +o(1)][K:\\mathbf{Q}]$ for $s\\to +\\infty$ and every fixed $r$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.6494345718901454,
+            0.43315508021390375,
+            0.6704361873990307
+          ],
+          "content": "(ii) $\\Theta (\\| T_s\\| ;\\zeta)\\geq 1$ for $\\zeta \\in S$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.6752827140549273,
+            0.9144385026737968,
+            0.7350565428109854
+          ],
+          "content": "Proof. We have just proved (i); inequality (ii) follows from $\\Theta(\\|s T_s\\|; \\zeta) \\geq s$, which one proves using Proposition 3, (i) and the fact that $D^\\sigma G_s(\\zeta) = 0$ for $|\\sigma| < s$, $\\zeta \\in S$ by construction of $G_s$."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.7399030694668821,
+            0.9171122994652406,
+            0.8368336025848142
+          ],
+          "content": "Inequality (i) of Lemma 5 shows that the norms $\\| T_s\\| \\Omega$ are uniformly bounded as $s\\to +\\infty$, for every compact subset $\\Omega$ of $\\mathbf{C}^d$; by the Alaoglu-Bourbaki theorem we can take a weak limit $T$ of the sequence $T_{s}$, possibly by taking a subsequence. The limit current $T$ is again positive, $\\partial$ and $\\overline{\\partial}$-closed; we assert also that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4090909090909091,
+            0.8449111470113085,
+            0.5935828877005348,
+            0.8675282714054927
+          ],
+          "content": "\\| T _ {s} \\| \\Omega \\rightarrow \\| T \\| \\Omega",
+          "image_source": "images/page_15_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.875605815831987,
+            0.8609625668449198,
+            0.8966074313408724
+          ],
+          "content": "for every compact subset $\\Omega$ of $\\mathbf{C}^d$. In fact, by Proposition 1 we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37433155080213903,
+            0.9063004846526656,
+            0.6283422459893048,
+            0.9289176090468497
+          ],
+          "content": "\\| T _ {s} \\| \\Omega = i T _ {s} (\\varphi_ {\\Omega} \\omega_ {n - 1})",
+          "image_source": "images/page_15_equation_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08021390374331551,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.0840064620355412
+          ],
+          "content": "282"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.10662358642972536,
+            0.9144385026737968,
+            0.1631663974151858
+          ],
+          "content": "where  $\\varphi_{\\Omega}$  is the characteristic function of the set  $\\Omega$ ; our assertion then follows because of weak convergence, noting that  $\\varphi_{\\Omega}\\omega_{n-1}$  is independent of s."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.16639741518578352,
+            0.4304812834224599,
+            0.18739903069466882
+          ],
+          "content": "It is clear that this implies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33689839572192515,
+            0.19547657512116318,
+            0.6577540106951871,
+            0.21647819063004847
+          ],
+          "content": "\\Theta (\\| T _ {s} \\|; r, a) \\rightarrow \\Theta (\\| T \\|; r, a)",
+          "image_source": "images/page_16_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.22294022617124395,
+            0.35561497326203206,
+            0.24232633279483037
+          ],
+          "content": "for every $r, a$. But then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33689839572192515,
+            0.24878836833602586,
+            0.660427807486631,
+            0.27948303715670436
+          ],
+          "content": "\\varlimsup_ {s \\rightarrow \\infty} \\Theta (\\| T _ {s} \\|; \\zeta) \\leq \\Theta (\\| T \\|; \\zeta).",
+          "image_source": "images/page_16_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.2778675282714055,
+            0.16844919786096257,
+            0.2972536348949919
+          ],
+          "content": "In fact"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32085561497326204,
+            0.2956381260096931,
+            0.6818181818181818,
+            0.35864297253634897
+          ],
+          "content": "\\begin{array}{r l} \\Theta (\\| T \\|; r, \\zeta) & = \\lim _ {s \\to \\infty} \\Theta (\\| T _ {s} \\|; r, \\zeta) \\\\ & \\geq \\varlimsup_ {s \\to \\infty} \\Theta (\\| T _ {s} \\|; \\zeta), \\end{array}",
+          "image_source": "images/page_16_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3667205169628433,
+            0.9144385026737968,
+            0.407108239095315
+          ],
+          "content": "the last inequality coming from Proposition 2; letting $r \\to 0$ we get what we want, because $T$ is $\\overline{\\partial}$-closed, hence Proposition 2 applies again."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.4087237479806139,
+            0.37967914438502676,
+            0.4281098546042003
+          ],
+          "content": "Thus we have proved"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.4345718901453958,
+            0.9171122994652406,
+            0.47495961227786754
+          ],
+          "content": "Lemma 6. There exists a positive, $\\partial$- and $\\bar{\\partial}$-closed current $T$ of type (1, 1) with the following properties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.4798061389337641,
+            0.6764705882352942,
+            0.5008077544426495
+          ],
+          "content": "(i) $\\Theta (\\| T\\| ;r,a)\\leq (d + 1)\\rho [K:\\mathbf{Q}]$ for every $r,a$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.5040387722132472,
+            0.4304812834224599,
+            0.5250403877221325
+          ],
+          "content": "(ii) $\\Theta (\\| T\\| ;\\zeta)\\geq 1$ for $\\zeta \\in S$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.531502423263328,
+            0.9171122994652406,
+            0.5896607431340872
+          ],
+          "content": "Proof. Only (i) requires some explanation in case  $a \\neq 0$ . The general case follows by noting that  $B(r - |a|, 0) \\subseteq B(r, a) \\subseteq B(r + |a|, 0)$ , which gives easily"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13101604278074866,
+            0.592891760904685,
+            0.8823529411764706,
+            0.6768982229402262
+          ],
+          "content": "\\begin{array}{r l} \\left(1 - \\frac {| a |}{r}\\right) ^ {2 n - 2} \\Theta (\\| T \\|; r - | a |, 0) & \\leq \\Theta (\\| T \\|; r, a) \\\\ & \\leq \\left(1 + \\frac {| a |}{r}\\right) ^ {2 n - 2} \\Theta (\\| T \\|; r + | a |, 0), \\end{array}",
+          "image_source": "images/page_16_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.6882067851373183,
+            0.8235294117647058,
+            0.7075928917609047
+          ],
+          "content": "and letting $r \\to +\\infty$. The result now follows from Proposition 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7108239095315024,
+            0.9197860962566845,
+            0.7705977382875606
+          ],
+          "content": "In order to prove Theorem A, it is enough to show that if a set S is such that a current satisfying Lemma 6 exists, then S lies in a algebraic hypersurface of degree  $\\leqq d(d+1)\\rho[K:\\mathbf{Q}]+2d$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12566844919786097,
+            0.7722132471728594,
+            0.8636363636363636,
+            0.7915993537964459
+          ],
+          "content": "By making a translation, we may suppose that the function of r"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4117647058823529,
+            0.802907915993538,
+            0.5989304812834224,
+            0.8416801292407108
+          ],
+          "content": "\\frac {1}{r} \\Theta (\\| T \\|; r, 0)",
+          "image_source": "images/page_16_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.8546042003231018,
+            0.6577540106951871,
+            0.875605815831987
+          ],
+          "content": "is summable at the origin. Consider the potential"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21122994652406418,
+            0.8852988691437803,
+            0.7967914438502673,
+            0.9289176090468497
+          ],
+          "content": "V (z) = \\frac {(n - 2) !}{2 \\pi^ {n - 1}} \\int_ {\\zeta \\in \\mathbb {C} ^ {n}} \\left(\\frac {1}{| \\zeta | ^ {2 n - 2}} - \\frac {1}{| \\zeta - z | ^ {2 n - 2}}\\right) d \\| T \\|;",
+          "image_source": "images/page_16_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0855614973262032,
+            0.9305331179321487,
+            0.31016042780748665,
+            0.9466882067851373
+          ],
+          "content": "20 Inventiones math, Vol. 10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3074866310160428,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.0840064620355412
+          ],
+          "content": "283"
+        }
+      ]
+    },
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.10662358642972536,
+            0.9117647058823529,
+            0.18739903069466882
+          ],
+          "content": "the integral is convergent by (i) of Lemma 6 and because $\\frac{1}{r}\\Theta (\\| T\\| ;r,0)$ is summable at $r = 0$ (see for instance [6], Theorem 1, pp. 380-381). The potential $V(z)$ verifies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3609625668449198,
+            0.19709208400646203,
+            0.6283422459893048,
+            0.23747980613893377
+          ],
+          "content": "\\frac {1}{2 \\pi} \\Delta V (z) \\wedge \\omega_ {n} = d \\| T \\|",
+          "image_source": "images/page_17_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0748663101604278,
+            0.2520193861066236,
+            0.9144385026737968,
+            0.3505654281098546
+          ],
+          "content": "hence  $V(z)$  is subharmonic in  $C^{d}$ . But in fact, a fundamental theorem of Lelong [6], Theorem 3, p. 387 (the theorem is stated with the condition that supp(T) does not contain the origin, but in fact the weaker condition that  $\\frac{1}{r}\\Theta(\\|T\\|; r, 0)$  be summable at r=0 suffices) shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4117647058823529,
+            0.35379644588045234,
+            0.5855614973262032,
+            0.39418416801292405
+          ],
+          "content": "\\frac {1}{\\pi} \\partial \\overline {{{{\\partial}}}} V (z) = T.",
+          "image_source": "images/page_17_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.41033925686591277,
+            0.45989304812834225,
+            0.43134087237479807
+          ],
+          "content": "Hence  $V(z)$  is plurisubharmonic."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11764705882352941,
+            0.4378029079159935,
+            0.7647058823529411,
+            0.45718901453957994
+          ],
+          "content": "Lemma 7. The function  $V(z)$  has the following properties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12834224598930483,
+            0.4620355411954766,
+            0.7459893048128342,
+            0.48465266558966075
+          ],
+          "content": "(i) $V(z)\\leq [1 + o(1)]\\Theta (\\| T\\| ;\\infty ,0)\\log |z|$ as $|z|\\to +\\infty$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.4894991922455573,
+            0.7379679144385026,
+            0.531502423263328
+          ],
+          "content": "(ii) $V(z)\\leq -\\left[1 + o(1)\\right]\\Theta (\\| T\\| ;\\zeta)\\log \\frac{1}{|z - \\zeta|}$ as $z\\to \\zeta$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.5363489499192245,
+            0.6096256684491979,
+            0.5589660743134087
+          ],
+          "content": "Proof. Let $\\Theta (\\infty) = \\Theta (\\| T\\| ;\\infty ,0)$. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3048128342245989,
+            0.5702746365105008,
+            0.6898395721925134,
+            0.6138933764135702
+          ],
+          "content": "\\frac {1}{| \\zeta | ^ {2 n - 2}} - \\frac {1}{| \\zeta - z | ^ {2 n - 2}} \\ll \\frac {| z |}{| \\zeta | ^ {2 n - 1}}",
+          "image_source": "images/page_17_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.6219709208400647,
+            0.2994652406417112,
+            0.6429725363489499
+          ],
+          "content": "for $|\\zeta| > |z|$. Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.12032085561497326,
+            0.6526655896607432,
+            0.8689839572192514,
+            0.6995153473344103
+          ],
+          "content": "V (z) \\leq \\frac {(n - 2) !}{2 \\pi^ {n - 1}} \\int_ {| \\zeta | <   | z |} \\frac {1}{| \\zeta | ^ {2 n - 2}} d \\| T \\| + O \\left(| z | \\int_ {| \\zeta | > | z |} \\frac {1}{| \\zeta | ^ {2 n - 1}} d \\| T \\|\\right).",
+          "image_source": "images/page_17_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7011308562197092,
+            0.1925133689839572,
+            0.7205169628432956
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.17379679144385027,
+            0.7269789983844911,
+            0.8235294117647058,
+            0.8659127625201939
+          ],
+          "content": "\\begin{array}{r l} \\int_ {| \\zeta | > | z |} \\frac {1}{| \\zeta | ^ {2 n - 1}} d \\| T \\| & = \\int_ {| z |} ^ {\\infty} \\frac {1}{t ^ {2 n - 1}} d \\| T \\| B (t, 0) \\\\ & = - \\frac {1}{| z | ^ {2 n - 1}} \\| T \\| B (| z |, 0) + (2 n - 1) \\int_ {| z |} ^ {\\infty} \\frac {\\| T \\| B (t , 0)}{t ^ {n}} d t \\\\ & = O \\left(\\frac {1}{| z |}\\right), \\end{array}",
+          "image_source": "images/page_17_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.875605815831987,
+            0.8582887700534759,
+            0.9224555735056543
+          ],
+          "content": "because $\\| T\\| B(t,0)\\leq \\frac{\\pi^{n - 1}}{(n - 1)!} t^{2n - 2}\\Theta (\\infty)$ , and $\\int \\limits_{|z|}^{\\infty}t^{-2}dt = O\\left(\\frac{1}{|z|}\\right).$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08021390374331551,
+            0.06946688206785137,
+            0.12032085561497326,
+            0.08562197092084006
+          ],
+          "content": "284"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.12299465240641712,
+            0.10662358642972536,
+            0.4197860962566845,
+            0.1260096930533118
+          ],
+          "content": "In the same way we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20320855614973263,
+            0.13893376413570274,
+            0.7459893048128342,
+            0.3263327948303716
+          ],
+          "content": "\\begin{array}{r l} \\int_ {| \\zeta | <   | z |} \\frac {1}{| \\zeta | ^ {2 n - 2}} d \\| T \\| = & \\int_ {0} ^ {| z |} \\frac {1}{t ^ {2 n - 2}} d \\| T \\| B (t, 0) \\\\ & \\leq \\frac {\\| T \\| B (| z | , 0)}{| z | ^ {2 n - 2}} + (2 n - 2) \\int_ {0} ^ {| z |} \\frac {\\| T \\| B (t , 0)}{t ^ {2 n - 1}} d t \\\\ & = O (1) + (2 n - 2) \\int_ {1} ^ {| z |} \\frac {\\pi^ {n - 1}}{(n - 1) !} \\frac {\\Theta (\\| T \\| ; t , 0)}{t} d t \\\\ & \\leq (2 n - 2) \\frac {\\pi^ {n - 1}}{(n - 1) !} \\Theta (\\infty) \\log | z | + O (1) \\end{array}",
+          "image_source": "images/page_18_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.3408723747980614,
+            0.7807486631016043,
+            0.36187399030694667
+          ],
+          "content": "for $|z| > 1$. These two estimates together prove statement (1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12032085561497326,
+            0.36348949919224555,
+            0.7165775401069518,
+            0.38449111470113084
+          ],
+          "content": "The proof of (ii) is very similar. We have, for $\\zeta_0 \\neq 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21390374331550802,
+            0.3974151857835218,
+            0.786096256684492,
+            0.44264943457189015
+          ],
+          "content": "V (z) = - \\frac {(n - 2) !}{2 \\pi^ {n - 1}} \\int_ {| \\zeta - \\zeta_ {0} | <   1} \\frac {1}{| \\zeta - z | ^ {2 n - 2}} d \\| T \\| + O (1)",
+          "image_source": "images/page_18_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.44749596122778673,
+            0.31016042780748665,
+            0.46849757673667203
+          ],
+          "content": "as $z\\to \\zeta_0$ .We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28342245989304815,
+            0.4765751211631664,
+            0.7165775401069518,
+            0.518578352180937
+          ],
+          "content": "\\frac {1}{| \\zeta - z | ^ {2 n - 2}} \\geq \\frac {1}{(| \\zeta - \\zeta_ {0} | + | z - \\zeta_ {0} |) ^ {2 n - 2}}",
+          "image_source": "images/page_18_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.5379644588045234,
+            0.5026737967914439,
+            0.5573505654281099
+          ],
+          "content": "so we have to get a lower bound for"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27807486631016043,
+            0.567043618739903,
+            0.7219251336898396,
+            0.6138933764135702
+          ],
+          "content": "\\int_ {| \\zeta - \\zeta_ {0} | <   1} \\frac {1}{(| \\zeta - \\zeta_ {0} | + | z - \\zeta_ {0} |) ^ {2 n - 2}} d \\| T \\|.",
+          "image_source": "images/page_18_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.6187399030694669,
+            0.2620320855614973,
+            0.6365105008077544
+          ],
+          "content": "This integral is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.17379679144385027,
+            0.6445880452342488,
+            0.8048128342245989,
+            0.7867528271405493
+          ],
+          "content": "\\begin{array}{l} \\int_ {0} ^ {1} \\frac {1}{(t + | z - \\zeta_ {0} |) ^ {2 n - 2}} d \\| T \\| B (t, \\zeta_ {0}) \\\\ = O (1) + (2 n - 2) \\int_ {0} ^ {1} \\frac {\\| T \\| B (t , \\zeta_ {0})}{(t + | z - \\zeta_ {0} |) ^ {2 n - 1}} d t \\\\ \\geq O (1) + \\frac {2 \\pi^ {n - 1}}{(n - 2) !} \\Theta (\\| T \\|; \\zeta_ {0}) \\int_ {0} ^ {1} \\frac {t ^ {2 n - 2}}{(t + | z - \\zeta_ {0} |) ^ {2 n - 1}} d t. \\end{array}",
+          "image_source": "images/page_18_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.7867528271405493,
+            0.17379679144385027,
+            0.8077544426494345
+          ],
+          "content": "Finally"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24064171122994651,
+            0.802907915993538,
+            0.7593582887700535,
+            0.8982229402261712
+          ],
+          "content": "\\begin{array}{r l} & \\int_ {0} ^ {1} \\frac {t ^ {2 n - 2}}{(t + \\alpha) ^ {2 n - 1}} d t = \\int_ {\\alpha} ^ {1 + \\alpha} \\frac {(t - \\alpha) ^ {2 n - 2}}{t ^ {2 n - 1}} d t \\\\ & \\quad = \\int_ {\\alpha} ^ {1 + \\alpha} \\frac {d t}{t} + O \\left(\\alpha \\int_ {\\alpha} ^ {1 + \\alpha} \\frac {d t}{t ^ {2}}\\right) = \\log \\frac {1}{\\alpha} + O (1), \\end{array}",
+          "image_source": "images/page_18_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08288770053475936,
+            0.9063004846526656,
+            0.4358288770053476,
+            0.925686591276252
+          ],
+          "content": "and (ii) of Lemma 7 is proved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.0855614973262032,
+            0.9305331179321487,
+            0.11497326203208556,
+            0.9434571890145396
+          ],
+          "content": "20\\*"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.31016042780748665,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08723747980613894
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8770053475935828,
+            0.06946688206785137,
+            0.9144385026737968,
+            0.0840064620355412
+          ],
+          "content": "285"
+        }
+      ]
+    },
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.1050080775444265,
+            0.9117647058823529,
+            0.16478190630048464
+          ],
+          "content": "Now we apply the Existence Theorem, for the plurisubharmonic function $\\kappa V(z)$, where $\\kappa$ is a constant $\\kappa > 2d$. We obtain that there exists $F(z)$ entire in $\\mathbf{C}^d$ and not identically 0, such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2967914438502674,
+            0.17447495961227788,
+            0.6925133689839572,
+            0.2084006462035541
+          ],
+          "content": "\\int_ {\\mathbf {C} ^ {d}} | F | ^ {2} e ^ {- \\kappa V} (1 + | z | ^ {2}) ^ {- 3 d} \\omega_ {d} <   + \\infty .",
+          "image_source": "images/page_19_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.2197092084006462,
+            0.9144385026737968,
+            0.2972536348949919
+          ],
+          "content": "From $\\kappa > 2d$ and (ii) of Lemma 7 we see that $e^{-\\kappa V}$ is not summable at every point $\\zeta$ where $\\Theta(\\|T\\|; \\zeta) \\geq 1$. On the other hand, the integral is finite; hence $F(z)$ vanishes at every point where $\\Theta(\\|T\\|; \\zeta) \\geq 1$. Moreover, for large $z$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25133689839572193,
+            0.308562197092084,
+            0.7406417112299465,
+            0.33279483037156704
+          ],
+          "content": "| F | ^ {2} e ^ {- \\kappa V} (1 + | z | ^ {2}) ^ {- 3 d} \\geq | F | ^ {2} | z | ^ {- \\kappa \\Theta (\\infty) - 6 d - \\varepsilon}",
+          "image_source": "images/page_19_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.3441033925686591,
+            0.5401069518716578,
+            0.36348949919224555
+          ],
+          "content": "for every fixed $\\varepsilon > 0$. Again, we deduce"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2887700534759358,
+            0.37479806138933763,
+            0.7032085561497327,
+            0.4087237479806139
+          ],
+          "content": "\\int_ {\\mathbf {C} ^ {d}} | F | ^ {2} (1 + | z |) ^ {- \\kappa \\Theta (\\infty) - 6 d - \\varepsilon} \\omega_ {d} <   + \\infty",
+          "image_source": "images/page_19_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07754010695187166,
+            0.420032310177706,
+            0.8449197860962567,
+            0.4410339256865913
+          ],
+          "content": "and $F$ is entire. It follows that $F$ is a polynomial of degree at most"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35561497326203206,
+            0.4555735056542811,
+            0.6363636363636364,
+            0.4781906300484653
+          ],
+          "content": "\\frac {1}{2} [ \\kappa \\Theta (\\infty) + 6 d + \\varepsilon ] - d,",
+          "image_source": "images/page_19_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.4878836833602585,
+            0.9144385026737968,
+            0.5848142164781907
+          ],
+          "content": "by the classical argument used to prove Liouville's theorem. Letting $\\varepsilon \\to 0$ and $\\kappa \\to 2d$ and using Lemma 6, we see that we have found a polynomial $P(z)$, not identically zero, vanishing on $S$ and of degree $\\leq d(d + 1)\\rho [k:\\mathbf{Q}] + 2d$. Clearly one may multiply $P(z)$ by an arbitrary non-zero constant, hence one may suppose"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45454545454545453,
+            0.5977382875605816,
+            0.5427807486631016,
+            0.6187399030694669
+          ],
+          "content": "| P | = 1.",
+          "image_source": "images/page_19_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08021390374331551,
+            0.630048465266559,
+            0.9171122994652406,
+            0.72859450726979
+          ],
+          "content": "We had the condition that S was a finite set of points  $\\zeta$ , at which  $f(\\zeta)$  was defined and  $f(\\zeta) \\in K^{N}$ . The finiteness condition is easily removed, because the space of polynomials P of given degree with norm  $|P| = 1$  is compact, and because the bound we have obtained on the degree of P does not depend on S. This completes the proof of Theorem A."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4358288770053476,
+            0.7576736672051696,
+            0.56951871657754,
+            0.7754442649434572
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09893048128342247,
+            0.7819063004846527,
+            0.9171122994652406,
+            0.81421647819063
+          ],
+          "content": "1. Andreotti, A., Vesentini, E.: Carleman estimates for the Laplace-Beltrami equation on complex manifolds. Publ. I.H.E.S. 25, 81–130 (1965)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09893048128342247,
+            0.81421647819063,
+            0.9144385026737968,
+            0.8303715670436187
+          ],
+          "content": "2. Federer, H.: Geometric measure theory. Berlin-Heidelberg-New York: Springer 1969."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09893048128342247,
+            0.8287560581583199,
+            0.9171122994652406,
+            0.8594507269789984
+          ],
+          "content": "3. Hörmander, L.: $L^2$ estimates and existence theorems for the $\\overline{\\partial}$ operator. Acta Math. 113, 89-152 (1965)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09893048128342247,
+            0.8594507269789984,
+            0.9171122994652406,
+            0.8917609046849758
+          ],
+          "content": "4. - An introduction to complex analysis in several variables. Princeton: Van Nostrand Co. 1966."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.09893048128342247,
+            0.8917609046849758,
+            0.9197860962566845,
+            0.9224555735056543
+          ],
+          "content": "5. Lang, S.: Introduction to transcendental numbers. Reading, Mass.: Addison-Wesley 1966."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08288770053475936,
+            0.06946688206785137,
+            0.12299465240641712,
+            0.0840064620355412
+          ],
+          "content": "286"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.43315508021390375,
+            0.06946688206785137,
+            0.5561497326203209,
+            0.08562197092084006
+          ],
+          "content": "E. Bombieri:"
+        }
+      ]
+    },
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.31016042780748665,
+            0.06946688206785137,
+            0.6898395721925134,
+            0.08562197092084006
+          ],
+          "content": "Algebraic Values of Meromorphic Maps"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8743315508021391,
+            0.07108239095315025,
+            0.9117647058823529,
+            0.08562197092084006
+          ],
+          "content": "287"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.09358288770053476,
+            0.1098546042003231,
+            0.9117647058823529,
+            0.14054927302100162
+          ],
+          "content": "6. Lelong, P.: Fonctions entières (n variables) et fonctions plurisousharmoniques d'ordre fini dans $\\mathbf{C}^n$. J. d'Analyse Math. 12, 365-407 (1964)."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0962566844919786,
+            0.14054927302100162,
+            0.9117647058823529,
+            0.16962843295638125
+          ],
+          "content": "7. — Propriétés métriques des variétés analytiques complexes définies par une équation. Ann. E.N.S. 67, 393–419 (1950)."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0962566844919786,
+            0.17124394184168013,
+            0.9117647058823529,
+            0.20193861066235863
+          ],
+          "content": "8. - Fonctions plurisousharmoniques et formes différentielles positives. New York: Gordon and Breach 1968."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.09358288770053476,
+            0.20193861066235863,
+            0.9117647058823529,
+            0.23263327948303716
+          ],
+          "content": "9. Martineau, A.: Indicatrices de croissance des fonctions entières de $N$-variables. Inventiones Math. 2, 81-86 (1966), and Corrections. Inventiones Math. 3, 16-19 (1967)."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.08823529411764706,
+            0.23424878836833601,
+            0.9117647058823529,
+            0.2633279483037157
+          ],
+          "content": "10. Schneider: Ein Satz über ganzwertige Funktionen als Prinzip für Transzendenzbeweise. Math. Annalen 121, 131–140 (1949–1950)."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0855614973262032,
+            0.2649434571890145,
+            0.9117647058823529,
+            0.2940226171243942
+          ],
+          "content": "11. Stoll, W.: The growth of the area of a transcendental analytic set. Math. Annalen 156, 47-78 and 144-170 (1964)."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.49732620320855614,
+            0.3166397415185784,
+            0.6577540106951871,
+            0.33279483037156704
+          ],
+          "content": "Enrico Bombieri"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.49732620320855614,
+            0.33117932148626816,
+            0.6684491978609626,
+            0.34894991922455576
+          ],
+          "content": "Università di Pisa"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4946524064171123,
+            0.345718901453958,
+            0.8663101604278075,
+            0.3780290791599354
+          ],
+          "content": "Istituto Matematico \"Leonida Tonelli\"\nPisa, Italia"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.38235294117647056,
+            0.3974151857835218,
+            0.6176470588235294,
+            0.4135702746365105
+          ],
+          "content": "(Received June 29, 1970)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    }
+  },
+  "is_full_document": true
+}

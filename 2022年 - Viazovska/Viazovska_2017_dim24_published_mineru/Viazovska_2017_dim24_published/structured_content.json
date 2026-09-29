@@ -1,0 +1,2980 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.2973856209150327,
+            0.18055555555555555,
+            0.6944444444444444,
+            0.22727272727272727
+          ],
+          "level": 1,
+          "content": "The sphere packing problem in dimension 24"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.25126262626262624,
+            0.8006535947712419,
+            0.2828282828282828
+          ],
+          "content": "By Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4542483660130719,
+            0.31691919191919193,
+            0.5375816993464052,
+            0.33207070707070707
+          ],
+          "level": 2,
+          "content": "Abstract"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24673202614379086,
+            0.3484848484848485,
+            0.7434640522875817,
+            0.4393939393939394
+          ],
+          "content": "Building on Viazovska’s recent solution of the sphere packing problem in eight dimensions, we prove that the Leech lattice is the densest packing of congruent spheres in twenty-four dimensions and that it is the unique optimal periodic packing. In particular, we find an optimal auxiliary function for the linear programming bounds, which is an analogue of Viazovska’s function for the eight-dimensional case."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.42483660130718953,
+            0.4898989898989899,
+            0.565359477124183,
+            0.5050505050505051
+          ],
+          "level": 2,
+          "content": "1. Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5164141414141414,
+            0.8022875816993464,
+            0.6212121212121212
+          ],
+          "content": "The sphere packing problem asks how to arrange congruent balls as densely as possible without overlap between their interiors. The density is the fraction of space covered by the balls, and the problem is to find the maximal possible density. This problem plays an important role in geometry, number theory, and information theory. See [5] for background and references on sphere packing and its applications."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6224747474747475,
+            0.8006535947712419,
+            0.7272727272727273
+          ],
+          "content": "Although many interesting constructions are known, provable optimality is very rare. Aside from the trivial case of one dimension, the optimal density was previously known only in two [11], three [7], [8], and eight [12] dimensions, with the latter result being a recent breakthrough due to Viazovska; see [1], [9] for expositions. Building on her work, we solve the sphere packing problem in twenty-four dimensions:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.7361111111111112,
+            0.8022875816993464,
+            0.7891414141414141
+          ],
+          "content": "Theorem 1.1. The Leech lattice achieves the optimal sphere packing density in$\\mathbb { R } ^ { 2 4 }$, and it is the only periodic packing in$\\mathbb { R } ^ { 2 4 }$with that density, up to scaling and isometries."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.35294117647058826,
+            0.1148989898989899,
+            0.6388888888888888,
+            0.14015151515151514
+          ],
+          "content": "Annals of Mathematics 185 (2017), 1017–1033 https://doi.org/10.4007/annals.2017.185.3.8"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.18790849673202614,
+            0.8143939393939394,
+            0.8006535947712419,
+            0.8446969696969697
+          ],
+          "content": "Miller’s research was supported by National Science Foundation grants DMS-1500562 and CNS-1526333."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.18790849673202614,
+            0.8446969696969697,
+            0.8006535947712419,
+            0.875
+          ],
+          "content": "c 2017 by the authors. This paper may be reproduced, in its entirety, for noncommercial purposes."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.47875816993464054,
+            0.8977272727272727,
+            0.5130718954248366,
+            0.9103535353535354
+          ],
+          "content": "1017"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.8006535947712419,
+            0.1919191919191919
+          ],
+          "content": "In particular, the optimal sphere packing density in$\\mathbb { R } ^ { 2 4 }$is that of the Leech lattice, namely,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3954248366013072,
+            0.1919191919191919,
+            0.5947712418300654,
+            0.22601010101010102
+          ],
+          "content": "\\frac {\\pi^ {1 2}}{1 2 !} = 0. 0 0 1 9 2 9 5 7 4 3 \\dots .",
+          "image_source": "images/page_1_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.22853535353535354,
+            0.7598039215686274,
+            0.24621212121212122
+          ],
+          "content": "For an appealing construction of the Leech lattice, see Section 2.8 of [6]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2474747474747475,
+            0.8022875816993464,
+            0.44065656565656564
+          ],
+          "content": "It is unknown in general whether optimal packings have any special structure, but our theorem shows that they do in$\\mathbb { R } ^ { 2 4 }$. The optimality and uniqueness of the Leech lattice were previously known only among lattice packings [3], which is a far more restrictive setting. Recall that a lattice is a discrete subgroup of$\\mathbb { R } ^ { n }$of rank$n ,$and a lattice packing uses spheres centered at the points of a lattice, while a periodic packing is the union of finitely many translates of a lattice. Lattices are far more algebraically constrained, and it is widely believed that they do not achieve the optimal density in most dimensions. (For example, see [5, p. 140] for an example in$\\mathbb { R } ^ { 1 0 }$of a periodic packing that is denser than any known lattice.) By contrast, periodic packings at least come arbitrarily close to the optimal sphere packing density."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.44065656565656564,
+            0.8006535947712419,
+            0.476010101010101
+          ],
+          "content": "The proof of Theorem 1.1 will be based on the linear programming bounds for sphere packing, as given by the following theorem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.48358585858585856,
+            0.803921568627451,
+            0.553030303030303
+          ],
+          "content": "Theorem 1.2 (Cohn and Elkies [2]). Let$f \\colon  { \\mathbb { R } } ^ { n } \\ \\to \\  { \\mathbb { R } } ^ { n }$be a Schwartz function and$\\textit { r a }$positive real number such that$f ( 0 ) = { \\widehat { f } } ( 0 ) = 1 , f ( x ) \\leq 0$for $| x | \\geq r ,$, and${ \\widehat { f } } ( y ) \\geq 0$for all$y .$Then the sphere packing density in$\\mathbb { R } ^ { n }$is at most"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4395424836601307,
+            0.5517676767676768,
+            0.5506535947712419,
+            0.5896464646464646
+          ],
+          "content": "\\frac {\\pi^ {n / 2}}{(n / 2) !} \\left(\\frac {r}{2}\\right) ^ {n}.",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5959595959595959,
+            0.8006535947712419,
+            0.6300505050505051
+          ],
+          "content": "Here$( n / 2 ) !$means$\\Gamma ( n / 2 + 1 )$when n is odd, and the Fourier transform is normalized by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.380718954248366,
+            0.6300505050505051,
+            0.6078431372549019,
+            0.6628787878787878
+          ],
+          "content": "\\widehat {f} (y) = \\int_ {\\mathbb {R} ^ {n}} f (x) e ^ {- 2 \\pi i \\langle x, y \\rangle} d x,",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6654040404040404,
+            0.8006535947712419,
+            0.7727272727272727
+          ],
+          "content": "where$\\langle \\cdot , \\cdot \\rangle$denotes the usual inner product on$\\mathbb { R } ^ { n }$. Without loss of generality, we can radially symmetrize$f ,$in which case$\\widehat { f }$is radial as well. We will often tacitly identify radial functions on$\\mathbb { R } ^ { 2 4 }$with functions on$[ 0 , \\infty )$and vice versa, by using$f ( r )$with$r \\in [ 0 , \\infty )$to denote the common value$f ( x )$with$| x | = r$ All Fourier transforms will be in$\\mathbb { R } ^ { 2 4 }$unless otherwise specified. In other words, if$f$is a function of one variable defined on$[ 0 , \\infty )$, then$\\widehat { f } ( r )$means"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4019607843137255,
+            0.7777777777777778,
+            0.5882352941176471,
+            0.8118686868686869
+          ],
+          "content": "\\int_ {\\mathbb {R} ^ {2 4}} f \\big (| x | \\big) e ^ {- 2 \\pi i \\langle x, y \\rangle} d x,",
+          "image_source": "images/page_1_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.8169191919191919,
+            0.43137254901960786,
+            0.8345959595959596
+          ],
+          "content": "where$y \\in \\mathbb { R } ^ { 2 4 }$satisfies$| y | = r$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8358585858585859,
+            0.803921568627451,
+            0.8888888888888888
+          ],
+          "content": "Optimizing the bound from Theorem 1.1 requires choosing the right auxiliary function$f .$. It was not previously known how to do so except in one dimension [2] or eight [12], but Cohn and Elkies conjectured the existence of"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.1388888888888889
+          ],
+          "content": "1018"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2973856209150327,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.8006535947712419,
+            0.21085858585858586
+          ],
+          "continues_prev": true,
+          "content": "an auxiliary function proving the optimality of the Leech lattice [2]. We prove this conjecture by developing an analogue for the Leech lattice of Viazovska’s construction for the$E _ { 8 }$root lattice."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.21085858585858586,
+            0.8022875816993464,
+            0.3333333333333333
+          ],
+          "content": "In the case of the Leech lattice, proving optimality amounts to achieving $r = 2$, which requires that$f$and$\\widehat { f }$have roots on the spheres of radius$\\sqrt { 2 k }$ about the origin for$k = 2 , 3 , \\ldots$. See [2] for further explanation and discussion of this condition. Furthermore, the argument in Section 8 of [2] shows that if $f$has no other roots at distance 2 or more, then the Leech lattice is the unique optimal periodic packing in$\\mathbb { R } ^ { 2 4 }$. Thus, the proof of Theorem 1.1 reduces to constructing such a function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18627450980392157,
+            0.3333333333333333,
+            0.803921568627451,
+            0.5467171717171717
+          ],
+          "content": "The existence of an optimal auxiliary function in$\\mathbb { R } ^ { 2 4 }$has long been anticipated, and Cohn and Miller made further conjectures in [4] about special values of the function, which we also prove. Our approach is based on a new connection with quasimodular forms discovered by Viazovska [12], and our proof techniques are analogous to hers. In Sections 2 and 3 we will build two radial Fourier eigenfunctions in$\\mathbb { R } ^ { 2 4 }$, one with eigenvalue 1 constructed using a weakly holomorphic quasimodular form of weight −8 and depth 2 for$\\operatorname { S L _ { 2 } } ( \\mathbb { Z } )$ and one with eigenvalue −1 constructed using a weakly holomorphic modular form of weight −10 for the congruence subgroup Γ(2). We will then take a linear combination of these eigenfunctions in Section 4 to construct the optimal auxiliary function. Throughout the paper, we will make free use of the standard definitions and notation for modular forms from [12], [13]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3839869281045752,
+            0.5568181818181818,
+            0.6062091503267973,
+            0.5744949494949495
+          ],
+          "level": 2,
+          "content": "2. The +1 eigenfunction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5833333333333334,
+            0.8006535947712419,
+            0.6186868686868687
+          ],
+          "content": "We begin by constructing a radial eigenfunction of the Fourier transform in$\\mathbb { R } ^ { 2 4 }$with eigenvalue 1 in terms of the quasimodular form"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2434640522875817,
+            0.6199494949494949,
+            0.7794117647058824,
+            0.6792929292929293
+          ],
+          "content": "\\begin{array}{l} \\varphi = \\frac {\\left(2 5 E _ {4} ^ {4} - 4 9 E _ {6} ^ {2} E _ {4}\\right) + 4 8 E _ {6} E _ {4} ^ {2} E _ {2} + \\left(- 4 9 E _ {4} ^ {3} + 2 5 E _ {6} ^ {2}\\right) E _ {2} ^ {2}}{\\Delta^ {2}} \\\\ = - 3 6 5 7 8 3 0 4 0 0 q - 3 1 4 5 7 3 4 1 4 4 0 0 q ^ {2} - 1 3 7 1 6 8 6 4 0 0 0 0 0 0 q ^ {3} + O (q ^ {4}), \\end{array}\\tag{2.1}",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6868686868686869,
+            0.8006535947712419,
+            0.73989898989899
+          ],
+          "content": "where$q = e ^ { 2 \\pi i z }$and the variable z lies in the upper half plane. As mentioned in the introduction, we follow the notation of [12]. In particular,$E _ { k }$denotes the Eisenstein series"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3366013071895425,
+            0.73989898989899,
+            0.6535947712418301,
+            0.7790404040404041
+          ],
+          "content": "E _ {k} (z) = 1 + \\frac {2}{\\zeta (1 - k)} \\sum_ {n = 1} ^ {\\infty} \\sum_ {d \\mid n} d ^ {k - 1} e ^ {2 \\pi i n z},",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7840909090909091,
+            0.8006535947712419,
+            0.8358585858585859
+          ],
+          "content": "which is a modular form of weight k for$\\operatorname { S L _ { 2 } } ( \\mathbb { Z } )$when k is even and greater than 2 (and a quasimodular form when$k = 2 )$. Furthermore, we normalize$\\Delta$ by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.8358585858585859,
+            0.6650326797385621,
+            0.8699494949494949
+          ],
+          "content": "\\Delta = \\frac {E _ {4} ^ {3} - E _ {6} ^ {2}}{1 7 2 8} = q - 2 4 q ^ {2} + 2 5 2 q ^ {3} + O (q ^ {4}).",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8699494949494949,
+            0.6339869281045751,
+            0.8876262626262627
+          ],
+          "content": "Recall that$\\Delta$vanishes nowhere in the upper half plane."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.1388888888888889
+          ],
+          "content": "1019"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.803921568627451,
+            0.19318181818181818
+          ],
+          "content": "This function$\\varphi$is a weakly holomorphic quasimodular form of weight −8 and depth 2 for the full modular group. Specifically, because"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3839869281045752,
+            0.20202020202020202,
+            0.6078431372549019,
+            0.23737373737373738
+          ],
+          "content": "z ^ {- 2} E _ {2} \\biggl (- \\frac {1}{z} \\biggr) = E _ {2} (z) - \\frac {6 i}{\\pi z},",
+          "image_source": "images/page_3_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2474747474747475,
+            0.4852941176470588,
+            0.2638888888888889
+          ],
+          "content": "we have the quasimodularity relation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.273989898989899,
+            0.6372549019607843,
+            0.30934343434343436
+          ],
+          "content": "z ^ {8} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) = \\varphi (z) + \\frac {\\varphi_ {1} (z)}{z} + \\frac {\\varphi_ {2} (z)}{z ^ {2}},\\tag{2.2}",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.3207070707070707,
+            0.2434640522875817,
+            0.3345959595959596
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.26143790849673204,
+            0.34595959595959597,
+            0.7254901960784313,
+            0.4166666666666667
+          ],
+          "content": "\\begin{array}{r l} & {\\varphi_ {1} = - \\frac {6 i}{\\pi} 4 8 \\frac {E _ {6} E _ {4} ^ {2}}{\\Delta^ {2}} - \\frac {1 2 i}{\\pi} \\frac {E _ {2} \\left(- 4 9 E _ {4} ^ {3} + 2 5 E _ {6} ^ {2}\\right)}{\\Delta^ {2}}} \\\\ & {\\qquad = \\frac {i}{\\pi} \\Big (7 2 5 7 6 0 q ^ {- 1} + 1 1 3 2 1 8 5 6 0 + 1 9 6 9 1 3 2 0 3 2 0 q + O \\big (q ^ {2} \\big) \\Big)} \\end{array}",
+          "image_source": "images/page_3_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.42676767676767674,
+            0.22549019607843138,
+            0.44191919191919193
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21241830065359477,
+            0.45075757575757575,
+            0.7728758169934641,
+            0.523989898989899
+          ],
+          "content": "\\begin{array}{l} \\varphi_ {2} = - \\frac {3 6 \\left(- 4 9 E _ {4} ^ {3} + 2 5 E _ {6} ^ {2}\\right)}{\\pi^ {2} \\Delta^ {2}} \\\\ = \\frac {1}{\\pi^ {2}} \\Big (8 6 4 q ^ {- 2} + 2 2 1 8 7 5 2 q ^ {- 1} + 2 2 3 1 4 0 0 9 6 + 2 3 3 6 8 1 1 7 2 4 8 q + O \\big (q ^ {2} \\big) \\Big). \\end{array}",
+          "image_source": "images/page_3_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.5328282828282829,
+            0.5588235294117647,
+            0.5505050505050505
+          ],
+          "content": "It follows from setting$z = i t$in (2.2) that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4084967320261438,
+            0.5618686868686869,
+            0.5800653594771242,
+            0.5845959595959596
+          ],
+          "content": "\\varphi (i / t) = O \\left(t ^ {- 1 0} e ^ {4 \\pi t}\\right)\\tag{2.3}",
+          "image_source": "images/page_3_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5959595959595959,
+            0.5915032679738562,
+            0.6136363636363636
+          ],
+          "content": "as$t \\to \\infty$, while the q-series (2.1) for$\\varphi$shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4166666666666667,
+            0.625,
+            0.5718954248366013,
+            0.6477272727272727
+          ],
+          "content": "\\varphi (i / t) = O \\left(e ^ {- 2 \\pi / t}\\right)\\tag{2.4}",
+          "image_source": "images/page_3_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6590909090909091,
+            0.35130718954248363,
+            0.6742424242424242
+          ],
+          "content": "as$t \\to 0$. We define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3104575163398693,
+            0.6856060606060606,
+            0.6797385620915033,
+            0.7196969696969697
+          ],
+          "content": "a (r) = - 4 \\sin (\\pi r ^ {2} / 2) ^ {2} \\int_ {0} ^ {i \\infty} \\varphi (- \\frac {1}{z}) z ^ {1 0} e ^ {\\pi i r ^ {2} z} d z\\tag{2.5}",
+          "image_source": "images/page_3_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7297979797979798,
+            0.6225490196078431,
+            0.7474747474747475
+          ],
+          "content": "for$r > 2$, which converges absolutely by these bounds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7563131313131313,
+            0.803921568627451,
+            0.8093434343434344
+          ],
+          "content": "Lemma 2.1. The function$r \\mapsto a ( r )$analytically continues to a holomorphic function on a neighborhood ofR. Its restriction to R is a Schwartz function and a radial eigenfunction of the Fourier transform in$\\mathbb { R } ^ { 2 4 }$with eigenvalue 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8181818181818182,
+            0.803921568627451,
+            0.8535353535353535
+          ],
+          "content": "Proof. We follow the approach of [12], adapted to use modular forms of diferent weight. Substituting"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3660130718954248,
+            0.8636363636363636,
+            0.6372549019607843,
+            0.8876262626262627
+          ],
+          "content": "- 4 \\sin (\\pi r ^ {2} / 2) ^ {2} = e ^ {\\pi i r ^ {2}} - 2 + e ^ {- \\pi i r ^ {2}}",
+          "image_source": "images/page_3_equation_17.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.1388888888888889
+          ],
+          "content": "1020"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2973856209150327,
+            0.125,
+            0.6928104575163399,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.24183006535947713,
+            0.17424242424242425
+          ],
+          "content": "yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2107843137254902,
+            0.18686868686868688,
+            0.7777777777777778,
+            0.44823232323232326
+          ],
+          "content": "\\begin{array}{r l} & {a (r) = \\int_ {- 1} ^ {i \\infty - 1} \\varphi \\Bigl (- \\frac {1}{z + 1} \\Bigr) (z + 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z - 2 \\int_ {0} ^ {i \\infty} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) z ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad + \\int_ {1} ^ {i \\infty + 1} \\varphi \\Bigl (- \\frac {1}{z - 1} \\Bigr) (z - 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {= \\int_ {- 1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z + 1} \\Bigr) (z + 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad + \\int_ {i} ^ {i \\infty} \\varphi \\Bigl (- \\frac {1}{z + 1} \\Bigr) (z + 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad - 2 \\int_ {0} ^ {i} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) z ^ {1 0} e ^ {\\pi i r ^ {2} z} d z - 2 \\int_ {i} ^ {i \\infty} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) z ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad + \\int_ {1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z - 1} \\Bigr) (z - 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad + \\int_ {i} ^ {i \\infty} \\varphi \\Bigl (- \\frac {1}{z - 1} \\Bigr) (z - 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z,} \\end{array}",
+          "image_source": "images/page_4_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.46085858585858586,
+            0.8006535947712419,
+            0.49747474747474746
+          ],
+          "content": "where we have shifted contours as in the proof of Proposition 2 in [12]. Now the quasimodularity relation (2.2) and periodicity modulo 1 show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2630718954248366,
+            0.5088383838383839,
+            0.7238562091503268,
+            0.6287878787878788
+          ],
+          "content": "\\begin{array}{l} \\varphi \\Big (- \\frac {1}{z + 1} \\Big) (z + 1) ^ {1 0} - 2 \\varphi \\Big (- \\frac {1}{z} \\Big) z ^ {1 0} + \\varphi \\Big (- \\frac {1}{z - 1} \\Big) (z - 1) ^ {1 0} \\\\ \\qquad = \\varphi (z + 1) (z + 1) ^ {2} - 2 \\varphi (z) z ^ {2} + \\varphi (z - 1) (z - 1) ^ {2} \\\\ \\qquad + \\varphi_ {1} (z + 1) (z + 1) - 2 \\varphi_ {1} (z) z + \\varphi_ {1} (z - 1) (z - 1) \\\\ \\qquad + \\varphi_ {2} (z + 1) - 2 \\varphi_ {2} (z) + \\varphi_ {2} (z - 1) \\\\ \\qquad = 2 \\varphi (z). \\end{array}",
+          "image_source": "images/page_4_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6464646464646465,
+            0.24019607843137256,
+            0.6628787878787878
+          ],
+          "content": "Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27450980392156865,
+            0.6755050505050505,
+            0.7156862745098039,
+            0.7878787878787878
+          ],
+          "content": "\\begin{array}{r l} & {a (r) = \\int_ {- 1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z + 1} \\Bigr) (z + 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad + \\int_ {1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z - 1} \\Bigr) (z - 1) ^ {1 0} e ^ {\\pi i r ^ {2} z} d z} \\\\ & {\\qquad - 2 \\int_ {0} ^ {i} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) z ^ {1 0} e ^ {\\pi i r ^ {2} z} d z + 2 \\int_ {i} ^ {i \\infty} \\varphi (z) e ^ {\\pi i r ^ {2} z} d z,} \\end{array}\\tag{2.6}",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7992424242424242,
+            0.8006535947712419,
+            0.8888888888888888
+          ],
+          "content": "which gives the analytic continuation of a to a neighborhood of R by (2.3) and (2.4). Essentially the same estimates as in Proposition 1 of [12] show that it is a Schwartz function. Specifically, the exponential decay of$\\varphi ( z )$as the imaginary part of z tends to infinity sufices to bound all the terms in (2.6), which shows that a and all its derivatives decay exponentially."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.7990196078431373,
+            0.1388888888888889
+          ],
+          "content": "1021"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.8006535947712419,
+            0.20959595959595959
+          ],
+          "content": "Taking the 24-dimensional radial Fourier transform commutes with the integrals in (2.6) and amounts to replacing$e ^ { \\pi i r ^ { 2 } z }$with$z ^ { - 1 2 } e ^ { \\pi i r ^ { 2 } ( - 1 / z ) }$. Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22058823529411764,
+            0.2159090909090909,
+            0.7679738562091504,
+            0.32575757575757575
+          ],
+          "content": "\\begin{array}{l} \\widehat {a} (r) = \\int_ {- 1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z + 1} \\Bigr) (z + 1) ^ {1 0} z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z \\\\ \\qquad + \\int_ {1} ^ {i} \\varphi \\Bigl (- \\frac {1}{z - 1} \\Bigr) (z - 1) ^ {1 0} z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z \\\\ \\qquad - 2 \\int_ {0} ^ {i} \\varphi \\Bigl (- \\frac {1}{z} \\Bigr) z ^ {- 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z + 2 \\int_ {i} ^ {i \\infty} \\varphi (z) z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z. \\end{array}",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.33207070707070707,
+            0.4624183006535948,
+            0.34974747474747475
+          ],
+          "content": "Now setting$w = - 1 / z$shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.26143790849673204,
+            0.3547979797979798,
+            0.7287581699346405,
+            0.4659090909090909
+          ],
+          "content": "\\begin{array}{l} \\widehat {a} (r) = \\int_ {1} ^ {i} \\varphi \\Bigl (- 1 - \\frac {1}{w - 1} \\Bigr) \\left(- \\frac {1}{w} + 1\\right) ^ {1 0} w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w \\\\ \\qquad + \\int_ {- 1} ^ {i} \\varphi \\Bigl (1 - \\frac {1}{w + 1} \\Bigr) \\left(- \\frac {1}{w} - 1\\right) ^ {1 0} w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w \\\\ \\qquad + 2 \\int_ {i} ^ {i \\infty} \\varphi (w) e ^ {\\pi i r ^ {2} w} d w - 2 \\int_ {0} ^ {i} \\varphi \\Bigl (- \\frac {1}{w} \\Bigr) w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w. \\end{array}",
+          "image_source": "images/page_5_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.4734848484848485,
+            0.8022875816993464,
+            0.5063131313131313
+          ],
+          "content": "Thus, (2.6) and the fact that$\\varphi$is periodic modulo 1 show that$\\widehat { a } = a$, as desired.\u0003"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.5189393939393939,
+            0.37745098039215685,
+            0.5340909090909091
+          ],
+          "content": "For$r > 2 .$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.5404040404040404,
+            0.6666666666666666,
+            0.5732323232323232
+          ],
+          "content": "a (r) = 4 i \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\int_ {0} ^ {\\infty} \\varphi (i / t) t ^ {1 0} e ^ {- \\pi r ^ {2} t} d t\\tag{2.7}",
+          "image_source": "images/page_5_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5795454545454546,
+            0.5669934640522876,
+            0.5972222222222222
+          ],
+          "content": "by (2.5). By the quasimodularity relation (2.2),"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3431372549019608,
+            0.6035353535353535,
+            0.6454248366013072,
+            0.6237373737373737
+          ],
+          "content": "t ^ {1 0} \\varphi (i / t) = t ^ {2} \\varphi (i t) - i t \\varphi_ {1} (i t) - \\varphi_ {2} (i t).\\tag{2.8}",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.6313131313131313,
+            0.6029411764705882,
+            0.648989898989899
+          ],
+          "content": "Thanks to the q-expansions with$q = e ^ { - 2 \\pi t }$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37745098039215685,
+            0.6540404040404041,
+            0.6127450980392157,
+            0.6755050505050505
+          ],
+          "content": "t ^ {1 0} \\varphi (i / t) = p (t) + O \\left(t ^ {2} e ^ {- 2 \\pi t}\\right)\\tag{2.9}",
+          "image_source": "images/page_5_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.6843434343434344,
+            0.32679738562091504,
+            0.6994949494949495
+          ],
+          "content": "as$t \\to \\infty$, where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1977124183006536,
+            0.7032828282828283,
+            0.7875816993464052,
+            0.73989898989899
+          ],
+          "content": "p (t) = - \\frac {8 6 4}{\\pi^ {2}} e ^ {4 \\pi t} + \\frac {7 2 5 7 6 0}{\\pi} t e ^ {2 \\pi t} - \\frac {2 2 1 8 7 5 2}{\\pi^ {2}} e ^ {2 \\pi t} + \\frac {1 1 3 2 1 8 5 6 0}{\\pi} t - \\frac {2 2 3 1 4 0 0 9 6}{\\pi^ {2}}.",
+          "image_source": "images/page_5_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.7424242424242424,
+            0.2238562091503268,
+            0.7563131313131313
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19444444444444445,
+            0.76010101010101,
+            0.7908496732026143,
+            0.8308080808080808
+          ],
+          "content": "\\begin{array}{l} \\widetilde {p} (r) = \\int_ {0} ^ {\\infty} p (t) e ^ {- \\pi r ^ {2} t} d t \\\\ \\qquad = - \\frac {8 6 4}{\\pi^ {3} (r ^ {2} - 4)} + \\frac {7 2 5 7 6 0}{\\pi^ {3} (r ^ {2} - 2) ^ {2}} - \\frac {2 2 1 8 7 5 2}{\\pi^ {3} (r ^ {2} - 2)} + \\frac {1 1 3 2 1 8 5 6 0}{\\pi^ {3} r ^ {4}} - \\frac {2 2 3 1 4 0 0 9 6}{\\pi^ {3} r ^ {2}}. \\end{array}",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.8358585858585859,
+            0.2369281045751634,
+            0.851010101010101
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27450980392156865,
+            0.8547979797979798,
+            0.7598039215686274,
+            0.8888888888888888
+          ],
+          "content": "a (r) = 4 i \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\left(\\widetilde {p} (r) + \\int_ {0} ^ {\\infty} \\left(\\varphi (i / t) t ^ {1 0} - p (t)\\right) e ^ {- \\pi r ^ {2} t} d t\\right)\\tag{2.10}",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.13762626262626262
+          ],
+          "content": "1022"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2973856209150327,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.37254901960784315,
+            0.17424242424242425
+          ],
+          "content": "for$r > 2$. The integral"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37254901960784315,
+            0.18686868686868688,
+            0.6176470588235294,
+            0.22095959595959597
+          ],
+          "content": "\\int_ {0} ^ {\\infty} \\big (\\varphi (i / t) t ^ {1 0} - p (t) \\big) e ^ {- \\pi r ^ {2} t} d t",
+          "image_source": "images/page_6_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.23106060606060605,
+            0.8006535947712419,
+            0.2676767676767677
+          ],
+          "content": "is analytic on a neighborhood of$[ 0 , \\infty )$, and hence (2.10) holds for all r. Note in particular that a maps R to iR by (2.10) (or by (2.5) via analytic continuation)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2676767676767677,
+            0.8022875816993464,
+            0.3194444444444444
+          ],
+          "content": "Equation (2.10) implies that$a ( r )$vanishes to second order whenever$r =$ $\\sqrt { 2 k }$with$k > 2 .$, because$\\widetilde { p }$has no poles at these points. Furthermore, this formula implies that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4150326797385621,
+            0.32954545454545453,
+            0.576797385620915,
+            0.36237373737373735
+          ],
+          "content": "a (0) = \\frac {1 1 3 2 1 8 5 6 0 i}{\\pi},",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39869281045751637,
+            0.36363636363636365,
+            0.5506535947712419,
+            0.3977272727272727
+          ],
+          "content": "a \\bigl (\\sqrt {2} \\bigr) = \\frac {7 2 5 7 6 0 i}{\\pi},",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3937908496732026,
+            0.398989898989899,
+            0.5947712418300654,
+            0.4532828282828283
+          ],
+          "content": "\\begin{array}{c} {a ^ {\\prime} \\big (\\sqrt {2} \\big) = \\frac {- 4 4 3 7 5 0 4 \\sqrt {2} i}{\\pi},} \\\\ {a (2) = 0,} \\end{array}",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.45707070707070707,
+            0.22549019607843138,
+            0.4722222222222222
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4117647058823529,
+            0.47095959595959597,
+            0.5441176470588235,
+            0.5063131313131313
+          ],
+          "content": "a ^ {\\prime} (2) = \\frac {- 3 4 5 6 i}{\\pi}.",
+          "image_source": "images/page_6_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.5151515151515151,
+            0.43300653594771243,
+            0.5328282828282829
+          ],
+          "content": "The Taylor series expansion is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31862745098039214,
+            0.5429292929292929,
+            0.6699346405228758,
+            0.577020202020202
+          ],
+          "content": "a (r) = \\frac {1 1 3 2 1 8 5 6 0 i}{\\pi} - \\frac {2 2 3 1 4 0 0 9 6 i}{\\pi} r ^ {2} + O \\left(r ^ {4}\\right)",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5871212121212122,
+            0.3006535947712418,
+            0.6022727272727273
+          ],
+          "content": "around$r = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6035353535353535,
+            0.8022875816993464,
+            0.6565656565656566
+          ],
+          "content": "If we rescale a so that its value at 0 is 1, then the value at$\\sqrt { 2 }$becomes $1 / 1 5 6$and the derivative there becomes$- 1 0 7 \\sqrt { 2 } / 2 7 3 0$, and the derivative at 2 becomes −1/32760. The Taylor series becomes"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41013071895424835,
+            0.6679292929292929,
+            0.5784313725490197,
+            0.702020202020202
+          ],
+          "content": "1 - \\frac {3 5 8 7}{1 8 2 0} r ^ {2} + O (r ^ {4}).",
+          "image_source": "images/page_6_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7108585858585859,
+            0.8006535947712419,
+            0.7462121212121212
+          ],
+          "content": "However, the higher order terms in this Taylor series do not appear to be rational, because they involve contributions from the integral in (2.10)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7462121212121212,
+            0.8022875816993464,
+            0.8888888888888888
+          ],
+          "content": "We arrived at the definition (2.1) of$\\varphi$via the Ansatz that$\\Delta ^ { 2 } \\varphi$should be a holomorphic quasimodular form of weight 16 and depth 2 for$\\operatorname { S L _ { 2 } } ( \\mathbb { Z } )$ The space of such forms is five-dimensional, spanned by$E _ { 4 } ^ { 4 } , E _ { 6 } ^ { 2 } E _ { 4 } , E _ { 6 } E _ { 4 } ^ { 2 } E _ { 2 }$ $E _ { 4 } ^ { 3 } E _ { 2 } ^ { 2 }$, and$E _ { 6 } ^ { 2 } E _ { 2 } ^ { 2 }$. Within this space, one can solve for$\\varphi$in several ways. We initially found it by matching the numerical conjectures from [4], but in retrospect one can instead impose constraints on its behavior at 0 and$i \\infty ,$ namely, (2.3) and (2.4). This information is enough to determine$\\varphi$and hence the eigenfunction$^ { a , }$up to a constant factor."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.1388888888888889
+          ],
+          "content": "1023"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3839869281045752,
+            0.15782828282828282,
+            0.6045751633986928,
+            0.17424242424242425
+          ],
+          "level": 2,
+          "content": "3. The −1 eigenfunction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.18434343434343434,
+            0.8006535947712419,
+            0.2196969696969697
+          ],
+          "content": "Next we construct a radial eigenfunction of the Fourier transform in$\\mathbb { R } ^ { 2 4 }$ with eigenvalue −1. We will use the notation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39052287581699346,
+            0.22474747474747475,
+            0.5964052287581699,
+            0.29797979797979796
+          ],
+          "content": "\\begin{array}{l} \\Theta_ {0 0} (z) = \\sum_ {n \\in \\mathbb {Z}} e ^ {\\pi i n ^ {2} z}, \\\\ \\Theta_ {0 1} (z) = \\sum_ {n \\in \\mathbb {Z}} (- 1) ^ {n} e ^ {\\pi i n ^ {2} z}, \\end{array}",
+          "image_source": "images/page_7_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.29924242424242425,
+            0.22549019607843138,
+            0.3143939393939394
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3937908496732026,
+            0.31691919191919193,
+            0.5915032679738562,
+            0.3522727272727273
+          ],
+          "content": "\\Theta_ {1 0} (z) = \\sum_ {n \\in \\mathbb {Z}} e ^ {\\pi i (n + 1 / 2) ^ {2} z}",
+          "image_source": "images/page_7_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.35984848484848486,
+            0.7973856209150327,
+            0.37626262626262624
+          ],
+          "content": "for theta functions from [12]. These functions satisfy the transformation laws"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2679738562091503,
+            0.3838383838383838,
+            0.7238562091503268,
+            0.42803030303030304
+          ],
+          "content": "\\begin{array}{l l l} \\Theta_ {0 0} ^ {4} | _ {2} S = - \\Theta_ {0 0} ^ {4}, & \\Theta_ {0 1} ^ {4} | _ {2} S = - \\Theta_ {1 0} ^ {4}, & \\Theta_ {1 0} ^ {4} | _ {2} S = - \\Theta_ {0 1} ^ {4}, \\\\ \\Theta_ {0 0} ^ {4} | _ {2} T = \\Theta_ {0 1} ^ {4}, & \\Theta_ {0 1} ^ {4} | _ {2} T = \\Theta_ {0 0} ^ {4}, & \\Theta_ {1 0} ^ {4} | _ {2} T = - \\Theta_ {1 0} ^ {4}, \\end{array}",
+          "image_source": "images/page_7_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.43686868686868685,
+            0.5049019607843137,
+            0.47474747474747475
+          ],
+          "content": "where$S = { \\binom { 0 } { 1 } } \\quad { \\overset { - 1 } { 0 } } { \\bigg ) } , T = { \\binom { 1 } { 0 } } \\quad 1 { \\bigg ) }$, and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35784313725490197,
+            0.4823232323232323,
+            0.6323529411764706,
+            0.5138888888888888
+          ],
+          "content": "\\big (g | _ {k} M \\big) (z) = (c z + d) ^ {- k} g \\Big (\\frac {a z + b}{c z + d} \\Big)",
+          "image_source": "images/page_7_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.523989898989899,
+            0.7973856209150327,
+            0.5593434343434344
+          ],
+          "content": "for a function g on the upper half plane and a matrix$M = { \\left( \\begin{array} { l l } { a } & { b } \\\\ { c } & { d } \\end{array} \\right) } \\in { \\mathrm { S L } } _ { 2 } ( \\mathbb { R } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.5580808080808081,
+            0.2581699346405229,
+            0.5732323232323232
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2679738562091503,
+            0.5757575757575758,
+            0.7222222222222222,
+            0.6590909090909091
+          ],
+          "content": "\\begin{array}{l} \\psi_ {I} = \\frac {7 \\Theta_ {0 1} ^ {2 0} \\Theta_ {1 0} ^ {8} + 7 \\Theta_ {0 1} ^ {2 4} \\Theta_ {1 0} ^ {4} + 2 \\Theta_ {0 1} ^ {2 8}}{\\Delta^ {2}} \\\\ \\qquad = 2 q ^ {- 2} - 4 6 4 q ^ {- 1} + 1 7 2 1 2 8 - 3 6 7 0 0 1 6 q ^ {1 / 2} + 4 7 2 3 8 4 6 4 q \\\\ \\qquad - 4 5 9 2 7 6 2 8 8 q ^ {3 / 2} + O (q ^ {2}), \\end{array}\\tag{3.1}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6691919191919192,
+            0.7941176470588235,
+            0.6856060606060606
+          ],
+          "content": "which is a weakly holomorphic modular form of weight −10 for$\\Gamma ( 2 )$, and let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3088235294117647,
+            0.6919191919191919,
+            0.6813725490196079,
+            0.75
+          ],
+          "content": "\\begin{array}{c} \\psi_ {S} = \\psi_ {I} | _ {- 1 0} S = - \\frac {7 \\Theta_ {1 0} ^ {2 0} \\Theta_ {0 1} ^ {8} + 7 \\Theta_ {1 0} ^ {2 4} \\Theta_ {0 1} ^ {4} + 2 \\Theta_ {1 0} ^ {2 8}}{\\Delta^ {2}} \\\\ = - 7 3 4 0 0 3 2 q ^ {1 / 2} - 9 1 8 5 5 2 5 7 6 q ^ {3 / 2} + O (q ^ {5 / 2}) \\end{array}\\tag{3.2}",
+          "image_source": "images/page_7_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.7588383838383839,
+            0.22549019607843138,
+            0.773989898989899
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31699346405228757,
+            0.7777777777777778,
+            0.673202614379085,
+            0.8598484848484849
+          ],
+          "content": "\\begin{array}{c} \\psi_ {T} = \\psi_ {I} | _ {- 1 0} T = \\frac {7 \\Theta_ {0 0} ^ {2 0} \\Theta_ {1 0} ^ {8} - 7 \\Theta_ {0 0} ^ {2 4} \\Theta_ {1 0} ^ {4} + 2 \\Theta_ {0 0} ^ {2 8}}{\\Delta^ {2}} \\\\ = 2 q ^ {- 2} - 4 6 4 q ^ {- 1} + 1 7 2 1 2 8 + 3 6 7 0 0 1 6 q ^ {1 / 2} \\\\ + 4 7 2 3 8 4 6 4 q + 4 5 9 2 7 6 2 8 8 q ^ {3 / 2} + O (q ^ {2}). \\end{array}",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8699494949494949,
+            0.7990196078431373,
+            0.8888888888888888
+          ],
+          "content": "Note that$\\psi _ { S } + \\psi _ { T } = \\psi _ { I }$, which follows from the Jacobi identity$\\Theta _ { 0 1 } ^ { 4 } + \\Theta _ { 1 0 } ^ { 4 } = \\Theta _ { 0 0 } ^ { 4 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.13762626262626262
+          ],
+          "content": "1024"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.29901960784313725,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.15782828282828282,
+            0.5326797385620915,
+            0.1755050505050505
+          ],
+          "content": "Using these q-expansions, we find that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4264705882352941,
+            0.18686868686868688,
+            0.5637254901960784,
+            0.20833333333333334
+          ],
+          "content": "\\psi_ {I} (i t) = O \\left(e ^ {4 \\pi t}\\right)\\tag{3.3}",
+          "image_source": "images/page_8_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2222222222222222,
+            0.3104575163398693,
+            0.23737373737373738
+          ],
+          "content": "as$t \\to \\infty$, and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41013071895424835,
+            0.25,
+            0.5784313725490197,
+            0.27146464646464646
+          ],
+          "content": "\\psi_ {I} (i t) = O \\left(t ^ {1 0} e ^ {- \\pi / t}\\right)\\tag{3.4}",
+          "image_source": "images/page_8_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2840909090909091,
+            0.3006535947712418,
+            0.29924242424242425
+          ],
+          "content": "as$t \\to 0$. Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3300653594771242,
+            0.30303030303030304,
+            0.6584967320261438,
+            0.3383838383838384
+          ],
+          "content": "b (r) = - 4 \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\int_ {0} ^ {i \\infty} \\psi_ {I} (z) e ^ {\\pi i r ^ {2} z} d z",
+          "image_source": "images/page_8_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.34595959595959597,
+            0.6683006535947712,
+            0.36237373737373735
+          ],
+          "content": "for$r > 2$, where the integral converges by the above bounds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.3712121212121212,
+            0.8022875816993464,
+            0.42424242424242425
+          ],
+          "content": "Lemma 3.1. The function$r \\mapsto b ( r )$analytically continues to a holomorphic function on a neighborhood ofR. Its restriction to R is a Schwartz function and a radial eigenfunction of the Fourier transform in$\\mathbb { R } ^ { 2 4 }$with eigenvalue −1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.43308080808080807,
+            0.7271241830065359,
+            0.45075757575757575
+          ],
+          "content": "Proof. As in the proof of Proposition 6 from [12], we substitute"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3611111111111111,
+            0.4621212121212121,
+            0.6372549019607843,
+            0.4861111111111111
+          ],
+          "content": "- 4 \\sin (\\pi r ^ {2} / 2) ^ {2} = e ^ {- \\pi i r ^ {2}} - 2 + e ^ {\\pi i r ^ {2}}",
+          "image_source": "images/page_8_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5,
+            0.5196078431372549,
+            0.5151515151515151
+          ],
+          "content": "and shift contours to show that for$r > 2$2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23366013071895425,
+            0.5265151515151515,
+            0.7565359477124183,
+            0.6755050505050505
+          ],
+          "content": "\\begin{array}{r l} & b (r) = \\int_ {- 1} ^ {i \\infty - 1} \\psi_ {I} (z + 1) e ^ {\\pi i r ^ {2} z} d z - 2 \\int_ {0} ^ {i \\infty} \\psi_ {I} (z) e ^ {\\pi i r ^ {2} z} d z \\\\ & \\qquad + \\int_ {1} ^ {i \\infty + 1} \\psi_ {I} (z - 1) e ^ {\\pi i r ^ {2} z} d z \\\\ & = \\int_ {- 1} ^ {i} \\psi_ {T} (z) e ^ {\\pi i r ^ {2} z} d z + \\int_ {1} ^ {i} \\psi_ {T} (z) e ^ {\\pi i r ^ {2} z} d z - 2 \\int_ {0} ^ {i} \\psi_ {I} (z) e ^ {\\pi i r ^ {2} z} d z \\\\ & \\qquad + 2 \\int_ {i} ^ {i \\infty} (\\psi_ {T} (z) - \\psi_ {I} (z)) e ^ {\\pi i r ^ {2} z} d z. \\end{array}",
+          "image_source": "images/page_8_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6868686868686869,
+            0.8006535947712419,
+            0.7575757575757576
+          ],
+          "content": "Here, we have used$\\psi _ { I } ( z + 1 ) = \\psi _ { I } ( z - 1 ) = \\psi _ { T } ( z )$, and we have shifted the endpoints from i∞ ± 1 to i∞ (which is justified because the inequality $r \\ > \\ 2$ensures that the integrand decays exponentially). Finally, applying $\\psi _ { T } - \\psi _ { I } = - \\psi _ { S }$yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23366013071895425,
+            0.7689393939393939,
+            0.7549019607843137,
+            0.8409090909090909
+          ],
+          "content": "\\begin{array}{r} b (r) = \\int_ {- 1} ^ {i} \\psi_ {T} (z) e ^ {\\pi i r ^ {2} z} d z + \\int_ {1} ^ {i} \\psi_ {T} (z) e ^ {\\pi i r ^ {2} z} d z - 2 \\int_ {0} ^ {i} \\psi_ {I} (z) e ^ {\\pi i r ^ {2} z} d z \\\\ - 2 \\int_ {i} ^ {i \\infty} \\psi_ {S} (z) e ^ {\\pi i r ^ {2} z} d z, \\end{array}",
+          "image_source": "images/page_8_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8522727272727273,
+            0.8006535947712419,
+            0.8876262626262627
+          ],
+          "content": "which yields the analytic continuation to$r \\ \\leq \\ 2 .$, and essentially the same estimates prove that it is a Schwartz function."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.1388888888888889
+          ],
+          "content": "1025"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.8006535947712419,
+            0.19444444444444445
+          ],
+          "content": "To show that the 24-dimensional radial Fourier transform$\\widehat { b }$satisfies${ \\widehat { b } } = - b .$ we follow the approach of Proposition 5 from [12]. As in the proof of Lemma 2.1,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22058823529411764,
+            0.1994949494949495,
+            0.7679738562091504,
+            0.27146464646464646
+          ],
+          "content": "\\begin{array}{r} \\widehat {b} (r) = \\int_ {- 1} ^ {i} \\psi_ {T} (z) z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z + \\int_ {1} ^ {i} \\psi_ {T} (z) z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z \\\\ - 2 \\int_ {0} ^ {i} \\psi_ {I} (z) z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z - 2 \\int_ {i} ^ {i \\infty} \\psi_ {S} (z) z ^ {- 1 2} e ^ {\\pi i r ^ {2} (- 1 / z)} d z, \\end{array}",
+          "image_source": "images/page_9_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.2765151515151515,
+            0.5441176470588235,
+            0.29292929292929293
+          ],
+          "content": "and the change of variables$w = - 1 / z$yields"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22549019607843138,
+            0.29797979797979796,
+            0.761437908496732,
+            0.369949494949495
+          ],
+          "content": "\\begin{array}{r l} & {\\widehat {b} (r) = \\int_ {1} ^ {i} \\psi_ {T} \\Bigl (- \\frac {1}{w} \\Bigr) w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w + \\int_ {- 1} ^ {i} \\psi_ {T} \\Bigl (- \\frac {1}{w} \\Bigr) w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w} \\\\ & {\\qquad + 2 \\int_ {i} ^ {i \\infty} \\psi_ {I} \\Bigl (- \\frac {1}{w} \\Bigr) w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w + 2 \\int_ {0} ^ {i} \\psi_ {S} \\Bigl (- \\frac {1}{w} \\Bigr) w ^ {1 0} e ^ {\\pi i r ^ {2} w} d w.} \\end{array}",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.37626262626262624,
+            0.5245098039215687,
+            0.3939393939393939
+          ],
+          "content": "Finally,${ \\widehat { b } } = - b$follows from the equations"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2696078431372549,
+            0.4027777777777778,
+            0.7189542483660131,
+            0.41919191919191917
+          ],
+          "content": "\\psi_ {I} | _ {- 1 0} S = \\psi_ {S}, \\quad \\psi_ {S} | _ {- 1 0} S = \\psi_ {I}, \\quad \\text {and} \\quad \\psi_ {T} | _ {- 1 0} S = - \\psi_ {T},",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.42676767676767674,
+            0.8006535947712419,
+            0.46085858585858586
+          ],
+          "content": "where the first two equations amount to the definition of$\\psi _ { S }$and the third follows from$\\psi _ { S } + \\psi _ { T } = \\psi _ { I }$\u0003"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.4696969696969697,
+            0.37745098039215685,
+            0.48484848484848486
+          ],
+          "content": "For$r > 2$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32516339869281047,
+            0.4898989898989899,
+            0.6633986928104575,
+            0.5227272727272727
+          ],
+          "content": "b (r) = - 4 i \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\int_ {0} ^ {\\infty} \\psi_ {I} (i t) e ^ {- \\pi r ^ {2} t} d t.\\tag{3.5}",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5277777777777778,
+            0.43790849673202614,
+            0.5429292929292929
+          ],
+          "content": "From the q-expansion, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31699346405228757,
+            0.547979797979798,
+            0.6715686274509803,
+            0.5694444444444444
+          ],
+          "content": "\\psi_ {I} (i t) = 2 e ^ {4 \\pi t} - 4 6 4 e ^ {2 \\pi t} + 1 7 2 1 2 8 + O \\left(e ^ {- \\pi t}\\right)",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5757575757575758,
+            0.3104575163398693,
+            0.5909090909090909
+          ],
+          "content": "as$t \\to \\infty$, and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19444444444444445,
+            0.5946969696969697,
+            0.7924836601307189,
+            0.6300505050505051
+          ],
+          "content": "\\int_ {0} ^ {\\infty} \\left(2 e ^ {4 \\pi t} - 4 6 4 e ^ {2 \\pi t} + 1 7 2 1 2 8\\right) e ^ {- \\pi r ^ {2} t} d t = \\frac {2}{\\pi (r ^ {2} - 4)} - \\frac {4 6 4}{\\pi (r ^ {2} - 2)} + \\frac {1 7 2 1 2 8}{\\pi r ^ {2}}.",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.6338383838383839,
+            0.3415032679738562,
+            0.6502525252525253
+          ],
+          "content": "Thus, for all$r \\geq 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2565359477124183,
+            0.6553030303030303,
+            0.7303921568627451,
+            0.7297979797979798
+          ],
+          "content": "\\begin{array}{l} b (r) = - 4 i \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\bigg (\\frac {2}{\\pi (r ^ {2} - 4)} - \\frac {4 6 4}{\\pi (r ^ {2} - 2)} + \\frac {1 7 2 1 2 8}{\\pi r ^ {2}} \\\\ \\qquad + \\int_ {0} ^ {\\infty} \\left(\\psi_ {I} (i t) - 2 e ^ {4 \\pi t} + 4 6 4 e ^ {2 \\pi t} - 1 7 2 1 2 8\\right) e ^ {- \\pi r ^ {2} t} d t \\bigg), \\end{array}",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7361111111111112,
+            0.39052287581699346,
+            0.7512626262626263
+          ],
+          "content": "by analytic continuation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7525252525252525,
+            0.8006535947712419,
+            0.7878787878787878
+          ],
+          "content": "This formula implies that$b ( r )$vanishes to second order whenever$r = { \\sqrt { 2 k } }$ with$k > 2$. Furthermore, it implies that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.380718954248366,
+            0.7929292929292929,
+            0.6078431372549019,
+            0.8396464646464646
+          ],
+          "content": "\\begin{array}{c} {b (0) = b \\big (\\sqrt {2} \\big) = b (2) = 0,} \\\\ {b ^ {\\prime} \\big (\\sqrt {2} \\big) = 9 2 8 i \\pi \\sqrt {2},} \\end{array}",
+          "image_source": "images/page_9_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8434343434343434,
+            0.22549019607843138,
+            0.8573232323232324
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40032679738562094,
+            0.8636363636363636,
+            0.511437908496732,
+            0.8813131313131313
+          ],
+          "content": "b ^ {\\prime} (2) = - 8 \\pi i.",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.13762626262626262
+          ],
+          "content": "1026"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2973856209150327,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.15782828282828282,
+            0.43300653594771243,
+            0.17424242424242425
+          ],
+          "content": "The Taylor series expansion is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37745098039215685,
+            0.17929292929292928,
+            0.6094771241830066,
+            0.20075757575757575
+          ],
+          "content": "b (r) = - 1 7 2 1 2 8 \\pi i r ^ {2} + O \\left(r ^ {4}\\right)",
+          "image_source": "images/page_10_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.20454545454545456,
+            0.4673202614379085,
+            0.2196969696969697
+          ],
+          "content": "around$r = 0$, and b maps R to iR."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.22095959595959597,
+            0.803921568627451,
+            0.3611111111111111
+          ],
+          "content": "To obtain the definition (3.1) of$\\psi _ { I }$, we began with the Ansatz that$\\Delta ^ { 2 } \\psi _ { I }$ should be a holomorphic modular form of weight 14 for$\\Gamma ( 2 )$The space of such forms is eight-dimensional, spanned by$\\Theta _ { 0 1 } ^ { 4 i } \\Theta _ { 1 0 } ^ { 2 8 - 4 i }$with$i = 0 , 1 , \\ldots , 7 ,$ and the subspace of forms satisfying the linear constraint$\\psi _ { S } + \\psi _ { T } = \\psi _ { I }$is three-dimensional. As in the case of$\\varphi$in Section 2, one can solve for$\\psi _ { I }$in several ways. In particular, within the subspace satisfying$\\psi _ { S } + \\psi _ { T } = \\psi _ { I } ,$ the asymptotic behavior specified by (3.3) and (3.4) determines ψ<sub>I</sub> up to a constant factor."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3839869281045752,
+            0.37247474747474746,
+            0.6062091503267973,
+            0.3888888888888889
+          ],
+          "level": 2,
+          "content": "4. Proof of Theorem 1.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.398989898989899,
+            0.8006535947712419,
+            0.4318181818181818
+          ],
+          "content": "We can now construct the optimal auxiliary function for use in Theorem 1.2. Letπii"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3349673202614379,
+            0.4255050505050505,
+            0.6535947712418301,
+            0.4583333333333333
+          ],
+          "content": "f (r) = - \\frac {\\pi i}{1 1 3 2 1 8 5 6 0} a (r) - \\frac {i}{2 6 2 0 8 0 \\pi} b (r).",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.45580808080808083,
+            0.8006535947712419,
+            0.5820707070707071
+          ],
+          "content": "Then$f ( 0 ) = { \\widehat { f } } ( 0 ) = 1$, and the quadratic Taylor coeficients of$f$and$\\widehat { f }$are $- 1 4 3 4 7 / 5 4 6 0$and$- 2 0 5 / 1 5 6$, respectively, as conjectured in [4]. The functions $f$and$\\overrightharpoon { f }$have roots at all of the vector lengths in the Leech lattice, i.e.,$\\sqrt { 2 k }$ for$k = 2 , 3 , \\ldots$. These roots are double roots except for the root of$f$at 2, where$f ^ { \\prime } ( 2 ) = - 1 / \\frac { \\ d } { \\ d t }$16380 (in accordance with Lemma 5.1 in [4]). Furthermore, $f$has the value$1 / 1 5 6$and derivative$- 1 4 6 \\sqrt { 2 } / 4 0 9 5$at${ \\sqrt { 2 } }$, while$\\widehat { f }$has the value$1 / 1 5 6$and derivative$- 5 { \\sqrt { 2 } } / 1 1 7$there."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5820707070707071,
+            0.8006535947712419,
+            0.6174242424242424
+          ],
+          "content": "We must still check that f satisfies the hypotheses of Theorem 1.2. We will do so using the approach of [12], with one extra complication at the end."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.6186868686868687,
+            0.5996732026143791,
+            0.6338383838383839
+          ],
+          "content": "For$r > 2 .$, equations (2.7) and (3.5) imply that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3464052287581699,
+            0.6376262626262627,
+            0.6437908496732027,
+            0.6704545454545454
+          ],
+          "content": "f (r) = \\sin \\left(\\pi r ^ {2} / 2\\right) ^ {2} \\int_ {0} ^ {\\infty} A (t) e ^ {- \\pi r ^ {2} t} d t,",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6704545454545454,
+            0.24183006535947713,
+            0.6856060606060606
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3088235294117647,
+            0.6881313131313131,
+            0.6797385620915033,
+            0.7537878787878788
+          ],
+          "content": "\\begin{array}{r} A (t) = \\frac {\\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \\varphi (i / t) - \\frac {1}{6 5 5 2 0 \\pi} \\psi_ {I} (i t) \\\\ = \\frac {\\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \\varphi (i / t) + \\frac {1}{6 5 5 2 0 \\pi} t ^ {1 0} \\psi_ {S} (i / t). \\end{array}",
+          "image_source": "images/page_10_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7588383838383839,
+            0.8022875816993464,
+            0.8295454545454546
+          ],
+          "content": "To show that$f ( r ) \\leq 0$for$r \\geq 2$with equality only at$r$of the form$\\sqrt { 2 k }$ with$k = 2 , 3 , \\ldots$, it sufices to show that$A ( t ) \\leq 0$. Specifically, A cannot be identically zero since then$f$would vanish as well; given that$A$is continuous, nonpositive everywhere, and negative somewhere, it follows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4084967320261438,
+            0.8333333333333334,
+            0.5833333333333334,
+            0.8661616161616161
+          ],
+          "content": "\\int_ {0} ^ {\\infty} A (t) e ^ {- \\pi r ^ {2} t} d t <   0",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8699494949494949,
+            0.5294117647058824,
+            0.8876262626262627
+          ],
+          "content": "for all r for which it converges$( \\mathrm { i . e . , } r > 2 )$"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.1388888888888889
+          ],
+          "content": "1027"
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.15782828282828282,
+            0.29411764705882354,
+            0.17297979797979798
+          ],
+          "content": "Because"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32189542483660133,
+            0.17929292929292928,
+            0.6699346405228758,
+            0.21212121212121213
+          ],
+          "content": "A (t) = \\frac {\\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \\left(\\varphi (i / t) + \\frac {4 3 2}{\\pi^ {2}} \\psi_ {S} (i / t)\\right),",
+          "image_source": "images/page_11_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.22095959595959597,
+            0.5702614379084967,
+            0.23863636363636365
+          ],
+          "content": "showing that$A ( t ) \\leq 0$amounts to showing that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4035947712418301,
+            0.24494949494949494,
+            0.5866013071895425,
+            0.2777777777777778
+          ],
+          "content": "\\varphi (i t) + \\frac {4 3 2}{\\pi^ {2}} \\psi_ {S} (i t) \\leq 0.\\tag{4.1}",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.2840909090909091,
+            0.29248366013071897,
+            0.30176767676767674
+          ],
+          "content": "The formula"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.29924242424242425,
+            0.6356209150326797,
+            0.3345959595959596
+          ],
+          "content": "\\psi_ {S} = - \\frac {7 \\Theta_ {1 0} ^ {2 0} \\Theta_ {0 1} ^ {8} + 7 \\Theta_ {1 0} ^ {2 4} \\Theta_ {0 1} ^ {4} + 2 \\Theta_ {1 0} ^ {2 8}}{\\Delta^ {2}}",
+          "image_source": "images/page_11_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.33964646464646464,
+            0.8022875816993464,
+            0.4090909090909091
+          ],
+          "content": "immediately implies that$\\psi _ { S } ( i t ) \\leq 0$, and so to prove (4.1) it sufices to prove that$\\varphi ( i t ) \\leq 0$. We prove this inequality in Lemma A.1 by bounding the truncation error in the q-series and examining the leading terms (splitting into the cases$t \\geq 1$and$t \\leq 1 )$. It follows that$f ( r ) \\leq 0$for$r \\geq 2$, as desired."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.4090909090909091,
+            0.5506535947712419,
+            0.42676767676767674
+          ],
+          "content": "For$r > 2 .$, the analogous formula for$\\widehat { f }$is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3464052287581699,
+            0.43434343434343436,
+            0.6437908496732027,
+            0.4684343434343434
+          ],
+          "content": "\\widehat {f} (r) = \\sin \\bigl (\\pi r ^ {2} / 2 \\bigr) ^ {2} \\int_ {0} ^ {\\infty} B (t) e ^ {- \\pi r ^ {2} t} d t,\\tag{4.2}",
+          "image_source": "images/page_11_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1895424836601307,
+            0.47474747474747475,
+            0.2434640522875817,
+            0.4898989898989899
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3088235294117647,
+            0.49747474747474746,
+            0.6813725490196079,
+            0.5631313131313131
+          ],
+          "content": "\\begin{array}{r} B (t) = \\frac {\\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \\varphi (i / t) + \\frac {1}{6 5 5 2 0 \\pi} \\psi_ {I} (i t) \\\\ = \\frac {\\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \\varphi (i / t) - \\frac {1}{6 5 5 2 0 \\pi} t ^ {1 0} \\psi_ {S} (i / t). \\end{array}\\tag{4.3}",
+          "image_source": "images/page_11_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.571969696969697,
+            0.8006535947712419,
+            0.6073232323232324
+          ],
+          "content": "To show that${ \\widehat { f } } ( r ) \\geq 0$for$r > 2$, it sufices to show that$B ( t ) \\geq 0$for all$t \\geq 0$ i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4035947712418301,
+            0.61489898989899,
+            0.5866013071895425,
+            0.6464646464646465
+          ],
+          "content": "\\varphi (i t) - \\frac {4 3 2}{\\pi^ {2}} \\psi_ {S} (i t) \\geq 0,\\tag{4.4}",
+          "image_source": "images/page_11_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6540404040404041,
+            0.7973856209150327,
+            0.6704545454545454
+          ],
+          "content": "for the same reason as we saw above with$A ( t )$. This inequality is Lemma A.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6691919191919192,
+            0.803921568627451,
+            0.851010101010101
+          ],
+          "content": "The formula (4.2) in fact holds for$r > { \\sqrt { 2 } } .$, not just$r > 2 .$. To see why, we must examine the asymptotics of$B ( t )$. There is no problem with the integral in (4.2) as$t \\to 0$, because$B ( t )$vanishes in this limit by (2.4) and (3.4). However, the exponential growth of$B ( t )$as$t \\to \\infty$causes divergence when r is too small for$e ^ { - \\pi r ^ { 2 } t }$to counteract this growth. To estimate the growth rate, note that by (2.9) and (3.1), the$e ^ { 4 \\pi t }$terms cancel in the asymptotic expansion of$B ( t )$as $t \\to \\infty$, which means that$B ( t ) = O \\bigl ( t e ^ { 2 \\pi t } \\bigr )$. Thus, the formula (4.2) for$\\widehat { f } ( r )$ converges when$r > { \\sqrt { 2 } } .$, and it must equal$\\widehat { f } ( r )$by analytic continuation. Note that it cannot hold for the whole interval (0, ∞), because that would force$\\widehat { f }$ to vanish at$\\sqrt { 2 }$, which does not happen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8497474747474747,
+            0.8006535947712419,
+            0.8888888888888888
+          ],
+          "content": "Thus, (4.2) and the inequality$B ( t ) \\geq 0$in fact prove that$\\widehat { f } \\geq 0$for all $r \\geq \\sqrt { 2 }$. When$0 < r < { \\sqrt { 2 } }$, this inequality no longer implies that${ \\widehat { f } } ( r ) \\geq 0$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.13762626262626262
+          ],
+          "content": "1028"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.29901960784313725,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.8006535947712419,
+            0.19318181818181818
+          ],
+          "continues_prev": true,
+          "content": "which is a complication that does not occur in [12]. Instead, we must analyze $B ( t )$more carefully.$\\mathrm { A s } \\ t  \\infty$, equations (2.9) and (3.1) show that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3545751633986928,
+            0.19696969696969696,
+            0.6339869281045751,
+            0.2297979797979798
+          ],
+          "content": "B (t) = \\frac {1}{3 9} t e ^ {2 \\pi t} - \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t} + O (t).",
+          "image_source": "images/page_12_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.23484848484848486,
+            0.8006535947712419,
+            0.2689393939393939
+          ],
+          "content": "We will ameliorate this behavior by subtracting these terms over the interval $\\lbrack 1 , \\infty )$. They contribute"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.22058823529411764,
+            0.273989898989899,
+            0.7679738562091504,
+            0.3106060606060606
+          ],
+          "content": "\\int_ {1} ^ {\\infty} \\left(\\frac {1}{3 9} t e ^ {2 \\pi t} - \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t}\\right) e ^ {- \\pi r ^ {2} t} d t = \\frac {(1 0 - 3 \\pi) (2 - r ^ {2}) + 3}{1 1 7 \\pi^ {2} (r ^ {2} - 2) ^ {2}} e ^ {- \\pi (r ^ {2} - 2)},",
+          "image_source": "images/page_12_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.3181818181818182,
+            0.684640522875817,
+            0.33585858585858586
+          ],
+          "content": "which is nonnegative for$0 < r < { \\sqrt { 2 } }$, and the remaining terms"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25163398692810457,
+            0.3409090909090909,
+            0.7401960784313726,
+            0.37626262626262624
+          ],
+          "content": "\\int_ {0} ^ {1} B (t) e ^ {- \\pi r ^ {2} t} d t + \\int_ {1} ^ {\\infty} \\left(B (t) - \\frac {1}{3 9} t e ^ {2 \\pi t} + \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t}\\right) e ^ {- \\pi r ^ {2} t} d t",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.3813131313131313,
+            0.8006535947712419,
+            0.4166666666666667
+          ],
+          "content": "converge for all$r > 0$. The integrand$B ( t )$in the first integral is nonnegative, and thus to prove that${ \\widehat { f } } ( r ) \\geq 0$for$0 < r < \\sqrt { 2 }$it sufices to prove that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3888888888888889,
+            0.42045454545454547,
+            0.6045751633986928,
+            0.45454545454545453
+          ],
+          "content": "B (t) \\geq \\frac {1}{3 9} t e ^ {2 \\pi t} - \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t}\\tag{4.5}",
+          "image_source": "images/page_12_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.45707070707070707,
+            0.43790849673202614,
+            0.4734848484848485
+          ],
+          "content": "for$t \\geq 1$, which is Lemma A.3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.47474747474747475,
+            0.803921568627451,
+            0.5808080808080808
+          ],
+          "content": "Combining the results of this section shows that$f$satisfies the hypotheses of Theorem 1.2, and thus that the Leech lattice is an optimal sphere packing in$\\mathbb { R } ^ { 2 4 }$. Furthermore,$f$has no roots$r > 2$other than$r = { \\sqrt { 2 k } }$with$k =$ $2 , 3 , \\ldots$, and as in Section 8 of [2] this condition implies that the Leech lattice is the unique densest periodic packing in$\\mathbb { R } ^ { 2 4 }$. This completes the proof of Theorem 1.1."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.272875816993464,
+            0.5972222222222222,
+            0.7205882352941176,
+            0.61489898989899
+          ],
+          "level": 2,
+          "content": "Appendix A. Inequalities for quasimodular forms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6237373737373737,
+            0.8006535947712419,
+            0.7108585858585859
+          ],
+          "content": "The proof in Section 4 requires checking certain inequalities for quasimodular forms on the imaginary axis. Fortunately, these inequalities are not too delicate, because equality is never attained. The behavior at infinity is easily analyzed, which reduces the proof to verifying the inequalities on a compact interval, and that can be done by a finite calculation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7108585858585859,
+            0.803921568627451,
+            0.8888888888888888
+          ],
+          "content": "Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a diferent approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at$\\mathrm { h t t p s } { : } / / \\mathrm { d o i . o r g } / 1 0$ 4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not dificult to check in any computer algebra system."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.13762626262626262
+          ],
+          "content": "1029"
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.803921568627451,
+            0.29797979797979796
+          ],
+          "content": "To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coeficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.29924242424242425,
+            0.8006535947712419,
+            0.5441919191919192
+          ],
+          "content": "To prove the error bounds, we need to control the growth of the coefi cients. We first multiply by$\\Delta ^ { 2 }$to clear the denominators that appear in (2.1), (3.1), and (3.2). The advantage of doing so is that the coeficients of the numerator grow only polynomially. To estimate the growth rate, we bound the coeficient of$q ^ { n }$in$E _ { 2 }$by$2 4 ( n + 1 ) ^ { 2 }$in absolute value, in$E _ { 4 }$by$2 4 0 ( n + 1 ) ^ { 4 }$, and in$E _ { 6 }$by$5 0 4 ( n + 1 ) ^ { 6 }$. It is also not dificult to show that the coeficient of$q ^ { n / 2 }$ in$\\Theta _ { 0 0 } ^ { 4 } , \\Theta _ { 0 1 } ^ { 4 }$or$\\Theta _ { 1 0 } ^ { 4 }$is at most$2 4 ( n + 1 ) ^ { 2 }$in absolute value.<sup>1</sup> Multiplying series is straightforward: if$| a _ { n } | \\leq ( n + 1 ) ^ { \\ell }$and$| b _ { n } | \\leq ( n + 1 ) ^ { m }$, then the coeficients of $\\begin{array} { r } { \\Big ( \\sum _ { n } a _ { n } q ^ { n } \\Big ) \\Big ( \\sum _ { n } b _ { n } q ^ { n } \\Big ) } \\end{array}$are bounded by$( n + 1 ) ^ { \\ell + m + 1 }$. When we add two q-series with coeficients bounded by diferent powers of$n + 1$, we typically produce an upper bound by rounding up the lower power for simplicity. Using these techniques leads to explicit polynomial bounds for the coeficients of$\\varphi \\Delta ^ { 2 } , \\psi _ { I } \\Delta ^ { 2 }$ and$\\psi _ { S } \\Delta ^ { 2 }$by using their definitions in terms of Eisenstein series and theta functions. These bounds are ineficient, but they sufice for our purposes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5454545454545454,
+            0.8006535947712419,
+            0.5984848484848485
+          ],
+          "content": "When$t \\geq 1 , q = e ^ { - 2 \\pi t }$is small enough that these coeficient bounds yield a reasonable error term. When$t \\leq 1$, we replace it with$1 / t \\ ( \\mathrm { v i a } \\ z \\mapsto - 1 / z )$ and compute the corresponding q-expansion."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.6073232323232324,
+            0.4199346405228758,
+            0.6237373737373737
+          ],
+          "content": "Lemma A.1. For t > 0,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4542483660130719,
+            0.625,
+            0.5359477124183006,
+            0.6439393939393939
+          ],
+          "content": "\\varphi (i t) <   0.",
+          "image_source": "images/page_13_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6515151515151515,
+            0.8006535947712419,
+            0.7196969696969697
+          ],
+          "content": "Proof. First, we prove this inequality for$t \\geq 1$, in which case$q = e ^ { - 2 \\pi t } <$ $1 / 5 3 5$. The bounds described above show that the coeficient of$q ^ { n }$in$\\varphi \\Delta ^ { 2 }$is at most$5 1 3 2 0 0 6 5 5 3 6 0 ( n + 1 ) ^ { 2 0 }$in absolute value, and exact computation shows that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3464052287581699,
+            0.7171717171717171,
+            0.6421568627450981,
+            0.7588383838383839
+          ],
+          "content": "\\sum_ {n = 5 0} ^ {\\infty} \\frac {5 1 3 2 0 0 6 5 5 3 6 0 (n + 1) ^ {2 0}}{5 3 5 ^ {n - 6}} <   1 0 ^ {- 5 0}.",
+          "image_source": "images/page_13_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7613636363636364,
+            0.8006535947712419,
+            0.8156565656565656
+          ],
+          "content": "Thus, the sum of the absolute values of the terms in$\\varphi \\Delta ^ { 2 }$for$n \\geq 5 0$amounts to at most$1 0 ^ { - 5 0 } q ^ { 6 }$. Let$\\sigma$be the sum of the terms with$n < 5 0$. We use Sturm’s theorem to check that$\\sigma + 1 0 ^ { - 5 0 } q ^ { 6 }$never changes sign on (0, 1/535)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.1388888888888889
+          ],
+          "content": "1030"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.2973856209150327,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.2549019607843137,
+            0.8409090909090909,
+            0.2826797385620915,
+            0.8547979797979798
+          ],
+          "content": "Θ<sup>4</sup><sub>00</sub>"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.19281045751633988,
+            0.8573232323232324,
+            0.21241830065359477,
+            0.8699494949494949
+          ],
+          "content": "D₄"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.3137254901960784,
+            0.8409090909090909,
+            0.33986928104575165,
+            0.8547979797979798
+          ],
+          "content": "Θ<sup>4</sup><sub>10</sub>"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.19117647058823528,
+            0.8699494949494949,
+            0.30392156862745096,
+            0.8863636363636364
+          ],
+          "content": "Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.Θ01 = Θ40 − Θ40 ."
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.38562091503267976,
+            0.8547979797979798,
+            0.4133986928104575,
+            0.8699494949494949
+          ],
+          "content": "q<sup>1/2</sup>,"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.18790849673202614,
+            0.8409090909090909,
+            0.8006535947712419,
+            0.8876262626262627
+          ],
+          "content": "<sup>1</sup>Both and have nonnegative coeficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable from which one can bound their coeficients. Furthermore,"
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.15782828282828282,
+            0.7973856209150327,
+            0.1919191919191919
+          ],
+          "content": "as a polynomial in$q ,$and we observe that it is negative in the limit as$q \\to 0$ This proves that$\\varphi ( i t ) < 0$for$t \\geq 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.19318181818181818,
+            0.7124183006535948,
+            0.21085858585858586
+          ],
+          "content": "Using (2.8), the bound for$t \\leq 1$is equivalent to showing that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.380718954248366,
+            0.21717171717171718,
+            0.6225490196078431,
+            0.2361111111111111
+          ],
+          "content": "- t ^ {2} \\varphi (i t) + i t \\varphi_ {1} (i t) + \\varphi_ {2} (i t) > 0",
+          "image_source": "images/page_14_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.24494949494949494,
+            0.8022875816993464,
+            0.4393939393939394
+          ],
+          "content": "for$t \\geq 1$. Again we multiply by$\\Delta ^ { 2 }$to control the coeficients. This case is more complicated, because there are factors of t and$\\pi .$. We replace factors of$\\pi$ with rational bounds, namely,$\\lfloor 1 0 ^ { 1 0 } \\pi \\rfloor / 1 0 ^ { 1 0 }$or$\\lceil 1 0 ^ { 1 0 } \\pi \\rceil / 1 0 ^ { 1 0 }$based on the sign of the term and whether it is a positive power of π (so that we obtain a lower bound), and we similarly use the bounds$1 \\leq t \\leq 1 / \\left( 2 3 q ^ { 1 / 2 } \\right)$; the latter bound follows from$q = e ^ { - 2 \\pi t }$and$t e ^ { - \\pi t } \\leq e ^ { - \\pi } \\leq 1 / 2 3$. To estimate the error bound from truncation, we use$q ^ { 1 / 2 } < 1 / 2 3 ;$the result is that the error from omitting the$q ^ { n }$terms with$n \\geq 5 0$is at most$1 0 ^ { - 5 0 } q ^ { 6 }$. These observations reduce the problem to showing that a polynomial in$q ^ { 1 / 2 }$with rational coeficients is positive over the interval$( 0 , e ^ { - \\pi } )$. Using Sturm’s theorem, we check that it holds over the larger interval (0, 1/23).\u0003"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.4494949494949495,
+            0.8006535947712419,
+            0.5214646464646465
+          ],
+          "content": "Note that we could have avoided fractional powers of$q$in this proof if we had used a diferent upper bound for$t ,$but fractional powers will be needed to handle$\\psi _ { S }$and$\\psi _ { I }$in any case. We will use the bounds such as$1 \\leq t \\leq$ $1 / \\big ( 2 3 q ^ { 1 / 2 } \\big )$from the preceding proof systematically in the remaining proofs."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.5277777777777778,
+            0.41830065359477125,
+            0.5441919191919192
+          ],
+          "content": "Lemma A.2. For$t > 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4035947712418301,
+            0.5492424242424242,
+            0.5849673202614379,
+            0.5820707070707071
+          ],
+          "content": "\\varphi (i t) - \\frac {4 3 2}{\\pi^ {2}} \\psi_ {S} (i t) > 0.",
+          "image_source": "images/page_14_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.5871212121212122,
+            0.803921568627451,
+            0.6931818181818182
+          ],
+          "content": "Proof. We use exactly the same technique as in the proof of Lemma$\\mathrm { A . 1 }$ For$t \\geq 1$, removing the$q ^ { 5 0 }$and higher terms in the q-series for$\\left( \\varphi - 4 3 2 \\psi _ { S } / \\pi ^ { 2 } \\right) \\Delta ^ { 2 }$ introduces an error of at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem shows that the resulting polynomial has no sign changes. Note that$\\psi _ { S }$involves powers of $q ^ { 1 / 2 }$, and so we must view the truncated series as a polynomial in$q ^ { 1 / 2 }$rather than$q .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.6944444444444444,
+            0.8006535947712419,
+            0.7297979797979798
+          ],
+          "content": "For$t \\leq 1$, we apply relations (2.2) and (3.2) to reduce the problem to showing that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3202614379084967,
+            0.7323232323232324,
+            0.673202614379085,
+            0.7664141414141414
+          ],
+          "content": "- t ^ {2} \\varphi (i t) + i t \\varphi_ {1} (i t) + \\varphi_ {2} (i t) - \\frac {4 3 2}{\\pi^ {2}} \\psi_ {I} (i t) <   0",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.7714646464646465,
+            0.8006535947712419,
+            0.8421717171717171
+          ],
+          "content": "for$t \\geq 1$. When we multiply by$\\Delta ^ { 2 }$and remove the$q ^ { 5 0 }$and higher terms, the error bound is at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem completes the proof. As in the previous proof, this case involves handling factors of t and$\\pi .$but they present no dificulties.\u0003"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.8522727272727273,
+            0.8006535947712419,
+            0.8876262626262627
+          ],
+          "content": "Of course these proofs are by no means optimized. Instead, they were chosen to be straightforward and easy to describe."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.30718954248366015,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.7990196078431373,
+            0.13762626262626262
+          ],
+          "content": "1031"
+        }
+      ]
+    },
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.15782828282828282,
+            0.5686274509803921,
+            0.17424242424242425
+          ],
+          "content": "The final inequality we must verify is (4.5):"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.18434343434343434,
+            0.4444444444444444,
+            0.20075757575757575
+          ],
+          "content": "Lemma A.3. For all$t \\geq 1$2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3839869281045752,
+            0.20707070707070707,
+            0.6045751633986928,
+            0.24116161616161616
+          ],
+          "content": "B (t) > \\frac {1}{3 9} t e ^ {2 \\pi t} - \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t}.",
+          "image_source": "images/page_15_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.24494949494949494,
+            0.45751633986928103,
+            0.26262626262626265
+          ],
+          "content": "Proof. As usual, we multiply"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37745098039215685,
+            0.2689393939393939,
+            0.6127450980392157,
+            0.30176767676767674
+          ],
+          "content": "B (t) - \\left(\\frac {1}{3 9} t e ^ {2 \\pi t} - \\frac {1 0}{1 1 7 \\pi} e ^ {2 \\pi t}\\right)",
+          "image_source": "images/page_15_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18790849673202614,
+            0.3106060606060606,
+            0.8006535947712419,
+            0.3648989898989899
+          ],
+          "content": "by$\\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show that removing the$q ^ { 5 0 }$and higher terms introduces an error bound of at most$1 0 ^ { - 5 0 } q ^ { 6 }$2 and Sturm’s theorem again completes the proof.\u0003"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4444444444444444,
+            0.38762626262626265,
+            0.5473856209150327,
+            0.4027777777777778
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.4128787878787879,
+            0.7973856209150327,
+            0.4444444444444444
+          ],
+          "content": "[1] H. Cohn, A conceptual breakthrough in sphere packing, Notices Amer. Math. Soc. 64 (2017), 102–115. arXiv 1611.01685. https://doi.org/10.1090/noti1474."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.44696969696969696,
+            0.8022875816993464,
+            0.4936868686868687
+          ],
+          "content": "[2] H. Cohn and N. Elkies, New upper bounds on sphere packings. I, Ann. of Math. 157 (2003), 689–714. MR 1973059. Zbl 1041.52011. arXiv math/0110009. https://doi.org/10.4007/annals.2003.157.689."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.494949494949495,
+            0.8006535947712419,
+            0.5429292929292929
+          ],
+          "content": "[3] H. Cohn and A. Kumar, Optimality and uniqueness of the Leech lattice among lattices, Ann. of Math. 170 (2009), 1003–1050. MR 2600869. Zbl 1213.11144. arXiv math.MG/0403263. https://doi.org/10.4007/annals.2009.170.1003."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.5441919191919192,
+            0.8006535947712419,
+            0.5757575757575758
+          ],
+          "content": "[4] H. Cohn and S. D. Miller, Some properties of optimal functions for sphere packing in dimensions 8 and 24, preprint, 2016. arXiv 1603.04759."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.5757575757575758,
+            0.8006535947712419,
+            0.625
+          ],
+          "content": "[5] J. H. Conway and N. J. A. Sloane, Sphere Packings, Lattices and Groups, third ed., Grundl. Math. Wissen. 290, Springer-Verlag, New York, 1999. MR 1662447. Zbl 0915.52003. https://doi.org/10.1007/978-1-4757-6568-7."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.6262626262626263,
+            0.8006535947712419,
+            0.672979797979798
+          ],
+          "content": "[6] W. Ebeling, Lattices and Codes, A course partially based on lectures by Friedrich Hirzebruch, third ed., Adv. Lect. Math., Springer-Verlag, New York, 2013. MR 2977354. Zbl 1257.11066. https://doi.org/10.1007/978-3-658-00360-9."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.6742424242424242,
+            0.8006535947712419,
+            0.7209595959595959
+          ],
+          "content": "[7] T. C. Hales, A proof of the Kepler conjecture, Ann. of Math. 162 (2005), 1065–1185. MR 2179728. Zbl 1096.52010. https://doi.org/10.4007/annals.2005.162.1065."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.20098039215686275,
+            0.7234848484848485,
+            0.8006535947712419,
+            0.8194444444444444
+          ],
+          "content": "[8] T. Hales, M. Adams, G. Bauer, D. T. Dang, J. Harrison, T. L. Hoang, C. Kaliszyk, V. Magron, S. McLaughlin, T. T. Nguyen, T. Q. Nguyen, T. Nipkow, S. Obua, J. Pleso, J. Rute, A. Solovyev, A. H. T. Ta, T. N. Tran, D. T. Trieu, J. Urban, K. K. Vu, and R. Zumkeller, A formal proof of the Kepler conjecture, to appear in Forum of Mathematics, Pi. arXiv 1501. 02155."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.19934640522875818,
+            0.821969696969697,
+            0.8006535947712419,
+            0.8535353535353535
+          ],
+          "content": "[9] D. de Laat and F. Vallentin, A breakthrough in sphere packing: the search for magic functions, Nieuw Arch. Wiskd. 17 (2016), 184–192. arXiv 1607.02111."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.19281045751633988,
+            0.8547979797979798,
+            0.8006535947712419,
+            0.88510101010101
+          ],
+          "content": "[10] The PARI Group, PARI/GP version 2.9.1, 2016, Univ. Bordeaux. Available at http://pari.math.u-bordeaux.fr/."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.19117647058823528,
+            0.125,
+            0.22549019607843138,
+            0.13762626262626262
+          ],
+          "content": "1032"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.29901960784313725,
+            0.125,
+            0.6911764705882353,
+            0.1388888888888889
+          ],
+          "content": "COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA"
+        }
+      ]
+    },
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.19281045751633988,
+            0.1590909090909091,
+            0.8006535947712419,
+            0.19065656565656566
+          ],
+          "content": "[11] A. Thue, Om nogle geometrisk-taltheoretiske Theoremer, Forhandlingerne ved de Skandinaviske Naturforskeres 14 (1892), 352–353. Zbl 24.0259.01."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.19281045751633988,
+            0.1919191919191919,
+            0.7990196078431373,
+            0.23863636363636365
+          ],
+          "content": "[12] M. S. Viazovska, The sphere packing problem in dimension 8, Ann. of Math. 185 (2017), 991–1015. arXiv 1603.04246. https://doi.org/10.4007/annals.2017.185.3.7."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.19281045751633988,
+            0.24116161616161616,
+            0.8006535947712419,
+            0.2878787878787879
+          ],
+          "content": "[13] D. Zagier, Elliptic modular forms and their applications, in The 1-2-3 of Modular Forms, Universitext, Springer-Verlag, New York, 2008, pp. 1–103. MR 2409678. Zbl 1259.11042. https://doi.org/10.1007/978-3-540-74119-0 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3937908496732026,
+            0.29292929292929293,
+            0.5980392156862745,
+            0.30934343434343436
+          ],
+          "content": "(Received: May 23, 2016)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.3194444444444444,
+            0.6176470588235294,
+            0.34974747474747475
+          ],
+          "content": "Microsoft Research New England<sub>,</sub> Cambridge<sub>,</sub> MA E-mail : cohn@microsoft.com"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2238562091503268,
+            0.35984848484848486,
+            0.5588235294117647,
+            0.39015151515151514
+          ],
+          "content": "Stony Brook University<sub>,</sub> Stony Brook<sub>,</sub> NY E-mail : thenav@gmail.com"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.4027777777777778,
+            0.5016339869281046,
+            0.4318181818181818
+          ],
+          "content": "Rutgers University<sub>,</sub> Piscataway<sub>,</sub> NJ E-mail : miller@math.rutgers.edu"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.44191919191919193,
+            0.6568627450980392,
+            0.5025252525252525
+          ],
+          "content": "Max Planck Institute for Mathematics<sub>,</sub> Bonn<sub>,</sub> Germany Current address : The Abdus Salam International Centre for Theoretical Physics<sub>,</sub> Trieste<sub>,</sub> Italy E-mail : danradchenko@gmail.com"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.5138888888888888,
+            0.7271241830065359,
+            0.5277777777777778
+          ],
+          "content": "Berlin Mathematical School and Humboldt University of Berlin,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.5290404040404041,
+            0.35947712418300654,
+            0.5429292929292929
+          ],
+          "content": "Berlin<sub>,</sub> Germany"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.5593434343434344,
+            0.4068627450980392,
+            0.5732323232323232
+          ],
+          "content": "Lausanne<sub>,</sub> Switzerland"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.5744949494949495,
+            0.43137254901960786,
+            0.5883838383838383
+          ],
+          "content": "E-mail : viazovska@gmail.com"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22549019607843138,
+            0.5441919191919192,
+            0.6879084967320261,
+            0.5580808080808081
+          ],
+          "content": "Current address : Ecole Polytechnique F <sup>´</sup> ed<sup>´</sup> erale de Lausanne, <sup>´</sup>"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.3088235294117647,
+            0.125,
+            0.6830065359477124,
+            0.1388888888888889
+          ],
+          "content": "THE SPHERE PACKING PROBLEM IN DIMENSION 24"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.7679738562091504,
+            0.125,
+            0.8006535947712419,
+            0.13762626262626262
+          ],
+          "content": "1033"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "is_full_document": true
+}

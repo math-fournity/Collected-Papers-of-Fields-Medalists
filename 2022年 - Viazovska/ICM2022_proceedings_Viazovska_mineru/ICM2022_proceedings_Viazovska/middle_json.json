@@ -1,0 +1,5549 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.11850311850311851,
+            0.05,
+            0.6278586278586279,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.18970588235294117,
+            0.3783783783783784,
+            0.2161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11434511434511435,
+            0.7058823529411765,
+            0.8918918918918919,
+            0.7676470588235295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Abstract In this paper we present a new construction of a discrete Fourier uniqueness set in Euclidean space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.7779411764705882,
+            0.498960498960499,
+            0.8176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mathematics Subject Classification 2020 Primary 11F67; Secondary 11F41, 11G40"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.8294117647058824,
+            0.446985446985447,
+            0.8705882352941177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Keywords Fourier uniqueness, harmonic analysis"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.9117647058823529,
+            0.446985446985447,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ICMINTERNATIONAL CONGRESS OF MATHEMATICIANS 2022JULY6-14"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 6,
+          "bbox": [
+            0.4698544698544699,
+            0.9117647058823529,
+            0.8274428274428275,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "© 2022 International Mathematical Union Preliminary version, to appear in Proc. Int. Cong. Math. 2022, Vol. 1 DOL10.4171/ICM2022/207"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.1891891891891892,
+            0.05,
+            0.33264033264033266,
+            0.06764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.07058823529411765,
+            0.8773388773388774,
+            0.12941176470588237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The goal ofthis paper give a new construction ofa closed discrete Fourier uniqueness set in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": ". Let us start with a definition of Fourier uniqueness. For a Schwartz function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": ": "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "its Fourier transform is defined as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3264033264033264,
+            0.13088235294117648,
+            0.6673596673596673,
+            0.16470588235294117
+          ],
+          "image_path": "images/page_1_equation_2.jpg",
+          "content": "\\widehat {f} (y) := \\int_ {\\mathbb {R} ^ {d}} f (x) e ^ {- 2 \\pi i x y} d x, \\quad y \\in \\mathbb {R} ^ {d}."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.1676470588235294,
+            0.8773388773388774,
+            0.20588235294117646
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition 1.1. A set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\subset \\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "is a Fourier uniqueness set iffor a Schwartz function � the conditions"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.4158004158004158,
+            0.2073529411764706,
+            0.58004158004158,
+            0.22941176470588234
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "f \\mid_ {X} \\equiv 0 \\quad \\widehat {f} \\mid_ {X} \\equiv 0"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.23676470588235293,
+            0.22661122661122662,
+            0.25441176470588234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "imply"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\equiv 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.2661764705882353,
+            0.8794178794178794,
+            0.4088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In [3] we have shown that the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X = \\{ \\mathrm { s i g n } ( n ) \\sqrt { | n | } \\} _ { n \\in \\mathbb { Z } }"
+            },
+            {
+              "type": "text",
+              "content": "is essentially a uniqueness set in R. More precisely, we have proven that the conditions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\mid _ { X } \\equiv 0 , { \\widetilde { f } } \\mid _ { X } \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": "together with one more linear constrain"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ^ { \\prime } ( 0 ) = 0"
+            },
+            {
+              "type": "text",
+              "content": "imply the vanishing of � on the whole real line. M. Stoller [4] has extended this result to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "in the following way. For a positive real number � let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( r )"
+            },
+            {
+              "type": "text",
+              "content": "denote the sphere in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "with center at the origin and radius �. Stoller has proven that the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X : = \\textstyle \\bigcup _ { n = 1 } ^ { \\infty } S ( { \\sqrt { n } } )"
+            },
+            {
+              "type": "text",
+              "content": "is a Fourier uniqueness set in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\ge 5"
+            },
+            {
+              "type": "text",
+              "content": ". The following theorem is proven in [4]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.42058823529411765,
+            0.8773388773388774,
+            0.46176470588235297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.2. Let �"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geq 5"
+            },
+            {
+              "type": "text",
+              "content": "be an integer. Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { R } ^ { d }  \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "is a Schwartzfunction such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\mid _ { S ( { \\sqrt { n } } ) } \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widehat { f } | _ { S ( \\sqrt { n } ) } \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } _ { \\geq 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". Then � is identically zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.47058823529411764,
+            0.8773388773388774,
+            0.5117647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Moreover, recently Stoller and J. P. G. Ramos have shown the existence of a closed discrete Fourier uniqueness set in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "[5, Theorem 2, Remark 1.1]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11642411642411643,
+            0.513235294117647,
+            0.8773388773388774,
+            0.6147058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A natural question is: how “big” is this discrete Fourier uniqueness set? More pre-cisely, for a closed discrete subset"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\subset \\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "we would like to analyse the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { X } ( r )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r \\in \\mathbb { R } _ { > 0 }"
+            },
+            {
+              "type": "text",
+              "content": ", that counts the number of elements of � inside of the ball of radius � about the origin. For the Fourier uniqueness set � constructed in [5, Theorem 2, Remark 1.1] the function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { X } ( r )"
+            },
+            {
+              "type": "text",
+              "content": "grows superexponentially in �."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.6147058823529412,
+            0.8773388773388774,
+            0.6558823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The goal of this paper is to construct a closed discrete Fourier uniqueness set � such that the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { X } ( r )"
+            },
+            {
+              "type": "text",
+              "content": "grows at most polynomially in �."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.18711018711018712,
+            0.6779411764705883,
+            0.6632016632016632,
+            0.6941176470588235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1. Construction of a discrete Fourier uniqueness set"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.6970588235294117,
+            0.8773388773388774,
+            0.736764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this paper we will show that for a family of suficiently uniformly distributed finite subsets"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { n } \\subset S ( 1 ) , n \\in \\mathbb { Z } _ { \\geq 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", the union"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.4303534303534304,
+            0.7397058823529412,
+            0.5654885654885655,
+            0.7779411764705882
+          ],
+          "image_path": "images/page_1_equation_13.jpg",
+          "content": "X := \\bigcup_ {n \\geq 1} \\sqrt {n} X _ {n}\\tag{1.1}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.7779411764705882,
+            0.8773388773388774,
+            0.8161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a Fourier uniqueness set. Let us give one possible quantitative description of the term “uniformly distributed”."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11642411642411643,
+            0.8294117647058824,
+            0.8773388773388774,
+            0.8676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition 1.3. Afinite subset"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\subset S ( 1 )"
+            },
+            {
+              "type": "text",
+              "content": "is a spherical design of strength � iffor all polynomials � in � variables and total degree at most � thefollowing holds:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.367983367983368,
+            0.8691176470588236,
+            0.6278586278586279,
+            0.9117647058823529
+          ],
+          "image_path": "images/page_1_equation_16.jpg",
+          "content": "\\int_ {S (1)} p (\\zeta) d \\zeta = \\frac {1}{| X |} \\sum_ {x \\in X} p (x)."
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.7983367983367984,
+            0.07058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here"
+            },
+            {
+              "type": "equation_inline",
+              "content": "d \\zeta"
+            },
+            {
+              "type": "text",
+              "content": "denotes the Lebesgue measure on �(1) normalized so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { S ( 1 ) } 1 d \\zeta = 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.18711018711018712,
+            0.08088235294117647,
+            0.4553014553014553,
+            0.09852941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The main result of this paper is"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.11029411764705882,
+            0.8773388773388774,
+            0.17058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.4. For each dimension � there exist positive constants"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { A } = \\widetilde { A } ( d )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { B } = \\widetilde { B } ( d )"
+            },
+            {
+              "type": "text",
+              "content": " with thefollowing property."
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f ( X _ { n } ) _ { n = 1 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": "is a collection offinite subsets"
+            },
+            {
+              "type": "equation_inline",
+              "content": "o f S ( 1 )"
+            },
+            {
+              "type": "text",
+              "content": "such that each set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "is a spherical design ofstrength"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { B } n ^ { \\widetilde { A } }"
+            },
+            {
+              "type": "text",
+              "content": "then the set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.4303534303534304,
+            0.17941176470588235,
+            0.5654885654885655,
+            0.21764705882352942
+          ],
+          "image_path": "images/page_2_equation_3.jpg",
+          "content": "X := \\bigcup_ {n \\geq 1} \\sqrt {n} X _ {n}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.225,
+            0.35135135135135137,
+            0.23970588235294119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is a Fourier uniqueness set."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.25588235294117645,
+            0.8794178794178794,
+            0.3338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is known [?] that for a dimension � there exists a constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { d }"
+            },
+            {
+              "type": "text",
+              "content": "such that for all nonnegative integers � there exists a spherical design of strength � with at most"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { d } \\ : s ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "points. Therefore, the above theorem implies the existence of a closed discrete Fourier uniqueness set with polynomially bounded function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M _ { X } ( r )"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.18711018711018712,
+            0.3779411764705882,
+            0.5738045738045738,
+            0.3941176470588235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Auxiliary results from Fourier analysis"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.39705882352941174,
+            0.8794178794178794,
+            0.5176470588235295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Our proof of Theorem (1.1) relies on several facts from Fourier analysis and the theory of modular forms. First, we will use the following statements about the decomposition of a Schwartz function in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { m } = \\mathcal { H } _ { m } ( \\mathbb { R } ^ { d } )"
+            },
+            {
+              "type": "text",
+              "content": "be the space of homogenous harmonic polynomials of total degree � on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { B } } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "be an orthonormal basis of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "with respect to the standard"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "product on the unit sphere �(1). Set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\mathcal { B } } : = \\bigcup _ { m \\geq 0 } { \\mathcal { B } } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": ". Each Schwartz function "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { R } ^ { d } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "has the unique decomposition"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.38253638253638256,
+            0.5264705882352941,
+            0.6112266112266113,
+            0.5647058823529412
+          ],
+          "image_path": "images/page_2_equation_8.jpg",
+          "content": "f (x) = \\sum_ {p \\in \\mathcal {B}} p (x) g _ {p} (\\| x \\|),"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11642411642411643,
+            0.5705882352941176,
+            0.6340956340956341,
+            0.5897058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { p }"
+            },
+            {
+              "type": "text",
+              "content": "are radial Schwartz functions. For"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "we denote"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.39501039501039503,
+            0.6029411764705882,
+            0.5987525987525988,
+            0.6205882352941177
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "f _ {p} (x) := p (x)   g _ {p} (\\| x \\|).\\tag{2.1}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11642411642411643,
+            0.6338235294117647,
+            0.83991683991684,
+            0.6514705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2.1. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { R } ^ { d }  \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "be a Schwartzfunction. For"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } _ { \\geq 1 }"
+            },
+            {
+              "type": "text",
+              "content": "we set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.3492723492723493,
+            0.6647058823529411,
+            0.6465696465696466,
+            0.6955882352941176
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "\\phi_ {p, n} = \\phi_ {p, n} (f) := \\sup _ {x \\in S (\\sqrt {n})} | f _ {p} (x) |."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.11850311850311851,
+            0.7029411764705882,
+            0.3284823284823285,
+            0.7191176470588235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha , \\beta > 0"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3471933471933472,
+            0.7279411764705882,
+            0.6465696465696466,
+            0.763235294117647
+          ],
+          "image_path": "images/page_2_equation_14.jpg",
+          "content": "\\sup _ {p \\in \\mathcal {B}, n \\in \\mathbb {Z} _ {\\geq 1}} \\left(\\deg (p) ^ {\\alpha} n ^ {\\beta} \\phi_ {p, n}\\right) <   \\infty ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11850311850311851,
+            0.7705882352941177,
+            0.2577962577962578,
+            0.7867647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.26195426195426197,
+            0.7955882352941176,
+            0.7318087318087318,
+            0.8308823529411765
+          ],
+          "image_path": "images/page_2_equation_16.jpg",
+          "content": "\\phi_ {p, n} = \\sup _ {x \\in S (\\sqrt {n})} | f _ {p} (x) | = n ^ {\\frac {\\deg (p)}{2}} | g _ {p} (\\sqrt {n}) | \\sup _ {\\zeta \\in S (1)} | p (\\zeta) |."
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.5280665280665281,
+            0.06911764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { p } ( { \\sqrt { n } } )"
+            },
+            {
+              "type": "text",
+              "content": "can be computed as follows"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.3575883575883576,
+            0.07647058823529412,
+            0.6382536382536382,
+            0.17941176470588235
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "\\begin{array}{l} \\int_ {S (1)} f (\\sqrt {n} \\zeta)   p (\\zeta)   d \\zeta \\\\ = \\int_ {S (1)} g _ {p} (\\sqrt {n})   p (\\sqrt {n} \\zeta)   \\overline {{p (\\zeta)}}   d \\zeta \\\\ = n ^ {\\frac {\\deg (p)}{2}}   g _ {p} (\\sqrt {n}). \\end{array}\\tag{2.2}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.19264705882352942,
+            0.2079002079002079,
+            0.2088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.30561330561330563,
+            0.21176470588235294,
+            0.6902286902286903,
+            0.2897058823529412
+          ],
+          "image_path": "images/page_3_equation_3.jpg",
+          "content": "\\begin{array}{l} \\phi_ {p, n} = \\left| \\int_ {S (1)} f (\\sqrt {n} \\zeta)   p (\\zeta)   d \\zeta \\right| \\cdot \\sup _ {\\zeta \\in S (1)} | p (\\zeta) | \\\\ \\leq \\sup _ {x \\in S (\\sqrt {n})} | f (x) | \\sup _ {\\zeta \\in S (1)} | p (\\zeta) | ^ {2}. \\end{array}\\tag{2.3}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.29705882352941176,
+            0.8773388773388774,
+            0.3382352941176471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that there exist positive constants"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "depending only on dimension � such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\operatorname* { s u p } _ { \\zeta \\in S ( 1 ) } | p ( \\zeta ) | \\le C _ { 1 } \\deg ( p ) ^ { C _ { 2 } d } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": ". This gives us an estimate"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.340956340956341,
+            0.34705882352941175,
+            0.6548856548856549,
+            0.38088235294117645
+          ],
+          "image_path": "images/page_3_equation_5.jpg",
+          "content": "\\phi_ {p, n} \\leq C _ {1} \\deg (p) ^ {2 C _ {2}} \\sup _ {x \\in S (\\sqrt {n})} | f (x) |.\\tag{2.4}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.38676470588235295,
+            0.7318087318087318,
+            0.40588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta"
+            },
+            {
+              "type": "text",
+              "content": "be a fixed positive number. Since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "is a Schwartz function, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.40124740124740127,
+            0.4147058823529412,
+            0.5966735966735967,
+            0.4485294117647059
+          ],
+          "image_path": "images/page_3_equation_7.jpg",
+          "content": "\\sup _ {x \\in \\mathbb {R} ^ {d}} \\| x \\| ^ {\\beta} | f (x) | <   \\infty .\\tag{2.5}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.45441176470588235,
+            0.38461538461538464,
+            0.47205882352941175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Estimates (2.4) and (2.5) imply"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3367983367983368,
+            0.47941176470588237,
+            0.659043659043659,
+            0.5147058823529411
+          ],
+          "image_path": "images/page_3_equation_9.jpg",
+          "content": "\\sup _ {p \\in \\mathcal {B}, n \\in \\mathbb {Z} _ {\\geq 1}} \\left(\\deg (p) ^ {- 2 C _ {2}} n ^ {\\beta} \\phi_ {p, n}\\right) <   \\infty .\\tag{2.6}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11850311850311851,
+            0.5205882352941177,
+            0.8794178794178794,
+            0.5838235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Our next goal is to replace"
+            },
+            {
+              "type": "equation_inline",
+              "content": "- 2 C _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "with an arbitrary positive constant �. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\frac { \\partial ^ { 2 } } { \\partial x _ { 1 } ^ { 2 } } + . . . + \\frac { \\partial ^ { 2 } } { \\partial x _ { 1 } ^ { 2 } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "be the Laplace operator on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": ". For a point"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in \\mathbb { R } ^ { d } \\setminus \\{ 0 \\}"
+            },
+            {
+              "type": "text",
+              "content": "we define its polar coordinates"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = \\| x \\|"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\zeta = \\frac { x } { \\left. x \\right. } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ". Consider the following diferential operator"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.30353430353430355,
+            0.5926470588235294,
+            0.6923076923076923,
+            0.6294117647058823
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "\\Delta_ {S ^ {d - 1}} f := r ^ {2} \\Delta f - (d - 1) r \\frac {\\partial}{\\partial r} f - r ^ {2} \\frac {\\partial^ {2}}{\\partial r ^ {2}} f."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.6338235294117647,
+            0.8773388773388774,
+            0.6720588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An important property of this operator is that it maps Schwartz functions to the Schwartz functions. Indeed, we compute in polar coordinates"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = r \\zeta"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.2785862785862786,
+            0.6779411764705883,
+            0.7172557172557172,
+            0.7529411764705882
+          ],
+          "image_path": "images/page_3_equation_13.jpg",
+          "content": "\\begin{array}{l} r \\frac {\\partial}{\\partial r} f (r \\zeta_ {1}, \\ldots , r \\zeta_ {d}) = r \\zeta_ {1} \\frac {\\partial}{\\partial x _ {1}} f + \\ldots + r \\zeta_ {d} \\frac {\\partial}{\\partial x _ {d}} f \\\\ = x _ {1} \\frac {\\partial}{\\partial x _ {1}} f + \\ldots + x _ {d} \\frac {\\partial}{\\partial x _ {d}} f \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11850311850311851,
+            0.7588235294117647,
+            0.2598752598752599,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and analogously"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.26195426195426197,
+            0.7808823529411765,
+            0.735966735966736,
+            0.8691176470588236
+          ],
+          "image_path": "images/page_3_equation_15.jpg",
+          "content": "\\begin{array}{l} {r ^ {2} \\frac {\\partial^ {2}}{\\partial r ^ {2}} f (r \\zeta_ {1}, \\ldots , r \\zeta_ {d}) = r ^ {2} \\zeta_ {1} ^ {2} \\frac {\\partial^ {2}}{\\partial x _ {1} ^ {2}} f + \\ldots + r ^ {2} \\zeta_ {d} ^ {2} \\frac {\\partial^ {2}}{\\partial x _ {d} ^ {2}} f} \\\\ {= x _ {1} ^ {2} \\frac {\\partial^ {2}}{\\partial x _ {1} ^ {2}} f + \\ldots + x _ {d} ^ {2} \\frac {\\partial^ {2}}{\\partial x _ {d} ^ {2}} f.} \\end{array}"
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.11029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, if � is a Schwartz function so is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta _ { S ^ { d - 1 } } f"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g"
+            },
+            {
+              "type": "text",
+              "content": "is a radial Schwartz function and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "is a homogenous harmonic polynomial on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "of total degree"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\deg ( p )"
+            },
+            {
+              "type": "text",
+              "content": ". Then a straightforward computation shows that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.2598752598752599,
+            0.12205882352941176,
+            0.7338877338877339,
+            0.1411764705882353
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "\\Delta_ {S _ {d}} (g (r) p (x)) = - \\deg (p) (\\deg (p) + d - 2) g (r) p (x).\\tag{2.7}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.15294117647058825,
+            0.735966735966736,
+            0.17058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We define"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { m } : = - m ( m + d - 2 )"
+            },
+            {
+              "type": "text",
+              "content": ". Clearly,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left| \\lambda _ { m } \\right| \\sim m ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "as � goes to infinity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.17352941176470588,
+            0.8773388773388774,
+            0.25735294117647056
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": "be a positive integer. Given a Schwartz function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "we define a new Schwartz function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { f } : = \\Delta _ { S ^ { d - 1 } } ^ { \\alpha } f"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "has decomposition"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { f = \\sum _ { p \\in \\mathcal { B } } f _ { p } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", then by equation (2.7) the new function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { f }"
+            },
+            {
+              "type": "text",
+              "content": "has decomposition"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\widetilde { f } = \\sum _ { p \\in \\mathcal { B } } \\widetilde { f _ { p } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { f _ { p } } = \\lambda _ { \\mathrm { d e g } ( p ) } ^ { \\alpha } f _ { p } ."
+            },
+            {
+              "type": "text",
+              "content": " Also the numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { \\phi } _ { p , n } : = \\mathrm { m a x } _ { x \\in S ( \\sqrt { n } ) } \\vert \\widetilde { f } _ { p } ( x ) \\vert"
+            },
+            {
+              "type": "text",
+              "content": "satisfy"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.3970893970893971,
+            0.2661764705882353,
+            0.5987525987525988,
+            0.2867647058823529
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "\\widetilde {\\phi} _ {p, n} = | \\lambda_ {\\deg (p)} | ^ {\\alpha} \\phi_ {p, n}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.29705882352941176,
+            0.6195426195426196,
+            0.3161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, we apply estimate (2.6) to the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { f }"
+            },
+            {
+              "type": "text",
+              "content": "and derive"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.3284823284823285,
+            0.3235294117647059,
+            0.6673596673596673,
+            0.3588235294117647
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "\\sup _ {p \\in \\mathcal {B}, n \\in \\mathbb {Z} _ {\\geq 1}} \\left(\\deg (p) ^ {2 \\alpha - 2 C _ {2}} n ^ {\\beta} \\phi_ {p, n}\\right) <   \\infty"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.36470588235294116,
+            0.6902286902286903,
+            0.38382352941176473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for arbitrary positive"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta ."
+            },
+            {
+              "type": "text",
+              "content": ". This finishes the proof of the theorem."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.18711018711018712,
+            0.4279411764705882,
+            0.683991683991684,
+            0.4441176470588235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Auxiliary results from the theory of modular forms"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11642411642411643,
+            0.4470588235294118,
+            0.8794178794178794,
+            0.48676470588235293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let � be a half integer. We denote by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { k } ( \\Gamma ( 2 ) , \\chi _ { k } )"
+            },
+            {
+              "type": "text",
+              "content": "the space of holomorphic cusp forms ℎ satisfying the transformation rule"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.40540540540540543,
+            0.49411764705882355,
+            0.5675675675675675,
+            0.5676470588235294
+          ],
+          "image_path": "images/page_4_equation_10.jpg",
+          "content": "\\left\\{ \\begin{array}{l} h (\\tau + 2) = h (\\tau) \\\\ \\widetilde {h} := (- i \\tau) ^ {k} \\widetilde {h} (\\tau) \\\\ \\widetilde {h} (\\tau + 2) = \\widetilde {h} (\\tau). \\end{array} \\right."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11642411642411643,
+            0.575,
+            0.6715176715176715,
+            0.5926470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The following statement is known as Voronoi summation formula."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11434511434511435,
+            0.6044117647058823,
+            0.8773388773388774,
+            0.6455882352941177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.1. Let ℎ be a cuspform in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { d / 2 } ( \\Gamma ( 2 ) , \\chi _ { d } )"
+            },
+            {
+              "type": "text",
+              "content": ") and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { h } ( \\tau ) : = ( - i \\tau ) ^ { - d / 2 } h ( \\frac { - 1 } { \\tau } )"
+            },
+            {
+              "type": "text",
+              "content": ". Then for a radial Schwartzfunction"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { R } ^ { d } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "thefollowing summationformula holds"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.340956340956341,
+            0.6514705882352941,
+            0.6528066528066528,
+            0.6955882352941176
+          ],
+          "image_path": "images/page_4_equation_13.jpg",
+          "content": "\\sum_ {n = 1} ^ {\\infty} f (\\sqrt {n}) c _ {h} (n) = \\sum_ {n = 1} ^ {\\infty} \\widehat {f} (\\sqrt {n}) c _ {\\widetilde {h}} (n)."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.18711018711018712,
+            0.7029411764705882,
+            0.6424116424116424,
+            0.7205882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a half integer � and a positive number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon"
+            },
+            {
+              "type": "text",
+              "content": "we define"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.33471933471933474,
+            0.7279411764705882,
+            0.6611226611226612,
+            0.7705882352941177
+          ],
+          "image_path": "images/page_4_equation_15.jpg",
+          "content": "N (k, \\epsilon) := \\left(\\frac {\\epsilon \\Gamma (k - 1 / 2)}{(2 \\pi) ^ {k - 1} \\zeta (k - 2)   4 \\pi}\\right) ^ {1 / k}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11642411642411643,
+            0.775,
+            0.6340956340956341,
+            0.7926470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A straight forward consequence of the Stirling formula is that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.3783783783783784,
+            0.8,
+            0.6195426195426196,
+            0.8338235294117647
+          ],
+          "image_path": "images/page_4_equation_17.jpg",
+          "content": "N (k, \\epsilon) \\sim \\frac {k}{2 \\pi e} \\mathrm{as} k \\rightarrow \\infty ."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.11642411642411643,
+            0.8397058823529412,
+            0.8773388773388774,
+            0.8779411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The main technical tool in our proof of Theorem 1.4 is the following statement about the space of modular forms"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { k } ( \\Gamma ( 2 ) , \\chi _ { k } )"
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.9352941176470588,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.10882352941176471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.2. Fix a number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon \\in ( 0 , 1 / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "andfor a half-integer � set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ( k ) : = \\lfloor N ( k , \\epsilon ) \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": ". For each half-integral weight"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geq 5 / 2"
+            },
+            {
+              "type": "text",
+              "content": "there exist element"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( h _ { m } \\right) _ { m = 1 } ^ { N ( k ) - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "in the space"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S _ { k } ( \\Gamma ( 2 ) , \\chi _ { d } )"
+            },
+            {
+              "type": "text",
+              "content": " such that:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.18711018711018712,
+            0.12352941176470589,
+            0.58004158004158,
+            0.13970588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) thefunction"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "has the Fourier expansion"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3866943866943867,
+            0.14558823529411766,
+            0.7130977130977131,
+            0.19411764705882353
+          ],
+          "image_path": "images/page_5_equation_2.jpg",
+          "content": "h_{m}(\\tau) = e^{\\pi im\\tau} + \\sum_{\\substack{n\\in \\mathbb{Z}\\\\ n\\geq N(k)}}c_{h_{m}}(n)e^{\\pi in\\tau}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.18711018711018712,
+            0.20147058823529412,
+            0.7463617463617463,
+            0.22205882352941175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) thefunction"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\widetilde { h } _ { m } : = ( - i \\tau ) ^ { - k } h _ { m } ( \\frac { - 1 } { \\tau } ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "has the Fourier expansion"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.42203742203742206,
+            0.22794117647058823,
+            0.6756756756756757,
+            0.275
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "\\widetilde{h}_{m}(\\tau) = \\sum_{\\substack{n\\in \\mathbb{Z}\\\\ n\\geq N(k)}}c_{\\widetilde{h}_{m}}(n)e^{\\pi in\\tau}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.18711018711018712,
+            0.28088235294117647,
+            0.83991683991684,
+            0.3014705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(3) the Fourier coeficients"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { h _ { m } } ( n )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\widetilde { h } _ { m } } ^ { } \\left( n \\right)"
+            },
+            {
+              "type": "text",
+              "content": "satisfy thefollowing estimates"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.42203742203742206,
+            0.3073529411764706,
+            0.6756756756756757,
+            0.32941176470588235
+          ],
+          "image_path": "images/page_5_equation_6.jpg",
+          "content": "\\left| c _ {h _ {m}} (n) \\right| \\leq C m ^ {- k / 2 + \\alpha} n ^ {k / 2 + \\alpha}"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.41995841995842,
+            0.3573529411764706,
+            0.6798336798336798,
+            0.38088235294117645
+          ],
+          "image_path": "images/page_5_equation_7.jpg",
+          "content": "| c _ {\\widetilde {h} _ {m}} (n) | \\leq C m ^ {- k / 2 + \\alpha} n ^ {k / 2 + \\alpha}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.2203742203742204,
+            0.38823529411764707,
+            0.8773388773388774,
+            0.4279411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here � and � are positive constants independent of�, �, and � and depending on �."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.18711018711018712,
+            0.47058823529411764,
+            0.41372141372141374,
+            0.48676470588235293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Proof of Theorem 3.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.49117647058823527,
+            0.8794178794178794,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P _ { k , \\chi , m }"
+            },
+            {
+              "type": "text",
+              "content": "be the Poincare series for the group Γ(2) and multiplier system"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "(see [2, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathsf { p } } . 4 7 ,"
+            },
+            {
+              "type": "text",
+              "content": "equation (3.2)]). The Fourier coeficients of the Poincare series can be explicitly computed by the Petersson formula:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3097713097713098,
+            0.5558823529411765,
+            0.683991683991684,
+            0.5926470588235294
+          ],
+          "image_path": "images/page_5_equation_11.jpg",
+          "content": "c _ {P _ {k, \\chi , m}} (n) = \\delta_ {m, n} + \\sum_ {c > 0} S (m, n, c) \\mathcal {J} _ {c} (m, n).\\tag{4.1}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.5985294117647059,
+            0.41995841995842,
+            0.6161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { T } _ { c } ( m , n )"
+            },
+            {
+              "type": "text",
+              "content": "is the following sum"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3180873180873181,
+            0.6205882352941177,
+            0.6756756756756757,
+            0.6602941176470588
+          ],
+          "image_path": "images/page_5_equation_13.jpg",
+          "content": "\\mathcal {J} _ {c} (m, n) = \\frac {2 \\pi}{i ^ {k} c} \\left(\\frac {n}{m}\\right) ^ {\\frac {k - 1}{2}} J _ {k - 1} \\left(\\frac {4 \\pi \\sqrt {m n}}{c}\\right),"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.6647058823529411,
+            0.681912681912682,
+            0.6838235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "J _ { \\nu }"
+            },
+            {
+              "type": "text",
+              "content": "is the Bessel J-function is given by the power series"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.3388773388773389,
+            0.6882352941176471,
+            0.6548856548856549,
+            0.7338235294117647
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "J _ {\\nu} (x) = \\sum_ {\\ell = 0} ^ {\\infty} \\frac {(- 1) ^ {\\ell}}{\\ell !   \\Gamma (\\ell + 1 + \\nu)} \\left(\\frac {x}{2}\\right) ^ {\\nu + 2 \\ell}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11642411642411643,
+            0.7397058823529412,
+            0.8773388773388774,
+            0.7764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "And"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( m , n , c )"
+            },
+            {
+              "type": "text",
+              "content": "is the Kloosterman sum defined in [2, p. 51, equation (3.13)]. The following estimate can be found in [4]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11434511434511435,
+            0.7897058823529411,
+            0.8773388773388774,
+            0.8279411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 4.1. For a half-integer weight"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geq 5 / 2"
+            },
+            {
+              "type": "text",
+              "content": "and positive integers �, � the Fourier coefficients ofPoincare series satisfy:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.30145530145530147,
+            0.8323529411764706,
+            0.6923076923076923,
+            0.8676470588235294
+          ],
+          "image_path": "images/page_5_equation_18.jpg",
+          "content": "\\left| c _ {P _ {k, n}} (m) - \\delta_ {m, n} \\right| \\leq \\left(\\frac {m}{n}\\right) ^ {\\frac {k - 1}{2}} \\varepsilon^ {- 2} n ^ {1 + \\varepsilon} m ^ {1 + \\varepsilon} C"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.3575883575883576,
+            0.8705882352941177,
+            0.6923076923076923,
+            0.9058823529411765
+          ],
+          "image_path": "images/page_5_equation_19.jpg",
+          "content": "\\left| c _ {\\tilde {P} _ {k, n}} (m) \\right| \\leq \\left(\\frac {m}{n}\\right) ^ {\\frac {k - 1}{2}} \\varepsilon^ {- 2} n ^ {1 + \\varepsilon} m ^ {1 + \\varepsilon} C."
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.7318087318087318,
+            0.06911764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here � is an absolute constant and � is any number in the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 0 , \\textstyle { \\frac { 1 } { 8 } } ]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.08088235294117647,
+            0.8794178794178794,
+            0.12058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 4.2. For a half-integer weight"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\geq 5 / 2"
+            },
+            {
+              "type": "text",
+              "content": "andpositive integers �, � lying in the interval "
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 1 , N ( k , \\epsilon ) ]"
+            },
+            {
+              "type": "text",
+              "content": "the Fourier coeficients ofPoincare series satisfy:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.18711018711018712,
+            0.1338235294117647,
+            0.2203742203742204,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.38461538461538464,
+            0.14558823529411766,
+            0.7130977130977131,
+            0.18529411764705883
+          ],
+          "image_path": "images/page_6_equation_3.jpg",
+          "content": "\\left| c _ {P _ {k, n}} (m) - \\delta_ {m, n} \\right| \\left(\\frac {n}{m}\\right) ^ {\\frac {k - 1}{2}} \\leq \\frac {\\epsilon}{N (k , \\epsilon)};"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1891891891891892,
+            0.18676470588235294,
+            0.2203742203742204,
+            0.20588235294117646
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.4158004158004158,
+            0.20147058823529412,
+            0.681912681912682,
+            0.2411764705882353
+          ],
+          "image_path": "images/page_6_equation_5.jpg",
+          "content": "\\left| c _ {\\tilde {P} _ {k, n}} (m) \\right| \\left(\\frac {n}{m}\\right) ^ {\\frac {k - 1}{2}} \\leq \\frac {\\epsilon}{N (k , \\epsilon)}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.2529411764705882,
+            0.7920997920997921,
+            0.27058823529411763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Part (1) of the lemma in an immediate consequence of Stirling’s formula."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.2735294117647059,
+            0.8773388773388774,
+            0.31176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Mehler-Sonine formula [1] gives the following integral representation of the Bessel �-function"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.20374220374220375,
+            0.31323529411764706,
+            0.7900207900207901,
+            0.35294117647058826
+          ],
+          "image_path": "images/page_6_equation_8.jpg",
+          "content": "J _ {\\nu} (z) = \\frac {(z / 2) ^ {\\nu}}{\\Gamma (\\nu + 1 / 2) \\sqrt {\\pi}} \\int_ {- 1} ^ {1} e ^ {i z s} (1 - s ^ {2}) ^ {\\nu - \\frac {1}{2}} d s, \\quad \\nu > \\frac {- 1}{2}, z \\in \\mathbb {C}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11642411642411643,
+            0.3558823529411765,
+            0.5197505197505198,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This integral representation implies an estimate"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.38461538461538464,
+            0.3764705882352941,
+            0.6091476091476091,
+            0.4147058823529412
+          ],
+          "image_path": "images/page_6_equation_10.jpg",
+          "content": "\\left| J _ {\\nu} (z) \\right| \\leq \\frac {(z / 2) ^ {\\nu} 2}{\\Gamma (\\nu + 1 / 2) \\sqrt {\\pi}}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11850311850311851,
+            0.4176470588235294,
+            0.7525987525987526,
+            0.43676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also we use the trivial estimate for the Klostermann sums (see [2][eq. 3.13])"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.42203742203742206,
+            0.4426470588235294,
+            0.5738045738045738,
+            0.4647058823529412
+          ],
+          "image_path": "images/page_6_equation_12.jpg",
+          "content": "| S (m, n, c) | <   c ^ {2}."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.11642411642411643,
+            0.47352941176470587,
+            0.8773388773388774,
+            0.5117647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We combine these two estimates with the Petersson formula (4.1) for the Fourier coefficients of the Poincare series and obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.35550935550935553,
+            0.5117647058823529,
+            0.6424116424116424,
+            0.6779411764705883
+          ],
+          "image_path": "images/page_6_equation_14.jpg",
+          "content": "\\begin{array}{l} \\left| c _ {P _ {k, n}} (m) - \\delta_ {m, n} \\right| \\left(\\frac {n}{m}\\right) ^ {\\frac {k - 1}{2}} \\\\ \\leq 2 \\pi \\sum_ {c > 0} c \\left| J _ {k - 1} \\left(\\frac {4 \\pi \\sqrt {m n}}{c}\\right) \\right| \\\\ \\leq 4 \\pi \\sum_ {c > 0} c \\left| \\frac {(2 \\pi / c) ^ {k - 1}}{\\Gamma (\\nu + 1 / 2)} \\right| (m n) ^ {\\frac {k - 1}{2}} \\\\ \\leq 4 \\pi \\frac {\\zeta (k - 2) (2 \\pi) ^ {k - 1}}{\\Gamma (k - 1 / 2)} (m n) ^ {\\frac {k - 1}{2}}. \\end{array}\\tag{4.2}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11642411642411643,
+            0.6838235294117647,
+            0.8773388773388774,
+            0.7220588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { m n } \\le N ( k , \\epsilon )"
+            },
+            {
+              "type": "text",
+              "content": ", therefore inequality (4.2) and our choise of the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ( k , \\epsilon )"
+            },
+            {
+              "type": "text",
+              "content": " imply part (2) of the lemma. Proof of part (3) is analogous."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.18711018711018712,
+            0.7338235294117647,
+            0.3762993762993763,
+            0.7514705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof of Theorem 3.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11642411642411643,
+            0.7544117647058823,
+            0.8773388773388774,
+            0.8117647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fix a half integral weight � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon \\in ( 0 , 1 / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "and set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N : = \\lfloor N ( k , \\epsilon ) \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": ". Consider a matrix "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = ( a _ { m , n } ) _ { m , n = 1 } ^ { 2 N }"
+            },
+            {
+              "type": "text",
+              "content": "with entries defined by the coeficients of the Poincare series"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { P } _ { m } : = \\mathcal { P } _ { k , m }"
+            },
+            {
+              "type": "text",
+              "content": " as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.1995841995841996,
+            0.8073529411764706,
+            0.7920997920997921,
+            0.9117647058823529
+          ],
+          "image_path": "images/page_6_equation_18.jpg",
+          "content": "a _ {m, n} = \\left\\{ \\begin{array}{l l} c _ {\\mathcal {P} _ {m}} (n) \\left(\\frac {m}{n}\\right) ^ {\\frac {k - 1}{2}} & \\text {if} m, n \\in [ 1, N ] \\\\ c _ {\\bar {\\mathcal {P}} _ {m}} (n - N) \\left(\\frac {m}{n - N}\\right) ^ {\\frac {k - 1}{2}} & \\text {if} m \\in [ 1, N ], n \\in [ N + 1, 2 N ] \\\\ c _ {\\tilde {\\mathcal {P}} _ {m - N}} (n) \\left(\\frac {m - N}{n}\\right) ^ {\\frac {k - 1}{2}} & \\text {if} m \\in [ N + 1, 2 N ], n \\in [ 1, N ] \\\\ c _ {\\tilde {\\mathcal {P}} _ {m - N}} (n - N) \\left(\\frac {m - N}{n - N}\\right) ^ {\\frac {k - 1}{2}} & \\text {if} m, n \\in [ N + 1, 2 N ]. \\end{array} \\right."
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8773388773388774,
+            0.09117647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Lemma 4.2 we know that � is diagonally dominated and therefore invertible. Moreover, the inverse matrix"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B = ( b _ { m , n } ) _ { m , n = 1 } ^ { 2 N } : = A ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.34303534303534305,
+            0.1,
+            0.6507276507276507,
+            0.14558823529411766
+          ],
+          "image_path": "images/page_7_equation_1.jpg",
+          "content": "\\left| b _ {m, n} - \\delta_ {m, n} \\right| <   \\sum_ {k = 1} ^ {\\infty} (2 \\epsilon) ^ {k} = \\frac {2 \\epsilon}{1 - 2 \\epsilon}.\\tag{4.3}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.1514705882352941,
+            0.3284823284823285,
+            0.1676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider modular forms"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.23492723492723494,
+            0.17352941176470588,
+            0.7567567567567568,
+            0.22058823529411764
+          ],
+          "image_path": "images/page_7_equation_3.jpg",
+          "content": "h _ {\\ell} := \\ell^ {\\frac {1 - k}{2}} \\sum_ {n = 1} ^ {N} \\left(b _ {\\ell , n} P _ {n} + b _ {\\ell , n + N} \\widetilde {P} _ {n}\\right) n ^ {\\frac {k - 1}{2}}, \\qquad \\ell = 1, \\dots , N.\\tag{4.4}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.22794117647058823,
+            0.5072765072765073,
+            0.24558823529411763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the definition of coeficients"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { \\ell , n }"
+            },
+            {
+              "type": "text",
+              "content": "we see"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3388773388773389,
+            0.25735294117647056,
+            0.6548856548856549,
+            0.275
+          ],
+          "image_path": "images/page_7_equation_5.jpg",
+          "content": "c _ {h _ {\\ell}} (m) = \\delta_ {\\ell , m} \\quad \\text { for } \\ell , m = 1, \\dots N."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.2867647058823529,
+            0.5696465696465697,
+            0.3058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { h } _ { \\ell } ( \\tau ) : = ( - i \\tau ) ^ { - k } h _ { \\ell } ( - 1 / \\tau )"
+            },
+            {
+              "type": "text",
+              "content": "we find"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.23492723492723494,
+            0.31323529411764706,
+            0.7567567567567568,
+            0.3602941176470588
+          ],
+          "image_path": "images/page_7_equation_7.jpg",
+          "content": "\\widetilde {h} _ {\\ell} := \\ell^ {\\frac {1 - k}{2}} \\sum_ {n = 1} ^ {N} \\left(b _ {\\ell , n} \\widetilde {P} _ {n} + b _ {\\ell , n + N} P _ {n}\\right) n ^ {\\frac {k - 1}{2}}, \\qquad \\ell = 1, \\dots , N.\\tag{4.5}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.36764705882352944,
+            0.8794178794178794,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The matrix � has symmetries"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { m , n } = a _ { m + N , n + N }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { m + N , n } = a _ { m , n + N }"
+            },
+            {
+              "type": "text",
+              "content": "for �,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = 1 , \\ldots N ."
+            },
+            {
+              "type": "text",
+              "content": " Same symmetries are inherited by �, namely"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b _ { m , n } = b _ { m + N , n + N } , b _ { m + N , n } = b _ { m , n + N }"
+            },
+            {
+              "type": "text",
+              "content": "under same assumptions on indices � and �. Hence, we can rewrite (4.5) as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.21205821205821207,
+            0.4338235294117647,
+            0.7796257796257796,
+            0.47941176470588237
+          ],
+          "image_path": "images/page_7_equation_9.jpg",
+          "content": "\\widetilde {h} _ {\\ell} := \\ell^ {\\frac {1 - k}{2}} \\sum_ {n = 1} ^ {N} \\left(b _ {\\ell + N, n} P _ {n} + b _ {\\ell + N, n + N} \\widetilde {P} _ {n}\\right) n ^ {\\frac {k - 1}{2}}, \\qquad \\ell = 1, \\dots , N."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.48676470588235293,
+            0.2702702702702703,
+            0.5029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, we see that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3097713097713098,
+            0.5058823529411764,
+            0.683991683991684,
+            0.5279411764705882
+          ],
+          "image_path": "images/page_7_equation_11.jpg",
+          "content": "c _ {\\widetilde {h} _ {\\ell}} (m) = \\delta_ {\\ell , m + N} = 0 \\quad \\mathrm{for} \\ell , m = 1, \\ldots N."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.538235294117647,
+            0.8752598752598753,
+            0.5764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, we prove part (3) of the theorem. Let ℓ and � be integers such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ell \\in [ 1 , N ]"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\in ( N , \\infty )"
+            },
+            {
+              "type": "text",
+              "content": ". We apply definition (4.4) and estimate the �-th Fourier coeficient of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { \\ell }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.13721413721413722,
+            0.5838235294117647,
+            0.8523908523908524,
+            0.6308823529411764
+          ],
+          "image_path": "images/page_7_equation_13.jpg",
+          "content": "\\left| c _ {h _ {\\ell}} (m) \\right| \\ell^ {\\frac {k - 1}{2}} m ^ {\\frac {1 - k}{2}} \\leq \\sum_ {n = 1} ^ {N} \\left(\\left| b _ {\\ell , n} \\right| \\left| c _ {P _ {n}} (m) \\right| n ^ {\\frac {k - 1}{2}} m ^ {\\frac {1 - k}{2}} + \\left| b _ {\\ell , n + N} \\right| \\left| c _ {\\tilde {P} _ {n}} (m) \\right| n ^ {\\frac {k - 1}{2}} m ^ {\\frac {1 - k}{2}}\\right)."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.6367647058823529,
+            0.6444906444906445,
+            0.6544117647058824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we apply Lemma 4.1 and estimate (4.3) in order to obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.17463617463617465,
+            0.6617647058823529,
+            0.817047817047817,
+            0.7073529411764706
+          ],
+          "image_path": "images/page_7_equation_15.jpg",
+          "content": "\\left| c _ {h _ {\\ell}} (m) \\right| \\ell^ {\\frac {k - 1}{2}} m ^ {\\frac {1 - k}{2}} \\leq \\frac {2}{1 - 2 \\epsilon} \\sum_ {n = 1} ^ {N} \\varepsilon^ {- 2} n ^ {1 + \\varepsilon} m ^ {1 + \\varepsilon} C \\leq \\frac {2 C}{(1 - 2 \\epsilon) \\varepsilon^ {2}} N ^ {2 + \\varepsilon} m ^ {1 + \\varepsilon}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11850311850311851,
+            0.7147058823529412,
+            0.3388773388773389,
+            0.7323529411764705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Analogosly, we show that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.30353430353430355,
+            0.7397058823529412,
+            0.6902286902286903,
+            0.775
+          ],
+          "image_path": "images/page_7_equation_17.jpg",
+          "content": "\\left| c _ {\\widetilde {h} _ {\\ell}} (m) \\right| \\ell^ {\\frac {k - 1}{2}} m ^ {\\frac {1 - k}{2}} \\leq \\frac {2 C}{(1 - 2 \\epsilon) \\varepsilon^ {2}} N ^ {2 + \\varepsilon} m ^ {1 + \\varepsilon}."
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.11642411642411643,
+            0.7823529411764706,
+            0.4490644490644491,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This finishes the proof of Theorem 3.2."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.9352941176470588,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.18711018711018712,
+            0.05,
+            0.41372141372141374,
+            0.06764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Proof of Theorem 1.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11434511434511435,
+            0.07058823529411765,
+            0.8794178794178794,
+            0.1514705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 5.1. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( X _ { n } \\right) _ { n = 1 } ^ { \\infty }"
+            },
+            {
+              "type": "text",
+              "content": "be a sequence ofsubsets"
+            },
+            {
+              "type": "equation_inline",
+              "content": "o f S ( 1 )"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "is a spherical design of strength"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D ( n )"
+            },
+            {
+              "type": "text",
+              "content": "and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X : = \\cup _ { n = 1 } ^ { \\infty } { \\sqrt { n } } X _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that � is a Schwartzfunction such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\mid _ { X } = 0 ."
+            },
+            {
+              "type": "text",
+              "content": ". There exist an absolute positive constant � independent of � and � and a positive number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta ,"
+            },
+            {
+              "type": "text",
+              "content": "which depends linearly on dimension"
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ,"
+            },
+            {
+              "type": "text",
+              "content": "such thatfor all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } _ { \\geq 1 }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.31392931392931395,
+            0.1588235294117647,
+            0.681912681912682,
+            0.21029411764705883
+          ],
+          "image_path": "images/page_8_equation_2.jpg",
+          "content": "\\phi_{p,n}\\leq C\\deg (p)^{\\beta}\\sum_{\\substack{q\\in \\mathcal{B}\\\\ \\deg (q) > D(n) - \\deg (p)}}\\phi_{q,n}."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.2161764705882353,
+            0.3305613305613306,
+            0.2338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. By (2.3) we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.30145530145530147,
+            0.23970588235294119,
+            0.6943866943866944,
+            0.28088235294117647
+          ],
+          "image_path": "images/page_8_equation_4.jpg",
+          "content": "\\phi_ {p, n} = \\left| \\int_ {S (1)} f (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta \\right| \\cdot \\sup _ {\\zeta \\in S (1)} | p (\\zeta) |."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.2867647058823529,
+            0.4760914760914761,
+            0.3058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M \\in \\mathbb { Z } _ { \\geq 0 }"
+            },
+            {
+              "type": "text",
+              "content": "we define the “head” of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.41372141372141374,
+            0.31323529411764706,
+            0.58004158004158,
+            0.36470588235294116
+          ],
+          "image_path": "images/page_8_equation_6.jpg",
+          "content": "h_{M}:= \\sum_{\\substack{p\\in \\mathcal{B}\\\\ \\deg (p)\\leq M}}f_{p}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.37058823529411766,
+            0.2598752598752599,
+            0.38823529411764707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and the “tail” as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.41372141372141374,
+            0.38676470588235295,
+            0.58004158004158,
+            0.43823529411764706
+          ],
+          "image_path": "images/page_8_equation_8.jpg",
+          "content": "t_{M}:= \\sum_{\\substack{p\\in \\mathcal{B}\\\\ \\deg (p) > M}}f_{p}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.18711018711018712,
+            0.4441176470588235,
+            0.5093555093555093,
+            0.46176470588235297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The integral in (2.3) can be written as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.3367983367983368,
+            0.4676470588235294,
+            0.6611226611226612,
+            0.5470588235294118
+          ],
+          "image_path": "images/page_8_equation_10.jpg",
+          "content": "\\begin{array}{l} \\int_ {S (1)} f (\\sqrt {n} \\zeta)   p (\\zeta)   d \\zeta = \\\\ \\int_ {S (1)} (h _ {M} (\\sqrt {n} \\zeta) + t _ {M} (\\sqrt {n} \\zeta))   p (\\zeta)   d \\zeta . \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.18503118503118504,
+            0.5529411764705883,
+            0.841995841995842,
+            0.5705882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a finite set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z \\subset S ( 1 )"
+            },
+            {
+              "type": "text",
+              "content": "and a function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g : S ( 1 ) \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "we will use the notation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.3783783783783784,
+            0.5764705882352941,
+            0.6174636174636174,
+            0.6176470588235294
+          ],
+          "image_path": "images/page_8_equation_12.jpg",
+          "content": "\\int_ {Y} g (\\zeta) d \\zeta := \\frac {1}{| Y |} \\sum_ {y \\in Y} g (y)."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.11642411642411643,
+            0.6279411764705882,
+            0.8773388773388774,
+            0.6661764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose that the integer � is chosen so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M + \\deg ( p ) \\leq D ( n )"
+            },
+            {
+              "type": "text",
+              "content": ". Then our assumption that the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "is a spherical design of strength"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D ( n )"
+            },
+            {
+              "type": "text",
+              "content": "implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3804573804573805,
+            0.6705882352941176,
+            0.6174636174636174,
+            0.75
+          ],
+          "image_path": "images/page_8_equation_14.jpg",
+          "content": "\\begin{array}{l} \\int_ {S (1)} h _ {M} (\\sqrt {n} \\zeta)) p (\\zeta) d \\zeta = \\\\ \\int_ {X _ {n}} h _ {M} (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta . \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11642411642411643,
+            0.7558823529411764,
+            0.4490644490644491,
+            0.7720588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, we can write the integral (2.2) as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.26195426195426197,
+            0.7794117647058824,
+            0.735966735966736,
+            0.9
+          ],
+          "image_path": "images/page_8_equation_16.jpg",
+          "content": "\\begin{array}{l} \\int_ {X _ {n}} h _ {M} (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta + \\int_ {S (1)} t _ {M} (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta = \\\\ \\int_ {X _ {n}} (f - t _ {M}) (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta + \\int_ {S (1)} t _ {M} (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta = \\\\ \\int_ {X _ {n}} f (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta + \\left(\\int_ {S (1)} - \\int_ {X _ {n}}\\right) t _ {M} (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta \\end{array}\\tag{5.1}"
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8773388773388774,
+            0.08970588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first summand in the above line vanishes by assumption that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\mid _ { X _ { n } } = 0"
+            },
+            {
+              "type": "text",
+              "content": ". Therefore, we can estimate the integral (2.2) in the following way"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.2515592515592516,
+            0.09411764705882353,
+            0.7422037422037422,
+            0.13676470588235295
+          ],
+          "image_path": "images/page_9_equation_1.jpg",
+          "content": "\\left| \\int_ {S (1)} f (\\sqrt {n} \\zeta) p (\\zeta) d \\zeta \\right| \\leq 2 \\sup _ {\\zeta \\in S (1)} | p (\\zeta) | \\sup _ {x \\in S (\\sqrt {n})} | t _ {M} (x) |.\\tag{5.2}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.1426470588235294,
+            0.2598752598752599,
+            0.1588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.3575883575883576,
+            0.1588235294117647,
+            0.6382536382536382,
+            0.2088235294117647
+          ],
+          "image_path": "images/page_9_equation_3.jpg",
+          "content": "\\sup_{x\\in S(\\sqrt{n})}\\left|t_{M}(x)\\right|\\leq \\sum_{\\substack{q\\in \\mathcal{B}\\\\ \\deg (q) > M}}\\phi_{q,n}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.21470588235294116,
+            0.4365904365904366,
+            0.2338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This finishes the proof of Lemma 5.1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.18711018711018712,
+            0.24558823529411763,
+            0.8898128898128899,
+            0.2647058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorems 3.1 and 3.2 give us other inequalities between the numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\left( \\phi _ { p , n } \\right) _ { p \\in \\mathcal { B } , n \\in \\mathbb { Z } _ { \\geq 1 } } . } \\end{array}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.27647058823529413,
+            0.8794178794178794,
+            0.33676470588235297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 5.2. Fix"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon \\in ( 0 , 1 / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "and set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ( k ) : = \\lfloor N ( k , \\epsilon ) \\rfloor"
+            },
+            {
+              "type": "text",
+              "content": ". Suppose that a Schwartzfunction � is an eigenfunction ofthe Fourier transform. There exists an absolute positive constant � big enough such thatfor all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "and all positive integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\leq N ( \\deg ( p ) + d / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.3076923076923077,
+            0.3426470588235294,
+            0.6860706860706861,
+            0.3911764705882353
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "\\phi_{p,m}\\leq C  m^{\\alpha -\\frac{d}{4}}\\sum_{\\substack{n\\in \\mathbb{Z}\\\\ n > N  (\\deg (p) + d / 2)}}n^{\\alpha +\\frac{d}{4}}  \\phi_{p,n}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.4,
+            0.8773388773388774,
+            0.43676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "be a Schwartz function in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": ". As described in Section 2 this function has decomposition"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.31392931392931395,
+            0.43676470588235294,
+            0.681912681912682,
+            0.475
+          ],
+          "image_path": "images/page_9_equation_9.jpg",
+          "content": "f (x) = \\sum_ {p \\in \\mathcal {B}} f _ {p} (x), \\quad f _ {p} (x) = p (x) g _ {p} (| x |)."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.4808823529411765,
+            0.8794178794178794,
+            0.5602941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here for each homogenous harmonic polynomial"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { p } : \\mathbb { R } _ { \\geq 0 } \\to \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "is such that the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\mapsto g _ { p } ( | x | )"
+            },
+            {
+              "type": "text",
+              "content": "on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } ^ { d }"
+            },
+            {
+              "type": "text",
+              "content": "is a radial Schwartz function. A known result in analysis implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\mapsto g _ { p } ( | x | )"
+            },
+            {
+              "type": "text",
+              "content": "is a Schwartz function on any Euclidean space"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathbb { R } } ^ { s }"
+            },
+            {
+              "type": "text",
+              "content": ". We denote by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } _ { s }"
+            },
+            {
+              "type": "text",
+              "content": "the �-dimensional Fourier transform. We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.1995841995841996,
+            0.5705882352941176,
+            0.7900207900207901,
+            0.5911764705882353
+          ],
+          "image_path": "images/page_9_equation_11.jpg",
+          "content": "\\mathcal {F} _ {d} (f _ {p}) (x) = \\mathcal {F} _ {d} (p (x) g _ {p} (| x |)) = (- i) ^ {\\deg (p)} p (y) \\mathcal {F} _ {d + 2 \\deg (p)} (g _ {p}) (| y |)."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.6,
+            0.8773388773388774,
+            0.6617647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ h _ { m } \\} _ { m = 1 } ^ { N ( d / 2 + \\deg ( p ) ) } \\subset S _ { d / 2 + \\deg ( p ) } ( \\Gamma ( 2 ) , \\chi )"
+            },
+            {
+              "type": "text",
+              "content": "be the modular forms constructed in Theorem 3.2. By Theorem 3.1 for each integer � on the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 1 , \\dots , N ( d / 2 + \\deg ( p ) ) ]"
+            },
+            {
+              "type": "text",
+              "content": " we have the following linear relation between values of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g _ { p }"
+            },
+            {
+              "type": "text",
+              "content": ":"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.2661122661122661,
+            0.6676470588235294,
+            0.7276507276507277,
+            0.7147058823529412
+          ],
+          "image_path": "images/page_9_equation_13.jpg",
+          "content": "\\sum_ {n = 1} ^ {\\infty} g _ {p} (\\sqrt {n}) c _ {h _ {m}} (n) = \\sum_ {n = 1} ^ {\\infty} \\mathcal {F} _ {d + 2 \\deg (p)} (g _ {p}) (\\sqrt {n}) c _ {\\widetilde {h} _ {m}} (n)."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.7191176470588235,
+            0.5738045738045738,
+            0.736764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore for each point"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta"
+            },
+            {
+              "type": "text",
+              "content": "on the sphere �(1) we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.24740124740124741,
+            0.7426470588235294,
+            0.5738045738045738,
+            0.788235294117647
+          ],
+          "image_path": "images/page_9_equation_15.jpg",
+          "content": "\\sum_ {n = 1} ^ {\\infty} g _ {p} (\\sqrt {n}) p (\\sqrt {n} \\zeta) n ^ {\\frac {- \\deg (p)}{2}} c _ {h _ {m}} (n) ="
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.24740124740124741,
+            0.7911764705882353,
+            0.7484407484407485,
+            0.836764705882353
+          ],
+          "image_path": "images/page_9_equation_16.jpg",
+          "content": "(- i) ^ {\\deg (p)} \\sum_ {n = 1} ^ {\\infty} \\mathcal {F} _ {d + 2 \\deg (p)} (g _ {p}) (\\sqrt {n}) p (\\sqrt {n} \\zeta) n ^ {\\frac {- \\deg (p)}{2}} c _ {\\widetilde {h} _ {m}} (n)."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.8426470588235294,
+            0.29313929313929316,
+            0.8588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is equivalent to"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.1995841995841996,
+            0.8647058823529412,
+            0.7941787941787942,
+            0.9117647058823529
+          ],
+          "image_path": "images/page_9_equation_18.jpg",
+          "content": "\\sum_ {n = 1} ^ {\\infty} f _ {p} (\\sqrt {n} \\zeta) n ^ {\\frac {- \\deg (p)}{2}} c _ {h _ {m}} (n) = (- i) ^ {\\deg (p)} \\sum_ {n = 1} ^ {\\infty} \\widehat {f _ {p}} (\\sqrt {n} \\zeta) n ^ {\\frac {- \\deg (p)}{2}} c _ {\\widetilde {h} _ {m}} (n)."
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8773388773388774,
+            0.08970588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conditions (1) and (2) of Theorem 3.2 imply that for an integer � in the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 1 , N ( d / 2 +"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\deg ( p ) )"
+            },
+            {
+              "type": "text",
+              "content": "and a point"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta"
+            },
+            {
+              "type": "text",
+              "content": "on the sphere �(1)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.14760914760914762,
+            0.09558823529411764,
+            0.8461538461538461,
+            0.1411764705882353
+          ],
+          "image_path": "images/page_10_equation_1.jpg",
+          "content": "f _ {p} (\\sqrt {m} \\zeta) m ^ {\\frac {- \\deg (p)}{2}} = \\sum_ {n = 1} ^ {\\infty} \\left(f _ {p} (\\sqrt {n} \\zeta) c _ {h _ {m}} (n) + (- i) ^ {\\deg (p)} \\widehat {f _ {p}} (\\sqrt {n} \\zeta) c _ {\\widetilde {h} _ {m}} (n)\\right) n ^ {\\frac {- \\deg (p)}{2}}."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.14852941176470588,
+            0.8773388773388774,
+            0.18676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now condition (3) of Theorem 3.2 and the assumption that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "is an eigenfunction of the Fourier transform implies that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.12681912681912683,
+            0.19558823529411765,
+            0.8669438669438669,
+            0.23970588235294119
+          ],
+          "image_path": "images/page_10_equation_3.jpg",
+          "content": "\\left| f _ {p} (\\sqrt {m} \\zeta) m ^ {\\frac {- \\deg (p)}{2}} \\right| \\leq C \\sum_ {n = N (d / 2 + \\deg (p)) + 1} ^ {\\infty} \\left| f _ {p} (\\sqrt {n} \\zeta) \\right| n ^ {\\frac {- \\deg (p)}{2}} n ^ {\\frac {d}{4} + \\frac {\\deg (p)}{2} + \\alpha} m ^ {- \\frac {d}{4} - \\frac {\\deg (p)}{2} + \\alpha}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.27794117647058825,
+            0.8773388773388774,
+            0.31470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { \\alpha } : = \\alpha + d / 4"
+            },
+            {
+              "type": "text",
+              "content": ". For all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "and all positive integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\leq N ( \\deg ( p ) + d / 2 )"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3305613305613306,
+            0.31470588235294117,
+            0.6632016632016632,
+            0.36176470588235293
+          ],
+          "image_path": "images/page_10_equation_5.jpg",
+          "content": "\\phi_{p,m}\\leq C  m^{\\widetilde{\\alpha}}\\sum_{\\substack{n\\in \\mathbb{Z}\\\\ n > N(\\deg (p) + d / 2)}}n^{\\widetilde{\\alpha}}\\phi_{p,n}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.36911764705882355,
+            0.8794178794178794,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we are ready for the final step in the proof of Theorem 1.4. In particular, we will define the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D : \\mathbb { Z } _ { \\geq 1 } \\to R _ { \\geq 0 }"
+            },
+            {
+              "type": "text",
+              "content": ". We will show that for a suitable choice of � the growth condition of Theorem 2.1 combined with the inequalities of Lemmas 5.1 and 5.2 implies the vanishing of the numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\phi _ { p , n } ) _ { p \\in \\mathcal { B } , n \\in \\mathbb { Z } _ { \\geq 0 } }"
+            },
+            {
+              "type": "text",
+              "content": ". We search for the function � in the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.4365904365904366,
+            0.4573529411764706,
+            0.5592515592515592,
+            0.47794117647058826
+          ],
+          "image_path": "images/page_10_equation_7.jpg",
+          "content": "D (n) = \\widetilde {B} n ^ {\\widetilde {A}},"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.48970588235294116,
+            0.8773388773388774,
+            0.5308823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { A }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { B }"
+            },
+            {
+              "type": "text",
+              "content": "are positive numbers. For each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon \\in ( 0 , 1 / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "there exists a suficiently small positive number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3804573804573805,
+            0.5367647058823529,
+            0.6133056133056133,
+            0.5705882352941176
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "N (k, \\epsilon) \\geq b k, \\quad k \\in \\frac {1}{2} \\mathbb {Z} _ {\\geq 1}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.5779411764705882,
+            0.38253638253638256,
+            0.5955882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a polynomial"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "we set"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.41164241164241167,
+            0.6073529411764705,
+            0.58004158004158,
+            0.625
+          ],
+          "image_path": "images/page_10_equation_11.jpg",
+          "content": "\\mathcal {N} (p) := b \\deg (p)."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.638235294117647,
+            0.20374220374220375,
+            0.6558823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3804573804573805,
+            0.6588235294117647,
+            0.6133056133056133,
+            0.6779411764705883
+          ],
+          "image_path": "images/page_10_equation_13.jpg",
+          "content": "\\mathcal {N} (p) \\leq N (\\deg (p) + d / 2)."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.6897058823529412,
+            0.8731808731808732,
+            0.7279411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\gamma"
+            },
+            {
+              "type": "text",
+              "content": "be positive numbers (depending on dimension"
+            },
+            {
+              "type": "equation_inline",
+              "content": "d )"
+            },
+            {
+              "type": "text",
+              "content": "such that dim"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { m } \\le C ^ { \\prime } n ^ { \\gamma }"
+            },
+            {
+              "type": "text",
+              "content": " We will need the following technical statement."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11642411642411643,
+            0.7397058823529412,
+            0.7130977130977131,
+            0.7588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 5.3. For each dimension � we consider"
+            },
+            {
+              "type": "equation_inline",
+              "content": "D ( n ) : = 2 \\widetilde { B } n ^ { \\widetilde { A } }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.28482328482328484,
+            0.7647058823529411,
+            0.7110187110187111,
+            0.8
+          ],
+          "image_path": "images/page_10_equation_16.jpg",
+          "content": "\\widetilde {B} > 2 \\max (b + \\frac {1}{b}, \\frac {C C ^ {\\prime}}{b ^ {\\beta + \\gamma + 1}}), \\quad \\widetilde {A} = 2 \\widetilde {\\alpha} + \\beta + \\gamma + 2."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.8058823529411765,
+            0.1683991683991684,
+            0.8205882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.18711018711018712,
+            0.8352941176470589,
+            0.8773388773388774,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1) for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p , q \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } _ { \\geq 1 }"
+            },
+            {
+              "type": "text",
+              "content": "the conditions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq N ( p )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\deg ( q ) \\geq D ( n ) - \\deg ( p )"
+            },
+            {
+              "type": "text",
+              "content": " imply"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leq N ( q )"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.18711018711018712,
+            0.05,
+            0.7671517671517671,
+            0.06764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(2) for all positive integers � and all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "q \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\geq N ( q )"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.35550935550935553,
+            0.075,
+            0.7255717255717256,
+            0.13823529411764707
+          ],
+          "image_path": "images/page_11_equation_1.jpg",
+          "content": "\\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1},p\\in \\mathcal{B}:\\\\ n\\geq \\mathcal{N}(p)\\\\ D(n) - \\deg (p)\\leq \\deg (q)}}C\\cdot \\deg (p)^{\\beta}\\cdot n^{2\\widetilde{\\alpha} +1} <   m."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.14558823529411766,
+            0.8773388773388774,
+            0.18676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Part (1) of the lemma follows immediately from our choice of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { A }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\widetilde { B } } ."
+            },
+            {
+              "type": "text",
+              "content": "We rewrite the sum in the part (2) in the following way"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.27234927234927236,
+            0.19264705882352942,
+            0.7234927234927235,
+            0.3205882352941177
+          ],
+          "image_path": "images/page_11_equation_3.jpg",
+          "content": "\\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1}, p\\in \\mathcal{B}:\\\\ n\\geq \\mathcal{N}(p)\\\\ D(n) - \\deg (p)\\leq \\deg (q)}}C\\cdot \\deg (p)^{\\beta}\\cdot n^{2\\widetilde{\\alpha} +1}\\leq \\\\ \\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1}\\\\ D(n) - \\frac{n}{b}\\leq \\deg (q)}}\\sum_{\\substack{p\\in \\mathcal{B}:\\\\ \\deg (p)\\leq \\frac{n}{b}\\\\ \\deg (p)\\geq D(n) - \\deg (q)}}C\\cdot \\deg (p)^{\\beta}\\cdot n^{2\\widetilde{\\alpha} +1}."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.32941176470588235,
+            0.7255717255717256,
+            0.34852941176470587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we use that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { D ( n ) - \\frac { n } { b } \\geq \\widetilde { B } n ^ { \\widetilde { A } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "and estimate the above expression by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.2869022869022869,
+            0.3558823529411765,
+            0.7089397089397089,
+            0.41911764705882354
+          ],
+          "image_path": "images/page_11_equation_5.jpg",
+          "content": "\\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1}\\\\ \\widetilde{B}  n^{\\widetilde{A}}\\leq \\deg (q)}}\\sum_{\\substack{p\\in \\mathcal{B}:\\\\ \\deg (p)\\leq \\frac{n}{b}\\\\ \\deg (p)\\geq D(n) - \\deg (q)}}C\\cdot \\deg (p)^{\\beta}\\cdot n^{2\\widetilde{\\alpha} +1}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.425,
+            0.8773388773388774,
+            0.4632352941176471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Next we use the fact that the dimension of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } _ { \\mathrm { d e g } ( p ) }"
+            },
+            {
+              "type": "text",
+              "content": "is bounded by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ^ { \\prime } \\deg ( p ) ^ { \\gamma }"
+            },
+            {
+              "type": "text",
+              "content": "and bound the sum in part (2) by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.32224532224532226,
+            0.4602941176470588,
+            0.6735966735966736,
+            0.5161764705882353
+          ],
+          "image_path": "images/page_11_equation_7.jpg",
+          "content": "\\leq \\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1}\\\\ \\widetilde{B}  n^{\\widetilde{A}}\\leq \\frac{m}{b}}}\\sum_{\\substack{s\\in \\mathbb{Z}_{\\geq 1}:\\\\ D(n) - \\frac{m}{b}\\leq s\\leq \\frac{n}{b}}}C  C^{\\prime}  s^{\\beta +\\gamma}\\cdot n^{2\\widetilde{\\alpha} +1}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.5235294117647059,
+            0.3388773388773389,
+            0.5397058823529411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This sum does not exceed"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.34511434511434513,
+            0.5426470588235294,
+            0.6486486486486487,
+            0.6147058823529412
+          ],
+          "image_path": "images/page_11_equation_9.jpg",
+          "content": "\\sum_{\\substack{n\\in \\mathbb{Z}_{\\geq 1}\\\\ n\\leq \\left(\\frac{m}{b\\widetilde{B}}\\right)^{1 / \\widetilde{A}}}}C  C^{\\prime}\\left(\\frac{1}{b}\\right)\\left(\\frac{1}{b}\\right)^{\\beta +\\gamma}n^{2\\widetilde{\\alpha} +1}."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.6235294117647059,
+            0.8773388773388774,
+            0.6897058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, we crudely estimate each term ofthis sum by substituting"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { n \\mapsto \\left( \\frac { m } { b \\widetilde { B } } \\right) ^ { 1 / \\widetilde { A } } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": "and bounding the number of terms by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\frac { m } { b \\widetilde { B } } \\right) ^ { 1 / \\widetilde { A } }"
+            },
+            {
+              "type": "text",
+              "content": ". This gives us an upper bound"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.40540540540540543,
+            0.6955882352941176,
+            0.5883575883575883,
+            0.7426470588235294
+          ],
+          "image_path": "images/page_11_equation_11.jpg",
+          "content": "\\frac {C C ^ {\\prime}}{b ^ {\\beta + \\gamma}} \\left(\\frac {m}{b \\widetilde {B}}\\right) ^ {\\frac {2 \\widetilde {\\alpha} + \\beta + \\gamma + 2}{\\widetilde {A}}}."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.75,
+            0.8794178794178794,
+            0.788235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now our choice of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { A }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { B }"
+            },
+            {
+              "type": "text",
+              "content": "guarantees that the sum in the part (2) of the lemma is less then �."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.18503118503118504,
+            0.8014705882352942,
+            0.7047817047817048,
+            0.8205882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f : \\mathbb { R } ^ { d }  \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": "is a Schwartz function that satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.367983367983368,
+            0.8294117647058824,
+            0.6257796257796258,
+            0.8514705882352941
+          ],
+          "image_path": "images/page_11_equation_14.jpg",
+          "content": "f \\mid_ {X} \\equiv 0 \\qquad \\text { and } \\qquad \\widehat {f} \\mid_ {X} \\equiv 0.\\tag{5.3}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11642411642411643,
+            0.861764705882353,
+            0.38461538461538464,
+            0.8794117647058823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } _ { \\geq 1 }"
+            },
+            {
+              "type": "text",
+              "content": "we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.40124740124740127,
+            0.888235294117647,
+            0.5925155925155925,
+            0.9117647058823529
+          ],
+          "image_path": "images/page_11_equation_16.jpg",
+          "content": "f \\mid_ {\\sqrt {n} X _ {n}} = \\widehat {f} \\mid_ {\\sqrt {n} X _ {n}} = 0."
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.14137214137214138,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8586278586278586,
+            0.06764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Without loss of generality we assume that � is an eigenfunction of the Fourier transform."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.18711018711018712,
+            0.07058823529411765,
+            0.34303534303534305,
+            0.08676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the sum"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.41164241164241167,
+            0.08676470588235294,
+            0.5841995841995842,
+            0.13676470588235295
+          ],
+          "image_path": "images/page_12_equation_2.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B}, n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}\\phi_{p,n}n^{\\widetilde{\\alpha} +1}.\\tag{5.4}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.1411764705882353,
+            0.7650727650727651,
+            0.1588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Theorem 2.1 this sum of non-negative numbers converges to a finite limit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.16176470588235295,
+            0.8773388773388774,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose that a Schwartz function � satisfies vanishing conditions (5.3) and is an eigenfunction of the Fourier transform. Then by Lemma 5.1 we can estimate the sum (5.4)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.19126819126819128,
+            0.20588235294117646,
+            0.8024948024948025,
+            0.25588235294117645
+          ],
+          "image_path": "images/page_12_equation_5.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}\\phi_{p,n}  n^{\\widetilde{\\alpha} +1}\\leq \\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}n^{\\widetilde{\\alpha} +1}  C  \\deg (p)^{\\beta}\\cdot \\sum_{\\substack{q\\in \\mathcal{B}:\\\\ \\deg (q) > D(n) - \\deg (p)}}\\phi_{q,n}."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.26176470588235295,
+            0.8773388773388774,
+            0.3029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have chosen the numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { A }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { B }"
+            },
+            {
+              "type": "text",
+              "content": "so that the conditions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq N ( p )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\deg ( q ) \\geq D ( n ) -"
+            },
+            {
+              "type": "text",
+              "content": " deg(�) imply"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leq N ( q )"
+            },
+            {
+              "type": "text",
+              "content": ". We apply Lemma 5.2 and estimate"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.12474012474012475,
+            0.3058823529411765,
+            0.8690228690228691,
+            0.3573529411764706
+          ],
+          "image_path": "images/page_12_equation_7.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}\\phi_{p,n}  n^{\\widetilde{\\alpha} +1}\\leq \\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}n^{\\widetilde{\\alpha} +1}  C  \\deg (p)^{\\beta}\\cdot \\\\ \\sum_{\\substack{q\\in \\mathcal{B}:\\\\ \\deg (q) > D(n) - \\deg (p)}}\\sum_{\\substack{m\\in \\mathbb{Z}:\\\\ m\\geq \\mathcal{N}(q))}}m^{\\widetilde{\\alpha}}  n^{\\widetilde{\\alpha}}  \\phi_{q,m}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.36176470588235293,
+            0.8773388773388774,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here � is a new constant and it is equal to the product of the constant � from Lemma 5.1 and the constant � from Lemma 5.2. We change the order of summation and arrive at"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.17671517671517672,
+            0.40294117647058825,
+            0.8191268191268192,
+            0.4647058823529412
+          ],
+          "image_path": "images/page_12_equation_9.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}\\phi_{p,n}  n^{\\widetilde{\\alpha} +1}\\leq \\sum_{\\substack{m\\in \\mathbb{Z},q\\in \\mathcal{B}:\\\\ m\\geq \\mathcal{N}(q))}}m^{\\widetilde{\\alpha}}  \\phi_{q,m}\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)\\\\ D(n) - \\deg (p)\\leq \\deg (q)}}C  n^{2\\widetilde{\\alpha} +1}  \\deg (p)^{\\beta}."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.46911764705882353,
+            0.7234927234927235,
+            0.48676470588235293
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By Lemma 5.3 the inner sum on the right side of this inequality satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.32224532224532226,
+            0.49264705882352944,
+            0.6735966735966736,
+            0.5558823529411765
+          ],
+          "image_path": "images/page_12_equation_11.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq N(p)\\\\ D(n) - \\deg (p)\\leq \\deg (q)}}C  n^{2\\widetilde{\\alpha} +1}\\deg (p)^{\\beta} <   m."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11642411642411643,
+            0.5588235294117647,
+            0.8773388773388774,
+            0.5970588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This inequality is guaranteed by our choice of function �. Suppose that the non-negative numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\phi _ { q , m } ) _ { m \\in \\mathbb { Z } , q \\in \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": "are not all zero. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.3180873180873181,
+            0.6102941176470589,
+            0.6777546777546778,
+            0.6617647058823529
+          ],
+          "image_path": "images/page_12_equation_13.jpg",
+          "content": "\\sum_{\\substack{p\\in \\mathcal{B},n\\in \\mathbb{Z}:\\\\ n\\geq \\mathcal{N}(p)}}\\phi_{p,n}  n^{\\widetilde{\\alpha} +1} <   \\sum_{\\substack{q\\in \\mathcal{B},m\\in \\mathbb{Z}:\\\\ m\\geq \\mathcal{N}(q)}}\\phi_{q,m}  m^{\\widetilde{\\alpha} +1}."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11642411642411643,
+            0.6661764705882353,
+            0.8794178794178794,
+            0.7676470588235295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is a contradiction. Therefore, our assumptions on the Schwartz function � imply that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { q , m } = 0"
+            },
+            {
+              "type": "text",
+              "content": "whenever"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\geq N ( q )"
+            },
+            {
+              "type": "text",
+              "content": ". Moreover, Lemma 5.2 implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { q , n } = 0"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "q \\in { \\mathcal { B } }"
+            },
+            {
+              "type": "text",
+              "content": " and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { Z } \\geq 0"
+            },
+            {
+              "type": "text",
+              "content": ". Finally, we deduce from Theorem 1.2 that for all harmonic polynomials � in the basis B the functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { p }"
+            },
+            {
+              "type": "text",
+              "content": "in the decomposition (2.1) of the Schwartz function � vanish. Therefore, � is also identically zero. This finishes the proof of Theorem 1.4. □."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.18711018711018712,
+            0.788235294117647,
+            0.367983367983368,
+            0.8058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Acknowledgments"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11642411642411643,
+            0.8088235294117647,
+            0.8191268191268192,
+            0.8485294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I thank Martin Stoller and Joao Ramos for fruitful discussions and comments on the manuscript."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.18711018711018712,
+            0.8705882352941177,
+            0.27234927234927236,
+            0.888235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Funding"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.11642411642411643,
+            0.8911764705882353,
+            0.45322245322245325,
+            0.9088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The author is supported by SNSF grant."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.5571725571725572,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On discrete Fourier uniqueness sets in Euclidean space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.1891891891891892,
+            0.05,
+            0.30145530145530147,
+            0.06764705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.11850311850311851,
+            0.07058823529411765,
+            0.8752598752598753,
+            0.16911764705882354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[1]Gradshteyn, Izrail Solomonovich; Ryzhik, Iosif Moiseevich; Geronimus, Yuri Veniaminovich; Tseytlin, Michail Yulyevich; Jefrey, Alan (2015) [October 2014]. \"8.411.10.\". In Zwillinger, Daniel; Moll, Victor Hugo (eds.). Table of Integrals, Series, and Products. Translated by Scripta Technica, Inc. (8 ed.). Academic Press, Inc. ISBN 978-0-12-384933-5. LCCN 2014010276."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.11850311850311851,
+            0.17352941176470588,
+            0.8711018711018711,
+            0.21029411764705883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[2]H. Iwaniec, Topics in classical authomorphic forms. Providence: American Math ematical Society, 1997."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.12058212058212059,
+            0.21470588235294116,
+            0.8336798336798337,
+            0.2514705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[3]D. Radchenko, M. Viazovska, Fourier interpolation on the real line, preprint, 2017, arXiv:1701.00265"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.12058212058212059,
+            0.25588235294117645,
+            0.8295218295218295,
+            0.2926470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[4]M. Stoller, Fourier interpolationfrom spheres. Transactions ofthe American Mathematical Society (2021): 374(11), pp. 8045–8079."
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.12058212058212059,
+            0.29558823529411765,
+            0.8731808731808732,
+            0.35294117647058826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[5]M. Stoller, J. P. G. Ramos, Perturbed Fourier uniqueness and interpolation results in higher dimensions, Journal of Functional Analysis (2022), Volume 282, Issue 12, 109448"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.18711018711018712,
+            0.3985294117647059,
+            0.36382536382536385,
+            0.4161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.41911764705882354,
+            0.8378378378378378,
+            0.4588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Institute of Mathematics, Ecole Polytechnique Federale de Lausanne, Lausanne, 1015, Switzerland, maryna.viazoivska@epfl.ch"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.31392931392931395,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maryna Viazovska"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

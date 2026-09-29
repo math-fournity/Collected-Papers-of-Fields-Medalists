@@ -1,0 +1,4938 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8523908523908524,
+            0.09264705882352942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.10735294117647058,
+            0.446985446985447,
+            0.1338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Kannan Soundararajan"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.11850311850311851,
+            0.7058823529411765,
+            0.2079002079002079,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Abstract"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11434511434511435,
+            0.7279411764705882,
+            0.8752598752598753,
+            0.7676470588235295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We give a brief account of some of the most spectacular results established by James Maynard, for which he has been awarded the Fields Medal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.7779411764705882,
+            0.5426195426195426,
+            0.8176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mathematics Subject Classification 2020 Primary 11N05; Secondary 11N32, 11N35, 11J83"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.8294117647058824,
+            0.7297297297297297,
+            0.8705882352941177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Keywords distribution of primes, sieve methods, metric Diophantine approximation"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.9117647058823529,
+            0.24116424116424118,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ICM"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.24532224532224534,
+            0.9117647058823529,
+            0.446985446985447,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "INTERNATIONAL CONGRESS OE MATHEMATTCIANS 2022 JULY 6-14"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.4698544698544699,
+            0.9117647058823529,
+            0.8274428274428275,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "© 2022 International Mathematical Union Preliminary version, to appear in Proc. Int. Cong. Math. 2022, Vol. 1 DOL10.4171/ICM2022/212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8794178794178794,
+            0.13088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "James Maynard has established several spectacular results in analytic number theory. While the proofs of these results involve many deep ideas, their statements are remarkable for their simplicity and elegance. To illustrate, we state two such striking results of Maynard concerning prime numbers, before setting them in context."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.1426470588235294,
+            0.8794178794178794,
+            0.20294117647058824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1. (Maynard [32]) For each natural number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\geq 2 ,"
+            },
+            {
+              "type": "text",
+              "content": ", there exists a positive integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( m )"
+            },
+            {
+              "type": "text",
+              "content": "with thefollowing property: There are infinitely many natural numbers � such that the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ n , n + C ( m ) ]"
+            },
+            {
+              "type": "text",
+              "content": "contains at least � prime numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.21470588235294116,
+            0.8773388773388774,
+            0.2529411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2. (Maynard [36]) There are infinitely many prime numbers � whose decimal rep resentation does not contain the digit 7."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.2661764705882353,
+            0.8794178794178794,
+            0.3058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Background. To place these results in context, recall that the prime number theorem give an asymptotic for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( x )"
+            },
+            {
+              "type": "text",
+              "content": ", the number of primes below �; namely,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.3866943866943867,
+            0.31029411764705883,
+            0.6070686070686071,
+            0.34852941176470587
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "\\pi (x) \\sim \\operatorname{li} (x) = \\int_ {0} ^ {x} \\frac {d t}{\\log t}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.35294117647058826,
+            0.8794178794178794,
+            0.5367647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We may think of this asymptotic as roughly saying that the “chance\" of a number � being prime is about 1/log �. One overarching theme in analytic number theory may be formulated as asking in what ways does the sequence of primes resemble, or difer from, a random sequence of integers with each integer"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 3"
+            },
+            {
+              "type": "text",
+              "content": "chosen independently to be in the random sequence with probability"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / \\log n"
+            },
+            {
+              "type": "text",
+              "content": "(this is also known as the Cramér model). One obvious diference is that all primes larger than 2 must be odd, whereas a random sequence would surely contain many even numbers. But if we could account for divisibility by small primes (such as 2 in our example), would a modified random model describe accurately the behavior of prime numbers?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.5397058823529411,
+            0.8794178794178794,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are many ways in which we could try to make this theme precise. For instance, the Riemann hypothesis predicts that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\pi ( x ) - \\operatorname { l i } ( x ) |"
+            },
+            {
+              "type": "text",
+              "content": "is bounded by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\epsilon ) x ^ { { \\frac { 1 } { 2 } } + \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": "for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": " and some constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\epsilon )"
+            },
+            {
+              "type": "text",
+              "content": ". Fluctuations of size about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { x }"
+            },
+            {
+              "type": "text",
+              "content": "are indeed what one would expect if we select random sets of integers with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 3"
+            },
+            {
+              "type": "text",
+              "content": "included in the set with probability"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / \\log n"
+            },
+            {
+              "type": "text",
+              "content": " Thus the Riemann hypothesis is, at a crude level, consistent with a random model of primes, although if we inspect the error term"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( x ) - \\operatorname { l i } ( x )"
+            },
+            {
+              "type": "text",
+              "content": "in finer detail then the influence of zeros of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\zeta ( s )"
+            },
+            {
+              "type": "text",
+              "content": "would be visible, and such features would deviate (in small but significant ways) from the random model."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11434511434511435,
+            0.7029411764705882,
+            0.8814968814968815,
+            0.9058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "At the 1912 ICM, Landau posed four “unattackable\" problems on primes: (i) the Goldbach problem that every even integer larger than 2 is the sum of two primes, (ii) the twin prime problem that there are infinitely many prime pairs � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2 ."
+            },
+            {
+              "type": "text",
+              "content": ", (iii) there is always a prime between two consecutive squares, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\mathrm { i v } )"
+            },
+            {
+              "type": "text",
+              "content": "there are infinitely many primes of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + 1"
+            },
+            {
+              "type": "text",
+              "content": ". All four problems remain open today, and all statements are exactly what one would expect for random sequences. For example, the Cramér model would suggest that the chance that � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2"
+            },
+            {
+              "type": "text",
+              "content": "are both “prime\" is about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / \\log n \\times 1 / \\log ( n + 2 )"
+            },
+            {
+              "type": "text",
+              "content": ", which would predict about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / ( \\log x ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "twin primes up to �. Of course some care is needed, since the same prediction could be made for � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 1"
+            },
+            {
+              "type": "text",
+              "content": "being prime, and we will address this soon. Similarly, we may expect that an even number � may have about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N / ( \\log N ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "representations as a sum of two"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8773388773388774,
+            0.08823529411764706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "primes, making the Goldbach conjecture very plausible, and related arguments suggest the last two Landau problems as well."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.09117647058823529,
+            0.8794178794178794,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the third Landau problem on the number of primes between"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n + 1 ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", the random model already predicts what we believe to be the right answer — namely, there should be about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 n + 1 ) / \\log ( n ^ { 2 } ) \\approx n / \\log n"
+            },
+            {
+              "type": "text",
+              "content": "primes in this interval. For the other three problems, some modification must be made to the Cramér model, to take into account the deterministic features of these problems with respect to divisibility by small primes. Precise conjectures for these problems were first made by Hardy and Littlewood motivated by their work on the circle method. These conjectures are widely believed to be true, and are supported by extensive heuristic and numerical evidence. For instance, Hardy and Littlewood formulated the following conjecture for the number of twin primes below �:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2494802494802495,
+            0.27941176470588236,
+            0.7442827442827443,
+            0.3176470588235294
+          ],
+          "image_path": "images/page_2_equation_2.jpg",
+          "content": "\\# \\{n \\leq x: n, n + 2 \\text {   both   prime   } \\} \\sim \\mathfrak {S} (\\{0, 2 \\}) \\int_ {2} ^ {x} \\frac {d t}{(\\log t) ^ {2}}."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.325,
+            0.8773388773388774,
+            0.36617647058823527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\int _ { 2 } ^ { x } d t / ( \\log t ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "is asymptotically"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x / ( \\log x ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", and corresponds to the prediction of the Cramér model, while"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\{ 0 , 2 \\} )"
+            },
+            {
+              "type": "text",
+              "content": ", known as the singular series, is a correction factor"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.288981288981289,
+            0.37058823529411766,
+            0.7068607068607069,
+            0.4147058823529412
+          ],
+          "image_path": "images/page_2_equation_4.jpg",
+          "content": "\\mathfrak {S} (\\{0, 2 \\}) = 2 \\prod_ {p \\geq 3} \\left(1 - \\frac {2}{p}\\right) \\left(1 - \\frac {1}{p}\\right) ^ {- 2} = 1. 3 2 \\dots ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.42058823529411765,
+            0.8794178794178794,
+            0.6058823529411764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\{ 0 , 2 \\} )"
+            },
+            {
+              "type": "text",
+              "content": "has a compelling probabilistic interpretation: it is a product over all primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "(the first factor 2 corresponds to the prime"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 2 )"
+            },
+            {
+              "type": "text",
+              "content": "), with the factor at"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "keeping track of the ratio between the chance that � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2"
+            },
+            {
+              "type": "text",
+              "content": "are not divisible by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ,"
+            },
+            {
+              "type": "text",
+              "content": ", and the chance that two random numbers are not divisible by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ."
+            },
+            {
+              "type": "text",
+              "content": ". Thus, for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 2"
+            },
+            {
+              "type": "text",
+              "content": ", the chance that � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2"
+            },
+            {
+              "type": "text",
+              "content": " are both not divisible by 2 is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - 1 / 2 )"
+            },
+            {
+              "type": "text",
+              "content": "(� must be odd), while the chance that two random numbers are both not divisible by 2 is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - 1 / 2 ) ^ { 2 } = 1 / 4 \\AA"
+            },
+            {
+              "type": "text",
+              "content": "; the ratio of these chances gives the correction factor 2. For primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\geq 3"
+            },
+            {
+              "type": "text",
+              "content": ", the chance that � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2"
+            },
+            {
+              "type": "text",
+              "content": "are both not divisible by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - 2 / p )"
+            },
+            {
+              "type": "text",
+              "content": "whereas the chance that two random numbers are both not divisible by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - 1 / p ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", and we see the corresponding correction factor in the definition of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\{ 0 , 2 \\} )"
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11434511434511435,
+            0.6073529411764705,
+            0.8794178794178794,
+            0.7279411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similar conjectures can be made for the binary Goldbach problem, or for the number of primes of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + 1"
+            },
+            {
+              "type": "text",
+              "content": ", modifying and correcting the naive predictions of the Cramér model. To illustrate, we give a generalization of the conjecture for twin primes for counting prime �-tuples: given distinct integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , h _ { 2 } , . . . , h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": ", for large � how many integer"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\leq x"
+            },
+            {
+              "type": "text",
+              "content": "are there with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "all being prime. Here the Hardy–Littlewood conjecture predicts that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.18503118503118504,
+            0.7308823529411764,
+            0.8066528066528067,
+            0.7676470588235295
+          ],
+          "image_path": "images/page_2_equation_7.jpg",
+          "content": "\\# \\{n \\leq x: n + h _ {1}, \\dots , n + h _ {k} \\text {   all   prime   } \\} \\sim \\mathfrak {S} (\\{h _ {1}, \\dots , h _ {k} \\}) \\int_ {2} ^ {x} \\frac {d t}{(\\log t) ^ {k}}\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.775,
+            0.3804573804573805,
+            0.7926470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where, with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\{ h _ { 1 } , \\ldots , h _ { k } \\}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.3284823284823285,
+            0.7970588235294118,
+            0.6673596673596673,
+            0.8397058823529412
+          ],
+          "image_path": "images/page_2_equation_9.jpg",
+          "content": "\\mathfrak {S} (\\mathcal {H}) = \\prod_ {p} \\left(1 - \\frac {\\nu (\\mathcal {H} , p)}{p}\\right) \\left(1 - \\frac {1}{p}\\right) ^ {- k},\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11642411642411643,
+            0.8485294117647059,
+            0.8773388773388774,
+            0.9073529411764706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu ( \\mathcal { H } , p )"
+            },
+            {
+              "type": "text",
+              "content": "denotes the number of distinct residue classes occupied by the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            },
+            {
+              "type": "text",
+              "content": "viewed mod"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ."
+            },
+            {
+              "type": "text",
+              "content": ". Since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu ( \\mathcal { H } , p ) = k"
+            },
+            {
+              "type": "text",
+              "content": "if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "is larger than max"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| h _ { i } - h _ { j } |"
+            },
+            {
+              "type": "text",
+              "content": ", the product defining"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": " converges absolutely to a non-negative real number, and it equals zero only if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu ( \\mathcal { H } , p ) ="
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8794178794178794,
+            0.19264705882352942
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "for some prime"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ". If"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu ( \\mathcal { H } , p ) = p"
+            },
+            {
+              "type": "text",
+              "content": ", then for any integer � at least one of the numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , \\ldots , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "would be a multiple of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { : }"
+            },
+            {
+              "type": "text",
+              "content": ", and therefore there can be only finitely many integers � with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "all being prime; for example this is what happens if we ask for � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 1"
+            },
+            {
+              "type": "text",
+              "content": "to be prime, or"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , n + 2 , n + 4"
+            },
+            {
+              "type": "text",
+              "content": "all to be prime. When there is no such divisibility obstruction to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "all being prime, the Hardy–Littlewood conjecture predicts a rich supply of such prime �-tuples. This is perhaps the most central question in prime number theory, and remains open in any situation where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": "is non-zero."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.20588235294117646,
+            0.8794178794178794,
+            0.48970588235294116
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Sieve theory. We have described quickly some of the main motivating questions in the theory of primes. One main source of progress towards these questions is sieve theory, and a large part of Maynard’s work lies broadly in this area. A typical problem in sieve theory is to bound the size of sets of integers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A }"
+            },
+            {
+              "type": "text",
+              "content": "whose elements are constrained to omit"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu ( p )"
+            },
+            {
+              "type": "text",
+              "content": "given residue classes mod"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "for primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": ". For instance the twin prime problem is of this form, as we seek to find integers � that are neither 0 nor −2 mod"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "for all primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\leq { \\sqrt { n + 2 } }"
+            },
+            {
+              "type": "text",
+              "content": "(so that � and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + 2"
+            },
+            {
+              "type": "text",
+              "content": "would both be prime). In great generality sieve methods can produce upper bounds of the conjectured order of magnitude; for example, one can show that the number of twin primes up to � is no more that 4 times the conjectured Hardy–Littlewood asymptotic. Producing corresponding lower bounds has proved to be a much harder problem, but sieve methods have led to striking partial results such as Chen’s theorem that there are many primes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "for which"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p + 2"
+            },
+            {
+              "type": "text",
+              "content": "has at most two prime factors, or Iwaniec’s theorem that there are many � for which"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + 1"
+            },
+            {
+              "type": "text",
+              "content": "has at most two prime factors. For a comprehensive treatment of the subject, see [14]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.49264705882352944,
+            0.8814968814968815,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chen’s theorem and Iwaniec’s theorem exhibit a limitation of traditional sieve methods, known as the parity problem, which often prevents us from knowing the parity of elements left unsieved, and thus from producing prime numbers. But in some special cases, sieve methods in conjunction with other analytic input have produced prime numbers. For instance, for large � Baker, Harman, and Pintz [2] showed that the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ x , x + x ^ { \\theta } ]"
+            },
+            {
+              "type": "text",
+              "content": "contains at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c x ^ { \\theta } ,"
+            },
+            {
+              "type": "text",
+              "content": "/log � primes, where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c > 0"
+            },
+            {
+              "type": "text",
+              "content": "is a constant and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta = 0 . 5 2 5"
+            },
+            {
+              "type": "text",
+              "content": "; the Landau problem of producing primes between consecutive squares corresponds to intervals with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\theta = \\frac { 1 } { 2 } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ". Another spectacular example is due to Friedlander and Iwaniec [13] who established an asymptotic formula for the number of primes up to � that may be written as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + m ^ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": ", an approximation to the Landau problem of primes of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + 1"
+            },
+            {
+              "type": "text",
+              "content": ". A closely related result of Heath-Brown and Li [25] produces an asymptotic formula for primes of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 2 } + p ^ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": "is prime. Yet another beautiful result due to Heath-Brown [24] establishes an asymptotic formula for the number of primes below � of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 3 } + 2 m ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": "with �,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in \\mathbb { N }"
+            },
+            {
+              "type": "text",
+              "content": ". Heath-Brown’s result may be viewed as an approximation to the problem of producing primes of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 3 } + 2"
+            },
+            {
+              "type": "text",
+              "content": ", but before his work it was not even known if there are infinitely many primes that are the sum of three cubes of natural numbers! A crucial feature of these results is that they deal with primes represented by specializations of norm forms. The Friedlander–Iwaniec result is concerned with the norm form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + y ^ { 2 } = N ( x + i y )"
+            },
+            {
+              "type": "text",
+              "content": "associated to the field"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ( i )"
+            },
+            {
+              "type": "text",
+              "content": ", and specializing to be a square; Heath-Brown’s result is concerned with the norm form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ( x + y \\alpha + z \\alpha ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": "taking the norm over the field"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha = 2 ^ { \\frac { 1 } { 3 } }"
+            },
+            {
+              "type": "text",
+              "content": ", and specializing to be 0. The results of Friedlander–"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 3,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 4,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.3076923076923077,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8794178794178794,
+            0.13088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Iwaniec and Heath-Brown gave the first examples of thin sequences (in the sense that the number of integers below � in the sequence"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { i } \\mathbf { s } \\leq X ^ { 1 - \\delta }"
+            },
+            {
+              "type": "text",
+              "content": "for some"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta > 0 )"
+            },
+            {
+              "type": "text",
+              "content": "of polynomial values in two or more variables that represent infinitely many primes; no example is known of a polynomial in 1 variable of degree more than 1 that represents infinitely many primes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.1323529411764706,
+            0.8794178794178794,
+            0.33676470588235297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maynard’s work [40] gives a substantial generalization of Heath-Brown’s approach, and produces many further examples of thin sequences of polynomial values in many variables that represent primes. Consider an algebraic number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\omega \\in \\mathbb C"
+            },
+            {
+              "type": "text",
+              "content": "of degree �, and let � denote the field"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ( \\omega )"
+            },
+            {
+              "type": "text",
+              "content": ". We can associate to this the norm form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { N ( \\sum _ { i = 1 } ^ { n } x _ { i } \\omega ^ { i - 1 } ) } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", which is a homogeneous polynomial of degree � in the variables"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , . . . . , x _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". A thin polynomial in many variables would be obtained by specializing some of the variables in this norm form to be zero; say, we set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { n - k + 1 } , . . . , x _ { n } = 0"
+            },
+            {
+              "type": "text",
+              "content": ", and the number integers below � represented by such an incomplete norm form would be about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 1 - k / n }"
+            },
+            {
+              "type": "text",
+              "content": ". In the range"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 4 k"
+            },
+            {
+              "type": "text",
+              "content": ", Maynard establishes an asymptotic formula for the number of primes represented by such an incomplete norm form, when the variables"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 1 } , . . . . . x _ { n - k }"
+            },
+            {
+              "type": "text",
+              "content": "take integer values in the range [1, �]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.34852941176470587,
+            0.8794178794178794,
+            0.4485294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The circle method. Apart from sieve theory, another important source of progress towards problems on primes is the circle method, which as we already mentioned formed the original motivation for Hardy and Littlewood in formulating their conjectures. To illustrate, consider the Goldbach problem of representing an even integer � as a sum of two primes. Using Fourier analysis, the number of such representations of � may be written as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.2079002079002079,
+            0.45294117647058824,
+            0.7858627858627859,
+            0.49558823529411766
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "r (N) = \\int_ {0} ^ {1} S (\\alpha) ^ {2} e ^ {- 2 \\pi i N \\alpha} d \\alpha , \\quad \\text { where } \\quad S (\\alpha) = \\sum_ {p \\leq N} e ^ {2 \\pi i p \\alpha}.\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.5029411764705882,
+            0.8794178794178794,
+            0.5602941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The idea in the circle method is that generating functions such as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "above tend to be large near rational numbers with small denominator (the major arcs) and small away from them (the minor arcs)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.5647058823529412,
+            0.8814968814968815,
+            0.8088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While the circle method has not been able to tackle the binary Goldbach problem or the problem of twin primes, it has been extremely efective in problems where there is a bit more freedom. For instance, the ternary Goldbach problem asks to represent odd numbers as a sum of three primes, and there is one extra variable to play with here. Vinogradov famously used the circle method to show that all large odd numbers are the sum of three primes, and Helfgott [26] has extended this to show that all odd numbers larger than 5 may be so represented. Here we may mention an impressive result of Matomäki, Maynard, and Shao [30] which shows that large odd numbers � may be expressed as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { 1 } + p _ { 2 } + p _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": ", where all three primes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "lie in a short interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ n / 3 - n ^ { \\theta } , n / 3 + n ^ { \\theta } ]"
+            },
+            {
+              "type": "text",
+              "content": "for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\theta > 1 1 / 2 0"
+            },
+            {
+              "type": "text",
+              "content": ". We mentioned earlier the work of Baker, Harman and Pintz [2] showing the existence of primes in short intervals"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ x , x + x ^ { 0 . 5 2 5 } ]"
+            },
+            {
+              "type": "text",
+              "content": ", and the work of [30] is remarkable in solving the ternary Goldbach problem using primes in only slightly longer intervals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.8102941176470588,
+            0.8794178794178794,
+            0.9102941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A second example of what it might mean to have an extra degree of freedom is the Green–Tao theorem that the primes contain arbitrarily long arithmetic progressions �, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + d , . . . , n + ( k - 1 ) d"
+            },
+            {
+              "type": "text",
+              "content": ". The Hardy–Littlewood conjecture would predict a stronger “one dimensional” version of such a result with specified choices for the common diference �; for instance, there should be infinitely many �-tuples primes of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , n + k ! , n + 2 \\cdot k !"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8794178794178794,
+            0.11029411764705882
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\ldots . . . , n + ( k - 1 ) \\cdot k !"
+            },
+            {
+              "type": "text",
+              "content": ". The work of Green, Tao, and Ziegler [19–21] may be thought of as a farreaching generalization of the circle method, obtaining asymptotic formulae for the number of prime solutions to linear systems with at “least two degrees of freedom.”"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.11176470588235295,
+            0.8794178794178794,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maynard’s beautiful result on primes with missing digits (Theorem 2 stated above) is a rare occasion where the circle method can be used to solve a binary problem. Let M denote the set of natural numbers with no 7 in their decimal expansion (naturally one could omit any other digit instead of 7). The number of integers in M up to � is about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { \\log 9 / \\log 1 0 } = N ^ { 1 - \\delta }"
+            },
+            {
+              "type": "text",
+              "content": " with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta = 0 . 0 4 6 \\dots"
+            },
+            {
+              "type": "text",
+              "content": "so that M is a thin set making the problem of finding primes in it a challenge. Before Maynard’s work, Dartyge and Mauduit [7,8] had used sieve theory to show that M contains integers with at most two prime factors. To count the number of primes in M up to �, we use Fourier analysis writing this as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.367983367983368,
+            0.27647058823529413,
+            0.6257796257796258,
+            0.3323529411764706
+          ],
+          "image_path": "images/page_5_equation_2.jpg",
+          "content": "\\sum_{\\substack{p\\leq N\\\\ p\\in \\mathcal{M}}}1 = \\int_{0}^{1}S(\\alpha)M(-\\alpha)d\\alpha ,"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.33676470588235297,
+            0.8794178794178794,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "is the exponential sum over primes defined in (3), and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { M ( \\alpha ) = \\sum _ { m \\leq N , m \\in \\mathcal { M } } e ^ { 2 \\pi i \\alpha } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " is the corresponding exponential sum over the set M. Usually such a binary problem is hopeless to attack via the circle method — the reason being that even most optimistically we may only expect “square-root cancellation” in the exponential sums"
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( - \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "for generic �, and even that would produce an integrand of size"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { \\frac { 1 } { 2 } } \\times N ^ { \\frac { 1 } { 2 } ( 1 - \\delta ) }"
+            },
+            {
+              "type": "text",
+              "content": ", which is bigger than the expected main term of size about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { 1 - \\delta } / \\mathrm { l o g } N ."
+            },
+            {
+              "type": "text",
+              "content": ". A crucial feature in this problem is that the set M has a very convenient structure which results in the exponential sum"
+            },
+            {
+              "type": "equation_inline",
+              "content": "M ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": " often being unusually small. For instance, Maynard shows that its"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L ^ { 1 } { \\mathrm { - n o r m } }"
+            },
+            {
+              "type": "text",
+              "content": "satisfies"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.39293139293139295,
+            0.5029411764705882,
+            0.604989604989605,
+            0.5411764705882353
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "\\int_ {0} ^ {1} | M (\\alpha) | d \\alpha \\ll N ^ {0. 3 2},"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11434511434511435,
+            0.5426470588235294,
+            0.8814968814968815,
+            0.9117647058823529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with the key point being that the exponent 0.32 is smaller even than"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 - \\delta ) / 2"
+            },
+            {
+              "type": "text",
+              "content": ", which is the optimistic square-root cancellation that we mentioned. Such estimates raise the hope of being able to attack Theorem 2, and the main idea can be seen transparently in Maynard’s expository article [35], where he proves an easier version of Theorem 2 treating primes missing a digit in base � with � suficiently large. The set of integers up to � missing a digit in base � has size about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N ^ { \\log ( b - 1 ) / \\log b }"
+            },
+            {
+              "type": "text",
+              "content": ", and so the problem becomes easier as the base � gets larger. Getting the base down to 10 turns out to be a fiendishly dificult problem, and is arguably more significant psychologically than for any mathematical reason. Maynard [36] tackles this brilliantly by introducing a number of new ideas, including ideas from the geometry of numbers, diferent aspects of sieve theory, and comparisons with a Markov process. We may expect that even in base 3 there should be infinitely many primes with a given digit missing; in base 2, the only digit that might be omitted is 0, and we find the problem of whether there are infinitely many Mersenne primes, which lies beyond reasonable mathematics. We close this discussion by pointing out two other beautiful results on the digits of prime numbers which have elements in common with Maynard’s work: namely, work of Mauduit and Rivat [31] which shows (in particular) that the sum of the decimal digits of primes is equally likely to be odd or even, and work of Bourgain [6] which allows one to specify a small proportion of the binary digit of primes."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.21323529411764705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Gaps between primes. We now turn to a discussion of Maynard’s most spectacular result — the sun amidst small stars — namely, Theorem 1 above on finding many primes in bounded intervals. To describe the recent history of this problem, let us first discuss how primes are spaced typically. The prime number theorem tells us that the �-th prime"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": "is about � log �, so that the average spacing between two consecutive primes,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 } - p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ", is about log"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". What is the distribution of the normalized spacings"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p _ { n + 1 } - p _ { n } ) / \\log p _ { n } ?"
+            },
+            {
+              "type": "text",
+              "content": "The Cramér random model for primes would predict that these normalized spacings should behave like a Poisson process, and that for any fixed interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ \\alpha , \\beta ] \\in \\mathbb { R } _ { \\ge 0 }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.20997920997921,
+            0.21911764705882353,
+            0.7858627858627859,
+            0.25882352941176473
+          ],
+          "image_path": "images/page_6_equation_1.jpg",
+          "content": "\\lim _ {N \\to \\infty} \\frac {1}{N} \\# \\left\\{n \\leq N: \\frac {p _ {n + 1} - p _ {n}}{\\log p _ {n}} \\in [ \\alpha , \\beta ] \\right\\} = \\int_ {\\alpha} ^ {\\beta} e ^ {- t} d t = e ^ {- \\alpha} - e ^ {- \\beta}.\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.2647058823529412,
+            0.8794178794178794,
+            0.3411764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Gallagher [16] showed that this prediction is also implied by the more refined Hardy– Littlewood conjectures, the key point being that the singular series constants"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\mathcal { H } )"
+            },
+            {
+              "type": "text",
+              "content": "(see (2)) are approximately 1 (matching the naive Cramér model) on average over �-element sets "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.34558823529411764,
+            0.8794178794178794,
+            0.5897058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This conjecture on the normalized spacings between primes is wide open. Indeed if we denote by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "the set of limit points of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p _ { n + 1 } - p _ { n } ) / \\log p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ", then even the qualitativ statement that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } = [ 0 , \\infty ]"
+            },
+            {
+              "type": "text",
+              "content": "(which follows at once from (4)) is currently unknown. By creating long strings of composite numbers, Westzynthius established that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "contains ∞, but for a long time no other limit point was known (although Erdős and Ricci had established that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "has positive Lebesgue measure). Dramatic progress was made in the 2005 with the pathbreaking work of Goldston, Pintz, and Yıldırım [17], who showed that for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": "there are infinitely many � with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 } - p _ { n } \\leq \\epsilon \\log p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". Thus there are small gaps between primes in comparison to the average, and 0 is now known to be in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ."
+            },
+            {
+              "type": "text",
+              "content": ". Before the work of Goldston, Pintz, and Yıldırım, it was only known that the diference between consecutive primes became smaller than about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 1 } { 4 } }"
+            },
+            {
+              "type": "text",
+              "content": "of the average spacing, and their work opened the door to later advances including Maynard’s Theorem 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.5926470588235294,
+            0.8794178794178794,
+            0.7338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , . . . , h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "are distinct integers with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\{ h _ { 1 } , \\ldots , h _ { k } \\} ) > 0 ;"
+            },
+            {
+              "type": "text",
+              "content": "; such tuples are called admissible, and for example"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\{ k ! , 2 \\cdot k ! , \\ldots , k \\cdot k ! \\}"
+            },
+            {
+              "type": "text",
+              "content": "is admissible. The Hardy– Littlewood conjecture predicts that there are infinitely many � with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "all being prime. Instead of wanting all � of these numbers to be prime, what if we only ask for at least two of them to be prime? This would already show that infinitely often there are bounded gaps between consecutive prime numbers. Suppose we could find non-negative weights"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w ( n )"
+            },
+            {
+              "type": "text",
+              "content": "with the property that for large � and each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "j = 1 , . . . , k"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.3575883575883576,
+            0.7397058823529412,
+            0.6382536382536382,
+            0.7926470588235294
+          ],
+          "image_path": "images/page_6_equation_5.jpg",
+          "content": "\\sum_{\\substack{x\\leq n\\leq 2x\\\\ n + h_{j}\\text{prime}}}w(n) > \\frac{1}{k}\\sum_{x\\leq n\\leq 2x}w(n).\\tag{5}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.8,
+            0.5925155925155925,
+            0.8176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then summing (5) over al"
+            },
+            {
+              "type": "equation_inline",
+              "content": "j = 1 , . . . , k"
+            },
+            {
+              "type": "text",
+              "content": "we would obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.25571725571725573,
+            0.825,
+            0.7401247401247402,
+            0.8647058823529412
+          ],
+          "image_path": "images/page_6_equation_7.jpg",
+          "content": "\\sum_ {x \\leq n \\leq 2 x} \\# \\{1 \\leq j \\leq k: n + h _ {j} \\text {   prime } \\} w (n) > \\sum_ {x \\leq n \\leq 2 x} w (n),\\tag{6}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11642411642411643,
+            0.8705882352941177,
+            0.8773388773388774,
+            0.9088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "from which it would follow that there must be some � with at least 2 primes among"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ldots , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": ". Thinking of the weights as giving a probability measure on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\leq n \\leq 2 x"
+            },
+            {
+              "type": "text",
+              "content": ", we may"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 9,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.051470588235294115,
+            0.8773388773388774,
+            0.08970588235294118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "interpret (6) as saying that the expected number of primes among the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { j }"
+            },
+            {
+              "type": "text",
+              "content": "is greater than 1, so that there must be � with at least 2 primes in this �-tuple."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.09264705882352942,
+            0.8794178794178794,
+            0.17205882352941176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The dificult problem is to construct weights satisfying (5), and natural choices for such weights are suggested by sieve theory, in particular the theory of the Selberg sieve. The standard choice of Selberg sieve weights (which are used to give an upper bound for the number of prime �-tuples"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k } )"
+            },
+            {
+              "type": "text",
+              "content": "takes the shape"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.3076923076923077,
+            0.17794117647058824,
+            0.6860706860706861,
+            0.23088235294117648
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "w(n) = \\Big(\\sum_{\\substack{d|(n + h_{1})\\dots (n + h_{k})\\\\ d\\leq R}}\\mu (d)\\Big(\\frac{\\log R / d}{\\log R}\\Big)^{k}\\Big)^{2}."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.23823529411764705,
+            0.8794178794178794,
+            0.42058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w ( n ) \\geq 0"
+            },
+            {
+              "type": "text",
+              "content": "always. Expanding out the sum, the right side of (5) (the sum over all "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\in [ x , 2 x ] )"
+            },
+            {
+              "type": "text",
+              "content": "may be evaluated asymptotically so long as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { 2 } \\leq x ^ { 1 - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ". The left side of (5) is more involved, and relies on understanding the distribution of primes in arithmetic progressions with the modulus of the progression going up to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". The Bombieri–Vinogradov theorem permits such an understanding (at a level comparable to what the Generalized Riemann Hypothesis would give) so long as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { 2 } \\leq x ^ { { \\frac { 1 } { 2 } } - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ", so that � is now constrained to be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leq x ^ { { \\frac { 1 } { 4 } } - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ". For this choice of weights, the expected number of primes among the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { j }"
+            },
+            {
+              "type": "text",
+              "content": "turns out to be about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 k / ( k + 1 ) )"
+            },
+            {
+              "type": "text",
+              "content": "log �/log �, so that with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R \\leq x ^ { 1 / 4 - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": "one only expects to find"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " a prime in the �-tuple."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.42205882352941176,
+            0.8794178794178794,
+            0.5029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Although the Selberg sieve weights described above had been optimized for upper bounds in the prime �-tuple problem, Goldston, Pintz, and Yıldırım made the surprising discovery that there are better choices of weights for optimizing the ratio of the sums in (5). They considered weights of the form"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.2993762993762994,
+            0.5088235294117647,
+            0.6943866943866944,
+            0.5617647058823529
+          ],
+          "image_path": "images/page_7_equation_5.jpg",
+          "content": "w(n) = \\Big(\\sum_{\\substack{d|(n + h_{1})\\dots (n + h_{k})\\\\ d\\leq R}}\\mu (d)\\Big(\\frac{\\log R / d}{\\log R}\\Big)^{k + \\ell}\\Big)^{2},"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.5705882352941176,
+            0.8794178794178794,
+            0.7147058823529412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for a suitable parameter"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\ell ,"
+            },
+            {
+              "type": "text",
+              "content": "which turns out in the optimal case to be around"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\sqrt { k } } ."
+            },
+            {
+              "type": "text",
+              "content": ". With this choice of weights, they found that the expected number of primes among"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { j }"
+            },
+            {
+              "type": "text",
+              "content": "is about twice as large as previously, being"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 4 + O ( 1 / k ^ { \\frac { 1 } { 2 } } ) )"
+            },
+            {
+              "type": "text",
+              "content": ") log �/log �. With"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = x ^ { { \\frac { 1 } { 4 } } - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ", this barely fails to give the desired relation (5), and thus barely falls short of proving bounded gaps between primes. By considering an additional possible prime value"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leq h \\leq \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": "log �, Goldston, Pintz, Yıldırım were able to deduce from this argument that there are infinitely many � with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 } - p _ { n } \\leq \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": "log �. For a more detailed discussion of these ideas see [47]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11642411642411643,
+            0.7161764705882353,
+            0.8794178794178794,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If one could take � to be"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { { \\frac { 1 } { 4 } } + \\delta }"
+            },
+            {
+              "type": "text",
+              "content": "for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\delta > 0"
+            },
+            {
+              "type": "text",
+              "content": ", then the argument of Goldston, Pintz, and Yıldırım would give bounded gaps between primes. To take such a value for �, one would need to understand the distribution of primes up to � in arithmetic progressions, when the modulus of the progression is as large as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { { \\frac { 1 } { 2 } } + 2 \\delta }"
+            },
+            {
+              "type": "text",
+              "content": ". The Elliott–Halberstam conjectures predict that such results should hold (on average) when the modulus is as large as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 1 - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ". Partial progress towards such extensions of the Bombieri–Vinogradov theorem was made by Fouvry and Iwaniec [12], and Bombieri, Friedlander, and Iwaniec [5], but these results did not apply immediately to the problem of showing bounded gaps between primes. In April 2013, Yitang Zhang [49] made a spectacular breakthrough by establishing a version of the"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.11850311850311851,
+            0.9352941176470588,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.19264705882352942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bombieri–Vinogradov theorem in an extended range which was suficient for the method of Goldston, Pintz, and Yıldırım. Zhang established that if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k > 3 . 5 \\times 1 0 ^ { 6 }"
+            },
+            {
+              "type": "text",
+              "content": "then for any admissible �-tuple"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } , . . . , h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "there are infinitely many � with at least two of the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { j }"
+            },
+            {
+              "type": "text",
+              "content": "being prime. This implied that infinitely often the gaps between consecutive primes is less than 70 million. Refinements of Zhang’s work on the equidistribution of primes in arithmetic progressions were made by the Polymath project [46], and still further qualitative and quantitative refinements of such results may be found in the recent papers of Maynard [37–39]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.19411764705882353,
+            0.8794178794178794,
+            0.31470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Zhang’s work established the case"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = 2"
+            },
+            {
+              "type": "text",
+              "content": "of Theorem 1. However, even if one could take the largest possible range for �, namely"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = x ^ { { \\frac { 1 } { 2 } } - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": "(which would be permitted by the Elliott–Halberstam conjecture), the Goldston–Pintz–Yıldırım weights would only yield that the expected number of primes in an admissible �-tuple is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\geq 2 - \\epsilon"
+            },
+            {
+              "type": "text",
+              "content": ". In other words, even under the Elliott–Halberstam conjecture one would fall short of establishing the existence of three primes in bounded intervals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.3176470588235294,
+            0.8794178794178794,
+            0.4176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proofofTheorem 1 is based on a diferent choice ofthe weights"
+            },
+            {
+              "type": "equation_inline",
+              "content": "w ( n )"
+            },
+            {
+              "type": "text",
+              "content": ", discovered just months after Zhang’s work by Maynard (who announced the results in a memorable talk at Oberwolfach in October 2013) and independently by Tao (in unpublished work). The Maynard–Tao weights are a multi-dimensional extension of the weights considered earlier, and take (roughly speaking) the shape"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.2785862785862786,
+            0.4235294117647059,
+            0.7151767151767152,
+            0.49264705882352944
+          ],
+          "image_path": "images/page_8_equation_3.jpg",
+          "content": "w(n) = \\Big(\\sum_{\\substack{d_{1},\\ldots ,d_{k}\\\\ d_{i}|n + h_{i}\\\\ \\prod d_{i}\\leq R}}\\prod_{i = 1}^{k}\\mu (d_{i})F\\Big(\\frac{\\log d_{1}}{\\log R},\\ldots ,\\frac{\\log d_{k}}{\\log R}\\Big)\\Big)^{2},"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11642411642411643,
+            0.5029411764705882,
+            0.8794178794178794,
+            0.6647058823529411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for suitable smooth functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "F : [ 0 , 1 ] ^ { k } \\to \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": ". Astonishingly it turns out that for an appropriate choice for �, the expected number of primes in the tuple"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "(recall (6) above)"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mathrm { i s } \\geq c \\log k \\frac { \\log R } { \\log x } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": ", for a positive constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c ;"
+            },
+            {
+              "type": "text",
+              "content": "in fact"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c"
+            },
+            {
+              "type": "text",
+              "content": "may be taken close to 1 if � is large enough. The key point is that this expected number of primes in �-tuples tends to infinity with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ,"
+            },
+            {
+              "type": "text",
+              "content": ", and in fact we only need � to grow like any power of � for the method to succeed, so that Bombieri–Vinogradov which permits"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = x ^ { { \\frac { 1 } { 4 } } - \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": "is already suficient! Thus the following more precise version of Theorem 1 holds, which may be viewed as a partial result towards the Hardy–Littlewood prime �-tuples conjecture."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.6764705882352942,
+            0.8773388773388774,
+            0.736764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3 (Maynard [32]). Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\ge 2"
+            },
+            {
+              "type": "text",
+              "content": "be a natural number. Let � be suficiently large in terms of �, and let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { H } = \\{ h _ { 1 } , \\ldots , h _ { k } \\}"
+            },
+            {
+              "type": "text",
+              "content": "be any set of � integers with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { S } ( \\mathcal { H } ) > 0"
+            },
+            {
+              "type": "text",
+              "content": ". Then there exist infinitely many � such that the �-tuple"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n + h _ { 1 } , . . . , n + h _ { k }"
+            },
+            {
+              "type": "text",
+              "content": "contains at least � primes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.7470588235294118,
+            0.8794178794178794,
+            0.9102941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Maynard showed that � may be taken smaller than"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C m ^ { 2 } e ^ { 4 m }"
+            },
+            {
+              "type": "text",
+              "content": "for a suitable constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ."
+            },
+            {
+              "type": "text",
+              "content": ", and further refinements of this (incorporating also the work of Zhang) have been made in the work of Baker and Irving [3] who showed that � may be taken as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C e ^ { 3 . 8 1 5 m }"
+            },
+            {
+              "type": "text",
+              "content": ". Of special interest is the case"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = 2"
+            },
+            {
+              "type": "text",
+              "content": "where the Polymath project [45] optimized these arguments to establish that any admissible 50-tuple contains 2 primes infinitely often. In particular, they showed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p _ { n + 1 } - p _ { n } \\leq 2 4 6"
+            },
+            {
+              "type": "text",
+              "content": "infinitely often, and conditional on the Elliott–Halberstam conjecture that infinitely often there are at least two primes in the triple"
+            },
+            {
+              "type": "equation_inline",
+              "content": "n , n + 2 , n + 6"
+            },
+            {
+              "type": "text",
+              "content": ". Let us mention one other uniform variant of these results: Maynard [33] shows, for instance, that there are at least"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.13305613305613306,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.11029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "�",
+              "styles": [
+                "subscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "�"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\exp ( - { \\sqrt { \\log X } } )"
+            },
+            {
+              "type": "text",
+              "content": "values of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in [ X , 2 X ]"
+            },
+            {
+              "type": "text",
+              "content": "such that the interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ x , x + \\log X ]"
+            },
+            {
+              "type": "text",
+              "content": "contains at least � log log � primes (here"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c"
+            },
+            {
+              "type": "text",
+              "content": "is a positive constant). For detailed expositions on these results of Zhang, Maynard, and Tao, see [18,29]."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.11176470588235295,
+            0.8794178794178794,
+            0.2529411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Maynard–Tao weights ofer a flexible new method to study many problems on primes and related sequences, and have found a number of applications. We describe two other results using these weights, both still concerned with spacings between consecutive primes. We referred earlier to the result of Westzynthius on large gaps between consecutive primes, which showed that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\infty"
+            },
+            {
+              "type": "text",
+              "content": "lies in the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "of limit points of the normalized spacings "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p _ { n + 1 } - p _ { n } ) / \\log p _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". This was quantified in the 1930’s by Erdős and Rankin who showed that, for a positive constant �"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2577962577962578,
+            0.25882352941176473,
+            0.738045738045738,
+            0.29705882352941176
+          ],
+          "image_path": "images/page_9_equation_2.jpg",
+          "content": "\\max _ {p _ {n} \\leq X} (p _ {n + 1} - p _ {n}) \\geq C \\log X \\frac {(\\log \\log X) \\log \\log \\log \\log X}{(\\log \\log \\log X) ^ {2}}.\\tag{7}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.3029411764705882,
+            0.8814968814968815,
+            0.5882352941176471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The random model would suggest that the maximal gap between primes up to � should be about"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\log X ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". This is known as Cramér’s conjecture, and while this is very delicate, it is widely believed that the maximal gap is no more than"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\log X ) ^ { 2 + \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ", although even this is far beyond Landau’s unattackable problem of the existence of a prime between consecutive squares. Erdős drew attention to the problem of finding larger gaps between consecutive primes, ofering $ 10 000 for a bound that would replace � in (7) with a function tending to ∞ with �. For more than 75 years, this problem resisted attack, with only improvements of the constant � being known. Then, by a remarkable coincidence, in 2014 two diferent techniques emerged, both establishing (7) with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C"
+            },
+            {
+              "type": "text",
+              "content": "replaced by a function tending to infinity with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ."
+            },
+            {
+              "type": "text",
+              "content": ". One approach, by Ford, Green, Konyagin, and Tao [11], built upon the work of Green–Tao on arithmetic progressions in the primes, while the other approach, by Maynard [34], found a way to adapt the Maynard–Tao sieve weights. The second approach was better suited for quantifying the large gaps that are produced, and, joining forces, Ford, Green, Konyagin, Maynard, and Tao [10] established that for some constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C > 0"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.25571725571725573,
+            0.5926470588235294,
+            0.738045738045738,
+            0.6308823529411764
+          ],
+          "image_path": "images/page_9_equation_4.jpg",
+          "content": "\\max _ {p _ {n} \\leq X} (p _ {n + 1} - p _ {n}) \\geq C \\log X \\frac {(\\log \\log X) \\log \\log \\log \\log X}{\\log \\log \\log X},\\tag{8}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.6367647058823529,
+            0.577962577962578,
+            0.6558823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "improving the bound in (7) by a factor of log log log �."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11434511434511435,
+            0.6573529411764706,
+            0.8794178794178794,
+            0.8808823529411764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The results on small gaps and large gaps between consecutive primes show that 0 and ∞ lie in the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "of limit points of the normalized prime spacings. No other explicit numbers are known to lie in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ,"
+            },
+            {
+              "type": "text",
+              "content": ", although we expect"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "to include all non-negative real numbers. Following Zhang’s breakthrough, Pintz [42] showed that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L }"
+            },
+            {
+              "type": "text",
+              "content": "contains an interval"
+            },
+            {
+              "type": "equation_inline",
+              "content": "[ 0 , c ]"
+            },
+            {
+              "type": "text",
+              "content": "for some"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c > 0"
+            },
+            {
+              "type": "text",
+              "content": " which however is inefective and cannot be computed explicitly. Using the Maynard–Tao sieve weights, Banks, Freiberg, and Maynard [4] established the following beautiful result: If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } \\le \\beta _ { 2 } \\le . . . \\le \\beta _ { 9 }"
+            },
+            {
+              "type": "text",
+              "content": "are any nine real numbers, then at least one of their diferences"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { j } - \\beta _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " (with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i < j )"
+            },
+            {
+              "type": "text",
+              "content": "must be an element of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { L } ."
+            },
+            {
+              "type": "text",
+              "content": ". Their result has been refined by Pintz [43], and Merikoski [41], and Merikoski shows that the same result holds if we start with just four real numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\beta _ { 1 } \\le \\beta _ { 2 } \\le \\beta _ { 3 } \\le \\beta _ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": ". Moreover, Merikoski has also shown that for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T > 0"
+            },
+            {
+              "type": "text",
+              "content": ", the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { L } } \\cap [ 0 , T ]"
+            },
+            {
+              "type": "text",
+              "content": " has measure at least"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T / 3"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.12058212058212059,
+            0.9352941176470588,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.13088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Dufin–Schaefer conjecture. So far we have focussed entirely on Maynard’s work concerned with prime numbers. In a very diferent direction, Maynard in joint work with Koukoulopoulos [28], resolved one ofthe central problems in the metric theory ofDiophantine approximation, known as the Dufin–Schaefer conjecture."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.1323529411764706,
+            0.8794178794178794,
+            0.3558823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Diophantine approximation is concerned with finding rational approximations"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a / q"
+            },
+            {
+              "type": "text",
+              "content": " to a given irrational number �, with an emphasis on making"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q |"
+            },
+            {
+              "type": "text",
+              "content": "small in terms of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": ". The most basic result is Dirichlet’s theorem that for every irrational number"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha"
+            },
+            {
+              "type": "text",
+              "content": ", there are infinitely many rational approximations"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a / q"
+            },
+            {
+              "type": "text",
+              "content": ", with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\in \\mathbb { Z } , q \\in \\mathbb { N }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a , q ) = 1"
+            },
+            {
+              "type": "text",
+              "content": "(so that the fraction is in reduced form) such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\leq 1 / q ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". For quadratic irrationals (like"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "or the golden ratio), Dirichlet’s theorem is essentially the best possible, and for every such � there exists a positive constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\alpha )"
+            },
+            {
+              "type": "text",
+              "content": "such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\geq C ( \\alpha ) / q ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": "for any rational approximation"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a / q"
+            },
+            {
+              "type": "text",
+              "content": ". A celebrated result of Roth establishes that for any algebraic irrational � and any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\epsilon > 0"
+            },
+            {
+              "type": "text",
+              "content": "one has "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\geq C ( \\alpha , \\epsilon ) / q ^ { 2 + \\epsilon }"
+            },
+            {
+              "type": "text",
+              "content": ", for a suitable positive constant"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C ( \\alpha , \\epsilon )"
+            },
+            {
+              "type": "text",
+              "content": ". For particular interesting transcendental numbers, such as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", it remains an outstanding open problem to determine how well they can be approximated by rational numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.3588235294117647,
+            0.8794178794178794,
+            0.5397058823529411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Metric Diophantine approximation is concerned with such approximation problems that hold for almost all irrational numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha ,"
+            },
+            {
+              "type": "text",
+              "content": ", with almost all interpreted in the sense of Lebesgue measure. Since the problem of approximating � by rationals is identical to that of approximating"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha + 1"
+            },
+            {
+              "type": "text",
+              "content": ", we may restrict attention to irrational numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": ". The most basic problem is the following: suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi : \\mathbb { N } \\to \\mathbb { R } _ { \\geq 0 }"
+            },
+            {
+              "type": "text",
+              "content": "is a given function, what can be said about the measure of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": ") for which there exist infinitely many rational numbers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a / q"
+            },
+            {
+              "type": "text",
+              "content": "in reduced form (that is,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a , q ) = 1 )"
+            },
+            {
+              "type": "text",
+              "content": ") with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\leq \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": ". For instance, Dirichlet’s theorem tells us that if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( q ) = 1 / q ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ", then all irrational"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": ") admit infinitely many such rational approximations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.5426470588235294,
+            0.8794178794178794,
+            0.6029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { q } = \\mathcal { A } _ { q } ( \\psi )"
+            },
+            {
+              "type": "text",
+              "content": "denote the set of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": "for which there exists some reduced fraction"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a / q"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\leq \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": ", and let A denote the set of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": "lying in infinitely many of the sets"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { q }"
+            },
+            {
+              "type": "text",
+              "content": ". Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.2869022869022869,
+            0.6088235294117647,
+            0.7068607068607069,
+            0.6558823529411765
+          ],
+          "image_path": "images/page_10_equation_4.jpg",
+          "content": "\\mathcal {A} = \\bigcap_ {Q = 1} ^ {\\infty} \\widetilde {\\mathcal {A}} (Q), \\quad \\text { with } \\quad \\widetilde {\\mathcal {A}} (Q) = \\bigcup_ {q = Q} ^ {\\infty} \\mathcal {A} _ {q}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.6647058823529411,
+            0.8794178794178794,
+            0.7838235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now the measure of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } _ { q } \\mathrm { ~ i s ~ } \\le 2 \\phi ( q ) \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": ", since there are"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( q )"
+            },
+            {
+              "type": "text",
+              "content": "possible choices for the numerator �, and if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( q ) \\leq 1 / ( 2 q )"
+            },
+            {
+              "type": "text",
+              "content": "so that the intervals for diferent � do not overlap then equality holds here. If"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { q = 1 } ^ { \\infty } \\phi ( q ) \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": "converges, then the measure of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\widetilde { \\mathcal { A } } ( Q )"
+            },
+            {
+              "type": "text",
+              "content": "is bounded by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ 2 } \\textstyle \\sum _ { q = Q } ^ { \\infty } \\phi ( q ) \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": ", which is the tail of a convergent series and thus tends to 0 as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\to \\infty"
+            },
+            {
+              "type": "text",
+              "content": ". It follows that A has measure 0. This argument is identical to the easy part of the Borel–Cantelli Lemma."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11642411642411643,
+            0.7867647058823529,
+            0.8794178794178794,
+            0.9088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1941, Dufin and Schaefer made the remarkable conjecture that in the complementary case when"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { q = 1 } ^ { \\infty } \\phi ( q ) \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": "diverges, the measure of A is 1. Since then the Dufin–Schaefer conjecture has remained one of the central motivating questions in the theory of metric Diophantine approximations. A number of partial results towards this conjecture were established: for example, a beautiful result of Gallagher [15] showed that the measure of the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { A } ( \\psi )"
+            },
+            {
+              "type": "text",
+              "content": "is always either 0 or 1, work of Erdős [9] and Vaaler [48] established"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3762993762993763,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11642411642411643,
+            0.05,
+            0.8794178794178794,
+            0.13088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the conjecture when"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": "is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "O ( 1 / q ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "q _ { \\mathrm { : } }"
+            },
+            {
+              "type": "text",
+              "content": ", higher dimensional analogues of the conjecture were proved by Pollington and Vaughan [44], and weaker versions of the conjecture with extra divergence conditions were established in [1,22,23]. But the full problem resisted until the recent work of Koukoulopoulos and Maynard [28]:"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.1426470588235294,
+            0.8877338877338877,
+            0.2235294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 4 (Koukoulopoulos and Maynard [28]). Le"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\psi : \\mathbb { N } \\to \\mathbb { R } _ { \\geq 0 }"
+            },
+            {
+              "type": "text",
+              "content": "be such that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle \\sum _ { q = 1 } ^ { \\infty } \\phi ( q ) \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": " diverges. Then the set of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\in [ 0 , 1 )"
+            },
+            {
+              "type": "text",
+              "content": "that have infinitely many rational approximations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\alpha - a / q | \\le \\psi ( q )"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a , q ) = 1"
+            },
+            {
+              "type": "text",
+              "content": "has Lebesgue measure 1. In other words, the Dufin– Schaefer conjecture holds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11642411642411643,
+            0.23529411764705882,
+            0.8794178794178794,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We refer to Koukoulopoulos’s talk at this ICM [27] for a more detailed exposition of this result, and the ideas behind its proof."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11642411642411643,
+            0.2867647058823529,
+            0.8794178794178794,
+            0.36764705882352944
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have given an overview of some of Maynard’s most spectacular achievements in analytic number theory. Maynard’s work is characterized by ingenious but simple ideas, which are carried very far with his powerful technical ability. As impressive as his work so far has been, it may only mark a beginning."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.18711018711018712,
+            0.3897058823529412,
+            0.27234927234927236,
+            0.40588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Funding"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11642411642411643,
+            0.4088235294117647,
+            0.8648648648648649,
+            0.4485294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This work was partially supported by grants from the National Science Foundation, and a Simons Investigator Award from the Simons Foundation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.18711018711018712,
+            0.49117647058823527,
+            0.30145530145530147,
+            0.5073529411764706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "References"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.11850311850311851,
+            0.5117647058823529,
+            0.8440748440748441,
+            0.5676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[1]C. Aistleitner, T. Lachmann, M. Munsch, N. Technau, and A. Zafeiropoulos, The Dufin-Schaefer conjecture with extra divergence. Adv. Math. 356 (2019), 106808, 11"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.11850311850311851,
+            0.5735294117647058,
+            0.8711018711018711,
+            0.611764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[2]R. C. Baker, G. Harman, and J. Pintz, The diference between consecutive primes. II. Proc. London Math. Soc. (3) 83 (2001), no. 3, 532–562"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.12058212058212059,
+            0.6147058823529412,
+            0.8711018711018711,
+            0.6514705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[3]R. C. Baker and A. J. Irving, Bounded intervals containing many primes. Math. Z. 286 (2017), no. 3-4, 821–841"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.11850311850311851,
+            0.6558823529411765,
+            0.8669438669438669,
+            0.6926470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[4]W. D. Banks, T. Freiberg, and J. Maynard, On limit points of the sequence of normalized prime gaps. Proc. Lond. Math. Soc. (3) 113 (2016), no. 4, 515–539"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.12058212058212059,
+            0.6970588235294117,
+            0.8690228690228691,
+            0.7338235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[5]E. Bombieri, J. B. Friedlander, and H. Iwaniec, Primes in arithmetic progressions to large moduli. Acta Math. 156 (1986), no. 3-4, 203–251"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.11850311850311851,
+            0.736764705882353,
+            0.8731808731808732,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[6]J. Bourgain, Prescribing the binary digits of primes, II. Israel J. Math. 206 (2015), no. 1, 165–182"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.11850311850311851,
+            0.7794117647058824,
+            0.8565488565488566,
+            0.8161764705882353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[7]C. Dartyge and C. Mauduit, Nombres presque premiers dont l’écriture en base � ne comporte pas certains chifres. J. Number Theory 81 (2000), no. 2, 270–291"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.12058212058212059,
+            0.8205882352941176,
+            0.8378378378378378,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[8]C. Dartyge and C. Mauduit, Ensembles de densité nulle contenant des entiers possédant au plus deux facteurs premiers. J. Number Theory 91 (2001), no. 2, 230–255"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9470588235294117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.11850311850311851,
+            0.05,
+            0.8316008316008316,
+            0.08823529411764706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[9]P. Erdős, On the distribution of the convergents of almost all real numbers. J. Number Theory 2 (1970), 425–441"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.11850311850311851,
+            0.09264705882352942,
+            0.8274428274428275,
+            0.13088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[10] K. Ford, B. Green, S. Konyagin, J. Maynard, and T. Tao, Long gaps between primes. J. Amer. Math. Soc. 31 (2018), no. 1, 65–105"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.11850311850311851,
+            0.1323529411764706,
+            0.8295218295218295,
+            0.17058823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[11] K. Ford, B. Green, S. Konyagin, and T. Tao, Large gaps between consecutive prime numbers. Ann. ofMath. (2) 183 (2016), no. 3, 935–974"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.11850311850311851,
+            0.17352941176470588,
+            0.8544698544698545,
+            0.21176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[12] E. Fouvry and H. Iwaniec, On a theorem of Bombieri-Vinogradov type. Mathematika 27 (1980), no. 2, 135–152 (1981)"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.11850311850311851,
+            0.21470588235294116,
+            0.8607068607068608,
+            0.2529411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[13] J. Friedlander and H. Iwaniec, The polynomia"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 2 } + Y ^ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": "captures its primes. Ann. ofMath. (2) 148 (1998), no. 3, 945–1040"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.11850311850311851,
+            0.25588235294117645,
+            0.8627858627858628,
+            0.31176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[14] J. Friedlander and H. Iwaniec, Opera de cribro. American Mathematical Society Colloquium Publications 57, American Mathematical Society, Providence, RI, 2010"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.11850311850311851,
+            0.3161764705882353,
+            0.8690228690228691,
+            0.35441176470588237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[15] P. Gallagher, Approximation by reduced fractions. J. Math. Soc. Japan 13 (1961), 342–345"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.11850311850311851,
+            0.3588235294117647,
+            0.8648648648648649,
+            0.39558823529411763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[16] P. X. Gallagher, On the distribution of primes in short intervals. Mathematika 23 (1976), no. 1, 4–9"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.11850311850311851,
+            0.4,
+            0.8752598752598753,
+            0.43676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[17] D. A. Goldston, J. Pintz, and C. Y. Yıldı rım, Primes in tuples. I. Ann. ofMath. (2) 170 (2009), no. 2, 819–862"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.11850311850311851,
+            0.43970588235294117,
+            0.8711018711018711,
+            0.47794117647058826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[18] A. Granville, Primes in intervals of bounded length. Bull. Amer. Math. Soc. (N.S.) 52 (2015), no. 2, 171–222"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.11850311850311851,
+            0.4808823529411765,
+            0.8482328482328483,
+            0.5191176470588236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[19] B. Green and T. Tao, Linear equations in primes. Ann. ofMath. (2) 171 (2010), no. 3, 1753–1850"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.11850311850311851,
+            0.5220588235294118,
+            0.8690228690228691,
+            0.5602941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[20] B. Green and T. Tao, The Möbius function is strongly orthogonal to nilsequences. Ann. ofMath. (2) 175 (2012), no. 2, 541–566"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.11850311850311851,
+            0.5617647058823529,
+            0.841995841995842,
+            0.6014705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[21] B. Green, T. Tao, and T. Ziegler, An inverse theorem for the Gowers"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\cal U } ^ { s + 1 } [ N ] \\cdot"
+            },
+            {
+              "type": "text",
+              "content": " norm. Ann. ofMath. (2) 176 (2012), no. 2, 1231–1372"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.11850311850311851,
+            0.6044117647058823,
+            0.8586278586278586,
+            0.6426470588235295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[22] G. Harman, Metric number theory. London Mathematical Society Monographs New Series 18, The Clarendon Press, Oxford University Press, New York, 1998"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.11850311850311851,
+            0.6455882352941177,
+            0.8731808731808732,
+            0.6838235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[23] A. K. Haynes, A. D. Pollington, and S. L. Velani, The Dufin-Schaefer conjecture with extra divergence. Math. Ann. 353 (2012), no. 2, 259–273"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.11850311850311851,
+            0.6852941176470588,
+            0.8773388773388774,
+            0.7235294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[24] D. R. Heath-Brown, Primes represented by"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 } + 2 y ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": ". Acta Math. 186 (2001), no. 1, 1–84"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.11850311850311851,
+            0.7264705882352941,
+            0.8690228690228691,
+            0.7647058823529411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[25] D. R. Heath-Brown and X. Li, Prime values of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } + p ^ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": ". Invent. Math. 208 (2017), no. 2, 441–499"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.7676470588235295,
+            0.841995841995842,
+            0.8264705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[26] H. A. Helfgott, The ternary Goldbach problem. In Proceedings of the International Congress ofMathematicians—Seoul 2014. Vol. II, pp. 391–418, Kyung Moon Sa, Seoul, 2014"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.11850311850311851,
+            0.8294117647058824,
+            0.8565488565488566,
+            0.8676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[27] D. Koukoulopoulos, Rational approximations of irrational numbers. 2021, URL https://arxiv.org/abs/2109.11003"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.8705882352941177,
+            0.8648648648648649,
+            0.9088235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[28] D. Koukoulopoulos and J. Maynard, On the Dufin-Schaefer conjecture. Ann. of Math. (2) 192 (2020), no. 1, 251–307"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.12058212058212059,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "index": 0,
+          "bbox": [
+            0.11850311850311851,
+            0.051470588235294115,
+            0.8690228690228691,
+            0.10882352941176471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[29] E. Kowalski, Gaps between prime numbers and primes in arithmetic progressions [after Y. Zhang and J. Maynard]. Astérisque (2015), no. 367-368, Exp. No. 1084, ix, 327–366"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 1,
+          "bbox": [
+            0.11850311850311851,
+            0.11176470588235295,
+            0.8669438669438669,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[30] K. Matomäki, J. Maynard, and X. Shao, Vinogradov’s theorem with almost equal summands. Proc. Lond. Math. Soc. (3) 115 (2017), no. 2, 323–347"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 2,
+          "bbox": [
+            0.11850311850311851,
+            0.15294117647058825,
+            0.8627858627858628,
+            0.19117647058823528
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[31] C. Mauduit and J. Rivat, Sur un problème de Gelfond: la somme des chifres des nombres premiers. Ann. ofMath. (2) 171 (2010), no. 3, 1591–1646"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 3,
+          "bbox": [
+            0.11850311850311851,
+            0.19411764705882353,
+            0.8773388773388774,
+            0.23088235294117648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[32] J. Maynard, Small gaps between primes. Ann. ofMath. (2) 181 (2015), no. 1, 383–413"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 4,
+          "bbox": [
+            0.11850311850311851,
+            0.2338235294117647,
+            0.8274428274428275,
+            0.2735294117647059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[33] J. Maynard, Dense clusters of primes in subsets. Compos. Math. 152 (2016), no. 7, 1517–1554"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 5,
+          "bbox": [
+            0.11850311850311851,
+            0.27647058823529413,
+            0.8773388773388774,
+            0.31176470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[34] J. Maynard, Large gaps between primes. Ann. ofMath. (2) 183 (2016), no. 3, 915–933"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 6,
+          "bbox": [
+            0.11850311850311851,
+            0.3176470588235294,
+            0.8461538461538461,
+            0.3558823529411765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[35] J. Maynard, Digits of primes. In European Congress ofMathematics, pp. 641–661, Eur. Math. Soc., Zürich, 2018"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 7,
+          "bbox": [
+            0.11850311850311851,
+            0.3588235294117647,
+            0.8523908523908524,
+            0.3941176470588235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[36] J. Maynard, Primes with restricted digits. Invent. Math. 217 (2019), no. 1, 127–218"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 8,
+          "bbox": [
+            0.11850311850311851,
+            0.4,
+            0.841995841995842,
+            0.43676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[37] J. Maynard, Primes in arithmetic progressions to large moduli I: Fixed residue classes. 2020, URL https://arxiv.org/abs/2006.06572"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 9,
+          "bbox": [
+            0.11850311850311851,
+            0.43970588235294117,
+            0.8648648648648649,
+            0.47794117647058826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[38] J. Maynard, Primes in arithmetic progressions to large moduli II: Well-factorable estimates. 2020, URL https://arxiv.org/abs/2006.07088"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 10,
+          "bbox": [
+            0.11850311850311851,
+            0.4808823529411765,
+            0.814968814968815,
+            0.5191176470588236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[39] J. Maynard, Primes in arithmetic progressions to large moduli III: Uniform residue classes. 2020, URL https://arxiv.org/abs/2006.08250"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 11,
+          "bbox": [
+            0.11850311850311851,
+            0.5220588235294118,
+            0.841995841995842,
+            0.5588235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[40] J. Maynard, Primes represented by incomplete norm forms. Forum Math. Pi 8 (2020), e3, 128"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 12,
+          "bbox": [
+            0.11850311850311851,
+            0.5632352941176471,
+            0.8669438669438669,
+            0.6014705882352941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[41] J. Merikoski, Limit points of normalized prime gaps. J. Lond. Math. Soc. (2) 102 (2020), no. 1, 99–124"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 13,
+          "bbox": [
+            0.11850311850311851,
+            0.6044117647058823,
+            0.8731808731808732,
+            0.663235294117647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[42] J. Pintz, Polignac numbers, conjectures of Erdős on gaps between primes, arithmetic progressions in primes, and the bounded gap conjecture. In From arithmetic to zeta-functions, pp. 367–384, Springer, [Cham], 2016"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 14,
+          "bbox": [
+            0.11850311850311851,
+            0.6661764705882353,
+            0.8357588357588358,
+            0.7029411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[43] J. Pintz, A note on the distribution of normalized prime gaps. Acta Arith. 184 (2018), no. 4, 413–418"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 15,
+          "bbox": [
+            0.11850311850311851,
+            0.7058823529411765,
+            0.8773388773388774,
+            0.7455882352941177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[44] A. D. Pollington and R. C. Vaughan, The �-dimensional Dufin and Schaefer conjecture. Mathematika 37 (1990), no. 2, 190–200"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 16,
+          "bbox": [
+            0.11850311850311851,
+            0.7485294117647059,
+            0.8773388773388774,
+            0.7852941176470588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[45] D. H. J. Polymath, New equidistribution estimates of Zhang type. Algebra Number Theory 8 (2014), no. 9, 2067–2199"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 17,
+          "bbox": [
+            0.11850311850311851,
+            0.788235294117647,
+            0.8752598752598753,
+            0.8279411764705882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[46] D. H. J. Polymath, Variants of the Selberg sieve, and bounded intervals containing many primes. Res. Math. Sci. 1 (2014), Art. 12, 83"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 18,
+          "bbox": [
+            0.11850311850311851,
+            0.8308823529411765,
+            0.8378378378378378,
+            0.8676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[47] K. Soundararajan, Small gaps between prime numbers: the work of Goldston-Pintz-Yıldırım. Bull. Amer. Math. Soc. (N.S.) 44 (2007), no. 1, 1–18"
+            }
+          ]
+        },
+        {
+          "type": "ref_text",
+          "index": 19,
+          "bbox": [
+            0.11850311850311851,
+            0.8705882352941177,
+            0.8669438669438669,
+            0.9073529411764706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[48] J. D. Vaaler, On the metric theory of Diophantine approximation. Pacific J. Math. 76 (1978), no. 2, 527–539"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.11850311850311851,
+            0.9367647058823529,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.1891891891891892,
+            0.9338235294117647,
+            0.3097713097713098,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "K. Soundararajan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.18711018711018712,
+            0.1323529411764706,
+            0.41164241164241167,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Kannan Soundararajan"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11642411642411643,
+            0.15294117647058825,
+            0.7027027027027027,
+            0.19117647058823528
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Department of Mathematics, Stanford University, Stanford CA 94305, ksound@stanford.edu"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.11850311850311851,
+            0.05,
+            0.841995841995842,
+            0.08676470588235294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[49] Y. Zhang, Bounded gaps between primes. Ann. ofMath. (2) 179 (2014), no. 3, 1121–1174"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 3,
+          "bbox": [
+            0.12058212058212059,
+            0.9352941176470588,
+            0.1392931392931393,
+            0.9485294117647058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 4,
+          "bbox": [
+            0.1891891891891892,
+            0.9352941176470588,
+            0.3783783783783784,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The work of James Maynard"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,3928 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.4215686274509804,
+            0.15782828282828282,
+            0.5735294117647058,
+            0.18434343434343434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Superrigidity"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.4068627450980392,
+            0.20075757575757575,
+            0.5882352941176471,
+            0.21717171717171718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Inbo Gottlieb-Fenves"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.1111111111111111,
+            0.25126262626262624,
+            0.5245098039215687,
+            0.2702020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 Statement and some Corollaries"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8839869281045751,
+            0.3143939393939394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Throughout, we assume that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K / \\mathscr { R }"
+            },
+            {
+              "type": "text",
+              "content": "is an extension of fields, with k a local field of characteristic zero, and K algebraically closed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.10947712418300654,
+            0.32196969696969696,
+            0.8856209150326797,
+            0.3838383838383838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 1.1 (Margulis Superrigidity). Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "be a semisimple algebraic group with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } - \\mathrm { r k } ( G ) \\geq 2"
+            },
+            {
+              "type": "text",
+              "content": " and no compact factors. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "be an irreducible lattice. Let H be a simple noncompact R-algebraic group. Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon \\Gamma \\to H"
+            },
+            {
+              "type": "text",
+              "content": "is a homomorphism with πpΓq Zariski dense. Then π extends to a rational homomorphism "
+            },
+            {
+              "type": "equation_inline",
+              "content": "G  H"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.10947712418300654,
+            0.40404040404040403,
+            0.6356209150326797,
+            0.4255050505050505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 Proof of Margulis Superrigidity for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { k } = \\mathbb { R }"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.10947712418300654,
+            0.43686868686868685,
+            0.8856209150326797,
+            0.4671717171717172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 2.1. Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P < G"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L < H"
+            },
+            {
+              "type": "text",
+              "content": "are proper algebraic R-subgroups, and there is a rational Γ-equivariant map ϕ:"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": "defined over R. Then π extends to a rational homomorphism"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G  H"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1111111111111111,
+            0.47474747474747475,
+            0.5130718954248366,
+            0.4911616161616162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Consider the graph-closure"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { Z } } \\subseteq G \\times H"
+            },
+            {
+              "type": "text",
+              "content": "given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.40032679738562094,
+            0.5,
+            0.5947712418300654,
+            0.5214646464646465
+          ],
+          "image_path": "images/page_0_equation_8.jpg",
+          "content": "\\mathcal {Z} = \\overline {{\\left\\{\\left(\\gamma , \\pi (\\gamma)\\right) : \\gamma \\in \\Gamma \\right\\}}} ^ {\\mathrm{Zar}}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.10947712418300654,
+            0.5315656565656566,
+            0.8839869281045751,
+            0.5757575757575758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We desire to show that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": "is the graph of a rational homomorphism. To see this, note first that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "is Zariski dense by Borel density, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma ) \\leqslant H"
+            },
+            {
+              "type": "text",
+              "content": "is dense by assumption. Thus, the projection maps of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": "onto each factor is surjective."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.10947712418300654,
+            0.5757575757575758,
+            0.8856209150326797,
+            0.6085858585858586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We claim that if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( g , h _ { 1 } ) , ( g , h _ { 2 } ) \\in \\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } = h _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": ". To see this, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = \\operatorname { R a t } ( G / P , H / L )"
+            },
+            {
+              "type": "text",
+              "content": "be the space of rational maps"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": ". Then we have an action of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\times H"
+            },
+            {
+              "type": "text",
+              "content": "on R given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.4019607843137255,
+            0.6161616161616161,
+            0.5931372549019608,
+            0.6338383838383839
+          ],
+          "image_path": "images/page_0_equation_11.jpg",
+          "content": "[ (g, h) \\cdot \\phi ] (x) = h \\phi (g ^ {- 1} x)."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.10947712418300654,
+            0.6439393939393939,
+            0.3872549019607843,
+            0.6590909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\in R"
+            },
+            {
+              "type": "text",
+              "content": "is Γ-equivariant. Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.28431372549019607,
+            0.6691919191919192,
+            0.7107843137254902,
+            0.6868686868686869
+          ],
+          "image_path": "images/page_0_equation_13.jpg",
+          "content": "[ (\\gamma , \\pi (\\gamma)) \\cdot \\phi ] (x) = \\pi (\\gamma) \\phi (\\gamma^ {- 1} x) = \\pi (\\gamma) \\pi (\\gamma^ {- 1}) \\phi (x) = \\phi (x),"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.10947712418300654,
+            0.696969696969697,
+            0.8839869281045751,
+            0.7272727272727273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is invariant under the action of the graph of π. As"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is a rational map, the stabilizer of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is an R-algebraic subgroup containing the graph of π, thus"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": "must stabilize ϕ. In particular, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.4019607843137255,
+            0.7373737373737373,
+            0.5915032679738562,
+            0.7537878787878788
+          ],
+          "image_path": "images/page_0_equation_15.jpg",
+          "content": "h _ {1} \\phi (x) = \\phi (g x) = h _ {2} \\phi (x)."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.10947712418300654,
+            0.7626262626262627,
+            0.8839869281045751,
+            0.8345959595959596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } h _ { 2 } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "leaves"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( G / P )"
+            },
+            {
+              "type": "text",
+              "content": "invariant pointwise, and since it acts algebraically, we have that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } h _ { 2 } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "leaves "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }"
+            },
+            {
+              "type": "text",
+              "content": "invariant pointwise. At the same time, since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": "leaves"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( G / P )"
+            },
+            {
+              "type": "text",
+              "content": "invariant, it also leaves"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }"
+            },
+            {
+              "type": "text",
+              "content": " invariant, and since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": "is Zariski dense in H, we have that H leaves"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }"
+            },
+            {
+              "type": "text",
+              "content": "invariant, so in fact"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( G / P )"
+            },
+            {
+              "type": "text",
+              "content": " is Zariski dense in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / L"
+            },
+            {
+              "type": "text",
+              "content": ", and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } h _ { 2 } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "fixes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / L"
+            },
+            {
+              "type": "text",
+              "content": ". But then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.42320261437908496,
+            0.8421717171717171,
+            0.5718954248366013,
+            0.875
+          ],
+          "image_path": "images/page_0_equation_17.jpg",
+          "content": "h _ {1} h _ {2} ^ {- 1} \\in \\bigcap_ {h \\in H} h L h ^ {- 1},"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.10947712418300654,
+            0.8825757575757576,
+            0.7581699346405228,
+            0.898989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and since this is a proper normal subgroup of the simple group H, it follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h _ { 1 } = h _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5032679738562091,
+            0.9330808080808081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8856209150326797,
+            0.17297979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This implies that the projection map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { Z } } \\to G"
+            },
+            {
+              "type": "text",
+              "content": "is in fact a bijective regular map, and so it has a rational inverse"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 1 } \\colon G \\to \\mathcal { Z }"
+            },
+            {
+              "type": "text",
+              "content": ". Letting"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 2 } \\colon { \\mathcal { Z } } \\to H"
+            },
+            {
+              "type": "text",
+              "content": "be the projection map, we see that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho _ { 2 } \\rho _ { 1 } \\colon G \\to H"
+            },
+            {
+              "type": "text",
+              "content": "is a rational map which extends π. Moreover, it is a homomorphism on a Zariski dense subset, and so it is in fact a homomorphism.□"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.10947712418300654,
+            0.18181818181818182,
+            0.8839869281045751,
+            0.21464646464646464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "be a minimal parabolic subgroup, i.e., the intersection in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "with the subgroup of upper triangular matrices."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.10947712418300654,
+            0.22348484848484848,
+            0.8856209150326797,
+            0.2537878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 2.2. There exists a proper algebraic R-subgroup"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L < H"
+            },
+            {
+              "type": "text",
+              "content": "and a measurable Γ-equivariant map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon G / P \\to H / L"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.10947712418300654,
+            0.2638888888888889,
+            0.8839869281045751,
+            0.3244949494949495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\textless H"
+            },
+            {
+              "type": "text",
+              "content": "be a proper parabolic subgroup defined over R. Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / Q"
+            },
+            {
+              "type": "text",
+              "content": "is a compact metrizable Γ-space. Consider the product space"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\times { \\mathcal { M } } ( H / Q )"
+            },
+            {
+              "type": "text",
+              "content": ". Since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": "is minimal parabolic,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": "is solvable, hence amenable. As"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "is a closed subgroup, by amenability inheritance there exists a measurable Γ-equivariant section ϕ :"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to \\mathcal { M } ( H / Q )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.10947712418300654,
+            0.32323232323232326,
+            0.8839869281045751,
+            0.369949494949495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q \\leqslant H"
+            },
+            {
+              "type": "text",
+              "content": "is R-cocompact, then a result of Zimmer states that H acts smoothly on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ( H / Q )"
+            },
+            {
+              "type": "text",
+              "content": ", i.e., the quotient"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H \\backslash { \\mathcal { M } } ( H / Q )"
+            },
+            {
+              "type": "text",
+              "content": "is countably separated. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi } \\colon G / P \\to H \\backslash \\mathcal { M } ( H / Q )"
+            },
+            {
+              "type": "text",
+              "content": "be the induced map. As"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is Γ-invariant (on a conull set), we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.4019607843137255,
+            0.3787878787878788,
+            0.5931372549019608,
+            0.398989898989899
+          ],
+          "image_path": "images/page_1_equation_5.jpg",
+          "content": "\\bar {\\phi} (\\gamma x) = \\pi (\\gamma) \\bar {\\phi} (x) = \\bar {\\phi} (x),"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.10947712418300654,
+            0.4078282828282828,
+            0.8856209150326797,
+            0.48484848484848486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": "is constant along Γ-orbits. But the codomain of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": "is a countably separated space, and Γ acts on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P"
+            },
+            {
+              "type": "text",
+              "content": " ergodically by the Howe-Moore vanishing theorem. Thus"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi }"
+            },
+            {
+              "type": "text",
+              "content": "is a.e. constant, i.e.,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "has essential range given by a single H-orbit"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H \\mu"
+            },
+            {
+              "type": "text",
+              "content": ". But the stabilizer L of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": "under the action of H is a proper algebraic R-subgroup. Again by smoothness, the map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / L \\to H \\mu"
+            },
+            {
+              "type": "text",
+              "content": "is a homeomorphism, and so we may view"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "as a Γ-equivariant map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": ", as desired.□"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10947712418300654,
+            0.494949494949495,
+            0.7156862745098039,
+            0.51010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 2.3. Every measurable Γ-equivariant map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": "is rational."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.10947712418300654,
+            0.5202020202020202,
+            0.8839869281045751,
+            0.5656565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof of this proposition is by far the most dificult step in the proof, and proceed via a series of reductions. To start, we will lift"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "to a right P-invariant map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G  H / L"
+            },
+            {
+              "type": "text",
+              "content": ". We also let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": "denote the intersection of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G"
+            },
+            {
+              "type": "text",
+              "content": "in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "with the subgroup of unipotent lower triangular matrices."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.10947712418300654,
+            0.5656565656565656,
+            0.8839869281045751,
+            0.5959595959595959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A rational function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": "then defines a"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P -"
+            },
+            {
+              "type": "text",
+              "content": "-invariant function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U \\times P \\to H / L ."
+            },
+            {
+              "type": "text",
+              "content": ", which in turn defines a map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": ". Thus, if"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi | _ { U }"
+            },
+            {
+              "type": "text",
+              "content": "is rational, then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is rational."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13398692810457516,
+            0.5959595959595959,
+            0.45751633986928103,
+            0.6098484848484849
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have another black box from Lie theory:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.10947712418300654,
+            0.6199494949494949,
+            0.8856209150326797,
+            0.6515151515151515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.4. Suppose G has R-rank at least 2. There exist nonidentity elements"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { 1 } , . . . , t _ { n } \\in A"
+            },
+            {
+              "type": "text",
+              "content": "and connected algebraic unipotent subgroups"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "so that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12418300653594772,
+            0.6616161616161617,
+            0.7418300653594772,
+            0.6767676767676768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i , U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "is contained in a semisimple R-group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "of elements centralizing"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { i } ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.12091503267973856,
+            0.6868686868686869,
+            0.6584967320261438,
+            0.7007575757575758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the product map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { 1 } \\times \\cdots \\times U _ { n } \\to U"
+            },
+            {
+              "type": "text",
+              "content": "is an R-isomorphism of varieties;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11601307189542484,
+            0.7108585858585859,
+            0.6094771241830066,
+            0.7272727272727273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r , U _ { 1 } \\cdots U _ { r }"
+            },
+            {
+              "type": "text",
+              "content": "is a subgroup of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U"
+            },
+            {
+              "type": "text",
+              "content": ", and is normal in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { r + 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.13398692810457516,
+            0.7361111111111112,
+            0.477124183006536,
+            0.7512626262626263
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the case of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S L _ { 3 } ( \\mathbb { R } ) }"
+            },
+            {
+              "type": "text",
+              "content": ", we can take for example"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.24673202614379086,
+            0.7613636363636364,
+            0.7467320261437909,
+            0.8118686868686869
+          ],
+          "image_path": "images/page_1_equation_16.jpg",
+          "content": "t _ {1} = \\left[ \\begin{array}{c c c} \\lambda & & \\\\ & \\lambda & \\\\ & & \\lambda^ {- 2} \\end{array} \\right], \\quad U _ {1} = \\left[ \\begin{array}{c c c} 1 & & \\\\ \\mathbb {R} & 1 & \\\\ & & 1 \\end{array} \\right], \\quad C _ {1} = \\left[ \\begin{array}{c c} \\mathrm{GL} _ {2} (\\mathbb {R}) & \\\\ & \\det ^ {- 1} \\end{array} \\right],"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.10947712418300654,
+            0.821969696969697,
+            0.8839869281045751,
+            0.8522727272727273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and similarly for the other elements. Note that this decomposition is not possible for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { S L _ { 2 } } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": ", and the higher rank condition is essential for the general proof."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.10947712418300654,
+            0.8623737373737373,
+            0.8839869281045751,
+            0.8939393939393939
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.5. If, for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a . e . \\ g \\in G"
+            },
+            {
+              "type": "text",
+              "content": "and each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i ,"
+            },
+            {
+              "type": "text",
+              "content": "the map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i } \\to H / L , u \\mapsto \\phi ( g u )"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational, then ϕ|"
+            },
+            {
+              "type": "text",
+              "content": "U",
+              "styles": [
+                "subscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is essentially rational."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8839869281045751,
+            0.1590909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. we induct on the following claim: for almost all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in G"
+            },
+            {
+              "type": "text",
+              "content": ", the map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\mapsto \\phi ( g u )"
+            },
+            {
+              "type": "text",
+              "content": "is rational on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { 1 } \\cdots U _ { r }"
+            },
+            {
+              "type": "text",
+              "content": " When"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 1"
+            },
+            {
+              "type": "text",
+              "content": ", this is exactly the assumption of the lemma. Suppose then that the statement holds for a.e. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in G"
+            },
+            {
+              "type": "text",
+              "content": "on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { 1 } \\cdots U _ { r }"
+            },
+            {
+              "type": "text",
+              "content": ". Choose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in U _ { 1 } \\cdots U _ { r }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "v \\in U _ { r + 1 }"
+            },
+            {
+              "type": "text",
+              "content": ". For each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { g , }"
+            },
+            {
+              "type": "text",
+              "content": "consider the function"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.42810457516339867,
+            0.17045454545454544,
+            0.5637254901960784,
+            0.18686868686868688
+          ],
+          "image_path": "images/page_2_equation_1.jpg",
+          "content": "\\phi_ {g} (u, v) = \\phi (g u v)."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.10947712418300654,
+            0.19823232323232323,
+            0.8856209150326797,
+            0.273989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By assumption, for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u ,"
+            },
+            {
+              "type": "text",
+              "content": "this map is a.e. rational in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "v ,"
+            },
+            {
+              "type": "text",
+              "content": "and so by Fubini’s theorem, for a.e."
+            },
+            {
+              "type": "equation_inline",
+              "content": "g , \\phi _ { g }"
+            },
+            {
+              "type": "text",
+              "content": "is rational in v for a.e. u. On the other hand, we have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { g } ( u , v ) = \\phi ( g v ( v ^ { - 1 } u v ) )"
+            },
+            {
+              "type": "text",
+              "content": ", and since v normalizes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { U } _ { 1 } \\cdots U _ { r }"
+            },
+            {
+              "type": "text",
+              "content": ", it follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { g }"
+            },
+            {
+              "type": "text",
+              "content": "is also essentially rational in u for a.e. g. But then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { g }"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational in both the u and v factor for a.e."
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ."
+            },
+            {
+              "type": "text",
+              "content": "This in turn implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi _ { g }"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { 1 } \\cdots U _ { r + 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", completing the induction.□"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8856209150326797,
+            0.31565656565656564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lemma 2.6. Suppose that for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 \\leqslant i \\leqslant n"
+            },
+            {
+              "type": "text",
+              "content": ", there exists a measurable map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\colon G \\to H"
+            },
+            {
+              "type": "text",
+              "content": "(perhaps depending on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "i )"
+            },
+            {
+              "type": "text",
+              "content": "so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( g c ) = h ( g ) \\phi ( c )"
+            },
+            {
+              "type": "text",
+              "content": "for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a . e . \\ c \\in C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g \\in G"
+            },
+            {
+              "type": "text",
+              "content": ", then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi | _ { U }"
+            },
+            {
+              "type": "text",
+              "content": "is rational."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.10947712418300654,
+            0.3244949494949495,
+            0.8839869281045751,
+            0.35353535353535354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Let B denote the subgroup of H fixing"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "pointwise. Note that this subgroup is algebraic, as it is the intersection of stabilizers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13398692810457516,
+            0.3547979797979798,
+            0.6764705882352942,
+            0.369949494949495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First, we show that im h normalizes B. Given"
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\in B"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c , c ^ { \\prime } \\in C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.2875816993464052,
+            0.3787878787878788,
+            0.7075163398692811,
+            0.398989898989899
+          ],
+          "image_path": "images/page_2_equation_6.jpg",
+          "content": "[ h (c) ^ {- 1} b h (c) ] \\phi (c ^ {\\prime}) = h (c) ^ {- 1} b \\phi (c c ^ {\\prime}) = h (c) ^ {- 1} \\phi (c c ^ {\\prime}) = \\phi (c ^ {\\prime}),"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10947712418300654,
+            0.4090909090909091,
+            0.3349673202614379,
+            0.42297979797979796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This shows im h normalizes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.10947712418300654,
+            0.42297979797979796,
+            0.8839869281045751,
+            0.45580808080808083
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, consider the induced map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { h } \\colon C _ { i } \\to N _ { G } ( B ) / B"
+            },
+            {
+              "type": "text",
+              "content": "given by projection. We claim"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { h }"
+            },
+            {
+              "type": "text",
+              "content": "is a homomorphism. To see this, choose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c , c ^ { \\prime } , c ^ { \\prime \\prime } \\in C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ". We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.35294117647058826,
+            0.4659090909090909,
+            0.6405228758169934,
+            0.48358585858585856
+          ],
+          "image_path": "images/page_2_equation_9.jpg",
+          "content": "h (c c ^ {\\prime}) \\phi (c ^ {\\prime \\prime}) = \\phi (c c ^ {\\prime} c ^ {\\prime \\prime}) = h (c) h (c ^ {\\prime}) \\phi (c ^ {\\prime \\prime}),"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.10947712418300654,
+            0.494949494949495,
+            0.5816993464052288,
+            0.5088383838383839
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ( c c ^ { \\prime } ) ^ { - 1 } h ( c ) h ( c ^ { \\prime } ) \\in B"
+            },
+            {
+              "type": "text",
+              "content": ", proving that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { h }"
+            },
+            {
+              "type": "text",
+              "content": "is a homomorphism."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.10947712418300654,
+            0.5088383838383839,
+            0.8839869281045751,
+            0.5416666666666666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, recall that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "is semisimple, so the image of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "under"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { h }"
+            },
+            {
+              "type": "text",
+              "content": "is unipotent by automatic unipotence, and hence the restriction of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { h }"
+            },
+            {
+              "type": "text",
+              "content": "to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "is rational by automatic rationality. Thus, for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u \\in U _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.37254901960784315,
+            0.5517676767676768,
+            0.6209150326797386,
+            0.5694444444444444
+          ],
+          "image_path": "images/page_2_equation_12.jpg",
+          "content": "\\phi (g u) = h (g) \\phi (u) = h (g) \\bar {h} (u) \\phi (1)."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.10947712418300654,
+            0.5808080808080808,
+            0.6176470588235294,
+            0.5959595959595959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But this map is rational for fixed"
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { g , }"
+            },
+            {
+              "type": "text",
+              "content": "and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi | _ { U _ { i } }"
+            },
+            {
+              "type": "text",
+              "content": "is rational, as desired."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.10947712418300654,
+            0.6047979797979798,
+            0.7026143790849673,
+            0.6199494949494949
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 2.7. Any Γ-equivariant measurable map ϕ:"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": "is rational."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.10947712418300654,
+            0.6300505050505051,
+            0.8839869281045751,
+            0.6767676767676768
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Abusing notation, instead let ϕ denote the P-invariant map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G  H / L"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } ( C _ { i } , H / L )"
+            },
+            {
+              "type": "text",
+              "content": "denote the space of measurable maps"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i } \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": ", modulo a.e. equivalence. Consider the function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Phi \\colon G \\to { \\mathcal { F } } ( C _ { i } , H / L )"
+            },
+            {
+              "type": "text",
+              "content": " given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.434640522875817,
+            0.6767676767676768,
+            0.5588235294117647,
+            0.6919191919191919
+          ],
+          "image_path": "images/page_2_equation_16.jpg",
+          "content": "\\Phi (g) (c) = \\phi (g c)."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.10947712418300654,
+            0.6994949494949495,
+            0.5964052287581699,
+            0.7146464646464646
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then, for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": ", as"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "centralizes"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P -"
+            },
+            {
+              "type": "text",
+              "content": "-invariant, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.3235294117647059,
+            0.7247474747474747,
+            0.6699346405228758,
+            0.7424242424242424
+          ],
+          "image_path": "images/page_2_equation_18.jpg",
+          "content": "\\Phi (g t _ {i}) (c) = \\phi (g t _ {i} c) = \\phi (g c t _ {i}) = \\phi (g c) = \\Phi (g) (c)"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.10947712418300654,
+            0.7537878787878788,
+            0.8839869281045751,
+            0.8156565656565656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "for all"
+            },
+            {
+              "type": "equation_inline",
+              "content": "c \\in C _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "denote the one-parameter subgroup of A containing"
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { i }"
+            },
+            {
+              "type": "text",
+              "content": ". As ϕ is Γ-equivariant, the map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\Phi } \\colon G / T _ { i } \\to H \\backslash \\mathcal { F } ( C _ { i } , H / L )"
+            },
+            {
+              "type": "text",
+              "content": "is constant along Γ-orbits. But"
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "is noncompact, so Γ acts on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / T _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "ergodically by Howe-Moore. Moreover, H acts on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { F } ( C _ { i } , H / L )"
+            },
+            {
+              "type": "text",
+              "content": "smoothly (since"
+            },
+            {
+              "type": "equation_inline",
+              "content": "C _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "is σ-finite and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / L"
+            },
+            {
+              "type": "text",
+              "content": "is an R-variety on which H acts by regular maps). Thus ergodicity of Γ implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\Phi }"
+            },
+            {
+              "type": "text",
+              "content": "is essentially constant, i.e., the function"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.4297385620915033,
+            0.8257575757575758,
+            0.5637254901960784,
+            0.8434343434343434
+          ],
+          "image_path": "images/page_2_equation_20.jpg",
+          "content": "\\Phi (g) (c) = H \\phi (g c)"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.10947712418300654,
+            0.8547979797979798,
+            0.8856209150326797,
+            0.8838383838383839
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is essentially constant in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ."
+            },
+            {
+              "type": "text",
+              "content": "In particular, we must have"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi ( g c ) = h ( g ) \\phi ( c )"
+            },
+            {
+              "type": "text",
+              "content": "for some function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h \\colon G \\to H"
+            },
+            {
+              "type": "text",
+              "content": ". This finishes the proof.□"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.10947712418300654,
+            0.10858585858585859,
+            0.3562091503267974,
+            0.12878787878787878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 Required Results"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.10947712418300654,
+            0.1388888888888889,
+            0.8856209150326797,
+            0.18686868686868688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.1 (Howe-Moore Vanishing Theorem). Suppose G is a semisimple connected Lie group with finite center and no compact factors. If"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "is a closed, noncompact subgroup, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "is a lattice, then Γ acts ergodically on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / H"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.10947712418300654,
+            0.19570707070707072,
+            0.576797385620915,
+            0.21085858585858586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.2 (Smoothness of Actions). Suppose H is k-group."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.12418300653594772,
+            0.22095959595959597,
+            0.8284313725490197,
+            0.23737373737373738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Suppose Q is a k-cocompact algebraic subgroup in H. Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\hbar }"
+            },
+            {
+              "type": "text",
+              "content": "acts smoothly on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { M } ( H _ { \\mathcal { R } } / Q _ { \\mathcal { R } } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.12091503267973856,
+            0.24494949494949494,
+            0.8856209150326797,
+            0.2777777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Suppose V is a k-variety, and H acts k-regularly on V. Then for any σ-finite measure space X, the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\hbar }"
+            },
+            {
+              "type": "text",
+              "content": "acts smoothly on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathcal { F } } ( X , V _ { \\mathbb { R } } )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.10947712418300654,
+            0.28535353535353536,
+            0.8856209150326797,
+            0.31691919191919193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.3 (Borel Density). Suppose G is a connected semisimple algebraic R-group with no compact factors. Then any lattice in G is Zariski dense."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.10947712418300654,
+            0.32575757575757575,
+            0.8872549019607843,
+            0.35858585858585856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.4 (Amenability Inheritance). Suppose G is a locally compact group, and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma , H \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "are closed subgroups. If H is amenable, then the Γ action on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / H"
+            },
+            {
+              "type": "text",
+              "content": "is amenable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10947712418300654,
+            0.3648989898989899,
+            0.8856209150326797,
+            0.398989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 3.5 (Automatic Rationality). Suppose U is an unipotent R-group and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon U \\to \\mathrm { G L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "is a measurable homomorphism with unipotent image. Then π is a regular map."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.10947712418300654,
+            0.4065656565656566,
+            0.8856209150326797,
+            0.4532828282828283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. By conjugating (which is a regular map), we may assume U is a subgroup of the group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { m }"
+            },
+            {
+              "type": "text",
+              "content": ", the unipotent upper triangular matrices in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathrm { G L } } _ { m } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": ". If we let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathfrak { n } } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "denote the Lie algebra of N, then the exponential map exp:"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathfrak { n } } _ { m } \\to N _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.434640522875817,
+            0.45075757575757575,
+            0.5588235294117647,
+            0.4898989898989899
+          ],
+          "image_path": "images/page_3_equation_9.jpg",
+          "content": "\\exp (g) = \\sum_ {k = 0} ^ {\\infty} \\frac {g ^ {k}}{k !}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.10784313725490197,
+            0.494949494949495,
+            0.8856209150326797,
+            0.5265151515151515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is in fact a regular map, since a P n is nilpotent (and so the sum is zero after m terms). Moreover, exp has an inverse log :"
+            },
+            {
+              "type": "equation_inline",
+              "content": "N _ { m } \\to \\mathfrak { n } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": "given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3937908496732026,
+            0.523989898989899,
+            0.6013071895424836,
+            0.5631313131313131
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "\\log (g) = \\sum_ {k = 0} ^ {\\infty} (- 1) ^ {k} \\frac {(g - \\mathrm{id}) ^ {k}}{k !},"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.10947712418300654,
+            0.5669191919191919,
+            0.8839869281045751,
+            0.5984848484848485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is again a regular map. Thus, if u is the Lie algebra of U, then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\exp \\colon \\mathfrak { u }  U"
+            },
+            {
+              "type": "text",
+              "content": "defines a biregular R-isomorphism of varieties."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.10947712418300654,
+            0.5997474747474747,
+            0.8856209150326797,
+            0.6452020202020202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As π is a measurable homomorphism, it is automatically continuous, hence automatically smooth. Let dπ :"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathfrak { u } \\to \\mathfrak { g l } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "denote the derivative of π at the identity; since π has unipotent image, the codomain of dπ may be taken to be the Lie algebra"
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathfrak { n } } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": ". Then we have a commutative diagram"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.4362745098039216,
+            0.6565656565656566,
+            0.5588235294117647,
+            0.7121212121212122
+          ],
+          "image_path": "images/page_3_equation_14.jpg",
+          "content": "\\begin{array}{c} U \\xrightarrow {\\pi} N _ {n} \\\\ \\log \\Biggl \\downarrow \\\\ \\mathfrak {u} \\xrightarrow {d \\pi} \\mathfrak {n} _ {n} \\end{array} \\Bigg | _ {\\text {exp}}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.10947712418300654,
+            0.726010101010101,
+            0.5735294117647058,
+            0.7424242424242424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But log and exp are regular and dπ is linear, hence π is regular."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.10947712418300654,
+            0.7525252525252525,
+            0.8856209150326797,
+            0.797979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 3.6 (Automatic Unipotence). Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\leqslant \\mathrm { G L } _ { m } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "be a semisimple Lie group and suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon G \\to \\mathbf { G L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "is a measurable representaion."
+            },
+            {
+              "type": "equation_inline",
+              "content": "I f U \\subseteq G"
+            },
+            {
+              "type": "text",
+              "content": "is a connected unipotent subgroup, then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi | _ { U }"
+            },
+            {
+              "type": "text",
+              "content": "is a unipotent representation, i.e., π has unipotent image."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.10947712418300654,
+            0.8068181818181818,
+            0.8856209150326797,
+            0.851010101010101
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 3.7 (A.e. Rationality). Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f \\colon \\mathbb { R } ^ { m } \\times \\mathbb { R } ^ { n } \\to V"
+            },
+            {
+              "type": "text",
+              "content": "is a measurable function so that, for a.e. x,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "y \\mapsto f ( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational, and for a.e."
+            },
+            {
+              "type": "equation_inline",
+              "content": "y , x \\mapsto f ( x , y )"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational, then f is essentially rational."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8856209150326797,
+            0.1590909090909091
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. It sufices to show the statement for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = n = 1"
+            },
+            {
+              "type": "text",
+              "content": ", and we may additionally assume that the maps are rational rather than just essentially rational by Fubini’s theorem. Suppose we knew that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f"
+            },
+            {
+              "type": "text",
+              "content": "agreed with a rational function"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "on a set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\times \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\subseteq \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": "were a set of positive measure. But then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.30718954248366015,
+            0.16792929292929293,
+            0.684640522875817,
+            0.2032828282828283
+          ],
+          "image_path": "images/page_4_equation_1.jpg",
+          "content": "0 = \\int_ {A \\times \\mathbb {R}} | f - \\phi | = \\int_ {\\mathbb {R}} \\left[ \\int_ {A} | f (x, y) - \\phi (x, y) | d x \\right] d y."
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.10947712418300654,
+            0.21212121212121213,
+            0.8839869281045751,
+            0.24368686868686867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\cdot , y ) = \\phi ( \\cdot , y )"
+            },
+            {
+              "type": "text",
+              "content": "a.e. on A for a.e. y. As"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\cdot , y )"
+            },
+            {
+              "type": "text",
+              "content": "is assumed to be rational,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( \\cdot , y ) = \\phi ( \\cdot , y )"
+            },
+            {
+              "type": "text",
+              "content": "a.e. on R for a.e. y, which in turn implies"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = \\phi \\ \\mathrm { a . e }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.10947712418300654,
+            0.24368686868686867,
+            0.8856209150326797,
+            0.28914141414141414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A _ { r , s }"
+            },
+            {
+              "type": "text",
+              "content": "denote the set of points"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 0 } \\in \\mathbb { R }"
+            },
+            {
+              "type": "text",
+              "content": "so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ( x _ { 0 } , \\cdot )"
+            },
+            {
+              "type": "text",
+              "content": "is, in lowest terms, of the form"
+            },
+            {
+              "type": "equation_inline",
+              "content": "P ( y ) / Q ( y )"
+            },
+            {
+              "type": "text",
+              "content": ", where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P"
+            },
+            {
+              "type": "text",
+              "content": "is of degree r and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q"
+            },
+            {
+              "type": "text",
+              "content": "is of degree s. Note that one of these sets has positive measure; set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = A _ { r , s }"
+            },
+            {
+              "type": "text",
+              "content": "with positive measure. Then, for"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in A"
+            },
+            {
+              "type": "text",
+              "content": ", we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.39052287581699346,
+            0.29924242424242425,
+            0.6029411764705882,
+            0.33585858585858586
+          ],
+          "image_path": "images/page_4_equation_4.jpg",
+          "content": "f (x, y) = \\frac {y ^ {r} + \\sum_ {i = 0} ^ {r - 1} a _ {i} (x) y ^ {i}}{\\sum_ {i = 0} ^ {s} b _ {i} (x) y ^ {i}}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.10947712418300654,
+            0.34595959595959597,
+            0.8839869281045751,
+            0.39015151515151514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It thus sufices to show that the functions"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { i } , b _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "are essentially rational. However, if we let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\lambda _ { 1 } , . . . , \\lambda _ { r + s + 1 } \\in ]"
+            },
+            {
+              "type": "text",
+              "content": "R denote a set such that, for each"
+            },
+            {
+              "type": "equation_inline",
+              "content": "j , f ( \\cdot , \\lambda _ { j } )"
+            },
+            {
+              "type": "text",
+              "content": "is essentially rational; then the"
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { i } , b _ { i }"
+            },
+            {
+              "type": "text",
+              "content": "are solutions to the system of equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.39052287581699346,
+            0.3888888888888889,
+            0.6029411764705882,
+            0.42676767676767674
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "f _ {\\lambda_ {j}} (x) = \\frac {\\lambda_ {j} ^ {r} + \\sum_ {i = 0} ^ {r - 1} a _ {i} (x) \\lambda_ {j} ^ {i}}{\\sum_ {i = 0} ^ {s} b _ {i} (x) \\lambda_ {j} ^ {i}}."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10947712418300654,
+            0.43308080808080807,
+            0.8856209150326797,
+            0.46464646464646464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is a system of equations over the field"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } ( x )"
+            },
+            {
+              "type": "text",
+              "content": "with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r + s + 1"
+            },
+            {
+              "type": "text",
+              "content": "variables and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "r + s + 1"
+            },
+            {
+              "type": "text",
+              "content": "equations, thus it has a unique solution, which is rational in x by Cramer’s rule.□"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.10947712418300654,
+            0.4861111111111111,
+            0.5424836601307189,
+            0.5063131313131313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4 Superrigidity over General Fields"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.10947712418300654,
+            0.5176767676767676,
+            0.8856209150326797,
+            0.5631313131313131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the only place in which we used that H was an algebraic R-group was in the proof of Proposition 2.2., where we used the fact that L was an algebraic R-group. For general local fields k this is not true; we instead have the following result:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.10947712418300654,
+            0.5732323232323232,
+            0.8856209150326797,
+            0.6047979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 4.1. Suppose H is a connected k-group, almost simple over"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { k }"
+            },
+            {
+              "type": "text",
+              "content": ", and that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q < H"
+            },
+            {
+              "type": "text",
+              "content": "is a proper k-cocompact subgroup. Then for any"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\in \\mathcal { M } ( H _ { \\mathcal { k } } / Q _ { \\mathcal { k } } )"
+            },
+            {
+              "type": "text",
+              "content": ", either"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.12581699346405228,
+            0.6136363636363636,
+            0.4934640522875817,
+            0.6287878787878788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the stabilizer"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( H _ { \\hbar } \\right) _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": "of µ in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\hbar }"
+            },
+            {
+              "type": "text",
+              "content": "is compact, or;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.12091503267973856,
+            0.6388888888888888,
+            0.6879084967320261,
+            0.6540404040404041
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) there is an algebraic k-group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L < G"
+            },
+            {
+              "type": "text",
+              "content": "with dim L ă dim G and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathcal { k } } \\supseteq ( H _ { \\mathcal { k } } ) _ { \\mu }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.10947712418300654,
+            0.6641414141414141,
+            0.8839869281045751,
+            0.73989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\mathbb { R } } \\mu \\to H _ { \\mathbb { R } } / L _ { \\mathbb { R } } ;"
+            },
+            {
+              "type": "text",
+              "content": ": by smoothness the natural map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { \\hbar } \\mu \\to H _ { \\hbar } / ( H _ { \\hbar } ) _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": " is a homeomorphism and"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathcal { k } }"
+            },
+            {
+              "type": "text",
+              "content": "is a proper closed subgroup containing"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( H _ { \\hbar } \\right) _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": ", and all maps are obviously Γ- equivariant, so we again obtain a map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H _ { \\hbar } / L _ { \\hbar }"
+            },
+            {
+              "type": "text",
+              "content": ". Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.10947712418300654,
+            0.75,
+            0.8856209150326797,
+            0.8106060606060606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proposition 4.2. Suppose Γ is a locally compact group,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X , \\mu )"
+            },
+            {
+              "type": "text",
+              "content": "is a quasi-invariant Γ-space with quasi-invariant measure, and the action of Γ on X is weak mixing. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon \\Gamma  H"
+            },
+            {
+              "type": "text",
+              "content": "be a homomorphism with H also locally compact, and suppose there exists a measurable Γ-equivariant map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon X \\to H / K"
+            },
+            {
+              "type": "text",
+              "content": ", where"
+            },
+            {
+              "type": "equation_inline",
+              "content": "K \\leqslant H"
+            },
+            {
+              "type": "text",
+              "content": " is a compact subgroup. Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\pi ( \\Gamma ) } }"
+            },
+            {
+              "type": "text",
+              "content": "is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.10947712418300654,
+            0.8194444444444444,
+            0.8856209150326797,
+            0.8964646464646465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. Without loss of generality, we may choose µ to be a probability measure on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "X"
+            },
+            {
+              "type": "text",
+              "content": ", so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu = \\phi _ { * } \\mu"
+            },
+            {
+              "type": "text",
+              "content": "is a probability measure on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / K"
+            },
+            {
+              "type": "text",
+              "content": ". The map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\times \\phi \\colon X \\times X \\to H / K \\times H / K"
+            },
+            {
+              "type": "text",
+              "content": "is still Γ-equivariant; moreover, since the action of Γ is weak mixing,"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\times \\mu"
+            },
+            {
+              "type": "text",
+              "content": "is ergodic, and so ν ˆ ν is ergodic. Now, the action of K on H is smooth by compactness of K, and hence the action of H on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / K \\times H / K"
+            },
+            {
+              "type": "text",
+              "content": "is smooth. Therefore, the induced map "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { \\phi } \\colon X \\times X \\to H \\backslash ( H / K \\times H / K )"
+            },
+            {
+              "type": "text",
+              "content": "is Γ-invariant, and since the quotient space is countably separated, it follows"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.4918300653594771,
+            0.922979797979798,
+            0.5049019607843137,
+            0.9343434343434344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8839869281045751,
+            0.14393939393939395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that the map is essentially constant, and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu \\times \\nu"
+            },
+            {
+              "type": "text",
+              "content": "is supported on an H-orbit"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { O } = H ( u , v )"
+            },
+            {
+              "type": "text",
+              "content": ". By Fubini’s theorem, there must exist"
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\in H"
+            },
+            {
+              "type": "text",
+              "content": "so that ν is supported on the slice"
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { x } = \\{ y K \\in H / K : ( x K , y K ) \\in \\theta \\}"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13398692810457516,
+            0.14267676767676768,
+            0.5555555555555556,
+            0.15782828282828282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "y K , y ^ { \\prime } K \\in E _ { x }"
+            },
+            {
+              "type": "text",
+              "content": ". Then there exist"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h , h ^ { \\prime } \\in H"
+            },
+            {
+              "type": "text",
+              "content": "so that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.2826797385620915,
+            0.1691919191919192,
+            0.7124183006535948,
+            0.18686868686868688
+          ],
+          "image_path": "images/page_5_equation_2.jpg",
+          "content": "(x K, y K) = (h u K, h v K) \\quad \\text { and } \\quad (x K, y ^ {\\prime} K) = (h ^ {\\prime} u K, h ^ {\\prime} v K)."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.10947712418300654,
+            0.19696969696969696,
+            0.8856209150326797,
+            0.273989898989899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus"
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { - 1 } h ^ { \\prime } \\in u K u ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", and so there exists"
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\in \\ K"
+            },
+            {
+              "type": "text",
+              "content": "so that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "y K = h v K = u k u ^ { - 1 } h ^ { \\prime } v K = u k u ^ { - 1 } y ^ { \\prime } K"
+            },
+            {
+              "type": "text",
+              "content": ". In particular, the set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { x }"
+            },
+            {
+              "type": "text",
+              "content": "is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { ~ a ~ } u K u ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": "-orbit in"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H / K ;"
+            },
+            {
+              "type": "text",
+              "content": "since K is compact, so is"
+            },
+            {
+              "type": "equation_inline",
+              "content": "u K u ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", and orbits of compact groups are compact, so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "E _ { x } \\subseteq H / K"
+            },
+            {
+              "type": "text",
+              "content": "is compact. In other words, supp ν is compact. But ν is quasi-invariant with respect to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": ", and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": "leaves supp ν invariant. Lifting to"
+            },
+            {
+              "type": "equation_inline",
+              "content": "H ,"
+            },
+            {
+              "type": "text",
+              "content": "we see that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": "leaves a compact set"
+            },
+            {
+              "type": "equation_inline",
+              "content": "B \\subseteq H"
+            },
+            {
+              "type": "text",
+              "content": "invariant under translation. Thus"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma ) \\subseteq B B ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": ", and so"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\pi ( \\Gamma ) } }"
+            },
+            {
+              "type": "text",
+              "content": "is compact.□"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8856209150326797,
+            0.3446969696969697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 4.3 (The Case"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathcal { k } = \\mathbb { C } )"
+            },
+            {
+              "type": "text",
+              "content": ". Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "be a semisimple algebraic group with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } - \\mathrm { r k } ( G ) \\geq 2"
+            },
+            {
+              "type": "text",
+              "content": "and no compact factors. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "be an irreducible lattice. Let H be a simple noncompact C-algebraic group. Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon \\Gamma  H _ { \\mathbb { C } }"
+            },
+            {
+              "type": "text",
+              "content": "is a homomorphism with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": "Zariski dense. Then either"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\pi ( \\Gamma ) } } \\leqslant H _ { \\mathbb { C } }"
+            },
+            {
+              "type": "text",
+              "content": "is compact in the Hausdorf topology or π extends to a rational homomorphism"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\to H _ { \\mathbb { C } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.10947712418300654,
+            0.3547979797979798,
+            0.8839869281045751,
+            0.4027777777777778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. By Howe-Moore, the action of Γ on"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P"
+            },
+            {
+              "type": "text",
+              "content": "is weak mixing. Suppose condition (i) holds in Proposition 4.1. As in the proof of Proposition 2.2., we obtain a measurable Γ-equivariant map ϕ :"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P \\to H _ { \\mathbb { C } } / ( H _ { \\mathbb { C } } ) _ { \\mu } ."
+            },
+            {
+              "type": "text",
+              "content": " By the assumption that the stabilizer of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu"
+            },
+            {
+              "type": "text",
+              "content": "is compact, Proposition 4.2 states that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\pi ( \\Gamma ) } }"
+            },
+            {
+              "type": "text",
+              "content": "is compact.□"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.10947712418300654,
+            0.41035353535353536,
+            0.8856209150326797,
+            0.4722222222222222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 4.4 (The Case of k Nonarchimedean). Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )"
+            },
+            {
+              "type": "text",
+              "content": "be a semisimple algebraic group with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } - \\operatorname { r k } ( G ) \\geq 2"
+            },
+            {
+              "type": "text",
+              "content": "and no compact factors. Let"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Gamma \\leqslant G"
+            },
+            {
+              "type": "text",
+              "content": "be an irreducible lattice. Let H be a simple noncompact k-algebraic group, for k a non-Archimedean local field. Suppose"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi \\colon \\Gamma  H _ { \\mathcal { k } }"
+            },
+            {
+              "type": "text",
+              "content": "is a homomorphism with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": " Zariski dense. Then"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\pi ( \\Gamma ) } } \\leqslant H _ { \\mathcal { k } }"
+            },
+            {
+              "type": "text",
+              "content": "is compact."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.10947712418300654,
+            0.4810606060606061,
+            0.8856209150326797,
+            0.6047979797979798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof. By Propositions 4.1 and 4.2, it sufices to show that (ii) cannot occur. Suppose for sake of contradiction that, as in Proposition 4.1, there were to exist an algebraic k-group"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L < G"
+            },
+            {
+              "type": "text",
+              "content": "with dim"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L <"
+            },
+            {
+              "type": "text",
+              "content": "dim G such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathcal { k } } \\subseteq ( H _ { \\mathcal { k } } ) _ { \\mu }"
+            },
+            {
+              "type": "text",
+              "content": ". Then as in Proposition 2.2, there exists a Γ-invariant measurable map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi \\colon G / P \\to H / L"
+            },
+            {
+              "type": "text",
+              "content": ". The rest of the proof of superrigidity does not depend on the local field k that is chosen; at the same time, the maps"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi | _ { U _ { i } }"
+            },
+            {
+              "type": "text",
+              "content": "as in the proof are then continuous maps from a connected set into a totally disconnected set, thus they must be constant. It then follows that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi | _ { U }"
+            },
+            {
+              "type": "text",
+              "content": "is constant, hence after identifying U with"
+            },
+            {
+              "type": "equation_inline",
+              "content": "G / P ,"
+            },
+            {
+              "type": "text",
+              "content": "we see that the rational map"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\phi"
+            },
+            {
+              "type": "text",
+              "content": "we have constructed is in fact constant. However, Γ-equivariance implies that"
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( \\Gamma )"
+            },
+            {
+              "type": "text",
+              "content": " is contained in some conjugate of"
+            },
+            {
+              "type": "equation_inline",
+              "content": "L _ { \\mathcal { k } }"
+            },
+            {
+              "type": "text",
+              "content": ", which contradicts Zariski density.□"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9343434343434344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

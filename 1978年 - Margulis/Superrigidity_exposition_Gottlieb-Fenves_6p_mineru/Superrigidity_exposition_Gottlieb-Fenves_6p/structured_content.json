@@ -1,0 +1,1156 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.4215686274509804,
+            0.15782828282828282,
+            0.5735294117647058,
+            0.18434343434343434
+          ],
+          "level": 1,
+          "content": "Superrigidity"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.4068627450980392,
+            0.20075757575757575,
+            0.5882352941176471,
+            0.21717171717171718
+          ],
+          "level": 1,
+          "content": "Inbo Gottlieb-Fenves"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1111111111111111,
+            0.25126262626262624,
+            0.5245098039215687,
+            0.2702020202020202
+          ],
+          "level": 2,
+          "content": "1 Statement and some Corollaries"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8839869281045751,
+            0.3143939393939394
+          ],
+          "content": "Throughout, we assume that$K / \\mathscr { R }$is an extension of fields, with k a local field of characteristic zero, and K algebraically closed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.32196969696969696,
+            0.8856209150326797,
+            0.3838383838383838
+          ],
+          "content": "Theorem 1.1 (Margulis Superrigidity). Let$G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )$be a semisimple algebraic group with$\\mathbb { R } - \\mathrm { r k } ( G ) \\geq 2$ and no compact factors. Let$\\Gamma \\leqslant G$be an irreducible lattice. Let H be a simple noncompact R-algebraic group. Suppose$\\pi \\colon \\Gamma \\to H$is a homomorphism with πpΓq Zariski dense. Then π extends to a rational homomorphism $G  H$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.10947712418300654,
+            0.40404040404040403,
+            0.6356209150326797,
+            0.4255050505050505
+          ],
+          "level": 2,
+          "content": "2 Proof of Margulis Superrigidity for$\\mathcal { k } = \\mathbb { R }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.43686868686868685,
+            0.8856209150326797,
+            0.4671717171717172
+          ],
+          "content": "Proposition 2.1. Suppose$P < G$and$L < H$are proper algebraic R-subgroups, and there is a rational Γ-equivariant map ϕ:$G / P \\to H / L$defined over R. Then π extends to a rational homomorphism$G  H$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1111111111111111,
+            0.47474747474747475,
+            0.5130718954248366,
+            0.4911616161616162
+          ],
+          "content": "Proof. Consider the graph-closure${ \\mathcal { Z } } \\subseteq G \\times H$given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.40032679738562094,
+            0.5,
+            0.5947712418300654,
+            0.5214646464646465
+          ],
+          "content": "\\mathcal {Z} = \\overline {{\\left\\{\\left(\\gamma , \\pi (\\gamma)\\right) : \\gamma \\in \\Gamma \\right\\}}} ^ {\\mathrm{Zar}}.",
+          "image_source": "images/page_0_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5315656565656566,
+            0.8839869281045751,
+            0.5757575757575758
+          ],
+          "content": "We desire to show that$\\mathcal { Z }$is the graph of a rational homomorphism. To see this, note first that$\\Gamma \\leqslant G$is Zariski dense by Borel density, and$\\pi ( \\Gamma ) \\leqslant H$is dense by assumption. Thus, the projection maps of$\\mathcal { Z }$onto each factor is surjective."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5757575757575758,
+            0.8856209150326797,
+            0.6085858585858586
+          ],
+          "content": "We claim that if$( g , h _ { 1 } ) , ( g , h _ { 2 } ) \\in \\mathcal { Z }$, then$h _ { 1 } = h _ { 2 }$. To see this, let$R = \\operatorname { R a t } ( G / P , H / L )$be the space of rational maps$G / P \\to H / L$. Then we have an action of$G \\times H$on R given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4019607843137255,
+            0.6161616161616161,
+            0.5931372549019608,
+            0.6338383838383839
+          ],
+          "content": "[ (g, h) \\cdot \\phi ] (x) = h \\phi (g ^ {- 1} x).",
+          "image_source": "images/page_0_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6439393939393939,
+            0.3872549019607843,
+            0.6590909090909091
+          ],
+          "content": "Suppose$\\phi \\in R$is Γ-equivariant. Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28431372549019607,
+            0.6691919191919192,
+            0.7107843137254902,
+            0.6868686868686869
+          ],
+          "content": "[ (\\gamma , \\pi (\\gamma)) \\cdot \\phi ] (x) = \\pi (\\gamma) \\phi (\\gamma^ {- 1} x) = \\pi (\\gamma) \\pi (\\gamma^ {- 1}) \\phi (x) = \\phi (x),",
+          "image_source": "images/page_0_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.696969696969697,
+            0.8839869281045751,
+            0.7272727272727273
+          ],
+          "content": "so$\\phi$is invariant under the action of the graph of π. As$\\phi$is a rational map, the stabilizer of$\\phi$is an R-algebraic subgroup containing the graph of π, thus$\\mathcal { Z }$must stabilize ϕ. In particular, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4019607843137255,
+            0.7373737373737373,
+            0.5915032679738562,
+            0.7537878787878788
+          ],
+          "content": "h _ {1} \\phi (x) = \\phi (g x) = h _ {2} \\phi (x).",
+          "image_source": "images/page_0_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.7626262626262627,
+            0.8839869281045751,
+            0.8345959595959596
+          ],
+          "content": "Thus,$h _ { 1 } h _ { 2 } ^ { - 1 }$leaves$\\phi ( G / P )$invariant pointwise, and since it acts algebraically, we have that$h _ { 1 } h _ { 2 } ^ { - 1 }$leaves ${ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }$invariant pointwise. At the same time, since$\\pi ( \\Gamma )$leaves$\\phi ( G / P )$invariant, it also leaves${ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }$ invariant, and since$\\pi ( \\Gamma )$is Zariski dense in H, we have that H leaves${ \\overline { { \\phi ( G / P ) } } } ^ { \\mathrm { Z a r } }$invariant, so in fact$\\phi ( G / P )$ is Zariski dense in$H / L$, and so$h _ { 1 } h _ { 2 } ^ { - 1 }$fixes$H / L$. But then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42320261437908496,
+            0.8421717171717171,
+            0.5718954248366013,
+            0.875
+          ],
+          "content": "h _ {1} h _ {2} ^ {- 1} \\in \\bigcap_ {h \\in H} h L h ^ {- 1},",
+          "image_source": "images/page_0_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.8825757575757576,
+            0.7581699346405228,
+            0.898989898989899
+          ],
+          "content": "and since this is a proper normal subgroup of the simple group H, it follows that$h _ { 1 } = h _ { 2 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4934640522875817,
+            0.922979797979798,
+            0.5032679738562091,
+            0.9330808080808081
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8856209150326797,
+            0.17297979797979798
+          ],
+          "content": "This implies that the projection map${ \\mathcal { Z } } \\to G$is in fact a bijective regular map, and so it has a rational inverse$\\rho _ { 1 } \\colon G \\to \\mathcal { Z }$. Letting$\\rho _ { 2 } \\colon { \\mathcal { Z } } \\to H$be the projection map, we see that$\\rho _ { 2 } \\rho _ { 1 } \\colon G \\to H$is a rational map which extends π. Moreover, it is a homomorphism on a Zariski dense subset, and so it is in fact a homomorphism.□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.18181818181818182,
+            0.8839869281045751,
+            0.21464646464646464
+          ],
+          "content": "Now, let$P \\leqslant G$be a minimal parabolic subgroup, i.e., the intersection in$\\mathrm { S L } _ { n } ( \\mathbb { R } )$of$G$with the subgroup of upper triangular matrices."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.22348484848484848,
+            0.8856209150326797,
+            0.2537878787878788
+          ],
+          "content": "Proposition 2.2. There exists a proper algebraic R-subgroup$L < H$and a measurable Γ-equivariant map $\\phi \\colon G / P \\to H / L$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.2638888888888889,
+            0.8839869281045751,
+            0.3244949494949495
+          ],
+          "content": "Proof. Let$Q \\textless H$be a proper parabolic subgroup defined over R. Then$H / Q$is a compact metrizable Γ-space. Consider the product space$G / P \\times { \\mathcal { M } } ( H / Q )$. Since$P$is minimal parabolic,$P$is solvable, hence amenable. As$\\Gamma \\leqslant G$is a closed subgroup, by amenability inheritance there exists a measurable Γ-equivariant section ϕ :$G / P \\to \\mathcal { M } ( H / Q )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.32323232323232326,
+            0.8839869281045751,
+            0.369949494949495
+          ],
+          "content": "Since$Q \\leqslant H$is R-cocompact, then a result of Zimmer states that H acts smoothly on$\\mathcal { M } ( H / Q )$, i.e., the quotient$H \\backslash { \\mathcal { M } } ( H / Q )$is countably separated. Let$\\bar { \\phi } \\colon G / P \\to H \\backslash \\mathcal { M } ( H / Q )$be the induced map. As$\\phi$is Γ-invariant (on a conull set), we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4019607843137255,
+            0.3787878787878788,
+            0.5931372549019608,
+            0.398989898989899
+          ],
+          "content": "\\bar {\\phi} (\\gamma x) = \\pi (\\gamma) \\bar {\\phi} (x) = \\bar {\\phi} (x),",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.4078282828282828,
+            0.8856209150326797,
+            0.48484848484848486
+          ],
+          "content": "so$\\bar { \\phi }$is constant along Γ-orbits. But the codomain of$\\bar { \\phi }$is a countably separated space, and Γ acts on$G / P$ ergodically by the Howe-Moore vanishing theorem. Thus$\\bar { \\phi }$is a.e. constant, i.e.,$\\phi$has essential range given by a single H-orbit$H \\mu$. But the stabilizer L of$\\mu$under the action of H is a proper algebraic R-subgroup. Again by smoothness, the map$H / L \\to H \\mu$is a homeomorphism, and so we may view$\\phi$as a Γ-equivariant map$G / P \\to H / L$, as desired.□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.494949494949495,
+            0.7156862745098039,
+            0.51010101010101
+          ],
+          "content": "Proposition 2.3. Every measurable Γ-equivariant map$\\phi \\colon G / P \\to H / L$is rational."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5202020202020202,
+            0.8839869281045751,
+            0.5656565656565656
+          ],
+          "content": "The proof of this proposition is by far the most dificult step in the proof, and proceed via a series of reductions. To start, we will lift$\\phi$to a right P-invariant map$G  H / L$. We also let$U$denote the intersection of$G$in$\\mathrm { S L } _ { n } ( \\mathbb { R } )$with the subgroup of unipotent lower triangular matrices."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5656565656565656,
+            0.8839869281045751,
+            0.5959595959595959
+          ],
+          "content": "A rational function$U \\to H / L$then defines a$P -$-invariant function$U \\times P \\to H / L .$, which in turn defines a map$G / P \\to H / L$. Thus, if$\\phi | _ { U }$is rational, then$\\phi$is rational."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.5959595959595959,
+            0.45751633986928103,
+            0.6098484848484849
+          ],
+          "content": "We have another black box from Lie theory:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6199494949494949,
+            0.8856209150326797,
+            0.6515151515151515
+          ],
+          "content": "Lemma 2.4. Suppose G has R-rank at least 2. There exist nonidentity elements$t _ { 1 } , . . . , t _ { n } \\in A$and connected algebraic unipotent subgroups$U _ { i }$so that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12418300653594772,
+            0.6616161616161617,
+            0.7418300653594772,
+            0.6767676767676768
+          ],
+          "content": "(i) for each$i , U _ { i }$is contained in a semisimple R-group$C _ { i }$of elements centralizing$t _ { i } ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12091503267973856,
+            0.6868686868686869,
+            0.6584967320261438,
+            0.7007575757575758
+          ],
+          "content": "(ii) the product map$U _ { 1 } \\times \\cdots \\times U _ { n } \\to U$is an R-isomorphism of varieties;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11601307189542484,
+            0.7108585858585859,
+            0.6094771241830066,
+            0.7272727272727273
+          ],
+          "content": "(iii) for each$r , U _ { 1 } \\cdots U _ { r }$is a subgroup of$U$, and is normal in$U _ { r + 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.7361111111111112,
+            0.477124183006536,
+            0.7512626262626263
+          ],
+          "content": "In the case of$\\mathrm { S L _ { 3 } ( \\mathbb { R } ) }$, we can take for example"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.24673202614379086,
+            0.7613636363636364,
+            0.7467320261437909,
+            0.8118686868686869
+          ],
+          "content": "t _ {1} = \\left[ \\begin{array}{c c c} \\lambda & & \\\\ & \\lambda & \\\\ & & \\lambda^ {- 2} \\end{array} \\right], \\quad U _ {1} = \\left[ \\begin{array}{c c c} 1 & & \\\\ \\mathbb {R} & 1 & \\\\ & & 1 \\end{array} \\right], \\quad C _ {1} = \\left[ \\begin{array}{c c} \\mathrm{GL} _ {2} (\\mathbb {R}) & \\\\ & \\det ^ {- 1} \\end{array} \\right],",
+          "image_source": "images/page_1_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.821969696969697,
+            0.8839869281045751,
+            0.8522727272727273
+          ],
+          "content": "and similarly for the other elements. Note that this decomposition is not possible for$\\operatorname { S L _ { 2 } } ( \\mathbb { R } )$, and the higher rank condition is essential for the general proof."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.8623737373737373,
+            0.8839869281045751,
+            0.8939393939393939
+          ],
+          "content": "Lemma 2.5. If, for$a . e . \\ g \\in G$and each$i ,$the map$U _ { i } \\to H / L , u \\mapsto \\phi ( g u )$is essentially rational, then ϕ|<sub>U</sub> is essentially rational."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": "2"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8839869281045751,
+            0.1590909090909091
+          ],
+          "content": "Proof. we induct on the following claim: for almost all$g \\in G$, the map$u \\mapsto \\phi ( g u )$is rational on$U _ { 1 } \\cdots U _ { r }$ When$r = 1$, this is exactly the assumption of the lemma. Suppose then that the statement holds for a.e. $g \\in G$on$U _ { 1 } \\cdots U _ { r }$. Choose$u \\in U _ { 1 } \\cdots U _ { r }$and$v \\in U _ { r + 1 }$. For each$^ { g , }$consider the function"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42810457516339867,
+            0.17045454545454544,
+            0.5637254901960784,
+            0.18686868686868688
+          ],
+          "content": "\\phi_ {g} (u, v) = \\phi (g u v).",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.19823232323232323,
+            0.8856209150326797,
+            0.273989898989899
+          ],
+          "content": "By assumption, for each$u ,$this map is a.e. rational in$v ,$and so by Fubini’s theorem, for a.e.$g , \\phi _ { g }$is rational in v for a.e. u. On the other hand, we have$\\phi _ { g } ( u , v ) = \\phi ( g v ( v ^ { - 1 } u v ) )$, and since v normalizes$\\bar { U } _ { 1 } \\cdots U _ { r }$, it follows that$\\phi _ { g }$is also essentially rational in u for a.e. g. But then$\\phi _ { g }$is essentially rational in both the u and v factor for a.e.$g .$This in turn implies that$\\phi _ { g }$is essentially rational on$U _ { 1 } \\cdots U _ { r + 1 }$, completing the induction.□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8856209150326797,
+            0.31565656565656564
+          ],
+          "content": "Lemma 2.6. Suppose that for each$1 \\leqslant i \\leqslant n$, there exists a measurable map$h \\colon G \\to H$(perhaps depending on$i )$so that$\\phi ( g c ) = h ( g ) \\phi ( c )$for$a . e . \\ c \\in C _ { i }$and$g \\in G$, then$\\phi | _ { U }$is rational."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.3244949494949495,
+            0.8839869281045751,
+            0.35353535353535354
+          ],
+          "content": "Proof. Let B denote the subgroup of H fixing$C _ { i }$pointwise. Note that this subgroup is algebraic, as it is the intersection of stabilizers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.3547979797979798,
+            0.6764705882352942,
+            0.369949494949495
+          ],
+          "content": "First, we show that im h normalizes B. Given$b \\in B$and$c , c ^ { \\prime } \\in C _ { i }$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2875816993464052,
+            0.3787878787878788,
+            0.7075163398692811,
+            0.398989898989899
+          ],
+          "content": "[ h (c) ^ {- 1} b h (c) ] \\phi (c ^ {\\prime}) = h (c) ^ {- 1} b \\phi (c c ^ {\\prime}) = h (c) ^ {- 1} \\phi (c c ^ {\\prime}) = \\phi (c ^ {\\prime}),",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.4090909090909091,
+            0.3349673202614379,
+            0.42297979797979796
+          ],
+          "content": "This shows im h normalizes$B .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.42297979797979796,
+            0.8839869281045751,
+            0.45580808080808083
+          ],
+          "content": "Now, consider the induced map$\\bar { h } \\colon C _ { i } \\to N _ { G } ( B ) / B$given by projection. We claim$\\bar { h }$is a homomorphism. To see this, choose$c , c ^ { \\prime } , c ^ { \\prime \\prime } \\in C _ { i }$. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35294117647058826,
+            0.4659090909090909,
+            0.6405228758169934,
+            0.48358585858585856
+          ],
+          "content": "h (c c ^ {\\prime}) \\phi (c ^ {\\prime \\prime}) = \\phi (c c ^ {\\prime} c ^ {\\prime \\prime}) = h (c) h (c ^ {\\prime}) \\phi (c ^ {\\prime \\prime}),",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.494949494949495,
+            0.5816993464052288,
+            0.5088383838383839
+          ],
+          "content": "and so$h ( c c ^ { \\prime } ) ^ { - 1 } h ( c ) h ( c ^ { \\prime } ) \\in B$, proving that$\\bar { h }$is a homomorphism."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5088383838383839,
+            0.8839869281045751,
+            0.5416666666666666
+          ],
+          "content": "Finally, recall that$C _ { i }$is semisimple, so the image of$U _ { i }$under$\\bar { h }$is unipotent by automatic unipotence, and hence the restriction of$\\bar { h }$to$U _ { i }$is rational by automatic rationality. Thus, for each$u \\in U _ { i }$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37254901960784315,
+            0.5517676767676768,
+            0.6209150326797386,
+            0.5694444444444444
+          ],
+          "content": "\\phi (g u) = h (g) \\phi (u) = h (g) \\bar {h} (u) \\phi (1).",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5808080808080808,
+            0.6176470588235294,
+            0.5959595959595959
+          ],
+          "content": "But this map is rational for fixed$^ { g , }$and so$\\phi | _ { U _ { i } }$is rational, as desired."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6047979797979798,
+            0.7026143790849673,
+            0.6199494949494949
+          ],
+          "content": "Proposition 2.7. Any Γ-equivariant measurable map ϕ:$G / P \\to H / L$is rational."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6300505050505051,
+            0.8839869281045751,
+            0.6767676767676768
+          ],
+          "content": "Proof. Abusing notation, instead let ϕ denote the P-invariant map$G  H / L$. Let$\\mathcal { F } ( C _ { i } , H / L )$denote the space of measurable maps$C _ { i } \\to H / L$, modulo a.e. equivalence. Consider the function$\\Phi \\colon G \\to { \\mathcal { F } } ( C _ { i } , H / L )$ given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434640522875817,
+            0.6767676767676768,
+            0.5588235294117647,
+            0.6919191919191919
+          ],
+          "content": "\\Phi (g) (c) = \\phi (g c).",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6994949494949495,
+            0.5964052287581699,
+            0.7146464646464646
+          ],
+          "content": "Then, for each$t _ { i } .$, as$C _ { i }$centralizes$t _ { i }$and$\\phi$is$P -$-invariant, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.7247474747474747,
+            0.6699346405228758,
+            0.7424242424242424
+          ],
+          "content": "\\Phi (g t _ {i}) (c) = \\phi (g t _ {i} c) = \\phi (g c t _ {i}) = \\phi (g c) = \\Phi (g) (c)",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.7537878787878788,
+            0.8839869281045751,
+            0.8156565656565656
+          ],
+          "content": "for all$c \\in C _ { i } .$Let$T _ { i }$denote the one-parameter subgroup of A containing$t _ { i }$. As ϕ is Γ-equivariant, the map $\\bar { \\Phi } \\colon G / T _ { i } \\to H \\backslash \\mathcal { F } ( C _ { i } , H / L )$is constant along Γ-orbits. But$T _ { i }$is noncompact, so Γ acts on$G / T _ { i }$ergodically by Howe-Moore. Moreover, H acts on$\\mathcal { F } ( C _ { i } , H / L )$smoothly (since$C _ { i }$is σ-finite and$H / L$is an R-variety on which H acts by regular maps). Thus ergodicity of Γ implies that$\\bar { \\Phi }$is essentially constant, i.e., the function"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4297385620915033,
+            0.8257575757575758,
+            0.5637254901960784,
+            0.8434343434343434
+          ],
+          "content": "\\Phi (g) (c) = H \\phi (g c)",
+          "image_source": "images/page_2_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.8547979797979798,
+            0.8856209150326797,
+            0.8838383838383839
+          ],
+          "content": "is essentially constant in$g .$In particular, we must have$\\phi ( g c ) = h ( g ) \\phi ( c )$for some function$h \\colon G \\to H$. This finishes the proof.□"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.10947712418300654,
+            0.10858585858585859,
+            0.3562091503267974,
+            0.12878787878787878
+          ],
+          "level": 2,
+          "content": "3 Required Results"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.1388888888888889,
+            0.8856209150326797,
+            0.18686868686868688
+          ],
+          "content": "Theorem 3.1 (Howe-Moore Vanishing Theorem). Suppose G is a semisimple connected Lie group with finite center and no compact factors. If$H \\leqslant G$is a closed, noncompact subgroup, and$\\Gamma \\leqslant G$is a lattice, then Γ acts ergodically on$G / H$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.19570707070707072,
+            0.576797385620915,
+            0.21085858585858586
+          ],
+          "content": "Theorem 3.2 (Smoothness of Actions). Suppose H is k-group."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12418300653594772,
+            0.22095959595959597,
+            0.8284313725490197,
+            0.23737373737373738
+          ],
+          "content": "(i) Suppose Q is a k-cocompact algebraic subgroup in H. Then$H _ { \\hbar }$acts smoothly on$\\mathcal { M } ( H _ { \\mathcal { R } } / Q _ { \\mathcal { R } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12091503267973856,
+            0.24494949494949494,
+            0.8856209150326797,
+            0.2777777777777778
+          ],
+          "content": "(ii) Suppose V is a k-variety, and H acts k-regularly on V. Then for any σ-finite measure space X, the $H _ { \\hbar }$acts smoothly on${ \\mathcal { F } } ( X , V _ { \\mathbb { R } } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.28535353535353536,
+            0.8856209150326797,
+            0.31691919191919193
+          ],
+          "content": "Theorem 3.3 (Borel Density). Suppose G is a connected semisimple algebraic R-group with no compact factors. Then any lattice in G is Zariski dense."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.32575757575757575,
+            0.8872549019607843,
+            0.35858585858585856
+          ],
+          "content": "Theorem 3.4 (Amenability Inheritance). Suppose G is a locally compact group, and$\\Gamma , H \\leqslant G$are closed subgroups. If H is amenable, then the Γ action on$G / H$is amenable."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.3648989898989899,
+            0.8856209150326797,
+            0.398989898989899
+          ],
+          "content": "Theorem 3.5 (Automatic Rationality). Suppose U is an unipotent R-group and$\\pi \\colon U \\to \\mathrm { G L } _ { n } ( \\mathbb { R } )$is a measurable homomorphism with unipotent image. Then π is a regular map."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.4065656565656566,
+            0.8856209150326797,
+            0.4532828282828283
+          ],
+          "content": "Proof. By conjugating (which is a regular map), we may assume U is a subgroup of the group$N _ { m }$, the unipotent upper triangular matrices in${ \\mathrm { G L } } _ { m } ( \\mathbb { R } )$. If we let${ \\mathfrak { n } } _ { m }$denote the Lie algebra of N, then the exponential map exp:${ \\mathfrak { n } } _ { m } \\to N _ { m }$given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434640522875817,
+            0.45075757575757575,
+            0.5588235294117647,
+            0.4898989898989899
+          ],
+          "content": "\\exp (g) = \\sum_ {k = 0} ^ {\\infty} \\frac {g ^ {k}}{k !}",
+          "image_source": "images/page_3_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10784313725490197,
+            0.494949494949495,
+            0.8856209150326797,
+            0.5265151515151515
+          ],
+          "content": "is in fact a regular map, since a P n is nilpotent (and so the sum is zero after m terms). Moreover, exp has an inverse log :$N _ { m } \\to \\mathfrak { n } _ { m }$given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3937908496732026,
+            0.523989898989899,
+            0.6013071895424836,
+            0.5631313131313131
+          ],
+          "content": "\\log (g) = \\sum_ {k = 0} ^ {\\infty} (- 1) ^ {k} \\frac {(g - \\mathrm{id}) ^ {k}}{k !},",
+          "image_source": "images/page_3_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5669191919191919,
+            0.8839869281045751,
+            0.5984848484848485
+          ],
+          "content": "which is again a regular map. Thus, if u is the Lie algebra of U, then$\\exp \\colon \\mathfrak { u }  U$defines a biregular R-isomorphism of varieties."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5997474747474747,
+            0.8856209150326797,
+            0.6452020202020202
+          ],
+          "content": "As π is a measurable homomorphism, it is automatically continuous, hence automatically smooth. Let dπ :$\\mathfrak { u } \\to \\mathfrak { g l } _ { n } ( \\mathbb { R } )$denote the derivative of π at the identity; since π has unipotent image, the codomain of dπ may be taken to be the Lie algebra${ \\mathfrak { n } } _ { n }$. Then we have a commutative diagram"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4362745098039216,
+            0.6565656565656566,
+            0.5588235294117647,
+            0.7121212121212122
+          ],
+          "content": "\\begin{array}{c} U \\xrightarrow {\\pi} N _ {n} \\\\ \\log \\Biggl \\downarrow \\\\ \\mathfrak {u} \\xrightarrow {d \\pi} \\mathfrak {n} _ {n} \\end{array} \\Bigg | _ {\\text {exp}}",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.726010101010101,
+            0.5735294117647058,
+            0.7424242424242424
+          ],
+          "content": "But log and exp are regular and dπ is linear, hence π is regular."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.7525252525252525,
+            0.8856209150326797,
+            0.797979797979798
+          ],
+          "content": "Proposition 3.6 (Automatic Unipotence). Let$G \\leqslant \\mathrm { G L } _ { m } ( \\mathbb { R } )$be a semisimple Lie group and suppose that $\\pi \\colon G \\to \\mathbf { G L } _ { n } ( \\mathbb { R } )$is a measurable representaion.$I f U \\subseteq G$is a connected unipotent subgroup, then$\\pi | _ { U }$is a unipotent representation, i.e., π has unipotent image."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.8068181818181818,
+            0.8856209150326797,
+            0.851010101010101
+          ],
+          "content": "Proposition 3.7 (A.e. Rationality). Suppose$f \\colon \\mathbb { R } ^ { m } \\times \\mathbb { R } ^ { n } \\to V$is a measurable function so that, for a.e. x,$y \\mapsto f ( x , y )$is essentially rational, and for a.e.$y , x \\mapsto f ( x , y )$is essentially rational, then f is essentially rational."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9330808080808081
+          ],
+          "content": "4"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8856209150326797,
+            0.1590909090909091
+          ],
+          "content": "Proof. It sufices to show the statement for$m = n = 1$, and we may additionally assume that the maps are rational rather than just essentially rational by Fubini’s theorem. Suppose we knew that$f$agreed with a rational function$\\phi$on a set$A \\times \\mathbb { R }$, where$A \\subseteq \\mathbb { R }$were a set of positive measure. But then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.30718954248366015,
+            0.16792929292929293,
+            0.684640522875817,
+            0.2032828282828283
+          ],
+          "content": "0 = \\int_ {A \\times \\mathbb {R}} | f - \\phi | = \\int_ {\\mathbb {R}} \\left[ \\int_ {A} | f (x, y) - \\phi (x, y) | d x \\right] d y.",
+          "image_source": "images/page_4_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.21212121212121213,
+            0.8839869281045751,
+            0.24368686868686867
+          ],
+          "content": "But then$f ( \\cdot , y ) = \\phi ( \\cdot , y )$a.e. on A for a.e. y. As$f ( \\cdot , y )$is assumed to be rational,$f ( \\cdot , y ) = \\phi ( \\cdot , y )$a.e. on R for a.e. y, which in turn implies$f = \\phi \\ \\mathrm { a . e }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.24368686868686867,
+            0.8856209150326797,
+            0.28914141414141414
+          ],
+          "content": "Let$A _ { r , s }$denote the set of points$x _ { 0 } \\in \\mathbb { R }$so that$f ( x _ { 0 } , \\cdot )$is, in lowest terms, of the form$P ( y ) / Q ( y )$, where $P$is of degree r and$Q$is of degree s. Note that one of these sets has positive measure; set$A = A _ { r , s }$with positive measure. Then, for$x \\in A$, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39052287581699346,
+            0.29924242424242425,
+            0.6029411764705882,
+            0.33585858585858586
+          ],
+          "content": "f (x, y) = \\frac {y ^ {r} + \\sum_ {i = 0} ^ {r - 1} a _ {i} (x) y ^ {i}}{\\sum_ {i = 0} ^ {s} b _ {i} (x) y ^ {i}}.",
+          "image_source": "images/page_4_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.34595959595959597,
+            0.8839869281045751,
+            0.39015151515151514
+          ],
+          "content": "It thus sufices to show that the functions$a _ { i } , b _ { i }$are essentially rational. However, if we let$\\lambda _ { 1 } , . . . , \\lambda _ { r + s + 1 } \\in ]$R denote a set such that, for each$j , f ( \\cdot , \\lambda _ { j } )$is essentially rational; then the$a _ { i } , b _ { i }$are solutions to the system of equations"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39052287581699346,
+            0.3888888888888889,
+            0.6029411764705882,
+            0.42676767676767674
+          ],
+          "content": "f _ {\\lambda_ {j}} (x) = \\frac {\\lambda_ {j} ^ {r} + \\sum_ {i = 0} ^ {r - 1} a _ {i} (x) \\lambda_ {j} ^ {i}}{\\sum_ {i = 0} ^ {s} b _ {i} (x) \\lambda_ {j} ^ {i}}.",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.43308080808080807,
+            0.8856209150326797,
+            0.46464646464646464
+          ],
+          "content": "This is a system of equations over the field$\\mathbb { C } ( x )$with$r + s + 1$variables and$r + s + 1$equations, thus it has a unique solution, which is rational in x by Cramer’s rule.□"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.10947712418300654,
+            0.4861111111111111,
+            0.5424836601307189,
+            0.5063131313131313
+          ],
+          "level": 2,
+          "content": "4 Superrigidity over General Fields"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5176767676767676,
+            0.8856209150326797,
+            0.5631313131313131
+          ],
+          "content": "Note that the only place in which we used that H was an algebraic R-group was in the proof of Proposition 2.2., where we used the fact that L was an algebraic R-group. For general local fields k this is not true; we instead have the following result:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.5732323232323232,
+            0.8856209150326797,
+            0.6047979797979798
+          ],
+          "content": "Proposition 4.1. Suppose H is a connected k-group, almost simple over$\\mathcal { k }$, and that$Q < H$is a proper k-cocompact subgroup. Then for any$\\mu \\in \\mathcal { M } ( H _ { \\mathcal { k } } / Q _ { \\mathcal { k } } )$, either"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12581699346405228,
+            0.6136363636363636,
+            0.4934640522875817,
+            0.6287878787878788
+          ],
+          "content": "(i) the stabilizer$\\left( H _ { \\hbar } \\right) _ { \\mu }$of µ in$H _ { \\hbar }$is compact, or;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12091503267973856,
+            0.6388888888888888,
+            0.6879084967320261,
+            0.6540404040404041
+          ],
+          "content": "(ii) there is an algebraic k-group$L < G$with dim L ă dim G and$L _ { \\mathcal { k } } \\supseteq ( H _ { \\mathcal { k } } ) _ { \\mu }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.6641414141414141,
+            0.8839869281045751,
+            0.73989898989899
+          ],
+          "content": "Note that condition (ii) is suficient to conclude the same result as in proposition 2.2, as we then have a continuous Γ-equivariant surjection$H _ { \\mathbb { R } } \\mu \\to H _ { \\mathbb { R } } / L _ { \\mathbb { R } } ;$: by smoothness the natural map$H _ { \\hbar } \\mu \\to H _ { \\hbar } / ( H _ { \\hbar } ) _ { \\mu }$ is a homeomorphism and$L _ { \\mathcal { k } }$is a proper closed subgroup containing$\\left( H _ { \\hbar } \\right) _ { \\mu }$, and all maps are obviously Γ- equivariant, so we again obtain a map$G / P \\to H _ { \\hbar } / L _ { \\hbar }$. Thus, either (i) holds or the rest of the proof follows in the same way and we get Margulis superrigidity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.75,
+            0.8856209150326797,
+            0.8106060606060606
+          ],
+          "content": "Proposition 4.2. Suppose Γ is a locally compact group,$( X , \\mu )$is a quasi-invariant Γ-space with quasi-invariant measure, and the action of Γ on X is weak mixing. Let$\\pi \\colon \\Gamma  H$be a homomorphism with H also locally compact, and suppose there exists a measurable Γ-equivariant map$\\phi \\colon X \\to H / K$, where$K \\leqslant H$ is a compact subgroup. Then$\\overline { { \\pi ( \\Gamma ) } }$is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.8194444444444444,
+            0.8856209150326797,
+            0.8964646464646465
+          ],
+          "content": "Proof. Without loss of generality, we may choose µ to be a probability measure on$X$, so that$\\nu = \\phi _ { * } \\mu$is a probability measure on$H / K$. The map$\\phi \\times \\phi \\colon X \\times X \\to H / K \\times H / K$is still Γ-equivariant; moreover, since the action of Γ is weak mixing,$\\mu \\times \\mu$is ergodic, and so ν ˆ ν is ergodic. Now, the action of K on H is smooth by compactness of K, and hence the action of H on$H / K \\times H / K$is smooth. Therefore, the induced map $\\bar { \\phi } \\colon X \\times X \\to H \\backslash ( H / K \\times H / K )$is Γ-invariant, and since the quotient space is countably separated, it follows"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4918300653594771,
+            0.922979797979798,
+            0.5049019607843137,
+            0.9343434343434344
+          ],
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.11237373737373738,
+            0.8839869281045751,
+            0.14393939393939395
+          ],
+          "continues_prev": true,
+          "content": "that the map is essentially constant, and so$\\nu \\times \\nu$is supported on an H-orbit$\\mathcal { O } = H ( u , v )$. By Fubini’s theorem, there must exist$x \\in H$so that ν is supported on the slice$E _ { x } = \\{ y K \\in H / K : ( x K , y K ) \\in \\theta \\}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.14267676767676768,
+            0.5555555555555556,
+            0.15782828282828282
+          ],
+          "content": "Suppose$y K , y ^ { \\prime } K \\in E _ { x }$. Then there exist$h , h ^ { \\prime } \\in H$so that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2826797385620915,
+            0.1691919191919192,
+            0.7124183006535948,
+            0.18686868686868688
+          ],
+          "content": "(x K, y K) = (h u K, h v K) \\quad \\text { and } \\quad (x K, y ^ {\\prime} K) = (h ^ {\\prime} u K, h ^ {\\prime} v K).",
+          "image_source": "images/page_5_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.19696969696969696,
+            0.8856209150326797,
+            0.273989898989899
+          ],
+          "content": "Thus$h ^ { - 1 } h ^ { \\prime } \\in u K u ^ { - 1 }$, and so there exists$k \\in \\ K$so that$y K = h v K = u k u ^ { - 1 } h ^ { \\prime } v K = u k u ^ { - 1 } y ^ { \\prime } K$. In particular, the set$E _ { x }$is$\\mathrm { ~ a ~ } u K u ^ { - 1 }$-orbit in$H / K ;$since K is compact, so is$u K u ^ { - 1 }$, and orbits of compact groups are compact, so$E _ { x } \\subseteq H / K$is compact. In other words, supp ν is compact. But ν is quasi-invariant with respect to$\\pi ( \\Gamma )$, and so$\\pi ( \\Gamma )$leaves supp ν invariant. Lifting to$H ,$we see that$\\pi ( \\Gamma )$leaves a compact set$B \\subseteq H$invariant under translation. Thus$\\pi ( \\Gamma ) \\subseteq B B ^ { - 1 }$, and so$\\overline { { \\pi ( \\Gamma ) } }$is compact.□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.2828282828282828,
+            0.8856209150326797,
+            0.3446969696969697
+          ],
+          "content": "Theorem 4.3 (The Case$\\mathcal { k } = \\mathbb { C } )$. Let$G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )$be a semisimple algebraic group with$\\mathbb { R } - \\mathrm { r k } ( G ) \\geq 2$and no compact factors. Let$\\Gamma \\leqslant G$be an irreducible lattice. Let H be a simple noncompact C-algebraic group. Suppose$\\pi \\colon \\Gamma  H _ { \\mathbb { C } }$is a homomorphism with$\\pi ( \\Gamma )$Zariski dense. Then either$\\overline { { \\pi ( \\Gamma ) } } \\leqslant H _ { \\mathbb { C } }$is compact in the Hausdorf topology or π extends to a rational homomorphism$G \\to H _ { \\mathbb { C } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.3547979797979798,
+            0.8839869281045751,
+            0.4027777777777778
+          ],
+          "content": "Proof. By Howe-Moore, the action of Γ on$G / P$is weak mixing. Suppose condition (i) holds in Proposition 4.1. As in the proof of Proposition 2.2., we obtain a measurable Γ-equivariant map ϕ :$G / P \\to H _ { \\mathbb { C } } / ( H _ { \\mathbb { C } } ) _ { \\mu } .$ By the assumption that the stabilizer of$\\mu$is compact, Proposition 4.2 states that$\\overline { { \\pi ( \\Gamma ) } }$is compact.□"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.41035353535353536,
+            0.8856209150326797,
+            0.4722222222222222
+          ],
+          "content": "Theorem 4.4 (The Case of k Nonarchimedean). Let$G \\leqslant \\mathrm { S L } _ { n } ( \\mathbb { R } )$be a semisimple algebraic group with $\\mathbb { R } - \\operatorname { r k } ( G ) \\geq 2$and no compact factors. Let$\\Gamma \\leqslant G$be an irreducible lattice. Let H be a simple noncompact k-algebraic group, for k a non-Archimedean local field. Suppose$\\pi \\colon \\Gamma  H _ { \\mathcal { k } }$is a homomorphism with$\\pi ( \\Gamma )$ Zariski dense. Then$\\overline { { \\pi ( \\Gamma ) } } \\leqslant H _ { \\mathcal { k } }$is compact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10947712418300654,
+            0.4810606060606061,
+            0.8856209150326797,
+            0.6047979797979798
+          ],
+          "content": "Proof. By Propositions 4.1 and 4.2, it sufices to show that (ii) cannot occur. Suppose for sake of contradiction that, as in Proposition 4.1, there were to exist an algebraic k-group$L < G$with dim$L <$dim G such that $L _ { \\mathcal { k } } \\subseteq ( H _ { \\mathcal { k } } ) _ { \\mu }$. Then as in Proposition 2.2, there exists a Γ-invariant measurable map$\\phi \\colon G / P \\to H / L$. The rest of the proof of superrigidity does not depend on the local field k that is chosen; at the same time, the maps$\\phi | _ { U _ { i } }$as in the proof are then continuous maps from a connected set into a totally disconnected set, thus they must be constant. It then follows that$\\phi | _ { U }$is constant, hence after identifying U with$G / P ,$we see that the rational map$\\phi$we have constructed is in fact constant. However, Γ-equivariance implies that$\\pi ( \\Gamma )$ is contained in some conjugate of$L _ { \\mathcal { k } }$, which contradicts Zariski density.□"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4918300653594771,
+            0.9217171717171717,
+            0.5049019607843137,
+            0.9343434343434344
+          ],
+          "content": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "is_full_document": true
+}
