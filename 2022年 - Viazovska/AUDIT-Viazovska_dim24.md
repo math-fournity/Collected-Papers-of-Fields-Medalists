@@ -13,3 +13,12 @@
 - 结果：**PASS±**（±：①页眉 DOI 行与页码 1017 未收；②arXiv 侧栏戳
   "arXiv:1603.06518v4 [math.NT] 6 Sep 2026" 未收——戳记惯例）
 - 备注：本 PDF 为已刊 Annals 版（arXiv 1603.06518 的 v4 排版），born-digital，文本层完整。
+
+## p.002（PDF p.2 / 印刷 p.1018）
+- PNG：audit/dim24_p002.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：π¹²/12! = 0.0019295743… ✓；格/周期堆积定义（[5, p. 140] R¹⁰ 例）✓；
+  **Theorem 1.2 (Cohn and Elkies [2])**：——**原刊即印 "Let f : ℝⁿ → ℝⁿ"**（数学上应预期
+  →ℝ；PNG+文本层双证）——md 忠实 ✓；(n/2)!(r/2)ⁿ ✓；Fourier 归一化与径向约定 ✓；
+  "Optimizing the bound from **Theorem 1.1**"——原刊即印 1.1（应预期 1.2；源级笔误）——md 忠实 ✓
+- 结果：**PASS±**（±：页眉 "1018 COHN, KUMAR, MILLER, RADCHENKO, and VIAZOVSKA" 与页码未收）
+- 备注：Theorem 1.2 定义域/陪域与交叉引用号两处系原刊排印，对照 arXiv 版可进一步查证（本研究不代改）。

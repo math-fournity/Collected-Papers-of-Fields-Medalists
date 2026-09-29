@@ -97,3 +97,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 17:15 | NOTE | 并行下载警告：用户会话外添加_published已刊版17件（10件被d316fd5误收、7件未跟踪）；接力改精确路径staging；inventory动态化
 2026-09-29 17:17 | START | Viazovska dim24 | 17p | PNG渲染完成（pngmono 150dpi dim24_p001-p017）
 2026-09-29 17:21 | PAGE | Viazovska dim24 | p.1/17 | PASS± | 题录/摘要/Thm1.1吻合
+2026-09-29 17:22 | PAGE | Viazovska dim24 | p.2/17 | PASS± | Thm1.2吻合；Rⁿ→Rⁿ与1.1系原刊
