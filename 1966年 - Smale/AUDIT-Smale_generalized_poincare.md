@@ -60,3 +60,11 @@
   **THEOREM O**（Hauptvermutung for spheres）✓；Gluck [2] 段 ✓；program 段（[21]、F/G）✓；
   proofs similar 段 ✓
 - 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 395" 与页码未收）
+
+## p.007（PDF p.7 / 印刷 p.396）
+- PNG：audit/p007.png（pngmono 150dpi）；仲裁：audit/p007_300dpi.png + p007_dks_zoom3x.png（入库）
+- 核对：mimeographed/Stallings gap 段 ✓；C^∞ 约定段 ✓；Eⁿ/Dⁿ/∂Dⁿ=S^{n−1}/D_iⁿ 定义式 ✓；
+  Wallace [26] ✓；§1 χ(M,Q;f₁,…,f_k;s) 定义段 ✓——"the D_i^s × **D_i^{k−s}**"——3x 放大证实
+  **原刊即印 k−s**（应为 n−s，同页 "handle" 与 corners 处均作 n−s；源级笔误）——md 忠实保留 ✓；
+  straightening the angle/Milnor [10] 段 ✓；(1.1) LEMMA (a)(b)(c) ✓；presentation 定义 ✓
+- 结果：**PASS±**（±：①页眉 "396 STEPHEN SMALE" 与页码未收；②D_i^{k−s} 系原刊笔误）
