@@ -131,3 +131,10 @@
   D₄ root lattice in the variable q^{1/2}, from which one can bound their coefficients.
   Furthermore, Θ⁴₀₁ = Θ⁴₀₀ − Θ⁴₁₀." 修复建议：以文本层重建脚注 1。
 - 备注：± 页眉 "1030 COHN, KUMAR, …" 未收。
+
+## p.015（PDF p.15 / 印刷 p.1031）
+- PNG：audit/dim24_p015.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：A.1 证明收尾（q→0 极限负、(2.8) 转换、π 有理界 ⌊10¹⁰π⌋/10¹⁰、1≤t≤1/(23q^{1/2})、
+  te^{−πt}≤e^{−π}≤1/23、(0,e^{−π}) 与 (0,1/23) Sturm）✓；分数幂必要性注 ✓；
+  **Lemma A.2** 陈述与 t≥1 证明开头（φ−432ψ_S/π²)Δ² 截断）✓
+- 结果：**PASS±**（±：页眉/页码 1031 未收）

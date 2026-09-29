@@ -111,3 +111,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:00 | PAGE | Viazovska dim24 | p.12/17 | PASS± | A(t)/B(t)/(4.1)-(4.4)逐位吻合
 2026-09-29 18:00 | PAGE | Viazovska dim24 | p.13/17 | PASS± | (4.5)/附录A开头吻合
 2026-09-29 18:01 | PAGE | Viazovska dim24 | p.14/17 | FAIL | 脚注1碎片化缺损
+2026-09-29 18:01 | PAGE | Viazovska dim24 | p.15/17 | PASS± | A.1收尾/A.2开头吻合
