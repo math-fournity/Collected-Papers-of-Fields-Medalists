@@ -14,3 +14,5 @@
 | 1970年 - Novikov | Atiyah 官方报告 | 3 | ✅ | ✅ 完成（3/3 全PASS） | [AUDIT-Novikov_report.md](1970年%20-%20Novikov/AUDIT-Novikov_report.md) |
 | 1954年 - Kodaira | Analytic stacks (PNAS) + Kodaira-Spencer开头 | 6 | ✅ | ✅ 完成（6/6 全PASS） | [AUDIT-Kodaira.md](1954年%20-%20Kodaira/AUDIT-Kodaira.md) |
 | 1966年 - Cohen | Independence of CH (PNAS) | 6 | ✅ | ✅ 完成（6/6 全PASS） | [AUDIT-Cohen.md](1966年%20-%20Cohen/AUDIT-Cohen.md) |
+| 1962年 - Milnor | Exotic 7-sphere (Ranicki扫描) | 7 | ✅ | ✅ 完成（7/7 全PASS） | [AUDIT-Milnor.md](1962年%20-%20Milnor/AUDIT-Milnor.md) |
+| 2006年 - Perelman | Finite extinction time (arXiv) | 7 | ✅ | ✅ 完成（7/7；⚠️p6多一"4"经LaTeX源裁决） | [AUDIT-Perelman_finite_extinction.md](2006年%20-%20Perelman/AUDIT-Perelman_finite_extinction.md) |
