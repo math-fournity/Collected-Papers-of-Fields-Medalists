@@ -32,3 +32,13 @@
   S^{2m−1} 交）✓；J-equivalence 定义（[25]/[10]、∂V ≅ M₁⊔(−M₂)、deformation retract）✓；
   **THEOREM I**（(m−1)-connected、2m+1 维、J-equivalent、m≠1 ⇒ diffeomorphic）✓
 - 结果：**PASS±**（±：页眉 "392 STEPHEN SMALE" 与页码未收）
+
+## p.004（PDF p.4 / 印刷 p.393）
+- PNG：audit/p004.png（pngmono 150dpi）
+- 核对：orientation preserving 段 ✓；[10, Problem 5] + Milnor counter-example 插语（括号相邻系
+  原刊排印）✓；Milnor [10, p. 33]/Mazur [7]/[9, p. 440] 段 ✓；𝓗ⁿ 定义段 ✓
+  - **THEOREM J** ✓；**微分结构表**：n=3,5,7,9,11,13,15 ↔ 0, 0, 28, 8, 992, 3, 16256——逐格吻合
+    （|Θ₉|=8 系原刊实物，忠实保留）✓
+  - countable/unique structures 段（[9, p. 442]、Munkres [14]、Milnor [8]）✓；Γⁿ/Aⁿ/i: Γⁿ→Aⁿ、
+    p: Aⁿ→𝓗ⁿ 段 ✓
+- 结果：**PASS±**（±：页眉 "POINCARÉ CONJECTURE 393" 与页码未收）
