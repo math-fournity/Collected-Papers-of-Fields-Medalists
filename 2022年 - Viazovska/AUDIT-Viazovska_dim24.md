@@ -146,3 +146,36 @@
   （Notices 64 (2017), 102-115/arXiv 1611.01685；Ann. 157 (2003), 689-714；Ann. 170 (2009),
   1003-1050；preprint arXiv 1603.04759；Conway-Sloane Grundl. 290）——刊名/卷页/编号逐条吻合 ✓
 - 结果：**PASS±**（±：页眉 "1032 COHN, KUMAR, …" 未收）
+
+## p.017（PDF p.17 / 印刷 p.1033）
+- PNG：audit/dim24_p017.png（pngmono 150dpi）；文本层 pdftotext 逐字符对账
+- 核对：**References [11]-[13]** 逐条（Thue 14 (1892), 352-353/Zbl 24.0259.01；Viazovska
+  Ann. 185 (2017), 991-1015/arXiv 1603.04246；Zagier pp.1-103/MR 2409678）✓；
+  (Received: May 23, 2016) ✓；五位作者机构与 email 块 ✓——但
+- 结果：**FAIL（单点）**：Viazovska 机构行重音符号碎裂——md 作
+  "Ecole Polytechnique F <sup>´</sup> ed<sup>´</sup> erale de Lausanne, <sup>´</sup>"
+  （原文 "École Polytechnique Fédérale de Lausanne"；´ 组合符游离）。修复建议：重组重音。
+- 备注：± 页眉/页码 1033 未收。
+
+---
+
+## 总评
+
+- **覆盖声明**：17/17 页逐页核对（pngmono 150dpi 渲染 `audit/dim24_p001-p017.png` + born-digital
+  文本层 pdftotext 逐字符对账——数字件双通道，按交接纪律执行）；每页即时落签并提交。
+  mineru：standard 档云端解析。**本 PDF 为已刊 Annals 版 185 (2017), 1017–1033**（arXiv
+  1603.06518 v4 排版）——审计头初稿曾误记为 arXiv 版，已当场更正。
+- **数学内容可信度**：Theorem 1.1/1.2、(2.1)-(2.10)、(3.1)-(3.5)、(4.1)-(4.5)、Lemma 2.1/3.1/
+  A.1/A.2/A.3 及全部 q-展开大数字（φ、φ₁、φ₂、ψ_I、ψ_S、p(t)、p̃(r)、特殊值、系数界、
+  513200655360(n+1)²⁰ 等）逐位吻合；参考文献 13 条逐条核实（含 MR/Zbl/DOI/arXiv 编号）。
+- **系统性瑕疵（PASS± 家族）**：①页眉/页码全篇未收；②arXiv 侧栏戳未收（惯例）；
+  ③ff→f 伪影（diferent/coeficients/sufices/dificult/inequalit…——pdfTeX 文本层 ff 合字，
+  pdftotext 可还原）；④孤立 page_footnote 碎片 span（p.14 脚注区，见 FAIL）。
+- **FAIL 清单（7 点）**：p.004 "as t→∞" 丢箭头；p.008 S/T 矩阵转写结构乱码；
+  p.009 "for r>2" 后孤立 "2"；p.011 "ψ_I." 后孤立 "9"（两处均 Perelman-"4" 类 mineru 幻觉）；
+  p.014 脚注 1 碎片化缺损（丢 Θ⁴₁₀ 与 q^{1/2}、一处乱码重复）；p.017 École 重音碎裂。
+- **原刊排印 quirk（md 忠实，不代改）**：①Theorem 1.2 "f : ℝⁿ→ℝⁿ"（应预期 →ℝ）；
+  ②"Optimizing the bound from Theorem 1.1"（应预期 1.2）；③"k = 2,3,…,." 标点连排。
+- **可用性结论**：修复 7 点后，本 md 可作为该已刊版的忠实检索/阅读底本；公式链逐位可信。
+  同目录 `Viazovska_2017_dim24_published.pdf`（Annals 排版版，17 页）待批次导出后另行审计——
+  本篇审计对象为 arXiv v4 排版的 PDF。
