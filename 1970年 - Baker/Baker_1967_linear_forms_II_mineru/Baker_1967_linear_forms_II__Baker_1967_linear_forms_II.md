@@ -327,10 +327,10 @@ $$
 Hence
 
 $$
-\left| \phi_ {j} (0) - \Psi_ {j} \right| \leqslant (R + 1) e ^ {2 h k} \left(c _ {6} L\right) ^ {R} e ^ {- h \kappa}.
+\left| \phi_ {j} (0) - \Psi_ {j} \right| \leqslant (R + 1) e ^ {2 h k} \left(c _ {6} L\right) ^ {R} e ^ {- h ^ {\kappa}}.
 $$
 
-Since $L \leqslant h^{\zeta(1 - \varepsilon)}$, $R \leqslant h^{n\zeta}$ and $\kappa > \zeta(2n + 1)$, the number on the right is at most $e^{-\frac{1}{2}h\kappa}$. Thus it follows from (5), which is applicable since $j \leqslant R \leqslant k^n$, that
+Since $L \leqslant h^{\zeta(1 - \varepsilon)}$, $R \leqslant h^{n\zeta}$ and $\kappa > \zeta(2n + 1)$, the number on the right is at most $e^{-\frac{1}{2}h^{\kappa}}$. Thus it follows from (5), which is applicable since $j \leqslant R \leqslant k^n$, that
 
 $$
 \log | \Psi_ {j} | <   - \frac {1}{2} h ^ {\kappa} / \log h.\tag{8}
@@ -377,3 +377,5 @@ if h is sufficiently large. But this contradicts the lower bound for  $\log |\De
 Trinity College,
 
 Cambridge.
+
+(Received on the 21st of March, 1967.)
