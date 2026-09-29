@@ -12,8 +12,8 @@ Venkatesh introduced a general and unifying technique based on representation th
 
 He made major progress on the local-global principle for the representations of one quadratic lattice by another, in joint work with Ellenberg.
 
-In joint work with Einsiedler, Lindenstrauss and Michel, Venkatesh proved equidistribution of the periodic torus orbits in SL(3, Z) SL(3, R) that are attached to the ideal classes of totally real cubic number fields as the discriminant tends to infinity.
+In joint work with Einsiedler, Lindenstrauss and Michel, Venkatesh proved equidistribution of the periodic torus orbits in SL(3, Z)\backslash SL(3, R) that are attached to the ideal classes of totally real cubic number fields as the discriminant tends to infinity.
 
-Venkatesh established efective equidistribution of periodic orbits of many semisimple groups both in the local and adelic settings, in joint work with Einsiedler, Margulis, and in part with Mohammadi.
+Venkatesh established effective equidistribution of periodic orbits of many semisimple groups both in the local and adelic settings, in joint work with Einsiedler, Margulis, and in part with Mohammadi.
 
 With Ellenberg and Westerland, Venkatesh established significant special cases of the Cohen-Lenstra conjectures concerning class groups in the function field setting.
