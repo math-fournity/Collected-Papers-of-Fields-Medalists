@@ -7,6 +7,11 @@
 你好，你接手的是 **`/Users/aurolafly/Collected-Papers-of-Fields-Medalists`**（独立 git repo，branch `main`）
 的「论文 MinerU 化 + 逐页视觉审计」任务。当前进度 **20/85，暂停中**，请按下面步骤继续。
 
+**启动位置（先读）**：请把本会话启动在**目标 repo 根目录** `/Users/aurolafly/Collected-Papers-of-Fields-Medalists`
+（cwd = 该目录）。**不要**在当前 OpenCode 工作目录 `shuxuedashi-glm5.2-worktree` 启动——那是另一个任务
+（shuxuedashi 历史重建）的 repo，其 AGENTS 规则与本审计无关；本提示词中的所有相对路径与
+`git add/commit`、`git log` 都以目标 repo 根为基准。
+
 ## 0. 第一件事：读这 5 个文件（按顺序，不要跳过）
 
 1. `README.md` —— 资产地图与目录 schema、审计来源链（唯一真值）；
