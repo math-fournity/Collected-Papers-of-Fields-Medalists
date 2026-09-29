@@ -155,3 +155,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.3/5 | FAIL | pre-dicts残迹
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.4/5 | FAIL | 收尾段丢失(跨页)
 2026-09-29 18:58 | PAGE | ICM2018 Venkatesh | p.5/5 | FAIL | 收尾段丢失
+2026-09-29 18:59 | DONE | ICM2018 Venkatesh | 5/5 | 3点FAIL已修复 | 累计32/140

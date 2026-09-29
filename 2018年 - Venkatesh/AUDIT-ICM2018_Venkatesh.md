@@ -47,3 +47,7 @@
 - **原刊排印 quirk（忠实保留）**：spaces "harbor"（原刊如此）；ff→f 家族（diferent/afirmed——
   文本层为 different/affirmed，登记不改）。
 - **可用性结论**：修复后 md 可作该报告忠实底本。
+
+### 修复登记（2026-09-29）
+- m≥n+5 补句号；pre-dicts→predicts；补收尾段（Most mathematicians…for years to come.，
+  依文本层原文）。fix commit 见 `git log --grep 'fix(md): ICM2018 Venkatesh'`。
