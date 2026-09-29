@@ -1,0 +1,1479 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.3741830065359477,
+            0.2297979797979798,
+            0.5964052287581699,
+            0.24621212121212122
+          ],
+          "level": 1,
+          "content": "LANDAU DAMPING"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.36437908496732024,
+            0.2689393939393939,
+            0.6078431372549019,
+            0.2840909090909091
+          ],
+          "level": 2,
+          "content": "C. MOUHOT AND C. VILLANI"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19117647058823528,
+            0.29924242424242425,
+            0.7777777777777778,
+            0.33207070707070707
+          ],
+          "content": "Abstract. In this note we present the main results from the recent work [9], which for the first time establish Landau damping in a nonlinear context."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.33585858585858586,
+            0.8366013071895425,
+            0.37247474747474746
+          ],
+          "content": "Keywords. Landau damping; plasma physics; astrophysics; Vlasov–Poisson equation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4035947712418301,
+            0.3939393939393939,
+            0.5669934640522876,
+            0.4090909090909091
+          ],
+          "level": 2,
+          "content": "1. Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.41919191919191917,
+            0.8366013071895425,
+            0.47095959595959597
+          ],
+          "content": "The “standard model” of classical plasma physics is the Vlasov–Poisson–Landau equation [13, 6], here written with periodic boundary conditions and in adimensional units:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2957516339869281,
+            0.47474747474747475,
+            0.6748366013071896,
+            0.5126262626262627
+          ],
+          "content": "\\frac {\\partial f}{\\partial t} + v \\cdot \\nabla_ {x} f + F [ f ] \\cdot \\nabla_ {v} f = \\frac {\\log \\Lambda}{2 \\pi \\Lambda} Q _ {L} (f, f),\\tag{1}",
+          "image_source": "images/page_0_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.5189393939393939,
+            0.8349673202614379,
+            0.5542929292929293
+          ],
+          "content": "where$f = f ( t , x , v )$is the electron distribution function$( t \\geq 0 , v \\in \\mathbb { R } ^ { 3 } , x \\in \\mathbb { T } ^ { 3 } =$ $\\mathbb { R } ^ { 3 } / \\mathbb { Z } ^ { 3 } )$,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2908496732026144,
+            0.5618686868686869,
+            0.6813725490196079,
+            0.5997474747474747
+          ],
+          "content": "F [ f ] (t, x) = - \\iint \\nabla W (x - y) f (t, y, w) d w d y\\tag{2}",
+          "image_source": "images/page_0_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.6047979797979798,
+            0.8366013071895425,
+            0.6590909090909091
+          ],
+          "content": "is the self-induced force,$W ( x ) = 1 / | x |$is the Coulomb interaction potential, and$Q _ { L }$ is the Landau collision operator, described for instance in [12]. The parameter Λ is very large, ranging typically from$1 0 ^ { 2 }$to$1 0 ^ { 3 0 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.6590909090909091,
+            0.8366013071895425,
+            0.7474747474747475
+          ],
+          "content": "On very large time scales (say$O ( \\Lambda / \\log \\Lambda ) )$, dissipative phenomena play a non-negligeable role, and the entropy increase is supposed to force the (slow) convergence to a Maxwellian distribution. Thanks to the recent progress on hypocoercivity, this mechanism is now rather well understood, as soon as global smoothness estimates are available (see [11] and the references therein)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.7474747474747475,
+            0.8382352941176471,
+            0.8547979797979798
+          ],
+          "content": "Ten years after devising this collisional scenario, Landau [6] formulated a much more subtle prediction: the stability of homogeneous equilibria satisfying certain conditions — for instance any function of$| v |$, not necessarily Gaussian — on much shorter time scales (say$O ( 1 ) )$, by means of purely conservative mechanisms. This phenomenon, called Landau damping, is a property of the (collisionless) Vlasov equation, obtained by setting$\\Lambda = \\infty$in (1). This is a theoretical cornerstone of"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.02287581699346405,
+            0.23484848484848486,
+            0.058823529411764705,
+            0.6792929292929293
+          ],
+          "content": "arXiv:0905.2167v2 [math.AP] 5 Dec 2009"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.4803921568627451,
+            0.946969696969697,
+            0.4918300653594771,
+            0.9583333333333334
+          ],
+          "content": "1"
+        }
+      ]
+    },
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.1893939393939394,
+            0.8349673202614379,
+            0.22474747474747475
+          ],
+          "continues_prev": true,
+          "content": "the classical plasma physics (among a large number of references let us mention [1]). Similar damping phenomena also occur in other domains of physics."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.22474747474747475,
+            0.8366013071895425,
+            0.31565656565656564
+          ],
+          "content": "The Landau damping has been since long understood at the linearized level [3, 8, 10], but the study of the full (nonlinear) equation poses important conceptual and technical problems. As a consequence, up to now the only existing results were proving existence of some damped solutions with prescribed behavior as$t \\to \\pm \\infty$ [2, 5]. We fill this gap in a recent work [9], whose main result we shall now describe."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4084967320261438,
+            0.33585858585858586,
+            0.5620915032679739,
+            0.3522727272727273
+          ],
+          "level": 2,
+          "content": "2. Main result"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1503267973856209,
+            0.35984848484848486,
+            0.7777777777777778,
+            0.3787878787878788
+          ],
+          "content": "If f is a function defined on$\\mathbb { T } ^ { d } \\times \\mathbb { R } ^ { d }$, we note, for any$k \\in  { \\mathbb { Z } ^ { d } }$and$\\eta \\in \\mathbb { R } ^ { d }$，"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13562091503267973,
+            0.38636363636363635,
+            0.8316993464052288,
+            0.42424242424242425
+          ],
+          "content": "\\widehat {f} (k, v) = \\int_ {\\mathbb {T} ^ {d}} f (x, v) e ^ {- 2 i \\pi k \\cdot x} d x, \\quad \\widetilde {f} (k, \\eta) = \\iint_ {\\mathbb {T} ^ {d} \\times \\mathbb {R} ^ {d}} f (x, v) e ^ {- 2 i \\pi k \\cdot x} e ^ {- 2 i \\pi \\eta \\cdot v} d v d x.",
+          "image_source": "images/page_1_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.4318181818181818,
+            0.36764705882352944,
+            0.4494949494949495
+          ],
+          "content": "We also set, for$\\lambda , \\mu , \\beta > 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19281045751633988,
+            0.4595959595959596,
+            0.7761437908496732,
+            0.4962121212121212
+          ],
+          "content": "\\| f \\| _ {\\lambda , \\mu , \\beta} = \\sup _ {k, \\eta} \\Bigl (| \\widetilde {f} (k, \\eta) | e ^ {2 \\pi \\lambda | \\eta |} e ^ {2 \\pi \\mu | k |} \\Bigr) + \\iint_ {\\mathbb {T} ^ {d} \\times \\mathbb {R} ^ {d}} | f (x, v) | e ^ {2 \\pi \\beta | v |} d v d x.\\tag{3}",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.5050505050505051,
+            0.8382352941176471,
+            0.5593434343434344
+          ],
+          "content": "Theorem 1 (nonlinear Landau damping for general interaction). Let d$\\geq 1$, and $f ^ { 0 } : \\mathbb { R } ^ { d }  \\mathbb { R } _ { + }$an analytic velocity profile. Let$W :  { \\mathbb { T } } ^ { d } \\to  { \\mathbb { R } }$be an interaction potential. For any k$\\mathbf { \\sigma } : \\in \\mathbb { Z } ^ { d } , \\mathbf { \\sigma } \\xi \\in \\mathbb { C }$, we set"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2761437908496732,
+            0.5656565656565656,
+            0.6928104575163399,
+            0.6047979797979798
+          ],
+          "content": "\\mathcal {L} (k, \\xi) = - 4 \\pi^ {2} \\widehat {W} (k) \\int_ {0} ^ {\\infty} e ^ {2 \\pi | k | \\xi^ {*} t} | \\widetilde {f} ^ {0} (k t) | | k | ^ {2} t d t.",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13562091503267973,
+            0.6098484848484849,
+            0.6503267973856209,
+            0.6287878787878788
+          ],
+          "content": "We assume that there is$\\lambda > 0$such that, for ǫ small enough,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13725490196078433,
+            0.6452020202020202,
+            0.16339869281045752,
+            0.6628787878787878
+          ],
+          "content": "(4)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25,
+            0.6363636363636364,
+            0.7238562091503268,
+            0.6805555555555556
+          ],
+          "content": "\\sup _ {\\eta \\in \\mathbb {R} ^ {d}} | \\widetilde {f} ^ {0} (\\eta) | e ^ {2 \\pi \\lambda | \\eta |} \\leq C _ {0}, \\quad \\sum_ {n \\in \\mathbb {N} ^ {d}} \\frac {\\lambda^ {n}}{n !} \\| \\nabla_ {v} ^ {n} f ^ {0} \\| _ {L ^ {1} (d v)} \\leq C _ {0},\\tag{5}",
+          "image_source": "images/page_1_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33986928104575165,
+            0.6982323232323232,
+            0.6339869281045751,
+            0.7272727272727273
+          ],
+          "content": "\\inf _ {k \\in \\mathbb {Z} ^ {d}} \\inf _ {0 \\leq \\Re \\xi <   \\lambda} \\left| \\mathcal {L} (k, \\xi) - 1 \\right| \\geq \\kappa > 0\\tag{6}",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3137254901960784,
+            0.7449494949494949,
+            0.6552287581699346,
+            0.7828282828282829
+          ],
+          "content": "\\exists \\gamma \\geq 1; \\forall k \\in \\mathbb {Z} ^ {d}; \\quad | \\widehat {W} (k) | \\leq \\frac {C _ {W}}{| k | ^ {1 + \\gamma}}.",
+          "image_source": "images/page_1_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.7891414141414141,
+            0.8349673202614379,
+            0.8257575757575758
+          ],
+          "content": "Then as soon as$0 < \\lambda ^ { \\prime } < \\lambda , 0 < \\mu ^ { \\prime } < \\mu , \\beta > 0 , r \\in \\mathbb { N }$, there are$\\varepsilon > 0$and$C > 0$，depending on$d , \\gamma , \\lambda , \\lambda ^ { \\prime } , \\mu , \\mu ^ { \\prime } , C _ { 0 } , \\kappa , C _ { W } , \\beta , r ,$such that if$f _ { i } \\geq 0$satisfies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3839869281045752,
+            0.8345959595959596,
+            0.5849673202614379,
+            0.8547979797979798
+          ],
+          "content": "\\delta := \\| f _ {i} - f ^ {0} \\| _ {\\lambda , \\mu , \\beta} \\leq \\varepsilon ,\\tag{7}",
+          "image_source": "images/page_1_equation_15.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13562091503267973,
+            0.1553030303030303,
+            0.14869281045751634,
+            0.16666666666666666
+          ],
+          "content": "2"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37254901960784315,
+            0.15404040404040403,
+            0.5996732026143791,
+            0.16792929292929293
+          ],
+          "content": "C. MOUHOT AND C. VILLANI"
+        }
+      ]
+    },
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.1893939393939394,
+            0.6225490196078431,
+            0.20707070707070707
+          ],
+          "content": "then the unique solution of the nonlinear Vlasov equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13398692810457516,
+            0.21212121212121213,
+            0.826797385620915,
+            0.24873737373737373
+          ],
+          "content": "(8) \\frac {\\partial f}{\\partial t} + v \\cdot \\nabla_ {x} f + F [ f ] \\cdot \\nabla_ {v} f = 0, \\qquad F [ f ] (t, x) = - \\iint \\nabla W (x - y) f (t, y, w) d w d y,",
+          "image_source": "images/page_2_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.2537878787878788,
+            0.6127450980392157,
+            0.273989898989899
+          ],
+          "content": "defined for all times and such that$f ( 0 , \\cdot ) = f _ { i }$, satisfies"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3366013071895425,
+            0.2777777777777778,
+            0.6339869281045751,
+            0.30303030303030304
+          ],
+          "content": "\\left\\| \\rho (t, \\cdot) - \\rho_ {\\infty} \\right\\| _ {C ^ {r} (\\mathbb {T} ^ {d})} \\leq C   \\delta   e ^ {- 2 \\pi \\lambda^ {\\prime} | t |},\\tag{9}",
+          "image_source": "images/page_2_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.30934343434343436,
+            0.8366013071895425,
+            0.3472222222222222
+          ],
+          "content": "where$\\begin{array} { r } { \\rho ( t , x ) = \\int f ( t , x , v ) d v , \\rho _ { \\infty } = \\int \\int f _ { i } ( x , v ) } \\end{array}$dv dx. Futhermore, there are analytic profiles$f _ { + \\infty } ( v ) , f _ { - \\infty } ( v )$such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35784313725490197,
+            0.35353535353535354,
+            0.6143790849673203,
+            0.37626262626262624
+          ],
+          "content": "f (t, \\cdot) \\xrightarrow {t \\to \\pm \\infty} f _ {\\pm \\infty} \\quad w e a k l y",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2630718954248366,
+            0.3813131313131313,
+            0.7058823529411765,
+            0.41919191919191917
+          ],
+          "content": "\\int f (t, x, \\cdot) d x \\xrightarrow {t \\to \\pm \\infty} f _ {\\pm \\infty} \\quad \\text {strongly} (i n C ^ {r} (\\mathbb {R} _ {v} ^ {d})),",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.4217171717171717,
+            0.49673202614379086,
+            0.44191919191919193
+          ],
+          "content": "these convergences being also$O ( \\delta e ^ { - 2 \\pi \\lambda ^ { \\prime } | t | } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.45707070707070707,
+            0.8366013071895425,
+            0.4936868686868687
+          ],
+          "content": "This theorem, entirely constructive, is almost optimal, as the following comments show."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.5,
+            0.8382352941176471,
+            0.7133838383838383
+          ],
+          "content": "Comments on the assumptions: The periodic boundary conditions of course are debatable; in any case, the counterexamples of Glassey and Schaefer [4] show that some confinement mechanism — or at least a limitation on the wavelength — is mandatory. Condition (4) quantitatively expresses the analyticity of the profile$f ^ { 0 }$ without which we could not hope for an exponential convergence. The inequality (5) is a linear stability condition, roughly optimal, covering all physically interesting cases: in particular the (attractive) Newton interaction for wavelengths shorter than the Jeans unstability length; and the (repulsive) Coulomb interaction around radially symmetric profiles${ \\bf { \\bar { f } } } ^ { 0 }$, for all wavelengths. On the other hand, condition (6) shows up only in the nonlinear stability; it is satisfied by Coulomb and Newton interactions as a limit case. As for the condition (7), its perturbative nature is natural in view of theoretical speculations and numerical studies in the subject."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.13398692810457516,
+            0.726010101010101,
+            0.434640522875817,
+            0.7436868686868687
+          ],
+          "level": 2,
+          "content": "Comments on the conclusions:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16176470588235295,
+            0.7462121212121212,
+            0.8382352941176471,
+            0.8547979797979798
+          ],
+          "content": "(1) The large-time convergence is based on a reversible, purely deterministic mechanism, without any Lyapunov functional neither variational interpretation. The asymptotic profiles$f _ { \\pm \\infty }$eventually keep the memory of the initial datum and the interaction. This convergence “for no reason” was not really expected, since the quasilinear theory of Landau damping [1, Vol. II, Section 9.1.2] predicts convergence only after taking average on statistical ensembles."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4084967320261438,
+            0.15404040404040403,
+            0.5620915032679739,
+            0.16792929292929293
+          ],
+          "content": "LANDAU DAMPING"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8235294117647058,
+            0.1553030303030303,
+            0.8366013071895425,
+            0.16792929292929293
+          ],
+          "content": "3"
+        }
+      ]
+    },
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.16339869281045752,
+            0.1893939393939394,
+            0.8382352941176471,
+            0.2601010101010101
+          ],
+          "content": "(2) This result can be interpreted in the spirit of the KAM theorem: for the linear Vlasov equation, convergence is forced by an infinity of invariant subspaces, which make the model “completely integrable”; as soon as one adds a nonlinear coupling, the invariance goes away but the convergence remains."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16339869281045752,
+            0.2588383838383838,
+            0.8366013071895425,
+            0.32954545454545453
+          ],
+          "content": "(3) Given a stable equilibrium profile$f ^ { 0 }$, we see that an entire neighborhood — in analytic topology — of$f ^ { 0 }$is filled by homoclinic or (in general) heteroclinic trajectories. Only infinite dimension allows this remarkable behavior of the nonlinear Vlasov equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16339869281045752,
+            0.33080808080808083,
+            0.8366013071895425,
+            0.4015151515151515
+          ],
+          "content": "(4) The large time convergence of the distribution function holds only in the weak sense; the norms of velocity derivatives grow quickly in large time, which reflects a filamentation in phase space, and a transfer of energy (or information) from low to high frequencies (“weak turbulence”)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16339869281045752,
+            0.4015151515151515,
+            0.8382352941176471,
+            0.4898989898989899
+          ],
+          "content": "(5) It is this transfer of information to small scales which allows to reconcile the reversibility of the Vlasov–Poisson equation with the seemingly irreversible large-time behavior. Let us note that the “dual” mechanism of transfer of energy to large scales, also called radiation, was extensively studied in the setting of Hamiltonian systems."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.494949494949495,
+            0.8366013071895425,
+            0.5315656565656566
+          ],
+          "content": "Much more comments, both from the mathematical and the physical sides, can be found in [9]."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3888888888888889,
+            0.5593434343434344,
+            0.5816993464052288,
+            0.5757575757575758
+          ],
+          "level": 2,
+          "content": "3. Linear stability"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.5858585858585859,
+            0.8366013071895425,
+            0.6199494949494949
+          ],
+          "content": "The linear stability is the first step of our study; it only requires a reduced technical investment."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.6199494949494949,
+            0.8366013071895425,
+            0.6553030303030303
+          ],
+          "content": "After linearization around a homogeneous equilibrium$f ^ { 0 }$, the Vlasov equation becomes"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2549019607843137,
+            0.6616161616161617,
+            0.7140522875816994,
+            0.6994949494949495
+          ],
+          "content": "\\frac {\\partial h}{\\partial t} + v \\cdot \\nabla_ {x} h - (\\nabla W * \\rho) \\cdot \\nabla_ {v} f ^ {0} = 0, \\quad \\rho = \\int h d v.\\tag{10}",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.7095959595959596,
+            0.8349673202614379,
+            0.7449494949494949
+          ],
+          "content": "It is well-known that this equation decouples into an infinite number of independent equations governing the modes of$\\rho \\colon$for all$k \\in  { \\mathbb { Z } ^ { d } }$and$t \\geq 0$,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2875816993464052,
+            0.7537878787878788,
+            0.6797385620915033,
+            0.7941919191919192
+          ],
+          "content": "\\widehat {\\rho} (t, k) - \\int_ {0} ^ {t} K ^ {0} (t - \\tau , k) \\widehat {\\rho} (\\tau , k) d \\tau = \\widetilde {h} _ {i} (k, k t),\\tag{11}",
+          "image_source": "images/page_3_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.803030303030303,
+            0.7549019607843137,
+            0.821969696969697
+          ],
+          "content": "where$h _ { i }$is the initial datum, and$K ^ { 0 }$an integral kernel depending on$f ^ { 0 }$:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3366013071895425,
+            0.8308080808080808,
+            0.6323529411764706,
+            0.8547979797979798
+          ],
+          "content": "K ^ {0} (t, k) = - 4 \\pi^ {2} \\widehat {W} (k) \\widetilde {f} ^ {0} (k t) | k | ^ {2} t.\\tag{12}",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13562091503267973,
+            0.1553030303030303,
+            0.14869281045751634,
+            0.16792929292929293
+          ],
+          "content": "4"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37254901960784315,
+            0.15404040404040403,
+            0.5980392156862745,
+            0.16792929292929293
+          ],
+          "content": "C. MOUHOT AND C. VILLANI"
+        }
+      ]
+    },
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.1893939393939394,
+            0.8366013071895425,
+            0.24116161616161616
+          ],
+          "content": "Then from classical results on Volterra equations we deduce that for all$k \\neq 0$the decay of${ \\widehat { \\rho } } ( t , k )$as$t \\to \\infty$is essentially controlled by the worst of two convergence rates:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.25,
+            0.8349673202614379,
+            0.2840909090909091
+          ],
+          "content": "• the convergence rate of the source term in the right-hand side of (11), which depends only on the regularity of the initial datum in the velocity variable;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.28914141414141414,
+            0.8366013071895425,
+            0.3611111111111111
+          ],
+          "content": "$\\bullet e ^ { - \\lambda t }$, where λ is the largest positive real number such that the Fourier–Laplace transform (in the t variable) of$K ^ { 0 }$does not approach the value 1 in the strip $\\{ 0 \\leq \\Re z \\leq \\lambda \\} \\subset \\mathbb { C }$. The problem lies in finding suficient conditions on$f ^ { 0 }$to guarantee the strict positivity of λ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.3661616161616162,
+            0.8366013071895425,
+            0.43686868686868685
+          ],
+          "content": "Since Landau, this study is traditionally performed thanks to the Laplace transform inversion formula; however, with a view to the nonlinear study, we prefer a more elementary and constructive approach, based on the plain Fourier inversion formula."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.43686868686868685,
+            0.8366013071895425,
+            0.5429292929292929
+          ],
+          "content": "With this method we establish the linear Landau damping, under conditions (5) and (4), for any interaction W such that$\\nabla W \\in L ^ { 1 } (  { \\mathbb { T } } ^ { d } )$, and any analytical initial condition (without any size restriction in this linear context). We recover as particular cases all the results previously established on the linear Landau damping [3, 8, 10]; but we also cover for instance Newton interaction. Indeed, condition (5) is satisfied as soon as any one of the following conditions is satisfied:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.547979797979798,
+            0.8366013071895425,
+            0.5871212121212122
+          ],
+          "content": "(a)$\\forall k \\in \\mathbb { Z } ^ { d } , \\forall z \\in \\mathbb { R } , \\widehat { W } ( k ) \\geq 0 , z \\phi _ { k } ^ { \\prime } ( z ) \\leq 0 .$, where$\\phi _ { k }$is the “marginal” of$f ^ { 0 }$ calong the direction k, defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3741830065359477,
+            0.5959595959595959,
+            0.5964052287581699,
+            0.6388888888888888
+          ],
+          "content": "\\phi_ {k} (z) = \\int_ {\\frac {k z}{| k |} + k ^ {\\perp}} f ^ {0} (w) d w;",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15359477124183007,
+            0.6502525252525253,
+            0.6045751633986928,
+            0.696969696969697
+          ],
+          "content": "\\text {(b)} 4 \\pi^ {2} \\left(\\max _ {k \\neq 0} | \\widehat {W} (k) |\\right) \\left(\\sup _ {| \\sigma | = 1} \\int_ {0} ^ {\\infty} | \\widetilde {f} ^ {0} (r \\sigma) | r d r\\right) <   1.",
+          "image_source": "images/page_4_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15359477124183007,
+            0.7083333333333334,
+            0.511437908496732,
+            0.726010101010101
+          ],
+          "content": "We refer to [9, Section 3] for more details."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.3709150326797386,
+            0.7563131313131313,
+            0.5996732026143791,
+            0.7727272727272727
+          ],
+          "level": 2,
+          "content": "4. Nonlinear stability"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.7828282828282829,
+            0.8366013071895425,
+            0.8547979797979798
+          ],
+          "content": "To establish the nonlinear stability, we start by introducing analytic norms which are “hybrid” (based on the size of derivatives in the velocity variable, and on the size of Fourier coeficients in the position variable) and “gliding” (the norm will change with time to take into account the transfer to small velocity scales). Five indices"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4084967320261438,
+            0.15404040404040403,
+            0.5604575163398693,
+            0.16792929292929293
+          ],
+          "content": "LANDAU DAMPING"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8235294117647058,
+            0.1553030303030303,
+            0.8366013071895425,
+            0.16792929292929293
+          ],
+          "content": "5"
+        }
+      ]
+    },
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.1893939393939394,
+            0.43790849673202614,
+            0.20833333333333334
+          ],
+          "content": "provide all the necessary flexibility:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1977124183006536,
+            0.21212121212121213,
+            0.8055555555555556,
+            0.255050505050505
+          ],
+          "content": "\\left\\| f \\right\\| _ {\\mathcal {Z} _ {\\tau} ^ {\\lambda_ {1} (\\mu , \\gamma); p}} = \\sum_ {k \\in \\mathbb {Z} ^ {d}} \\sum_ {n \\in \\mathbb {N} ^ {d}} e ^ {2 \\pi \\mu | k |} (1 + | k |) ^ {\\gamma} \\frac {\\lambda^ {n}}{n !} \\left\\| \\left(\\nabla_ {v} + 2 i \\pi \\tau k\\right) ^ {n} \\widehat {f} (k, v) \\right\\| _ {L ^ {p} (d v)}.\\tag{13}",
+          "image_source": "images/page_5_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.2601010101010101,
+            0.8366013071895425,
+            0.29797979797979796
+          ],
+          "content": "(By default$\\gamma = 0 . )$A tedious injection theorem${ } ^ { 6 6 } \\mathrm { \\dot { a } }$la Sobolev” compares these norms to more traditional ones, such as the$\\| f \\| _ { \\lambda , \\mu , \\beta }$norms appearing in (3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.2967171717171717,
+            0.8382352941176471,
+            0.3686868686868687
+          ],
+          "content": "The$\\mathcal { Z }$norms enjoy remarkable properties with respect to composition and product. The parameter$\\tau$partly compensates for filamentation. Finally, the hybrid nature of these norms is well adapted to the geometry of the problem. If$f$depends only on$x ,$, the norm (13) coincides with the norm$\\mathcal { F } ^ { \\lambda \\tau + \\mu , \\gamma }$defined by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2957516339869281,
+            0.37247474747474746,
+            0.673202614379085,
+            0.4116161616161616
+          ],
+          "content": "\\| f \\| _ {\\mathcal {F} ^ {\\lambda \\tau + \\mu , \\gamma}} = \\sum_ {k \\in \\mathbb {Z} ^ {d}} | \\widehat {f} (k) | e ^ {2 \\pi (\\lambda \\tau + \\mu) | k |} (1 + | k |) ^ {\\gamma}.\\tag{14}",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.41792929292929293,
+            0.8349673202614379,
+            0.43686868686868685
+          ],
+          "content": "(We also use the “homogeneous” version$\\dot { \\mathcal { F } } ^ { \\lambda \\tau + \\mu , \\gamma }$where the mode$k = 0$is removed.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.43686868686868685,
+            0.8366013071895425,
+            0.4734848484848485
+          ],
+          "content": "Then the Vlasov equation is solved by a Newton scheme, whose first step is the solution of the linearized equation around$f ^ { 0 }$:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37745098039215685,
+            0.476010101010101,
+            0.5915032679738562,
+            0.49747474747474746
+          ],
+          "content": "f ^ {n} = f ^ {0} + h ^ {1} + \\ldots + h ^ {n},\\tag{15}",
+          "image_source": "images/page_5_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3235294117647059,
+            0.5088383838383839,
+            0.6323529411764706,
+            0.5580808080808081
+          ],
+          "content": "\\left\\{ \\begin{array}{l} \\partial_ {t} h ^ {1} + v \\cdot \\nabla_ {x} h ^ {1} + F [ h ^ {1} ] \\cdot \\nabla_ {v} f ^ {0} = 0 \\\\ h ^ {1} (0, \\cdot) = f _ {i} - f ^ {0} \\end{array} \\right.\\tag{16}",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1323529411764706,
+            0.5808080808080808,
+            0.8333333333333334,
+            0.6300505050505051
+          ],
+          "content": "n \\geq 1, \\quad \\left\\{ \\begin{array}{l} \\partial_ {t} h ^ {n + 1} + v \\cdot \\nabla_ {x} h ^ {n + 1} + F [ f ^ {n} ] \\cdot \\nabla_ {v} h ^ {n + 1} + F [ h ^ {n + 1} ] \\cdot \\nabla_ {v} f ^ {n} = - F [ h ^ {n} ] \\cdot \\nabla_ {v} h ^ {n} \\\\ h ^ {n + 1} (0, \\cdot) = 0. \\end{array} \\right.",
+          "image_source": "images/page_5_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.6376262626262627,
+            0.8366013071895425,
+            0.6944444444444444
+          ],
+          "content": "In a first step, we establish the short-time analytic regularity of$h ^ { n } ( \\tau , \\cdot )$in the norm$\\mathcal { Z } _ { \\tau } ^ { \\lambda , ( \\mu , \\gamma ) ; 1 }$; this step, in the spirit of a Cauchy–Kowalevskaya theorem, is performed thanks to the identity"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2908496732026144,
+            0.696969696969697,
+            0.684640522875817,
+            0.73989898989899
+          ],
+          "content": "\\left. \\frac {d}{d t} ^ {+} \\right| _ {t = \\tau} \\| f \\| _ {\\mathcal {Z} _ {\\tau} ^ {\\lambda (t), \\mu (t); p}} \\leq - \\frac {K}{1 + \\tau} \\| \\nabla f \\| _ {\\mathcal {Z} _ {\\tau} ^ {\\lambda (\\tau), \\mu (\\tau); p}},\\tag{17}",
+          "image_source": "images/page_5_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.7424242424242424,
+            0.4493464052287582,
+            0.7613636363636364
+          ],
+          "content": "where$\\lambda ( t ) = \\lambda - K t , \\mu ( t ) = \\mu - K t .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.7638888888888888,
+            0.8382352941176471,
+            0.8547979797979798
+          ],
+          "content": "In a second step, we establish uniform in time estimates on each$h ^ { n }$, now with a partly Eulerian and partly Lagrangian method, integrating the equation along the characteristics$( X _ { \\tau , t } ^ { n } , V _ { \\tau , t } ^ { n } )$created by the force$F [ f ^ { n } ]$. (Here$\\tau$is the initial time, t the current time,$( x , v )$the initial conditions,$( X ^ { n } , V ^ { n } )$the current conditions.) The smoothness of these characteristics is expressed by controls in hybrid norm on"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13562091503267973,
+            0.1553030303030303,
+            0.14869281045751634,
+            0.16792929292929293
+          ],
+          "content": "6"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37254901960784315,
+            0.15404040404040403,
+            0.5996732026143791,
+            0.16792929292929293
+          ],
+          "content": "C. MOUHOT AND C. VILLANI"
+        }
+      ]
+    },
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.1893939393939394,
+            0.8366013071895425,
+            0.22474747474747475
+          ],
+          "continues_prev": true,
+          "content": "the operators$\\Omega _ { t , \\tau } ^ { n } ( x , v ) = ( X _ { t , \\tau } ^ { n } , V _ { t , \\tau } ^ { n } ) ( x + v ( t - \\tau ) , v )$, which compare the perturbed dynamics to the unperturbed one; these are informally called scattering operators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.22474747474747475,
+            0.8366013071895425,
+            0.2601010101010101
+          ],
+          "content": "Then we propagate a number of estimates along the scheme; the most important are (slightly simplifying)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13725490196078433,
+            0.27525252525252525,
+            0.17320261437908496,
+            0.29292929292929293
+          ],
+          "content": "(18)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3284313725490196,
+            0.2638888888888889,
+            0.6437908496732027,
+            0.3068181818181818
+          ],
+          "content": "\\sup _ {\\tau \\geq 0} \\left\\| \\int_ {\\mathbb {R} ^ {d}} h ^ {n} (\\tau , \\cdot , v) d v \\right\\| _ {\\mathcal {F} ^ {\\lambda_ {n} \\tau + \\mu_ {n}}} \\leq \\delta_ {n},\\tag{19}",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25,
+            0.31565656565656564,
+            0.7238562091503268,
+            0.35984848484848486
+          ],
+          "content": "\\sup _ {t \\geq \\tau \\geq 0} \\left\\| h ^ {n} \\big (\\tau , \\Omega_ {t, \\tau} ^ {n} \\big) \\right\\| _ {\\mathcal {Z} _ {\\tau - \\frac {b t}{1 + b}} ^ {\\lambda_ {n} (1 + b), \\mu_ {n}; 1}} \\leq \\delta_ {n}, \\qquad b = b (t) = \\frac {B}{1 + t},\\tag{20}",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.20588235294117646,
+            0.37247474747474746,
+            0.7973856209150327,
+            0.42297979797979796
+          ],
+          "content": "\\left\\| \\Omega_ {t, \\tau} ^ {n} - \\operatorname{Id} \\right\\| _ {\\mathcal {Z} _ {\\tau - \\frac {b t}{1 + b}} ^ {\\lambda_ {n} (1 + b), (\\mu_ {n}, \\gamma); \\infty}} \\leq C \\left(\\sum_ {k = 1} ^ {n} \\frac {\\delta_ {k} e ^ {- 2 \\pi (\\lambda_ {k} - \\lambda_ {n + 1}) \\tau}}{2 \\pi (\\lambda_ {k} - \\lambda_ {n + 1}) ^ {2}}\\right) \\min \\{t - \\tau ; 1 \\}.",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.42803030303030304,
+            0.8366013071895425,
+            0.6047979797979798
+          ],
+          "content": "Notice, in (18), the linear increase in the regularity of the spatial density, which comes at the same time as the deterioration of regularity in the v variable. In (19), the additional time-shift in the indices by the function$b ( t )$will be crucial to absorb error terms coming from the composition; the constant B itself is determined by the previous small-time estimates. Finally, in (20), notice the uniform in t control, and the improved estimates in the limit cases$t \\longrightarrow \\tau$and$\\tau \\longrightarrow \\infty ;$; also this is important for handling error terms. The constants$\\lambda _ { n }$and$\\mu _ { n }$decrease at each stage of the scheme, converging — not too fast — to positive limits$\\lambda _ { \\infty } , \\mu _ { \\infty } ;$; at the same time, the constants$\\delta _ { n }$converge extremely fast to 0, which guarantees “by retroaction” the uniformity of the constants in the right-hand side of (20)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.6047979797979798,
+            0.8382352941176471,
+            0.6767676767676768
+          ],
+          "content": "The estimates (20) are obtained by repeated application of fixed point theorems in analytic norms. Another crucial ingredient to go from stage n to stage$n + 1$is the mechanism of regularity extortion, which we shall now describe in a simplified version. Given two distribution functions$f$and${ \\overline { { f } } } .$, depending on$t , x , v$, let us define"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2565359477124183,
+            0.6805555555555556,
+            0.7107843137254902,
+            0.7196969696969697
+          ],
+          "content": "\\sigma (t, x) = \\int_ {0} ^ {t} \\int_ {\\mathbb {R} ^ {d}} \\left(F [ f ] \\cdot \\nabla_ {v} \\overline {{f}}\\right) (\\tau , x - v (t - \\tau), v) d v d \\tau .",
+          "image_source": "images/page_6_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.7222222222222222,
+            0.8382352941176471,
+            0.8118686868686869
+          ],
+          "content": "This quantity can be interpreted as follows: if particles distributed according to $f$exert a force on particles distributed according to${ \\overline { { f } } } .$, then$\\sigma$is the variation of density$\\int f d v$caused by the reaction of$\\overline { { f } }$on$f .$We show that if$\\overline { { f } }$has a high gliding regularity, then the regularity of$\\sigma$in large time is better than what would be expected:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2696078431372549,
+            0.8156565656565656,
+            0.7009803921568627,
+            0.8560606060606061
+          ],
+          "content": "\\left\\| \\sigma (t, \\cdot) \\right\\| _ {\\dot {\\mathcal {F}} ^ {\\lambda t + \\mu}} \\leq \\int_ {0} ^ {t} K (t, \\tau) \\left\\| F [ f (\\tau , \\cdot) ] \\right\\| _ {\\mathcal {F} ^ {\\lambda \\tau + \\mu , \\gamma}} d \\tau ,\\tag{21}",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4084967320261438,
+            0.15404040404040403,
+            0.5604575163398693,
+            0.16792929292929293
+          ],
+          "content": "LANDAU DAMPING"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8235294117647058,
+            0.1553030303030303,
+            0.8349673202614379,
+            0.16792929292929293
+          ],
+          "content": "7"
+        }
+      ]
+    },
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.19065656565656566,
+            0.1895424836601307,
+            0.2058080808080808
+          ],
+          "content": "where"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13398692810457516,
+            0.20959595959595959,
+            0.8398692810457516,
+            0.2588383838383838
+          ],
+          "content": "K (t, \\tau) = \\left[ \\sup _ {0 \\leq s \\leq t} \\left(\\frac {\\left\\| \\nabla_ {v} \\overline {{f}} (s , \\cdot) \\right\\| _ {\\mathcal {Z} _ {s} ^ {\\overline {{\\lambda}} , \\overline {{\\mu}} ; 1}}}{1 + s}\\right) \\right] (1 + \\tau) \\sup _ {k \\neq 0, \\ell \\neq 0} \\frac {e ^ {- 2 \\pi (\\overline {{\\lambda}} - \\lambda) | k (t - \\tau) + \\ell \\tau |} e ^ {- 2 \\pi (\\overline {{\\mu}} - \\mu) | \\ell |}}{1 + | k - \\ell | ^ {\\gamma}}.",
+          "image_source": "images/page_7_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.26641414141414144,
+            0.8366013071895425,
+            0.3547979797979798
+          ],
+          "content": "The kernel$K ( t , \\tau )$has integral$O ( t )$as$t \\to \\infty$, which would let us fear a violent unstability; but it is also more and more concentrated on discrete times$\\tau = k t / ( k -$ $\\ell ) { }$; this is the efect of plasma echoes, discovered and experimentally observed in the sixties [7]. The stabilizing role of the echo phenomenon, related to the Landau damping, is uncovered in our study."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1323529411764706,
+            0.3547979797979798,
+            0.8366013071895425,
+            0.4431818181818182
+          ],
+          "content": "Then we analyze the nonlinear response due to echoes. If$\\gamma > 1$, from (21) one deduces that the response is subexponential, and therefore can be controlled by an arbitrarily small loss of gliding regularity, at the price of a gigantic constant, which later will be absorbed by the ultrafast convergence of the Newton scheme. In the end, part of the gliding regularity of$\\overline { { f } }$has been converted into a large-time decay."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.4431818181818182,
+            0.8366013071895425,
+            0.547979797979798
+          ],
+          "content": "When$\\gamma = 1$, a finer strategy is needed. To handle this case, we work on the response mode by mode, that is, estimating the size of${ \\widehat { \\rho } } ( t , k )$for all$k ,$via an binfinite system of inequalities. Then we are able to take advantage of the fact that echoes occurring at diferent frequencies are asymptotically rather well separated. For instance, in dimension 1, the dominant echo occurring at time t and frequency $k$corresponds to$\\tau = k t / ( k + 1 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13071895424836602,
+            0.547979797979798,
+            0.8382352941176471,
+            0.6388888888888888
+          ],
+          "content": "In practice, straight trajectories in (21) must be replaced by characteristics (this reflects the fact that$\\overline { { f } }$also exerts a force on$f )$, which is a source of considerable technical dificulties. Among the tools used to overcome them, let us mention a second mechanism of regularity extortion, acting in short time and close in spirit to velocity-averaging lemmas; here is a simplified version of it:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.19934640522875818,
+            0.6439393939393939,
+            0.803921568627451,
+            0.6830808080808081
+          ],
+          "content": "\\left\\| \\sigma (t, \\cdot) \\right\\| _ {\\dot {\\mathcal {F}} ^ {\\lambda t + \\mu}} \\leq \\int_ {0} ^ {t} \\left\\| F [ f (\\tau , \\cdot) ] \\right\\| _ {\\mathcal {F} ^ {\\lambda [ \\tau - b (t - \\tau) ] + \\mu , \\gamma}} \\left\\| \\nabla f (\\tau , \\cdot) \\right\\| _ {\\mathcal {Z} _ {\\tau - b t / (1 + b)} ^ {\\lambda (1 + b), (\\mu , 0); 1}} d \\tau .\\tag{22}",
+          "image_source": "images/page_7_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13398692810457516,
+            0.6881313131313131,
+            0.8349673202614379,
+            0.7247474747474747
+          ],
+          "content": "We see in (22) that the regularity of$\\sigma$is better than that of$F [ f ]$, with a gain that degenerates as$t \\to \\infty \\ \\mathrm { o r } \\ \\tau \\to t$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.4264705882352941,
+            0.7512626262626263,
+            0.545751633986928,
+            0.7676767676767676
+          ],
+          "level": 2,
+          "content": "References"
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.7765151515151515,
+            0.8349673202614379,
+            0.821969696969697
+          ],
+          "content": "[1] Akhiezer, A., Akhiezer, I., Polovin, R., Sitenko, A., and Stepanov, K. Plasma electrodynamics. Vol. I: Linear theory, Vol. II: Non-linear theory and fluctuations. Pergamon Press, 1975 (Enlglish Edition). Translated by D. ter Haar."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.821969696969697,
+            0.8349673202614379,
+            0.851010101010101
+          ],
+          "content": "[2] Caglioti, E., and Maffei, C. Time asymptotics for solutions of Vlasov–Poisson equation in a circle. J. Statist. Phys. 92, 1-2 (1998), 301–323."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13562091503267973,
+            0.1553030303030303,
+            0.14869281045751634,
+            0.16666666666666666
+          ],
+          "content": "8"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.37254901960784315,
+            0.15404040404040403,
+            0.5980392156862745,
+            0.16792929292929293
+          ],
+          "content": "C. MOUHOT AND C. VILLANI"
+        }
+      ]
+    },
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1437908496732026,
+            0.19065656565656566,
+            0.8349673202614379,
+            0.22095959595959597
+          ],
+          "content": "[3] Degond, P. Spectral theory of the linearized Vlasov–Poisson equation. Trans. Amer. Math. Soc. 294, 2 (1986), 435–453."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.22095959595959597,
+            0.8366013071895425,
+            0.25126262626262624
+          ],
+          "content": "[4] Glassey, R., and Schaeffer, J. On time decay rates in Landau damping. Comm. Partial Diferential Equations 20, 3-4 (1995), 647–676."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.25126262626262624,
+            0.8366013071895425,
+            0.2815656565656566
+          ],
+          "content": "[5] Hwang, J.-H., and Velazquez, J. ´ On the existence of exponentially decreasing solutions of the nonlinear landau damping problem. Preprint, 2008."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.2815656565656566,
+            0.8366013071895425,
+            0.3421717171717172
+          ],
+          "content": "[6] Landau, L. On the vibration of the electronic plasma. J. Phys. USSR 10 (1946), 25. English translation in JETP 16, 574. Reproduced in Collected papers of L.D. Landau, edited and with an introduction by D. ter Haar, Pergamon Press, 1965, pp. 445–460; and in Men of Physics: L.D. Landau, Vol. 2, Pergamon Press, D. ter Haar, ed. (1965)."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.3421717171717172,
+            0.8349673202614379,
+            0.37247474747474746
+          ],
+          "content": "[7] Malmberg, J., Wharton, C., Gould, R., and O’Neil, T. Plasma wave echo experiment. Phys. Rev. Letters 20, 3 (1968), 95–97."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1454248366013072,
+            0.37247474747474746,
+            0.8349673202614379,
+            0.4027777777777778
+          ],
+          "content": "[8] Maslov, V. P., and Fedoryuk, M. V. The linear theory of Landau damping. Mat. Sb. (N.S.) 127(169), 4 (1985), 445–475, 559."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.1437908496732026,
+            0.4027777777777778,
+            0.8349673202614379,
+            0.4318181818181818
+          ],
+          "content": "[9] Mouhot, C., and Villani, C. On the landau damping. Available online at http://arxiv.org/abs/0904.2760. Preprint, 2009."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13725490196078433,
+            0.4318181818181818,
+            0.8349673202614379,
+            0.4621212121212121
+          ],
+          "content": "[10] Saenz, A. W.´ Long-time behavior of the electic potential and stability in the linearized Vlasov theory. J. Mathematical Phys. 6 (1965), 859–875."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13725490196078433,
+            0.4633838383838384,
+            0.6535947712418301,
+            0.47853535353535354
+          ],
+          "content": "[11] Villani, C. Hypocoercivity. To appear in Mem. Amer. Math. Soc."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13725490196078433,
+            0.47853535353535354,
+            0.8366013071895425,
+            0.5088383838383839
+          ],
+          "content": "[12] Villani, C. A review of mathematical topics in collisional kinetic theory. In Handbook of mathematical fluid dynamics, Vol. I. North-Holland, Amsterdam, 2002, pp. 71–305."
+        },
+        {
+          "type": "ref_text",
+          "bbox": [
+            0.13725490196078433,
+            0.5088383838383839,
+            0.8382352941176471,
+            0.5391414141414141
+          ],
+          "content": "[13] Vlasov, A. A. On the oscillation properties of an electron gas. Zh. Eksper. Teoret. Fiz. 8 <sup>\\`</sup> (1938), 291–318."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3954248366013072,
+            0.5606060606060606,
+            0.5751633986928104,
+            0.5795454545454546
+          ],
+          "content": "Cl´ement Mouhot"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2565359477124183,
+            0.5896464646464646,
+            0.7124183006535948,
+            0.7840909090909091
+          ],
+          "content": "University of Cambridge DAMTP, Centre for Mathematical Sciences Wilberforce Road Cambridge CB3 0WA ENGLAND On leave from: ENS Paris & CNRS<sup>´</sup> DMA, UMR CNRS 8553 45 rue d’Ulm F 75320 Paris cedex 05 FRANCE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3382352941176471,
+            0.7954545454545454,
+            0.630718954248366,
+            0.8143939393939394
+          ],
+          "content": "e-mail: Clement.Mouhot@ens.fr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.4084967320261438,
+            0.8345959595959596,
+            0.5637254901960784,
+            0.8535353535353535
+          ],
+          "content": "C´edric Villani"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.4084967320261438,
+            0.15404040404040403,
+            0.5604575163398693,
+            0.16792929292929293
+          ],
+          "content": "LANDAU DAMPING"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.8235294117647058,
+            0.1553030303030303,
+            0.8349673202614379,
+            0.16792929292929293
+          ],
+          "content": "9"
+        }
+      ]
+    },
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.37254901960784315,
+            0.1527777777777778,
+            0.5996732026143791,
+            0.1691919191919192
+          ],
+          "content": "C. MOUHOT AND C. VILLANI"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.25163398692810457,
+            0.18813131313131312,
+            0.7205882352941176,
+            0.27904040404040403
+          ],
+          "content": "ENS Lyon & Institut Universitaire de France UMPA, UMR CNRS 5669 46 all´ee d’Italie 69364 Lyon Cedex 07 FRANCE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.31699346405228757,
+            0.2878787878787879,
+            0.6535947712418301,
+            0.3068181818181818
+          ],
+          "content": "e-mail: cvillani@umpa.ens-lyon.fr"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.13398692810457516,
+            0.1553030303030303,
+            0.1568627450980392,
+            0.16792929292929293
+          ],
+          "content": "10"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "3.4.4"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    }
+  },
+  "is_full_document": true
+}
