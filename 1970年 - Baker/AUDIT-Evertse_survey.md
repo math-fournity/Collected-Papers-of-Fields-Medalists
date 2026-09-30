@@ -65,3 +65,8 @@
   ②"defined by (2.4)" 交叉引用（应预期 (2.5)）；③σᵢ(β) 符号（应预期 b）。
 - **系统性伪影（登记不改）**：ff→f 家族（efectively ~15/diferent ~6/dificult ×2/coeficients）。
 - **可用性结论**：修复后 md 可作该讲义忠实底本；作为 Baker 主题综述与 (I)-(IV) 审计链互补。
+
+### 修复登记（2026-09-29）
+- Gy˝ory→Győry ×3（全文复核确为 3 处，总评"×4"系计数笔误）；(eB) display 复位至 "We infer" 之后（原刊跨页原序）；Multi-plying→Multiplying。
+  源级 quirk ×3 与 ff 家族按总评登记不改。fix commit 见 `git log --grep 'fix(md): Evertse'`。
+- 本篇 13/13 页完成，无未决项。
