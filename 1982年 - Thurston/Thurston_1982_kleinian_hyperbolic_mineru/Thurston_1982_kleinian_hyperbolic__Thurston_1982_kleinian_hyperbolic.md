@@ -114,8 +114,6 @@ It is quite feasible to use computers to study Conjecture 1.1 for classes of man
 
 The geometric structures turn out to be very beautiful when you learn to see them. Often, the information which determines a geometric structure can be expressed in terms of some construction in plane Euclidean geometry. For instance, the output from my computer program which performs Dehn surgery on torus bundles over the circle is a tessellation of the plane minus the origin by triangles. The combinatorial pattern is predetermined, together with rules that certain triangles are similar. If such a pattern exists, then the manifold in question has a hyperbolic structure. $^{1}$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">≥1</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$ Added in proof. I can now prove that 1.1 is true for all prime 3-manifolds with a symmetry having fixed point set of dimension  $\geqslant 1$ . This includes the examples above.</span></small>
 
 ![](images/page_6_image_0.jpg)
@@ -160,7 +158,7 @@ One difficulty in the study of 3-manifolds has been the lack of any good invaria
 
 The situation in part (c) is not unusual.
 
-3.5. THEOREM (JørgENSEN). For any constant $C$, let $\mathcal{K}_C$ denote the set of hyperbolic 3-manifolds of volume $\leqslant C$. Then there is a finite subset $\mathfrak{M} \subset \mathcal{K}_C$ such that any element $N \in \mathcal{K}_C$ contains a link $L \subset N$ whose components consist of short geodesics such that $N - L$ is homeomorphic to some element $M \in \mathfrak{M}$.
+3.5. THEOREM (Jørgensen). For any constant $C$, let $\mathcal{K}_C$ denote the set of hyperbolic 3-manifolds of volume $\leqslant C$. Then there is a finite subset $\mathfrak{M} \subset \mathcal{K}_C$ such that any element $N \in \mathcal{K}_C$ contains a link $L \subset N$ whose components consist of short geodesics such that $N - L$ is homeomorphic to some element $M \in \mathfrak{M}$.
 
 ![](images/page_8_image_0.jpg)
 
@@ -241,7 +239,7 @@ It is a strange fact that all spherical manifolds also have a stronger structure
 notation, $q = x + yi + zj$. The formula is
 
 $$
-q \stackrel {[ a b ]} {\rightarrow} (a q + b) (c q + d) ^ {- 1}.
+q \stackrel {\scriptstyle \begin{bmatrix} a & b \\ c & d \end{bmatrix}} {\rightarrow} (a q + b) (c q + d) ^ {- 1}.
 $$
 
 One easily-described example of a hyperbolic manifold is the Seifert-Weber dodecahedral space, obtained by identifying opposite faces of a dodecahedron by 3/10 right-handed rotations. One checks that edges of the dodecahedron are identified in quintuples. To form a geometric model, use the regular hyperbolic dodecahedron whose dihedral angles are  $72^{\circ}$ .
@@ -300,7 +298,7 @@ $$
 \mathbf {R} ^ {2} \rightarrow X \rightarrow \mathbf {R}
 $$
 
-where R acts on  $R^{2}$  (by conjugation) with the formula
+where$\mathbf{R}$acts on$\mathbf{R}^{2}$(by conjugation) with the formula
 
 $$
 (x, y) \rightarrow (e ^ {t} x, e ^ {- t} y).
@@ -369,16 +367,16 @@ There is a good topology for the set of measured laminations, making it a Hausdo
 There are also projectivized versions of the lamination spaces. That is, any transverse invariant measure may be multiplied by a positive constant to give a new transverse measure. We define the projective lamination spaces
 
 $$
-P \mathscr {L} (S) = (\mathfrak {M L} (S) - 0) / \text { multiplication   by   scalars }
+P\mathcal{L}(S) = (\mathfrak{M}\mathcal{L}(S) - 0) / \text { multiplication   by   scalars }
 $$
 
 and
 
 $$
-P \mathscr {L} _ {0} (S) = (\mathfrak {M L} _ {0} (S) - 0) / \text { multiplication   by   scalars }.
+P\mathcal{L}_0(S) = (\mathfrak{M}\mathcal{L}_0(S) - 0) / \text { multiplication   by   scalars }.
 $$
 
-5.3. THEOREM. There is a natural topology on $\mathfrak{T}(S) \cup P\mathfrak{L}_0(S)$ which makes it a ball, where $\mathfrak{T}(S)$ is the Teichmuller space for $S$.
+5.3. THEOREM. There is a natural topology on $\mathfrak{T}(S) \cup P\mathcal{L}_0(S)$ which makes it a ball, where $\mathfrak{T}(S)$ is the Teichmuller space for $S$.
 
 Intuitively, the interpretation is that a sequence of hyperbolic structures on S can go to infinity by “pinching” a certain geodesic lamination  $\lambda$ ; then it converges to  $\lambda$ . As a lamination is pinched toward 0, lengths of paths crossing it are forced toward infinity. The ratios of these lengths determine the transverse invariant measure. A good exposition of this theory may be found in the book by Fathi, Laudenbach, Poénaru et al [F,L,P], although this work deals with the closely related theory of measured foliations.
 
@@ -404,7 +402,7 @@ The diffeomorphism $\phi$ of $S$ gives rise to a natural transformation of $\mat
 
 (b) There is a finite system of disjoint simple curves invariant (up to isotopy) by $\phi$.
 
-(c) There are precisely two points in $P\mathfrak{L}_0(S)$ fixed by $\phi$. These are arational laminations which together fill up $S$.
+(c) There are precisely two points in $P\mathcal{L}_0(S)$ fixed by $\phi$. These are arational laminations which together fill up $S$.
 
 The deduction in part (a) that if  $\phi$  fixes a point in Teichmüller space,  $\phi$  is isotopic to a diffeomorphism of finite order is the same as the deduction of Corollary 3.2 from the Mostow rigidity Theorem 3.1.
 
@@ -412,7 +410,7 @@ Theorem 5.5 is part of the classification of conjugacy classes of diffeomorphism
 
 5.6. THEOREM [Th 3]. The mapping torus $M_{\phi}$ has a hyperbolic structure if and only if $\phi$ satisfies condition (c) ($\phi$ is isotopic to a pseudo-Anosov homeomorphism).
 
-This was proven first for the case S is a punctured torus by Jørgensen, [Jør]. This is a special case of Theorem 2.5 or 2.3. An exposition of this can also be found in [Su 2]. The proof in [Th 3] is by applying the double limit Theorem 5.4 to the two laminations in  $P\mathfrak{L}_{0}(S)$  fixed by  $\phi$ . One obtains an action of  $\pi_{1}(S)$  on  $H^{3}$ , which by an extension of the Mostow rigidity theorem from [Th 1] or [Su 3] can be shown to be conjugate to the action obtained by composing with the automorphism  $\phi$ . The conjugating isometry, when adjoined to the isometries coming from  $\pi_{1}(S)$ , gives a discrete, faithful action of  $\pi_{1}(M_{\phi})$ . The quotient manifold is homeomorphic to  $M_{\phi}$  by 3-manifold theory. This was first proven by Stallings [Sta].
+This was proven first for the case S is a punctured torus by Jørgensen, [Jør]. This is a special case of Theorem 2.5 or 2.3. An exposition of this can also be found in [Su 2]. The proof in [Th 3] is by applying the double limit Theorem 5.4 to the two laminations in$P\mathcal{L}_{0}(S)$fixed by$\phi$. One obtains an action of  $\pi_{1}(S)$  on  $H^{3}$ , which by an extension of the Mostow rigidity theorem from [Th 1] or [Su 3] can be shown to be conjugate to the action obtained by composing with the automorphism  $\phi$ . The conjugating isometry, when adjoined to the isometries coming from  $\pi_{1}(S)$ , gives a discrete, faithful action of  $\pi_{1}(M_{\phi})$ . The quotient manifold is homeomorphic to  $M_{\phi}$  by 3-manifold theory. This was first proven by Stallings [Sta].
 
 Consider now a copy of the surface S inside the 3-manifold  $M_{\phi}$ . The universal covering space S sits inside the universal covering space of  $M_{\phi}$ , which is  $H^{3}$ . The closure of S must contain all of C, because as we have indicated the limit set of  $\pi_{1}(S)$  is all of C. (This is also easy to deduce directly from the existence of a hyperbolic structure on  $M_{\phi}$ .) If we consider any hyperbolic metric on S, this gives a diffeomorphism of S to  $H^{2}$ . Does the map of  $H^{2}$  to  $H^{3}$  so defined extend continuously to a map of the 2-disk to the 3-ball? This question is more subtle than it first appears, but it was answered affirmatively by J. Cannon and me:
 
@@ -436,11 +434,11 @@ We have already given one picture of a space-filling curve, which, indeed, came 
 
 FIGURE 11. The figure eight knot is spanned by a surface (topologically, a punctured torus) which can be swept around through all of $S^3$-(the figure eight knot) and brought back to its starting position!
 
-This knot complement is homeomorphic to the mapping torus of the diffeomorphism of the punctured torus determined by the linear map  $[^{21}]$  of the torus. Here is another example. Note the definite sense of the spirals. This reflects the fact that, unlike in the case of the figure eight knot complement,  $M_{\phi}$  is not diffeomorphic to its mirror image. In this case,  $\phi$  is the diffeomorphism of the punctured torus coming from the linear map  $[^{54}]$  of the torus.
+This knot complement is homeomorphic to the mapping torus of the diffeomorphism of the punctured torus determined by the linear map$\begin{bmatrix} 2 & 1 \\ 1 & 1 \end{bmatrix}$of the torus. Here is another example. Note the definite sense of the spirals. This reflects the fact that, unlike in the case of the figure eight knot complement,  $M_{\phi}$  is not diffeomorphic to its mirror image. In this case,  $\phi$  is the diffeomorphism of the punctured torus coming from the linear map$\begin{bmatrix} 5 & 4 \\ 1 & 1 \end{bmatrix}$of the torus.
 
 ![](images/page_20_image_4.jpg)
 
-FIGURE 12. The sphere-filling curve determined by the punctured torus bundle over the circle with monodromy  $[^{5}4]$ .
+FIGURE 12. The sphere-filling curve determined by the punctured torus bundle over the circle with monodromy$\begin{bmatrix} 5 & 4 \\ 1 & 1 \end{bmatrix}$ .
 
 The double limit theorem is a powerful result for analyzing surface groups, which are among the most flexible of Kleinian groups. There are several other significant theorems which back up the double limit theorem by deriving information about the geometry of the quotient manifolds in the limits which the double limit theorem produces (see [Th 1] and [Th 2]). There are still many basic conjectures which have not been proven in general, however. Information about the infinitely complicated manifolds obtained by the double limit theorem has relevance because it relates to the geometry of closed manifolds, especially to the mapping tori $M_{\phi}$, but also to much more general manifolds.
 
@@ -494,8 +492,6 @@ Kleinian groups are very beautiful and rich, with an amazing variety of producti
 
 14. Suppose $\Gamma$ has the property that $(\mathbf{H}^3\cup D_{\Gamma}) / \Gamma$ is compact. Then is it true that the limit set of any other Kleinian group $\Gamma^{\prime}$ isomorphic to $\Gamma$ is the
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$ Added in proof. This is now proven, provided, for (3), the complement of the singular locus is irreducible.</span></small>
-
 homeomorphic image of the limit set of  $\Gamma$ , by a homeomorphism taking the fixed point of an element  $\gamma$  to the fixed points of the corresponding element  $\gamma'$ ? (Theorems 5.7 is a special case of this.) There are examples to show that there is no continuous map
 
 $$
@@ -503,6 +499,8 @@ L _ {\Gamma} \times \{\text { algebraic   deformation   space   of } \Gamma \} \
 $$
 
 which parametrizes the limit sets. Perhaps, though, there is a parametrization which is continuous separately in the two factors.
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$ Added in proof. This is now proven, provided, for (3), the complement of the singular locus is irreducible.</span></small>
 
 15. Can finitely-generated subgroups of a finitely-generated Kleinian group be residually separated from the group? In other words, given a subgroup  $H \subset \Gamma$  and  $\gamma \in \Gamma - H$ , is there a finite quotient of  $\Gamma$  in which the image of  $\gamma$  is not in the image of H? Peter Scott proved this property for surface groups. It is useful for a number of topological arguments, even for special subgroups H.
 
@@ -560,7 +558,7 @@ ACKNOWLEDGMENT. I would like to thank George Francis for the illustrations.
 
 [Mos 2] G. D. Mostow, Inst. Hautes Études Sci. Publ. Math.
 
-[Poin] H. Poincaré, Cinquième complèment a l'analysis situs, Rend. Circ. Mat. Palermo 18 (1904), 45–110, or Oeuvres, t. VI, pp. 435–498.
+[Poin] H. Poincaré, Cinquième complément à l'analysis situs, Rend. Circ. Mat. Palermo 18 (1904), 45–110, or Oeuvres, t. VI, pp. 435–498.
 
 [Pras] G. Prasad, Strong rigidity of $Q$-rank 1 lattices, Invent. Math., 5-6.
 
@@ -574,7 +572,9 @@ ACKNOWLEDGMENT. I would like to thank George Francis for the illustrations.
 
 [Sul 1] D. Sullivan, Discrete conformal groups and measurable dynamics, these proceedings.
 
-[Th 1] W. Thurston, The geometry and topology of 3-manifolds, preprint, Princeton Univ. Press to appear).
+[Sul 2] ,
+
+[Th 1] W. Thurston, The geometry and topology of 3-manifolds, preprint, Princeton Univ. Press (to appear).
 
 [Th 2] \_\_\_\_, Hyperbolic structures on 3-manifolds, I: deformations of acylindrical manifolds, preprint.
 
