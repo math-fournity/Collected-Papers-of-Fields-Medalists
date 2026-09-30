@@ -26,7 +26,7 @@ imply$f \equiv 0$
 
 In [3] we have shown that the set$X = \{ \mathrm { s i g n } ( n ) \sqrt { | n | } \} _ { n \in \mathbb { Z } }$is essentially a uniqueness set in R. More precisely, we have proven that the conditions$f \mid _ { X } \equiv 0 , { \widetilde { f } } \mid _ { X } \equiv 0$together with one more linear constrain$f ^ { \prime } ( 0 ) = 0$imply the vanishing of$f$on the whole real line. M. Stoller [4] has extended this result to$\mathbb { R } ^ { d }$in the following way. For a positive real number$r$let$S ( r )$denote the sphere in$\mathbb { R } ^ { d }$with center at the origin and radius$r$. Stoller has proven that the set$X : = \textstyle \bigcup _ { n = 1 } ^ { \infty } S ( { \sqrt { n } } )$is a Fourier uniqueness set in$\mathbb { R } ^ { d }$for$d \ge 5$. The following theorem is proven in [4]
 
-Theorem 1.2. Let �$\geq 5$be an integer. Suppose that$f : \mathbb { R } ^ { d }  \mathbb { C }$is a Schwartzfunction such that$f \mid _ { S ( { \sqrt { n } } ) } \equiv 0$and$\widehat { f } | _ { S ( \sqrt { n } ) } \equiv 0$for all$n \in \mathbb { Z } _ { \geq 1 }$. Then � is identically zero.
+Theorem 1.2. Let$d\geq 5$be an integer. Suppose that$f : \mathbb { R } ^ { d }  \mathbb { C }$is a Schwartzfunction such that$f \mid _ { S ( { \sqrt { n } } ) } \equiv 0$and$\widehat { f } | _ { S ( \sqrt { n } ) } \equiv 0$for all$n \in \mathbb { Z } _ { \geq 1 }$. Then$f$is identically zero.
 
 Moreover, recently Stoller and J. P. G. Ramos have shown the existence of a closed discrete Fourier uniqueness set in$\mathbb { R } ^ { d }$[5, Theorem 2, Remark 1.1].
 
@@ -150,7 +150,7 @@ $$
 \Delta_ {S _ {d}} (g (r) p (x)) = - \deg (p) (\deg (p) + d - 2) g (r) p (x).\tag{2.7}
 $$
 
-We define$\lambda _ { m } : = - m ( m + d - 2 )$. Clearly,$\left| \lambda _ { m } \right| \sim m ^ { 2 }$as � goes to infinity.
+We define$\lambda _ { m } : = - m ( m + d - 2 )$. Clearly,$\left| \lambda _ { m } \right| \sim m ^ { 2 }$as$m$goes to infinity.
 
 Now let$\alpha$be a positive integer. Given a Schwartz function$f$we define a new Schwartz function$\widetilde { f } : = \Delta _ { S ^ { d - 1 } } ^ { \alpha } f$. Suppose that$f$has decomposition$\begin{array} { r } { f = \sum _ { p \in \mathcal { B } } f _ { p } , } \end{array}$, then by equation (2.7) the new function$\widetilde { f }$has decomposition$\begin{array} { r } { \widetilde { f } = \sum _ { p \in \mathcal { B } } \widetilde { f _ { p } } } \end{array}$where$\widetilde { f _ { p } } = \lambda _ { \mathrm { d e g } ( p ) } ^ { \alpha } f _ { p } .$ Also the numbers$\widetilde { \phi } _ { p , n } : = \mathrm { m a x } _ { x \in S ( \sqrt { n } ) } \vert \widetilde { f } _ { p } ( x ) \vert$satisfy
 
@@ -272,7 +272,7 @@ $$
 
 Proof. Part (1) of the lemma in an immediate consequence of Stirling’s formula.
 
-The Mehler-Sonine formula [1] gives the following integral representation of the Bessel �-function
+The Mehler-Sonine formula [1] gives the following integral representation of the Bessel$J$-function
 
 $$
 J _ {\nu} (z) = \frac {(z / 2) ^ {\nu}}{\Gamma (\nu + 1 / 2) \sqrt {\pi}} \int_ {- 1} ^ {1} e ^ {i z s} (1 - s ^ {2}) ^ {\nu - \frac {1}{2}} d s, \quad \nu > \frac {- 1}{2}, z \in \mathbb {C}.
@@ -300,13 +300,13 @@ Note that$\sqrt { m n } \le N ( k , \epsilon )$, therefore inequality (4.2) and 
 
 Proof of Theorem 3.2.
 
-Fix a half integral weight � and$\epsilon \in ( 0 , 1 / 2 )$and set$N : = \lfloor N ( k , \epsilon ) \rfloor$. Consider a matrix $A = ( a _ { m , n } ) _ { m , n = 1 } ^ { 2 N }$with entries defined by the coeficients of the Poincare series$\mathcal { P } _ { m } : = \mathcal { P } _ { k , m }$ as
+Fix a half integral weight$k$and$\epsilon \in ( 0 , 1 / 2 )$and set$N : = \lfloor N ( k , \epsilon ) \rfloor$. Consider a matrix $A = ( a _ { m , n } ) _ { m , n = 1 } ^ { 2 N }$with entries defined by the coeficients of the Poincare series$\mathcal { P } _ { m } : = \mathcal { P } _ { k , m }$ as
 
 $$
 a _ {m, n} = \left\{ \begin{array}{l l} c _ {\mathcal {P} _ {m}} (n) \left(\frac {m}{n}\right) ^ {\frac {k - 1}{2}} & \text {if} m, n \in [ 1, N ] \\ c _ {\bar {\mathcal {P}} _ {m}} (n - N) \left(\frac {m}{n - N}\right) ^ {\frac {k - 1}{2}} & \text {if} m \in [ 1, N ], n \in [ N + 1, 2 N ] \\ c _ {\tilde {\mathcal {P}} _ {m - N}} (n) \left(\frac {m - N}{n}\right) ^ {\frac {k - 1}{2}} & \text {if} m \in [ N + 1, 2 N ], n \in [ 1, N ] \\ c _ {\tilde {\mathcal {P}} _ {m - N}} (n - N) \left(\frac {m - N}{n - N}\right) ^ {\frac {k - 1}{2}} & \text {if} m, n \in [ N + 1, 2 N ]. \end{array} \right.
 $$
 
-From Lemma 4.2 we know that � is diagonally dominated and therefore invertible. Moreover, the inverse matrix$B = ( b _ { m , n } ) _ { m , n = 1 } ^ { 2 N } : = A ^ { - 1 }$satisfies
+From Lemma 4.2 we know that$A$is diagonally dominated and therefore invertible. Moreover, the inverse matrix$B = ( b _ { m , n } ) _ { m , n = 1 } ^ { 2 N } : = A ^ { - 1 }$satisfies
 
 $$
 \left| b _ {m, n} - \delta_ {m, n} \right| <   \sum_ {k = 1} ^ {\infty} (2 \epsilon) ^ {k} = \frac {2 \epsilon}{1 - 2 \epsilon}.\tag{4.3}
@@ -452,7 +452,7 @@ $$
 \sum_ {n = 1} ^ {\infty} g _ {p} (\sqrt {n}) c _ {h _ {m}} (n) = \sum_ {n = 1} ^ {\infty} \mathcal {F} _ {d + 2 \deg (p)} (g _ {p}) (\sqrt {n}) c _ {\widetilde {h} _ {m}} (n).
 $$
 
-Therefore for each point$\zeta$on the sphere �(1) we have
+Therefore for each point$\zeta$on the sphere$S ( 1 )$we have
 
 $$
 \sum_ {n = 1} ^ {\infty} g _ {p} (\sqrt {n}) p (\sqrt {n} \zeta) n ^ {\frac {- \deg (p)}{2}} c _ {h _ {m}} (n) =
@@ -594,7 +594,7 @@ $$
 \sum_{\substack{p\in \mathcal{B},n\in \mathbb{Z}:\\ n\geq \mathcal{N}(p)}}\phi_{p,n}  n^{\widetilde{\alpha} +1}\leq \sum_{\substack{p\in \mathcal{B},n\in \mathbb{Z}:\\ n\geq \mathcal{N}(p)}}n^{\widetilde{\alpha} +1}  C  \deg (p)^{\beta}\cdot \\ \sum_{\substack{q\in \mathcal{B}:\\ \deg (q) > D(n) - \deg (p)}}\sum_{\substack{m\in \mathbb{Z}:\\ m\geq \mathcal{N}(q))}}m^{\widetilde{\alpha}}  n^{\widetilde{\alpha}}  \phi_{q,m}.
 $$
 
-Here � is a new constant and it is equal to the product of the constant$C$from Lemma 5.1 and the constant$C$from Lemma 5.2. We change the order of summation and arrive at
+Here$C$is a new constant and it is equal to the product of the constant$C$from Lemma 5.1 and the constant$C$from Lemma 5.2. We change the order of summation and arrive at
 
 $$
 \sum_{\substack{p\in \mathcal{B},n\in \mathbb{Z}:\\ n\geq \mathcal{N}(p)}}\phi_{p,n}  n^{\widetilde{\alpha} +1}\leq \sum_{\substack{m\in \mathbb{Z},q\in \mathcal{B}:\\ m\geq \mathcal{N}(q))}}m^{\widetilde{\alpha}}  \phi_{q,m}\sum_{\substack{p\in \mathcal{B},n\in \mathbb{Z}:\\ n\geq \mathcal{N}(p)\\ D(n) - \deg (p)\leq \deg (q)}}C  n^{2\widetilde{\alpha} +1}  \deg (p)^{\beta}.
