@@ -225,7 +225,7 @@ $$
 It follows from Lemma 1 that the system of equations $V(s) = 0$ can be solved nontrivially, and indeed the integers $p(\lambda_1, \ldots, \lambda_n)$ can be chosen to have absolute values at most $NU$. Now from (10), (11), (12) and the estimate $L \leqslant kh^{-4}$ we obtain
 
 $$
-(2 A) ^ {n L D h} \leqslant (2 A) ^ {n D k / h ^ {3}} <   e ^ {\frac {1}{4 0} h k},
+(2 A) ^ {n L D h} \leqslant (2 A) ^ {n D k / h ^ {3}} <   e ^ {\delta h k},
 $$
 
 $$
@@ -256,7 +256,7 @@ $$
 f (y) (2 y + 1) \left\{\log 4 - 6 (2 y + 1) ^ {- 2} - \left(y ^ {2} + y - \frac {1}{2}\right) ^ {- 1} \right\}.
 $$
 
-Since also $N < k^n < e^{\frac{1}{40} hk}$, we see that $NU < e^{hk}$, as required.
+Since also $N < k^n < e^{\delta hk}$, we see that $NU < e^{hk}$, as required.
 
 It remains only to verify that (14) implies (13). Now it is clear that the left-hand side of (14) is obtained from $\Phi_{m_1,\ldots,m_{n-1}}(l,\ldots,l)$, apart from a factor
 
@@ -320,7 +320,7 @@ $$
 | P q (\lambda , z) | <   (d A) ^ {(4 n + 1) L | z |} \{4 e ^ {\frac {1 9}{2 0} h} \log (d A) \} ^ {m _ {1} + \dots + m _ {n - 1}}.
 $$
 
-Then (18) follows on noting that there are at most $k^n < e^{\frac{1}{\delta} hk}$ terms in the above multiple sum, that the $p(\lambda_1, \ldots, \lambda_n)$ have absolute values at most $e^{hk}$, and that, by (12), we have $4\log (dA) < e^{\frac{1}{\delta} h}$.
+Then (18) follows on noting that there are at most $k^n < e^{\delta hk}$ terms in the above multiple sum, that the $p(\lambda_1, \ldots, \lambda_n)$ have absolute values at most $e^{hk}$, and that, by (12), we have $4\log (dA) < e^{\delta h}$.
 
 To prove the second assertion we begin by defining
 
@@ -709,7 +709,7 @@ $$
 Now clearly
 
 $$
-j! 4 ^ {j} \leqslant (4 j) ^ {j} \leqslant (4 k) ^ {n k n} \leqslant e ^ {2 n k n \log k},
+j! 4 ^ {j} \leqslant (4 j) ^ {j} \leqslant (4 k) ^ {n k ^ {n}} \leqslant e ^ {2 n k ^ {n} \log k},
 $$
 
 and, by (11), we see that the exponent of the number on the right is at most $8n(2n + 1)k^n\log h$. But we have
@@ -888,3 +888,5 @@ and, since again $k^{1 / (4n + 2)} \geqslant h$, this is plainly inconsistent wi
 
 Trinity College,
 Cambridge.
+
+(Received on the 12th of June, 1968.)
