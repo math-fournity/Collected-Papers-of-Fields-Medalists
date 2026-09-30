@@ -232,6 +232,22 @@
      282p/Hairer 236p/Schwartz 352p/Lafforgue 241p/EGA 227p/Wang-Zahl 127p/Deng×3）。
      Scholze_2012_published 待导出成功后补（或先审 arXiv 版）。
   5. **推送**：origin 常设授权同步；最新 27044c0a+。
+- **★ 2026-09-29 深夜收尾（第五轮）**：
+  1. **导出 140/140 全覆盖**：Scholze_2012_perfectoid_published 重试成功（根因之一：`-p all`
+     参数不被 kit 接受，须显式 `-p 1-70`；此前批次失败或兼配额因素）——最后缺口闭合。
+  2. **审计进度（INDEX 真值：38 篇 ✅）**：本日第四/五轮新增——Baker I (13p，κ/κ′ 族 20 点)、
+     Baker IV (13p，δ 字形误读族 8 点)、Baker II/III（前述）、Superrigidity (6p，cmap 33 处)、
+     Harper (7p)、Villani landau (10p，14 组)、ICM2018 ×4、IMU citation×3、Viazovska dim24。
+     **Baker 系列 (I)(II)(III)(IV)+俄译+Harper 六件审计链完整**。
+  3. **新教训入册**：①同族变体穷举（{1 9}/{ 1 9}、{40}/{4 0} 空格差致三次补修）；②mineru-kit
+     拒绝 `-p all`，须显式页范围；③族修复后以宽松正则全文复核残留。
+  4. **下一步队列（页数升序）**：Evertse survey (13p) → ICM2022 Viazovska (14p) → IMU laudatio
+     Maynard (15p)/Huh (16p) → laudatio DC (3p) → Faltings 1983 (18p) → Roth (20p) → Huh 2012
+     (21p) → Bombieri GDZ/taylorwiles/Perelman II (22p) → Mirzakhani/Okounkov JAMS (23p) →
+     Viazovska dim8 (24p) → Bhargava/Figalli OT/Maynard published (25p±) → 中件 → 大部头殿后
+     （Scholze published 已导出 2248 行待审、Wiles 270p、Thompson 282p、Hairer 236p、Schwartz
+     352p、Lafforgue 241p、EGA 227p、Wang-Zahl 127p、Deng×3、Quillen 衍生三件、Hironaka partI/II）。
+  5. **推送**：origin 同步至 d87578ba+。
   2. **审计进度（AUDIT-INDEX 真值：29 篇闭环）**：①Viazovska dim24（17p）闭环——born-digital
      文本层+PNG 双通道，7 点 FAIL 修复（S/T 矩阵重建、孤立字符 2/9、脚注 1 重建、丢箭头×2、
      École 重音）；该 PDF 实为 Annals 已刊版（1017–1033），审计头曾误记 arXiv 版已更正。
