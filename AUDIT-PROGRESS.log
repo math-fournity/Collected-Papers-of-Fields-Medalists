@@ -242,3 +242,4 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 16:18 | PAGE | McMullen 1991 Cusps | p.1-31/31 | 扫描件纯PNG审计进行中 | 累计60+1篇进行中
 2026-09-30 16:43 | DONE | McMullen 1991 Cusps | 31/31 | 31 处/17 规则修复完成；print 原貌 quirk 14 项登记 | 累计60/140（Okounkov 此前漏登已补，Mori 重复行已并，真实唯一篇数）
 2026-09-30 17:16 | DONE | Maynard 2015 published | 31/31 | 约130处/70规则修复；print quirk 11项登记；编号106组对齐 | 累计61/140
+2026-09-30 17:55 | DONE | DePhilippis-Figalli 2015 published | 32/32 | 约160处/75规则修复；print quirk 10项登记；编号89组对齐 | 累计62/140

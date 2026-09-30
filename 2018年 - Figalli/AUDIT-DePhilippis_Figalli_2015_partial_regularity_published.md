@@ -73,4 +73,15 @@
 
 ## 修复登记
 
-（fix(md) commit 后追加）
+- **fix commit**：`d80df6cb`；**修复前 md**：父提交 `fb3af153`（audit(page) 提交，其父 `6f189700`
+  为 mineru 原始产出态）。
+- **修复内容**（约 160 处 / 75 规则，计数断言一次通过）：箭头→×13；Theorem 1.3/2.1/2.2/
+  Lemma 4.1/Proof of Thm 1.3 头重构；(C1) 变元 y、(C2) D_y；编号归位 5 组 → \tag 89 组无重无缺；
+  **det(P), det(M) ≠ 0**（300dpi）；C₉→𝒞₂；Step δ→Step 6；X′/K′ 撇恢复；ȳ 误 𝒟；
+  杂字"8/小/gives 5"清除；\tilde{⌈⌉}、\qend+\qquad 填充带×2、Z⁺、ε_{;}、\bar C/\dot C 等
+  记号乱码 12；**足注 1/2/4/5 整体重建**（μ,ν 并入 fn1、fn2 display 归位、fn4 排序、fn5 按
+  300dpi 全文恢复）；文献 [1] L. AMBROSIO, N. GIGLI and G. SAVARÉ、[12] L. C. EVANS and
+  R. F. GARIEPY 姓氏恢复 + [14][21][26][29][37] 修正；标点 .$ 26；空格粘连 ~45；proof.- → □×5。
+- **不改项**：源级 quirk 10 项（见总评清单）——print 原貌忠实保留。
+- **修复后核验**：\tag 89 组与 print 一致；残余 \x03/\qend/\b{/小/.$/backslash 全文 grep = 0；
+  p.1 PNG 整页目检与修复后 md 一致。
