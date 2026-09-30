@@ -127,3 +127,13 @@
   （coeficients/ofthe 系空格另修/diferent/Birkhof/afinely/Geof/Jef/suficiency）。
 - **可用性结论**：修复后 md 可作该 laudatio 忠实底本。参考文献 66 条抽验 24 条全对
   （除上述源级 quirk）。
+
+### 修复登记（2026-09-29）
+- **U+FFFD/丢数学斜体变量 87 处**全部按 pdftotext 文本层恢复（G×21/M×13/n×10/X×8/d×7/k×6/
+  Y×6/H×4/F×4/j×2/K/g×2/f/i/ψ；末位 "graphic matroid associated with G" 首轮扫描后补修）。
+- 缺空格/缺字母 19 处：ofthe/ofa/ofmy×2/ofthis/then,for/uni modality/can b/Franci/associat/
+  tha/variet/combinatoria/deletioncontraction/Kazhdan– Lusztig 等（文本层+150dpi 双证）。
+- stray paren ×3（(b_i>1) 后、ℚℒᵏ(M)→ℒʲ(M) 句、i_k(M) 后）；标题两行粘并、§4/§4.1 双节标题
+  粘并拆分；\boldsymbol{x}→x（print 斜体 x）；"r a n k"→\mathrm{rank}（print 正体）；of$G,, 双逗号。
+- fix commit：`5bc8dc97`（父 `3552d40a` 即修复前 md 原貌）。
+- 本篇 16/16 页完成，无未决项。
