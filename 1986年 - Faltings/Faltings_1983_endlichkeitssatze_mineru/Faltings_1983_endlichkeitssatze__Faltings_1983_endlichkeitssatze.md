@@ -14,12 +14,12 @@ $$
 
 Ziel der vorliegenden Arbeit ist der Beweis der folgenden Resultate:
 
-a) Die Darstellung von $\pi$ auf $T_{l}(A)\otimes_{\mathbf{Z}_{l}}\mathbb{Q}_{l}$ ist halbeinfach.
+a) Die Darstellung von $\pi$ auf $T_{l}(A)\otimes_{\mathbb{Z}_{l}}\mathbb{Q}_{l}$ ist halbeinfach.
 
 b) Die Abbildung
 
 $$
-\operatorname{End} _ {K} (A) \otimes_ {\mathbf {Z}} \mathbb {Z} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l} (A))
+\operatorname{End} _ {K} (A) \otimes_ {\mathbb {Z}} \mathbb {Z} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l} (A))
 $$
 
 ist ein Isomorphismus.
@@ -78,7 +78,7 @@ Bemerkungen. a) Wenn $p$ eigentlich ist, so ist $\omega_{A/S} \cong p_*(\Omega_{
 
 b) $\omega_{A / S}$ kommutiert mit Basiswechsel.
 
-c) Wenn $A = \operatorname{Pic}^{\tau}(C/S)$ mit einer stabilen Kurve $q: C \to S$, so ist $\omega_{A/S} \cong A^{g} q_{*}(\omega_{C/S})$, wobei $\omega_{C/S}$ den relativen dualisierenden Modul bezeichnet.
+c) Wenn $A = \operatorname{Pic}^{\tau}(C/S)$ mit einer stabilen Kurve $q: C \to S$, so ist $\omega_{A/S} \cong \Lambda^{g} q_{*}(\omega_{C/S})$, wobei $\omega_{C/S}$ den relativen dualisierenden Modul bezeichnet.
 
 d) Wenn $S = \operatorname{Spec}(\mathbb{C})$ und $p$ eigentlich ist (d.h., $A / \mathbb{C}$ ist eine komplexe abelsche Varietät), so besitzt
 
@@ -98,13 +98,13 @@ Wir benötigen einige Tatsachen über die Modulräume stabiler Kurven und abelsc
 
 Es geht eigentlich um Endlichkeitsaussagen.
 
-Wenn S einer der demnächst einzuführenden algebraic stacks ist, und S den zugehörigen groben Modulraum bezeichnet, so gibt es stets eine offene Überdeckung
+Wenn $\mathfrak{S}$ einer der demnächst einzuführenden algebraic stacks ist, und S den zugehörigen groben Modulraum bezeichnet, so gibt es stets eine offene Überdeckung
 
 $$
 S = \bigcup_ {i = 1} ^ {r} U _ {i}
 $$
 
-und endlich surjektive Abbildungen $V_{i}\to U_{i}$, so daß über $V_{i}$ das „universelle Objekt zu $\mathfrak{S}^{\prime\prime}$ existiert. Man kann dann alle Rechnungen in den $V_{i}$ durchführen.
+und endlich surjektive Abbildungen $V_{i}\to U_{i}$, so daß über $V_{i}$ das „universelle Objekt zu $\mathfrak{S}$" existiert. Man kann dann alle Rechnungen in den $V_{i}$ durchführen.
 
 Nun zu den hier verwendeten algebraic stacks.
 
@@ -112,7 +112,7 @@ Nun zu den hier verwendeten algebraic stacks.
 
 2. $\mathfrak{A}_{g}$ klassifiziere die prinzipal-polarisierten abelschen Varietäten der relativen Dimension $g$, und $A_{g}$ sei der zugehörige Modulraum.
 
-$\mathfrak{A}_{\mathrm{g}}$ ist nicht eigentlich über $\operatorname{Spec}(\mathbf{Z})$, aber die folgenden Tatsachen sind bekannt:
+$\mathfrak{A}_{g}$ ist nicht eigentlich über $\operatorname{Spec}(\mathbb{Z})$, aber die folgenden Tatsachen sind bekannt:
 
 a) Wenn
 
@@ -120,9 +120,9 @@ $$
 p \colon A \to \mathfrak {A} _ {g}
 $$
 
-die universelle abelsche Varietät über $\mathfrak{A}_{g}$ bezeichnet, so gibt es ein $r>0$, für welches $(\omega_{A/\mathfrak{A}_{g}})^{\otimes r}$ ein sehr amples Geradenbündel auf $A_{g}/\mathbb{Q}$ definiert ([3]). Sei $\bar{A}_{g}/\mathbb{Q}$ der Zariski-Abschluß von $A_{g}/\mathbb{Q}$ in dem zugehörigen projektiven Raum $\mathbb{IP}_{\mathbb{Q}}^{N}$, $\bar{A}_{g}/\mathbb{Z}$ der Zariski-Abschluß in $\mathbb{IP}_{\mathbb{Z}}^{N}$, und $\mathcal{M}$ das Geradenbündel $\mathcal{O}(1)$ auf $\bar{A}_{g}/\mathbb{Z}$. ($\mathcal{M}$ setzt auf $\bar{A}_{g}/\mathbb{Q} (\omega_{A/\mathfrak{A}_{g}})^{\otimes r}$ fort.)
+die universelle abelsche Varietät über $\mathfrak{A}_{g}$ bezeichnet, so gibt es ein $r>0$, für welches $(\omega_{A/\mathfrak{A}_{g}})^{\otimes r}$ ein sehr amples Geradenbündel auf $A_{g}/\mathbb{Q}$ definiert ([3]). Sei $\bar{A}_{g}/\mathbb{Q}$ der Zariski-Abschluß von $A_{g}/\mathbb{Q}$ in dem zugehörigen projektiven Raum $\mathbb{P}_{\mathbb{Q}}^{N}$, $\bar{A}_{g}/\mathbb{Z}$ der Zariski-Abschluß in $\mathbb{P}_{\mathbb{Z}}^{N}$, und $\mathcal{M}$ das Geradenbündel $\mathcal{O}(1)$ auf $\bar{A}_{g}/\mathbb{Z}$. ($\mathcal{M}$ setzt auf $\bar{A}_{g}/\mathbb{Q} (\omega_{A/\mathfrak{A}_{g}})^{\otimes r}$ fort.)
 
-b) Es gibt über $\mathbb{C}^{s}$ einen eigentlichen dominanten Morphismus
+b) Es gibt über $\mathbb{C}$ einen eigentlichen dominanten Morphismus
 
 $$
 \phi \colon \mathfrak {N} \to \bar {A} _ {g} / \mathbb {C},
@@ -130,20 +130,20 @@ $$
 
 so daß über $\mathfrak{N}$ eine semiabelsche Varietät existiert, welche die universelle abelsche Varietät über $\mathfrak{A}_{g}$ fortsetzt (siehe [8], §9). Außerdem ist bekannt, daß $\omega^{\otimes r}$ dieser semiabelschen Varietät isomorph zu $\phi^{*}(\mathcal{M})$ ist. (Hierzu muß man direkt rechnen, siehe meine Ausführungen dazu in [6], §2.)
 
-Lemma 2. Es gibt über $\operatorname{Spec}(\mathbb{Z})$ einen eigentlichen algebraic stack $3$, eine offene Teilmenge $\mathfrak{U}\subset\mathfrak{Z}$ und einen eigentlichen Morphismus $\psi\colon\mathfrak{U}\to\mathfrak{A}_{\mathrm{g}}$, welcher sich zu einem $\bar{\psi}\colon\mathfrak{Z}/\mathbb{Q}\to\bar{A}_{\mathrm{g}}/\mathbb{Q}$ fortsetzt, so daß über $3$ die folgenden Objekte existieren:
+Lemma 2. Es gibt über $\operatorname{Spec}(\mathbb{Z})$ einen eigentlichen algebraic stack $\mathfrak{Z}$, eine offene Teilmenge $\mathfrak{U}\subset\mathfrak{Z}$ und einen eigentlichen Morphismus $\psi\colon\mathfrak{U}\to\mathfrak{A}_{g}$, welcher sich zu einem $\bar{\psi}\colon\mathfrak{Z}/\mathbb{Q}\to\bar{A}_{g}/\mathbb{Q}$ fortsetzt, so daß über $\mathfrak{Z}$ die folgenden Objekte existieren:
 
-a) Eine stabile Kurve $q: C \to 3$.
+a) Eine stabile Kurve $q: C \to \mathfrak{Z}$.
 
-b) Ein Untergeradenbündel (= lokal direkter Sumand) $\mathcal{L} \subseteq A^{g} q_{*}(\omega_{C/\mathbb{Z}})$.
+b) Ein Untergeradenbündel (= lokal direkter Sumand) $\mathcal{L} \subseteq \Lambda^{g} q_{*}(\omega_{C/\mathbb{Z}})$.
 
 c) Über $\mathfrak{U}$ ein Paar von Gruppenhomomorphismen
 
 $$
-\alpha \colon \operatorname{Pic} ^ {\tau} (C / 3) \rightarrow \psi^ {*} (A),
+\alpha \colon \operatorname{Pic} ^ {\tau} (C / \mathfrak{Z}) \rightarrow \psi^ {*} (A),
 $$
 
 $$
-\beta \colon \psi^ {*} (A) \to \operatorname{Pic} ^ {\tau} (C / 3)
+\beta \colon \psi^ {*} (A) \to \operatorname{Pic} ^ {\tau} (C / \mathfrak{Z})
 $$
 
 mit
@@ -154,10 +154,10 @@ $$
 
 (Dabei sei $A$ wieder die universelle abelsche Varietät über $\mathfrak{A}_{g}$.)
 
-d) Auf $3 \otimes_{\mathbf{Z}} \mathbb{Q}$ existiert ein Isomorphismus $\mathcal{L}^{\otimes r} = \bar{\psi}^{*}(\mathcal{M})$, und $\mathcal{L}$ ist über $\mathfrak{U}/\mathbb{Q}$ das Bild von
+d) Auf $\mathfrak{Z} \otimes_{\mathbb{Z}} \mathbb{Q}$ existiert ein Isomorphismus $\mathcal{L}^{\otimes r} = \bar{\psi}^{*}(\mathcal{M})$, und $\mathcal{L}$ ist über $\mathfrak{U}/\mathbb{Q}$ das Bild von
 
 $$
-\alpha^ {*} \colon \psi^ {*} (\omega_ {A / \mathfrak {U} _ {g}}) \to \Lambda^ {g} q _ {*} (\omega_ {C / Z}).
+\alpha^ {*} \colon \psi^ {*} (\omega_ {A / \mathfrak {A} _ {g}}) \to \Lambda^ {g} q _ {*} (\omega_ {C / \mathbb {Z}}).
 $$
 
 Der daraus resultierende Isomorphismus (über $\mathfrak{U}/\mathbb{Q}$)
@@ -170,7 +170,7 @@ ist $\psi^{*}$-Pullback des bei der Konstruktion von $\mathcal{M}$ angegebenen I
 
 Beweis. In dem generischen Punkte von $\mathfrak{A}_{g}$ ist die zugehörige abelsche Varietät Quotient einer Jacobischen. Die zugehörige Kurve entspricht einer rationalen Abbildung von $\mathfrak{A}_{g}$ in $\overline{\mathfrak{M}}_{\tilde{g}}$, für ein $\tilde{g}$.
 
-Wenn man den Graphen dieser Abbildung betrachtet, so erhält man (mit Hilfe einiger trivialer Zusatzüberlegungen) einen ersten Kandidaten 3, so daß schon a) und (nach Lemma 1) c) erfüllt sind. $\mathcal{L}$ ist dann über $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ durch d) schon festgelegt, und liefert eine rationale Abbildung von $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ in ein geeignetes projektives Bündel über 3. Man ersetzt 3 durch die Normalisierung des Abschlusses des zugehörigen Graphen, und dann sind auch b) und der zweite Teil von d) erfüllt. Zum Rest von d) ist zu vermerken, daß man den gesuchten Isomorphismus schon über $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ konstruiert hat, und man muß nur noch die Fortsetzbarkeit auf $3 \otimes_{\mathbb{Z}} \mathbb{Q}$ zeigen. Dazu kann man den Grundkörper von $\mathbb{Q}$ auf $\mathbb{C}$ erweitern, und es reicht, die Fortsetzbarkeit für ein $\tilde{3}/\mathbb{C}$ zu zeigen, welches dominant und eigentlich über 3 liegt.
+Wenn man den Graphen dieser Abbildung betrachtet, so erhält man (mit Hilfe einiger trivialer Zusatzüberlegungen) einen ersten Kandidaten $\mathfrak{Z}$, so daß schon a) und (nach Lemma 1) c) erfüllt sind. $\mathcal{L}$ ist dann über $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ durch d) schon festgelegt, und liefert eine rationale Abbildung von $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ in ein geeignetes projektives Bündel über $\mathfrak{Z}$. Man ersetzt $\mathfrak{Z}$ durch die Normalisierung des Abschlusses des zugehörigen Graphen, und dann sind auch b) und der zweite Teil von d) erfüllt. Zum Rest von d) ist zu vermerken, daß man den gesuchten Isomorphismus schon über $\mathfrak{U} \otimes_{\mathbb{Z}} \mathbb{Q}$ konstruiert hat, und man muß nur noch die Fortsetzbarkeit auf $\mathfrak{Z} \otimes_{\mathbb{Z}} \mathbb{Q}$ zeigen. Dazu kann man den Grundkörper von $\mathbb{Q}$ auf $\mathbb{C}$ erweitern, und es reicht, die Fortsetzbarkeit für ein $\tilde{\mathfrak{Z}}/\mathbb{C}$ zu zeigen, welches dominant und eigentlich über $\mathfrak{Z}$ liegt.
 
 Mit Hilfe des weiter oben eingeführten $\phi\colon\mathfrak{N}\to\bar{A}_{g}/\mathbb{C}$ konstruiert man ein normales $\tilde{\mathfrak{Z}}$, so daß $\psi^{*}(A)$ sich auf $\tilde{\mathfrak{Z}}$ zu einer semiabelschen Varietät fortsetzt. Nach Lemma 1 kann man auch $\alpha$ und $\beta$ fortsetzen, und diese liefern den gewünschten Isomorphismus über $\tilde{\mathfrak{Z}}$.
 
@@ -196,13 +196,13 @@ $$
 e \cdot \rho^ {*} (\mathcal {M}) \subseteq (\omega_ {A / R}) ^ {\otimes r} \subseteq e ^ {- 1} \cdot \rho^ {*} (\mathcal {M}) (\subseteq \rho^ {*} (\mathcal {M}) \otimes_ {R} K).
 $$
 
-Beweis. Wir dürfen annehmen, daß $\bar{\psi}\colon 3/\mathbb{Q}\to\bar{A}_{g}/\mathbb{Q}$ sich fortsetzt zu einem eigentlichen $\bar{\psi}\colon 3/\mathbb{Z}\to\bar{A}_{g}/\mathbb{Z}$. Dann gibt es eine endliche Körpererweiterung $K^{\prime}\supseteq K$ (mit ganzen Zahlen $R^{\prime}\subseteq K^{\prime}$), so daß sich $\rho$ liften läßt zu
+Beweis. Wir dürfen annehmen, daß $\bar{\psi}\colon \mathfrak{Z}/\mathbb{Q}\to\bar{A}_{g}/\mathbb{Q}$ sich fortsetzt zu einem eigentlichen $\bar{\psi}\colon \mathfrak{Z}/\mathbb{Z}\to\bar{A}_{g}/\mathbb{Z}$. Dann gibt es eine endliche Körpererweiterung $K^{\prime}\supseteq K$ (mit ganzen Zahlen $R^{\prime}\subseteq K^{\prime}$), so daß sich $\rho$ liften läßt zu
 
 $$
-\tilde {\rho}: \operatorname{Spec} (R ^ {\prime}) \rightarrow 3.
+\tilde {\rho}: \operatorname{Spec} (R ^ {\prime}) \rightarrow \mathfrak{Z}.
 $$
 
-Da über $3 \otimes_{\mathbb{Z}} \mathbb{Q} \bar{\psi}^{*}(\mathcal{M})$ und $\mathcal{L}^{\otimes r}$ isomorph sind, gibt es ein $e_{1}>0$, so daß über 3
+Da über $\mathfrak{Z} \otimes_{\mathbb{Z}} \mathbb{Q} \bar{\psi}^{*}(\mathcal{M})$ und $\mathcal{L}^{\otimes r}$ isomorph sind, gibt es ein $e_{1}>0$, so daß über $\mathfrak{Z}$
 
 $$
 e _ {1} \cdot \mathscr {L} ^ {\otimes r} \subseteq \bar {\psi} ^ {*} (\mathscr {M}) \subseteq e _ {1} ^ {- 1} \cdot \mathscr {L} ^ {\otimes r}.
@@ -222,7 +222,7 @@ $$
 \alpha \colon \operatorname{Pic} ^ {\tau} (C / R ^ {\prime}) \rightarrow A / R ^ {\prime}, \quad \beta \colon A / R ^ {\prime} \rightarrow \operatorname{Pic} ^ {\tau} (C / R ^ {\prime})
 $$
 
-mit $\alpha\circ\beta=d\cdot\text{id}$ (Benutze Lemma 1 über $R'$), so daß $\tilde{\rho}^{*}(\mathscr{L})$ das Unterbündel von $A^{\mathrm{g}}q_{*}(\omega_{C/R'})$ ist, welches vom Bild von
+mit $\alpha\circ\beta=d\cdot\text{id}$ (Benutze Lemma 1 über $R'$), so daß $\tilde{\rho}^{*}(\mathscr{L})$ das Unterbündel von $\Lambda^{g}q_{*}(\omega_{C/R'})$ ist, welches vom Bild von
 
 $$
 \alpha^ {*}: \omega_ {A / R ^ {\prime}} \rightarrow \Lambda^ {g} q _ {*} (\omega_ {C / R ^ {\prime}})
@@ -264,7 +264,7 @@ $$
 
 Man sieht sofort, daß $h(A)$ invariant ist gegenüber Erweiterungen des Grundkörpers. Der Name „Höhe“ rechtfertigt sich wie folgt:
 
-Im allgemeinen definiert man die Höhe eines Punktes  $x \in \mathbb{P}^{n}(K)$ , indem man x einen Morphismus  $\rho: \operatorname{Spec}(R) \to \mathbb{P}_{\mathbf{Z}}^{n}$  zuordnet, das Bündel  $\mathcal{O}(1)$  auf  $IP_{C}^{n}$  mit einer Metrik versieht, und dann als Höhe von x
+Im allgemeinen definiert man die Höhe eines Punktes  $x \in \mathbb{P}^{n}(K)$ , indem man x einen Morphismus  $\rho: \operatorname{Spec}(R) \to \mathbb{P}_{\mathbb{Z}}^{n}$  zuordnet, das Bündel  $\mathcal{O}(1)$  auf  $\mathbb{P}_{\mathbb{C}}^{n}$  mit einer Metrik versieht, und dann als Höhe von x
 
 $$
 \frac {1}{[ K : \mathbb {Q} ]} \cdot \operatorname{Grad} (\rho^ {*} \mathcal {O} (1))
@@ -272,7 +272,7 @@ $$
 
 definiert.
 
-Bei Veränderung der hermiteschen Metrik ändert sich die Höhenfunktion nur um einen beschränkten Betrag, und es ist bekannt, daß für jedes c nur endlich viele K-rationale Punkte des  $IP^{n}$  Höhe  $\leq c$  haben. Entsprechende Überlegungen gelten für abgeschlossene Untervariatäten des  $IP^{n}$ . Angewandt auf unsere Situation bettet man wie bisher  $A_{g}$  mittels M in  $IP_{Z}^{n}$  ein. Außerdem hat man schon eine Metrik || || auf dem von M auf  $A_{g}(\mathbb{C})$  induzierten Bündel definiert. Wenn sich diese Metrik auf  $\bar{A}_{\mathrm{g}}(\mathbb{C})$  fortsetzen ließe, so könnte man sie zur Definition der Höhe verwenden, und aus dem Korollar zu Lemma 2 würde folgen, daß für eine semiabelsche Varietät A über R (wie oben), welche über K eine prinzipale Polarisation besitzt und damit ein  $x \in A_{\mathrm{g}}(K)$  definiert,  $h(x)$  und  $r \cdot h(A)$  sich nur um eine beschränkten Betrag unterscheiden.
+Bei Veränderung der hermiteschen Metrik ändert sich die Höhenfunktion nur um einen beschränkten Betrag, und es ist bekannt, daß für jedes c nur endlich viele K-rationale Punkte des  $\mathbb{P}^{n}$  Höhe  $\leq c$  haben. Entsprechende Überlegungen gelten für abgeschlossene Untervariatäten des  $\mathbb{P}^{n}$ . Angewandt auf unsere Situation bettet man wie bisher  $A_{g}$  mittels $\mathcal{M}$ in  $\mathbb{P}_{\mathbb{Z}}^{n}$  ein. Außerdem hat man schon eine Metrik || || auf dem von $\mathcal{M}$ auf  $A_{g}(\mathbb{C})$  induzierten Bündel definiert. Wenn sich diese Metrik auf  $\bar{A}_{g}(\mathbb{C})$  fortsetzen ließe, so könnte man sie zur Definition der Höhe verwenden, und aus dem Korollar zu Lemma 2 würde folgen, daß für eine semiabelsche Varietät A über R (wie oben), welche über K eine prinzipale Polarisation besitzt und damit ein  $x \in A_{g}(K)$  definiert,  $h(x)$  und  $r \cdot h(A)$  sich nur um eine beschränkten Betrag unterscheiden.
 
 Leider hat die Metrik $\| \|$ Singularitäten längs $\bar{A}_{g}(\mathbb{C}) - A_{g}(\mathbb{C})$, doch sind diese so mild, daß die fundamentale Endlichkeits-Eigenschaft der Höhe erhalten bleibt:
 
@@ -310,7 +310,7 @@ so daß über X-Y p eigentlich und A prinzipal polarisiert ist, daß die kanonis
 
 Dazu betrachtet man statt $\omega_{A/X} p_{*}(\Omega_{A/X}^{1})$ („logarithmische Singularitäten“ läßt sich auch für Vektorbündel definieren), und mit den Methoden des §2 reduziert man das Problem auf den Fall, daß $A$ Jacobische einer semi-stabilen Kurve $q\colon C\to X$ ist.
 
-Wir behandeln kurz den Fall einer semi-stabilen Kurve über dem Einheitskreis ID. Der allgemeine Fall geht genauso. Wenn
+Wir behandeln kurz den Fall einer semi-stabilen Kurve über dem Einheitskreis $\mathbb{D}$. Der allgemeine Fall geht genauso. Wenn
 
 $$
 q \colon C \to \mathbb {D} = \{t | | t | <   1 \}
@@ -324,7 +324,7 @@ $$
 
 so daß entweder
 
-a)  $U_{i}=\{(z,t)||z|<1, |t|<1\}$ ,  $q|U_{i}: U_{i}\rightarrow ID$  glatt, z liefert Koordinate auf allen Fasern
+a)  $U_{i}=\{(z,t)||z|<1, |t|<1\}$ ,  $q|U_{i}: U_{i}\rightarrow \mathbb{D}$  glatt, z liefert Koordinate auf allen Fasern
 
 oder
 
@@ -354,7 +354,7 @@ $$
 
 wobei  $\parallel\parallel_{1}$  eine auf ganz X erklärte hermitesche Metrik auf  $q_{*}(\omega_{C/X})$  bezeichnet.
 
-Lemma 3. Sei $X \subseteq \mathbb{P}_{\mathbf{Z}}^{n}$ Zariski-abgeschlossen, $Y \subseteq X$ abgeschlossen, $\| \cdot \|$ eine hermitesche Metrik auf $\mathcal{O}(1)|(X(\mathbb{C}) - Y(\mathbb{C}))$, mit logarithmischen Singularitäten längs $Y$. Für einen Zahlkörper $K$ und $x \in X(K) - Y(K)$ definiert man wie bisher $h(x)$. Dann gibt es für jedes $c$ nur endlich viele $x \in X(K) - Y(K)$ mit $h(x) \leq c$.
+Lemma 3. Sei $X \subseteq \mathbb{P}_{\mathbb{Z}}^{n}$ Zariski-abgeschlossen, $Y \subseteq X$ abgeschlossen, $\| \cdot \|$ eine hermitesche Metrik auf $\mathcal{O}(1)|(X(\mathbb{C}) - Y(\mathbb{C}))$, mit logarithmischen Singularitäten längs $Y$. Für einen Zahlkörper $K$ und $x \in X(K) - Y(K)$ definiert man wie bisher $h(x)$. Dann gibt es für jedes $c$ nur endlich viele $x \in X(K) - Y(K)$ mit $h(x) \leq c$.
 
 Beweis. Sei $\| \cdot \| _1$ eine hermitesche Metrik für $\mathcal{O}(1)|X(\mathbb{C})$, $h_1$ die zugehörige Höhenfunktion, und man wähle ein $s > 0$ und
 
@@ -502,7 +502,7 @@ $$
 
 Lemma 6. Sei $D_i = \text{Gal}(\overline{K}_i / K_i)$ die absolute Galois-Gruppe von $K_i$, $I_i \subseteq D_i$ die Verzweigungsgruppe.
 
-Dann operiert $I_{i}$ trivial auf $T_{l}(A)/T_{l}(H_{i})$, und die induzierte Operation von $D_{i}/I_{i} \cong \widehat{\mathbf{Z}}$ erfolgt über einen endlichen Quotienten von $\widehat{\mathbf{Z}}$.
+Dann operiert $I_{i}$ trivial auf $T_{l}(A)/T_{l}(H_{i})$, und die induzierte Operation von $D_{i}/I_{i} \cong \hat{\mathbb{Z}}$ erfolgt über einen endlichen Quotienten von $\hat{\mathbb{Z}}$.
 
 Beweis. Sei
 
@@ -519,7 +519,7 @@ $$
 Aus Dimensionsgründen ist  $T_{l}(H_{i}) = T_{l}(T)^{\perp}$ , und wir erhalten eine Injektion
 
 $$
-T _ {l} (A) / T _ {l} \left(H _ {i}\right) \hookrightarrow \operatorname{Hom} _ {\mathbf {Z} _ {l}} \left(T _ {l} (T), \mathbb {Z} _ {l} (1)\right).
+T _ {l} (A) / T _ {l} \left(H _ {i}\right) \hookrightarrow \operatorname{Hom} _ {\mathbb {Z} _ {l}} \left(T _ {l} (T), \mathbb {Z} _ {l} (1)\right).
 $$
 
 Diese Injektion ist $D_{i}$-linear, und $D_{i}$ operiert in der verlangten Art und Weise auf $\mathrm{Hom}_{\mathbb{Z}_{l}}(T_{l}(T),\mathbb{Z}_{l}(1))$.
@@ -555,7 +555,7 @@ $$
 wie auf
 
 $$
-C _ {i} (\chi_ {0} ^ {d _ {1}}) = C _ {i} (d _ {i})
+C _ {i} (\chi_ {0} ^ {d _ {i}}) = C _ {i} (d _ {i})
 $$
 
 operiert ($\chi_0 =$ zyklotomischer Charakter).
@@ -577,7 +577,7 @@ $$
 Wir müssen also zeigen, daß $\sum_{i=1}^{r} m_i d_i = \frac{1}{2} m h$. Dazu betrachten wir die absolute Galois-Gruppe $\tilde{\pi} = \text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, und den $\tilde{\pi}$-Modul
 
 $$
-\tilde {V} = \operatorname{Ind} _ {\pi} ^ {\pi} (T _ {l} (A)) \quad (\pi = \operatorname{Gal} (\overline {{{K}}} / K)).
+\tilde {V} = \operatorname{Ind} _ {\pi} ^ {\tilde {\pi}} (T _ {l} (A)) \quad (\pi = \operatorname{Gal} (\overline {{{K}}} / K)).
 $$
 
 Dieser enthält den Untermodul
@@ -605,7 +605,7 @@ $$
 die Zerlegungs-Gruppe von l. Dann gilt als D-Modul
 
 $$
-L \otimes_ {\mathbf {Z} _ {i}} C \cong C \left(+ \sum_ {i = 1} ^ {r} m _ {i} d _ {i}\right)
+L \otimes_ {\mathbb {Z} _ {l}} C \cong C \left(+ \sum_ {i = 1} ^ {r} m _ {i} d _ {i}\right)
 $$
 
 (dies folgt aus unseren vorherigen Berechnungen), und somit ist nach [13], Theorem 2
@@ -624,28 +624,28 @@ $$
 
 Sei K Zahlkörper, A/K eine abelsche Varietät der Dimension g, l eine Primzahl,  $T_{l}=T_{l}(A)$  der Tate-Modul, auf dem  $\pi=\operatorname{Gal}(\overline{K}/K)$  operiert.
 
-Satz 3. Die Operation von $\pi$ auf $T_{l} \otimes_{\mathbf{Z}_{l}} \mathbb{Q}_{l}$ ist halbeinfach.
+Satz 3. Die Operation von $\pi$ auf $T_{l} \otimes_{\mathbb{Z}_{l}} \mathbb{Q}_{l}$ ist halbeinfach.
 
 Satz 4. Die Abbildung
 
 $$
-\operatorname{End} _ {\mathbf {K}} (A) \otimes_ {\mathbf {Z}} \mathbb {Z} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l})
+\operatorname{End} _ {K} (A) \otimes_ {\mathbb {Z}} \mathbb {Z} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l})
 $$
 
 ist ein Isomorphismus.
 
-Beweis. Die beiden Sätze werden zusammen bewiesen. Es reicht bekanntlich, statt Satz4 die etwas schwächere Aussage zu beweisen, daß die Abbildung
+Beweis. Die beiden Sätze werden zusammen bewiesen. Es reicht bekanntlich, statt Satz 4 die etwas schwächere Aussage zu beweisen, daß die Abbildung
 
 $$
-\operatorname{End} _ {K} (A) \otimes_ {\mathbf {Z}} \mathbb {Q} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l} \otimes_ {\mathbf {Z} _ {l}} \mathbb {Q} _ {l})
+\operatorname{End} _ {K} (A) \otimes_ {\mathbb {Z}} \mathbb {Q} _ {l} \rightarrow \operatorname{End} _ {\pi} (T _ {l} \otimes_ {\mathbb {Z} _ {l}} \mathbb {Q} _ {l})
 $$
 
 bijektiv ist.
 
-Man darf dann zum Beweis den Grundkörper erweitern, oder A durch eine isogene abelsche Varietät ersetzen. Wir können also annehmen, daß A/K prinzipal polarisiert ist, und daß A sich zu einer semiabelschen Varietät über Spec(R) fortsetzt. Dann besitz  $T_{l}$  eine nichtausgeartete schiefsymmetrische Bilinearform. Sei
+Man darf dann zum Beweis den Grundkörper erweitern, oder A durch eine isogene abelsche Varietät ersetzen. Wir können also annehmen, daß A/K prinzipal polarisiert ist, und daß A sich zu einer semiabelschen Varietät über Spec(R) fortsetzt. Dann besitzt  $T_{l}$  eine nichtausgeartete schiefsymmetrische Bilinearform. Sei
 
 $$
-W \subseteq T _ {l} \otimes_ {\mathbf {Z} _ {l}} \mathbb {Q} _ {l}
+W \subseteq T _ {l} \otimes_ {\mathbb {Z} _ {l}} \mathbb {Q} _ {l}
 $$
 
 ein $\pi$-invarianter maximal isotroper Teilraum. Dem entspricht eine $l$-divisible Untergruppe $G \subseteq A[l^{\infty}]$, und die semiabelschen Varietäten $A_{n} = A / G_{n}$ tragen wieder prinzipale Polarisationen.
@@ -660,10 +660,10 @@ $$
 v = \left( \begin{array}{c c c c} a & - b & - c & - d \\ b & a & d & - c \\ c & - d & a & b \\ d & c & - b & a \end{array} \right)
 $$
 
-(entsprechend dem Quaternion $a + bi + cj + dk$), so daß $v \cdot {}^t v = -1$. Wenn $W$ ein beliebiger $\pi$-invarianter Teilraum von $T_l \otimes_{\mathbf{Z}_l} \mathbb{Q}_l$ ist, so wendet man obige Überlegungen an auf den maximal isotropen Teilraum
+(entsprechend dem Quaternion $a + bi + cj + dk$), so daß $v \cdot {}^t v = -1$. Wenn $W$ ein beliebiger $\pi$-invarianter Teilraum von $T_l \otimes_{\mathbb{Z}_l} \mathbb{Q}_l$ ist, so wendet man obige Überlegungen an auf den maximal isotropen Teilraum
 
 $$
-W _ {1} = \{(x, v x) | x \in W ^ {4} \} \oplus \{(y, - v y) | y \in (W ^ {\perp}) ^ {4} \} \subseteq T _ {l} (A) ^ {8} \otimes_ {\mathbf {Z} _ {l}} \mathbf {Q} _ {l}.
+W _ {1} = \{(x, v x) | x \in W ^ {4} \} \oplus \{(y, - v y) | y \in (W ^ {\perp}) ^ {4} \} \subseteq T _ {l} (A) ^ {8} \otimes_ {\mathbb {Z} _ {l}} \mathbb {Q} _ {l}.
 $$
 
 Korollar 1. Seien $A_{1}$ und $A_{2}$ abelsche Varietäten über $K$. Dann ist
@@ -688,7 +688,7 @@ Korollar 2. Seien $A_{1}, A_{2}$ wie im Korollar 1. Es sind äquivalent
 
 i) $A_{1}$ und $A_{2}$ sind isogen.
 
-ii) $T_{l}(A_{1})\otimes_{\mathbf{Z}}\mathbb{Q}_{l}\cong T_{l}(A_{2})\otimes_{\mathbf{Z}}\mathbb{Q}_{l}$ als $\pi$ -Modul.
+ii) $T_{l}(A_{1})\otimes_{\mathbb{Z}}\mathbb{Q}_{l}\cong T_{l}(A_{2})\otimes_{\mathbb{Z}}\mathbb{Q}_{l}$ als $\pi$ -Modul.
 
 iii) $L_{v}(s,A_{1}) = L_{v}(s,A_{2})$ für fast alle Stellen $v$ von $K$.
 
@@ -704,15 +704,15 @@ a) alle B's haben semistabile Reduktion,
 
 b) alle B/K sind prinzipal polarisiert,
 
-c) es gibt ein N, so daß für jede Primzahl l und alle B's Isogenien  $\phi: A \to B$  existieren, für die die größte l-Potenz in  $\text{Grad}(\varphi)$  N teilt.
+c) es gibt ein N, so daß für jede Primzahl l und alle B's Isogenien  $\phi: A \to B$  existieren, für die die größte l-Potenz in  $\text{Grad}(\phi)$  N teilt.
 
-Die Bemerkung nach Lemma 5 zeigt dann, daß $\exp(2[K:\mathbb{Q}](h(B)-h(A))$ eine rationale Zahl ist, deren Zähler und Nenner durch eine geeignete Potenz von $N$ abgeschätzt werden kann.
+Die Bemerkung nach Lemma 5 zeigt dann, daß $\exp(2[K:\mathbb{Q}](h(B)-h(A)))$ eine rationale Zahl ist, deren Zähler und Nenner durch eine geeignete Potenz von $N$ abgeschätzt werden kann.
 
 Also sind die  $h(B)$  beschränkt, und man kann Satz 1 anwenden.
 
 ## § 6. Endlichkeitssätze
 
-Satz5. Sei S eine endliche Menge von Stellen von K. Dann gibt es nur endlich viele Isogenie-Klassen abelscher Varietäten vorgegebener Dimension über K, welche gute Reduktion außerhalb S haben.
+Satz 5. Sei S eine endliche Menge von Stellen von K. Dann gibt es nur endlich viele Isogenie-Klassen abelscher Varietäten vorgegebener Dimension über K, welche gute Reduktion außerhalb S haben.
 
 Beweis. Sei A eine solche abelsche Varietät. Nach den Weil-Vermutungen gibt es für  $v \notin S$  nur endlich viele Möglichkeiten für den lokalen L-Faktor  $L_{v}(A, s)$ . Wir werden endlich viele Stellen  $v_{1}, \ldots, v_{r}$  konstruieren, so daß zwei A's schon isogen sind, wenn sie an diesen Stellen denselben lokalen L-Faktor haben. Dazu wähle man eine Primzahl l. Nach Lemma 4 existiert eine endliche Galois-Erweiterung  $K' \supseteq K$ , welche alle außerhalb l und S unverzweigten Körpererweiterungen von K vom Grad  $\leq l^{8g^{2}}$  umfaßt ( $g = \dim(A)$ ).
 
@@ -721,10 +721,10 @@ Sei $G=\mathrm{Gal}(K'/K)$; und man wähle $v_{1},\ldots,v_{r}$ so daß jede Kon
 Sei
 
 $$
-M \subseteq \operatorname{End} _ {\mathbf {Z} _ {l}} (T _ {l} (A _ {1})) \times \operatorname{End} _ {\mathbf {Z} _ {l}} (T _ {l} (A _ {2}))
+M \subseteq \operatorname{End} _ {\mathbb {Z} _ {l}} (T _ {l} (A _ {1})) \times \operatorname{End} _ {\mathbb {Z} _ {l}} (T _ {l} (A _ {2}))
 $$
 
-die  $Z_{l}$ -Unteralgebra, die vom Bild von  $\pi$  erzeugt wird.
+die  $\mathbb{Z}_{l}$ -Unteralgebra, die vom Bild von  $\pi$  erzeugt wird.
 
 Dann ist $M$ freier $\mathbb{Z}_{l}$-Modul vom $\operatorname{Rang} \leq 8g^{2}$, und $M$ besitzt Darstellungen auf $T_{l}(A_{1})$ und $T_{l}(A_{2})$.
 
@@ -734,9 +734,9 @@ $$
 \operatorname{Spur} (m \mid T _ {l} (A _ {1})) = \operatorname{Spur} (m \mid T _ {l} (A _ {2})).
 $$
 
-Es reicht natürlich, dies für m aus einer  $Z_{l}$ -Modulbasis von M zu zeigen, und nach Voraussetzung gilt die Gleichheit schon, wenn m Bild eines Elements aus
+Es reicht natürlich, dies für m aus einer  $\mathbb{Z}_{l}$ -Modulbasis von M zu zeigen, und nach Voraussetzung gilt die Gleichheit schon, wenn m Bild eines Elements aus
 
-der Konjugationsklasse von  $F_{v}$  ist, für  $v \in \{v_{1}, \ldots, v_{r}\}$ . Wir zeigen, daß diese Bilder M über  $Z_{l}$  erzeugen. Nach Nakayama reicht es, wenn sie M/lM erzeugen. Dies gilt aber aus folgendem Grund:
+der Konjugationsklasse von  $F_{v}$  ist, für  $v \in \{v_{1}, \ldots, v_{r}\}$ . Wir zeigen, daß diese Bilder M über  $\mathbb{Z}_{l}$  erzeugen. Nach Nakayama reicht es, wenn sie M/lM erzeugen. Dies gilt aber aus folgendem Grund:
 
 Wir haben eine Darstellung
 
@@ -766,7 +766,7 @@ eine rationale Zahl ist. Wir werden ein N konstruieren, so daß Zähler und Nenn
 
 Das letztere ist ganz einfach:
 
-Wenn für zwei abelsche Varietäten  $B_{1}/K$  und  $B_{2}/K$$T_{l}(B_{1})$  und  $T_{l}(B_{2})$  als  $\pi$ -Moduln isomorph sind, so existiert nach Satz4 eine Isogenie vom Grad prim zu l zwischen  $B_{1}$  und  $B_{2}$, und l tritt nicht in
+Wenn für zwei abelsche Varietäten  $B_{1}/K$  und  $B_{2}/K$ $T_{l}(B_{1})$  und  $T_{l}(B_{2})$  als  $\pi$ -Moduln isomorph sind, so existiert nach Satz 4 eine Isogenie vom Grad prim zu l zwischen  $B_{1}$  und  $B_{2}$, und l tritt nicht in
 
 $$
 \exp (2 [ K: \mathbb {Q} ] (h (B _ {1}) - h (B _ {2})))
@@ -776,7 +776,7 @@ auf.
 
 Es reicht also, wenn es nur endlich viele Isomorphie-Klassen $\pi$-invarianter Gitter in $T_{l}(A)\otimes_{\mathbb{Z}_{l}}\mathbb{Q}_{l}$ gibt. Dazu sei $M_{l}$ die von $\pi$ erzeugte $\mathbb{Z}_{l}$-Unteralgebra von $\operatorname{End}_{\mathbb{Z}_{l}}(T_{l}(A))$. Es folgt dann alles aus der Tatsache, daß $M_{l}\otimes_{\mathbb{Z}_{l}}\mathbb{Q}_{l}$ halbeinfach ist (Satz 3).
 
-Wir kommen nun zur Wahl von N. Dazu sei n das Produkt der Primzahlen l, für welche entweder die Erweiterung  $K \supseteq Q$  in l verzweigt, oder A nicht gute Reduktion an allen Stellen der Charakteristik l hat.
+Wir kommen nun zur Wahl von N. Dazu sei n das Produkt der Primzahlen l, für welche entweder die Erweiterung  $K \supseteq \mathbb{Q}$  in l verzweigt, oder A nicht gute Reduktion an allen Stellen der Charakteristik l hat.
 
 Wähle eine Primzahl p, welche n nicht teilt. Sei wieder
 
@@ -792,9 +792,9 @@ $$
 
 Dabei ist l eine zu pn prime Primzahl, und  $F_{p}$  bezeichnet den Frobenius an der Stelle p.
 
-Die  $P_{h}(T)$  sind unabhängig von l, haben Koeffizienten in Z, und ihre Nullstellen haben absoluten Betrag  $p^{+\frac{h}{2}}$  (Weil-Vermutung oder besser -Satz).
+Die  $P_{h}(T)$  sind unabhängig von l, haben Koeffizienten in $\mathbb{Z}$, und ihre Nullstellen haben absoluten Betrag  $p^{+\frac{h}{2}}$  (Weil-Vermutung oder besser -Satz).
 
-Wir wählen nun  $N \geq 2$  so groß, daß keine Primzahl  $l > N$$P_{h}(\pm p^{j})$  teilt, falls
+Wir wählen nun  $N \geq 2$  so groß, daß keine Primzahl  $l > N$ $P_{h}(\pm p^{j})$  teilt, falls
 
 $$
 \begin{array}{l} 0 \leq h \leq 2 g m \\ 0 \leq j \leq g m \\ j \neq \frac {1}{2} h. \end{array}
@@ -811,18 +811,18 @@ $$
 von zu A isogenen abelschen Varietäten, deren Grad eine l-Potenz mit einer Primzahl l>N ist,  $h(B_{1})$  und  $h(B_{2})$  übereinstimmen. Dies geht ähnlich wie beim Beweis des Satzes 2: Wir dürfen annehmen, daß l den Kern G von  $\phi$  annuliert. Sei
 
 $$
-\begin{array}{l} V _ {l} = T _ {l} (B _ {1}) / l \cdot T _ {l} (B _ {1}) \cong B _ {1} [ l ] (\overline {{K}}), \\ \tilde {V} _ {l} = \mathrm{Ind} _ {\pi} ^ {\pi} (V), \\ W _ {l} = G (\overline {{K}}) \subseteq V _ {l} \\ \tilde {W} _ {l} = \mathrm{Ind} _ {\pi} ^ {\pi} (W _ {l}) \subseteq \tilde {V} _ {l}. \end{array}
+\begin{array}{l} V _ {1} = T _ {l} (B _ {1}) / l \cdot T _ {l} (B _ {1}) \cong B _ {1} [ l ] (\overline {{K}}), \\ \tilde {V} _ {1} = \mathrm{Ind} _ {\pi} ^ {\tilde {\pi}} (V _ {1}), \\ W _ {1} = G (\overline {{K}}) \subseteq V _ {1} \\ \tilde {W} _ {1} = \mathrm{Ind} _ {\pi} ^ {\tilde {\pi}} (W _ {1}) \subseteq \tilde {V} _ {1}. \end{array}
 $$
 
 Wenn $\phi$ die Ordnung $l^h$ hat, so operiert $\tilde{\pi}$ auf
 
 $$
-L = \Lambda^ {m h} (\tilde {W} _ {l}) \subseteq \Lambda^ {m h} (\tilde {V} _ {l})
+L = \Lambda^ {m h} (\tilde {W} _ {1}) \subseteq \Lambda^ {m h} (\tilde {V} _ {1})
 $$
 
 via einen Charakter $\chi\colon\tilde{\pi}\to(\mathbb{Z}/l\mathbb{Z})^{*}$.
 
-Wenn $\varepsilon\colon\tilde{\pi}\to\{\pm1\}$ den Charakter bezeichnet, mit dem $\tilde{\pi}$ auf $A^{m}\operatorname{Ind}_{\pi}^{\tilde{\pi}}(\mathbb{Z})$ operiert, so ist $\chi\cdot\varepsilon^{h}$ unverzweigt außerhalb $l$, denn die Trägheitsgruppen der Stellen $v$ von $K$, welche $l$ nicht teilen, operieren unipotent auf $V_{l}$ (semistabile Reduktion). Nach der Klassenkörpertheorie ist $\chi\cdot\varepsilon^{h}$ eine Potenz des zyklotomischen Charakters $\chi_{0}$. Diese Potenz läßt sich mit Hilfe von [10], Théorème 4.11 (statt der Tateschen Theorie [13]) wie folgt bestimmen:
+Wenn $\varepsilon\colon\tilde{\pi}\to\{\pm1\}$ den Charakter bezeichnet, mit dem $\tilde{\pi}$ auf $\Lambda^{m}\operatorname{Ind}_{\pi}^{\tilde{\pi}}(\mathbb{Z})$ operiert, so ist $\chi\cdot\varepsilon^{h}$ unverzweigt außerhalb $l$, denn die Trägheitsgruppen der Stellen $v$ von $K$, welche $l$ nicht teilen, operieren unipotent auf $V_{1}$ (semistabile Reduktion). Nach der Klassenkörpertheorie ist $\chi\cdot\varepsilon^{h}$ eine Potenz des zyklotomischen Charakters $\chi_{0}$. Diese Potenz läßt sich mit Hilfe von [10], Théorème 4.11 (statt der Tateschen Theorie [13]) wie folgt bestimmen:
 
 Sei
 
@@ -842,7 +842,7 @@ $$
 h (B _ {2}) - h (B _ {1}) = \log (l) \left(\frac {h}{2} - \frac {d}{m}\right),
 $$
 
-folgt unsere Behauptung, und es ergibt sich, daß die  $h(B)$ 's der betrachteten B's beschränkt sind. Damit folgt Satz6 aus Satz1.
+folgt unsere Behauptung, und es ergibt sich, daß die  $h(B)$ 's der betrachteten B's beschränkt sind. Damit folgt Satz 6 aus Satz 1.
 
 Korollar 1. Es gibt nur endlich viele Isomorphie-Klassen glatter Kurven X/K vom Geschlecht g≥2, welche außerhalb S gute Reduktion haben.
 
@@ -856,7 +856,7 @@ $$
 \phi \colon X _ {1} \to X.
 $$
 
-Lemma 4 liefert einen endlichen Oberkörper $K_{1} \supseteq K$, so daß für jedes $x \in X(K)$$\phi^{-1}(x)$ aus $m$ verschiedenen $K_{1}$-rationalen Punkten besteht. Man wähle einen davon aus, etwa $y \in p^{-1}(x)$.
+Lemma 4 liefert einen endlichen Oberkörper $K_{1} \supseteq K$, so daß für jedes $x \in X(K)$$\phi^{-1}(x)$ aus $m$ verschiedenen $K_{1}$-rationalen Punkten besteht. Man wähle einen davon aus, etwa $y \in \phi^{-1}(x)$.
 
 Sei  $D=\phi^{-1}(x)-\{y\}$ , und  $A/K_{1}$  die verallgemeinerte Jacobische zu dem Paar  $(X_{1},D)$ . Mit Hilfe von y konstruiert man eine Abbildung von  $X_{1}-D$  nach A.
 
@@ -883,6 +883,34 @@ Bemerkungen. 1. Man erhält auf diesem Wege auch einen Beweis des Siegelschen Sa
 2. Arakelov, S.: An Intersection theory for divisors on an arithmetic surface. Math. USSR Izvestija 8, 1167-1180 (1974)
 
 3. Baily, W.L., Borel, A.: Compactification of arithmetic quotients of bounded symmetric domains. Ann. of Math. 84, 442-528 (1966)
+
+4. Deligne, P., Mumford, D.: The irreducibility of the space of curves of a given genus. Publ. math. I.H.E.S. 36, 75-110 (1969)
+
+5. Faltings, G.: Calculus on arithmetic surfaces. Eingereicht bei Ann. of Math.
+
+6. Faltings, G.: Arakelov's theorem for abelian varieties. Invent. math. 73, 337-347 (1983)
+
+7. Moret-Bailly, L.: Variétés abéliennes polarisées sur les corps de fonctions. C.R. Acad. Sc. Paris 296, 267-270: 1983
+
+8. Namikawa, Y.: Toroidal compactification of Siegel spaces. Lecture Notes in Mathematics, vol. 812. Berlin-Heidelberg-New York: Springer 1980
+
+9. Parshin, A.N.: Algebraic curves over function fields I. Math. USSR Izvestija 2, 1145-1170 (1968)
+
+10. Raynaud, M.: Schémas en groupes de type (p,...,p). Bull. Soc. Math. France 102, 241-280 (1974)
+
+11. Szpiro, L.: Sur le théorème de rigidité de Parsin et Arakelov. Astérisque 64, 169-202 (1979)
+
+12. Szpiro, L.: Séminaire sur les pinceaux de courbes de genre au moins deux. Astérisque 86 (1981)
+
+13. Tate, J.: p-divisible groups. Proceedings of a conference on local fields, Driebergen 1966, pp.158-183. Berlin-Heidelberg-New York: Springer 1967
+
+14. Tate, J.: Endomorphisms of abelian varieties over finite fields. Invent. math. 2, 134-144 (1966)
+
+15. Zarhin, J.G.: Isogenies of abelian varieties over fields of finite characteristics. Math. USSR Sbornik 24, 451-461 (1974)
+
+16. Zarhin, J.G.: A remark on endomorphisms of abelian varieties over function fields of finite characteristics. Math. USSR Izvestija 8, 477-480 (1974)
+
+Oblatum 8-VI & 10-VII-1983
 
 ## Zusatz bei der Korrektur
 
