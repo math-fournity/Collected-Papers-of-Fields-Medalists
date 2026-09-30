@@ -13,26 +13,26 @@ Combining our counting techniques with a recent result of Dokchitser and Dokchit
 Any elliptic curve E over$\mathbb { Q }$is isomorphic to a unique curve of the form $E _ { A , B } : y ^ { 2 } = x ^ { 3 } + A x + B$, where$A , B \in \mathbb { Z }$and for all primes p:$p ^ { 6 } \nmid B$ whenever$p ^ { 4 } \mid A$. The (naive) height$H ( E _ { A , B } )$of the elliptic curve$E = E _ { A , B }$ is then defined by
 
 $$
-H (E _ {A, B}) := \max \{4 | A ^ {3} |, 2 7 B ^ {2} \}.
+H (E _ {A, B}) := \max \{4 | A ^ {3} |, 27 B ^ {2} \}.
 $$
 
 In a previous paper [8], we showed that the average rank of all elliptic curves, when ordered by height, is finite. This was accomplished by proving that the average size of the 2-Selmer group of elliptic curves, when ordered by height, is exactly 3; it then followed from the latter result that (the limsup of) the average rank of all elliptic curves is bounded above by 1.5.
 
 In this article, we prove an analogous result for the average size of the 3-Selmer group.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">c 2015 Department of Mathematics, Princeton University.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">© 2015 Department of Mathematics, Princeton University.</span></small>
 
 Theorem 1. When all elliptic curves$E / \mathbb { Q }$are ordered by height, the average size of the 3-Selmer group$S _ { 3 } ( E )$is 4.
 
 The above result is also seen to imply the boundedness of the average rank of all elliptic curves. Indeed, for an elliptic curve E over Q, since the 3-rank $r _ { 3 } ( S _ { 3 } ( E ) )$of the 3-Selmer group$S _ { 3 } ( E )$of E bounds the rank of$E ,$and since $6 r _ { 3 } ( E ) - 3 \le 3 ^ { r _ { 3 } ( E ) } = | S _ { 3 } ( E ) |$, by taking averages we immediately obtain the following improved bound on the average rank of elliptic curves.
 
-Corollary 2. When all elliptic curves over$\mathbb { Q }$are ordered by height, their average 3-Selmer rank is at most$1 { \scriptstyle { \frac { 1 } { 6 } } } ;$; thus their average rank is also at most$1 { \frac { 1 } { 6 } } < 1 . 1 7$
+Corollary 2. When all elliptic curves over$\mathbb { Q }$are ordered by height, their average 3-Selmer rank is at most$1 { \scriptstyle { \frac { 1 } { 6 } } } ;$; thus their average rank is also at most$1 { \frac { 1 } { 6 } }$ < 1.17$.
 
 Theorem 1 also yields the same bound of$1 \textstyle { \frac { 1 } { 6 } }$on the average 3-rank of the Tate–Shafarevich group of all elliptic curves, when ordered by height.
 
 We will in fact prove a stronger version of Theorem 1, namely,
 
-Theorem 3. When elliptic curves$E : y ^ { 2 } = x ^ { 3 } + A x + B$, in any family defined by finitely many congruence conditions on the coeficients A and$B _ { ; }$ are ordered by height, the average size of the 3-Selmer group$S _ { 3 } ( E )$is 4.
+Theorem 3. When elliptic curves$E : y ^ { 2 } = x ^ { 3 } + A x + B$, in any family defined by finitely many congruence conditions on the coeficients A and$B$, are ordered by height, the average size of the 3-Selmer group$S _ { 3 } ( E )$is 4.
 
 Thus the average size of the 3-Selmer group remains 4 even when one averages over any subset of elliptic curves defined by finitely many local conditions. We will actually prove Theorem 3 for an even larger class of families, including some that are defined by certain natural infinite sets of local conditions (such as the family of all semistable elliptic curves).
 
@@ -42,11 +42,11 @@ Theorem 4. When all elliptic curves$E / \mathbb { Q }$are ordered by height, a p
 
 In the case of rank 1, if we assume the finiteness of the Tate–Shafarevich group, then we also have
 
-Theorem 5. Assume$\operatorname { I I I } ( E )$is finite for all E. When all elliptic curves $E / \mathbb { Q }$are ordered by height, a positive proportion of them have rank 1.
+Theorem 5. Assume$\mathrm { Ш } ( E )$is finite for all E. When all elliptic curves $E / \mathbb { Q }$are ordered by height, a positive proportion of them have rank 1.
 
 Next, combining our counting arguments with the important recent work of Skinner–Urban [28] on the Iwasawa Main Conjectures for$\mathrm { G L _ { 2 } }$, we obtain:
 
-Theorem 6. When all elliptic curves$E / \mathbb { Q }$are ordered by height, a positive proportion of them have analytic rank 0; that is, a positive proportion of elliptic curves have nonvanishing L-function at$s = 1$
+Theorem 6. When all elliptic curves$E / \mathbb { Q }$are ordered by height, a positive proportion of them have analytic rank 0; that is, a positive proportion of elliptic curves have nonvanishing L-function at$s = 1$.
 
 Applying Kolyvagin’s Theorem, or noting that the elliptic curves of analytic rank 0 that arise in Theorem 6 form a subset of those that are constructed in Theorem 4, we conclude
 
@@ -62,21 +62,21 @@ $$
 \mathcal {H} (f (x, y, z)) := \left| \begin{array}{c c c} f _ {x x} & f _ {x y} & f _ {x z} \\ f _ {x y} & f _ {y y} & f _ {y z} \\ f _ {x z} & f _ {y z} & f _ {z z} \end{array} \right|.\tag{1}
 $$
 
-Then$\mathcal { H } ( f )$is itself a ternary cubic form and, moreover, it is an$\mathrm { S L _ { 3 ^ { - } } }$-covariant of$f ;$i.e., for$\gamma \in \mathrm { S L _ { 3 } }$, we have$\mathcal { H } ( \gamma \cdot f ) = \gamma \cdot \mathcal { H } ( f )$. An easy computation gives
+Then$\mathcal { H } ( f )$is itself a ternary cubic form and, moreover, it is an$\mathrm { S L } _ { 3 }$-covariant of$f ;$i.e., for$\gamma \in \mathrm { S L _ { 3 } }$, we have$\mathcal { H } ( \gamma \cdot f ) = \gamma \cdot \mathcal { H } ( f )$. An easy computation gives
 
 $$
-\mathcal {H} (\mathcal {H} (f)) = 1 2 2 8 8 I (f) ^ {2} \cdot f + 5 1 2 J (f) \cdot \mathcal {H} (f)\tag{2}
+\mathcal {H} (\mathcal {H} (f)) = 12288 I (f) ^ {2} \cdot f + 512 J (f) \cdot \mathcal {H} (f)\tag{2}
 $$
 
 for certain rational polynomials$I ( f )$and$J ( f )$in the coeficients of$f ,$having degrees 4 and 6 respectively; note that (2) uniquely determines$J ( f )$and also uniquely determines$I ( f )$up to sign. The sign of$I ( f )$is fixed by the requirement that the discriminant$\Delta ( f )$of a ternary cubic form$f$be expressible in terms of$I ( f )$and$J ( f )$by the same formula as for binary quartic forms, namely,
 
 $$
-\Delta (f) := \Delta (I, J) := (4 I (f) ^ {3} - J (f) ^ {2}) / 2 7.\tag{3}
+\Delta (f) := \Delta (I, J) := (4 I (f) ^ {3} - J (f) ^ {2}) / 27.\tag{3}
 $$
 
-These polynomials$I ( f )$and$J ( f )$are evidently$\mathrm { { S L } _ { 3 } }$-invariants, and in fact they generate the full ring of polynomial invariants over$\mathbb { C } .$.
+These polynomials$I ( f )$and$J ( f )$are evidently$\mathrm { { S L } _ { 3 } }$-invariants, and in fact they generate the full ring of polynomial invariants over$\mathbb { C } $.
 
-Traditionally, the generators of the ring of invariants of the action of$\mathrm { { S L } _ { 3 } }$ on the space of ternary cubic forms have been denoted by$S$and$T$(called the Aronhold invariants [2]), which are certain integer multiples of I and$J ,$ respectively; explicitly, we have$S = 1 6 \cdot I$and$T = 3 2 \cdot J$. However, any ternary cubic form$f$having complex coeficients and nonzero discriminant is $\operatorname { S L _ { 3 } } ( \mathbb { C } )$-equivalent to a ternary cubic form E in Weierstrass form. In previous work (see$[ 8 , \ \ S 3 ] )$we had defined invariants$I ( E )$and$J ( E )$of such$E ,$and the invariants$I ( f )$and$J ( f )$of ternary cubic forms$f$have been chosen to agree with those same invariants of$E$
+Traditionally, the generators of the ring of invariants of the action of$\mathrm { { S L } _ { 3 } }$ on the space of ternary cubic forms have been denoted by$S$and$T$(called the Aronhold invariants [2]), which are certain integer multiples of I and$J ,$ respectively; explicitly, we have$S = 16 \cdot I$and$T = 32 \cdot J$. However, any ternary cubic form$f$having complex coeficients and nonzero discriminant is $\operatorname { S L _ { 3 } } ( \mathbb { C } )$-equivalent to a ternary cubic form E in Weierstrass form. In previous work (see$[ 8 , \ \ S 3 ] )$we had defined invariants$I ( E )$and$J ( E )$of such$E ,$and the invariants$I ( f )$and$J ( f )$of ternary cubic forms$f$have been chosen to agree with those same invariants of$E$
 
 Now, for ternary cubic forms over the integers, the general work of Borel and Harish-Chandra [10] implies that the number of equivalence classes of integral ternary cubic forms, having any given fixed values for these basic invariants I and J (so long as I and$J$are not both equal to$\operatorname { z e r o } )$, is finite. The question thus arises: how many$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of integral ternary cubic forms are there, on average, having invariants$I , J ,$as the pair$( I , J )$varies?
 
@@ -88,7 +88,7 @@ $$
 
 (As usual, the constant factor$1 / 4$on$J ^ { 2 }$is present for convenience and is not of any real importance.) Thus$H ( f )$is$\mathrm { ~ a ~ } ^ { 6 6 }$degree$1 2 ^ { \mathfrak { s } }$function in the coeficients of$f ,$in the sense that$H ( \lambda f ) = \lambda ^ { 1 2 } H ( f )$for any constant$\lambda .$We may then order all$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of ternary cubic forms$f$by their height$H ( f )$, and we may similarly order all pairs$( I , J )$of invariants by their height$H ( I , J )$
 
-As with binary quartic forms, we wish to restrict ourselves to counting ternary cubic forms that are irreducible in an appropriate sense. Being simply $i r r e d u c i b l e \mathrm { - } \mathrm { i . e . }$, not having a smaller degree factor—is more a geometric condition rather than an arithmetic one. We wish to have a condition that implies that the ternary cubic form is suficiently “generic” over$\mathbb { Q } .$. The most convenient notion (also for the applications) turns out to be what we call strong irreducibility.
+As with binary quartic forms, we wish to restrict ourselves to counting ternary cubic forms that are irreducible in an appropriate sense. Being simply $i r r e d u c i b l e \mathrm { - } \mathrm { i . e . }$, not having a smaller degree factor—is more a geometric condition rather than an arithmetic one. We wish to have a condition that implies that the ternary cubic form is suficiently “generic” over$\mathbb { Q } $. The most convenient notion (also for the applications) turns out to be what we call strong irreducibility.
 
 Let us say that an integral ternary cubic form$f$is strongly irreducible if $f$is irreducible and the common zero set of$f$and its Hessian$\mathcal { H } ( f )$in$\mathbb { P } ^ { 2 } \ ( \mathrm { i . e . }$ the set of flexes of$f$in$\mathbb { P } ^ { 2 } )$contains no rational points. We prove
 
@@ -106,11 +106,11 @@ In order to obtain the average size of$h ( I , J )$, as (I, J) varies, we first 
 
 In the binary quartic case, we proved in [8] that a similar scenario occurs; namely, an$( I , J ) \in \mathbb { Z } \times \mathbb { Z }$is$e l i g i b l e \mathrm { - } \mathrm { i . e . }$, it occurs as the invariants of some integer binary quartic form—if and only if it satisfies any one of a certain specified finite set of congruence conditions modulo 27 (see [8, Th. 1.7]).
 
-It turns out that the invariants (I, J) that can occur (i.e., are eligible) for an integral ternary cubic must also satisfy these same conditions modulo 27. However, there is also now a strictly larger set of possibilities at the prime 2. Indeed, the pairs$( I , J )$that occur for ternary cubic forms need not even be integral, but rather lie in${ \begin{array} { r } { { \frac { 1 } { 1 6 } } \mathbb { Z } \times { \frac { 1 } { 3 2 } } \mathbb { Z } ; } \end{array} }$and the pairs$( I , J )$in this set that actually occur are then defined by certain congruence conditions modulo 64 on 16I and 32J, in addition to the same congruence conditions modulo 27 on I and J that occur for binary quartic forms.
+It turns out that the invariants (I, J) that can occur (i.e., are eligible) for an integral ternary cubic must also satisfy these same conditions modulo 27. However, there is also now a strictly larger set of possibilities at the prime 2. Indeed, the pairs$( I , J )$that occur for ternary cubic forms need not even be integral, but rather lie in${ \begin{array} { r } { { \frac { 1 } { 16 } } \mathbb { Z } \times { \frac { 1 } { 32 } } \mathbb { Z } ; } \end{array} }$and the pairs$( I , J )$in this set that actually occur are then defined by certain congruence conditions modulo 64 on 16I and 32J, in addition to the same congruence conditions modulo 27 on I and J that occur for binary quartic forms.
 
 In particular, the set of integral pairs$( I , J ) \in \mathbb { Z } \times \mathbb { Z }$that occur as invariants for integral ternary cubic forms is the same as the set of all pairs$( I , J )$that occur for integral binary quartic forms! We prove
 
-Theorem 9. A pair (I, J) occurs as the pair of invariants of an integral ternary cubic form if and only if$\begin{array} { r } { ( I , J ) \in \frac { 1 } { 1 6 } \mathbb { Z } \times \frac { 1 } { 3 2 } \mathbb { Z } } \end{array}$, the pair (16I, 32J) satisfies one of the following congruence conditions modulo 64:
+Theorem 9. A pair (I, J) occurs as the pair of invariants of an integral ternary cubic form if and only if$\begin{array} { r } { ( I , J ) \in \frac { 1 } { 16 } \mathbb { Z } \times \frac { 1 } { 32 } \mathbb { Z } } \end{array}$, the pair (16I, 32J) satisfies one of the following congruence conditions modulo 64:
 
 (a) 16I ≡ 0 (mod 16) and 32J ≡ 0 (mod 32),
 
@@ -142,9 +142,9 @@ and (I, J) satisfies one of the following congruence conditions modulo 27:
 
 (d) I ≡ 7 (mod 9) and J ≡ ±7 (mod 27).
 
-We note that these additional possible invariants$( I , J ) \in { \frac { 1 } { 1 6 } } \mathbb { Z } \times { \frac { 1 } { 3 2 } } \mathbb { Z }$that arise for ternary cubic forms also arise in the case of binary quartics, provided one uses “generalized binary quartics”; see [13] or [20] for details on the construction and uses of these generalized quartics.
+We note that these additional possible invariants$( I , J ) \in { \frac { 1 } { 16 } } \mathbb { Z } \times { \frac { 1 } { 32 } } \mathbb { Z }$that arise for ternary cubic forms also arise in the case of binary quartics, provided one uses “generalized binary quartics”; see [13] or [20] for details on the construction and uses of these generalized quartics.
 
-From Theorem 9, we then conclude that the number of eligible pairs $( I , J ) \in { \frac { 1 } { 1 6 } } \mathbb { Z } \times { \frac { 1 } { 3 2 } } \mathbb { Z }$, with$H ( I , J ) < X$, is asymptotically a certain constant times$X ^ { 5 / 6 }$. By Theorem$^ { 8 , }$the number of classes of strongly irreducible ternary cubic forms, per eligible$( I , J ) \in \frac { 1 } { 1 6 } \mathbb { Z } \times \frac { 1 } { 3 2 } \mathbb { Z } .$, is thus a constant on average. We have
+From Theorem 9, we then conclude that the number of eligible pairs $( I , J ) \in { \frac { 1 } { 16 } } \mathbb { Z } \times { \frac { 1 } { 32 } } \mathbb { Z }$, with$H ( I , J ) < X$, is asymptotically a certain constant times$X ^ { 5 / 6 }$. By Theorem 8,the number of classes of strongly irreducible ternary cubic forms, per eligible$( I , J ) \in \frac { 1 } { 16 } \mathbb { Z } \times \frac { 1 } { 32 } \mathbb { Z } $, is thus a constant on average. We have
 
 Theorem 10. Let$h ( I , J )$denote the number of$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-equivalence classes of strongly irreducible integral ternary cubic forms having invariants equal to I and J. Then
 
@@ -162,11 +162,11 @@ $$
 \begin{array}{c} E \xrightarrow {[ n ]} E. \\ \phi \Big \uparrow \quad \Big \backslash \theta \\ C \end{array}
 $$
 
-Thus an n-covering$C = ( C , \phi , \theta )$may be viewed as a “twist over$\mathbb { Q }$of the multiplication-by-n map on$E . ^ { \mathfrak { s } }$Two n-coverings C and$C ^ { \prime }$are said to be isomorphic if there exists an isomorphism$\Phi : C \to C ^ { \prime }$defined over$\mathbb { Q } ,$and an n-torsion point$P \in E$, such that the following diagram commutes:
+Thus an n-covering$C = ( C , \phi , \theta )$may be viewed as a “twist over$\mathbb { Q }$of the multiplication-by-n map on $E.”Two n-coverings C and$C ^ { \prime }$are said to be isomorphic if there exists an isomorphism$\Phi : C \to C ^ { \prime }$defined over$\mathbb { Q } ,$and an n-torsion point$P \in E$, such that the following diagram commutes:
 
 ![](images/page_6_image_1.jpg)
 
-A soluble n-covering C is one that possesses a rational point, while a locally soluble n-covering C is one that possesses an R-point and a$\mathbb { Q } _ { p } { \mathrm { - p o i n t } }$for all primes$p .$. Then we have the isomorphisms
+A soluble n-covering C is one that possesses a rational point, while a locally soluble n-covering C is one that possesses an R-point and a$\mathbb { Q } _ { p } { \mathrm { - p o i n t } }$for all primes$p $. Then we have the isomorphisms
 
 $$
 \{\text { soluble   } n \text {-coverings} \} / \sim \cong E (\mathbb {Q}) / n E (\mathbb {Q}),
@@ -176,7 +176,7 @@ $$
 \{\text { locally   soluble } n \text {-coverings} \} / \sim \cong S _ {n} (E).
 $$
 
-Now, counting elements of$S _ { 3 } ( E )$leads to counting ternary cubic forms for the following reason. There is a result of Cassels (see [12, Th. 1.3]) that states that any locally soluble n-covering C possesess a degree n divisor defined over $\mathbb { Q } .$If$n = 3$, we thus obtain an embedding of$C$into$\mathbb { P } ^ { 2 }$, thereby yielding a ternary cubic form, well defined up to$\mathrm { G L _ { 3 } ( \mathbb { Q } ) }$)-equivalence! Conversely, given any ternary cubic form$f$having rational coeficients and nonzero discriminant, there exists a 3-covering defined over$\mathbb { Q }$from the plane cubic C defined by the equation$f = 0$to the elliptic curve$\operatorname { J a c } ( C )$, where$\operatorname { J a c } ( C )$is the Jacobian of $C$and is given by the equation
+Now, counting elements of$S _ { 3 } ( E )$leads to counting ternary cubic forms for the following reason. There is a result of Cassels (see [12, Th. 1.3]) that states that any locally soluble n-covering C possesess a degree n divisor defined over $\mathbb { Q } .$If$n = 3$, we thus obtain an embedding of$C$into$\mathbb { P } ^ { 2 }$, thereby yielding a ternary cubic form, well defined up to$\mathrm { G L } _ { 3 } ( \mathbb { Q } )$-equivalence! Conversely, given any ternary cubic form$f$having rational coeficients and nonzero discriminant, there exists a 3-covering defined over$\mathbb { Q }$from the plane cubic C defined by the equation$f = 0$to the elliptic curve$\operatorname { J a c } ( C )$, where$\operatorname { J a c } ( C )$is the Jacobian of $C$and is given by the equation
 
 $$
 Y ^ {2} = X ^ {3} - \frac {I (f)}{3} X - \frac {J (f)}{2 7};\tag{5}
@@ -202,7 +202,7 @@ The work of Cremona, Fisher, and Stoll [13] on “minimization” for ternary cu
 
 In the last step, we first use a simple sieve to obtain the optimal upper bounds. The optimal lower bounds, on the other hand, are significantly more dificult to obtain, and we use the techniques and results of [6] in order to prove them.
 
-We may compare Theorem 1 with a result of de Jong [16], who showed that for a finite field of characteristic not equal to$s ,$, the average size of the 3-Selmer group of all elliptic curves over$\mathbb { F } _ { q } ( t )$is at most$4 + \varepsilon ( q )$for an explicit function $\varepsilon ( q )$that tends to 0 as$q \to \infty$. The technique in [16] was also essentially that of counting ternary cubic forms over$\mathbb { F } _ { q } ( t ) !$Our main result, Theorem 1, may thus be viewed as a precise version of de Jong’s Theorem over the number field$\mathbb { Q } .$For more on the history of average ranks of elliptic curves in families, and related results, see [4] and [8, §1].
+We may compare Theorem 1 with a result of de Jong [16], who showed that for a finite field of characteristic not equal to $s$,, the average size of the 3-Selmer group of all elliptic curves over$\mathbb { F } _ { q } ( t )$is at most$4 + \varepsilon ( q )$for an explicit function $\varepsilon ( q )$that tends to 0 as$q \to \infty$. The technique in [16] was also essentially that of counting ternary cubic forms over$\mathbb { F } _ { q } ( t ) !$Our main result, Theorem 1, may thus be viewed as a precise version of de Jong’s Theorem over the number field$\mathbb { Q } .$For more on the history of average ranks of elliptic curves in families, and related results, see [4] and [8, §1].
 
 This paper is organized as follows. In Section 2, following the methods of [8], we determine the asymptotic number of$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-equivalence classes of strongly irreducible integral ternary cubic forms having bounded height; in particular, we prove Theorems 8, 9, and 10. The primary method is that of reduction theory, allowing us to reduce the problem to counting integral points in certain finite volume regions in$\mathbb { R } ^ { 1 0 }$. However, the dificulty in such a count, as usual, lies in the fact that these regions are not compact, but rather have cusps going of to infinity. By studying the geometry of these regions via the averaging method of [5], we are able to isolate the subregions of the fundamental domains that contain predominantly (and all of the) strongly irreducible points. The appropriate volume computations for these subregions are then carried out to obtain the desired result.
 
@@ -218,7 +218,7 @@ $$
 (\gamma \cdot f) (x, y, z) = f ((x, y, z) \cdot \gamma).
 $$
 
-For a ternary cubic form$f \in V _ { \mathbb { R } }$, let$\mathcal { H } ( f )$denote the Hessian covariant of $f ,$defined by (1), and let$I ( f )$and$J ( f )$denote the two fundamental polynomial invariants of$f$as in$( 2 )$. As noted earlier, these polynomials$I ( f )$and$J ( f )$ are invariant under the action of$\mathrm { S L _ { 3 } ( \mathbb { R } ) } \subset \mathrm { G L _ { 3 } ( \mathbb { R } ) }$and, moreover, they are relative invariants of degrees 4 and$6 ,$respectively, for the action of$\mathrm { G L _ { 3 } ( \mathbb { R } ) }$1 on V<sub>R</sub>; i.e,$I ( \gamma \cdot f ) = \operatorname * { d e t } ( \gamma ) ^ { 4 } I ( f )$and$J ( \gamma \cdot f ) = \operatorname * { d e t } ( \gamma ) ^ { 6 } J ( f )$for$\gamma \in \operatorname { G L } _ { 3 } ( \mathbb { R } )$ and$f \in V _ { \mathbb { R } }$
+For a ternary cubic form$f \in V _ { \mathbb { R } }$, let$\mathcal { H } ( f )$denote the Hessian covariant of $f ,$defined by (1), and let$I ( f )$and$J ( f )$denote the two fundamental polynomial invariants of$f$as in$( 2 )$. As noted earlier, these polynomials$I ( f )$and$J ( f )$ are invariant under the action of$\mathrm { S L _ { 3 } ( \mathbb { R } ) } \subset \mathrm { G L _ { 3 } ( \mathbb { R } ) }$and, moreover, they are relative invariants of degrees 4 and$6 ,$respectively, for the action of$\mathrm { G L _ { 3 } ( \mathbb { R } ) }$ on V<sub>R</sub>; i.e,$I ( \gamma \cdot f ) = \operatorname * { d e t } ( \gamma ) ^ { 4 } I ( f )$and$J ( \gamma \cdot f ) = \operatorname * { d e t } ( \gamma ) ^ { 6 } J ( f )$for$\gamma \in \operatorname { G L } _ { 3 } ( \mathbb { R } )$ and$f \in V _ { \mathbb { R } }$
 
 The discriminant$\Delta ( f )$of a ternary cubic form$f$is a relative invariant of degree 12 and is given by the formula$\Delta ( f ) = \Delta ( I , J ) = ( 4 I ( f ) ^ { 3 } - J ( f ) ^ { 2 } ) / 2 7$ We define the height$H ( f )$of$f$by
 
@@ -230,7 +230,7 @@ Note that the height is also a degree 12 relative invariant for the action of $\
 
 The action of$\mathrm { S L _ { 3 } ( \mathbb { Z } ) } \subset \mathrm { G L _ { 3 } ( \mathbb { R } ) }$on$V _ { \mathbb { R } }$evidently preserves the lattice$V _ { \mathbb { Z } }$ consisting of integral ternary cubic forms. In fact, it also preserves the two sets$V _ { \mathbb { Z } } ^ { + }$and$V _ { \mathbb { Z } } ^ { - }$consisting of those integral ternary cubics that have positive and negative discriminant, respectively.
 
-As before, we say that an integral ternary cubic form is strongly irreducible if the corresponding cubic curve in$\mathbb { P } ^ { 2 }$has no rational flex. For an$\operatorname { S L _ { 3 } } ( \mathbb { Z } ) .$ invariant set$S \subset V _ { \mathbb { Z } }$, let$N ( S ; X )$denote the number of$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-equivalence classes of strongly irreducible elements in$S$having height less than$X$. Our purpose in this section is to prove the following rephrasing of Theorem 8.
+As before, we say that an integral ternary cubic form is strongly irreducible if the corresponding cubic curve in$\mathbb { P } ^ { 2 }$has no rational flex. For an$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-invariant set$S \subset V _ { \mathbb { Z } }$, let$N ( S ; X )$denote the number of$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-equivalence classes of strongly irreducible elements in$S$having height less than$X$. Our purpose in this section is to prove the following rephrasing of Theorem 8.
 
 Theorem 11. We have
 
@@ -252,7 +252,7 @@ $$
 f (x, y, z) = x ^ {3} + A x z ^ {2} + B z ^ {3} - y ^ {2} z\tag{6}
 $$
 
-for some$A , B \in \mathbb { R }$. It can be checked that the ternary cubic form$f$in (6) has invariants$I ( f )$and$J ( f )$equal to$- 3 A$and$- 2 7 B$, respectively. Thus, since I and$J$are relative invariants of degrees 4 and 6, respectively, two ternary cubic forms$f$and$g$over$\mathbb { R } .$, having nonzero discriminant, are$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$)-equivalent if and only if there exists a positive constant$\lambda \in \mathbb { R }$such that$I ( f ) = \lambda ^ { 4 } I ( g )$and $J ( f ) = \lambda ^ { 6 } J ( g )$. It follows that a fundamental set$L ^ { + } \ ( \mathrm { r e s p . } \ L ^ { - } )$for the action of$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$on$V _ { \mathbb { R } } ^ { + } ~ ( \mathrm { r e s p . } ~ V _ { \mathbb { R } } ^ { - } )$may be constructed by choosing one ternary cubic form, having invariants I and$J ,$for each pair$( I , J ) \in \mathbb { R } \times \mathbb { R }$such that $H ( I , J ) = 1$and$4 I ^ { 3 } - J ^ { 2 } > 0$(resp.$4 I ^ { 3 } - J ^ { 2 } < 0 )$. We may thus choose
+for some$A , B \in \mathbb { R }$. It can be checked that the ternary cubic form$f$in (6) has invariants$I ( f )$and$J ( f )$equal to$- 3 A$and$- 2 7 B$, respectively. Thus, since I and$J$are relative invariants of degrees 4 and 6, respectively, two ternary cubic forms$f$and$g$over$\mathbb { R } $, having nonzero discriminant, are$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$)-equivalent if and only if there exists a positive constant$\lambda \in \mathbb { R }$such that$I ( f ) = \lambda ^ { 4 } I ( g )$and $J ( f ) = \lambda ^ { 6 } J ( g )$. It follows that a fundamental set$L ^ { + } \ ( \mathrm { r e s p . } \ L ^ { - } )$for the action of$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$on$V _ { \mathbb { R } } ^ { + } ~ ( \mathrm { r e s p . } ~ V _ { \mathbb { R } } ^ { - } )$may be constructed by choosing one ternary cubic form, having invariants I and$J ,$for each pair$( I , J ) \in \mathbb { R } \times \mathbb { R }$such that $H ( I , J ) = 1$and$4 I ^ { 3 } - J ^ { 2 } > 0$(resp.$4 I ^ { 3 } - J ^ { 2 } < 0 )$. We may thus choose
 
 $$
 L ^ {+} = \Bigl \{x ^ {3} - \frac {1}{3} x z ^ {2} - \frac {J}{2 7} z ^ {3} - y ^ {2} z: - 2 <   J <   2 \Bigr \},
@@ -275,7 +275,7 @@ Lemma 12. Let$f \in V _ { \mathbb { R } }$be any ternary cubic form having nonze
 Let$\mathcal { F }$denote a fundamental domain in$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$for the left action of $\mathrm { G L _ { 3 } ^ { + } ( Z ) = S L _ { 3 } ( Z ) }$on$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$contained in a standard Siegel set [10, §2]. We may take$\mathcal { F } = \{ n a k \lambda : n \in N ^ { \prime } ( a ) , a \in A ^ { \prime } , k \in K , \lambda \in \Lambda \}$, where
 
 $$
-\begin{array}{r c l} K & = & \text {subgroup SO_{3} (\mathbb {R}) \subset GL_{3} ^{+} (\mathbb {R}) of orthogonal tran} \\ A ^ {\prime} & \subset & \{a (s _ {1}, s _ {2}): s _ {1}, s _ {2} > c \}, \\ & & \text {where a(s_{1} ,s_{2}) = \left( \begin{array}{ccccc}s_{1}^{-2}s_{2}^{-1} & & & \\ & s_{1}s_{2}^{-1} & & \\ & & s_{1}s_{2}^{2}\end{array} \right),} \\ N ^ {\prime} (a) = & \{n (u _ {1}, u _ {2}, u _ {3}): (u _ {1}, u _ {2}, u _ {3}) \in \nu (a) \}, \\ & & \text {where n(u_{1},u_{2},u_{3}) = \left( \begin{array}{cc} 1 & \\ u_{1} & 1\\ u_{2} & u_{3}   1\end{array} \right),} \\ \Lambda & = & \{\lambda : \lambda > 0 \}, \\ & & \text {where \lambda = \left( \begin{array}{cc}\lambda & \\ & \lambda \\ & \lambda\end{array} \right);} \end{array}
+\begin{array}{r c l} K & = & \text {subgroup SO_{3} (\mathbb {R}) \subset GL_{3} ^{+} (\mathbb {R}) of orthogonal transformations}  \\ A ^ {\prime} & \subset & \{a (s _ {1}, s _ {2}): s _ {1}, s _ {2} > c \}, \\ & & \text {where a(s_{1} ,s_{2}) = \left( \begin{array}{ccccc}s_{1}^{-2}s_{2}^{-1} & & & \\ & s_{1}s_{2}^{-1} & & \\ & & s_{1}s_{2}^{2}\end{array} \right),} \\ N ^ {\prime} (a) = & \{n (u _ {1}, u _ {2}, u _ {3}): (u _ {1}, u _ {2}, u _ {3}) \in \nu (a) \}, \\ & & \text {where n(u_{1},u_{2},u_{3}) = \left( \begin{array}{cc} 1 & \\ u_{1} & 1\\ u_{2} & u_{3}   1\end{array} \right),} \\ \Lambda & = & \{\lambda : \lambda > 0 \}, \\ & & \text {where \lambda = \left( \begin{array}{cc}\lambda & \\ & \lambda \\ & \lambda\end{array} \right);} \end{array}
 $$
 
 here$\nu ( a )$is a measurable subset of$[ - 1 / 2 , 1 / 2 ] ^ { 3 }$dependent only on$a \in A ^ { \prime }$and $c > 0$is an absolute constant.
@@ -330,7 +330,7 @@ To simplify the right-hand side of (9), we require the following lemma, which st
 
 Lemma 13. Let$C > 1$be a constant that bounds the absolute values of the $x ^ { 3 } - , x ^ { 2 } y - , x y ^ { 2 } -$, and x<sup>2</sup>z-coeficients of all the forms in$G _ { 0 } \cdot L ^ { \pm }$. Then the set $B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$contains no strongly irreducible integral ternary cubic forms $i f s _ { 1 } > C ^ { 1 / 3 } \lambda / c$or if$s _ { 2 } > C ^ { 1 / 3 } \lambda / c ^ { 2 }$
 
-Proof. It is easy to see that if$s _ { 1 } > C ^ { 1 / 3 } \lambda / c .$, then the absolute values of the $x ^ { 3 } - , x ^ { 2 } y - ,$and x<sup>2</sup>z-coeficients of any ternary cubic form in$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$ are all less than 1. Therefore, in this case any integral ternary cubic form in$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$must have its$x ^ { 3 } - , \ x ^ { 2 } y -$, and$x ^ { 2 } z$-coeficients equal to$0 ,$ and such a form has a rational flex at$[ 1 : 0 : 0 ] \in \mathbb { P } ^ { 2 }$and so is not strongly irreducible.
+Proof. It is easy to see that if$s _ { 1 } > C ^ { 1 / 3 } \lambda / c $, then the absolute values of the $x ^ { 3 } - , x ^ { 2 } y - ,$and x<sup>2</sup>z-coeficients of any ternary cubic form in$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$ are all less than 1. Therefore, in this case any integral ternary cubic form in$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$must have its$x ^ { 3 } - , \ x ^ { 2 } y -$, and$x ^ { 2 } z$-coeficients equal to$0 ,$ and such a form has a rational flex at$[ 1 : 0 : 0 ] \in \mathbb { P } ^ { 2 }$and so is not strongly irreducible.
 
 Similarly, if$s _ { 2 } ~ > ~ C ^ { 1 / 3 } \lambda / c ^ { 2 }$, then any integral ternary cubic form in $B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$has its$x ^ { 3 } - , \ x ^ { 2 } y -$, and$x y ^ { 2 } .$-coeficients equal to 0, and such a form too always has a flex at$[ 1 : 0 : 0 ] \in \mathbb { P } ^ { 2 }$and so is not strongly irreducible.
 
@@ -366,7 +366,7 @@ $$
 
 because Vol$( \overline { { B ( n , s _ { 1 } , s _ { 2 } , \lambda , X ) } } ) \gg 1$when$\lambda \geq c _ { 1 }$
 
-It is easily checked that when$n a ( s _ { 1 } , s _ { 2 } ) \lambda k \in \mathcal { F } ^ { \prime }$and$\lambda \geq c _ { 1 }$, the projection of$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$onto any coordinate in$V _ { \mathbb { R } } .$, apart from the$x ^ { 3 } -$and$x ^ { 2 } y -$ coeficients, is bounded below independent of$n , s _ { 1 } , s _ { 2 }$, and λ. (For example, the projection of$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$onto the$x ^ { 2 } .$z-coeficient is bounded below by an absolute constant times$\lambda ^ { 3 } s _ { 1 } ^ { - 3 }$, which is bounded from below since$\lambda \geq c _ { 1 }$ and$s _ { 1 } \ll \lambda . )$Thus, the integral of the error term in the integrand of (10) is computed to be
+It is easily checked that when$n a ( s _ { 1 } , s _ { 2 } ) \lambda k \in \mathcal { F } ^ { \prime }$and$\lambda \geq c _ { 1 }$, the projection of$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$onto any coordinate in$V _ { \mathbb { R } } $, apart from the$x ^ { 3 } -$and$x ^ { 2 } y -$ coeficients, is bounded below independent of$n , s _ { 1 } , s _ { 2 }$, and λ. (For example, the projection of$B ( n , s _ { 1 } , s _ { 2 } , \lambda , X )$onto the$x ^ { 2 }$ z-coefficient is bounded below by an absolute constant times$\lambda ^ { 3 } s _ { 1 } ^ { - 3 }$, which is bounded from below since$\lambda \geq c _ { 1 }$ and$s _ { 1 } \ll \lambda . )$Thus, the integral of the error term in the integrand of (10) is computed to be
 
 $$
 O \Bigl (\int_ {\lambda = 0} ^ {X ^ {1 / 3 6}} \int_ {s _ {1}, s _ {2} = c} ^ {\lambda} (\lambda^ {2 7} s _ {1} ^ {6} s _ {2} ^ {3} + \lambda^ {2 4} s _ {1} ^ {9} s _ {2} ^ {6}) s _ {1} ^ {- 6} s _ {2} ^ {- 6} d ^ {\times} s d ^ {\times} \lambda \Bigr) = O (X ^ {3 / 4}).
@@ -386,7 +386,7 @@ $$
 
 Therefore, to prove Theorem 11, it remains only to compute the volume $\mathrm { V o l } ( \mathcal { R } _ { X } ( L ^ { \pm } ) )$
 
-2.3. Computing the volume. In this section, we compute the volumes of $\mathcal { R } _ { X } ( L ^ { \pm } )$. To this end, let$R ^ { \pm } : = \Lambda \cdot L ^ { \pm }$. Then the sets$R ^ { \pm }$consist of one element in$V _ { \mathbb { R } } ^ { \pm }$having invariants$( I , J )$for each$( I , J ) \in \mathbb { R } \times$R such that $\pm \Delta ( I , J ) \in \mathbb { R } _ { > 0 }$. Let$R ^ { \pm } ( X )$denote the set of points in$R ^ { \pm }$having height bounded by$X$. For a ring$T$, define the twisted action of the group$\mathrm { G L _ { 3 } } ( T )$ on the space$V _ { T }$of ternary cubic forms having coeficients in$T$by
+2.3. Computing the volume. In this section, we compute the volumes of $\mathcal { R } _ { X } ( L ^ { \pm } )$. To this end, let$R ^ { \pm } : = \Lambda \cdot L ^ { \pm }$. Then the sets$R ^ { \pm }$consist of one element in$V _ { \mathbb { R } } ^ { \pm }$having invariants$( I , J )$for each$( I , J ) \in \mathbb { R } \times \mathbb { R }$ such that $\pm \Delta ( I , J ) \in \mathbb { R } _ { > 0 }$. Let$R ^ { \pm } ( X )$denote the set of points in$R ^ { \pm }$having height bounded by$X$. For a ring$T$, define the twisted action of the group$\mathrm { G L _ { 3 } } ( T )$ on the space$V _ { T }$of ternary cubic forms having coeficients in$T$by
 
 $$
 \gamma \cdot f (x, y, z) := \det (\gamma) ^ {- 1} f ((x, y, z) \cdot \gamma);\tag{12}
@@ -394,7 +394,7 @@ $$
 
 this induces an action of$\mathrm { P G L _ { 3 } } ( T )$on$V _ { T }$. Let$\mathcal { F } _ { \mathrm { P G L _ { 3 } } }$denote the image in $\mathrm { P G L _ { 3 } ( \mathbb { R } ) }$of$\mathcal { F }$. Then$\mathcal { F } _ { \mathrm { P G L _ { 3 } } }$is a fundamental domain for the action of$\mathrm { P G L _ { 3 } ( Z ) }$ on$\mathrm { P G L _ { 3 } ( \mathbb { R } ) }$. We have$\mathscr { R } _ { X } ( L ^ { \pm } ) = \mathscr { F } _ { \mathrm { P G L } _ { 3 } } \cdot R ^ { \pm } ( X )$
 
-Let$\omega$be a diferential that generates the rank 1 module of top-degree diferentials of$\mathrm { P G L _ { 3 } }$over$\mathbb { Z } .$. Then$\omega$is well defined up to sign. To compute the volume of the multiset${ \mathcal { F } } _ { \mathrm { P G L 3 } } \cdot R ^ { \pm } ( X )$, we have the following proposition.
+Let$\omega$be a diferential that generates the rank 1 module of top-degree diferentials of$\mathrm { P G L _ { 3 } }$over$\mathbb { Z } $. Then$\omega$is well defined up to sign. To compute the volume of the multiset${ \mathcal { F } } _ { \mathrm { P G L 3 } } \cdot R ^ { \pm } ( X )$, we have the following proposition.
 
 Proposition 16. For any measurable function$\phi$on$V _ { \mathbb { R } }$, we have
 
@@ -460,7 +460,7 @@ where$\tilde { \phi } _ { p _ { j } }$is the natural extension of$\phi _ { p _ {
 
 2.5. The number of reducible points and points with large stabilizers in the main bodies of the fundamental domains is negligible. In this section, we prove Lemma 14, i.e., that the number of$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbits of reducible elements in$V _ { \mathbb { Z } }$of bounded height is negligible. Via a similar argument, we also show that the number of$\mathrm { { S L _ { 3 } ( Z ) } }$-orbits of strongly irreducible elements in$V _ { \mathbb { Z } }$having nontrivial stabilizer in$\mathrm { P G L _ { 3 } ( \mathbb { Q } ) }$and bounded height is negligible. We use the technique in the proof of [5, Lemma 14].
 
-Proof of Lemma 14. Suppose$f$is an integral ternary cubic form. If$f$has a rational flex in$\mathbb { P } ^ { 2 }$, then for any prime$p ,$the reduction$\bar { f }$of$f$modulo$p$has a point of inflection in$\mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$. Now let$p$be a prime that is congruent to 1 (mod 3), and let$a , b , c$be elements in$\mathbb { F } _ { p } ^ { \times }$that are in diferent cube classes$( \mathrm { i . e . }$ none of$a / b , b / c , c / a$are cubes in$\mathbb { F } _ { p } ^ { \times } )$. Then one easily checks that the ternary cubic form$f _ { a , b , c } ( x , y , z ) = a x ^ { 3 } + b y ^ { 3 } + c z ^ { 3 } \in V _ { \mathbb { F } _ { p } }$has no point of inflection in$\mathbb { F } _ { p } .$ Hence none of the forms in the set$S _ { p } = \{ \gamma \cdot f _ { a , b , c } : \gamma \in \operatorname { G L } _ { 3 } ( \mathbb { F } _ { p } ) \}$contain points of inflection in$\mathbb { F } _ { p }$. It is clear that$\# S _ { p } \gg p ^ { 9 }$, where the implied constant is independent of$p .$. Thus, if$s _ { p }$denotes the p-adic density of the set of elements in $V _ { \mathbb { Z } }$whose reduction modulo$p$is contained in$S _ { p } { } _ { ; }$, then$s _ { p } \gg p ^ { 9 } / p ^ { 1 0 } = 1 / p .$, where the implied constant is independent of$p .$Therefore, for any$Y > 0$, we have
+Proof of Lemma 14. Suppose$f$is an integral ternary cubic form. If$f$has a rational flex in$\mathbb { P } ^ { 2 }$, then for any prime$p ,$the reduction$\bar { f }$of$f$modulo$p$has a point of inflection in$\mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$. Now let$p$be a prime that is congruent to 1 (mod 3), and let$a , b , c$be elements in$\mathbb { F } _ { p } ^ { \times }$that are in diferent cube classes$( \mathrm { i . e . }$ none of$a / b , b / c , c / a$are cubes in$\mathbb { F } _ { p } ^ { \times } )$. Then one easily checks that the ternary cubic form$f _ { a , b , c } ( x , y , z ) = a x ^ { 3 } + b y ^ { 3 } + c z ^ { 3 } \in V _ { \mathbb { F } _ { p } }$has no point of inflection in$\mathbb { F } _ { p }$. Hence none of the forms in the set$S _ { p } = \{ \gamma \cdot f _ { a , b , c } : \gamma \in \operatorname { G L } _ { 3 } ( \mathbb { F } _ { p } ) \}$contain points of inflection in$\mathbb { F } _ { p }$. It is clear that$\# S _ { p } \gg p ^ { 9 }$, where the implied constant is independent of$p $. Thus, if$s _ { p }$denotes the p-adic density of the set of elements in $V _ { \mathbb { Z } }$whose reduction modulo$p$is contained in$S _ { p } { } _ { ; }$, then$s _ { p } \gg p ^ { 9 } / p ^ { 1 0 } = 1 / p $, where the implied constant is independent of$p .$Therefore, for any$Y > 0$, we have
 
 $$
 \begin{array}{l}\int_{na(s_{1},s_{2})\lambda k\in \mathcal{F}^{\prime}}\# \{V_{\mathbb{Z}}^{\mathrm{red}}\cap B(n,s_{1},s_{2},\lambda ,X)\} s_{1}^{-6}s_{2}^{-6}dn  d^{\times}t  d^{\times}\lambda dk\\ \ll X^{5 / 6}\prod_{\substack{p\equiv 1 (\mathrm{mod} 3)\\ p\leq Y}}(1 - s_{p}). \end{array}\tag{20}
@@ -472,10 +472,10 @@ We may use the same method to bound the number of$\operatorname { S L _ { 3 } } 
 
 Lemma 19. Let$V _ { \mathbb { Z } } ^ { \mathrm { b i g s t a b } }$denote the set of elements in$V _ { \mathbb { Z } }$whose stabilizer in$\mathrm { P G L _ { 3 } ( \mathbb { Q } ) }$is nontrivial. Then$N ( V _ { \mathbb { Z } } ^ { \mathrm { b i g s t a b } } ; X ) = o ( X ^ { 5 / 6 } )$
 
-Proof. By equation (9) and Lemma 13, it sufices to prove the estimate (21)
+Proof. By equation (9) and Lemma 13, it suffices to prove the estimate
 
 $$
-\int_ {n a (s _ {1}, s _ {2}) \lambda k \in \mathcal {F} ^ {\prime}} \# \{V _ {\mathbb {Z}} ^ {\text {bigstab}} \cap B (n, s _ {1}, s _ {2}, \lambda , X) \} s _ {1} ^ {- 6} s _ {2} ^ {- 6} d n   d ^ {\times} t   d ^ {\times} \lambda d k = o (X ^ {5 / 6}).
+\int_ {n a (s _ {1}, s _ {2}) \lambda k \in \mathcal {F} ^ {\prime}} \# \{V _ {\mathbb {Z}} ^ {\text {bigstab}} \cap B (n, s _ {1}, s _ {2}, \lambda , X) \} s _ {1} ^ {- 6} s _ {2} ^ {- 6} d n   d ^ {\times} t   d ^ {\times} \lambda d k = o (X ^ {5 / 6}).\tag{21}
 $$
 
 The Jacobian of the cubic curve defined by the vanishing of a ternary cubic form$f \in V _ { \mathbb { Z } }$may be embedded in$\mathbb { P } ^ { 2 }$as a Weierstrass elliptic curve$\operatorname { J a c } ( f )$via the equation
@@ -484,9 +484,9 @@ $$
 y ^ {2} z = x ^ {3} - \frac {I (f)}{3} x z ^ {2} - \frac {J (f)}{2 7} z ^ {3},
 $$
 
-and under this embedding, the 3-torsion points of$\operatorname { J a c } ( f )$are precisely its flex points. Thus an integral ternary cubic form$f$is contained in$V _ { \mathbb { Z } } ^ { \mathrm { b i g s t a b } }$if and only if the curve$\operatorname { J a c } ( f )$contains at least two rational flex points in$\mathbb { P } ^ { 2 }$. The proof of the estimate in (21) now proceeds very similarly to that of Lemma 14. The only diference is that we now consider, for each$p \equiv 7$(mod 12), the form $f _ { b } ( x , y , z ) = x ^ { 3 } + b z ^ { 3 } - y ^ { 2 } z \in V _ { \mathbb { F } _ { p } }$, where b is a nonresidue in$\mathbb { F } _ { p }$. We see that $\operatorname { J a c } ( f _ { b } )$is then precisely the curve defined by the equation$f _ { b } = 0$, and it has exactly one inflection point in$\mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$, namely the point$[ 0 : 1 : 0 ]$
+and under this embedding, the 3-torsion points of$\operatorname { J a c } ( f )$are precisely its flex points. Thus an integral ternary cubic form$f$is contained in$V _ { \mathbb { Z } } ^ { \mathrm { b i g s t a b } }$if and only if the curve$\operatorname { J a c } ( f )$contains at least two rational flex points in$\mathbb { P } ^ { 2 }$. The proof of the estimate in (21) now proceeds very similarly to that of Lemma 14. The only diference is that we now consider, for each$p \equiv 7$(mod 12), the form $f _ { b } ( x , y , z ) = x ^ { 3 } + b z ^ { 3 } - y ^ { 2 } z \in V _ { \mathbb { F } _ { p } }$, where b is a nonresidue in$\mathbb { F } _ { p }$. We see that $\operatorname { J a c } ( f _ { b } )$is then precisely the curve defined by the equation$f _ { b } = 0$, and it has exactly one inflection point in$\mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$, namely the point$[ 0 : 1 : 0 ]$. □
 
-2.6. The average number of strongly irreducible integral ternary cubic forms with given invariants (Proofs of Theorems 9 and 10). We first prove Theorem 9 by describing the set of eligible pairs$\begin{array} { r } { ( I , J ) \in \frac { 1 } { 1 6 } \mathbb { Z } \times \frac { 1 } { 3 2 } \mathbb { Z } . } \end{array}$i.e., those pairs that occur as invariants of integral ternary cubic forms. We begin by showing that a pair$( I , J )$is eligible if and only if it occurs as the invariants of a Weierstrass elliptic curve over$\mathbb { Z } .$
+2.6. The average number of strongly irreducible integral ternary cubic forms with given invariants (Proofs of Theorems 9 and 10). We first prove Theorem 9 by describing the set of eligible pairs$\begin{array} { r } { ( I , J ) \in \frac { 1 } { 16 } \mathbb { Z } \times \frac { 1 } { 32 } \mathbb { Z } . } \end{array}$i.e., those pairs that occur as invariants of integral ternary cubic forms. We begin by showing that a pair$( I , J )$is eligible if and only if it occurs as the invariants of a Weierstrass elliptic curve over$\mathbb { Z } .$
 
 Proposition 20. A pair$( I , J )$is eligible if and only$i f$it occurs as the invariants$o f$some Weierstrass cubic over$\mathbb { Z } .$where a Weierstrass cubic over $\mathbb { Z }$is an element in$V _ { \mathbb { Z } }$of the form
 
@@ -494,7 +494,7 @@ $$
 y ^ {2} z + a _ {1} x y z + a _ {3} y z ^ {2} - x ^ {3} - a _ {2} x ^ {2} z - a _ {4} x z ^ {2} - a _ {6} z ^ {3}.
 $$
 
-Proof. This proposition is easily deduced from the results in [3]. To any integral ternary cubic form$f \in V _ { \mathbb { Z } }$, one may associate a Weierstrass ternary cubic form$f ^ { * }$over$\mathbb { Z }$that defines the Jacobian curve (see [3, eq. 1.5]). The invariants$c _ { 4 } ( f )$and$c _ { 6 } ( f )$of$f$are then defined to be equal to the classical invariants$c _ { 4 } ( f ^ { * } )$and$c _ { 6 } ( f ^ { * } )$of the corresponding Weierstrass cubic. (See [27] for a definition of$c _ { 4 } ( f ^ { * } )$and$c _ { 6 } ( f ^ { * } ) . )$Using [3, eq. 1.7], we easily check that our invariants$I ( f )$and$J ( f )$are equal to the invariants$c _ { 4 } ( f ) / 1 6$and$c _ { 6 } ( f ) / 3 2$, respectively, for any ternary cubic form$f .$. We conclude that$I ( f ) = I ( f ^ { * } )$and $J ( f ) = J ( f ^ { * } )$, as desired.
+Proof. This proposition is easily deduced from the results in [3]. To any integral ternary cubic form$f \in V _ { \mathbb { Z } }$, one may associate a Weierstrass ternary cubic form$f ^ { * }$over$\mathbb { Z }$that defines the Jacobian curve (see [3, eq. 1.5]). The invariants$c _ { 4 } ( f )$and$c _ { 6 } ( f )$of$f$are then defined to be equal to the classical invariants$c _ { 4 } ( f ^ { * } )$and$c _ { 6 } ( f ^ { * } )$of the corresponding Weierstrass cubic. (See [27] for a definition of$c _ { 4 } ( f ^ { * } )$and$c _ { 6 } ( f ^ { * } ) . )$Using [3, eq. 1.7], we easily check that our invariants$I ( f )$and$J ( f )$are equal to the invariants$c _ { 4 } ( f ) / 1 6$and$c _ { 6 } ( f ) / 3 2$, respectively, for any ternary cubic form$f $. We conclude that$I ( f ) = I ( f ^ { * } )$and $J ( f ) = J ( f ^ { * } )$, as desired.
 
 Next, we have a result of Kraus (see [22, Prop. 2]), which describes those pairs$( c _ { 4 } , c _ { 6 } )$that can occur for a Weierstrass cubic over$\mathbb { Z }$
 
@@ -510,31 +510,31 @@ It can be checked that the set of pairs$( I , J )$that satisfy the congruence co
 
 The next lemma follows immediately from Theorem 9.
 
-Lemma 22. The set of all eligible$( I , J )$is a union of 144 distinct translates$o f 3 6  { \mathbb { Z } } \times 2 7  { \mathbb { Z } }$in${ \frac { 1 } { 1 6 } } \mathbb { Z } \times { \frac { 1 } { 3 2 } } \mathbb { Z }$
+Lemma 22. The set of all eligible$( I , J )$is a union of 144 distinct translates of$36 \mathbb { Z } \times 27 \mathbb { Z }$ in${ \frac { 1 } { 16 } } \mathbb { Z } \times { \frac { 1 } { 32 } } \mathbb { Z }$
 
-Proposition 23. Let$N _ { I , J } ^ { + } ( X )$and$N _ { I , J } ^ { - } ( X )$denote the number of eligible pairs$( I , J ) \in { \frac { 1 } { 1 6 } } \mathbb { Z } \times { \frac { 1 } { 3 2 } } \mathbb { Z }$satisfying$H ( I , J ) < X$that have positive discriminant and negative discriminant, respectively. Then
-
-$$
-\mathrm{(a)} N _ {I, J} ^ {+} (X) = \frac {3 2}{1 3 5} X ^ {5 / 6} + O (X ^ {1 / 2});
-$$
+Proposition 23. Let$N _ { I , J } ^ { + } ( X )$and$N _ { I , J } ^ { - } ( X )$denote the number of eligible pairs$( I , J ) \in { \frac { 1 } { 16 } } \mathbb { Z } \times { \frac { 1 } { 32 } } \mathbb { Z }$satisfying$H ( I , J ) < X$that have positive discriminant and negative discriminant, respectively. Then
 
 $$
-\text {(a)} N _ {I, J} ^ {-} (X) = \frac {1 2 8}{1 3 5} X ^ {5 / 6} + O (X ^ {1 / 2}).
+\mathrm{(a)} N _ {I, J} ^ {+} (X) = \\frac {32}{135} X ^ {5 / 6} + O (X ^ {1 / 2});
+$$
+
+$$
+\text {(a)} N _ {I, J} ^ {-} (X) = \\frac {128}{135} X ^ {5 / 6} + O (X ^ {1 / 2}).
 $$
 
 Proof. Let$R _ { I , J } ^ { + } ( X )$(resp.$R _ { I , J } ^ { - } ( X ) )$denote the set of points$( i , j ) \in \mathbb { R } \times \mathbb { R }$ satisfying$H ( i , j ) < X$and$4 i ^ { 3 } - { j ^ { 2 } } > 0$(resp.$4 i ^ { 3 } - j ^ { 2 } < 0 )$). The sizes of the projections of$R _ { I , J } ^ { \pm } ( X )$onto smaller-dimensional coordinate hyperplanes are all bounded by$O ( X ^ { 1 / 2 } )$. Using Proposition 15 and Lemma 22 then gives
 
 $$
-N _ {I, J} ^ {\pm} (X) = \frac {1 4 4}{3 6 \cdot 2 7} \operatorname{Vol} \left(R _ {I, J} ^ {\pm} (X)\right) + O \left(X ^ {1 / 2}\right).
+N _ {I, J} ^ {\pm} (X) = \\frac {144}{36 \cdot 27} \operatorname{Vol} \left(R _ {I, J} ^ {\pm} (X)\right) + O \left(X ^ {1 / 2}\right).
 $$
 
-The volumes of the sets$R _ { I , J } ^ { + } ( X )$and$R _ { I , J } ^ { - } ( X )$have been computed in (15) and (16) to be equal to$8 / 5$and$3 2 / 5$, respectively. The proposition follows. 
+The volumes of the sets$R _ { I , J } ^ { + } ( X )$and$R _ { I , J } ^ { - } ( X )$have been computed in (15) and (16) to be equal to $8/5$ and $32/5$, respectively. The proposition follows. 
 
 Theorem 8 combined with Proposition 23 now yields Theorem 10.
 
 2.7. Uniformity estimates and a squarefree sieve. For our applications, we require a general version of Theorem 18, namely, one that counts weighted ternary cubic forms where the weight functions are defined by appropriate infinite sets of congruence conditions. A function$\phi : V _ { \mathbb { Z } } \to [ 0 , 1 ] \in \mathbb { R }$is said to be defined by congruence conditions if, for all primes$p ,$there exist functions $\phi _ { p } : V _ { \mathbb { Z } _ { p } } \to [ 0 , 1 ]$satisfying the following conditions:
 
-(1) For all$f \in V _ { \mathbb { Z } } .$, the product$\Pi _ { p } \phi _ { p } ( f )$converges to$\phi ( f )$
+(1) For all$f \in V _ { \mathbb { Z } } $, the product$\Pi _ { p } \phi _ { p } ( f )$converges to$\phi ( f )$
 
 (2) For each prime$p ,$the function$\phi _ { p }$is locally constant outside some closed set$S _ { p } \subset V _ { \mathbb { Z } _ { p } }$of measure zero.
 
@@ -556,7 +556,7 @@ $$
 N (\cup_ {p > M} \mathcal {W} _ {p}; X) = O _ {\epsilon} (X ^ {5 / 6} / (M \log M) + X ^ {3 / 4}) + O (\epsilon X ^ {5 / 6}).\tag{23}
 $$
 
-Proof. If$p ^ { 2 } \le X ^ { 1 / 1 2 }$, then the counting method of Sections 2.2–2.4, with the relevant congruence conditions modulo$p ^ { 2 }$imposed, immediately yields the individual estimate$N ( W _ { p } ; X ) = O ( X ^ { 5 / 6 } / p ^ { 2 } )$(noting that$\mathcal { R } _ { X } ( L ^ { \pm } ) =$ $X ^ { 1 / 1 2 } \mathcal { R } _ { 1 } ( L ^ { \pm } ) )$. Hence, to prove Proposition 25, it sufices to assume that $M > X ^ { 1 / 2 4 }$
+Proof. If$p ^ { 2 } \le X ^ { 1 / 12 }$, then the counting method of Sections 2.2–2.4, with the relevant congruence conditions modulo$p ^ { 2 }$imposed, immediately yields the individual estimate$N ( W _ { p } ; X ) = O ( X ^ { 5 / 6 } / p ^ { 2 } )$(noting that$\mathcal { R } _ { X } ( L ^ { \pm } ) =$ $X ^ { 1 / 1 2 } \mathcal { R } _ { 1 } ( L ^ { \pm } ) )$. Hence, to prove Proposition 25, it sufices to assume that $M > X ^ { 1 / 2 4 }$
 
 Let$\mathcal { W } _ { p } ^ { ( 1 ) }$denote the set of ternary cubic forms such that$p ^ { 2 } \mid \Delta ( f )$for “mod$p$reasons,” i.e.,$p ^ { 2 } \mid \Delta ( g )$for every$g \equiv f { \pmod { p } }$. For any$\epsilon > 0$，let$\mathcal { F } _ { \mathrm { P G L 3 } } ^ { ( \epsilon ) } \subset \mathcal { F } _ { \mathrm { P G L 3 } }$denote the subset of elements$n a ( s _ { 1 } , s _ { 2 } ) k \in \mathcal { F } _ { \mathrm { P G L 3 } }$such that$s _ { 1 }$and$s _ { 2 }$are bounded above by an appropriate constant to ensure that $\mathrm { V o l } ( \mathcal { F } _ { \mathrm { P G L } _ { 3 } } ^ { ( \epsilon ) } ) = ( 1 - \epsilon ) \mathrm { V o l } ( \mathcal { F } _ { \mathrm { P G L } _ { 3 } } )$. Then$\mathcal { F } _ { \mathrm { P G L 3 } } ^ { ( \epsilon ) } \cdot R ^ { \pm } ( X )$is a bounded domain in$V _ { \mathbb { R } }$that expands homogeneously with X. By [6, Th. 3.3], we have
 
@@ -572,7 +572,7 @@ $$
 
 Combining the two estimates (24) and (25) yields (23) with$\mathcal { W } _ { p }$replaced with $\mathcal { W } _ { p } ^ { ( 1 ) }$
 
-Next, suppose f belongs to$\mathcal { W } _ { p } ^ { ( 2 ) } : = \mathcal { W } _ { p } \backslash \mathcal { W } _ { p } ^ { ( 1 ) }$. Let$\bar { f }$denote the reduction of$f$modulo$p .$Then the curve$C \subset \mathbb { P } _ { \mathbb { F } _ { \tau } } ^ { 2 }$defined by$\bar { f } ( x , y , z ) = 0$contains a single nodal singularity. This singularity must be$\mathbb { F } _ { p } .$-rational, and we can move it to$[ 0 : 0 : 1 ]$using an element of$\mathrm { S L _ { 3 } } ( \mathbb { F } _ { p } )$. In that case, the$z ^ { 3 } \mathrm { - } , x z ^ { 2 } \mathrm { - }$, and$y z ^ { 2 } .$ coeficients of$\bar { f } ( x , y , z )$are zero. Evaluating the discriminant of an element$f$ that reduces mod$p$to such an${ \bar { f } } .$, we see that$\Delta ( f ) \equiv c G ( f )$(mod$p ^ { 2 } )$, where c is the coeficient of$z ^ { 3 }$and$G ( f )$is an irreducible polynomial in the coeficients of$f . \mathrm { ~ A s ~ } f \in \mathcal { W } _ { p } ^ { ( 2 ) }$, we see that$G ( f ) \not \equiv 0$(mod$p )$. Therefore, since$p ^ { 2 } \mid \Delta ( f )$ we obtain that$p ^ { 2 } \mid c ,$the coeficient of$z ^ { 3 }$. Now the element$g$defined by
+Next, suppose f belongs to$\mathcal { W } _ { p } ^ { ( 2 ) } : = \mathcal { W } _ { p } \backslash \mathcal { W } _ { p } ^ { ( 1 ) }$. Let$\bar { f }$denote the reduction of$f$modulo$p .$Then the curve$C \subset \mathbb { P } _ { \mathbb { F } _ { \tau } } ^ { 2 }$defined by$\bar { f } ( x , y , z ) = 0$contains a single nodal singularity. This singularity must be$\mathbb { F } _ { p } .$-rational, and we can move it to$[ 0 : 0 : 1 ]$using an element of$\mathrm { S L _ { 3 } } ( \mathbb { F } _ { p } )$. In that case, the$z ^ { 3 } \mathrm { - } , x z ^ { 2 } \mathrm { - }$, and$y z ^ { 2 } .$ coeficients of$\bar { f } ( x , y , z )$are zero. Evaluating the discriminant of an element$f$ that reduces mod$p$to such an${ \bar { f } } $, we see that$\Delta ( f ) \equiv c G ( f )$(mod$p ^ { 2 } )$, where c is the coeficient of$z ^ { 3 }$and$G ( f )$is an irreducible polynomial in the coeficients of$f . \mathrm { ~ A s ~ } f \in \mathcal { W } _ { p } ^ { ( 2 ) }$, we see that$G ( f ) \not \equiv 0$(mod$p )$. Therefore, since$p ^ { 2 } \mid \Delta ( f )$ we obtain that$p ^ { 2 } \mid c ,$the coeficient of$z ^ { 3 }$. Now the element$g$defined by
 
 $$
 \left( \begin{array}{c c c} 1 & & \\ & 1 & \\ & & p ^ {- 1} \end{array} \right) \cdot p f\tag{26}
@@ -580,20 +580,20 @@ $$
 
 has the same discriminant as$f$and is in$\mathcal { W } _ { p } ^ { ( 1 ) }$, because its$x ^ { 3 } - , \ x ^ { 2 } y - , \ x y ^ { 2 } -$ and$y ^ { 3 } .$-coeficients are zero modulo$p .$We therefore obtain a discriminant preserving map$\phi$from$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbits on$\mathcal { W } _ { p } ^ { ( 2 ) }$to$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbits on$\mathcal { W } _ { p } ^ { ( 1 ) }$. The following lemma states that this map is at most 3 to 1.
 
-Lemma 26. Given an$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbit on$\mathcal { W } _ { p } ^ { ( 1 ) } ,$there are at most three$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$ orbits on$\mathcal { W } _ { p } ^ { ( 2 ) }$that map to it under$\phi .$.
+Lemma 26. Given an$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbit on$\mathcal { W } _ { p } ^ { ( 1 ) } ,$there are at most three$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$ orbits on$\mathcal { W } _ { p } ^ { ( 2 ) }$that map to it under$\phi $.
 
 Proof. If the reduction of$f \in \mathcal { W } _ { p } ^ { ( 2 ) }$modulo$p$has a nodal singularity at $[ 0 : 0 : 1 ] \in \mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$, then the form in$\bar { W } _ { p } ^ { ( 1 ) }$given by (26), when reduced modulo $p ,$has z as a factor. Moreover, for$g \in W _ { p } ^ { ( 1 ) }$, the form
 
 $$
-\left( \begin{array}{c c} 1 & \\ & 1 \\ & p \end{array} \right) \cdot p ^ {- 1} g\tag{27}
+\left( \begin{array}{c c c} 1 & & \\ & 1 & \\ & & p \end{array} \right) \cdot p ^ {- 1} g\tag{27}
 $$
 
-can be integral only if the$x ^ { 3 } - , \ x ^ { 2 } y - , \ x y ^ { 2 } -$, and$y ^ { 3 } .$-coeficients of$g$are zero modulo$p .$. Therefore, the preimages under$\phi$of the$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbit of$g \in \mathcal { W } _ { p } ^ { ( 1 ) }$ are associated to linear factors of the reduction of g modulo$p$. The reduction of g modulo p has at most three linear factors, unless$g \equiv 0$(mod$p )$. However, if $g \equiv 0$(mod p), then it is easy to see that (27) belongs to$\mathcal { W } _ { p } ^ { ( 1 ) }$. Thus, the map $\phi : \mathrm { S L } _ { 3 } ( \mathbb { Z } ) \backslash \mathcal { W } _ { p } ^ { ( 2 ) }  \mathrm { S L } _ { 3 } ( \mathbb { Z } ) \backslash \mathcal { W } _ { p } ^ { ( 1 ) }$is at most 3-to-1, and the lemma follows. 
+can be integral only if the$x ^ { 3 } - , \ x ^ { 2 } y - , \ x y ^ { 2 } -$, and$y ^ { 3 } .$-coeficients of$g$are zero modulo$p $. Therefore, the preimages under$\phi$of the$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-orbit of$g \in \mathcal { W } _ { p } ^ { ( 1 ) }$ are associated to linear factors of the reduction of g modulo$p$. The reduction of g modulo p has at most three linear factors, unless$g \equiv 0$(mod$p )$. However, if $g \equiv 0$(mod p), then it is easy to see that (27) belongs to$\mathcal { W } _ { p } ^ { ( 1 ) }$. Thus, the map $\phi : \mathrm { S L } _ { 3 } ( \mathbb { Z } ) \backslash \mathcal { W } _ { p } ^ { ( 2 ) }  \mathrm { S L } _ { 3 } ( \mathbb { Z } ) \backslash \mathcal { W } _ { p } ^ { ( 1 ) }$is at most 3-to-1, and the lemma follows. 
 
 Therefore, since discriminants less than X can have at most 24 distinct prime factors$p > X ^ { 1 / 2 4 }$, we obtain
 
 $$
-\begin{array}{r l} & N (\cup_ {p > M} \mathcal {W} _ {p} ^ {(2)}; X) \leq 3 \cdot 2 4 N (\cup_ {p > M} \mathcal {W} _ {p} ^ {(1)}; X) \\ & \qquad = O _ {\epsilon} (X ^ {5 / 6} / (M \log M) + X ^ {3 / 4}) + O (\epsilon X ^ {5 / 6}). \end{array}\tag{28}
+\begin{array}{r l} & N (\cup_ {p > M} \mathcal {W} _ {p} ^ {(2)}; X) \leq 3 \cdot 24 N (\cup_ {p > M} \mathcal {W} _ {p} ^ {(1)}; X) \\ & \qquad = O _ {\epsilon} (X ^ {5 / 6} / (M \log M) + X ^ {3 / 4}) + O (\epsilon X ^ {5 / 6}). \end{array}\tag{28}
 $$
 
 This concludes the proof of the proposition.
@@ -610,10 +610,9 @@ $$
 
 where A,$B \in \mathbb { Z }$and for all primes$p ,$we have$p ^ { 4 } \nmid A { \mathrm { ~ i f ~ } } p ^ { 6 } \mid B$. For any elliptic curve$E ( A , B )$over$\mathbb { Q }$written in the form (29), we define the quantities$I ( E )$ and$J ( E )$by
 
-(30)
-
 $$
-\begin{array}{l} I (E) = - 3 A, \\ J (E) = - 2 7 B. \end{array}\tag{31}
+\begin{array}{l} I (E) = - 3 A, \tag{30}
+ J (E) = - 27 B. \end{array}\tag{31}
 $$
 
 We denote the elliptic curve over Q having invariants I and J by$E ^ { I , J }$, and we define its height$H ^ { \prime } ( E ^ { I , J } )$by
@@ -624,7 +623,7 @@ $$
 
 We use the height$H ^ { \prime }$instead of H on elliptic curves to agree with the height on integral ternary cubic forms defined in (4). Note that since H and$H ^ { \prime }$agree up to a constant factor, they induce the same ordering on the set of elliptic curves over$\mathbb { Q }$
 
-In this section, we prove Theorem 3 by computing the average size of the 3-Selmer group of elliptic curves over$\mathbb { Q } .$, whose coeficients satisfy finitely many congruence conditions, when these curves are ordered by their heights. We also prove a theorem where we bound the average size of the 3-Selmer group of elliptic curves in more general families. To define these families, we need the following notation. For each prime$p ,$let$\Sigma _ { p }$be a closed subset of $\mathbb { Z } _ { p } ^ { 2 } \backslash \{ \Delta \neq 0 \}$. We associate the family$F _ { \Sigma }$of elliptic curves to$( \Sigma _ { p } ) _ { p }$, where $\dot { E ^ { I , J } } \in F _ { \Sigma }$if$( I , J ) \in \Sigma _ { p }$for all$p .$Such a family is said to be defined by congruence conditions. We can also impose “congruence conditions at infinity” by insisting that$E ^ { I , J } \in F _ { \Sigma }$if and only if$( I , J ) \in \Sigma _ { \infty }$, where$\Sigma _ { \infty }$is equal to $\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \}$, or$\{ ( I , J ) \in \mathbb { R } ^ { 2 }$: $\Delta ( I , J ) \neq 0 \}$
+In this section, we prove Theorem 3 by computing the average size of the 3-Selmer group of elliptic curves over$\mathbb { Q } $, whose coeficients satisfy finitely many congruence conditions, when these curves are ordered by their heights. We also prove a theorem where we bound the average size of the 3-Selmer group of elliptic curves in more general families. To define these families, we need the following notation. For each prime$p ,$let$\Sigma _ { p }$be a closed subset of $\mathbb { Z } _ { p } ^ { 2 } \backslash \{ \Delta \neq 0 \}$. We associate the family$F _ { \Sigma }$of elliptic curves to$( \Sigma _ { p } ) _ { p }$, where $\dot { E ^ { I , J } } \in F _ { \Sigma }$if$( I , J ) \in \Sigma _ { p }$for all$p .$Such a family is said to be defined by congruence conditions. We can also impose “congruence conditions at infinity” by insisting that$E ^ { I , J } \in F _ { \Sigma }$if and only if$( I , J ) \in \Sigma _ { \infty }$, where$\Sigma _ { \infty }$is equal to $\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \}$, or$\{ ( I , J ) \in \mathbb { R } ^ { 2 }$: $\Delta ( I , J ) \neq 0 \}$
 
 If F is a family of elliptic curves defined by congruence conditions, then let Inv(F) denote the set$\{ ( I ( E ) , J ( E ) ) : E \in F \}$. For a prime$p ,$let$\operatorname { I n v } _ { p } ( F )$ denote the$p \textmd { - }$adic closure of Inv$( F )$in$\mathbb { Z } _ { p } ^ { 2 }$. We define$\mathrm { I n v } _ { \infty } ( F )$to be$\{ ( I , J ) \in$ $\mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \} , \mathrm { o r } \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) \neq 0 \}$ in accordance with whether F contains curves only of positive discriminant, negative discriminant, or both. A family F of elliptic curves is then said to be large if, for all but finitely many primes$p ,$the set$\operatorname { I n v } _ { p } ( F )$contains all pairs $( I , J ) \in \mathbb { Z } _ { p } \times \mathbb { Z } _ { p }$such that$p ^ { 2 } \dag \Delta ( I , J )$
 
@@ -640,7 +639,7 @@ $$
 
 which induces an action of$\mathrm { P G L _ { 3 } } ( K )$on$V _ { K }$. We say that a ternary cubic form $f \in V _ { K }$is K-soluble if the equation$f ( x , y , z ) = 0$has a nontrivial solution over K. We then have the following result, which follows from [19, Th. 2.5 and Rem. 2.7] (see also [7, §4.2]).
 
-Proposition 28. Let K be a field having characteristic not equal to 2 $o r \ 3 .$, and let$\begin{array} { r } { E : y ^ { 2 } = x ^ { 3 } - \frac { I } { 3 } x - \frac { J } { 2 7 } } \end{array}$be an elliptic curve over K. Then there exists a natural injection
+Proposition 28. Let K be a field having characteristic not equal to 2 $o r \ 3 $, and let$\begin{array} { r } { E : y ^ { 2 } = x ^ { 3 } - \frac { I } { 3 } x - \frac { J } { 2 7 } } \end{array}$be an elliptic curve over K. Then there exists a natural injection
 
 $$
 \mathcal {T} _ {E}: E (K) / 3 E (K) \to \{\text { PGL } _ {3} (K) \text {-orbits   of   ternary   cubic   forms   over   } K \},
@@ -666,23 +665,11 @@ We may use Proposition 28 to prove Lemma 12, i.e., that the order of the stabili
 
 Proof of Lemma 12. Let$f \in V _ { \mathbb { R } }$be a ternary cubic form having nonzero discriminant. By Proposition 28, if f has invariants I and$J ,$then the size of the stabilizer of$f$in$\mathrm { P G L _ { 3 } } ( \mathbb { R } )$is equal to the number of real 3-torsion points on the elliptic curve$E ^ { I , J } / \mathbb { R }$having invariants I and$J .$Now the 3-torsion points of a plane Weierstrass elliptic curve are its flex points, and it is known that any plane cubic curve over R having nonzero discriminant has exactly three flex points defined over R (see, e.g., [21, Chap. 13]). Furthermore, if$\gamma \in \operatorname { G L } _ { 3 } ^ { + } ( \mathbb { R } )$ stabilizes$f ,$then$I ( \gamma \cdot f ) = ( \operatorname * { d e t } \gamma ) ^ { 4 } I ( f )$and$J ( \gamma \cdot f ) = ( \operatorname * { d e t } \gamma ) ^ { 6 } J ( f )$, and so det$\gamma = 1$. This completes the proof of Lemma 12.
 
-3.2. A change-of-measure formula. We begin with the following proposition, which is an extension of the change-of-measure formula in Proposition 16 so that it holds also over$\mathbb { Z } _ { p } ,$, with$4 / 9$replaced by$| \mathcal { I } |$for some rational constant$\mathcal { I }$
+3.2. A change-of-measure formula. We begin with the following proposition, which is an extension of the change-of-measure formula in Proposition 16 so that it holds also over$\mathbb { Z } _ { p } ,$, with$4 / 9$replaced by$| \mathcal { J } |$for some rational constant$\mathcal { J }$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We refer to the set of all g ∈ V<sub>Z</sub> such that g is PGL<sub>3</sub>(Q)-equivalent to a fixed integral ternary cubic form f as the PGL<sub>3</sub>(Q)-equivalence class of f in V<sub>Z</sub>.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">g ∈Vz</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">PGL<sub>3</sub>(Q)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">g</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">PGL<sub>3</sub>(Q)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">V<sub>Z</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We refer to the set of all g ∈ V<sub>Z</sub> such that g is -equivalent to a fixed integral ternary cubic form as the -equivalence class of f in .</span></small>
-
-Proposition 31. Let K be R or$\mathbb { Z } _ { p }$for some prime$p , l e t \mid \cdot \mid$denote the usual absolute value on K, and let$s : K ^ { 2 } \to V _ { K }$be a continuous section. Then there exists a rational nonzero constant J, independent of K and$s ,$such that for any measurable function$\phi$on$V _ { K }$, we have
+Proposition 31. Let K be R or$\mathbb { Z } _ { p }$for some prime$p$, let $\mid \cdot \mid$ denote the usual absolute value on K, and let$s : K ^ { 2 } \to V _ { K }$be a continuous section. Then there exists a rational nonzero constant J, independent of K and$s ,$such that for any measurable function$\phi$on$V _ { K }$, we have
 
 $$
 \begin{array}{c} \int_ {\mathrm{PGL} _ {3} (K) \cdot s (K ^ {2})} \phi (f) d f = | \mathcal {J} | \int_ {(I, J) \in K ^ {2}} \int_ {g \in \mathrm{PGL} _ {3} (K)} \phi (g \cdot s (I, J)) \omega (g) d I d J \\ a n d \\ \int_ {V _ {K}} \phi (f) d f = | \mathcal {J} | \int_ \underset {\Delta (I, J) \neq 0 \}} ^ {(I, J) \in K ^ {2}} \Big (\sum_ {f \in \frac {V _ {K} (I , J)}{\mathrm{PGL} _ {3} (K)}} \frac {1}{\# \mathrm{Stab} (f)} \int_ {g \in \mathrm{PGL} _ {3} (K)} \phi (g \cdot f) \omega (g) \Big) d I d J, \end{array}
@@ -731,7 +718,7 @@ $$
 We may now use Theorem 9 to compute the volume of$\pi ( S )$, yielding
 
 $$
-\operatorname{Vol} (\pi (S)) = \left\{ \begin{array}{l l} \frac {p - 1}{p} & \text { if } p \geq 5; \\ \frac {2}{8 1} & \text { if } p = 3; \\ 2 & \text { if } p = 2. \end{array} \right.
+\operatorname{Vol} (\pi (S)) = \left\{ \begin{array}{l l} \frac {p - 1}{p} & \text { if } p \geq 5; \\ \\frac {2}{81} & \text { if } p = 3; \\ 2 & \text { if } p = 2. \end{array} \right.
 $$
 
 We conclude that$\mathcal { I } = 4 / 9$, as desired.
@@ -742,7 +729,7 @@ $$
 m (f) := \sum_ {f ^ {\prime} \in B (f)} \frac {\# \operatorname{Aut} _ {\mathbb {Q}} \left(f ^ {\prime}\right)}{\# \operatorname{Aut} _ {\mathbb {Z}} \left(f ^ {\prime}\right)} = \sum_ {f ^ {\prime} \in B (f)} \frac {\# \operatorname{Aut} _ {\mathbb {Q}} (f)}{\# \operatorname{Aut} _ {\mathbb {Z}} \left(f ^ {\prime}\right)};
 $$
 
-here$B ( f )$is a set of representatives for the action of$\mathrm { P G L _ { 3 } ( Z ) }$on the$\mathrm { P G L _ { 3 } ( \mathbb { Q } ) }$ equivalence class of$f$in$V _ { \mathbb { Z } } .$, while$\operatorname { A u t } _ { \mathbb { Q } } ( f )$and$\operatorname { A u t z } ( f )$are the stabilizers of f in$\mathrm { P G L _ { 3 } } ( \mathbb { Q } )$and$\mathrm { P G L _ { 3 } ( Z ) }$, respectively.
+here$B ( f )$is a set of representatives for the action of$\mathrm { P G L _ { 3 } ( Z ) }$on the$\mathrm { P G L _ { 3 } ( \mathbb { Q } ) }$ equivalence class of$f$in$V _ { \mathbb { Z } } $, while$\operatorname { A u t } _ { \mathbb { Q } } ( f )$and$\operatorname { A u t z } ( f )$are the stabilizers of f in$\mathrm { P G L _ { 3 } } ( \mathbb { Q } )$and$\mathrm { P G L _ { 3 } ( Z ) }$, respectively.
 
 For a prime p and an ternary cubic form$f \in V _ { \mathbb { Z } _ { p } }$, define$m _ { p } ( f )$by
 
@@ -800,14 +787,14 @@ Proposition 38. Let f be an integral ternary cubic form such that either f is in
 
 Proof. Suppose that$f$is an integral ternary cubic form such that the curve defined by$f ( x , y , z ) = 0$has no$\mathbb { Q } _ { p } { \mathrm { - p o i n t s } }$. We claim that$f$is geometrically reducible over$\mathbb { F } _ { p } \ ( \mathrm { i . e . , } \ f$(mod$p )$factors into a product of lower degree forms defined over$\overline { { \mathbb { F } } } _ { p } )$. This is because if$f$were geometrically irreducible over$\mathbb { F } _ { p } ,$ then the Lang–Weil estimates [23] would imply that the curve$f ( x , y , z ) = 0$ has a smooth point in$\mathbb { P } ^ { 2 } ( \mathbb { F } _ { p } )$. By Hensel’s lemma, this smooth point lifts to a point in$\mathbb { P } ^ { 2 } ( \mathbb { Q } _ { p } )$. Therefore, f is geometrically reducible over$\mathbb { F } _ { p }$, implying that$p ^ { 2 } \mid \Delta ( f )$
 
-If$f \in V _ { \mathbb { Z } }$satisfies$m _ { p } ( f ) \neq 1$, then there exists an element$\gamma \in \operatorname { P G L } _ { 3 } ( \mathbb { Q } _ { p } )$ such that$\gamma \cdot f \in V _ { \mathbb { Z } _ { p } }$. By an appropriate change-of-basis in$\mathrm { P G L _ { 3 } } ( \mathbb { Z } _ { p } )$, we may assume that$\gamma$is of the form$\gamma = \binom { p ^ { - a } } { 1 } _ { p ^ { b } } \biggr )$, where a and b are nonnegative Åand at least one of a and b is nonzero. If$b > a$, then clearly$z$is a factor of the reduction of$f$modulo$p .$Now assume that$a \geq b ,$so that$a > 0$. In this case, consider the form$f _ { 1 } \stackrel { \textstyle - } { = } \left( { { \begin{array} { c c } { { p ^ { - 1 } } } & { { } } \\ { { 1 } } & { { 1 } } \end{array} } } \right) \cdot p f$, which is an element of$V _ { \mathbb { Z } _ { p } }$having the same invariants as$f .$. The reduction of$f _ { 1 }$modulo$p ,$being a multiple of$x _ { i }$ is a reducible ternary cubic form. We conclude that$p ^ { 2 } \mid \Delta ( f _ { 1 } ) = \Delta ( f )$
+If$f \in V _ { \mathbb { Z } }$satisfies$m _ { p } ( f ) \neq 1$, then there exists an element$\gamma \in \operatorname { P G L } _ { 3 } ( \mathbb { Q } _ { p } )$ such that$\gamma \cdot f \in V _ { \mathbb { Z } _ { p } }$. By an appropriate change-of-basis in$\mathrm { P G L _ { 3 } } ( \mathbb { Z } _ { p } )$, we may assume that$\gamma$is of the form$\gamma = \binom { p ^ { - a } } { 1 } _ { p ^ { b } } \biggr )$, where a and b are nonnegative Åand at least one of a and b is nonzero. If$b > a$, then clearly$z$is a factor of the reduction of$f$modulo$p .$Now assume that$a \geq b ,$so that$a > 0$. In this case, consider the form$f _ { 1 } : = \left( { { \begin{array} { c c } { { p ^ { - 1 } } } & { { } } \\ { { 1 } } & { { 1 } } \end{array} } } \right) \cdot p f$, which is an element of$V _ { \mathbb { Z } _ { p } }$having the same invariants as$f $. The reduction of$f _ { 1 }$modulo$p ,$being a multiple of$x _ { i }$ is a reducible ternary cubic form. We conclude that$p ^ { 2 } \mid \Delta ( f _ { 1 } ) = \Delta ( f )$
 
 Theorem 27 will be deduced from the following result.
 
 Theorem 39. Let F be a large family of elliptic curves. Then
 
 $$
-\begin{array}{l}\sum_{\substack{E\in F\\ H^{\prime}(E) <   X}}(\# S_{3}(E) - 1)\\ \lim_{X\to \infty}\frac{\sum_{\substack{E\in F\\ H^{\prime}(E) <   X}}1}{\sum_{\substack{E\in F\\ H^{\prime}(E) <   X}}}\\ = \operatorname{Vol}(\operatorname{PGL}_{3}(\mathbb{Z})\backslash \operatorname{PGL}_{3}(\mathbb{R}))\frac{M_{\infty}(V,F;X)}{M_{\infty}(F;X)}\prod_{p}\Bigl [\operatorname{Vol}(\operatorname{PGL}_{3}(\mathbb{Z}_{p}))\frac{M_{p}(V,F)}{M_{p}(U_{1},F)}\Bigr ]. \end{array}\tag{38}
+\\lim_{X\\to \\infty}\\frac{\\sum_{\\substack{E\in F\\ H'^{prime}(E) <   X}}(\\# S_{3}(E) - 1)}{\\sum_{\\substack{E\in F\\ H'^{prime}(E) <   X}}1} = \\operatorname{Vol}(\\operatorname{PGL}_{3}(\\mathbb{Z})\\backslash \\operatorname{PGL}_{3}(\\mathbb{R}))\\frac{M_{\\infty}(V,F;X)}{M_{\\infty}(F;X)}\\prod_{p}\\Bigl [\\operatorname{Vol}(\\operatorname{PGL}_{3}(\\mathbb{Z}_{p}))\\frac{M_{p}(V,F)}{M_{p}(U_{1},F)}\\Bigr ]. \\end{array}\\tag{38}
 $$
 
 Proof. The numerator of the right-hand side of (38) is equal to the number of$\mathrm { P G L _ { 3 } ( Z ) }$-orbits on$S ( F )$having height bounded by$X$, where each orbit $\mathrm { P G L _ { 3 } } ( \mathbb { Z } ) \cdot f$is counted with weight$1 / m ( f )$. Therefore, by Theorem 24 and Propositions 35 and 38, we obtain
@@ -826,7 +813,7 @@ $$
 \# (E (\mathbb {Q} _ {p}) / 3 E (\mathbb {Q} _ {p})) = \left\{ \begin{array}{l l} \# E [ 3 ] (\mathbb {Q} _ {p}) & \text { if } p \neq 3; \\ 3 \cdot \# E [ 3 ] (\mathbb {Q} _ {p}) & \text { if } p = 3. \end{array} \right.
 $$
 
-Proof. A well-known result of Lutz (see, e.g., [27, Chap. 7, Prop. 6.3] for a proof) asserts that there exists a subgroup$M \subset E ( \mathbb { Q } _ { p } )$of finite index that is isomorphic to$\mathbb { Z } _ { p } .$. Let G denote the finite group$E ( \mathbb { Q } _ { p } ) / M$. Then by applying the snake lemma to the following diagram,
+Proof. A well-known result of Lutz (see, e.g., [27, Chap. 7, Prop. 6.3] for a proof) asserts that there exists a subgroup$M \subset E ( \mathbb { Q } _ { p } )$of finite index that is isomorphic to$\mathbb { Z } _ { p } $. Let G denote the finite group$E ( \mathbb { Q } _ { p } ) / M$. Then by applying the snake lemma to the following diagram,
 
 ![](images/page_28_image_1.jpg)
 
@@ -838,10 +825,10 @@ $$
 
 Since G is a finite group and M is isomorphic to$\mathbb { Z } _ { p }$, Lemma 40 follows. 
 
-By Lemma 40 and the definitions of$M _ { p } ( V , F )$and$M _ { p } ( U _ { 1 } , F )$, we have (40)
+By Lemma 40 and the definitions of$M _ { p } ( V , F )$and$M _ { p } ( U _ { 1 } , F )$, we have
 
 $$
-\frac {M _ {p} (V , F)}{M _ {p} (F)} = \frac {\int_ {(I , J) \in \mathrm{Inv} _ {p} (F)} \frac {\# (E ^ {I , J} (\mathbb {Q} _ {p}) / 3 E ^ {I , J} (\mathbb {Q} _ {p}))}{\# E ^ {I , J} (\mathbb {Q} _ {p}) [ 3 ]} d I d J}{\int_ {(I , J) \in \mathrm{Inv} _ {p} (F)} d I d J} = \left\{ \begin{array}{l l} 1 & \text {if p\neq 3 ;} \\ 3 & \text {if p = 3 .} \end{array} \right.
+\frac {M _ {p} (V , F)}{M _ {p} (F)} = \frac {\int_ {(I , J) \in \mathrm{Inv} _ {p} (F)} \frac {\# (E ^ {I , J} (\mathbb {Q} _ {p}) / 3 E ^ {I , J} (\mathbb {Q} _ {p}))}{\# E ^ {I , J} (\mathbb {Q} _ {p}) [ 3 ]} d I d J}{\int_ {(I , J) \in \mathrm{Inv} _ {p} (F)} d I d J} = \left\{ \begin{array}{l l} 1 & \text {if p\neq 3 ;} \\ 3 & \text {if p = 3 .} \end{array} \right.\tag{40}
 $$
 
 Furthermore, we know that$M _ { \infty } ( V , F ; X ) / M _ { \infty } ( F ; X ) = 1 / 3$. Therefore, Theorem 39 yields
@@ -858,7 +845,7 @@ We have shown in the previous section that the average rank of all elliptic curv
 
 In order to deduce analogous positive proportion statements for the individual ranks 0 and 1, we may attempt to make use of information regarding the distribution of the parity of the ranks—or of the 3-Selmer ranks—of these curves. Indeed, if we knew that even and odd 3-Selmer ranks occur equally often in a large family of elliptic curves, then this would imply by Theorem 27 that a positive proportion of curves in that family have rank 0, and (assuming finiteness of the Tate–Shafarevich group) a positive proportion have rank 1.
 
-In Section 4.1, we use a recent result of Dokchitser–Dokchitser [17] (see also Nekov´aˇr [25]) to construct a large, positive proportion family F of elliptic curves in which the parities of the 3-Selmer ranks of the curves in F are equally distributed between even and odd, thus unconditionally yielding a positive proportion of elliptic curves having rank 0.
+In Section 4.1, we use a recent result of Dokchitser–Dokchitser [17] (see also Nekovář [25]) to construct a large, positive proportion family F of elliptic curves in which the parities of the 3-Selmer ranks of the curves in F are equally distributed between even and odd, thus unconditionally yielding a positive proportion of elliptic curves having rank 0.
 
 We may also combine our counting techniques with the recent work of Skinner–Urban [28] in order to deduce that a positive proportion of all elliptic curves, when ordered by height, have analytic rank 0; i.e., a positive proportion of all elliptic curves have nonvanishing L-function$L ( E , s )$at$s = 1$. Since these analytic rank 0 curves form a subset of the rank 0 curves of Section 4.1, it follows that a positive proportion of all elliptic curves satisfy the Birch and Swinnerton-Dyer conjecture. This is discussed in Section 4.2.
 
@@ -866,7 +853,7 @@ We may also combine our counting techniques with the recent work of Skinner–Ur
 
 In this subsection, we prove
 
-Theorem 41. Suppose F is a large family of elliptic curves such that exactly 50% of the curves in F, when ordered by height, have root number +1. Then at least 25% of the curves in F, when ordered by height, have rank 0. Furthermore, if we assume that all the elliptic curves in F have finite Tate– Shafarevich groups, then at least$5 / 1 2 > 4 1 . 6 \%$of the curves in F have rank 1.
+Theorem 41. Suppose F is a large family of elliptic curves such that exactly 50% of the curves in F, when ordered by height, have root number +1. Then at least 25% of the curves in F, when ordered by height, have rank 0. Furthermore, if we assume that all the elliptic curves in F have finite Tate– Shafarevich groups, then at least$5/12 > 41.6%$of the curves in F have rank 1.
 
 We will construct an explicit positive proportion family F satisfying the hypotheses of Theorem 41; this will then imply Theorem 4. (Of course, it is expected that the family F of all curves satisfies the root number hypothesis of the theorem; however, this remains unproved.)
 
@@ -880,11 +867,11 @@ Proof of Theorem 41. First note that Lemma 19 implies that the number of ellipti
 
 Now, by Theorem 27, the average size of the 3-Selmer group of curves in F is at most 4. On the other hand, by Theorem 42 we know that that exactly 50% of the curves in F have odd 3-Selmer rank and thus have at least three elements in the 3-Selmer group. Hence the average size of the 3-Selmer groups among the 50% of elliptic curves in F having even 3-Selmer rank is at most 5. Now if the 3-Selmer group of an elliptic curve has even rank, then it must have size 1, 9, or more than 9. For the average of such sizes to be 5, at least half must be equal to 1. Thus among these 50% of curves in F having even 3-Selmer rank, at least half have trivial 3-Selmer group and therefore have rank 0.
 
-Next, suppose that every odd rank curve in F has a finite Tate–Shafarevich group. A well-known result of Cassels states that if$E / \mathbb { Q }$is an elliptic curve such that$\operatorname { I I I } ( E )$is finite, then$| \mathrm { I I I } ( E ) |$is a square. Now if the 3-Selmer group of an elliptic curve has odd rank, then it must have size 3, 27, or more than 27. For the average of such sizes to be at most$^ { 7 , }$at least$5 / 6$of them must equal 3. Thus among these 50% of curves in F with odd 3-Selmer rank, at least$5 / 6$of them have 3-Selmer group of size 3. Since X is always a square, we conclude that X[3] for all these elliptic curves is trivial and so they each have rank 1. 
+Next, suppose that every odd rank curve in F has a finite Tate–Shafarevich group. A well-known result of Cassels states that if$E / \mathbb { Q }$is an elliptic curve such that$\operatorname { I I I } ( E )$is finite, then$| \mathrm { Ш } ( E ) |$is a square. Now if the 3-Selmer group of an elliptic curve has odd rank, then it must have size 3, 27, or more than 27. For the average of such sizes to be at most 7, at least$5 / 6$of them must equal 3. Thus among these 50% of curves in F with odd 3-Selmer rank, at least$5 / 6$of them have 3-Selmer group of size 3. Since Ш is always a square, we conclude that Ш[3] for all these elliptic curves is trivial and so they each have rank 1. 
 
 We now construct an explicit positive proportion large family F of elliptic curves for which exactly 50% of the curves have root number equal to 1. By Theorem 41, this will then imply Theorems 4 and 5.
 
-First, recall that the root number$\omega ( E )$of an elliptic curve$E$over$\mathbb { Q }$may be expressed in terms of a product over all primes of local root numbers$\omega _ { p } ( E )$ of$E _ { \mathrm { { i } } }$, namely,$\begin{array} { r } { \omega ( E ) = - \prod _ { p } \omega _ { p } ( E ) } \end{array}$. The local root number$\omega _ { p } ( E )$is easy to compute when$E$has good or multiplicative reduction at$p .$In fact, it is known $( \mathrm { s e e } , \mathrm { e . g . } , [ 2 6 ] )$that$\omega _ { p } ( E ) = 1$whenever E has good or nonsplit multiplicative reduction at$p ,$, and$\omega _ { p } ( E ) = - 1$when E has split multiplicative reduction at$p .$
+First, recall that the root number$\omega ( E )$of an elliptic curve$E$over$\mathbb { Q }$may be expressed in terms of a product over all primes of local root numbers$\omega _ { p } ( E )$ of$E _ { \mathrm { { i } } }$, namely,$\begin{array} { r } { \omega ( E ) = - \prod _ { p } \omega _ { p } ( E ) } \end{array}$. The local root number$\omega _ { p } ( E )$is easy to compute when$E$has good or multiplicative reduction at$p .$In fact, it is known $( \mathrm { s e e } , \mathrm { e . g . } , [ 2 6 ] )$that$\omega _ { p } ( E ) = 1$whenever E has good or nonsplit multiplicative reduction at$p$, and$\omega _ { p } ( E ) = - 1$when E has split multiplicative reduction at$p .$
 
 Suppose an elliptic curve$E / \mathbb { Q }$has multiplicative reduction at a prime $p \geq 3$. Then it is easily checked that E has split reduction precisely when $\begin{array} { r } { \left( { \frac { - 2 J } { p } } \right) = 1 } \end{array}$. It is also clear that if$E _ { - 1 }$denotes the twist of E over$\mathbb { Q } [ i ]$, then $\overset { \cdot } { J } ( \overset { \cdot } { E } _ { - 1 } ) = - \overset { \cdot } { J } ( E )$. Hence, given an odd prime p for which E has multiplicative reduction at p, we have$\omega _ { p } ( E ) = \omega _ { p } ( E _ { - 1 } )$if and only if$p \equiv 1$(mod 4).
 
@@ -920,7 +907,7 @@ Proof. It is easy to see$( \mathrm { e . g . }$, by Hilbert irreducibility) that
 
 As in Section 4.1, we may construct an explicit union F of positive proportion large families of elliptic curves satisfying the hypotheses of Theorem 44. Indeed, let F denote the family of all elliptic curves E satisfying the following conditions:
 
-• The curve E and its twist$E _ { - 1 }$both have additive reduction at$^ { 2 , }$and furthermore the j-invariant of both curves E and$E _ { - 1 }$are 2-adic units.
+• The curve E and its twist$E _ { - 1 }$both have additive reduction at 2, and furthermore the j-invariant of both curves E and$E _ { - 1 }$are 2-adic units.
 
 • E has square-free discriminant away from 2, and$5 \| \operatorname { D i s c } ( E )$
 
@@ -936,7 +923,7 @@ Acknowledgments. We are very grateful to John Cremona, Johan de Jong, Tom Fisher
 
 [1] S. Y. An, S. Y. Kim, D. C. Marshall, S. H. Marshall, W. G. McCallum, and A. R. Perlis, Jacobians of genus one curves, J. Number Theory 90 (2001), 304–315. MR 1858080. Zbl 1066.14035. http://dx.doi.org/10.1006/jnth.2000.2632.
 
-[2] S. Aronhold, Theorie der homogenen Funktionen dritten Grades von drei Ver¨anderlichen, J. reine Angew. Math. 55 (1858), 97–191. Zbl 055.1455cj.
+[2] S. Aronhold, Theorie der homogenen Funktionen dritten Grades von drei Veränderlichen, J. reine Angew. Math. 55 (1858), 97–191. Zbl 055.1455cj.
 
 [3] M. Artin, F. Rodriguez-Villegas, and J. Tate, On the Jacobians of plane cubics, Adv. Math. 198 (2005), 366–382. MR 2183258. Zbl 1092.14054. http://dx.doi.org/10.1016/j.aim.2005.06.004.
 
@@ -948,7 +935,7 @@ Acknowledgments. We are very grateful to John Cremona, Johan de Jong, Tom Fisher
 
 [6] M. Bhargava, The Ekedahl sieve and the density of squarefree values of invariant polynomials. arXiv 1402.0031.
 
-[7] M. Bhargava and W. Ho, Coregular spaces and genus one curves. arXiv 1306. 4424v1.
+[7] M. Bhargava and W. Ho, Coregular spaces and genus one curves. arXiv 1306.4424v1.
 
 [8] M. Bhargava and A. Shankar, Binary quartic forms having bounded invariants, and the boundedness of the average rank of elliptic curves, Ann. of Math. 181 (2015), 191–242. http://dx.doi.org/10.4007/annals.2015.181.1.3.
 
@@ -968,25 +955,25 @@ Acknowledgments. We are very grateful to John Cremona, Johan de Jong, Tom Fisher
 
 [16] A. J. de Jong, Counting elliptic surfaces over finite fields, Mosc. Math. J. 2 (2002), 281–311, Dedicated to Yuri I. Manin on the occasion of his 65th birthday. MR 1944508. Zbl 1031.11033.
 
-[17] T. Dokchitser and V. Dokchitser, On the Birch-Swinnerton-Dyer quotients modulo squares, Ann. of Math. 172 (2010), 567–596. MR 2680426. Zbl 1223. 11079. http://dx.doi.org/10.4007/annals.2010.172.567.
+[17] T. Dokchitser and V. Dokchitser, On the Birch-Swinnerton-Dyer quotients modulo squares, Ann. of Math. 172 (2010), 567–596. MR 2680426. Zbl 1223.11079. http://dx.doi.org/10.4007/annals.2010.172.567.
 
-[18] W. Duke, Elliptic curves with no exceptional primes, C. R. Acad. Sci. Paris S´er. I Math. 325 (1997), 813–818. MR 1485897. Zbl 1002.11049. http://dx.doi.org/10.1016/S0764-4442(97)80118-8.
+[18] W. Duke, Elliptic curves with no exceptional primes, C. R. Acad. Sci. Paris Sér. I Math. 325 (1997), 813–818. MR 1485897. Zbl 1002.11049. http://dx.doi.org/10.1016/S0764-4442(97)80118-8.
 
 [19] T. Fisher, Testing equivalence of ternary cubics, in Algorithmic Number Theory, Lecture Notes in Comput. Sci. 4076, Springer-Verlag, New York, 2006, pp. 333–345. MR 2282934. Zbl 1143.11325. http://dx.doi.org/10.1007/11792086 24.
 
 [20] T. Fisher, The invariants of a genus one curve, Proc. Lond. Math. Soc. 97 (2008), 753–782. MR 2448246. Zbl 1221.11135. http://dx.doi.org/10.1112/plms/pdn021.
 
-[21] C. G. Gibson, Elementary Geometry of Algebraic Curves : An Undergraduate Introduction, Cambridge Univ. Press, Cambridge, 1998. MR 1663524. Zbl 0997. 14500. http://dx.doi.org/10.1017/CBO9781139173285.
+[21] C. G. Gibson, Elementary Geometry of Algebraic Curves : An Undergraduate Introduction, Cambridge Univ. Press, Cambridge, 1998. MR 1663524. Zbl 0997.14500. http://dx.doi.org/10.1017/CBO9781139173285.
 
-[22] A. Kraus, Quelques remarques \`a propos des invariants c<sub>4</sub>, c<sub>6</sub> et ∆ d’une courbe elliptique, Acta Arith. 54 (1989), 75–80. MR 1024419. Zbl 0628.14024.
+[22] A. Kraus, Quelques remarques à propos des invariants c<sub>4</sub>, c<sub>6</sub> et ∆ d’une courbe elliptique, Acta Arith. 54 (1989), 75–80. MR 1024419. Zbl 0628.14024.
 
 [23] S. Lang and A. Weil, Number of points of varieties in finite fields, Amer. J. Math. 76 (1954), 819–827. MR 0065218. Zbl 0058.27202. http://dx.doi.org/10.2307/2372655.
 
 [24] R. P. Langlands, The volume of the fundamental domain for some arithmetical subgroups of Chevalley groups, in Algebraic Groups and Discontinuous Subgroups (Proc. Sympos. Pure Math., Boulder, Colo., 1965), Amer. Math. Soc., Providence, RI, 1966, pp. 143–148. MR 0213362. Zbl 0218.20041.
 
-[25] J. Nekova<sup>´</sup>r<sup>ˇ</sup>, Selmer Complexes, Ast´erisque 310, 2006. MR 2333680. Zbl 1211. 11120.
+[25] J. Nekovář, Selmer Complexes, Astérisque 310, 2006. MR 2333680. Zbl 1211.11120.
 
-[26] D. E. Rohrlich, Variation of the root number in families of elliptic curves, Compositio Math. 87 (1993), 119–151. MR 1219633. Zbl 0791.11026. Available at http://www.numdam.org/item?id=CM 1993 87 2 119 0.
+[26] D. E. Rohrlich, Variation of the root number in families of elliptic curves, Compositio Math. 87 (1993), 119–151. MR 1219633. Zbl 0791.11026. Available at http://www.numdam.org/item?id=CM_1993__87_2__119_0.
 
 [27] J. H. Silverman, The Arithmetic of Elliptic Curves, Grad. Texts in Math. 106, Springer-Verlag, New York, 1986. MR 0817210. Zbl 0585.14026. http://dx.doi.org/10.1007/978-1-4757-1920-8.
 
@@ -994,6 +981,6 @@ Acknowledgments. We are very grateful to John Cremona, Johan de Jong, Tom Fisher
 
 [29] S. Wong, On the density of elliptic curves, Compositio Math. 127 (2001), 23–54. MR 1832985. Zbl 1003.11023. http://dx.doi.org/10.1023/A:1017514507447.
 
-Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail : bhargava@math.princeton.edu
+Princeton University, Princeton, NJ E-mail : bhargava@math.princeton.edu
 
-Harvard University<sub>,</sub> Cambridge<sub>,</sub> MA E-mail : arul@math.harvard.edu
+Harvard University, Cambridge, MA E-mail : arul@math.harvard.edu
