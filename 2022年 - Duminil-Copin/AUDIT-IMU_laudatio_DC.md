@@ -101,3 +101,12 @@
 - **源级 typo 清单（忠实不改）**：une ends、any any、Hamiltionian（ref[22]）、linear constrain、
   "the x+y=z has precisely 545"缺 equation（de Weger Remark，同 Evertse 讲义）。
 - **可用性结论**：修复后 md 可作该 laudatio 忠实底本。参考文献 60 条抽验 20 条全对。
+
+### 修复登记（2026-09-29）
+- **U+FFFD/丢变量 41 处**全部按上下文恢复（S/φ/u/A/D/E/σ/C/θ/α/ω/v/e/d/m/n/M/q/p 等）；
+- **丢箭头/连接符**：Thm 2.1 与 (2.2) 的 0↔∂Λ_n ×3（其一 \ne→≲ 按原刊）、1↔−1 替换式；
+- **f_m(r) 求值说明**（"evaluated at the point z₁=…=z_{n−1}=r"）本篇 md 完整（(II) 同处丢失已另修）；
+- 缺空格/缺字母：energyfunction/ofa/tes/ligh/tha generalises/The orem 4.1/as tha/une→one（此为
+  mineru 缺陷）——**但 une/any any/Hamiltionian/constrain/(2.4) 引用/σᵢ(β)/x+y=z 缺 equation
+  经文本层证实系源级 typo，忠实保留**；Befara→Beffara（ff 家族入名）。
+- fix commits 见 `git log --grep 'fix(md): DC laudatio'`；本篇 24/24 页完成，无未决项。
