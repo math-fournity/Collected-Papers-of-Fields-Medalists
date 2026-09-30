@@ -176,3 +176,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 20:04 | COMMIT | Baker IV 闭环
 2026-09-29 20:06 | NOTE | 第五轮收尾：导出140/140全覆盖（Scholze published 重试成功）；38/140闭环；Baker六件审计链完整
 2026-09-29 20:14 | PAGE | Evertse survey | p.1-13/13 | FAIL2点 | Győry×4+块序；源级quirk×3登记
+2026-09-29 20:15 | DONE | Evertse survey | 13/13 | 2点FAIL已修复 | 累计39/140
+2026-09-29 20:15 | COMMIT | Evertse 闭环
