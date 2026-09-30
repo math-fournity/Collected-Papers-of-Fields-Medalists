@@ -34,7 +34,7 @@ It was conjectured by Siegel that in reality  $\kappa \leqslant 2$ , and it is t
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† The result is an immediate deduction from the definition of an algebraic number; see, for example, Davenport, The Higher Arithmetic (London 1952), 165–167.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\dagger$ Acta Mathematica, 79 (1947), 225–240. The algebraic part of Dyson's work was simplified by Mahler, Proc. K. Akad. Wet. Amsterdam, 52 (1949), 1175–1184. Another proof of Dyson's result was given by Schneider in Archiv der Math., 1 (1948–9), 288–295. Dyson's result (with a generalization) was apparently obtained independently by Gelfond; see his Transcendental and algebraic numbers (Moscow 1952, in Russian), Chapter 1.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">‡ Acta Mathematica, 79 (1947), 225–240. The algebraic part of Dyson's work was simplified by Mahler, Proc. K. Akad. Wet. Amsterdam, 52 (1949), 1175–1184. Another proof of Dyson's result was given by Schneider in Archiv der Math., 1 (1948–9), 288–295. Dyson's result (with a generalization) was apparently obtained independently by Gelfond; see his Transcendental and algebraic numbers (Moscow 1952, in Russian), Chapter 1.</span></small>
 
 THEOREM. Let $\alpha$ be any algebraic number, not rational. If (1) has an infinity of solutions in integers $h$ and $q$ ($q > 0$) then $\kappa \leqslant 2$.
 
@@ -43,7 +43,7 @@ The inequality  $\kappa\leqslant2$  is, of course, the best possible, since ever
 The above theorem, like its predecessors, has applications to other arithmetical questions, and in particular to the theory of Diophantine equations†. Suppose $f(x, y)$ is a homogeneous irreducible polynomial of degree $n$ with integral coefficients. It follows easily from the theorem that if the inequality
 
 $$
-\mid f (x, y) \mid <   (\mid x \mid + \mid y \mid) ^ {n - n}
+\mid f (x, y) \mid <   (\mid x \mid + \mid y \mid) ^ {n - \kappa}
 $$
 
 has an infinity of solutions in integers $x, y$ then $\kappa \leqslant 2$. Thus if $g(x, y)$ is any polynomial, not necessarily homogeneous, every term in which has total degree at most $n - 3$, then the equation
@@ -112,8 +112,6 @@ $$
 
 a generalized Wronskian of $\phi_0, \ldots, \phi_{l-1}$. If $p > 1$ and $l > 1$ there is more than one such generalized Wronskian. It is plain that if $\phi_0, \ldots, \phi_{l-1}$ are linearly dependent then all their generalized Wronskians vanish identically. We proceed to prove the converse$\S$.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k \leqslant 2$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† J. für die reine und angew. Math., 175 (1936), 182–192, Lemma 1, formula (7). This paper contains a proof that $\kappa \leqslant 2$ provided that the solutions of (1) satisfy a certain very restrictive condition.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">‡ Since writing this paper I find that generalized Wronskians were used by Siegel [Math. Annalen, 84 (1921), 80–99] in a similar connection. See also Kellogg, Comptes rendus des séances de la Soc. Math. de France, 41 (1912), 19–21, where the main result (Lemma 1 below) is stated without proof.</span></small>
@@ -164,7 +162,7 @@ $$
 \frac {d}{d t} = \frac {\partial}{\partial x _ {1}} + k t ^ {k - 1} \frac {\partial}{\partial x _ {2}} + \dots + k ^ {p - 1} t ^ {k ^ {p - 1} - 1} \frac {\partial}{\partial x _ {p}},
 $$
 
-where the operators on the right are applied to a polynomial in $x_1, \ldots, x_p$ and these variables are subsequently replaced by $t, \ldots, t^{k^p - 1}$. By induction on $\mu$, we see that the operator $(d / dt)^{\mu}$ is expressible as a linear combination of differential operators on $x_1, \ldots, x_p$ of the form (2), of orders not exceeding $\mu$:
+where the operators on the right are applied to a polynomial in $x_1, \ldots, x_p$ and these variables are subsequently replaced by $t, \ldots, t^{k^{p - 1}}$. By induction on $\mu$, we see that the operator $(d / dt)^{\mu}$ is expressible as a linear combination of differential operators on $x_1, \ldots, x_p$ of the form (2), of orders not exceeding $\mu$:
 
 $$
 \left(\frac {d}{d t}\right) ^ {\mu} = f _ {1} (t) \Delta^ {(1)} + \dots + f _ {r} (t) \Delta^ {(r)},
@@ -180,7 +178,7 @@ $$
 
 where  $G^{(1)}, \ldots, G^{(s)}$  are certain generalized Wronskians of  $\phi_{0}, \ldots, \phi_{l-1}$  and  $g_{1}(t), \ldots, g_{s}(t)$  are polynomials in t.
 
-Since $W(t)$ does not vanish identically, there is some $i$ for which $G^{(i)}(t, t^k, \ldots, t^{k^p - 1})$ does not vanish identically, and a fortiori $G^{(i)}(x_1, \ldots, x_p)$ does not vanish identically.
+Since $W(t)$ does not vanish identically, there is some $i$ for which $G^{(i)}(t, t^k, \ldots, t^{k^{p - 1}})$ does not vanish identically, and a fortiori $G^{(i)}(x_1, \ldots, x_p)$ does not vanish identically.
 
 3. LEMMA 2. Let $R(x_1, \ldots, x_p)$ be a polynomial in $p \geqslant 2$ variables, with integral coefficients, which is not identically zero. Let $R$ be of degree at most $r_j$ in $x_j$ for $j = 1, \ldots, p$. Then there exists an integer $l$ satisfying
 
@@ -439,8 +437,6 @@ where the maximum is taken over integers l satisfying
 $$
 \mathbf {1} \leqslant l \leqslant r _ {p} + \mathbf {1},\tag{14}
 $$
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\theta r_{1}$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† The exponent $\theta r_{1}$ is of course a non-negative integer, and can be supposed to be a positive integer.</span></small>
 
@@ -707,10 +703,10 @@ Thus Lemma 7 holds when $m = p$, as asserted.
 LEMMA 8. If $r_1, \ldots, r_m$ are any positive integers, and $\lambda > 0$, then the number of sets of integers $j_1, \ldots, j_m$ which satisfy the inequalities
 
 $$
-\begin{array}{l} 0 \leqslant j _ {1} \leqslant r _ {1}, \dots , 0 \leqslant j _ {m} \leqslant r _ {m}, \quad \frac {j _ {1}}{r _ {1}} + \dots + \frac {j _ {m}}{r _ {m}} \leqslant \frac {1}{2} (m - \lambda) \\ x c e e d \quad 2 m ^ {1 / 2} \lambda^ {- 1} (r _ {1} + 1) \dots (r _ {m} + 1). \end{array}
+0 \leqslant j _ {1} \leqslant r _ {1}, \dots , 0 \leqslant j _ {m} \leqslant r _ {m}, \quad \frac {j _ {1}}{r _ {1}} + \dots + \frac {j _ {m}}{r _ {m}} \leqslant \frac {1}{2} (m - \lambda)
 $$
 
-does not exceed
+does not exceed $2 m ^ {1 / 2} \lambda^ {- 1} (r _ {1} + 1) \dots (r _ {m} + 1).$
 
 Proof. The result holds when $m = 1$, for the number of integers $j_1$ satisfying
 
@@ -761,10 +757,6 @@ $$
 $$
 
 is satisfied by infinitely many pairs of integers  $h'$ , q. Hence  $M\alpha$  has the
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§8</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$r_{1},\ldots ,r_{m}$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† The case of even $r$ would in fact suffice for the application later, since we could choose $r_1, \ldots, r_m$ in §8 so as to be even,</span></small>
 
@@ -830,7 +822,7 @@ $$
 \eta <   \gamma .\tag{38}
 $$
 
-We note also that $B_{1}$ is necessarily large, since $r_{1} > 10$ and $q_{1}^{\delta^{3}} > e^{2m + 1} \geqslant e^{3}$. Thus, in particular, $q_{1}^{\frac{1}{\delta}\delta r_{1}} < B_{1}$.
+We note also that $B_{1}$ is necessarily large, since $r_{1} > 10$ and $q_{1}^{\delta^{2}} > e^{2m + 1} \geqslant e^{3}$. Thus, in particular, $q_{1}^{\frac{1}{2}\delta r_{1}} < B_{1}$.
 
 We now come to the main lemma, which is the only lemma to which reference will be made in the final proof of the theorem.
 
@@ -930,7 +922,7 @@ $$
 w _ {s} x ^ {s} + w _ {s - 1} x ^ {s - 1} + \dots + w _ {0},
 $$
 
-by $f(x)$, given in (27). The first operation (supposing $s \geqslant n$) is to subtract $w_s x^{s - n} f(x)$; and this gives a new polynomial whose coefficients are either of the form $w_v - a_{s - v} w_s$ or of the form $w_v$. Hence the coefficients of the new polynomial have absolute values less than $(1 + A) B_1^{1 + 2^5}$, with $A$ as in (28). The same consideration applies to the subsequent operations in the division process, and leads to the conclusion that the coefficients in the remainders $T_{j_1, \ldots, j_m}(W; x)$ have absolute values less than
+by $f(x)$, given in (27). The first operation (supposing $s \geqslant n$) is to subtract $w_s x^{s - n} f(x)$; and this gives a new polynomial whose coefficients are either of the form $w_v - a_{s - v} w_s$ or of the form $w_v$. Hence the coefficients of the new polynomial have absolute values less than $(1 + A) B_1^{1 + 2 \delta}$, with $A$ as in (28). The same consideration applies to the subsequent operations in the division process, and leads to the conclusion that the coefficients in the remainders $T_{j_1, \ldots, j_m}(W; x)$ have absolute values less than
 
 $$
 (1 + A) ^ {s - n + 1} B _ {1} ^ {1 + 2 \delta}.
@@ -973,8 +965,6 @@ $$
 are zero when  $x_{1}=\ldots=x_{m}=\alpha$ . Hence the index of  $W^{*}$  at the point  $(\alpha,\ldots,\alpha)$  relative to  $r_{1},\ldots,r_{m}$  is at least  $\gamma$ . Also the coefficients of  $W^{*}$  are integers, not all zero, of absolute values not exceeding  $B_{1}$ .
 
 We now appeal to Lemma 7, the conditions of which are satisfied, as was noted earlier. The polynomial  $W^{*}(x_{1}, \ldots, x_{m})$  satisfies the conditions
-
-Q
 
 (a), (b), (c) of §5 and so belongs to the class
 
