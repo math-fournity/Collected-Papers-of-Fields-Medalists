@@ -215,3 +215,6 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 05:30 | PAGE | Viazovska dim8 | p.1-24/24 | 箭头/粘连/变音待修 | 累计51+1篇进行中
 2026-09-30 05:45 | DONE | Viazovska dim8 | 24/24 | 47 组修复+far-all 还原 | 累计52/140
 2026-09-30 05:45 | COMMIT | Viazovska dim8 闭环
+2026-09-30 06:30 | PAGE | Bhargava 2010 rank0 | p.1-25/25 | Ⅲ[3]/5∥/变音待修 | 累计52+1篇进行中
+2026-09-30 06:45 | DONE | Bhargava 2010 rank0 | 25/25 | 50 组修复完成 | 累计53/140
+2026-09-30 06:45 | COMMIT | Bhargava 2010 rank0 闭环
