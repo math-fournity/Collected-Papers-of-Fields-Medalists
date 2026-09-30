@@ -12,13 +12,13 @@ It is by now well known that, for the smoothness of optimal maps, conditions on 
 
 In the special case$c ( x , y ) = | x - y | ^ { 2 } / 2$on R<sup>n</sup>, Caffarelli [3–6] proved regularity of optimal maps under suitable assumptions on the densities and on the geometry of their support. More precisely, in its simplest form, Caffarelli’s result states as follows:
 
-Theorem 1.1. — Letf and g be smooth probability densities, respectively bounded awayfrom zero and infinity on two bounded open sets X and Y, and let$\mathrm { T } : \mathrm { X }  \mathrm { Y }$denote the unique optimal transport mapfromf to gfor the quadratic cost$| x - y | ^ { 2 } / 2$. If Y is convex, then T is smooth inside X. On the other hand, if Y is not convex, then there exist smooth densitiesf and g (both bounded awayfrom zero and infinity on X and Y, respectively)for which the map T is not continuous.
+Theorem 1.1. — Let $f$ and g be smooth probability densities, respectively bounded away from zero and infinity on two bounded open sets X and Y, and let$\mathrm { T } : \mathrm { X } \to \mathrm { Y }$denote the unique optimal transport map fromf to gfor the quadratic cost$| x - y | ^ { 2 } / 2$. If Y is convex, then T is smooth inside X. On the other hand, if Y is not convex, then there exist smooth densitiesf and g (both bounded away from zero and infinity on X and Y, respectively)for which the map T is not continuous.
 
 A natural question which arises from the previous result is whether one may prove some partial regularity on T when the convexity assumption on Y is removed. In [16, 18] the authors proved the following result:
 
-Theorem 1.2. — Letf and g be smooth probability densities, respectively bounded awayfrom zero and infinity on two bounded open sets X and Y, and let$\mathrm { T } : \mathrm { X }  \mathrm { Y }$denote the unique optimal transport mapfromf to gfor the quadratic cost$\vert x - y \vert ^ { 2 } / 2$. Then there exist two open sets$\mathrm { X } ^ { \prime } \subset \mathrm { X }$and $\mathrm { Y } ^ { \prime } \subset \mathrm { Y } ,$, with$| \mathrm { X } \setminus \mathrm { X ^ { \prime } } | = | \mathrm { Y } \setminus \mathrm { Y ^ { \prime } } | = 0 .$, such that$\mathrm { T } : \mathrm { X } ^ { \prime } \to \mathrm { Y } ^ { \prime }$is a smooth diffeomorphism.
+Theorem 1.2. — Let $f$ and g be smooth probability densities, respectively bounded away from zero and infinity on two bounded open sets X and Y, and let$\mathrm { T } : \mathrm { X } \to \mathrm { Y }$denote the unique optimal transport map fromf to gfor the quadratic cost$\vert x - y \vert ^ { 2 } / 2$. Then there exist two open sets$\mathrm { X } ^ { \prime } \subset \mathrm { X }$and $\mathrm { Y } ^ { \prime } \subset \mathrm { Y } ,$, with$| \mathrm { X } \setminus \mathrm { X ^ { \prime } } | = | \mathrm { Y } \setminus \mathrm { Y ^ { \prime } } | = 0 $, such that$\mathrm { T } : \mathrm { X } ^ { \prime } \to \mathrm { Y } ^ { \prime }$is a smooth diffeomorphism.
 
-In the case of general cost functions on R<sup>n</sup>, or when$c ( x , y ) = d ( x , y ) ^ { 2 } / 2$on a Riemannian manifold M$( d ( x , y )$being the Riemannian distance), the situation is much more complicated. Indeed, as shown by Ma, Trudinger, and Wang [33], and Loeper [31], in addition to suitable convexity assumptions on the support of the target density (or on the cut locus of the manifold when$\operatorname { s u p p } ( g ) = \mathbf { M } [ 2 4 ] )$, a very strong structural condition on the cost function, the so-called MTWcondition, is needed to ensure the smoothness of the map.
+In the case of general cost functions on R<sup>n</sup>, or when$c ( x , y ) = d ( x , y ) ^ { 2 } / 2$on a Riemannian manifold M$( d ( x , y )$being the Riemannian distance), the situation is much more complicated. Indeed, as shown by Ma, Trudinger, and Wang [33], and Loeper [31], in addition to suitable convexity assumptions on the support of the target density (or on the cut locus of the manifold when$\operatorname { s u p p } ( g ) = \mathbf { M } [ 2 4 ] )$, a very strong structural condition on the cost function, the so-called MTW condition, is needed to ensure the smoothness of the map.
 
 More precisely, ifthe MTW condition holds (together with some suitable convexity assumptions on the target domain), then the optimal map is smooth [19, 21, 30, 35, 36]. On the other hand, if the MTW condition fails at one point, then one can construct smooth densities (both supported on domains which satisfy the needed convexity assumptions) for which the optimal transport map is not continuous [31] (see also [15]).
 
@@ -26,19 +26,19 @@ In the case of Riemannian manifolds, the MTW condition for$c = d ^ { 2 } / 2$is 
 
 The goal of the present paper is to show that, even without any condition on the cost function or on the supports of the densities, optimal transport maps are always smooth outside a closed singular set of measure zero. In order to state our results, we first have to introduce some basic assumptions on the cost functions which are needed to ensure existence and uniqueness of optimal maps. As before, X and Y denote two open subsets of R<sup>n</sup>.
 
-(C0) The cost function$c : \mathrm { X } \times \mathrm { Y }  \mathbf { R }$is of class$\mathrm { C ^ { 2 } }$with$\| c \| _ { \mathrm { C ^ { 2 } ( X \times Y ) } } < \infty$
+(C0) The cost function$c : \mathrm { X } \times \mathrm { Y } \to \mathbf { R }$is of class$\mathrm { C ^ { 2 } }$with$\| c \| _ { \mathrm { C ^ { 2 } ( X \times Y ) } } < \infty$
 
-(C1) For any$x \in \mathrm { X } .$, the map$\mathrm { Y } \ni \ j \mapsto - \mathrm { D } _ { \boldsymbol { x } } c ( \boldsymbol { x } , \boldsymbol { y } ) \in \mathbf { R } ^ { n }$is injective.
+(C1) For any $x \in \mathrm { X }$, the map $\mathrm { Y } \ni y \mapsto - \mathrm { D } _ { x } c ( x , y ) \in \mathbf { R } ^ { n }$ is injective.
 
-(C2) For any y ∈ Y, the map$\mathrm { X } \ni x \mapsto - \mathrm { D } _ { v } c ( x , y ) \in \mathbf { R } ^ { n }$is injective.
+(C2) For any y ∈ Y, the map$\mathrm { X } \ni x \mapsto - \mathrm { D } _ { y } c ( x , y ) \in \mathbf { R } ^ { n }$is injective.
 
 (C3) det$( \mathrm { D } _ { x y } c ) ( x , y ) \neq 0$for all$( x , y ) \in \mathrm { X } \times \mathrm { Y }$
 
 Here are our main results:
 
-Theorem$\mathbf { 1 . 3 . { \_ { L e t } \mathrm { X , Y } \subset \mathbf { R } ^ { n } } }$be two bounded open sets, and let$f : \mathrm { X } \to \mathbf { R } ^ { + }$and$g :$ $\mathrm { \bf Y } \to { \bf R } ^ { + }$be two continuous probability densities, respectively bounded awayfrom zero and infinity on X and Y. Assume that the cost c :$\mathbf { X } \times \mathbf { Y }  \mathbf { R }$satisfies (C0)–(C3), and denote by T :$\mathrm { X } \to \mathrm { Y }$the unique optimal transport map sendingf onto g. Then there exist two relatively closed sets$\Sigma _ { \mathrm { X } } \subset \mathrm { X } , \Sigma _ { \mathrm { Y } } \subset \mathrm { Y }$ ofmeasure zero such that$\operatorname { T } : \operatorname { X } \setminus  \sum _ { \operatorname { X } }  \operatorname { Y } \setminus \Sigma _ { \operatorname { Y } }$is a homeomorphism ofclass$\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta } \ f o r$any$\beta < 1$ In addition,$i f c \in \mathrm { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha } ( \mathrm { X } \times \mathrm { Y } ) , f \in \mathrm { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathrm { X } )$, and$g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathbf { \bar { Y } } )$for some$k \geq 0$and$\alpha \in ( 0 , 1 )$, then T :$: \mathrm { X } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a diffeomorphism ofclass$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha }$
+Theorem 1.3. — Let$\mathrm { X } , \mathrm { Y } \subset \mathbf { R } ^ { n }$be two bounded open sets, and let $f : \mathrm { X } \to \mathbf { R } ^ { + }$ and $g : \mathrm { Y } \to \mathbf { R } ^ { + }$ be two continuous probability densities, respectively bounded away from zero and infinity on X and Y. Assume that the cost c :$\mathbf { X } \times \mathbf { Y } \to \mathbf { R }$satisfies (C0)–(C3), and denote by T :$\mathrm { X } \to \mathrm { Y }$the unique optimal transport map sending $f$ onto g. Then there exist two relatively closed sets$\Sigma _ { \mathrm { X } } \subset \mathrm { X } , \Sigma _ { \mathrm { Y } } \subset \mathrm { Y }$ of measure zero such that$\operatorname { T } : \operatorname { X } \setminus \Sigma _ { \operatorname { X } } \to \operatorname { Y } \setminus \Sigma _ { \operatorname { Y } }$is a homeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta }$ for any$\beta < 1$. In addition, if $c \in \mathrm { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha } ( \mathrm { X } \times \mathrm { Y } ) , f \in \mathrm { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathrm { X } )$, and$g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathbf { \bar { Y } } )$for some$k \geq 0$and$\alpha \in ( 0 , 1 )$, then T :$: \mathrm { X } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a diffeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha }$
 
-Theorem 1.4. — Let M be a smooth Riemannian manifold, and letf,$g : \mathrm { M } \to \mathbf { R } ^ { + }$be two continuous probability densities, locally bounded awayfrom zero and infinity on M. Let$\mathrm { T } : \mathrm { M } \to \mathrm { M }$ denote the optimal transport map for the cost$c = d ^ { 2 } / 2$sendingf onto$g .$Then there exist two closed sets$Z _ { \mathrm { { X } } } , Z _ { \mathrm { { Y } } } \subset \mathrm { { M } }$ofmeasure zero such that$\mathrm { T } : \mathrm { M } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { M } \setminus \Sigma _ { \mathrm { Y } }$is a homeomorphism ofclass $\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta }$for any$\beta < 1$. In addition, ifbothf and g are ofclass$\mathrm { C } ^ { k , \alpha }$, then$\mathrm { T } : \mathrm { M } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { M } \setminus \Sigma _ { \mathrm { Y } }$is a diffeomorphism ofclass$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha }$
+Theorem 1.4. — Let M be a smooth Riemannian manifold, and letf,$g : \mathrm { M } \to \mathbf { R } ^ { + }$be two continuous probability densities, locally bounded away from zero and infinity on M. Let$\mathrm { T } : \mathrm { M } \to \mathrm { M }$ denote the optimal transport map for the cost$c = d ^ { 2 } / 2$sending $f$ onto$g$. Then there exist two closed sets$Z _ { \mathrm { { X } } } , Z _ { \mathrm { { Y } } } \subset \mathrm { { M } }$of measure zero such that$\mathrm { T } : \mathrm { M } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { M } \setminus \Sigma _ { \mathrm { Y } }$is a homeomorphism of class $\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta }$for any$\beta < 1$. In addition, ifbothf and g are of class$\mathrm { C } ^ { k , \alpha }$, then$\mathrm { T } : \mathrm { M } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { M } \setminus \Sigma _ { \mathrm { Y } }$is a diffeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha }$
 
 The paper is structured as follows: in the next section we introduce some notation and preliminary results. Then, in Section 3, we show how both Theorem 1.3 and Theorem 1.4 are a direct consequence of some local regularity results around differentiability points of T, see Theorems 4.3 and 5.3. Finally, Sections 4 and 5 are devoted to the proof of these local results.
 
@@ -46,7 +46,7 @@ The paper is structured as follows: in the next section we introduce some notati
 
 Through a well established procedure, maps that solve optimal transport problems derive from a c-convex potential, itself solution to a Monge-Ampère type equation.
 
-More precisely, given a cost function$c : \mathrm { X } \times \mathrm { Y }  \mathbf { R } .$, a function u :$\mathbf X \to \mathbf R$is said c-convex if it can be written as
+More precisely, given a cost function$c : \mathrm { X } \times \mathrm { Y }  \mathbf { R }$, a function u :$\mathbf X \to \mathbf R$is said c-convex if it can be written as
 
 $$
 u (x) = \sup _ {y \in \mathrm{Y}} \left\{- c (x, y) + \lambda_ {y} \right\},\tag{2.1}
@@ -54,7 +54,7 @@ $$
 
 for some constants$\lambda _ { y } \in \mathbf { R } \cup \{ - \infty \}$
 
-Similarly to the subdifferential for convex function, for c-convex functions one can talk about their c-subdifferential: if$u : \mathrm { X }  \mathbf { R }$is a c-convex function as above, the$c -$ subdifferential of u at x is the (nonempty) set
+Similarly to the subdifferential for convex function, for c-convex functions one can talk about their c-subdifferential: if$u : \mathrm { X } \to \mathbf { R }$is a c-convex function as above, the$c -$ subdifferential of u at x is the (nonempty) set
 
 $$
 \partial_ {c} u (x) := \left\{y \in \overline {{\mathrm{Y}}} \colon u (z) \geq - c (z, y) + c (x, y) + u (x) \forall z \in \mathrm{X} \right\}.\tag{2.2}
@@ -98,7 +98,7 @@ $$
 
 Notice that, if$c \in \mathrm { C } ^ { 1 }$and Y is bounded, it follows immediately from (2.1) that c-convex functions are Lipschitz, so in particular they are differentiable a.e.
 
-The following notation will be convenient: given a c-convex function$u : \mathrm { X }  \mathbf { R } .$, we define (at almost every point) the map$\mathrm { T } _ { u } : \mathrm { X } \to \mathrm { Y }$as
+The following notation will be convenient: given a c-convex function$u : \mathrm { X } \to \mathbf { R }$., we define (at almost every point) the map$\mathrm { T } _ { u } : \mathrm { X } \to \mathrm { Y }$as
 
 $$
 \mathrm{T} _ {u} (x) := \mathrm{c} - \exp_ {x} (\nabla u (x)).\tag{2.7}
@@ -110,15 +110,15 @@ Finally, let us observe that if c satisfies (C0) and Y is bounded, then it follo
 
 The following is a basic result in optimal transport theory (see for instance [37, Chapter 10]):
 
-Theorem 2.1.$\_ L e t c : \mathrm { X } \times \mathrm { Y } \to \mathbf { R }$satisfy (C0)–(C1). Given two probability densitiesf and g supported on X and Y respectively, there exists a c-convexfunction u :$\mathbf X \to \mathbf R$such that$\mathrm { T } _ { u } : \mathrm { X } \to \mathrm { Y }$ is the unique optimal transport map sending f onto g.
+Theorem 2.1. — Let $c : \mathrm { X } \times \mathrm { Y } \to \mathbf { R }$satisfy (C0)–(C1). Given two probability densitiesf and g supported on X and Y respectively, there exists a c-convex function u :$\mathbf X \to \mathbf R$such that$\mathrm { T } _ { u } : \mathrm { X } \to \mathrm { Y }$ is the unique optimal transport map sending f onto g.
 
 In the particular case$c ( x , y ) = - x \cdot y$(which is equivalent to the quadratic cost $| x - y | ^ { 2 } / 2 )$, c-convex functions are convex and the above result takes the following simple form [2]:
 
-Theorem 2.2.$- \mathit { L e t } \mathit { c ( x , y ) } = - x \cdot y$. Given two probability densities f and g supported on X and Y respectively, there exists a convexfunction$v : \mathrm { X } \to \mathbf { R }$such that$\mathrm { T } _ { v } = \nabla v : \mathrm { X } \to \mathrm { Y }$is the unique optimal transport map sending f onto g.
+Theorem 2.2. — Let $c ( x , y ) = - x \cdot y$. Given two probability densities f and g supported on X and Y respectively, there exists a convex function$v : \mathrm { X } \to \mathbf { R }$such that$\mathrm { T } _ { v } = \nabla v : \mathrm { X } \to \mathrm { Y }$is the unique optimal transport map sending f onto g.
 
 Although on Riemannian manifolds the cost function$c = d ^ { 2 } / 2$is not smooth everywhere, one can still prove existence of optimal maps [13, 17, 34] (let us remark that, in this case, the c-exponential map coincides with the classical exponential map in Riemannian geometry):
 
-Theorem 2.3. — Let M be a smooth Riemannian manifold, and$c = d ^ { 2 } / 2$. Given two probability densitiesf and g supported on M, there exists a c-convexfunction$u : \mathrm { M } \to \mathbf { R } \cup \{ + \infty \}$such that u is differentiablef-a.e., and$\mathrm { T } _ { u } ( x ) = \mathrm { e x p } _ { x } ( \nabla u ( x ) )$is the unique optimal transport map sending f onto g.
+Theorem 2.3. — Let M be a smooth Riemannian manifold, and$c = d ^ { 2 } / 2$. Given two probability densitiesf and g supported on M, there exists a c-convex function$u : \mathrm { M } \to \mathbf { R } \cup \{ + \infty \}$such that u is differentiablef-a.e., and$\mathrm { T } _ { u } ( x ) = \mathrm { e x p } _ { x } ( \nabla u ( x ) )$is the unique optimal transport map sending f onto g.
 
 We conclude this section by recalling that c-convex functions arising in optimal transport problems solve a Monge-Ampère type equation almost everywhere, referring to [1, Section 6.2], [37, Chapters 11 and 12], and [15] for more details.
 
@@ -146,7 +146,7 @@ $$
 \begin{array}{l} \det \bigl (\mathrm{D} ^ {2} u (x) + \mathrm{D} _ {x x} c \bigl (x, \mathrm{c} - \exp_ {x} \bigl (\nabla u (x) \bigr) \bigr) \bigr) \\ = \bigl | \det \bigl (\mathrm{D} _ {x y} c \bigl (x, \mathrm{c} - \exp_ {x} \bigl (\nabla u (x) \bigr) \bigr) \bigr) \bigr | \frac {f (x)}{g (\mathrm{c} - \exp_ {x} (\nabla u (x)))} \end{array}\tag{2.10}
 $$
 
-at every point x where u it is twice differentiable. In particular, when$c ( x , y ) = - x \cdot y .$, the convex function v provided by Theorem 2.2 solves the classical Monge-Ampère equation
+at every point x where u it is twice differentiable. In particular, when$c ( x , y ) = - x \cdot y $, the convex function v provided by Theorem 2.2 solves the classical Monge-Ampère equation
 
 $$
 \det \bigl (\mathrm{D} ^ {2} v (x) \bigr) = \frac {f (x)}{g (\nabla v (x))} \quad \mathrm{a.e.}
@@ -156,11 +156,11 @@ $$
 
 The goal of this section is to prove Theorems 1.3 and 1.4 by showing that the assumptions of Theorems 4.3 and 5.3 below are satisfied near almost every point.
 
-The rough idea is the following: if x¯ is a point where the semiconvex function u is twice differentiable, then around that point u looks like a parabola. In addition, by looking close enough to${ \overline { { x } } } ,$the cost function c will be very close to the linear one and the densities will be almost constant there. Hence we can apply Theorem 4.3 to deduce that u is of class$\mathrm { C } ^ { 1 , \beta }$in neighborhood of x¯ (resp. u is ofclass$\bar { \mathrm { C } } ^ { k + 2 , \alpha }$by Theorem 5.3, if$c \in \mathrm { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha }$and $f , g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } )$, which implies in particular that$\mathrm { T } _ { u }$is of class$\mathrm { \dot { C } } ^ { 0 , \beta }$in neighborhood of x¯ (resp. $\mathrm { T } _ { u }$is of class$\mathrm { C } ^ { k + 1 , \alpha }$by Theorem 5.3, if$\cdot _ { c \in \mathbf { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha } }$and$f , g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } )$. Being our assumptions completely symmetric in x and$y ,$we can apply the same argument to the optimal map $\mathrm { T ^ { * } }$sending g onto$f .$. Since$\mathrm { T } ^ { * } = ( \mathrm { T } _ { u } ) ^ { - 1 }$(see the discussion below), it follows that$\mathrm { T } _ { u }$is a global homeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta }$(resp.$\mathrm { T } _ { u }$is a global diffeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha } )$ outside a closed set of measure zero.
+The rough idea is the following: if x¯ is a point where the semiconvex function u is twice differentiable, then around that point u looks like a parabola. In addition, by looking close enough to${ \overline { { x } } } ,$the cost function c will be very close to the linear one and the densities will be almost constant there. Hence we can apply Theorem 4.3 to deduce that u is of class$\mathrm { C } ^ { 1 , \beta }$in neighborhood of x¯ (resp. u is of class$\mathrm { C } ^ { k + 2 , \alpha }$by Theorem 5.3, if$c \in \mathrm { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha }$and $f , g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } )$, which implies in particular that$\mathrm { T } _ { u }$is of class$\mathrm { C } ^ { 0 , \beta }$ in neighborhood of x¯ (resp. $\mathrm { T } _ { u }$is of class$\mathrm { C } ^ { k + 1 , \alpha }$by Theorem 5.3, if $c \in \mathbf { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha }$ and$f , g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } )$. Being our assumptions completely symmetric in x and$y ,$we can apply the same argument to the optimal map $\mathrm { T ^ { * } }$sending g onto$f $. Since$\mathrm { T } ^ { * } = ( \mathrm { T } _ { u } ) ^ { - 1 }$(see the discussion below), it follows that$\mathrm { T } _ { u }$is a global homeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { 0 , \beta }$(resp.$\mathrm { T } _ { u }$is a global diffeomorphism of class$\mathrm { C } _ { \mathrm { l o c } } ^ { k + 1 , \alpha } )$ outside a closed set of measure zero.
 
 We now give a detailed proof.
 
-ProofofTheorem$I . 3 . { \mathrm { - L e t } }$us introduce the “c-conjugate” of$u ,$that${ \mathrm { i s } } ,$the function $u ^ { c } : \mathrm { Y }  \mathbf { R }$defined as
+Proof of Theorem 1.3. — Let us introduce the “c-conjugate” of$u ,$that${ \mathrm { i s } } ,$the function $u ^ { c } : \mathrm { Y } \to \mathbf { R }$defined as
 
 $$
 u ^ {c} (y) := \sup _ {x \in \mathrm{X}} \left\{- c (x, y) - u (x) \right\}.
@@ -174,7 +174,7 @@ $$
 
 (see for instance [37, Chapter 5]).
 
-Being our assumptions completely symmetric in x and$y , c ^ { * }$satisfies the same assumptions as c. In particular, by Theorem 2.1, there exists an optimal map$\mathrm { T ^ { * } }$(with respect to$c ^ { * } )$sending g onto$f .$. In addition, it is well-known that$\mathrm { T ^ { * } }$is actually equal to
+Being our assumptions completely symmetric in x and$y , c ^ { * }$satisfies the same assumptions as c. In particular, by Theorem 2.1, there exists an optimal map$\mathrm { T ^ { * } }$(with respect to$c ^ { * } )$sending g onto$f $. In addition, it is well-known that$\mathrm { T ^ { * } }$is actually equal to
 
 $$
 \mathrm{T} _ {u ^ {c}} (y) = \mathrm{c} ^ {*} - \exp_ {y} \left(\nabla u ^ {c} (y)\right),
@@ -194,9 +194,9 @@ $$
 \mathrm{X} ^ {\prime} := \mathrm{X} _ {1} \cap (\mathrm{T} _ {u}) ^ {- 1} (\mathrm{Y} _ {1}).
 $$
 
-Using that$\mathrm { T } _ { u }$transports$f$on$g$and that the two densities are bounded away from zero and infinity, we see that X<sup></sup> is of full measure in$\mathrm { X }$
+Using that$\mathrm { T } _ { u }$transports$f$on$g$and that the two densities are bounded away from zero and infinity, we see that $\mathrm { X } ^ { \prime }$ is of full measure in$\mathrm { X }$
 
-We fix a point$\bar { x } \in \mathrm { X } ^ { \prime }$. Since u is differentiable at$\bar { x }$(being twice differentiable), it follows by (2.6) that the set$\partial _ { c } u ( \bar { x } )$is a singleton, namely$\partial _ { c } u ( \bar { x } ) = \{ \mathrm { c } \mathrm { - } \mathrm { e x p } _ { \bar { x } } ( \nabla u ( \bar { x } ) ) \}$}. Set $\bar { y } : = \mathrm { c } \mathrm { - } \mathrm { e x p } _ { \bar { x } } ( \nabla u ( \bar { x } ) )$. Since$\bar { y } \in \mathrm { Y } _ { 1 }$(by definition of$\mathrm { X } ^ { \prime } )$,$u ^ { c }$is twice differentiable at$\bar { y }$and $\overline { { x } } = \mathrm { T } _ { u ^ { c } } ( \overline { { y } } )$. Up to a translation in the system of coordinates (both in x and$y )$we can assume that both$\bar { x }$and$\bar { \mathcal { D } }$coincide with the origin 0.
+We fix a point$\bar { x } \in \mathrm { X } ^ { \prime }$. Since u is differentiable at$\bar { x }$(being twice differentiable), it follows by (2.6) that the set$\partial _ { c } u ( \bar { x } )$is a singleton, namely$\partial _ { c } u ( \bar { x } ) = \{ \mathrm { c } \mathrm { - } \mathrm { e x p } _ { \bar { x } } ( \nabla u ( \bar { x } ) ) \}$}. Set $\bar { y } : = \mathrm { c } \mathrm { - } \mathrm { e x p } _ { \bar { x } } ( \nabla u ( \bar { x } ) )$. Since$\bar { y } \in \mathrm { Y } _ { 1 }$(by definition of$\mathrm { X } ^ { \prime } )$,$u ^ { c }$is twice differentiable at$\bar { y }$and $\overline { { x } } = \mathrm { T } _ { u ^ { c } } ( \overline { { y } } )$. Up to a translation in the system of coordinates (both in x and$y )$we can assume that both$\bar { x }$and$\bar { y }$coincide with the origin 0.
 
 Let us define
 
@@ -212,13 +212,13 @@ $$
 \bar {u} ^ {\bar {c}} (w) := u ^ {c} (w) - u (\mathbf {0}) + c (\mathbf {0}, w) - c (\mathbf {0}, \mathbf {0}).
 $$
 
-Then u¯ is a ¯c-convex function,$\bar { u } ^ { \bar { c } }$is its ¯c-conjugate,$\mathrm { T } _ { \bar { u } } = \mathrm { T } _ { u } ,$, and$\mathrm { T } _ { \bar { u } ^ { c } } = \mathrm { T } _ { u ^ { c } }$, so in particular$( \mathrm { T } _ { \bar { u } } ) _ { \sharp } f = g$and$( \mathrm { T } _ { \bar { u } \bar { c } } ) _ { \sharp } g = f$. In addition, because by assumption$\mathbf { 0 } \in \mathrm { X } ^ { \prime } , \bar { u }$is twice differentiable at 0 and u¯<sup>¯c</sup> is twice differentiable at$\mathbf { 0 } = \mathrm { T } _ { \bar { u } } ( \mathbf { 0 } )$. Let us define$\mathrm { P } : = \mathrm { D } ^ { 2 } \bar { u } ( \mathbf { 0 } )$), and$\mathrm { M } : = \mathrm { D } _ { x y } \overline { { c } } ( \mathbf { 0 } , \mathbf { 0 } )$. Then, since$\bar { c } ( \cdot , \mathbf { 0 } ) = \bar { c } ( \mathbf { 0 } , \cdot ) \equiv 0$and$\overline { c } \in { \mathrm { C } } ^ { 2 }$, a Taylor expansion gives
+Then u¯ is a ¯c-convex function,$\bar { u } ^ { \bar { c } }$is its ¯c-conjugate,$\mathrm { T } _ { \bar { u } } = \mathrm { T } _ { u } ,$, and$\mathrm { T } _ { \bar { u } ^ { c } } = \mathrm { T } _ { u ^ { c } }$, so in particular$( \mathrm { T } _ { \bar { u } } ) _ { \sharp } f = g$and$( \mathrm { T } _ { \bar { u } ^ { \bar { c } } } ) _ { \sharp } g = f$. In addition, because by assumption$\mathbf { 0 } \in \mathrm { X } ^ { \prime } , \bar { u }$is twice differentiable at 0 and $\bar { u } ^ { \bar { c } }$ is twice differentiable at$\mathbf { 0 } = \mathrm { T } _ { \bar { u } } ( \mathbf { 0 } )$. Let us define$\mathrm { P } : = \mathrm { D } ^ { 2 } \bar { u } ( \mathbf { 0 } )$, and$\mathrm { M } : = \mathrm { D } _ { x y } \overline { { c } } ( \mathbf { 0 } , \mathbf { 0 } )$. Then, since$\bar { c } ( \cdot , \mathbf { 0 } ) = \bar { c } ( \mathbf { 0 } , \cdot ) \equiv 0$and$\overline { c } \in { \mathrm { C } } ^ { 2 }$, a Taylor expansion gives
 
 $$
 \bar {u} (z) = \frac {1}{2} \mathrm{P} z \cdot z + o \bigl (| z | ^ {2} \bigr), \qquad \bar {c} (z, w) = \mathrm{M} z \cdot w + o \bigl (| z | ^ {2} + | w | ^ {2} \bigr).
 $$
 
-Let us observe that, since by assumptionf and g are bounded away from zero and infinity, by (C3) and (2.10) applied to u¯ and ¯c we get that det(P), det(M) = 0. In addition (2.9) implies that P is a positive definite symmetric matrix. Hence, we can perform a second change of coordinates:$z \mapsto \tilde { z } : = \mathrm { P } ^ { 1 / 2 } z , w \mapsto \tilde { w } : = - \mathrm { P } ^ { - 1 / 2 } \mathrm { M } ^ { * } w$(M<sup>∗</sup> being the transpose of M), so that, in the new variables,
+Let us observe that, since by assumptionf and g are bounded away from zero and infinity, by (C3) and (2.10) applied to u¯ and ¯c we get that $\det ( \mathrm { P } ) , \det ( \mathrm { M } ) \neq 0$. In addition (2.9) implies that P is a positive definite symmetric matrix. Hence, we can perform a second change of coordinates:$z \mapsto \tilde { z } : = \mathrm { P } ^ { 1 / 2 } z , w \mapsto \tilde { w } : = - \mathrm { P } ^ { - 1 / 2 } \mathrm { M } ^ { * } w$(M<sup>∗</sup> being the transpose of M), so that, in the new variables,
 
 $$
 \tilde {u} (\tilde {z}) := \bar {u} (z) = \frac {1}{2} | \tilde {z} | ^ {2} + o \big (| \tilde {z} | ^ {2} \big), \qquad \tilde {c} (\tilde {z}, \tilde {w}) := \bar {c} (z, w) = - \tilde {z} \cdot \tilde {w} + o \big (| \tilde {z} | ^ {2} + | \tilde {w} | ^ {2} \big).\tag{3.3}
@@ -250,15 +250,9 @@ $$
 
 We claim that, provided$\rho$is sufficiently small,$u _ { \rho }$and$c _ { \rho }$satisfy the assumptions of Theorems 4.3 and 5.3.
 
-Indeed, it is immediate to check that$u _ { \rho }$is a$c _ { \rho }$-convex function. Also, by the same argument as above, from the relation$( \mathrm { T } _ { \tilde { u } } ) _ { \sharp } \tilde { f } = \tilde { g }$we deduce that$\mathrm { T } _ { u _ { \rho } }$sends$\tilde { \ b { f } } ( \rho \tilde { \ b { z } } )$
+Indeed, it is immediate to check that$u _ { \rho }$is a$c _ { \rho }$-convex function. Also, by the same argument as above, from the relation$( \mathrm { T } _ { \tilde { u } } ) _ { \sharp } \tilde { f } = \tilde { g }$we deduce that$\mathrm { T } _ { u _ { \rho } }$sends$\tilde { f } ( \rho \tilde { z } )$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">μ :=f(x)dx</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ν := g(y)dy</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup> An easy way to check this is to observe that the measures and are independent of the choice of coordinates, hence (3.4) follows from the identitie</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f (x)dx = <sup>˜</sup>f (x˜)dx˜, g(y)dy = ˜g(y˜)dy˜.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup> An easy way to check this is to observe that the measures μ := f(x)dx and ν := g(y)dy are independent of the choice of coordinates, hence (3.4) follows from the identities f(x)dx = f̃(x̃)dx̃, g(y)dy = g̃(ỹ)dỹ.</span></small>
 
 onto$\tilde { g } ( \rho \tilde { w } )$). In addition, since we can freely multiply both densities by a same constant, it actually follows from (3.6) that$( \mathrm { T } _ { u _ { \rho } } ) _ { \sharp } f _ { \rho } = g _ { \rho }$, where
 
@@ -272,13 +266,13 @@ $$
 \left| f _ {\rho} - 1 \right| + \left| g _ {\rho} - 1 \right|\rightarrow 0 \quad \text { inside } \mathrm{B} _ {3}\tag{3.7}
 $$
 
-as$\rho \to 0 . \mathrm { A l s o } .$, by (3.3) we get that, for any$\tilde { z } , \tilde { w } \in \mathrm { B _ { 3 } }$小
+as$\rho \to 0 . \mathrm { A l s o }$, by (3.3) we get that, for any$\tilde { z } , \tilde { w } \in \mathrm { B } _ { 3 }$
 
 $$
 u _ {\rho} (\tilde {z}) = \frac {1}{2} | \tilde {z} | ^ {2} + o (1), \qquad c _ {\rho} (\tilde {z}, \tilde {w}) = - \tilde {z} \cdot \tilde {w} + o (1),\tag{3.8}
 $$
 
-where$o ( 1 )  0 \mathrm { a s } \rho  0$. In particular, (4.9) and (4.10) hold with any positive constants $\delta _ { 0 } , \eta _ { 0 }$provided$\rho$is small enough.
+where $o ( 1 ) \to 0$ as $\rho \to 0$. In particular, (4.9) and (4.10) hold with any positive constants $\delta _ { 0 } , \eta _ { 0 }$provided$\rho$is small enough.
 
 Furthermore, by the second order differentiability of$\cdot \tilde { u }$at 0 it follows that the multivalued map$\tilde { z } \mapsto \partial ^ { - } \bar { u } ( \tilde { z } )$is differentiable at 0 (see [37, Theorem 14.25]) with gradient equal to the identity matrix (see (3.3)), hence
 
@@ -292,7 +286,7 @@ $$
 \partial_ {c _ {\rho}} u _ {\rho} (\tilde {z}) \subset \mathrm{B} _ {\delta_ {\rho}} (\tilde {z}) \quad \forall \tilde {z} \in \mathrm{B} _ {3},\tag{3.9}
 $$
 
-with$\delta _ { \rho } = o ( 1 )$as$\rho \to 0$. Moreover, the$c _ { \rho } ^ { \ }$-conjugate of$u _ { \rho }$is easily seen to be
+with$\delta _ { \rho } = o ( 1 )$as$\rho \to 0$. Moreover, the$c _ { \rho } ^ { * }$-conjugate of$u _ { \rho }$is easily seen to be
 
 $$
 u _ {\rho} ^ {c _ {\rho}} (\tilde {w}) = \bar {u} ^ {\bar {c}} \big (\rho \big (\mathrm{M} ^ {*} \big) ^ {- 1} \mathrm{P} ^ {1 / 2} \tilde {w} \big).
@@ -312,13 +306,7 @@ $$
 \mathcal {C} _ {1} := \overline {{\mathrm{B}}} _ {1}, \qquad \mathcal {C} _ {2} := \partial_ {c _ {\rho}} u _ {\rho} (\mathcal {C} _ {1}).
 $$
 
-$$
-\mathrm{D} _ {\tilde {z}} c _ {\rho} \big (\tilde {z}, \mathrm{T} _ {u _ {\rho}} (\tilde {z}) \big) = - \nabla u _ {\rho} (\tilde {z}) \quad \text { and } \quad \mathrm{D} _ {\tilde {w}} c _ {\rho} \big (\mathrm{T} _ {u _ {\rho} ^ {c _ {\rho}}} (\tilde {w}), \tilde {w} \big) = - \nabla u _ {\rho} ^ {c _ {\rho}} (\tilde {w})
-$$
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup> For instance, this follows by differentiating both relations</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">at 0, and using then (3.5) and the fact that ∇T cρ (0) = [∇T<sub>uρ</sub> (0)]<sup>−1</sup> and D<sup>2</sup>u<sub>ρ</sub> (0) = Id.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup> For instance, this follows by differentiating both relations $\mathrm{D} _ {\tilde {z}} c _ {\rho} \big (\tilde {z}, \mathrm{T} _ {u _ {\rho}} (\tilde {z}) \big) = - \nabla u _ {\rho} (\tilde {z})$ and $\mathrm{D} _ {\tilde {w}} c _ {\rho} \big (\mathrm{T} _ {u _ {\rho} ^ {c _ {\rho}}} (\tilde {w}), \tilde {w} \big) = - \nabla u _ {\rho} ^ {c _ {\rho}} (\tilde {w})$ at 0, and using then (3.5) and the fact that $\nabla \mathrm{T} _ {u _ {\rho} ^ {c _ {\rho}}} (\mathbf {0}) = [ \nabla \mathrm{T} _ {u _ {\rho}} (\mathbf {0}) ] ^ {- 1}$ and $\mathrm{D} ^ {2} u _ {\rho} (\mathbf {0}) = \mathrm{Id}$.</span></small>
 
 Observe that both$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$are closed (since the c-subdifferential of a compact set is closed). Also, thanks to (3.9), by choosing$\rho$small enough we can ensure that$\mathrm { { B } } _ { 1 / 3 } \subset$ $\mathcal { C } _ { 2 } \subset \mathrm { B } _ { 3 }$. Finally, it follows from (2.6) that
 
@@ -334,9 +322,9 @@ $$
 
 Thus, thanks to (4.8), we get that for any$\beta < 1$the assumptions of Theorem 4.3 are satisfied, provided we choose$\rho$sufficiently small. Moreover, if in addition $c \in \mathrm { C } _ { \mathrm { l o c } } ^ { k + 2 , \alpha } ( \mathrm { X } \times \mathrm { Y } ) , f \in \mathrm { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathrm { X } )$, and$g \in \mathbf { C } _ { \mathrm { l o c } } ^ { k , \alpha } ( \mathrm { Y } )$, then also the assumptions of Theorem 5.3 are satisfied.
 
-Hence, by applying Theorem 4.3 (resp. Theorem 5.3) we deduce that$u _ { \rho } \in$ $\mathrm { C } ^ { 1 , \beta } ( \mathbf { B } _ { 1 / 7 } )$(resp.$u _ { \rho } \in \mathrm { C } ^ { k + 2 , \alpha } ( \mathbf { B } _ { 1 / 9 } ) \big )$, so going back to the original variables we get the existence of a neighborhood$\mathcal { U } _ { \bar { x } }$of x¯ such that$u \in \mathrm { C } ^ { 1 , \beta } ( \mathcal { U } _ { x } )$(resp.$u \in \mathrm { C } ^ { k + 2 , \alpha } ( \mathcal { U } _ { \bar { x } } ) \bar { ) }$. This implies in particular that$\mathrm { T } _ { u } \in \mathrm { C } ^ { 0 , \beta } ( \mathcal { U } _ { \bar { x } } )$(resp.$\mathrm { T } _ { u } \in \mathrm { C } ^ { k + 1 , \alpha } ( \mathcal { U } _ { \overline { { x } } } ) ;$). Moreover, it follows by Corollary 4.6 that$\mathrm { T } _ { u } ( { \mathcal { U } } _ { \overline { { x } } } )$contains a neighborhood ofy¯.
+Hence, by applying Theorem 4.3 (resp. Theorem 5.3) we deduce that$u _ { \rho } \in$ $\mathrm { C } ^ { 1 , \beta } ( \mathbf { B } _ { 1 / 7 } )$(resp.$u _ { \rho } \in \mathrm { C } ^ { k + 2 , \alpha } ( \mathbf { B } _ { 1 / 9 } ) \big )$, so going back to the original variables we get the existence of a neighborhood$\mathcal { U } _ { \bar { x } }$of x¯ such that$u \in \mathrm { C } ^ { 1 , \beta } ( \mathcal { U } _ { \bar { x } } )$(resp.$u \in \mathrm { C } ^ { k + 2 , \alpha } ( \mathcal { U } _ { \bar { x } } )$. This implies in particular that$\mathrm { T } _ { u } \in \mathrm { C } ^ { 0 , \beta } ( \mathcal { U } _ { \bar { x } } )$(resp.$\mathrm { T } _ { u } \in \mathrm { C } ^ { k + 1 , \alpha } ( \mathcal { U } _ { \overline { { x } } } ) ;$). Moreover, it follows by Corollary 4.6 that$\mathrm { T } _ { u } ( { \mathcal { U } } _ { \overline { { x } } } )$contains a neighborhood ofy¯.
 
-We now observe that, by symmetry, we can also apply Theorem 4.3 (resp. Theorem 5.3) to$u _ { \rho } ^ { c _ { \rho } }$. Hence, there exists a neighborhood$\mathcal { V } _ { \bar { y } }$ofy¯ such that$\mathrm { T } _ { u ^ { c } } \in \mathrm { C } ^ { 0 , \beta } ( \mathcal { V } _ { \overline { { y } } } )$. Since $\mathrm { T } _ { u }$and$\mathrm { T } _ { u ^ { c } }$are inverse to each other (see (3.2)) we deduce that, possibly reducing the size of$\mathcal { U } _ { \bar { x } } , ~ \mathrm { T } _ { u }$is a homeomorphism (resp. diffeomorphism) between$\mathcal { U } _ { \bar { x } }$and$\mathrm { T } _ { u } ( { \cal U } _ { x } )$. Let us consider the open sets
+We now observe that, by symmetry, we can also apply Theorem 4.3 (resp. Theorem 5.3) to$u _ { \rho } ^ { c _ { \rho } }$. Hence, there exists a neighborhood$\mathcal { V } _ { \bar { y } }$ofy¯ such that$\mathrm { T } _ { u ^ { c } } \in \mathrm { C } ^ { 0 , \beta } ( \mathcal { V } _ { \overline { { y } } } )$. Since $\mathrm { T } _ { u }$and$\mathrm { T } _ { u ^ { c } }$are inverse to each other (see (3.2)) we deduce that, possibly reducing the size of$\mathcal { U } _ { \bar { x } } , ~ \mathrm { T } _ { u }$is a homeomorphism (resp. diffeomorphism) between$\mathcal { U } _ { \bar { x } }$and$\mathrm { T } _ { u } ( { \cal U } _ { \bar { x } } )$. Let us consider the open sets
 
 $$
 \mathrm{X} ^ {\prime \prime} := \bigcup_ {\bar {x} \in \mathrm{X} ^ {\prime}} \mathcal {U} _ {\bar {x}}, \quad \mathrm{Y} ^ {\prime \prime} := \bigcup_ {\bar {x} \in \mathrm{X} ^ {\prime}} \mathrm{T} _ {u} (\mathcal {U} _ {\bar {x}}),
@@ -344,15 +332,15 @@ $$
 
 and define the (relatively) closed$\Sigma _ { \mathrm { X } } : = \mathrm { X } \setminus \mathrm { X } ^ { \prime \prime } , \Sigma _ { \mathrm { Y } } : = \mathrm { Y } \setminus \mathrm { Y } ^ { \prime \prime }$. Since$\mathrm { X } ^ { \prime \prime } \supset \mathrm { X } ^ { \prime } , \mathrm { X } ^ { \prime \prime }$is a set of full measure, so$| \Sigma _ { \mathrm { X } } | = 0$. In addition, since$\Sigma _ { \mathrm { Y } } = \mathrm { Y } \setminus \mathrm { Y ^ { \prime \prime } } \subset \mathrm { Y } \setminus \mathrm { T } _ { u } ( \mathrm { X ^ { \prime } } )$and$\mathrm { T } _ { u } ( \mathrm { X } ^ { \prime } )$ has full measure in Y, we also get that$| \Sigma _ { \mathrm { Y } } | = 0$
 
-Finally, since$\mathrm { T } _ { u } : \mathrm { X } \setminus \backslash \Sigma _ { \mathrm { X } }   \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a local homeomorphism (resp. diffeomorphism), by (3.2) it follows that$\mathrm { T } _ { u } : \mathrm { X } \setminus \backslash \Sigma _ { \mathrm { X } }   \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a global homeomorphism (resp. diffeomorphism), which concludes the proof.-
+Finally, since$\mathrm { T } _ { u } : \mathrm { X } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a local homeomorphism (resp. diffeomorphism), by (3.2) it follows that$\mathrm { T } _ { u } : \mathrm { X } \setminus \Sigma _ { \mathrm { X } } \to \mathrm { Y } \setminus \Sigma _ { \mathrm { Y } }$is a global homeomorphism (resp. diffeomorphism), which concludes the proof. □
 
-ProofofTheorem 1.4. — The only difference with respect to the situation in Theorem 1.3 is that now the cost function$c = d ^ { 2 } / 2$is not smooth on the whole$\mathbf { M } \times \mathbf { M }$ However, even if$d ^ { 2 } / 2$is not everywhere smooth and M is not necessarily compact, it is still true that the c-convex function u provided by Theorem 2.3 is locally semiconvex $( \mathrm { i . e . , }$, it is locally semiconvex when seen in any chart) [13, 17]. In addition, as shown in [9, Proposition 4.1] (see also [14, Section 3]), if u is twice differentiable at$x ,$then the point$\mathrm { T } _ { u } ( x )$is not in the cut-locus of x. Since the cut-locus is closed and$d ^ { 2 } / 2$is smooth outside the cut-locus, we deduce the existence of a set X of full measure such that, if$x _ { 0 } \in \mathrm { X }$, then: (1) u is twice differentiable at$x _ { 0 } ; ( 2 )$there exists a neighborhood $\mathcal { U } _ { x _ { 0 } } \times \mathcal { V } _ { \mathrm { T } _ { u } ( x _ { 0 } ) } \subset \mathrm { M } \times \mathrm { M }$of$( x _ { 0 } , \mathrm { T } _ { u } ( x _ { 0 } ) )$such that$c \in \mathrm { C } ^ { \infty } ( \mathcal { U } _ { x _ { 0 } } \times \mathcal { V } _ { \mathrm { T } _ { u } ( x _ { 0 } ) } )$. Hence, by taking a local chart around$( x _ { 0 } , \mathrm { T } _ { u } ( x _ { 0 } ) )$, the same proof as the one of Theorem 1.3 shows that$\mathrm { T } _ { u }$ is a local homeomorphism (resp. diffeomorphism) around almost every point. Using as before that$\mathrm { T } _ { u } : \mathrm { M } \to \mathrm { M }$is invertible$\mathrm { a . e . , }$it follows that$\mathrm { T } _ { u }$is a global homeomorphism (resp. diffeomorphism) outside a closed singular set of measure zero. We leave the details to the interested reader.-
+Proof of Theorem 1.4. — The only difference with respect to the situation in Theorem 1.3 is that now the cost function$c = d ^ { 2 } / 2$is not smooth on the whole$\mathbf { M } \times \mathbf { M }$ However, even if$d ^ { 2 } / 2$is not everywhere smooth and M is not necessarily compact, it is still true that the c-convex function u provided by Theorem 2.3 is locally semiconvex $( \mathrm { i . e . , }$, it is locally semiconvex when seen in any chart) [13, 17]. In addition, as shown in [9, Proposition 4.1] (see also [14, Section 3]), if u is twice differentiable at$x ,$then the point$\mathrm { T } _ { u } ( x )$is not in the cut-locus of x. Since the cut-locus is closed and$d ^ { 2 } / 2$is smooth outside the cut-locus, we deduce the existence of a set X of full measure such that, if$x _ { 0 } \in \mathrm { X }$, then: (1) u is twice differentiable at$x _ { 0 } ; ( 2 )$there exists a neighborhood $\mathcal { U } _ { x _ { 0 } } \times \mathcal { V } _ { \mathrm { T } _ { u } ( x _ { 0 } ) } \subset \mathrm { M } \times \mathrm { M }$of$( x _ { 0 } , \mathrm { T } _ { u } ( x _ { 0 } ) )$such that$c \in \mathrm { C } ^ { \infty } ( \mathcal { U } _ { x _ { 0 } } \times \mathcal { V } _ { \mathrm { T } _ { u } ( x _ { 0 } ) } )$. Hence, by taking a local chart around$( x _ { 0 } , \mathrm { T } _ { u } ( x _ { 0 } ) )$, the same proof as the one of Theorem 1.3 shows that$\mathrm { T } _ { u }$ is a local homeomorphism (resp. diffeomorphism) around almost every point. Using as before that$\mathrm { T } _ { u } : \mathrm { M } \to \mathrm { M }$is invertible$\mathrm { a . e . , }$it follows that$\mathrm { T } _ { u }$is a global homeomorphism (resp. diffeomorphism) outside a closed singular set of measure zero. We leave the details to the interested reader.
 
 ## 4.$\mathbf { C } ^ { 1 , \beta }$regularity and strict c-convexity
 
 In this and the next section we prove that, if in some open set a c-convex function u is sufficiently close to a parabola and the cost function is close to the linear one, then u is smooth in some smaller set.
 
-The idea of the proof (which is reminiscent of the argument introduced by Caffarelli in [6] to show$\mathrm { W } ^ { 2 , p }$and$\mathrm { C ^ { 2 , \alpha } }$estimates for the classical Monge-Ampère equation, though several additional complications arise in our case) is the following: since the cost function is close to the linear one and both densities are almost constant, u is close to a convex function v solving an optimal transport problem with linear cost and constant densities (Lemma 4.1). In addition, since u is close to a parabola, so is v. Hence, by [18] and Caffarelli’s regularity theory, v is smooth, and we can use this information to deduce that u is even closer to a second parabola (given by the second order Taylor expansion of v at the origin) inside a small neighborhood around of origin. By rescaling back this neighborhood at scale 1 and iterating this construction, we obtain that u is$\bar { \mathrm { C } } ^ { 1 , \beta }$at the origin for some$\beta \in ( 0 , 1 )$). Since this argument can be applied at every point in a neighborhood ofthe origin, we deduce that u is$\mathrm { C } ^ { 1 , \beta }$there, see Theorem 4.3. (A similar strategy has also been used in [7] to show regularity optimal transport maps for the cost$| x - y | ^ { p }$, either when$\boldsymbol { p }$is close to 2 or when X and Y are sufficiently far from each other.)
+The idea of the proof (which is reminiscent of the argument introduced by Caffarelli in [6] to show$\mathrm { W } ^ { 2 , p }$and$\mathrm { C ^ { 2 , \alpha } }$estimates for the classical Monge-Ampère equation, though several additional complications arise in our case) is the following: since the cost function is close to the linear one and both densities are almost constant, u is close to a convex function v solving an optimal transport problem with linear cost and constant densities (Lemma 4.1). In addition, since u is close to a parabola, so is v. Hence, by [18] and Caffarelli’s regularity theory, v is smooth, and we can use this information to deduce that u is even closer to a second parabola (given by the second order Taylor expansion of v at the origin) inside a small neighborhood around of origin. By rescaling back this neighborhood at scale 1 and iterating this construction, we obtain that u is$\mathrm { C } ^ { 1 , \beta }$at the origin for some$\beta \in ( 0 , 1 )$. Since this argument can be applied at every point in a neighborhood of the origin, we deduce that u is$\mathrm { C } ^ { 1 , \beta }$there, see Theorem 4.3. (A similar strategy has also been used in [7] to show regularity optimal transport maps for the cost$| x - y | ^ { p }$, either when$\boldsymbol { p }$is close to 2 or when X and Y are sufficiently far from each other.)
 
 Once this result is proved, we know that$\partial ^ { - } u$is a singleton at every point, so it follows from (2.6) that
 
@@ -360,17 +348,15 @@ $$
 \partial_ {c} u (x) = \mathrm{c} - \exp_ {x} \left(\partial^ {-} u (x)\right),
 $$
 
-see Remark 4.4 below. (The above identity is exactly what in general may fail for general c-convex functions, unless the MTW condition holds [31].) Thanks to this fact, we obtain that u enjoys a comparison principle (Proposition 5.2), and this allows us to use a second approximation argument with solutions of the classical Monge-Ampère equation (in the spirit of [6, 27]) to conclude that u is$\mathrm { C } ^ { 2 , \sigma ^ { \prime } }$in a smaller neighborhood, for some$\sigma ^ { \prime } > 0$ Then higher regularity follows from standard elliptic estimates, see Theorem 5.3.
+see Remark 4.4 below. (The above identity is exactly what in general may fail for general c-convex functions, unless the MTW condition holds [31].) Thanks to this fact, we obtain that u enjoys a comparison principle (Proposition 5.2), and this allows us to use a second approximation argument with solutions of the classical Monge-Ampère equation (in the spirit of [6, 27]) to conclude that u is$\mathrm { C } ^ { 2 , \sigma ^ { \prime } }$in a smaller neighborhood, for some $\sigma ^ { \prime } > 0$. Then higher regularity follows from standard elliptic estimates, see Theorem 5.3.
 
-(4.1)
-
-Lemma 4.1.$- L e t \mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$be two closed sets such that
+Lemma 4.1. — Let$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$be two closed sets such that
 
 $$
-\mathrm{B} _ {1 / \mathrm{K}} \subset \mathcal {C} _ {1}, \quad \mathcal {C} _ {2} \subset \mathrm{B} _ {\mathrm{K}}
+\mathrm{B} _ {1 / \mathrm{K}} \subset \mathcal {C} _ {1}, \quad \mathcal {C} _ {2} \subset \mathrm{B} _ {\mathrm{K}}\tag{4.1}
 $$
 
-for some$\mathrm { K } \geq 1 , f$and$g$two densities supported respectively in$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$, and$u : { \mathcal { C } } _ { 1 }  \mathbf { R }$a cconvex function such that$\partial _ { c } u ( \mathcal { C } _ { 1 } ) \subset \mathbf { B } _ { \mathrm { K } }$and$( \mathrm { T } _ { u } ) _ { \sharp } f = g .$. Let$\rho > 0$be such that$| \mathcal { C } _ { 1 } | = | \rho \mathcal { C } _ { 2 } |$ (where$\rho \mathcal { C } _ { 2 }$denotes the dilation$o f { \mathcal { C } } _ { 2 }$with respect to the origin), and let v be a convexfunction such that $\nabla v _ { \sharp } \mathbf { 1 } _ { { \mathcal { C } } _ { 1 } } = \mathbf { 1 } _ { \rho { \mathcal { C } } _ { 2 } }$and$v ( \mathbf { 0 } ) = u ( \mathbf { 0 } )$). Then there exists an increasingfunction ω :$\mathbf { R } ^ { + }  \mathbf { R } ^ { + }$, depending only K, and satisfying$\omega ( \delta ) \ge \delta$and$\omega ( 0 ^ { + } ) = 0$, such that, if
+for some$\mathrm { K } \geq 1 , f$and$g$two densities supported respectively in$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$, and$u : { \mathcal { C } } _ { 1 } \to \mathbf { R }$a cconvex function such that$\partial _ { c } u ( \mathcal { C } _ { 1 } ) \subset \mathbf { B } _ { \mathrm { K } }$and$( \mathrm { T } _ { u } ) _ { \sharp } f = g $. Let$\rho > 0$be such that$| \mathcal { C } _ { 1 } | = | \rho \mathcal { C } _ { 2 } |$ (where$\rho \mathcal { C } _ { 2 }$denotes the dilation of$\mathcal { C } _ { 2 }$with respect to the origin), and let v be a convex function such that $\nabla v _ { \sharp } \mathbf { 1 } _ { { \mathcal { C } } _ { 1 } } = \mathbf { 1 } _ { \rho { \mathcal { C } } _ { 2 } }$and$v ( \mathbf { 0 } ) = u ( \mathbf { 0 } )$. Then there exists an increasing function ω :$\mathbf { R } ^ { + } \to \mathbf { R } ^ { + }$, depending only K, and satisfying$\omega ( \delta ) \ge \delta$and$\omega ( 0 ^ { + } ) = 0$, such that, if
 
 $$
 \| f - \mathbf {1} _ {\mathcal {C} _ {1}} \| _ {\infty} + \| g - \mathbf {1} _ {\mathcal {C} _ {2}} \| _ {\infty} \leq \delta\tag{4.2}
@@ -394,7 +380,7 @@ $$
 u _ {h} (\mathbf {0}) = v _ {h} (\mathbf {0}) = 0 \quad \text { and } \quad \| u _ {h} - v _ {h} \| _ {\mathrm{C} ^ {0} (\mathrm{B} _ {1 / \mathrm{K}})} \geq \varepsilon_ {0},
 $$
 
-where$u _ { h }$and$v _ { h }$are as in the statement. First, we extend$u _ { h }$an$v _ { h }$to$\mathrm { B _ { K } }$as
+where$u _ { h }$and$v _ { h }$are as in the statement. First, we extend$u _ { h }$and$v _ { h }$to$\mathrm { B } _ { \mathrm { K } }$as
 
 $$
 u _ {h} (x) := \sup _ {z \in \mathcal {C} _ {1} ^ {h}, y \in \partial_ {c _ {h}} u _ {h} (z)} \left\{u _ {h} (z) - c _ {h} (x, y) + c _ {h} (z, y) \right\},
@@ -422,7 +408,7 @@ $$
 f _ {\infty} \geq \mathbf {1} _ {\mathrm{B} _ {1 / \mathrm{K}}}.
 $$
 
-In order to get a contradiction we have to show that$u _ { \infty } = v _ { \infty }$in$\mathbf { B } _ { \mathrm { l / K } }$. To see this, we apply [37, Theorem 5.20] to deduce that both$\nabla u _ { \infty }$and$\nabla \boldsymbol { v } _ { \infty }$are optimal transport maps for the linear cost$- x \cdot y$sending$f _ { \infty }$onto$g _ { \infty }$. By uniqueness of the optimal map (see Theorem 2.2) we deduce that$\nabla \boldsymbol { v } _ { \infty } = \nabla u _ { \infty }$almost everywhere inside$\mathbf { B } _ { 1 / \mathrm { K } } \subset \mathrm { s p t } f _ { \infty } ,$ hence$u _ { \infty } = v _ { \infty }$in$\bf { B } _ { \mathrm { { l / K } } }$(since$u _ { \infty } ( \mathbf { 0 } ) = v _ { \infty } ( \mathbf { 0 } ) = 0 )$, contradicting (4.4).-
+In order to get a contradiction we have to show that$u _ { \infty } = v _ { \infty }$in$\mathbf { B } _ { 1 / \mathrm { K } }$. To see this, we apply [37, Theorem 5.20] to deduce that both$\nabla u _ { \infty }$and$\nabla \boldsymbol { v } _ { \infty }$are optimal transport maps for the linear cost$- x \cdot y$sending$f _ { \infty }$onto$g _ { \infty }$. By uniqueness of the optimal map (see Theorem 2.2) we deduce that$\nabla \boldsymbol { v } _ { \infty } = \nabla u _ { \infty }$almost everywhere inside$\mathbf { B } _ { 1 / \mathrm { K } } \subset \mathrm { s p t } f _ { \infty } ,$ hence$u _ { \infty } = v _ { \infty }$in$\mathbf { B } _ { 1 / \mathrm { K } }$(since$u _ { \infty } ( \mathbf { 0 } ) = v _ { \infty } ( \mathbf { 0 } ) = 0 )$, contradicting (4.4). □
 
 Here and in the sequel, we use$\mathcal { N } _ { r } ( \mathrm { E } )$to denote the r-neighborhood of a set E.
 
@@ -450,7 +436,7 @@ $$
 \partial_ {c} u \big (\mathrm{E} (x _ {0}, h - \sqrt {\varepsilon}) \big) \subset \mathcal {N} _ {\mathrm{K} ^ {\prime} (\delta + \sqrt {h \varepsilon})} \big (\partial v \big (\mathrm{E} (x _ {0}, h) \big) \big) \quad \forall 0 <   \varepsilon <   h ^ {2} \leq 1,\tag{4.7}
 $$
 
-where K<sup></sup> depends only on K.
+where K′ depends only on K.
 
 Proof. — Up to a change of coordinates we can assume that$x _ { 0 } = \mathbf { 0 }$, and to simplify notation we set$\mathrm { E } _ { h } : = \mathrm { E } ( x _ { 0 } , h )$. Let us define
 
@@ -468,7 +454,7 @@ $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup> Even if v¯ is not c-convex, it still makes sense to consider his c-subdifferential (notice that the c-subdifferential of v¯ may be empty at some points). In particular, the inclusion still holds.</span></small>
 
-By (4.5) we see that diam$\mathrm { E } _ { h } \le 2 \sqrt { \mathrm { K } h } .$, so by a simple computation (using again (4.5)) we get
+By (4.5) we see that diam$\mathrm { E } _ { h } \le 2 \sqrt { \mathrm { K } h }$, so by a simple computation (using again (4.5)) we get
 
 $$
 \partial^ {-} \bar {v} (\mathrm{E} _ {h}) \subset \mathcal {N} _ {4 \mathrm{K} \sqrt {\mathrm{Kh} \varepsilon}} \bigl (\partial^ {-} v (\mathrm{E} _ {h}) \bigr).
@@ -488,16 +474,14 @@ $$
 \mathrm{B} _ {1 / 3} \subset \mathcal {C} _ {1}, \quad \mathcal {C} _ {2} \subset \mathrm{B} _ {3},
 $$
 
-let f , g be two densities supported in$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$respectively, and let$u : { \mathcal { C } } _ { 1 }  \mathbf { R }$be a c-convexfunction such that$\partial _ { c } u ( \mathcal { C } _ { 1 } ) \subset \mathbf { B } _ { 3 }$and$( \mathrm { T } _ { u } ) _ { \sharp } f = g$. Then,for every$\beta \in ( 0 , 1 )$there exist constants$\delta _ { \mathrm { 0 } } , \eta _ { \mathrm { 0 } } > 0$ such that thefollowing holds:$i f$
-
-(4.8)
+let f , g be two densities supported in$\mathcal { C } _ { 1 }$and$\mathcal { C } _ { 2 }$respectively, and let$u : { \mathcal { C } } _ { 1 } \to \mathbf { R }$be a c-convex function such that$\partial _ { c } u ( \mathcal { C } _ { 1 } ) \subset \mathbf { B } _ { 3 }$and$( \mathrm { T } _ { u } ) _ { \sharp } f = g$. Then, for every$\beta \in ( 0 , 1 )$there exist constants$\delta _ { \mathrm { 0 } } , \eta _ { \mathrm { 0 } } > 0$ such that the following holds:$i f$
 
 $$
-\| f - \mathbf {1} _ {\mathcal {C} _ {1}} \| _ {\infty} + \| g - \mathbf {1} _ {\mathcal {C} _ {2}} \| _ {\infty} \leq \delta_ {0},\tag{4.9}
+\| f - \mathbf {1} _ {\mathcal {C} _ {1}} \| _ {\infty} + \| g - \mathbf {1} _ {\mathcal {C} _ {2}} \| _ {\infty} \leq \delta_ {0},\tag{4.8}
 $$
 
 $$
-\left\| c (x, y) + x \cdot y \right\| _ {\mathrm{C} ^ {2} \left(\mathrm{B} _ {3} \times \mathrm{B} _ {3}\right)} \leq \delta_ {0},
+\left\| c (x, y) + x \cdot y \right\| _ {\mathrm{C} ^ {2} \left(\mathrm{B} _ {3} \times \mathrm{B} _ {3}\right)} \leq \delta_ {0},\tag{4.9}
 $$
 
 and
@@ -510,7 +494,7 @@ then$u \in \mathrm { C } ^ { 1 , \beta } ( \mathbf { B } _ { 1 / 7 } )$
 
 Proof. — We divide the proof into several steps.
 
-• Step 1: u is close to a strictly convex solution ofthe Monge Ampère equation.
+• Step 1: u is close to a strictly convex solution of the Monge Ampère equation.
 
 Let$v : \mathbf { R } ^ { n } \to \mathbf { R }$be a convex function such that$\nabla v _ { \sharp } \mathbf { 1 } _ { \mathcal { C } _ { 1 } } = \mathbf { 1 } _ { \rho \mathcal { C } _ { 2 } }$with$\rho = ( | \mathcal { C } _ { 1 } | / | \mathcal { C } _ { 2 } | ) ^ { 1 / n }$(see Theorem 2.2). Up to adding a constant to$v ,$without loss of generality we can assume that$v ( \mathbf { 0 } ) = u ( \mathbf { 0 } )$. Hence, we can apply Lemma 4.1 to obtain
 
@@ -518,13 +502,13 @@ $$
 \| v - u \| _ {\mathrm{C} ^ {0} \left(\mathrm{B} _ {1 / 3}\right)} \leq \omega \left(\delta_ {0}\right)\tag{4.11}
 $$
 
-for some (universal) modulus of continuity$\omega : \mathbf { R } ^ { + }  \mathbf { R } ^ { + }$, which combined with (4.10) gives
+for some (universal) modulus of continuity$\omega : \mathbf { R } ^ { + } \to \mathbf { R } ^ { + }$, which combined with (4.10) gives
 
 $$
 \left\| v - \frac {1}{2} | x | ^ {2} \right\| _ {\mathrm{C} ^ {0} (\mathrm{B} _ {1 / 3})} \leq \eta_ {0} + \omega (\delta_ {0}).
 $$
 
-Also, since$\textstyle { \int _ { { \mathcal { C } } _ { 1 } } f = \int _ { { \mathcal { C } } _ { 9 } } g } .$, it follows easily from (4.8) that$| \rho - 1 | \leq 3 \delta _ { 0 }$. By these two facts we get that$\partial ^ { - } v ( \mathrm { B } _ { 1 / 4 } ) \subset \mathrm { B } _ { 7 / 2 4 } \subset \rho \mathcal { C } _ { 2 }$provided$\delta _ { 0 }$and$\eta _ { 0 }$are small enough (recall that v is convex and that$\mathbf { B } _ { 1 / 3 } \subset \mathcal { C } _ { 2 } )$, so we can apply [18, Proposition 3.4] to deduce that v is a strictly convex Alexandrov solution to the Monge-Ampère equation
+Also, since$\int _ { \mathcal { C } _ { 1 } } f = \int _ { \mathcal { C } _ { 2 } } g$, it follows easily from (4.8) that$| \rho - 1 | \leq 3 \delta _ { 0 }$. By these two facts we get that$\partial ^ { - } v ( \mathrm { B } _ { 1 / 4 } ) \subset \mathrm { B } _ { 7 / 2 4 } \subset \rho \mathcal { C } _ { 2 }$provided$\delta _ { 0 }$and$\eta _ { 0 }$are small enough (recall that v is convex and that$\mathbf { B } _ { 1 / 3 } \subset \mathcal { C } _ { 2 } )$, so we can apply [18, Proposition 3.4] to deduce that v is a strictly convex Alexandrov solution to the Monge-Ampère equation
 
 $$
 \det \mathrm{D} ^ {2} v = 1 \quad \text { in } \mathrm{B} _ {1 / 4}.\tag{4.12}
@@ -590,7 +574,7 @@ $$
 
 provided$\mathrm { K } _ { 1 } > 0$is sufficiently large. This proves the first inclusion, and the second is analogous.
 
-• Step 3: Both the sections ofu and their images are close to ellipsoids with controlled eccentricity, and u is close to a smoothfunction near$x _ { 0 }$
+• Step 3: Both the sections ofu and their images are close to ellipsoids with controlled eccentricity, and u is close to a smooth function near$x _ { 0 }$
 
 We claim that there exists a universal constant$\mathrm { K _ { 2 } } \geq 1$such that the following holds: For every$\eta _ { 0 } > 0$small, there exist small positive constants$h _ { 0 } = h _ { 0 } ( \eta _ { 0 } )$and$\delta _ { 0 } = \delta _ { 0 } ( h _ { 0 } , \eta _ { 0 } )$ such that, for all$x _ { 0 } \in \mathrm { B } _ { 1 / 7 }$, there is a symmetric matrix A satisfying
 
@@ -607,10 +591,10 @@ $$
 Moreover
 
 $$
-\left\| u - \mathrm{C} _ {x _ {0}, y _ {0}} - \frac {1}{2} \left| \mathrm{A} ^ {- 1} (x - x _ {0}) \right| ^ {2} \right\| _ {\mathrm{C} ^ {0} (\mathrm{A} (\mathrm{B} \sqrt {8 h _ {0}} (x _ {0})))} \leq \eta_ {0} h _ {0},\tag{4.20}
+\left\| u - \mathrm{C} _ {x _ {0}, y _ {0}} - \frac {1}{2} \left| \mathrm{A} ^ {- 1} (x - x _ {0}) \right| ^ {2} \right\| _ {\mathrm{C} ^ {0} (\mathrm{A} (\mathrm{B} _ {\sqrt {8 h _ {0}}} (x _ {0})))} \leq \eta_ {0} h _ {0},\tag{4.20}
 $$
 
-where$\mathrm { C } _ { x _ { 0 } y _ { 0 } }$is a c-support function for u at$x _ { 0 } .$, see (2.3).
+where$\mathrm { C } _ { x _ { 0 } y _ { 0 } }$is a c-support function for u at$x _ { 0 }$, see (2.3).
 
 In order to prove the claim, take$h _ { 0 } \ll \bar { h }$small (to be fixed) and$\delta _ { 0 } \ll h _ { 0 }$such that $\mathrm { K } _ { 1 } \sqrt { \omega ( \delta _ { 0 } ) } \le h _ { 0 } / 2$, where$\mathrm { K } _ { 1 }$is as in Step 2, so that
 
@@ -736,9 +720,9 @@ $$
 
 where the last inequality follows by choosing first$h _ { 0 }$sufficiently small, and then$\delta _ { 0 }$much smaller than$h _ { 0 }$
 
-## • Step 4: Afirst change ofvariables.
+## • Step 4: A first change of variables.
 
-Fix$x _ { 0 } \in \mathbf { B } _ { 1 / 7 } , y _ { 0 } \in \partial _ { c } u ( x _ { 0 } )$, define$\mathrm { M } : = - \mathrm { D } _ { x y } c ( x _ { 0 } , y _ { 0 } )$, and consider the change ofvariables
+Fix$x _ { 0 } \in \mathbf { B } _ { 1 / 7 } , y _ { 0 } \in \partial _ { c } u ( x _ { 0 } )$, define$\mathrm { M } : = - \mathrm { D } _ { x y } c ( x _ { 0 } , y _ { 0 } )$, and consider the change of variables
 
 $$
 \left\{ \begin{array}{l} \bar {x} := x - x _ {0} \\ \bar {y} := \mathrm{M} ^ {- 1} (y - y _ {0}). \end{array} \right.
@@ -771,16 +755,16 @@ $$
 Thus, recalling (4.19), and using (4.33) and (4.35), for$\delta _ { 0 }$sufficiently small we obtain
 
 $$
-\begin{array}{l} \mathrm{A} (\mathrm{B} _ {\sqrt {h _ {0} / 9}}) \subset \mathrm{S} (\mathbf {0}, \mathbf {0}, \bar {u}, h _ {0}) \subset \mathrm{A} (\mathrm{B} _ {\sqrt {9 h _ {0}}}), \\ \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {h _ {0} / 9}}) \subset \mathrm{M} ^ {- 1} \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {h _ {0} / 8}}) \subset \partial_ {\bar {c}} \bar {u} \big (\mathrm{S} (\mathbf {0}, \mathbf {0}, \bar {u}, h _ {0}) \big) \subset \mathrm{M} ^ {- 1} \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {8 h _ {0}}}) \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qend{array}\tag{4.36}
+\begin{array}{l} \mathrm{A} (\mathrm{B} _ {\sqrt {h _ {0} / 9}}) \subset \mathrm{S} (\mathbf {0}, \mathbf {0}, \bar {u}, h _ {0}) \subset \mathrm{A} (\mathrm{B} _ {\sqrt {9 h _ {0}}}), \\ \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {h _ {0} / 9}}) \subset \mathrm{M} ^ {- 1} \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {h _ {0} / 8}}) \subset \partial_ {\bar {c}} \bar {u} \big (\mathrm{S} (\mathbf {0}, \mathbf {0}, \bar {u}, h _ {0}) \big) \subset \mathrm{M} ^ {- 1} \mathrm{A} ^ {- 1} (\mathrm{B} _ {\sqrt {8 h _ {0}}}) \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \\ \end{array}\tag{4.36}
 $$
 
-Since$( \mathrm { T } _ { u } ) _ { \sharp } f = g _ { \sharp }$, it follows that$\mathrm { T } _ { \bar { u } } = \bar { \mathrm { c } } \mathrm { - e x p } ( \nabla \bar { u } )$satisfies
+Since$( \mathrm { T } _ { u } ) _ { \sharp } f = g$, it follows that$\mathrm { T } _ { \bar { u } } = \bar { \mathrm { c } } \mathrm { - e x p } ( \nabla \bar { u } )$satisfies
 
 $$
 (\mathrm{T} _ {\bar {u}}) _ {\sharp} \bar {f} = \bar {g}, \quad \text {with} \bar {f} (\bar {x}) := f (\bar {x} + x _ {0}), \bar {g} (\bar {y}) := \det (\mathrm{M}) g (\mathrm{M} \bar {y} + y _ {0})
 $$
 
-(see for instance the footnote in the proof of Theorem 1.3). Notice that, since$| \mathrm { M } - \mathrm { I d } | \leq$ $\delta _ { 0 } ( \mathrm { b y } ( { \bf 4 . 9 } ) )$, we have$| \mathrm { d e t ( M ) } - 1 | \leq ( 1 + 2 n ) \delta _ { 0 }$(for$\delta _ { 0 }$small), so by (4.8) we get
+(see for instance the footnote in the proof of Theorem 1.3). Notice that, since$| \mathrm { M } - \mathrm { I d } | \leq$ $\delta _ { 0 }$ (by (4.9)), we have$| \det ( \mathrm { M } ) - 1 | \leq ( 1 + 2 n ) \delta _ { 0 }$(for$\delta _ { 0 }$small), so by (4.8) we get
 
 $$
 \| \bar {f} - \mathbf {1} _ {\mathcal {C} _ {1} - x _ {0}} \| _ {\infty} + \| \bar {g} - \mathbf {1} _ {\mathrm{M} ^ {- 1} (\mathcal {C} _ {2} - y _ {0})} \| _ {\infty} \leq 2 (1 + n) \delta_ {0}.\tag{4.37}
@@ -814,7 +798,7 @@ $$
 f _ {1} (\tilde {x}) := \bar {f} \left(\sqrt {h _ {0}} \mathrm{A} \tilde {x}\right), \quad g _ {1} (\tilde {y}) := \bar {g} \left(\sqrt {h _ {0}} \mathrm{A} ^ {- 1} \tilde {y}\right).
 $$
 
-Since de$\mathrm { { t } } ( \mathrm { { A } } ) = 1$(see (4.18)), it is easy to check that$( \mathrm { T } _ { u _ { 1 } } ) _ { \sharp } f _ { 1 } = g _ { 1 }$(see the footnote in the proof of Theorem 1.3). Also, since$( \| \mathrm { A } \| + \| \mathrm { A } ^ { - 1 } \| ) \sqrt { h _ { 0 } } \ll 1$, it follows from (4.37) that
+Since $\det ( \mathrm { A } ) = 1$ (see (4.18)), it is easy to check that$( \mathrm { T } _ { u _ { 1 } } ) _ { \sharp } f _ { 1 } = g _ { 1 }$(see the footnote in the proof of Theorem 1.3). Also, since$( \| \mathrm { A } \| + \| \mathrm { A } ^ { - 1 } \| ) \sqrt { h _ { 0 } } \ll 1$, it follows from (4.37) that
 
 $$
 \left| f _ {1} - 1 \right| + \left| g _ {1} - 1 \right| \leq 2 (1 + n) \delta_ {0} \quad \text { inside } B _ {3}.\tag{4.39}
@@ -865,7 +849,7 @@ $$
 $$
 
 $$
-\left\| u _ {1} - \frac {1}{2} \big | \mathrm{A} _ {1} ^ {- 1} \tilde {x} \big | ^ {2} \right\| _ {\mathrm{C} ^ {0} (\mathrm{A} _ {1} (\mathrm{B} (0, \sqrt {8 h _ {0}}))} \leq \eta_ {0} h _ {0}.
+\left\| u _ {1} - \frac {1}{2} \big | \mathrm{A} _ {1} ^ {- 1} \tilde {x} \big | ^ {2} \right\| _ {\mathrm{C} ^ {0} (\mathrm{A} _ {1} (\mathrm{B} (0, \sqrt {8 h _ {0}})))} \leq \eta_ {0} h _ {0}.
 $$
 
 (Here$\mathrm { K _ { 2 } }$and$h _ { 0 }$are as in Step 3.)
@@ -882,7 +866,7 @@ $$
 f _ {2} (\tilde {x}) := f _ {1} \left(\sqrt {h _ {0}} \mathrm{A} _ {1} \tilde {x}\right), \quad g _ {2} (\tilde {y}) := \bar {g} \left(\sqrt {h _ {0}} \mathrm{A} _ {1} ^ {- 1} \tilde {y}\right).
 $$
 
-Arguing as before, it is easy to check that$u _ { 2 } , c _ { 2 } , f _ { 2 } , g _ { 2 }$satisfy the same assumptions as$u _ { 1 }$ $c _ { 1 } , f _ { 1 } , g _ { 1 }$with exactly the same constants.
+Arguing as before, it is easy to check that$u _ { 2 } , c _ { 2 } , f _ { 2 } , g _ { 2 }$satisfy the same assumptions as $u _ { 1 } , c _ { 1 } , f _ { 1 } , g _ { 1 }$ with exactly the same constants.
 
 So we can keep iterating this construction, defining for any$k \in \mathbf { N }$
 
@@ -908,7 +892,7 @@ $$
 \mathrm{M} _ {k} \left(\mathrm{B} _ {\left(h _ {0} / 8\right) ^ {k / 2}}\right) \subset \mathrm{S} \left(\mathbf {0}, \mathbf {0}, u _ {k}, h _ {0} ^ {k}\right) \subset \mathrm{M} _ {k} \left(\mathrm{B} _ {\left(8 h _ {0}\right) ^ {k / 2}}\right).\tag{4.42}
 $$
 
-• Step$\delta \colon \mathrm { C } ^ { 1 , \beta }$regularity.
+• Step 6: $\mathrm { C } ^ { 1 , \beta }$ regularity.
 
 We now show that, for any$\beta \in ( 0 , 1 )$, we can choose$h _ { 0 }$and$\delta _ { 0 } = \delta _ { 0 } ( h _ { 0 } )$small enough so that$u _ { 1 }$is$\mathrm { C } ^ { 1 , \beta }$at the origin (here$u _ { 1 }$is the function constructed in the previous step).
 
@@ -926,7 +910,7 @@ $$
 \| u _ {1} \| _ {\mathrm{C} ^ {0} (\mathrm{B} _ {r _ {0} ^ {k}})} \leq h _ {0} ^ {k} = \left(\sqrt {8} \mathrm{K} _ {2} r _ {0}\right) ^ {2 k} \leq r _ {0} ^ {(1 + \beta) k},
 $$
 
-provided$h _ { 0 }$(and so$r _ { 0 } )$is sufficiently small. This implies the$\mathrm { C } ^ { 1 , \beta }$regularity of$u _ { 1 }$at$\mathbf { 0 } ,$ concluding the proof.-
+provided$h _ { 0 }$(and so$r _ { 0 } )$is sufficiently small. This implies the$\mathrm { C } ^ { 1 , \beta }$regularity of$u _ { 1 }$at$\mathbf { 0 } ,$ concluding the proof. □
 
 Remark 4.4 (Local to global principle). — If u is differentiable at x and c satisfies (C0)– (C1), then every “local support” at x is also a “global c-support” at$x ,$that is,$\partial _ { c } u ( x ) =$ $\mathrm { c } { \cdot } \mathrm { e x p } _ { x } ( \partial ^ { - } u ( x ) )$. To see this, just notice that
 
@@ -936,7 +920,7 @@ $$
 
 (recall (2.6)), so necessarily the two sets have to coincide.
 
-Corollary 4.5. — Let u be as in Theorem 4.3. Then u is strictly c-convex in$\mathrm { B } _ { 1 / 7 }$. More precisely, for every$\gamma > 2$there exist$\eta _ { 0 } , \delta _ { 0 } > 0$depending only on$\gamma$such that, if the hypotheses of Theorem 4.3 are satisfied, then,for all$x _ { 0 } \in { \bf B } _ { 1 / 7 } , y _ { 0 } \in \partial _ { c } u ( x _ { 0 } )$, and$\mathrm { C } _ { x _ { 0 } , y _ { 0 } }$as in (2.3), we have
+Corollary 4.5. — Let u be as in Theorem 4.3. Then u is strictly c-convex in$\mathrm { B } _ { 1 / 7 }$. More precisely, for every$\gamma > 2$there exist$\eta _ { 0 } , \delta _ { 0 } > 0$depending only on$\gamma$such that, if the hypotheses of Theorem 4.3 are satisfied, then, for all$x _ { 0 } \in { \bf B } _ { 1 / 7 } , y _ { 0 } \in \partial _ { c } u ( x _ { 0 } )$, and$\mathrm { C } _ { x _ { 0 } , y _ { 0 } }$as in (2.3), we have
 
 $$
 \inf _ {\partial \mathrm{B} _ {r} (x _ {0})} \left\{u - \mathrm{C} _ {x _ {0}, y _ {0}} \right\} \geq c _ {0} r ^ {\gamma} \quad \forall r \leq \operatorname{dist} (x _ {0}, \partial \mathrm{B} _ {1 / 7}),\tag{4.44}
@@ -962,7 +946,7 @@ A simple consequence of the above results is the following:
 
 Corollary 4.6. — Let u be as in Theorem 4.3, then$\mathrm { T } _ { u } ( \mathbf { B } _ { 1 / 7 } )$is open.
 
-Proof. — Since$u \in \mathrm { C } ^ { 1 , \beta } ( \mathbf { B } _ { 1 / 7 } )$we have that$\mathrm { T } _ { u } ( \mathrm { B } _ { 1 / 7 } ) = \partial _ { c } u ( \mathrm { B } _ { 1 / 7 } )$(see Remark 4.4). We claim that it is enough to show that$\mathrm { i f } \ y _ { 0 } \in \partial _ { c } u ( { \bf B } _ { 1 / 7 } )$, then there exists$\varepsilon = \varepsilon ( y _ { 0 } ) > 0$ small such that, for all$\vert y - y _ { 0 } \vert < \varepsilon .$, the function$u ( \cdot ) + c ( \cdot , y )$has a local minimum at some point$\bar { x } \in \mathrm { B } _ { 1 / 7 }$. Indeed, if this is the case, then
+Proof. — Since$u \in \mathrm { C } ^ { 1 , \beta } ( \mathbf { B } _ { 1 / 7 } )$we have that$\mathrm { T } _ { u } ( \mathrm { B } _ { 1 / 7 } ) = \partial _ { c } u ( \mathrm { B } _ { 1 / 7 } )$(see Remark 4.4). We claim that it is enough to show that$\mathrm { i f } \ y _ { 0 } \in \partial _ { c } u ( { \bf B } _ { 1 / 7 } )$, then there exists$\varepsilon = \varepsilon ( y _ { 0 } ) > 0$ small such that, for all$\vert y - y _ { 0 } \vert < \varepsilon $, the function$u ( \cdot ) + c ( \cdot , y )$has a local minimum at some point$\bar { x } \in \mathrm { B } _ { 1 / 7 }$. Indeed, if this is the case, then
 
 $$
 \nabla u (\bar {x}) = - \mathrm{D} _ {x} c (\bar {x}, y),
@@ -979,7 +963,7 @@ $$
 Since, by (4.44),
 
 $$
-\begin{array}{c} \min _ {x \in \partial \mathrm{B} _ {r} (x _ {0})} \bigl \{u (x) + c (x, y) \bigr \} \geq \min _ {x \in \partial \mathrm{B} _ {r} (x _ {0})} \bigl \{u (x) + c (x, y _ {0}) \bigr \} - \varepsilon \| c \| _ {\mathrm{C} ^ {1}} \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qend{array}
+\begin{array}{c} \min _ {x \in \partial \mathrm{B} _ {r} (x _ {0})} \bigl \{u (x) + c (x, y) \bigr \} \geq \min _ {x \in \partial \mathrm{B} _ {r} (x _ {0})} \bigl \{u (x) + c (x, y _ {0}) \bigr \} - \varepsilon \| c \| _ {\mathrm{C} ^ {1}} \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \\ \end{array}
 $$
 
 while
@@ -988,13 +972,13 @@ $$
 u (x _ {0}) + c (x _ {0}, y) \leq c (x _ {0}, y _ {0}) + u (x _ {0}) + \varepsilon \| c \| _ {\mathrm{C} ^ {1}},
 $$
 
-choosing$\begin{array} { r } { \varepsilon < \frac { c _ { 0 } } { 2 \| c \| _ { C ^ { 1 } } } r ^ { \gamma } } \end{array}$we obtain that$\bar { x } \in \mathbf { B } _ { r } ( x _ { 0 } ) \subset \mathbf { B } _ { 1 / 7 }$. This implies that$\bar { x }$is a local minimum for$u ( \cdot ) + c ( \cdot , y )$C, concluding the proof.-
+choosing$\begin{array} { r } { \varepsilon < \frac { c _ { 0 } } { 2 \| c \| _ { C ^ { 1 } } } r ^ { \gamma } } \end{array}$we obtain that$\bar { x } \in \mathbf { B } _ { r } ( x _ { 0 } ) \subset \mathbf { B } _ { 1 / 7 }$. This implies that$\bar { x }$is a local minimum for$u ( \cdot ) + c ( \cdot , y )$, concluding the proof. □
 
 ## 5. Comparison principle and$\mathbf { C } ^ { 2 , \alpha }$regularity
 
 We begin this section with a change of variable formula for the c-exponential map.
 
-Lemma 5.1. — Let Ω be an open set,$v \in \mathrm { C } ^ { 2 } ( \varOmega )$, and assume that$\nabla \boldsymbol { v } ( \boldsymbol { \mathcal { Q } } ) \subset$Domc- exp and that
+Lemma 5.1. — Let Ω be an open set,$v \in \mathrm { C } ^ { 2 } ( \varOmega )$, and assume that$\nabla v ( \mathit { \Omega } ) \subset$ Dom c-exp and that
 
 $$
 \mathrm{D} ^ {2} v (x) + \mathrm{D} _ {x x} c \left(x, \mathrm{c} - \exp_ {x} (\nabla v (x))\right) \geq 0 \quad \forall x \in \Omega .
@@ -1006,7 +990,7 @@ $$
 \left| \mathrm{c} - \exp (\nabla v (\mathrm{A})) \right| \leq \int_ {\mathrm{A}} \frac {\det (\mathrm{D} ^ {2} v (x) + \mathrm{D} _ {x x} c (x , \mathrm{c} - \exp_ {x} (\nabla v (x))))}{| \det (\mathrm{D} _ {x y} c (x , \mathrm{c} - \exp_ {x} (\nabla v (x)))) |} d x.
 $$
 
-In addition, if the map$x \mapsto \mathbf { c } \ – \exp _ { x } ( \nabla v ( x ) )$is injective, then equality holds.
+In addition, if the map$x \mapsto \mathrm { c } - \exp _ { x } ( \nabla v ( x ) )$is injective, then equality holds.
 
 Proof. — The result follows from a direct application of the Area Formula [12, Section 3.3.2, Theorem 1] once one notices that, differentiating the identity
 
@@ -1024,7 +1008,7 @@ In the next proposition we show a comparison principle between$\mathrm { C ^ { 1
 
 Here and in the sequel, we use co[E] to denote the convex hull of a set E. Also, recall that$\mathcal { N } _ { r } ( \mathrm { E } )$denotes the r-neighborhood of E.
 
-Proposition 5.2 (Comparison principle). — Let u be a c-convexfunction ofclass$\mathrm { C } ^ { 1 }$inside the set$\mathrm { S } : = \{ u < 1 \}$, and assume that$u ( \mathbf { 0 } ) = 0 , \mathbf { B } _ { \mathrm { 1 / K } } \subset \mathbf { S } \subset \mathbf { B } _ { \mathrm { K } }$, and that$\nabla u ( \mathrm { S } ) \Subset$Dom- exp. Let $f , g$be two densities such that
+Proposition 5.2 (Comparison principle). — Let u be a c-convex function of class$\mathrm { C } ^ { 1 }$inside the set$\mathrm { S } : = \{ u < 1 \}$, and assume that$u ( \mathbf { 0 } ) = 0 , \mathbf { B } _ { \mathrm { 1 / K } } \subset \mathbf { S } \subset \mathbf { B } _ { \mathrm { K } }$, and that$\nabla u ( \mathrm { S } ) \Subset$ Dom c-exp. Let $f , g$be two densities such that
 
 $$
 \| f / \lambda_ {1} - 1 \| _ {\mathrm{C} ^ {0} (\mathrm{S})} + \| g / \lambda_ {2} - 1 \| _ {\mathrm{C} ^ {0} (\mathrm{T} _ {u} (\mathrm{S}))} \leq \varepsilon\tag{5.1}
@@ -1036,7 +1020,7 @@ $$
 \| c + x \cdot y \| _ {\mathrm{C} ^ {2} (\mathrm{B} _ {\mathrm{K}} \times \mathrm{B} _ {\mathrm{K}})} \leq \delta .\tag{5.2}
 $$
 
-Then there exist a universal constant$\gamma \in ( 0 , 1 )$, and$\delta _ { 1 } = \delta _ { 1 } ( \mathrm { K } ) > 0$small, such that thefollowing holds: Let v be the solution of
+Then there exist a universal constant$\gamma \in ( 0 , 1 )$, and$\delta _ { 1 } = \delta _ { 1 } ( \mathrm { K } ) > 0$small, such that the following holds: Let v be the solution of
 
 $$
 \left\{ \begin{array}{l l} \det (\mathrm{D} ^ {2} v) = \lambda_ {1} / \lambda_ {2} & i n   \mathcal {N} _ {\delta^ {\gamma}} (\operatorname{co} [ \mathrm{S} ]), \\ v = 1 & o n   \partial (\mathcal {N} _ {\delta^ {\gamma}} (\operatorname{co} [ \mathrm{S} ])). \end{array} \right.
@@ -1048,11 +1032,9 @@ $$
 \| u - v \| _ {\mathrm{C} ^ {0} (\mathrm{S})} \leq \mathrm{C} _ {\mathrm{K}} \left(\varepsilon + \delta^ {\gamma / n}\right) \quad p r o v i d e d \delta \leq \delta_ {1},\tag{5.3}
 $$
 
-where$\mathrm { C } _ { \mathrm { K } }$is a constant independent of$\lambda _ { 1 } , \lambda _ { 2 } , \varepsilon _ { \mathrm { { ; } } }$, and δ (but which depends on$\mathrm { K } )$.
+where$\mathrm { C } _ { \mathrm { K } }$is a constant independent of$\lambda _ { 1 } , \lambda _ { 2 } , $\varepsilon$, and δ (but which depends on$\mathrm { K } )$.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">c(x,y) = |x − y|<sup>p</sup></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup> A similar result for the case appeared in [7, Theorem 6.2]. Here, however, we have to deal with some additional difficulties due to the fact that the c-exponential map is not necessarily defined on the whole R<sup>n</sup>.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup> A similar result for the case c(x,y) = |x − y|<sup>p</sup> appeared in [7, Theorem 6.2]. Here, however, we have to deal with some additional difficulties due to the fact that the c-exponential map is not necessarily defined on the whole R<sup>n</sup>.</span></small>
 
 Proof. — First of all we observe that, since$u ( \mathbf { 0 } ) = 0 , u = 1 { \mathrm { ~ o n ~ } } \partial \mathrm { S , ~ S \subset B _ { K } }$, and $\| c + x \cdot y \| _ { \mathrm { C ^ { 2 } ( B _ { K } ) } } \le \delta \ll 1$, it is easy to check that there exists a universal constant$a _ { 1 } > 0$ such that
 
@@ -1060,7 +1042,7 @@ $$
 \left| \mathrm{D} _ {x} c (x, y) \right| \geq a _ {1} \quad \forall x \in \partial \mathrm{S}, y = \mathrm{c} - \exp_ {x} (\nabla u (x)).\tag{5.4}
 $$
 
-Thanks to (5.4) and$( 5 . 2 ) ,$it follows from the Implicit Function Theorem that, for each $x \in \partial \mathrm { S }$, the boundary of the set
+Thanks to (5.4) and (5.2), it follows from the Implicit Function Theorem that, for each $x \in \partial \mathrm { S }$, the boundary of the set
 
 $$
 \mathrm{E} _ {x} := \left\{z \in \mathrm{B} _ {\mathrm{K}}: c (z, y) - c (x, y) + u (x) \leq 1 \right\}
@@ -1075,10 +1057,10 @@ $$
 it follows that
 
 $$
-\mathrm{Sis} (\mathrm{C} _ {\mathrm{K}} \delta) \text {-semiconvexset},
+\mathrm{S} \text { is a } ( \mathrm{C} _ {\mathrm{K}} \delta ) \text {-semiconvex set},
 $$
 
-that is, for any couple of points$x _ { 0 } , x _ { 1 } \in \mathrm { S }$the ball centered at$x _ { 1 / 2 } : = ( x _ { 0 } + x _ { 1 } ) / 2$of radius $\mathrm { C } _ { \mathrm { K } } \delta | x _ { 1 } - x _ { 0 } | ^ { 2 }$intersects S. Since$\mathrm { ~ S ~ C ~ B _ { K } ~ }$, this implies that co$[ \mathrm { S } ] \subset \mathcal { N } _ { \mathrm { C } _ { \mathrm { K } } ^ { \prime } \delta } ( \mathrm { S } )$for some positive constant$\mathrm { C _ { K } ^ { \prime } }$depending only on K. Thus, for any$\gamma \in ( 0 , 1 )$we obtain
+that is, for any couple of points$x _ { 0 } , x _ { 1 } \in \mathrm { S }$the ball centered at$x _ { 1 / 2 } : = ( x _ { 0 } + x _ { 1 } ) / 2$of radius $\mathrm { C } _ { \mathrm { K } } \delta | x _ { 1 } - x _ { 0 } | ^ { 2 }$intersects S. Since$\mathrm { S } \subset \mathrm { B } _ { \mathrm { K } }$, this implies that co$[ \mathrm { S } ] \subset \mathcal { N } _ { \mathrm { C } _ { \mathrm { K } } ^ { \prime } \delta } ( \mathrm { S } )$for some positive constant$\mathrm { C _ { K } ^ { \prime } }$depending only on K. Thus, for any$\gamma \in ( 0 , 1 )$we obtain
 
 $$
 \mathcal {N} _ {\delta^ {\gamma}} \left(\operatorname{co} [ S ]\right) \subset \mathcal {N} _ {(1 + C _ {K} ^ {\prime}) \delta^ {\gamma}} (S).
@@ -1086,18 +1068,16 @@ $$
 
 Since$v = 1$on$\partial ( \mathcal { N } _ { \delta ^ { \gamma } } ( \mathrm { c o } [ \mathrm { S } ] ) )$and$\lambda _ { 1 } / \lambda _ { 2 } \in ( 1 / 4 , 4 )$, by standard interior estimates for solution of the Monge-Ampère equation with constant right hand side (see for instance [8, Lemma 1.1]), we obtain
 
-(5.5)
-
 $$
-\underset {\mathrm{S}} {\mathrm{osc}}   v \leq \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime}\tag{5.6}
+\underset {\mathrm{S}} {\mathrm{osc}}   v \leq \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime}\tag{5.5}
 $$
 
 $$
-1 - \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime} \delta^ {\gamma / n} \leq v <   1 \quad \text { on } \partial \mathrm{S},\tag{5.7}
+1 - \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime} \delta^ {\gamma / n} \leq v <   1 \quad \text { on } \partial \mathrm{S},\tag{5.6}
 $$
 
 $$
-\mathrm{D} ^ {2} v \geq \delta^ {\gamma / \tau} \mathrm{Id} / \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime} \quad \text { in   co[S], }
+\mathrm{D} ^ {2} v \geq \delta^ {\gamma / \tau} \mathrm{Id} / \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime} \quad \text { in   co[S]. }\tag{5.7}
 $$
 
 for some$\tau > 0$universal, and some constant$\mathrm { C _ { K } ^ { \prime \prime } }$depending only on K.
@@ -1112,7 +1092,7 @@ $$
 v ^ {-} := \big (1 - 4 \varepsilon - \sqrt {\delta} / 2 \big) v + 4 \varepsilon + \sqrt {\delta} / 2 + 2 \mathrm{C} _ {\mathrm{K}} ^ {\prime \prime} \delta^ {\gamma / n}.
 $$
 
-Our goal is to show that we can choose$\gamma$universally small so that$v ^ { - } \geq u \geq v ^ { + }$on${ \mathrm { S } } .$ Indeed, if we can do so, then by (5.5) this will imply (5.3), concluding the proof.
+Our goal is to show that we can choose$\gamma$universally small so that$v ^ { - } \geq u \geq v ^ { + }$on${ \mathrm { S } }$ Indeed, if we can do so, then by (5.5) this will imply (5.3), concluding the proof.
 
 First of all notice that, thanks to (5.6),$v ^ { - } > u > v ^ { + }$on ∂S. Let us show first that $v ^ { + } \leq v$
 
@@ -1122,7 +1102,7 @@ $$
 \emptyset \neq \mathrm{Z} := \left\{u <   v ^ {+} \right\} \Subset \mathrm{S}.
 $$
 
-Since$v ^ { + }$is convex, taking any supporting plane to$v ^ { + }$at$x \in Z .$, moving it down and then lifting it up until it touches u from below, we deduce that
+Since$v ^ { + }$is convex, taking any supporting plane to$v ^ { + }$at$x \in Z $, moving it down and then lifting it up until it touches u from below, we deduce that
 
 $$
 \nabla v ^ {+} (\mathbf {Z}) \subset \nabla u (\mathbf {Z})\tag{5.8}
@@ -1152,7 +1132,7 @@ $$
 \mathrm{D} ^ {2} v ^ {+} > \| \mathrm{D} _ {x x} c \| _ {\mathrm{C} ^ {0} (\mathrm{B} _ {\mathrm{K}} \times \mathrm{B} _ {\mathrm{K}})} \operatorname{Id} \quad \text { inside   co[S] }.
 $$
 
-Hence, for any$x , z \in { \mathrm { Z } } , x \neq z$and$\begin{array} { r } { y = \mathrm { c } { - } \mathrm { e x p } _ { x } ( \nabla v ^ { + } ( x ) ) } \end{array}$(notice that$\mathrm { c - e x p } _ { x } ( \nabla v ^ { + } ( x ) )$is well-defined because of (5.8) and the assumption$\nabla u ( \mathrm { S } ) \Subset \mathrm { D o m c - e x p } )$, it follows
+Hence, for any$x , z \in { \mathrm { Z } } , x \neq z$and$\begin{array} { r } { y = \mathrm { c } { - } \mathrm { e x p } _ { x } ( \nabla v ^ { + } ( x ) ) } \end{array}$(notice that$\mathrm { c - e x p } _ { x } ( \nabla v ^ { + } ( x ) )$is well-defined because of (5.8) and the assumption$\nabla u ( \mathrm { S } ) \Subset Dom c-exp)$, it follows
 
 $$
 \begin{array}{l} v ^ {+} (z) + c (z, y) \geq v ^ {+} (x) + c (x, y) + \frac {1}{2} \int_ {0} ^ {1} \big (\mathrm{D} ^ {2} v ^ {+} \big (t z + (1 - t) x \big) \\ \qquad \qquad + \mathrm{D} _ {x x} c \big (t z + (1 - t) x, y \big) \big) [ z - x, z - x ]   d t \\ > v ^ {+} (x) + c (x, y), \end{array}
@@ -1174,18 +1154,15 @@ This estimate combined with (5.10) shows that (5.9) is impossible unless Z is em
 
 The proof of the inequality$v ^ { - } \leq u$follows by the same argument except for a minor modification. More precisely, let us assume by contradiction that$\mathrm { W } : = \{ u > v ^ { - } \}$ is nonempty. In order to apply the previous argument we would need to know that $\nabla v ^ { - } ( \mathrm { W } ) \subset \mathrm { D o m c - e x p }$. However, since the gradient of v can be very large near ∂S, this may be a problem.
 
-To circumvent this issue we argue as follows: since W is nonempty, there exists a positive constant$\bar { \mu }$such that u touches${ v ^ { - } + \bar { \mu } }$from below inside S. Let E be the contact set, i.e.,$\mathrm { E } : = \{ u = v ^ { - } + \bar { \mu } \}$. Since both u and$v ^ { - }$are$\mathrm { C } ^ { 1 }$,$\nabla \boldsymbol { u } = \nabla \boldsymbol { v } ^ { - }$on E. Thus, if$\eta > 0$ is small enough, then the set$\mathrm { W } _ { \eta } : = \{ u > v ^ { - } + \bar { \mu } - \eta \}$is nonempty and$\nabla \boldsymbol { v } ^ { - } ( \mathbf { W } _ { \eta } )$is contained in a small neighborhood of$\nabla u ( \mathbf { W } _ { \eta } )$, which is compactly contained in Domc-exp. At this point, one argues exactly as in the first part of the proof, with$\mathrm { W } _ { \eta }$in place of$\mathrm { ^ { - } Z } _ { \mathrm { ^ { + } } }$, to find a contradiction.-
+To circumvent this issue we argue as follows: since W is nonempty, there exists a positive constant$\bar { \mu }$such that u touches${ v ^ { - } + \bar { \mu } }$from below inside S. Let E be the contact set, i.e.,$\mathrm { E } : = \{ u = v ^ { - } + \bar { \mu } \}$. Since both u and$v ^ { - }$are$\mathrm { C } ^ { 1 }$,$\nabla \boldsymbol { u } = \nabla \boldsymbol { v } ^ { - }$on E. Thus, if$\eta > 0$ is small enough, then the set$\mathrm { W } _ { \eta } : = \{ u > v ^ { - } + \bar { \mu } - \eta \}$is nonempty and$\nabla \boldsymbol { v } ^ { - } ( \mathbf { W } _ { \eta } )$is contained in a small neighborhood of$\nabla u ( \mathbf { W } _ { \eta } )$, which is compactly contained in Dom c-exp. At this point, one argues exactly as in the first part of the proof, with$\mathrm { W } _ { \eta }$in place of$\mathrm { Z } ^ { + }$, to find a contradiction. □
 
 Theorem 5.3. — Let$u , f , g , \eta _ { 0 } , \delta _ { 0 }$be as in Theorem 4.3, and assume in addition that$c \in$ $\mathrm { C } ^ { k , \alpha } ( \mathbf { B } _ { 3 } \times \mathbf { B } _ { 3 } )$and$f , g \in \mathrm { C } ^ { k , \alpha } ( \mathbf { B } _ { 1 / 3 } )$for some$k \geq 0$and$\alpha \in ( 0 , 1 )$. There exist small constants $\eta _ { 1 } \leq \eta _ { 0 }$and$\delta _ { 1 } \leq \delta _ { 0 }$such that, if
 
-(5.11)
-
-$$
-\| f - \mathbf {1} _ {\mathcal {C} _ {1}} \| _ {\infty} + \| g - \mathbf {1} _ {\mathcal {C} _ {2}} \| _ {\infty} \leq \delta_ {1},\tag{5.12}
+$$\n\| f - \mathbf {1} _ {\mathcal {C} _ {1}} \| _ {\infty} + \| g - \mathbf {1} _ {\mathcal {C} _ {2}} \| _ {\infty} \leq \delta_ {1},\tag{5.11}
 $$
 
 $$
-\left\| c (x, y) + x \cdot y \right\| _ {\mathrm{C} ^ {2} \left(\mathrm{B} _ {3} \times \mathrm{B} _ {3}\right)} \leq \delta_ {1},
+\left\| c (x, y) + x \cdot y \right\| _ {\mathrm{C} ^ {2} \left(\mathrm{B} _ {3} \times \mathrm{B} _ {3}\right)} \leq \delta_ {1},\tag{5.12}
 $$
 
 and
@@ -1198,7 +1175,7 @@ then$u \in { \mathrm { C } } ^ { k + 2 , \alpha } ( { \mathbf { B } } _ { 1 / 9 
 
 Proof. — We divide the proof in two steps.
 
-• Step$I { \cdot } \mathrm { C } ^ { 1 , 1 }$regularity.
+• Step 1: $\mathrm { C } ^ { 1 , 1 }$ regularity.
 
 Fix a point$x _ { 0 } \in \mathrm { B } _ { 1 / 8 }$, and set$y _ { 0 } : = \mathrm { c } \mathrm { - e x p } _ { x _ { 0 } } ( \nabla u ( x _ { 0 } ) )$. Up to replace u (resp. c) with the function$u _ { 1 }$(resp.$c _ { 1 } )$constructed in Steps 4 and 5 in the proof of Theorem 4.3, we can assume that$u \geq 0 , u ( \mathbf { 0 } ) = 0$, that
 
@@ -1220,7 +1197,7 @@ $$
 
 for some universal$h _ { 1 }$and K. Arguing as in Step 6 of Theorem 4.3, this will give that u is $\mathrm { C ^ { 1 , 1 } }$at the origin, and thus at every point in$\mathrm { { B } _ { 1 / 8 } }$
 
-First ofall notice that, thanks to (5.13), for any$h _ { 1 } > 0$we can choose$\eta _ { 1 } = \eta _ { 1 } ( h _ { 1 } ) >$ 0 small enough such that (5.15) holds for$\mathrm { S } _ { h _ { 1 } }$with$\mathrm { K } = 2$. Hence, assuming without loss of generality that$\delta _ { 1 } \leq 1$, we see that
+First of all notice that, thanks to (5.13), for any$h _ { 1 } > 0$we can choose$\eta _ { 1 } = \eta _ { 1 } ( h _ { 1 } ) >$ 0 small enough such that (5.15) holds for$\mathrm { S } _ { h _ { 1 } }$with$\mathrm { K } = 2$. Hence, assuming without loss of generality that$\delta _ { 1 } \leq 1$, we see that
 
 $$
 \mathrm{B} _ {\sqrt {h _ {1}} / 3} \subset \mathcal {N} _ {\delta_ {1} ^ {\gamma} \sqrt {h _ {1}}} \bigl (\mathrm{co} [ \mathrm{S} _ {h _ {1}} ] \bigr) \subset \mathrm{B} _ {3 \sqrt {h _ {1}}},
@@ -1250,13 +1227,9 @@ satisfies$| \mathrm { D } ^ { 2 } w ( 0 ) | \le \mathrm { M } + 1 . ^ { 5 }$We p
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sub>K</sub>¯ <sub>≤</sub> √<sub>2(M + 1)</sub></span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup> The fact that is well defined follows by the following facts: first of all, by definition, M is an a-priori bound for whenever w is a solution of (5.16) with B ⊂ Z ⊂ B , so K<sup>¯</sup> ≥ 3. On the other handB1/3 ⊂ Z ⊂ B3, so K ≥ 3. Indeed, since 1/2 ≤f(0)/g(0) ≤ 2 (by (5.11)) and , the function1/2 ≤f(0)/g(0) ≤ 2 (by (5.11))M ≥ 1</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup> The fact that K̄ is well defined (i.e., 3 ≤ K̄ &lt; ∞) follows by the following facts: first of all, by definition, M is an a-priori bound for |D<sup>2</sup>w(0)| whenever w is a solution of (5.16) with B<sub>1/3</sub> ⊂ Z ⊂ B<sub>3</sub>, so K̄ ≥ 3. On the other hand K̄ ≤ √(2(M+1)). Indeed, since 1/2 ≤ f(0)/g(0) ≤ 2 (by (5.11)) and M ≥ 1, the function w̄ := (M+1)x<sub>1</sub><sup>2</sup> + (f(0)/g(0)) · (x<sub>2</sub><sup>2</sup>/(M+1)) + x<sub>3</sub><sup>2</sup> + ⋯ + x<sub>n</sub><sup>2</sup> is a solution of (5.16) such that B<sub>1/√(2(M+1))</sub> ⊂ B<sub>1/√(M+1)</sub> ⊂ {w̄ ≤ 1} ⊂ B<sub>√(2(M+1))</sub> and |D<sup>2</sup>w̄(0)| = 2(M+1).</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">is a solution of (5.16) such that B<sub>1/</sub>√<sub>2(M+1)</sub> ⊂ B <sub>/</sub>√ <sub>+</sub> ⊂ { ¯w ≤ 1} ⊂ B√<sub>2(M+1)</sub> and |D<sup>2</sup>w(¯ 0)| = 2(M + 1).B1/√2(M+1) ⊂ B1/√M+1 ⊂ {⑩ ≤ 1} ⊂ B√2(M+1) and |D2ω(0)| = 2(M + 1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f (0)x<sup>2</sup> w¯ := (M + 1)x<sup>2</sup> ++ x<sup>2</sup> + · · · + x<sup>2</sup> g(0) M + 1</span></small>
-
-If$\dot { h } = h _ { 1 }$then we already know that (5.15) holds with$\mathrm { K } = 2$(and so with$\mathrm { K } = \bar { \mathrm { K } } )$
+If $h = h _ { 1 }$ then we already know that (5.15) holds with$\mathrm { K } = 2$(and so with$\mathrm { K } = \bar { \mathrm { K } } )$
 
 Assume now that (5.15) holds with$h = h _ { k }$and$\mathrm { K } = \bar { \mathrm { K } }$, and we want to show that it holds with$h = h _ { k + 1 }$. For this, for any$k \in \mathbf { N }$we consider$u _ { k }$the solution of
 
@@ -1332,14 +1305,11 @@ $$
 
 Since$v _ { k }$and$v _ { k + 1 }$are two strictly convex solutions of the Monge Ampère equation with constant right hand side inside$\mathrm { S } _ { h _ { k + 1 } }$, and since$\mathrm { S } _ { h _ { k + 2 } }$is “well contained” inside$\mathrm { S } _ { h _ { k + 1 } }$, by classical Pogorelov and Schauder estimates we get
 
-(5.21)
-
-$$
-\left\| \mathbf {D} ^ {2} \boldsymbol {v} _ {k} - \mathbf {D} ^ {2} \boldsymbol {v} _ {k + 1} \right\| _ {\mathrm{C} ^ {0} (\mathrm{S} _ {h _ {k + 2}})} \leq \mathrm{C} _ {\bar {\mathrm{K}}} ^ {\prime} h _ {k} ^ {\sigma},\tag{5.22}
+$$\n\left\| \mathbf {D} ^ {2} \boldsymbol {v} _ {k} - \mathbf {D} ^ {2} \boldsymbol {v} _ {k + 1} \right\| _ {\mathrm{C} ^ {0} (\mathrm{S} _ {h _ {k + 2}})} \leq \mathrm{C} _ {\bar {\mathrm{K}}} ^ {\prime} h _ {k} ^ {\sigma},\tag{5.21}
 $$
 
 $$
-\left\| \mathrm{D} ^ {3} v _ {k} - \mathrm{D} ^ {3} v _ {k + 1} \right\| _ {\mathrm{C} ^ {0} (\mathrm{S} _ {h _ {k + 2}})} \leq \mathrm{C} _ {\bar {\mathrm{K}}} ^ {\prime} h _ {k} ^ {\sigma - 1 / 2},
+\left\| \mathrm{D} ^ {3} v _ {k} - \mathrm{D} ^ {3} v _ {k + 1} \right\| _ {\mathrm{C} ^ {0} (\mathrm{S} _ {h _ {k + 2}})} \leq \mathrm{C} _ {\bar {\mathrm{K}}} ^ {\prime} h _ {k} ^ {\sigma - 1 / 2}.\tag{5.22}
 $$
 
 where$\mathrm { C } _ { \bar { \mathrm { K } } } ^ { \prime }$is some constant depending only on$\bar { \mathrm { K } }$. By (5.21) applied to$v _ { j }$for all$j =$ $1 , \ldots , k$(this can be done since, by the inductive assumption, (5.15) holds for$h = h _ { j }$with $j = 1 , \ldots , k )$we obtain
@@ -1354,7 +1324,7 @@ provided we choose$h _ { 1 }$small enough (recall that$h _ { k } = h _ { 1 } 2 ^
 
 Now that we know that$u \in \mathrm { C } ^ { 1 , 1 } ( \mathbf { B } _ { 1 / 8 } )$, Equation (2.10) becomes uniformly elliptic. So one may use Evans-Krylov Theorem to obtain that$u \in \mathrm { C } _ { \mathrm { l o c } } ^ { 2 , \sigma ^ { \prime } } ( \mathbf { B } _ { 1 / 9 } )$for some$\sigma ^ { \prime } > 0$, and then standard Schauder estimates to conclude the proof. However, for the convenience of the reader, we show here how to give a simple direct proof of the$\mathrm { C } ^ { 2 , \sigma ^ { \prime } }$regularity of u with$\sigma ^ { \prime } = 2 \sigma$
 
-As in the previous step, it suffices to show that u is$\mathrm { C } ^ { 2 , \sigma ^ { \prime } }$at the origin, and for thi we have to prove that there exists a sequence of paraboloids$\mathrm { P } _ { k }$such that
+As in the previous step, it suffices to show that u is$\mathrm { C } ^ { 2 , \sigma ^ { \prime } }$at the origin, and for this we have to prove that there exists a sequence of paraboloids$\mathrm { P } _ { k }$such that
 
 $$
 \sup _ {\mathrm{B} _ {r _ {0} ^ {k} / \mathrm{C}}} | u - \mathrm{P} _ {k} | \leq \mathrm{C} r _ {0} ^ {k (2 + \sigma^ {\prime})}\tag{5.23}
@@ -1394,11 +1364,11 @@ so (5.23) follows with$r _ { 0 } = 1 / \sqrt { 2 }$and$\sigma ^ { \prime } = 2 \
 
 ## Acknowledgements
 
-We wish to thank Luigi Ambrosio for his careful reading of a preliminary version ofthis manuscript. AF is partially supported by NSF Grant DMS-0969962. Both authors acknowledge the support of the ERC ADG Grant GeMeThNES.
+We wish to thank Luigi Ambrosio for his careful reading of a preliminary version of this manuscript. AF is partially supported by NSF Grant DMS-0969962. Both authors acknowledge the support of the ERC ADG Grant GeMeThNES.
 
 ## REFERENCES
 
-1. L. A , N. G and G. S É, Gradient Flows in Metric Spaces and in the Space of Probability Measures, 2nd ed., Lectures in Mathematics ETH Zürich, Birkhäuser, Basel, 2008.
+1. L. AMBROSIO, N. GIGLI and G. SAVARÉ, Gradient Flows in Metric Spaces and in the Space of Probability Measures, 2nd ed., Lectures in Mathematics ETH Zürich, Birkhäuser, Basel, 2008.
 
 2. Y. BRENIER, Polar factorization and monotone rearrangement of vector-valued functions, Commun. Pure Appl. Math., 44 (1991), 375–417.
 
@@ -1420,11 +1390,11 @@ We wish to thank Luigi Ambrosio for his careful reading of a preliminary version
 
 11. P. DELANOË and F. ROUVIÈRE, Positively curved Riemannian locally symmetric spaces are positively squared distance curved, Can. J. Math., 65 (2013), 757–767.
 
-12. L. C. E and R. F. G , Measure Theory and Fine Properties ofFunctions, Studies in Advanced Mathematics, CRC Press, Boca Raton, 1992.
+12. L. C. EVANS and R. F. GARIEPY, Measure Theory and Fine Properties of Functions, Studies in Advanced Mathematics, CRC Press, Boca Raton, 1992.
 
 13. A. FATHI and A. FIGALLI, Optimal transportation on non-compact manifolds, Isr. J. Math., 175 (2010), 1–59.
 
-14. A. FIGALLI, Existence, uniqueness, and regularity ofoptimal transport maps, SIAMJ. Math. Anal., 39 (2007), 126–137.
+14. A. FIGALLI, Existence, uniqueness, and regularity ofoptimal transport maps, SIAM J. Math. Anal., 39 (2007), 126–137.
 
 15. A. FIGALLI, Regularity of optimal transport maps [after Ma-Trudinger-Wang and Loeper]. (English summary) Séminaire Bourbaki. Volume 2008/2009. Exposés 997–1011. Astérisque No. 332 (2010), Exp. No. 1009, ix, 341–368.
 
@@ -1438,7 +1408,7 @@ We wish to thank Luigi Ambrosio for his careful reading of a preliminary version
 
 20. A. FIGALLI, Y. H. KIM and R. J. MCCANN, Regularity of optimal transport maps on multiple products of spheres, J. Eur. Math. Soc. (JEMS), 5 (2013), 1131–1166.
 
-21. A. FIGALLI and G. LOEPER, C<sup>1</sup> regularity of solutions of the Monge-Ampère equation for optimal transport in dimension two, Calc. Var. Partial Differ. Egu., 35 (2009), 537–550.
+21. A. FIGALLI and G. LOEPER, C<sup>1</sup> regularity of solutions of the Monge-Ampère equation for optimal transport in dimension two, Calc. Var. Partial Differ. Equ., 35 (2009), 537–550.
 
 22. A. FIGALLI and L. RIFFORD, Continuity of optimal transport maps and convexity of injectivity domains on small deformations of S<sup>2</sup>, Commun. Pure Appl. Math., 62 (2009), 1670–1706.
 
@@ -1448,13 +1418,13 @@ We wish to thank Luigi Ambrosio for his careful reading of a preliminary version
 
 25. A. FIGALLI, L. RIFFORD and C. VILLANI, Nearly round spheres look convex, Am. J. Math., 134 (2012), 109–139.
 
-26. C. GUTIERREZ, The Monge-Ampére Equation, Progress in Nonlinear Differential Equations and Their Applications, vol. 440, Birkhäuser, Boston, 2001.
+26. C. GUTIERREZ, The Monge-Ampère Equation, Progress in Nonlinear Differential Equations and Their Applications, vol. 440, Birkhäuser, Boston, 2001.
 
 27. H.-Y. JIAN and X.-J. WANG, Continuity estimates for the Monge-Ampère equation, SIAM J. Math. Anal., 39 (2007), 608–626.
 
 28. Y.-H. KIM, Counterexamples to continuity ofoptimal transport maps on positively curved Riemannian manifolds, Int. Math. Res. Not. IMRN 2008, Art. ID rnn120, 15 pp.
 
-29. Y.-H. KIM and R.J. MCCANN, Towards the smoothness ofoptimal maps on Riemannian submersions and Riemannian products (of round spheres in particular), 7. Reine Angew. Math., 664 (2012), 1–27.
+29. Y.-H. KIM and R.J. MCCANN, Towards the smoothness ofoptimal maps on Riemannian submersions and Riemannian products (of round spheres in particular), J. Reine Angew. Math., 664 (2012), 1–27.
 
 30. J. LIU, N. S. TRUDINGER and X.-J. WANG, Interior C<sup>2,α</sup> regularity for potential functions in optimal transportation, Commun. Partial Differ. Equ., 35 (2010), 165–184.
 
@@ -1470,7 +1440,7 @@ We wish to thank Luigi Ambrosio for his careful reading of a preliminary version
 
 36. N. S. TRUDINGER and X.-J. WANG, On strict convexity and continuous differentiability ofpotential functions in optimal transportation, Arch. Ration. Mech. Anal., 192 (2009), 403–418.
 
-37. C. VILLANI, Optimal Transport. Old andNew, Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences], vol. 338, Springer, Berlin, 2009.
+37. C. VILLANI, Optimal Transport. Old and New, Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences], vol. 338, Springer, Berlin, 2009.
 
 Scuola Normale Superiore, p.za dei Cavalieri 7, 56126 Pisa, Italy guido.dephilippis@sns.it
 
@@ -1480,4 +1450,4 @@ Scuola Normale Superiore, p.za dei Cavalieri 7, 56126 Pisa, Italy guido.dephilip
 
 Department of Mathematics, The University of Texas at Austin, 1 University Station C1200, Austin, TX 78712, USA figalli@math.utexas.edu
 
-Manuscrit reçu le 1 octobre 2012 Manuscrit accepté le 15juillet 2014 publié en ligne le 29juillet 2014.
+Manuscrit reçu le 1 octobre 2012 Manuscrit accepté le 15 juillet 2014 publié en ligne le 29 juillet 2014.
