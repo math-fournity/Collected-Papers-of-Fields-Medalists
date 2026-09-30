@@ -183,3 +183,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 20:25 | COMMIT | ICM2022 Viazovska 闭环
 2026-09-29 20:27 | NOTE | 队列更正：DC laudatio 实为 24p（Hairer 撰完整 laudatio，非 3p）；下轮接力 = DC laudatio 24p → ICM2022 Duminil-Copin → Maynard laudatio 15p → Huh laudatio 16p → Faltings 18p → Roth 20p → …
 2026-09-29 20:33 | PAGE | DC laudatio | p.1-24/24 | FAIL族 | U+FFFD/丢箭头/缺空格/Beffara
+2026-09-29 20:40 | DONE | DC laudatio | 24/24 | U+FFFD41+↔4+缺空格族已修复 | 累计41/140
+2026-09-29 20:40 | COMMIT | DC laudatio 闭环
