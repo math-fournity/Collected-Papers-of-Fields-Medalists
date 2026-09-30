@@ -52,7 +52,7 @@ $$
 
 (The factor$\frac { 1 } { 2 }$appearing here comes from the fact that the local density of$\Lambda _ { N }$in$\mathbf { Z } ^ { 2 } \mathrm { i s } \ \frac { 1 } { 2 } . )$
 
-A much more interesting kind of global observables is given by the connectivity properties of$\sigma _ { \mathrm { { : } } }$, which were first studied by Broadbent and Hammersley [12]. These are however much harder to analyse and, even though the model just described appears at first sight to be somewhat trivial, most of its results already lead us squarely into 21st century mathematics. In order to describe what we mean by “connectivity” in this context, instead of interpreting elements$u \in \Lambda _ { N }$as points in${ \bf Z } ^ { 2 }$, we interpret them as nearest-neighbour edges of a suitable sublattice of${ \bf Z } ^ { 2 }$by associating to$u$the unique edge$e _ { u }$of$\mathbf { Z } _ { \mathrm { e v e n } } \times \mathbf { Z } _ { \mathrm { o d d } }$ with midpoint$u$. We will also write$e _ { u } ^ { * }$for the edge of$\mathbf { Z } _ { \mathrm { o d d } } \times \mathbf { Z } _ { \mathrm { e v e n } }$with midpoint �. In other words, we set
+A much more interesting kind of global observables is given by the connectivity properties of$\sigma _ { \mathrm { { : } } }$, which were first studied by Broadbent and Hammersley [12]. These are however much harder to analyse and, even though the model just described appears at first sight to be somewhat trivial, most of its results already lead us squarely into 21st century mathematics. In order to describe what we mean by “connectivity” in this context, instead of interpreting elements$u \in \Lambda _ { N }$as points in${ \bf Z } ^ { 2 }$, we interpret them as nearest-neighbour edges of a suitable sublattice of${ \bf Z } ^ { 2 }$by associating to$u$the unique edge$e _ { u }$of$\mathbf { Z } _ { \mathrm { e v e n } } \times \mathbf { Z } _ { \mathrm { o d d } }$ with midpoint$u$. We will also write$e _ { u } ^ { * }$for the edge of$\mathbf { Z } _ { \mathrm { o d d } } \times \mathbf { Z } _ { \mathrm { e v e n } }$with midpoint$u$. In other words, we set
 
 $$
 e _ {u} = \left\{\begin{array}{c l}(u _ {\downarrow}, u _ {\uparrow})&\text {if u_{1} is even,}\\(u _ {\leftarrow}, u _ {\rightarrow})&\text {if u_{1} is odd,}\end{array}\right. \qquad e _ {u} ^ {*} = \left\{\begin{array}{c l}(u _ {\leftarrow}, u _ {\rightarrow})&\text {if u_{1} is even,}\\(u _ {\downarrow}, u _ {\uparrow})&\text {if u_{1} is odd.}\end{array}\right.
@@ -168,7 +168,7 @@ which looks formally the same as the result of [49], but the assumption there wa
 
 Using this result, [20] then obtain the following dichotomy which yields the desired sharpness statement.
 
-Theorem 2.1. Let � be any transitive graph and let$\mathbf { P } _ { \beta , n }$be the FK measure on the ball$\Lambda _ { n }$ of radius$n$in$G$. Then, there exists$\beta _ { c } \in \mathbf { R }$such that, for every$\beta < \beta _ { c }$there exists$c _ { \beta } > 0$ such that${ \bf P } _ { \beta , n } ( 0 \leftrightarrow \partial \Lambda _ { n } ) \lesssim e ^ { - c _ { \beta } n }$, uniformly in$n$. For$\beta > \beta _ { c }$on the other hand, there exists $c > 0$such that$\mathbf { P } _ { \beta , n } ( 0 \leftrightarrow \partial \Lambda _ { n } ) \geq c \operatorname* { m i n } \{ 1 , \beta - \beta _ { c } \}$
+Theorem 2.1. Let$G$be any transitive graph and let$\mathbf { P } _ { \beta , n }$be the FK measure on the ball$\Lambda _ { n }$ of radius$n$in$G$. Then, there exists$\beta _ { c } \in \mathbf { R }$such that, for every$\beta < \beta _ { c }$there exists$c _ { \beta } > 0$ such that${ \bf P } _ { \beta , n } ( 0 \leftrightarrow \partial \Lambda _ { n } ) \lesssim e ^ { - c _ { \beta } n }$, uniformly in$n$. For$\beta > \beta _ { c }$on the other hand, there exists $c > 0$such that$\mathbf { P } _ { \beta , n } ( 0 \leftrightarrow \partial \Lambda _ { n } ) \geq c \operatorname* { m i n } \{ 1 , \beta - \beta _ { c } \}$
 
 Once (2.1) is known, the proof is surprisingly simple and relies on two ingredients. First, one can show that the measures$\mathbf { P } _ { \beta , n }$and the function${ \bf 1 } _ { 0  \partial \Lambda _ { n } }$satisfy the assumptions of (2.1). Setting$\theta _ { n } ( \beta ) = { \bf P } _ { \beta , n } ( 0 \leftrightarrow \partial \Lambda _ { n } )$, a clever choice of search algorithm for the (potential) cluster connecting the origin 0 to$\partial \Lambda _ { n }$then allows to show that one has the bound
 
@@ -468,7 +468,7 @@ This work was partially supported by the Royal Society through a research profes
 
 [56] O. Schramm and S. Smirnov, On the scaling limits of planar percolation. Ann. Probab. 39 (2011), no. 5, 1768–1814
 
-[57] B. Simon, The �(�)<sub>2</sub> Euclidean (quantum) field theory. Princeton Series in Physics, Princeton University Press, Princeton, N.J., 1974
+[57] B. Simon, The $P(\phi)_2$ Euclidean (quantum) field theory. Princeton Series in Physics, Princeton University Press, Princeton, N.J., 1974
 
 [58] B. Simon and R. B. Grifiths, The$( \phi ^ { 4 } ) _ { 2 }$field theory as a classical Ising model. Comm. Math. Phys. 33 (1973), 145–164
 
