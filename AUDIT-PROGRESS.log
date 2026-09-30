@@ -230,3 +230,6 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 15:50 | PAGE | Pardon 2012 Hilbert-Smith | p.1-24/24 | 足注碎片/编号待修 | 累计56+1篇进行中
 2026-09-30 16:10 | DONE | Pardon 2012 Hilbert-Smith | 24/24 | 116 处/92 规则修复完成 | 累计57/140
 2026-09-30 16:10 | COMMIT | Pardon 2012 Hilbert-Smith 闭环
+2026-09-30 16:50 | PAGE | Mumford 1974 Prym I | p.1-26/26 | 文献[16]/Part标题/Ω_C̃待修 | 累计57+1篇进行中
+2026-09-30 17:10 | DONE | Mumford 1974 Prym I | 26/26 | 25 处/23 规则修复完成 | 累计58/140
+2026-09-30 17:10 | COMMIT | Mumford 1974 Prym I 闭环
