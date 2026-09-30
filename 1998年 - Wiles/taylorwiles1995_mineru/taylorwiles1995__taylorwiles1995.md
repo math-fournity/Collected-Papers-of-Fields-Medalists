@@ -138,7 +138,7 @@ Theorem 2 The ring $\mathbb{T}_Q$ is a free $\mathcal{O}[\Delta_Q]$ module of $\
 
 By lemma 3 of [DT] we may choose a prime R with the following properties:
 
-•  $R \not\perp 6N_{Q}p;$
+•  $R \nmid 6N_{Q}p;$
 
 \- $R \not\equiv 1 \bmod p$;
 
@@ -559,7 +559,7 @@ where
 
 3. $(S_{1},\dots,S_{r})T_{n} = \ker (T_{n}\twoheadrightarrow T),$
 
-4. if $\mathfrak{b}_n$ denotes the kernel of $\mathcal{O}[[S_1,\dots,S_r]]\to T_n$ then $\mathfrak{b}_n\subset ((1 + S_1)^{p^n}$$1,\ldots ,(1 + S_r)^{p^n} - 1)$ and $T_{n}$ is a finite free $\mathcal{O}[[S_1,\dots,S_r]] / \mathfrak{b}_n$-module.
+4. if $\mathfrak{b}_n$ denotes the kernel of $\mathcal{O}[[S_1,\dots,S_r]]\to T_n$ then $\mathfrak{b}_n\subset ((1 + S_1)^{p^n} - 1, \ldots ,(1 + S_r)^{p^n} - 1)$ and $T_{n}$ is a finite free $\mathcal{O}[[S_1,\dots,S_r]] / \mathfrak{b}_n$-module.
 
 Then $R \xrightarrow{\sim} T$ and these rings are complete intersections.
 
