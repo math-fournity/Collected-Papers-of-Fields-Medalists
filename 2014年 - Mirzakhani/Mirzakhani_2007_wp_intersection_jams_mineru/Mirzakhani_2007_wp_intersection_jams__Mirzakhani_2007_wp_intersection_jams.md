@@ -6,7 +6,7 @@ MARYAM MIRZAKHANI
 
 In this paper, we establish a relationship between the Weil-Petersson volume $V _ { g , n } ( b )$of the moduli space${ \mathcal { M } } _ { g , n } ( b )$of hyperbolic Riemann surfaces with geodesic boundary components of lengths$b _ { 1 } , \ldots , b _ { n }$, and the intersection numbers of tautological classes on the moduli space${ \overline { { \mathcal { M } } } } _ { g , n }$of stable curves. As a result, by using the recursive formula for$V _ { g , n } ( b )$obtained in [22], we derive a new proof of the Virasoro constraints for a point. This result is equivalent to the Witten-Kontsevich formula [14].
 
-Intersection theory of${ \overline { { \mathcal { M } } } } _ { g , n }$. Let${ \mathcal { M } } _ { g , n }$be the moduli space of genus g curves with n distinct marked points and${ \overline { { \mathcal { M } } } } _ { g , n }$its Deligne-Mumford compactification. The space${ \overline { { \mathcal { M } } } } _ { g , n }$is a connected complex orbifold of dimension$3 g - 3 + n \ [ 9 ]$. These moduli spaces are endowed with natural cohomology classes. An example of such a class is the Chern class of a vector bundle on the moduli space. There are n tautological line bundles defined over${ \overline { { \mathcal { M } } } } _ { g , n } .$for each marked point i, there exists a canonical line bundle$\mathcal { L } _ { i }$in the orbifold sense whose fiber at the point$( C , x _ { 1 } , \dots , x _ { n } ) \in { \overline { { \mathcal { M } } } } _ { g , n }$ is the cotangent space of$C$at$x _ { i }$. The first Chern class of this bundle is denoted by$\psi _ { i } = c _ { 1 } ( \mathcal { L } _ { i } )$. Note that although the complex curve$C$may have nodes,$x _ { i }$never coincides with the singular points.
+Intersection theory of${ \overline { { \mathcal { M } } } } _ { g , n }$. Let${ \mathcal { M } } _ { g , n }$be the moduli space of genus g curves with n distinct marked points and${ \overline { { \mathcal { M } } } } _ { g , n }$its Deligne-Mumford compactification. The space${ \overline { { \mathcal { M } } } } _ { g , n }$is a connected complex orbifold of dimension$3 g - 3 + n$[9]. These moduli spaces are endowed with natural cohomology classes. An example of such a class is the Chern class of a vector bundle on the moduli space. There are n tautological line bundles defined over${ \overline { { \mathcal { M } } } } _ { g , n }$: for each marked point i, there exists a canonical line bundle$\mathcal { L } _ { i }$in the orbifold sense whose fiber at the point$( C , x _ { 1 } , \dots , x _ { n } ) \in { \overline { { \mathcal { M } } } } _ { g , n }$ is the cotangent space of$C$at$x _ { i }$. The first Chern class of this bundle is denoted by$\psi _ { i } = c _ { 1 } ( \mathcal { L } _ { i } )$. Note that although the complex curve$C$may have nodes,$x _ { i }$never coincides with the singular points.
 
 For any set$\{ d _ { 1 } , \ldots , d _ { n } \}$of integers define the top intersection number of$\psi$classes by
 
@@ -16,7 +16,7 @@ $$
 
 Such products are well defined when the$d _ { i }$’s are nonnegative integers and$\sum _ { i = 1 } ^ { n } d _ { i } =$ $3 g - 3 + n$. In other cases$\langle \tau _ { d _ { 1 } } , \dots , \tau _ { d _ { n } } \rangle _ { g }$is defined to be zero. Since we are in the orbifold setting, these intersection numbers are rational numbers. See [15] and [9] for more details.
 
-Introduce formal variables$t _ { i } , i \geq 0$, and define$F _ { g }$, the generating function of all top intersections of$\psi$classes in genus$^ { g , }$by
+Introduce formal variables$t _ { i } , i \geq 0$, and define$F _ { g }$, the generating function of all top intersections of$\psi$classes in genus$g$, by
 
 $$
 F _ {g} (t _ {0}, t _ {1}, \dots) = \sum_ {\{d _ {i} \}} \langle \prod \tau_ {d _ {i}} \rangle_ {g} \prod_ {r > 0} t _ {r} ^ {n _ {r}} / n _ {r}!,
@@ -38,7 +38,7 @@ $$
 
 arises as a partition function in two-dimensional quantum gravity.
 
-Witten [28] conjectured a recursive formula for the intersections of tautological classes in the form of KdV diferential equations satisfied by$F .$. Witten’s conjecture implies that$e ^ { F }$is annihilated by a sequence of diferential operators
+Witten [28] conjectured a recursive formula for the intersections of tautological classes in the form of KdV diferential equations satisfied by$F$. Witten’s conjecture implies that$e ^ { F }$is annihilated by a sequence of diferential operators
 
 $$
 L _ {- 1}, L _ {0}, \ldots , L _ {n}, \ldots
@@ -50,17 +50,17 @@ $$
 [ L _ {m}, L _ {k} ] = (m - k) L _ {m + k}.
 $$
 
-See [5] and [1]. Also, for the definition of the$L _ { i } { \mathrm { ' s } } .$, see §6.
+See [5] and [1]. Also, for the definition of the$L _ { i }$'s, see §6.
 
 The Virasoro constraints determine the intersection numbers of tautological line bundles in all genera.
 
 In [14], Kontsevich introduces a matrix model as the generating function for the intersection numbers on the moduli space to prove Witten’s conjecture by expressing intersection numbers in terms of sums over ribbon graphs. Also, A. Okounkov and R. Pandharipande gave a diferent proof by using the relation between the Gromov-Witten theory of$\mathbb { P } ^ { 1 }$and Hurwitz numbers [25]. For expository accounts of these proofs, see [15] and [24].
 
-In this paper we prove that$F .$, the generating function of the intersection numbers, satisfies the Virasoro constraints. Our proof relies on the Weil-Petersson symplectic geometry of the moduli space of curves and results of G. McShane [20] on lengths of simple closed geodesics on hyperbolic surfaces.
+In this paper we prove that$F$, the generating function of the intersection numbers, satisfies the Virasoro constraints. Our proof relies on the Weil-Petersson symplectic geometry of the moduli space of curves and results of G. McShane [20] on lengths of simple closed geodesics on hyperbolic surfaces.
 
 Weil-Petersson geometry of${ \overline { { \mathcal { M } } } } _ { g , n }$. The key tool for obtaining the recursive formula for the intersections of the tautological classes is understanding the relationship between the tautological classes and the Weil-Petersson symplectic form.
 
-This form is the symplectic form of a K¨ahler, noncomplete metric on the moduli space of curves introduced by A. Weil [10]. In [18], Masur obtained growth estimates for the coeficients of the Weil-Petersson metric close to the boundary of the moduli space. In [33], Wolpert showed that the Weil-Petersson symplectic form has a simple expression in terms of the Fenchel-Nielsen twist-length coordinates (see §2). Moreover, he showed that the Weil-Petersson K¨ahler form ω extends as a closed form to${ \overline { { \mathcal { M } } } } _ { g , n }$and defines a cohomology class$[ \omega ] \in H ^ { 2 } ( \overline { { \mathcal { M } } } _ { g , n } , \mathbb { R } )$. See$\ S 2$for more details.
+This form is the symplectic form of a Kähler, noncomplete metric on the moduli space of curves introduced by A. Weil [10]. In [18], Masur obtained growth estimates for the coeficients of the Weil-Petersson metric close to the boundary of the moduli space. In [33], Wolpert showed that the Weil-Petersson symplectic form has a simple expression in terms of the Fenchel-Nielsen twist-length coordinates (see §2). Moreover, he showed that the Weil-Petersson Kähler form ω extends as a closed form to${ \overline { { \mathcal { M } } } } _ { g , n }$and defines a cohomology class$[ \omega ] \in H ^ { 2 } ( \overline { { \mathcal { M } } } _ { g , n } , \mathbb { R } )$. See §2 for more details.
 
 Volumes of moduli spaces of bordered Riemann surfaces. The Weil-Petersson volume of the moduli space${ \mathcal { M } } _ { g , n }$is a finite number and its value as a function of$g$and n arises naturally in diferent contexts.
 
@@ -68,9 +68,9 @@ In order to integrate certain types of geometric functions over the moduli space
 
 (I): In [22], we approach the study of the volumes of these moduli spaces via the length functions of simple closed geodesics on a hyperbolic surface and show that$V _ { g , n } ( b )$is a polynomial in b. We also give an explicit recursive method for calculating these polynomials (see §5).
 
-(II): In §4, we use the symplectic geometry of moduli spaces of bordered Riemann surfaces to calculate these volumes. This method allows us to read of the intersection numbers of tautological line bundles from the volume polynomials.
+(II): In §4, we use the symplectic geometry of moduli spaces of bordered Riemann surfaces to calculate these volumes. This method allows us to read off the intersection numbers of tautological line bundles from the volume polynomials.
 
-(I): A recursive formula for volumes. By using an identity for lengths of simple closed geodesics on a bordered Riemann surface which generalizes the result in [20], we obtain a recursive formula for$V _ { g , n } ( b )$in terms of$V _ { g _ { 1 } , n _ { 1 } } ( b ) \mathrm { { ^ { \circ } s } }$where $2 g _ { 1 } + n _ { 1 } < 2 g + n$(see equation (5.5)).
+(I): A recursive formula for volumes. By using an identity for lengths of simple closed geodesics on a bordered Riemann surface which generalizes the result in [20], we obtain a recursive formula for$V _ { g , n } ( b )$in terms of$V _ { g _ { 1 } , n _ { 1 } } ( b )$'s where $2 g _ { 1 } + n _ { 1 } < 2 g + n$(see equation (5.5)).
 
 As a result, we establish:
 
@@ -90,7 +90,7 @@ $$
 \begin{array}{c} S ^ {1} \longrightarrow \{(X, p) \mid p \in \beta_ {i}, X \in \overline {{\mathcal {M}}} _ {g, n} (b) \} \\ \Big \downarrow \\ \overline {{\mathcal {M}}} _ {g, n} (b) \end{array}
 $$
 
-where$S ^ { 1 }$acts by moving the point$p$on$\beta _ { i }$. This shows that${ \overline { { \mathcal { M } _ { g , n } } } } ( b )$is a reduced space. Hence we can use the method of symplectic reduction, discussed in$\ S 3 .$ to relate the volumes of moduli spaces of curves to the intersection numbers of tautological classes${ \overline { { \mathcal { M } } } } _ { g , n } \ ( \ S 4 )$
+where$S ^ { 1 }$acts by moving the point$p$on$\beta _ { i }$. This shows that${ \overline { { \mathcal { M } _ { g , n } } } } ( b )$is a reduced space. Hence we can use the method of symplectic reduction, discussed in §3, to relate the volumes of moduli spaces of curves to the intersection numbers of tautological classes on${ \overline { { \mathcal { M } } } } _ { g , n }$ (§4).
 
 Note that the picture is a bit diferent when$g = n = 1$, in which case all elements of$\mathcal { M } _ { 1 , 1 } ( b )$have nontrivial automorphisms of order 2; namely, every$X \in \mathcal { M } _ { 1 , 1 } ( b )$ comes with an elliptic involution.
 
@@ -146,7 +146,7 @@ $$
 \int_ {\overline {{\mathcal {M}}} _ {g, 1}} \psi_ {1} ^ {3 g - 2} = \frac {1}{2 4 ^ {g} \cdot g !}.
 $$
 
-A closed formula for$V _ { 0 , n } ( 0 )$, the Weil-Petersson volume of$\mathcal { M } _ { 0 , n } .$, is known [34]. Also see [17], [26], and [12] for diferent results on Weil-Petersson volumes. Note that there is a small diference in the normalization of the volume form; in [34] the Weil-Petersson K¨ahler form is$1 / 2$the imaginary part of the Weil-Petersson pairing, while here the factor$1 / 2$does not appear. So our answers are diferent by a power of 2.
+A closed formula for$V _ { 0 , n } ( 0 )$, the Weil-Petersson volume of$\mathcal { M } _ { 0 , n }$, is known [34]. Also see [17], [26], and [12] for diferent results on Weil-Petersson volumes. Note that there is a small diference in the normalization of the volume form; in [34] the Weil-Petersson Kähler form is$1 / 2$the imaginary part of the Weil-Petersson pairing, while here the factor$1 / 2$does not appear. So our answers are diferent by a power of 2.
 
 There is an exceptional case which arises for$g = n = 1$. In this case a generic $X \in \mathcal { M } _ { 1 , 1 }$has a symmetry of order 2 which acts nontrivially on the cotangent space of$X$at the marked point. See [28]. Therefore, the integral of$\psi _ { 1 }$is half of what equation (1.1) predicts. In$\ S 5$, we show that
 
@@ -170,7 +170,7 @@ which agree with the known results [9].
 
 The main result. By combining equation (1.1) and the recursive formula for the$V _ { g , n } ( b ) \mathrm { { s } }$obtained in [22], we prove that the generating function for all top intersections of$\psi$classes in all genera satisfies the Virasoro constraints (§6).
 
-Analogies with moduli spaces of stable bundles. The discussion above suggests some similarities between${ \mathcal { M } } _ { g , n }$and the variety Hom$\iota ( \pi _ { 1 } ( S ) , G ) / G$of representations of the fundamental group of the oriented surface S in a compact Lie group G, up to conjugacy. This space is naturally equipped with a symplectic structure [6]. For$G = \mathrm { S U } ( 2 )$, the representation variety is identified with the moduli space of semi-stable holomorphic rank 2 vector bundles over a fixed Riemann surface.
+Analogies with moduli spaces of stable bundles. The discussion above suggests some similarities between${ \mathcal { M } } _ { g , n }$and the variety$\mathrm { H o m } ( \pi _ { 1 } ( S ) , G ) / G$ of representations of the fundamental group of the oriented surface S in a compact Lie group G, up to conjugacy. This space is naturally equipped with a symplectic structure [6]. For$G = \mathrm { S U } ( 2 )$, the representation variety is identified with the moduli space of semi-stable holomorphic rank 2 vector bundles over a fixed Riemann surface.
 
 $$
 \theta_ {1}, \dots , \theta_ {n} \in G
@@ -180,29 +180,29 @@ $$
 R _ {g, n} (\theta_ {1}, \dots , \theta_ {n})
 $$
 
-be the variety of representations of$\pi _ { 1 } ( S _ { g , n } )$in$S U ( 2 )$such that the monodromy around$\beta _ { i }$lies in the conjugacy class of$\theta _ { i }$. Here, fixing the conjugacy class of the monodromy around a boundary component$\beta$corresponds to fixing the length of$\beta$ in the case of${ \mathcal { M } } _ { g , n } ( b )$
+be the variety of representations of$\pi _ { 1 } ( S _ { g , n } )$in$S U ( 2 )$such that the monodromy around$\beta _ { i }$lies in the conjugacy class of$\theta _ { i }$. Here, fixing the conjugacy class of the monodromy around a boundary component$\beta$corresponds to fixing the length of$\beta$ in the case of${ \mathcal { M } } _ { g , n } ( b )$.
 
-As in our argument for proving Theorem 6.1, it is possible to derive recursive formulas for intersection numbers of line bundles on$R _ { g , n }$by relating these numbers to the symplectic volume of$R _ { g , n } ( \theta _ { 1 } , \ldots , \theta _ { n } )$. This approach was first suggested by Witten [29], and also used in$[ 2 7 ]$
+As in our argument for proving Theorem 6.1, it is possible to derive recursive formulas for intersection numbers of line bundles on$R _ { g , n }$by relating these numbers to the symplectic volume of$R _ { g , n } ( \theta _ { 1 } , \ldots , \theta _ { n } )$. This approach was first suggested by Witten [29], and also used in [27]
 
-An important diference is that the action of the mapping class does not enter in the$R _ { g , n }$case. The space$R _ { g , n }$is analogous to Teichm¨uller space, but it has finite volume. Also, the action of the mapping class group on$R _ { g , n } ( \theta )$is ergodic [7].
+An important diference is that the action of the mapping class does not enter in the$R _ { g , n }$case. The space$R _ { g , n }$is analogous to Teichmüller space, but it has finite volume. Also, the action of the mapping class group on$R _ { g , n } ( \theta )$is ergodic [7].
 
 ## 2. Background material
 
-In this section, we briefly summarize basic background material in the Teichm¨uller theory of Riemann surfaces with geodesic boundary components. For further background, see [10] and [4].
+In this section, we briefly summarize basic background material in the Teichmüller theory of Riemann surfaces with geodesic boundary components. For further background, see [10] and [4].
 
-Teichm¨uller space. Let$S$be an oriented smooth surface of negative Euler characteristic. A point in the Teichm¨uller space$\boldsymbol { \mathcal { T } } ( \boldsymbol { S } )$is a complete hyperbolic surface X equipped with a difeomorphism$f : S  X$. The map$f$provides a marking on X by$S .$. Two marked surfaces$f : S \to X$and$g : S  Y$define the same point in $\mathcal { T } ( S )$if and only if$f \circ g ^ { - 1 } : Y \to X$is isotopic to a conformal map. When ∂S is nonempty, consider hyperbolic Riemann surfaces homeomorphic to S with geodesic boundary components of fixed length. Let$A = \partial S$and$b = ( b _ { \alpha } ) _ { \alpha \in A } \in \mathbb { R } _ { + } ^ { | A | }$. A point $X \in \mathcal { T } ( S , b )$is a marked hyperbolic surface with geodesic boundary components such that for each boundary component$\beta \in \partial S$, we have
+Teichmüller space. Let$S$be an oriented smooth surface of negative Euler characteristic. A point in the Teichmüller space$\boldsymbol { \mathcal { T } } ( \boldsymbol { S } )$is a complete hyperbolic surface X equipped with a diffeomorphism$f : S \to X$. The map$f$ provides a marking on X by$S$. Two marked surfaces$f : S \to X$and$g : S  Y$define the same point in $\mathcal { T } ( S )$if and only if$f \circ g ^ { - 1 } : Y \to X$is isotopic to a conformal map. When ∂S is nonempty, consider hyperbolic Riemann surfaces homeomorphic to S with geodesic boundary components of fixed length. Let$A = \partial S$and$b = ( b _ { \alpha } ) _ { \alpha \in A } \in \mathbb { R } _ { + } ^ { | A | }$. A point $X \in \mathcal { T } ( S , b )$is a marked hyperbolic surface with geodesic boundary components such that for each boundary component$\beta \in \partial S$, we have
 
 $$
 \ell_ {\beta} (X) = b _ {\beta}.
 $$
 
-Let$S _ { g , n }$be an oriented smooth connected surface of genus g with n boundary components$( \beta _ { 1 } , \ldots , \beta _ { n } )$). Then the Teichm¨uller space of hyperbolic structures on $S _ { g , n }$with geodesic boundary components of length$b _ { 1 } , \ldots , b _ { n }$is defined by
+Let$S _ { g , n }$be an oriented smooth connected surface of genus g with n boundary components$( \beta _ { 1 } , \ldots , \beta _ { n } )$). Then the Teichmüller space of hyperbolic structures on $S _ { g , n }$with geodesic boundary components of length$b _ { 1 } , \ldots , b _ { n }$is defined by
 
 $$
 \mathcal {T} _ {g, n} (b _ {1}, \dots , b _ {n}) = \mathcal {T} (S _ {g, n}, b _ {1}, \dots , b _ {n}).
 $$
 
-Let$\operatorname { M o d } ( S )$denote the mapping class group of$S ,$, or the group of isotopy classes of orientation-preserving self-homeomorphisms of S leaving each boundary component setwise fixed. The mapping class group$\mathrm { M o d } _ { g , n } = \mathrm { M o d } ( S _ { g , n } )$acts on$\mathcal { T } _ { g , n } ( b )$by changing the marking. The quotient space
+Let$\operatorname { M o d } ( S )$denote the mapping class group of$S$, or the group of isotopy classes of orientation-preserving self-homeomorphisms of S leaving each boundary component setwise fixed. The mapping class group$\mathrm { M o d } _ { g , n } = \mathrm { M o d } ( S _ { g , n } )$acts on$\mathcal { T } _ { g , n } ( b )$by changing the marking. The quotient space
 
 $$
 \mathcal {M} _ {g, n} (b) = \mathcal {M} (S _ {g, n}, \ell_ {\beta_ {i}} = b _ {i}) = \mathcal {T} _ {g, n} (b _ {1}, \ldots , b _ {n}) / \mathrm{Mod} _ {g, n}
@@ -240,9 +240,9 @@ $$
 \operatorname{Vol} (\mathcal {M} (S, b)) = \prod_ {i = 1} ^ {k} \operatorname{Vol} (\mathcal {M} (S _ {i}, b _ {A _ {i}})).
 $$
 
-When$L = 0$, there is a natural complex structure on$\mathcal { T } _ { g , n } .$, and this symplectic form is in fact the K¨ahler form of a K¨ahler metric [10].
+When$L = 0$, there is a natural complex structure on$\mathcal { T } _ { g , n } .$, and this symplectic form is in fact the Kähler form of a Kähler metric [10].
 
-The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decomposes the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n } , \mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where$k = 3 g - 3 + n$. For a marked hyperbolic surface$X \in \mathcal { T } _ { g , n } ( b )$, the Fenchel-Nielsen coordinates associated with $\mathcal { P } , \ \{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ^ { \cdots } ( X ) , \ldots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces [10]. There is an isomorphism
+The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decomposes the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n }$, $\mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where$k = 3 g - 3 + n$. For a marked hyperbolic surface$X \in \mathcal { T } _ { g , n } ( b )$, the Fenchel-Nielsen coordinates associated with $\mathcal { P } , \ \{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ^ { \cdots } ( X ) , \ldots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces [10]. There is an isomorphism
 
 $$
 \mathcal {T} _ {g, n} (b) \cong \mathbb {R} _ {+} ^ {\mathcal {P}} \times \mathbb {R} ^ {\mathcal {P}}
@@ -262,13 +262,13 @@ $$
 \omega_ {w p} = \sum_ {i = 1} ^ {k} d \ell_ {\alpha_ {i}} \wedge d \tau_ {\alpha_ {i}}.
 $$
 
-Twisting. Given a simple closed geodesic α on$X \in \mathcal { T } _ { g , n } ( b )$, and$t \in \mathbb { R }$, we can deform the hyperbolic structure of X by a right twist along α as follows. First, cut X along α, and then reglue back after twisting distance t to the right. We observe that the hyperbolic structure of the complement of the cut extends to a new hyperbolic structure$\operatorname { t w } _ { t \alpha } ( X )$on S. The resulting continuous path in Teichm¨uller space is the Fenchel-Nielsen deformation of X along α which is generated by the Fenchel-Nielsen vector field. For$t = \ell _ { \alpha } ( X )$), we have
+Twisting. Given a simple closed geodesic α on$X \in \mathcal { T } _ { g , n } ( b )$, and$t \in \mathbb { R }$, we can deform the hyperbolic structure of X by a right twist along α as follows. First, cut X along α, and then reglue back after twisting distance t to the right. We observe that the hyperbolic structure of the complement of the cut extends to a new hyperbolic structure$\operatorname { t w } _ { t \alpha } ( X )$on S. The resulting continuous path in Teichmüller space is the Fenchel-Nielsen deformation of X along α which is generated by the Fenchel-Nielsen vector field. For$t = \ell _ { \alpha } ( X )$), we have
 
 $$
 \mathrm{tw} _ {t \alpha} (X) = \phi_ {\alpha} (X),
 $$
 
-where$\phi _ { \alpha } \in \operatorname { M o d } ( S _ { g , n } )$is a right Dehn twist along α. It is known that the vector field generated by twisting around α is symplectically dual to the exact 1-form$d \ell _ { \alpha } ;$ as a consequence of Theorem 2.1 [30], we have
+where$\phi _ { \alpha } \in \operatorname { M o d } ( S _ { g , n } )$is a right Dehn twist along α. It is known that the vector field generated by twisting around α is symplectically dual to the exact 1-form$d \ell _ { \alpha }$; as a consequence of Theorem 2.1 [30], we have
 
 Corollary 2.2. The right twist flow defined by
 
@@ -282,9 +282,9 @@ Compactification of the moduli space. The Deligne-Mumford compactification${ \ov
 
 By work of Wolpert [33], the Weil-Petersson symplectic form extends smoothly to the boundary with respect to the Fenchel-Nielsen coordinates. This form is closed and everywhere nondegenerate and therefore defines a symplectic form on ${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$. In [32] Wolpert showed that$\omega / \pi ^ { 2 } \in H ^ { 2 } ( \overline { { \mathcal { M } } } _ { g , n } , \mathbb { Q } )$, and by multiplying $[ \omega ] / \pi ^ { 2 }$by some integer, we get a positive line bundle over${ \overline { { \mathcal { M } } } } _ { g , n }$. As a result,${ \overline { { \mathcal { M } } } } _ { g , n }$ is a projective algebraic variety. See [32] for more details.
 
-In a similar way, we can compactify the space$\mathcal { M } _ { g , n } ( b )$by allowing$\ell _ { \gamma } = 0$for a simple closed geodesic$\gamma$inside the surface. When$b \neq 0$, the moduli space${ \mathcal { M } } _ { g , n } ( b )$ does not have a natural complex structure. Nevertheless it has a real-analytic structure induced by the Fenchel-Nielson coordinates [33]. As was pointed out to the author by the referee, the approach of describing stable nodal curves in terms of hyperbolic surfaces first appeared in a paper by Bers [2].
+In a similar way, we can compactify the space$\mathcal { M } _ { g , n } ( b )$by allowing$\ell _ { \gamma } = 0$for a simple closed geodesic$\gamma$inside the surface. When$b \neq 0$, the moduli space${ \mathcal { M } } _ { g , n } ( b )$ does not have a natural complex structure. Nevertheless it has a real-analytic structure induced by the Fenchel-Nielsen coordinates [33]. As was pointed out to the author by the referee, the approach of describing stable nodal curves in terms of hyperbolic surfaces first appeared in a paper by Bers [2].
 
-Orbifold structure of the moduli space. Since the action of the mapping class group on Teichm¨uller space can have fixed points, the space$\mathcal { M } _ { g , n } ( b )$is not always a manifold. But a complete hyperbolic surface can only have finitely many automorphisms. So the moduli space has a natural orbifold structure. The orbifold points of the moduli space correspond exactly to the Riemann surfaces where the automorphism group is nontrivial. We remark that a Riemann surface$X \in \mathcal { M } _ { 0 , n }$ does not have nontrivial automorphisms. Therefore, the moduli space$\mathcal { M } _ { 0 , n }$is a manifold. In general, the moduli space${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$is a compact orbifold, and the Deligne-Mumford compactification locus,$\overline { { \mathcal { M } } } _ { g , n } ( b ) - \mathcal { M } _ { g , n } ( b )$, is a union of finitely many lower-dimensional suborbifolds intersecting transversely [9].
+Orbifold structure of the moduli space. Since the action of the mapping class group on Teichmüller space can have fixed points, the space$\mathcal { M } _ { g , n } ( b )$is not always a manifold. But a complete hyperbolic surface can only have finitely many automorphisms. So the moduli space has a natural orbifold structure. The orbifold points of the moduli space correspond exactly to the Riemann surfaces where the automorphism group is nontrivial. We remark that a Riemann surface$X \in \mathcal { M } _ { 0 , n }$ does not have nontrivial automorphisms. Therefore, the moduli space$\mathcal { M } _ { 0 , n }$is a manifold. In general, the moduli space${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$is a compact orbifold, and the Deligne-Mumford compactification locus,$\overline { { \mathcal { M } } } _ { g , n } ( b ) - \mathcal { M } _ { g , n } ( b )$, is a union of finitely many lower-dimensional suborbifolds intersecting transversely [9].
 
 To apply results known for manifolds in our setting (e.g. Corollary 3.3), it sufices to show that${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$has a finite cover with no orbifold points; the finite cover can be chosen as
 
@@ -300,7 +300,7 @@ Theorem 2.3. There exists a finite group G such that${ \overline { { \mathcal { 
 
 This theorem allows us to use results of the next section on symplectic reduction and apply them to the moduli spaces of curves.
 
-Coverings and volume forms of the$\mathcal { M } _ { g , n } ( b ) \mathbf { \hat { s } }$. Let$\gamma _ { 1 } , \gamma _ { 2 } , \ldots \gamma _ { k }$be a set of disjoint simple closed curves on$S _ { g , n }$, and$\Gamma = \left( \gamma _ { 1 } , \dots , \gamma _ { k } \right)$. Then$g \in { \mathrm { M o d } } _ { g , n }$acts on Γ by
+Coverings and volume forms of the$\mathcal { M } _ { g , n } ( b )$'s. Let$\gamma _ { 1 } , \gamma _ { 2 } , \ldots \gamma _ { k }$be a set of disjoint simple closed curves on$S _ { g , n }$, and$\Gamma = \left( \gamma _ { 1 } , \dots , \gamma _ { k } \right)$. Then$g \in { \mathrm { M o d } } _ { g , n }$acts on Γ by
 
 $$
 g \cdot \Gamma = (g \cdot \gamma_ {1}, \dots , g \cdot \gamma_ {k}).
@@ -328,7 +328,7 @@ $$
 G _ {\Gamma} = \bigcap_ {i = 1} ^ {s} \operatorname{Stab} (\gamma_ {i}) \subset \operatorname{Mod} (S _ {g, n}).
 $$
 
-The Weil-Petersson symplectic structure on Teichm¨uller space is invariant under the action of the mapping class group. Hence$\mathcal { M } _ { g , n } ( b ) ^ { \Gamma }$carries a symplectic structure defined by$\pi ^ { \Gamma * } ( \omega _ { w p } )$
+The Weil-Petersson symplectic structure on Teichmüller space is invariant under the action of the mapping class group. Hence$\mathcal { M } _ { g , n } ( b ) ^ { \Gamma }$carries a symplectic structure defined by$\pi ^ { \Gamma * } ( \omega _ { w p } )$
 
 ## 3. Symplectic reduction
 
@@ -412,7 +412,7 @@ Fix a connection α on$\mu ^ { - 1 } ( 0 )$. Then the following result shows tha
 
 Theorem 3.2 (Normal form theorem). The space$( M _ { a } , w _ { a } )$is symplectomorphic to$M _ { 0 }$equipped with the symplectic form$w _ { 0 } + a \Omega$, where Ω is the curvature form of the connection α.
 
-For$a = ( a _ { 1 } , \ldots , a _ { n } )$with$| a | \le \epsilon , M _ { a }$and$M _ { 0 }$are difeomorphic. Since$c _ { 1 } ( \mathcal { C } ) =$ [Ω], under this difeomorphism the cohomology classes of the symplectic forms are related by
+For$a = ( a _ { 1 } , \ldots , a _ { n } )$with$| a | \le \epsilon , M _ { a }$and$M _ { 0 }$are difeomorphic. Since$c _ { 1 } ( \mathcal { C } ) =$ [Ω], under this diffeomorphism the cohomology classes of the symplectic forms are related by
 
 $$
 [ w _ {a} ] = [ w ] + \sum_ {i = 1} ^ {n} a _ {i} \cdot [ \phi_ {i} ],
@@ -424,7 +424,7 @@ Remark. This theorem is closely related to a version of the Duistermaat-Heckman 
 
 Now by integrating the volume form induced by$\omega _ { a }$over the space$M _ { a } .$, we get:
 
-Corollary 3.3. Let 0 be a regular value of the proper moment map$\mu : M \to \mathbb { R } ^ { n }$of the Hamiltonian action$o f T ^ { n }$on M. Then for suficiently small$\epsilon > 0$and$a \in \mathbb { R } _ { + } ^ { n }$ with$| a | \leq \epsilon$, the volume of$M _ { a } = \mu ^ { - 1 } ( a ) / T ^ { n }$is a polynomial in$a _ { 1 } , \ldots , a _ { n }$of degree $m = \dim ( M _ { a } ) / 2$given by
+Corollary 3.3. Let 0 be a regular value of the proper moment map$\mu : M \to \mathbb { R } ^ { n }$of the Hamiltonian action$o f T ^ { n }$on M. Then for suficiently small$\epsilon > 0$and$a \in \mathbb { R } _ { + } ^ { n }$ with$| a | \leq \epsilon$, the volume of$M _ { a } = \mu ^ { - 1 } ( a ) / T ^ { n }$is a polynomial in$a _ { 1 } , \ldots , a _ { n }$of degree $m = \dim ( M _ { a } ) / 2$, given by
 
 $$
 \sum_{\substack{\alpha \\ |\alpha |\leq m}}C(\alpha)\cdot a^{\alpha},
@@ -436,7 +436,7 @@ $$
 \alpha ! (m - | \alpha |)! C (\alpha) = \int_ {M _ {0}} \phi_ {1} ^ {\alpha_ {1}} \dots \phi_ {n} ^ {\alpha_ {n}} \cdot \omega^ {m - | \alpha |}.
 $$
 
-Here the exponent$\alpha = ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$ranges over elements in$\mathbb { Z } _ { > 0 } ^ { n } , a ^ { \alpha } = a _ { 1 } ^ { \alpha _ { 1 } } \cdot .$ $a _ { n } ^ { \alpha _ { n } } , | \alpha | = \sum _ { i = 1 } ^ { n } \alpha _ { i }$and$\alpha ! = \prod _ { i = 1 } ^ { n } \alpha _ { i } ! .$
+Here the exponent$\alpha = ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$ranges over elements in$\mathbb { Z } _ { > 0 } ^ { n } , a ^ { \alpha } = a _ { 1 } ^ { \alpha _ { 1 } } \cdot .$ $a _ { n } ^ { \alpha _ { n } } , | \alpha | = \sum _ { i = 1 } ^ { n } \alpha _ { i }$and$\alpha ! = \prod _ { i = 1 } ^ { n } \alpha _ { i } !$.
 
 ## 4. Volumes of moduli spaces of bordered Riemann surfaces
 
@@ -450,7 +450,7 @@ $$
 
 which is an embedded annulus. Moreover, two simple closed geodesics are disjoint if and only if their collars are disjoint [4]. Therefore, one can define a continuous function$F : \mathbb { R } _ { + } \longrightarrow \mathbb { R } _ { + }$such that
 
-• for each boundary component$\beta _ { i }$of$X \in \mathcal { T } _ { g , n } ( b )$, there is a curve$\widetilde { \beta } _ { i }$of constant curvature of length$F ( \ell _ { \beta _ { i } } ( X ) )$inside the collar neighborhood of $\beta _ { i } .$, and
+• for each boundary component$\beta _ { i }$of$X \in \mathcal { T } _ { g , n } ( b )$, there is a curve$\widetilde { \beta } _ { i }$of constant curvature of length$F ( \ell _ { \beta _ { i } } ( X ) )$inside the collar neighborhood of $\beta _ { i }$, and
 
 $$
 \bullet \lim _ {x \to 0} F (x) = 1 / 4.
@@ -460,7 +460,7 @@ As$\ell _ { i } \to 0 , \widetilde { \beta } _ { i }$tends to a horocycle of len
 
 Geometric circle bundles. The orientation on$S _ { g , n }$defines a canonical orientation on its boundary components as follows. Let$\beta _ { i }$be a boundary component of $X \in { \mathcal { T } } _ { g , n } ( b ) , x \in { \mathcal { \beta } } _ { i }$, and$N _ { x }$an outward vector normal to$\beta _ { i }$at x. Then we say a tangent vector$v _ { x }$to$\beta _ { i }$is positive if the pair$( v _ { x } , N _ { x } )$has positive orientation with respect to the orientation of$X$
 
-Now let$\gamma _ { i } : [ 0 , b _ { i } ] \to \beta _ { i }$be an oriented arc length parametrization of$\beta _ { i }$. For any $t \in [ 0 , b _ { i } ]$define$\xi ^ { t } : \beta _ { i }  \beta _ { i }$by
+Now let$\gamma _ { i } : [ 0 , b _ { i } ] \to \beta _ { i }$be an oriented arc length parametrization of$\beta _ { i }$. For any $t \in [ 0 , b _ { i } ]$define$\xi ^ { t } : \beta _ { i } \to \beta _ { i }$by
 
 $$
 \xi^ {t} (\gamma_ {i} (s)) = \gamma_ {i} (s + t \cdot b _ {i}).
@@ -468,7 +468,7 @@ $$
 
 As$\xi ^ { t + 1 } = \xi ^ { t } , \xi$defines an$S ^ { 1 }$-action on$\beta _ { i }$
 
-Let$\beta _ { i }$be a curve parallel to the boundary component$\beta _ { i }$on$X \in \mathcal { T } _ { g , n } ( b )$. The advantage of using the parallel curve$\widetilde { \beta } _ { i }$instead of$\beta _ { i }$is that$\widetilde { \beta } _ { i }$has positive length even when the geodesic length of$\beta _ { i }$is zero; in this case${ \widetilde { \beta } } _ { i }$is a horocycle around the puncture$p _ { i }$. Otherwise, there is a canonical one-to-one map between$\widetilde { \beta } _ { i }$and $\beta _ { i }$. Note that when$i \neq j$, the curve$\widetilde { \beta } _ { i }$is disjoint from${ \widetilde { \beta } } _ { j }$ For a fixed$b = ( b _ { 1 } , \ldots , b _ { n } )$, define the space$S _ { i } ( \mathcal { T } _ { g , n } ( b ) )$by
+Let$\beta _ { i }$be a curve parallel to the boundary component$\beta _ { i }$ on$X \in \mathcal { T } _ { g , n } ( b )$. The advantage of using the parallel curve$\widetilde { \beta } _ { i }$instead of$\beta _ { i }$is that$\widetilde { \beta } _ { i }$has positive length even when the geodesic length of$\beta _ { i }$is zero; in this case${ \widetilde { \beta } } _ { i }$is a horocycle around the puncture$p _ { i }$. Otherwise, there is a canonical one-to-one map between$\widetilde { \beta } _ { i }$and $\beta _ { i }$. Note that when$i \neq j$, the curve$\widetilde { \beta } _ { i }$is disjoint from${ \widetilde { \beta } } _ { j }$. For a fixed$b = ( b _ { 1 } , \ldots , b _ { n } )$, define the space$S _ { i } ( \mathcal { T } _ { g , n } ( b ) )$by
 
 $$
 \mathcal {S} _ {i} \left(\mathcal {T} _ {g, n} (b)\right) = \left\{\left(X, p\right) \mid p \in \widetilde {\beta} _ {i}, X \in \mathcal {T} _ {g, n} (b) \right\}\rightarrow \mathcal {T} _ {g, n} (b).
@@ -530,9 +530,9 @@ The goal of this part is to show that this$T ^ { n }$action is the Hamiltonian f
 
 Extension of the Weil-Petersson symplectic form to${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$. As we mentioned in$\ S 2 .$, the moduli space${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$has a natural real analytic structure arising from the Fenchel-Nielsen coordinates [33].
 
-By work of Wolpert [33], the Weil-Peterssen symplectic form has a smooth extension$\omega ^ { F N }$to${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$(§2). Using the extension of the Weil-Petersson symplectic form, we can define a$T ^ { n }$-invariant symplectic form on$\widehat { \mathcal { M } _ { g , n } }$
+By work of Wolpert [33], the Weil-Petersson symplectic form has a smooth extension$\omega ^ { F N }$to${ \overline { { \mathcal { M } } } } _ { g , n } ( b )$(§2). Using the extension of the Weil-Petersson symplectic form, we can define a$T ^ { n }$-invariant symplectic form on$\widehat { \mathcal { M } _ { g , n } }$
 
-Remark. There is a diferent method for extending the Weil-Peterssen symplectic form to${ \overline { { \mathcal { M } } } } _ { g , n }$by using a closed current$\omega ^ { C }$relative to the complex structure of ${ \mathcal { M } } _ { g , n }$. In [33], Wolpert showed that$\omega ^ { F N }$and$\omega ^ { C }$determine the same cohomology class. We remark that the complex structure and the Fenchel-Nielsen coordinates do not induce the same smooth structure on${ \overline { { \mathcal { M } } } } _ { g , n }$
+Remark. There is a diferent method for extending the Weil-Petersson symplectic form to${ \overline { { \mathcal { M } } } } _ { g , n }$by using a closed current$\omega ^ { C }$relative to the complex structure of ${ \mathcal { M } } _ { g , n }$. In [33], Wolpert showed that$\omega ^ { F N }$and$\omega ^ { C }$determine the same cohomology class. We remark that the complex structure and the Fenchel-Nielsen coordinates do not induce the same smooth structure on${ \overline { { \mathcal { M } } } } _ { g , n }$
 
 Theorem 4.3. The orbifold$\widehat { \mathcal { M } _ { g , n } }$has a natural$T ^ { n }$-invariant symplectic structure such that
 
@@ -558,9 +558,9 @@ $\{ ( X , \eta ) | X \in \overline { { \mathcal { M } } } _ { g , 2 n } \ , \ \e
 
 where$\mathcal { O } _ { \Gamma }$is the set of homotopy classes of elements of the set${ \mathrm { M o d } } _ { g , 2 n } \cdot { \Gamma } .$. Note that by Wolpert’s result, the symplectic form induced by the Weil-Petersson form on$\mathcal { M } _ { g , 2 n } ^ { \Gamma }$extends to$\overline { { \mathcal { M } _ { g , 2 n } } } ^ { \Gamma } \left( \ S 2 \right)$. To prove the theorem, we study how$\overline { { \mathcal { M } _ { g , 2 n } } } ^ { \Gamma }$ and${ \widehat { \mathcal { M } } } _ { g , n } ^ { - }$are related.
 
-Note that there are two canonical points on each boundary component α of a pair of pants; these points are the end points of the length-minimizing geodesics connecting α to the other two boundaries of$\Sigma$
+Note that there are two canonical points on each boundary component α of a pair of pants; these points are the end points of the length-minimizing geodesics connecting α to the other two boundaries of$\Sigma$.
 
-Fix$( X , p _ { 1 } , \dotsc , p _ { n } ) \in { \widehat { \mathcal { M } } } _ { g , n }$with geodesic boundary components$\gamma _ { 1 } , \ldots , \gamma _ { n }$. First we construct a surface$Y \in \mathcal { M } _ { g , 2 n }$by gluing n pairs of pants$\Sigma _ { 1 } , \ldots , \Sigma _ { n }$with boundary lengths$( \ell _ { \gamma _ { i } } ( X ) , 0 , 0 )$to boundary components of$X ;$; we glue$\Sigma _ { i }$to$\gamma _ { i }$ such that the point$p _ { i }$on$\gamma _ { i }$is adjacent to the canonical point on the boundary of $\Sigma _ { i }$corresponding to$\beta _ { 2 i - 1 }$
+Fix$( X , p _ { 1 } , \dotsc , p _ { n } ) \in { \widehat { \mathcal { M } } } _ { g , n }$with geodesic boundary components$\gamma _ { 1 } , \ldots , \gamma _ { n }$. First we construct a surface$Y \in \mathcal { M } _ { g , 2 n }$by gluing n pairs of pants$\Sigma _ { 1 } , \ldots , \Sigma _ { n }$with boundary lengths$( \ell _ { \gamma _ { i } } ( X ) , 0 , 0 )$to boundary components of$X$; we glue$\Sigma _ { i }$to$\gamma _ { i }$ such that the point$p _ { i }$on$\gamma _ { i }$is adjacent to the canonical point on the boundary of $\Sigma _ { i }$corresponding to$\beta _ { 2 i - 1 }$
 
 Therefore, we get a map
 
@@ -616,7 +616,7 @@ $$
 
 Here the first sum is over all unordered pairs of simple closed geodesics$\left( \alpha _ { 1 } , \alpha _ { 2 } \right)$ bounding a pair of pants with boundary component$\beta _ { 1 }$, and the second sum is over simple closed geodesics$\gamma$bounding a pair of pants with$\beta _ { 1 }$and$\beta _ { i }$.
 
-The two functions$\mathcal { D } , \mathcal { R } : \mathbb { R } ^ { 3 }  \mathbb { R } _ { + }$are defined by
+The two functions$\mathcal { D } , \mathcal { R } : \mathbb { R } ^ { 3 } \to \mathbb { R } _ { + }$are defined by
 
 $$
 \mathcal {D} (x, y, z) = 2 \log \left(\frac {e ^ {\frac {x}{2}} + e ^ {\frac {y + z}{2}}}{e ^ {\frac {- x}{2}} + e ^ {\frac {y + z}{2}}}\right)
@@ -628,7 +628,7 @@ $$
 \mathcal {R} (x, y, z) = x - \log \left(\frac {\cosh (\frac {y}{2}) + \cosh (\frac {x + z}{2})}{\cosh (\frac {y}{2}) + \cosh (\frac {x - z}{2})}\right).
 $$
 
-Define$H : \mathbb { R } ^ { 2 }  \mathbb { R }$by
+Define$H : \mathbb { R } ^ { 2 } \to \mathbb { R }$by
 
 $$
 H (x, y) = \frac {1}{1 + e ^ {\frac {x + y}{2}}} + \frac {1}{1 + e ^ {\frac {x - y}{2}}}.\tag{5.2}
@@ -648,13 +648,13 @@ $$
 
 In order to calculate$V _ { g , n } ( b )$, we develop a method to integrate the generalized identity over certain coverings of$\mathcal { M } _ { g , n } ( b _ { 1 } , \ldots , b _ { n } )$[22].
 
-Calculation of$V _ { 1 , 1 } ( b )$. We sketch the main idea of the calculation of the$V _ { g , n } ( b ) ^ { \prime }$s through an example when$g = n = 1$. In this case, Theorem 5.1 implies that for any$\bar { X ^ { \prime } } \in \mathcal { T } ( S _ { 1 , 1 } , \bar { b } )$, we have
+Calculation of$V _ { 1 , 1 } ( b )$. We sketch the main idea of the calculation of the$V _ { g , n } ( b )$'s through an example when$g = n = 1$. In this case, Theorem 5.1 implies that for any$X \in \mathcal { T } ( S _ { 1 , 1 } , b )$, we have
 
 $$
 \sum_ {\gamma} \mathcal {D} (b, \ell_ {\gamma} (X), \ell_ {\gamma} (X)) = b,
 $$
 
-where the sum is over all nonperipheral simple closed curves on$S _ { 1 , 1 }$. From equation (5.3), the function D satisfies
+where the sum is over all nonperipheral simple closed curves on$S _ { 1 , 1 }$. From equation (5.3), the function$\mathcal { D }$ satisfies
 
 $$
 \frac {\partial}{\partial b} \mathcal {D} (b, x, x) = \frac {1}{1 + e ^ {x - \frac {b}{2}}} + \frac {1}{1 + e ^ {x + \frac {b}{2}}}.
@@ -698,7 +698,7 @@ $$
 V _ {g, n} (A) = V _ {g, n} (a _ {1}, \ldots , a _ {n}).
 $$
 
-Statement of the recursive formula. In the simplest case when$n = 3$and $g = 0 ,$, the moduli space$\mathcal { M } _ { 0 , 3 } ( b _ { 1 } , b _ { 2 } , b _ { 3 } )$consists of only one point, and by definition,
+Statement of the recursive formula. In the simplest case when$n = 3$and$g = 0$, the moduli space$\mathcal { M } _ { 0 , 3 } ( b _ { 1 } , b _ { 2 } , b _ { 3 } )$consists of only one point, and by definition,
 
 $$
 V _ {0, 3} (b _ {1}, b _ {2}, b _ {3}) = 1.
@@ -756,7 +756,7 @@ $$
 \widehat {\mathcal {B}} _ {g, n}: \mathbb {R} _ {+} ^ {n + 1} \to \mathbb {R} _ {+}
 $$
 
-in terms of$V _ { h , m } \mathrm { { ' s } }$where$2 h + m < 2 g + n$. Let
+in terms of$V _ { h , m }$'s where$2 h + m < 2 g + n$. Let
 
 $$
 m (g, n) = \delta (g - 1) \times \delta (n - 1).
@@ -880,7 +880,7 @@ $$
 \widehat {P} (x) = \int_ {0} ^ {\infty} \int_ {0} ^ {\infty} y _ {1} y _ {2} H \left(y _ {1} + y _ {2}, x\right) P \left(y _ {1}, y _ {2}\right) d y _ {1} d y _ {2}
 $$
 
-is a polynomial in$x ^ { 2 } ;$; the leading term of$\widehat { P } ( x )$is equal to
+is a polynomial in$x ^ { 2 }$; the leading term of$\widehat { P } ( x )$is equal to
 
 $$
 \sum_ {i + j = d} \frac {(2 i + 1) ! (2 j + 1) !}{(2 d + 4) !} C (i, j) x ^ {2 d + 4}.\tag{5.8}
@@ -948,7 +948,7 @@ for any$a \in \mathcal { T } _ { g , n }$. Now using Theorem$1 . 1 , V _ { g _ {
 
 In this section we use the relationship between the volume polynomials and the intersection numbers of tautological classes to derive the Virasoro equations.
 
-String and dilaton equation. If one of the$\alpha _ { i } { ' } \mathrm { s }$is 0 or 1, the coeficients of $b _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot b _ { n } ^ { 2 \alpha _ { n } }$in$\mathcal { A } _ { g , n } ^ { d c o n } ( b )$and$\mathcal { A } _ { g , n } ^ { c o n } ( b )$equal zero. Hence by using Lemma 5.3 and Theorem 4.4, we obtain the following:
+String and dilaton equation. If one of the$\alpha _ { i }$'s is 0 or 1, the coeficients of $b _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot b _ { n } ^ { 2 \alpha _ { n } }$in$\mathcal { A } _ { g , n } ^ { d c o n } ( b )$and$\mathcal { A } _ { g , n } ^ { c o n } ( b )$equal zero. Hence by using Lemma 5.3 and Theorem 4.4, we obtain the following:
 
 • String equation:$\langle \tau _ { 1 } , \tau _ { \alpha _ { 1 } } , \ldots , \tau _ { \alpha _ { n } } \rangle _ { g } = ( 2 g + n - 2 ) \langle \tau _ { \alpha _ { 1 } } , \ldots , \tau _ { \alpha _ { n } } \rangle _ { g } ,$
 
@@ -1048,19 +1048,19 @@ I would like to thank Curt McMullen for his invaluable help, encouragement, and 
 
 3. M. Boggi and M. Pikaart, Galois covers of moduli of curves, Compositio Math. 120 (2000), 171–191. MR1739177 (2002a:14025)
 
-4. P. Buser, Geometry and spectra of compact Riemann surfaces, Birkh¨auser Boston, 1992. MR1183224 (93g:58149)
+4. P. Buser, Geometry and spectra of compact Riemann surfaces, Birkhäuser Boston, 1992. MR1183224 (93g:58149)
 
 5. R. Dijkgraaf, E. Verlinde, and H. Verlinde, Loop equations and Virasoro constraints in nonperturbative two-dimensional quantum gravity, Nuclear Phys. B 384 (1991), 435–456. MR1083914 (92a:81171)
 
-6. W. Goldman, The symplectic nature offundamental groups of surfaces, Adv. Math. 54 (1984), 200–225. MR0762512 (86i:32042)
+6. W. Goldman, The symplectic nature of fundamental groups of surfaces, Adv. Math. 54 (1984), 200–225. MR0762512 (86i:32042)
 
 7., Ergodic theory on moduli spaces, Ann. of Math. 146 (1997), 475–507. MR1491446 (99a:58024)
 
-8. V. Guillemin, Moment maps and combinatorial invariants of Hamiltonian t<sup>n</sup>-spaces, Birkh¨auser Boston, Inc., Boston, MA, 1994. MR1301331 (96e:58064)
+8. V. Guillemin, Moment maps and combinatorial invariants of Hamiltonian $T^n$-spaces, Birkhäuser Boston, Inc., Boston, MA, 1994. MR1301331 (96e:58064)
 
 9. J. Harris and I. Morrison, Moduli of curves, Graduate Texts in Mathematics, vol. 187, Springer-Verlag, 1998. MR1631825 (99g:14031)
 
-10. Y. Imayoshi and M. Taniguchi, An introduction to Teichm¨uller spaces, Springer-Verlag, 1992. MR1215481 (94b:32031)
+10. Y. Imayoshi and M. Taniguchi, An introduction to Teichmüller spaces, Springer-Verlag, 1992. MR1215481 (94b:32031)
 
 11. C. Itzykson and J. Zuber, Combinatorics of the modular group. II. The Kontsevich integrals, Internat. J. Modern Phys. A 7 (1992), 5661–5705. MR1180858 (94m:32029)
 
@@ -1070,23 +1070,23 @@ I would like to thank Curt McMullen for his invaluable help, encouragement, and 
 
 14. M. Kontsevich, Intersection on the moduli space of curves and the matrix Airy function., Comm. Math. Phys. 147 (1992). MR1171758 (93e:32027)
 
-15. E. Looijenga, Intersection theory on Deligne-Mumford compactifications (after Witten and Kontsevich), S´eminaire Bourbaki, 1992/93, Ast´erisque, volume 216, 1993, pp. 187–212. MR1246398 (95b:32033)
+15. E. Looijenga, Intersection theory on Deligne-Mumford compactifications (after Witten and Kontsevich), Séminaire Bourbaki, 1992/93, Astérisque, volume 216, 1993, pp. 187–212. MR1246398 (95b:32033)
 
 16., Smooth Deligne-Mumford compactification by means of Prym level structures, J. Algebraic Geom. 3 (1994), 283–293. MR1257324 (94m:14029)
 
 17. Y. Manin and P. Zograf, Invertible cohomological field theories and Weil-Petersson volumes, Ann. Inst. Fourier (Grenoble) 50 (2000), 519–535. MR1775360 (2001g:14046)
 
-18. H. Masur, The extension of the Weil-Petersson metric to the boundary of Teichm¨uller space, Duke Math. J. 43 (1976), 623–635. MR0417456 (54:5506)
+18. H. Masur, The extension of the Weil-Petersson metric to the boundary of Teichmüller space, Duke Math. J. 43 (1976), 623–635. MR0417456 (54:5506)
 
 19. D. McDuf, Introduction to symplectic topology, Amer. Math. Soc., Providence, RI, 1999. MR1702941 (2000e:53099)
 
-20. G. McShane, Simple geodesics and a series constant over Teichm¨uller space, Invent. Math. 132 (1998), 607–632, MR1625712 (99i:32028)
+20. G. McShane, Simple geodesics and a series constant over Teichmüller space, Invent. Math. 132 (1998), 607–632, MR1625712 (99i:32028)
 
 21. J. Milnor and J. Stashef, Characteristic classes, Annals of Mathematics Studies. MR0440554 (55:13428)
 
 Department of Mathematics<sub>,</sub> Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ 08544 22. M. Mirzakhani, Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces, Preprint, 2003.
 
-23. T. Nakanishi and M. N¨a¨at¨anen, Areas of two-dimensional moduli spaces, Proc. Amer. Math. Soc. 129 (2001), 3241–3252. MR1844999 (2002e:32020)
+23. T. Nakanishi and M. Näätänen, Areas of two-dimensional moduli spaces, Proc. Amer. Math. Soc. 129 (2001), 3241–3252. MR1844999 (2002e:32020)
 
 24. A. Okounkov, Random trees and moduli of curves, Asymptotic combinatorics with applications to mathematical physics, Lecture Notes in Mathematics, vol. 1815, Springer-Verlag, 2003, pp. 89–126. MR2009837 (2004m:14049)
 
