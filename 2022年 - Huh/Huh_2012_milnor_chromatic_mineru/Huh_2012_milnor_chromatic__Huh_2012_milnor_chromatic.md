@@ -4,15 +4,15 @@
 
 ## 1. Introduction
 
-George Birkhof introduced a function$\chi _ { G } ( q )$, defined for all positive integers$q$and a finite graph$G ,$, which counts the number of proper colorings of$G$with q colors. As it turns out,$\chi _ { G } ( q )$is a polynomial in$q$with integer coeficients, called the chromatic polynomial of G.
+George Birkhof introduced a function$\chi _ { G } ( q )$, defined for all positive integers$q$and a finite graph$G$, which counts the number of proper colorings of$G$with q colors. As it turns out,$\chi _ { G } ( q )$is a polynomial in$q$with integer coeficients, called the chromatic polynomial of G.
 
-Recall that a sequence$a _ { 0 } , a _ { 1 } , \ldots , a _ { n }$of real numbers is said to be unimodal if for some $0 \leq i \leq n$2
+Recall that a sequence$a _ { 0 } , a _ { 1 } , \ldots , a _ { n }$of real numbers is said to be unimodal if for some$0 \leq i \leq n$,
 
 $$
 a _ {0} \leq a _ {1} \leq \dots \leq a _ {i - 1} \leq a _ {i} \geq a _ {i + 1} \geq \dots \geq a _ {n},
 $$
 
-and is said to be log-concave if for all$0 < i < n$，
+and is said to be log-concave if for all$0 < i < n$, 
 
 $$
 a _ {i - 1} a _ {i + 1} \leq a _ {i} ^ {2}.
@@ -22,13 +22,13 @@ We say that the sequence has no internal zeros if the indices of the nonzero ele
 
 Conjecture 1. Let$\chi _ { G } ( q ) = a _ { n } q ^ { n } - a _ { n - 1 } q ^ { n - 1 } + \cdot \cdot \cdot + ( - 1 ) ^ { n } a _ { 0 }$be the chromatic polynomial of a graph G. Then the sequence$a _ { 0 } , a _ { 1 } , \ldots , a _ { n }$is log-concave.
 
-Read [31] conjectured in 1968 that the above sequence is unimodal. Soon after Rota, Heron, and Welsh formulated the conjecture in a more general context of matroids [33, 14, 48]. Let M be a matroid and$\mathcal { L }$be the lattice of flats of M with the minimum <sup>ˆ</sup>0. The characteristic polynomial of M is defined to be
+Read [31] conjectured in 1968 that the above sequence is unimodal. Soon after Rota, Heron, and Welsh formulated the conjecture in a more general context of matroids [33, 14, 48]. Let M be a matroid and$\mathcal { L }$be the lattice of flats of M with the minimum$\hat { 0 }$. The characteristic polynomial of M is defined to be
 
 $$
 \chi_ {M} (q) = \sum_ {x \in \mathscr {L}} \mu (\hat {0}, x) q ^ {\operatorname{rank} (M) - \operatorname{rank} (x)},
 $$
 
-where$\mu$is the M¨obius function of${ \mathcal { L } }$. We refer to [27, 48] for general background on matroids.
+where$\mu$is the Möbius function of${ \mathcal { L } }$. We refer to [27, 48] for general background on matroids.
 
 Conjecture 2. Let$\chi _ { M } ( q ) = a _ { n } q ^ { n } - a _ { n - 1 } q ^ { n - 1 } + \cdot \cdot \cdot + ( - 1 ) ^ { n } a _ { 0 }$be the characteristic polynomial of a matroid M. Then the sequence$a _ { 0 } , a _ { 1 } , \ldots , a _ { n }$is log-concave.
 
@@ -40,11 +40,11 @@ Conjecture 2. Let$\chi _ { M } ( q ) = a _ { n } q ^ { n } - a _ { n - 1 } q ^ {
 
 Recent work of Stanley [38, Conjecture 3] [40, Problem 25] has renewed interest in the above conjectures. We will show in Corollary 27 that Conjecture 2 is valid for matroids representable over a field of characteristic zero.
 
-Theorem 3. If M is representable over a field of characteristic zero, then the coeficients $o f$the characteristic polynomial of M form a sign-alternating log-concave sequence of integers with no internal zeros.
+Theorem 3. If M is representable over a field of characteristic zero, then the coeficients of the characteristic polynomial of M form a sign-alternating log-concave sequence of integers with no internal zeros.
 
-If M is the cycle matroid of a simple graph$G ,$then$\chi _ { G } ( q ) = q ^ { c } \chi _ { M } ( q )$, where c is the number of connected components of the graph. Since graphic matroids are representable over every field, this implies the validity of Conjecture 1. The approach of the present paper can be viewed as following two of Rota’s ideas [20, 39]: first, the idea that the values of the M¨obius function should be interpreted as an Euler characteristic; second, the idea that the log-concavity of such quantities should come from their relation with quermassintegrals, or more generally, mixed volumes of convex bodies.
+If M is the cycle matroid of a simple graph$G$, then$\chi _ { G } ( q ) = q ^ { c } \chi _ { M } ( q )$, where c is the number of connected components of the graph. Since graphic matroids are representable over every field, this implies the validity of Conjecture 1. The approach of the present paper can be viewed as following two of Rota’s ideas [20, 39]: first, the idea that the values of the Möbius function should be interpreted as an Euler characteristic; second, the idea that the log-concavity of such quantities should come from their relation with quermassintegrals, or more generally, mixed volumes of convex bodies.
 
-One of the most important numerical invariants of a germ of an analytic function $f : \mathbb { C } ^ { n } \to \mathbb { C }$with an isolated singularity at the origin is the sequence$\left\{ \mu ^ { i } ( f ) \right\} _ { i = 0 } ^ { n ^ { \setminus } }$introduced by Teissier [42]. Algebraically, writing$J _ { f }$for the ideal generated by the partial derivatives of$f ,$the sequence$\left\{ \mu ^ { i } ( f ) \right\} _ { i = 0 } ^ { n }$is defined by saying that dim<sub>C</sub>$\mathbb { C } \{ x _ { 1 } , . . . , x _ { n } \} / \mathfrak { m } ^ { u } J _ { f } ^ { v }$is equal to a polynomial
+One of the most important numerical invariants of a germ of an analytic function $f : \mathbb { C } ^ { n } \to \mathbb { C }$with an isolated singularity at the origin is the sequence$\left\{ \mu ^ { i } ( f ) \right\} _ { i = 0 } ^ { n }$introduced by Teissier [42]. Algebraically, writing$J _ { f }$for the ideal generated by the partial derivatives of$f ,$the sequence$\left\{ \mu ^ { i } ( f ) \right\} _ { i = 0 } ^ { n }$is defined by saying that dim<sub>C</sub>$\mathbb { C } \{ x _ { 1 } , . . . , x _ { n } \} / \mathfrak { m } ^ { u } J _ { f } ^ { v }$is equal to a polynomial
 
 $$
 \frac {\mu^ {0} (f)}{n !} u ^ {n} + \dots + \frac {\mu^ {i} (f)}{(n - i) i !} u ^ {n - i} v ^ {i} + \dots + \frac {\mu^ {n} (f)}{n !} v ^ {n} + (\text { lower   degree   terms })
@@ -52,7 +52,7 @@ $$
 
 for large enough u and v. Geometrically,$\mu ^ { i } ( f )$is the Milnor number of$f | _ { H }$, where H is a general i-dimensional plane passing through the origin of$\mathbb { C } ^ { n }$. Like any other mixed multiplicities of a pair of m-primary ideals in a local ring,$\left\{ \mu ^ { i } ( f ) \right\} _ { i = 0 } ^ { n }$form a log-convex sequence [43, Example 3].
 
-Let h be any nonconstant homogeneous polynomial in$\mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$. In analogy with [42], we define a sequence$\left\{ \mu ^ { i } ( h ) \right\} _ { i = 0 } ^ { \check { n } }$by saying that dim<sub>C</sub>${ \mathfrak { m } } ^ { u } J _ { h } ^ { v } / { \mathfrak { m } } ^ { u + 1 } J _ { h } ^ { v }$is equal to a polynomial
+Let h be any nonconstant homogeneous polynomial in$\mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$. In analogy with [42], we define a sequence$\left\{ \mu ^ { i } ( h ) \right\} _ { i = 0 } ^ { n }$by saying that dim<sub>C</sub>${ \mathfrak { m } } ^ { u } J _ { h } ^ { v } / { \mathfrak { m } } ^ { u + 1 } J _ { h } ^ { v }$is equal to a polynomial
 
 $$
 \frac {\mu^ {0} (h)}{n !} u ^ {n} + \dots + \frac {\mu^ {i} (h)}{(n - i) i !} u ^ {n - i} v ^ {i} + \dots + \frac {\mu^ {n} (h)}{n !} v ^ {n} + (\text { lower   degree   terms })
@@ -66,7 +66,7 @@ $$
 c _ {S M} \big (\mathbf {1} _ {D (h)} \big) = \sum_ {i = 0} ^ {n} (- 1) ^ {i} \mu^ {i} (h) H ^ {i} (1 + H) ^ {n - i},
 $$
 
-where$H ^ { i }$is the class of a codimension i linear subspace in the Chow ring$A _ { * } ( \mathbb { P } ^ { n } )$ The above is a reformulation in terms of$\mu ^ { i } ( h )$of a formula due to Alufi [2, Theorem 2.1]. See Remark 10.
+where$H ^ { i }$is the class of a codimension i linear subspace in the Chow ring$A _ { * } ( \mathbb { P } ^ { n } )$. The above is a reformulation in terms of$\mu ^ { i } ( h )$of a formula due to Alufi [2, Theorem 2.1]. See Remark 10.
 
 (2) If h is a product of linear forms, then$\mu ^ { i } ( h )$are the Betti numbers of$D ( h )$. In this case, the sequence$\mu ^ { i } ( h )$is determined by the expression
 
@@ -74,7 +74,7 @@ $$
 \chi_ {M} (q) / (q - 1) = \sum_ {i = 0} ^ {n} (- 1) ^ {i} \mu^ {i} (h) q ^ {n - i},
 $$
 
-where M is the matroid corresponding to the central hyperplane arrangement in C<sup>n+1</sup> defined by h. This CW model of$D ( h )$is the one used by Dimca and Papadima in [7] to show that$D ( h )$is minimal. See Corollary 25.
+where M is the matroid corresponding to the central hyperplane arrangement in$\mathbb { C } ^ { n + 1 }$defined by h. This CW model of$D ( h )$is the one used by Dimca and Papadima in [7] to show that$D ( h )$is minimal. See Corollary 25.
 
 Theorem 15 is an analogue of Kouchnirenko’s theorem [19] relating the Milnor number with the Newton polytope. Let$\Delta \subset \mathbb { R } ^ { n }$be the standard n-dimensional simplex, and let $\Delta _ { h } \subset \mathbb { R } ^ { n }$be the convex hull of exponents of dehomogenized monomials appearing in one of the partial derivatives of h. Then the numbers$\mu ^ { i } ( h )$satisfy
 
@@ -84,13 +84,13 @@ $$
 
 where$\mathrm { M V } _ { n }$stands for the mixed volume of convex polytopes. Therefore, if h has small Newton polytope under some choice of coordinates, then the Betti numbers of$D ( h )$cannot be large. Example 16 shows that for each n there is an$h$for which the equalities hold simultaneously for all i.
 
-Theorem 21 characterizes homology classes corresponding to subvarieties of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$，up to a positive integer multiple. Let$\xi$be an element of the Chow group,
+Theorem 21 characterizes homology classes corresponding to subvarieties of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$, up to a positive integer multiple. Let$\xi$be an element of the Chow group,
 
 $$
 \xi = \sum_ {i} e _ {i} \left[ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \right] \in A _ {k} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {m}),
 $$
 
-where the term containing$e _ { i }$is zero if$n < k - i$or$m < i ,$. Then some multiple of$\xi$corresponds to an irreducible subvariety if the$e _ { i }$form a log-concave sequence of nonnegative integers with no internal zeros. In particular, the numbers$\mu ^ { i } ( h )$form a log-concave sequence of nonnegative integers with no internal zeros for any h. Combined with Corollary 25, this shows the validity of Conjecture 2 for matroids representable over$\mathbb { C }$
+where the term containing$e _ { i }$is zero if$n < k - i$or$m < i ,$. Then some multiple of$\xi$corresponds to an irreducible subvariety if the$e _ { i }$form a log-concave sequence of nonnegative integers with no internal zeros. In particular, the numbers$\mu ^ { i } ( h )$form a log-concave sequence of nonnegative integers with no internal zeros for any h. Combined with Corollary 25, this shows the validity of Conjecture 2 for matroids representable over$\mathbb { C }$.
 
 Trung and Verma show in [47] that the mixed volumes of lattice polytopes in$\mathbb { R } ^ { n }$are the mixed multiplicities of certain monomial ideals, each generated by monomials of the same degree. They then ask whether an analogue of the Alexandrov-Fenchel inequality on mixed volumes of convex bodies holds for ideals of height n in a local or standard graded ring of dimension$n + 1$[47, Question 2.7]. In Example 23, we show that the answer to their question is no in general.
 
@@ -132,9 +132,9 @@ $$
 \left[ \Gamma_ {J} \right] = \sum_ {i} e _ {i} \left[ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \right] \in A _ {k} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {m}),
 $$
 
-where$k$is the dimension of$X$. In other words, the mixed multiplicities of m and$J$are the projective degrees of the rational map$\varphi _ { J } \ [ 1 2 ,$, Example 19.4]. In particular,$e _ { k }$is the degree of$\varphi _ { J }$times the degree of the image of$\varphi _ { J }$
+where$k$is the dimension of$X$. In other words, the mixed multiplicities of m and$J$are the projective degrees of the rational map$\varphi _ { J }$[12, Example 19.4]. In particular,$e _ { k }$is the degree of$\varphi _ { J }$times the degree of the image of$\varphi _ { J }$.
 
-The notion of mixed multiplicities can be extended to a sequence of ideals$J _ { 1 } , \ldots , J _ { s }$ Consider the standard$\mathbb { N } ^ { s + 1 }$-graded algebra
+The notion of mixed multiplicities can be extended to a sequence of ideals$J _ { 1 } , \ldots , J _ { s }$. Consider the standard$\mathbb { N } ^ { s + 1 }$-graded algebra
 
 $$
 R = R (\mathfrak {m} | J _ {1}, \ldots , J _ {s}) = \bigoplus_ {(u, v _ {1}, \ldots , v _ {s}) \in \mathbb {N} ^ {s + 1}} \mathfrak {m} ^ {u} J _ {1} ^ {v _ {1}} \dots J _ {s} ^ {v _ {s}} / \mathfrak {m} ^ {u + 1} J _ {1} ^ {v _ {1}} \dots J _ {s} ^ {v _ {s}}.
@@ -148,7 +148,7 @@ $$
 
 where the sum is over the sequences${ \bf i } = ( i _ { 0 } , i _ { 1 } , \dots , i _ { s } )$of nonnegative integers whose sum is$n .$Trung and Verma show in [47, Corollary 1.6] that positive mixed multiplicities can be expressed as Hilbert-Samuel multiplicities. Let S be a local ring with infinite residue field and$J _ { 1 } , \ldots , J _ { s }$be ideals of$S .$Suppose that$\mathrm { H P } _ { R }$has the total degree n and let ${ \bf i } = ( i _ { 0 } , i _ { 1 } , \dots , i _ { s } )$be any sequence of nonnegative integers whose sum is$n .$
 
-Theorem 5 (Trung-Verma). Let$Q$be an ideal generated by$i _ { 1 }$general elements<sup>1</sup> in$J _ { 1 }$, $\cdot \cdot \cdot ,$and$i _ { s }$general elements in$J _ { s }$. Then
+Theorem 5 (Trung-Verma). Let$Q$be an ideal generated by$i _ { 1 }$general elements<sup>1</sup> in$J _ { 1 }$, $\cdot \cdot \cdot$, and$i _ { s }$general elements in$J _ { s }$. Then
 
 $$
 e _ {\mathbf {i}} \left(\mathfrak {m} \mid J _ {1}, \dots , J _ {s}\right) > 0 \quad i f f \quad \dim S / \left(Q: J _ {1} \dots J _ {s} ^ {\infty}\right) = i _ {0} + 1.
@@ -162,23 +162,7 @@ $$
 
 One readily verifies that the analogous statement holds for a standard graded ring$S$over an infinite field, the irrelevant ideal m, and homogeneous ideals$J _ { 1 } , \ldots , J _ { s }$. We refer to [46, 47] for details and more general statements.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">(f1, . . . , fm)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">U ⊆ κm</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">(c1, . . . , cm)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">κ<sup>m</sup></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">U,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f = P<sup>m</sup><sub>k=1</sub> c<sub>k</sub>f<sub>k</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We say that a property holds for a general element f of an ideal in a local ring with infinite residue field κ if there exists a nonempty Zariski-open subset U ⊆ κ<sup>m</sup> such that whenever and the image of in belongs to  the property holds for</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We say that a property holds for a general element f of an ideal (f₁, . . . , fₘ) in a local ring with infinite residue field κ if there exists a nonempty Zariski-open subset U ⊆ κ<sup>m</sup> such that whenever f = Σ<sup>m</sup><sub>k=1</sub> c<sub>k</sub>f<sub>k</sub> and the image of (c₁, . . . , cₘ) in κ belongs to U, the property holds for f.</span></small>
 
 2.2. Mixed multiplicities of ideals and mixed volumes of polytopes. The$n -$ dimensional volume$\mathrm { V } _ { n }$of a nonnegative linear combination$v _ { 1 } \Delta _ { 1 } + \cdot \cdot \cdot + v _ { n } \Delta _ { n }$of convex bodies in R<sup>n</sup> is a homogeneous polynomial in the coeficients$v _ { 1 } , \ldots , v _ { n }$. The mixed volume of$\Delta _ { 1 } , \ldots , \Delta _ { n }$is defined to be the coeficient of the monomial$v _ { 1 } v _ { 2 } \cdots v _ { n }$in the homogeneous polynomial. We follow the convention of [5, Chapter 7] and write$\mathrm { M V } _ { n }$for the mixed volume of convex polytopes in$\mathbb { R } ^ { n }$. For example,
 
@@ -188,7 +172,7 @@ $$
 
 for the standard n-dimensional simplex$\Delta \subset \mathbb { R } ^ { n }$. It follows from Ehrhart’s theorem [4, Section 6.3] that the multiplicity of a toric algebra is the normalized volume of the associated lattice polytope. Trung and Verma use this relation to show in [47, Corollary 2.5] that mixed volumes of lattice convex polytopes in$\mathbb { R } ^ { n }$are mixed multiplicities of certain monomial ideals. Let K be a field.
 
-Theorem 6 (Trung-Verma). Let$\Delta _ { 1 } , \ldots , \Delta _ { n }$be lattice convex polytopes in$\mathbb { R } ^ { n }$. Let$J _ { i }$ be an ideal$o f \mathbb { K } [ z _ { 0 } , z _ { 1 } , \dots , z _ { n } ]$generated by a set of monomials of the same degree such that$\Delta _ { i }$is the convex hull of exponents of their dehomogenized monomials in$\mathbb { K } [ z _ { 1 } , \dots , z _ { n } ]$ Then
+Theorem 6 (Trung-Verma). Let$\Delta _ { 1 } , \ldots , \Delta _ { n }$be lattice convex polytopes in$\mathbb { R } ^ { n }$. Let$J _ { i }$ be an ideal of$\mathbb { K } [ z _ { 0 } , z _ { 1 } , \dots , z _ { n } ]$generated by a set of monomials of the same degree such that$\Delta _ { i }$is the convex hull of exponents of their dehomogenized monomials in$\mathbb { K } [ z _ { 1 } , \dots , z _ { n } ]$. Then
 
 $$
 M V _ {n} (\Delta_ {1}, \dots , \Delta_ {n}) = e _ {(0, 1, \dots , 1)} (\mathfrak {m} | J _ {1}, \dots , J _ {n}).
@@ -270,7 +254,7 @@ $$
 \mu^ {0} (h) = e (\mathfrak {m}, S) = 1
 $$
 
-and, for suficiently general constants$c _ { 0 } , c _ { 1 } , \ldots , c _ { n } \in \mathbb { C }$2
+and, for suficiently general constants$c _ { 0 } , c _ { 1 } , \ldots , c _ { n } \in \mathbb { C }$,
 
 $$
 \begin{array}{r c l} \mu^ {1} (h) & = & e \Big (\mathfrak {m}, S / \sum_ {j = 0} ^ {n} c _ {j} \sum_ {i = 1} ^ {k} m _ {i} g _ {1} ^ {m _ {1}} \dots g _ {i} ^ {m _ {i} - 1} \dots g _ {k} ^ {m _ {k}} \frac {\partial g _ {i}}{\partial z _ {j}}: J _ {h} ^ {\infty} \Big) \\ & = & e \Big (\mathfrak {m}, S / \sum_ {j = 0} ^ {n} c _ {j} \sum_ {i = 1} ^ {k} m _ {i} g _ {1} \dots \hat {g} _ {i} \dots g _ {k} \frac {\partial g _ {i}}{\partial z _ {j}}: J _ {h} ^ {\infty} \Big) \\ & = & e \Big (\mathfrak {m}, S / \sum_ {j = 0} ^ {n} c _ {j} \sum_ {i = 1} ^ {k} m _ {i} g _ {1} \dots \hat {g} _ {i} \cdot \cdot \cdot g _ {k} \frac {\partial g _ {i}}{\partial z _ {j}} \Big) \\ & = & d - 1, \end{array}
@@ -278,7 +262,7 @@ $$
 
 where ˆ indicates an omission of the corresponding factor. This agrees with the fact that $D ( h ) _ { 0 }$is a point and$D ( h ) _ { 1 }$is homotopic to a bouquet of$d - 1$circles.
 
-Example 12. Suppose$h \in \mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$is reduced of degree d and$V ( h )$has only isolated singular points, say at$p _ { 1 } , \ldots , p _ { m }$. Since$J _ { h }$has height$n ,$suficiently general linear combinations$a _ { 1 } , \ldots , a _ { n }$of its generators form a regular sequence. Therefore, for$0 \leq i < n$9
+Example 12. Suppose$h \in \mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$is reduced of degree d and$V ( h )$has only isolated singular points, say at$p _ { 1 } , \ldots , p _ { m }$. Since$J _ { h }$has height$n ,$suficiently general linear combinations$a _ { 1 } , \ldots , a _ { n }$of its generators form a regular sequence. Therefore, for$0 \leq i < n$,
 
 $$
 \begin{array}{r c l} \mu^ {i} (h) & = & e \big (\mathfrak {m}, S / (a _ {1}, \ldots , a _ {i}): J _ {h} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, S / (a _ {1}, \ldots , a _ {i}) \big) \\ & = & (d - 1) ^ {i}. \end{array}
@@ -298,7 +282,7 @@ Definition 13. For any nonzero homogeneous$h \in \mathbb { C } [ z _ { 0 } , z _
 
 Note that$\Delta _ { h }$is determined by the Newton polytope of h.
 
-Example 14. Let h be the degree d homogeneous polynomial in$\mathbb { C } [ z _ { 0 } , z _ { 1 } ]$2
+Example 14. Let h be the degree d homogeneous polynomial in$\mathbb { C } [ z _ { 0 } , z _ { 1 } ]$,
 
 $$
 h = \sum_ {i = a} ^ {b} c _ {i} z _ {0} ^ {d - i} z _ {1} ^ {i} = z _ {0} ^ {d - b} z _ {1} ^ {a} \left(\sum_ {i = a} ^ {b} c _ {i} z _ {0} ^ {b - i} z _ {1} ^ {i - a}\right),
@@ -328,11 +312,11 @@ $$
 b _ {i} \big (D (h) \big) \leq \mu^ {i} (h) \leq M V _ {n} (\underbrace {\Delta , \ldots , \Delta} _ {n - i}, \underbrace {\Delta_ {h} , \ldots , \Delta_ {h}} _ {i}),
 $$
 
-where$\Delta$is the standard n-dimensional simplex in$\mathbb { R } ^ { n }$
+where$\Delta$is the standard n-dimensional simplex in$\mathbb { R } ^ { n }$.
 
 Therefore, if h has a small Newton polytope under some choice of coordinates, then the Betti numbers of$D ( h )$cannot be large.
 
-Example 16. Let h be the product of variables$z _ { 0 } z _ { 1 } \cdot \cdot \cdot z _ { n } \in \mathbb { C } [ z _ { 0 } , . . . , z _ { n } ]$. Then$D ( h )$is the complex torus$( \mathbb { C } ^ { * } ) ^ { n }$, so the Betti numbers are the binomial coeficients$\binom { n } { i }$. We compare the Betti numbers with the mixed volumes of$\Delta$and$\Delta _ { h }$. Since$\Delta _ { h }$is a translation$\mathrm { o f } - \Delta$2 we may replace$\Delta _ { h }$by ∆ when computing the mixed volumes. For$I \subseteq [ n ] = \{ 1 , . . . , n \}$, write R<sup>n</sup> for the orthant
+Example 16. Let h be the product of variables$z _ { 0 } z _ { 1 } \cdot \cdot \cdot z _ { n } \in \mathbb { C } [ z _ { 0 } , . . . , z _ { n } ]$. Then$D ( h )$is the complex torus$( \mathbb { C } ^ { * } ) ^ { n }$, so the Betti numbers are the binomial coeficients$\binom { n } { i }$. We compare the Betti numbers with the mixed volumes of$\Delta$and$\Delta _ { h }$. Since$\Delta _ { h }$is a translation of$- \Delta$, we may replace$\Delta _ { h }$by$- \Delta$when computing the mixed volumes. For$I \subseteq [ n ] = \{ 1 , . . . , n \}$, write R<sup>n</sup> for the orthant
 
 $$
 \mathbb {R} _ {I} ^ {n} = \bigcap_ {p, q} \left\{x _ {p} \geq 0, x _ {q} \leq 0 \right\},
@@ -356,7 +340,7 @@ $$
 \mathrm{MV} _ {n} (\underbrace {\Delta , \ldots , \Delta} _ {n - i}, \underbrace {\Delta_ {h} , \ldots , \Delta_ {h}} _ {i}) = \binom{n}{i}.
 $$
 
-We note that equality holds throughout in Theorem 15, for al$i = 0 , \ldots , n$and any$n \geq 1$
+We note that equality holds throughout in Theorem 15, for all$i = 0 , \ldots , n$and any$n \geq 1$.
 
 Example 17. There are polytopes in$\mathbb { R } ^ { n + 1 }$such that the second inequality of Theorem 15 is strict for some i for all h having the given polytope as the Newton polytope. For example, consider the homogeneous polynomial in$\mathbb { C } [ z _ { 0 } , z _ { 1 } , z _ { 2 } ]$
 
@@ -372,11 +356,11 @@ $$
 
 One can show that almost all homogeneous polynomials with a given Newton polytope share the numbers$\mu ^ { i } ( h )$. An explicit formula for the numbers will appear elsewhere.
 
-3.2. Representable homology classes of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$. An algebraic variety is a reduced and irreducible scheme of finite type over an algebraically closed field. Given an algebraic variety$X ,$, we pose the following question: which homology classes of$X$can be represented by a subvariety? See [13, Question 1.3] for a related discussion.
+3.2. Representable homology classes of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$. An algebraic variety is a reduced and irreducible scheme of finite type over an algebraically closed field. Given an algebraic variety$X$, we pose the following question: which homology classes of$X$can be represented by a subvariety? See [13, Question 1.3] for a related discussion.
 
-Definition 18. We say that$\xi \in A _ { * } ( X )$is representable if there is a subvariety$Z$of X with$\xi = [ Z ]$
+Definition 18. We say that$\xi \in A _ { * } ( X )$is representable if there is a subvariety$Z$of X with$\xi = [ Z ]$.
 
-Theorem 21 asserts that representable homology classes of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$correspond to logconcave sequences of nonnegative numbers with no internal zero. We start by giving two examples illustrating cases of exceptional nature.
+Theorem 21 asserts that representable homology classes of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$correspond to log-concave sequences of nonnegative numbers with no internal zero. We start by giving two examples illustrating cases of exceptional nature.
 
 Example 19. Let X be the projective space$\mathbb P ^ { n }$. Write$\xi \in A _ { k } ( \mathbb { P } ^ { n } )$as a multiple
 
@@ -386,9 +370,9 @@ $$
 
 for some$e \in \mathbb { Z } .$
 
-1. If$k = 0$or$k = n ,$, then$\xi$is representable if$e = 1$
+1. If$k = 0$or$k = n$, then$\xi$is representable iff$e = 1$.
 
-2. If otherwise, then ξ is representable if$e \geq 1 { \mathrm { . } }$
+2. If otherwise, then ξ is representable iff$e \geq 1$.
 
 In the latter case, one may use an irreducible hypersurface of degree e in$\mathbb { P } ^ { k + 1 } \subseteq \mathbb { P } ^ { n }$to represent$\xi .$
 
@@ -400,9 +384,9 @@ $$
 
 for some$e _ { 0 } , e _ { 1 } \in \mathbb { Z } .$
 
-1. If one of the$e _ { i }$is zero, then$\xi$is representable if the other$e _ { i }$is 1.
+1. If one of the$e _ { i }$is zero, then$\xi$is representable iff the other$e _ { i }$is 1.
 
-2. If otherwise, then$\xi$is representable if both$e _ { i }$are positive.
+2. If otherwise, then$\xi$is representable iff both$e _ { i }$are positive.
 
 Note that in the former case, by the fundamental theorem of algebra, a nonconstant bihomogeneous polynomial of degree$( e _ { 0 } , e _ { 1 } )$is reducible if one of the$e _ { i }$is zero, unless the other$e _ { i }$is 1.
 
@@ -414,7 +398,7 @@ $$
 \xi = \sum_ {i} e _ {i} \big [ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \big ],
 $$
 
-where the term containing$e _ { i }$is zero${ i f } n < k - i ~ o r ~ m < i$
+where the term containing$e _ { i }$is zero if$n < k - i$or$m < i$.
 
 1.$I f \xi$is an integer multiple of either
 
@@ -422,9 +406,9 @@ $$
 \left[ \mathbb {P} ^ {n} \times \mathbb {P} ^ {m} \right], \left[ \mathbb {P} ^ {n} \times \mathbb {P} ^ {0} \right], \left[ \mathbb {P} ^ {0} \times \mathbb {P} ^ {m} \right], \left[ \mathbb {P} ^ {0} \times \mathbb {P} ^ {0} \right],
 $$
 
-then$\xi$is representable if the integer is 1.
+then$\xi$is representable iff the integer is 1.
 
-2. If otherwise, some positive integer multiple$o f \xi$is representable$i f f$the$e _ { i }$form a nonzero log-concave sequence of nonnegative integers with no internal zeros.
+2. If otherwise, some positive integer multiple of$\xi$is representable iff the$e _ { i }$form a nonzero log-concave sequence of nonnegative integers with no internal zeros.
 
 Combined with Remark 4, Theorem 21 implies the following.
 
@@ -432,13 +416,13 @@ Corollary 22. If J is an ideal of a standard graded domain over an algebraically
 
 Example 23. We show by example that the anwer to the following question of Trung and Verma [47, Question 2.7] is no in general.
 
-Let A be a local ring of dimension$n + 1 \geq 3 , J _ { 1 , . . . , J _ { n } }$be ideals of height n, and $\mathbf { i } = ( 0 , 1 , \ldots , 1 )$. Is it true that
+Let A be a local ring of dimension$n + 1 \geq 3$, $J _ { 1 } , \ldots , J _ { n }$be ideals of height n, and $\mathbf { i } = ( 0 , 1 , \ldots , 1 )$. Is it true that
 
 $$
 e _ {\mathbf {i}} (\mathfrak {m} | J _ {1}, J _ {1}, J _ {3}, \dots , J _ {n}) e _ {\mathbf {i}} (\mathfrak {m} | J _ {2}, J _ {2}, J _ {3}, \dots , J _ {n}) \leq e _ {\mathbf {i}} (\mathfrak {m} | J _ {1}, J _ {2}, J _ {3}, \dots , J _ {n}) ^ {2}?
 $$
 
-Let A be the power series ring$\mathbb { C } \{ x , y , z \} , J _ { 1 } = ( x y ^ { 2 } , y ^ { 3 } z , x z )$and$J _ { 2 } = ( x y ^ { 2 } , y ^ { 3 } z , x z ^ { 2 } )$ ideals of A. Then$\mathrm { h t } ( J _ { 1 } ) = \mathrm { h t } ( J _ { 2 } ) = 2$. However, using Theorem 5 one computes
+Let A be the power series ring$\mathbb { C } \{ x , y , z \}$, $J _ { 1 } = ( x y ^ { 2 } , y ^ { 3 } z , x z )$, and$J _ { 2 } = ( x y ^ { 2 } , y ^ { 3 } z , x z ^ { 2 } )$ ideals of A. Then$\mathrm { h t } ( J _ { 1 } ) = \mathrm { h t } ( J _ { 2 } ) = 2$. However, using Theorem 5 one computes
 
 $$
 \begin{array}{r c l} e _ {(0, 1, 1)} (\mathfrak {m} | J _ {1}, J _ {1}) & = & 1, \\ e _ {(0, 1, 1)} (\mathfrak {m} | J _ {1}, J _ {2}) & = & 1, \\ e _ {(0, 1, 1)} (\mathfrak {m} | J _ {2}, J _ {2}) & = & 2. \end{array}
@@ -458,19 +442,19 @@ $$
 \begin{array}{r c l} e _ {(0, 1, 1)} (\mathfrak {m} | J _ {2}, J _ {2}) & = & e \big (\mathfrak {m}, A / (\Box x y ^ {2} + \Box y ^ {3} z + \Box x z ^ {2}, \Box x y ^ {2} + \Box y ^ {3} z + \Box x z ^ {2}): J _ {2} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, A / (\Box x y ^ {2} + \Box x z ^ {2}, \Box y ^ {3} z + \Box x z ^ {2}): J _ {2} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, A / (\Box y ^ {2} + \Box z ^ {2}, \Box y ^ {3} + \Box x z): J _ {2} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, A / (\Box y ^ {2} + \Box z ^ {2}, \Box y z ^ {2} + \Box x z): J _ {2} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, A / (\Box y ^ {2} + \Box z ^ {2}, \Box y z + \Box x): J _ {2} ^ {\infty} \big) \\ & = & e \big (\mathfrak {m}, A / (\Box y ^ {2} + \Box z ^ {2}, \Box y z + \Box x) \big) \\ & = & 2. \end{array}
 $$
 
-In each of the three computations above, the first equality is an application of Theorem 5, the second is a Gaussian elimination, and the third is a result of saturation. The same technique is used twice in the computation of$e _ { ( 0 , 1 , 1 ) } ( \mathfrak { m } | J _ { 2 } , J _ { 2 } )$
+In each of the three computations above, the first equality is an application of Theorem 5, the second is a Gaussian elimination, and the third is a result of saturation. The same technique is used twice in the computation of$e _ { ( 0 , 1 , 1 ) } ( \mathfrak { m } | J _ { 2 } , J _ { 2 } )$.
 
-3.3. Log-concavity of characteristic polynomials. Suppose$h \in \mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$is a product of linear forms. Let$\mathcal { \tilde { A } } \subset \mathbb { C } ^ { n + 1 }$be the central hyperplane arrangement defined by h and$A \subset \mathbb { P } ^ { n }$ebe the corresponding projective arrangement.
+3.3. Log-concavity of characteristic polynomials. Suppose$h \in \mathbb { C } [ z _ { 0 } , \ldots , z _ { n } ]$is a product of linear forms. Let$\mathcal { \tilde { A } } \subset \mathbb { C } ^ { n + 1 }$be the central hyperplane arrangement defined by h and$\mathcal { A } \subset \mathbb { P } ^ { n }$be the corresponding projective arrangement.
 
-Definition 24. Let H be a hyperplane in . The decone of  is an afine arrangement
+Definition 24. Let H be a hyperplane in$\mathcal { A }$. The decone of$\mathcal { A }$is an afine arrangement
 
 $$
 \overline {{\mathcal {A}}} = \overline {{\mathcal {A}}} ^ {H} \subset \mathbb {C} ^ {n}
 $$
 
-obtained from  by declaring H to be the hyperplane at infinity.
+obtained from$\mathcal { A }$by declaring H to be the hyperplane at infinity.
 
-The lattice of flats${ \mathcal { L } } _ { \overline { { A } } }$is isomorphic to the sublattice of$\mathcal { L } _ { \widetilde { A } }$consisting of all the flats not contained in the hyperplane H. It follows from the modular element factorization [41, Corollary 4.8] that
+The lattice of flats${ \mathcal { L } } _ { \overline { \mathcal { A } } }$is isomorphic to the sublattice of$\mathcal { L } _ { \widetilde { \mathcal { A } } }$consisting of all the flats not contained in the hyperplane H. It follows from the modular element factorization [41, Corollary 4.8] that
 
 $$
 \chi_ {\overline {{\mathcal {A}}}} (q) = \chi_ {\widetilde {\mathcal {A}}} (q) / (q - 1).
@@ -482,16 +466,16 @@ $$
 \chi_ {\overline {{\mathcal {A}}}} (q) = \sum_ {i = 0} ^ {n} (- 1) ^ {i} b _ {i} (D (h)) q ^ {n - i} = \sum_ {i = 0} ^ {n} (- 1) ^ {i} \mu^ {i} (h) q ^ {n - i}.
 $$
 
-Proof. The first equality is a theorem of Orlik and Solomon applied to the afine arrangement${ \overline { { A } } } \subset \mathbb { C } ^ { n } \ [ 2 8 ]$. We adapt an argument of Randell [30] to prove the second equality. Fix a suficiently general flag of linear subspaces
+Proof. The first equality is a theorem of Orlik and Solomon applied to the afine arrangement$\overline { \mathcal { A } } \subset \mathbb { C } ^ { n }$[28]. We adapt an argument of Randell [30] to prove the second equality. Fix a suficiently general flag of linear subspaces
 
 $$
 \mathbb {P} ^ {0} \subset \mathbb {P} ^ {1} \subset \dots \subset \mathbb {P} ^ {n - 1} \subset \mathbb {P} ^ {n}
 $$
 
-and a nonnegative integer$k < n$. If the linear subspace$\mathbb { P } ^ { k }$is transversal to all the flats of of relevant dimensions, then the lattice of flats$\mathcal { L } _ { \overline { { A | _ { \mathbb { P } } k } } }$is isomorphic to the sublattice of ${ \mathcal { L } } _ { \overline { { A } } }$consisting of all the flats of codimension$\leq k .$. It follows that$\chi \frac { \mathcal { ( 9 ) } } { \mathcal { A } | _ { \mathbb { P } ^ { k } } } ( q )$is a truncation of$\chi _ { \overline { { \mathcal { A } } } } ( q )$. Combined with the first equality, we have
+and a nonnegative integer$k < n$. If the linear subspace$\mathbb { P } ^ { k }$is transversal to all the flats of$\overline { \mathcal { A } }$of relevant dimensions, then the lattice of flats$\mathcal { L } _ { \overline { \mathcal { A } } | _ { \mathbb { P } ^ { k } } }$is isomorphic to the sublattice of ${ \mathcal { L } } _ { \overline { { A } } }$consisting of all the flats of codimension$\leq k$. It follows that$\chi _ { \overline { \mathcal { A } } | _ { \mathbb { P } ^ { k } } } ( q )$is a truncation of$\chi _ { \overline { { \mathcal { A } } } } ( q )$. Combined with the first equality, we have
 
 $$
-\chi_ {\overline {{{\mathcal {A} _ {| \mathbb {P} ^ {k}}}}}} (q) = \sum_ {i = 0} ^ {k} (- 1) ^ {i} b _ {i} (D (h)) q ^ {k - i}.
+\chi_ {\overline {\mathcal {A}} | _ {\mathbb {P} ^ {k}}} (q) = \sum_ {i = 0} ^ {k} (- 1) ^ {i} b _ {i} (D (h)) q ^ {k - i}.
 $$
 
 In particular,$b _ { k } \bigl ( D ( h ) \cap \mathbb { P } ^ { k } \bigr ) = b _ { k } \bigl ( D ( h ) \bigr )$. If furthermore$\mathbb { P } ^ { k }$is chosen so that it satisfies the genericity assumption of Theorem 9, then$D ( h ) \cap \mathbb { P } ^ { k + 1 }$is obtained from$D ( h ) \cap \mathbb { P } ^ { k }$by attaching$\mu ^ { k + 1 } ( h )$cells of dimension$k + 1$. Since the attaching does not alter the k-th Betti number, this attaching map should be homologically trivial. Therefore
@@ -503,7 +487,7 @@ $$
 Remark 26. Using the additivity of the Chern-Schwartz-MacPherson class [23], it is possible to prove the equality
 
 $$
-\chi_ {\overline {{{\mathcal {A}}}}} (q) = \sum_ {i = 0} ^ {n} (- 1) ^ {i} \mu^ {i} (h) q ^ {n - i}
+\chi_ {\overline {\mathcal {A}}} (q) = \sum_ {i = 0} ^ {n} (- 1) ^ {i} \mu^ {i} (h) q ^ {n - i}
 $$
 
 without using Theorem 9 nor the theorem of Orlik and Solomon. Example 11 shows that the equality holds when$n = 1$. Therefore, by induction on the dimension, it sufices to show that both polynomials satisfy the same recursive formula for a triple of afine arrangements$( \overline { { { \mathcal { A } } } } , \overline { { { \mathcal { A } } } } ^ { \prime } , \overline { { { \mathcal { A } } } } ^ { \prime \prime } )$[29, Definition 1.14]. Let$h , h ^ { \prime } , h ^ { \prime \prime }$be homogeneous polynomials corresponding to the triple. Then by the additivity of the Chern-Schwartz-MacPherson class,
@@ -520,17 +504,17 @@ $$
 
 for$0 \ < \ i \ \leq \ n$, which exactly corresponds to the inductive formula of Brylawski and Zaslavsky for the characteristic polynomial of triples [29, Theorem 2.56].
 
-Corollary 27. If M is representable over a field of characteristic zero, then the coeficients$o f \chi _ { M } ( q )$form a sign-alternating log-concave sequence of integers with no internal zeros.
+Corollary 27. If M is representable over a field of characteristic zero, then the coeficients of$\chi _ { M } ( q )$form a sign-alternating log-concave sequence of integers with no internal zeros.
 
-Proof. Suppose M is representable over$\mathbb { C } .$Let${ \mathcal { A } } \subset \mathbb { P } ^ { n }$and$\mathcal { \tilde { A } } \subset \mathbb { C } ^ { n + 1 }$be the projective eand the central arrangements, respectively, representing M. If$\overline { { A } }$is a decone of${ \mathcal { A } } ,$then
+Proof. Suppose M is representable over$\mathbb { C } .$Let${ \mathcal { A } } \subset \mathbb { P } ^ { n }$and$\mathcal { \tilde { A } } \subset \mathbb { C } ^ { n + 1 }$be the projective and the central arrangements, respectively, representing M. If$\overline { \mathcal { A } }$is a decone of$\mathcal { A }$,then
 
 $$
 \chi_ {M} (q) = \chi_ {\widetilde {\mathcal {A}}} (q) = (q - 1) \chi_ {\overline {{\mathcal {A}}}} (q).
 $$
 
-Corollary 22 together with Corollary 25 says that the absolute values of the coeficients of$\chi _ { \overline { { \mathcal { A } } } } ( q )$form a log-concave sequence of nonnegative integers with no internal zeros, and hence the same for$\chi _ { M } ( q )$. (In general, the convolution product of two log-concave sequences is again log-concave. It is easy to check this directly in our case.) This shows that the assertion holds for matroids representable over$\mathbb { C }$
+Corollary 22 together with Corollary 25 says that the absolute values of the coeficients of$\chi _ { \overline { { \mathcal { A } } } } ( q )$form a log-concave sequence of nonnegative integers with no internal zeros, and hence the same for$\chi _ { M } ( q )$. (In general, the convolution product of two log-concave sequences is again log-concave. It is easy to check this directly in our case.) This shows that the assertion holds for matroids representable over$\mathbb { C }$.
 
-We claim that simple matroids representable over a field of characteristic zero are in fact representable over C. For this we check that matroid representability can be expressed in a first-order sentence in the language of fields and appeal to the completeness of$\mathrm { A C F _ { 0 } }$ [24, Corollary 3.2.3]. If M is a simple matroid of rank r on a set$E$of cardinality$n ,$then M is representable over a field K if and only if the following formula is valid over K [48, Section 9.1]: There are n column vectors of length r labelled by the elements of$E ,$where a subset of$E$is independent if and only if the corresponding set of vectors is linearly independent.
+We claim that simple matroids representable over a field of characteristic zero are in fact representable over$\mathbb { C }$. For this we check that matroid representability can be expressed in a first-order sentence in the language of fields and appeal to the completeness of$\mathrm { A C F _ { 0 } }$ [24, Corollary 3.2.3]. If M is a simple matroid of rank r on a set$E$of cardinality$n ,$then M is representable over a field K if and only if the following formula is valid over K [48, Section 9.1]: There are n column vectors of length r labelled by the elements of$E ,$where a subset of$E$is independent if and only if the corresponding set of vectors is linearly independent.
 
 ## 4. Milnor numbers of projective hypersurfaces
 
@@ -546,11 +530,11 @@ Theorem 28 (Dimca-Papadima). Let$H \subset \mathbb { P } ^ { n }$be a general hy
 
 1.$D ( h )$is homotopy equivalent to a CW complex obtained from$D ( h ) \cap H$by attaching deg(h) cells of dimension n.
 
-2.$V ( h ) \setminus H$is homotopic to a bouquet of deg(h) spheres of dimension$n - 1$
+2.$V ( h ) \setminus H$is homotopic to a bouquet of deg(h) spheres of dimension$n - 1$.
 
-In particular, deg(h) depends only on the set$V ( h )$. Our goal is to identify the mixed multiplicity$\mu ^ { i } ( h )$with the degree of the gradient map of a general i-dimensional section of$V ( h )$
+In particular, deg(h) depends only on the set$V ( h )$. Our goal is to identify the mixed multiplicity$\mu ^ { i } ( h )$with the degree of the gradient map of a general i-dimensional section of$V ( h )$.
 
-Lemma 29. Let J be a homogeneous ideal of a standard graded algebra$S$over a field. Then, for a suficiently general linear form x in$S , { \overline { { S } } } = S / x S$,
+Lemma 29. Let J be a homogeneous ideal of a standard graded algebra$S$over a field. Then, for a suficiently general linear form x in$S$, $\overline { S } = S / x S$,
 
 $$
 H P _ {R (\mathfrak {m} \overline {{S}}, J \overline {{S}})} (u, v) = H P _ {R (\mathfrak {m} | J)} (u, v) - H P _ {R (\mathfrak {m} | J)} (u - 1, v).
@@ -559,7 +543,7 @@ $$
 It follows that
 
 $$
-e _ {i} (\mathfrak {m} \overline {{S}} | J \overline {{S}}) = e _ {i} (\mathfrak {m} | J) \quad f o r 0 \leq i <   \deg H P _ {R (\mathfrak {m} | J)}.
+e _ {i} (\mathfrak {m} \overline {{S}} | J \overline {{S}}) = e _ {i} (\mathfrak {m} | J) \quad \text{for } 0 \leq i < \deg \mathrm{HP} _ {R (\mathfrak {m} | J)}.
 $$
 
 Proof. See [47, Lemma 1.3].
@@ -569,7 +553,7 @@ Recall that a subideal$I \subseteq J$is said to be a reduction of J if there exi
 Lemma 30. If I is a reduction of J, then
 
 $$
-e _ {i} (\mathfrak {m} | I) = e _ {i} (\mathfrak {m} | J) \quad f o r 0 \leq i \leq \deg H P _ {R (\mathfrak {m} | J)}.
+e _ {i} (\mathfrak {m} | I) = e _ {i} (\mathfrak {m} | J) \quad \text{for } 0 \leq i \leq \deg \mathrm{HP} _ {R (\mathfrak {m} | J)}.
 $$
 
 Proof. See [46, Corollary 3.8].
@@ -578,7 +562,7 @@ The following lemma is a version of Teissier’s idealistic Bertini theorem on f
 
 Lemma 31. Let x be a nonzero linear form in$S , { \overline { { S } } } = S / x S$, and$J _ { \overline { { h } } }$be the Jacobian ideal of the class of h in$\overline { S }$. Then, for a suficiently general$x , \ J _ { \overline { { h } } }$is a reduction of$J _ { h } \overline { { S } }$
 
-Proof. It sufices to prove when the partial derivatives of h are linearly independent. Let V be the vector space of linear forms in S and let W be the vector space spanned by the partial derivatives of h. If x is a linear form$c _ { 0 } z _ { 0 } + \cdots + c _ { n } z _ { n }$with$c _ { n } \neq 0$, then$\check { \overline { { S } } }$ is the polynomial ring generated by the classes of$z _ { 0 } , \ldots , z _ { n - 1 }$. By the chain rule,$J _ { \overline { { h } } }$is generated by the restrictions of the polynomials
+Proof. It sufices to prove when the partial derivatives of h are linearly independent. Let V be the vector space of linear forms in S and let W be the vector space spanned by the partial derivatives of h. If x is a linear form$c _ { 0 } z _ { 0 } + \cdots + c _ { n } z _ { n }$with$c _ { n } \neq 0$, then$\overline { S }$ is the polynomial ring generated by the classes of$z _ { 0 } , \ldots , z _ { n - 1 }$. By the chain rule,$J _ { \overline { { h } } }$is generated by the restrictions of the polynomials
 
 $$
 c _ {n} \frac {\partial h}{\partial z _ {i}} - c _ {i} \frac {\partial h}{\partial z _ {n}}, \qquad 0 \leq i <   n.
@@ -611,13 +595,13 @@ Lemma 32. Let S be a standard graded ring of dimension$n + 1$over a field, m the
 1. Suppose I and J are ideals of positive height, both generated by elements of the same degree$r \geq 0 . \mathrm { ~ } I f I \subseteq J$, then
 
 $$
-e _ {i} (\mathfrak {m} | I) \leq e _ {i} (\mathfrak {m} | J) \quad f o r i = 0, \dots , n.
+e _ {i} (\mathfrak {m} | I) \leq e _ {i} (\mathfrak {m} | J) \quad \text{for } i = 0, \dots , n.
 $$
 
 2. Suppose I and J are m-primary ideals. If$I \subseteq J$, then
 
 $$
-e _ {i} (\mathfrak {m} | I) \geq e _ {i} (\mathfrak {m} | J) \quad f o r i = 0, \dots , n.
+e _ {i} (\mathfrak {m} | I) \geq e _ {i} (\mathfrak {m} | J) \quad \text{for } i = 0, \dots , n.
 $$
 
 Proof. If I and J are ideals of positive height, then deg$\mathrm { H P } _ { R ( \mathfrak { m } | I ) } = \deg \mathrm { H P } _ { R ( \mathfrak { m } | J ) } = n \ [ 4 7$ Theorem 1.2]. We prove the first part by induction on n. Since I and J are generated by elements of the same degree,
@@ -644,13 +628,13 @@ $$
 \sum_ {i = 0} ^ {n} \frac {e _ {i} (\mathfrak {m} | I)}{(n - i) ! i !} u ^ {n - i} v ^ {i} \leq \sum_ {i = 0} ^ {n} \frac {e _ {i} (\mathfrak {m} | J)}{(n - i) ! i !} u ^ {n - i} v ^ {i} \quad \text { for   all   large } u \text { and   large } v.
 $$
 
-Taking the limit$u / v  0$while keeping u and v suficiently large, we have
+Taking the limit$u / v \to 0$while keeping u and v suficiently large, we have
 
 $$
 e _ {n} (\mathfrak {m} | I) \leq e _ {n} (\mathfrak {m} | J).
 $$
 
-For the remaining cases, choose a suficiently general linear form x in$S .$. Using Lemma 29 and the induction hypothesis for the triple$\begin{array} { r } { \bar { S } = S / x S , I \overline { { S } } , J \overline { { S } } . } \end{array}$, we have
+For the remaining cases, choose a suficiently general linear form x in$S$. Using Lemma 29 and the induction hypothesis for the triple$\overline { S } = S / x S , I \overline { S } , J \overline { S }$, we have
 
 $$
 e _ {i} (\mathfrak {m} | I) = e _ {i} (\mathfrak {m} \overline {{S}} | I \overline {{S}}) \leq e _ {i} (\mathfrak {m} \overline {{S}} | J \overline {{S}}) = e _ {i} (\mathfrak {m} | I) \quad \text { for } i = 0, \dots , n - 1.
@@ -682,9 +666,9 @@ $$
 
 ## 5. Representable homology classes of$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$
 
-5.1. Proof of Theorem 21. The main ingredient of Theorem 21 is the Hodge-Teissier-Khovanskii inequality [18, 44]. See also the presentations [11] and [21, Section 1.6]. We introduce another proof using Okounkov bodies, blind to the characteristic and to the singularities, which is more akin to the convex geometric viewpoint of this paper. The proof closely follows the argument of [17]. First we recall the necessary facts on Okounkov bodies from [22]. Let$D$be a divisor on an n-dimensional algebraic variety X. The Okounkov body of$D _ { : }$, denoted$\Delta ( D )$, is a compact convex subset of$\mathbb { R } ^ { n }$with the following properties.
+5.1. Proof of Theorem 21. The main ingredient of Theorem 21 is the Hodge-Teissier-Khovanskii inequality [18, 44]. See also the presentations [11] and [21, Section 1.6]. We introduce another proof using Okounkov bodies, blind to the characteristic and to the singularities, which is more akin to the convex geometric viewpoint of this paper. The proof closely follows the argument of [17]. First we recall the necessary facts on Okounkov bodies from [22]. Let$D$be a divisor on an n-dimensional algebraic variety X. The Okounkov body of$D$, denoted$\Delta ( D )$, is a compact convex subset of$\mathbb { R } ^ { n }$with the following properties.
 
-A. If H is an$\mathrm { a m p l e ^ { 2 } }$divisor on$X$, then
+A. If H is an ample\textsuperscript{2} divisor on$X$, then
 
 $$
 n! \operatorname{V} _ {n} \bigl (\Delta (H) \bigr) = \lim _ {k \to \infty} \frac {h ^ {0} \bigl (X , \mathcal {O} _ {X} (k H) \bigr)}{k ^ {n} / n !} = \int_ {X} \underbrace {H \cdot H \cdot \ldots \cdot H} _ {n}.
@@ -704,7 +688,7 @@ $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>The first equality holds more generally for big divisors [22, Theorem 2.3].</span></small>
 
-Proof. The proof is by induction on n. By Kleiman’s theorem [21, Theorem 1.4.23],$H _ { i }$ are the limits of rational ample divisor classes in the N´eron-Severi space of X. Therefore it sufices to prove the inequality for rational ample divisor classes. Because of the homogeneity of the stated inequality, we may further assume that the$H _ { i }$are very ample integral divisors. If$n \geq 3$, then Bertini’s theorem [16, Corollary 6.11] allows us to apply the inductive hypothesis to$H _ { n }$, which is a subvariety of X. Therefore we are reduced to the case of surfaces.
+Proof. The proof is by induction on n. By Kleiman’s theorem [21, Theorem 1.4.23],$H _ { i }$ are the limits of rational ample divisor classes in the Néron-Severi space of X. Therefore it sufices to prove the inequality for rational ample divisor classes. Because of the homogeneity of the stated inequality, we may further assume that the$H _ { i }$are very ample integral divisors. If$n \geq 3$, then Bertini’s theorem [16, Corollary 6.11] allows us to apply the inductive hypothesis to$H _ { n }$, which is a subvariety of X. Therefore we are reduced to the case of surfaces.
 
 When X is a surface and$H _ { 1 } , H _ { 2 }$are ample divisors on$X$, by the Brunn-Minkowski inequality [35, Theorem 6.1.1] and Property B above, we have
 
@@ -718,7 +702,7 @@ $$
 \Big (\int_ {X} H _ {1} \cdot H _ {1} \Big) \Big (\int_ {X} H _ {2} \cdot H _ {2} \Big) \leq \Big (\int_ {X} H _ {1} \cdot H _ {2} \Big) ^ {2}.
 $$
 
-Lemma 34. Let$\mathcal { C } \subset \mathbb { R } ^ { n + 1 }$be the set of all log-concave sequences of positive real numbers, and let$\mathcal { C } ^ { \prime } \subset \mathbb { R } ^ { n + 1 }$be the set of all log-concave sequences of nonnegative real numbers with no internal zeros. Then$\overline { { \boldsymbol { \mathcal { C } } } } = \boldsymbol { \mathcal { C } } ^ { \prime }$
+Lemma 34. Let$\mathcal { C } \subset \mathbb { R } ^ { n + 1 }$be the set of all log-concave sequences of positive real numbers, and let$\mathcal { C } ^ { \prime } \subset \mathbb { R } ^ { n + 1 }$be the set of all log-concave sequences of nonnegative real numbers with no internal zeros. Then$\overline { \mathcal { C } } = \mathcal { C } ^ { \prime }$.
 
 Proof. We first show that a sequence$( e _ { 0 } , e _ { 1 } , \ldots , e _ { n } ) \in \mathcal { C }$satisfies
 
@@ -726,7 +710,7 @@ $$
 e _ {i} ^ {k - j} e _ {k} ^ {j - i} \leq e _ {j} ^ {k - i} \quad \text { for } 0 \leq i <   j <   k \leq n.
 $$
 
-This can be shown by induction on$k - i .$. By the induction hypothesis, we have
+This can be shown by induction on$k - i$. By the induction hypothesis, we have
 
 $$
 e _ {i} ^ {k - j - 1} e _ {k - 1} ^ {j - i} \leq e _ {j} ^ {k - i - 1} \quad \text { and } \quad e _ {j} e _ {k} ^ {k - j - 1} \leq e _ {k - 1} ^ {k - j}.
@@ -754,9 +738,9 @@ for suficiently small positive$\epsilon .$
 
 We deal with the four exceptional cases in a separate lemma.
 
-Lemma 35.$I f \xi \in A _ { * } ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { m } )$is an integer multiple of either$[ \mathbb { P } ^ { n } \times \mathbb { P } ^ { m } ] , [ \mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 } ] , [ \mathbb { P } ^ { 0 } \times$ $\mathbb { P } ^ { m } ] , o r \ [ \mathbb { P } ^ { 0 } \times { \dot { \mathbb { P } } } ^ { 0 } ]$, then$\xi$is representable if the integer is 1.
+Lemma 35. If$\xi \in A _ { * } ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { m } )$is an integer multiple of either$[ \mathbb { P } ^ { n } \times \mathbb { P } ^ { m } ] , [ \mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 } ] , [ \mathbb { P } ^ { 0 } \times$ $\mathbb { P } ^ { m } ]$, or$[ \mathbb { P } ^ { 0 } \times \mathbb { P } ^ { 0 } ]$, then$\xi$is representable iff the integer is 1.
 
-Proof. The interesting part is to prove the necessity when ξ is an integer multiple of $[ \mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 } ]$or$[ \mathbb { P } ^ { 0 } \times \mathbb { P } ^ { m } ]$. It is enough to consider the first case.$\operatorname { I f } \xi$is represented by a subvariety$Z .$, then a general hypersurface H of the form$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m - 1 } \subset \mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$is disjoint from$Z ,$since otherwise the intersection$H \cap Z$defines a nonzero class in$A _ { n - 1 } \big ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { m - 1 } \big )$ Therefore$Z$is in fact a subvariety of$\mathbb { P } ^ { n } \times \mathbb { C } ^ { m }$. Since$Z$is a projective variety, the map $Z \to \mathbb { C } ^ { m }$induced by the second projection$\mathbb { P } ^ { n } \times \mathbb { C } ^ { m } \to \mathbb { C } ^ { m }$is constant [36, Corollary 5.2.2, Chapter I]. It follows that$Z$is of the form$\mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 }$
+Proof. The interesting part is to prove the necessity when ξ is an integer multiple of $[ \mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 } ]$or$[ \mathbb { P } ^ { 0 } \times \mathbb { P } ^ { m } ]$. It is enough to consider the first case.$\operatorname { I f } \xi$is represented by a subvariety$Z$, then a general hypersurface H of the form$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m - 1 } \subset \mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$is disjoint from$Z ,$since otherwise the intersection$H \cap Z$defines a nonzero class in$A _ { n - 1 } \big ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { m - 1 } \big )$. Therefore$Z$is in fact a subvariety of$\mathbb { P } ^ { n } \times \mathbb { C } ^ { m }$. Since$Z$is a projective variety, the map $Z \to \mathbb { C } ^ { m }$induced by the second projection$\mathbb { P } ^ { n } \times \mathbb { C } ^ { m } \to \mathbb { C } ^ { m }$is constant [36, Corollary 5.2.2, Chapter I]. It follows that$Z$is of the form$\mathbb { P } ^ { n } \times \mathbb { P } ^ { 0 }$.
 
 Lastly, we need the following mixed volume computation of Shephard [37, pp. 134–136]. Lemma 36 (Shephard). For positive numbers$\lambda _ { 1 } \geq \lambda _ { 2 } \geq \cdot \cdot \cdot \geq \lambda _ { n }$, define the polytope
 
@@ -776,7 +760,7 @@ $$
 \xi = \sum_ {i} e _ {i} \big [ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \big ] \in A _ {k} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {m}),
 $$
 
-where the term containing$e _ { i }$is zero if$n < k - i \ \mathrm { o r } \ m < i$. We write$H _ { 1 }$and$H _ { 2 }$for divisors on$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$obtained by pulling back a hyperplane from the first and the second factor respectively.
+where the term containing$e _ { i }$is zero if$n < k - i$or$m < i$. We write$H _ { 1 }$and$H _ { 2 }$for divisors on$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$obtained by pulling back a hyperplane from the first and the second factor respectively.
 
 1. Suppose$\xi$is represented by a subvariety Z. Then
 
@@ -786,9 +770,9 @@ $$
 
 Since$H _ { 1 }$and$H _ { 2 }$are nef, Lemma 33 says that the$e _ { i }$form a log-concave sequence.
 
-2. We continue to assume that ξ is represented by a subvariety$Z , \mathrm { \tiny ~ B y ~ }$Kleiman’s theorem, $H _ { 1 } | _ { Z }$and$H _ { 2 } | _ { Z }$are limits of ample classes in the N´eron-Severi space of$Z$over R [21, Theorem 1.4.23]. Therefore the sequence$\left\{ \boldsymbol { e } _ { i } \right\}$is a limit of log-concave sequences of positive real numbers. It follows from Lemma 34 that$\left\{ \boldsymbol { e } _ { i } \right\}$is a log-concave sequence of nonnegative numbers with no internal zeros.$\left\{ \boldsymbol { e } _ { i } \right\}$cannot be identically zero because, for example, $\sum _ { i } { \binom { k } { i } } e _ { i }$is the degree of$Z$inside the Segre embedding$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m } \subset \mathbb { P } ^ { n m + n + m }$[12, Exercise 19.2].
+2. We continue to assume that ξ is represented by a subvariety$Z$. By Kleiman’s theorem, $H _ { 1 } | _ { Z }$and$H _ { 2 } | _ { Z }$are limits of ample classes in the Néron-Severi space of$Z$over R [21, Theorem 1.4.23]. Therefore the sequence$\left\{ e _ { i } \right\}$is a limit of log-concave sequences of positive real numbers. It follows from Lemma 34 that$\left\{ e _ { i } \right\}$is a log-concave sequence of nonnegative numbers with no internal zeros.$\left\{ e _ { i } \right\}$cannot be identically zero because, for example, $\sum _ { i } { \binom { k } { i } } e _ { i }$is the degree of$Z$inside the Segre embedding$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m } \subset \mathbb { P } ^ { n m + n + m }$[12, Exercise 19.2].
 
-3. Now we show that the condition on the sequence is suficient for the representability of a multiple of the corresponding homology class. First we represent a multiple of$\xi \in \mathbf { \Xi }$ $A _ { n } ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { n } ) , n > 0$, corresponding to a log-concave sequence of positive integers$e _ { i }$. Write
+3. Now we show that the condition on the sequence is suficient for the representability of a multiple of the corresponding homology class. First we represent a multiple of$\xi \in A _ { n } ( \mathbb { P } ^ { n } \times \mathbb { P } ^ { n } )$, $n > 0$, corresponding to a log-concave sequence of positive integers$e _ { i }$. Write
 
 $$
 \xi = \sum_ {i = 0} ^ {n} e _ {i} \left[ \mathbb {P} ^ {n - i} \times \mathbb {P} ^ {i} \right] \in A _ {n} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {n}).
@@ -818,13 +802,13 @@ $$
 \int_ {\Gamma_ {\lambda}} \underbrace {H _ {1} \cdot \ldots \cdot H _ {1}} _ {n - i} \cdot \underbrace {H _ {2} \cdot \ldots \cdot H _ {2}} _ {i} = e ^ {i} (e _ {i} / e _ {0}).
 $$
 
-Now consider a regular map$\psi : \mathbb { P } ^ { n } \to \mathbb { P } ^ { n }$defined by homogeneous polynomials$h _ { 0 } , \ldots , h _ { n }$ of degree e with no common zeros. If the$h _ { i }$are chosen in a suficiently general way, then the product ψ Id<sub>P</sub>n :$\mathbb { P } ^ { n } \times \mathbb { P } ^ { n } \to \mathbb { P } ^ { n } \times \mathbb { P } ^ { n }$restricts to a birational morphism$\Gamma _ { \lambda }  \mathrm { I m } ( \Gamma _ { \lambda } )$ From the projection formula we have
+Now consider a regular map$\psi : \mathbb { P } ^ { n } \to \mathbb { P } ^ { n }$defined by homogeneous polynomials$h _ { 0 } , \ldots , h _ { n }$ of degree e with no common zeros. If the$h _ { i }$are chosen in a suficiently general way, then the product$\psi \times \mathrm { I d } _ { \mathbb { P } ^ { n } } : \mathbb { P } ^ { n } \times \mathbb { P } ^ { n } \to \mathbb { P } ^ { n } \times \mathbb { P } ^ { n }$restricts to a birational morphism$\Gamma _ { \lambda } \to \operatorname{Im} ( \Gamma _ { \lambda } )$. From the projection formula we have
 
 $$
 \int_ {\mathrm{Im} (\Gamma_ {\lambda})} \underbrace {H _ {1} \cdot \ldots \cdot H _ {1}} _ {n - i} \cdot \underbrace {H _ {2} \cdot \ldots \cdot H _ {2}} _ {i} = \int_ {\Gamma_ {\lambda}} \underbrace {e H _ {1} \cdot \ldots \cdot e H _ {1}} _ {n - i} \cdot \underbrace {H _ {2} \cdot \ldots \cdot H _ {2}} _ {i} = e ^ {n} (e _ {i} / e _ {0}).
 $$
 
-In sum, Im$( \Gamma _ { \lambda } ) \subset \mathbb { P } ^ { n } \times \mathbb { P } ^ { n }$is irreducible and
+In sum,$\operatorname{Im} ( \Gamma _ { \lambda } ) \subset \mathbb { P } ^ { n } \times \mathbb { P } ^ { n }$is irreducible and
 
 $$
 \left[ \operatorname{Im} (\Gamma_ {\lambda}) \right] = (e ^ {n} / e _ {0}) \sum_ {i = 0} ^ {n} e _ {i} \left[ \mathbb {P} ^ {n - i} \times \mathbb {P} ^ {i} \right] \in A _ {n} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {n}).
@@ -836,9 +820,9 @@ $$
 \xi = \sum_ {i = p} ^ {q} e _ {i} \big [ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \big ] \in A _ {k} (\mathbb {P} ^ {n} \times \mathbb {P} ^ {m}),
 $$
 
-where$0 \leq p \leq q \leq k , k - p \leq n , q \leq m .$and$e _ { p } , e _ { q }$are positive.
+where$0 \leq p \leq q \leq k$, $k - p \leq n$, $q \leq m$, and$e _ { p } , e _ { q }$are positive.
 
-If$p \ = \ q .$then either$0 ~ < ~ p ~ < ~ m$or$0 ~ < ~ k - p ~ < ~ n .$, since we are excluding the four exceptional cases. If$0 < p < m$, take a hypersurface$Z$in$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { p + 1 }$defined by an irreducible bihomogeneous polynomial of degree$( 0 , e _ { p } )$. Then the image of$Z$ under an embedding of$\mathbb { P } ^ { \bar { k } - p } \times \mathbb { P } ^ { p + 1 }$into$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$represents$\xi .$. Here$0 < p$guarantees the existence of the irreducible polynomial and$p < m$guarantees the existence of the embedding. Similarly, if$0 < k - p < n ,$we take a hypersurface$Z$in$\mathbb { P } ^ { k - p + 1 } \times \mathbb { P } ^ { p }$defined by an irreducible bihomogeneous polynomial of degree$( e _ { p } , 0 )$. The image of$Z$under an embedding of$\mathbb { P } ^ { k - p + 1 } \times \mathbb { P } ^ { p }$into$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$represents$\xi .$
+If$p = q$, then either$0 < p < m$or$0 < k - p < n$, since we are excluding the four exceptional cases. If$0 < p < m$, take a hypersurface$Z$in$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { p + 1 }$defined by an irreducible bihomogeneous polynomial of degree$( 0 , e _ { p } )$. Then the image of$Z$ under an embedding of$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { p + 1 }$into$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$represents$\xi$. Here$0 < p$guarantees the existence of the irreducible polynomial and$p < m$guarantees the existence of the embedding. Similarly, if$0 < k - p < n$, we take a hypersurface$Z$in$\mathbb { P } ^ { k - p + 1 } \times \mathbb { P } ^ { p }$defined by an irreducible bihomogeneous polynomial of degree$( e _ { p } , 0 )$. The image of$Z$under an embedding of$\mathbb { P } ^ { k - p + 1 } \times \mathbb { P } ^ { p }$into$\mathbb { P } ^ { n } \times \mathbb { P } ^ { m }$represents$\xi .$
 
 If$p < q ,$then we can use the result of the previous step to choose a$( q - p )$-dimensional subvariety$Z \subset \mathbb { P } ^ { q - p } \times \mathbb { P } ^ { q - p }$representing a multiple of
 
@@ -846,7 +830,7 @@ $$
 \sum_ {i = p} ^ {q} e _ {i} \bigl [ \mathbb {P} ^ {q - i} \times \mathbb {P} ^ {i - p} \bigr ] \in A _ {q - p} (\mathbb {P} ^ {q - p} \times \mathbb {P} ^ {q - p}).
 $$
 
-Embed$\mathbb { P } ^ { q - p } \times \mathbb { P } ^ { q - p }$into$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { q }$and take the cone$\widetilde { Z }$of$Z$in$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { q }$. The cone $\widetilde { Z }$eis defined by the same bihomogeneous polynomials defining$Z ,$hence irreducible, and erepresents a multiple of
+Embed$\mathbb { P } ^ { q - p } \times \mathbb { P } ^ { q - p }$into$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { q }$and take the cone$\widetilde { Z }$of$Z$in$\mathbb { P } ^ { k - p } \times \mathbb { P } ^ { q }$. The cone$\widetilde { Z }$is defined by the same bihomogeneous polynomials defining$Z ,$hence irreducible, and represents a multiple of
 
 $$
 \sum_ {i = p} ^ {q} e _ {i} \left[ \mathbb {P} ^ {k - i} \times \mathbb {P} ^ {i} \right] \in A _ {k} (\mathbb {P} ^ {k - p} \times \mathbb {P} ^ {q}).
@@ -880,7 +864,7 @@ The author would like to express deep gratitude to Professor Heisuke Hironaka fo
 
 [10] T. Gafney, Multiplicities and equisingularity of ICIS germs, Invent. Math. 123 (1996), no. 2, 209–220. MR1374196 (97b:32051)
 
-[11] M. Gromov, Convex sets and K¨ahler manifolds, Advances in Diferential Geometry and Topology, World Sci. Publ., Teaneck, NJ, 1990, pp. 1–38. MR1095529 (92d:52018)
+[11] M. Gromov, Convex sets and Kähler manifolds, Advances in Diferential Geometry and Topology, World Sci. Publ., Teaneck, NJ, 1990, pp. 1–38. MR1095529 (92d:52018)
 
 [12] J. Harris, Algebraic Geometry. A First Course, Corrected reprint of the 1992 original., Graduate Texts in Mathematics, 133, Springer-Verlag, New York, 1995. MR1416564 (97e:14001)
 
@@ -890,19 +874,19 @@ The author would like to express deep gratitude to Professor Heisuke Hironaka fo
 
 [15] C. Huneke and I. Swanson, Integral Closure of Ideals, Rings, and Modules, London Mathematical Society Lecture Note Series, 336, Cambridge University Press, Cambridge, 2006. MR2266432 (2008m:13013)
 
-[16] J.-P. Jouanolou, Th´eor\`emes de Bertini et Applications, Progress in Mathematics, 42, Birkh¨auser Boston, Inc., Boston, MA, 1983. MR0725671 (86b:13007)
+[16] J.-P. Jouanolou, Théorèmes de Bertini et Applications, Progress in Mathematics, 42, Birkhäuser Boston, Inc., Boston, MA, 1983. MR0725671 (86b:13007)
 
 [17] K. Kaveh and A. G. Khovanskii, Newton-Okounkov bodies, semigroups of integral points, graded algebras and intersection theory, Preprint: arXiv:0904.3350v2.
 
 [18] A. G. Khovanskii, Algebra and mixed volumes, Appendix 3 in: Yu. D. Burago and V. A. Zalgaller, Geometric Inequalities, Translated from the Russian by A. B. Sosinskii, Grundlehren der Mathematischen Wissenschaften, 285, Springer Series in Soviet Mathematics, Springer-Verlag, Berlin, 1988. MR0936419 (89b:52020)
 
-[19] A. G. Kouchnirenko, Poly\`edres de Newton et nombres de Milnor, Invent. Math. 32 (1976), no. 1, 1–31. MR0419433 (54:7454)
+[19] A. G. Kouchnirenko, Polyèdres de Newton et nombres de Milnor, Invent. Math. 32 (1976), no. 1, 1–31. MR0419433 (54:7454)
 
-[20] J. P. S. Kung, The geometric approach to matroid theory, Gian-Carlo Rota on Combinatorics, 604–622, Contemp. Mathematicians, Birkh¨auser Boston, Boston, MA, 1995. MR1392975
+[20] J. P. S. Kung, The geometric approach to matroid theory, Gian-Carlo Rota on Combinatorics, 604–622, Contemp. Mathematicians, Birkhäuser Boston, Boston, MA, 1995. MR1392975
 
 [21] R. Lazarsfeld, Positivity in Algebraic Geometry I, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge. A Series of Modern Surveys in Mathematics, 48, Springer-Verlag, Berlin, 2004. MR2095471 (2005k:14001a)
 
-[22] R. Lazarsfeld and M. Mustat¸˘a, Convex bodies associated to linear series, Ann. Sci. Ecole Norm.<sup>´</sup> Sup´er. (4) 42 (2009), no. 5, 783–835. MR2571958 (2011e:14012)
+[22] R. Lazarsfeld and M. Mustață, Convex bodies associated to linear series, Ann. Sci. École Norm. Supér. (4) 42 (2009), no. 5, 783–835. MR2571958 (2011e:14012)
 
 [23] R. D. MacPherson, Chern classes for singular algebraic varieties, Ann. of Math. (2) 100 (1974), 423–432. MR0361141 (50:13587)
 
@@ -924,9 +908,9 @@ The author would like to express deep gratitude to Professor Heisuke Hironaka fo
 
 [32] D. Rees and R.Y. Sharp, On a theorem of B. Teissier on multiplicities of ideals in local rings, J. London Math. Soc. (2) 18 (1978), no. 3, 449–463. MR0518229 (80e:13009)
 
-[33] G. -C. Rota, Combinatorial theory, old and new, Actes du Congr\`es International des Math´ematiciens (Nice, 1970), Tome 3, Gauthier-Villars, Paris, 1971, pp. 229–233. MR0505646 (58:21703)
+[33] G. -C. Rota, Combinatorial theory, old and new, Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 3, Gauthier-Villars, Paris, 1971, pp. 229–233. MR0505646 (58:21703)
 
-[34] P. Samuel, La notion de multiplicit´e en alg\`ebre et g´eom´etrie alg´ebrique, J. Math. Pures Appl. (9) 30 (1951), 159–274. MR0048103 (13,980c)
+[34] P. Samuel, La notion de multiplicité en algèbre et géométrie algébrique, J. Math. Pures Appl. (9) 30 (1951), 159–274. MR0048103 (13,980c)
 
 [35] R. Schneider, Convex Bodies: The Brunn-Minkowski Theory, Encyclopedia of Mathematics and its Applications, 44, Cambridge University Press, Cambridge, 1993. MR1216521 (94d:52007)
 
@@ -936,19 +920,19 @@ The author would like to express deep gratitude to Professor Heisuke Hironaka fo
 
 [38] R. P. Stanley, Log-concave and unimodal sequences in algebra, combinatorics, and geometry, Graph Theory and Its Applications: East and West (Jinan 1986), Ann. New York Acad. Sci., 576, 1989, pp. 500–535. MR1110850 (92e:05124)
 
-[39] R. P. Stanley, Foundations I and the development of algebraic combinatorics, Gian-Carlo Rota on Combinatorics, 105–107, Contemp. Mathematicians, Birkh¨auser Boston, Boston, MA, 1995. MR1392967
+[39] R. P. Stanley, Foundations I and the development of algebraic combinatorics, Gian-Carlo Rota on Combinatorics, 105–107, Contemp. Mathematicians, Birkhäuser Boston, Boston, MA, 1995. MR1392967
 
 [40] R. P. Stanley, Positivity problems and conjectures in algebraic combinatorics, Mathematics: Frontiers and Perspectives, Amer. Math. Soc., Providence, RI, 2000, pp. 295–319. MR1754784 (2001f:05001)
 
 [41] R. P. Stanley, An introduction to hyperplane arrangements, Geometric Combinatorics, IAS/Park City Math. Ser., 13, Amer. Math. Soc., Providence, RI, 2007, pp. 389–496. MR2383131
 
-[42] B. Teissier, Cycles ´evanescents, sections planes et conditions de Whitney, Singularit´es \`a Carg\`ese (Rencontre Singularit´es G´eom. Anal., Inst. E<sup>´</sup>tudes Sci., Carg\`ese, 1972), Ast´erisque, Nos. 7 et 8, Soc. Math. France, Paris, 1973, pp. 285–362. MR0374482 (51:10682)
+[42] B. Teissier, Cycles évanescents, sections planes et conditions de Whitney, Singularités à Cargèse (Rencontre Singularités Géom. Anal., Inst. Études Sci., Cargèse, 1972), Astérisque, Nos. 7 et 8, Soc. Math. France, Paris, 1973, pp. 285–362. MR0374482 (51:10682)
 
-[43] B. Teissier, Appendix: Sur une in´egalit´e \`a la Minkowski pour les multiplicit´es, in: D. Eisenbud and H. Levine, An algebraic formula for the degree of a C<sup>∞</sup> map germ, Ann. of Math. (2) 106 (1977), no. 1, 38–44. MR0467800 (57:7651)
+[43] B. Teissier, Appendix: Sur une inégalité à la Minkowski pour les multiplicités, in: D. Eisenbud and H. Levine, An algebraic formula for the degree of a C<sup>∞</sup> map germ, Ann. of Math. (2) 106 (1977), no. 1, 38–44. MR0467800 (57:7651)
 
-[44] B. Teissier, Du th´eor\`eme de l’index de Hodge aux in´egalit´es isop´erim´etriques, C. R. Acad. Sci. Paris Ser. A-B 288 (1979), no. 4, 287–289. MR0524795 (80k:14014)
+[44] B. Teissier, Du théorème de l’index de Hodge aux inégalités isopérimétriques, C. R. Acad. Sci. Paris Ser. A-B 288 (1979), no. 4, 287–289. MR0524795 (80k:14014)
 
-[45] B. Teissier, Vari´et´es polaires. II. Multiplicit´es polaires, sections planes, et conditions de Whitney, Algebraic Geometry (La R´abida, 1981), Lecture Notes in Math., 961, Springer, Berlin, 1982, pp. 314–491. MR 708342 (85i:32019)
+[45] B. Teissier, Variétés polaires. II. Multiplicités polaires, sections planes, et conditions de Whitney, Algebraic Geometry (La Rábida, 1981), Lecture Notes in Math., 961, Springer, Berlin, 1982, pp. 314–491. MR 708342 (85i:32019)
 
 [46] N. V. Trung, Positivity of mixed multiplicities, Math. Ann. 319 (2001), no. 1, 33–63. MR1812818 (2001m:13042)
 
@@ -957,5 +941,11 @@ The author would like to express deep gratitude to Professor Heisuke Hironaka fo
 [48] D. Welsh, Matroid Theory, London Mathematical Society Monographs, 8, Academic Press, London-New York, 1976. MR0427112 (55:148)
 
 Department of Mathematics, University of Illinois, Urbana, IL 61801, USA
+
+E-mail address: huh14@illinois.edu
+
+Current address: Department of Mathematics, University of Michigan, Ann Arbor, MI 48109, USA
+
+E-mail address: junehuh@umich.edu
 
 Current address: Department of Mathematics, University of Michigan, Ann Arbor, MI 48109, USA E-mail address: junehuh@umich.edu
