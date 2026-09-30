@@ -248,6 +248,12 @@
      （Scholze published 已导出 2248 行待审、Wiles 270p、Thompson 282p、Hairer 236p、Schwartz
      352p、Lafforgue 241p、EGA 227p、Wang-Zahl 127p、Deng×3、Quillen 衍生三件、Hironaka partI/II）。
   5. **推送**：origin 同步至 d87578ba+。
+- **★ 2026-09-29 深夜收尾（第六轮）**：审计进度 **40 篇 ✅**（新增 Evertse survey 13p——2 点
+  FAIL（Győry×3/块序）+源级 quirk×3；ICM2022 Viazovska 14p——**U+FFFD 丢字形 ~50 处全部按
+  上下文修复**、Laplace ∂x₁² 撤销 FAIL 改源级 quirk 登记、χ_k/χ_d 等源级 quirk 8 项）。
+  **队列更正**：DC laudatio 实为 24p（Hairer 撰完整版）；接力顺序 = DC laudatio (24p) →
+  ICM2022 Duminil-Copin → Maynard laudatio (15p) → Huh laudatio (16p) → Faltings (18p) →
+  Roth (20p) → Huh 2012 (21p) → …。origin 同步至最新。
   2. **审计进度（AUDIT-INDEX 真值：29 篇闭环）**：①Viazovska dim24（17p）闭环——born-digital
      文本层+PNG 双通道，7 点 FAIL 修复（S/T 矩阵重建、孤立字符 2/9、脚注 1 重建、丢箭头×2、
      École 重音）；该 PDF 实为 Annals 已刊版（1017–1033），审计头曾误记 arXiv 版已更正。
