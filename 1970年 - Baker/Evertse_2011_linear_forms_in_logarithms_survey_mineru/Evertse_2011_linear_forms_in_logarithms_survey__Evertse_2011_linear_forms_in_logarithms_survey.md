@@ -126,7 +126,7 @@ $$
 \left| 1 - b ^ {n} a ^ {- m} \right| \geqslant (e B) ^ {- C _ {1}},
 $$
 
-where$C _ { 1 }$is an efectively computable number depending only on$a , b .$. Multi-plying with$a ^ { m }$gives our first assertion.
+where$C _ { 1 }$is an efectively computable number depending only on$a , b .$. Multiplying with$a ^ { m }$gives our first assertion.
 
 Now let m, n be positive integers with$a ^ { m } - b ^ { n } = k$. Put again$B : =$ $\operatorname* { m a x } ( m , n )$. Then since$a , b \geqslant 2$
 
@@ -206,9 +206,9 @@ $$
 a x + b y = 1 \text { in } x, y \in \Gamma .\tag{2.1}
 $$
 
-In 1979, Gy˝ory gave an efective proof of the Siegel-Mahler-Lang Theorem.
+In 1979, Győry gave an efective proof of the Siegel-Mahler-Lang Theorem.
 
-Theorem 2.1. (Gy˝ory, 1979) Equation (2.1) has only finitely many solutions, and its set of solutions can be determined efectively.
+Theorem 2.1. (Győry, 1979) Equation (2.1) has only finitely many solutions, and its set of solutions can be determined efectively.
 
 The idea of the proof is to express a solution$( x , y )$of (2.1) as
 
@@ -216,7 +216,7 @@ $$
 x = \zeta_ {1} \gamma_ {1} ^ {b _ {1}} \dots \gamma_ {t} ^ {b _ {t}}, y = \zeta_ {2} \gamma_ {1} ^ {b _ {1} ^ {\prime}} \dots \gamma_ {t} ^ {b _ {t} ^ {\prime}}
 $$
 
-with$\zeta _ { 1 } , \zeta _ { 2 } \in U _ { K } , b _ { i } , b _ { i } ^ { \prime } \in \mathbb { Z }$. By combining Corollary 1.6 and a generalization of Theorem 1.10 for algebraic numbers instead of the rational numbers$a _ { 1 } , \ldots , a _ { m }$ in the statement of that lemma, Gy˝ory shows that for every solution$( x , y )$of (2.1) one has max$( | b _ { 1 } | , \dots , | b _ { t } ^ { \prime } | ) \leqslant C$, where$C$is efectively computable in terms of$K , \gamma _ { 1 } , \ldots , \gamma _ { t }$. Then one can find all solutions of (2.1) by checking for each$\zeta _ { 1 } , \zeta _ { 2 } \in U _ { K }$and$b _ { i } , b _ { i } ^ { \prime } \leqslant C$whether$a x + b y = 1$holds.
+with$\zeta _ { 1 } , \zeta _ { 2 } \in U _ { K } , b _ { i } , b _ { i } ^ { \prime } \in \mathbb { Z }$. By combining Corollary 1.6 and a generalization of Theorem 1.10 for algebraic numbers instead of the rational numbers$a _ { 1 } , \ldots , a _ { m }$ in the statement of that lemma, Győry shows that for every solution$( x , y )$of (2.1) one has max$( | b _ { 1 } | , \dots , | b _ { t } ^ { \prime } | ) \leqslant C$, where$C$is efectively computable in terms of$K , \gamma _ { 1 } , \ldots , \gamma _ { t }$. Then one can find all solutions of (2.1) by checking for each$\zeta _ { 1 } , \zeta _ { 2 } \in U _ { K }$and$b _ { i } , b _ { i } ^ { \prime } \leqslant C$whether$a x + b y = 1$holds.
 
 We prove two special cases of Theorem 2.1, namely the case that$a , b \in \mathbb { Q }$ and Γ is contained in$\mathbb { Q } ^ { * }$, and the case that$a , b$lie in an algebraic number field $K$and Γ is the group of units of the ring of integers of$K$.
 
@@ -396,11 +396,11 @@ $$
 \Lambda_ {i} \leqslant | \sigma_ {i} (\beta) | e ^ {- B / C (d - 1)}.
 $$
 
+By Corollary 1.6 we have$\left| \Lambda _ { i } \right| \geqslant ( e B ) ^ { - C ^ { \prime } }$for some efectively computable number$C ^ { \prime }$depending on$a , \varepsilon _ { 1 } , \ldots , \varepsilon _ { r }$and the finitely many roots of unity of$K$. We infer
+
 $$
 (e B) ^ {- C ^ {\prime}} \leqslant | \sigma_ {i} (a) | e ^ {- B / C (d - 1)}
 $$
-
-By Corollary 1.6 we have$\left| \Lambda _ { i } \right| \geqslant ( e B ) ^ { - C ^ { \prime } }$for some efectively computable number$C ^ { \prime }$depending on$a , \varepsilon _ { 1 } , \ldots , \varepsilon _ { r }$and the finitely many roots of unity of$K$. We infer
 
 and this leads to an efectively computable upper bound for B.
 
