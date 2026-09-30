@@ -1,4 +1,6 @@
-# The Work of June Huh Gil Kalai
+# The Work of June Huh
+
+Gil Kalai
 
 ## Abstract
 
@@ -14,9 +16,9 @@ Matroids, log-concavity, hard Lefschetz theorems, Hodge–Riemann relations
 
 June Huh has made groundbreaking contributions in combinatorics and algebraic geometry and his work established profound connections between these two areas. This paper describes some of Huh’s main achievements and gives some background, primarily on the combinatorial aspects of his work.
 
-The Heron–Rota–Welsh unimodality conjecture ([32, 56, 64]) asserts that the coeficients ofthe characteristic polynomial ofa matroid form a log-concave sequence. This implies that the coeficients are unimodal. A special case of the conjecture is an earlier conjecture by Read, asserting that the coeficients of the chromatic polynomial of a graph are unimodal. In 2009 June Huh used algebraic geometry to prove Read’s unimodality conjecture [33] for graphs, and the more general Heron–Rota–Welsh conjecture for matroids represented over a field of characteristic 0. The case of matroids representable over a field of a non-zero characteristic and the case of general matroids remained open. In 2010 June Huh and Eric Katz [36] found a diferent algebraic-geometric approach and proved the case of matroids representable over a field of an arbitrary characteristic. Finally, in 2015 the Heron–Rota–Welsh conjecture was proved in full generality by Karim Adiprasito, June Huh, and Eric Katz [1]. For this purpose it was necessary to extend theorems from algebraic geometry (primarily the Hodge–Riemann relations and the hard Lefschetz theorem) to cases well beyond the scope of algebraic geometry. Huh and his coauthors developed an entirely novel theory of great interest and importance.
+The Heron–Rota–Welsh unimodality conjecture ([32, 56, 64]) asserts that the coeficients of the characteristic polynomial of a matroid form a log-concave sequence. This implies that the coeficients are unimodal. A special case of the conjecture is an earlier conjecture by Read, asserting that the coeficients of the chromatic polynomial of a graph are unimodal. In 2009 June Huh used algebraic geometry to prove Read’s unimodality conjecture [33] for graphs, and the more general Heron–Rota–Welsh conjecture for matroids represented over a field of characteristic 0. The case of matroids representable over a field of a non-zero characteristic and the case of general matroids remained open. In 2010 June Huh and Eric Katz [36] found a diferent algebraic-geometric approach and proved the case of matroids representable over a field of an arbitrary characteristic. Finally, in 2015 the Heron–Rota–Welsh conjecture was proved in full generality by Karim Adiprasito, June Huh, and Eric Katz [1]. For this purpose it was necessary to extend theorems from algebraic geometry (primarily the Hodge–Riemann relations and the hard Lefschetz theorem) to cases well beyond the scope of algebraic geometry. Huh and his coauthors developed an entirely novel theory of great interest and importance.
 
-June Huh and Botong Wang [37] used connections with algebraic geometry to prove the Dowling–Wilson conjecture. Consider a configuration$\mathcal { P }$of � points spanning a �- dimensional space. Let$w _ { i }$be the number of linear spaces of dimension � spanned by the points.
+June Huh and Botong Wang [37] used connections with algebraic geometry to prove the Dowling–Wilson conjecture. Consider a configuration$\mathcal { P }$of$n$points spanning a$d$-dimensional space. Let$w _ { i }$be the number of linear spaces of dimension$i$spanned by the points.
 
 Motzkin conjectured in his 1936 Ph.D. thesis, and proved over the reals in 1951 [50], that$w _ { 1 } \leq w _ { d - 1 }$. The case of$d = 3$(in a planar afine formulation) was proved in 1948 by de Bruĳn and Erdős, and their abstract combinatorial proof applies to every characteristic.
 
@@ -26,9 +28,9 @@ $$
 w _ {i} \leq w _ {d - i}, \quad i \leq [ d / 2 ].\tag{1}
 $$
 
-An extension of the Dowling–Wilson conjecture for arbitrary matroids (of rank �) was proved by Tom Braden, June Huh, Jacob Matherne, Nicholas Proudfoot, and Botong Wang [12].
+An extension of the Dowling–Wilson conjecture for arbitrary matroids (of rank$d$) was proved by Tom Braden, June Huh, Jacob Matherne, Nicholas Proudfoot, and Botong Wang [12].
 
-The Mason conjecture (on independence numbers) asserts [45] that the sequence of numbers of independent sets of size � of general matroids is log-concave and it comes in several strengths. Following Huh’s first result the conjecture was proved by Mathias Lenz [43] for representable real matroids and it was proved for general matroids in [1]. The strong Mason conjecture for arbitrary matroids was proved by June Huh, Benjamin Schröter, and Botong Wang [38] who relied on [1].
+The Mason conjecture (on independence numbers) asserts [45] that the sequence of numbers of independent sets of size$k$of general matroids is log-concave and it comes in several strengths. Following Huh’s first result the conjecture was proved by Mathias Lenz [43] for representable real matroids and it was proved for general matroids in [1]. The strong Mason conjecture for arbitrary matroids was proved by June Huh, Benjamin Schröter, and Botong Wang [38] who relied on [1].
 
 These works have led to further advances by several groups of researchers, and I would especially like to mention the solution of the Mihail–Vazirani conjecture on the expansion constant and rapid mixing for random walks on matroids, by Anari, Oveis Gharan, and Vinzant [4], as well as the works by Brändén and Huh [13] on correlation inequalities for the Potts model.
 
@@ -38,19 +40,19 @@ Following is the structure of this paper. In Section 1 we discuss chromatic poly
 
 ## 1.1. The four-color conjecture and chromatic polynomials
 
-A proper coloring of a graph � is a coloring of the vertices of � such that every two adjacent vertices are colored with diferent colors. Graph coloring is of central importance in graph theory and in graph algorithms.
+A proper coloring of a graph$G$is a coloring of the vertices of$G$such that every two adjacent vertices are colored with diferent colors. Graph coloring is of central importance in graph theory and in graph algorithms.
 
-Theorem 1 (The four-color theorem (Appel and Haken 1976)). Every planar graph can b properly colored with 4 colors
+Theorem 1 (The four-color theorem (Appel and Haken 1976)). Every planar graph can be properly colored with 4 colors
 
-The four-color conjecture was proposed (in a dual form, for planar maps) by Franci Guthrie in 1852 and proved by Kenneth Appel and Wolfgang Haken in 1976.
+The four-color conjecture was proposed (in a dual form, for planar maps) by Francis Guthrie in 1852 and proved by Kenneth Appel and Wolfgang Haken in 1976.
 
-For a graph �, let$\chi _ { G } ( k )$be the number of proper colorings of � with � colors. $\chi _ { G } ( k )$is called the chromatic polynomial of the graph �. Chromatic polynomials were introduced by George Birkhof for planar maps as a possible tool for the study of the four-color conjecture. Later Hassler Whitney extended the definition to general graphs. William Tutte found a far-reaching generalization, now called the Tutte polynomial and also introduced the related Tutte–Grothendieck invariants for graphs, which can be seen as an early bridge between graph theory and algebraic geometry. A starting point of Tutte’s work is the deletioncontraction operations. For a graph � and an edge � of$G ,$, let$G \backslash e$denote the graph obtained by deleting the edge �, and$G / e$denote the graph obtained by contracting the edge �, that is, by merging its two vertices to a single vertex adjacent to neighbors of both. A fundamental relation for chromatic polynomials is
+For a graph$G$, let$\chi _ { G } ( k )$be the number of proper colorings of$G$with$k$colors. $\chi _ { G } ( k )$is called the chromatic polynomial of the graph$G$. Chromatic polynomials were introduced by George Birkhof for planar maps as a possible tool for the study of the four-color conjecture. Later Hassler Whitney extended the definition to general graphs. William Tutte found a far-reaching generalization, now called the Tutte polynomial and also introduced the related Tutte–Grothendieck invariants for graphs, which can be seen as an early bridge between graph theory and algebraic geometry. A starting point of Tutte’s work is the deletion-contraction operations. For a graph$G$and an edge$e$of$G$, let$G \backslash e$denote the graph obtained by deleting the edge$e$, and$G / e$denote the graph obtained by contracting the edge$e$, that is, by merging its two vertices to a single vertex adjacent to neighbors of both. A fundamental relation for chromatic polynomials is
 
 $$
 \chi_ {G} (k) + \chi_ {G / e} (k) = \chi_ {G \backslash e} (k).\tag{2}
 $$
 
-This relation gives an easy inductive proof of the fact that the chromatic polynomial is indeed a polynomial. A graph � is called a minor of a graph � if it can be obtained from � by a sequence of deletions and contractions. Richard Stanley proved [59] that$\chi _ { G } ( - 1 )$equals the number of acyclic orientations of �.
+This relation gives an easy inductive proof of the fact that the chromatic polynomial is indeed a polynomial. A graph$H$is called a minor of a graph$G$if it can be obtained from$G$by a sequence of deletions and contractions. Richard Stanley proved [59] that$\chi _ { G } ( - 1 )$equals the number of acyclic orientations of$G$.
 
 ## 1.2. Read’s conjecture
 
@@ -68,31 +70,31 @@ $$
 a _ {k} ^ {2} \geq a _ {k - 1} a _ {k + 1}, k = 1, 2, \ldots , n - 1.\tag{4}
 $$
 
-Theorem 2 (June Huh [33]). The coeficients of the chromatic polynomial$\chi _ { G } ( \boldsymbol { x } )$of every graph � are log-concave.
+Theorem 2 (June Huh [33]). The coeficients of the chromatic polynomial$\chi _ { G } ( x )$of every graph$G$are log-concave.
 
 The unimodality and log-concavity of sequences arising in combinatorics and algebra have been studied by many researchers and in this context I would like to refer the reader to the survey articles [15,16,62]. A stronger property than log concavity of the coeficients of real polynomials is that of having only real roots. This is not the case for chromatic polynomials of graphs in general (but the location of the roots is still a fascinating topic). Unimodality of the numbers of elements according to their heights in general graded posets is also related to the important “Sperner property” of posets. We note that there are cases where unimodality was expected but failed, e.g., unimodality of face numbers of polytopes [11], and of Young lattices [63].
 
 I first heard about Huh’s startling proof of the Read conjecture from a 2011 paper by Jiří Matoušek [46] who regarded this result, among a few other results, as the beginning of a new era in discrete geometry and wrote:
 
-“To me, 2010 looks as annus mirabilis, a miraculous year, in several areas ofmy mathematical interests. Below I list seven highlights and breakthroughs, mostly in discrete geometry, hoping to share some ofmy wonder and pleasure with the readers.”
+“To me, 2010 looks as annus mirabilis, a miraculous year, in several areas of my mathematical interests. Below I list seven highlights and breakthroughs, mostly in discrete geometry, hoping to share some of my wonder and pleasure with the readers.”
 
-Huh’s proof relied on connections of the problem to singularities of local analytic functions and ultimately to mixed multiplicities of certain ideals. In his proof Huh related the coeficients of the chromatic polynomial to the Milnor numbers of a complex hyperplane arrangement associated with the graph � and, as we discuss in the next section, his proof extends to arbitrary complex hyperplane arrangements. Huh’s connection between chromatic polynomials of graphs and algebraic geometry was, on the one hand, a complete surprise but, on the other hand, it tied in with several developments in and around algebraic combinatorics dating to the mid-1970s. Huh’s subsequent discoveries where he further applied algebraic geometry and especially Hodge theory to combinatorics, beautifully combined new and old ideas.
+Huh’s proof relied on connections of the problem to singularities of local analytic functions and ultimately to mixed multiplicities of certain ideals. In his proof Huh related the coeficients of the chromatic polynomial to the Milnor numbers of a complex hyperplane arrangement associated with the graph$G$and, as we discuss in the next section, his proof extends to arbitrary complex hyperplane arrangements. Huh’s connection between chromatic polynomials of graphs and algebraic geometry was, on the one hand, a complete surprise but, on the other hand, it tied in with several developments in and around algebraic combinatorics dating to the mid-1970s. Huh’s subsequent discoveries where he further applied algebraic geometry and especially Hodge theory to combinatorics, beautifully combined new and old ideas.
 
 ## 2. Matroids and the Heron–Rota–Welsh conjecture
 
 ## 2.1. Matroids
 
-Let$X = \{ x _ { 1 } , x _ { 2 } , \ldots , x _ { n } \}$be a set of points in some vector space. We can associat with �:
+Let$X = \{ x _ { 1 } , x _ { 2 } , \ldots , x _ { n } \}$be a set of points in some vector space. We can associate with$X$:
 
-• The set of linearly independent subsets of �.
+• The set of linearly independent subsets of$X$.
 
-• The set of bases of � (a base is a maximal independent set).
+• The set of bases of$X$(a base is a maximal independent set).
 
-• The set of circuits of � (a circuit is a minimal dependent set).
+• The set of circuits of$X$(a circuit is a minimal dependent set).
 
-• The set of flats of � (a flat is a subset that is closed under linear combination)
+• The set of flats of$X$(a flat is a subset that is closed under linear combination)
 
-• The rank function that associates to a subset � of � the dimension of the vector space spanned by �.
+• The rank function that associates to a subset$Y$of$X$the dimension of the vector space spanned by$Y$.
 
 Matroids were introduced by Hassler Whitney [66] as a generalization of configurations of points in linear spaces or as an abstraction of the notion of linear dependence. Matroid theory is an example of both a highly successful abstraction and a source of very useful and explicit examples. Matroid theory has various connections to the theory of algorithms and mathematical optimization, and also to mathematical logic.
 
@@ -100,29 +102,29 @@ Each of the five notions we mentioned above, independent sets, bases, circuits, 
 
 (1) Subsets of independent sets are themselves independent.
 
-(2) For every subset � of �, all maximal independent subsets of Y have the same cardinality.
+(2) For every subset$Y$of$X$, all maximal independent subsets of Y have the same cardinality.
 
-The first property means that the set of independent sets is an abstract simplicial complex while the second property asserts that for every subset � of the ground set �, the induced complex on � is pure.
+The first property means that the set of independent sets is an abstract simplicial complex while the second property asserts that for every subset$Y$of the ground set$X$, the induced complex on$Y$is pure.
 
-For an abstract simplicial complex � on a ground set �, we can define its dual (also called its blocker) by
+For an abstract simplicial complex$K$on a ground set$X$, we can define its dual (also called its blocker) by
 
 $$
 K ^ {*} = \{S \subset X: X \backslash S \not \subset M \}.
 $$
 
-If � is a matroid we can define its dual as the matroid whose independent set complex is the dual of the independent set complex of �.
+If$M$is a matroid we can define its dual as the matroid whose independent set complex is the dual of the independent set complex of$M$.
 
 ## 2.2. From graphs to matroids
 
-Let � be a (connected) graph on � vertices$\{ v _ { 1 } , v _ { 2 } , \ldots , v _ { n } \}$, and suppose that $e _ { 1 } , e _ { 2 } , \ldots , e _ { n }$is the standard basis in an �-dimensional vector space over a field �. We associate to every edge$e = \{ v _ { i } , v _ { j } \} , i < j$the vector$e _ { i } - e _ { j }$. Remarkably we get the same matroid for every field we start with. This matroid is called the graphic matroid associated with �. It is easy to see that in this case, bases correspond to spanning trees, circuits correspond to simple cycles, independent sets correspond to spanning forests, and the rank function for subgraph � that corresponds to a set of edges is � minus the number of the connected components of �.
+Let$G$be a (connected) graph on$n$vertices$\{ v _ { 1 } , v _ { 2 } , \ldots , v _ { n } \}$, and suppose that $e _ { 1 } , e _ { 2 } , \ldots , e _ { n }$is the standard basis in an$n$-dimensional vector space over a field$F$. We associate to every edge$e = \{ v _ { i } , v _ { j } \} , i < j$the vector$e _ { i } - e _ { j }$. Remarkably we get the same matroid for every field we start with. This matroid is called the graphic matroid associated with$G$. It is easy to see that in this case, bases correspond to spanning trees, circuits correspond to simple cycles, independent sets correspond to spanning forests, and the rank function for subgraph$H$that corresponds to a set of edges is$n$minus the number of the connected components of$H$.
 
 ![](images/page_5_image_0.jpg)
 
 Figure 1
 
-Important classes of matroids. Right: Matroids also provide an abstraction of the notion of algebraic dependence. The large and mysterious class of algebraic matroids consists of matroids that can be represented by algebraic dependence relations over some field. Left: Tutte characterized graphic matroids in terms of forbidden minors. Regular matroids are those matroids that can be represented over every field, and Paul Seymour [58] developed a structure theory for this class. Jim Geelen, Bert Gerards, and Geof Whittle (see [28]) have recently proved tha matroids represented over every field are characterized by a finite list of forbidden minors
+Important classes of matroids. Right: Matroids also provide an abstraction of the notion of algebraic dependence. The large and mysterious class of algebraic matroids consists of matroids that can be represented by algebraic dependence relations over some field. Left: Tutte characterized graphic matroids in terms of forbidden minors. Regular matroids are those matroids that can be represented over every field, and Paul Seymour [58] developed a structure theory for this class. Jim Geelen, Bert Gerards, and Geof Whittle (see [28]) have recently proved that matroids represented over every field are characterized by a finite list of forbidden minors
 
-If � is a graphic matroid, the dual matroid need not be graphic. However, for planar graphs the dual matroid is the matroid associated to the dual graph. The notion of deletion and contraction extend from graph theory to matroid theory. (Indeed, these two operations are dual under matroid duality.)
+If$M$is a graphic matroid, the dual matroid need not be graphic. However, for planar graphs the dual matroid is the matroid associated to the dual graph. The notion of deletion and contraction extend from graph theory to matroid theory. (Indeed, these two operations are dual under matroid duality.)
 
 ## 2.3. Rank functions, characteristic polynomials, and the Heron–Rota–Welsh conjecture
 
@@ -134,21 +136,21 @@ The rank function of a matroid associates a nonnegative integer$r ( Y )$to every
 
 (iii)$r ( A ) \leq r ( A \cup \{ b \} ) \leq r ( A ) + 1 .$
 
-The characteristic function of a matroid � with ground set � is defined as follows:
+The characteristic function of a matroid$M$with ground set$X$ is defined as follows:
 
 $$
 \chi_ {M} (\lambda) := \sum_ {S \subseteq E} (- 1) ^ {| S |} \lambda^ {r (M) - r (S)}.\tag{5}
 $$
 
-When � is a graphic matroid for the graph �, then$\chi _ { M } ( \lambda )$is the chromatic polynomial of �.
+When$M$is a graphic matroid for the graph$G$, then$\chi _ { M } ( \lambda )$is the chromatic polynomial of$G$.
 
-Theorem 3 (Adiprasito, Huh, and Katz [1]). The coeficients ofthe characteristicpolynomial ofa matroid � are log-concave.
+Theorem 3 (Adiprasito, Huh, and Katz [1]). The coeficients of the characteristic polynomial of a matroid$M$are log-concave.
 
 June Huh [33] proved the results for matroids (regarded as hyperplane arrangements) representable over a field of characteristic 0 and, as we mentioned above, the proof uses the Milnor numbers of the arrangement. The proof by Huh and Katz [36] for the case of an arbitrary characteristic relied on the intersection theory of “wonderful compactification” defined by Corrado De Concini and Claudio Procesi [21] for complements of hyperplane arrangements combined with an inequality of Askold Khovanskii and Bernard Teissier.
 
 Adiprasito, Huh, and Katz [1] proved the full result. This requires far-reaching extensions of results from algebraic geometry to cohomology rings of algebraic varieties that do not exist. Here is the description of one of the early steps in the argument: the original definition of De Concini and Procesi of the “wonderful compactification” applied to realizable matroids, but Feichtner and Yuzvinsky defined in 2004 [25] a commutative ring associated to an arbitrary matroid that specializes to the cohomology ring of a wonderful compactification in the realizable case.
 
-Let me quote from [1]: “After the completion of [36], it was gradually realized that the validity of the Hodge–Riemann relations for the Chow ring of � is a vital ingredient for the proof of the log-concavity conjectures. While the Chow ring of � could be defined for arbitrary [matroid] �, it was unclear how to formulate and prove the Hodge–Riemann relations. From the point of view of [25], the ring$A ^ { * } ( M ) _ { \mathbb { R } }$is the Chow ring of a smooth, but noncompact toric variet$X ( \Sigma _ { M } )$, and there is no obvious way to reduce to the classical case of projective varieties.”
+Let me quote from [1]: “After the completion of [36], it was gradually realized that the validity of the Hodge–Riemann relations for the Chow ring of$M$is a vital ingredient for the proof of the log-concavity conjectures. While the Chow ring of$M$could be defined for arbitrary [matroid]$M$, it was unclear how to formulate and prove the Hodge–Riemann relations. From the point of view of [25], the ring$A ^ { * } ( M ) _ { \mathbb { R } }$is the Chow ring of a smooth, but noncompact toric variety$X ( \Sigma _ { M } )$, and there is no obvious way to reduce to the classical case of projective varieties.”
 
 We will discuss some of the algebraic geometry aspects in Section 4. We note that the algebraic results of [1] actually apply to more general geometric objects well beyond matroids.
 
@@ -156,7 +158,7 @@ We will discuss some of the algebraic geometry aspects in Section 4. We note tha
 
 ## 3.1. Background: Theorems by de Bruĳn–Erdős, Motzkin, Greene, and Ryser’s linear algebraic proof
 
-Theorem 4. A set of� points in the plane not all on the same line determines at least � lines.
+Theorem 4. A set of$n$points in the plane not all on the same line determines at least$n$lines.
 
 Here we say that a configuration of points determines a line ℓ if the line contains two (distinct) points from the configuration.
 
@@ -164,13 +166,13 @@ Proof: The Gallai–Sylvester theorem asserts that there exists a line that cont
 
 The assertion of the Gallai–Sylvester theorem does not apply over characteristic two as seen by the Fano plane, nor does it apply for the complex plane. By contrast, the proof by Nicolaas de Bruĳn and Paul Erdős uses an abstract combinatorial reasoning that is based only on the very first axiom of Euclid: “Every two points span a unique line”. An algebraic proof of the theorem was given by Herbert Ryser [54].
 
-Ryser’s proof: Consider the 0-1 incidence matrix with rows corresponding to points in the configuration and columns to lines determined by these points. Suppose that the columns of the incidence matrix are$c _ { 1 } , c _ { 2 } , \ldots , c _ { m }$. Note that the inner product of every two distinct rows is one. Write$b _ { i } = < c _ { i } , c _ { i } >$for the number of points on the �th line$( b _ { i } > 1 )$). Suppose that
+Ryser’s proof: Consider the 0-1 incidence matrix with rows corresponding to points in the configuration and columns to lines determined by these points. Suppose that the columns of the incidence matrix are$c _ { 1 } , c _ { 2 } , \ldots , c _ { m }$. Note that the inner product of every two distinct rows is one. Write$b _ { i } = < c _ { i } , c _ { i } >$for the number of points on the$i$th line$( b _ { i } > 1 )$. Suppose that
 
 ![](images/page_7_image_0.jpg)
 
 Figure 2
 
-Important examples of matroids. From left to right: The Fano matroid, the Vámos matroid, and the non-Pappus matroid. The points of the Fano plane violate the Gallai–Sylvester theorem, hence it is not representable over the reals. As a matter of fact, the Fano matroid is representable over a field � if and only the characteristic of � is 2. The Vámos matroid is not algebraic. Pappus ancient theorem implies that the non-Pappus matroid is not representable over any field. Bernt Lindström proved that it is algebraic. Picture credit: Wikipedia and the “matroid union” blog.
+Important examples of matroids. From left to right: The Fano matroid, the Vámos matroid, and the non-Pappus matroid. The points of the Fano plane violate the Gallai–Sylvester theorem, hence it is not representable over the reals. As a matter of fact, the Fano matroid is representable over a field$F$if and only the characteristic of$F$is 2. The Vámos matroid is not algebraic. Pappus ancient theorem implies that the non-Pappus matroid is not representable over any field. Bernt Lindström proved that it is algebraic. Picture credit: Wikipedia and the “matroid union” blog.
 
 $$
 \sum \alpha_ {i} c _ {i} = 0.
@@ -186,9 +188,9 @@ It follows that the rows are linearly independent and therefore we must have$m \
 
 Ryser’s proof was a starting point for many algebraic proofs in combinatorics. We leave it as an exercise to show that it implies that there is bĳection$\psi ( p )$from points to lines such that$p \in \psi ( p )$
 
-Theodore Motzkin considered the theorem in higher dimensions. He conjectured (already in his 1936 thesis) that � points in a � dimensional space that afinely span the space span at least � hyperplanes. Motzkin himself proved the result as well as an extension of the Gallai-Sylvester theorem for configurations in higher-dimensional real vector spaces [50]. Curtis Greene [30] proved a stronger theorem: there is a one-to-one map$\psi$from every point $p$to a hyperplane containing$p .$
+Theodore Motzkin considered the theorem in higher dimensions. He conjectured (already in his 1936 thesis) that$n$points in a$d$dimensional space that afinely span the space span at least$n$hyperplanes. Motzkin himself proved the result as well as an extension of the Gallai-Sylvester theorem for configurations in higher-dimensional real vector spaces [50]. Curtis Greene [30] proved a stronger theorem: there is a one-to-one map$\psi$from every point $p$to a hyperplane containing$p .$
 
-Let us now move to matroids of rank �. (Note that afine dependence of points in a �-dimensional vector space describe a matroid of rank$d + 1 . )$In 1974 Thomas Dowling and Richard Wilson conjectured that
+Let us now move to matroids of rank$d$. (Note that afine dependence of points in a$d$-dimensional vector space describe a matroid of rank$d + 1 . )$In 1974 Thomas Dowling and Richard Wilson conjectured that
 
 $$
 w _ {i} \leq w _ {d - i}, \quad \text { whenever } \quad i <   d - i.\tag{6}
@@ -198,15 +200,15 @@ This conjecture is referred to as the top-heavy conjecture.
 
 ## 3.2. The proof of the Dowling–Wilson conjecture
 
-Theorem 5 (Braden, Huh, Matherne, Proudfoot, and Wang 2020 [12]). Let � be a matroid, and let$\mathcal { L } ^ { k } ( M )$denote the set of �-flats of �; then,for any �, �,$k \leq j \leq r a n k ( M ) - k ,$
+Theorem 5 (Braden, Huh, Matherne, Proudfoot, and Wang 2020 [12]). Let$M$be a matroid, and let$\mathcal { L } ^ { k } ( M )$denote the set of$k$-flats of$M$; then, for any$k$,$j$,$k \leq j \leq \mathrm { r a n k } ( M ) - k ,$
 
 (1) The cardinality of$\mathcal { L } ^ { k } ( M )$is at most the cardinality of$\mathcal { L } ^ { j } ( M )$
 
-(2) There is an injective map � from$\mathcal { L } ^ { k } ( M )$to$\mathcal { L } ^ { j } ( M )$, satisfying$F \subset \psi ( F )$
+(2) There is an injective map$\psi$from$\mathcal { L } ^ { k } ( M )$to$\mathcal { L } ^ { j } ( M )$, satisfying$F \subset \psi ( F )$
 
-An additional result from the same paper asserts that if Γ is any group acting on �, then
+An additional result from the same paper asserts that if Γ is any group acting on$M$, then
 
-(3) There is an injective map$\psi$from$\mathbb { Q } \mathcal { L } ^ { k } ( M )$to$\mathcal { L } ^ { j } ( M )$), of permutation representation of Γ.
+(3) There is an injective map$\psi$from$\mathbb { Q } \mathcal { L } ^ { k } ( M )$to$\mathcal { L } ^ { j } ( M )$, of permutation representation of Γ.
 
 The case of representable matroids was proved earlier by Huh and Wang 2017 [37]. The paper [12] also gives consequences for Kazhdan–Lusztig polynomials of matroids (introduced by Elias and Proudfoot).
 
@@ -216,7 +218,7 @@ $$
 w _ {2} ^ {2} \geq w _ {1} w _ {3},\tag{7}
 $$
 
-and this is referred to as the “point-lines-planes” conjecture. A stronger form ofthis conjecture (due to Mason) asserts that
+and this is referred to as the “point-lines-planes” conjecture. A stronger form of this conjecture (due to Mason) asserts that
 
 $$
 w _ {2} ^ {2} \geq \frac {3}{2} \frac {w _ {1} - 1}{w _ {1} - 2} w _ {1} w _ {3}.
@@ -224,7 +226,9 @@ $$
 
 In 1982 Paul Seymour [57] proved this conjecture for matroids having no five points on a line.
 
-4. The connection with Hodge theory and algebraic geometry 4.1. Three fundamental ideas and other ingredients from the proof of the Heron–Rota–Welsh conjecture
+## 4. The connection with Hodge theory and algebraic geometry
+
+## 4.1. Three fundamental ideas and other ingredients from the proof of the Heron–Rota–Welsh conjecture
 
 “I like the solution even more than the problem.”
 
@@ -238,9 +242,9 @@ Indeed, tropical geometry provided both a necessary framework and insights into 
 
 (2) The idea of Richard Stanley that a polarized Hodge structure on the cohomology of projective toric varieties produces important combinatorial inequalities.
 
-Here the main example was the �-theorem for convex polytopes where Stanley used the hard Lefschetz theorem for the cohomology ring. Another notable example was Stanley’s proof of the Erdős–Moser conjecture.
+Here the main example was the$g$-theorem for convex polytopes where Stanley used the hard Lefschetz theorem for the cohomology ring. Another notable example was Stanley’s proof of the Erdős–Moser conjecture.
 
-(3) The idea of Peter McMullen that the �-conjecture can be proved entirely within the realm of convex polytope theory using the “flip connectivity” of simplicial polytopes of a given dimension.
+(3) The idea of Peter McMullen that the$g$-conjecture can be proved entirely within the realm of convex polytope theory using the “flip connectivity” of simplicial polytopes of a given dimension.
 
 Any two simplicial polytopes are connected by a sequence of “flips” (also known as “Pachner moves”) and McMullen proved that the validity of the hard Lefschetz theorem and the Hodge–Riemann relations are preserved under flips.
 
@@ -256,9 +260,9 @@ Hodge theory gives rise to three conjectures (PD), (HL), and (HR), referred to a
 
 (HR) stands for the Hodge–Riemann relations. (PD) and (HD) imply that a certain bilinear form is nondegenerate and (HR) is a stronger statement that this form is definite.
 
-For the case of smooth projective algebraic variety �, we can consider its cohomology ring$A _ { i } = H ^ { 2 i } ( M )$. (For the case of singular algebraic varieties, that come into play in the strongest versions of the Dowling–Wilson conjecture, we need to use intersection cohomology.)
+For the case of smooth projective algebraic variety$M$, we can consider its cohomology ring$A _ { i } = H ^ { 2 i } ( M )$. (For the case of singular algebraic varieties, that come into play in the strongest versions of the Dowling–Wilson conjecture, we need to use intersection cohomology.)
 
-In [34] June Huh considered five examples (we are somewhat imprecise here): the cohomology of a compact Kähler manifold, the ring of algebraic cycles modulo homological equivalence on a smooth projective variety, McMullen’s algebra generated by the Minkowski summands of a simple convex polytope, the combinatorial intersection cohomology of a convex polytope, the reduced Soergel bimodule of a Coxeter group element, and the Chow ring of a matroid. The only case among these examples where the standard conjectures are not known is in their original appearance in Grothendieck’s work [31] toward the Weil conjectures. The example of Soergel bimodules is related to the celebrated 2014 solution of the Kazhdan– Lusztig conjecture for general Coxeter groups by Ben Elias and Geordie Williamson [23]. While it may be premature to expect it, it is not premature to hope that some connections will be found between the combinatorial appearances of the standard conjectures and their appearances in representation theory and number theory.
+In [34] June Huh considered five examples (we are somewhat imprecise here): the cohomology of a compact Kähler manifold, the ring of algebraic cycles modulo homological equivalence on a smooth projective variety, McMullen’s algebra generated by the Minkowski summands of a simple convex polytope, the combinatorial intersection cohomology of a convex polytope, the reduced Soergel bimodule of a Coxeter group element, and the Chow ring of a matroid. The only case among these examples where the standard conjectures are not known is in their original appearance in Grothendieck’s work [31] toward the Weil conjectures. The example of Soergel bimodules is related to the celebrated 2014 solution of the Kazhdan–Lusztig conjecture for general Coxeter groups by Ben Elias and Geordie Williamson [23]. While it may be premature to expect it, it is not premature to hope that some connections will be found between the combinatorial appearances of the standard conjectures and their appearances in representation theory and number theory.
 
 Remarks: 1) The proof of the Heron–Rota–Welsh conjecture by June Huh and his collaborators largely exploits “positivity,” namely the Hodge–Riemann relations. For another central problem in algebraic combinatorics, the “g-conjecture for spheres,” positivity is no longer available, and remarkable techniques to replace it and thus prove the conjecture were recently developed first by Adiprasito [2] (the “Hall-Laman property”), subsequently by Stavros Argyrios Papadakis and Vasiliki Petrotou [53] (the “anisotropy property”), and ultimately by Adiprasito, Papadakis, and Petrotou [3]. (See also Kalle Karu and Elizabeth Xiao [42] for a simplified proof.)
 
@@ -268,7 +272,7 @@ Remarks: 1) The proof of the Heron–Rota–Welsh conjecture by June Huh and his
 
 ## 5.1. Mason conjecture, regular strength, strong, and ultra-strong
 
-Let � be an �-element matroid and let$i _ { k } ( M )$) denote the number of independent sets of � of size �. The Mason conjecture [45] comes in several strengths.
+Let$M$be an$n$-element matroid and let$i _ { k } ( M )$ denote the number of independent sets of$M$of size$k$. The Mason conjecture [45] comes in several strengths.
 
 The Mason conjecture:
 
@@ -290,13 +294,13 @@ $$
 
 Mathias Lenz showed [43] how to derive the Mason conjecture for representable matroids, based on the work of Huh and Katz. Adiprasito, Huh, and Katz showed how to derive the Mason conjecture from their Hodge theory techniques and Huh, Schröter, and Wang extended these techniques to prove the strong Mason conjecture. The ultra-strong conjecture was proved in parallel by direct combinatorial reasoning by Nima Anari, Kuikui Liu, Shayan Oveis Gharan, and Cynthia Vinzant [5] and based on Hodge theory by Brändén and Huh [13,14].
 
-June Huh’s results of the past decade have led to much further research on the uni modality and log-concavity of various sequences arising in combinatorics. In some cases new combinatorial proofs were found. Let me refer the reader to recent papers by Swee Hong Chan and Igor Pak [19,20].
+June Huh’s results of the past decade have led to much further research on the unimodality and log-concavity of various sequences arising in combinatorics. In some cases new combinatorial proofs were found. Let me refer the reader to recent papers by Swee Hong Chan and Igor Pak [19,20].
 
 ## 5.2. The Mihail–Vazirani conjecture
 
-For a matroid � on a ground set �, consider a graph whose vertices are all bases of the matroids and two bases are adjacent if their symmetric diference has two elements. Milena Mihail and Umesh Vazirani conjectured that for every set � of vertices in this graph, the number of edges between$Y$to its complement$\bar { Y }$is at least min$( | Y | | , { \bar { Y } } | )$
+For a matroid$M$on a ground set$X$, consider a graph whose vertices are all bases of the matroids and two bases are adjacent if their symmetric diference has two elements. Milena Mihail and Umesh Vazirani conjectured that for every set$Y$of vertices in this graph, the number of edges between$Y$to its complement$\bar { Y }$is at least min$( | Y | | , { \bar { Y } } | )$
 
-If � consists of the elements of the standard basis in$\mathbb { R } ^ { d }$and their negatives, then the graph we obtain is the graph of the discrete �-dimensional discrete cube and the assertion of the Mihail–Vazirani conjecture is a well-known isoperimetric inequality of the discrete cube.
+If$M$consists of the elements of the standard basis in$\mathbb { R } ^ { d }$and their negatives, then the graph we obtain is the graph of the discrete$n$-dimensional discrete cube and the assertion of the Mihail–Vazirani conjecture is a well-known isoperimetric inequality of the discrete cube.
 
 In a pioneering 1992 paper, Tomás Feder and Milena Mihail [24] proved the conjecture for balanced matroids. In 2018 Nima Anari, Shayan Oveis Gharan, and Cynthia Vinzant [4] proved the Mihail–Vazirani conjecture. Their proof relied on the Adiprasito–Huh–Katz paper although gradually they were able to find elementary proofs not depending on Hodge theory of crucial inequalities they needed. Their result leads to a polynomial-time algorithm to approximate the number of bases in a matroid.
 
@@ -312,7 +316,7 @@ Supported by ERC grant 834735 and by an ISF grant 2669/21.
 
 ## References
 
-[1]Karim Adiprasito, June Huh, and Eric Katz, Hodge theory for combinatoria geometries, Annals ofMathematics 188 (2018), 381–452
+[1]Karim Adiprasito, June Huh, and Eric Katz, Hodge theory for combinatorial geometries, Annals ofMathematics 188 (2018), 381–452
 
 [2]Karim Adiprasito, Combinatorial Lefschetz theorems beyond positivity, arXiv:1812.10454.
 
@@ -396,7 +400,7 @@ Supported by ERC grant 834735 and by an ISF grant 2669/21.
 
 [42] Kalle Karu and Elizabeth Xiao, On the anisotropy theorem of Papadakis and Petrotou, arXiv:2204.07758.
 
-[43] Matthias Lenz, The �-vector of a representable-matroid complex is log-concave, Advances in Applied Mathematics 51 (2013), 543–545.
+[43] Matthias Lenz, The$f$-vector of a representable-matroid complex is log-concave, Advances in Applied Mathematics 51 (2013), 543–545.
 
 [44] Laszlo Lovász, Matroid matching and some applications, Journal ofCombinato rial Theory (Ser. B) 28 (1980), 208–236.
 
@@ -446,4 +450,4 @@ Supported by ERC grant 834735 and by an ISF grant 2669/21.
 
 ## Gil Kalai
 
-Hebrew University of Jerusalem and Reichman University, kalai@math.huji.ac.i
+Hebrew University of Jerusalem and Reichman University, kalai@math.huji.ac.il
