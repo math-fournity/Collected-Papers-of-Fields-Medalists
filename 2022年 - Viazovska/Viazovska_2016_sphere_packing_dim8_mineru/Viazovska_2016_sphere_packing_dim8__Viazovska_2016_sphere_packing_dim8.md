@@ -10,7 +10,7 @@ Keywords: Sphere packing, Modular forms, Fourier analysis AMS subject classifica
 
 ## 1 Introduction
 
-The sphere packing constant measures which portion of d-dimensional Euclidean space can be covered by non-overlapping unit balls. More precisely, let$\mathbb { R } ^ { d }$be the Euclidean vector space equipped with distance$\| \cdot \|$and Lebesgue measure$\operatorname { V o l } ( \cdot )$. For$\boldsymbol { x } \in \mathbb { R } ^ { d }$and $r \in \mathbb { R } _ { > 0 }$we denote by$B _ { d } ( x , r )$the open ball in$\mathbb { R } ^ { d }$with center$x$and radius r. Let $X \subset \mathbb { R } ^ { d }$be a discrete set of points such that$\| x - y \| \ge 2$for any distinct$x , y \in X$. Then the union
+The sphere packing constant measures which portion of d-dimensional Euclidean space can be covered by non-overlapping unit balls. More precisely, let$\mathbb { R } ^ { d }$be the Euclidean vector space equipped with distance$\| \cdot \|$and Lebesgue measure$\operatorname { V o l } ( \cdot )$. For$\boldsymbol { x } \in \mathbb { R } ^ { d }$and $r \in \mathbb { R } _ { > 0 }$we denote by$B _ { d } ( x , r )$the open ball in$\mathbb { R } ^ { d }$with center$x$and radius r. Let $X \subset \mathbb { R } ^ { d }$be a discrete set of points such that$\| x - y \| \geq 2$ for any distinct$x , y \in X$. Then the union
 
 $$
 \mathcal {P} = \bigcup_ {x \in X} B _ {d} (x, 1)
@@ -28,7 +28,7 @@ $$
 \Delta_ {\mathcal {P}} := \limsup _ {r \to \infty} \Delta_ {\mathcal {P}} (r).
 $$
 
-The number be want to know is the supremum over all possible packing densities
+The number we want to know is the supremum over all possible packing densities
 
 $$
 \Delta_{d}:= \sup_{\substack{\mathcal{P}\subset \mathbb{R}^{d}\\ \text{sphere packing}}}\Delta_{\mathcal{P}},
@@ -36,7 +36,7 @@ $$
 
 called the sphere packing constant.
 
-For which dimensions do we know the exact value of$\Delta _ { d } ?$Trivially, in dimension 1 we have$\Delta _ { 1 } = 1$. It has long been known that a best packing in dimension 2 is the familiar hexagonal lattice packing, in which each disk is touching six others. The first proof of this result was given by A. Thue at the beginning ot twentieth century [18]. However, his proof was considered by some experts incomplete. A rigorous proof was given by L. Fejes T´oth in 1940s [10]. The density of the hexagonal lattice packing is$\frac { \pi } { \sqrt { 1 2 } }$, therefore$\Delta _ { 2 } = \textstyle { \frac { \pi } { \sqrt { 1 2 } } } \approx 0 . 9 0 6 9 0$The packing problem in dimension 3 turned out to be more dificult. Johannes Kepler conjectured in his essay “On the six-cornered snowflake” (1611) that no arrangement of equally sized spheres filling space has density greater than$\frac { \pi } { \sqrt { 1 8 } }$. This density is attained by the face-centered cubic packing and also by uncountably many non-lattice packings. The Kepler conjecture was famously proven by T. Hales in 1998 [11] and therefore we know that$\Delta _ { 3 } = { \frac { \pi } { \sqrt { 1 8 } } } \approx 0 . 7 4 0 4 8$. In 2015 Hales and his 21 coauthors published a complete formal proof of the Kepler conjecture that can be verified by automated proof checking software. Before now, the exact values of the sphere packing constants in all dimensions greater than 3 have been unknown. A list of conjectural best packings in dimensions less than 10 can be found in [6]. Upper bounds for the sphere packing constants$\Delta _ { d }$as$d \leq 3 6$are given in [4]. Surprisingly enough, these upper bounds and known lower bounds on$\Delta _ { d }$are extremely close in dimensions$d = 8$ and$d = 2 4$
+For which dimensions do we know the exact value of$\Delta _ { d } ?$Trivially, in dimension 1 we have$\Delta _ { 1 } = 1$. It has long been known that a best packing in dimension 2 is the familiar hexagonal lattice packing, in which each disk is touching six others. The first proof of this result was given by A. Thue at the beginning ot twentieth century [18]. However, his proof was considered by some experts incomplete. A rigorous proof was given by L. Fejes Tóth in 1940s [10]. The density of the hexagonal lattice packing is$\frac { \pi } { \sqrt { 1 2 } }$, therefore$\Delta _ { 2 } = \textstyle { \frac { \pi } { \sqrt { 1 2 } } } \approx 0 . 9 0 6 9 0$. The packing problem in dimension 3 turned out to be more dificult. Johannes Kepler conjectured in his essay “On the six-cornered snowflake” (1611) that no arrangement of equally sized spheres filling space has density greater than$\frac { \pi } { \sqrt { 1 8 } }$. This density is attained by the face-centered cubic packing and also by uncountably many non-lattice packings. The Kepler conjecture was famously proven by T. Hales in 1998 [11] and therefore we know that$\Delta _ { 3 } = { \frac { \pi } { \sqrt { 1 8 } } } \approx 0 . 7 4 0 4 8$. In 2015 Hales and his 21 coauthors published a complete formal proof of the Kepler conjecture that can be verified by automated proof checking software. Before now, the exact values of the sphere packing constants in all dimensions greater than 3 have been unknown. A list of conjectural best packings in dimensions less than 10 can be found in [6]. Upper bounds for the sphere packing constants$\Delta _ { d }$as$d \leq 3 6$are given in [4]. Surprisingly enough, these upper bounds and known lower bounds on$\Delta _ { d }$are extremely close in dimensions$d = 8$ and$d = 2 4$
 
 The main result of this paper is the proof that
 
@@ -44,19 +44,19 @@ $$
 \Delta_ {8} = \frac {\pi^ {4}}{3 8 4} \approx 0. 2 5 3 6 7.
 $$
 
-This is the density of the$E _ { 8 } .$-lattice sphere packing. Recall that the E<sub>8</sub>-lattice$\Lambda _ { 8 } \subset \mathbb { R } ^ { 8 }$ is given by
+This is the density of the$E _ { 8 }$-lattice sphere packing. Recall that the E<sub>8</sub>-lattice$\Lambda _ { 8 } \subset \mathbb { R } ^ { 8 }$ is given by
 
 $$
 \Lambda_ {8} = \{(x _ {i}) \in \mathbb {Z} ^ {8} \cup (\mathbb {Z} + \frac {1}{2}) ^ {8} | \sum_ {i = 1} ^ {8} x _ {i} \equiv 0 (\mathrm{mod} 2) \}.
 $$
 
-$\Lambda _ { 8 }$is the unique up to isometry positive-definite, even, unimodular lattice of rank 8. The name derives from the fact that it is the root lattice of the$E _ { 8 }$root system. The minimal distance between two points in$\Lambda _ { 8 }$is$\sqrt { 2 }$. The$E _ { 8 } \mathbf { - }$-lattice sphere packing is the packing of unit balls with centers at$\scriptstyle { \frac { 1 } { \sqrt { 2 } } } \Lambda _ { 8 }$. Our main result is
+$\Lambda _ { 8 }$is the unique up to isometry positive-definite, even, unimodular lattice of rank 8. The name derives from the fact that it is the root lattice of the$E _ { 8 }$root system. The minimal distance between two points in$\Lambda _ { 8 }$is$\sqrt { 2 }$. The$E _ { 8 }$-lattice sphere packing is the packing of unit balls with centers at$\scriptstyle { \frac { 1 } { \sqrt { 2 } } } \Lambda _ { 8 }$. Our main result is
 
 Theorem 1. No packing of unit balls in Euclidean space$\mathbb { R } ^ { 8 }$has density greater than that of the$E _ { 8 } - l a t t i c e$packing.
 
 Furthermore, our proof of Theorem 1 combined with arguments given in [4, Section 8] implies that the$E _ { 8 } – \mathrm { l a t t i c e }$sphere packing is the unique periodic packing of maximal density.
 
-The paper is organized as follows. In Section 2 we explain the idea of the proof of Theorem 1 and describe the methods we use. In Section 3 we give a brief overview of the theory of modular forms. In Section 4 we construct supplementary radial functions$^ { a , }$ $b : \mathbb { R } ^ { 8 }  i \mathbb { R }$, which are eigenfunctions of the Fourier transform and have double zeroes at almost all points of$\Lambda _ { 8 }$. This construction is crucial for our proof of Theorem 1. Finally, in Section 5 we complete the proof.
+The paper is organized as follows. In Section 2 we explain the idea of the proof of Theorem 1 and describe the methods we use. In Section 3 we give a brief overview of the theory of modular forms. In Section 4 we construct supplementary radial functions$a , b : \mathbb { R } ^ { 8 } \to i \mathbb { R }$, which are eigenfunctions of the Fourier transform and have double zeroes at almost all points of$\Lambda _ { 8 }$. This construction is crucial for our proof of Theorem 1. Finally, in Section 5 we complete the proof.
 
 ## 2 Linear programming bounds
 
@@ -64,18 +64,18 @@ Our proof of Theorem 1 is based on linear programming bounds. This technique was
 
 In 2003 Cohn and Elkies [4] developed linear programming bounds that apply directly to sphere packings. Using their new method they improved the previously known upper bounds for the sphere packing constant in dimensions from 4 to 36. The most striking results obtained by this technique are upper bounds for dimensions 8 and 24. For example, their upper bound for$\Delta _ { 8 }$was only 1.000001 times greater than the lower bound, which is given by the density of the$E _ { 8 }$sphere packing. This bound can be improved even further by more extensive computer computations.
 
-We explain the Cohn–Elkies linear programming bounds in more detail. To this end we recall a few definitions from Fourier analysis. The Fourier transform of an$L ^ { 1 }$function $f : \mathbb { R } ^ { d }  \mathbb { C }$is defined as
+We explain the Cohn–Elkies linear programming bounds in more detail. To this end we recall a few definitions from Fourier analysis. The Fourier transform of an$L ^ { 1 }$function$f : \mathbb { R } ^ { d } \to \mathbb { C }$ is defined as
 
 $$
 \mathcal {F} (f) (y) = \widehat {f} (y) := \int_ {\mathbb {R} ^ {d}} f (x) e ^ {- 2 \pi i x \cdot y} d x, \quad y \in \mathbb {R} ^ {d}
 $$
 
-where$x \cdot y = { \textstyle { \frac { 1 } { 2 } } } \| x \| ^ { 2 } + { \textstyle { \frac { 1 } { 2 } } } \| y \| ^ { 2 } - { \textstyle { \frac { 1 } { 2 } } } \| x - y \| ^ { 2 }$is the standard scalar product in$\mathbb { R } ^ { d }$. A $C ^ { \infty }$function$f : \mathbb { R } ^ { d }  \mathbb { C }$is called a Schwartz function if it tends to zero as$\| x \|  \infty$ faster then any inverse power of$\lVert x \rVert$, and the same holds for all partial derivatives of$f .$ The set of all Schwartz functions is called the Schwartz space. The Fourier transform is an automorphism of this space. We will also need the following wider class of functions. We say that a function$f : \mathbb { R } ^ { d }  \mathbb { C }$is admissible if there is a constant$\delta > 0$such that $| f ( x ) |$and$| { \widehat { f } } ( x ) |$are bounded above by a constant times$( 1 + | x | ) ^ { - d - \delta }$. The following theorem is the key result of [4]:
+where$x \cdot y = { \textstyle { \frac { 1 } { 2 } } } \| x \| ^ { 2 } + { \textstyle { \frac { 1 } { 2 } } } \| y \| ^ { 2 } - { \textstyle { \frac { 1 } { 2 } } } \| x - y \| ^ { 2 }$is the standard scalar product in$\mathbb { R } ^ { d }$. A$C ^ { \infty }$ function$f : \mathbb { R } ^ { d } \to \mathbb { C }$ is called a Schwartz function if it tends to zero as$\| x \| \to \infty$ faster then any inverse power of$\lVert x \rVert$, and the same holds for all partial derivatives of$f .$ The set of all Schwartz functions is called the Schwartz space. The Fourier transform is an automorphism of this space. We will also need the following wider class of functions. We say that a function$f : \mathbb { R } ^ { d } \to \mathbb { C }$ is admissible if there is a constant$\delta > 0$such that $| f ( x ) |$and$| { \widehat { f } } ( x ) |$are bounded above by a constant times$( 1 + | x | ) ^ { - d - \delta }$. The following theorem is the key result of [4]:
 
-Theorem 2. (Cohn, Elkies$[ 4 ] )$Suppose that$f : \mathbb { R } ^ { d }  \mathbb { R }$is an admissible function, is not identically zero, and satisfies:
+Theorem 2. (Cohn, Elkies$[ 4 ] )$Suppose that$f : \mathbb { R } ^ { d } \to \mathbb { R }$ is an admissible function, is not identically zero, and satisfies:
 
 $$
-f (x) \leq 0 f o r \| x \| \geq 1\tag{1}
+f (x) \leq 0$ for$\| x \| \geq 1$\tag{1}
 $$
 
 and
@@ -90,7 +90,7 @@ $$
 \frac {f (0)}{\widehat {f} (0)} \cdot \frac {\pi^ {\frac {d}{2}}}{2 ^ {d} \Gamma (\frac {d}{2} + 1)} = \frac {f (0)}{\widehat {f} (0)} \cdot \operatorname{Vol} B _ {d} (0, \frac {1}{2}).
 $$
 
-Without loss of generality we can assume that a function$f$in Theorem 2 is radial, i. e. its value at each point depends only on the distance between the point and the origin [4, p. 695]. For a radial function$f _ { 0 } : \mathbb { R } ^ { d }  \mathbb { R }$we will denote by$f _ { 0 } ( r )$the common value of$f _ { 0 }$on vectors of length r. Henceforth we assume$d = 8$. The Poisson summation formula implies
+Without loss of generality we can assume that a function$f$in Theorem 2 is radial, i. e. its value at each point depends only on the distance between the point and the origin [4, p. 695]. For a radial function$f _ { 0 } : \mathbb { R } ^ { d } \to \mathbb { R }$ we will denote by$f _ { 0 } ( r )$the common value of$f _ { 0 }$on vectors of length r. Henceforth we assume$d = 8$. The Poisson summation formula implies
 
 $$
 \sum_ {\ell \in \frac {1}{\sqrt {2}} \Lambda_ {8}} f (\ell) = 2 ^ {4} \sum_ {\ell \in \sqrt {2} \Lambda_ {8}} \widehat {f} (\ell).
@@ -102,14 +102,14 @@ $$
 \frac {f (0)}{\widehat {f} (0)} \geq 2 ^ {4}.
 $$
 
-We$\operatorname { s a y }$that an admissible function$f : \mathbb { R } ^ { 8 } \to \mathbb { R }$is optimal if it satisfies (1), (2) and $f ( 0 ) / \widehat { f } ( 0 ) = 2 ^ { 4 }$
+We$\operatorname { s a y }$that an admissible function$f : \mathbb { R } ^ { 8 } \to \mathbb { R }$ is optimal if it satisfies (1), (2) and $f ( 0 ) / \widehat { f } ( 0 ) = 2 ^ { 4 }$
 
 The main step in our proof of Theorem 1 is the explicit construction of an optimal function. It will be convenient for us to scale this function by$\sqrt { 2 }$
 
 Theorem 3. There exists a radial Schwartz function$g : \mathbb { R } ^ { 8 } \to \mathbb { R }$which satisfies:
 
 $$
-g (x) \leq 0 f o r \| x \| \geq \sqrt {2},\tag{3}
+g (x) \leq 0$ for$\| x \| \geq \sqrt { 2 }$,\tag{3}
 $$
 
 $$
@@ -142,7 +142,7 @@ $$
 \sum_ {\ell \in \Lambda_ {8}} \widehat {g} (\ell) \geq \widehat {g} (0) = 1.\tag{8}
 $$
 
-Therefore, we deduce that$g ( \ell ) = \widehat { g } ( \ell ) = 0$for all$\ell \in \Lambda _ { 8 } \backslash \{ 0 \}$. Moreover, the first derivatives$\begin{array} { r } { \frac { d } { d r } g ( r ) } \end{array}$and$\begin{array} { r } { \frac { d } { d r } \widehat { g } ( r ) } \end{array}$also vanish at all Λ<sub>8</sub>-lattice points of length bigger than $\sqrt { 2 }$. We will say that$g$and$\widehat g$have double zeroes at these points. This property gives us a hint on constructing the function g explicitly.
+Therefore, we deduce that$g ( \ell ) = \widehat { g } ( \ell ) = 0$for all$\ell \in \Lambda _ { 8 } \backslash \{ 0 \}$. Moreover, the first derivatives$\begin{array} { r } { \frac { d } { d r } g ( r ) } \end{array}$and$\begin{array} { r } { \frac { d } { d r } \widehat { g } ( r ) } \end{array}$also vanish at all$\Lambda _ { 8 }$-lattice points of length bigger than $\sqrt { 2 }$. We will say that$g$and$\widehat g$have double zeroes at these points. This property gives us a hint on constructing the function g explicitly.
 
 In Section 5 a function g satisfying (3)–(5) is given in a closed form. Namely, it is defined as an integral transform (Laplace transform) of a modular form of a certain kind. The next section is a brief introduction to the theory of modular forms.
 
@@ -160,7 +160,7 @@ $$
 \Gamma (N) := \left\{\left( \begin{array}{c c} a & b \\ c & d \end{array} \right) \in \Gamma (1) \big | \left( \begin{array}{c c} a & b \\ c & d \end{array} \right) \equiv \left( \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right) \bmod N \right\}.
 $$
 
-A subgroup$\Gamma \subset \Gamma ( 1 )$is called a congruence subgroup if$\Gamma ( N ) \subset \Gamma$for some$N \in  { \mathbb { N } }$. An important example of a congruence subgroup is
+A subgroup$\Gamma \subset \Gamma ( 1 )$is called a congruence subgroup if$\Gamma ( N ) \subset \Gamma$ for some$N \in \mathbb { N }$.. An important example of a congruence subgroup is
 
 $$
 \Gamma_ {0} (N) := \left\{\left( \begin{array}{c c} a & b \\ c & d \end{array} \right) \in \Gamma (1) \big | c \equiv 0 \bmod N \right\}.
@@ -310,7 +310,7 @@ $$
 j (z) = q ^ {- 1} + 7 4 4 + 1 9 6 8 8 4 q + 2 1 4 9 3 7 6 0 q ^ {2} + 8 6 4 2 9 9 9 7 0 q ^ {3} + 2 0 2 4 5 8 5 6 2 5 6 q ^ {4} + O (q ^ {5})
 $$
 
-where$q = e ^ { 2 \pi i z }$. Using a simple computer algebra system such as PARI GP or Mathematica one can compute the first hundred terms of this Fourier expansion within a few seconds. An important question is to find an asymptotic formula for$c _ { j } ( n )$, the n-th Fourier coeficient of j. Using the Hardy-Ramanujan circle method [17, p. 460 – 461] or the non-holomorphic Poincar´e series [15] one can show that
+where$q = e ^ { 2 \pi i z }$. Using a simple computer algebra system such as PARI GP or Mathematica one can compute the first hundred terms of this Fourier expansion within a few seconds. An important question is to find an asymptotic formula for$c _ { j } ( n )$, the n-th Fourier coeficient of$j$. Using the Hardy-Ramanujan circle method [17, p. 460 – 461] or the non-holomorphic Poincaré series [15] one can show that
 
 $$
 c _ {j} (n) = \frac {2 \pi}{\sqrt {n}} \sum_ {k = 1} ^ {\infty} \frac {A _ {k} (n)}{k} I _ {1} \left(\frac {4 \pi \sqrt {n}}{k}\right) \qquad n \in \mathbb {Z} _ {> 0}\tag{20}
@@ -328,7 +328,7 @@ For a comprehensive introduction to the theory of modular forms we refer the rea
 
 ## 4 Fourier eigenfunctions with double zeroes at lattice points
 
-In this section we construct two radial Schwartz functions$a , b : \mathbb { R } ^ { 8 } \to i \mathbb { R }$such that
+In this section we construct two radial Schwartz functions$a , b : \mathbb { R } ^ { 8 } \to i \mathbb { R }$ such that
 
 $$
 \mathcal {F} (a) = a\tag{21}
@@ -338,7 +338,7 @@ $$
 \mathcal {F} (b) = - b\tag{22}
 $$
 
-which double zeroes at all$\Lambda _ { 8 } .$-vectors of length greater than${ \sqrt { 2 } } .$. Recall that each vector of$\Lambda _ { 8 }$has length$\sqrt { 2 n }$for some$n \in  { \mathbb { N } } _ { \geq 0 }$. We define a and b so that their values are purely imaginary because this simplifies some of our computations. We will show in Section 5 that an appropriate linear combination of functions a and b satisfies conditions (3)–(5).
+which have double zeroes at all$\Lambda _ { 8 }$-vectors of length greater than${ \sqrt { 2 } }$. Recall that each vector of$\Lambda _ { 8 }$ has length$\sqrt { 2 n }$ for some$n \in \mathbb { N } _ { \geq 0 }$. We define a and b so that their values are purely imaginary because this simplifies some of our computations. We will show in Section 5 that an appropriate linear combination of functions a and b satisfies conditions (3)–(5).
 
 First, we will define the function a. To this end we consider the following weakly holomorphic modular forms:
 
@@ -350,7 +350,7 @@ $$
 \varphi_ {- 4} := \frac {1 7 2 8 E _ {4} ^ {2}}{E _ {4} ^ {3} - E _ {6} ^ {2}}.\tag{24}
 $$
 
-The modular form$E _ { 4 } ^ { 3 } - E _ { 6 } ^ { 2 }$does not vanish in the upper half-plain, hence$\varphi _ { - 2 }$and$\varphi _ { - 4 }$ have no poles in H. Analogously to (20), the Fourier coeficients of$\varphi _ { - 2 }$and$\varphi _ { - 4 }$satisfy
+The modular form$E _ { 4 } ^ { 3 } - E _ { 6 } ^ { 2 }$does not vanish in the upper half-plane, hence$\varphi _ { - 2 }$and$\varphi _ { - 4 }$ have no poles in H. Analogously to (20), the Fourier coeficients of$\varphi _ { - 2 }$and$\varphi _ { - 4 }$satisfy
 
 $$
 c _ {\varphi_ {\kappa}} (n) = 2 \pi n ^ {\frac {\kappa - 1}{2}} \sum_ {k = 1} ^ {\infty} \frac {A _ {k} (n)}{k} I _ {1 - \kappa} \left(\frac {4 \pi \sqrt {n}}{k}\right) \qquad n \in \mathbb {Z} _ {> 0}, \kappa = - 2, - 4.\tag{25}
@@ -544,7 +544,7 @@ $$
 \int_ {0} ^ {\infty} \left(\frac {3 6}{\pi^ {2}} e ^ {2 \pi t} + \frac {8 6 4 0}{\pi} t + \frac {1 8 1 4 4}{\pi^ {2}}\right) e ^ {- \pi r ^ {2} t} d t = \frac {3 6}{\pi^ {3} (r ^ {2} - 2)} - \frac {8 6 4 0}{\pi^ {3} r ^ {4}} + \frac {1 8 1 4 4}{\pi^ {3} r ^ {2}}.\tag{40}
 $$
 
-Therefore, the identity (38) holds for$r > { \sqrt { 2 } } .$
+Therefore, the identity (38) holds for$r > { \sqrt { 2 } }$.
 
 On the other hand, from the definition (35) we see that$a ( r )$is analytic in some neighborhood of$[ 0 , \infty )$. The asymptotic expansion (39) implies that the right hand side of (38) is also analytic in some neighborhood of$[ 0 , \infty )$. Hence, the identity (38) holds on the whole interval$[ 0 , \infty )$. This finishes the proof of the proposition.□
 
@@ -684,7 +684,7 @@ $$
 \mathcal {F} (b) (x) = - b (x).
 $$
 
-Now we regard the radial function b as a function on$\mathbb { R } _ { > 0 }$. We check that b has double roots at$\Lambda _ { \mathrm { 8 ^ { - } P } } \mathrm { o i n t s }$
+Now we regard the radial function b as a function on$\mathbb { R } _ { > 0 }$. We check that b has double roots at$\Lambda _ { 8 }$-points
 
 Proposition 6. For$r > { \sqrt { 2 } }$function$b ( r )$can be expressed as
 
@@ -704,7 +704,7 @@ $$
 c (r) = \int_ {- 1} ^ {i \infty - 1} \psi_ {I} (z + 1) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i \infty} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z + \int_ {1} ^ {i \infty + 1} \psi_ {I} (z - 1) e ^ {\pi i r ^ {2} z} d z.
 $$
 
-From the Fourier expansion (49) we know that$\psi _ { I } ( z ) = e ^ { - 2 \pi i z } + O ( 1 )$as Im$( z ) \to \infty$ By assumption$r ^ { 2 } > 2 \AA$, hence we can deform the path of integration and write
+From the Fourier expansion (49) we know that$\psi _ { I } ( z ) = e ^ { - 2 \pi i z } + O ( 1 )$as Im$( z ) \to \infty$ By assumption$r ^ { 2 } > 2$, hence we can deform the path of integration and write
 
 $$
 \int_ {- 1} ^ {i \infty - 1} \psi_ {I} (z + 1) e ^ {\pi i r ^ {2} z} d z = \int_ {- 1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z + \int_ {i} ^ {i \infty} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z,\tag{54}
@@ -782,7 +782,7 @@ Therefore, the identity (38) holds for$r > { \sqrt { 2 } }$
 
 On the other hand, from the definition (52) we see that$b ( r )$is analytic in some neighborhood of$[ 0 , \infty )$. The asymptotic expansion (59) implies that the right hand side of (58) is also analytic in some neighborhood of$[ 0 , \infty )$. Hence, the identity (58) holds on the whole interval [0, ∞). This finishes the proof of the proposition.□
 
-We see from (58) that$b ( r ) \in i \mathbb { R }$far all$r \in \mathbb { R } _ { \geq } 0$. Another immediate corollary of this proposition is
+We see from (58) that$b ( r ) \in i \mathbb { R }$far all$r \in \mathbb { R } _ { \geq 0 }$. Another immediate corollary of this proposition is
 
 Proposition 8. We have
 
@@ -816,11 +816,11 @@ $$
 
 Our goal is to show that$A ( t ) < 0$for$t \in ( 0 , \infty )$. The function$A ( t )$is plotted in Figure 1.
 
-Figure 1: Plot of the functions A(t),$\begin{array} { r } { A _ { 0 } ^ { ( 2 ) } ( t ) = - \frac { 3 6 8 6 4 0 } { \pi ^ { 2 } } t ^ { 2 } e ^ { - \pi / t } } \end{array}$, and$\begin{array} { r } { A _ { \infty } ^ { ( 1 ) } ( t ) = - \frac { 7 2 } { \pi ^ { 2 } } e ^ { 2 \pi t } + } \end{array}$ <sup>8640</sup> t −23328 ππ<sup>2</sup>
+Figure 1: Plot of the functions$A(t)$, $A _ { 0 } ^ { ( 2 ) } ( t ) = - \frac { 3 6 8 6 4 0 } { \pi ^ { 2 } } t ^ { 2 } e ^ { - \pi / t }$, and$A _ { \infty } ^ { ( 1 ) } ( t ) = - \frac { 7 2 } { \pi ^ { 2 } } e ^ { 2 \pi t } + \frac { 8 6 4 0 } { \pi } t - \frac { 2 3 3 2 8 } { \pi ^ { 2 } }$.
 
 ![](images/page_18_image_11.jpg)
 
-We observe that we can compute the values of$A ( t )$for$t \in \mathsf { \Gamma } ( 0 , \infty )$with any given precision. Indeed, from identities (29) and (45) we obtain the following two presentations for A(t)
+We observe that we can compute the values of$A ( t )$for$t \in ( 0 , \infty )$ with any given precision. Indeed, from identities (29) and (45) we obtain the following two presentations for A(t)
 
 $$
 \begin{array}{r l} & {A (t) = - t ^ {2} \phi_ {0} (i / t) + \frac {3 6}{\pi^ {2}} t ^ {2} \psi_ {S} (i / t),} \\ & {A (t) = - t ^ {2} \phi_ {0} (i t) + \frac {1 2}{\pi} t \phi_ {- 2} (i t) - \frac {3 6}{\pi^ {2}} \phi_ {- 4} (i t) - \frac {3 6}{\pi^ {2}} \psi_ {I} (i t).} \end{array}
@@ -920,7 +920,7 @@ $$
 
 Our aim is to prove that$B ( t ) > 0$for$t \in ( 0 , \infty )$. A plot of$B ( t )$is given in Figure 2.
 
-Figure 2: Plot of the functions B(t),$\begin{array} { r } { B _ { 0 } ^ { ( 2 ) } ( t ) = \frac { 3 6 8 6 4 0 } { \pi ^ { 2 } } t ^ { 2 } e ^ { - \pi / t } } \end{array}$, and$\begin{array} { r } { B _ { \infty } ^ { ( 1 ) } ( t ) = \frac { 8 6 4 0 } { \pi } t - \frac { 2 3 3 2 8 } { \pi ^ { 2 } } } \end{array}$
+Figure 2: Plot of the functions$B(t)$,$\begin{array} { r } { B _ { 0 } ^ { ( 2 ) } ( t ) = \frac { 3 6 8 6 4 0 } { \pi ^ { 2 } } t ^ { 2 } e ^ { - \pi / t } } \end{array}$, and$\begin{array} { r } { B _ { \infty } ^ { ( 1 ) } ( t ) = \frac { 8 6 4 0 } { \pi } t - \frac { 2 3 3 2 8 } { \pi ^ { 2 } } } \end{array}$
 
 ![](images/page_20_chart_11.jpg)
 
@@ -962,11 +962,11 @@ $$
 
 Now identity (70) implies (4).
 
-Finally, the property (5) readily follows from Proposition 4 and Proposition 8. This finishes the proof of Theorems 4 and 3.□
+Finally, the property (5) readily follows from Proposition 4 and Proposition 8. This finishes the proof of Theorems 4 and 3. □
 
 ## Acknowledgments
 
-I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and for his support. Also I am grateful to Danilo Radchenko for his valuable ideas and his help with numerical computations. I am most grateful to J. Kramer, J. M. Sullivan, G. M. Ziegler , and anonymous referees for their valuable comments and suggestions on the manuscript.
+I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and for his support. Also I am grateful to Danilo Radchenko for his valuable ideas and his help with numerical computations. I am most grateful to J. Kramer, J. M. Sullivan, G. M. Ziegler, and anonymous referees for their valuable comments and suggestions on the manuscript.
 
 ## References
 
@@ -980,7 +980,7 @@ I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and f
 
 [5] H. Cohn, A. Kumar, Universally optimal distribution of points on spheres, J. Amer. Math. Soc. 20 (1) (2007), pp. 99–148.
 
-[6] J. H. Conway and N. J. A. Sloane, What Are All the Best Sphere Packings in Low Dimensions?, Discrete Comput. Geom. (L´aszl´o Fejes T´oth Festschrift), 13 (1995), pp. 383–403.
+[6] J. H. Conway and N. J. A. Sloane, What Are All the Best Sphere Packings in Low Dimensions?, Discrete Comput. Geom. (László Fejes Tóth Festschrift), 13 (1995), pp. 383–403.
 
 [7] P. Delsarte, Bounds for unrestricted codes, by linear programming, Philips Res. Rep. 27 (1972), pp. 272–289.
 
@@ -988,7 +988,7 @@ I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and f
 
 [9] F. Diamond, J. Shurman, A First Course in Modular Forms, Springer New York, 2005.
 
-[10] L. Fejes Toth <sup>´</sup> , Uber die dichteste Kugellagerung <sup>¨</sup> , Math. Z. 48 (1943), pp. 676–684.
+[10] L. Fejes Tóth, Über die dichteste Kugellagerung, Math. Z. 48 (1943), pp. 676–684.
 
 [11] T. Hales, A proof of the Kepler conjecture, Annals of Math. 162 (3) (2005), pp. 1065–1185.
 
@@ -996,7 +996,7 @@ I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and f
 
 [13] G. A. Kabatiansky and V. I. Levenshtein, Bounds for packings on a sphere and in space, Problems of Information Transmission 14 (1978), pp. 1–17.
 
-[14] D. Mumford, Tata Lectures on Theta I, Birkh¨auser, 1983.
+[14] D. Mumford, Tata Lectures on Theta I, Birkhäuser, 1983.
 
 [15] H. Petersson, Ueber die Entwicklungskoefizienten der automorphen Formen, Acta Mathematica, Bd. 58 (1932), pp. 169–215.
 
@@ -1004,7 +1004,7 @@ I thank Andriy Bondarenko for sharing his ideas, for fruitful discussions, and f
 
 [17] H. Rademacher and H. S. Zuckerman, On the Fourier coeficients of certain modular forms of positive dimension, Annals of Math. (2) 39 (1938), pp. 433–462.
 
-[18] A. Thue, Uber die dichteste Zusammenstellung von kongruenten Kreisen in einer<sup>¨</sup> Ebene, Norske Vid. Selsk. Skr. No.1 (1910), pp. 1–9.
+[18] A. Thue, Über die dichteste Zusammenstellung von kongruenten Kreisen in einer Ebene, Norske Vid. Selsk. Skr. No.1 (1910), pp. 1–9.
 
 [19] V. A. Yudin, Lower bounds for spherical designs, Izv. Ross. Akad. Nauk Ser. Mat. 61 (1997), pp. 211–233. English transl., Izv. Math. 6 (1997), pp. 673–683.
 
