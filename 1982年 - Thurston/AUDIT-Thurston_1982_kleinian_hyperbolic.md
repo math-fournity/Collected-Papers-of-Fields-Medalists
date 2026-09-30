@@ -115,3 +115,7 @@
   (2,3,7) tiling/identifications/figure-eight surface/sphere-filling curve）全部在位；开放
   问题 24 条完整；BIBLIOGRAPHY 26 条逐条核对全对。本篇 26/26 页完成，无未决项；目录内无同篇
   其他版本。
+
+### 修复登记（2026-09-30）
+- **共 17 处（16 规则）替换全部命中（0 miss）**；三条 2×2 矩阵经 p.13/p.21 300dpi 终裁还原。
+  fix commit 见父提交链。本篇 26/26 页完成，无未决项。
