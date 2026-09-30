@@ -191,3 +191,6 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 21:15 | PAGE | Huh laudatio | p.1-16/16 | U+FFFD 86+缺空格族待修 | 累计42+1篇进行中
 2026-09-29 21:18 | DONE | Huh laudatio | 16/16 | U+FFFD×87+缺空格×19+paren×3已修复 | 累计43/140
 2026-09-29 21:18 | COMMIT | Huh laudatio 闭环
+2026-09-29 22:10 | PAGE | Faltings 1983 | p.1-18/18 | fraktur Z/Λ^g/V₁ 块/Lit[4]-[16] 丢失待修 | 累计43+1篇进行中
+2026-09-29 22:20 | DONE | Faltings 1983 | 18/18 | 72 组修复+[4]-[16] 补入 | 累计44/140
+2026-09-29 22:20 | COMMIT | Faltings 1983 闭环
