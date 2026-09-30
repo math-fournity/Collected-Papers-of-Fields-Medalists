@@ -4,7 +4,7 @@ By James Maynard
 
 ## Abstract
 
-We introduce a refinement of the GPY sieve method for studying prime k-tuples and small gaps between primes. This refinement avoids previous limitations of the method and allows us to show that for each$k ,$the prime k-tuples conjecture holds for a positive proportion of admissible k-tuples. In particular, lim inf$\phantom { } _ { 2 } ( p _ { n + m } - p _ { n } ) < \infty$for every integer$m .$. We also show that lim inf$\left( p _ { n + 1 } - p _ { n } \right) \leq 6 0 0$and, if we assume the Elliott-Halberstam conjecture, that lim inf$_ { n } ( p _ { n + 1 } - p _ { n } ) \leq 1 2$and lim i$\mathfrak { i f } _ { n } ( p _ { n + 2 } - p _ { n } ) \leq 6 0 0$
+We introduce a refinement of the GPY sieve method for studying prime k-tuples and small gaps between primes. This refinement avoids previous limitations of the method and allows us to show that for each $k$, the prime k-tuples conjecture holds for a positive proportion of admissible k-tuples. In particular, lim inf$_ { n } ( p _ { n + m } - p _ { n } ) < \infty$ for every integer $m$. We also show that lim inf$\left( p _ { n + 1 } - p _ { n } \right) \leq 600$and, if we assume the Elliott-Halberstam conjecture, that lim inf$_ { n } ( p _ { n + 1 } - p _ { n } ) \leq 12$ and $\liminf_{ n } ( p _ { n + 2 } - p _ { n } ) \leq 600$.
 
 ## 1. Introduction
 
@@ -15,20 +15,20 @@ Conjecture (Prime k-tuples conjecture). Let$\mathcal { H } = \{ h _ { 1 } , \ldo
 When$k > 1$, no case of the prime k-tuples conjecture is currently known. Work on approximations to the prime k-tuples conjecture has been very successful in showing the existence of small gaps between primes, however. In their celebrated paper [5], Goldston, Pintz and Yıldırım introduced a new method for counting tuples of primes, and this allowed them to show that
 
 $$
-\operatorname * {l i m i n f} _ {n} \frac {p _ {n + 1} - p _ {n}}{\log p _ {n}} = 0.\tag{1.1}
+\liminf_{n} \frac {p _ {n + 1} - p _ {n}}{\log p _ {n}} = 0.\tag{1.1}
 $$
 
 The recent breakthrough of Zhang [9] managed to extend this work to prove
 
 $$
-\liminf _ {n} (p _ {n + 1} - p _ {n}) \leq 7 0   0 0 0   0 0 0,\tag{1.2}
+\liminf _ {n} (p _ {n + 1} - p _ {n}) \leq 70\,000\,000,\tag{1.2}
 $$
 
 thereby establishing for the first time the existence of infinitely many bounded gaps between primes. Moreover, it follows from Zhang’s theorem that the number of admissible sets of size 2 contained in$[ 1 , x ] ^ { 2 }$which satisfy the prime 2- tuples conjecture is$\gg x ^ { 2 }$for large x. Thus, in this sense, a positive proportion of admissible sets of size 2 satisfy the prime 2-tuples conjecture. The recent polymath project [7] has succeeded in reducing the bound (1.2) to 4680, by optimizing Zhang’s arguments and introducing several new refinements.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">c 2015 Department of Mathematics, Princeton University.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">© 2015 Department of Mathematics, Princeton University.</span></small>
 
-The above results have used the ‘GPY method’ to study prime tuples and small gaps between primes, and this method relies heavily on the distribution of primes in arithmetic progressions. Given$\theta > 0$, we say the primes have ‘level of distribution$\theta ^ { \mathrm { { 1 } } }$if, for every$A > 0$, we have
+The above results have used the ‘GPY method’ to study prime tuples and small gaps between primes, and this method relies heavily on the distribution of primes in arithmetic progressions. Given$\theta > 0$, we say the primes have ‘level of distribution $\theta$’<sup>1</sup> if, for every$A > 0$, we have
 
 $$
 \sum_ {q \leq x ^ {\theta}} \max _ {(a, q) = 1} \left| \pi (x; q, a) - \frac {\pi (x)}{\varphi (q)} \right| \ll_ {A} \frac {x}{(\log x) ^ {A}}.\tag{1.3}
@@ -36,12 +36,12 @@ $$
 
 The Bombieri-Vinogradov theorem establishes that the primes have level of distribution θ for every$\theta < 1 / 2$, and Elliott and Halberstam [1] conjectured that this could be extended to every$\theta < 1$. Friedlander and Granville [2] have shown that (1.3) cannot hold with$x ^ { \theta }$replaced with$x / ( \log x ) ^ { B }$for any fixed$B ,$ and so the Elliott-Halberstam conjecture is essentially the strongest possible result of this type.
 
-The original work of Goldston, Pintz and Yıldırım showed the existence of bounded gaps between primes if (1.3) holds for some$\theta > 1 / 2$. Moreover, under the Elliott-Halberstam conjecture one had lim in$\displaystyle { \hat { \mathsf { I } } } _ { n } \displaystyle ( p _ { n + 1 } - p _ { n } ) \leq 1 6$. The key breakthrough of Zhang’s work was in establishing that a slightly weakened form of (1.3) holds for some$\theta > 1 / 2$
+The original work of Goldston, Pintz and Yıldırım showed the existence of bounded gaps between primes if (1.3) holds for some$\theta > 1 / 2$. Moreover, under the Elliott-Halberstam conjecture one had $\liminf_{ n } ( p _ { n + 1 } - p _ { n } ) \leq 16$. The key breakthrough of Zhang’s work was in establishing that a slightly weakened form of (1.3) holds for some$\theta > 1 / 2$
 
 If one looks for bounded length intervals containing two or more primes, then the GPY method fails to prove such strong results. Unconditionally we are only able to improve upon the trivial bound from the prime number theorem by a constant factor [6], and even assuming the Elliott-Halberstam conjecture, the best available result [5] is
 
 $$
-\operatorname * {l i m i n f} _ {n} \frac {p _ {n + 2} - p _ {n}}{\log p _ {n}} = 0.\tag{1.4}
+\liminf_{n} \frac {p _ {n + 2} - p _ {n}}{\log p _ {n}} = 0.\tag{1.4}
 $$
 
 The aim of this paper is to introduce a refinement of the GPY method which removes the barrier of$\theta = 1 / 2$to establishing bounded gaps between primes and allows us to show the existence of arbitrarily many primes in bounded length intervals. This answers the second and third questions posed in [5] on extensions of the GPY method (the first having been answered by Zhang’s result). Our new method also has the benefit that it produces numerically superior results to previous approaches.
@@ -52,20 +52,18 @@ $$
 \liminf _ {n} (p _ {n + m} - p _ {n}) \ll m ^ {3} e ^ {4 m}.
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We note that diferent authors have given slightly diferent names or definitions to this concept. For the purposes of this paper, (1.3) will be our definition of the primes having level of distribution θ.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We note that different authors have given slightly different names or definitions to this concept. For the purposes of this paper, (1.3) will be our definition of the primes having level of distribution θ.</span></small>
 
-Terence Tao (private communication) has independently proven Theorem 1.1 (with a slightly weaker bound) at much the same time. He uses a similar method; the steps are more-or-less the same but the calculations are done diferently. We will indicate some of the diferences in our proofs as we go along.
+Terence Tao (private communication) has independently proven Theorem 1.1 (with a slightly weaker bound) at much the same time. He uses a similar method; the steps are more-or-less the same but the calculations are done differently. We will indicate some of the differences in our proofs as we go along.
 
 We see that the bound in Theorem 1.1 is quite far from the conjectural bound of approximately m log m predicted by the prime m-tuples conjecture.
 
-Our proof naturally generalizes (but with a weaker upper bound) to many subsequences of the primes which have a level of distribution$\theta > 0$. For example, we can show corresponding results where the primes are contained in short intervals$\lbrack N , N { + } N ^ { 7 / 1 2 + \varepsilon } ]$for any$\varepsilon > 0$or in an arithmetic progression modulo $q \ll ( \log N ) ^ { A }$. In particular, our method gives results for simultaneously prime values of linear functions, which might have specific interest. Given k distinct linear functions$L _ { i } ( n ) = a _ { i } n + b _ { i } \left( 1 \leq i \leq k \right)$with positive integer coeficients such that the product function$\begin{array} { r } { \Pi ( n ) = \prod _ { i = 1 } ^ { k } L _ { i } ( n ) } \end{array}$has no fixed prime divisor, the method presented here shows that there are infinitely many integers n such that at least$( 1 / 4 + o _ { k \to \infty } ( 1 ) )$log k of the$L _ { i } ( n )$are prime.
+Our proof naturally generalizes (but with a weaker upper bound) to many subsequences of the primes which have a level of distribution$\theta > 0$. For example, we can show corresponding results where the primes are contained in short intervals$[ N , N + N ^ { 7 / 12 + \varepsilon } ]$for any$\varepsilon > 0$or in an arithmetic progression modulo $q \ll ( \log N ) ^ { A }$. In particular, our method gives results for simultaneously prime values of linear functions, which might have specific interest. Given k distinct linear functions$L _ { i } ( n ) = a _ { i } n + b _ { i } \left( 1 \leq i \leq k \right)$with positive integer coefficients such that the product function$\begin{array} { r } { \Pi ( n ) = \prod _ { i = 1 } ^ { k } L _ { i } ( n ) } \end{array}$has no fixed prime divisor, the method presented here shows that there are infinitely many integers n such that at least$( 1 / 4 + o _ { k \to \infty } ( 1 ) )$log k of the$L _ { i } ( n )$are prime.
 
-Theorem 1.2. Let$m \in \mathbb { N }$. Let$r \in \mathbb N$be suficiently large depending on $m _ { : }$, and let$\mathcal { A } = \{ a _ { 1 } , a _ { 2 } , \ldots , a _ { r } \}$be a set of r distinct integers. Then we have
-
-$\# \{ \{ h _ { 1 } , \ldots , h _ { m } \} \subseteq A$: for infinitely many n, all
+Theorem 1.2. Let$m \in \mathbb { N }$. Let$r \in \mathbb N$be sufficiently large depending on $m$, and let$\mathcal { A } = \{ a _ { 1 } , a _ { 2 } , \ldots , a _ { r } \}$be a set of r distinct integers. Then we have
 
 $$
-\frac {o f n + h _ {1} , \ldots , n + h _ {m} a r e p r i m e \}}{\# \{\{h _ {1} , \ldots , h _ {m} \} \subseteq \mathcal {A} \}} \gg_ {m} 1.
+\frac {\# \{\{h _ {1} , \ldots , h _ {m} \} \subseteq \mathcal {A} : \text { for infinitely many } n \text { , all of } n + h _ {1} , \ldots , n + h _ {m} \text { are prime} \}}{\# \{\{h _ {1} , \ldots , h _ {m} \} \subseteq \mathcal {A} \}} \gg_ {m} 1.
 $$
 
 Therefore a positive proportion of admissible m-tuples satisfy the prime m-tuples conjecture for every m in an appropriate sense.
@@ -73,7 +71,7 @@ Therefore a positive proportion of admissible m-tuples satisfy the prime m-tuple
 Theorem 1.3. We have
 
 $$
-\liminf _ {n} (p _ {n + 1} - p _ {n}) \leq 6 0 0.
+\liminf _ {n} (p _ {n + 1} - p _ {n}) \leq 600.
 $$
 
 We emphasize that the above result does not incorporate any of the technology used by Zhang to establish the existence of bounded gaps between primes. The proof is essentially elementary, relying only on the Bombieri-Vinogradov theorem. Naturally, if we assume that the primes have a higher level of distribution, then we can obtain stronger results.
@@ -85,7 +83,7 @@ $$
 $$
 
 $$
-\liminf _ {n} (p _ {n + 2} - p _ {n}) \leq 6 0 0.
+\liminf _ {n} (p _ {n + 2} - p _ {n}) \leq 600.
 $$
 
 Although the constant 12 of Theorem 1.4 appears to be optimal with our method in its current form, the constant 600 appearing in Theorem 1.3 and Theorem 1.4 is certainly not optimal. By performing further numerical calculations our method could produce a better bound, and also most of the ideas of Zhang’s work (and the refinements produced by the polymath project) should be able to be combined with this method to reduce the constant further. We comment that the assumption of the Elliott-Halberstam conjecture allows us to improve the bound on Theorem 1.1 to$O ( m ^ { 3 } e ^ { 2 m } )$
@@ -98,7 +96,7 @@ $$
 S (N, \rho) = \sum_ {N \leq n <   2 N} \Bigl (\sum_ {i = 1} ^ {k} \chi_ {\mathbb {P}} (n + h _ {i}) - \rho \Bigr) w _ {n}.\tag{2.1}
 $$
 
-Here$\chi _ { \mathbb { P } }$is the characteristic function of the primes,$\rho > 0$and$w _ { n }$are non-negative weights. If we can show that$S ( N , \rho ) > 0$, then at least one term in the sum over n must have a positive contribution. By the nonnegativity of $w _ { n } ,$this means that there must be some integer$n \in [ N , 2 N ]$such that at least $\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. (Here$\lfloor x \rfloor$denotes the largest integer less than or equal to x.) Thus if$S ( N , \rho ) > 0$for all large$N .$, there are infinitely many integers n for which at least$\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. (And so there are infinitely many bounded length intervals containing$\lfloor \rho + 1 \rfloor$primes.)
+Here$\chi _ { \mathbb { P } }$is the characteristic function of the primes,$\rho > 0$and$w _ { n }$are non-negative weights. If we can show that$S ( N , \rho ) > 0$, then at least one term in the sum over n must have a positive contribution. By the nonnegativity of $w _ { n } ,$this means that there must be some integer$n \in [ N , 2 N ]$such that at least $\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. (Here$\lfloor x \rfloor$denotes the largest integer less than or equal to x.) Thus if$S ( N , \rho ) > 0$for all large $N$, there are infinitely many integers n for which at least$\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. (And so there are infinitely many bounded length intervals containing$\lfloor \rho + 1 \rfloor$primes.)
 
 The weights$w _ { n }$are typically chosen to mimic Selberg sieve weights. Estimating (2.1) can be interpreted as a ‘k-dimensional’ sieve problem. The standard Selberg k-dimensional weights (which can be shown to be essentially optimal in other contexts) are
 
@@ -120,7 +118,7 @@ $$
 w _ {n} = \Big (\sum_ {d _ {i} | n + h _ {i} \forall i} \lambda_ {d _ {1}, \dots , d _ {k}} \Big) ^ {2}.\tag{2.4}
 $$
 
-Using such weights with$\lambda _ { d _ { 1 } , \dots , d _ { k } }$is the key feature of our method. It allows us to improve on the previous choice of sieve weights by an arbitrarily large factor, provided that k is suficiently large. It is the extra flexibility gained by allowing the weights to depend on the divisors of each factor individually which gives this improvement.
+Using such weights with$\lambda _ { d _ { 1 } , \dots , d _ { k } }$is the key feature of our method. It allows us to improve on the previous choice of sieve weights by an arbitrarily large factor, provided that k is sufficiently large. It is the extra flexibility gained by allowing the weights to depend on the divisors of each factor individually which gives this improvement.
 
 The idea to use such weights is not entirely new. Selberg [8, p. 245] suggested the possible use of similar weights in his work on approximations to the twin prime problem, and Goldston and Yıldırım [4] considered similar weights in earlier work on the GPY method, but with the support restricted to$d _ { i } < R ^ { 1 / k }$for all i.
 
@@ -130,15 +128,15 @@ $$
 \lambda_ {d _ {1}, \dots , d _ {k}} \approx \Bigl (\prod_ {i = 1} ^ {k} \mu (d _ {i}) \Bigr) f (d _ {1}, \dots , d _ {k})\tag{2.5}
 $$
 
-for a suitable smooth function$f .$For our precise choice of$\lambda _ { d _ { 1 } , . . . , d _ { k } } ~ ( \mathrm { g i v e n }$ in Proposition 4.1), we find it convenient to give a slightly diferent form of $\lambda _ { d _ { 1 } , \dots , d _ { k } }$, but weights of the form (2.5) should produce essentially the same results.
+for a suitable smooth function$f .$For our precise choice of$\lambda _ { d _ { 1 } , \ldots , d _ { k } }$ (given in Proposition 4.1), we find it convenient to give a slightly different form of $\lambda _ { d _ { 1 } , \dots , d _ { k } }$, but weights of the form (2.5) should produce essentially the same results.
 
 ## 3. Notation
 
-We shall view k as a fixed integer and$\mathcal { H } = \{ h _ { 1 } , \ldots , h _ { k } \}$as a fixed admissible set. In particular, any constants implied by the asymptotic notation$^ { O , }$ O or$\ll$may depend on k and H. We will let N denote a large integer, and all asymptotic notation should be interpreted as referring to the limit$N \to \infty$
+We shall view k as a fixed integer and$\mathcal { H } = \{ h _ { 1 } , \ldots , h _ { k } \}$as a fixed admissible set. In particular, any constants implied by the asymptotic notation $o$, $O$ or $\ll$ may depend on k and H. We will let N denote a large integer, and all asymptotic notation should be interpreted as referring to the limit$N \to \infty$
 
 All sums, products and suprema will be assumed to be taken over variables lying in the natural numbers$\mathbb { N } = \{ 1 , 2 , \dots \}$unless specified otherwise. The exception to this is when sums or products are over a variable$p ,$which instead will be assumed to lie in the prime numbers$\mathbb { P } = \{ 2 , 3 , \hdots \}$
 
-Throughout the paper,$\varphi$will denote the Euler totient function,$\tau _ { r } ( n )$the number of ways of writing n as a product of r natural numbers and$\mu$the Moebius function. We will let$\varepsilon$be a fixed positive real number, and we may assume without further comment that$\varepsilon$is suficiently small at various stages of our argument. We let$p _ { n }$denote the$n ^ { \mathrm { t h } }$prime and$\# { \mathcal { A } }$denote the number of elements of a finite set A. We use$\lfloor x \rfloor$to denote the largest integer$n \leq x$ and$\lceil x \rceil$the smallest integer$n \geq x$. We let$( a , b )$be the greatest common divisor of integers a and b. Finally,$[ a , b ]$will denote the closed interval on the real line with endpoints a and$b ,$except for in Section 5, where it will denote the least common multiple of integers a and b instead.
+Throughout the paper,$\varphi$will denote the Euler totient function,$\tau _ { r } ( n )$the number of ways of writing n as a product of r natural numbers and$\mu$the Moebius function. We will let$\varepsilon$be a fixed positive real number, and we may assume without further comment that$\varepsilon$is sufficiently small at various stages of our argument. We let$p _ { n }$denote the$n ^ { \mathrm { t h } }$prime and$\# { \mathcal { A } }$denote the number of elements of a finite set A. We use$\lfloor x \rfloor$to denote the largest integer$n \leq x$ and$\lceil x \rceil$the smallest integer$n \geq x$. We let$( a , b )$be the greatest common divisor of integers a and b. Finally,$[ a , b ]$will denote the closed interval on the real line with endpoints a and$b ,$except for in Section 5, where it will denote the least common multiple of integers a and b instead.
 
 ## 4. Outline of the proof
 
@@ -150,19 +148,17 @@ $$
 
 so certainly$W \ll ( \log \log N ) ^ { 2 }$by the prime number theorem. By the Chinese remainder theorem, we can choose$v _ { 0 }$such that$v _ { 0 } + h _ { i }$is coprime to W for each i since H is admissible. When$n \equiv v _ { 0 }$(mod$W )$, we choose our weights $w _ { n }$of the form (2.4). We now wish to estimate the sums
 
-(4.2)
-
 $$
-S_{1} = \sum_{\substack{N\leq n <   2N\\ n\equiv v_{0}\pmod{W}}}\left(\sum_{d_{i}|n + h_{i}\forall i}\lambda_{d_{1},\ldots ,d_{k}}\right)^{2},\tag{4.3}
+S_{1} = \sum_{\substack{N\leq n <   2N\\ n\equiv v_{0}\pmod{W}}}\left(\sum_{d_{i}|n + h_{i}\forall i}\lambda_{d_{1},\ldots ,d_{k}}\right)^{2},\tag{4.2}
 $$
 
 $$
-S_{2} = \sum_{\substack{N\leq n <   2N\\ n\equiv v_{0}\pmod{W}}}\Bigl (\sum_{i = 1}^{k}\chi_{\mathbb{P}}(n + h_{i})\Bigr)\left(\sum_{d_{i}|n + h_{i}\forall i}\lambda_{d_{1},\ldots ,d_{k}}\right)^{2}.
+S_{2} = \sum_{\substack{N\leq n <   2N\\ n\equiv v_{0}\pmod{W}}}\Bigl (\sum_{i = 1}^{k}\chi_{\mathbb{P}}(n + h_{i})\Bigr)\left(\sum_{d_{i}|n + h_{i}\forall i}\lambda_{d_{1},\ldots ,d_{k}}\right)^{2}.\tag{4.3}
 $$
 
 We evaluate these sums using the following proposition.
 
-Proposition 4.1. Let the primes have exponent of distribution$\theta > 0$8 and let$R = N ^ { \theta / 2 - \delta }$for some small fixed$\delta > 0$. Let$\lambda _ { d _ { 1 } , \dots , d _ { k } }$be defined in terms of a fixed smooth function F by
+Proposition 4.1. Let the primes have exponent of distribution $\theta > 0$, and let$R = N ^ { \theta / 2 - \delta }$for some small fixed$\delta > 0$. Let$\lambda _ { d _ { 1 } , \dots , d _ { k } }$be defined in terms of a fixed smooth function F by
 
 $$
 \lambda_{d_{1},\ldots ,d_{k}} = \Bigl (\prod_{i = 1}^{k}\mu (d_{i})d_{i}\Bigr)\sum_{\substack{r_{1},\ldots ,r_{k}\\ d_{i}|r_{i}\forall i\\ (r_{i};W) = 1\forall i}}\frac{\mu(\prod_{i = 1}^{k}r_{i})^{2}}{\prod_{i = 1}^{k}\varphi(r_{i})} F\left(\frac{\log r_{1}}{\log R},\ldots ,\frac{\log r_{k}}{\log R}\right),
@@ -192,7 +188,7 @@ $$
 M _ {k} = \sup _ {F \in \mathcal {S} _ {k}} \frac {\sum_ {m = 1} ^ {k} J _ {k} ^ {(m)} (F)}{I _ {k} (F)}, \qquad r _ {k} = \left\lceil \frac {\theta M _ {k}}{2} \right\rceil .
 $$
 
-Then there are infinitely many integers n such that at least$r _ { k }$of the$n + h _ { i } ( 1 \leq$ $i \leq k \}$are prime. In particular, lim$\begin{array} { r } { \operatorname* { i n f } _ { n } ( p _ { n + r _ { k } - 1 } - p _ { n } ) \leq \operatorname* { m a x } _ { 1 \leq i , j \leq k } ( h _ { i } - h _ { j } ) } \end{array}$
+Then there are infinitely many integers n such that at least$r _ { k }$of the $n + h _ { i }$ $( 1 \leq i \leq k )$ are prime. In particular, lim$\begin{array} { r } { \inf _ { n } ( p _ { n + r _ { k } - 1 } - p _ { n } ) \leq \max _ { 1 \leq i , j \leq k } ( h _ { i } - h _ { j } ) } \end{array}$
 
 Proof of Proposition 4.2. We let$S = S _ { 2 } - \rho S _ { 1 }$, and we recall from Section 2 that if we can show$S > 0$for all large$N$, then there are infinitely many integers n such that at least$\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime.
 
@@ -202,47 +198,47 @@ $$
 \begin{array}{l} S = \frac {\varphi (W) ^ {k} N (\log R) ^ {k}}{W ^ {k + 1}} \Big (\frac {\log R}{\log N} \sum_ {j = 1} ^ {k} J _ {k} ^ {(m)} (F _ {1}) - \rho I _ {k} (F _ {1}) + o (1) \Big) \\ \geq \frac {\varphi (W) ^ {k} N (\log R) ^ {k} I _ {k} (F _ {1})}{W ^ {k + 1}} \Big (\Big (\frac {\theta}{2} - \delta \Big) \Big (M _ {k} - 2 \delta \Big) - \rho + o (1) \Big). \end{array}\tag{4.4}
 $$
 
-If$\rho = \theta M _ { k } / 2 - \varepsilon$then, by choosing δ suitably small (depending on$\varepsilon )$, we see that$S > 0$for all large N. Thus there are infinitely many integers n for which at least$\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. Since$\lfloor \rho + 1 \rfloor = \lceil \theta M _ { k } / 2 \rceil$if ε is suitably small, we obtain Proposition 4.2.
+If$\rho = \theta M _ { k } / 2 - \varepsilon$then, by choosing δ suitably small (depending on$\varepsilon )$, we see that$S > 0$for all large N. Thus there are infinitely many integers n for which at least$\lfloor \rho + 1 \rfloor$of the$n + h _ { i }$are prime. Since$\lfloor \rho + 1 \rfloor = \lceil \theta M _ { k } / 2 \rceil$if ε is suitably small, we obtain Proposition 4.2. □
 
-Thus, if the primes have a fixed level of distribution$\theta ,$to show the existence of many of the$n + h _ { i }$being prime for infinitely many$n \in \mathbb N$we only require a suitable lower bound for$M _ { k }$. The following proposition establishes such a bound for diferent values of k.
+Thus, if the primes have a fixed level of distribution$\theta ,$to show the existence of many of the$n + h _ { i }$being prime for infinitely many$n \in \mathbb N$we only require a suitable lower bound for$M _ { k }$. The following proposition establishes such a bound for different values of k.
 
 Proposition 4.3. Let$k \in \mathbb N$, and let$M _ { k }$be as given by Proposition 4.2. Then
 
-(1) We have$M _ { 5 } > 2 \AA$
+(1) We have$M _ { 5 } > 2$.
 
-(2) We have${ M _ { 1 0 5 } } > 4 .$
+(2) We have${ M _ { 105 } } > 4 .$
 
-(3) If k is suficiently large, we have$M _ { k } > \log k - 2 \log \log k - 2$
+(3) If k is sufficiently large, we have$M _ { k } > \log k - 2 \log \log k - 2$
 
-We now prove Theorems 1.1, 1.2, 1.3 and 1.4 from Propositions 4.2 and 4.3. First we consider Theorem 1.3. We take$k = 1 0 5$. By Proposition 4.3, we have$M _ { 1 0 5 } > 4$. By the Bombieri-Vinogradov theorem, the primes have level of distribution$\theta = 1 / 2 - \varepsilon$for every$\varepsilon > 0$. Thus, if we take ε suficiently small, we have$\theta M _ { 1 0 5 } / 2 > 1$. Therefore, by Proposition 4.2, we have
+We now prove Theorems 1.1, 1.2, 1.3 and 1.4 from Propositions 4.2 and 4.3. First we consider Theorem 1.3. We take$k = 105$. By Proposition 4.3, we have$M _ { 105 } > 4$. By the Bombieri-Vinogradov theorem, the primes have level of distribution$\theta = 1 / 2 - \varepsilon$for every$\varepsilon > 0$. Thus, if we take ε sufficiently small, we have$\theta M _ { 105 } / 2 > 1$. Therefore, by Proposition 4.2, we have
 
 $$
-\liminf (p _ {n + 1} - p _ {n}) \leq \max _ {1 \leq i, j \leq 1 0 5} (h _ {i} - h _ {j})
+\liminf (p _ {n + 1} - p _ {n}) \leq \max _ {1 \leq i, j \leq 105} (h _ {i} - h _ {j})
 $$
 
-for any admissible set$\mathcal { H } = \{ h _ { 1 } , . . . , h _ { 1 0 5 } \}$. By computations performed by Thomas Engelsma (unpublished), we can choose<sup>2</sup> H such that$0 \leq h _ { 1 } < \cdots <$ $h _ { 1 0 5 }$and$h _ { 1 0 5 } - h _ { 1 } = 6 0 0$. This gives Theorem 1.3.
+for any admissible set$\mathcal { H } = \{ h _ { 1 } , . . . , h _ { 105 } \}$. By computations performed by Thomas Engelsma (unpublished), we can choose<sup>2</sup> H such that$0 \leq h _ { 1 } < \cdots <$ $h _ { 105 }$and$h _ { 105 } - h _ { 1 } = 600$. This gives Theorem 1.3.
 
-If we assume the Elliott-Halberstam conjecture then the primes have level of distribution$\theta = 1 - \varepsilon$. First we take$k = 1 0 5$and see that$\theta M _ { 1 0 5 } / 2 > 2$ for ε suficiently small (since$M _ { 1 0 5 } ~ > ~ 4 )$Therefore, by Proposition 4.2, lim in$\begin{array} { r } { \mathrm { f } _ { n } ( p _ { n + 2 } - p _ { n } ) \le \operatorname* { m a x } _ { 1 \le i , j \le 1 0 5 } ( h _ { i } - h _ { j } ) } \end{array}$. Thus, choosing the same admissible set H as above, we see lim inf$_ { n } ( p _ { n + 2 } - p _ { n } ) \leq 6 0 0$under the Elliott-Halberstam conjecture.
+If we assume the Elliott-Halberstam conjecture then the primes have level of distribution$\theta = 1 - \varepsilon$. First we take$k = 105$and see that$\theta M _ { 105 } / 2 > 2$ for ε sufficiently small (since $M _ { 105 } > 4$). Therefore, by Proposition 4.2, $\liminf_{ n } ( p _ { n + 2 } - p _ { n } ) \le \max_{ 1 \le i , j \le 105 } ( h _ { i } - h _ { j } )$. Thus, choosing the same admissible set H as above, we see lim inf$_ { n } ( p _ { n + 2 } - p _ { n } ) \leq 600$under the Elliott-Halberstam conjecture.
 
-Next we take$k \ = \ 5$and$\mathcal { H } ~ = ~ \{ 0 , 2 , 6 , 8 , 1 2 \}$, with$\theta \ = \ 1 - \varepsilon$again. By Proposition 4.3 we have$M _ { 5 } ~ > ~ 2$, and so$\theta M _ { 5 } / 2 > 1$for ε suficiently small. Thus, by Proposition 4.2, lim i$\mathrm { n f } _ { n } ( p _ { n + 1 } - p _ { n } ) \leq 1 2$under the Elliott-Halberstam conjecture. This completes the proof of Theorem 1.4.
+Next we take$k \ = \ 5$and$\mathcal { H } = \{ 0 , 2 , 6 , 8 , 12 \}$, with$\theta \ = \ 1 - \varepsilon$again. By Proposition 4.3 we have $M _ { 5 } > 2$, and so$\theta M _ { 5 } / 2 > 1$for ε sufficiently small. Thus, by Proposition 4.2, $\liminf_{ n } ( p _ { n + 1 } - p _ { n } ) \leq 12$ under the Elliott-Halberstam conjecture. This completes the proof of Theorem 1.4.
 
 Finally, we consider the case when k is large. For the rest of this section, any constants implied by asymptotic notation will be independent of k. By the Bombieri-Vinogradov theorem, we can take$\theta = 1 / 2 - \varepsilon$. Thus, by
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>Explicitly, we can take H = {0, 10, 12, 24, 28, 30, 34, 42, 48, 52, 54, 64, 70, 72, 78, 82, 90, 94, 100, 112, 114, 118, 120, 124, 132, 138, 148, 154, 168, 174, 178, 180, 184, 190, 192, 202, 204, 208, 220, 222, 232, 234, 250, 252, 258, 262, 264, 268, 280, 288, 294, 300, 310, 322, 324, 328, 330, 334, 342, 352, 358, 360, 364, 372, 378, 384, 390, 394, 400, 402, 408, 412, 418, 420, 430, 432, 442, 444, 450, 454, 462, 468, 472, 478, 484, 490, 492, 498, 504, 510, 528, 532, 534, 538, 544, 558, 562, 570, 574, 580, 582, 588, 594, 598, 600}. This set was obtained from the website http://math.mit.edu/∼primegaps/ maintained by Andrew Sutherland.</span></small>
 
-Proposition 4.3, we have for k suficiently large
+Proposition 4.3, we have for k sufficiently large
 
 $$
 \frac {\theta M _ {k}}{2} \geq \left(\frac {1}{4} - \frac {\varepsilon}{2}\right) (\log k - 2 \log \log k - 2).\tag{4.5}
 $$
 
-We choose$\varepsilon = 1 / k$and see that$\theta M _ { k } / 2 > m { \mathrm { ~ i f ~ } } k \geq C m ^ { 2 } e ^ { 4 m }$for some absolute constant$C$(independent of m and k). Thus, for any admissible set $\mathcal { H } = \{ h _ { 1 } , \ldots , h _ { k } \}$with$k \geq C m ^ { 2 } e ^ { 4 m }$, at least$m + 1$of the$n + h _ { i }$must be prime for infinitely many integers n. We can choose our set H to be the set $\{ p _ { \pi ( k ) + 1 } , \dots , p _ { \pi ( k ) + k } \}$of the first k primes which are greater than k. This is admissible, since no element is a multiple of a prime less than k (and there are k elements, so it cannot cover all residue classes modulo any prime greater than k.) This set has diameter$p _ { \pi ( k ) + k } - p _ { \pi ( k ) + 1 } \ll k \log k$. Thus lim in$\mathrm { f } _ { n } ( p _ { n + m } - p _ { n } ) \ll k \log k \ll m ^ { 3 } e ^ { 4 m }$if we take$k = \tilde { \lceil C m ^ { 2 } e ^ { 4 m } \rceil }$. This gives Theorem 1.1.
+We choose$\varepsilon = 1 / k$and see that$\theta M _ { k } / 2 > m$ if $k \geq C m ^ { 2 } e ^ { 4 m }$for some absolute constant$C$(independent of m and k). Thus, for any admissible set $\mathcal { H } = \{ h _ { 1 } , \ldots , h _ { k } \}$with$k \geq C m ^ { 2 } e ^ { 4 m }$, at least$m + 1$of the$n + h _ { i }$must be prime for infinitely many integers n. We can choose our set H to be the set $\{ p _ { \pi ( k ) + 1 } , \dots , p _ { \pi ( k ) + k } \}$of the first k primes which are greater than k. This is admissible, since no element is a multiple of a prime less than k (and there are k elements, so it cannot cover all residue classes modulo any prime greater than k.) This set has diameter$p _ { \pi ( k ) + k } - p _ { \pi ( k ) + 1 } \ll k \log k$. Thus lim in$\mathrm { f } _ { n } ( p _ { n + m } - p _ { n } ) \ll k \log k \ll m ^ { 3 } e ^ { 4 m }$if we take$k = \lceil C m ^ { 2 } e ^ { 4 m } \rceil$. This gives Theorem 1.1.
 
 We can now establish Theorem 1.2 by a simple counting argument. Given $m ,$we let$k = \lceil C m ^ { 2 } e ^ { 4 m } \rceil$as above. Therefore if$\{ h _ { 1 } , \ldots , h _ { k } \}$is admissible, then there exists a subset$\{ h _ { 1 } ^ { \prime } , \ldots , h _ { m } ^ { \prime } \} \subseteq \{ h _ { 1 } , \ldots , h _ { k } \}$with the property that there are infinitely many integers n for which all of the$n + h _ { i } ^ { \prime }$are prime$( 1 \leq i \leq m )$
 
-We let$\mathcal { A } _ { 2 }$denote the set formed by starting with the given set A = $\{ a _ { 1 } , \ldots , a _ { r } \}$, and for each prime$p \leq k$, in turn removing all elements of the residue class modulo$p$which contains the fewest integers. We see that$\# . A _ { 2 } \geq$ $r \prod _ { p \leq k } ( 1 - 1 / p ) \gg _ { m } r$. Moreover, any subset of$\boldsymbol { A } _ { 2 }$of size k must be admissible, since it cannot cover all residue classes modulo$p$for any prime$p \leq k$. We let $s = \# \mathcal { A } _ { 2 }$, and since r is taken suficiently large in terms of$m$, we may assume that$s > k$
+We let$\mathcal { A } _ { 2 }$denote the set formed by starting with the given set A = $\{ a _ { 1 } , \ldots , a _ { r } \}$, and for each prime$p \leq k$, in turn removing all elements of the residue class modulo$p$which contains the fewest integers. We see that$\# \mathcal {A} _ { 2} \geq$ $r \prod _ { p \leq k } ( 1 - 1 / p ) \gg _ { m } r$. Moreover, any subset of$\mathcal {A} _ { 2 }$of size k must be admissible, since it cannot cover all residue classes modulo$p$for any prime$p \leq k$. We let $s = \# \mathcal { A } _ { 2 }$, and since r is taken sufficiently large in terms of$m$, we may assume that$s > k$
 
-We see there are$\textstyle { \binom { s } { k } }$sets$\mathcal { H } \subseteq A _ { 2 }$of size k. Each of these is admissible, and so contains at least one subset$\{ h _ { 1 } ^ { \prime } , \ldots , h _ { m } ^ { \prime } \} \subseteq A _ { 2 }$which satisfies the prime m-tuples conjecture. Any admissible set$B \subseteq A _ { 2 }$of size m is contained in$\binom { s - m } { k - m }$ sets$\mathcal { H } \subseteq A _ { 2 }$of size k. Thus there are at least$\left( ^ { s } _ { k } \right) \left( ^ { s - m } _ { k - m } \right) ^ { - 1 } \gg _ { m } s ^ { m } \gg _ { m } r ^ { m }$ admissible sets$B \subseteq A _ { 2 }$of size m which satisfy the prime m-tuples conjecture. Since there are$( \boldsymbol { { \mathbf { \mathit { \Pi } } } } _ { m } ^ { r } ) \leq r ^ { m }$sets$\{ h _ { 1 } , \dotsc , h _ { m } \} \subseteq A$, Theorem 1.2 holds.
+We see there are$\textstyle { \binom { s } { k } }$sets$\mathcal { H } \subseteq \mathcal {A} _ { 2 }$of size k. Each of these is admissible, and so contains at least one subset$\{ h _ { 1 } ^ { \prime } , \ldots , h _ { m } ^ { \prime } \} \subseteq \mathcal {A} _ { 2 }$which satisfies the prime m-tuples conjecture. Any admissible set$B \subseteq \mathcal {A} _ { 2 }$of size m is contained in$\binom { s - m } { k - m }$ sets$\mathcal { H } \subseteq \mathcal {A} _ { 2 }$of size k. Thus there are at least$\binom {s}{k} \binom {s-m}{k-m} ^ { - 1 } \gg _ { m } s ^ { m } \gg _ { m } r ^ { m }$ admissible sets$B \subseteq \mathcal {A} _ { 2 }$of size m which satisfy the prime m-tuples conjecture. Since there are$\binom {r}{m} \leq r^{m}$sets$\{ h _ { 1 } , \dotsc , h _ { m } \} \subseteq A$, Theorem 1.2 holds.
 
 We are left to establish Propositions 4.1 and 4.3.
 
@@ -250,7 +246,7 @@ We are left to establish Propositions 4.1 and 4.3.
 
 In this section we perform initial manipulations towards establishing Proposition 4.1. These arguments are multidimensional generalizations of the sieve arguments of [3]. In particular, our approach is based on the elementary combinatorial ideas of Selberg. The aim is to introduce a change of variables to rewrite our sums$S _ { 1 }$and$S _ { 2 }$in a simpler form.
 
-Throughout the rest of the paper we assume that the primes have a fixed level of distribution$\theta ,$and$R = N ^ { \theta / 2 - \delta }$. We restrict the support of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$ to tuples for which the product$\textstyle d = \prod _ { i = 1 } ^ { k } d _ { i }$is less than R and also satisfies $( d , W ) = 1$and$\mu ( d ) ^ { 2 } = 1 \qquad$. We note that the condition$\mu ( d ) ^ { 2 } = 1 \qquad$implies that $( d _ { i } , d _ { j } ) = 1$for all$i \neq j$
+Throughout the rest of the paper we assume that the primes have a fixed level of distribution$\theta ,$and$R = N ^ { \theta / 2 - \delta }$. We restrict the support of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$ to tuples for which the product$\textstyle d = \prod _ { i = 1 } ^ { k } d _ { i }$is less than R and also satisfies $( d , W ) = 1$and$\mu ( d ) ^ { 2 } = 1$. We note that the condition$\mu ( d ) ^ { 2 } = 1$implies that $( d _ { i } , d _ { j } ) = 1$for all$i \neq j$
 
 ## Lemma 5.1. Let
 
@@ -258,7 +254,7 @@ $$
 y_{r_{1},\ldots ,r_{k}} = \Bigl (\prod_{i = 1}^{k}\mu (r_{i})\varphi (r_{i})\Bigr)\sum_{\substack{d_{1},\ldots ,d_{k}\\ r_{i}|d_{i}\forall i}}\frac{\lambda_{d_{1},\ldots,d_{k}}}{\prod_{i = 1}^{k}d_{i}}.
 $$
 
-Let$\begin{array} { r } { y _ { \operatorname* { m a x } } = \operatorname* { s u p } _ { r _ { 1 } , . . . , r _ { k } } | y _ { r _ { 1 } , . . . , r _ { k } } | } \end{array}$. Then
+Let$\begin{array} { r } { y _ { \max } = \sup _ { r _ { 1 } , . . . , r _ { k } } | y _ { r _ { 1 } , . . . , r _ { k } } | } \end{array}$. Then
 
 $$
 S _ {1} = \frac {N}{W} \sum_ {r _ {1}, \dots , r _ {k}} \frac {y _ {r _ {1} , \dots , r _ {k}} ^ {2}}{\prod_ {i = 1} ^ {k} \varphi (r _ {i})} + O \Big (\frac {y _ {\max} ^ {2} \varphi (W) ^ {k} N (\log R) ^ {k}}{W ^ {k + 1} D _ {0}} \Big).
@@ -278,7 +274,7 @@ $$
 S_{1} = \frac{N}{W}\sum_{\substack{d_{1},\ldots ,d_{k}\\ e_{1},\ldots ,e_{k}}}^{\prime}\frac{\lambda_{d_{1},\ldots,d_{k}}\lambda_{e_{1},\ldots,e_{k}}}{\prod_{i = 1}^{k}[d_{i},e_{i}]} +O\Big(\sum_{\substack{d_{1},\ldots ,d_{k}\\ e_{1},\ldots ,e_{k}}}^{\prime}|\lambda_{d_{1},\ldots ,d_{k}}\lambda_{e_{1},\ldots ,e_{k}}| \Big),\tag{5.2}
 $$
 
-where$\Sigma ^ { \prime }$is used to denote the restriction that we require$W , [ d _ { 1 } , e _ { 1 } ] , \dots , [ d _ { k } , e _ { k } ]$ to be pairwise coprime. To ease notation we will put$\lambda _ { \operatorname* { m a x } } { = } \operatorname* { s u p } _ { d _ { 1 } , \ldots , d _ { k } } | \lambda _ { d _ { 1 } , \ldots , d _ { k } } | .$ We now see that since$\lambda _ { d _ { 1 } , \dots , d _ { k } }$is nonzero only when$\textstyle \prod _ { i = 1 } ^ { k } d _ { i } < R$the error term contributes
+where$\Sigma ^ { \prime }$is used to denote the restriction that we require$W , [ d _ { 1 } , e _ { 1 } ] , \dots , [ d _ { k } , e _ { k } ]$ to be pairwise coprime. To ease notation we will put$\lambda _ { \max } { = } \sup _ { d _ { 1 } , \ldots , d _ { k } } | \lambda _ { d _ { 1 } , \ldots , d _ { k } } | .$ We now see that since$\lambda _ { d _ { 1 } , \dots , d _ { k } }$is nonzero only when$\textstyle \prod _ { i = 1 } ^ { k } d _ { i } < R$the error term contributes
 
 $$
 \ll \lambda_ {\max} ^ {2} \Bigl (\sum_ {d <   R} \tau_ {k} (d) \Bigr) ^ {2} \ll \lambda_ {\max} ^ {2} R ^ {2} (\log R) ^ {2 k},\tag{5.3}
@@ -320,13 +316,13 @@ $$
 \begin{array}{c}\sum_{\substack{r_{1},\ldots ,r_{k}\\ d_{i}|r_{i}\forall i}}\frac{y_{r_{1},\ldots,r_{k}}}{\prod_{i = 1}^{k}\varphi(r_{i})} = \sum_{\substack{r_{1},\ldots ,r_{k}\\ d_{i}|r_{i}\forall i}}\Bigl (\prod_{i = 1}^{k}\mu (r_{i})\Bigr)\sum_{\substack{e_{1},\ldots ,e_{k}\\ r_{i}|e_{i}\forall i}}\frac{\lambda_{e_{1},\ldots,e_{k}}}{\prod_{i = 1}^{k}e_{i}}\\ \\ = \sum_{e_{1},\ldots ,e_{k}}\frac{\lambda_{e_{1},\ldots,e_{k}}}{\prod_{i = 1}^{k}e_{i}}\sum_{\substack{r_{1},\ldots ,r_{k}\\ d_{i}|r_{i}\forall i\\ r_{i}|e_{i}\forall i}}\prod_{i = 1}^{k}\mu (r_{i}) = \frac{\lambda_{d_{1},\ldots,d_{k}}}{\prod_{i = 1}^{k}\mu_{i}(d_{i})d_{i}}. \end{array}\tag{5.8}
 $$
 
-Thus any choice of$y _ { r _ { 1 } , \ldots , r _ { k } }$supported on$r _ { 1 } , \ldots , r _ { k }$, with the product$r =$ $\textstyle \prod _ { i = 1 } ^ { k } r _ { i }$square-free and satisfying$r < R$and$( r , W ) = 1$, will give a suitable choice of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$. We let$\begin{array} { r } { y _ { \mathrm { { m a x } } } = \operatorname* { s u p } _ { r _ { 1 } , \ldots , r _ { k } } | y _ { r _ { 1 } , \ldots , r _ { k } } | } \end{array}$. Now, since$d / \varphi ( d ) =$ $\textstyle \sum _ { e \mid d } 1 / \varphi ( e )$for square-free$d ,$we find by taking$\textstyle r ^ { \prime } = \prod _ { i = 1 } ^ { k } r _ { i } / { d _ { i } }$that
+Thus any choice of$y _ { r _ { 1 } , \ldots , r _ { k } }$supported on$r _ { 1 } , \ldots , r _ { k }$, with the product$r =$ $\textstyle \prod _ { i = 1 } ^ { k } r _ { i }$square-free and satisfying$r < R$and$( r , W ) = 1$, will give a suitable choice of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$. We let$\begin{array} { r } { y _ { \max } = \sup _ { r _ { 1 } , \ldots , r _ { k } } | y _ { r _ { 1 } , \ldots , r _ { k } } | } \end{array}$. Now, since$d / \varphi ( d ) =$ $\textstyle \sum _ { e \mid d } 1 / \varphi ( e )$for square-free$d ,$we find by taking$\textstyle r ^ { \prime } = \prod _ { i = 1 } ^ { k } r _ { i } / { d _ { i } }$that
 
 $$
 \begin{array}{l}\lambda_{\max}\leq \sup_{\substack{d_{1},\ldots ,d_{k}\\ \prod_{i = 1}^{k}d_{i}\text{square - free}}}y_{\max}\Big(\prod_{i = 1}^{k}d_{i}\Big)\sum_{\substack{r_{1},\ldots ,r_{k}\\ d_{i}|r_{i}\forall i\\ \prod_{i = 1}^{k}r_{i} <   R\\ \prod_{i = 1}^{k}r_{i}\text{square - free}}}\Big(\prod_{i = 1}^{k}\frac{\mu(r_{i})^{2}}{\varphi(r_{i})}\Big)\\ \leq y_{\max}\sup_{\substack{d_{1},\ldots ,d_{k}\\ \prod_{i = 1}^{k}d_{i}\text{square - free}}}\Big(\prod_{i = 1}^{k}\frac{d_{i}}{\varphi(d_{i})}\Big)\sum_{\substack{r^{\prime} <   R / \prod_{i = 1}^{k}d_{i}\\ (r^{\prime},\prod_{i = 1}^{k}d_{i}) = 1}}\frac{\mu(r^{\prime})^{2}\tau_{k}(r^{\prime})}{\varphi(r^{\prime})}\\ \leq y_{\max}\sup_{d_{1},\ldots ,d_{k}}\sum_{d|\prod_{i = 1}^{k}d_{i}}\frac{\mu(d)^{2}}{\varphi(d)}\sum_{\substack{r^{\prime} <   R / \prod_{i = 1}^{k}d_{i}\\ (r^{\prime},\prod_{i = 1}^{k}d_{i}) = 1}}\frac{\mu(r^{\prime})^{2}\tau_{k}(r^{\prime})}{\varphi(r^{\prime})}\\ \leq y_{\max}\sum_{u <   R}\frac{\mu(u)^{2}\tau_{k}(u)}{\varphi(u)}\ll y_{\max}(\log R)^{k}. \end{array}\tag{5.9}
 $$
 
-In the last line we have taken$u = d r ^ { \prime }$and used the fact$\tau _ { k } ( d \boldsymbol { r } ^ { \prime } ) \geq \tau _ { k } ( \boldsymbol { r } ^ { \prime } )$. Hence the error term$O ( \lambda _ { \operatorname* { m a x } } ^ { 2 } R ^ { 2 } ( \log N ) ^ { 2 k } )$is of size$O ( y _ { \mathrm { m a x } } ^ { 2 } R ^ { 2 } ( \log N ) ^ { 4 k } )$
+In the last line we have taken$u = d r ^ { \prime }$and used the fact$\tau _ { k } ( d \boldsymbol { r } ^ { \prime } ) \geq \tau _ { k } ( \boldsymbol { r } ^ { \prime } )$. Hence the error term$O ( \lambda _ { \max } ^ { 2 } R ^ { 2 } ( \log N ) ^ { 2 k } )$is of size$O ( y _ { \max } ^ { 2 } R ^ { 2 } ( \log N ) ^ { 4 k } )$
 
 Substituting our change of variables (5.7) into the main term (5.6), and using the above estimate for the error term, we obtain
 
@@ -352,7 +348,7 @@ $$
 S _ {1} = \frac {N}{W} \sum_ {u _ {1}, \ldots , u _ {k}} \frac {y _ {u _ {1} , \ldots , u _ {k}} ^ {2}}{\prod_ {i = 1} ^ {k} \varphi (u _ {i})} + O \left(\frac {y _ {\max} ^ {2} \varphi (W) ^ {k} N (\log R) ^ {k}}{W ^ {k + 1} D _ {0}} + y _ {\max} ^ {2} R ^ {2} (\log R) ^ {4 k}\right).\tag{5.13}
 $$
 
-We recall that$R ^ { 2 } = N ^ { \theta - 2 \delta } \leq N ^ { 1 - 2 \delta }$and$W \ll N ^ { \delta }$, and so the first error term dominates. This gives the result.
+We recall that$R ^ { 2 } = N ^ { \theta - 2 \delta } \leq N ^ { 1 - 2 \delta }$and$W \ll N ^ { \delta }$, and so the first error term dominates. This gives the result. □
 
 We now consider$S _ { 2 }$. We write$\begin{array} { r } { S _ { 2 } = \sum _ { m = 1 } ^ { k } S _ { 2 } ^ { ( m ) } } \end{array}$, where
 
@@ -368,7 +364,7 @@ $$
 y_{r_{1},\ldots ,r_{k}}^{(m)} = \Bigl (\prod_{i = 1}^{k}\mu (r_{i})g(r_{i})\Bigr)\sum_{\substack{d_{1},\ldots ,d_{k}\\ r_{i}|d_{i}\forall i\\ d_{m} = 1}}\frac{\lambda_{d_{1},\ldots,d_{k}}}{\prod_{i = 1}^{k}\varphi(d_{i})},
 $$
 
-where$g$is the totally multiplicative function defined on primes by$g ( p ) = p - 2$ Let$\begin{array} { r } { y _ { \mathrm { m a x } } ^ { ( m ) } = \operatorname* { s u p } _ { r _ { 1 } , \ldots , r _ { k } } | y _ { r _ { 1 } , \ldots , r _ { k } } ^ { ( m ) } | } \end{array}$. Then for any fixed$A > 0$, we have
+where$g$is the totally multiplicative function defined on primes by$g ( p ) = p - 2$ Let$\begin{array} { r } { y _ { \max } ^ { ( m ) } = \sup _ { r _ { 1 } , \ldots , r _ { k } } | y _ { r _ { 1 } , \ldots , r _ { k } } ^ { ( m ) } | } \end{array}$. Then for any fixed$A > 0$, we have
 
 $$
 \begin{array}{l} S _ {2} ^ {(m)} = \frac {N}{\varphi (W) \log N} \sum_ {r _ {1}, \ldots , r _ {k}} \frac {(y _ {r _ {1} , \ldots , r _ {k}} ^ {(m)}) ^ {2}}{\prod_ {i = 1} ^ {k} g (r _ {i})} + O \Big (\frac {(y _ {\max} ^ {(m)}) ^ {2} \varphi (W) ^ {k - 2} N (\log N) ^ {k - 2}}{W ^ {k - 1} D _ {0}} \Big) \\ \qquad + O \Big (\frac {y _ {\max} ^ {2} N}{(\log N) ^ {A}} \Big). \end{array}
@@ -382,14 +378,12 @@ $$
 
 As with$S _ { 1 }$, the inner sum can be written as a sum over a single residue class modulo$\begin{array} { r } { q = W \prod _ { i = 1 } ^ { k } [ d _ { i } , e _ { i } ] } \end{array}$, provided that$W , [ d _ { 1 } , e _ { 1 } ] , \dots , [ d _ { k } , e _ { k } ]$are pairwise coprime. The integer$n + h _ { m }$will lie in a residue class coprime to the modulus if and only if$d _ { m } = e _ { m } = 1$. In this case the inner sum will contribute$X _ { N } / \varphi ( q ) +$ $O ( E ( N , q ) )$, where
 
-(5.16)
-
 $$
-E(N,q) = 1 + \sup_{(a,q) = 1}\bigg|\sum_{\substack{N\leq n <   2N\\ n\equiv a\pmod{q}}}\chi_{\mathbb{P}}(n) - \frac{1}{\varphi(q)}\sum_{N\leq n <   2N}\chi_{\mathbb{P}}(n)\bigg|,\tag{5.17}
+E(N,q) = 1 + \sup_{(a,q) = 1}\bigg|\sum_{\substack{N\leq n <   2N\\ n\equiv a\pmod{q}}}\chi_{\mathbb{P}}(n) - \frac{1}{\varphi(q)}\sum_{N\leq n <   2N}\chi_{\mathbb{P}}(n)\bigg|,\tag{5.16}
 $$
 
 $$
-X _ {N} = \sum_ {N \leq n <   2 N} \chi_ {\mathbb {P}} (n).
+X _ {N} = \sum_ {N \leq n <   2 N} \chi_ {\mathbb {P}} (n).\tag{5.17}
 $$
 
 If either one pair of$W , [ d _ { 1 } , e _ { 1 } ] , \dots , [ d _ { k } , e _ { k } ]$share a common factor, or if either $d _ { m }$or$e _ { m }$are not 1, then the contribution of the inner sum is zero. Thus we obtain
@@ -400,7 +394,7 @@ $$
 
 where we have written$\begin{array} { r } { q = W \prod _ { i = 1 } ^ { k } [ d _ { i } , e _ { i } ] } \end{array}$
 
-We first deal with the contribution from the error terms. From the support of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$, we see that we only need to consider square-free$q$with $q \ < \ R ^ { 2 } W$. Given a square-free integer$r ,$there are at most$\tau _ { 3 k } ( r )$choices of$d _ { 1 } , \dotsc , d _ { k } , e _ { 1 } , \dotsc , e _ { k }$for which W$\textstyle \prod _ { i = 1 } ^ { k } [ d _ { i } , e _ { i } ] = r$. We also recall from (5.9) that$\lambda _ { \operatorname* { m a x } } \ll y _ { \operatorname* { m a x } } ( \log R ) ^ { k }$. Thus the error term contributes
+We first deal with the contribution from the error terms. From the support of$\lambda _ { d _ { 1 } , \dots , d _ { k } }$, we see that we only need to consider square-free$q$with $q \ < \ R ^ { 2 } W$. Given a square-free integer$r ,$there are at most$\tau _ { 3 k } ( r )$choices of$d _ { 1 } , \dotsc , d _ { k } , e _ { 1 } , \dotsc , e _ { k }$for which W$\textstyle \prod _ { i = 1 } ^ { k } [ d _ { i } , e _ { i } ] = r$. We also recall from (5.9) that$\lambda _ { \max } \ll y _ { \max } ( \log R ) ^ { k }$. Thus the error term contributes
 
 $$
 \ll y _ {\max} ^ {2} (\log R) ^ {2 k} \sum_ {r <   R ^ {2} W} \mu (r) ^ {2} \tau_ {3 k} (r) E (N, r).\tag{5.19}
@@ -412,7 +406,7 @@ $$
 \begin{array}{l} \ll y _ {\max} ^ {2} (\log R) ^ {2 k} \Big (\sum_ {r <   R ^ {2} W} \mu (r) ^ {2} \tau_ {3 k} ^ {2} (r) \frac {N}{\varphi (r)} \Big) ^ {1 / 2} \Big (\sum_ {r <   R ^ {2} W} \mu (r) ^ {2} E (N, r) \Big) ^ {1 / 2} \\ \ll \frac {y _ {\max} ^ {2} N}{(\log N) ^ {A}}. \end{array}\tag{5.20}
 $$
 
-We now concentrate on the main sum. As in the treatment of$S _ { 1 }$in the proof of Lemma 5.1, we rewrite the conditions$( d _ { i } , e _ { j } ) = 1$by multiplying our expression by$\begin{array} { r } { \sum _ { s _ { i , j } \mid d _ { i } , e _ { j } } \mu ( s _ { i , j } ) } \end{array}$. Again we may restrict$s _ { i , j }$to be coprime to$u _ { i } , ~ u _ { j } , ~ s _ { i , a }$ and$s _ { b , j }$for all$a \neq j$and$b \neq i$. We denote the summation subject to these restrictions by$\boldsymbol { \sum } ^ { * }$. We also split the$\varphi ( [ d _ { i } , e _ { i } ] )$terms by using the equation
+We now concentrate on the main sum. As in the treatment of$S _ { 1 }$in the proof of Lemma 5.1, we rewrite the conditions$( d _ { i } , e _ { j } ) = 1$by multiplying our expression by$\begin{array} { r } { \sum _ { s _ { i , j } \mid d _ { i } , e _ { j } } \mu ( s _ { i , j } ) } \end{array}$. Again we may restrict$s _ { i , j }$to be coprime to$u _ { i } , u _ { j } , s _ { i , a }$ and$s _ { b , j }$for all$a \neq j$and$b \neq i$. We denote the summation subject to these restrictions by$\boldsymbol { \sum } ^ { * }$. We also split the$\varphi ( [ d _ { i } , e _ { i } ] )$terms by using the equation
 
 (valid for square-free$d _ { i } , e _ { i } )$
 
@@ -458,13 +452,13 @@ $$
 \ll \frac{(y_{\max}^{(m)})^{2}N}{\varphi(W)(\log N)^{2}}\Big(\sum_{\substack{u <   R\\ (u,W) = 1}}\frac{\mu(u)^{2}}{g(u)}\Big)^{k - 1}\ll \frac{(y_{\max}^{(m)})^{2}\varphi(W)^{k - 2}N(\log R)^{k - 3}}{W^{k - 1}},\tag{5.27}
 $$
 
-which can be absorbed into the first error term of (5.26). This completes the proof.
+which can be absorbed into the first error term of (5.26). This completes the proof. □
 
 Remark. In our proof of Lemma 5.2 we only really require$\lambda _ { d _ { 1 } , \dots , d _ { k } }$to be supported on$d _ { 1 } , \ldots , d _ { k }$satisfying$\textstyle \prod _ { i \neq j } d _ { i } < R$for all$j$instead of$\textstyle \prod _ { i = 1 } ^ { k } d _ { i } < R$ For$k \geq 3$, the numerical benefit of this extension is small, and so we do not consider it further.
 
-Remark. As our result relies on the Bombieri-Vinogradov theorem, the implied constant in the error term is not efectively computable. However, if we restrict the$\lambda _ { d _ { 1 } , \dots , d _ { k } }$to be supported on$d _ { i }$which are coprime to the largest prime factor of a possible exceptional modulus of a primitive character, then we can make this error term (and all others in this paper) efective at the cost of a negligible error.
+Remark. As our result relies on the Bombieri-Vinogradov theorem, the implied constant in the error term is not effectively computable. However, if we restrict the$\lambda _ { d _ { 1 } , \dots , d _ { k } }$to be supported on$d _ { i }$which are coprime to the largest prime factor of a possible exceptional modulus of a primitive character, then we can make this error term (and all others in this paper) effective at the cost of a negligible error.
 
-We now relate our new variables$y _ { r _ { 1 } , \ldots , r _ { k } } ^ { ( m ) }$to the$y _ { r _ { 1 } , \ldots , r _ { k } }$variables from$S _ { 1 }$. Lemma 5.3.${ \cal I } f r _ { m } = 1$, then
+We now relate our new variables$y _ { r _ { 1 } , \ldots , r _ { k } } ^ { ( m ) }$to the$y _ { r _ { 1 } , \ldots , r _ { k } }$variables from$S _ { 1 }$. Lemma 5.3. If $r _ { m } = 1$, then
 
 $$
 y _ {r _ {1}, \dots , r _ {k}} ^ {(m)} = \sum_ {a _ {m}} \frac {y _ {r _ {1} , \dots , r _ {m - 1} , a _ {m} , r _ {m + 1} , \dots , r _ {k}}}{\varphi (a _ {m})} + O \Big (\frac {y _ {\max} \varphi (W) \log R}{W D _ {0}} \Big).
@@ -500,7 +494,7 @@ $$
 y _ {r _ {1}, \ldots , r _ {k}} ^ {(m)} = \Bigl (\prod_ {i = 1} ^ {k} \frac {g (r _ {i}) r _ {i}}{\varphi (r _ {i}) ^ {2}} \Bigr) \sum_ {a _ {m}} \frac {y _ {r _ {1} , \ldots , r _ {m - 1} , a _ {m} , r _ {m + 1} , \ldots , r _ {k}}}{\varphi (a _ {m})} + O \Bigl (\frac {y _ {\max} \varphi (W) \log R}{W D _ {0}} \Bigr).\tag{5.32}
 $$
 
-We note that$g ( p ) p / \varphi ( p ) ^ { 2 } = 1 + O ( p ^ { - 2 } )$. Thus, since the contribution is zero unless$\textstyle \prod _ { i = 1 } ^ { k } r _ { i }$is coprime to W, we see that the product in the above expression may be replaced by$1 + O ( D _ { 0 } ^ { - 1 } )$. This gives the result.
+We note that$g ( p ) p / \varphi ( p ) ^ { 2 } = 1 + O ( p ^ { - 2 } )$. Thus, since the contribution is zero unless$\textstyle \prod _ { i = 1 } ^ { k } r _ { i }$is coprime to W, we see that the product in the above expression may be replaced by$1 + O ( D _ { 0 } ^ { - 1 } )$. This gives the result. □
 
 ## 6. Smooth choice of y
 
@@ -524,7 +518,7 @@ $$
 y _ {r _ {1}, \dots , r _ {k}} = F \left(\frac {\log r _ {1}}{\log R}, \dots , \frac {\log r _ {k}}{\log R}\right),\tag{6.3}
 $$
 
-for some smooth function$F : \mathbb { R } ^ { k }  \mathbb { R }$, supported on${ \mathcal R } _ { k } = \{ ( x _ { 1 } , \ldots , x _ { k } ) \in$ $[ 0 , 1 ] ^ { k } : \textstyle \sum _ { i = 1 } ^ { k } x _ { i } \leq 1 \}$. As previously required, we set$y _ { r _ { 1 } , \ldots , r _ { k } } = 0$if the product $r$is either not coprime to$W$or is not square-free. With this choice of$y ,$we can obtain suitable asymptotic estimates for$S _ { 1 }$and$S _ { 2 }$.
+for some smooth function$F : \mathbb { R } ^ { k } \to \mathbb { R }$, supported on${ \mathcal R } _ { k } = \{ ( x _ { 1 } , \ldots , x _ { k } ) \in$ $[ 0 , 1 ] ^ { k } : \textstyle \sum _ { i = 1 } ^ { k } x _ { i } \leq 1 \}$. As previously required, we set$y _ { r _ { 1 } , \ldots , r _ { k } } = 0$if the product $r$is either not coprime to$W$or is not square-free. With this choice of$y ,$we can obtain suitable asymptotic estimates for$S _ { 1 }$and$S _ { 2 }$.
 
 We will use the following lemma to estimate our sums$S _ { 1 }$and$S _ { 2 }$with this choice of$y .$
 
@@ -540,7 +534,7 @@ $$
 - L \leq \sum_ {w \leq p \leq z} \frac {\gamma (p) \log p}{p} - \log z / w \leq A _ {2}
 $$
 
-for any$2 \leq w \leq z$. Let$g$be the totally multiplicative function defined on primes by$g ( p ) = \gamma ( p ) / ( p - \gamma ( p ) )$. Finally, let$G : [ 0 , 1 ] \to \mathbb { R }$be smooth, and let$\begin{array} { r } { G _ { \operatorname* { m a x } } = \operatorname* { s u p } _ { t \in [ 0 , 1 ] } ( | G ( t ) | + | G ^ { \prime } ( t ) | ) } \end{array}$. Then
+for any$2 \leq w \leq z$. Let$g$be the totally multiplicative function defined on primes by$g ( p ) = \gamma ( p ) / ( p - \gamma ( p ) )$. Finally, let$G : [ 0 , 1 ] \to \mathbb { R }$be smooth, and let$\begin{array} { r } { G _ { \max } = \sup _ { t \in [ 0 , 1 ] } ( | G ( t ) | + | G ^ { \prime } ( t ) | ) } \end{array}$. Then
 
 $$
 \sum_ {d <   z} \mu (d) ^ {2} g (d) G \Big (\frac {\log d}{\log z} \Big) = \mathfrak {S} \log z \int_ {0} ^ {1} G (x) d x + O _ {A _ {1}, A _ {2}} (\mathfrak {S} L G _ {\max}),
@@ -552,7 +546,7 @@ $$
 \mathfrak {S} = \prod_ {p} \left(1 - \frac {\gamma (p)}{p}\right) ^ {- 1} \left(1 - \frac {1}{p}\right).
 $$
 
-Here the constant implied by the$^ 6 O ^ { \circ }$term is independent of$G$and$L .$.
+Here the constant implied by the $O$ term is independent of$G$and$L .$.
 
 Proof. This is [3, Lemma$4 ]$, with$\kappa = 1$and slight changes to the notation.
 
@@ -596,14 +590,12 @@ $$
 
 We can now estimate this sum by k applications of Lemma 6.1, dealing with the sum over each$u _ { i }$in turn. For each application, we take
 
-(6.7)
-
 $$
-\gamma (p) = \left\{ \begin{array}{l l} 1, & p \nmid W, \\ 0, & \text { otherwise }, \end{array} \right.\tag{6.8}
+\gamma (p) = \left\{ \begin{array}{l l} 1, & p \nmid W, \\ 0, & \text { otherwise }, \end{array} \right.\tag{6.7}
 $$
 
 $$
-L \ll 1 + \sum_ {p | W} \frac {\log p}{p} \ll \log D _ {0},
+L \ll 1 + \sum_ {p | W} \frac {\log p}{p} \ll \log D _ {0},\tag{6.8}
 $$
 
 and$A _ { 1 }$and$A _ { 2 }$fixed constants of suitable size. This gives
@@ -614,7 +606,7 @@ $$
 
 We now combine (6.9) with (6.4) and (6.5) to obtain the result.
 
-Lemma 6.3. Let$y _ { r _ { 1 } , \ldots , r _ { k } } , F$and$F _ { \mathrm { m a x } }$be as described in Lemma 6.2. Then we have
+Lemma 6.3. Let$y _ { r _ { 1 } , \ldots , r _ { k } } , F$and$F _ { \max }$be as described in Lemma 6.2. Then we have
 
 $$
 S _ {2} ^ {(m)} = \frac {\varphi (W) ^ {k} N (\log R) ^ {k + 1}}{W ^ {k + 1} \log N} J _ {k} ^ {(m)} (F) + O \Bigl (\frac {F _ {\max} ^ {2} \varphi (W) ^ {k} N (\log R) ^ {k}}{W ^ {k + 1} D _ {0}} \Bigr),
@@ -632,10 +624,14 @@ $$
 \begin{array}{l} y _ {r _ {1}, \ldots , r _ {k}} ^ {(m)} = O \Big (\frac {F _ {\max} \varphi (W) \log R}{W D _ {0}} \Big) \\ + \sum_ {(u, W \prod_ {i = 1} ^ {k} r _ {i}) = 1} \frac {\mu (u) ^ {2}}{\varphi (u)} F \Big (\frac {\log r _ {1}}{\log R}, \ldots , \frac {\log r _ {m - 1}}{\log R}, \frac {\log u}{\log R}, \frac {\log r _ {m + 1}}{\log R}, \ldots , \frac {\log r _ {k}}{\log R} \Big). \end{array}\tag{6.10}
 $$
 
-We can see from this that$y _ { \operatorname* { m a x } } ^ { ( m ) } \ll \varphi ( W ) F _ { \operatorname* { m a x } } ( \log R ) / W$. We now estimate the sum over u in (6.10). We apply Lemma 6.1 with
+We can see from this that$y _ { \max } ^ { ( m ) } \ll \varphi ( W ) F _ { \max } ( \log R ) / W$. We now estimate the sum over u in (6.10). We apply Lemma 6.1 with
 
 $$
-\begin{array}{l} \text {(6.11)} \\ \gamma (p) = \left\{ \begin{array}{l l} 1, & p \nmid W \prod_ {i = 1} ^ {k} r _ {i}, \\ 0, & \text {otherwise}, \end{array} \right. \\ L \ll 1 + \sum_ {p | W \prod_ {i = 1} ^ {k} r _ {i}} \frac {\log p}{p} \ll \sum_ {p <   \log R} \frac {\log p}{p} + \sum_ {p | W \prod_ {i = 1} ^ {k} r _ {i}} \frac {\log \log R}{\log R} \ll \log \log N, \end{array} \tag {6.12}
+\1\tag{6.11}
+$$
+
+$$
+\2\tag{6.12}
 $$
 
 and with$A _ { 1 } , A _ { 2 }$suitable fixed constants. This gives us
@@ -676,14 +672,12 @@ $$
 
 We estimate this by applying Lemma 6.1 to each summation variable in turn. In each case we take
 
-(6.19)
-
 $$
-\gamma (p) = \left\{ \begin{array}{l l} 1 - \frac {p ^ {2} - 3 p + 1}{p ^ {3} - p ^ {2} - 2 p + 1}, & p \nmid W, \\ 0, & \text {otherwise}, \end{array} \right.\tag{6.20}
+\gamma (p) = \left\{ \begin{array}{l l} 1 - \frac {p ^ {2} - 3 p + 1}{p ^ {3} - p ^ {2} - 2 p + 1}, & p \nmid W, \\ 0, & \text {otherwise}, \end{array} \right.\tag{6.19}
 $$
 
 $$
-L \ll 1 + \sum_ {p | W} \frac {\log p}{p} \ll \log D _ {0},
+L \ll 1 + \sum_ {p | W} \frac {\log p}{p} \ll \log D _ {0},\tag{6.20}
 $$
 
 and$A _ { 1 } , A _ { 2 }$suitable fixed constants. This gives
@@ -700,9 +694,9 @@ $$
 
 as required.
 
-Remark. If$F ( t _ { 1 } , \dots , t _ { k } ) = G ( \sum _ { i = 1 } ^ { k } t _ { i } )$for some function$G ,$then$I _ { k } ( F )$ and$J _ { k } ^ { ( m ) } ( F )$simplify to$\begin{array} { r } { I _ { k } ( F ) ~ = ~ \int _ { 0 } ^ { 1 } G ( t ) ^ { 2 } t ^ { k - 1 } d t / ( k - 1 ) ! } \end{array}$and$J _ { k } ^ { ( m ) } ( F ) =$ $\begin{array} { r } { \int _ { 0 } ^ { 1 } ( \int _ { t } ^ { 1 } G ( v ) d v ) ^ { 2 } t ^ { k - 2 } d t / ( k - 2 ) ! } \end{array}$! for each$m ,$, which is equivalent to the results obtained using the original GPY method using weights given by (2.3).
+Remark. If$F ( t _ { 1 } , \dots , t _ { k } ) = G ( \sum _ { i = 1 } ^ { k } t _ { i } )$for some function$G ,$then$I _ { k } ( F )$ and$J _ { k } ^ { ( m ) } ( F )$simplify to$\begin{array} { r } { I _ { k } ( F ) = \int _ { 0 } ^ { 1 } G ( t ) ^ { 2 } t ^ { k - 1 } d t / ( k - 1 ) ! } \end{array}$and$J _ { k } ^ { ( m ) } ( F ) =$ $\begin{array} { r } { \int _ { 0 } ^ { 1 } ( \int _ { t } ^ { 1 } G ( v ) d v ) ^ { 2 } t ^ { k - 2 } d t / ( k - 2 ) ! } \end{array}$! for each$m ,$, which is equivalent to the results obtained using the original GPY method using weights given by (2.3).
 
-Remark. Tao gives an alternative approach to arrive at his equivalent of Proposition 4.1. His approach is to define$\lambda _ { d _ { 1 } , \dots , d _ { k } }$in terms of a suitable smooth function$f ( t _ { 1 } , \dots , t _ { k } )$as in (2.5). He then estimates the corresponding sums directly using Fourier integrals. This is somewhat similar to the original paper of Goldston, Pintz and Yıldırım [5]. Our function$F$corresponds to $f ( t _ { 1 } , \ldots , t _ { k } )$diferentiated with respect to each coordinate.
+Remark. Tao gives an alternative approach to arrive at his equivalent of Proposition 4.1. His approach is to define$\lambda _ { d _ { 1 } , \dots , d _ { k } }$in terms of a suitable smooth function$f ( t _ { 1 } , \dots , t _ { k } )$as in (2.5). He then estimates the corresponding sums directly using Fourier integrals. This is somewhat similar to the original paper of Goldston, Pintz and Yıldırım [5]. Our function$F$corresponds to $f ( t _ { 1 } , \ldots , t _ { k } )$differentiated with respect to each coordinate.
 
 ## 7. Choice of smooth weight for large k
 
@@ -728,7 +722,7 @@ $$
 F (t _ {1}, \ldots , t _ {k}) = \left\{ \begin{array}{l l} \prod_ {i = 1} ^ {k} g (k t _ {i}), & \text { if } \sum_ {i = 1} ^ {k} t _ {i} \leq 1, \\ 0, & \text { otherwise }, \end{array} \right.\tag{7.3}
 $$
 
-for some smooth function$g : [ 0 , \infty ]  \mathbb { R }$, supported on$[ 0 , T ]$. We see that with this choice F is symmetric, and so$J _ { k } ^ { ( m ) } ( F )$is independent of m. Thus we only need to consider$J _ { k } = J _ { k } ^ { ( 1 ) } ( F )$. Similarly we write$I _ { k } = I _ { k } ( F )$
+for some smooth function$g : [ 0 , \infty ] \to \mathbb { R }$, supported on$[ 0 , T ]$. We see that with this choice F is symmetric, and so$J _ { k } ^ { ( m ) } ( F )$is independent of m. Thus we only need to consider$J _ { k } = J _ { k } ^ { ( 1 ) } ( F )$. Similarly we write$I _ { k } = I _ { k } ( F )$
 
 The key observation is that if the center of mass$\begin{array} { r } { \int _ { 0 } ^ { \infty } u g ( u ) ^ { 2 } d u / \int _ { 0 } ^ { \infty } g ( u ) ^ { 2 } d u } \end{array}$ of$g ^ { 2 }$is strictly less than 1, then for large k we expect that the constraints $\textstyle \sum _ { i = 1 } ^ { k } t _ { i } \leq 1$to be able to be dropped at the cost of only a small error. This is because (by concentration of measure) the main contribution to the unrestricted integrals
 
@@ -758,14 +752,12 @@ $$
 
 We write the right-hand side of (7.5) as$J _ { k } ^ { \prime } - E _ { k }$, where
 
-(7.6)
-
 $$
-\begin{array}{l} J _ {k} ^ {\prime} = \int_ {t _ {2}, \ldots , t _ {k} \geq 0} \dots \int \Bigl (\int_ {0} ^ {T / k} \Bigl (\prod_ {i = 1} ^ {k} g (k t _ {i}) \Bigr) d t _ {1} \Bigr) ^ {2} d t _ {2} \dots d t _ {k} \\ = \Bigl (\int_ {0} ^ {\infty} g (k t _ {1}) d t _ {1} \Bigr) ^ {2} \Bigl (\int_ {0} ^ {\infty} g (k t) ^ {2} d t \Bigr) ^ {k - 1} = k ^ {- k - 1} \gamma^ {k - 1} \Bigl (\int_ {0} ^ {\infty} g (u) d u \Bigr) ^ {2}, \end{array}\tag{7.7}
+\begin{array}{l} J _ {k} ^ {\prime} = \int_ {t _ {2}, \ldots , t _ {k} \geq 0} \dots \int \Bigl (\int_ {0} ^ {T / k} \Bigl (\prod_ {i = 1} ^ {k} g (k t _ {i}) \Bigr) d t _ {1} \Bigr) ^ {2} d t _ {2} \dots d t _ {k} \\ = \Bigl (\int_ {0} ^ {\infty} g (k t _ {1}) d t _ {1} \Bigr) ^ {2} \Bigl (\int_ {0} ^ {\infty} g (k t) ^ {2} d t \Bigr) ^ {k - 1} = k ^ {- k - 1} \gamma^ {k - 1} \Bigl (\int_ {0} ^ {\infty} g (u) d u \Bigr) ^ {2}, \end{array}\tag{7.6}
 $$
 
 $$
-\begin{array}{l}E_{k} = \int \dots \int \\ \sum_{i = 2}^{k}t_{i} > 1 - T / k\\ = k^{-k - 1}\Big(\int_{0}^{\infty}g(u)du\Big)^{2}\int \dots \int \limits_{\substack{u_{2},\ldots ,u_{k}\geq 0\\ \sum_{i = 2}^{k}u_{i} > k - T}}\Big(\prod_{i = 2}^{k}g(u_{i})^{2}\Big)du_{2}\dots du_{k}. \end{array}
+\begin{array}{l}E_{k} = \int \dots \int \\ \sum_{i = 2}^{k}t_{i} > 1 - T / k\\ = k^{-k - 1}\Big(\int_{0}^{\infty}g(u)du\Big)^{2}\int \dots \int \limits_{\substack{u_{2},\ldots ,u_{k}\geq 0\\ \sum_{i = 2}^{k}u_{i} > k - T}}\Big(\prod_{i = 2}^{k}g(u_{i})^{2}\Big)du_{2}\dots du_{k}. \end{array}\tag{7.7}
 $$
 
 First we wish to show the error integral$E _ { k }$is small. We do this by comparison with a second moment. We expect the bound (7.13) for$E _ { k }$to be small if the center of mass of$g ^ { 2 }$is strictly less than$( k - T ) / ( k - 1 )$. Therefore we introduce the restriction on g that
@@ -774,16 +766,16 @@ $$
 \mu = \frac {\int_ {0} ^ {\infty} u g (u) ^ {2} d u}{\int_ {0} ^ {\infty} g (u) ^ {2} d u} <   1 - \frac {T}{k}.\tag{7.8}
 $$
 
-To simplify notation, we put$\begin{array} { r } { \eta = ( k - T ) / ( k - 1 ) - \mu > 0 . \mathrm { I f } \sum _ { i = 2 } ^ { k } u _ { i } > k - T } \end{array}$ then$\begin{array} { r } { \sum _ { i = 2 } ^ { k } u _ { i } > ( k - 1 ) ( \mu + \eta ) } \end{array}$, and so we have
+To simplify notation, we put$\eta = ( k - T ) / ( k - 1 ) - \mu > 0$. If $\sum _ { i = 2 } ^ { k } u _ { i } > k - T$, then$\begin{array} { r } { \sum _ { i = 2 } ^ { k } u _ { i } > ( k - 1 ) ( \mu + \eta ) } \end{array}$, and so we have
 
 $$
 1 \leq \eta^ {- 2} \Bigl (\frac {1}{k - 1} \sum_ {i = 2} ^ {k} u _ {i} - \mu \Bigr) ^ {2}.\tag{7.9}
 $$
 
-Since the right-hand side of (7.9) is nonnegative for all$u _ { i }$, we obtain an upper bound for$E _ { k }$if we multiply the integrand by$\textstyle \eta ^ { - 2 } ( \sum _ { i = 2 } ^ { k } u _ { i } / ( k - 1 ) - \mu ) ^ { 2 }$and then drop the requirement that$\textstyle \sum _ { i = 1 } ^ { k } u _ { i } > k - T$. This gives us (7.10)
+Since the right-hand side of (7.9) is nonnegative for all$u _ { i }$, we obtain an upper bound for$E _ { k }$if we multiply the integrand by$\textstyle \eta ^ { - 2 } ( \sum _ { i = 2 } ^ { k } u _ { i } / ( k - 1 ) - \mu ) ^ { 2 }$and then drop the requirement that$\textstyle \sum _ { i = 1 } ^ { k } u _ { i } > k - T$. This gives us
 
 $$
-E _ {k} \leq \eta^ {- 2} k ^ {- k - 1} \Bigl (\int_ {0} ^ {\infty} g (u) d u \Bigr) ^ {2} \int_ {0} ^ {\infty} \dots \int_ {0} ^ {\infty} \Bigl (\frac {\sum_ {i = 2} ^ {k} u _ {i}}{k - 1} - \mu \Bigr) ^ {2} \Bigl (\prod_ {i = 2} ^ {k} g (u _ {i}) ^ {2} \Bigr) d u _ {2} \dots d u _ {k}.
+E _ {k} \leq \eta^ {- 2} k ^ {- k - 1} \Bigl (\int_ {0} ^ {\infty} g (u) d u \Bigr) ^ {2} \int_ {0} ^ {\infty} \dots \int_ {0} ^ {\infty} \Bigl (\frac {\sum_ {i = 2} ^ {k} u _ {i}}{k - 1} - \mu \Bigr) ^ {2} \Bigl (\prod_ {i = 2} ^ {k} g (u _ {i}) ^ {2} \Bigr) d u _ {2} \dots d u _ {k}.\tag{7.10}
 $$
 
 We expand out the inner square. All the terms which are not of the form$u _ { j } ^ { 2 }$ we can calculate explicitly as an expression in$\mu$and$\gamma$. We find
@@ -822,16 +814,14 @@ $$
 g (t) = \frac {1}{2 \alpha + 2 \beta t} \qquad \mathrm{for} 0 \leq t \leq T.\tag{7.16}
 $$
 
-Since the ratio we wish to maximize is unafected if we multiply g by a positive constant, we restrict our attention to functions g of the form$1 / ( 1 + A t )$for $t \in [ 0 , T ]$and for some constant$A > 0$. With this choice of$g$we find that
-
-(7.17)
+Since the ratio we wish to maximize is unaffected if we multiply g by a positive constant, we restrict our attention to functions g of the form$1 / ( 1 + A t )$for $t \in [ 0 , T ]$and for some constant$A > 0$. With this choice of$g$we find that
 
 $$
-\int_ {0} ^ {T} g (u) d u = \frac {\log (1 + A T)}{A}, \quad \int_ {0} ^ {T} g (u) ^ {2} d u = \frac {1}{A} \left(1 - \frac {1}{1 + A T}\right),\tag{7.18}
+\int_ {0} ^ {T} g (u) d u = \frac {\log (1 + A T)}{A}, \quad \int_ {0} ^ {T} g (u) ^ {2} d u = \frac {1}{A} \left(1 - \frac {1}{1 + A T}\right),\tag{7.17}
 $$
 
 $$
-\int_ {0} ^ {T} u g (u) ^ {2} d u = \frac {1}{A ^ {2}} \Bigl (\log (1 + A T) - 1 + \frac {1}{1 + A T} \Bigr).
+\int_ {0} ^ {T} u g (u) ^ {2} d u = \frac {1}{A ^ {2}} \Bigl (\log (1 + A T) - 1 + \frac {1}{1 + A T} \Bigr).\tag{7.18}
 $$
 
 We choose$T$such that$1 + A T = e ^ { A }$(which is close to optimal). With this choice we find that$\mu = 1 / ( 1 - e ^ { - A } ) - A ^ { - 1 }$and$T \le e ^ { A } / A$. Thus$1 - T / k - \mu \geq$ $A ^ { - 1 } ( 1 - A / ( e ^ { A } - 1 ) - e ^ { A } / k )$. Substituting (7.17) into (7.14), and then using these expressions, we find that
@@ -840,19 +830,19 @@ $$
 \frac {k J _ {k}}{I _ {k}} \geq \frac {A}{1 - e ^ {- A}} \left(1 - \frac {T}{k (1 - T / k - \mu) ^ {2}}\right) \geq A \left(1 - \frac {A e ^ {A}}{k (1 - A / (e ^ {A} - 1) - e ^ {A} / k) ^ {2}}\right),\tag{7.19}
 $$
 
-provided the right-hand side is positive. Finally, we choose$A \ = \ \log k \ -$ 2 log log$k > 0$. For k suficiently large, we have
+provided the right-hand side is positive. Finally, we choose$A \ = \ \log k \ -$ 2 log log$k > 0$. For k sufficiently large, we have
 
 $$
 1 - \frac {T}{k} - \mu \geq A ^ {- 1} \left(1 - \frac {(\log k) ^ {3}}{k} - \frac {1}{(\log k) ^ {2}}\right) > 0,\tag{7.20}
 $$
 
-and so$\mu < 1 - T / k$, as required by our constraint (7.8). This choice of A gives (7.21)
+and so$\mu < 1 - T / k$, as required by our constraint (7.8). This choice of A gives
 
 $$
-M _ {k} \geq \frac {k J _ {k}}{I _ {k}} \geq (\log k - 2 \log \log k) \left(1 - \frac {\log k}{(\log k) ^ {2} + O (1)}\right) \geq \log k - 2 \log \log k - 2
+M _ {k} \geq \frac {k J _ {k}}{I _ {k}} \geq (\log k - 2 \log \log k) \left(1 - \frac {\log k}{(\log k) ^ {2} + O (1)}\right) \geq \log k - 2 \log \log k - 2\tag{7.21}
 $$
 
-when k is suficiently large.
+when k is sufficiently large.
 
 ## 8. Choice of weight for small k
 
@@ -934,9 +924,7 @@ $$
 \begin{array}{l} I _ {k} (F) = \int_ {\mathcal {R} _ {k}} \dots \int P ^ {2} d t _ {1} \dots d t _ {k} \\ \qquad = \sum_ {1 \leq i, j \leq d} a _ {i} a _ {j} \int_ {\mathcal {R} _ {k}} \dots \int (1 - P _ {1}) ^ {b _ {i} + b _ {j}} P _ {2} ^ {c _ {i} + c _ {j}} d t _ {1} \dots d t _ {k} \\ \qquad = \sum_ {1 \leq i, j \leq d} a _ {i} a _ {j} \frac {(b _ {i} + b _ {j}) ! G _ {c _ {i} + c _ {j} , 2} (k)}{(k + b _ {i} + b _ {j} + 2 c _ {i} + 2 c _ {j}) !}. \end{array}\tag{8.7}
 $$
 
-We now consider$J _ { k } ^ { ( m ) } ( F )$. Since$F$is symmetric in$t _ { 1 } , \ldots , t _ { k }$, we see that $J _ { k } ^ { ( m ) } ( F )$is independent of$m _ { : }$and so it sufices to only consider$J _ { k } ^ { ( 1 ) } ( F )$. We
-
-have
+We now consider$J _ { k } ^ { ( m ) } ( F )$. Since$F$is symmetric in$t _ { 1 } , \ldots , t _ { k }$, we see that $J _ { k } ^ { ( m ) } ( F )$is independent of$m _ { : }$and so it suffices to only consider$J _ { k } ^ { ( 1 ) } ( F )$. We have
 
 $$
 \begin{array}{l} \int_ {0} ^ {1 - \sum_ {i = 2} ^ {k} t _ {i}} (1 - P _ {1}) ^ {b} P _ {2} ^ {c} d t _ {1} \\ \qquad = \sum_ {c ^ {\prime} = 0} ^ {c} \binom {c} {c ^ {\prime}} \left(\sum_ {i = 2} ^ {k} t _ {i} ^ {2}\right) ^ {c ^ {\prime}} \int_ {0} ^ {1 - \sum_ {i = 2} ^ {k} t _ {i}} \left(1 - \sum_ {i = 1} ^ {k} t _ {i}\right) ^ {b} t _ {1} ^ {2 c - 2 c ^ {\prime}} d t _ {1} \\ \qquad = \sum_ {c ^ {\prime} = 0} ^ {c} \binom {c} {c ^ {\prime}} (P _ {2} ^ {\prime}) ^ {c ^ {\prime}} (1 - P _ {1} ^ {\prime}) ^ {b + 2 c - 2 c ^ {\prime} + 1} \int_ {0} ^ {1} (1 - u) ^ {b} u ^ {2 c - 2 c ^ {\prime}} d u \\ \qquad = \sum_ {c ^ {\prime} = 0} ^ {c} \binom {c} {c ^ {\prime}} (P _ {2} ^ {\prime}) ^ {c ^ {\prime}} (1 - P _ {1} ^ {\prime}) ^ {b + 2 c - 2 c ^ {\prime} + 1} \frac {b ! (2 c - 2 c ^ {\prime}) !}{(b + 2 c - 2 c ^ {\prime} + 1) !}, \end{array}\tag{8.8}
@@ -956,7 +944,7 @@ $$
 
 Combining (8.9) and (8.10) gives the result.
 
-We see from Lemma 8.2 that$I _ { k } ( F )$and$\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F )$can both be expressed as quadratic forms in the coeficients$\mathbf { a } = ( a _ { 1 } , \ldots , a _ { d } )$of P. Moreover, these will be positive definite real quadratic forms. Thus, in particular, we find that
+We see from Lemma 8.2 that$I _ { k } ( F )$and$\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F )$can both be expressed as quadratic forms in the coefficients$\mathbf { a } = ( a _ { 1 } , \ldots , a _ { d } )$of P. Moreover, these will be positive definite real quadratic forms. Thus, in particular, we find that
 
 $$
 \frac {\sum_ {m = 1} ^ {k} J _ {k} ^ {(m)} (F)}{I _ {k} (F)} = \frac {\mathbf {a} ^ {T} A _ {2} \mathbf {a}}{\mathbf {a} ^ {T} A _ {1} \mathbf {a}},\tag{8.11}
@@ -968,7 +956,7 @@ $$
 \frac {\mathbf {a} ^ {T} A _ {2} \mathbf {a}}{\mathbf {a} ^ {T} A _ {1} \mathbf {a}}
 $$
 
-Lemma 8.3. Let$A _ { 1 } , A _ { 2 }$be real, symmetric positive definite matrices. Then is maximized when a is an eigenvector of$A _ { 1 } ^ { - 1 } A _ { 2 }$corresponding to the largest eigenvalue of$A _ { 1 } ^ { - 1 } A _ { 2 }$. The value of the ratio at its maximum is this largest eigenvalue.
+Lemma 8.3. Let$A _ { 1 } , A _ { 2 }$be real, symmetric positive definite matrices. Then $\frac {\mathbf { a } ^ { T } A _ { 2 } \mathbf { a } }{\mathbf { a } ^ { T } A _ { 1 } \mathbf { a } }$ is maximized when a is an eigenvector of$A _ { 1 } ^ { - 1 } A _ { 2 }$corresponding to the largest eigenvalue of$A _ { 1 } ^ { - 1 } A _ { 2 }$. The value of the ratio at its maximum is this largest eigenvalue.
 
 Proof. We see that multiplying a by a nonzero scalar does not change the ratio, so we may assume without loss of generality that$\mathbf { a } ^ { T } A _ { 1 } \mathbf { a } = 1$. By the theory of Lagrangian multipliers,$\mathbf { a } ^ { T } A _ { 2 } \mathbf { a }$is maximized subject to$\mathbf { a } ^ { T } A _ { 1 } \mathbf { a } = 1$ when
 
@@ -988,37 +976,37 @@ $$
 A _ {1} ^ {- 1} A _ {2} \mathbf {a} = \lambda \mathbf {a}.\tag{8.14}
 $$
 
-It then is clear that$\mathbf { a } ^ { T } A _ { 1 } \mathbf { a } = \lambda ^ { - 1 } \mathbf { a } ^ { T } A _ { 2 } \mathbf { a }$
+It then is clear that$\mathbf { a } ^ { T } A _ { 1 } \mathbf { a } = \lambda ^ { - 1 } \mathbf { a } ^ { T } A _ { 2 } \mathbf { a }$.
 
-Proof of parts (1) and (2) of Proposition 4.3.To establish Proposition 4.3 we rely on some computer calculation to calculate a lower bound for$M _ { k }$. We let $F$be given in terms of a polynomial P by (8.1). We let$P$be given by a polynomial expression in$\textstyle P _ { 1 } = \sum _ { i = 1 } ^ { k } t _ { i }$and$\textstyle P _ { 2 } = \sum _ { i = 1 } ^ { k } t _ { i } ^ { 2 }$which is a linear combination of all monomials$( 1 - P _ { 1 } ) ^ { b } P _ { 2 } ^ { c }$with$b + 2 c \leq 1 1$. There are 42 such monomials, and with$k = 1 0 5$we can calculate the$4 2 \times 4 2$rational symmetric matrices $A _ { 1 }$and$A _ { 2 }$corresponding to the coeficients of the quadratic forms$I _ { k } ( F )$and $\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F )$. We then$\mathrm { f i n d ^ { 3 } }$that the largest eigenvalue of$A _ { 1 } ^ { - 1 } A _ { 2 }$is
+Proof of parts (1) and (2) of Proposition 4.3. To establish Proposition 4.3 we rely on some computer calculation to calculate a lower bound for$M _ { k }$. We let $F$be given in terms of a polynomial P by (8.1). We let$P$be given by a polynomial expression in$\textstyle P _ { 1 } = \sum _ { i = 1 } ^ { k } t _ { i }$and$\textstyle P _ { 2 } = \sum _ { i = 1 } ^ { k } t _ { i } ^ { 2 }$which is a linear combination of all monomials$( 1 - P _ { 1 } ) ^ { b } P _ { 2 } ^ { c }$with$b + 2 c \leq 11$. There are 42 such monomials, and with$k = 105$we can calculate the $42 \times 42$ rational symmetric matrices $A _ { 1 }$and$A _ { 2 }$corresponding to the coefficients of the quadratic forms$I _ { k } ( F )$and $\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F )$. We then find$^3$ that the largest eigenvalue of$A _ { 1 } ^ { - 1 } A _ { 2 }$is
 
 $$
-\lambda \approx 4. 0 0 2 0 6 9 7 \dots > 4.\tag{8.15}
+\lambda \approx 4.0020697 \dots > 4.\tag{8.15}
 $$
 
-Thus$M _ { 1 0 5 } > 4$. This verifies part (2) of Proposition 4.3. We comment that by taking a rational approximation to the corresponding eigenvector, we can verify this lower bound by calculating the ratio$\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F ) / I _ { k } ( F )$using only exact arithmetic.
+Thus$M _ { 105 } > 4$. This verifies part (2) of Proposition 4.3. We comment that by taking a rational approximation to the corresponding eigenvector, we can verify this lower bound by calculating the ratio$\textstyle \sum _ { m = 1 } ^ { k } J _ { k } ^ { ( m ) } ( F ) / I _ { k } ( F )$using only exact arithmetic.
 
 For part (1) of Proposition 4.3, we take$k = 5$and
 
 $$
-P = (1 - P _ {1}) P _ {2} + \frac {7}{1 0} (1 - P _ {1}) ^ {2} + \frac {1}{1 4} P _ {2} - \frac {3}{1 4} (1 - P _ {1}).\tag{8.16}
+P = (1 - P _ {1}) P _ {2} + \frac {7}{10} (1 - P _ {1}) ^ {2} + \frac {1}{14} P _ {2} - \frac {3}{14} (1 - P _ {1}).\tag{8.16}
 $$
 
 With this choice we find that
 
 $$
-M _ {5} \geq \frac {\sum_ {m = 1} ^ {k} J _ {k} ^ {(m)} (F)}{I _ {k} (F)} = \frac {1 4 1 7 2 5 5}{7 0 8 2 1 6} > 2.\tag{8.17}
+M _ {5} \geq \frac {\sum_ {m = 1} ^ {k} J _ {k} ^ {(m)} (F)}{I _ {k} (F)} = \frac {1417255}{708216} > 2.\tag{8.17}
 $$
 
 This completes the proof of Proposition 4.3.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>An ancillary Mathematica <sup>R</sup> file detailing these computations is available alongside this paper at www.arxiv.org.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>An ancillary Mathematica® file detailing these computations is available alongside this paper at www.arxiv.org.</span></small>
 
 ## 9. Acknowledgements
 
 The author would like to thank Andrew Granville, Roger Heath-Brown, Dimitris Koukoulopoulos and Terence Tao for many useful conversations and suggestions.
 
-The work leading to this paper was started whilst the author was a D.Phil student at Oxford and funded by the EPSRC (Doctoral Training Grant EP/P505216/1), and it was finished when the author was a CRM-ISM post-doctoral fellow at the Universit´e de Montr´eal.
+The work leading to this paper was started whilst the author was a D.Phil student at Oxford and funded by the EPSRC (Doctoral Training Grant EP/P505216/1), and it was finished when the author was a CRM-ISM post-doctoral fellow at the Université de Montréal.
 
 ## References
 
@@ -1032,7 +1020,7 @@ The work leading to this paper was started whilst the author was a D.Phil studen
 
 [5] D. A. Goldston, J. Pintz, and C. Y. Yıldırım, Primes in tuples. I, Ann. of Math. 170 (2009), 819–862. MR 2552109. Zbl 1207.11096. http://dx.doi.org/10.4007/annals.2009.170.819.
 
-[6] D. A. Goldston, J. Pintz, and C. Y. Yıldırım, Primes in tuples. III. On the diference p<sub>n+ν</sub> − p<sub>n</sub>, Funct. Approx. Comment. Math. 35 (2006), 79–89. MR 2271608. Zbl 1196.11123. http://dx.doi.org/10.7169/facm/1229442618.
+[6] D. A. Goldston, J. Pintz, and C. Y. Yıldırım, Primes in tuples. III. On the difference $p _ { n + \nu } - p _ { n }$, Funct. Approx. Comment. Math. 35 (2006), 79–89. MR 2271608. Zbl 1196.11123. http://dx.doi.org/10.7169/facm/1229442618.
 
 [7] D. H. J. Polymath, New equidistribution estimates of Zhang type, and bounded gaps between primes, preprint. arXiv 1402.0811.
 
@@ -1040,4 +1028,6 @@ The work leading to this paper was started whilst the author was a D.Phil studen
 
 [9] Y. Zhang, Bounded gaps between primes, Ann. of Math. 179 (2014), 1121–1174. MR 3171761. Zbl 06302171. http://dx.doi.org/10.4007/annals.2014.179.3.7.
 
-Magdalen College<sub>,</sub> Oxford<sub>,</sub> United Kingdom E-mail : james.alexander.maynard@gmail.com
+(Received: January 3, 2014) (Revised: March 11, 2014)
+
+Magdalen College, Oxford, United Kingdom E-mail : james.alexander.maynard@gmail.com
