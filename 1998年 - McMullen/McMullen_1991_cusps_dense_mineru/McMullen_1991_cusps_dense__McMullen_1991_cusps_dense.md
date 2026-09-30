@@ -116,7 +116,7 @@ Proof. Over the interior of its closure we have a holomorphically varying family
 
 (See [Sh., Cor. 1] for another proof.)
 
-We now recall a theorem of [Bel]:
+We now recall a theorem of [Be1]:
 
 COROLLARY 1.5. The boundary of Teichmüller space contains a dense $G_{\delta}$ consisting of totally degenerate groups.
 
@@ -140,7 +140,7 @@ Proof. Let Y be a point in Teichmüller space, S a maximal system of disjoint si
 
 Idea of the proof of Theorem 1.2. Given a quasifuchsian group $\Gamma_{Y}$, normalize so that a point in the component uniformizing $\overline{X}$ is at infinity, and the Poincaré metric at infinity matches the spherical metric. Then the limit set has universally bounded diameter; so the total area it encloses is bounded, and the distortion of projective structure at infinity is proportional (by a fixed constant) to $\int \mu dz^2$, where $\mu$ is a group-invariant Beltrami differential, and $dz^2$ is the standard quadratic differential in the plane.
 
-The thin part of Y has cyclic fundamental group; to each component of its lift to the plane there corresponds a Möbius transformation  $\gamma$  with small translation length in hyperbolic space. By invariance under  $\gamma$, the Beltrami differential  $\mu$  is forced to swirl quite a bit. For example,  $\mu$  might be a constant multiple of the line field shown in Figure 2 (next page), which is invariant under a loxodromic transformation with small translation. This swirling causes inefficiency (cancellation) in the integral (that is,  $|f\mu dz^{2}| \ll f|\mu|dz|^{2}$ ).
+The thin part of Y has cyclic fundamental group; to each component of its lift to the plane there corresponds a Möbius transformation  $\gamma$  with small translation length in hyperbolic space. By invariance under  $\gamma$, the Beltrami differential  $\mu$  is forced to swirl quite a bit. For example,  $\mu$  might be a constant multiple of the line field shown in Figure 2 (next page), which is invariant under a loxodromic transformation with small translation. This swirling causes inefficiency (cancellation) in the integral (that is,  $|\int \mu \, dz^{2}| \ll \int |\mu| \, |dz|^{2}$ ).
 
 To each short  $\gamma$ , associate a region in the plane on which there is some definite inefficiency due to swirling. The Margulis lemma forces these regions to be scattered about independent of one another. One finds that the local inefficiencies fit together without conflict to give the desired global estimate.
 
@@ -374,11 +374,11 @@ $$
 \mathcal {L} = \ell + i \theta , \quad \ell > 0
 $$
 
-be a complex translation length, and let  $\gamma$  be a Möbius transformation with translation length L. This means  $\gamma$  stabilizes a geodesic in hyperbolic 3-space, translates points on the geodesic by distance l, and twists a normal plane by angle  $\theta$ . Notice that  $\gamma$  determines  $\theta$  only up to a multiple of  $2\pi$ .
+be a complex translation length, and let  $\gamma$  be a Möbius transformation with translation length $\mathcal{L}$. This means  $\gamma$  stabilizes a geodesic in hyperbolic 3-space, translates points on the geodesic by distance $\ell$, and twists a normal plane by angle  $\theta$ . Notice that  $\gamma$  determines  $\theta$  only up to a multiple of  $2\pi$ .
 
 Let $\Omega \subset \hat{\mathbf{C}}$ be the complement of the fixed points of $\gamma$; then $\Omega / \gamma = T$ is a complex torus. We give $T$ its usual flat metric (well-defined up to scale).
 
-Using L, we can include  $\gamma$  in a 1-parameter group of translations of length  $tL$ ,  $t \in R$ ; letting t range in [0, 1], we obtain a path connecting p to  $\gamma(p)$  for any  $p \in \Omega$ , which descends to a well-defined homotopy class  $[\gamma] \in \pi_{1}(T)$ . Conversely, the choice of a representative in the  $\gamma$ -coset of  $\pi_{1}(T)$  determines L uniquely.
+Using $\mathcal{L}$, we can include  $\gamma$  in a 1-parameter group of translations of length  $t\mathcal{L}$ ,  $t \in \mathbf{R}$ ; letting t range in [0, 1], we obtain a path connecting p to  $\gamma(p)$  for any  $p \in \Omega$ , which descends to a well-defined homotopy class  $[\gamma] \in \pi_{1}(T)$ . Conversely, the choice of a representative in the  $\gamma$ -coset of  $\pi_{1}(T)$  determines $\mathcal{L}$ uniquely.
 
 An annulus has modulus M if it is conformally isomorphic to a right cylinder of radius 1 and height M (equivalently the region  $1 < |z| < \log M$ ).
 
@@ -554,7 +554,7 @@ PROPOSITION 3.3. Let $E$ be a $\gamma$-invariant subset of $\hat{\mathbf{C}}$, d
 
 1. $\operatorname{diam}_p(B) \leq O(\operatorname{diam}_p(E))$.
 
-2. There is a constant $\dot{C} > 0$ such that if
+2. There is a constant $C > 0$ such that if
 
 $$
 \max _ {e \in E} \operatorname{dist} _ {p} (e, B) <   C \operatorname{diam} _ {p} (B),
@@ -598,10 +598,8 @@ $$
 
 then
 
-(3.1)
-
 $$
-\left\| \Theta_ {B / A} (\phi) \right\| = \int_ {C _ {0}} | \Psi | | d s | ^ {2}
+\left\| \Theta_ {B / A} (\phi) \right\| = \int_ {C _ {0}} | \Psi | | d s | ^ {2}\tag{3.1}
 $$
 
 where
@@ -788,7 +786,7 @@ Our original proof of Proposition 3.4 takes this expression as its point of depa
 
 ## 4. Organizing the sphere at infinity
 
-This section analyzes the intersections between various  $B(\gamma)$  for  $\gamma \in \Gamma_{\gamma}$ . The idea is to organize the support of a  $\Gamma_{\gamma}$ -invariant deformation  $\mu$  into various disjoint regions, each stabilized by a particular group element, on which a definite inefficiency is apparent by the results of the preceding section. The argument rests on the disjointness of Margulis tubes about short geodesics.
+This section analyzes the intersections between various  $B(\gamma)$  for  $\gamma \in \Gamma_{Y}$ . The idea is to organize the support of a  $\Gamma_{Y}$ -invariant deformation  $\mu$  into various disjoint regions, each stabilized by a particular group element, on which a definite inefficiency is apparent by the results of the preceding section. The argument rests on the disjointness of Margulis tubes about short geodesics.
 
 A simpler covering argument would lead to the bound  $O(L^{\alpha})$  in Theorem 1.2, which is sufficient for all the qualitative corollaries we derive in the introduction. On the other hand, by finding disjoint regions we are able to exploit the full power of Theorem 3.1 (Inefficiency from swirling), leading to a bound which is close to sharp.
 
@@ -817,7 +815,7 @@ PROPOSITION 4.1. Let $B = B(\gamma, \mathcal{L}, m; p)$. Then there is an $r$-tu
 Proof. Let
 
 $$
-r = \dot {C} + \log (1 / | m _ {\mathcal {L}} |);
+r = C + \log (1 / | m \mathcal {L} |);
 $$
 
 we claim (1-3) hold if we fix $C$ sufficiently large. (Remark: $|m\mathcal{L}| = O(1)$ so that $r > 0$ for $C$ large.)
@@ -844,7 +842,7 @@ Remark. When r is large, an r-tube for  $\gamma$  is well-approximated (in the u
 
 ## 4.2. Scattered sets.
 
-Definitions. Let S be a collection of nonempty open sets in a metric space. S is  $\alpha$ -scattered if for distinct  $S, S' \in S$ ,
+Definitions. Let $\mathcal{S}$ be a collection of nonempty open sets in a metric space. $\mathcal{S}$ is  $\alpha$ -scattered if for distinct  $S, S' \in \mathcal{S}$ ,
 
 $$
 d (S, S ^ {\prime}) \leq \operatorname{diam} (S) \Rightarrow \frac {\operatorname{diam} (S)}{\operatorname{diam} (S ^ {\prime})} \text { is } <   \alpha \text { or } > 1 / \alpha ,
@@ -852,9 +850,9 @@ $$
 
 where $0 < \alpha < 1$. Here $d(S, S')$ denotes the minimum distance between points in $S$ and $S'$. Intuitively, nearby sets have disproportionate size.
 
-When S is scattered,  $\cup S$  tends to be disconnected; any connected component of the union is dominated by a single member.
+When $\mathcal{S}$ is scattered,  $\cup \mathcal{S}$  tends to be disconnected; any connected component of the union is dominated by a single member.
 
-THEOREM 4.2 (Scattered domination). Let S be α-scattered, with ∪ S a connected bounded set. Then for α < 1/3, ∪ S is contained in a  $3\alpha \times \text{diam}(S_{0})$  neighborhood of some single  $S_{0} \in S$ .
+THEOREM 4.2 (Scattered domination). Let $\mathcal{S}$ be α-scattered, with $\cup \mathcal{S}$ a connected bounded set. Then for α < 1/3, $\cup \mathcal{S}$ is contained in a  $3\alpha \times \text{diam}(S_{0})$  neighborhood of some single  $S_{0} \in \mathcal{S}$ .
 
 Proof. Choose $S_0$ so that $\mathrm{diam}(S_0) > \sup_{\mathcal{S}} \mathrm{diam}(S)/2$.
 
@@ -894,11 +892,9 @@ $$
 
 since $d_{i} < \alpha d_{0}$.
 
-$$
-\text {   Finally   } d _ {0} \Sigma_ {1} ^ {\infty} 2 ^ {k - 1} \alpha^ {k} = d _ {0} \alpha / (1 - 2 \alpha) <   3 \alpha d _ {0} \text {   for   } \alpha <   1 / 3.
-$$
+Finally $d _ {0} \sum_ {1} ^ {\infty} 2 ^ {k - 1} \alpha^ {k} = d _ {0} \alpha / (1 - 2 \alpha) < 3 \alpha d _ {0}$ for $\alpha < 1 / 3$. □
 
-Examples. Scattered sets arise naturally as shadows in hyperbolic geometry. Let B be a collection of unit balls in hyperbolic space. Assume the hyperbolic distance between distinct balls in B is at least D. Let S denote the collection of shadows from  $\infty \in \hat{C}$  of balls in B. Then for D large, S is an  $\alpha$ -scattered collection of subsets of C, where  $\alpha = O(\exp(-D))$  (see Figure 4).
+Examples. Scattered sets arise naturally as shadows in hyperbolic geometry. Let $\mathcal{B}$ be a collection of unit balls in hyperbolic space. Assume the hyperbolic distance between distinct balls in $\mathcal{B}$ is at least D. Let $\mathcal{S}$ denote the collection of shadows from  $\infty \in \hat{C}$  of balls in $\mathcal{B}$. Then for D large, $\mathcal{S}$ is an  $\alpha$ -scattered collection of subsets of C, where  $\alpha = O(\exp(-D))$  (see Figure 4).
 
 ![](images/page_23_image_5.jpg)
 
@@ -1026,7 +1022,7 @@ The lift of $\mu$ to $\Omega(Y)$ is a $\Gamma_{Y}$-invariant form which we conti
 
 Let $p$ be any point in $\Omega(\overline{X})$, $z_p$ an affine coordinate such that $p$ is at infinity.
 
-Let G denote those geodesics in  $H^{3}/\Gamma_{Y}$  which correspond to geodesics of length less than L on Y. Orient the elements of G (in any way). Each geodesic g has a natural complex translation length  $\mathcal{L}(g)$ . By Proposition 5.1,
+Let $\mathcal{G}$ denote those geodesics in  $H^{3}/\Gamma_{Y}$  which correspond to geodesics of length less than L on Y. Orient the elements of $\mathcal{G}$ (in any way). Each geodesic g has a natural complex translation length  $\mathcal{L}(g)$ . By Proposition 5.1,
 
 $$
 M = 2 \pi^ {2} / L \leq 4 \pi^ {2} \operatorname{Re} \left(1 / \mathscr {L} (g)\right)
@@ -1078,7 +1074,7 @@ $$
 
 But every $B_{i}$ meets the limit set and thus the same bound holds for $\mathrm{diam}_p(\bigcup B_i)$. Now bound the area by the square of the diameter.
 
-For L sufficiently small, we may apply Theorem 4.5 (Invariant partition) to obtain a covering of  $\cup B_{i}$  by disjoint sets  $E_{j}$ . For each j, there exist a  $\gamma, L$  among the original  $\langle\gamma_{i},\mathscr{L}_{i}\rangle$  with  $\gamma(E_{j})=E_{j}$  and
+For L sufficiently small, we may apply Theorem 4.5 (Invariant partition) to obtain a covering of  $\cup B_{i}$  by disjoint sets  $E_{j}$ . For each j, there exist a  $\gamma, \mathscr{L}$  among the original  $\langle\gamma_{i},\mathscr{L}_{i}\rangle$  with  $\gamma(E_{j})=E_{j}$  and
 
 $$
 B (\gamma , \mathscr {L}, m, p) \subset E _ {j} \subset B (\gamma , \mathscr {L}, m / 2, p) =: B.
@@ -1156,9 +1152,9 @@ PRINCETON UNIVERSITY, PRINCETON, NEW JERSEY
 
 [N] Z. NEHARI, Schwarzian derivatives and schlicht functions, Bull. AMS 55 (1949), 545–551.
 
-[P] H. POINCARE, Mémoire sur les fonctions Fuchsiennes, Acta Math. 1 (1882/3), 193–294.
+[P] H. POINCARÉ, Mémoire sur les fonctions Fuchsiennes, Acta Math. 1 (1882/3), 193–294.
 
-[Sh] H. SHICA, On analytic and geometric properties of Teichmüller spaces, J. Math. Kyoto Univ. 24 (1984), 441–452.
+[Sh] H. SHIGA, On analytic and geometric properties of Teichmüller spaces, J. Math. Kyoto Univ. 24 (1984), 441–452.
 
 [Su1] D. SULLIVAN, On the ergodic theory at infinity of an arbitrary discrete group of hyperbolic motions, in Riemann Surfaces and Related Topics: Proc. 1978 Stony Brook Conf., Ann. of Math. Studies 97, Princeton, 1981.
 
