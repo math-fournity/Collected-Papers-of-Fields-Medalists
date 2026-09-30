@@ -186,3 +186,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 20:40 | DONE | DC laudatio | 24/24 | U+FFFD41+↔4+缺空格族已修复 | 累计41/140
 2026-09-29 20:40 | COMMIT | DC laudatio 闭环
 2026-09-29 20:50 | PAGE | Maynard laudatio | p.1-15/15 | U+FFFD~95修复；[49]待补 | 累计41+1篇进行中
+2026-09-29 20:52 | DONE | Maynard laudatio | 15/15 | U+FFFD~95+[49]已修复 | 累计42/140
+2026-09-29 20:52 | COMMIT | Maynard laudatio 闭环

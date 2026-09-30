@@ -56,3 +56,7 @@
 - 源级 typo（忠实不改）：no more that 4 times、in the 2005、"diference"（如 ff 家族一致登记）。
 - ff→f 家族（efective ×8/diference/diferent）登记不改。
 - 本篇 15/15 页完成，无未决项（[49] 待补）。
+
+### 登记更正（2026-09-29）
+- [49] Zhang (Ann. of Math. (2) 179 (2014), no. 3, 1121–1174) 已从 p.15 PNG/文本层补入。
+- 本篇 15/15 页完成，无未决项。
