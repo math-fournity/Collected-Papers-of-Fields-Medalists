@@ -14,7 +14,7 @@ $$
 
 is a double covering, where C and  $\tilde{C}$  are nonsingular complete curves with Jacobians J and  $\tilde{J}$ . The involution  $\iota\colon\tilde{C}\longrightarrow\tilde{C}$  interchanging sheets extends to  $\iota\colon\tilde{J}\longrightarrow\tilde{J}$ , and up to some points of order two,  $\tilde{J}$  splits into an even part J and an odd part P, the Prym variety. The Prym P has a natural polarization on it, but only in two cases—where  $\pi$  has zero or two branch points—do we get a unique principal polarization on P, hence a theta divisor  $\Xi\subset P$ . This is discussed in the first part of this paper (Sections 1–3).
 
-The surprise comes, however, on a closer analysis of the relations between the theta divisors $\Theta \subset J$ and $\widetilde{\Theta} \subset \tilde{J}$: It turns out that they are related in a much tighter way than would be expected from looking only at the configuration of Abelian varieties and homomorphisms present. In the case of zero or two branch points this leads finally to identities relating $(J, \Theta)$ and $(P, \Xi)$ discovered by Schottky and Jung [15] (cf. also Riemann [13] and Farkas and Rauch [3]). The point is that the existence of any $(P, \Xi)$ standing in this relation to $(J, \Theta)$ means that if $g \geqslant 4$, $J$ is not the most general Abelian variety of dimension $g!$. Unfortunately, an efficient method of translating this into an equivalent polynomial identity on the theta nulls of $J$ is only known at present for $g = 4$. These matters are discussed in the second part of this paper (Sections 4 and 5).
+The surprise comes, however, on a closer analysis of the relations between the theta divisors $\Theta \subset J$ and $\widetilde{\Theta} \subset \tilde{J}$: It turns out that they are related in a much tighter way than would be expected from looking only at the configuration of Abelian varieties and homomorphisms present. In the case of zero or two branch points this leads finally to identities relating $(J, \Theta)$ and $(P, \Xi)$ discovered by Schottky and Jung [15] (cf. also Riemann [13] and Farkas and Rauch [3]). The point is that the existence of any $(P, \Xi)$ standing in this relation to $(J, \Theta)$ means that if $g \geqslant 4$, $J$ is not the most general Abelian variety of dimension $g$! Unfortunately, an efficient method of translating this into an equivalent polynomial identity on the theta nulls of $J$ is only known at present for $g = 4$. These matters are discussed in the second part of this paper (Sections 4 and 5).
 
 In the other direction, the curves C and  $\tilde{C}$  and their geometry can be used to compute things about P. The importance of this is that it is usually quite hard to make detailed computations on the geometry of the theta divisor in a general principally polarized n-dimensional Abelian variety [which has  $\frac{1}{2}n(n+1)$  moduli]; those which are Jacobians of curves of genus n (with 3n-3 moduli) are much better understood. However, by taking the Pryms for unramified double coverings  $\tilde{C}\longrightarrow C$ , genus
 
@@ -28,13 +28,17 @@ k the algebraically closed ground field: always of char. ≠2
 
 $\mathbb{R}(X)$ field of rational functions on a variety $X$
 
-$\operatorname{Pic}(X)$ group of divisor classes, line bundles, or invertible sheaves on a variety $X$$\operatorname{Pic}^0 (X)$ connected component of $0\in \operatorname {Pic}(X)$
+$\operatorname{Pic}(X)$ group of divisor classes, line bundles, or invertible sheaves on a variety $X$
+
+$\operatorname{Pic}^0 (X)$ connected component of $0\in \operatorname {Pic}(X)$
 
 $\hat{X}$ another notation for $\operatorname{Pic}^{0}(X)$ if X is an Abelian variety (called the “dual” Abelian variety)
 
 $\lambda_{D}\colon X\xrightarrow{\quad}\hat{X}$ the homomorphism $x\longmapsto$ [divisor class of $T_x^{-1}D - D]$, where $D$ is a divisor on an Abelian variety $X$
 
-A polarization of an Abelian variety X is a homomorphism  $\lambda: X \longrightarrow \hat{X}$  such that  $\lambda - \lambda_{D}$  for some ample D: in this case D is determined modulo  $\operatorname{Pic}^{0}(X)$ ;  $\lambda$  is a principle polarization if  $\lambda$  is also an isomorphism, in which case  $\lambda = \lambda_{D}$  for a positive ample D, unique up to a translation. (See my book [10] for a general reference for the facts on Abelian varieties.)
+A polarization of an Abelian variety X is a homomorphism  $\lambda: X \longrightarrow \hat{X}$  such that  $\lambda = \lambda_{D}$  for some ample D: in this case D is determined modulo  $\operatorname{Pic}^{0}(X)$ ;  $\lambda$  is a principle polarization if  $\lambda$  is also an isomorphism, in which case  $\lambda = \lambda_{D}$  for a positive ample D, unique up to a translation. (See my book [10] for a general reference for the facts on Abelian varieties.)
+
+## I
 
 ## 1. DOUBLE COVERINGS OF CURVES
 
@@ -118,7 +122,7 @@ $$
 \begin{array}{c} \tilde {J} = \operatorname{Pic} ^ {0} (\tilde {C}) \xleftarrow {\tilde {t} ^ {*}} \operatorname{Pic} ^ {0} (\tilde {J}) _ {\text { def }} = \hat {J} \\ \Bigg | _ {\pi^ {*}} \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ J = \operatorname{Pic} ^ {0} (C) \xleftarrow {t ^ {*}} \operatorname{Pic} ^ {0} (J) _ {\text { def }} = \hat {J} \end{array}
 $$
 
-where  $\hat{J}$  and  $\hat{J}$  are the “duals” of  $\tilde{J}$  and J, respectively. By the standard theory of Jacobians,  $t^{*}$  and  $\tilde{t}^{*}$  are isomorphisms and, in fact, if  $\Theta\subset J$,  $\tilde{\Theta}\subset\tilde{J}$  are the theta divisors, then
+where  $\widehat{\tilde{J}}$  and  $\hat{J}$  are the “duals” of  $\tilde{J}$  and J, respectively. By the standard theory of Jacobians,  $t^{*}$  and  $\tilde{t}^{*}$  are isomorphisms and, in fact, if  $\Theta\subset J$,  $\tilde{\Theta}\subset\tilde{J}$  are the theta divisors, then
 
 $$
 (t ^ {*}) ^ {- 1} = - \lambda_ {\Theta}, \quad (\tilde {t} ^ {*}) ^ {- 1} = - \lambda_ {\tilde {\Theta}}
@@ -140,7 +144,7 @@ $$
 
 (ii) $\mathrm{Nm} \cdot \pi^{*}: J \longrightarrow J$ is multiplication by two.
 
-Proof of(ii). If $\mathfrak{A}$ is a divisor class of degree zero on $C$, and $\alpha$ is the corresponding point of $J$, then $\pi^{-1}(\mathfrak{A})$ represents $\pi^{*}\alpha \in \tilde{J}$ and $\pi(\pi^{-1}\mathfrak{A})$ represents $\mathrm{Nm}(\pi^{*}\alpha)$. But $\pi(\pi^{-1}\mathfrak{A}) = 2\mathfrak{A}$. Q.E.D.
+Proof of (ii). If $\mathfrak{A}$ is a divisor class of degree zero on $C$, and $\alpha$ is the corresponding point of $J$, then $\pi^{-1}(\mathfrak{A})$ represents $\pi^{*}\alpha \in \tilde{J}$ and $\pi(\pi^{-1}\mathfrak{A})$ represents $\mathrm{Nm}(\pi^{*}\alpha)$. But $\pi(\pi^{-1}\mathfrak{A}) = 2\mathfrak{A}$. Q.E.D.
 
 Rather than studying in detail the implications of (i) and (ii) in this special case, it seems easier at this point to study such a situation in general, and afterward to specialize the study to the case of Jacobians.
 
@@ -345,7 +349,7 @@ $$
 Therefore  $\iota = +1$  on  $\pi^{*}J$  and  $\iota = -1$  on ker Nm. Thus  $\iota$  is precisely the involution introduced in (vi) of Section 2, and we find that
 
 $$
-P _ {\text { def }} = (\ker \mathrm{Nm}) ^ {0} = \ker (1 _ {j} + t) ^ {0} = \operatorname{Im} (1 _ {j} - t).
+P _ {\text { def }} = (\ker \mathrm{Nm}) ^ {0} = \ker (1 _ {\tilde{J}} + \iota) ^ {0} = \operatorname{Im} (1 _ {\tilde{J}} - \iota).
 $$
 
 i.e., $P$ is the "odd" part of $\tilde{J}$, which we call the Prym variety of $\tilde{C}$ over $C$.
@@ -374,7 +378,7 @@ $C_{\mathfrak{A}} = \mathbf{Spec}(\mathcal{O}_C\oplus \mathcal{O}_C(\mathfrak{A}
 
 Then
 
-$\pi^{-1}\mathfrak{A} \equiv 0 \iff$ the double covering $C_{\mathfrak{A}} \times {}_c \tilde{C}$ of $\tilde{C}$
+$\pi^{-1}\mathfrak{A} \equiv 0 \iff$ the double covering $C_{\mathfrak{A}} \times _ { C } \tilde{C}$ of $\tilde{C}$
 
 splits into two copies of $\tilde{C}$
 
@@ -424,7 +428,7 @@ $$
 \phi (J) = \{x \in \tilde {J} | \iota x = x \}.
 $$
 
-## 11
+## II
 
 ## 4. RELATIONS BETWEEN THETA DIVISORS
 
@@ -868,7 +872,7 @@ hence $X \cong Y$. In other words, distinct Abelian varieties, projectively embe
 
 ## III
 
-## 6. GEOMETRIC DESCRIPTION OF SING E, UNRAMIFIED CASE
+## 6. GEOMETRIC DESCRIPTION OF SING Ξ, UNRAMIFIED CASE
 
 We now consider only an unramified  $\pi\colon\tilde{C}\longrightarrow C$ . Recall that in this case
 
@@ -900,11 +904,11 @@ $$
 
 Translating these back to $\tilde{J}_0$ by any $\alpha \in \mathrm{Nm}^{-1}(K)$, $P^+$ and $P^{-}$ correspond to $P$ and its nontrivial coset in $\ker \mathrm{Nm}$. Now the theta divisors of $C$ and $\tilde{C}$ live canonically in $J_{g-1}$ and $\tilde{J}_{2g-2}$ and Riemann's theorem (see Kempf [7], and Szpiro [16]) asserts
 
-$\forall$ invertible sheaves $L_{\alpha}$ on $C$ (resp. $\tilde{C}$) corresponding to $\alpha \in J_{g-1}$ (resp. $\tilde{J}_{2-g2}$),
+$\forall$ invertible sheaves $L_{\alpha}$ on $C$ (resp. $\tilde{C}$) corresponding to $\alpha \in J_{g-1}$ (resp. $\tilde{J}_{2g-2}$),
 
 (6.2)
 
-dim $\Gamma(L_{\alpha}) = \text{mult. of } \alpha \text{ on } \Theta (\text{resp. } \Theta)$.
+dim $\Gamma(L_{\alpha}) = \text{mult. of } \alpha \text{ on } \Theta (\text{resp. } \widetilde{\Theta})$.
 
 Combining (6.1) and (6.2), we find the following result.
 
@@ -922,14 +926,14 @@ $$
 \begin{array}{r l} \alpha \in \widetilde {\Theta} \cap P ^ {+} & \Longrightarrow \dim \Gamma (L _ {\alpha}) \quad \text { even   and   positive } \Longrightarrow \dim \Gamma (L _ {\alpha}) \geqslant 2 \\ & \Longrightarrow \alpha \quad \text { singular   on } \quad \widetilde {\Theta}; \end{array}
 $$
 
-hence $\tilde{\Theta} \cdot P^{+}$ consists entirely in multiple components. But the principal polarization on $\tilde{J}$ restricts to twice that on $P$, so $\Theta \cdot P^{+}$ is in the algebraic equivalence class $2\Xi$. It is easy to check that such a divisor can never have a component of multiplicity $\geqslant 3$ (or else the morphism it defines would not collapse an involution $x \longrightarrow x_{0} - x$). Thus $\Theta \cdot P^{+} = 2D$, $D$ algebraically equivalent to $\Xi$, hence equal to it after a suitable translation. Q.E.D.
+hence $\tilde{\Theta} \cdot P^{+}$ consists entirely in multiple components. But the principal polarization on $\tilde{J}$ restricts to twice that on $P$, so $\widetilde{\Theta} \cdot P^{+}$ is in the algebraic equivalence class $2\Xi$. It is easy to check that such a divisor can never have a component of multiplicity $\geqslant 3$ (or else the morphism it defines would not collapse an involution $x \longrightarrow x_{0} - x$). Thus $\Theta \cdot P^{+} = 2D$, $D$ algebraically equivalent to $\Xi$, hence equal to it after a suitable translation. Q.E.D.
 
 Corollary.
 
 Sing $\Xi = \{x\in P^{+}|$ mult. at $x$ of $\tilde{\Theta}\geqslant 4\}$
 
 $$
-\cup \left\{x \in P ^ {+} \left| \begin{array}{c c c c} \text { mult.   at } & x & \text { of } & \tilde {\Theta} = 2, \\ & & & T _ {x, P ^ {+}} \subset (\text { tangent   cone   to } & \Theta & \text { at } & x) \end{array} \right. \right\}.
+\cup \left\{x \in P ^ {+} \left| \begin{array}{c c c c} \text { mult.   at } & x & \text { of } & \tilde {\Theta} = 2, \\ & & & T _ {x, P ^ {+}} \subset (\text { tangent   cone   to } & \widetilde{\Theta} & \text { at } & x) \end{array} \right. \right\}.
 $$
 
 In order to apply this corollary, we must know how to compute the tangent cone to  $\tilde{\Theta}$ . In general, suppose J is any Jacobian and  $\Theta \subset J_{g-1}$ . If  $L_{\alpha}$  on C corresponds to the point  $\alpha \in J_{g-1}$ , then not only is
@@ -951,22 +955,22 @@ $$
 hence choosing such an isomorphism  $\phi$ , we may use the pairing
 
 $$
-\begin{array}{r l} \langle , \rangle : & \Gamma (L _ {\alpha}) \otimes \Gamma (L _ {\alpha}) \longrightarrow \Gamma (\Omega_ {\bar {c}}) \\ & (s, t) \longmapsto \phi (s \otimes i ^ {*} t) = \langle s, t \rangle \end{array}
+\begin{array}{r l} \langle , \rangle : & \Gamma (L _ {\alpha}) \otimes \Gamma (L _ {\alpha}) \longrightarrow \Gamma (\Omega_ {\widetilde{C}}) \\ & (s, t) \longmapsto \phi (s \otimes i ^ {*} t) = \langle s, t \rangle \end{array}
 $$
 
 instead of
 
 $$
-\Gamma (L _ {\alpha}) \otimes \Gamma (\Omega_ {\bar {C}} \otimes L _ {\alpha} ^ {- 1}) \xrightarrow {\otimes} \Gamma (\Omega_ {\bar {C}}).
+\Gamma (L _ {\alpha}) \otimes \Gamma (\Omega_ {\widetilde{C}} \otimes L _ {\alpha} ^ {- 1}) \xrightarrow {\otimes} \Gamma (\Omega_ {\widetilde{C}}).
 $$
 
-Now $i$ induces $i^{*}\colon \Gamma (\Omega_{\bar{c}})\longrightarrow \Gamma (\Omega_{\bar{c}})$, too: In fact, this is just the automorphism found by decomposing
+Now $i$ induces $i^{*}\colon \Gamma (\Omega_{\widetilde{C}})\longrightarrow \Gamma (\Omega_{\widetilde{C}})$, too: In fact, this is just the automorphism found by decomposing
 
 $$
-\begin{array}{c} \Gamma (\Omega_ {\bar {C}}) \cong \Gamma (\pi^ {*} \Omega_ {C}) \cong \Gamma (\pi_ {*} \pi^ {*} \Omega_ {C}) \\ \subset \Gamma (\Omega_ {C}) + \Gamma (\Omega_ {C} (\mathfrak {A})) \\ \| \\ \text {the ``Prym   differentials''} \end{array}
+\begin{array}{c} \Gamma (\Omega_ {\widetilde{C}}) \cong \Gamma (\pi^ {*} \Omega_ {C}) \cong \Gamma (\pi_ {*} \pi^ {*} \Omega_ {C}) \\ \subset \Gamma (\Omega_ {C}) + \Gamma (\Omega_ {C} (\mathfrak {A})) \\ \| \\ \text {the ``Prym   differentials''} \end{array}
 $$
 
-and letting $\iota^{*} = +1$ on $\Gamma (\Omega_c)$, $\iota^{*} = -1$ on $\Gamma (\Omega_c(\mathfrak{A}))$. It is easy to check that
+and letting $\iota^{*} = +1$ on $\Gamma (\Omega_C)$, $\iota^{*} = -1$ on $\Gamma (\Omega_C(\mathfrak{A}))$. It is easy to check that
 
 $$
 \iota^ {*} (\langle s, t \rangle) = \langle t, s \rangle ;
@@ -996,7 +1000,7 @@ $T_{\alpha, P^{+}} \subset \text{tangent cone to} \tilde{\Theta}$ at $\alpha \Lo
 
 and a sheaf $M$ on $C$ such that $\dim \Gamma(M) = 2$.
 
-Proof. Let $s, t$ be a basis of $\Gamma(L_{\alpha})$. In the proceeding notation
+Proof. Let $s, t$ be a basis of $\Gamma(L_{\alpha})$. In the proceding notation
 
 $$
 (\omega_ {i j} ^ {-}) = \left( \begin{array}{c c} 0 & \langle s, t \rangle - \langle t, s \rangle \\ \langle t, s \rangle - \langle s, t \rangle & 0 \end{array} \right).
@@ -1008,7 +1012,7 @@ $$
 \begin{array}{r l} T _ {\alpha , P ^ {+}} \subset \text { tangent   cone   to } & \tilde {\Theta} \quad \text { at } \quad \alpha \Longleftrightarrow \langle s, t \rangle = \langle t, s \rangle \\ & \Longleftrightarrow s \otimes i ^ {*} t = t \otimes i ^ {*} s \Longleftrightarrow i ^ {*} (s / t) = s / t \\ & \Longleftrightarrow s / t \in \mathbb {R} (C). \end{array}
 $$
 
-In classical language,  $s/t \in \mathbb{R}(C)$  says “the pencil defined by  $L_{\alpha}$  is pulled back from a pencil on C.” In modern language, let  $\sum x_{i}$  be the base points of  $\Gamma(L_{\alpha})$ , let B be the poles of s/t on C, and let  $M = \mathcal{O}_{C}(\mathfrak{B})$ . Then  $L_{\alpha} \cong \pi^{*} M (\sum x_{i})$  and 1,  $s/t \in \Gamma(M)$ ; hence  $\dim \Gamma(M) \geqslant 2$ . Clearly  $\dim \Gamma(M) = 2$  since  $\dim \Gamma(L_{\alpha}) = 2$ . Q.E.D.
+In classical language,  $s/t \in \mathbb{R}(C)$  says “the pencil defined by  $L_{\alpha}$  is pulled back from a pencil on C.” In modern language, let  $\sum x_{i}$  be the base points of  $\Gamma(L_{\alpha})$ , let$\mathfrak{B}$be the poles of s/t on C, and let  $M = \mathcal{O}_{C}(\mathfrak{B})$ . Then  $L_{\alpha} \cong \pi^{*} M (\sum x_{i})$  and 1,  $s/t \in \Gamma(M)$ ; hence  $\dim \Gamma(M) \geqslant 2$ . Clearly  $\dim \Gamma(M) = 2$  since  $\dim \Gamma(L_{\alpha}) = 2$ . Q.E.D.
 
 ## 7. DIM SING Ξ
 
@@ -1041,7 +1045,7 @@ Case 1: sheaves $L_{\alpha}$ such that $\mathrm{Nm}L_{\alpha} = \Omega_C$, $\dim
 Case 2: sheaves $L_{\alpha}$ such that $\mathrm{Nm}L_{\alpha} = \Omega_C$, $\dim \Gamma(L_{\alpha}) \geqslant 4$ and even. Note that in case 1
 
 $$
-\Omega_ {C} = \mathrm{Nm} L _ {\alpha} = \mathrm{Nm} (\pi^ {*} M (\sum x _ {i}) (= M ^ {2} (\sum \pi x _ {i}),
+\Omega_ {C} = \mathrm{Nm} L _ {\alpha} = \mathrm{Nm} (\pi^ {*} M (\sum x _ {i})) = M ^ {2} (\sum \pi x _ {i}),
 $$
 
 so $M$ satisfies the two conditions: (a) $\dim \Gamma(M) \geqslant 2$ and (b) $\dim \Gamma(\Omega_C \otimes M^{-2}) \geqslant 1$. Also, if there are no $x_i$, i.e., $L_\alpha = \pi^* M$, then $\dim \Gamma(L_\alpha)$ even implies (c) If $\Omega_C \cong M^2$, $\dim \Gamma(M) + \dim \Gamma(M \otimes \mathfrak{A})$ even.
@@ -1151,7 +1155,7 @@ $$
 hence $\pi x_{1} = \pi x_{2} = z$. Therefore
 
 $$
-L _ {\alpha} = \pi^ {*} N (x - i x) \quad \text { or } \quad L _ {\alpha} = \pi^ {*} N.
+L _ {\alpha} = \pi^ {*} N (x - \iota x) \quad \text { or } \quad L _ {\alpha} = \pi^ {*} N.
 $$
 
 But one of these will be in  $P^{+}$ , the other in  $P^{-}$ , hence  $\Xi$  will either have a whole curve of singularities parametrized by x, or exactly one singularity, and in fact
@@ -1311,5 +1315,7 @@ Note added in proof. Corollary 4 is Proposition 5.7 of Fay [4], in which there i
 14. B. Saint-Donat, On Petri's analysis of the linear system of quadrics through a canonical curve, Math. Ann. 206 (1973), pp. 157–175.
 
 15. F. Schottky and H. Jung, Neue Sätze über symmetralfunctionen und die Abelschen funktionen, S.-B. Berlin Akad. Wiss. (1909).
+
+16. L. Szpiro, "Travaux de Kempf, Kleiman, Laksov," (Sem. Bourbaki, Exp. 417), Springer-Verlag, Berlin and New York, 1972 Lecture Notes, Vol. 317.
 
 16. L. Szpiro, “Travaux de Kempf, Kleiman, Laksov,” (Sem. Bourbaki, Exp. 417), Springer-Verlag, Berlin and New York, 1972 Lecture Notes, Vol. 317.
