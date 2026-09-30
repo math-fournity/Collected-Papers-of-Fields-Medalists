@@ -290,6 +290,8 @@ This work was partially supported by grants from the National Science Foundation
 
 [48] J. D. Vaaler, On the metric theory of Diophantine approximation. Pacific J. Math. 76 (1978), no. 2, 527–539
 
+[49] Y. Zhang, Bounded gaps between primes. Ann. of Math. (2) 179 (2014), no. 3, 1121–1174
+
 Kannan Soundararajan
 
 Department of Mathematics, Stanford University, Stanford CA 94305, ksound@stanford.edu
