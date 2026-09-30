@@ -6,7 +6,7 @@ John Pardon
 
 ## Abstract
 
-We show that every locally compact group which acts faithfully on a connected three-manifold is a Lie group. By known reductions, it sufices to show that there is no faithful action of$\mathbb { Z } _ { p }$(the p-adic integers) on a connected three-manifold.$\operatorname { I f } \ \mathbb { Z } _ { p }$acts faithfully on$M ^ { 3 }$, we find an interesting$\mathbb { Z } _ { p } .$-invariant open set$U \subseteq M$with$H _ { 2 } ( U ) = \mathbb { Z }$ and analyze the incompressible surfaces in U representing a generator of$H _ { 2 } ( U )$. It turns out that there must be one such incompressible surface, say$F ,$whose isotopy class is fixed by$\mathbb { Z } _ { p } .$An analysis of the resulting homomorphism$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$gives the desired contradiction. The approach is local on M.
+We show that every locally compact group which acts faithfully on a connected three-manifold is a Lie group. By known reductions, it suffices to show that there is no faithful action of$\mathbb { Z } _ { p }$(the p-adic integers) on a connected three-manifold.$\operatorname { I f } \ \mathbb { Z } _ { p }$acts faithfully on$M ^ { 3 }$, we find an interesting$\mathbb { Z } _ { p } .$-invariant open set$U \subseteq M$with$H _ { 2 } ( U ) = \mathbb { Z }$ and analyze the incompressible surfaces in U representing a generator of$H _ { 2 } ( U )$. It turns out that there must be one such incompressible surface, say$F ,$whose isotopy class is fixed by$\mathbb { Z } _ { p } .$An analysis of the resulting homomorphism$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$gives the desired contradiction. The approach is local on M.
 
 MSC 2010 Primary: 57S10, 57M60, 20F34, 57S05, 57N10
 
@@ -26,10 +26,10 @@ Conjecture 1.2. There is no faithful action of$\mathbb { Z } _ { p }$on any conn
 
 Conjecture 1.1 also admits the following reformulation, which we hope will help the reader better understand its flavor.
 
-Conjecture 1.3. Given a connected n-manifold M with metric d and open set$U \subseteq M$2 there exists$\epsilon > 0$such that the subset:
+Conjecture 1.3. Given a connected n-manifold M with metric d and open set$U \subseteq M$, there exists$\epsilon > 0$such that the subset:
 
 $$
-\left\{\phi \in \mathrm{Homeo} (M) \mid d (x, \phi (x)) <   \epsilon f o r a l l x \in U \right\}\tag{1.1}
+\left\{\phi \in \mathrm{Homeo} (M) \mid d (x, \phi (x)) <   \epsilon \text { for all } x \in U \right\}\tag{1.1}
 $$
 
 of Homeo(M) contains no nontrivial compact subgroup.
@@ -40,7 +40,7 @@ Conjecture 1.4. For every almost periodic homeomorphism f of a connected n-manif
 
 Conjecture 1.1 is known in the cases$n = 1 , 2$(see Montgomery–Zippin [23, pp233,249]). By consideration of$M \times \mathbb { R }$, clearly Conjecture 1.1 in dimension n implies the same in all lower dimensions.
 
-The most popular approach to the conjectures above is via Conjecture 1.2. Yang [48] showed that for any counterexample to Conjecture 1.2, the orbit space$M / \mathbb { Z } _ { p }$must have cohomological dimension$n + 2$. Conjecture 1.2 has been established for various regularity classes of actions,$C ^ { 2 }$actions by Bochner–Montgomery [4],$C ^ { 0 , 1 }$actions by Repov˘s–S˘cepin<sup>˘</sup> [32],$C ^ { 0 , \frac { n } { n + 2 } + \epsilon }$actions by Maleshich [18], quasiconformal actions by Martin [19], and uniformly quasisymmetric actions on doubling Ahlfors regular compact metric measure manifolds with Hausdorf dimension in$[ 1 , n + 2 )$by Mj [20]. In the negative direction, it is known by work of Walsh [44, p282 Corollary 5.15.1] that there does exist a continuous decomposition of any compact PL n-manifold into cantor sets of arbitrarily small diameter if$n \geq 3$(see also Wilson [45, Theorem 3]). By work of Raymond–Williams [31], there are faithful actions of$\mathbb { Z } _ { p }$ on n-dimensional compact metric spaces which achieve the cohomological dimension jump of Yang [48] for every$n \geq 2$
+The most popular approach to the conjectures above is via Conjecture 1.2. Yang [48] showed that for any counterexample to Conjecture 1.2, the orbit space$M / \mathbb { Z } _ { p }$must have cohomological dimension$n + 2$. Conjecture 1.2 has been established for various regularity classes of actions,$C ^ { 2 }$actions by Bochner–Montgomery [4],$C ^ { 0 , 1 }$actions by Repovš–Ščepin [32],$C ^ { 0 , \frac { n } { n + 2 } + \epsilon }$actions by Maleshich [18], quasiconformal actions by Martin [19], and uniformly quasisymmetric actions on doubling Ahlfors regular compact metric measure manifolds with Hausdorf dimension in$[ 1 , n + 2 )$by Mj [20]. In the negative direction, it is known by work of Walsh [44, p282 Corollary 5.15.1] that there does exist a continuous decomposition of any compact PL n-manifold into cantor sets of arbitrarily small diameter if$n \geq 3$(see also Wilson [45, Theorem 3]). By work of Raymond–Williams [31], there are faithful actions of$\mathbb { Z } _ { p }$ on n-dimensional compact metric spaces which achieve the cohomological dimension jump of Yang [48] for every$n \geq 2$
 
 In this paper, we establish the aforementioned conjectures for$n = 3$
 
@@ -50,9 +50,9 @@ Theorem 1.5. There is no faithful action of$\mathbb { Z } _ { p }$on any connect
 
 We suppose the existence of a continuous injection$\mathbb { Z } _ { p } \to$Homeo(M) and derive a contradiction.
 
-Since$p ^ { k } \mathbb { Z } _ { p } \cong \mathbb { Z } _ { p } ,$we may replace$\mathbb { Z } _ { p }$with one of its subgroups$p ^ { k } \mathbb { Z } _ { p }$for any large$k \geq 0$ The subgroups$p ^ { k } \mathbb { Z } _ { p } \subseteq \mathbb { Z } _ { p }$form a neighborhood base of the identity in$\mathbb { Z } _ { p }$; hence by continuity of the action, as$k  \infty$these subgroups converge to the identity map on M. By picking a suitable Euclidean chart of M and a suitably large$k \geq 0$, we reduce to the case where M is an open subset of$\mathbb { R } ^ { 3 }$and the action of$\mathbb { Z } _ { p }$is very close to the identity.<sup>1</sup>
+Since$p ^ { k } \mathbb { Z } _ { p } \cong \mathbb { Z } _ { p } ,$we may replace$\mathbb { Z } _ { p }$with one of its subgroups$p ^ { k } \mathbb { Z } _ { p }$for any large$k \geq 0$. The subgroups$p ^ { k } \mathbb { Z } _ { p } \subseteq \mathbb { Z } _ { p }$form a neighborhood base of the identity in$\mathbb { Z } _ { p }$; hence by continuity of the action, as$k \to \infty$these subgroups converge to the identity map on M. By picking a suitable Euclidean chart of M and a suitably large$k \geq 0$, we reduce to the case where M is an open subset of$\mathbb { R } ^ { 3 }$and the action of$\mathbb { Z } _ { p }$is very close to the identity.<sup>1</sup>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>There are two motivations for this reduction (which is valid in any dimension). First, recall that a topological group is NSS (“has no small subgroups”) if there exists an open neighborhood of the identity which contains no nontrivial subgroup. Then a theorem of Yamabe [47, p364 Theorem 3] says that a locally</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>There are two motivations for this reduction (which is valid in any dimension). First, recall that a topological group is NSS (“has no small subgroups”) iff there exists an open neighborhood of the identity which contains no nontrivial subgroup. Then a theorem of Yamabe [47, p364 Theorem 3] says that a locally compact topological group is a Lie group iff it is NSS. Thus the relevant property of $\mathbb { Z } _ { p }$ which distinguishes it from a Lie group is the existence of the small subgroups $p ^ { k } \mathbb { Z } _ { p }$. Second, recall Newman’s theorem [24] which implies that a compact Lie group acting nontrivially on a manifold must have large orbits. In essence, we are extending Newman’s theorem to the group $\mathbb { Z } _ { p }$ (however the proof will be quite different).</span></small>
 
 The next step is to produce a compact connected$\mathbb { Z } _ { p }$-invariant subset$Z \subseteq M$satisfying the following two properties:<sup>2</sup>
 
@@ -60,7 +60,7 @@ The next step is to produce a compact connected$\mathbb { Z } _ { p }$-invariant
 
 2. The action of$\mathbb { Z } _ { p }$on$H ^ { 1 } ( Z )$is nontrivial.
 
-The eventual contradiction will come by combining the first (coarse) property of$Z$with the second (fine) property of Z. Constructing such a set Z follows a natural strategy: we take the orbit of a closed handlebody of genus two and attach the orbit of a small loop connecting two points on the boundary. However, the construction requires checking certain connectedness properties of a number of diferent orbit sets, and is currently the least transparent part of the proof.
+The eventual contradiction will come by combining the first (coarse) property of$Z$with the second (fine) property of Z. Constructing such a set Z follows a natural strategy: we take the orbit of a closed handlebody of genus two and attach the orbit of a small loop connecting two points on the boundary. However, the construction requires checking certain connectedness properties of a number of different orbit sets, and is currently the least transparent part of the proof.
 
 Now we consider an open set U defined roughly as$N _ { \epsilon } ( Z ) \backslash Z$(only roughly, since we need to ensure that U is$\mathbb { Z } _ { p }$-invariant and$H _ { 2 } ( U ) = \mathbb { Z } )$. The set of isotopy classes of incompressible surfaces in U representing a generator of$H _ { 2 } ( U )$forms a lattice, and this lets us find an incompressible surface F in U which is fixed up to isotopy by$\mathbb { Z } _ { p }$. We think of the surface F as a sort of “approximate boundary” of Z. Even though$\mathbb { Z } _ { p }$does not act naturally on F itself, we do get a natural homomorphism$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$with finite image. The two properties of Z translate into the following two properties of the action of$\mathbb { Z } _ { p }$on$H _ { 1 } ( F )$:
 
@@ -76,21 +76,11 @@ This means we have a cyclic subgroup$\mathbb { Z } / p \subseteq \operatorname {
 
 We conclude this introduction with a few additional remarks on the proof. First, the proof is a local argument on M, similar in that respect to the proof of Newman’s theorem [24]. Second, our proof works essentially verbatim with any pro-finite group in place of$\mathbb { Z } _ { p }$ (though this is not particularly surprising). Finally, we remark that assuming the action of $\mathbb { Z } _ { p }$on M is free (as is traditional in some approaches to Conjecture 1.2) does not produce any significant simplifications to the argument.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p<sup>k</sup>Z<sub>p</sub>.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>p</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">compact topological group is a Lie group if it is NSS. Thus the relevant property of which distinguishes it from a Lie group is the existence of the small subgroups  Second, recall Newman’s theorem [24] which implies that a compact Lie group acting nontrivially on a manifold must have large orbits. In essence, we are extending Newman’s theorem to the group (however the proof will be quite diferent).Z<sub>p</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">n = 2.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>p</sub>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>The motivation to consider such a set is to attempt a dimension reduction argument. In other words, we would like to conclude that ∂Z is a closed surface with a faithful action of and therefore contradicts the (known) case of Conjecture 1.2 with    This, of course, is not possible since Z could a priori have wild boundary. We will nevertheless be able to construct a closed surface F which serves as an “approximate boundary” of Z.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>The motivation to consider such a set is to attempt a dimension reduction argument. In other words, we would like to conclude that ∂Z is a closed surface with a faithful action of $\mathbb { Z } _ { p }$, and therefore contradicts the (known) case of Conjecture 1.2 with n = 2. This, of course, is not possible since Z could a priori have wild boundary. We will nevertheless be able to construct a closed surface F which serves as an “approximate boundary” of Z.</span></small>
 
 ## 1.2 Acknowledgements
 
-We thank Ian Agol for suggesting Lemmas 2.14 and 2.19 concerning lattice properties of incompressible surfaces. We also thank Mike Freedman and Steve Kerckhof for helpful conversations. We thank the referee for their comments and for giving this paper a very close reading.
+We thank Ian Agol for suggesting Lemmas 2.14 and 2.19 concerning lattice properties of incompressible surfaces. We also thank Mike Freedman and Steve Kerckhoff for helpful conversations. We thank the referee for their comments and for giving this paper a very close reading.
 
 The author was partially supported by a National Science Foundation Graduate Research Fellowship under grant number DGE–1147470.
 
@@ -106,13 +96,9 @@ Theorem 2.1 ([3, p62 Theorem 8]). Let$M _ { 1 } , M _ { 2 }$be two PL three-mani
 
 Lemma 2.2. Let M be a PL three-manifold, and let F be a bicollared surface in M. Then there exists an isotopy of M supported in an arbitrarily small neighborhood of F which maps F to a PL surface.
 
-Proof. Let$\phi : F \times [ - 1 , 1 ] \to M$be a bicollar, which we may assume is arbitrarily close to $F = \phi ( F \times \{ 0 \} )$. Now pick a PL structure on F and apply Theorem 2.1 to$\phi { \big \vert } _ { F \times ( 0 , 1 ) }$and a function f which decreases suficiently rapidly near the ends of (0, 1). The resulting$\phi _ { 1 }$then extends continuously to$F \times [ 0 , 1 ]$and agrees with φ on$F \times \{ 0 , 1 \}$. Now splice$\phi _ { 1 } \vert _ { F \times [ 0 , 1 ] }$and $\phi | _ { F \times [ - 1 , 0 ] }$together to get a bicollar$\phi _ { 2 } : F \times [ - 1 , 1 ] \to M$which is PL on$F \times ( 0 , 1 )$. Now using the bicollar$\phi _ { 2 }$we can easily construct an isotopy of M which sends$F = \phi _ { 2 } ( F \times \{ 0 \} )$ to$\phi _ { 2 } ( F \times \{ { \textstyle { \frac { 1 } { 2 } } } \} )$, which is PL.□
+Proof. Let$\phi : F \times [ - 1 , 1 ] \to M$be a bicollar, which we may assume is arbitrarily close to $F = \phi ( F \times \{ 0 \} )$. Now pick a PL structure on F and apply Theorem 2.1 to$\phi { \big \vert } _ { F \times ( 0 , 1 ) }$and a function f which decreases sufficiently rapidly near the ends of (0, 1). The resulting$\phi _ { 1 }$then extends continuously to$F \times [ 0 , 1 ]$and agrees with φ on$F \times \{ 0 , 1 \}$. Now splice$\phi _ { 1 } \vert _ { F \times [ 0 , 1 ] }$and $\phi | _ { F \times [ - 1 , 0 ] }$together to get a bicollar$\phi _ { 2 } : F \times [ - 1 , 1 ] \to M$which is PL on$F \times ( 0 , 1 )$. Now using the bicollar$\phi _ { 2 }$we can easily construct an isotopy of M which sends$F = \phi _ { 2 } ( F \times \{ 0 \} )$ to$\phi _ { 2 } ( F \times \{ { \textstyle { \frac { 1 } { 2 } } } \} )$, which is PL.□
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">S<sup>3</sup> \K</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">S^3 <sub>\</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>The Kakimizu complex is a sort of “Z-equivariant order complex” of${ \mathcal { S } } ( { \widetilde { \mathbb { S } ^ { 3 } \setminus K } } ) ,$where$\widetilde { \mathbb { S } ^ { 3 } \setminus K }$denotes the infinite cyclic cover of the knot complement . Even though technically K is not a quasicylinder under our definition, it is easy to give a modified definition (allowing manifolds with boundary) to which the methods of this section would apply.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>The Kakimizu complex is a sort of “Z-equivariant order complex” of$\widehat { S } ( \widehat { \mathbb { S } ^ { 3 } \setminus K } )$, where$\widehat { \mathbb { S } ^ { 3 } \setminus K }$denotes the infinite cyclic cover of the knot complement$S ^ 3 \setminus K$. Even though technically$S ^ 3 \setminus K$is not a quasicylinder under our definition, it is easy to give a modified definition (allowing manifolds with boundary) to which the methods of this section would apply.</span></small>
 
 Lemma 2.3. Let M be an irreducible orientable TOP (resp. PL) three-manifold, and let $F _ { 1 } , F _ { 2 }$be two bicollared (resp. PL) π<sub>1</sub>-injective surfaces in M. If$F _ { 1 } , F _ { 2 }$are homotopic, then there is a compactly supported (resp. PL) isotopy of M which sends$F _ { 1 }$to$F _ { 2 }$
 
@@ -130,13 +116,13 @@ Lemma 2.5. Let M be a quasicylinder. For an embedded surface$F \subseteq M$, the
 
 3. F generates$H _ { 2 } ( M )$
 
-Proof.$( 1 ) \Longrightarrow ( 2 )$. A path from one end to the other gives a non-torsion class in$H _ { 1 } ^ { \mathrm { l f } } ( M )$ Thus its Poincar´e dual is a non-torsion class in$H ^ { 2 } ( M )$, and thus defines a nonzero map $H _ { 2 } ( M ) \to \mathbb { Z }$. Since F is nonzero in$H _ { 2 } ( M ) \cong \mathbb { Z }$, every such path must therefore intersect$F$
+Proof.$( 1 ) \Longrightarrow ( 2 )$. A path from one end to the other gives a non-torsion class in$H _ { 1 } ^ { \mathrm { l f } } ( M )$. Thus its Poincaré dual is a non-torsion class in$H ^ { 2 } ( M )$, and thus defines a nonzero map $H _ { 2 } ( M ) \to \mathbb { Z }$. Since F is nonzero in$H _ { 2 } ( M ) \cong \mathbb { Z }$, every such path must therefore intersect$F$
 
-$( 2 ) \Longrightarrow ( 3 )$. If F separates the two ends, then there is a path from one end to the other which intersects F exactly once. Thus the Poincar´e dual of the class of this path in$H _ { 1 } ^ { \mathrm { l f } } ( M )$ evaluates to 1 on$F \in H _ { 2 } ( M )$. Thus F represents a primitive element of$H _ { 2 } ( M ) \cong \mathbb { Z }$, and thus generates it.
+$( 2 ) \Longrightarrow ( 3 )$. If F separates the two ends, then there is a path from one end to the other which intersects F exactly once. Thus the Poincaré dual of the class of this path in$H _ { 1 } ^ { \mathrm { l f } } ( M )$ evaluates to 1 on$F \in H _ { 2 } ( M )$. Thus F represents a primitive element of$H _ { 2 } ( M ) \cong \mathbb { Z }$, and thus generates it.
 
 (3)$\implies ( 1 )$. Trivial.
 
-Definition 2.6. For a TOP quasicylinder M, let$S _ { \mathrm { T O P } } ( M )$be the set of bicollared$\pi _ { 1 } -$ injective embedded surfaces in M generating$H _ { 2 } ( M )$, modulo homotopy.
+Definition 2.6. For a TOP quasicylinder M, let$S _ { \mathrm { T O P } } ( M )$be the set of bicollared$\pi_1$-injective embedded surfaces in M generating$H _ { 2 } ( M )$, modulo homotopy.
 
 Definition 2.7. For a PL quasicylinder M, let$S _ { \mathrm { P L } } ( M )$be the set of PL$\pi _ { 1 }$-injective embedded surfaces in M generating$H _ { 2 } ( M )$, modulo homotopy.
 
@@ -158,23 +144,13 @@ Lemma 2.12. Let M be a PL quasicylinder. Suppose F is a PL embedded surface in M
 
 Proof. Assume that G intersects$\gamma$transversally. Let us call two intersections of$\gamma$with $G$equivalent if there is a path between them on$G$which, when spliced with the path between them on$\gamma ,$becomes null-homotopic in M (this is an equivalence relation). Note that during a general position homotopy of$G ,$the mod 2 cardinalities of the equivalence classes of intersections with$\gamma$remain the same. Thus since G is homotopic to$F$and$\# ( F \cap \gamma ) = 1$ there is a unique equivalence class of intersection$G \cap \gamma$of odd cardinality. Picking any one of these points as basepoint on$G$and on$\gamma$gives the same map$\pi _ { 1 } ( G ) \to \pi _ { 1 } ( M , \gamma )$up to inner automorphism of the domain. This map is clearly constant under homotopy of G.
 
-Lemma 2.13. Let M be a PL quasicylinder. Let F be a PL$\pi _ { 1 } - i n j e c t i v e$surface in M separating the two ends of M. Then any homotopy of F to itself induces the trivial element of MCG(F).
+Lemma 2.13. Let M be a PL quasicylinder. Let F be a PL$\pi_1$-injective surface in M separating the two ends of M. Then any homotopy of F to itself induces the trivial element of MCG(F).
 
-Proof. Pick a PL arc$\gamma$from one end of M to the other which intersects$F$transversally exactly once. By Lemma 2.12, we get a canonical map$\pi _ { 1 } ( F ) \to \pi _ { 1 } ( M , \gamma )$which is constant as we move F by homotopy. Since this map is injective, we know$\pi _ { 1 } ( F )$up to inner automorphism as a subgroup of$\pi _ { 1 } ( M , \gamma )$□
+Proof. Pick a PL arc$\gamma$from one end of M to the other which intersects$F$transversally exactly once. By Lemma 2.12, we get a canonical map$\pi _ { 1 } ( F ) \to \pi _ { 1 } ( M , \gamma )$which is constant as we move F by homotopy. Since this map is injective, we know$\pi _ { 1 } ( F )$up to inner automorphism as a subgroup of$\pi _ { 1 } ( M , \gamma )$.<sup>4</sup> □
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p → p<sup>′</sup></span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>A categorical way of phrasing this is as follows. Let γ denote the category whose objects are points p ∈ γ, with a single morphism p → p′ for all p, p′ ∈ γ. The fundamental group is a functor π<sub>1</sub>(M, ·) : γ → Groups, where the morphism p → p′ is sent to the isomorphism π<sub>1</sub>(M, p) → π<sub>1</sub>(M, p<sup>′</sup>) given by the path from p to p′ along γ. Then π<sub>1</sub>(M, γ) is defined as the limit/colimit of this functor.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p → p<sup>′</sup></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p, p<sup>′</sup> ∈ γ.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p ∈ γ,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">π<sub>1</sub>(M, γ)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>A categorical way of phrasing this is as follows. Let γ denote the category whose objects are points p ∈ γ, with a single morphism for all The fundamental group is a functor π<sub>1</sub>(M, ·) : γ → Groups,π1(M, ·) : γ → where the morphism is sent to the isomorphism given by the path from p to p<sup>′</sup>π<sub>1</sub>(M, p) → π<sub>1</sub>(M, p<sup>′</sup>)pp′ along γ. Then is defined as the limit/colimit of this functor.γ.</span></small>
-
-Lemma 2.14. Let M be a directed quasicylinder. Then the pair$( S ( M ) , \leq )$is a partiallyordered set. That is, for all$\mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } , \mathfrak { F } _ { 3 } \in S ( M )$we have:
+Lemma 2.14. Let M be a directed quasicylinder. Then the pair$( S ( M ) , \leq )$is a partially ordered set. That is, for all$\mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } , \mathfrak { F } _ { 3 } \in S ( M )$we have:
 
 1. (reflexivity)$\mathfrak { F } _ { 1 } \le \mathfrak { F } _ { 1 }$
 
@@ -182,7 +158,7 @@ Lemma 2.14. Let M be a directed quasicylinder. Then the pair$( S ( M ) , \leq )$
 
 3. (transitivity)$\mathfrak { F } _ { 1 } \le \mathfrak { F } _ { 2 } \le \mathfrak { F } _ { 3 } \implies \mathfrak { F } _ { 1 } \le \mathfrak { F } _ { 3 }$
 
-Proof. By Lemma 2.11, it sufices to work in the PL category.
+Proof. By Lemma 2.11, it suffices to work in the PL category.
 
 Reflexivity is obvious.
 
@@ -200,23 +176,23 @@ Since$F _ { 1 } \leq F _ { 2 } \leq F _ { 1 } ^ { \prime }$, we have$\pi _ { 1 }
 
 Lemma 2.15. Let M be a directed quasicylinder. Let F be a bicollared embedded π -injective surface. Then the natural map$\psi : { \mathcal { S } } ( ( M \setminus F ) _ { - } ) \to { \mathcal { S } } ( M )$is a bijection of$S ( ( M \setminus F ) _ { - } )$with the set$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ \mathfrak { G } \leq [ F ] \right\}$. Furthermore, this bijection satisfies${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 } \iff \psi ( { \mathfrak { G } } _ { 1 } ) \leq$ $\psi ( { \mathfrak { G } } _ { 2 } )$
 
-Proof. By Lemma 2.11, it sufices to work in the PL category.
+Proof. By Lemma 2.11, it suffices to work in the PL category.
 
-Certainly the image of$\psi$is contained in$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ \mathfrak { G } \leq [ F ] \right\}$. If${ \mathfrak { G } } ~ \leq ~ [ F ]$, then there are representatives$G ^ { \prime } \leq F ^ { \prime }$  	. By Lemma 2.3, there is a PL isotopy sending$F ^ { \prime }$to $F .$. Applying this isotopy to$G ^ { \prime }$gives a representative$G \leq F$Thus the image of$\psi$is exactly$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ \mathfrak { G } \leq [ F ] \right\}$To prove that$\psi$is injective, suppose$G _ { 1 } , G _ { 2 } \ \leq \ F$are   	two π<sub>1</sub>-injective embedded surfaces which are homotopic in M. Pick an arc$\gamma$from one end of$M$to the other which intersects$G _ { 1 } , F$exactly once. Since$G _ { 1 } , G _ { 2 }$are homotopic, Lemma 2.12 gives canonical maps$\pi _ { 1 } ( G _ { 1 } ) , \pi _ { 1 } ( G _ { 2 } ) \to \pi _ { 1 } ( M , \gamma )$with the same image. Now these both factor through$\pi _ { 1 } ( ( M \setminus F ) _ { - } , \gamma ) \to \pi _ { 1 } ( M , \gamma )$, which is injective since$\pi _ { 1 } ( F )$ $\pi _ { 1 } ( ( M \setminus F ) _ { \pm , \gamma } )$are injective. Thus$\pi _ { 1 } ( G _ { 1 } ) , \pi _ { 1 } ( G _ { 2 } ) \to \pi _ { 1 } ( ( M \setminus F ) _ { - } , \gamma )$have the same image, so the same obstruction theory argument used in the proof of Lemma 2.14 implies that $G _ { 1 } , G _ { 2 }$are homotopic in$( M \backslash F ) _ { - }$. Thus$\psi$is injective.
+Certainly the image of$\psi$is contained in$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ \mathfrak { G } \leq [ F ] \right\}$. If${ \mathfrak { G } } \leq [ F ]$, then there are representatives$G ^ { \\prime } \\leq F ^ { \\prime }$. By Lemma 2.3, there is a PL isotopy sending$F ^ { \prime }$to$F$. Applying this isotopy to$G ^ { \prime }$gives a representative$G \leq F$. Thus the image of$\psi$is exactly$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ \mathfrak { G } \leq [ F ] \right\}$. To prove that$\psi$is injective, suppose$G _ { 1 } , G _ { 2 } \ \leq \ F$are two$\pi_1$-injective embedded surfaces which are homotopic in M. Pick an arc$\gamma$from one end of$M$to the other which intersects$G _ { 1 } , F$exactly once. Since$G _ { 1 } , G _ { 2 }$are homotopic, Lemma 2.12 gives canonical maps$\pi _ { 1 } ( G _ { 1 } ) , \pi _ { 1 } ( G _ { 2 } ) \to \pi _ { 1 } ( M , \gamma )$with the same image. Now these both factor through$\pi _ { 1 } ( ( M \setminus F ) _ { - } , \gamma ) \to \pi _ { 1 } ( M , \gamma )$, which is injective since$\pi _ { 1 } ( F ) \to \pi _ { 1 } ( ( M \setminus F ) _ { \pm , \gamma } )$are injective. Thus$\pi _ { 1 } ( G _ { 1 } ) , \pi _ { 1 } ( G _ { 2 } ) \to \pi _ { 1 } ( ( M \setminus F ) _ { - } , \gamma )$have the same image, so the same obstruction theory argument used in the proof of Lemma 2.14 implies that $G _ { 1 } , G _ { 2 }$are homotopic in$( M \backslash F ) _ { - }$. Thus$\psi$is injective.
 
 Now it remains to show that ψ preserves$\leq$. The only nontrivial direction is to show that$\psi ( { \mathfrak { G } } _ { 1 } ) \ \leq \ \psi ( { \mathfrak { G } } _ { 2 } ) \ \implies \ { \mathfrak { G } } _ { 1 } \ \leq \ { \mathfrak { G } } _ { 2 }$. If$\psi ( \mathfrak { G } _ { 1 } ) \le \psi ( \mathfrak { G } _ { 2 } )$, then we have representatives $G _ { 1 } ^ { \prime } \leq G _ { 2 } ^ { \prime } \leq F ^ { \prime }$(by the argument for transitivity in Lemma 2.14). Now by Lemma 2.3 there is a PL isotopy from$F ^ { \prime }$to$F$, and applying this isotopy to$G _ { 1 } ^ { \prime } , G _ { 2 } ^ { \prime }$, we get$G _ { 1 } \leq G _ { 2 } \leq F$ Since ψ is injective, we have$\left[ G _ { i } \right] = \mathfrak { G } _ { i }$in$S ( ( M \setminus F ) _ { - } )$. Thus${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 }$□
 
-Lemma 2.16. Let M be a directed quasicylinder. Let$F _ { 1 } \leq F _ { 2 }$be two bicollared embedded $\pi _ { 1 } - i n j e c t i v e$surfaces. Then the natural map$\psi : { \mathcal { S } } ( ( M \setminus F _ { 1 } ) _ { + } \cap ( M \setminus F _ { 2 } ) _ { - } ) \to { \mathcal { S } } ( M )$is a bijection of$S ( \left( M \setminus F _ { 1 } \right) _ { + } \cap ( M \setminus F _ { 2 } ) _ { - } )$with$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ [ F _ { 1 } ] \leq \mathfrak { G } \leq [ F _ { 2 } ] \right\}$. Furthermore, this bijection satisfies${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 } \iff \psi ( { \mathfrak { G } } _ { 1 } ) \leq \psi ( { \mathfrak { G } } _ { 2 } )$
+Lemma 2.16. Let M be a directed quasicylinder. Let$F _ { 1 } \leq F _ { 2 }$be two bicollared embedded$\pi_1$-injective surfaces. Then the natural map$\psi : { \mathcal { S } } ( ( M \setminus F _ { 1 } ) _ { + } \cap ( M \setminus F _ { 2 } ) _ { - } ) \to { \mathcal { S } } ( M )$is a bijection of$S ( \left( M \setminus F _ { 1 } \right) _ { + } \cap ( M \setminus F _ { 2 } ) _ { - } )$with$\left\{ \mathfrak { G } \in \mathcal { S } ( M ) \ | \ [ F _ { 1 } ] \leq \mathfrak { G } \leq [ F _ { 2 } ] \right\}$. Furthermore, this bijection satisfies${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 } \iff \psi ( { \mathfrak { G } } _ { 1 } ) \leq \psi ( { \mathfrak { G } } _ { 2 } )$.
 
 Proof. This is just two applications of Lemma 2.15.
 
-Lemma 2.17. Let M be a PL directed quasicylinder. Let$G \subseteq M$be any PL embedded surface (not necessarily π -injective) separating the two ends of M. Then there exists a class ${ \mathfrak { G } } \in S ( M )$such that for all${ \mathfrak { F } } \in S ( M )$with a representative$F \leq G \ ( r e s p . \ F \geq G )$, we have $\mathfrak { F } \le \mathfrak { G } \ ( r e s p . \ \mathfrak { F } \ge \mathfrak { G } )$
+Lemma 2.17. Let M be a PL directed quasicylinder. Let$G \subseteq M$be any PL embedded surface (not necessarily$\pi_1$-injective) separating the two ends of M. Then there exists a class ${ \mathfrak { G } } \in S ( M )$such that for all${ \mathfrak { F } } \in S ( M )$with a representative$F \leq G \ ( r e s p . \ F \geq G )$, we have $\mathfrak { F } \le \mathfrak { G } \ ( r e s p . \ \mathfrak { F } \ge \mathfrak { G } )$
 
 Proof. As long as G is compressible, we can perform the following operation. Do some compression on$G$(this may disconnect G), and pick one of the resulting connected components which is nonzero in$H _ { 2 } ( M )$to keep. This operation does not destroy the property that G can be isotoped to lie in$( M \setminus F ) _ { + } \ ( \mathrm { r e s p . } \ ( M \setminus F ) _ { - } )$for an incompressible surface$F .$. Since each step decreases the genus of$G _ { i }$, we eventually reach an incompressible surface, which by the loop theorem is$\pi _ { 1 } { \mathrm { - i n j e c t i v e } } .$and thus defines a class${ \mathfrak { G } } \in S ( M )$□
 
 Lemma 2.18. Let M be a directed quasicylinder. Let$A \subseteq S ( M )$be a finite set. Then there exist elements$\mathfrak { A } _ { - } , \mathfrak { A } _ { + } \in S ( M )$such that$\mathfrak { A } _ { - } \leq \mathfrak { A } \leq \mathfrak { A } _ { + }$for all${ \mathfrak { A } } \in A$
 
-Proof. By Lemma 2.11, it sufices to work in the PL category.
+Proof. By Lemma 2.11, it suffices to work in the PL category.
 
 Pick PL transverse representatives$A _ { 1 } , \ldots , A _ { n }$of all the surfaces in A. Let$( ( M \setminus A _ { 1 } ) _ { \pm } \cap$ $\cdot \cdot \cdot \cap ( M \backslash A _ { n } ) _ { \pm } ) _ { 0 }$denote the unique unbounded component of$( M \setminus A _ { 1 } ) _ { \pm } \cap \cdot \cdot \cdot \cap ( M \setminus A _ { n } ) _ { \pm }$ and define$A _ { \pm } = \partial ( ( ( M \setminus A _ { 1 } ) _ { \pm } \cap \dots \cap ( M \setminus A _ { n } ) _ { \pm } ) _ { 0 } ) |$. It is easy to see that$A _ { \pm }$are connected and separate the two ends of M. Now apply Lemma 2.17 to A and$A _ { + }$to get the desired classes$\mathfrak { A } _ { - } , \mathfrak { A } _ { + } \in S ( M )$□
 
@@ -228,7 +204,7 @@ $$
 
 (and the same holds in the reverse ordering).
 
-Proof. By Lemma 2.11, it sufices to work in the PL category.
+Proof. By Lemma 2.11, it suffices to work in the PL category.
 
 First, let us deal with the case where M has tame ends, that is M is the interior of a compact PL manifold with boundary (M, ∂M). Equip (M, ∂M) with a smooth structure and a smooth Riemannian metric so that the boundary is convex.
 
@@ -242,9 +218,9 @@ $$
 X (\mathfrak {F} _ {1}, \mathfrak {F} _ {2}; \mathfrak {G}) = \left\{\mathfrak {H} \in \mathcal {S} (M) \mid \mathfrak {F} _ {1}, \mathfrak {F} _ {2} \leq \mathfrak {H} \leq \mathfrak {G} \right\} \subseteq X (\mathfrak {F} _ {1}, \mathfrak {F} _ {2})\tag{2.3}
 $$
 
-We claim that it sufices to show that if${ \mathfrak { G } } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$, then$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element. To see this, we argue as follows. If${ \mathfrak { G } } _ { 1 } , { \mathfrak { G } } _ { 2 } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$and${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 }$, then it is easy to see that the natural inclusion${ \cal X } ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } _ { 1 } ) \ \to \ { \cal X } ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } _ { 2 } )$sends the least element of the domain to the least element of the target (assuming both sets have least elements). Since for every${ \mathfrak { G } } _ { 1 } , { \mathfrak { G } } _ { 2 }$, there exists${ \mathfrak { G } } _ { 3 }$greater than both (by Lemma 2.18), we see that the least elements of all the sets$\{ X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } ) \} _ { \mathfrak { G } \in X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ) }$are actually the same element$\mathfrak { F } \in X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } )$ We claim that this$\mathfrak { F }$is a least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } )$. This is trivial: if${ \mathfrak { G } } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$, then $\mathfrak { F }$is a least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$, so a fortiori${ \mathfrak { F } } \leq { \mathfrak { G } }$. Thus it sufices to show that each set$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element.
+We claim that it suffices to show that if${ \mathfrak { G } } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$, then$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element. To see this, we argue as follows. If${ \mathfrak { G } } _ { 1 } , { \mathfrak { G } } _ { 2 } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$and${ \mathfrak { G } } _ { 1 } \leq { \mathfrak { G } } _ { 2 }$, then it is easy to see that the natural inclusion${ \cal X } ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } _ { 1 } ) \ \to \ { \cal X } ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } _ { 2 } )$sends the least element of the domain to the least element of the target (assuming both sets have least elements). Since for every${ \mathfrak { G } } _ { 1 } , { \mathfrak { G } } _ { 2 }$, there exists${ \mathfrak { G } } _ { 3 }$greater than both (by Lemma 2.18), we see that the least elements of all the sets$\{ X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } ) \} _ { \mathfrak { G } \in X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ) }$are actually the same element$\mathfrak { F } \in X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } )$ We claim that this$\mathfrak { F }$is a least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } )$. This is trivial: if${ \mathfrak { G } } \in X ( { \mathfrak { F } } _ { 1 } , { \mathfrak { F } } _ { 2 } )$, then $\mathfrak { F }$is a least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$, so a fortiori${ \mathfrak { F } } \leq { \mathfrak { G } }$. Thus it suffices to show that each set$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element.
 
-Let us show that$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element. By Lemma 2.18 there exists${ \mathfrak { F } } _ { 0 } \in$ $S ( M )$so that$\mathfrak { F } _ { 0 } \le \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 }$. Now pick PL representatives$F _ { 0 } , G$of$\mathfrak { F } _ { 0 } , \mathfrak { G }$with$F _ { 0 } \leq G$. Let $M _ { 0 } = ( M \setminus F _ { 0 } ) _ { + } \cap ( M \setminus G ) _ { - }$, which is a directed quasicylinder with tame ends. Thus by the case dealt with earlier,$S ( M _ { 0 } )$is a lattice, so$\mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 }$have a least upper bound in$S ( M _ { 0 } )$. By Lemma$2 . 1 6 , S ( M _ { 0 } ) \to S ( M )$is an isomorphism onto the subset$\left\{ \mathfrak { F } \in \mathcal { S } ( M ) \ \big | \ \mathfrak { F } _ { 0 } \leq \mathfrak { F } \leq \mathfrak { G } \right\}$ Thus we get the desired least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$口
+Let us show that$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$has a least element. By Lemma 2.18 there exists${ \mathfrak { F } } _ { 0 } \in S ( M )$so that$\mathfrak { F } _ { 0 } \le \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 }$. Now pick PL representatives$F _ { 0 } , G$of$\mathfrak { F } _ { 0 } , \mathfrak { G }$with$F _ { 0 } \leq G$. Let $M _ { 0 } = ( M \setminus F _ { 0 } ) _ { + } \cap ( M \setminus G ) _ { - }$, which is a directed quasicylinder with tame ends. Thus by the case dealt with earlier,$S ( M _ { 0 } )$is a lattice, so$\mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 }$have a least upper bound in$S ( M _ { 0 } )$. By Lemma 2.16,$S ( M _ { 0 } ) \to S ( M )$is an isomorphism onto the subset$\left\{ \mathfrak { F } \in \mathcal { S } ( M ) \ \big | \ \mathfrak { F } _ { 0 } \leq \mathfrak { F } \leq \mathfrak { G } \right\}$. Thus we get the desired least element of$X ( \mathfrak { F } _ { 1 } , \mathfrak { F } _ { 2 } ; \mathfrak { G } )$. □
 
 Remark 2.20. It should be possible to prove an existence result for area minimizing surfaces in any DIFF quasicylinder (with appropriate conditions on the Riemannian metric near the ends). In that case, the argument used for tame quasicylinders would apply in general (the results of Freedman–Hass–Scott$[ 7 ]$extend as long as one has the existence of area minimizing representatives of$\pi _ { 1 } { \mathrm { - i n j e c t i v e } }$surfaces in M).
 
@@ -252,11 +228,11 @@ Remark 2.21. Jaco–Rubinstein [13] have developed a theory of normal surfaces i
 
 ## 3 Tools applicable to arbitrary open/closed subsets of manifolds
 
-In our study of a hypothetical action of$\mathbb { Z } _ { p }$by homeomorphisms on a three-manifold, it will be essential to study certain properties of orbit sets (for example, their homology). However, we do not have the luxury of assuming such sets are at all well behaved; the most we can hope for is that we will be able to construct$\mathbb { Z } _ { p } { \mathrm { - i n v a r i a n t } }$sets which are either open or closed. Nevertheless, Cech cohomology is still a reasonable object in such situations. The p <sup>ˇ</sup> urpose of this section is to develop an elementary theory centered on Alexander duality for arbitrary open and closed subsets of a manifold. We use these tools in the proof of Theorem 1.5, specifically in Sections 4.3–4.4 to construct the set Z and to study its properties.
+In our study of a hypothetical action of$\mathbb { Z } _ { p }$by homeomorphisms on a three-manifold, it will be essential to study certain properties of orbit sets (for example, their homology). However, we do not have the luxury of assuming such sets are at all well behaved; the most we can hope for is that we will be able to construct$\mathbb { Z } _ { p } { \mathrm { - i n v a r i a n t } }$sets which are either open or closed. Nevertheless, Cech cohomology is still a reasonable object in such situations. The purpose of this section is to develop an elementary theory centered on Alexander duality for arbitrary open and closed subsets of a manifold. We use these tools in the proof of Theorem 1.5, specifically in Sections 4.3–4.4 to construct the set Z and to study its properties.
 
-In this (and all other) sections, we always take homology and cohomology with integer coeficients. We denote by$H _ { * }$and$H ^ { * }$singular homology and cohomology, and we let${ \check { H } } ^ { * }$ denote Cech cohomology.<sup>ˇ</sup>
+In this (and all other) sections, we always take homology and cohomology with integer coefficients. We denote by$H _ { * }$and$H ^ { * }$singular homology and cohomology, and we let${ \check { H } } ^ { * }$ denote Čech cohomology.
 
-## 3.1 Cech cohomology <sup>ˇ</sup>
+## 3.1 Čech cohomology
 
 Lemma 3.1. For a compact subset X of a manifold, the natural map below is an isomorphism:
 
@@ -264,7 +240,7 @@ $$
 \lim_{\substack{U\supseteq X\\ U open}}H^{*}(U)\xrightarrow{\sim}\check{H}^{*}(X)\tag{3.1}
 $$
 
-Proof. This is due to Steenrod [39]; see also Spanier [38, p419], the key fact being that Cech <sup>ˇ</sup> cohomology satisfies the “continuity axiom”.□
+Proof. This is due to Steenrod [39]; see also Spanier [38, p419], the key fact being that Čech cohomology satisfies the “continuity axiom”.□
 
 Lemma 3.2. If X and Y are two compact subsets of a manifold, then there is a (Mayer– Vietoris) long exact sequence:
 
@@ -294,7 +270,7 @@ Now consider the direct limit over all such open sets$U \supseteq X$to get an is
 
 ## 3.3 The plus operation
 
-If we have a bounded subset$X \subseteq \mathbb { R } ^ { 3 }$, we want to be able to consider$^ { 6 6 } X$union all of the bounded connected components of$\mathbb { R } ^ { 3 } \backslash X ^ { \prime \prime }$(we think of this operation as a way to simplify the set X, which could be very wild). The following definition makes this precise.
+If we have a bounded subset$X \subseteq \mathbb { R } ^ { 3 }$, we want to be able to consider “X” union all of the bounded connected components of$\mathbb { R } ^ { 3 } \backslash X$”.(we think of this operation as a way to simplify the set X, which could be very wild). The following definition makes this precise.
 
 Definition 3.4. For a bounded set$X \subseteq \mathbb { R } ^ { 3 }$, we define:
 
@@ -310,35 +286,35 @@ i.$X \subseteq Y \implies X ^ { + } \subseteq Y ^ { + }$
 
 ii.$X ^ { + + } = X ^ { + }$
 
-iii. If X is closed and bounded, then$\mathbb { R } ^ { 3 } \setminus X ^ { + }$is the unbounded component$o f \mathbb { R } ^ { 3 } \setminus X$
+iii. If X is closed and bounded, then$\mathbb { R } ^ { 3 } \setminus X ^ { + }$is the unbounded component of$\mathbb { R } ^ { 3 } \setminus X$
 
-iv. If X is closed and bounded, then${ \cal X } = { \cal X } ^ { + } \longleftrightarrow \check { H } ^ { 2 } ( { \cal X } ) = 0 \longleftrightarrow \mathbb { R } ^ { 3 } \backslash { \cal X }$is connected.
+iv. If X is closed and bounded, then$X = X ^ { + } \longleftrightarrow \check { H } ^ { 2 } ( X ) = 0 \longleftrightarrow \mathbb { R } ^ { 3 } \backslash X$is connected.
 
 Proof. Both (i) and (ii) are immediate from the definition.
 
-For (iii), argue as follows. Let V denote the unbounded component of$\mathbb { R } ^ { 3 } \setminus X$. As V is open and connected, it has an exhaustion by closed connected subsets$\textstyle V = \bigcup _ { i = 1 } ^ { \infty } V _ { i }$, where $V _ { 1 } \subseteq V _ { 2 } \subseteq \cdots$· and$\mathbb { R } ^ { 3 } \setminus V _ { i }$is bounded for all i. By Lemma 3.3,$H _ { 2 } ( \mathbb { R } ^ { 3 } \setminus V _ { i } ) = 0$, and thus $\begin{array} { r } { X ^ { + } \subseteq \bigcap _ { i = 1 } ^ { \infty } ( { \mathbb { R } } ^ { 3 } \setminus V _ { i } ) = { \mathbb { R } } ^ { 3 } \setminus V } \end{array}$. It remains to show the reverse inclusion, namely that if W Tis a bounded component of$\mathbb { R } ^ { 3 } \setminus X$, then$W \subseteq X ^ { + }$. Suppose$U \supseteq X$is open, bounded, and $H _ { 2 } ( U ) = 0$. Then$\mathbb { R } ^ { 3 } \setminus U = ( \mathbb { R } ^ { 3 } \setminus ( U \cup W ) ) \cup ( W \setminus U )$, which is a disjoint union of closed sets.
+For (iii), argue as follows. Let V denote the unbounded component of$\mathbb { R } ^ { 3 } \setminus X$. As V is open and connected, it has an exhaustion by closed connected subsets$\textstyle V = \bigcup _ { i = 1 } ^ { \infty } V _ { i }$, where $V _ { 1 } \subseteq V _ { 2 } \subseteq \cdots$ and$\mathbb { R } ^ { 3 } \setminus V _ { i }$is bounded for all i. By Lemma 3.3,$H _ { 2 } ( \mathbb { R } ^ { 3 } \setminus V _ { i } ) = 0$, and thus $\begin{array} { r } { X ^ { + } \subseteq \bigcap _ { i = 1 } ^ { \infty } ( { \mathbb { R } } ^ { 3 } \setminus V _ { i } ) = { \mathbb { R } } ^ { 3 } \setminus V } \end{array}$. It remains to show the reverse inclusion, namely that if W is a bounded component of$\mathbb { R } ^ { 3 } \setminus X$, then$W \subseteq X ^ { + }$. Suppose$U \supseteq X$is open, bounded, and $H _ { 2 } ( U ) = 0$. Then$\mathbb { R } ^ { 3 } \setminus U = ( \mathbb { R } ^ { 3 } \setminus ( U \cup W ) ) \cup ( W \setminus U )$, which is a disjoint union of closed sets.
 
 However$\mathbb { R } ^ { 3 } \setminus U$is connected and$\mathbb { R } ^ { 3 } \setminus ( U \cup W )$is unbounded so a fortiori it is nonempty. Thus we must have$W \setminus U = \emptyset$, that is$U \supseteq W$
 
-For (iv), argue as follows. Lemma 3.3 gives${ \check { H } } ^ { 2 } ( X ) = 0 \iff \mathbb { R } ^ { 3 } \setminus X$is connected. By (iii), we have${ X = X ^ { + } \iff \mathbb { R } ^ { 3 } \setminus X }$is connected.□
+For (iv), argue as follows. Lemma 3.3 gives${ \check { H } } ^ { 2 } ( X ) = 0 \iff \mathbb { R } ^ { 3 } \setminus X$is connected. By (iii), we have$X = X ^ { + } \iff \mathbb { R } ^ { 3 } \setminus X$is connected.□
 
 Lemma 3.6. Suppose$X \subseteq \mathbb { R } ^ { 3 }$is closed and bounded with$X = X ^ { + } . \ I f \left\{ U _ { \alpha } \right\} _ { \alpha \in A }$is a final collection of open sets containing X, then so is$\{ U _ { \alpha } ^ { + } \} _ { \alpha \in A }$
 
-Proof. Since$\{ U _ { \alpha } \} _ { \alpha \in A }$is final, to show that$\{ U _ { \alpha } ^ { + } \} _ { \alpha \in A }$is final it sufices to show that for every $\alpha \in A$, there exists$\beta \in A$such that$U _ { \beta } ^ { + } \subseteq U _ { \alpha }$
+Proof. Since$\{ U _ { \alpha } \} _ { \alpha \in A }$is final, to show that$\{ U _ { \alpha } ^ { + } \} _ { \alpha \in A }$is final it suffices to show that for every $\alpha \in A$, there exists$\beta \in A$such that$U _ { \beta } ^ { + } \subseteq U _ { \alpha }$
 
-Thus let us suppose$\alpha \in A$is given. As in the proof of Lemma 3.5(iii), there exists an exhaustion by closed connected subsets$\mathbb { R } ^ { 3 } \setminus X = \bigcup _ { i = 1 } ^ { \infty } V _ { i }$, where$V _ { 1 } \subseteq V _ { 2 } \subseteq \cdots$and$\mathbb { R } ^ { 3 } \setminus V _ { i }$ Sis bounded for all i. Then for suficiently large i, we have$\mathbb { R } ^ { 3 } \setminus V _ { i } \subseteq U _ { \alpha }$. On the other hand, for every i there exists$\beta$such that$U _ { \beta } \subseteq \mathbb { R } ^ { 3 } \setminus V _ { i }$. But now$U _ { \beta } ^ { + } \subseteq ( \mathbb { R } ^ { 3 } \setminus V _ { i } ) ^ { + } = \mathbb { R } ^ { 3 } \setminus V _ { i } \subseteq U _ { \alpha }$ as needed.口
+Thus let us suppose$\alpha \in A$is given. As in the proof of Lemma 3.5(iii), there exists an exhaustion by closed connected subsets$\mathbb { R } ^ { 3 } \setminus X = \bigcup _ { i = 1 } ^ { \infty } V _ { i }$, where$V _ { 1 } \subseteq V _ { 2 } \subseteq \cdots$and$\mathbb { R } ^ { 3 } \setminus V _ { i }$ Sis bounded for all i. Then for sufficiently large i, we have$\mathbb { R } ^ { 3 } \setminus V _ { i } \subseteq U _ { \alpha }$. On the other hand, for every i there exists$\beta$such that$U _ { \beta } \subseteq \mathbb { R } ^ { 3 } \setminus V _ { i }$. But now$U _ { \beta } ^ { + } \subseteq ( \mathbb { R } ^ { 3 } \setminus V _ { i } ) ^ { + } = \mathbb { R } ^ { 3 } \setminus V _ { i } \subseteq U _ { \alpha }$ as needed.口
 
-Definition 3.7. Let X be a topological space. We say X has dimension zero if whenever $x \in U \subseteq X$with U open, there exists a clopen (closed and open) set$V \subseteq X$with$x \in V \subseteq U$ It is immediate that any subspace of a space of dimension zero also has dimension zero.
+Definition 3.7. Let X be a topological space. We say X has dimension zero iff whenever $x \in U \subseteq X$with U open, there exists a clopen (closed and open) set$V \subseteq X$with$x \in V \subseteq U$ It is immediate that any subspace of a space of dimension zero also has dimension zero.
 
-Remark 3.8. If M is a manifold with a continuous action of$\mathbb { Z } _ { p } .$then every orbit is either a finite discrete set (if the stabilizer is$p ^ { k } \mathbb { Z } _ { p } )$or a cantor set (if the stabilizer is trivial). In particular, every orbit has dimension zero. It follows that if$A \subseteq M$is any finite set, then $\mathbb { Z } _ { p } A$has dimension zero, as does any subset thereof.
+Remark 3.8. If M is a manifold with a continuous action of$\mathbb { Z } _ { p }$, then every orbit is either a finite discrete set (if the stabilizer is$p ^ { k } \mathbb { Z } _ { p } )$or a cantor set (if the stabilizer is trivial). In particular, every orbit has dimension zero. It follows that if$A \subseteq M$is any finite set, then $\mathbb { Z } _ { p } A$has dimension zero, as does any subset thereof.
 
 Lemma 3.9. If M is a manifold of dimension$n \geq 2$and$X \subseteq M$is closed and has dimension zero, then the map$H _ { 0 } ( M \setminus X ) \to H _ { 0 } ( M )$is an isomorphism.
 
 Proof. First, let us deal with the case$M = \mathbb { S } ^ { n }$(thus X is compact). Pick a metric on$\mathbb { S } ^ { n }$and fix$\epsilon > 0$. Since X has dimension zero and is compact, we can cover X with finitely many clopen sets$U _ { i } \subseteq X \left( 1 \leq i \leq N \right)$of diameter$\leq \epsilon$. Now$\{ U _ { i } \backslash \bigcup _ { 1 \leq j < i } U _ { j } \} _ { i = 1 } ^ { N }$is a cover of X by disjoint open sets of diameter$\leq \epsilon$. Since$\epsilon > 0$Swas arbitrary, this implies that${ \check { H } } ^ { i } ( X ) = 0$ for$i > 0$. Thus by Lemma 3.3,$\tilde { H } _ { 0 } ( \mathbb { S } ^ { n } \setminus X ) = \mathring { H } ^ { n - 1 } ( X ) = 0$(since$n \geq 2 )$, which is suficient.
 
-Second, let us deal with the case$M = \mathbb { R } ^ { n }$. Define${ \bar { X } } = X \cup \{ \infty \} \subseteq \mathbb { R } ^ { n } \cup \{ \infty \} = \mathbb { S } ^ { n }$. We claim that X<sup>¯</sup> has dimension zero; to see this, it sufices to produce small clopen neighborhoods of$\infty \in \bar { X }$. Fix$R < \infty$. Since X has dimension zero and$X \cap { \overline { { B ( \mathbf { 0 } , R ) } } }$is compact, there exist finitely many clopen sets$U _ { i } \subseteq X \left( 1 \leq i \leq N \right)$of diameter$\leq 1$with${ \mathrm { ~ } X \cap \overline { { B ( \mathbf { 0 } , R ) } } } \subseteq \bigcup _ { i = 1 } ^ { N } U _ { i }$ Then${ \bar { X } } \setminus \bigcup _ { i = 1 } ^ { N } U _ { i }$is clopen in X<sup>¯</sup> and contains ∞. Since$R < \infty$Swas arbitrary, we get Sarbitrarily small clopen neighborhoods of$\infty \in \bar { X }$. Hence X<sup>¯</sup> has dimension zero, so by the case$M = \mathbb { S } ^ { n }$dealt with above, we have$H _ { 0 } ( \mathbb { R } ^ { n } \setminus X ) = H _ { 0 } ( \mathbb { S } ^ { n } \setminus { \bar { X } } ) = \mathbb { Z }$, which is suficient.
+Second, let us deal with the case$M = \mathbb { R } ^ { n }$. Define${ \bar { X } } = X \cup \{ \infty \} \subseteq \mathbb { R } ^ { n } \cup \{ \infty \} = \mathbb { S } ^ { n }$. We claim that X<sup>¯</sup> has dimension zero; to see this, it suffices to produce small clopen neighborhoods of$\infty \in \bar { X }$. Fix$R < \infty$. Since X has dimension zero and$X \cap { \overline { { B ( \mathbf { 0 } , R ) } } }$is compact, there exist finitely many clopen sets$U _ { i } \subseteq X \left( 1 \leq i \leq N \right)$of diameter$\leq 1$with${ \mathrm { ~ } X \cap \overline { { B ( \mathbf { 0 } , R ) } } } \subseteq \bigcup _ { i = 1 } ^ { N } U _ { i }$ Then${ \bar { X } } \setminus \bigcup _ { i = 1 } ^ { N } U _ { i }$is clopen in X<sup>¯</sup> and contains ∞. Since$R < \infty$Swas arbitrary, we get Sarbitrarily small clopen neighborhoods of$\infty \in \bar { X }$. Hence X<sup>¯</sup> has dimension zero, so by the case$M = \mathbb { S } ^ { n }$dealt with above, we have$H _ { 0 } ( \mathbb { R } ^ { n } \setminus X ) = H _ { 0 } ( \mathbb { S } ^ { n } \setminus { \bar { X } } ) = \mathbb { Z }$, which is suficient.
 
-Now let us deal with the case of general M. It sufices to show that$H ^ { 0 } ( M ) \to H ^ { 0 } ( M \backslash X )$ is an isomorphism (recall that$H ^ { 0 }$is just the group of locally constant maps to$\mathbb { Z } )$. Now consider any$p \in M$, and pick an open neighborhood$p \in U \cong \mathbb { R } ^ { n }$. Since X has dimension zero, so does$U \cap X$. Thus by the case$M = \mathbb { R } ^ { n }$dealt with above,$U \backslash X$is connected and nonempty. Thus any locally constant function$M \setminus X \to \mathbb { Z }$can be extended uniquely to a locally constant function$M \to \mathbb { Z }$, as needed.□
+Now let us deal with the case of general M. It suffices to show that$H ^ { 0 } ( M ) \to H ^ { 0 } ( M \backslash X )$ is an isomorphism (recall that$H ^ { 0 }$is just the group of locally constant maps to$\mathbb { Z } )$. Now consider any$p \in M$, and pick an open neighborhood$p \in U \cong \mathbb { R } ^ { n }$. Since X has dimension zero, so does$U \cap X$. Thus by the case$M = \mathbb { R } ^ { n }$dealt with above,$U \backslash X$is connected and nonempty. Thus any locally constant function$M \setminus X \to \mathbb { Z }$can be extended uniquely to a locally constant function$M \to \mathbb { Z }$, as needed.□
 
 ## 4 Nonexistence of faithful actions of$\mathbb { Z } _ { p }$on three-manifolds
 
@@ -358,15 +334,15 @@ This reduction is valid in any dimension.
 
 Definition 4.1. We say that an action of a group G on a topological space X is locally of finite order at a point$x \in X$if and only if some subgroup of finite index$G ^ { \prime } \leq G$fixes an open neighborhood of x. The action is$( g l o b a l l y )$of finite order if and only if some subgroup of finite index$G ^ { \prime } \leq G$fixes all of X.
 
-Newman’s theorem [24, p6 Theorem 2] (see also Dress [6, p204 Theorem 1] or Smith$\left[ 3 7 \right] )$ implies that on a connected manifold, a group action which is (everywhere) locally of finite order is globally of finite order. Thus if$\mathbb { Z } _ { p } \to$Homeo(M) is injective, then there exists a point$m \in M$where the action is not locally of finite order. In other words, no subgroup $p ^ { k } \mathbb { Z } _ { p }$fixes an open neighborhood of$m$
+Newman’s theorem [24, p6 Theorem 2] (see also Dress [6, p204 Theorem 1] or Smith [37]) implies that on a connected manifold, a group action which is (everywhere) locally of finite order is globally of finite order. Thus if$\mathbb { Z } _ { p } \to$Homeo(M) is injective, then there exists a point$m \in M$where the action is not locally of finite order. In other words, no subgroup $p ^ { k } \mathbb { Z } _ { p }$fixes an open neighborhood of$m$
 
-Now fix some homeomorphism between$B ( 3 ) \subseteq \mathbb { R } ^ { 3 }$and an open set in M containing m, such that 0 is identified with m. Note that (by continuity of the map$\mathbb { Z } _ { p } \to$Homeo(M)) for suficiently large$k ,$we have$p ^ { k } \mathbb { Z } _ { p } B ( 2 ) \subseteq B ( 3 )$and$d _ { \mathbb { R } ^ { 3 } } ( x , \alpha x ) \le \eta$for all$x \in B ( 2 )$and $\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus the action of$p ^ { k } \mathbb { Z } _ { p }$(which is isomorphic to$\mathbb { Z } _ { p } )$on$M ^ { \prime } : = p ^ { k } \mathbb { Z } _ { p } B ( 1 )$satisfies (i), (ii), and (iii) above. Thus it sufices to replace$( M , \mathbb { Z } _ { p } )$with$( M ^ { \prime } , p ^ { k } \mathbb { Z } _ { p } )$and derive a contradiction.
+Now fix some homeomorphism between$B ( 3 ) \subseteq \mathbb { R } ^ { 3 }$and an open set in M containing m, such that 0 is identified with m. Note that (by continuity of the map$\mathbb { Z } _ { p } \to$Homeo(M)) for sufficiently large$k ,$we have$p ^ { k } \mathbb { Z } _ { p } B ( 2 ) \subseteq B ( 3 )$and$d _ { \mathbb { R } ^ { 3 } } ( x , \alpha x ) \le \eta$for all$x \in B ( 2 )$and $\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus the action of$p ^ { k } \mathbb { Z } _ { p }$(which is isomorphic to$\mathbb { Z } _ { p } )$on$M ^ { \prime } : = p ^ { k } \mathbb { Z } _ { p } B ( 1 )$satisfies (i), (ii), and (iii) above. Thus it suffices to replace$( M , \mathbb { Z } _ { p } )$with$( M ^ { \prime } , p ^ { k } \mathbb { Z } _ { p } )$and derive a contradiction.
 
 Henceforth we assume that M is an open subset of$\mathbb { R } ^ { 3 }$satisfying (i), (ii), and (iii) above.
 
 ## 4.2 Step 2: An invariant metric and the plus operation in M
 
-Equip M with the following$\mathbb { Z } _ { p } .$-invariant metric, which induces the same topology as$d _ { \mathbb { R } ^ { 3 } }$:
+Equip M with the following$\mathbb { Z } _ { p }$-invariant metric, which induces the same topology as$d _ { \mathbb { R } ^ { 3 } }$:
 
 $$
 d _ {\mathrm{inv}} (x, y) := \int_ {\mathbb {Z} _ {p}} d _ {\mathbb {R} ^ {3}} (\alpha x, \alpha y) d \mu_ {\mathrm{Harr}} (\alpha)\tag{4.1}
@@ -386,7 +362,7 @@ Now suppose that in addition X is$\mathbb { Z } _ { p } { \mathrm { - i n v a r 
 
 ## 4.3 Step 3: Construction of an interesting compact set$Z \subseteq M$
 
-In this section, we construct a compact$\mathbb { Z } _ { p } .$-invariant set$Z \subseteq M$such that:
+In this section, we construct a compact$\mathbb { Z } _ { p }$-invariant set$Z \subseteq M$such that:
 
 1. On a coarse scale, Z looks like a handlebody of genus two.
 
@@ -404,15 +380,15 @@ Lemma 4.4. If$A \subseteq \partial K$is any finite set, then$K \setminus \mathbb
 
 Proof. By definition,$K _ { 0 } ^ { \circ }$is path-connected. Now the action of$\mathbb { Z } _ { p }$is within$\eta = 2 ^ { - 1 0 }$of the identity, so$\mathbb { Z } _ { p } ( K _ { 0 } ^ { \circ } )$is also path-connected.
 
-Now suppose$x \in \mathbb { Z } _ { p } K _ { 0 } \setminus \mathbb { Z } _ { p } A$Then there exists$\alpha \in \mathbb { Z } _ { p }$so that$\alpha ^ { - 1 } x \in K _ { 0 }$. From $\alpha ^ { - 1 } x$there is clearly a path inwards to$K _ { 0 } ^ { \circ }$, and this is disjoint from$\mathbb { Z } _ { p } A$since$\mathbb { Z } _ { p } A \subseteq \partial K$ Translating this path by α shows that$\mathbb { Z } _ { p } K _ { 0 } \setminus \mathbb { Z } _ { p } A$is path-connected.
+Now suppose$x \in \mathbb { Z } _ { p } K _ { 0 } \setminus \mathbb { Z } _ { p } A$. Then there exists$\alpha \in \mathbb { Z } _ { p }$so that$\alpha ^ { - 1 } x \in K _ { 0 }$. From $\alpha ^ { - 1 } x$there is clearly a path inwards to$K _ { 0 } ^ { \circ }$, and this is disjoint from$\mathbb { Z } _ { p } A$since$\mathbb { Z } _ { p } A \subseteq \partial K$. Translating this path by α shows that$\mathbb { Z } _ { p } K _ { 0 } \setminus \mathbb { Z } _ { p } A$is path-connected.
 
 Now suppose$x \in K \setminus \mathbb { Z } _ { p } A$. If x$\notin ~ \mathbb { Z } _ { p } K _ { 0 }$, then let V denote the (open) connected component of$K \setminus \mathbb { Z } _ { p } K _ { 0 }$containing x. By Remark 3.8 and Lemma 3.9, we can find a path from x to infinity in$\mathbb { R } ^ { 3 } \setminus \mathbb { Z } _ { p } A$. There is a time when this path first hits$\partial V \subseteq \mathbb { Z } _ { p } K _ { 0 }$, thus giving us a path from x to$\mathbb { Z } _ { p } K _ { 0 }$contained in$K \setminus \mathbb { Z } _ { p } A$. Thus$K \setminus \mathbb { Z } _ { p } A$is path-connected, as was to be shown.□
 
 Lemma 4.5. There exist points$x _ { 1 } , x _ { 2 } \in K$with$x _ { 1 } \notin$Fix$\mathbb { Z } _ { p }$and$\mathbb { Z } _ { p } x _ { 1 } \cap \mathbb { Z } _ { p } x _ { 2 } = \emptyset$, along with a compact$\mathbb { Z } _ { p }$-invariant set$L \subseteq M$of diameter$\leq 4 \eta$so that$L = L ^ { + } , K \cap L = \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 }$ and L contains a path from$x _ { 1 }$to$x _ { 2 }$
 
-Proof. Let$x _ { 1 } \in K$be any point of lowest z-coordinate in K. We claim that$x _ { 1 } \notin \operatorname { F i x } \mathbb { Z } _ { p }$ First, observe that since$x _ { 1 } \in K = ( \mathbb { Z } _ { p } K _ { 0 } ) ^ { + }$is a point of lowest z-coordinate, necessarily $x _ { 1 } \in \mathbb { Z } _ { p } K _ { 0 }$. If$x _ { 1 } ~ \in ~ K _ { 0 }$, then$x _ { 1 } ~ = ~ x _ { 0 }$(recall from Definition 4.3 that$x _ { 0 }$is the unique point of lowest z-coordinate in$K _ { 0 } )$, and by definition$x _ { 0 } \notin { }$Fix$\mathbb { Z } _ { p }$. On the other hand, if $x _ { 1 } \in ( \mathbb { Z } _ { p } K _ { 0 } ) \setminus K _ { 0 }$, then certainly$x _ { 1 } \notin$Fix$\mathbb { Z } _ { p }$. Thus$x _ { 1 } \notin$Fix$\mathbb { Z } _ { p }$.
+Proof. Let$x _ { 1 } \in K$be any point of lowest z-coordinate in K. We claim that$x _ { 1 } \notin \operatorname { F i x } \mathbb { Z } _ { p }$. First, observe that since$x _ { 1 } \in K = ( \mathbb { Z } _ { p } K _ { 0 } ) ^ { + }$is a point of lowest z-coordinate, necessarily $x _ { 1 } \in \mathbb { Z } _ { p } K _ { 0 }$. If$x _ { 1 } \in K _ { 0 }$, then$x _ { 1 } = x _ { 0 }$(recall from Definition 4.3 that$x _ { 0 }$is the unique point of lowest z-coordinate in$K _ { 0 } )$, and by definition$x _ { 0 } \notin$ Fix$\mathbb { Z } _ { p }$. On the other hand, if $x _ { 1 } \in ( \mathbb { Z } _ { p } K _ { 0 } ) \setminus K _ { 0 }$, then certainly$x _ { 1 } \notin$Fix$\mathbb { Z } _ { p }$. Thus$x _ { 1 } \notin$Fix$\mathbb { Z } _ { p }$.
 
-Since$x _ { 1 } \in \mathbb { Z } _ { p } K _ { 0 } .$, we may pick$x _ { 2 } ^ { \prime } \in \mathbb { Z } _ { p } ( K _ { 0 } ^ { \circ } ) \subseteq K ^ { \circ }$which is arbitrarily close to$x _ { 1 }$ Specifically, let us fix$x _ { 2 } ^ { \prime } \in K ^ { \circ } \cap B ( x _ { 1 } , \eta )$. Note that$x _ { 2 } ^ { \prime } \notin \mathbb { Z } _ { p } x _ { 1 }$since$x _ { 1 } \notin K ^ { \circ }$. Now we claim that there exists a continuous path$\gamma : [ 0 , 1 ]  B ( x _ { 1 } , \eta )$such that:
+Since$x _ { 1 } \in \mathbb { Z } _ { p } K _ { 0 }$, we may pick$x _ { 2 } ^ { \prime } \in \mathbb { Z } _ { p } ( K _ { 0 } ^ { \circ } ) \subseteq K ^ { \circ }$which is arbitrarily close to$x _ { 1 }$. Specifically, let us fix$x _ { 2 } ^ { \prime } \in K ^ { \circ } \cap B ( x _ { 1 } , \eta )$. Note that$x _ { 2 } ^ { \prime } \notin \mathbb { Z } _ { p } x _ { 1 }$since$x _ { 1 } \notin K ^ { \circ }$. Now we claim that there exists a continuous path$\gamma : [ 0 , 1 ] \to B ( x _ { 1 } , \eta )$such that:
 
 i. γ(0) = x<sub>1</sub>.
 
@@ -424,9 +400,9 @@ $$
 
 iv. 0 is not a limit point of$\gamma ^ { - 1 } ( K )$
 
-To construct such a path$\gamma ,$argue as follows. First, define$\gamma : [ 0 , \frac { 1 } { \cdot } ]  B ( x _ { 1 } , \eta )$to be some path straight downward from$x _ { 1 }$(this takes care of (i)). Since$x _ { 1 }$is a point of smallest z-coordinate in$K \supseteq \mathbb { Z } _ { p } x _ { 1 }$, this also takes care of (iv) and is consistent with (iii). Now by Remark 3.8 and Lemma 3.9, we know$B ( x _ { 1 } , \eta ) \setminus \mathbb { Z } _ { p } x _ { 1 }$is path-connected, so we can find a path$\gamma : [ \frac { 1 } { 2 } , 1 ]  B ( x _ { 1 } , \eta ) \setminus \mathbb { Z } _ { p } x _ { 1 }$from$\gamma ( \textstyle { \frac { 1 } { 2 } } )$to$x _ { 2 } ^ { \prime }$(this takes care of (ii) and (iii)). Splicing these two functions together gives$\gamma : [ 0 , 1 ]  B ( x _ { 1 } , \eta )$satisfying (i), (ii), (iii), and (iv).
+To construct such a path$\gamma ,$argue as follows. First, define$\gamma : [ 0 , \frac { 1 } { 2 } ] \to B ( x _ { 1 } , \eta )$to be some path straight downward from$x _ { 1 }$(this takes care of (i)). Since$x _ { 1 }$is a point of smallest z-coordinate in$K \supseteq \mathbb { Z } _ { p } x _ { 1 }$, this also takes care of (iv) and is consistent with (iii). Now by Remark 3.8 and Lemma 3.9, we know$B ( x _ { 1 } , \eta ) \setminus \mathbb { Z } _ { p } x _ { 1 }$is path-connected, so we can find a path$\gamma : [ \frac { 1 } { 2 } , 1 ]  B ( x _ { 1 } , \eta ) \setminus \mathbb { Z } _ { p } x _ { 1 }$from$\gamma ( \textstyle { \frac { 1 } { 2 } } )$to$x _ { 2 } ^ { \prime }$(this takes care of (ii) and (iii)). Splicing these two functions together gives$\gamma : [ 0 , 1 ]  B ( x _ { 1 } , \eta )$satisfying (i), (ii), (iii), and (iv).
 
-Now by (ii) and (iv) we have that$t : = \operatorname* { m i n } ( \gamma ^ { - 1 } ( K ) \setminus \{ 0 \} )$exists and is positive. Let $x _ { 2 } = \gamma ( t )$, and define$L _ { 0 } = \gamma ( [ 0 , t ] )$. By (iii), we have$\mathbb { Z } _ { p } x _ { 1 } \cap \mathbb { Z } _ { p } x _ { 2 } = \emptyset$. Define$L = ( \mathbb { Z } _ { p } L _ { 0 } ) ^ { + }$ which is$\mathbb { Z } _ { p }$-invariant by Lemma 4.2. By construction, L contains a path from$x _ { 1 }$to$x _ { 2 }$ Certainly$L _ { 0 } \subseteq B ( x _ { 1 } , \eta )$so$L \subseteq B ( x _ { 1 } , 2 \eta )$by Step 1(ii), and so L has diameter$\leq 4 \eta$. It remains only to show that$K \cap L = \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 }$(certainly the containment$\supseteq$is given by definition).
+Now by (ii) and (iv) we have that$t : = \operatorname* { m i n } ( \gamma ^ { - 1 } ( K ) \setminus \{ 0 \} )$exists and is positive. Let $x _ { 2 } = \gamma ( t )$, and define$L _ { 0 } = \gamma ( [ 0 , t ] )$. By (iii), we have$\mathbb { Z } _ { p } x _ { 1 } \cap \mathbb { Z } _ { p } x _ { 2 } = \emptyset$. Define$L = ( \mathbb { Z } _ { p } L _ { 0 } ) ^ { + }$ which is$\mathbb { Z } _ { p }$-invariant by Lemma 4.2. By construction, L contains a path from$x _ { 1 }$to$x _ { 2 }$. Certainly$L _ { 0 } \subseteq B ( x _ { 1 } , \eta )$so$L \subseteq B ( x _ { 1 } , 2 \eta )$by Step 1(ii), and so L has diameter$\leq 4 \eta$. It remains only to show that$K \cap L = \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 }$(certainly the containment$\supseteq$is given by definition).
 
 Note that$K \setminus \mathbb { Z } _ { p } L _ { 0 } = K \setminus \left( \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 } \right)$, which by Lemma 4.4 is path-connected. Thus $K \setminus \mathbb { Z } _ { p } L _ { 0 }$lies in a single connected component of$\mathbb { R } ^ { 3 } \backslash \mathbb { Z } _ { p } L _ { 0 }$. Now$\mathbb { Z } _ { p } L _ { 0 }$has diameter$\leq 4 \eta$as remarked above, and$K \setminus \mathbb { Z } _ { p } L _ { 0 }$contains a large handlebody, so it must lie in the unbounded component of$\mathbb { R } ^ { 3 } \setminus \mathbb { Z } _ { p } L _ { 0 }$. Hence$K \setminus ( \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 } )$is disjoint from$( \mathbb { Z } _ { p } L _ { 0 } ) ^ { + } = L$□
 
@@ -444,7 +420,7 @@ $$
 
 Note that$\mathbb { Z } _ { p }$acts on all of these groups and that the maps are$\mathbb { Z } _ { p } { \mathrm { - e q u i v a r i a n t } }$
 
-By Lemma 4.5,$K \cap L = \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 }$, so by Remark 3.8,${ \check { H } } ^ { i } ( \bar { K } \cap L ) = 0$for$i > 0$. Thus we have$\check { H } ^ { 2 } ( Z ) = \check { H } ^ { 2 } ( K ) \oplus \check { H } ^ { \hat { 2 } } ( L )$. Now applying Lemma$3 . 5 ( \mathrm { i v } )$twice shows that$K = K ^ { + }$ and$L = L ^ { + }$together imply that$Z = Z ^ { + }$
+By Lemma 4.5,$K \cap L = \mathbb { Z } _ { p } x _ { 1 } \cup \mathbb { Z } _ { p } x _ { 2 }$, so by Remark 3.8,${ \check { H } } ^ { i } ( K \cap L ) = 0$for$i > 0$. Thus we have$\check { H } ^ { 2 } ( Z ) = \check { H } ^ { 2 } ( K ) \oplus \check { H } ^ { 2 } ( L )$. Now applying Lemma$3 . 5 ( \mathrm { i v } )$twice shows that$K = K ^ { + }$ and$L = L ^ { + }$together imply that$Z = Z ^ { + }$. 
 
 Now let us show that$\mathbb { Z } _ { p }$acts on${ \check { H } } ^ { 1 } ( Z )$nontrivially. We use the exact sequence:
 
@@ -452,13 +428,13 @@ $$
 \check {H} ^ {0} (K) \oplus \check {H} ^ {0} (L) \rightarrow \check {H} ^ {0} (K \cap L) \rightarrow \check {H} ^ {1} (Z)\tag{4.3}
 $$
 
-Note that$\check { H } ^ { 0 }$is just the group of locally constant functions to$\mathbb { Z } .$. Thus it sufices to exhibit a locally constant function$q : K \cap L \to \mathbb { Z }$and an element$\alpha \in \mathbb { Z } _ { p }$such that$\alpha q - q$is not in the image of$\check { H } ^ { 0 } ( K ) \oplus \check { H } ^ { 0 } ( L )$. Let us define:
+Note that$\check { H } ^ { 0 }$is just the group of locally constant functions to$\mathbb { Z }$. Thus it suffices to exhibit a locally constant function$q : K \cap L \to \mathbb { Z }$and an element$\alpha \in \mathbb { Z } _ { p }$such that$\alpha q - q$is not in the image of$\check { H } ^ { 0 } ( K ) \oplus \check { H } ^ { 0 } ( L )$. Let us define:
 
 $$
 q (r) = \left\{ \begin{array}{l l} 1 & r \in p \mathbb {Z} _ {p} x _ {1} \\ 0 & r \in \bigcup_ {a \in (\mathbb {Z} / p) \setminus \{0 \}} (a + p \mathbb {Z} _ {p}) x _ {1} \cup \mathbb {Z} _ {p} x _ {2} \end{array} \right.\tag{4.4}
 $$
 
-(observe by Lemma 4.5 that$x _ { 1 } \notin \operatorname { F i x } \mathbb { Z } _ { p } ,$, so the sets on the right hand side are indeed disjoint). Let$\alpha \in \mathbb { Z } _ { p }$be congruent to 1 mod$p .$Then we have:
+(observe by Lemma 4.5 that$x _ { 1 } \notin \operatorname { F i x } \mathbb { Z } _ { p }$, so the sets on the right hand side are indeed disjoint). Let$\alpha \in \mathbb { Z } _ { p }$be congruent to 1 mod$p .$Then we have:
 
 $$
 (\alpha q - q) (r) = \left\{ \begin{array}{l l} - 1 & r \in p \mathbb {Z} _ {p} x _ {1} \\ 1 & r \in (1 + p \mathbb {Z} _ {p}) x _ {1} \\ 0 & r \in \bigcup_ {a \in (\mathbb {Z} / p) \setminus \{0, 1 \}} (a + p \mathbb {Z} _ {p}) x _ {1} \cup \mathbb {Z} _ {p} x _ {2} \end{array} \right.\tag{4.5}
@@ -466,13 +442,13 @@ $$
 
 Now by Lemma$4 . 5 , \ x _ { 1 } , x _ { 2 }$are in the same component of$L ,$and by Lemma 4.4 (taking $A \ = \ \emptyset$, they are in the same component of$K$. Thus every function in the image of $\check { H } ^ { 0 } ( L ) \oplus \check { H } ^ { 0 } ( K )$assigns the same value to$x _ { 1 }$and$x _ { 2 }$. Clearly this is not the case for$\alpha q - q$2 so we are done.□
 
-We just proved that$Z = Z ^ { + }$, so by Lemma 3.6,$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$is a final system of neighborhoods of$Z$. Thus by Lemma 3.1 we have$\check { H } ^ { 1 } ( Z ) = \varinjlim H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } )$as abelian groups with an action of$\mathbb { Z } _ { p } \ \left( \mathbb { Z } _ { p } \right.$acts on the latter since$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + ^ { \prime } }$is$\mathbb { Z } _ { p } .$-invariant by Lemma 4.2). Since the action on the limit group is nontrivial, the following definition makes sense.
+We just proved that$Z = Z ^ { + }$, so by Lemma 3.6,$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$is a final system of neighborhoods of$Z$. Thus by Lemma 3.1 we have$\check { H } ^ { 1 } ( Z ) = \varinjlim H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } )$as abelian groups with an action of$\mathbb { Z } _ { p } \ \left( \mathbb { Z } _ { p } \right.$acts on the latter since$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$is$\mathbb { Z } _ { p }$-invariant by Lemma 4.2). Since the action on the limit group is nontrivial, the following definition makes sense.
 
-Definition 4.8. Fix$\epsilon \in ( 0 , \eta )$such that the$\mathbb { Z } _ { p }$action on the image of the map$H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } )$ $\check { H } ^ { 1 } ( Z )$is nontrivial. Denote by$( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) _ { 0 }$the connected component containing$Z .$, and define$U = ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) _ { 0 } \setminus Z$, which is$\mathbb { Z } _ { p } .$-invariant by Lemma 4.2.
+Definition 4.8. Fix$\epsilon \in ( 0 , \eta )$such that the$\mathbb { Z } _ { p }$action on the image of the map$H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) \to \check { H } ^ { 1 } ( Z )$is nontrivial. Denote by$( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) _ { 0 }$the connected component containing$Z$, and define$U = ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) _ { 0 } \setminus Z$, which is$\mathbb { Z } _ { p }$-invariant by Lemma 4.2.
 
 ## 4.5 Step 5: Special elements of$S ( U )$
 
-Lemma 4.9. The set U is a quasicylinder in the sense of Definition$\it { 2 . 4 }$
+Lemma 4.9. The set U is a quasicylinder in the sense of Definition 2.4
 
 Proof. We have$\mathbb { R } ^ { 3 } \setminus U = Z \cup ( \mathbb { R } ^ { 3 } \setminus ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) _ { 0 } )$; the latter two sets are connected and disjoint, so by Lemma 3.3, we have$H _ { 2 } ( U ) = \mathbb { Z } .$
 
@@ -486,31 +462,29 @@ Recall the definition of$( S ( U ) , \leq )$from Section 2. Certainly the action
 
 Lemma 4.10. There exists an element${ \mathfrak { F } } \in S ( U )$which is fixed by$\mathbb { Z } _ { p }$.
 
-Proof. Observe that if F is any surface in U, then for suficiently large k, we have that$\alpha F$ is homotopic to F for all$\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus$\mathbb { Z } _ { p }$acts on$S ( U )$with finite orbits. Now any group acting with finite orbits on a nonempty lattice has a fixed point, namely the least upper bound of any orbit. Recall that$S ( U )$is nonempty by Remark 2.8.□
+Proof. Observe that if F is any surface in U, then for sufficiently large k, we have that$\alpha F$ is homotopic to F for all$\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus$\mathbb { Z } _ { p }$acts on$S ( U )$with finite orbits. Now any group acting with finite orbits on a nonempty lattice has a fixed point, namely the least upper bound of any orbit. Recall that$S ( U )$is nonempty by Remark 2.8.□
 
 Definition 4.11. Fix a PL$\pi _ { 1 } { \mathrm { - i n j e c t i v e } }$surface$F \subseteq U$such that$[ F ] \in { \cal S } ( U )$is fixed by$\mathbb { Z } _ { p }$ Denote by int(F) and ext(F) the two connected components of$\mathbb { R } ^ { 3 } \setminus F$
 
-Lemma 4.12. The$\mathbb { Z } _ { p }$action on U induces a homomorphism$\mathbb { Z } _ { p } \ \to \ \operatorname { M C G } ( F )$, as well as actions on all the homology and cohomology groups appearing in$( 4 . 6 ) \_ ( 4 . 9 )$. These actions are compatible with the maps in$( 4 . 6 ) \mathrm { - } ( 4 . 9 )$, as well as with the map$\operatorname { M C G } ( F ) \to$ $\operatorname { A u t } ( H _ { 1 } ( F ) )$
+Lemma 4.12. The$\mathbb { Z } _ { p }$action on U induces a homomorphism$\mathbb { Z } _ { p } \ \to \ \operatorname { M C G } ( F )$, as well as actions on all the homology and cohomology groups appearing in (4.6)–(4.9). These actions are compatible with the maps in (4.6)–(4.9), as well as with the map$\operatorname { M C G } ( F ) \to \operatorname { A u t } ( H _ { 1 } ( F ) )$.
 
 $$
 \begin{array}{c} H ^ {1} (N _ {\epsilon} ^ {\mathrm{inv}} (Z) ^ {+}) \longrightarrow H ^ {1} (\mathrm{int} (F)) \longrightarrow \check {H} ^ {1} (Z) \\ \Big \downarrow \\ H ^ {1} (F) \end{array}\tag{4.6}
 $$
 
 $$
-H _ {1} (Z) \to H _ {1} (\mathrm{int} (F))
+H _ {1} (Z) \to H _ {1} (\mathrm{int} (F))\tag{4.7}
 $$
 
 $$
-H _ {1} (M \setminus N _ {\epsilon} ^ {\mathrm{inv}} (Z) ^ {+}) \to H _ {1} (\operatorname{ext} (F))\tag{4.7}
+H _ {1} (M \setminus N _ {\epsilon} ^ {\mathrm{inv}} (Z) ^ {+}) \to H _ {1} (\operatorname{ext} (F))\tag{4.8}
 $$
-
-(4.8)
 
 $$
 H _ {1} (F) \xrightarrow {\sim} H _ {1} (\operatorname{int} (F)) \oplus H _ {1} (\operatorname{ext} (F))\tag{4.9}
 $$
 
-Proof. For every$\alpha \in \mathbb { Z } _ { p } ,$, we know by Lemma 2.3 that there is a compactly supported isotopy of U sending αF to F. Now such an isotopy can clearly be extended to all of M as the constant isotopy on$M \backslash U$. Thus for every$\alpha \in \mathbb { Z } _ { p } ,$let us pick an isotopy:
+Proof. For every$\alpha \in \mathbb { Z } _ { p }$, we know by Lemma 2.3 that there is a compactly supported isotopy of U sending αF to F. Now such an isotopy can clearly be extended to all of M as the constant isotopy on$M \backslash U$. Thus for every$\alpha \in \mathbb { Z } _ { p }$, let us pick an isotopy:
 
 $$
 \psi_ {\alpha} ^ {t}: M \to M \qquad (t \in [ 0, 1 ])\tag{4.10}
@@ -518,21 +492,21 @@ $$
 
 so that$\psi _ { \alpha } ^ { 0 } = \mathrm { i d } _ { M } , \psi _ { \alpha } ^ { 1 } ( \alpha F ) = F$, and$\psi _ { \alpha } ^ { t } ( x ) = x$for$x \in M \setminus U$. Denote by$T _ { \alpha } \colon M \to M$the action of$\alpha \in \mathbb { Z } _ { p }$
 
-Now observe that for every$\alpha \in \mathbb { Z } _ { p }$, the map$\psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$fixes$Z , \ N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$, and$F .$. Thus the map$\psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$induces an automorphism of each of the diagrams$( 4 . 6 ) \ - ( 4 . 9 )$and gives a compatible element of$\operatorname { M C G } ( F )$. It remains only to show that this is a homomorphism from $\mathbb { Z } _ { p }$
+Now observe that for every$\alpha \in \mathbb { Z } _ { p }$, the map$\psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$fixes$Z$, $N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$, and$F$. Thus the map$\psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$induces an automorphism of each of the diagrams (4.6)–(4.9) and gives a compatible element of$\operatorname { M C G } ( F )$. It remains only to show that this is a homomorphism from$\mathbb { Z } _ { p }$. 
 
-We need to show that for all$\alpha , \beta \in \mathbb { Z } _ { p }$, the two maps$\psi _ { \beta } ^ { 1 } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$and$\psi _ { \beta \alpha } ^ { 1 } \circ T _ { \beta \alpha }$ induce the same action on$( 4 . 6 ) \ - ( 4 . 9 )$and give the same element of$\operatorname { M C G } ( F )$. It of course sufices to show that$\psi _ { \beta } ^ { 1 } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { 1 } \circ T _ { \alpha } \circ ( \psi _ { \beta \alpha } ^ { 1 } \circ T _ { \beta \alpha } )$<sup>−1</sup> induces the trivial action on (4.6)–(4.9) and gives the trivial element of MCG(F). Now we write:
+We need to show that for all$\alpha , \beta \in \mathbb { Z } _ { p }$, the two maps$\psi _ { \beta } ^ { 1 } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { 1 } \circ T _ { \alpha }$and$\psi _ { \beta \alpha } ^ { 1 } \circ T _ { \beta \alpha }$ induce the same action on (4.6)–(4.9) and give the same element of$\operatorname { M C G } ( F )$. It of course suffices to show that$\psi _ { \beta } ^ { 1 } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { 1 } \circ T _ { \alpha } \circ ( \psi _ { \beta \alpha } ^ { 1 } \circ T _ { \beta \alpha } )$<sup>−1</sup> induces the trivial action on (4.6)–(4.9) and gives the trivial element of MCG(F). Now we write:
 
 $$
 \begin{array}{r} \psi_ {\beta} ^ {1} \circ T _ {\beta} \circ \psi_ {\alpha} ^ {1} \circ T _ {\alpha} \circ (\psi_ {\beta \alpha} ^ {1} \circ T _ {\beta \alpha}) ^ {- 1} = \psi_ {\beta} ^ {1} \circ T _ {\beta} \circ \psi_ {\alpha} ^ {1} \circ T _ {\alpha} \circ T _ {\beta \alpha} ^ {- 1} \circ (\psi_ {\beta \alpha} ^ {1}) ^ {- 1} \\ = \psi_ {\beta} ^ {1} \circ T _ {\beta} \circ \psi_ {\alpha} ^ {1} \circ T _ {\beta} ^ {- 1} \circ (\psi_ {\beta \alpha} ^ {1}) ^ {- 1} \end{array}\tag{4.11}
 $$
 
-This is the identity map on$Z$and on$M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$, so the action on their (co)homology is trivial. The map (4.11) is isotopic to the identity map via$\psi _ { \beta } ^ { t } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { t } \circ T _ { \beta } ^ { - 1 } \circ ( \psi _ { \beta \alpha } ^ { t } ) ^ { - 1 }$ for$t \in [ 0 , 1 ]$, which only moves points in a compact subset of$\dot { U }$. Thus the action on the cohomology of$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$is trivial as well. By Lemma 2.13, this isotopy induces the trivial element in$\operatorname { M C G } ( F )$, and this means that the action on the (co)homology of$F$, int(F), and ext(F) is trivial as well.□
+This is the identity map on$Z$and on$M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$, so the action on their (co)homology is trivial. The map (4.11) is isotopic to the identity map via$\psi _ { \beta } ^ { t } \circ T _ { \beta } \circ \psi _ { \alpha } ^ { t } \circ T _ { \beta } ^ { - 1 } \circ ( \psi _ { \beta \alpha } ^ { t } ) ^ { - 1 }$ for$t \in [ 0 , 1 ]$, which only moves points in a compact subset of$U$. Thus the action on the cohomology of$N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$is trivial as well. By Lemma 2.13, this isotopy induces the trivial element in$\operatorname { M C G } ( F )$, and this means that the action on the (co)homology of$F$, int(F), and ext(F) is trivial as well.□
 
 Lemma 4.13. The map$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$annihilates an open subgroup of$\mathbb { Z } _ { p }$and has non-trivial image.
 
-Proof. The action of$\mathbb { Z } _ { p }$on U is continuous, so for suficiently large$k ,$we have that$\alpha F$and F are homotopic as maps$F  U$for all$\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus the homomorphism$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$ annihilates a neighborhood of the identity in$\mathbb { Z } _ { p }$
+Proof. The action of$\mathbb { Z } _ { p }$on U is continuous, so for sufficiently large$k ,$we have that$\alpha F$and F are homotopic as maps$F \to U$for all$\alpha \in p ^ { k } \mathbb { Z } _ { p }$. Thus the homomorphism$\mathbb { Z } _ { p } \to \operatorname { M C G } ( F )$ annihilates a neighborhood of the identity in$\mathbb { Z } _ { p }$. 
 
-To prove that the image is nontrivial, it sufices to show that the$\mathbb { Z } _ { p }$action on$H ^ { 1 } ( F )$is nontrivial. For this, consider equation (4.6). By Definition 4.8, there exists an element of $H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } )$whose image in$\check { H } ^ { 1 } ( Z )$is not fixed by$\mathbb { Z } _ { p }$. Thus the action of$\mathbb { Z } _ { p }$on$H ^ { 1 } ( \mathrm { i n t } ( F ) )$ is nontrivial. Now the vertical map$H ^ { 1 } ( \operatorname { i n t } ( F ) ) \to H ^ { \hat { 1 } } ( F )$is injective (otherwise the Mayer– Vietoris sequence applied to$\mathbb { R } ^ { 3 } = \mathrm { i n t } ( F ) \cup _ { F } \mathrm { e x t } ( F )$would imply$H ^ { 1 } ( \mathbb { R } ^ { 3 } ) \neq 0 )$Thus the action of$\mathbb { Z } _ { p }$on$H ^ { 1 } ( F )$is nontrivial as well.□
+To prove that the image is nontrivial, it suffices to show that the$\mathbb { Z } _ { p }$action on$H ^ { 1 } ( F )$is nontrivial. For this, consider equation (4.6). By Definition 4.8, there exists an element of $H ^ { 1 } ( N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } )$whose image in$\check { H } ^ { 1 } ( Z )$is not fixed by$\mathbb { Z } _ { p }$. Thus the action of$\mathbb { Z } _ { p }$on$H ^ { 1 } ( \mathrm { i n t } ( F ) )$ is nontrivial. Now the vertical map$H ^ { 1 } ( \operatorname { i n t } ( F ) ) \to H ^ { 1 } ( F )$is injective (otherwise the Mayer– Vietoris sequence applied to$\mathbb { R } ^ { 3 } = \mathrm { i n t } ( F ) \cup _ { F } \mathrm { e x t } ( F )$would imply$H ^ { 1 } ( \mathbb { R } ^ { 3 } ) \neq 0 )$. Thus the action of$\mathbb { Z } _ { p }$on$H ^ { 1 } ( F )$is nontrivial as well.□
 
 Lemma 4.14. There is a rank four submodule of$H _ { 1 } ( F ) ^ { \mathbb { Z } _ { p } }$on which the intersection form is:
 
@@ -540,9 +514,9 @@ $$
 \left( \begin{array}{c c} 0 & 1 \\ - 1 & 0 \end{array} \right) \oplus \left( \begin{array}{c c} 0 & 1 \\ - 1 & 0 \end{array} \right)\tag{4.12}
 $$
 
-Proof. There are two obvious loops in$K _ { 0 }$(Definition 4.3) generating its homology, and two obvious dual loops in$M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$. Since the$\mathbb { Z } _ { p }$action is within$\eta = 2 ^ { - 1 0 }$of the identity, it is easy to see that their classes in homology are fixed by$\mathbb { Z } _ { p } .$. Thus we have well-defined classes $\alpha _ { 1 } , \alpha _ { 2 } \in H _ { 1 } ( Z ) ^ { \mathbb { Z } _ { p } }$and$\beta _ { 1 } , \beta _ { 2 } \in H _ { 1 } ( M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) ^ { \mathbb { Z } _ { p } }$with linking numbers$\operatorname { l k } ( \alpha _ { i } , \beta _ { j } ) = \delta _ { i j }$ Now the maps from equations (4.7), (4.8), and the isomorphism (4.9) give us corresponding elements$\alpha _ { 1 } , \alpha _ { 2 } , \beta _ { 1 } , \beta _ { 2 } \in H _ { 1 } ( F ) ^ { \mathbb { Z } _ { p } }$. The intersection form on$H _ { 1 } ( F )$coincides with the linking pairing between$H _ { 1 } ( \mathrm { i n t } ( F ) )$and$H _ { 1 } ( \mathrm { e x t } ( F ) )$. Thus the intersection form on the submodule of$H _ { 1 } ( F ) ^ { \mathbb { Z } _ { p } }$generated by$\alpha _ { 1 } , \alpha _ { 2 } , \beta _ { 1 } , \beta _ { 2 }$is indeed given by (4.12).□
+Proof. There are two obvious loops in$K _ { 0 }$(Definition 4.3) generating its homology, and two obvious dual loops in$M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + }$. Since the$\mathbb { Z } _ { p }$action is within$\eta = 2 ^ { - 1 0 }$of the identity, it is easy to see that their classes in homology are fixed by$\mathbb { Z } _ { p }$. Thus we have well-defined classes $\alpha _ { 1 } , \alpha _ { 2 } \in H _ { 1 } ( Z ) ^ { \mathbb { Z } _ { p } }$and$\beta _ { 1 } , \beta _ { 2 } \in H _ { 1 } ( M \setminus N _ { \epsilon } ^ { \mathrm { i n v } } ( Z ) ^ { + } ) ^ { \mathbb { Z } _ { p } }$with linking numbers$\operatorname { l k } ( \alpha _ { i } , \beta _ { j } ) = \delta _ { i j }$. Now the maps from equations (4.7), (4.8), and the isomorphism (4.9) give us corresponding elements$\alpha _ { 1 } , \alpha _ { 2 } , \beta _ { 1 } , \beta _ { 2 } \in H _ { 1 } ( F ) ^ { \mathbb { Z } _ { p } }$. The intersection form on$H _ { 1 } ( F )$coincides with the linking pairing between$H _ { 1 } ( \mathrm { i n t } ( F ) )$and$H _ { 1 } ( \mathrm { e x t } ( F ) )$. Thus the intersection form on the submodule of$H _ { 1 } ( F ) ^ { \mathbb { Z } _ { p } }$generated by$\alpha _ { 1 } , \alpha _ { 2 } , \beta _ { 1 } , \beta _ { 2 }$is indeed given by (4.12).□
 
-By Lemma 4.13, the image of$\mathbb { Z } _ { p }$in$\operatorname { M C G } ( F )$is a nontrivial cyclic p-group. It has a (unique) subgroup isomorphic to$\mathbb { Z } / p ,$, and by Lemma 4.14 this subgroup$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$ has the property that$H _ { 1 } ( F ) ^ { \mathbb { Z } / p }$has a submodule on which the intersection form is given by (4.12). This contradicts Lemma 5.1 below, and thus completes the proof of Theorem 1.5.
+By Lemma 4.13, the image of$\mathbb { Z } _ { p }$in$\operatorname { M C G } ( F )$is a nontrivial cyclic p-group. It has a (unique) subgroup isomorphic to$\mathbb { Z } / p$, and by Lemma 4.14 this subgroup$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$ has the property that$H _ { 1 } ( F ) ^ { \mathbb { Z } / p }$has a submodule on which the intersection form is given by (4.12). This contradicts Lemma 5.1 below, and thus completes the proof of Theorem 1.5.
 
 Remark 4.15. One expects that if we make U thick enough around most of Z (but still thin near$L )$, then away from L the surface F can be made to look like a punctured surface of genus two. However, it is not clear how to prove this stronger, more geometric property about F.
 
@@ -552,27 +526,25 @@ If we could prove this, then the final analysis is more robust. Instead of homol
 
 Lemma 5.1. Let F be a closed connected oriented surface, and let$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$be some cyclic subgroup of prime order. Then the intersection form of F restricted to$H _ { 1 } ( F ) ^ { \mathbb { Z } / p }$and taken modulo p has rank at most two.
 
-The proof below follows Symonds [40, pp389–390 Theorem B] and Chen–Glover–Jensen $[ 5 ,$Theorem 1.1], who make explicit a classification due to Nielsen [25] (in fact, Symonds result actually implies ours for$p > 2 )$.
+The proof below follows Symonds [40, pp389–390 Theorem B] and Chen–Glover–Jensen [5, Theorem 1.1], who make explicit a classification due to Nielsen [25] (in fact, Symonds’ result actually implies ours for$p > 2 )$.
 
 Proof. We seek simply to classify all subgroups$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$and prove that in each case, the conclusion of the lemma is satisfied. This classification is essentially due to Nielsen [25], who showed that finite cyclic subgroups$G \subseteq \operatorname { M C G } ( F )$are classifed up to conjugacy by their “fixed point data”.
 
-By work of Nielsen [26], any$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$is realized by a genuine action of$\mathbb { Z } / p$on F by isometries in some metric (see Thurston [42] or Kerckhof [15] for a modern perspective on this fact and its generalization to any finite group). Now let us switch notation and write $\tilde { S } = F , S = F / ( \mathbb { Z } / p )$(the quotient orbifold), and S for the coarse space of$\boldsymbol { S }$. The cover $\tilde { S }  s$is classified by an element$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$, which is nonzero since$\tilde { S }$is connected. Let g denote the genus of$S ,$and n the number of orbifold points of$\boldsymbol { S }$
+By work of Nielsen [26], any$\mathbb { Z } / p \subseteq \operatorname { M C G } ( F )$is realized by a genuine action of$\mathbb { Z } / p$on F by isometries in some metric (see Thurston [42] or Kerckhoff [15] for a modern perspective on this fact and its generalization to any finite group). Now let us switch notation and write$\tilde { S } = F$, $\mathcal { S } = F / ( \mathbb { Z } / p )$(the quotient orbifold), and S for the coarse space of$\mathcal { S }$. The cover$\tilde { S } \to S$is classified by an element$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$, which is nonzero since$\tilde { S }$is connected. Let g denote the genus of$S$, and n the number of orbifold points of$\mathcal { S }$
 
 Now for$( \tilde { S } , S , \alpha , g , n )$as above, we prove the following more precise statement (which certainly implies the lemma):
 
 $$
-\text { the   intersection   form   on } H _ {1} (\tilde {S}) ^ {\mathbb {Z} / p} \cong \left\{ \begin{array}{l l} \left( \begin{array}{c c} 0 & p \\ - p & 0 \end{array} \right) ^ {\oplus (g - 1)} \oplus \left( \begin{array}{c c} 0 & 1 \\ - 1 & 0 \end{array} \right) & n = 0 \\ \left( \begin{array}{c c} 0 & p \\ - p & 0 \end{array} \right) ^ {\oplus g} & n > 0 \end{array} \right.
+\text { the   intersection   form   on } H _ {1} (\tilde {S}) ^ {\mathbb {Z} / p} \cong \left\{ \begin{array}{l l} \left( \begin{array}{c c} 0 & p \\ - p & 0 \end{array} \right) ^ {\oplus (g - 1)} \oplus \left( \begin{array}{c c} 0 & 1 \\ - 1 & 0 \end{array} \right) & n = 0 \\ \left( \begin{array}{c c} 0 & p \\ - p & 0 \end{array} \right) ^ {\oplus g} & n > 0 \end{array} \right.\tag{5.1}
 $$
 
-(5.1)
+First, let us treat the case$n = 0 ~ ( \mathrm { s o } ~ \mathcal { S } = S )$. It is well-known that both compositions$\mathrm { M C G } ( \Sigma _ { g } ) \to \mathrm { S p } ( 2 g , \mathbb { Z } ) \to \mathrm { S p } ( 2 g , \mathbb { Z } / p )$are surjective, and that$\operatorname { S p } ( 2 g , \mathbb { Z } / p )$acts transitively on the nonzero elements of$( \mathbb { Z } / p ) ^ { \oplus 2 g }$. Thus without loss of generality, it suffices to consider one particular nonzero$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$. Thus, let us suppose that α is the Poincaré dual of a nonseparating simple closed curve ℓ on S. Then the cover$\tilde { S }$is obtained by cutting S along ℓ and gluing together in a circle$p$copies of the resulting cut surface. Now one easily observes that there is a direct sum decomposition respecting intersection forms$H _ { 1 } ( \tilde { S } ) \cong H _ { 1 } ( \Sigma _ { 1 } )$⊕ $H _ { 1 } ( \Sigma _ { g - 1 } ) ^ { \oplus p }$, where$\mathbb { Z } / p$acts trivially on$H _ { 1 } ( \Sigma _ { 1 } )$and acts by rotation of the summands on$H _ { 1 } ( \Sigma _ { g - 1 } ) ^ { \oplus p }$. Then$H _ { 1 } ( { \tilde { S } } ) ^ { \mathbb { Z } / p }$is$H _ { 1 } ( \Sigma _ { 1 } )$with its usual intersection form, plus a copy of $H _ { 1 } ( \Sigma _ { g - 1 } )$with its intersection form multiplied by$p .$Hence equation (5.1) holds in the case $n = 0$
 
-First, let us treat the case$n = 0 ~ ( \mathrm { s o } ~ \mathcal { S } = S )$. It is well-known that both compositions $\mathrm { M C G } ( \Sigma _ { g } )  \mathrm { S p } ( 2 g , \mathbb { Z } )  \mathrm { S p } ( 2 g , \mathbb { Z } / p )$are surjective, and that$\operatorname { S p } ( 2 g , \mathbb { Z } / p )$acts transitively on the nonzero elements of$( \mathbb { Z } / p ) ^ { \oplus 2 g }$. Thus without loss of generality, it sufices to consider one particular nonzero$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$. Thus, let us suppose that α is the Poincar´e dual of a nonseparating simple closed curve ℓ on S. Then the cover$\tilde { S }$is obtained by cutting S along ℓ and gluing together in a circle$p$copies of the resulting cut surface. Now one easily observes that there is a direct sum decomposition respecting intersection forms$H _ { 1 } ( \tilde { S } ) \cong H _ { 1 } ( \Sigma _ { 1 } )$⊕ $H _ { 1 } ( \Sigma _ { g - 1 } ) ^ { \oplus p }$, where$\mathbb { Z } / p$acts trivially on$H _ { 1 } ( \Sigma _ { 1 } )$and acts by rotation of the summands on$\bar { H _ { 1 } } ( \Sigma _ { g - 1 } ) ^ { \oplus p }$Then$H _ { 1 } ( { \tilde { S } } ) ^ { \mathbb { Z } / p }$is$H _ { 1 } ( \Sigma _ { 1 } )$with its usual intersection form, plus a copy of $H _ { 1 } ( \Sigma _ { g - 1 } )$with its intersection form multiplied by$p .$Hence equation (5.1) holds in the case $n = 0$
+Now, let us treat the case$n > 0$. Label the orbifold points$p _ { 1 } , \ldots , p _ { n } \in { \mathcal { S } }$, and define $r _ { i } : H ^ { 1 } ( S , \mathbb { Z } / p ) \to \mathbb { Z } / p$to be the evaluation on a small loop around$p _ { i }$. By construction, the orbifold points are precisely the ramification points of$\tilde { S } \to S$, and hence$r _ { i } ( \alpha ) \neq 0$for all$i$. On the other hand, if${ \mathcal { D } } \subseteq S$is a disk containing all n orbifold points, then$\partial \mathcal { D } = \partial ( \mathcal { S } \setminus \mathcal { D } )$ is null-homologous in$\mathcal { S }$, so$\textstyle \sum _ { i = 1 } ^ { n } r _ { i } ( \alpha ) = 0$. Thus in particular$n \geq 2$. 
 
-Now, let us treat the case$n > 0$. Label the orbifold points$p _ { 1 } , \ldots , p _ { n } \in { \mathcal { S } }$, and define $r _ { i } : H ^ { 1 } ( S , \mathbb { Z } / p ) \to \mathbb { Z } / p$to be the evaluation on a small loop around$p _ { i }$. By construction, the orbifold points are precisely the ramification points of$\tilde { S }  S .$, and hence$r _ { i } ( \alpha ) \neq 0$for all$i .$ On the other hand, if${ \mathcal { D } } \subseteq S$is a disk containing all n orbifold points, then$\partial \mathcal { D } = \partial ( \mathcal { S } \setminus \mathcal { D } )$ is null-homologous in${ \cal { S } } _ { ; }$so$\textstyle \sum _ { i = 1 } ^ { n } r _ { i } ( \alpha ) = 0$. Thus in particular$n \geq 2$
+Next, let us show how to reduce to the case where either$g = 0 \ \mathrm { o r } \ n = 2$. So, suppose $g \geq 1$and$n \geq 3$, and let${ \mathcal { D } } \subseteq { \mathcal { S } }$be a disk containing$p _ { 1 } , \ldots , p _ { n - 1 }$. Take$D$and$S \setminus \mathcal { D }$and glue in a disk with a single$\mathbb { Z } / p$orbifold point to each, and call the resulting closed orbifolds $S ^ { \prime }$and$S ^ { \prime \prime }$respectively. The class$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$naturally induces$\alpha ^ { \prime } \in H ^ { 1 } ( S ^ { \prime } , \mathbb { Z } / p )$and $\alpha ^ { \prime \prime } \in H ^ { 1 } ( S ^ { \prime \prime } , \mathbb { Z } / p )$, and so we get covers${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$. Since$\begin{array} { r } { \langle \alpha , \partial D \rangle = \sum _ { i = 1 } ^ { n - 1 } r _ { i } ( \alpha ) = - r _ { n } ( \alpha ) \neq } \neq 0$, it follows that ∂D lifts to a single separating loop in$\tilde { S }$, which exhibits$\tilde { S }$as a connected sum of${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$. Hence$H _ { 1 } ( \tilde { S } ) = H _ { 1 } ( \tilde { S } ^ { \prime } ) \oplus H _ { 1 } ( \tilde { S } ^ { \prime \prime } )$respecting the intersection form and the$\mathbb { Z } / p$action. Now$( g ( S ^ { \prime } ) , n ( S ^ { \prime } ) ) = ( 0 , n ( S ) )$and$( g ( S ^ { \prime \prime } ) , n ( S ^ { \prime \prime } ) ) = ( g ( S ) , 2 )$, so knowing equation (5.1) for${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$implies it for$\tilde { S }$. Hence it suffices to deal with the two cases $g = 0$and$n = 2$
 
-PNext, let us show how to reduce to the case where either$g = 0 \ \mathrm { o r } \ n = 2$. So, suppose $g \geq 1$and$n \geq 3$, and let${ \mathcal { D } } \subseteq S$be a disk containing$p _ { 1 } , \ldots , p _ { n - 1 }$. Take D and$s \backslash \mathcal D$and glue in a disk with a single$\mathbb { Z } / p$orbifold point to each, and call the resulting closed orbifolds $S ^ { \prime }$and$S ^ { \prime \prime }$respectively. The class$\alpha \in H ^ { 1 } ( S , \mathbb { Z } / p )$naturally induces$\alpha ^ { \prime } \in H ^ { 1 } ( S ^ { \prime } , \mathbb { Z } / p )$and $\alpha ^ { \prime \prime } \in H ^ { 1 } ( S ^ { \prime \prime } , \mathbb { Z } / p )$, and so we get covers${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$. Since$\begin{array} { r } { \langle \alpha , \partial D \rangle = \sum _ { i = 1 } ^ { n - 1 } r _ { i } ( \alpha ) = - r _ { n } ( \alpha ) \neq } \end{array}$ $0 ,$it follows that ∂D lifts to a single separating loop in$\tilde { S }$P, which exhibits$S$as a connected sum of${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$. Hence$H _ { 1 } ( \tilde { S } ) = H _ { 1 } ( \tilde { S } ^ { \prime } ) \oplus H _ { 1 } ( \tilde { S } ^ { \prime \prime } )$respecting the intersection form and the$\mathbb { Z } / p$action. Now$( g ( S ^ { \prime } ) , n ( S ^ { \prime } ) ) = ( 0 , n ( S ) )$and$( g ( S ^ { \prime \prime } ) , n ( S ^ { \prime \prime } ) ) = ( g ( S ) , 2 )$, so knowing equation (5.1) for${ \tilde { S } } ^ { \prime }$and${ \tilde { S } } ^ { \prime \prime }$implies it for$\tilde { S }$. Hence it sufices to deal with the two cases $g = 0$and$n = 2$
-
-Case$g = 0$. Embed a tree$T = ( V , E )$in$S _ { ; }$where$V = \{ p _ { 1 } , \ldots , p _ { n - 1 } \}$and where no edge passes through$p _ { n }$. This gives a cell decomposition of S, which we lift to a$( \mathbb { Z } / p )$-equivariant cell decomposition of$\tilde { S }$. Now let us consider the cellular chains computing$H _ { 1 } ( \tilde { S } )$. There is exactly one 2-cell, and it has zero boundary. Thus$H _ { 1 } ( \tilde { S } )$is simply the group of 1-cycles. Now a 1-chain is fixed by$\mathbb { Z } / p$if for all$e \in E$it assigns the same weight to each of the$p$ lifts of$e .$. Now it is easy to observe that since$T$is a tree, such a 1-chain cannot be a 1-cycle unless it vanishes. Thus$H _ { 1 } ( \tilde { S } ) ^ { \mathbb { Z } / p } = 0$, so equation (5.1) holds in the case$g = 0$
+Case$g = 0$. Embed a tree$T = ( V , E )$in$S$, where$V = \{ p _ { 1 } , \ldots , p _ { n - 1 } \}$and where no edge passes through$p _ { n }$. This gives a cell decomposition of S, which we lift to a$( \mathbb { Z } / p )$-equivariant cell decomposition of$\tilde { S }$. Now let us consider the cellular chains computing$H _ { 1 } ( \tilde { S } )$. There is exactly one 2-cell, and it has zero boundary. Thus$H _ { 1 } ( \tilde { S } )$is simply the group of 1-cycles. Now a 1-chain is fixed by$\mathbb { Z } / p$if for all$e \in E$it assigns the same weight to each of the$p$ lifts of$e$. Now it is easy to observe that since$T$is a tree, such a 1-chain cannot be a 1-cycle unless it vanishes. Thus$H _ { 1 } ( \tilde { S } ) ^ { \mathbb { Z } / p } = 0$, so equation (5.1) holds in the case$g = 0$. 
 
 Case$n = 2$. There is a natural exact sequence:
 
@@ -580,9 +552,9 @@ $$
 0 \to H ^ {1} (S, \mathbb {Z} / p) \to H ^ {1} (\mathcal {S}, \mathbb {Z} / p) \xrightarrow {(r _ {1} , r _ {2})} (\mathbb {Z} / p) ^ {\oplus 2} \xrightarrow {+} \mathbb {Z} / p \to 0\tag{5.2}
 $$
 
-Now, multiplying α by a nonzero element of$\mathbb { Z } / p$yields an equivalent problem, so we assume without loss of generality that$\alpha \in A : = ( r _ { 1 } , r _ { 2 } ) ^ { - 1 } ( 1 , - 1 )$. We claim that MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$ acts transitively on$A .$. Let$[ \ell ] \in A$be the Poincar´e dual of a simple arc ℓ from$p _ { 1 }$to$p _ { 2 }$. We observed earlier that MCG(S rel ℓ) acts transitively on the nonzero elements of$H ^ { 1 } ( S , \mathbb { Z } / p )$; hence MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on$A \setminus \{ [ \ell ] \}$(by exactness). On the other hand, since$g \geq 1$, there certainly exists$\gamma \in \operatorname { M C G } ( S$rel$\{ p _ { 1 } , p _ { 2 } \} )$for which$\gamma [ \ell ] - [ \ell ] \in H ^ { 1 } ( S , \mathbb { Z } / p )$ is nonzero (for instance,$\gamma$could be a Dehn twist around a nonseparating simple closed curve which intersects ℓ exactly once), and so [ℓ] is in the same orbit as$A \setminus \{ [ \ell ] \}$. Thus
+Now, multiplying α by a nonzero element of$\mathbb { Z } / p$yields an equivalent problem, so we assume without loss of generality that$\alpha \in A : = ( r _ { 1 } , r _ { 2 } ) ^ { - 1 } ( 1 , - 1 )$. We claim that MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$ acts transitively on$A$. Let$[ \ell ] \in A$be the Poincaré dual of a simple arc ℓ from$p _ { 1 }$to$p _ { 2 }$. We observed earlier that MCG(S rel ℓ) acts transitively on the nonzero elements of$H ^ { 1 } ( S , \mathbb { Z } / p )$; hence MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on$A \setminus \{ [ \ell ] \}$(by exactness). On the other hand, since$g \geq 1$, there certainly exists$\gamma \in \operatorname { M C G } ( S$rel$\{ p _ { 1 } , p _ { 2 } \} )$for which$\gamma [ \ell ] - [ \ell ] \in H ^ { 1 } ( S , \mathbb { Z } / p )$ is nonzero (for instance,$\gamma$could be a Dehn twist around a nonseparating simple closed curve which intersects ℓ exactly once), and so [ℓ] is in the same orbit as$A \setminus \{ [ \ell ] \}$. Thus
 
-MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may assume without loss of generality that$\alpha = [ \ell ]$. Now we can see the cover$\tilde { S }  S$explicitly: we cut S along ℓ and glue together$p$copies in the relevant fashion. One then easily observes that there is an isomorphism respecting intersection forms$H _ { 1 } ( \tilde { S } ) \cong H _ { 1 } ( \Sigma _ { g } ) ^ { \oplus p }$, where$\mathbb { Z } / p$acts by rotation of the summands. Then$H _ { 1 } ( { \tilde { S } } ) ^ { \mathbb { Z } / p }$is a copy of$H _ { 1 } ( \Sigma _ { g } )$with its intersection form multiplied by$p .$ Hence equation (5.1) holds in the case$n = 2$as well, and the proof is complete.□
+MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may assume without loss of generality that$\alpha = [ \ell ]$. Now we can see the cover$\tilde { S } \to S$explicitly: we cut S along ℓ and glue together$p$copies in the relevant fashion. One then easily observes that there is an isomorphism respecting intersection forms$H _ { 1 } ( \tilde { S } ) \cong H _ { 1 } ( \Sigma _ { g } ) ^ { \oplus p }$, where$\mathbb { Z } / p$acts by rotation of the summands. Then$H _ { 1 } ( { \tilde { S } } ) ^ { \mathbb { Z } / p }$is a copy of$H _ { 1 } ( \Sigma _ { g } )$with its intersection form multiplied by$p .$ Hence equation (5.1) holds in the case$n = 2$as well, and the proof is complete.□
 
 ## References
 
@@ -592,7 +564,7 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [3] R. H. Bing. An alternative proof that 3-manifolds can be triangulated. Ann. of Math. (2), 69:37–65, 1959.
 
-[4] Salomon Bochner and Deane Montgomery. Locally compact groups of diferentiable transformations. Ann. of Math. (2), 47:639–653, 1946.
+[4] Salomon Bochner and Deane Montgomery. Locally compact groups of differentiable transformations. Ann. of Math. (2), 47:639–653, 1946.
 
 [5] Yu Qing Chen, Henry H. Glover, and Craig A. Jensen. Prime order subgroups of mapping class groups. JP J. Geom. Topol., 11(2):87–99, 2011.
 
@@ -610,7 +582,7 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [12] A. J. S. Hamilton. The triangulation of 3-manifolds. Quart. J. Math. Oxford Ser. (2), 27(105):63–70, 1976.
 
-[13] William Jaco and J. Hyam Rubinstein. PL minimal surfaces in 3-manifolds. J. Diferential Geom., 27(3):493–524, 1988.
+[13] William Jaco and J. Hyam Rubinstein. PL minimal surfaces in 3-manifolds. J. Differential Geom., 27(3):493–524, 1988.
 
 [14] Osamu Kakimizu. Finding disjoint incompressible spanning surfaces for a link. Hiroshima Math. J., 22(2):225–236, 1992.
 
@@ -620,7 +592,7 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [17] Joo Sung Lee. Totally disconnected groups, p-adic groups and the Hilbert-Smith conjecture. Commun. Korean Math. Soc., 12(3):691–699, 1997.
 
-[18] <sup>˘</sup>Iozhe Maleshich. The Hilbert-Smith conjecture for H¨older actions. Uspekhi Mat. Nauk, 52(2(314)):173–174, 1997.
+[18] Ĭozhe Maleshich. The Hilbert-Smith conjecture for Hölder actions. Uspekhi Mat. Nauk, 52(2(314)):173–174, 1997.
 
 [19] Gaven J. Martin. The Hilbert-Smith conjecture for quasiconformal actions. Electron. Res. Announc. Amer. Math. Soc., 5:66–70 (electronic), 1999.
 
@@ -634,7 +606,7 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [24] M. H. A. Newman. A theorem on periodic transformations of spaces. Quart. J. Math., os-2(1):1–8, 1931.
 
-[25] J. Nielsen. Die struktur periodischer transformationen von fl¨achen. Danske Vid. Selsk, Mat.-Fys. Medd., 15:1–77, 1937.
+[25] J. Nielsen. Die struktur periodischer transformationen von Flächen. Danske Vid. Selsk, Mat.-Fys. Medd., 15:1–77, 1937.
 
 [26] Jakob Nielsen. Abbildungsklassen endlicher Ordnung. Acta Math., 75:23–115, 1943.
 
@@ -648,7 +620,7 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [31] Frank Raymond and R. F. Williams. Examples of p-adic transformation groups. Ann. of Math. (2), 78:92–106, 1963.
 
-[32] Du˘san Repov˘s and Evgenij S˘cepin. A proof of the Hilbert-Smith conjecture for actions <sup>˘</sup> by Lipschitz maps. Math. Ann., 308(2):361–364, 1997.
+[32] Dušan Repovš and Evgenij Ščepin. A proof of the Hilbert-Smith conjecture for actions by Lipschitz maps. Math. Ann., 308(2):361–364, 1997.
 
 [33] J. Sacks and K. Uhlenbeck. The existence of minimal immersions of 2-spheres. Ann. of Math. (2), 113(1):1–24, 1981.
 
@@ -668,9 +640,9 @@ MCG(S rel$\{ p _ { 1 } , p _ { 2 } \} )$acts transitively on A. Hence we may ass
 
 [41] Terence Tao. Hilbert’s fifth problem and related topics. Manuscript, 2012. http://terrytao.wordpress.com/books/hilberts-fifth-problem-and-related-topics/.
 
-[42] William P. Thurston. On the geometry and dynamics of difeomorphisms of surfaces. Bull. Amer. Math. Soc. (N.S.), 19(2):417–431, 1988.
+[42] William P. Thurston. On the geometry and dynamics of diffeomorphisms of surfaces. Bull. Amer. Math. Soc. (N.S.), 19(2):417–431, 1988.
 
-[43] Friedhelm Waldhausen. On irreducible 3-manifolds which are suficiently large. Ann. of Math. (2), 87:56–88, 1968.
+[43] Friedhelm Waldhausen. On irreducible 3-manifolds which are sufficiently large. Ann. of Math. (2), 87:56–88, 1968.
 
 [44] John J. Walsh. Light open and open mappings on manifolds. II. Trans. Amer. Math. Soc., 217:271–284, 1976.
 
