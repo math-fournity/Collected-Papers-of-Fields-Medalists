@@ -16,11 +16,11 @@ In a previous paper [9], we showed that the average rank of all elliptic curves,
 
 In this article, we prove an analogous result for the average size of the 3-Selmer group:
 
-Theorem 1 When all elliptic curves$E / \mathbb { Q }$are ordered by height, the average size of the 3-Selmer group $S _ { 3 } ( E )$is 4.
+Theorem 1 When all elliptic curves$E / \mathbb { Q }$are ordered by height, the average size of the 3-Selmer group$S _ { 3 } ( E )$ is 4.
 
-The above result is also seen to imply the boundedness of the average rank of all elliptic curves. Indeed, for an elliptic curve$E$over$\mathbb { Q } .$, since the 3-rank$r _ { 3 } ( S _ { 3 } ( E ) )$) of the 3-Selmer group$S _ { 3 } ( E )$of E bounds the rank of$E ,$and since$6 r _ { 3 } ( E ) - 3 \le 3 ^ { r _ { 3 } ( E ) } = | S _ { 3 } ( E ) |$, by taking averages we immediately obtain the following improved bound on the average rank of elliptic curves:
+The above result is also seen to imply the boundedness of the average rank of all elliptic curves. Indeed, for an elliptic curve$E$over$\mathbb { Q }$, since the 3-rank$r _ { 3 } ( S _ { 3 } ( E ) )$) of the 3-Selmer group$S _ { 3 } ( E )$of E bounds the rank of$E$, and since$6 r _ { 3 } ( E ) - 3 \le 3 ^ { r _ { 3 } ( E ) } = | S _ { 3 } ( E ) |$, by taking averages we immediately obtain the following improved bound on the average rank of elliptic curves:
 
-Corollary 2 When all elliptic curves over$\mathbb { Q }$are ordered by height, their average 3-Selmer rank is at most $^ { 1 \frac { 1 } { 6 } , }$thus their average rank is also at most$1 \textstyle { \frac { 1 } { 6 } } < 1 . 1 7$
+Corollary 2 When all elliptic curves over$\mathbb { Q }$are ordered by height, their average 3-Selmer rank is at most$1 \textstyle { \frac { 1 } { 6 } }$, thus their average rank is also at most$1 \textstyle { \frac { 1 } { 6 } } < 1 . 1 7$
 
 Theorem 1 also yields the same bound of$1 \textstyle { \frac { 1 } { 6 } }$on the average 3-rank of the Tate-Shafarevich group of all elliptic curves, when ordered by height.
 
@@ -40,7 +40,7 @@ Theorem 5 Assume$\operatorname { I I I } ( E )$is finite for all E. When all ell
 
 Next, combining our counting arguments with the important recent work of Skinner–Urban$[ 4 0 ]$on the Iwasawa Main Conjectures for$\mathrm { G L _ { 2 } }$, we obtain:
 
-Theorem 6 When all elliptic curves$E / \mathbb { Q }$are ordered by height, a positive proportion of them have analytic rank$0 ;$that$i s ,$a positive proportion of elliptic curves have nonvanishing L-function at$s = 1$
+Theorem 6 When all elliptic curves$E / \mathbb { Q }$are ordered by height, a positive proportion of them have analytic rank$0 ;$that$i s ,$a positive proportion of elliptic curves have nonvanishing L-function at$s = 1$.
 
 Applying Kolyvagin’s Theorem, or noting that the elliptic curves of analytic rank 0 that arise in Theorem 6 form a subset of those that are constructed in Theorem 4, we conclude:
 
@@ -48,7 +48,7 @@ Corollary 7 A positive proportion of elliptic curves satisfy BSD.
 
 Our previous results on the average size of the 2-Selmer group were obtained through counting integral binary quartic forms, up to$\operatorname { G L _ { 2 } } ( \mathbb { Z } )$-equivalence, having bounded invariants. The connection with elliptic curves is that the process of 2-descent has a classical interpretation in terms of rational binary quartic forms; indeed, this connection was behind the beautiful computations of Birch and Swinnerton-Dyer in [10]. The process of 2-descent through the use of binary quartic forms, as in Cremona’s remarkable mwrank program, remains the fastest method in general for computing ranks of elliptic curves.
 
-In order to prove an analogous result for the average size of 3-Selmer groups, we apply our counting techniques in [9], appropriately modified, to the space$V _ { \mathbb { Z } }$of integral ternary cubic forms. The group $\operatorname { S L _ { 3 } } ( \mathbb { Z } )$acts naturally on$V _ { \mathbb { Z } } .$, and the ring of polynomial invariants over C for this action turns out to have two independent generators, having degrees 4 and 6, which we denote by I and$J$respectively.
+In order to prove an analogous result for the average size of 3-Selmer groups, we apply our counting techniques in [9], appropriately modified, to the space$V _ { \mathbb { Z } }$of integral ternary cubic forms. The group $\operatorname { S L _ { 3 } } ( \mathbb { Z } )$acts naturally on$V _ { \mathbb { Z } } .$, and the ring of polynomial invariants over$\mathbb { C }$ for this action turns out to have two independent generators, having degrees 4 and 6, which we denote by I and$J$, respectively.
 
 These invariants may be constructed as follows. For a ternary cubic form$f ,$let$\mathcal { H } ( f )$denote the Hessian of$f , { \mathrm { i . e . } }$, the determinant of the$3 \times 3$matrix of second order partial derivatives of$f \colon$
 
@@ -62,17 +62,17 @@ $$
 \mathcal {H} (\mathcal {H} (f)) = 1 2 2 8 8 I (f) ^ {2} \cdot f + 5 1 2 J (f) \cdot \mathcal {H} (f)\tag{2}
 $$
 
-for certain rational polynomials$I ( f )$and$J ( f )$in the coeficients of$f ,$having degrees 4 and 6 respectively; note that$( 2 )$uniquely determines$J ( f )$, and also uniquely determines$I ( f )$up to sign. The sign of$I ( f )$is fixed by the requirement that the discriminant$\Delta ( f )$of a ternary cubic form$f$be expressible in terms of $I ( f )$and$J ( f )$by the same formula as for binary quartic forms, namely
+for certain rational polynomials$I ( f )$and$J ( f )$in the coeficients of$f ,$having degrees 4 and 6 respectively; note that$( 2 )$uniquely determines$J ( f )$, and also uniquely determines$I ( f )$ up to sign. The sign of$I ( f )$is fixed by the requirement that the discriminant$\Delta ( f )$of a ternary cubic form$f$be expressible in terms of $I ( f )$and$J ( f )$by the same formula as for binary quartic forms, namely
 
 $$
 \Delta (f) := \Delta (I, J) := (4 I (f) ^ {3} - J (f) ^ {2}) / 2 7.\tag{3}
 $$
 
-These polynomials$I ( f )$and$J ( f )$are evidently$\mathrm { { S L } _ { 3 } . }$-invariants, and in fact they generate the full ring of polynomial invariants over$\mathbb { C }$
+These polynomials$I ( f )$and$J ( f )$are evidently$\mathrm { { S L } _ { 3 } . }$-invariants, and in fact they generate the full ring of polynomial invariants over$\mathbb { C }$.
 
-Traditionally, the generators of the ring of invariants of the action of$\mathrm { { S L } _ { 3 } }$on the space of ternary cubic forms have been denoted by$S$and$T$(called the Aronhold invariants$[ 2 ] )$, which are certain integer multiples of I and$^ { J , }$respectively; explicitly, we have$S = 1 6 \cdot I$and$T = 3 2 \cdot J$. However, any ternary cubic form$f$having complex coeficients and nonzero discriminant is$\mathrm { S L _ { 3 } ( \mathbb { C } ) }$)-equivalent to a ternary cubic form$E$ in Weierstrass form. In previous work (see [9, §3]) we had defined invariants$I ( E )$and$J ( E )$of such$E ,$, and the invariants$I ( f )$and$J ( f )$of ternary cubic forms$f$have been chosen to agree with those same invariants of$E$
+Traditionally, the generators of the ring of invariants of the action of$\mathrm { { S L } _ { 3 } }$on the space of ternary cubic forms have been denoted by$S$and$T$ (called the Aronhold invariants [2]), which are certain integer multiples of I and$J$, respectively; explicitly, we have$S = 1 6 \cdot I$and$T = 3 2 \cdot J$. However, any ternary cubic form$f$having complex coeficients and nonzero discriminant is$\mathrm { S L _ { 3 } ( \mathbb { C } ) }$)-equivalent to a ternary cubic form$E$ in Weierstrass form. In previous work (see [9, §3]) we had defined invariants$I ( E )$and$J ( E )$of such$E ,$, and the invariants$I ( f )$and$J ( f )$of ternary cubic forms$f$have been chosen to agree with those same invariants of$E$
 
-Now, for ternary cubic forms over the integers, the general work of Borel and Harish-Chandra$[ 1 1 ]$ implies that the number of equivalence classes of integral ternary cubic forms, having any given fixed values for these basic invariants I and J (so long as I and$J$are not both equal to zero), is finite. The question thus arises: how many$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of integral ternary cubic forms are there, on average, having invariants $I , J ,$, as the pair$( I , J )$varies?
+Now, for ternary cubic forms over the integers, the general work of Borel and Harish-Chandra$[ 1 1 ]$ implies that the number of equivalence classes of integral ternary cubic forms, having any given fixed values for these basic invariants I and J (so long as I and$J$are not both equal to zero), is finite. The question thus arises: how many$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of integral ternary cubic forms are there, on average, having invariants$I$, $J$, as the pair$( I , J )$varies?
 
 To answer this question, we require a couple of definitions. Let us define the height of a ternary cubic form$f ( x , y , z )$by
 
@@ -80,7 +80,7 @@ $$
 H (f) := H (I, J) := \max \{| I ^ {3} |, J ^ {2} / 4 \}.\tag{4}
 $$
 
-(As usual, the constant factor$1 / 4$on$J ^ { 2 }$is present for convenience and is not of any real importance.) Thus $H ( f )$is a “degree$1 2 ^ { \mathfrak { s } }$function in the coeficients of$f ,$in the sense that$H ( \lambda f ) = \lambda ^ { 1 2 } H ( f )$for any constant$\lambda .$ We may then order all$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of ternary cubic forms$f$by their height$H ( f )$, and we may similarly order all pairs$( I , J )$of invariants by their height$H ( I , J )$
+(As usual, the constant factor$1 / 4$on$J ^ { 2 }$is present for convenience and is not of any real importance.) Thus $H ( f )$is a “degree 12" function in the coeficients of$f ,$in the sense that$H ( \lambda f ) = \lambda ^ { 1 2 } H ( f )$for any constant$\lambda$. We may then order all$\operatorname { S L _ { 3 } } ( \mathbb { Z } )$-classes of ternary cubic forms$f$by their height$H ( f )$, and we may similarly order all pairs$( I , J )$of invariants by their height$H ( I , J )$.
 
 As with binary quartic forms, we wish to restrict ourselves to counting ternary cubic forms that are irreducible in an appropriate sense. Being simply irreducible—i.e., not having a smaller degree factor—is more a geometric condition rather than an arithmetic one. We wish to have a condition that implies that the ternary cubic form is suficiently “generic” over$\mathbb { Q } .$. The most convenient notion (also for the applications) turns out to be what we call strong irreducibility.
 
@@ -144,7 +144,7 @@ $$
 
 The fact that this class number$h ( I , J )$is a finite constant on average is indeed what allows us to show that the size of the 3-Selmer group of elliptic curves too is a finite constant on average.
 
-We actually prove a strengthening of Theorem$1 0 ;$namely, we obtain the asymptotic count of ternary cubic forms having bounded invariants that sati$\mathrm { f y }$any specified finite set of congruence conditions (see §2.4, Theorem 17). This strengthening turns out to be crucial for the application to 3-Selmer groups (as in Theorem 1), which we now discuss.
+We actually prove a strengthening of Theorem 10; namely, we obtain the asymptotic count of ternary cubic forms having bounded invariants that satisfy any specified finite set of congruence conditions (see §2.4, Theorem 17). This strengthening turns out to be crucial for the application to 3-Selmer groups (as in Theorem 1), which we now discuss.
 
 Recall that, for any positive integer n, an element of the n-Selmer group$S _ { n } ( E )$of an elliptic curve $E / \mathbb { Q }$may be thought of as a “locally soluble n-covering”. An n-covering of$E / \mathbb { Q }$is a genus one curve C together with maps$\phi : C \to E$and$\theta : C \to E$, where$\phi$is an isomorphism defined over$\mathbb { C } ,$and$\theta$is a degree $n ^ { 2 }$map defined over$\mathbb { Q }$such that the following diagram commutes:
 
@@ -152,23 +152,23 @@ $$
 \begin{array}{c} E \xrightarrow {[ n ]} E \\ \phi \\ C \end{array}
 $$
 
-Thus an n-covering$C = ( C , \phi , \theta )$may be viewed as a “twist over$\mathbb { Q }$of the multiplication-by-n map on$E ^ { \ast }$ Two n-coverings$C$and$C ^ { \prime }$are said to be isomorphic if there exists an isomorphism$\Phi : C \to C ^ { \prime }$defined over $\mathbb { Q } ,$and an n-torsion point$P \in E .$such that the following diagram commutes:
+Thus an n-covering$C = ( C , \phi , \theta )$may be viewed as a “twist over$\mathbb { Q }$of the multiplication-by-n map on$E$. Two n-coverings$C$and$C ^ { \prime }$are said to be isomorphic if there exists an isomorphism$\Phi : C \to C ^ { \prime }$defined over$\mathbb { Q }$, and an n-torsion point$P \in E$, such that the following diagram commutes:
 
 ![](images/page_4_image_1.jpg)
 
-A soluble n-covering$C$is one that possesses a rational point, while a locally soluble n-covering C is one that possesses an R-point and a$\mathbb { Q } _ { p } .$-point for all primes$p .$Then we have the isomorphisms:
+A soluble n-covering$C$is one that possesses a rational point, while a locally soluble n-covering C is one that possesses an R-point and a$\mathbb { Q } _ { p }$-point for all primes$p .$Then we have the isomorphisms:
 
 $$
 \begin{array}{r l r} \{\mathrm{soluble} n \text {-coverings} \} / \sim & \cong & E (\mathbb {Q}) / n E (\mathbb {Q}); \\ \{\mathrm{locallysoluble} n \text {-coverings} \} / \sim & \cong & S _ {n} (E). \end{array}
 $$
 
-Now, counting elements of$S _ { 3 } ( E )$leads to counting ternary cubic forms for the following reason. There is a result of Cassels (see [14, Theorem 1.3]) that states that any locally soluble n-covering$C$posseses a degree n divisor defined over Q. If$n = 3$, we thus obtain an embedding of C into$\mathbb { P } ^ { 2 }$, thereby yielding a ternary cubic form, well-defined up to$\mathrm { G L _ { 3 } ( \mathbb { Q } ) }$-equivalence! Conversely, given any ternary cubic form$f$ having rational coeficients and nonzero discriminant, there exists a 3-covering defined over Q from the plane cubic C defined by the equation$f = 0$to the elliptic curve Jac(C), where$\operatorname { J a c } ( C )$is the Jacobian of$C$and is given by the equation
+Now, counting elements of$S _ { 3 } ( E )$leads to counting ternary cubic forms for the following reason. There is a result of Cassels (see [14, Theorem 1.3]) that states that any locally soluble n-covering$C$possesses a degree n divisor defined over$\mathbb { Q }$. If$n = 3$, we thus obtain an embedding of C into$\mathbb { P } ^ { 2 }$, thereby yielding a ternary cubic form, well-defined up to$\mathrm { G L _ { 3 } ( \mathbb { Q } ) }$-equivalence! Conversely, given any ternary cubic form$f$ having rational coeficients and nonzero discriminant, there exists a 3-covering defined over$\mathbb { Q }$ from the plane cubic C defined by the equation$f = 0$to the elliptic curve Jac(C), where$\operatorname { J a c } ( C )$is the Jacobian of$C$and is given by the equation
 
 $$
 Y ^ {2} = X ^ {3} - \frac {I (f)}{3} X - \frac {J (f)}{2 7};\tag{5}
 $$
 
-an explicit formula for this 3-covering map may be given in terms of the$\mathrm { { S L } _ { 3 } . }$-covariants of$f \ ( \sec \ [ 1 , \ \ S 3 . 2 ] )$ Note that (5) gives another nice interpretation for the invariants$I ( f )$and$J ( f )$of a ternary cubic form$f .$
+an explicit formula for this 3-covering map may be given in terms of the$\mathrm { { S L } _ { 3 } . }$-covariants of$f$ (see [1, §3.2]). Note that (5) gives another nice interpretation for the invariants$I ( f )$and$J ( f )$of a ternary cubic form$f .$
 
 To carry out the proof of Theorems 1 and 3, we do the following:
 
@@ -188,13 +188,13 @@ The work of Cremona, Fisher, and Stoll [15] on “minimization” for ternary cu
 
 In the last step, we first use a simple sieve to obtain the optimal upper bounds. The optimal lower bounds, on the other hand, are significantly more dificult to obtain, and we use the techniques and results of [7] in order to prove them.
 
-We may compare Theorem 1 with a result of de Jong [20], who showed that for a finite field of characteristic not equal to 3, the average size of the 3-Selmer group of all elliptic curves over$\mathbb { F } _ { q } ( t )$is at most $4 + \varepsilon ( q )$, for an explicit function$\varepsilon ( q )$that tends to 0 as$q \to \infty$. The technique in [20] was also essentially that of counting ternary cubic forms over$\mathbb { F } _ { q } ( t ) !$Our main result, Theorem 1, may thus be viewed as a precise version of de Jong’s Theorem over the number field Q. For more on the history of average ranks of elliptic curves in families, and related results, see [4] and [9, §1].
+We may compare Theorem 1 with a result of de Jong [20], who showed that for a finite field of characteristic not equal to 3, the average size of the 3-Selmer group of all elliptic curves over$\mathbb { F } _ { q } ( t )$is at most $4 + \varepsilon ( q )$, for an explicit function$\varepsilon ( q )$that tends to 0 as$q \to \infty$. The technique in [20] was also essentially that of counting ternary cubic forms over$\mathbb { F } _ { q } ( t )$! Our main result, Theorem 1, may thus be viewed as a precise version of de Jong’s Theorem over the number field$\mathbb { Q }$. For more on the history of average ranks of elliptic curves in families, and related results, see [4] and [9, §1].
 
-This paper is organized as follows. In Section 2, following the methods of$[ 9 ]$, we determine the asymptotic number of$\mathrm { { S L _ { 3 } ( Z ) } }$-equivalence classes of strongly irreducible integral ternary cubic forms having bounded height; in particular, we prove Theorems 8, 9, and 10. The primary method is that of reduction theory, allowing us to reduce the problem to counting integral points in certain finite volume regions in$\mathbb { R } ^ { 1 0 }$ However, the dificulty in such a count, as usual, lies in the fact that these regions are not compact, but rather have cusps going of to infinity. By studying the geometry of these regions via the averaging method of [6], we are able to isolate the subregions of the fundamental domains that contain predominantly (and all of the) strongly irreducible points. The appropriate volume computations for these subregions are then carried out to obtain the desired result.
+This paper is organized as follows. In Section 2, following the methods of$[ 9 ]$, we determine the asymptotic number of$\mathrm { { S L _ { 3 } ( Z ) } }$-equivalence classes of strongly irreducible integral ternary cubic forms having bounded height; in particular, we prove Theorems 8, 9, and 10. The primary method is that of reduction theory, allowing us to reduce the problem to counting integral points in certain finite volume regions in$\mathbb { R } ^ { 1 0 }$. However, the dificulty in such a count, as usual, lies in the fact that these regions are not compact, but rather have cusps going off to infinity. By studying the geometry of these regions via the averaging method of [6], we are able to isolate the subregions of the fundamental domains that contain predominantly (and all of the) strongly irreducible points. The appropriate volume computations for these subregions are then carried out to obtain the desired result.
 
-In Section 3, we then describe the precise correspondence between ternary cubic forms and elements of the 3-Selmer groups of elliptic curves. We show, in particular, that nonidentity elements of the 3-Selmer group correspond to strongly irreducible ternary cubic forms. We then apply this correspondence, together with the counting results of Section 2 and a simple sieve (which involves the determination of certain local mass formulae for 3-coverings of elliptic curves over$\mathbb { Q } _ { p } )$, to prove that the average size of the 3-Selmer groups of elliptic curves, when ordered by height, is at most 4. We then use the methods of$[ 7 ]$to obtain the same lower bound on the average size of the 3-Selmer groups of elliptic curves, thus proving Theorems 1 and 3.
+In Section 3, we then describe the precise correspondence between ternary cubic forms and elements of the 3-Selmer groups of elliptic curves. We show, in particular, that nonidentity elements of the 3-Selmer group correspond to strongly irreducible ternary cubic forms. We then apply this correspondence, together with the counting results of Section 2 and a simple sieve (which involves the determination of certain local mass formulae for 3-coverings of elliptic curves over$\mathbb { Q } _ { p } )$, to prove that the average size of the 3-Selmer groups of elliptic curves, when ordered by height, is at most 4. We then use the methods of [7] to obtain the same lower bound on the average size of the 3-Selmer groups of elliptic curves, thus proving Theorems 1 and 3.
 
-Finally, in Section 4, we combine the results of Sections 2 and$^ { 3 , }$as well as the aforementioned results of Dokchitser–Dokchitser [22] and Skinner–Urban [40], to obtain Theorems 4, 5, and 6.
+Finally, in Section 4, we combine the results of Sections 2 and 3, as well as the aforementioned results of Dokchitser–Dokchitser [22] and Skinner–Urban [40], to obtain Theorems 4, 5, and 6.
 
 ## 2 The number of integral ternary cubic forms having bounded invariants
 
@@ -252,7 +252,7 @@ We also require the following fact whose proof we postpone to$\mathrm { \ S 3 . 
 
 Lemma 12 Let$f \in V _ { \mathbb { R } }$be any ternary cubic form having nonzero discriminant. Then the order of the stabilizer in$\mathrm { { G L _ { 3 } ^ { + } ( \mathbb { R } ) } }$(and hence in$\mathrm { S L _ { 3 } ( \mathbb { R } ) }$of f is 3.
 
-Let$\mathcal { F }$denote a fundamental domain in$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$for the left action of$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { Z } ) = S L _ { 3 } ( \mathbb { Z } ) }$on$\mathrm { { G L _ { 3 } ^ { + } ( \mathbb { R } ) } }$ contained in a standard Siegel set [11, §2]. We may take$\mathcal { F } = \{ n a k \lambda : n \in N ^ { \prime } ( a ) , a \in A ^ { \prime } , k \in K , \lambda \in \Lambda \}$ where
+Let$\mathcal { F }$ denote a fundamental domain in$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { R } ) }$for the left action of$\mathrm { G L _ { 3 } ^ { + } ( \mathbb { Z } ) = S L _ { 3 } ( \mathbb { Z } ) }$on$\mathrm { { G L _ { 3 } ^ { + } ( \mathbb { R } ) } }$ contained in a standard Siegel set [11, §2]. We may take$\mathcal { F } = \{ n a k \lambda : n \in N ^ { \prime } ( a ) , a \in A ^ { \prime } , k \in K , \lambda \in \Lambda \}$ where
 
 $$
 \begin{array}{r c l} K & = & \text {subgroup SO_{3} (\mathbb {R}) \subset GL_{3} ^{+} (\mathbb {R}) of orthogonal transformations;} \\ A ^ {\prime} & \subset & \{a (s _ {1}, s _ {2}): s _ {1}, s _ {2} > c \}, \\ & & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ & & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ & & \text {where a(s_{1} ,s_{2}) = \left( \begin{array}{ccccc}s_{1}^{-2}s_{2}^{-1}} & & & & \\ & s_{1}s_{2}^{-1} & & \\ & & s_{1}s_{2}^{2} \end{array} \right); \\ N ^ {\prime} (a) & = & \{n (u _ {1}, u _ {2}, u _ {3}): (u _ {1}, u _ {2}, u _ {3}) \in \nu (a) \}, \\ & & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ & & \text {where n(u_{1} ,u_{2} ,u_{3}) = \left( \begin{array}{ccc} 1 & & \\ u_{1} & 1 & \\ u_{2} & u_{3} & 1 \end{array} \right);} \\ \Lambda & = & \{\lambda : \lambda > 0 \}, \\ & & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ & & \text {where}   \lambda = \left( \begin{array}{c c c} \lambda & & \\ & \lambda & \\ & & \lambda \end{array} \right); \end{array}
@@ -600,9 +600,9 @@ $$
 
 We use the height$H ^ { \prime }$instead of H on elliptic curves to agree with the height on integral ternary cubic forms defined in (4). Note that since H and$H ^ { \prime }$agree up to a constant factor, they induce the same ordering on the set of elliptic curves over$\mathbb { Q }$
 
-In this section, we prove Theorem 3 by computing the average size of the 3-Selmer group of elliptic curves over$\mathbb { Q } .$whose coeficients satisfy finitely many congruence conditions, when these curves are ordered by their heights. We also prove a theorem where we bound the average size of the 3-Selmer group of elliptic curves in more general families. To define these families, we need the following notation. For each prime$p ,$ let$\Sigma _ { p }$be a closed subset of$\mathbb { Z } _ { p } ^ { 2 } \backslash \{ \Delta \neq 0 \}$. We associate the family$F _ { \Sigma }$of elliptic curves to$( \Sigma _ { p } ) _ { p }$, where $E ^ { I , J } \in F _ { \Sigma } \mathrm { ~ i f ~ } ( I , J ) \in \Sigma _ { p }$for all$p .$Such a family is said to be defined by congruence conditions. We can also impose “congruence conditions at infinity” by insisting that$E ^ { I , \mathcal { I } } \in F _ { \Sigma }$if and only if$( I , J ) \in \Sigma _ { \infty }$, where$\Sigma _ { \infty }$ is equal to$\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \} , \mathrm { o r } \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) \neq 0 \}$
+In this section, we prove Theorem 3 by computing the average size of the 3-Selmer group of elliptic curves over$\mathbb { Q } .$whose coeficients satisfy finitely many congruence conditions, when these curves are ordered by their heights. We also prove a theorem where we bound the average size of the 3-Selmer group of elliptic curves in more general families. To define these families, we need the following notation. For each prime$p$, let$\Sigma _ { p }$be a closed subset of$\mathbb { Z } _ { p } ^ { 2 } \backslash \{ \Delta \neq 0 \}$. We associate the family$F _ { \Sigma }$of elliptic curves to$( \Sigma _ { p } ) _ { p }$, where $E ^ { I , J } \in F _ { \Sigma } \mathrm { ~ i f ~ } ( I , J ) \in \Sigma _ { p }$for all$p .$Such a family is said to be defined by congruence conditions. We can also impose “congruence conditions at infinity” by insisting that$E ^ { I , J } \in F _ { \Sigma }$if and only if$( I , J ) \in \Sigma _ { \infty }$, where$\Sigma _ { \infty }$ is equal to$\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \} , \mathrm { o r } \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) \neq 0 \}$
 
-If F is a family of elliptic curves defined by congruence conditions, then let Inv$( F )$denote the set $\{ ( I ( E ) , J ( E ) ) : E \in F \}$. For a prime$p ,$let${ \mathrm { I n v } } _ { p } ( F )$denote the p-adic closure of Inv$( F )$in$\mathbb { Z } _ { p } ^ { 2 }$. We define $\mathrm { I n v } _ { \infty } ( F )$to be$\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \ \{ ( \bar { I } , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \} , \ \mathrm { o r } \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \dot { \Delta } ( I , J ) \neq 0 \}$ in accordance with whether F contains curves only of positive discriminant, negative discriminant, or both. A family F of elliptic curves is then said to be large if, for all but finitely many primes$p ,$the set${ \mathrm { I n v } } _ { p } ( F )$ contains all pairs$( I , J ) \in \mathbb { Z } _ { p } \times \mathbb { Z } _ { p }$such that$p ^ { 2 } \dag \Delta ( I , J )$
+If F is a family of elliptic curves defined by congruence conditions, then let Inv$( F )$denote the set $\{ ( I ( E ) , J ( E ) ) : E \in F \}$. For a prime$p ,$let${ \mathrm { I n v } } _ { p } ( F )$denote the p-adic closure of Inv$( F )$in$\mathbb { Z } _ { p } ^ { 2 }$. We define $\mathrm { I n v } _ { \infty } ( F )$to be$\{ ( I , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) > 0 \} , \ \{ ( \bar { I } , J ) \in \mathbb { R } ^ { 2 } : \Delta ( I , J ) < 0 \} , \ \mathrm { o r } \ \{ ( I , J ) \in \mathbb { R } ^ { 2 } : \dot { \Delta } ( I , J ) \neq 0 \}$ in accordance with whether F contains curves only of positive discriminant, negative discriminant, or both. A family F of elliptic curves is then said to be large if, for all but finitely many primes$p ,$the set${ \mathrm { I n v } } _ { p } ( F )$ contains all pairs$( I , J ) \in \mathbb { Z } _ { p } \times \mathbb { Z } _ { p }$ such that$p ^ { 2 } \nmid \Delta ( I , J )$
 
 In this section, we prove the following theorem:
 
@@ -688,13 +688,13 @@ Lemma 33 Let p be a fixed prime. Then the number of elements in$V _ { \mathbb { 
 
 Proof: Ternary cubic forms over$\mathbb { F } _ { p }$having nonzero discriminant correspond to isomorphism classes of triples$( C , L , B )$, where$C$is a genus 1 curve over$\mathbb { F } _ { p } , ~ L$is a degree 3 line bundle on$C ,$and B is a basis for the space of sections of$L ;$here, two such pairs$( { \bar { C } } , L , B )$and$( C ^ { \prime } , L ^ { \prime } , B ^ { \prime } )$are called isomorphic if there exists an isomorphism$\phi : C \to C ^ { \prime }$such that${ \cal L } = \phi ^ { * } ( L ^ { \prime } )$and$B = \phi ^ { * } ( B ^ { \prime } )$. The number of such isomorphism classes of pairs (C, L) over$\mathbb { F } _ { p }$is exactly$p ,$since there is exactly one pair for each j-invariant. Once the pair $( C , L )$is fixed, there are$\# \mathrm { { \bar { G } } L _ { 3 } } ( \mathbb { F } _ { p } )$diferent possible bases for the space of sections. Since$\# \mathrm { G L } _ { 3 } ( \mathbb { F } _ { p } ) =$ $( p - 1 ) \# \mathrm { P G L } _ { 3 } ( \mathbb { F } _ { p } )$, we obtain the lemma. ✷
 
-Lemma 34 Let$p$be a fixed prime and let$( I , J ) \in { \textstyle { \frac { 1 } { 1 6 } } } \mathbb { Z } _ { p } \times { \textstyle { \frac { 1 } { 3 2 } } } \mathbb { Z } _ { p }$be an element in the image of π such that $p ^ { 2 } \dag \Delta ( I , J )$. Then
+Lemma 34 Let$p$be a fixed prime and let$( I , J ) \in { \textstyle { \frac { 1 } { 1 6 } } } \mathbb { Z } _ { p } \times { \textstyle { \frac { 1 } { 3 2 } } } \mathbb { Z } _ { p }$be an element in the image of π such that$p ^ { 2 } \nmid \Delta ( I , J )$. Then
 
 $$
 \sum_{\substack{f\in \frac{V_{\mathbb{Z}_{p}}(I,J)}{\mathrm{PGL}_{3}(\mathbb{Z}_{p})}}}\frac{1}{\#\mathrm{Aut}_{\mathbb{Z}_{p}}(f)} = \left\{ \begin{array}{l}1\text{for} p\neq 3;\\ 3\text{for} p = 3. \end{array} \right.
 $$
 
-Proof: Since$p ^ { 2 } \dag \Delta ( I , J )$, we have$\mathrm { A u t } _ { \mathbb { Z } _ { p } } ( f ) = \mathrm { A u t } _ { \mathbb { Q } _ { p } } ( f ) = E ^ { I , J } [ 3 ] ( \mathbb { Q } _ { p } )$for$f \in V _ { \mathbb { Z } _ { p } } ( I , J )$. Furthermore, we have
+Proof: Since$p ^ { 2 } \nmid \Delta ( I , J )$, we have$\mathrm { A u t } _ { \mathbb { Z } _ { p } } ( f ) = \mathrm { A u t } _ { \mathbb { Q } _ { p } } ( f ) = E ^ { I , J } [ 3 ] ( \mathbb { Q } _ { p } )$for$f \in V _ { \mathbb { Z } _ { p } } ( I , J )$. Furthermore, we have
 
 $$
 \# \frac {V _ {\mathbb {Z} _ {p}} (I , J)}{\mathrm{PGL} _ {3} (\mathbb {Z} _ {p})} = \# (E (\mathbb {Q} _ {p}) / 3 E (\mathbb {Q} _ {p})).
@@ -842,7 +842,7 @@ We have shown in the previous section that the average rank of all elliptic curv
 
 In order to deduce analogous positive proportion statements for the individual ranks 0 and 1, we may attempt to make use of information regarding the distribution of the parity of the ranks—or of the 3-Selmer ranks—of these curves. Indeed, if we knew that even and odd 3-Selmer ranks occur equally often in a large family of elliptic curves, then this would imply by Theorem 27 that a positive proportion of curves in that family have rank 0, and (assuming finiteness of the Tate–Shafarevich group) a positive proportion have rank 1.
 
-In Section 4.1, we use a recent result of Dokchitser–Dokchitser [22] (see also Nekov´aˇr [36]) to construct a large, positive proportion family F of elliptic curves in which the parities of the 3-Selmer ranks of the curves in$F$are equally distributed between even and odd, thus unconditionally yielding a positive proportion of elliptic curves having rank 0.
+In Section 4.1, we use a recent result of Dokchitser–Dokchitser [22] (see also Nekovář [36]) to construct a large, positive proportion family F of elliptic curves in which the parities of the 3-Selmer ranks of the curves in$F$are equally distributed between even and odd, thus unconditionally yielding a positive proportion of elliptic curves having rank 0.
 
 We may also combine our counting techniques with the recent work of Skinner–Urban [40], in order to deduce that a positive proportion of all elliptic curves, when ordered by height, have analytic rank 0; i.e., a positive proportion of all elliptic curves have nonvanishing L-function$L ( E , s )$at$s = 1$. Since these analytic rank 0 curves form a subset of the rank 0 curves of Section 4.1, it follows that a positive proportion of all elliptic curves satisfy the Birch and Swinnerton-Dyer conjecture. This is discussed in Section 4.2.
 
@@ -866,7 +866,7 @@ Proof of Theorem 41: First note that Lemma 19 implies that the number of ellipti
 
 Now, by Theorem 27, the average size of the 3-Selmer group of curves in$F$is at most 4. On the other hand, by Theorem 42 we know that that exactly 50% of the curves in$F$have odd 3-Selmer rank and thus have at least 3 elements in the 3-Selmer group. Hence the average size of the 3-Selmer groups among the 50% of elliptic curves in F having even 3-Selmer rank is at most 5. Now if the 3-Selmer group of an elliptic curve has even rank, then it must have size 1, 9, or more than 9. For the average of such sizes to be 5, at least half must be equal to 1. Thus among these 50% of curves in F having even 3-Selmer rank, at least half have trivial 3-Selmer group, and therefore have rank 0.
 
-Next, suppose that every odd rank curve in F has a finite Tate-Shafarevich group. A well-known result of Cassels states that if$E / \mathbb { Q }$is an elliptic curve such that$\operatorname { I I I } ( E )$is finite, then$| \mathrm { I I I } ( E ) |$is a square. Now if the 3-Selmer group of an elliptic curve has odd rank, then it must have size 3, 27, or more than 27. For the average of such sizes to be at most$^ { 7 , }$at least$5 / 6$of them must equal 3. Thus among these 50% of curves in$F$with odd 3-Selmer rank, at least$5 / 6$of them have 3-Selmer group of size 3. Since X is always a square, we conclude that X[3] for all these elliptic curves is trivial and so they each have rank 1. ✷
+Next, suppose that every odd rank curve in F has a finite Tate-Shafarevich group. A well-known result of Cassels states that if$E / \mathbb { Q }$is an elliptic curve such that$\operatorname { I I I } ( E )$is finite, then$| \mathrm { I I I } ( E ) |$is a square. Now if the 3-Selmer group of an elliptic curve has odd rank, then it must have size 3, 27, or more than 27. For the average of such sizes to be at most$^ { 7 , }$at least$5 / 6$of them must equal 3. Thus among these 50% of curves in$F$with odd 3-Selmer rank, at least$5 / 6$of them have 3-Selmer group of size 3. Since$\mathrm { I I I }$ is always a square, we conclude that$\mathrm { I I I } [ 3 ]$ for all these elliptic curves is trivial and so they each have rank 1. ✷
 
 We now construct an explicit positive proportion large family$F$of elliptic curves for which exactly 50% of the curves have root number equal to 1. By Theorem 41, this will then imply Theorems 4 and 5.
 
@@ -880,9 +880,9 @@ Let$F$denote the set of all elliptic curves E over Q satisfying the following co
 
 •$E$has square-free discriminant away from 2.
 
-$\underset { E . } { \Delta ^ { \prime } ( E ) } \equiv 1$(mod 4), where$\Delta ^ { \prime } ( E ) : = | \Delta ( E ) / 2 ^ { v _ { 2 } ( \Delta ( E ) ) } |$is the positive odd part of the discriminant of
+$\Delta ^ { \prime } ( E ) \equiv 1$ (mod 4), where$\Delta ^ { \prime } ( E ) : = | \Delta ( E ) / 2 ^ { v _ { 2 } ( \Delta ( E ) ) } |$ is the positive odd part of the discriminant of$E$.
 
-The set$F$is a large family. Moreover, if$E \in F$, then the twist$E _ { - 1 }$of E by −1 is also clearly in$F _ { \mathrm { { ; } } }$since the odd part of the discriminant of an elliptic curve is preserved under such a twist. Since$\Delta ^ { \prime } ( E )$is squarefree, the third condition implies that the number of distinct primes congruent to 3 (mod 4) that divide the discriminant of$E$is even. Now for a prime factor p of the discriminant, we have already observed that$\omega _ { p } ( E ) = - \omega _ { p } ( E _ { - 1 } )$ if and only if$p \equiv 3$(mod 4). Furthermore, the first condition implies that$\omega _ { 2 } ( E ) = - \omega _ { 2 } ( E _ { - 1 } )$(see [41, Lemma 12]); therefore,$\omega ( E ) = - \omega ( E _ { - 1 } )$for all$E \in F$. Since the height of an elliptic curve also remains the same under twisting by −1, it follows that a density of exactly 50% of elliptic curves in$F _ { ; }$, when ordered by height, have root number +1, as desired.
+The set$F$ is a large family. Moreover, if$E \in F$, then the twist$E _ { - 1 }$of E by −1 is also clearly in$F _ { \mathrm { { ; } } }$since the odd part of the discriminant of an elliptic curve is preserved under such a twist. Since$\Delta ^ { \prime } ( E )$is squarefree, the third condition implies that the number of distinct primes congruent to 3 (mod 4) that divide the discriminant of$E$is even. Now for a prime factor p of the discriminant, we have already observed that$\omega _ { p } ( E ) = - \omega _ { p } ( E _ { - 1 } )$ if and only if$p \equiv 3$(mod 4). Furthermore, the first condition implies that$\omega _ { 2 } ( E ) = - \omega _ { 2 } ( E _ { - 1 } )$(see [41, Lemma 12]); therefore,$\omega ( E ) = - \omega ( E _ { - 1 } )$for all$E \in F$. Since the height of an elliptic curve also remains the same under twisting by −1, it follows that a density of exactly 50% of elliptic curves in$F _ { ; }$, when ordered by height, have root number +1, as desired.
 
 We have proven Theorems 4 and 5.
 
@@ -904,15 +904,15 @@ where$\bar { \rho } ( E , 3 ) : \operatorname { G a l } ( \bar { \mathbb { Q } }
 
 We may use Theorem 41 in conjunction with Skinner and Urban’s Theorem to prove:
 
-Theorem 44 Suppose F is a large family of elliptic curves having good ordinary reduction at 3 such that $5 \| \operatorname { D i s c } ( E )$for every curve$E \in F$. Further assume that exactly 50% of the curves in F, when ordered by $h e i g h t .$, have root number +1. Then at least 25% of elliptic curves in$F$have analytic rank 0.
+Theorem 44 Suppose F is a large family of elliptic curves having good ordinary reduction at 3 such that$5 \parallel \operatorname { D i s c } ( E )$ for every curve$E \in F$. Further assume that exactly 50% of the curves in F, when ordered by $h e i g h t .$, have root number +1. Then at least 25% of elliptic curves in$F$have analytic rank 0.
 
-Proof: It is easy to see (e.g., by Hilbert irreducibility) that a density of 100% of elliptic curves$E ,$when ordered by height, have the property that the action of$G _ { \mathbb { Q } }$on$E [ 3 ]$is irreducible. (In fact, it has been shown by Duke [23, Theorem 1] that 100% of all elliptic curves$E ,$when ordered by height, have the property that the action of$G _ { \mathbb { Q } }$on$E [ p ]$is irreducible for all primes$p . )$As F is a large family, it contains a positive proportion of all elliptic curves, and so 100% of the curves in F satisfy condition (c) of Theorem 43. As 5kDisc(E) for $E \in F .$, we see that E has multiplicative reduction at 5 which implies that$5 \| \operatorname { C o n d } ( E )$. Furthermore, since $3 \mathbin { \left\{ \ v _ { 5 } ( \mathrm { C o n d } ( E ) ) \right. }$, [16, Proposition 2.12] implies that condition (d) of Theorem 43 is satisfied by E. The proof of Theorem 41 now implies that at least 25% of the curves in F satisfy all four conditions of Theorem 43 and so Theorem 44 follows. ✷
+Proof: It is easy to see (e.g., by Hilbert irreducibility) that a density of 100% of elliptic curves$E ,$when ordered by height, have the property that the action of$G _ { \mathbb { Q } }$on$E [ 3 ]$is irreducible. (In fact, it has been shown by Duke [23, Theorem 1] that 100% of all elliptic curves$E ,$when ordered by height, have the property that the action of$G _ { \mathbb { Q } }$on$E [ p ]$is irreducible for all primes$p . )$As F is a large family, it contains a positive proportion of all elliptic curves, and so 100% of the curves in F satisfy condition (c) of Theorem 43. As 5kDisc(E) for $E \in F .$, we see that E has multiplicative reduction at 5 which implies that$5 \parallel \operatorname { C o n d } ( E )$. Furthermore, since$3 \nmid v _ { 5 } ( \mathrm { C o n d } ( E ) )$, [16, Proposition 2.12] implies that condition (d) of Theorem 43 is satisfied by E. The proof of Theorem 41 now implies that at least 25% of the curves in F satisfy all four conditions of Theorem 43 and so Theorem 44 follows. ✷
 
 As in §4.1, we may construct an explicit union F of positive proportion large families of elliptic curves satisfying the hypotheses of Theorem 44. Indeed, let$F$denote the family of all elliptic curves E satisfying the following conditions:
 
 • The curve E and its twist$E _ { - 1 }$both have additive reduction at 2, and furthermore the j-invariant of both curves E and$E _ { - 1 }$are 2-adic units.
 
-• E has square-free discriminant away from 2, and$5 \| \operatorname { D i s c } ( E )$
+• E has square-free discriminant away from 2, and$5 \parallel \operatorname { D i s c } ( E )$
 
 •$E$has good ordinary reduction at 3.
 
@@ -928,7 +928,7 @@ We are very grateful to John Cremona, Johan de Jong, Tom Fisher, Wei Ho, Bjorn P
 
 [1] S. Y. An, S. Y. Kim, D. C. Marshall, S. H. Marshall, W. G. McCallum, and A. R. Perlis, Jacobians of genus one curves, J. Number Theory 90 (2001), no. 2, 304–315.
 
-[2] S. Aronhold, Theorie der homogenen Funktionen dritten Grades von drei Ver¨anderlichen, J. reine Angew. Math., 55 (1858), 97–191.
+[2] S. Aronhold, Theorie der homogenen Funktionen dritten Grades von drei Veränderlichen, J. reine Angew. Math., 55 (1858), 97–191.
 
 [3] M. Artin, F. Rodriguez-Villegas, and J. Tate, On the Jacobians of plane cubics, Adv. Math. 198 (2005), no. 1, 366–382.
 
@@ -970,13 +970,13 @@ We are very grateful to John Cremona, Johan de Jong, Tom Fisher, Wei Ho, Bjorn P
 
 [22] T. Dokchitser and V. Dokchitser, On the Birch–Swinnerton-Dyer quotients modulo squares, Ann. of Math. 172 (2010), no. 1, 567–596.
 
-[23] W. Duke, Elliptic curves with no exceptional primes, C. R. Acad. Sci. Paris S´er. I Math. 325 (1997), no. 8, 813–818.
+[23] W. Duke, Elliptic curves with no exceptional primes, C. R. Acad. Sci. Paris Sér. I Math. 325 (1997), no. 8, 813–818.
 
 [24] T. Fisher, Testing Equivalence of Ternary Cubics, Algorithmic number theory, pp. 333–345, Lecture Notes in Comput. Sci. 4076, Springer, Berlin, 2006,
 
 [25] T. Fisher, The invariants of a genus one curve, Proc. Lond. Math. Soc. (3) 97 (2008), 753–782.
 
-[26] E Fouvry, Sur le comportement en moyenne du rang des courbes<sup>´</sup>$y ^ { 2 } = x ^ { 3 } + k$, S´eminaire de Th´eorie des Nombres, Paris, 1990–91, 61–84, Prog. Math. 108, Birkhauser Boston, Boston, MA, 1993.
+[26] E Fouvry, Sur le comportement en moyenne du rang des courbes elliptiques$y ^ { 2 } = x ^ { 3 } + k$, Séminaire de Théorie des Nombres, Paris, 1990–91, 61–84, Prog. Math. 108, Birkhäuser Boston, Boston, MA, 1993.
 
 [27] C. G. Gibson, Elementary geometry of algebraic curves, Cambridge University Press, Cambridge, 1998.
 
@@ -986,7 +986,7 @@ We are very grateful to John Cremona, Johan de Jong, Tom Fisher, Wei Ho, Bjorn P
 
 [30] N. M. Katz and P. Sarnak, Random matrices, Frobenius eigenvalues, and monodromy, American Mathematical Society Colloquium Publications 45, American Mathematical Society, Providence, RI, 1999.
 
-[31] A. W. Knapp, Lie groups beyond an introduction, Second Ed., Prog. Math. 140, Birkhauser Boston, Boston, MA, 2002.
+[31] A. W. Knapp, Lie groups beyond an introduction, Second Ed., Prog. Math. 140, Birkhäuser Boston, Boston, MA, 2002.
 
 [32] V. Kolyvagin, Finiteness of E(Q) and$X ( E , \mathbb { Q } )$for a class of Weil curves, Math. USSR Izv. 32 (1989), 523-541.
 
@@ -996,7 +996,7 @@ We are very grateful to John Cremona, Johan de Jong, Tom Fisher, Wei Ho, Bjorn P
 
 [35] R. P. Langlands, The volume of the fundamental domain for some arithmetical subgroups of Chevalley groups, Algebraic Groups and Discontinuous Subgroups, pp. 143–148, Proc. Sympos. Pure Math. 9, Boulder, CO, 1966.
 
-[36] J. Nekov´aˇr, Selmer complexes, Ast´erisque 310 (2006).
+[36] J. Nekovář, Selmer complexes, Ast´erisque 310 (2006).
 
 [37] D. E. Rohrlich, Variation of the root number in families of elliptic curves, Compositio Math. 87 (1993), no. 2, 119–151.
 
