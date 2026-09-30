@@ -172,3 +172,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-29 19:52 | DONE | Baker linear forms I | 13/13 | 20点FAIL已修复（含2次补修） | 累计37/140
 2026-09-29 19:52 | COMMIT | Baker I 闭环
 2026-09-29 20:00 | PAGE | Baker linear forms IV | p.1-13/13 | FAIL族8点 | δ误读×4+nkn漏幂+粗体K+Received
+2026-09-29 20:03 | DONE | Baker linear forms IV | 13/13 | 8点FAIL已修复 | 累计38/140
+2026-09-29 20:04 | COMMIT | Baker IV 闭环
