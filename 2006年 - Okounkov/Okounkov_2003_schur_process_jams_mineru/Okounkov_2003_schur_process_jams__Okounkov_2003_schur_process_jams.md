@@ -32,7 +32,7 @@ $$
 \operatorname{Prob} \left(U \subset \mathfrak {S} (\{\lambda (t) \})\right) = \det \left(K (u _ {i}, u _ {j})\right) _ {u _ {i}, u _ {j} \in U},
 $$
 
-and we give an explicit contour integral representation for the correlation kernel$K ;$; see Theorem 1. This theorem is a generalization of Theorem 2 in [16].
+and we give an explicit contour integral representation for the correlation kernel$K$; see Theorem 1. This theorem is a generalization of Theorem 2 in [16].
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Received by the editors December 8, 2001.</span></small>
 
@@ -76,7 +76,7 @@ $$
 \lambda = \left(\lambda_ {1} \geq \lambda_ {2} \geq \lambda_ {3} \geq \dots \geq 0\right)
 $$
 
-of integers such that$\lambda _ { i } = 0$for$i \gg 0 .$. The zero, or empty, partition is denoted by ∅. The book [15] is a most comprehensive reference on partitions and symmetric functions.
+of integers such that$\lambda _ { i } = 0$for$i \gg 0$. The zero, or empty, partition is denoted by ∅. The book [15] is a most comprehensive reference on partitions and symmetric functions.
 
 The Schur process is a measure on sequences
 
@@ -160,7 +160,7 @@ $$
 
 identifies the configurations of the Schur process with certain subsets of$\mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$. In other words, the mapping (5) makes the Schur process a random point field on $\mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$.
 
-For example, the subset$\mathfrak { S } ( \{ \lambda ( t ) \} )$corresponding to the 3-dimensional diagram from Figure 1 is shown in Figure 2. One can also visualize$\mathfrak { S } ( \{ \lambda ( t ) \} )$) as a collection of nonintersecting paths as in Figure 2.
+For example, the subset$\mathfrak { S } ( \{ \lambda ( t ) \} )$corresponding to the 3-dimensional diagram from Figure 1 is shown in Figure 2. One can also visualize$\mathfrak { S } ( \{ \lambda ( t ) \} )$ as a collection of nonintersecting paths as in Figure 2.
 
 ## 2.2. Probabilities.
 
@@ -198,7 +198,7 @@ $$
 \det \left(\phi_ {y _ {i} - x _ {j}}\right).\tag{6}
 $$
 
-We will see that, even though there is no canonical way to evaluate this determinant, diferent regularizations difer by a constant which depends only on$\phi$and not on X and$Y$
+We will see that, even though there is no canonical way to evaluate this determinant, diferent regularizations difer by a constant which depends only on$\phi$and not on X and$Y$.
 
 Since our goal is to define probabilities only up to a constant factor, it is clear that diferent regularizations lead to the same random process.
 
@@ -230,10 +230,8 @@ $$
 
 where$h _ { k }$are the complete homogeneous symmetric functions. Note that
 
-(8)
-
 $$
-s _ {\lambda / \mu} (\phi^ {+}) = 0, \quad \mu \not \subset \lambda .\tag{2.2.5.}
+s _ {\lambda / \mu} (\phi^ {+}) = 0, \quad \mu \not \subset \lambda .\tag{8}
 $$
 
 Definition 1. We define the transition weight by the following formula
@@ -324,7 +322,7 @@ $$
 Z = \left(\prod_ {m \in \mathbb {Z} + 1 / 2} ^ {\longleftarrow} \Gamma_ {-} (\phi [ m ])   \Gamma_ {+} (\phi [ m ])   v _ {\emptyset}, v _ {\emptyset}\right)  ,\tag{12}
 $$
 
-where$\overleftarrow { \Pi }$denotes the time-ordered product, that is, the product in which operators Qare ordered from right to left in increasing time order.
+where$\overleftarrow { Q }$ denotes the time-ordered product, that is, the product in which operators are ordered from right to left in increasing time order.
 
 Using (11) and the following consequence of (43)
 
@@ -362,7 +360,7 @@ $$
 \{\widetilde {\lambda} (k) \} = \{\lambda (t _ {k}) \}.
 $$
 
-eIt follows from the vertex operator description that this is again a Schur process with parameters
+It follows from the vertex operator description that this is again a Schur process with parameters
 
 $$
 \widetilde {\phi} [ l ] = \prod_ {t _ {l - \frac {1}{2}} <   m <   t _ {l + \frac {1}{2}}} \phi [ m ], \quad l, m \in \mathbb {Z} + \frac {1}{2}.
@@ -494,7 +492,7 @@ $$
 K _ {A} (i, j) = \left\{ \begin{array}{l l} (A _ {i}   A _ {j} ^ {*}   v _ {\emptyset}, v _ {\emptyset})  , & i \geq j  , \\ - (A _ {j} ^ {*}   A _ {i}   v _ {\emptyset}, v _ {\emptyset})  , & i <   j  . \end{array} \right.
 $$
 
-Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } ;$therefore it sufices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { { ' } s }$and$A _ { j } ^ { * } \mathrm { { ^ { * } s } }$. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$, one then verifies (18) directly.
+Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } ;$therefore it sufices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { { ' } s }$and$A _ { j } ^ { * }$'s. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$, one then verifies (18) directly.
 
 We obtain the formula (16) with
 
@@ -592,7 +590,7 @@ $$
 \widetilde {\mathfrak {S}} (\pi) = \left\{(j - i, \pi_ {i j} - (i + j - 1) / 2) \right\}, \quad i, j = 1, 2, \ldots .
 $$
 
-There is a well-known correspondence between 3-dimensional diagrams and tilings of the plane by rhombi. Namely, the tiles are the images of the faces of the 3- dimensional diagram under the projection
+There is a well-known correspondence between 3-dimensional diagrams and tilings of the plane by rhombi. Namely, the tiles are the images of the faces of the 3-dimensional diagram under the projection
 
 $$
 (x, y, z) \mapsto (t, h) = (y - x, z - (x + y) / 2).\tag{25}
@@ -644,9 +642,9 @@ $$
 \int_ {\gamma} e ^ {M S (x)} d x \rightarrow 0, \quad M \rightarrow + \infty ,\tag{27}
 $$
 
-provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points $x \in \gamma$
+provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points$x \in \gamma$.
 
-3.1.2. Let$q = e ^ { - r }$and$r  + 0$. We begin with the following
+3.1.2. Let$q = e ^ { - r }$and$r \to +0$. We begin with the following
 
 Lemma 2. We have the following convergence in probability
 
@@ -670,9 +668,9 @@ $$
 
 whence$\mathrm { V a r } ( r ^ { 3 } | \pi | ) \to 0$, which concludes the proof.
 
-3.1.3. It follows that as$r  + 0$, the typical 3-dimensional diagram$\pi ,$scaled by$r$ in all directions, approaches the suitably scaled limit shape for typical 3-dimensional diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
+3.1.3. It follows that as$r \to +0$, the typical 3-dimensional diagram$\pi ,$scaled by$r$ in all directions, approaches the suitably scaled limit shape for typical 3-dimensional diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
 
-We are interested in the$r  + 0$limiting local structure of π in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
+We are interested in the$r \to +0$limiting local structure of π in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
 
 $$
 r t _ {i} \rightarrow \tau , \quad r h _ {i} \rightarrow \chi ,
@@ -686,7 +684,7 @@ $$
 
 remain fixed. This limit is easy to obtain by a combination of residue calculus with saddle-point argument. Since the measure${ \mathfrak { M } } _ { q }$is obviously symmetric with respect to the reflection$t \mapsto - t .$we can without loss of generality assume that$\tau \geq 0$in our computations.
 
-## 3.1.4. We have the following$r  + 0$asymptotics:
+## 3.1.4. We have the following$r \to +0$ asymptotics:
 
 $$
 \ln (z; q) _ {\infty} \sim r ^ {- 1} \int_ {0} ^ {z} \frac {\ln (1 - w)}{w} d w = - r ^ {- 1} \mathrm{dilog} (1 - z),\tag{28}
@@ -708,7 +706,7 @@ $$
 
 and recall that we made the assumption that$\tau \geq 0$. The function$S ( z ; \tau , \chi )$is analytic in the complex plane with cuts along$( 0 , 1 )$and$( e ^ { \tau } , + \infty )$
 
-As$r  + 0$, the exponentially large term in the integrand in (26) is
+As$r \to +0$, the exponentially large term in the integrand in (26) is
 
 $$
 \exp \left(\frac {1}{r} (S (z; \tau , \chi) - S (w; \tau , \chi))\right).\tag{29}
@@ -788,9 +786,9 @@ $$
 
 where the dots stand for the same integrand as in$( 2 6 ) , 0 < \epsilon \ll 1$, and we pick the plus sign if$t _ { 1 } \geq t _ { 2 }$and the negative sign otherwise.
 
-Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - } .$This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of$\Re S ;$see Figure 4. Similarly, the contour$\gamma _ { < }$is the same circle $| z | = e ^ { \bar { \tau } / 2 }$slightly pushed in the opposite direction. The contours$\gamma _ { \pm }$are the arcs of the circle$| z | = e ^ { \tau / 2 }$between$\bar { z } _ { c }$and$z _ { c } ,$oriented toward$z _ { c }$
+Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - } .$This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of$\Re S ;$see Figure 4. Similarly, the contour$\gamma _ { < }$is the same circle $| z | = e ^ { \tau / 2 }$ slightly pushed in the opposite direction. The contours$\gamma _ { \pm }$are the arcs of the circle$| z | = e ^ { \tau / 2 }$between$\bar { z } _ { c }$and$z _ { c } ,$oriented toward$z _ { c }$
 
-Deforming the contours and picking the residue at$z = w ,$, we obtain
+Deforming the contours and picking the residue at$z = w$, we obtain
 
 $$
 K _ {3 D} ((t _ {i}, h _ {i}), (t _ {j}, h _ {j})) = \int^ {(1)} + \int^ {(2)},
@@ -810,7 +808,7 @@ $$
 
 ![](images/page_15_image_0.jpg)
 
-Figure 5. Contours$\gamma _ { > } ( \mathrm { d a s h e d } )$$\gamma _ { < } ( \mathrm { d o t t e d } )$, and$\gamma _ { \pm }$
+Figure 5. Contours$\gamma _ { > }$ (dashed), $\gamma _ { < }$ (dotted), and$\gamma _ { \pm }$
 
 where we choose$\gamma _ { + }$if$t _ { 1 } \geq t _ { 2 }$and$\gamma _ { - }$<sub>−</sub> otherwise. As we shall see momentarily,
 
@@ -858,7 +856,7 @@ $$
 
 We have established the following
 
-Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r  + 0$
+Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r \to +0$
 
 $$
 r t _ {i} \rightarrow \tau \geq 0, r h _ {i} \rightarrow \chi , i = 1, 2, \ldots ,
@@ -870,13 +868,13 @@ $$
 \Delta t _ {i j} = t _ {i} - t _ {j}, \quad \Delta h _ {i j} = h _ {i} - h _ {j},
 $$
 
-remain fixed. Then, as$r  + 0$
+remain fixed. Then, as$r \to +0$
 
 $$
 \operatorname{Prob} \left\{U \subset \widetilde {\mathfrak {S}} (\pi) \right\}\rightarrow \det \left[ \mathrm{B} _ {\pm} \left(\Delta t _ {i j}, \Delta h _ {i j} + \frac {\Delta t _ {i j}}{2}; z _ {*}\right)\right],
 $$
 
-where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33)and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$
+where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33) and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$
 
 Remark 1. These formulas can be transformed (see Section 3.1.12) into a double integral of the form considered in [5], Proposition 8.5 and Conjecture 13.5.
 
@@ -896,7 +894,7 @@ $$
 \rho_ {*} (\tau , \chi) = \frac {\theta_ {*}}{\pi},
 $$
 
-where$\theta _ { * } = \arg z ,$<sub>∗</sub> (see Figure$5 )$, that$i s ,$
+where$\theta _ { * } = \arg z _ { * }$ (see Figure 5), that is,
 
 $$
 \theta_ {*} = \arccos \left(\cosh \frac {\tau}{2} - \frac {e ^ {- \chi}}{2}\right).\tag{35}
@@ -948,7 +946,7 @@ where the plus sign corresponds to$k \geq 0$
 
 3.1.13. Let$z ( \tau , \chi )$denote the z-coordinate of the point on the limit shape corresponding to the point$( \tau , \chi )$. This function can be obtained by integrating the density$\rho _ { * } ( \tau , \chi )$as follows.
 
-Consider a tiling such as the one in the Figure 3 and the corresponding 3- dimensional diagram, which for the tiling in Figure 3 is shown in Figure 1. It is clear that the z-coordinate of the face corresponding to a given horizontal tile equals the number of holes (that is, positions not occupied by a horizontal tile) below it. It follows that
+Consider a tiling such as the one in the Figure 3 and the corresponding 3-dimensional diagram, which for the tiling in Figure 3 is shown in Figure 1. It is clear that the z-coordinate of the face corresponding to a given horizontal tile equals the number of holes (that is, positions not occupied by a horizontal tile) below it. It follows that
 
 $$
 z (\tau , \chi) = \int_ {- \infty} ^ {\chi} (1 - \rho_ {*} (\tau , s)) d s.\tag{37}
@@ -1038,7 +1036,7 @@ $$
 
 which can be expressed in terms of the Bessel functions of the argument$2 \sqrt { \alpha } ;$see [1, 8].
 
-3.2.5. The$\alpha  \infty$asymptotics of the kernel$K _ { \mathrm { P l a n c h } }$is easy to obtain from the classical asymptotics of the Bessel functions; see [1]. It is, however, instructive to see how this can be done even more quickly in our framework. Assume that
+3.2.5. The$\alpha \to \infty$ asymptotics of the kernel$K _ { \mathrm { P l a n c h } }$is easy to obtain from the classical asymptotics of the Bessel functions; see [1]. It is, however, instructive to see how this can be done even more quickly in our framework. Assume that
 
 $$
 \frac {x}{\sqrt {\alpha}}, \frac {y}{\sqrt {\alpha}} \rightarrow \xi
@@ -1050,19 +1048,19 @@ $$
 S _ {\mathrm{Planch}} = z - z ^ {- 1} - \frac {\xi}{2} \ln z
 $$
 
-are complex precisely when$| \xi | < 2 ,$, in which case they are the points$e ^ { \pm i \theta }$, where
+are complex precisely when$| \xi | < 2$, in which case they are the points$e ^ { \pm i \theta }$, where
 
 $$
 \theta = \arccos (\xi / 2).
 $$
 
-${ \mathrm { S o } } ,$the same argument as we employed above immediately yields the following formula from [1]:
+So, the same argument as we employed above immediately yields the following formula from [1]:
 
 $$
 K _ {\mathrm{Planch}} (x, y) \rightarrow \frac {\sin \theta \Delta}{\pi \Delta}.
 $$
 
-3.2.6. Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume$N$as$N  \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
+3.2.6. Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume$N$as$N \to \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
 
 3.2.7. Similarly, finer analysis is needed to work with the asymptotics at the edges of the limit shapes where one expects to see the Airy kernel appear. In the edge scaling, the following equivalent version of the formula (22)
 
@@ -1082,7 +1080,7 @@ Further discussion of the Airy-type asymptotics of the integrals of the form (22
 
 ## Appendix: Summary of the infinite wedge formulas
 
-Let the space V be spanned by k,$\begin{array} { r } { k \in \mathbb { Z } + \frac { 1 } { 2 } } \end{array}$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
+Let the space V be spanned by$\underline { k }$, $k \in \mathbb { Z } + \frac { 1 } { 2 }$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
 
 $$
 v _ {S} = \underline {{s _ {1}}} \wedge \underline {{s _ {2}}} \wedge \underline {{s _ {3}}} \wedge \dots ,
@@ -1097,7 +1095,7 @@ $$
 are finite. We equip$\Lambda ^ { \frac { \infty } { 2 } } V$with the inner product in which the basis$\{ v _ { S } \}$is orthonormal. In particular, we have the vectors
 
 $$
-v _ {\lambda} = \underline {{\lambda_ {1} - \frac {1}{2}}} \wedge \underline {{\lambda_ {2} - \frac {3}{2}}} \wedge \underline {{\lambda_ {4} - \frac {5}{2}}} \wedge \dots ,
+v _ {\lambda} = \underline {{\lambda_ {1} - \frac {1}{2}}} \wedge \underline {{\lambda_ {2} - \frac {3}{2}}} \wedge \underline {{\lambda_ {3} - \frac {5}{2}}} \wedge \dots ,
 $$
 
 where$\lambda$is a partition. The vector
