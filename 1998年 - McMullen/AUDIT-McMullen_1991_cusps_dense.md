@@ -139,4 +139,14 @@
 
 ## 修复登记
 
-（fix(md) commit 后追加）
+- **fix commit**：`62d9df1b`（fix(md): McMullen 1991 Cusps …共31处/17规则）；**修复前 md**：
+  父提交 `00868863`（audit(page) 提交，其父 `c107dd62` 为 mineru 原始产出态）。
+- **修复内容**（31 处 / 17 规则，rep 断言一次通过）：∫误识 f×2+补竖线 1；[Bel]→[Be1]；
+  𝓛/ℓ/𝐑 花体×7（§3 定义+Using 句）；Ċ→C×2（p.16/p.22，300dpi）；Γ_γ→Γ_Y×2；
+  m_𝓛→m𝓛 乘积×1（p.22 r 式，300dpi）；𝒮×9/𝔅×3/𝒢×2 花体还原；"Finally…" display→行内+□；
+  裸编号行 (3.1)→\tag{3.1}；γ, L→γ, 𝓛×1；[Sh] SHICA→**SHIGA**（300dpi 2x）；
+  [P] POINCARE→Poincar**é**（300dpi）。
+- **不改项**：源级 quirk 14 项（见总评清单）——print 原貌忠实保留，含 "PROPOSITION 2.3"
+  错号、"1<|z|<log M"、Bierberbach、d_{k+1} 等。
+- **修复后核验**：\tag 清单 {2.1, 2.2, 3.1, 3.2} 与 print 对齐；残余 `f\mu`/`\dot{C}`/裸编号行
+  全文 grep = 0。

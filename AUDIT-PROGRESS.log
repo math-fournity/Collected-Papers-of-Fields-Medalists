@@ -239,3 +239,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 18:40 | PAGE | Avila 2006 Reducibility | p.1-30/30 | 变音/编号/重构待修 | 累计59+1篇进行中
 2026-09-30 19:10 | DONE | Avila 2006 Reducibility | 30/30 | 122 处/81 规则修复完成 | 累计60/140
 2026-09-30 19:10 | COMMIT | Avila 2006 Reducibility 闭环
+2026-09-30 16:18 | PAGE | McMullen 1991 Cusps | p.1-31/31 | 扫描件纯PNG审计进行中 | 累计60+1篇进行中
+2026-09-30 16:43 | DONE | McMullen 1991 Cusps | 31/31 | 31 处/17 规则修复完成；print 原貌 quirk 14 项登记 | 累计60/140（Okounkov 此前漏登已补，Mori 重复行已并，真实唯一篇数）
