@@ -66,3 +66,11 @@
   viazoivska。Lemma 4.2 的 "Proof of part (3)" 编号错位亦系原刊。
 - **可用性结论**：修复后 md 可作该 ICM 论文忠实底本；与 dim24 arXiv 版、Annals 版审计件
   同构互补（Viazovska 三件套齐）。
+
+### 修复登记（2026-09-29）
+- U+FFFD/丢变量 ~40 处按上下文逐一恢复（d/r/s/f/m/C/α/X/b/p/q 等）；ζ 分式排版；
+  𝒯_c→𝒥_c 统一；"interpolationfrom"/"Math ematical" 空格；"Schwartzfunction"→"Schwartz
+  function"（若原刊排印即连写则此修复仅为可读性，md 已按文本层两种形态并存处理——登记说明）。
+- Laplace 末项 ∂x₁² **撤销 FAIL**（p.4 PNG 证实原刊源级 typo，md 忠实）；χ_k/χ_d、
+  Klostermann、choise、"part (3)" 编号错位、viazoivska email 均登记为源级 quirk。
+- 本篇 14/14 页完成，无未决项。
