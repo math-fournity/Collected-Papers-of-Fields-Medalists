@@ -32,3 +32,12 @@
 - Markdown segment: lines 23–51, from Theorem 1 through the paragraph ending “the disjoint”; line 53 continues the sentence on PDF p.3.
 - Compared: theorem statement and diagonal-form equation; the `2mE₈+n[[0,1],[1,0]]` form; the smoothing discussion; the `π₁(X) → SU(2)` condition; acknowledgement; section I.2 and its moduli-space description through the page break.
 - Result: **PASS±**. The body and displayed equations match the page image. The Markdown omits the running header and printed folio `280`. The print phrase “in some base” is retained verbatim in the Markdown; it is a source-level wording quirk, not an OCR discrepancy.
+
+### p.003 (PDF p.3 / print p.281)
+
+- PNG: `audit/p003.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p003-bundle-map.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:54:31 EDT
+- Markdown segment: lines 53–101, from the continuation “union of X...” through the line ending “The curvature F(A) of any”.
+- Compared: end of the moduli-space boundary description; Lemma 2 and its two displayed decompositions and signature calculation; start of section I.3; bundle notation, connection-space definition, and differential-operator formula.
+- Result: **FAIL**. At Markdown line 89 the source diagram `P ↓ X` identifying the total space and base of the principal bundle is reduced to `\downarrow`; both labels `P` and `X` are lost. The 300-dpi crop confirms the printed diagram. The other checked mathematical statements match. The printed running header and folio `281` are absent from the Markdown.
