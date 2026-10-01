@@ -220,6 +220,13 @@
 - Checked: the end of Proposition 15, Corollary, section on algebraic/analytic principal bundles, nonabelian H^0/H^1 notation, and Proposition 16.
 - Result: FAIL. The print defines the group H^0(X,A) and the pointed set H^1(X,A); the crop confirms superscript zero. Markdown line 768 has H^6(X,A). The subsequent H^1 classifications and Proposition 16 statement agree.
 
+### PDF p.032/43 — print p.31
+
+- Reviewed: 2026-10-01 17:44 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi group-action crop](audit/300dpi/Serre_1956_gaga_p032_group-action_300dpi.png); [300 dpi H^1 and vector-sheaf crop](audit/300dpi/Serre_1956_gaga_p032_H1-vector-sheaf_300dpi.png); PDF text layer and MinerU Markdown lines 784–802.
+- Checked: the G×G action on G, Proposition 16 proof, nonabelian H^0/H^1 notation, and Propositions 17–18.
+- Result: FAIL. The print action is (g,g')·h = g h g'^{-1}; Markdown line 787 has g h g^{-1}. The print uses H^1(X,G) and H^1(X^h,G^h); Markdown line 792 has H' in both exponents. The vector-sheaf criterion ends with F^h isomorphic to M, while line 802 has A. Proposition 17's sentence omits the symbol epsilon, but the immediately preceding sentence identifies the map, so that omission is non-misleading and recorded PASS±.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
