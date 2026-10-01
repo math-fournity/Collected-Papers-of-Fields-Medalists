@@ -294,3 +294,12 @@
 - Markdown segment: lines 1207–1239, from Proposition 22 through the three regions in the opening of the proof of Lemma 23.
 - Compared: δ condition and the two Taubes correction bounds; Lemma 23 estimates; path argument for Theorem 11; compact/nonempty conclusion and three-region decomposition.
 - Result: **PASS±**. The mathematical statements and formulas match the page image. Markdown uses plain `M_{λ₀}` in line 1237 where the print uses Fraktur `𝔐_{λ₀}`; this is a harmless font-style loss. The running author header and folio `309` are absent.
+
+### p.032 (PDF p.32 / print p.310)
+
+- PNG: `audit/p032.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p032-big-O.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:50:25 EDT
+- Markdown segment: lines 1241–1271, from the outer-region estimates through the stationary-framing explanation in part (c).
+- Compared: estimates for `A₁` and `B₁`; conformal transfer of the `S⁴` connections; bounds for `b₂`; gradient comparison; transition functions and the three annular-region bounds.
+- Result: **FAIL**. Markdown line 1265 uses digit `0` in the annulus radius `0(λ^{1/2})`; the printed page uses big-O `O(λ^{1/2})`, confirmed by the 300-dpi crop. This is an OCR substitution and a repair candidate. The other checked estimates and formulas match; the running author header and folio `310` are absent.
