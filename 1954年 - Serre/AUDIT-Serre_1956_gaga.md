@@ -106,3 +106,10 @@
 - Checked: Proposition 6, Chow's projective-cover argument, Lemma 2 on dense images, irreducible-component indexing, and the opening of Proposition 7.
 - Result: PASS±. The checked prose, propositions and set-map notation agree. The running author and print page number are not represented in Markdown.
 - Image: no per-page image; born-digital text-layer review found no separate glyph-level discrepancy requiring a crop.
+
+### PDF p.014/43 — print p.13
+
+- Reviewed: 2026-10-01 16:18 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi local-map crop](audit/300dpi/Serre_1956_gaga_p014_local-map_300dpi.png); PDF text layer and MinerU Markdown lines 226–244.
+- Checked: end of Proposition 7, Propositions 8 and 9, the local-ring sheaf map induced by p, and footnote (2).
+- Result: FAIL. The print says p transforms the sheaf O_X into O_T, while Markdown line 236 has O_x. The printed homomorphism is O_{x,X} → O_{t,T}; the crop confirms uppercase X, while Markdown line 239 uses lowercase x in the second subscript. Defer both corrections until the full audit is complete.
