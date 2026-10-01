@@ -184,3 +184,10 @@
 - Evidence: [300 dpi Theorem 2 Hom-map crop](audit/300dpi/Serre_1956_gaga_p024_hom-maps_300dpi.png); [300 dpi Theorem 3 extension-by-zero crop](audit/300dpi/Serre_1956_gaga_p024_extension-zero_300dpi.png); PDF text layer and MinerU Markdown lines 548–574.
 - Checked: composition proving Theorem 2, kernel/cokernel uniqueness proof, and the reduction of Theorem 3 existence to projective space by extension by zero.
 - Result: FAIL. The print's first Hom section is H^0(X,A), but Markdown line 554 has X^h. In the existence reduction, print uses M^X, f in the ideal sheaf I, and the stalk G_x^h = M_x^X; Markdown line 572 instead has M^x, J_x, G_{fx}^h, and M_x^x. The print also has I·G = 0 and M^X at the end of this passage, while line 574 has J·G and M_b^X. The crops confirm these object and case differences. Defer correction until the full audit is complete.
+
+### PDF p.025/43 — print p.24
+
+- Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi twist-transition crop](audit/300dpi/Serre_1956_gaga_p025_twist-transition_300dpi.png); [300 dpi Lemma 8 crop](audit/300dpi/Serre_1956_gaga_p025_lemma8_300dpi.png); PDF text layer and MinerU Markdown lines 574–592.
+- Checked: closing restriction step of the extension-by-zero argument, definition of M(n) and its transition maps, Lemma 7, and Lemma 8's global-generation bound.
+- Result: FAIL. The print's closing phrase is that F^h is isomorphic to M, with no subscript on M; Markdown line 574 has M_b^X. The 300 dpi crop confirms the print. The twist t_j^n/t_i^n and Lemma 8 bound/generation statement otherwise agree.
