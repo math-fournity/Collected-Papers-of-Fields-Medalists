@@ -103,7 +103,8 @@
 - Checked at: 2026-10-01 16:06:10 EDT
 - Markdown segment: lines 329–372, from Theorem 6 through the definition of the smooth map `S(A+a,g)`.
 - Compared: Theorem 6 local quotient statements; slice norm and group-action formulas; factorisation `g=γ\tilde g`; Sobolev estimate; proof of Hausdorffness and the map `S`.
-- Result: **PASS±**. The mathematical statements and formulas match. The print says “a principle `𝒢/±1` bundle” (rather than “principal”); Markdown preserves the source wording. The prime after `L_3^2` in the norm of `b` is visible on the 300-dpi crop and is also preserved. The running author header and folio `288` are omitted.
+- Result: **FAIL**. The mathematical statements otherwise match, but Markdown line 359 gives `0(ε)` for the constant-component error term; the print uses big-O `O(ε)`, as confirmed by the supplemental 300-dpi crop. This changes the estimate and is a repair candidate. The print says “a principle `𝒢/±1` bundle” (rather than “principal”); Markdown preserves the source wording. The prime after `L_3^2` in the norm of `b` is visible on the other 300-dpi crop and is also preserved. The running author header and folio `288` are omitted.
+- Supplemental check: 2026-10-01 17:18:33 EDT; the 300-dpi crop `audit/300dpi/p010-big-O.png` confirms the asymptotic order symbol.
 
 ### p.011 (PDF p.11 / print p.289)
 
