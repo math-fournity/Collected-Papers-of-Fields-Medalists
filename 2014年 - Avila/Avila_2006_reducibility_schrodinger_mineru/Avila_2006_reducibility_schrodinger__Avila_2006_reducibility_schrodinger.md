@@ -1,10 +1,10 @@
-# Reducibility or nonuniform hyperbolicity for quasiperiodic Schr¨odinger cocycles
+# Reducibility or nonuniform hyperbolicity for quasiperiodic Schrödinger cocycles
 
-By Artur Avila\* and Rapha¨el Krikorian
+By Artur Avila\* and Raphaël Krikorian
 
 ## Abstract
 
-We show that for almost every frequency$\alpha \in \mathbb { R } \backslash \mathbb { Q }$, for every$C ^ { \omega }$potential $v : \mathbb { R } / \mathbb { Z } \to \mathbb { R }$, and for almost every energy E the corresponding quasiperiodic Schr¨odinger cocycle is either reducible or nonuniformly hyperbolic. This result gives very good control on the absolutely continuous part of the spectrum of the corresponding quasiperiodic Schr¨odinger operator, and allows us to complete the proof of the Aubry-Andr´e conjecture on the measure of the spectrum of the Almost Mathieu Operator.
+We show that for almost every frequency$\alpha \in \mathbb { R } \backslash \mathbb { Q }$, for every$C ^ { \omega }$potential $v : \mathbb { R } / \mathbb { Z } \to \mathbb { R }$, and for almost every energy E the corresponding quasiperiodic Schrödinger cocycle is either reducible or nonuniformly hyperbolic. This result gives very good control on the absolutely continuous part of the spectrum of the corresponding quasiperiodic Schrödinger operator, and allows us to complete the proof of the Aubry-André conjecture on the measure of the spectrum of the Almost Mathieu Operator.
 
 ## 1. Introduction
 
@@ -58,9 +58,9 @@ $$
 
 Let$\mathrm { D C } = \cup _ { \kappa > 0 , \tau > 0 } \mathrm { D C } ( \kappa , \tau )$. It is well known that$\cup _ { \kappa > 0 } \mathrm { D C } ( \kappa , \tau )$has full Lebesgue measure if$\tau > 1$
 
-Now,$\alpha \in \mathbb { R } \setminus \mathbb { Q }$satisfies a recurrent Diophantine condition$\mathrm { R D C } ( \kappa , \tau )$if there are infinitely many$n > 0$such that$G ^ { n } ( \{ \alpha \} ) \in \mathrm { D C } ( \kappa , \tau )$, where {α} is the fractional part of α and$G : ( 0 , 1 ) \to [ 0 , 1 )$is the Gauss map$G ( x ) = \{ x ^ { - 1 } \}$ We let$\mathrm { R D C } = \cup _ { \kappa > 0 , \tau > 0 } \mathrm { R D C } ( \kappa , \tau )$. Notice that$\mathrm { R D C } ( \kappa , \tau )$has full Lebesgue measure as long as$\mathrm { D C } ( \kappa , \tau )$has positive Lebesgue measure (since the Gauss map is ergodic with respect to the probability measure$\textstyle { \frac { d x } { ( 1 + x ) \ln 2 } } )$. It is possible to show that R \ RDC has Hausdorf dimension$1 / 2$
+Now,$\alpha \in \mathbb { R } \setminus \mathbb { Q }$satisfies a recurrent Diophantine condition$\mathrm { R D C } ( \kappa , \tau )$if there are infinitely many$n > 0$such that$G ^ { n } ( \{ \alpha \} ) \in \mathrm { D C } ( \kappa , \tau )$, where {α} is the fractional part of α and$G : ( 0 , 1 ) \to [ 0 , 1 )$is the Gauss map$G ( x ) = \{ x ^ { - 1 } \}$ We let$\mathrm { R D C } = \cup _ { \kappa > 0 , \tau > 0 } \mathrm { R D C } ( \kappa , \tau )$. Notice that$\mathrm { R D C } ( \kappa , \tau )$has full Lebesgue measure as long as$\mathrm { D C } ( \kappa , \tau )$has positive Lebesgue measure (since the Gauss map is ergodic with respect to the probability measure$\textstyle { \frac { d x } { ( 1 + x ) \ln 2 } } )$. It is possible to show that R \ RDC has Hausdorff dimension$1 / 2$
 
-Given$v \in C ^ { r } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$, let us consider the Schr¨odinger cocycle
+Given$v \in C ^ { r } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$, let us consider the Schrödinger cocycle
 
 $$
 S _ {v, E} (x) = \left( \begin{array}{c c} E - v (x) & - 1 \\ 1 & 0 \end{array} \right) \in C ^ {r} (\mathbb {R} / \mathbb {Z}, \mathrm{SL} (2, \mathbb {R}))\tag{1.7}
@@ -68,13 +68,11 @@ $$
 
 (v is called the potential and E is called the energy).
 
-There is fairly good comprehension of the dynamics of Schr¨odinger cocycles in the case of either small or large potentials:
+There is fairly good comprehension of the dynamics of Schrödinger cocycles in the case of either small or large potentials:
 
 Proposition 1.1 (Sorets-Spencer [SS]). Let$v \in C ^ { \omega } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$be a non-constant potential, and let$\alpha \in \mathbb { R }$. There exists$\lambda _ { 0 } = \lambda _ { 0 } ( v ) > 0$such that$i f$ $| \lambda | > \lambda _ { 0 }$then for every$E \in \mathbb { R }$there is$L ( \alpha , S _ { \lambda v , E } ) > 0$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2Z”</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Obviously, reducibility modulo Z is a stronger notion than plain reducibility, but in some situations one can show that both definitions are equivalent (see Remark 1.5). The advantage of defining reducibility “modulo is to include some special situations (notably certain uniformly hyperbolic cocycles).</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Obviously, reducibility modulo Z is a stronger notion than plain reducibility, but in some situations one can show that both definitions are equivalent (see Remark 1.5). The advantage of defining reducibility “modulo Z” is to include some special situations (notably certain uniformly hyperbolic cocycles).</span></small>
 
 Proposition 1.2 (Eliasson$[ \mathrm { E } 1 ] ^ { 2 } )$. Let$v \in C ^ { \omega } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$, and let$\alpha \in \mathrm { D C }$ There exists$\lambda _ { 0 } = \lambda _ { 0 } ( v , \alpha )$such that$i f \left| \lambda \right| < \lambda _ { 0 }$then for almost every$E \in \mathbb { R }$ the cocycle$( \alpha , S _ { \lambda v , E } )$is$C ^ { \omega } { } _ { - r e d u c i b l e . }$
 
@@ -82,11 +80,11 @@ Remark 1.1. Sorets-Spencer’s result is nonperturbative: the “largeness” co
 
 Remark 1.2. In general, one cannot replace “almost$\mathrm { e v e r y } ^ { \mathfrak { Y } }$by “every” in Eliasson’s result above. Indeed, in [E1] it is also shown that the set of energies for which$( \alpha , S _ { \lambda v , E } )$is not (even$C ^ { 0 } )$reducible is nonempty for a generic (in an appropriate topology) choice of$( \lambda , v )$satisfying$| \lambda | < \lambda _ { 0 } ( v )$ Those “exceptional” energies do have zero Lyapunov exponent.
 
-Remark 1.3. Let$\alpha \in \mathrm { D C }$and$A \in C ^ { r } ( \mathbb { R } / \mathbb { Z } , { \mathrm { S L } } ( 2 , \mathbb { R } ) )$),$r = \infty , \omega$. In this case,$( \alpha , A )$is uniformly hyperbolic if and only if it is$C ^ { r } .$-reducible and has a positive Lyapunov exponent, see [E2, §2]. Thus, there are lots of “simple cocycles” for which one has positive Lyapunov exponent, resp. reducibility, and indeed both at the same time: this is the case in particular for$| E |$large in the Schr¨odinger case. Those examples are also stable (here we fix$\alpha \in \mathrm { D C }$ and stability is with respect to perturbations of A).
+Remark 1.3. Let$\alpha \in \mathrm { D C }$and$A \in C ^ { r } ( \mathbb { R } / \mathbb { Z } , { \mathrm { S L } } ( 2 , \mathbb { R } ) )$),$r = \infty , \omega$. In this case,$( \alpha , A )$is uniformly hyperbolic if and only if it is$C ^ { r } .$-reducible and has a positive Lyapunov exponent, see [E2, §2]. Thus, there are lots of “simple cocycles” for which one has positive Lyapunov exponent, resp. reducibility, and indeed both at the same time: this is the case in particular for$| E |$large in the Schrödinger case. Those examples are also stable (here we fix$\alpha \in \mathrm { D C }$ and stability is with respect to perturbations of A).
 
 However, cocycles with a positive Lyapunov exponent, resp. reducible, but which are not uniformly hyperbolic do happen for a positive measure set of energies for many choices of the potential, and in particular in the situations described by the results of Sorets-Spencer (this follows from [B, Th. 12.14]), resp. Eliasson.
 
-Our main result for Schr¨odinger cocycles aims to close the gap and describe the situation (for almost every energy) without largeness/smallness assumption on the potential:
+Our main result for Schrödinger cocycles aims to close the gap and describe the situation (for almost every energy) without largeness/smallness assumption on the potential:
 
 Theorem A. Let$\alpha ~ \in ~ \mathrm { R D C }$and let$v : \mathbb { R } / \mathbb { Z } \to \mathbb { R }$be$a ~ C ^ { \omega }$potential. Then, for Lebesgue almost every$E _ { \mathrm { { i } } }$, the cocycle$( \alpha , S _ { v , E } )$is either nonuniformly hyperbolic$o r \ : C ^ { \omega }$-reducible.
 
@@ -108,9 +106,9 @@ Remark 1.5. One can distinguish two distinct behaviors among the reducible cocyc
 
 Theorems A and$\mathrm { A } ^ { \prime }$give a nice global picture for the theory of quasiperiodic cocycles, extending known results for cocycles taking values on certain compact groups (see [K1] for the case of$\mathrm { S U } ( 2 ) )$. They fit with the Palis conjecture for general dynamical systems [Pa], and have a strong analogy with the work of Lyubich in the quadratic family [Ly], generalized in [ALM].
 
-More importantly, reducible and nonuniformly hyperbolic systems can be eficiently described through a wide variety of methods, especially in the analytic case. With respect to reducible systems, the dynamics of the cocycle itself is of course very simple, and the use of KAM theoretical methods ([DiS], [E1]) allowed also a good comprehension of their perturbations. With respect to nonuniformly hyperbolic systems, there has been recently lots of success in the application of subtle properties of subharmonic functions ([BG], [GS], [BJ1]) to obtain large deviation estimates with important consequences (such as regularity properties of the Lyapunov exponent).
+More importantly, reducible and nonuniformly hyperbolic systems can be efficiently described through a wide variety of methods, especially in the analytic case. With respect to reducible systems, the dynamics of the cocycle itself is of course very simple, and the use of KAM theoretical methods ([DiS], [E1]) allowed also a good comprehension of their perturbations. With respect to nonuniformly hyperbolic systems, there has been recently lots of success in the application of subtle properties of subharmonic functions ([BG], [GS], [BJ1]) to obtain large deviation estimates with important consequences (such as regularity properties of the Lyapunov exponent).
 
-1.1. Application to Schrodinger operators.¨ We now discuss the application of the previous results to the quasiperiodic Schr¨odinger operator
+1.1. Application to Schrödinger operators. We now discuss the application of the previous results to the quasiperiodic Schrödinger operator
 
 $$
 H _ {v, \alpha , x} u (n) = u (n + 1) + u (n - 1) + v (x + \alpha n) u (n), \quad u \in l ^ {2} (\mathbb {Z}),\tag{1.9}
@@ -164,7 +162,7 @@ Although the key ideas behind those results are quite transparent (given the app
 
 1.1.1. Almost Mathieu. Certainly the most studied family of potentials in the literature is$v ( \theta ) = \lambda \cos 2 \pi \theta , \lambda > 0$. In this case,$H _ { v , \alpha , x }$is called the Almost Mathieu Operator.
 
-The Aubry-Andr´e conjecture on the measure of the spectrum of the Almost Mathieu Operator states that the measure of the spectrum of$H _ { \lambda \cos 2 \pi \theta , \alpha , x }$ is$| 4 - 2 \lambda |$for every$\alpha \in \mathbb { R } \setminus \mathbb { Q } , x \in \mathbb { R } { \mathrm { ~ ( s e e ~ [ A A ] ) . ^ 4 } }$There is a long story of developments around this problem, which led to several partial results ([HS], [AMS], [L], [JK]). In particular, it has already been proved for every$\lambda \neq 2$ (see [JK]), and for every α not of constant$\mathrm { t y p e ^ { 5 } }$[L]. However, for α, say, the golden mean, and$\lambda = 2$, where one should prove zero Lebesgue measure of the spectrum, previous to this work, it was still unknown even whether the spectrum has empty interior.
+The Aubry-André conjecture on the measure of the spectrum of the Almost Mathieu Operator states that the measure of the spectrum of$H _ { \lambda \cos 2 \pi \theta , \alpha , x }$ is$| 4 - 2 \lambda |$for every$\alpha \in \mathbb { R } \setminus \mathbb { Q } , x \in \mathbb { R } { \mathrm { ~ ( s e e ~ [ A A ] ) . ^ 4 } }$There is a long story of developments around this problem, which led to several partial results ([HS], [AMS], [L], [JK]). In particular, it has already been proved for every$\lambda \neq 2$ (see [JK]), and for every α not of constant$\mathrm { t y p e ^ { 5 } }$[L]. However, for α, say, the golden mean, and$\lambda = 2$, where one should prove zero Lebesgue measure of the spectrum, previous to this work, it was still unknown even whether the spectrum has empty interior.
 
 Using Theorem A, we can deal with the last cases (which are also Problem 5 of [Si2]).
 
@@ -172,15 +170,9 @@ Theorem 1.5.The spectrum of$H _ { \lambda \cos 2 \pi \theta , \alpha , x }$has L
 
 Proof. As stated above, it is enough to consider$\lambda = 2$and α of constant type, in particular$\alpha ~ \in ~ \mathrm { R D C }$. Let Σ be the spectrum of$H _ { 2 \cos 2 \pi \theta , \alpha , x }$. By Corollary 2 of [BJ1],$\Sigma _ { + } ~ = ~ \emptyset$. By Theorem$\mathrm { A } .$, for almost every$E \in \Sigma _ { 0 } .$ $( \alpha , S _ { 2 \cos 2 \pi \theta , E } )$is$C ^ { \omega } .$-reducible. Thus, it is enough to show that$( \alpha , S _ { 2 \cos 2 \pi \theta , E } )$ is not$C ^ { \omega } .$-reducible for every$E \in \Sigma$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">λ = 2</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>The “critical case” λ = 2 can be traced even further back to Hofstadter [H].</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">α ∈ R</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">if and only if .α ∈ ∪<sub>κ>0</sub>RDC(κ, 1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>The “critical case”  can be traced even further back to Hofstadter [H].</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>A number α ∈ R is said to be of constant type if the coeficients of its continued fraction expansion are bounded. It follows that α is of constant type if and only ifα ∈ ∪<sub>κ>0</sub>DC(κ, 1)</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>A number α ∈ R is said to be of constant type if the coefficients of its continued fraction expansion are bounded. It follows that α is of constant type if and only if α ∈ ∪<sub>κ>0</sub>DC(κ, 1) if and only if α ∈ ∪<sub>κ>0</sub>RDC(κ, 1).</span></small>
 
 Assume this is not the case, that is,$( \alpha , S _ { 2 \cos 2 \pi \theta , E } )$is reducible for some $E \in \Sigma$. To reach a contradiction, we will approximate the potential 2 cos 2πθ by λ cos 2πθ with$\lambda > 2$close to 2. Then, by Theorem A of [E1], if$( \lambda , E ^ { \prime } )$ is suficiently close to$( 2 , E )$, either$\left( \alpha , S _ { \lambda \cos 2 \pi \theta , E ^ { \prime } } \right)$is uniformly hyperbolic or $L ( \alpha , S _ { \lambda \cos 2 \pi \theta , E ^ { \prime } } ) = 0$. In particular (since the spectrum depends continuously on the potential), there exists$E ^ { \prime } \in \mathbb { R }$such that$L ( \alpha , S _ { \lambda \cos 2 \pi \theta , E ^ { \prime } } ) = 0$. But it is well known, see [H], that the Lyapunov exponent of$S _ { \lambda \cos 2 \pi \theta , E ^ { \prime } }$is bounded from below by max$\{ \ln { \frac { \lambda } { 2 } } , 0 \} > 0$and the result follows.□
 
@@ -218,7 +210,7 @@ We conclude that for almost every$E \in \mathbb { R }$such that$L ( \alpha , S _
 
 The above strategy uses$\alpha \in \mathrm { R D C }$in order to take good limits of renormalization. It would be interesting to try to obtain results under the weaker condition$\alpha \in \mathrm { D C }$by working directly with deep renormalizations (without considering limits).
 
-Remark 1.7. Renormalization methods have been previously applied to the study of quasiperiodic Schr¨odinger operators, see for instance [BF], [FK] and [HS]. While the notions used by Helfer-Sj¨ostrand are quite diferent from ours, the “monodromization techniques” of Buslaev-Fedotov-Klopp correspond to essentially the same notion of renormalization used here. An important conceptual diference is in the use of renormalization: we are interested in the dynamics of the renormalization operator itself, in a spirit close to works in one-dimensional dynamics (see for instance [Ly], [Y], [S]).
+Remark 1.7. Renormalization methods have been previously applied to the study of quasiperiodic Schrödinger operators, see for instance [BF], [FK] and [HS]. While the notions used by Helffer–Sjöstrand are quite diferent from ours, the “monodromization techniques” of Buslaev-Fedotov-Klopp correspond to essentially the same notion of renormalization used here. An important conceptual diference is in the use of renormalization: we are interested in the dynamics of the renormalization operator itself, in a spirit close to works in one-dimensional dynamics (see for instance [Ly], [Y], [S]).
 
 ## 2. Parameter exclusion
 
@@ -236,7 +228,7 @@ It turns out that this result generalizes to the setting of Theorem$\mathrm { A 
 
 Theorem 2.2. Let$A : \mathbb { R } / \mathbb { Z } \to { \mathrm { S L } } ( 2 , \mathbb { R } )$be continuous. Then for almost every$\theta \in \mathbb { R }$, either$L ( \alpha , R _ { \theta } A ) > 0 \ o r \ ( \alpha , R _ { \theta } A )$is$L ^ { 2 } .$-conjugated to a cocycle of rotations.
 
-The proof of this generalization is essentially the same as in the Schr¨odinger case. We point the reader to [AK1] for a discussion of this and further generalizations.
+The proof of this generalization is essentially the same as in the Schrödinger case. We point the reader to [AK1] for a discussion of this and further generalizations.
 
 Remark 2.1. Both theorems above are valid in a much more general setting, namely for cocycles over transformations preserving a probability measure. The requirement on the cocycle is the least to speak of Lyapunov exponents (and Oseledets theory), namely integrability of the logarithm of the norm.
 
@@ -246,7 +238,7 @@ Remark 2.1. Both theorems above are valid in a much more general setting, namely
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>8</sup>This reference was pointed out to us by Hakan Eliasson.</span></small>
 
-Theorem 2.3. Let$v \in C ^ { 0 } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$. Then for almost every E such that $L ( \alpha , S _ { v , E } ) = 0$2
+Theorem 2.3. Let$v \in C ^ { 0 } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$. Then for almost every E such that $L ( \alpha , S _ { v , E } ) = 0$.
 
 $$
 \frac {d}{d E} \rho (\alpha , S _ {v, E}) <   0.\tag{2.2}
@@ -260,7 +252,7 @@ $$
 \frac {d}{d \theta} \rho (\alpha , R _ {\theta} A) > 0.\tag{2.3}
 $$
 
-Remark 2.2. In the Schr¨odinger case, it is possible to show that the fibered rotation number is a surjective function (of E) onto$[ 0 , 1 / 2 ]$. In [AS] it is also shown that$N ( E ) = 1 - 2 \rho ( \alpha , S _ { v , E } )$can be interpreted as the integrated density of states.
+Remark 2.2. In the Schrödinger case, it is possible to show that the fibered rotation number is a surjective function (of E) onto$[ 0 , 1 / 2 ]$. In [AS] it is also shown that$N ( E ) = 1 - 2 \rho ( \alpha , S _ { v , E } )$can be interpreted as the integrated density of states.
 
 The arithmetic properties of the fibered rotation number are also important for the analysis of cocycles$( \alpha , A )$. Fix$\alpha \in \mathbb { R }$. Let us say that$\beta \in \mathbb { R } / \mathbb { Z }$is Diophantine with respect to α if there exists$\kappa > 0 , \tau > 0$such that
 
@@ -282,7 +274,7 @@ Theorem 2.7. Let$( \alpha , A ) \in \mathbb { R } \times C ^ { \omega } ( \mathb
 
 (2)$\rho ( \alpha , A )$is Diophantine with respect to$\alpha ,$
 
-(3) A admits a holomorphic extension to some strip$\mathbb { R } / \mathbb { Z } \times ( - \epsilon , \epsilon )$2
+(3) A admits a holomorphic extension to some strip$\mathbb { R } / \mathbb { Z } \times ( - \epsilon , \epsilon )$.
 
 (4) A is suficiently close to a constant$\hat { A } \in \mathrm { S L } ( 2 , \mathbb { R } )$
 
@@ -299,7 +291,7 @@ This theorem was originally proved in the case of diferential equations, but the
 In this section, we will assume that$( \alpha , A )$is$L ^ { 2 } .$-conjugated to a cocycle of rotations. There exist measurable${ B : \mathbb { R } / \mathbb { Z } } \to \mathrm { S L } ( 2 , \mathbb { R } )$and$R : \mathbb { R } / \mathbb { Z } \to$ $\mathrm { S O } ( 2 , \mathbb { R } )$such that
 
 $$
-(3. 1) \quad \forall x \in \mathbb {R} / \mathbb {Z}, \quad A (x) = B (x + \alpha) R (x) B (x) ^ {- 1} \quad \mathrm{and} \quad \int_ {\mathbb {R} / \mathbb {Z}} \phi (x) d x <   \infty
+(3.1) \quad \forall x \in \mathbb {R} / \mathbb {Z}, \quad A (x) = B (x + \alpha) R (x) B (x) ^ {- 1} \quad \mathrm{and} \quad \int_ {\mathbb {R} / \mathbb {Z}} \phi (x) d x <   \infty
 $$
 
 where we set$\phi ( \boldsymbol { x } ) = \| \boldsymbol { B } ( \boldsymbol { x } ) \| ^ { 2 } = \| \boldsymbol { B } ( \boldsymbol { x } ) ^ { - 1 } \| ^ { 2 }$(here and in what follows,$\mathbb { R } ^ { 2 }$is supplied with the Euclidean norm and the space of real$2 \times 2$matrices$\operatorname { M } ( 2 , \mathbb { R } )$ is supplied with the operator norm).
@@ -382,7 +374,7 @@ $$
 
 We now give estimates for the derivatives.
 
-Lemma 3.2. Assume that$A : \mathbb { R } / \mathbb { Z } \to { \mathrm { S L } } ( 2 , \mathbb { R } )$is of class$C ^ { k } \ ( 1 \leq k$ $\leq \infty )$. Then for every$0 \leq r \leq k _ { \cdot }$and any$x _ { 0 } , x \in \mathbb { R } / \mathbb { Z }$such that$S ( x _ { 0 } ) < \infty$，
+Lemma 3.2. Assume that$A : \mathbb { R } / \mathbb { Z } \to { \mathrm { S L } } ( 2 , \mathbb { R } )$is of class$C ^ { k } \ ( 1 \leq k$ $\leq \infty )$. Then for every$0 \leq r \leq k$and any$x _ { 0 } , x \in \mathbb { R } / \mathbb { Z }$such that$S ( x _ { 0 } ) < \infty$，
 
 $$
 \| (\partial^ {r} A _ {n}) (x) \| \leq C ^ {r} n ^ {r} \phi (x _ {0} + n \alpha) ^ {1 / 2} \bigg (c _ {1} (x _ {0}) e ^ {n c _ {2} (x _ {0}) | x - x _ {0} |} \bigg) ^ {r + \frac {1}{2}} \| \partial^ {r} A \| _ {C ^ {0}}\tag{3.14}
@@ -414,14 +406,12 @@ $$
 
 From the previous lemma,
 
-(3.19)
-
 $$
-\left\| A _ {i _ {p}} (x) \right\| \leq \bigl (K \phi (x _ {0}) \phi (x _ {0} + i _ {p} \alpha) \bigr) ^ {1 / 2},\tag{3.20}
+\left\| A _ {i _ {p}} (x) \right\| \leq \bigl (K \phi (x _ {0}) \phi (x _ {0} + i _ {p} \alpha) \bigr) ^ {1 / 2},\tag{3.19}
 $$
 
 $$
-\left\| \operatorname{Ad} \left(A _ {i _ {p}} (x)\right) \right\| \leq \left\| A _ {i _ {p}} (x) \right\| ^ {2} \leq K \phi (x _ {0}) \phi (x _ {0} + i _ {p} \alpha)
+\left\| \operatorname{Ad} \left(A _ {i _ {p}} (x)\right) \right\| \leq \left\| A _ {i _ {p}} (x) \right\| ^ {2} \leq K \phi (x _ {0}) \phi (x _ {0} + i _ {p} \alpha)\tag{3.20}
 $$
 
 where
@@ -490,7 +480,7 @@ $$
 \left| \left(Y (x _ {*}, \epsilon) - \alpha n\right) \cap Y (x _ {*}, \epsilon) \cap \left[ x _ {*} - \frac {d}{n}, x _ {*} + \frac {d}{n} \right] \right| \geq \frac {(2 - 2 \epsilon) d}{n}.\tag{3.30}
 $$
 
-In particular, each point$\begin{array} { r } { x \in [ x _ { * } - \frac { d } { n } , x _ { * } + \frac { d } { n } ] } \end{array}$is at distance at most$\textstyle { \frac { 2 \epsilon d } { n } }$from a point$x _ { 0 }$such that$x _ { 0 } \in Y ( x _ { * } , \epsilon )$and x<sub>0</sub>+αn$\in Y ( x _ { * } , \epsilon )$. In particular, for every $\delta > 0$, if$\epsilon > 0$is suficiently small then$c _ { 1 } ( x _ { 0 } ) \leq c _ { 1 } ( x _ { * } ) + \delta , c _ { 2 } ( x _ { 0 } ) \leq c _ { 2 } ( x _ { * } ) + \delta$ where$c _ { 1 }$and$c _ { 2 }$are as in the previous lemma. The previous lemma implies that
+In particular, each point$\begin{array} { r } { x \in [ x _ { * } - \frac { d } { n } , x _ { * } + \frac { d } { n } ] } \end{array}$is at distance at most$\textstyle { \frac { 2 \epsilon d } { n } }$from a point$x _ { 0 }$such that$x _ { 0 } \in Y ( x _ { * } , \epsilon )$and $x _ 0 + \alpha n \in Y ( x _ { * } , \epsilon )$. In particular, for every $\delta > 0$, if$\epsilon > 0$is suficiently small then$c _ { 1 } ( x _ { 0 } ) \leq c _ { 1 } ( x _ { * } ) + \delta , c _ { 2 } ( x _ { 0 } ) \leq c _ { 2 } ( x _ { * } ) + \delta$ where$c _ { 1 }$and$c _ { 2 }$are as in the previous lemma. The previous lemma implies that
 
 $$
 \begin{array}{l} \| (\partial^ {r} A _ {n}) (x) \| \leq C ^ {r} n ^ {r} \phi (x _ {0} + n \alpha) ^ {1 / 2} \left(c _ {1} (x _ {0}) e ^ {c _ {2} (x _ {0}) n | x - x _ {0} |}\right) ^ {r + \frac {1}{2}} \| \partial^ {r} A \| _ {C ^ {0}} \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qend{array}\tag{3.31}
@@ -502,7 +492,7 @@ $$
 \| \partial^ {r} A _ {n} (x) \| \leq n ^ {r} \left(C c _ {1} \left(x _ {*}\right) + \epsilon\right) ^ {r + 1} \| A \| _ {C ^ {r}}, \quad | x - x _ {*} | \leq \frac {d}{n}.\tag{3.32}
 $$
 
-Lemma 3.4. Assume that A : R${ \underline { { \prime } } } \mathbb { Z } \to \operatorname { S L } ( 2 , \mathbb { R } )$is Lipschitz. For almost every$x _ { * } \in \mathbb { R } / \mathbb { Z }$, for every$d > 0 , f o r$every$\epsilon > 0$$i f n > n _ { 0 } ( d , \epsilon )$and$\| \alpha n \| _ { \mathbb { R } / \mathbb { Z } }$ $\leq \frac { d } { n }$, then the matrix$B ( x _ { * } ) A _ { n } ( x ) B ( x _ { * } ) ^ { - 1 }$is ǫ close to$\mathrm { S O } ( 2 , \mathbb { R } )$provided that $\begin{array} { r } { | x - x _ { * } | \le \frac { d } { n } } \end{array}$
+Lemma 3.4. Assume that A : $\mathbb { R } / \mathbb { Z } \to \mathrm { S L } ( 2 , \mathbb { R } )$ is Lipschitz. For almost every$x _ { * } \in \mathbb { R } / \mathbb { Z }$, for every$d > 0$, for every$\epsilon > 0$$i f n > n _ { 0 } ( d , \epsilon )$and$\| \alpha n \| _ { \mathbb { R } / \mathbb { Z } }$ $\leq \frac { d } { n }$, then the matrix$B ( x _ { * } ) A _ { n } ( x ) B ( x _ { * } ) ^ { - 1 }$is ǫ close to$\mathrm { S O } ( 2 , \mathbb { R } )$provided that $\begin{array} { r } { | x - x _ { * } | \le \frac { d } { n } } \end{array}$
 
 Proof. Let$x _ { * }$be a measurable continuity point of S and B. By the same argument of the previous lemma, for n big enough,$\begin{array} { r } { \mathrm { i f ~ } \| \alpha n \| _ { \mathbb { R } / \mathbb { Z } } < \frac { d } { n } } \end{array}$, then every x such that$\begin{array} { r } { | x - x _ { * } | < \frac { d } { n } } \end{array}$is at distance at most$\frac { \epsilon } { n }$from some$x _ { 0 }$such that $| S ( x _ { 0 } ) - S ( x _ { * } ) | < \epsilon , \| B ( \overset { \cdot } { x } _ { 0 } ) - B ( x _ { * } ) \| < \epsilon$and$\| B ( x _ { 0 } + n \alpha ) - B ( x _ { * } ) \| < \epsilon$. By (3.4), we have
 
@@ -546,13 +536,7 @@ $$
 T _ {x _ {*}} (\Phi) (n, m) = (\gamma_ {n, m} ^ {\Phi}, x \mapsto A _ {n, m} ^ {\Phi} (x + x _ {*})).\tag{4.3}
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">C<sup>r</sup></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">C<sup>r</sup>-</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">C<sup>r</sup>(R, SL(2, R)))</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>9</sup>Here and in what follows, spaces of functions (such as  are always endowed with the weak topology of uniform convergence on compacts. In the caseC<sup>ω</sup> (which is the most important for us), this means that a sequence converges to A if andA<sup>(n)</sup>A only if for every compact K there exists a complex neighborhood V ⊃ K such that (theV ⊃ K holomorphic extensions of) (are defined and) converge to A uniformly on V . We recallA<sup>(n)</sup> that the weak topology is metrizable for but not even separable for r = ω.r 6= ω,r = ω</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>9</sup>Here and in what follows, spaces of functions (such as $C ^ { r } ( \mathbb { R } , \mathrm { S L } ( 2 , \mathbb { R } ) )$) are always endowed with the weak topology of uniform $C ^ r$-convergence on compacts. In the case $C ^ \omega$ (which is the most important for us), this means that a sequence $A ^ { ( n ) }$ converges to A if and only if for every compact K there exists a complex neighborhood $V \supset K$ such that (the holomorphic extensions of) $A ^ { ( n ) }$ (are defined and) converge to A uniformly on V. We recall that the weak topology is metrizable for $r \neq \omega$, but not even separable for $r = \omega$.</span></small>
 
 Let$U \in \operatorname { G L } ( 2 , \mathbb { Z } )$. Define$N _ { U } : \Lambda ^ { r } \to \Lambda ^ { r }$by
 
@@ -578,7 +562,7 @@ $$
 \alpha = \frac {1}{a _ {1} + \frac {1}{a _ {2} + \cdots}}\tag{4.5}
 $$
 
-and we refer the reader to [HW] for details. Define$\alpha _ { n } = G ^ { n } ( \alpha )$where G is the Gauss map$G ( x ) = \{ x ^ { - 1 } \} { \overline { { ( \{ \cdot \} } } }$denotes the fractionary part). The coeficients $a _ { n }$in (4.5) are given by$a _ { n } = [ \alpha _ { n - 1 } ^ { - 1 } ]$, where [·] denotes the integer part. We also set$a _ { 0 } = 0$for convenience. Then
+and we refer the reader to [HW] for details. Define$\alpha _ { n } = G ^ { n } ( \alpha )$where G is the Gauss map$G ( x ) = \{ x ^ { - 1 } \}$ ($\{ \cdot \}$ denotes the fractionary part). The coefficients $a _ { n }$in (4.5) are given by$a _ { n } = [ \alpha _ { n - 1 } ^ { - 1 } ]$, where [·] denotes the integer part. We also set$a _ { 0 } = 0$for convenience. Then
 
 $$
 \alpha_ {n} = \frac {1}{a _ {n + 1} + \frac {1}{a _ {n + 2} + \cdots}}.\tag{4.6}
@@ -586,14 +570,12 @@ $$
 
 Let$\textstyle { \beta _ { n } = \prod _ { j = 0 } ^ { n } \alpha _ { j } }$. Define
 
-(4.7)
-
 $$
-Q _ {0} = \left( \begin{array}{c c} q _ {0} & p _ {0} \\ q _ {- 1} & p _ {- 1} \end{array} \right) = \left( \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right),\tag{4.8}
+Q _ {0} = \left( \begin{array}{c c} q _ {0} & p _ {0} \\ q _ {- 1} & p _ {- 1} \end{array} \right) = \left( \begin{array}{c c} 1 & 0 \\ 0 & 1 \end{array} \right).\tag{4.7}
 $$
 
 $$
-Q _ {n} = \left( \begin{array}{c c} q _ {n} & p _ {n} \\ q _ {n - 1} & p _ {n - 1} \end{array} \right) = \left( \begin{array}{c c} a _ {n} & 1 \\ 1 & 0 \end{array} \right) \left( \begin{array}{c c} q _ {n - 1} & p _ {n - 1} \\ q _ {n - 2} & p _ {n - 2} \end{array} \right);
+Q _ {n} = \left( \begin{array}{c c} q _ {n} & p _ {n} \\ q _ {n - 1} & p _ {n - 1} \end{array} \right) = \left( \begin{array}{c c} a _ {n} & 1 \\ 1 & 0 \end{array} \right) \left( \begin{array}{c c} q _ {n - 1} & p _ {n - 1} \\ q _ {n - 2} & p _ {n - 2} \end{array} \right).\tag{4.8}
 $$
 
 that is,
@@ -610,17 +592,15 @@ $$
 
 Then we have
 
-(4.11)
-
 $$
-\beta_ {n} = (- 1) ^ {n} (q _ {n} \alpha - p _ {n}) = \frac {1}{q _ {n + 1} + \alpha_ {n + 1} q _ {n}},\tag{4.12}
+\beta_ {n} = (- 1) ^ {n} (q _ {n} \alpha - p _ {n}) = \frac {1}{q _ {n + 1} + \alpha_ {n + 1} q _ {n}},\tag{4.11}
 $$
 
 $$
-\frac {1}{q _ {n + 1} + q _ {n}} <   \beta_ {n} <   \frac {1}{q _ {n + 1}}.
+\frac {1}{q _ {n + 1} + q _ {n}} <   \beta_ {n} <   \frac {1}{q _ {n + 1}}.\tag{4.12}
 $$
 
-4.3. Renormalization. We define the renormalization operator around$0 ,$ $R \equiv R _ { 0 } : \Gamma _ { 0 } ^ { r } \to \Gamma _ { 0 } ^ { r }$, by$R ( \Phi ) = M _ { \alpha } ( N _ { U ( \alpha ) } ( \Phi ) )$where$\alpha = \alpha ^ { \Phi }$and$U ( \cdot )$is given by (4.10).
+4.3. Renormalization. We define the renormalization operator around$0$, $R \equiv R _ { 0 } : \Gamma _ { 0 } ^ { r } \to \Gamma _ { 0 } ^ { r }$, by$R ( \Phi ) = M _ { \alpha } ( N _ { U ( \alpha ) } ( \Phi ) )$where$\alpha = \alpha ^ { \Phi }$and$U ( \cdot )$is given by (4.10).
 
 The renormalization operator around$x _ { * } \in \mathbb { R } , R _ { x _ { * } } : \Gamma _ { 0 } ^ { r }  \Gamma _ { 0 } ^ { r }$is defined by $R _ { x _ { * } } = T _ { x _ { * } } ^ { - 1 } \circ R \circ T _ { x _ { * } }$
 
@@ -642,32 +622,22 @@ Proof. We first assume that$r \neq \omega$. Let$\Phi ( 1 , 0 ) \ = \ ( 1 , A )$.
 
 Let us now assume that$r = \omega$. Let us first deal with the case where (the holomorphic extension of) A is close to the identity in a definite neighborhood of R. Extend A to a real-symmetric$C ^ { \infty }$function$A : \mathbb { C } \to { \mathrm { S L } } ( 2 , \mathbb { C } )$which is
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">A(x + 1).A(x + 1).</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">(1, id) o (α, A) = (α, A) o (1, id)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">A(x) =</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>10</sup>Since the commutativity relation (1, id) ◦ (α, A) = (α, A) ◦ (1, id) is equivalent to</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Cω</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>10</sup>Since the commutativity relation (1, id) ◦ (α, A) = (α, A) ◦ (1, id) is equivalent to A(x) = A(x + 1).</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>11</sup>The reason we refer to sequences instead of speaking of closeness is because the C<sup>ω</sup> topology is not separable.</span></small>
 
 $C ^ { \infty }$close to the identity and which is holomorphic on a definite neighborhood V of R. We will assume that V satisfies (after shrinking)
 
-(4.15)
-
 $$
-z \in V \implies z + 1 \in V, \quad \Re z \leq 0,\tag{4.16}
+z \in V \implies z + 1 \in V, \quad \Re z \leq 0,\tag{4.15}
 $$
 
 $$
-z \in V \implies z - 1 \in V, \quad \Re z \geq 1,\tag{4.17}
+z \in V \implies z - 1 \in V, \quad \Re z \geq 1,\tag{4.16}
 $$
 
 $$
-[ 0, 1 ] \times [ - \epsilon , \epsilon ] \subset V.
+[ 0, 1 ] \times [ - \epsilon , \epsilon ] \subset V.\tag{4.17}
 $$
 
 Let$B \in C ^ { \infty } ( \mathbb { C } , { \mathrm { S L } } ( 2 , \mathbb { C } ) )$be$C ^ { \infty }$close to the identity, real-symmetric, and satisfying$A ( z ) = B ( z + 1 ) B ( z ) ^ { - 1 } , \ z \in \mathbb { C } \ ( B$is obtained as in the previous case). Notice that$\overline { { { \partial } } } B ( z + 1 ) = \overline { { { \partial } } } A ( z ) B ( z ) + A ( z ) \overline { { { \partial } } } B ( z )$, so for$z \in V$we have $B ( z + 1 ) ^ { - 1 } { \overline { { \partial } } } B ( z + 1 ) = B ( z + 1 ) ^ { - 1 } A ( z ) { \overline { { \partial } } } B ( z ) = B ( z ) ^ { - 1 } { \overline { { \partial } } } B ( z )$. Moreover,
@@ -708,7 +678,7 @@ $$
 (P \alpha) (z) = \frac {- 1}{\pi} \int_ {\mathbb {R} \times [ - 1, 1 ]} \frac {\alpha (\zeta)}{z - \zeta} d \zeta \wedge d \overline {{\zeta}} = \lim _ {t \to \infty} \frac {- 1}{\pi} \int_ {[ - t, t ] \times [ - 1, 1 ]} \frac {\alpha (\zeta)}{z - \zeta} d \zeta \wedge d \overline {{\zeta}}.\tag{4.22}
 $$
 
-Define an analytic map$T : L ^ { \infty } ( \mathbb { R } / \mathbb { Z } \times [ - 1 , 1 ] ) \to L ^ { \infty } ( \mathbb { R } / \mathbb { Z } \times [ - 1 , 1 ] )$by $T ( \cdot ) = e ^ { - P ( \cdot ) } \overline { { { \partial } } } \bar { e } ^ { P ( \cdot ) }$. Then$T ( 0 ) ~ = ~ 0 , ~ D T ( 0 ) ~ = ~ \mathrm { i d }$. It follows that T is a difeomorphism in a neighborhood of$\eta = 0$, so we may solve$e ^ { - P \alpha } \overline { { { \partial } } } e ^ { P \alpha } = \eta$ with$\| \alpha \| _ { \infty } \leq K \| \eta \| _ { L ^ { \infty } }$provided$\eta$is close to 0. It follows that$C = e ^ { P \alpha }$satisfies the conclusion of the proposition.□
+Define an analytic map$T : L ^ { \infty } ( \mathbb { R } / \mathbb { Z } \times [ - 1 , 1 ] ) \to L ^ { \infty } ( \mathbb { R } / \mathbb { Z } \times [ - 1 , 1 ] )$by $T ( \cdot ) = e ^ { - P ( \cdot ) } \overline { { { \partial } } } \bar { e } ^ { P ( \cdot ) }$. Then$T ( 0 ) ~ = ~ 0 , ~ D T ( 0 ) ~ = ~ \mathrm { i d }$. It follows that T is a diffeomorphism in a neighborhood of$\eta = 0$, so we may solve$e ^ { - P \alpha } \overline { { { \partial } } } e ^ { P \alpha } = \eta$ with$\| \alpha \| _ { \infty } \leq K \| \eta \| _ { L ^ { \infty } }$provided$\eta$is close to 0. It follows that$C = e ^ { P \alpha }$satisfies the conclusion of the proposition.□
 
 We may now obtain C with the required properties by taking$\eta = B ^ { - 1 } \overline { { { \partial } } } B$ in$[ 0 , 1 ] \times [ - \epsilon , \epsilon ]$and$\eta = 0$otherwise and applying the previous proposition. This concludes the second part of the lemma in the case$r = \omega$
 
@@ -716,15 +686,11 @@ This argument also works if we only assume that A is close to the identity in th
 
 4.5. Degree and fibered rotation number. The degree and the fibered rotation number of an action will be considered in detail in Appendix A. Here we present only a summarized (and more intuitive) discussion.
 
-The degree deg Φ of a nondegenerate action Φ can be defined as follows. The degree of a normalized action$\Phi _ { \alpha , A }$is the (topological) degree of the map ${ \cal A } : \mathbb { R } / \mathbb { Z }  \mathrm { S L } ( 2 , \mathbb { R } ) ^ { 1 2 }$. It is easy to see that the degree of a normalized action is invariant under conjugacies. This allows us to define the degree of a nondegenerate action Φ as the degree of any normalized action$\Phi _ { \alpha , A }$obtained from Φ by rescaling and conjugacy. It is readily seen that the degree is invariant under rescalings, conjugacies, and translations. In the Appendix A we will see that base changes preserve the degree up to sign: deg$N _ { U } ( \Phi ) = \operatorname* { d e t } U \log \Phi$ In particular, the renormalization of an action of degree 0 still has degree 0.
+The degree deg Φ of a nondegenerate action Φ can be defined as follows. The degree of a normalized action$\Phi _ { \alpha , A }$is the (topological) degree of the map ${ \cal A } : \mathbb { R } / \mathbb { Z }  \mathrm { S L } ( 2 , \mathbb { R } ) ^ { 1 2 }$. It is easy to see that the degree of a normalized action is invariant under conjugacies. This allows us to define the degree of a nondegenerate action Φ as the degree of any normalized action$\Phi _ { \alpha , A }$obtained from Φ by rescaling and conjugacy. It is readily seen that the degree is invariant under rescalings, conjugacies, and translations. In the Appendix A we will see that base changes preserve the degree up to sign: deg$N _ { U } ( \Phi ) = \det U \, \deg \Phi$ In particular, the renormalization of an action of degree 0 still has degree 0.
 
-The fibered rotation number rot(Φ) of an action Φ is only defined in the case deg$\Phi = 0$. For a nondegenerate action, it can be defined as follows. If Φ has degree 0, and is conjugated to a normalized action$\Phi _ { \alpha , A }$, then$( \alpha , A )$ is homotopic to the identity, and it is natural to define rot(Φ) as the fibered rotation number of the cocycle$( \alpha , A )$. In general, a nondegenerated action Φ may be rescaled to an action$M _ { \lambda } ( \Phi )$which is conjugated to a normalized action: we then define$\mathrm { r o t } ( \Phi ) = \lambda \mathrm { r o t } ( M _ { \lambda } ( \Phi ) )$. It turns out (see Appendix A) that$\operatorname { r o t } ( \Phi )$is only well defined up to addition of an element of the module of frequency of$\Phi _ { i }$that is, the Z-module$\Gamma _ { \Phi } = \{ \gamma _ { n , m } ^ { \Phi } , ( n , m ) \in \mathbb { Z } ^ { 2 } \}$, and so rot(Φ) should be regarded as an element of$\mathbb { R } / \Gamma _ { \Phi } . ^ { 1 3 }$It is readily seen that rot(Φ) is invariant under translations. We will see in Appendix A that base changes preserve the fibered rotation number up to sign: rot$\left( N _ { U } ( \Phi ) \right) = \operatorname* { d e t } U \cot ( \Phi )$
+The fibered rotation number rot(Φ) of an action Φ is only defined in the case deg$\Phi = 0$. For a nondegenerate action, it can be defined as follows. If Φ has degree 0, and is conjugated to a normalized action$\Phi _ { \alpha , A }$, then$( \alpha , A )$ is homotopic to the identity, and it is natural to define rot(Φ) as the fibered rotation number of the cocycle$( \alpha , A )$. In general, a nondegenerated action Φ may be rescaled to an action$M _ { \lambda } ( \Phi )$which is conjugated to a normalized action: we then define$\mathrm { r o t } ( \Phi ) = \lambda \mathrm { r o t } ( M _ { \lambda } ( \Phi ) )$. It turns out (see Appendix A) that$\operatorname { r o t } ( \Phi )$is only well defined up to addition of an element of the module of frequency of$\Phi$, that is, the $\mathbb { Z }$-module$\Gamma _ { \Phi } = \{ \gamma _ { n , m } ^ { \Phi } , ( n , m ) \in \mathbb { Z } ^ { 2 } \}$, and so rot(Φ) should be regarded as an element of$\mathbb { R } / \Gamma _ { \Phi } . ^ { 1 3 }$It is readily seen that rot(Φ) is invariant under translations. We will see in Appendix A that base changes preserve the fibered rotation number up to sign: rot$\left( N _ { U } ( \Phi ) \right) = \det U \, \operatorname { r o t } ( \Phi )$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">SL(2, R)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">θ 7→ R<sub>θ</sub>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>12</sup>Recall that the fundamental group of is generated by  and hence is canonically isomorphic to Z.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>12</sup>Recall that the fundamental group of $\mathrm { S L } ( 2 , \mathbb { R } )$ is generated by $\theta \mapsto R _ { \theta }$, and hence is canonically isomorphic to $\mathbb { Z }$.</span></small>
 
 We shall say that an element in$\mathbb { R } / \Gamma _ { \Phi }$is Diophantine if for some representative$\beta _ { i }$some basis$\{ e _ { 1 } , e _ { 2 } \} \subset \mathbb { Z } ^ { 2 }$and some$\kappa > 0 , \tau > 0$, one has
 
@@ -772,7 +738,7 @@ Lemma 4.4. Let$\Phi \in \Gamma _ { 0 } ^ { r } , r = \omega ,$∞ be$C ^ { r }$-
 
 Proof. We may assume that Φ is normalized, since we can always conjugate $\Phi ( 1 , 0 )$to (1, id) via$C ^ { r } ( \mathbb { R } , \mathrm { S O } ( 2 , \mathbb { R } ) )$): this can be done in the same way as in Lemma 4.1 (it is indeed easier to proceed for the$\mathrm { S O } ( 2 , \mathbb { R } )$case).
 
-Let$( \alpha , A ) = \Phi ( 0 , 1 )$, and let$\phi : \mathbb { R }  \mathbb { R }$satisfy$A ( x ) = R _ { \phi ( x ) }$. Since Φ is normalized, A is defined modulo$\mathbb { Z } _ { : }$, and since$\Phi$is of degree 0, this implies that$\phi$is defined modulo$\mathbb { Z }$as well.
+Let$( \alpha , A ) = \Phi ( 0 , 1 )$, and let$\phi : \mathbb { R } \to \mathbb { R }$ satisfy$A ( x ) = R _ { \phi ( x ) }$. Since Φ is normalized, A is defined modulo$\mathbb { Z }$, and since$\Phi$is of degree 0, this implies that$\phi$is defined modulo$\mathbb { Z }$as well.
 
 Consider the Fourier series
 
@@ -806,7 +772,7 @@ The following is a restatement of Theorem 2.7 in the language of actions.
 
 Lemma 4.5. Let$\Psi \in \Gamma _ { 0 } ^ { \omega }$be$C ^ { \omega }$-conjugate to a normalized constant action, and let$\kappa > 0 , \tau > 0$be fixed. Let$\Psi _ { n }$be a sequence of Diophantine actions converging to Ψ in$\Gamma _ { 0 } ^ { \omega }$and satisfying$\alpha _ { n } \equiv \alpha ^ { \Psi _ { n } } \in \mathrm { D C } ( \kappa , \tau )$. Then$\Psi _ { n }$is $C ^ { \omega } .$-reducible for n large enough.
 
-Proof. After performing a conjugation, we may assume that$\Psi ( 1 , 0 ) =$ $( 1 , \mathrm { i d } )$and$\Psi ( 0 , 1 ) = ( \hat { \alpha } , \hat { A } )$where$\hat { A } \in \mathrm { S L } ( 2 , \mathbb { R } )$is a constant. By Lemma 4.1, there exists a sequence$B ^ { ( n ) } \in C ^ { \omega } ( \mathbb { R } , \mathrm { S L } ( 2 , \mathbb { R } ) )$converging to id which conju gates$\Psi _ { n }$to a normalized cocycle$\Psi _ { n } ^ { \prime } = \operatorname { A d } _ { B ^ { ( n ) } } \Psi _ { n }$. It follows that$( \alpha _ { n } , A ^ { ( n ) } ) \equiv$ $\Psi _ { n } ^ { \prime } ( 0 , 1 )$converges to$( { \hat { \alpha } } , { \hat { A } } )$in the$C ^ { \omega } { \mathrm { - t o p o l o g y . } }$Thus, Theorem 2.7 applies and$( \alpha _ { n } , A ^ { ( n ) } )$is$C ^ { \omega } .$-reducible for n large enough. This implies that$\Psi _ { n } ^ { \prime }$and $\Psi _ { n }$are$C ^ { \omega }$-reducible as well.□
+Proof. After performing a conjugation, we may assume that$\Psi ( 1 , 0 ) =$ $( 1 , \mathrm { i d } )$and$\Psi ( 0 , 1 ) = ( \hat { \alpha } , \hat { A } )$where$\hat { A } \in \mathrm { S L } ( 2 , \mathbb { R } )$is a constant. By Lemma 4.1, there exists a sequence$B ^ { ( n ) } \in C ^ { \omega } ( \mathbb { R } , \mathrm { S L } ( 2 , \mathbb { R } ) )$converging to id which conjugates$\Psi _ { n }$to a normalized cocycle$\Psi _ { n } ^ { \prime } = \operatorname { A d } _ { B ^ { ( n ) } } \Psi _ { n }$. It follows that$( \alpha _ { n } , A ^ { ( n ) } ) \equiv$ $\Psi _ { n } ^ { \prime } ( 0 , 1 )$converges to$( { \hat { \alpha } } , { \hat { A } } )$in the$C ^ { \omega } { \mathrm { - t o p o l o g y . } }$Thus, Theorem 2.7 applies and$( \alpha _ { n } , A ^ { ( n ) } )$is$C ^ { \omega } .$-reducible for n large enough. This implies that$\Psi _ { n } ^ { \prime }$and $\Psi _ { n }$are$C ^ { \omega }$-reducible as well.□
 
 ## 5. A priori bounds and limits of renormalization
 
@@ -814,40 +780,34 @@ The language of renormalization allows us to restate Lemma 3.3 as a precompactne
 
 Theorem 5.1 (A priori bounds). Let$\Phi \in \Gamma _ { 0 } ^ { r } , \ r \geq 1$, be a normalized action, and assume that the cocycle$( \alpha , A ) \ = \ \Phi ( 0 , 1 ) i s L ^ { 2 } .$-conjugated to a cocycle of rotations. Then for almost every$x _ { * } \in \mathbb { R }$, there exists$K > 0$such that for every$d > 0$and for every$n > n _ { 0 } ( d )$
 
-(5.1)
-
 $$
-\left\| \partial^ {k} A _ {1, 0} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq K ^ {k + 1} \| A \| _ {C ^ {k}}, \quad 0 \leq k \leq r, \quad | x - x _ {*} | <   d.\tag{5.2}
+\left\| \partial^ {k} A _ {1, 0} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq K ^ {k + 1} \| A \| _ {C ^ {k}}, \quad 0 \leq k \leq r, \quad | x - x _ {*} | <   d.\tag{5.1}
 $$
 
 $$
-\left\| \partial^ {k} A _ {0, 1} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq K ^ {k + 1} \| A \| _ {C ^ {k}}, \quad 0 \leq k \leq r, \quad | x - x _ {*} | <   d.
+\left\| \partial^ {k} A _ {0, 1} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq K ^ {k + 1} \| A \| _ {C ^ {k}}, \quad 0 \leq k \leq r, \quad | x - x _ {*} | <   d.\tag{5.2}
 $$
 
 In particular,$i f r = \omega , \infty$then$\{ R _ { x _ { * } } ^ { n } ( \Phi ) \} _ { n }$is precompact in$\Lambda _ { 0 } ^ { r }$
 
-Proof. Apply Lemma 3.3 to both$( \alpha , A )$and to$( \alpha , A ) ^ { - 1 }$, obtaining a full measure set of “good point${ \boldsymbol { { \mathbf { \ } } } } ^ { \mathfrak { S } } \ x _ { * }$. Notice that
-
-(5.3)
+Proof. Apply Lemma 3.3 to both$( \alpha , A )$and to$( \alpha , A ) ^ { - 1 }$, obtaining a full measure set of “good points”$x _ *$. Notice that
 
 $$
-A _ {1, 0} ^ {R _ {x *} ^ {n} \Phi} (x) = A _ {(- 1) ^ {n - 1} q _ {n - 1}} (x _ {*} + \beta_ {n - 1} (x - x _ {*})),\tag{5.4}
+A _ {1, 0} ^ {R _ {x *} ^ {n} \Phi} (x) = A _ {(- 1) ^ {n - 1} q _ {n - 1}} (x _ {*} + \beta_ {n - 1} (x - x _ {*})),\tag{5.3}
 $$
 
 $$
-A _ {0, 1} ^ {R _ {x *} ^ {n} \Phi} (x) = A _ {(- 1) ^ {n} q _ {n}} (x _ {*} + \beta_ {n - 1} (x - x _ {*})).
+A _ {0, 1} ^ {R _ {x *} ^ {n} \Phi} (x) = A _ {(- 1) ^ {n} q _ {n}} (x _ {*} + \beta_ {n - 1} (x - x _ {*}) ).\tag{5.4}
 $$
 
 Fix d (we may assume$d > 1 )$. Since$\beta _ { n - 1 } < \frac { 1 } { q _ { n } } < \frac { 1 } { q _ { n - 1 } }$, the estimates of Lemma 3.3 imply that for$0 \leq k \leq r$and for$| x - \bar { x } _ { * } | < \bar { d } .$
 
-(5.5)
-
 $$
-\begin{array}{r l} & {\left\| \partial^ {k} A _ {1, 0} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq \beta_ {n - 1} ^ {k} \| (\partial^ {k} A _ {(- 1) ^ {n - 1} q _ {n - 1}}) (x _ {*} + \beta_ {n - 1} (x - x _ {*})) \|} \\ & {\qquad \leq (\beta_ {n - 1} q _ {n - 1}) ^ {k} K ^ {k + 1} \| A \| _ {C ^ {k}} \leq K ^ {k + 1} \| A \| _ {C ^ {k}},} \end{array}\tag{5.6}
+\begin{array}{r l} & {\left\| \partial^ {k} A _ {1, 0} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \right\| \leq \beta_ {n - 1} ^ {k} \| (\partial^ {k} A _ {(- 1) ^ {n - 1} q _ {n - 1}}) (x _ {*} + \beta_ {n - 1} (x - x _ {*})) \|} \\ & {\qquad \leq (\beta_ {n - 1} q _ {n - 1}) ^ {k} K ^ {k + 1} \| A \| _ {C ^ {k}} \leq K ^ {k + 1} \| A \| _ {C ^ {k}},} \end{array}\tag{5.5}
 $$
 
 $$
-\begin{array}{r l} \big \| \partial^ {k} A _ {0, 1} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \big \| & \leq \beta_ {n - 1} ^ {k} \| (\partial^ {k} A _ {(- 1) ^ {n} q _ {n}}) (x _ {*} + \beta_ {n - 1} (x - x _ {*})) \| \\ & \leq (\beta_ {n - 1} q _ {n}) ^ {k} K ^ {k + 1} \| A \| _ {C ^ {k}} \leq K ^ {k + 1} \| A \| _ {C ^ {k}} \end{array}
+\begin{array}{r l} \big \| \partial^ {k} A _ {0, 1} ^ {R _ {x _ {*}} ^ {n} \Phi} (x) \big \| & \leq \beta_ {n - 1} ^ {k} \| (\partial^ {k} A _ {(- 1) ^ {n} q _ {n}}) (x _ {*} + \beta_ {n - 1} (x - x _ {*})) \| \\ & \leq (\beta_ {n - 1} q _ {n}) ^ {k} K ^ {k + 1} \| A \| _ {C ^ {k}} \leq K ^ {k + 1} \| A \| _ {C ^ {k}} \end{array}\tag{5.6}
 $$
 
 (notice that$\| A \| _ { C ^ { k } } = \| A ^ { - 1 } \| _ { C ^ { k } } )$. The precompactness statement is then obvious.□
@@ -864,7 +824,7 @@ Proof. Let$\alpha \in \mathrm { R D C } ( \kappa , \tau )$and let$n _ { k } \to 
 
 Consider the renormalizations$\Psi _ { k } = R _ { x _ { * } } ^ { n _ { k } } ( \Phi _ { \alpha , A } )$, where x is as in Theorems 5.1 and 5.2. Notice that for every$k , ~ \alpha ^ { \Psi _ { k } } \in \mathrm { D C } ( \kappa , \tau )$and$\Psi _ { k }$is a Diophantine action.
 
-Passing to a subsequence, we may assume that$\Psi _ { k } ~  ~ \Psi$in the$C ^ { \omega }$ topology. Since$\mathrm { D C } ( \kappa , \tau )$is compact,$\alpha ^ { \Psi } = \operatorname* { l i m } \alpha _ { n _ { k } } \in \mathrm { D C } ( \kappa , \tau )$. By Theorem 5.2, Ψ is$C ^ { \omega } .$-conjugate to an$\mathrm { S O } ( 2 , \mathbb { R } )$action, and so by Lemma 4.4, Ψ is $C ^ { \omega _ { - } } \mathrm { c o n j u g a t e }$to a normalized constant action. Thus Lemma 4.5 applies and we conclude that$\Psi _ { k }$is$C ^ { \omega } .$-reducible for k large enough. It follows that$\Phi _ { \alpha , A }$ is reducible, so that$( \alpha , A )$is reducible as well.□
+Passing to a subsequence, we may assume that$\Psi _ { k } \to \Psi$in the$C ^ { \omega }$ topology. Since$\mathrm { D C } ( \kappa , \tau )$is compact,$\alpha ^ { \Psi } = \operatorname* { l i m } \alpha _ { n _ { k } } \in \mathrm { D C } ( \kappa , \tau )$. By Theorem 5.2, Ψ is$C ^ { \omega } .$-conjugate to an$\mathrm { S O } ( 2 , \mathbb { R } )$action, and so by Lemma 4.4, Ψ is $C ^ { \omega _ { - } } \mathrm { c o n j u g a t e }$to a normalized constant action. Thus Lemma 4.5 applies and we conclude that$\Psi _ { k }$is$C ^ { \omega } .$-reducible for k large enough. It follows that$\Phi _ { \alpha , A }$ is reducible, so that$( \alpha , A )$is reducible as well.□
 
 Proof of Theorems A and A<sup>′</sup>. We can now prove Theorem A easily. Let $\alpha \in \mathrm { R D C } , v \in C ^ { \omega } ( \mathbb { R } / \mathbb { Z } , \mathbb { R } )$, and let$\Delta$be the set of$E \in \mathbb { R }$such that$( \alpha , S _ { v , E } )$ is$L ^ { 2 } .$-conjugated to a cocycle of rotations and the fibered rotation number of $( \alpha , S _ { v , E } )$is Diophantine with respect to α. By Theorem 2.1 and Corollary 2.5, $\Delta \cup \{ E \in \mathbb { R } , L ( \alpha , S _ { v , E } ) > 0 \}$has full Lebesgue measure in R, and Theorem 5.3 implies that$( \alpha , S _ { v , E } )$is$C ^ { \omega } .$-reducible for all$E \in \Delta$. This shows that$( \alpha , S _ { v , E } )$is $C ^ { \omega } .$-reducible for almost every$E \in \mathbb { R }$such that$L ( \alpha , S _ { v , E } ) = 0$. By Remark 1.3, if$E \in \mathbb { R }$is such that$L ( \alpha , S _ { v , E } ) > 0$then$( \alpha , S _ { v , E } )$is either nonuniformly hyperbolic or$C ^ { \omega } .$-reducible, and the result follows.
 
@@ -872,9 +832,9 @@ This argument also works for Theorem$\mathrm { A } ^ { \prime }$, if we use Theo
 
 Acknowledgements. We would like to thank Hakan Eliasson, Svetlana Jitomirskaya, Barry Simon, and Jean-Christophe Yoccoz for several discussions and suggestions. We also thank the referee, whose comments were useful in improving the presentation of this article.
 
-## Appendix A. Degree and and fibered rotation number
+## Appendix A. Degree and fibered rotation number
 
-In this section we will recall the intrinsic definition of degree and fibered rotation number for actions given in [K2], and check that they coincide with the definitions given in §4.5. The advantage of the intrinsic definitions is that they allow us to compute easily the efect of base changes.
+In this section we will recall the intrinsic definition of degree and fibered rotation number for actions given in [K2], and check that they coincide with the definitions given in §4.5. The advantage of the intrinsic definitions is that they allow us to compute easily the effect of base changes.
 
 For$\alpha \in \mathbb { R }$and$A : \mathbb { R } \to \mathrm { S L } ( 2 , \mathbb { R } )$continuous, we introduce the following objects. If w is a point of the usual euclidean circle$\mathbb { S } ^ { 1 } \subset \mathbb { R } ^ { 2 } \equiv \mathbb { C }$we set
 
@@ -882,7 +842,7 @@ $$
 f ^ {A} (x, w) = \frac {A \cdot w}{\| A \cdot w \|},\tag{A.1}
 $$
 
-and define, for$\alpha \in \mathbb { R }$2
+and define, for$\alpha \in \mathbb { R }$.
 
 $$
 \begin{array}{c} F ^ {\alpha , A}: \mathbb {R} \times \mathbb {S} ^ {1} \to \mathbb {R} \times \mathbb {S} ^ {1} \\ (x, w) \mapsto (x + \alpha , f ^ {A} (x, w)). \end{array}\tag{A.2}
@@ -952,7 +912,7 @@ $$
 \begin{array}{c} \int_ {[ 0, \gamma_ {e _ {1}} ^ {\Phi} ] \times \mathbb {S} ^ {1}} d ^ {A _ {e _ {1}} ^ {\Phi}} \circ F ^ {\Phi (e _ {2})} d \mu = \int_ {F ^ {\Phi (e _ {2})} ([ 0, \gamma_ {e _ {1}} ^ {\Phi} ] \times \mathbb {S} ^ {1})} d ^ {A _ {e _ {1}} ^ {\Phi}} d (F ^ {\Phi (e _ {2})}) _ {*} \mu \\ = \int_ {[ \gamma_ {e _ {2}} ^ {\Phi}, \gamma_ {e _ {1}} ^ {\Phi} + \gamma_ {e _ {2}} ^ {\Phi} ] \times \mathbb {S} ^ {1}} d ^ {A _ {e _ {1}} ^ {\Phi}} d \mu . \end{array}\tag{A.11}
 $$
 
-A similar computation gives$\mathrm { r o t } _ { e _ { 1 , - e _ { 2 } , \mu } } \Phi = - \mathrm { r o t } _ { e _ { 1 , e _ { 2 } , \mu } } \Phi$. Those elementary base change rules imply that rot<sub>U·e1,U·e2,µ</sub> Φ = det$U \mathrm { r o t } _ { e _ { 1 } , e _ { 2 } , \mu } \Phi$for any$U \in$ GL(2, Z).
+A similar computation gives$\mathrm { r o t } _ { e _ { 1 , - e _ { 2 } , \mu } } \Phi = - \mathrm { r o t } _ { e _ { 1 , e _ { 2 } , \mu } } \Phi$. Those elementary base change rules imply that rot$_ { U \cdot e _ 1 , U \cdot e _ 2 , \mu } \, \Phi = \det$U \mathrm { r o t } _ { e _ { 1 } , e _ { 2 } , \mu } \Phi$for any$U \in$ GL(2, Z).
 
 Given$B : \mathbb { R } \to \mathrm { S L } ( 2 , \mathbb { R } )$continuous, we notice that$F _ { * } ^ { 0 , B } \mathcal { M } ^ { \Phi } = \mathcal { M } ^ { \mathrm { A d } _ { B } \Phi }$ and it follows immediately from the definition that
 
@@ -960,7 +920,7 @@ $$
 \mathrm{rot} _ {e _ {1}, e _ {2}, \mu} \Phi = \mathrm{rot} _ {e _ {1}, e _ {2}, F _ {*} ^ {0, B} \mu} \mathrm{Ad} _ {B} \Phi .
 $$
 
-The transformation rule for$M _ { \lambda }$can be also readily checked: rot$M _ { \lambda } ( \Phi ) =$ $\lambda ^ { - 1 } \cot \Phi$
+The transformation rule for$M _ { \lambda }$can be also readily checked: rot$M _ { \lambda } ( \Phi ) = \lambda ^ { - 1 } \operatorname { r o t } ( \Phi )$
 
 Let us check that$\mathrm { r o t } _ { e _ { 1 } , e _ { 2 } , \mu }$Φ does not depend on$\mu \in \mathcal { M }$. This is obvious if$\Gamma _ { \Phi } = \{ 0 \}$(in this case rot = 0). Otherwise, via conjugacies, scalings, and base change, we reduce to the case of checking that$\mathrm { r o t } _ { ( 0 , 1 ) , ( 1 , 0 ) , \mu } \Phi$does not depend on$\mu$when Φ is a normalized action$\Phi _ { \alpha , A }$. In this case, measures in $\mathcal { M } ^ { \Phi }$are invariant under$( x , w ) \mapsto ( x + 1 , w )$, and so they descend to$\mathbb { R } / \mathbb { Z } \times \mathbb { S } ^ { 1 }$ Since$A : \mathbb { R } / \mathbb { Z } \to { \mathrm { S L } } ( 2 , \mathbb { R } )$is homotopic to the identity, we have$d ^ { A } ( x + 1 , w ) =$ $d ^ { A } ( x , w )$, so that$d ^ { A }$also descends to$\mathbb { R } / \mathbb { Z } \times \mathbb { S } ^ { 1 }$. We have
 
@@ -970,13 +930,13 @@ $$
 
 This is precisely the usual definition of the fibered rotation number$\rho ( \alpha , A )$ (see §A.1), which does not depend on$\mu .$This also shows that setting rot Φ = $\mathrm { r o t } _ { ( 0 , 1 ) , ( 1 , 0 ) , \mu }$Φ one recovers the previous definition (given in §4.5) of the fibered rotation number of a nondegenerate action.
 
-Coll\`ege de France, Paris, France
+Collège de France, Paris, France
 
-Current address: CNRS UMR 7599, Universit´e Pierre et Marie Curie,
+Current address: CNRS UMR 7599, Université Pierre et Marie Curie,
 
 E-mail address: artur@ccr.jussieu.fr
 
-Universit´e Pierre et Marie Curie, Paris, France
+Université Pierre et Marie Curie, Paris, France
 
 E-mail address: krikoria@ccr.jussieu.fr
 
@@ -986,15 +946,15 @@ E-mail address: krikoria@ccr.jussieu.fr
 
 [AK1] A. Avila and R. Krikorian, Quasiperiodic SL(2, R) cocycles, in preparation.
 
-[AK2], Some remarks on local and semi-local results for Schr¨odinger cocycles, in preparation.
+[AK2], Some remarks on local and semi-local results for Schrödinger cocycles, in preparation.
 
 [ALM] A. Avila, M. Lyubich, and W. de Melo, Regular or stochastic dynamics in real analytic families of unimodal maps, Invent. Math. 154 (2003), 451–550.
 
 [AMS] J. Avron, P. H. M. van Mouche, and B. Simon, On the measure of the spectrum for the almost Mathieu operator, Comm. Math. Phys. 132 (1990), 103–118.
 
-[AS] J. Avron and B. Simon, Almost periodic Schr¨odinger operators. II. The integrated density of states, Duke Math. J. 50 (1983), 369–391.
+[AS] J. Avron and B. Simon, Almost periodic Schrödinger operators. II. The integrated density of states, Duke Math. J. 50 (1983), 369–391.
 
-[B]J. Bourgain, Green’s Function Estimates for Lattice Schr¨odinger Operators and Applications, Ann. of Math. Studies 158, Princeton Univ. Press, Princeton, NJ, 2005.
+[B]J. Bourgain, Green’s Function Estimates for Lattice Schrödinger Operators and Applications, Ann. of Math. Studies 158, Princeton Univ. Press, Princeton, NJ, 2005.
 
 [BG] J. Bourgain and M. Goldstein, On nonperturbative localization with quasi-periodic potential, Ann. of Math. 152 (2000), 835–879.
 
@@ -1002,27 +962,27 @@ E-mail address: krikoria@ccr.jussieu.fr
 
 [BJ2], Absolutely continuous spectrum for 1D quasiperiodic operators, Invent. Math. 148 (2002), 453–463.
 
-[BF] V. Buslaev and A. Fedotov, On the diference equations with periodic coeficients, Adv. Theor. Math. Phys. 5 (2001), 1105–1168.
+[BF] V. Buslaev and A. Fedotov, On the difference equations with periodic coefficients, Adv. Theor. Math. Phys. 5 (2001), 1105–1168.
 
-[DeS] P. Deift and B. Simon, Almost periodic Schr¨odinger operators. III. The absolutely continuous spectrum in one dimension, Comm. Math. Phys. 90 (1983), 389–411.
+[DeS] P. Deift and B. Simon, Almost periodic Schrödinger operators. III. The absolutely continuous spectrum in one dimension, Comm. Math. Phys. 90 (1983), 389–411.
 
-[DiS] E. I. Dinaburg and Ja. G. Sinai, The one-dimensional Schr¨odinger equation with quasiperiodic potential, Funk. Anal. i Priloˇzen. 9 (1975), 8–21.
+[DiS] E. I. Dinaburg and Ja. G. Sinai, The one-dimensional Schrödinger equation with quasiperiodic potential, Funk. Anal. i Priložen. 9 (1975), 8–21.
 
-[E1]L. H. Eliasson, Floquet solutions for the 1-dimensional quasi-periodic Schr¨odinger equation, Comm. Math. Phys. 146 (1992), 447–482.
+[E1]L. H. Eliasson, Floquet solutions for the 1-dimensional quasi-periodic Schrödinger equation, Comm. Math. Phys. 146 (1992), 447–482.
 
 [E2]Reducibility and point spectrum for linear quasi-periodic skew-products, Proc. Internat. Congress of Mathematicians, Vol. II (Berlin, 1998), Doc. Math. 1998, Extra Vol. II, 779–787.
 
-[FK] A. Fedotov and F. Klopp, Anderson transitions for a family of almost periodic Schr¨odinger equations in the adiabatic case, Comm. Math. Phys. 227 (2002), 1–92.
+[FK] A. Fedotov and F. Klopp, Anderson transitions for a family of almost periodic Schrödinger equations in the adiabatic case, Comm. Math. Phys. 227 (2002), 1–92.
 
-[GS]M. Goldstein and W. Schlag, H¨older continuity of the integrated density of states for quasi-periodic Schr¨odinger equations and averages of shifts of subharmonic functions, Ann. of Math. 154 (2001), 155–203.
+[GS]M. Goldstein and W. Schlag, Hölder continuity of the integrated density of states for quasi-periodic Schrödinger equations and averages of shifts of subharmonic functions, Ann. of Math. 154 (2001), 155–203.
 
 [GJLS] A. Y. Gordon, S. Jitomirskaya, Y. Last, and B. Simon, Duality and singular continuous spectrum in the almost Mathieu equation, Acta Math. 178 (1997), 169–183.
 
 [HW] G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, Fifth edition, The Clarendon Press, Oxford Univ. Press, New York, 1979.
 
-[HS] B. Helffer and J. Sjostrand ¨ , Semiclassical analysis for Harper’s equation. III. Cantor structure of the spectrum, Mem. Soc. Math. France´ 39 (1989), 1–124.
+[HS] B. Helffer and J. Sjöstrand, Semiclassical analysis for Harper’s equation. III. Cantor structure of the spectrum, Mém. Soc. Math. France 39 (1989), 1–124.
 
-[H]M. Herman, Une m´ethode pour minorer les exposants de Lyapounov et quelques exemples montrant le caract\`ere local d’un th´eor\`eme d’Arnold et de Moser sur le tore de dimension 2, Comment. Math. Helv. 58 (1983), 453–502.
+[H]M. Herman, Une méthode pour minorer les exposants de Lyapounov et quelques exemples montrant le caractère local d’un théorème d’Arnold et de Moser sur le tore de dimension 2, Comment. Math. Helv. 58 (1983), 453–502.
 
 [Ho] D. R. Hofstadter, Energy levels and wave functions of Bloch electrons in a rational or irrational magnetic field, Phys. Rev. B 14 (1976), 2239–2249.
 
@@ -1038,11 +998,11 @@ E-mail address: krikoria@ccr.jussieu.fr
 
 [K1] R. Krikorian, Global density of reducible quasi-periodic cocycles on T×SU(2), Ann. of Math. 154 (2001), 269-326.
 
-[K2], Reducibility, diferentiable rigidity and Lyapunov exponents for quasi-periodic cocycles on T × SL(2, R), preprint (www.arXiv.org, math.DS/0402333).
+[K2], Reducibility, differentiable rigidity and Lyapunov exponents for quasi-periodic cocycles on T × SL(2, R), preprint (www.arXiv.org, math.DS/0402333).
 
 [L]Y. Last, Zero measure spectrum for the almost Mathieu operator, Comm. Math. Phys. 164 (1994), 421–432.
 
-[LS] Y. Last and B. Simon, Eigenfunctions, transfer matrices, and absolutely continuous spectrum of one-dimensional Schr¨odinger operators, Invent. Math. 135 (1999), 329–367.
+[LS] Y. Last and B. Simon, Eigenfunctions, transfer matrices, and absolutely continuous spectrum of one-dimensional Schrödinger operators, Invent. Math. 135 (1999), 329–367.
 
 [Ly]M. Lyubich, Almost every real quadratic map is either regular or stochastic, Ann. of Math. 156 (2002), 1–78.
 
@@ -1052,12 +1012,12 @@ E-mail address: krikoria@ccr.jussieu.fr
 
 [Si1] B. Simon, Kotani theory for one-dimensional stochastic Jacobi matrices, Comm. Math. Phys. 89 (1983), 227–234.
 
-[Si2], Schr¨odinger operators in the twenty-first century, in Mathematical Physics 2000, 283–288, Imperial College Press, London, 2000.
+[Si2], Schrödinger operators in the twenty-first century, in Mathematical Physics 2000, 283–288, Imperial College Press, London, 2000.
 
-[SS] E. Sorets and T. Spencer, Positive Lyapunov exponents for Schr¨odinger operators with quasi-periodic potentials, Comm. Math. Phys. 142 (1991), 543–566.
+[SS] E. Sorets and T. Spencer, Positive Lyapunov exponents for Schrödinger operators with quasi-periodic potentials, Comm. Math. Phys. 142 (1991), 543–566.
 
-[S]D. Sullivan, Reminiscences of Michel Herman’s first great theorem, in “Michael R. Herman” Gazette des Mathematiciens ´ 88, 90–93, Soc. Math. France, Paris, 2001.
+[S]D. Sullivan, Reminiscences of Michel Herman’s first great theorem, in “Michael R. Herman” Gazette des Mathématiciens 88, 90–93, Soc. Math. France, Paris, 2001.
 
-[Y]J.-C. Yoccoz, Th´eor\`eme de Siegel, nombres de Bruno et polynˆomes quadratiques, in Petits Diviseurs en Dimension 1, Asterisque ´ 231, 3–88, Soc. Math. France, Paris, 1995.
+[Y]J.-C. Yoccoz, Théorème de Siegel, nombres de Bruno et polynômes quadratiques, in Petits Diviseurs en Dimension 1, Asterisque ´ 231, 3–88, Soc. Math. France, Paris, 1995.
 
 (Received February 20, 2004)
