@@ -63,3 +63,13 @@
 - 印刷证据与差异：原图推前目标为 `Z∪_X Y`，基线第 139 行把该 pushout 写成不可读的 `Z U(Y)/X L`；第 143–149 行的局部系数/相对同调交换图也被识别成 `f(y)`、`z_i f_i` 等不对应原式的文本。原图 Whitehead 定理要求 `π_1(f):π_1X→π_1Y` 为同构，基线第 151 行把下标 1 识别为逗号；基线第 153–155 行的普遍覆盖、`H_*` 同构和 Whitehead 拼写均有错误。原图将基本类 `μ` 送到 canonical generator，基线第 160 行只留残缺 `genera`；第 162 行把 `acyclic map` 写成 `cyclic map`，改变映射性质。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 150dpi 页图及两张 300dpi 原图裁片复核。
 - 记录：2026-10-01 16:35:05 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.006（PDF p.6 / 纸面圈号 6）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p006.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p006_poincare-sphere.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p006_classification.png`。
+- 核对：Poincaré 同调 3-球面的两个群商表示；固定源的 acyclic map 分类；perfect normal subgroup 的实现；`π_1` kernel 的加强命题。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图把 `SO(3)` 的商标为 icosahedron symmetry group，并将 `S^3` 的商标为 binary icosahedral group；Markdown 基线第 164 行把分母写成 `icosahedral_1`，且没有保留这两个群的对应记号。原图定理 (ii) 明写存在 `acyclic map f:X→Y`，基线第 176 行将其误成 `on 24c map`。原图 Remark 5 说 acyclic `f` 的 `π_1(f)` 满射且 kernel perfect，基线第 178 行误为 `cyclic` 并损坏了 `π_1` 下标。基线第 191 行又把 “maps over Z” 误成 “crops over Z”。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；对群商、性质名及 `π_1` 记号按 300dpi 裁片复核。
+- 记录：2026-10-01 16:37:07 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
