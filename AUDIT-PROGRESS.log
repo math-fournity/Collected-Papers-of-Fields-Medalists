@@ -285,3 +285,12 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-10-01 12:09 | PAGE | Drinfeld elliptic modules | p.3/32 | PASS± | Outline收尾、作者致谢、formal group/O-module定义、Proposition 1.1开头核对；Markdown 未保留页眉及印刷页码563，详见 AUDIT | 累计70+1篇进行中
 2026-10-01 12:14 | PAGE | Drinfeld elliptic modules | p.4/32 | FAIL | 300dpi核实3处 b(a)→源页 h(a)（Proposition 1.1 proof/Proposition 1.3）；Proposition 1.2 关系符表面矛盾按 print 登记，详见 AUDIT | 累计70+1篇进行中
 2026-10-01 12:24 | PAGE | Drinfeld elliptic modules | p.5/32 | FAIL | 多处 h→b、α↦p/π→a↦f/π，Proposition 1.5 条件 q→g；300dpi 裁片见 AUDIT，待全篇结束后手工修复 | 累计70+1篇进行中
+2026-10-01 15:42 | DISPATCH | Deligne_1974_weil1 | 36p | actor=Master-Luna | assigned=Peer-P01 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Ahlfors_1930_ueberlagerungsflaechen | 38p | actor=Master-Luna | assigned=Peer-P02 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Donaldson_1983_gauge_theory_4manifolds | 38p | actor=Master-Luna | assigned=Peer-P03 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Bourgain_1989_pointwise_ergodic | 38p | actor=Master-Luna | assigned=Peer-P04 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Perelman_2002_entropy_ricci | 39p | actor=Master-Luna | assigned=Peer-P05 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | frey1986 | 40p | actor=Master-Luna | assigned=Peer-P06 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Borcherds_1992_monstrous_moonshine | 41p | actor=Master-Luna | assigned=Peer-P07 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Crandall_Lions_1983_viscosity_solutions | 42p | actor=Master-Luna | assigned=Peer-P08 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
+2026-10-01 15:42 | DISPATCH | Serre_1956_gaga | 43p | actor=Master-Luna | assigned=Peer-P09 | model=gpt-6-luna | effort=max | worktree provisioned from e04c4a96; formal threadId pending
