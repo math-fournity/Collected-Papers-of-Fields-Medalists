@@ -48,3 +48,10 @@
 - Evidence: [300 dpi sheaf-label crop](audit/300dpi/Serre_1956_gaga_p005_HV_300dpi.png); PDF text layer and MinerU Markdown lines 57–77.
 - Checked: continuation of the holomorphic-map definition, analytic isomorphism criterion, product construction, Definition 1 and axioms (H1) and (HII).
 - Result: FAIL. In the print, the isomorphism criterion says the morphism transforms the sheaf H_U into H_V. The 300 dpi crop confirms V; Markdown line 59 instead has \mathcal{H}_{\backslash}. Defer correction until the full PDF audit is complete. The remaining checked statements and formulas agree; the running author is omitted from Markdown.
+
+### PDF p.006/43 — print p.5
+
+- Reviewed: 2026-10-01 16:06 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi page](audit/Serre_1956_gaga_p006_150dpi.png); [300 dpi subscript crop](audit/300dpi/Serre_1956_gaga_p006_AxY_300dpi.png); PDF text layer and MinerU Markdown lines 79–91.
+- Checked: analytic-space product construction, analytic sheaf definitions and quotient, and Proposition 1(a)–(b).
+- Result: FAIL. In the definition of A_x(Y), the print has f in H_{x,X}; the 300 dpi crop confirms subscript X. Markdown line 87 has H_{x,Y}. Defer the correction until all 43 pages have been audited. Other checked statements agree; the running title and print page number are omitted from Markdown.
