@@ -339,3 +339,12 @@
 - Markdown segment: lines 1395–1441, from the Appendix's final decay estimate through References [1]–[16].
 - Compared: annulus-to-cylinder conclusion; decay bound; all bibliographic entries [1]–[16] (authors, titles, venues, volumes, years, and pages).
 - Result: **PASS±**. The decay argument and references match the printed page. Reference [8] preserves the print wording “The topology of four-dimensional manifold” (singular) and its punctuation; it is logged as a source-level bibliographic quirk. The running author header and folio `314` are absent from the Markdown.
+
+### p.037 (PDF p.37 / print p.315)
+
+- PNG: `audit/p037.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:57:25 EDT
+- Markdown segment: lines 1443–1455, References [17]–[22] and the “OXFORD UNIVERSITY” imprint.
+- Compared: each reference's authors, title, journal/book, volume, year, and pages; blank author continuations [19]/[21]; closing imprint.
+- Result: **PASS±**. The entries and imprint match. Reference [20] preserves the printed spelling “Removeable” (rather than normalizing it), a source-level bibliographic quirk. The running author header and folio `315` are absent from the Markdown.
