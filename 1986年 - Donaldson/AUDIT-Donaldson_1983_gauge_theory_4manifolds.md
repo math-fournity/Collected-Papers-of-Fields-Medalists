@@ -59,3 +59,12 @@
 - Markdown segment: lines 155–199, from the definition of the self-dual and anti-self-dual subspaces through the bundle assumption at the end of the page.
 - Compared: equation (1); curvature splitting; Yang–Mills action and Chern-class identities; flat-connection conclusion; `d⁻` and `d_A⁻`; Laplacians, harmonic spaces, and the elliptic complex.
 - Result: **FAIL**. At Markdown line 199 the printed diagram `P ↓ X` is reduced to `\downarrow`, omitting the bundle total space `P` and base `X`. The 300-dpi crop confirms the labels. The remaining checked equations and prose match; the running header and printed folio `283` are absent from the Markdown.
+
+### p.006 (PDF p.6 / print p.284)
+
+- PNG: `audit/p006.png` (150-dpi `pngmono`); diagram crop: `audit/300dpi/p006-bundle-maps.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:57:45 EDT
+- Markdown segment: lines 201–229, from section I.4 through the final word “conformal”.
+- Compared: instanton action and equation (2); Proposition 4 and finite-action integral; classification of the S⁴ instanton orbit and its moduli space.
+- Result: **FAIL**. The 300-dpi crop shows the first printed `P` above the arrow after “connection on”; Markdown line 229 retains only `\downarrow`. It also shows the following fibration diagram `S⁷ ↓ S⁴`, whose two labels are absent from the Markdown's lone `\downarrow`. The Markdown additionally attaches `S⁷` as a subscript in `SO(5)^{S^4}_{S^7}`; on the printed page `S⁷` labels the following fibration diagram, while `S⁴` is the superscript on `SO(5)`. The other checked statements and formulas match. The running header and folio `284` are omitted.
