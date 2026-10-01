@@ -303,3 +303,12 @@
 - Markdown segment: lines 1241–1271, from the outer-region estimates through the stationary-framing explanation in part (c).
 - Compared: estimates for `A₁` and `B₁`; conformal transfer of the `S⁴` connections; bounds for `b₂`; gradient comparison; transition functions and the three annular-region bounds.
 - Result: **FAIL**. Markdown line 1265 uses digit `0` in the annulus radius `0(λ^{1/2})`; the printed page uses big-O `O(λ^{1/2})`, confirmed by the 300-dpi crop. This is an OCR substitution and a repair candidate. The other checked estimates and formulas match; the running author header and folio `310` are absent.
+
+### p.033 (PDF p.33 / print p.311)
+
+- PNG: `audit/p033.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:52:02 EDT
+- Markdown segment: lines 1273–1303, from the transition functions on `W` through the final estimate for `\nabla \tilde B_2`.
+- Compared: transition-function equations (ii); modified framing on `W'`; cutoff `γ`; formula for `\tilde B_2`; the four-step derivative estimate.
+- Result: **PASS±**. The equations, bounds, and prose match the page image. The running author header and folio `311` are absent from the Markdown.
