@@ -59,3 +59,12 @@
 - 核对：§1.5 结尾、致谢与 §2.1 前半定义（至 `Fil^r`）。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：印刷定义含 étale map `f : V[s_1,s_1^{-1},…,s_n,s_n^{-1}] → R` 及环同态 `θ : A_inf(\bar R) → \hat{\bar R}`；Markdown 第 197、203 行都丢失 `→`。两张 300dpi 裁片确认这两个箭头在印刷页清晰存在。致谢中的印刷姓名 `Fabrizo Andreatta` 按源文保留；Markdown 对应文字相符。改动留待全篇审计后逐处 Edit。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- 时间：2026-10-01 16:30:09 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p007.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p007_Acris-inverse-limit.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p007_Bcris-embeddings.png`
+- 核对：§2.1 中 A_cris / B_cris / B_dR 定义、自然嵌入、t 的性质，以及 §2.2 Theorem 2.1 和脚注 6。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 211 行将 `A_cris` 的逆极限对象误录成 `Ω_m^{A_cris,m}`；印刷原式是 `lim_m A_cris,m`。第 217 行把印刷中不同的 `B_cris` 与 `\mathcal B_cris`（及对应 A_cris 项）压成同一字形，失去对象区分。第 233 行两项自然嵌入均漏箭头。300dpi 裁片显示逆极限项、两种 B 符号和两个映射箭头。PASS± 瑕疵：第 241 行 `with equality` 漏录为 `wth equality`；脚注 6 的 `Q_p` 被拆成第 243 行独立碎片，而第 245 行留下 `finite extensions of .`。改动留待全篇审计后逐处 Edit。
