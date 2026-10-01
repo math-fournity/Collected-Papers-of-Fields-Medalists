@@ -77,3 +77,12 @@
 - Markdown segment: lines 231–259, from “group acts by translations...” through Proposition 5 ending “the”.
 - Compared: instanton connection matrix and curvature; compactification/moduli-space description; Hodge decomposition and quadratic-form integral; Taubes statement and Proposition 5 opening.
 - Result: **FAIL**. Proposition 5's printed bundle diagram is `P ↓ X`, but Markdown line 259 retains only `\downarrow`, omitting both labels; the 300-dpi bundle crop confirms this. The 300-dpi curvature crop confirms the printed denominator `(λ² + |x|)²` in `F(I_{0,λ})`; Markdown has the same expression. This is a print-level formula quirk and is deliberately preserved, not silently corrected to a mathematically expected variant. The other checked material matches; the running header and folio `285` are omitted.
+
+### p.008 (PDF p.8 / print p.286)
+
+- PNG: `audit/p008.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:02:39 EDT
+- Markdown segment: lines 261–297, from Proposition 5's `L³`-norm continuation through the quotient-space notation and explanatory paragraph.
+- Compared: Proposition 5's hypotheses, δ expression and estimates; Taubes' concentration construction; the `U(1)` uniqueness observation; Sobolev-space definition and norm; the moduli-space quotient and map notation.
+- Result: **PASS±**. The mathematical text and formulas match. Markdown lines 279 and 281 split the single printed II.1 heading across two `##` headings, leaving “and properties of the space B” as a stray heading; this impairs section navigation and is a candidate for the post-audit Edit repair. The running author header and folio `286` are absent.
