@@ -83,3 +83,13 @@
 - 印刷证据与差异：原图 pushout 是 `Z∪_X Y`，Van Kampen 给出 `π_1(Z∪_X Y)=π_1(Z)*_{π_1X}π_1(Y)`，并在 kernel 假设下化为 `π_1(Z)`；Markdown 基线第 193、195 行的商空间记号无法还原原式，并把 amalgamated free product 误成直接积 `×`。构造使用生成 `π_1X` 的映射 `f_i:S^1→X`，基线第 205、208 行把 `S^1` 写成 `S'`。第 210、212 行的 attaching-map / mapping-cone 与 `π_1X'=0` 记号也有损坏，需按本页裁片修复。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；修复后核对 pushout、自由积粘合下标、`S^1` 与长正合序列。
 - 记录：2026-10-01 16:39:13 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.008（PDF p.8 / 纸面圈号 8）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p008.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p008_hurewicz-cones.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p008_general-case.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p008-general-pushout-group.png`。
+- 核对：Hurewicz 后的二维同调分解、用 3-胞腔杀去 `H_2` 的 mapping-cone 构造、相应长正合序列，以及一般 perfect normal subgroup 的覆盖空间/推前构造。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图给出 `H_2X' ≅ H_2X ⊕ ⊕_{i∈I} Z`，再沿映射 `∨g_i:∨S^2→X'` 附着 3-胞腔；基线第 224、226 行把下标、直和项、球面楔和 attaching map 损坏成无法按原图读取的符号。原图第 230 行收束为 `ker(π_1(f))=N`，基线丢失 `π_1` 下标。一般情形原图第 232 行写覆盖空间 `X_0'` 且 `π_1(X_0')=N`，基线截断/错置其下标；第 234 行把带粘合子群的 Van Kampen 表达式识别为直接积。纸面该等式右端清晰写作 `N`，其数学含义在此不作推测性改写，作为源级 print quirk 保留。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；源级 print quirk 保留原样并在总评列明。
+- 记录：2026-10-01 16:42:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
