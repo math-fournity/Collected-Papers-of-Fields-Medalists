@@ -76,3 +76,10 @@
 - Evidence: [300 dpi transition-map crop](audit/300dpi/Serre_1956_gaga_p009_transition-map_300dpi.png); PDF text layer and MinerU Markdown lines 127–143.
 - Checked: proof of Lemma 1(a)–(d), setup of the analytic structure on an algebraic variety, Proposition 2, and the transition-map paragraph.
 - Result: PASS±. The checked statements agree. The print and Markdown both show a colon after V' before the arrow in the transition-map notation; the crop confirms it is a print quirk, so it is preserved. The running author is not represented in Markdown.
+
+### PDF p.010/43 — print p.9
+
+- Reviewed: 2026-10-01 16:13 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi ring-label crop](audit/300dpi/Serre_1956_gaga_p010_ring-label_300dpi.png); [300 dpi theta-map crop](audit/300dpi/Serre_1956_gaga_p010_theta_300dpi.png); [300 dpi Proposition 3 crop](audit/300dpi/Serre_1956_gaga_p010_hat-theta_300dpi.png); PDF text layer and MinerU Markdown lines 143–164.
+- Checked: direct definition of the analytic structure, X^h properties, local-ring comparison, the homomorphism and its completion, Proposition 3, and the ideal J_x(Y) setup.
+- Result: FAIL. The print uses H_{x,X} and O_{x,X} in the direct-definition sentence; the crop confirms uppercase X, while Markdown line 145 uses lowercase x in both subscripts. Proposition 3 prints the completed map with theta; the crop confirms it matches the preceding theta map, while Markdown line 159 has zero. Defer both corrections until the full audit is complete.
