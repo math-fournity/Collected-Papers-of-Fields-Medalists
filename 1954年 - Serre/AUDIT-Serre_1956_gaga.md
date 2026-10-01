@@ -83,3 +83,10 @@
 - Evidence: [300 dpi ring-label crop](audit/300dpi/Serre_1956_gaga_p010_ring-label_300dpi.png); [300 dpi theta-map crop](audit/300dpi/Serre_1956_gaga_p010_theta_300dpi.png); [300 dpi Proposition 3 crop](audit/300dpi/Serre_1956_gaga_p010_hat-theta_300dpi.png); PDF text layer and MinerU Markdown lines 143–164.
 - Checked: direct definition of the analytic structure, X^h properties, local-ring comparison, the homomorphism and its completion, Proposition 3, and the ideal J_x(Y) setup.
 - Result: FAIL. The print uses H_{x,X} and O_{x,X} in the direct-definition sentence; the crop confirms uppercase X, while Markdown line 145 uses lowercase x in both subscripts. Proposition 3 prints the completed map with theta; the crop confirms it matches the preceding theta map, while Markdown line 159 has zero. Defer both corrections until the full audit is complete.
+
+### PDF p.011/43 — print p.10
+
+- Reviewed: 2026-10-01 16:15 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi Proposition 4 and formal-series crop](audit/300dpi/Serre_1956_gaga_p011_prop4-formal-powers_300dpi.png); PDF text layer and MinerU Markdown lines 164–180.
+- Checked: Proposition 4, the affine-space formal-series case, the Nullstellensatz exponent, ideal products/intersections, and the quotient argument for Propositions 3 and 4.
+- Result: FAIL. The print has theta in the generator statement, C[[z_1,...,z_n]] for formal power series, and f^r with r ≥ 0. The crop confirms all three. Markdown line 166 instead has zero in the generator, single brackets around the series variables, and a prime on f. Defer these corrections until the full audit is complete.
