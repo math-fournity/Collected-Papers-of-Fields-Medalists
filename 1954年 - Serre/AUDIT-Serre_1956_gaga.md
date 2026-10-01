@@ -177,3 +177,10 @@
 - Evidence: [300 dpi five-lemma diagram crop](audit/300dpi/Serre_1956_gaga_p023_five-lemma_300dpi.png); [300 dpi Lemma 6 crop](audit/300dpi/Serre_1956_gaga_p023_lemma6_300dpi.png); PDF text layer and MinerU Markdown lines 499–548.
 - Checked: the direct-sum resolution by O(n), the long cohomology diagram and epsilon indices, the five-lemma argument, and Lemma 6's Hom/tensor comparison.
 - Result: FAIL. The print says L is a direct sum of sheaves isomorphic to O(n); Markdown line 507 has L(n). The print diagram has five columns and maps epsilon_1 through epsilon_5, ending with H^{q+1}(X,L); Markdown line 512 omits that final column and epsilon_5. The prose afterward names epsilon_5, confirming the diagram omission.
+
+### PDF p.024/43 — print p.23
+
+- Reviewed: 2026-10-01 16:37 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi Theorem 2 Hom-map crop](audit/300dpi/Serre_1956_gaga_p024_hom-maps_300dpi.png); [300 dpi Theorem 3 extension-by-zero crop](audit/300dpi/Serre_1956_gaga_p024_extension-zero_300dpi.png); PDF text layer and MinerU Markdown lines 548–574.
+- Checked: composition proving Theorem 2, kernel/cokernel uniqueness proof, and the reduction of Theorem 3 existence to projective space by extension by zero.
+- Result: FAIL. The print's first Hom section is H^0(X,A), but Markdown line 554 has X^h. In the existence reduction, print uses M^X, f in the ideal sheaf I, and the stalk G_x^h = M_x^X; Markdown line 572 instead has M^x, J_x, G_{fx}^h, and M_x^x. The print also has I·G = 0 and M^X at the end of this passage, while line 574 has J·G and M_b^X. The crops confirm these object and case differences. Defer correction until the full audit is complete.
