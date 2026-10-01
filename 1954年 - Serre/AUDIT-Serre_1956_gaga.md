@@ -170,3 +170,10 @@
 - Evidence: [300 dpi recurrence and q-bound crop](audit/300dpi/Serre_1956_gaga_p022_recurrence_300dpi.png); PDF text layer and MinerU Markdown lines 469–505.
 - Checked: Lemmas 4 and 5, hyperplane exact sequences, the cohomology diagram, the five-lemma induction, the q-bound, and footnote (4).
 - Result: PASS±. The print crop confirms the comparison map is bijective for q ≥ 0; the PDF text layer flattens that glyph to “> 0,” while Markdown has ≥. The remaining checked sequences and footnote agree; the running title/page number are omitted from Markdown.
+
+### PDF p.023/43 — print p.22
+
+- Reviewed: 2026-10-01 16:35 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi five-lemma diagram crop](audit/300dpi/Serre_1956_gaga_p023_five-lemma_300dpi.png); [300 dpi Lemma 6 crop](audit/300dpi/Serre_1956_gaga_p023_lemma6_300dpi.png); PDF text layer and MinerU Markdown lines 499–548.
+- Checked: the direct-sum resolution by O(n), the long cohomology diagram and epsilon indices, the five-lemma argument, and Lemma 6's Hom/tensor comparison.
+- Result: FAIL. The print says L is a direct sum of sheaves isomorphic to O(n); Markdown line 507 has L(n). The print diagram has five columns and maps epsilon_1 through epsilon_5, ending with H^{q+1}(X,L); Markdown line 512 omits that final column and epsilon_5. The prose afterward names epsilon_5, confirming the diagram omission.
