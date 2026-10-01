@@ -50,3 +50,12 @@
 - 核对：Definition 1.4 的性质 (1)–(4)、§1.5 组织说明至 §8 起句、脚注 4。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Property (3) 印刷页写有态射 `f : (T_1,r_1) → (T_2,r_2)`；Markdown 第 141 行在两组 Shimura datum 之间漏掉箭头，令命题中的态射缺失。300dpi 裁片可见清楚的右箭头。PASS± 瑕疵：Markdown 第 169 行把 `sufficient` 写作 `suficient`；第 171 行另有孤立的 `ET` 脚注碎片，后面仍保留完整脚注 4。印刷页将 §4 句子排作 `enow`，Markdown 忠实保留；300dpi 裁片确认这是原文拼写 quirk，不校正。改动留待全篇审计后逐处 Edit。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- 时间：2026-10-01 16:25:45 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p006.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p006_map-arrows.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p006_theta-map.png`
+- 核对：§1.5 结尾、致谢与 §2.1 前半定义（至 `Fil^r`）。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：印刷定义含 étale map `f : V[s_1,s_1^{-1},…,s_n,s_n^{-1}] → R` 及环同态 `θ : A_inf(\bar R) → \hat{\bar R}`；Markdown 第 197、203 行都丢失 `→`。两张 300dpi 裁片确认这两个箭头在印刷页清晰存在。致谢中的印刷姓名 `Fabrizo Andreatta` 按源文保留；Markdown 对应文字相符。改动留待全篇审计后逐处 Edit。
