@@ -69,3 +69,10 @@
 - Evidence: [300 dpi series and Zariski crop](audit/300dpi/Serre_1956_gaga_p008_Zariski-series_300dpi.png); PDF text layer and MinerU Markdown lines 109–125.
 - Checked: irreducible-component/local-dimension argument, finite extension of the convergent-series algebra, Zariski/usual topology distinction, and Lemma 1(a)–(d).
 - Result: FAIL. The print has C{z_1,...,z_r} in the finite-extension clause; the crop confirms subscript 1. Markdown line 109 has z_i. The same line's formal-series completion and the Z-topology statements agree with print. Defer correction until the full audit is complete.
+
+### PDF p.009/43 — print p.8
+
+- Reviewed: 2026-10-01 16:11 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi transition-map crop](audit/300dpi/Serre_1956_gaga_p009_transition-map_300dpi.png); PDF text layer and MinerU Markdown lines 127–143.
+- Checked: proof of Lemma 1(a)–(d), setup of the analytic structure on an algebraic variety, Proposition 2, and the transition-map paragraph.
+- Result: PASS±. The checked statements agree. The print and Markdown both show a colon after V' before the arrow in the transition-map notation; the crop confirms it is a print quirk, so it is preserved. The running author is not represented in Markdown.
