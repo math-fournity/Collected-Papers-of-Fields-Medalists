@@ -68,3 +68,11 @@
 - 核对：§2.1 中 A_cris / B_cris / B_dR 定义、自然嵌入、t 的性质，以及 §2.2 Theorem 2.1 和脚注 6。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 211 行将 `A_cris` 的逆极限对象误录成 `Ω_m^{A_cris,m}`；印刷原式是 `lim_m A_cris,m`。第 217 行把印刷中不同的 `B_cris` 与 `\mathcal B_cris`（及对应 A_cris 项）压成同一字形，失去对象区分。第 233 行两项自然嵌入均漏箭头。300dpi 裁片显示逆极限项、两种 B 符号和两个映射箭头。PASS± 瑕疵：第 241 行 `with equality` 漏录为 `wth equality`；脚注 6 的 `Q_p` 被拆成第 243 行独立碎片，而第 245 行留下 `finite extensions of .`。改动留待全篇审计后逐处 Edit。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- 时间：2026-10-01 16:31:35 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p008.png`（pngmono 150dpi）
+- 核对：§2.2 Theorem 2.1 的证明、§2.3 Tsuji 范畴条件 (1)–(5)、对应滤过公式、Tsuji 关联对象及 Remark 2.2(1)。
+- 结果：PASS±。
+- 差异与依据：检查到 Markdown 第 247 行将 `compatibility` 写作 `compatiblity`，第 263 行将 `Griffiths` 写作 `Grifiths`（少一个 `f`）；均为不改变定义内容的文本拼写瑕疵。滤过关系、加权和公式、Φ 条件 (a)–(c) 与 Tsuji 对象的同构在 PDF 文本层、页图和 Markdown 中对应。
