@@ -16,3 +16,11 @@
 - 核对：题名、作者、附录作者、日期、目录至 §6.4。
 - 结果：PASS±。
 - 差异与依据：页面左侧排有 `arXiv:2109.08788v4 [math.NT] 17 Dec 2024`，Markdown 未录入；属版本/来源元数据遗漏，不改变正文命题。印刷目录将 §6.4 写作 `Principle bundles`，Markdown 同样保留该拼法；这是印刷原文 quirk，未作校正。PDF 文本层与 150dpi 页图支持以上判断；Markdown 对应第 1–50 行。
+
+## p.002（PDF p.2 / 印刷 p.2）
+- 时间：2026-10-01 16:14:01 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p002.png`（pngmono 150dpi）
+- 核对：目录 §6.5–附录 §A.3。
+- 结果：PASS±。
+- 差异与依据：目录附录标题的印刷排版将 `infinity by` 连作 `infinityby`（源级空格 quirk，照录）；Markdown 对应目录项也缺空格，且作者尾部被截成 `Michael C`，但附录正文标题后续列出全名。此为目录元数据的轻微转录缺损，非正文遗漏。页图与 PDF 文本层一致；Markdown 对应第 51–69 行。
