@@ -173,3 +173,12 @@
 - 核对：Lemma 4.9、Proposition 4.10、§4.3 主映射与 Lemma 4.11 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 731 行把 Lemma 4.9 的第一个对象写成 `ν_*(L̂⊗OC)(n)`，将 `n` 移出系数层；第二个 `ν_{ket,*}` 又被破坏成含 `Ω_*` 的字串。第 741 行的 `φ : Y → X` 和第 759 行的 `S_cris(L) → D^0_dR(L)` 都漏掉映射箭头。三张 300dpi 裁片核实印刷对象次序及两个箭头；本页所列差异均为数学对象/映射的转录问题。
+
+## p.020（PDF p.20 / 印刷 p.20）
+- 时间：2026-10-01 17:19:28 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p020.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p020_Theorem4.14-bound.png`
+- 核对：Lemma 4.11 余段、Lemma 4.12、Definition 4.13、Theorem 4.14 陈述及证明开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 789 行 Theorem 4.14 的比较因子 `p^{b(dim L-1)/(p-1)}` 被破坏成 `b…` 后接 `p^{\longrightarrow\not\longrightarrow}`；该界是本定理的核心定量结论。300dpi 裁片清楚显示指数 `b(dim L-1)/(p-1)`。第 791 行的证明标签还把 `Theorem 4.5` 录成 `Theorem 4.1%`，作为交叉引用瑕疵另记。
