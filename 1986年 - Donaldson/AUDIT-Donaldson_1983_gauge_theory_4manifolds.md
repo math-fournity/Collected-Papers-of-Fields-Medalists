@@ -177,3 +177,12 @@
 - Markdown segment: lines 673–707, from the continuation “spin manifold...” through Proposition 12's gauge condition and Sobolev estimate.
 - Compared: end of note (iii); Theorem 11 and section III outline; Proposition 12 assumptions, energy bound, convergence conclusion, and conditions (i)–(ii).
 - Result: **PASS±**. The statements and displayed equations match the page image. The running author header and folio `296` are absent from the Markdown.
+
+### p.019 (PDF p.19 / print p.297)
+
+- PNG: `audit/p019.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:19:24 EDT
+- Markdown segment: lines 709–756, from the elliptic-system conclusion through the first bound `I(q,i) ≤ L` in the proof of Lemma 14.
+- Compared: self-duality equation and elliptic-system claim; Theorem 13 alternatives; Lemma 14 hypotheses, covering property, and page-end integral bound.
+- Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `297` are absent from the Markdown.
