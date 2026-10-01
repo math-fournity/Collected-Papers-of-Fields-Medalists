@@ -305,6 +305,7 @@
 
 **文件**：
 - `Donaldson_1983_gauge_theory_4manifolds.pdf` — 原文全文
+- `AUDIT-Donaldson_1983_gauge_theory_4manifolds.md` — 38 页逐页审计与修复登记
 
 ### 1986年 - Faltings
 

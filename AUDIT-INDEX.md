@@ -81,7 +81,7 @@
 | 1990年 - Drinfeld | V. G. Drinfeld《Elliptic modules》（Mat. Sbornik 94 (136) / Math. USSR Sbornik 23 (1974), No. 4；题录按 PDF p.1） | 32 | ✅ | 审计中（5/32） | [AUDIT-Drinfeld_1974_elliptic_modules.md](1990年%20-%20Drinfeld/AUDIT-Drinfeld_1974_elliptic_modules.md) |
 | 1978年 - Deligne | Deligne_1974_weil1（La conjecture de Weil I） | 36 | ✅ | 审计中（Peer-P01；gpt-6-luna/max） | [AUDIT-Deligne_1974_weil1.md](1978年%20-%20Deligne/AUDIT-Deligne_1974_weil1.md) |
 | 1936年 - Ahlfors | Ahlfors_1930_ueberlagerungsflaechen | 38 | ✅ | 审计中（Peer-P02；gpt-6-luna/max） | [AUDIT-Ahlfors_1930_ueberlagerungsflaechen.md](1936年%20-%20Ahlfors/AUDIT-Ahlfors_1930_ueberlagerungsflaechen.md) |
-| 1986年 - Donaldson | Donaldson_1983_gauge_theory_4manifolds | 38 | ✅ | 审计中（Peer-P03；gpt-6-luna/max） | [AUDIT-Donaldson_1983_gauge_theory_4manifolds.md](1986年%20-%20Donaldson/AUDIT-Donaldson_1983_gauge_theory_4manifolds.md) |
+| 1986年 - Donaldson | Donaldson_1983_gauge_theory_4manifolds | 38 | ✅ | ✅ 完成（38/38；14 FAIL 与 6 个影响检索/可读性的 PASS± 已修复；27 项修复登记；1,449 行 Markdown 完整复读；candidate `93f5cdcb`，integrated `8713f2fc`） | [AUDIT-Donaldson_1983_gauge_theory_4manifolds.md](1986年%20-%20Donaldson/AUDIT-Donaldson_1983_gauge_theory_4manifolds.md) |
 | 1994年 - Bourgain | Bourgain_1989_pointwise_ergodic | 38 | ✅ | 审计中（Peer-P04；gpt-6-luna/max） | [AUDIT-Bourgain_1989_pointwise_ergodic.md](1994年%20-%20Bourgain/AUDIT-Bourgain_1989_pointwise_ergodic.md) |
 | 2006年 - Perelman | Perelman_2002_entropy_ricci | 39 | ✅ | 审计中（Peer-P05；gpt-6-luna/max） | [AUDIT-Perelman_2002_entropy_ricci.md](2006年%20-%20Perelman/AUDIT-Perelman_2002_entropy_ricci.md) |
 | 1998年 - Wiles | frey1986 | 40 | ✅ | 审计中（Peer-P06；gpt-6-luna/max） | [AUDIT-frey1986.md](1998年%20-%20Wiles/AUDIT-frey1986.md) |

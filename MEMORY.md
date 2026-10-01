@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 110 条论文记录，其中 70 篇完成、40 篇已分派。全仓有 141 个 PDF 路径；本轮 SHA-256 清点发现两个 byte-identical 双副本组，因此只有 139 个 distinct PDF byte streams。该结果不自动等于逻辑论文总数；AUDIT-INDEX 仍声明 140，数量口径冲突待闭合。Drinfeld 候选 HEAD `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 尚未集成、不计入完成。Git worktree list 观察到 40 个 Peer worktrees（另有 main 共 41 个 checkout）；主线根进度现含本轮新增的 372 条页级候选收据，另有一条 Donaldson p.10 候选等级修订和一条 Deligne 报告签名复核更正（Master commit `3845fb56`）。这些均不等于页面内容已由 Master 接受或篇目已集成。
+本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 110 条论文记录，其中 71 篇完成、39 篇审计中。全仓有 141 个 PDF 路径；本轮 SHA-256 清点发现两个 byte-identical 双副本组，因此只有 139 个 distinct PDF byte streams。该结果不自动等于逻辑论文总数；AUDIT-INDEX 仍声明 140，数量口径冲突待闭合。Donaldson 1983（Peer-P03）候选 `93f5cdcb` 已由 Master 集成于 `8713f2fc`；Drinfeld 候选 `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 仍未集成、不计入完成。Git worktree list 仍有 40 个 Peer worktrees（另有 main 共 41 个 checkout），其中一个纸篇 lane 已接受集成。
 
 项目治理骨架已于 2026-10-01 建立。用户新增了剩余 MinerU Markdown 正文修复的逐处 Edit 规则，已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。当前工作已恢复论文队列，先处理 `1990年 - Drinfeld/Drinfeld_1974_elliptic_modules.pdf`；现有 MinerU Markdown 可用。Codex 全局 MinerU skill 位于 `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 并已通过结构校验；CLI 4.0.8 可执行，但 MinerU library server 当前停止、standard 所需 GGUF 模型缺失，本轮未启动服务、下载模型或远程上传。
 
@@ -10,7 +10,7 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求立即维持 40 个项目 Peer 并发；官方 Codex app 项目任务入口未公布数值上限 | 40 个 Peer worktree 仍在（Master 不计）；36/40 至少有一笔 `audit(page)` commit，P10、P12、P30、P37 尚无页级 commit。最近一轮向主线追加 372 条标准页级候选收据，涉及 32 个 Peer actor。`list_threads` 仍只返回 Master task、没有这些 Peer 的正式 threadId，因此 40 个 Peer Session 当前活跃数不可验证；4 个无提交槽位是否仍在运行也未知。不能仅凭 worktree 把“40 个活动 Session”说成已证实，且在终态未知时不重复分派重叠写集。Master 不做论文初审，负责只读质量/路径审计、根级日志与总账、按 exact OID 串行集成 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求立即维持 40 个项目 Peer 并发；官方 Codex app 项目任务入口未公布数值上限 | AUDIT-INDEX 现在为 71 完成、39 审计中。P03 Donaldson 38 页候选已审阅并集成；40 个 Peer worktree 仍注册，36/40 曾有 `audit(page)` commit。39 个未完成篇目 lane 中，P10、P12、P30、P37 尚无页级 commit；任务 threadId/status 仍不可见，实际活动 Session 数不能据 worktree 数推断。P03 纸篇 lane 已交付，可在核定新的未分派来源后补位。Master 不做初始逐页审计，负责只读质量/路径核验、根级总账和 exact OID 集成 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
@@ -24,6 +24,7 @@
 - 当前唯一篇目总数的证据口径仍未闭合：PDF 实物数量、SHA-256 distinct byte streams 数与 AUDIT-INDEX 声明的 140 行口径不一致。完成全范围声明前须逐文件交叉核对目录、重复副本、篇级索引与已存在 AUDIT 候选，不将少看/多算的资产默默排除。
 - 官方 Codex 文档确认项目 task/worktree 并行工作模式，但未发现该 app task 入口的数字并发上限；API multi-agent 默认并发配置不同，不能当作 app project peer cap。40 是用户本轮的最低操作目标，不是平台保证值。
 - 当前 Codex 任务列表只暴露 Master 任务，Peer 的正式 threadId/status 仍不可见；40 个 worktree 只证明 40 个隔离 checkout 已注册，不能证明 40 个 Session 此刻都在运行。36 个 checkout 有页级提交、32 个 Peer actor 在最近收据区间产生了新提交，证明这批候选有近期执行证据；不补足另 4 个 lane 的 Session 终态证据。
+- 下一 Peer 的未分派论文尚未通过新的 PDF↔AUDIT-INDEX↔AUDIT/Markdown 实物交叉核对；不得复用旧摘要中的“Viazovska dim24”候选，因为当前 AUDIT-INDEX 第 33 行已登记该 17 页篇为完成。
 
 ## 当前有效约束摘要
 
@@ -106,3 +107,10 @@
 - Donaldson p.10 的原候选 PAGE `3e42f4d8` 记录 PASS±；Peer-P03 的补充提交 `0832a3b3` 把候选等级改为 FAIL，称 300dpi 裁片显示 Markdown `0(ε)` 与印刷 `O(ε)` 不同。根日志已记为 `PAGE-REVISION`；Master 尚未独立核对原页图，不接受或集成该结论。
 - Deligne Peer-P01 当前候选 HEAD `9857d0ccb8d2d54cc3d1298e8d7c389242478d17` 中，p.6–p.22 页面说明缺显式结果行，p.23 已写结果。Master 在主线追加 REVIEW 更正，明确包括 p.12 的既有判断有误；未改 Peer 论文文件。
 - 新一轮用户消息重申“立即开启40并发”，没有改变 R-003 的目标值。当前已证明 40 个 Peer worktrees 存在且持续有候选提交，但 40 个并行 Session 的精确活动数仍 `UNKNOWN`；不把 worktree count 或部分 actors 的近期提交外推为 40 active sessions。
+
+### E010 · 2026-10-01 · 集成 Donaldson 候选并重审下一分派项
+
+- Peer-P03 Donaldson 候选 exact source `93f5cdcbbfea6a708d5b7186ee1d6baeb16b8c0a` 从 `e04c4a9603818cfa2d71271942f696115783c33b` 分支；变更仅在 Donaldson 目录。Master核验 AUDIT 有 38/38 个逐页结果行和 27 项修复登记；Peer 报告称 66 个引用图片路径均有效、38 张全页 PNG 齐全（Master 未逐项重算）。报告所记完整 1,449 行 Markdown 复读后 SHA-256 为 `a22812e11e24ebbddde35767b454a47957949df592d97b72a689568b83eb74a5`，实物匹配；PDF SHA-256 也与报告一致。独立 spot-check p.10 的 300dpi 裁片与修复后的 `O(ε)` 一致。本次是基于完整 Peer 报告、哈希、隔离路径和有限原页抽核的 Master 接纳，不是 Master 重做 38 页审计。
+- 候选经 Master merge 集成为 `8713f2fcfbfaa30443b754d0f012a2cb8fe77350`；AUDIT-INDEX 从 70/40 更新至 71 完成/39 审计中，README 仅新增 Donaldson AUDIT 文件资产行，AUDIT-PROGRESS 追加 REVIEW/DONE/COMMIT。README 里用户已有的治理入口改动继续保持未暂存、未提交。
+- 重新核对下一候选时发现旧工作记忆里的 Viazovska dim24 17 页篇并非未分派：`AUDIT-INDEX.md` 第 33 行明确登记为完成。该候选从当前派单队列退休；先完成新的物理 PDF—篇级索引—AUDIT/Markdown 对账，再决定 Peer-P40 负责哪一篇。
+- P03 完成稿提供一个可回收的纸篇 worker lane；但 Codex app 仍未暴露该 Peer 的正式 threadId/终态。worktree 清洁与最终集成是已观察的交付证据，不等于 Host 返回了 task terminal receipt；新分派路径必须互斥，不冒充已验证的会话关闭。
