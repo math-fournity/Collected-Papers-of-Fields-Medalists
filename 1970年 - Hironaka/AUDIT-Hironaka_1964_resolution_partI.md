@@ -41,3 +41,10 @@
 - 证据：源 PDF p.004 文本层、目检页图 `audit/Hironaka_1964_resolution_partI_p004.png`（pngmono 150dpi）与 MinerU Markdown 第 133–169 行。目录 Chapter III §5–§10、Chapter IV §1–§4 与该页续文吻合；开篇公式映射 `f:\widetilde{X} \to X` 及 `f^{-1}(V) \xrightarrow{\approx} V` 已在图像核验，后者与 Markdown 相符。文本层把这些符号压平，但未造成 Markdown 丢失。
 - 备注：印刷运行页眉和页码 111 未录入 Markdown，属不影响正文的导航元素省略。
 - 结论：目录续项及 Introduction 起始段无实质差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.005 / 96（印刷 p.112）— FAIL
+
+- 时间：2026-10-01 16:28 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.005 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p005.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p005_theorem_I.png` 与 MinerU Markdown 第 169–181 行。印刷多次写作 `Main theorem I`、`I*`、`I(n)`、`I'`、`I'(n)`、`I''(n)`；Markdown 第 177、179 行相应写成数字 `1`（如 `main theorem 1(n)`、`1'(n)`）。300dpi 图确认均为罗马大写 I，非阿拉伯数字 1，属于定理名称误录，待全篇审计后逐处手工修复。该页的映射公式 `f: \widetilde{X} \to X`、`f^{-1}(V) \xrightarrow{\approx} V` 及脚注 1 与原页相符。
+- 备注：印刷运行页眉与页码 112 未录入 Markdown，属非误导性导航元素省略。
+- 结论：定理编号 I 被误录为 1，列为 FAIL；修复前保留原稿。
