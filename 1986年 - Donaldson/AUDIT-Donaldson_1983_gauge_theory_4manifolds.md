@@ -312,3 +312,12 @@
 - Markdown segment: lines 1273–1303, from the transition functions on `W` through the final estimate for `\nabla \tilde B_2`.
 - Compared: transition-function equations (ii); modified framing on `W'`; cutoff `γ`; formula for `\tilde B_2`; the four-step derivative estimate.
 - Result: **PASS±**. The equations, bounds, and prose match the page image. The running author header and folio `311` are absent from the Markdown.
+
+### p.034 (PDF p.34 / print p.312)
+
+- PNG: `audit/p034.png` (150-dpi `pngmono`); integration-bound crop: `audit/300dpi/p034-integration-bound.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:53:15 EDT
+- Markdown segment: lines 1305–1349, from the Appendix heading through the decomposition `Λ²R⁴ ≅ Λ²R³ ⊕ Λ¹R³ ≅ R³ ⊕ R³`.
+- Compared: removable-singularity decay bound; cylinder hypotheses and exponential estimate; curvature-integral/Chern–Simons relation; `J(t)` and its derivative; exterior-form decomposition.
+- Result: **PASS±**. The Markdown matches the printed equations. The 300-dpi crop confirms the integral lower bound is printed `ε`, while its displayed boundary term uses `A_t`; this source-level parameter mismatch is preserved. The running author header and folio `312` are absent from the Markdown.
