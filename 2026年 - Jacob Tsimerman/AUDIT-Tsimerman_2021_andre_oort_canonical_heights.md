@@ -94,3 +94,11 @@
 - 核对：Lemma 2.4、(2.3.1)–(2.3.4)、对偶定义与证明、§2.4 纤维映射及 Lemma 2.5 陈述。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 349 行将 Lemma 2.4 的权重区间 `[0,a]`、`[0,b]` 都录成无括号的 `0,a`、`0,b`；第 362 行在 (2.3.2) 末尾多出一个右括号，第 385 行在印刷的 `T_cris` 前多出点号。§2.4 第 389 行的 `i : R → V` 漏箭头；第 391 行表示 `G_V → G_R` 的第二处箭头也缺失；第 393 行把 `G_R`-stable 误并成 `G_{R^{-Stable}}`。300dpi 裁片确认区间括号、两处映射箭头及 `G_R`-stable 排版。修复留待全篇审计后逐处 Edit。
+
+## p.011（PDF p.11 / 印刷 p.11）
+- 时间：2026-10-01 16:40:02 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p011.png`（pngmono 150dpi）
+- 核对：Lemma 2.5 证明、Theorem 2.6 及证明、Lemma 2.7 的权重/扭曲范围、脚注 8。
+- 结果：PASS±。
+- 差异与依据：Markdown 第 445 行把 `character` 拆为 `charact$e r^{8}$`，并把结果句中的 `for` 拆作 `$f o r …$`；这是局部词形/数学排版边界瑕疵。Theorem 2.6 的张量基变换同构、Lemma 2.7 的 `-a ≤ n ≤ p-2-b` 界及扭曲幂与印刷页一致；脚注 8 的 cyclotomic character 权重约定也保留。
