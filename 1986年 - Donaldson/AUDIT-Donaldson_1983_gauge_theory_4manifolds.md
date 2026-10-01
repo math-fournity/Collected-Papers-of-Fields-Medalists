@@ -113,3 +113,12 @@
 - Markdown segment: lines 375–413, from the derivative of `S` through the Fredholm-operator discussion ending “compact manifolds are”.
 - Compared: derivative and isomorphism claim; reducible-connection restriction and local quotient model; section II.2 map `Φ`; derivative of `Φ` and Fredholm statement.
 - Result: **PASS±**. The equations, spaces, and prose match the page image. The Markdown omits the running header and printed folio `289`.
+
+### p.012 (PDF p.12 / print p.290)
+
+- PNG: `audit/p012.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p012-restriction.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:09:28 EDT
+- Markdown segment: lines 415–459, from the Fredholm-index discussion through the regular-value sentence ending “for the”.
+- Compared: index formula and dimension 5/6 conclusion; Lemma 7 statement and decomposition; proof construction of `\psi` and its inverse relation.
+- Result: **FAIL**. Markdown line 443 gives `L|_E : E' → Im L`; the printed page has `L|_{E'} : E' → Im L`. The 300-dpi crop confirms the prime on the restriction domain, which is essential to the stated inverse. The remaining checked formulas and prose match; the running header and folio `290` are absent.
