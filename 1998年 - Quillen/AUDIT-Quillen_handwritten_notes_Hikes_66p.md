@@ -53,3 +53,13 @@
 - 印刷证据与差异：原图第 110 行的 `p_2` 定义包含 `X×_Y \widetilde Y`，Markdown 基线行 110 写成 `X_x \widetilde Y`，丢失乘积与基底下标。原图的同伦纤维为 `PY_y×_Y X`，基线行 112、114 丢失拉回下标 `Y`。原图第二个谱序列的系数空间是 `\Omega Y`，基线行 120 误为 `RY`。本页拉回方块原图也是 `Y'×_Y X`，基线行 133 漏掉 `×_Y`；这些符号决定所用空间/映射，不能作为纯排版差异处理。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；修复后按 150dpi 页图与 300dpi 裁片复核。
 - 记录：2026-10-01 16:33:00 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.005（PDF p.5 / 纸面圈号 5）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p005.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p005_pushout.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p005_relative-homology.png`。
+- 核对：沿 cofibration 的推前保持 acyclic 的方块与相对同调证明；局部系数 Whitehead 定理；闭流形同调球的定向与基本类例子。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图推前目标为 `Z∪_X Y`，基线第 139 行把该 pushout 写成不可读的 `Z U(Y)/X L`；第 143–149 行的局部系数/相对同调交换图也被识别成 `f(y)`、`z_i f_i` 等不对应原式的文本。原图 Whitehead 定理要求 `π_1(f):π_1X→π_1Y` 为同构，基线第 151 行把下标 1 识别为逗号；基线第 153–155 行的普遍覆盖、`H_*` 同构和 Whitehead 拼写均有错误。原图将基本类 `μ` 送到 canonical generator，基线第 160 行只留残缺 `genera`；第 162 行把 `acyclic map` 写成 `cyclic map`，改变映射性质。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 150dpi 页图及两张 300dpi 原图裁片复核。
+- 记录：2026-10-01 16:35:05 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
