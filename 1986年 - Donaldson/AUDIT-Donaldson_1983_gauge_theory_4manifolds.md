@@ -348,3 +348,12 @@
 - Markdown segment: lines 1443–1455, References [17]–[22] and the “OXFORD UNIVERSITY” imprint.
 - Compared: each reference's authors, title, journal/book, volume, year, and pages; blank author continuations [19]/[21]; closing imprint.
 - Result: **PASS±**. The entries and imprint match. Reference [20] preserves the printed spelling “Removeable” (rather than normalizing it), a source-level bibliographic quirk. The running author header and folio `315` are absent from the Markdown.
+
+### p.038 (PDF p.38 / no printed page number)
+
+- PNG: `audit/p038.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:58:25 EDT
+- Markdown segment: none; the Markdown ends with the `OXFORD UNIVERSITY` imprint after PDF p.37.
+- Compared: final PDF page image, PDF text extraction, and end of the MinerU Markdown.
+- Result: **PASS±**. PDF p.38 is an entirely white trailing scan page (the 150-dpi image has one color and all pixels are white; `pdftotext` yields no text). No Markdown content corresponds to it. It has no printed folio or running header.
