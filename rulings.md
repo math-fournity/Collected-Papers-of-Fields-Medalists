@@ -22,4 +22,14 @@
 
 **归一后的当前要求**：Master 使用 `Master-Luna`，每个并发论文 Worker 使用唯一 `Peer-PNN` 身份；工作记录同时写明实际配置的模型与 reasoning effort（本轮例如 `gpt-6-luna/max`）。身份应出现在每篇 AUDIT 的任务元数据/页级记录、Master 维护的根页级进度日志，以及 Peer 自己的 audit/fix/complete Git commit subject 中。Master 对主线总账和集成提交使用自己的身份，并在集成记录中保留候选 Peer、模型、exact source OID 与验证范围。
 
-不得改写既有 Git 历史或把旧 GLM 工作追溯标成 Luna/Peer；旧记录未保存的模型身份保持未知。Git 作者字段仍由真实提交环境决定，不得伪造作者、签名或时间；用 commit subject/body 清楚记录 AI actor、model 和 effort。并发论文使用独立 worktree 和独占论文目录，Master 是唯一 canonical integrator，根级当前态由 Master 串行维护。
+不得改写既有 Git 历史或把旧 GLM 工作追溯标成 Luna/Peer；旧记录未保存的模型身份保持未知。Git 作者字段仍由真实提交环境决定，不得伪造作者、签名或时间；用 commit subject/body 清楚记录 AI actor、model 和 effort。每个并发 Peer 使用独立 worktree，并拥有一个论文的明确、互不重叠写入文件集；同一获奖者父目录可以容纳多个 Peer，但须明确划分每篇的 PDF 原件（只读）、MinerU Markdown、AUDIT 文件与带唯一短名前缀的 audit 图片路径，不能有共同可写文件。Master 是唯一 canonical integrator，根级当前态由 Master 串行维护。
+
+## R-003 · 2026-10-01 · 立即把并发目标提高到 40 个 Peer
+
+**状态**：已采纳；替代 R-002 工作日志并发目标的当前执行数量，但不改变身份留痕、禁止改写历史和 Master 单写集成要求。
+
+**原始用户指令**：
+
+> 立即开启40并发
+
+**归一后的当前要求**：立即建立 40 个同时运行的 Codex 项目 Peer Worker（Master 是调度/审计/集成角色，不计入 40）。已查阅的 OpenAI 官方 Codex app 资料说明可用并行 tasks/worktrees，但未公布此项目 task/worktree 入口的数字并发上限；因此按用户明确的 40 下限执行，不将其描述为平台保证的最大值。继续使用独立 worktree、每 Peer 单篇及互不重叠的精确写入路径；同一 parent 目录下不同论文可并发，前提是 audit 图片文件名空间也互斥。若宿主实际创建/运行能力无法达到 40，立即报告实际建立的活动数量和明确失败证据，不伪称已达标。

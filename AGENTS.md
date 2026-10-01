@@ -99,7 +99,7 @@ AGENTS/Skill 存在声称已记录。`dev-notes` 是可能含敏感内容的历�
 - 本仓库收藏菲尔兹奖得主的获奖相关论文、会议论文、颁奖词及 MinerU 衍生文本，并维护可追到原页、图像和 Git 历史的逐页审计记录。根 `README.md` 是目录与资产地图；`feature-list.md` 是当前已采纳项目要求；`rulings.md` 保存用户原始裁定；`MEMORY.md` 保存当前方向和跨会话恢复点；`AUDIT-INDEX.md` 是篇级进度真值；`AUDIT-PROGRESS.log` 记录页级进度；`AUDIT-SOP.md` 是稳定审计规范；`ZCODE-HANDOFF-PROMPT.md` 是当前接手流程。`HANDOFF-AUDIT.md` 含早期交接快照，进度和与当前文件冲突的步骤只作历史参考。
 - 新会话或压缩恢复时，先读本文件、`README.md`、`MEMORY.md`、相关 `feature-list.md`/`rulings.md`、`docs/README.md`，再读 `AUDIT-SOP.md`、`AUDIT-INDEX.md` 和 `AUDIT-PROGRESS.log` 末尾。索引和摘要用于定位；论文内容、审计结论与当前 Git 状态仍须回到 PDF/图像、MinerU Markdown、审计实物和 Git 证据。处理某篇论文时按 `ZCODE-HANDOFF-PROMPT.md` 执行；历史交接材料不能覆盖这些当前 owner。
 - `AUDIT-SOP.md` 决定逐页审计和 print quirk 纪律；剩余 Markdown 正文修复还必须遵守本文件下一节的逐处 Edit 与 AI 复核要求。
-- 并发审计身份、模型/effort 标记和 Master/Peer 的 Git 日志边界见 `rulings.md#R-002`、`feature-list.md#AUDIT-002` 与 `AUDIT-SOP.md#AI-身份与并行Worktree日志`。Master 是唯一 canonical integrator；每个 Peer 只写自己的论文目录，不以 worktree 隔离为由并写根级当前态。
+- 并发审计身份、模型/effort 标记和 Master/Peer 的 Git 日志边界见 `rulings.md#R-002/#R-003`、`feature-list.md#AUDIT-002` 与 `AUDIT-SOP.md#AI-身份与并行Worktree日志`。Master 是唯一 canonical integrator；每个 Peer 只写自己的单篇精确路径集合，不能以 worktree 隔离为由并写根级当前态；同一获奖者父目录下若分派多篇，必须为 Markdown、AUDIT 与带短名前缀的图片划定互斥文件名空间。
 - 论文篇级进度以 `AUDIT-INDEX.md` 为准，页级断点以 `AUDIT-PROGRESS.log` 为准；不得从旧 handoff 的静态数字推断当前状态。
 - Secret 不进入 Git、Prompt、普通日志或公开文档。
 - Push、发布和破坏性外部状态变更需要用户明确授权。
