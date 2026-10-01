@@ -120,3 +120,12 @@
 - 核对：Theorem 2.9 的 log-crystalline 证明结尾、§3 Definition 3.1、Lemma 3.2–3.3 与 Definition 3.4 前三项。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 493 行的自然映射 `Ψ : M ⊗_β A_cris,log → L ⊗ A_cris,log` 漏掉 `→`；第 517 行将 Lemma 3.3 印刷的双向条件 `acceptable iff acceptable on a finite affinoid cover` 缩成单向 `if`，丢失必要方向。两张 300dpi 裁片确认原页有该箭头和 `iff`。另有 `affinoid` 写作 `afinoid` 的拼写瑕疵，不影响以上分级。
+
+## p.014（PDF p.14 / 印刷 p.14）
+- 时间：2026-10-01 16:50:08 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p014.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p014_admissible-restrictions.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p014_Height-domain.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p014_Corollary-domain.png`
+- 核对：Definition 3.4 条目 (4)–(5)、Lemma 3.5–3.6、§3.1 高度定义与 Corollary 3.7。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Definition 3.4 第 (5) 项 Markdown 第 535 行把限制域 `\mathcal Y_v^{rig}` 错录为 `\mathcal V_v^{rig}`。§3.1 第 553、559、563 行把高度定义及 Corollary 3.7 的点集从印刷的 `\mathcal Y(\mathcal O_F[N^{-1}])`（及其代数闭包版本）写成 `\mathcal V`/`\dot{\mathcal V}`，并在第 553 行另加入 `\bar{\mathcal O}_F`；这把定义域从基空间换成了向量丛的总空间。300dpi 裁片确认限制域和高度点集均为 `\mathcal Y`。PASS± 瑕疵：`differ`、`sufficient`、`affinoid` 等拼写有少字母伪影，不改变本页分级。
