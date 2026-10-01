@@ -128,3 +128,10 @@
 - Checked: conclusion of the birationality argument, Lemma 3, minimal primes and localization, the canonical product homomorphism, and the congruence elements proving surjectivity.
 - Result: PASS±. The statements, exponent/prime labels, product map, and congruences agree. Markdown renders the defined fraktur prime ideals as regular italic p_i in some later prose; the referent is unchanged. The running title and print page number are not represented in Markdown.
 - Image: no per-page image; this born-digital page showed no distinct glyph discrepancy requiring a crop.
+
+### PDF p.017/43 — print p.16
+
+- Reviewed: 2026-10-01 16:23 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi associated-sheaf crop](audit/300dpi/Serre_1956_gaga_p017_tensor_300dpi.png); PDF text layer and MinerU Markdown lines 284–308.
+- Checked: associated topology F', analytic sheaf definition, tensor formula, scalar ring, canonical map, and extension of homomorphisms.
+- Result: PASS±. The displayed print formula has no tensor subscript; the following print sentence specifies that the product is over O'. Markdown preserves the same equation and explicit scalar-ring sentence. No content difference was found in the checked maps.
