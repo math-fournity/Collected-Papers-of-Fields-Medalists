@@ -186,3 +186,12 @@
 - Markdown segment: lines 709–756, from the elliptic-system conclusion through the first bound `I(q,i) ≤ L` in the proof of Lemma 14.
 - Compared: self-duality equation and elliptic-system claim; Theorem 13 alternatives; Lemma 14 hypotheses, covering property, and page-end integral bound.
 - Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `297` are absent from the Markdown.
+
+### p.020 (PDF p.20 / print p.298)
+
+- PNG: `audit/p020.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p020-big-O.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:21:32 EDT
+- Markdown segment: lines 759–801, from the diagonal-subsequence argument through the convergence over the conformal-chart cover.
+- Compared: end of Lemma 14 proof; geodesic-coordinate expansion; rescaled metric and chart; action-density bound and conformal-chart convergence.
+- Result: **FAIL**. In the coordinate and rescaled-metric formulas, Markdown uses digit `0` where the printed page has big-O `O`: lines 778 (`0|x|²`), 787 (`r²0|y|²`), and 787 (`0(r²)`). The 300-dpi crop confirms the order-symbol reading; all three positions are repair candidates. The other checked material matches; the running author header and folio `298` are absent.
