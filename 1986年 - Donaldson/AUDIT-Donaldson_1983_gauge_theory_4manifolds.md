@@ -41,3 +41,12 @@
 - Markdown segment: lines 53–101, from the continuation “union of X...” through the line ending “The curvature F(A) of any”.
 - Compared: end of the moduli-space boundary description; Lemma 2 and its two displayed decompositions and signature calculation; start of section I.3; bundle notation, connection-space definition, and differential-operator formula.
 - Result: **FAIL**. At Markdown line 89 the source diagram `P ↓ X` identifying the total space and base of the principal bundle is reduced to `\downarrow`; both labels `P` and `X` are lost. The 300-dpi crop confirms the printed diagram. The other checked mathematical statements match. The printed running header and folio `281` are absent from the Markdown.
+
+### p.004 (PDF p.4 / print p.282)
+
+- PNG: `audit/p004.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:55:44 EDT
+- Markdown segment: lines 103–153, from “connection is an element of” through the decomposition `Ω² = Ω⁺² ⊕ Ω⁻²`.
+- Compared: curvature expansion; gauge-group action; `SU(2)` and `U(1)` bundle classification; Proposition 3 and its curvature formula; the `c₂` and relative `Tc₂` formulas; start of the self-dual/anti-self-dual decomposition.
+- Result: **PASS±**. The mathematical text and displayed formulas match the page image. The Markdown omits the running author header and printed folio `282`.
