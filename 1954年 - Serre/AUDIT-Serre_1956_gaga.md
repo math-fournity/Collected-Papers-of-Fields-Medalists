@@ -62,3 +62,10 @@
 - Evidence: [150 dpi page](audit/Serre_1956_gaga_p007_150dpi.png); [300 dpi series and prime-ideal crop](audit/300dpi/Serre_1956_gaga_p007_series-primes_300dpi.png); PDF text layer and MinerU Markdown lines 93–107.
 - Checked: coherent-sheaf argument, local analytic ring description, convergent power-series algebras and quotient, regular-local criterion, and the minimal-prime intersection display.
 - Result: FAIL. The print has C{z_1,...,z_n} for both power-series terms in this passage; the 300 dpi crop confirms subscript 1. Markdown line 99 has z_i in both places. The displayed 0 = intersection p_i agrees. Defer the two subscript corrections until the full audit is complete.
+
+### PDF p.008/43 — print p.7
+
+- Reviewed: 2026-10-01 16:09 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi series and Zariski crop](audit/300dpi/Serre_1956_gaga_p008_Zariski-series_300dpi.png); PDF text layer and MinerU Markdown lines 109–125.
+- Checked: irreducible-component/local-dimension argument, finite extension of the convergent-series algebra, Zariski/usual topology distinction, and Lemma 1(a)–(d).
+- Result: FAIL. The print has C{z_1,...,z_r} in the finite-extension clause; the crop confirms subscript 1. Markdown line 109 has z_i. The same line's formal-series completion and the Z-topology statements agree with print. Defer correction until the full audit is complete.
