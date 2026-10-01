@@ -33,3 +33,11 @@
 - 核对：§1.1 概述、Theorem 1.1–1.2、§1.2 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Theorem 1.2 在印刷页写作 `Let (T,r) ⊂ (G,X)`，结论为高度 `is (M disc E_T)^{o(1)}`；Markdown 第 95 行的包含式丢失 `(G,X)` 的括号，渐近式丢失左括号并把 `E_T` 输出成 `\cal E_T`。300dpi 裁片清楚显示原式为普通斜体 `E_T`，故当前 Markdown 公式结构不完整。第 81 行还将 `different strategy` 误录为 `diferent strategy`；第 101 行本页对应的 `different` 亦少一个 `f`。印刷 PDF 文本层、150dpi 整页图及 300dpi 裁片相互支持；改动留待 52 页审计完成后逐处 Edit。
+
+## p.004（PDF p.4 / 印刷 p.4）
+- 时间：2026-10-01 16:18:10 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p004.png`（pngmono 150dpi）
+- 核对：§1.2 余段、§1.3、§1.4 开头及页下注 1–3。
+- 结果：PASS±。
+- 差异与依据：Markdown 第 107 行把 `different ways` 录作 `diferent ways`，第 115 行把 `A difficulty` 录作 `A dificulty`；均为少一个 `f` 的拼写转录瑕疵，不改数学断言。印刷页底三条脚注在 Markdown 中均有对应文本。PDF 文本层及 150dpi 页图支持核对。
