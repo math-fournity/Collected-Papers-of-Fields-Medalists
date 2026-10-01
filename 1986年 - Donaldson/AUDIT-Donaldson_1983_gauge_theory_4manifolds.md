@@ -213,3 +213,12 @@
 - Markdown segment: lines 847–889, from section III.3 through Definition 15(b)'s formula for `λ(A)`.
 - Compared: moduli-space map; smoothed radius/position definition; bump-function scale; instanton action density and `R_I`; both properties and Definition 15.
 - Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `300` are absent from the Markdown.
+
+### p.023 (PDF p.23 / print p.301)
+
+- PNG: `audit/p023.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:26:34 EDT
+- Markdown segment: lines 891–921, from the interpretation of `λ(A)` through Theorem 16's convergence proof and appendix pointer.
+- Compared: conformal-chart map; rescaled metric; Theorem 16(i)–(ii) and curvature bound; instanton action estimate and subsequence argument.
+- Result: **PASS±**. The definitions, formulas, and proof statements match the page image. The running author header and folio `301` are absent from the Markdown.
