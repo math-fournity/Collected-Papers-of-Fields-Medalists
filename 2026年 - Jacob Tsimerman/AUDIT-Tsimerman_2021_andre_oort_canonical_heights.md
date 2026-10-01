@@ -85,3 +85,12 @@
 - 核对：Remark 2.2(2)–(3)、§2.3.1 复原公式、Lemma 2.3 及证明至第二部分结论。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 311 行把印刷的商 `A_inf/π` 录成 `A_inf/\ddot{π}`；第 313 行将 `M ≅ (… )^G` 破坏为 `M – ´…¯^G`。Lemma 2.3 第 319 行把第二权重区间 `[0,b]` 写成 `0,b`；第 325 行把普通张量积 `⊗` 误录为 `\ddot{\otimes}`，并漏掉单射等源 `f : T_cris(M) → L_1 ⊗ L_2` 的映射箭头。两张 300dpi 裁片确认 π、同构、权重区间、普通张量积和箭头。PASS± 瑕疵：脚注 7 在 Markdown 中被拆成 `T A_inf pMq`、`cris` 等孤立片段，脚注正文也缺失所指对象名。修复留待全篇审计后逐处 Edit。
+
+## p.010（PDF p.10 / 印刷 p.10）
+- 时间：2026-10-01 16:36:14 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p010.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p010_Lemma2.4-weights.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p010_fiber-maps.png`
+- 核对：Lemma 2.4、(2.3.1)–(2.3.4)、对偶定义与证明、§2.4 纤维映射及 Lemma 2.5 陈述。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 349 行将 Lemma 2.4 的权重区间 `[0,a]`、`[0,b]` 都录成无括号的 `0,a`、`0,b`；第 362 行在 (2.3.2) 末尾多出一个右括号，第 385 行在印刷的 `T_cris` 前多出点号。§2.4 第 389 行的 `i : R → V` 漏箭头；第 391 行表示 `G_V → G_R` 的第二处箭头也缺失；第 393 行把 `G_R`-stable 误并成 `G_{R^{-Stable}}`。300dpi 裁片确认区间括号、两处映射箭头及 `G_R`-stable 排版。修复留待全篇审计后逐处 Edit。
