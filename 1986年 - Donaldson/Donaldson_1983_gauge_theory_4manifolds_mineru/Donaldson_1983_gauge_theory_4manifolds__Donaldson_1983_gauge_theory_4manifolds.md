@@ -86,7 +86,7 @@ Thus by our observation we must have $\sigma(Q) = n(Q)$, and $Q$ is the standard
 
 The space  $\mathfrak{M}^{\sigma}=\mathfrak{M}^{\sigma}(X)$  will be defined by using the ideas and methods developed for the study of the “gauge theories” of mathematical physics. There are now several thorough expositions ([5], [13] for example) of these ideas, so we will only say enough here to fix notation and the basic facts which we shall use.
 
-If $G$ is a compact Lie group, and $\downarrow$ a principal $G$ bundle over the 4-manifold $X$, one may define the space $\mathcal{Q}$ of all connections on $P$. Any two connections $A, B$ differ by an element
+If $G$ is a compact Lie group, and $P \downarrow X$ a principal $G$ bundle over the 4-manifold $X$, one may define the space $\mathcal{Q}$ of all connections on $P$. Any two connections $A, B$ differ by an element
 
 $$
 A - B \in \Omega^ {1} (\mathfrak {g})
@@ -196,7 +196,7 @@ $$
 \Omega^ {0} (V) \stackrel {{d _ {A}}} {{\to}} \Omega^ {1} (V) \stackrel {{d _ {A} ^ {-}}} {{\to}} \Omega_ {-} ^ {2} (V).
 $$
 
-For the rest of this paper we suppose that X is given some Riemannian metric and that  $\downarrow$  is an  $SU(2)$  bundle with  $c_{2}(P) = -1$ .
+For the rest of this paper we suppose that X is given some Riemannian metric and that  $P \downarrow X$  is an  $SU(2)$  bundle with  $c_{2}(P) = -1$ .
 
 ## I.4. Instantons and conformal invariance
 
@@ -226,7 +226,7 @@ then there is a bundle automorphism $g \colon B^4 \setminus \{0\} \to SU(2)$ suc
 
 Hence we may recover a self-dual connection on P (up to isomorphism) from an instanton on  $R^{4}$  with total action  $8\pi^{2}$ .
 
-According to the classification, established in [2] for example, the equivalence classes of self-dual connection on $\downarrow$ form a single orbit under the conformal group. There is a single $SO(5)^{S^4}_{S^7}$ invariant class (coming from the natural connection on the fibration $\downarrow$), hence the set of these equivalence classes is parametrised by a moduli space $\mathfrak{M}(S^4) = SO(5,1)^+ /SO(5) = B^5$, the open 5-ball. Interpreted as instantons on $\mathbf{R}^4$ these connections can be specified by a “centre” in $\mathbf{R}^4$, about which they have $SO(4)$ symmetry, and a scale which we can measure, for example, by the radius of the ball about the centre containing action $4\pi^2$ (i.e., one half of the total). Then the conformal
+According to the classification, established in [2] for example, the equivalence classes of self-dual connection on $P \downarrow$ form a single orbit under the conformal group. There is a single $SO(5)^{S^4}$ invariant class (coming from the natural connection on the fibration $S^7 \downarrow S^4$), hence the set of these equivalence classes is parametrised by a moduli space $\mathfrak{M}(S^4) = SO(5,1)^+ /SO(5) = B^5$, the open 5-ball. Interpreted as instantons on $\mathbf{R}^4$ these connections can be specified by a “centre” in $\mathbf{R}^4$, about which they have $SO(4)$ symmetry, and a scale which we can measure, for example, by the radius of the ball about the centre containing action $4\pi^2$ (i.e., one half of the total). Then the conformal
 
 group acts by translations on the centres and dilations  $x \rightarrow \alpha.x$  on the radii. Using quaternionic notation:  $R^{4} \cong H$ ,  $su(2) \cong ImH$ , the instanton  $I_{0,\lambda}$  with centre 0 and radius  $\lambda$  can be given by the explicit connection matrix:
 
@@ -256,7 +256,7 @@ $$
 
 In the recent paper [18] C. H. Taubes constructs self-dual connections on the bundle P under precisely this hypothesis [18, Theorem 1.1]. They are constructed there by means of an “implicit function theorem” which we state here for later use:
 
-Proposition 5 [18, Theorem 2.2]. Let $A_0$ be a connection on $\downarrow$. There are constants $C, \varepsilon_0 > 0$, depending only on the Riemannian structure of $X$, the
+Proposition 5 [18, Theorem 2.2]. Let $A_0$ be a connection on $P \downarrow X$. There are constants $C, \varepsilon_0 > 0$, depending only on the Riemannian structure of $X$, the
 
 $L^3$-norm $\| F_-(A_0)\|_{L^3}$ and the 1st eigenvalue $\mu(A_0)$ of the operator $\Delta_{A_0} = d_{A_0}^{-}d_{A_0}^*$ on $\Omega_-(\mathfrak{g})$ such that if
 
@@ -276,9 +276,7 @@ Given any point of X and  $\lambda > 0$ , Taubes applies this to a connection  $
 
 A much easier observation, which we need to complete these preliminaries, is that for the 4-manifold X with positive definite form each  $U(1)$  bundle has a unique self-dual connection up to isomorphism. This follows directly from Proposition 3 and the fact that the harmonic curvature form is automatically self-dual.
 
-## II.1. Sobolev spaces, reducible connections
-
-## and properties of the space B
+## II.1. Sobolev spaces, reducible connections and properties of the space $\mathfrak{B}$
 
 We shall need to refer to Sobolev spaces $L_k^p (p\geqslant 1,k\in N)$ of sections of bundles associated to $P$; that is, of sections locally represented by functions with their first $k$ derivatives in $L^p$. A smooth connection $A$ gives definite norms $\| \|_{L_k^p (A)}$ on these spaces, for example:
 
@@ -302,7 +300,7 @@ $$
 E = L \oplus L ^ {- 1}
 $$
 
-of the  $C^{2}$  vector bundle E associated to P compatible, in the obvious sense, with the connection. Topologically the complex lie bundles are classified by the first Chern class in  $H^{2}(X; \mathbf{Z})$ , and since by the Cartan formula
+of the  $C^{2}$  vector bundle E associated to P compatible, in the obvious sense, with the connection. Topologically the complex line bundles are classified by the first Chern class in  $H^{2}(X; \mathbf{Z})$ , and since by the Cartan formula
 
 $$
 c _ {2} \big (L \oplus L ^ {- 1} \big) = - c _ {1} (L) ^ {2}
@@ -356,7 +354,7 @@ $$
 \begin{array}{c} b = g (A + a) - A = ^ {-} d _ {A} g g ^ {- 1} + g a g ^ {- 1}, \\ d _ {A} g _ {2} = d _ {A} g = b g - g a. \end{array}
 $$
 
-Thus from $\| b\|_{L_3^2'}\| a\|_{L_3^2} < \varepsilon$ we deduce in turn that $\| g_2\|_{L_k^2} < \mathrm{const.}\varepsilon$ for $k = 1,2,3,4$, so that the constant component $g_1$ differs from an element $\gamma \in \Gamma_A$ by $0(\varepsilon)$. Then write
+Thus from $\| b\|_{L_3^2'}\| a\|_{L_3^2} < \varepsilon$ we deduce in turn that $\| g_2\|_{L_k^2} < \mathrm{const.}\varepsilon$ for $k = 1,2,3,4$, so that the constant component $g_1$ differs from an element $\gamma \in \Gamma_A$ by $O(\varepsilon)$. Then write
 
 $$
 \begin{array}{r l} g & = g _ {1} + g _ {2} = \gamma + (g _ {1} - \gamma + g _ {2}) \\ & = \gamma (1 + \gamma^ {- 1} \{g _ {1} - \gamma + g _ {2} \}) = \gamma \tilde {g}. \end{array}
@@ -440,7 +438,7 @@ $$
 f \circ \psi^ {- 1} (x) = L x + \phi (x) \in \operatorname{Im} L \oplus F ^ {\prime} = F.
 $$
 
-Proof. By the open mapping theorem, $L|_{E} \colon E' \to \operatorname{Im} L$ has a bounded inverse $\tilde{L}$ which we can extend to $F$ in the obvious way, so that $L\tilde{L} = 1 - \pi$; $\pi \colon F \to F'$ the projection.
+Proof. By the open mapping theorem, $L|_{E'} \colon E' \to \operatorname{Im} L$ has a bounded inverse $\tilde{L}$ which we can extend to $F$ in the obvious way, so that $L\tilde{L} = 1 - \pi$; $\pi \colon F \to F'$ the projection.
 
 Then $\psi: E \to E$, $\psi(x') = x' + \tilde{L}(f(x') - Lx')$, has derivative $1_E$ at the origin and is thus a local diffeomorphism with
 
@@ -465,13 +463,13 @@ Applying this first to the self-duality equations in  $T_{A,\varepsilon}$ , and 
 Proposition 8. For any self-dual $A$, $\varepsilon$ sufficiently small there is a map $\phi$ from a neighborhood of the origin in the harmonic space $H_{A}^{1}$ to the harmonic space $H_{A}^{2}$ such that if $A$ is irreducible, a neighborhood of $[A]$ in $\mathfrak{M}$ is carried by a diffeomorphism onto
 
 $$
-Z (\phi) = \phi^ {- 1} (0) \subset H _ {A} ^ {1} (a n d \dim H _ {A} ^ {1} - \dim H _ {A} ^ {2} = 5)
+Z (\phi) = \phi^ {- 1} (0) \subset H _ {A} ^ {1} (\text{and } \dim H _ {A} ^ {1} - \dim H _ {A} ^ {2} = 5)
 $$
 
 and if $A$ is reducible, so $H_A^1, H_A^2$ are complex spaces, $\phi$ is $\Gamma_A$ equivariant and a neighborhood of $[A]$ is modelled on
 
 $$
-Z (\phi) / \Gamma_ {A} \cong Z (\phi) / S ^ {1} \quad (a n d \dim_ {\mathbf {R}} H _ {A} ^ {1} - \dim_ {\mathbf {R}} H _ {A} ^ {2} = 6).
+Z (\phi) / \Gamma_ {A} \cong Z (\phi) / S ^ {1} \quad (\text{and } \dim_ {\mathbf {R}} H _ {A} ^ {1} - \dim_ {\mathbf {R}} H _ {A} ^ {2} = 6).
 $$
 
 This position follows straight from the lemma: the second part because the symmetry group  $\Gamma_{A}$  acts on the whole procedure.
@@ -559,10 +557,6 @@ varying continuously with $t \in T$, there is an element
 $$
 \operatorname{ind} \left\{L _ {t} \right\} \in K O (T),
 $$
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$T_{A,\varepsilon}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Q.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  We ought here to suppose that the slices  $T_{A,\varepsilon}$  are centred on smooth connections A—this is possible since the smooth connections are dense in Q.</span></small>
 
@@ -652,7 +646,7 @@ $$
 w _ {1} \left(\operatorname{ind} \left\{d ^ {*} + d ^ {-} \right\} (M, 2, k)\right)
 $$
 
-is the restriction of $w_{1}(\mathrm{ind}\{d^{*} + d^{-}\}(M,3,k)) \in H^{1}(\hat{\mathfrak{B}}(M,3,k),\mathbf{Z}/2)$$H^{1}(\hat{\mathfrak{B}}(M,2,k);\mathbf{Z}/2)$.
+is the restriction of $w_{1}(\mathrm{ind}\{d^{*} + d^{-}\}(M,3,k)) \in H^{1}(\hat{\mathfrak{B}}(M,3,k),\mathbf{Z}/2)$ to $H^{1}(\hat{\mathfrak{B}}(M,2,k);\mathbf{Z}/2)$.
 
 Then we claim that $\hat{\mathfrak{B}}(M, n, k)$ is simply connected for $n \geqslant 3$; this will obviously complete the proof of the lemma. $\mathcal{G}_0 = \mathcal{G}_0(M, n, k)$ acts freely on the contractible affine space of connections so $\pi_1(\hat{\mathfrak{B}}(M, n, k))$ is isomorphic to the set of connected components of $\mathcal{G}_0(M, n, k)$.
 
@@ -775,7 +769,7 @@ Thus l is at most 2L/c, and in particular there are only finitely many points of
 Proof of Theorem 13. Suppose that $B \subset X$ is any geodesic ball of radius $r$. We can find a geodesic coordinate system $x^i$ in $B$ such that
 
 $$
-d s ^ {2} = \left(\delta_ {i j} + 0 | x | ^ {2}\right) d x ^ {i} d x ^ {j}.
+d s ^ {2} = \left(\delta_ {i j} + O | x | ^ {2}\right) d x ^ {i} d x ^ {j}.
 $$
 
 If we expand this by a factor $r^{-1}$ to give a map:
@@ -784,7 +778,7 @@ $$
 \chi_ {B} \colon B ^ {4} \to B, y ^ {i} \to r y ^ {i} = x ^ {i},
 $$
 
-the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}0|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $0(r^{2})$  from the Euclidean metric.
+the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}O|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $O(r^{2})$  from the Euclidean metric.
 
 Thus we may apply Lemma 14 to the sequence of action densities:
 
@@ -806,7 +800,7 @@ $$
 A _ {i ^ {\prime}} (\alpha) \rightarrow A _ {\infty} (\alpha) \quad \text { in } C ^ {\infty} \left(\frac {1}{2} B _ {\alpha}\right)
 $$
 
-with transition functions  $g_{i'}(\alpha, \beta)$ :  $\frac{1}{2}B_{\alpha} \cap \frac{1}{2}B_{\beta} \to SU(2)$  satisfying the comptatability condition
+with transition functions  $g_{i'}(\alpha, \beta)$ :  $\frac{1}{2}B_{\alpha} \cap \frac{1}{2}B_{\beta} \to SU(2)$  satisfying the compatability condition
 
 $$
 A _ {i ^ {\prime}} (\alpha) = - d g _ {i ^ {\prime}} (\alpha , \beta) g _ {i ^ {\prime}} (\alpha , \beta) ^ {- 1} + g _ {i ^ {\prime}} (\alpha , \beta) A _ {i ^ {\prime}} (\beta) g _ {i ^ {\prime}} (\alpha , \beta) ^ {- 1}.\tag{1}
@@ -964,7 +958,7 @@ Proposition 18. Let $[A] \in \mathfrak{M}_{\lambda_0}$.
 
 Proof. (i) is just a re-statement of Theorem 13, alternative (ii), with uniformity in $\lambda$ just as in Theorem 16.
 
-(ii) If $\omega$ is the first (normalised) eigenfunction of $\Delta_A$, then $\|d_A^*\omega\|_L^2 = \mu(A)$, and we compare $\omega$ with $\omega' = (1 - \beta_r)\omega$ where $\beta_r$ is supported in $B(x(A), r)$, equal to 1 in the half-sized ball. Since $\|d_\theta^*\omega'\|_L^2 \geqslant \mu_1\|\omega'\|_L^2$, and $A \to \theta$ on supp $\omega'$ by (i) above, we deduce the result by taking $r$ sufficiently small. This goes precisely as [18, Proposition 8.8], so we omit the details.
+(ii) If $\omega$ is the first (normalised) eigenfunction of $\Delta_A$, then $\|d_A^*\omega\|_{L^2}^2 = \mu(A)$, and we compare $\omega$ with $\omega' = (1 - \beta_r)\omega$ where $\beta_r$ is supported in $B(x(A), r)$, equal to 1 in the half-sized ball. Since $\|d_\theta^*\omega'\|_{L^2}^2 \geqslant \mu_1\|\omega'\|_{L^2}^2$, and $A \to \theta$ on supp $\omega'$ by (i) above, we deduce the result by taking $r$ sufficiently small. This goes precisely as [18, Proposition 8.8], so we omit the details.
 
 (iii) The  $L^{4}$ -norm on 2-forms transforms by a factor  $\lambda^{-1}$  under a scale change of  $\lambda$ , so it plainly suffices to show  $\|F(\hat{A})\|_{L^{4}}$  bounded; but this follows from Theorem 16 (ii) once r, and so  $\delta(r)$ , is taken small enough for
 
@@ -1003,12 +997,12 @@ $$
 To define  $\alpha$  we show that one can displace a solution A by an approximately conformal transformation of X. Choose r so small that  $\delta(r) < 1$  say, and let  $f_{t}$  be the flow on X given in local geodesic coordinates  $x^{i}$  by the vector field
 
 $$
-V = \beta_ {r / 2} (\nu^ {i} + \phi x ^ {i}) \frac {\partial}{\partial x ^ {i}},
+V = \beta_ {r / 2} (v^ {i} + \phi x ^ {i}) \frac {\partial}{\partial x ^ {i}},
 $$
 
 where $\xi = (v^i, \phi)$. Thus $f_t = 1$ outside $B(x(A), r/2)$. Lifting to the bundle $f_t$ defines a flow on $\mathcal{B}$; set $[A_t] = q(f_t(A)) \in \mathfrak{M}$ where $q$ is Taubes' map as in Proposition 5, so $[A_t]$ is defined for sufficiently small $t$ (depending on $\lambda$).
 
-Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathfrak{M})_{[A]}.$$\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
+Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathfrak{M})_{[A]}$. $\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
 
 $$
 \frac {d}{d t} \left| \omega - * _ {m _ {t}} \omega \right| \leqslant \text { const. } | \omega | \left| \pi \left(\frac {d m}{d t}\right) \right|,
@@ -1118,7 +1112,7 @@ $$
 \left| F (\hat {A}) (y) \right| \leqslant \operatorname{const} / | y | ^ {4},
 $$
 
-since in this case we may take $\delta = 0$ in Theorem 16. Thus we may conformally map this large ball to the complement in $S^4$ of a small cap $C_{\lambda}$ over the north pole, of radius $0(\lambda)$, and the connection we get there has uniformly bounded curvature, independent of $\lambda$. By Lemma 20 we may extend this connection to a connection, $A'$ say, defined over all of $S^4$, and maintain a uniform bound on the curvature of $A'$. Clearly $A'$ has Chern class $-1$.
+since in this case we may take $\delta = 0$ in Theorem 16. Thus we may conformally map this large ball to the complement in $S^4$ of a small cap $C_{\lambda}$ over the north pole, of radius $O(\lambda)$, and the connection we get there has uniformly bounded curvature, independent of $\lambda$. By Lemma 20 we may extend this connection to a connection, $A'$ say, defined over all of $S^4$, and maintain a uniform bound on the curvature of $A'$. Clearly $A'$ has Chern class $-1$.
 
 Theorem 21. (i) If $A_{1}$ be the restriction of the connection $A$ to $X \setminus B(x_0, \sqrt{\lambda})$, then after a suitable bundle automorphism
 
@@ -1190,7 +1184,7 @@ $$
 \left\| F (A + a) - F (A) \right\| _ {L ^ {2}} \leqslant \text { const. } \left\{\left\| a \right\| _ {L _ {1} ^ {2} (A)} + \left\| a \right\| _ {L ^ {4}} ^ {2} \right\},
 $$
 
-and in dimension 4, $L_1^2 (A)\rightrightarrows L^4$ with embedding constant independent of $A$ [18, Lemma 5.2]. Thus in our case,
+and in dimension 4, $L_1^2 (A)\hookrightarrow L^4$ with embedding constant independent of $A$ [18, Lemma 5.2]. Thus in our case,
 
 $$
 \left\| F (A ^ {\prime}) - F \big (I _ {y, \nu} ^ {\prime} \big) \right\| _ {L ^ {2}} \leqslant \mathrm{const.} \lambda^ {2},
@@ -1262,7 +1256,7 @@ $$
 
 since $|(\hat{A} - \hat{B})(y)| \leqslant \text{const.} \|b' \|_{C^0} / |y|^2, y \in \mathbf{R}^4$. So also $\|b_2\|_{L_1^2(I_\lambda)} \leqslant \text{const.} \lambda^{1/2}$. Moreover, it does not matter whether we use $L_1^2(I_\lambda)$ or $L_1^2(A)$ here.
 
-(c) The region W corresponds under the conformal transformation of (b) to a small annulus of radius  $0(\lambda^{1/2})$  about the north pole of  $S^{4}$ . Thus we may find connection matrices  $A_{2}$ ,  $B_{2}$  for A, B respectively over  $B(x_{0}, 2\lambda^{1/2}) \setminus \{x_{0}\}$  such that in W
+(c) The region W corresponds under the conformal transformation of (b) to a small annulus of radius  $O(\lambda^{1/2})$  about the north pole of  $S^{4}$ . Thus we may find connection matrices  $A_{2}$ ,  $B_{2}$  for A, B respectively over  $B(x_{0}, 2\lambda^{1/2}) \setminus \{x_{0}\}$  such that in W
 
 $$
 \left\{ \begin{array}{l l} \| A _ {2} \| _ {L ^ {2} (W)} \leqslant \text { const. } \lambda^ {3 / 2}, \\ \| A _ {2} \| _ {C ^ {0} (W)} \leqslant \text { const. } \lambda^ {1 / 2}, & \text { with   similar   bounds   on } B _ {2}, \\ \| \nabla A _ {2} \| _ {L ^ {2} (W)} \leqslant \text { const. } \lambda^ {1 / 2}. \end{array} \right.\tag{i}
