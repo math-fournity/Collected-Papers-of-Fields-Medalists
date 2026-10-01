@@ -122,3 +122,12 @@
 - Markdown segment: lines 415–459, from the Fredholm-index discussion through the regular-value sentence ending “for the”.
 - Compared: index formula and dimension 5/6 conclusion; Lemma 7 statement and decomposition; proof construction of `\psi` and its inverse relation.
 - Result: **FAIL**. Markdown line 443 gives `L|_E : E' → Im L`; the printed page has `L|_{E'} : E' → Im L`. The 300-dpi crop confirms the prime on the restriction domain, which is essential to the stated inverse. The remaining checked formulas and prose match; the running header and folio `290` are absent.
+
+### p.013 (PDF p.13 / print p.291)
+
+- PNG: `audit/p013.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:10:12 EDT
+- Markdown segment: lines 461–491, from the finite-dimensional regular-value continuation through “The allowable perturbations σ are to”.
+- Compared: Proposition 8 irreducible/reducible local models and dimensions; harmonic-space regularity interpretation; beginning of section II.3 and perturbation-bundle setup.
+- Result: **PASS±**. The formulas and mathematical statements match the page image. The running author header and folio `291` are absent from the Markdown.
