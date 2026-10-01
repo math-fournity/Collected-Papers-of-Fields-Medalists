@@ -285,3 +285,12 @@
 - Markdown segment: lines 1153–1205, from the elliptic estimate after Theorem 21(i) through the transition to Proposition 22.
 - Compared: elliptic/Sobolev estimates; extension to `S⁴`; Weitzenböck formula and eigenvalue bound; curvature-difference estimate and normalization of `I'_{y,ν}`.
 - Result: **FAIL**. Markdown line 1193 uses `\rightrightarrows` between `L_1^2(A)` and `L^4`; the 300-dpi print has the single embedding hook `\hookrightarrow`. This changes the displayed Sobolev relation and is a repair candidate. The print spells the Weitzenböck term “Weitzenböch” (final letters `ch`), confirmed at 600 dpi; Markdown preserves this source-level spelling quirk. The remaining checked formulas match; the running author header and folio `308` are absent.
+
+### p.031 (PDF p.31 / print p.309)
+
+- PNG: `audit/p031.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:48:41 EDT
+- Markdown segment: lines 1207–1239, from Proposition 22 through the three regions in the opening of the proof of Lemma 23.
+- Compared: δ condition and the two Taubes correction bounds; Lemma 23 estimates; path argument for Theorem 11; compact/nonempty conclusion and three-region decomposition.
+- Result: **PASS±**. The mathematical statements and formulas match the page image. Markdown uses plain `M_{λ₀}` in line 1237 where the print uses Fraktur `𝔐_{λ₀}`; this is a harmless font-style loss. The running author header and folio `309` are absent.
