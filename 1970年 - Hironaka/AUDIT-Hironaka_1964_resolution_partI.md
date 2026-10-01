@@ -69,3 +69,10 @@
 - 证据：源 PDF p.008 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p008.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p008_nu_tau.png` 与 MinerU Markdown 第 207–209 行。逐项核对 normal-flatness 概述及 Chapter III 内容；300dpi 裁片确认原文的记号为 `ν*` 与 `τ*`，Theorem 3 的比较方向与 Markdown 中 `\nu^{*}`、`\tau^{*}` 相符。Markdown 行 209 在 “those” 处接续到下一物理页。
 - 备注：印刷运行页眉和页码 115 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文、定理记号或比较关系差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.009 / 96（印刷 p.116）— PASS±
+
+- 时间：2026-10-01 16:32 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.009 文本层、页图 `audit/Hironaka_1964_resolution_partI_p009.png`（pngmono 150dpi）与 MinerU Markdown 第 211、213、215–221 行。图像核定本页的符号为 `τ-frame`（文本层误成 `z-frame`）；Markdown 写作 `τ-frame`，并且 local-uniformization/Chapter IV 概述及脚注 3–5 对应原页。印刷作者致谢止于 `Professor`，Markdown 下一行从 `M. Kuranishi` 续接，未漏文。
+- 备注：印刷运行页眉和页码 116 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
