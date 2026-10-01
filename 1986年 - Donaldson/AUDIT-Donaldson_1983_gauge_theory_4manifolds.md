@@ -86,3 +86,12 @@
 - Markdown segment: lines 261–297, from Proposition 5's `L³`-norm continuation through the quotient-space notation and explanatory paragraph.
 - Compared: Proposition 5's hypotheses, δ expression and estimates; Taubes' concentration construction; the `U(1)` uniqueness observation; Sobolev-space definition and norm; the moduli-space quotient and map notation.
 - Result: **PASS±**. The mathematical text and formulas match. Markdown lines 279 and 281 split the single printed II.1 heading across two `##` headings, leaving “and properties of the space B” as a stray heading; this impairs section navigation and is a candidate for the post-audit Edit repair. The running author header and folio `286` are absent.
+
+### p.009 (PDF p.9 / print p.287)
+
+- PNG: `audit/p009.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p009-complex-line.png`, `audit/300dpi/p009-harmonic-equality.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:04:36 EDT
+- Markdown segment: lines 299–327, from “We discuss first the reducible connections...” through the closing one-dimensional stabiliser criterion.
+- Compared: reducibility criteria; splitting `E=L⊕L⁻¹`; Chern-class formula; count `n(Q)`; stabiliser action; harmonic-space vanishing and final converse.
+- Result: **FAIL**. Markdown line 305 says “complex lie bundles”; the print reads “complex line bundles”. The 300-dpi phrase crop confirms the missing `n`, which changes the mathematical term. The harmonic equality `H¹(X;R)=𝒦⁻²(X)=0` also matches the print in its 300-dpi crop. The remaining checked formulas and prose match; the running header and folio `287` are absent.
