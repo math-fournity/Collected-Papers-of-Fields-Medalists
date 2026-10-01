@@ -35,3 +35,11 @@
 - 结果：FAIL。印刷 p.564 的 300dpi 原图在 Proposition 1.1 证明、Proposition 1.3 陈述和其证明开头均印作 `h(a)`；现有 Markdown 对应处写作 `b(a)`（当前 MD 第 101、125、129 行），会改变符号。应待全篇审计完成后用 Edit 逐处改为源页 `h(a)`，再复核最终 Markdown；本页签字时尚未修改。
 - 源级 quirk：印刷 p.564 的 Proposition 1.2 证明原样出现 “If `O ⊂ F_{p^k}`” 后又给出 `a ∉ F_{p^k}` 的条件，二者表面不相容；留存的 300dpi 源页裁片显示印刷关系符未带否定斜线。按 print 忠实保留，列为原文 quirk，不据数学推断改写。
 - 另记：Markdown 未保留页眉作者名与印刷页码 564。
+
+## p.005（PDF p.5 / 印刷 p.565）
+
+- PNG：`audit/Drinfeld_1974_elliptic_modules_p005.png`（pngmono 150dpi）
+- 300dpi 局部证据：`audit/300dpi/Drinfeld_1974_elliptic_modules_p005_h.png`、`audit/300dpi/Drinfeld_1974_elliptic_modules_p005_q.png`
+- 核对：Proposition 1.3 证明续段、映射与商模生成元、Proposition 1.4、Corollary、Proposition 1.5(a) 条件及公式。
+- 结果：FAIL。留存的 300dpi 源页裁片确认现有 Markdown 多处把印刷 `h` 误成 `b`：p.5 对应 MD 第 131、133、135 行（含 `h(b)`/`h(a)`、映射 `h(a)` 与生成元 `h(π)`、`h(πb)=πh(b)=π^n h(b)` 及其带横线记号）；第 133 行另将印刷 `α ↦ p/π` 写成 `a ↦ f/π`。Proposition 1.5(a) 印刷写 `n` 不是 `q` 的幂，MD 第 147 行误成 `g`。这些都待全篇审计后用 Edit 逐处修复和复核；本页签字时未改 Markdown。
+- 另记：Markdown 未保留页眉题名及印刷页码 565。
