@@ -102,3 +102,12 @@
 - 核对：Lemma 2.5 证明、Theorem 2.6 及证明、Lemma 2.7 的权重/扭曲范围、脚注 8。
 - 结果：PASS±。
 - 差异与依据：Markdown 第 445 行把 `character` 拆为 `charact$e r^{8}$`，并把结果句中的 `for` 拆作 `$f o r …$`；这是局部词形/数学排版边界瑕疵。Theorem 2.6 的张量基变换同构、Lemma 2.7 的 `-a ≤ n ≤ p-2-b` 界及扭曲幂与印刷页一致；脚注 8 的 cyclotomic character 权重约定也保留。
+
+## p.012（PDF p.12 / 印刷 p.12）
+- 时间：2026-10-01 16:42:22 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p012.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p012_Theorem2.9-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p012_Divided-power-formula.png`
+- 核对：Theorem 2.9、证明中的映射与同构、Tsuji 展开算子 `∇_N`、(2.5.1) 及 divided-power 注释、log toric chart 与 Φ。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 467 行的 Theorem 2.9 结果两侧没有印刷的映射箭头 `→`；第 469、473、475 行分别漏掉 `A_cris → O B_dR`、`β : R → A_cris`、`R → O B_dR` 的箭头。第 479 行把算子中的 `s_i d/ds_i` 丢成 `s d/ds_i`；第 485 行将 divided power `X_i'^{N_i}/N_i!` 错成分母 `N_i`；第 487 行漏掉 toric chart `V[s_1,…,s_n] → R` 的箭头。两张 300dpi 裁片确认箭头、变量下标和阶乘。修复留待全篇审计后逐处 Edit。
