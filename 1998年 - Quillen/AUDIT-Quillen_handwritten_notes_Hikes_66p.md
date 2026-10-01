@@ -43,3 +43,13 @@
 - 印刷证据与差异：原图的谱序列为 `E^2_{p,q}=H_p(Y,H_q(F;i^*L')) ⇒ H_{p+q}(X,L')`，Markdown 基线第 67 行把两个指标错写成 `i,g` / `g,g`，并将总次数写成 `p+g`。原图的通用系数项为 `Tor_1(H_{q-1}(F),A)` 且条件是 `F` acyclic；基线第 72 行把 `A` 塞入 `H_{g-1}(F,A)` 并写成 `F ≥ cyclic`。原图第 90 行所对应的图包含 `π=π_1Y`、`H_*(X×_Y \widetilde Y)→H_*(\widetilde Y)` 及覆盖映射，Markdown 将这些记号和映射压成无法按原图读取的表达。基线第 103–108 行又把交换图/同调与同伦序列衔接压平，并把纸面 `p_2` 误识为 `β r_2`、`same fiber` 误成 `some fiber`；这些差异影响本页证明的对象和推理关系。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述 150dpi 与 300dpi 原图证据回核。
 - 记录：2026-10-01 16:30:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.004（PDF p.4 / 纸面圈号 4）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p004.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p004_fibration.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p004_pullback.png`。
+- 核对：以普遍覆盖拉回替换 `f` 的论证；`(ii) ⇒ (i)` 的路径空间同伦纤维与两条 Serre 谱序列；无环映射的复合与拉回性质。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 110 行的 `p_2` 定义包含 `X×_Y \widetilde Y`，Markdown 基线行 110 写成 `X_x \widetilde Y`，丢失乘积与基底下标。原图的同伦纤维为 `PY_y×_Y X`，基线行 112、114 丢失拉回下标 `Y`。原图第二个谱序列的系数空间是 `\Omega Y`，基线行 120 误为 `RY`。本页拉回方块原图也是 `Y'×_Y X`，基线行 133 漏掉 `×_Y`；这些符号决定所用空间/映射，不能作为纯排版差异处理。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；修复后按 150dpi 页图与 300dpi 裁片复核。
+- 记录：2026-10-01 16:33:00 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
