@@ -113,3 +113,13 @@
 - 印刷证据与差异：原图对象是 `B\widetilde G≃K(\widetilde G,1)`，基线第 293–294 行丢了 `B` 上的波浪号并把 `,1` 错成下标。原图使用 `K(A,n)`（Eilenberg–MacLane space），基线第 308、311、317、320、323 行反复写成 `H(A,n)`；这改变了后续 `π_q`、`[X,K(A,n)]` 与 Hurewicz 断言的对象。基线第 304 行也把原图的 `H_*(α)` / `H_*(β)` 误作 `H_x` / `H_y`，第 306 行把 `(B\widetilde G)^+` 的波浪号位置错置。第 314 行 `H_{n+1}` 的下标另被误识为 `H_{k+1}`。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对群对象、空间符号和上下标。
 - 记录：2026-10-01 16:46:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.011（PDF p.11 / 纸面圈号 11）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p011.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p011_UCT-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p011_Dror-tower.png`。
+- 核对：UCT 的 `Ext^1→H^n→Hom` 序列；`K(A,n)` 的表示性质与 Hurewicz 映射；Dror tower 的覆盖空间、低维约化同调条件、纤维和下一阶段的诱导映射。
+- 结果：**FAIL**。
+- 印刷证据与差异：UCT 原图写 `Ext^1(H_{n-1}X,A)`，基线第 335 行将上标 1 识别为 prime。原图整页均使用 Eilenberg–MacLane 空间 `K(A,n)`，而基线第 338、340、365 行写 `H(A,n)`，第 343 行又把自然映射 `ρ` 识别成 `H''`。塔构造原图明确给出 `\widetilde H_qX_n=0`（`q<n`），基线第 355 行漏掉该条件；原图令 `A=H_n(X_n)` 并构造 `X_n→K(H_nX_n,n)`，基线第 368 行写成 `H_n(X_0)` 和 `H(H,X_0,n)`，其后第 371 行也把 `K` 错成 `H`。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核上下标、K/H 字形和塔的 stage index。
+- 记录：2026-10-01 16:48:10 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
