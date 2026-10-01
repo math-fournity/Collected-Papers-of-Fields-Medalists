@@ -267,3 +267,5 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 22:54 | PAGE | Bombieri 1970 Springer | p.20/21 | FAIL(polinomial还原待修) | 逐页进行中
 2026-09-30 22:55 | PAGE | Bombieri 1970 Springer | p.21/21 | FAIL(References[6]-[11]整段待补) | 21页签完毕，待300dpi终裁+修复
 2026-09-30 23:02 | DONE | Bombieri 1970 Springer | 21/21 | 11 规则修复（页脚×3+幽灵足注×5+r^{|k|}|k|!+j_{d+1}+comass bar+polinomial+References[6]-[11]整段）；print 原文 quirk 源级登记（∂̄(iT∧ω)=S∧ω/(t-|w|)/t^n/6n-2nr/a algebraic/ρ[k:Q] 等）；300dpi 终裁 4 组 | 累计64/140
+2026-09-30 23:03 | PAGE | Viazovska IMU laudatio | p.1-24/24 | born-digital文本层主通道进行中 | 累计64+1篇进行中
+2026-09-30 23:26 | DONE | Viazovska IMU laudatio | 24/24 | 约190处/120规则修复（足注2/3重构+�47+ff26+粘连19+数字拆分24+smartquote+丢箭头+吞词+References16）；r^n/■/varphi/SL2(Z)/This reason print 原文源级登记；300dpi 墓碑终裁 | 累计65/140
