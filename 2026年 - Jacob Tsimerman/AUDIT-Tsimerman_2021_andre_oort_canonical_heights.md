@@ -76,3 +76,12 @@
 - 核对：§2.2 Theorem 2.1 的证明、§2.3 Tsuji 范畴条件 (1)–(5)、对应滤过公式、Tsuji 关联对象及 Remark 2.2(1)。
 - 结果：PASS±。
 - 差异与依据：检查到 Markdown 第 247 行将 `compatibility` 写作 `compatiblity`，第 263 行将 `Griffiths` 写作 `Grifiths`（少一个 `f`）；均为不改变定义内容的文本拼写瑕疵。滤过关系、加权和公式、Φ 条件 (a)–(c) 与 Tsuji 对象的同构在 PDF 文本层、页图和 Markdown 中对应。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- 时间：2026-10-01 16:34:23 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p009.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p009_TAinf-mod-pi.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p009_Lemma2.3-maps.png`
+- 核对：Remark 2.2(2)–(3)、§2.3.1 复原公式、Lemma 2.3 及证明至第二部分结论。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 311 行把印刷的商 `A_inf/π` 录成 `A_inf/\ddot{π}`；第 313 行将 `M ≅ (… )^G` 破坏为 `M – ´…¯^G`。Lemma 2.3 第 319 行把第二权重区间 `[0,b]` 写成 `0,b`；第 325 行把普通张量积 `⊗` 误录为 `\ddot{\otimes}`，并漏掉单射等源 `f : T_cris(M) → L_1 ⊗ L_2` 的映射箭头。两张 300dpi 裁片确认 π、同构、权重区间、普通张量积和箭头。PASS± 瑕疵：脚注 7 在 Markdown 中被拆成 `T A_inf pMq`、`cris` 等孤立片段，脚注正文也缺失所指对象名。修复留待全篇审计后逐处 Edit。
