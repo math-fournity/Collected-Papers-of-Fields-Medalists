@@ -199,6 +199,13 @@
 - Checked: conclusion of Lemma 8, construction by successive coherent quotients, the exact sequences for Theorem 3 existence, and the opening of the Betti-number application.
 - Result: FAIL. The print's first and final exact sequences contain the sheaf M; Markdown lines 679 and 702 instead have the garbled symbol “A b”. The print names the constructed algebraic sheaf L_1, while Markdown line 684 has L_i; the 300 dpi crop confirms numeral 1. The remaining checked maps and the homogeneous-coordinate list agree.
 
+### PDF p.029/43 — print p.28
+
+- Reviewed: 2026-10-01 16:50 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi sigma-action crop](audit/300dpi/Serre_1956_gaga_p029_sigma-action_300dpi.png); [300 dpi cohomology-map crop](audit/300dpi/Serre_1956_gaga_p029_cohomology-map_300dpi.png); PDF text layer and MinerU Markdown lines 708–740.
+- Checked: conjugation of projective points and subvarieties, Proposition 12, Dolbeault sums, the induced semi-linear cohomology maps, and Weil's corollary.
+- Result: FAIL. The print denotes the transformed variety by X^sigma; Markdown line 712 has X^circ. In the cohomology-map chain, the print's source is H^q(U, Omega^p(X)), while Markdown line 734 has Omega^p(X^sigma) on the source side. The remaining checked sums and statements agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
