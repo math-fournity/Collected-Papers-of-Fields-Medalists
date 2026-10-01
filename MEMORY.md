@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，main 分支 AUDIT-INDEX.md 有 70 篇完成标记，Drinfeld 仍登记为审计中（主线 5/32）；Drinfeld Peer worktree 已签至 p.32 并进入修复/总复核，最新观察候选 HEAD 为 `f46300d1`。Witten、Deng 候选分别为 `bc4605dc`、`3e5e964b`，均未集成、不计入篇级完成。唯一篇目集合为 140，尚有 Drinfeld 与大量未登记论文待闭环。
+本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，main HEAD 为 `e864b3b9`；AUDIT-INDEX 有 110 条论文记录，其中 70 篇完成、40 篇已分派。全仓 141 个 PDF 中有一个已核实 byte-identical 副本，逻辑篇数为 140。Drinfeld 候选 HEAD `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 尚未集成，不计入完成。Git worktree list 观察到 40 个 Peer worktrees（另有 main 共 41 个 checkout）。
 
 项目治理骨架已于 2026-10-01 建立。用户新增了剩余 MinerU Markdown 正文修复的逐处 Edit 规则，已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。当前工作已恢复论文队列，先处理 `1990年 - Drinfeld/Drinfeld_1974_elliptic_modules.pdf`；现有 MinerU Markdown 可用。Codex 全局 MinerU skill 位于 `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 并已通过结构校验；CLI 4.0.8 可执行，但 MinerU library server 当前停止、standard 所需 GGUF 模型缺失，本轮未启动服务、下载模型或远程上传。
 
@@ -10,7 +10,7 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户最新指令要求立即建立 40 个并发项目 Peer；官方 Codex app project task/worktree 资料未公布数值上限 | Master 不做论文初审；保留 Drinfeld 与已派发 P01–P09，再建立 P10–P39 共 30 个额外单篇 worktree（总计 40 个 Peer）；同一父目录可容纳不同论文但要求精确写入路径/证据图前缀互斥；随后按滑动窗口补位。Master 连续只读审计并单写根日志/总账，候选按 exact OID 串行集成 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户最新指令要求立即建立 40 个并发项目 Peer；官方 Codex app project task/worktree 资料未公布数值上限 | Master 不做论文初审；保留 Drinfeld 与已派发 P01–P09，再建立 P10–P39 共 30 个额外单篇 worktree。40 个 worktrees 已在 Git 中可见；P01–P09 有逐页提交活动，P10–P39 中至少 8 个已有篇级/图片文件变化，其余尚无可见工作树增量。Master 连续只读审计并单写根日志/总账，候选按 exact OID 串行集成 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
@@ -20,7 +20,7 @@
 - 用户明确 Master 不再执行逐页初审；最新指令 supersede 先前“等三个任务结束再讨论扩容”的暂缓要求。Master 负责调度、只读质量复核、共享文件集成与验收，不替 worker 初审或改论文。
 - 用户明确 Master-Luna 与各 Peer 使用唯一 actor ID，并在篇级 AUDIT、页级工作日志和 Git commit subject 中写明 actor/model/effort；历史 GLM 处理不回填或改写。当前 Master 身份为 `Master-Luna | gpt-6-luna/max`。
 - 现有可验证 Peer 候选为 Witten `bc4605dc`、Deng `3e5e964b`；Drinfeld worker 候选 `f46300d1` 正处于修复/总复核阶段。Witten/Deng worktree 已消失但 commit 对象仍可读，正式 thread ID 未从 app 列表发现；集成前必须核 exact paths/base。
-- P01–P09 已被 dispatch，并在 9 个独立 worktree 中确认从 `e04c4a96` 起步；当前 `list_threads` 尚未展示 formal thread IDs，最新只读状态仍无可观察文件改动。最新用户要求 40 个 Peer；P10–P39 正按篇页数队列创建中。清点发现首轮漏掉 Okounkov 2001 的 35 页未审件，已列为下一 Peer，后续窗口按已接受队列继续补位。
+- P01–P09 分别由独立 worktree 从 `e04c4a96` 起步，并已出现带 Peer ID/model/effort 的逐页提交；P10–P39 分别从 `03760242` 起步。Codex app 的 create_thread 返回 30 个 `clientThreadId`，正式 `threadId` 仍未在 list_threads 中显示，不能将 client ID 传给 wait/read/message；依托共享 Git worktree 做只读监测。清点曾漏掉 Okounkov 2001 的 35 页未审件，已列为 P10，后续滑动窗口继续从未闭环物料中补位。
 - 官方 Codex 文档确认项目 task/worktree 并行工作模式，但未发现该 app task 入口的数字并发上限；API multi-agent 默认并发配置不同，不能当作 app project peer cap。40 是用户本轮的最低操作目标，不是平台保证值。
 
 ## 当前有效约束摘要
@@ -72,3 +72,10 @@
 - Deng worker 的候选审计/修复现已提交且 worktree 干净：基线审计及 34 页逐页对账表在 32f9f43d，Markdown 修复为独立提交 89626f5b0d57ceddef0b8ba12a8fc42519bf8c8c，最终修复后 PASS/全文复读报告及 fix OID 收据在 3e5e964bf50dd41e0ac2c31699a5746d292a616e。报告记载 1,783 行全文回读、修复后最终 SHA-256 60f572494701abc6fe95882c753a3b0f86660a98f866cc7767d8a25d8910dd1b；Master 抽核 p.1 题名和 p.10 标签与印刷相符。候选仍未集成；34 页审计汇总集中一笔 audit commit，仍有每页密集提交的 SOP 偏差。
 - 根 AUDIT-PROGRESS.log 仍停在 main 上的 Drinfeld p.5；worker branch-local 页签尚未进入共享恢复日志。三个 peer 的正式 thread ID 也仍未在 list_threads 中可见，当前只能以 worktree 状态/提交做只读监测。
 - 用户要求等待三个 peer 全部结束、审阅结果后再讨论并发扩容，明确不要现在启动 10 个；滑动窗口/10 个上限均未被采纳或验证。
+
+### E005 · 2026-10-01 · 扩容至 40 个 Peer 并登记 actor
+
+- 新的用户指令将当前并发目标提高到 40 个 Peer，覆盖并取代 E004 末尾的暂缓扩容状态；Master-Luna 仍只负责调度、只读审计、根级记录和集成。
+- `e04c4a96` 注册并分派 P01–P09，`3dfa4a64` 记录其 dispatch；`03760242` 建立路径级互斥规则并注册 P10–P39，`e864b3b9` 记录第二批 dispatch。最新只读 `git worktree list` 共 41 个 checkout（main + 40 Peer）。P01–P09 已产生 page commit；P10–P39 的工作树正在初始化/启动，截至当前快照其中至少 8 个可见论文路径文件变化。
+- create_thread 为新批次返回 `clientThreadId` 而非 formal `threadId`；list_threads 尚未列出这些任务。不要把 client ID 用于 thread 读写/等待；当前用精确 worktree、提交、AUDIT 证据监控。以后的任务按页数队列滚动补位，仍待处理的首项/可恢复项以 AUDIT-INDEX、PDF 清单与 MinerU 导出实物核定。
+- 40 是用户要求的 Worker 并发数，不是官方平台能力上限声明；官方 Codex app 的公开并行任务/worktree材料未发现数值上限。
