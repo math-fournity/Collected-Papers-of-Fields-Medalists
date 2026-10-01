@@ -90,3 +90,11 @@
 - Evidence: [300 dpi Proposition 4 and formal-series crop](audit/300dpi/Serre_1956_gaga_p011_prop4-formal-powers_300dpi.png); PDF text layer and MinerU Markdown lines 164–180.
 - Checked: Proposition 4, the affine-space formal-series case, the Nullstellensatz exponent, ideal products/intersections, and the quotient argument for Propositions 3 and 4.
 - Result: FAIL. The print has theta in the generator statement, C[[z_1,...,z_n]] for formal power series, and f^r with r ≥ 0. The crop confirms all three. Markdown line 166 instead has zero in the generator, single brackets around the series variables, and a prime on f. Defer these corrections until the full audit is complete.
+
+### PDF p.012/43 — print p.11
+
+- Reviewed: 2026-10-01 16:16 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: PDF text layer compared page-by-page with MinerU Markdown lines 182–204.
+- Checked: completion of Proposition 4, injectivity/corollaries 1–3, the Zariski-density proposition and its remark.
+- Result: PASS±. The checked assertions and notation agree; no distinct glyph-level discrepancy was found on this page. The running title and print page number are not represented in Markdown.
+- Image: no per-page image; born-digital text layer is primary on this page, with separate 300 dpi adjudication reserved for unresolved glyph discrepancies.
