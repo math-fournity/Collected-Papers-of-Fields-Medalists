@@ -185,6 +185,13 @@
 - Checked: composition proving Theorem 2, kernel/cokernel uniqueness proof, and the reduction of Theorem 3 existence to projective space by extension by zero.
 - Result: FAIL. The print's first Hom section is H^0(X,A), but Markdown line 554 has X^h. In the existence reduction, print uses M^X, f in the ideal sheaf I, and the stalk G_x^h = M_x^X; Markdown line 572 instead has M^x, J_x, G_{fx}^h, and M_x^x. The print also has I·G = 0 and M^X at the end of this passage, while line 574 has J·G and M_b^X. The crops confirm these object and case differences. Defer correction until the full audit is complete.
 
+### PDF p.027/43 — print p.26
+
+- Reviewed: 2026-10-01 16:46 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi sequences (5)–(8) crop](audit/300dpi/Serre_1956_gaga_p027_sequences5-8_300dpi.png); [300 dpi equations (5)–(9) crop](audit/300dpi/Serre_1956_gaga_p027_equations5-9_300dpi.png); [300 dpi Theorem A tail crop](audit/300dpi/Serre_1956_gaga_p027_theorem-A_300dpi.png); PDF text layer and MinerU Markdown lines 636–670.
+- Checked: exact cohomology sequences (5)–(6), vanishing and dimension inequalities (7)–(8), surjectivity (9), the global-generation step, and footnote (5).
+- Result: FAIL. In (5), print has M(n−1) and L_n; line 643 has N(n−1) and X_n. In (7), print has L_n between the two M terms; line 653 has P_n. The dimension function in line 656 uses ℓ(n) instead of M(n). In (8), print uses H^1 and starts with M(n−1); line 659 has prime superscripts and M(n). The map after (8) in line 662 uses P_n where print has L_n. Equation (9) and the checked global-generation conclusion agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
