@@ -68,3 +68,12 @@
 - Markdown segment: lines 201–229, from section I.4 through the final word “conformal”.
 - Compared: instanton action and equation (2); Proposition 4 and finite-action integral; classification of the S⁴ instanton orbit and its moduli space.
 - Result: **FAIL**. The 300-dpi crop shows the first printed `P` above the arrow after “connection on”; Markdown line 229 retains only `\downarrow`. It also shows the following fibration diagram `S⁷ ↓ S⁴`, whose two labels are absent from the Markdown's lone `\downarrow`. The Markdown additionally attaches `S⁷` as a subscript in `SO(5)^{S^4}_{S^7}`; on the printed page `S⁷` labels the following fibration diagram, while `S⁴` is the superscript on `SO(5)`. The other checked statements and formulas match. The running header and folio `284` are omitted.
+
+### p.007 (PDF p.7 / print p.285)
+
+- PNG: `audit/p007.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p007-curvature-formula.png`, `audit/300dpi/p007-bundle-map.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:00:56 EDT
+- Markdown segment: lines 231–259, from “group acts by translations...” through Proposition 5 ending “the”.
+- Compared: instanton connection matrix and curvature; compactification/moduli-space description; Hodge decomposition and quadratic-form integral; Taubes statement and Proposition 5 opening.
+- Result: **FAIL**. Proposition 5's printed bundle diagram is `P ↓ X`, but Markdown line 259 retains only `\downarrow`, omitting both labels; the 300-dpi bundle crop confirms this. The 300-dpi curvature crop confirms the printed denominator `(λ² + |x|)²` in `F(I_{0,λ})`; Markdown has the same expression. This is a print-level formula quirk and is deliberately preserved, not silently corrected to a mathematically expected variant. The other checked material matches; the running header and folio `285` are omitted.
