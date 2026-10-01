@@ -26,3 +26,12 @@
 - 核对：B) Outline 的收尾、作者致谢、§1 标题、formal group 定义、加法群例子、特征 `p` 下 Frobenius `τ` 与交换关系、formal O-module 定义及 germ/函子段、Proposition 1.1 开头。
 - 结果：PASS±。可见正文与现有 Markdown 相符；Markdown 未保留页眉题名 `ELLIPTIC MODULES` 及印刷页码 563。底部 Proposition 1.1 在本页只出现引入句，后续关系式待下一页继续核对。
 - 依据：本页完整 150dpi 源页 PNG；OCR 文本仅作定位辅助。
+
+## p.004（PDF p.4 / 印刷 p.564）
+
+- PNG：`audit/Drinfeld_1974_elliptic_modules_p004.png`（pngmono 150dpi）
+- 300dpi 局部证据：`audit/300dpi/Drinfeld_1974_elliptic_modules_p004_relations.png`、`audit/300dpi/Drinfeld_1974_elliptic_modules_p004_proposition.png`、`audit/300dpi/Drinfeld_1974_elliptic_modules_p004_prop13.png`
+- 核对：Proposition 1.1 的 (1)–(3) 关系及证明、Proposition 1.2、局部非阿基米德情形开头与 Proposition 1.3。
+- 结果：FAIL。印刷 p.564 的 300dpi 原图在 Proposition 1.1 证明、Proposition 1.3 陈述和其证明开头均印作 `h(a)`；现有 Markdown 对应处写作 `b(a)`（当前 MD 第 101、125、129 行），会改变符号。应待全篇审计完成后用 Edit 逐处改为源页 `h(a)`，再复核最终 Markdown；本页签字时尚未修改。
+- 源级 quirk：印刷 p.564 的 Proposition 1.2 证明原样出现 “If `O ⊂ F_{p^k}`” 后又给出 `a ∉ F_{p^k}` 的条件，二者表面不相容；留存的 300dpi 源页裁片显示印刷关系符未带否定斜线。按 print 忠实保留，列为原文 quirk，不据数学推断改写。
+- 另记：Markdown 未保留页眉作者名与印刷页码 564。
