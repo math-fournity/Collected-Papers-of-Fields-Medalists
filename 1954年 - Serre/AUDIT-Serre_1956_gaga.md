@@ -191,3 +191,10 @@
 - Evidence: [300 dpi twist-transition crop](audit/300dpi/Serre_1956_gaga_p025_twist-transition_300dpi.png); [300 dpi Lemma 8 crop](audit/300dpi/Serre_1956_gaga_p025_lemma8_300dpi.png); PDF text layer and MinerU Markdown lines 574–592.
 - Checked: closing restriction step of the extension-by-zero argument, definition of M(n) and its transition maps, Lemma 7, and Lemma 8's global-generation bound.
 - Result: FAIL. The print's closing phrase is that F^h is isomorphic to M, with no subscript on M; Markdown line 574 has M_b^X. The 300 dpi crop confirms the print. The twist t_j^n/t_i^n and Lemma 8 bound/generation statement otherwise agree.
+
+### PDF p.026/43 — print p.25
+
+- Reviewed: 2026-10-01 16:42 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi full page](audit/Serre_1956_gaga_p026_150dpi.png); [300 dpi tensor-sequence crop](audit/300dpi/Serre_1956_gaga_p026_tensor-sequence_300dpi.png); [300 dpi equations (1)–(4) crop](audit/300dpi/Serre_1956_gaga_p026_equations1-4_300dpi.png); PDF text layer and MinerU Markdown lines 594–635.
+- Checked: generation by global sections, hyperplane ideal sequence, tensoring by M, Tor_1 identification, and equations (1)–(4).
+- Result: FAIL. The print identifies the hyperplane ideal as A(E), but line 602 has b(E). In the tensor sequence and its explanation, print uses M throughout; lines 613 and 616 instead use A in the tensor factors, target and Tor_1 arguments. Equation (2) prints M(n−1) → M(n), while line 625 has 1_0(n−1) → 1_0(n). The print has distinct exact sequences (3) and (4): line 630 contains only the bare label (3), and line 633 labels a corrupted copy of sequence (3) as (4), omitting the printed sequence (4) altogether. Both crops confirm these differences. Defer all Markdown edits until the complete PDF audit.
