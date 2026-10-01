@@ -267,3 +267,12 @@
 - Markdown segment: the embedded `images/page_27_image_0.jpg` figure at line 1099 and the following “Thus once K is small enough...” paragraph through the `C^0` bound.
 - Compared: the embedded diagram's `S^4`, `C_λ`, `R^4`, `X`, `B(x₀,r)`, `λ^{-1}`, `λ^{-1/2}`, connection labels, and the exponential-gauge curvature bound.
 - Result: **PASS±**. The MinerU embedded figure matches the diagram on PDF p.28, and the bound matches the print. The embedded figure is stored in this page's `audit/` evidence as required. The running author header and folio `306` are not represented in the Markdown.
+
+### p.029 (PDF p.29 / print p.307)
+
+- PNG: `audit/p029.png` (150-dpi `pngmono`); glyph crops: `audit/300dpi/p029-big-O.png`, `audit/600dpi/p029-asymptotic-radius.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:42:52 EDT
+- Markdown segment: lines 1101–1151, from the exponential-gauge estimate through the two displayed identities for `d_θ^*a` and `d_θ^-a`.
+- Compared: Lemma 20's curvature formula; instanton-tail bound and cap radius; Theorem 21(i)–(ii); scaled curvature bound, annulus estimate, and Taubes correction equations.
+- Result: **FAIL**. Markdown line 1121 gives the cap radius as `0(λ)`; the printed page has big-O `O(λ)`, confirmed in both the 300- and 600-dpi crops. This is an OCR substitution and a repair candidate. The proof also uses `x₁` in the volume term at line 1144 although Theorem 21's setup uses `x₀`; the page image agrees with Markdown, so this source-level inconsistency is preserved. The other checked formulas match; the running author header and folio `307` are absent.
