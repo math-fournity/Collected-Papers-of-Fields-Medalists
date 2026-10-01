@@ -7,11 +7,11 @@
 - PDF: `Donaldson_1983_gauge_theory_4manifolds.pdf` — 38 pages; SHA-256 `5a5201ed38b870ec1ad183b697aa505830c5a35bf03d72614a5bb1667fe65080`
 - MinerU Markdown: `Donaldson_1983_gauge_theory_4manifolds_mineru/Donaldson_1983_gauge_theory_4manifolds__Donaldson_1983_gauge_theory_4manifolds.md`
 - Initial Markdown SHA-256: `572bdf3556bfe85b58518518583a14174e7af9ec88b6725b627dba889cff3913`
-- Initial Markdown full-read: 1,454 lines, read before page audit; repair status will be re-read from byte 1 after edits.
+- Markdown read coverage: the 1,454-line baseline was read before page audit; after `fix(md)`, the final 1,449-line file was re-read from byte 1 through EOF in consecutive ranges 1–500, 501–1000, and 1001–1449.
 - Export identity: nested `middle_json.json` reports MinerU 3.4.4, schema 2.0, `is_full_document=true`, and 38 page records (`page_idx` 0–37); its metadata has no `doc_id` field. The PDF page count and ordered page records agree.
 - Source mode: scanned, not born-digital. `pdfimages -list` shows one approximately 3900×6000, 600-dpi, 1-bit page image on each of the 38 pages. The ABBYY OCR text layer is 76,730 bytes with no U+FFFD; it is a locator only, not authority over the printed page.
 - Method: render each PDF page as a 150-dpi `pngmono`, inspect the complete page, compare its contents with the corresponding ordered Markdown segment and original page image, and use 300-dpi crops for glyph-level ambiguities. PDF print is authoritative. No MinerU service or parser was run.
-- Markdown source chain at audit start: the file is clean at base `e04c4a9603818cfa2d71271942f696115783c33b`; its last touching commit is `0b0f3dd2`. The exact pre-repair parent will be recorded with any `fix(md)` commit.
+- Markdown source chain: the original MinerU Markdown was added/touched at `0b0f3dd237016302793972607504146adcf38004`; its SHA-256 `572bdf3556bfe85b58518518583a14174e7af9ec88b6725b627dba889cff3913` remained unchanged through the pre-fix candidate parent `0832a3b367af489236545a470496ec925a36cb7f`. The separate `fix(md)` commit is `9717b165aa221c5712bfed1247f0e46a7eecc69b`; its post-fix Markdown SHA-256 is `a22812e11e24ebbddde35767b454a47957949df592d97b72a689568b83eb74a5`.
 
 ## Page sign-offs
 
@@ -358,3 +358,52 @@
 - Markdown segment: none; the Markdown ends with the `OXFORD UNIVERSITY` imprint after PDF p.37.
 - Compared: final PDF page image, PDF text extraction, and end of the MinerU Markdown.
 - Result: **PASS±**. PDF p.38 is an entirely white trailing scan page (the 150-dpi image has one color and all pixels are white; `pdftotext` yields no text). No Markdown content corresponds to it. It has no printed folio or running header.
+
+## Overall audit and repair closure
+
+- Candidate status: `CANDIDATE_NOT_CURRENT`; `Master-Luna` remains the only canonical integrator. Base is `e04c4a9603818cfa2d71271942f696115783c33b`.
+- All 38 PDF pages have page sign-offs and committed 150-dpi page images. Initial page comparison grades are 14 `FAIL` and 24 `PASS±`; the grade records the pre-repair comparison, while the repair register below records the post-audit corrections. Every `FAIL` discrepancy was repaired. Six additional `PASS±` locations were repaired because they impaired section navigation, legibility, or text search.
+- The scanned-paper method was used for all 38 pages: one approximately 3900×6000, 600-dpi, 1-bit page image per PDF page; each page was rendered to numbered PNGs `audit/p001.png`–`audit/p038.png` at 150 dpi and inspected in order against its Markdown span. The ABBYY OCR layer (76,730 bytes, no U+FFFD) served only as a locator. Ambiguous glyphs and equations have page-local 300-dpi crops; page 29's asymptotic notation and page 30's spelling also have 600-dpi crops. All 66 image paths referenced by this audit resolve under this paper's `audit/`; all 38 full-page PNGs are present.
+- The embedded MinerU figure `images/page_27_image_0.jpg` was matched to the diagram on PDF p.28 and copied to `audit/p028-mineru-figure.jpg` so the cited evidence is committed with that page.
+- MinerU `doc_id` is absent from the export metadata; the exporter identity is MinerU 3.4.4 / schema 2.0 / full-document / 38 page records.
+- Final Markdown verification: after fix commit `9717b165aa221c5712bfed1247f0e46a7eecc69b`, the complete 1,449-line file was read again from start to finish. Every repair below was checked in that final reread against the cited original-page image/crop. Read-only checks found no remaining instances of the repaired OCR strings, no U+0003 or U+FFFD, 38/38 page images, and 0 missing audit-image references. `git diff --check e04c4a9603818cfa2d71271942f696115783c33b..HEAD` passed. No tests were run; the requested result is a page-faithful text audit, not a software behavior change.
+- The paper candidate commits change only the Donaldson paper directory. The PDF, other papers, root `README.md`, `MEMORY.md`, `AUDIT-INDEX.md`, and `AUDIT-PROGRESS.log` were left untouched as required by the Peer role. No MinerU parser/service, download, or external upload was run.
+
+### Manual repair register
+
+Each item is a separate `Edit`-tool change to one verified location. For every item, the post-edit check passed: the corrected final Markdown was found in the full-file reread and compared again with the listed print evidence.
+
+1. **PDF p.3, principal-bundle sentence:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p003-bundle-map.png`.
+2. **PDF p.5, bundle assumption:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p005-bundle-map.png`.
+3. **PDF p.6, connection-bundle label:** `\downarrow` → `P \downarrow`. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+4. **PDF p.6, lifted rotation-group notation:** removed the `S^7` subscript from `SO(5)^{S^4}_{S^7}`; the print attaches `S^7` to the following fibration diagram. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+5. **PDF p.6, Hopf-fibration diagram:** `\downarrow` → `S^7 \downarrow S^4`. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+6. **PDF p.7, Proposition 5 bundle assumption:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p007-bundle-map.png`.
+7. **PDF p.8, II.1 heading:** joined the print-wrapped title into one Markdown heading and restored the Fraktur space symbol `\mathfrak{B}`. Evidence: `audit/p008.png`.
+8. **PDF p.9, bundle terminology:** “complex lie bundles” → “complex line bundles”. Evidence: `audit/300dpi/p009-complex-line.png`.
+9. **PDF p.10, component estimate:** `0(ε)` → `O(ε)`. Evidence: `audit/300dpi/p010-big-O.png`.
+10. **PDF p.12, Lemma 7 proof:** `L|_E` → `L|_{E'}`. Evidence: `audit/300dpi/p012-restriction.png`.
+11. **PDF p.13, irreducible dimension clause:** `a n d` → `and`. Evidence: `audit/p013.png`.
+12. **PDF p.13, reducible dimension clause:** `a n d` → `and`. Evidence: `audit/p013.png`.
+13. **PDF p.15, footnote extraction:** removed the detached duplicate `$T_{A,\varepsilon}$` fragment; the complete printed footnote remains. Evidence: `audit/p015.png`.
+14. **PDF p.15, footnote extraction:** removed the detached duplicate `Q.` fragment; the complete printed footnote remains. Evidence: `audit/p015.png`.
+15. **PDF p.17, first Stiefel–Whitney restriction:** restored the printed connective `to` between the two cohomology groups and repaired the concatenated display delimiters. Evidence: `audit/300dpi/p017-restriction-class.png`.
+16. **PDF p.20, geodesic-coordinate expansion:** `0|x|^2` → `O|x|^2`. Evidence: `audit/300dpi/p020-big-O.png`.
+17. **PDF p.20, rescaled metric:** `r^2 0|y|^2` → `r^2 O|y|^2`. Evidence: `audit/300dpi/p020-big-O.png`.
+18. **PDF p.20, metric error term:** `0(r^2)` → `O(r^2)`. Evidence: `audit/300dpi/p020-big-O.png`.
+19. **PDF p.21, transition-function sentence:** `comptatability` → `compatability`, matching the print's own spelling. Evidence: `audit/300dpi/p021-compatability.png`.
+20. **PDF p.25, eigenvalue identity:** restored the outer square in `\|d_A^*\omega\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+21. **PDF p.25, Rayleigh inequality:** restored the outer square in `\|d_\theta^*\omega'\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+22. **PDF p.25, Rayleigh inequality:** restored the outer square in `\|\omega'\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+23. **PDF p.25, vector field:** Greek `\nu^i` → Latin `v^i`. Evidence: `audit/300dpi/p025-vector-field.png`.
+24. **PDF p.26, derivative definition:** removed the spurious `$$` and restored the inline math boundary after the definition of `\alpha(\xi)`. Evidence: `audit/p026.png`.
+25. **PDF p.29, cap radius:** `0(λ)` → `O(λ)`. Evidence: `audit/300dpi/p029-big-O.png`, `audit/600dpi/p029-asymptotic-radius.png`.
+26. **PDF p.30, Sobolev embedding:** `\rightrightarrows` → `\hookrightarrow`. Evidence: `audit/300dpi/p030-sobolev-embedding.png`.
+27. **PDF p.32, annulus radius:** `0(λ^{1/2})` → `O(λ^{1/2})`. Evidence: `audit/300dpi/p032-big-O.png`.
+
+### Remaining source and presentation notes
+
+- The MinerU Markdown still omits the running journal header and printed folios; p.1 also omits `J. DIFFERENTIAL GEOMETRY 18 (1983) 279–315`. These were recorded as `PASS±` presentation/retrieval limits and not added to the body text. PDF p.38 is a blank trailing scan page.
+- Print-level quirks/inconsistencies were preserved: p.2 “some base”; p.7 the printed instanton denominator `(λ² + |x|)²`; p.10 “principle” and the prime on `L_3^2`; p.21 “compatability”, forward reference “(3) above”, and `κ_j` after `x_j`; p.24 lowercase `k` alongside earlier uppercase `K`; p.26 printed `c/dt` and the unmatched parenthesis in the curvature expression; p.29 `x₁` in the volume term after defining `x₀`; p.30 “Weitzenböch”; p.34 integral lower limit `ε` with boundary term `A_t`; reference [8] singular “manifold”; reference [20] “Removeable”.
+- Two supplemental `audit(page)` commits were appended after late findings were identified during continued closure review: p.13 letter-spacing (`a n d`) and p.10 big-O (`0(ε)`). Existing audit commits were not amended or rewritten. Their OIDs are `5acddc0fba0cc9efd447590d2167ff136a1d760f` and `0832a3b367af489236545a470496ec925a36cb7f` respectively.
+- Rendering note: the stored p.1 `pngmono` image was also checked through an 8-bit grayscale rendering because the image viewer displayed the 1-bit image blank; an ImageMagick pixel-difference comparison returned 0, confirming the viewed grayscale page was pixel-identical. The committed audit evidence remains the requested 150-dpi `pngmono` file.
