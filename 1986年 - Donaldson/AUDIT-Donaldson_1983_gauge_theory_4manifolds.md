@@ -130,4 +130,5 @@
 - Checked at: 2026-10-01 16:10:12 EDT
 - Markdown segment: lines 461–491, from the finite-dimensional regular-value continuation through “The allowable perturbations σ are to”.
 - Compared: Proposition 8 irreducible/reducible local models and dimensions; harmonic-space regularity interpretation; beginning of section II.3 and perturbation-bundle setup.
-- Result: **PASS±**. The formulas and mathematical statements match the page image. The running author header and folio `291` are absent from the Markdown.
+- Result: **PASS±**. The formulas and substantive statements match the page image. Markdown lines 468 and 474 split the printed conjunction “and” into `a n d` inside the two dimension clauses; this is a readability/formatting artifact with the numbers intact and is a candidate for post-audit Edit repair. The running author header and folio `291` are absent from the Markdown.
+- Supplemental check: 2026-10-01 16:11:42 EDT; PDF p.13 image `audit/p013.png` shows ordinary “and” in both clauses. No 300-dpi crop was needed because the letter spacing, rather than a glyph identity, is the discrepancy.
