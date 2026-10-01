@@ -1,0 +1,409 @@
+# 1986 — Donaldson, “An Application of Gauge Theory to Four-Dimensional Topology”
+
+- Actor: `Peer-P03`
+- Model / effort: `gpt-6-luna` / `max`
+- Role: contributor; canonical integrator is `Master-Luna`
+- Candidate base: `e04c4a9603818cfa2d71271942f696115783c33b`
+- PDF: `Donaldson_1983_gauge_theory_4manifolds.pdf` — 38 pages; SHA-256 `5a5201ed38b870ec1ad183b697aa505830c5a35bf03d72614a5bb1667fe65080`
+- MinerU Markdown: `Donaldson_1983_gauge_theory_4manifolds_mineru/Donaldson_1983_gauge_theory_4manifolds__Donaldson_1983_gauge_theory_4manifolds.md`
+- Initial Markdown SHA-256: `572bdf3556bfe85b58518518583a14174e7af9ec88b6725b627dba889cff3913`
+- Markdown read coverage: the 1,454-line baseline was read before page audit; after `fix(md)`, the final 1,449-line file was re-read from byte 1 through EOF in consecutive ranges 1–500, 501–1000, and 1001–1449.
+- Export identity: nested `middle_json.json` reports MinerU 3.4.4, schema 2.0, `is_full_document=true`, and 38 page records (`page_idx` 0–37); its metadata has no `doc_id` field. The PDF page count and ordered page records agree.
+- Source mode: scanned, not born-digital. `pdfimages -list` shows one approximately 3900×6000, 600-dpi, 1-bit page image on each of the 38 pages. The ABBYY OCR text layer is 76,730 bytes with no U+FFFD; it is a locator only, not authority over the printed page.
+- Method: render each PDF page as a 150-dpi `pngmono`, inspect the complete page, compare its contents with the corresponding ordered Markdown segment and original page image, and use 300-dpi crops for glyph-level ambiguities. PDF print is authoritative. No MinerU service or parser was run.
+- Markdown source chain: the original MinerU Markdown was added/touched at `0b0f3dd237016302793972607504146adcf38004`; its SHA-256 `572bdf3556bfe85b58518518583a14174e7af9ec88b6725b627dba889cff3913` remained unchanged through the pre-fix candidate parent `0832a3b367af489236545a470496ec925a36cb7f`. The separate `fix(md)` commit is `9717b165aa221c5712bfed1247f0e46a7eecc69b`; its post-fix Markdown SHA-256 is `a22812e11e24ebbddde35767b454a47957949df592d97b72a689568b83eb74a5`.
+
+## Page sign-offs
+
+### p.001 (PDF p.1 / print p.279 inferred from the article range; opening page carries no separate page numeral)
+
+- PNG: `audit/p001.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:50:42 EDT
+- Markdown segment: lines 1–21, from title and author through the end of the introduction and the “Received December 31, 1982” footnote; `Theorem 1` at line 23 begins the next PDF page.
+- Compared: journal/range header; title and author; section heading; opening-page prose, displayed cup-square, references [7], [8], [11], [12], closing introduction paragraph, and received-date footnote.
+- Result: **PASS±**. The title, author, body text, and received date match the printed page. The Markdown omits the printed header `J. DIFFERENTIAL GEOMETRY 18 (1983) 279–315`; the opening page has no separate printed page numeral. The PDF text layer misreads the displayed `E₈` glyph as `£ 8`, while the Markdown has `E_8`; the page image confirms the Markdown reading. Header omission is logged as a retrieval/bibliographic limitation, not as a body-text error.
+
+### p.002 (PDF p.2 / print p.280)
+
+- PNG: `audit/p002.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:52:28 EDT
+- Markdown segment: lines 23–51, from Theorem 1 through the paragraph ending “the disjoint”; line 53 continues the sentence on PDF p.3.
+- Compared: theorem statement and diagonal-form equation; the `2mE₈+n[[0,1],[1,0]]` form; the smoothing discussion; the `π₁(X) → SU(2)` condition; acknowledgement; section I.2 and its moduli-space description through the page break.
+- Result: **PASS±**. The body and displayed equations match the page image. The Markdown omits the running header and printed folio `280`. The print phrase “in some base” is retained verbatim in the Markdown; it is a source-level wording quirk, not an OCR discrepancy.
+
+### p.003 (PDF p.3 / print p.281)
+
+- PNG: `audit/p003.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p003-bundle-map.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:54:31 EDT
+- Markdown segment: lines 53–101, from the continuation “union of X...” through the line ending “The curvature F(A) of any”.
+- Compared: end of the moduli-space boundary description; Lemma 2 and its two displayed decompositions and signature calculation; start of section I.3; bundle notation, connection-space definition, and differential-operator formula.
+- Result: **FAIL**. At Markdown line 89 the source diagram `P ↓ X` identifying the total space and base of the principal bundle is reduced to `\downarrow`; both labels `P` and `X` are lost. The 300-dpi crop confirms the printed diagram. The other checked mathematical statements match. The printed running header and folio `281` are absent from the Markdown.
+
+### p.004 (PDF p.4 / print p.282)
+
+- PNG: `audit/p004.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:55:44 EDT
+- Markdown segment: lines 103–153, from “connection is an element of” through the decomposition `Ω² = Ω⁺² ⊕ Ω⁻²`.
+- Compared: curvature expansion; gauge-group action; `SU(2)` and `U(1)` bundle classification; Proposition 3 and its curvature formula; the `c₂` and relative `Tc₂` formulas; start of the self-dual/anti-self-dual decomposition.
+- Result: **PASS±**. The mathematical text and displayed formulas match the page image. The Markdown omits the running author header and printed folio `282`.
+
+### p.005 (PDF p.5 / print p.283)
+
+- PNG: `audit/p005.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p005-bundle-map.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:56:44 EDT
+- Markdown segment: lines 155–199, from the definition of the self-dual and anti-self-dual subspaces through the bundle assumption at the end of the page.
+- Compared: equation (1); curvature splitting; Yang–Mills action and Chern-class identities; flat-connection conclusion; `d⁻` and `d_A⁻`; Laplacians, harmonic spaces, and the elliptic complex.
+- Result: **FAIL**. At Markdown line 199 the printed diagram `P ↓ X` is reduced to `\downarrow`, omitting the bundle total space `P` and base `X`. The 300-dpi crop confirms the labels. The remaining checked equations and prose match; the running header and printed folio `283` are absent from the Markdown.
+
+### p.006 (PDF p.6 / print p.284)
+
+- PNG: `audit/p006.png` (150-dpi `pngmono`); diagram crop: `audit/300dpi/p006-bundle-maps.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:57:45 EDT
+- Markdown segment: lines 201–229, from section I.4 through the final word “conformal”.
+- Compared: instanton action and equation (2); Proposition 4 and finite-action integral; classification of the S⁴ instanton orbit and its moduli space.
+- Result: **FAIL**. The 300-dpi crop shows the first printed `P` above the arrow after “connection on”; Markdown line 229 retains only `\downarrow`. It also shows the following fibration diagram `S⁷ ↓ S⁴`, whose two labels are absent from the Markdown's lone `\downarrow`. The Markdown additionally attaches `S⁷` as a subscript in `SO(5)^{S^4}_{S^7}`; on the printed page `S⁷` labels the following fibration diagram, while `S⁴` is the superscript on `SO(5)`. The other checked statements and formulas match. The running header and folio `284` are omitted.
+
+### p.007 (PDF p.7 / print p.285)
+
+- PNG: `audit/p007.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p007-curvature-formula.png`, `audit/300dpi/p007-bundle-map.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:00:56 EDT
+- Markdown segment: lines 231–259, from “group acts by translations...” through Proposition 5 ending “the”.
+- Compared: instanton connection matrix and curvature; compactification/moduli-space description; Hodge decomposition and quadratic-form integral; Taubes statement and Proposition 5 opening.
+- Result: **FAIL**. Proposition 5's printed bundle diagram is `P ↓ X`, but Markdown line 259 retains only `\downarrow`, omitting both labels; the 300-dpi bundle crop confirms this. The 300-dpi curvature crop confirms the printed denominator `(λ² + |x|)²` in `F(I_{0,λ})`; Markdown has the same expression. This is a print-level formula quirk and is deliberately preserved, not silently corrected to a mathematically expected variant. The other checked material matches; the running header and folio `285` are omitted.
+
+### p.008 (PDF p.8 / print p.286)
+
+- PNG: `audit/p008.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:02:39 EDT
+- Markdown segment: lines 261–297, from Proposition 5's `L³`-norm continuation through the quotient-space notation and explanatory paragraph.
+- Compared: Proposition 5's hypotheses, δ expression and estimates; Taubes' concentration construction; the `U(1)` uniqueness observation; Sobolev-space definition and norm; the moduli-space quotient and map notation.
+- Result: **PASS±**. The mathematical text and formulas match. Markdown lines 279 and 281 split the single printed II.1 heading across two `##` headings, leaving “and properties of the space B” as a stray heading; this impairs section navigation and is a candidate for the post-audit Edit repair. The running author header and folio `286` are absent.
+
+### p.009 (PDF p.9 / print p.287)
+
+- PNG: `audit/p009.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p009-complex-line.png`, `audit/300dpi/p009-harmonic-equality.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:04:36 EDT
+- Markdown segment: lines 299–327, from “We discuss first the reducible connections...” through the closing one-dimensional stabiliser criterion.
+- Compared: reducibility criteria; splitting `E=L⊕L⁻¹`; Chern-class formula; count `n(Q)`; stabiliser action; harmonic-space vanishing and final converse.
+- Result: **FAIL**. Markdown line 305 says “complex lie bundles”; the print reads “complex line bundles”. The 300-dpi phrase crop confirms the missing `n`, which changes the mathematical term. The harmonic equality `H¹(X;R)=𝒦⁻²(X)=0` also matches the print in its 300-dpi crop. The remaining checked formulas and prose match; the running header and folio `287` are absent.
+
+### p.010 (PDF p.10 / print p.288)
+
+- PNG: `audit/p010.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p010-norms.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:06:10 EDT
+- Markdown segment: lines 329–372, from Theorem 6 through the definition of the smooth map `S(A+a,g)`.
+- Compared: Theorem 6 local quotient statements; slice norm and group-action formulas; factorisation `g=γ\tilde g`; Sobolev estimate; proof of Hausdorffness and the map `S`.
+- Result: **FAIL**. The mathematical statements otherwise match, but Markdown line 359 gives `0(ε)` for the constant-component error term; the print uses big-O `O(ε)`, as confirmed by the supplemental 300-dpi crop. This changes the estimate and is a repair candidate. The print says “a principle `𝒢/±1` bundle” (rather than “principal”); Markdown preserves the source wording. The prime after `L_3^2` in the norm of `b` is visible on the other 300-dpi crop and is also preserved. The running author header and folio `288` are omitted.
+- Supplemental check: 2026-10-01 17:18:33 EDT; the 300-dpi crop `audit/300dpi/p010-big-O.png` confirms the asymptotic order symbol.
+
+### p.011 (PDF p.11 / print p.289)
+
+- PNG: `audit/p011.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:07:45 EDT
+- Markdown segment: lines 375–413, from the derivative of `S` through the Fredholm-operator discussion ending “compact manifolds are”.
+- Compared: derivative and isomorphism claim; reducible-connection restriction and local quotient model; section II.2 map `Φ`; derivative of `Φ` and Fredholm statement.
+- Result: **PASS±**. The equations, spaces, and prose match the page image. The Markdown omits the running header and printed folio `289`.
+
+### p.012 (PDF p.12 / print p.290)
+
+- PNG: `audit/p012.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p012-restriction.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:09:28 EDT
+- Markdown segment: lines 415–459, from the Fredholm-index discussion through the regular-value sentence ending “for the”.
+- Compared: index formula and dimension 5/6 conclusion; Lemma 7 statement and decomposition; proof construction of `\psi` and its inverse relation.
+- Result: **FAIL**. Markdown line 443 gives `L|_E : E' → Im L`; the printed page has `L|_{E'} : E' → Im L`. The 300-dpi crop confirms the prime on the restriction domain, which is essential to the stated inverse. The remaining checked formulas and prose match; the running header and folio `290` are absent.
+
+### p.013 (PDF p.13 / print p.291)
+
+- PNG: `audit/p013.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:10:12 EDT
+- Markdown segment: lines 461–491, from the finite-dimensional regular-value continuation through “The allowable perturbations σ are to”.
+- Compared: Proposition 8 irreducible/reducible local models and dimensions; harmonic-space regularity interpretation; beginning of section II.3 and perturbation-bundle setup.
+- Result: **PASS±**. The formulas and substantive statements match the page image. Markdown lines 468 and 474 split the printed conjunction “and” into `a n d` inside the two dimension clauses; this is a readability/formatting artifact with the numbers intact and is a candidate for post-audit Edit repair. The running author header and folio `291` are absent from the Markdown.
+- Supplemental check: 2026-10-01 16:11:42 EDT; PDF p.13 image `audit/p013.png` shows ordinary “and” in both clauses. No 300-dpi crop was needed because the letter spacing, rather than a glyph identity, is the discrepancy.
+
+### p.014 (PDF p.14 / print p.292)
+
+- PNG: `audit/p014.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:12:24 EDT
+- Markdown segment: lines 493–533, from “be smooth sections of `𝔖³`...” through the start of the three-open-sets argument ending “by applying”.
+- Compared: perturbation norm and derivative setup; equivariant finite-dimensional perturbation near reducible connections; `\tilde Φ` replacement; Lemma 9 transversality statement and density setup.
+- Result: **PASS±**. The mathematical content and displayed equations match the page image. The running author header and folio `292` are absent from the Markdown.
+
+### p.015 (PDF p.15 / print p.293)
+
+- PNG: `audit/p015.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:14:13 EDT
+- Markdown segment: lines 535–567, from the end of the three-open-sets argument through the footnote on the smooth density of smooth connections.
+- Compared: conclusion of Lemma 9; compactness/transversality proof; the KO-index family setup; the page's complete footnote.
+- Result: **PASS±**. Mathematical statements and formulas match. Before the complete footnote, Markdown contains two extra page-footnote fragments, `$T_{A,\varepsilon}$` and `Q.` (lines 563–565); the page image has only the single integrated note, which is retained at line 567. These fragments add OCR clutter but do not remove the source note; they are candidates for post-audit cleanup. The running author header and folio `293` are absent.
+
+### p.016 (PDF p.16 / print p.294)
+
+- PNG: `audit/p016.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p016-exterior-power.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:15:04 EDT
+- Markdown segment: lines 569–626, from the continuation of the KO-index property through Lemma 10's vanishing statement.
+- Compared: restricted gauge group and associated bundles; family operator; fibration/orientability argument; `w₁` index class; homotopy of Fredholm operators; Lemma 10 statement.
+- Result: **PASS±**. The formulas and mathematical statements match. The 300-dpi crop confirms the bundle term `λ²(T*X)` as transcribed. At Markdown line 575 the print has a period after `P_{x₀}`, while Markdown uses a comma before “Then”; this punctuation difference does not change the claim. The running author header and folio `294` are absent.
+
+### p.017 (PDF p.17 / print p.295)
+
+- PNG: `audit/p017.png` (150-dpi `pngmono`); formula crop: `audit/300dpi/p017-restriction-class.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:17:11 EDT
+- Markdown segment: lines 629–671, from Lemma 10's proof through note (iii), ending “for any”.
+- Compared: stable-range claim; restricted-adjoint representation; KO-class restriction; simple-connectedness reduction to `π₄(SU(n))`; notes (i)–(iii).
+- Result: **FAIL**. Markdown line 655 omits the printed connective “to” between `H¹(\hat B(M,3,k); Z/2)` and `H¹(\hat B(M,2,k); Z/2)`, and concatenates the second group immediately after a `$$` delimiter. The 300-dpi crop confirms the complete source relation. The other checked statements match; the running author header and folio `295` are absent.
+
+### p.018 (PDF p.18 / print p.296)
+
+- PNG: `audit/p018.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:18:27 EDT
+- Markdown segment: lines 673–707, from the continuation “spin manifold...” through Proposition 12's gauge condition and Sobolev estimate.
+- Compared: end of note (iii); Theorem 11 and section III outline; Proposition 12 assumptions, energy bound, convergence conclusion, and conditions (i)–(ii).
+- Result: **PASS±**. The statements and displayed equations match the page image. The running author header and folio `296` are absent from the Markdown.
+
+### p.019 (PDF p.19 / print p.297)
+
+- PNG: `audit/p019.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:19:24 EDT
+- Markdown segment: lines 709–756, from the elliptic-system conclusion through the first bound `I(q,i) ≤ L` in the proof of Lemma 14.
+- Compared: self-duality equation and elliptic-system claim; Theorem 13 alternatives; Lemma 14 hypotheses, covering property, and page-end integral bound.
+- Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `297` are absent from the Markdown.
+
+### p.020 (PDF p.20 / print p.298)
+
+- PNG: `audit/p020.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p020-big-O.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:21:32 EDT
+- Markdown segment: lines 759–801, from the diagonal-subsequence argument through the convergence over the conformal-chart cover.
+- Compared: end of Lemma 14 proof; geodesic-coordinate expansion; rescaled metric and chart; action-density bound and conformal-chart convergence.
+- Result: **FAIL**. In the coordinate and rescaled-metric formulas, Markdown uses digit `0` where the printed page has big-O `O`: lines 778 (`0|x|²`), 787 (`r²0|y|²`), and 787 (`0(r²)`). The 300-dpi crop confirms the order-symbol reading; all three positions are repair candidates. The other checked material matches; the running author header and folio `298` are absent.
+
+### p.021 (PDF p.21 / print p.299)
+
+- PNG: `audit/p021.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p021-points.png`, `audit/300dpi/p021-compatability.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:24:41 EDT
+- Markdown segment: lines 803–845, from the local connection matrices and transition law through the two alternatives in Theorem 13.
+- Compared: transition-function compatibility equation; energy bounds (2) and (3); bundle extensions and limit maps; final `l=0`/`l=1` cases.
+- Result: **PASS±**. The equations and main argument match. Markdown line 809 reads `comptatability`; the printed word is `compatability` (the source's own misspelling), confirmed in the 300-dpi crop. This is a minor OCR spelling difference and a candidate for Edit repair to match print. The print refers to “strict inequality in (3) above” before displaying (3); Markdown preserves that source quirk. The point set in Markdown line 829 is `κ₁,…,κ_l`, matching the printed crop, while the immediately preceding discussion uses `x_j`; this source-level inconsistency is recorded without normalization. The running author header and folio `299` are absent.
+
+### p.022 (PDF p.22 / print p.300)
+
+- PNG: `audit/p022.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:25:41 EDT
+- Markdown segment: lines 847–889, from section III.3 through Definition 15(b)'s formula for `λ(A)`.
+- Compared: moduli-space map; smoothed radius/position definition; bump-function scale; instanton action density and `R_I`; both properties and Definition 15.
+- Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `300` are absent from the Markdown.
+
+### p.023 (PDF p.23 / print p.301)
+
+- PNG: `audit/p023.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:26:34 EDT
+- Markdown segment: lines 891–921, from the interpretation of `λ(A)` through Theorem 16's convergence proof and appendix pointer.
+- Compared: conformal-chart map; rescaled metric; Theorem 16(i)–(ii) and curvature bound; instanton action estimate and subsequence argument.
+- Result: **PASS±**. The definitions, formulas, and proof statements match the page image. The running author header and folio `301` are absent from the Markdown.
+
+### p.024 (PDF p.24 / print p.302)
+
+- PNG: `audit/p024.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p024-derivative-constant.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:28:12 EDT
+- Markdown segment: lines 923–955, Corollary 17 and its proof through the compact-complement statement.
+- Compared: `p` parameterisation; derivative bound; uniqueness/smoothness proof; derivative estimates for `λ` and `x`; compactness conclusion.
+- Result: **PASS±**. The formulas and prose match. In the derivative formula the print uses lowercase `k` in `k^{-1}` and `β_k`, as does Markdown; earlier Definition 15 uses uppercase `K` for the instanton minimum. This source-level notation inconsistency is preserved. The running author header and folio `302` are absent.
+
+### p.025 (PDF p.25 / print p.303)
+
+- PNG: `audit/p025.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p025-norm-squares.png`, `audit/300dpi/p025-vector-field.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:31:26 EDT
+- Markdown segment: lines 957–1006, from Proposition 18 through the vector-field definition in the proof of Theorem 19.
+- Compared: Proposition 18(i)–(iii); eigenvalue and Sobolev estimates; Theorem 19 covering-map argument; tangent-space map and inequality (1); vector field defining `α`.
+- Result: **FAIL**. Markdown line 967 omits the outer square on all three printed `L²` norms in the eigenvalue/Rayleigh inequalities. The 300-dpi crop confirms `\|d_A^*ω\|_{L²}²=μ(A)` and `\|d_θ^*ω'\|_{L²}²≥μ₁\|ω'\|_{L²}²`. Markdown line 1006 uses Greek `ν^i`; the 300-dpi print shows Latin `v^i`, matching the parameter `ξ=(v^i,φ)`. Both errors are repair candidates. The other checked content matches; the running author header and folio `303` are absent.
+
+### p.026 (PDF p.26 / print p.304)
+
+- PNG: `audit/p026.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p026-curvature-derivative.png`, `audit/300dpi/p026-derivative.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:33:48 EDT
+- Markdown segment: lines 1009–1050, from `ξ=(v^i,φ)` through the final estimate `≤ const. |ξ|`.
+- Compared: flow action and `α(ξ)` definition; variation of the self-dual projection; curvature estimates in the two radial ranges; `L²` and `L^{4/3}` derivative bounds.
+- Result: **FAIL**. Markdown line 1011 inserts `$$` between the inline formula for `α(ξ)` and the following prose, creating malformed math delimiters; the printed page has a single inline formula followed by “α is plainly linear”. This is a repair candidate. The 300-dpi crops also confirm two source-level print quirks that Markdown preserves: the first derivative term in the correction estimate is printed `c/dt`, and the preceding `F_-(f_t(A))` display lacks an outer closing parenthesis before the norm bar. These print forms must remain faithful to the page. The other checked bounds match; the running author header and folio `304` are absent.
+
+### p.027 (PDF p.27 / print p.305)
+
+- PNG: `audit/p027.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:37:36 EDT
+- Markdown segment: lines 1053–1097, from the Proposition 18 estimate through Lemma 20's rescaling reduction to `R=1`.
+- Compared: curvature-difference bound; derivative estimates for `p`; conclusion that `p` is locally one-sheeted; III.4 setup and Lemma 20 annulus/curvature hypotheses.
+- Result: **PASS±**. The statements and displayed formulas match the page image. The Markdown's following image block is outside this page's final printed sentence and will be checked against the next PDF page. The running author header and folio `305` are absent.
+
+### p.028 (PDF p.28 / print p.306)
+
+- PNG: `audit/p028.png` (150-dpi `pngmono`); MinerU figure evidence: `audit/p028-mineru-figure.jpg` (copy of the embedded Markdown image)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:38:55 EDT
+- Markdown segment: the embedded `images/page_27_image_0.jpg` figure at line 1099 and the following “Thus once K is small enough...” paragraph through the `C^0` bound.
+- Compared: the embedded diagram's `S^4`, `C_λ`, `R^4`, `X`, `B(x₀,r)`, `λ^{-1}`, `λ^{-1/2}`, connection labels, and the exponential-gauge curvature bound.
+- Result: **PASS±**. The MinerU embedded figure matches the diagram on PDF p.28, and the bound matches the print. The embedded figure is stored in this page's `audit/` evidence as required. The running author header and folio `306` are not represented in the Markdown.
+
+### p.029 (PDF p.29 / print p.307)
+
+- PNG: `audit/p029.png` (150-dpi `pngmono`); glyph crops: `audit/300dpi/p029-big-O.png`, `audit/600dpi/p029-asymptotic-radius.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:42:52 EDT
+- Markdown segment: lines 1101–1151, from the exponential-gauge estimate through the two displayed identities for `d_θ^*a` and `d_θ^-a`.
+- Compared: Lemma 20's curvature formula; instanton-tail bound and cap radius; Theorem 21(i)–(ii); scaled curvature bound, annulus estimate, and Taubes correction equations.
+- Result: **FAIL**. Markdown line 1121 gives the cap radius as `0(λ)`; the printed page has big-O `O(λ)`, confirmed in both the 300- and 600-dpi crops. This is an OCR substitution and a repair candidate. The proof also uses `x₁` in the volume term at line 1144 although Theorem 21's setup uses `x₀`; the page image agrees with Markdown, so this source-level inconsistency is preserved. The other checked formulas match; the running author header and folio `307` are absent.
+
+### p.030 (PDF p.30 / print p.308)
+
+- PNG: `audit/p030.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p030-sobolev-embedding.png`, `audit/300dpi/p030-Weitzenboeck.png`; 600-dpi spelling crop: `audit/600dpi/p030-Weitzenboeck.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:47:35 EDT
+- Markdown segment: lines 1153–1205, from the elliptic estimate after Theorem 21(i) through the transition to Proposition 22.
+- Compared: elliptic/Sobolev estimates; extension to `S⁴`; Weitzenböck formula and eigenvalue bound; curvature-difference estimate and normalization of `I'_{y,ν}`.
+- Result: **FAIL**. Markdown line 1193 uses `\rightrightarrows` between `L_1^2(A)` and `L^4`; the 300-dpi print has the single embedding hook `\hookrightarrow`. This changes the displayed Sobolev relation and is a repair candidate. The print spells the Weitzenböck term “Weitzenböch” (final letters `ch`), confirmed at 600 dpi; Markdown preserves this source-level spelling quirk. The remaining checked formulas match; the running author header and folio `308` are absent.
+
+### p.031 (PDF p.31 / print p.309)
+
+- PNG: `audit/p031.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:48:41 EDT
+- Markdown segment: lines 1207–1239, from Proposition 22 through the three regions in the opening of the proof of Lemma 23.
+- Compared: δ condition and the two Taubes correction bounds; Lemma 23 estimates; path argument for Theorem 11; compact/nonempty conclusion and three-region decomposition.
+- Result: **PASS±**. The mathematical statements and formulas match the page image. Markdown uses plain `M_{λ₀}` in line 1237 where the print uses Fraktur `𝔐_{λ₀}`; this is a harmless font-style loss. The running author header and folio `309` are absent.
+
+### p.032 (PDF p.32 / print p.310)
+
+- PNG: `audit/p032.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p032-big-O.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:50:25 EDT
+- Markdown segment: lines 1241–1271, from the outer-region estimates through the stationary-framing explanation in part (c).
+- Compared: estimates for `A₁` and `B₁`; conformal transfer of the `S⁴` connections; bounds for `b₂`; gradient comparison; transition functions and the three annular-region bounds.
+- Result: **FAIL**. Markdown line 1265 uses digit `0` in the annulus radius `0(λ^{1/2})`; the printed page uses big-O `O(λ^{1/2})`, confirmed by the 300-dpi crop. This is an OCR substitution and a repair candidate. The other checked estimates and formulas match; the running author header and folio `310` are absent.
+
+### p.033 (PDF p.33 / print p.311)
+
+- PNG: `audit/p033.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:52:02 EDT
+- Markdown segment: lines 1273–1303, from the transition functions on `W` through the final estimate for `\nabla \tilde B_2`.
+- Compared: transition-function equations (ii); modified framing on `W'`; cutoff `γ`; formula for `\tilde B_2`; the four-step derivative estimate.
+- Result: **PASS±**. The equations, bounds, and prose match the page image. The running author header and folio `311` are absent from the Markdown.
+
+### p.034 (PDF p.34 / print p.312)
+
+- PNG: `audit/p034.png` (150-dpi `pngmono`); integration-bound crop: `audit/300dpi/p034-integration-bound.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:53:15 EDT
+- Markdown segment: lines 1305–1349, from the Appendix heading through the decomposition `Λ²R⁴ ≅ Λ²R³ ⊕ Λ¹R³ ≅ R³ ⊕ R³`.
+- Compared: removable-singularity decay bound; cylinder hypotheses and exponential estimate; curvature-integral/Chern–Simons relation; `J(t)` and its derivative; exterior-form decomposition.
+- Result: **PASS±**. The Markdown matches the printed equations. The 300-dpi crop confirms the integral lower bound is printed `ε`, while its displayed boundary term uses `A_t`; this source-level parameter mismatch is preserved. The running author header and folio `312` are absent from the Markdown.
+
+### p.035 (PDF p.35 / print p.313)
+
+- PNG: `audit/p035.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:54:28 EDT
+- Markdown segment: lines 1351–1393, from the electromagnetic decomposition through the exponential decay conclusion for `F`.
+- Compared: boundary derivative of `J`; the `S³` one-form inequality; second-order expansions of `J` and `dJ/dt`; differential inequality and decay estimates.
+- Result: **PASS±**. The displayed equations and prose match the page image. The running author header and folio `313` are absent from the Markdown.
+
+### p.036 (PDF p.36 / print p.314)
+
+- PNG: `audit/p036.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:56:12 EDT
+- Markdown segment: lines 1395–1441, from the Appendix's final decay estimate through References [1]–[16].
+- Compared: annulus-to-cylinder conclusion; decay bound; all bibliographic entries [1]–[16] (authors, titles, venues, volumes, years, and pages).
+- Result: **PASS±**. The decay argument and references match the printed page. Reference [8] preserves the print wording “The topology of four-dimensional manifold” (singular) and its punctuation; it is logged as a source-level bibliographic quirk. The running author header and folio `314` are absent from the Markdown.
+
+### p.037 (PDF p.37 / print p.315)
+
+- PNG: `audit/p037.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:57:25 EDT
+- Markdown segment: lines 1443–1455, References [17]–[22] and the “OXFORD UNIVERSITY” imprint.
+- Compared: each reference's authors, title, journal/book, volume, year, and pages; blank author continuations [19]/[21]; closing imprint.
+- Result: **PASS±**. The entries and imprint match. Reference [20] preserves the printed spelling “Removeable” (rather than normalizing it), a source-level bibliographic quirk. The running author header and folio `315` are absent from the Markdown.
+
+### p.038 (PDF p.38 / no printed page number)
+
+- PNG: `audit/p038.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:58:25 EDT
+- Markdown segment: none; the Markdown ends with the `OXFORD UNIVERSITY` imprint after PDF p.37.
+- Compared: final PDF page image, PDF text extraction, and end of the MinerU Markdown.
+- Result: **PASS±**. PDF p.38 is an entirely white trailing scan page (the 150-dpi image has one color and all pixels are white; `pdftotext` yields no text). No Markdown content corresponds to it. It has no printed folio or running header.
+
+## Overall audit and repair closure
+
+- Candidate status: `CANDIDATE_NOT_CURRENT`; `Master-Luna` remains the only canonical integrator. Base is `e04c4a9603818cfa2d71271942f696115783c33b`.
+- All 38 PDF pages have page sign-offs and committed 150-dpi page images. Initial page comparison grades are 14 `FAIL` and 24 `PASS±`; the grade records the pre-repair comparison, while the repair register below records the post-audit corrections. Every `FAIL` discrepancy was repaired. Six additional `PASS±` locations were repaired because they impaired section navigation, legibility, or text search.
+- The scanned-paper method was used for all 38 pages: one approximately 3900×6000, 600-dpi, 1-bit page image per PDF page; each page was rendered to numbered PNGs `audit/p001.png`–`audit/p038.png` at 150 dpi and inspected in order against its Markdown span. The ABBYY OCR layer (76,730 bytes, no U+FFFD) served only as a locator. Ambiguous glyphs and equations have page-local 300-dpi crops; page 29's asymptotic notation and page 30's spelling also have 600-dpi crops. All 66 image paths referenced by this audit resolve under this paper's `audit/`; all 38 full-page PNGs are present.
+- The embedded MinerU figure `images/page_27_image_0.jpg` was matched to the diagram on PDF p.28 and copied to `audit/p028-mineru-figure.jpg` so the cited evidence is committed with that page.
+- MinerU `doc_id` is absent from the export metadata; the exporter identity is MinerU 3.4.4 / schema 2.0 / full-document / 38 page records.
+- Final Markdown verification: after fix commit `9717b165aa221c5712bfed1247f0e46a7eecc69b`, the complete 1,449-line file was read again from start to finish. Every repair below was checked in that final reread against the cited original-page image/crop. Read-only checks found no remaining instances of the repaired OCR strings, no U+0003 or U+FFFD, 38/38 page images, and 0 missing audit-image references. `git diff --check e04c4a9603818cfa2d71271942f696115783c33b..HEAD` passed. No tests were run; the requested result is a page-faithful text audit, not a software behavior change.
+- The paper candidate commits change only the Donaldson paper directory. The PDF, other papers, root `README.md`, `MEMORY.md`, `AUDIT-INDEX.md`, and `AUDIT-PROGRESS.log` were left untouched as required by the Peer role. No MinerU parser/service, download, or external upload was run.
+
+### Manual repair register
+
+Each item is a separate `Edit`-tool change to one verified location. For every item, the post-edit check passed: the corrected final Markdown was found in the full-file reread and compared again with the listed print evidence.
+
+1. **PDF p.3, principal-bundle sentence:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p003-bundle-map.png`.
+2. **PDF p.5, bundle assumption:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p005-bundle-map.png`.
+3. **PDF p.6, connection-bundle label:** `\downarrow` → `P \downarrow`. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+4. **PDF p.6, lifted rotation-group notation:** removed the `S^7` subscript from `SO(5)^{S^4}_{S^7}`; the print attaches `S^7` to the following fibration diagram. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+5. **PDF p.6, Hopf-fibration diagram:** `\downarrow` → `S^7 \downarrow S^4`. Evidence: `audit/300dpi/p006-bundle-maps.png`.
+6. **PDF p.7, Proposition 5 bundle assumption:** `\downarrow` → `P \downarrow X`. Evidence: `audit/300dpi/p007-bundle-map.png`.
+7. **PDF p.8, II.1 heading:** joined the print-wrapped title into one Markdown heading and restored the Fraktur space symbol `\mathfrak{B}`. Evidence: `audit/p008.png`.
+8. **PDF p.9, bundle terminology:** “complex lie bundles” → “complex line bundles”. Evidence: `audit/300dpi/p009-complex-line.png`.
+9. **PDF p.10, component estimate:** `0(ε)` → `O(ε)`. Evidence: `audit/300dpi/p010-big-O.png`.
+10. **PDF p.12, Lemma 7 proof:** `L|_E` → `L|_{E'}`. Evidence: `audit/300dpi/p012-restriction.png`.
+11. **PDF p.13, irreducible dimension clause:** `a n d` → `and`. Evidence: `audit/p013.png`.
+12. **PDF p.13, reducible dimension clause:** `a n d` → `and`. Evidence: `audit/p013.png`.
+13. **PDF p.15, footnote extraction:** removed the detached duplicate `$T_{A,\varepsilon}$` fragment; the complete printed footnote remains. Evidence: `audit/p015.png`.
+14. **PDF p.15, footnote extraction:** removed the detached duplicate `Q.` fragment; the complete printed footnote remains. Evidence: `audit/p015.png`.
+15. **PDF p.17, first Stiefel–Whitney restriction:** restored the printed connective `to` between the two cohomology groups and repaired the concatenated display delimiters. Evidence: `audit/300dpi/p017-restriction-class.png`.
+16. **PDF p.20, geodesic-coordinate expansion:** `0|x|^2` → `O|x|^2`. Evidence: `audit/300dpi/p020-big-O.png`.
+17. **PDF p.20, rescaled metric:** `r^2 0|y|^2` → `r^2 O|y|^2`. Evidence: `audit/300dpi/p020-big-O.png`.
+18. **PDF p.20, metric error term:** `0(r^2)` → `O(r^2)`. Evidence: `audit/300dpi/p020-big-O.png`.
+19. **PDF p.21, transition-function sentence:** `comptatability` → `compatability`, matching the print's own spelling. Evidence: `audit/300dpi/p021-compatability.png`.
+20. **PDF p.25, eigenvalue identity:** restored the outer square in `\|d_A^*\omega\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+21. **PDF p.25, Rayleigh inequality:** restored the outer square in `\|d_\theta^*\omega'\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+22. **PDF p.25, Rayleigh inequality:** restored the outer square in `\|\omega'\|_{L^2}^2`. Evidence: `audit/300dpi/p025-norm-squares.png`.
+23. **PDF p.25, vector field:** Greek `\nu^i` → Latin `v^i`. Evidence: `audit/300dpi/p025-vector-field.png`.
+24. **PDF p.26, derivative definition:** removed the spurious `$$` and restored the inline math boundary after the definition of `\alpha(\xi)`. Evidence: `audit/p026.png`.
+25. **PDF p.29, cap radius:** `0(λ)` → `O(λ)`. Evidence: `audit/300dpi/p029-big-O.png`, `audit/600dpi/p029-asymptotic-radius.png`.
+26. **PDF p.30, Sobolev embedding:** `\rightrightarrows` → `\hookrightarrow`. Evidence: `audit/300dpi/p030-sobolev-embedding.png`.
+27. **PDF p.32, annulus radius:** `0(λ^{1/2})` → `O(λ^{1/2})`. Evidence: `audit/300dpi/p032-big-O.png`.
+
+### Remaining source and presentation notes
+
+- The MinerU Markdown still omits the running journal header and printed folios; p.1 also omits `J. DIFFERENTIAL GEOMETRY 18 (1983) 279–315`. These were recorded as `PASS±` presentation/retrieval limits and not added to the body text. PDF p.38 is a blank trailing scan page.
+- Print-level quirks/inconsistencies were preserved: p.2 “some base”; p.7 the printed instanton denominator `(λ² + |x|)²`; p.10 “principle” and the prime on `L_3^2`; p.21 “compatability”, forward reference “(3) above”, and `κ_j` after `x_j`; p.24 lowercase `k` alongside earlier uppercase `K`; p.26 printed `c/dt` and the unmatched parenthesis in the curvature expression; p.29 `x₁` in the volume term after defining `x₀`; p.30 “Weitzenböch”; p.34 integral lower limit `ε` with boundary term `A_t`; reference [8] singular “manifold”; reference [20] “Removeable”.
+- Two supplemental `audit(page)` commits were appended after late findings were identified during continued closure review: p.13 letter-spacing (`a n d`) and p.10 big-O (`0(ε)`). Existing audit commits were not amended or rewritten. Their OIDs are `5acddc0fba0cc9efd447590d2167ff136a1d760f` and `0832a3b367af489236545a470496ec925a36cb7f` respectively.
+- Rendering note: the stored p.1 `pngmono` image was also checked through an 8-bit grayscale rendering because the image viewer displayed the 1-bit image blank; an ImageMagick pixel-difference comparison returned 0, confirming the viewed grayscale page was pixel-identical. The committed audit evidence remains the requested 150-dpi `pngmono` file.
