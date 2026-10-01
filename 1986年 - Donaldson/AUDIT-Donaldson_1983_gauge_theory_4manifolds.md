@@ -168,3 +168,12 @@
 - Markdown segment: lines 629–671, from Lemma 10's proof through note (iii), ending “for any”.
 - Compared: stable-range claim; restricted-adjoint representation; KO-class restriction; simple-connectedness reduction to `π₄(SU(n))`; notes (i)–(iii).
 - Result: **FAIL**. Markdown line 655 omits the printed connective “to” between `H¹(\hat B(M,3,k); Z/2)` and `H¹(\hat B(M,2,k); Z/2)`, and concatenates the second group immediately after a `$$` delimiter. The 300-dpi crop confirms the complete source relation. The other checked statements match; the running author header and folio `295` are absent.
+
+### p.018 (PDF p.18 / print p.296)
+
+- PNG: `audit/p018.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:18:27 EDT
+- Markdown segment: lines 673–707, from the continuation “spin manifold...” through Proposition 12's gauge condition and Sobolev estimate.
+- Compared: end of note (iii); Theorem 11 and section III outline; Proposition 12 assumptions, energy bound, convergence conclusion, and conditions (i)–(ii).
+- Result: **PASS±**. The statements and displayed equations match the page image. The running author header and folio `296` are absent from the Markdown.
