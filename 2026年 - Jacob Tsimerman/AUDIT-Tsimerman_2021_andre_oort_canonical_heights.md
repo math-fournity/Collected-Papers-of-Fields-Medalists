@@ -111,3 +111,12 @@
 - 核对：Theorem 2.9、证明中的映射与同构、Tsuji 展开算子 `∇_N`、(2.5.1) 及 divided-power 注释、log toric chart 与 Φ。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 467 行的 Theorem 2.9 结果两侧没有印刷的映射箭头 `→`；第 469、473、475 行分别漏掉 `A_cris → O B_dR`、`β : R → A_cris`、`R → O B_dR` 的箭头。第 479 行把算子中的 `s_i d/ds_i` 丢成 `s d/ds_i`；第 485 行将 divided power `X_i'^{N_i}/N_i!` 错成分母 `N_i`；第 487 行漏掉 toric chart `V[s_1,…,s_n] → R` 的箭头。两张 300dpi 裁片确认箭头、变量下标和阶乘。修复留待全篇审计后逐处 Edit。
+
+## p.013（PDF p.13 / 印刷 p.13）
+- 时间：2026-10-01 16:45:19 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p013.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p013_Psi-map.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p013_Lemma3.3-iff.png`
+- 核对：Theorem 2.9 的 log-crystalline 证明结尾、§3 Definition 3.1、Lemma 3.2–3.3 与 Definition 3.4 前三项。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 493 行的自然映射 `Ψ : M ⊗_β A_cris,log → L ⊗ A_cris,log` 漏掉 `→`；第 517 行将 Lemma 3.3 印刷的双向条件 `acceptable iff acceptable on a finite affinoid cover` 缩成单向 `if`，丢失必要方向。两张 300dpi 裁片确认原页有该箭头和 `iff`。另有 `affinoid` 写作 `afinoid` 的拼写瑕疵，不影响以上分级。
