@@ -206,6 +206,13 @@
 - Checked: conjugation of projective points and subvarieties, Proposition 12, Dolbeault sums, the induced semi-linear cohomology maps, and Weil's corollary.
 - Result: FAIL. The print denotes the transformed variety by X^sigma; Markdown line 712 has X^circ. In the cohomology-map chain, the print's source is H^q(U, Omega^p(X)), while Markdown line 734 has Omega^p(X^sigma) on the source side. The remaining checked sums and statements agree.
 
+### PDF p.030/43 — print p.29
+
+- Reviewed: 2026-10-01 16:51 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi Chow Proposition 13 crop](audit/300dpi/Serre_1956_gaga_p030_chow-prop13_300dpi.png); PDF text layer and MinerU Markdown lines 742–758.
+- Checked: transformation remark, Proposition 13 and its support argument, Proposition 14's compact analytic subset, and Proposition 15's statement.
+- Result: PASS±. The print spells the Proposition 13 noun “sous-ense.nble” with a visible intrusive period; the 300 dpi crop confirms the print quirk and Markdown preserves it. No correction is warranted. Other checked statements agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
