@@ -103,3 +103,13 @@
 - 印刷证据与差异：原图 `X⁺` 定义杀去 `π_1X` 中最大 perfect subgroup；基线第 244 行把 `π_1X` 的下标识别为逗号。原图同调球例子给出 collapsing map `X→S^n` 后 `X⁺≃S^n`，基线第 285 行把这个结论损成 `${S}_0${X}^+∼S^n`。Poincaré 例子原图明确区分 `G`（icosahedron symmetries，`A_5`，阶 60）与 `\widetilde G`（binary icosahedral group，阶 120）；基线第 287–289 行把商群名称和符号混在一起。基线第 283 行也把原图 `H_*(X)=H_*(S^n)` 的星号识别为 `x`。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；群商与同调球例子按 300dpi 裁片复核。
 - 记录：2026-10-01 16:44:22 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.010（PDF p.10 / 纸面圈号 10）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p010.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p010_BG-fibration.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p010_eilenberg-maclane.png`。
+- 核对：`B\widetilde G≃K(\widetilde G,1)` 的起点及纤维图；同伦群与同调群的 Eilenberg–MacLane 空间公式；`[X,K(A,n)]≅H^n(X,A)` 及 Hurewicz 映射引出的 Hom/Ext 短正合序列起始。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图对象是 `B\widetilde G≃K(\widetilde G,1)`，基线第 293–294 行丢了 `B` 上的波浪号并把 `,1` 错成下标。原图使用 `K(A,n)`（Eilenberg–MacLane space），基线第 308、311、317、320、323 行反复写成 `H(A,n)`；这改变了后续 `π_q`、`[X,K(A,n)]` 与 Hurewicz 断言的对象。基线第 304 行也把原图的 `H_*(α)` / `H_*(β)` 误作 `H_x` / `H_y`，第 306 行把 `(B\widetilde G)^+` 的波浪号位置错置。第 314 行 `H_{n+1}` 的下标另被误识为 `H_{k+1}`。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对群对象、空间符号和上下标。
+- 记录：2026-10-01 16:46:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
