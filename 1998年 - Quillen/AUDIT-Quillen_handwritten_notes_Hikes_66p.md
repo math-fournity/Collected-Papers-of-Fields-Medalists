@@ -123,3 +123,13 @@
 - 印刷证据与差异：UCT 原图写 `Ext^1(H_{n-1}X,A)`，基线第 335 行将上标 1 识别为 prime。原图整页均使用 Eilenberg–MacLane 空间 `K(A,n)`，而基线第 338、340、365 行写 `H(A,n)`，第 343 行又把自然映射 `ρ` 识别成 `H''`。塔构造原图明确给出 `\widetilde H_qX_n=0`（`q<n`），基线第 355 行漏掉该条件；原图令 `A=H_n(X_n)` 并构造 `X_n→K(H_nX_n,n)`，基线第 368 行写成 `H_n(X_0)` 和 `H(H,X_0,n)`，其后第 371 行也把 `K` 错成 `H`。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核上下标、K/H 字形和塔的 stage index。
 - 记录：2026-10-01 16:48:10 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.012（PDF p.12 / 纸面圈号 12）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p012.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p012_spectral-5term.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p012_tower-acyclicity.png`。
+- 核对：`X_{n+1}` 的纤维定义；Serre 谱序列及五项序列；逐级提高约化同调消失范围；逆向纤维塔极限 `AX` 的无环性。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图谱序列为 `E^2_{p,q}=H_p(K,H_qX_{n+1})⇒H_{p+q}(X_n)`，基线第 385 行使用 `g` 替代 `q` 并写成 `p+g`。原图第 399 行的归纳结论是 `\widetilde H_qX_{n+1}=0` 对 `q<n+1`，基线将不等式及阶段下标压成 `g < _{X_n}^{n+1}`。原图塔图含 `…→X_3→X_2→X_1=X` 的 stage 映射，基线第 403 行压成残缺 `T→X=X_1` 图式。原图以逆极限 `AX_\infty=\lim_{\leftarrow}X_n` 定义 `AX` 并得 `\widetilde H_q(AX)=0`，基线第 407 行漏掉逆向箭头、把同调指标写成 `x`，还将 `acyclic` 错成 `cyclic`；这改变了本页构造的结论。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述裁片核对谱序列指标、塔图、逆极限和 acyclic 结论。
+- 记录：2026-10-01 16:52:03 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
