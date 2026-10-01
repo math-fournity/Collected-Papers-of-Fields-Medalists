@@ -159,3 +159,12 @@
 - Markdown segment: lines 569–626, from the continuation of the KO-index property through Lemma 10's vanishing statement.
 - Compared: restricted gauge group and associated bundles; family operator; fibration/orientability argument; `w₁` index class; homotopy of Fredholm operators; Lemma 10 statement.
 - Result: **PASS±**. The formulas and mathematical statements match. The 300-dpi crop confirms the bundle term `λ²(T*X)` as transcribed. At Markdown line 575 the print has a period after `P_{x₀}`, while Markdown uses a comma before “Then”; this punctuation difference does not change the claim. The running author header and folio `294` are absent.
+
+### p.017 (PDF p.17 / print p.295)
+
+- PNG: `audit/p017.png` (150-dpi `pngmono`); formula crop: `audit/300dpi/p017-restriction-class.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:17:11 EDT
+- Markdown segment: lines 629–671, from Lemma 10's proof through note (iii), ending “for any”.
+- Compared: stable-range claim; restricted-adjoint representation; KO-class restriction; simple-connectedness reduction to `π₄(SU(n))`; notes (i)–(iii).
+- Result: **FAIL**. Markdown line 655 omits the printed connective “to” between `H¹(\hat B(M,3,k); Z/2)` and `H¹(\hat B(M,2,k); Z/2)`, and concatenates the second group immediately after a `$$` delimiter. The 300-dpi crop confirms the complete source relation. The other checked statements match; the running author header and folio `295` are absent.
