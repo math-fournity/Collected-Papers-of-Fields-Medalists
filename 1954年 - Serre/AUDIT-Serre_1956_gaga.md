@@ -142,3 +142,10 @@
 - Evidence: [300 dpi exact-sequence prose crop](audit/300dpi/Serre_1956_gaga_p018_prime-prose_300dpi.png); [300 dpi exact-sequence formula crop](audit/300dpi/Serre_1956_gaga_p018_exact-sequence_300dpi.png); PDF text layer and MinerU Markdown lines 311–347.
 - Checked: Proposition 10(a)–(c), the primed pullback sequence and tensor sequence, local presentations of coherent sheaves, and the opening setup for Proposition 11.
 - Result: FAIL. In the prose sequence after “il en est évidemment de même,” the print has F_1' → F_2' → F_3'. The first crop confirms the prime on F_3'; Markdown line 319 omits it. The displayed tensor sequence on line 322 has the prime on all three terms and agrees with print.
+
+### PDF p.019/43 — print p.18
+
+- Reviewed: 2026-10-01 16:26 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi localization and tensor crop](audit/300dpi/Serre_1956_gaga_p019_localization-tensor_300dpi.png); PDF text layer and MinerU Markdown lines 347–371.
+- Checked: Proposition 11, local ring labels A/A'/B/B'/E, the two associated-sheaf stalks, the quotient/base-change identity, and the canonical tensor-product isomorphism.
+- Result: FAIL. The print labels the rings with second subscripts X and Y (O_{x,X}, O_{x,Y}, H_{x,X}, H_{x,Y}); Markdown line 354 uses lowercase x and y. The print also has B' = B/aB with an unaccented ideal symbol, while Markdown line 363 reads B/àB. The displayed tensor-product subscripts on line 360 agree with print.
