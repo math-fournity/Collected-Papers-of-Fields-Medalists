@@ -249,3 +249,12 @@
 - Markdown segment: lines 1009–1050, from `ξ=(v^i,φ)` through the final estimate `≤ const. |ξ|`.
 - Compared: flow action and `α(ξ)` definition; variation of the self-dual projection; curvature estimates in the two radial ranges; `L²` and `L^{4/3}` derivative bounds.
 - Result: **FAIL**. Markdown line 1011 inserts `$$` between the inline formula for `α(ξ)` and the following prose, creating malformed math delimiters; the printed page has a single inline formula followed by “α is plainly linear”. This is a repair candidate. The 300-dpi crops also confirm two source-level print quirks that Markdown preserves: the first derivative term in the correction estimate is printed `c/dt`, and the preceding `F_-(f_t(A))` display lacks an outer closing parenthesis before the norm bar. These print forms must remain faithful to the page. The other checked bounds match; the running author header and folio `304` are absent.
+
+### p.027 (PDF p.27 / print p.305)
+
+- PNG: `audit/p027.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:37:36 EDT
+- Markdown segment: lines 1053–1097, from the Proposition 18 estimate through Lemma 20's rescaling reduction to `R=1`.
+- Compared: curvature-difference bound; derivative estimates for `p`; conclusion that `p` is locally one-sheeted; III.4 setup and Lemma 20 annulus/curvature hypotheses.
+- Result: **PASS±**. The statements and displayed formulas match the page image. The Markdown's following image block is outside this page's final printed sentence and will be checked against the next PDF page. The running author header and folio `305` are absent.
