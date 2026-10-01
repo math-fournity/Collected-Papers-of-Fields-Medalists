@@ -82,3 +82,10 @@
 - 时间：2026-10-01 16:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
 - 证据：源 PDF p.010 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p010.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_topology_not_supset.png` 与 MinerU Markdown 第 227–231 行。裁片确认 Zariski 拓扑定义中的原文条件为 `P ⊅ I`（素理想 P 不包含理想 I），Markdown 写成 `P \not\cong I`，关系符含义错误。该页还把层 `O_X`、`O_Y` 与 `O_S` 的下标大小写混写为小写 x/y/s，并把点处局部环 `O_{X,x}` 写成 `O_X`；此处 subscript 区分结构层和 stalk，属数学对象记号错误。印刷使用花体 `\mathcal{R}` 表示 local-ringed spaces 类别，Markdown 多处仅为普通 `R`。
 - 结论：拓扑开集条件及 local-ringed-space/sheaf 记号有实质错误，列为 FAIL；待完成全篇审计后逐处核验和手工修复。
+
+### PDF p.011 / 96（印刷 p.118）— PASS±
+
+- 时间：2026-10-01 16:38 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.011 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p011.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p011_products.png` 与 MinerU Markdown 第 235–243 行。文本层压平了基底积、对角映射和 Hom 同构中的符号；图像确认 Markdown 的 `\pi_1`、`\pi_2`、`\Delta` 与同构关系正确。印刷产品符号使用小写下标 `s`（`\times_s`），Markdown 忠实保留，不按对数学记号的预期改成大写。印刷类别符号有独特字形，Markdown 记为普通 `S`，只记录为排版差异。
+- 备注：印刷运行页眉和页码 118 未录入 Markdown，属非误导性导航元素省略。
+- 结论：该页定义与映射内容相符；仅有类别符号字形和运行页眉/页码省略，记为 PASS±。
