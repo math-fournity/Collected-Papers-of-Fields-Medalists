@@ -138,3 +138,11 @@
 - 核对：Definition 4.1 的 Galois 群与分级空间、Gr map、Lemma 4.2 两种 lattice 及比较证明。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 582 行把定义中的 `G_K`-representation 写成 `G`-representation，且在 `V_n^\circ` 不变量处用小写 `G_k`。第 589 行的 `Gr S_cris(V) → Gr D_dR(V)` 漏掉箭头。第 595 行把系数域写为 `W(\bar{\mathbb F}_p)[1/\bar p]`，源文是 `[1/p]`；第 597 行又将 `t^n` 录为 `t^{\bar n}`。300dpi 裁片确认群标记、映射箭头和指数/分母。PASS± 拼写瑕疵未改变以上分级。
+
+## p.016（PDF p.16 / 印刷 p.16）
+- 时间：2026-10-01 16:58:34 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p016.png`（pngmono 150dpi）
+- 核对：Definition 4.3–4.4、Theorem 4.5 与完整证明、§4.2 开头。
+- 结果：PASS±。
+- 差异与依据：Definition 4.4 第 605 行把 `S-b_1\dim V` 的 TeX 数学式边界拆成 `$S-b_1$dim$V$`，但乘积因子仍可读。脚注 9 的 `V(-b_1)` 被单独抽成前一段孤立 span，第 629 行脚注正文则留下 “weights of …” 空缺；页图原文为 “weights of V(-b_1)”。Theorem 4.5 的规范化权重和界、lattice 夹逼与行列式估计在 PDF 与 Markdown 中对应。
