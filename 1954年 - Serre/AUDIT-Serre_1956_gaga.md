@@ -163,3 +163,10 @@
 - Evidence: [300 dpi remark 2 crop](audit/300dpi/Serre_1956_gaga_p021_remark2_300dpi.png); [300 dpi Theorem 1 crop](audit/300dpi/Serre_1956_gaga_p021_theorem1_300dpi.png); [300 dpi constant-sheaf crop](audit/300dpi/Serre_1956_gaga_p021_constant-sheaf_300dpi.png); PDF text layer and MinerU Markdown lines 437–469.
 - Checked: Theorem 3, both remarks, the factorization of epsilon, the constant rational-function sheaf example, Theorem 1 and Lemma 4.
 - Result: PASS±. The crops confirm the factorization targets F' before F^h, the negative question concerns the F' map, the printed constant-sheaf term is K without a prime, and Theorem 1 uses q ≥ 0. These forms agree with Markdown; no content difference was found on this page.
+
+### PDF p.022/43 — print p.21
+
+- Reviewed: 2026-10-01 16:32 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi recurrence and q-bound crop](audit/300dpi/Serre_1956_gaga_p022_recurrence_300dpi.png); PDF text layer and MinerU Markdown lines 469–505.
+- Checked: Lemmas 4 and 5, hyperplane exact sequences, the cohomology diagram, the five-lemma induction, the q-bound, and footnote (4).
+- Result: PASS±. The print crop confirms the comparison map is bijective for q ≥ 0; the PDF text layer flattens that glyph to “> 0,” while Markdown has ≥. The remaining checked sequences and footnote agree; the running title/page number are omitted from Markdown.
