@@ -149,3 +149,10 @@
 - Evidence: [300 dpi localization and tensor crop](audit/300dpi/Serre_1956_gaga_p019_localization-tensor_300dpi.png); PDF text layer and MinerU Markdown lines 347–371.
 - Checked: Proposition 11, local ring labels A/A'/B/B'/E, the two associated-sheaf stalks, the quotient/base-change identity, and the canonical tensor-product isomorphism.
 - Result: FAIL. The print labels the rings with second subscripts X and Y (O_{x,X}, O_{x,Y}, H_{x,X}, H_{x,Y}); Markdown line 354 uses lowercase x and y. The print also has B' = B/aB with an unaccented ideal symbol, while Markdown line 363 reads B/àB. The displayed tensor-product subscripts on line 360 agree with print.
+
+### PDF p.020/43 — print p.19
+
+- Reviewed: 2026-10-01 16:28 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi cohomology-diagram crop](audit/300dpi/Serre_1956_gaga_p020_cohomology-diagram_300dpi.png); [300 dpi Theorem 1–2 crop](audit/300dpi/Serre_1956_gaga_p020_theorem1_300dpi.png); PDF text layer and MinerU Markdown lines 395–435.
+- Checked: induced cohomology maps, the connecting-homomorphism diagram, its coherent-sheaf condition, projective-space setup, and Theorems 1–2.
+- Result: FAIL. The print says “where the sheaf C is coherent” (the sheaf \mathcal C from the exact sequence); Markdown line 413 has “où le faisceau à est cohérent.” The diagrams and theorem statements otherwise agree, including q ≥ 0.
