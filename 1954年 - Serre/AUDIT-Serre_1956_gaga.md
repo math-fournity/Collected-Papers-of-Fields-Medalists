@@ -34,3 +34,10 @@
 - Evidence: [150 dpi page](audit/Serre_1956_gaga_p003_150dpi.png); [300 dpi local-ring crop](audit/300dpi/Serre_1956_gaga_p003_local-rings_300dpi.png); PDF text layer compared with MinerU Markdown lines 27–35.
 - Checked: Introduction continuation, the statements about coherent sheaves and cohomology, the local-ring comparison, cited authors, applications paragraph, and footnote (1).
 - Result: PASS±. The content and footnote agree. PDF text extraction mangles the local-ring glyphs, while the 300 dpi crop confirms the printed O_x and H_x notation represented by Markdown as \mathcal{O}_x and \mathcal{H}_x. The running author and print page number are not represented in the Markdown.
+
+### PDF p.004/43 — print p.3
+
+- Reviewed: 2026-10-01 16:03 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi page](audit/Serre_1956_gaga_p004_150dpi.png); [300 dpi inequality crop](audit/300dpi/Serre_1956_gaga_p004_geq_300dpi.png); PDF text layer and MinerU Markdown lines 37–55.
+- Checked: end of Introduction, section/paragraph headings, definition of analytic subsets, and the restriction-map/faisceau notation through the definition of holomorphic maps.
+- Result: PASS±. Checked prose and notation agree. The PDF text layer flattens the first bound to “n ^ 0”; the print crop confirms “n ≥ 0”, matching Markdown line 43. The running title and print page number are not represented in Markdown.
