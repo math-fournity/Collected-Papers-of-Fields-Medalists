@@ -213,6 +213,13 @@
 - Checked: transformation remark, Proposition 13 and its support argument, Proposition 14's compact analytic subset, and Proposition 15's statement.
 - Result: PASS±. The print spells the Proposition 13 noun “sous-ense.nble” with a visible intrusive period; the 300 dpi crop confirms the print quirk and Markdown preserves it. No correction is warranted. Other checked statements agree.
 
+### PDF p.031/43 — print p.30
+
+- Reviewed: 2026-10-01 16:53 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi H^0/H^1 crop](audit/300dpi/Serre_1956_gaga_p031_H0-H1_300dpi.png); PDF text layer and MinerU Markdown lines 760–782.
+- Checked: the end of Proposition 15, Corollary, section on algebraic/analytic principal bundles, nonabelian H^0/H^1 notation, and Proposition 16.
+- Result: FAIL. The print defines the group H^0(X,A) and the pointed set H^1(X,A); the crop confirms superscript zero. Markdown line 768 has H^6(X,A). The subsequent H^1 classifications and Proposition 16 statement agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
