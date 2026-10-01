@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，main HEAD 为 `e864b3b9`；AUDIT-INDEX 有 110 条论文记录，其中 70 篇完成、40 篇已分派。全仓 141 个 PDF 中有一个已核实 byte-identical 副本，逻辑篇数为 140。Drinfeld 候选 HEAD `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 尚未集成，不计入完成。Git worktree list 观察到 40 个 Peer worktrees（另有 main 共 41 个 checkout）。
+本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 110 条论文记录，其中 70 篇完成、40 篇已分派。全仓 141 个 PDF 中有一个已核实 byte-identical 副本，逻辑篇数为 140。Drinfeld 候选 HEAD `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 尚未集成、不计入完成。Git worktree list 观察到 40 个 Peer worktrees（另有 main 共 41 个 checkout）；P01–P09 的 156 条 committed page receipts 已由 Master 在 `e10cd162` harvest 并记入根进度，均明确保留候选/未集成状态。
 
 项目治理骨架已于 2026-10-01 建立。用户新增了剩余 MinerU Markdown 正文修复的逐处 Edit 规则，已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。当前工作已恢复论文队列，先处理 `1990年 - Drinfeld/Drinfeld_1974_elliptic_modules.pdf`；现有 MinerU Markdown 可用。Codex 全局 MinerU skill 位于 `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 并已通过结构校验；CLI 4.0.8 可执行，但 MinerU library server 当前停止、standard 所需 GGUF 模型缺失，本轮未启动服务、下载模型或远程上传。
 
@@ -20,7 +20,7 @@
 - 用户明确 Master 不再执行逐页初审；最新指令 supersede 先前“等三个任务结束再讨论扩容”的暂缓要求。Master 负责调度、只读质量复核、共享文件集成与验收，不替 worker 初审或改论文。
 - 用户明确 Master-Luna 与各 Peer 使用唯一 actor ID，并在篇级 AUDIT、页级工作日志和 Git commit subject 中写明 actor/model/effort；历史 GLM 处理不回填或改写。当前 Master 身份为 `Master-Luna | gpt-6-luna/max`。
 - 现有可验证 Peer 候选为 Witten `bc4605dc`、Deng `3e5e964b`；Drinfeld worker 候选 `f46300d1` 正处于修复/总复核阶段。Witten/Deng worktree 已消失但 commit 对象仍可读，正式 thread ID 未从 app 列表发现；集成前必须核 exact paths/base。
-- P01–P09 分别由独立 worktree 从 `e04c4a96` 起步，并已出现带 Peer ID/model/effort 的逐页提交；P10–P39 分别从 `03760242` 起步。Codex app 的 create_thread 返回 30 个 `clientThreadId`，正式 `threadId` 仍未在 list_threads 中显示，不能将 client ID 传给 wait/read/message；依托共享 Git worktree 做只读监测。清点曾漏掉 Okounkov 2001 的 35 页未审件，已列为 P10，后续滑动窗口继续从未闭环物料中补位。
+- P01–P09 分别由独立 worktree 从 `e04c4a96` 起步，并已出现带 Peer ID/model/effort 的逐页提交；P10–P39 分别从 `03760242` 起步。Codex app 的 create_thread 返回 30 个 `clientThreadId`，正式 `threadId` 仍未在 list_threads 中显示，不能将 client ID 传给 wait/read/message；依托共享 Git worktree 做只读监测。P01 Deligne p.6–p.11 的页级 commits 带有结果等级，但相应篇级 AUDIT 记录暂未写出显式 PASS/PASS±/FAIL 结果行；根日志已标注 `AUDIT_result_field_missing`，这些页及本篇均不得据此视为通过或集成完成。清点曾漏掉 Okounkov 2001 的 35 页未审件，已列为 P10。
 - 官方 Codex 文档确认项目 task/worktree 并行工作模式，但未发现该 app task 入口的数字并发上限；API multi-agent 默认并发配置不同，不能当作 app project peer cap。40 是用户本轮的最低操作目标，不是平台保证值。
 
 ## 当前有效约束摘要
@@ -79,3 +79,9 @@
 - `e04c4a96` 注册并分派 P01–P09，`3dfa4a64` 记录其 dispatch；`03760242` 建立路径级互斥规则并注册 P10–P39，`e864b3b9` 记录第二批 dispatch。最新只读 `git worktree list` 共 41 个 checkout（main + 40 Peer）。P01–P09 已产生 page commit；P10–P39 的工作树正在初始化/启动，截至当前快照其中至少 8 个可见论文路径文件变化。
 - create_thread 为新批次返回 `clientThreadId` 而非 formal `threadId`；list_threads 尚未列出这些任务。不要把 client ID 用于 thread 读写/等待；当前用精确 worktree、提交、AUDIT 证据监控。以后的任务按页数队列滚动补位，仍待处理的首项/可恢复项以 AUDIT-INDEX、PDF 清单与 MinerU 导出实物核定。
 - 40 是用户要求的 Worker 并发数，不是官方平台能力上限声明；官方 Codex app 的公开并行任务/worktree材料未发现数值上限。
+
+### E006 · 2026-10-01 · 40 Peer worktree 与页级收据复核
+
+- 40 个 Peer worktree 已在同一 repo common-dir 中可见；P01–P09 产生了 156 个逐页 audit commits，P10–P39 已创建 30 个独立 worktree 任务（create_thread 返回 clientThreadId，正式 threadId 尚未显示）。Master 没有编辑论文，只读检查任务范围、分支提交和篇级 AUDIT。
+- Master 在 `e10cd162` 将 P01–P09 已提交页签作为候选进度写入 `AUDIT-PROGRESS.log`，每行带 Peer/model/effort/source OID 并标成 candidate-not-integrated。身份抽查确认 Git subjects 带正确 Peer ID；但 P01 Deligne 的 AUDIT p.6–p.11 缺显式结果字段，尽管相应 page commits 带 FAIL；已标注审计记录不完整，等待后续用户授权/正式任务通信或候选最终回执，不做静默更改。
+- 当前尚未把任何 Witten/Deng/Drinfeld/新 Peer 论文目录候选集成至 main；AUDIT-INDEX 的 40 个“审计中”分配项不等于 40 篇完成。
