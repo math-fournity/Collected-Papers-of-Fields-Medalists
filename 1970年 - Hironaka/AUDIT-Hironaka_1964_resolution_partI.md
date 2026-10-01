@@ -48,3 +48,10 @@
 - 证据：源 PDF p.005 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p005.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p005_theorem_I.png` 与 MinerU Markdown 第 169–181 行。印刷多次写作 `Main theorem I`、`I*`、`I(n)`、`I'`、`I'(n)`、`I''(n)`；Markdown 第 177、179 行相应写成数字 `1`（如 `main theorem 1(n)`、`1'(n)`）。300dpi 图确认均为罗马大写 I，非阿拉伯数字 1，属于定理名称误录，待全篇审计后逐处手工修复。该页的映射公式 `f: \widetilde{X} \to X`、`f^{-1}(V) \xrightarrow{\approx} V` 及脚注 1 与原页相符。
 - 备注：印刷运行页眉与页码 112 未录入 Markdown，属非误导性导航元素省略。
 - 结论：定理编号 I 被误录为 1，列为 FAIL；修复前保留原稿。
+
+### PDF p.006 / 96（印刷 p.113）— PASS±
+
+- 时间：2026-10-01 16:29 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.006 文本层与 MinerU Markdown 第 183–190 行。Introduction 对 Chapter 0 §§1–3、§5 的概述、Levi–Zariski 说明、normal flatness 与代数边界段落逐项相符；本页末尾在“into an”处接续至下一物理页，Markdown 后续行与之衔接。
+- 备注：印刷运行页眉与页码 113 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：未发现正文或数学记号差异；因运行页眉/页码省略记为 PASS±。
