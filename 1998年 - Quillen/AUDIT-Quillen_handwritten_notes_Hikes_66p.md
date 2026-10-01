@@ -133,3 +133,13 @@
 - 印刷证据与差异：原图谱序列为 `E^2_{p,q}=H_p(K,H_qX_{n+1})⇒H_{p+q}(X_n)`，基线第 385 行使用 `g` 替代 `q` 并写成 `p+g`。原图第 399 行的归纳结论是 `\widetilde H_qX_{n+1}=0` 对 `q<n+1`，基线将不等式及阶段下标压成 `g < _{X_n}^{n+1}`。原图塔图含 `…→X_3→X_2→X_1=X` 的 stage 映射，基线第 403 行压成残缺 `T→X=X_1` 图式。原图以逆极限 `AX_\infty=\lim_{\leftarrow}X_n` 定义 `AX` 并得 `\widetilde H_q(AX)=0`，基线第 407 行漏掉逆向箭头、把同调指标写成 `x`，还将 `acyclic` 错成 `cyclic`；这改变了本页构造的结论。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述裁片核对谱序列指标、塔图、逆极限和 acyclic 结论。
 - 记录：2026-10-01 16:52:03 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.013（PDF p.13 / 纸面圈号 13）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p013.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p013_mapping-space.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p013_central-extension.png`。
+- 核对：acyclic `T` 的映射性质、Dror tower 导出的映射序列、`AX` 与 `X→X⁺` 的练习；central extension 与 universal central extension 定义和命题。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 proof 使用 `K(A,n)` 与 `K(H_nX_n,n)`；基线第 412 行写 `H(A,n)`，第 414 行把两个 Eilenberg–MacLane 空间写成损坏的 `H(H_nX_n,n-1)` / `H(H_nX_n,π)`，丢失端项度数并改变对象。300dpi 裁片确认原序列为 `[T,K(H_nX_n,n-1)]→[T,X_{n+1}]→[T,X_n]→[T,K(H_nX_n,n)]`。本页 central-extension 段与可见原式基本对应；前述空间对象和度数错误已足以判为 FAIL。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片回核 Eilenberg–MacLane 空间及度数。
+- 记录：2026-10-01 16:53:33 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
