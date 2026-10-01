@@ -120,3 +120,11 @@
 - Evidence: [300 dpi local-ring and ideal crop](audit/300dpi/Serre_1956_gaga_p015_local-rings-ideals_300dpi.png); PDF text layer and MinerU Markdown lines 246–256.
 - Checked: local-ring embeddings A, A', B and B', irreducible-component ideals, quotient rings, total fraction rings, the birationality argument and footnote (3).
 - Result: FAIL. The print uses O_{x,X} and H_{x,X}; the crop confirms uppercase X, while Markdown line 246 has lowercase x as the second subscript in both labels. Markdown later renders the defined prime ideals in regular italic p_i where print uses fraktur; this is a non-misleading Fraktur loss, recorded as PASS±. Defer the case corrections until the full audit is complete.
+
+### PDF p.016/43 — print p.15
+
+- Reviewed: 2026-10-01 16:22 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: PDF text layer compared page-by-page with MinerU Markdown lines 258–278.
+- Checked: conclusion of the birationality argument, Lemma 3, minimal primes and localization, the canonical product homomorphism, and the congruence elements proving surjectivity.
+- Result: PASS±. The statements, exponent/prime labels, product map, and congruences agree. Markdown renders the defined fraktur prime ideals as regular italic p_i in some later prose; the referent is unchanged. The running title and print page number are not represented in Markdown.
+- Image: no per-page image; this born-digital page showed no distinct glyph discrepancy requiring a crop.
