@@ -146,3 +146,12 @@
 - 核对：Definition 4.3–4.4、Theorem 4.5 与完整证明、§4.2 开头。
 - 结果：PASS±。
 - 差异与依据：Definition 4.4 第 605 行把 `S-b_1\dim V` 的 TeX 数学式边界拆成 `$S-b_1$dim$V$`，但乘积因子仍可读。脚注 9 的 `V(-b_1)` 被单独抽成前一段孤立 span，第 629 行脚注正文则留下 “weights of …” 空缺；页图原文为 “weights of V(-b_1)”。Theorem 4.5 的规范化权重和界、lattice 夹逼与行列式估计在 PDF 与 Markdown 中对应。
+
+## p.017（PDF p.17 / 印刷 p.17）
+- 时间：2026-10-01 17:02:57 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p017.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p017_Theorem4.6-range.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p017_Theorem4.6-part2.png`
+- 核对：§4.2 的结构层、(4.2.1)–(4.2.2)、Theorem 4.6 两条、证明起始部分及 α 展开式。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 651 行把权重假设 `[0,m]` 写成 `0,m`，丢失区间括号。第 657 行 Theorem 4.6(2) 的范围 `0 ≤ s < r` 被损坏成带多余 `i`、`p` 的 `r_i p`，并在后文加入残留 `p the identification`；这破坏了结论对指标 s 的范围。300dpi 裁片确认印刷式为 `[0,m]` 与 `0 ≤ s < r`。修复留待全篇审计后逐处 Edit。
