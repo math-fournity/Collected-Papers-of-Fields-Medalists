@@ -50,3 +50,12 @@
 - Markdown segment: lines 103–153, from “connection is an element of” through the decomposition `Ω² = Ω⁺² ⊕ Ω⁻²`.
 - Compared: curvature expansion; gauge-group action; `SU(2)` and `U(1)` bundle classification; Proposition 3 and its curvature formula; the `c₂` and relative `Tc₂` formulas; start of the self-dual/anti-self-dual decomposition.
 - Result: **PASS±**. The mathematical text and displayed formulas match the page image. The Markdown omits the running author header and printed folio `282`.
+
+### p.005 (PDF p.5 / print p.283)
+
+- PNG: `audit/p005.png` (150-dpi `pngmono`); glyph crop: `audit/300dpi/p005-bundle-map.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 15:56:44 EDT
+- Markdown segment: lines 155–199, from the definition of the self-dual and anti-self-dual subspaces through the bundle assumption at the end of the page.
+- Compared: equation (1); curvature splitting; Yang–Mills action and Chern-class identities; flat-connection conclusion; `d⁻` and `d_A⁻`; Laplacians, harmonic spaces, and the elliptic complex.
+- Result: **FAIL**. At Markdown line 199 the printed diagram `P ↓ X` is reduced to `\downarrow`, omitting the bundle total space `P` and base `X`. The 300-dpi crop confirms the labels. The remaining checked equations and prose match; the running header and printed folio `283` are absent from the Markdown.
