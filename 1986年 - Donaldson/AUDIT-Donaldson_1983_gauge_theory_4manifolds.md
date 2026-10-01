@@ -330,3 +330,12 @@
 - Markdown segment: lines 1351–1393, from the electromagnetic decomposition through the exponential decay conclusion for `F`.
 - Compared: boundary derivative of `J`; the `S³` one-form inequality; second-order expansions of `J` and `dJ/dt`; differential inequality and decay estimates.
 - Result: **PASS±**. The displayed equations and prose match the page image. The running author header and folio `313` are absent from the Markdown.
+
+### p.036 (PDF p.36 / print p.314)
+
+- PNG: `audit/p036.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:56:12 EDT
+- Markdown segment: lines 1395–1441, from the Appendix's final decay estimate through References [1]–[16].
+- Compared: annulus-to-cylinder conclusion; decay bound; all bibliographic entries [1]–[16] (authors, titles, venues, volumes, years, and pages).
+- Result: **PASS±**. The decay argument and references match the printed page. Reference [8] preserves the print wording “The topology of four-dimensional manifold” (singular) and its punctuation; it is logged as a source-level bibliographic quirk. The running author header and folio `314` are absent from the Markdown.
