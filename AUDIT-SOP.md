@@ -84,6 +84,14 @@ echo "$(date '+%Y-%m-%d %H:%M') | PAGE | <论文短名> | p.N/总页 | <PASS±/F
 - 大件分卷按分片各自落签、各自提交（信息注明片号与 PDF 页区间）。
 - collection repo 允许 `git add -A`；**禁止 push**；历史只在本地。
 
+## AI 身份与并行 Worktree 日志
+
+依据 `rulings.md#R-002`：Master 的 actor ID 固定为 `Master-Luna`；每个 Peer 在开工时取得唯一 `Peer-PNN` ID。篇级 AUDIT 头部、每条页级记录、Master 根 `AUDIT-PROGRESS.log` 的 PAGE/START/DONE 记录，以及 Peer 的每个 `audit(page)`、`fix(md)`、`audit` commit subject，均须写明 actor ID、实际模型名和 reasoning effort（例如 `[Peer-P01 | gpt-6-luna/max]`）。Master 的总账与集成提交使用 `[Master-Luna | gpt-6-luna/max]`，并在集成记录中列出 Peer、精确候选 OID 和复核结果。Git author 仍保持真实提交环境提供的身份，不伪造 author、时间或签名。
+
+并行 Worktree 采用单篇单 Peer、独占论文目录；同一时点只有 Master 是 `CANONICAL_INTEGRATOR`。Peer 在每页签认后立即把带时间、页码、结果和 actor 的记录写入自己的篇级 AUDIT，并按每页一提交保全该页审计说明与证据图片。Peer 不改根 `AUDIT-INDEX.md`、`AUDIT-PROGRESS.log`、`README.md`、`MEMORY.md` 或其他篇目；Master 监测到 Peer 的精确 page commit 后，把原始事件时间和 actor 复制到主线根进度日志，并独占更新当前总账/资产地图。Peer 的篇级 AUDIT 与候选 Git 提交是并行期间的恢复证据；根级日志是集成后的 canonical 投影。若 Master 尚未收录某页，按 Peer 精确候选 OID 恢复，不能把未集成候选说成主线已完成。
+
+旧提交和旧日志不得为满足新格式而改写或回填猜测身份。历史 GLM/其他模型工作继续保留原样；身份、模型或 effort 当时未被记录时必须标为 `UNKNOWN`，不能从文本风格推断。
+
 ## README 与索引维护（资产地图）
 
 - `README.md`（repo 根）是**资产地图与目录 schema 的唯一真值**：层级结构、命名约定、审计与来源链、

@@ -1,43 +1,38 @@
-# 交接提示词 —— Collected-Papers-of-Fields-Medalists 逐页视觉审计（2026-09-30 深夜快照 · 第七轮）
+# 交接提示词 —— Collected-Papers-of-Fields-Medalists 逐页视觉审计（2026-10-01 更新）
 
-> 把本文件全文作为新 Session 的第一条消息发给 ZCode 的 AI。快照：2026-09-30 深夜，git HEAD `6e34e140`，
-> 进度 **63/140**，working tree 干净，已推送 origin/main。旧 09-29 版（20/85 快照）已被本版取代，
-> 旧内容在 git 历史中可查。
+> 本文件记录工作方法，不是实时仓库状态：篇级进度以 `AUDIT-INDEX.md` 为准，页级断点以 `AUDIT-PROGRESS.log` 为准，当前 branch/HEAD/dirty 状态以实际 `git status` 为准。2026-10-01 核对时索引中有 70 篇完成标记，最新页级记录是 Maynard popular exposition 31/31 DONE（累计 70/140）；接手时仍须重新查询。
+> 2026-10-01 已加入用户裁定：剩余篇目 MinerU Markdown 正文修复使用 Edit 逐处手工修改，脚本仅作只读终验清点。此前静态交接数字与本段核对数字不一致时，以 INDEX、PROGRESS 和当前 Git 为准。
 
 你好。你接手 `/Users/aurolafly/Collected-Papers-of-Fields-Medalists`（独立 git repo，branch main）
 的「论文 PDF 逐页视觉审计 + mineru md 修复」任务。请把本会话启动在该 repo 根目录（cwd = 该目录），
 所有相对路径、git add/commit 都以它为基准。本文件自包含：不需要任何对话历史，按本文执行即可。
 
-## 0. 当前状态（权威快照，先信这里）
+## 0. 当前状态（接手时回到实物核对）
 
-- 进度：**63/140 篇完成**（`AUDIT-INDEX.md` 含 63 个 "✅ 完成" 行），HEAD = `6e34e140`，
-  working tree 干净，**已推送** origin/main。
+- 篇级进度唯一真值是 `AUDIT-INDEX.md`；最近页级断点见 `AUDIT-PROGRESS.log` 末尾。2026-10-01 核对为 **70/140 篇完成**，但此数字仅是本文件此次更新时的快照。
+- branch、HEAD、index/working tree 状态和远端是否同步，必须在接手时用 Git 查询；不要把本文件或旧提交说明里的静态状态当作当前状态。
 - 身份：`math-fournity <math-fournity@proton.me>`；**push 已获用户常设授权**（直接
   `git push origin main`）；**禁止改写历史 / force push**。
 - 远端：`https://github.com/math-fournity/Collected-Papers-of-Fields-Medalists`。
-- 上一会话（2026-09-30 晚—深夜，第七轮）闭环 4 篇共 129 页：
-  McMullen 1991 Cusps（60，`016dc296`）、Maynard 2015 published（61，`6f189700`）、
-  DePhilippis–Figalli 2015 published（62，`b5c63fe7`）、Bhargava–Shankar 2015 published
-  （63，`6e34e140`）。
-- **账实已对齐**：第六轮曾报 "累计 60/140" 系虚高（INDEX 中 Mori 1979 重复两行 + Okounkov
-  2003 JAMS 闭环件漏登）。本会话已修正：Okounkov 补行、Mori 并行，`AUDIT-INDEX.md` 现有
-  63 行全部带 "✅ 完成"，与 git 历史逐一对账相符。**进度唯一真值 = `AUDIT-INDEX.md`**，
-  交接词与口头数字一律以其为准。
+- 最新 DONE 项和中断恢复点一律从 `AUDIT-PROGRESS.log` 实读；不要从本文件的旧候选列表推断下篇。
 - 用户总目标（不可漂移）：**按 SOP 处理完所有 140 份文档**。若发生上下文压缩，必须第一时间
-  重新完整加载本文件 + `AUDIT-SOP.md` + `AUDIT-INDEX.md`。
+  重新恢复 `AGENTS.md`、README/MEMORY/Feature/rulings/docs 路由，再加载本文件、`AUDIT-SOP.md`、
+  `AUDIT-INDEX.md` 与 `AUDIT-PROGRESS.log`。
 
-## 1. 第一件事：按顺序读 6 个文件
+## 1. 接手时恢复认知闭包
 
-1. `README.md`（资产地图：72 人 / 70 目录 / 140 PDF 的分节索引）
-2. `AUDIT-SOP.md`（规范：逐页流程、PASS/PASS±/FAIL 分级、FAIL 必修、图片资产纪律）
-3. `AUDIT-INDEX.md`（**篇级总账 = 唯一进度真值**；看哪些篇还没有 "✅ 完成"）
-4. `HANDOFF-AUDIT.md`（接力手册与坑清单；其 "20/85" 计数是旧快照，以本文件和 INDEX 为准）
-5. `AUDIT-PROGRESS.log`（**只读最后 10 行** = 你的精确恢复点；末行 = Bhargava 2015 published
-   DONE/COMMIT，63/140）
-6. `ZCODE-HANDOFF-PROMPT.md`（本文件）
+1. `AGENTS.md`（项目硬约束，尤其是剩余篇目 Edit 修复和 AI 全文复核要求）
+2. `README.md`（72 人 / 70 目录的资产地图）
+3. `MEMORY.md`、`feature-list.md`、`rulings.md`（当前状态、需求和原始裁定）
+4. `docs/README.md`（稳定知识路由）
+5. `AUDIT-SOP.md`（逐页流程、PASS/PASS±/FAIL 分级、print quirk 和图片证据纪律）
+6. `AUDIT-INDEX.md`（**篇级总账 = 唯一进度真值**；看哪些篇还没有 "✅ 完成"）
+7. `HANDOFF-AUDIT.md`（历史坑点参考；含旧的 20/85 等快照，当前方法冲突时以 SOP、AGENTS 和本文为准）
+8. `AUDIT-PROGRESS.log`（只读最后 10 行，恢复正在处理的论文与精确页码）
+9. `ZCODE-HANDOFF-PROMPT.md`（本文件，核对本轮接力步骤）
 
 各论文目录内：`AUDIT-<短名>.md`（逐页签 + 总评 + 修复登记）与 `audit/`（150dpi 页图 +
-300dpi 仲裁裁片，均为 git 资产）。
+300dpi 仲裁裁片，均为 Git 资产）。
 
 ## 2. 单篇工作循环
 
@@ -71,6 +66,8 @@ mkdir -p audit && gs -q -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pngmono -r150 \
 被引用为证据的裁片必须 `cp` 进 `audit/300dpi/` 随审计提交；**禁止只留 /tmp**。
 每篇开工先记进度：`echo "$(date '+%F %H:%M') | PAGE | <短名> | p.1-N/N | <模式> | 累计M+1篇进行中" >> AUDIT-PROGRESS.log`。
 
+并行 worktree 时，使用 `rulings.md#R-002` 和 `AUDIT-SOP.md#AI-身份与并行Worktree日志`：Master 分配唯一 Peer ID；Peer 每页立即在自己的篇级 AUDIT 中记录真实时间、页码、结果、actor/model/effort 并逐页提交，不改根索引/日志；Master 收到精确候选 page commit 后，将原事件时间和 actor 追加到 canonical `AUDIT-PROGRESS.log`。单人串行工作仍由负责工作的 actor 直接追加根日志。不得改写既有 GLM 历史或推断旧身份。
+
 ### 2.2 通读 md + 伪影族 grep
 
 完整读一遍 mineru md（长文分段 Read，行要读全），同时 grep 伪影族：
@@ -94,55 +91,28 @@ Maynard "X^{9/12}"、DeFigalli "R_V^+(X)"、Bhargava "M_p(U₁,F)"、"[0,1]∈�
 注意 pdftotext 的系统性盲区：**丢弃 ≠ ∫ Ш ∑ 等字形**（输出缺失≠print 没有）、重音字符
 拆解（à → \`a）、下标上标扁平化。
 
-### 2.4 修复脚本：收敛式（第七轮沉淀，务必照做）
+### 2.4 逐处手工修复与 AI 全面确认（2026-10-01 用户裁定）
 
-用 Write 工具落盘 `/tmp/<短名>_pub/fix_md.py` 再执行。**禁止多轮 heredoc 内联补丁**
-（第七轮在 Bhargava 篇因转义补丁浪费大量轮次——不要重蹈）。已验证可靠的脚本结构：
+本条适用于尚未完成篇目的 MinerU Markdown 正文纠错和内容级修复。每篇以负责工作的 AI 使用 `Edit` 工具逐处手改为主；修复脚本不再负责写入或替换文本。
 
-```python
-t = io.open(MD, encoding='utf-8').read()
-applied, missed, skipped = [], [], []
-def sub(old, new, n):            # 精确规则：计数断言，失败仅记录不中止
-    global t
-    c = t.count(old)
-    if c != n: missed.append((old[:56], n, c)); return
-    t = t.replace(old, new)
-def try_sub(key, old, new):      # 条件规则：在场才替换（幂等收敛，重跑安全）
-    global t
-    if old in t: t = t.replace(old, new, 1); applied.append(key)
-    else: skipped.append(key)
-def rsub(pat, repl, n):          # regex 规则：repl 一律 lambda 化（见铁律2）
-    rr = repl if callable(repl) else (lambda m, r=repl: r)
-    t2, c = re.subn(pat, rr, t)
-    if c != n: missed.append((pat[:56], n, c)); return
-    t = t2
-# …全部规则…
-io.open(MD, 'w', encoding='utf-8').write(t)   # 始终写盘 + 打印 applied/missed/skipped 报告
-```
+1. **先核实问题和证据**：结合 §2.1–2.3 确认疑点所在 PDF 页、Markdown 上下文及印刷原文。字形或公式不能由文本提取唯一确定时，用本提示词要求的 PNG/300dpi 原图仲裁。print 里的拼写或编号即使看似错误，也按 §2.3 忠实保留并在 AUDIT 中登记。
+2. **通过 Edit 逐处修改**：每个实际出现位置单独判断并编辑；不得将一组查找/替换规则写成 Python、正则、`sed`、Perl、heredoc 或其它可批量改写 Markdown 的脚本。若 `Edit` 工具不可用，暂停该篇并报告，不切换到写文件脚本。
+3. **留下可追溯记录**：每条修复在 `AUDIT-<短名>.md` 中记录 PDF 页码、原文证据、改动内容和修改后的核对结果；不要只写脚本 applied 数量。
+4. **全面复核最终文件**：手工编辑后重新从头阅读最终 Markdown 全文，并按本篇的 born-digital/扫描件模式回核相应页面。逐条验证预期修复已正确落入、没有漏改/重复误改，也没有因编辑引入的新差异；按 SOP 为所有页给出签名和完成声明。
+5. **脚本仅作只读终验与清点**：此时可用脚本统计 `\tag`、编号缺失/重复、剩余伪影、待查候选及修复清单覆盖率。脚本不得写回、格式化或自动修复目标 Markdown；脚本 PASS 只证明对应机械检查通过，不能替代 AI 的原文判断和全文复核。终验发现问题时，返回 `Edit` 逐处手改并重跑只读清点。
 
-- **转义三条铁律**（第七轮踩遍，勿重蹈）：
-  1) regex **pattern** 里匹配 md 的字面反斜杠必须双写（`r'\\frac'` 匹配 `\frac`）；
-     `\f \b \t \n \m` 等在 pattern 里是合法转义但含义错误（`\f`=换页）——匹配字面
-     反斜杠+字母必须 `\\`；
-  2) re.subn 的 **replacement 模板**同样解析转义——凡 repl 含反斜杠一律传
-     `lambda m: r'\frac …'`（callable 直通）；
-  3) **不要用带反斜杠的字符串去 patch 脚本自身**（双层转义必错，第七轮多次浪费轮次）——
-     要改脚本就整文件 Write 重写。
-- 规则失败时**禁止盲改**：先对 md 跑探针（`t.count(锚点)` / repr 上下文）拿真实字节再修。
-- 规则失败不中止（missed 记录），**写盘后必做终验**：\tag 全量清单（Counter 查重/缺失，
-  与 print 逐号对齐——第七轮三篇分别对齐到 106/89/40 组）、**每条意图修复的实际存在性
-  检查**（防"部分写盘丢失/前轮覆盖"事故）、残余伪影 grep 全零。
+“AI 全面确认”只可在可见证据覆盖上述步骤时声称；处理速度放慢是用户明确接受的取舍。此规则不要求重做已完成篇目，也不改变 MinerU 初始导出、PDF/PNG 只读检查、逐页签、AUDIT 登记或 Git 来源链纪律。
 
 ### 2.5 收尾三段提交（顺序固定）+ push
 
 ```bash
 git add "<论文目录>/AUDIT-<短名>.md" "<论文目录>/audit"
-git commit -m "audit(page): <短名> N页签（<模式与伪影族摘要>，K处修复清单）"
+git commit -m "audit(page): <短名> p.N/N <等级> [<actor> | <model>/<effort>]"
 git add "<论文目录>/<base>_mineru/<base>__<base>.md"
-git commit -m "fix(md): <短名> <细节> 共K处/R规则（修复前 md = 父提交；<证据链>；<源级登记>）"
+git commit -m "fix(md): <短名> <细节> [<actor> | <model>/<effort>]（修复前 md = 父提交；<证据链>；<源级登记>）"
 # AUDIT 文件追加「### 修复登记」+ AUDIT-INDEX.md 追加一行 + AUDIT-PROGRESS.log 追加 DONE/COMMIT
 git add "<论文目录>/AUDIT-<短名>.md" AUDIT-INDEX.md AUDIT-PROGRESS.log
-git commit -m "audit: <篇名> N页审计完成（累计M/140）"
+git commit -m "audit: <篇名> N页审计完成 [<actor> | <model>/<effort>]（累计M/140）"
 git push origin main
 ```
 
@@ -185,17 +155,11 @@ git push origin main
 
 ## 5. 你的第一项任务与队列
 
-按 `AUDIT-INDEX.md` 未勾选行、**页数升序**接力。参考队列（以 INDEX 实时为准，含但不止）：
-中小件先行——Borcherds 44p、Mirzakhani simple geodesics published 44p、Tsimerman 52p、
-Douglas 59p、Kontsevich published 60p、Quillen 63p、Tao–Green published 67p、Thom 70p、
-Smirnov conformal 70p、Scholze published 70p、Huh 2020 lorentzian 60p、Birkar singularities
-46p、Okounkov arXiv、Serre GAGA、Avila schrodinger 30p（arXiv 版，published 版已审）、
-Lindenstrauss published 79p、Yoccoz 91p、Venkatesh 91p、Birkar fano flips 93p、Gowers 124p、
-Wang–Zahl 127p；**大部头殿后**——Mirzakhani simple geodesics 49p、Hironaka I 95p/II 122p/
-讲义 139p、Schwartz I 142p/II 209p、Hairer published 236p、Lafforgue 241p、EGA 227p、
-Deng 34p/138p/192p、Wiles 270p、Thompson 282p，及 ICM/citation/laudatio 零散小件。
+先将 `README.md` 的论文资产地图与当前 PDF 文件清单对账，再检查 `AUDIT-INDEX.md`。索引里的已有行不是待办全集：若 README/磁盘中存在尚无索引行的 PDF，先确认其确为独立篇目、读取 `pdfinfo` 页数并确认对应 MinerU 输出已存在；然后在 `AUDIT-INDEX.md` 新增唯一一行，状态记为“审计中”，再开始该篇。不得因为 INDEX 当前只有已完成行就漏掉未登记 PDF，也不得把未完成项计作完成。
 
-每篇开工先记 PAGE 行（见 2.1），会话可能随时中断，恢复只看 `AUDIT-PROGRESS.log` 末行。
+从所有尚未完成且 MinerU 文件已可用的篇目中，按实际 PDF 页数升序选择；同页数按 README 中的顺序稳定择一。不要使用早期接力提示里固定或重复的候选清单，因为它会随审计进度过期。
+
+接到用户开始或继续审计的指令后，先核对 `AUDIT-PROGRESS.log` 末行；若恢复的是未登记篇目，先补 INDEX 行；随后按 §2.1 记录 START/PAGE 行再逐页工作。会话中断后仍以该日志和 INDEX 作为恢复入口。
 
 ## 6. 汇报格式
 
