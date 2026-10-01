@@ -222,3 +222,12 @@
 - Markdown segment: lines 891–921, from the interpretation of `λ(A)` through Theorem 16's convergence proof and appendix pointer.
 - Compared: conformal-chart map; rescaled metric; Theorem 16(i)–(ii) and curvature bound; instanton action estimate and subsequence argument.
 - Result: **PASS±**. The definitions, formulas, and proof statements match the page image. The running author header and folio `301` are absent from the Markdown.
+
+### p.024 (PDF p.24 / print p.302)
+
+- PNG: `audit/p024.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p024-derivative-constant.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:28:12 EDT
+- Markdown segment: lines 923–955, Corollary 17 and its proof through the compact-complement statement.
+- Compared: `p` parameterisation; derivative bound; uniqueness/smoothness proof; derivative estimates for `λ` and `x`; compactness conclusion.
+- Result: **PASS±**. The formulas and prose match. In the derivative formula the print uses lowercase `k` in `k^{-1}` and `β_k`, as does Markdown; earlier Definition 15 uses uppercase `K` for the instanton minimum. This source-level notation inconsistency is preserved. The running author header and folio `302` are absent.
