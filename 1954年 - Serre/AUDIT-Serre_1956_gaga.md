@@ -41,3 +41,10 @@
 - Evidence: [150 dpi page](audit/Serre_1956_gaga_p004_150dpi.png); [300 dpi inequality crop](audit/300dpi/Serre_1956_gaga_p004_geq_300dpi.png); PDF text layer and MinerU Markdown lines 37–55.
 - Checked: end of Introduction, section/paragraph headings, definition of analytic subsets, and the restriction-map/faisceau notation through the definition of holomorphic maps.
 - Result: PASS±. Checked prose and notation agree. The PDF text layer flattens the first bound to “n ^ 0”; the print crop confirms “n ≥ 0”, matching Markdown line 43. The running title and print page number are not represented in Markdown.
+
+### PDF p.005/43 — print p.4
+
+- Reviewed: 2026-10-01 16:04 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi sheaf-label crop](audit/300dpi/Serre_1956_gaga_p005_HV_300dpi.png); PDF text layer and MinerU Markdown lines 57–77.
+- Checked: continuation of the holomorphic-map definition, analytic isomorphism criterion, product construction, Definition 1 and axioms (H1) and (HII).
+- Result: FAIL. In the print, the isomorphism criterion says the morphism transforms the sheaf H_U into H_V. The 300 dpi crop confirms V; Markdown line 59 instead has \mathcal{H}_{\backslash}. Defer correction until the full PDF audit is complete. The remaining checked statements and formulas agree; the running author is omitted from Markdown.
