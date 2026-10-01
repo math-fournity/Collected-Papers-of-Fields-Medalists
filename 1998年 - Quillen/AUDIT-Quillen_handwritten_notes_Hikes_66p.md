@@ -93,3 +93,13 @@
 - 印刷证据与差异：原图给出 `H_2X' ≅ H_2X ⊕ ⊕_{i∈I} Z`，再沿映射 `∨g_i:∨S^2→X'` 附着 3-胞腔；基线第 224、226 行把下标、直和项、球面楔和 attaching map 损坏成无法按原图读取的符号。原图第 230 行收束为 `ker(π_1(f))=N`，基线丢失 `π_1` 下标。一般情形原图第 232 行写覆盖空间 `X_0'` 且 `π_1(X_0')=N`，基线截断/错置其下标；第 234 行把带粘合子群的 Van Kampen 表达式识别为直接积。纸面该等式右端清晰写作 `N`，其数学含义在此不作推测性改写，作为源级 print quirk 保留。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；源级 print quirk 保留原样并在总评列明。
 - 记录：2026-10-01 16:42:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.009（PDF p.9 / 纸面圈号 9）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p009.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p009_plus-product.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p009_examples.png`。
+- 核对：`X⁺` 的定义与函子/积性质；`π_1` 商群计算；acyclic 空间与同调球例子；Poincaré 同调 3-球面的 `G` 与 `\widetilde G` 记号。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 `X⁺` 定义杀去 `π_1X` 中最大 perfect subgroup；基线第 244 行把 `π_1X` 的下标识别为逗号。原图同调球例子给出 collapsing map `X→S^n` 后 `X⁺≃S^n`，基线第 285 行把这个结论损成 `${S}_0${X}^+∼S^n`。Poincaré 例子原图明确区分 `G`（icosahedron symmetries，`A_5`，阶 60）与 `\widetilde G`（binary icosahedral group，阶 120）；基线第 287–289 行把商群名称和符号混在一起。基线第 283 行也把原图 `H_*(X)=H_*(S^n)` 的星号识别为 `x`。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；群商与同调球例子按 300dpi 裁片复核。
+- 记录：2026-10-01 16:44:22 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
