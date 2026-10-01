@@ -97,3 +97,10 @@
 - 源级 print quirk：印刷原页本身写作 `p_1 = f \circ p_2`，虽然前句将 `f` 写成 `X_1 \to X_2`，后句将 `p_i` 写成 `X_i \to S`。该组合顺序在类型上不相容，但 MinerU Markdown 忠实转录原页；按 print 优先原则不修正文档，只在此登记。
 - 备注：印刷运行页眉和页码 119 未录入 Markdown；部分花体类别字形简化为普通体。
 - 结论：未发现由 Markdown 新增的内容差异；保留已印出的映射次序 quirk，按 PASS± 记录。
+
+### PDF p.013 / 96（印刷 p.120）— FAIL
+
+- 时间：2026-10-01 16:42 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.013 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p013.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p013_complexification_symbols.png` 与 MinerU Markdown 第 253–267 行。印刷定义中结构层为 `O_X`，条件 (i) 也写作 `O_X|U`，实空间复化为 `O_X \otimes_R C`；Markdown 相应位置写成 `O_x`（第 253、255、261 行），把大写空间标识 X 改成小写点名 x，造成对象/点记号混淆。余下的 Hausdorff、协调、复化映射与同构条件和脚注 7 相符。
+- 备注：印刷运行页眉和页码 120 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：结构层下标误录会改变符号所指，列为 FAIL；全篇初审完成后逐处手工修复。
