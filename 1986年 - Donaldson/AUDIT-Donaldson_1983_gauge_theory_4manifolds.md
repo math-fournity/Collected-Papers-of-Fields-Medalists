@@ -195,3 +195,12 @@
 - Markdown segment: lines 759–801, from the diagonal-subsequence argument through the convergence over the conformal-chart cover.
 - Compared: end of Lemma 14 proof; geodesic-coordinate expansion; rescaled metric and chart; action-density bound and conformal-chart convergence.
 - Result: **FAIL**. In the coordinate and rescaled-metric formulas, Markdown uses digit `0` where the printed page has big-O `O`: lines 778 (`0|x|²`), 787 (`r²0|y|²`), and 787 (`0(r²)`). The 300-dpi crop confirms the order-symbol reading; all three positions are repair candidates. The other checked material matches; the running author header and folio `298` are absent.
+
+### p.021 (PDF p.21 / print p.299)
+
+- PNG: `audit/p021.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p021-points.png`, `audit/300dpi/p021-compatability.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:24:41 EDT
+- Markdown segment: lines 803–845, from the local connection matrices and transition law through the two alternatives in Theorem 13.
+- Compared: transition-function compatibility equation; energy bounds (2) and (3); bundle extensions and limit maps; final `l=0`/`l=1` cases.
+- Result: **PASS±**. The equations and main argument match. Markdown line 809 reads `comptatability`; the printed word is `compatability` (the source's own misspelling), confirmed in the 300-dpi crop. This is a minor OCR spelling difference and a candidate for Edit repair to match print. The print refers to “strict inequality in (3) above” before displaying (3); Markdown preserves that source quirk. The point set in Markdown line 829 is `κ₁,…,κ_l`, matching the printed crop, while the immediately preceding discussion uses `x_j`; this source-level inconsistency is recorded without normalization. The running author header and folio `299` are absent.
