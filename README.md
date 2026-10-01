@@ -700,6 +700,7 @@
 
 **文件**：
 - `Wang_Zahl_2025_kakeya_dim3.pdf` — 原文（127页）
+- `Wang_Zahl_2025_kakeya_dim3_mineru/` — MinerU Markdown 与图像导出
 
 ### 2026年 - Jacob Tsimerman
 

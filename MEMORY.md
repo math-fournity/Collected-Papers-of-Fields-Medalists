@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 110 条论文记录，其中 71 篇完成、39 篇审计中。全仓有 141 个 PDF 路径；本轮 SHA-256 清点发现两个 byte-identical 双副本组，因此只有 139 个 distinct PDF byte streams。该结果不自动等于逻辑论文总数；AUDIT-INDEX 仍声明 140，数量口径冲突待闭合。Donaldson 1983（Peer-P03）候选 `93f5cdcb` 已由 Master 集成于 `8713f2fc`；Drinfeld 候选 `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 仍未集成、不计入完成。Git worktree list 仍有 40 个 Peer worktrees（另有 main 共 41 个 checkout），其中一个纸篇 lane 已接受集成。
+本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 111 条论文记录，其中 71 篇完成、40 篇审计中。全仓有 141 个 PDF 路径；本轮 SHA-256 清点发现两个 byte-identical 双副本组，因此只有 139 个 distinct PDF byte streams。该结果不自动等于逻辑论文总数；AUDIT-INDEX 仍声明 140，数量口径冲突待闭合。Donaldson 1983（Peer-P03）已由 Master 集成于 `8713f2fc`；Drinfeld 候选 `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 仍未集成、不计入完成。Git 当前注册 41 个 Peer worktree（main 共 42 个 checkout）：P03 的已集成 worktree 保留，新增 P40 worktree `716d`；P40 正式 threadId 与实际运行模型/effort 尚未观察到。
 
 项目治理骨架已于 2026-10-01 建立。用户新增了剩余 MinerU Markdown 正文修复的逐处 Edit 规则，已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。当前工作已恢复论文队列，先处理 `1990年 - Drinfeld/Drinfeld_1974_elliptic_modules.pdf`；现有 MinerU Markdown 可用。Codex 全局 MinerU skill 位于 `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 并已通过结构校验；CLI 4.0.8 可执行，但 MinerU library server 当前停止、standard 所需 GGUF 模型缺失，本轮未启动服务、下载模型或远程上传。
 
@@ -10,7 +10,7 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求立即维持 40 个项目 Peer 并发；官方 Codex app 项目任务入口未公布数值上限 | AUDIT-INDEX 现在为 71 完成、39 审计中。P03 Donaldson 38 页候选已审阅并集成；40 个 Peer worktree 仍注册，36/40 曾有 `audit(page)` commit。39 个未完成篇目 lane 中，P10、P12、P30、P37 尚无页级 commit；任务 threadId/status 仍不可见，实际活动 Session 数不能据 worktree 数推断。P03 纸篇 lane 已交付，可在核定新的未分派来源后补位。Master 不做初始逐页审计，负责只读质量/路径核验、根级总账和 exact OID 集成 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求维持 40 个 Peer 并发；官方 Codex app 项目任务入口未公布数值上限 | AUDIT-INDEX 现在为 71 完成、40 审计中。P03 Donaldson 已集成；P40 Hong Wang/Zahl 127 页已创建独立 worktree 716d，等首个页级收据。41 个 Peer worktree 仍注册（含已集成 P03 checkout）；36/41 曾有 `audit(page)` commit。正式 Peer threadId/status 仍不可见；P40 仅有 provisional `clientThreadId`，实际 turn/model/effort 尚未运行时确认。Master 不做初始逐页审计，负责只读质量/路径核验、根级总账和 exact OID 集成 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
@@ -23,8 +23,8 @@
 - P01–P09 分别由独立 worktree 从 `e04c4a96` 起步，并已出现带 Peer ID/model/effort 的逐页提交；P10–P39 分别从 `03760242` 起步。Codex app 的 create_thread 返回 30 个 `clientThreadId`，正式 `threadId` 仍未在 list_threads 中显示，不能将 client ID 传给 wait/read/message；依托共享 Git worktree 做只读监测。P01 Deligne 候选 HEAD `9857d0ccb8d2d54cc3d1298e8d7c389242478d17` 的 AUDIT p.6–p.22（包含 p.12）均缺显式 PASS/PASS±/FAIL 行，p.23 有结果行；主线 17:33 REVIEW 更正了先前误称 p.12 有结果的复核记录。相关页及本篇均不得据此视为通过或集成完成。
 - 当前唯一篇目总数的证据口径仍未闭合：PDF 实物数量、SHA-256 distinct byte streams 数与 AUDIT-INDEX 声明的 140 行口径不一致。完成全范围声明前须逐文件交叉核对目录、重复副本、篇级索引与已存在 AUDIT 候选，不将少看/多算的资产默默排除。
 - 官方 Codex 文档确认项目 task/worktree 并行工作模式，但未发现该 app task 入口的数字并发上限；API multi-agent 默认并发配置不同，不能当作 app project peer cap。40 是用户本轮的最低操作目标，不是平台保证值。
-- 当前 Codex 任务列表只暴露 Master 任务，Peer 的正式 threadId/status 仍不可见；40 个 worktree 只证明 40 个隔离 checkout 已注册，不能证明 40 个 Session 此刻都在运行。36 个 checkout 有页级提交、32 个 Peer actor 在最近收据区间产生了新提交，证明这批候选有近期执行证据；不补足另 4 个 lane 的 Session 终态证据。
-- 下一 Peer 的未分派论文尚未通过新的 PDF↔AUDIT-INDEX↔AUDIT/Markdown 实物交叉核对；不得复用旧摘要中的“Viazovska dim24”候选，因为当前 AUDIT-INDEX 第 33 行已登记该 17 页篇为完成。
+- 当前 Codex 任务列表只暴露 Master 任务，Peer 的正式 threadId/status 仍不可见；worktree 数量不证明同数 Session 此刻都在运行。P40 创建请求返回 provisional clientThreadId 且新 worktree 已出现；不能把 client ID 用于 wait/read/message，也不能将 worktree 存在说成 turn 已启动。P40 的实际 model/effort 状态仍待运行时证据确认。
+- 当前新分派为 2026 Hong Wang/Zahl Kakeya；PDF 127 页、MinerU Markdown 存在、未见对应 AUDIT/Index/page-progress 记录。其他未分派 PDF 的完整交叉核对仍待继续；不得复用旧摘要中的“Viazovska dim24”候选，因为当前 AUDIT-INDEX 第 33 行已登记该 17 页篇为完成。
 
 ## 当前有效约束摘要
 
@@ -114,3 +114,10 @@
 - 候选经 Master merge 集成为 `8713f2fcfbfaa30443b754d0f012a2cb8fe77350`；AUDIT-INDEX 从 70/40 更新至 71 完成/39 审计中，README 仅新增 Donaldson AUDIT 文件资产行，AUDIT-PROGRESS 追加 REVIEW/DONE/COMMIT。README 里用户已有的治理入口改动继续保持未暂存、未提交。
 - 重新核对下一候选时发现旧工作记忆里的 Viazovska dim24 17 页篇并非未分派：`AUDIT-INDEX.md` 第 33 行明确登记为完成。该候选从当前派单队列退休；先完成新的物理 PDF—篇级索引—AUDIT/Markdown 对账，再决定 Peer-P40 负责哪一篇。
 - P03 完成稿提供一个可回收的纸篇 worker lane；但 Codex app 仍未暴露该 Peer 的正式 threadId/终态。worktree 清洁与最终集成是已观察的交付证据，不等于 Host 返回了 task terminal receipt；新分派路径必须互斥，不冒充已验证的会话关闭。
+
+### E011 · 2026-10-01 · 分派 Peer-P40 至 Hong Wang/Zahl 127 页论文
+
+- 直接核对 README 用户纳入范围、原 PDF 与 MinerU 导出：PDF 为 `2026年 - Hong Wang/Wang_Zahl_2025_kakeya_dim3.pdf`，127 页、SHA-256 `631e8b2118e3d03ded2d5fe79f9acdf74353877d143e9887a3c31278cd13ed01`；现有 Markdown 为 `Wang_Zahl_2025_kakeya_dim3_mineru/Wang_Zahl_2025_kakeya_dim3__Wang_Zahl_2025_kakeya_dim3.md`。在当前 main 的 AUDIT-INDEX、AUDIT-PROGRESS 和目录内未发现该论文的审计记录。
+- `create_thread` 接受 P40 project task，并返回 provisional `clientThreadId=client-new-thread:f75d4b98-f061-4f9d-95ad-705fba4ad6d7`；其 worktree `716d` 已出现，HEAD 精确等于创建前 main `57d314dbffc2c61f5351e44e6a3fd6793229414f`，当前干净。正式 threadId/list_threads 仍未出现，故只确认任务请求和 worktree setup，不声称 turn 已运行或完成。
+- 显式 `thinking="max"` 与 `model="gpt-6-luna"` 的 create_thread 组合被工具拒绝；本机配置只读核查显示默认 `model="gpt-6-luna"`、`model_reasoning_effort="max"`。因此 P40 创建时指定 model、未传 thinking override 以继承该已核默认值；任务 prompt 要求 Worker 开始前核实实际配置，不匹配即停止。运行时模型/effort 尚未确认，未静默降级到其他模型/effort。
+- AUDIT-INDEX 现为 111 行记录、71 篇完成、40 篇审计中；P40 具体 write set 是独占 Hong Wang 论文 Markdown、AUDIT 报告和带唯一短名前缀的 audit 图片。P40 的 Master DISPATCH 日志已写入但本地提交仍待本工作单元完成。
