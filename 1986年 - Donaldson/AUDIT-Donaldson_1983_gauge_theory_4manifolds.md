@@ -150,3 +150,12 @@
 - Markdown segment: lines 535–567, from the end of the three-open-sets argument through the footnote on the smooth density of smooth connections.
 - Compared: conclusion of Lemma 9; compactness/transversality proof; the KO-index family setup; the page's complete footnote.
 - Result: **PASS±**. Mathematical statements and formulas match. Before the complete footnote, Markdown contains two extra page-footnote fragments, `$T_{A,\varepsilon}$` and `Q.` (lines 563–565); the page image has only the single integrated note, which is retained at line 567. These fragments add OCR clutter but do not remove the source note; they are candidates for post-audit cleanup. The running author header and folio `293` are absent.
+
+### p.016 (PDF p.16 / print p.294)
+
+- PNG: `audit/p016.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p016-exterior-power.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:15:04 EDT
+- Markdown segment: lines 569–626, from the continuation of the KO-index property through Lemma 10's vanishing statement.
+- Compared: restricted gauge group and associated bundles; family operator; fibration/orientability argument; `w₁` index class; homotopy of Fredholm operators; Lemma 10 statement.
+- Result: **PASS±**. The formulas and mathematical statements match. The 300-dpi crop confirms the bundle term `λ²(T*X)` as transcribed. At Markdown line 575 the print has a period after `P_{x₀}`, while Markdown uses a comma before “Then”; this punctuation difference does not change the claim. The running author header and folio `294` are absent.
