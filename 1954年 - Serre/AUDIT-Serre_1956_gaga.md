@@ -113,3 +113,10 @@
 - Evidence: [300 dpi local-map crop](audit/300dpi/Serre_1956_gaga_p014_local-map_300dpi.png); PDF text layer and MinerU Markdown lines 226–244.
 - Checked: end of Proposition 7, Propositions 8 and 9, the local-ring sheaf map induced by p, and footnote (2).
 - Result: FAIL. The print says p transforms the sheaf O_X into O_T, while Markdown line 236 has O_x. The printed homomorphism is O_{x,X} → O_{t,T}; the crop confirms uppercase X, while Markdown line 239 uses lowercase x in the second subscript. Defer both corrections until the full audit is complete.
+
+### PDF p.015/43 — print p.14
+
+- Reviewed: 2026-10-01 16:21 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi local-ring and ideal crop](audit/300dpi/Serre_1956_gaga_p015_local-rings-ideals_300dpi.png); PDF text layer and MinerU Markdown lines 246–256.
+- Checked: local-ring embeddings A, A', B and B', irreducible-component ideals, quotient rings, total fraction rings, the birationality argument and footnote (3).
+- Result: FAIL. The print uses O_{x,X} and H_{x,X}; the crop confirms uppercase X, while Markdown line 246 has lowercase x as the second subscript in both labels. Markdown later renders the defined prime ideals in regular italic p_i where print uses fraktur; this is a non-misleading Fraktur loss, recorded as PASS±. Defer the case corrections until the full audit is complete.
