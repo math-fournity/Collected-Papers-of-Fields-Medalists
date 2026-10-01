@@ -244,3 +244,26 @@ AUDIT-PROGRESS — 逐页进度追踪（append-only；每页落签后立即 echo
 2026-09-30 17:16 | DONE | Maynard 2015 published | 31/31 | 约130处/70规则修复；print quirk 11项登记；编号106组对齐 | 累计61/140
 2026-09-30 17:55 | DONE | DePhilippis-Figalli 2015 published | 32/32 | 约160处/75规则修复；print quirk 10项登记；编号89组对齐 | 累计62/140
 2026-09-30 18:51 | DONE | Bhargava 2015 published | 35/35 | 约120处/65规则修复；print quirk 10项登记；编号(1)-(40)对齐 | 累计63/140
+2026-09-30 22:38 | PAGE | Bombieri 1970 Springer | p.1-21/21 | 扫描件纯PNG审计进行中 | 累计63+1篇进行中
+2026-09-30 22:44 | PAGE | Bombieri 1970 Springer | p.1/21 | PASS±(页脚串入待修) | 逐页进行中
+2026-09-30 22:44 | PAGE | Bombieri 1970 Springer | p.2/21 | PASS±(疑点A:comass上标bar) | 逐页进行中
+2026-09-30 22:45 | PAGE | Bombieri 1970 Springer | p.3/21 | PASS | 逐页进行中
+2026-09-30 22:45 | PAGE | Bombieri 1970 Springer | p.4/21 | PASS | 逐页进行中
+2026-09-30 22:45 | PAGE | Bombieri 1970 Springer | p.5/21 | PASS±(print笔误∂̄(iT∧ω)=S∧ω登记) | 逐页进行中
+2026-09-30 22:46 | PAGE | Bombieri 1970 Springer | p.6/21 | PASS | 逐页进行中
+2026-09-30 22:46 | PAGE | Bombieri 1970 Springer | p.7/21 | PASS | 逐页进行中
+2026-09-30 22:47 | PAGE | Bombieri 1970 Springer | p.8/21 | PASS±(print(t-|w|)疑笔误登记) | 逐页进行中
+2026-09-30 22:48 | PAGE | Bombieri 1970 Springer | p.9/21 | PASS | 逐页进行中
+2026-09-30 22:48 | PAGE | Bombieri 1970 Springer | p.10/21 | PASS | 逐页进行中
+2026-09-30 22:48 | PAGE | Bombieri 1970 Springer | p.11/21 | PASS | 逐页进行中
+2026-09-30 22:49 | PAGE | Bombieri 1970 Springer | p.12/21 | PASS | 逐页进行中
+2026-09-30 22:50 | PAGE | Bombieri 1970 Springer | p.13/21 | PASS±(疑点B:r^{|k|}|k|!缺!) | 逐页进行中
+2026-09-30 22:50 | PAGE | Bombieri 1970 Springer | p.14/21 | PASS±(疑点C:Jd+1→jd+1待修) | 逐页进行中
+2026-09-30 22:51 | PAGE | Bombieri 1970 Springer | p.15/21 | PASS | 逐页进行中
+2026-09-30 22:51 | PAGE | Bombieri 1970 Springer | p.16/21 | PASS | 逐页进行中
+2026-09-30 22:52 | PAGE | Bombieri 1970 Springer | p.17/21 | PASS±(页脚待修) | 逐页进行中
+2026-09-30 22:53 | PAGE | Bombieri 1970 Springer | p.18/21 | PASS±(疑点D:t^n指数) | 逐页进行中
+2026-09-30 22:53 | PAGE | Bombieri 1970 Springer | p.19/21 | PASS(佐证疑点D=2n) | 逐页进行中
+2026-09-30 22:54 | PAGE | Bombieri 1970 Springer | p.20/21 | FAIL(polinomial还原待修) | 逐页进行中
+2026-09-30 22:55 | PAGE | Bombieri 1970 Springer | p.21/21 | FAIL(References[6]-[11]整段待补) | 21页签完毕，待300dpi终裁+修复
+2026-09-30 23:02 | DONE | Bombieri 1970 Springer | 21/21 | 11 规则修复（页脚×3+幽灵足注×5+r^{|k|}|k|!+j_{d+1}+comass bar+polinomial+References[6]-[11]整段）；print 原文 quirk 源级登记（∂̄(iT∧ω)=S∧ω/(t-|w|)/t^n/6n-2nr/a algebraic/ρ[k:Q] 等）；300dpi 终裁 4 组 | 累计64/140
