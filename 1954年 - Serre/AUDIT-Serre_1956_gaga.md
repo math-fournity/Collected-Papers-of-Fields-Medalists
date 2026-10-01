@@ -27,3 +27,10 @@
 - Evidence: [150 dpi full page](audit/Serre_1956_gaga_p002_150dpi.png); [300 dpi name crop](audit/300dpi/Serre_1956_gaga_p002_chow_300dpi.png); PDF text layer compared with MinerU Markdown lines 15–25.
 - Checked: article title and author; opening Introduction through the sentence continued on PDF p.3; theorem-of-Chow sentence.
 - Result: FAIL. The print and PDF text layer read “CHOW” (300 dpi crop confirms the letters); Markdown line 23 reads “CNow”. The title, author, and remaining checked prose agree. Defer the single Markdown correction until all 43 PDF pages have been audited.
+
+### PDF p.003/43 — print p.2
+
+- Reviewed: 2026-10-01 15:59 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi page](audit/Serre_1956_gaga_p003_150dpi.png); [300 dpi local-ring crop](audit/300dpi/Serre_1956_gaga_p003_local-rings_300dpi.png); PDF text layer compared with MinerU Markdown lines 27–35.
+- Checked: Introduction continuation, the statements about coherent sheaves and cohomology, the local-ring comparison, cited authors, applications paragraph, and footnote (1).
+- Result: PASS±. The content and footnote agree. PDF text extraction mangles the local-ring glyphs, while the 300 dpi crop confirms the printed O_x and H_x notation represented by Markdown as \mathcal{O}_x and \mathcal{H}_x. The running author and print page number are not represented in the Markdown.
