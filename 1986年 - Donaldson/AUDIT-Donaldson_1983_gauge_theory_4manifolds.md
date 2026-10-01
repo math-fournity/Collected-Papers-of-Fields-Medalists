@@ -276,3 +276,12 @@
 - Markdown segment: lines 1101–1151, from the exponential-gauge estimate through the two displayed identities for `d_θ^*a` and `d_θ^-a`.
 - Compared: Lemma 20's curvature formula; instanton-tail bound and cap radius; Theorem 21(i)–(ii); scaled curvature bound, annulus estimate, and Taubes correction equations.
 - Result: **FAIL**. Markdown line 1121 gives the cap radius as `0(λ)`; the printed page has big-O `O(λ)`, confirmed in both the 300- and 600-dpi crops. This is an OCR substitution and a repair candidate. The proof also uses `x₁` in the volume term at line 1144 although Theorem 21's setup uses `x₀`; the page image agrees with Markdown, so this source-level inconsistency is preserved. The other checked formulas match; the running author header and folio `307` are absent.
+
+### p.030 (PDF p.30 / print p.308)
+
+- PNG: `audit/p030.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p030-sobolev-embedding.png`, `audit/300dpi/p030-Weitzenboeck.png`; 600-dpi spelling crop: `audit/600dpi/p030-Weitzenboeck.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:47:35 EDT
+- Markdown segment: lines 1153–1205, from the elliptic estimate after Theorem 21(i) through the transition to Proposition 22.
+- Compared: elliptic/Sobolev estimates; extension to `S⁴`; Weitzenböck formula and eigenvalue bound; curvature-difference estimate and normalization of `I'_{y,ν}`.
+- Result: **FAIL**. Markdown line 1193 uses `\rightrightarrows` between `L_1^2(A)` and `L^4`; the 300-dpi print has the single embedding hook `\hookrightarrow`. This changes the displayed Sobolev relation and is a repair candidate. The print spells the Weitzenböck term “Weitzenböch” (final letters `ch`), confirmed at 600 dpi; Markdown preserves this source-level spelling quirk. The remaining checked formulas match; the running author header and folio `308` are absent.
