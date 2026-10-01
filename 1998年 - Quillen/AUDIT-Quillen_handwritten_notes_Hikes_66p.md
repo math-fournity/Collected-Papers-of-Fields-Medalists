@@ -73,3 +73,13 @@
 - 印刷证据与差异：原图把 `SO(3)` 的商标为 icosahedron symmetry group，并将 `S^3` 的商标为 binary icosahedral group；Markdown 基线第 164 行把分母写成 `icosahedral_1`，且没有保留这两个群的对应记号。原图定理 (ii) 明写存在 `acyclic map f:X→Y`，基线第 176 行将其误成 `on 24c map`。原图 Remark 5 说 acyclic `f` 的 `π_1(f)` 满射且 kernel perfect，基线第 178 行误为 `cyclic` 并损坏了 `π_1` 下标。基线第 191 行又把 “maps over Z” 误成 “crops over Z”。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；对群商、性质名及 `π_1` 记号按 300dpi 裁片复核。
 - 记录：2026-10-01 16:37:07 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.007（PDF p.7 / 纸面圈号 7）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p007.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p007_van-kampen.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p007_mapping-cone.png`。
+- 核对：pushout 方块上的 Van Kampen 计算；acyclic map 分类证明中由 `π_1X` 生成元构造 mapping cone；附带的 mapping-cone 同调序列。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 pushout 是 `Z∪_X Y`，Van Kampen 给出 `π_1(Z∪_X Y)=π_1(Z)*_{π_1X}π_1(Y)`，并在 kernel 假设下化为 `π_1(Z)`；Markdown 基线第 193、195 行的商空间记号无法还原原式，并把 amalgamated free product 误成直接积 `×`。构造使用生成 `π_1X` 的映射 `f_i:S^1→X`，基线第 205、208 行把 `S^1` 写成 `S'`。第 210、212 行的 attaching-map / mapping-cone 与 `π_1X'=0` 记号也有损坏，需按本页裁片修复。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；修复后核对 pushout、自由积粘合下标、`S^1` 与长正合序列。
+- 记录：2026-10-01 16:39:13 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
