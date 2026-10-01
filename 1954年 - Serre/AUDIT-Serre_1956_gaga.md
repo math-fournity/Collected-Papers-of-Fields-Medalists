@@ -192,6 +192,13 @@
 - Checked: exact cohomology sequences (5)–(6), vanishing and dimension inequalities (7)–(8), surjectivity (9), the global-generation step, and footnote (5).
 - Result: FAIL. In (5), print has M(n−1) and L_n; line 643 has N(n−1) and X_n. In (7), print has L_n between the two M terms; line 653 has P_n. The dimension function in line 656 uses ℓ(n) instead of M(n). In (8), print uses H^1 and starts with M(n−1); line 659 has prime superscripts and M(n). The map after (8) in line 662 uses P_n where print has L_n. Equation (9) and the checked global-generation conclusion agree.
 
+### PDF p.028/43 — print p.27
+
+- Reviewed: 2026-10-01 16:48 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi Theorem 3 resolution-proof crop](audit/300dpi/Serre_1956_gaga_p028_resolution-proof_300dpi.png); PDF text layer and MinerU Markdown lines 672–710.
+- Checked: conclusion of Lemma 8, construction by successive coherent quotients, the exact sequences for Theorem 3 existence, and the opening of the Betti-number application.
+- Result: FAIL. The print's first and final exact sequences contain the sheaf M; Markdown lines 679 and 702 instead have the garbled symbol “A b”. The print names the constructed algebraic sheaf L_1, while Markdown line 684 has L_i; the 300 dpi crop confirms numeral 1. The remaining checked maps and the homogeneous-coordinate list agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
