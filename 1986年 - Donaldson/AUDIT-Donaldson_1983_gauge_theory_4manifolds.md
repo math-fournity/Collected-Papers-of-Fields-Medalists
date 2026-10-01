@@ -141,3 +141,12 @@
 - Markdown segment: lines 493–533, from “be smooth sections of `𝔖³`...” through the start of the three-open-sets argument ending “by applying”.
 - Compared: perturbation norm and derivative setup; equivariant finite-dimensional perturbation near reducible connections; `\tilde Φ` replacement; Lemma 9 transversality statement and density setup.
 - Result: **PASS±**. The mathematical content and displayed equations match the page image. The running author header and folio `292` are absent from the Markdown.
+
+### p.015 (PDF p.15 / print p.293)
+
+- PNG: `audit/p015.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:14:13 EDT
+- Markdown segment: lines 535–567, from the end of the three-open-sets argument through the footnote on the smooth density of smooth connections.
+- Compared: conclusion of Lemma 9; compactness/transversality proof; the KO-index family setup; the page's complete footnote.
+- Result: **PASS±**. Mathematical statements and formulas match. Before the complete footnote, Markdown contains two extra page-footnote fragments, `$T_{A,\varepsilon}$` and `Q.` (lines 563–565); the page image has only the single integrated note, which is retained at line 567. These fragments add OCR clutter but do not remove the source note; they are candidates for post-audit cleanup. The running author header and folio `293` are absent.
