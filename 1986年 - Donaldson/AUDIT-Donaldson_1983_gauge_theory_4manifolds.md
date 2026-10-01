@@ -204,3 +204,12 @@
 - Markdown segment: lines 803–845, from the local connection matrices and transition law through the two alternatives in Theorem 13.
 - Compared: transition-function compatibility equation; energy bounds (2) and (3); bundle extensions and limit maps; final `l=0`/`l=1` cases.
 - Result: **PASS±**. The equations and main argument match. Markdown line 809 reads `comptatability`; the printed word is `compatability` (the source's own misspelling), confirmed in the 300-dpi crop. This is a minor OCR spelling difference and a candidate for Edit repair to match print. The print refers to “strict inequality in (3) above” before displaying (3); Markdown preserves that source quirk. The point set in Markdown line 829 is `κ₁,…,κ_l`, matching the printed crop, while the immediately preceding discussion uses `x_j`; this source-level inconsistency is recorded without normalization. The running author header and folio `299` are absent.
+
+### p.022 (PDF p.22 / print p.300)
+
+- PNG: `audit/p022.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:25:41 EDT
+- Markdown segment: lines 847–889, from section III.3 through Definition 15(b)'s formula for `λ(A)`.
+- Compared: moduli-space map; smoothed radius/position definition; bump-function scale; instanton action density and `R_I`; both properties and Definition 15.
+- Result: **PASS±**. The mathematical statements and displayed formulas match the page image. The running author header and folio `300` are absent from the Markdown.
