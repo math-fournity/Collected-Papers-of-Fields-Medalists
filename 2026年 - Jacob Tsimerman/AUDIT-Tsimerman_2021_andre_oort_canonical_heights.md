@@ -164,3 +164,12 @@
 - 核对：Theorem 4.6(2) 证明余段、定义 \bar L_{<r}、(4.2.3)、Proposition 4.7 与 Definition 4.8。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 691 行定义 `\bar L_{<r}` 时将范围 `for s < r` 录成 `for s r`，漏掉 `<`，使过滤项集合条件不完整；300dpi 裁片可见 `s < r`，并由 (4.2.3) 的 `\bigoplus_{s<r}` 复核。第 687 行在 `0 ≤ s < r-1` 后还残留数字 `2`。Definition 4.8 处的独立 `p` 是局部 OCR 碎片，列为 PASS±。
+
+## p.019（PDF p.19 / 印刷 p.19）
+- 时间：2026-10-01 17:16:02 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p019.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p019_Lemma4.9-domains.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p019_phi-map.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p019_Theorem4.11-map.png`
+- 核对：Lemma 4.9、Proposition 4.10、§4.3 主映射与 Lemma 4.11 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 731 行把 Lemma 4.9 的第一个对象写成 `ν_*(L̂⊗OC)(n)`，将 `n` 移出系数层；第二个 `ν_{ket,*}` 又被破坏成含 `Ω_*` 的字串。第 741 行的 `φ : Y → X` 和第 759 行的 `S_cris(L) → D^0_dR(L)` 都漏掉映射箭头。三张 300dpi 裁片核实印刷对象次序及两个箭头；本页所列差异均为数学对象/映射的转录问题。
