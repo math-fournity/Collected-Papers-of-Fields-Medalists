@@ -55,3 +55,10 @@
 - Evidence: [150 dpi page](audit/Serre_1956_gaga_p006_150dpi.png); [300 dpi subscript crop](audit/300dpi/Serre_1956_gaga_p006_AxY_300dpi.png); PDF text layer and MinerU Markdown lines 79–91.
 - Checked: analytic-space product construction, analytic sheaf definitions and quotient, and Proposition 1(a)–(b).
 - Result: FAIL. In the definition of A_x(Y), the print has f in H_{x,X}; the 300 dpi crop confirms subscript X. Markdown line 87 has H_{x,Y}. Defer the correction until all 43 pages have been audited. Other checked statements agree; the running title and print page number are omitted from Markdown.
+
+### PDF p.007/43 — print p.6
+
+- Reviewed: 2026-10-01 16:08 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi page](audit/Serre_1956_gaga_p007_150dpi.png); [300 dpi series and prime-ideal crop](audit/300dpi/Serre_1956_gaga_p007_series-primes_300dpi.png); PDF text layer and MinerU Markdown lines 93–107.
+- Checked: coherent-sheaf argument, local analytic ring description, convergent power-series algebras and quotient, regular-local criterion, and the minimal-prime intersection display.
+- Result: FAIL. The print has C{z_1,...,z_n} for both power-series terms in this passage; the 300 dpi crop confirms subscript 1. Markdown line 99 has z_i in both places. The displayed 0 = intersection p_i agrees. Defer the two subscript corrections until the full audit is complete.
