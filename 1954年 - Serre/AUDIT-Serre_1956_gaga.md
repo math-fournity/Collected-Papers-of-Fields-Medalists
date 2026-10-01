@@ -135,3 +135,10 @@
 - Evidence: [300 dpi associated-sheaf crop](audit/300dpi/Serre_1956_gaga_p017_tensor_300dpi.png); PDF text layer and MinerU Markdown lines 284–308.
 - Checked: associated topology F', analytic sheaf definition, tensor formula, scalar ring, canonical map, and extension of homomorphisms.
 - Result: PASS±. The displayed print formula has no tensor subscript; the following print sentence specifies that the product is over O'. Markdown preserves the same equation and explicit scalar-ring sentence. No content difference was found in the checked maps.
+
+### PDF p.018/43 — print p.17
+
+- Reviewed: 2026-10-01 16:25 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi exact-sequence prose crop](audit/300dpi/Serre_1956_gaga_p018_prime-prose_300dpi.png); [300 dpi exact-sequence formula crop](audit/300dpi/Serre_1956_gaga_p018_exact-sequence_300dpi.png); PDF text layer and MinerU Markdown lines 311–347.
+- Checked: Proposition 10(a)–(c), the primed pullback sequence and tensor sequence, local presentations of coherent sheaves, and the opening setup for Proposition 11.
+- Result: FAIL. In the prose sequence after “il en est évidemment de même,” the print has F_1' → F_2' → F_3'. The first crop confirms the prime on F_3'; Markdown line 319 omits it. The displayed tensor sequence on line 322 has the prime on all three terms and agrees with print.
