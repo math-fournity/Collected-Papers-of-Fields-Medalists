@@ -38,7 +38,7 @@ $$
 
 and the result of Theorem A still applies, but with the additional condition that $Q(f(\zeta)) \neq 0$.
 
-Results in this range of ideas are not new. Theorem A was proved in case d=1 by Lang [5], after previous work by Schneider [10]; in this case the set S is a finite set of cardinality  $\leq20\rho[K:Q]$ . In the higher 19 Inventiones math., Vol. 10
+Results in this range of ideas are not new. Theorem A was proved in case d=1 by Lang [5], after previous work by Schneider [10]; in this case the set S is a finite set of cardinality  $\leq20\rho[K:Q]$ . In the higher
 
 dimensional case, Lang [5] showed that if S contains a subset of the type  $S_{1} \times \cdots \times S_{d}$  then min card  $S_{\alpha} \leq b \rho [K:Q]$ ; this result may be regarded as a special case of Theorem A, Remark 1. The condition for S to contain a product was clearly artificial and in the historical note in [5], Chapter IV, Lang remarks: “In extending Theorems 1, 2, 3, one has the following possibilities. First, a suggestion of Nagata, that the set S in Theorem 1 may be described as contained in a hypersurface (algebraic). This would be a good way of eliminating the unnatural condition that S be a product. (One would also need to bound the degree of the hypersurface.)” This is exactly what we do in our Theorem A.
 
@@ -59,7 +59,7 @@ $$
 where the symbol $\hat{\alpha},\bar{\beta}$ means that the differentials $dz_{\alpha},d\overline{z}_{\beta}$ are omitted, one defines the comass $\| \phi \|$ of $\phi$ at a point $z$ by
 
 $$
-\| \phi \| = 2 ^ {n - 1} \sup _ {\alpha , u} \left| \sum_ {p q} u _ {\alpha p} \bar {u} _ {\alpha q} \phi^ {p \bar {q}} \right|
+\| \phi \| = 2 ^ {n - 1} \sup _ {\alpha , u} \left| \sum_ {p q} u _ {\alpha p} \bar {u} _ {\alpha q} \phi^ {\bar {p} q} \right|
 $$
 
 where the sup is taken over $\alpha=1,2,\ldots,n$ and $u=(u_{\alpha p})$ with $u\in SU(n)$. It is easily seen that the comass $\|\ \|$ is equivalent to $|\phi|=\sup_{p,q}|\phi^{p\bar{q}}|$; however the comass has the advantage of being invariant by unitary transformations and leads to a much nicer dual norm in the space of currents.
@@ -644,7 +644,7 @@ $$
 \mathrm{den} D ^ {k} (Q (f)) (\zeta) \leq C _ {1} ^ {| k | + r}.
 $$
 
-Proof. This is Lemma 1 of [5], Chapter IV, § 2, p. 34 except for the fact that we have $(r + |k|)^{|k|}$ instead of $r^{|k|}|k|$. Note that the statement of this result in [5] assumes implicitly that $f(\zeta)\in K^{N}$; see [5], Lemma 1, Chapter IV, § 2, p. 23 for a precise statement and proof in case $d = 1$. The improved constant $(r + |k|)^{|k|}$ follows from the argument given in [5].
+Proof. This is Lemma 1 of [5], Chapter IV, § 2, p. 34 except for the fact that we have $(r + |k|)^{|k|}$ instead of $r^{|k|}|k|!$. Note that the statement of this result in [5] assumes implicitly that $f(\zeta)\in K^{N}$; see [5], Lemma 1, Chapter IV, § 2, p. 23 for a precise statement and proof in case $d = 1$. The improved constant $(r + |k|)^{|k|}$ follows from the argument given in [5].
 
 Lemma 2. Let $K$ be a number field. Let
 
@@ -667,16 +667,6 @@ Proof. This is a well-known result of Siegel, easily proved using Dirichlet's bo
 Let $K$ be a number field, let $f = (f_1, \ldots, f_N)$ be meromorphic functions in $\mathbf{C}^d$, of finite order $^1 \leq \rho$, such that the partial derivatives $\partial/\partial z_\alpha$ map the ring $K[f]$ into itself, and such that $\operatorname{tr} \deg K(f) \geq d + 1$. Thus we may assume that $f_1, f_2, \ldots, f_{d+1}$ are algebraically independent over $K$.
 
 Let $S$ be a finite set of points $\zeta_i, i = 1, 2, \ldots, m$ such that $f(\zeta)$ is defined and $f(\zeta) \in K^N$ for $\zeta \in S$. Writing (j) for $(j_1, \ldots, j_{d+1})$ consider the auxiliary
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$h(z)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">≤ρ</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">≤ρ</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$|h(z)| = O(R^{\rho + \varepsilon})$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">≤ρ</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  An entire function  $h(z)$  is of finite order  $\leq\rho$  if  $\max_{|z|=R}\log|h(z)|=O(R^{\rho+\varepsilon})$ ; a quotient of two entire functions of order  $\leq\rho$  is meromorphic of order  $\leq\rho$ .</span></small>
 
@@ -725,7 +715,7 @@ here $C_1$ depends only on $f, S$ but is independent of $L$ and $J$.
 Solving the system $D^{\lambda}F(\zeta) = 0$ amounts to solving a system of $m\left( \begin{array}{c}L + d\\ d \end{array} \right)$ linear equations
 
 $$
-\sum a _ {(j)} \left(\Delta \cdot D ^ {\lambda} f _ {1} ^ {j _ {1}} \dots f _ {d + 1} ^ {J d + 1} (\zeta)\right) = 0
+\sum a _ {(j)} \left(\Delta \cdot D ^ {\lambda} f _ {1} ^ {j _ {1}} \dots f _ {d + 1} ^ {j _ {d + 1}} (\zeta)\right) = 0
 $$
 
 in the $J^{d+1}$ unknowns $a_{(j)}$. The coefficients are in $O_K$ and satisfy
@@ -914,8 +904,6 @@ $$
 V (z) = \frac {(n - 2) !}{2 \pi^ {n - 1}} \int_ {\zeta \in \mathbb {C} ^ {n}} \left(\frac {1}{| \zeta | ^ {2 n - 2}} - \frac {1}{| \zeta - z | ^ {2 n - 2}}\right) d \| T \|;
 $$
 
-20 Inventiones math, Vol. 10
-
 the integral is convergent by (i) of Lemma 6 and because $\frac{1}{r}\Theta (\| T\| ;r,0)$ is summable at $r = 0$ (see for instance [6], Theorem 1, pp. 380-381). The potential $V(z)$ verifies
 
 $$
@@ -996,8 +984,6 @@ $$
 
 and (ii) of Lemma 7 is proved.
 
-20\*
-
 Now we apply the Existence Theorem, for the plurisubharmonic function $\kappa V(z)$, where $\kappa$ is a constant $\kappa > 2d$. We obtain that there exists $F(z)$ entire in $\mathbf{C}^d$ and not identically 0, such that
 
 $$
@@ -1016,7 +1002,7 @@ $$
 \int_ {\mathbf {C} ^ {d}} | F | ^ {2} (1 + | z |) ^ {- \kappa \Theta (\infty) - 6 d - \varepsilon} \omega_ {d} <   + \infty
 $$
 
-and $F$ is entire. It follows that $F$ is a polynomial of degree at most
+and $F$ is entire. It follows that $F$ is a polinomial of degree at most
 
 $$
 \frac {1}{2} [ \kappa \Theta (\infty) + 6 d + \varepsilon ] - d,
@@ -1041,3 +1027,25 @@ We had the condition that S was a finite set of points  $\zeta$ , at which  $f(\
 4. - An introduction to complex analysis in several variables. Princeton: Van Nostrand Co. 1966.
 
 5. Lang, S.: Introduction to transcendental numbers. Reading, Mass.: Addison-Wesley 1966.
+
+6. Lelong, P.: Fonctions entières (n variables) et fonctions plurisousharmoniques d'ordre fini dans Cⁿ. J. d'Analyse Math. 12, 365-407 (1964).
+
+7. — Propriétés métriques des variétés analytiques complexes définies par une équation. Ann. E.N.S. 67, 393-419 (1950).
+
+8. — Fonctions plurisousharmoniques et formes différentielles positives. New York: Gordon and Breach 1968.
+
+9. Martineau, A.: Indicatrices de croissance des fonctions entières de N-variables. Inventiones Math. 2, 81-86 (1966), and Corrections. Inventiones Math. 3, 16-19 (1967).
+
+10. Schneider: Ein Satz über ganzwertige Funktionen als Prinzip für Transzendenzbeweise. Math. Annalen 121, 131-140 (1949-1950).
+
+11. Stoll, W.: The growth of the area of a transcendental analytic set. Math. Annalen 156, 47-78 and 144-170 (1964).
+
+Enrico Bombieri
+
+Università di Pisa
+
+Istituto Matematico “Leonida Tonelli”
+
+Pisa, Italia
+
+(Received June 29, 1970)
