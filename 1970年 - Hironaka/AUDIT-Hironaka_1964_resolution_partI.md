@@ -125,3 +125,10 @@
 - 证据：源 PDF p.016 文本层、页图 `audit/Hironaka_1964_resolution_partI_p016.png`（pngmono 150dpi）与 MinerU Markdown 第 299–307 行。模块、态射对、同调映射、blowing-up 的 universal mapping property 及存在定理段落均与该页相符；文本层多处损失 `\mathcal{R}`、`\mathcal{M}`、`\Phi` 等符号，已对照页图确认 Markdown 保留这些记号。
 - 备注：印刷运行页眉和页码 123 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.017 / 96（印刷 p.124）— PASS±
+
+- 时间：2026-10-01 17:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.017 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p017.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p017_proj_and_stalks.png` 与 MinerU Markdown 第 309–319 行。对称张量代数、Proj 构造、齐次理想条件、degree-0/1 结构、态射及脚注 13–14 均对应原页；裁片也确认印刷结构层记号 `O_x` / `O_{x'}` 与 Markdown 逐字一致，不能仅凭常用大写记法改写。
+- 备注：印刷运行页眉和页码 124 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
