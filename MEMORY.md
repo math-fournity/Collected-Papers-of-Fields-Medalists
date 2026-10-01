@@ -118,6 +118,7 @@
 ### E011 · 2026-10-01 · 分派 Peer-P40 至 Hong Wang/Zahl 127 页论文
 
 - 直接核对 README 用户纳入范围、原 PDF 与 MinerU 导出：PDF 为 `2026年 - Hong Wang/Wang_Zahl_2025_kakeya_dim3.pdf`，127 页、SHA-256 `631e8b2118e3d03ded2d5fe79f9acdf74353877d143e9887a3c31278cd13ed01`；现有 Markdown 为 `Wang_Zahl_2025_kakeya_dim3_mineru/Wang_Zahl_2025_kakeya_dim3__Wang_Zahl_2025_kakeya_dim3.md`。在当前 main 的 AUDIT-INDEX、AUDIT-PROGRESS 和目录内未发现该论文的审计记录。
-- `create_thread` 接受 P40 project task，并返回 provisional `clientThreadId=client-new-thread:f75d4b98-f061-4f9d-95ad-705fba4ad6d7`；其 worktree `716d` 已出现，HEAD 精确等于创建前 main `57d314dbffc2c61f5351e44e6a3fd6793229414f`，当前干净。正式 threadId/list_threads 仍未出现，故只确认任务请求和 worktree setup，不声称 turn 已运行或完成。
+- `create_thread` 接受 P40 project task，并返回 provisional `clientThreadId=client-new-thread:f75d4b98-f061-4f9d-95ad-705fba4ad6d7`；其 worktree `716d` 已出现，HEAD 精确等于创建前 main `57d314dbffc2c61f5351e44e6a3fd6793229414f`，初始化时干净；后续观察到未提交 AUDIT 与 p.1 PNG 草稿。正式 threadId/list_threads 仍未出现，故不声称 Host 返回了 active/terminal 状态。
 - 显式 `thinking="max"` 与 `model="gpt-6-luna"` 的 create_thread 组合被工具拒绝；本机配置只读核查显示默认 `model="gpt-6-luna"`、`model_reasoning_effort="max"`。因此 P40 创建时指定 model、未传 thinking override 以继承该已核默认值；任务 prompt 要求 Worker 开始前核实实际配置，不匹配即停止。运行时模型/effort 尚未确认，未静默降级到其他模型/effort。
-- AUDIT-INDEX 现为 111 行记录、71 篇完成、40 篇审计中；P40 具体 write set 是独占 Hong Wang 论文 Markdown、AUDIT 报告和带唯一短名前缀的 audit 图片。P40 的 Master DISPATCH 日志已写入但本地提交仍待本工作单元完成。
+- AUDIT-INDEX 现为 111 行记录、71 篇完成、40 篇审计中；P40 具体 write set 是独占 Hong Wang 论文 Markdown、AUDIT 报告和带唯一短名前缀的 audit 图片。P40 的 Master DISPATCH 与 REVIEW 记录将与本工作单元其他 canonical 更新一并提交。
+- Master 对 P40 p.1 草稿的只读图像核验确认 PDF 印刷为 “Hausdorff”，MinerU Markdown 写成 “Hausdorf”；但该页图像为 1275×1650 8-bit RGB，而现行 AUDIT-SOP 要求 150dpi pngmono 1-bit。该页尚无 audit(page) commit/signoff；正式 threadId 不可见，Master 不能向 provisional clientThreadId 发送纠正。
