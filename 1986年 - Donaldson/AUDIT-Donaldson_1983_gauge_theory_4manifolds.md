@@ -132,3 +132,12 @@
 - Compared: Proposition 8 irreducible/reducible local models and dimensions; harmonic-space regularity interpretation; beginning of section II.3 and perturbation-bundle setup.
 - Result: **PASS±**. The formulas and substantive statements match the page image. Markdown lines 468 and 474 split the printed conjunction “and” into `a n d` inside the two dimension clauses; this is a readability/formatting artifact with the numbers intact and is a candidate for post-audit Edit repair. The running author header and folio `291` are absent from the Markdown.
 - Supplemental check: 2026-10-01 16:11:42 EDT; PDF p.13 image `audit/p013.png` shows ordinary “and” in both clauses. No 300-dpi crop was needed because the letter spacing, rather than a glyph identity, is the discrepancy.
+
+### p.014 (PDF p.14 / print p.292)
+
+- PNG: `audit/p014.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:12:24 EDT
+- Markdown segment: lines 493–533, from “be smooth sections of `𝔖³`...” through the start of the three-open-sets argument ending “by applying”.
+- Compared: perturbation norm and derivative setup; equivariant finite-dimensional perturbation near reducible connections; `\tilde Φ` replacement; Lemma 9 transversality statement and density setup.
+- Result: **PASS±**. The mathematical content and displayed equations match the page image. The running author header and folio `292` are absent from the Markdown.
