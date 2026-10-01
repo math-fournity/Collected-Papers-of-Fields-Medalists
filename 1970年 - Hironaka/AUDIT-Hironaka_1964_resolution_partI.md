@@ -76,3 +76,9 @@
 - 证据：源 PDF p.009 文本层、页图 `audit/Hironaka_1964_resolution_partI_p009.png`（pngmono 150dpi）与 MinerU Markdown 第 211、213、215–221 行。图像核定本页的符号为 `τ-frame`（文本层误成 `z-frame`）；Markdown 写作 `τ-frame`，并且 local-uniformization/Chapter IV 概述及脚注 3–5 对应原页。印刷作者致谢止于 `Professor`，Markdown 下一行从 `M. Kuranishi` 续接，未漏文。
 - 备注：印刷运行页眉和页码 116 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.010 / 96（印刷 p.117）— FAIL
+
+- 时间：2026-10-01 16:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.010 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p010.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_topology_not_supset.png` 与 MinerU Markdown 第 227–231 行。裁片确认 Zariski 拓扑定义中的原文条件为 `P ⊅ I`（素理想 P 不包含理想 I），Markdown 写成 `P \not\cong I`，关系符含义错误。该页还把层 `O_X`、`O_Y` 与 `O_S` 的下标大小写混写为小写 x/y/s，并把点处局部环 `O_{X,x}` 写成 `O_X`；此处 subscript 区分结构层和 stalk，属数学对象记号错误。印刷使用花体 `\mathcal{R}` 表示 local-ringed spaces 类别，Markdown 多处仅为普通 `R`。
+- 结论：拓扑开集条件及 local-ringed-space/sheaf 记号有实质错误，列为 FAIL；待完成全篇审计后逐处核验和手工修复。
