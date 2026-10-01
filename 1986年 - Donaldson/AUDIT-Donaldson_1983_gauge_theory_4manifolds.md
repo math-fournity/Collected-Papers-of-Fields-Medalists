@@ -321,3 +321,12 @@
 - Markdown segment: lines 1305–1349, from the Appendix heading through the decomposition `Λ²R⁴ ≅ Λ²R³ ⊕ Λ¹R³ ≅ R³ ⊕ R³`.
 - Compared: removable-singularity decay bound; cylinder hypotheses and exponential estimate; curvature-integral/Chern–Simons relation; `J(t)` and its derivative; exterior-form decomposition.
 - Result: **PASS±**. The Markdown matches the printed equations. The 300-dpi crop confirms the integral lower bound is printed `ε`, while its displayed boundary term uses `A_t`; this source-level parameter mismatch is preserved. The running author header and folio `312` are absent from the Markdown.
+
+### p.035 (PDF p.35 / print p.313)
+
+- PNG: `audit/p035.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:54:28 EDT
+- Markdown segment: lines 1351–1393, from the electromagnetic decomposition through the exponential decay conclusion for `F`.
+- Compared: boundary derivative of `J`; the `S³` one-form inequality; second-order expansions of `J` and `dJ/dt`; differential inequality and decay estimates.
+- Result: **PASS±**. The displayed equations and prose match the page image. The running author header and folio `313` are absent from the Markdown.
