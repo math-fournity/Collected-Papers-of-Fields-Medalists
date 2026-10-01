@@ -155,3 +155,12 @@
 - 核对：§4.2 的结构层、(4.2.1)–(4.2.2)、Theorem 4.6 两条、证明起始部分及 α 展开式。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 651 行把权重假设 `[0,m]` 写成 `0,m`，丢失区间括号。第 657 行 Theorem 4.6(2) 的范围 `0 ≤ s < r` 被损坏成带多余 `i`、`p` 的 `r_i p`，并在后文加入残留 `p the identification`；这破坏了结论对指标 s 的范围。300dpi 裁片确认印刷式为 `[0,m]` 与 `0 ≤ s < r`。修复留待全篇审计后逐处 Edit。
+
+## p.018（PDF p.18 / 印刷 p.18）
+- 时间：2026-10-01 17:07:31 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p018.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p018_L-less-r.png`
+- 核对：Theorem 4.6(2) 证明余段、定义 \bar L_{<r}、(4.2.3)、Proposition 4.7 与 Definition 4.8。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 691 行定义 `\bar L_{<r}` 时将范围 `for s < r` 录成 `for s r`，漏掉 `<`，使过滤项集合条件不完整；300dpi 裁片可见 `s < r`，并由 (4.2.3) 的 `\bigoplus_{s<r}` 复核。第 687 行在 `0 ≤ s < r-1` 后还残留数字 `2`。Definition 4.8 处的独立 `p` 是局部 OCR 碎片，列为 PASS±。
