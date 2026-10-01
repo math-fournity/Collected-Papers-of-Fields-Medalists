@@ -33,3 +33,13 @@
 - 印刷证据与差异：300dpi 裁片确认证明开头是 `(i) ⇒ (ii)`，而 Markdown 基线第 57 行为 `(ii) ⇒ (ii)`。纸面公式为 `(p_2)_*: H_*(X ×_Y \widetilde Y) → H_*(\widetilde Y)`，Markdown 基线第 53 行省略 `×` 的下标 `Y`，把纤维积写成普通积。纸面路径空间构造为 `X ×_Y Y^I`，并将固定 `y` 的同伦纤维写为 `X ×_Y Y^I_y`；Markdown 基线第 38、40 行丢失/错置该纤维积与路径端点记号，并带入噪声 `y.3`。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；修复后回看上述 150dpi 页图与 300dpi 原图裁片。
 - 记录：2026-10-01 16:28:39 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.003（PDF p.3 / 纸面圈号 3）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p003.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p003_spectral-sequence.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p003_covering-homology.png`。
+- 核对：Serre 谱序列、通用系数公式、局部系数限制、普遍覆盖上的同调映射、覆盖空间图及证明衔接。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图的谱序列为 `E^2_{p,q}=H_p(Y,H_q(F;i^*L')) ⇒ H_{p+q}(X,L')`，Markdown 基线第 67 行把两个指标错写成 `i,g` / `g,g`，并将总次数写成 `p+g`。原图的通用系数项为 `Tor_1(H_{q-1}(F),A)` 且条件是 `F` acyclic；基线第 72 行把 `A` 塞入 `H_{g-1}(F,A)` 并写成 `F ≥ cyclic`。原图第 90 行所对应的图包含 `π=π_1Y`、`H_*(X×_Y \widetilde Y)→H_*(\widetilde Y)` 及覆盖映射，Markdown 将这些记号和映射压成无法按原图读取的表达。基线第 103–108 行又把交换图/同调与同伦序列衔接压平，并把纸面 `p_2` 误识为 `β r_2`、`same fiber` 误成 `some fiber`；这些差异影响本页证明的对象和推理关系。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述 150dpi 与 300dpi 原图证据回核。
+- 记录：2026-10-01 16:30:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
