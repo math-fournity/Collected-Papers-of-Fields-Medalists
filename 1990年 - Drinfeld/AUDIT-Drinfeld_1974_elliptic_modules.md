@@ -19,3 +19,10 @@
 - 核对：elliptic A-module 定义、level `I` 结构定义、光滑模空间段落、Theorem 1、Theorem 2 两项陈述、四类 triples 的过渡段、B) Outline 开头与 “cusp form” 编辑注。
 - 结果：PASS±。现有 Markdown 对应正文和编辑注与源页相符；Markdown 未保留印刷页眉中的作者名和印刷页码 562。复杂公式按源页视觉核对，未根据噪声 OCR 文本替换。
 - 依据：本页完整 150dpi 源页 PNG；OCR 文本仅作定位辅助。
+
+## p.003（PDF p.3 / 印刷 p.563）
+
+- PNG：`audit/Drinfeld_1974_elliptic_modules_p003.png`（pngmono 150dpi）
+- 核对：B) Outline 的收尾、作者致谢、§1 标题、formal group 定义、加法群例子、特征 `p` 下 Frobenius `τ` 与交换关系、formal O-module 定义及 germ/函子段、Proposition 1.1 开头。
+- 结果：PASS±。可见正文与现有 Markdown 相符；Markdown 未保留页眉题名 `ELLIPTIC MODULES` 及印刷页码 563。底部 Proposition 1.1 在本页只出现引入句，后续关系式待下一页继续核对。
+- 依据：本页完整 150dpi 源页 PNG；OCR 文本仅作定位辅助。
