@@ -55,3 +55,10 @@
 - 证据：源 PDF p.006 文本层与 MinerU Markdown 第 183–190 行。Introduction 对 Chapter 0 §§1–3、§5 的概述、Levi–Zariski 说明、normal flatness 与代数边界段落逐项相符；本页末尾在“into an”处接续至下一物理页，Markdown 后续行与之衔接。
 - 备注：印刷运行页眉与页码 113 未录入 Markdown，属不影响正文的导航元素省略。
 - 结论：未发现正文或数学记号差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.007 / 96（印刷 p.114）— PASS±
+
+- 时间：2026-10-01 16:29 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.007 文本层、页图 `audit/Hironaka_1964_resolution_partI_p007.png`（pngmono 150dpi）与 MinerU Markdown 第 191–205 行。Introduction 章节概述、脚注 2、以及基本定理标签 `I_{1}^{N,n}`、`I_{2}^{N,n}`、`II_{1}^{N}`、`II_{2}^{N}` 均与印刷页相符；图像校正了文本层在这些下标/上标处的丢失。
+- 备注：印刷运行页眉和页码 114 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
