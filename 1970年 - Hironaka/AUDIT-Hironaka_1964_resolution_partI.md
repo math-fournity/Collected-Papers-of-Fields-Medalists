@@ -111,3 +111,10 @@
 - 证据：源 PDF p.014 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p014.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p014_sheaf_and_stalk.png` 与 MinerU Markdown 第 273、275 行。原页定义 `X=(X,O_X)`，并把点 x 处局部环写为 `O_{X,x}`；Markdown 写为 `X=(X,O_x)` 与 `O_{x,x}`，把空间标识 X 改成了点变量 x。第 275 行再次将结构层写为 `O_x`，应与原页的 `O_X` 对应。300dpi 裁片可辨大写空间下标与后接的点下标。
 - 备注：页内关于简单/多重点、解析坐标、复化及脚注 8–11 的其余内容与原页相符；印刷运行页眉、页码 121 未录入 Markdown。
 - 结论：结构层与 stalk 的数学记号不一致，列为 FAIL，待全篇审计结束后逐处修复。
+
+### PDF p.015 / 96（印刷 p.122）— FAIL
+
+- 时间：2026-10-01 16:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.015 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p015.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p015_local_ring_indices.png` 与 MinerU Markdown 第 285–297 行。条件 (1) 印刷为局部环 `O_{X,\lambda(\hat{x})}`，条件 (2) 的 homomorphism source 同样以该局部环为源；Markdown 第 287、289 行均漏掉 `X` 与 `\lambda(\hat{x})` 之间的逗号，损坏局部环下标结构。其余 universal-property/canonical-map 关系及脚注 12 与原页相符。
+- 备注：印刷运行页眉与页码 122 未录入 Markdown，属导航元素省略。
+- 结论：局部环 index 标点缺失，列为 FAIL；待全篇审计结束后逐处修复。
