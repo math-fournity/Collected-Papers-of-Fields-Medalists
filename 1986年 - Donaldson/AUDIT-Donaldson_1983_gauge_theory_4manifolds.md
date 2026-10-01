@@ -231,3 +231,12 @@
 - Markdown segment: lines 923–955, Corollary 17 and its proof through the compact-complement statement.
 - Compared: `p` parameterisation; derivative bound; uniqueness/smoothness proof; derivative estimates for `λ` and `x`; compactness conclusion.
 - Result: **PASS±**. The formulas and prose match. In the derivative formula the print uses lowercase `k` in `k^{-1}` and `β_k`, as does Markdown; earlier Definition 15 uses uppercase `K` for the instanton minimum. This source-level notation inconsistency is preserved. The running author header and folio `302` are absent.
+
+### p.025 (PDF p.25 / print p.303)
+
+- PNG: `audit/p025.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p025-norm-squares.png`, `audit/300dpi/p025-vector-field.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:31:26 EDT
+- Markdown segment: lines 957–1006, from Proposition 18 through the vector-field definition in the proof of Theorem 19.
+- Compared: Proposition 18(i)–(iii); eigenvalue and Sobolev estimates; Theorem 19 covering-map argument; tangent-space map and inequality (1); vector field defining `α`.
+- Result: **FAIL**. Markdown line 967 omits the outer square on all three printed `L²` norms in the eigenvalue/Rayleigh inequalities. The 300-dpi crop confirms `\|d_A^*ω\|_{L²}²=μ(A)` and `\|d_θ^*ω'\|_{L²}²≥μ₁\|ω'\|_{L²}²`. Markdown line 1006 uses Greek `ν^i`; the 300-dpi print shows Latin `v^i`, matching the parameter `ξ=(v^i,φ)`. Both errors are repair candidates. The other checked content matches; the running author header and folio `303` are absent.
