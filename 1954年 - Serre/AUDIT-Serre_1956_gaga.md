@@ -156,3 +156,10 @@
 - Evidence: [300 dpi cohomology-diagram crop](audit/300dpi/Serre_1956_gaga_p020_cohomology-diagram_300dpi.png); [300 dpi Theorem 1–2 crop](audit/300dpi/Serre_1956_gaga_p020_theorem1_300dpi.png); PDF text layer and MinerU Markdown lines 395–435.
 - Checked: induced cohomology maps, the connecting-homomorphism diagram, its coherent-sheaf condition, projective-space setup, and Theorems 1–2.
 - Result: FAIL. The print says “where the sheaf C is coherent” (the sheaf \mathcal C from the exact sequence); Markdown line 413 has “où le faisceau à est cohérent.” The diagrams and theorem statements otherwise agree, including q ≥ 0.
+
+### PDF p.021/43 — print p.20
+
+- Reviewed: 2026-10-01 16:31 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi remark 2 crop](audit/300dpi/Serre_1956_gaga_p021_remark2_300dpi.png); [300 dpi Theorem 1 crop](audit/300dpi/Serre_1956_gaga_p021_theorem1_300dpi.png); [300 dpi constant-sheaf crop](audit/300dpi/Serre_1956_gaga_p021_constant-sheaf_300dpi.png); PDF text layer and MinerU Markdown lines 437–469.
+- Checked: Theorem 3, both remarks, the factorization of epsilon, the constant rational-function sheaf example, Theorem 1 and Lemma 4.
+- Result: PASS±. The crops confirm the factorization targets F' before F^h, the negative question concerns the F' map, the printed constant-sheaf term is K without a prime, and Theorem 1 uses q ≥ 0. These forms agree with Markdown; no content difference was found on this page.
