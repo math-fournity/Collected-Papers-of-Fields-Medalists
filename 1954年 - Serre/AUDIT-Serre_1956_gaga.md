@@ -98,3 +98,11 @@
 - Checked: completion of Proposition 4, injectivity/corollaries 1–3, the Zariski-density proposition and its remark.
 - Result: PASS±. The checked assertions and notation agree; no distinct glyph-level discrepancy was found on this page. The running title and print page number are not represented in Markdown.
 - Image: no per-page image; born-digital text layer is primary on this page, with separate 300 dpi adjudication reserved for unresolved glyph discrepancies.
+
+### PDF p.013/43 — print p.12
+
+- Reviewed: 2026-10-01 16:17 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: PDF text layer compared page-by-page with MinerU Markdown lines 206–220.
+- Checked: Proposition 6, Chow's projective-cover argument, Lemma 2 on dense images, irreducible-component indexing, and the opening of Proposition 7.
+- Result: PASS±. The checked prose, propositions and set-map notation agree. The running author and print page number are not represented in Markdown.
+- Image: no per-page image; born-digital text-layer review found no separate glyph-level discrepancy requiring a crop.
