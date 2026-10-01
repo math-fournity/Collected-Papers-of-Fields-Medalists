@@ -24,3 +24,12 @@
 - 核对：目录 §6.5–附录 §A.3。
 - 结果：PASS±。
 - 差异与依据：目录附录标题的印刷排版将 `infinity by` 连作 `infinityby`（源级空格 quirk，照录）；Markdown 对应目录项也缺空格，且作者尾部被截成 `Michael C`，但附录正文标题后续列出全名。此为目录元数据的轻微转录缺损，非正文遗漏。页图与 PDF 文本层一致；Markdown 对应第 51–69 行。
+
+## p.003（PDF p.3 / 印刷 p.3）
+- 时间：2026-10-01 16:16:36 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p003.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p003_Theorem-1.2.png`
+- 核对：§1.1 概述、Theorem 1.1–1.2、§1.2 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Theorem 1.2 在印刷页写作 `Let (T,r) ⊂ (G,X)`，结论为高度 `is (M disc E_T)^{o(1)}`；Markdown 第 95 行的包含式丢失 `(G,X)` 的括号，渐近式丢失左括号并把 `E_T` 输出成 `\cal E_T`。300dpi 裁片清楚显示原式为普通斜体 `E_T`，故当前 Markdown 公式结构不完整。第 81 行还将 `different strategy` 误录为 `diferent strategy`；第 101 行本页对应的 `different` 亦少一个 `f`。印刷 PDF 文本层、150dpi 整页图及 300dpi 裁片相互支持；改动留待 52 页审计完成后逐处 Edit。
