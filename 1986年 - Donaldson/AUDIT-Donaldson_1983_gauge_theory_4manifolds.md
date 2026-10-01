@@ -104,3 +104,12 @@
 - Markdown segment: lines 329–372, from Theorem 6 through the definition of the smooth map `S(A+a,g)`.
 - Compared: Theorem 6 local quotient statements; slice norm and group-action formulas; factorisation `g=γ\tilde g`; Sobolev estimate; proof of Hausdorffness and the map `S`.
 - Result: **PASS±**. The mathematical statements and formulas match. The print says “a principle `𝒢/±1` bundle” (rather than “principal”); Markdown preserves the source wording. The prime after `L_3^2` in the norm of `b` is visible on the 300-dpi crop and is also preserved. The running author header and folio `288` are omitted.
+
+### p.011 (PDF p.11 / print p.289)
+
+- PNG: `audit/p011.png` (150-dpi `pngmono`)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:07:45 EDT
+- Markdown segment: lines 375–413, from the derivative of `S` through the Fredholm-operator discussion ending “compact manifolds are”.
+- Compared: derivative and isomorphism claim; reducible-connection restriction and local quotient model; section II.2 map `Φ`; derivative of `Φ` and Fredholm statement.
+- Result: **PASS±**. The equations, spaces, and prose match the page image. The Markdown omits the running header and printed folio `289`.
