@@ -20,3 +20,10 @@
 - Evidence: PDF text layer page 1 compared with MinerU Markdown lines 1–13 (author, article title, AIF volume/year/pages and Numdam URL, copyright/archive terms, Numdam digitization notice).
 - Result: PASS±. Bibliographic identity and copyright/archive content are present and consistent. The print's letter-spaced Annales masthead is not separately reproduced as a display line; the journal remains explicitly named in the citation and copyright text. This is a presentation omission, not a misleading bibliographic difference.
 - Image: not individually rendered under the born-digital sample route; no glyph-level uncertainty on this cover page.
+
+### PDF p.002/43 — print p.1 (title page and Introduction)
+
+- Reviewed: 2026-10-01 15:56 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi full page](audit/Serre_1956_gaga_p002_150dpi.png); [300 dpi name crop](audit/300dpi/Serre_1956_gaga_p002_chow_300dpi.png); PDF text layer compared with MinerU Markdown lines 15–25.
+- Checked: article title and author; opening Introduction through the sentence continued on PDF p.3; theorem-of-Chow sentence.
+- Result: FAIL. The print and PDF text layer read “CHOW” (300 dpi crop confirms the letters); Markdown line 23 reads “CNow”. The title, author, and remaining checked prose agree. Defer the single Markdown correction until all 43 PDF pages have been audited.
