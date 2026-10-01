@@ -307,7 +307,7 @@ $$
 
 is not the volume polynomial of four convex bodies in$\mathbb { R } ^ { 2 }$because its support is not representable over the field$\mathbb { F } _ { 2 }$
 
-Example 14. Not all Lorentzian polynomials are volume polynomials of nef divisors on a projective variety. For example, consider the cubic polynomialll
+Example 14. Not all Lorentzian polynomials are volume polynomials of nef divisors on a projective variety. For example, consider the cubic polynomial
 
 $$
 f = 14 w _ {1} ^ {3} + 6 w _ {1} ^ {2} w _ {2} + 24 w _ {1} ^ {2} w _ {3} + 12 w _ {1} w _ {2} w _ {3} + 3 w _ {2} w _ {3} ^ {2}.
