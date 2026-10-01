@@ -258,3 +258,12 @@
 - Markdown segment: lines 1053–1097, from the Proposition 18 estimate through Lemma 20's rescaling reduction to `R=1`.
 - Compared: curvature-difference bound; derivative estimates for `p`; conclusion that `p` is locally one-sheeted; III.4 setup and Lemma 20 annulus/curvature hypotheses.
 - Result: **PASS±**. The statements and displayed formulas match the page image. The Markdown's following image block is outside this page's final printed sentence and will be checked against the next PDF page. The running author header and folio `305` are absent.
+
+### p.028 (PDF p.28 / print p.306)
+
+- PNG: `audit/p028.png` (150-dpi `pngmono`); MinerU figure evidence: `audit/p028-mineru-figure.jpg` (copy of the embedded Markdown image)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:38:55 EDT
+- Markdown segment: the embedded `images/page_27_image_0.jpg` figure at line 1099 and the following “Thus once K is small enough...” paragraph through the `C^0` bound.
+- Compared: the embedded diagram's `S^4`, `C_λ`, `R^4`, `X`, `B(x₀,r)`, `λ^{-1}`, `λ^{-1/2}`, connection labels, and the exponential-gauge curvature bound.
+- Result: **PASS±**. The MinerU embedded figure matches the diagram on PDF p.28, and the bound matches the print. The embedded figure is stored in this page's `audit/` evidence as required. The running author header and folio `306` are not represented in the Markdown.
