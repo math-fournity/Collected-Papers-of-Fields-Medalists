@@ -240,3 +240,12 @@
 - Markdown segment: lines 957–1006, from Proposition 18 through the vector-field definition in the proof of Theorem 19.
 - Compared: Proposition 18(i)–(iii); eigenvalue and Sobolev estimates; Theorem 19 covering-map argument; tangent-space map and inequality (1); vector field defining `α`.
 - Result: **FAIL**. Markdown line 967 omits the outer square on all three printed `L²` norms in the eigenvalue/Rayleigh inequalities. The 300-dpi crop confirms `\|d_A^*ω\|_{L²}²=μ(A)` and `\|d_θ^*ω'\|_{L²}²≥μ₁\|ω'\|_{L²}²`. Markdown line 1006 uses Greek `ν^i`; the 300-dpi print shows Latin `v^i`, matching the parameter `ξ=(v^i,φ)`. Both errors are repair candidates. The other checked content matches; the running author header and folio `303` are absent.
+
+### p.026 (PDF p.26 / print p.304)
+
+- PNG: `audit/p026.png` (150-dpi `pngmono`); 300-dpi crops: `audit/300dpi/p026-curvature-derivative.png`, `audit/300dpi/p026-derivative.png`
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:33:48 EDT
+- Markdown segment: lines 1009–1050, from `ξ=(v^i,φ)` through the final estimate `≤ const. |ξ|`.
+- Compared: flow action and `α(ξ)` definition; variation of the self-dual projection; curvature estimates in the two radial ranges; `L²` and `L^{4/3}` derivative bounds.
+- Result: **FAIL**. Markdown line 1011 inserts `$$` between the inline formula for `α(ξ)` and the following prose, creating malformed math delimiters; the printed page has a single inline formula followed by “α is plainly linear”. This is a repair candidate. The 300-dpi crops also confirm two source-level print quirks that Markdown preserves: the first derivative term in the correction estimate is printed `c/dt`, and the preceding `F_-(f_t(A))` display lacks an outer closing parenthesis before the norm bar. These print forms must remain faithful to the page. The other checked bounds match; the running author header and folio `304` are absent.
