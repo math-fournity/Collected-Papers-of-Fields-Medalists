@@ -95,3 +95,12 @@
 - Markdown segment: lines 299–327, from “We discuss first the reducible connections...” through the closing one-dimensional stabiliser criterion.
 - Compared: reducibility criteria; splitting `E=L⊕L⁻¹`; Chern-class formula; count `n(Q)`; stabiliser action; harmonic-space vanishing and final converse.
 - Result: **FAIL**. Markdown line 305 says “complex lie bundles”; the print reads “complex line bundles”. The 300-dpi phrase crop confirms the missing `n`, which changes the mathematical term. The harmonic equality `H¹(X;R)=𝒦⁻²(X)=0` also matches the print in its 300-dpi crop. The remaining checked formulas and prose match; the running header and folio `287` are absent.
+
+### p.010 (PDF p.10 / print p.288)
+
+- PNG: `audit/p010.png` (150-dpi `pngmono`); notation crop: `audit/300dpi/p010-norms.png` (300-dpi page crop)
+- Actor / model / effort: `Peer-P03` / `gpt-6-luna` / `max`
+- Checked at: 2026-10-01 16:06:10 EDT
+- Markdown segment: lines 329–372, from Theorem 6 through the definition of the smooth map `S(A+a,g)`.
+- Compared: Theorem 6 local quotient statements; slice norm and group-action formulas; factorisation `g=γ\tilde g`; Sobolev estimate; proof of Hausdorffness and the map `S`.
+- Result: **PASS±**. The mathematical statements and formulas match. The print says “a principle `𝒢/±1` bundle” (rather than “principal”); Markdown preserves the source wording. The prime after `L_3^2` in the norm of `b` is visible on the 300-dpi crop and is also preserved. The running author header and folio `288` are omitted.
