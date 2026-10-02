@@ -110,13 +110,13 @@ $$
 are the harmonic functions in the interior of the unit circle determined according to Poisson's integral by the boundary functions
 
 $$
-x _ {i} = g _ {i} ^ {*} (\theta)\tag{1.42}
+x _ {i} = g _ {i} ^ {*} (\theta)\tag{1.4_2}
 $$
 
 it is then proved (§§11–16) that
 
 $$
-\sum_ {i = 1} ^ {n} F _ {i} ^ {\prime 2} (w) = 0;\tag{1.43}
+\sum_ {i = 1} ^ {n} F _ {i} ^ {\prime 2} (w) = 0;\tag{1.4_3}
 $$
 
 briefly speaking, this condition expresses that the first variation of $A(g)$ vanishes for the minimizing $g = g^*$. According to the formulas of Weierstrass, the condition (1.4$_3$) expresses that (1.4$_1$) defines a minimal surface. After it has been shown (§§17, 18) that $g^*$ is a proper representation of $\Gamma$, it follows that this minimal surface is bounded by $\Gamma$, since by the properties of Poisson's integral the functions (1.4$_1$) then attach continuously to the boundary values (1.4$_2$).
@@ -127,7 +127,7 @@ One consideration is necessary to validate the preceding argument: we must be su
 
 the contour be rectifiable. For if the contour have length L, and we choose as parameter  $\theta=2\pi s/L$ , s being arc-length reckoned from any fixed initial point, then it will be readily seen from the fact that a chord is not greater than its arc that the integrand in  $A(g)$  stays bounded, hence  $A(g)$  is finite for this parameter. In particular, every polygon has the finite-area-spanning property. That, however, a finite-area-spanning contour is superior in generality to a rectifiable contour may be seen by taking any simply-connected portion of a surface, having finite area, and drawing upon it any non-rectifiable Jordan curve (e.g., a non-rectifiable Jordan curve on a sphere).
 
-Part II deals with the case of an arbitrary Jordan contour, where generally  $A(g) \equiv +\infty$ , meaning that no finite area whatever can be spanned in the given contour; an example of such a contour is given in §27. The existence theorem is extended to a contour of this type by an easy limit process, wherein the given contour is regarded as a limit of polygons. In this case the minimal surface can be defined only by the Weierstrass equations, the least-area characterization becoming meaningless.†
+Part II deals with the case of an arbitrary Jordan contour, where generally  $A(g) = +\infty$ , meaning that no finite area whatever can be spanned in the given contour; an example of such a contour is given in §27. The existence theorem is extended to a contour of this type by an easy limit process, wherein the given contour is regarded as a limit of polygons. In this case the minimal surface can be defined only by the Weierstrass equations, the least-area characterization becoming meaningless.†
 
 The distinctive feature of the present work is the determination of the minimal surface by the minimizing of the functional  $A(g)$ , decidedly simpler of treatment than the classic area functional.  $A(g)$  has a simple relation to the area functional, dealt with in Part III. If  $S(g)$  denote the area of the surface  $x_{i}=H_{i}(u,v)$ , these being the harmonic functions in  $u^{2}+v^{2}<1$  determined by the boundary functions  $x_{i}=g_{i}(\theta)$ , then  $A(g)\geq S(g)$ , and the relation of equality holds when and only when the surface is minimal. Thus  $A(g)$ , not equal to area in general, is capable of giving information about area in the case of a minimal surface. Part III, moreover, provides the basis for the easy proof in Part V that the minimal surface whose existence is proved in Parts I and II has the least area of any surface bounded by  $\Gamma$ .
 
@@ -215,13 +215,13 @@ In the graph ODEFGO'', the meridian-segment DE represents an arc  $Q'Q''$  of  $
 
 The parallel-segment FG represents an arc  $P^{\prime}P^{\prime\prime}$  of C which corresponds to a single point Q of  $\Gamma$ . The functions  $g_{i}$  are constant on the arc  $P^{\prime}P^{\prime\prime}$ , where they are equal to the coordinates of Q.
 
-The class of all improper representations of $\Gamma$ will be denoted by $\mathfrak{F}$, and will be divided according to the above description into the two sub-classes $\mathfrak{F}_1$ and $\mathfrak{F}_2$, not mutually exclusive:
+The class of all improper representations of $\Gamma$ will be denoted by $\mathfrak{S}$, and will be divided according to the above description into the two sub-classes $\mathfrak{S}_1$ and $\mathfrak{S}_2$, not mutually exclusive:
 
-$\mathfrak{J}_{1}$, improper representations of the first kind, in which an arc of $\Gamma$ less than all of $\Gamma$ corresponds to a single point of $C$.
+$\mathfrak{S}_{1}$, improper representations of the first kind, in which an arc of $\Gamma$ less than all of $\Gamma$ corresponds to a single point of $C$.
 
-$\Im_{2}$ , improper representations of the second kind, in which an arc of C less than all of C corresponds to a single point of  $\Gamma$ .
+$\mathfrak{S}_{2}$ , improper representations of the second kind, in which an arc of C less than all of C corresponds to a single point of  $\Gamma$ .
 
-Special attention must now be given to the correspondences between $\Gamma$ and $C$ whose graph consists of a parallel together with a meridian, such as $OO'O''$. Here the whole of $\Gamma$ corresponds to a single point of $C$, and the whole of $C$ to a single point of $\Gamma$. Such a representation will be termed degenerate; there are evidently $\infty^2$ degenerate representations, obtained by varying the distinguished points on $\Gamma$ and $C$. In the corresponding equations of $\Gamma$ the functions $g$; reduce to constants. The functional $A(g)$ will not be defined for the degenerate representations.
+Special attention must now be given to the correspondences between $\Gamma$ and $C$ whose graph consists of a parallel together with a meridian, such as $OO'O''$. Here the whole of $\Gamma$ corresponds to a single point of $C$, and the whole of $C$ to a single point of $\Gamma$. Such a representation will be termed degenerate; there are evidently $\infty^2$ degenerate representations, obtained by varying the distinguished points on $\Gamma$ and $C$. In the corresponding equations of $\Gamma$ the functions $g_i$ reduce to constants. The functional $A(g)$ will not be defined for the degenerate representations.
 
 Three fixed points. After having established in §6 a certain invariance property of  $A(g)$ , we shall be led to consider the class of those proper or improper representations of  $\Gamma$  wherein three distinct fixed points  $P_{1}, P_{2}, P_{3}$ , of C, correspond to three distinct fixed points  $Q_{1}, Q_{2}, Q_{3}$ , of  $\Gamma$ . These representations are pictured on the torus  $R = \Gamma C$  by proper or improper cyclically monotonic curves passing through three fixed points no two of which lie on the same parallel or the same meridian.
 
@@ -230,13 +230,13 @@ The preceding discussion leads us to distinguish the following classes of repres
 (1) The class of all representations: proper, improper, and degenerate,
 
 $$
-\mathfrak {R} = \mathfrak {P} + \mathfrak {I} + \mathfrak {D}.
+\mathfrak {R} = \mathfrak {P} + \mathfrak {S} + \mathfrak {D}.
 $$
 
 (2) The class of all proper and improper representations:
 
 $$
-\mathfrak {M} = \mathfrak {P} + \mathfrak {I}.
+\mathfrak {M} = \mathfrak {P} + \mathfrak {S}.
 $$
 
 This is not a closed set, since a sequence of representations of M may tend to a degenerate representation as limit. M will serve as the range of the argument in the functional  $A(g)$ .
@@ -244,7 +244,7 @@ This is not a closed set, since a sequence of representations of M may tend to a
 (3) The class of all proper and improper representations whereby three distinct fixed points of  $\Gamma$  correspond to three distinct fixed points of C:
 
 $$
-\mathfrak {M} ^ {\prime} = \mathfrak {P} ^ {\prime} + \mathfrak {I} ^ {\prime}.
+\mathfrak {M} ^ {\prime} = \mathfrak {P} ^ {\prime} + \mathfrak {S} ^ {\prime}.
 $$
 
 It is important to observe the following two properties of  $M'$ : it is closed; it does not contain any degenerate representation.
@@ -267,10 +267,10 @@ Example 2. The correspondence $t = t(\theta)$ between $\Gamma$ and $C$ may be de
 
 It will be seen from these examples that the harmonic surface determined by a given representation of $\Gamma$ cannot be regarded as bounded by $\Gamma$ unless this representation is proper. It is for this reason that after establishing the existence of a representation $x_{i} = g_{i}^{*}(\theta)$ such that the corresponding harmonic surface obeys the condition $\sum_{i=1}^{n} F_{i}^{\prime 2}(w) = 0$, it is necessary (as is done in §§17, 18) to prove that the representation $g^{*}$ is proper before we can say we have a minimal surface bounded by $\Gamma$.
 
-5. The fundamental functional  $A(g)$ . The functional  $A(g)$  is defined on the set  $M = P + J$  of all proper and improper representations of  $\Gamma$  by the formula
+5. The fundamental functional  $A(g)$ . The functional  $A(g)$  is defined on the set  $\mathfrak{M} = \mathfrak{P} + \mathfrak{S}$  of all proper and improper representations of  $\Gamma$  by the formula
 
 $$
-A (g) = \frac {1}{1 6 \pi} \int_ {c} \int_ {c} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi .\tag{5.1}
+A (g) = \frac {1}{16 \pi} \int_ {C} \int_ {C} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi .\tag{5.1}
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† See Carathéodory, Vorlesungen über reelle Funktionen, Leipzig, 1918, §156, p. 159.</span></small>
@@ -287,7 +287,7 @@ on either side of it, enclosing a region $\tau_{1}$ which we delete from the tor
 
 In case $g$ is proper, or improper only of the second kind, the integrand of (5.1) is defined and continuous on $T_{1}$.
 
-If g is improper of the first kind, the integrand is discontinuous at the points of certain parallels and meridians, symmetrically disposed with respect to the diagonal, and at most denumerably infinite in number. At a point belonging to a parallel but not to a meridian of discontinuity (or vice-versa), the discontinuity is in the form of distinct limits $^{\ddagger}$ according as the point is approached from one side or the other of the parallel (or meridian). At a point of intersection of a parallel of discontinuity with a meridian of discontinuity, there are four distinct limits $^{\ddagger}$ according to the quadrant within which the point is approached.
+If g is improper of the first kind, the integrand is discontinuous at the points of certain parallels and meridians, symmetrically disposed with respect to the diagonal, and at most denumerably infinite in number. At a point belonging to a parallel but not to a meridian of discontinuity (or vice-versa), the discontinuity is in the form of distinct limits $^{\dagger}$ according as the point is approached from one side or the other of the parallel (or meridian). At a point of intersection of a parallel of discontinuity with a meridian of discontinuity, there are four distinct limits $^{\ddagger}$ according to the quadrant within which the point is approached.
 
 In any event, the discontinuities of the integrand in  $T_{1}$  form at most a set of zero measure.
 
@@ -339,22 +339,14 @@ $$
 \frac {\pi}{r + 1} \leq | \theta - \phi | \leq \frac {\pi}{r},\tag{5.2}
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">g</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\Delta_{r}^{*}(g)$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† That “increasing” and “positive” may here be taken in the strict sense follows by the same proof given a little later on to show that  $\Delta_{r}^{*}(g)$  is strictly positive. The only assumption to be made is that g is not a degenerate representation.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">By $|\theta -\phi |$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">φ</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\ddagger$  By  $|\theta-\phi|$  we shall understand the minor arc intercepted between the points  $\theta$  and  $\phi$  on the unit circle C.</span></small>
 
 consisting of a pair of strips symmetric with respect to the diagonal, will be denoted by  $\Delta_{r}$ . We then define the functional
 
 $$
-\Delta_ {r} (g) = \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi .\tag{5.3}
+\Delta_ {r} (g) = \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi .\tag{5.3}
 $$
 
 This is a proper Riemann integral since the integrand stays bounded on $\Delta_r$, being
@@ -378,8 +370,6 @@ a $\theta$ exists such that $(\theta, \phi_1)$ and $(\theta, \phi_2)$ obey (5.2)
 Now any two points whatever $\theta$, $\phi$ of $C$ can be made the first and last of a finite sequence $\theta, \phi_1, \phi_2, \cdots, \phi_m$, $\phi$ any two consecutive terms of which obey (5.4). Consequently $\Delta_r(g) = 0$ implies $g_i(\theta) = g_i(\phi)$ for all $\theta, \phi$; but then $g$ would be a degenerate representation; however, such are excluded from the range of the argument in $A(g)$.]
 
 The functional  $A(g)$  may now be defined as the finite or positively infinite sum of the infinite series of positive terms
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† At a point of discontinuity this will mean that one of the two or four limiting values is equal to p</span></small>
 
@@ -500,7 +490,7 @@ for $m > m_{\epsilon}$.
 An alternative statement is:
 
 $$
-\begin{array}{c}a _ {1},   a _ {2},   \dots ,   a _ {m},   \dots \rightarrow a,\\U (a _ {1}),   U (a _ {2}),   \dots ,   U (a _ {m}),   \dots \rightarrow L,\\U (a) \leq L,\end{array}\tag{7.2) if}
+\begin{array}{l l}\text{if} & a _ {1}, a _ {2}, \dots , a _ {m}, \dots \rightarrow a, \\ \text{and} & U (a _ {1}), U (a _ {2}), \dots , U (a _ {m}), \dots \rightarrow L, \\ \text{then} & U (a) \leq L,\end{array}\tag{7.2}
 $$
 
 a condition also expressed in the form
@@ -511,7 +501,7 @@ $$
 
 It is shown by Fréchet† that a lower semi-continuous function on a compact closed L-set attains its minimum value. Our proof that  $A(g)$  attains its minimum will be a particular application of this general theorem. However, for the sake of completeness, we will not assume this easily proved theorem, but shall establish it in §10 with the actual set  $M'$  and functional  $A(g)$  here under consideration.
 
-8. The topological correspondences between $\Gamma$ and $C$ as an $L$-set. With a natural definition of limit, the set $\Re$ of all (proper, improper, and degenerate) representations of $\Gamma$ as topological image of $C$ is an $L$-set, as are also its sub-sets $\mathfrak{M}$ and $\mathfrak{M}'$. We will say, namely, that a sequence of representations
+8. The topological correspondences between $\Gamma$ and $C$ as an $L$-set. With a natural definition of limit, the set $\mathfrak{R}$ of all (proper, improper, and degenerate) representations of $\Gamma$ as topological image of $C$ is an $L$-set, as are also its sub-sets $\mathfrak{M}$ and $\mathfrak{M}'$. We will say, namely, that a sequence of representations
 
 $$
 g ^ {(1)}, g ^ {(2)}, \dots , g ^ {(m)}, \dots
@@ -535,7 +525,7 @@ where the cyclically monotonic character of the graph insures that each projecti
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">‡ Fréchet, loc. cit., p. 65.</span></small>
 
-curve of $\Re$ is rectifiable and has a length $\leq$ the finite upper bound: length of parallel + length of meridian.
+curve of $\mathfrak{R}$ is rectifiable and has a length $\leq$ the finite upper bound: length of parallel + length of meridian.
 
 Thus R obeys all the conditions of the above theorem, and is compact.
 
@@ -544,7 +534,7 @@ $M'$ is an extremal set: compact and closed.
 9. The lower semi-continuity of  $A(g)$ . In (5.5) we have expressed  $A(g)$  as the sum of an infinite series of positive terms. Defining the partial sums
 
 $$
-A _ {r} (g) = \Delta_ {1} (g) + \Delta_ {2} (g) + \dots + \Delta_ {r} (g) = \frac {1}{1 6 \pi} \int \int_ {T _ {r}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi ,\tag{9.1}
+A _ {r} (g) = \Delta_ {1} (g) + \Delta_ {2} (g) + \dots + \Delta_ {r} (g) = \frac {1}{16 \pi} \int \int_ {T _ {r}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi ,\tag{9.1}
 $$
 
 where  $T_{r}$  denotes the domain
@@ -647,9 +637,7 @@ $$
 U (a _ {1}), U (a _ {2}), \dots , U (a _ {m}), \dots
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">to +∞</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">tends to $+\infty$.</span></small>
+tends to $+\infty$.
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† The theorem still remains valid if the functions of the sequence are merely lower semi-continuous. Cf. Carathéodory, Vorlesungen über reelle Funktionen, Leipzig, 1918, p. 175, where this theorem is proved for functions of n real variables.</span></small>
 
@@ -709,19 +697,9 @@ $$
 
 tends to the limit M; the construction of such a sequence is the first step in the direct treatment of any calculus of variations problem.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$g^{\bullet}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\geq A(g^{0})$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">+∞)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$A(g)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">M>0.</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† It is easy to prove that by making g approach suitably to  $g^{0}$ , any number whatever  $\geq A(g^{0})$  (including  $+\infty$ ) can be made the limit of  $A(g)$ .</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\dagger$ After it has been proved that M is attained, it results that M>0.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\ddagger$ After it has been proved that M is attained, it results that M>0.</span></small>
 
 Now the sequence (10.1) may not converge to a limit, but since the set $\mathfrak{M}'$ is compact, we can select a sub-sequence
 
@@ -840,7 +818,7 @@ $$
 since the second factor vanishes; and similarly
 
 $$
-\int_ {c} \int_ {c} g _ {i} ^ {2} (\phi) \cdot p e ^ {- p i \theta} \cdot q e ^ {- q i \phi} \cdot d \theta d \phi = 0.\tag{11.8'}
+\int_ {C} \int_ {C} g _ {i} ^ {2} (\phi) \cdot p e ^ {- p i \theta} \cdot q e ^ {- q i \phi} \cdot d \theta d \phi = 0.\tag{11.8'}
 $$
 
 By the last three equations we may write
@@ -889,7 +867,9 @@ $$
 
 we get
 
-(11.13)
+$$
+\sum_ {p, q} p \zeta^ {p} \cdot q z ^ {q} = (m + 1) \zeta z (\zeta^ {m} + z ^ {m}) (\zeta - z) ^ {- 2} - 2 \zeta z (\zeta^ {m + 1} - z ^ {m + 1}) (\zeta - z) ^ {- 3}.\tag{11.13}
+$$
 
 The calculation of the first and second terms of this expression is as follows.
 
@@ -1002,21 +982,19 @@ and applying these to the representation g, we get the family of representations
 The values of  $A(g)$  for these representations are respectively
 
 $$
-\frac {1}{1 6 \pi} \iint_ {\overline {{T}}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (c ^ {- 1} (\bar {\theta})) - g _ {i} (c ^ {- 1} (\bar {\phi})) \right] ^ {2}}{\sin^ {2} \frac {\bar {\theta} - \bar {\phi}}{2}} d \bar {\theta} d \bar {\phi},
+\frac {1}{16 \pi} \iint_ {\overline {{T}}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (c ^ {- 1} (\bar {\theta})) - g _ {i} (c ^ {- 1} (\bar {\phi})) \right] ^ {2}}{\sin^ {2} \frac {\bar {\theta} - \bar {\phi}}{2}} d \bar {\theta} d \bar {\phi},
 $$
 
 $$
-\frac {1}{1 6 \pi} \iint_ {\overline {{T}}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (s ^ {- 1} (\bar {\theta})) - g _ {i} (s ^ {- 1} (\bar {\phi})) \right] ^ {2}}{\sin^ {2} \frac {\bar {\theta} - \bar {\phi}}{2}} d \bar {\theta} d \bar {\phi},
+\frac {1}{16 \pi} \iint_ {\overline {{T}}} \frac {\sum_ {i = 1} ^ {n} \left[ g _ {i} (s ^ {- 1} (\bar {\theta})) - g _ {i} (s ^ {- 1} (\bar {\phi})) \right] ^ {2}}{\sin^ {2} \frac {\bar {\theta} - \bar {\phi}}{2}} d \bar {\theta} d \bar {\phi},
 $$
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§17</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† It will follow from §17 that, in particular, g cannot be improper of the first kind.</span></small>
 
 where the torus  $\overline{T}=\bar{C}\bar{C}$  corresponds to the torus T=CC by the equations (12.1). Making the change of variables (12.1) in these double integrals, we obtain two functions of  $\lambda$, which we will denote respectively by  $C_{m}(\lambda)$,  $S_{m}(\lambda)$:
 
 $$
-\begin{array}{l} C _ {m} (\lambda) = \frac {1}{1 6 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} d \theta d \phi , \\ S _ {m} (\lambda) = \frac {1}{1 6 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} d \theta d \phi . \end{array} \tag {12.3}
+\begin{array}{l} C _ {m} (\lambda) = \frac {1}{16 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} d \theta d \phi , \\ S _ {m} (\lambda) = \frac {1}{16 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} d \theta d \phi . \end{array} \tag {12.3}
 $$
 
 These are improper Riemann integrals (singular locus $\theta = \phi$).
@@ -1030,7 +1008,7 @@ $$
 defined by (5.2). Replacing the domain of integration T in (12.3) by  $\Delta_{r}$ , we derive the functions
 
 $$
-\begin{array}{l} C _ {m r} (\lambda) = \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} d \theta d \phi , \\ S _ {m r} (\lambda) = \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} d \theta d \phi . \end{array} \tag {12.4}
+\begin{array}{l} C _ {m r} (\lambda) = \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} d \theta d \phi , \\ S _ {m r} (\lambda) = \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} d \theta d \phi . \end{array} \tag {12.4}
 $$
 
 These are proper Riemann integrals since the domain $\Delta_r$ does not contain any singular points $\theta = \phi$.
@@ -1150,7 +1128,7 @@ $$
 An entirely similar calculation gives for the second fraction (13.1):
 
 $$
-\begin{array}{l} (1 3. 5 ^ {\prime}) \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} = \frac {1}{\sin^ {2} \frac {\theta - \phi}{2}} \\ + \lambda \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos [ m \frac {\theta + \phi}{2} ] + \dots . \end{array}
+\begin{array}{l} \frac {(1 + m \lambda \cos m \theta) (1 + m \lambda \cos m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\sin m \theta - \sin m \phi}{2}\right)} = \frac {1}{\sin^ {2} \frac {\theta - \phi}{2}} \\ + \lambda \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos [ m \frac {\theta + \phi}{2} ] + \dots . \end{array}\tag{13.5'}
 $$
 
 The following observation is now of prime importance: if  $\lambda$  is given any fixed value in  $C_{m}$ , so that
@@ -1222,7 +1200,7 @@ We are especially interested in the values of the coefficients of the first powe
 (13.10)
 
 $$
-\begin{array}{l} C _ {m r} ^ {\prime} (0) = - \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \sin [ m \frac {\theta - \phi}{2} ] d \theta d \phi , \\ . 1 0) \\ S _ {m r} ^ {\prime} (0) = \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (n - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos [ m \frac {\theta + \phi}{2} ] d \theta d \phi . \end{array}
+\begin{array}{l} C _ {m r} ^ {\prime} (0) = - \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \sin [ m \frac {\theta - \phi}{2} ] d \theta d \phi , \\ S _ {m r} ^ {\prime} (0) = \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos [ m \frac {\theta + \phi}{2} ] d \theta d \phi . \end{array}
 $$
 
 14. Analyticity of the functions  $C_{m}(\lambda)$ ,  $S_{m}(\lambda)$ . The function  $C_{m}(\lambda)$  is defined by the infinite series (12.5), each of whose terms has just been proved analytic in the circle  $C_{m}$ . We proceed to prove that this series is uniformly convergent in every smaller concentric circle
@@ -1236,7 +1214,7 @@ The analyticity of  $C_{m}(\lambda)$  will then result immediately by the Weiers
 Considering $C_{mr}(\lambda)$, we have from (12.4)
 
 $$
-\begin{array}{r l} \left| C _ {m r} (\lambda) \right| & \leqslant \frac {1}{1 6 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2} \\ & \cdot \left| \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} \right| d \theta d \phi . \end{array}\tag{14.2}
+\begin{array}{r l} \left| C _ {m r} (\lambda) \right| & \leqslant \frac {1}{16 \pi} \iint_ {\Delta_ {r}} \sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2} \\ & \cdot \left| \frac {(1 - m \lambda \sin m \theta) (1 - m \lambda \sin m \phi)}{\sin^ {2} \left(\frac {\theta - \phi}{2} + \lambda \frac {\cos m \theta - \cos m \phi}{2}\right)} \right| d \theta d \phi . \end{array}\tag{14.2}
 $$
 
 Comparing this with the formula (5.3) for  $\Delta_{r}(g)$ , also a double integral over  $\Delta_{r}$  with positive real elements, we wish to prove that the quotient of the integrand of (14.2) by that of  $\Delta_{r}(g)$ ,
@@ -1290,7 +1268,7 @@ $$
 with
 
 $$
-\begin{array}{l} (1 4. 7) C _ {m} ^ {\prime} (0) = - \frac {1}{1 6 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \sin [ m \frac {\theta + \phi}{2} ] d \theta d \phi . \end{array}
+\begin{array}{l} C _ {m} ^ {\prime} (0) = - \frac {1}{16 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \\ \cdot \frac {(m - 1) \sin [ (m + 1) \frac {\theta - \phi}{2} ] - (m + 1) \sin [ (m - 1) \frac {\theta - \phi}{2} ]}{\sin^ {3} \frac {\theta - \phi}{2}} \sin [ m \frac {\theta + \phi}{2} ] d \theta d \phi . \end{array}\tag{14.7}
 $$
 
 The entire preceding argument applies to  $S_{m}(\lambda)$ , and gives
@@ -1302,7 +1280,7 @@ $$
 with
 
 $$
-\begin{array}{l} (1 4. 7 ^ {\prime}) S _ {m} ^ {\prime} (0) = \frac {1}{1 6 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2} \\ \cdot \frac {(m - 1) \sin \left[ (m + 1) \frac {\theta - \phi}{2} \right] - (m + 1) \sin \left[ (m + 1) \frac {\theta - \phi}{2} \right]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos \left[ m \frac {\theta - \phi}{2} \right] d \theta d \phi . \end{array}
+\begin{array}{l} S _ {m} ^ {\prime} (0) = \frac {1}{16 \pi} \iint_ {T} \sum_ {i = 1} ^ {n} \left[ g _ {i} (\theta) - g _ {i} (\phi) \right] ^ {2} \\ \cdot \frac {(m - 1) \sin \left[ (m + 1) \frac {\theta - \phi}{2} \right] - (m + 1) \sin \left[ (m + 1) \frac {\theta - \phi}{2} \right]}{\sin^ {3} \frac {\theta - \phi}{2}} \cos \left[ m \frac {\theta - \phi}{2} \right] d \theta d \phi . \end{array}\tag{14.7'}
 $$
 
 15. Relations between $A_{m}, B_{m}$ and $C_{m}'(0), S_{m}'(0)$. The ultimate purpose of the calculations of §§11-14 was to establish the following relations, observable immediately by comparing (11.5) with (14.7), (14.7'):
@@ -1390,7 +1368,7 @@ The domain  $(\theta,\phi)$  defined by (17.2) is a square S on the torus T, wit
 Since the double integral (5.1) defining  $A(g)$  is composed of non-negative elements, its value over T is not less than its value over S:
 
 $$
-A (g) \geq \frac {1}{1 6 \pi} \iint_ {S ^ {\prime}} \frac {\sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi ;\tag{17.3}
+A (g) \geq \frac {1}{16 \pi} \iint_ {S _ {\epsilon}} \frac {\sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi ;\tag{17.3}
 $$
 
 therefore, by (17.1),
@@ -1551,33 +1529,9 @@ $$
 x _ {i} = g _ {i} ^ {(m)} (\theta)\tag{19.4}
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">d'A</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Γ,</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† Cf. G. Julia, Principes Geométriques d'Analyse, Paris, 1930, pp. 44–48, especially paragraph e.<br>‡ See C. Jordan, Cours d'Analyse (2d edition, Paris, 1893), p. 93. The polygons may be only partially inscribed in Γ, being derived from inscribed polygons by removing possible loops.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$x_{i} = f_{i}(t)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$x_{i} = S_{im}(t)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\Gamma^{(m)}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">I,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$t = \omega_{m}(\theta)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">C,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">C</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§17</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">We could also proceed by expressing the continuous functions $x_{i} = f_{i}(t)$ representing $\Gamma$ as the limits of their Fejér trigonometric polynomials $x_{i} = S_{im}(t)$. The contours $\Gamma^{(m)}$ thus represented might have multiple points. By referring back to Part I, it will be seen that this does not prevent the existence of a representation $t = \omega_m(\theta)$ of $\Gamma^{(m)}$ on $C$ such that the parameter $\theta$ determines a minimal surface; only this representation might be improper in that a loop of $\Gamma^{(m)}$ could correspond to a single point of $C$, for the argument of §17 breaks down when $l = 0$, and only then. The reader will readily see that the use of an improper representation $t = \omega_m(\theta)$ of $\Gamma^{(m)}$ would not at all complicate the proof which follows.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">l=0,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$t = \omega_{m}(\theta)$</span></small>
 
 determines a minimal surface bounded by $\Gamma^{(m)}$:
 
@@ -1608,7 +1562,7 @@ which belongs to  $M'$ , and may be proper or improper but not degenerate, since
 Let the (proper or improper) representation of  $\Gamma$  derived by applying the transformation (19.7) to (19.2) be
 
 $$
-x _ {i} = g _ {i} (\theta) = f ^ {i} (\omega (\theta));\tag{19.8}
+x _ {i} = g _ {i} (\theta) = f _ {i} (\omega (\theta));\tag{19.8}
 $$
 
 then we have
@@ -1669,7 +1623,7 @@ $$
 O M \cdot O M ^ {\prime} = O A \cdot O A ^ {\prime}.\tag{20.2}
 $$
 
-If this be combined with a reflection  $M^{\prime}\rightarrow M^{\prime\prime}$  in  $P^{\prime}P$ , the resulting transformation  $M\rightarrow M^{\prime\prime}$ , to be called T, is a conformal transformation converting the interior and circumference of the unit circle into themselves respectively. T has the linear fractional form
+If this be combined with a reflection  $M^{\prime}\rightarrow M^{\prime\prime}$  in  $P^{\prime}P$ , the resulting transformation  $M\rightarrow M^{\prime\prime}$ , to be called $\mathfrak{G}$, is a conformal transformation converting the interior and circumference of the unit circle into themselves respectively. $\mathfrak{G}$ has the linear fractional form
 
 $$
 w ^ {\prime} = \frac {a w + b}{c w + d}.\tag{20.3}
@@ -1705,7 +1659,7 @@ $$
 \sum_ {i = 1} ^ {n} G _ {i} ^ {\prime 2} (w) = 0.\tag{20.6}
 $$
 
-Imagine now that O takes a sequence of positions tending to P as limit. Then we obtain a sequence of functions  $G_{i}(w)$  constantly obeying (20.6). Consider the boundary values  $h_{i}(\theta)$  of  $\Re G_{i}(w)$  as defined by (20.5). It is evident that if  $A''$  is any fixed point of the circumference, its image A by  $T^{-1}$  tends to P from below or above according as  $A''$  lies on the upper or lower semi-circumference  $PP'$ . Hence, on account of the distinct limiting values,  $a_{i}$  and  $b_{i}$, of  $g_{i}(\theta)$  on the different sides of P, it follows that  $h_{i}(\theta)$  tends to a function equal to the constant  $a_{i}$  on the upper semi-circumference, and to the constant  $b_{i}$  on the lower semi-circumference.
+Imagine now that O takes a sequence of positions tending to P as limit. Then we obtain a sequence of functions  $G_{i}(w)$  constantly obeying (20.6). Consider the boundary values  $h_{i}(\theta)$  of  $\Re G_{i}(w)$  as defined by (20.5). It is evident that if  $A''$  is any fixed point of the circumference, its image A by  $\mathfrak{G}^{-1}$  tends to P from below or above according as  $A''$  lies on the upper or lower semi-circumference  $PP'$ . Hence, on account of the distinct limiting values,  $a_{i}$  and  $b_{i}$, of  $g_{i}(\theta)$  on the different sides of P, it follows that  $h_{i}(\theta)$  tends to a function equal to the constant  $a_{i}$  on the upper semi-circumference, and to the constant  $b_{i}$  on the lower semi-circumference.
 
 We have by (19.12)
 
@@ -1817,8 +1771,6 @@ This infinite series may be expressed as a double integral (formula (21.12)) in 
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">‡ Cf. Picard, Traité d'Analyse, vol. 1 (3d edition, Paris, 1922), p. 341.</span></small>
 
-(21.11)
-
 $$
 \begin{array}{l} m \rho^ {2 m} \sum_ {i = 1} ^ {n} (a _ {i m} ^ {2} + b _ {i m} ^ {2}) \\ = - \frac {1}{2 \pi^ {2}} \int_ {0} ^ {2 \pi} \int_ {0} ^ {2 \pi} \sum_ {i = 1} ^ {n} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2} \cdot m \rho^ {2 m} \cos m (\theta - \phi) d \theta d \phi . \end{array}\tag{21.10}
 $$
@@ -1838,7 +1790,7 @@ $$
 and taking real parts, we obtain after some reduction
 
 $$
-\sum_ {m = 1} ^ {\infty} m \rho^ {2 m} \cos m (\theta - \phi) = - \rho^ {2} \frac {(1 + \rho^ {2}) ^ {2} \sin^ {2} \frac {\theta - \phi}{2} - (1 - \rho^ {2}) ^ {2} \cos^ {2} \frac {\theta - \phi}{2}}{\left[ (1 + \rho^ {2}) ^ {2} \sin^ {2} \frac {\theta - \phi}{2} + (1 - \rho^ {2}) ^ {2} \cos^ {2} \frac {\theta - \phi}{2} \right] ^ {2}}.
+\sum_ {m = 1} ^ {\infty} m \rho^ {2 m} \cos m (\theta - \phi) = - \rho^ {2} \frac {(1 + \rho^ {2}) ^ {2} \sin^ {2} \frac {\theta - \phi}{2} - (1 - \rho^ {2}) ^ {2} \cos^ {2} \frac {\theta - \phi}{2}}{\left[ (1 + \rho^ {2}) ^ {2} \sin^ {2} \frac {\theta - \phi}{2} + (1 - \rho^ {2}) ^ {2} \cos^ {2} \frac {\theta - \phi}{2} \right] ^ {2}}.\tag{21.11}
 $$
 
 The convergence, moreover, is uniform for all  $\theta$ ,  $\phi$  if  $\rho$  be regarded as fixed <1, since the convergent series of constant positive terms
@@ -2113,7 +2065,9 @@ Here $\Gamma_{\rho}$ denotes the closed analytic curve† which is the image of 
 
 Now when $\rho\to1$, $\Gamma_{\rho}$ tends uniformly to $\Gamma$, for the formulas (23.2), (23.4) are equivalent to Poisson's integral, and the boundary functions (23.1) are continuous. Evidently then, the order of $W_{0}$ with respect to $\Gamma_{\rho}$ tends to the order of $W_{0}$ with respect to $\Gamma$; indeed, for $\rho$ near enough to 1 the former remains equal to the latter. Hence by (23.9), (23.10),
 
-(23.11) $N =$ order of $W_{0}$ with respect to $\Gamma = \left\{ \begin{array}{ll}1$ if $W_{0}$ is interior to $\Gamma ,$ 0 if $W_{0}$ is exterior to $\Gamma .$
+$$
+N = \text{order of } W_{0} \text{ with respect to } \Gamma = \left\{ \begin{array}{ll} 1 & \text{if } W_{0} \text{ is interior to } \Gamma, \\ 0 & \text{if } W_{0} \text{ is exterior to } \Gamma. \end{array} \right.\tag{23.11}
+$$
 
 According to this, the image of a point w of D is never a point exterior to  $\Gamma$ . But neither can it be a point Q of  $\Gamma$ . For then a neighborhood of w would go over into a neighborhood of  $Q; \ddagger$  now every neighborhood of Q contains points exterior to  $\Gamma$ , so that we would have contradiction with the first statement of this paragraph. Hence the image of any point w of D is a point interior to  $\Gamma$ . Furthermore, by (23.11) every point interior to  $\Gamma$  is obtained, and exactly once, as image of a point w. Therefore the transformation  $W = F(w)$  is one-one as between D and  $\Delta$ .
 
@@ -2121,13 +2075,9 @@ To prove that this transformation is conformal without singular points, we must 
 
 That the conformal correspondence thus established between D and  $\Delta$  attaches continuously to the topological correspondence (23.1) between C and  $\Gamma$  is an immediate consequence of the remark, already made, that the
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\Gamma_{\rho}$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">† It will result from the sequel that $\Gamma_{\rho}$ does not intersect itself but this fact is not necessary for the present argument.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$W = F(w)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\dagger$ This is by the region-preserving property (Gebietstreu) of transformations $W = F(w)$; cf. L. Bieberbach, Lehrbuch der Funktionentheorie, Leipzig and Berlin, 1921, pp. 187–188.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\ddagger$ This is by the region-preserving property (Gebietstreu) of transformations $W = F(w)$; cf. L. Bieberbach, Lehrbuch der Funktionentheorie, Leipzig and Berlin, 1921, pp. 187–188.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">§ Bieberbach, loc. cit., p. 188.</span></small>
 
@@ -2200,7 +2150,7 @@ an arbitrary representation of  $\Gamma$  as topological image of the unit circl
 The range of values of the functional
 
 $$
-\begin{array}{r l} A (g) & = \frac {1}{1 6 \pi} \int_ {c} \int_ {c} \frac {\sum_ {i = 1} ^ {2} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi \\ & = \frac {1}{4 \pi} \int_ {c} \int_ {c} \frac {| f (z) - f (\zeta) | ^ {2}}{| z - \zeta | ^ {2}} | d z | | d \zeta | \end{array}
+\begin{array}{r l} A (g) & = \frac {1}{16 \pi} \int_ {C} \int_ {C} \frac {\sum_ {i = 1} ^ {2} [ g _ {i} (\theta) - g _ {i} (\phi) ] ^ {2}}{\sin^ {2} \frac {\theta - \phi}{2}} d \theta d \phi \\ & = \frac {1}{4 \pi} \int_ {C} \int_ {C} \frac {| f (z) - f (\zeta) | ^ {2}}{| z - \zeta | ^ {2}} | d z | | d \zeta | \end{array}
 $$
 
 when g or f varies over all possible representations of  $\Gamma$  consists of all positive real numbers (including  $+\infty$ ) greater than or equal to the inner area of the region enclosed by  $\Gamma$ . This minimum value is attained for a certain proper representation
