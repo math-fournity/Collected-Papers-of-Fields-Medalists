@@ -167,8 +167,6 @@ $$
 \mathrm{P} _ {i} (t) = \det (1 - \mathrm{F} ^ {*} t, \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).
 $$
 
-277
-
 D'après l'hypothèse (1.7), les  $P_{i}$  sont premiers entre eux. Le membre de droite de (1.5.4) est donc sous forme irréductible, et
 
 $$
@@ -189,7 +187,7 @@ La suite de cet article est consacrée à la démonstration de (1.7).
 
 a) Si $\mathcal{F}$ est un $\mathbf{Q}_{\ell}$-faisceau constructible sur $\mathbf{X}$, il existe une partition finie de $\mathbf{X}$ en parties localement fermées $\mathbf{X}_{i}$ telles que $\mathcal{F}|\mathbf{X}_{i}$ soit constant tordu.
 
-b) Supposons X connexe et soit  $\bar{x}$  un point géométrique de X. Pour $\mathcal{F}$ constant tordu,  $\pi_{1}(X,\bar{x})$  agit sur la fibre  $\mathcal{F}_{\bar{x}}$ ; le foncteur fibre en  $\bar{x}$  est une équivalence de catégorie ( $Q_{\ell}$ -faisceaux constructibles constants tordus sur X)→
+b) Supposons X connexe et soit  $\bar{x}$  un point géométrique de X. Pour $\mathcal{F}$ constant tordu,  $\pi_{1}(X,\bar{x})$  agit sur la fibre  $\mathcal{F}_{\bar{x}}$ ; le foncteur fibre en  $\bar{x}$  est une équivalence de catégorie ( $Q_{\ell}$ -faisceaux constructibles constants tordus sur X)↦
 
 $\mapsto$ (représentations continues de $\pi_1(\mathbf{X},\bar{x})$ sur un $\mathbf{Q}_{\ell}$-espace vectoriel de dimension finie).
 
