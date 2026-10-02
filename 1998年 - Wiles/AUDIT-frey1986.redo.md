@@ -27,3 +27,23 @@
   ③文本层 pdftotext 该页数学区失真（`21-22-23 + O` 等），未作裁决依据。本次无 MD 修改。
 
 ---
+
+## p.002（PDF p.2 / 印刷 p.2）
+- PNG：audit-redo/p002.png（pngmono 150dpi）
+- 核对：n=p 素数句；cyclotomic field $\mathbb{Q}(\zeta_p)$ 句；Kummer/regular case 句（cf. [1]）；
+  Galois group $G_{\mathbb{Q}(\zeta_p)}$、$\mathrm{Gl}_1(C)_p$ implies F̲_p 句；
+  ρ dimension 2 / points of order p 句；"Fermat type"（see II）、stable over Q（cf. [2]）、Theorem on p. 15 句。
+- 结果：PASS±（修复 1 处后）
+- 差异与处置：
+  1. 【已修复】MD line 49 `$F_{p}$` → `$\underline{F}_{p}$`：300dpi 仲裁印刷为 "implies **F̲**_p."（F 有下划线，
+     与 line 27 的 F̲_p 同指猜想；下划线丢失会误为普通符号）。证据：audit-redo/p002.png + 300dpi 裁剪比对。
+  2. 【登记不改】line 67 "stable" 印刷有下划线（强调关键词），MD 拍平为 "stable"：排版级伪影，按 SOP 默认不改。
+  3. 【登记不改】同一页 $\zeta_{\mathrm{p}}$（line 29）/$\zeta_{\mathfrak{p}}$（line 39）/$\zeta_{p}$（line 47）字体变体混排，
+     同指同一对象：MinerU 已知 Fraktur 混排瑕疵，不影响数学内容。
+  4. 【print quirk】印刷作 "There is our motivation to relate…"（300dpi 仲裁确认，语法疑为 This 之误但系印刷原文），
+     MD 忠实保留。
+  5. 【150dpi 误读澄清】末行经 300dpi 仲裁为 "the Theorem on p. 15)."（无重音），MD 忠实；150dpi 下疑似
+     "Théorème" 系噪点误读。
+- 备注：页眉 "2　G. Frey" 为页件未入 MD，正常。本次修复后五点比对无内容错误。
+
+---
