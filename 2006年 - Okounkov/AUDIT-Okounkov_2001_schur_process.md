@@ -227,3 +227,9 @@
 - 核对：S₊/S₋ 有限性条件、Λ^{∞/2}V 内积与 {v_S} 正交基、v_λ=λ₁−1/2∧λ₂−3/2∧λ₄−5/2∧…、v_∅ vacuum、ψ_k 外乘定义 ψ_k(f)=k∧f、canonical anti-commutation、式 (41)（ψ_kψ*_k v_S 分段）、α_n 定义与 Heisenberg 关系 [α_n,α_m]=nδ_{n,−m}、式 (42)、式 (43)
 - 结果：PASS。全部吻合。
 - 备注：印刷 quirk 两处忠实保留：① v_λ 定义中 "λ_4−5/2"（按 wedge 序应为 λ_3，印刷 typo，md 原样保留）；② "see the formula"（无编号悬空引用，印刷原样）。
+
+## p.034（PDF p.34 / 印刷 p.34）
+- PNG：audit/p034.png（pngmono 150dpi）
+- 核对：References [1]–[14] 逐条（作者/标题/刊名/卷期页年/arXiv 号）
+- 结果：PASS±（两处已修复）：① [3] "Wulf"→"Wulff"——p034.png 印刷 "the Wulff crystal"（双 f），md 丢 ff 连字；② [13] "Poincar´e"→"Poincaré"——p034.png 印刷 "Ann. Inst. H. Poincaré"，md 重音分解伪影（妨碍检索）。
+- 备注：印刷原样 quirk 忠实保留：[2] "transfer-impendances"（应 impedances）、[7] "condmat/0212456"（无连字符）、[9] "math.ph/0006020"、[12] "Pacific J. Math 9"（Math 后无点）——均与印刷逐字一致。

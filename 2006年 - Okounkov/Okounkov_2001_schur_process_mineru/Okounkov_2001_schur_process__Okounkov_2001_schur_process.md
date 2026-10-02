@@ -1264,7 +1264,7 @@ $$
 
 [2] R. Burton and R. Pemantle, Local characteristics, entropy and limit theorems for spanning trees and domino tilings via transfer-impendances, Ann. Prob. 21 (1993), 1329–1371.
 
-[3] R. Cerf and R. Kenyon, The low-temperature expansion of the Wulf crystal in the 3D Ising model, preprint (2001).
+[3] R. Cerf and R. Kenyon, The low-temperature expansion of the Wulff crystal in the 3D Ising model, preprint (2001).
 
 [4] H. Cohn, N. Elkies, and J. Propp, Local statistics for random domino tilings of the Aztec diamond, Duke Math. J. 85 (1996), no. 1, 117–166.
 
@@ -1284,7 +1284,7 @@ $$
 
 [12] S. Karlin and G. McGregor, Coincidence probabilities, Pacific J. Math 9 (1959), 1141–1164.
 
-[13] R. Kenyon, Local statistics of lattice dimers, Ann. Inst. H. Poincar´e, Prob. et Stat. 33 (1997), 591–618.
+[13] R. Kenyon, Local statistics of lattice dimers, Ann. Inst. H. Poincaré, Prob. et Stat. 33 (1997), 591–618.
 
 [14] R. Kenyon, The planar dimer model with a boundary: a survey, to appear in Proceedings CRM.
 
