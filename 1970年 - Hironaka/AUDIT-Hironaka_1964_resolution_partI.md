@@ -591,3 +591,10 @@
 - 证据：源 PDF p.082 文本层、页图 `audit/Hironaka_1964_resolution_partI_p082.png`（pngmono 150dpi）与 MinerU Markdown 第 1687–1709 行。Theorem 1 的开性判据、flat locus Corollary 与其 proof、Remark、initial form 记号及 graded ideal 定义/公式均与印刷页对应。
 - 备注：印刷正文与 Markdown 均保留原文重复短语 “if and only only if”；这是 source print quirk，不作 Markdown 改动。印刷运行页眉和页码 189 未录入 Markdown。
 - 结论：未发现正文转录差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.083 / 96（印刷 p.190）— PASS±
+
+- 时间：2026-10-02 05:16 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.083 文本层、页图 `audit/Hironaka_1964_resolution_partI_p083.png`、嵌入的分次模交换图 `images/page_82_image_1.jpg` 与 MinerU Markdown 第 1709–1745 行。图中各商、嵌入、投影与 graded pieces 和原页交换图对应；Lemma 5 的 graded-module exact sequence、Lemma 6 的初始形式生成条件及 Nakayama/完备性论证、Lemma 7 的前提与初始公式均与印刷页相符。
+- 备注：印刷运行页眉和页码 190 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
