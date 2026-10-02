@@ -767,7 +767,7 @@ $$
 and replace the $\mathbf{L}^2 ([0,\tau^{-1}],du)$-norm by
 
 $$
-\sum_ {s \in \mathbf {Z}} | | \max _ {\bar {b} \in \mathrm{B} _ {s}} | \sum_ {k = 1} ^ {\mathbf {K}} e ^ {- 2 \pi i \lambda_ {k} u} e ^ {2 \pi i \lambda_ {k} x} b _ {k} | | | _ {\mathrm{L} ^ {2} ([ 0, \tau^ {- 1} ], du)}.\tag{4.24}
+\sum_ {s \in \mathbf {Z}} | | \max _ {\bar {b} \in \mathrm{B} _ {s}} | \sum_ {k = 1} ^ {\mathbf {K}} e ^ {- 2 \pi i \lambda_ {k} u} e ^ {2 \pi i \lambda_ {k} x} b _ {k} | | | _ {\mathrm{L} ^ {2} ([ 0, \tau^ {- 1} ])}.\tag{4.24}
 $$
 
 For given $s$, consider the following bounds
@@ -794,10 +794,12 @@ $$
 
 Proof. — The inequality (4.27) is derived from (4.14) by a standard square function argument. Take $\varphi$ as in Lemma 4.13 satisfying $\hat{\varphi} = 1$ on $\left[-\frac{1}{2}, \frac{1}{2}\right]$. Estimate
 
-(4.28)
+$$
+\begin{array}{r l} \sup _ {j \geqslant s} | \mathcal {F} ^ {- 1} [ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f ] | & \leqslant \\ & \sup _ {j \geqslant s} | \sum_ {k = 1} ^ {\mathrm{K}} e ^ {2 \pi i \lambda_ {k} x} [ (f. e ^ {- 2 \pi i \lambda_ {k} x}) * \varphi_ {2 ^ {j}} ] | \end{array}\tag{4.28}
+$$
 
 $$
-\begin{array}{r l} \sup _ {j \geqslant s} | \mathcal {F} ^ {- 1} [ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f ] | & \leqslant \\ & \sup _ {j \geqslant s} | \sum_ {k = 1} ^ {\mathrm{K}} e ^ {2 \pi i \lambda_ {k} x} [ (f. e ^ {- 2 \pi i \lambda_ {k} x}) * \varphi_ {2 ^ {j}} ] | \\ & + \{\sum_ {j \geqslant s} | \mathcal {F} ^ {- 1} [ (\chi_ {\mathrm{R} _ {j}} - \sum_ {k = 1} ^ {\mathrm{K}} \hat {\varphi} _ {2 ^ {j}} (\lambda - \lambda_ {k})) \mathcal {F} f ] | ^ {2} \} ^ {1 / 2}. \end{array}\tag{4.29}
++ \{\sum_ {j \geqslant s} | \mathcal {F} ^ {- 1} [ (\chi_ {\mathrm{R} _ {j}} - \sum_ {k = 1} ^ {\mathrm{K}} \hat {\varphi} _ {2 ^ {j}} (\lambda - \lambda_ {k})) \mathcal {F} f ] | ^ {2} \} ^ {1 / 2}.\tag{4.29}
 $$
 
 By the hypothesis on $\varphi, g * \varphi_{2^j} = (g * \varphi_{2^{s-1}}) * \varphi_{2^j}$ for $j \geqslant s$. Hence, applying (4.13) with $f_k = (f.e^{-2\pi i\lambda_k x}) * \varphi_{2^{s-1}}$, (4.14) gives the following bound on (4.28)
