@@ -155,6 +155,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 对 (5.18)/(5.19) 标签的旧修复经原页核验正确——(5.18) 现挂 $|1-V_N(\bar\beta)|$ 界、(5.19) 现挂 $|V_N(\bar\beta)|$ 界，与原页一致；A. Weil's estimate 句与原页相符。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 24。与 Luna 旧审（p.021 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 19:36 EDT 落签
 
+## p.022（PDF p.22 / 印刷 p.25）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p022.png`（Ghostscript `pngmono`，150dpi；原 PDF p.22）
+- 核对：§6 标题与开头（$[B_1]$、uses less structure）；(6.1) 平均式与 (6.2) 多项式（$b_j\in\mathbf Z$、$b_d>0$）标签归位；源级 “where reduced to proving…” quirk；(6.3) 的 $A_N\mathcal F=f*K_N$（原页 LHS 即 $\mathcal F$）与 $K_N=\frac1N\sum\delta_{p(n)}$；(6.4)；(6.5) 的 $\varphi_N(-b_1\alpha,\dots)\equiv\varphi_N(-\alpha.\bar b)$；(6.6) 的 $2^s\leqslant q<2^{s+1}$ 与 $\mathcal R_0=\{0\equiv1\}$；ζ 定义段（$\pm\frac{1}{10}$、$\pm\frac{1}{5}$、$r<2$）；(6.7) 的 $\zeta(10^s(\alpha-\theta))$；(6.8) $S(\theta)$ 定义与 (6.9) $w_N(\beta)$ 标签；(6.10) 的 $O(N^{-1/2})$、$|\alpha-\theta|<N^{-d+\delta}$；(6.11) 的 $C2^{-s\delta'}$。文本层 + 150dpi 原页图双通道，对 Markdown 第 1072–1136 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 三处旧修复经原页核验正确——(6.1)/(6.2) 标签归位、(6.7) 的 $10^s$ 完整、(6.8)/(6.9) 标签归位；源级 “where reduced…” 与 (6.3) 左端 $A_N\mathcal F$（原页原样）忠实保留。原页右下角有孤立印刷数字 4（页边杂标），与运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS”、印刷页码 25 一同未入 Markdown，属版面件缺录。与 Luna 旧审（p.022 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 19:48 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
