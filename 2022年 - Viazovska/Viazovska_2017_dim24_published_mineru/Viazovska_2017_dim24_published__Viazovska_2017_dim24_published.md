@@ -1,3 +1,6 @@
+Annals of Mathematics 185 (2017), 1017–1033
+https://doi.org/10.4007/annals.2017.185.3.8
+
 # The sphere packing problem in dimension 24
 
 By Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska
@@ -16,7 +19,7 @@ Theorem 1.1. The Leech lattice achieves the optimal sphere packing density in$\m
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Miller’s research was supported by National Science Foundation grants DMS-1500562 and CNS-1526333.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">c 2017 by the authors. This paper may be reproduced, in its entirety, for noncommercial purposes.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">© 2017 by the authors. This paper may be reproduced, in its entirety, for noncommercial purposes.</span></small>
 
 In particular, the optimal sphere packing density in$\mathbb { R } ^ { 2 4 }$is that of the Leech lattice, namely,
 
