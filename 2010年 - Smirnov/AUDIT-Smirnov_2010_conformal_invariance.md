@@ -207,3 +207,9 @@
 - 核对：Remark 4.11（derivation 用图-对偶图对偶、二阶导回原图、primitive 在 G⋆）；Definition 4.12——preholomorphic 即 ∂̄_δ f(x) = 0 ∀x ∈ Ω⋆_δ、discrete Cauchy-Riemann equation；preholomorphic 理论起步段（gradient of preharmonic is preholomorphic）；Exercise 4.13（O(δ³)）；Exercise 4.14（√2δ modified Laplacian、gradient 性质、极限 holomorphic）；Exercise 4.15（contour integral/primitive/differential）；Exercise 4.16——(1/√(2δ))∂̄_δ 与 (1/(2δ²))Δ_δ 依分布收敛于 ∂, ∂̄, Δ；§4.4 s-holomorphic functions 引入段；§4.4.1——line ℓ(e) 过原点与 √ē（ℝ, e^{iπ/4}ℝ, iℝ, e^{3iπ/4}ℝ，Fig. 8）；Definition 4.17——P_{ℓ(e)}[f(x)] = P_{ℓ(e)}[f(y)]（P_ℓ 为正交投影）；页脚印刷页码 31。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：1/(√2δ) 与 1/(2δ²) 分数、e^{iπ/4}ℝ 指数、P_{ℓ(e)} 花体 ℓ 下标以 PNG 为准；Fig. 8 在下一页，跨页引用登记。
+
+## p.032（PDF p.32 / 印刷 p.32）
+- PNG：audit/p032.png（pngmono 150dpi）
+- 核对：Figure 8——white face 周围 medial edges 的 lines ℓ(e)（图内标注 NW/NE/SW/SE、1、e^{−iπ/4}、e^{iπ/4}、i、v）及图注 "Lines ℓ(e) for medial edges around a white face."；s-holomorphicity 非旋转不变段（e^{iπ/4}f(i·)、if(−·) 仍 s-holomorphic）；Proposition 4.18——s-holomorphic ⟹ preholomorphic；Proof——v ∈ L_δ∪L⋆_δ、四条投影关系（P_ℝ[f(NW)] = P_ℝ[f(NE)] 起、含共轭 f̄ 的四行恒等式）、第二/三/四条分别乘 −i/−1/i 后相加得 0 = (1−i)[f(NW)−f(SE)+if(SW)−if(NE)] = 2(1−i)∂̄_δf(v)（◻）；§4.4.2 Discrete primitive of F²——½Im(∫^z f̄²) 的离散化引语（150dpi 下 f 上 bar 可辨度有限，重导出时 300dpi 抽查）；Theorem 4.19——唯一 H ∶ Ω_δ∪Ω⋆_δ → C 使 H(b_0) = 1 且 H(b)−H(w) = δ∣P_{ℓ(e)}[f(x)]∣² (= δ∣P_{ℓ(e)}[f(y)]∣²)，e=[xy] 为 black face b 与 white face w 夹边；页脚印刷页码 32。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：共轭 bar（f(NW) 等）与 overline 结构密集，150dpi 部分可辨，建议重导出后对本页公式群 300dpi 抽查；(1−i)/2(1−i) 系数为对账锚点。
