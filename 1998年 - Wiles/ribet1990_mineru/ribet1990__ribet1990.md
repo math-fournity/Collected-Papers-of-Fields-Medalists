@@ -297,37 +297,37 @@ $$
 
 where the map  $\kappa$  is induced by  $\tau$  and  $\iota$ . Since  $\tau$  and  $\iota$  are injective, so is  $\kappa$ . Counting ranks, we see that the cokernel of  $\kappa$  is a torsion abelian group. On the other hand,  $\tau$  is such that its cokernel is torsion free. Since the Snake Lemma implies that the cokernel of  $\kappa$  injects into the cokernel of  $\tau$ ,  $\kappa$  is in fact an isomorphism. In other words, there is no difference between the groups X and Y, and we can continue to
 
-calculate using the recipe discussed above. (This corresponds to the fact that the dual graph of  $C_{k}$  is replaced by a homotopic graph when  $C_{k}$  is replaced by its blow-up.)
+calculate using the recipe discussed above. (This corresponds to the fact that the dual graph of $\mathcal{C}_k$ is replaced by a homotopic graph when $\mathcal{C}_k$ is replaced by its blow-up.)
 
-At the same time, we find that $\Phi$ is the cokernel of the map $y\colon Y\to\mathrm{Hom}(Y,\mathbf{Z})$ gotten from the restriction to $Y$ of the Euclidean pairing on $\mathbf{Z}^{\mathcal{I}}$. Equivalently, this pairing is gotten by restricting to $Y$ the pairing on $\mathbf{Z}^{\mathcal{I}}$ whose matrix is the diagonal matrix with entries $e(i)$. (In other words $i$ and $i'$ are paired to 0 or to $e(i)$ according as $i$ and $i'$ are distinct or equal.) In summary, the calculation of $X$ and $\Phi$ proceeds essentially as if $\mathcal{C}$ were the minimal model of $C$. The sole complication is that the pairing one uses on $\mathbf{Z}^{\mathcal{I}}$ must take the positive integers $e(i)$ into account. (See also [11], 12.10.1.)
+At the same time, we find that $\Phi$ is the cokernel of the map $y\colon Y\to\mathrm{Hom}(Y,\mathbf{Z})$ gotten from the restriction to $Y$ of the Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$. Equivalently, this pairing is gotten by restricting to $Y$ the pairing on $\mathbf{Z}^{\mathcal{S}}$ whose matrix is the diagonal matrix with entries $e(i)$. (In other words $i$ and $i'$ are paired to 0 or to $e(i)$ according as $i$ and $i'$ are distinct or equal.) In summary, the calculation of $X$ and $\Phi$ proceeds essentially as if $\mathcal{C}$ were the minimal model of $C$. The sole complication is that the pairing one uses on $\mathbf{Z}^{\mathcal{S}}$ must take the positive integers $e(i)$ into account. (See also [11], 12.10.1.)
 
-Theorem 2.4. There is a natural homomorphism $\theta: D \to \Phi$ whose cokernel is a quotient of the group $\operatorname{Hom}(\mathbf{Z}^{\mathcal{I}}, \mathbf{Z}) / \mathbf{Z}^{\mathcal{I}} \approx \oplus (\mathbf{Z}/e(i)\mathbf{Z})$, the direct sum being extended over $\mathcal{I}$.
+Theorem 2.4. There is a natural homomorphism $\theta: D \to \Phi$ whose cokernel is a quotient of the group $\operatorname{Hom}(\mathbf{Z}^{\mathcal{S}}, \mathbf{Z}) / \mathbf{Z}^{\mathcal{S}} \approx \oplus (\mathbf{Z}/e(i)\mathbf{Z})$, the direct sum being extended over $\mathcal{S}$.
 
 Proof. Start with the description of $\Phi$ as the cokernel of $\gamma$. Write $\operatorname{Hom}(Y, \mathbf{Z})$ as the quotient
 
 $$
-\operatorname{Hom} (\mathbf {Z} ^ {\mathcal {I}}, \mathbf {Z}) / Y ^ {\perp},
+\operatorname{Hom} (\mathbf {Z} ^ {\mathcal {S}}, \mathbf {Z}) / Y ^ {\perp},
 $$
 
-where  $Y^{\perp}$  is the group of linear forms on  $Z^{I}$  which vanish on Y. We obtain an isomorphism
+where  $Y^{\perp}$  is the group of linear forms on $\mathbf{Z}^{\mathcal{S}}$ which vanish on Y. We obtain an isomorphism
 
 $$
-\Phi \approx \operatorname{Hom} (\mathbf {Z} ^ {\mathcal {I}}, \mathbf {Z}) / (Y ^ {\perp} \oplus Y)
+\Phi \approx \operatorname{Hom} (\mathbf {Z} ^ {\mathcal {S}}, \mathbf {Z}) / (Y ^ {\perp} \oplus Y)
 $$
 
-in which we identify Y with its image in  $\operatorname{Hom}(\mathbf{Z}^{\mathcal{I}}, \mathbf{Z})$ . It follows that  $\Phi$  contains the subgroup
+in which we identify Y with its image in $\operatorname{Hom}(\mathbf{Z}^{\mathcal{S}}, \mathbf{Z})$. It follows that  $\Phi$  contains the subgroup
 
 $$
-\Phi_ {0} = \mathbf {Z} ^ {\mathcal {I}} / (M \oplus Y),
+\Phi_ {0} = \mathbf {Z} ^ {\mathcal {S}} / (M \oplus Y),
 $$
 
 where
 
 $$
-\boldsymbol {M} = \boldsymbol {Y} ^ {\perp} \cap \mathbf {Z} ^ {\mathcal {I}}.
+\boldsymbol {M} = \boldsymbol {Y} ^ {\perp} \cap \mathbf {Z} ^ {\mathcal {S}}.
 $$
 
-The group $\Phi/\Phi_0$ is a quotient of $\mathrm{Hom}(\mathbf{Z}^{\mathcal{I}},\mathbf{Z})/\mathbf{Z}^{\mathcal{I}}$, which is simply the direct sum of the groups $\mathbf{Z}/e(i)\mathbf{Z}$ with $i\in\mathcal{I}$. Finally, we note that $\Phi_0$ may be viewed as a quotient of $\mathbf{Z}^{\mathcal{I}}/Y$, a group which is isomorphic, via $\alpha$, to $D$. We therefore obtain the desired result by letting $\theta$ be the projection of $D$ onto $\Phi_0$. $\square$
+The group $\Phi/\Phi_0$ is a quotient of $\mathrm{Hom}(\mathbf{Z}^{\mathcal{S}},\mathbf{Z})/\mathbf{Z}^{\mathcal{S}}$, which is simply the direct sum of the groups $\mathbf{Z}/e(i)\mathbf{Z}$ with $i\in\mathcal{S}$. Finally, we note that $\Phi_0$ may be viewed as a quotient of $\mathbf{Z}^{\mathcal{S}}/Y$, a group which is isomorphic, via $\alpha$, to $D$. We therefore obtain the desired result by letting $\theta$ be the projection of $D$ onto $\Phi_0$. $\square$
 
 Remark 2.5. Theorem 2.4 was motivated by Jordan-Livné [14], who prove a related result when C is a Shimura curve. It was used in earlier versions of this article for the purpose of analyzing the prime-to-6 parts of the component groups which appear below. However, in this write-up, no essential use is made of (2.4). The result of [14] appears below in a slightly different form as Theorem 4.3.
 

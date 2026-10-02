@@ -72,3 +72,12 @@
 - 发现并当场修复（记号级；依据 150 dpi 页图 + 300 dpi 裁片）：①L262 三处 \mathcal{I}→\mathcal{S}（sets 𝒮/𝒯、i∈𝒮 ×2）；②L264 "$C_k$"→$\mathcal{C}_k$、"sets I and T"→$\mathcal{S}$/$\mathcal{T}$、"$\tilde I/\tilde T$"→$\tilde{\mathcal{S}}/\tilde{\mathcal{T}}$；③L267 行间式 𝒮̃→𝒮；④L273 τ 式上下标；⑤L276 i∈𝒮、𝒮̃、"set T"、𝒯̃；⑥L282 "$Z^T$"→$\mathbf{Z}^{\mathcal{T}}$；⑦L290/292 两处 sets 𝒮̃/𝒯̃；⑧L295 交换图 (2) 上/下行 Z 上标 \mathcal{I}→\mathcal{S}、\tilde{\mathcal{I}}→\tilde{\mathcal{S}}。
 - 备注：D、D̃、P_k 等印刷粗斜体拍平（字母正确，登记不改）；印刷 ∪ 记号沿用前页 quirk。
 - 结果：FAIL（10 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.009（PDF p.9 / 印刷 p.438）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:55 -0400。
+- PNG：`audit/ribet1990_p009.png`（pngmono，150 dpi）；仲裁裁片（/tmp 核验，未引用存档）：同款花体 S 上标、"map y" 字形、"cokernel of γ" 字形（与 p.006 300 dpi 裁片同款花体）。
+- 核对：同伦图替换注；Φ=coker(y: Y→Hom(Y,Z))、对角矩阵 e(i) 配对、[11] 12.10.1；Theorem 2.4（θ: D→Φ，Hom(Z^𝒮,Z)/Z^𝒮 ≈ ⊕(Z/e(i)Z)）；Proof（γ、Y^⊥、Φ ≈ Hom(Z^𝒮,Z)/(Y^⊥⊕Y)、Φ₀=Z^𝒮/(M⊕Y)、M=Y^⊥∩Z^𝒮、□）；Remark 2.5（Jordan-Livné [14]、prime-to-6、(2.4)、Theorem 4.3）；节标题 "3. Quaternions and modular curves" 与首段（X₀(qM)，段尾接下页）✓。
+- 发现并当场修复（13 个 \mathcal{I}/C_k 上标与记号点，依据 150 dpi 页图 + 300 dpi 同款花体确证）：①L300 𝒞_k ×2；②L302 Z^𝒮 ×3；③L304 Theorem 2.4 Z^𝒮 ×2 + over 𝒮；④L309/315/321/327 四个行间式 Z^𝒮；⑤L312 "linear forms on $Z^I$"→Z^𝒮；⑥L318 Hom(Z^𝒮,Z)；⑦L330 Z^𝒮 ×4。
+- 印刷原文 quirk：正文称 "the map y: Y → Hom(Y, Z)"（斜体 y），同页 Proof 却作 "cokernel of γ"——印刷自身记号不一致；MD 两处各按印刷保留（y 与 γ），不统一。
+- 备注：M、Y、D 等印刷粗斜体拍平（字母正确，登记不改）。
+- 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
