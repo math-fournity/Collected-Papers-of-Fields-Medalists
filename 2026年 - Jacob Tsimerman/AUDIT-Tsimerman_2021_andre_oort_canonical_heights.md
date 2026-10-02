@@ -316,3 +316,12 @@
 - 核对：Lemma 10.3；Definitions 10.4、10.6；Lemma 10.5 的 cocharacter、homomorphism 与权空间；Definition 10.6 的性质 (1)–(4) 和 Theorem 10.7。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Lemma 10.3 的 Shimura-data map `f:(T_1,r_1) → (T_2,r_2)` 在 Markdown 漏箭头；Lemma 10.5 的 `h:Res_{E/\mathbb Q}\mathbb G_m → Res_{E/\mathbb Q}\mathbb G_m` 同样漏箭头；Definition 10.6 性质 (3) 再次将 `f:(T_1,r_1) → (T_2,r_2)` 写成相邻对象而无箭头。300dpi 裁片确认三处箭头。印刷在 `V'_{-1}=\bigoplus_{\sigma\in\bar\Phi}` 后未印出 summand `\mathbb C_\sigma`，Markdown 忠实保留该源级公式缺项；Lemma 10.3 的印刷拼写 `vaieties` 也保留。PASS±：`heighest` 拼写伪影及 Definition 10.6 性质 (2) 中被拆开的 `Given` 与脚注 13 标记。
+
+## p.036（PDF p.36 / 印刷 p.36）
+- 时间：2026-10-02 01:34:53 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p036.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p036-Proposition10.8-norm-map.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p036-Zarhin-height-formulas.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p036-Theorem10.9.png`
+- 核对：Proposition 10.8 陈述和范数映射归约、Zarhin trick/height 估计，以及 Theorem 10.9 陈述。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Proposition 10.8 证明的 quotient map `i:(S_E,s_\Phi) → (R_E,r_\Phi)` 漏箭头，所得 height bound 的 `O_g` 被录为 `O_q`；实点分解中 `Res_{E/\mathbb Q}\mathbb G_m(\mathbb R)` 的域/群记号遭 HTML 与字体噪声破坏。Character identity `\chi_{Std}^2=i^*\chi_\Phi\cdot Nm` 的 `Nm` 被写成含下标 `l` 的 `N_lm`；后续 Shimura morphism `Nm_{E/\mathbb Q}:(S_E,s_\Phi) → (\mathbb G_m,Nm_{E/\mathbb Q})` 既多出 `\Sigma` 又漏箭头。Zarhin 表示 `Std^{\oplus 8}` 被转录成注册商标样式 `Std^{\textregistered 8}`，高度界 `h_A(x)=O_g((\operatorname{Disc}E)^{o_g(1)})` 也被破坏。Theorem 10.9 的量词点条件 `x\in S_K(G,X)(\mathbb Q)` 则变成 `x\equiv S_K(G,X)(\overline{\mathbb Q})`。300dpi 裁片确认这些映射、符号、底域和指数。PASS±：印刷中的 `its a rational character` 与 `The completes the proof` 原样保留，属源级语法瑕疵。
