@@ -77,3 +77,10 @@
 - 核对：§2 收尾——密本征函数段的极大不等式 $\|f^*\|_p\leqslant C\|f\|_p$、模型 $(\mathbf T,\mathbf R_a)$；(2.12) 的 $Z_\varepsilon=\{[(1+\varepsilon)^n]\}$、$|A_Nf-A_{N'}f|\leqslant 2\varepsilon$；(2.13) 的 $\mathcal M_j$ 定义（sup 范围 $N_j\leqslant N\leqslant N_{j+1},\ N\in Z_\varepsilon$）；(2.14) 的 $o(J)\|f\|_2$；§3 开头 (3.1)、(3.2) 变差范数定义（求和上界 $J$、指标链 $n_1<\dots<n_J$ / $t_1<\dots<t_J$）；Lépingle [Lé]、[P-X] 引用句。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 313–365 行。
 - 结果：PASS±。全部公式与文字与原页一致；Luna 对 (3.2) 求和上界 $s\to J$ 的旧修复经核正确（现与 (3.1) 同为 $J$，与原页相符）。原页排印原样在 Markdown 中忠实保留，本次登记：①$v_s$ 记号行印刷即两竖线间空心（无 $\cdot$），300dpi 裁片证实，Markdown 的 `$||\|_{v_s}$` 逐字对应，不按预期补点；②(3.1)、(3.2) 的条件只列到 $n_J/t_J$ 而差分出现 $n_{j+1}/t_{j+1}$，为原页自身的索引排布，Markdown 忠实保留（与 Luna 旧审登记一致）；③(2.13) 的 `where` 与 $\mathcal M_j$ 之间 Markdown 无空格（`\text{where}\mathcal{M}_jf`），MinerU 间距伪影，渲染稍挤但不误导，登记不改。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 12。与 Luna 旧审（p.009 FAIL→修复）已修复项一致，无新差异。
 - 时间：2026-10-02 16:02 EDT 落签
+
+## p.010（PDF p.10 / 印刷 p.13）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p010.png`（Ghostscript `pngmono`，150dpi；原 PDF p.10）
+- 核对：Lemma 3.3 陈述与 (3.4)；Doob 振荡引理 (3.5)；Lorentz 空间 (3.6)（范围 $3/2\leqslant p\leqslant s<5/2$）；$\chi_{\mathbf A}$、$\mu(\mathbf A)=\varepsilon$、$\|f\|_{p,1}=\varepsilon^{1/p}$ 段；(3.7) 的 $2^{-ks}$、$N_{2^{-k}}$ 与闭括号；(3.8) 的 $2^{-kp}$、$(N_{2^{-k}})^{p/s}$、$2^{-kp(1-2/s)}$、$\|f\|_r^r$；$r=2p/s$、$6/5\leqslant r<2$ 段；(3.9)–(3.10) Fourier 定义。文本层 + 150dpi 原页图双通道，对 Markdown 第 367–413 行。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 旧修复三处经原页核验正确——(3.6) Lorentz 空间为普通斜体 $p$（非 Fraktur）、(3.7) 右端闭括号恢复、(3.7)/(3.8) 跳跃计数下标为 $N_{2^{-k}}$（非 $2^{-k}$ 误录为 $2-k$ 后的残形）。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 13。与 Luna 旧审（p.010 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 16:52 EDT 落签
