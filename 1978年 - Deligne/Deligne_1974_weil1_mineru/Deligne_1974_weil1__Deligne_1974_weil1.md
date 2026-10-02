@@ -124,7 +124,7 @@ Pour F un endomorphisme d'un espace vectoriel V, on a une identité de séries f
 (1.5.3)
 
 $$
-t \frac {d}{d t} \log (\det (\mathrm{I} - \mathrm{F} t, \mathrm{V}) ^ {- 1}) = \sum_ {n > 0} \operatorname{Tr} (\mathrm{F} ^ {n}, \mathrm{V}) t ^ {n}
+t \frac {d}{d t} \log (\det (1 - \mathrm{F} t, \mathrm{V}) ^ {- 1}) = \sum_ {n > 0} \operatorname{Tr} (\mathrm{F} ^ {n}, \mathrm{V}) t ^ {n}
 $$
 
 (le vérifier pour  $\dim(V)=1$ , et observer que les deux membres sont additifs en V dans une suite exacte courte). Substituant (1.5.1) dans (1.5.2) et appliquant (1.5.3), on trouve
