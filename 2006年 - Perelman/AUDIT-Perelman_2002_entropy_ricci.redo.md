@@ -93,6 +93,14 @@
 - 登记不改：Corollary 行尾 "for some κ > 0**.**" 句点印刷存在（PNG/pdftotext 双证），MD 缺失——丢标点不误导，默认不批量改。
 - 备注：印刷 quirk 忠实保留——"(a subsequence of )"、"(3.3 ) ," 括号内空格、”density of states” 双右引号。
 
+## p.012（PDF p.12 / 印刷 p.12）
+- PNG：audit-redo/p012.png（pngmono 150dpi）
+- 核对：σ 非负段续（(a)/(b) δ-function 极限、case (a)/(b)）、ancient solution 段（τ→∞、S bounded）、5.2 Remark、5.3* [C]、Black Hole Thermodynamics 段、节标题 "6 Riemannian formalism in potentially infinite dimensions"、§6 引语、6.1 M̃=M×S^N×R^+ 与度规分量式（g̃_ij=g_ij、g̃_αβ=τg_αβ、g̃_00=N/2τ+R、其余为 0）
+- 结果：PASS±（一处双标点已修）
+- 差异与修复：印刷 "a limit of a sequence of functions u_i**,** such that each u_i"（仅逗点），MD 作 "$u_i.$,"（math 句点+文本逗号双写）→ 已改为 "$u_i$, such that"。
+- 备注：印刷原样错字 "Rimannian geometry"（应为 Riemannian）为 print quirk，MD 忠实保留未改；其余逐字一致。
+
+
 
 
 
