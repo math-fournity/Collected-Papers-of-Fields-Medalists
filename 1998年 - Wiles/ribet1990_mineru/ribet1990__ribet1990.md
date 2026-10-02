@@ -867,7 +867,7 @@ $$
 
 Also, $\dim(V) = \dim(R) = \dim(S_{pq\text{-new}})$, and the latter number agrees with the dimension of $Y$ because the intersection of $S_2(\Gamma_0(Mp)) \oplus S_2(\Gamma_0(Mp))$ and $S_2(\Gamma_0(Mq)) \oplus S_2(\Gamma_0(Mq))$ in $S$ is the direct sum of four copies of $S_2(\Gamma_0(M))$. By using the same idea as in the proof of (3.10), we find a map $\eta: V \to \operatorname{Hom}(Y, \mathbf{G}_{\mathrm{m}})$ such that $\lambda \eta$ is an isogeny $V \to V$. It follows that $\lambda$ is an isogeny of tori. Hence $t$ acts as 0 on $Y$ if and only if $t$ acts as 0 on $V$; since $R$ has purely toric reduction, the latter condition means that $t$ acts as 0 on $R$, and the theorem is proved.
 
-In yet another variant, we define the q-new/p-old quotient of T to be that quotient  $T_{q-new/p-old}$  cut out by the intersection  $S_{q-new/p-old}$  in  $S = S_{2}(\Gamma_{0}(Mpq))$  of  $S_{q-new}$  and  $S_{p-old}$ .
+In yet another variant, we define the q-new/p-old quotient of $\mathbf{T}$ to be that quotient  $\mathbf{T}_{q\text{-new}/p\text{-old}}$  cut out by the intersection  $S_{q-new/p-old}$  in  $S = S_{2}(\Gamma_{0}(Mpq))$  of  $S_{q-new}$  and  $S_{p-old}$ .
 
 Theorem 3.21. The Hecke algebra $\mathbf{T}$ acts on $X \oplus X$ through its quotient $\mathbf{T}_{q\text{-new}/p\text{-old}}$, which acts faithfully on $X \oplus X$.
 

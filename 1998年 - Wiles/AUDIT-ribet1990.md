@@ -199,3 +199,11 @@
 - 核对：**T**=**T**_{Mpq}、q-old/q-new quotients of **T**_{Mq}、pq-new quotient **T̄**；S=S₂(Γ₀(Mpq)) 与两个直和子空间；S_{pq-old}/S_{pq-new}（Petersson）；**T**-stable、**T̄**=image of **T** in End(S_{pq-new})；Theorem 3.20（**T**-module Y cuts out **T̄**）与 Proof（R=pq-new quotient、退化映射、purely toric、V=(R_{F_q})⁰、Hom(L,G_m)/Hom(X,G_m)、λ、dim(L)/dim(X)/dim(Y) 三组公式、四 copies of S₂(Γ₀(M))、λη isogeny、□）✓。
 - 发现并当场修复：①L828 五处 Hecke 代数粗体拍平（**T**=**T**_{Mpq}、**T**_{Mq}、quotients of **T**、**T̄** of **T**）；②L840 四处（**T**-stable、**T̄**、quotient of **T**、image of **T**）；③L842 四处（**T**-module、**T̄** of **T**、element t of **T**、0 in **T̄**）；④L844 两处（t∈**T**、0 in **T̄**）；⑤L852 四处 "$\mathbf{G}_{\mathfrak{m}}$"→"$\mathbf{G}_{\mathrm{m}}$"（印刷下标正体 m，同 p.018 仲裁）；⑥L868 一处同款 G_m。共 20 个记号点（300 dpi 裁片 + p.017/018 同款花体先例）。
 - 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.025（PDF p.25 / 印刷 p.454）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 17:28 -0400。
+- PNG：`audit/ribet1990_p025.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："quotient **T**_{q-new/p-old}" 粗体确证，未存档）。
+- 核对：q-new/p-old quotient 定义（S_{q-new}∩S_{p-old}）；Theorem 3.21（Hecke algebra **T** acts through **T**_{q-new/p-old} faithfully，MD 粗体本就正确）与 Proof（□ 惯例不录）；J₀(Mq)_Fq 的 Φ 与 Θ；退化映射 J₀(Mq)×J₀(Mq)→J₀(Mpq)；θ: Φ×Φ→Θ；正合列 (8) 0→K→Φ×Φ→Θ→C→0；Theorem 3.22（antidiagonal embedding f↦(f,−f)）；μ 公式 (x,y)↦((p+1)x+τy, τx+(p+1)y)、τ=p-th Hecke、η_p；Φ=X*/X、Θ=L*/L、pairing ι；θ 由 δ 的对偶与 σ: (X⊕X)→L 诱导；X₀(pqM)⇉X₀(qM)；段尾 "is the endomorphism of" 接下页 ✓。
+- 发现并当场修复：L870 两处 Hecke 代数粗体拍平（"quotient of T"→"$\mathbf{T}$"、"$T_{q-new/p-old}$"→"$\mathbf{T}_{q\text{-new}/p\text{-old}}$"；300 dpi 确证；与 L872 Theorem 3.21 既有 \mathbf 写法对齐）。
+- 备注：页界跨越——MD L912 前半（"X⊕X given by the 2×2 matrix…"）属印刷 p.454 末至 p.455 首的跨页句，其矩阵部分留待 p.026 核验。
+- 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
