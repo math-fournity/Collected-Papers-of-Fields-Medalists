@@ -96,3 +96,8 @@
 - PNG：`audit-redo/p017.png`（pngmono 150dpi）
 - 核对：Hopf 定理与 [6],[7],[5] 引段；`V̄` 子空间与 `𝓛_K` 零化段；(ker d_s/im d_s) 维数段；`e^{λP}` 共轭段（`e^{−λP} d_s e^{λP} = e^{−λ} d_s`、`s′ = se^{2λ}`）；`n_±`/`N_±` 与 Euler 特征段。
 - 结果：PASS±。正文逐项与印刷页相符：`d_s² = s𝓛_K`、`χ(M)`、`n₊ − n₋ = N₊ − N₋ = χ(M)`、`n₊ ⩾ N₊`、`s ≠ 0` 条件一致。**Luna 旧修复重核：本页 2 处 Lie 导数 `\mathscr{L}_K`（md line 421）与印刷 script 记号一致，修复正确；共轭算子上标印刷为大写 `P`（`e^{λP}`，后续文字定义其在 p-形式上的作用），md 保留 `P` 符合页面证据**。跨页断点一致（line 431 末 "large s behavior of"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 677" 未入 md（版面信息省略）。
+
+## p.018（PDF p.18 / 印刷 p.678）
+- PNG：`audit-redo/p018.png`（pngmono 150dpi）
+- 核对：`N_0`/`ψ̄` 策略段；`M(N_0)` 邻域与 `ψ̃`/`d_sψ̃ = 0` 段；`K² = (K,K)`、`M_ε`、截断函数 `φ(x)`；`K̃` 与 `i(K)(dK̃) = −d(K²)`；(36) σ 级数（系数 1/s、1/2s²、1/3s³ 与楔积次数）；(37) `χ = ψ̃ ∧ σ`。
+- 结果：PASS±。(36) 各项导数阶、系数、楔积次数及 (37) 均与印刷页逐项相符；`K^2 ⩽ ε`、`x ⩾ ε`、`i(K)(d\tilde{K}) = -d(K^2)`、`d_sχ = 0`、`χ = d_sα` 一致；本页 Luna 无修复登记，redo 亦未发现需修复项。差异仅：页眉 "678 EDWARD WITTEN" 未入 md（版面信息省略）。
