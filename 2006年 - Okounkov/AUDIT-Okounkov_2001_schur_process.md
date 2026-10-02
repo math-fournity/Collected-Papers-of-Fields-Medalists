@@ -258,3 +258,72 @@
 - 只读脚本清点（全篇终验）：ff 连字/箭头/伪影 grep 全文零残余；`\tag` 43 个（1–43 完整）；7 个 images/ 引用可解析；audit/ 内 p001–p035 页图 35 张齐全。
 - 分级统计（本块）：PASS 3（p.29/33/35）、PASS± 5（p.28/30/31/32/34）、FAIL 0。上块移交两项均已在本块结清：行 1027 \mathtt→\mathsf（p.028）、行 1095 difers…diferent（p.030）。
 - 全篇 35 页审计至此完成，总评见文件头；AUDIT-INDEX 登记与根级进度日志由 Master 集成时更新（Peer 不写根级）。
+
+## 终验复读收据（full re-read receipt）
+
+- **复读范围**：修复后完整重读最终 Markdown 全文 1298 行（前半 1–660、后半 660–1299），逐项回核全部修复与页面证据一致、原定修复无遗漏、无新差异。
+- **终验发现并修复**：行 1139（p.31）"see [1, 8].." 双句号——系 p.031 补句号修复时 old_string 前缀匹配未吞原句号所致，位于前两块复读盲区，本次全文复读捕获，已修复为单句号（依据 p031.png 印刷 "see [1, 8]."）。除该处外无其他新差异。
+- **抽查覆盖声明**：本篇非抽查，为全页审计——p.1–p.35 每页均经 pngmono 150dpi PNG 目检 + pdftotext 文本层主对账双通道五点比对；References [1]–[19] 逐条核对；本收据复读为修复后第 4 次全文复读（块级 3 次 + 本次终验）。
+- **只读清点（终验命令与结果）**：`grep -nE 'diferen|coeficient|sufices|difers|\$r  \+ 0\$|r ~  ~|<sub><</sub>|\\mathtt'` → NONE；`grep -c 'Wulff|Poincaré|differences'` → 各 1；`\tag` 43 个（1–43 完整）；7 个 images/ 引用可解析；audit/ 页图 p001–p035 共 35 张。
+- **复读收据**：`wc -l` = 1298 行；`shasum -a 256` = 56e7f240edbc47ea79489169915d1d51c09073c92da44980894a5fe9a8209cd3（2026-10-02 终验时点）。
+
+### 修复登记（逐处：页码/内容/依据/commit）
+
+| # | 页 | 修复内容 | 依据 | commit |
+|---|----|---------|------|--------|
+| 1 | p.002 | `{<sup>λ(t)</sup>} <sup>such</sup> <sup>that</sup>`→`{λ(t)} such that`（伪上标还原） | p002.png | f464484c |
+| 2 | p.002 | 行39 句末补句号 | p002.png | f464484c |
+| 3 | p.004 | 行75 `q  1`→`$q \to 1$`（箭头丢失） | p004.png | abc4b1bf |
+| 4 | p.005 | 行101 `denoted by .`→补 `$\varnothing$` | p005.png | efb4ec76 |
+| 5 | p.005 | 行109 `diferent`→`different` | p005.png+文本层 | efb4ec76 |
+| 6 | p.006 | 行161 `configuration λ(t)`→补 `$\{ \lambda ( t ) \}$` | p006.png | eb121382 |
+| 7 | p.008 | 行207 `coeficient`→`coefficient` | p008.png+文本层 | d27b9310 |
+| 8 | p.008 | 行233 `diferent…difer`→`different…differ` | p008.png+文本层 | d27b9310 |
+| 9 | p.008 | 行235 `diferent`→`different` | p008.png+文本层 | d27b9310 |
+| 10 | p.009 | 行276 式(9) `S_\phi`→`\mathsf{S}_\phi` | p009.png | d82d1626 |
+| 11 | p.009 | 行291 句末补句号 | p009.png | d82d1626 |
+| 12 | p.010 | 行303 `coeficient`→`coefficient` | p010.png+文本层 | 9c22a2e1 |
+| 13 | p.010 | 行311 `coeficient`→`coefficient` | p010.png+文本层 | 9c22a2e1 |
+| 14 | p.010 | 行329 `diferent×2+difer`→`different×2+differ` | p010.png+文本层 | 9c22a2e1 |
+| 15 | p.011 | 行361 `coeficient`→`coefficient` | p011.png+文本层 | 5612f524 |
+| 16 | p.011 | 行375 `coeficient`→`coefficient` | p011.png+文本层 | 5612f524 |
+| 17 | p.011 | 行381 句末补句号 | p011.png | 5612f524 |
+| 18 | p.012 | 行391 `coeficient`→`coefficient` 且句末补句号 | p012.png+文本层 | 96a28c54 |
+| 19 | p.015 | 行549 `sufices`→`suffices` | p015.png+文本层 | bf26e7c0 |
+| 20 | p.017 | (21)/(22) 拆分为两个独立 tag 公式（恢复 \tag{22}） | p017.png | 32f8def8 |
+| 21 | p.017 | 删除孤立 `(22)` 残行 | p017.png | 32f8def8 |
+| 22 | p.017 | 拍平函数名→`$\Phi ( t , z )$` | p017.png | 32f8def8 |
+| 23 | p.017 | `\ i f`→`if` 且句末补句号 | p017.png | 32f8def8 |
+| 24 | p.018 | 行641 `diferent`→`different` | p018.png+文本层 | 36767308 |
+| 25 | p.018 | 行671 `if λ(t)`→`if $\{ \lambda ( t ) \}$` | p018.png | 36767308 |
+| 26 | p.019 | 行709 句末补句号 | p019.png | 8f8b91e6 |
+| 27 | p.020 | 行713 `r  + 0`→`$r \to + 0$` | p020.png | f8be26db |
+| 28 | p.020 | 行719 句末补句号 | p020.png | f8be26db |
+| 29 | p.020 | 行735 证明末补 □ | p020.png | f8be26db |
+| 30 | p.020 | 行739/741 `r ~  ~ + 0`→`$r \to + 0$` | p020.png | f8be26db |
+| 31 | p.021 | 行755 `r  + 0`→`$r \to + 0$` | p021.png | 9521b15d |
+| 32 | p.021 | 行767 句末补句号 | p021.png | 9521b15d |
+| 33 | p.021 | 行775 句末补句号 | p021.png | 9521b15d |
+| 34 | p.021 | 行777 `r  + 0`→`$r \to + 0$` | p021.png | 9521b15d |
+| 35 | p.022 | 行857 `gradient of S`→补 `$\Re S$` | p022.png+文本层 | 0b919622 |
+| 36 | p.023 | Figure 5 题注两 math 块间补逗号 | p023.png | e036510a |
+| 37 | p.025 | 行923 删 `$\gamma_<$` 后多余 `<sub><</sub>` | p025.png | ee12e7a2 |
+| 38 | p.025 | 行925 `$z_c ,$`双逗号→`$z_c$,` | p025.png | ee12e7a2 |
+| 39 | p.025 | 行941 `r  + 0`→`$r \to + 0$` | p025.png | ee12e7a2 |
+| 40 | p.025 | 行947 `diferences`→`differences` | p025.png+文本层 | ee12e7a2 |
+| 41 | p.025 | 行951 `r  + 0`→`$r \to + 0$` | p025.png | ee12e7a2 |
+| 42 | p.025 | 行956 `\mathtt{B}`→`\mathsf{B}` | p025.png | ee12e7a2 |
+| 43 | p.025 | 行957 句末补句号 | p025.png | ee12e7a2 |
+| 44 | p.027 | 行1007 `r  + 0`→`$r \to + 0$.`（箭头+句号） | p027.png | 707bfa63 |
+| 45 | p.028 | 行1027 `\mathtt{B}`→`\mathsf{B}` | p028.png | 1ffe8782 |
+| 46 | p.028 | 行1033 句末补句号 | p028.png | 1ffe8782 |
+| 47 | p.030 | 行1095 `difers…diferent`→`differs…different` | p030.png+文本层 | f360e6fe |
+| 48 | p.030 | 行1123 句末补句号 | p030.png | f360e6fe |
+| 49 | p.031 | 行1139 句末补句号（终验修正为单句号） | p031.png | 20c4c612（原修）/本次收据 commit（双句号修正） |
+| 50 | p.032 | 行1167 `N  \infty`→`$N \to \infty$` | p032.png | 49958d87 |
+| 51 | p.032 | 行1191 `k`→`$\underline { k }$`（基向量下划线） | p032.png | 49958d87 |
+| 52 | p.034 | [3] `Wulf`→`Wulff` | p034.png+文本层 | fd20f9e9 |
+| 53 | p.034 | [13] `Poincar´e`→`Poincaré` | p034.png+文本层 | fd20f9e9 |
+
+- 登记合计：53 条修复记录（对应 49 次 Edit，其中 #49 含终验双句号修正）；无未登记修复。
+- residualIssues：无。
