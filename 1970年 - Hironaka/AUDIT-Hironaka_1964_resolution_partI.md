@@ -570,3 +570,10 @@
 - 证据：源 PDF p.079 文本层、页图 `audit/Hironaka_1964_resolution_partI_p079.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p079_corollary2_formulas.png`，并比对 MinerU Markdown 第 1575–1625 行。印刷中 $K=O/m$，Markdown 第 1593 行把 O 录成数字 0；局部化对象为 $\operatorname{gr}_{P O_P}(O_P)$，Markdown 第 1597 行写成 $\operatorname{gr}_{P0_P}(O_P)$；维数域为 $O_P/(P O_P)$，第 1600 行把理想顺序排成 $O P_P$；同一行的求和映射中印刷 $\operatorname{gr}_{\bar m}^{q}(\bar O)$，Markdown 第 1606 行将 $q$ 标成带下划线 $\underline q$。F(n)、组合因子恒等式、乘数结论及后续维数等式的其余部分与原页对应。
 - 备注：印刷运行页眉和页码 186 未录入 Markdown，属导航元素省略。
 - 结论：四处局部环/理想/graded-degree 符号结构误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.080 / 96（印刷 p.187）— PASS±
+
+- 时间：2026-10-02 05:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.080 文本层、页图 `audit/Hironaka_1964_resolution_partI_p080.png`（pngmono 150dpi）与 MinerU Markdown 第 1615–1655 行。$G^0(n)$ 的多项式展开、卷积二项式恒等式、乘数比较结论、Corollary 3 及 Samuel characteristic function 的定义与关系均对应印刷页。
+- 备注：正文于 `F_x(n)=\binom{n+s+r}{s+r}` 后的句子续至下一页；印刷运行页眉和页码 187 未录入 Markdown。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
