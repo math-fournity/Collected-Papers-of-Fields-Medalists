@@ -4,7 +4,7 @@ By Manfred Einsiedler, Anatole Katok, and Elon Lindenstrauss\*
 
 ## Abstract
 
-We classify the measures on$\operatorname { S L } ( k , \mathbb { R } ) / \operatorname { S L } ( k , \mathbb { Z } )$which are invariant and ergodic under the action of the group A of positive diagonal matrices with positive entropy. We apply this to prove that the set of exceptions to Littlewood’s conjecture has Hausdorf dimension zero.
+We classify the measures on$\operatorname { S L } ( k , \mathbb { R } ) / \operatorname { S L } ( k , \mathbb { Z } )$which are invariant and ergodic under the action of the group A of positive diagonal matrices with positive entropy. We apply this to prove that the set of exceptions to Littlewood’s conjecture has Hausdorff dimension zero.
 
 ## 1. Introduction
 
@@ -16,15 +16,15 @@ An important property of the acting group H in the case of the Oppenheim Conject
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">\*A.K. was partially supported by NSF grant DMS-007133. E.L. was partially supported by NSF grants DMS-0140497 and DMS-0434403. Part of the research was conducted while E.L. was a Clay Mathematics Institute Long Term Prize fellow. Visits of A.K. and E.L. to the University of Washington were supported by the American Institute of Mathematics and NSF Grant DMS-0222452.</span></small>
 
-1.2. Weyl chamber flow and Diophantine approximation. In this paper we deal with a diferent homogeneous action, which is not so well understood, namely the action by left multiplication of the group A of positive diagonal $k \times k$matrices on$\mathrm { S L } ( k , \mathbb { R } ) / \mathrm { S L } ( k , \mathbb { Z } )$; A is a split Cartan subgroup of SL(k, R) and the action of A is also known as a particular case of a Weyl chamber flow [16].
+1.2. Weyl chamber flow and Diophantine approximation. In this paper we deal with a different homogeneous action, which is not so well understood, namely the action by left multiplication of the group A of positive diagonal $k \times k$matrices on$\mathrm { S L } ( k , \mathbb { R } ) / \mathrm { S L } ( k , \mathbb { Z } )$; A is a split Cartan subgroup of SL(k, R) and the action of A is also known as a particular case of a Weyl chamber flow [16].
 
-For$k = 2$the acting group is isomorphic to R and the Weyl chamber flow reduces to the geodesic flow on a surface of constant negative curvature, namely the modular surface. This flow has hyperbolic structure; it is Anosov if one makes minor allowances for noncompactness and elliptic points. The orbit structure of such flows is well understood; in particular there is a great variety of invariant ergodic measures and orbit closures. For$k > 2 .$, the Weyl chamber flow is hyperbolic as an$\mathbb { R } ^ { k - 1 }$-action, i.e. transversally to the orbits. Such actions are very diferent from Anosov flows and display many rigidity properties; see$\mathrm { e . g . }$[16], [15]. One of the manifestations of rigidity concerns invariant measures. Notice that one–parameter subgroups of the Weyl chamber flow are partially hyperbolic and each such subgroup still has many invariant measures. However, it is conjectured that A-ergodic measures are rare:
+For$k = 2$the acting group is isomorphic to R and the Weyl chamber flow reduces to the geodesic flow on a surface of constant negative curvature, namely the modular surface. This flow has hyperbolic structure; it is Anosov if one makes minor allowances for noncompactness and elliptic points. The orbit structure of such flows is well understood; in particular there is a great variety of invariant ergodic measures and orbit closures. For $k > 2$, the Weyl chamber flow is hyperbolic as an$\mathbb { R } ^ { k - 1 }$-action, i.e. transversally to the orbits. Such actions are very different from Anosov flows and display many rigidity properties; see$\mathrm { e . g . }$[16], [15]. One of the manifestations of rigidity concerns invariant measures. Notice that one–parameter subgroups of the Weyl chamber flow are partially hyperbolic and each such subgroup still has many invariant measures. However, it is conjectured that A-ergodic measures are rare:
 
 Conjecture 1.1 (Margulis). Let$\mu$be an A-invariant and ergodic probability measure on$X = \mathrm { S L } ( k , \mathbb { R } ) / \mathrm { S L } ( k , \mathbb { Z } )$for$k \geq 3$. Then$\mu$is algebraic; i.e. there is a closed, connected group$L > A$so that$\mu$is the L-invariant measure on a single, closed L-orbit.
 
-This conjecture is a special case of much more general conjectures in this direction by Margulis [25], and by A. Katok and R. Spatzier [17]. This type of behavior was first observed by Furstenberg [6] for the action of the multi-plicative semigroup$\Sigma _ { m , n } = \{ m ^ { k } n ^ { l } \} _ { k , l \geq 1 }$on$\mathbb { R } / \mathbb { Z }$, where$n ,$, m are two multi-plicatively independent integers (i.e. not powers of the same integer), and the action is given by$k . x = k x$mod 1 for any$k \in \Sigma _ { m , n }$and$x \in \mathbb { R } / \mathbb { Z }$. Under these assumptions Furstenberg proved that the only infinite closed invariant set under the action of this semigroup is the space$\mathbb { R } / \mathbb { Z }$itself. He also raised the question of extensions, in particular to the measure theoretic analog as well as to the locally homogeneous context.
+This conjecture is a special case of much more general conjectures in this direction by Margulis [25], and by A. Katok and R. Spatzier [17]. This type of behavior was first observed by Furstenberg [6] for the action of the multiplicative semigroup$\Sigma _ { m , n } = \{ m ^ { k } n ^ { l } \} _ { k , l \geq 1 }$on$\mathbb { R } / \mathbb { Z }$, where $n$ and $m$ are two multiplicatively independent integers (i.e. not powers of the same integer), and the action is given by$k . x = k x$mod 1 for any$k \in \Sigma _ { m , n }$and$x \in \mathbb { R } / \mathbb { Z }$. Under these assumptions Furstenberg proved that the only infinite closed invariant set under the action of this semigroup is the space$\mathbb { R } / \mathbb { Z }$itself. He also raised the question of extensions, in particular to the measure theoretic analog as well as to the locally homogeneous context.
 
-There is an intrinsic diference regarding the classification of invariant measures between Weyl chamber flows (e.g. higher rank Cartan actions) and unipotent actions. For unipotent actions, every element of the action already acts in a rigid manner. For Cartan actions, there is no rigidity for the action of individual elements, but only for the full action. In stark contrast to unipotent actions, M. Rees [44], [3, §9] has shown there are lattices$\Gamma < \mathrm { S L } ( k , \mathbb { R } )$for which there are nonalgebraic A-invariant and ergodic probability measures on $X = \operatorname { S L } ( k , \mathbb { R } ) / \Gamma$(fortunately, this does not happen for$\Gamma = \mathrm { S L } ( k , \mathbb { Z } )$, see [21], [25] and more generally [48] for related results). These nonalgebraic measures arise precisely because one-parameter subactions are not rigid, and come from A invariant homogeneous subspaces which have algebraic factors on which the action degenerates to a one-parameter action.
+There is an intrinsic difference regarding the classification of invariant measures between Weyl chamber flows (e.g. higher rank Cartan actions) and unipotent actions. For unipotent actions, every element of the action already acts in a rigid manner. For Cartan actions, there is no rigidity for the action of individual elements, but only for the full action. In stark contrast to unipotent actions, M. Rees [44], [3, §9] has shown there are lattices$\Gamma < \mathrm { S L } ( k , \mathbb { R } )$for which there are nonalgebraic A-invariant and ergodic probability measures on $X = \operatorname { S L } ( k , \mathbb { R } ) / \Gamma$(fortunately, this does not happen for$\Gamma = \mathrm { S L } ( k , \mathbb { Z } )$, see [21], [25] and more generally [48] for related results). These nonalgebraic measures arise precisely because one-parameter subactions are not rigid, and come from A invariant homogeneous subspaces which have algebraic factors on which the action degenerates to a one-parameter action.
 
 While Conjecture 1.1 is a special case of the general question about the structure of invariant measures for higher rank hyperbolic homogeneous actions, it is of particular interest in view of number theoretic consequences. In particular, it implies the following well-known and long-standing conjecture of Littlewood [24, §2]:
 
@@ -52,17 +52,17 @@ $$
 \Xi = \left\{(u, v) \in \mathbb {R} ^ {2}: \operatorname * {l i m i n f} _ {n \to \infty} n \langle n u \rangle \langle n v \rangle > 0 \right\}.
 $$
 
-Then the Hausdorf dimension dim$\boldsymbol { \mathit { \Pi } } _ { H } \boldsymbol { \Xi } = 0$. In$f a c t , \Xi \ i s$a countable union of compact sets with box dimension zero.
+Then the Hausdorff dimension of $\Xi$ is zero. In fact, $\Xi$ is a countable union of compact sets with box dimension zero.
 
 J. W. S. Cassels and H. P. F. Swinnerton-Dyer [1] showed that (1.1) holds for any u, v which are from the same cubic number field (i.e. any field K with degree$\left[ K : \mathbb { Q } \right] = 3 )$
 
-It is easy to see that for a.e. (u, v) equation (1.1) holds — indeed, for almost every u it is already true that lim in$\operatorname { \mathrm { { i f } } } _ { n \to \infty } n \langle n u \rangle = 0$. However, there is a set of u of Hausdorf dimension 1 for which lim in$\mathrm { f } _ { n \longrightarrow \infty } n \langle n u \rangle > 0 ;$such u are said to be badly approximable. Pollington and Velani [35] showed that for every$u \in \mathbb { R }$, the intersection of the set
+It is easy to see that for a.e. $(u,v)$, equation (1.1) holds — indeed, for almost every $u$ it is already true that $\liminf_{n\to\infty} n\langle nu\rangle=0$. However, there is a set of $u$ of Hausdorff dimension 1 for which $\liminf_{n\to\infty} n\langle nu\rangle>0$; such $u$ are said to be badly approximable. Pollington and Velani [35] showed that for every $u\in\mathbb R$, the intersection of the set
 
 $$
 \{v \in \mathbb {R}: (u, v) \text {   satisfies   (1.1) } \}\tag{1.2}
 $$
 
-with the set of badly approximable numbers has Hausdorf dimension one. Note that this fact is an immediate corollary of our Theorem 1.5 — indeed, Theorem 1.5 implies in particular that the complement of this set (1.2) has Hausdorf dimension zero for all u. We remark that the proof of Pollington and Velani is efective.
+with the set of badly approximable numbers has Hausdorff dimension one. Note that this fact is an immediate corollary of our Theorem 1.5 — indeed, Theorem 1.5 implies in particular that the complement of this set (1.2) has Hausdorff dimension zero for all $u$. We remark that the proof of Pollington and Velani is effective.
 
 Littlewood’s conjecture is a special case of a more general question. More generally, for any k linear forms$\begin{array} { r } { m _ { i } ( x _ { 1 } , x _ { 2 } , \ldots , x _ { k } ) = \sum _ { j = 1 } ^ { k } m _ { i j } x _ { j } } \end{array}$, one may consider the product
 
@@ -72,19 +72,19 @@ $$
 
 where$m = ( m _ { i j } )$denotes the$k \times k$matrix whose rows are the linear forms above. Using Theorem 1.3 we prove the following:
 
-Theorem 1.6. There is a set$\Xi _ { k } \subset \mathrm { S L } ( k , \mathbb { R } )$of Hausdorf dimension$k - 1$ so that for every$m \in \mathrm { S L } ( k , \mathbb { R } ) \setminus \Xi _ { k }$
+Theorem 1.6. There is a set$\Xi _ { k } \subset \mathrm { S L } ( k , \mathbb { R } )$of Hausdorff dimension$k - 1$ so that for every$m \in \mathrm { S L } ( k , \mathbb { R } ) \setminus \Xi _ { k }$
 
 $$
 \inf _ {\mathbf {x} \in \mathbb {Z} ^ {k} \setminus \{\mathbf {0} \}} | f _ {m} (\mathbf {x}) | = 0.\tag{1.3}
 $$
 
-Indeed, this set$\Xi _ { k }$is A-invariant, and has zero Hausdorf dimension transversally to the A-orbits.
+Indeed, this set$\Xi _ { k }$is A-invariant, and has zero Hausdorff dimension transversally to the A-orbits.
 
 For more details, see Section 10 and Section 11. Note that (1.3) is automatically satisfied if zero is attained by$f _ { m }$evaluated on$\mathbb { Z } ^ { k } \setminus \{ 0 \}$
 
 We also want to mention another application of our results due to Hee Oh [32], which is related to the following conjecture of Margulis:
 
-Conjecture 1.7 (Margulis, 1993). Let G be the product of$\hphantom { 0 }$copies $o f \operatorname { S L } ( 2 , \mathbb { R } )$，
+Conjecture 1.7 (Margulis, 1993). Let $G$ be the product of $n\geq 2$ copies of $\operatorname{SL}(2,\mathbb{R})$,
 
 $$
 U _ {1} = \left\{\left( \begin{array}{c c} 1 & * \\ 0 & 1 \end{array} \right) \times \dots \times \left( \begin{array}{c c} 1 & * \\ 0 & 1 \end{array} \right) \right\}
@@ -98,7 +98,7 @@ $$
 
 Let$\Gamma < G$be a discrete subgroup so that for both$i = 1$and$2 , \Gamma \cap U _ { i }$is a lattice in$U _ { i }$and for any proper connected normal subgroup$N < G$the intersection $\Gamma \cap N \cap U _ { i }$is trivial. Then Γ is commensurable with a Hilbert modular$\boldsymbol { l a t t i c e ^ { 1 } }$ up to conjunction in$\mathrm { G L } ( 2 , \mathbb { R } ) \times \cdot \cdot \cdot \times \mathrm { G L } ( 2 , \mathbb { R } )$
 
-Hee Oh [33] has shown that assuming a topological analog to Conjecture 1.1 (which is implied by Conjecture 1.1), Conjecture 1.7 is true for$n \geq 3$ As explained in [32] (and following directly from [33, Thm. 1.5]), our result, Theorem 1.3, implies the following weaker result (also for$n \geq 3 )$: consider the set D of possible intersections$\Gamma \cap U _ { 1 }$for Γ as in Conjecture 1.7, which is a subset of the space of lattices in$U _ { 1 }$. This set D is clearly invariant under conjugation by the diagonal group in GL$( 2 , \mathbb { R } ) \times \cdot \cdot \cdot \times \operatorname { G L } ( 2 , \mathbb { R } )$; Theorem 1.3 (or more precisely Theorem 10.2 which we prove using Theorem 1.3 in §10) implies that the set D has zero Hausdorf dimension transversally to the orbit of this n-dimensional group (in particular, this set D has Hausdorf dimension$n ;$see Section 7 and Section 10 for more details regarding Hausdorf dimension and tranversals, and [33], [32] for more details regarding this application).
+Hee Oh [33] has shown that assuming a topological analog to Conjecture 1.1 (which is implied by Conjecture 1.1), Conjecture 1.7 is true for $n\geq3$. As explained in [32] (and following directly from [33, Thm. 1.5]), our result, Theorem 1.3, implies the following weaker result (also for $n\geq3$): consider the set $D$ of possible intersections $\Gamma\cap U_1$ for $\Gamma$ as in Conjecture 1.7, which is a subset of the space of lattices in $U_1$. This set $D$ is clearly invariant under conjugation by the diagonal group in $\mathrm{GL}(2,\mathbb R)\times\cdots\times\mathrm{GL}(2,\mathbb R)$; Theorem 1.3 (or, more precisely, Theorem 10.2, which we prove using Theorem 1.3 in §10) implies that $D$ has zero Hausdorff dimension transversally to the orbit of this $n$-dimensional group (in particular, $D$ has Hausdorff dimension $n$; see Sections 7 and 10 for more details regarding Hausdorff dimension and transversals, and [33], [32] for more details regarding this application).
 
 1.3. Measure rigidity. The earliest results for measure rigidity for higher rank hyperbolic actions deal with the Furstenberg problem: [22], [45], [12]. Specifically, Rudolph [45] and Johnson [12] proved that if$\mu$is a probability measure invariant and ergodic under the action of the semigroup generated by $\times m , \times n$(again with$m ,$n not powers of the same integer), and if some element of this semigroup acts with positive entropy, then$\mu$is Lebesgue.
 
@@ -110,17 +110,17 @@ This method (as well as most later work on measure rigidity for these higher ran
 
 Unless there is an element of the action which acts with positive entropy with respect to$\mu ,$these conditional measures are well-known to be δ-measure supported on a single point, and do not reveal any additional meaningful information about$\mu .$Hence this and later techniques are limited to study actions where at least one element has positive entropy. Under ideal situations, such as the original motivating case of two commuting hyperbolic automorphisms of the three torus, no further assumptions are needed, and a result entirely analogous to Rudolph’s theorem can be proved using the method of [17].
 
-However, for Weyl chamber flows, an additional assumption is needed for the [17] proof to work. This assumption is satisfied, for example, if the flow along every singular direction in the Weyl chamber is ergodic (though a weaker hypothesis is suficient). This additional assumption, which unlike the entropy assumption is not stable under weak<sup>∗</sup> limits, precludes applying the results from [17] in many cases.
+However, for Weyl chamber flows, an additional assumption is needed for the [17] proof to work. This assumption is satisfied, for example, if the flow along every singular direction in the Weyl chamber is ergodic (though a weaker hypothesis is sufficient). This additional assumption, which unlike the entropy assumption is not stable under weak<sup>∗</sup> limits, precludes applying the results from [17] in many cases.
 
-Recently, two new methods of proofs were developed, which overcome this dificulty.
+Recently, two new methods of proofs were developed, which overcome this difficulty.
 
-The first method was developed by the first and second authors [3], following an idea mentioned at the end of [17]. This idea uses the noncommutativity of the above-mentioned foliations (or more precisely, of the corresponding unipotent groups). This paper deals with general R-split semisimple Lie groups; in particular it is shown there that if$\mu$is an A-invariant measure on $X = \mathrm { { S L } } ( k , \mathbb { R } ) / \Gamma$, and if the entropies of$\mu$with respect to all one-parameter groups are positive, then$\mu$is the Haar measure. It should be noted that for this method the properties of the lattice do not play any role, and indeed this is true not only for$\Gamma = \mathrm { S L } ( k , \mathbb { Z } )$but for every discrete subgroup Γ. An extension to the nonsplit case appeared in [4]. Using the methods we present in the second part of the present paper, the results of [3] can be used to show that the set of exceptions to Littlewood’s conjecture has Hausdorf dimension at most 1.
+The first method was developed by the first and second authors [3], following an idea mentioned at the end of [17]. This idea uses the noncommutativity of the above-mentioned foliations (or more precisely, of the corresponding unipotent groups). This paper deals with general R-split semisimple Lie groups; in particular it is shown there that if$\mu$is an A-invariant measure on $X = \mathrm { { S L } } ( k , \mathbb { R } ) / \Gamma$, and if the entropies of$\mu$with respect to all one-parameter groups are positive, then$\mu$is the Haar measure. It should be noted that for this method the properties of the lattice do not play any role, and indeed this is true not only for$\Gamma = \mathrm { S L } ( k , \mathbb { Z } )$but for every discrete subgroup Γ. An extension to the nonsplit case appeared in [4]. Using the methods we present in the second part of the present paper, the results of [3] can be used to show that the set of exceptions to Littlewood’s conjecture has Hausdorff dimension at most 1.
 
-A diferent approach was developed by the third author, and was used to prove a special case of the quantum unique ergodicity conjecture [20]. In its basic form, this conjecture is related to the geodesic flow, which is not rigid, so in order to be able to prove quantum unique ergodicity in certain situations a more general setup for measure rigidity, following Host [9], was needed. A special case of the main theorem of [20] is the following: Let A be an R-split
+A different approach was developed by the third author, and was used to prove a special case of the quantum unique ergodicity conjecture [20]. In its basic form, this conjecture is related to the geodesic flow, which is not rigid, so in order to be able to prove quantum unique ergodicity in certain situations a more general setup for measure rigidity, following Host [9], was needed. A special case of the main theorem of [20] is the following: Let A be an R-split
 
-Cartan subgroup of$\mathrm { S L } ( 2 , \mathbb { R } ) \times \mathrm { S L } ( 2 , \mathbb { R } )$. Any A-ergodic measure on$\mathrm { S L } ( 2 , \mathbb { R } ) \times$ $\mathrm { S L } ( 2 , \mathbb { R } ) / \Gamma$for which some one-parameter subgroup of A acts with positive entropy is algebraic. Here Γ is$\mathrm { e . g . }$an irreducible lattice in$\mathrm { S L } ( 2 , \mathbb { R } ) \times \mathrm { S L } ( 2 , \mathbb { R } )$ Since the foliations under consideration in this case do commute, the methods of [3] are not applicable.
+Cartan subgroup of$\mathrm { S L } ( 2 , \mathbb { R } ) \times \mathrm { S L } ( 2 , \mathbb { R } )$. Any A-ergodic measure on$\mathrm { S L } ( 2 , \mathbb { R } ) \times$ $\mathrm { S L } ( 2 , \mathbb { R } ) / \Gamma$for which some one-parameter subgroup of A acts with positive entropy is algebraic. Here Γ is$\mathrm { e . g . }$an irreducible lattice in$\mathrm { S L } ( 2 , \mathbb { R } ) \times \mathrm { S L } ( 2 , \mathbb { R } )$. Since the foliations under consideration in this case do commute, the methods of [3] are not applicable.
 
-The method of [20] can be adapted to quotients of more general groups, and in particular to SL(k, R). It is noteworthy (and gratifying) that for the space of lattices (and more general quotients of SL(k, R)) these two unrelated methods are completely complementary: measures with “high” entropy (e.g. measures for which many one-parameter subgroup have positive entropy) can be handled with the methods of [3], and measures with“low” (but positive) entropy can be handled using the methods of [20]. Together, these methods give Theorem 1.3 (as well as the more general Theorem 2.1 below for more general quotients).
+The method of [20] can be adapted to quotients of more general groups, and in particular to SL(k, R). It is noteworthy (and gratifying) that for the space of lattices (and more general quotients of SL(k, R)) these two unrelated methods are completely complementary: measures with “high” entropy (e.g. measures for which many one-parameter subgroup have positive entropy) can be handled with the methods of [3], and measures with “low” (but positive) entropy can be handled using the methods of [20]. Together, these methods give Theorem 1.3 (as well as the more general Theorem 2.1 below for more general quotients).
 
 The method of proof in [20], an adaptation of which we use here, is based on study of the behavior of$\mu$along certain unipotent trajectories, using techniques introduced by Ratner in [39], [38] to study unipotent flows, in particular the H-property (these techniques are nicely exposed in Section 1.5 of [28]). This is surprising because the techniques are applied on a measure$\mu$which is a priori not even quasi-invariant under these (or any other) unipotent flows.
 
@@ -140,7 +140,7 @@ $$
 
 and the Lie algebra of A via the map$( t _ { 1 } , \dots , t _ { k } ) \mapsto \mathrm { d i a g } ( t _ { 1 } , \dots , t _ { k } )$. We write $\alpha ^ { \mathbf { t } } = \mathrm { d i a g } ( e ^ { t _ { 1 } } , \ldots , e ^ { t _ { k } } ) \in A$and also$\alpha ^ { \mathbf { t } }$for the left multiplication by this element on X. This defines an$\mathbb { R } ^ { k - 1 }$flow α on$X$.
 
-A subgroup$U < G$is unipotent if for every$g \in U , \ g - \operatorname { I } _ { k }$is nilpotent; i.e., for some n,$( g - \mathrm { I } _ { k } ) ^ { n } = 0$. A group H is said to be normalized$b y \ g \in G$if $g H g ^ { - 1 } = H ;$; H is normalized by$L < G$if it is normalized by every$g \in L ;$and the normalizer$N ( H )$of H is the group of all$g \in G$normalizing it. Similarly, g centralizes H if$g h = h g$for every$h \in H$, and we set$C ( H )$, the centralizer of H in$G ,$to be the group of all$g \in G$centralizing H.
+A subgroup$U < G$is unipotent if for every$g \in U , \ g - \operatorname { I } _ { k }$is nilpotent; i.e., for some n,$( g - \mathrm { I } _ { k } ) ^ { n } = 0$. A group H is said to be normalized$b y \ g \in G$if $g H g ^ { - 1 } = H ;$ H is normalized by$L < G$if it is normalized by every$g \in L ;$and the normalizer$N ( H )$of H is the group of all$g \in G$normalizing it. Similarly, g centralizes H if$g h = h g$for every$h \in H$, and we set$C ( H )$, the centralizer of H in$G ,$to be the group of all$g \in G$centralizing H.
 
 If$U < G$is normalized by A then for every$x \in X$and$a \in A , a ( U x ) =$ $U a x$, so that the foliation of X into U orbits is invariant under the action of A. We will say that$a \in A$expands U if all eigenvalues of$\operatorname { A d } ( a )$restricted to the Lie algebra of U are greater than one.
 
@@ -152,9 +152,9 @@ $$
 
 and say that$\nu _ { 1 }$and$\nu _ { 2 }$are proportional.
 
-We let$B _ { \varepsilon } ^ { Y } ( y ) \ ( \mathrm { o r } \ B _ { \varepsilon } ( y )$if Y is understood) denote the ball of radius ε around$y \in Y ;$; if H is a group we set$B _ { \varepsilon } ^ { H } = B _ { \varepsilon } ^ { H } ( \operatorname { I } )$where I is identity in$H ;$ and if H acts on X and$x \in X$we let$B _ { \varepsilon } ^ { \dot { H } } ( x ) = \dot { B } _ { \varepsilon } ^ { H } \cdot x .$
+We let$B _ { \varepsilon } ^ { Y } ( y ) \ ( \mathrm { o r } \ B _ { \varepsilon } ( y )$if Y is understood) denote the ball of radius ε around$y \in Y ;$ if H is a group we set$B _ { \varepsilon } ^ { H } = B _ { \varepsilon } ^ { H } ( \operatorname { I } )$where I is identity in$H ;$ and if H acts on X and$x \in X$we let$B _ { \varepsilon } ^ { H } ( x ) = B _ { \varepsilon } ^ { H } \cdot x .$
 
-Let$d ( \cdot , \cdot )$be the geodesic distance induced by a right-invariant Riemannian metric on$G .$. This metric on G induces a right-invariant metric on every closed subgroup$H \subset G$, and furthermore a metric on$X = G / \Gamma$. These induced metrics we denote by the same letter.
+Let$d ( \cdot , \cdot )$be the geodesic distance induced by a right-invariant Riemannian metric on $G$. This metric on G induces a right-invariant metric on every closed subgroup$H \subset G$, and furthermore a metric on$X = G / \Gamma$. These induced metrics we denote by the same letter.
 
 ## 2. Conditional measures on A-invariant foliations, invariant measures, and shearing
 
@@ -182,13 +182,7 @@ The other extreme to U-invariance occurs when$\mu _ { x , U }$is atomic. If$\mu$
 
 So positive entropy implies that the conditional measures are nontrivial a.e., and the goal is to show that this implies that they are Haar measures. Quite often one shows first that the conditional measures are translation invariant under some element up to proportionality, which makes the following observation useful.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">U;</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">µx,U</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">[17]</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>We are following the conventions of [20] in viewing the conditional measures µ<sub>x,U</sub> as measures on U. An alternative approach, which, for example, is the one taken in and [13], is to view the conditional measures as a collection of measures on X supported on single orbits of in this approach, however, the conditional measure is not a Radon measure on X, only on the single orbit of U in the topology of this submanifold.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>We are following the conventions of [20] in viewing the conditional measures $\mu_{x,U}$ as measures on $U$. An alternative approach, which, for example, is the one taken in [17] and [13], is to view the conditional measures as a collection of measures on $X$ supported on single orbits of $U$; in this approach, however, the conditional measure is not a Radon measure on $X$, only on the single orbit of $U$ in the topology of this submanifold.</span></small>
 
 (8) Possibly after replacing$X ^ { \prime }$of$( 1 ) - ( 4 )$by a conull subset, we see that for any$x \in X ^ { \prime }$and any$u \in U$with$\mu _ { x , U } \propto \mu _ { x , U } u$, in fact,$\mu _ { x , U } = \mu _ { x , U } u$ holds.
 
@@ -200,15 +194,15 @@ $$
 D _ {M} = \left\{x \in X ^ {\prime}: \mu_ {x, U} \big (B _ {2} ^ {U} \big) <   M \right\}.
 $$
 
-We claim that for every$x \in X ^ { \prime } \cap \bigcup _ { M } \operatorname* { l i m } { \operatorname* { s u p } _ { n \to \infty } \alpha ^ { - n \mathbf { t } } } D _ { M } \ ( { \mathrm { i . e . } }$. any$x \in X ^ { \prime }$ so that$\alpha ^ { n \mathbf { t } }$is in$D _ { M }$for some M for infinitely many n) if$\mu _ { x , U } = c \mu _ { x , U } u$then $c \leq 1$
+We claim that for every $x\in X'\cap\bigcup_{M>0}\limsup_{n\to\infty}\alpha^{-n\mathbf t}D_M$ (i.e., any $x\in X'$ such that $\alpha^{n\mathbf t}$ is in $D_M$ for some $M$ for infinitely many $n$), if $\mu_{x,U}=c\,\mu_{x,U}u$, then $c\leq1$.
 
-Indeed, suppose$x \in X ^ { \prime } \cap$lim$\mathrm { s u p } _ { n \to \infty } \alpha ^ { - n \mathbf { t } } D _ { M }$and$u \in U$satisfy$\mu _ { x , U } =$ ${ c } { \mu } _ { x , U } u$. Then for any$n _ { \mathrm { : } }$, k
+Indeed, suppose$x \in X ^ { \prime } \cap$lim$\mathrm { s u p } _ { n \to \infty } \alpha ^ { - n \mathbf { t } } D _ { M }$and$u \in U$satisfy$\mu _ { x , U } =$ ${ c } { \mu } _ { x , U } u$. Then for any $n,k$,
 
 $$
 \mu_ {\alpha^ {n \mathbf {t}} x, U} = c ^ {k} \mu_ {\alpha^ {n \mathbf {t}} x, U} (\alpha^ {n \mathbf {t}} u ^ {k} \alpha^ {- n \mathbf {t}}).
 $$
 
-Choose$k > 1$arbitrary. Suppose n is such that$\alpha ^ { n \mathbf { t } } x \in D _ { M }$and suppose that n is suficiently large that$\alpha ^ { n \mathbf { t } } u ^ { k } \alpha ^ { - n \mathbf { t } } \in B _ { 1 } ^ { U }$, which is possible since$\alpha ^ { \mathbf { t } }$uniformly contracts U. Then
+Choose$k > 1$arbitrary. Suppose n is such that$\alpha ^ { n \mathbf { t } } x \in D _ { M }$and suppose that n is sufficiently large that$\alpha ^ { n \mathbf { t } } u ^ { k } \alpha ^ { - n \mathbf { t } } \in B _ { 1 } ^ { U }$, which is possible since$\alpha ^ { \mathbf { t } }$uniformly contracts U. Then
 
 $$
 \begin{array}{r l} & M \geq \mu_ {\alpha^ {n \mathbf {t}} x, U} (B _ {2} ^ {U}) \geq \mu_ {\alpha^ {n \mathbf {t}} x, U} (B _ {1} ^ {U} \alpha^ {n \mathbf {t}} u ^ {k} \alpha^ {- n \mathbf {t}}) \\ & \quad = (\mu_ {\alpha^ {n \mathbf {t}} x, U} \alpha^ {n \mathbf {t}} u ^ {- k} \alpha^ {- n \mathbf {t}}) (B _ {1} ^ {U}) \\ & \quad = c ^ {k} \mu_ {\alpha^ {n \mathbf {t}} x, U} (B _ {1} ^ {U}) = c ^ {k}. \end{array}
@@ -238,7 +232,7 @@ Note that for the conditional measures$\mu _ { x } ^ { i j }$it is easy to find 
 
 (9) Suppose there exists a set of positive measure$B \subset X$such that for any $x \in B$there exists a nonzero$u \in U _ { i j }$with$\mu _ { x } ^ { i j } \propto \mu _ { x } ^ { i j } u$. Then for a.e. $x \in B$in fact$\mu _ { x } ^ { i j }$is a Haar measure of$U _ { i j }$, and if α is ergodic then$\mu$is invariant under$U _ { i j }$
 
-Proof of (9). Recall first that by (8) we can assume$\mu _ { x } ^ { i j } = \mu _ { x } ^ { i j } u$for$x \in B$ Let$K \subset B$be a compact set of measure almost equal to$\mu ( B )$such that$\mu _ { x } ^ { i j }$is continuous for$x \in K$. It is possible to find such a K by Luzin’s theorem. Note however, that here the target space is the space of Radon measures$\mathcal { M } _ { \infty } ( U _ { i j } )$ equipped with the weak<sup>∗</sup> topology so that a more general version [5, p. 69] of Luzin’s theorem is needed. Let$\mathbf { t } \in \Sigma$be such that$U _ { i j }$is uniformly contracted by$\alpha ^ { \mathbf { t } }$. Suppose now$x \in K$satisfies Poincar´e recurrence for every neighborhood of x relative to K. Then there is a sequence$x _ { \ell } = \alpha ^ { n _ { \ell } \mathbf { t } } \in K$that approaches x with$n _ { \ell } \to \infty$. Invariance of$\mu _ { x } ^ { i j }$under u implies invariance of$\mu _ { x _ { \ell } }$under the much smaller element$\alpha ^ { n _ { \ell } \mathbf { t } } u \alpha ^ { - n _ { \ell } \mathbf { t } }$and all its powers. However, since$\mu _ { x _ { \ell } } ^ { i j }$ converges to$\mu _ { x } ^ { i j }$we conclude that$\mu _ { x } ^ { i j }$is a Haar measure of$U _ { i j }$. The final statement follows from (4) which implies that the set of x where$\dot { \mu } _ { x } ^ { i j }$is a Haar measure is α-invariant.□
+Proof of (9). Recall first that by (8) we can assume$\mu _ { x } ^ { i j } = \mu _ { x } ^ { i j } u$for$x \in B$ Let$K \subset B$be a compact set of measure almost equal to$\mu ( B )$such that$\mu _ { x } ^ { i j }$is continuous for$x \in K$. It is possible to find such a K by Luzin’s theorem. Note however, that here the target space is the space of Radon measures$\mathcal { M } _ { \infty } ( U _ { i j } )$ equipped with the weak<sup>∗</sup> topology so that a more general version [5, p. 69] of Luzin’s theorem is needed. Let$\mathbf { t } \in \Sigma$be such that$U _ { i j }$is uniformly contracted by$\alpha ^ { \mathbf { t } }$. Suppose now$x \in K$satisfies Poincar´e recurrence for every neighborhood of x relative to K. Then there is a sequence$x _ { \ell } = \alpha ^ { n _ { \ell } \mathbf { t } } \in K$that approaches x with$n _ { \ell } \to \infty$. Invariance of$\mu _ { x } ^ { i j }$under u implies invariance of$\mu _ { x _ { \ell } }$under the much smaller element$\alpha ^ { n _ { \ell } \mathbf { t } } u \alpha ^ { - n _ { \ell } \mathbf { t } }$and all its powers. However, since$\mu _ { x _ { \ell } } ^ { i j }$ converges to$\mu _ { x } ^ { i j }$we conclude that$\mu _ { x } ^ { i j }$is a Haar measure of$U _ { i j }$. The final statement follows from (4) which implies that the set of x where$\mu _ { x } ^ { i j }$is a Haar measure is α-invariant.□
 
 Even when$\mu$is not invariant under$U _ { i j }$we still have the following maximal ergodic theorem [20, Thm. A.1] proved by the last named author in joint work with D. Rudolph, which is related to a maximal ergodic theorem of Hurewicz [11].
 
@@ -250,19 +244,19 @@ $$
 
 for some universal constant$C > 0$
 
-2.2. Invariant measures, high and low entropy cases. We are now in a position to state the general measure rigidity result for quotients of$G \mathrm { : }$
+2.2. Invariant measures, high and low entropy cases. We are now in a position to state the general measure rigidity result for quotients of $G$:
 
-Theorem 2.1. Let$X = G / \Gamma$and A be as above. Let$\mu$be an A-invariant and ergodic probability measure on X. For any pair of indices$a , b ,$, one of the following three properties must hold.
+Theorem 2.1. Let$X = G / \Gamma$and A be as above. Let$\mu$be an A-invariant and ergodic probability measure on X. For any pair of indices$a , b$, one of the following three properties must hold.
 
 (1) The conditional measures$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { b a }$are trivial$a . e .$
 
-(2) The conditional measures$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { b a }$are Haar a.e., and$\mu$is invariant under left multiplication with elements of$H _ { a b } = \left. U _ { a b } , U _ { b a } \right.$
+(2) The conditional measures$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { b a }$are Haar a.e., and$\mu$is invariant under left multiplication with elements of$H _ { a b } = \langle U _ { a b } , U _ { b a } \rangle$
 
-(3) Let${ \cal A } _ { a b } ^ { \prime } = \{ \alpha ^ { \mathbf { s } } : \mathbf { s } \in \Sigma$and$s _ { a } = s _ { b } \}$. Then$a . e .$. ergodic component of µ with respect to$A _ { a b } ^ { \prime }$is supported on a single$C ( H _ { a b } ) – o r b i t$, where$C ( H _ { a b } ) =$ $\{ g \in G : g h = h g$for all$h \in H _ { a b } \}$is the centralizer of$H _ { a b }$
+(3) Let$A _ { a b } ^ { \prime } = \{ \alpha ^ { \mathbf { s } } : \mathbf { s } \in \Sigma$and$s _ { a } = s _ { b } \}$. Then$a . e .$. ergodic component of µ with respect to$A _ { a b } ^ { \prime }$is supported on a single$C ( H _ { a b } ) – o r b i t$, where$C ( H _ { a b } ) =$ $\{ g \in G : g h = h g$for all$h \in H _ { a b } \}$is the centralizer of$H _ { a b }$
 
 Remark. If$k = 3$then (3) is equivalent to the following:
 
-(3<sup></sup>) There exist a nontrivial$\mathbf { s } \in \Sigma$with$s _ { a } = s _ { b }$and a point$x _ { 0 } \in X$with $\alpha ^ { \mathbf { s } } x _ { 0 } = x _ { 0 }$such that the measure$\mu$is supported by the orbit of$x _ { 0 }$under $C ( A _ { a b } ^ { \prime } )$. In particular, a.e. point x satisfies$\alpha ^ { \mathbf { s } } x = x$
+(3$^{\prime}$) There exist a nontrivial$\mathbf { s } \in \Sigma$with$s _ { a } = s _ { b }$and a point$x _ { 0 } \in X$with $\alpha ^ { \mathbf { s } } x _ { 0 } = x _ { 0 }$such that the measure$\mu$is supported by the orbit of$x _ { 0 }$under $C ( A _ { a b } ^ { \prime } )$. In particular, a.e. point x satisfies$\alpha ^ { \mathbf { s } } x = x$
 
 Indeed, in this case$C ( H _ { a b } )$contains only diagonal matrices, and Poincar´e recurrence for$A _ { a b } ^ { \prime }$together with (3) imply that a.e. point is periodic under $A _ { a b } ^ { \prime }$. However, ergodicity of$\mu$under A implies that the period s must be the same$\mathrm { a . e . }$. Let$x _ { 0 } \in X$be such that every neighborhood of$x _ { 0 }$has positive measure. Then x close to$x _ { 0 }$is fixed under$\alpha ^ { \mathbf { s } }$only if$x \in C ( A _ { a b } ^ { \prime } ) x _ { 0 }$, and ergodicity shows$( 3 ^ { \prime } )$. The examples of M. Rees [44], [3, §9] of nonalgebraic A-ergodic measures in certain quotients of SL(3, R) (which certainly can have positive entropy) are precisely of this form, and show that case (3) and$( 3 ^ { \prime } )$ above are not superfluous.
 
@@ -276,7 +270,7 @@ High entropy case. There is an additional pair of indices$i , j$distinct from a,
 
 Theorem 2.2. If both$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { i j }$are nontrivial$a . s .$, for distinct pairs of indices$i , j$and a, b with either$i = a o r j = b$, then both$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { b a }$are in fact Haar measures a.s. and$\mu$is invariant under$H _ { a b }$
 
-The proof in this case, presented in Section 3 makes use of the noncommutative structure of certain unipotent subgroups of$G ,$, and follows [3] closely. However, by careful use of an adaptation of a formula of Ledrappier and Young (Proposition 3.1 below) relating entropy to the conditional measures$\mu _ { x } ^ { a b }$we are able to extract some additional information. It is interesting to note that Margulis and Tomanov used the Ledrappier-Young theory for a similar purpose in [26], simplifying some of Ratner’s original arguments in the classification of measures invariant under the action of unipotent groups.
+The proof in this case, presented in Section 3, makes use of the noncommutative structure of certain unipotent subgroups of $G$, and follows [3] closely. However, by careful use of an adaptation of a formula of Ledrappier and Young (Proposition 3.1 below) relating entropy to the conditional measures$\mu _ { x } ^ { a b }$we are able to extract some additional information. It is interesting to note that Margulis and Tomanov used the Ledrappier-Young theory for a similar purpose in [26], simplifying some of Ratner’s original arguments in the classification of measures invariant under the action of unipotent groups.
 
 Low entropy case. For every pair of indices$i , j$distinct from$a , b$such that$i = a$or$j = b , \mu _ { x } ^ { i j }$are trivial a.s. In this case there are two possibilities:
 
@@ -294,7 +288,7 @@ In this case we employ the techniques developed by the third named author in [20
 
 A well-known theorem by Ledrappier and Young [19] relates the entropy, the dimension of conditional measures along invariant foliations, and Lyapunov exponents, for a general$C ^ { 2 }$map on a compact manifold, and in [26, §9] an adaptation of the general results to flows on locally homogeneous spaces is provided. In the general context, the formula giving the entropy in terms of the dimensions of conditional measures along invariant foliations requires consideration of a sequence of subfoliations, starting from the foliation of the manifold into stable leaves. However, because the measure$\mu$is invariant under the full A-action one can relate the entropy to the conditional measures on the one-dimensional foliations into orbits of$U _ { i j }$for all pairs of indices$i , j$
 
-We quote the following from [3]; in that paper, this proposition is deduced from the fine structure of the conditional measures on full stable leaves for A-invariant measure; however, it can also be deduced from a more general result of Hu regarding properties of commuting difeomorphisms [10]. It should be noted that the constants$s _ { i j } ( \mu )$that appear below have explicit interpretation in terms of the pointwise dimension of$\mu _ { x } ^ { i j } \ [ 1 9 ]$
+We quote the following from [3]; in that paper, this proposition is deduced from the fine structure of the conditional measures on full stable leaves for A-invariant measure; however, it can also be deduced from a more general result of Hu regarding properties of commuting diffeomorphisms [10]. It should be noted that the constants$s _ { i j } ( \mu )$that appear below have explicit interpretation in terms of the pointwise dimension of$\mu _ { x } ^ { i j } \ [ 1 9 ]$
 
 Proposition 3.1$( [ 3 ,$Lemma$6 . 2 ] )$. Let$\mu$be an A-invariant and ergodic probability measure on$X = G / \Gamma$with$G = \mathrm { S L } ( k , \mathbb { R } )$and$\Gamma < G$discrete. Then for any pair of indices$i , j$there are constants$s _ { i j } ( \mu ) \in [ 0 , 1 ]$so that:
 
@@ -310,7 +304,7 @@ $$
 
 Here$( r ) ^ { + } = \operatorname* { m a x } ( 0 , r )$denotes the positive part of$r \in \mathbb { R }$
 
-We note that the converse to (2) is also true. A similar proposition holds for more general semisimple groups G. In particular we get the following (which is also proved in a somewhat diferent way in [17]):
+We note that the converse to (2) is also true. A similar proposition holds for more general semisimple groups G. In particular we get the following (which is also proved in a somewhat different way in [17]):
 
 Corollary 3.2. For any$\textbf { t } \in \ \Sigma$, the entropy$\mathsf { h } _ { \mu } ( \alpha ^ { \mathbf { t } } )$is positive$i f$and only if there is a pair of indices$i , j$with$t _ { i } - t _ { j } > 0$for which$\mu _ { x } ^ { i j }$are nontrivial a.s.
 
@@ -328,7 +322,7 @@ Lemma 3.3 ([3, Lemma 6.1]). Suppose µ is an A-invariant and ergodic probability
 
 ![](images/page_14_image_0.jpg)
 
-Figure 1: One key ingredient of the proof of Lemma 3.3 in [3] is the translation produced along$U _ { i k }$when going along$U _ { i j }$and$U _ { j k }$and returning to the same leaf$U _ { i k } x$
+Figure 1: One key ingredient of the proof of Lemma 3.3 in [3] is the translation produced along$U _ { i k }$when going along$U _ { i j }$and$U _ { j k }$and returning to the same leaf$U _ { i k } x$.
 
 Proof of Theorem 2.2. For$\ell = a , b$we define the sets
 
@@ -336,7 +330,7 @@ $$
 \begin{array}{r l} & C _ {\ell} = \{i \in \{1, \ldots , k \} \setminus \{a, b \}: s _ {i \ell} (\mu) > 0 \}, \\ & R _ {\ell} = \{j \in \{1, \ldots , k \} \setminus \{a, b \}: s _ {\ell j} (\mu) > 0 \}, \\ & C _ {\ell} ^ {L} = \{i \in \{1, \ldots , k \} \setminus \{a, b \}: \mu \text {is} U _ {i \ell} \text {-invariant} \}, \\ & R _ {\ell} ^ {L} = \{j \in \{1, \ldots , k \} \setminus \{a, b \}: \mu \text {is} U _ {\ell j} \text {-invariant} \}. \end{array}
 $$
 
-Suppose i$\in C _ { a } ;$; then the conditional measures$\mu _ { x } ^ { i a }$are nontrivial a.e. by Proposition 3.1. Since by assumption$\mu _ { x } ^ { a b }$are nontrivial$\mathrm { { a . e . } }$, Lemma 3.3 shows that $\mu _ { x } ^ { i b }$are Lebesgue a.e. This shows that$C _ { a } \subset C _ { b } ^ { L }$, and$R _ { b } \subset R _ { a } ^ { L }$follows similarly. Let$\mathbf { t } = ( t _ { 1 } , \dots , t _ { k } )$with$t _ { i } = - 1 / k$for$i \neq a$and$t _ { a } = 1 - 1 / k$. For the following expression set$s _ { a a } = 0$. By Proposition 3.1 the entropy of$\alpha ^ { \mathbf { t } }$equals
+Suppose i$\in C _ { a } ;$ then the conditional measures$\mu _ { x } ^ { i a }$are nontrivial a.e. by Proposition 3.1. Since by assumption$\mu _ { x } ^ { a b }$are nontrivial$\mathrm { { a . e . } }$, Lemma 3.3 shows that $\mu _ { x } ^ { i b }$are Lebesgue a.e. This shows that$C _ { a } \subset C _ { b } ^ { L }$, and$R _ { b } \subset R _ { a } ^ { L }$follows similarly. Let$\mathbf { t } = ( t _ { 1 } , \dots , t _ { k } )$with$t _ { i } = - 1 / k$for$i \neq a$and$t _ { a } = 1 - 1 / k$. For the following expression set$s _ { a a } = 0$. By Proposition 3.1 the entropy of$\alpha ^ { \mathbf { t } }$equals
 
 $$
 \begin{array}{r l} & {\mathsf {h} _ {\mu} (\boldsymbol {\alpha^ {\mathbf {t}}}) = s _ {a 1} (\mu) + \dots + s _ {a k} (\mu)} \\ & {\qquad = s _ {a b} (\mu) + | R _ {a} ^ {L} | + \sum_ {j \in R _ {a} \backslash R _ {a} ^ {L}} s _ {a j} (\mu) > | R _ {a} ^ {L} |,} \end{array}\tag{3.3}
@@ -372,7 +366,7 @@ Corollary 3.4. For any pair of indices$( a , b ) , s _ { a b } = s _ { b a }$. I
 
 ## 4. The low entropy case
 
-We let${ \cal A } _ { a b } ^ { \prime } = \{ \alpha ^ { \mathbf { s } } \in { \cal A } : s _ { a } = s _ { b } \}$, and let$\alpha ^ { \mathbf { s } } \in A _ { a b } ^ { \prime } .$. Then$\alpha ^ { \mathbf { s } }$commutes with$U _ { a b }$, which implies that$\mu _ { x } ^ { a b } = \mu _ { \alpha ^ { \mathbf { s } } x } ^ { a b } \mathrm { ~ a . e ~ }$
+We let $A'_{ab}=\{\alpha^{\mathbf s}\in A:s_a=s_b\}$ and let $\alpha^{\mathbf s}\in A'_{ab}$. Then $\alpha^{\mathbf s}$ commutes with $U_{ab}$, which implies that $\mu_x^{ab}=\mu_{\alpha^{\mathbf s}x}^{ab}$ a.e.
 
 For a given pair of indices$a , b ,$we define the following subgroups of G:
 
@@ -396,7 +390,7 @@ $$
 g = \left( \begin{array}{c c c} a _ {1} & g _ {1 2} & g _ {1 *} \\ g _ {2 1} & a _ {2} & g _ {2 *} \\ g _ {* 1} & g _ {* 2} & a _ {*} \end{array} \right),\tag{4.1}
 $$
 
-with the understanding that$a _ { 1 } , a _ { 2 } , g _ { 1 2 } , g _ { 2 1 } \in \mathbb { R } , g _ { 1 * } , g _ { 2 * } \ ( \mathrm { r e s p . ~ } g _ { * 1 } , g _ { * 2 } )$are row (resp. column) vectors with$k - 2$components, and$a _ { * } \in \mathrm { M a t } ( k - 2 , \mathbb { R } )$. (For $k = 3$of course all of the above are real numbers, and we can write 3 instead of the symbol$\ast . )$Then$g \in L$if and only if$a _ { 1 } = a _ { 2 }$and$g _ { 2 1 } , g _ { * 1 } , g _ { 2 }$2\*are all zero.$g \in C$if in addition$g _ { 1 2 } , g _ { 1 * } , g _ { * 2 }$are zero.
+with the understanding that$a _ { 1 } , a _ { 2 } , g _ { 1 2 } , g _ { 2 1 } \in \mathbb { R } , g _ { 1 * } , g _ { 2 * } \ ( \mathrm { r e s p . ~ } g _ { * 1 } , g _ { * 2 } )$are row (resp. column) vectors with$k - 2$components, and$a _ { * } \in \mathrm { M a t } ( k - 2 , \mathbb { R } )$. (For $k = 3$of course all of the above are real numbers, and we can write 3 instead of the symbol$\ast . )$Then$g \in L$if and only if$a _ { 1 } = a _ { 2 }$and$g _ { 2 1 } , g _ { * 1 } , g _ { 2 * }$are all zero.$g \in C$if in addition$g _ { 1 2 } , g _ { 1 * } , g _ { * 2 }$are zero.
 
 For$\ell \geq 1$let$D _ { \ell }$be the set of$x \in X$with the property that for all$z \in$ $B _ { 1 / \ell } ( x )$there exists a unique$g \in B _ { 1 / \ell } ^ { G }$with$z = g x$. Note that$\textstyle \bigcup _ { \ell = 1 } ^ { \infty } D _ { \ell } = X$ and that for every compact set,$K \subset D _ { \ell }$for some$\ell > 0$
 
@@ -410,7 +404,9 @@ Let$\mathbf { t } = ( - 1 , 1 , 0 , \ldots , 0 ) \in \Sigma$. Then conjugation w
 
 Varying s over all elements of Σ with rational coordinates and$\alpha ^ { \mathbf { s } } \in A ^ { \prime }$ we arrive at a nullset$N _ { \ell } \subset D _ { \ell }$so that$\alpha ^ { \mathbf { s } } x \in B _ { 1 / \ell } ^ { L } ( x )$implies$\alpha ^ { \mathbf { s } } x \in B _ { 1 / \ell } ^ { C } ( x )$ for all such rational s. Let N be the union of$N _ { \ell }$for$\ell = 1 , 2 , \ldots$. We claim that N satisfies the lemma.
 
-So suppose$K \subset X \setminus N$has A<sup></sup>-exceptional returns. Choose$\ell \geq 1$so that $K \subset D _ { \ell }$, and furthermore so that$\delta = 1 / \ell$can be used in the definition of A<sup></sup>-exceptional returns to K. Let$x \in K , x ^ { \prime } = \alpha ^ { \mathbf { s } } x \in B _ { 1 / \ell } ( x )$for some$\mathbf { s } \in \Sigma$ with$\alpha ^ { \mathbf { s } } \in A ^ { \prime }$, and$g \in B _ { 1 / \ell } ^ { G }$with$x ^ { \prime } = g x$. By assumption on$K$, we have that $g \in L$. Choose a rational$\tilde { \mathbf { s } } \in \Sigma$close to s with$\alpha ^ { \tilde { \mathbf { s } } } \in A ^ { \prime }$so that$\alpha ^ { \tilde { \mathbf { s } } } x \in B _ { 1 / \ell } ( x )$ Clearly$\tilde { g } ~ = ~ \alpha ^ { \tilde { \bf s } - { \bf s } } g$satisfies$\alpha ^ { \tilde { \mathbf { s } } } x \ = \ \tilde { g } x$and so$\tilde { g } \in B _ { 1 / \ell } ^ { L } .$. Since$x \in K \subset$ $D _ { 1 / \ell } \backslash N _ { 1 / \ell }$, it follows that$\tilde { g } \in C$. Going back to$x ^ { \prime } = \alpha ^ { \mathbf { s } } x$and g it follows that $g \in C$□
+So suppose $K\subset X\setminus N$ has $A'$-exceptional returns. Choose $\ell\geq1$ so that $K\subset D_\ell$, and so that $\delta=1/\ell$ can be used in the definition of $A'$-exceptional returns to $K$.
+Let $x\in K$ and $x'=\alpha^{\mathbf s}x\in B_{1/\ell}(x)$ for some $\mathbf s\in\Sigma$ with $\alpha^{\mathbf s}\in A'$, and let $g\in B_{1/\ell}^G$ satisfy $x'=gx$. By assumption on $K$, $g\in L$.
+Choose a rational $\tilde{\mathbf s}\in\Sigma$ close to $\mathbf s$ with $\alpha^{\tilde{\mathbf s}}\in A'$ so that $\alpha^{\tilde{\mathbf s}}x\in B_{1/\ell}(x)$. Clearly, $\tilde g=\alpha^{\tilde{\mathbf s}-\mathbf s}g$ satisfies $\alpha^{\tilde{\mathbf s}}x=\tilde g x$, so $\tilde g\in B_{1/\ell}^L$. Since $x\in K\subset D_{1/\ell}\setminus N_{1/\ell}$, it follows that $\tilde g\in C$. Going back to $x'=\alpha^{\mathbf s}x$ and $g$, it follows that $g\in C$. □
 
 Our interest in exceptional returns is explained by the following proposition. Note that condition (1) below is exactly Theorem 2.3(2).
 
@@ -422,7 +418,7 @@ Proposition 4.3. For any pair of indices$a , b$the following two conditions are 
 
 The ergodic decomposition of$\mu$with respect to$A _ { a b } ^ { \prime }$can be constructed in the following manner: Let${ \mathcal { E } } ^ { \prime }$denote the σ-algebra of Borel sets which are$A _ { a b } ^ { \prime }$ invariant. For technical purposes, we use the fact that$( X , B _ { X } , \mu )$is a Lebesgue space to replace${ \mathcal { E } } ^ { \prime }$by an equivalent countably generated sub-sigma algebra$\mathcal { E }$. Let$\mu _ { x } ^ { \mathcal { E } }$be the family of conditional measures of$\mu$with respect to the σ-algebra $\mathcal { E } .$. Since$\mathcal { E }$is countably generated the atom$[ x ] _ { \mathcal { E } }$is well defined for all$x ,$and it can be arranged that for all x and$y$with$y \in [ x ] _ { \mathcal { E } }$the conditional measures $\mu _ { x } ^ { \mathcal { E } } = \mu _ { y } ^ { \mathcal { E } }$, and that for all x,$\mu _ { x } ^ { \mathcal { E } }$is a probability measure.
 
-Since$\mathcal { E }$consists of$A _ { a b } ^ { \prime } { \mathrm { . } }$-invariant sets, a.e. conditional measure is$A _ { a b } ^ { \prime } { } ^ { * }$ invariant, and can be shown to be ergodic. So the decomposition of$\mu$into conditionals
+Since $\mathcal E$ consists of $A'_{ab}$-invariant sets, almost every conditional measure is $A'_{ab}$-invariant and can be shown to be ergodic. So the decomposition of $\mu$ into conditionals
 
 $$
 \mu = \int_ {X} \mu_ {x} ^ {\mathcal {E}} \mathrm{d} \mu\tag{4.2}
@@ -454,11 +450,11 @@ $$
 
 and there exists$\delta > 0$with$\mu ( D _ { \delta } ) > 1 - \varepsilon$
 
-Let$K \subset D _ { \delta }$be compact. We claim that the A<sup></sup>-returns to$K$are strongly exceptional. So suppose$x \in K$and$x ^ { \prime } = \alpha ^ { \mathbf { s } } x \in K$for some$\alpha ^ { \mathbf { s } } \in A ^ { \prime }$. Then since x and$x ^ { \prime }$are in the same atom of$\mathcal { E } .$, the conditional measures satisfy $\mu _ { x } ^ { \mathcal { E } } = \mu _ { x ^ { \prime } } ^ { \mathcal { E } }$. By definition of$C _ { r }$we have$\mu _ { x } ^ { \mathcal { E } } ( B _ { r } ^ { C } ( x ) ) > 1 / 2$and the same for $x ^ { \prime }$. Therefore$B _ { r } ^ { C } ( x )$and$B _ { r } ^ { C } ( x ^ { \prime } )$cannot be disjoint, and$x ^ { \prime } \in B _ { 2 r } ^ { C } ( x )$follows. By definition of$D _ { \delta }$it follows that$x ^ { \prime } \in B _ { \delta } ^ { C } ( x )$. Thus the A<sup></sup>-returns to$K$are indeed strongly exceptional.
+Let $K\subset D_\delta$ be compact. We claim that the $A'$-returns to $K$ are strongly exceptional. Suppose $x\in K$ and $x'=\alpha^{\mathbf s}x\in K$ for some $\alpha^{\mathbf s}\in A'$. Since $x$ and $x'$ are in the same atom of $\mathcal E$, the conditional measures satisfy $\mu_x^{\mathcal E}=\mu_{x'}^{\mathcal E}$. By definition of $C_r$, we have $\mu_x^{\mathcal E}(B_r^C(x))>1/2$, and the same for $x'$. Therefore $B_r^C(x)$ and $B_r^C(x')$ cannot be disjoint, so $x'\in B_{2r}^C(x)$. By definition of $D_\delta$, it follows that $x'\in B_\delta^C(x)$. Thus the $A'$-returns to $K$ are indeed strongly exceptional.
 
-$( 2 ) \Longrightarrow ( 1 )$Suppose that for every$\ell \geq 1$there exists a compact set $K _ { \ell }$with$\mu ( K _ { \ell } ) > 1 - 1 / \ell$so that the A<sup></sup>-returns to K are strong exceptional. Then$N = X \setminus \bigcup _ { \ell } K _ { \ell }$is a nullset. It sufices to show that (1) holds for every $A ^ { \prime }$ergodic$\mu _ { x } ^ { \mathcal { E } }$which satisfies$\mu _ { x } ^ { \mathcal { E } } ( N ) = 0$
+$(2)\Longrightarrow(1)$. Suppose that for every $\ell\geq1$ there exists a compact set $K_\ell$ with $\mu(K_\ell)>1-1/\ell$ so that the $A'$-returns to $K$ are strong exceptional. Then $N=X\setminus\bigcup_\ell K_\ell$ is a null set. It suffices to show that (1) holds for every $A'$-ergodic $\mu_x^{\mathcal E}$ which satisfies $\mu_x^{\mathcal E}(N)=0$.
 
-For any such x there exists$\ell > 0$with$\mu _ { x } ^ { \varepsilon } ( K _ { \ell } ) > 0$. Choose some$z \in K _ { \ell }$ with$\mu _ { x } ^ { \varepsilon } ( B _ { 1 / m } ( z ) \cap K _ { \ell } ) > 0$for all$m \geq 1$. We claim that$\mu _ { x } ^ { \mathcal { E } }$is supported on $C z , \mathrm { i . e . }$. that$\mu _ { x } ^ { \mathcal { E } } ( C z ) = 1$. Let$\delta$be as in the definition of strong exceptional returns. By ergodicity there exists for$\mu _ { x } ^ { \mathcal { E } _ { - \mathrm { a . e . } ~ y _ { 0 } } } \in \ X$some$\alpha ^ { \mathbf { s } } \in \ A ^ { \prime }$with $y _ { 1 } = \alpha ^ { \mathbf { s } } y _ { 0 } \in B _ { \delta } ( z ) \cap K _ { \ell }$. Moreover, there exists a sequence$y _ { n } \in A ^ { \prime } y _ { 0 } \cap K _ { \ell }$with $y _ { n } \longrightarrow z$. Since$y _ { n } \in B _ { \delta } ( y _ { 1 } )$for large enough n and since the A<sup></sup>-returns to$K _ { \ell }$ are strong exceptional, we conclude that$y _ { n } \in B _ { \delta } ^ { C } ( y _ { 1 } )$Since$y _ { n }$approaches z and$d ( z , y _ { 1 } ) < \delta$, we have furthermore$z \in B _ { \delta } ^ { C } ( y _ { 1 } )$. Therefore$y _ { 1 } \in C z .$ $y _ { 0 } = \alpha ^ { - \mathbf { s } } y _ { 1 } \in C z$, and the claim follows.□
+For any such $x$ there exists $\ell>0$ with $\mu_x^{\mathcal E}(K_\ell)>0$. Choose some $z\in K_\ell$ with $\mu_x^{\mathcal E}(B_{1/m}(z)\cap K_\ell)>0$ for all $m\geq1$. We claim that $\mu_x^{\mathcal E}$ is supported on $Cz$, i.e. that $\mu_x^{\mathcal E}(Cz)=1$. Let $\delta$ be as in the definition of strong exceptional returns. By ergodicity, for $\mu_x^{\mathcal E}$-a.e. $y_0\in X$ there exists some $\alpha^{\mathbf s}\in A'$ with $y_1=\alpha^{\mathbf s}y_0\in B_\delta(z)\cap K_\ell$. Moreover, there exists a sequence $y_n\in A'y_0\cap K_\ell$ with $y_n\to z$. Since $y_n\in B_\delta(y_1)$ for large enough $n$ and the $A'$-returns to $K_\ell$ are strong exceptional, we conclude that $y_n\in B_\delta^C(y_1)$. Since $y_n$ approaches $z$ and $d(z,y_1)<\delta$, we have furthermore $z\in B_\delta^C(y_1)$. Therefore $y_1\in Cz$, $y_0=\alpha^{-\mathbf s}y_1\in Cz$, and the claim follows. □
 
 Lemma 4.4. (1) Under the assumptions of the low entropy case$( i . e . \ s _ { a b } ( \mu )$ $> 0$but$s _ { i j } ( \mu ) = 0$for all$i , j$with either$i = a \ o r \ j = b )$, there exists a µ-nullset $N \subset X$such that for$x \in X \setminus N$，
 
@@ -472,7 +468,7 @@ $$
 \mu_ {x} ^ {a b} \neq \mu_ {y} ^ {a b}
 $$
 
-for any$x \in X \setminus N$and any$y \in U _ { ( a b ) } x \backslash$N which is diferent from x.
+for any$x \in X \setminus N$and any$y \in U _ { ( a b ) } x \backslash$N which is different from x.
 
 Proof. Set$U = U _ { ( a b ) }$and let$\mu _ { x , U }$be the conditional measures for the foliation into U-orbits. By [3, Prop. 8.3] the conditional measure$\mu _ { x , U }$is a.e. – say for$x \notin N \mathrm { - } \mathrm { a }$product measure of the conditional measures$\mu _ { x } ^ { i j }$over all$i , j$ for which$U _ { i j } \subset U$. Clearly, by the assumptions of the low entropy case,$\mu _ { x } ^ { a b }$is the only one of these which is nontrivial. Therefore,$\mu _ { x , U } -$as a measure on$U$ – is supported on the one-dimensional group$U _ { a b }$
 
@@ -482,7 +478,7 @@ In order to show Lemma 4.4.(2), we note that we already know that$y \in$ $U _ { 
 
 4.2. Sketch of proof of Theorem 2.3. We assume that the two equivalent conditions in Proposition 4.3 fail (the first of which is precisely the condition of Theorem 2.3 (2)). From this we will deduce that$\mu$is$U _ { a b }$-invariant which is precisely the statement in Theorem 2.3 (1).
 
-For the following we may assume without loss of generality that$a = 1$ and$b = 2$. Write$A ^ { \prime }$and$u ( r ) \ = \ \mathrm { I } _ { k } + r E _ { 1 2 } \in U _ { 1 2 }$for$r \in \mathbb { R }$instead of$A _ { 1 2 } ^ { \prime }$ and$u _ { 1 2 } ( r )$. Also, we shall at times implicitly identify$\mu _ { x } ^ { 1 2 }$(which is a measure on$U _ { 1 2 } )$with its push forward under the map$u ( r ) \mapsto r ,$, e.g. write$\mu _ { x } ^ { 1 2 } ( [ a , b ] )$1 instead of$\mu _ { x } ^ { 1 2 } ( u ( [ a , b ] ) )$.
+For the following we may assume without loss of generality that $a=1$ and $b=2$. Write $A'$ and $u(r)=I_k+rE_{12}\in U_{12}$ for $r\in\mathbb R$ instead of $A'_{12}$ and $u_{12}(r)$. Also, we shall at times implicitly identify $\mu_x^{12}$ (which is a measure on $U_{12}$) with its push-forward under the map $u(r)\mapsto r$, e.g. write $\mu_x^{12}([a,b])$ instead of $\mu_x^{12}(u([a,b]))$.
 
 By Poincar´e recurrence we have for a.e.$x \in X$and every$\delta > 0$that
 
@@ -490,7 +486,7 @@ $$
 d \left(\alpha^ {\mathbf {s}} x, x\right) <   \delta \text {   for   some   large   } \alpha^ {\mathbf {s}} \in A ^ {\prime}.
 $$
 
-For a small enough δ there exists a unique$g \in B _ { \delta } ^ { G }$such that$x ^ { \prime } = \alpha ^ { \mathbf { s } } = g x$
+For a small enough $\delta$ there exists a unique $g\in B_\delta^G$ such that $x'=\alpha^{\mathbf s}x=gx$.
 
 Since$\alpha ^ { \mathbf { s } }$preserves the measure and since$A ^ { \prime } \subset L _ { 1 2 } = C ( U _ { 1 2 } )$the conditional measures satisfy
 
@@ -516,7 +512,7 @@ We shall use a variant of this H-property in our paper, which at its heart is th
 
 ![](images/page_20_image_0.jpg)
 
-Figure 2: Ratner’s H-property: When moving along the unipotent$u ( r )$, the points$x ( r )$and$x ^ { \prime } ( r )$noticably difer first only along$U _ { ( 1 2 ) }$
+Figure 2: Ratner’s H-property: When moving along the unipotent$u ( r )$, the points$x ( r )$and$x ^ { \prime } ( r )$noticably differ first only along$U _ { ( 1 2 ) }$
 
 Let the entries of$g \in B _ { \delta } ^ { G }$be labelled as in (4.1). A simple calculation shows that$x ^ { \prime } ( r ) = g ( r ) x ( r )$for
 
@@ -526,27 +522,29 @@ $$
 
 Since the return is not exceptional,$g \notin L _ { 1 2 } = C ( U _ { 1 2 } )$and one of the following holds;$a _ { 2 } - a _ { 1 } \neq 0 , g _ { 2 1 } \neq 0 , g _ { * 1 } \neq 0$, or$g _ { 2 * } \neq 0$. From this it is immediate that there exists some r so that$g ( r )$is close to$\mathrm { I } _ { k }$in all entries except at least one entry corresponding to the subgroup$U _ { ( 1 2 ) }$. More precisely, there is an absolute constant C so that there exists r with
 
-(4.7)
+$$
+C^{-1}\leq\max\left(\left|(a_2-a_1)r-g_{21}r^2\right|,\|g_{2*}r\|,\|g_{*1}r\|\right)\leq C.\tag{4.7}
+$$
 
 $$
-\begin{array}{c} C ^ {- 1} \leq \max (| (a _ {2} - a _ {1}) r - g _ {2 1} r ^ {2} |, \| g _ {2 *} r \|, \| g _ {* 1} r \|) \leq C, \\ | g _ {2 1} r | \leq C \delta^ {3 / 8}. \end{array}\tag{4.8}
+|g_{21}r|\leq C\delta^{3/8}.\tag{4.8}
 $$
 
 With some care we will arrange it so that$x ( r ) , x ^ { \prime } ( r )$belong to a fixed compact set$X _ { 1 } \subset X \setminus N$. Here N is as in Lemma 4.4 and$X _ { 1 }$satisfies that$\mu _ { z } ^ { 1 2 }$depends continuously on$z \in X _ { 1 }$, which is possible by Luzin’s theorem.
 
-If we can indeed find for every$\delta > 0$two such points$x ( r ) , x ^ { \prime } ( r )$with (4.7) and (4.8), we let δ go to zero and conclude from compactness that there are two diferent points$y , y ^ { \prime } \in X _ { 1 }$with$y ^ { \prime } \in U _ { ( 1 2 ) } y$which are limits of a sequence of points$x ( r ) , x ^ { \prime } ( r ) \in X _ { 1 }$. By continuity of$\dot { \mu } _ { z } ^ { 1 2 }$on$X _ { 1 }$we get that$\mu _ { y } ^ { 1 2 } = \mu _ { y ^ { \prime } } ^ { 1 2 }$ However, this contradicts Lemma 4.4 unless$\mu$is invariant under$U _ { 1 2 }$
+If we can indeed find for every$\delta > 0$two such points$x ( r ) , x ^ { \prime } ( r )$with (4.7) and (4.8), we let δ go to zero and conclude from compactness that there are two different points$y , y ^ { \prime } \in X _ { 1 }$with$y ^ { \prime } \in U _ { ( 1 2 ) } y$which are limits of a sequence of points$x ( r ) , x ^ { \prime } ( r ) \in X _ { 1 }$. By continuity of$\mu _ { z } ^ { 1 2 }$on$X _ { 1 }$we get that$\mu _ { y } ^ { 1 2 } = \mu _ { y ^ { \prime } } ^ { 1 2 }$. However, this contradicts Lemma 4.4 unless$\mu$is invariant under$U _ { 1 2 }$
 
-The main dificulty consists in ensuring that$x ( r ) , x ^ { \prime } ( r )$belong to the compact set$X _ { 1 }$and satisfy (4.7) and (4.8). For this we will need several other compact sets with large measure and various properties.
+The main difficulty consists in ensuring that$x ( r ) , x ^ { \prime } ( r )$belong to the compact set$X _ { 1 }$and satisfy (4.7) and (4.8). For this we will need several other compact sets with large measure and various properties.
 
 Our proof follows closely the methods of [20, §8]. The arguments can be simplified if one assumes additional regularity for the conditional measures$\mu _ { z } ^ { 1 2 }$ — see [20, §8.1] for more details.
 
-4.3. The construction of a nullset and three compact sets. As mentioned before we will work with two main assumptions: that$\mu$satisfies the assumptions of the low entropy case and that the equivalent conditions in Proposition 4.3 fail. By the former there exists a nullset N so that all statements of Lemma 4.4 are satisfied for$x \in X \setminus N$. By the latter we can assume that for small enough ε and for any compact set with$\mu ( K ) > 1 - \varepsilon$the A<sup></sup>-returns to K are not strong exceptional.
+4.3. The construction of a null set and three compact sets. As mentioned before, we will work with two main assumptions: that $\mu$ satisfies the assumptions of the low entropy case and that the equivalent conditions in Proposition 4.3 fail. By the former, there exists a null set $N$ so that all statements of Lemma 4.4 are satisfied for $x\in X\setminus N$. By the latter, we can assume that for small enough $\varepsilon$ and any compact set $K$ with $\mu(K)>1-\varepsilon$, the $A'$-returns to $K$ are not strong exceptional.
 
-We enlarge N so that$X \setminus N \subset X ^ { \prime }$where$X ^ { \prime }$is as in Section 2.1. Furthermore, we can assume that N also satisfies Lemma 4.2. This shows that for every compact set$K \subset X \setminus N$with$\mu ( K ) > 1 - \varepsilon$the A<sup></sup>-returns (which exist due to Poincar´e recurrence) are not exceptional, i.e. for every$\delta > 0$there exists$z \in K$and$\mathbf { s } \in A ^ { \prime }$with$z ^ { \prime } = \alpha ^ { \mathbf { s } } z \in B _ { \delta } ( z ) \setminus B _ { \delta } ^ { L } ( z )$
+We enlarge $N$ so that $X\setminus N\subset X'$ where $X'$ is as in Section 2.1. Furthermore, we can assume that $N$ also satisfies Lemma 4.2. This shows that for every compact set $K\subset X\setminus N$ with $\mu(K)>1-\varepsilon$, the $A'$-returns (which exist due to Poincaré recurrence) are not exceptional; i.e. for every $\delta>0$ there exist $z\in K$ and $\mathbf s\in A'$ with $z'=\alpha^{\mathbf s}z\in B_\delta(z)\setminus B_\delta^L(z).
 
 Construction of$X _ { 1 }$. The map$x \mapsto \mu _ { x } ^ { 1 2 }$is a measurable map from X to a separable metric space. By Luzin’s theorem$[ 5 , \mathrm { p } . 7 6 ]$there exists a compact $X _ { 1 } \subset X \setminus N$with measure$\mu ( X _ { 1 } ) > 1 - \varepsilon ^ { 4 }$, and the property that$\mu _ { x } ^ { 1 2 }$depends continuously on$x \in X _ { 1 }$
 
-Construction$o f X _ { 2 }$. To construct this set, we use the maximal inequality (10) in Section 2.1 from$[ 2 0 , \mathrm { A p p . \ A } ]$. Therefore, there exists a set$X _ { 2 } \subset X \setminus N$ of measure$\mu ( X _ { 2 } ) > 1 - C _ { 1 } \varepsilon ^ { 2 }$(with$C _ { 1 }$some absolute constant) so that for any $R > 0$and$x \in X _ { 2 }$
+Construction of $X_2$. To construct this set, we use the maximal inequality (10) in Section 2.1 from [20, App. A]. Therefore, there exists a set $X_2\subset X\setminus N$ of measure $\mu(X_2)>1-C_1\varepsilon^2$ (with $C_1$ some absolute constant) so that for any $R>0$ and $x\in X_2$
 
 $$
 \int_ {[ - R, R ]} 1 _ {X _ {1}} (u (r) x) \mathrm{d} \mu_ {x} ^ {1 2} (r) \geq (1 - \varepsilon^ {2}) \mu_ {x} ^ {1 2} ([ - R, R ]).\tag{4.9}
@@ -564,9 +562,7 @@ $$
 \begin{array}{r} \frac {1}{T} \int_ {0} ^ {T} 1 _ {X _ {2}} (\alpha^ {- \tau \mathbf {t}} x) \mathrm{d} \tau \geq (1 - \varepsilon), \\ \frac {1}{T} \int_ {0} ^ {T} 1 _ {\mathcal {X} (\rho)} (\alpha^ {- \tau \mathbf {t}} x) \mathrm{d} \tau \geq (1 - \varepsilon). \end{array}\tag{4.11}
 $$
 
-4.4. The construction of$z , z ^ { \prime } \in X _ { 3 } , x , x ^ { \prime } \in X _ { 2 }$. Let$\delta > 0$be very small (later δ will approach zero). In particular, the matrix$g \in B _ { \delta } ^ { G }$(with entries as in (4.1)) is uniquely defined by$z ^ { \prime } = g z$whenever$z , z ^ { \prime } \in X _ { 3 }$and$d ( z , z ^ { \prime } ) < \delta$ Since the A<sup></sup>-returns to$X _ { 3 }$are not exceptional, we can find$z \in X _ { 3 }$and$\alpha ^ { \mathbf { s } } \in A ^ { \prime }$
-
-with$z ^ { \prime } = \alpha ^ { \mathbf { s } } z \in B _ { \delta } ( z ) \cap X _ { 3 }$so that
+4.4. The construction of $z,z'\in X_3$, $x,x'\in X_2$. Let $\delta>0$ be very small (later $\delta$ will approach zero). In particular, the matrix $g\in B_\delta^G$ (with entries as in (4.1)) is uniquely defined by $z'=gz$ whenever $z,z'\in X_3$ and $d(z,z')<\delta$. Since the $A'$-returns to $X_3$ are not exceptional, we can find $z\in X_3$ and $\alpha^{\mathbf s}\in A'$ with $z'=\alpha^{\mathbf s}z\in B_\delta(z)\cap X_3$ so that
 
 $$
 \kappa (z, z ^ {\prime}) = \max \bigl (| a _ {2} - a _ {1} |, | g _ {2 1} | ^ {1 / 2}, \| g _ {* 1} \|, \| g _ {2 *} \| \bigr) \in (0, c \delta^ {1 / 2}),\tag{4.12}
@@ -576,7 +572,7 @@ where c is an absolute constant allowing us to change from the metric$d ( \cdot 
 
 For the moment let$x = z , \ x ^ { \prime } = z ^ { \prime } .$, and$r ~ = ~ \kappa ( z , z ^ { \prime } ) ^ { - 1 }$Obviously max$\left( | ( a _ { 2 } - a _ { 1 } ) r | , | g _ { 2 1 } | ^ { 1 / 2 } r , \lVert g _ { 2 * } r \rVert , \lVert g _ { * 1 } r \rVert \right) = 1$. If the maximum is achieved in one of the last two expressions, then (4.7) and (4.8) are immediate with $C = 1$. However, if the maximum is achieved in either of the first two expressions, it is possible that$( a _ { 2 } - a _ { 1 } ) r - g _ { 2 1 } r ^ { 2 }$is very small. In this case we could set$r = 2 \kappa ^ { - 1 } ( z , z ^ { \prime } )$, then$( a _ { 2 } - a _ { 1 } ) r$is about 2 and$g _ { 2 1 } r ^ { 2 }$is about 4. Now $( 4 . 7 ) \ – ( 4 . 8 )$hold with$C = 1 0$. The problem with this naive approach is that we do not have any control on the position of$x ( r ) , x ^ { \prime } ( r )$. For all we know these points could belong to the null set N constructed in the last section.
 
-To overcome this problem we want to use the conditional measure$\mu _ { x } ^ { 1 2 }$to find a working choice of r in some interval I containing$\kappa ( z , z ^ { \prime } ) ^ { - 1 }$. Again, this is not immediately possible since a priori this interval could have very small $\mu _ { x } ^ { 1 2 }$-measure, or even be a nullset. To fix this, we use$\mathbf { t } = ( 1 , - 1 , 0 , \dots , 0 )$and the flow along the$\alpha ^ { \mathbf { t } } .$-direction in Lemma 4.6. However, note that$x = \alpha ^ { - \tau \mathbf { t } } z$ and$x ^ { \prime } = \alpha ^ { - \tau \mathbf { t } } z ^ { \prime }$difer by$\alpha ^ { - \tau \mathbf { t } } g \alpha ^ { \tau \mathbf { t } }$. This results possibly in a diference of $\kappa ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$and$\kappa ( z , z ^ { \prime } )$as in Figure 3, and so we might have to adjust our interval along the way. The way$\kappa ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$changes for various values of$\tau$depends on which terms give the maximum.
+To overcome this problem we want to use the conditional measure$\mu _ { x } ^ { 1 2 }$to find a working choice of r in some interval I containing$\kappa ( z , z ^ { \prime } ) ^ { - 1 }$. Again, this is not immediately possible since a priori this interval could have very small $\mu _ { x } ^ { 1 2 }$-measure, or even be a nullset. To fix this, we use$\mathbf { t } = ( 1 , - 1 , 0 , \dots , 0 )$and the flow along the$\alpha ^ { \mathbf { t } } .$-direction in Lemma 4.6. However, note that$x = \alpha ^ { - \tau \mathbf { t } } z$ and$x ^ { \prime } = \alpha ^ { - \tau \mathbf { t } } z ^ { \prime }$differ by$\alpha ^ { - \tau \mathbf { t } } g \alpha ^ { \tau \mathbf { t } }$. This results possibly in a difference of $\kappa ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$and$\kappa ( z , z ^ { \prime } )$as in Figure 3, and so we might have to adjust our interval along the way. The way$\kappa ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$changes for various values of$\tau$depends on which terms give the maximum.
 
 ![](images/page_22_image_5.jpg)
 
@@ -668,7 +664,7 @@ Definition of$P _ { a }$. If$\kappa ( x , x ^ { \prime } ) > \kappa _ { a } ( x 
 
 Otherwise, it follows from (4.16) that$\kappa ( z , z ^ { \prime } ) ~ = ~ \kappa _ { a } ( z , z ^ { \prime } )$. We apply Lemma 4.5 for$\eta = 0$and$\theta = - \log \kappa _ { a } ( z , z ^ { \prime } ) = 4 T$, and see that (4.13) holds for $\tau \in P _ { a }$, where$P _ { a } \subset [ 0 , T ]$has density at least$1 - 9 \varepsilon$, and$S _ { a } = \kappa _ { a } ( z , z ^ { \prime } ) ^ { - 1 } =$ $\kappa _ { a } ( x , x ^ { \prime } ) ^ { - 1 }$
 
-Definition of$P _ { u }$. If$\kappa ( x , x ^ { \prime } ) > \kappa _ { u } ( x , x ^ { \prime } )$for all$\tau \in [ 0 , T ]$we set$P _ { u } = [ 0 , T ]$ Otherwise, it follows from (4.16) that$\kappa ( x , x ^ { \prime } ) = e ^ { \tau } \kappa _ { u } ( z , z ^ { \prime } ) \geq \kappa ( z , z ^ { \prime } )$for some$\tau \in [ 0 , T ]$; hence$\kappa _ { u } ( z , z ^ { \prime } ) \in [ \kappa ( z , z ^ { \prime } ) ^ { 5 / 4 } , \kappa ( z , z ^ { \prime } ) ]$. This time, we apply Lemma 4.5 with$\eta = 1$and$\theta = - \log \kappa _ { u } ( z , z ^ { \prime } ) \in [ 4 T , 5 T ]$]. We conclude that in this case (4.13) holds for$\tau \in P _ { u }$, where$P _ { u } \subset [ 0 , T ]$is a set of density$1 - 9 \varepsilon$ and$S _ { u } = \kappa _ { u } ( x , x ^ { \prime } ) ^ { - 1 } = e ^ { \theta - \tau }$
+Definition of $P_u$. If $\kappa(x,x')>\kappa_u(x,x')$ for all $\tau\in[0,T]$, we set $P_u=[0,T]$. Otherwise, it follows from (4.16) that $\kappa(x,x')=e^\tau\kappa_u(z,z')\geq\kappa(z,z')$ for some $\tau\in[0,T]$; hence $\kappa_u(z,z')\in[\kappa(z,z')^{5/4},\kappa(z,z')]$. This time, we apply Lemma 4.5 with $\eta=1$ and $\theta=-\log\kappa_u(z,z')\in[4T,5T]$. We conclude that in this case (4.13) holds for $\tau\in P_u$, where $P_u\subset[0,T]$ is a set of density $1-9\varepsilon$ and $S_u=\kappa_u(x,x')^{-1}=e^{\theta-\tau}$.
 
 Clearly, since$\kappa ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$is either$\kappa _ { u } ( x , x ^ { \prime } )$or$\kappa _ { a } ( \boldsymbol { x } , \boldsymbol { x } ^ { \prime } )$at least one of the sets$P _ { a }$or$P _ { u }$is constructed using Lemma$4 . 5 ;$so in particular if$\tau \in P _ { a } \cap P _ { u }$ then$x \ \in \ X _ { 2 }$. Furthermore, if$\tau \in P _ { a } \cap P _ { u }$we have that (4.13) holds for $S = R = \kappa ( x , x ^ { \prime } ) ^ { - 1 } = \operatorname* { m i n } ( \kappa _ { a } ( x , x ^ { \prime } ) , \kappa _ { u } ( x , x ^ { \prime } ) )$
 
@@ -676,9 +672,9 @@ The sets$P _ { a } ^ { \prime }$and$P _ { u } ^ { \prime }$are defined similarly
 
 The set$P _ { a } \cap P _ { a } ^ { \prime } \cap P _ { u } \cap P _ { u } ^ { \prime } \subset [ 0 , T ]$has density at least$( 1 - 3 6 \varepsilon )$, so that in particular if ε is small it is nonempty. For any τ in this intersection,$x , x ^ { \prime } \in X _ { 2 }$ and (4.14) holds for$R = \kappa ( x , x ^ { \prime } ) ^ { - 1 }$
 
-The additional statement in the parenthesis follows similarly, the only diference being the use of a slightly diferent value for$\theta$in both cases, and then taking the intersection of$P _ { a } \cap P _ { a } ^ { \prime } \cap P _ { u } \cap P _ { u } ^ { \prime }$with four more subsets of [0, T] with similar estimates on their densities.□
+The additional statement in the parenthesis follows similarly, the only difference being the use of a slightly different value for$\theta$in both cases, and then taking the intersection of$P _ { a } \cap P _ { a } ^ { \prime } \cap P _ { u } \cap P _ { u } ^ { \prime }$with four more subsets of [0, T] with similar estimates on their densities.□
 
-4.5. Construction of$x ( r ) , x ^ { \prime } ( r )$and the conclusion of the proof. Recall that we found$z , z ^ { \prime } \in X _ { 3 }$using Poincar´e recurrence and the assumption that the A<sup></sup>-returns to$X _ { 3 }$are not exceptional. In the last section we constructed $x = \alpha ^ { - \tau \mathbf { t } } z , x ^ { \prime } = \alpha ^ { - \tau \mathbf { t } } z ^ { \prime } = \alpha ^ { \mathbf { s } } \in X _ { 2 }$using the properties of$X _ { 3 }$to ensure (4.14). Since$\alpha ^ { \mathbf { s } }$acts isometrically on the U<sub>12</sub>-leaves, it follows from property (4) of the conditional measures in Section 2 that$\mu _ { z } ^ { 1 2 } = \mu _ { z ^ { \prime } } ^ { 1 2 }$and$\mu _ { x } ^ { 1 2 } = \mu _ { x ^ { \prime } } ^ { 1 2 }$
+4.5. Construction of $x(r),x'(r)$ and the conclusion of the proof. Recall that we found $z,z'\in X_3$ using Poincaré recurrence and the assumption that the $A'$-returns to $X_3$ are not exceptional. In the last section we constructed $x=\alpha^{-\tau\mathbf t}z$ and $x'=\alpha^{-\tau\mathbf t}z'=\alpha^{\mathbf s}\in X_2$ using the properties of $X_3$ to ensure (4.14). Since $\alpha^{\mathbf s}$ acts isometrically on the $U_{12}$-leaves, it follows from property (4) of the conditional measures in Section 2 that $\mu_z^{12}=\mu_{z'}^{12}$ and $\mu_x^{12}=\mu_{x'}^{12}$.
 
 Let
 
@@ -720,16 +716,14 @@ $$
 \rho \leq \max \bigl (\left| (a _ {2} - a _ {1}) r \right|, \left| \tilde {g} _ {2 1} \right| ^ {1 / 2} | r |, \| \tilde {g} _ {2 *} r \|, \| \tilde {g} _ {* 1} r \| \bigr) \leq 1.\tag{4.19}
 $$
 
-There are two diferences of this estimate to the one in (4.17); first we need to take the square of the second term – this replaces the lower bound$\rho$by its square, secondly we looked above at$( a _ { 2 } - a _ { 1 } ) _ { \mathrm { { i } } }$r and$\tilde { g } _ { 2 1 } r ^ { 2 }$separately – taking the diference as in (4.7) might produce a too small a number (almost cancellation). So (4.17) follows with$C = \rho ^ { - 2 }$, unless
-
-(4.20)
+There are two differences of this estimate to the one in (4.17); first we need to take the square of the second term — this replaces the lower bound$\rho$by its square. Secondly, we looked above at $(a_2-a_1)r$ and$\tilde{g}_{21}r^2$separately; taking the difference as in (4.7) might produce too small a number (almost cancellation). So (4.17) follows with$C=\rho^{-2}$, unless
 
 $$
-\max \big (| (a _ {2} - a _ {1}) r |, | \tilde {g} _ {2 1} | ^ {1 / 2} | r | \big) \geq \rho ,\tag{4.21}
+\max\left(|(a_2-a_1)r|,|\tilde g_{21}|^{1/2}|r|\right)\geq\rho.\tag{4.20}
 $$
 
 $$
-| (a _ {2} - a _ {1}) r - \tilde {g} _ {2 1} r ^ {2} | <   \rho^ {2} <   \frac {\rho}{2}.
+|(a_2-a_1)r-\tilde g_{21}r^2|<\rho^2<\frac{\rho}{2}.\tag{4.21}
 $$
 
 This is a minor problem, and we can overcome it using the last statement in Lemma 4.6. Assume that for some$r \in [ - R , R ] \setminus [ - \rho R , \rho R ]$this problem occurs. We deduce a lower estimate on |g˜<sub>21</sub>|. If the maximum in (4.20) is achieved at$| \tilde { g } _ { 2 1 } | ^ { 1 / 2 } | r | \geq \rho .$, then$| \tilde { g } _ { 2 1 } | \ge \rho ^ { 2 } R ^ { - 2 }$. If the maximum is achieved at $| ( a _ { 2 } - a _ { 1 } ) r | \geq \rho , ( 4 . 2 1 )$shows that$| \tilde { g } _ { 2 1 } r ^ { 2 } | \ge \rho / 2 \ge \rho ^ { 2 }$(since$\rho < 1 / 2 )$and so in both cases
@@ -770,9 +764,9 @@ Compactness shows that we can find convergent subsequences with limits $y , y ^ 
 
 If case (3) in Theorem 2.1 holds, then this gives some restriction on Γ. In other words, for some lattices in$\mathrm { S L } ( k , \mathbb { R } )$, exceptional returns cannot occur. As will be shown below, such is the case for$\Gamma = \mathrm { S L } ( k , \mathbb { Z } )$
 
-We recall that$H _ { a b } \subset \mathrm { S L } ( k , \mathbb { R } )$is an A-normalized subgroup isomorphic to$\mathrm { S L } ( 2 , \mathbb { R } )$, and$A ^ { \prime } = A \cap C ( H _ { a b } )$. If case (3) of Theorem 2.1 holds then any A<sup></sup>-ergodic component of$\mu$is supported on a single$C ( H _ { a b } ) – \mathrm { o r b i t }$. In particular, we have an abundance of A<sup></sup>-invariant probability measures supported on single $C ( H _ { a b } )$orbits. The mere existence of such measures is a restriction on Γ.
+We recall that $H_{ab}\subset\mathrm{SL}(k,\mathbb R)$ is an $A$-normalized subgroup isomorphic to $\mathrm{SL}(2,\mathbb R)$, and $A'=A\cap C(H_{ab})$. If case (3) of Theorem 2.1 holds, then any $A'$-ergodic component of $\mu$ is supported on a single $C(H_{ab})$-orbit. In particular, we have an abundance of $A'$-invariant probability measures supported on single $C(H_{ab})$-orbits. The mere existence of such measures is a restriction on $\Gamma$.
 
-Theorem 5.1. Suppose that ν is an A<sup></sup> invariant probability measure on $X = \operatorname { S L } ( k , \mathbb { R } ) / \Gamma$, and that supp$\nu \subset C ( H _ { a b } ) x$for some$x \in X$. Then there is a $\gamma \in \Gamma$which is
+Theorem 5.1. Suppose that $\nu$ is an $A'$-invariant probability measure on $X=\mathrm{SL}(k,\mathbb R)/\Gamma$, and that $\operatorname{supp}(\nu)\subset C(H_{ab})x$ for some $x\in X$. Then there is a $\gamma\in\Gamma$ which is
 
 (1) diagonalizable over$\mathbb { R } .$,
 
@@ -786,13 +780,13 @@ Proposition 5.2. There is no$\gamma \in \mathrm { S L } ( k , \mathbb { Z } )$sa
 
 In particular, case$( 3 )$of Theorem 2.1 cannot occur for$\operatorname { S L } ( k , \mathbb { R } ) / \operatorname { S L } ( k , \mathbb { Z } )$
 
-Proof of Proposition 5.2. Suppose$\gamma \in \mathrm { S L } ( k , \mathbb { Z } )$is diagonalizable over$\mathbb { R }$ Then its eigenvalues (with the correct multiplicities) are roots of the characteristic polynomial of$\gamma ,$a polynomial with integer coeficients and both leading term and constant term equal to one. If there is some eigenvalue which is not equal to ±1 and which occurs with multiplicity greater than one then necessarily this eigenvalue is not rational, and its Galois conjugates would also have multiplicity greater than one, contradicting (3).□
+Proof of Proposition 5.2. Suppose$\gamma\in\mathrm{SL}(k,\mathbb Z)$ is diagonalizable over $\mathbb R$. Then its eigenvalues (with the correct multiplicities) are roots of the characteristic polynomial of $\gamma$, a polynomial with integer coefficients and both leading term and constant term equal to one. If there is some eigenvalue which is not equal to $\pm1$ and which occurs with multiplicity greater than one, then necessarily this eigenvalue is not rational, and its Galois conjugates would also have multiplicity greater than one, contradicting (3). □
 
 To prove Theorem 5.1, we need the following standard estimate:
 
 Lemma 5.3. There is a neighborhood$U _ { 0 }$of the identity in$\mathrm { S L } ( m , \mathbb { R } )$so that for any$\lambda _ { 1 } , \lambda _ { 2 } , \ldots , \lambda _ { m }$with$| \lambda _ { i } - \lambda _ { j } | ~ > ~ 1$and$\textit { h } \in \textit { U } _ { 0 }$one has that h$\mathrm { d i a g } ( e ^ { \lambda _ { 1 } } , e ^ { \lambda _ { 2 } } , \ldots , e ^ { \lambda _ { m } } )$is diagonalizable over R with positive eigenvalues and the eigenvalues$e ^ { \lambda _ { 1 } ^ { \prime } } , e ^ { \lambda _ { 2 } ^ { \prime } } , \ldots , e ^ { \lambda _ { m } ^ { \prime } }$satisfy$\begin{array} { r } { | \lambda _ { i } ^ { \prime } - \lambda _ { i } | < \frac { 1 } { 2 } } \end{array}$
 
-Proof. Without loss of generality, suppose$\lambda _ { 1 } > \lambda _ { 2 } > \ldots > \lambda _ { m }$. Let $\boldsymbol { f } = \mathrm { d i a g } ( e _ { 1 } ^ { \lambda } , e _ { 2 } ^ { \lambda } , \ldots , e _ { m } ^ { \lambda } )$and$\eta _ { 1 } , \eta _ { 2 } , \ldots .$be the eigenvalues of$f ^ { \prime } = h f$ordered according to descending absolute value. Set for$1 \leq i \leq m , \lambda _ { i } ^ { \prime } = \log | \eta _ { i } |$
+Proof. Without loss of generality, suppose $\lambda_1>\lambda_2>\cdots>\lambda_m$. Let $f=\operatorname{diag}(e^{\lambda_1},e^{\lambda_2},\ldots,e^{\lambda_m})$, and let $\eta_1,\eta_2,\ldots$ be the eigenvalues of $f'=hf$, ordered according to descending absolute value. Set $\lambda_i'=\log|\eta_i|$ for $1\leq i\leq m$.
 
 Clearly,$\begin{array} { r } { \lambda _ { 1 } ^ { \prime } = \operatorname* { l i m } _ { n \to \infty } \frac { \log \left\| f ^ { \prime n } \right\| } { n } } \end{array}$. Since$f$is self adjoint,$\| f \| = e ^ { \lambda _ { 1 } }$so
 
@@ -842,7 +836,7 @@ $$
 \left| \sum_ {i = 1} ^ {k} (\lambda_ {i} ^ {\prime} - \lambda_ {i}) \right| <   C _ {i} \delta .\tag{5.1}
 $$
 
-Clearly, (5.1) implies that there is some$C$depending only on$m ,$, and a neighborhood of the identity in$\mathrm { S L } ( m , \mathbb { R } )$depending only on$\delta$so that if$h$is in that neighborhood
+Clearly, (5.1) implies that there is some $C$ depending only on $m$, and a neighborhood of the identity in $\mathrm{SL}(m,\mathbb R)$ depending only on $\delta$, so that if $h$ is in that neighborhood
 
 $$
 \left| \lambda_ {i} ^ {\prime} - \lambda_ {i} \right| <   C \delta \quad \text {   for   all   } 1 \leq i \leq m.
@@ -850,7 +844,7 @@ $$
 
 In particular, if$\lambda _ { i } > \lambda _ { i - 1 } + 1$for every i then if$C \delta < \frac { 1 } { 2 }$, all$\lambda _ { i } ^ { \prime }$are distinct. Since this holds for all h in a connected neighborhood of the identity, all the eigenvalues of$f ^ { \prime }$are real and also positive, so that$\eta _ { i } = e ^ { \lambda _ { i } ^ { \prime } }$□
 
-Proof of Theorem 5.1. Without loss of generality, we may take$a = 1$ $b = 2$. Let$a ( t ) = \mathrm { d i a g } ( e ^ { \lambda _ { 1 } t } , \ldots , e ^ { \lambda _ { k } t } ) \in A ^ { \prime }$with$\lambda _ { 1 } = \lambda _ { 2 }$and for every other pair$i , j$we have$\lambda _ { i } \neq \lambda _ { j }$
+Proof of Theorem 5.1. Without loss of generality, we may take $a=1$ and $b=2$. Let $a(t)=\operatorname{diag}(e^{\lambda_1t},\ldots,e^{\lambda_kt})\in A'$ with $\lambda_1=\lambda_2$ and, for every other pair $i,j$, $\lambda_i\neq\lambda_j$.
 
 Take$U _ { 0 }$to be a symmetric neighborhood of the identity in$\operatorname { S L } ( k - 2 , \mathbb { R } )$ as in Lemma 5.3, and
 
@@ -892,19 +886,17 @@ SL(k, Z). Therefore, for every pair a, b of distinct indices one of the followin
 
 (2) The conditional measures$\mu _ { x } ^ { a b }$and$\mu _ { x } ^ { b a }$are Haar and$\mu$is invariant under left multiplication with elements of$H _ { a b } = \left. U _ { a b } , U _ { b a } \right.$
 
-Define a relation$a \sim b$if$\mu$is$U _ { a b } .$-invariant. By (2) above it follows that $a \sim b$if and only if$b \sim a$. Furthermore, since the group generated by$U _ { a b }$ and$U _ { b c }$contains$U _ { a c } ,$it is clear that ∼ is in fact an equivalence relation on $\{ 1 , \ldots , k \}$. Let H be the group generated by all$U _ { a b }$with$a \sim b .$. Let r denote the number of equivalence classes for ∼ which contain more than one element, and$k _ { 1 } , k _ { 2 } , \ldots , k _ { r }$be their sizes; so in particular$\textstyle \sum _ { i = 1 } ^ { r } k _ { i } \leq k$. By permuting the indices if necessary we can assume these equivalence classes are consecutive indices and$\begin{array} { r } { H = \prod _ { i = 1 } ^ { r } \mathrm { S L } ( k _ { i } , \mathbb { R } ) } \end{array}$. By definition, H leaves the measure µ invariant, is normalized by$A _ { i }$and is generated by unipotent one-parameter subgroups of SL(n, R) — indeed, H is precisely the maximal subgroup of$\operatorname { S L } ( n , \mathbb { R } )$satisfying these three conditions.
+Define a relation $a\sim b$ if $\mu$ is $U_{ab}$-invariant. By (2) above, $a\sim b$ if and only if $b\sim a$. Furthermore, since the group generated by $U_{ab}$ and $U_{bc}$ contains $U_{ac}$, it is clear that $\sim$ is an equivalence relation on $\{1,\ldots,k\}$. Let $H$ be the group generated by all $U_{ab}$ with $a\sim b$. Let $r$ denote the number of equivalence classes for $\sim$ that contain more than one element, and let $k_1,\ldots,k_r$ be their sizes; in particular, $\sum_{i=1}^r k_i\leq k$. By permuting the indices if necessary, we can assume these equivalence classes are consecutive and $H=\prod_{i=1}^r\mathrm{SL}(k_i,\mathbb R)$. By definition, $H$ leaves the measure $\mu$ invariant, is normalized by $A$, and is generated by unipotent one-parameter subgroups of $\mathrm{SL}(n,\mathbb R)$—indeed, $H$ is precisely the maximal subgroup of $\mathrm{SL}(n,\mathbb R)$ satisfying these three conditions.
 
 Measures invariant under groups generated by unipotent one-parameter groups are well understood. In particular, in a seminal series of papers culminating in [41], M. Ratner showed that if H is such a group the only H-ergodic and invariant probability measures are the algebraic measures: L-invariant measures supported on a closed L-orbit for some$L > H$(here and throughout, we use the notation$L > H$to denote that H is a subgroup and$L \supset H ;$ specifically H may be equal to$L )$. For the A-invariant measure$\mu$and H as above we only know that$\mu$is A-ergodic and H-invariant, but not necessarily H-ergodic; we shall use the following version of these measure-rigidity results by Margulis and Tomanov$[ 2 7 ] ^ { 3 }$(similar techniques were used also in [30, proof of Thm. 1]; see also [18, §4.4] and [47]). For any connected real Lie group G, we shall say that$g \in G$in an element of class A if Ad g is semisimple, with all eigenvalues integer powers of some$\lambda \in \mathbb { R } \setminus \{ \pm 1 \}$, and$g$is contained in a maximal reductive subgroup of G.
 
 Theorem 6.1 ([27, Thms. (a) and (b)]). Let G be a connected real Lie group,$\Gamma < G$a discrete subgroup, and H<sup>˜</sup> generated by unipotent one-parameter groups and elements of class A, with$H < \tilde { H }$the subgroup generated by unipotent one-parameter groups. Let µ be an H<sup>˜</sup> -invariant and ergodic probability measure on$G / \Gamma$. Then there is an$L \geq H$so that almost every H-ergodic component of µ is the L-invariant probability measure on a closed L-orbit.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">G,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>The main theorem of [27] was substantially more general than what we quote here. In particular, in their theorem Γ can be any closed subgroup of and the group G can be a product of real and p-adic Lie groups (satisfying some mild additional conditions).</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>The main theorem of [27] was substantially more general than what we quote here. In particular, in their theorem $\Gamma$ can be any closed subgroup of $G$, and the group $G$ can be a product of real and $p$-adic Lie groups (satisfying some mild additional conditions).</span></small>
 
 Furthermore, if
 
-$S N _ { G } ( L ) = \{ g \in N _ { G } ( L )$: conjunction by g preserves Haar measure on$L \}$ then$\tilde { H } < S N _ { G } ( L )$and$\mu$is supported on a single$S N _ { G } ( L ) _ { \neg O r b i t }$. In particular, L is normalized by$\tilde { H }$
+$S_N^G(L)=\{g\in N_G(L): \text{conjunction by }g\text{ preserves Haar measure on }L\}$ then $\tilde H<S_N^G(L)$ and $\mu$ is supported on a single $S_N^G(L)$-orbit. In particular, $L$ is normalized by $\tilde H$.
 
 Lemma 6.2. Let$\begin{array} { r } { H = \prod _ { i = 1 } ^ { r } \mathrm { S L } ( k _ { i } , \mathbb { R } ) } \end{array}$with$\textstyle \sum _ { i = 1 } ^ { r } k _ { i } < k$. Let
 
@@ -912,7 +904,7 @@ X<sub>H</sub> = {x ∈ X : Hx is closed and of finite volume} .
 
 Then there is a one-parameter subgroup a(t) of A so that for every$x \in X _ { H }$its trajectory$a ( t ) x \to \infty$as$t \to \infty$
 
-Proof. Suppose Hx is closed and of finite volume, with$x = g \operatorname { S L } ( k , \mathbb { Z } )$and $g = \left( g _ { i j } \right)$. Let$\begin{array} { r } { k ^ { \prime } = \sum _ { i } k _ { i } < k } \end{array}$. Let$\Lambda = g ^ { - 1 } H g \cap \Gamma$. Since Λ is Zariski dense in $g ^ { - 1 } H g$there is a$\gamma = g ^ { - 1 } h _ { 0 } g \in \Lambda$with$h _ { 0 } = { \binom { h _ { 0 } ^ { \prime } } { 0 } } \quad I _ { k - k ^ { \prime } } \int$so that (6.1)
+Proof. Suppose Hx is closed and of finite volume, with$x = g \operatorname { S L } ( k , \mathbb { Z } )$and $g = \left( g _ { i j } \right)$. Let$\begin{array} { r } { k ^ { \prime } = \sum _ { i } k _ { i } < k } \end{array}$. Let$\Lambda = g ^ { - 1 } H g \cap \Gamma$. Since Λ is Zariski dense in $g ^ { - 1 } H g$there is a$\gamma = g ^ { - 1 } h _ { 0 } g \in \Lambda$with $h_0=\operatorname{diag}(h'_0,I_{k-k'})$ so that (6.1)
 
 $$
 V _ {g} := \left\{y \in \mathbb {R} ^ {k}: y ^ {T} g ^ {- 1} h g = y ^ {T} \quad \text { for   all } h \in H \right\} = \left\{y \in \mathbb {R} ^ {k}: y ^ {T} \gamma = y ^ {T} \right\}.
@@ -934,7 +926,7 @@ Proof of Theorem 1.3. Let$\begin{array} { r } { H = \prod _ { i = 1 } ^ { r } \m
 
 Thus we conclude that almost every H-ergodic component of$\mu$is supported on a single H-orbit; in other words, in the notations of Lemma 6.2, the support of$\mu$is contained in$X _ { H }$
 
-By Lemma 6.2, this implies that the sum$\textstyle \sum _ { i } k _ { i } = k$since otherwise there is a one-parameter subgroup$a ( t )$of A so that for every$x \in X _ { H }$its trajectory $a ( t ) x \to$∞ as$t \to \infty$, in contradiction to Poincar´e recurrence.
+By Lemma 6.2, this implies that $\sum_i k_i=k$; otherwise, there is a one-parameter subgroup $a(t)$ of $A$ so that for every $x\in X_H$ its trajectory $a(t)x\to\infty$ as $t\to\infty$, in contradiction to Poincaré recurrence.
 
 But if$\textstyle \sum _ { i } k _ { i } = k$, the set$S N _ { G } ( H )$of Theorem 6.1 satisfies
 
@@ -942,7 +934,7 @@ $$
 S N _ {G} (H) = N _ {G} (H) = A H
 $$
 
-and so by this theorem$\mu$is supported on a single AH-orbit. But$\mu$is also$A H _ { - }$ invariant. This show that$\mu$is algebraic: an AH-invariant probability measure on a single AH-orbit. Note that this AH-orbit has finite volume, hence is closed in X.□
+and so by this theorem$\mu$is supported on a single AH-orbit. But$\mu$is also$AH$-invariant. This show that$\mu$is algebraic: an AH-invariant probability measure on a single AH-orbit. Note that this AH-orbit has finite volume, hence is closed in X.□
 
 Proof of Corollary 1.4. Let$\mu$be an A-ergodic probability measure on X with positive entropy. By Theorem$1 . 3 , \mu$is algebraic, i.e. there are a subgroup $A < L < G$and a point$x = g \operatorname { S L } ( k , \mathbb { Z } ) \in X$so that Lx is closed and$\mu$is the L-invariant measure on$L x$
 
@@ -956,29 +948,29 @@ By [21, Thm. 1.3], it follows that (possibly after conjugation by a permutation 
 
 ## 7. Definitions
 
-We recall the definition of Hausdorf dimension, box dimension, topological and metric entropy. In the following let$Y$be a metric space with metric $d _ { Y } ( \cdot , \cdot )$
+We recall the definition of Hausdorff dimension, box dimension, topological and metric entropy. In the following, let $Y$ be a metric space with metric $d_Y(\cdot,\cdot)$.
 
-7.1. Notions of dimension. For$D \ \geq \ 0$the D-dimensional Hausdorf measure of a set$B \subset Y$is defined by
+7.1. Notions of dimension. For $D\geq0$, the $D$-dimensional Hausdorff measure of a set $B\subset Y$ is defined by
 
 $$
 \mathcal {H} ^ {D} (B) = \lim _ {\varepsilon \to 0} \inf _ {\mathcal {C} _ {\varepsilon}} \sum_ {i} (\mathrm{diam}   C _ {i}) ^ {D},
 $$
 
-where$\mathcal { C } _ { \varepsilon } = \{ C _ { 1 } , C _ { 2 } , \dots \}$is any countable cover of B with sets$C _ { i }$of diameter diam(C ) less than ε. Clearly, for$D > m$any set in the Euclidean space$\mathbb { R } ^ { m }$ has Hausdorf measure zero. The Hausdorf dimension dim$_ { \cdot H } ( B )$is defined by
+where $\mathcal C_\varepsilon=\{C_1,C_2,\ldots\}$ is any countable cover of $B$ by sets $C_i$ of diameter $\operatorname{diam}(C_i)<\varepsilon$. Clearly, for $D>m$, any set in Euclidean space $\mathbb R^m$ has Hausdorff measure zero. The Hausdorff dimension $\dim_H(B)$ is defined by
 
 $$
 \dim_ {H} (B) = \inf \{D: \mathcal {H} ^ {D} (B) = 0 \} = \sup \{D: \mathcal {H} ^ {D} (B) = \infty \}.\tag{7.1}
 $$
 
-For every$\varepsilon > 0$a set$F \subset B$is ε-separated if$d _ { Y } ( x , y ) \ \geq \ \varepsilon$for every two diferent$x , y \in F$. Let$b _ { \varepsilon } ( B )$be the cardinality of the biggest ε-separated subset of$B ;$then the (upper ) box dimension (upper Minkowski dimension) is defined by
+For every $\varepsilon>0$, a set $F\subset B$ is $\varepsilon$-separated if $d_Y(x,y)\geq\varepsilon$ for every two different $x,y\in F$. Let $b_\varepsilon(B)$ be the cardinality of the largest $\varepsilon$-separated subset of $B$; then the upper box dimension (upper Minkowski dimension) is defined by
 
 $$
 \dim_ {\mathrm{box}} (B) = \limsup _ {\varepsilon \to 0} \frac {\log b _ {\varepsilon} (B)}{| \log \varepsilon |}.\tag{7.2}
 $$
 
-Note that$b _ { \varepsilon _ { 2 } } ( B ) \geq b _ { \varepsilon _ { 1 } } ( B )$if$\varepsilon _ { 2 } < \varepsilon _ { 1 }$. Therefore, it is suficient to consider a sequence$\varepsilon _ { n }$in (7.2) if log$\varepsilon _ { n + 1 } / \log \varepsilon _ { n } \to 1$for$n \to \infty$
+Note that $b_{\varepsilon_2}(B)\geq b_{\varepsilon_1}(B)$ if $\varepsilon_2<\varepsilon_1$. Therefore, it is sufficient to consider a sequence $\varepsilon_n$ in (7.2) if $\log\varepsilon_{n+1}/\log\varepsilon_n\to1$ for $n\to\infty$.
 
-We recall some elementary properties. First, Hausdorf dimension and box dimension do not change when we use instead of the metric$d _ { Y } ( \cdot , \cdot )$a diferent but Lipschitz equivalent metric$d _ { Y } ^ { \prime } ( \cdot , \cdot )$. The Hausdorf dimension of a countable union is given by
+We recall some elementary properties. First, Hausdorff dimension and box dimension do not change when we use a different but Lipschitz-equivalent metric $d'_Y(\cdot,\cdot)$ instead of the metric $d_Y(\cdot,\cdot)$. The Hausdorff dimension of a countable union is given by
 
 $$
 \dim_ {H} \left(\bigcup_ {i = 1} ^ {\infty} B _ {i}\right) = \sup _ {i} \dim_ {H} (B _ {i}).\tag{7.3}
@@ -998,7 +990,7 @@ $$
 
 then$\dim _ { \mathrm { b o x } } Y \leq \dim _ { \mathrm { b o x } } Y _ { 1 } + \dim _ { \mathrm { b o x } } Y _ { 2 }$
 
-7.2. Entropy and the variational principle. Let T be an endomorphism of a compact metric space Y . For$\varepsilon > 0$and a positive integer N we say that a set $E \subset Y$is$( N , \varepsilon )$-separated (with respect to T) if for any two diferent$x , y \in E$ there exists an integer$0 \leq n < N$with$d ( T ^ { n } x , T ^ { n } y ) \geq \varepsilon$. Let$s _ { N , \varepsilon } ( T )$be the cardinality of the biggest$( N , \varepsilon )$-separated set; then the topological entropy of $T$is defined by
+7.2. Entropy and the variational principle. Let $T$ be an endomorphism of a compact metric space $Y$. For $\varepsilon>0$ and a positive integer $N$, we say that a set $E\subset Y$ is $(N,\varepsilon)$-separated (with respect to $T$) if for any two different $x,y\in E$ there exists an integer $0\leq n<N$ with $d(T^n x,T^n y)\geq\varepsilon$. Let $s_{N,\varepsilon}(T)$ be the cardinality of the largest $(N,\varepsilon)$-separated set; then the topological entropy of $T$ is defined by
 
 $$
 \mathsf {h} _ {\mathrm{top}} (T) = \lim _ {\varepsilon \to 0} \operatorname * {l i m s u p} _ {N \to \infty} \frac {1}{N} \log s _ {N, \varepsilon} (T) = \sup _ {\varepsilon > 0} \operatorname * {l i m s u p} _ {N \to \infty} \frac {1}{N} \log s _ {N, \varepsilon} (T).\tag{7.5}
@@ -1024,7 +1016,7 @@ $$
 
 where the supremum is taken over all finite partitions$\mathcal { P }$of$Y$into measurable sets.
 
-Topological and metric entropy are linked: For a compact metric space$Y .$, a continuous map$T : Y  Y$, and a T-invariant measure$\mu$on$Y$the entropies satisfy
+Topological and metric entropy are linked: For a compact metric space $Y$, a continuous map $T:Y\to Y$, and a $T$-invariant measure $\mu$ on $Y$, the entropies satisfy
 
 $$
 \mathsf {h} _ {\mu} (T) \leq \mathsf {h} _ {\mathrm{top}} (T).
@@ -1072,7 +1064,7 @@ Since A is commutative, we have$A \subset C$. The map$T ( x ) = a x$on X is part
 
 Lemma 8.2. Let$K \subset X$be compact with aK$\subset K$and let$r = r ( K )$be as above. There exists$\lambda > 1$and$c _ { 2 } > 0$so that for any small enough$\varepsilon > 0$ $a n y \ z \in K$and$f \in B _ { r } ^ { U }$, and any integer$N \geq 1$with$d ( f z , z ) \geq \lambda ^ { - N } \varepsilon$, there exists a nonnegative integer$n < N$with$d ( a ^ { n } f z , a ^ { n } z ) \geq c _ { 2 } \varepsilon$
 
-Proof. By continuity there exists$\varepsilon \in ( 0 , r )$such that$d ( a f a ^ { - 1 } , \mathrm { I } _ { k } ) < r$ whenever$d ( f , \operatorname { I } _ { k } ) < \varepsilon$. This will be the only requirement on ε. On the other hand, since U is expanded by conjugation with$^ { a , }$there exists some$\lambda > 1$so that$\| a f a ^ { - 1 } - \operatorname { I } _ { k } \| \geq \lambda \| f - \operatorname { I } _ { k } \|$for all$f \in B _ { r } ^ { U }$. By Lemma 8.1$d ( a ^ { n } f a ^ { - n } , \operatorname { I } _ { k } ) \geq$ $c _ { 0 } ^ { - 2 } \lambda ^ { n } d ( f , \mathrm { I } _ { k } )$for all$f \in B _ { r } ^ { U }$and all n for which
+Proof. By continuity, there exists $\varepsilon\in(0,r)$ such that $d(afa^{-1},I_k)<r$ whenever $d(f,I_k)<\varepsilon$. This will be the only requirement on $\varepsilon$. On the other hand, since $U$ is expanded by conjugation with $a$, there exists some $\lambda>1$ so that $\|afa^{-1}-I_k\|\geq\lambda\|f-I_k\|$ for all $f\in B_r^U$. By Lemma 8.1, $d(a^nfa^{-n},I_k)\geq c_0^{-2}\lambda^n d(f,I_k)$ for all $f\in B_r^U$ and all $n$ for which
 
 $$
 \max (d (f, \mathrm{I} _ {k}), \dots , d (a ^ {n} f a ^ {- n}, \mathrm{Id})) <   r.
@@ -1100,9 +1092,9 @@ $P _ { y } = K \cap \left( B _ { \varepsilon } ^ { U } y \right)$has box dimensi
 
 To see this, suppose$K \cap U x$for$x \in X$is nonempty, and cover$K \cap U x$by countably many sets$P _ { y }$as in (8.2). Taking the union for every such x shows the first statement of the proposition.
 
-Now, it sufices to show that if (8.2) fails for$\varepsilon$as in Lemma 8.2, then the topological entropy$\mathsf { h } _ { \mathrm { t o p } } ( a | _ { K } ) > 0$is positive. Assume$2 \varepsilon \leq r$and that (8.2) fails for$y \in K$. We use this to construct a sequence of$( N , \varepsilon )$-separated sets $F _ { N } \subset K$. Let$b \in ( 0 , \mathrm { d i m } _ { \mathrm { b o x } } ( P _ { y } ) )$. For every$N > 0$let$F _ { N } \subset P _ { y }$be a maximal $\left( \mathrm { f i n i t e } \right) \varepsilon \lambda ^ { - N }$-separated set. By choice of b and the definition of box dimension in (7.2) there are infinitely many integers N with$| F _ { N } | \ge \lambda ^ { b N } \varepsilon ^ { - b }$
+Now, it suffices to show that if (8.2) fails for $\varepsilon$ as in Lemma 8.2, then the topological entropy $\mathsf h_{\mathrm{top}}(a|_K)$ is positive. Assume $2\varepsilon\leq r$ and that (8.2) fails for $y\in K$. We use this to construct a sequence of $(N,\varepsilon)$-separated sets $F_N\subset K$. Let $b\in(0,\dim_{\mathrm{box}}(P_y))$. For every $N>0$, let $F_N\subset P_y$ be a maximal finite $\varepsilon\lambda^{-N}$-separated set. By choice of $b$ and the definition of box dimension in (7.2), there are infinitely many integers $N$ with $|F_N|\geq\lambda^{bN}\varepsilon^{-b}$.
 
-We claim that$F _ { N }$is an$( N , c _ { 2 } \varepsilon )$-separated set for a restricted to K. Let $g x , h x \in F _ { N }$be two diferent points with$g , h \in B _ { \varepsilon } ^ { U }$. By construction$\varepsilon \lambda ^ { - N } \leq$ $d ( g x , h x ) < 2 \varepsilon \leq r$. By Lemma 8.2 applied to$z = h x$and$f = g h ^ { - 1 }$there exists a nonnegative$n < N$with$d ( a ^ { n } g x , a ^ { n } h x ) \geq c _ { 2 } \varepsilon$. Therefore$F _ { N }$is$( N , c _ { 2 } \varepsilon ) .$ separated as claimed, and for infinitely many N we have$s _ { N } ( a ) \geq | F _ { N } | > \lambda ^ { b N }$ Finally, the definition of topological entropy in (7.5) implies that$\mathsf { h } _ { \mathrm { t o p } } ( \alpha ^ { \mathbf { t } } ) \geq$ b log$\lambda > 0$□
+We claim that $F_N$ is an $(N,c_2\varepsilon)$-separated set for $a$ restricted to $K$. Let $gx,hx\in F_N$ be two different points with $g,h\in B_\varepsilon^U$. By construction, $\varepsilon\lambda^{-N}\leq d(gx,hx)<2\varepsilon\leq r$. By Lemma 8.2 applied to $z=hx$ and $f=gh^{-1}$, there exists a nonnegative $n<N$ with $d(a^ngx,a^nhx)\geq c_2\varepsilon$. Therefore $F_N$ is $(N,c_2\varepsilon)$-separated as claimed, and for infinitely many $N$ we have $s_N(a)\geq|F_N|>\lambda^{bN}$. Finally, the definition of topological entropy in (7.5) implies that $\mathsf h_{\mathrm{top}}(a|_K)\geq b\log\lambda>0$. □
 
 The remainder of this section is only needed for Theorem 1.6 and Theorem 10.2. For a compact set which is invariant in both directions we can also look at the stable and unstable subgroup simultaneously. Note however, that the set UV is not a subgroup of$\operatorname { S L } ( k , \mathbb { R } )$
 
@@ -1116,7 +1108,7 @@ $$
 
 and so$B _ { r } ^ { U } B _ { r } ^ { V } \subset B _ { 2 r } ^ { G }$
 
-If necessary we reduce the size of r such that (8.1) holds for every$g , h \in$ $B _ { 3 r } ^ { G }$. Assume ε is small enough so that$a B _ { \varepsilon } ^ { G } a ^ { - 1 } \subset B _ { c _ { 1 } ^ { - 1 } r } ^ { \dot { G } }$. Let$\lambda > 1$be such that$\| a f a ^ { - 1 } - \operatorname { I } _ { k } \| \geq \lambda \| f - \operatorname { I } _ { k } \|$for$f \in U$and$\| a ^ { - 1 } f { \overset { . } { a } } - \operatorname { I } _ { k } \| \geq \lambda \| f - \operatorname { I } _ { k } \|$for $f \in V$
+If necessary, we reduce the size of $r$ such that (8.1) holds for every $g,h\in B_{3r}^G$. Assume $\varepsilon$ is small enough so that $aB_\varepsilon^G a^{-1}\subset B_{c_1^{-1}r}^G$. Let $\lambda>1$ be such that $\|afa^{-1}-I_k\|\geq\lambda\|f-I_k\|$ for $f\in U$ and $\|a^{-1}fa-I_k\|\geq\lambda\|f-I_k\|$ for $f\in V$.
 
 Let$g , h \in B _ { r } ^ { U } B _ { r } ^ { V }$and$x \in X$be as in the lemma. Define$f = g h ^ { - 1 }$, so that $d ( f , \operatorname { I } _ { k } ) = d ( g , h ) \geq \lambda ^ { - N } \varepsilon$. Write$\scriptstyle f = f _ { C } f _ { U } f _ { V }$and$w { = } \mathrm { m a x } \big ( d ( f _ { U } , \mathrm { I } _ { k } ) , d ( f _ { V } , \mathrm { I } _ { k } ) \big )$. By (8.1)
 
@@ -1206,11 +1198,11 @@ The last statement follows from [34, §4, Thm. 3].
 
 Proposition 9.2. Let$a \in A$, and$K \subset X$be compact with$a K \subset K$. For every finite partition$\mathcal { P }$of K into measurable sets with small enough diameters and for any a-invariant measure$\mu$supported on K,$\mathsf { h } _ { \mu } ( a ) = \mathsf { h } _ { \mu } ( a , \mathcal { P } )$
 
-Proof. Every T-invariant measure$\mu$which is supported by$K$is in fact supported on the set$\begin{array} { r } { K ^ { \prime } = \bigcap _ { n > 0 } a ^ { n } K } \end{array}$. Clearly,$K ^ { \prime }$is compact and satisfies $a K ^ { \prime } = K ^ { \prime }$%. Since a partition of K into small sets induces a partition of$K ^ { \prime }$into small sets, we can assume without loss of generality that$K$satisfies$a K = K$
+Proof. Every $T$-invariant measure $\mu$ supported by $K$ is in fact supported on the set $K'=\bigcap_{n\geq0}a^nK$. Clearly, $K'$ is compact and satisfies $aK'=K'$. Since a partition of $K$ into small sets induces a partition of $K'$ into small sets, we can assume without loss of generality that $K$ satisfies $aK=K$.
 
-Recall that there exists$r = r ( K ) > 0$with$d ( x , g x ) = d ( \mathrm { I } _ { k } , g )$whenever $d ( \mathrm { I } _ { k } , g ) < r$and$x \in K$. Let$\varepsilon \ < \ r$be as in Lemma$8 . 4 \AA$, let$\mathcal { P }$be a finite partition into measurable sets with diameter less than δ (to be specified later), and define the σ-algebra$\mathcal { A } = \bigvee _ { i = - \infty } ^ { \infty } a ^ { - i } \mathcal { P }$generated by the orbit of$\mathcal { P }$
+Recall that there exists $r=r(K)>0$ with $d(x,gx)=d(I_k,g)$ whenever $d(I_k,g)<r$ and $x\in K$. Let $\varepsilon<r$ be as in Lemma 8.4, let $\mathcal P$ be a finite partition into measurable sets with diameter less than $\delta$ (to be specified later), and define the $\sigma$-algebra $\mathcal A=\bigvee_{i=-\infty}^{\infty}a^{-i}\mathcal P$ generated by the orbit of $\mathcal P$.
 
-Let$x , y \in K$\$belong to the same atom of$\mathcal { A } ;$in other words suppose that for all$i \in \mathbb Z$the images$a ^ { i } x , a ^ { i } y \in P _ { i }$belong to the same partition element of$\mathcal { P } _ { \cdot }$. We claim that (for small enough δ) this implies$x = f c y$for some small $f _ { C } \in C$
+Let $x,y\in K$ belong to the same atom of $\mathcal A$; in other words, suppose that for all $i\in\mathbb Z$, the images $a^ix$ and $a^iy$ belong to the same partition element $P_i\in\mathcal P$. We claim that (for small enough $\delta$) this implies $x=f_Cy$ for some small $f_C\in C$.
 
 Let$x = f y$with$f \in B _ { \delta } ^ { G }$and suppose$f \notin C$. Let$\mathit { f } = f _ { C } f _ { U } f _ { V }$with $f _ { C } \in C , f _ { U } \in U$, and$f _ { V } \in V$. For small enough$\delta > 0$we have$d ( f _ { C } , \mathrm { I } _ { k } ) <$ $c _ { 3 } \varepsilon / 2 , d ( f _ { U } , \mathrm { I } _ { k } ) < r$and$d ( f _ { V } , \mathrm { I } _ { k } ) < r$. Let$z = f _ { U } f _ { V } y = f _ { C } ^ { - 1 } x ;$then$z \in$ $B _ { r } ^ { U } B _ { r } ^ { V } y$. Since$a f _ { C } = f _ { C } a$we have$d ( a ^ { n } x , a ^ { n } z ) = d ( f _ { C } , \mathrm { I } _ { k } ) < c _ { 3 } \varepsilon / 2$for all$n .$. By Lemma 8.4 there exists some integer n with$d ( a ^ { n } z , a ^ { n } y ) \geq c _ { 3 } \varepsilon$. We assume $\delta < c _ { 3 } \varepsilon / 2 ;$then
 
@@ -1242,7 +1234,7 @@ $$
 \mathsf {h} _ {\mu} (T, Q | \mathcal {A}) = \mathsf {H} _ {\mu} (\mathcal {Q} | \tilde {\mathcal {A}}) \text { with } \tilde {\mathcal {A}} = \bigvee_ {n = 1} ^ {\infty} T ^ {- n} \mathcal {Q} \vee \mathcal {A} (\mathrm{mod} \mu)
 $$
 
-vanishes, we have to show that for$x , y \notin N$which are in the same atom with respect to$\tilde { \cal A }$and satisfy$x \in Q _ { i } \in \mathcal { Q }$and$y \in Q _ { j } \in \mathcal { Q } .$, in fact,$i = j$holds. Since $x$and$y$belong to the same atom with respect to$\mathcal { A }$, we know from the above claim that$y = f _ { C } x$for some small$f _ { C } \in C$. Therefore,$x \in Q _ { i } \cap f _ { C } ^ { - 1 } Q _ { j }$and there exists some rational$g _ { C }$close to$f _ { C }$with$x \in Q _ { i } \cap g _ { C } ^ { - 1 } Q _ { j }$. Furthermore, we can ensure that$B _ { 1 / \ell } ( x ) \subset Q _ { i } \cap g _ { C } ^ { - 1 } Q _ { j } , d ( g _ { C } , f _ { C } ) < 1 / \ell ,$and$1 / \ell < r$. It follows that$x \in B _ { i , j , g _ { C } , \ell } .$. By construction of N there exists$n > 0$with$a ^ { n } x \in B _ { i , j , g _ { C } , \ell } .$ Therefore$a ^ { n } x \in Q _ { i }$<sub>i</sub> and$B _ { 1 / \ell } ( a ^ { n } x ) \subset g _ { C } ^ { - 1 } Q _ { j }$. From
+vanishes, we have to show that for $x,y\notin N$ in the same atom with respect to $\widetilde{\mathcal A}$ and with $x\in Q_i\in\mathcal Q$ and $y\in Q_j\in\mathcal Q$, in fact $i=j$. Since $x$ and $y$ belong to the same atom with respect to $\mathcal A$, the above claim gives $y=f_Cx$ for some small $f_C\in C$. Therefore, $x\in Q_i\cap f_C^{-1}Q_j$, and there exists a rational $g_C$ close to $f_C$ with $x\in Q_i\cap g_C^{-1}Q_j$. Furthermore, we can ensure that $B_{1/\ell}(x)\subset Q_i\cap g_C^{-1}Q_j$, $d(g_C,f_C)<1/\ell$, and $1/\ell<r$. It follows that $x\in B_{i,j,g_C,\ell}$. By construction of $N$, there exists $n>0$ with $a^nx\in B_{i,j,g_C,\ell}$. Therefore, $a^nx\in Q_i$ and $B_{1/\ell}(a^nx)\subset g_C^{-1}Q_j$. From
 
 $$
 d (g _ {C} ^ {- 1} f _ {C} a ^ {n} x, a ^ {n} x) = d (g _ {C} ^ {- 1} f _ {C}, \mathrm{I} _ {k}) <   1 / \ell <   r
@@ -1260,7 +1252,7 @@ $$
 \frac {1}{N} \mathsf {H} _ {\mu} \left(\bigvee_ {n = 0} ^ {N - 1} a ^ {- n} \mathcal {P}\right) <   \mathsf {h} _ {\mu} (a, \mathcal {P}) + \varepsilon / 2.
 $$
 
-Since the sets in the partition$\begin{array} { r } { \mathcal { Q } = \bigvee _ { n = 0 } ^ { N - 1 } a ^ { - n } \mathcal { P } } \end{array}$all have boundaries which are null sets with respect to$\mu ,$\$ there exists a weak∗ neighborhood$U$of$\mu$such that $\nu ( Q )$is very close to$\mu ( Q )$for every$Q \in \mathcal { Q }$. The entropy of the partition$\mathcal { Q }$ depends only on the measures of the elements of$\mathcal { Q } ;$therefore we can make sure that 1
+Since the sets in the partition $\mathcal Q=\bigvee_{n=0}^{N-1}a^{-n}\mathcal P$ all have boundaries that are null sets with respect to $\mu$, there exists a weak* neighborhood $U$ of $\mu$ such that $\nu(Q)$ is very close to $\mu(Q)$ for every $Q\in\mathcal Q$. The entropy of the partition $\mathcal Q$ depends only on the measures of its elements; therefore, we can make sure that
 
 $$
 \frac {1}{N} \big | \mathsf {H} _ {\nu} (\mathcal {Q}) - \mathsf {H} _ {\mu} (\mathcal {Q}) \big | <   \varepsilon / 2.
@@ -1272,9 +1264,9 @@ $$
 \mathsf {h} _ {\nu} (a) = \mathsf {h} _ {\nu} (a, \mathcal {P}) \leq \frac {1}{N} \mathsf {H} _ {\nu} (\mathcal {Q}) \leq \frac {1}{N} \mathsf {H} _ {\mu} (\mathcal {Q}) + \varepsilon / 2 <   \mathsf {h} _ {\mu} (a, \mathcal {P}) + \varepsilon ,
 $$
 
-where we used Proposition 9.2 for$\nu$and$\mu .$. Furthermore,$\mathsf { h } _ { \nu } ( a , \mathcal { P } )$is the infimum over$\textstyle { \frac { 1 } { M } } \mathsf { H } _ { \nu } ( { \bar { \mathsf { V } } } _ { n = 0 } ^ { M - 1 } a ^ { n } \mathcal { P } )$by subadditivity [49, Thm. 4.10].□
+where we used Proposition 9.2 for $\nu$ and $\mu$. Furthermore, $\mathsf h_\nu(a,\mathcal P)$ is the infimum over $M\geq1$ of $\frac1M\mathsf H_\nu\left(\bigvee_{n=0}^{M-1}a^n\mathcal P\right)$ by subadditivity [49, Thm. 4.10]. □
 
-## 10. Transversal Hausdorf dimension for the set of points with bounded orbits
+## 10. Transversal Hausdorff dimension for the set of points with bounded orbits
 
 In this section we apply Theorem 1.3 to prove two theorems about sets with bounded orbits.
 
@@ -1284,17 +1276,17 @@ $$
 \delta_ {\mathbb {R} ^ {k}} (\Lambda) = \min _ {\mathbf {y} \in \Lambda \backslash \{0 \}} \| y \|.
 $$
 
-Clearly, every point$x = m \operatorname { S L } ( k , \mathbb { Z } )$with$m \in \mathrm { S L } ( k , \mathbb { R } )$can be identified with the unimodular lattice generated by the columns of$m$. By this identification $\delta _ { \mathbb { R } ^ { k } }$becomes a positive continuous function on$X$with the property that the preimages$K _ { \rho } = \delta _ { \mathbb { R } ^ { k } } ^ { - 1 } [ \rho , \infty )$are compact sets for every$\rho > 0$by Mahler$\mathrm { \Omega ^ { , } s }$ criterion. In other words$B \subset X$is bounded if and only if$\operatorname* { i n f } _ { x \in B } \delta _ { \mathbb { R } ^ { k } } ( x ) > 0$
+Clearly, every point $x=m\mathrm{SL}(k,\mathbb Z)$ with $m\in\mathrm{SL}(k,\mathbb R)$ can be identified with the unimodular lattice generated by the columns of $m$. By this identification, $\delta_{\mathbb R^k}$ becomes a positive continuous function on $X$ whose preimages $K_\rho=\delta_{\mathbb R^k}^{-1}[\rho,\infty)$ are compact for every $\rho>0$ by Mahler’s criterion. In other words, $B\subset X$ is bounded if and only if $\inf_{x\in B}\delta_{\mathbb R^k}(x)>0$.
 
-A nonempty subset$\Sigma ^ { \prime } \subset \Sigma$is a cone if$\Sigma ^ { \prime }$is convex and satisfies$\boldsymbol { r } \mathbf { t } \in \Sigma ^ { \prime }$ whenever$r > 0$and$\mathbf { t } \in \Sigma ^ { \prime }$
+A nonempty subset $\Sigma'\subset\Sigma$ is a cone if $\Sigma'$ is convex and satisfies $r\mathbf t\in\Sigma'$ whenever $r>0$ and $\mathbf t\in\Sigma'$.
 
-Theorem 10.1. Let$X = \mathrm { S L } ( k , \mathbb { R } ) / \mathrm { S L } ( k , \mathbb { Z } )$with$k \geq 3 .$, and let$\Sigma ^ { \prime }$be an open cone in Σ. Define
+Theorem 10.1. Let $X=\mathrm{SL}(k,\mathbb R)/\mathrm{SL}(k,\mathbb Z)$ with $k\geq3$, and let $\Sigma'$ be an open cone in $\Sigma$. Define
 
 $$
 D = \left\{x \in X: \inf _ {\mathbf {t} \in \Sigma^ {\prime}} \delta_ {\mathbb {R} ^ {k}} (\alpha^ {\mathbf {t}} x) > 0 \right\}
 $$
 
-to be the set of points with bounded$\Sigma ^ { \prime } { - } o r b i t s .$. Then for every$\textbf { t } \in \Sigma ^ { \prime }$and $x \in X$the$\alpha ^ { \mathbf { t } }$-unstable manifold Ux through x intersects D in a set D ∩ Ux of Hausdorf dimension zero. In fact,$D \cap U x$is a countable union of sets with upper box dimension zero.
+to be the set of points with bounded $\Sigma'$-orbits. Then for every $\mathbf t\in\Sigma'$ and $x\in X$, the $\alpha^{\mathbf t}$-unstable manifold $U_x$ through $x$ intersects $D$ in a set $D\cap U_x$ of Hausdorff dimension zero. In fact, $D\cap U_x$ is a countable union of sets with upper box dimension zero.
 
 Proof. For$\rho > 0$we define the compact set
 
@@ -1302,7 +1294,7 @@ $$
 D _ {\rho} = \left\{x \in X: \inf _ {\mathbf {t} \in \Sigma^ {\prime}} \delta_ {\mathbb {R} ^ {k}} (\alpha^ {\mathbf {t}} x) \geq \rho \right\}.\tag{10.1}
 $$
 
-Clearly$D = \bigcup _ { n = 1 } ^ { \infty } D _ { 1 / n }$. Let$\mathbf { t } \in \Sigma ^ { \prime } , a = \alpha ^ { \mathbf { t } }$, and$x \in X$. Then$a D _ { \rho } \subset D _ { \rho } .$ By Proposition 8.3 there are two possibilities;$D _ { \rho } \cap U x$is a countable union of compact sets of box dimension zero, or$a | _ { D _ { \rho } }$has positive topological entropy. If the first possibility takes place for all$\rho > 0$, the theorem follows from (7.3) and (7.4).
+Clearly, $D=\bigcup_{n=1}^{\infty}D_{1/n}$. Let $\mathbf t\in\Sigma'$, $a=\alpha^{\mathbf t}$, and $x\in X$. Then $aD_\rho\subset D_\rho$. By Proposition 8.3, there are two possibilities: $D_\rho\cap U_x$ is a countable union of compact sets of box dimension zero, or $a|_{D_\rho}$ has positive topological entropy. If the first possibility takes place for all $\rho>0$, the theorem follows from (7.3) and (7.4).
 
 We will show that the second possibility cannot happen ever. Suppose $a | _ { D _ { \rho } }$has positive topological entropy. By the variational principle (§7.2 and [49, Thm. 8.6]) there exists an a-invariant measure ν supported on$D _ { \rho }$with positive metric entropy$h _ { \nu } ( a ) > 0$. However, we need to find an A-ergodic measure with this property in order to get a contradiction to Theorem 1.3.
 
@@ -1312,7 +1304,7 @@ $$
 \nu_ {N} = \frac {1}{N ^ {k - 1}} \int_ {0} ^ {N} \dots \int_ {0} ^ {N} (\alpha^ {s _ {1} \mathbf {t} _ {1} + \dots s _ {k - 1} \mathbf {t} _ {k - 1}}) _ {*} \nu \mathrm{d} s _ {1} \dots \mathrm{d} s _ {k - 1}
 $$
 
-is supported on K and a-invariant. Since entropy is afine [49, Thm. 8.1] and upper semi-continuous by Corollary 9.3 with respect to the measure, entropy with respect to a generalized convex combination of measures is the integral of the entropies. In particular$\mathsf { h } _ { \nu _ { N } } ( T ) = \mathsf { h } _ { \nu } ( T )$
+is supported on $K$ and $a$-invariant. Since entropy is affine [49, Thm. 8.1] and upper semi-continuous by Corollary 9.3 with respect to the measure, entropy with respect to a generalized convex combination of measures is the integral of the entropies. In particular, $\mathsf h_{\nu_N}(T)=\mathsf h_\nu(T)$.
 
 Let$\mu$be a weak<sup>∗</sup> limit of a subsequence of$\nu _ { N }$. From the definition of $\nu _ { N }$it follows that$\mu$is A-invariant. It is also clear that$\mu$is supported on K. From upper semi-continuity, the entropy$\mathsf { h } _ { \mu } ( a ) \geq \mathsf { h } _ { \nu } ( a ) > 0$is positive. The ergodic decomposition (4.2) of$\mu$defines$\mu$as a generalized convex combination of A-ergodic measures$\mu _ { \tau }$, which have, almost surely, support contained in K. Since$\mathsf { h } _ { \mu } ( T ) > 0$, there exists some A-ergodic measure$\mu _ { \tau }$with$\mathsf { h } _ { \mu _ { \tau } } ( T ) > 0$ and support in K. This contradicts Theorem 1.3 and concludes the proof of Theorem 10.1.□
 
@@ -1324,7 +1316,7 @@ $$
 D = \left\{x \in X: \inf _ {a \in A} \delta_ {\mathbb {R} ^ {k}} (a x) > 0 \right\}
 $$
 
-to be the set of points with bounded A-orbits. Then D is a countable union of sets with transversal box dimension zero and has Hausdorf dimension$k - 1$
+to be the set of points with bounded $A$-orbits. Then $D$ is a countable union of sets with transversal box dimension zero and has Hausdorff dimension $k-1$.
 
 Clearly D is A-invariant, and nonempty since it contains every periodic A-orbit.
 
@@ -1336,9 +1328,9 @@ $$
 d _ {O} \big ((f _ {C}, f _ {U}, f _ {V}), (g _ {C}, g _ {U}, g _ {V}) \big) = \max \big (d (f _ {C}, g _ {C}), d (f _ {U}, g _ {U}), d (f _ {V}, g _ {V}) \big).
 $$
 
-Furthermore, define$\psi : O  \mathrm { S L } ( k , \mathbb { R } )$by$\psi ( f _ { C } , f _ { U } , f _ { V } ) = f _ { C } f _ { U } f _ { V }$and assume $\psi$is invertible and Lipschitz in both directions (as in (8.1)).
+Furthermore, define $\psi:O\to\mathrm{SL}(k,\mathbb R)$ by $\psi(f_C,f_U,f_V)=f_Cf_Uf_V$ and assume $\psi$ is invertible and Lipschitz in both directions (as in (8.1)).
 
-Let$P ~ = ~ \{ ( f _ { C } , f _ { U } , f _ { V } ) ~ \in ~ O ~ : ~ \psi ( f _ { C } , f _ { U } , f _ { V } ) x ~ \in ~ D _ { \rho } \}$Since$D _ { \rho }$is A-invariant, the set$P ^ { \prime } = P \cap ( \{ \mathrm { I } _ { k } \} \times B _ { r } ^ { U } \times B _ { r } ^ { V } )$determines$P = \{ ( f c , f _ { U } , f _ { V } ) \in$ $O : ( \mathrm { I } _ { k } , f _ { U } , f _ { V } ) \in P ^ { \prime } \}$. Clearly$\psi ( P ^ { \prime } ) x = ( B _ { r } ^ { U } B _ { r } ^ { V } x ) \cap D _ { \rho }$. By Lemma 8.5 there are two possibilities;$P ^ { \prime }$has box dimension zero or a has positive topological entropy when restricted to$D _ { \rho }$. As in the proof of Theorem 10.1 the latter contradicts Theorem 1.3. Therefore$D _ { \rho }$has transversal box dimension zero.
+Let $P=\{(f_C,f_U,f_V)\in O:\psi(f_C,f_U,f_V)x\in D_\rho\}$. Since $D_\rho$ is $A$-invariant, the set $P'=P\cap(\{I_k\}\times B_r^U\times B_r^V)$ determines $P=\{(f_C,f_U,f_V)\in O:(I_k,f_U,f_V)\in P'\}$. Clearly, $\psi(P')x=(B_r^UB_r^Vx)\cap D_\rho$. By Lemma 8.5, there are two possibilities: $P'$ has box dimension zero, or $a$ has positive topological entropy when restricted to $D_\rho$. As in the proof of Theorem 10.1, the latter contradicts Theorem 1.3. Therefore, $D_\rho$ has transversal box dimension zero.
 
 ## 11. The set of exceptions to Littlewood’s Conjecture
 
@@ -1359,10 +1351,10 @@ $$
 if and only if the orbit$A ^ { + } \tau _ { u , v }$is unbounded where$A ^ { + }$is the semigroup
 
 $$
-A ^ {+} = \left\{\left( \begin{array}{c c c} e ^ {- r - s} & & \\ & e ^ {r} & \\ & & e ^ {s} \end{array} \right): f o r r, s \in \mathbb {R} ^ {+} \right\}.
+A^+=\left\{\left(\begin{array}{ccc}e^{-r-s}&&\\&e^r&\\&&e^s\end{array}\right):\text{for }r,s\in\mathbb R^+\right\}.
 $$
 
-Proof. By the the properties of$\delta _ { \mathbb { R } ^ { k } }$we have to show for$( u , v ) \in \mathbb { R } ^ { 2 }$that (11.1) holds if and only if in$\complement _ { a \in A ^ { + } } \delta _ { \mathbb { R } ^ { k } } ( a \tau _ { u , v } ) = 0$
+Proof. By the the properties of $\delta_{\mathbb R^k}$, we have to show for $(u,v)\in\mathbb R^2$ that (11.1) holds if and only if $\inf_{a\in A^+}\delta_{\mathbb R^k}(a\tau_{u,v})=0$.
 
 Suppose$\varepsilon > 0$and there exists$a \in A ^ { + }$with$\delta _ { \mathbb { R } ^ { k } } ( a \tau _ { u , v } ) < \varepsilon .$. Then
 
@@ -1370,7 +1362,7 @@ $$
 a \tau_ {u, v} = \left( \begin{array}{c c c} e ^ {- r - s} & 0 & 0 \\ e ^ {r} u & e ^ {r} & 0 \\ e ^ {s} v & 0 & e ^ {s} \end{array} \right) \operatorname{SL} (3, \mathbb {Z})
 $$
 
-and by definition of$\delta _ { \mathbb { R } ^ { k } }$k there exists nonzero$( n , m _ { 1 } , m _ { 2 } ) \in \mathbb { Z } ^ { 3 }$with
+and by definition of $\delta_{\mathbb R^k}$, there exists a nonzero $(n,m_1,m_2)\in\mathbb Z^3$ with
 
 $$
 \left\| \left( \begin{array}{c} n e ^ {- r - s} \\ n e ^ {r} u + m _ {1} e ^ {r} \\ n e ^ {s} v + m _ {2} e ^ {s} \end{array} \right) \right\| <   \varepsilon .
@@ -1390,17 +1382,17 @@ $$
 \max (| n u + m _ {1} |, | n v + m _ {2} |) <   \varepsilon .\tag{11.2}
 $$
 
-Suppose this is not true, and assume without loss of generality that $| n v + m _ { 2 } | \geq \varepsilon$and$| n ( n u + m _ { 1 } ) | < \varepsilon ^ { 4 }$. Then by Dirichlet’s theorem there exists an integer$q < 1 / \varepsilon$so that$\langle q n v \rangle < \varepsilon$. It follows that$| q n ( q n u + q m _ { 1 } ) | < \varepsilon ^ { 2 }$ 2 and$| q n v + m _ { 2 } ^ { \prime } | < \varepsilon$for some$m _ { 2 } ^ { \prime } \in \mathbb { Z }$. In other words when we replace n by nq and$m _ { 1 } , m _ { 2 }$by$q m _ { 1 }$and$m _ { 2 } ^ { \prime }$respectively, we see that (11.2) and $| n ( n u + m _ { 1 } ) ( n v + m _ { 2 } ) | < \varepsilon ^ { 3 }$hold simultaneously. Therefore we can find$r > 0$ and$s > 0$with$e ^ { r } | n u + m _ { 1 } | = \varepsilon$and$e ^ { s } | n v + m _ { 2 } | = \varepsilon$. (If one of the expressions vanishes, we use some large$r ,$resp.$s ,$instead.) Then$e ^ { - r - s } n < \varepsilon$and $\delta _ { \mathbb { R } ^ { k } } ( a \tau _ { u , v } ) < c \varepsilon$follows.□
+Suppose this is not true, and assume without loss of generality that $|nv+m_2|\geq\varepsilon$ and $|n(nu+m_1)|<\varepsilon^4$. Then by Dirichlet’s theorem there exists an integer $q<1/\varepsilon$ so that $\langle qnv\rangle<\varepsilon$. It follows that $|qn(qnu+qm_1)|<\varepsilon^2$ and $|qnv+m'_2|<\varepsilon$ for some $m'_2\in\mathbb Z$. In other words, when we replace $n$ by $nq$ and $m_1,m_2$ by $qm_1,m'_2$ respectively, we see that (11.2) and $|n(nu+m_1)(nv+m_2)|<\varepsilon^3$ hold simultaneously. Therefore, we can find $r>0$ and $s>0$ with $e^r|nu+m_1|=\varepsilon$ and $e^s|nv+m_2|=\varepsilon$. (If one of the expressions vanishes, we use some large $r$, resp. $s$, instead.) Then $e^{-r-s}n<\varepsilon$ and $\delta_{\mathbb R^k}(a\tau_{u,v})<c\varepsilon$ follows. □
 
-Proof of Theorem 1.5. By Proposition 11.1 the set$\Xi$is embedded by the map$( u , v ) \mapsto \tau _ { u , v }$to the set D with$A ^ { + }$-bounded orbits. We apply Theorem 10.1 with$\Sigma ^ { \prime } = \{ ( - r - s , r , s ) : r , s > 0 \}$. Therefore D intersects every unstable manifold of$\alpha ^ { \mathbf { t } }$in a set of Hausdorf dimension zero where$\mathbf { t } = ( - 2 , 1 , 1 )$ Note that the unstable manifold of$\alpha ^ { \mathbf { t } }$through$\operatorname { I } _ { k } \operatorname { S L } ( 3 , \mathbb { Z } )$is the image of τ. It follows that Ξ has Hausdorf dimension zero, and similarly that$\Xi$is a countable union of sets with box dimension zero.□
+Proof of Theorem 1.5. By Proposition 11.1, the set $\Xi$ is embedded by the map $(u,v)\mapsto\tau_{u,v}$ to the set $D$ with $A^+$-bounded orbits. We apply Theorem 10.1 with $\Sigma'=\{(-r-s,r,s):r,s>0\}$. Therefore, $D$ intersects every unstable manifold of $\alpha^{\mathbf t}$ in a set of Hausdorff dimension zero, where $\mathbf t=(-2,1,1)$. Note that the unstable manifold of $\alpha^{\mathbf t}$ through $I_k\mathrm{SL}(3,\mathbb Z)$ is the image of $\tau$. It follows that $\Xi$ has Hausdorff dimension zero, and similarly that $\Xi$ is a countable union of sets with box dimension zero. □
 
-Proof of Theorem 1.6. We apply Theorem 10.2 and set$\Xi _ { k } = D$. Suppose m$\notin \Xi _ { k } ;$; then$\delta _ { \mathbb { R } ^ { k } } ( a m ) < \varepsilon$for some$a \in A$. By definition of$\delta _ { \mathbb { R } ^ { k } }$there exists some$\mathbf { n } \in \mathbb { Z } ^ { k }$such that$\| \left( \begin{array} { c } { { a _ { 1 1 } m _ { 1 } ( { \bf n } ) } } \\ { { \vdots } } \\ { { a _ { k k } m _ { k } ( { \bf n } ) } } \end{array} \right) \| < \varepsilon$and (1.3) follows.□
+Proof of Theorem 1.6. We apply Theorem 10.2 and set $\Xi_k=D$. Suppose $m\notin\Xi_k$; then $\delta_{\mathbb R^k}(am)<\varepsilon$ for some $a\in A$. By definition of $\delta_{\mathbb R^k}$, there exists some $\mathbf n\in\mathbb Z^k$ such that $\left\|\begin{pmatrix}a_{11}m_1(\mathbf n)\\\vdots\\a_{kk}m_k(\mathbf n)\end{pmatrix}\right\|<\varepsilon$, and (1.3) follows. □
 
-University of Washington<sub>,</sub> Seattle<sub>,</sub> WA<sub>,</sub> Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ and Clay Mathematics Institute Cambridge MA Current address: Ohio State University, Columbus, OH E-mail address: manfred@math.osu.edu
+University of Washington, Seattle, WA, Princeton University, Princeton, NJ, and Clay Mathematics Institute, Cambridge, MA. Current address: Ohio State University, Columbus, OH. E-mail address: manfred@math.osu.edu
 
-The Pennsylvania State University<sub>,</sub> State College<sub>,</sub> PA E-mail address: katok a@math.psu.edu
+The Pennsylvania State University, State College, PA. E-mail address: katok_a@math.psu.edu
 
-Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@math.princeton.edu
+Princeton University, Princeton, NJ. E-mail address: elonl@math.princeton.edu
 
 ## References
 
@@ -1410,19 +1402,19 @@ Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@
 
 [3] M. Einsiedler and A. Katok, Invariant measures on G/Γ for split simple Lie-groups G, Comm. Pure Appl. Math. 56 (2003), 1184–1221.
 
-[4], Rigidity of measures – the high entropy case, and non-commuting foliations, Israel J. Math. 148 (2005), 169–238.
+[4] ———, Rigidity of measures – the high entropy case, and non-commuting foliations, Israel J. Math. 148 (2005), 169–238.
 
 [5] H. Federer, Geometric Measure Theory, Die Grundlehren der mathematischen Wissenschaften, Band 153, Springer-Verlag, New York, 1969.
 
 [6] H. Furstenberg, Disjointness in ergodic theory, minimal sets, and a problem in Diophantine approximation, Math. Systems Theory 1 (1967), 1–49.
 
-[7], Strict ergodicity and transformation of the torus, Amer. J. Math. 83 (1961), 573–601.
+[7] ———, Strict ergodicity and transformation of the torus, Amer. J. Math. 83 (1961), 573–601.
 
 [8] B. Hasselblatt and A. Katok, Principal structures, in Handbook of Dynamical Systems, Vol. 1A, 1–203, North-Holland, Amsterdam, 2002.
 
 [9] B. Host, Nombres normaux, entropie, translations, Israel J. Math. 91 (1995), 419–428.
 
-[10] H. Hu, Some ergodic properties of commuting difeomorphisms, Ergodic Theory Dynam. Systems 13 (1993), 73–100.
+[10] H. Hu, Some ergodic properties of commuting diffeomorphisms, Ergodic Theory Dynam. Systems 13 (1993), 73–100.
 
 [11] W. Hurewicz, Ergodic theorem without invariant measure, Ann. of Math. 45 (1944), 192–206.
 
@@ -1432,15 +1424,15 @@ Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@
 
 [14] B. Kalinin and R. J. Spatzier, Rigidity of the measurable structure for algebraic actions of higher-rank Abelian groups, Ergodic Theory Dynam. Systems 25 (2005), 175–200.
 
-[15] A. Katok and R. J. Spatzier, Diferential rigidity of Anosov actions of higher rank abelian groups and algebraic lattice action, Tr. Mat. Inst. Steklova 216 (1997); Din. Sist. i Smezhnye Vopr., 292–319.
+[15] A. Katok and R. J. Spatzier, Differential rigidity of Anosov actions of higher rank abelian groups and algebraic lattice action, Tr. Mat. Inst. Steklova 216 (1997); Din. Sist. i Smezhnye Vopr., 292–319.
 
-[16], First cohomology of Anosov actions of higher rank abelian groups and applications to rigidity, Inst. Hautes Etudes Sci. Publ. Math <sup>´</sup> . 79 (1994), 131–156.
+[16] ———, First cohomology of Anosov actions of higher rank abelian groups and applications to rigidity, Inst. Hautes Études Sci. Publ. Math. 79 (1994), 131–156.
 
-[17], Invariant measures for higher-rank hyperbolic abelian actions, Ergodic Theory Dynam. Systems 16 (1996), 751–778.
+[17] ———, Invariant measures for higher-rank hyperbolic abelian actions, Ergodic Theory Dynam. Systems 16 (1996), 751–778.
 
 [18] D. Kleinbock, N. Shah, and A. Starkov, Dynamics of subgroup actions on homogeneous spaces of Lie groups and applications to number theory, in Handbook of Dynamical Systems, Vol. 1A, 813–930, North-Holland, Amsterdam, 2002.
 
-[19] F. Ledrappier and L.-S. Young, The metric entropy of difeomorphisms, II. Relations between entropy, exponents and dimension, Ann. of Math. 122 (1985), 540–574.
+[19] F. Ledrappier and L.-S. Young, The metric entropy of diffeomorphisms, II. Relations between entropy, exponents and dimension, Ann. of Math. 122 (1985), 540–574.
 
 [20] E. Lindenstrauss, Invariant measures and arithmetic quantum unique ergodicity, Ann. of Math. 163 (2006), 165–219.
 
@@ -1450,13 +1442,13 @@ Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@
 
 [23] G. A. Margulis, Discrete subgroups and ergodic theory, in Number Theory, Trace Formulas and Discrete Groups (Oslo, 1987), 377–398, Academic Press, Boston, MA, 1989.
 
-[24], Oppenheim conjecture, Fields Medallists’ Lectures, World Sci. Ser. 20th Century Math. 5, 272–327, World Sci. Publishing, River Edge, NJ, 1997.
+[24] ———, Oppenheim conjecture, Fields Medallists’ Lectures, World Sci. Ser. 20th Century Math. 5, 272–327, World Sci. Publishing, River Edge, NJ, 1997.
 
-[25]—, Problems and conjectures in rigidity theory, in Mathematics: Frontiers and Perspectives, 161–174, Amer. Math. Soc., Providence, RI, 2000.
+[25] ———, Problems and conjectures in rigidity theory, in Mathematics: Frontiers and Perspectives, 161–174, Amer. Math. Soc., Providence, RI, 2000.
 
 [26] G. A. Margulis and G. M. Tomanov, Invariant measures for actions of unipotent groups over local fields on homogeneous spaces, Invent. Math. 116 (1994), 347–392.
 
-[27], Measure rigidity for almost linear groups and its applications, J. Anal. Math. 69 (1996), 25–54.
+[27] ———, Measure rigidity for almost linear groups and its applications, J. Anal. Math. 69 (1996), 25–54.
 
 [28] D. W. Morris, Ratner’s theorems on unipotent flows, Chicago Lectures in Mathematics Series, Univ. of Chicago Press, Chicago, IL, 2005.
 
@@ -1468,7 +1460,7 @@ Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@
 
 [32] H. Oh, Application of the paper of Einsiedler, Katok and Lindenstrauss on the arithmeticity of some discrete subgroups, preprint, 2 pages.
 
-[33] H. Oh, On a problem concerning arithmeticity of discrete groups acting on H  H, in Algebraic Groups and Arithmetic, 427–440, Tata Inst. Fund. Res., Mumbai, 2004.
+[33] H. Oh, On a problem concerning arithmeticity of discrete groups acting on $\mathbb H\times\cdots\times\mathbb H$, in Algebraic Groups and Arithmetic, 427–440, Tata Inst. Fund. Res., Mumbai, 2004.
 
 [34] W. Parry, Topics in Ergodic Theory, Cambridge Tracts in Mathematics 75, Cambridge University Press, Cambridge, 1981.
 
@@ -1482,22 +1474,26 @@ Princeton University<sub>,</sub> Princeton<sub>,</sub> NJ E-mail address: elonl@
 
 [39] 38, Horocycle flows, joinings and rigidity of products, Ann. of Math. 118 (1983), 277–313.
 
-[40], Interactions between ergodic theory, Lie groups, and number theory, Proc. Internat. Congress of Math. Vol. 1, 2 (Z¨urich, 1994), 157–182, Birkhuser, Basel, 1995.
+[40] ———, Interactions between ergodic theory, Lie groups, and number theory, Proc. Internat. Congress of Math. Vol. 1, 2 (Zürich, 1994), 157–182, Birkhuser, Basel, 1995.
 
 [41] ———, On Raghunathan’s measure conjecture, Ann. of Math. 134 (1991), 545–607.
 
-[42], Raghunathan’s topological conjecture and distributions of unipotent flows, Duke Math. J. 63 (1991),235–280.
+[42] ———, Raghunathan’s topological conjecture and distributions of unipotent flows, Duke Math. J. 63 (1991), 235–280.
 
 [43] ———, Raghunathan’s conjectures for SL(2, R), Israel J. Math. 80 (1992), 1–31.
 
 [44] M. Rees, Some R<sup>2</sup>-anosov flows, 1982.
 
-[45] D. J. Rudolph, 2 and 3 invariant measures and entropy, Ergodic Theory Dynam. Systems 10 (1990), 395–406.
+[45] D. J. Rudolph, $\times2$ and $\times3$ invariant measures and entropy, Ergodic Theory Dynam. Systems 10 (1990), 395–406.
 
 [46] A. N. Starkov, Dynamical Systems on Homogeneous Spaces, Translations of Mathematical Monographs 190, Amer. Math. Soc. Providence, RI, 2000.
 
-[47], Minimality and strict ergodicity of homogeneous actions, Mat. Zametki 66 (1999), 293–301.
+[47] ———, Minimality and strict ergodicity of homogeneous actions, Mat. Zametki 66 (1999), 293–301.
 
 [48] G. Tomanov, Actions of maximal tori on homogeneous spaces, in Rigidity in Dynamics and Geometry (Cambridge, 2000), 407–424, Springer-Verlag, New York, 2002.
 
 [49] P. Walters, An Introduction to Ergodic Theory, Graduate Texts in Mathematics 79, Springer-Verlag, New York, 1982.
+
+(Received September 5, 2003)
+
+(Revised January 25, 2005)
