@@ -532,7 +532,7 @@ Soit $(A^{*}, d)$ un groupe gradué muni d'une différentielle $d$ de degré +1.
 
 (3) Si $x \neq 0$ est homogène, $0 \leq w(x) \leq \deg. x$.
 
-(On a noté $w(x)$ la borne supérieure des entiers $p$ tels que $x \in A^{*n}$). Il résulte de (3) que $A^{*0} = A$.
+(On a noté $w(x)$ la borne supérieure des entiers $p$ tels que $x \in A^{*p}$). Il résulte de (3) que $A^{*0} = A$.
 
 La suite spectrale.
 

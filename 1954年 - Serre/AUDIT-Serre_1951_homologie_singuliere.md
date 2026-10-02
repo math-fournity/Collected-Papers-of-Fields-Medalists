@@ -111,3 +111,11 @@
 - 仲裁记录：150dpi 多处疑印刷为 E_r（记号定义句 ⁿE_?′/E_?^{p,q}、d_s 两句、ⁿ⁺¹E_?′/ⁿ⁺¹E_?″、"deux termes de E_?"），600dpi 逐处（p012_notE_600.png、p012_ds1_600.png、p012_ds2_600.png、p012_Es1_600.png、p012_Es5_600.png）确认印刷在这些位置**均为下标 s**，仅 "Ainsi E_r…"、quotient de ⁿE_r′ 等处为 r——印刷本身混用 E_s/E_r，MD 逐处与印刷一致，无需修改。本页我方 150dpi 误读累计八处，全部被仲裁推翻。
 - 差异：无。
 - 备注：md 行 503 起 "qui applique ⁿ⁺¹E_s″ dans ⁿE_s′…s = c_{n+1} − a_n" 与 ⁿ⁺¹E_r″ → ⁿE_r′ → H_n(A) 展示式属印刷 p.436。
+
+## p.013（PDF p.13 / 印刷 p.436）
+- PNG：audit/p013.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p013_wx_600.png、p013_wx2_600.png、p013_Cr_600.png（600dpi）
+- 核对：s = c_{n+1} − a_n 段与 ⁿ⁺¹E_r″ → ⁿE_r′ → H_n(A) (i ≦ n ≦ j−1)；H_n(A) → ⁿE_r″ → ⁿ⁻¹E_r′ (i+1 ≦ n ≦ j)；COROLLAIRE（E_r^{p,q} = 0 si p+q = n, p ≠ a_n；a_n < a_{n−1} + r；H_n(A) = E_r^{a_n,b_n}）；c_n = a_n + 1, d_n = b_n − 1, i = 0, j = +∞；Note（Chapitre III）；§5 La suite spectrale—Cas de la cohomologie（[20]/[23]；filtration décroissante (1)(2)(3)；w(x) borne supérieure；A*⁰ = A；E_r^{*p,q} = C_r^{*p,q}/(C_{r−1}^{*p+1,q−1} + B_{r−1}^{*p,q}) (r = 0,1,⋯,∞)；E_∞^{*p,q} = D^{*p,q}/D^{*p+1,q−1}；D^{*} 链 0 = D^{*n+1,−1} ⊂ ⋯ ⊂ D^{*0,n} = H^n(A*)；d_r: E_r^{*p,q} → E_r^{*p+r,q−r+1}；H(E_r^*) = E_{r+1}^*）
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录：①md 行 535 "(On a noté w(x)…tels que x ∈ A^{*n})" 的上标 n，600dpi（p013_wx2_600.png）确认印刷为 **A\*p**（斜体 p 带下伸笔清晰），Edit 修复 A^{*n} → A^{*p}；②初读疑 "C_r^{*p,q} est formé des éléments x ∈ A\*p,q"，600dpi（p013_Cr_600.png）确认印刷为 **x ∈ A\*p**（无 ,q），MD 正确。
+- 差异：无其他。
+- 备注：md 行 557 起 "Les groupes différentiels R\* et S\*." 段属印刷 p.437；该段 "homomorphismes canoniques permis" 表述待 p.014 对照印刷核查。
