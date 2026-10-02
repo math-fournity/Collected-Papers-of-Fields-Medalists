@@ -269,7 +269,7 @@ $$
 \begin{array}{l l l} \Theta_ {0 0} ^ {4} | _ {2} S = - \Theta_ {0 0} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} S = - \Theta_ {1 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} S = - \Theta_ {0 1} ^ {4}, \\ \Theta_ {0 0} ^ {4} | _ {2} T = \Theta_ {0 1} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} T = \Theta_ {0 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} T = - \Theta_ {1 0} ^ {4}, \end{array}
 $$
 
-where$S = { \binom { 0 } { 1 } } \quad { \overset { - 1 } { 0 } } { \bigg ) } , T = { \binom { 1 } { 0 } } \quad 1 { \bigg ) }$, and
+where$S = \left(\begin{array}{cc} 0 & -1 \\ 1 & 0 \end{array}\right), T = \left(\begin{array}{cc} 1 & 1 \\ 0 & 1 \end{array}\right)$, and
 
 $$
 \big (g | _ {k} M \big) (z) = (c z + d) ^ {- k} g \Big (\frac {a z + b}{c z + d} \Big)
