@@ -309,3 +309,9 @@
 - 核对：Proposition 6.7 Proof——φ ∶ (Ω,a,b) → (ℍ,0,∞)、γ̃ = φ(γ) 为 growing hull、W_t 连续 driving process、g_t(z) = z + 2t/z + O(1/z²)；M_{τ_t^δ}(z′) martingale（τ_t 为 φ(γ_δ) h-capacity 首超 t 时刻）、M_t(z′) ∶= lim_{δ→0}、G_t σ-algebra；π_1 ln(g_t − W_t) 段；公式 (6.3) √πM_t^z ∶= √πM_t(z′) = √([ln(g_t(z) − W_t)]′) = √(g_t′(z)/(g_t(z) − W_t))（根号套分数，文本层乱码 ¿ÁÀ）；公式 (6.4) g_t(z) = z + 2t/z + O(1/z²) 与 g_t′(z) = 1 − 2t/z² + O(1/z³)；s ≤ t 三行渐近展开（(1/√z)(1 + ½W_t/z + (1/8)(3W_t² − 16t)/z² + O(1/z³))）；s = t 式；匹配系数 E[W_t∣G_s] = W_s、E[W_t² − (16/3)t∣G_s] = W_s² − (16/3)s、Lévy ⟹ W_t = √(16/3)B_t；结论 γ 为 φ^{-1} 下 chordal SLE(16/3) 的像（◻）；Proof of Theorem 3.13——tightness、Theorem 6.4、Proposition 6.7、极限唯一（◻）；页脚印刷页码 48。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷 quirk 登记（忠实保留、不改）——Proof of Theorem 3.13 首句原文作 "By Theorem 4.3, the family of curves is tight."，经 300dpi 裁切（audit/p048_thm_crop300.png）确认为 "4.3"；本文 tightness 定理编号为 Theorem 6.1（p.44），Proposition 4.3 为 preharmonic precompactness，此交叉引用疑误但按原样登记。(6.3)/(6.4) 编号齐全；√(16/3) 根号分数为对账锚点。
+
+## p.049（PDF p.49 / 印刷 p.49）
+- PNG：audit/p049.png（pngmono 150dpi）
+- 核对：§6.4 Convergence to SLE(3) for spin Ising interfaces 标题；Theorem 2.10 证明与 3.13 类似、余留为 exercise 的说明；Lemma 6.8——M_n^δ(z) = F_{Ω◇_δ∖γ[0,n],γ(n),b_δ}(z) 关于 (F_n) martingale（F_n 由 exploration process γ[0,n] 生成）；Proof——单步 γ_1 检查、F_0 平凡 σ-algebra、公式 (6.5) µ^{a,b}_{β_c,Ω}[F_{Ω◇_δ∖[a_δγ_1],γ_1,b_δ}(z)] = F_{Ω◇_δ,a_δ,b_δ}(z)；Z_{Ω◇_δ,a_δ,b_δ} 与 Z_{Ω◇_δ∖[a_δx],x,b_δ} partition function 记号（= Σ_ω(√2−1)^{∣ω∣}）；三行推演（(√2−1)e^{(1/2)iW_γ(x,b_δ)} 起、ℰ_{Ω◇_δ∖[a_δx]}(x,z_δ) 与 ℰ_{Ω◇_δ}(a_δ,z_δ) 双射、(√2−1) 权差）；求和收尾 (6.5)（◻）；Exercise 6.9——spin Ising interfaces → SLE(3)、Condition (⋆)、Theorem 3.16 与 Edwards-Sokal coupling、类似 Lemma 6.3 的 intermediate result；§7 Other results on the Ising and FK-Ising models 标题；§7.1 Massive harmonicity away from criticality 开篇；页脚印刷页码 49。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(6.5) 编号齐全；µ^{a,b}_{β_c,Ω} 三重上下标、e^{±(1/2)iW} 的堆叠分数以 PNG 为准；Z 下标 Ω◇_δ∖[a_δx],x,b_δ 的复合下标为重导出对账重点。
