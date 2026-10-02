@@ -100,3 +100,9 @@
 - 核对：gcd 分式分解 display（Σ_λ、三重 substack、≼1）、Σ₁≼γ³TN²、Bound for Σ₂ 与 γ³N/(β|n×n′||n₂′|)、Σ_{n,n′}1/(|n×n′||n₂′|) 链式 ≼ βN、Σ₂≼γ³N²、"Proposition (3.2)" 结论段两式（γ³N²(1+T)）、两 regime bullet（T^{−1/3−δ}N^{−2/3−δ} / T^{−δ}N^{−2/3−δ}）、ΣΣ|E|<∞、Borel-Cantelli 后 M₁^tM₂^t≽γ(t,N)、末式 ∀t>1/N, x∈𝕋^d, |K_N|≼N^{4/3}⟨T⟩^{1/6}
 - 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；末式环面记号经 4x 放大确认为**黑板体 𝕋^d**（上标 d 为原刊原样——Proposition 3.2 主体系 𝕋² 而此结论行写 𝕋^d，MD L668 `\mathbb{T}^d` 忠实）。print quirk 忠实保留："We can now conclude the proof of Proposition (3.2)"（L635，带括号系原刊原样）。**修复 3 处**：L649/L651 两条 regime 设置补回 bullet 符号 "- "（印刷有 •，Luna 旧基线已登记项目符号丢失但未修复）；L659 "(α_{ij})" 后全角逗号 "，"→半角 ","。残余瑕疵（不误导，不改）：L617/L599 "Bound for Σ₂/Σ₁" 印刷整词组下划线而 MD 仅对 Σ 加下划线。
 - 备注：Luna 旧修复抽核部分未完成——p.12 两条 bullet 在 Luna 修复后仍缺失（本次补上），其余本页旧修复无新问题。
+
+## p.013（PDF p.13 / 印刷 p.13）
+- PNG：audit-redo/p013.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：§3.3 节引与首 display（Π min(N,1/‖tL_j(n)‖)，此处无因子 2 与 p.10 Lemma 3.3 的 2tL_j(r) 不同，均与印刷一致）、P(t) 定义、(3.6) 两行积分＋=ΣS₁S₂、(3.7) S₁≼N/(|p₁|+|p₁′|)、平方积分链 (Σ N/(|p₁|+|p₁′|) Σ_k 1)²≲N⁴(...)²≼N⁴、∬∫sup|K_N|⁴≼N⁴T、ν/δ 整数-分数分解（−1/2≤δ,δ′<1/2）、ε,ε′∈2^ℤ∩[1/N,1/2] 定义、S₁≲Σ∫(1/εε′)dα₁₁
+- 结果：PASS±。本页（至 "We now argue as follows:"，MD L727）全部公式与陈述逐项与印刷一致；页界判明：L729 起的 "For ε,ε′ fixed…" 段属 p.14 印刷内容，留待下页核对。print quirk 忠实保留："we focuse on the former"（L689，原刊拼写）。
+- 备注：Luna 旧修复抽核通过——Luna 对 p.13 的判断（focuse 为原刊原样、仅 PASS±）与本页重检结论一致；未发现 Luna 引入的错误。
