@@ -565,3 +565,14 @@
 - 页面边界：本页以 transfer 段落收尾；Markdown 第 1958 行起的 products/projection formula 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 exact diagram、`M(X)`、scalar extension 与 transfer 条件。
 - 记录：2026-10-02 04:29:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.054（PDF p.54 / 纸面圈号 54）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p054.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p054_transfer-projection.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p054_tensor-product.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p054_reduced-product.png`。
+- 核对：有限投射标量限制所给 `K_nB→K_nA` transfer；交换 `A` 上 `K_0A` 对 reduced K-group 的作用；有限投射分辨率的 transfer 提示与 projective/representation tensor product；诱导的 reduced representation group 乘法。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1954 行承接为 `\widetilde R(π_1X,B)→\widetilde R(π_1X,A)`，并对应 `\widetilde K(X,B)→\widetilde K(X,A)`；基线漏失 `π_1`，将第二个 K-group 写成 `\widetilde F`。第 1958 行原图为 `K_0A⊗\widetilde K(X,A)→\widetilde K(X,A)` 且 `A` commutative，基线将 `\widetilde K` 写成 `\widetilde π`。有限 projective resolution 的原式 `0→P_n→…→P_0→B→0`、`P_i∈\mathcal P_A` 在基线第 1964 行被误成 `P_x/P_y` 与 `X_n^*`；由此可定义的 transfer 是 `\widetilde K(X,B)→\widetilde K(X,A)`，基线第 1966 行的 H/K 对象和参数均坏。原图第 1968 行的 projective classes 为 `\mathcal P_A×\mathcal P_B→\mathcal P_{A⊗B}`，并以 `P⊗_\mathbb Z Q` 生成 projective tensor product，基线误成 `γ_A×γ_B→γ_{A⊗B}`。第 1970、1974 行的 representation/R-product 主型可辨，但参数与逗号格式受 OCR 噪声影响。
+- 页面边界：本页止于 `\widetilde R(π_1X,A)⊗\widetilde R(π_1X,B)→\widetilde R(π_1X,A⊗B)`；Markdown 第 1976 行起的 reduced-product 元素公式属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 K/transfer 对象、projective resolution 与 tensor-projective product。
+- 记录：2026-10-02 04:33:44 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
