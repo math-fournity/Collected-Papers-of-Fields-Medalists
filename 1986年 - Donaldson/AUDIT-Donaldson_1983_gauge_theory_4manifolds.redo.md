@@ -54,3 +54,13 @@
   - **修复**：md 行 129 "(g is in this case a trivial bundle)" 的普通 `g`，300dpi 裁片确认印刷为 Fraktur **𝔤**（U(1) 情形伴随李代数丛平凡，非连接空间 𝒬）→ 已 Edit 改为 `($\mathfrak{g}$ is in this case a trivial bundle)`。
   - 排版级伪影（登记不改）：Proposition 3 印刷整段斜体在 md 中为正体；粗体 **Z**、**R** 在行内公式外沿用正体。
 - 修复登记：行 129 `g`→`$\mathfrak{g}$`（依据 `audit-redo/p004.png` + 300dpi Proposition 3 裁片）。
+
+### p.005（PDF p.5 / 印刷 p.283）
+
+- PNG：`audit-redo/p005.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（d_A⁻ 算子行、Laplacian 行、椭圆复行，结论记于本条）
+- 核对：式(1) 自偶/反自偶性质；F(A)=F₊(A)+F₋(A) 分解；Yang-Mills 作用量两个积分式；−8π²c₂(P) 等式链；flat connection/θ 段；d⁻ 复合算子；d_A⁻ 与三个 Laplacian 公式；椭圆复；本篇约定段（c₂(P)=−1）
+- 结果：**PASS±**。
+  - 式(1)（含 `\tag{1}` 与印刷同位的 `.vol.`）、`\Omega^2=\Omega^2_+\oplus\Omega^2_-`、`\|F(A)\|^2_{L^2}` 两个积分式、`-8\pi^2c_2(P)=\int_X-Tr(F\wedge F)=\int_X|F_+|^2-|F_-|^2d\mu`、`d^-\colon\Omega^1\to\Omega^2_-` 复合式逐字吻合。
+  - 300dpi 仲裁三处均确认 md 正确：① `d_A^-\colon\Omega^1(V)\to\Omega_-^2(V)` 目标确有下标减号；② Laplacians 印刷为 `d_A^*d_A,\ d_Ad_A^*+d_A^*d_A^-,\ d_A^-d_A^*`，md（行 195）连中项的上标减号都一致；③ 椭圆复箭头标签印刷为 `d_A` 与 `d_A^-`（无数字上标），md 行 198 一致。
+  - 排版级伪影（登记不改）：印刷斜体 *self-dual connection*、*Yang-Mills action*、*flat*、*if A is self-dual* 在 md 中为正体。
+- 修复登记：无。
