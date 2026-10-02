@@ -164,7 +164,7 @@ $$
 \rho_ {p} \colon G _ {p} \to \mathbf {G L} (V) \simeq \mathbf {G L} _ {2} (\overline {{\mathbf {F}}} _ {p}),
 $$
 
-$\mathrm{ou} G_p = \mathrm{Gal}(\overline{\mathbf{Q}}_p / \mathbf{Q}_p)$.
+où $G_p = \mathrm{Gal}(\overline{\mathbf{Q}}_p / \mathbf{Q}_p)$.
 
 Nous noterons $I$ le groupe d'inertie de $G_{p}$, et $I_{p}$ le plus grand pro-$p$-sous-groupe de $I$ (groupe d'inertie sauvage). Le quotient $I_{t}=I/I_{p}$ est le groupe d'inertie modérée de $G_{p}$; il s'identifie à $\varprojlim$. $\mathbf{F}_{p^{n}}^{*}$, cf. [41], prop. 2. Un caractère de $I_{t}$ sera dit de niveau $n$ s'il se factorise par $\mathbf{F}_{p^{n}}^{*}$, et ne se factorise par aucun $\mathbf{F}_{p^{m}}^{*}$, où $m$ est un diviseur strict de $n$.
 

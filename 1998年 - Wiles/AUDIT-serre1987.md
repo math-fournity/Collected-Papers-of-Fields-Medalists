@@ -35,3 +35,11 @@
 - 核对：n(l,ρ) 定义 (1.2.1)、改写 (1.2.2)、“invariant sauvage” b(V) 句、性质 (a)(b)(c)、(1.2.3) N = ∏ l^{n(l,ρ)}、conducteur 句、1.3 节标题、det ρ: G_Q → F̄ₚ*、(1.3.1)/(1.3.2)/(1.3.3)。
 - 结果：PASS。公式系数、上下标、编号、括号 (G₀:Gᵢ)、∏_{l≠p}、Z/pNZ 与 Z/NZ 的区分、ε/φ 记号全部与印刷吻合。
 - 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 181” 未收入 Markdown，排版级；(c) 条末 “en l”、(1.2.3) 前后正文里个别斜体数学字母（N、ρ、p−1）在 Markdown 为纯文本，排版级不误导。
+
+## p.004（PDF p.4 / 印刷 p.182）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p004.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p004_rho_p_glV.png`（pnggray）。
+- 核对：(1.3.4) φ = χ^h、cyclotomique 句（χ: G_Q → Fₚ* 无 bar）、(1.3.5)/(1.3.6) Frob 式、Remarque（复共轭 c）、(1.3.7)/(1.3.8)/(1.3.9)、p=2 段与矩阵 (1 0; 0 −1)、§2 引言、2.1 Préliminaires、ρ_p: G_p → GL(V) ≃ GL₂(F̄ₚ)、où G_p = Gal(Q̄_p/Q_p)。
+- 结果：PASS±。Markdown 在 “où G_p = Gal(Q̄_p/Q_p)” 处把法语 où 写成数学环境内的 $\mathrm{ou}$（丢 grave accent，300 dpi 裁片确认印刷为 “où”）；已修复为正体文本 “où” + 数学式。其余公式、上下标（l^{k−1}、(−1)^{k−1}、(−1)^k）、记号全部吻合。
+- 备注：ρ_p 式连接号 300 dpi 确认为 ≃（simeq），Markdown \simeq 正确——150 dpi 初观似 “=”，以裁片为准，不改。χ 值域 Fₚ* 无 bar 与印刷一致。页眉 “182 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。
