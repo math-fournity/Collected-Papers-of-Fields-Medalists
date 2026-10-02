@@ -363,7 +363,7 @@ $$
 
 und es gilt:
 
-$^{1}$  Die  $\Omega_{n}$  und  $\sigma_{n}$  entsprechen sich ein-eindeutig.
+$1^{\circ}$  Die  $\Omega_{n}$  und  $\sigma_{n}$  entsprechen sich ein-eindeutig.
 
 $2^{\circ}$  Jedes  $\Omega'$  wird von wenigstens zwei, aber höchstens q-1 Querschnitten  $\sigma'$  oder  $\sigma''$  begrenzt.
 

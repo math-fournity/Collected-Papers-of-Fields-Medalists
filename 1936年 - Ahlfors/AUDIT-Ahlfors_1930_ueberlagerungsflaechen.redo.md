@@ -180,4 +180,13 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.14 行；本次独立重核未见内容差异。
 - 页界：本页止于「…und auch dann」，次页续「nur für den einzigen Querschnitt der höchsten Klasse」，衔接正确。
 
+### p.015（PDF p.15 / 印刷 p.171）
+
+- audited_at=2026-10-02 18:35 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p015.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p015_1grad_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 171）、页首续句（nur für den einzigen Querschnitt…umkehrbar eindeutig.）、Die übriggebliebenen Gebiete 段（**print quirk「Die Charakter eines Ausnahmefalls」忠实保留 ✓**，印刷原文如此）、编号段 14（(Ω′)/(Ω*) 分类、Jenachdem…kleiner als q oder wenigstens gleich q）、drei Klassen 段（(σ*)/(σ′)/(σ″) 对应关系）、Damit ist 段、**Ω/σ 四列对应表**（印刷两行：(Ω₁)…(Ω_p) | (Ω′) | (Ω*) 与 (σ₁)…(σ_p) | (σ′)(σ″)（上有横线相连）| (σ*)；Luna 重建的 `\begin{array}{cccc}`+`\multicolumn{2}{c}{(Ω′)}` 结构与印刷对应关系一致 ✓）、und es gilt:、条目 1°/2°/3°（ein-eindeutig 连字符 ✓、q−1、σ′ oder σ″、wenigstens q）、Die obige Einteilung 段页末断句「genügen」。
+- 发现并修复（MD 结构化 Edit，1 处）：条目一编号 `$^{1}$`（上标脚注 1）→ `$1^{\circ}$`——300dpi 裁片显示印刷为「**1°** Die Ωₙ und σₙ…」（度数符号枚举），mineru 把 1° 误作上标脚注标记；2°/3° 两条格式本就正确，修复后三条一致。
+- 与 Luna 旧记录交叉：旧表 p.15 行「重建 Ω/σ 四列对应表」经原页重核与印刷结构一致，维持；游离 `$^{1}$` 系旧审计未检出项。
+- 结果：PASS±（1° 修复后与印刷一致；表格上方横线连接记号以 \multicolumn 分组近似表达，登记为排版级近似）。
+
 <!-- redo-tail -->
