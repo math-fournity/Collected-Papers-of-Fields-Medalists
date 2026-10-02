@@ -177,3 +177,9 @@
 - 核对：Proposition 4.2 Proof 收尾——∣h(x)−h(y)∣ ≤ E[∣h(X_τ)−h(Y_{τ′})∣1_{X_τ≠Y_{τ′}}] ≤ 2(sup_{z∈∂U_δ}∣h(z)∣)P(X_τ≠Y_{τ′})、touch ℓ before exiting 概率 ≤ (C′/r)δ、两层 sup 递推（◻）；Proposition 4.3——(h_δ)_{δ>0} precompact 两条件：(1) 任意紧子集一致有界，or (2) 对任意紧 K 存在 M=M(K)>0 使 δ² Σ_{x∈K_δ}∣h_δ(x)∣² ≤ M；Proof——Arzelà-Ascoli、uniformly Lipschitz、C_K = C·sup_{δ>0}sup_{x∈Ω:d(x,K)≤r/2}∣h_δ(x)∣ / d(K,Ω^c)、∣h_δ(x)−h_δ(y)∣ ≤ 2C_K∣x−y∣；第二条件⟹第一条件段——2r = d(K,Ω^c)、(2δ/r) ≤ k ≤ (r/δ)、公式 (4.3) δ Σ_{y∈∂U_{k_δ}}∣h_δ(y)∣² ≤ 2M/r、U_{k_δ} = x + [−δk,δk]²、公式 (4.4) h_δ(x) = Σ_{y∈∂U_{k_δ}} h_δ(y)H_{U_{k_δ}}(x,y)；页脚印刷页码 26。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：疑难字形仲裁——150dpi PNG 中 Proposition 4.3 条件 (2) 的数字疑似带圈 "②"，经 300dpi 裁切（audit/p026_item2_crop300.png）确认为数学斜体 "(2)"，属字体式样而非 print quirk。ℓ 花体、1_{X_τ≠Y_{τ′}} 下标堆叠为对账重点。
+
+## p.027（PDF p.27 / 印刷 p.27）
+- PNG：audit/p027.png（pngmono 150dpi）
+- 核对：Proposition 4.3 Proof 收尾——Cauchy-Schwarz：h_δ(x)² = (Σ_{y∈∂U_{k_δ}} h_δ(y)H_{U_{k_δ}}(x,y))² ≤ (δ·Σ∣h_δ(y)∣²)(¼·Σ H_{U_{k_δ}}(x,y)²) ≤ 2M/r·C（Exercise 4.5 给 H_{U_{k_δ}}(x,y) ≤ Cδ，◻）；Exercise 4.4——discrete harmonic measure H_{Ω_δ}(·,y) 定义与 h = Σ_{y∈∂Ω_δ} h(y)H_{Ω_δ}(·,y)；Exercise 4.5——H_{Q_δ}(0,y) ≤ Cδ（Q = [−1,1]²）；§4.1.3 Discrete Dirichlet problem and convergence in the scaling limit——早期文献 [PW23, Bou26, Lus26]、[CFL28]；Proposition 4.6——preharmonic 一致极限为 harmonic；Proof——(1/δ)[h_δ(·+δ)−h_δ] precompact、(1/(√2δ))[h_δ(·+δ)−h_δ] 收敛、0 = (1/(2δ²))Δ_δh_δ → ¼[∂²_{xx}h + ∂²_{yy}h]（◻）；Theorem 4.7 陈述起头（f_δ 一致有界且 away from a,b 收敛于 f、h_δ 为唯一 preharmonic 延拓）与页底展示式 h_δ ⟶ h when δ → 0；页脚印刷页码 27。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：文本层把长箭头映射为 "Ð"（"hδ Ð→ h"），PNG 为长箭头 ⟶，属字体映射伪影；1/(√2δ)、1/(2δ²)、¼[∂²xx+∂²yy] 的分数根号 PNG 印刷清晰。
