@@ -73,3 +73,11 @@
 - 核对：(1.14) 定义句、(1.14.1) Z(X_0,𝓕_0,t)=Π_{x∈|X_0|}det(1−F*_x t^{deg(x)},𝓕_0)^{-1}.、faisceau constant 句、(1.14.2)（含分母 dfn 印刷 quirk 与 Σ_{n}Σ_{x∈X^{F^n}=X_0(F_{q^n})}）、Substituant 句、(1.14.3)、identité dans Q_ℓ[[t]] 句、(1.15) 字典段（F̄_q^1/F̄_q^2、σ:F̄_q^1→F̄_q^2、H_c^*(X_1,𝓕_1)≅H_c^*(X_2,𝓕_2).、F*=φ^{-1}(dans End(H_c^*(X,𝓕)))、(1.15.1) F*=F 的编号投影、Gal(k(x)/k(x_0)) 句）、(1.15.2)、En notations galoisiennes 句与末式。
 - 结果：PASS±（修复 5 处）。Luna 的修复与 dfn 保留（(1.14.2)）均确认；md 无游离页码。①(1.14.1)、(1.14.3)、末式共 4 处 det 恒等字形：按 p.004/p.005 确立的形态学标准（本页证据 p008_eq1141_det-08.png：窄干小衬线无旗=数字 1），`\mathrm{I}`/`I` 全部改 1。②(1.15.2) 印刷在首个 F* 的下标 x_0 下方另有小字定义标记「dfn」（p008_eq1152_dfn-08.png），md 完全漏录；Luna 只在 (1.14.2) 保留了 dfn、此处的 dfn 未处置。按印刷原样补录为下标堆叠 \substack{x_0 \\ dfn}。
 - 修复：①(1.14.1) `\det (\mathrm{I} …)`→`\det (1 …)`；②(1.14.3) 同；③④末式两处 `\det (I …)`→`\det (1 …)`；⑤(1.15.2) 首项 `\mathrm{F} _ {x _ {0}} ^ {*}`→`\mathrm{F} _ {\substack{x _ {0} \\ \mathrm{dfn}}} ^ {*}`。
+
+## p.009（PDF p.9 / 印刷 p.280）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 17:32 EDT。
+- PNG：audit-redo/p009.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p009_caracteristique-09.png、p009_ref_280-09.png（300dpi）。
+- 旧审计对照：Luna p.009 = FAIL→已修复（1/4、Tate twist 中 I→1、「caractéristique 0」）；本次重核修复后状态。
+- 核对：§2 节标题、(2.1) 起句（langage farfelu）、a) Variétés différentiables 全段（Z′、Tr:H_c^n(X,Z′)→Z、classe fondamentale）、b) Variétés complexes 起句、a) X²=−1/+i、b) R/Z 与 U¹={z∈C||z|=1}、+i est l'image de 1/4、c) exp(±2πix) 与 U¹、Z(1) 定义段（Ker(exp:C→C*)、y=±2πi、c):x↦exp(xy)）、Z(r) 幂句、(2.2) 全段（caractéristique o、Ẑ*/Z*、Z/ℓ^n(1)、système projectif）、σ_{m,n} 转移式、Z_ℓ(1)=lim proj、Q_ℓ(1)=Z_ℓ(1)⊗Q_ℓ、Q_ℓ(r)=Q_ℓ(−r)^∨。
+- 结果：PASS±（回退 1 处 Luna 修复）。内容全部吻合；Luna 的 1/4 与 Tate twist (1) 修复生效。①「caractéristique」后字形：300dpi 裁片显示为小写字母高度 o（与同 crop 内 choisir/isomorphismes 的 o 同形同高；页眉粗体 280 参照零远大之），印刷原文为「caractéristique o」——与 p.003 (p=o)、p.004 (dF=o)、p.276 (t=o) 同属本印刷体「零排作 o」的系统性 quirk。Luna 把 md 的 o 改为 0 属按数学预期改写印刷原样，回退为 o 并登记。范围外提示：行 426（印刷 p.283）、844（p.292）、904（p.293，即 Luna 重分类「caractéristique 0」的那处）的同模式实例，应由对应页块按同一 300dpi 比高法重裁——本块证据提示 Luna 的 p.022 判 0 很可能同样有误。
+- 修复：`caractéristique 0` → `caractéristique o`（md 行 308；依据 p009_caracteristique-09.png + p009_ref_280-09.png）。
