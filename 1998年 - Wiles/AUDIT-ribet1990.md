@@ -20,3 +20,11 @@
 - 修复（本页 commit，依据上述 300 dpi 裁片）：①在文件首补入题录块五段；②Niedersaechssische→Niedersaechsische；③还原 "Conditions.With"。
 - 印刷原文 quirk：封面题录写 "Gal (.../Q)"（GDZ 生成器无法排 Q̄ 上划线，字面三点省略）——修复①按印刷原样保留，不改为 Gal(Q̄/Q)。
 - 结果：PASS±（三项瑕疵均已当场修复闭环；修复后与原图逐项吻合）。
+
+## p.002（PDF p.2 / 印刷 p.431）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:05 -0400。
+- PNG：`audit/ribet1990_p002.png`（pngmono，150 dpi）；仲裁裁片：`audit/300dpi/ribet1990_p002_assume.png`（pnggray，300 dpi）。
+- 核对：题录（题名/K.A. Ribet/地址）、节标题顺序（1. Introduction → The Main Theorem）、表示 ρ: G → GL(2, F)、l ≥ 3、odd/eigenvalues +1, −1、trace(ρ)、finite at p 定义（[34]/[35], §2.8）、p ≢ 1 (mod l) 行间公式、段尾 "Our new" 接下页 ✓。
+- 印刷原文 quirk：印刷首行即 "Assume that **ρ** is a prime which exactly divides N (we write p ∥ N)"——主语排成 ρ（数学预期为 p），300 dpi 裁片确证为印刷原样；MD 与印刷一致，忠实保留不改。
+- 备注：页眉 "Invent. math. 100, 431–476 (1990) / Inventiones mathematicae © Springer-Verlag 1990" 为 mineru 惯例不收录；完整题录信息已在本 MD 文章题名块与 p.001 封面补录块中。
+- 结果：PASS。
