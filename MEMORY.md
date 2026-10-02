@@ -2,18 +2,19 @@
 
 ## 当前状态
 
-本仓库收集 1936–2022 年获奖者以及 2026 年新增获奖者的获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-01，AUDIT-INDEX 有 111 条论文记录，其中 71 篇完成、40 篇审计中。全仓有 141 个 PDF 路径；本轮 SHA-256 清点发现两个 byte-identical 双副本组，因此只有 139 个 distinct PDF byte streams。该结果不自动等于逻辑论文总数；AUDIT-INDEX 仍声明 140，数量口径冲突待闭合。Donaldson 1983（Peer-P03）已由 Master 集成于 `8713f2fc`；Drinfeld 候选 `f46300d1`、Witten `bc4605dc`、Deng `3e5e964b` 仍未集成、不计入完成。Git 当前注册 41 个 Peer worktree（main 共 42 个 checkout）：P03 的已集成 worktree 保留，新增 P40 worktree `716d`；P40 正式 threadId 与实际运行模型/effort 尚未观察到。
+本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02，AUDIT-INDEX 有 136 条记录：71 篇完成、40 篇原有并行分派（其中 P37 被错配 MinerU 导出阻塞，P40 仍在逐页产出候选）、另登记 25 篇待启动 Peer-P41–P65 前置映射任务。全仓有 141 个 PDF 路径；SHA-256 清点发现两个 byte-identical 双副本组、139 个 distinct PDF byte streams；逻辑论文/文件统计口径仍与 INDEX 的 140 声明不一致，尚未闭合。Donaldson 1983（Peer-P03）已由 Master 集成于 `8713f2fc`；Witten `bc4605dc` 与 Deng `3e5e964b` 有完整 Peer 候选但尚待 Master 集成。当前 task 列表只显示 P07 active、P37 idle；worktree/提交可证明多个 Peer 有页级产出，但不能证明所有 40 个原任务的 Host turn 都 active。P40 在 worktree `716d` 已提交至 p.51，p.52 有未提交图像/AUDIT 草稿；其候选页仍因方法范围复核未闭合而不计完成。
 
-项目治理骨架已于 2026-10-01 建立。用户新增了剩余 MinerU Markdown 正文修复的逐处 Edit 规则，已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。当前工作已恢复论文队列，先处理 `1990年 - Drinfeld/Drinfeld_1974_elliptic_modules.pdf`；现有 MinerU Markdown 可用。Codex 全局 MinerU skill 位于 `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 并已通过结构校验；CLI 4.0.8 可执行，但 MinerU library server 当前停止、standard 所需 GGUF 模型缺失，本轮未启动服务、下载模型或远程上传。
+项目治理骨架已于 2026-10-01 建立。用户新增的剩余 MinerU Markdown 正文逐处 Edit 规则已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。MinerU Skill 的最近检查快照为 2026-10-01：本地 MinerU 4.0.8 CLI 可执行，library server 当时停止、standard 所需 GGUF 模型缺失；每个缺失导出的 Peer 必须重新只读核对当前运行时，只可用已就绪的本地资源，不能启停服务、下载模型、改配置或远程上传。
 
 ## 当前执行队列
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求维持 40 个 Peer 并发；官方 Codex app 项目任务入口未公布数值上限 | AUDIT-INDEX 现在为 71 完成、40 审计中。P03 Donaldson 已集成；P40 Hong Wang/Zahl 127 页已创建独立 worktree 716d，等首个页级收据。41 个 Peer worktree 仍注册（含已集成 P03 checkout）；36/41 曾有 `audit(page)` commit。正式 Peer threadId/status 仍不可见；P40 仅有 provisional `clientThreadId`，实际 turn/model/effort 尚未运行时确认。Master 不做初始逐页审计，负责只读质量/路径核验、根级总账和 exact OID 集成 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有未并行处理文档尽量同时分派 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 新登记待启动。P37 被错误 MinerU 映射挡在 0/93；用户将向 P37 窗口发送更新提示词。P40 Hong Wang/Zahl 已提交 p.1–p.51，p.52 草稿未提交；候选仍未通过 Master 验收。工作树中可见 41 个 Peer checkout 加 main，但 Codex App 只显示 P07 active 与 P37 idle；不能把 checkout 数量说成 active turns。Master 只做调度、源路径/身份/证据与质量复核、总账维护和 exact-OID 集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
+- P37 的 `Birkar_2016_fano_flips` 前置映射失败：93 页 PDF 首页确为 Caucher Birkar 的 `arXiv:1603.05765v4`，而唯一同名 MinerU Markdown 是 Abolfazl Keshvari 的生产率分析论文。P37 0/93、worktree 论文文件未改；等待用户向 P37 task 发送新提示词。正确 MinerU 导出应先在独立路径生成/核验，不能改名冒充或覆盖当前错配 bundle。
 - `AUDIT-001` 的 Edit 修复行为尚未验证：p.4–5 已发现待修 OCR 差异，按全篇审计完成前不改 Markdown；之后须逐处手改并复读全文。
 - Drinfeld main 分支仍登记 5/32：p.1–3 PASS±、p.4–5 FAIL；worker worktree 已提交 p.1–32 审计、修复和澄清 commits，最新观察 HEAD 为 `f46300d1`，但最终修复后的全文回读/修复登记尚未由 Master 直接核实，候选仍未集成，Master 未编辑论文。
 - MinerU library server 当前停止；不得因 `server_not_running` 自动启动，后续若需新解析须先按 skill 的质量/隐私边界处理。现有 Markdown 可供逐页审阅。
@@ -122,3 +123,15 @@
 - 显式 `thinking="max"` 与 `model="gpt-6-luna"` 的 create_thread 组合被工具拒绝；本机配置只读核查显示默认 `model="gpt-6-luna"`、`model_reasoning_effort="max"`。因此 P40 创建时指定 model、未传 thinking override 以继承该已核默认值；任务 prompt 要求 Worker 开始前核实实际配置，不匹配即停止。运行时模型/effort 尚未确认，未静默降级到其他模型/effort。
 - AUDIT-INDEX 现为 111 行记录、71 篇完成、40 篇审计中；P40 具体 write set 是独占 Hong Wang 论文 Markdown、AUDIT 报告和带唯一短名前缀的 audit 图片。P40 的 Master DISPATCH 与 REVIEW 记录将与本工作单元其他 canonical 更新一并提交。
 - Master 对 P40 p.1 草稿的只读图像核验确认 PDF 印刷为 “Hausdorff”，MinerU Markdown 写成 “Hausdorf”；但该页图像为 1275×1650 8-bit RGB，而现行 AUDIT-SOP 要求 150dpi pngmono 1-bit。该页尚无 audit(page) commit/signoff；正式 threadId 不可见，Master 不能向 provisional clientThreadId 发送纠正。
+### E012 · 2026-10-01 · P40 页级候选持续审计与进度收据恢复
+
+- 从 41 个 Peer worktree 的 exact base/history 扫描，发现 38 条此前未投影到根日志的标准 audit(page) commits（覆盖 24 个 Peer actor，时间 20:59–21:48 EDT）；该切片有 99 个 changed-path 记录、86 个 distinct paths，无根级 owner 写入或跨 Peer 路径冲突。Master 将保留 exact source OID、actor/model/effort 并标 candidate_not_integrated。
+- P40 已提交 p.1–p.51 页级候选，p.52 image/AUDIT 为未提交草稿；提交 subject/AUDIT 行标 Peer-P40/gpt-6-luna/max，但正式 threadId/status 未显示。
+- p.1–p.17 图片为 8-bit RGB；AUDIT-SOP 的通用 pngmono 条款与 ZCODE-HANDOFF 的 born-digital 文本层主对账/PNG 抽验路线存在方法范围疑问。Master 保留该冲突、不接纳候选、不通过 clientThreadId steering。p.1 报告把 Hausdorf→Hausdorff 记为单处 PASS±，而 Markdown 搜索发现至少 5 处；全篇修复后须逐处复核。
+- Peer-P03 Donaldson 已在 8713f2fc 集成；Peer-P40 target 为 Hong Wang/Zahl。其余论文继续按精确候选、纸篇隔离和串行 Master 集成推进。
+### E014 · 2026-10-01 · Peer 候选页签持续收据与 P40 审计方法复核
+
+- 从 41 个 Peer worktree 按各自精确 base 对账，本批找到 76 条先前未写入根日志的标准 audit(page) commits，覆盖 24 个 Peer actor，commit 时间 21:52–23:30 EDT。对应 204 条 changed-path 记录、152 个 unique paths（以路径审计原始 receipt 为准），未发现根级 current-owner 路径或跨 Peer 文件碰撞。根日志逐条保存 full source OID，仍标 candidate_not_integrated。
+- P40 已提交 p.1–p.21，p.22 图像/报告为未提交草稿；Git subjects 标 Peer-P40/gpt-6-luna/max。正式 threadId/status 仍不可见，不能向 provisional clientThreadId 发消息或调用 wait/read。
+- P40 p.1–p.21 的页图为 8-bit RGB；现行 AUDIT-SOP 逐页流程指定 pngmono 1-bit，而 ZCODE-HANDOFF 对 born-digital 论文规定文本层主对账与 PNG 抽验。AGENTS 将逐页审计方法路由给 AUDIT-SOP，因此Master保持“模式范围未闭合/候选暂不接受”审计状态，不自行改治理文件或论文。
+- P40 p.1 报告的 Hausdorf→Hausdorff 差异在 MinerU Markdown 中至少重复五处，不能按单一 occurrences 的描述完成修复验收；该工作须留待全篇审计后逐处手改与全文复核。
