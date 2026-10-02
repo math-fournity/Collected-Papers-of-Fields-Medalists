@@ -56,3 +56,8 @@
 - PNG：`audit-redo/p009.png`（pngmono 150dpi）；(20) 后关键词终裁：`audit-redo/300dpi/p009_correct_word.png`（300dpi 裁片）。
 - 核对：微扰论各阶项消失段；tunneling/WKB/instantons 段；最陡下降方程 (20)；Morse 指数相差 1 条件段；路径 Λ 与 `V_A` 取向段。
 - 结果：PASS±。(20) `dφ_i/dλ = γ^{ij} ∂h/∂φ_j` 及正文逐项与印刷页相符；`V(φ) = t^2(dh)^2`、`V_A`、`D^2h/Dφ^iDφ^j`、`[14]` 引用一致；跨页断点一致（line 213 末 "we can go" 续至本页 "further and attempt to refine"）。print quirk：印刷原句 "the ones which **correct** two critical points whose Morse indices differ by one"（300dpi 裁片确认为 "correct"，非 "connect"；原刊用词如此）被 md line 233 忠实保留，不按数学预期改动。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 669" 未入 md（版面信息省略）。
+
+## p.010（PDF p.10 / 印刷 p.670）
+- PNG：`audit-redo/p010.png`（pngmono 150dpi）；脚注 3 下标终裁：`audit-redo/300dpi/p010_footnote3.png`（300dpi 裁片）。
+- 核对：路径 Γ 取向定义两段；(21) `n(a,b) = Σ_Γ n_Γ`；(22) `δ|a⟩ = Σ_b n(a,b)|b⟩`；`δδ* + δ*δ` 谱与 `Y_p` 上界段；脚注 3。
+- 结果：PASS±。正文、(21)–(22)、`Y_p` 论证及跨页断点（line 259 末 "but also in"）逐项与印刷页相符。**Luna 旧修复重核：11 个 DocVortex 脚注碎片清除后无残留，完整脚注 3 保留，正确**。print quirk：脚注 3 印刷原句 "As **V_s** interpolates smoothly from Ṽ_B to V_A … via V_x"（300dpi 确认下标为 `s`，与同句 `V_x` 不一致系原刊排版如此）被 md line 261 忠实保留，不按上下文改为 `V_x`。差异仅：页眉 "670 EDWARD WITTEN" 未入 md（版面信息省略）。
