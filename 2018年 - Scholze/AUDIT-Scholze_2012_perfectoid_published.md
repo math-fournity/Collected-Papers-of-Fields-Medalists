@@ -298,3 +298,15 @@
   6. Prop 4.4："two$\mathrm{K}^\circ.$-modules"伪'.$'→$\mathrm{K}^\circ$-modules；"-modulefor"→-module for（p.268 Prop 4.4 行）
   7. alHom 句：",$we"补空格、句末补句点（p.268 末行）
 - 备注：六个范畴的 display 链与 print 逐字符一致（含 f-acute）；其余段落无差异。
+## p.025（PDF p.25 / 印刷 p.269）
+- PNG：audit/p025.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/269；Proposition 4.5 [15, §2.2.6, §2.2.12]（abelian tensor category、M^a⊗N^a=(M⊗N)^a display、Hom(L,alHom(M,N))=Hom(L⊗M,N) display）；K^{°a}-algebra 抽象定义段；Proposition 4.6 [15, Prop 2.2.14]（right adjoint K^{°a}-mod→K°-mod: M↦M_* display、M_*=Hom_{K^{°a}}(K^{°a},M) display、(M_*)^a≅M、(M^a)_*=Hom(𝔪,M)）；A_* K°-algebra 段；Definition/Proposition 4.7 (i)（flat、Tor_i^R(N,X) almost zero）
+- 结果：**FAIL**（OCR 排版级伪影为主，1 处符号差异已修，以原图为准）：
+  1. Prop 4.5 头 "[15,$\\{2.2.6,\\S2.2.12\\}.-\\T$he"→"[15, §2.2.6, §2.2.12]. — The"；"$e.g.$"出 math→e.g.（p.269 Prop 4.5 行原图）
+  2. "afunctorial"→a functorial（p.269 for any two 段）
+  3. "$\mathrm{K}^{\circ a}.$-algebra"×2 伪'.$'→$\mathrm{K}^{\circ a}$-algebra；"ofan"→of an；"$\mathrm{R}^{a},$, as"→"$\mathrm{R}^{a}$, as"（p.269 This means 段）
+  4. Prop 4.6 头 "2.2.$I4].-T$here"→"2.2.14]. — There"（I4 系 14 误读）；"localizationfunctor"→localization functor、"$\mathbf{M}\mapsto\mathbf{M}^a.$,"→"$\mathbf{M}\mapsto\mathbf{M}^a$,"（p.269 Prop 4.6 行）
+  5. "then$(\mathbf{M}^a)_*=$ Hom(m, M)"拆分 run→"$(\mathbf{M}^a)_*=\operatorname{Hom}(\mathfrak m,\mathrm M)$"（𝔪 fraktur，PNG 确认）（p.269 adjunction 段）
+  6. "$\mathrm{K}^{\circ a}-{\acute c}$algebra"（连字符乱码为 acute-c）→"$\mathrm{K}^{\circ a}$-algebra"；"$\mathrm A_*^a=\mathrm A$"与"$\mathrm A\to\mathrm B$"句末补句点×2；"$\mathrm{K}^{\circ a}.$-modules"伪'.$'（p.269 If A is 段）
+  7. (i)：isflat/ifthefunctor/isflat ifand only iffor 补空格、"$H\mathrm R$"→If R、"$i>0_i$"伪下标删（p.269 Def/Prop 4.7 (i) 行）
+- 备注：M^a⊗N^a 与 Hom 两个 display 与 print 一致（print 的 Hom 无 K^{°a} 下标，MD 亦无，不添加）；(ii)(iii) 与 Proof 属印刷 p.270，留待 p.026。

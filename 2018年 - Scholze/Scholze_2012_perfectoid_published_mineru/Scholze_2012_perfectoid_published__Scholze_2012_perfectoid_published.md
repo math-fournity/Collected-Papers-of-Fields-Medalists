@@ -750,41 +750,41 @@ In particular,$\mathrm { H o m } _ { \mathrm { K } ^ { \circ a } } ( \mathrm { X
 
 For two$\mathrm { K } ^ { \circ a }$-modules$\mathrm { { M } , N , }$we define alHom$\operatorname { ( X , Y ) } = \operatorname { H o m } ( \mathrm { X , Y } ) ^ { a }$.
 
-Proposition 4.5$[ I 5 , \{ 2 . 2 . 6 , \ S 2 . 2 . 1 2 \} . - \ T$he category$\mathrm { K } ^ { \circ a }$-mod is an abelian tensor category, where we define kernels, cokernels and tensor products in the unique way compatible with their definition in K<sup>◦</sup>-mod,$e . g .$
+Proposition 4.5 [15, §2.2.6, §2.2.12]. — The category$\mathrm { K } ^ { \circ a }$-mod is an abelian tensor category, where we define kernels, cokernels and tensor products in the unique way compatible with their definition in K<sup>◦</sup>-mod, e.g.
 
 $$
 \mathbf {M} ^ {a} \otimes \mathbf {N} ^ {a} = (\mathbf {M} \otimes \mathbf {N}) ^ {a}
 $$
 
-for any two$\mathrm { K } ^ { \circ }$-modules M, N. For any three$\mathrm { K } ^ { \circ a }$-modules L, M, N, there is afunctorial isomorphism
+for any two$\mathrm { K } ^ { \circ }$-modules M, N. For any three$\mathrm { K } ^ { \circ a }$-modules L, M, N, there is a functorial isomorphism
 
 $$
 \operatorname{Hom} \bigl (\mathrm{L}, \operatorname{alHom} (\mathrm{M}, \mathrm{N}) \bigr) = \operatorname{Hom} (\mathrm{L} \otimes \mathrm{M}, \mathrm{N}).
 $$
 
-This means that$\mathrm { K } ^ { \circ a }$-mod has all abstract properties of the category of modules over a ring. In particular, one can define in the usual abstract way the notion of a$\mathrm { K } ^ { \circ a } .$ algebra. For any$\mathrm { K } ^ { \circ a }$-algebra$\mathrm { A } ,$one also has the notion ofan A-module. Any$\mathrm { K } ^ { \circ }$-algebra R defines a$\mathrm { K } ^ { \circ a }$-algebra$\mathrm { R } ^ { a } ,$, as the tensor products are compatible. Moreover, localization also gives a functor from R-modules to$\mathbf { R } ^ { a }$-modules. For example,$\mathrm { K } ^ { \circ }$gives the$\mathrm { K } ^ { \circ a } .$ algebra$\mathrm { A } = \mathrm { K } ^ { \circ a }$, and then A-modules are$\mathrm { K } ^ { \circ a }$-modules, so that the terminology is consistent.
+This means that$\mathrm { K } ^ { \circ a }$-mod has all abstract properties of the category of modules over a ring. In particular, one can define in the usual abstract way the notion of a$\mathrm { K } ^ { \circ a }$-algebra. For any$\mathrm { K } ^ { \circ a }$-algebra$\mathrm { A }$, one also has the notion of an A-module. Any$\mathrm { K } ^ { \circ }$-algebra R defines a$\mathrm { K } ^ { \circ a }$-algebra$\mathrm { R } ^ { a }$, as the tensor products are compatible. Moreover, localization also gives a functor from R-modules to$\mathbf { R } ^ { a }$-modules. For example,$\mathrm { K } ^ { \circ }$gives the$\mathrm { K } ^ { \circ a }$-algebra$\mathrm { A } = \mathrm { K } ^ { \circ a }$, and then A-modules are$\mathrm { K } ^ { \circ a }$-modules, so that the terminology is consistent.
 
-Proposition 4.6 [15, Proposition 2.2.$I 4 ] . - T$here is a right adjoint
+Proposition 4.6 [15, Proposition 2.2.14]. — There is a right adjoint
 
 $$
 \mathrm{K} ^ {\circ a} \text {-mod} \rightarrow \mathrm{K} ^ {\circ} \text {-mod}: \mathrm{M} \mapsto \mathrm{M} _ {*}
 $$
 
-to the localizationfunctor$\mathbf { M } \mapsto \mathbf { M } ^ { a } .$, given by the functor of almost elements
+to the localization functor$\mathbf { M } \mapsto \mathbf { M } ^ { a }$, given by the functor of almost elements
 
 $$
 \mathrm{M} _ {*} = \operatorname{Hom} _ {\mathrm{K} ^ {\circ a}} \left(\mathrm{K} ^ {\circ a}, \mathrm{M}\right).
 $$
 
-The adjunction morphism$( \mathbf { M } _ { * } ) ^ { a } \to \mathbf { M }$is an isomorphism. If M is a$\mathrm { K } ^ { \circ }$-module, then$( \mathbf { M } ^ { a } ) _ { * } =$ Hom(m, M).
+The adjunction morphism$( \mathbf { M } _ { * } ) ^ { a } \to \mathbf { M }$is an isomorphism. If M is a$\mathrm { K } ^ { \circ }$-module, then$( \mathbf { M } ^ { a } ) _ { * } = \operatorname { H o m } ( \mathfrak { m } , \mathrm { M } )$.
 
-If A is a$\mathrm { K } ^ { \circ a } - { \acute { c } }$algebra, then$\mathrm { A } _ { * }$has a natural structure as$\mathrm { K } ^ { \circ }$-algebra and$\mathrm { A } _ { * } ^ { a } = \mathrm { A }$ In particular, any$\mathrm { K } ^ { \circ a }$-algebra comes via localization from a K<sup>◦</sup>-algebra. Moreover, the functor$\mathrm { M } \mapsto \mathrm { M } _ { * }$induces a functor from A-modules to$\mathrm { A } _ { * }$-modules, and one sees that also all A-modules come via localization from$\mathrm { A } _ { * }$-modules. We note that the category of A-modules is again an abelian tensor category, and all properties about the category of $\mathrm { K } ^ { \circ a } .$-modules stay true for the category of A-modules. We also note that one can equivalently define A-algebras as algebras over the category of A-modules, or as$\mathrm { K } ^ { \circ a }$-algebras B with an algebra morphism$\mathrm { A } \to \mathrm { B }$
+If A is a$\mathrm { K } ^ { \circ a }$-algebra, then$\mathrm { A } _ { * }$has a natural structure as$\mathrm { K } ^ { \circ }$-algebra and$\mathrm { A } _ { * } ^ { a } = \mathrm { A }$. In particular, any$\mathrm { K } ^ { \circ a }$-algebra comes via localization from a K<sup>◦</sup>-algebra. Moreover, the functor$\mathrm { M } \mapsto \mathrm { M } _ { * }$induces a functor from A-modules to$\mathrm { A } _ { * }$-modules, and one sees that also all A-modules come via localization from$\mathrm { A } _ { * }$-modules. We note that the category of A-modules is again an abelian tensor category, and all properties about the category of $\mathrm { K } ^ { \circ a }$-modules stay true for the category of A-modules. We also note that one can equivalently define A-algebras as algebras over the category of A-modules, or as$\mathrm { K } ^ { \circ a }$-algebras B with an algebra morphism$\mathrm { A } \to \mathrm { B }$.
 
 Finally, we need to extend some notions from commutative algebra to the almost context.
 
 Definition/Proposition 4.7. — Let A be any$\mathrm { K } ^ { \circ a }$-algebra.
 
-(i) An A-module M isflat ifthefunctor$\mathrm { X } \mapsto \mathrm { M } \otimes _ { \mathrm { A } } \mathrm { X }$on A-modules is exact.$H \mathrm { R }$is a $\mathrm { K } ^ { \circ }$-algebra and N is an R-module, then the$\mathbf { R } ^ { a }$-module$\mathrm { N } ^ { a }$isflat ifand only iffor all R-modules X and all$i > 0 _ { i }$, the module$\mathrm { T o r } _ { i } ^ { \mathrm { R } } ( \mathrm { N } , \mathrm { X } )$is almost zero.
+(i) An A-module M is flat if the functor$\mathrm { X } \mapsto \mathrm { M } \otimes _ { \mathrm { A } } \mathrm { X }$on A-modules is exact. If R is a $\mathrm { K } ^ { \circ }$-algebra and N is an R-module, then the$\mathbf { R } ^ { a }$-module$\mathrm { N } ^ { a }$is flat if and only if for all R-modules X and all$i > 0$, the module$\mathrm { T o r } _ { i } ^ { \mathrm { R } } ( \mathrm { N } , \mathrm { X } )$is almost zero.
 
 (ii) An A-module M is almost projective if the functor$\mathrm { X \mapsto a l H o m _ { A } ( M , X ) }$on A-modules is exact. IfR is a K<sup>◦</sup>-algebra and N is an R-module, then$\mathrm { N } ^ { a }$is almost projective over$\mathbf { R } ^ { a }$ ifand only iffor all R-modules X and all$i > 0$, the module$\mathrm { E x t } _ { \mathrm { R } } ^ { i } ( \mathrm { N } , \mathrm { X } )$is almost zero.
 
