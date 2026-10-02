@@ -54,6 +54,15 @@
 - 差异：(a) Bianchi 恒等式中间项印刷为 ∇_i R̄^m_ij（R 上有短横，原 PDF 印刷 quirk；600dpi p006_barline_600dpi.png 证实）——MD 以 `\bar { R _ { i j } ^ { m } }` 忠实保留，一致；(b) 印刷 "= 1/2∇_jR^m**.**" 行尾句点存在（p006_period_300dpi.png），MD 该句点缺失（丢字符类排版伪影，不误导数学内容，按 SOP 默认不批量改，仅登记）。
 - 备注：其余公式（(1.4)、F_t 链、∇*∇u_i/∇*∇ψ、∇*m 系列、δ^mψ、R^m=2△f−|∇f|²+R、g^ijR^m_ij=R+△f≠R^m）与文本逐项一致。
 
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit-redo/p007.png（pngmono 150dpi）；仲裁图 audit-redo/p007_trivial_300dpi.png
+- 核对：2.1 soliton 定义段（R_ij+cg_ij+∇_ib_j+∇_jb_i=0、b_i=½∇_ia、Gaussian soliton a=−|x|²/2）、§2 导语段、2.2 λ 定义与单调性、2.3 λ̄ 与 Claim、Indeed 括注（−d/dt logV = (1/V)∫RdV ≥ λ(t)）、Proof of the claim 三行不等式链
+- 结果：PASS±（两处词/标点级偏差，已按原图修复；一处行尾句点缺失登记不改）
+- 差异与修复：(a) 印刷 "differ only by **diffeomorphism** and scaling"，MD 多出冠词 "a"（300dpi 仲裁）→ 已删；(b) 印刷 "for each pair of t_1 and t_2, are called"，MD 作 "$t_2,$,"（math 逗号+文本逗号双写）→ 已改为 "$t_2$, are called"。
+- 登记不改：印刷行尾 "a = −|x|²/2**.**" 句点存在（PNG/pdftotext 双证），MD 缺失——丢字符类排版伪影，不误导，按 SOP 默认不批量改。
+- 备注：Claim 斜体段、"can not"、"t∈[t₁,t₂]" 紧排、三行不等式链（含 λ∫−RdV）逐项一致。
+
+
 
 
 
