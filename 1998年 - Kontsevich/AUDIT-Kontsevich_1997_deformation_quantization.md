@@ -164,3 +164,10 @@
 - 结果：`FAIL`→3 处已修复：①行 989 `of points in . Analogously`→`of points in$\mathcal{H}$. Analogously`（𝓗 丢失，PNG+文本层确凿）；②行 1001 `$\mathbf{Z}_{>0}$`→`$\mathbf{Z}_{\geq 0}$`：印刷为 Z_{≥0}（PNG+文本层确凿，数学内容错误——定义允许 m=0）；③行 1023 `$\phi([(x,y)])$) simply` 幻影闭括号已删。print quirk 忠实保留：行 1013 `starting from$s ,$`（300dpi 确证印刷原文为 s，语义应为 k，原文如此）；行 1001 `{1̄,…,m̄}` 带杠记号原样。其余 PASS±：行 1017 §6.2 标题 `Diferential`（ff 拍平）；行 981/1003/1021 句末缺逗号/句点；行 1021 `of the$Eye,$` 逗号入式（登记）。公式行 986/992/1010 与印刷逐符号吻合。
 - 备注：行 1029 起（W_Γ weight 公式）为印刷 p.23 内容，在 p.023 核对。
 
+## p.023（PDF p.23 / 印刷 p.23）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p023.png`（pngmono 150dpi）
+- 核对：W_Γ weight 公式（∏1/(#Star(k))!·1/(2π)^{2n+m−2}∫_{C̄⁺_{n,m}}⋀_{e∈E_G}dφ_e，E_G 下标为印刷原貌）、C̄⁺_{n,m} 增序定向段（q₁<…<q_m）、Conf_{n,m} 定向段、forgetting map/φ_e 拉回段、wedge 序段、积分良定义段、§6.3 节标题、U_Γ 线性映射段（⊗^n T_poly⟶D_poly[1+l−n]、k_i=#Star(i)−1、anti-symmetrization）、Φ 定义式、Σ_{I:E_Γ→{1..d}}Φ_I 式、ψ_i=⟨γ_i,dx^{I(e_i^1)}⊗…⟩ 式、polyvector↔skew-tensor 标识式、ψ_j̄=f_j 段、顶点偏导 ∏∂_{I(e)}ψ_v 式（MD 行 1029–1082）。
+- 结果：`FAIL`→6 处已修复：①行 1039 `on complex manifold . Thus,`→`on complex manifold$\mathcal{H}$. Thus,`（𝓗 丢失，PNG+文本层确凿）；②行 1047 §6.3 标题 `Pre-$L_{\infty}.$-morphisms` 杂散句点已删；③行 1049 `a linear map$I_{\Gamma}:`→`$\mathcal{U}_{\Gamma}:`（字母错写 I，印刷/文本层均为花体 U_Γ）；④行 1049 `$l\in\mathbf{Z}.$,` 双句点已删；⑤行 1049 `i = 1,\dots,n.$.` 双句点已删；⑥行 1049 `then from <sub>Γ</sub> after`→`then from$\mathcal{U}_{\Gamma}$ after`（𝒰_Γ 丢失）。print quirk 忠实保留：行 1030 ⋀ 下标 `E_G`（印刷原貌，全篇他处为 E_Γ）；行 1063 印刷 `functions$g_j$`（通篇函数记号为 f_j，原文如此）；行 1030 `∫` 下标 C̄⁺_{n,m} 原样。其余 PASS±：行 1045 `diferential`、行 1063/1065 `coeficients`（ff 拍平）；行 1039/1041 句末缺句点；行 1057 逗号入式（登记）。公式行 1030/1036/1054/1060/1068/1074/1082 与印刷逐符号吻合。
+- 备注：行 1085 起（and then take the product…）为印刷 p.24 内容，在 p.024 核对。
+

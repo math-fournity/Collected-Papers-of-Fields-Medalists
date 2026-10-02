@@ -1036,7 +1036,7 @@ $$
 q _ {1} <   \ldots <   q _ {m}.
 $$
 
-The orientation of$C o n f _ { n , m }$is the product of the standard orientation on the coordinate space$\mathbf { R } ^ { m } \supset$ $\{ ( q _ { 1 } , \ldots , q _ { m } ) | q _ { j } \in \mathbf { R } \}$, with the product of standard orientations on the plane$\mathbf { R } ^ { 2 }$(for points$p _ { i } \in \mathcal { H } \subset \mathbf { R } ^ { 2 } )$ The group$G ^ { ( 1 ) }$is even-dimensional and naturally oriented because it acts freely and transitively on complex manifold . Thus, the quotient space$C _ { n , m } = C o n f _ { n , m } / G ^ { ( 1 ) }$carries again a natural orientation.
+The orientation of$C o n f _ { n , m }$is the product of the standard orientation on the coordinate space$\mathbf { R } ^ { m } \supset$ $\{ ( q _ { 1 } , \ldots , q _ { m } ) | q _ { j } \in \mathbf { R } \}$, with the product of standard orientations on the plane$\mathbf { R } ^ { 2 }$(for points$p _ { i } \in \mathcal { H } \subset \mathbf { R } ^ { 2 } )$ The group$G ^ { ( 1 ) }$is even-dimensional and naturally oriented because it acts freely and transitively on complex manifold$\mathcal { H }$. Thus, the quotient space$C _ { n , m } = C o n f _ { n , m } / G ^ { ( 1 ) }$carries again a natural orientation.
 
 Every edge e of Γ defines a map from$\overline { { C } } _ { n , m }$to$\overline { { C } } _ { 2 , 0 }$or to$\overline { { C } } _ { 1 , 1 } \subset \overline { { C } } _ { 2 , 0 }$(the forgetting map). Here we consider inclusion$\overline { { C } } _ { 1 , 1 }$in$\overline { { C } } _ { 2 , 0 }$as the lower interval of the Eye. The pullback of the function φ by the map $\overline { { C } } _ { n , m } { \longrightarrow } \overline { { C } } _ { 2 , 0 }$corresponding to edge e is denoted by$\phi _ { e }$
 
@@ -1044,9 +1044,9 @@ Finally, the ordering in the wedge product of 1-forms$d \phi _ { e }$is fixed by
 
 The integral giving$W _ { \Gamma }$is well-defined because it is an integral of a smooth diferential form over a compact manifold with corners.
 
-## 6.3. Pre-$L _ { \infty } .$-morphisms associated with graphs
+## 6.3. Pre-$L _ { \infty }$-morphisms associated with graphs
 
-For any admissible graph Γ with n vertices of the first type, m vertices of the second type, and$2 n +$ $m - 2 + l$edges where$l \in \mathbf { Z } .$, we define a linear map$I _ { \Gamma } : \otimes ^ { n } T _ { p o l y } ( { \bf R } ^ { d } ) { \longrightarrow } D _ { p o l y } ( { \bf R } ^ { d } ) [ 1 + l - n ]$. This map has only one non-zero graded component$( \mathcal { U } _ { \Gamma } ) _ { ( k _ { 1 } , \dots , k _ { n } ) }$where$k _ { i } = \# S t a r ( i ) - 1 , \ i = 1 , \dots , n .$. If$l = 0$then from <sub>Γ</sub> after anti-symmetrization we obtain a pre-$L _ { \infty }$-morphism.
+For any admissible graph Γ with n vertices of the first type, m vertices of the second type, and$2 n +$ $m - 2 + l$edges where$l \in \mathbf { Z }$, we define a linear map$\mathcal { U } _ { \Gamma } : \otimes ^ { n } T _ { p o l y } ( { \bf R } ^ { d } ) { \longrightarrow } D _ { p o l y } ( { \bf R } ^ { d } ) [ 1 + l - n ]$. This map has only one non-zero graded component$( \mathcal { U } _ { \Gamma } ) _ { ( k _ { 1 } , \dots , k _ { n } ) }$where$k _ { i } = \# S t a r ( i ) - 1 , \ i = 1 , \dots , n$. If$l = 0$then from$\mathcal { U } _ { \Gamma }$ after anti-symmetrization we obtain a pre-$L _ { \infty }$-morphism.
 
 Let$\gamma _ { 1 } , \ldots , \gamma _ { n }$be polyvector fields on$\mathbf { R } ^ { d }$of degrees$( k _ { 1 } + 1 ) , \ldots , ( k _ { n } + 1 )$, and$f _ { 1 } , \ldots , f _ { m }$be functions on$\mathbf { R } ^ { d }$. We are going to write a formula for function Φ on$\mathbf { R } ^ { n }$:
 
