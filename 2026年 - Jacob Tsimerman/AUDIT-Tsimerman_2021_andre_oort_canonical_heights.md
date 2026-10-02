@@ -199,3 +199,12 @@
 - 核对：§5.1.1 intrinsic valuation 余段、§5.1.2 crystalline valuations、§5.2 开头至 intrinsic norm 与 crystalline norm 分节。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 853 行在正文把 degree-p isogeny 写成 `E E'`，漏掉映射箭头；第 863 行同一 isogeny 再次出现时则有 `E → E'`。150dpi 页图与 PDF 文本层均显示第一处印刷原文为 `E → E'`，故这是单处转录漏符号。其余本页 valuation 公式与印刷排版相符。
+
+## p.023（PDF p.23 / 印刷 p.23）
+- 时间：2026-10-01 23:14:46 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p023.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p023_Faltings-height.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p023_Shimura-map.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p023_Res-field.png`
+- 核对：§5.2 crystalline norm 的 Faltings-height 算式及 §6.1 Basic definitions。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 867 行把 Faltings 高度增量分母 `2p` 写成 `2\upsilon`。第 881 行 Shimura datum 的 homomorphism `f : S → G_R` 漏掉箭头。第 893 行把 `Res_{F/\mathbb Q}` 误录为 `Res_{F/\mathbb 0}`，并省略 `G_R` 与 Hermitian domain 两个乘积的下标范围（源文分别为 `σ:F→R` 与 `σ∈I_nc`）。300dpi 裁片逐项确认分母、箭头、基域和索引集合。
