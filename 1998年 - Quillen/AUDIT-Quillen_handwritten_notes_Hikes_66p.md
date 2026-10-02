@@ -173,3 +173,13 @@
 - 印刷证据与差异：300dpi 裁片在 `BE=X_3→K(H_3X_3,3)` 与 `BN=X_2→K(H_2X_2,2)` 两处均写 `K`，基线第 503 行将其写成 `H`；第 517 行又把纤维空间 `\Pi(H_2X_2,1)` 错成 `H(H_2X_2,1)`，并多出 `H(N,1)` 残片。第 520 行把 `π_1X_3` 的下标识别为逗号。第 532–543 行将路径提升/作用图中的空间、端点和箭头关系压平；虽第 537 行单独的 `(f,t)↦p(α(t))` 可读，整体定义在 Markdown 中不再与原图对应。第 550 行的孤立中文 `行` 不见于原图，属伪 OCR 残留。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片还原空间对象和 action 图，并去除经原图确认的残片。
 - 记录：2026-10-01 23:31:24 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.017（PDF p.17 / 纸面圈号 17）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p017.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p017_central-action.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p017_obstruction-theory.png`。
+- 核对：`π_1X_3` 对纤维同伦群的平凡作用与 central extension；`H_2(BN)=0` 的中心扩张引理；obstruction theory 对 `K(A,n)` 纤维化的分类与 `H^2(BN,A)` 的 UCT 分解。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 action 结论涉及 `π_1X_3`、`π_1K(H_2X_2,1)` 与 `H_2(BN)`，基线第 552–554 行把该图与作用写成拼接的 `Π/H/π_x` 残式，无法复核中心性论证。中心扩张证明原图的纤维为 `BA=K(A,1)`，基线第 563 行写成 `IT(A,V)`；obstruction 分类的上标是 `H^{n+1}(-,A)`，基线第 565 行误成 `H^{m+1}`。原图 §Fact 使用 `K(A,n)→E→B` 与唯一映射 `B→K(A,n+1)`，基线第 567 行写成 `π(A,n)`。原图最后一项为 `Ext(H_1(BN),A)`，基线第 575 行把 `H_1(BN)` 的次序/下标拆坏，影响由 `H_1(BN)=0` 得到 `u=0` 的依据。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核作用、纤维类型及 Ext 项。
+- 记录：2026-10-02 00:13:22 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
