@@ -1,12 +1,14 @@
 # Deformation Quantization of Poisson Manifolds
 
+Letters in Mathematical Physics 66: 157–216, 2003. © 2003 Kluwer Academic Publishers. Printed in the Netherlands.
+
 MAXIM KONTSEVICH
 
 I.H.E.S., 35 route de Chartres, Bures-sur-Yvette 91440, France. e-mail: maxim@ihes.fr
 
 (Received: 2 February 2004)
 
-Abstract. I prove that every finite-dimensional Poisson manifold X admits a canonical deformation quantization. Informally, it means that the set of equivalence classes of associative algebras close to the algebra of functions on X is in one-to-one correspondence with the set of equivalence classes of Poisson structures on X modulo difeomorphisms. In fact, a more general statement is proven (the ‘Formality conjecture’), relating the Lie superalgebra of polyvector fields on X and the Hochschild complex of the algebra of functions on X. Coefficients in explicit formulas for the deformed product can be interpreted as correlators in a topological open string theory, although I do not explicitly use the language of functional integrals.
+Abstract. I prove that every finite-dimensional Poisson manifold X admits a canonical deformation quantization. Informally, it means that the set of equivalence classes of associative algebras close to the algebra of functions on X is in one-to-one correspondence with the set of equivalence classes of Poisson structures on X modulo diffeomorphisms. In fact, a more general statement is proven (the ‘Formality conjecture’), relating the Lie superalgebra of polyvector fields on X and the Hochschild complex of the algebra of functions on X. Coefficients in explicit formulas for the deformed product can be interpreted as correlators in a topological open string theory, although I do not explicitly use the language of functional integrals.
 
 Mathematics Subject Classifications (2000). 53D55, 16E40, 18G55, 58A50.
 
@@ -20,7 +22,7 @@ Here follows a guide to a short and definitely not complete additional bibliogra
 
 First of all, I have to mention the work of Dmitry Tamarkin (see [45] and a nice exposition in [23]), which gave a radically new approach to the formality theorem. One of main ideas is to consider the Lie algebras$T _ { \mathrm { p o l y } }$and$D _ { \mathrm { p o l y } }$not just as dg Lie algebras, but as homotopy Gerstenhaber algebras, which naturally explains the cup product on the tangent space. A very important related issue here is the so-called Deligne conjecture which says that on the Hochschild complex of an arbitrary associative algebra there is a natural action of the dg operad of chains of the little discs operad. The Deligne conjecture has now several proofs (see, e.g., [37, 38]), and a generalization to higher dimensions in [27]. Unfortunately, up to now, it is not clear how to extract explicit formulas from Tamarkin’s work, or even how to compare it with the formality morphism from [34]. Tamarkin’s proof is based on the Etingof– Kazhdan theorem about quantizations of Lie bialgebras, which is, in a sense, more complicated (and less explicit) than the Formality theorem itself! It seems that the
 
-Etingof–Kazhdan theorem is a ‘degree zero’ part of a more general not yet established result of the formality of the diferential graded Lie algebra controlling deformations of the symmetric algebra SymðVÞ of a vector space, considered as an associative and coassociative bialgebra. On this Lie algebra there should be an action of the operad of chains of little three-dimensional cube operad and its formality should be considered as a natural generalization of the Formality theorem from [34]. Up to now there is no explicit complex of a ‘reasonable size’, controlling deformations of bialgebras, see [40] for some recent attempts. We should notice also that Tamarkin deduced (see [46]) the Etingof–Kazhdan theorem from Deligne’s conjecture and the formality of the little discs operad. Unfortunately some elements of his proof are too formal and it is not clear how to translate them into geometry.
+Etingof–Kazhdan theorem is a ‘degree zero’ part of a more general not yet established result of the formality of the diferential graded Lie algebra controlling deformations of the symmetric algebra Sym(V) of a vector space, considered as an associative and coassociative bialgebra. On this Lie algebra there should be an action of the operad of chains of little three-dimensional cube operad and its formality should be considered as a natural generalization of the Formality theorem from [34]. Up to now there is no explicit complex of a ‘reasonable size’, controlling deformations of bialgebras, see [40] for some recent attempts. We should notice also that Tamarkin deduced (see [46]) the Etingof–Kazhdan theorem from Deligne’s conjecture and the formality of the little discs operad. Unfortunately some elements of his proof are too formal and it is not clear how to translate them into geometry.
 
 In [35] I have tried to perform a shortcut in Tamarkin’s proof avoiding the reference to Etingof–Kazhdan’s result. Also I proposed a new formality morphism with complex coeficients, diferent from the one in [34]. Conjecturally, the new morphism behaves in a better way than the old one with respect to the arithmetic nature of the coeficients (weights of graphs) and should coincide with Tamarkin’s quasi-isomorphism up to homotopy.
 
@@ -104,13 +106,13 @@ $$
 (f, g) \mapsto f \star g = f g + \hbar B _ {1} (f, g) + \hbar^ {2} B _ {2} (f, g) + \dots \in A [ [ \hbar ] ],
 $$
 
-where h is the formal variable and$B _ { i }$are bidiferential operators (i.e. bilinear maps $A \times A \longrightarrow A$which are diferential operators with respect to each argument of globally bounded order). The product of arbitrary elements of$A [ [ \hbar ] ]$is defined by the condition of linearity over$\mathbb { R } [ [ \hbar ] ]$and h-adic continuity:
+where ℏ is the formal variable and$B _ { i }$are bidiferential operators (i.e. bilinear maps $A \times A \longrightarrow A$which are diferential operators with respect to each argument of globally bounded order). The product of arbitrary elements of$A [ [ \hbar ] ]$is defined by the condition of linearity over$\mathbb { R } [ [ \hbar ] ]$and ℏ-adic continuity:
 
 $$
 \left(\sum_ {n \geqslant 0} f _ {n} \hbar^ {n}\right) \star \left(\sum_ {n \geqslant 0} g _ {n} \hbar^ {n}\right) := \sum_ {k, l \geqslant 0} f _ {k} g _ {l} \hbar^ {k + l} + \sum_ {k, l \geqslant 0, m \geqslant 1} B _ {m} (f _ {k}, g _ {l}) \hbar^ {k + l + m}.
 $$
 
-There is a natural gauge group acting on star products. This group consists of automorphisms of$A [ [ \hbar ] ]$considered as an$\mathbb { R } [ [ \hbar ] ]$-module (i.e. linear transformations $A \longrightarrow A$parametrized by h), of the following form:
+There is a natural gauge group acting on star products. This group consists of automorphisms of$A [ [ \hbar ] ]$considered as an$\mathbb { R } [ [ \hbar ] ]$-module (i.e. linear transformations $A \longrightarrow A$parametrized by ℏ), of the following form:
 
 $$
 \begin{array}{l} f \mapsto f + \hbar D _ {1} (f) + \hbar^ {2} D _ {2} (f) + \dots \text {   for   } f \in A \subset A [ [ \hbar ] ], \\ \sum_ {n \geqslant 0} f _ {n}   \hbar^ {n} \mapsto \sum_ {n \geqslant 0} f _ {n}   \hbar^ {n} + \sum_ {n \geqslant 0, m \geqslant 1} D _ {m} (f _ {n})   \hbar^ {n + m}, \quad \text {   for   general   element   } f (\hbar) \\ = \sum_ {n \geqslant 0} f _ {n}   \hbar^ {n} \in A [ [ \hbar ] ], \end{array}
@@ -126,7 +128,7 @@ We are interested in star products up to gauge equivalence.
 
 ## 1.2. FIRST APPROXIMATION: POISSON STRUCTURES
 
-It follows from the associativity of ? that the bilinear map$B _ { 1 } \colon A \times A { \longrightarrow } A$satisfies the equation
+It follows from the associativity of ⋆ that the bilinear map$B _ { 1 } \colon A \times A { \longrightarrow } A$satisfies the equation
 
 $$
 f B _ {1} (g, h) - B _ {1} (f g, h) + B _ {1} (f, g h) - B _ {1} (f, g) h = 0,
@@ -148,7 +150,7 @@ $$
 
 where$D _ { 1 }$is an arbitrary diferential operator, afect only the symmetric part of$B _ { 1 }$, i.e.$B _ { 1 } ^ { - } = \left( B _ { 1 } ^ { \prime } \right) ^ { - }$. One can show that the symmetric part$B _ { 1 } ^ { + }$can be killed by a gauge transformation (and it is a coboundary in the Hochschild complex).
 
-Also, one can show that the skew-symmetric part$B _ { 1 } ^ { - }$is a derivation with respect to both functionsfand$g .$Thus,$B _ { 1 } ^ { - }$comes from a bi-vector field a on$X \colon$
+Also, one can show that the skew-symmetric part$B _ { 1 } ^ { - }$is a derivation with respect to both functionsfand$g .$Thus,$B _ { 1 } ^ { - }$comes from a bi-vector field α on$X \colon$
 
 $$
 B _ {1} ^ {-} (f, g) = \langle \alpha , \mathrm{d} f \otimes \mathrm{d} g \rangle , \alpha \in \Gamma (X, \wedge^ {2} T _ {X}) \subset \Gamma (X, T _ {X} \otimes T _ {X}).
@@ -156,7 +158,7 @@ $$
 
 An analogous fact in algebraic geometry is that the second Hochschild cohomology group of the algebra of functions on a smooth afine algebraic variety is naturally isomorphic to the space of bi-vector fields (see [26] and also Section 4.6.1.).
 
-The second term${ \mathrm { O } } ( \hbar ^ { 2 } )$in the associativity equation$f \star ( g \star h ) = ( f \star g ) \star h$implies that a gives a Poisson structure on$X ,$
+The second term${ \mathrm { O } } ( \hbar ^ { 2 } )$in the associativity equation$f \star ( g \star h ) = ( f \star g ) \star h$implies that α gives a Poisson structure on$X ,$
 
 $$
 \forall f, g, h \{f, \{g, h \} \} + \{g, \{h, f \} \} + \{h, \{f, g \} \} = 0,
@@ -174,7 +176,7 @@ Thus, gauge equivalence classes of star products modulo${ \mathrm { O } } ( \hba
 
 ## 1.3. DESCRIPTION OF <sub>Q</sub>UANTIZATIONS
 
-THEOREM 1.1. The set of gauge equivalence classes of star products on a smooth manifold X can be naturally identified with the set of equivalence classes of Poisson structures depending formally on h:
+THEOREM 1.1. The set of gauge equivalence classes of star products on a smooth manifold X can be naturally identified with the set of equivalence classes of Poisson structures depending formally on ℏ:
 
 $$
 \alpha = \alpha (\hbar) = \alpha_ {1} \hbar + \alpha_ {2} \hbar^ {2} + \dots \in \Gamma (X, \wedge^ {2} T _ {X}) [ [ \hbar ] ], [ \alpha , \alpha ] = 0 \in \Gamma (X, \wedge^ {3} T _ {X}) [ [ \hbar ] ]
@@ -220,21 +222,21 @@ Also, it is not clear whether the natural physical counterpart for the ‘deform
 
 ## 2. Explicit Universal Formula
 
-Here we propose a formula for the star product for arbitrary Poisson structure a in an open domain of the standard coordinate space$\mathbb { R } ^ { d }$. Terms of our formula modulo${ \mathrm { O } } ( \hbar ^ { 3 } )$are the same as in the previous section, plus a gauge-trivial term of order${ \mathrm { O } } ( \hbar ^ { 2 } )$, symmetric in$f$and$g .$Terms of the formula are certain universal polydiferential operators applied to coeficients of the bi-vector field$\mathscr { X }$and to functions$f , g$. All indices corresponding to coordinates in the formula appear once as lower indices and once as upper indices, i.e. the formula is invariant under afine transformations of$\mathbb { R } ^ { d }$
+Here we propose a formula for the star product for arbitrary Poisson structure α in an open domain of the standard coordinate space$\mathbb { R } ^ { d }$. Terms of our formula modulo${ \mathrm { O } } ( \hbar ^ { 3 } )$are the same as in the previous section, plus a gauge-trivial term of order${ \mathrm { O } } ( \hbar ^ { 2 } )$, symmetric in$f$and$g .$Terms of the formula are certain universal polydiferential operators applied to coeficients of the bi-vector field α and to functions$f , g$. All indices corresponding to coordinates in the formula appear once as lower indices and once as upper indices, i.e. the formula is invariant under afine transformations of$\mathbb { R } ^ { d }$
 
 In order to describe terms proportional to$\hbar ^ { n }$for any integer$n \geqslant 0$, we introduce a special class$G _ { n }$of oriented labeled graphs.
 
-All graphs considered in this Letter are finite, oriented$( { \mathrm { i . e . } }$. every edge carries an orientation), have no multiple edges and no loops. Such objects we will call here simply graphs without adding adjectives.
+All graphs considered in this Letter are finite and oriented (i.e., every edge carries an orientation); they have no multiple edges and no loops. We will call such objects simply graphs, without adding adjectives.
 
-DEFINITION 2.1. A graph C is a pair$( V _ { \Gamma } , E _ { \Gamma } )$of two finite sets such that$E _ { \Gamma }$is a subset of$( V _ { \Gamma } \times V _ { \Gamma } ) \setminus V _ { \Gamma }$
+DEFINITION 2.1. A graph Γ is a pair$( V _ { \Gamma } , E _ { \Gamma } )$of two finite sets such that$E _ { \Gamma }$is a subset of$( V _ { \Gamma } \times V _ { \Gamma } ) \setminus V _ { \Gamma }$
 
-Elements of$V _ { \Gamma }$are vertices of C, elements of$E _ { \Gamma }$are edges of C. If $e = ( \nu _ { 1 } , \nu _ { 2 } ) \in E _ { \Gamma } \subseteq V _ { \Gamma } \times V _ { \Gamma }$is an edge, then we say that e starts at$\nu _ { 1 }$and ends at v<sub>2</sub>. For any integer$n \geqslant 0 ,$, we define certain set$G _ { n }$of labeled graphs. We say that C (with some additional labels) belongs to$G _ { n }$if
+Elements of$V _ { \Gamma }$are vertices of Γ, and elements of$E _ { \Gamma }$are edges of Γ. If $e = ( \nu _ { 1 } , \nu _ { 2 } ) \in E _ { \Gamma } \subseteq V _ { \Gamma } \times V _ { \Gamma }$is an edge, then we say that e starts at$\nu _ { 1 }$and ends at$\nu _ { 2 }$. For any integer$n \geqslant 0 ,$, we define a set$G _ { n }$of labeled graphs. We say that Γ (with some additional labels) belongs to$G _ { n }$if
 
-(1) C has$n + 2$vertices and 2n edges,
+(1) Γ has$n + 2$vertices and 2n edges,
 
 (2) the set vertices$V _ { \Gamma }$is$\{ 1 , \ldots , n \} \sqcup \{ L , R \}$, where$L , R$are just two symbols (capital letters mean Left and Right),
 
-(3) edges of C are labeled by symbols$e _ { 1 } ^ { 1 } , e _ { 1 } ^ { 2 } , e _ { 2 } ^ { 1 } , e _ { 2 } ^ { 2 } , \ldots , e _ { n } ^ { 1 } , e _ { n } ^ { 2 } .$
+(3) edges of Γ are labeled by symbols$e _ { 1 } ^ { 1 } , e _ { 1 } ^ { 2 } , e _ { 2 } ^ { 1 } , e _ { 2 } ^ { 2 } , \ldots , e _ { n } ^ { 1 } , e _ { n } ^ { 2 } .$
 
 (4) for every$k \in \{ 1 , \ldots , n \}$edges labeled by$e _ { k } ^ { 1 }$and$e _ { k } ^ { 2 }$start at the vertex k.
 
@@ -256,7 +258,7 @@ $$
 (e _ {1} ^ {1}, e _ {1} ^ {2}, e _ {2} ^ {1}, e _ {2} ^ {2}, e _ {3} ^ {1}, e _ {3} ^ {2}) = ((1, L), (1, R), (2, R), (2, 3), (3, L), (3, R)).
 $$
 
-In the picture of C we put independent indices$1 \leqslant i _ { 1 } , \ldots , i _ { 6 } \leqslant d$on edges, instead of labels$e _ { * } ^ { * } .$. The operator$B _ { \Gamma , \alpha }$corresponding to this graph is
+In the picture of Γ we put independent indices$1 \leqslant i _ { 1 } , \ldots , i _ { 6 } \leqslant d$on edges, instead of labels$e _ { * } ^ { * } .$. The operator$B _ { \Gamma , \alpha }$corresponding to this graph is
 
 $$
 (f, g) \mapsto \sum_ {i _ {1}, \dots , i _ {6}} \alpha^ {i _ {1} i _ {2}} \alpha^ {i _ {3} i _ {4}} \partial_ {i _ {4}} \left(\alpha^ {i _ {5} i _ {6}}\right) \partial_ {i _ {1}} \partial_ {i _ {5}} (f) \partial_ {i _ {2}} \partial_ {i _ {3}} \partial_ {i _ {6}} (g).
@@ -270,7 +272,7 @@ $$
 
 In the next step, we associate a weight$W _ { \Gamma } \in$R with each graph$\Gamma \in G _ { n }$. In order to define it we need an elementary construction from hyperbolic geometry.
 
-Let$p , q , p \neq q$be two points in the upper half-plane$\mathcal { H } = \{ z \in \mathbb { C } | \mathrm { I m } ( z ) > 0 \}$endowed with the Lobachevsky metric. We denote by$\phi ^ { \mathrm { h } } ( p , q ) \in \mathbb { R } / 2 \pi \mathbb { Z }$the angle at$p$ formed by two lines,$l ( p , q )$and$l ( p , \infty )$passing through$p$and$q ,$and through$p$and the point$\infty \ 0 \mathrm { n }$the absolute. The direction of the measurement of the angle is counterclockwise from$l ( p , \infty )$to$l ( p , q )$. In the notation$\phi ^ { \mathrm { h } } ( p , q )$, h stands for harmonic (see Figure 2).
+Let$p , q , p \neq q$be two points in the upper half-plane$\mathcal { H } = \{ z \in \mathbb { C } | \mathrm { I m } ( z ) > 0 \}$endowed with the Lobachevsky metric. We denote by$\phi ^ { \mathrm { h } } ( p , q ) \in \mathbb { R } / 2 \pi \mathbb { Z }$the angle at$p$ formed by two lines,$l ( p , q )$and$l ( p , \infty )$passing through$p$and$q ,$and through$p$and the point$\infty$on the absolute. The direction of the measurement of the angle is counterclockwise from$l ( p , \infty )$to$l ( p , q )$. In the notation$\phi ^ { \mathrm { h } } ( p , q )$, h stands for harmonic (see Figure 2).
 
 ![](images/page_8_image_9.jpg)
 
@@ -292,19 +294,19 @@ $$
 
 $\mathcal { H } _ { n } \subset \mathbb { C } ^ { n }$is a noncompact smooth 2n-dimensional manifold. We introduce orientation on${ \mathcal { H } } _ { n }$using the natural complex structure on it.
 
-If$\Gamma \in G _ { n }$is a graph as above, and$( p _ { 1 } , \ldots , p _ { n } ) \in { \mathcal { H } } _ { n }$is a configuration of points, then we draw a copy of C on the plane$\mathbb { R } ^ { 2 } \simeq \mathbb { C }$by assigning point$p _ { k } \in \mathcal { H }$to the vertex$k , \ 1 \leqslant k \leqslant n ,$, point$0 \in \mathbb { R } \subset \mathbb { C }$to the vertex$L ,$and point$1 \in \mathbb { R } \subset \mathbb { C }$to the vertex R. Each edge should be drawn as a line interval in hyperbolic geometry. Every edge e of the graph C defines an ordered pair$( p , q )$of points on${ \mathcal { H } } \sqcup \mathbb { R }$, thus an angle $\phi _ { e } ^ { \mathrm { h } } : = \phi ^ { \mathrm { h } } ( p , q )$. If points$p _ { i }$move around, we get a function$\phi _ { e } ^ { \mathrm { h } }$on${ \mathcal { H } } _ { n }$with values in $\mathbb { R } / 2 \pi \mathbb { Z } .$
+If $\Gamma\in G_n$ is a graph as above and $(p_1,\ldots,p_n)\in\mathcal{H}_n$ is a configuration of points, we draw a copy of Γ in the plane $\mathbb{R}^2\simeq\mathbb{C}$, assigning point $p_k$ to vertex k, point 0 to vertex L, and point 1 to vertex R. Draw each edge as a hyperbolic line segment. Every edge e of Γ defines an ordered pair $(p,q)$ of points in $\mathcal{H}\sqcup\mathbb{R}$ and an angle $\phi_e^{\mathrm h}:=\phi^{\mathrm h}(p,q)$. If the points $p_i$ move, $\phi_e^{\mathrm h}$ is a function on $\mathcal{H}_n$ with values in $\mathbb{R}/2\pi\mathbb{Z}$.
 
-We define the weight of C as
+We define the weight of Γ as
 
 $$
 w _ {\Gamma} := \frac {1}{n ! (2 \pi) ^ {2 n}} \int_ {\mathscr {H} _ {n}} \bigwedge_ {i = 1} ^ {n} (\mathrm{d} \phi_ {e _ {k} ^ {1}} ^ {\mathrm{h}} \wedge \mathrm{d} \phi_ {e _ {k} ^ {2}} ^ {\mathrm{h}}).
 $$
 
-LEMMA 2.2. The integral in the definition of w<sub>C</sub> is absolutely convergent.
+LEMMA 2.2. The integral in the definition of w<sub>Γ</sub> is absolutely convergent.
 
 This lemma is a particular case of a more general statement proven in Section 6 (see the last sentence in Section 6.2).
 
-THEOREM 2.3. Let a be a Poisson bi-vector field in a domain of$\mathbb { R } ^ { d } .$The formula
+THEOREM 2.3. Let α be a Poisson bi-vector field in a domain of$\mathbb { R } ^ { d } .$The formula
 
 $$
 f \star g := \sum_ {n = 0} ^ {\infty} \hbar^ {n} \sum_ {\Gamma \in G _ {n}} w _ {\Gamma} B _ {\Gamma , \alpha} (f, g)
@@ -322,15 +324,15 @@ Here we make a comment about the terminology. This comment seems a bit pedantic,
 
 The main idea of algebraic geometry is to replace spaces by commutative associative rings (at least locally). One can further generalize this considering commutative associative algebras in general tensor categories (see [11]). In this way, one can imitate many constructions from algebra and diferential geometry.
 
-The fundamental example is supermathematics, i.e. mathematics in the tensor category$\mathrm { S u p e r } ^ { \mathbf { k } }$of super vector spaces over a field k of characteristic zero (see Chapter 3 in [39]). The category$\mathrm { S u p e r ^ { k } }$is the category of$\mathbb { Z } / 2 \mathbb { Z } .$-graded vector spaces over k (representations of the group$\mathbb { Z } / 2 \mathbb { Z } )$endowed with the standard tensor product, with the standard associativity functor, and with a modified commutativity functor (the Koszul rule of signs). We denote by P the standard functor$\mathrm { S u p e r ^ { k } }$$\mathrm { S u p e r ^ { k } }$changing the parity. It is given on objects by the formula $\Pi { \cal V } = { \cal V } \otimes { \bf k } ^ { 0 | 1 }$. In the sequel we will consider the standard tensor category$\mathbf { V e c t ^ { k } }$of vector spaces over k as the full subcategory of$\mathrm { S u p e r ^ { k } }$consisting of pure even spaces.
+The fundamental example is supermathematics, i.e. mathematics in the tensor category $\mathrm{Super}^{k}$ of super vector spaces over a field k of characteristic zero (see Chapter 3 in [39]). The category $\mathrm{Super}^{k}$ is the category of $\mathbb{Z}/2\mathbb{Z}$-graded vector spaces over k (representations of the group $\mathbb{Z}/2\mathbb{Z}$) endowed with the standard tensor product, standard associativity functor, and modified commutativity functor (the Koszul rule of signs). We denote by $\Pi: \mathrm{Super}^{k} \longrightarrow \mathrm{Super}^{k}$ the standard functor changing parity. It is given on objects by the formula $\Pi V = V \otimes k^{0|1}$. In the sequel we consider the standard tensor category $\mathrm{Vect}^{k}$ of vector spaces over k as the full subcategory of $\mathrm{Super}^{k}$ consisting of pure even spaces.
 
-The basic tensor category which appears everywhere in topology and homological algebra is a full subcategory of the tensor category of Z-graded super vector spaces. Objects of this category are infinite sums$\mathcal { E } = \oplus _ { n \in \mathbb { Z } } \mathcal { E } ^ { ( n ) }$such that$\boldsymbol { \mathcal { \bar { E } } } ^ { ( n ) }$is pure even for even$n ,$and pure odd for odd n. We will slightly abuse the language, calling this category the category of graded vector spaces, and denote it simply by Graded<sup>k</sup>. We denote by$\mathcal { E } ^ { n }$the usual k-vector space underlying the graded component$\boldsymbol { \mathcal { \delta } } ^ { ( n ) }$. If we forget about Z-grading on E 2 Objects$( \mathrm { G r a d e d } ^ { \mathbf { k } } )$Þ, then we obtain a supervector space$\bigoplus _ { n \in \mathbb { Z } } \Pi ^ { n } \mathcal { E } _ { n }$
+The basic tensor category which appears everywhere in topology and homological algebra is a full subcategory of the tensor category of Z-graded super vector spaces. Objects of this category are infinite sums $\mathcal{E}=\bigoplus_{n\in\mathbb{Z}}\mathcal{E}^{(n)}$ such that $\mathcal{E}^{(n)}$ is pure even for even n and pure odd for odd n. We will slightly abuse the language, calling this category the category of graded vector spaces, and denote it simply by Graded<sup>k</sup>. We denote by $\mathcal{E}^{n}$ the usual k-vector space underlying the graded component $\mathcal{E}^{(n)}$. If we forget about Z-grading on $\mathcal{E}\in\operatorname{Objects}(\mathrm{Graded}^{k})$, then we obtain a supervector space $\bigoplus_{n\in\mathbb{Z}}\Pi^{n}\mathcal{E}^{(n)}$.
 
 Analogously, we will speak about graded manifolds. They are defined as supermanifolds endowed with Z-grading on the sheaf of functions obeying the same conditions on the parity as above.
 
-The shift functor [1]:Graded<sup>k</sup> ! Graded<sup>k</sup> (acting from the right) is defined as the tensor product with graded space$\mathbf { k } [ 1 ]$where$\mathbf { k } [ 1 ] ^ { - 1 } \simeq \mathbf { k } , \mathbf { k } [ 1 ] ^ { \neq - 1 } = 0$. Its powers are denoted by ½n,$n \in \mathbb { Z }$. Thus, for graded space${ \mathcal { E } } ,$we have$\begin{array} { r } { \mathcal { E } = \bigoplus _ { n \in \mathbb { Z } } \mathcal { E } ^ { n } [ - n ] } \end{array}$ Almost all results in this paper formulated for graded manifolds, graded Lie algebras, etc., also hold for supermanifolds, super Lie algebras, etc.
+The shift functor [1]: Graded<sup>k</sup> $\longrightarrow$ Graded<sup>k</sup> (acting from the right) is defined as the tensor product with graded space $\mathbf{k}[1]$, where $\mathbf{k}[1]^{-1}\simeq\mathbf{k}$ and $\mathbf{k}[1]^{\neq -1}=0$. Its powers are denoted by [n], $n\in\mathbb{Z}$. Thus, for graded space $\mathcal{E}$, we have $\mathcal{E}=\bigoplus_{n\in\mathbb{Z}}\mathcal{E}^{n}[-n]$. Almost all results in this paper formulated for graded manifolds, graded Lie algebras, etc., also hold for supermanifolds, super Lie algebras, etc.
 
-## 3.2. MAURER–CARTAN E<sub>Q</sub>UATION IN DIFFERENTIAL GRADED LIE ALGEBRAS
+## 3.2. MAURER–CARTAN EQUATION IN DIFFERENTIAL GRADED LIE ALGEBRAS
 
 This part is essentially standard (see [22, 24, 42]).
 
@@ -376,7 +378,7 @@ $$
 
 ## 3.3. REMARK
 
-Several authors, following a suggestion of Deligne, stressed that the set$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$ should be considered as the set of equivalence classes of objects of certain groupoid naturally associated with${ \bf g } ( { \bf m } )$. Almost always in deformation theory, diferential graded Lie algebras are supported in nonnegative degrees,$\mathbf { g } ^ { < 0 } = 0$. Our principal example here, the shifted Hochschild complex (see the next subsection), has a non-trivial component in degree 1, when it is considered as a graded Lie algebra. The set
+Several authors, following a suggestion of Deligne, stressed that the set$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$ should be considered as the set of equivalence classes of objects of certain groupoid naturally associated with${ \bf g } ( { \bf m } )$. Almost always in deformation theory, diferential graded Lie algebras are supported in nonnegative degrees,$\mathbf { g } ^ { < 0 } = 0$. Our principal example here, the shifted Hochschild complex (see the next subsection), has a non-trivial component in degree −1, when it is considered as a graded Lie algebra. The set
 
 De$\mathrm { f } _ { \mathbf { g } } ( \mathbf { m } )$in such a case has a natural structure of the set of equivalence classes for a 2-groupoid. In general, if one considers diferential graded Lie algebras with components in negative degrees, one immediately meets polycategories and nilpotent homotopy types. Still, it is only half of the story because one cannot say anything about$\mathbf { g } ^ { \geqslant 3 }$using this language. Maybe, a better way is to extend the definition of the deformation functor to the category of diferential graded nilpotent commutative associative algebras (see the last remark in Section 4.5.2).
 
@@ -392,9 +394,9 @@ $$
 \mathbf {g} = \bigoplus_ {k \in \mathbb {Z}} \mathbf {g} ^ {k} [ - k ]; \quad \mathbf {g} ^ {k} = \Gamma (X, \Omega_ {X} ^ {0, k} \otimes T _ {X} ^ {1, 0}) \quad \text { for } k \geqslant 0, \quad \mathbf {g} ^ {<   0} = 0
 $$
 
-with the diferential equal to${ \overline { { \partial } } } ,$and the Lie bracket coming from the cup product on @-forms and the usual Lie bracket on holomorphic vector fields.
+with the diferential equal to${ \overline { { \partial } } } ,$and the Lie bracket coming from the cup product on ∂̄-forms and the usual Lie bracket on holomorphic vector fields.
 
-The deformation functor related with$\mathbf { g }$is the usual deformation functor for complex structures on X. The set$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$can be naturally identified with the set of equivalence classes of analytic spaces Xe endowed with a flat map$p \colon \widetilde { X } \longrightarrow \ \mathrm { S p e c } ( \mathbf { m } ^ { \prime } )$，and an identification$i \colon { \widetilde { X } } \times _ { \operatorname { S p e c } ( \mathbf { m } ^ { \prime } ) } ~ \operatorname { S p e c } ( \mathbb { C } ) \simeq X$of the special fiber of$p$with X.
+The deformation functor related with$\mathbf { g }$is the usual deformation functor for complex structures on X. The set$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$can be naturally identified with the set of equivalence classes of analytic spaces $\widetilde{X}$ endowed with a flat map $p: \widetilde{X} \longrightarrow \mathrm{Spec}(\mathbf{m}')$, and an identification $i: \widetilde{X} \times_{\operatorname{Spec}(\mathbf{m}')} \operatorname{Spec}(\mathbb{C}) \simeq X$ of the special fiber of $p$ with X.
 
 ## 3.4.2. Hochschild Complex
 
@@ -422,7 +424,7 @@ $$
 \left[ \Phi_ {1}, \Phi_ {2} \right] = \Phi_ {1} \circ \Phi_ {2} - (- 1) ^ {k _ {1} k _ {2}} \Phi_ {2} \circ \Phi_ {1}, \Phi_ {i} \in \mathbf {g} ^ {k _ {i}},
 $$
 
-where the (nonassociative) product  is defined as
+where the (nonassociative) product ◦ is defined as
 
 $$
 \begin{array}{l} (\Phi_ {1} \circ \Phi_ {2}) (a _ {0} \otimes \dots \otimes a _ {k _ {1} + k _ {2}}) \\ = \sum_ {i = 0} ^ {k _ {1}} (- 1) ^ {i k _ {2}} \Phi_ {1} (a _ {0} \otimes \dots \otimes a _ {i - 1} \otimes (\Phi_ {2} (a _ {i} \otimes \dots \otimes a _ {i + k _ {2}})) \otimes \\ \otimes a _ {i + k _ {2} + 1} \otimes \dots \otimes a _ {k _ {1} + k _ {2}}). \end{array}
@@ -432,7 +434,7 @@ We would also like to give here an abstract definition of the diferential and of
 
 Graded Lie algebra g is the Lie algebra of coderivations of F in the tensor category Graded<sup>k</sup>. The associative product on A gives an element$m _ { A } \in { \mathbf { g } } ^ { 1 } , m _ { A } : A \otimes A \longrightarrow A$ satisfying the equation$[ m _ { A } , m _ { A } ] = 0$. The diferential d in g is defined as$\operatorname { a d } ( m _ { A } )$
 
-Again, the deformation functor related to g is equivalent to the usual deformation functor for algebraic structures. Associative products on A correspond to solutions of the Maurer–Cartan equation in g. The set$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$is naturally identified with the set of equivalence classes of pairs$( \widetilde { A } , i )$where Ae is an associative algebra over $\mathbf { m } ^ { \prime } = \mathbf { m } \oplus \mathbf { k } \cdot \mathbf { l }$such that$\widetilde { A }$is free as an m<sup>0</sup>-module, and i an isomorphism of kalgebras$\widetilde { A } \otimes _ { \mathbf { m ^ { \prime } } } \mathbf { k } \simeq A$
+Again, the deformation functor related to g is equivalent to the usual deformation functor for algebraic structures. Associative products on A correspond to solutions of the Maurer–Cartan equation in g. The set $\mathrm{Def}_{\mathbf{g}}(\mathbf{m})$ is naturally identified with the set of equivalence classes of pairs $(\widetilde{A},i)$, where $\widetilde{A}$ is an associative algebra over $\mathbf{m}'=\mathbf{m}\oplus\mathbf{k}\cdot 1$ such that $\widetilde{A}$ is free as an $\mathbf{m}'$-module, and $i$ is an isomorphism of k-algebras $\widetilde{A}\otimes_{\mathbf{m}'}\mathbf{k}\simeq A$.
 
 The cohomology of the Hochschild complex are
 
@@ -486,7 +488,7 @@ $$
 \partial^ {n} f \colon \otimes^ {n} (V _ {1}) \longrightarrow V _ {2}, \partial^ {n} f (v _ {1} \dots v _ {n}) := \frac {\partial^ {n}}{\partial t _ {1} \cdots \partial t _ {n | t _ {1} = \cdots = t _ {n} = 0}} (f (t _ {1} v _ {1} + \dots + t _ {n} v _ {n})).
 $$
 
-Map$\partial ^ { n } f$goes through the quotient$\operatorname { S y m } ^ { n } ( V _ { 1 } ) : = ( \otimes ^ { n } V _ { 1 } ) _ { \Sigma _ { n } }$. Linear map$f ^ { ( n ) }$coincides with$\partial ^ { n } f$after the identification of the subspace$\left( \otimes ^ { n } V _ { 1 } \right) ^ { \Sigma _ { n } ^ { . . } } \subset \otimes ^ { n } V _ { 1 }$with the quotient space$\mathrm { { S y m } } ^ { n } \big ( V _ { 1 } \big )$
+Map$\partial ^ { n } f$goes through the quotient$\operatorname { S y m } ^ { n } ( V _ { 1 } ) : = ( \otimes ^ { n } V _ { 1 } ) _ { \Sigma _ { n } }$. Linear map$f ^ { ( n ) }$coincides with$\partial ^ { n } f$after the identification of the subspace$\left( \otimes ^ { n } V _ { 1 } \right) ^ { \Sigma _ { n } } \subset \otimes ^ { n } V _ { 1 }$with the quotient space$\mathrm { { S y m } } ^ { n } \big ( V _ { 1 } \big )$
 
 As in the usual calculus, there is the inverse mapping theorem: nonlinear map f is invertible if its first Taylor coeficient$f ^ { ( 1 ) } \colon V _ { 1 } \longrightarrow V _ { 2 }$is invertible.
 
@@ -494,7 +496,7 @@ Analogous definitions and statements can be made in other tensor categories, inc
 
 The reader can ask why we speak about base points for formal manifolds, as such manifolds have only one geometric point. The reason is that later we will consider formal graded manifolds depending on formal parameters. In such a situation the choice of the base point is a nontrivial part of the structure.
 
-## 4.2. PRE-<sub>L</sub> -MORPHISMS
+## 4.2. PRE-<sub>L∞</sub>-MORPHISMS
 
 Let${ \bf g } _ { 1 }$and${ \bf g } _ { 2 }$be two graded vector spaces.
 
@@ -540,15 +542,15 @@ for$\gamma _ { i } \in \mathbf { g } _ { 1 } ^ { k _ { i } } , i = 1 , \ldots , 
 
 In the sequel, we will denote$\partial ^ { n } { \mathcal { F } }$simply by${ \mathcal { F } } _ { n } .$
 
-## 4.3. L<sub>1</sub>-ALGEBRAS AND L<sub>1</sub>-MORPHISMS
+## 4.3. L<sub>∞</sub>-ALGEBRAS AND L<sub>∞</sub>-MORPHISMS
 
-Suppose that we have an odd vector field$Q$of degree þ1 (with respect to$\mathbb { Z } { \cdot } \mathrm { g a r d i n g } )$ on formal graded manifold$( \mathbf { g } [ 1 ] _ { \mathrm { f o r m a l } } , 0 )$such that the Taylor series for coeficients of $\boldsymbol { Q }$has terms of polynomial degree 1 and 2 only (i.e. linear and quadratic terms). The first Taylor coeficient$Q _ { 1 }$gives a linear map${ \bf g } \longrightarrow { \bf g }$of degree þ1 (or, better, a map ${ \bf g } \longrightarrow { \bf g } [ 1 ] )$). The second coeficient$\mathcal { Q } _ { 2 } \colon \wedge ^ { 2 } \mathbf { g } \longrightarrow \mathbf { g }$gives a skew-symmetric bilinear operation of degree 0 on g.
+Suppose that we have an odd vector field$Q$of degree +1 (with respect to$\mathbb { Z } { \cdot } \mathrm { g a r d i n g } )$ on formal graded manifold$( \mathbf { g } [ 1 ] _ { \mathrm { f o r m a l } } , 0 )$such that the Taylor series for coeficients of $\boldsymbol { Q }$has terms of polynomial degree 1 and 2 only (i.e. linear and quadratic terms). The first Taylor coeficient$Q _ { 1 }$gives a linear map${ \bf g } \longrightarrow { \bf g }$of degree +1 (or, better, a map ${ \bf g } \longrightarrow { \bf g } [ 1 ] )$). The second coeficient$\mathcal { Q } _ { 2 } \colon \wedge ^ { 2 } \mathbf { g } \longrightarrow \mathbf { g }$gives a skew-symmetric bilinear operation of degree 0 on g.
 
 It is easy to see that if$[ Q , Q ] _ { \mathrm { s u p e r } } = 2 Q ^ { 2 } = 0$, then g is a diferential graded Lie algebra, with diferential$Q _ { 1 }$and the bracket$Q _ { 2 } ,$, and vice-versa.
 
 In [1], supermanifolds endowed with an odd vector field Q such that $[ Q , Q ] _ { \mathrm { s u p e r } } = 0$, are called Q-manifolds. By analogy, we can speak about formal graded pointed Q-manifolds.
 
-DEFINITION 4.3. An$L _ { \infty } { \mathrm { - a l g e b r a } }$is a pair$( \mathbf { g } , Q )$where g is a graded vector space and$\boldsymbol { Q }$is a coderivation of degree þ1 on the graded coalgebra$C ( \mathbf { g } [ 1 ] )$such that $Q ^ { 2 } = 0$
+DEFINITION 4.3. An$L _ { \infty } { \mathrm { - a l g e b r a } }$is a pair$( \mathbf { g } , Q )$where g is a graded vector space and$\boldsymbol { Q }$is a coderivation of degree +1 on the graded coalgebra$C ( \mathbf { g } [ 1 ] )$such that $Q ^ { 2 } = 0$
 
 Other names for$L _ { \infty } { \mathrm { - a l g e b r a s } }$are ‘(strong) homotopy Lie algebras’ and ‘Sugawara algebras’ (see, e.g., [25]).
 
@@ -582,13 +584,13 @@ $$
 
 We see that$\mathcal { F } _ { 1 }$is a morphism of complexes. The same is true for the case of general$L _ { \infty }$-algebras. The graded space g for an$L _ { \infty } { - } i$algebra$( \mathbf { g } , Q )$can be considered as the tensor product of${ \bf k } [ - 1 ]$with the tangent space to the corresponding formal graded manifold at the base point. The diferential$Q _ { 1 }$on g comes from the action of $\boldsymbol { Q }$on the manifold.
 
-Let us assume that${ \bf g } _ { 1 }$and${ \bf g } _ { 2 }$are diferential graded Lie algebras, and$\mathcal { F }$is an$L _ { \infty } -$ morphism from${ \bf g } _ { 1 }$to${ \bf g } _ { 2 }$. Any solution$\gamma \in { \bf g } _ { 1 } ^ { 1 } \otimes$m of the Maurer–Cartan equation where m is a nilpotent nonunital algebra, produces a solution of the Maurer–Cartan equation in$\mathbf { g } _ { 2 } ^ { 1 }$ m:
+Let us assume that $\mathbf{g}_1$ and $\mathbf{g}_2$ are differential graded Lie algebras, and $\mathcal{F}$ is an $L_\infty$-morphism from $\mathbf{g}_1$ to $\mathbf{g}_2$. Any solution $\gamma\in\mathbf{g}_1^1\otimes\mathbf{m}$ of the Maurer–Cartan equation, where m is a nilpotent nonunital algebra, produces a solution of the Maurer–Cartan equation in $\mathbf{g}_2^1\otimes\mathbf{m}$:
 
 $$
 \mathrm{d} \gamma + \frac {1}{2} [ \gamma , \gamma ] = 0 \Longrightarrow \mathrm{d} \widetilde {\gamma} + \frac {1}{2} [ \widetilde {\gamma}, \widetilde {\gamma} ] = 0, \text {   where   } \widetilde {\gamma} = \sum_ {n = 1} ^ {\infty} \frac {1}{n !} \mathscr {F} _ {n} (\gamma \wedge \dots \wedge \gamma) \in \mathbf {g} _ {2} ^ {1} \otimes \mathbf {m}.
 $$
 
-The same formula is applicable to solutions of the Maurer–Cartan equation depending formally on the parameter h:
+The same formula is applicable to solutions of the Maurer–Cartan equation depending formally on the parameter ℏ:
 
 $$
 \begin{array}{l} \gamma (\hbar) = \gamma_ {1} \hbar + \gamma_ {2} \hbar^ {2} + \dots \in \mathbf {g} _ {1} ^ {1} [ [ \hbar ] ], \\ \mathrm{d} \gamma (\hbar) + \frac {1}{2} [ \gamma (\hbar), \gamma (\hbar) ] = 0 \Longrightarrow \widetilde {\mathrm{d} \gamma (\hbar)} + \frac {1}{2} [ \widetilde {\gamma (\hbar)}, \widetilde {\gamma (\hbar)} ] = 0. \end{array}
@@ -622,13 +624,13 @@ This theorem is essentially standard (see related results in [22, 24, 42]). Our 
 
 ## 4.5. A SKETCH OF THE PROOF OF THEOREM 4<sub>.</sub>6
 
-## 4.5.1. Homotopy Classification of$L _ { \infty } { - } a l g e b r a s$
+## 4.5.1. Homotopy Classification of $L_{\infty}$-algebras
 
 Any complex of vector spaces can be decomposed into the direct sum of a complex with trivial diferential and a contractible complex. There is an analogous decomposition in the nonlinear case.
 
-DEFINITION 4.7. An L -algebra$( \mathbf { g } , Q )$is called minimal if the first Taylor coefficient$Q _ { 1 }$of the coderivation$\boldsymbol { Q }$vanishes.
+DEFINITION 4.7. An $L_{\infty}$-algebra $(\mathbf{g},Q)$ is called minimal if the first Taylor coefficient $Q_1$ of the coderivation $\boldsymbol{Q}$ vanishes.
 
-The property of being minimal is invariant under$L _ { \infty }$-isomorphisms. Thus, one can speak about minimal formal graded pointed$Q \cdot$-manifolds.
+The property of being minimal is invariant under$L _ { \infty }$-isomorphisms. Thus, one can speak about minimal formal graded pointed Q-manifolds.
 
 DEFINITION 4.8. An$L _ { \infty } { \mathrm { - a l g e b r a } }$$( \mathbf { g } , Q )$is called linear contractible if higher Taylor coeficients$Q _ { \geqslant 2 }$vanish and the diferential$Q _ { 1 }$has trivial cohomology.
 
@@ -638,9 +640,9 @@ LEMMA 4.9. Any$L _ { \infty }$-algebra$( \mathbf { g } , Q )$is$L _ { \infty }$-
 
 Proof. This lemma says that there exists an afine structure on a formal graded pointed manifold in which the odd vector field Q has the form of a direct sum of a minimal and a linear contractible one. This afine structure can be constructed by induction in the degree of the Taylor expansion. The base of the induction is the decomposition of the complex$( \mathbf { g } , Q _ { 1 } )$into the direct sum of a complex with vanishing diferential and a complex with trivial cohomology. We leave details of the proof of the lemma to the reader.(
 
-As a side remark, we mention analogy between this lemma and a theorem from singularity theory (see, for example, the beginning of 11.1 in [2]): for every germ f of analytic function at critical point one can find local coordinates $( x ^ { 1 } , \ldots , x ^ { k } , y ^ { 1 } , \ldots , y ^ { l } )$such that f¼ constant$+ Q _ { 2 } ( x ) + Q _ { \geqslant 3 } ( y )$, where$Q _ { 2 }$is a nondegenerate quadratic form in x and$Q _ { \geqslant 3 } ( y )$is a germ of a function in y such that its Taylor expansion at$y = 0$starts at terms of degree at least 3.
+As a side remark, we mention analogy between this lemma and a theorem from singularity theory (see, for example, the beginning of 11.1 in [2]): for every germ f of analytic function at critical point one can find local coordinates $( x ^ { 1 } , \ldots , x ^ { k } , y ^ { 1 } , \ldots , y ^ { l } )$such that f = constant$+ Q _ { 2 } ( x ) + Q _ { \geqslant 3 } ( y )$, where$Q _ { 2 }$is a nondegenerate quadratic form in x and$Q _ { \geqslant 3 } ( y )$is a germ of a function in y such that its Taylor expansion at$y = 0$starts at terms of degree at least 3.
 
-Let g be an$L _ { \infty } { \mathrm { - a l g e b r a } }$and$\mathbf { g } ^ { \mathrm { m i n } }$be a minimal$L _ { \infty } { \mathrm { - a l g e b r a } }$as in the previous lemma. Then there are two L<sub>1</sub>-morphisms (projection and inclusion)
+Let g be an$L _ { \infty } { \mathrm { - a l g e b r a } }$and$\mathbf { g } ^ { \mathrm { m i n } }$be a minimal$L _ { \infty } { \mathrm { - a l g e b r a } }$as in the previous lemma. Then there are two $L_{\infty}$-morphisms (projection and inclusion)
 
 $$
 (\mathbf {g} [ 1 ] _ {\text { formal }}, 0) \longrightarrow (\mathbf {g} ^ {\min} [ 1 ] _ {\text { formal }}, 0), \quad (\mathbf {g} ^ {\min} [ 1 ] _ {\text { formal }}, 0) \longrightarrow (\mathbf {g} [ 1 ] _ {\text { formal }}, 0),
@@ -672,9 +674,9 @@ $$
 \subset \operatorname{Maps} ((\operatorname{Spec} (\mathbf {m} \oplus \mathbf {k} \cdot 1), \text {   base   point   }), (M, 0)).
 $$
 
-In terms of the coalgebra$\mathcal { C }$corresponding to M this set is equal to the set of homomorphisms of coalgebras${ \mathbf { m } } ^ { * } \longrightarrow \mathcal { C }$with the image annihilated by$Q .$Another way to say this is to introduce a global (i.e. not formal) pointed Q-manifold of maps from$( \mathrm { S p e c } ( \mathbf { m } \oplus \mathbf { k } \cdot 1 )$, base point) to ðM; 0Þ and consider zeroes of the global vector field Q on it.
+In terms of the coalgebra$\mathcal { C }$corresponding to M this set is equal to the set of homomorphisms of coalgebras${ \mathbf { m } } ^ { * } \longrightarrow \mathcal { C }$with the image annihilated by$Q .$Another way to say this is to introduce a global (i.e. not formal) pointed Q-manifold of maps from$( \mathrm { S p e c } ( \mathbf { m } \oplus \mathbf { k } \cdot 1 )$, base point) to $(M,0)$ and consider zeroes of the global vector field Q on it.
 
-Two solutions$p _ { 0 }$and$p _ { 1 }$of the Maurer–Cartan equation are called gauge equivalent if there exists (parametrized by$\mathrm { S p e c } ( \mathbf { m } \oplus \mathbf { k } \cdot 1 ) )$polynomial family of odd vector fields$\xi ( t )$on M (of degree 1 with respect to Z-grading) and a polynomial solution of the equation
+Two solutions$p _ { 0 }$and$p _ { 1 }$of the Maurer–Cartan equation are called gauge equivalent if there exists (parametrized by$\mathrm { S p e c } ( \mathbf { m } \oplus \mathbf { k } \cdot 1 ) )$polynomial family of odd vector fields$\xi ( t )$on M (of degree −1 with respect to Z-grading) and a polynomial solution of the equation
 
 $$
 \frac {\mathrm{d} p (t)}{\mathrm{d} t} = ([ Q, \xi (t) ] _ {\text { super }}) _ {| p (t)}, \quad p (0) = p _ {0}, \quad p (1) = p _ {1},
@@ -692,11 +694,11 @@ One can easily prove the following properties:
 
 (2) any$L _ { \infty } { \mathrm { - m o r p h i s m } }$gives a natural transformation of functors,
 
-(3) the functor$\mathrm { D e f } _ { \mathbf { g } _ { 1 } \oplus \mathbf { g } _ { 2 } }$corresponding to the direct sum of two$L _ { \infty } \mathrm { - a l g e b r a s . }$, is naturally equivalent to the product of functors$\mathrm { D e f } _ { \mathbf { g } _ { 1 } } \times \mathrm { D e f } _ { \mathbf { g } _ { 2 } }$2
+(3) the functor$\mathrm { D e f } _ { \mathbf { g } _ { 1 } \oplus \mathbf { g } _ { 2 } }$corresponding to the direct sum of two$L _ { \infty } \mathrm { - a l g e b r a s . }$, is naturally equivalent to the product of functors$\mathrm { D e f } _ { \mathbf { g } _ { 1 } } \times \mathrm { D e f } _ { \mathbf { g } _ { 2 } }$
 
 (4) the deformation functor for a linear contractible$L _ { \infty } { \mathrm { - a l g e b r a ~ } } \mathbf { g }$is trivial,$\mathrm { D e f } _ { \mathbf { g } } ( \mathbf { m } )$ is a one-element set for every m.
 
-Properties (2)–(4) are just trivial, and (1) is easy. It follows from properties (1)–(4) that if an$L _ { \infty } { \mathrm { - m o r p h i s m } }$of diferential graded Lie algebras is a quasi-isomorphism, then it induces an isomorphism ofdeformation functors. Theorem 4.6 is proven.(
+Properties (2)–(4) are just trivial, and (1) is easy. It follows from properties (1)–(4) that if an$L _ { \infty } { \mathrm { - m o r p h i s m } }$of diferential graded Lie algebras is a quasi-isomorphism, then it induces an isomorphism ofdeformation functors. Theorem 4.6 is proven.□
 
 We would like to notice here that in the definition of the deformation functor one can consider just a formal pointed super Q-manifold$( M , 0 )$(i.e. not a graded one), and m could be a finite-dimensional nilpotent diferential super commutative associative nonunital algebra.
 
@@ -739,7 +741,7 @@ $$
 In local coordinates$( x ^ { 1 } , \ldots , x ^ { d } )$, if one replaces$\partial / \partial x ^ { i }$by odd variables$\psi _ { i }$and writes polyvector fields as functions in$( x ^ { 1 } , \ldots , x ^ { d } | \psi _ { 1 } , \ldots , \psi _ { d } )$, the bracket is
 
 $$
-[ \gamma_ {1}, \gamma_ {2} ] = \gamma_ {1} \bullet \gamma_ {2} - (- 1) ^ {k _ {1} k _ {2}} \gamma \bullet \gamma_ {1},
+[ \gamma_ {1}, \gamma_ {2} ] = \gamma_ {1} \bullet \gamma_ {2} - (- 1) ^ {k _ {1} k _ {2}} \gamma_ {2} \bullet \gamma_ {1},
 $$
 
 where we introduce the following notation:
@@ -760,7 +762,7 @@ THEOREM 4.10.$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is a quasi-isomorphism of compl
 
 This is a version of the Hochschild–Kostant–Rosenberg theorem which says that, for a smooth afine algebraic variety Y over a field k of characteristic zero, the Hochschild cohomology of algebra${ \mathcal { O } } ( Y )$coincides with the space $\oplus _ { k \geqslant 0 } \Gamma ( X , \wedge ^ { k } T _ { Y } ) [ - k ]$of algebraic polyvector fields on Y (see [26]). The analogous statement for$C ^ { \infty }$manifolds seems to be well known, although we were not able to find it in the literature (e.g. in [7] a similar statement was proven for Hochschild homology). In any case, we give here a proof.
 
-Proof. First of all, one can immediately check that the image of$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is annihilated by the diferential in$D _ { \mathrm { p o l y } } ( X )$, i.e. that$\dot { \mathcal { U } } _ { 1 } ^ { ( 0 ) }$is a morphism of complexes.
+Proof. First of all, one can immediately check that the image of$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is annihilated by the diferential in$D _ { \mathrm { p o l y } } ( X )$, i.e. that$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is a morphism of complexes.
 
 Complex$D _ { \mathrm { p o l y } } ( X )$is filtered by the total degree of polydiferential operators. Complex$T _ { \mathrm { p o l y } } ( X )$endowed with zero diferential also carries a very simple filtration (just by degrees), such that$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is compatible with filtrations. We claim that
 
@@ -776,7 +778,7 @@ $$
 \operatorname{Sym} (T) \otimes \dots \otimes \operatorname{Sym} (T) \quad (n \text { times }, n \geqslant 0),
 $$
 
-where$\mathrm { S y m } ( T )$is the free polynomial algebra generated by T. It is convenient here to identify SymðTÞ with the cofree cocommutative coassociative coalgebra with counit cogenerated by T:
+where$\mathrm { S y m } ( T )$is the free polynomial algebra generated by T. It is convenient here to identify Sym(T) with the cofree cocommutative coassociative coalgebra with counit cogenerated by T:
 
 $$
 \mathscr {C} := C (T) \oplus (\mathbf {k} \cdot 1) ^ {*}.
@@ -820,7 +822,7 @@ $$
 
 by free A-modules.
 
-As a side remark, we notice that the statement of the lemma also holds if one replaces C by CðTÞ (i.e. the free coalgebra without counit) and removes terms with 1<sup></sup> from the diferential. In the language of Hochschild cochains, it means that the subcomplex of reduced cochains is quasi-isomorphic to the total Hochschild complex.
+As a side remark, we notice that the statement of the lemma also holds if one replaces C by C(T) (i.e. the free coalgebra without counit) and removes terms with $1^{*}$ from the differential. In the language of Hochschild cochains, it means that the subcomplex of reduced cochains is quasi-isomorphic to the total Hochschild complex.
 
 The lemma implies that$\mathrm { G r } ( \mathcal { U } _ { 1 } ^ { ( 0 ) } )$is an isomorphism fiberwise. Applying the standard argument with spectral sequences, we obtain the proof of the theorem. (
 
@@ -840,13 +842,13 @@ $$
 \alpha \in T _ {\mathrm{poly}} ^ {1} (X) = \Gamma (X, \wedge^ {2} T _ {X}), [ \alpha , \alpha ] = 0.
 $$
 
-Any such a defines also a solution formally depending on$\hbar ,$
+Any such α defines also a solution formally depending on$\hbar ,$
 
 $$
 \gamma (\hbar) := \alpha \cdot \hbar \in T _ {\mathrm{poly}} ^ {1} (X) [ [ \hbar ] ] \quad [ \gamma (\hbar), \gamma (\hbar) ] = 0.
 $$
 
-The gauge group action is the action of the difeomorphism group by conjugation. Solutions of the Maurer–Cartan equation in$D _ { \mathrm { p o l y } } ( X )$formally depending on h are star products. Thus, we obtain as a corollary that any Poisson structure on X gives a canonical equivalence class of star products, and the Theorem 1.1.
+The gauge group action is the action of the difeomorphism group by conjugation. Solutions of the Maurer–Cartan equation in$D _ { \mathrm { p o l y } } ( X )$formally depending on ℏ are star products. Thus, we obtain as a corollary that any Poisson structure on X gives a canonical equivalence class of star products, and the Theorem 1.1.
 
 The rest of the paper is devoted to the proof of the Main Theorem, and to the discussion of various applications, corollaries and extensions. In Section 5, we will make some preparations for the universal formula (Section 6) for an$L _ { \infty }$-morphism from$T _ { \mathrm { p o l y } } ( X )$to$D _ { \mathrm { p o l y } } ( X )$in the case of flat space$X = \mathbb { R } ^ { d }$. In Section 7 we extend our construction to general manifolds.
 
@@ -888,7 +890,7 @@ $$
 G ^ {(1)} = \{z \mapsto a z + b \mid a, b \in \mathbb {R}, a > 0 \}.
 $$
 
-It follows from the condition$2 n + m \geqslant 2$that the action of$G ^ { ( 1 ) }$on${ \mathrm { C o n f } } _ { n , m }$is free. The quotient space$C _ { n , m } : = \mathrm { C o n f } _ { n , m } / G ^ { ( 1 ) }$is a manifold of dimension$2 n + m - 2$. If $P = ( p _ { 1 } , \ldots , p _ { n } ; q _ { 1 } , \ldots , q _ { m } )$is a point of${ \mathrm { C o n f } } _ { n , m }$, then we denote by ½P the corresponding point of$C _ { n , m }$
+It follows from the condition$2 n + m \geqslant 2$that the action of$G ^ { ( 1 ) }$on${ \mathrm { C o n f } } _ { n , m }$is free. The quotient space$C _ { n , m } : = \mathrm { C o n f } _ { n , m } / G ^ { ( 1 ) }$is a manifold of dimension$2 n + m - 2$. If $P = ( p _ { 1 } , \ldots , p _ { n } ; q _ { 1 } , \ldots , q _ { m } )$is a point of${ \mathrm { C o n f } } _ { n , m }$, then we denote by [P] the corresponding point of$C _ { n , m }$
 
 Analogously, we introduce simpler spaces Conf<sub>n</sub> and$C _ { n }$for any$n \geqslant 2$:
 
@@ -910,7 +912,7 @@ We will construct compactifications$\overline { { C } } _ { n , m }$of$C _ { n ,
 
 We recall that a manifold with corners (of dimension$d )$is defined analogously to a usual manifold with boundary, with the only diference being that the manifold with corners looks locally as an open part of the closed simplicial cone$( \mathbb { R } _ { \geqslant 0 } ) ^ { d }$. For example, the closed hypercube$[ 0 , 1 ] ^ { d }$is a manifold with corners. There is a natural smooth stratification by faces of any manifold with corners.
 
-First of all, we give one of possible formal definitions of the compactification$\overline { { C } } _ { n }$ where$n \geqslant 2$. With any point$\left[ \left( p _ { 1 } , \ldots , p _ { n } \right) \right]$of$C _ { n } .$, we associate a collection of$n ( n - 1 )$Þ angles with values in$\mathbb { R } / 2 \pi \mathbb { Z } \colon ( \mathrm { A r g } ( p _ { i } - p _ { j } ) ) _ { i \neq j }$and$n ^ { 2 } ( n - 1 ) ^ { 2 }$ratios of distances.
+First of all, we give one of possible formal definitions of the compactification$\overline { { C } } _ { n }$ where$n \geqslant 2$. With any point$\left[ \left( p _ { 1 } , \ldots , p _ { n } \right) \right]$of$C _ { n } .$, we associate a collection of$n ( n - 1 )$ angles with values in$\mathbb { R } / 2 \pi \mathbb { Z } \colon ( \mathrm { A r g } ( p _ { i } - p _ { j } ) ) _ { i \neq j }$and$n ^ { 2 } ( n - 1 ) ^ { 2 }$ratios of distances.
 
 $$
 \left(\left| p _ {i} - p _ {j} \right| / \left| p _ {k} - p _ {l} \right|\right) _ {i \neq j, k \neq l}.
@@ -932,7 +934,7 @@ and then compactify the image in$\overline { { C } } _ { 2 n + m }$. The result 
 
 One can show that open strata of$\overline { { C } } _ { n , m }$are naturally isomorphic to products of manifolds of type$C _ { n ^ { \prime } , m ^ { \prime } }$and$C _ { n ^ { \prime } }$. In the next subsection we will describe explicitly $\overline { { C } } _ { n , m }$as a manifold with corners.
 
-There is a natural action of the permutation group$\Sigma _ { n }$on$C _ { n } .$, and also of$\Sigma _ { n } \times \Sigma _ { m }$ on$C _ { n , m }$. This gives us a possibility to define spaces$C _ { A }$and$C _ { A , B }$for finite sets$A , B$ such that #$\Rightarrow 2$or$2 \# A + \# B \geqslant 2$, respectively. If$A ^ { \prime } \hookrightarrow A$and$B ^ { \prime } \hookrightarrow B$are inclusions of sets, then there are natural fibrations (forgetting maps)$C _ { A } \longrightarrow C _ { A ^ { \prime } }$and $C _ { A , B } \longrightarrow C _ { A ^ { \prime } , B ^ { \prime } }$
+There is a natural action of the permutation group$\Sigma _ { n }$on$C _ { n } .$, and also of$\Sigma _ { n } \times \Sigma _ { m }$ on$C _ { n , m }$. This gives us a possibility to define spaces$C _ { A }$and$C _ { A , B }$for finite sets$A , B$ such that #$A \geqslant 2$or$2 \# A + \# B \geqslant 2$, respectively. If$A ^ { \prime } \hookrightarrow A$and$B ^ { \prime } \hookrightarrow B$are inclusions of sets, then there are natural fibrations (forgetting maps)$C _ { A } \longrightarrow C _ { A ^ { \prime } }$and $C _ { A , B } \longrightarrow C _ { A ^ { \prime } , B ^ { \prime } }$
 
 ## 5.2. LOOKING THROUGH A MAGNIFYING GLASS
 
@@ -946,13 +948,7 @@ Before doing this, let us first consider the case of a configuration on$\mathbb 
 
 (2) the center of the minimal circle containing$\{ p _ { 1 } , \ldots , p _ { n } \}$is$0 \in \mathbb { C }$
 
-$$
-^ 2 \bullet \quad \begin{array}{c} \bullet^ {3} \\ \bullet^ {4} \end{array}
-$$
-
-$$
-_ 5 \cdot^ {6}
-$$
+![Figure 3. Configuration of points close to the boundary of the compactified configuration space.](../audit/300dpi/Kontsevich_2003_deformation_quantization_published_p028_figure3.png)
 
 Figure 3. Configuration of points close to the boundary of the compactified configuration space.
 
@@ -964,31 +960,31 @@ After an appropriate magnification of any such domain, we again get a stable con
 
 In such a way, we get an oriented tree T with one root, and leaves numbered from 1 to n. For example, the configuration in Figure 3 gives the tree in Figure 4.
 
-For every vertex of tree T except leaves, we denote by StarðvÞ the set of edges starting at v. For example, in the figure from above the set StarðrootÞ has three elements, and sets StarðvÞ for other three vertices all have two elements.
+For every vertex of tree T except leaves, we denote by Star(v) the set of edges starting at v. For example, in the figure from above the set Star(root) has three elements, and sets Star(v) for other three vertices all have two elements.
 
 Points in$C _ { n }$close to one which we consider, can be parametrized by the following data:
 
-(a) for each vertex v of T except leaves, a configuration$c _ { \nu }$in the standard position of points labeled by the set StarðvÞ,
+(a) for each vertex v of T except leaves, a configuration$c _ { v }$in the standard position of points labeled by the set Star(v),
 
 ![](images/page_27_image_10.jpg)
 
 Figure 4. Tree corresponding the limiting point in the configuration space.
 
-(b) for each vertex v except leaves and the root of the tree, the scale$s _ { \nu } > 0$with which we should put a copy of$c _ { \nu }$instead of the corresponding point$p _ { \nu } \in \mathbb { C }$on configuration$c _ { u }$where$u \in V _ { T }$is such that$( u , v ) \in E _ { T }$
+(b) for each vertex v except leaves and the root of the tree, the scale$s _ { v } > 0$with which we should put a copy of$c _ { v }$instead of the corresponding point$p _ { v } \in \mathbb { C }$on configuration$c _ { u }$where$u \in V _ { T }$is such that$( u , v ) \in E _ { T }$
 
-More precisely, we act on the configuration$c _ { \nu }$by the element$\left( z \mapsto s _ { \nu } z + p _ { \nu } \right)$of$G ^ { ( 2 ) }$ Numbers$S _ { \nu }$are small but positive. The compactification$\overline { { C } } _ { n }$is achieved by formally permitting some of scales$S _ { \nu }$to be equal to 0.
+More precisely, we act on the configuration$c _ { v }$by the element$\left( z \mapsto s _ { v } z + p _ { v } \right)$of$G ^ { ( 2 ) }$. The numbers$s _ { v }$are small but positive. The compactification$\overline { { C } } _ { n }$is achieved by formally permitting some of the scales$s _ { v }$to be equal to 0.
 
-In this way we get a compact topological manifold with corners, with strata$C _ { T }$ labeled by trees$T$(with leaves numbered from 1 to n). Each stratum$C _ { T }$is canonically isomorphic to the product$\prod _ { \nu } C _ { \mathrm { S t a r } ( \nu ) }$over all vertices v except leaves.
+In this way we get a compact topological manifold with corners, with strata$C _ { T }$ labeled by trees$T$(with leaves numbered from 1 to n). Each stratum$C _ { T }$is canonically isomorphic to the product$\prod _ { v } C _ { \mathrm { S t a r } ( v ) }$over all vertices v except leaves.
 
-In the above description points of$C _ { T }$correspond to collections of configurations with all scales$S _ { \nu }$equal to zero. Let us repeat: as a set$\overline { { C } } _ { n }$coincides with
+In the above description points of$C _ { T }$correspond to collections of configurations with all scales$s _ { v }$equal to zero. Let us repeat: as a set$\overline { { C } } _ { n }$coincides with
 
 ![](images/page_28_image_4.jpg)
 
-In order to introduce a smooth structure on$\overline { { C } } _ { n } .$, we should choose a$\Sigma _ { n }$-equivariant smooth section$s ^ { \mathrm { s m o o t h } }$of the projection map${ \mathrm { C o n f } } _ { n } \longrightarrow C _ { n }$instead of the section$s ^ { \mathrm { c o n t } }$ given by configurations in the standard position. Local coordinates on$\overline { { C } } _ { n }$near a given point lying in stratum$C _ { T }$are scales$s _ { \nu } \in \mathbb { R } _ { \geqslant 0 }$close to zero and local coordinates in manifolds$C _ { \mathrm { S t a r } ( \nu ) }$for all$\nu \in V _ { T } \setminus \{ \mathrm { l e a v e s } \}$. The resulting structure of a smooth manifold with corners does not depend on the choice of the section$s ^ { \mathrm { s m o o t h } }$
+In order to introduce a smooth structure on$\overline { { C } } _ { n } .$, we should choose a$\Sigma _ { n }$-equivariant smooth section$s ^ { \mathrm { s m o o t h } }$of the projection map${ \mathrm { C o n f } } _ { n } \longrightarrow C _ { n }$instead of the section$s ^ { \mathrm { c o n t } }$ given by configurations in the standard position. Local coordinates on$\overline { { C } } _ { n }$near a given point lying in stratum$C _ { T }$are scales$s _ { v } \in \mathbb { R } _ { \geqslant 0 }$close to zero and local coordinates in manifolds$C _ { \mathrm { S t a r } ( v ) }$for all$v \in V _ { T } \setminus \{ \mathrm { l e a v e s } \}$. The resulting structure of a smooth manifold with corners does not depend on the choice of the section$s ^ { \mathrm { s m o o t h } }$
 
-The case of configurations of points on$\mathcal { H } \cup$[ R is not much harder. First of all we say that a finite nonempty set S of points on${ \mathcal { H } } \cup \mathbb { R }$is in the standard position if
+The case of configurations of points on $\mathcal H\cup\mathbb R$ is not much harder. First of all, we say that a finite nonempty set S of points on $\mathcal H\cup\mathbb R$ is in the standard position if
 
-(1) the projection of the convex hull of S to the horizontal line$\mathbb { R } \subset \mathbb { C } \simeq \mathbb { R } ^ { 2 }$is either the one-point set f0g, or it is an interval with the center at$0 ,$,
+(1) the projection of the convex hull of S to the horizontal line$\mathbb { R } \subset \mathbb { C } \simeq \mathbb { R } ^ { 2 }$is either the one-point set $\{0\}$, or it is an interval with the center at$0 ,$,
 
 (2) the maximum of the diameter of S and of the distance from S to R is equal to 1.
 
@@ -1018,7 +1014,7 @@ We give here a list of all strata in$\overline { { C } } _ { A , B }$of codimens
 
 (S1) points$p _ { i } \in \mathcal { H }$for$i \in S \subseteq A$; where$\# S \geqslant 2$, move close to each other but far from R,
 
-(S2) points$p _ { i } \in \mathcal { H }$for$i \in S \subseteq A$and points$q _ { j } \in \mathbb { R }$for$j \in S ^ { \prime } \subseteq B ,$, where $2 \# S + \# S ^ { \prime } \geqslant 2$, all move close to each other and to R, with at least one point left outside S and S<sup>0</sup>, i.e.$\# S + \# S ^ { \prime } \leqslant \# A + \# B - 1$
+(S2) points$p _ { i } \in \mathcal { H }$for$i \in S \subseteq A$and points$q _ { j } \in \mathbb { R }$for$j \in S ^ { \prime } \subseteq B ,$, where $2 \# S + \# S ^ { \prime } \geqslant 2$, all move close to each other and to R, with at least one point left outside S and $S^{\prime}$, i.e.$\# S + \# S ^ { \prime } \leqslant \# A + \# B - 1$
 
 The stratum of type (S1) is
 
@@ -1026,7 +1022,7 @@ $$
 \partial_ {S} \overline {{C}} _ {A, B} \simeq C _ {S} \times C _ {(A \backslash S) \sqcup \{p t \}, B},
 $$
 
-where fptg is a one-element set, whose element represents the cluster$\left( \boldsymbol { p } _ { i } \right) _ { i \in S }$of points in H. Analogously, the stratum of type (S2) is
+where $\{pt\}$ is a one-element set, whose element represents the cluster$\left( \boldsymbol { p } _ { i } \right) _ { i \in S }$of points in H. Analogously, the stratum of type (S2) is
 
 $$
 \partial_ {S, S ^ {\prime}} \overline {{C}} _ {A, B} \simeq C _ {S, S ^ {\prime}} \times C _ {A \setminus S, (B \setminus S ^ {\prime}) \sqcup \{p t \}}.
@@ -1038,11 +1034,11 @@ Figure 7. The Eye.
 
 ## 6. Universal Formula
 
-In this section we propose a formula for an L<sub>1</sub>-morphism$T _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )  D _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )$ generalizing a formula for the star product in Section 2. In order to write it, we need to make some preparations.
+In this section we propose a formula for an $L_{\infty}$-morphism $T_{\mathrm{poly}}(\mathbb{R}^{d}) \longrightarrow D_{\mathrm{poly}}(\mathbb{R}^{d})$ generalizing a formula for the star product in Section 2. In order to write it, we need to make some preparations.
 
 ## 6.1. ADMISSIBLE GRAPHS
 
-DEFINITION 6.1. Admissible graph C is a graph with labels such that
+DEFINITION 6.1. An admissible graph Γ is a graph with labels such that
 
 (1) the set of vertices V is$\{ 1 , \ldots , n \} \sqcup \{ { \overline { { 1 } } } , \ldots , { \overline { { m } } } \}$where n;$m \in \mathbb { Z } _ { \geqslant 0 } , 2 n + m - 2 \geqslant 0 ;$ vertices from the set$\{ 1 , \ldots , n \}$are called vertices of the first type, vertices from $\{ { \overline { { 1 } } } , \dots , { \overline { { m } } } \}$are called vertices of the second type,
 
@@ -1056,19 +1052,19 @@ $$
 
 starting from$k ,$is labeled by symbols$( e _ { k } ^ { 1 } , \ldots , e _ { k } ^ { \# \mathrm { S t a r } ( k ) } )$
 
-The labeled graphs considered in Section$2$are exactly (after the identifications $L = \overline { { 1 } } , R = \overline { { 2 } } )$admissible graphs such that m is equal to$^ { 2 , }$and the number of edges starting at every vertex of first type is also equal to 2.
+The labeled graphs considered in Section$2$are exactly (after the identifications $L = \overline { { 1 } } , R = \overline { { 2 } } )$admissible graphs such that m is equal to 2 and the number of edges starting at every vertex of first type is also equal to 2.
 
 ## 6.2. DIFFERENTIAL FORMS ON CONFIGURATION SPACES
 
 The space$\overline { { C } } _ { 2 , 0 }$(the Eye) is homotopy equivalent to the standard circle$S ^ { 1 } \simeq \mathbb { R } / 2 \pi \mathbb { Z }$ Moreover, one of its boundary components, the space$C _ { 2 } = \overline { { C } } _ { 2 }$, is naturally identified with the standard circle$S ^ { 1 }$. The other component of the boundary is the union of two closed intervals (copies of$\overline { { C } } _ { 1 , 1 } )$with identified end points.
 
-DEFINITION 6.2. An angle map is a smooth map$\phi \colon \overline { { C } } _ { 2 , 0 }  \mathbb { R } / 2 \pi \mathbb { Z } \simeq S ^ { 1 }$such that the restriction of / to$C _ { 2 } \simeq S ^ { 1 }$is the angle measured in the anti-clockwise direction from the vertical line, and / maps the whole upper interval$\overline { { C } } _ { 1 , 1 } \simeq [ 0 , 1 ]$of the Eye, to a point in$S ^ { 1 }$
+DEFINITION 6.2. An angle map is a smooth map $\phi: \overline{C}_{2,0} \longrightarrow \mathbb{R}/2\pi\mathbb{Z} \simeq S^{1}$ such that the restriction of $\phi$ to $C_{2} \simeq S^{1}$ is the angle measured in the anti-clockwise direction from the vertical line, and $\phi$ maps the whole upper interval $\overline{C}_{1,1} \simeq [0,1]$ of the Eye to a point in $S^{1}$.
 
 We will denote$\phi ( [ ( x , y ) ] )$simply by$\phi ( x , y )$where$x , y \in { \mathcal { H } } \sqcup \mathbb { R } , x \neq y$. It follows from the definition that$\mathrm { d } \phi ( x , y ) = 0 { \mathrm { ~ i f ~ } } x$stays in R.
 
 For example, the special map$\phi ^ { h }$used in the formula in Section 2, is an angle map. In the rest of the paper we can use any$\phi ,$, not necessarily harmonic.
 
-We are now prepared for the analytic part of the universal formula. Let C be an admissible graph with n vertices of the first type, m vertices of the second type and with$2 n + m - 2$edges. We define the weight of graph C by the following formula:
+We are now prepared for the analytic part of the universal formula. Let Γ be an admissible graph with n vertices of the first type, m vertices of the second type and with$2 n + m - 2$edges. We define the weight of graph Γ by the following formula:
 
 $$
 W _ {\Gamma} := \prod_ {k = 1} ^ {n} \frac {1}{(\# \operatorname{Star} (k)) !} \frac {1}{(2 \pi) ^ {2 n + m - 2}} \int_ {\overline {{C}} _ {n, m} ^ {+}} \wedge_ {e \in E _ {\Gamma}} \mathrm{d} \phi_ {e}.
@@ -1078,15 +1074,15 @@ Let us explain what is written here. The domain of integration$\overline { { C }
 
 The orientation of${ \mathrm { C o n f } } _ { n , m }$is the product of the standard orientation on the coordinate space$\mathbb { R } ^ { m } \supset \{ ( q _ { 1 } , \dots , q _ { m } ) | q _ { j } \in \mathbb { R } \}$, with the product of standard orientations on the plane$\mathbb { R } ^ { 2 }$(for points$p _ { i } \in \mathcal { H } \subset \mathbb { R } ^ { 2 } )$. The group$G ^ { ( 1 ) }$is even-dimensional and naturally oriented because it acts freely and transitively on the complex manifold ${ \mathcal { H } } .$. Thus, the quotient space$\begin{array} { r } { C _ { n , m } = \mathbf { C o n f } _ { n , m } / G ^ { ( 1 ) } } \end{array}$again carries a natural orientation.
 
-Every edge e of C defines a map from$\overline { { C } } _ { n , m }$to$\overline { { C } } _ { 2 , 0 }$or to$\overline { { C } } _ { 1 , 1 } \subset \overline { { C } } _ { 2 , 0 }$(the forgetting map). Here we consider inclusion$\overline { { C } } _ { 1 , 1 }$in$\overline { { C } } _ { 2 , 0 }$as the lower interval of the Eye. The pullback of the function$\phi$by the map$\overline { { C } } _ { n , m }  \overline { { C } } _ { 2 , 0 }$corresponding to edge e is denoted by$\phi _ { e }$
+Every edge e of Γ defines a map from$\overline { { C } } _ { n , m }$to$\overline { { C } } _ { 2 , 0 }$or to$\overline { { C } } _ { 1 , 1 } \subset \overline { { C } } _ { 2 , 0 }$(the forgetting map). Here we consider inclusion$\overline { { C } } _ { 1 , 1 }$in$\overline { { C } } _ { 2 , 0 }$as the lower interval of the Eye. The pullback of the function$\phi$by the map$\overline { { C } } _ { n , m } \longrightarrow \overline { { C } } _ { 2 , 0 }$corresponding to edge e is denoted by$\phi _ { e }$
 
-Finally, the ordering in the wedge product of 1-forms$d \phi _ { \epsilon }$is fixed by enumeration of the set of sources of edges and by the enumeration of the set of edges with a given source.
+Finally, the ordering in the wedge product of 1-forms$d \phi _ { e }$is fixed by enumeration of the set of sources of edges and by the enumeration of the set of edges with a given source.
 
 The integral giving$W _ { \Gamma }$is absolutely convergent because it is an integral of a smooth diferential form over a compact manifold with corners.
 
-## 6.3. PRE-<sub>L1</sub>-MORPHISMS ASSOCIATED WITH GRAPHS
+## 6.3. PRE-<sub>L∞</sub>-MORPHISMS ASSOCIATED WITH GRAPHS
 
-For any admissible graph C with n vertices of the first type, m vertices of the second type, and 2n$+ m - 2 + l$edges where$l \in \mathbb { Z } .$we define a linear map
+For any admissible graph Γ with n vertices of the first type, m vertices of the second type, and $2n+m-2+l$ edges, where $l\in\mathbb{Z}$, we define a linear map
 
 $$
 \mathcal {U} _ {\Gamma}: \otimes^ {n} T _ {\text { poly }} (\mathbb {R} ^ {d}) \to D _ {\text { poly }} (\mathbb {R} ^ {d}) [ 1 + l - n ].
@@ -1106,7 +1102,7 @@ $$
 \Phi = \sum_ {I: E _ {\Gamma} \rightarrow \{1, \dots , d \}} \Phi_ {I},
 $$
 
-where$\Phi _ { I }$is the product over all$n + m$vertices of C of certain partial derivatives of functions$f _ { j }$and of coeficients of$\gamma _ { i }$.
+where$\Phi _ { I }$is the product over all$n + m$vertices of Γ of certain partial derivatives of functions$f _ { j }$and of coeficients of$\gamma _ { i }$.
 
 Namely, with each vertex$i , 1 \leqslant i \leqslant n$of the first type we associate a function$\psi _ { i }$on $\mathbb { R } ^ { d }$which is a coeficient of the polyvector field$\gamma _ { i } .$
 
@@ -1120,21 +1116,21 @@ $$
 \xi_ {1} \wedge \dots \wedge \xi_ {k + 1} \rightarrow \sum_ {\sigma \in \Sigma_ {k + 1}} \operatorname{sgn} (\sigma) \xi_ {\sigma_ {1}} \otimes \dots \otimes \xi_ {\sigma_ {k + 1}} \in \Gamma (\mathbb {R} ^ {d}, T ^ {\otimes (k + 1)}).
 $$
 
-For each vertex$\bar { j }$of the second type, the associated function$\psi _ { \overline { { i } } }$is defined as$f _ { j } .$
+For each vertex$\bar { j }$of the second type, the associated function$\psi _ { \overline { { j } } }$is defined as$f _ { j } .$
 
-Now, at each vertex of graph C we put a function on$\mathbb { R } ^ { d } \left( \mathrm { i } . \mathrm { e } . \mathrm { \Delta } \psi _ { i } ^ { d } \right)$or w ). Also, on the edges ofgraph C there are indices$I ( e )$which label coordinates in$\mathbb { R } ^ { d }$. In the next step we put into each vertex$\nu ,$instead of function$\psi _ { \nu } ,$, its partial derivative
+Now, at each vertex v of graph Γ we put the corresponding function $\psi_v$ on $\mathbb{R}^d$. On each edge of Γ there is an index $I(e)$ labeling a coordinate in $\mathbb{R}^d$. In the next step, at each vertex v, we replace $\psi_v$ by its partial derivative
 
 $$
 \left(\prod_ {e \in E _ {\Gamma}, e = (*, v)} \partial_ {I (e)}\right) \psi_ {v}
 $$
 
-and then take the product over all vertices v of C. The result is by definition the summand$\Phi _ { I }$
+and then take the product over all vertices v of Γ. The result is by definition the summand$\Phi _ { I }$
 
-Construction of the function U from the graph C, polyvector fields$\gamma _ { i }$and functions$f _ { j } ,$is invariant under the action of the group of afine transformations of$\mathbb { R } ^ { d }$ because we contract upper and lower indices.
+Construction of the function U from the graph Γ, polyvector fields$\gamma _ { i }$and functions$f _ { j } ,$is invariant under the action of the group of afine transformations of$\mathbb { R } ^ { d }$ because we contract upper and lower indices.
 
 ## 6.4. MAIN THEOREM FOR$X = \mathbb { R } ^ { d }$, AND THE PROOF
 
-We define a pre-$L _ { \infty }$-morphism U :$T _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )  D _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )$by the formula for its nth Taylor coeficient$\mathcal { U } _ { n } , n \geqslant 1$considered as a skew-symmetric polylinear map (see Section 4.2) from$\otimes ^ { n } T _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )$to$D _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } ) [ 1 - n ]$
+We define a pre-$L _ { \infty }$-morphism $U: T_{\mathrm{poly}}(\mathbb{R}^{d}) \longrightarrow D_{\mathrm{poly}}(\mathbb{R}^{d})$ by the formula for its nth Taylor coefficient $\mathcal{U}_n$, $n\geqslant1$, considered as a skew-symmetric polylinear map (see Section 4.2) from $\otimes^{n}T_{\mathrm{poly}}(\mathbb{R}^{d})$ to $D_{\mathrm{poly}}(\mathbb{R}^{d})[1-n]$.
 
 $$
 \mathcal {U} _ {n} := \sum_ {m \geqslant 0} \sum_ {\Gamma \in G _ {n, m}} W _ {\Gamma} \times \mathcal {U} _ {\Gamma}.
@@ -1158,31 +1154,31 @@ $$
 \begin{array}{l} \sum_ {i \neq j} \pm \big (\mathcal {U} _ {n - 1} ((\gamma_ {i} \bullet \gamma_ {j}) \wedge \gamma_ {1} \wedge \dots \wedge \gamma_ {n}) \big) (f _ {1} \otimes \dots \otimes f _ {m}) + \\ \quad + \sum_ {k, l \geqslant 0, k + l = n} \frac {1}{k ! l !} \sum_ {\sigma \in \Sigma_ {n}} \pm \\ \quad \pm \Big (\mathcal {U} _ {k} (\gamma_ {\sigma_ {1}} \wedge \dots \wedge \gamma_ {\sigma_ {k}}) \circ \mathcal {U} _ {l} (\gamma_ {\sigma_ {k + 1}} \wedge \dots \wedge \gamma_ {\sigma_ {n}}) \Big) (f _ {1} \otimes \dots \otimes f _ {m}) = 0. \end{array}
 $$
 
-Here we use all polylinear maps$\textstyle { \mathcal { U } } _ { n }$including the case$n = 0 ,$and definitions of brackets in$D _ { \mathrm { p o l y } }$and$T _ { \mathrm { p o l y } }$via operations  (see Section 3.4.2) and  (see Section $4 . 6 . 1 )$. We denote the left-hand side of the expression above by$( F )$
+Here we use all polylinear maps$\textstyle { \mathcal { U } } _ { n }$including the case$n = 0 ,$and the definitions of brackets in$D _ { \mathrm { p o l y } }$and$T _ { \mathrm { p o l y } }$via operations ◦ and •, respectively (see Sections 3.4.2 and 4.6.1). We denote the left-hand side of the expression above by (F).
 
-$\mathcal { U } + \mathcal { U } _ { 0 }$is not a pre-$. L _ { \infty }$-morphism because it maps 0 to a nonzero point$m _ { A }$. Still the equation$( F ) = 0$makes sense and means that the map$( \mathcal { U } + \mathcal { U } _ { 0 } )$from formal$Q \cdot$ manifold$T _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } ) [ 1 ] ) _ { \mathrm { f o r m a l } }$to the formal neighborhood of point$m _ { A }$in the graded vector space$D _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } ) [ 1 ] \operatorname { i s } Q$-equivariant, where the odd vector field Q on the target is purely quadratic and comes from the bracket on$D _ { \mathrm { p o l y } } ( \mathbb { R } ^ { d } )$, forgetting the diferential.
+$\mathcal{U}+\mathcal{U}_{0}$ is not a pre-$L_{\infty}$-morphism because it maps 0 to the nonzero point $m_A$. Still, equation (F) = 0 makes sense and means that the map $\mathcal{U}+\mathcal{U}_{0}$ from the formal Q-manifold $T_{\mathrm{poly}}(\mathbb{R}^{d})[1]_{\mathrm{formal}}$ to the formal neighborhood of the point $m_A$ in the graded vector space $D_{\mathrm{poly}}(\mathbb{R}^{d})[1]$ is Q-equivariant. The odd vector field Q on the target is purely quadratic and comes from the bracket on $D_{\mathrm{poly}}(\mathbb{R}^{d})$, with the differential forgotten.
 
 Also, the term$\boldsymbol { \mathcal { U } } _ { 0 }$comes from the unique graph$\Gamma _ { 0 }$which was missing in the definition of U. Namely,$\Gamma _ { 0 }$has$n = 0$vertices of the first type,$m = 2$vertices of the second type, and no edges at all. It is easy to see that$W _ { \Gamma _ { 0 } } = 1$and$\mathcal { U } _ { \Gamma _ { 0 } } = \mathcal { U } _ { 0 }$
 
-We consider the expression ðFÞ simultaneously for all possible dimensions d. It is clear that one can write ðFÞ as a linear combination
+We consider the expression (F) simultaneously for all possible dimensions d. It is clear that one can write (F) as a linear combination
 
 $$
 \sum_ {\Gamma} c _ {\Gamma} \cdot \mathcal {U} _ {\Gamma} (\gamma_ {1} \otimes \dots \otimes \gamma_ {n}) (f _ {1} \otimes \dots \otimes f _ {m})
 $$
 
-of expressions$\mathcal { U } _ { \Gamma }$for admissible graphs C with n vertices of the first type, m vertices of the second type, and$2 n + m - 3$edges where$n \geqslant 0 , m \geqslant 0 , 2 n + m - 3 \geqslant 0$. We assume that$c _ { \Gamma } = \pm c _ { \Gamma ^ { \prime } }$if graph$\Gamma ^ { \prime }$is obtained from C by a renumeration of vertices of the first type and by a relabeling of edges in sets$\mathrm { S t a r } ( \nu )$(see Section 6.5 where we discuss signs).
+of expressions$\mathcal { U } _ { \Gamma }$for admissible graphs Γ with n vertices of the first type, m vertices of the second type, and$2 n + m - 3$edges where$n \geqslant 0 , m \geqslant 0 , 2 n + m - 3 \geqslant 0$. We assume that$c _ { \Gamma } = \pm c _ { \Gamma ^ { \prime } }$if graph$\Gamma ^ { \prime }$is obtained from Γ by a renumeration of vertices of the first type and by a relabeling of edges in sets$\mathrm { S t a r } ( \nu )$(see Section 6.5 where we discuss signs).
 
 Coeficients$c _ { \Gamma }$of this linear combination are equal to certain sums with signs of weights$\mathcal { W } _ { \Gamma ^ { \prime } }$0 associated with some other graphs$\Gamma ^ { \prime } ,$and of products of two such weights. In particular, numbers$c _ { \Gamma }$do not depend on the dimension d in our problem. Perhaps it is better to use here the language of rigid tensor categories, but we will not do it.
 
 We want to check that$c _ { \Gamma }$vanishes for each$\Gamma .$
 
-The idea is to identify$c _ { \Gamma }$with the integral over the boundary$\partial \overline { { C } } _ { n , m }$of the closed diferential form constructed from C as in Section 6.2, with the only diference that now we consider graphs with$2 n + m - 3$edges. The Stokes formula gives the vanishing:
+The idea is to identify$c _ { \Gamma }$with the integral over the boundary$\partial \overline { { C } } _ { n , m }$of the closed diferential form constructed from Γ as in Section 6.2, with the only diference that now we consider graphs with$2 n + m - 3$edges. The Stokes formula gives the vanishing:
 
 $$
 \int_ {\partial \overline {{C}} _ {n, m}} \wedge_ {e \in E _ {\Gamma}} \mathrm{d} \phi_ {e} = \int_ {\overline {{C}} _ {n, m}} \mathrm{d} (\wedge_ {e \in E _ {\Gamma}} \mathrm{d} \phi_ {e}) = 0.
 $$
 
-We are going to calculate integrals of the form$\land _ { e \in E _ { \Gamma } } \mathrm { d } \phi _ { \epsilon }$restricted to all possible boundary strata of$\partial \overline { { C } } _ { n , m } .$, and prove that the total integral as above is equal to$c _ { \Gamma }$. In
+We are going to calculate integrals of the form$\bigwedge _ { e \in E _ { \Gamma } } \mathrm { d } \phi _ { e }$restricted to all possible boundary strata of$\partial \overline { { C } } _ { n , m } .$, and prove that the total integral as above is equal to$c _ { \Gamma }$. In
 
 Section 5.2.1 we have listed two groups of boundary strata, denoted by (S1) and (S2) and labeled by sets or pairs of sets. Thus,
 
@@ -1192,21 +1188,21 @@ $$
 
 ## 6.4.1. Case (S1)
 
-Points$p _ { i } \in \mathcal { H }$for i from subset$S \subset \{ 1 , \ldots , n \}$where$\# S \geqslant 2 ,$, move close to each other. The integral over the stratum$\partial _ { S } \overline { { C } } _ { n , m }$is equal to the product of an integral over $C _ { n _ { 1 } , m }$with an integral over$C _ { n _ { 2 } }$where$n _ { 2 } : = \# S , n _ { 1 } : = n - n _ { 2 } + 1$. The integral vanishes by dimensional reasons unless the number of edges of C connecting vertices from S is equal to$2 n _ { 2 } - 3$
+Points$p _ { i } \in \mathcal { H }$for i from subset$S \subset \{ 1 , \ldots , n \}$where$\# S \geqslant 2 ,$, move close to each other. The integral over the stratum$\partial _ { S } \overline { { C } } _ { n , m }$is equal to the product of an integral over $C _ { n _ { 1 } , m }$with an integral over$C _ { n _ { 2 } }$where$n _ { 2 } : = \# S , n _ { 1 } : = n - n _ { 2 } + 1$. The integral vanishes by dimensional reasons unless the number of edges of Γ connecting vertices from S is equal to$2 n _ { 2 } - 3$
 
 There are several possibilities:
 
-6.4.1.1. First subcase of$( S I ) \colon n _ { 2 } = 2 ( \mathrm { F i g u r e } 8 )$. In this subcase, two vertices from$S _ { 1 }$ are connected exactly by one edge, which we denote by$e .$The integral over$C _ { 2 }$here gives number$\pm 1$(after division by 2p coming from the formula for weights$W _ { \Gamma } )$. The total integral over the boundary stratum is equal to the integral of a new graph$\Gamma _ { 1 }$ obtained from C by the contraction of edge e. It is easy to see (up to a sign) that this term corresponds to the first line in our expression ðFÞ, the one where the operation on polyvector fields appears.
+6.4.1.1. First subcase of (S1): $n_2=2$ (Figure 8). In this subcase, two vertices from $S_1$ are connected by exactly one edge, which we denote by e. The integral over $C_2$ gives the number $\pm1$ (after division by $2\pi$ from the formula for weights $W_\Gamma$). The total integral over the boundary stratum equals the integral of a new graph $\Gamma_1$ obtained from Γ by contracting edge e. This term corresponds, up to a sign, to the first line in expression (F), where the operation on polyvector fields appears.
 
-6.4.1.2. Second subcase of$( S I ) \colon n _ { 2 } \geqslant 3$(Figure 9). This is the most nontrivial case. The integral corresponding to this boundary stratum vanishes because the integral of any product of$2 n _ { 2 } - 3$angle forms over$C _ { n _ { 2 } }$where$n _ { 2 } \geqslant 3$vanishes, as is proven later in Section 6.6.
+6.4.1.2. Second subcase of (S1): $n_2\geqslant3$ (Figure 9). This is the most nontrivial case. The integral corresponding to this boundary stratum vanishes because the integral of any product of $2n_2-3$ angle forms over $C_{n_2}$, where $n_2\geqslant3$, vanishes, as is proven later in Section 6.6.
 
-## 6.4.2. Case(S2)
+## 6.4.2. Case (S2)
 
-Points$p _ { i }$for$i \in S _ { 1 } \subset \{ 1 , \ldots , n \}$and points$q _ { j }$for$\overline { { j } } \in S _ { 2 } \subset \{ \overline { { 1 } } , \dots , \overline { { m } } \}$move close to each other and to the horizontal line R. The condition is that$2 n _ { 2 } + m _ { 2 } - 2 \geqslant 0$and $n _ { 2 } + m _ { 2 } \leqslant n + m - 1$, where$n _ { 2 } : = \# S _ { 1 } , m _ { 2 } : = \# S _ { 2 }$. The corresponding stratum is isomorphic to$C _ { n _ { 1 } , m _ { 1 } } \times C _ { n _ { 2 } , m _ { 2 } }$where$n _ { 1 } : = n - n _ { 2 } , m _ { 1 } = m - m _ { 2 } + 1$. The integral of this stratum decomposes into the product of two integrals. It vanishes if the number of edges of C connecting vertices from$S _ { 1 } \sqcup S _ { 2 }$is not equal to$2 n _ { 2 } + m _ { 2 } - 2$
+Points$p _ { i }$for$i \in S _ { 1 } \subset \{ 1 , \ldots , n \}$and points$q _ { j }$for$\overline { { j } } \in S _ { 2 } \subset \{ \overline { { 1 } } , \dots , \overline { { m } } \}$move close to each other and to the horizontal line R. The condition is that$2 n _ { 2 } + m _ { 2 } - 2 \geqslant 0$and $n _ { 2 } + m _ { 2 } \leqslant n + m - 1$, where$n _ { 2 } : = \# S _ { 1 } , m _ { 2 } : = \# S _ { 2 }$. The corresponding stratum is isomorphic to$C _ { n _ { 1 } , m _ { 1 } } \times C _ { n _ { 2 } , m _ { 2 } }$where$n _ { 1 } : = n - n _ { 2 } , m _ { 1 } = m - m _ { 2 } + 1$. The integral of this stratum decomposes into the product of two integrals. It vanishes if the number of edges of Γ connecting vertices from$S _ { 1 } \sqcup S _ { 2 }$is not equal to$2 n _ { 2 } + m _ { 2 } - 2$
 
 ![](images/page_34_image_9.jpg)
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Figure 8. Term corresponding to the operation .</span></small>
+Figure 8. Term corresponding to the operation •.
 
 ![](images/page_35_image_0.jpg)
 
@@ -1216,15 +1212,15 @@ Figure 9. Many points collapse together inside$\mathcal { H }$
 
 Figure 10. Many points collapse on R, no bad edges.
 
-6.4.2.1. First subcase of (S2): no bad edges (Figure 10). In this subcase we assume that there is no edge$( i , j )$in C such that$i \in S _ { 1 } , j \in \{ 1 , \dots , n \} \backslash S _ { 1 }$
+6.4.2.1. First subcase of (S2): no bad edges (Figure 10). In this subcase we assume that there is no edge$( i , j )$in Γ such that$i \in S _ { 1 } , j \in \{ 1 , \dots , n \} \backslash S _ { 1 }$
 
-The integral over the boundary stratum is equal to the product$W _ { \Gamma _ { 1 } } \times W _ { \Gamma _ { 2 } }$where $\Gamma _ { 2 }$is the restriction of C to the subset$S _ { 1 } \sqcup S _ { 2 } \subset \{ 1 , \ldots , n \} \sqcup \{ \overline { { 1 } } , \ldots , \overline { { m } } \} = V _ { \Gamma }$, and $\Gamma _ { 1 }$is obtained by the contraction of all vertices in this set to a new vertex of the second type. Our condition guarantees that$\Gamma _ { 1 }$is an admissible graph. This corresponds to the second line in ðFÞ, where the product  on polydiferential operators appears.
+The integral over the boundary stratum equals the product$W _ { \Gamma _ { 1 } } \times W _ { \Gamma _ { 2 } }$, where $\Gamma _ { 2 }$ is the restriction of Γ to the subset$S _ { 1 } \sqcup S _ { 2 } \subset V _ { \Gamma }$, and $\Gamma _ { 1 }$ is obtained by contracting all vertices in this set to a new vertex of the second type. Our condition guarantees that$\Gamma _ { 1 }$ is an admissible graph. This corresponds to the second line in (F), where the product ◦ on polydifferential operators appears.
 
-6.4.2.2. Second subcase of(S2): there is a bad edge (Figure 11). Now we assume that there is an edge$( i , j )$in C such that$i \in S _ { 1 } , j \in \{ 1 , \dots , n \} \backslash S _ { 1 }$. In this case, the integral is zero because of the condition$\mathrm { d } \phi ( x , y ) = 0$if x stays on the line R.
+6.4.2.2. Second subcase of (S2): there is a bad edge (Figure 11). Now we assume that there is an edge$( i , j )$in Γ such that$i \in S _ { 1 } , j \in \{ 1 , \dots , n \} \backslash S _ { 1 }$. In this case, the integral is zero because of the condition$\mathrm { d } \phi ( x , y ) = 0$if x stays on the line R.
 
-The reader can wonder about what happens if, after the collapsing, the graph will have multiple edges. Such terms do not appear in ðFÞ. Nevertheless, we ignore them because in this case the diferential form which we integrate vanishes as it contains as a factor the square of a 1-form.
+The reader can wonder about what happens if, after collapsing, the graph has multiple edges. Such terms do not appear in (F). Nevertheless, we ignore them because in this case the differential form which we integrate vanishes, as it contains the square of a 1-form as a factor.
 
-Thus, we see that we have exhausted all possibilities and get contributions of all terms in the formula ðFÞ. We just proved that$c _ { \Gamma } = 0$for any C, and that U is an$L _ { \infty } .$ morphism.
+Thus, we have exhausted all possibilities and obtained contributions to every term in formula (F). We have proved that $c_\Gamma=0$ for any Γ, and that U is an $L_{\infty}$-morphism.
 
 ![](images/page_36_image_0.jpg)
 
@@ -1248,7 +1244,7 @@ Theorem 6.3 is proven.
 
 ## 6.4.4. Comparison with the Formula from Section 2
 
-The weight w defined in Section 2 difer from$W _ { \Gamma }$defined in Section 6.2 by the factor$2 ^ { n } / n !$. On the other hand, the bidiferential operator$B _ { \Gamma , \alpha } ( f , g )$is 2<sup>n</sup> times $\mathcal { U } _ { \Gamma } ( \alpha \wedge \dots \wedge \alpha ) ( f \otimes g )$. The inverse factorial$1 / n !$appears in the Taylor series (see the end of Section 4.3). Thus, we obtain the formula from Section 2.
+The weight w defined in Section 2 differs from $W_\Gamma$ defined in Section 6.2 by the factor $2^n/n!$. On the other hand, the bidifferential operator $B_{\Gamma,\alpha}(f,g)$ is $2^{-n}$ times $\mathcal{U}_\Gamma(\alpha\wedge\dots\wedge\alpha)(f\otimes g)$. The inverse factorial $1/n!$ appears in the Taylor series (see the end of Section 4.3). Thus, we obtain the formula from Section 2.
 
 ## <sup>6</sup>.<sup>5</sup>. GRADING, ORIENTATIONS, FACTORIALS, SIGNS
 
@@ -1258,7 +1254,7 @@ $$
 \operatorname{Sym} ^ {n} \left(\left(\bigoplus_ {k \geqslant 0} \Gamma \left(\mathbb {R} ^ {d}, \wedge^ {k} T\right) [ - k ]\right) [ 2 ]\right)\rightarrow \left(\underline {{\operatorname{Hom}}} (A [ 1 ] ^ {\otimes m}, A [ 1 ])\right) [ 1 ],
 $$
 
-where Hom denotes the internal Hom in the tensor category Graded<sup>k</sup>. We denote the expression from above by ðEÞ. First of all, in the expression ðEÞ each polyvector field $\gamma _ { i } \in \Gamma ( \mathbb { R } ^ { d } , \wedge ^ { k _ { i } } T )$appears with the shift$2 - k _ { i }$. In our formula for U the same$\gamma _ { i }$gives$k _ { i }$ edges of the graph, and thus$k _ { i }$1-forms which we have to integrate. Also, it gives two dimensions for the integration domain$\overline { { C } } _ { n , m } .$. Secondly, every function$f _ { j } \in A$appears with shift 1 in$( E )$and gives 1 dimension to the integration domain. We are left with two shifts by 1 in ðEÞ which are accounted for two dimensions of the group$G ^ { ( 1 ) }$. From this it is clear that our formula for U is compatible with$\mathbb { Z } \mathrm { - g r a d i n g }$
+where Hom denotes the internal Hom in the tensor category Graded<sup>k</sup>. We denote the expression from above by (E). First, in (E), each polyvector field $\gamma_i\in\Gamma(\mathbb{R}^d,\wedge^{k_i}T)$ appears with shift $2-k_i$. In our formula for U, the same $\gamma_i$ gives $k_i$ edges of the graph and thus $k_i$ 1-forms to integrate. It also gives two dimensions to the integration domain $\overline{C}_{n,m}$. Secondly, every function $f_j\in A$ appears with shift 1 in (E) and gives one dimension to the integration domain. The two remaining shifts by 1 in (E) account for the two dimensions of the group $G^{(1)}$. From this it is clear that our formula for U is compatible with $\mathbb{Z}$-grading.
 
 Moreover, it is also clear that things responsible for various signs in our formulas:
 
@@ -1266,13 +1262,13 @@ Moreover, it is also clear that things responsible for various signs in our form
 
 (2) the order in which we multiply 1-forms$\mathrm { d } \phi _ { e }$
 
-(3) Z-gradings of vector spaces in ðEÞ,
+(3) Z-gradings of vector spaces in (E),
 
-are naturally decomposed into pairs. This implies that the enumeration of the set of vertices of C, and also the enumeration of edges in sets$\mathrm { S t a r } ( \nu )$for vertices v of the first type are not really used. Thus, we see that$\textstyle { \mathcal { U } } _ { n }$is skew-symmetric.
+are naturally decomposed into pairs. This implies that the enumeration of the set of vertices of Γ, and also the enumeration of edges in sets$\operatorname{Star}(v)$for vertices v of the first type are not really used. Thus, we see that$\textstyle { \mathcal { U } } _ { n }$is skew-symmetric.
 
-Inverse factorials$1 / ( \# \mathbf { S } \mathrm { t a r } ( \nu ) ! )$kill the summation over enumerations of sets $\mathrm { S t a r } ( \nu )$. The inverse factorial$1 / n !$in the final formula does not appear because we consider higher derivatives which are already multiplied by n!.
+Inverse factorials $1/(\#\operatorname{Star}(v)!)$ kill the summation over enumerations of sets $\operatorname{Star}(v)$. The inverse factorial $1/n!$ in the final formula does not appear because we consider higher derivatives which are already multiplied by n!.
 
-The last thing to check is that in our derivation of the fact that U is an$L _ { \infty } -$ morphism using the Stokes formula, we did not loose a sign anywhere. This is a bit hard to explain. How, for example, can one compare the standard orientation on C with shifts by 2 in ðEÞ? As a hint to the reader, we would like to mention that it is very convenient to ‘place’ the resulting expression
+The last thing to check is that our derivation that U is an $L_{\infty}$-morphism using the Stokes formula has no sign errors. This is a bit hard to explain. For example, how can one compare the standard orientation on C with shifts by 2 in (E)? As a hint, it is convenient to place the resulting expression
 
 $$
 \Phi := (\mathcal {U} _ {\Gamma} (\gamma_ {1} \otimes \dots \otimes \gamma_ {n})) (f _ {1} \otimes \dots \otimes f _ {m})
@@ -1284,15 +1280,15 @@ at the point 1 on the absolute.
 
 In this subsection we consider the space$C _ { n }$of$G ^ { ( 2 ) }$- equivalence classes of configurations of points on the Euclidean plane. Every two indices$i , j , i \neq j , 1 \leqslant i , j \leqslant n$give a forgetting map$C _ { n } \longrightarrow C _ { 2 } \simeq S ^ { 1 }$. We denote by$\mathrm { d } \phi _ { i , j }$the closed 1-form on$C _ { n }$which is the pullback of the standard 1-form$\mathrm { d } ( a n g l e )$on the circle. We use the same notation for the pullback of this form to Conf<sub>n</sub>.
 
-LEMMA 6.4. Let nP3 be an integer. The integral over$C _ { n }$of the product of any $2 n - 3 = \dim ( C _ { n } )$closed 1-forms$\mathrm { d } \phi _ { i _ { \tau , i \tau } } , \alpha = 1 , \ldots , 2 n - 3$, is equal to zero.
+LEMMA 6.4. Let $n\geqslant3$ be an integer. The integral over $C_n$ of the product of any $2n-3=\dim(C_n)$ closed 1-forms $\mathrm{d}\phi_{i_\alpha,j_\alpha}$, $\alpha=1,\ldots,2n-3$, is equal to zero.
 
 Proof. First of all, we identify$C _ { n }$with the subset$C _ { n } ^ { \prime }$of$\operatorname { C o n f } _ { n }$consisting of configurations such that the point$p _ { i _ { 1 } }$is$0 \in \mathbb { C }$and$p _ { j _ { 1 } }$is on the unit circle$S ^ { 1 } \subset \mathbb { C }$. Also, we rewrite the form which we integrate as
 
 $$
-\bigwedge_ {\alpha = 1} ^ {2 n - 3} \mathrm{d} \phi_ {i _ {\alpha}, j _ {\alpha}} = \mathrm{d} \phi_ {i _ {1, j _ {1}}} \wedge \bigwedge_ {\alpha = 2} ^ {2 n - 3} \mathrm{d} (\phi_ {i _ {\alpha}, j _ {\alpha}} - \phi_ {i _ {1}, j _ {1}}).
+\bigwedge_{\alpha=1}^{2n-3}\mathrm{d}\phi_{i_\alpha,j_\alpha}=\mathrm{d}\phi_{i_1,j_1}\wedge\bigwedge_{\alpha=2}^{2n-3}\mathrm{d}(\phi_{i_\alpha,j_\alpha}-\phi_{i_1,j_1}).
 $$
 
-Let us map the space$C _ { n } ^ { \prime }$onto the space$C _ { n } ^ { \prime \prime } \subset \mathbf { C o n f } _ { n }$consisting ofconfigurations with $p _ { i _ { 1 } } = 0$and$p _ { j _ { 1 } } = 1$, applying rotations with the center at 0. Diferential forms $\mathsf { d } ( \phi _ { i _ { \alpha } , j _ { \alpha } } - \phi _ { i _ { 1 } , j _ { 1 } } )$on$C _ { n } ^ { \prime }$are pullbacks of diferential forms$\mathrm { d } \phi _ { i _ { \alpha } , j _ { \alpha } }$on$C _ { n } ^ { \prime \prime } .$The integral of a product of$? n - 3$closed 1-forms$\mathrm { d } \phi _ { i _ { x } , j _ { x } } , \alpha = 1 , \ldots , 2 n - 3$over$C _ { n } ^ { \prime }$is equal to 2p times the integral of the product$2 n - 4$closed 1-forms$\mathrm { d } \phi _ { i _ { \alpha } , j _ { \alpha } } , \alpha = 2 , \ldots , 2 n - 3$over$C _ { n } ^ { \prime \prime }$
+We map $C_n'$ onto $C_n''\subset\operatorname{Conf}_n$, consisting of configurations with $p_{i_1}=0$ and $p_{j_1}=1$, by applying rotations about 0. The differential forms $\mathrm{d}(\phi_{i_\alpha,j_\alpha}-\phi_{i_1,j_1})$ on $C_n'$ are pullbacks of the differential forms $\mathrm{d}\phi_{i_\alpha,j_\alpha}$ on $C_n''$. The integral of a product of $2n-3$ closed 1-forms $\mathrm{d}\phi_{i_\alpha,j_\alpha}$, $\alpha=1,\ldots,2n-3$, over $C_n'$ is equal to $2\pi$ times the integral of the product of $2n-4$ closed 1-forms $\mathrm{d}\phi_{i_\alpha,j_\alpha}$, $\alpha=2,\ldots,2n-3$, over $C_n''$.
 
 The space$C _ { n } ^ { \prime \prime }$is a complex manifold. We are calculating an absolutely converging integral of the type
 
@@ -1300,7 +1296,7 @@ $$
 \int_ {C _ {n} ^ {\prime \prime}} \prod_ {\alpha} \mathrm{d} \operatorname{Arg} (Z _ {\alpha}),
 $$
 
-where$Z _ { \alpha }$are holomorphic invertible functions on$C _ { n } ^ { \prime \prime }$(diferences between complex coordinates of points of the configuration). We claim that it is zero because of the general result proven in Section 6.6.1.(
+where$Z _ { \alpha }$are holomorphic invertible functions on$C _ { n } ^ { \prime \prime }$(diferences between complex coordinates of points of the configuration). We claim that it is zero because of the general result proven in Section 6.6.1.□
 
 ## 6.6.1. A Trick Using Logarithms
 
@@ -1314,7 +1310,7 @@ is absolutely convergent, and equal to zero.
 
 This result seems to be new, although the main trick used in the proof is well known. Goncharov told me that he also came to the same result in his study of mixed Tate motives.
 
-Proof. First of all, we claim that the diferential form$\Lambda _ { \alpha = 1 } ^ { 2 N } \mathrm { d } \mathrm { A r g } ( Z _ { \alpha } )$on$U ( \mathbb { C } )$ coincides with the form$\Lambda _ { \alpha = 1 } ^ { 2 N } \mathrm { d } \log | Z _ { \alpha } |$(this is the trick).
+Proof. First of all, we claim that the differential form $\bigwedge_{\alpha=1}^{2N}\mathrm{d}\mathrm{Arg}(Z_\alpha)$ on $U(\mathbb{C})$ coincides with the form $\bigwedge_{\alpha=1}^{2N}\mathrm{d}\log|Z_\alpha|$ (this is the trick).
 
 We can replace d$\mathrm { A r g } ( Z _ { \alpha } )$by the linear combination of a holomorphic and an anti-holomorphic form
 
@@ -1344,7 +1340,7 @@ In fact, the convergence and the vanishing of the integral$\begin{array} { r } {
 
 ## 6.6.2. Remark
 
-The vanishing of the integral in Lemma 6.4. has a higher-dimensional analogue which is crucial in the perturbative Chern–Simons theory in the dimension 3, and its generalizations to dimensions P4 (see [30]). However, the vanishing of integrals in dimensions${ \geqslant } 3$follows from a much simpler fact which is the existence of a geometric involution making the integral to be equal to minus itself. In the present paper, we will use several times similar arguments involving involutions.
+The vanishing of the integral in Lemma 6.4 has a higher-dimensional analogue which is crucial in the perturbative Chern–Simons theory in dimension 3 and its generalizations to dimensions $\geqslant4$ (see [30]). However, the vanishing of integrals in dimensions $\geqslant3$ follows from a much simpler fact: the existence of a geometric involution making the integral equal to minus itself. In the present paper, we will use similar arguments involving involutions.
 
 ## 7. Formality Conjecture for General Manifolds
 
@@ -1368,7 +1364,7 @@ $$
 \mathcal {U} _ {1} (m _ {T} (\xi)) = m _ {D} (\mathcal {U} _ {1} (\xi)),
 $$
 
-(P3) U is GLðd; RÞ-equivariant,
+(P3) U is $\mathrm{GL}(d,\mathbb{R})$-equivariant,
 
 (P4) for any$k \geqslant 2 , \xi _ { 1 } , \ldots , \xi _ { k } \in W _ { d }$we have the equality
 
@@ -1378,7 +1374,7 @@ $$
 
 (P5) for$\mathrm { a n y } k \geqslant 2 , \xi \in g l ( d , \mathbb { R } ) \subset W _ { d } ,$, and for any$\eta _ { 2 } , \dots , \eta _ { k } \in T _ { \mathrm { p o l y } } ( \mathbb { R } _ { \mathrm { f o r m a l } } ^ { d } )$we have $\begin{array} { r } { \mathcal { U } _ { k } ( m _ { T } ( \xi ) \otimes \eta _ { 2 } \otimes \cdots \otimes \eta _ { k } ) = 0 . } \end{array}$
 
-We will construct quasi-isomorphisms from$T _ { \mathrm { p o l y } } ( X )$to$D _ { \mathrm { p o l y } } ( X )$for arbitrary ddimensional manifold X using only properties$( \mathrm { P l } ) \mathrm { - } ( \mathrm { P } 5 )$of the map U. Properties (P1), (P2) and (P3) are evident, and the properties (P4), (P5) will be established later in Sections 7.3.1.1 and 7.3.3.1.
+We will construct quasi-isomorphisms from$T _ { \mathrm { p o l y } } ( X )$to$D _ { \mathrm { p o l y } } ( X )$for arbitrary d-dimensional manifold X using only properties (P1)–(P5) of U. Properties (P1), (P2) and (P3) are evident, and the properties (P4), (P5) will be established later in Sections 7.3.1.1 and 7.3.3.1.
 
 It will be convenient to use in this section the geometric language of formal graded manifolds instead of the algebraic language of$L _ { \infty } { \mathrm { - a l g e b r a s } }$. Let us fix the dimension $d \in \mathbb { N }$. We introduce three formal graded Q-manifolds without base points: $\mathcal { T } , \mathcal { D } , \mathcal { W }$: These formal graded Q-manifolds are obtained in the usual way from diferential graded Lie algebras$T _ { \mathrm { p o l y } } ( R _ { \mathrm { f o r m a l } } ^ { d } ) , D _ { \mathrm { p o l y } } ( R _ { \mathrm { f o r m a l } } ^ { d } )$and$W _ { d }$forgetting base points.
 
@@ -1392,9 +1388,9 @@ $$
 f \colon (\mathbb {R} _ {\text { formal }} ^ {d}, 0) \hookrightarrow (X, x).
 $$
 
-We consider$X ^ { \mathrm { c o o r } }$as a projective limit of finite-dimensional manifolds (spaces of finite germs of coordinate systems). There is an action on$X ^ { \mathrm { c o o r } }$of the (pro-Lie) group $G _ { d }$of formal difeomorphisms of$\mathbb { R } ^ { d }$preserving base point 0. The natural projection map$X ^ { \mathrm { c o o r } }  X$is a principal$G _ { d } .$-bundle.
+We consider$X ^ { \mathrm { c o o r } }$as a projective limit of finite-dimensional manifolds (spaces of finite germs of coordinate systems). There is an action on$X ^ { \mathrm { c o o r } }$of the (pro-Lie) group $G _ { d }$of formal difeomorphisms of$\mathbb { R } ^ { d }$preserving base point 0. The natural projection map $X_{\mathrm{coor}}\longrightarrow X$ is a principal $G_d$-bundle.
 
-The manifold$X ^ { \mathrm { a f f } }$is defined as the quotient space$X ^ { \mathrm { c o o r } } / G L ( d , \mathbb { R } )$. It can be thought of as the space of formal afine structures at points of X. The main reason to introduce$X ^ { \mathrm { a f f } }$is that fibers of the natural projection map$X ^ { \mathrm { a f f } }  X$are contractible.
+The manifold$X ^ { \mathrm { a f f } }$is defined as the quotient space$X ^ { \mathrm { c o o r } } / G L ( d , \mathbb { R } )$. It can be thought of as the space of formal afine structures at points of X. The main reason to introduce$X ^ { \mathrm { a f f } }$is that fibers of the natural projection map $X_{\mathrm{aff}}\longrightarrow X$ are contractible.
 
 The Lie algebra of the group$G _ { d }$is a subalgebra of codimension d in$W _ { d } .$. It consists of formal vector fields vanishing at zero. Thus,$\operatorname { L i e } ( G _ { d } )$acts on$X ^ { \mathrm { c o o r } }$. It is easy to see that in fact the whole Lie algebra$W _ { d }$acts on$X ^ { \mathrm { c o o r } }$and is isomorphic to the tangent space to$X ^ { \mathrm { c o o r } }$at each point. Formally, the infinite-dimensional manifold$X ^ { \mathrm { c o o r } }$looks as a principal homogeneous space of the nonexistent group with the Lie algebra$W _ { d } .$
 
@@ -1402,9 +1398,9 @@ The main idea of formal geometry (see [18]) is to replace d-dimensional manifold
 
 ## 7.2. FLAT CONNECTIONS AND Q-EQUIVARIANT MAPS
 
-Let M be a$C ^ { \infty }$-manifold (or a complex analytic manifold, or an algebraic manifold, or a projective limit of manifolds, etc.). Denote by PTM the supermanifold which is the total space of the tangent bundle of M endowed with the reversed parity. Functions on the PTM are diferential forms on M. The de Rham diferential${ \mathrm { d } } _ { M }$on forms can be considered as an odd vector field on PTM with the square equal to 0. Thus, PTM is a Q-manifold. It seems that the accurate notation for PTM considered as a graded manifold should be$T [ 1 ] M$(the total space of the graded vector bundle$T _ { M } [ 1 ]$considered as a graded manifold).
+Let M be a $C^\infty$-manifold (or a complex analytic manifold, an algebraic manifold, or a projective limit of manifolds, etc.). Denote by $\Pi TM$ the supermanifold which is the total space of the tangent bundle of M endowed with reversed parity. Functions on $\Pi TM$ are differential forms on M. The de Rham differential $d_M$ on forms is an odd vector field on $\Pi TM$ with square 0, so $\Pi TM$ is a Q-manifold. The accurate notation for $\Pi TM$ considered as a graded manifold is $T[1]M$ (the total space of the graded vector bundle $T_M[1]$ considered as a graded manifold).
 
-Let$N \to M$be a bundle over a manifold M whose fibers are manifolds, or vector spaces, etc., endowed with a flat connection r. Denote by E the pullback of this bundle to$B : = \Pi T M$. The connection r gives a lift of the vector field$Q _ { B } : = \mathrm { d } _ { M }$on B to the vector field$Q _ { E }$on E. This can be done for arbitrary connection, and only for flat connection the identity$[ Q _ { E } , Q _ { E } ] = 0$holds.
+Let$N \to M$be a bundle over a manifold M whose fibers are manifolds, or vector spaces, etc., endowed with a flat connection $\nabla$. Denote by E the pullback of this bundle to$B : = \Pi T M$. The connection $\nabla$ gives a lift of the vector field$Q _ { B } : = \mathrm { d } _ { M }$on B to the vector field$Q _ { E }$on E. This can be done for an arbitrary connection, and only for a flat connection does the identity$[ Q _ { E } , Q _ { E } ] = 0$hold.
 
 A generalization of a (nonlinear) bundle with a flat connection is a Q-equivariant bundle whose total space and the base are Q-manifolds. In the case of graded vector bundles over$T [ 1 ] M$this notion was introduced Quillen under the name of a superconnection (see [41]). A generalization of the notion of a covariantly flat morphism from one bundle to another is the notion of a Q-equivariant map.
 
@@ -1418,15 +1414,15 @@ One can define analogously flat graded families over graded Q-manifolds.
 
 We refer the reader to a discussion of further examples of Q-manifolds in [32].
 
-## 7.3. FLAT FAMILIES IN DEFORMATION <sub>Q</sub>UANTIZATION
+## 7.3. FLAT FAMILIES IN DEFORMATION QUANTIZATION
 
 Let us return to our concrete situation. We construct in this section two flat families over PTX (where X is a d-dimensional manifold), and a morphism between them. This will be done in several steps.
 
 ## 7.3.1. Flat Families over$\mathcal { W }$
 
-The first bundle over$\mathcal { W }$is trivial as a Q-equivariant bundle,$\mathcal { T } \times \mathcal { W }  \mathcal { W }$but with a nontrivial section$\sigma { \mathcal { T } }$. This section is not the zero section, but the graph of the$Q \cdot$ equivariant map$\mathcal { W }  \mathcal { T }$coming from the homomorphism of diferential graded Lie algebras m<sub>T</sub>:$W _ { d } \to T _ { \mathrm { p o l y } } ( \mathbb { R } _ { \mathrm { f o r m a l } } ^ { d } )$. Analogously, the second bundle is the trivial Q-equivariant bundle$\mathcal { D } \times \mathcal { W }  \mathcal { W }$with the section$\sigma _ { \mathcal { D } }$coming from the homomorphism$m _ { D } \colon W _ { d } \to D _ { \mathrm { p o l y } } ( \mathbb { R } _ { \mathrm { f o r m a l } } ^ { d } )$
+The first bundle over $\mathcal{W}$ is the trivial Q-equivariant bundle $\mathcal{T}\times\mathcal{W}\longrightarrow\mathcal{W}$, with the nontrivial section $\sigma_{\mathcal{T}}$. This section is not the zero section; it is the graph of the Q-equivariant map $\mathcal{W}\longrightarrow\mathcal{T}$ coming from the homomorphism of differential graded Lie algebras $m_T:W_d\longrightarrow T_{\mathrm{poly}}(\mathbb{R}_{\mathrm{formal}}^d)$. Analogously, the second bundle is the trivial Q-equivariant bundle $\mathcal{D}\times\mathcal{W}\longrightarrow\mathcal{W}$ with section $\sigma_{\mathcal{D}}$ coming from the homomorphism $m_D:W_d\longrightarrow D_{\mathrm{poly}}(\mathbb{R}_{\mathrm{formal}}^d)$.
 
-Formulas from Section 6.4 give a Q-equivariant map$\mathcal { U } : \mathcal { T }  \mathcal { D }$
+Formulas from Section 6.4 give a Q-equivariant map $\mathcal{U}:\mathcal{T}\longrightarrow\mathcal{D}$.
 
 LEMMA 7.2. The morphism$( \mathcal { U } \times \mathrm { i d } _ { \mathcal { W } } ) \colon \mathcal { T } \times \mathcal { W } \to \mathcal { D } \times \mathcal { W }$is a morphism of flat families over$\mathcal { W }$
 
@@ -1460,11 +1456,11 @@ Figure 13. The only graph for property (P4).
 
 LEMMA 7.3. For arbitrary angle map the integral$\begin{array} { r } { \int _ { \mathcal { H } \backslash \{ z _ { 0 } \} } \mathrm { d } \phi ( z , z _ { 0 } ) \wedge \mathrm { d } \phi ( z _ { 0 } , z ) } \end{array}$is equal to zero.
 
-Proof. We have a map$\overline { { { C } } } _ { 2 , 0 } { \longrightarrow } S ^ { 1 } \times S ^ { 1 } , \ [ ( x , y ) ] { \longmapsto } ( \phi ( x , y ) , \phi ( y , x ) )$Þ. We calculate the integral of the pullback of the standard volume element on two-dimensional torus. It is easy to see that the integral does not depend on the choice of map $\phi : \overline { { { C } } } _ { 2 , 0 } \longrightarrow S ^ { 1 }$. The reason is that the image of the boundary of the integration domain$\partial \overline { { C } } _ { 2 , 0 }$in$S ^ { 1 } \times S ^ { 1 }$cancels with the reflected copy of itself under the involution $\left( \phi _ { 1 } , \phi _ { 2 } \right) \mapsto \left( \phi _ { 2 } , \phi _ { 1 } \right)$of the torus$S ^ { 1 } \times S ^ { 1 }$. Let us assume that$\phi = \phi ^ { h }$and $z _ { 0 } = 0 + 1 \cdot i$. The integral vanishes because the involution$z \mapsto - { \overline { { z } } }$reverses the orientation of$\mathcal { H }$and preserves the form$\mathrm { d } \phi ( z , z _ { 0 } ) \wedge \mathrm { d } \phi ( z _ { 0 } , z )$(
+Proof. We have a map$\overline { { { C } } } _ { 2 , 0 } { \longrightarrow } S ^ { 1 } \times S ^ { 1 } , \ [ ( x , y ) ] { \longmapsto } ( \phi ( x , y ) , \phi ( y , x ) )$. We calculate the integral of the pullback of the standard volume element on the two-dimensional torus. It is easy to see that the integral does not depend on the choice of map $\phi : \overline { { { C } } } _ { 2 , 0 } \longrightarrow S ^ { 1 }$. The reason is that the image of the boundary of the integration domain$\partial \overline { { C } } _ { 2 , 0 }$in$S ^ { 1 } \times S ^ { 1 }$cancels with its reflected copy under the involution $\left( \phi _ { 1 } , \phi _ { 2 } \right) \mapsto \left( \phi _ { 2 } , \phi _ { 1 } \right)$of the torus$S ^ { 1 } \times S ^ { 1 }$. Let us assume that$\phi = \phi ^ { h }$and $z _ { 0 } = 0 + 1 \cdot i$. The integral vanishes because the involution$z \mapsto - { \overline { { z } } }$reverses the orientation of$\mathcal { H }$and preserves the form$\mathrm { d } \phi ( z , z _ { 0 } ) \wedge \mathrm { d } \phi ( z _ { 0 } , z )$□
 
 ## 7.3.2. Flat Families over$\Pi T ( X ^ { \mathrm { c o o r } } )$
 
-If X is a d-dimensional manifold, then there is a natural map of Q-manifolds (the Maurer–Cartan form)$\Pi T ( X ^ { \mathrm { c o o r } } ) { \longrightarrow } { \mathcal { W } }$: It follows from following general reasons. If G is a Lie group, then it acts freely by left translations on itself, and also on PTG. The quotient Q-manifold$\Pi T G / G$is equal to Pg where$\mathbf { g } = \operatorname { L i e } ( G )$. Thus, we have a Q-equivariant map$\Pi T G { \longrightarrow } \Pi \mathbf { g }$: Analogous construction works for any principal homogeneous space over G. We apply it to$X ^ { \mathrm { c o o r } }$considered as a principal homogeneous space for a nonexistent group with the Lie algebra$\begin{array} { r } { { \bf g } = { \cal W } _ { d } , } \end{array}$
+If X is a d-dimensional manifold, there is a natural map of Q-manifolds (the Maurer–Cartan form) $\Pi T(X_{\mathrm{coor}})\longrightarrow\mathcal{W}$. If G is a Lie group, it acts freely by left translations on itself and on $\Pi TG$. The quotient Q-manifold $\Pi TG/G$ is $\Pi\mathfrak{g}$, where $\mathfrak{g}=\operatorname{Lie}(G)$. Thus, there is a Q-equivariant map $\Pi TG\longrightarrow\Pi\mathfrak{g}$. The analogous construction works for any principal homogeneous space over G. We apply it to $X_{\mathrm{coor}}$, considered as a principal homogeneous space for a nonexistent group with Lie algebra $\mathcal{W}_d$.
 
 The pullbacks of flat families of formal manifolds over$\mathcal { W }$constructed in Section 7.3.1, are two flat families over$\Pi T ( X ^ { \mathrm { c o o r } } )$. As Q-equivariant bundles these families are trivial bundles
 
@@ -1472,13 +1468,13 @@ $$
 \mathcal {T} \times \Pi T (X ^ {\text { coor }}) \longrightarrow \Pi T (X ^ {\text { coor }}), \mathscr {D} \times \Pi T (X ^ {\text { coor }}) \longrightarrow \Pi T (X ^ {\text { coor }}).
 $$
 
-Pullbacks of sections$\sigma { \mathcal { T } }$and$\sigma _ { \mathcal { D } }$gives sections in the bundles above. These sections we denote again by$\sigma { \mathcal { T } }$and$\sigma _ { \mathcal { D } }$. The pullback of the morphism$\mathcal { U } \times \mathrm { i d } _ { \mathcal { W } }$is also a morphism of flat families.
+Pullbacks of the sections $\sigma_{\mathcal{T}}$ and $\sigma_{\mathcal{D}}$ give sections in the bundles above. We denote these sections again by $\sigma_{\mathcal{T}}$ and $\sigma_{\mathcal{D}}$. The pullback of the morphism $\mathcal{U}\times\mathrm{id}_{\mathcal{W}}$ is also a morphism of flat families.
 
 ## 7.3.3. Flat Families over$\Pi T ( X ^ { \mathrm { a f f } } )$
 
-Recall that$X ^ { \mathrm { a f f } }$is the quotient space of$X ^ { \mathrm { c o o r } }$by the action of$\operatorname { G L } ( d , \mathbb { R } )$. Thus, from functorial properties of operation$\Pi T \left( = \underline { { \mathbf { M a p s } } } ( \mathbb { R } ^ { 0 | 1 } , \cdot ) \right)$follows that$\Pi T ( X ^ { \mathrm { a f f } } )$is the quotient of$Q \cdot$-manifold$\Pi T ( X ^ { \mathrm { c o o r } } )$by the action of Q-group$\Pi T ( \mathrm { \bf G L } ( d , \mathbb { R } ) )$. We will construct an action of$\Pi T ( \mathrm { \bf G L } ( d , \mathbb { R } ) )$on flat families$\mathcal { T } \times \Pi T ( X ^ { \mathrm { c o o r } } )$and $\mathcal { D } \times \Pi T ( X ^ { \mathrm { c o o r } } )$over$\Pi T ( X ^ { \mathrm { c o o r } } )$. We claim that the morphism between these families is invariant under the action of$\Pi T ( G L ( d , \mathbb { R } ) )$. Flat families over$\Pi T ( X ^ { \mathrm { a f f } } )$will be defined as quotient families. The morphism between them will be the quotient morphism.
+Recall that $X_{\mathrm{aff}}$ is the quotient of $X_{\mathrm{coor}}$ by $\mathrm{GL}(d,\mathbb{R})$. By functoriality of $\Pi T=\underline{\mathrm{Maps}}(\mathbb{R}^{0|1},\cdot)$, $\Pi T(X_{\mathrm{aff}})$ is the quotient of the Q-manifold $\Pi T(X_{\mathrm{coor}})$ by the Q-group $\Pi T(\mathrm{GL}(d,\mathbb{R}))$. We construct an action of this Q-group on the flat families $\mathcal{T}\times\Pi T(X_{\mathrm{coor}})$ and $\mathcal{D}\times\Pi T(X_{\mathrm{coor}})$ over $\Pi T(X_{\mathrm{coor}})$. The morphism between the families is invariant under this action. The flat families over $\Pi T(X_{\mathrm{aff}})$ are defined as quotient families, and their morphism is the quotient morphism.
 
-The action of$\Pi T ( \mathrm { \bf G L } ( d , \mathbb { R } ) )$on$\mathcal { T }$and on$\mathcal { W }$is defined as follows. First of all, if$G$ is a Lie group with the Lie algebra g, then PTG acts Q-equivariantly on Q-manifold Pg, via the identification$\Pi \mathbf { g } = \Pi T G / G$. Analogously, if g is a subalgebra of a larger Lie algebra$\mathbf { g } _ { 1 } ,$, and an action of$G$on${ \bf g } _ { 1 }$is given in a way compatible with the inclusion${ \bf g } { \hookrightarrow } { \bf g } _ { 1 }$, then PTG acts on$\Pi { \bf g } _ { 1 }$. We apply this construction to the case $G = \mathbf { G L } ( n , \mathbb { R } )$and$\mathbf { g } _ { 1 } = T _ { \mathrm { p o l y } } ( \mathbb { R } _ { \mathrm { f o r m a l } } ^ { d } )$or$\mathbf { g } _ { 1 } = D _ { \mathrm { p o l y } } ( \mathbb { R } _ { \mathrm { f o r m a l } } ^ { d } )$ One can check easily that sections$\sigma _ { \mathcal { T } }$and$\sigma _ { \mathcal { D } }$over$\Pi T ( X ^ { \mathrm { c o o r } } )$are$\Pi T ( G L ( d , \mathbb { R } ) ) \cdot$ equivariant. Thus, we get two flat families over$\Pi T ( X ^ { \mathrm { a f f } } )$
+The action of $\Pi T(\mathrm{GL}(d,\mathbb{R}))$ on $\mathcal{T}$ and $\mathcal{W}$ is defined as follows. If G is a Lie group with Lie algebra $\mathfrak{g}$, then $\Pi TG$ acts Q-equivariantly on the Q-manifold $\Pi\mathfrak{g}$ via the identification $\Pi\mathfrak{g}=\Pi TG/G$. Analogously, if $\mathfrak{g}$ is a subalgebra of a larger Lie algebra $\mathfrak{g}_1$ and G acts on $\mathfrak{g}_1$ compatibly with the inclusion $\mathfrak{g}\hookrightarrow\mathfrak{g}_1$, then $\Pi TG$ acts on $\Pi\mathfrak{g}_1$. We apply this construction when $G=\mathrm{GL}(d,\mathbb{R})$ and $\mathfrak{g}_1$ is $T_{\mathrm{poly}}(\mathbb{R}_{\mathrm{formal}}^d)$ or $D_{\mathrm{poly}}(\mathbb{R}_{\mathrm{formal}}^d)$. One can check that the sections $\sigma_{\mathcal{T}}$ and $\sigma_{\mathcal{D}}$ over $\Pi T(X_{\mathrm{coor}})$ are $\Pi T(\mathrm{GL}(d,\mathbb{R}))$-equivariant. Thus, we get two flat families over $\Pi T(X_{\mathrm{aff}})$.
 
 The last thing we have to check is that the morphism$\mathscr { U } \times \mathrm { i d } _ { \Pi T ( X ^ { \mathrm { c o o r } } ) }$of flat families
 
@@ -1486,15 +1482,15 @@ $$
 \mathcal {T} \times \Pi T (X ^ {\text { coor }}) \longrightarrow \mathscr {D} \times \Pi T (X ^ {\text { coor }})
 $$
 
-is$\Pi T ( G L ( d , \mathbb { R } ) )$-equivariant. After the translation of the problem to the language of Lie algebras, we see that we should check that U is$G L ( d , \mathbb { R } )$-invariant (property (P3), that is clear by our construction), and that if we substitute an element of $\mathrm { g l } ( d , \mathbb { R } ) \subset W _ { d }$in${ \mathcal { U } } _ { > 2 }$, we get zero (property (P5), see Section 7.3.3.1).
+is$\Pi T ( G L ( d , \mathbb { R } ) )$-equivariant. After translating the problem to Lie algebras, we see that we should check that U is$G L ( d , \mathbb { R } )$-invariant (property (P3), which is clear by construction), and that substituting an element of $\mathrm { g l } ( d , \mathbb { R } ) \subset W _ { d }$in${ \mathcal { U } } _ { \geqslant 2 }$gives zero (property (P5), see Section 7.3.3.1).
 
 CONCLUSION. We constructed two flat families over$\Pi T ( X ^ { \mathrm { a f f } } )$and a morphism between them. Fibers of these families are isomorphic to$\mathcal { T }$and to${ \mathcal { D } } .$
 
-7.3.3.1. Property (P5). This is again reduces to the calculation of an integral. Let v be a vertex of C to which we put an element of$\mathrm { g l } ( d , \mathbb { R } )$. There is exactly one edge starting at v because we put a vector field here. If there are no edges ending at v, then the integral is zero because the domain of integration is foliated by lines along which all forms vanish. These lines are level sets of the function$\phi ( z , w )$where$w \in \mathcal { H } \sqcup$R is fixed and z is the point on$\mathcal { H }$corresponding to v (see Figure 14).
+7.3.3.1. Property (P5). This again reduces to the calculation of an integral. Let v be a vertex of Γ to which we assign an element of$\mathrm { g l } ( d , \mathbb { R } )$. There is exactly one edge starting at v because we put a vector field here. If there are no edges ending at v, then the integral is zero because the domain of integration is foliated by lines along which all forms vanish. These lines are level sets of the function$\phi ( z , w )$where$w \in \mathcal { H } \sqcup$R is fixed and z is the point on$\mathcal { H }$corresponding to v (see Figure 14).
 
 If there are at least two edges ending at v, then the corresponding polydiferential operator is equal to zero, because second derivatives of coeficients of a linear vector field vanish.
 
-The only relevant case is when there is only one edge starting at$\nu ,$and only one edge ending there. If these two edges connect our vertex with the same vertex of$\Gamma _ { \ast }$ then the vanishing follows from Lemma 7.3. If our vertex is connected with two diferent vertices as in Figure. 15, then we apply the following two lemmas:
+The only relevant case is when there is only one edge starting at v and only one edge ending there. If these two edges connect our vertex with the same vertex of$\Gamma _ { \ast }$ then the vanishing follows from Lemma 7.3. If our vertex is connected with two different vertices as in Figure 15, then we apply the following two lemmas:
 
 $$
 \int_ {z \in \mathscr {H} \backslash \{z _ {1}, z _ {2} \}} \mathrm{d} \phi (z _ {1}, z) \wedge \mathrm{d} \phi (z, z _ {2})
@@ -1524,7 +1520,7 @@ Proof. One can prove analogously to Lemma 7.3 that the integral does not depend 
 
 ## 7.3.4. Flat Families over X
 
-Let us choose a section$s ^ { \mathrm { a f f } }$of the bundle$X ^ { \mathrm { a f f } } { \longrightarrow } X .$Such section always exists because fibers of this bundle are contractible. For example, any torsion-free connection r on the tangent bundle to X gives a section$X { \longrightarrow } X ^ { \mathrm { a f f } }$. Namely, the exponential map for r gives an identification of a neighborhood of each point$x \in X$with a neighborhood of zero in the vector space$T _ { x } X ,$, i.e. an afine structure on$X$near$x ,$ and a point of$X ^ { \mathrm { a f f } }$over$x \in X .$
+Let us choose a section$s ^ { \mathrm { a f f } }$of the bundle$X ^ { \mathrm { a f f } } { \longrightarrow } X .$Such a section always exists because the fibers of this bundle are contractible. For example, any torsion-free connection $\nabla$ on the tangent bundle of X gives a section$X { \longrightarrow } X ^ { \mathrm { a f f } }$. Namely, the exponential map for $\nabla$ gives an identification of a neighborhood of each point$x \in X$with a neighborhood of zero in the vector space$T _ { x } X ,$, i.e. an affine structure on$X$near$x ,$ and a point of$X ^ { \mathrm { a f f } }$over$x \in X .$
 
 The section$s ^ { \mathrm { a f f } }$defines a map of formal graded Q-manifolds$\Pi T X { \longrightarrow } \Pi T ( X ^ { \mathrm { a f f } } )$. After taking the pullback we get two flat families$\mathcal { T } _ { s ^ { \mathrm { a f f } } }$and$\mathcal { D } _ { s ^ { \mathrm { a f f } } }$over PTX and an morphism$m _ { s ^ { \mathrm { a f f } } }$from one to another.
 
@@ -1546,13 +1542,13 @@ $$
 
 This is an infinite-dimensional formal super manifold, the formal completion of the space of sections of the bundle$E { \longrightarrow } B$at the point r. The structure of Q-manifold on $\Gamma ( E { \longrightarrow } B )$is evident because the Lie supergroup$\mathbb { R } ^ { 0 | 1 }$acts on$E { \longrightarrow } B ,$
 
-LEMMA 7.7. Formally completed spaces of global sections offlat families$\mathcal { T } _ { s ^ { \mathrm { a f f } } }$and $\mathcal { D } _ { s ^ { \mathrm { a f f } } }$a naturally quasi-isomorphic to$T _ { \mathrm { p o l y } } ( X )$and$D _ { \mathrm { p o l y } } ( X )$; respectively.
+LEMMA 7.7. Formally completed spaces of global sections of flat families$\mathcal { T } _ { s ^ { \mathrm { a f f } } }$and $\mathcal { D } _ { s ^ { \mathrm { a f f } } }$are naturally quasi-isomorphic to$T _ { \mathrm { p o l y } } ( X )$and$D _ { \mathrm { p o l y } } ( X )$, respectively.
 
 Proof. It is well known that if$E { \longrightarrow } X$is a vector bundle then de Rham cohomology of X with coeficients in formally flat infinite-dimensional bundle$\mathrm { j e t s } _ { \infty } E$are concentrated in degree 0 and canonically isomorphic to the vector space$\Gamma ( X , E )$ Moreover, the natural homomorphism of complexes
 
-ðCðX; EÞ½0; differential$= 0 ) { \longrightarrow } ( \Omega ^ { * } ( X , \mathrm { j e t s } _ { \infty } ( E ) )$; de Rham differential is quasi-isomorphism.
+$(\Gamma(X,E)[0],\ d=0)\longrightarrow(\Omega^*(X,\mathrm{jets}_{\infty}(E)),\ d_{\mathrm{dR}})$ is a quasi-isomorphism.
 
-Using this fact, the lemma from the previous subsection, and appropriate filtrations (for spectral sequences) one sees that that the natural Q-equivariant map from the formal Q-manifold$( T _ { \mathrm { p o l y } } ( X ) _ { \mathrm { f o r m a l } } [ 1 ] , 0 )$to$( \Gamma ( \mathcal { T } _ { s ^ { \mathrm { a f f } } } \longrightarrow T [ 1 ] X ) _ { \mathrm { f o r m a l } } , \sigma _ { \mathcal { T } } )$(and analogous map for$D _ { \mathrm { p o l y } } )$is a quasi-isomorphism.(
+Using this fact, the lemma from the previous subsection, and appropriate filtrations (for spectral sequences), one sees that the natural Q-equivariant map from the formal Q-manifold$( T _ { \mathrm { p o l y } } ( X ) _ { \mathrm { f o r m a l } } [ 1 ] , 0 )$to$( \Gamma ( \mathcal { T } _ { s ^ { \mathrm { a f f } } } \longrightarrow T [ 1 ] X ) _ { \mathrm { f o r m a l } } , \sigma _ { \mathcal { T } } )$(and the analogous map for$D _ { \mathrm { p o l y } } )$is a quasi-isomorphism.(
 
 It follows from the lemma above and the result of Section 4.6.1.1 that we have a chain of quasi-isomorphisms
 
@@ -1568,7 +1564,7 @@ The space of sections of the bundle$X ^ { \mathrm { a f f } } { \longrightarrow 
 
 ## 8.1. CUP PRODUCTS ON TANGENT COHOMOLOGY
 
-The diferential graded Lie algebras$T _ { \mathrm { p o l y } } , \ D _ { \mathrm { p o l y } }$and (more generally) shifted by ½1 Hochschild complexes of arbitrary associative algebras, all carry an additional structure. We do not know at the moment a definition, it should be something close to so called homotopy Gerstenhaber algebras (see [19, 20]), although definitely not precisely this. At least, a visible part of this structure is a commutative associative product of degree$+ 2$on cohomology of the tangent space to any solution of the Maurer–Cartan equation. Namely, if g is one of differential graded Lie algebras listed above and$\boldsymbol { \gamma } \in \left( \mathbf { g } \otimes \mathbf { m } \right) ^ { 1 }$satisfies$\begin{array} { r } { \mathrm { d } \gamma + \frac { 1 } { 2 } [ \gamma , \gamma ] = 0 } \end{array}$ where m is a finite-dimensional nilpotent nonunital diferential graded commutative associative algebra, the tangent space$T _ { \gamma }$is defined as complex$\mathbf { g } \otimes \mathbf { m } [ 1 ]$ endowed with the diferential$\mathrm { d } + [ \gamma , \cdot ] .$. Cohomology space$H _ { \gamma }$of this diferential is a graded module over graded algebra$H ( \mathbf { m } )$(the cohomology space of m as a complex).$\mathrm { ~ I f ~ } \gamma _ { 1 }$and$\gamma _ { 2 }$are two gauge equivalent solutions, then$H _ { \gamma _ { 1 } }$and$H _ { \gamma _ { 2 } }$are (non-canonically) isomorphic HðmÞ-modules.
+The diferential graded Lie algebras$T _ { \mathrm { p o l y } } , \ D _ { \mathrm { p o l y } }$and (more generally) shifted by [1] Hochschild complexes of arbitrary associative algebras, all carry an additional structure. We do not know at the moment a definition, it should be something close to so called homotopy Gerstenhaber algebras (see [19, 20]), although definitely not precisely this. At least, a visible part of this structure is a commutative associative product of degree$+ 2$on cohomology of the tangent space to any solution of the Maurer–Cartan equation. Namely, if g is one of differential graded Lie algebras listed above and$\boldsymbol { \gamma } \in \left( \mathbf { g } \otimes \mathbf { m } \right) ^ { 1 }$satisfies$\begin{array} { r } { \mathrm { d } \gamma + \frac { 1 } { 2 } [ \gamma , \gamma ] = 0 } \end{array}$ where m is a finite-dimensional nilpotent nonunital diferential graded commutative associative algebra, the tangent space$T _ { \gamma }$is defined as complex$\mathbf { g } \otimes \mathbf { m } [ 1 ]$ endowed with the diferential$\mathrm { d } + [ \gamma , \cdot ] .$. Cohomology space$H _ { \gamma }$of this diferential is a graded module over graded algebra$H ( \mathbf { m } )$(the cohomology space of m as a complex).$\mathrm { ~ I f ~ } \gamma _ { 1 }$and$\gamma _ { 2 }$are two gauge equivalent solutions, then$H _ { \gamma _ { 1 } }$and$H _ { \gamma _ { 2 } }$are (non-canonically) isomorphic H(m)-modules.
 
 We define now cup products for all three diferential graded Lie algebras listed at the beginning of this section. For$T _ { \mathrm { p o l y } } ( X )$the cup product is defined as the usual cup product of polyvector fields (see Section 4.6.1). One can check directly that this cup product is compatible with the diferential$\mathrm { d } + [ \gamma , \cdot ]$, and is a graded commutative associative product. For the Hochschild complex of an associative algebra$A ,$the cup product on$H _ { \gamma }$is defined in a more tricky way. It is defined on the complex by the formula
 
@@ -1594,7 +1590,7 @@ The statement of the theorem is an identity between two expressions correspondin
 
 ## 8.2.1. Pictures for the Cup Product in Polyvector Fields
 
-We claim that the side of identity with the cup product for the case$T _ { \mathrm { p o l y } } ( X )$, corresponds to pictures of two points (say,$p _ { 1 } , p _ { 2 } )$, where we put representatives of elements of$H _ { \gamma }$which we want to multiply, are infinitely close points on$\mathcal { H }$. Precisely, this means that we integrate products of copies of the form d/ over preimages$P _ { \alpha }$of some point a in$\mathbb { R } / 2 \pi \mathbb { Z } \simeq C _ { 2 } \subset \overline { { C } } _ { 2 , 0 }$with respect to the forgetting map$\overline { { C } } _ { n , m } \longrightarrow \overline { { C } } _ { 2 , 0 }$ It is easy to see that$P _ { \alpha }$has codimension$2$in$\overline { { C } } _ { n , m }$and contains no strata$C _ { T }$of codimension 2. It implies that as a singular chain,$P _ { \alpha }$is equal to the sum of closures of noncompact hypersurfaces
+We claim that the side of the identity with the cup product for $T_{\mathrm{poly}}(X)$ corresponds to pictures of two points, say $p_1,p_2$, where representatives of the elements of $H_\gamma$ to be multiplied are infinitely close on $\mathcal{H}$. Precisely, this means that we integrate products of copies of the form $\mathrm{d}\phi$ over preimages $P_\alpha$ of a point $a\in\mathbb{R}/2\pi\mathbb{Z}\simeq C_2\subset\overline{C}_{2,0}$ under the forgetting map $\overline{C}_{n,m}\longrightarrow\overline{C}_{2,0}$. The set $P_\alpha$ has codimension 2 in $\overline{C}_{n,m}$ and contains no strata $C_T$ of codimension 2. Thus, as a singular chain, $P_\alpha$ equals the sum of closures of noncompact hypersurfaces.
 
 $$
 P _ {\alpha} \cap \partial_ {S} (\overline {{{C}}} _ {n, m}), P _ {\alpha} \cap \partial_ {S _ {1}, S _ {2}} (\overline {{{C}}} _ {n, m}).
@@ -1614,7 +1610,7 @@ Figure 17. Nonzero terms for the cup-product in$T _ { \mathrm { p o l y } }$
 
 ## 8.2.2. Pictures for the Cup Product in the Hochschild Complex
 
-The cup product for$D _ { \mathrm { p o l y } } ( X )$is given by pictures where two marked points are separated and infinitely close to R. Again, the precise definition is that we integrate products of copies of d/ over the pre-image$P _ { 0 , 1 }$of the point$[ ( 0 , 1 ) ] \in \overline { { C } } _ { 0 , 2 } \subset \overline { { C } } _ { 2 , 0 }$ Analysis analogous to the one from the previous subsection shows that$P _ { 0 , 1 }$does not intersect any boundary stratum of$\overline { { C } } _ { n , m } .$. Thus, as a chain of codimension 2, this pre-image$P _ { 0 , 1 }$coincides with the union of closures of strata$C _ { T }$of codimension 2 such that$C _ { T } \subseteq P _ { 0 , 1 }$. It is easy to see that any such stratum gives pictures like the one in Figure 18 where there is no arrow going from the circled regions outside (as in Figure 11), and we get exactly the cup product in the tangent cohomology of the Hochschild complex as was described above.
+The cup product for $D_{\mathrm{poly}}(X)$ is given by pictures where two marked points are separated and infinitely close to R. Again, the precise definition is that we integrate products of copies of the form $\mathrm{d}\phi$ over the preimage $P_{0,1}$ of the point $[(0,1)]\in\overline{C}_{0,2}\subset\overline{C}_{2,0}$. Analysis analogous to the previous subsection shows that $P_{0,1}$ does not intersect any boundary stratum of $\overline{C}_{n,m}$. Thus, as a chain of codimension 2, this preimage coincides with the union of closures of strata $C_T$ of codimension 2 such that $C_T\subseteq P_{0,1}$. Any such stratum gives a picture like Figure 18, with no arrow going from the circled regions outside (as in Figure 11), and gives exactly the cup product in the tangent cohomology of the Hochschild complex described above.
 
 ## 8.2.3. Homotopy Between Two Pictures
 
@@ -1636,7 +1632,7 @@ Let g be a finite-dimensional Lie algebra over R. The dual space to g endowed wi
 
 THEOREM 8.2 The canonical quantization of the Poisson manifold$\mathbf { g } ^ { * }$is isomorphic to the family of algebras${ \mathcal { U } } _ { \hbar } ( \mathbf { g } )$defined as universal enveloping algebras of g endowed with the bracket$\hbar [ , ]$
 
-Proof. In Section 6.4 we have constructed a canonical star product on the algebra of functions on arbitrary finite-dimensional afine space endowed with a Poisson structure. Therefore we obtain a canonical star product on$C ^ { \infty } ( \mathbf { g } ^ { * } )$. We claim that the product of any two polynomials on$\mathbf { g } ^ { * }$is a polynomial in$\hbar$with coeficients which are polynomials on$\mathbf { g } ^ { * }$. The reason is that the star product is constructed in invariant way, using the contraction of indices. Let us denote by$\beta \in \mathbf { g } ^ { * } \otimes \mathbf { g } ^ { * } \otimes \mathbf { g }$the tensor giving the Lie bracket on g. All nonzero natural operations$\mathrm { S y m } ^ { k } ( \mathbf { g } ) \otimes \mathrm { S y m } ^ { l } ( \mathbf { g } ) \longrightarrow \mathrm { S y m } ^ { m } ( \mathbf { g } )$ which can be defined by contraction of indices with the tensor product of several copies of$\dot { \boldsymbol { { \beta } } } ,$exist only for m$\leqslant k + l ,$and for every given$m ,$there are only finitely many ways to contract indices. Thus, it makes sense to put h equal to 1 and obtain a product on$\mathrm { S y m } ( \mathbf { g } ) = \oplus _ { k \geqslant 0 } \mathrm { S y m } ^ { k } ( \mathbf { g } )$. We denote this product also by ?.
+Proof. In Section 6.4 we constructed a canonical star product on the algebra of functions on an arbitrary finite-dimensional affine space endowed with a Poisson structure. Therefore, we obtain a canonical star product on$C ^ { \infty } ( \mathbf { g } ^ { * } )$. The product of any two polynomials on$\mathbf { g } ^ { * }$is a polynomial in$\hbar$with polynomial coefficients on$\mathbf { g } ^ { * }$, because the star product is constructed invariantly by contracting indices. Let$\beta \in \mathbf { g } ^ { * } \otimes \mathbf { g } ^ { * } \otimes \mathbf { g }$be the tensor giving the Lie bracket on g. Nonzero natural operations$\mathrm { S y m } ^ { k } ( \mathbf { g } ) \otimes \mathrm { S y m } ^ { l } ( \mathbf { g } ) \longrightarrow \mathrm { S y m } ^ { m } ( \mathbf { g } )$defined by contraction with tensor products of copies of$\dot { \boldsymbol { { \beta } } }$exist only for$m \leqslant k+l$, and for each m there are only finitely many contractions. Thus, it makes sense to put $\hbar=1$ and obtain a product on$\mathrm { S y m } ( \mathbf { g } ) = \oplus _ { k \geqslant 0 } \mathrm { S y m } ^ { k } ( \mathbf { g } )$. We denote this product also by $\star$.
 
 It is easy to see that for$\gamma _ { 1 } , \gamma _ { 2 } \in \mathbf { g }$the following identity holds:
 
@@ -1644,19 +1640,19 @@ $$
 \gamma_ {1} \star \gamma_ {2} - \gamma_ {2} \star \gamma_ {1} = [ \gamma_ {1}, \gamma_ {2} ].
 $$
 
-Moreover, the top component of the star product which maps$\mathbf { S y m } ^ { k } ( \mathbf { g } ) \otimes \mathbf { S y m } ^ { l } ( \mathbf { g } )$to $\mathbf { S y m } ^ { k + l } ( \mathbf { g } )$, coincides with the standard commutative product on SymðgÞ. From this two facts one concludes that there exists a unique isomorphism of algebras
+Moreover, the top component of the star product which maps$\mathbf { S y m } ^ { k } ( \mathbf { g } ) \otimes \mathbf { S y m } ^ { l } ( \mathbf { g } )$to $\mathbf { S y m } ^ { k + l } ( \mathbf { g } )$ coincides with the standard commutative product on Sym(g). From these two facts one concludes that there exists a unique isomorphism of algebras
 
 $$
 I _ {a l g}: (\mathscr {U} \mathbf {g}, \cdot) \longrightarrow (\operatorname{Sym} (\mathbf {g}), \star)
 $$
 
-such that$I _ { \mathrm { a l g } } ( \gamma ) = \gamma$for$\gamma \in { \bf g } .$, where  denotes the universal enveloping algebra of g with the standard product.
+such that$I _ { \mathrm { a l g } } ( \gamma ) = \gamma$for$\gamma \in { \bf g } .$, where $\cdot$ denotes the standard product in the universal enveloping algebra $\mathcal{U}\mathbf{g}$.
 
-One can easily recover variable h in this description and get the statement of the theorem.(
+One can easily recover the variable ℏ in this description and obtain the statement of the theorem. □
 
 COROLLARY 8.3 The center of the universal enveloping algebra is canonically isomorphic as an algebra to the algebra$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$of g-invariant polynomials on$\mathbf { g } ^ { * }$
 
-Proof. The center of$\boldsymbol { \mathcal { U } } \mathbf { g }$is the 0th cohomology for the (local) Hochschild complex of$\mathcal { U } \mathbf { g }$endowed with the standard cup product. The algebra$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$is the 0th cohomology of the algebra of polyvector fields on$\mathbf { g } ^ { * }$endowed with the diferential $\left[ \alpha , . \right]$where a is the Kirillov–Poisson bracket. From Theorem$8 . 1$, we conclude that by applying the tangent map to$\mathcal { U } ,$, we get an isomorphism of algebras.(
+Proof. The center of$\boldsymbol { \mathcal { U } } \mathbf { g }$is the 0th cohomology for the (local) Hochschild complex of$\mathcal { U } \mathbf { g }$endowed with the standard cup product. The algebra$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$is the 0th cohomology of the algebra of polyvector fields on$\mathbf { g } ^ { * }$endowed with the differential $\left[ \alpha , \cdot \right]$, where $\alpha$ is the Kirillov–Poisson bracket. From Theorem 8.1, applying the tangent map to$\mathcal { U }$, we obtain an isomorphism of algebras. □
 
 ## 8.3.2. Three Isomorphisms
 
@@ -1686,13 +1682,13 @@ $$
 \operatorname{Sym} (\mathbf {g}) \xrightarrow {I _ {T}} \operatorname{Sym} (\mathbf {g}) \xleftarrow {I _ {\mathrm{alg}}} \mathscr {U} \mathbf {g} \xleftarrow {I _ {\mathrm{PBW}}} \operatorname{Sym} (\mathbf {g}).
 $$
 
-These isomorphisms are ad${ \bf \Pi } ( { \bf g } ) \cdot { \bf \Pi }$-invariant. Thus, one get isomorphisms
+These isomorphisms are ad(\mathfrak{g})-invariant. Thus, one gets isomorphisms.
 
 $$
-(\operatorname{Sym} (\mathbf {g})) ^ {\mathbf {g}} \xrightarrow {I _ {T _ {| \dots}}} \operatorname{Center} (\operatorname{Sym} (\mathbf {g}), \star) \xleftarrow {I _ {\mathrm{alg} _ {| \dots}}} \operatorname{Center} (\mathcal {U} \mathbf {g}) \xleftarrow {I _ {\mathrm{PBW} _ {| \dots}}} (\operatorname{Sym} (\mathbf {g})) ^ {\mathbf {g}},
+(\operatorname{Sym}(\mathfrak{g}))^{\mathfrak{g}} \xrightarrow{I_T|_{(\operatorname{Sym}(\mathfrak{g}))^{\mathfrak{g}}}} \operatorname{Center}(\operatorname{Sym}(\mathfrak{g}),\star) \xleftarrow{I_{\mathrm{alg}}|_{\operatorname{Center}(\mathcal{U}\mathfrak{g})}} \operatorname{Center}(\mathcal{U}\mathfrak{g}) \xleftarrow{I_{\mathrm{PBW}}|_{(\operatorname{Sym}(\mathfrak{g}))^{\mathfrak{g}}}} (\operatorname{Sym}(\mathfrak{g}))^{\mathfrak{g}},
 $$
 
-where the subscript j    denotes the restriction to subspaces of$\operatorname { a d } ( \mathbf { g } )$-invariants. Moreover, first two arrows are isomorphism of algebras. Thus, we have proved the following theorem:
+Here each vertical bar denotes restriction to the subspace of $\operatorname{ad}(\mathfrak{g})$-invariants. The first two arrows are isomorphisms of algebras. Thus, we have proved the following theorem:
 
 THEOREM 8.4. The restriction of the map
 
@@ -1702,7 +1698,7 @@ $$
 
 to$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$is an isomorphism of algebras$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } } { \longrightarrow } \mathrm { C e n t e r } \ ( \mathcal { U } \mathbf { g } )$
 
-## 8.3.3. Automorphisms of SymðgÞ
+## 8.3.3. Automorphisms of Sym(g)
 
 Let us calculate the automorphisms$I _ { T }$and$I _ { \mathrm { a l g } } \circ I _ { \mathrm { P B W } }$of the vector space$\operatorname { S y m } ( \mathbf { g } )$ We claim that both these automorphisms are translation invariant operators on the space$\operatorname { S y m } ( \mathbf { g } )$of polynomials on$\mathbf { g } ^ { * }$
 
@@ -1714,11 +1710,11 @@ $$
 \begin{array}{l} S _ {1} (\gamma) = \exp \biggl (\sum_ {k \geq 1} c _ {2 k} ^ {(1)} \operatorname{Trace} (\operatorname{ad} (\gamma) ^ {2 k}) \biggr), \\ S _ {2} (\gamma) = \exp \biggl (\sum_ {k \geq 1} c _ {2 k} ^ {(2)} \operatorname{Trace} (\operatorname{ad} (\gamma) ^ {2 k}) \biggr), \end{array}
 $$
 
-where$c _ { 2 } ^ { ( 1 ) } , c _ { 4 } ^ { ( 1 ) } , \cdots$ and$c _ { 2 } ^ { ( 2 ) } , c _ { 4 } ^ { ( 2 ) }$;    are two infinite sequences of real numbers indexed $b y$even natural numbers.
+where $c_2^{(1)},c_4^{(1)},\ldots$ and $c_2^{(2)},c_4^{(2)},\ldots$ are two infinite sequences of real numbers indexed by even natural numbers.
 
 Proof. We will study separately two cases.
 
-8.3.3.1. Isomorphism$I _ { T } .$The isomorphism$I _ { T }$is given by the sum over terms corresponding to admissible graphs C with no vertices of the second type, one special vertex v of the first type such that no edge starts at$\nu ,$and such that at any other vertex starts with two edges and ends no more than one edge. Vertex v is the marked vertex where we put an element of$\operatorname { S y m } ( \mathbf { g } )$considered as an element of tangent cohomology. At other vertices we put the Poisson–Kirillov bi-vector field on$\mathbf { g } ^ { * }$, i.e. the tensor of commutator operation in g. As the result we get 0-diferential operator, i.e. an element of algebra SymðgÞ.
+8.3.3.1. Isomorphism$I _ { T } .$The isomorphism$I _ { T }$is given by the sum over terms corresponding to admissible graphs Γ with no vertices of the second type and one special vertex v of the first type such that no edge starts at v. At every other vertex two edges start and at most one edge ends. Vertex v is the marked vertex where we put an element of$\operatorname { S y m } ( \mathbf { g } )$considered as an element of tangent cohomology. At the other vertices we put the Kirillov–Poisson bivector field on$\mathbf { g } ^ { * }$, i.e. the tensor of the commutator operation in g. The result is a 0-differential operator, that is, an element of Sym(g).
 
 It is easy to see that any such graph is isomorphic to a union of copies of ‘wheels’ $\mathrm { { W h } } _ { n } , n \geqslant 2$represented in Figure 20 with identified central vertex v. Figure 21 shows a typical graph of the union.
 
@@ -1740,13 +1736,13 @@ $$
 
 This formula defines the map unambiguously because elements$\gamma ^ { n } , \ \gamma \in { \bf g } , n \geqslant 0$ generate$\operatorname { S y m } ( \mathbf { g } )$as a vector space.
 
-In order to multiply several (say, m, where$m \geqslant 2 )$elements of the quantized algebra, we should put these elements at mfixed points in increasing order on R and take the sum over all possible graphs with m vertices of the second type of corresponding expressions with appropriate weights. The result does not depend on the position of fixed points on R because the star product is associative. Moreover, if we calculate a power of a given element with respect to the ? product, we can put all these points in arbitrary order. It follows that we can take an average over configurations of$m$points on R where each point is random, distributed independently from other points, with a certain probability density on R. We choose a probability distribution on R with a smooth symmetric (under transformation$x \mapsto - x )$density $\rho ( x )$. We assume also that$\rho ( x ) \mathrm { d } x$is the restriction to$\mathbb { R } \simeq C _ { 1 , 1 }$of a smooth 1-form on${ \overline { { C } } } _ { 1 , 1 } \simeq \{ - \infty \} \sqcup \mathbb { R } \sqcup \{ + \infty \}$. With probability 1, our m points will be pairwise distinct. One can check easily that the interchanging of order of integration (i.e. for the taking mean value from the probability theory side, and for the integration of diferential forms over configuration spaces) is valid operation in our case.
+In order to multiply several (say, m, where $m\geqslant2$) elements of the quantized algebra, we should put these elements at m fixed points in increasing order on R and take the sum over all possible graphs with m vertices of the second type of corresponding expressions with appropriate weights. The result does not depend on the positions of the fixed points on R because the star product is associative. Moreover, if we calculate a power of a given element with respect to the $\star$ product, we can put all these points in arbitrary order. It follows that we can take an average over configurations of m points on R, where each point is random and independently distributed with a probability density on R. We choose a probability distribution on R with a smooth symmetric density $\rho(x)$. We also assume that $\rho(x)\,\mathrm{d}x$ is the restriction to $\mathbb{R}\simeq C_{1,1}$ of a smooth 1-form on $\overline{C}_{1,1}\simeq\{-\infty\}\sqcup\mathbb{R}\sqcup\{+\infty\}$. With probability 1, our m points are pairwise distinct. One can check that interchanging the order of integration (taking the mean value from probability theory and integrating differential forms over configuration spaces) is valid in our case.
 
-The conclusion is that the mth power of an element of quantized algebra can be calculated as a sum over all graphs with m vertices of the second type, with weights equal to integrals over configuration spaces where we integrate products of forms d/ and 1-forms$\rho ( x _ { i } ) \mathrm { d } x _ { i }$where$x _ { i }$are points moving along R.
+The conclusion is that the mth power of an element of the quantized algebra can be calculated as a sum over graphs with m vertices of the second type, with weights given by integrals over configuration spaces. In these integrals we integrate products of forms $\mathrm{d}\phi$ and 1-forms $\rho(x_i)\,\mathrm{d}x_i$, where the $x_i$ are points moving along R.
 
-The basic element of pictures in our case are ‘wheels without axles’ (Figure 22) and the K-graph (Figure 23) which gives 0 for symmetry reasons. The typical total picture is something like (with$m = 1 0 )$the one drawn in Figure 24.
+The basic elements in our pictures are ‘wheels without axles’ (Figure 22) and the K-graph (Figure 23), which gives 0 for symmetry reasons. The typical total picture is like the one drawn in Figure 24 (with $m=10$).
 
-Again, it is clear from all this that the operator$I _ { \mathrm { a l g } } \circ I _ { \mathrm { P B W } }$is a diferential operator with constant coeficients on SymðgÞ, equal to the exponent of the sum of operators corresponding to individual wheels. These operators are again proportional to operators associated with power series on g
+Again, it is clear from all this that the operator$I _ { \mathrm { a l g } } \circ I _ { \mathrm { P B W } }$is a differential operator with constant coefficients on Sym(g), equal to the exponent of the sum of operators corresponding to individual wheels. These operators are again proportional to operators associated with power series on g.
 
 ![](images/page_54_image_7.jpg)
 
@@ -1760,7 +1756,7 @@ Figure 23. Another potential basic element, it vanishes for symmetry reasons.
 
 Figure 24. A term in the formula for$\gamma \star \cdots \star \gamma .$
 
-c ! Trace ðadðcÞ<sup>n</sup>Þ:
+\gamma \mapsto \operatorname{Trace}(\operatorname{ad}(\gamma)^n):
 
 By the same symmetry reasons as above we see that integrals corresponding to odd n vanish. The second part of Theorem 8.5 is proven.(
 
@@ -1794,7 +1790,7 @@ $$
 I _ {\mathrm{alg}} ^ {- 1} \circ I _ {T} = I _ {\mathrm{PBW}} \circ I _ {\mathrm{strange}}.
 $$
 
-If it is not true then we get a nonzero series E$\mathbf { r } \in t ^ { 2 } \mathbb { R } [ [ t ^ { 2 } ] ]$such that the translation invariant operator on$\operatorname { S y m } ( \mathbf { g } )$associated with$\gamma \longmapsto I _ { \mathrm { d e t } ( \mathrm { e x p } ( \mathrm { E r r } ( \mathrm { a d } ( \gamma ) ) ) ) } \mathrm { g i v e s }$an automorphism of algebra$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$. Let$2 k > 0$be the degree of the first nonvanishing term in the expansion of Err. Then it is easy to see that the operator on$\operatorname { S y m } ( \mathbf { g } )$associated with the polynomial$\gamma \mapsto \mathrm { T r a c e } ( \mathrm { a d } ( \gamma ) ^ { \overset { } { 2 } k }$is a derivation when restricted to$( \mathrm { S y m } ( \mathbf { g } ) ) ^ { \mathbf { g } }$ One can show that it is not true using Lie algebras$\mathbf { g } = \mathrm { g l } ( n )$for large n. Thus, we get a contradiction and proved that$\mathrm { E r r } = 0$(
+If it is not true, then we get a nonzero series $\mathrm{Err}\in t^2\mathbb{R}[[t^2]]$ such that the translation-invariant operator on $\operatorname{Sym}(\mathbf{g})$ associated with $\gamma\longmapsto I_{\det(\exp(\mathrm{Err}(\operatorname{ad}(\gamma))))}$ gives an automorphism of the algebra $(\operatorname{Sym}(\mathbf{g}))^{\mathbf{g}}$. Let $2k>0$ be the degree of the first nonvanishing term in the expansion of Err. Then the operator on $\operatorname{Sym}(\mathbf{g})$ associated with the polynomial $\gamma\longmapsto\operatorname{Trace}(\operatorname{ad}(\gamma)^{2k})$ is a derivation when restricted to $(\operatorname{Sym}(\mathbf{g}))^{\mathbf{g}}$. One can show that this is false using Lie algebras $\mathbf{g}=\mathrm{gl}(n)$ for large n. Thus, we get a contradiction and prove that $\mathrm{Err}=0$. □
 
 As a remark, we would like to mention that if one replaces series$q ( x )$above just by the inverse to the square root of the series related to the Todd class
 
@@ -1808,7 +1804,7 @@ $$
 \gamma \longrightarrow \exp (\text { const } \cdot \text { Trace } (\text { ad } (\gamma)))
 $$
 
-preserves the structure of Poisson algebra on g<sup></sup>. This one-parameter group also acts by automorphisms of$\mathcal { U } \mathbf { g }$. It is analogous to the Tomita–Takesaki modular automorphism group for von Neumann algebras.
+preserves the structure of Poisson algebra on $\mathbf{g}^{*}$. This one-parameter group also acts by automorphisms of$\mathcal { U } \mathbf { g }$. It is analogous to the Tomita–Takesaki modular automorphism group for von Neumann algebras.
 
 ## 8.3.5. Results in Rigid Tensor Categories
 
@@ -1822,7 +1818,7 @@ In [28] a conjecture was made in the attempt to prove that that Duflo–Kirillov
 
 ## 8.4. SECOND APPLICATION: ALGEBRAS OF EXT-S
 
-Let X be complex manifold, or a smooth algebraic variety of field k of characteristic zero. We associate with it two graded vector spaces. The first space$H T ^ { \bullet } ( X )$is the direct sum$\begin{array} { r } { \bigoplus _ { k , l } H ^ { k } ( X , \wedge ^ { l } T _ { X } ) [ - k - l ] } \end{array}$. The second space$H H ^ { \bullet } ( X )$is the space $\circled { \pmb { \mathscr { D } } _ { k } \mathrm { E x t } _ { \mathrm { C o h } ( X \times X ) } ^ { k } } ( \mathcal { O } _ { \mathrm { d i a g } } , \mathcal { O } _ { \mathrm { d i a g } } ) [ - k ]$of Ext-groups in the category of coherent sheaves on$X \times X$from the sheaf of functions on the diagonal to itself. The space$H H ^ { \bullet } ( X )$ can be thought as the Hochschild cohomology of the space X. The reason is that the Hochschild cohomology of any algebra A can be also defined as$\mathrm { E x t } _ { A - \mathrm { m o d } - A } ^ { \bullet } ( A , A )$in the category of bimodules.
+Let X be a complex manifold or a smooth algebraic variety over a field k of characteristic zero. We associate with it two graded vector spaces. The first is $HT^{\bullet}(X)=\bigoplus_{k,l}H^k(X,\wedge^lT_X)[-k-l]$. The second is $HH^{\bullet}(X)=\bigoplus_k\operatorname{Ext}^k_{\mathrm{Coh}(X\times X)}(\mathcal{O}_{\mathrm{diag}},\mathcal{O}_{\mathrm{diag}})[-k]$, the Ext groups in the category of coherent sheaves on $X\times X$ from the sheaf of functions on the diagonal to itself. The space $HH^{\bullet}(X)$ can be thought of as the Hochschild cohomology of X. The reason is that the Hochschild cohomology of any algebra A can also be defined as $\operatorname{Ext}^{\bullet}_{A\text{-mod-}A}(A,A)$ in the category of bimodules.
 
 Both spaces,$H H ^ { \bullet } ( X )$and$H T ^ { \bullet } ( X )$carry natural products. For$H H ^ { \bullet } ( X )$it is the Yoneda composition, and for$H T ^ { \bullet } ( X )$it is the cup-product of cohomology and of polyvector fields.
 
@@ -1836,17 +1832,17 @@ I am grateful to G. Dito, Y. Soibelman, and D. Sternheimer for many useful remar
 
 ## References
 
-1. Alexandrov, M., Kontsevich, M., Schwarz, A. and Zaboronsky, O.: The geometry of the master equation and topological quantum field theory, Internat. J. Modern$P h y s$. A 12(7) (1997), 1405–1429.
+1. Alexandrov, M., Kontsevich, M., Schwarz, A. and Zaboronsky, O.: The geometry of the master equation and topological quantum field theory, Internat. J. Modern Phys. A 12(7) (1997), 1405–1429.
 
-2. Arnal, D., Manchon, D. and Masmoudi, M.: Choix des signes pour la formalite´ de M. Kontsevich. Pacific. J. Math. 203 (2002), 23–66.
+2. Arnal, D., Manchon, D. and Masmoudi, M.: Choix des signes pour la formalité de M. Kontsevich. Pacific. J. Math. 203 (2002), 23–66.
 
-3. Arnold, V.I., Gusein-Zade, S.M. and Varchenko, A.N.: Singularities of Diferentiable Maps, Vol. I: The Classification of Critical Points, Caustics and Wave Fronts, Birkha¨user, Boston, 1985.
+3. Arnold, V.I., Gusein-Zade, S.M. and Varchenko, A.N.: Singularities of Differentiable Maps, Vol. I: The Classification of Critical Points, Caustics and Wave Fronts, Birkhäuser, Boston, 1985.
 
 4. Bar-Natan, D., Garoufalidis, S., Rozansky, L. and Thurston, D.: Wheels, wheeling, and the Kontsevich integral of the unknot, Israel J. Math. 119 (2000), 217–237.
 
 5. Barannikov, S. and Kontsevich, M.: Frobenius manifolds and formality of Lie algebras of polyvector fields, Internat. Math. Res. Notices 1998(4) (1998), 201–215.
 
-6. Bayen, F., Flato, M., Fr-nsdal, C., Lichnerowicz, A. and Sternheimer, D.: Deformation theory and quantization. I. Deformations of symplectic structures, Ann. Phys. 111(1) (1978), 61–110.
+6. Bayen, F., Flato, M., Frønsdal, C., Lichnerowicz, A. and Sternheimer, D.: Deformation theory and quantization. I. Deformations of symplectic structures, Ann. Phys. 111(1) (1978), 61–110.
 
 7. Cahen, M., Gutt, S. and De Wilde, M.: Local cohomology of the algebra of$C ^ { \infty }$functions on a connected manifold, Lett. Math. Phys. 4 (1980), 157–167.
 
@@ -1856,21 +1852,21 @@ I am grateful to G. Dito, Y. Soibelman, and D. Sternheimer for many useful remar
 
 10. Cattaneo, A., Felder, G. and Tomassini, L.: From local to global deformation quantization of Poisson manifolds, Duke Math. J. 115(2) (2002), 329–352.
 
-11. Deligne, P.: Cate´ gories tannakiennes, In: The Grothendieck Festschrift, Vol. II, Progr. in Math. 87, Birkha¨user, Boston, 1990, pp. 111–195.
+11. Deligne, P.: Catégories tannakiennes, In: The Grothendieck Festschrift, Vol. II, Progr. in Math. 87, Birkhäuser, Boston, 1990, pp. 111–195.
 
-12. De Wilde, M. and Lecomte, P.B.A.: Existence ofstar-products and offormal deformations in Poisson Lie algebra of arbitrary symplectic manifolds, Lett. Math. Phys. 7 (1983), 487–496.
+12. De Wilde, M. and Lecomte, P.B.A.: Existence of star-products and of formal deformations in Poisson Lie algebra of arbitrary symplectic manifolds, Lett. Math. Phys. 7 (1983), 487–496.
 
-13. Duflo, M.: Caracte\` res des alge\` bres de Lie re´ solubles, C.R. Acad. Sci. Se´r. A 269 (1969), 437–438.
+13. Duflo, M.: Caractères des algèbres de Lie résolubles, C.R. Acad. Sci. Sér. A 269 (1969), 437–438.
 
 14. Etingof, P. and Kazhdan, D.: Quantization of Lie Bialgebras, I, Selecta Math. (New Ser.) 2(1) (1996), 1–41.
 
-15. Fedosov, B.: A simple geometric construction of deformation quantization, J. Diferential Geom. 40(2) (1994), 213–238.
+15. Fedosov, B.: A simple geometric construction of deformation quantization, J. Differential Geom. 40(2) (1994), 213–238.
 
 16. Felder, G. and Shoikhet, B.: Deformation quantization with traces, Lett. Math. Phys. 53(1) (2000), 75–86.
 
-17. Fulton, W. and MacPherson, R.: Compactification of configuration spaces, Ann. ofMath. (2) 139(1) (1994), 183–225.
+17. Fulton, W. and MacPherson, R.: Compactification of configuration spaces, Ann. of Math. (2) 139(1) (1994), 183–225.
 
-18. Gelfand, I. M. and Kazhdan D. A.: Some problems of diferential geometry and the calculation of cohomologies of Lie algebras of vector fields, Soviet Math. Dokl. 12(5) (1971), 1367–1370.
+18. Gelfand, I. M. and Kazhdan D. A.: Some problems of differential geometry and the calculation of cohomologies of Lie algebras of vector fields, Soviet Math. Dokl. 12(5) (1971), 1367–1370.
 
 19. Gerstenhaber, M. and Voronov, A.: Homotopy G-algebras and moduli space operad, Internat. Math. Res. Notices 1995(3) (1995), 141–153.
 
@@ -1886,29 +1882,29 @@ I am grateful to G. Dito, Y. Soibelman, and D. Sternheimer for many useful remar
 
 25. Hinich, V. and Schechtman, V.: Homotopy Lie algebras, In: I. M. Gelfand Seminar, Adv. Soviet Math. 16(2), Amer. Math. Soc., Providence, RI, 1993, pp. 1–28.
 
-26. Hochschild, G., Kostant, B. and Rosenberg, A.: Diferential forms on regular afine algebras, Trans. Amer. Math. Soc. 102 (1962), 383–408.
+26. Hochschild, G., Kostant, B. and Rosenberg, A.: Differential forms on regular affine algebras, Trans. Amer. Math. Soc. 102 (1962), 383–408.
 
 27. Hu, P., Kriz, I. and Voronov, A.: On Kontsevich’s Hochschild cohomology conjecture, 2003, math.AT/0309369.
 
-28. Kashiwara, M. and Vergne, M.: The Campbell-Hausdorf formula and invariant hyperfunctions, Invent. Math. 47 (1978), 249–272.
+28. Kashiwara, M. and Vergne, M.: The Campbell-Hausdorff formula and invariant hyperfunctions, Invent. Math. 47 (1978), 249–272.
 
 29. Kirillov, A.: Elements of the Theory of Representations, Springer-Verlag, Berlin, 1976.
 
-30. Kontsevich, M.: Feynman diagrams and low-dimensional topology, In: First European Congress of Mathematics (Paris, 1992), Vol. II, Progr. in Math. 120, Birkha¨user, Basel, 1994, pp. 97–121.
+30. Kontsevich, M.: Feynman diagrams and low-dimensional topology, In: First European Congress of Mathematics (Paris, 1992), Vol. II, Progr. in Math. 120, Birkhäuser, Basel, 1994, pp. 97–121.
 
 31. Kontsevich, M.: Formality conjecture, In: D. Sternheimer et al. (eds), Deformation Theory and Symplectic Geometry, Kluwer, Dordrecht, 1997, pp. 139–156.
 
 32. Kontsevich, M.: Rozansky–Witten invariants via formal geometry, Compositio Math. 115(1) (1999), 115–127.
 
-33. Kontsevich, M.: Homological algebra of mirror symmetry, In: Proceedings of ICM, (Zu¨rich 1994) Vol. I, Birkha¨user, Basel, 1995, pp. 120–139.
+33. Kontsevich, M.: Homological algebra of mirror symmetry, In: Proceedings of ICM, (Zürich 1994) Vol. I, Birkhäuser, Basel, 1995, pp. 120–139.
 
 34. Kontsevich, M.: Deformation quantization of Poisson manifolds, I., 1997, q-alg/9709040.
 
 35. Kontsevich, M.: Operads and motives in deformation quantization, Lett. Math. Phys. 48(1) (1999), 35–72.
 
-36. Kontsevich, M.: Deformation quantization of algebaric varieties, Lett. Math. Phys. 56(3) (2001), 271–294.
+36. Kontsevich, M.: Deformation quantization of algebraic varieties, Lett. Math. Phys. 56(3) (2001), 271–294.
 
-37. Kontsevich, M. and Soibelman, Y.: Deformations of algebras over operads and the Deligne conjecture, In: G. Dito and D. Sternheimer (eds), Confe´rence Moshe´ Flato 1999, Vol. I (Dijon 1999), Kluwer Acad. Publ., Dordrecht, 2000, pp. 255–307.
+37. Kontsevich, M. and Soibelman, Y.: Deformations of algebras over operads and the Deligne conjecture, In: G. Dito and D. Sternheimer (eds), Conférence Moshé Flato 1999, Vol. I (Dijon 1999), Kluwer Acad. Publ., Dordrecht, 2000, pp. 255–307.
 
 38. McClure, M. and Smith, J.: A solution of Deligne’s Hochschild cohomology conjecture, In: Recent Progress in Homotopy Theory (Baltimore, MD, 2000), Contemp. Math. 293, Amer. Math. Soc., Providence, RI, 2002, pp. 153–193,
 
@@ -1920,7 +1916,7 @@ I am grateful to G. Dito, Y. Soibelman, and D. Sternheimer for many useful remar
 
 42. Schlessinger, M. and Stashef, J.: The Lie algebra structure on tangent cohomology and deformation theory, J. Pure Appl. Algebra 38 (1985), 313–322.
 
-43. Sullivan, D.: Infinitesimal computations in topology, Inst. Hautes E<sup>´</sup>tudes Sci. Publ. Math. (1977) No. 47, (1978), 269–331.
+43. Sullivan, D.: Infinitesimal computations in topology, Inst. Hautes Études Sci. Publ. Math. (1977) No. 47, (1978), 269–331.
 
 44. Voronov, A.: Quantizing Poisson manifolds, In: Perspectives on Quantization (South Hadley, MA, 1996), Contemp. Math. 214, Amer. Math. Soc., Providence, RI, 1998, pp. 189–195.
 
@@ -1928,4 +1924,4 @@ I am grateful to G. Dito, Y. Soibelman, and D. Sternheimer for many useful remar
 
 46. Tamarkin, D.: Quantization of Lie bialgebras via the formality of the operad of little disks, in: G.Halbout (ed.), Deformation Quantization (Strasbourg 2001), IRMA Lectures in Math. Theoret. Phys. Vol. I, Walter de Gruyter, Berlin, 2002, pp. 203–236.
 
-47. Tamarkin, D. and Tsygan, B.: Noncommutative diferential calculus, homotopy BV algebras and formality conjectures, Methods Funct. Anal. Topology 6(2) (2000), 85–100.
+47. Tamarkin, D. and Tsygan, B.: Noncommutative differential calculus, homotopy BV algebras and formality conjectures, Methods Funct. Anal. Topology 6(2) (2000), 85–100.
