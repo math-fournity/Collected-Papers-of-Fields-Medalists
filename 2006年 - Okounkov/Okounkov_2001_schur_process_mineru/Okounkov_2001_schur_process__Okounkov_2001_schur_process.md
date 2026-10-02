@@ -16,7 +16,7 @@ This paper is a continuation of [16]. The Schur measure, introduced in [16], is 
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>∗</sup>Department of Mathematics, University of California at Berkeley, Evans Hall #3840, Berkeley, CA 94720-3840. E-mail: okounkov@math.berkeley.edu, reshetik@math.berkeley.edu</span></small>
 
-Here we consider a time-dependent version of the Schur measure which we call the Schur process, see Definition 2. This is a measure on sequences {<sup>λ(t)</sup>} <sup>such</sup> <sup>that</sup>
+Here we consider a time-dependent version of the Schur measure which we call the Schur process, see Definition 2. This is a measure on sequences {λ(t)} such that
 
 $$
 \operatorname{Prob} (\{\lambda (t) \}) \propto \prod \mathsf {S} ^ {(t)} (\lambda (t), \lambda (t + 1)),
@@ -36,7 +36,7 @@ $$
 \mathfrak {S} (\{\lambda (t) \}) = \left\{(t, \lambda (t) _ {i} - i + \frac {1}{2}) \right\}, \quad t, i \in Z,
 $$
 
-contains a given set$U \subset \mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$
+contains a given set$U \subset \mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$.
 
 Using the same infinite wedge machinery as in [16] we prove that the correlation functions of the Schur process have a determinantal form
 
@@ -72,7 +72,7 @@ From the point of view of statistical mechanics, the argument behind this conjec
 
 In this paper, we approach the local geometry of random 3D diagrams using the general exact formulas for correlation functions of the Schur process. For 3D diagrams, these general formulas specialize to contour integrals involving the quantum dilogarithm function (24), see Corollary 1.
 
-We compute the q  1 limit of the correlation kernel explicitly. The result turns out to be the discrete incomplete beta kernel, see Theorem 2. One can show, see Section 3.1.12, that this kernel is a specialization of the kernel of [5] when one of the parameters vanishes in agreement with Conjecture 13.5 of [5].
+We compute the $q \to 1$ limit of the correlation kernel explicitly. The result turns out to be the discrete incomplete beta kernel, see Theorem 2. One can show, see Section 3.1.12, that this kernel is a specialization of the kernel of [5] when one of the parameters vanishes in agreement with Conjecture 13.5 of [5].
 
 The incomplete beta kernel is also a bivariate generalization of the discrete sine kernel which appeared in [1] in the situation of the Plancherel specialization of the Schur measure, see also [10].
 
@@ -98,7 +98,7 @@ $$
 \lambda = \left(\lambda_ {1} \geq \lambda_ {2} \geq \lambda_ {3} \geq \dots \geq 0\right)
 $$
 
-of integers such that$\lambda _ { i } = 0$for$i \gg 0$. The zero, or empty, partition is denoted by . The book [15] is a most comprehensive reference on partitions and symmetric functions.
+of integers such that$\lambda _ { i } = 0$for$i \gg 0$. The zero, or empty, partition is denoted by $\varnothing$. The book [15] is a most comprehensive reference on partitions and symmetric functions.
 
 Schur process is a measure on sequences
 
@@ -106,7 +106,7 @@ $$
 \{\lambda (t) \}, \quad t \in \mathbb {Z},
 $$
 
-where each$\lambda ( t )$is a partition and$\lambda ( t ) = \varnothing$for$| t | \gg 0$. We call the variable t the time, even though it may have a diferent interpretation in applications.
+where each$\lambda ( t )$is a partition and$\lambda ( t ) = \varnothing$for$| t | \gg 0$. We call the variable t the time, even though it may have a different interpretation in applications.
 
 ## 2.1.2
 
@@ -158,7 +158,7 @@ $$
 \lambda_ {1} \geq \mu_ {1} \geq \lambda_ {2} \geq \mu_ {2} \geq \lambda_ {3} \geq \dots .
 $$
 
-In particular, the configuration λ(t) corresponding to the diagram (2) is
+In particular, the configuration $\{ \lambda ( t ) \}$ corresponding to the diagram (2) is
 
 $$
 (2) \prec (3, 1) \prec (4, 2) \prec (5, 3, 1) \succ (3, 1) \succ (2, 1) \succ (1).
@@ -204,7 +204,7 @@ $$
 
 where$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a certain time-dependent transition weight between the partition$\mu$and λ which will be defined presently.
 
-The coeficient$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a suitably regularized infinite minor of a certain Toeplitz matrix. It can be viewed as a generalization of the Jacobi-Trudy determinant for a skew Schur function or as a form of Karlin-McGregor non-intersection probability [12].
+The coefficient$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a suitably regularized infinite minor of a certain Toeplitz matrix. It can be viewed as a generalization of the Jacobi-Trudy determinant for a skew Schur function or as a form of Karlin-McGregor non-intersection probability [12].
 
 ## 2.2.2
 
@@ -230,9 +230,9 @@ $$
 \det \left(\phi_ {y _ {i} - x _ {j}}\right).\tag{6}
 $$
 
-We will see that, even though there is no canonical way to evaluate this determinant, diferent regularizations difer by a constant which depends only on$\phi$and not on$X$and$Y$.
+We will see that, even though there is no canonical way to evaluate this determinant, different regularizations differ by a constant which depends only on$\phi$and not on$X$and$Y$.
 
-Since our goal is to define probabilities only up to a constant factor, it is clear that diferent regularizations lead to the same random process.
+Since our goal is to define probabilities only up to a constant factor, it is clear that different regularizations lead to the same random process.
 
 ## 2.2.4
 
@@ -273,7 +273,7 @@ $$
 Definition 1. We define the transition weight by the following formula
 
 $$
-S _ {\phi} (\mu , \lambda) = \sum_ {\nu} s _ {\mu / \nu} (\phi^ {-}) s _ {\lambda / \nu} (\phi^ {+}),\tag{9}
+\mathsf {S} _ {\phi} (\mu , \lambda) = \sum_ {\nu} s _ {\mu / \nu} (\phi^ {-}) s _ {\lambda / \nu} (\phi^ {+}),\tag{9}
 $$
 
 where$s _ { \lambda / \nu } ( \phi ^ { + } )$is defined by (7) and$s _ { \mu / \nu } ( \phi ^ { - } )$is the skew Schur function$s _ { \mu / \nu }$ specialized so that
@@ -288,7 +288,7 @@ $$
 \left(\phi_ {i - j}\right) = \left(\phi_ {i - j} ^ {+}\right) \left(\phi_ {i - j} ^ {-}\right).
 $$
 
-Also note that because of (8) the sum in (9) is finite, namely, it ranges over all ν such that$\nu \subset \mu , \lambda$
+Also note that because of (8) the sum in (9) is finite, namely, it ranges over all ν such that$\nu \subset \mu , \lambda$.
 
 ## 2.2.6
 
@@ -300,7 +300,7 @@ $$
 \Gamma_ {\pm} (\phi) = \exp \left(\sum_ {k = 1} ^ {\infty} (\log \phi) _ {\mp k} \alpha_ {\pm k}\right),
 $$
 
-where$( \log \phi ) _ { k }$denotes the coeficient of$z ^ { k }$in the Laurent expansion of log$\phi ( z )$. In particular, if the algebra of symmetric functions is specialized as in (7) then
+where$( \log \phi ) _ { k }$denotes the coefficient of$z ^ { k }$in the Laurent expansion of log$\phi ( z )$. In particular, if the algebra of symmetric functions is specialized as in (7) then
 
 $$
 (\log \phi) _ {k} = \frac {p _ {k}}{k}, \quad k = 1, 2, 3, \ldots ,
@@ -308,7 +308,7 @@ $$
 
 where$p _ { k }$is the kth power-sum symmetric function.
 
-It is well known, see for example Exercise 14.26 in [11], that the matrix coeficient of the operators$\Gamma _ { \pm }$are the skew Schur functions, namely
+It is well known, see for example Exercise 14.26 in [11], that the matrix coefficient of the operators$\Gamma _ { \pm }$are the skew Schur functions, namely
 
 $$
 (\Gamma_ {-} (\phi) v _ {\mu}, v _ {\lambda}) = s _ {\lambda / \mu} (\phi^ {+}).
@@ -326,7 +326,7 @@ $$
 \Gamma_ {+} (\phi) \Gamma_ {-} (\phi) = e ^ {\sum k (\log \phi) _ {k} (\log \phi) _ {- k}} \Gamma_ {-} (\phi) \Gamma_ {+} (\phi)\tag{11}
 $$
 
-that diferent ordering prescriptions in (10), which produce diferent regularizations of (6), all difer by a constant independent of$\mu$and λ.
+that different ordering prescriptions in (10), which produce different regularizations of (6), all differ by a constant independent of$\mu$and λ.
 
 ## 2.2.7
 
@@ -358,7 +358,7 @@ $$
 
 ## 2.2.8
 
-It follows from (10) that Z is given by the following matrix coeficient
+It follows from (10) that Z is given by the following matrix coefficient
 
 $$
 Z = \left(\prod_ {m \in \mathbb {Z} + 1 / 2} ^ {\leftarrow} \Gamma_ {-} (\phi [ m ])   \Gamma_ {+} (\phi [ m ])   v _ {\emptyset}, v _ {\emptyset}\right)  ,\tag{12}
@@ -372,13 +372,13 @@ $$
 \Gamma_ {+} (\phi) v _ {\emptyset} = v _ {\emptyset}.\tag{13}
 $$
 
-we compute the matrix coeficient (12) as follows
+we compute the matrix coefficient (12) as follows
 
 $$
 Z = \exp \left(\sum_ {m _ {1} <   m _ {2}} \sum_ {k} k (\log \phi [ m _ {1} ]) _ {k} (\log \phi [ m _ {2} ]) _ {- k}\right).
 $$
 
-Our growth assumptions on the functions$\phi [ m ]$ensure the convergence of$Z$
+Our growth assumptions on the functions$\phi [ m ]$ensure the convergence of$Z$.
 
 ## 2.2.9
 
@@ -388,7 +388,7 @@ $$
 \operatorname{Prob} (\lambda (t) = \mu) \propto s _ {\mu} \left(\prod_ {m <   t} \phi^ {+} [ m ]\right) s _ {\mu} \left(\prod_ {m > t} \phi^ {-} [ m ]\right),\tag{14}
 $$
 
-where, for example, the first factor is the image of the Schur function under the specialization that sets$h _ { k }$to the coeficient of$z ^ { k }$in the product of $\phi ^ { + } [ m ] ( z )$over$m < t$
+where, for example, the first factor is the image of the Schur function under the specialization that sets$h _ { k }$to the coefficient of$z ^ { k }$in the product of $\phi ^ { + } [ m ] ( z )$over$m < t$.
 
 This means that the distribution of each individual$\lambda ( t )$is a Schur measure [16] with parameters (14).
 
@@ -546,7 +546,7 @@ $$
 K _ {A} (i, j) = \left\{ \begin{array}{l l} (A _ {i}   A _ {j} ^ {*}   v _ {\emptyset}, v _ {\emptyset})  , & i \geq j  , \\ - (A _ {j} ^ {*}   A _ {i}   v _ {\emptyset}, v _ {\emptyset})  , & i <   j  . \end{array} \right.
 $$
 
-Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } { : }$, therefore it sufices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { ^ { * } s }$and$A _ { j } ^ { * } \mathrm { { ^ { s } } }$. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$ one then verifies (18) directly.□
+Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } { : }$, therefore it suffices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { ^ { * } s }$and$A _ { j } ^ { * } \mathrm { { ^ { s } } }$. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$ one then verifies (18) directly.□
 
 We obtain the formula (16) with
 
@@ -607,12 +607,14 @@ $$
 where the kernel K is determined by the following generating function
 
 $$
-\begin{array}{l} \mathsf {K} _ {t _ {1}, t _ {2}} (z, w) = \sum_ {x _ {1}, x _ {2} \in \mathbb {Z} + \frac {1}{2}} z ^ {x _ {1}}   w ^ {- x _ {2}}   K ((t _ {1}, x _ {1}), (t _ {2}, x _ {2}))  , \\ = \frac {\sqrt {z w}}{z - w}   \frac {\Phi (t _ {1} , z)}{\Phi (t _ {2} , w)}  . \end{array}\tag{21}
+\mathsf { K } _ {t_1,t_2} (z, w) = \sum_ {x_1,x_2 \in \mathbb {Z} + \frac {1}{2}} z ^ {x_1}   w ^ {-x_2}   K ((t _ {1}, x _ {1}), (t _ {2}, x _ {2}))  ,\tag{21}
 $$
 
-(22)
+$$
+= \frac {\sqrt {z w}}{z - w}   \frac {\Phi (t _ {1} , z)}{\Phi (t _ {2} , w)}  .\tag{22}
+$$
 
-Here the function$\boldsymbol { \mathrm { { } } } ^ { \mathrm { { } } } \dot { \boldsymbol { \mathrm { { } } } } ( t , z )$is defined by (20), and (21) is the expansion of (22) in the region$| z | > | w |$if$t _ { 1 } \geq t _ { 2 }$and$| z | < | w | \ i f t _ { 1 } < t _ { 2 }$
+Here the function$\Phi ( t , z )$is defined by (20), and (21) is the expansion of (22) in the region$| z | > | w |$if$t _ { 1 } \geq t _ { 2 }$and$| z | < | w |$if$t _ { 1 } < t _ { 2 }$.
 
 ## 2.3.5
 
@@ -638,7 +640,7 @@ $$
 
 ## 2.3.6
 
-In order to make a better connection with the geometry of 3D diagrams, let us introduce a diferent encoding of diagrams by subsets in the plane. Given a plane partition
+In order to make a better connection with the geometry of 3D diagrams, let us introduce a different encoding of diagrams by subsets in the plane. Given a plane partition
 
 $$
 \pi = (\pi_ {i j}), \quad i, j = 1, 2, \ldots ,
@@ -668,7 +670,7 @@ $$
 \widetilde {\mathfrak {S}} (\pi) \subset \mathbb {Z} \times \frac {1}{2} \mathbb {Z}
 $$
 
-is precisely the set of the centers of the horizontal tiles. It is also clear that if λ(t) corresponds to the diagram π, then
+is precisely the set of the centers of the horizontal tiles. It is also clear that if $\{ \lambda ( t ) \}$ corresponds to the diagram π, then
 
 $$
 (t, h) \in \widetilde {\mathfrak {S}} (\pi) \Leftrightarrow (t, x + | t | / 2) \in \mathfrak {S} (\{\lambda (t) \}).
@@ -704,11 +706,11 @@ $$
 \int_ {\gamma} e ^ {M S (x)} d x \rightarrow 0, \quad M \rightarrow + \infty ,\tag{27}
 $$
 
-provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points$x \in \gamma$
+provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points$x \in \gamma$.
 
 ## 3.1.2
 
-Let$q = e ^ { - r }$and$r  + 0$. We begin with the following
+Let$q = e ^ { - r }$and$r \to + 0$. We begin with the following
 
 Lemma 2. We have the following convergence in probability
 
@@ -716,7 +718,7 @@ $$
 r ^ {3} | \pi | \rightarrow 2 \zeta (3), r \rightarrow + 0,
 $$
 
-where$| \pi |$is the volume of a 3D diagram$\pi$sampled from the measure${ \mathfrak { M } } _ { q }$
+where$| \pi |$is the volume of a 3D diagram$\pi$sampled from the measure${ \mathfrak { M } } _ { q }$.
 
 Proof. First consider the expectation of$| \pi |$
 
@@ -730,13 +732,13 @@ $$
 \mathrm{Var} | \pi | = q \frac {d}{d q} \mathsf {E} | \pi | = o (r ^ {- 6}),
 $$
 
-whence$\mathrm { V a r } ( r ^ { 3 } | \pi | ) \to 0$, which concludes the proof.
+whence$\mathrm { V a r } ( r ^ { 3 } | \pi | ) \to 0$, which concludes the proof.□
 
 ## 3.1.3
 
-It follows that as$r ~  ~ + 0$the typical 3D diagram$\pi ,$scaled by$r$in all directions, approaches the suitably scaled limit shape for typical 3D diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
+It follows that as$r \to + 0$the typical 3D diagram$\pi ,$scaled by$r$in all directions, approaches the suitably scaled limit shape for typical 3D diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
 
-We are interested in the$r ~  ~ + 0$limiting local structure of$\pi$in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
+We are interested in the$r \to + 0$limiting local structure of$\pi$in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
 
 $$
 r t _ {i} \rightarrow \tau , r h _ {i} \rightarrow \chi ,
@@ -752,7 +754,7 @@ remain fixed. This limit is easy to obtain by a combination of residue calculus 
 
 ## 3.1.4
 
-We have the following$r  + 0$asymptotics:
+We have the following$r \to + 0$asymptotics:
 
 $$
 \ln (z; q) _ {\infty} \sim r ^ {- 1} \int_ {0} ^ {z} \frac {\ln (1 - w)}{w} d w = - r ^ {- 1} \mathrm{dilog} (1 - z),\tag{28}
@@ -764,7 +766,7 @@ $$
 \operatorname{dilog} (1 - z) = \sum_ {n} \frac {z ^ {n}}{n ^ {2}}, \quad | z | \leq 1,
 $$
 
-analytically continued with a cut along$( 1 , + \infty )$
+analytically continued with a cut along$( 1 , + \infty )$.
 
 Introduce the following function
 
@@ -772,9 +774,9 @@ $$
 S (z; \tau , \chi) = - (\tau / 2 + \chi) \ln z - \mathrm{dilog} (1 - 1 / z) + \mathrm{dilog} (1 - e ^ {- \tau} z)
 $$
 
-and recall that we made the assumption that$\tau \geq 0$. The function$S ( z ; \tau , \chi )$ is analytic in the complex plane with cuts along$( 0 , 1 )$and$( e ^ { \tau } , + \infty )$
+and recall that we made the assumption that$\tau \geq 0$. The function$S ( z ; \tau , \chi )$ is analytic in the complex plane with cuts along$( 0 , 1 )$and$( e ^ { \tau } , + \infty )$.
 
-As$r  + 0$, the exponentially large term in the integrand in (26) is
+As$r \to + 0$, the exponentially large term in the integrand in (26) is
 
 $$
 \exp \left(\frac {1}{r} (S (z; \tau , \chi) - S (w; \tau , \chi))\right).\tag{29}
@@ -854,7 +856,7 @@ $$
 
 where dots stand for the same integrand as in (26),$0 < \epsilon \ll 1$, and we pick the plus sign if$t _ { 1 } \geq t _ { 2 }$and the negative sign otherwise.
 
-Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - }$. This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of S, see Figure 4. Similarly, the contour $\gamma _ { < }$is the same circle$| z | = e ^ { \tau / 2 }$slightly pushed in the opposite direction. The
+Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - }$. This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of$\Re S$, see Figure 4. Similarly, the contour $\gamma _ { < }$is the same circle$| z | = e ^ { \tau / 2 }$slightly pushed in the opposite direction. The
 
 ![](images/page_22_image_0.jpg)
 
@@ -862,7 +864,7 @@ Figure 4: Gradient of$\Re S ( z )$on the circle$\gamma = \{ | z | = e ^ { \tau /
 
 ![](images/page_22_image_2.jpg)
 
-Figure 5: Contours$\gamma _ { > } ( \mathrm { d a s h e d } )$$\gamma _ { < } ( \mathrm { d o t t e d } )$, and$\gamma _ { \pm }$
+Figure 5: Contours$\gamma _ { > } ( \mathrm { d a s h e d } )$, $\gamma _ { < } ( \mathrm { d o t t e d } )$, and$\gamma _ { \pm }$
 
 contours$\gamma _ { \pm }$are the arcs of the circle$| z | = e ^ { \tau / 2 }$between$\bar { z } _ { c }$and$z _ { c } ,$oriented toward$z _ { c } .$
 
@@ -918,11 +920,11 @@ where the path of the integration crosses$( 0 , 1 )$for the plus sign and$( - \i
 
 ## 3.1.8
 
-It is also obvious from our construction that the function$\Re S ( z )$reaches its maximal value on the contour$\gamma _ { < }$<sub><</sub> precisely at the points$z _ { c }$and$\bar { z } _ { c }$. The same points are the minima of the function$S ( z )$on the contour$\gamma _ { > }$. The behavior of the integral$\boldsymbol { \int } ^ { ( 1 ) }$is thus determined by the term (29) and, by the basic principle (27), the limit of$\boldsymbol { \int } ^ { ( 1 ) }$vanishes.
+It is also obvious from our construction that the function$\Re S ( z )$reaches its maximal value on the contour$\gamma _ { < }$ precisely at the points$z _ { c }$and$\bar { z } _ { c }$. The same points are the minima of the function$S ( z )$on the contour$\gamma _ { > }$. The behavior of the integral$\boldsymbol { \int } ^ { ( 1 ) }$is thus determined by the term (29) and, by the basic principle (27), the limit of$\boldsymbol { \int } ^ { ( 1 ) }$vanishes.
 
 ## 3.1.9
 
-We can summarize our discussion as follows. Set$z _ { * } = e ^ { - \tau } z _ { c } ,$, in other words,
+We can summarize our discussion as follows. Set$z _ { * } = e ^ { - \tau } z _ { c }$, in other words,
 
 $$
 \left\{z _ {*}, \bar {z} _ {*} \right\} = \left\{\left| z \right| = e ^ {- \tau / 2} \right\} \cap \left\{\left| z - 1 \right| = e ^ {- \tau / 4 - \chi / 2} \right\}, \quad \Im z _ {*} > 0.\tag{33}
@@ -936,25 +938,25 @@ $$
 
 We have established the following
 
-Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r  + 0$
+Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r \to + 0$
 
 $$
 r t _ {i} \rightarrow \tau \geq 0, r h _ {i} \rightarrow \chi , i = 1, 2, \ldots ,
 $$
 
-in such a way that the diferences
+in such a way that the differences
 
 $$
 \Delta t _ {i j} = t _ {i} - t _ {j}, \quad \Delta h _ {i j} = h _ {i} - h _ {j},
 $$
 
-remain fixed. Then, as$r  + 0$
+remain fixed. Then, as$r \to + 0$
 
 $$
-\mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \mathtt {B} _ {\pm} \left(\Delta t _ {i j}, \Delta h _ {i j} + \frac {\Delta t _ {i j}}{2}; z _ {*}\right) \right],
+\mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \mathsf {B} _ {\pm} \left(\Delta t _ {i j}, \Delta h _ {i j} + \frac {\Delta t _ {i j}}{2}; z _ {*}\right) \right],
 $$
 
-where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33)and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$
+where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33)and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$.
 
 Remark 1. These formulas can be transformed, see Section 3.1.12, into a double integral of form considered in [5], Proposition 8.5 and Conjecture 13.5.
 
@@ -1004,7 +1006,7 @@ $$
 \mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \frac {\sin (\theta_ {*} (h _ {i} - h _ {j}))}{\pi (h _ {i} - h _ {j})} \right],
 $$
 
-as$r  + 0$
+as$r \to + 0$.
 
 ## 3.1.12
 
@@ -1022,13 +1024,13 @@ $$
 | w - 1 | \lessgtr e ^ {- \tau / 4 - \chi / 2},
 $$
 
-in the definition of$\mathtt { B } _ { \pm } ( k , l ; z _ { * } )$by an extra integral. We obtain
+in the definition of$\mathsf { B } _ { \pm } ( k , l ; z _ { * } )$by an extra integral. We obtain
 
 $$
 \mathsf{B}_{\pm}(k,l;z_{*}) = \frac{1}{(2\pi i)^{2}}\iint_{\substack{|w| = e^{-\tau /2}\\ |z| = e^{\tau /4 + \chi /2}}}\frac{z^{-k - 1}w^{-l - 1}}{1 - z + zw}  dz  dw  ,\tag{36}
 $$
 
-where the plus sign corresponds to$k \geq 0$
+where the plus sign corresponds to$k \geq 0$.
 
 ## 3.1.13
 
@@ -1090,7 +1092,7 @@ $$
 
 This parametrization is manifestly symmetric in x, y, and z. However, it involves integrals that are more complicated to evaluate than the parametrization (38).
 
-Note that the shape considered in [3] difers from our by a factor of 2 due to diferent scaling conventions.
+Note that the shape considered in [3] differs from our by a factor of 2 due to different scaling conventions.
 
 ## 3.2 Universality
 
@@ -1118,7 +1120,7 @@ $$
 \int^ {(2)} = \frac {1}{2 \pi i} \int_ {\gamma_ {\pm}} \frac {d w}{w ^ {\Delta x + 1}},
 $$
 
-which leads to the discrete sine kernel in the variable$\Delta x$
+which leads to the discrete sine kernel in the variable$\Delta x$.
 
 ## 3.2.4
 
@@ -1164,7 +1166,7 @@ $$
 
 ## 3.2.6
 
-Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume N as$N  \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
+Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume N as$N \to \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
 
 ## 3.2.7
 
@@ -1188,7 +1190,7 @@ Recently, the techniques of this paper were used in [7] to prove that, indeed, t
 
 ## A Summary of the infinite wedge formulas
 
-Let the space V be spanned by k,$k \in \mathbb { Z } + \frac { 1 } { 2 }$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
+Let the space V be spanned by$\underline { k }$,$k \in \mathbb { Z } + \frac { 1 } { 2 }$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
 
 $$
 v _ {S} = \underline {{s _ {1}}} \wedge \underline {{s _ {2}}} \wedge \underline {{s _ {3}}} \wedge \dots ,
@@ -1262,7 +1264,7 @@ $$
 
 [2] R. Burton and R. Pemantle, Local characteristics, entropy and limit theorems for spanning trees and domino tilings via transfer-impendances, Ann. Prob. 21 (1993), 1329–1371.
 
-[3] R. Cerf and R. Kenyon, The low-temperature expansion of the Wulf crystal in the 3D Ising model, preprint (2001).
+[3] R. Cerf and R. Kenyon, The low-temperature expansion of the Wulff crystal in the 3D Ising model, preprint (2001).
 
 [4] H. Cohn, N. Elkies, and J. Propp, Local statistics for random domino tilings of the Aztec diamond, Duke Math. J. 85 (1996), no. 1, 117–166.
 
@@ -1282,7 +1284,7 @@ $$
 
 [12] S. Karlin and G. McGregor, Coincidence probabilities, Pacific J. Math 9 (1959), 1141–1164.
 
-[13] R. Kenyon, Local statistics of lattice dimers, Ann. Inst. H. Poincar´e, Prob. et Stat. 33 (1997), 591–618.
+[13] R. Kenyon, Local statistics of lattice dimers, Ann. Inst. H. Poincaré, Prob. et Stat. 33 (1997), 591–618.
 
 [14] R. Kenyon, The planar dimer model with a boundary: a survey, to appear in Proceedings CRM.
 
