@@ -640,7 +640,7 @@ $$
 
 ## 2.3.6
 
-In order to make a better connection with the geometry of 3D diagrams, let us introduce a diferent encoding of diagrams by subsets in the plane. Given a plane partition
+In order to make a better connection with the geometry of 3D diagrams, let us introduce a different encoding of diagrams by subsets in the plane. Given a plane partition
 
 $$
 \pi = (\pi_ {i j}), \quad i, j = 1, 2, \ldots ,
@@ -670,7 +670,7 @@ $$
 \widetilde {\mathfrak {S}} (\pi) \subset \mathbb {Z} \times \frac {1}{2} \mathbb {Z}
 $$
 
-is precisely the set of the centers of the horizontal tiles. It is also clear that if λ(t) corresponds to the diagram π, then
+is precisely the set of the centers of the horizontal tiles. It is also clear that if $\{ \lambda ( t ) \}$ corresponds to the diagram π, then
 
 $$
 (t, h) \in \widetilde {\mathfrak {S}} (\pi) \Leftrightarrow (t, x + | t | / 2) \in \mathfrak {S} (\{\lambda (t) \}).
