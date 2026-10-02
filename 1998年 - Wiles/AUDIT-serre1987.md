@@ -108,3 +108,11 @@
 - 核对：cas (i)/(ii) 衔接句、J 在 Z_p 上延拓句（[35] prop. 3.3.2）、(2.8.6) 0 → A → J → B → 0、A/B étale 与 multiplicatif 句、R 上两条正合列（0 → Z/pZ → J → μ_p → 0 与 0 → μ_p → J → Z/pZ → 0）、scindée 句（Z/pZ ⊕ μ_p）、Kummer 类 u ∈ R*/R*^p、ρ_p|I ~ (χ *; 0 1)、K_t(u^{1/p}) 句与 Fontaine [15] th. 1、prop. 3 两情形 (a)（Raynaud [35] th. 2.4.3）/(b)。
 - 结果：FAIL。两处已依原图修复：① “des racines **p-èmes** de l'unité” 修为印刷的 “p-ièmes”（丢 i）；② (b) 情形矩阵印刷为 (χ *; 0 1)（300 dpi 裁片确认左上为 χ 带波浪尾，与 p.188 Remarques (1) 的斜体 x 不同），Markdown 写成 x，修为 χ。其余公式与序列方向全部吻合。
 - 备注：该段 Q_p/Z_p 在 Markdown 部分为非粗体（$Q_{p}$、$Z_{p}$），与印刷粗体体例不一，对象同一，排版级不改（p.011 已登记同类差异）；页眉 “190 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 (b) 段句末，2.9 节属印刷 p.191。
+
+## p.013（PDF p.13 / 印刷 p.191）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p013.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p013_rhoI_sign.png`、`audit/300dpi/serre1987_p013_nu_valuation.png`（pnggray）。
+- 核对：2.9 节标题（E semi-stable、j_E、E_p）、ρ_p: G_p → Aut(E_p) ≃ GL₂(F_p)、(2.9.1) k ≡ 2 mod(p−1)、semi-stable 限定句、PROPOSITION 5 (i)(ii) 与 k 分段（v_p(j_E) divisible par p / sinon）、v_p 正规化括注、bonne réduction 句、Tate 模型段与正合列 0 → μ_p → E_p → Z/pZ → 0、ρ_p|I ≃ (χ *; 0 1)、q_E 恒等式 j_E = q_E^{-1} + 744 + 196884 q_E + …、K = K_t(q_E^{1/p}) 与 v_p(q_E) = −v_p(j_E) 句、Remarques (1) 首句至 “Posons m =”。
+- 结果：PASS。公式、分段、正合列、q_E 展开系数（744、196884）全部与印刷吻合。
+- 备注：d'où 后 ρ_p|I 连接号 300 dpi 确认为 ≃，Markdown \simeq 一致；valuation 记号 300 dpi 确认印刷为拉丁 v_p（非希腊 ν），Markdown $v_{p}$ 一致（p.012 条目中核对栏写 “ν_p” 系签认笔误，本页起统一以 v_p 为准，md 无需改动）；印刷 “i.e. a, soit bonne réduction…” 的 “a,” 为印刷原文 quirk，Markdown 忠实保留；196884 在 Markdown 为 “1 9 6 8 8 4” 数字带空格，渲染可读，排版级不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 191” 未收入 Markdown，排版级。印刷页止于 “Posons m =”，Remarques (1) 余部属印刷 p.192。
