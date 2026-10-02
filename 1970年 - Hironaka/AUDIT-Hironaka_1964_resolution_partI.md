@@ -225,3 +225,11 @@
 - 证据：源 PDF p.030 文本层、页图 `audit/Hironaka_1964_resolution_partI_p030.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p030_stability_and_I.png` 与 MinerU Markdown 第 469–485 行。脚注 18–19、singularity character `s_x(X/Y)`、性质 (1) 的比较关系、性质 (2) 的 `i ≥ r` 等号方向及 Question (D*) 起始段逐项对应；图像确认文本层丢失的上/下标和不等号方向未进入 Markdown。
 - 备注：印刷运行页眉和页码 137 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.031 / 96（印刷 p.138）— FAIL
+
+- 时间：2026-10-02 01:30 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.031 文本层、页图 `audit/Hironaka_1964_resolution_partI_p031.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p031_theorem_I_star.png` 与 MinerU Markdown 第 485–515 行。印刷 `main theorem I`（上一节定理的引用）为罗马大写 I，Markdown 第 493 行写成数字 `1`。Question (D*) 的映射、限制及严格下降式与本页对应。
+- 源级 print quirk：MAIN THEOREM I* 的条件 (b) 在印刷中写成 `X_r`，虽周围索引为 `i`；Markdown 同样写 `X_r`，忠实保留原页，不擅自改成 `X_i`。
+- 备注：印刷运行页眉与页码 138 未录入 Markdown，属导航元素省略。
+- 结论：定理编号误录列为 FAIL；条件 (b) 的 X_r 保留并列入源级 quirk。
