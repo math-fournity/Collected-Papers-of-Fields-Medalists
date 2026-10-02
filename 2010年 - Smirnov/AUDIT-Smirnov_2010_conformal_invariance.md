@@ -33,3 +33,9 @@
 - 核对：目录续 §7（7.1–7.3）、§8（8.1–8.5）及页码；§1 Introduction 开篇（Lenz-Ising 史、[Len20]/[Isi25]/[Hei28]/[Pei36]/[KW41a, KW41b]）；公式 Hamiltonian E_Λ(σ) ∶= −∑_{x∼y} σ_x σ_y、µ_{β,Λ}(σ) ∶= e^{−βE_Λ(σ)}/Z_{β,Λ}、Z_{β,Λ} ∶= ∑_{σ̃∈{−1,1}^Λ} e^{−βE_Λ(σ̃)}；页脚印刷页码 2。
 - 结果：FAIL——MD 无任何对应段（整文档错源为 Arnlind 等），以原图为准。
 - 备注：文本层与 PNG 双通道一致；公式中 ∶= 冒号等号、下标 β,Λ 与指数 −βE_Λ(σ) 印刷清晰，后续重导出时按此对账。
+
+## p.003（PDF p.3 / 印刷 p.3）
+- PNG：audit/p003.png（pngmono 150dpi）
+- 核对：Figure 1（三幅 Ising 构型图，pngmono 下呈半调网纹）及图注 "Ising configurations at β < β_c, at β = β_c, and β > β_c respectively."；Onsager/Yang/McCoy-Wu/Lieb-Baxter/Fisher-Kasteleyn/Kac-Ward 历史段；脚注 1（"This result represented a shock for the community…"）；引文 [Ons44][KO50][Yan52][MW73][Pal07][Lie67, Bax89][Fis66, Kas61][KW52][She60][Vdo65][DZM+99, Cim10][Fis98]；页脚印刷页码 3。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：Figure 1 为位图插图，pngmono 150dpi 下仅见网纹属正常二值化现象；后续 MinerU 重导出需保留该图并抽 300dpi 复核图注 β 关系方向。
