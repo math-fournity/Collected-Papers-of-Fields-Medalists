@@ -135,3 +135,9 @@
 - 核对：Edwards-Sokal 证明续——P̃[(ω̃,σ̃)] = e^{−2βr(σ̃)} p^{o(ω̃)}(1−p)^{a−o(ω̃)−r(σ̃)} / Z^f_{β,p} = p^{o(ω̃)}(1−p)^{c(ω̃)} / Z^f_{β,p}（a 为边数、r(σ̃) 为异自旋相邻边数）；P = P̃ 与 marginal 结论（◻）；coupling 双向随机程序段；wired boundary conditions 给 + boundary conditions 段；Corollary 3.9——µ^f_{β,G}[σ_xσ_y] = φ^0_{p,2,G}(x ↔ y)、µ^+_{β,G}[σ_x] = φ^1_{p,2,G}(x ↔ ∂G)、β_c = −½ ln[1−p_c(2)]、"We leave the proof as an exercise."（◻）；φ^1_{p,2}/φ^0_{p,2} extremal 与唯一性论证段（[Wer09]、p_c = p_sd、self-dual point √2/(1+√2)）；Proposition 3.10——p_c = √2/(1+√2) 处唯一 infinite-volume FK-Ising measure 且 a.s. 无 infinite cluster、对应 β_c 处唯一 spin Ising measure；页脚印刷页码 19。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：两处 ½/√2 分数根号 PNG 印刷清晰（文本层拍平为 12、2）；(x ↔ y)/(x ↔ ∂G) 的双箭头记号为对账锚点。
+
+## p.020（PDF p.20 / 印刷 p.20）
+- PNG：audit/p020.png（pngmono 150dpi）
+- 核对：Proposition 3.10 Proof——φ^0_{p_sd,2} 无 infinite cluster（Exercise 3.6）、star-connected circuit（八邻域）、µ^f_{β_c} restricted to box 随机占优 µ^+_{β_c}、µ^f_{β_c} ≥ µ^+_{β_c}、结论 φ^0_{p_sd,2} = φ^1_{p_sd,2} 与 µ^−_{β_c} = µ^f_{β_c} = µ^+_{β_c}（◻）；Remark 3.11（integer q ≥ 2 与 Potts models、FKG 可用性对比）；§3.3 Loop representation of the FK-Ising model and fermionic observable 标题；FK Dobrushin boundary conditions（wired on ∂_ba、free on ∂_ab、φ^a,b_{Ω_δ,p} 记号）；dual boundary arcs ∂_ba^⋆/∂_ab^⋆ 与 FK-Dobrushin domain (Ω◇_δ, a_δ, b_δ) 两条 bullet；Remark 3.12；loop configuration 构造起头；页脚印刷页码 20。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷错字登记（忠实保留、不改）——FK-Dobrushin domain 第二条 bullet 原文作 "medial sites a_δ, b_δ ∈ Ω◇_δ between arcs ∂_ba an ∂_ab^⋆"，"an" 系 "and" 脱字，文本层与 150dpi PNG 双通道一致，重导出时须按原样保留。∂ 的下标 ab/ba 与上标 ⋆ 堆叠继续为对账重点。
