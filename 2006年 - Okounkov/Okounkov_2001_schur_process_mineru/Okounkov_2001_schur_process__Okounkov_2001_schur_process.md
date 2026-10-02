@@ -754,7 +754,7 @@ remain fixed. This limit is easy to obtain by a combination of residue calculus 
 
 ## 3.1.4
 
-We have the following$r  + 0$asymptotics:
+We have the following$r \to + 0$asymptotics:
 
 $$
 \ln (z; q) _ {\infty} \sim r ^ {- 1} \int_ {0} ^ {z} \frac {\ln (1 - w)}{w} d w = - r ^ {- 1} \mathrm{dilog} (1 - z),\tag{28}
@@ -766,7 +766,7 @@ $$
 \operatorname{dilog} (1 - z) = \sum_ {n} \frac {z ^ {n}}{n ^ {2}}, \quad | z | \leq 1,
 $$
 
-analytically continued with a cut along$( 1 , + \infty )$
+analytically continued with a cut along$( 1 , + \infty )$.
 
 Introduce the following function
 
@@ -774,9 +774,9 @@ $$
 S (z; \tau , \chi) = - (\tau / 2 + \chi) \ln z - \mathrm{dilog} (1 - 1 / z) + \mathrm{dilog} (1 - e ^ {- \tau} z)
 $$
 
-and recall that we made the assumption that$\tau \geq 0$. The function$S ( z ; \tau , \chi )$ is analytic in the complex plane with cuts along$( 0 , 1 )$and$( e ^ { \tau } , + \infty )$
+and recall that we made the assumption that$\tau \geq 0$. The function$S ( z ; \tau , \chi )$ is analytic in the complex plane with cuts along$( 0 , 1 )$and$( e ^ { \tau } , + \infty )$.
 
-As$r  + 0$, the exponentially large term in the integrand in (26) is
+As$r \to + 0$, the exponentially large term in the integrand in (26) is
 
 $$
 \exp \left(\frac {1}{r} (S (z; \tau , \chi) - S (w; \tau , \chi))\right).\tag{29}
