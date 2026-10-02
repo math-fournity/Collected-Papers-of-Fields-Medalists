@@ -437,3 +437,10 @@
 - 证据：源 PDF p.060 文本层、页图 `audit/Hironaka_1964_resolution_partI_p060.png`（pngmono 150dpi）与 MinerU Markdown 第 1011–1033 行。嵌入概形的 strict transform 图、strict-transform 定义、中心与变换的配对约定、Definition 6 的 permissible 数据条件及脚注 34 均对应印刷页。Definition 6 的叙述行 1025 在印刷中使用 `\mathfrak{R}_{\mathrm{I}}^{N,n}`/`\mathfrak{R}_{\mathrm{II}}^N`，Markdown 使用普通 `R`；紧邻的数学式仍使用花体标识，属不改变指代的正/花体混排（PASS±）。
 - 备注：印刷定义 strict transform 时先写 `X' - g^{-1}(B)`，后在括号中写 `X' - f^{-1}(B)`；Markdown 原样保留此印刷用法。运行页眉和页码 167 未录入 Markdown。
 - 结论：未发现正文内容差异；datum 标识字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.061 / 96（印刷 p.168）— FAIL
+
+- 时间：2026-10-02 04:04 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.061 文本层、页图 `audit/Hironaka_1964_resolution_partI_p061.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p061_definition7_formulas.png` 与 MinerU Markdown 第 1035–1091 行。Definition 6 restrictions、Definition 7 的 datum 变换、矩阵中新增系数、`a_{\alpha+1}=(\sum_{B\subseteq E_i}a_i)+\nu-b` 及脚注 35 正文均与印刷页相符。但 Markdown 第 1081–1089 行在完整脚注 35（第 1091 行）之外另含 5 个脚注式碎片：独立的 `f:X'\to X`、`X'`、`X' (or, by f)` 与 `f^{-1}(B)` 等；这些片段在印刷页无对应独立内容，是脚注 35 的重复/截片伪影。
+- 备注：正文在印刷页末以断词 `permis-` 续至下一页，Markdown 同样在第 1079 行保留断词；页脚 35 的完整内容仍在第 1091 行。印刷运行页眉和页码 168 未录入 Markdown。
+- 结论：MinerU Markdown 多出 5 条脚注式变量碎片，列为 FAIL；待全篇审计结束后以 Edit 逐处清理，保留完整脚注 35。
