@@ -542,3 +542,10 @@
 - 证据：源 PDF p.075 文本层、页图 `audit/Hironaka_1964_resolution_partI_p075.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p075_gr_I_module_formulas.png`，并比对 MinerU Markdown 第 1441–1469 行。印刷的 `\mathrm{gr}_{I}` 下标为罗马大写 I；Markdown 第 1441 行一次、第 1463 行四次共 5 处写成数字下标 `1`（如 `\mathrm{gr}_{1}(A)`、`\operatorname{gr}_{1}^{0}(M)`）。Lemma 2 的等价条件、canonical homomorphism、graded-module corollary 和直接和论证的其余陈述/公式对应原页。
 - 备注：印刷运行页眉和页码 182 未录入 Markdown，属导航元素省略。
 - 结论：5 处 graded algebra/module 标识将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.076 / 96（印刷 p.183）— FAIL
+
+- 时间：2026-10-02 04:52 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.076 文本层、页图 `audit/Hironaka_1964_resolution_partI_p076.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p076_maps_and_footnote39.png` 与 MinerU Markdown 第 1471–1509 行。印刷的自然包含为 $P^m \to m^m$，Markdown 第 1477 行误作 $P^n \to m^m$。α 映射印刷域为 $\mathrm{gr}_{\bar m}^{0}(\mathrm{gr}_{P}(O))$，Markdown 第 1480 行的 formula 被拆坏，漏掉内层 $\mathrm{gr}_{P}(O)$ 的结构并损坏括号。β 映射印刷为 $\mathrm{gr}_{m}(O) \to \mathrm{gr}_{\bar m}(\bar O)$，Markdown 第 1486 行两处都把大写环符号 $O$ 录成数字 $0$；β* 映射的 source domain 为 $\mathrm{gr}_{\bar m}^{-}(\bar O)$，Markdown 第 1492 行漏掉 $m$ 的横线。其余自然映射、参数系、商环多项式表示、ψ 映射及正文说明均与原页对应。
+- 备注：脚注 39 的完整正文位于第 1509 行；第 1503、1505、1507 行还另有三个孤立碎片 `A/N`、`M/M^2`、`(N+M^2)/M^2`，为脚注正文中的重复公式片段。印刷运行页眉和页码 183 未录入 Markdown。
+- 结论：幂指数、α/β/β* 映射符号结构有多处误录，且脚注 39 前多出 3 个公式碎片，列为 FAIL；待全篇审计后逐处手工修复，保留脚注 39 完整正文。
