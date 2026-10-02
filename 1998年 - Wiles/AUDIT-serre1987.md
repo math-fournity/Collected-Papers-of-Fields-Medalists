@@ -52,3 +52,11 @@
 - 结果：PASS。公式与陈述全部吻合。
 - 印刷原文 quirk：① 印刷将逆向极限排作 “lim”（其下一行 “←”）加基线圆点 “·” 再接 F*ₚₙ（600 dpi 裁片确认无下标 n），Markdown 作 $\varprojlim$. $\mathbf{F}_{p^{n}}^{*}$，与印刷视觉一致，忠实保留、不按数学预期补下标；② (2.2.1) 后正文印刷作 “sa restriction à I”（300 dpi 裁片确认 I 无下标 t），Markdown 亦作 $I$，忠实保留。
 - 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 183” 未收入 Markdown，排版级。
+
+## p.006（PDF p.6 / 印刷 p.184）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p006.png`（pngmono，150 dpi）。
+- 核对：(2.2.4) k = 1 + pa + b、Remarques (1)(2)（含无编号式 k = 1 + b, d'où 2 ⩽ k ⩽ p）、“torsion” 段与 ρ_p = χ^a ⊗ ρ′_p、(a,b) ↦ (0, b−a)、k′ = 1 + b − a、(2.2.5) k = k′ + a(p+1)、[24],[42] 比较句、2.3 节标题与 ρ_p|I 对角矩阵、mod(p−1) 正规化句、(2.3.1)、(2.3.2) 分段定义。
+- 结果：PASS。公式、不等号方向（⩽）、分段括号、编号全部与印刷吻合；印刷中 k = 1 + b 一式无编号，Markdown 亦无编号，一致。
+- 备注：页眉 “184 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级；Remarques (2) 式内 “d'où” 在 Markdown 为 \mathrm{d}′+\text{où} 拼合，渲染可读，排版级不改。
