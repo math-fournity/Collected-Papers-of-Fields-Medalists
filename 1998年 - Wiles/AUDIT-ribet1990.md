@@ -56,3 +56,11 @@
 - 印刷原文 quirk：归一化映射印刷即为 "∪ 𝒟_j"（用 ∪ 表不相交并），MD 原有 \cup 忠实保留，不改为 ⨿/⊔。
 - 备注：P_k、P⁰ 印刷为粗斜体，MD 拍平为普通斜体（字母正确，排版级，登记不改）；𝒞_k 在 L161 作 \mathcal{C}_k、L167 作 \mathscr{C}_k，为 mineru 既有混排（均指同一花体字形，不误导，保留现状）。
 - 结果：FAIL（8 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.007（PDF p.7 / 印刷 p.436）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:35 -0400。
+- PNG：`audit/ribet1990_p007.png`（pngmono，150 dpi）。
+- 核对：H₁(𝒢̄, Z) ≈ Z^𝒮；非典范包含 X ⊂ Z^𝒮（式 (1)）；度映射 Z^𝒯 → Z；Proposition 2.2（α: Z^𝒮 → D，α(i)=j₁(i)−j₂(i)，[11] §12.4）；Φ=连通分支群、Albanese、monodromy pairing (11.5.2b)、Y → X*、Φ ≈ coker(u) [loc. cit.]；Picard-Lefschetz 公式引入与 Θ-polarization P ≈ Alb(C)；Theorem 2.3 陈述与 Proof（Théorème 12.5 of [11]，□）✓。
+- 发现并当场修复（均据 150 dpi 页图，上标集合字形 𝒮 与 p.006 300 dpi 裁片同款花体 S）：①L202 𝒢̄ 拍平为 $\bar{G}$；②L205/211/214/223 四处上标 \mathcal{I}→\mathcal{S}；③L254 "edges of G"→𝒢、"$Z^{J}$"→$\mathbf{Z}^{\mathcal{S}}$；④L256 Theorem 2.3 三处 "$Z^{I}$"→$\mathbf{Z}^{\mathcal{S}}$。
+- 备注：Proposition 2.2 前后印刷 D 为粗斜体、正文 X/Y/P/Φ 斜粗体拍平为普通体（字母与结构正确，排版级，登记不改）。
+- 结果：FAIL（7 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

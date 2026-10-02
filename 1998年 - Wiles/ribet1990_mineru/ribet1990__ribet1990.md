@@ -199,19 +199,19 @@ $$
 
 For each  $i \in \mathcal{S}$ , choose an orientation of the corresponding edge of $\mathcal{G}$, i.e., an
 
-ordering  $\{j_{1}(i), j_{2}(i)\}$  of the two components which pass through i. The resulting orientation of the edges of  $\bar{G}$  determines an isomorphism
+ordering  $\{j_{1}(i), j_{2}(i)\}$  of the two components which pass through i. The resulting orientation of the edges of  $\bar{\mathcal{G}}$  determines an isomorphism
 
 $$
-H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}) \approx \mathbf {Z} ^ {\mathcal {I}}.
+H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}) \approx \mathbf {Z} ^ {\mathcal {S}}.
 $$
 
 from which we deduce a non-canonical inclusion
 
 $$
-X \subset \mathbf {Z} ^ {\mathcal {I}}.\tag{1}
+X \subset \mathbf {Z} ^ {\mathcal {S}}.\tag{1}
 $$
 
-To identify $X$ with a specific subgroup of $\mathbf{Z}^{\mathcal{I}}$, we let $D$ be the group of degree-0 formal integral linear combinations of elements of $\mathcal{T}$, i.e., the kernel of the degree map
+To identify $X$ with a specific subgroup of $\mathbf{Z}^{\mathcal{S}}$, we let $D$ be the group of degree-0 formal integral linear combinations of elements of $\mathcal{T}$, i.e., the kernel of the degree map
 
 $$
 \mathbf {Z} ^ {\mathcal {T}} \rightarrow \mathbf {Z}.
@@ -220,7 +220,7 @@ $$
 Proposition 2.2. The group X corresponds to the kernel of the homomorphism
 
 $$
-\alpha \colon \mathbf {Z} ^ {\mathcal {I}} \to D
+\alpha \colon \mathbf {Z} ^ {\mathcal {S}} \to D
 $$
 
 defined by
@@ -251,9 +251,9 @@ $$
 
 [loc. cit.].
 
-This isomorphism, valid more generally when P is not necessarily a Jacobian, is complemented by the Picard-Lefschetz formula ([11], §12) in the case under consideration. To state this formula, we orient the edges of G as above, and use this orientation to embed X in  $Z^{J}$ . Further, we use the  $\Theta$ -polarization  $P \approx \text{Alb}(C)$  to obtain an isomorphism  $X \approx Y$ . Via this isomorphism, u becomes a bilinear pairing on X.
+This isomorphism, valid more generally when P is not necessarily a Jacobian, is complemented by the Picard-Lefschetz formula ([11], §12) in the case under consideration. To state this formula, we orient the edges of $\mathcal{G}$ as above, and use this orientation to embed X in $\mathbf{Z}^{\mathcal{S}}$ . Further, we use the  $\Theta$ -polarization  $P \approx \text{Alb}(C)$  to obtain an isomorphism  $X \approx Y$ . Via this isomorphism, u becomes a bilinear pairing on X.
 
-Theorem 2.3. The pairing u is the restriction to X of the standard Euclidean pairing on  $Z^{I}$ . The group  $\Phi$  is the cokernel of the map  $X \to \operatorname{Hom}(X, \mathbf{Z})$  obtained from the inclusion of X in  $Z^{I}$  and the Euclidean pairing on  $Z^{I}$ .
+Theorem 2.3. The pairing u is the restriction to X of the standard Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$. The group  $\Phi$  is the cokernel of the map  $X \to \operatorname{Hom}(X, \mathbf{Z})$  obtained from the inclusion of X in $\mathbf{Z}^{\mathcal{S}}$ and the Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$ .
 
 Proof. The first statement is Théorème 12.5 of [11]. The second statement follows from the first statement, together with the isomorphism $\Phi \approx \operatorname{coker}(u)$, which is discussed above. $\square$
 
