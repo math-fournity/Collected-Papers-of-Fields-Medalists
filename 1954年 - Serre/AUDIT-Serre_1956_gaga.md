@@ -262,6 +262,13 @@
 - Checked: Proposition 21's T/T' diagram and five-lemma step; Proposition 22's definition of a flat pair, Tor exact sequences, and tensor-injection criterion.
 - Result: PASS±. The print's rightmost T(L_1)/T'(L_1) diagram marks have incomplete/stray delimiters, and the injection sentence prints E → E⊗_A B*; the 300 dpi crops confirm these print quirks and Markdown preserves them. Markdown line 896 omits the name of the homomorphism in Proposition 21, but the preceding display defines it unambiguously.
 
+### PDF p.038/43 — print p.37
+
+- Reviewed: 2026-10-02 00:48 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi maximal-ideal crop](audit/300dpi/Serre_1956_gaga_p038_maximal-ideal_300dpi.png); PDF text layer and MinerU Markdown lines 952–982.
+- Checked: Proposition 23's flat-pair transitivity argument, Remark, the local-ring setup, Proposition 24, and footnote (6).
+- Result: FAIL. Print names the maximal ideal as fraktur lowercase m; Markdown line 976 gives uppercase M. Line 978 also renders m in regular rather than fraktur type, a non-misleading style loss. The subscript/variable identity in the setup is materially wrong at line 976.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
