@@ -521,3 +521,10 @@
 - 证据：源 PDF p.072 文本层、页图 `audit/Hironaka_1964_resolution_partI_p072.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p072_Theorem_III_data_and_conditions.png` 与 MinerU Markdown 第 1322–1357 行。第二类 datum 矩阵形式、Theorem III$^N$ 的前提和结论、集合 $S$ 的定义、(1) 有限性以及 (2)(a)–(c) 的 $\nu^*$/$\tau^*$ 比较式均与印刷页对应。证明叙述中的 datum references 在 Markdown 第 1331 行用普通 `R_i`/`R_j'` 代替印刷 Fraktur `\mathfrak{R}_i`/`\mathfrak{R}_j'`，上下文指代明确，属不改变意义的正/花体混排（PASS±）。
 - 备注：印刷页在证明续段 “we can extend and replace the succession $f$ with” 处接至下一页；运行页眉和页码 179 未录入 Markdown。
 - 结论：未发现正文内容差异；datum 字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.073 / 96（印刷 p.180）— FAIL
+
+- 时间：2026-10-02 04:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.073 文本层、页图 `audit/Hironaka_1964_resolution_partI_p073.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p073_graded_formula_and_footnote38.png` 与 MinerU Markdown 第 1361–1401 行。印刷写作 `II_2^{N'}`、`II(N)`、`II_2^N`、`II(N)`；Markdown 第 1363、1365、1373 行共 4 处将 II 录为希腊字母 `\Pi`。Main Theorem III(N,n) 印刷的中心范围为 `0 \leq i < r`，Markdown 第 1367 行漏掉等号而写成 `0 < i < r`。脚注 38 的完整正文在第 1401 行，但第 1397、1399 行另有两条未见于原页的脚注式碎片 `$B_{r-1}\cong W_{r-1}$` 与 `$B_{r-1}=W_{r-1})$`。Theorem III 的其他条件、空子概形结论、Chapter II 标题及 graded-algebra 公式均已对照。
+- 备注：印刷运行页眉和页码 180 未录入 Markdown，属导航元素省略。
+- 结论：4 处 theorem II/Pi 符号误录、中心范围遗漏等号、2 条脚注式碎片，列为 FAIL；待全篇审计后逐处手工修复，并保留脚注 38 完整正文。
