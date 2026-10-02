@@ -244,3 +244,12 @@
 - 核对：Theorem 6.6 陈述、Step 1 product splitting/character maps、Step 2 partial CM type construction 与 identity 起始式。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 1003 行定理中的 `a_i : (T_x,h_x) → (R_K,r_{Φ_i})` 漏箭头。第 1015 行将 `G_R ≅ \prod_{j∈J}G_j` 写成索引 `i∈J` 却仍用 `G_j`。第 1021 行的 character-lattice map `X^*(R_{K_x}) → X^*(T_x)` 漏箭头，且生成元 `e^*_{τ_0}-e^*_{\bar τ_0}` 丢失复共轭横线；同一行又把 `f_β:T_x→R_{K_x}` 写成无箭头且目标 `R_{K_β}`。两张 300dpi 裁片确认原文的箭头、指标与目标域。
+
+## p.028（PDF p.28 / 印刷 p.28）
+- 时间：2026-10-02 00:56:09 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p028.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p028_Tannakian-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p028_Motives-definitions.png`
+- 核对：Theorem 6.6 identity 收尾、Definition 6.7、Theorem 6.8、Proposition 6.9 及其 Tannakian reduction。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 1073 行把 Proposition 6.9 上下文中的 rational representation `V` 属于 `T` 误录成 `T_i`，并把 lattice `\mathbb V ⊂ V` 写成 `\mathbb V ⊂ V'`。第 1085 行把 source 中的 `A` 写成含 `\mathscr A` 的异形记号。第 1087 行的 projection `W → V` 和 quotient/surjection `T' → T` 均漏箭头。300dpi 裁片核实变量与箭头。
