@@ -165,3 +165,9 @@
 - 核对：loop representation 分布显式计算段起头；Proposition 3.17——公式 (3.9) φ^{a_δb_δ}_{Ω_δ,p}(ω) = (1/Z) x^{o(ω)} √2^{ℓ(ω)}，x = p/[√2(1−p)]、ℓ(ω) 为 loop 数、o(ω) 为 open 边数；Proof——φ = (1/Z)[p/(1−p)]^{o(ω)} 2^{k(ω)}、Dobrushin boundary conditions 自对偶（dual 为 φ^{b_δa_δ}_{Ω_δ^⋆,p⋆}）、四行根号推演（√(φ^{ab}(ω)φ^{ba}(ω⋆)) 起）、p(1−p⋆)/((1−p)p⋆) = x²、ℓ(ω) = k(ω)+k(ω⋆)−1、Z̃ = √(ZZ⋆)/[√2√(p⋆/(1−p⋆))]^{o(ω)+o(ω⋆)} 与构型无关、◻；§4 Discrete complex analysis on graphs 标题与开篇两段；页脚印刷页码 24。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：本页根号套分数密集（文本层乱码为 ¿ÁÀ 序列），PNG 逐项可辨；φ 的上标 a_δ b_δ / b_δ a_δ 堆叠与 √2 的 ℓ(ω)/k(ω) 指数是重导出对账最高风险点，建议 300dpi 抽查整段证明。
+
+## p.025（PDF p.25 / 印刷 p.25）
+- PNG：audit/p025.png（pngmono 150dpi）
+- 核对：§4.1 Preharmonic functions、§4.1.1 Definition and connection with random walks——Laplacian Δ ∶= ¼(∂²_{xx} + ∂²_{yy})、Δ_δ f(u) = ¼ Σ_{v∼u}(f(v) − f(u))；Definition 4.1——preharmonic (resp. pre-superharmonic, pre-subharmonic) 若 Δ_δh(x) = 0 (resp. ≤ 0, ≥ 0)；斜体随机游走刻画（(h(X_n)) is a martingale ⟺ preharmonic）；[Law91]、复向量空间与最大最小值原理段；§4.1.2 Derivative estimates and compactness criteria；Proposition 4.2——公式 (4.1) ∣h(x) − h(y)∣ ≤ Cδ · sup_{z∈Ω_δ}∣h(z)∣ / d(x,Ω^c)；Proof——公式 (4.2) h(x) − h(y) = E[h(X_τ) − h(Y_{τ′})]、2r = d(x,Ω^c)、U = x + [−r,r]²、X/Y coupling 两条 bullet（σ 为 [X_1,y] 垂直平分线 ℓ 的 orthogonal symmetry）；页脚印刷页码 25。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：垂直平分线记号在 PNG 中为花体 ℓ，文本层映射为反引号 `，属字体映射伪影；¼ 分数与 ∂² 上下标 PNG 印刷清晰。
