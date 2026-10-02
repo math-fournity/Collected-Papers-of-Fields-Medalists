@@ -27,3 +27,9 @@
 - 核对：题录页——标题 "Conformal invariance of lattice models"；作者 Hugo Duminil-Copin and Stanislav Smirnov；日期 November 27, 2024（arXiv v4 编译日期）；Abstract 全文；Contents §1–§6.4 与页码；左缘 arXiv:1109.1549v4 [math.PR] 21 Jun 2012 竖排水印；页脚印刷页码 1。
 - 结果：FAIL——MD（b4b2cd0… 基线）为 Arnlind–Hoppe–Huisken 另一篇论文，本页对应段（标题/摘要/目录）整文档缺失，以原图为准。
 - 备注：印刷 quirk 登记——目录 §6.2 原文作 "sub-sequential limits of FK-Ising interfaces are Loewner chains"（行首小写 s），p.43 正文节标题同式样；后续 MinerU 重导出后仍须忠实保留，不得按数学惯例改写。文本层（pdftotext -layout）与 PNG 视觉逐项一致。
+
+## p.002（PDF p.2 / 印刷 p.2）
+- PNG：audit/p002.png（pngmono 150dpi）
+- 核对：目录续 §7（7.1–7.3）、§8（8.1–8.5）及页码；§1 Introduction 开篇（Lenz-Ising 史、[Len20]/[Isi25]/[Hei28]/[Pei36]/[KW41a, KW41b]）；公式 Hamiltonian E_Λ(σ) ∶= −∑_{x∼y} σ_x σ_y、µ_{β,Λ}(σ) ∶= e^{−βE_Λ(σ)}/Z_{β,Λ}、Z_{β,Λ} ∶= ∑_{σ̃∈{−1,1}^Λ} e^{−βE_Λ(σ̃)}；页脚印刷页码 2。
+- 结果：FAIL——MD 无任何对应段（整文档错源为 Arnlind 等），以原图为准。
+- 备注：文本层与 PNG 双通道一致；公式中 ∶= 冒号等号、下标 β,Λ 与指数 −βE_Λ(σ) 印刷清晰，后续重导出时按此对账。
