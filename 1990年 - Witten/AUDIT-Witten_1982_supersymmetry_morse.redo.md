@@ -81,3 +81,8 @@
 - PNG：`audit-redo/p014.png`（pngmono 150dpi）
 - 核对：退化 Morse 情形设定段（`N_i`、Morse index `p_i`、负丛 `Λ(N_i)`）；`V(φ) = t²(dh)²` 段；`M(N_0)` 纤维丛邻域与 `d̃` 段；(30) `H_t = (d̃d̃* + d̃*d̃) + H′`；`|α(m;n)⟩` 段；Born–Oppenheimer 段开头。
 - 结果：PASS±。(30) 各项、`D^2h/Dφ^iDφ^j`、`Λ(N_0)`、`p_i`-维负丛及正文逐项与印刷页相符。排版级伪影：印刷破折号 "state |α(m; n)⟩—n denoting…" 在 md 拍平为 "⟩ - n denoting"（line 359），不误导，登记不改。跨页断点一致（line 361 末 "large energy associated"）。差异仅：页眉 "674 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.015（PDF p.15 / 印刷 p.675）
+- PNG：`audit-redo/p015.png`（pngmono 150dpi）
+- 核对：(31) `|ψ(n,m)⟩ = |χ(n)⟩ ⊗ |α(m;n)⟩`；`|χ⟩` 全局条件与 twisted cohomology 段；(32) `(d̃d̃* + d̃*d̃)|χ⟩ = λ|χ⟩`；退化 Morse 不等式与 Morse 多项式 `t^p P̄_t(N_0)` 段；双原子分子类比段。
+- 结果：PASS±。(31)–(32)、`Λ(N_0)` 可定向性条件、`H_t|ψ⟩ = λ|ψ⟩` 及正文逐项与印刷页相符。**Luna 旧修复重核：Morse 多项式指数 `t^p`（小写 p，md line 383）与印刷一致，修复正确**；`$\overline{P}$` 记号一致。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 675" 未入 md（版面信息省略）。
