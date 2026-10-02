@@ -105,3 +105,10 @@
 - 核对：(3.27) 的 $\varphi=-\int_0^\infty\chi_t\cdot\varphi'(t)t\,dt$、$\chi_t=\frac1t\chi_{[0,t]}$；Lemma 3.28 与 (3.29) 的 $\int|\varphi'(x)||x|dx$ 权重；熵数定义段（$\mathrm M_\lambda(\mathbf A)$、$\mathrm M_\lambda=0$ if $\mathrm{diam}\,\mathbf A<\lambda$）；Lemma 3.30 与 (3.31) 的 $c_\varphi(s-2)^{-1}$、$\mathbf C_\varphi=\int|\varphi'(x)||x|dx$；(3.32) 与 $t_j$ min 定义；正交基展开显示式（$[\sum_\alpha\|\{f_\alpha*\varphi_t\}\|^2]^{1/2}$ 链）；Lemma 3.33 与 (3.34) 的 $c'_\varphi(\log K)^2$；证明开头 $f_\alpha^*$ 定义。文本层 + 150dpi 原页图双通道，对 Markdown 第 529–597 行。
 - 结果：PASS±。全部公式、常数大小写（(3.31) 的小写 $c_\varphi$ 对 where 行的大写 $\mathbf C_\varphi$）与文字均与原页一致，未发现 Markdown 内容偏差。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 16。与 Luna 旧审（p.013 PASS±）结论一致，无修复。
 - 时间：2026-10-02 17:46 EDT 落签
+
+## p.014（PDF p.14 / 印刷 p.17）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p014.png`（Ghostscript `pngmono`，150dpi；原 PDF p.14）
+- 核对：(3.35) 的 $c_\varphi\|f_\alpha\|_2$；(3.36) 的 $\mathrm F=[\Sigma(f_\alpha^*)^2]^{1/2}$；min$(\mathrm K,\mathrm M_\lambda(x))^{1/2}$ 两行估计（积分限 $K^{-1/s}F(x)$ 至 $F(x)$、$K^{1/2-1/s}$、$\sup_{\lambda>0}\lambda\cdot M_\lambda(x)^{1/s}$）；“(3.34) follows … letting $\frac12-\frac1s=(\log K)^{-1}$”；§4 标题与开头两段；$\Pi=\mathbf R/\mathbf Z$ 约定；Lemma 4.1 与 (4.2) 的 $\min_{1\leqslant k\leqslant K}|\lambda-\lambda_k|\leqslant2^{-j}$、Then、(4.3) 的 $\ell^2(\mathbf Z)$ 范数与 $C(\log K)^2$；Remark；$\mathcal F$ 约定段。文本层 + 150dpi 原页图双通道，对 Markdown 第 599–635 行。
+- 结果：PASS±。全部公式与文字与原页一致；Markdown 中的粗体/罗马 $\mathrm K$ 与原页 K 字形风格差异不误导（Luna 旧审已登记同类字形注记）。原页右下角有一孤立印刷数字 3（页边杂标），与运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS”、印刷页码 17 一同未入 Markdown，属版面件缺录。与 Luna 旧审（p.014 PASS±）结论一致，无修复。
+- 时间：2026-10-02 17:58 EDT 落签
