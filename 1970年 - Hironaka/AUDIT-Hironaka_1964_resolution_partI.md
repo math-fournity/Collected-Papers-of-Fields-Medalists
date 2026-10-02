@@ -218,3 +218,10 @@
 - 证据：源 PDF p.029 文本层、页图 `audit/Hironaka_1964_resolution_partI_p029.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p029_theorem_I.png` 与 MinerU Markdown 第 455–469 行。normal-flatness 定义中的 `gr_D^p(X)`、`J^p/J^{p+1}`、`O_{D,x}` 及命题 (I)、(II) 与原页相符；第 467 行的 `main theorem 1` 对应印刷的罗马大写 `main theorem I`，属定理编号误录。
 - 备注：印刷运行页眉和页码 136 未录入 Markdown，属导航元素省略。
 - 结论：定理编号 I/1 不符，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.030 / 96（印刷 p.137）— PASS±
+
+- 时间：2026-10-02 01:23 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.030 文本层、页图 `audit/Hironaka_1964_resolution_partI_p030.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p030_stability_and_I.png` 与 MinerU Markdown 第 469–485 行。脚注 18–19、singularity character `s_x(X/Y)`、性质 (1) 的比较关系、性质 (2) 的 `i ≥ r` 等号方向及 Question (D*) 起始段逐项对应；图像确认文本层丢失的上/下标和不等号方向未进入 Markdown。
+- 备注：印刷运行页眉和页码 137 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
