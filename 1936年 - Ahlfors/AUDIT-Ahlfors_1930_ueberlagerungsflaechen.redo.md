@@ -100,4 +100,16 @@
 - 与 Luna 旧记录交叉：旧修复表 p.8 行（两处 S(𝒜)→S(Δ)）经原页重核与印刷一致；公式编号 (I. 1) 的 I/1 混写系旧审计未检出项，本次修复。
 - 结果：PASS±（编号修复后与印刷一致）。
 
+### p.009（PDF p.9 / 印刷 p.165）
+
+- audited_at=2026-10-02 16:05 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p009.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p009_formel1_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 165）、Wir wollen noch zeigen 段（Δ = kleinere Teilgebiet）、Hilfssatz-Anwendung 段与公式 `Sₙ(Δ)≦k/δ(λ₀sₙ(γ)+Lₙ).`、Ebenso 段与 `1−Sₙ(Δ)≦k/δ(λ₀(1−sₙ(γ))+Lₙ).`、δ≦kλ₀ 段与两条 Max 估计（前者无标点、后者句点）、zweiter Hilfssatz 段与 `…≦k/δ(λ₀k′+1)Lₙ=\bar{k}Lₙ.`、Durch Addition 段 + 旁注「und mit Hilfe von (I. 1)」+ 双式 `|S(Δ)−s(γ)|≦\bar{k}L,` / `|S−s(γ)|≦(k+\bar{k})L.`、Die neue Konstante 段、Überdeckungssatz 2 陈述与公式 `\tag{I. 2}`、末段（Teilbogen des Randes…sehr wichtig.）。
+- 仲裁否决（登记不改）：150dpi 疑首式末为逗号；300dpi 裁片显示低圆点无下伸尾，为**句点**，MD 的「.」正确。
+- 保留登记（PASS± 排版级，不修）：①旁注「und mit Hilfe von (I. 1)」在印刷中位于第二式左侧，MD 置为独立段落置于双式 array 之前——阅读顺序仍通顺，内容无缺，不重构；②Überdeckungssatz 2 陈述整段斜体丢失（系统性）。
+- 加分核验：本页多处印刷新常数记号 **k̄**（k 上划线）在 MD 中均正确保留为 `\bar{k}`；旁注 (I. 1) 与 Überdeckungssatz 2 的 (I. 2) 编号交叉印证 p.008 的 `\tag{I. 1}` 修复方向正确。
+- 与 Luna 旧记录交叉：旧修复表 p.9 行（还原 S(Δ)/Sₙ(Δ) 与五个数字 1）经原页重核与印刷一致（本页 1 的字形为旧式数字，均转写正确）。
+- 结果：PASS±（无内容修复项；旁注位置与斜体缺失登记保留）。
+- 页界：本页印刷止于「…sehr wichtig.」（MD 行 247 吻合）；「## § 3. Die Charakteristik.」起为 p.010 内容。
+
 <!-- redo-tail -->
