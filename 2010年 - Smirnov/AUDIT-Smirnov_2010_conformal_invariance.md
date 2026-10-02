@@ -291,3 +291,9 @@
 - 核对：Figure 14（左：event A_6(x,r,R) 与 alternating open/closed paths；右：矩形 R_T、R_R、R_B、R_L 被 closed paths 沿长边穿过，标注 [−n,n]² 与 [−2n,2n]²）及图注；Lemma 6.3 Proof——四矩形 R_B = [−2n,2n]×[−n,−2n]、R_L = [−2n,−n]×[−2n,2n]、R_T = [−2n,2n]×[n,2n]、R_R = [n,2n]×[−2n,2n]（Theorem 3.16，Section 7.2 预引）、aspect ratio 4、closed path 概率 ≥ c_1、FKG inequality (3.2) ⟹ circuit 概率 ≥ c_1⁴、crossing 概率 ≤ c = 1 − c_1⁴ < 1（◻）；Proof of Theorem 6.1——公式 (6.1) φ^{a_δb_δ}_{Ω_δ,p_sd}(A_{2k}(x; r, 2r)) ≤ c^k（c < 1 一致）、alternating open/dual paths 论证、 successive conditionings、≤ [φ^1_{p_sd,S_{r,2r}(x)}(E(x; r, 2r))]^k、固定 k 使 c^k < 1/8、annulus 分解为 ln_2(R/r) 个 S_{r,2r}、公式 (6.2) φ(A_{2k}(x; r, R)) ≤ (r/R)³；页脚印刷页码 45。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷错字登记（忠实保留、不改）——"Using Lemma 6.3, φ… ≤ c < 1 and and (6.1) follows." 中 "and and" 连写为原文重复（文本层与 PNG 双通道一致）；(6.1)/(6.2) 编号齐全；R_B/R_L/R_T/R_R 与 [−2n,2n] 记号为对账锚点。
+
+## p.046（PDF p.46 / 印刷 p.46）
+- PNG：audit/p046.png（pngmono 150dpi）
+- 核对：Theorem 6.1 Proof 收尾（Theorem 6.2 ⟹ (γ_δ) tight，◻）；§6.2 sub-sequential limits of FK-Ising interfaces are Loewner chains 标题（行首小写 sub-sequential，与 p.1 目录 quirk 同源，正文证实）；h-capacity / time-changed Loewner chain 定义段（Beffara's course 引用）；Theorem 6.4——(γ_δ)_{δ>0} 的任一 sub-sequential limit 是 time-changed Loewner chain；非自交曲线三条件刻画（h-capacity 连续、严格递增、curve grows locally seen from infinity——g_s 为 Ω_s 到 ℳ hydrodynamical renormalization 的共形映射，PNG 花体 ℳ）；six arm event Δ_6 > 2、universal exponents、5-arm exponent = 2、Δ_6 > Δ_5 = 2 论述；Kemppainen-第二作者结构定理引出；Condition (⋆) 完整陈述（C > 1、Δ > 0、0 < δ < r < R/C、stopping time τ、annulus S_{r,R}(x) 不含 γ_τ、概率 < C(r/R)^Δ，Fig. 15 引用）；页脚印刷页码 46。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷 quirk 登记——§6.2 节标题行首 "sub-sequential" 小写（p.1 目录已登记，本页正文节标题同式样）；(⋆) 星号条件记号与斜体强调 "while it is not forced to enter S_{r,R}(x) again" 为对账锚点。
