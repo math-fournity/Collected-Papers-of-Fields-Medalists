@@ -430,3 +430,10 @@
 - 证据：源 PDF p.059 文本层、页图 `audit/Hironaka_1964_resolution_partI_p059.png`（pngmono 150dpi）与 MinerU Markdown 第 969–1009 行。Definition 5 中 (I.1)、(I.2)、(II.1) 三种带 restriction 的 datum、闭/开 restriction 条件及四类 datum 的归纳角色说明，与单项变换的 universal mapping property、`\operatorname{Proj}(S(I))` 及直和 `\sum_{m=0}^{\infty} I^m` 构造、脚注 33 均对应印刷页。正文叙述处 Markdown 第 977、989、997 行将印刷的 `\mathfrak{R}` 写作普通 `R`；上下文中的 datum 指代明确，属不改变意义的正/花体混排（PASS±）。
 - 备注：印刷运行页眉和页码 166 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.060 / 96（印刷 p.167）— PASS±
+
+- 时间：2026-10-02 04:01 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.060 文本层、页图 `audit/Hironaka_1964_resolution_partI_p060.png`（pngmono 150dpi）与 MinerU Markdown 第 1011–1033 行。嵌入概形的 strict transform 图、strict-transform 定义、中心与变换的配对约定、Definition 6 的 permissible 数据条件及脚注 34 均对应印刷页。Definition 6 的叙述行 1025 在印刷中使用 `\mathfrak{R}_{\mathrm{I}}^{N,n}`/`\mathfrak{R}_{\mathrm{II}}^N`，Markdown 使用普通 `R`；紧邻的数学式仍使用花体标识，属不改变指代的正/花体混排（PASS±）。
+- 备注：印刷定义 strict transform 时先写 `X' - g^{-1}(B)`，后在括号中写 `X' - f^{-1}(B)`；Markdown 原样保留此印刷用法。运行页眉和页码 167 未录入 Markdown。
+- 结论：未发现正文内容差异；datum 标识字体混排及运行页眉/页码省略记为 PASS±。
