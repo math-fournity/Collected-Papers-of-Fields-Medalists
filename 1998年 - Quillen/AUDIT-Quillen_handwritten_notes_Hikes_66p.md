@@ -532,3 +532,14 @@
 - 页面边界：本页止于 `BGL(A)=\bigcup F_\alpha` 及 ` [X,BGL(A)]=\lim_alpha[X,F_\alpha]`；Markdown 第 1853 行起的自然变换极限计算属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复有限子复形极限、`F_0/Ω_5` 与 `π_1` 商群论证。
 - 记录：2026-10-02 04:15:43 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.051（PDF p.51 / 纸面圈号 51）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p051.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p051_natural-transformations.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p051_perfect-subgroup.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p051_representation-groups.png`。
+- 核对：`BGL(A)^+` 的胞并及有限复形映射集极限；自然变换的 Yoneda/有限子复形公式；由 `π_1Z` 无非平凡 perfect 子群推出表示域映射的同伦类比较；有限 `X` 的 `π_1X` 与 `R'` 表示群。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图页首继续给出 `BGL(A)^+=\bigcup_\alpha(F_\alpha\cup_{F_0}F_0^+)` 和 `[X,BGL(A)^+]=\lim_\alpha[X,F_\alpha\cup_{F_0}F_0^+]`；这两式在 Markdown p.51 对应段缺失。随后 Nat.Trans 的公式原图以 `\lim_\alpha Nat.Trans([X,F_\alpha],T)=\lim_\alpha T(F_\alpha)`（Yoneda）以及 `F_\alpha\cup_{F_0}F_0^+` 作另一列；基线第 1854、1858 行把 `Nat.Trans`、`T(X)`、极限指标及 Yoneda 注记拼坏。第 1862、1866 行的对象分别应为 `\lim_\alpha[F_\alpha\cup_{F_0}F_0^+,Z]` 和 `\lim_\alpha[F_\alpha,Z]`，基线把 Nat.Trans 名称与 `α` 索引拆成乱码。第 1872–1876 行应用 `π_1Z` 无非平凡 perfect 子群的条件，说明 `F_\alpha→F_\alpha\cup_{F_0}F_0^+` 诱导映射集双射；基线第 1876 行 “acyclicity of map” 被误读为 `cyclicity_2 f map`。有限 CW 假设下原图给出 `π_1X` finitely generated 和 `[X,BGL(A)]=Hom(π_1X,GL(A))`；基线第 1882 行将 `Hom`/image of finite-stage restriction 结构压坏。第 1886 行原图是 `R'(π_1X,A)→R(π_1X,A)` 及其 abelian-group/representation-monoid 解释，基线漏失 `π_1` 并把叙述拼碎。第 1890 行原图的商式末项手写为 `K_0A`，基线误成 `5a`。
+- 页面边界：本页止于 `R'(π_1X,A)` 的 quotient/`K_0A` 记号；Markdown 第 1893 行 `Exercise` 起属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片补记胞并与映射集极限、自然变换比较图及有限 `π_1X` 表示式。
+- 记录：2026-10-02 04:19:56 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
