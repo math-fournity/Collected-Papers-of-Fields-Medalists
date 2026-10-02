@@ -214,3 +214,14 @@
   7. Proof 中段："$\mathrm{X,}$one may"/"of$\mathrm{X,}$"逗号出 math；"${\mathfrak{X}}.$. "伪'.$.'；"(as X is$\mathrm{T}_0)_{\mathrm{:}}$"乱码→"(as X is$\mathrm{T}_0$)"；**"$\mathrm{U}=\mathrm{Spa}(\mathrm{R}[\frac{1}{\rho}],R)$"→"$\mathrm{Spa}(\mathrm{R}[\frac{1}{p}],\mathrm{R})$"（print 为 1/p，ρ 系 p 误读）**；"$\mathcal{\bar O}_\mathfrak{X}(\mathfrak{U})$"伪 \bar 删；"assertion.-"→"assertion.□"（QED，print 有 tombstone）（p.261 Proof 中段原图）
   8. "Spf(k°⟨T⟩))"游离右括号删除；"additional$\mathbf{p}^1_\kappa\mathrm{\tilde{s};}$"（小写 p+乱码 's;）→"additional$\mathbf{P}^1_\kappa$'s;"（print 𝐏¹_κ's）（p.261 In the example 段）
 - 备注：sp display 与 X≅lim display 本身完好；Definition 2.23 起（行 507）属印刷 p.262，留待 p.018。
+## p.018（PDF p.18 / 印刷 p.262）
+- PNG：audit/p018.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p262_closure.png（Def 2.23 closure 行）
+- 核对：页眉 262/PETER SCHOLZE；Definition 2.23 taut（closure 行）；Most natural adic spaces 段（Hellmann [17]、nontaut）；taut rigid-analytic varieties 段；Theorem 2.24 [22, Prop 8.3.1, Lemma 8.1.8]（Berkovich ≅ taut adic spaces、M(R)↦Spa(R,R^+)）；X^Berk→X^ad 注入映射段（rank-1-valuations、retraction、Hausdorff quotient）；type (1)–(4)/(2)+(5) 收缩段；fibres 段；(R,R^+) affinoid 段（k(x)、k(x)^+）；Proposition 2.25（ϖ-adic completion）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；一处遗留见第 6 条，以原图为准）：
+  1. Definition 2.23："ifit/andfor/ofU"补空格；"$\mathrm{~U~C~X~}$"伪 C→$\mathrm{U}\subset\mathrm{X}$；"the closure U of U"——**300dpi 仲裁（audit/300dpi/Scholze_2012_p262_closure.png）确认 print 两个 U 均无 overline**，print quirk 原样保留不改
+  2. Theorem 2.24 头："[22, Proposition 8.3.1, Lemma$\delta.l.\delta].-\tilde{T}here"（8.1.8 误为 δ.l.δ、There 加伪 tilde）→"[22, Proposition 8.3.1, Lemma 8.1.8]. — There"；"ofcategories"补空格（p.262 定理行原图）
+  3. "{taut adic spaces…}"前的"<sup>∼</sup>="→$\cong$（p.262 等价式）
+  4. X^Berk 段："$Let"出 math、"ofsets"→of sets、"$\mathrm{X^{Berk}␣}\ \mathrm{X^{ad}}$"缺箭头→→；"quotient$\mathrm{\Gamma_{\it 0}f X^{ad}}$"（of 乱码为 Γ₀f）→"quotient of$\mathrm{X}^{\mathrm{ad}}$."+补句点（p.262 Let X^Berk map 段）
+  5. fibres 段："$\mathrm{X^{ad}␣}\ \mathrm{X^{Berk}}$"缺箭头→→；"$k{\mathrm{-algebra}}.$,"乱码→"$k$-algebra,"；"$\mathcal{O}_{\mathrm{X},x},,$"双逗号→单（p.262 Let (R,R^+) 段）
+  6. **Proposition 2.25（部分修复+登记）**：陈述含两处 0x0b 控制字节（ϖ 丢失，print 为 "ϖ-adic completion"×2，PNG 确认）与尾部"\ o f"乱码。尾部已修："$\widehat{k(x)}^{+} \ o f k(x)^{+}$"→"$\widehat{k(x)}^{+}$of$k(x)^{+}$."+补句点。**两处 \x0b 字节本 Edit 通道无法表达（转义在匹配前被剥离，多次尝试失败），按修复协议不转用脚本，登记待后续字节级修复**：行 529 现为 "Then the \x0b-adic completion of$\mathcal{O}_{X,x}^{+}$is equal to the \x0b-adic completion…"，修复方案=将 \x0b 替换为 "$\varpi$"。
+- 备注：本页其余文字（Hellmann 段、type 收缩段）与 print 逐句吻合；Proposition 2.25 的 Proof 起于行 531（印刷 p.263），留待下一块。

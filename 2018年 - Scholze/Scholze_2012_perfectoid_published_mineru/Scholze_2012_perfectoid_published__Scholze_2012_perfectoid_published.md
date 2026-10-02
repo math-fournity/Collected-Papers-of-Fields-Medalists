@@ -504,29 +504,29 @@ We note that in order to get continuity of sp, it is necessary to use nonstrict 
 
 Now, let us state the following theorem about the comparison of Berkovich’s analytic spaces and Huber’s adic spaces. For this, we need to recall the following definition:
 
-Definition 2.23. — An adic space X over k is called taut ifit is quasiseparated andfor every quasicompact open subset$\mathrm { ~ U ~ C ~ X ~ }$, the closure U ofU in X is still quasicompact.
+Definition 2.23. — An adic space X over k is called taut if it is quasiseparated and for every quasicompact open subset$\mathrm { U } \subset \mathrm { X }$, the closure U of U in X is still quasicompact.
 
 Most natural adic spaces are taut, e.g. all affinoid adic spaces, or more generally all qcqs adic spaces, and also all adic spaces associated to separated schemes of finite type over k. However, in recent work of Hellmann [17], studying an analogue of Rapoport-Zink period domains in the context of deformations of Galois representations, it was found that the weakly admissible locus is in general a nontaut adic space.
 
 We note that one can also define taut rigid-analytic varieties, and that one gets an equivalence of categories between the category of taut rigid-analytic varieties over k and taut adic spaces locally of finite type over k. Hence the first equivalence in the following theorem could be stated without reference to adic spaces.
 
-Theorem 2.24 [22, Proposition 8.3.1, Lemma$\delta . l . \delta ] . - Tilde { T }$here is an equivalence ofcategories
+Theorem 2.24 [22, Proposition 8.3.1, Lemma 8.1.8]. — There is an equivalence of categories
 
 {Hausdorff strictly k-analytic Berkovich spaces}
 
-<sup>∼</sup>= {taut adic spaces locally of finite$\mathrm { { t y p e } } / k \}$
+$\cong$ {taut adic spaces locally of finite$\mathrm { { t y p e } } / k \}$,
 
 sending${ \mathcal { M } } ( { \mathrm { R } } )$to$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$for any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$of tft.
 
-$L e t \mathrm { X ^ { B e r k } }$map to$\mathrm { X ^ { a d } }$under this equivalence. Then there is an injective map ofsets$\mathrm { X ^ { B e r k }  }$ $\mathrm { X ^ { a d } }$, whose image is precisely the subset of rank-1-valuations. This map is in general not continuous. It admits a continuous retraction$\mathrm { X ^ { a d } \to X ^ { B e r k } }$, which identifies$\mathrm { { X ^ { B e r k } } }$with the maximal Hausdorff quotient$\mathrm { \Gamma _ { \it 0 } f X ^ { \mathrm { a d } } }$
+Let$\mathrm { X ^ { B e r k } }$map to$\mathrm { X ^ { a d } }$under this equivalence. Then there is an injective map of sets$\mathrm { X ^ { B e r k } } \to \mathrm { X ^ { a d } }$, whose image is precisely the subset of rank-1-valuations. This map is in general not continuous. It admits a continuous retraction$\mathrm { X ^ { a d } \to X ^ { B e r k } }$, which identifies$\mathrm { { X ^ { B e r k } } }$with the maximal Hausdorff quotient of$\mathrm { X } ^ { \mathrm { a d } }$.
 
 In the example above, the image of the map$\mathrm { X ^ { B e r k } \to X ^ { a d } }$consists of the points of type (1)–(4). The retraction$\mathrm { X ^ { a d } \to X ^ { B e r k } }$contracts each point of type (2) with all points of type (5) around it, mapping them to the corresponding point of type (2) in$\mathrm { { X ^ { B e r k } } }$. For any map from$\mathrm { X ^ { a d } }$to a Hausdorff topological space, any point of type (2) will have the same image as the points of type (5) around it, as they lie in its topological closure, which verifies the last assertion of the theorem in this case.
 
-Let us end this section by describing in more detail the fibres of the map$\mathrm { X ^ { a d }  }$ $\mathrm { { X ^ { B e r k } } }$. In fact, this discussion is valid even for adic spaces which are not related to Berkovich spaces. As the following discussion is local, we restrict to the affinoid case.
+Let us end this section by describing in more detail the fibres of the map$\mathrm { X ^ { a d } } \to \mathrm { X ^ { B e r k } }$. In fact, this discussion is valid even for adic spaces which are not related to Berkovich spaces. As the following discussion is local, we restrict to the affinoid case.
 
-Let (R, R<sup>+</sup>) be an affinoid$k { \mathrm { - a l g e b r a } } .$, and let$\mathrm { X = S p a ( R , R ^ { + } ) }$. We need not assume that$\mathcal { O } _ { \mathrm { X } }$is a sheaf in the following. For any$x \in \mathrm { X }$, we let k(x) be the residue field of$\mathcal { O } _ { \mathrm { X } , x } ,$, and$k ( x ) ^ { + } \subset k ( x )$be the image of$\mathcal { O } _ { \mathrm { X } , x } ^ { + }$. We have the following crucial property, surprising at first sight.
+Let (R, R<sup>+</sup>) be an affinoid$k$-algebra, and let$\mathrm { X = S p a ( R , R ^ { + } ) }$. We need not assume that$\mathcal { O } _ { \mathrm { X } }$is a sheaf in the following. For any$x \in \mathrm { X }$, we let k(x) be the residue field of$\mathcal { O } _ { \mathrm { X } , x }$, and$k ( x ) ^ { + } \subset k ( x )$be the image of$\mathcal { O } _ { \mathrm { X } , x } ^ { + }$. We have the following crucial property, surprising at first sight.
 
-Proposition 2.25. — Let$\varpi \in k$be topologically nilpotent. Then the  -adic completion of $\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is equal to the  -adic completion$\widehat { k ( x ) } ^ { + } \ o f k ( x ) ^ { + }$
+Proposition 2.25. — Let$\varpi \in k$be topologically nilpotent. Then the  -adic completion of $\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is equal to the  -adic completion$\widehat { k ( x ) } ^ { + }$of$k ( x ) ^ { + }$.
 
 Proof. — It is enough to note that kernel of the map$\mathcal { O } _ { \mathrm { X } , x } ^ { + } \to k ( x ) ^ { + }$, which is also the kernel of the map$\mathcal { O } _ { \mathrm { X } , x }  k ( x )$, is  -divisible.-
 
