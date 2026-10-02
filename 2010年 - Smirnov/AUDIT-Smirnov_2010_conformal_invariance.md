@@ -351,3 +351,9 @@
 - 核对：Proposition 7.9 Proof 收尾——φ_{p_sd,2}(0 ↔ ∂Λ_k) 多项式衰减、annuli A_n = S_{2^{n−1},2^n}(x)（n ≤ ln_2 k）、ℰ(A_n) crossing 事件、Corollary 6.3（Theorem 3.16 直接应用）φ^1_{A_n,p_sd,2}(ℰ(A_n)) ≤ c、successive conditionings 连乘 ≤ c^N、lower bound 留作 exercise（◻）；criticality 幂律 vs subcritical 指数衰减对比段、µ_{β_c}[σ_xσ_y] ∼ ∣x−y∣^{−α}（α = 1/4、critical exponent）；ratio mixing 与 Lubetzky-Sly [LS10]（Glauber dynamics mixing time 猜想）；Exercise 7.10 (Spatial mixing)——公式 (7.14) ∣φ_{p_sd,2}(A∩B) − φ(A)φ(B)∣ ≤ c(r/R)^Δ φ(A)φ(B)；§7.3 Discrete singularities and energy density of the Ising model 标题；能量密度（Theorem 2.12）与 singular observable F^{a_δ}_{Ω_δ}(z_δ)（a_δ ∈ Ω◇_δ 内点）公式 (7.15) λ·Σ_{ω∈Ɛ(a_δ,z_δ)}e^{−(1/2)iW_{γ(ω)}(a_δ,z_δ)}(√2−1)^{∣ω∣} / Σ_{ω∈Ɛ}(√2−1)^{∣ω∣}（λ 为显式复数、分母即 Z^f_{β_c,G}）；[HS10] 引出；页脚印刷页码 55。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(7.14)/(7.15) 编号齐全；(7.15) 指数 1/2 堆叠分数与 (7.15) 分母无 winding 因子的结构为对账锚点（与 p.13 Definition 2.9 对照）。
+
+## p.056（PDF p.56 / 印刷 p.56）
+- PNG：audit/p056.png（pngmono 150dpi）
+- 核对：Lemma 7.11——[xy] horizontal edge 时 λµ^f_{β_c,Ω_δ}[σ_xσ_y] = P_{ℓ(ac)}[F^{a_δ}_Ω(c)] + P_{ℓ(ad)}[F^{a_δ}_Ω(d)]（a 为 [xy] 中心、c = a + δ(1+i)/√2、d = a − δ(1+i)/√2）；discrete singularity 段——F s-holomorphic on Ω_δ∖{a_δ} 但在 a_δ 处不可定义、[HS10]、s-holomorphic Green function、preholomorphic Green functions [Ken00]、脚注 6 "i.e. satisfying the Cauchy-Riemann equation except at a certain point."；Proof of Theorem 2.12 (Sketch)——F^{a_δ}_δ/δ 在 Ω∖{a} 一致收敛、减 g^{a_δ}_{Ω_δ} 消去奇点、[F−g]/δ 收敛于显式共形映射、该映射在 a 处值为 (π/λ)φ′_a(a)（PNG 堆叠分数 π/λ；文本层拍平为 "πλ"）、F = g + δ·(1/δ)[F−g] 分解、渐近式 µ^f_{β_c,Ω_δ}[σ_xσ_y] = √2/2 − δ(1/π)φ′_a(a) + o(δ)（◻）；§8 Many questions and a few answers 标题；§8.1 Universality of the Ising model 开篇（universality、stretched square lattice 非 conformally invariant）；页脚印刷页码 56。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：π/λ 与 (1/π)φ′_a(a) 的分数结构 PNG 印刷清晰（文本层拍平），重导出对账时以 PNG 为准；√2/2 分数与 √2−1 类结构继续为锚点。
