@@ -146,6 +146,15 @@
 - 结果：PASS
 - 备注：全部公式与文本逐项一致；"$M ;$" 分号前空格为 MinerU 边界伪影，标点与印刷一致，登记不改。
 
+## p.020（PDF p.20 / 印刷 p.20）
+- PNG：audit-redo/p020.png（pngmono 150dpi）；仲裁图 audit-redo/p020_tau_300dpi.png
+- 核对：7.4*（[L−Y]、”length”）、节标题 "8 No local collapsing theorem II"、8.1 与 κ-collapsed Definition、8.2 Theorem（A>0、B(x₀,r₀)≥A^{−1}r₀^n、dist_{r₀²}≤Ar₀）、Proof（Ṽ(r²) very small、min l(x,½) over dist_{½}≤1/10、L̄ 与 (7.15)）、8.3 Lemma (a) 与 d_t−△d≥−(n−1)((2/3)Kr₀+r₀^{−1})、barrier sense 括注
+- 结果：PASS±（一处双句点已修；四处句点缺失登记不改）
+- 差异与修复：印刷 "τ(t) = 1 − t**.** Arguing"（单句点；300dpi p020_tau_300dpi.png 终裁），MD 作 "$1-t._$. Arguing" 双句点 → 已改为 "$1-t$. Arguing"。
+- 登记不改（印刷句点存在、MD 缺失，PNG/pdftotext 双证）：(a) 8.1 "that was used in 7.3**.**"；(b) Definition 行尾 "less than κr^n**.**"；(c) 8.2 Theorem 行尾 "≤ Ar₀**.**"；(d) 8.3 "(g_ij)_t = −2R_ij**.** (a) Suppose"。均不误导，按 SOP 默认不批量改。
+- 备注：Definition/Theorem 斜体段 MD 拍平为正体，属 MinerU 已知伪影；其余逐项一致。
+
+
 
 
 
