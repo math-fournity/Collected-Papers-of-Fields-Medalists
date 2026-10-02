@@ -35,3 +35,9 @@
 - 核对：Theorem 1.1 (Main Theorem) 陈述与条件 1. p ≢ 1 (mod l)、2. N is prime to l；Corollary 1.2；Fermat 方程 a^l+b^l+c^l=0；Frey 曲线 y²=x(x−a^l)(x+b^l)；V=E[l]；(4.1.9)/(4.1.12)；证明结尾 "we have a contradiction." ✓ 全部与印刷一致。
 - 备注：定理与推论陈述的斜体排版未保留（如条件 2 印刷为斜体 "*N* is *prime to l*"，MD 为正体）——mineru 惯例排版级伪影，不误导，按 SOP 默认不批量修；证明结束符 □ 未收录（惯例）。
 - 结果：PASS±。
+
+## p.004（PDF p.4 / 印刷 p.433）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:14 -0400。
+- PNG：`audit/ribet1990_p004.png`（pngmono，150 dpi）。
+- 核对：Summary 节前半——§2 Raynaud [24]/Grothendieck [11]/Mazur-Rapoport ([18], Appendix)；Deligne-Rapoport [4]、Cerednik-Drinfeld ([3], [7])；Theorem 4.1 与 Eichler [9]/Shimizu [36]/Jacquet-Langlands [12] 对应；Z[...T_n...]-module Z、fiber over F_p、J_0(pqM)_{F_q} 与 J_0(pqM)_{F_p} 的 p/q 互换方向；§5/§6 路线图、p ≢ 1 (mod l)、q ≡ −1 (mod l)、段尾 "and the image" 接下页 ✓ 全部与印刷一致。
+- 结果：PASS。
