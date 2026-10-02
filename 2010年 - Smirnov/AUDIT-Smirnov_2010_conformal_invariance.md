@@ -261,3 +261,9 @@
 - 核对：Proposition 5.6——(H_δ)_{δ>0} 收敛于 Im(φ)（compact subsets 一致），φ 为 Ω 到条带 T = ℝ×(0,1)（PNG 花体 T）、a↦−∞、b↦∞ 的任一共形映射；Im(φ) 为边界条件 1 on ∂_ba / 0 on ∂_ab 的 Dirichlet 解；Proof——H_δ● subharmonic、h_δ●/h_δ○ 为同边界 preharmonic 函数、三明治公式 (5.5) h_δ○(w_δ) ≤ H_δ○(w_δ) ≤ H_δ●(b_δ) ≤ h_δ●(b_δ)、Theorem 4.7 应用（◻）；§5.1.3 Convergence of FK fermionic observables (F_δ/√(2δ))_{δ>0} 标题；Proof of Theorem 3.15——precompactness 假设下取收敛子列 (F_{δ_n}/√(2δ_n))、f holomorphic、H_{δ_n}(y)−H_{δ_n}(x) = ½Im(∫_x^y (1/δ_n)F²_{δ_n}(z)dz)、右端收敛 Im(∫_x^y f(z)²dz)、左端收敛 Im(φ(y)−φ(x))、φ(y)−φ(x) = C + ∫_x^y f(z)²dz ⟹ f = √φ′；precompactness 化归与 9Q（同中心更大方形）策略；公式 (5.6) δ²Σ_{v∈Q◇_δ}∣F_δ(v)/√(2δ)∣² = δΣ_{x∈Q_δ}∣∇H_δ●(x)∣ + δΣ_{x∈Q⋆_δ}∣∇H_δ○(x)∣ 与 ∇H_δ● 定义；页脚印刷页码 40。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(5.5)/(5.6) 编号齐全；𝕋 花体 T、∫_x^y 上下限、δ_n 下标堆叠以 PNG 为准。
+
+## p.041（PDF p.41 / 印刷 p.41）
+- PNG：audit/p041.png（pngmono 150dpi）
+- 核对：Theorem 3.15 precompactness Proof 主体——H_δ● = S_δ + R_δ 分解（S_δ 为 ∂9Q_δ 上同边界的 harmonic、R_δ ≤ 0 subharmonic）；S_δ 梯度链式估计 Σ_{x∈Q_δ}∣∇S_δ(x)∣ ≤ (C_1/δ²)·C_2δ(sup_{x∈∂Q_δ}∣S_δ(x)∣) ≤ (C_3/δ)(sup_{x∈9Q_δ}∣H_δ●(x)∣) ≤ C_4/δ（Prop 4.2 + maximum principle）；公式 (5.7) R_δ(x) = Σ_{y∈9Q_δ} ΔR_δ(y)G_{9Q_δ}(x,y)（Prop 4.9）；∇R_δ 六行推演至 C_6/δ（ΔR_δ ≥ 0、Prop 4.10、Prop 4.9、Q_δ 含 1/δ² 量级点、R_δ 一致有界）；(F_δ/√(2δ))_{δ>0} precompact 结论（◻）；§5.2 Convergence of the spin fermionic observable 标题——固定 (Ω,a,b)、F_δ = F_{Ω◇_δ,a_δ,b_δ}、三步同前（后两步仅 sketch，[CS09]）；Proposition 5.7——对 δ > 0，F_δ s-holomorphic on Ω◇_δ；页脚印刷页码 41。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(5.7) 编号齐全；C_1/δ² 与 C_2δ 的分数乘积排法、9Q_δ 记号（p.29 已仲裁为数字 9）为对账锚点。
