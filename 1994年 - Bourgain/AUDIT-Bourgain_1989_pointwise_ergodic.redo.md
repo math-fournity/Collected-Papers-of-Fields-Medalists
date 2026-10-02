@@ -141,6 +141,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 对 (4.38)/(4.39) 的标签修复经原页核验正确——(4.38) 现挂分离条件、(4.39) 现挂包络式，与原页一一对应。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 22。与 Luna 旧审（p.019 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 19:12 EDT 落签
 
+## p.020（PDF p.20 / 印刷 p.23）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p020.png`（Ghostscript `pngmono`，150dpi；原 PDF p.20）
+- 核对：“The same argument as in (4.32) than shows that”（源级 “than” quirk）；(4.40) 的 $\mathrm B^2\leqslant(\log\mathrm K)^2+\mathrm B_1^2+\mathrm B(\log\mathrm K)$；(4.41) 的 $\|\sup_{j\in\mathbf Z_r}|\mathcal F^{-1}[\chi_{\mathrm R_j}\mathcal Ff]|\|_2\leqslant\mathrm B_1\|f\|_2$ 双范数+内层绝对值；$B_1$ 估计段（apply (4.26) with $\Lambda=\Lambda_r$, $s=j_r$）与 “Lemma's 4.11 and 4.1”；§5 标题与开头；(5.1) 的 $\frac1N\sum_{n=1}^N$；(5.2) 多项式；Lemma 5.3 条件 $|\alpha_d-(a/q)|<1/q^2$ 与 (5.4) 的 $[q^{-1}+n^{-1}+qn^{-d}]^\rho$、$\rho=1/2^{d-1}$；[Vaug]/[Vin]；$\mathbf Q$、$\delta=\delta(d)$、$\theta_j\in[0,1]\cap\mathbf Q$；(5.5) major box 的 $N^{-j+\delta}$；Lemma 5.6 与 (5.7) 的 $\mathrm{CN}^{-\delta'}$。文本层 + 150dpi 原页图双通道，对 Markdown 第 944–1001 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 对 (4.41) 双范数及内层绝对值的旧修复经原页核验正确；源级语病 “than shows”、“Lemma's 4.11” 忠实保留。微小排版注记：(5.4) 的 “where” 在 Markdown 中为数学模式散排字母 `w h e r e`，渲染为斜体连排、可辨识，登记不改。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 23。与 Luna 旧审（p.020 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 19:24 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
