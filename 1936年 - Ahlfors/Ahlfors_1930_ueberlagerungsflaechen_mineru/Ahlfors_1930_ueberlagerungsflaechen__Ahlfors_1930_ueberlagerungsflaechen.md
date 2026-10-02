@@ -32,7 +32,7 @@ Wir betrachten zunächst eine geschlossene Fläche  $W_{0}$  und setzen voraus, 
 
 wobei k nur von der Umgebung abhängt. $^{1}$  Man erkennt leicht, dass diese Voraussetzung äusserst allgemein ist.
 
-Es sei $\delta$ der kürzeste Abstand von $P$ zum Rande der Umgebung $U_P$, und $U_P'$ eine Umgebung, deren Punkte einen Abstand kleiner als $\frac{\partial}{2}$ von $P$ haben. Nach einem bekannten Satz kann man die ganze Fläche $W_0$ mit endlich vielen Umgebungen $U_P'$ überdecken. Wir setzen $d$ gleich der kleinsten der zugehörigen Zahlen $\frac{\partial}{2}$ und sehen sofort, dass jede Kurve, deren Länge kleiner als $d$ ist, ganz in einer der endlich vielen Umgebungen $U_P$ liegt, die den ausgewählten Umgebungen $U_P'$ entsprechen. Wenn noch die grösste der zu denselben Umgebungen $U_P$ gehörigen Konstanten wieder mit $k$ bezeichnet wird, so können wir also schliessen, dass jede geschlossene Kurve von der Länge $L < d$ ein Gebiet vom Inhalt $I < kL$ begrenzt.
+Es sei $\delta$ der kürzeste Abstand von $P$ zum Rande der Umgebung $U_P$, und $U_P'$ eine Umgebung, deren Punkte einen Abstand kleiner als $\frac{\delta}{2}$ von $P$ haben. Nach einem bekannten Satz kann man die ganze Fläche $W_0$ mit endlich vielen Umgebungen $U_P'$ überdecken. Wir setzen $d$ gleich der kleinsten der zugehörigen Zahlen $\frac{\delta}{2}$ und sehen sofort, dass jede Kurve, deren Länge kleiner als $d$ ist, ganz in einer der endlich vielen Umgebungen $U_P$ liegt, die den ausgewählten Umgebungen $U_P'$ entsprechen. Wenn noch die grösste der zu denselben Umgebungen $U_P$ gehörigen Konstanten wieder mit $k$ bezeichnet wird, so können wir also schliessen, dass jede geschlossene Kurve von der Länge $L < d$ ein Gebiet vom Inhalt $I < kL$ begrenzt.
 
 2. Aus dem letzten Resultat leitet man sofort folgende Eigenschaft im Grossen ab:
 
@@ -125,55 +125,55 @@ wo  $S_{n}$  die mittlere Blätteranzahl von  $W_{n}$  ist.
 Betrachten wir ein Teilgebiet $\Delta$ von $W_{0}$, so können wir die mittlere Blätteranzahl über $\Delta$ durch die Zahl $S(\Delta)$ ausdrücken, die man erhält, wenn man den Inhalt sämtlicher über $\Delta$ gelegener Teile von $W$ durch den Inhalt $\delta$ des Gebiets $\Delta$ dividiert. Man hat in leicht verständlicher Bezeichnung
 
 $$
-S (\mathcal {A}) = S _ {1} (\mathcal {A}) + S _ {2} (\mathcal {A}) + \dots + S _ {N} (\mathcal {A})
+S (\Delta) = S _ {1} (\Delta) + S _ {2} (\Delta) + \dots + S _ {N} (\Delta)
 $$
 
 und folglich
 
 $$
-S - S (\mathcal {A}) = \sum_ {1} ^ {N} (S _ {n} - S _ {n} (\mathcal {A})).
+S - S (\Delta) = \sum_ {1} ^ {N} (S _ {n} - S _ {n} (\Delta)).
 $$
 
-Hieraus ergibt sich durch eine leichte Überlegung eine Abschätzung der Differenz  $|S-S(\mathcal{A})|$ . Wenn man ausdrückt, dass der Inhalt des in  $\varDelta$  gelegenen Teils von  $W_{n}$  höchstens gleich dem ganzen Inhalt von  $W_{n}$  ist, so erhält man
+Hieraus ergibt sich durch eine leichte Überlegung eine Abschätzung der Differenz  $|S-S(\Delta)|$ . Wenn man ausdrückt, dass der Inhalt des in  $\varDelta$  gelegenen Teils von  $W_{n}$  höchstens gleich dem ganzen Inhalt von  $W_{n}$  ist, so erhält man
 
 $$
-S _ {n} (\mathcal {A}) \leqslant \frac {I _ {0}}{\delta} S _ {n}.
+S _ {n} (\Delta) \leqslant \frac {I _ {0}}{\delta} S _ {n}.
 $$
 
 Ersetzt man  $W_{n}$  durch die Komplementärmenge  $W_{0}-W_{n}$ , so folgt in derselben Weise
 
 $$
-\mathrm{I} - S _ {n} (\mathcal {A}) \leq \frac {I _ {0}}{\delta} (\mathrm{I} - S _ {n}).
+1 - S _ {n} (\Delta) \leq \frac {I _ {0}}{\delta} (1 - S _ {n}).
 $$
 
 Man hat nun einerseits
 
 $$
-\left| S _ {n} - S _ {n} (\mathcal {A}) \right| \leq \operatorname{Max} \left(S _ {n}, S _ {n} (\mathcal {A})\right) \leq \frac {I _ {0}}{\delta} S _ {n}
+\left| S _ {n} - S _ {n} (\Delta) \right| \leq \operatorname{Max} \left(S _ {n}, S _ {n} (\Delta)\right) \leq \frac {I _ {0}}{\delta} S _ {n}
 $$
 
 und andererseits
 
 $$
-\left| S _ {n} - S _ {n} (\mathcal {A}) \right| = \left| (1 - S _ {n}) - (1 - S _ {n} (\mathcal {A})) \right| \leq \operatorname{Max} (1 - S _ {n}, 1 - S _ {n} (\mathcal {A})) \leq \frac {I _ {0}}{\delta} (1 - S _ {n}).
+\left| S _ {n} - S _ {n} (\Delta) \right| = \left| (1 - S _ {n}) - (1 - S _ {n} (\Delta)) \right| \leq \operatorname{Max} (1 - S _ {n}, 1 - S _ {n} (\Delta)) \leq \frac {I _ {0}}{\delta} (1 - S _ {n}).
 $$
 
 Diese Ungleichungen kann man in die eine Ungleichung
 
 $$
-\left| S _ {n} - S _ {n} (\mathcal {A}) \right| \leq \frac {I _ {0}}{\delta} \operatorname{Min} \left(S _ {n}, \mathrm{I} - S _ {n}\right)
+\left| S _ {n} - S _ {n} (\Delta) \right| \leq \frac {I _ {0}}{\delta} \operatorname{Min} \left(S _ {n}, 1 - S _ {n}\right)
 $$
 
 zusammenfassen. Wenn jetzt die Metrik von  $W_{0}$  den früher aufgestellten Bedingungen genügt, so gilt der erste Hilfssatz, und wir finden
 
 $$
-\left| S _ {n} - - S _ {n} (\Delta) \right| \leq \frac {k}{\delta} L _ {n},
+\left| S _ {n} - S _ {n} (\Delta) \right| \leq \frac {k}{\delta} L _ {n},
 $$
 
 woraus durch Addition
 
 $$
-\left| S - S (\mathcal {A}) \right| \leq \frac {k}{\delta} \sum_ {1} ^ {N} L _ {n} = \frac {k}{\delta} L.
+\left| S - S (\Delta) \right| \leq \frac {k}{\delta} \sum_ {1} ^ {N} L _ {n} = \frac {k}{\delta} L.
 $$
 
 Hiermit ist der erste Teil des für die ganze Theorie grundlegenden Überdeckungssatzes bewiesen:
@@ -181,7 +181,7 @@ Hiermit ist der erste Teil des für die ganze Theorie grundlegenden Überdeckung
 Überdeckungssatz 1. — Die mittlere Blätteranzahl über der ganzen Grundfläche $W_0$ unterscheidet sich von der mittleren Blätteranzahl über einem Teilgebiet $\Delta$ um eine Grösse, die durch die Länge $L$ des relativen Randes majoriert wird, d. h. es gilt eine Ungleichung der Form
 
 $$
-\left| S - S (\mathcal {A}) \right| \leq k L.\tag{I. I}
+\left| S - S (\Delta) \right| \leq k L.\tag{I. I}
 $$
 
 Das Wesentliche in diesem Satze ist natürlich, dass die Abschätzung gleichmässig für alle Überlagerungsflächen gilt, indem die Konstante k nur von  $W_{0}$  und  $\Delta$  abhängt, dagegen weder von der Überlagerungsfläche W noch von der zu ihrer Definition verwendeten Dreiecksteilung. Ist L = 0 so wird  $S = S(\Delta)$  für jedes Gebiet  $\Delta$, d. h. die Blätteranzahl einer relativ unberandeten Überlagerungsfläche ist konstant.
@@ -205,31 +205,31 @@ Wir wollen noch zeigen, dass auch  $s(\gamma)$  und S sich nur um eine durch L m
 Wenn man den ersten Hilfssatz auf den Durchschnitt von  $W_{n}$  und  $\Delta$  anwendet, so erhält man
 
 $$
-S _ {n} (\mathcal {A}) \leq \frac {k}{\delta} \left(\lambda_ {0} s _ {n} (\gamma) + L _ {n}\right).
+S _ {n} (\Delta) \leq \frac {k}{\delta} \left(\lambda_ {0} s _ {n} (\gamma) + L _ {n}\right).
 $$
 
 Ebenso gilt für den Durchschnitt von $W_{0}-W_{n}$ und $\Delta$
 
 $$
-\mathrm{I} - S _ {n} (\mathcal {A}) \leqslant \frac {k}{\delta} \left(\lambda_ {0} (\mathrm{I} - s _ {n} (\gamma)) + L _ {n}\right).
+1 - S _ {n} (\Delta) \leqslant \frac {k}{\delta} \left(\lambda_ {0} (1 - s _ {n} (\gamma)) + L _ {n}\right).
 $$
 
 Hieraus folgt, wenn man die aus dem ersten Hilfssatz folgende Ungleichung $\delta \leq k\lambda_{0}$ beachtet, einerseits
 
 $$
-\left| S _ {n} (\mathcal {A}) - s _ {n} (\gamma) \right| \leq \operatorname{Max} \left(S _ {n} (\mathcal {A}), s _ {n} (\gamma)\right) \leq \frac {k}{\delta} \left(\lambda_ {0} s _ {n} (\gamma) + L _ {n}\right)
+\left| S _ {n} (\Delta) - s _ {n} (\gamma) \right| \leq \operatorname{Max} \left(S _ {n} (\Delta), s _ {n} (\gamma)\right) \leq \frac {k}{\delta} \left(\lambda_ {0} s _ {n} (\gamma) + L _ {n}\right)
 $$
 
 und andererseits
 
 $$
-\left| S _ {n} (\mathcal {A}) - s _ {n} (\gamma) \right| \leq \operatorname{Max} \left(\mathrm{i} - S _ {n} (\mathcal {A}), \mathrm{i} - s _ {n} (\gamma)\right) \leq \frac {k}{\delta} (\lambda_ {0} \left(\mathrm{i} - s _ {n} (\gamma)\right) + L _ {n}).
+\left| S _ {n} (\Delta) - s _ {n} (\gamma) \right| \leq \operatorname{Max} \left(1 - S _ {n} (\Delta), 1 - s _ {n} (\gamma)\right) \leq \frac {k}{\delta} (\lambda_ {0} \left(1 - s _ {n} (\gamma)\right) + L _ {n}).
 $$
 
 Wenn jetzt noch der zweite Hilfssatz angewandt wird, so ergibt sich endlich
 
 $$
-\left| S _ {n} (\mathcal {A}) - s _ {n} (\gamma) \right| \leq \frac {k}{\delta} \left(\lambda_ {0} \operatorname{Min} (s _ {n} (\gamma), 1 - s _ {n} (\gamma)) + L _ {n}\right) \leq \frac {k}{\delta} \left(\lambda_ {0} k ^ {\prime} + 1\right) L _ {n} = \bar {k} L _ {n}.
+\left| S _ {n} (\Delta) - s _ {n} (\gamma) \right| \leq \frac {k}{\delta} \left(\lambda_ {0} \operatorname{Min} (s _ {n} (\gamma), 1 - s _ {n} (\gamma)) + L _ {n}\right) \leq \frac {k}{\delta} \left(\lambda_ {0} k ^ {\prime} + 1\right) L _ {n} = \bar {k} L _ {n}.
 $$
 
 Durch Addition erhält man dann
@@ -237,7 +237,7 @@ Durch Addition erhält man dann
 und mit Hilfe von (I. 1)
 
 $$
-\begin{array}{l} \left| S (\mathcal {A}) - s (\gamma) \right| \leq \bar {k} L, \\ \left| S - s (\gamma) \right| \leq (k + \bar {k}) L. \end{array}
+\begin{array}{l} \left| S (\Delta) - s (\gamma) \right| \leq \bar {k} L, \\ \left| S - s (\gamma) \right| \leq (k + \bar {k}) L. \end{array}
 $$
 
 Die neue Konstante können wir wieder mit k bezeichnen und finden so den zweiten Teil des Überdeckungssatzes:
@@ -287,7 +287,7 @@ $$
 und das Gleichheitszeichen gilt nur, wenn sämtliche Teilgebiete einfach zusammenhängend sind. Etwas genauer gilt sogar
 
 $$
-\varrho \geq n (\sigma) - N _ {1} (\Omega),\tag{\( (5') \}
+\varrho \geq n (\sigma) - N _ {1} (\Omega),\tag{(5')}
 $$
 
 wo  $N_{1}(\Omega)$  die Anzahl der einfach zusammenhängenden Gebiete  $\Omega$  ist.
@@ -312,7 +312,7 @@ Dieser Satz bildet eine direkte Verallgemeinerung der bekannten Hurwitzschen Rel
 
 Es liegt nahe nach einer metrisch-topologischen Verallgemeinerung der Hurwitzschen Relation zu suchen, welche die früher eingeführte mittlere Blätteranzahl benutzt. Eine solche Verallgemeinerung wird durch den folgenden Satz gegeben, dessen zentrale Stellung in unserer Theorie die Bezeichnung Hauptsatz rechtfertigt:
 
-Metrisch-topologischer Hauptsatz. — Es sei  $W_{0}$  eine geschlossene oder berandete Grundfläche mit der Charakteristik  $\varrho_{0}$ , W eine Überlagerungsfläche derselben. Wenn  $\varrho$  die Charakteristik von W bedeutet, so sei  $\dot{\varrho}$  die grössere der Zahlen  $\varrho$  und o. Dann gilt die Ungleichung
+Metrisch-topologischer Hauptsatz. — Es sei  $W_{0}$  eine geschlossene oder berandete Grundfläche mit der Charakteristik  $\varrho_{0}$ , W eine Überlagerungsfläche derselben. Wenn  $\varrho$  die Charakteristik von W bedeutet, so sei  $\stackrel{+}{\varrho}$  die grössere der Zahlen  $\varrho$  und 0. Dann gilt die Ungleichung
 
 $$
 \stackrel {+} {\varrho} \geq \varrho_ {0} S - k L,\tag{II. 1}
@@ -359,10 +359,11 @@ Die entsprechenden Querschnitte werden am besten in drei Klassen eingeteilt: Die
 Damit ist die ganze Klasseneinteilung vollzogen. Zur besseren Orientierung geben wir noch eine Übersicht über die eingeführten Klassen und wiederholen die wichtigsten Beziehungen. Die Klassen sind
 
 $$
-\begin{array}{c c} (\Omega_ {1}) \dots (\Omega_ {p}) & (\Omega^ {\prime}) \\ (\sigma_ {1}) \dots (\sigma_ {p}) & (\overbrace {\sigma^ {\prime}} ^ {\prime}) (\sigma^ {\prime \prime}) \end{array}\tag{\((\Omega^{*})\}
+\begin{array}{c c c c}
+(\Omega_1)\dots(\Omega_p) & \multicolumn{2}{c}{(\Omega')} & (\Omega^*)\\
+(\sigma_1)\dots(\sigma_p) & (\sigma') & (\sigma'') & (\sigma^*)
+\end{array}
 $$
-
-$(\sigma^{*})$
 
 und es gilt:
 
@@ -406,7 +407,7 @@ $$
 \left| s \left(\gamma_ {\mu}\right) - s \left(\gamma_ {\nu}\right) \right| \leq \frac {q - 2}{q - 1} k L (\Omega)
 $$
 
-erfüllt sein, wobei $L(\Omega)$ die Länge des relativen Randes von $\Omega$ in Bezug auf $\mathcal{A}'$ bzw. $\mathcal{A}''$ bezeichnet.
+erfüllt sein, wobei $L(\Omega)$ die Länge des relativen Randes von $\Omega$ in Bezug auf $\Delta'$ bzw. $\Delta''$ bezeichnet.
 
 Für Ω wählen wir eines der Gebiete Ω$_{n}$. Der entsprechende Querschnitt σ$_{n}$ liege z. B. über γ$_{1}$. Dann gilt für ν = 2, ..., q
 
@@ -451,12 +452,12 @@ $$
 wo $n(\bar{\sigma})$ die Anzahl der unter den Kurven $\bar{\sigma}$ vorkommenden Querschnitte bezeichnet. Wenn wir bemerken, dass jedes negative $\varrho(\overline{W})$ gleich $-1$ ist, so können wir (9) auch in der Form
 
 $$
-\varrho = \sum^ {+} \varrho (\bar {W}) - N _ {1} + n (\sigma)
+\varrho = \sum^ {+} \varrho (\bar {W}) - N _ {1} + n (\bar {\sigma})
 $$
 
 schreiben, wobei  $N_{1}$  die Zahl der einfach zusammenhängenden Teilflächen angibt.
 
-Nach einem grundlegenden Satz der Topologie wird eine zasammenhängende Fläche durch einen Querschnitt in höchstens zwei Teile zerlegt, und beide Teile sind einfach zusammenhängend nur wenn dieses von der ursprünglichen Fläche gilt. Wendet man diesen Satz wiederholt an, so sieht man dass in jeder Zerlegung durch lauter Querschnitte die Anzahl der Teilgebiete höchstens um Eins grösser ist als die Anzahl der Querschnitte. Wenn die gegebene Fläche mehr-
+Nach einem grundlegenden Satz der Topologie wird eine zusammenhängende Fläche durch einen Querschnitt in höchstens zwei Teile zerlegt, und beide Teile sind einfach zusammenhängend nur wenn dieses von der ursprünglichen Fläche gilt. Wendet man diesen Satz wiederholt an, so sieht man dass in jeder Zerlegung durch lauter Querschnitte die Anzahl der Teilgebiete höchstens um Eins grösser ist als die Anzahl der Querschnitte. Wenn die gegebene Fläche mehr-
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\Omega^{\prime}$</span></small>
 
@@ -520,16 +521,16 @@ $$
 
 Diese Ungleichung stellen wir mit (II. 1) zusammen, und bemerken gleichzeitig dass $\varrho \geq \stackrel{+}{\varrho} - 1$. Wir erhalten dann folgende
 
-Metrisch-topologische Doppelungleichung. — Es sei bekannt, dass die Fläche W als Teil einer über  $W_{0}$  ausgebreiteten, relativ zu  $W_{0}$  unberandeten und unverzweigten Überlagerungsfläche aufgefasst werden kann. Wenn der relative Rand von W höchstens a geschlossene Konturen umfasst, so gilt die Doppelungleichung
+Metrisch-topologische Doppelungleichung. — Es sei bekannt, dass die Fläche W als Teil einer über  $W_{0}$  ausgebreiteten, relativ zu  $W_{0}$  unberandeten und unverzweigten Überlagerungsfläche aufgefasst werden kann. Wenn der relative Rand von W höchstens $\alpha$ geschlossene Konturen umfasst, so gilt die Doppelungleichung
 
 $$
-S \varrho_ {0} - k L - \mathrm{i} \leq \varrho \leq S \varrho_ {0} + k L + \alpha .\tag{II. 2}
+S \varrho_ {0} - k L - 1 \leq \varrho \leq S \varrho_ {0} + k L + \alpha .\tag{II. 2}
 $$
 
 Ist $\varrho_{0} \geq 0$, so gilt etwas einfacher
 
 $$
-S \varrho_ {0} - k L \leq^ {+} \varrho \leq S \varrho_ {0} + k L + \alpha ,\tag{II. \(z^{\prime}\)}
+S \varrho_ {0} - k L \leq \stackrel{+}{\varrho} \leq S \varrho_ {0} + k L + \alpha ,\tag{II. 2'}
 $$
 
 denn die zweite Hälfte dieser Ungleichung ist trivial für  $\varrho = -1$ .
@@ -552,7 +553,7 @@ gleichmäßig für alle Flächen $W$ einer ausschöpfenden Folge. Wir wollen die
 
 fenden Insel. Rechnet man die Multiplizitäten aller Inseln zusammen, so erhält man eine Zahl $n(\Delta)$ welche angibt, wie oft $\Delta$ sozusagen vollständig überdeckt wird.
 
-Den von den Zungen herrührenden Teil von $S(\mathcal{A})$ bezeichnen wir mit $\mu(\mathcal{A})$. Den Überdeckungssatz können wir dann in der Form der
+Den von den Zungen herrührenden Teil von $S(\Delta)$ bezeichnen wir mit $\mu(\Delta)$. Den Überdeckungssatz können wir dann in der Form der
 
 Gleichung (A)
 
@@ -616,7 +617,7 @@ $$
 p (\Delta) = n (\Delta) - w (\Delta),
 $$
 
-wo $w(\mathcal{A})$ die Summe der Verzweigungsordnungen der zu den Inseln gehörigen Verzweigungspunkte bedeutet. Die Ungleichung (B) erhält die Form
+wo $w(\Delta)$ die Summe der Verzweigungsordnungen der zu den Inseln gehörigen Verzweigungspunkte bedeutet. Die Ungleichung (B) erhält die Form
 
 $$
 \sum_ {1} ^ {q} n \left(\Delta_ {v}\right) - \sum_ {1} ^ {q} w \left(\Delta_ {v}\right) \geq (q - 2) S - k L
@@ -625,7 +626,7 @@ $$
 oder
 
 $$
-\sum_ {1} ^ {q} (S - n (\mathcal {A} _ {v})) + \sum_ {1} ^ {q} w (\mathcal {A} _ {v}) \leq 2 S + k L.
+\sum_ {1} ^ {q} (S - n (\Delta_ {v})) + \sum_ {1} ^ {q} w (\Delta_ {v}) \leq 2 S + k L.
 $$
 
 Durch Anwendung der Gleichung (A) ergibt sich noch die besonders einfache Form
@@ -646,7 +647,7 @@ $$
 \lim \frac {w (\Delta)}{S} = \varepsilon (\Delta).
 $$
 
-Nach dieser Definition liegt der Defekt zwischen o und i oder fällt mit einer dieser Grenzen zusammen, und der Verzweigungsindex ist jedenfalls grösser oder gleich Null. Aus (B') folgt die
+Nach dieser Definition liegt der Defekt zwischen 0 und 1 oder fällt mit einer dieser Grenzen zusammen, und der Verzweigungsindex ist jedenfalls grösser oder gleich Null. Aus (B') folgt die
 
 Defektrelation. — Für eine beliebige Anzahl von ausserhalb einander gelegenen, einfach zusammenhängenden Gebieten  $\Delta$  gilt
 
@@ -661,7 +662,7 @@ Wir erinnern daran, dass der ganze Defektbegriff und folglich auch die Gültigke
 Schliesslich wollen wir noch diejenige Ungleichung aufstellen, die aus (B) entsteht, wenn sämtliche Gebiete $\Delta_{v}$ sich auf Punkte reduzieren. Wir betrachten $q$ Punkte $a_{1},\ldots,a_{q}$ und wählen die Gebiete $\Delta_{v}$ so, dass sie je einen Punkt $a_{v}$ enthalten. Es sei $p(a_{v})$ die mit einfachen Multiplizitäten gezählte Anzahl der über $a_{v}$ gelegenen inneren Punkte von $W$. Dann ist offenbar $p(a_{v})\geqq p(\Delta_{v})$ und wir finden
 
 $$
-\sum_ {1} ^ {q} p (a _ {\nu}) \geqq (q - 2) S - k L.\tag{\((\mathbf{B}_1)\}
+\sum_ {1} ^ {q} p (a _ {\nu}) \geqq (q - 2) S - k L.\tag{(B_1)}
 $$
 
 22. Wir werden jetzt zeigen dass es möglich ist, aus der Ungleichung (B) eine notwendige Bedingung für die Existenz einer regulären Ausschöpfung abzulesen.
@@ -671,7 +672,7 @@ Wir betrachten die Gebiete $\Delta_{1},\ldots,\Delta_{q}$ und nehmen an, es geh�
 Unter dieser Voraussetzung gilt für jedes Gebiet $\Delta_{i}$ die Ungleichung $S(\Delta_{i}) \geq n(\Delta_{i}) \geq \mu_{i} p(\Delta_{i})$, woraus folgt $p(\Delta_{i}) \leq \frac{1}{\mu_{i}} S + kL$. Wenn wir dieses in (B) einsetzen, so wird
 
 $$
-\left(q - 2 - \sum_ {1} ^ {q} \frac {\mathrm{I}}{\mu_ {i}}\right) S \leq k L
+\left(q - 2 - \sum_ {1} ^ {q} \frac {1}{\mu_ {i}}\right) S \leq k L
 $$
 
 mit einem neuen Wert von k. Wenn nun der linksstehende Koeffizient positiv ist, so können wir schliessen, dass bei jeder Ausschöpfung S kleiner als L multipliziert mit einer festen Konstante bleibt. Das heisst aber nichts anderes als dass es keine reguläre Ausschöpfung gibt.
@@ -679,7 +680,7 @@ mit einem neuen Wert von k. Wenn nun der linksstehende Koeffizient positiv ist, 
 Die Fläche $W^{*}$ sei so beschaffen, dass jede über dem Gebiet $\Delta_{i}$ gelegene, einfach zusammenhängende Insel wenigstens $\mu_{i}$-blättrig ist, wobei die Zahlen $\mu_{i}$ der Bedingung
 
 $$
-\sum_ {1} ^ {q} \left(\mathrm{I} - \frac {\mathrm{I}}{\mu_ {i}}\right) > 2\tag{II}
+\sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2\tag{II}
 $$
 
 genügen. Dann gibt es keine reguläre Ausschöpfung von $W^{*}$.
@@ -702,11 +703,9 @@ Wenn diese Bedingung erfüllt ist, so können wir jedes über  $\overline{W}_{0}
 
 Wir nehmen eine Fläche W der ausschöpfenden Folge und betrachten wie
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\overline{W}_{0}$</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  $\overline{W}_{0}$ ist das Komplementärgebiet der Gebiete $\Delta_{\nu}$.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$  Um diesen bekannten Prozess genau zu erklären müsste man eigentlich den Begriff des topologischen Baums einführen. Wir verweisen den Leser auf die eingehende Behandlung dieser Frage in der neulich erschienenen Arbeit G. ELFVING: Über eine Klasse von Riemannschen Flächen und ihre Uniformisierung (Acta Soc. Scient. Fenn., Nov. Ser. A. t. II No. 3.).</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$$\overline{W}_{0}$  ist das Komplementärgebiet der Gebiete  $\Delta\nu$ .</span></small>
 
 in Nr. 20 ihre über $\overline{W}_{0}$ gelegenen Teile $\overline{W}$. Es gilt wie damals $p = \sum_{\varrho}^{+} (\overline{W}) + \beta$, und die $\varrho^{+}(\overline{W})$ können mit Hilfe von (II, $2'$) nach oben abgeschätzt werden. Unter den relativen Rändern der Flächen $\overline{W}$ kommt höchstens eine geschlossene Kontur vor (wegen des einfachen Zusammenhangs von $W$), und wir erhalten folglich
 
@@ -719,7 +718,7 @@ Wird diese Ungleichung mit (10) verbunden, so folgt:
 Wenn die einfach zusammenhängende, offene Fläche $W^{*}$ ausserhalb der Gebiete $\Delta_{1},\ldots,\Delta_{q}$ ($q\geq2$) unverzweigt und unbegrenzt ist, so gilt
 
 $$
-\left| p - \beta - (q - 2) S \right| \leq k L + \mathrm{I}.\tag{C}
+\left| p - \beta - (q - 2) S \right| \leq k L + 1.\tag{C}
 $$
 
 Wenn man den Beweis durchgeht, so sieht man dass der Satz seine Richtigkeit behält, wenn die Gebiete $\Delta_{v}$ sich auf Punkte $a_{v}$ reduzieren. In diesem Falle ist $\beta \leq 1$, und man findet:
@@ -746,7 +745,7 @@ Die Überdeckung der a-Stellen ist also möglichst regelmässig.
 
 ## III. Die Abbildung einer offenen Fläche.
 
-24. Eine offene, einfach zusammenhänge Fläche  $W^{*}$  kann topologisch auf die komplexe z-Ebene abgebildet werden, wobei die ausschöpfenden Flächen W
+24. Eine offene, einfach zusammenhängende Fläche  $W^{*}$  kann topologisch auf die komplexe z-Ebene abgebildet werden, wobei die ausschöpfenden Flächen W
 
 in eine Folge von Gebieten G übergehen, welche schliesslich jeden endlichen Punkt der Ebene enthalten. Umgekehrt erhält man aus jeder Ausschöpfung der Ebene durch einfach zusammenhängende Gebiete G eine entsprechende Ausschöpfung der Fläche  $W^{*}$ .
 
@@ -761,7 +760,7 @@ bestimmt wird, d. h. die Länge einer Kurve und der Inhalt eines Gebiets auf $W^
 Die Abbildung heisst quasikonform, wenn es eine Konstante K gibt, sodass die Ungleichung
 
 $$
-E + G \leq 2 K V E G - F ^ {2}\tag{12}
+E + G \leq 2 K \sqrt {E G - F ^ {2}}\tag{12}
 $$
 
 in jedem Punkte z erfüllt ist. Es ist notwendigerweise  $K \geq 1$ , und K = 1 bedingt F = 0, E = G. Die Abbildung ist in diesem Falle konform.
@@ -769,7 +768,7 @@ in jedem Punkte z erfüllt ist. Es ist notwendigerweise  $K \geq 1$ , und K = 1 
 Es sei  $W_{r}$  diejenige endliche Fläche, welche dem Kreis  $G_{r}$  ( $|z| \leq r$ ) entspricht,  $I(r)$  ihr Inhalt und  $L(r)$  die Länge ihrer Randkurve. Nach Voraussetzung ist
 
 $$
-L (r) = \int_ {| z | = r} V E d y ^ {2} + 2 F d x d y + G d y ^ {2}
+L (r) = \int_ {| z | = r} \sqrt {E d y ^ {2} + 2 F d x d y + G d y ^ {2}}
 $$
 
 und
@@ -941,7 +940,7 @@ Diese Beziehung ist vollständig neu und zeigt das ausserordentlich reguläre Ve
 Scheibensatz. $^{1}$  — Wenn alle über den Gebieten  $\Delta_{i}$  ( $i=1,\ldots,q$ ) gelegenen, einfach zusammenhängenden Inseln der Fläche  $W^{*}$  wenigstens  $\mu_{i}$ -blättrig sind, und wenn die Zahlen  $\mu_{i}$  der Bedingung
 
 $$
-\sum_ {1} ^ {q} \left(\mathrm{I} - \frac {\mathrm{I}}{\mu_ {i}}\right) > 2
+\sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2
 $$
 
 genügen, so ist notwendig $R < \infty$ und es gilt sogar $S(r) = O\left(\frac{1}{R - r}\right)$.
@@ -962,7 +961,7 @@ Wenn fünf ausserhalb einander liegende, einfach zusammenhängende Gebiete gegeb
 
 Ist die Funktion ganz, so gilt derselbe Satz schon für drei im Endlichen gelegene Gebiete. Hieraus folgt z. B. der VALIRONSche Satz, dass die über die Ebene ausgebreitete Fläche einer ganzen Funktion beliebig grosse schlichte Kreise enthält.
 
-28. Verwandt mit dem Scheibensatz ist ein klassischer Satz, der auf PICARD zurückgeht. Es sei $\Phi(u,v)=\circ$ eine algebraische Gleichung und $W_{0}$ die über die $u$-Kugel ausgebreitete Riemannsche Fläche, auf welcher die Funktion $v=v(u)$ eindeutig wird. Wenn die Charakteristik der Fläche $W_{0}$ positiv ist, d. h. wenn das Geschlecht der Fläche grösser als Eins ist, so behaupten wir, dass zwei in der ganzen Ebene meromorphe Funktionen $f(z)$ und $g(z)$ die Relation $\Phi(f(z), g(z))=\circ$ nicht identisch befriedigen können.
+28. Verwandt mit dem Scheibensatz ist ein klassischer Satz, der auf PICARD zurückgeht. Es sei $\Phi(u,v)=0$ eine algebraische Gleichung und $W_{0}$ die über die $u$-Kugel ausgebreitete Riemannsche Fläche, auf welcher die Funktion $v=v(u)$ eindeutig wird. Wenn die Charakteristik der Fläche $W_{0}$ positiv ist, d. h. wenn das Geschlecht der Fläche grösser als Eins ist, so behaupten wir, dass zwei in der ganzen Ebene meromorphe Funktionen $f(z)$ und $g(z)$ die Relation $\Phi(f(z), g(z))=0$ nicht identisch befriedigen können.
 
 Es sei $W^*$ die über die $u$-Kugel ausgebreitete offene Fläche, auf welche die $z$-Ebene durch Vermittlung der Funktion $u = f(z)$ abgebildet wird. Zu jedem Punkte $P$ auf der Fläche $W^*$ gehört ein bestimmter Bildpunkt $z$ in der $z$-Ebene. Wenn nun die Gleichung $\Phi(f(z), g(z)) = 0$ identisch erfüllt ist, so wird durch diesen Bildpunkt nicht nur ein Wertpaar $u = f(z), v = g(z)$ mit $\Phi(u, v) = 0$, sondern auch der zugehörige Zweig der algebraischen Funktion $v(u)$ eindeutig festgelegt. Der Punkt $P$ hat mit anderen Worten auf $W_0$ einen wohlbestimmten Spurpunkt $P_0$, der über demselben Punkt der $u$-Kugel liegt wie $P$. Ferner sieht man, dass der Punkt $P_0$ sich stetig mit $P$ ändert. Hieraus folgt, dass die Fläche $W^*$ als Überlagerungsfläche von $W_0$ betrachtet werden kann. Auch die Metriken der beiden Flächen entsprechen sich in der richtigen Weise, vorausgesetzt dass man beide mit Hilfe der Kugelmetrik definiert.
 
@@ -1025,7 +1024,7 @@ genügt.
 Wir betrachten in (16) $a$ als Veränderliche und integrieren über die ganze Riemannsche Kugel. Sowohl $m(r, a)$ als $h(r, a)$ ergeben bei der Integration beschränkte Restglieder. Bei der Integration von $N(r, a)$ kann man die Reihenfolge der Integrationen vertauschen, und kommt so zu der von SHIMIZU herrührenden Beziehung
 
 $$
-T (r) = \int_ {0} ^ {r} S (r) \frac {d r}{r} + O (\mathrm{I}),
+T (r) = \int_ {0} ^ {r} S (r) \frac {d r}{r} + O (1),
 $$
 
 wo  $S(r)$  dieselbe Bedeutung wie vorhin hat.
@@ -1033,7 +1032,7 @@ wo  $S(r)$  dieselbe Bedeutung wie vorhin hat.
 Integriert man statt über die ganze Kugel nur über ein Teilgebiet $A$, so erhält man in ganz derselben Weise
 
 $$
-T (r) = \int_ {0} ^ {r} S (r, \Delta) \frac {d r}{r} + O (\mathrm{I}).
+T (r) = \int_ {0} ^ {r} S (r, \Delta) \frac {d r}{r} + O (1).
 $$
 
 Setzt man nun
@@ -1045,7 +1044,7 @@ $$
 so ergibt sich durch Vergleich.
 
 $$
-\int_ {0} ^ {r} \varkappa (r) \frac {d r}{r} = O (\mathrm{I}),
+\int_ {0} ^ {r} x (r) \frac {d r}{r} = O (1),
 $$
 
 während wir früher die Relation
@@ -1057,7 +1056,7 @@ $$
 bewiesen haben. Diese beiden Resultate, das aus der NEVANLINNASchen Theorie gewonnene und das aus unseren Betrachtungen hervorgehende, komplettieren sich, indem das eine nicht aus dem anderen hergeleitet werden kann. Wenn man auf $L(r)$ die auf S. 187 gefundene Abschätzung anwendet, so folgt aus der letzten Ungleichung
 
 $$
-\left| \varkappa (r) \right| <   S (r) ^ {\frac {1}{2} + \varepsilon}
+\left| x (r) \right| <   S (r) ^ {\frac {1}{2} + \varepsilon}
 $$
 
 ausserhalb der Ausnahmeintervalle, eine Abschätzung, die gleichfalls keine Folge des ersten Hauptsatzes ist.
