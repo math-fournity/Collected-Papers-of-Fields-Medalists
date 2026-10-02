@@ -661,3 +661,10 @@
 - 证据：源 PDF p.092 文本层、页图 `audit/Hironaka_1964_resolution_partI_p092.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p092_Lemma10_and_footnote43.png` 与 MinerU Markdown 第 1981–2025 行。Lemma 10 条件中的 graded-ring localization 印刷为 $\mathrm{gr}_{P O_Q}(O_Q)$，Markdown 第 2003 行写成 $\mathrm{gr}_{P Q}(O_Q)$，漏掉中间的结构环 O。Canonical map $\lambda'$ 印刷为 $\mathrm{gr}_{Q}(\mathrm{gr}_{P}(O))\to\mathrm{gr}_{Q}(O)$；Markdown 第 2008 行两处将 O 误录为数字 0。另脚注 43 的完整正文保留在第 2025 行，但第 2019、2021、2023 行在此前分别多出 $\mathrm{gr}_{P}(0)$、$0/P$ 与 $(f_1,\ldots,f_m)$ 三个孤立片段；前两片段同样把 O 误录为 0。
 - 备注：印刷运行页眉和页码 199 未录入 Markdown，属导航元素省略。
 - 结论：局部化下标缺 O、lambda map 中 2 处 O/0 误读及脚注 43 前 3 个碎片，列为 FAIL；待全篇审计后逐处清理并保留脚注正文。
+
+### PDF p.093 / 96（印刷 p.200）— FAIL
+
+- 时间：2026-10-02 06:05 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.093 文本层、页图 `audit/Hironaka_1964_resolution_partI_p093.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p093_Lemma11_and_Theorem3.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p093_theorem3_OQ_notation.png`，并比对 MinerU Markdown 第 2017–2079 行。Lemma 11 的局部化图在第 2042 行把印刷的 $\mathrm{gr}_{Q}(O)$、$\mathrm{gr}_{Q}(O)_{Q}$ 中的 Q 三次写成 `\varrho`。Theorem 3 第 2049 行两处、第 2051 行一次以及第 2059 行一次，共 4 处把环符号 O 录成数字 0；第 2051 行另有两个局部环下标把大写 Q 写成小写 q，且局部化理想 $P O_Q$ 被排成 $P0_Q$。Lemma 11 diagram、Theorem 3 的参数系统与 graded-ring polynomial identifications 其余部分均与原页对应。
+- 备注：印刷运行页眉和页码 200 未录入 Markdown，属导航元素省略。
+- 结论：3 处 Q/varrho 误录、4 处 O/0 误录、2 处 Q/q 大小写误录，列为 FAIL；待全篇审计后逐处手工修复。
