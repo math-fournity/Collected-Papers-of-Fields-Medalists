@@ -640,3 +640,10 @@
 - 证据：源 PDF p.089 文本层、页图 `audit/Hironaka_1964_resolution_partI_p089.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p089_corollary1_O.png` 与 MinerU Markdown 第 1906–1920 行。大交换图两列 graded modules 的关系、$\delta/\varepsilon$ 论证及 Theorem 2 proof 均与印刷页对应。但 Corollary 1 条件 (i) 印刷为 $\operatorname{gr}_{P}(O)$ flat over $O/P$，Markdown 第 1919 行两处均将大写环符号 O 录成数字 0。
 - 备注：印刷运行页眉和页码 196 未录入 Markdown，属导航元素省略。
 - 结论：2 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.090 / 96（印刷 p.197）— FAIL
+
+- 时间：2026-10-02 05:47 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.090 文本层、页图 `audit/Hironaka_1964_resolution_partI_p090.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p090_corollary1_maps.png` 与 MinerU Markdown 第 1921–1955 行。Corollary 1 的 (ii) 映射式在第 1924 行含 4 处环符号误录：印刷的 O 在 Markdown 中都写作数字 0；(iv) 的 canonical map 在第 1938 行另有 4 处同样的 O→0。条件 (iii)、Theorem 2 与 Corollary 2 的等价性说明、局部重数结论及 §3 faithfully-flat 定义的开头均与原页对应。
+- 备注：印刷运行页眉和页码 197 未录入 Markdown，属导航元素省略。
+- 结论：两条 graded-algebra 映射中的 8 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
