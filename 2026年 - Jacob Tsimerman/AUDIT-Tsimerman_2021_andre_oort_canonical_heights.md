@@ -432,3 +432,12 @@
 - 核对：Lemmas A.12–A.15 的 category equivalence、Ext/rigidity 及 injectivity arguments；Propositions A.16–A.17；§A.3 的 Witt-ring setup 与 Definition A.18 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Lemma A.12 的 `gr:R_{dR}(s) → R_{Dol}(s)` 漏箭头；Definition A.15 Artin–Rees family 中 `t:\mathbb A_s^1 → \mathbb A_s^1` 也漏箭头。Grothendieck-existence conclusion 的 `\operatorname{Spec}\bar k[[t]]` 被缩成 `\operatorname{Spec}\bar k t`，丢失 formal power series ring；Proposition A.17 的 `\sigma^{f'}` 多出 degree-circle 标记。Definition A.18 前 §A.3 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 再次漏箭头，且 Lemma A.13 的 target category `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。两张 300dpi 裁片核实箭头、环和 category 字形。PASS± 拼写/粘连噪声：`Grifiths-transverse` 被粘成 `Grifithstransverse`。
+
+## p.049（PDF p.49 / 印刷 p.49）
+- 时间：2026-10-02 02:43:53 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p049.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p049-LemmasA15-A17.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p049-DefinitionA18-TheoremA19.png`
+- 核对：Lemma A.15 injectivity continuation、Propositions A.16–A.17；§A.3 geometric-point setup、Definition A.18 的 periodic tuple 与 φ-map；Theorem A.19。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Proposition A.17 的 printed formula 是 `\sigma^{f'}([(E,\nabla)])=[(E,\nabla)]`，Markdown 在 `\sigma` 上多出圆圈。§A.3 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头；Definition A.18 的 `\phi_i` 对象 `C_1^{-1}(\operatorname{gr}_F E_{W_n}^i,\mathrm{KS}_i)` 被加上额外 `\cdot` 上标，且 prose 中 `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。300dpi 裁片核实 `\sigma`、`\mathrm{KS}_i`、point map 与 MIC identifier。PASS± 拼写伪影：`Grifithstransverse` 与 reference/citation spacing noise。
