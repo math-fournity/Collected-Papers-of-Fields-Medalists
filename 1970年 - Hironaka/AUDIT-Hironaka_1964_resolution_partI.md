@@ -132,3 +132,10 @@
 - 证据：源 PDF p.017 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p017.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p017_proj_and_stalks.png` 与 MinerU Markdown 第 317、319 行。对称张量代数和 Proj 构造均与原页对应；高分辨率对照显示印刷结构层写作 `O_X`/`O_{X'}`，Markdown 第 317 行误作 `O_x`/`O_{x'}`，第 319 行的结构层 `O_X` 也误作 `O_x`。局部点处的 `O_x` 在 line 319 保持原样，不与结构层混淆。
 - 备注：印刷运行页眉和页码 124 未录入 Markdown，属不影响正文的导航元素省略。
 - 结论：结构层空间下标大小写误录，列为 FAIL；运行页眉与页码 124 另未录入 Markdown。
+
+### PDF p.018 / 96（印刷 p.125）— FAIL
+
+- 时间：2026-10-01 23:24 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.018 文本层、页图 `audit/Hironaka_1964_resolution_partI_p018.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p018_Px_sheaf.png` 与 MinerU Markdown 第 325、327 行。印刷定义为 `P^x=(P^x,O_{P^x})`，Markdown 第 325 行写成 `O_{Px}`，漏掉结构层下标中 P 的上标 x；裁片确认原页上下标。对称张量代数、开集基和脚注 13–14 的其余部分逐项对应。
+- 备注：印刷运行页眉和页码 125 未录入 Markdown，属导航元素省略。
+- 结论：结构层下标丢失上标，列为 FAIL，待全篇审计完成后逐处修复。
