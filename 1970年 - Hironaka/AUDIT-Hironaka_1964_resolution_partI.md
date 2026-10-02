@@ -402,3 +402,10 @@
 - 证据：源 PDF p.055 文本层、页图 `audit/Hironaka_1964_resolution_partI_p055.png`（pngmono 150dpi）与 MinerU Markdown 第 875、877、879、881 行。关于代数 scheme 的定义和结构态射、local-ring class B 在代数/解析几何中的范围、选择较小 B 类的说明及脚注 32 均对应印刷页。印刷多处以花体 `\mathcal{B}` 表示已定义的 class，Markdown 第 875、877、879 行使用普通 `B`；上下文中的 class 指代明确，属不改变意义的正/花体混排（PASS±）。
 - 备注：印刷运行页眉和页码 162 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文内容差异；class B 的字体样式混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.056 / 96（印刷 p.163）— PASS±
+
+- 时间：2026-10-02 03:52 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.056 文本层、页图 `audit/Hironaka_1964_resolution_partI_p056.png`（pngmono 150dpi）与 MinerU Markdown 第 883、885–887 行。scheme、simple/multiple/singular、singular locus、结构层与 stalk、维数和空子概形余维约定，以及“Resolution data and permissible transformations”节首均与印刷页对应。
+- 备注：印刷运行页眉和页码 163 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
