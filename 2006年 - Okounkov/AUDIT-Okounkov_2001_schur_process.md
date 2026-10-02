@@ -72,3 +72,9 @@
 - 本块区（md 行 1–291）grep 无残余 "diferent/coeficient/sufices/difers" 伪影；全文同类残余 10 处均位于 p.10+（行 303/311/329/361/375/391/549/641/945/1093），已留待后续页块按页修复。
 - 脚注样式块外无残余 `<sup>` 正文伪影；7 个 `images/` 引用全部存在可解析。
 - 分级统计（本块）：PASS 3（p.1/3/7）、PASS± 6（p.2/4/5/6/8/9）、FAIL 0。
+
+## p.010（PDF p.10 / 印刷 p.10）
+- PNG：audit/p010.png（pngmono 150dpi）
+- 核对：§2.2.6 全节（Γ±(φ)=exp(Σ_{k=1}^∞(log φ)_{∓k}α_{±k})、(log φ)_k=p_k/k、(Γ₋(φ)v_μ,v_λ)=s_{λ/μ}(φ⁺)、式 (10) 𝕊_φ(μ,λ)=(Γ₋(φ)Γ₊(φ)v_μ,v_λ)、式 (11) 交换关系）、§2.2.7 开头（φ[m](z)=Σ_{k∈ℤ}φ_k[m]z^k）
+- 结果：PASS±（4 个 ff 连字伪影已修复，PNG+文本层双证）：行 303 "coeficient"→"coefficient"；行 311 "coeficient"→"coefficient"；行 329 "diferent…diferent…difer"→"different…different…differ"。
+- 备注：印刷 quirk "probablistic applications"（p010.png 与文本层 line 530 双证印刷原样）忠实保留；式 (10)(11) 编号与 𝕊 无衬线记号与印刷一致。

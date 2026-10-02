@@ -300,7 +300,7 @@ $$
 \Gamma_ {\pm} (\phi) = \exp \left(\sum_ {k = 1} ^ {\infty} (\log \phi) _ {\mp k} \alpha_ {\pm k}\right),
 $$
 
-where$( \log \phi ) _ { k }$denotes the coeficient of$z ^ { k }$in the Laurent expansion of log$\phi ( z )$. In particular, if the algebra of symmetric functions is specialized as in (7) then
+where$( \log \phi ) _ { k }$denotes the coefficient of$z ^ { k }$in the Laurent expansion of log$\phi ( z )$. In particular, if the algebra of symmetric functions is specialized as in (7) then
 
 $$
 (\log \phi) _ {k} = \frac {p _ {k}}{k}, \quad k = 1, 2, 3, \ldots ,
@@ -308,7 +308,7 @@ $$
 
 where$p _ { k }$is the kth power-sum symmetric function.
 
-It is well known, see for example Exercise 14.26 in [11], that the matrix coeficient of the operators$\Gamma _ { \pm }$are the skew Schur functions, namely
+It is well known, see for example Exercise 14.26 in [11], that the matrix coefficient of the operators$\Gamma _ { \pm }$are the skew Schur functions, namely
 
 $$
 (\Gamma_ {-} (\phi) v _ {\mu}, v _ {\lambda}) = s _ {\lambda / \mu} (\phi^ {+}).
@@ -326,7 +326,7 @@ $$
 \Gamma_ {+} (\phi) \Gamma_ {-} (\phi) = e ^ {\sum k (\log \phi) _ {k} (\log \phi) _ {- k}} \Gamma_ {-} (\phi) \Gamma_ {+} (\phi)\tag{11}
 $$
 
-that diferent ordering prescriptions in (10), which produce diferent regularizations of (6), all difer by a constant independent of$\mu$and λ.
+that different ordering prescriptions in (10), which produce different regularizations of (6), all differ by a constant independent of$\mu$and λ.
 
 ## 2.2.7
 
