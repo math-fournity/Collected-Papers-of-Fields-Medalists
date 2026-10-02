@@ -204,3 +204,10 @@
 - 证据：源 PDF p.027 文本层、页图 `audit/Hironaka_1964_resolution_partI_p027.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p027_multiplicity_bounds.png` 与 MinerU Markdown 第 411–433 行。Statements (A)–(C)、Question (D) 的 multiplicity 阈值 `≥ d`、`< d` 与前后映射均对应原页；但原文两处写作罗马大写 `Main theorem I`，Markdown 第 431 行写成数字 `1`，属于定理编号误录。
 - 备注：印刷运行页眉和页码 134 未录入 Markdown，属导航元素省略。
 - 结论：定理编号 I/1 不符，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.028 / 96（印刷 p.135）— FAIL
+
+- 时间：2026-10-02 01:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.028 文本层、页图 `audit/Hironaka_1964_resolution_partI_p028.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p028_main_theorem_I.png` 与 MinerU Markdown 第 435–453 行。印刷页写作 `main theorem I`（强形式引用），Markdown 第 451 行写成 `main theorem 1`；300dpi 图确认是罗马大写 I。Definition 1 关于 `gr_D^p(X)` 与 `J^p/J^{p+1}` 的记号与原页一致。
+- 备注：印刷运行页眉和页码 135 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I 误录为 1，列为 FAIL；待全篇审计结束后逐处修复。
