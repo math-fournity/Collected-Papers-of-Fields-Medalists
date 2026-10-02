@@ -307,3 +307,12 @@
 - 核对：§9 p-adic comparison isomorphism、Corollary 9.3、Definition 9.4；§10.1 notation 与 Definition 10.1–10.2。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：p-adic comparison isomorphism 两端 `p-d_R V_0` 与 `d_R V_0` 在 Markdown 被破坏为含 `\nabla_0`、`\mathbf\Omega` 的不同对象，且括号内的 `D_{dR}(et V_{0,p}[1/p])` 也出现额外上下标。Corollary 9.3 的 `L = det(Gr^a_{F^\cdot} d_R V)` 漏掉等号，首个 Schmid 引用的 `Thm 6.6'` 被录为 `Thm 6.67`。§10.1 用于参数依赖的向量 `\vec{x}` 被录为 `\~x`；Definition 10.2 将 filtration 对象 `V_{\chi,\mathbb C}` 写成 `V_{x,\mathbb C}`，并漏掉 `Fil^\cdot` 的点。300dpi 裁片确认这些字形与上下标。PASS±：正文拼写 `Rieman Hilbert` 是印刷原文，Markdown 忠实保留；另有 `diference` 拼写伪影。
+
+## p.035（PDF p.35 / 印刷 p.35）
+- 时间：2026-10-02 01:30:56 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p035.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p035-Lemmas10.3-10.5.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p035-Definition10.6-properties.png`
+- 核对：Lemma 10.3；Definitions 10.4、10.6；Lemma 10.5 的 cocharacter、homomorphism 与权空间；Definition 10.6 的性质 (1)–(4) 和 Theorem 10.7。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Lemma 10.3 的 Shimura-data map `f:(T_1,r_1) → (T_2,r_2)` 在 Markdown 漏箭头；Lemma 10.5 的 `h:Res_{E/\mathbb Q}\mathbb G_m → Res_{E/\mathbb Q}\mathbb G_m` 同样漏箭头；Definition 10.6 性质 (3) 再次将 `f:(T_1,r_1) → (T_2,r_2)` 写成相邻对象而无箭头。300dpi 裁片确认三处箭头。印刷在 `V'_{-1}=\bigoplus_{\sigma\in\bar\Phi}` 后未印出 summand `\mathbb C_\sigma`，Markdown 忠实保留该源级公式缺项；Lemma 10.3 的印刷拼写 `vaieties` 也保留。PASS±：`heighest` 拼写伪影及 Definition 10.6 性质 (2) 中被拆开的 `Given` 与脚注 13 标记。
