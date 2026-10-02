@@ -318,3 +318,10 @@
 - 证据：源 PDF p.043 文本层、页图 `audit/Hironaka_1964_resolution_partI_p043.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p043_zariski_space.png` 与 MinerU Markdown 第 681–693 行。Question (F) 结尾和 Theorem (a) 中 canonical map 的定义域在印刷中是花体 Zariski-space 符号 `\mathfrak{Z}`；Markdown 第 681、687 行写成数字 `3`，复用 p.40–42 的系统性符号误录。维数界、归一化/monoidal transformation 序列和 compact-window 结论均相符。
 - 备注：印刷运行页眉与页码 150 未录入 Markdown，属导航元素省略。
 - 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后统一逐处修复。
+
+### PDF p.044 / 96（印刷 p.151）— PASS±
+
+- 时间：2026-10-02 02:50 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.044 文本层、页图 `audit/Hironaka_1964_resolution_partI_p044.png`（pngmono 150dpi）与 MinerU Markdown 第 697–709 行。维数 2/3 对比、analytic C-space 覆盖范围、局部环类 `\mathcal B`、Strong Theorem I 与 Theorem I′ 起始陈述均与原页相符。
+- 备注：印刷运行页眉和页码 151 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
