@@ -361,3 +361,14 @@
   7. **控制字节登记**：行 925 两处 \x0b（"M is \x0b-adically complete…"×2，ϖ 丢失）、行 929 一处 \x0b（"multiplication by \x0b on M_*"，print "by ϖ on"）——登记待字节级修复（\x0b→$\varpi$）
   8. Proof (i)："ifand only ifall To$\mathrm r_i^{\mathrm K^\circ}$"→"if and only if all$\operatorname{Tor}_i^{\mathrm K^{\circ a}}$"（To r 拆字+上标漏 a，print Tor_i^{K^{°a}}）（p.273 Proof 行原图）
 - 备注：Theorem 5.2 display 经 300dpi 仲裁（audit/300dpi/Scholze_2012_p273_thm52.png）确认第 4 项为 (K^{♭∘a}/ϖ^♭)-Perf，与 MD 一致无需改；M_*=Hom… display 与 print 一致；Proof 行 935 起属印刷 p.274，留待 p.030。
+## p.030（PDF p.30 / 印刷 p.274）
+- PNG：audit/p030.png（pngmono 150dpi）
+- 核对：页眉 274/PETER SCHOLZE；Lemma 5.3(ii)(iii)(iv) 证明（x∈Hom_K(K,N[1/ϖ])=N[1/ϖ] display、(xM)_*=Hom(𝔪,xM_*)={y∈M_*[1/ϖ]|∀ε∈𝔪:εy∈xM_*}=xM_* display、left-exact 包含、m̃/n/ñ/δñ 论证、m_1=ñ/ε、(iv) M_*=(lim M/ϖ^nM)_*=… 三连 display、M=(M_*)^a=… display+QED □）；Proposition 5.5（Φ:R°/ϖ^{1/p}≅R°/ϖ）；Proof（x^p/ϖ powerbounded、x/ϖ^{1/p}、R° ϖ-adic complete flat、QED □）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；5 处控制字节遗留见第 6 条，以原图为准）：
+  1. (iii) 首行："$=x\mathbf M_{\mathrm\Omega}$"乱码（Ω）→"$=x\mathbf M$"；"and xM is a flat"→"and$x\mathrm M_*$is a flat"（print xM_*）（p.274 (iii) 行）
+  2. (ii) 末句补句点（print "εx ∈ N."）
+  3. left-exact 段（p.274 右栏原图多处）："using that is left-exact"→"using that$_*$is left-exact"；"inclusion$\mathrm M_*/x\mathrm M_*⊂(\mathrm M/x\mathrm M),$$(,)$→$_*$"（逗号系星标误读）；"If$m∈(\mathrm M/x\mathrm M)$lifts"补 _*；"evaluate …on ."丢 ε→"on$\epsilon$"；"n˜"组合字符→"$\tilde n$"×2（δn˜ 同）；"divisible by for any"丢 ε→"divisible by$\epsilon$for any"
+  4. m_1 段："lift of$m∈(\mathrm M/x\mathrm M),$:"逗号→$_*$（p.274 Then 段）
+  5. Prop 5.5/Proof："$\mathrm K^\circ{}_{;};$"伪"_{;};"→"$\mathrm K^\circ$;"；末行"-$"→".□"（QED）
+  6. **控制字节登记（7 字节）**：行 935 两处 \x0b（"no \x0b-torsion"×2，print "no ϖ-torsion"）；行 961 \x17+\x0b（"if M is \x17-adically"，print ϖ-adic）；行 967 一处 \x0b（"M_* is \x0b-adically"）；行 973 一处 \x04（"Then \x04 induces"，print "Then Φ induces"）；行 975 一处 \x14 与两处 \x0b（"By assumption, \x14 is surjective"=Φ、"R° is \x0b-adically"×2）——Edit 无法表达，登记待字节级修复（\x0b/\x17→$\varpi$，\x04/\x14→$\Phi$）
+- 备注：(ii)(iii) 三个 display 与 print 逐字符一致；Prop 5.5 的 R°/ϖ^{1/p}≅R°/ϖ 正确；Lemma 5.6 起行 977 属印刷 p.275，留待 p.031。

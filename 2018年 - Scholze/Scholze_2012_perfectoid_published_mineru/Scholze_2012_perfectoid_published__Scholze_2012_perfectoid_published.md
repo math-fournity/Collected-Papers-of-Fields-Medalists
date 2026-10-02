@@ -946,17 +946,17 @@ $$
 x \in \mathrm{Hom} _ {\mathrm{K}} \bigg (\mathrm{K}, \mathrm{N} \bigg [ \frac {1}{\varpi} \bigg ] \bigg) = \mathrm{N} \bigg [ \frac {1}{\varpi} \bigg ]
 $$
 
-satisfying the condition that for all$\epsilon \in { \mathfrak { m } }$, we have$\epsilon x \in \mathrm { N }$
+satisfying the condition that for all$\epsilon \in { \mathfrak { m } }$, we have$\epsilon x \in \mathrm { N} $.
 
-(iii) Note that$( x \mathbf { M } _ { * } ) ^ { a } = x \mathbf { M } _ { \mathrm { \Omega } }$, and xM is a flat$\mathrm { K } ^ { \circ }$-module. Hence
+(iii) Note that$( x \mathbf { M } _ { * } ) ^ { a } = x \mathbf { M }$, and$x \mathrm { M } _ { * }$is a flat$\mathrm { K } ^ { \circ }$-module. Hence
 
 $$
 (x \mathrm{M}) _ {*} = \operatorname{Hom} (\mathfrak {m}, x \mathrm{M} _ {*}) = \left\{y \in \mathrm{M} _ {*} \left[ \frac {1}{\varpi} \right] \Big | \forall \epsilon \in \mathfrak {m}: \epsilon y \in x \mathrm{M} _ {*} \right\} = x \mathrm{M} _ {*}.
 $$
 
-Now using that is left-exact (since right-adjoint to$\mathbf { M } \mapsto \mathbf { M } ^ { a } ) ,$we get the inclusion$\mathrm { M } _ { * } / x \mathrm { M } _ { * } \subset ( \mathrm { M } / x \mathrm { M } ) ,$. If$m \in \left( \mathrm { M } / x \mathrm { M } \right)$lifts to$\tilde { m } \in ( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$,then evaluate $\tilde { m } \in \mathrm { H o m } ( \mathfrak { m } , \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * } )$on . This gives an element$n = \tilde { m } ( \epsilon ) \in \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * }$, which we lift to$\tilde { n } \in \mathbf { M } _ { * }$. One checks that n˜ is divisible by$\epsilon :$It suffices to check that δn˜ is divisible by for any$\delta \in { \mathfrak { m } }$. But$\delta n = \delta \tilde { m } ( \epsilon ) = \epsilon \tilde { m } ( \delta )$lies in$\epsilon \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * }$, hence$\delta \tilde { n } \in \epsilon \mathrm { M } _ { * }$
+Now using that$_*$is left-exact (since right-adjoint to$\mathbf { M } \mapsto \mathbf { M } ^ { a } ) ,$we get the inclusion$\mathrm { M } _ { * } / x \mathrm { M } _ { * } \subset ( \mathrm { M } / x \mathrm { M } ) _ { * }$. If$m \in \left( \mathrm { M } / x \mathrm { M } \right) _ { * }$lifts to$\tilde { m } \in ( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$,then evaluate $\tilde { m } \in \mathrm { H o m } ( \mathfrak { m } , \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * } )$on$\epsilon$. This gives an element$n = \tilde { m } ( \epsilon ) \in \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * }$, which we lift to$\tilde { n } \in \mathbf { M } _ { * }$. One checks that$\tilde { n }$is divisible by$\epsilon :$It suffices to check that$\delta \tilde { n }$is divisible by$\epsilon$for any$\delta \in { \mathfrak { m } }$. But$\delta n = \delta \tilde { m } ( \epsilon ) = \epsilon \tilde { m } ( \delta )$lies in$\epsilon \mathrm { M } _ { * } / x \epsilon \mathrm { M } _ { * }$, hence$\delta \tilde { n } \in \epsilon \mathrm { M } _ { * }$
 
-Then$\begin{array} { r } { m _ { 1 } = \frac { \tilde { n } } { \epsilon } \in \mathrm { M } _ { * } } \end{array}$is the desired lift of$m \in ( \mathrm { M } / x \mathrm { M } ) ,$: Multiplication by$\epsilon$induces an injection$( \mathrm { M } / x \mathrm { M } ) _ { * } \to ( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$, because <sub>∗</sub> is left-exact, and the images agree:$\tilde { n }$ maps to$\epsilon m = \tilde { m } ( \epsilon ) = n$in$( \mathrm { M } / x \epsilon \mathrm { M } )$<sub>∗</sub>.
+Then$\begin{array} { r } { m _ { 1 } = \frac { \tilde { n } } { \epsilon } \in \mathrm { M } _ { * } } \end{array}$is the desired lift of$m \in ( \mathrm { M } / x \mathrm { M } ) _ { * }$: Multiplication by$\epsilon$induces an injection$( \mathrm { M } / x \mathrm { M } ) _ { * } \to ( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$, because <sub>∗</sub> is left-exact, and the images agree:$\tilde { n }$ maps to$\epsilon m = \tilde { m } ( \epsilon ) = n$in$( \mathrm { M } / x \epsilon \mathrm { M } )$<sub>∗</sub>.
 
 (iv) The functors$\mathrm { M } \mapsto \mathrm { M } _ { * }$and$\mathrm { N } \mapsto \mathrm { N } ^ { a }$between the category of$\mathrm { K } ^ { \circ a }$-modules and the category of K<sup>◦</sup>-modules admit left adjoints, given by$\mathrm { N } \mapsto \mathrm { N } ^ { a }$and$\mathbf { M } \mapsto \mathbf { M } _ { ! } =$ ${ \mathfrak { m } } \otimes \mathbf { M } _ { * }$, respectively, and hence commute with inverse limits. Now if M is  -adically complete, then
 
@@ -972,7 +972,7 @@ $$
 
 Proposition 5.5. — Let R be a perfectoid K-algebra. Then  induces an isomorphism $\mathrm { R } ^ { \circ } / \varpi ^ { 1 / p } \cong \mathrm { R } ^ { \circ } / \varpi$, and$\mathbf { A } = \mathbf { R } ^ { \circ a }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra.
 
-Proof. — By assumption,$\Phi$is surjective. Injectivity is clear: If$x \in \mathrm { R } ^ { \circ }$is such that $x ^ { p } / \varpi$is powerbounded, then$x / \varpi ^ { 1 / p }$is powerbounded. Obviously,$\mathrm { R } ^ { \circ }$is  -adically complete and flat over$\mathrm { K } ^ { \circ } { } _ { ; }$; now the previous lemma shows that$\mathrm { R } ^ { \circ a }$is  -adically complete and flat over$\mathrm { K } ^ { \circ a }$-
+Proof. — By assumption,$\Phi$is surjective. Injectivity is clear: If$x \in \mathrm { R } ^ { \circ }$is such that $x ^ { p } / \varpi$is powerbounded, then$x / \varpi ^ { 1 / p }$is powerbounded. Obviously,$\mathrm { R } ^ { \circ }$is  -adically complete and flat over$\mathrm { K } ^ { \circ }$; now the previous lemma shows that$\mathrm { R } ^ { \circ a }$is  -adically complete and flat over$\mathrm { K } ^ { \circ a }$.□
 
 Lemma 5.6. — Let A be a perfectoid$\mathrm { K } ^ { \circ a }$-algebra, and let$\mathrm { R } = \mathrm { A } _ { * } [ \varpi ^ { - 1 } ]$. Equip R with the Banach K-algebra structure making$\mathrm { A } _ { * }$open and bounded. Then$\mathrm { A } _ { * } = \mathrm { R } ^ { \circ }$is the set ofpower-bounded elements, R is perfectoid, and
 
