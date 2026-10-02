@@ -325,3 +325,12 @@
 - 核对：Proposition 10.8 陈述和范数映射归约、Zarhin trick/height 估计，以及 Theorem 10.9 陈述。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Proposition 10.8 证明的 quotient map `i:(S_E,s_\Phi) → (R_E,r_\Phi)` 漏箭头，所得 height bound 的 `O_g` 被录为 `O_q`；实点分解中 `Res_{E/\mathbb Q}\mathbb G_m(\mathbb R)` 的域/群记号遭 HTML 与字体噪声破坏。Character identity `\chi_{Std}^2=i^*\chi_\Phi\cdot Nm` 的 `Nm` 被写成含下标 `l` 的 `N_lm`；后续 Shimura morphism `Nm_{E/\mathbb Q}:(S_E,s_\Phi) → (\mathbb G_m,Nm_{E/\mathbb Q})` 既多出 `\Sigma` 又漏箭头。Zarhin 表示 `Std^{\oplus 8}` 被转录成注册商标样式 `Std^{\textregistered 8}`，高度界 `h_A(x)=O_g((\operatorname{Disc}E)^{o_g(1)})` 也被破坏。Theorem 10.9 的量词点条件 `x\in S_K(G,X)(\mathbb Q)` 则变成 `x\equiv S_K(G,X)(\overline{\mathbb Q})`。300dpi 裁片确认这些映射、符号、底域和指数。PASS±：印刷中的 `its a rational character` 与 `The completes the proof` 原样保留，属源级语法瑕疵。
+
+## p.037（PDF p.37 / 印刷 p.37）
+- 时间：2026-10-02 01:40:08 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p037.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p037-Theorem10.9proof-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p037-Theorem10.10-reduction.png`
+- 核对：Theorem 10.9 证明的 adjoint filtration、Theorem 6.6 的 partial-CM-type maps 与 height sum；Theorem 10.10 Step 1–3 及 Galois-closure reduction。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Theorem 10.9 证明中的 `L := det Fil^1_{dR}V` 被录成含波浪号的 `Fil^{\tilde 1}`。由 Theorem 6.6 给出的 map `a_i:(T_x,h_x) → (R_{E_T},r_{\Phi_i})` 漏箭头；Step 2 的 norm map `Nm_{E'/E}:R_{E'} → R_E` 和诱导 Shimura-data map 两处也漏箭头。Step 3 标题 `|\Phi|=1` 的编号 `3` 被录成 `\mathcal B`。300dpi 裁片确认其上标、映射与步骤编号。PASS± 源级印刷瑕疵：`By Theorem 6.6 there there are` 的重复 `there` 被忠实保留；另有 `suficient` 拼写伪影。
