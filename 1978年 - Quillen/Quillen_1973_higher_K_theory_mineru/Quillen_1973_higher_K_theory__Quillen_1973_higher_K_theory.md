@@ -1,3 +1,5 @@
+# Higher algebraic K-theory: I
+
 ## Daniel Quillen\*
 
 The purpose of this paper is to develop a higher K-theory for additive categories with exact sequences which extends the existing theory of the Grothendieck group in a natural way. To describe the approach taken here, let $\underline{\underline{M}}$ be an additive category embedded as a full subcategory of an abelian category $\underline{\underline{A}}$, and assume $\underline{\underline{M}}$ is closed under extensions in $\underline{\underline{A}}$. Then one can form a new category $Q(\underline{\underline{M}})$ having the same objects as $\underline{\underline{M}}$, but in which a morphism from $M'$ to $M$ is taken to be an isomorphism of $M'$ with a subquotient $M_1/M_0$ of $M$, where $M_0 \subset M_1$ are subobjects of $M$ such that $M_0$ and $M/M_1$ are objects of $\underline{\underline{M}}$. Assuming the isomorphism classes of objects of $\underline{\underline{M}}$ form a set, the category $Q(\underline{\underline{M}})$ has a classifying space $BQ(\underline{\underline{M}})$ determined up to homotopy equivalence. One can show that the fundamental group of this classifying space is canonically isomorphic to the Grothendieck group of $\underline{\underline{M}}$, which motivates defining a sequence of K-groups by the formula
@@ -10,7 +12,7 @@ It is the goal of the present paper to show that this definition leads to an int
 
 The first part of the paper is concerned with the general theory of these K-groups. Section 1 contains various tools for working with the classifying space of a small category. It concludes with an important result which identifies the homotopy-theoretic fibre of the map of classifying spaces induced by a functor. In K-theory this is used to obtain long exact sequences of K-groups from the exact homotopy sequence of a map.
 
-Section 2 is devoted to the definition of the K-groups and their elementary properties. One notes that the category $Q(\underline{\underline{M}})$ depends only on $\underline{\underline{M}}$ and the family of those short sequences $O \to M' \to M \to M'' \to O$ in $\underline{\underline{M}}$ which are exact in the ambient abelian category. In order to have an intrinsic object of study, it is convenient to introduce the notion of an exact category, which is an additive category equipped with a family of short sequences satisfying some standard conditions (essentially those axiomatized in [Heller]). For an exact category $\underline{\underline{M}}$ with a set of isomorphism classes one has a sequence of K-groups $K_{i}(\underline{\underline{M}})$ varying functorially with respect to exact functors. Section 2 also contains the proof that $K_{o}(\underline{\underline{M}})$ is isomorphic to the Grothendieck group of $\underline{\underline{M}}$. It should be mentioned, however, that there are examples due to Gersten and Murthy showing that in general $K_{1}(\underline{\underline{M}})$ is not the same as the universal determinant group of Bass.
+Section 2 is devoted to the definition of the K-groups and their elementary properties. One notes that the category $Q(\underline{\underline{M}})$ depends only on $\underline{\underline{M}}$ and the family of those short sequences $0 \to M' \to M \to M'' \to 0$ in $\underline{\underline{M}}$ which are exact in the ambient abelian category. In order to have an intrinsic object of study, it is convenient to introduce the notion of an exact category, which is an additive category equipped with a family of short sequences satisfying some standard conditions (essentially those axiomatized in [Heller]). For an exact category $\underline{\underline{M}}$ with a set of isomorphism classes one has a sequence of K-groups $K_{i}(\underline{\underline{M}})$ varying functorially with respect to exact functors. Section 2 also contains the proof that $K_{0}(\underline{\underline{M}})$ is isomorphic to the Grothendieck group of $\underline{\underline{M}}$. It should be mentioned, however, that there are examples due to Gersten and Murthy showing that in general $K_{1}(\underline{\underline{M}})$ is not the same as the universal determinant group of Bass.
 
 The next three sections contain four basic results which might be called the exactness, resolution, devissage, and localization theorems. Each of these generalizes a well-known result for the Grothendieck group ([Bass, Ch. VIII]), and, as will be apparent from the rest of the paper, they enable one to do a lot of K-theory.
 
@@ -29,7 +31,7 @@ for A noetherian, which entail the corresponding results for K-groups when A is 
 For a scheme (resp. noetherian) scheme $X$, the groups $K_{i}(X)$ (resp. $K_{i}'(X)$) are defined using the category of vector bundles (resp. coherent sheaves) on $X$, and there is a canonical map $K_{i}(X) \to K_{i}'(X)$ which is an isomorphism for $X$ regular. Section 7 is devoted to the $K'$-theory. Especially interesting is a spectral sequence
 
 $$
-E _ {1} ^ {p q} = \underset {\operatorname{cod} (x) = p} {\coprod} K _ {- p - q} (k (x)) \Longrightarrow K _ {- n} ^ {\prime} (x)
+E _ {1} ^ {p q} = \underset {\operatorname{cod} (x) = p} {\coprod} K _ {- p - q} (k (x)) \Longrightarrow K _ {- n} ^ {\prime} (X)
 $$
 
 obtained by filtering the category of coherent sheaves according to the codimension of the support. In the case where X is regular and of finite type over a field, we carry out a program proposed by Gersten at this conference ([Gersten 3]), which leads to a proof of Bloch's formula
@@ -48,7 +50,7 @@ fundamental theorem for non-regular rings [Bass, p.494,663]. These results will 
 
 The proofs of Theorems A and B given in section 1 owe a great deal to conversations with Graeme Segal, to whom I am very grateful. One can derive these results in at least two other ways, using cohomology and the Whitehead theorem as in [Friedlander], and also by means of the theory of minimal fibrations of simplicial sets. The present approach, based on the Dold-Thom theory of quasi-fibrations, is quite a bit shorter than the others, although it is not as clear as I would have liked, since the main points are in the references. Someday these ideas will undoubtedly be incorporated into a general homotopy theory for topoi.
 
-This paper was prepared with the editor's encouragement during the first two months of 1973. I mention this because the results in §7 on Gersten's conjecture and Bloch's formula, which were discovered at this time, directly affect the papers [Gersten 3, 4] and [Bloch] in this proceedings, which were prepared earlier.
+This paper was prepared with the editor's encouragement during the first two months of 1973. I mention this because the results in §7 on Gersten's conjecture and Bloch's formula, which were discovered at this time, directly affect the papers [Gersten 3, 4] and [Bloch] in this procedings, which were prepared earlier.
 
 ## CONTENTS
 
@@ -99,6 +101,8 @@ The projective bundle theorem
 The projective line over a (not necessarily commutative) ring
 Severi-Brauer schemes and Azumaya algebras
 
+§1. The classifying space of a small category
+
 In the succeeding sections of this paper K-groups will be defined as the homotopy groups of the classifying space of a certain small category. In this rather long section we collect together the various facts about the classifying space functor we will need. All of these are fairly well-known, except for the important Theorem B which identifies the homotopy-fibre of the map of classifying spaces induced by a functor under suitable conditions. It will later be used to derive long exact sequences in K-theory from the homotopy exact sequence of a map.
 
 Let $\underline{\underline{C}}$ be a small category. Its nerve, denoted NC, is the (semi-)simplicial set whose p-simplices are the diagrams in $\underline{\underline{C}}$ of the form
@@ -113,7 +117,7 @@ For example, let J be a (partially) ordered set regarded as a category in the us
 
 As another example, let a group G be regarded as a category with one object in the usual way. Then BG is a classifying space for the discrete group G in the traditional sense. It is an Eilenberg–MacLane space of type  $K(G,1)$ , so few homotopy types occur in this way.
 
-Let $X$ be an object of $\underline{\underline{C}}$. Using $X$ to denote also the corresponding O-cell of $BC$, we have a family of homotopy groups $\pi_{i}(BC, X)$, $i \geq 0$, which will be called the homotopy groups of $\underline{\underline{C}}$ with basepoint $X$ and denoted simply $\pi_{i}(C, X)$. Of course, $\pi_{o}(C, X)$ is not a group, but a pointed set, which can be described as the set $\pi_{o}^{C}$ of components of the category $\underline{\underline{C}}$ pointed by the component containing $X$. In effect, connected components of $BC$ are in one-one correspondence with components of $\underline{\underline{C}}$.
+Let $X$ be an object of $\underline{\underline{C}}$. Using $X$ to denote also the corresponding O-cell of $BC$, we have a family of homotopy groups $\pi_{i}(BC, X)$, $i \geq 0$, which will be called the homotopy groups of $\underline{\underline{C}}$ with basepoint $X$ and denoted simply $\pi_{i}(C, X)$. Of course, $\pi_{0}(C, X)$ is not a group, but a pointed set, which can be described as the set $\pi_{0}^{C}$ of components of the category $\underline{\underline{C}}$ pointed by the component containing $X$. In effect, connected components of $BC$ are in one-one correspondence with components of $\underline{\underline{C}}$.
 
 We will see below that $\pi_1(\underline{\underline{C}}, X)$ and also the homology groups of BC can be defined "algebraically" without the use of spaces or some closely related machine such as semi-simplicial homotopy theory, or simplicial complexes and subdivision. The existence of similar descriptions of the higher homotopy groups seems to be unlikely, because so far
 
@@ -156,17 +160,13 @@ It is well-known that the homology and cohomology of the classifying space of a 
 Let $A$ be a functor from $\underline{C}$ to $Ab$, the category of abelian groups, and let $H_{p}(\underline{C}, A)$ denote the homology of the simplicial abelian group
 
 $$
-C _ {p} (\underline {{C}}, A) = \underset {X _ {o} \rightarrow \dots \rightarrow X _ {p}} {\perp \perp} A (X _ {o})
+C _ {p} (\underline {{C}}, A) = \bigoplus_{X_{0} \rightarrow \dots \rightarrow X_{p}} A(X_{0})
 $$
 
 of chains on NC with coefficients in A. (By the homology we mean the homology of the associated normalized chain complex.) Then there are canonical isomorphisms
 
 $$
-\mathrm{H} _ {\mathrm{p}} (\underline {{\mathrm{C}}}, \mathrm{A}) = \lim _ {\mathrm{p}} \frac {\underline {{\mathrm{C}}}}{\mathrm{p}} (\mathrm{A})
-$$
-
-$$
-\underbrace {\lim} _ {*} \stackrel {{C}} {+}
+\mathrm{H}_{p}(\underline{\underline{C}},A) = \varinjlim_{\underline{\underline{C}}}^{p}(A)
 $$
 
 where $\varinjlim_{*}$ denotes the left derived functors of the right exact functor $\varinjlim$ from $\operatorname{Funct}(\underline{\underline{\mathbb{C}}},\mathrm{Ab})$ to $\mathrm{Ab}$. This is proved by showing that $A \mapsto H_{*}(\underline{\underline{\mathbb{C}}},A)$ is an exact $\partial$-functor which coincides with $\varinjlim$ in degree zero and is effaceable in positive degrees. (See [Gabriel-Zisman, App.II, 3.3].)
@@ -174,7 +174,7 @@ where $\varinjlim_{*}$ denotes the left derived functors of the right exact func
 Let $H_{*}(BC, L)$ denote the singular homology of $BC$ with coefficients in a local coefficient system L. Then there are canonical isomorphisms
 
 $$
-\mathrm{H} _ {\mathrm{p}} (\underset {=} {\mathrm{BC}}, \mathrm{L}) = \mathrm{H} _ {\mathrm{p}} (\underset {=} {\mathrm{C}}, \mathrm{L})
+\mathrm{H}_{p}(BC,L) = \mathrm{H}_{p}(\underline{\underline{C}},L)
 $$
 
 where we identify L with a morphism-inverting functor as above. This may be proved by filtering the CW complex BC by means of its skeleta and considering the associated spectral sequence. One has  $E_{pq}^{1}=0$  for  $q\neq0$  and  $E_{*0}^{1}=$  the normalized chain complex associated to  $C_{*}(C,L)$ . (Compare [Segal 1, 5.1].) The spectral sequence degenerates yielding the desired isomorphism.
@@ -182,13 +182,13 @@ where we identify L with a morphism-inverting functor as above. This may be prov
 Thus we have
 
 $$
-\mathrm{H} _ {\mathrm{p}} (\underset {=} {\mathrm{BC}}, \mathrm{L}) = \lim _ {\rightarrow} \underset {\mathrm{P}} {\stackrel {\underline {{\mathrm{C}}}} {=}} (\mathrm{L})\tag{1}
+\mathrm{H}_{p}(BC,L) = \varinjlim_{\underline{\underline{C}}}^{p}(L)\tag{1}
 $$
 
 and similarly we have a canonical isomorphism for cohomology
 
 $$
-\mathrm{H} ^ {\mathrm{P}} (\underset {\underline {{=}}} {\mathrm{BC}}, \mathrm{L}) = \underset {\underline {{=}}} {\lim} _ {\underline {{C}}} ^ {\mathrm{P}} (\mathrm{L})\tag{2}
+\mathrm{H}^{p}(BC,L) = \varprojlim_{\underline{\underline{C}}}^{p}(L)\tag{2}
 $$
 
 where $\varprojlim_{\underline{\underline{C}}}$ denotes the right derived functors of the left exact functor $\varprojlim$ from $\operatorname{Funct}(\underline{\underline{C}},\mathrm{Ab})$ to Ab.
@@ -198,7 +198,7 @@ Properties of the classifying space functor.
 From now on we use the letters $\underline{\underline{C}}$, $\underline{\underline{C}'}$, etc. to denote small categories. If $f: \underline{\underline{C}} \to \underline{\underline{C}'}$ is a functor, it induces a cellular map $Bf: BC \to BC'$. In this way we obtain a faithful functor from the category of small categories to the category of CW complexes and cellular maps. This functor is of course not fully faithful. As a particularly interesting example, we note that there is an obvious canonical cellular homeomorphism
 
 $$
-\underset {=} {\mathrm{BC}} = \underset {=} {\mathrm{BC} ^ {0}}\tag{3}
+BC \cong BC^{\circ}\tag{3}
 $$
 
 where $\underline{\underline{C}}^{\circ}$ is the dual category, which is not realized by a functor from $\underline{\underline{C}}$ to $\underline{\underline{C}}^{\circ}$ except in very special cases, e.g. groups.
@@ -230,7 +230,7 @@ Let $I$ be a small category which is filtering (= non-empty + directed [Bass, p.
 Proposition 3. If X is the common image of the  $X_{i}$  in C, then
 
 $$
-\lim _ {\rightarrow} \pi_ {n} (C, X _ {i}) = \pi_ {n} (C, X).
+\varinjlim_{i} \pi_{n}(C_{i},X_{i}) = \pi_{n}(C,X)\tag{4}
 $$
 
 Proof. Because I is filtering and $\underline{\mathbf{NC}} = \varinjlim \underline{\mathbf{NC}}_{\underline{i}}$, it follows that any simplicial subset of $\underline{\mathbf{NC}}$ with a finite number of nondegenerate simplices lifts to $\underline{\mathbf{NC}}_{\underline{i}}$ for some i, and moreover the lifting is unique up to enlarging the index i in the evident sense. As every compact subset of a CW complex is contained in a finite subcomplex, we see that every compact subset of $\underline{\mathbf{BC}}$ lifts to $\underline{\mathbf{BC}}_{\underline{i}}$ for some i, uniquely up to enlarging i. The proposition follows easily from this.
@@ -239,13 +239,9 @@ Corollary 1. Suppose in addition that for every arrow $i \to i'$ in I the induce
 
 Proof. Replacing I by the cofinal category i\I of objects under i, we can suppose i is the initial object of I. It then follows from the proposition that the map of CW complexes BC=1→BC induces isomorphisms on homotopy. Hence it is a homotopy equivalence by a well-known theorem of Whitehead.
 
-$$
-\mathbf {I} / \mathbf {i}
-$$
+Corollary 2. Any filtering category is contractible.
 
-$$
-i \mapsto I / i
-$$
+In effect, $I$ is the inductive limit of the functor $i \mapsto I/i$, and the category $I/i$ of objects over $i$ has a final object, hence is contractible.
 
 <div class="docvortex-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 Sufficient conditions for a functor to be a homotopy equivalence.
@@ -272,10 +268,8 @@ Dually, f makes $\underline{\underline{C}}$ into a precofibred category over $\u
 
 Corollary. Suppose that f is either prefibred or precofibred, and that f$^{-1}$(Y) is contractible for every Y. Then f is a homotopy equivalence.
 
-This follows from Eqn 2, Gen 1
+This follows from Prop. 2, Cor. 1.
 </div>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">This follows from Prop. 2, Cor. 1.</span></small>
 
 Example. Let $S(\underline{\underline{C}})$ be the category whose objects are the arrows of $\underline{\underline{C}}$, and in which a morphism from $u: X \to Y$ to $u': X' \to Y'$ is a pair $v: X' \to X$, $w: Y \to Y'$ such that $u' = wuv$. (Thus $S(\underline{\underline{C}})$ is the cofibred category over $\underline{\underline{C}}\circ x\underline{\underline{C}}$ with discrete fibres defined by the functor $(X,Y) \mapsto \text{Hom}(X,Y)$.) One has functors
 
@@ -283,7 +277,7 @@ $$
 \underline {{\underline {{\mathbb {C}}}}} ^ {\circ} \xleftarrow {\mathbf {s}} \mathrm{S} (\underline {{\underline {{\mathbb {C}}}}}) \xrightarrow {\mathbf {t}} \underline {{\underline {{\mathbb {C}}}}}
 $$
 
-given by source and target, and it is easy to see that these functors are cofibred. The categories $s^{-1}(X) = X \setminus \underline{C}$ and $t^{-1}(Y) = (\underline{C}/Y)^0$ have initial objects, hence are contractible. Therefore $s$ and $t$ are homotopy equivalences by the corollary. This construction provides the simplest way of realizing by means of functors the homotopy equivalence (3).
+given by source and target, and it is easy to see that these functors are cofibred. The categories $s^{-1}(X) = X \setminus \underline{C}$ and $t^{-1}(Y) = (\underline{C}/Y)^\circ$ have initial objects, hence are contractible. Therefore $s$ and $t$ are homotopy equivalences by the corollary. This construction provides the simplest way of realizing by means of functors the homotopy equivalence (3).
 
 We now turn to the proof of Theorem A. We will need a standard fact about the realization of bisimplicial spaces which we now derive.
 
@@ -344,7 +338,7 @@ given by  $p_{1}(X,Y,v) = X, \quad p_{2}(X,Y,v) = Y.$
 Let $T(f)$ be the bisimplicial set such that an element of $T(f)_{pq}$ is a pair of diagrams
 
 $$
-\left(\mathrm{Y} _ {\mathrm{p}} \rightarrow \dots \rightarrow \mathrm{Y} _ {\mathrm{o}} \rightarrow \mathrm{fX} _ {\mathrm{o}}, \mathrm{X} _ {\mathrm{o}} \rightarrow \dots \rightarrow \mathrm{X} _ {\mathrm{q}}\right)
+\left(\mathrm{Y} _ {\mathrm{p}} \rightarrow \dots \rightarrow \mathrm{Y} _ {0} \rightarrow \mathrm{fX} _ {0}, \mathrm{X} _ {0} \rightarrow \dots \rightarrow \mathrm{X} _ {\mathrm{q}}\right)
 $$
 
 in $\underline{\underline{C}}'$ and $\underline{\underline{C}}$ respectively, and such that the i-th face in the p-(resp. q-)direction deletes the object $Y_{i}$ (resp $X_{i}$) in the obvious way. Forgetting the first component gives a map of bisimplicial sets
@@ -356,15 +350,15 @@ $$
 where the latter is constant in the p-direction. Since the diagonal simplicial set of T(f) is the nerve of the category S(f), it is clear that the realization of (\*) is the map  $\mathrm{Bp}_{1}:\mathrm{BS}(f)\longrightarrow\mathrm{BC}$ . (By the realization of a bisimplicial set we mean the space described in the above lemma, where the bisimplicial set is regarded as a bisimplicial space in the obvious way.) On the other hand, realizing (\*) with respect to p gives a map of simplicial spaces
 
 $$
-\underset {X _ {o} \rightarrow \dots \rightarrow X _ {q}} {\text { 丨   丨 }} B (\underset {=} {C ^ {\prime}} / f X _ {o}) ^ {o} \quad \longrightarrow \underset {X _ {o} \rightarrow \dots \rightarrow X _ {q}} {\text { 丨   丨 }} p t = N C _ {= q}
+\underset {X _ {0} \rightarrow \dots \rightarrow X _ {q}} {\text { 丨   丨 }} B (\underset {=} {C ^ {\prime}} / f X _ {0}) ^ {\circ} \quad \longrightarrow \underset {X _ {0} \rightarrow \dots \rightarrow X _ {q}} {\text { 丨   丨 }} p t = N C _ {= q}
 $$
 
 which is a homotopy equivalence for each q because the category  $C'/fX_{0}$  has a final object. Applying a basic result of May and Tornehave ([Tornehave, A.3]), or the lemma below (Th. B), we see the realization of (\*) is a homotopy equivalence. Thus the functor  $p_{i}$  is a homotopy equivalence.
 
-Similarly there is a map of bisimplicial sets $T(f)_{pq} \to N(C^{\prime 0})_p$ whose realization is the map $Bp_2: BS(f) \longrightarrow BC^{\prime 0}$. Realizing with respect to $q$, we obtain a map of simplicial spaces
+Similarly there is a map of bisimplicial sets $T(f)_{pq} \to N(C^{\prime \circ})_p$ whose realization is the map $Bp_2: BS(f) \longrightarrow BC^{\prime \circ}$. Realizing with respect to $q$, we obtain a map of simplicial spaces
 
 $$
-\bigcup_ {Y _ {o} \leftarrow \dots \leftarrow Y _ {p}} B (Y _ {o} \backslash f) \longrightarrow \bigcup_ {Y _ {o} \leftarrow \dots \leftarrow Y _ {p}} p t = N (\underline {{C}} ^ {\prime \circ}) _ {p}\tag{**}
+\bigcup_ {Y _ {0} \leftarrow \dots \leftarrow Y _ {p}} B (Y _ {0} \backslash f) \longrightarrow \bigcup_ {Y _ {0} \leftarrow \dots \leftarrow Y _ {p}} p t = N (\underline {{C}} ^ {\prime \circ}) _ {p}\tag{**}
 $$
 
 which is a homotopy equivalence for each $p$, because the categories $Y \setminus f$ are contractible by hypothesis. Thus we conclude that the functor $p_2$ is a homotopy equivalence.
@@ -382,13 +376,13 @@ The exact homotopy sequence.
 Let $g: E \to B$ be a map of topological spaces and let $b$ be a point of $B$. The homotopy-fibre of $f$ over $b$ is the space
 
 $$
-F (g, b) = E x _ {B} B ^ {I} x _ {B} \{b \}
+F (g, b) = E \times_{B} B ^ {I} \times_{B} \{b \}
 $$
 
 consisting of pairs $(\mathbf{e},\mathfrak{p})$ with $\mathbf{e}$ a point of $\mathbf{E}$ and $\mathfrak{p}$ a path joining $g(\mathbf{e})$ and $\mathbf{b}$. For any $\mathbf{e}$ in $g^{-1}(\mathfrak{b})$ one has the exact homotopy sequence of $\mathbf{g}$ with basepoint $\mathbf{e}$
 
 $$
-\longrightarrow \pi_ {i + 1} (B, b) \longrightarrow \pi_ {i} (F (g, b), \vec {e}) \longrightarrow \pi_ {i} (E, e) \xrightarrow {g *} \pi_ {i} (B, b) \longrightarrow .
+\longrightarrow \pi_ {i + 1} (B, b) \longrightarrow \pi_ {i} (F (g, b), \overline{e}) \longrightarrow \pi_ {i} (E, e) \xrightarrow {g *} \pi_ {i} (B, b) \longrightarrow .
 $$
 
 where  $\overline{e}=(e,\overline{b})$ ,  $\overline{b}$  denoting the constant path at b.
@@ -437,7 +431,7 @@ Corollary. Suppose $f: \underline{C} \to \underline{C}'$ is prefibred (resp. pre
 where i is the inclusion functor, is homotopy-cartesian.) Consequently for any X in  $f^{-1}(Y)$  we have an exact homotopy sequence
 
 $$
-\rightarrow \pi_ {i + 1} (\underline {{C}}, Y) \longrightarrow \pi_ {i} (f ^ {- 1} (Y), X) \xrightarrow {i _ {*}} \pi_ {i} (\underline {{C}}, X) \xrightarrow {f _ {*}} \pi_ {i} (\underline {{C}}, Y) \longrightarrow .
+\rightarrow \pi_ {i + 1} (\underline {{C}}', Y) \longrightarrow \pi_ {i} (f ^ {- 1} (Y), X) \xrightarrow {i _ {*}} \pi_ {i} (\underline {{C}}, X) \xrightarrow {f _ {*}} \pi_ {i} (\underline {{C}}', Y) \longrightarrow .
 $$
 
 This is clear, since $f^{-1}(Y) \to Y \setminus f$ is a homotopy equivalence for prefibred $f$.
@@ -450,15 +444,33 @@ is homotopy-cartesian.
 
 Lemma. Let $i \mapsto X_i$ be a functor from a small category I to topological spaces, and let $g: X_I \to BI$ be the space over BI obtained by realizing the simplicial space
 
-![](images/page_13_image_3.jpg)
+$$
+p \longmapsto \coprod_{i_{0} \rightarrow \dots \rightarrow i_{p}} X_{i_{0}}.
+$$
 
-If $X_{i} \to X_{i}$, is a homotopy equivalence for every arrow $i \to i'$ in $I$, then $g$ is a quasi-fibration.
+If $X_{i} \to X_{i'}$ is a homotopy equivalence for every arrow $i \to i'$ in $I$, then $g$ is a quasi-fibration.
 
 Proof. It suffices by Lemma 1.5 of [Dold-Lashof] to show that the restriction of $g$ to the $p$-skeleton $F_p$ of BI is a quasi-fibration for all $p$. We have a map of cocartesian squares
 
-![](images/page_13_image_6.jpg)
+$$
+\begin{array}{ccc}
+\displaystyle\coprod_{s=(i_{0}\to\dots\to i_{p})}X_{i_{0}}\times\partial\Delta^{p}
+&\hookrightarrow&
+\displaystyle\coprod_{s=(i_{0}\to\dots\to i_{p})}X_{i_{0}}\times\Delta^{p}\\
+\downarrow && \downarrow\\
+g^{-1}(F_{p-1})&\hookrightarrow&g^{-1}(F_{p})
+\end{array}
+\xrightarrow{\ g\ }
+\begin{array}{ccc}
+\displaystyle\coprod_{s=(i_{0}\to\dots\to i_{p})}\partial\Delta^{p}
+&\hookrightarrow&
+\displaystyle\coprod_{s=(i_{0}\to\dots\to i_{p})}\Delta^{p}\\
+\downarrow && \downarrow\\
+F_{p-1}&\hookrightarrow&F_{p}
+\end{array}
+$$
 
-where the disjoint unions are taken over the nondegenerated p-simplices  $i_{o} \rightarrow \ldots \rightarrow i_{p}$  of NI. Let U be the open set of  $F_{p}$  obtained by removing the barycenters of the p-cells, and let  $V = F_{p} - F_{p-1}$ . It suffices by Lemma 1.4 of loc. cit. to show the restrictions of g to U, V and  $U \cap V$  are quasi-fibrations. This is clear for V and  $U \cap V$ , since over each p-cell g is a product map.
+where the disjoint unions are taken over the nondegenerate p-simplices $s=(i_{0}\to\dots\to i_{p})$ of $NI$. Let U be the open set of $F_{p}$ obtained by removing the barycenters of the p-cells, and let $V=F_{p}-F_{p-1}$. It suffices by Lemma 1.4 of loc. cit. to show the restrictions of g to U, V and $U\cap V$ are quasi-fibrations. This is clear for V and $U\cap V$, since over each p-cell g is a product map.
 
 We will apply Lemma 1.3 of loc. cit. to $g|U$, assuming as we may by induction that $g|_{F_{p-1}}$ is a quasi-fibration, and using the evident fibre-preserving deformation $D$ of $g|U$ into $g|_{F_{p-1}}$ provided by the radial deformation of $\Delta^p$ minus barycenter onto $\partial \Delta^p$. We have only to check that if $D$ carries $x \in U$ into $x' \in F_{p-1}$, then the map $g^{-1}(x) \to g^{-1}(x')$ induced by $D$ induces isomorphisms of homotopy groups. Supposing $x \notin F_{p-1}$ as we may, let $x$ come from an interior point $z$ of the copy of $\Delta^p$ corresponding to the simplex $s = (i_0 \to \ldots \to i_p)$, and let the radial deformation push $z$ into the open face of $\Delta^p$ with vertices $j_0 < \ldots < j_q$. Then it is easy to see that $g^{-1}(x) = X_{i_0}$ and $g^{-1}(x') = X_k$, $k = i_{j_0}$, and that the map in question is the one $X_{i_0} \to X_k$ induced by the face $i_0 \to k$ of $s$. As these induced maps are homotopy equivalences by hypothesis, the proof of the lemma is complete.
 
@@ -496,7 +508,7 @@ b) The class of admissible epimorphisms is closed under composition and under ba
 
 c) Let $M \to M''$ be a map possessing a kernel in $\underline{M}$. If there exists a map $N \to M$ in $\underline{M}$ such that $N \to M \to M''$ is an admissible epimorphism, then $M \to M''$ is an admissible epimorphism. Dually for admissible monomorphisms.
 
-For example, suppose given a sequence (1) in $\underline{\underline{E}}$ and a map $f: N \to M^n$ in $\underline{\underline{M}}$. Form the diagram in $\underline{\underline{A}}$
+For example, suppose given a sequence (1) in $\underline{\underline{E}}$ and a map $f: N \to M''$ in $\underline{\underline{M}}$. Form the diagram in $\underline{\underline{A}}$
 
 ![](images/page_15_image_0.jpg)
 
@@ -552,7 +564,7 @@ $$
 j ^ {!}: M ^ {\prime \prime} \rightarrow M
 $$
 
-and these morphisms will be called surjective. By definition, any morphism $u$ in QM can be factored $u = i_j j^!$, and this factorization is unique up to unique isomorphism. If we form the bicartesian square
+and these morphisms will be called surjective. By definition, any morphism $u$ in QM can be factored $u = i_! j^!$, and this factorization is unique up to unique isomorphism. If we form the bicartesian square
 
 (4)
 
@@ -575,48 +587,48 @@ Now suppose given a category $\underline{\underline{\underline{C}}}$ and for eac
 In particular, an exact functor $F: \underline{\underline{M}} \to \underline{\underline{M}'}$ between exact categories induces a functor $\underline{\underline{QM}} \to \underline{\underline{QM}'}$, $M \mapsto FM$, $i_! \mapsto (Fi)!$, $j! \mapsto (Fj)!$. We note also that if $\underline{\underline{M}^0}$ is the dual exact category, then we have an isomorphism of categories
 
 $$
-\mathrm{Q} (\underline {{\mathrm{M}}} ^ {\mathrm{O}}) = \mathrm{QM}\tag{5}
+\mathrm{Q}(\underline{\underline{M}}^{\circ})\cong\mathrm{QM}\tag{5}
 $$
 
 such that the injective arrows in the former correspond to surjective arrows in the latter and conversely.
 
 The fundamental group of QM. Suppose now that M is a small exact category, so that the classifying space B(QM) is defined. Let O be a given zero object of M.
 
-Theorem 1. The fundamental group $\pi_{1}(B(QM),0)$ is canonically isomorphic to the Grothendieck group $K_{M}$.
+Theorem 1. The fundamental group $\pi_{1}(B(QM),O)$ is canonically isomorphic to the Grothendieck group $K_{0}M$.
 
 Proof. The Grothendieck group is by definition the abelian group with one generator $[M]$ for each object $M$ of $\underline{M}$ and one relation $[M] = [M'][M'']$ for each exact sequence (1) in $\underline{M}$. We note that it could also be defined as the not-necessarily-abelian group with the same generators and relations, because the relations $[M'][M''] = [M' \oplus M''] = [M''][M']$ force the group to be abelian.
 
-According to Prop. 1, the category of covering spaces of $B(QM)$ is equivalent to the category $\underline{F}$ of morphism-inverting functors $F: QM \to \text{Sets}$. It suffices therefore to show the group $K_{0}M$ acts naturally on $F(0)$ for $F$ in $\underline{F}$, and that the resulting functor from $\underline{F}$ to $K_{0}M - \text{sets}$ is an equivalence of categories.
+According to Prop. 1, the category of covering spaces of $B(QM)$ is equivalent to the category $\underline{F}$ of morphism-inverting functors $F: QM \to \text{Sets}$. It suffices therefore to show the group $K_{0}M$ acts naturally on $F(O)$ for $F$ in $\underline{F}$, and that the resulting functor from $\underline{F}$ to $K_{0}M - \text{sets}$ is an equivalence of categories.
 
-Let $i_M : 0 \to M$ and $j_M : M \to O$ denote the obvious maps, and let $\underline{\underline{F}}'$ be the full subcategory of $\underline{\underline{F}}$ consisting of $F$ such that $F(M) = F(0)$ and $F(i_{M!}) = id_{F(0)}$ for all $M$. Clearly any $F$ is isomorphic to an object of $\underline{F}'$, so it suffices to show
+Let $i_M : O \to M$ and $j_M : M \to O$ denote the obvious maps, and let $\underline{\underline{F}}'$ be the full subcategory of $\underline{\underline{F}}$ consisting of $F$ such that $F(M) = F(O)$ and $F(i_{M!}) = id_{F(O)}$ for all $M$. Clearly any $F$ is isomorphic to an object of $\underline{F}'$, so it suffices to show
 
 $F'$ is equivalent to $K_{0}M - sets$.
 
-Given a  $K_{0}=M$  - set S, let  $F_{S}: QM \rightarrow Sets$  be the functor defined by
+Given a $K_{0}M$-set $S$, let $F_{S}: QM \rightarrow Sets$ be the functor defined by
 
 $$
 \mathbf {F} _ {\mathrm{S}} (\mathrm{M}) = \mathrm{S}, \mathbf {F} _ {\mathrm{S}} (\mathrm{i} _ {!}) = \mathrm{id} _ {\mathrm{S}}, \quad \mathbf {F} _ {\mathrm{S}} (\mathrm{j} ^ {!}) = \text { multiplication   by } \quad [ \text { Ker   j } ] \text { on   S },
 $$
 
-using the universal property of $\underline{\mathbf{QM}}$. Clearly $\mathbf{S} \mapsto \mathbf{F}_{\mathbf{S}}$ is a functor from $\underline{\mathbf{K}}\underline{\mathbf{M}} - \text{sets to} \underline{\mathbf{F}}'$. On the other hand if $\mathbf{F} \in \underline{\mathbf{F}}'$, then given $\mathbf{i}: \mathbf{M}' \to \mathbf{M}$ we have $\mathbf{i} \cdot \mathbf{i}_{\mathbf{M}'} = \mathbf{i}_{\mathbf{M}}$, hence $\mathbf{F}(\mathbf{i}_!') = \mathrm{id}_{\mathbf{F}(0)}$. Given the exact sequence
+using the universal property of $\underline{\mathbf{QM}}$. Clearly $\mathbf{S} \mapsto \mathbf{F}_{\mathbf{S}}$ is a functor from $K_{0}M$-sets to $\underline{\mathbf{F}}'$. On the other hand if $\mathbf{F} \in \underline{\mathbf{F}}'$, then given $\mathbf{i}: \mathbf{M}' \to \mathbf{M}$ we have $\mathbf{i} \cdot \mathbf{i}_{\mathbf{M}'} = \mathbf{i}_{\mathbf{M}}$, hence $\mathbf{F}(\mathbf{i}_!') = \mathrm{id}_{\mathbf{F}(O)}$. Given the exact sequence
 
 $$
-0 \longrightarrow M ^ {\prime} \xrightarrow {i} M \xrightarrow {j} M ^ {n} \longrightarrow 0
+0 \longrightarrow M ^ {\prime} \xrightarrow {i} M \xrightarrow {j} M ^ {\prime\prime} \longrightarrow 0
 $$
 
-we have  $j^{!}i_{M^{m}!}=i_{!}j_{M}^{!}$ , hence  $F(j^{!})=F(j_{M}^{!})\in\operatorname{Aut}(F(0))$ . Also
+we have $j^{!}i_{M^{\prime\prime}!}=i_{!}j_{M}^{!}$, hence $F(j^{!})=F(j_{M}^{!})\in\operatorname{Aut}(F(O))$. Also
 
 $$
 F (j _ {M} ^ {!}) = F (j ^ {!} j _ {M ^ {\prime \prime}} ^ {!}) = F (j _ {M ^ {\prime}} ^ {!}) F (j _ {M ^ {\prime \prime}} ^ {!})
 $$
 
-so by the universal property of $K_{0^{\underline{M}}}$, there is a unique group homomorphism from $K_{0^{\underline{M}}}$ to $\text{Aut}(F(0))$ such that $[M] \mapsto F(j_{M}^{!})$. Thus we have a natural action of $K_{0^{\underline{M}}}$ on $F(0)$ for any $F$ in $\underline{F}'$. In fact, it is clear that the resulting functor $F \mapsto F(0)$ from $\underline{F}'$ to $K_{0^{\underline{M}}}$-sets is an isomorphism of categories with inverse $S \mapsto F_S$, so the proof of the theorem is complete.
+so by the universal property of $K_{0}M$, there is a unique group homomorphism from $K_{0}M$ to $\operatorname{Aut}(F(O))$ such that $[M] \mapsto F(j_{M}^{!})$. Thus we have a natural action of $K_{0}M$ on $F(O)$ for any $F$ in $\underline{F}'$. In fact, it is clear that the resulting functor $F \mapsto F(O)$ from $\underline{F}'$ to $K_{0}M$-sets is an isomorphism of categories with inverse $S \mapsto F_S$, so the proof of the theorem is complete.
 
 Higher K-groups. The above theorem offers some motivation for the following definition of K-groups for a small exact category M.
 
-Definition.  $K_{i=M} = \pi_{i+1}(B(QM),0)$ .
+Definition. $K_{i}M = \pi_{i+1}(B(QM),O)$.
 
-Note first of all that the K-groups are independent of the choice of the zero object O. Indeed, given another zero object 0', there is a unique map  $0 \rightarrow 0'$  in  $Q_{M}$ , hence there is a canonical path from 0 to 0' in the classifying space.
+Note first of all that the K-groups are independent of the choice of the zero object $O$. Indeed, given another zero object $O'$, there is a unique map $O\rightarrow O'$ in $Q_M$, hence there is a canonical path from $O$ to $O'$ in the classifying space.
 
 Secondly we note that the preceding definition extends to exact categories having a set of isomorphism classes of objects. We define $K_{1}M$ to be $K_{1}M'$, where $M'$ is a small subcategory equivalent to $M$, the choice of $M'$ being irrelevant by Prop. 2. From now on we will only consider exact categories whose isomorphism classes form a set, except when mentioned otherwise. In addition, when we apply the results of §1, it will be tacitly assumed that we have replaced any large exact category by an equivalent small one.
 
@@ -629,19 +641,21 @@ $$
 In this way  $K_{i}$  becomes a functor from exact categories and exact functors to abelian groups. Moreover, isomorphic functors induce the same map on K-groups by Prop. 2. From (5) we have
 
 $$
-\mathrm{K} _ {\mathbf {i}} (\underset {=} {\mathrm{M} ^ {0}}) = \mathrm{K} _ {\mathbf {i} =} \mathrm{M}.\tag{7}
+\mathrm{K}_{i}(\underline{\underline{M}}^{\circ})\cong \mathrm{K}_{i}(\underline{\underline{M}}).\tag{7}
 $$
 
 The product $\underline{\underline{M}}\times\underline{\underline{M}'}$ of two exact categories is an exact category in which a sequence is exact when its projections in $\underline{\underline{M}}$ and $\underline{\underline{M}'}$ are. Clearly $Q(\underline{\underline{M}}\times\underline{\underline{M}'}) = Q\underline{\underline{M}}\times\underline{\underline{Q}\underline{M}'}$. Since the classifying space functor is compatible with products (S1, (4)), we have
 
 $$
-\mathrm{K} _ {\underline {{1}}} (\underline {{M}} \times \underline {{M ^ {\prime}}}) \simeq \mathrm{K} _ {\underline {{1}} \underline {{M}}} \oplus \mathrm{K} _ {\underline {{1}} \underline {{M ^ {\prime}}}}, \quad x \mapsto \operatorname{pr} _ {1 *} (x) + \operatorname{pr} _ {2 *} (x).\tag{8}
+\mathrm{K}_{i}(\underline{\underline{M}}\times\underline{\underline{M}'})\simeq \mathrm{K}_{i}(\underline{\underline{M}})\oplus\mathrm{K}_{i}(\underline{\underline{M}'}),\quad x\mapsto\operatorname{pr}_{1*}(x)+\operatorname{pr}_{2*}(x).\tag{8}
 $$
 
 The functor $\oplus: \underline{\underline{\mathbf{M}}}\times\underline{\underline{\mathbf{M}}}\to\underline{\underline{\mathbf{M}}}$, $(\mathbf{M},\mathbf{M}')\mapsto\mathbf{M}\oplus\mathbf{M}'$ is exact, so it induces a homomorphism
 
 $$
-K _ {i} \underset {=} {M} \oplus K _ {i} \underset {=} {M} = K _ {i} (\underset {=} {M} x \underset {=} {M}) \xrightarrow {\oplus_ {*}} K _ {i} \underset {=} {M}.
+K_i(\underline{\underline{M}})\oplus K_i(\underline{\underline{M}})
+=K_i(\underline{\underline{M}}\times\underline{\underline{M}})
+\xrightarrow{\oplus_*}K_i(\underline{\underline{M}}).
 $$
 
 This map coincides with the sum in the abelian group  $K_{i}M$  because the functors  $M \mapsto 0 \oplus M$ ,  $M \mapsto M \oplus 0$  are isomorphic to the identity.
@@ -771,7 +785,7 @@ $$
 Corollary 3. (Additivity for 'characteristic' exact sequences) If
 
 $$
-0 \longrightarrow F _ {o} \longrightarrow \dots \longrightarrow F _ {n} \longrightarrow 0
+0 \longrightarrow F _ {0} \longrightarrow \dots \longrightarrow F _ {n} \longrightarrow 0
 $$
 
 is an exact sequence of exact functors from M' to M, then
@@ -784,32 +798,32 @@ These result from Cor. 1 by induction.
 
 Applications. We give two simple examples to illustrate the preceding results.
 
-Let $X$ be a ringed space, and put $K_{1}X = K_{1}P(X)$, where $P(X)$ is the category of vector bundles on $X$, (i.e. sheaves of $\underline{O}_{X}$-modules which are locally direct factors of $\underline{O}_{X}^{n}$) equipped with the usual notion of exact sequence. Given $E$ in $P(X)$, we have an exact functor $E\otimes?: \underline{P}(X) \to \underline{P}(X)$ which induces a homomorphism of $K$-groups $(E\otimes?)_{*}: K_{1}X \to K_{1}X$. If $0 \longrightarrow E' \longrightarrow E \longrightarrow E'' \longrightarrow 0$ is an exact sequence of vector bundles, then Cor. 1 implies $(E\otimes?)_{*} = (E'\otimes?)_{*} + (E''\otimes?)_{*}$. Thus we obtain products
+Let $X$ be a ringed space, and put $K_{i}X = K_{i}P(X)$, where $P(X)$ is the category of vector bundles on $X$, (i.e. sheaves of $\underline{O}_{X}$-modules which are locally direct factors of $\underline{O}_{X}^{n}$) equipped with the usual notion of exact sequence. Given $E$ in $P(X)$, we have an exact functor $E\otimes?: \underline{P}(X) \to \underline{P}(X)$ which induces a homomorphism of $K$-groups $(E\otimes?)_{*}: K_{i}X \to K_{i}X$. If $0 \longrightarrow E' \longrightarrow E \longrightarrow E'' \longrightarrow 0$ is an exact sequence of vector bundles, then Cor. 1 implies $(E\otimes?)_{*} = (E'\otimes?)_{*} + (E''\otimes?)_{*}$. Thus we obtain products
 
 $$
-\mathrm{K} _ {\mathrm{o}} \mathrm{X} \otimes_ {\mathbf {Z}} \mathrm{K} _ {\mathbf {i}} \mathrm{X} \longrightarrow \mathrm{K} _ {\mathbf {i}} \mathrm{X}, [ \mathrm{E} ] \otimes \mathrm{x} \mapsto (\mathrm{E} \otimes ?) _ {*} \mathrm{x}\tag{1}
+\mathrm{K} _ {0} \mathrm{X} \otimes_ {\mathbf {Z}} \mathrm{K} _ {\mathbf {i}} \mathrm{X} \longrightarrow \mathrm{K} _ {\mathbf {i}} \mathrm{X}, [ \mathrm{E} ] \otimes \mathrm{x} \mapsto (\mathrm{E} \otimes ?) _ {*} \mathrm{x}\tag{1}
 $$
 
-which clearly make  $K_{i}X$  into a module over  $K_{o}X$ . (Products  $K_{i}X \otimes K_{j}X \rightarrow K_{i+j}X$  can also be defined, but this requires more machinery.)
+which clearly make $K_{i}X$ into a module over $K_{0}X$. (Products $K_{i}X\otimes K_{j}X\rightarrow K_{i+j}X$ can also be defined, but this requires more machinery.)
 
-Graded rings. Let $A = A_0 \oplus A_1 \oplus \ldots$ be a graded ring and denote by $\underline{\underline{Pgr}}(A)$ the category of graded finitely generated projective A-modules $P = \oplus P_n, n \in \mathbb{Z}$. The group $K_1(Pgr(A))$ is a $Z[t, t^{-1}]$-module, where multiplication by $t$ is the automorphism induced by the translation functor $P \mapsto P(-1), P(-1)_n = P_{n-1}$.
+Graded rings. Let $A = A_0 \oplus A_1 \oplus \ldots$ be a graded ring and denote by $\underline{\underline{Pgr}}(A)$ the category of graded finitely generated projective A-modules $P = \oplus P_n, n \in \mathbb{Z}$. The group $K_i(Pgr(A))$ is a $\mathbb{Z}[t, t^{-1}]$-module, where multiplication by $t$ is the automorphism induced by the translation functor $P \mapsto P(-1), P(-1)_n = P_{n-1}$.
 
 Proposition. There is a $\mathbb{Z}[t,t^{-1}]$ -module isomorphism
 
 $$
-\mathbb {Z} \left[ t, t ^ {- 1} \right] \otimes_ {\mathbb {Z}} K _ {i A _ {0}} \stackrel {{\sim}} {{\longrightarrow}} K _ {i} (\underline {{{P}}} g r (A)), 1 \otimes x \mapsto (A \otimes_ {A _ {0}}?) _ {*} x.
+\mathbb {Z} \left[ t, t ^ {- 1} \right] \otimes_ {\mathbb {Z}} K _ {i} (\mathrm{A}_{0}) \stackrel {{\sim}} {{\longrightarrow}} K _ {i} (\underline {{{P}}} g r (A)), 1 \otimes x \mapsto (A \otimes_ {A _ {0}}?) _ {*} x.
 $$
 
 Proof. Given $P$ in $\underline{\underline{Pgr}}(A)$, let $F_k P$ be the $A$-submodule of $P$ generated by $P_n$ for $n \leq k$, and let $\underline{\underline{P}}_{=q}$ be the full subcategory of $\underline{\underline{Pgr}}(A)$ consisting of those $P$ for which $F_{-q-1} P = 0$ and $F_q P = P$. We have an exact functor
 
 $$
-\mathrm{T}: \underline {{\underline {{\mathrm{Pgr}}}}} (\mathrm{A}) \longrightarrow \underline {{\underline {{\mathrm{Pgr}}}}} (\mathrm{A} _ {\mathrm{o}}), \quad \mathrm{T} (\mathrm{P}) = \mathrm{A} _ {\mathrm{o}} \otimes_ {\mathrm{A}} \mathrm{P}
+\mathrm{T}: \underline {{\underline {{\mathrm{Pgr}}}}} (\mathrm{A}) \longrightarrow \underline {{\underline {{\mathrm{Pgr}}}}} (\mathrm{A}_{0}), \quad \mathrm{T} (\mathrm{P}) = \mathrm{A}_{0} \otimes_ {\mathrm{A}} \mathrm{P}
 $$
 
 where  $A_{0}$  is considered as a graded ring concentrated in degree zero. It is known ([Bass], p.637) that P is non-canonically isomorphic to
 
 $$
-\mathrm{A} \otimes_ {\mathrm{A} _ {\mathrm{o}}} \mathrm{T} (\mathrm{P}) = \prod_ {\mathrm{n}} \mathrm{A} (- \mathrm{n}) \otimes_ {\mathrm{A} _ {\mathrm{o}}} \mathrm{T} (\mathrm{P}) _ {\mathrm{n}}.
+\mathrm{A} \otimes_ {\mathrm{A}_{0}} \mathrm{T} (\mathrm{P}) = \bigoplus_ {\mathrm{n}} \mathrm{A} (- \mathrm{n}) \otimes_ {\mathrm{A}_{0}} \mathrm{T} (\mathrm{P}) _ {\mathrm{n}}.
 $$
 
 It follows that $P \mapsto F_k P$ is an exact functor from $\underline{\mathrm{Pgr}}(A)$ to itself, and that there is a canonical isomorphism of exact functors
@@ -821,7 +835,7 @@ $$
 Applying Cor. 2 to the identity functor of $\mathbb{P}_{\underline{q}}$ and the filtration $0 = \mathbb{F}_{-q - 1} < \ldots < \mathbb{F}_q = \mathrm{id}$, one sees that the homomorphism
 
 $$
-\bigcup_ {- q \leqslant n \leqslant q} t ^ {n} \otimes K _ {i} A _ {o} \rightarrow K _ {i} P _ {= q}, t ^ {n} \otimes x \mapsto (A (- n) \otimes_ {A _ {o}}?) _ {*} x
+\bigoplus_ {- q \leqslant n \leqslant q} t ^ {n} \otimes K _ {i} A _ {0} \rightarrow K _ {i} P _ {= q}, t ^ {n} \otimes x \mapsto (A (- n) \otimes_ {A _ {0}}?) _ {*} x
 $$
 
 is an isomorphism with inverse given by the map with components $(\mathbb{T}_{n})_{*}$, $-q \leq n \leq q$. Since $\underline{\underline{Pgr}}(A)$ is the union of the $\underline{\underline{P}}_{=q}$, the proposition results from §2, (9).
@@ -831,7 +845,7 @@ is an isomorphism with inverse given by the map with components $(\mathbb{T}_{n}
 In this section $\underline{\underline{M}}$ denotes an exact category with a set of isomorphism classes, and $\underline{\underline{P}}$ a full subcategory closed under extensions in $\underline{\underline{M}}$ in the sense that $\underline{\underline{P}}$ contains a zero object and for any exact sequence in $\underline{\underline{M}}$
 
 $$
-\mathrm{O} \longrightarrow \mathrm{M} ^ {\prime} \longrightarrow \mathrm{M} \longrightarrow \mathrm{M} ^ {\prime \prime} \longrightarrow \mathrm{O}\tag{1}
+0 \longrightarrow \mathrm{M} ^ {\prime} \longrightarrow \mathrm{M} \longrightarrow \mathrm{M} ^ {\prime \prime} \longrightarrow 0\tag{1}
 $$
 
 if M' and M" are isomorphic to objects of P, so is M. Such a P is an exact category where a sequence is exact if and only if it is exact in M. The category QP is a subcategory of QM which is not usually a full subcategory, as M-admissible monomorphisms and epimorphisms need not be P-admissible.
@@ -850,7 +864,9 @@ The following theorem handles the case where resolutions of length one exist. As
 
 Theorem 3. Let P be a full subcategory of an exact category M which is closed under extensions and is such that
 
-ii) For any M" in M, there exists an exact sequence (1) with M in P. Then the inclusion functor  $Q^{P} \rightarrow Q^{M}$  is a homotopy equivalence, so  $K_{i}P \simeq K_{i}M$ .
+i) For any exact sequence (1), if M is in P, then M' is in P.
+
+ii) For any M'' in M, there exists an exact sequence (1) with M' in P. Then the inclusion functor $Q^{P} \rightarrow Q^{M}$ is a homotopy equivalence, so $K_i(P) \simeq K_i(M)$.
 
 Proof. We factor  $Q_{P} \rightarrow Q_{M}$  into two inclusion functors
 
@@ -873,7 +889,7 @@ To prove $f$ is a homotopy equivalence, we show $M \setminus f$ is contractible 
 The dual category $\underline{\underline{F}^{\prime\circ}}$ is the category whose objects are maps $P \longrightarrow M$, and in which a morphism from $P \longrightarrow M$ to $P^{\prime} \longrightarrow M$ is a map $P \longrightarrow P^{\prime}$ such that the obvious triangle commutes. By hypothesis ii), there is at least one such object $P_{0} \longrightarrow M$. Given another $P \longrightarrow M$, the fibre product $Px_{M}P_{0}$ is an object of $\underline{\underline{P}}$, as it is an extension of $P_{0}$ by $\operatorname{Ker}(P \rightarrow M)$ which is in $\underline{\underline{P}}$ by hypothesis i). Hence in $\underline{\underline{F}^{\prime\circ}}$ we have arrows
 
 $$
-(P \rightarrow M) \leftarrow (P x _ {M} P _ {o} \rightarrow M) \rightarrow (P _ {o} \rightarrow M)
+(P \rightarrow M) \leftarrow (P \times_{M} P_{0} \rightarrow M) \rightarrow (P_{0} \rightarrow M)
 $$
 
 which may be viewed as natural transformations from the functor $(P \to M) \mapsto (P \times_{M} P_{0} \to M)$ to the constant functor with value $P_{0} \to M$ and to the identity functor. Using Prop. 2, we conclude that $\underline{F'}$ is contractible, finishing the proof of the theorem.
@@ -882,23 +898,23 @@ Corollary 1. Assume P is closed under extensions in M and further that
 a) For every exact sequence (1), if M, M" are in P, then so is M'.
 b) Given j: M → P, there exists j': P' → P and f: P' → M such that
 jf = j'. (This holds, for example, if for every M there exists P' → M.)
-Let P = n be the full subcategory of M consisting of M having P-resolutions of length ≤n, i.e. such that there exists an exact sequence (2), and put P = ∪P = n. Then
+Let $P_n$ be the full subcategory of M consisting of M having P-resolutions of length $\leq n$, i.e. such that there exists an exact sequence (2), and put $P_\infty=\bigcup_{n\geq 0}P_n$. Then
 
 $$
-\mathrm{K} _ {\mathbf {i}} \mathrm{P} \stackrel {{\sim}} {{=}} \mathrm{K} _ {\mathbf {i}} \mathrm{P} _ {\mathbf {i} = 1} \stackrel {{\sim}} {{=}} \dots \stackrel {{\sim}} {{=}} \mathrm{K} _ {\mathbf {i}} \mathrm{P} _ {\mathbf {i} = \infty}.
+K_i(P)\simeq K_i(P_1)\simeq\dots\simeq K_i(P_\infty).
 $$
 
-That $\underline{\underline{P}}_{=n}$ is closed under extensions in $\underline{\underline{M}}$, and hence the groups $K_{i=n}P$ are defined results from the following standard facts (compare [Bass, p.39]).
+That $P_n$ is closed under extensions in $M$, and hence that the groups $K_i(P_n)$ are defined, follows from the following standard facts (compare [Bass, p.39]).
 
 Lemma. For any exact sequence (1) and integer $n \geqslant 0$, we have
 
-1)  $M \in P_{=n}$ ,  $M'' \in P_{=n+1} \implies M' \in P_{=n}$
+1) $M\in P_n$, $M''\in P_{n+1}\implies M'\in P_n$
 
-2) $M', M'' \in P_{=n+1} \implies M \in P_{=n+1}$
+2) $M',M''\in P_{n+1}\implies M\in P_{n+1}$
 
-3) M, M'' ∈ P = n+1  ⇒ M' ∈ P = n+1 .
+3) $M,M''\in P_{n+1}\implies M'\in P_{n+1}$.
 
-Assuming this, we apply Theorem 3 to the pair $\underline{\underline{P}}_{\underline{n}} \subset \underline{\underline{P}}_{\underline{n+1}}$. Hypothesis ii) is satisfied, for given $M \in \underline{\underline{P}}_{\underline{n+1}}$, there exists an $\underline{\underline{M}}$-admissible epimorphism $P \to M$ with $P \in \underline{\underline{P}}$; and by 1) it is $\underline{\underline{P}}_{\underline{n+1}}$-admissible. The other hypotheses are clear, so $K_{i=n} \xrightarrow{\sim} K_{i=n+1}$ for each n. The case of $\underline{\underline{P}}_{\underline{n}}$ follows by passage to the limit (§2, (9)).
+Assuming this, we apply Theorem 3 to $P_n\subset P_{n+1}$. Hypothesis ii) is satisfied, for given $M\in P_{n+1}$ there exists an $M$-admissible epimorphism $P\to M$ with $P\in P$; and by 1) it is $P_{n+1}$-admissible. The other hypotheses are clear, so $K_i(P_n)\xrightarrow{\sim}K_i(P_{n+1})$ for each n. The case of $P_\infty$ follows by passage to the limit (§2, (9)).
 
 To prove the lemma, it suffices by a simple induction to treat the case n = 0.
 
@@ -916,11 +932,11 @@ and with $\mathbf{F} = M \times_{M''}\mathbb{P}$. Since $P'$, $M$ are in $\under
 
 As $M^{*} \in \underline{P}_{=1}$, 1) implies $K \in \underline{P}$, so $M' \in \underline{P}_{=1}$, proving 3). The lemma and Cor. 1 are done.
 
-As an example of the corollary, take $\underline{\underline{P}} = \underline{\underline{P}}(A)$ and $\underline{\underline{M}} = \text{Mod}(A)$, the category of (left) A-modules. (Better, so that $\underline{\underline{M}}$ has a set of isomorphism classes, take $\underline{\underline{M}}$ to be the abelian category of all A-modules of cardinality $<\alpha$, where $\alpha$ is some infinite cardinal $>\text{card}(A)$.) Let $\underline{\underline{P}}_{=n}(A)$ be the category of A-modules having $\underline{\underline{P}}$-resolutions of length $\leqslant n$, and $\underline{\underline{P}}_{=00}(A) = \bigcup_{=n} P(A)$. Then $\underline{\underline{P}}_{=n}(A) = \underline{\underline{P}}_{=n}$ as in the corollary, so we obtain
+As an example of the corollary, take $\underline{\underline{P}} = \underline{\underline{P}}(A)$ and $\underline{\underline{M}} = \text{Mod}(A)$, the category of (left) A-modules. (Better, so that $\underline{\underline{M}}$ has a set of isomorphism classes, take $\underline{\underline{M}}$ to be the abelian category of all A-modules of cardinality $<\alpha$, where $\alpha$ is some infinite cardinal $>\text{card}(A)$.) Let $P_n(A)$ be the category of A-modules having $\underline{\underline{P}}$-resolutions of length $\leqslant n$, and let $P_\infty(A)=\bigcup_{n\geq 0}P_n(A)$. Then $P_n(A)=P_n$ as in the corollary, so we obtain
 
-Corollary 2. For $0 \leqslant n \leqslant \infty$, we have $K_{i}A \simeq K_{i}(P(A))$. In particular if $A$ is regular, then $K_{i}A \simeq K_{i}(\text{Modf}(A))$, where $\text{Modf}(A)$ is the category of finitely generated $A$-modules.
+Corollary 2. For $0\leqslant n\leqslant\infty$, we have $K_iA\simeq K_i(P_n(A))$. In particular if A is regular, then $K_iA\simeq K_i(\text{Modf}(A))$, where $\text{Modf}(A)$ is the category of finitely generated $A$-modules.
 
-We recall that a regular ring is a noetherian ring such that every (left) module has finite projective dimension. For such a ring A we have  $P_{\mathrm{F0}}(A) = \mathrm{Modf}(A)$ .
+We recall that a regular ring is a noetherian ring such that every (left) module has finite projective dimension. For such a ring A we have $P_\infty(A)=\mathrm{Modf}(A)$.
 
 Similarly, Cor. 1 implies that for a regular noetherian separated scheme the K-groups of the category of coherent sheaves and the category of vector bundles are the same, since every coherent sheaf has a finite resolution by vector bundles [SGA 6, II, 2.2].
 
@@ -933,7 +949,7 @@ $$
 and call the transfer map with respect to f. Clearly given another homomorphism $g: B \to C$ with $C \in P_{\infty}(B)$, we have
 
 $$
-(g f) _ {*} = f _ {*} g _ {*}: K _ {1} C \longrightarrow K _ {1} A.\tag{4}
+(g f) _ {*} = f _ {*} g _ {*}: K _ {i} C \longrightarrow K _ {i} A.\tag{4}
 $$
 
 We suppose now for simplicity that A and B are commutative, so that we have functors
@@ -942,13 +958,13 @@ $$
 \underline {{\mathrm{P}}} (\mathrm{A}) \times \underline {{\mathrm{P}}} _ {\mathrm{n}} (\mathrm{A}) \longrightarrow \underline {{\mathrm{P}}} _ {\mathrm{n}} (\mathrm{A}), \quad (\mathrm{P}, \mathrm{M}) \mapsto \mathrm{P} \otimes_ {\mathrm{A}} \mathrm{M}.
 $$
 
-for $0 \leqslant n \leqslant \infty$, which induce a product $K_{0}A \otimes K_{1}A \to K_{1}A$, $[P] \otimes z \mapsto (P \otimes_{A}?)_z$, and similarly for B. Then if $f^{*} = (B \otimes_{A} ?)_*: K_{1}A \to K_{1}B$, we have the projection formula
+for $0 \leqslant n \leqslant \infty$, which induce a product $K_{0}A \otimes K_{i}A \to K_{i}A$, $[P] \otimes z \mapsto (P \otimes_{A}?)_z$, and similarly for B. Then if $f^{*} = (B \otimes_{A} ?)_*: K_{i}A \to K_{i}B$, we have the projection formula
 
 $$
 \mathbf {f} _ {*} \left(\mathbf {f} ^ {*} \mathbf {x} \cdot \mathbf {y}\right) = \mathbf {x} \cdot \mathbf {f} _ {*} \mathbf {y}\tag{5}
 $$
 
-for $\mathbf{x} \in \mathbf{K}_0\mathbf{A}$ and $\mathbf{y} \in \mathbf{K}_1\mathbf{B}$. This results immediately from the fact that for $X$ in $\underline{\underline{\mathbf{P}}}(A)$ there is an isomorphism of exact functors
+for $\mathbf{x} \in \mathbf{K}_0\mathbf{A}$ and $\mathbf{y} \in \mathbf{K}_i\mathbf{B}$. This results immediately from the fact that for $X$ in $\underline{\underline{\mathbf{P}}}(A)$ there is an isomorphism of exact functors
 
 $$
 \mathrm{Y} \mapsto (\mathrm{B} \otimes_ {\mathrm{A}} \mathrm{X}) \otimes_ {\mathrm{B}} \mathrm{Y} = \mathrm{X} \otimes_ {\mathrm{A}} \mathrm{Y}
@@ -962,11 +978,11 @@ $$
 \longrightarrow \mathrm{T} _ {2} \mathrm{M} ^ {\prime \prime} \longrightarrow \mathrm{T} _ {1} \mathrm{M} ^ {\prime} \longrightarrow \mathrm{T} _ {1} \mathrm{M} \longrightarrow \mathrm{T} _ {1} \mathrm{M} ^ {\prime \prime}).
 $$
 
-Let $\underline{\underline{P}}$ be the full subcategory of T-acyclic objects (T$_n$M = 0 for all n ≥1), and assume for each M in $\underline{\underline{M}}$ that there exists P → M with P in $\underline{\underline{P}}$, and that T$_n$M = 0 for n sufficiently large. Then K$_1\underline{\underline{P}} \xrightarrow{\sim}$K$_1\underline{\underline{M}}$.
+Let $\underline{\underline{P}}$ be the full subcategory of T-acyclic objects (T$_n$M = 0 for all n ≥1), and assume for each M in $\underline{\underline{M}}$ that there exists P → M with P in $\underline{\underline{P}}$, and that T$_n$M = 0 for n sufficiently large. Then $K_i(\underline{\underline{P}})\xrightarrow{\sim}K_i(\underline{\underline{M}})$.
 
 This results either from Cor. 1, or better by applying Theorem 3 directly to the inclusion $\mathbb{P}_{=n} \subset \mathbb{P}_{=n+1}$, where $\mathbb{P}_{=n}$ consists of $M$ such that $T_jM = 0$ for $j > n$.
 
-Here is an application of this result. Put $K_{1}^{\prime}A = K_{1}(\text{Modf}(A))$ for $A$ noetherian, and let $f: A \to B$ be a homomorphism of noetherian rings. If $B$ is flat as a right $A$-module, then we obtain a homomorphism of $K$-groups
+Here is an application of this result. Put $K_{i}^{\prime}A = K_{i}(\text{Modf}(A))$ for $A$ noetherian, and let $f: A \to B$ be a homomorphism of noetherian rings. If $B$ is flat as a right $A$-module, then we obtain a homomorphism of $K$-groups
 
 $$
 (B \otimes_ {A}?): K _ {i} ^ {\prime} A \longrightarrow K _ {i} ^ {\prime} B\tag{6}
@@ -980,14 +996,14 @@ we find that $K_{\mathbf{i}} \underline{P} \simeq K_{\mathbf{i}}' \mathbf{A}$, w
 
 In this section $\underline{\underline{A}}$ will denote an abelian category having a set of isomorphism classes of objects, and $\underline{\underline{B}}$ will be a non-empty full subcategory closed under taking subobjects, quotient objects, and finite products in $\underline{\underline{A}}$. Clearly $\underline{\underline{B}}$ is an abelian category and the inclusion functor $\underline{\underline{B}} \to \underline{\underline{A}}$ is exact. We regard $\underline{\underline{A}}$ and $\underline{\underline{B}}$ as exact categories in the obvious way, so that all monomorphisms and epimorphisms are admissible. Then $\underline{\underline{QB}}$ is the full subcategory of $\underline{\underline{QA}}$ consisting of those objects which are also objects of $\underline{\underline{B}}$.
 
-Theorem 4. (Devissage) Suppose that every object M of A has a finite filtration $0 = M_0 \subset M_1 \subset \ldots \subset M_n = N$ such that $M_j / M_{j-1}$ is in B for each j. Then the inclusion functor $\mathbb{Q}\mathbb{B} \to \mathbb{Q}\mathbb{A}$ is a homotopy equivalence, so $K_i\mathbb{B} \xrightarrow{\sim} K_i\mathbb{A}$.
+Theorem 4. (Devissage) Suppose that every object M of A has a finite filtration $0 = M_0 \subset M_1 \subset \ldots \subset M_n = M$ such that $M_j / M_{j-1}$ is in B for each j. Then the inclusion functor $\mathbb{Q}\mathbb{B} \to \mathbb{Q}\mathbb{A}$ is a homotopy equivalence, so $K_i\mathbb{B} \xrightarrow{\sim} K_i\mathbb{A}$.
 
 Proof. Denoting the inclusion functor by $f$, it suffices by Theorem A to prove that $f / M$ is contractible for any object $M$ of $\underline{A}$. The category $f / M$ is the fibred category over $\underline{QB}$ consisting of pairs $(N, u)$, where $N \in \underline{QB}$ and $u : N \to M$ is a map in $\underline{QA}$. By associating to $u$ what might be called its image, that is, the layer $(M_0, M_1)$ of $M$ such that $u$ is given by an isomorphism $N \simeq M_1 / M_0$, it is clear that we obtain an equivalence of $f / M$ with the ordered set $J(M)$ consisting of layers $(M_0, M_1)$ in $M$ such that $M_1 / M_0 \in \underline{B}$, with the ordering $(M_0, M_1) \leq (M_0', M_1')$ iff $M_0' \subset M_0 \subset M_1 \subset M_1'$.
 
 By virtue of the hypothesis that M has a finite filtration with quotients in $\underline{\underline{B}}$, it will suffice to show the inclusion $i: J(M') \to J(M)$ is a homotopy equivalence whenever $M' \subset M$ is such that $M/M' \in \underline{B}$. We define functors
 
 $$
-\begin{array}{l l} \mathbf {r}: J (M) \longrightarrow J (M ^ {\prime}) & , \quad (M _ {o}, M _ {1}) \mapsto (M _ {o} \cap M ^ {\prime}, M _ {1} \cap M ^ {\prime}) \\ \mathbf {s}: J (M) \longrightarrow J (M) & , \quad (M _ {o}, M _ {1}) \mapsto (M _ {o} \cap M ^ {\prime}, M _ {1}). \end{array}
+\begin{array}{l l} \mathbf {r}: J (M) \longrightarrow J (M ^ {\prime}) & , \quad (M _ {0}, M _ {1}) \mapsto (M _ {0} \cap M ^ {\prime}, M _ {1} \cap M ^ {\prime}) \\ \mathbf {s}: J (M) \longrightarrow J (M) & , \quad (M _ {0}, M _ {1}) \mapsto (M _ {0} \cap M ^ {\prime}, M _ {1}). \end{array}
 $$
 
 These are well-defined because
@@ -1018,8 +1034,11 @@ Corollary 2. If I is a nilpotent two-sided ideal in a noetherian ring A, then  $
 
 This results by applying the theorem to the inclusion  $\text{Modf}(A/I) \subset \text{Modf}(A)$ .
 
-Theorem 5. (Localization) Let B be a Serre subcategory of A, let A/B be the associated quotient abelian category (see for example [Gabriel], [Swan]), and let e: B → A, s: A → A/B denote the canonical functors. Then there is a long exact sequence
-    s\* K₁(A/B) → K\_B e\* K\_A s\* K₀(A/B) → O .
+Theorem 5. (Localization) Let B be a Serre subcategory of A, let A/B be the associated quotient abelian category (see for example [Gabriel], [Swan]), and let $e: B\to A$, $s:A\to A/B$ denote the canonical functors. Then there is a long exact sequence
+
+$$
+\cdots\longrightarrow K_{i+1}(A/B)\xrightarrow{\partial}K_i(B)\xrightarrow{e_*}K_i(A)\xrightarrow{s_*}K_i(A/B)\longrightarrow\cdots.
+$$
 
 (It will be clear from the proof that this exact sequence is functorial for exact functors $(\underline{\underline{A}},\underline{\underline{B}})\longrightarrow (\underline{\underline{A}}^{\prime},\underline{\underline{B}}^{\prime})$. Unfortunately the proof does not shed much light on the nature of the boundary map $\partial :K_{i+1}(\underline{\underline{A}}/\underline{\underline{B}})\longrightarrow K_{i}(\underline{\underline{B}})$, and further work remains to be done in this direction.)
 
@@ -1028,7 +1047,7 @@ Before taking up the proof of the theorem, we give an example.
 Corollary. If A is a Dedekind domain with quotient field F, there is a long exact sequence
 
 $$
-\longrightarrow \mathrm{K} _ {\mathrm{i} + 1} \mathrm{F} \longrightarrow \bigsqcup_ {\mathrm{m}} \mathrm{K} _ {\mathrm{i}} (\mathrm{A} / \mathrm{m}) \longrightarrow \mathrm{K} _ {\mathrm{i}} \mathrm{A} \longrightarrow \mathrm{K} _ {\mathrm{i}} \mathrm{F} \longrightarrow ..
+\longrightarrow \mathrm{K} _ {\mathrm{i} + 1} \mathrm{F} \longrightarrow \bigoplus_ {\mathrm{m}} \mathrm{K} _ {\mathrm{i}} (\mathrm{A} / \mathrm{m}) \longrightarrow \mathrm{K} _ {\mathrm{i}} \mathrm{A} \longrightarrow \mathrm{K} _ {\mathrm{i}} \mathrm{F} \longrightarrow ..
 $$
 
 where m runs over the maximal ideals of A.
@@ -1047,7 +1066,7 @@ a) For every u : V' → V in Q(A/B), u\*: V \ Qs → V'\Qs is a homotopy equival
 
 b) The functor  $QB \longrightarrow O \setminus Qs$  is a homotopy equivalence.
 
-Factoring u into injective and surjective maps, one sees that it suffices to prove a) when u is either injective or surjective. On the other hand, replacing a category by its dual does not change the Q-category (S2,(7)). As surjective maps in $Q(\underline{A}/\underline{B})$ become injective in $Q((\underline{A}/\underline{B})^0) = Q(\underline{A}^0/\underline{B}^0)$, it is enough to prove a) when u is injective, say $u = i_!$, $i: V' \to V$. Finally we have $i_! i_{V',!} = i_{V!}$, so it suffices to prove a) for the injective map $i_{V!}$ for any V in $\underline{A}/\underline{B}$.
+Factoring u into injective and surjective maps, one sees that it suffices to prove a) when u is either injective or surjective. On the other hand, replacing a category by its dual does not change the Q-category (S2,(7)). As surjective maps in $Q(\underline{A}/\underline{B})$ become injective in $Q((\underline{A}/\underline{B})^\circ) = Q(\underline{A}^\circ/\underline{B}^\circ)$, it is enough to prove a) when u is injective, say $u = i_!$, $i: V' \to V$. Finally we have $i_! i_{V',!} = i_{V!}$, so it suffices to prove a) for the injective map $i_{V!}$ for any V in $\underline{A}/\underline{B}$.
 
 Let $\underline{\underline{F}}_{V}$ be the full subcategory of $V \setminus Qs$ consisting of pairs $(M, u)$ such that $u: V \xrightarrow{\sim} sM$ is an isomorphism. Clearly $\underline{\underline{F}}_{0}$ is isomorphic to $\underline{\underline{QB}}$, so assertion b) results from the following.
 
@@ -1067,7 +1086,7 @@ $$
 \begin{array}{c c c} M _ {1} & \xrightarrow {i} & M ^ {\prime} \\ j & \downarrow & \downarrow \\ M & \xrightarrow {h} & N \end{array} h ^ {\prime}\tag{*}
 $$
 
-commutes if $u = i_j j^!$. To each $(M, h)$ in $E_N$ we associate $\text{Ker}(h)$, which is an object of $B$ determined up to canonical isomorphism. To the map $(M, h) \to (M', h')$ represented by (\*) we associate the map in $QB$ represented by the maps
+commutes if $u = i_! j^!$. To each $(M, h)$ in $E_N$ we associate $\text{Ker}(h)$, which is an object of $B$ determined up to canonical isomorphism. To the map $(M, h) \to (M', h')$ represented by (\*) we associate the map in $QB$ represented by the maps
 
 $$
 \operatorname{Ker} (h) \xleftarrow {} \operatorname{Ker} (h j) \longrightarrow \operatorname{Ker} (h ^ {\prime})
@@ -1123,13 +1142,13 @@ $$
 (M, \Theta : V \simeq s M) = p _ {(M, \Theta^ {- 1})} (M, i d _ {M})
 $$
 
-for any $(M, \theta)$ in $\underline{F}_V$, showing that $(^{**})$ is surjective on objects. Also given $p_{(N, \phi)}(M, h) = p_{(N, \phi)}(M', h')$, then $M = M'$ and $s(h) = s(h')$. Letting $N' = N / I_m(h - h')$ we obtain a map $g: (N, \phi) \to (N', \phi')$ such that $g_*(M, h) = g_*(M', h')$, showing that $(^{**})$ is injective on objects. The verification that $(^{**})$ is bijective on arrows is similar.
+for any $(M, \theta)$ in $\underline{F}_V$, showing that $(^{**})$ is surjective on objects. Also given $p_{(N, \phi)}(M, h) = p_{(N, \phi)}(M', h')$, then $M = M'$ and $s(h) = s(h')$. Letting $N' = N / \operatorname{Im}(h - h')$ we obtain a map $g: (N, \phi) \to (N', \phi')$ such that $g_*(M, h) = g_*(M', h')$, showing that $(^{**})$ is injective on objects. The verification that $(^{**})$ is bijective on arrows is similar.
 
 Applying Prop. 3, Cor. 1, we obtain from Lemma 4 and (\*\*) the following.
 
 Lemma 5. For any $\phi : sN \xrightarrow{\sim} V$, the functor $p(N, \phi)$ is a homotopy equivalence.
 
-The end is now near. To finish the proof of the theorem, we have only to show $(i_{V!})^{*}: V \setminus Qs \to O \setminus Qs$ is a homotopy equivalence. Choose $(N, \emptyset)$ as in Lemma 5 and form the diagram
+The end is now near. To finish the proof of the theorem, we have only to show $(i_{V!})^{*}: V \setminus Qs \to O \setminus Qs$ is a homotopy equivalence. Choose $(N, \phi)$ as in Lemma 5 and form the diagram
 
 $$
 \begin{array}{c c c} \underset {= N} {\mathrm{E}} & \xrightarrow {\mathrm{P} (N , \phi)} & \underset {= V} {\mathrm{F}} \subset V \setminus \mathrm{Qs} \\ k _ {N} \Big \downarrow & & \Big \downarrow (\mathrm{i} _ {V!}) ^ {*} \\ \underset {=} {\mathrm{QB}} & \xrightarrow {\sim} & \underset {= 0} {\mathrm{F}} \subset O \setminus \mathrm{Qs} \end{array}
@@ -1153,16 +1172,16 @@ $$
 \mathrm{T} _ {\mathbf {i}} (N) = \operatorname{Tor} _ {\mathbf {i}} ^ {B} (\mathbf {k}, N)
 $$
 
-where k is regarded as a right B-module by means of the augmentation  $B \rightarrow k$ . Then  $T_{i}(N)$  is a graded k-module in a natural way, e.g.  $T_{o}(N)_{n} = N_{n}/(A_{1}N_{n-1} + \ldots + A_{n}N_{o})$ . Denote by  $F_{p}N$  the submodule of N generated by  $N_{n}$  for  $n \leq p$ , so that we have  $O = F_{-1}N \subset F_{o}N \subset \ldots$ ,  $\bigcup F_{p}N = N$ . It is clear that
+where k is regarded as a right B-module by means of the augmentation  $B \rightarrow k$ . Then  $T_{i}(N)$  is a graded k-module in a natural way, e.g.  $T_{0}(N)_{n} = N_{n}/(A_{1}N_{n-1} + \ldots + A_{n}N_{0})$ . Denote by  $F_{p}N$  the submodule of N generated by  $N_{n}$  for  $n \leq p$ , so that we have  $O = F_{-1}N \subset F_{0}N \subset \ldots$ ,  $\bigcup F_{p}N = N$ . It is clear that
 
 $$
-\mathrm{T} _ {\mathbf {o}} (\mathrm{F} _ {\mathbf {p}} \mathrm{N}) _ {\mathbf {n}} = \left\{ \begin{array}{c c} 0 & \quad \mathrm{n} > \mathrm{p} \\ \mathrm{T} _ {\mathbf {o}} (\mathrm{N}) _ {\mathbf {n}} & \quad \mathrm{n} \leqslant \mathrm{p} \end{array} \right.\tag{1}
+\mathrm{T} _ {\mathbf {0}} (\mathrm{F} _ {\mathbf {p}} \mathrm{N}) _ {\mathbf {n}} = \left\{ \begin{array}{c c} 0 & \quad \mathrm{n} > \mathrm{p} \\ \mathrm{T} _ {\mathbf {0}} (\mathrm{N}) _ {\mathbf {n}} & \quad \mathrm{n} \leqslant \mathrm{p} \end{array} \right.\tag{1}
 $$
 
 and that there are canonical epimorphisms
 
 $$
-B (- p) \otimes_ {k} T _ {o} (N) _ {p} \longrightarrow F _ {p} N / F _ {p - 1} N\tag{2}
+B (- p) \otimes_ {k} T _ {0} (N) _ {p} \longrightarrow F _ {p} N / F _ {p - 1} N\tag{2}
 $$
 
 where  $B(-p)_{n} = B_{n-p}$ .
@@ -1175,16 +1194,16 @@ $$
 \operatorname{Tor} _ {i} ^ {k} (B, X) = 0 \quad \text { for } \quad i > 0 \quad \Longrightarrow \quad T _ {i} (B \otimes_ {k} X) = 0 \quad \text { for } \quad i > 0.\tag{3}
 $$
 
-In effect, if P. is a k-projective resolution of X, then B⊗P. is a B-projective resolution of B⊗X, and T$_{i}$(B⊗X) = H$_{i}$(k⊗B⊗P.) = H$_{i}$(P.) = 0 for i > 0. In particular by the hypothesis on T$_{o}$(N), we have
+In effect, if P. is a k-projective resolution of X, then B⊗P. is a B-projective resolution of B⊗X, and T$_{i}$(B⊗X) = H$_{i}$(k⊗B⊗P.) = H$_{i}$(P.) = 0 for i > 0. In particular by the hypothesis on T$_{0}$(N), we have
 
 $$
-\mathrm{T} _ {\mathbf {i}} \left(\mathrm{B} \oplus_ {\mathbf {k}} \mathrm{T} _ {\mathbf {o}} (\mathrm{N})\right) = 0 \text {   for   } \mathbf {i} > 0.\tag{4}
+\mathrm{T} _ {\mathbf {i}} \left(\mathrm{B} \otimes_ {\mathbf {k}} \mathrm{T} _ {\mathbf {0}} (\mathrm{N})\right) = 0 \text {   for   } \mathbf {i} > 0.\tag{4}
 $$
 
 Let $R^p$ be the kernel of (2). Since (2) clearly induces an isomorphism on $T_0$, we obtain from the Tor long exact sequence an exact sequence
 
 $$
-\mathrm{T} _ {1} (B (- p) \otimes_ {k} \mathrm{T} _ {o} (N) _ {p}) _ {n} \longrightarrow \mathrm{T} _ {1} (F _ {p} N / F _ {p - 1} N) _ {n} \xrightarrow {\partial} \mathrm{T} _ {o} (R ^ {p}) _ {n} \longrightarrow 0.
+\mathrm{T} _ {1} (B (- p) \otimes_ {k} \mathrm{T} _ {0} (N) _ {p}) _ {n} \longrightarrow \mathrm{T} _ {1} (F _ {p} N / F _ {p - 1} N) _ {n} \xrightarrow {\partial} \mathrm{T} _ {0} (R ^ {p}) _ {n} \longrightarrow 0.
 $$
 
 The first group is zero by (4), so $\partial$ is an isomorphism.
@@ -1192,10 +1211,10 @@ The first group is zero by (4), so $\partial$ is an isomorphism.
 Fix an integer $s$. We will show that (2) is an isomorphism in degrees $\leqslant s$ and also that $T_1(F_p N)_n = 0$ for $n \leqslant s$ by decreasing induction on $p$. For large $p$, this is true, because $T_1(F_p N)_n = T_1(N)_n$ for $p \geqslant n$, and because $T_1(N) = 0$ by hypothesis. Assuming $T_1(F_p N)_n = 0$ for $n \leqslant s$, we find from (1) and the exact sequence
 
 $$
-\mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N} / \mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {\mathrm{o}} \left(\mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {\mathrm{o}} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N}\right) _ {\mathrm{n}}
+\mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N} / \mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {0} \left(\mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {0} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N}\right) _ {\mathrm{n}}
 $$
 
-that $T_1(F_p N / F_{p-1} N)_n = T_o(R^p)_n = 0$ for $n \leq s$. It follows that $R^p$ is zero in degrees $\leq s$, showing that (2) is an isomorphism in degrees $\leq s$ as claimed. In addition we find $O = T_2(B(-p) \otimes_k T_o(N)_p)_n \simeq T_2(F_p N / F_{p-1} N)_n$ for $n \leq s$, whence from the exact sequence
+that $T_1(F_p N / F_{p-1} N)_n = T_0(R^p)_n = 0$ for $n \leq s$. It follows that $R^p$ is zero in degrees $\leq s$, showing that (2) is an isomorphism in degrees $\leq s$ as claimed. In addition we find $O = T_2(B(-p) \otimes_k T_0(N)_p)_n \simeq T_2(F_p N / F_{p-1} N)_n$ for $n \leq s$, whence from the exact sequence
 
 $$
 \mathrm{T} _ {2} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N} / \mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p} - 1} \mathrm{N}\right) _ {\mathrm{n}} \longrightarrow \mathrm{T} _ {1} \left(\mathrm{F} _ {\mathrm{p}} \mathrm{N}\right) _ {\mathrm{n}}
@@ -1219,13 +1238,13 @@ $$
 
 (The hypothesis that k be of finite Tor dimension over B is very restrictive. For example, if k is a field and B is commutative, then B has to be a polynomial ring over k. In all situations where this theorem is used, it happens that B is flat over k. Does this follow from the assumption that B and k are of finite Tor dimension over each other?)
 
-Proof. Let $\underline{\underline{N}}'$ be the full subcategory of Modfgr(B) consisting of N such that $T_{i}(N) = 0$ for $i > 0$, and let $\underline{\underline{N}}''$ be the full subcategory of $\underline{\underline{N}}'$ consisting of N such that $T_{o}(N) \in \underline{\underline{F}}$. By the finite Tor dimension hypotheses and the resolution theorem (§4) one has isomorphisms $K_{i=} F = K_{i}'k$, $K_{i=} N'' = K_{i=} N' = K_{i} (\text{Modfgr}(B))$. Let $\underline{\underline{N}}''$ be the full subcategory of $\underline{\underline{N}}''$ consisting of N such that $F_{n} N = N$. We have homomorphisms
+Proof. Let $\underline{\underline{N}}'$ be the full subcategory of Modfgr(B) consisting of N such that $T_{i}(N) = 0$ for $i > 0$, and let $\underline{\underline{N}}''$ be the full subcategory of $\underline{\underline{N}}'$ consisting of N such that $T_{0}(N) \in \underline{\underline{F}}$. By the finite Tor dimension hypotheses and the resolution theorem (§4) one has isomorphisms $K_{i=} F = K_{i}'k$, $K_{i=} N'' = K_{i=} N' = K_{i} (\text{Modfgr}(B))$. Let $\underline{\underline{N}}''$ be the full subcategory of $\underline{\underline{N}}''$ consisting of N such that $F_{n} N = N$. We have homomorphisms
 
 $$
 \left(\mathrm{K} _ {\underline {{\mathbf {i}}} \underline {{\mathbf {F}}}}\right) ^ {\mathrm{n}} = \mathrm{K} _ {\underline {{\mathbf {i}}}} \left(\underline {{\mathbf {F}}} ^ {\mathrm{n}}\right) \xrightarrow {\mathrm{b}} \mathrm{K} _ {\underline {{\mathbf {i}}}} \left(\underline {{\mathrm{N} ^ {\prime \prime}}} _ {\mathrm{n}}\right) \xrightarrow {\mathrm{c}} \left(\mathrm{K} _ {\underline {{\mathbf {i}}} \underline {{\mathbf {F}}}}\right) ^ {\mathrm{n}}
 $$
 
-induced by the exact functors $(F_j, 0 \leqslant j \leqslant n) \mapsto \coprod B(-j) \otimes_k F_j$ (this is in $\underline{\underline{N}}''$ by (3)) and $N \mapsto (T_o(N)_j)$ respectively. Clearly $cb = id$. On the other hand, by Lemma 1 any $N$ in $\underline{\underline{N}}''_n$ has an exact characteristic filtration $O \subset F_o N \subset .. \subset F_n N = N$ with $F_p N / F_{p-1} N = B(-p) \otimes_k T_o(N)_p$, so applying Th. 2, Cor. 2, one finds that $bc = id$. Thus $b$ is an isomorphism, so by passing to the limit over $n$ we have $\mathbb{Z}[t] \otimes K_i F \xrightarrow{\sim} K_i N''$, which proves the theorem.
+induced by the exact functors $(F_j, 0 \leqslant j \leqslant n) \mapsto \coprod B(-j) \otimes_k F_j$ (this is in $\underline{\underline{N}}''$ by (3)) and $N \mapsto (T_0(N)_j)$ respectively. Clearly $cb = id$. On the other hand, by Lemma 1 any $N$ in $\underline{\underline{N}}''_n$ has an exact characteristic filtration $O \subset F_0 N \subset .. \subset F_n N = N$ with $F_p N / F_{p-1} N = B(-p) \otimes_k T_0(N)_p$, so applying Th. 2, Cor. 2, one finds that $bc = id$. Thus $b$ is an isomorphism, so by passing to the limit over $n$ we have $\mathbb{Z}[t] \otimes K_i F \xrightarrow{\sim} K_i N''$, which proves the theorem.
 
 The following will be used in the proof of Theorem 7.
 
@@ -1240,7 +1259,7 @@ $$
 where $P_{r-1}$ is projective. We have to show $N_r$ is projective for $r$ large. Since $T_i(N_r) = T_{i+1}(N_{r-1})$ for $i > 0$, it follows that $T_i(N_r) = 0$ for $i > 0$ and $r \geq d$, where $d$ is the Tor dimension of $k$ over $B$. Then for $r > d$ we have exact sequences
 
 $$
-0 \longrightarrow T _ {o} (N _ {r}) \longrightarrow T _ {o} (P _ {r - 1}) \longrightarrow T _ {o} (N _ {r - 1}) \longrightarrow 0.
+0 \longrightarrow T _ {0} (N _ {r}) \longrightarrow T _ {0} (P _ {r - 1}) \longrightarrow T _ {0} (N _ {r - 1}) \longrightarrow 0.
 $$
 
 As $k$ is regular, $T_{0}(N_{d})$ has finite projective dimension $s$, so $T_{0}(N_{r})$ is projective for $r \geqslant d + s$. It follows from Lemma 1 that $N_{d + s}$ is projective, whence the lemma.
@@ -1257,10 +1276,10 @@ iii) If  $\mathrm{gr}(M)$  has a resolution by finitely generated projective gra
 Proof. We use the following construction. Suppose given k-modules  $L_{j}$  and maps of k-modules  $L_{j} \rightarrow F_{j}M$  for each  $j \geq 0$  such that the composition
 
 $$
-\mathrm{L} _ {\mathrm{j}} \longrightarrow \mathrm{F} _ {\mathrm{j}} \mathrm{M} \longrightarrow g r _ {\mathrm{j}} (\mathrm{M}) \longrightarrow \mathrm{T} _ {\mathrm{o}} (g r (\mathrm{M})) _ {\mathrm{j}}
+\mathrm{L} _ {\mathrm{j}} \longrightarrow \mathrm{F} _ {\mathrm{j}} \mathrm{M} \longrightarrow g r _ {\mathrm{j}} (\mathrm{M}) \longrightarrow \mathrm{T} _ {0} (g r (\mathrm{M})) _ {\mathrm{j}}
 $$
 
-is onto. Let $P$ be the filtered A-module with $F_{n}P = \coprod_{j} F_{n-j}A \otimes_{k} L_{j}$ and let $\phi : P \to M$ be such that $\phi$ restricted to $A \otimes_{k} L_{j}$ is the A-linear extension of the given map from $L_{j}$ to $F_{j}M$. Then $T_{o}(gr(P))_{j} = L_{j}$, and $\phi$ is a map of filtered A-modules such that $T_{o}(gr(\phi))$ is onto. It follows that $gr(\phi)$ is onto, hence $F_{n}(\phi)$ is onto for all $n$, and so $\phi$ is onto. Thus if $K = Ker(\phi)$, $F_{n}K = K \cap F_{n}M$, we have an exact sequence of A-modules
+is onto. Let $P$ be the filtered A-module with $F_{n}P = \coprod_{j} F_{n-j}A \otimes_{k} L_{j}$ and let $\phi : P \to M$ be such that $\phi$ restricted to $A \otimes_{k} L_{j}$ is the A-linear extension of the given map from $L_{j}$ to $F_{j}M$. Then $T_{0}(gr(P))_{j} = L_{j}$, and $\phi$ is a map of filtered A-modules such that $T_{0}(gr(\phi))$ is onto. It follows that $gr(\phi)$ is onto, hence $F_{n}(\phi)$ is onto for all $n$, and so $\phi$ is onto. Thus if $K = Ker(\phi)$, $F_{n}K = K \cap F_{n}M$, we have an exact sequence of A-modules
 
 $$
 0 \longrightarrow K \longrightarrow P \longrightarrow M \longrightarrow O
@@ -1282,7 +1301,7 @@ i): If  $\mathrm{gr}(M)$  is a finitely generated B-module, then  $\mathrm{T}_{0
 
 generated k-module, hence we can take  $L_{j}$  to be a free finitely generated k-module which is zero for large j. Then P is a free finitely generated A-module, so M is finitely generated, proving the first part of i). The second part follows by taking M to be a left ideal of A and endowing it with the induced filtration  $F_{n}M = M \cap F_{n}A$ .
 
-ii): If  $\mathrm{gr}(M)$  is projective over B, then  $\mathrm{T}_{\mathrm{o}}(\mathrm{gr}(M))$  is projective over k, and we can take  $\mathrm{L}_{\mathrm{j}} = \mathrm{T}_{\mathrm{o}}(\mathrm{gr}(M))_{\mathrm{j}}$ . Then  $\mathrm{T}_{\mathrm{o}}(\mathrm{gr}(\phi))$  is an isomorphism, so from the exact sequence
+ii): If  $\mathrm{gr}(M)$  is projective over B, then  $\mathrm{T}_{0}(\mathrm{gr}(M))$  is projective over k, and we can take  $\mathrm{L}_{\mathrm{j}} = \mathrm{T}_{0}(\mathrm{gr}(M))_{\mathrm{j}}$ . Then  $\mathrm{T}_{0}(\mathrm{gr}(\phi))$  is an isomorphism, so from the exact sequence
 
 $$
 \mathrm{T} _ {1} (\operatorname{gr} (\mathrm{M})) \longrightarrow \mathrm{T} _ {\circ} (\operatorname{gr} (\mathrm{K})) \longrightarrow \mathrm{T} _ {\circ} (\operatorname{gr} (\mathrm{P})) \longrightarrow \mathrm{T} _ {\circ} (\operatorname{gr} (\mathrm{M}))
@@ -1303,12 +1322,12 @@ $O = F_{-1}A \subset F_{0}A \subset F_{1}A \subset \ldots$ such that $1 \in F_{0
 
 Proof. Put $k = F_{0}A$. Since $B$ is noetherian, we know $A$ is also by Lemma 3 i). Also if $B$ has Tor dimension $d$ over $k$, then $F_{n}A / F_{n-1}A$ has Tor dimension $\leqslant d$ for each $n$, so the same is true for $F_{n}A$, and hence also for $A$. Thus the map $K_{i}^{\prime}k \to K_{i}^{\prime}A$ is defined, and we have only to prove that it is an isomorphism. Indeed, the last assertion of the theorem results from Lemma 4 and the fact that $K_{i}A = K_{i}^{\prime}A$ for regular $A$ by the resolution theorem (Th. 3, Cor. 2).
 
-Let $z$ be an indeterminate and let $A'$ be the subring $\coprod (F_A)z^n$ of $A[z]$. We show the graded ring $A'$ satisfies the hypotheses of Theorem 6. The fact that $A'$ has finite Tor dimension over $k$ is clear from the preceding paragraph. Since $z$ is a central non-zero-divisor in $A'$, we have that $B = A'/zA'$ is of Tor dimension one over $A'$. As $k$ has finite Tor dimension over $B$, it follows that $k$ has finite Tor dimension
+Let $z$ be an indeterminate and let $A'$ be the subring $\coprod (F_n A)z^n$ of $A[z]$. We show the graded ring $A'$ satisfies the hypotheses of Theorem 6. The fact that $A'$ has finite Tor dimension over $k$ is clear from the preceding paragraph. Since $z$ is a central non-zero-divisor in $A'$, we have that $B = A'/zA'$ is of Tor dimension one over $A'$. As $k$ has finite Tor dimension over $B$, it follows that $k$ has finite Tor dimension
 
 over A'. Finally to show A' is noetherian, we filter A' by letting  $F_{p}A'$  consist of those polynomials whose coefficients are in  $F_{p}A$ . The ring
 
 $$
-\operatorname{gr} \left(\mathrm{A} ^ {\prime}\right) = \frac {1}{p \leqslant n} \left(\operatorname{gr} _ {p} \mathrm{A}\right) z ^ {n}
+\operatorname{gr} \left(\mathrm{A} ^ {\prime}\right) = \bigoplus_{p \leqslant n} \left(\operatorname{gr} _ {p} \mathrm{A}\right) z ^ {n}
 $$
 
 is isomorphic to $\operatorname{gr}(A)[z]$, which is noetherian, hence $A'$ is noetherian by Lemma 3 i). Let $\underline{\underline{\mathbf{F}}}$ be the full subcategory of $\operatorname{Modf}(k)$ consisting of $\mathbf{F}$ such that $\operatorname{Tor}_{i}^{k}(B,F)=0$ for $i>0$, whence $K_{i}\underline{\underline{\mathbf{F}}} = K_{i}'k$ by the resolution theorem (Th.3, Cor. 3). Applying Theorem 6 to B and $A'$, we obtain $\mathbb{Z}[t]$-module isomorphisms
@@ -1397,30 +1416,30 @@ $$
 
 (A and D are regular), and we have  $K_{i}A = K_{i}k$  by Theorem 7.
 
-An object of $\underline{\underline{B}}$ is a finite dimensional vector space $V$ over $k$ equipped with an additive map $F: V \to V$ such that $F(xv) = x^q F(v)$ for $x$ in $k$ and $v$ in $V$. It is well-known that $V$ splits canonically: $V = V_o \oplus V_1$, where $F$ is nilpotent on $V_o$ and bijective on $V_1$, and moreover that
+An object of $\underline{\underline{B}}$ is a finite dimensional vector space $V$ over $k$ equipped with an additive map $F: V \to V$ such that $F(xv) = x^q F(v)$ for $x$ in $k$ and $v$ in $V$. It is well-known that $V$ splits canonically: $V = V_0 \oplus V_1$, where $F$ is nilpotent on $V_0$ and bijective on $V_1$, and moreover that
 
 $$
-k \otimes_ {F _ {q}} v ^ {F} \stackrel {{\sim}} {{\longrightarrow}} v _ {1}
+k \otimes_ {F _ {q}} V ^ {F} \stackrel {{\sim}} {{\longrightarrow}} V _ {1}
 $$
 
 where  $V^{F} = \{v \in V \mid Fv = v\}$  is a finite dimensional vector space over the subfield  $F_{q}$  of k with q elements. Thus we have an equivalence of categories
 
 $$
-\underline {{B}} \cong \bigcup_ {n} \text { Modf } (A / A F ^ {n}) x \text { Modf } (F _ {q}).
+\underline {{B}} \cong \bigcup_ {n} \text { Modf } (A / A F ^ {n}) \times \text { Modf } (F _ {q}).
 $$
 
-Applying the devissage theorem to the first factor, we obtain $K_{i}B = K_{i}k \oplus K_{i}F_{g}$.
+Applying the devissage theorem to the first factor, we obtain $K_{i}B = K_{i}k \oplus K_{i}F_{q}$.
 
-Let $\phi : k \to k$ be the Frobenius automorphism: $\phi(x) = x^q$, and let $\phi(V)^q$ denote the base extension of the $k$-vector space $V$ with respect to $\phi$, i.e. $\phi(V) = k \otimes_k V$, where $k$ is regarded as a right $k$-module via $\phi$. If $V$ is regarded as an $A$-module killed by $F$, we have an exact sequence of $A$-modules
+Let $\phi : k \to k$ be the Frobenius automorphism: $\phi(x) = x^q$, and let $\phi(V)$ denote the base extension of the $k$-vector space $V$ with respect to $\phi$, i.e. $\phi(V) = k \otimes_k V$, where $k$ is regarded as a right $k$-module via $\phi$. If $V$ is regarded as an $A$-module killed by $F$, we have an exact sequence of $A$-modules
 
 $$
-\begin{array}{r c l} \mathrm{O} & \longrightarrow & \mathrm{A}   \otimes_ {\mathrm{k}} \phi (\mathrm{V}) \quad \longrightarrow \quad \mathrm{A}   \otimes_ {\mathrm{k}} \mathrm{V} \quad \longrightarrow \quad \mathrm{V} \quad \longrightarrow \quad \mathrm{O} \\ & & \mathrm{a}   \otimes (\mathrm{x}   \otimes   \mathrm{v}) \quad \mapsto \quad \mathrm{axF}   \otimes   \mathrm{v} \end{array}
+\begin{array}{r c l} 0 & \longrightarrow & \mathrm{A}   \otimes_ {\mathrm{k}} \phi (\mathrm{V}) \quad \longrightarrow \quad \mathrm{A}   \otimes_ {\mathrm{k}} \mathrm{V} \quad \longrightarrow \quad \mathrm{V} \quad \longrightarrow \quad 0 \\ & & \mathrm{a}   \otimes (\mathrm{x}   \otimes   \mathrm{v}) \quad \mapsto \quad \mathrm{axF}   \otimes   \mathrm{v} \end{array}
 $$
 
 On the other hand, if W is a finite dimensional vector space over  $F_{q}$ , we have an exact sequence of A-modules
 
 $$
-\begin{array}{c c c c c} \text {O} & \longrightarrow & \mathrm{A} \otimes_ {\mathbb {F}} W & \longrightarrow & \mathrm{A} \otimes_ {\mathbb {F}} W \\ & & \mathrm{a} \otimes w & \mapsto & \mathrm{a} (\mathrm{F} - 1) \otimes w \end{array} \longrightarrow \begin{array}{c c c c c} \mathrm{k} \otimes_ {\mathbb {F}} W & \longrightarrow & \mathrm{O} \\ & & \mathrm{q} \end{array}
+\begin{array}{c c c c c} 0 & \longrightarrow & \mathrm{A} \otimes_ {\mathbb {F}_{q}} W & \longrightarrow & \mathrm{A} \otimes_ {\mathbb {F}_{q}} W \\ & & \mathrm{a} \otimes w & \mapsto & \mathrm{a} (\mathrm{F} - 1) \otimes w \end{array} \longrightarrow \begin{array}{c c c c c} \mathrm{k} \otimes_ {\mathbb {F}_{q}} W & \longrightarrow & 0 \\ & & \mathrm{q} \end{array}
 $$
 
 where $F$ acts on the cokernel by $F(x \otimes w) = x^q \otimes w$. Applying Th. 2, Cor. 1, to these "characteristic" sequences, one easily deduces that the composite
@@ -1452,23 +1471,23 @@ $$
 Example 2. Let H be the Heisenberg-Weyl algebra with generators p,q such that pq - qp = 1 over an algebraically closed field k, and let D be the quotient skew-field of H. In this case, one can prove that the localization exact sequence associated to Modf(H) and the Serre subcategory of torsion modules breaks up into short exact sequences
 
 $$
-0 \longrightarrow K _ {i} k \longrightarrow K _ {i} D \longrightarrow \perp K _ {i - 1} k \longrightarrow 0
+0 \longrightarrow K _ {i} k \longrightarrow K _ {i} D \longrightarrow \bigoplus K _ {i - 1} k \longrightarrow 0
 $$
 
 where the direct sum is taken over the set of isomorphism classes of simple H-modules. The proof is similar to the preceding, the essential points being a) torsion finitely generated H-modules are of finite length, because H has no modules finite dimensional over k, and b) k is the ring of endomorphisms of any simple H-module ([Quillen 3]).
 
 ## §7. K'-theory for schemes
 
-1. If $X$ is a scheme, we put $K_{q}X = K_{q=}P(X)$, where $P(X)$ is the category of vector bundles over $X$ (= locally free sheaves of $O_{=X}$-modules of finite rank) equipped with the usual notion of exact sequence. If $X$ is a noetherian scheme, we put $K_{q}'X = K_{q=}M(X)$, where $M(X)$ is the abelian category of coherent sheaves on $X$. The following theory concerns primarily the groups $K_{q}'X$, so for the rest of this section we will assume all schemes to be noetherian and separated, unless stated otherwise.
+1. If $X$ is a scheme, we put $K_{q}X = K_{q}P(X)$, where $P(X)$ is the category of vector bundles over $X$ (= locally free sheaves of $O_{X}$-modules of finite rank) equipped with the usual notion of exact sequence. If $X$ is a noetherian scheme, we put $K_{q}'X = K_{q}M(X)$, where $M(X)$ is the abelian category of coherent sheaves on $X$. The following theory concerns primarily the groups $K_{q}'X$, so for the rest of this section we will assume all schemes to be noetherian and separated, unless stated otherwise.
 
-As the inclusion functor from $\underline{\underline{P}}(X)$ to $\underline{\underline{M}}(X)$ is exact, it induces a homomorphism (1.1) $K_{q}^{X} \to K_{q}^{\prime X}$.
+As the inclusion functor from $\underline{\underline{P}}(X)$ to $\underline{\underline{M}}(X)$ is exact, it induces a homomorphism (1.1) $K_{q}X \to K_{q}'X$.
 
 When $X$ is regular this is an isomorphism. In effect, one knows that any coherent sheaf $F$ is a quotient of a vector bundle [SGA 6 II 2.2.3 - 2.2.7.1], hence it has a resolution by vector bundles, in fact a finite resolution as $X$ is regular and quasi-compact (see [SGA 2 VIII 2.4]). Thus 1.1 is an isomorphism by the resolution theorem (Th. 3, Cor. 1).
 
 If $E$ is a vector bundle on $X$, then $F \mapsto E \otimes F$ is an exact functor from $\underline{M}(X)$ to itself, hence as in §3, (1), we obtain pairings
 
 $$
-\mathrm{K} _ {\mathrm{o}} ^ {\mathrm{X}} \otimes \mathrm{K} _ {\mathrm{q}} ^ {\prime \mathrm{X}} \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime \mathrm{X}}\tag{1.2}
+\mathrm{K} _ {0} \mathrm{X} \otimes \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{X} \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{X}\tag{1.2}
 $$
 
 making $K_{q}^{\prime}X$ a module over the ring $K_{0}X$. (In a later paper I plan to extend this idea to define a graded anti-commutative ring structure on $K_{*}X$ such that $K_{*}^{\prime}X$ is a graded module over $K_{*}X$.)
@@ -1483,7 +1502,7 @@ It is clear that in this way  $K_{q}$  becomes a contravariant functor from sche
 
 Proposition 2.2. Let $i \mapsto X_i$ be a filtered projective system of schemes such that the transition morphisms $X_i \to X_j$ are affine, and let $X = \varprojlim X_i$. Then
 (2.3)
-$K_X = \varinjlim K_X_i$.
+$K_qX = \varinjlim_i K_qX_i$.
 
 If in addition the transition morphisms are flat, then
 
@@ -1497,23 +1516,23 @@ $$
 \xrightarrow [ I ]{\lim} (i \mapsto \underline {{P}} _ {i}) \longrightarrow \underline {{P}} (X)
 $$
 
-such that a sequence is exact in $\underline{\underline{P}}(X)$ if and only if it comes from an exact sequence in some $\underline{\underline{P}}_{i}$. Thus from §2 (9) we have $K_{q=1}P(X) = \lim_{\rightarrow} K_{q=1}P_i$, proving 2.3. The proof of 2.4 is similar.
+such that a sequence is exact in $\underline{\underline{P}}(X)$ if and only if it comes from an exact sequence in some $\underline{\underline{P}}_{i}$. Thus from §2 (9) we have $K_{q}P(X) = \lim_{\rightarrow} K_{q}P_i$, proving 2.3. The proof of 2.4 is similar.
 
 2.5. Suppose that $f: X \to Y$ is a morphism of finite Tor dimension (i.e. $\underline{O}_X$ is of finite Tor dimension as a module over $f^{-1}(\underline{O}_Y)$), and let $\underline{P}(Y, f)$ be the full subcategory of $\underline{M}(Y)$ consisting of sheaves $F$ such that
 
 $$
-\operatorname{Tor} _ {i} \stackrel {{0}} {{=}} Y (\underset {\sim X} {0}, F) = 0 \quad \text { for } \quad i > 0.
+\operatorname{Tor}_{i}^{O_Y}(O_X,F) = 0 \quad \text { for } \quad i > 0.
 $$
 
 Assuming that every $F$ in $\underline{\underline{M}}(Y)$ is a quotient of a member of $\underline{\underline{P}}(Y, f)$, the resolution theorem (Th. 3, Cor. 3) implies that the inclusion $\underline{\underline{P}}(Y, f) \to \underline{\underline{M}}(Y)$ induces isomorphisms on K-groups. Combining this isomorphism with the homomorphism induced by the exact functor $f^* : \underline{\underline{P}}(Y, f) \to \underline{\underline{M}}(X)$, we obtain a homomorphism which will be denoted
 
 $$
-f ^ {*}: K _ {q} ^ {\prime Y} \longrightarrow K _ {q} ^ {\prime X}.\tag{2.6}
+f ^ {*}: K _ {q} ^ {\prime} Y \longrightarrow K _ {q} ^ {\prime} X.\tag{2.6}
 $$
 
 The assumption holds if either $f$ is flat (whence $\underline{\underline{P}}(Y, f) = \underline{\underline{M}}(Y)$), or if every coherent sheaf on $Y$ is the quotient of a vector bundle (e.g. if $Y$ has an ample line bundle). In both of these cases the formula $(fg)^* = g^*f^*$ is easily verified.
 
-2.7. Let $f: X \to Y$ be a proper morphism, so that the higher direct image functors $R^{i}f_{*}$ carry coherent sheaves on $X$ to coherent sheaves on $Y$. Let $F(X, f)$ denote the full subcategory of $M(X)$ consisting of $F$ such that $R^{i}f_{*}(F) = 0$ for $i > 0$. Since $R^{i}f_{*} = 0$ for $i$ large [EGA III 1.4.12], we can apply Th. 3, Cor. 3 to the inclusion $F(X, f)^{0} \to M(X)^{0}$ to get an isomorphism $K F(X, f) \stackrel{\sim}{\to} K'X$, provided we assume that every
+2.7. Let $f: X \to Y$ be a proper morphism, so that the higher direct image functors $R^{i}f_{*}$ carry coherent sheaves on $X$ to coherent sheaves on $Y$. Let $F(X, f)$ denote the full subcategory of $M(X)$ consisting of $F$ such that $R^{i}f_{*}(F) = 0$ for $i > 0$. Since $R^{i}f_{*} = 0$ for $i$ large [EGA III 1.4.12], we can apply Th. 3, Cor. 3 to the inclusion $F(X, f)^{0} \to M(X)^{0}$ to get an isomorphism $K_q F(X, f) \stackrel{\sim}{\to} K'_qX$, provided we assume that every
 
 coherent sheaf on X can be embedded in a member of $\underline{\underline{F}}(X,f)$. Composing this isomorphism with the homomorphism of K-groups induced by the exact functor $f_{*}:\underline{\underline{F}}(X,f)\to\underline{\underline{M}}(Y)$, we obtain a homomorphism which will be denoted
 
@@ -1525,10 +1544,10 @@ The assumption is satisfied in the following cases:
 
 i) When $f$ is finite, in particular, when $f$ is a closed immersion. In this case $R^i f_* = 0$ for $i > 0$ [EGA III 1.3.2], so $F(X, f) = M(X)$.
 
-ii) When $X$ has an ample line bundle [EGA II 4.5.3]. In effect if $L$ is ample on $X$, then it is ample when restricted to any open subset, and in particular, it is ample relative to $f$. Replacing $L$ by a high tensor power, we can suppose $L$ is very ample relative to $f$, and further that $L$ is generated by its global sections. Then for any $n$ we have an epimorphism $(\underline{Q}_X)^{rn} \to L^{\otimes n}$, hence dualizing and tensoring with $L^{\otimes n}$, we obtain an exact sequence of vector bundles
+ii) When $X$ has an ample line bundle [EGA II 4.5.3]. In effect if $L$ is ample on $X$, then it is ample when restricted to any open subset, and in particular, it is ample relative to $f$. Replacing $L$ by a high tensor power, we can suppose $L$ is very ample relative to $f$, and further that $L$ is generated by its global sections. Then for any $n$ we have an epimorphism $(\underline{O}_X)^{rn} \to L^{\otimes n}$, hence dualizing and tensoring with $L^{\otimes n}$, we obtain an exact sequence of vector bundles
 
 $$
-0 \longrightarrow \underline {{0}} _ {X} \longrightarrow (L ^ {\otimes n}) ^ {r n} \longrightarrow E \longrightarrow 0.
+0 \longrightarrow \underline {{O}} _ {X} \longrightarrow (L ^ {\otimes n}) ^ {r n} \longrightarrow E \longrightarrow 0.
 $$
 
 Hence for any coherent sheaf F on X we have an exact sequence
@@ -1537,22 +1556,22 @@ $$
 0 \longrightarrow F \longrightarrow F (n) ^ {r n} \longrightarrow F \otimes E \longrightarrow 0\tag{2.9}
 $$
 
-where $F(n) = F \otimes L^{\otimes n}$. But by Serre's theorem [EGA III 2.2.1], there is an $n_0$ such that $R^1 f_*(F(n)) = 0$ for $i > 0$, $n \geqslant n_0$, so $F(n) \in \underline{F}(X, f)$ for $n \geqslant n_0$. Thus $F$ can be embedded in a member of $\underline{F}(X, f)$ as asserted.
+where $F(n) = F \otimes L^{\otimes n}$. But by Serre's theorem [EGA III 2.2.1], there is an $n_0$ such that $R^{i} f_*(F(n)) = 0$ for $i > 0$, $n \geqslant n_0$, so $F(n) \in \underline{F}(X, f)$ for $n \geqslant n_0$. Thus $F$ can be embedded in a member of $\underline{F}(X, f)$ as asserted.
 
 The verification of the formula $(fg)_* = f_*g_*$ in cases i) and ii) is straightforward and will be omitted.
 
-Proposition 2.10. (Projection formula) Suppose $f: X \to Y$ proper and of finite Tor dimension, and assume $X$ and $Y$ have ample line bundles so that 2.6 and 2.8 are defined. Then for $x \in K_0^X$ and $y \in K_q'Y$ we have $f_*(x \cdot f*y) = f_*(x) \cdot y$ in $K_q'Y$, where $f_*(x)$ is the image of $x$ by the homomorphism $f_*: K_0^X \to K_0^Y$ of [SGA 6 2.12.3].
+Proposition 2.10. (Projection formula) Suppose $f: X \to Y$ proper and of finite Tor dimension, and assume $X$ and $Y$ have ample line bundles so that 2.6 and 2.8 are defined. Then for $x \in K_0X$ and $y \in K_q'Y$ we have $f_*(x \cdot f*y) = f_*(x) \cdot y$ in $K_q'Y$, where $f_*(x)$ is the image of $x$ by the homomorphism $f_*: K_0X \to K_0Y$ of [SGA 6 2.12.3].
 
-Proof. We recall that if $\mathbf{x} = [\mathbf{E}]$ is the class of a vector bundle $\mathbf{E}$, then $f_{*}(\mathbf{x})$ is the class of the perfect complex $Rf_{*}(E)$. Arguing as in case ii) above, one sees that $K_{0}X$ is generated by the elements $[\mathbf{E}]$ such that $R^{i}f_{*}(E) = 0$ for $i > 0$. Then $Rf_{*}(E) \cong f_{*}E$, and $f_{*}(\mathbf{x}) = \sum (-1)^{i}[P_{i}] \in K_{0}X$, where $\{P_{i}\}$ is a finite resolution of $f_{*}E$ by vector bundles on $Y$. Let $\underline{\underline{L}}$ denote the full subcategory of $\underline{\underline{M}}(Y)$ consisting of $F$ such that
+Proof. We recall that if $\mathbf{x} = [\mathbf{E}]$ is the class of a vector bundle $\mathbf{E}$, then $f_{*}(\mathbf{x})$ is the class of the perfect complex $Rf_{*}(E)$. Arguing as in case ii) above, one sees that $K_{0}X$ is generated by the elements $[\mathbf{E}]$ such that $R^{i}f_{*}(E) = 0$ for $i > 0$. Then $Rf_{*}(E) \cong f_{*}E$, and $f_{*}(\mathbf{x}) = \sum (-1)^{i}[P_{i}] \in K_{0}Y$, where $\{P_{i}\}$ is a finite resolution of $f_{*}E$ by vector bundles on $Y$. Let $\underline{\underline{L}}$ denote the full subcategory of $\underline{\underline{M}}(Y)$ consisting of $F$ such that
 
 $$
-\operatorname{Tor} _ {\mathbf {i}} \stackrel {{\mathrm{O}}} {{=}} \mathrm{Y} (\mathbf {f} _ {*} \mathrm{E}, \mathbf {F}) = 0 = \operatorname{Tor} _ {\mathbf {i}} \stackrel {{\mathrm{O}}} {{=}} \mathrm{Y} (\underset {\equiv X} {\mathrm{O}}, \mathbf {F})
+\operatorname{Tor}_{i}^{O_Y}(f_*E,F) = 0 = \operatorname{Tor}_{i}^{O_Y}(O_X,F)
 $$
 
 By the resolution theorem we have $K_{q}L = K'Y$. Moreover, applying Th. 2, Cor. 3 to
 
 $$
-0 \longrightarrow P _ {n} \otimes F \longrightarrow .. \longrightarrow P _ {o} \otimes F \longrightarrow f _ {*} E \otimes F \longrightarrow 0
+0 \longrightarrow P _ {n} \otimes F \longrightarrow .. \longrightarrow P _ {0} \otimes F \longrightarrow f _ {*} E \otimes F \longrightarrow 0
 $$
 
 for $F \in \underline{\underline{L}}$, one sees that $y \mapsto f_{*}(x) \cdot y$ is the endomorphism of $K'Y_q$ induced by the exact functor $F \mapsto f_{*}E \otimes F$ from $\underline{\underline{L}}$ to $\underline{\underline{M}}(Y)$.
@@ -1560,7 +1579,7 @@ for $F \in \underline{\underline{L}}$, one sees that $y \mapsto f_{*}(x) \cdot y
 From the projection formula in the derived category: $\mathrm{Rf}_{*}(\mathrm{E}\stackrel{\mathrm{L}}{\otimes}_{\mathrm{Y}}\mathrm{F}) = \mathrm{Rf}_{*}(\mathrm{E})\stackrel{\mathrm{L}}{\otimes}_{\mathrm{Y}}\mathrm{F}$ (see [SGA 6 III 2.7]), we find for $\mathbf{F}$ in $\underline{\underline{\mathbf{L}}}$ that
 
 $$
-R ^ {q} f _ {*} (E \otimes f ^ {*} E) = \left\{ \begin{array}{l l} 0 & q \neq 0 \\ f _ {*} E \otimes F & q = 0. \end{array} \right.
+R ^ {q} f _ {*} (E \otimes f ^ {*} F) = \left\{ \begin{array}{l l} 0 & q \neq 0 \\ f _ {*} E \otimes F & q = 0. \end{array} \right.
 $$
 
 Thus $E \otimes f^*F$ is in $\underline{\underline{F}}(X, f)$, so by the definition of 2.6 and 2.8, we have that $y \mapsto f_*(x \cdot f*y)$ is the endomorphism of $K'Y_q$ induced by the exact functor $F \mapsto f_*(E \otimes f^*F)$ from $\underline{L}$ to $\underline{M}(Y)$. Since we have an isomorphism $f_*(E \otimes f^*F) \simeq f_*E \otimes F$, the projection formula follows.
@@ -1572,20 +1591,20 @@ Proposition 2.11. Let
 be a cartesian square of schemes having ample line bundles. Assume $f$ is proper, $g$ is of finite Tor dimension, and that $Y'$ and $X$ are Tor independent over $Y$, (i.e.
 
 $$
-\operatorname{Tor} _ {i} \stackrel {{\underline {{0}}}} {{=}} Y, y (\underset {\underline {{0}} Y ^ {\prime}, y ^ {\prime}} {{=}}, \underset {\underline {{0}} X, x} {{=}}) = 0 \quad \text { for } i > 0
+\operatorname{Tor}_{i}^{O_{Y,y}}(O_{Y',y'},O_{X,x}) = 0 \quad \text { for } i > 0
 $$
 
 for any  $x \in X$ ,  $y' \in Y'$ ,  $y \in Y$  such that  $f(x) = y = g(y')$ . Then
 
 $$
-g ^ {*} f _ {*} = f _ {*} ^ {\prime} g ^ {\prime *} \quad : K _ {q} ^ {\prime} X \longrightarrow K _ {q} ^ {\prime} Y ^ {\prime}.
+g ^ {*} f _ {*} = f _ {*} ^ {\prime} g ^ {\prime *} \quad : K _ {q} ^ {\prime} X \longrightarrow K _ {q} ^ {\prime} Y'.
 $$
 
 Sketch of proof. Set $\underline{\underline{L}} = \underline{\underline{P}}(X, g') \cap \underline{\underline{F}}(X, f)$. From the formula $Lg^{*}Rf_{*} = Rf'_{*}Lg'^{*}$ in the derived category [SGA 6 IV 3.1.0], one deduces that for $F \in \underline{\underline{L}}$ we have that $f_{*}F \in \underline{\underline{P}}(Y, g)$, $g'^{*}F \in \underline{\underline{F}}(X', f')$, and that there is an isomorphism $g^{*}f_{*}(F) = f'_{*}g'^{*}(F)$. Thus everything comes to showing that $K_{q} \underline{\underline{L}} \xrightarrow{\sim} K'_{q}X$. Since $K_{q} \underline{\underline{P}}(X, g') \xrightarrow{\sim} K'_{q}X$, we have only to check that the inclusion $\underline{\underline{L}} \longrightarrow \underline{\underline{P}}(X, g')$ induces isomorphisms on $K$-groups. But this follows from the resolution theorem, because the exact sequence 2.9 shows that the functors $R^{i}f_{*}$ on the category $\underline{\underline{P}}(X, g')$ are effaceable for $i > 0$.
 
-3. Closed subschemes. Let $Z$ be a closed subscheme of $X$, let $i: Z \to X$ be the canonical immersion, and let $I$ be the coherent sheaf of ideals in $\underline{Q}_X$ defining $Z$. The functor $i_*: \underline{M}(Z) \to \underline{M}(X)$ allows us to identify coherent sheaves on $Z$ with coherent sheaves on $X$ killed by $I$.
+3. Closed subschemes. Let $Z$ be a closed subscheme of $X$, let $i: Z \to X$ be the canonical immersion, and let $I$ be the coherent sheaf of ideals in $\underline{O}_X$ defining $Z$. The functor $i_*: \underline{M}(Z) \to \underline{M}(X)$ allows us to identify coherent sheaves on $Z$ with coherent sheaves on $X$ killed by $I$.
 
-Proposition 3.1. If I is nilpotent, then $i_* : K'Z \to K'X$ is an isomorphism. In particular, $K'(X_{\text{red}}) \xrightarrow{\sim} K'X$.
+Proposition 3.1. If I is nilpotent, then $i_* : K'_qZ \to K'_qX$ is an isomorphism. In particular, $K'_q(X_{\text{red}}) \xrightarrow{\sim} K'_qX$.
 
 This is an immediate consequence of Theorem 4.
 
@@ -1610,7 +1629,7 @@ For example, if $Z'$ is a closed subscheme of $X$ containing $Z$, then there is 
 Remark 3.5. From 3.3 one deduces in a well-known fashion a Mayer-Vietoris sequence
 
 $$
-\longrightarrow \mathrm{K} _ {\mathrm{q} + 1} ^ {\prime} (\mathrm{U} \cap \mathrm{V}) \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{U} \cup \mathrm{V}) \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} \cup \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{V} \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{U} \cap \mathrm{V}) \longrightarrow
+\longrightarrow \mathrm{K} _ {\mathrm{q} + 1} ^ {\prime} (\mathrm{U} \cap \mathrm{V}) \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{U} \cup \mathrm{V}) \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{U} \oplus \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{V} \longrightarrow \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{U} \cap \mathrm{V}) \longrightarrow
 $$
 
 for any two open sets U and V of X. Starting essentially from this point, Brown and Gersten (see their paper in this proceedings) construct a spectral sequence
@@ -1619,11 +1638,11 @@ $$
 \mathrm{E} _ {2} ^ {\mathrm{pq}} = \mathrm{H} ^ {\mathrm{p}} (X, \underset {- q} {K ^ {\prime}}) \Longrightarrow K _ {- n} ^ {\prime} X
 $$
 
-which reflects the fact that K'-theory is a sheaf of generalized cohomology theories in a certain sense. In connection with this, we mention that Gersten has proposed defining higher K-groups for regular schemes by piecing together the Karoubi-Villamayor theories belonging to the open affine subschemes (see [Gersten 2]). Using the above Mayer-Vietoris sequence and the fact that Karoubi-Villamayor K-theory coincides with ours for regular rings, Gersten has shown that his method leads to the groups $\mathbf{K}_{\alpha}\mathbf{X} = \mathbf{K}_{\alpha}'\mathbf{X}$ studied here.
+which reflects the fact that K'-theory is a sheaf of generalized cohomology theories in a certain sense. In connection with this, we mention that Gersten has proposed defining higher K-groups for regular schemes by piecing together the Karoubi-Villamayor theories belonging to the open affine subschemes (see [Gersten 2]). Using the above Mayer-Vietoris sequence and the fact that Karoubi-Villamayor K-theory coincides with ours for regular rings, Gersten has shown that his method leads to the groups $\mathbf{K}_{q}\mathbf{X} = \mathbf{K}_{q}'\mathbf{X}$ studied here.
 
 ## 4. Affine and projective space bundles.
 
-Proposition 4.1. (Homotopy property) Let $f: P \to X$ be a flat map whose fibres are affine spaces (for example, a vector bundle or a torsor under a vector bundle). Then $f^*: K'X \to K'P$ is an isomorphism.
+Proposition 4.1. (Homotopy property) Let $f: P \to X$ be a flat map whose fibres are affine spaces (for example, a vector bundle or a torsor under a vector bundle). Then $f^*: K'_qX \to K'_qP$ is an isomorphism.
 
 Proof. If $Z$ is a closed subset of $X$ with complement $U$, then because $f$ is flat we have a map of exact sequences
 
@@ -1633,14 +1652,14 @@ $$
 
 By the five lemma, the proposition is true for one of $X, Z$, and $U$ if it is true for the other two. Using noetherian induction we can assume the proposition holds for all closed subsets $Z \neq X$. We can suppose $X$ is irreducible, for if $X = Z_1 \cup Z_2$ with $Z_1, Z_2 \neq X$, then the proposition holds for $Z_1$ and $X - Z_1 = Z_2 - (Z_1 \cap Z_2)$, hence also for $X$. We can also suppose $X$ reduced by 3.1.
 
-Now take the inductive limit in the above diagram as $Z$ runs over all closed subsets $\neq X$. Then by 2.4, $\varinjlim K'U = K'q(k(x))$ and $\varinjlim K'p_{q}U = K'q(k(x)x_XP)$, where $k(x)$ is the residue field at $x$, and where $x$ is the generic point of $X$. Thus we have reduced to the case where $X = \text{Spec}(k)$, $k$ a field, and we want to prove $K'k \cong K'q(k[t_1, \ldots, t_n])$. But this follows from §6 Th. 8, so the proof is complete.
+Now take the inductive limit in the above diagram as $Z$ runs over all closed subsets $\neq X$. Then by 2.4, $\varinjlim K'_qU = K'_q(k(x))$ and $\varinjlim K'_qP_U = K'_q(k(x) \times_X P)$, where $k(x)$ is the residue field at $x$, and where $x$ is the generic point of $X$. Thus we have reduced to the case where $X = \text{Spec}(k)$, $k$ a field, and we want to prove $K'_qk \cong K'_q(k[t_1, \ldots, t_n])$. But this follows from §6 Th. 8, so the proof is complete.
 
-4.2. Jouanolou's device. Jouanolou has shown that at least for a quasi-projective scheme $X$ over a field, there is a torsor $P$ over $X$ with group a vector bundle such that $P$ is an affine scheme. He defines higher $K$-groups for smooth $X$ by taking the Karoubi-Villamayor $K$-groups of the coordinate ring of $P$ and showing that these do not depend on the choice of $P$. From 4.1 it is clear that his method yields the groups $KX = K'X$ considered here.
+4.2. Jouanolou's device. Jouanolou has shown that at least for a quasi-projective scheme $X$ over a field, there is a torsor $P$ over $X$ with group a vector bundle such that $P$ is an affine scheme. He defines higher $K$-groups for smooth $X$ by taking the Karoubi-Villamayor $K$-groups of the coordinate ring of $P$ and showing that these do not depend on the choice of $P$. From 4.1 it is clear that his method yields the groups $K_qX = K'_qX$ considered here.
 
 Proposition 4.3. Let E be a vector bundle of rank r over X, let PE = Proj(SE) be the associated projective bundle, where SE is the symmetric algebra of E, and let f : PE → X be the structural map. Then we have a K$_{0}$(PE)-module isomorphism
 
 $$
-\mathrm{K} _ {\mathrm{o}} (\mathrm{PE}) \otimes_ {\mathrm{K} _ {\mathrm{o}} \mathrm{X}} \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{X} \quad \stackrel {{\sim}} {{\longrightarrow}} \quad \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{PE})\tag{4.4}
+\mathrm{K} _ {0} (\mathrm{PE}) \otimes_ {\mathrm{K} _ {0} \mathrm{X}} \mathrm{K} _ {\mathrm{q}} ^ {\prime} \mathrm{X} \quad \stackrel {{\sim}} {{\longrightarrow}} \quad \mathrm{K} _ {\mathrm{q}} ^ {\prime} (\mathrm{PE})\tag{4.4}
 $$
 
 given by $y \otimes x \mapsto y \cdot f^*x$. Equivalently, if $z \in K_0(\text{PE})$ is the class of the canonical line bundle $O(-1)$, then we have an isomorphism
@@ -1664,20 +1683,20 @@ $$
 Using the Koszul resolution
 
 $$
-0 \longrightarrow \mathrm{SE} (- r) \otimes \bigwedge^ {r} E \otimes M \longrightarrow \dots . \longrightarrow \mathrm{SE} \otimes M \longrightarrow M \longrightarrow O
+0 \longrightarrow \mathrm{SE} (- r) \otimes \bigwedge^ {r} E \otimes M \longrightarrow \dots . \longrightarrow \mathrm{SE} \otimes M \longrightarrow M \longrightarrow 0
 $$
 
 and Th. 2, Cor. 3, one shows that the map h rendering the above square commutative is multiplication by $\lambda_{-t}(E) = \sum (-t)^{i}[\Lambda^{i}E]$. Thus $i_*$ is injective, so from 4.6 we get an isomorphism
 
 $$
-\underset {0 \leqslant i <   r} {\text {   Ⅱ   }} t ^ {i} \otimes K _ {q} ^ {\prime} k \quad \xrightarrow {\sim} \quad K _ {q} ^ {\prime} (P E)
+\bigoplus_{0 \leqslant i < r} t ^ {i} \otimes K _ {q} ^ {\prime} k \quad \xrightarrow {\sim} \quad K _ {q} ^ {\prime} (P E)
 $$
 
-induced by the functors $M \mapsto \underline{Q}(-1)^{\mathfrak{M}^1} \otimes_k M$, $O \leqslant i < r$ from $\text{Modf}(k)$ to $\underline{M}(PE)$. This gives the desired isomorphism 4.5.
+induced by the functors $M \mapsto O(-1)^{\otimes i} \otimes_k M$, $0 \leqslant i < r$ from $\text{Modf}(k)$ to $\underline{M}(PE)$. This gives the desired isomorphism 4.5.
 
 The following generalizes 3.1.
 
-Proposition 4.7. Let $f: X' \to X$ be a finite morphism which is radical and surjective (i.e. for each $x$ in $X$ the fibre $f^{-1}(x)$ has exactly one point $x'$ and the residue field extension $k(x') / k(x)$ is purely inseparable). Let $S$ be the multiplicative system in $Z$ generated by the degrees $[k(x'): k(x)]$ for all $x$ in $X$. Then $f_*: K'_q(X') \to K'_qX$ induces an isomorphism $S^{-1}K'_q(X') \cong S^{-1}K'_qX$.
+Proposition 4.7. Let $f: X' \to X$ be a finite morphism which is radicial and surjective (i.e. for each $x$ in $X$ the fibre $f^{-1}(x)$ has exactly one point $x'$ and the residue field extension $k(x') / k(x)$ is purely inseparable). Let $S$ be the multiplicative system in $Z$ generated by the degrees $[k(x'): k(x)]$ for all $x$ in $X$. Then $f_*: K'_q(X') \to K'_qX$ induces an isomorphism $S^{-1}K'_q(X') \cong S^{-1}K'_qX$.
 
 Proof. If Z is a closed subscheme of X with complement U, and if  $Z'$  and  $U'$  are the respective inverse images of Z and U in  $X'$, then we have a map of exact sequences
 
@@ -1687,32 +1706,32 @@ $$
 
 Localizing with respect to S and using the five lemma, we see that if the proposition holds for two of $f_Z$, $f$, $f_U$ it holds for the third. Thus arguing as in the proof of 4.1 we can reduce to the case where $X = \text{Spec}(k)$, $k$ a field. By 3.1 we can suppose $X' = \text{Spec}(k')$, where $k'$ is a purely inseparable finite extension of $k$. Thus we have reduced to the following.
 
-Proposition 4.8. Let $f: k \to k'$ be a purely inseparable finite extension of degree $p^d$. Then $f_* f* = \underline{\text{multiplication by }} p^d$ on $K_q k$ and $f * f_* = \underline{\text{multiplication by }} p^d$ on $K_q(k')$.
+Proposition 4.8. Let $f: k \to k'$ be a purely inseparable finite extension of degree $p^d$. Then $f_* f^* = \underline{\text{multiplication by }} p^d$ on $K_q k$ and $f^* f_* = \underline{\text{multiplication by }} p^d$ on $K_q(k')$.
 
 Proof. The fact that $f_{*}f^{*} =$ multiplication by $[k':k]$ is an immediate consequence of the projection formula §4 (5) and does not use the purely inseparable hypothesis. The homomorphism $f^{*}f_{*}$ is induced by the exact functor
 
 $$
-V \mapsto k ^ {\prime} \otimes_ {k} V = (k ^ {\prime} \otimes_ {k} k ^ {\prime}) \otimes_ {k}, V
+V \mapsto k ^ {\prime} \otimes_ {k} V = (k ^ {\prime} \otimes_ {k} k ^ {\prime}) \otimes_ {k} V
 $$
 
 from  $\underline{\underline{P}}(k')$  to itself. Since  $k'/k$  is purely inseparable, the augmentation ideal I of  $k' \otimes_{k} k'$  is nilpotent. Filtering by powers of I, one obtains a filtration of the above functor with
 
 $$
-\operatorname{gr} \left(\left(k ^ {\prime} \otimes_ {k} k ^ {\prime}\right) \otimes_ {k}, V\right) = \prod_ {n} \left(I ^ {n} / I ^ {n + 1}\right) \otimes_ {k}, V.
+\operatorname{gr} \left(\left(k ^ {\prime} \otimes_ {k} k ^ {\prime}\right) \otimes_ {k} V\right) = \bigoplus_ {n} \left(I ^ {n} / I ^ {n + 1}\right) \otimes_ {k} V.
 $$
 
 But because the two $k'$-module structures on $I^n / I^{n+1}$ coincide, this graded functor is isomorphic to the functor $V \mapsto V^r$, where $r = \dim_{k'} (\text{gr}(k' \otimes_k k')) = p^d$. Applying Th. 2, Cor. 2 to this filtration, we find $f^* f_* = \text{multiplication by } p^d$, completing the proof.
 
-5. Filtration by support, Gersten's conjecture, and the Chow ring. Let $\underline{\underline{M}}_{\underline{\underline{p}}}(\underline{\underline{X}})$ denote the Serre subcategory of $\underline{\underline{M}}(\underline{\underline{X}})$ consisting of those coherent sheaves whose support is of codimension $\geqslant p$. (The codimension of a closed subset $Z$ of $X$ is the infimum of the dimensions of the local rings $\underline{\underline{O}}_{\underline{\underline{X}},\underline{\underline{z}}}$ where $z$ runs over the generic points of $Z$.) From §2 (9) and 3.1, it is clear that we have
+5. Filtration by support, Gersten's conjecture, and the Chow ring. Let $\underline{\underline{M}}_{p}(X)$ denote the Serre subcategory of $\underline{\underline{M}}(X)$ consisting of those coherent sheaves whose support is of codimension $\geqslant p$. (The codimension of a closed subset $Z$ of $X$ is the infimum of the dimensions of the local rings $\underline{\underline{O}}_{\underline{\underline{X}},\underline{\underline{z}}}$ where $z$ runs over the generic points of $Z$.) From §2 (9) and 3.1, it is clear that we have
 
 $$
-\mathrm{K} _ {\mathrm{q}} (\underset {= \mathrm{p}} {\mathrm{M}} (X)) = \lim _ {\longrightarrow} \mathrm{K} ^ {\prime} Z\tag{5.1}
+\mathrm{K} _ {\mathrm{q}} (\underline{\underline{\mathrm{M}}}_{\mathrm{p}} (X)) = \lim _ {\longrightarrow} \mathrm{K} _ {\mathrm{q}} ^ {\prime} Z\tag{5.1}
 $$
 
 where Z runs over the closed subsets of codimension  $\geq p$ . We also have
 
 $$
-f ^ {*} \left(\underset {= p} {M} (X)\right) \subset \underset {= p} {M} \left(X ^ {\prime}\right) \quad \text { if } f: X ^ {\prime} \rightarrow X \quad \text { is   flat. }\tag{5.2}
+f ^ {*} \left(\underline{\underline{M}}_{p} (X)\right) \subset \underline{\underline{M}}_{p} \left(X ^ {\prime}\right) \quad \text { if } f: X ^ {\prime} \rightarrow X \quad \text { is   flat. }\tag{5.2}
 $$
 
 In effect, one has to show that if $Z$ has codimension $\geqslant p$ in $X$, then $f^{-1}Z$ has codimension $\geqslant p$ in $X'$. But if $z'$ is a generic point of $f^{-1}Z$, and $z = f(z')$, then the homomorphism $\underline{O}_{X,z} \to \underline{O}_{X',z'}$ is a flat local homomorphism such that $\text{rad}(\underline{O}_{X,z}) \cdot \underline{O}_{X',z'}$ is primary for $\text{rad}(\underline{O}_{X',z'})$; hence $\dim(\underline{O}_{X,z}) = \dim(\underline{O}_{X',z'})$ by [EGA IV 6.1.3], proving the assertion.
@@ -1720,7 +1739,7 @@ In effect, one has to show that if $Z$ has codimension $\geqslant p$ in $X$, the
 If $X = \varprojlim X_{i}$ where $i \mapsto X_{i}$ is a filtered projective system with affine flat transition morphisms, then we have isomorphisms
 
 $$
-\mathrm{K} _ {\mathrm{q}} (\underset {= \mathrm{p}} {\mathrm{M}} (\mathrm{X})) = \underset {\longrightarrow} {\lim} \mathrm{K} _ {\mathrm{q}} (\underset {= \mathrm{p}} {\mathrm{M}} (\mathrm{X} _ {i})) .\tag{5.3}
+\mathrm{K} _ {\mathrm{q}} (\underline{\underline{\mathrm{M}}}_{\mathrm{p}} (\mathrm{X})) = \underset {\longrightarrow} {\lim} \mathrm{K} _ {\mathrm{q}} (\underline{\underline{\mathrm{M}}}_{\mathrm{p}} (\mathrm{X} _ {i})) .\tag{5.3}
 $$
 
 In view of 5.1 this reduces to showing that any $Z$ of codimension $p$ in $X$ is of the form $f_{i}^{-1}(Z_i)$ for some $i$, where $Z_{i}$ is of codimension $p$ in $X_i$, and where $f_{i}: X \to X_i$ denotes the canonical map. But for $i$ large enough, one has $Z = f_{i}^{-1}(Z_i)$ with $Z_{i} =$ the closure of $f_{i}(Z)$. Hence any generic point $z'$ of $Z_{i}$ is the image of a generic point $z$ of $Z$, so the local rings at $z'$ and $z$ have the same dimension by the result about dimension used above. Thus $Z_{i}$ also has codimension $p$, proving 5.3.
@@ -1728,7 +1747,7 @@ In view of 5.1 this reduces to showing that any $Z$ of codimension $p$ in $X$ is
 Theorem 5.4. Let $X_p$ be the set of points of codimension $p$ in $X$. There is a spectral sequence
 
 $$
-E _ {1} ^ {p q} (X) = \frac {\left| \right|}{x \in X _ {p}} K _ {- p - q} k (x) \Longrightarrow K _ {- n} ^ {\prime} X\tag{5.5}
+E _ {1} ^ {p q} (X) = \bigoplus_{x \in X _ {p}} K _ {- p - q} k (x) \Longrightarrow K _ {- n} ^ {\prime} X\tag{5.5}
 $$
 
 which is convergent when $X$ has finite (Krull) dimension. This spectral sequence is contravariant for flat morphisms. Furthermore, if $X = \varprojlim X_i$, where $i \mapsto X_i$ is a filtered projective system with affine flat transition morphisms, then the spectral sequence for $X$ is the inductive limit of the spectral sequences for the $X_i$.
@@ -1750,13 +1769,13 @@ $$
 so from Th. 4, Cor. 1, one has an isomorphism
 
 $$
-\mathrm{K} _ {\mathbf {i}} (\underset {= p} {\mathrm{M}} (X) / \underset {= p + 1} {\mathrm{M}} (X)) \simeq \coprod_ {x \in X _ {p}} \mathrm{K} _ {\mathbf {i}} k (x)
+\mathrm{K} _ {\mathbf {i}} (\underline{\underline{\mathrm{M}}}_{p} (X) / \underline{\underline{\mathrm{M}}}_{p + 1} (X)) \simeq \bigoplus_ {x \in X _ {p}} \mathrm{K} _ {\mathbf {i}} k (x)
 $$
 
 where  $k(x)$  is the residue field at x. From Th. 5 we get exact sequences
 
 $$
-\rightarrow \mathrm{K} _ {\mathbf {i}} (\underset {= p + 1} {\mathrm{M}} (X)) \longrightarrow \mathrm{K} _ {\mathbf {i}} (\underset {= p} {\mathrm{M}} (X)) \longrightarrow \underset {x \in X _ {p}} {\text { 丨 }} \mathrm{K} _ {\mathbf {i}} k (x) \longrightarrow \mathrm{K} _ {\mathbf {i} - 1} (\underset {= p + 1} {\mathrm{M}} (X)) \longrightarrow
+\rightarrow \mathrm{K} _ {\mathbf {i}} (\underline{\underline{\mathrm{M}}}_{p + 1} (X)) \longrightarrow \mathrm{K} _ {\mathbf {i}} (\underline{\underline{\mathrm{M}}}_{p} (X)) \longrightarrow \bigoplus_{x \in X _ {p}} \mathrm{K} _ {\mathbf {i}} k (x) \longrightarrow \mathrm{K} _ {\mathbf {i} - 1} (\underline{\underline{\mathrm{M}}}_{p + 1} (X)) \longrightarrow
 $$
 
 which give rise to the desired spectral sequence in a standard way. The functorality assertions of the theorem follow immediately from 5.2 and 5.3.
@@ -1765,20 +1784,20 @@ We will now take up a line of investigation initiated by Gersten in his talk at 
 
 Proposition 5.6. The following conditions are equivalent:
 
-i) For every $p \geq 0$, the inclusion $\underline{\underline{M}}_{=p+1}(X) \to \underline{\underline{M}}_p(X)$ induces zero on K-groups. ii) For all $q$, $E_2^{pq}(X) = 0$ if $p \neq 0$ and the edge homomorphism $K_q' X \to E_2^{Oq}(X)$ is an isomorphism.
+i) For every $p \geq 0$, the inclusion $\underline{\underline{M}}_{p+1}(X) \to \underline{\underline{M}}_p(X)$ induces zero on K-groups. ii) For all $q$, $E_2^{pq}(X) = 0$ if $p \neq 0$ and the edge homomorphism $K'_{-q} X \to E_2^{0q}(X)$ is an isomorphism.
 
 $$
-\text {   iii)   For   every   } n \text {   the   sequence   } \tag {5.7} 0 \longrightarrow K _ {n} ^ {\prime} X \stackrel {{e}} {{\longrightarrow}} \prod_ {x \in X _ {o}} K _ {n} k (x) \stackrel {{d _ {1}}} {{\longrightarrow}} \prod_ {x \in X _ {1}} K _ {n - 1} k (x) \stackrel {{d _ {1}}} {{\longrightarrow}} \dots
+\text {   iii)   For   every   } n \text {   the   sequence   } \tag {5.7} 0 \longrightarrow K _ {n} ^ {\prime} X \stackrel {{e}} {{\longrightarrow}} \bigoplus_ {x \in X _ {0}} K _ {n} k (x) \stackrel {{d _ {1}}} {{\longrightarrow}} \bigoplus_ {x \in X _ {1}} K _ {n - 1} k (x) \stackrel {{d _ {1}}} {{\longrightarrow}} \dots
 $$
 
 is exact. Here $d_1$ is the differential on $E_1(X)$ and $e$ is the map obtained by pulling-back with respect to the canonical morphisms $\operatorname{Spec} k(x) \to X$.
 
 This follows immediately from the spectral sequence 5.5 and its construction.
 
-Proposition 5.8. (Gersten) Let $\underline{\underline{K^{\prime}}}_{\underline{n}}$ denote the sheaf on $X$ associated to the presheaf $U \mapsto K^{\prime}U$. Assume that $\text{Spec}(O_{\underline{x},x})$ satisfies the equivalent conditions of for all $x$ in $X$. Then there is a canonical isomorphism
+Proposition 5.8. (Gersten) Let $\underline{\underline{K^{\prime}}}_{n}$ denote the sheaf on $X$ associated to the presheaf $U \mapsto K^{\prime}_{n}U$. Assume that $\text{Spec}(O_{X,x})$ satisfies the equivalent conditions of for all $x$ in $X$. Then there is a canonical isomorphism
 
 $$
-\mathrm{E} _ {2} ^ {\mathrm{pq}} (\mathrm{x}) = \mathrm{H} ^ {\mathrm{p}} \left(\mathrm{x}, \underline {{\mathrm{K} ^ {\prime}}} _ {- \mathrm{q}}\right)
+\mathrm{E} _ {2} ^ {\mathrm{pq}} (\mathrm{X}) = \mathrm{H} ^ {\mathrm{p}} \left(\mathrm{X}, \underline {{\mathrm{K} ^ {\prime}}} _ {- \mathrm{q}}\right)
 $$
 
 with  $E_{2}^{pq}(X)$  as in 5.5.
@@ -1786,13 +1805,13 @@ with  $E_{2}^{pq}(X)$  as in 5.5.
 Proof. We view the sequences 5.7 for the different open subsets of X as a sequence of presheaves, and we sheafify to get a sequence of sheaves
 
 $$
-0 \rightarrow \underset {= n} {K ^ {\prime}} \rightarrow \underset {x \in X _ {o}} {\coprod} (i _ {x}) _ {*} (K _ {n} k (x)) \rightarrow \underset {x \in X _ {1}} {\coprod} (i _ {x}) _ {*} (K _ {n - 1} k (x)) \rightarrow ..\tag{5.9}
+0 \rightarrow \underline{\underline{K^{\prime}}}_{n} \rightarrow \bigoplus_{x \in X _ {0}} (i _ {x}) _ {*} (K _ {n} k (x)) \rightarrow \bigoplus_{x \in X _ {1}} (i _ {x}) _ {*} (K _ {n - 1} k (x)) \rightarrow ..\tag{5.9}
 $$
 
-where $i_x: \text{Spec } k(x) \to X$ denotes the canonical map. The stalk of 5.9 over $x$ is the sequence 5.7 for $\text{Spec}(Q_{\underline{\underline{\mathbf{x}}},x})$, because $\text{Spec}(Q_{\underline{\underline{\mathbf{x}}},x}) = \lim U$, where $U$ runs over the affine open neighborhoods of $x$, and because the spectral sequence 5.5 commutes with such projective limits. By hypothesis, 5.9 is exact, hence it is a flask resolution of $K'_n$, so
+where $i_x: \text{Spec } k(x) \to X$ denotes the canonical map. The stalk of 5.9 over $x$ is the sequence 5.7 for $\text{Spec}(O_{X,x})$, because $\text{Spec}(O_{X,x}) = \lim U$, where $U$ runs over the affine open neighborhoods of $x$, and because the spectral sequence 5.5 commutes with such projective limits. By hypothesis, 5.9 is exact, hence it is a flask resolution of $K'_n$, so
 
 $$
-\begin{array}{r c l} \mathrm{H} ^ {\mathrm{p}} (X, K _ {= n} ^ {\prime}) & = & \mathrm{H} ^ {\mathrm{p}} \left\{\mathbf {s} \longmapsto \Gamma (X, \bigsqcup_ {\mathbf {x} \in X _ {\mathbf {s}}} (\mathbf {i} _ {\mathbf {x}}) _ {*} K _ {n - s} k (\mathbf {x})) \right\} \\ & = & \mathrm{H} ^ {\mathrm{p}} \left\{\mathbf {s} \longmapsto E _ {1} ^ {s, - n} (X) \right\} = E _ {2} ^ {p, - n} (X) \end{array}
+\begin{array}{r c l} \mathrm{H} ^ {\mathrm{p}} (X, K _ {n} ^ {\prime}) & = & \mathrm{H} ^ {\mathrm{p}} \left\{\mathbf {s} \longmapsto \Gamma (X, \bigoplus_ {\mathbf {x} \in X _ {\mathbf {s}}} (\mathbf {i} _ {\mathbf {x}}) _ {*} K _ {n - s} k (\mathbf {x})) \right\} \\ & = & \mathrm{H} ^ {\mathrm{p}} \left\{\mathbf {s} \longmapsto E _ {1} ^ {s, - n} (X) \right\} = E _ {2} ^ {p, - n} (X) \end{array}
 $$
 
 as asserted.
@@ -1809,21 +1828,21 @@ We will now prove Gersten's conjecture in some important equi-characteristic cas
 
 Theorem 5.11. Let $R$ be a finite type algebra over a field $k$, let $S$ be a finite set of primes in $R$ such that $R_p$ is regular for each $p$ in $S$, and let $A$ be the regular semi-local ring obtained by localizing $R$ with respect to $S$. Then Spec A satisfies the conditions of 5.6.
 
-Proof. We first reduce to the case where R is smooth over k. There exists a subfield $k'$ of k finitely generated over the prime field, a finite type $k'$-algebra $R'$, and a finite subset $S'$ of $\operatorname{Spec} R'$ such that $R = k \otimes_k, R'$ and such that the primes in S are the base extensions of the primes in $S'$. If $A'$ is the localization of $R'$ with respect to $S'$, then $A = k \otimes_k, A'$ and $A'$ is regular. Letting $k_i$ run over the subfields of k containing $k'$ and finitely generated over the prime field, we have $A = \varinjlim_{\mathbf{k}} k_i \otimes_k, A'$ and $K_*(M(A)) = \varinjlim_{\mathbf{k}} K_*(M(k_i \otimes_k, A'))$ by 5.3, where here and in the following we write $M(A)$ instead of $M(\operatorname{Spec} A)$. Thus it suffices to prove the theorem when k is finitely generated over the prime field. In this case A is a localization of a finite type algebra over the prime field, so by changing R, we can suppose k is the prime field. As prime fields are perfect, it follows that R is smooth over k at the points of S, hence also in an open neighborhood of S. Replacing R by $R_f$ for some f not vanishing at the points in S, we can suppose R is smooth over k as asserted.
+Proof. We first reduce to the case where R is smooth over k. There exists a subfield $k'$ of k finitely generated over the prime field, a finite type $k'$-algebra $R'$, and a finite subset $S'$ of $\operatorname{Spec} R'$ such that $R = k \otimes_{k'} R'$ and such that the primes in S are the base extensions of the primes in $S'$. If $A'$ is the localization of $R'$ with respect to $S'$, then $A = k \otimes_{k'} A'$ and $A'$ is regular. Letting $k_i$ run over the subfields of k containing $k'$ and finitely generated over the prime field, we have $A = \varinjlim_{\mathbf{k}} k_i \otimes_{k'} A'$ and $K_*(M(A)) = \varinjlim_{\mathbf{k}} K_*(M(k_i \otimes_{k'} A'))$ by 5.3, where here and in the following we write $M(A)$ instead of $M(\operatorname{Spec} A)$. Thus it suffices to prove the theorem when k is finitely generated over the prime field. In this case A is a localization of a finite type algebra over the prime field, so by changing R, we can suppose k is the prime field. As prime fields are perfect, it follows that R is smooth over k at the points of S, hence also in an open neighborhood of S. Replacing R by $R_f$ for some f not vanishing at the points in S, we can suppose R is smooth over k as asserted.
 
 We wish to prove that for any $p \geq 0$ the inclusion $\underline{\underline{M}}_{p+1}(A) \to \underline{\underline{M}}_p(A)$ induces zero on K-groups. By 5.3 we have
 
 $$
-K _ {*} \left(\underset {p + 1} {\mathrm{M}} (A)\right) = \underset {\rightarrow} {\lim} K _ {*} \left(\underset {p + 1} {\mathrm{M}} \left(R _ {f}\right)\right)
+K _ {*} \left(\underline{\underline{\mathrm{M}}}_{p + 1} (A)\right) = \underset {\rightarrow} {\lim} K _ {*} \left(\underline{\underline{\mathrm{M}}}_{p + 1} \left(R _ {f}\right)\right)
 $$
 
-where f runs over elements not vanishing at the points of S, hence replacing R by  $R_{f}$ , we reduce to showing that the functor  $M_{=p+1}(R) \to M_{=p}(A)$  induces zero on K-groups. As
+where f runs over elements not vanishing at the points of S, hence replacing R by  $R_{f}$ , we reduce to showing that the functor  $\underline{\underline{M}}_{p+1}(R) \to \underline{\underline{M}}_{p}(A)$  induces zero on K-groups. As
 
 $$
-\mathrm{K} _ {*} (\underset {= p + 1} {\mathrm{M}} (R)) = \underbrace {\lim} _ {\rightarrow} \mathrm{K} _ {*} (\underset {= p} {\mathrm{M}} (R / t R))
+\mathrm{K} _ {*} (\underline{\underline{\mathrm{M}}}_{p + 1} (R)) = \underbrace {\lim} _ {\rightarrow} \mathrm{K} _ {*} (\underline{\underline{\mathrm{M}}}_{p} (R / t R))
 $$
 
-where t runs over the regular elements of R, it suffices to show that given a regular element t, there exists an f, not vanishing at the points of S, such that the functor  $M \mapsto M_{f}$  from  $\underset{=p}{M}(R/tR)$  to  $\underset{=p}{M}(R)$  induces zero on K-groups.
+where t runs over the regular elements of R, it suffices to show that given a regular element t, there exists an f, not vanishing at the points of S, such that the functor $M \mapsto M_f$ from $\underline{\underline{M}}_{p}(R/tR)$ to $\underline{\underline{M}}_{p}(R)$ induces zero on K-groups.
 
 We will need the following variant of the normalization lemma.
 
@@ -1838,46 +1857,46 @@ where the horizontal arrows are finite. Let $S'$ be the finite set of points of 
 Then for any B'-module M we have an exact sequence of  $R_{f}$ -modules
 
 $$
-0 \longrightarrow I _ {f} \otimes_ {B, M} \longrightarrow R _ {f} ^ {\prime} \otimes_ {B, M} \longrightarrow M _ {f} \longrightarrow 0.\tag{*}
+0 \longrightarrow I _ {f} \otimes_ {B'} M \longrightarrow R _ {f} ^ {\prime} \otimes_ {B'} M \longrightarrow M _ {f} \longrightarrow 0.\tag{*}
 $$
 
-Since $R'_{f}$ is flat over $B'$, if $M$ is in $\underline{M}_{=p}(B')$, then $R'_{f} \otimes_{B'} M$ is in $\underline{M}_{=p}(R'_{f})$, so viewed as an $R_{f}$-module, we have $R'_{f} \otimes_{B'} M$ is in $\underline{M}_{=p}(R_{f})$. Thus (\*) is an exact sequence of exact functors from $\underline{M}_{=p}(B')$ to $\underline{M}_{=p}(R_{f})$. Applying Th. 2, Cor. 1, and using the isomorphism $I_{f} \simeq R'_{f}$, we conclude that the functor from $\underline{M}_{=p}(B')$ to $\underline{M}_{=p}(R_{f})$ induces the zero map on K-groups, as was to be shown.
+Since $R'_{f}$ is flat over $B'$, if $M$ is in $\underline{\underline{M}}_{p}(B')$, then $R'_{f} \otimes_{B'} M$ is in $\underline{\underline{M}}_{p}(R'_{f})$, so viewed as an $R_{f}$-module, we have $R'_{f} \otimes_{B'} M$ is in $\underline{\underline{M}}_{p}(R_{f})$. Thus (\*) is an exact sequence of exact functors from $\underline{\underline{M}}_{p}(B')$ to $\underline{\underline{M}}_{p}(R_{f})$. Applying Th. 2, Cor. 1, and using the isomorphism $I_{f} \simeq R'_{f}$, we conclude that the functor from $\underline{\underline{M}}_{p}(B')$ to $\underline{\underline{M}}_{p}(R_{f})$ induces the zero map on K-groups, as was to be shown.
 
 Proof of the lemma. Choosing for each prime in S a maximal ideal containing it, we can suppose S is a finite set of maximal ideals of R. Let $\Omega^1$ be the module of Kahler differentials of R over k. It is a projective R-module of rank r, and for R to be smooth over $B = k[x_1 \ldots, x_{r-1}]$ at the points of S means that the differentials $dx_i \in \Omega^1$ are independent at the points of S. Let J be the intersection of the ideals in S. As $R/J^n = \prod R/m^n$, $m \in S$, is finite dimensional over k, we can find a finite dimensional k-subspace V of R such that for each m in S, there exists $v_1, \ldots, v_r$ in V whose differentials form a basis for $\Omega^1$ at m vanishing at the other points of S. We can suppose also that V generates R as an algebra over k.
 
-Define an increasing filtration of R/tR by letting  $F_{n}(R/tR)$  be the subspace spanned by the monomials of degree  $\leqslant n$  in the elements of V. Then the associated graded ring  $\text{gr}(R/tR)$  is of dimension r-1. To see this, note that  $\text{Proj}(\coprod F_{n}(R/tR))$  is the closure in projective space of the subscheme Spec (R/tR) of the affine space Spec S(V). Since R/tR has dimension r-1, the part of this Proj at infinity, namely  $\text{Proj}(\text{gr}(R/tR))$ , is of dimension r-2, so  $\text{gr}(R/tR)$  has dimension r-1 as asserted. Let  $z_{1},\ldots,z_{r-1}$  be a system of parameters for  $\text{gr}(R/tR)$  such that each  $z_{i}$  is homogeneous of degree  $\geqslant 2$ . Then  $\text{gr}(R/tR)$  is finite over  $k[z_{1},\ldots,z_{r-1}]$ , so if the  $z_{i}$  are lifted to elements  $x_{i}'$  of R, then R/tR is finite over  $k[x_{i}',\ldots,x_{r-1}']$ .
+Define an increasing filtration of R/tR by letting  $F_{n}(R/tR)$  be the subspace spanned by the monomials of degree  $\leqslant n$  in the elements of V. Then the associated graded ring  $\text{gr}(R/tR)$  is of dimension r-1. To see this, note that  $\text{Proj}(\bigoplus_{n} F_{n}(R/tR))$  is the closure in projective space of the subscheme Spec (R/tR) of the affine space Spec S(V). Since R/tR has dimension r-1, the part of this Proj at infinity, namely  $\text{Proj}(\text{gr}(R/tR))$ , is of dimension r-2, so  $\text{gr}(R/tR)$  has dimension r-1 as asserted. Let  $z_{1},\ldots,z_{r-1}$  be a system of parameters for  $\text{gr}(R/tR)$  such that each  $z_{i}$  is homogeneous of degree  $\geqslant 2$ . Then  $\text{gr}(R/tR)$  is finite over  $k[z_{1},\ldots,z_{r-1}]$ , so if the  $z_{i}$  are lifted to elements  $x_{i}'$  of R, then R/tR is finite over  $k[x_{i}',\ldots,x_{r-1}']$ .
 
 By the choice of V, we can choose  $v_{1},\ldots,v_{r-1}$  in V such that  $x_{i}=x_{i}^{\prime}+v_{i}$ ,  $1\leq i<r$ , have independent differentials at the points of S, whence condition ii) of the lemma is satisfied. On the other hand, the  $x_{i}$  have the leading terms  $z_{i}$  in  $\mathrm{gr}(R/tR)$ , so R/tR is finite over  $k[x_{1},\ldots,x_{r-1}]$ . The proof of the lemma and Theorem 5.11 is now complete.
 
 Theorem 5.13. The conditions of 5.6 hold for Spec A when A is the ring of formal power series $k[[X_1, \ldots, X_n]]$ over a field $k$, and when A is the ring of convergent power series in $X_1, \ldots, X_n$ with coefficients in a field complete with respect to a non-trivial valuation.
 
-The proof is analogous to the preceding. Indeed, given $O \neq t \in A = k[[X_1, \ldots, X_n]]$, then after a change of coordinates, $A / tA$ becomes finite over $B = k[[X_1, \ldots, X_{r-1}]]$ by the Weierstrass preparation theorem. Further, if we put $A' = A \otimes_B A / tA$, then $\text{Ker}(A' \to A / tA)$ is principal, so arguing as before, we can conclude that $M_p(A / tA) \to M_p(A)$ induces zero on $K$-groups. The argument also works for convergent power series, since the preparation theorem is still available.
+The proof is analogous to the preceding. Indeed, given $0 \neq t \in A = k[[X_1, \ldots, X_n]]$, then after a change of coordinates, $A / tA$ becomes finite over $B = k[[X_1, \ldots, X_{r-1}]]$ by the Weierstrass preparation theorem. Further, if we put $A' = A \otimes_B A / tA$, then $\text{Ker}(A' \to A / tA)$ is principal, so arguing as before, we can conclude that $M_p(A / tA) \to M_p(A)$ induces zero on $K$-groups. The argument also works for convergent power series, since the preparation theorem is still available.
 
 We now want to give an application of 5.11 to the Chow ring. We will assume known the fact that the $K_{1}A$ defined here is canonically isomorphic to the Bass $K_{1}$, and in particular that $K_{1}A$ is canonically isomorphic to the group of units $A^{*}$, when $A$ is a local ring or a Euclidean domain.
 
 Proposition 5.14. Let X be a regular scheme of finite type over a field. Then the
 
 $$
-d _ {1}: \prod_ {\mathbf {x} \in X _ {p - 1}} K _ {1} k (\mathbf {x}) \longrightarrow \prod_ {\mathbf {x} \in X _ {p}} K _ {0} k (\mathbf {x}) = \prod_ {\mathbf {x} \in X _ {p}} Z
+d _ {1}: \bigoplus_ {\mathbf {x} \in X _ {p - 1}} K _ {1} k (\mathbf {x}) \longrightarrow \bigoplus_ {\mathbf {x} \in X _ {p}} K _ {0} k (\mathbf {x}) = \bigoplus_ {\mathbf {x} \in X _ {p}} Z
 $$
 
 in the spectral sequence 5.5 is the subgroup of codimension p cycles which are linearly equivalent to zero. Consequently  $E_{2}^{p,-p}(X)$  is canonically isomorphic to the group  $A^{p}(X)$  of cycles of codimension p modulo linear equivalence.
 
 Proof. Let $P^1$ be the projective line over the ground field, and let $t$ denote the canonical rational function on $P^1$. Let $C^p(X)$ denote the group of codimension $p$ cycles. The subgroup of cycles linearly equivalent to zero is generated by cycles of the form $W_0 - W_\infty$, where $W$ is an irreducible subvariety of $X \times P^1$ of codimension $p$ such that the intersections $W_0 = W \cap (X \times 0)$ and $W_\infty = W \cap (X \times \infty)$ are proper. We need a known formula for $W_0 - W_\infty$ which we now recall.
 
-Let Y be the image of W under the projection  $X \times P^{1} \rightarrow X$ , so that  $\dim(Y) = \dim(W)$  or  $\dim(W) - 1$ . In the latter case we have  $W = Y \times P^{1}$  and  $W_{0} - W_{\infty} = 0$ , so we may assume  $\dim(W) = \dim(Y)$ , whence Y has codimension p - 1 in X. Let y be the generic point of Y and w the generic point of W, so that  $k(w)$  is a finite extension of  $k(y)$ . Let  $t'$  be the non-zero element of  $k(w)$  obtained by pulling t back to W, and let x be a point of codimension one in Y, whence  $O_{=Y,x}$  is a local domain of dimension one with quotient field  $k(y)$ . Then the formula we want is
+Let Y be the image of W under the projection  $X \times P^{1} \rightarrow X$ , so that  $\dim(Y) = \dim(W)$  or  $\dim(W) - 1$ . In the latter case we have  $W = Y \times P^{1}$  and  $W_{0} - W_{\infty} = 0$ , so we may assume  $\dim(W) = \dim(Y)$ , whence Y has codimension p - 1 in X. Let y be the generic point of Y and w the generic point of W, so that  $k(w)$  is a finite extension of  $k(y)$ . Let  $t'$  be the non-zero element of  $k(w)$  obtained by pulling t back to W, and let x be a point of codimension one in Y, whence  $O_{Y,x}$  is a local domain of dimension one with quotient field  $k(y)$ . Then the formula we want is
 
 $$
-\text {(multiplicity of} \quad x \quad \text {in} \quad W _ {o} - W _ {\infty}) = \operatorname{ord} _ {y x} (\operatorname{Norm} _ {k (w) / k (y)} t ^ {\prime})\tag{5.15}
+\text {(multiplicity of} \quad x \quad \text {in} \quad W _ {0} - W _ {\infty}) = \operatorname{ord} _ {y x} (\operatorname{Norm} _ {k (w) / k (y)} t ^ {\prime})\tag{5.15}
 $$
 
-where $\operatorname{ord}_{\mathbf{vx}}: k(y)^{\bullet} \to \mathbb{Z}$ is the unique homomorphism such that
+where $\operatorname{ord}_{yx}: k(y)^{\bullet} \to \mathbb{Z}$ is the unique homomorphism such that
 
 $$
-\operatorname{ord} _ {\mathbf {y x}} (\mathbf {f}) = \text { length } (O _ {= Y, \mathbf {x}} / f O _ {= Y, \mathbf {x}})
+\operatorname{ord} _ {y x} (f) = \text { length } (O _ {Y, x} / f O _ {Y, x})
 $$
 
-for $f \in \mathbb{O}_{\geq Y, X}$, $f \neq 0$. For a proof of 5.15 see [Chevalley, p. 2-12].
+for $f \in O_{Y,x}$, $f \neq 0$. For a proof of 5.15 see [Chevalley, p. 2-12].
 
 From 5.15 it is clear that the subgroup of cycles linearly equivalent to zero is
 
@@ -1898,13 +1917,13 @@ $$
 for y in  $X_{p-1}$  and x in  $X_{p}$ . We want to show that  $(d_{1})_{yx} = \text{ord}_{yx}$ . Fix y in  $X_{p-1}$  and let Y be its closure. The closed immersion  $Y \to X$  carries  $M_{j}(Y)$  to  $M_{j+p-1}(X)$  for all j, hence it induces a map from the spectral sequence 5.5 for Y to the one for X augmenting the filtration by p-1. Thus we get a commutative diagram
 
 $$
-\begin{array}{r c l r c l} & \mathrm{E} _ {1} ^ {\mathrm{p} - 1, - \mathrm{p}} (\mathrm{X}) & \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {\mathrm{p}, - \mathrm{p}} (\mathrm{X}) & = & \mathrm{C} ^ {\mathrm{p}} (\mathrm{X}) \\ & \uparrow & & \uparrow & & \\ \mathrm{K} _ {1} \mathrm{k} (\mathrm{y}) & = & \mathrm{E} _ {1} ^ {\mathrm{O}, - 1} (\mathrm{Y}) & \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\mathrm{Y}) & = & \mathrm{C} ^ {1} (\mathrm{Y}) \end{array}
+\begin{array}{r c l r c l} & \mathrm{E} _ {1} ^ {\mathrm{p} - 1, - \mathrm{p}} (\mathrm{X}) & \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {\mathrm{p}, - \mathrm{p}} (\mathrm{X}) & = & \mathrm{C} ^ {\mathrm{p}} (\mathrm{X}) \\ & \uparrow & & \uparrow & & \\ \mathrm{K} _ {1} \mathrm{k} (\mathrm{y}) & = & \mathrm{E} _ {1} ^ {0, - 1} (\mathrm{Y}) & \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\mathrm{Y}) & = & \mathrm{C} ^ {1} (\mathrm{Y}) \end{array}
 $$
 
 which shows that $(\mathbf{d}_1)_{\mathbf{yx}} = 0$ unless $\mathbf{x}$ is in Y. On the other hand, if $\mathbf{x}$ is of codimension one in Y, then the flat map $\operatorname{Spec}(\underline{\underline{\mathbf{O}}}_{\underline{\underline{\mathbf{Y}}},\mathbf{x}}) \to \mathbf{Y}$ induces a map of spectral sequences, so we get a commutative diagram
 
 $$
-\begin{array}{r c l r c l} \mathrm{K} _ {1} \mathrm{k(y)} & = & \mathrm{E} _ {1} ^ {\mathrm{O}, - 1} (\mathrm{Y}) \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\mathrm{Y}) & = & \mathrm{C} ^ {1} (\mathrm{Y}) \\ | | & & \Big \downarrow & \Big \downarrow & & \Big \downarrow_ {\text {   multiplicity   }} \\ \mathrm{K} _ {1} \mathrm{k(y)} & = & \mathrm{E} _ {1} ^ {\mathrm{O}, - 1} (\underline {{\mathrm{O}}} _ {\mathrm{Y,x}}) \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\underline {{\mathrm{O}}} _ {\mathrm{Y,x}}) & = & \mathrm{Z} \end{array}
+\begin{array}{r c l r c l} \mathrm{K} _ {1} \mathrm{k(y)} & = & \mathrm{E} _ {1} ^ {0, - 1} (\mathrm{Y}) \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\mathrm{Y}) & = & \mathrm{C} ^ {1} (\mathrm{Y}) \\ | | & & \Big \downarrow & \Big \downarrow & & \Big \downarrow_ {\text {   multiplicity   }} \\ \mathrm{K} _ {1} \mathrm{k(y)} & = & \mathrm{E} _ {1} ^ {0, - 1} (\underline {{\mathrm{O}}} _ {\mathrm{Y,x}}) \xrightarrow {\mathrm{d} _ {1}} & \mathrm{E} _ {1} ^ {1, - 1} (\underline {{\mathrm{O}}} _ {\mathrm{Y,x}}) & = & \mathrm{Z} \end{array}
 $$
 
 which shows that $(d_1)_{yx}$ is the map $d_1$ in the spectral sequence for $\underline{O}_{Y,x}$. Therefore the equality $(d_1)_{yx} = \text{ord}_{yx}$ is a consequence of the following.
@@ -1947,7 +1966,7 @@ $$
 \mathrm{H} ^ {\mathrm{p}} (\mathrm{X}, \underset {=} {\mathrm{K}} _ {\mathrm{p}}) = \mathrm{A} ^ {\mathrm{p}} (\mathrm{X}).
 $$
 
-For $p = 0$ and 1 this amounts to the trivial formulas $H^0(X, \mathbb{Z}) = C^0(X)$ and $H^1(X, Q_X^*) = \text{Pic}(X)$. For $p = 2$ this formula has been established by Spencer Bloch in certain cases (see his paper in this proceedings).
+For $p = 0$ and 1 this amounts to the trivial formulas $H^0(X, \mathbb{Z}) = C^0(X)$ and $H^1(X, O_X^*) = \text{Pic}(X)$. For $p = 2$ this formula has been established by Spencer Bloch in certain cases (see his paper in this proceedings).
 
 One noteworthy feature about the formula 5.19 is that the left side is manifestly contravariant in X, which suggests that higher K-theory will eventually provide the tool for a theory of the Chow ring for non-projective nonsingular varieties.
 
@@ -1973,7 +1992,7 @@ $$
 R ^ {q} f _ {*} (O _ {X} (n) \otimes_ {S} N) = \left\{ \begin{array}{c c} 0 & q \neq 0, r - 1 \\ S _ {n} E \otimes_ {S} N & q = 0 \\ (S _ {r - n} E) ^ {\vee} \otimes_ {S} \bigwedge^ {r} E \otimes_ {S} N & q = r - 1 \end{array} \right.
 $$
 
-where "▼" denotes the dual vector bundle.
+where $\vee$ denotes the dual vector bundle.
 
 d) If F is an X-module of finite type (e.g. a vector bundle), and if S is affine, then F is a quotient of  $(\underline{O}_{X}(-1)^{\otimes n})^{k}$  for some n, k.
 
@@ -2020,7 +2039,7 @@ $$
 Assuming F to be regular, then  $(F(-p)\mathbb{W}_{S}\Lambda^{p}E)(p)$  is seen to be regular using 1.1 b). Thus if 1.6 is split into short exact sequences
 
 $$
-0 \rightarrow z _ {p} \rightarrow F (- p) \otimes_ {S} \Lambda^ {p} E \rightarrow z _ {p - 1} \rightarrow 0
+0 \rightarrow Z _ {p} \rightarrow F (- p) \otimes_ {S} \Lambda^ {p} E \rightarrow Z _ {p - 1} \rightarrow 0
 $$
 
 we can use 1.2 b) to show by decreasing induction on p that $Z_{p}(p+1)$ is regular. Thus $Z_{0}(1) = F(1)$ is regular, so the lemma follows by induction on n.
@@ -2036,7 +2055,7 @@ $$
 where $Z_1(2)$ is regular. Thus $R^1 f_*(Z_1(n)) = 0$ for $n \geqslant 1$, so we find that the canonical map $f_*(F(n-1)) \otimes_S E \longrightarrow f_*(F(n))$ is surjective for $n \geqslant 1$. Hence the canonical map of SE-modules
 
 $$
-\mathrm{SE} \otimes_ {S} f _ {*} (F) \longrightarrow \coprod_ {n \geqslant 0} f _ {*} (F (n))
+\mathrm{SE} \otimes_ {S} f _ {*} (F) \longrightarrow \bigoplus_ {n \geqslant 0} f _ {*} (F (n))
 $$
 
 is surjective. The lemma follows by taking associated sheaves.
@@ -2044,15 +2063,15 @@ is surjective. The lemma follows by taking associated sheaves.
 Suppose now that F is an X-module which admits a resolution
 
 $$
-0 \longrightarrow \underset {= X} {O} (- r + 1) \otimes_ {S} T _ {r - 1} \longrightarrow \dots \longrightarrow \underset {= X} {O} \otimes_ {S} T _ {o} \longrightarrow F \longrightarrow O
+0 \longrightarrow \underset {= X} {O} (- r + 1) \otimes_ {S} T _ {r - 1} \longrightarrow \dots \longrightarrow \underset {= X} {O} \otimes_ {S} T _ {0} \longrightarrow F \longrightarrow 0
 $$
 
 where the  $T_{i}$  are modules on S. Breaking this sequence up into short exact sequences
 
-and applying 1.2 b), one sees as in the proof of 1.3 that F has to be regular. Moreover, the above exact sequence can be viewed as a resolution of the zero module by acyclic objects for the $\delta$-functor $R^{q}f_{*}(\ref{eq:0})$, where n is any fixed integer $\geqslant 0$. Thus on applying $f_{*}$ we get an exact sequence
+and applying 1.2 b), one sees as in the proof of 1.3 that F has to be regular. Moreover, the above exact sequence can be viewed as a resolution of the zero module by acyclic objects for the $\delta$-functor $R^{q}f_{*}(\underline{O}_{X}(n))$, where n is any fixed integer $\geqslant 0$. Thus on applying $f_{*}$ we get an exact sequence
 
 $$
-0 \rightarrow S _ {n - r + 1} E \otimes_ {S} T _ {r - 1} \longrightarrow \dots \rightarrow S _ {n} E \otimes_ {S} T _ {o} \longrightarrow f _ {*} (F (n)) \longrightarrow 0
+0 \rightarrow S _ {n - r + 1} E \otimes_ {S} T _ {r - 1} \longrightarrow \dots \rightarrow S _ {n} E \otimes_ {S} T _ {0} \longrightarrow f _ {*} (F (n)) \longrightarrow 0
 $$
 
 for each  $n \geq 0$ . In particular, we have exact sequences
@@ -2084,7 +2103,7 @@ From 1.9 and the fact that $f_*$ is exact on the category of regular X-modules, 
 We next show that $Z_{r-1} = 0$. From 1.9 we get exact sequences
 
 $$
-R ^ {q - 1} f _ {*} (Z _ {n + q - 1} (n)) \xrightarrow {\delta} R ^ {q} f _ {*} (Z _ {n + q} (n)) \longrightarrow R ^ {q} f _ {*} (\underline {{O}} _ {X} (- q) @ S ^ {T} n + q)
+R ^ {q - 1} f _ {*} (Z _ {n + q - 1} (n)) \xrightarrow {\delta} R ^ {q} f _ {*} (Z _ {n + q} (n)) \longrightarrow R ^ {q} f _ {*} (\underline{O}_{X}(-q) \otimes_{S} T_{n+q})
 $$
 
 which allow one to prove by induction on $q$, starting from 1.10, that $R^{q}f_{*}(Z_{n + q}(n)) = 0$ for $q, n \geqslant 0$. This shows that $Z_{r-1}(r-1)$ is regular, since $R^{q}f_{*}$ is zero for $q \geqslant r$. By 1.10 and 1.7 we have $Z_{r-1}(r-1) = 0$, so $Z_{r-1} = 0$ as was to be shown.
@@ -2094,7 +2113,7 @@ Combining the exact sequences 1.9 we obtain a canonical resolution of the regula
 Proposition 1.11. Any regular X-module F has a resolution of the form
 
 $$
-0 \longrightarrow \underset {= X} {\mathrm{O}} (- r + 1) \otimes_ {S} T _ {r - 1} (F) \longrightarrow \dots \longrightarrow \underset {= X} {\mathrm{O}} \otimes_ {S} T _ {o} (F) \longrightarrow F \longrightarrow 0
+0 \longrightarrow \underset {= X} {\mathrm{O}} (- r + 1) \otimes_ {S} T _ {r - 1} (F) \longrightarrow \dots \longrightarrow \underset {= X} {\mathrm{O}} \otimes_ {S} T _ {0} (F) \longrightarrow F \longrightarrow 0
 $$
 
 where the  $T_{i}(F)$  are S-modules determined up to unique isomorphism by F. Moreover  $F \mapsto T_{i}(F)$  is an exact functor from the category of regular X-modules to the category of S-modules.
@@ -2102,10 +2121,10 @@ where the  $T_{i}(F)$  are S-modules determined up to unique isomorphism by F. M
 The next three lemmas are concerned with the situation when $F$ is a vector bundle on $X$.
 
 $$
-\begin{array}{l l} \text {Lemma 1.12. Assume S is quasi - compact. Then for any vector bundle F on X,} \\ \text {there exists an integer n} _ {\circ} \text {such that for all S -modules N and n≥n}, \text {one has} \\ \text {a)} & R ^ {q} f _ {*} (F (n) @ _ {S} N) = 0 \text {for q > 0} \\ \text {b)} & f _ {*} (F (n)) @ _ {S} N \xrightarrow {} f _ {*} (F (n) @ _ {S} N) \\ \text {c)} & f _ {*} (F (n)) \text {is a vector bundle on S.} \end{array}
+\begin{array}{l l} \text {Lemma 1.12. Assume S is quasi - compact. Then for any vector bundle F on X,} \\ \text {there exists an integer } n_{0} \text {such that for all S -modules N and } n \geq n_{0}, \text {one has} \\ \text {a)} & R ^ {q} f _ {*} (F (n) \otimes_{S} N) = 0 \text {for q > 0} \\ \text {b)} & f _ {*} (F (n)) \otimes_{S} N \xrightarrow {} f _ {*} (F (n) \otimes_{S} N) \\ \text {c)} & f _ {*} (F (n)) \text {is a vector bundle on S.} \end{array}
 $$
 
-Proof. Because $S$ is the union of finitely many open affines, it suffices to prove the lemma when $S$ is affine. In this case $F$ is the quotient of $L = \underline{Q}_{X}(-n)^k$ for some $n$ and $k$ by 1.1 d). Thus for any vector bundle $F$ on $S$, there is an exact sequence of vector bundles
+Proof. Because $S$ is the union of finitely many open affines, it suffices to prove the lemma when $S$ is affine. In this case $F$ is the quotient of $L = \underline{O}_{X}(-n)^k$ for some $n$ and $k$ by 1.1 d). Thus for any vector bundle $F$ on $S$, there is an exact sequence of vector bundles
 
 $$
 0 \longrightarrow F ^ {\prime} \longrightarrow L \longrightarrow F \longrightarrow 0
@@ -2131,7 +2150,7 @@ $$
 
 for $n \geqslant$ some $n_0$ and all $N$. Hence $u$ is surjective; applying this to the vector bundle $F'$, we see that $u'$ is surjective, hence $u$ is bijective for $n \geqslant$ some $n_0$ and all $N$, whence $b$). By a), $f_*(F(n))_{\mathbb{S}^N}$ is exact as a functor of $N$ for sufficiently large $n$, whence using b) we see $f_*(F(n))$ is a flat $O_S$-module. On the other hand, $f_*(F(n))$ is a quotient of $f_*(L(n))$ for $n \geqslant$ some $n_0$, so $f_*(F(n))$ is of finite type. Applying this to $F'$ we see that $f_*(F(n))$ is of finite presentation for all sufficiently large $n$. But a flat module of finite presentation is a vector bundle, whence c).
 
-Lemma 1.13. If F is a vector bundle on X such that  $\mathrm{R}^{\mathrm{q}}\mathrm{f}_{*}(\mathrm{F}(\mathrm{n})) = 0$  for  $q \geqslant 0$ ,  $n \geqslant 0$ , then  $f_{*}(\mathrm{F}(\mathrm{n}))$  is a vector bundle on S for all  $n \geqslant 0$ .
+Lemma 1.13. If F is a vector bundle on X such that  $\mathrm{R}^{\mathrm{q}}\mathrm{f}_{*}(\mathrm{F}(\mathrm{n})) = 0$  for  $q > 0$ ,  $n \geqslant 0$ , then  $f_{*}(\mathrm{F}(\mathrm{n}))$  is a vector bundle on S for all  $n \geqslant 0$ .
 
 Proof. The assertion being local on S, one can suppose S affine, whence  $f_{*}(F(n))$  is a vector bundle on S for large n by 1.12 c). Consider the exact sequence
 
@@ -2163,7 +2182,7 @@ where $z \in K_{0}X$ is the class of the canonical line bundle $O_{X}(-1)$ and $
 
 Proof. Let $\underline{\underline{P}}_n$ denote the full subcategory of $\underline{\underline{P}}(X)$ consisting of vector bundles $F$ such that $R^q f_*(F(k)) = 0$ for $q \neq 0$ and $k \geqslant n$. Let $\underline{\underline{R}}_n$ denote the full subcategory of $\underline{\underline{P}}(X)$ consisting of $F$ such that $F(n)$ is regular. Each of these subcategories is closed under extensions, so its $K$-groups are defined.
 
-Lemma 2.2. For all n, one has isomorphisms: $K_{q}(R) \simeq K_{q}(P) \simeq K_{q}(P(X))$ induced by the inclusions $R = n < P_n < P(X)$.
+Lemma 2.2. For all n, one has isomorphisms: $K_{q}(R_n) \simeq K_{q}(P_n) \simeq K_{q}(P(X))$ induced by the inclusions $R_n \subset P_n \subset P(X)$.
 
 To prove the lemma, we consider the exact sequence
 
@@ -2171,7 +2190,7 @@ $$
 0 \longrightarrow F \longrightarrow F (1) \otimes_ {S} E \longrightarrow \dots \longrightarrow F (r) \otimes_ {S} \wedge^ {r} E \longrightarrow 0.\tag{2.3}
 $$
 
-For each $p > 0$, $F \mapsto F(p)_{S} \wedge^{p} E$ is an exact functor from $P = n$ to $P = n - 1$, hence it induces a homomorphism $u_p: K_q(P) \to K_q(P = n - 1)$. From Th. 2, Cor. 3 it is clear that $\sum_{p > 0} (-1)^{p-1} u_p$ is an inverse to the map induced by the inclusion of $P = n - 1$ in $P = n$. Thus we have $K_q(P = n - 1) \xrightarrow{\sim} K_q(P = n)$ for all $n$. By 1.12 a), $P(X)$ is the union of the $P = n$, so by §2 (9) we have $K_q(P) = n \cong K_q(P(X))$ for all $n$. The proof that $K_q(R) \cong K_q(P(X))$ is similar, whence the lemma.
+For each $p > 0$, $F \mapsto F(p) \otimes_{S} \Lambda^{p} E$ is an exact functor from $P_n$ to $P_{n-1}$, hence it induces a homomorphism $u_p: K_q(P_n) \to K_q(P_{n-1})$. From Th. 2, Cor. 3 it is clear that $\sum_{p > 0} (-1)^{p-1} u_p$ is an inverse to the map induced by the inclusion of $P_{n-1}$ in $P_n$. Thus we have $K_q(P_{n-1}) \xrightarrow{\sim} K_q(P_n)$ for all $n$. By 1.12 a), $P(X)$ is the union of the $P_n$, so by §2 (9) we have $K_q(P_n) \cong K_q(P(X))$ for all $n$. The proof that $K_q(R_n) \cong K_q(P(X))$ is similar, whence the lemma.
 
 Put $U_n(N) = \underline{O_k}(-n) \otimes_S N$ for $N$ in $\underline{P}(S)$. For $0 \leq n < r$, $U_n$ is an exact functor from $\underline{P}(S)$ to $\underline{P}_0$ by 1.1 c), hence it induces a homomorphism $u_n: K_q(P(S)) \to K_q(P_0)$. In view of 2.2, it suffices for the proof of the theorem to show that the homomorphism
 
@@ -2181,7 +2200,7 @@ $$
 
 is an isomorphism.
 
-From 1.13 we know that $V_{n}(F) = f_{*}(F(n))$ is an exact functor from $\underline{P}_{=0}$ to $\underline{P}(S)$ for $n \geqslant 0$, hence we have a homomorphism
+From 1.13 we know that $V_{n}(F) = f_{*}(F(n))$ is an exact functor from $\underline{P}_{0}$ to $\underline{P}(S)$ for $n \geqslant 0$, hence we have a homomorphism
 
 $$
 v: K _ {q} (P) \longrightarrow K _ {q} (P (S)) \quad , \quad x \mapsto (v _ {n} (x)) _ {0 \leqslant n <   r},
@@ -2198,10 +2217,10 @@ by 1.1 c), it follows that the composition vu is described by a triangular matri
 On the other hand,  $T_{n}$  is an exact functor from  $\underline{R}_{0}$  to  $\underline{P(S)}$  by 1.11 and 1.14, hence we have a homomorphism
 
 $$
-t: K _ {q} (R) \rightarrow K _ {q} (P (S)) ^ {r}, x \mapsto ((- 1) ^ {n} t _ {n} (x)) _ {0 \leqslant n <   r}
+t: K _ {q} (R _ {0}) \rightarrow K _ {q} (P (S)) ^ {r}, x \mapsto ((- 1) ^ {n} t _ {n} (x)) _ {0 \leqslant n <   r}
 $$
 
-where  $t_{n}$  is induced by  $T_{n}$ . Applying Th. 2, Cor. 3 to the exact sequence 1.11, we see that the composition ut is the map  $K_{q}(R)=0\rightarrow K_{q}(P)=0$  induced by the inclusion of  $R=0$  in  $P=0$ . By 2.2, ut is an isomorphism, so u is surjective, concluding the proof.
+where  $t_{n}$  is induced by  $T_{n}$ . Applying Th. 2, Cor. 3 to the exact sequence 1.11, we see that the composition ut is the map  $K_{q}(R_{0})\rightarrow K_{q}(P_{0})$  induced by the inclusion of  $R_{0}$  in  $P_{0}$ . By 2.2, ut is an isomorphism, so u is surjective, concluding the proof.
 
 3. The projective line over a ring. Let A be a (not necessarily commutative) ring let t be an indeterminate, and let
 
@@ -2214,7 +2233,7 @@ denote the canonical homomorphisms. When A is commutative, a quasi-coherent shea
 Theorem 3.1. Let $h_n: P(A) \to P(P_A^1)$ be the exact functor sending $P$ to the triple consisting of $P[t] = A[t] \otimes_A P, P[t^{-1}]$, and multiplication by $t^{-n}$ on $P[t, t^{-1}]$. Then one has isomorphisms
 
 $$
-\left(\mathrm{K} _ {\mathrm{q}} \mathrm{A}\right) ^ {2} \quad \xrightarrow {\sim} \quad \mathrm{K} _ {\mathrm{q}} \left(\underset {=} {\mathrm{P}} \left(\mathrm{P} _ {\mathrm{A}} ^ {1}\right)\right) \quad , \quad (\mathrm{x}, \mathrm{y}) \mapsto \left(\mathrm{h} _ {\mathrm{o}}\right) _ {*} (\mathrm{x}) + \left(\mathrm{h} _ {1}\right) _ {*} (\mathrm{y})
+\left(\mathrm{K} _ {\mathrm{q}} \mathrm{A}\right) ^ {2} \quad \xrightarrow {\sim} \quad \mathrm{K} _ {\mathrm{q}} \left(\underset {=} {\mathrm{P}} \left(\mathrm{P} _ {\mathrm{A}} ^ {1}\right)\right) \quad , \quad (\mathrm{x}, \mathrm{y}) \mapsto \left(\mathrm{h} _ {0}\right) _ {*} (\mathrm{x}) + \left(\mathrm{h} _ {1}\right) _ {*} (\mathrm{y})
 $$
 
 and the relations
@@ -2228,7 +2247,7 @@ for all n.
 When $A$ is commutative, this follows from 2.1, once one notices that $h_n(P)$ is the module $\underline{O}_X(n)\otimes_S P$. For the non-commutative case, one modifies the proof of 2.1 in a straightforward way. For example, if $F = (M^+, M^-, \Theta)$, we put $F(n) = (M^+, M^-, t^{-n} \Theta)$, and let $X_0, X_1: F(n-1) \to F(n)$ be the homomorphisms given by $X_0 = 1$ on $M^+$ and $t^{-1}$ on $M^-$, $X_1 = t$ on $M^+$ and 1 on $M^-$). Then we have an exact sequence
 
 $$
-0 \longrightarrow F (n - 2) \xrightarrow {(X _ {1} , - X _ {o})} F (n - 1) ^ {2} \xrightarrow {X _ {o} p r _ {1} + X _ {1} p r _ {2}} F (n) \longrightarrow 0
+0 \longrightarrow F (n - 2) \xrightarrow {(X _ {1} , - X _ {0})} F (n - 1) ^ {2} \xrightarrow {X _ {0} p r _ {1} + X _ {1} p r _ {2}} F (n) \longrightarrow 0
 $$
 
 corresponding to 1.6, which leads to the relations 3.2. Also using the fact that $R^{q}f_{*}$ can be computed by means to the standard open affine covering of $P^{1}$, we can define $R^{q}f_{*}(F)$ in the non-commutative case to be the homology of the complex concentrated in degrees 0, 1 given by the map $d: M^{+} \times M^{-} \longrightarrow i_{2}^{*}(M^{-})$, $d(x,y) = \theta(1 \otimes x) - 1 \otimes y$. One therefore has available all of the tools used in the proof of 2.1 in the non-commutative case; the rest is straightforward checking which will be omitted.
@@ -2246,7 +2265,7 @@ It is clear that the construction of $J$ is compatible with base change, and tha
 where $g$ is faithfully flat (e.g. an etale surjective map over which $T$ becomes trivial) such that $X' = PE$ for some vector bundle $E$ of rank $r$ on $S'$, and further
 
 $$
-g ^ {\prime *} (J) = \underset {= X, (- 1)} {O} _ {S}, E.
+g'^*J = O_{X'}(-1) \otimes_{S'} E.
 $$
 
 Let A be the sheaf of (non-commutative)  $\underline{O}_{S}$ -algebras given by
@@ -2258,7 +2277,7 @@ $$
 where 'op' denotes the opposed ring structure. As $g$ is flat, we have $g^{*}f_{*} = f_{*}'g'^{*}$. Hence we have
 
 $$
-g ^ {*} (A) ^ {O P} = f _ {*} ^ {\prime} (\underline {{\text { End }}} _ {X}, (\underline {{O}} _ {X}, (- 1) \otimes_ {S}, E)) = f _ {*} ^ {\prime} (\underline {{O}} _ {X}, \otimes_ {S}, \underline {{\text { End }}} _ {S}, (E)) = \underline {{\text { End }}} _ {S}, (E),
+g^*(A)^{\mathrm{op}} = f'_* \operatorname{End}_{X'}\left(O_{X'}(-1)\otimes_{S'}E\right) = f'_*\left(O_{X'}\otimes_{S'}\operatorname{End}_{S'}(E)\right) = \operatorname{End}_{S'}(E),
 $$
 
 hence A is an Azumaya algebra of rank $r^2$ over S. Moreover one has
@@ -2294,13 +2313,13 @@ This is actually a generalization of 2.1 because if two Azumaya algebras A, B re
 The proof of 4.1 is a modification of the proof of 2.1. One defines an X-module F to be regular if its inverse image on $X' = PE$ is regular. For a regular F one constructs a sequence
 
 $$
-0 \longrightarrow J _ {r - 1} \otimes_ {A _ {r - 1}} T _ {r - 1} (F) \longrightarrow \dots \longrightarrow O _ {X} \otimes_ {S} T _ {o} (F) \longrightarrow F \longrightarrow 0\tag{4.2}
+0 \longrightarrow J _ {r - 1} \otimes_ {A _ {r - 1}} T _ {r - 1} (F) \longrightarrow \dots \longrightarrow O _ {X} \otimes_ {S} T _ {0} (F) \longrightarrow F \longrightarrow 0\tag{4.2}
 $$
 
 recursively by
 
 $$
-\mathrm{T} _ {\mathrm{n}} (\mathrm{F}) = \mathrm{f} _ {*} \left(\underset {\text {   }} {\text {   }} \left(\underset {\text {   }} {\text {   }} \mathrm{nom} _ {\mathrm{X}} \left(\mathrm{J} _ {\mathrm{n}}, \mathrm{Z} _ {\mathrm{n-1}} (\mathrm{F})\right)\right)\right); \mathrm{Z} _ {\mathrm{n}} (\mathrm{F}) = \operatorname{Ker} \left\{\mathrm{J} _ {\mathrm{n}} \otimes_ {\mathrm{A} _ {\mathrm{n}}} \mathrm{T} _ {\mathrm{n}} (\mathrm{F}) \longrightarrow \mathrm{Z} _ {\mathrm{n-1}} (\mathrm{F}) \right\}
+\mathrm{T}_{n}(F) = f_{*}\left(\operatorname{Hom}_{A_{n}}(J_{n}, Z_{n-1}(F))\right); \quad \mathrm{Z}_{n}(F) = \operatorname{Ker}\left\{\mathrm{J}_{n} \otimes_{A_{n}} \mathrm{T}_{n}(F) \longrightarrow \mathrm{Z}_{n-1}(F)\right\}
 $$
 
 starting with  $Z_{-1}(F) = F$ . It is easy to see this sequence when lifted to  $X'$  coincides the canonical resolution 1.11 for the inverse image of F on  $X'$ . Since  $X'$  is faithfully flat over X, 4.2 is a resolution of F.
@@ -2308,7 +2327,7 @@ starting with  $Z_{-1}(F) = F$ . It is easy to see this sequence when lifted to 
 We note also that there is a canonical epimorphism $J \to \underline{O_X}$ obtained by descending 1.4, and hence a canonical vector bundle exact sequence
 
 $$
-0 \longrightarrow \Lambda^ {r} J \longrightarrow \dots \longrightarrow J \longrightarrow \underset {X} {\circ} \longrightarrow 0
+0 \longrightarrow \Lambda^ {r} J \longrightarrow \dots \longrightarrow J \longrightarrow O _ {X} \longrightarrow 0
 $$
 
 on X corresponding to 1.5. Therefore it should be clear that all of the tools used in the proof of 2.1 are available in the situation under consideration; the rest of the proof of 4.1 will be left to the reader.
@@ -2373,7 +2392,7 @@ L. Roberts: Real quadrics and  $K_{1}$  of a curve of genus zero, Mathematical P
 
 G. Segal 1: Classifying spaces and spectral sequences, Publ. Math. I.H.E.S. 34 (1968) 105-112.
 
-2: Categories and cohomology theories, preprint, Oxford 1972.
+---- 2: Categories and cohomology theories, preprint, Oxford 1972.
 
 R. G. Swan: Algebraic K-theory, Lecture notes in Math. 76 (1968).
 
@@ -2391,7 +2410,7 @@ SGA: Séminaire de Géométrie Algébrique du Bois Marie, by A. Grothendieck and
 
 SGA 1: Lecture Notes in Math. 224 (1971)
 
-SGA 6: 225 (1971)
+SGA 6: Lecture Notes in Math. 225 (1971)
 
 SGA 2: Cohomologie locale des faisceaux cohérents et Théorèmes de Lefschetz locaux et globaux, North-Holland Publ. Co. 1968.
 
