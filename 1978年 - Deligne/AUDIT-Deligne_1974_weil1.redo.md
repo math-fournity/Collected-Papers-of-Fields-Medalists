@@ -119,3 +119,11 @@
 - 核对：(2.11) 末句（monodromie locale）、Théorème (2.12) 双行链（H^i/H^{2-i} 无 c 下标、j_*𝓕ˇ(1)、j_*(𝓕⊗𝓕ˇ)(1)、=H^2(X,Q_ℓ(1))→Q_ℓ）、(2.13)（racines (ℓ^n)^ièmes）、(2.14) A)-E) 全部引注（VII、XVII 5.1、XIV 1/XVII 5.3、X、XVIII；SGA 5 XV §§1,2；[1]；(1.14.3)/(1.12)；SGA 4 XVIII (3.2.5)、S=Spec(k)）、§3 节标题、Rankin [3] 句、(3.1)（P^1、u point fermé、𝓕_0/𝓕）。
 - 结果：PASS±（修复 1 处）。内容全部吻合；Luna 的 (2.12)/(2.13) 修复生效；E) 段末「en caractéristique o」300dpi 终裁为小写 o（p012_caract_E-12.png，同句 modérée/relevant 的 o 同高），属零排作 o quirk——此即 block-1 总评预告的行 426 实例，本次回退 Luna 的 0 并登记。
 - 修复：行 426 `en caractéristique 0.` → `en caractéristique o.`（依据 p012_caract_E-12.png）。
+
+## p.013（PDF p.13 / 印刷 p.284）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 19:45 EDT。
+- PNG：audit-redo/p013.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p013_iii_det-13.png、p013_F_neq-13.png、p013_geq_o-13.png（300dpi）。
+- 旧审计对照：Luna p.013 = FAIL→已修复（script F_0/F 记号、Q_ℓ(r)、行列式恒等算子 I、(3.3) 张量幂 2k、(3.4) 两处张量幂指数）；本次重核发现 Luna 的「行列式恒等算子 I」修复方向相反：印刷为数字 1（形态学标准，p013_iii_det-13.png 同 p.004/p.005 终裁）。
+- 核对：poids 定义段（q_x^{β/2}、Q_ℓ(r) poids −2r）、Théorème (3.2) (i) ψ:𝓕_0⊗𝓕_0→Q_ℓ(−β)(β∈Z)、(ii) Sp(𝓕_u,ψ_u)、(iii) det(1−F_x t,𝓕_0)、Alors 句、𝓕≠o 句、Lemme (3.3)（⊗^{2k}、(2k)^ième、det(1−F_x t^{deg(x)},⊗^{2k}𝓕_0)^{-1}）、Tr(F_x^n,⊗^{2k}𝓕_0)=Tr(F_x^n,𝓕_0)^{2k}、(1.5.3) 句、Lemme (3.4) 两处 det、≥o 句、Lemme (3.5)（f_i−1→∞、a_{i,n}≤a_n）、Lemme (3.6) inf 式、rayons 句。
+- 结果：PASS±（修复 7 处）。全部内容项吻合；Luna 的 2k/记号修复生效，唯「恒等算子 I」系误判（印刷为 1）。修复：①(iii) I→1；②𝓕≠0→𝓕≠o（p013_F_neq-13.png，小写 o）；③(3.3) 式 I→1；④(3.4) I→1；⑤(3.4) 第二处 I→1；⑥同句 ≥0→≥o（p013_geq_o-13.png，小写 o）；⑦删除 MinerU 捕获的裸页码行「284」（本页页脚）。
+- 修复：行 446/450/455/468/470/470/484 共 7 处（详见上）。

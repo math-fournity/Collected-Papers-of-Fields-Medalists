@@ -443,16 +443,16 @@ $$
 
 (ii) L'image de $\pi_1(\mathbf{U}, u)$ dans $\mathrm{GL}(\mathcal{F}_u)$ est un sous-groupe ouvert du groupe symplectique $\mathrm{Sp}(\mathcal{F}_u, \psi_u)$.
 
-(iii) Pour tout $x \in |\mathbf{U}_0|$, le polynôme $\det(\mathrm{I} - \mathrm{F}_x t, \mathcal{F}_0)$ est à coefficients rationnels.
+(iii) Pour tout $x \in |\mathbf{U}_0|$, le polynôme $\det(1 - \mathrm{F}_x t, \mathcal{F}_0)$ est à coefficients rationnels.
 
 Alors, $\mathcal{F}$ est de poids β.
 
-On peut supposer, et nous supposerons, que U est affine et que $\mathcal{F} \neq 0$.
+On peut supposer, et nous supposerons, que U est affine et que $\mathcal{F} \neq o$.
 
 Lemme (3.3). — Soit 2k un entier pair et notons $\overset{2k}{\otimes}\mathcal{F}_{0}$ la puissance tensorielle $(2k)^{\mathrm{ieme}}$ de $\mathcal{F}_{0}$. Pour $x\in|U_{0}|$, la dérivée logarithmique
 
 $$
-t \frac {d}{d t} \log (\det (\mathrm{I} - \mathrm{F} _ {x} t ^ {\deg (x)}, \overset {2 k} {\otimes} \mathcal {F} _ {0}) ^ {- 1})
+t \frac {d}{d t} \log (\det (1 - \mathrm{F} _ {x} t ^ {\deg (x)}, \overset {2 k} {\otimes} \mathcal {F} _ {0}) ^ {- 1})
 $$
 
 est une série formelle à coefficients rationnels positifs.
@@ -465,9 +465,9 @@ $$
 
 est donc rationnel positif, et on applique (1.5.3).
 
-Lemme (3.4). — Les facteurs locaux  $\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  sont des séries formelles à coefficients rationnels positifs.
+Lemme (3.4). — Les facteurs locaux  $\det(1-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  sont des séries formelles à coefficients rationnels positifs.
 
-La série formelle  $\log\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  est sans terme constant; d'après (3.3), ses coefficients sont  $\geq0$ ; les coefficients de son exponentielle sont donc également positifs.
+La série formelle  $\log\det(1-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  est sans terme constant; d'après (3.3), ses coefficients sont  $\geq o$ ; les coefficients de son exponentielle sont donc également positifs.
 
 Lemme (3.5). — Soit $f_i = \sum_{n} a_{i,n} t^n$ une suite de séries formelles de terme constant un, et à coefficients réels positifs. On suppose que l'ordre de $f_i - 1$ tend vers l'infini avec $i$, et on pose $f = \prod_{i} f_i$. Alors, le rayon de convergence absolue de $f_i$ est au moins égal à celui de $f$.
 
@@ -480,8 +480,6 @@ $$
 $$
 
 Ces nombres sont en effet les rayons de convergence absolue.
-
-284
 
 (3.7) Pour chaque partition P de  $[1, 2k]$  en parties à deux éléments  $\{i_{\alpha}, j_{\alpha}\} (i_{\alpha} < j_{\alpha})$ , on définit
 
