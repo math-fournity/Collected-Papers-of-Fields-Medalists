@@ -310,3 +310,15 @@
   6. "$\mathrm{K}^{\circ a}-{\acute c}$algebra"（连字符乱码为 acute-c）→"$\mathrm{K}^{\circ a}$-algebra"；"$\mathrm A_*^a=\mathrm A$"与"$\mathrm A\to\mathrm B$"句末补句点×2；"$\mathrm{K}^{\circ a}.$-modules"伪'.$'（p.269 If A is 段）
   7. (i)：isflat/ifthefunctor/isflat ifand only iffor 补空格、"$H\mathrm R$"→If R、"$i>0_i$"伪下标删（p.269 Def/Prop 4.7 (i) 行）
 - 备注：M^a⊗N^a 与 Hom 两个 display 与 print 一致（print 的 Hom 无 K^{°a} 下标，MD 亦无，不添加）；(ii)(iii) 与 Proof 属印刷 p.270，留待 p.026。
+## p.026（PDF p.26 / 印刷 p.270）
+- PNG：audit/p026.png（pngmono 150dpi）
+- 核对：页眉 270/PETER SCHOLZE；Def/Prop 4.7 (ii)（almost projective、Ext^i_R）；(iii)（almost finitely generated/presented、N_ε、f_ε、annihilated by ε、uniformly）；Proof [15] 引用+QED □；Remark 4.8（K°=Hom(K^{°a},K^{°a})→Hom(K^{°a},K^{°a}/ϖ)=Hom(𝔪,K°/ϖ) display、Σϖ^{1−1/p^i}x_i display）；Example 4.9（Q_p(p^{1/p^∞})、p≠2、L=K(p^{1/2})、K°⊕p^{1/2p^n}K°→L° display、killed by p^{1/2p^n}）；Proposition 4.10 [15, Prop 2.4.18]；finite projective 术语段；rank 预告
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. (ii)/(iii)：IfR/isflat/ifand only iffor/almostfinitely×2/off 补空格与出 math（p.270 (ii)(iii) 行）
+  2. (iii) 两处丢 ε："annihilated by ."→"annihilated by$\epsilon$"；"for all ."→"for all$\epsilon$"（print 有 ε，PNG 确认；文本层无残骸直接丢字）；"cokernel off"→"cokernel of$f_\epsilon$"（print f_ε）
+  3. Proof 行末".-"→"□"（QED，print 有 tombstone）（p.270 Proof 行）
+  4. Remark 4.8："$\mathbf{R}^a.$-module"伪'.$'→$\mathbf{R}^a$-module（p.270 Remark 行）
+  5. "for arbitrary$x_i∈K^\circ/\varpi$"句末补句点（print 原有）（p.270 sums 段后）
+  6. Example 4.9："$\mathbf{Q}_{\mathcal{P}}(\boldsymbol{\phi}^{1/\mathcal{P}^\infty}),\boldsymbol{\mathscr{p}}\neq 2$"→"$\mathbf{Q}_p(p^{1/p^\infty})$, $p\neq 2$"（花体/希腊字族系 p 误读，PNG 确认）；"$\mathrm{K}(\boldsymbol{\mu}^{1/2})$"→"$\mathrm{K}(p^{1/2})$"（μ→p）（p.270 Example 行原图）
+  7. Prop 4.10：isflat/almostfinitely×2/ifand only ifit 补空格（p.270 Prop 4.10 行）
+- 备注：Hom/Σ 两个 display 与 print 一致；Theorem 4.11 起行 823 属印刷 p.271，留待 p.027。
