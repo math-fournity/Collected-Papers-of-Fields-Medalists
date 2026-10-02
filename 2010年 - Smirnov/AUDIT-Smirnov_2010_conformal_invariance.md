@@ -375,3 +375,9 @@
 - 核对：§8.3.1 Case 0 ≤ q ≤ 4——loop model、每 loop 权 √q、parafermionic observable 定义公式 (8.1) F(e) = E_{Ω◇_δ,a_δ,b_δ,p,q}[e^{σ·iW_γ(e,b_δ)}1_{e∈γ}]（σ = σ(q) 称 spin）；Proposition 8.6——q ≤ 4、criticality、spin σ = 1 − (2/π)arccos(√q/2)、公式 (8.2) F(N) − F(S) = i[F(E) − F(W)]；Cauchy-Riemann 理解段（一般 q 时 F 不被唯一确定、变量多于方程；q = 2 对应 σ = 1/2、Lemma 5.1 + Proposition 5.3）；顶点 parafermionic observable F(v) = ½Σ_{e∼v}F(e)；weakly-holomorphic 期望收敛段；Conjecture 8.7——公式 (8.3) (1/(2δ)^σ)F_δ(z) → φ′(z)^σ（φ 为 Ω → ℝ×(0,1)、a↦−∞、b↦∞ 共形映射）；四步 program bullets（compactness、Loewner chains with unknown W_t、observables/martingales 收敛、Lévy ⟹ W_t 为速度 κ 的 Brownian motion ⟹ SLE(κ)）；页脚印刷页码 59。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(8.1)/(8.2)/(8.3) 编号齐全；(2δ)^σ 底数分数与 φ′(z)^σ 上标 σ 堆叠、e^{σ·iW} 指数以 PNG 为准。
+
+## p.060（PDF p.60 / 印刷 p.60）
+- PNG：audit/p060.png（pngmono 150dpi）
+- 核对：第三步（Conjecture 8.7）最难、前两步对 q ≠ 0,1,2 亦 open、Prop 6.7 类计算识别极限曲线；Conjecture 8.8——q ≤ 4 时 critical FK interfaces 收敛于 SLE，κ = 4π/arccos(−√q/2)；[LSW04a] q = 0（UST perimeter → SLE(8)）、q → 0 且 p/q → 0 的 loop representation、q = 2 对应 Theorem 3.13、q = 1 为 bond percolation；§8.3.2 Case q > 4——无 conformal invariance、first order transition、multiple infinite-volume measures、wired 有 infinite cluster / free 指数衰减、仅 q ≥ 25.72 已知（[Gri06]）；observable 在 q > 4 时 2sin(πσ/2) = √q、σ 纯虚数、行为转变问题；§8.4 O(n) models on the hexagonal lattice 标题——[Smi06] 引入、[DMNS81] 模型、loop-weight n ≥ 0（实则 n ≥ −2）、edge-weight x > 0、概率 ∝ n^{#loops}x^{#edges}、interface 变体；O(0) = self-avoiding walk、O(1) = Ising 高温展开、整数 n 为 spin O(n) 近似；Nienhuis [Nie82, Nie84] 猜想 n ∈ (0, 2)（修正后 (−2, 2)）Berezinsky-Kosterlitz-Thouless 相变 [Ber72, KT73]；页脚印刷页码 60。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：κ = 4π/arccos(−√q/2) 分式与根号负号排布以 PNG 为准；n^{#loops}x^{#edges} 上下标堆叠为对账锚点；Kosterlitz-Thouless、Nienhuis、Berezinsky 人名拼写逐字核对。
