@@ -71,3 +71,17 @@
   6. Theorem 1.13：$\mathrm{K}^{\mathrm{p}}$ → $\mathrm{K}^{\flat}$（第一 topos 下标）；$(P^n_{K,ad})_{\tilde{\mathrm{et}}}^{\sim}$ 的伪 \tilde 下标 → $(P^n_{K,ad})_{\mathrm{et}}^{\sim}$（print tilde 在上标位）；句末补句点
   7. φ 坐标公式 $(x_0^\flat:\ldots:x_n^\flat)$ → $(x_0^p:\ldots:x_n^p)$（print 上标为 p，PNG p.249 右栏确认）；公式后补句点
 - 备注：π display（p.005 末）与 print 一致；本页 print 无 quirk；行 139 起（"defined on topological spaces…"）属印刷 p.250，留待 p.006。
+## p.006（PDF p.6 / 印刷 p.250）
+- PNG：audit/p006.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p250_Qbar.png（Q̄_ℓ-representation + ℓ-adic inertia + Fil/gr 段）、audit/300dpi/Scholze_2012_p250_conj114.png（Conjecture 1.14 全行）
+- 核对：页眉 250/PETER SCHOLZE；π 坐标 (x_0^♯:…:x_n^♯) 段；(P^n_{K^♭})^ad 非 perfectoid 而 lim_φ 是段；weight-monodromy 回顾段（G_k=Gal(k̄/k)、Q̄_ℓ-representation、ℓ-adic inertia、Fil^N_i ⊂ V、N(Fil^N_i V) ⊂ Fil^N_{i-2} V(−1)、gr^N_i V ≅ gr^N_{−i} V(−i)）；Conjecture 1.14 (Deligne [9])；Deligne [10]/Terasoma [35]/Ito [27] 段；Rapoport–Zink [30]/de Jong [8]/Ito [26] 段；Harris–Taylor [16]/Taylor–Yoshida [34]/Shin [32]/Caraiani [6]/Boyer [4,5]/Dat [7] 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. $(\mathbf{P}_{\mathrm{K}^{\mathrm{p}}}^{n})^{\mathrm{ad}}$ → $(\mathbf{P}_{\mathrm{K}^{\flat}}^{n})^{\mathrm{ad}}$（p.250 第二段首，同句后两个 P^n_{K^♭} 正确，MinerU 混排）
+  2. "the${\beta}^{\mathrm{-th}}$power map" → "the $p$-th power map"（φ 为 p-th power map，PNG 确认）；"The orem 1.13" → "Theorem 1.13"
+  3. "characteristic$\beta,$let" → "characteristic $p$, let"；"of$k.$." 游离 ".$." → "of$k$. "
+  4. "Q<sup>¯</sup> -representation" → $\overline{\mathbf{Q}}_{\ell}$-representation——**300dpi 仲裁**（Scholze_2012_p250_Qbar.png）确认下标为 ℓ
+  5. "the \x08-adic inertia subgroup"（MinerU 残留 0x08 退格控制字节、ℓ 丢失）→ "the$\ell$-adic inertia subgroup"（300dpi 确认 ℓ）
+  6. "Fil^N_i C V, i∈Z.$characterized" → "$\mathrm{Fil}_i^{\mathrm{N}}\subset\mathrm{V}, i\in\mathbf{Z}$, characterized"（伪 C→⊂，句点→逗号）；"V(\dot{-}1)" → V(−1)（伪点删除）；句末 "i≥0" 补句点
+  7. Conjecture 1.14："(Deligne$[9]).-Let" → "(Deligne [9]). — Let"；"V =$H$(X_k̄,…)" → "$\mathrm{V}=\mathrm{H}^{i}(\mathrm{X}_{\bar{k}},\bar{\mathbf{Q}}_{\ell})$"（H 上标 i 丢失；Q̄_ℓ 原本正确，300dpi Scholze_2012_p250_conj114.png 确认）；"andfor"→"and for"；"ofweight"→"of weight"
+  8. Deligne 段 "characteristic$\beta,$" → "characteristic $p$,"（同句第二个 characteristic p 原本正确）
+  9. "ofvarieties"、"ofDrinfeld's" 缺空格 → 修正
+- 备注：π 坐标公式本就为 ♯ 正确；print "non-/degenerate" 跨行连字符，MD 作 "non-degenerate" 保留（软连字符歧义，不擅改）；"Deligne [10], proved" 的逗号为 print 原样，保留。
