@@ -143,3 +143,13 @@
 - 印刷证据与差异：原图 proof 使用 `K(A,n)` 与 `K(H_nX_n,n)`；基线第 412 行写 `H(A,n)`，第 414 行把两个 Eilenberg–MacLane 空间写成损坏的 `H(H_nX_n,n-1)` / `H(H_nX_n,π)`，丢失端项度数并改变对象。300dpi 裁片确认原序列为 `[T,K(H_nX_n,n-1)]→[T,X_{n+1}]→[T,X_n]→[T,K(H_nX_n,n)]`。本页 central-extension 段与可见原式基本对应；前述空间对象和度数错误已足以判为 FAIL。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片回核 Eilenberg–MacLane 空间及度数。
 - 记录：2026-10-01 16:53:33 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.014（PDF p.14 / 纸面圈号 14）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p014.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p014_uniqueness.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p014_free-group-extension.png`。
+- 核对：完美群到 central extension 的态射唯一性；`f(e)=α_1(e)α_2(e)^{-1}` 的同态论证；自由群商构造 universal central extension 的第一步。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图唯一性引理前提为 `E` perfect，MinerU 基线第 443 行误作 `perth`。原图定义 `f:E→ker(p')` 并以 `f(e)=α_1(e)α_2(e)^{-1}` 证明其值落在中心核、因而是到 abelian group 的同态；基线第 451 行将关键乘法/共轭等式序列识别成多处互相矛盾的项，无法支持后文 `f=0` 的推出。第 453 行还把 `abelian` OCR 成 `ebelian`；自由表示 `G=F/R`, `E=F/(F,R)` 与短正合列在第 455–457 行则与原图基本对应。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；以 300dpi 原图核对唯一性证明的定义式与代数步骤。
+- 记录：2026-10-01 17:48:56 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
