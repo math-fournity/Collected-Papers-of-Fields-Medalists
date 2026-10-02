@@ -213,3 +213,9 @@
 - 核对：Figure 8——white face 周围 medial edges 的 lines ℓ(e)（图内标注 NW/NE/SW/SE、1、e^{−iπ/4}、e^{iπ/4}、i、v）及图注 "Lines ℓ(e) for medial edges around a white face."；s-holomorphicity 非旋转不变段（e^{iπ/4}f(i·)、if(−·) 仍 s-holomorphic）；Proposition 4.18——s-holomorphic ⟹ preholomorphic；Proof——v ∈ L_δ∪L⋆_δ、四条投影关系（P_ℝ[f(NW)] = P_ℝ[f(NE)] 起、含共轭 f̄ 的四行恒等式）、第二/三/四条分别乘 −i/−1/i 后相加得 0 = (1−i)[f(NW)−f(SE)+if(SW)−if(NE)] = 2(1−i)∂̄_δf(v)（◻）；§4.4.2 Discrete primitive of F²——½Im(∫^z f̄²) 的离散化引语（150dpi 下 f 上 bar 可辨度有限，重导出时 300dpi 抽查）；Theorem 4.19——唯一 H ∶ Ω_δ∪Ω⋆_δ → C 使 H(b_0) = 1 且 H(b)−H(w) = δ∣P_{ℓ(e)}[f(x)]∣² (= δ∣P_{ℓ(e)}[f(y)]∣²)，e=[xy] 为 black face b 与 white face w 夹边；页脚印刷页码 32。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：共轭 bar（f(NW) 等）与 overline 结构密集，150dpi 部分可辨，建议重导出后对本页公式群 300dpi 抽查；(1−i)/2(1−i) 系数为对账锚点。
+
+## p.033（PDF p.33 / 印刷 p.33）
+- PNG：audit/p033.png（pngmono 150dpi）
+- 核对：Figure 9（2ΔH● 的 arrows contributions 图，黑白点与箭头）及图注（black→white 箭头贡献为负、white→black 为正）；H(b_1)−H(b_2) = ½Im[f(v)²·(b_1−b_2)]（v 为 [b_1b_2] 中心 medial vertex，Ω⋆_δ 同式）；H 为 ½Im(∫^z f̄²) 的离散类似（f̄ 的 bar 在 150dpi 可辨度有限，同 p.32 登记）；Theorem 4.19 Proof——唯一性（单连通）、存在性（沿路径求和、second Kirchhoff's law、elementary square contours）、公式 (4.7) ∣P_{ℓ(n)}[f(v)]∣² − ∣P_{ℓ(e)}[f(v)]∣² + ∣P_{ℓ(s)}[f(v)]∣² − ∣P_{ℓ(w)}[f(v)]∣² = 0 与公式 (4.8) ∣P_{ℓ(n)}∣²+∣P_{ℓ(s)}∣² = ∣f(v)∣² = ∣P_{ℓ(e)}∣²+∣P_{ℓ(w)}∣²（◻）；H●/H○ 记号（Ω_δ 黑面/Ω⋆_δ 白面限制）；Proposition 4.20——H● subharmonic、H○ superharmonic；脚注 5 "H is roughly (the imaginary part of) the primitive of the square of f."；页脚印刷页码 33。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(4.7)/(4.8) 编号齐全；ℓ(n)/ℓ(e)/ℓ(s)/ℓ(w) 与正交关系为重导出对账锚点；脚注 5 上标与正文分隔正常。
