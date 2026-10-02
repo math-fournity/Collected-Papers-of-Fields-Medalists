@@ -248,6 +248,13 @@
 - Checked: examples satisfying condition (R), the symplectic alternating-form reduction, the simply-connected conjecture, and the orthogonal-group counterexample condition.
 - Result: PASS±. The crop confirms Sp_n with n=2m, the canonical alternating form, O_n^+ and n ≥ 3, and the H^1 map. These agree with Markdown; the running header/page number are omitted.
 
+### PDF p.036/43 — print p.35
+
+- Reviewed: 2026-10-02 00:19 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi Tor/Hom crop](audit/300dpi/Serre_1956_gaga_p036_Tor-Hom_300dpi.png); [300 dpi Hom-presentation crop](audit/300dpi/Serre_1956_gaga_p036_Hom-presentations_300dpi.png); PDF text layer and MinerU Markdown lines 878–918.
+- Checked: the Tor criterion for flatness, localization example, canonical Hom-tensor map, Proposition 21 and the finite free presentation setup.
+- Result: FAIL. The print uses Tor_1^A in the flatness criterion; Markdown line 878 has a fraktur i subscript, and the crop confirms numeral 1. Markdown line 896 also omits the map name after “L'homomorphisme”; this is non-misleading because the map is defined immediately above, but it is a recorded PASS± omission.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
