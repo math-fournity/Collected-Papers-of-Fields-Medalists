@@ -101,3 +101,8 @@
 - PNG：`audit-redo/p018.png`（pngmono 150dpi）
 - 核对：`N_0`/`ψ̄` 策略段；`M(N_0)` 邻域与 `ψ̃`/`d_sψ̃ = 0` 段；`K² = (K,K)`、`M_ε`、截断函数 `φ(x)`；`K̃` 与 `i(K)(dK̃) = −d(K²)`；(36) σ 级数（系数 1/s、1/2s²、1/3s³ 与楔积次数）；(37) `χ = ψ̃ ∧ σ`。
 - 结果：PASS±。(36) 各项导数阶、系数、楔积次数及 (37) 均与印刷页逐项相符；`K^2 ⩽ ε`、`x ⩾ ε`、`i(K)(d\tilde{K}) = -d(K^2)`、`d_sχ = 0`、`χ = d_sα` 一致；本页 Luna 无修复登记，redo 亦未发现需修复项。差异仅：页眉 "678 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.019（PDF p.19 / 印刷 p.679）
+- PNG：`audit-redo/p019.png`（pngmono 150dpi）
+- 核对：(38) `H_s = dd* + d*d + s²K² + s((dK̃)∧ + i(dK̃))`；(39) Killing 场局部标准形；(40) 近似 Hamiltonian；`n₊ ⩽ N₊` 论证段。
+- 结果：PASS±。(38)–(40) 及正文逐项与印刷页相符。print quirks 忠实保留（Luna 已 300dpi 仲裁，本轮 150dpi 复核一致，不改）：(40) 势能项印刷排作 `((x_{2r-1})^2 + x_{2r})^2`（md line 484 原样）；(40) 末项求和上限印刷排作 `n`（λ_r 定义域至 n/2，md 原样）；正文 "As in §3 this makes it possible to obtain detailed information about the spectrum for large s"（上下文指向 §2 方法，印刷作 §3，md line 471 原样）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 679" 未入 md（版面信息省略）。
