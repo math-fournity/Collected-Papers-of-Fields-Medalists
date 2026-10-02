@@ -344,3 +344,14 @@
 - 印刷证据与差异：原图 corollary 与 Borel dimension formula 的对象都是 `K_iA⊗\mathbb Q`，基线第 1147、1162 行均写成 `H_iA⊗Q`，改变了陈述所涉及的不变量。原图证明行是 `\pi_i(BGL(A)^+)⊗\mathbb Q=\mathrm{Prim}(H_i(BGL(A)^+;\mathbb Q))`，基线第 1150 行把 `Prim` 拆成 `P_im` 并损坏右侧括号。Borel 表中 `i=0`、`i=1` 特例与 `i\pmod4` 各行在基线第 1162 行也被挤成重叠条件，需依原图逐项排版/核值。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对 `K_i` 对象和全部表项条件。
 - 记录：2026-10-02 02:41:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.034（PDF p.34 / 纸面圈号 34）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p034.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p034_group-and-projection.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p034_topological-analogue.png`。
+- 核对：`G_n` 的块矩阵与短正合列自同构描述；`Hom(A^n,A^r)` 核、到 `GL_n(A)` 的投影/截面及同调分解；稳定同调定理；复数拓扑类比的商空间。
+- 结果：**FAIL**。
+- 印刷证据与差异：300dpi 裁片确认块矩阵的左上角为 `1_r`，作用于 `A^r` 子空间；基线第 1238 行写成 `1_n`，并将矩阵各块排成断裂的三列表。原图文字为 “group of automorphisms of exact sequences” 与 “which identity on subspace A^r”；基线第 1241 行误成 `antimorphisms`，第 1247 行又增加 `quotient A^n`，改变了作用对象。原图第 1250 行的核项是 `Hom(A^n,A^r)`，基线写成 `H_m(A^n,A^r)`；第 1258 行的 `p` 是从块矩阵取右下角 `α`，基线矩阵表达式已损坏。拓扑类比中，原图为上三角矩阵群对 `GL_n(\mathbb C)` 的商并识别为 `M_{rn}(\mathbb C)`，旁注 `contractible`；基线第 1276 行将 `GL_n`/商群误成 `BL_n`/`AL_n`，并把 `contractible` 识为 `wntactite`。稳定同调极限的主陈述可辨认，未将其另列为差异。
+- 源级文字瑕疵：按原图保留短语 “which identity on subspace A^r”；其英文语法不完整，不据语法推测改写为另一种印刷表述。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核矩阵维数、`Hom`、投影和拓扑商。
+- 记录：2026-10-02 02:52:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
