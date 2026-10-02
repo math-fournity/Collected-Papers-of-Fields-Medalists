@@ -1252,7 +1252,7 @@ $$
 \bigwedge_ {\alpha = 1} ^ {2 n - 3} d \phi_ {i _ {\alpha}, j _ {\alpha}} = d \phi_ {i _ {1}, j _ {1}} \wedge \bigwedge_ {\alpha = 2} ^ {2 n - 3} d (\phi_ {i _ {\alpha}, j _ {\alpha}} - \phi_ {i _ {1}, j _ {1}}) .
 $$
 
-Let us map the space$C _ { n } ^ { \prime }$onto the space$C _ { n } ^ { \prime \prime } \subset C o n f _ { n }$consisting of configurations with$p _ { i _ { 1 } } = 0$and $p _ { j _ { 1 } } = 1$, applying rotations with the center at 0. Diferential forms$d ( \phi _ { i _ { \alpha } , j _ { \alpha } } - \phi _ { i _ { 1 } , j _ { 1 } } )$on$C _ { n } ^ { \prime }$are pullbacks of diferential forms$d \phi _ { i _ { \alpha } , j _ { \alpha } }$on$C _ { n } ^ { \prime \prime }$. The integral of a product of$2 n - 3$closed 1-forms$d \phi _ { i _ { \alpha } , j _ { \alpha } } , \ \alpha = 1 , \ldots , 2 n - 3$ over$C _ { n } ^ { \prime }$is equal to 2π times the integral of the product$2 n - 4$closed 1-forms$d \phi _ { i _ { \alpha } , j _ { \alpha } } , \alpha = 2 , \ldots , 2 n - 3$ over$C _ { n } ^ { \prime \prime }$
+Let us map the space$C _ { n } ^ { \prime }$onto the space$C _ { n } ^ { \prime \prime } \subset C o n f _ { n }$consisting of configurations with$p _ { i _ { 1 } } = 0$and $p _ { j _ { 1 } } = 1$, applying rotations with the center at 0. Diferential forms$d ( \phi _ { i _ { \alpha } , j _ { \alpha } } - \phi _ { i _ { 1 } , j _ { 1 } } )$on$C _ { n } ^ { \prime }$are pullbacks of diferential forms$d \phi _ { i _ { \alpha } , j _ { \alpha } }$on$C _ { n } ^ { \prime \prime }$. The integral of a product of$2 n - 3$closed 1-forms$d \phi _ { i _ { \alpha } , j _ { \alpha } } , \ \alpha = 1 , \ldots , 2 n - 3$ over$C _ { n } ^ { \prime }$is equal to$\pm 2 \pi$ times the integral of the product$2 n - 4$closed 1-forms$d \phi _ { i _ { \alpha } , j _ { \alpha } } , \alpha = 2 , \ldots , 2 n - 3$ over$C _ { n } ^ { \prime \prime }$
 
 The space$C _ { n } ^ { \prime \prime }$is a complex manifold. We are calculating the absolutely converging integral of the type
 
@@ -1264,7 +1264,7 @@ where$Z _ { \alpha }$are holomorphic invertible functions on$C _ { n } ^ { \prim
 
 ## 6.6.1. A trick using logarithms
 
-Theorem. Let X be a complex algebraic variety ofdimension$N \geq 1$, and$Z _ { 1 } , \dots , Z _ { 2 N }$be rational functions on$X$, not equal identically to zero. Let U be any Zariski open subset ofX such that functions$Z _ { \alpha }$are defined and non-vanishing on$U _ { i }$and U consists of smooth points. Then the integral
+Theorem. Let X be a complex algebraic variety ofdimension$N \geq 1$, and$Z _ { 1 } , \dots , Z _ { 2 N }$be rational functions on$X$, not equal identically to zero. Let U be any Zariski open subset ofX such that functions$Z _ { \alpha }$are defined and non-vanishing on$U$, and U consists of smooth points. Then the integral
 
 $$
 \int_ {U (\mathbf {C})} \wedge_ {\alpha = 1} ^ {2 N} d (A r g Z _ {\alpha})

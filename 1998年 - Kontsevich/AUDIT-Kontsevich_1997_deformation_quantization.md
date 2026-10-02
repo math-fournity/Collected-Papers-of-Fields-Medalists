@@ -206,3 +206,10 @@
 - 结果：`FAIL`→7 处已修复：①行 1215 `Homogeneous components of  are maps`→补 `$\mathcal{U}$`（𝒰 丢失）；②行 1221 `In our formula for the same`→补 `$\mathcal{U}$`；③行 1221 `$\bar{G}^{(1)}$`→`$G^{(1)}$`（幻影杠，PNG 确证无 bar）；④行 1221 `our formula for is compatible`→补 `$\mathcal{U}$`；⑤行 1225 `1) the orientation of$\overline{{C}}_{n,m} .$7`→`…_{n,m}$,`（幻影 7+印刷为逗号，PNG 确凿）；⑥行 1235 `the fact that is an`→补 `$\mathcal{U}$`；⑦行 1235 `$\mathrm{\Delta^{66}\ put^{,93}}$` 引号损毁→`"put"`（300dpi `_p028_put_quotes.png` 确证正规引号）。print quirk 忠实保留：行 1233 `1/n! is the final formula does not appear`（300dpi `_p028_is_final_formula.png` 确证印刷为 is 非 in，原文笔误）；行 1211 印刷 `differ`（MD `difer` 为 ff 拍平伪影，登记不改）。其余 PASS±：行 1211 `bidiferential`、行 1235 `loose`（原文如此）/`diferential` 拍平；行 1227 列表尾缺逗号、行 1245 句末缺句点、行 1235 bold C 拍平（登记）。公式行 1204/1218/1238 与印刷逐符号吻合。
 - 备注：行 1247 起（Lemma. Let n≥3…）为印刷 p.29 内容，在 p.029 核对。
 
+## p.029（PDF p.29 / 印刷 p.29）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p029.png`（pngmono 150dpi）
+- 核对：Lemma（2n−3=dim(C_n) 个闭 1-form 积分为零）、Proof（C_n↪C_n'、p_{i₁}=0、p_{j₁}∈S¹、wedge 分解式、C_n'' 旋转归一、±2π 关系式）、∫_{C_n''}∏dArg(Z_α) 式、§6.6.1 heading、Theorem（dim N≥1、Z₁…Z_{2N} 有理函数、Zariski 开集、∫_{U(C)}⋀d(Arg Z_α) 绝对收敛且为零）、Goncharov 段、dLog|Z_α| trick、(1/2i)(d(Log Z_α)−d(Log Z̄_α)) 式、holomorphic/anti-holomorphic 分解段与 ⋀(1/2)(d+d) 式、Ū 正规交叉紧化段（MD 行 1247–1291）。
+- 结果：`FAIL`→2 处已修复：①行 1255 `is equal to 2π times`→`is equal to$\pm 2\pi$ times`（± 丢失，PNG+文本层确凿，与 p.025 ±1 同类）；②行 1267 `non-vanishing on$U_i$and`→`on$U$, and`（幻影下标 i，印刷为 U,，PNG 确凿）。print quirk 忠实保留：行 1279 `of a holomorphic an anti-holomorphic form`（原文 an 误于 and）；行 1267 `ofdimension`/`ofX` 粘排。其余 PASS±：行 1263 `diferences`、行 1277/1279/1291 `diferential`/`diference`/`coeficients`（ff 拍平）；行 1267 粘排空格；行 1277 `\Lambda` 代 ⋀ 样式（登记）。公式行 1252/1260/1270/1282/1288 与印刷逐符号吻合。
+- 备注：行 1293 起（Lemma. Let$\omega$…）为印刷 p.30 内容，在 p.030 核对。
+
