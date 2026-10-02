@@ -34,11 +34,11 @@ Le texte suit fidèlement celui de six conférences données à Cambridge en jui
 (1.1) Soient X un schéma de type fini sur Z, |X| l'ensemble des points fermés de X et, pour  $x \in |X|$ , soit  $N(x)$  le nombre d'éléments du corps résiduel  $k(x)$  de X en x. La fonction zêta de Hasse-Weil de X est
 
 $$
-(\mathbf {I}. \mathbf {I}. \mathbf {I})
+(1.1.1)
 $$
 
 $$
-\zeta_ {\mathrm{X}} (s) = \prod_ {x \in | \mathrm{X} |} (\mathrm{I} - \mathrm{N} (x) ^ {- s}) ^ {- 1}
+\zeta_ {\mathrm{X}} (s) = \prod_ {x \in | \mathrm{X} |} (1 - \mathrm{N} (x) ^ {- s}) ^ {- 1}
 $$
 
 (ce produit converge absolument pour $\mathcal{R}(s)$ assez grand). Pour $\mathbf{X} = \operatorname{Spec}(\mathbf{Z})$, $\zeta_{\mathbf{X}}(s)$ est la fonction zêta de Riemann.
@@ -48,13 +48,13 @@ Nous considérerons exclusivement le cas où X est un schéma sur un corps fini 
 Pour $x \in |X|$, nous écrirons $q_x$ plutôt que $N(x)$. Posant $\deg(x) = [k(x) : \mathbf{F}_q]$, on a $q_x = q^{\deg(x)}$. Il y a intérêt à introduire la variable $t = q^{-s}$. Posons
 
 $$
-Z (X; t) = \prod_ {x \in | X |} (I - t ^ {\deg (x)}) ^ {- 1};\tag{\( (1.1.2) \}
+Z (X; t) = \prod_ {x \in | X |} (1 - t ^ {\deg (x)}) ^ {- 1};\tag{\( (1.1.2) \}
 $$
 
 ce produit infini converge pour  $|t|$  assez petit, et on a
 
 $$
-\zeta_ {\mathrm{X}} (s) = \mathrm{Z} (\mathrm{X}; q ^ {- s}).\tag{\((\mathbf{I}.\mathbf{I}.\mathbf{3})\}
+\zeta_ {\mathrm{X}} (s) = \mathrm{Z} (\mathrm{X}; q ^ {- s}).\tag{1.1.3}
 $$
 
 (1.2) Dwork (On the rationality of the zeta function of an algebraic variety, Amer. J. Math., 82, 1960, p. 631-648) et Grothendieck ([1] et SGA 5) ont démontré que $\mathbf{Z}(\mathbf{X}, t)$ est une fonction rationnelle de $t$.
@@ -65,13 +65,13 @@ Nous ferons un usage essentiel des résultats de Grothendieck, et les rappelons 
 
 (1.3) Soit X une variété algébrique sur un corps algébriquement clos $k$ de caractéristique $p$, i.e. un schéma séparé de type fini sur $k$. On n'exclut pas le cas $p=0$. Pour tout nombre premier $\ell\neq p$, Grothendieck a défini des groupes de cohomologie $\ell$-adiques $\mathrm{H}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Il a aussi défini des groupes de cohomologie à support propre $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Pour X propre, les deux coïncident. Les $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$ sont des espaces vectoriels de dimension finie sur $\mathbf{Q}_{\ell}$, nuls pour $i>2\dim(\mathrm{X})$.
 
-(1.4) Soient  $X_{0}$  une variété algébrique sur  $F_{q}$,  $\overline{F}_{q}$  une clôture algébrique de  $F_{q}$  et X la variété algébrique sur  $\overline{F}_{q}$  déduite de  $X_{0}$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$. Dans le langage de Weil ou Shimura, on exprimerait cette situation par : « Soit X une variété algébrique définie sur  $F_{q}$ ». Soit  $F : X \to X$  le morphisme de Frobenius; il envoie le point de coordonnées x vers le point de coordonnées  $x^{q}$; en d'autres termes, pour  $U_{0}$  un ouvert de Zariski de  $X_{0}$, définissant un ouvert U de X, on a  $F^{-1}(U) = U$; pour  $x \in H^{0}(U_{0}, \mathcal{O})$, on a  $F^{*}x = x^{q}$. Identifons l'ensemble |X| des points fermés de X à  $X_{0}(\overline{\mathbf{F}}_{q})$  (l'ensemble  $\operatorname{Hom}_{\mathbf{F}_{q}}(\operatorname{Spec}(\overline{\mathbf{F}}_{q}), X_{0})$  des points de  $X_{0}$  à coefficients dans  $\overline{F}_{q}$), et soit
+(1.4) Soient  $X_{0}$  une variété algébrique sur  $F_{q}$,  $\overline{F}_{q}$  une clôture algébrique de  $F_{q}$  et X la variété algébrique sur  $\overline{F}_{q}$  déduite de  $X_{0}$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$. Dans le langage de Weil ou Shimura, on exprimerait cette situation par : « Soit X une variété algébrique définie sur  $F_{q}$ ». Soit  $F : X \to X$  le morphisme de Frobenius; il envoie le point de coordonnées x vers le point de coordonnées  $x^{q}$; en d'autres termes, pour  $U_{0}$  un ouvert de Zariski de  $X_{0}$, définissant un ouvert U de X, on a  $F^{-1}(U) = U$; pour  $x \in H^{0}(U_{0}, \mathcal{O})$, on a  $F^{*}x = x^{q}$. Identifions l'ensemble |X| des points fermés de X à  $X_{0}(\overline{\mathbf{F}}_{q})$  (l'ensemble  $\operatorname{Hom}_{\mathbf{F}_{q}}(\operatorname{Spec}(\overline{\mathbf{F}}_{q}), X_{0})$  des points de  $X_{0}$  à coefficients dans  $\overline{F}_{q}$), et soit
 
 $\varphi \in \operatorname{Gal}(\overline{\mathbf{F}}_q / \mathbf{F}_q)$ la substitution de Frobenius: $\varphi(x) = x^q$. L'action de F sur $|\mathbf{X}|$ s'identifie à l'action de $\varphi$ sur $\mathbf{X}_0(\overline{\mathbf{F}}_q)$. Dès lors:
 
 a) L'ensemble $\mathbf{X}^{\mathrm{F}}$ des points fermés de X fixes sous F s'identifie à l'ensemble $\mathbf{X}_0(\mathbf{F}_q)\subset \mathbf{X}_0(\overline{\mathbf{F}}_q)$ des points de X définis sur $\mathbf{F}_q$. Ceci exprime simplement que, pour $x\in \overline{\mathbf{F}}_q$, on a $x\in \mathbf{F}_q\Leftrightarrow x^q = x$.
 
-b) De même, l'ensemble  $X^{F^{n}}$  des points fermés de X fixes sous le  $n^{ième}$  itéré de F s'identifie à  $\mathbf{X}_{0}(\mathbf{F}_{\sigma^{n}})$ .
+b) De même, l'ensemble  $X^{F^{n}}$  des points fermés de X fixes sous le  $n^{ième}$  itéré de F s'identifie à  $\mathbf{X}_{0}(\mathbf{F}_{q^{n}})$ .
 
 c) L'ensemble $|\mathbf{X}_0|$ des points fermés de $\mathbf{X}_0$ s'identifie à l'ensemble $|\mathbf{X}|_{\mathrm{F}}$ des orbites de F (ou de $\varphi$) dans $|\mathbf{X}|$. Le degré $\deg(x)$ de $x \in |\mathbf{X}_0|$ est le nombre d'éléments de l'orbite correspondante.
 
@@ -92,21 +92,21 @@ $$
 Grothendieck a prouvé la formule de Lefschetz
 
 $$
-\# \mathbf {X} ^ {\mathrm{F}} = \sum_ {i} (- \mathrm{i}) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {*}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}));
+\# \mathbf {X} ^ {\mathrm{F}} = \sum_ {i} (- 1) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {*}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}));
 $$
 
-le membre de droite, a priori un nombre ℓ-adique, est entier, et égal au membre de gauche. On notera qu'une telle formule n'est raisonnable que parce que dF=o, même à l'infini (X n'est pas supposé propre); la relation dF=o implique que les points fixes de F sont de multiplicité un.
+le membre de droite, a priori un nombre ℓ-adique, est entier, et égal au membre de gauche. On notera qu'une telle formule n'est raisonnable que parce que dF=0, même à l'infini (X n'est pas supposé propre); la relation dF=0 implique que les points fixes de F sont de multiplicité un.
 
 Une formule analogue vaut pour les itérés de F :
 
 $$
-\# \mathbf {X} ^ {\mathrm{F} ^ {n}} = \# \mathbf {X} _ {0} (\mathbf {F} _ {q ^ {n}}) = \sum_ {i} (- \mathrm{i}) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {* n}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).\tag{1.5.1}
+\# \mathbf {X} ^ {\mathrm{F} ^ {n}} = \# \mathbf {X} _ {0} (\mathbf {F} _ {q ^ {n}}) = \sum_ {i} (- 1) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {* n}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).\tag{1.5.1}
 $$
 
 Prenons la dérivée logarithmique de (1.1.2) :
 
 $$
-\begin{array}{r l} t \frac {d}{d t} \log Z (X _ {0}, t) & = \frac {t \frac {d}{d t} Z (X _ {0} , t)}{Z (X _ {0} , t)} = \sum_ {x \in | X _ {0} |} - \frac {- \deg (x) t ^ {\deg (x)}}{I - t ^ {\deg (x)}} \\ & = \sum_ {x \in | X _ {0} |} \sum_ {n > 0} \deg (x) t ^ {n. \deg (x)} = \sum_ {(1. 4. 1) n} \# X _ {0} (\mathbf {F} _ {q ^ {n}}). t ^ {n}. \end{array}\tag{1.5.2}
+\begin{array}{r l} t \frac {d}{d t} \log Z (X _ {0}, t) & = \frac {t \frac {d}{d t} Z (X _ {0} , t)}{Z (X _ {0} , t)} = \sum_ {x \in | X _ {0} |} - \frac {- \deg (x) t ^ {\deg (x)}}{1 - t ^ {\deg (x)}} \\ & = \sum_ {x \in | X _ {0} |} \sum_ {n > 0} \deg (x) t ^ {n. \deg (x)} = \sum_ {(1. 4. 1) n} \# X _ {0} (\mathbf {F} _ {q ^ {n}}). t ^ {n}. \end{array}\tag{1.5.2}
 $$
 
 Pour F un endomorphisme d'un espace vectoriel V, on a une identité de séries formelles
@@ -114,7 +114,7 @@ Pour F un endomorphisme d'un espace vectoriel V, on a une identité de séries f
 (1.5.3)
 
 $$
-t \frac {d}{d t} \log (\det (\mathrm{I} - \mathrm{F} t, \mathrm{V}) ^ {- 1}) = \sum_ {n > 0} \operatorname{Tr} (\mathrm{F} ^ {n}, \mathrm{V}) t ^ {n}\tag{275}
+t \frac {d}{d t} \log (\det (\mathrm{I} - \mathrm{F} t, \mathrm{V}) ^ {- 1}) = \sum_ {n > 0} \operatorname{Tr} (\mathrm{F} ^ {n}, \mathrm{V}) t ^ {n}
 $$
 
 (le vérifier pour  $\dim(V)=1$ , et observer que les deux membres sont additifs en V dans une suite exacte courte). Substituant (1.5.1) dans (1.5.2) et appliquant (1.5.3), on trouve
@@ -133,7 +133,7 @@ Le membre de droite est un élément de $\mathbf{Q}_{\ell}(t)$. La formule affir
 
 Notre résultat principal est le suivant.
 
-Théorème (1.6). — Soit  $X_{0}$  une variété projective non singulière (=lisse) sur  $F_{q}$ . Pour chaque i, le polynôme caractéristique det(t.i—F\*, H^{i}(X, Q\_{\ell})) est à coefficients entiers indépendants de  $\ell (\ell \neq p)$ . Les racines complexes  $\alpha$  de ce polynôme (les conjugués complexes des valeurs propres de F\*) sont de valeur absolue  $|\alpha| = q^{i/2}$ .
+Théorème (1.6). — Soit  $X_{0}$  une variété projective non singulière (=lisse) sur  $F_{q}$ . Pour chaque i, le polynôme caractéristique det(t·I − F*, H^{i}(X, Q\_{\ell})) est à coefficients entiers indépendants de  $\ell (\ell \neq p)$ . Les racines complexes  $\alpha$  de ce polynôme (les conjugués complexes des valeurs propres de F*) sont de valeur absolue  $|\alpha| = q^{i/2}$ .
 
 Montrons déjà que (1.6) résulte du résultat apparemment plus faible suivant.
 
@@ -154,7 +154,7 @@ $$
 Écrivons $Z(X_0, t) = P/Q$, avec $P, Q \in \mathbf{Z}[t]$, premiers entre eux, et de terme constant positif. D'après un lemme de Fatou, que $Z(X_0, t)$ soit dans $\mathbf{Z}[[t]]$ et de terme constant un implique que les termes constants de $P$ et $Q$ sont 1. Posons
 
 $$
-\mathrm{P} _ {i} (t) = \det (\mathrm{i} - \mathrm{F} ^ {*} t, \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).
+\mathrm{P} _ {i} (t) = \det (\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).
 $$
 
 277
@@ -175,23 +175,23 @@ La suite de cet article est consacrée à la démonstration de (1.7).
 
 (1.8) La théorie de Grothendieck fournit une interprétation cohomologique non seulement de fonctions zêta, mais encore de fonctions L. Les résultats sont les suivants.
 
-(1.9) Soit X une variété algébrique sur un corps k. Pour la définition d'un  $Q_{t}$ -faisceau constructible sur X, je renvoie à SGA 5 VI. Qu'il suffise de dire que:
+(1.9) Soit X une variété algébrique sur un corps k. Pour la définition d'un  $Q_{\ell}$ -faisceau constructible sur X, je renvoie à SGA 5 VI. Qu'il suffise de dire que:
 
 a) Si $\mathcal{F}$ est un $\mathbf{Q}_{\ell}$-faisceau constructible sur $\mathbf{X}$, il existe une partition finie de $\mathbf{X}$ en parties localement fermées $\mathbf{X}_{i}$ telles que $\mathcal{F}|\mathbf{X}_{i}$ soit constant tordu.
 
-b) Supposons X connexe et soit  $\bar{x}$  un point géométrique de X. Pour F constant tordu,  $\pi_{1}(X,\bar{x})$  agit sur la fibre  $F_{\bar{x}}$ ; le foncteur fibre en  $\bar{x}$  est une équivalence de catégorie ( $Q_{t}$ -faisceaux constructibles constants tordus sur X)→
+b) Supposons X connexe et soit  $\bar{x}$  un point géométrique de X. Pour $\mathcal{F}$ constant tordu,  $\pi_{1}(X,\bar{x})$  agit sur la fibre  $\mathcal{F}_{\bar{x}}$ ; le foncteur fibre en  $\bar{x}$  est une équivalence de catégorie ( $Q_{\ell}$ -faisceaux constructibles constants tordus sur X)→
 
 $\mapsto$ (représentations continues de $\pi_1(\mathbf{X},\bar{x})$ sur un $\mathbf{Q}_{\ell}$-espace vectoriel de dimension finie).
 
 Une telle représentation ne se factorise pas, en général, à travers un quotient fini de  $\pi_{1}(\mathbf{X},\bar{x})$ .
 
-c) Si $k = \mathbf{C}$, les $\mathbf{Q}_t$-faisceaux constructibles sur $X$ s'identifient aux faisceaux de $\mathbf{Q}_t$-espaces vectoriels $\mathcal{F}$ sur $X^{\text{an}}$, tels qu'il existe une partition finie de $X$ en parties Zariski-localement fermées $X_i$, et pour chaque $i$ un système local de $Z_t$-Modules libres de type fini $\mathcal{F}_i$ sur $X_i$, avec
+c) Si $k = \mathbf{C}$, les $\mathbf{Q}_{\ell}$-faisceaux constructibles sur $X$ s'identifient aux faisceaux de $\mathbf{Q}_{\ell}$-espaces vectoriels $\mathcal{F}$ sur $X^{\text{an}}$, tels qu'il existe une partition finie de $X$ en parties Zariski-localement fermées $X_i$, et pour chaque $i$ un système local de $Z_{\ell}$-Modules libres de type fini $\mathcal{F}_i$ sur $X_i$, avec
 
 $$
 \mathcal {F} \mid \mathrm{X} _ {i} = \mathcal {F} _ {i} \otimes_ {\mathbf {Z} _ {\ell}} \mathbf {Q} _ {\ell}.
 $$
 
-Nous ne considérerons que des  $Q_{t}$ -faisceaux constructibles, et les appellerons simplement  $Q_{t}$ -faisceaux.
+Nous ne considérerons que des  $Q_{\ell}$ -faisceaux constructibles, et les appellerons simplement  $Q_{\ell}$ -faisceaux.
 
 (1.10) Supposons $k$ algébriquement clos, et soit $\mathcal{F}$ un $\mathbf{Q}_{\ell}$-faisceau sur X. Grothendieck a défini des groupes de cohomologie $\ell$-adique $\mathrm{H}^{\mathrm{i}}(\mathrm{X},\mathcal{F})$ et $\mathrm{H}_{c}^{\mathrm{i}}(\mathrm{X},\mathcal{F})$. Les $\mathrm{H}_{c}^{\mathrm{i}}(\mathrm{X},\mathcal{F})$ sont des espaces vectoriels de dimension finie sur $\mathbf{Q}_{\ell}$, nuls pour $i > 2$ dim(X).
 
@@ -205,7 +205,7 @@ d'où un morphisme $[\mathcal{F}] \to \mathbf{X} \times_{(\mathbb{F},\mathbf{X},
 
 Cette construction se généralise aux $\mathbf{Q}_{\ell}$-faisceaux.
 
-(1.12) Soient  $X_{0}$  une variété algébrique sur  $F_{q}, F_{0}$  un  $Q_{\ell}$ -faisceau sur  $X_{0}$ , (X, F) déduit de  $(\mathbf{X}_{0}, \mathcal{F}_{0})$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$ , F : X → X et  $F^{*}: F^{*}F \to F$ . Le morphisme fini F et  $F^{*}$  définissent un endomorphisme
+(1.12) Soient  $X_{0}$  une variété algébrique sur  $F_{q}, \mathcal{F}_{0}$  un  $Q_{\ell}$ -faisceau sur  $X_{0}$ , (X, $\mathcal{F}$) déduit de  $(\mathbf{X}_{0}, \mathcal{F}_{0})$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$ , F : X → X et  $F^{*}: F^{*}\mathcal{F} \to \mathcal{F}$ . Le morphisme fini F et  $F^{*}$  définissent un endomorphisme
 
 $$
 \mathrm{F} ^ {*}: \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F}) \rightarrow \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathrm{F} ^ {*} \mathcal {F}) \rightarrow \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F}).
@@ -214,13 +214,13 @@ $$
 Pour $x\in|\mathrm{X}|$, $\mathbf{F}^{*}$ définit un morphisme $\mathbf{F}_{x}^{*}:\mathcal{F}_{\mathrm{F}(x)}\to\mathcal{F}_{x}$. Pour $x\in\mathrm{X}^{\mathrm{F}}$, c'est un endomorphisme de $\mathcal{F}_{x}$. Grothendieck a démontré la formule de Lefschetz
 
 $$
-\sum_ {x \in \mathrm{X} ^ {\mathrm{F}}} \operatorname{Tr} (\mathrm{F} _ {x} ^ {*}, \mathcal {F} _ {x}) = \sum_ {i} (- \mathrm{i}) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {*}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})).
+\sum_ {x \in \mathrm{X} ^ {\mathrm{F}}} \operatorname{Tr} (\mathrm{F} _ {x} ^ {*}, \mathcal {F} _ {x}) = \sum_ {i} (- 1) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {*}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})).
 $$
 
-Une formule analogue vaut pour les itérés de F : le  $n^{ième}$  itéré de  $F^{*}$  définit des morphismes  $\mathrm{F}_{x}^{*n} : \mathcal{F}_{\mathrm{F}_{1}(x)} \to \mathcal{F}_{x}$ ; pour x fixe sous  $F^{n}$ ,  $F_{x}^{*n}$  est un endomorphisme, et
+Une formule analogue vaut pour les itérés de F : le  $n^{ième}$  itéré de  $F^{*}$  définit des morphismes  $\mathrm{F}_{x}^{*n} : \mathcal{F}_{\mathrm{F}^{n}(x)} \to \mathcal{F}_{x}$ ; pour x fixe sous  $F^{n}$ ,  $F_{x}^{*n}$  est un endomorphisme, et
 
 $$
-\sum_ {x \in \mathrm{X} ^ {\mathrm{F} ^ {n}}} \operatorname{Tr} (\mathrm{F} _ {x} ^ {* n}, \mathcal {F} _ {x}) = \sum_ {i} (- \mathrm{i}) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {* n}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})).\tag{1.12.1}
+\sum_ {x \in \mathrm{X} ^ {\mathrm{F} ^ {n}}} \operatorname{Tr} (\mathrm{F} _ {x} ^ {* n}, \mathcal {F} _ {x}) = \sum_ {i} (- 1) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {* n}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})).\tag{1.12.1}
 $$
 
 (1.13) Soient $x_{0}\in|\mathbf{X}_{0}|$, Z l'orbite correspondante de F dans $|\mathbf{X}|$ et $x\in\mathbf{Z}$. L'orbite Z a $\deg(x_{0})$ éléments (1.4). On note $\mathrm{F}_{x_{0}}^{*}$ l'endomorphisme $\mathrm{F}_{x}^{*\deg(x_{0})}$ de $\mathcal{F}_{x}$, et on pose
@@ -234,13 +234,13 @@ A isomorphisme près, $(\mathcal{F}_x,\mathrm{F}_{x_0}^*)$ ne dépend pas du cho
 (1.14) Définissons  $Z(X_{0},\mathcal{F}_{0},t)\in\mathbf{Q}_{\ell}[[t]]$  par le produit
 
 $$
-\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {x \in | \mathrm{X} _ {0} |} \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1}.\tag{\((\mathbf{I}.\mathbf{I}_4.\mathbf{I})\}
+\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {x \in | \mathrm{X} _ {0} |} \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1}.\tag{1.14.1}
 $$
 
 Pour $\mathcal{F}$ le faisceau constant $\mathbf{Q}_{\ell}$, on retrouve (1.1.2). D'après (1.5.3), la dérivée logarithique de $Z$ est
 
 $$
-t \frac {d}{d t} \log Z (X _ {0}, \mathcal {F} _ {0}, t) = \frac {t \frac {d}{d t} Z (X _ {0} , \mathcal {F} _ {0} , t)}{\mathrm{dfn}} = \frac {1}{Z (X _ {0} , \mathcal {F} _ {0} , t)} = \sum_ {n} \sum_ {x \in X ^ {\mathrm{f} n} = X _ {0} (\mathbf {F} _ {q ^ {n}})} \operatorname{Tr} (F _ {x} ^ {* n}, \mathcal {F} _ {0}) t ^ {n}.\tag{1.14.2}
+t \frac {d}{d t} \log Z (X _ {0}, \mathcal {F} _ {0}, t) = \frac {t \frac {d}{d t} Z (X _ {0} , \mathcal {F} _ {0} , t)}{\mathrm{dfn} Z (X _ {0} , \mathcal {F} _ {0} , t)} = \sum_ {n} \sum_ {x \in X ^ {F ^ {n}} = X _ {0} (\mathbf {F} _ {q ^ {n}})} \operatorname{Tr} (F _ {x} ^ {* n}, \mathcal {F} _ {0}) t ^ {n}.\tag{1.14.2}
 $$
 
 Substituant (1.12.1) dans (1.14.2), on trouve par le même calcul qu'en (1.5) la généralisation suivante de (1.5.4)
@@ -265,7 +265,7 @@ $$
 \mathrm{F} ^ {*} = \varphi^ {- 1} \quad (\text { dans   } \operatorname{End} (\mathrm{H} _ {c} ^ {*} (\mathrm{X}, \mathcal {F}))).
 $$
 
-Ceci amène à définir le Frobenius géométrique  $F \in \text{Gal}(\overline{\mathbf{F}}_{q}/\mathbf{F}_{q})$  comme étant  $\varphi^{-1}$ . On a (I. I5. I)  $F^{*} = F$ .
+Ceci amène à définir le Frobenius géométrique  $F \in \text{Gal}(\overline{\mathbf{F}}_{q}/\mathbf{F}_{q})$  comme étant  $\varphi^{-1}$ . On a (1.15.1)  $F^{*} = F$ .
 
 Soit $x$ un point géométrique de $\mathbf{X}_{0}$, localisé en $x_{0} \in |\mathbf{X}_{0}|$. Par transport de structure, le groupe $\operatorname{Gal}(k(x)/k(x_{0}))$ agit sur la fibre $(\mathcal{F}_{0})_{x}$ de $\mathcal{F}_{0}$ en $x$; en particulier, le Frobenius géométrique relatif à $k(x_{0}): \mathrm{F}_{x_{0}} \in \operatorname{Gal}(k(x)/k(x_{0}))$, agit. Pour $x$ défini par un point fermé, encore noté $x$, de $\mathbf{X}$, on a $\mathcal{F}_{x} = (\mathcal{F}_{0})_{x}$, et
 
@@ -276,7 +276,7 @@ $$
 En notations galoisiennes, (1.14.3) s'écrit
 
 $$
-\prod_ {x \in | X _ {0} |} \det (I - F _ {x} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1} = \prod_ {i} \det (I - F t, H _ {c} ^ {i} (X, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.\tag{279}
+\prod_ {x \in | X _ {0} |} \det (I - F _ {x} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1} = \prod_ {i} \det (I - F t, H _ {c} ^ {i} (X, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.
 $$
 
 ## 2. La théorie de Grothendieck : dualité de Poincaré.
@@ -289,23 +289,23 @@ b) Variétés complexes. — Soit C une clôture algébrique de R. Une variété
 
 a) à choisir l'une des deux racines de l'équation  $X^{2} = -1$ ; on l'appelle +i;
 
-b) à choisir un isomorphisme de R/Z avec  $U^{1}=\{z\in C||z|=1\}$ ; +i est l'image de r/4;
+b) à choisir un isomorphisme de R/Z avec  $U^{1}=\{z\in C||z|=1\}$ ; +i est l'image de 1/4;
 
 c) à choisir l'un des deux isomorphismes  $x \mapsto \exp(\pm 2\pi ix)$  de Q/Z sur le groupe des racines de l'unité de C, qui se prolonge par continuité en un isomorphisme de R/Z sur U¹.
 
-On note $\mathbf{Z}(\mathrm{I})$ un $\mathbf{Z}$-module libre de rang un dont l'ensemble à deux éléments des générateurs soit en correspondance canonique avec l'un des ensembles à deux éléments $a), b), c)$. Le plus simple est de prendre $\mathbf{Z}(\mathrm{I}) = \operatorname{Ker}(\exp : \mathbf{C} \to \mathbf{C}^*)$. Au générateur $y = \pm 2\pi i$ correspond l'isomorphisme $c) : x \mapsto \exp(xy)$.
+On note $\mathbf{Z}(1)$ un $\mathbf{Z}$-module libre de rang un dont l'ensemble à deux éléments des générateurs soit en correspondance canonique avec l'un des ensembles à deux éléments $a), b), c)$. Le plus simple est de prendre $\mathbf{Z}(1) = \operatorname{Ker}(\exp : \mathbf{C} \to \mathbf{C}^*)$. Au générateur $y = \pm 2\pi i$ correspond l'isomorphisme $c) : x \mapsto \exp(xy)$.
 
 Soit  $\mathbf{Z}(r)$  la puissance tensorielle  $r^{ième}$  de  $\mathbf{Z}(1)$ . Si X est une variété algébrique complexe lisse purement de dimension complexe r, le faisceau d'orientation de X est le faisceau constant de valeur  $\mathbf{Z}(r)$ .
 
-(2.2) Pour « orienter » les variétés algébriques sur k algébriquement clos de caractéristique o, il faut choisir un isomorphisme de Q/Z sur le groupe des racines de l'unité de k. L'ensemble de ces isomorphismes est un espace principal homogène sous  $\hat{Z}^{*}$  (non plus sous  $Z^{*}$ ). Lorsqu'on s'intéresse seulement à la cohomologie  $\ell$ -adique, il suffit de considérer les racines de l'unité d'ordre une puissance de  $\ell$, et de supposer la caractéristique p de k différente de  $\ell$. On note  $\mathbf{Z}/\ell^{n}(\mathbf{1})$  le groupe des racines de l'unité de k d'ordre divisant  $\ell^{n}$. Pour n variable, les  $\mathbf{Z}/\ell^{n}(\mathbf{1})$  forment un système projectif, d'applications de transition les
+(2.2) Pour « orienter » les variétés algébriques sur k algébriquement clos de caractéristique 0, il faut choisir un isomorphisme de Q/Z sur le groupe des racines de l'unité de k. L'ensemble de ces isomorphismes est un espace principal homogène sous  $\hat{Z}^{*}$  (non plus sous  $Z^{*}$ ). Lorsqu'on s'intéresse seulement à la cohomologie  $\ell$ -adique, il suffit de considérer les racines de l'unité d'ordre une puissance de  $\ell$, et de supposer la caractéristique p de k différente de  $\ell$. On note  $\mathbf{Z}/\ell^{n}(\mathbf{1})$  le groupe des racines de l'unité de k d'ordre divisant  $\ell^{n}$. Pour n variable, les  $\mathbf{Z}/\ell^{n}(\mathbf{1})$  forment un système projectif, d'applications de transition les
 
 $$
-\sigma_ {m, n}: \mathbf {Z} / \ell^ {m} (\mathrm{I}) \rightarrow \mathbf {Z} / \ell^ {n} (\mathrm{I}): x \mapsto x ^ {\ell^ {m - n}}.
+\sigma_ {m, n}: \mathbf {Z} / \ell^ {m} (1) \rightarrow \mathbf {Z} / \ell^ {n} (1): x \mapsto x ^ {\ell^ {m - n}}.
 $$
 
-On pose $\mathbf{Z}_{\ell}(\mathrm{I}) = \lim \operatorname{proj}\mathbf{Z} / \ell^{n}(\mathrm{I})$ et $\mathbf{Q}_{\ell}(\mathrm{I}) = \mathbf{Z}_{\ell}(\mathrm{I})\otimes_{\mathbf{Z}_{\ell}}\mathbf{Q}_{\ell}$. On note $\mathbf{Q}_{\ell}(r)$ la puissance tensorielle $r^{\text{ième}}$ de $\mathbf{Q}_{\ell}(\mathrm{I})$; pour $r\in \mathbf{Z}$, $r$ négatif, on pose encore $\mathbf{Q}_{\ell}(r) = \mathbf{Q}_{\ell}(-r)^{\vee}$.
+On pose $\mathbf{Z}_{\ell}(1) = \lim \operatorname{proj}\mathbf{Z} / \ell^{n}(1)$ et $\mathbf{Q}_{\ell}(1) = \mathbf{Z}_{\ell}(1)\otimes_{\mathbf{Z}_{\ell}}\mathbf{Q}_{\ell}$. On note $\mathbf{Q}_{\ell}(r)$ la puissance tensorielle $r^{\text{ième}}$ de $\mathbf{Q}_{\ell}(1)$; pour $r\in \mathbf{Z}$, $r$ négatif, on pose encore $\mathbf{Q}_{\ell}(r) = \mathbf{Q}_{\ell}(-r)^{\vee}$.
 
-En tant qu'espace vectoriel sur $\mathbf{Q}_{\ell}$, $\mathbf{Q}_{\ell}(\mathrm{I})$ est isomorphe à $\mathbf{Q}_{\ell}$. Toutefois le groupe des automorphismes de $k$ agit non trivialement sur $\mathbf{Q}_{\ell}(\mathrm{I})$: il agit via le caractère à valeurs dans $\mathbf{Z}_{\ell}^{*}$ qui donne son action sur les racines de l'unité. En particulier, si $k = \overline{\mathbf{F}}_{q}$, la substitution de Frobenius $\varphi : x \mapsto x^{q}$ agit par multiplication par $q$.
+En tant qu'espace vectoriel sur $\mathbf{Q}_{\ell}$, $\mathbf{Q}_{\ell}(1)$ est isomorphe à $\mathbf{Q}_{\ell}$. Toutefois le groupe des automorphismes de $k$ agit non trivialement sur $\mathbf{Q}_{\ell}(1)$: il agit via le caractère à valeurs dans $\mathbf{Z}_{\ell}^{*}$ qui donne son action sur les racines de l'unité. En particulier, si $k = \overline{\mathbf{F}}_{q}$, la substitution de Frobenius $\varphi : x \mapsto x^{q}$ agit par multiplication par $q$.
 
 Soit X une variété algébrique lisse purement de dimension n sur k. Le faisceau d'orientation de X en cohomologie  $\ell$ -adique est le  $\mathbf{Q}_{\ell}$ -faisceau constant  $\mathbf{Q}_{\ell}(n)$ . La classe fondamentale est un morphisme
 
@@ -339,23 +339,23 @@ c) Le morphisme F est fini et de degré  $q^{n}$ : sur  $\mathrm{H}^{2n}(\mathrm
 
 d) Les valeurs propres de $\mathbf{F}^*$ ont donc la propriété (2.4).
 
-(2.6) On pose $\chi(\mathbf{X}) = \sum_{i} (-\mathrm{i})^{i} \dim \mathrm{H}^{i}(\mathbf{X}, \mathbf{Q}_{\ell})$. Si $n$ est impair, la forme $\operatorname{Tr}(x \cup y)$ sur $\mathrm{H}^{n}(\mathbf{X}, \mathbf{Q}_{\ell})$ est alternée; l'entier $n\chi(\mathbf{X})$ est donc toujours pair. On déduit facilement de (1.5.4) et de (2.3), (2.4) que
+(2.6) On pose $\chi(\mathbf{X}) = \sum_{i} (-1)^{i} \dim \mathrm{H}^{i}(\mathbf{X}, \mathbf{Q}_{\ell})$. Si $n$ est impair, la forme $\operatorname{Tr}(x \cup y)$ sur $\mathrm{H}^{n}(\mathbf{X}, \mathbf{Q}_{\ell})$ est alternée; l'entier $n\chi(\mathbf{X})$ est donc toujours pair. On déduit facilement de (1.5.4) et de (2.3), (2.4) que
 
 $$
 Z (X _ {0}, t) = \varepsilon . q ^ {\frac {- n \chi (X)}{2}}. t ^ {- \chi (X)}. Z (X _ {0}, q ^ {- n} t ^ {- 1})
 $$
 
-où $\varepsilon = \pm 1$. Si $n$ est pair, notons N la multiplicité de la valeur propre $q^{n/2}$ de F\* agissant sur H$^{n}$(X, Q$_{t}$) (i.e. la dimension du sous-espace propre généralisé correspondant). On a
+où $\varepsilon = \pm 1$. Si $n$ est pair, notons N la multiplicité de la valeur propre $q^{n/2}$ de F\* agissant sur H$^{n}$(X, Q$_{\ell}$) (i.e. la dimension du sous-espace propre généralisé correspondant). On a
 
 $$
-\varepsilon = \left\{ \begin{array}{l l} \mathrm{I} & \text { si   } n \text {   est   impair } \\ (- \mathrm{I}) ^ {\mathrm{N}} & \text { si   } n \text {   est   pair. } \end{array} \right.
+\varepsilon = \left\{ \begin{array}{l l} 1 & \text { si   } n \text {   est   impair } \\ (- 1) ^ {\mathrm{N}} & \text { si   } n \text {   est   pair. } \end{array} \right.
 $$
 
 C'est là la formulation de Grothendieck de l'équation fonctionnelle des fonctions Z.
 
 (2.7) Nous aurons besoin d'autres formes du théorème de dualité. Le cas des courbes nous suffirait dans celles-ci. Si $\mathcal{F}$ est un $\mathbf{Q}_{\ell}$-faisceau sur une variété algébrique X sur $k$ algébriquement clos, nous noterons $\mathcal{F}(r)$ le faisceau $\mathcal{F} \otimes \mathbf{Q}_{\ell}(r)$. Ce faisceau est (non canoniquement) isomorphe à $\mathcal{F}$.
 
-Théorème (2.8). — Supposons X lisse purement de dimension n et F constant tordu. Soit  $F^{\sim}$  le dual de F. La forme bilinéaire
+Théorème (2.8). — Supposons X lisse purement de dimension n et $\mathcal{F}$ constant tordu. Soit  $\mathcal{F}^{\sim}$  le dual de $\mathcal{F}$. La forme bilinéaire
 
 $$
 \operatorname{Tr} (x \cup y): \mathrm{H} ^ {i} (\mathrm{X}, \mathcal {F}) \otimes \mathrm{H} _ {c} ^ {2 n - i} (\mathrm{X}, \mathcal {F} ^ {\vee} (n)) \rightarrow \mathrm{H} _ {c} ^ {2 n} (\mathrm{X}, \mathcal {F} \otimes \mathcal {F} ^ {\vee} (n)) \rightarrow \mathrm{H} _ {c} ^ {2 n} (\mathrm{X}, \mathbf {Q} _ {\ell} (n)) \rightarrow \mathbf {Q} _ {\ell}
@@ -363,7 +363,7 @@ $$
 
 est une dualité parfaite.
 
-(2.9) Supposons X connexe et soit x un point fermé de X. Le foncteur  $F \mapsto F_{x}$  est une équivalence de la catégorie des  $Q_{\ell}$ -faisceaux constants tordus avec celle des représentations  $\ell$ -adiques de  $\pi_{1}(X, x)$ . Via cette équivalence,  $H^{0}(X, \mathcal{F})$  s'identifie aux invariants de  $\pi_{1}(X, x)$  agissant dans  $F_{x}$ :
+(2.9) Supposons X connexe et soit x un point fermé de X. Le foncteur  $\mathcal{F} \mapsto \mathcal{F}_{x}$  est une équivalence de la catégorie des  $Q_{\ell}$ -faisceaux constants tordus avec celle des représentations  $\ell$ -adiques de  $\pi_{1}(X, x)$ . Via cette équivalence,  $H^{0}(X, \mathcal{F})$  s'identifie aux invariants de  $\pi_{1}(X, x)$  agissant dans  $\mathcal{F}_{x}$ :
 
 $$
 \mathrm{H} ^ {0} (\mathrm{X}, \mathcal {F}) \xrightarrow {\sim} \mathcal {F} _ {x} ^ {\pi_ {1} (\mathrm{X}, x)}.\tag{2.9.1}
@@ -383,51 +383,51 @@ $$
 
 Nous ne l'utiliserons que pour $n=1$.
 
-Scholie (2.10). — Soient X une courbe lisse et connexe sur k algébriquement clos, x un point fermé de X et F un Q\_faisceau constant tordu. On a
+Scholie (2.10). — Soient X une courbe lisse et connexe sur k algébriquement clos, x un point fermé de X et $\mathcal{F}$ un $Q_{\ell}$-faisceau constant tordu. On a
 
 (i) $\mathrm{H}_c^0 (\mathbf{X},\mathcal{F}) = 0$ si X est affine.
 
-(ii) $\mathrm{H}_c^2 (\mathbf{X},\mathcal{F}) = (\mathcal{F}_x)_{\pi_1(\mathbf{X},x)}(-\mathrm{I}).$
+(ii) $\mathrm{H}_c^2 (\mathbf{X},\mathcal{F}) = (\mathcal{F}_x)_{\pi_1(\mathbf{X},x)}(-1).$
 
 L'assertion (i) signifie simplement que $\mathcal{F}$ n'a pas de section à support fini.
 
-(2.11) Soient X une courbe projective, lisse et connexe sur k algébriquement clos, U un ouvert de X, complément d'un ensemble fini S de points fermés de X, j l'inclusion  $U \hookrightarrow X$  et F un  $Q_{t}$ -faisceau constant tordu sur U. Soit  $j_{*}F$  le  $Q_{t}$ -faisceau constructible image directe de F. Sa fibre en  $x \in S$  est de rang inférieur ou égal au rang
+(2.11) Soient X une courbe projective, lisse et connexe sur k algébriquement clos, U un ouvert de X, complément d'un ensemble fini S de points fermés de X, j l'inclusion  $U \hookrightarrow X$  et $\mathcal{F}$ un  $Q_{\ell}$ -faisceau constant tordu sur U. Soit  $j_{*}\mathcal{F}$  le  $Q_{\ell}$ -faisceau constructible image directe de $\mathcal{F}$. Sa fibre en  $x \in S$  est de rang inférieur ou égal au rang
 
 de sa fibre en un point général; c'est un espace d'invariants sous un groupe de monodromie locale.
 
 Théorème (2.12). — La forme bilinéaire
 
 $$
-\begin{array}{r l} \mathrm{Tr} (x \cup y): & \mathrm{H} ^ {i} (\mathrm{X}, j _ {*} \mathcal {F}) \otimes \mathrm{H} ^ {2 - i} (\mathrm{X}, j _ {*} \mathcal {F} ^ {\smile} (\mathrm{I})) \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} \mathcal {F} \otimes j _ {*} \mathcal {F} ^ {\smile} (\mathrm{I})) \\ & \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} (\mathcal {F} \otimes \mathcal {F} ^ {\smile}) (\mathrm{I})) \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} \mathbf {Q} _ {\ell} (\mathrm{I})) = \mathrm{H} ^ {2} (\mathrm{X}, \mathbf {Q} _ {\ell} (\mathrm{I})) \to \mathbf {Q} _ {\ell} \end{array}
+\begin{array}{r l} \mathrm{Tr} (x \cup y): & \mathrm{H} ^ {i} (\mathrm{X}, j _ {*} \mathcal {F}) \otimes \mathrm{H} ^ {2 - i} (\mathrm{X}, j _ {*} \mathcal {F} ^ {\vee} (1)) \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} \mathcal {F} \otimes j _ {*} \mathcal {F} ^ {\vee} (1)) \\ & \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} (\mathcal {F} \otimes \mathcal {F} ^ {\vee}) (1)) \to \mathrm{H} ^ {2} (\mathrm{X}, j _ {*} \mathbf {Q} _ {\ell} (1)) = \mathrm{H} ^ {2} (\mathrm{X}, \mathbf {Q} _ {\ell} (1)) \to \mathbf {Q} _ {\ell} \end{array}
 $$
 
 est une dualité parfaite.
 
-(2.13) Il nous sera commode de disposer des  $Q_{\ell}$ -faisceaux  $\mathbf{Q}_{\ell}(r)$  sur un quelconque schéma X où  $\ell$  est inversible. Le tout est de définir les  $\mathbf{Z}/\ell^{n}(\mathbf{i})$ . Par définition,  $\mathbf{Z}/\ell^{n}(\mathbf{i})$  est le faisceau étale des racines  $(\ell^{n})^{\mathrm{i}\mathrm{e}\mathrm{m}\mathrm{e}}$  de l'unité.
+(2.13) Il nous sera commode de disposer des  $Q_{\ell}$ -faisceaux  $\mathbf{Q}_{\ell}(r)$  sur un quelconque schéma X où  $\ell$  est inversible. Le tout est de définir les  $\mathbf{Z}/\ell^{n}(\mathbf{1})$ . Par définition,  $\mathbf{Z}/\ell^{n}(\mathbf{1})$  est le faisceau étale des racines  $(\ell^{n})^{\mathrm{i}\mathrm{e}\mathrm{m}\mathrm{e}}$  de l'unité.
 
 ## (2.14) Indications bibliographiques sur les §§ 1 et 2.
 
-A) Tous les résultats importants en cohomologie étale se démontrent d'abord pour des faisceaux de torsion. L'extension aux  $Q_{t}$ -faisceaux se fait par des passages à la limite formels. Dans ce qui suit, pour chaque théorème cité, je renverrai non point à une référence où il est démontré, mais à une référence où son analogue pour les faisceaux de torsion l'est.
+A) Tous les résultats importants en cohomologie étale se démontrent d'abord pour des faisceaux de torsion. L'extension aux  $Q_{\ell}$ -faisceaux se fait par des passages à la limite formels. Dans ce qui suit, pour chaque théorème cité, je renverrai non point à une référence où il est démontré, mais à une référence où son analogue pour les faisceaux de torsion l'est.
 
-B) A l'exception de la formule de Lefschetz et de (2.12), les résultats de cohomologie étale utilisés dans cet article sont tous démontrés dans SGA 4. Pour ceux déjà énoncés, les références sont : définition des H$^{i}$ : VII; définition des H$_{e}^{i}$ : XVII 5.1; théorème de finitude : XIV 1, complété en XVII 5.3; dimension cohomologique : X; dualité de Poincaré : XVIII.
+B) A l'exception de la formule de Lefschetz et de (2.12), les résultats de cohomologie étale utilisés dans cet article sont tous démontrés dans SGA 4. Pour ceux déjà énoncés, les références sont : définition des H$^{i}$ : VII; définition des H$_{c}^{i}$ : XVII 5.1; théorème de finitude : XIV 1, complété en XVII 5.3; dimension cohomologique : X; dualité de Poincaré : XVIII.
 
 C) La relation entre les divers Frobenius ((1.4), (1.11), (1.15)) est expliquée en détail dans SGA 5, XV, §§1, 2.
 
 D) L'interprétation cohomologique des fonctions Z (1.14.3) est clairement exposée dans [1]; toutefois, la formule de Lefschetz (1.12), pour X une courbe projective et lisse, y est utilisée, mais non démontrée. Pour la démonstration, il faut, hélas, renvoyer à SGA 5.
 
-E) La forme (2.12) du théorème de dualité de Poincaré résulte du résultat général SGA 4, XVIII (3.2.5) (pour $\mathbf{S} = \operatorname{Spec}(k)$, $\mathbf{X} = \mathbf{X}$, $\mathbf{K} = j_{*}\mathcal{F}$, $\mathbf{L} = \mathbf{Q}_{\ell}$) par un calcul local qui n'est pas difficile. L'énoncé figurera explicitement dans la version définitive de SGA 5. Dans le cas où nous l'utiliserons (ramification de $\mathcal{F}$ modérée), on pourrait l'obtenir par voie transcendante, en relevant $\mathbf{X}$ et $\mathcal{F}$ en caractéristique o.
+E) La forme (2.12) du théorème de dualité de Poincaré résulte du résultat général SGA 4, XVIII (3.2.5) (pour $\mathbf{S} = \operatorname{Spec}(k)$, $\mathbf{X} = \mathbf{X}$, $\mathbf{K} = j_{*}\mathcal{F}$, $\mathbf{L} = \mathbf{Q}_{\ell}$) par un calcul local qui n'est pas difficile. L'énoncé figurera explicitement dans la version définitive de SGA 5. Dans le cas où nous l'utiliserons (ramification de $\mathcal{F}$ modérée), on pourrait l'obtenir par voie transcendante, en relevant $\mathbf{X}$ et $\mathcal{F}$ en caractéristique 0.
 
 ## 3. La majoration fondamentale.
 
 Le résultat de ce paragraphe a été catalysé par la lecture de Rankin [3].
 
-(3.1) Soient  $U_{0}$  une courbe sur  $F_{q}$ , complément dans  $P^{1}$  d'un ensemble fini de points fermés, U la courbe sur  $\overline{F}_{q}$  qui s'en déduit, u un point fermé de U,  $F_{0}$  un  $Q_{\ell}$ -faisceau constant tordu sur  $U_{0}$  et F son image réciproque sur U.
+(3.1) Soient  $U_{0}$  une courbe sur  $F_{q}$ , complément dans  $P^{1}$  d'un ensemble fini de points fermés, U la courbe sur  $\overline{F}_{q}$  qui s'en déduit, u un point fermé de U,  $\mathcal{F}_{0}$  un  $Q_{\ell}$ -faisceau constant tordu sur  $U_{0}$  et $\mathcal{F}$ son image réciproque sur U.
 
-Soit $\beta\in\mathbf{Q}$. Nous dirons que $\mathcal{F}_{0}$ est de $poids$$\beta$ si pour tout $x\in|\mathrm{U}_{0}|$, les valeurs propres de $\mathrm{F}_{x}$ agissant sur $\mathcal{F}_{0}$ (1.13) sont des nombres algébriques dont tous les conjugués complexes sont de valeur absolue $q_{x}^{\beta/2}$. Par exemple, $\mathbf{Q}_{t}(r)$ est de poids $-2r$.
+Soit $\beta\in\mathbf{Q}$. Nous dirons que $\mathcal{F}_{0}$ est de poids $\beta$ si pour tout $x\in|\mathrm{U}_{0}|$, les valeurs propres de $\mathrm{F}_{x}$ agissant sur $\mathcal{F}_{0}$ (1.13) sont des nombres algébriques dont tous les conjugués complexes sont de valeur absolue $q_{x}^{\beta/2}$. Par exemple, $\mathbf{Q}_{\ell}(r)$ est de poids $-2r$.
 
 Théorème (3.2). — Faisons les hypothèses suivantes :
 
-(i)  $F_{0}$  est muni d'une forme bilinéaire alternée non dégénérée
+(i)  $\mathcal{F}_{0}$  est muni d'une forme bilinéaire alternée non dégénérée
 
 $$
 \psi : \mathcal {F} _ {0} \otimes \mathcal {F} _ {0} \rightarrow \mathbf {Q} _ {\ell} (- \beta) \quad (\beta \in \mathbf {Z}).
@@ -435,16 +435,16 @@ $$
 
 (ii) L'image de $\pi_1(\mathbf{U}, u)$ dans $\mathrm{GL}(\mathcal{F}_u)$ est un sous-groupe ouvert du groupe symplectique $\mathrm{Sp}(\mathcal{F}_u, \psi_u)$.
 
-(iii) Pour tout $x \in |\mathbf{U}_0|$, le polynôme $\det(\mathrm{i} - \mathrm{F}_x t, \mathcal{F}_0)$ est à coefficients rationnels.
+(iii) Pour tout $x \in |\mathbf{U}_0|$, le polynôme $\det(\mathrm{I} - \mathrm{F}_x t, \mathcal{F}_0)$ est à coefficients rationnels.
 
-Alors, F est de poids β.
+Alors, $\mathcal{F}$ est de poids β.
 
 On peut supposer, et nous supposerons, que U est affine et que $\mathcal{F} \neq 0$.
 
-Lemme (3.3). — Soit 2k un entier pair et notons $\otimes\mathcal{F}_{0}$ la puissance tensorielle $(2k)^{\mathrm{ieme}}$ de $\mathcal{F}_{0}$. Pour $x\in|U_{0}|$, la dérivée logarithmique
+Lemme (3.3). — Soit 2k un entier pair et notons $\overset{2k}{\otimes}\mathcal{F}_{0}$ la puissance tensorielle $(2k)^{\mathrm{ieme}}$ de $\mathcal{F}_{0}$. Pour $x\in|U_{0}|$, la dérivée logarithmique
 
 $$
-t \frac {d}{d t} \log (\det (\mathrm{i} - \mathrm{F} _ {x} t ^ {\deg (x)}, \overset {2 k} {\otimes} \mathcal {F} _ {0}) ^ {- 1})
+t \frac {d}{d t} \log (\det (\mathrm{I} - \mathrm{F} _ {x} t ^ {\deg (x)}, \overset {2 k} {\otimes} \mathcal {F} _ {0}) ^ {- 1})
 $$
 
 est une série formelle à coefficients rationnels positifs.
@@ -457,9 +457,9 @@ $$
 
 est donc rationnel positif, et on applique (1.5.3).
 
-Lemme (3.4). — Les facteurs locaux  $\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes_{2^{n}}\mathcal{F}_{0})^{-1}$  sont des séries formelles à coefficients rationnels positifs.
+Lemme (3.4). — Les facteurs locaux  $\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  sont des séries formelles à coefficients rationnels positifs.
 
-La série formelle  $\log\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes\mathcal{F}_{0})^{-1}$  est sans terme constant; d'après (3.3), ses coefficients sont  $\geq0$ ; les coefficients de son exponentielle sont donc également positifs.
+La série formelle  $\log\det(\mathrm{I}-\mathrm{F}_{x}t^{\deg(x)},\bigotimes^{2k}\mathcal{F}_{0})^{-1}$  est sans terme constant; d'après (3.3), ses coefficients sont  $\geq0$ ; les coefficients de son exponentielle sont donc également positifs.
 
 Lemme (3.5). — Soit $f_i = \sum_{n} a_{i,n} t^n$ une suite de séries formelles de terme constant un, et à coefficients réels positifs. On suppose que l'ordre de $f_i - 1$ tend vers l'infini avec $i$, et on pose $f = \prod_{i} f_i$. Alors, le rayon de convergence absolue de $f_i$ est au moins égal à celui de $f$.
 
@@ -490,19 +490,19 @@ $$
 Soit N le nombre d'éléments de $\mathcal{P}'$. D'après (2.10), la formule ci-dessus donne
 
 $$
-\mathrm{H} _ {c} ^ {2} (\mathbf {U}, \stackrel {{2 k}} {\otimes} \mathcal {F}) \simeq \mathbf {Q} _ {\ell} (- k \beta - \mathrm{i}) ^ {\mathrm{N}}.
+\mathrm{H} _ {c} ^ {2} (\mathbf {U}, \stackrel {{2 k}} {\otimes} \mathcal {F}) \simeq \mathbf {Q} _ {\ell} (- k \beta - 1) ^ {\mathrm{N}}.
 $$
 
-Puisque $\mathrm{H}_c^0 (\mathbf{U},\bigotimes^{\mathcal{A}\mathfrak{n}}\mathcal{F}) = 0$ , la formule (1.14.3) se réduit à
+Puisque $\mathrm{H}_c^0 (\mathbf{U},\bigotimes^{2k}\mathcal{F}) = 0$ , la formule (1.14.3) se réduit à
 
 $$
-Z (U _ {0}, \overset {2 k} {\otimes} \mathcal {F} _ {0}, t) = \frac {\det (\mathrm{I} - F ^ {*} t , H ^ {1} (U , \overset {2 k} {\otimes} \mathcal {F}))}{(\mathrm{I} - q ^ {k \beta + 1} t) ^ {N}}.
+Z (U _ {0}, \overset {2 k} {\otimes} \mathcal {F} _ {0}, t) = \frac {\det (\mathrm{I} - F ^ {*} t , H ^ {1} (U , \overset {2 k} {\otimes} \mathcal {F}))}{(1 - q ^ {k \beta + 1} t) ^ {N}}.
 $$
 
-Cette fonction $Z$ est donc le développement en série de Taylor d'une fonction rationnelle n'ayant de pôle qu'en $t = \mathrm{i} / q^{k\beta + 1}$. Nous utiliserons seulement le fait que les pôles sont de valeur absolue $\mathrm{i} / q^{k\beta + 1}$ dans $\mathbf{C}$. Cela pourrait se déduire d'arguments généraux sur les groupes réductifs. Si $\alpha$ est une valeur propre de $F_x$ sur $\mathcal{F}_0$, alors $\alpha^{2k}$ est une valeur propre de $F_x$ sur $\bigotimes_{2k} \mathcal{F}_0$. Notons encore $\alpha$ un quelconque conjugué complexe de $\alpha$. La puissance inverse $\mathrm{i} / \alpha^{2k/\deg(x)}$ est un pôle de $\det(\mathrm{i} - \mathrm{F}_x t^{\deg(x)}, \bigotimes_{2k} \mathcal{F})^{-1}$. D'après (3.4) et (3.6), on a donc
+Cette fonction $Z$ est donc le développement en série de Taylor d'une fonction rationnelle n'ayant de pôle qu'en $t = 1 / q^{k\beta + 1}$. Nous utiliserons seulement le fait que les pôles sont de valeur absolue $1 / q^{k\beta + 1}$ dans $\mathbf{C}$. Cela pourrait se déduire d'arguments généraux sur les groupes réductifs. Si $\alpha$ est une valeur propre de $F_x$ sur $\mathcal{F}_0$, alors $\alpha^{2k}$ est une valeur propre de $F_x$ sur $\bigotimes^{2k} \mathcal{F}_0$. Notons encore $\alpha$ un quelconque conjugué complexe de $\alpha$. La puissance inverse $1 / \alpha^{2k/\deg(x)}$ est un pôle de $\det(\mathrm{I} - \mathrm{F}_x t^{\deg(x)}, \bigotimes^{2k} \mathcal{F})^{-1}$. D'après (3.4) et (3.6), on a donc
 
 $$
-\left| \mathrm{I} / q ^ {k \beta + 1} \right| \leq \left| \mathrm{I} / \alpha^ {2 k / \deg (x)} \right|,
+\left| 1 / q ^ {k \beta + 1} \right| \leq \left| 1 / \alpha^ {2 k / \deg (x)} \right|,
 $$
 
 soit
@@ -540,17 +540,17 @@ $$
 La formule (1.14.3) pour $\mathcal{F}_{0}$ se réduit à
 
 $$
-\mathbf {Z} (\mathrm{U} _ {0}, \mathcal {F} _ {0}, t) = \det (\mathrm{i} - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F})).
+\mathbf {Z} (\mathrm{U} _ {0}, \mathcal {F} _ {0}, t) = \det (\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F})).
 $$
 
 Le premier membre est une série formelle à coefficients rationnels, vu son développement en produit et l'hypothèse (iii). Le second membre est donc un polynôme à coefficients rationnels;  $1/\alpha$  en est racine. Ceci prouve déjà que  $\alpha$  est algébrique. Pour achever la démonstration, il suffit de vérifier que le produit infini qui définit  $Z(U_{0},\mathcal{F}_{0},t)$  converge
 
 absolument (donc est non nul) pour $|t| < q^{\frac{-\beta}{2} - 1}$.
 
-Soit N le rang de F, et posons
+Soit N le rang de $\mathcal{F}$, et posons
 
 $$
-\det (\mathrm{I} - \mathrm{F} _ {x} t, \mathcal {F}) = \prod_ {i = 1} ^ {\mathrm{N}} (\mathrm{I} - \alpha_ {i, x} t).
+\det (\mathrm{I} - \mathrm{F} _ {x} t, \mathcal {F}) = \prod_ {i = 1} ^ {\mathrm{N}} (1 - \alpha_ {i, x} t).
 $$
 
 D'après (3.2), $|\alpha_{i,x}| = q_x^{\beta/2}$. La convergence du produit infini Z résulte de celle de la série
@@ -585,7 +585,7 @@ $$
 0 \rightarrow j _ {!} \mathcal {F} \rightarrow j _ {*} \mathcal {F} \rightarrow j _ {*} \mathcal {F} / j _ {!} \mathcal {F} \rightarrow 0
 $$
 
-$(j_{!}=\text{prolongement par o}) \text{s'écrit}$
+$(j_{!}=\text{prolongement par 0}) \text{s'écrit}$
 
 $$
 \mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F}) \rightarrow \mathrm{H} ^ {1} (\mathbf {P} ^ {1}, j _ {*} \mathcal {F}) \rightarrow 0.
@@ -627,7 +627,7 @@ $$
 \mathrm{H} ^ {i} (\mathrm{X} _ {0}, \mathbf {Z}) \stackrel {{\sim}} {{\leftarrow}} \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Z}) \rightarrow \mathrm{H} ^ {i} (\mathrm{X} _ {t}, \mathbf {Z});
 $$
 
-β) des transformations de monodromie T: H$^{i}$(X$_{t}$, Z) → H$^{i}$(X$_{t}$, Z), qui décrivent l'effet sur les cycles singuliers de X$_{t}$ de « faire tourner t autour de o ». C'est encore l'action sur H$^{i}$(X$_{t}$, Z), fibre en t du système local R$^{i}$f$_{*}$Z|D\*, du générateur positif de $\pi_{1}$(D\*, t).
+β) des transformations de monodromie T: H$^{i}$(X$_{t}$, Z) → H$^{i}$(X$_{t}$, Z), qui décrivent l'effet sur les cycles singuliers de X$_{t}$ de « faire tourner t autour de 0 ». C'est encore l'action sur H$^{i}$(X$_{t}$, Z), fibre en t du système local R$^{i}$f$_{*}$Z|D\*, du générateur positif de $\pi_{1}$(D\*, t).
 
 La théorie de Lefschetz décrit $\alpha$ et $\beta$ en terme du cycle évanescent $\delta\in\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$. Ce cycle est bien défini au signe près. Pour $i\neq n$, $n+1$, on a
 
@@ -650,7 +650,7 @@ $$
 Les valeurs de ce ±, de Tδ, et de (δ, δ) sont les suivantes :
 
 $$
-\begin{array}{l l l l l} n \bmod 4 & \text {0} & \text {I} & 2 & 3 \\ \mathrm{T} x = x \pm (x, \delta) \delta & - & - & + & + \\ (\delta , \delta) & 2 & 0 & - 2 & 0 \\ \mathrm{T} \delta & - \delta & \delta & - \delta & \delta \end{array}
+\begin{array}{l l l l l} n \bmod 4 & \text {0} & \text {1} & 2 & 3 \\ \mathrm{T} x = x \pm (x, \delta) \delta & - & - & + & + \\ (\delta , \delta) & 2 & 0 & - 2 & 0 \\ \mathrm{T} \delta & - \delta & \delta & - \delta & \delta \end{array}
 $$
 
 La transformation de monodromie T respecte la forme d'intersection  $\mathrm{Tr}(x\cup y)$  sur  $\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$ . Pour n impair, c'est une transvection symplectique. Pour n pair, c'est une symétrie orthogonale.
@@ -660,7 +660,7 @@ La transformation de monodromie T respecte la forme d'intersection  $\mathrm{Tr}
 Soit $f: \mathbf{X} \to \mathbf{S}$ un morphisme propre, avec $\mathbf{X}$ régulier purement de dimension $n+1$. On suppose $f$ lisse, sauf pour un point quadratique ordinaire $x$ dans la fibre spéciale $\mathbf{X}_s$. Soit $\ell$ un nombre premier différent de la caractéristique résiduelle $p$ de S. Notant $\mathbf{X}_{\overline{\eta}}$ la fibre générique géométrique, on dispose encore d'un morphisme de spécialisation
 
 $$
-s p: \mathrm{H} ^ {i} (\mathrm{X} _ {s}, \mathbf {Q} _ {\ell}) \precsim \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}) \rightarrow \mathrm{H} ^ {i} (\mathrm{X} _ {\overline {{\eta}}}, \mathbf {Q} _ {\ell}).\tag{4.2.1}
+s p: \mathrm{H} ^ {i} (\mathrm{X} _ {s}, \mathbf {Q} _ {\ell}) \stackrel {{\sim}} {{\leftarrow}} \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}) \rightarrow \mathrm{H} ^ {i} (\mathrm{X} _ {\overline {{\eta}}}, \mathbf {Q} _ {\ell}).\tag{4.2.1}
 $$
 
 Le rôle de T est joué par l'action du groupe d'inertie  $\mathbf{I}=\mathbf{Gal}(\overline{\eta}/\eta)$ , agissant sur  $\mathbf{H}^{i}(\mathbf{X}_{\overline{\eta}},\mathbf{Q}_{\ell})$  par transport de structure (cf. (1.15)):
@@ -696,7 +696,7 @@ L'action (4.2.2) de I (la monodromie locale) est triviale si $i \neq n$. Pour $i
 A) n impair. — On dispose d'un homomorphisme canonique
 
 $$
-t _ {\ell}: \mathbf {I} \rightarrow \mathbf {Z} _ {\ell} (\mathrm{I}),
+t _ {\ell}: \mathbf {I} \rightarrow \mathbf {Z} _ {\ell} (1),
 $$
 
 et l'action de $\sigma\in\mathbf{I}$ est
@@ -710,13 +710,13 @@ $$
 B) n pair. — Ce cas ne nous servira pas. Disons seulement que, si  $p \neq 2$ , il existe un unique caractère d'ordre deux
 
 $$
-\varepsilon : \mathrm{I} \rightarrow \{\pm \mathrm{I} \},
+\varepsilon : \mathrm{I} \rightarrow \{\pm 1 \},
 $$
 
 et qu'on a
 
 $$
-\begin{array}{l l l} \sigma x = x & \text { si } & \varepsilon (\sigma) = \mathrm{I} \\ \sigma x = x \pm (x, \delta) \delta & \text { si } & \varepsilon (\sigma) = - \mathrm{I}. \end{array}
+\begin{array}{l l l} \sigma x = x & \text { si } & \varepsilon (\sigma) = 1 \\ \sigma x = x \pm (x, \delta) \delta & \text { si } & \varepsilon (\sigma) = - 1. \end{array}
 $$
 
 Les signes ± dans A) et B) sont les mêmes qu'en (4.1).
@@ -747,7 +747,7 @@ $\mathrm{ou} j_{*}j^{*}\mathbf{R}^{n + 1}f_{*}\mathbf{Q}_{\ell}$ est un faisceau
 
 ## 5. La théorie de Lefschetz : théorie globale.
 
-(5.1) Sur C, les résultats de Lefschetz sont les suivants. Soient P un espace projectif de dimension  $\geq1$ , et  $\check{P}$  l'espace projectif dual; ses points paramétrisent les hyperplans de P, et on note  $H_{t}$  l'hyperplan défini par  $t\in\check{P}$ . Si A est un sous-espace linéaire de codimension 2 de P, les hyperplans contenant A sont paramétrés par les points d'une droite  $D\subset\check{P}$ , la duale de A. Ces hyperplans  $(\mathrm{H}_{t})_{t\in\mathbb{D}}$  forment le pinceau d'axe A.
+(5.1) Sur C, les résultats de Lefschetz sont les suivants. Soient P un espace projectif de dimension  $\geq1$ , et  $\check{P}$  l'espace projectif dual; ses points paramétrisent les hyperplans de P, et on note  $H_{t}$  l'hyperplan défini par  $t\in\check{P}$ . Si A est un sous-espace linéaire de codimension 2 de P, les hyperplans contenant A sont paramétrés par les points d'une droite  $D\subset\check{P}$ , la duale de A. Ces hyperplans  $(\mathrm{H}_{t})_{t\in D}$  forment le pinceau d'axe A.
 
 Soit $X \subset P$ une variété projective non singulière connexe et de dimension $n + 1$. Soit $\widetilde{X} \subset X \times D$ l'ensemble des couples $(x, t)$ tels que $x \in H_t$. Les applications première et seconde coordonnée forment un diagramme
 
@@ -789,13 +789,13 @@ Théorème (5.4). — Les cycles évanescents ±δs (pris au signe près) sont c
 
 Soit $\check{\mathbf{X}}\subset\check{\mathbf{P}}$ la variété duale de $\mathbf{X}$: c'est l'ensemble des $t\in\check{\mathbf{P}}$ tels que $\mathbf{H}_{t}$ soit tangent à $\mathbf{X}$, i.e. tels que $\mathbf{X}_{t}$ soit singulier, ou que $\mathbf{X}\subset\mathbf{H}_{t}$. La variété $\check{\mathbf{X}}$ est irré-
 
-ductible. Soit  $Y \subset X \times P$  l'espace des couples  $(x, t)$  tels que  $x \in H_{t}$ . On dispose d'un diagramme
+ductible. Soit  $Y \subset X \times \check{P}$  l'espace des couples  $(x, t)$  tels que  $x \in H_{t}$ . On dispose d'un diagramme
 
 $$
 \begin{array}{c} \text {X} \leftarrow \text {Y} \\ \Big \downarrow_ {g} \\ \check {\mathbf {P}} \end{array}
 $$
 
-La fibre de $g$ en $t\in\breve{\mathbf{P}}$ est la section hyperplane $\mathbf{X}_{t}=\mathbf{X}\cap\mathbf{H}_{t}$ de $\mathbf{X}$, et $g$ est lisse en dehors de l'image réciproque de $\breve{\mathbf{X}}$.
+La fibre de $g$ en $t\in\check{\mathbf{P}}$ est la section hyperplane $\mathbf{X}_{t}=\mathbf{X}\cap\mathbf{H}_{t}$ de $\mathbf{X}$, et $g$ est lisse en dehors de l'image réciproque de $\check{\mathbf{X}}$.
 
 On retrouve la situation de (5.1) en remplaçant  $\check{P}$  par une droite  $D\subset\check{P}$  et Y par  $g^{-1}(D)$ . On a  $S=D\cap\check{X}$ . D'après un théorème de Lefschetz, pour D assez générale, l'application
 
@@ -803,7 +803,7 @@ $$
 \pi_ {1} (\mathbf {D} - \mathbf {S}, u) \rightarrow \pi_ {1} (\check {\mathbf {P}} - \check {\mathbf {X}}, u)
 $$
 
-est surjective. Il suffit donc de montrer que les  $\pm\delta_{s}$  sont conjugués sous  $\pi_{1}(\breve{\mathbf{P}}-\breve{\mathbf{X}})$ .
+est surjective. Il suffit donc de montrer que les  $\pm\delta_{s}$  sont conjugués sous  $\pi_{1}(\check{\mathbf{P}}-\check{\mathbf{X}})$ .
 
 Pour $x$ dans le lieu lisse de codimension 1 de $\check{\mathbf{X}}$, soient $ch$ un chemin de $t$ à $x$ dans $\check{\mathbf{P}} - \check{\mathbf{X}}$, et $\gamma_x$ le lacet qui suit $ch$ jusqu'au voisinage de $\check{\mathbf{X}}$, tourne une fois autour de $\check{\mathbf{X}}$, puis revient à $t$ par $ch$. Les lacets $\gamma_x$ (pour $ch$ variable) sont conjugués entre eux. Puisque $\check{\mathbf{X}}$ est irréductible, deux points du lieu lisse de $\check{\mathbf{X}}$ peuvent toujours, dans $\check{\mathbf{X}}$, être joints par un chemin qui ne quitte pas le lieu lisse. Il en résulte que la classe de conjugaison de $\gamma_x$ ne dépend pas de $x$. En particulier, les $\gamma_s$ sont conjugués entre eux. On lit sur (5.2.1) que ceci implique la conjugaison des $\pm \delta_s$.
 
@@ -819,7 +819,7 @@ et $\delta_s \in \mathbf{F}$. D'après (5.4), tous les $\delta_s$ sont alors dan
 
 (5.6) Ces résultats se transposent comme suit en géométrie algébrique abstraite.
 
-Soient $\mathbf{P}$ un espace projectif de dimension $>1$ sur $k$ algébriquement clos de caractéristique $p$ et $\mathbf{X} \subset \mathbf{P}$ une variété projective non singulière connexe et de dimension $n+1$. Pour A un sous-espace linéaire de $\mathbf{P}$ de codimension 2, on définit comme en (5.1) D et le pinceau $(\mathbf{H}_t)_{t \in \mathbb{D}}$, les $\mathbf{X}_t$, $\widetilde{\mathbf{X}}$ et le diagramme (5.1.1). On dit que les $(\mathbf{X}_t)_{t \in \mathbb{D}}$ forment un pinceau de Lefschetz de sections hyperplanes si les conditions suivantes sont vérifiées :
+Soient $\mathbf{P}$ un espace projectif de dimension $>1$ sur $k$ algébriquement clos de caractéristique $p$ et $\mathbf{X} \subset \mathbf{P}$ une variété projective non singulière connexe et de dimension $n+1$. Pour A un sous-espace linéaire de $\mathbf{P}$ de codimension 2, on définit comme en (5.1) D et le pinceau $(\mathbf{H}_t)_{t \in D}$, les $\mathbf{X}_t$, $\widetilde{\mathbf{X}}$ et le diagramme (5.1.1). On dit que les $(\mathbf{X}_t)_{t \in D}$ forment un pinceau de Lefschetz de sections hyperplanes si les conditions suivantes sont vérifiées :
 
 A) L'axe A est transverse à X. L'espace  $\tilde{X}$  se déduit alors de X par éclatement de  $A \cap X$ , et est lisse.
 
@@ -833,7 +833,7 @@ Pour chaque $s\in\mathbf{S}$, la théorie de Lefschetz locale du § 4 s'applique
 
 Si $p \neq 0$, il se peut qu'aucun pinceau de sections hyperplanes de X ne soit de Lefschetz. Toutefois, si $r \geq 2$ et qu'on remplace le plongement projectif donné $\iota_1: X \hookrightarrow P$ par $\iota_r = \iota_{(r)} \circ \iota_1$, alors, dans ce nouveau plongement, tout pinceau assez général est de Lefschetz. En d'autres termes, si $r \geq 2$, un pinceau assez général de sections hypersurfaces de degré $r$ de X est toujours de Lefschetz.
 
-(5.8) Dans la suite de cette discussion, nous étudions un pinceau de Lefschetz de sections hyperplanes de X, en excluant le cas $p=2$, n pair. Le cas où n est impair nous suffirait pour la suite. On pose U=D-S. Soient $u\in U$ et $\ell$ un nombre premier $\neq p$. Les résultats locaux du § 4 montrent que R$^{n}$f$_{*}$Q$_{\ell}$ est modérément ramifié en chaque $s\in S$. Le groupe fondamental modéré de U est un quotient du complété profini du groupe fondamental transcendant analogue (relèvement en caractéristique o des revêtements modérés, et théorème d'existence de Riemann). La situation algébrique est dès lors toute pareille à la situation transcendante, et la transposition de résultats de Lefschetz se fait par des arguments standards. Dans la démonstration de (5.4), le théorème de Lefschetz sur les $\pi_{1}$ devient le théorème de Bertini, et on doit invoquer le lemme d'Abhyankar pour contrôler la ramification de R$^{•}$g$_{*}$Q$_{\ell}$ le long du lieu lisse de codimension un de $\check{X}$.
+(5.8) Dans la suite de cette discussion, nous étudions un pinceau de Lefschetz de sections hyperplanes de X, en excluant le cas $p=2$, n pair. Le cas où n est impair nous suffirait pour la suite. On pose U=D-S. Soient $u\in U$ et $\ell$ un nombre premier $\neq p$. Les résultats locaux du § 4 montrent que R$^{n}$f$_{*}$Q$_{\ell}$ est modérément ramifié en chaque $s\in S$. Le groupe fondamental modéré de U est un quotient du complété profini du groupe fondamental transcendant analogue (relèvement en caractéristique 0 des revêtements modérés, et théorème d'existence de Riemann). La situation algébrique est dès lors toute pareille à la situation transcendante, et la transposition de résultats de Lefschetz se fait par des arguments standards. Dans la démonstration de (5.4), le théorème de Lefschetz sur les $\pi_{1}$ devient le théorème de Bertini, et on doit invoquer le lemme d'Abhyankar pour contrôler la ramification de R$^{•}$g$_{*}$Q$_{\ell}$ le long du lieu lisse de codimension un de $\check{X}$.
 
 Les résultats sont les suivants.
 
@@ -847,7 +847,7 @@ $$
 \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell} = j _ {*} j ^ {*} \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}.
 $$
 
-3) Soit $\mathbf{E} \subset \mathbf{H}^n(\mathbf{X}_u, \mathbf{Q}_t)$ le sous-espace de la cohomologie engendré par les cycles évanescents. Ce sous-espace est stable sous $\pi_1(\mathbf{U}, u)$, et
+3) Soit $\mathbf{E} \subset \mathbf{H}^n(\mathbf{X}_u, \mathbf{Q}_{\ell})$ le sous-espace de la cohomologie engendré par les cycles évanescents. Ce sous-espace est stable sous $\pi_1(\mathbf{U}, u)$, et
 
 $$
 \mathbf {E} ^ {\perp} = \mathrm{H} ^ {n} (\mathrm{X} _ {u}, \mathbf {Q} _ {\ell}) ^ {\pi_ {1} (\mathrm{U}, u)}.
@@ -893,7 +893,7 @@ $$
 
 et que  $\mathbf{E}/(\mathbf{E}\cap\mathbf{E}^{\perp})$  est une représentation absolument irréductible de L. Le théorème résulte du lemme suivant.
 
-Lemme (5.11). — Soient V un espace vectoriel de dimension finie sur un corps k de caractéristique o, $\psi$ une forme alternée non dégénérée et $\mathfrak{L}$ une sous-algèbre de Lie de $\mathfrak{sp}(V,\psi)$. On suppose que :
+Lemme (5.11). — Soient V un espace vectoriel de dimension finie sur un corps k de caractéristique 0, $\psi$ une forme alternée non dégénérée et $\mathfrak{L}$ une sous-algèbre de Lie de $\mathfrak{sp}(V,\psi)$. On suppose que :
 
 (i) V est une représentation simple de L.
 
@@ -918,7 +918,7 @@ $$
 $H^{2i}(\bar{X}_{0},\mathbf{Q}_{\ell}(i))$ est engendré par la $i^{\text{ème}}$ cup-puissance de $\eta$, la classe de cohomologie $c_{1}(\mathcal{O}(1))$ d'une section hyperplane. On a donc
 
 $$
-\mathrm{Z} \left(\mathrm{X} _ {0}, t\right) = \det \left(\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} ^ {n} \left(\overline {{\mathrm{X}}} _ {0}, \mathbf {Q} _ {\ell}\right)\right) / \prod_ {i = 0} ^ {n} (\mathrm{I} - q ^ {i} t)
+\mathrm{Z} \left(\mathrm{X} _ {0}, t\right) = \det \left(\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} ^ {n} \left(\overline {{\mathrm{X}}} _ {0}, \mathbf {Q} _ {\ell}\right)\right) / \prod_ {i = 0} ^ {n} (1 - q ^ {i} t)
 $$
 
 et  $\det(\mathrm{I}-\mathrm{F}^{*}t,\mathrm{H}^{n}(\overline{\mathbf{X}}_{0},\mathbf{Q}_{\ell}))$  est un polynôme à coefficients entiers indépendants de  $\ell$ .
@@ -933,11 +933,11 @@ B) Les résultats du § 4 sont démontrés dans les exposés XIII, XIV et XV de 
 
 C) (5.7) est démontré dans SGA 7, XVII.
 
-D) (5.8) est démontré dans SGA 7, XVIII. Le théorème d'irréductibilité y est démontré pour E, mais seulement sous l'hypothèse que $\mathbf{E} \cap \mathbf{E}^{\perp} = \{\mathbf{o}\}$. La démonstration dans le cas général (pour $\mathbf{E}/(\mathbf{E} \cap \mathbf{E}^{\perp})$) est pareille.
+D) (5.8) est démontré dans SGA 7, XVIII. Le théorème d'irréductibilité y est démontré pour E, mais seulement sous l'hypothèse que $\mathbf{E} \cap \mathbf{E}^{\perp} = \{\mathbf{0}\}$. La démonstration dans le cas général (pour $\mathbf{E}/(\mathbf{E} \cap \mathbf{E}^{\perp})$) est pareille.
 
 ## 6. Un théorème de rationalité.
 
-(6.1) Soient  $P_{0}$  un espace projectif de dimension  $\geq r$  sur  $F_{q}$ ,  $X_{0} \subset P_{0}$  une variété projective non singulière,  $A_{0} \subset P_{0}$  un sous-espace linéaire de codimension deux,  $D_{0} \subset \check{P}_{0}$  la droite duale,  $\overline{F}_{q}$  une clôture algébrique de  $F_{q}$  et P, X, A, D sur  $\overline{F}_{q}$  déduits de  $P_{0}$ ,  $X_{0}$ ,
+(6.1) Soient  $P_{0}$  un espace projectif de dimension  $\geq 1$  sur  $F_{q}$ ,  $X_{0} \subset P_{0}$  une variété projective non singulière,  $A_{0} \subset P_{0}$  un sous-espace linéaire de codimension deux,  $D_{0} \subset \check{P}_{0}$  la droite duale,  $\overline{F}_{q}$  une clôture algébrique de  $F_{q}$  et P, X, A, D sur  $\overline{F}_{q}$  déduits de  $P_{0}$ ,  $X_{0}$ ,
 
 295
 
@@ -947,9 +947,9 @@ $$
 \begin{array}{c} \mathrm{X} _ {0} \xleftarrow {\pi_ {0}} \widetilde {\mathrm{X}} _ {0} \\ \Big \downarrow f _ {0} \\ \mathrm{D} _ {0} \end{array}\tag{6.1.1}
 $$
 
-On suppose que X est connexe de dimension paire  $n+1=2m+2$ , et que le pinceau  $(\mathbf{X}_{t})_{t\in\mathbb{D}}$  de sections hyperplanes de X défini par D est un pinceau de Lefschetz. L'ensemble S des  $t\in D$  tels que  $X_{t}$  soit singulier est défini sur  $F_{q}$ , i.e. provient de  $S_{0}\subset D_{0}$ . On pose  $U_{0}=D_{0}-S_{0}$  et U=D-S.
+On suppose que X est connexe de dimension paire  $n+1=2m+2$ , et que le pinceau  $(\mathbf{X}_{t})_{t\in D}$  de sections hyperplanes de X défini par D est un pinceau de Lefschetz. L'ensemble S des  $t\in D$  tels que  $X_{t}$  soit singulier est défini sur  $F_{q}$ , i.e. provient de  $S_{0}\subset D_{0}$ . On pose  $U_{0}=D_{0}-S_{0}$  et U=D-S.
 
-Soit $u\in\mathbf{U}$. La partie évanescente de la cohomologie $\mathbf{E}\subset\mathbf{H}^{n}(\mathbf{X}_{u},\mathbf{Q}_{t})$ est stable sous $\pi_{1}(\mathbf{U},u)$, donc définit sur U un sous-système local $\mathcal{E}$ de $\mathbf{R}^{n}f_{*}\mathbf{Q}_{t}$. Ce dernier est défini sur $\mathbf{F}_{q}:\mathbf{R}^{i}f_{*}\mathbf{Q}_{t}$ est l'image réciproque du $\mathbf{Q}_{t}$-faisceau $\mathbf{R}^{i}f_{0*}\mathbf{Q}_{t}$ sur $\mathbf{D}_{0}$, et, sur U, $\mathcal{E}$ est l'image réciproque d'un sous-système local
+Soit $u\in\mathbf{U}$. La partie évanescente de la cohomologie $\mathbf{E}\subset\mathbf{H}^{n}(\mathbf{X}_{u},\mathbf{Q}_{\ell})$ est stable sous $\pi_{1}(\mathbf{U},u)$, donc définit sur U un sous-système local $\mathcal{E}$ de $\mathbf{R}^{n}f_{*}\mathbf{Q}_{\ell}$. Ce dernier est défini sur $\mathbf{F}_{q}:\mathbf{R}^{i}f_{*}\mathbf{Q}_{\ell}$ est l'image réciproque du $\mathbf{Q}_{\ell}$-faisceau $\mathbf{R}^{i}f_{0*}\mathbf{Q}_{\ell}$ sur $\mathbf{D}_{0}$, et, sur U, $\mathcal{E}$ est l'image réciproque d'un sous-système local
 
 $$
 \mathcal {E} _ {0} \subset \mathrm{R} ^ {n} f _ {0 *} \mathbf {Q} _ {\ell}.
@@ -969,7 +969,7 @@ $$
 
 Théorème (6.2). — Pour tout  $x \in |U_{0}|$ , le polynôme  $\det(\mathrm{I}-\mathrm{F}_{x}^{*}t, \mathcal{E}_{0}/(\mathcal{E}_{0} \cap \mathcal{E}_{0}^{\perp}))$  est à coefficients rationnels.
 
-Corollaire (6.3). — Soiert $j_{0}$ l'inclusion de $\mathbf{U}_{0}$ dans $\mathbf{D}_{0}$, et $j$ celle de $\mathbf{U}$ dans $\mathbf{D}$. Les valeurs propres de $\mathbf{F}^{*}$ agissant sur $\mathrm{H}^{1}(\mathrm{D}, j_{*}\mathcal{E}/(\mathcal{E} \cap \mathcal{E}^{\perp}))$ sont des nombres algébriques dont tous les conjugués complexes $\alpha$ vérifient
+Corollaire (6.3). — Soient $j_{0}$ l'inclusion de $\mathbf{U}_{0}$ dans $\mathbf{D}_{0}$, et $j$ celle de $\mathbf{U}$ dans $\mathbf{D}$. Les valeurs propres de $\mathbf{F}^{*}$ agissant sur $\mathrm{H}^{1}(\mathrm{D}, j_{*}\mathcal{E}/(\mathcal{E} \cap \mathcal{E}^{\perp}))$ sont des nombres algébriques dont tous les conjugués complexes $\alpha$ vérifient
 
 $$
 q ^ {\frac {n + 1}{2} - \frac {1}{2}} \leq | \alpha | \leq q ^ {\frac {n + 1}{2} + \frac {1}{2}}.
@@ -980,13 +980,13 @@ D'après (5.10) et (6.2), les hypothèses de (3.2) sont en effet vérifiées par
 Lemme (6.4). — Soit $\mathcal{G}_{0}$ un $\mathbf{Q}_{\ell}$-faisceau constant tordu sur $\mathbf{U}_{0}$, tel que son image réciproque $\mathcal{G}$ sur U soit un faisceau constant. Il existe alors dans $\overline{\mathbf{Q}}_{\ell}$ des unités $\alpha_{i}$ telles que, pour tout $x\in|\mathbf{U}_{0}|$, on ait
 
 $$
-\det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {G} _ {0}) = \prod_ {i} (\mathrm{I} - \alpha_ {i} ^ {\deg (x)} t).
+\det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {G} _ {0}) = \prod_ {i} (1 - \alpha_ {i} ^ {\deg (x)} t).
 $$
 
 Ce lemme exprime que $\mathcal{G}_{0}$ est l'image réciproque d'un faisceau sur $\operatorname{Spec}(\mathbf{F}_{q})$, à savoir son image directe sur $\operatorname{Spec}(\mathbf{F}_{q})$. Ce dernier s'identifie à une représentation $\ell$-adique $\mathbf{G}_{0}$ de $\operatorname{Gal}(\overline{\mathbf{F}}_{q}/\mathbf{F}_{q})$, et on prend
 
 $$
-\det (\mathrm{I} - \mathrm{F} t, \mathrm{G} _ {0}) = \prod_ {i} (\mathrm{I} - \alpha_ {i} t).
+\det (\mathrm{I} - \mathrm{F} t, \mathrm{G} _ {0}) = \prod_ {i} (1 - \alpha_ {i} t).
 $$
 
 Le lemme (6.4) s'applique aux $\mathbf{R}^i f_{0*}\mathbf{Q}_\ell$ ($i\neq n$), à $\mathbf{R}^n f_{0*}\mathbf{Q}_\ell/\mathcal{E}_0$ et à $\mathcal{E}_0\cap\mathcal{E}_0^\perp$.
@@ -1009,27 +1009,26 @@ $$
 Z ^ {m} = \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {E} _ {0} / (\mathcal {E} _ {0} \cap \mathcal {E} _ {0} ^ {\perp})).
 $$
 
-Posons $\mathcal{F}_{0}=\mathcal{E}_{0}/(\mathcal{E}_{0}\cap\mathcal{E}_{0}^{\perp})$, $\mathcal{F}=\mathcal{E}/(\mathcal{E}\cap\mathcal{E}^{\perp})$ et appliquons (6.4) aux facteurs de $Z^{f}$. On trouve qu'il existe des unités $\ell$-adiques $\alpha_{i}$ ($1\leq i\leq N$) et $\beta_{j}$ ($1\leq j\leq M$) dans $\overline{\mathbf{Q}}_{t}$ tels que pour tout $x\in|U_{0}|$
+Posons $\mathcal{F}_{0}=\mathcal{E}_{0}/(\mathcal{E}_{0}\cap\mathcal{E}_{0}^{\perp})$, $\mathcal{F}=\mathcal{E}/(\mathcal{E}\cap\mathcal{E}^{\perp})$ et appliquons (6.4) aux facteurs de $Z^{f}$. On trouve qu'il existe des unités $\ell$-adiques $\alpha_{i}$ ($1\leq i\leq N$) et $\beta_{j}$ ($1\leq j\leq M$) dans $\overline{\mathbf{Q}}_{\ell}$ tels que pour tout $x\in|U_{0}|$
 
 $$
-\mathrm{Z} (\mathrm{X} _ {x}, t) = \frac {\prod_ {i} \left(\mathrm{I} - \alpha_ {i} ^ {\deg x} t\right)}{\prod_ {j} \left(\mathrm{I} - \beta_ {j} ^ {\deg x} t\right)}. \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0})
+\mathrm{Z} (\mathrm{X} _ {x}, t) = \frac {\prod_ {i} \left(1 - \alpha_ {i} ^ {\deg x} t\right)}{\prod_ {j} \left(1 - \beta_ {j} ^ {\deg x} t\right)}. \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0})
 $$
 
 et qu'en particulier le second membre est dans $\mathbf{Q}(t)$. Si un $\alpha_{i}$ coïncide avec un $\beta_{j}$, il est loisible de supprimer simultanément cet $\alpha_{i}$ de la liste des $\alpha$ et ce $\beta_{j}$ de la liste des $\beta$. On peut donc supposer, et nous supposerons, que $\alpha_{i} \neq \beta_{j}$ pour tout $i$ et tout $j$.
 
 (6.5) Il suffit de prouver que les polynômes $\prod_{i} (1 - \alpha_{i} t)$ et $\prod_{j} (1 - \beta_{j} t)$ sont à coefficients rationnels, i.e. que la famille des $\alpha_{i}$ (resp. la famille des $\beta_{j}$) est définie sur $\mathbf{Q}$. Nous le déduirons des propositions suivantes.
 
-Proposition (6.6). — Soient $(\gamma_i)$ ($1 \leq i \leq P$) et $(\delta_j)$ ($1 \leq j \leq Q$) deux familles d'unités $l$-adiques dans $\overline{\mathbf{Q}}_l$. On suppose que $\gamma_i \neq \delta_j$. Si K est un ensemble fini assez grand d'entiers $\neq 1$, et L une partie de densité o assez grande de $|U_0|$, alors, si $x \in |U_0|$ vérifie $k \nmid \deg(x)$ (pour tout $k \in K$) et $x \notin L$, le dénominateur de
+Proposition (6.6). — Soient $(\gamma_i)$ ($1 \leq i \leq P$) et $(\delta_j)$ ($1 \leq j \leq Q$) deux familles d'unités $l$-adiques dans $\overline{\mathbf{Q}}_l$. On suppose que $\gamma_i \neq \delta_j$. Si K est un ensemble fini assez grand d'entiers $\neq 1$, et L une partie de densité 0 assez grande de $|U_0|$, alors, si $x \in |U_0|$ vérifie $k \nmid \deg(x)$ (pour tout $k \in K$) et $x \notin L$, le dénominateur de
 
 $$
-\det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}) \prod_ {i} (\mathrm{I} - \gamma_ {i} ^ {\deg (x)} t) / \prod_ {j} (\mathrm{I} - \delta_ {j} ^ {\deg (x)} t),\tag{6.6.1}
+\det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}) \prod_ {i} (1 - \gamma_ {i} ^ {\deg (x)} t) / \prod_ {j} (1 - \delta_ {j} ^ {\deg (x)} t),\tag{6.6.1}
 $$
 
-écrit sous forme irréductible, est $\prod_{j} (\mathrm{I} - \delta_{j}^{\deg(x)} t)$.
+écrit sous forme irréductible, est $\prod_{j} (1 - \delta_{j}^{\deg(x)} t)$.
 
-La démonstration sera donnée en (6.10-13). D'après (6.7) ci-dessous, (6.6) fournit 296
+La démonstration sera donnée en (6.10-13). D'après (6.7) ci-dessous, (6.6) fournit
 
-297
 
 une description intrinsèque de la famille des $\delta_{j}$ en terme de la famille des fractions rationnelles (6.6.1) pour $x\in|U_{0}|$.
 
@@ -1037,10 +1036,10 @@ Lemme (6.7). — Soient K un ensemble fini d'entiers ≠ 1 et (δj) (1 ≤ j ≤
 
 On procède par récurrence sur Q. L'ensemble des entiers n tels que  $\delta_{Q}^{n}=\varepsilon_{j}^{n}$  est un idéal  $(n_{j})$ . Prouvons qu'il existe  $j_{0}$  tel que  $\delta_{Q}=\varepsilon_{j_{0}}$ . Sinon les  $n_{j}$  seraient distincts de 1, et il existerait des entiers arbitrairement grands n, non divisibles par aucun des  $n_{j}$ , ni par aucun des  $k\in K$ . On aurait  $\delta_{Q}^{n}\neq\varepsilon_{j}^{n}$ , et ceci contredirait l'hypothèse. Il existe donc  $j_{0}$  tel que  $\delta_{Q}=\varepsilon_{j_{0}}$ . On conclut en appliquant l'hypothèse de récurrence aux familles  $(\delta_{j})(j\neq Q)$  et  $(\varepsilon_{j})(j\neq j_{0})$ .
 
-Proposition (6.8). — Soient  $(\gamma_{i})$  (I ≤ i ≤ P) et  $(\delta_{j})$  (I ≤ j ≤ Q) deux familles d'unités p-adiques dans  $\overline{Q}_{\ell}$ ,  $\mathrm{R}(t)=\prod_{i}(\mathrm{I}-\gamma_{i}t)$  et  $\mathrm{S}(t)=\prod_{j}(\mathrm{I}-\delta_{j}t)$ . Supposons que pour tout  $x\in|U_{0}|$ ,  $\prod_{i}(\mathrm{I}-\delta_{i}^{\deg(x)}t)$  divise
+Proposition (6.8). — Soient  $(\gamma_{i})$  (1 ≤ i ≤ P) et  $(\delta_{j})$  (1 ≤ j ≤ Q) deux familles d'unités p-adiques dans  $\overline{Q}_{\ell}$ ,  $\mathrm{R}(t)=\prod_{i}(1-\gamma_{i}t)$  et  $\mathrm{S}(t)=\prod_{j}(1-\delta_{j}t)$ . Supposons que pour tout  $x\in|U_{0}|$ ,  $\prod_{i}(1-\delta_{i}^{\deg(x)}t)$  divise
 
 $$
-\prod_ {i} \left(\mathrm{I} - \gamma_ {i} ^ {\deg (x)} t\right). \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}).
+\prod_ {i} \left(1 - \gamma_ {i} ^ {\deg (x)} t\right). \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}).
 $$
 
 Alors $\mathbf{S}(t)$ divise $\mathbf{R}(t)$.
@@ -1050,7 +1049,7 @@ Supprimons des familles  $(\gamma_{i})$  et  $(\delta_{j})$  des paires d'élém
 Cette proposition fournit une caractérisation intrinsèque de R(t) en terme de la famille de polynômes
 
 $$
-\prod_ {i} \left(\mathrm{I} - \gamma_ {i} ^ {\deg (x)} t\right). \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}).
+\prod_ {i} \left(1 - \gamma_ {i} ^ {\deg (x)} t\right). \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t, \mathcal {F} _ {0}).
 $$
 
 C'est le ppcm des polynômes $S(t) = \prod_{j} (1 - \delta_j t)$ vérifiant l'hypothèse de (6.8).
@@ -1059,7 +1058,7 @@ C'est le ppcm des polynômes $S(t) = \prod_{j} (1 - \delta_j t)$ vérifiant l'hy
 
 Les polynômes $\prod_{i} (\mathrm{I} - \alpha_{i}^{\deg(x)} t) \cdot \det(\mathrm{I} - \mathrm{F}_{x}^{*} t, \mathcal{F}_{0})$ sont donc dans $\mathbf{Q}[t]$. La proposition (6.8) fournit une description intrinsèque de la famille des $\alpha_{i}$ en terme de cette famille de polynômes. La famille des $\alpha_{i}$ est donc définie sur $\mathbf{Q}$.
 
-(6.10) Préliminaires. — Soient  $u \in U$  et  $F_{u}$  la fibre de F en u. Le groupe fondamental arithmétique  $\pi_{1}(U_{0}, u)$ , extension de  $\hat{\mathbf{Z}} = \operatorname{Gal}(\overline{\mathbf{F}}_{q}/\mathbf{F}_{q})$  (générateur :  $\varphi$ ) par le groupe fondamental géométrique  $\pi_{1}(U, u)$ , agit sur  $F_{u}$  par similitudes symplectiques :
+(6.10) Préliminaires. — Soient  $u \in U$  et  $\mathcal{F}_{u}$  la fibre de $\mathcal{F}$ en u. Le groupe fondamental arithmétique  $\pi_{1}(U_{0}, u)$ , extension de  $\hat{\mathbf{Z}} = \operatorname{Gal}(\overline{\mathbf{F}}_{q}/\mathbf{F}_{q})$  (générateur :  $\varphi$ ) par le groupe fondamental géométrique  $\pi_{1}(U, u)$ , agit sur  $\mathcal{F}_{u}$  par similitudes symplectiques :
 
 $$
 \rho : \pi_ {1} (\mathrm{U} _ {0}, u) \rightarrow \operatorname{CSp} \left(\mathscr {F} _ {u}, \psi\right).
@@ -1089,18 +1088,18 @@ En effet, $\pi_1(\mathbf{U}_0,u)$ se projette sur $\hat{\mathbf{Z}}$, et l'image
 
 Lemme (6.12). — Pour $\delta\in\overline{\mathbf{Q}}_{\ell}$ une unité $\ell$-adique, l'ensemble Z des $(n,g)\in\mathrm{H}_{1}$ tels que $\delta^{n}$ soit valeur propre de $g$ est un fermé de mesure nulle.
 
-Il est clair que Z est fermé. Pour chaque  $n \in \hat{Z}$ , soit  $CSp_{n}$  l'ensemble des  $g \in \mathrm{CSp}(\mathcal{F}_{u}, \psi)$  tels que  $\mu(g) = q^{-n}$ , et soit  $Z_{n}$  l'ensemble des  $g \in CSp_{n}$  tels que  $\delta^{n}$  soit valeur propre de g. Alors,  $CSp_{n}$  est un espace homogène sous Sp, et on vérifie que  $Z_{n}$  en est un sous-espace algébrique propre, donc de mesure o. D'après (6.11),  $H_{1} \cap (\{n\} \times Z_{n})$  est donc de mesure o dans l'image inverse dans  $H_{1}$  de n, et on applique Fubini à la projection  $H_{1} \to \hat{Z}$ .
+Il est clair que Z est fermé. Pour chaque  $n \in \hat{Z}$ , soit  $CSp_{n}$  l'ensemble des  $g \in \mathrm{CSp}(\mathcal{F}_{u}, \psi)$  tels que  $\mu(g) = q^{-n}$ , et soit  $Z_{n}$  l'ensemble des  $g \in CSp_{n}$  tels que  $\delta^{n}$  soit valeur propre de g. Alors,  $CSp_{n}$  est un espace homogène sous Sp, et on vérifie que  $Z_{n}$  en est un sous-espace algébrique propre, donc de mesure 0. D'après (6.11),  $H_{1} \cap (\{n\} \times Z_{n})$  est donc de mesure 0 dans l'image inverse dans  $H_{1}$  de n, et on applique Fubini à la projection  $H_{1} \to \hat{Z}$ .
 
 (6.13) Prouvons (6.6). Pour chaque $i$ et $j$, l'ensemble des entiers $n$ tels que $\gamma_{i}^{n} = \delta_{j}^{n}$ est l'ensemble des multiples d'un entier fixe $n_{ij}$ (on n'exclut pas $n_{ij} = 0$). Par hypothèse, $n_{ij} \neq 1$.
 
-D'après (6.12) et le théorème de densité de Čebotarev, l'ensemble des $x\in|U_{0}|$ tels qu'un $\beta_{j}^{\mathrm{deg}(x)}$ soit valeur propre de $\mathbf{F}_{x}^{*}$ agissant sur $\mathcal{F}_{0}$ est de densité o. On prend pour K l'ensemble des $n_{ij}$ et pour L l'ensemble des $x$ ci-dessus.
+D'après (6.12) et le théorème de densité de Čebotarev, l'ensemble des $x\in|U_{0}|$ tels qu'un $\beta_{j}^{\mathrm{deg}(x)}$ soit valeur propre de $\mathbf{F}_{x}^{*}$ agissant sur $\mathcal{F}_{0}$ est de densité 0. On prend pour K l'ensemble des $n_{ij}$ et pour L l'ensemble des $x$ ci-dessus.
 
 ## 7. Fin de la démonstration de 1.7.
 
 Lemme (7.1). — Soit  $X_{0}$  une variété projective non singulière absolument irréductible de dimension paire d sur  $F_{q}$ . Soient X sur  $\overline{F}_{q}$  déduit de  $X_{0}$  par extension des scalaires et  $\alpha$  une valeur propre de  $F^{*}$  agissant sur  $\mathrm{H}^{d}(\mathrm{X},\mathbf{Q}_{\ell})$ . Alors,  $\alpha$  est un nombre algébrique dont tous les conjugués complexes, encore notés  $\alpha$ , vérifient
 
 $$
-(7. \mathbf {I}. \mathbf {I})
+(7.1.1)
 $$
 
 $$
@@ -1131,7 +1130,7 @@ $$
 \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}) \hookrightarrow \mathrm{H} ^ {i} (\widetilde {\mathrm{X}}, \mathbf {Q} _ {\ell})
 $$
 
-(en fait, $\mathrm{H}^i (\widetilde{\mathbf{X}},\mathbf{Q}_t) = \mathrm{H}^i (\mathrm{X},\mathbf{Q}_t)\oplus \mathrm{H}^{i - 2}(\mathrm{A}\cap \mathrm{X},\mathbf{Q}_t)(-\mathrm{i}))$ . Il suffit donc de prouver (7.1.1) pour les valeurs propres $\alpha$ de $\mathbf{F}^*$ agissant sur $\mathrm{H}^d (\widetilde{\mathbf{X}},\mathbf{Q}_t)$
+(en fait, $\mathrm{H}^i (\widetilde{\mathbf{X}},\mathbf{Q}_{\ell}) = \mathrm{H}^i (\mathrm{X},\mathbf{Q}_{\ell})\oplus \mathrm{H}^{i - 2}(\mathrm{A}\cap \mathrm{X},\mathbf{Q}_{\ell})(-1))$ . Il suffit donc de prouver (7.1.1) pour les valeurs propres $\alpha$ de $\mathbf{F}^*$ agissant sur $\mathrm{H}^d (\widetilde{\mathbf{X}},\mathbf{Q}_{\ell})$
 
 La suite spectrale de Leray pour f s'écrit
 
@@ -1144,13 +1143,13 @@ Il suffit de prouver (7.1.1) pour les valeurs propres $\alpha$ de $\mathbf{F}^*$
 A)  $E_{2}^{2,n-1}$ . D'après (5.8),  $R^{n-1}f_{*}Q_{\ell}$  est constant. D'après (2.10), on a donc
 
 $$
-\mathrm{E} _ {2} ^ {2, n - 1} = \mathrm{H} ^ {n - 1} (\mathbf {X} _ {u}, \mathbf {Q} _ {\ell}) (- \mathrm{I}).
+\mathrm{E} _ {2} ^ {2, n - 1} = \mathrm{H} ^ {n - 1} (\mathbf {X} _ {u}, \mathbf {Q} _ {\ell}) (- 1).
 $$
 
 D'après le théorème de Lefschetz faible (corollaire de SGA 4, XIV (3.2), et de la dualité de Poincaré, SGA 4, XVIII), on a
 
 $$
-\mathrm{H} ^ {n - 1} \left(\mathrm{X} _ {u}, \mathbf {Q} _ {\ell}\right) (- \mathrm{I}) \hookrightarrow \mathrm{H} ^ {n - 1} (\mathrm{Y}, \mathbf {Q} _ {\ell}) (- \mathrm{I}),
+\mathrm{H} ^ {n - 1} \left(\mathrm{X} _ {u}, \mathbf {Q} _ {\ell}\right) (- 1) \hookrightarrow \mathrm{H} ^ {n - 1} (\mathrm{Y}, \mathbf {Q} _ {\ell}) (- 1),
 $$
 
 et on applique l'hypothèse de récurrence à  $Y_{0}$ .
@@ -1166,7 +1165,7 @@ B)  $E_{2}^{0,n+1}$ . Si les cycles évanescents sont non nuls,  $R^{n+1}f_{*}Q_
 Le morphisme de Gysin
 
 $$
-\mathrm{H} ^ {n - 1} (\mathrm{Y}, \mathbf {Q} _ {\ell}) (- \mathrm{i}) \rightarrow \mathrm{H} ^ {n + 1} (\mathrm{X} _ {u}, \mathbf {Q} _ {\ell})
+\mathrm{H} ^ {n - 1} (\mathrm{Y}, \mathbf {Q} _ {\ell}) (- 1) \rightarrow \mathrm{H} ^ {n + 1} (\mathrm{X} _ {u}, \mathbf {Q} _ {\ell})
 $$
 
 est surjectif (cet argument est dual de A)), et on applique l'hypothèse de récurrence à  $Y_{0}$ .
@@ -1183,27 +1182,26 @@ C)  $E_{2}^{1,n}$ . Si on disposait du théorème de Lefschetz « difficile », 
 Faute d'avoir déjà démontré Lefschetz « difficile », il nous va falloir dévisser. Si les cycles évanescents sont nuls,  $R^{n}f_{*}Q_{\ell}$  est constant ((5.8) b)) et  $E_{2}^{1,n}=0$ . On peut donc supposer, et on supposera, les cycles évanescents non nuls. Filtrons  $R^{n}f_{*}Q_{\ell}=j_{*}j^{*}R^{n}f_{*}Q_{\ell}$  (5.8) par les sous-faisceaux  $j_{*}\mathcal{E}$  et  $j_{*}(\mathcal{E}\cap\mathcal{E}^{\perp})$ . Si les cycles évanescents δ ne sont pas dans  $\mathcal{E}\cap\mathcal{E}^{\perp}$ , on dispose de suites exactes :
 
 $$
-\mathrm{o} \rightarrow j _ {*} \mathcal {E} \rightarrow \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell} \rightarrow \text { faisceau   constant } \rightarrow \mathrm{o}.\tag{7.1.2}
+0 \rightarrow j _ {*} \mathcal {E} \rightarrow \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell} \rightarrow \text { faisceau   constant } \rightarrow 0.\tag{7.1.2}
 $$
 
-(7.1.3) o→faisceau constant  $j_{*}(\mathcal{E}\cap\mathcal{E}^{\perp})\rightarrow j_{*}\mathcal{E}\rightarrow j_{*}(\mathcal{E}/(\mathcal{E}\cap\mathcal{E}^{\perp}))\rightarrow0.$
+(7.1.3) 0→faisceau constant  $j_{*}(\mathcal{E}\cap\mathcal{E}^{\perp})\rightarrow j_{*}\mathcal{E}\rightarrow j_{*}(\mathcal{E}/(\mathcal{E}\cap\mathcal{E}^{\perp}))\rightarrow0.$
 
 Si, à Dieu ne plaise, les δ sont dans $\mathcal{E} \cap \mathcal{E}^{\perp}$, on a $\mathcal{E} \subset \mathcal{E}^{\perp}$, et des suites exactes :
 
-(7.1.4) o→le faisceau constant  $j_{*}E^{\perp}\rightarrow R^{n}f_{*}Q_{\ell}\rightarrow$  un faisceau  $F\rightarrow o$
+(7.1.4) 0→le faisceau constant  $j_{*}\mathcal{E}^{\perp}\rightarrow R^{n}f_{*}Q_{\ell}\rightarrow$  un faisceau  $\mathcal{F}\rightarrow 0$
 
-(7.1.5) $\mathrm{o}\rightarrow \mathcal{F}\rightarrow \mathrm{le}$ faisceau constant $j_{*}j^{*}\mathcal{F}\rightarrow \bigoplus_{s\in S}\mathbf{Q}_{\ell}(n - m)_{s}\rightarrow 0.$
+(7.1.5) $0\rightarrow \mathcal{F}\rightarrow \mathrm{le}$ faisceau constant $j_{*}j^{*}\mathcal{F}\rightarrow \bigoplus_{s\in S}\mathbf{Q}_{\ell}(n - m)_{s}\rightarrow 0.$
 
 Dans le premier cas, les suites exactes longues de cohomologie fournissent
 
-(7.1.2')
 
 $$
-\mathrm{H} ^ {1} (\mathrm{D}, j _ {*} \mathcal {E}) \rightarrow \mathrm{H} ^ {1} (\mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}) \rightarrow 0,\tag{7.1.3'}
+\mathrm{H} ^ {1} (\mathrm{D}, j _ {*} \mathcal {E}) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}) \rightarrow 0,\tag{7.1.2'}
 $$
 
 $$
-\mathrm{o} \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, j _ {*} \mathcal {E}) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, j _ {*} (\mathcal {E} / (\mathcal {E} \cap \mathcal {E} ^ {\perp})))
+0 \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, j _ {*} \mathcal {E}) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, j _ {*} (\mathcal {E} / (\mathcal {E} \cap \mathcal {E} ^ {\perp})))\tag{7.1.3'}
 $$
 
 et on applique (6.3).
@@ -1211,15 +1209,11 @@ et on applique (6.3).
 Dans le second cas, elles fournissent
 
 $$
-(7. \mathbf {I}. 4 ^ {\prime})
+0 \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathscr {F}),\tag{7.1.4'}
 $$
 
 $$
-\mathrm{o} \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathrm{R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathscr {F}),\tag{7.1.5'}
-$$
-
-$$
-\bigoplus_ {s \in \mathbb {S}} \mathbf {Q} _ {\ell} (n - m) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathcal {F}) \rightarrow 0
+\bigoplus_ {s \in \mathrm{S}} \mathbf {Q} _ {\ell} (n - m) \rightarrow \mathrm{H} ^ {1} (\mathrm{D}, \mathcal {F}) \rightarrow 0.\tag{7.1.5'}
 $$
 
 et on remarque que F agit sur $\mathbf{Q}_{\ell}(n - m)$ par multiplication par $q^{d / 2}$.
@@ -1232,7 +1226,7 @@ $$
 
 Prouvons déjà que  $(7.2)\Rightarrow(1.7)$ . Pour  $X_{0}$  projective non singulière sur  $F_{q}$  et i un entier, il faut prouver l'assertion suivante :
 
-$W(X_{0,i})$ . Soit X déduit de  $X_{0}$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$ . Si  $\alpha$  est une valeur propre de  $F^{*}$  agissant sur  $H^{i}(X, Q_{t})$ , alors  $\alpha$  est un nombre algébrique dont tous les conjugués complexes, encore notés  $\alpha$ , vérifient  $|\alpha| = q^{i/2}$ .
+$W(X_{0},i)$ . Soit X déduit de  $X_{0}$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$ . Si  $\alpha$  est une valeur propre de  $F^{*}$  agissant sur  $H^{i}(X, Q_{\ell})$ , alors  $\alpha$  est un nombre algébrique dont tous les conjugués complexes, encore notés  $\alpha$ , vérifient  $|\alpha| = q^{i/2}$ .
 
 a) Si $\mathbf{F}_{q^{n}}$ est une extension de degré $n$ de $\mathbf{F}_{q}$, et que $\mathrm{X}_{0}^{\prime}/\mathbf{F}_{q^{n}}$ se déduit de $\mathrm{X}_{0}/\mathbf{F}_{q}$ par extension des scalaires, alors $\mathrm{W}(\mathrm{X}_{0},i)$ équivaut à $\mathrm{W}(\mathrm{X}_{0}^{\prime},i)$: étendre les scalaires revient à remplacer $\alpha$ par $\alpha^{n}$ et $q$ par $q^{n}$.
 
@@ -1246,7 +1240,7 @@ Pour prouver les assertions $W(X_0, i)$, on se ramène successivement :
 
 — par c), à supposer  $X_{0}$  purement d'une dimension n;
 
-— par b), à supposer de plus  $o \leq i \leq n$ ;
+— par b), à supposer de plus  $0 \leq i \leq n$ ;
 
 — par a) et d), à supposer de plus i=n;
 
@@ -1257,7 +1251,7 @@ Ce cas est justiciable de (7.2).
 (7.3) Prouvons (7.2). Pour tout entier $k$, $\alpha^{k}$ est valeur propre de $\mathbf{F}^{*}$ agissant sur $\mathrm{H}^{kd}(\mathbf{X}^{k}, \mathbf{Q}_{\ell})$ (formule de Künneth). Pour $k$ pair, $\mathbf{X}^{k}$ est justiciable de (7.1), d'où
 
 $$
-q ^ {\frac {k d}{2} - \frac {1}{2}} \le | \alpha^ {k} | \le q ^ {\frac {k d}{2} - \frac {1}{2}}
+q ^ {\frac {k d}{2} - \frac {1}{2}} \le | \alpha^ {k} | \le q ^ {\frac {k d}{2} + \frac {1}{2}}
 $$
 
 et
@@ -1281,16 +1275,16 @@ Soient $\mathbf{X} / \overline{\mathbf{F}}_q$ déduit de $\mathbf{X}_0$, et $\ma
 $(0 \leq i \leq n)$ et de la partie primitive de $\mathbf{H}^n(\mathbf{X}, \mathbf{Q}_\ell)$, de dimension $b$. D'après (1.5), il existe donc $b$ nombres algébriques $\alpha_j$, les valeurs propres de $\mathbf{F}^*$ agissant sur cette cohomologie primitive, tels que
 
 $$
-\# \mathbf {X} _ {0} (\mathbf {F} _ {q}) = \sum_ {i = 0} ^ {n} q ^ {i} + (- \mathrm{I}) ^ {n} \sum_ {j} \alpha_ {j}.
+\# \mathbf {X} _ {0} (\mathbf {F} _ {q}) = \sum_ {i = 0} ^ {n} q ^ {i} + (- 1) ^ {n} \sum_ {j} \alpha_ {j}.
 $$
 
 D'après (1.7), $|\alpha_j| = q^{n/2}$ et
 
 $$
-\left| \# \mathbf {X} _ {0} (\mathbf {F} _ {q}) - \# \mathbf {P} (\mathbf {F} _ {q}) \right| = \left| \# \mathbf {X} _ {0} (\mathbf {F} _ {q}) - \sum_ {i = 0} ^ {n} q ^ {i} \right| = \left| \sum_ {j} \alpha_ {j} \right| \leq \sum_ {j} \left| \alpha_ {j} \right| = b. q ^ {n / 2}.
+\left| \# \mathbf {X} _ {0} (\mathbf {F} _ {q}) - \# \mathbf {P} ^ {n} (\mathbf {F} _ {q}) \right| = \left| \# \mathbf {X} _ {0} (\mathbf {F} _ {q}) - \sum_ {i = 0} ^ {n} q ^ {i} \right| = \left| \sum_ {j} \alpha_ {j} \right| \leq \sum_ {j} \left| \alpha_ {j} \right| = b. q ^ {n / 2}.
 $$
 
-Théorème (8.2). — Soient N un entier ≥1, ε : (Z/N)\* → C\* un caractère, k un entier ≥2 et f une forme modulaire holomorphe sur Γ₀(N), de poids k et de caractère ε : f est une fonction holomorphe sur le demi-plan de Poincaré X, telle que pour  $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \text{SL}(2, Z)$ , avec  $c \equiv o(N)$ , on ait
+Théorème (8.2). — Soient N un entier ≥1, ε : (Z/N)\* → C\* un caractère, k un entier ≥2 et f une forme modulaire holomorphe sur Γ₀(N), de poids k et de caractère ε : f est une fonction holomorphe sur le demi-plan de Poincaré X, telle que pour  $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \text{SL}(2, Z)$ , avec  $c \equiv 0(N)$ , on ait
 
 $$
 f \left(\frac {a z + b}{c z + d}\right) = \varepsilon (a) ^ {- 1} (c z + d) ^ {k} f (z).
@@ -1310,7 +1304,7 @@ $$
 
 sont de valeur absolue $p^{\frac{k-1}{2}}$.
 
-Ces racines sont en effet des valeurs propres de Frobenius agissant sur le  $H^{k-1}$  d'une variété projective non singulière de dimension k—i définie sur  $F_{p}$ .
+Ces racines sont en effet des valeurs propres de Frobenius agissant sur le  $H^{k-1}$  d'une variété projective non singulière de dimension k−1 définie sur  $F_{p}$ .
 
 Sous des hypothèses restrictives, ce fait est démontré dans mon exposé Bourbaki (Formes modulaires et représentations ℓ-adiques, exposé 355, février 1969, dans : Lecture Notes in Mathematics, 179). Le cas général n'est pas beaucoup plus difficile.
 
@@ -1335,7 +1329,7 @@ $$
 Quitte à remplacer Q par un multiple scalaire, on peut supposer (et on supposera) que
 
 $$
-\psi (x) = \exp (2 \pi i \operatorname{Tr} _ {\mathbf {F} _ {q} / \mathbf {F} _ {p}} (x) / p).\tag{8.4.x}
+\psi (x) = \exp (2 \pi i \operatorname{Tr} _ {\mathbf {F} _ {q} / \mathbf {F} _ {p}} (x) / p).\tag{8.4.1}
 $$
 
 Soit  $X_{0}$  le revêtement étale de l'espace affine  $A_{0}$  de dimension n sur  $F_{q}$  d'équation  $T^{p}-T=Q$ , et soit  $\sigma$  la projection de  $X_{0}$  sur  $A_{0}$ :
@@ -1367,7 +1361,7 @@ $$
 On a $\sigma_{*}\mathrm{E}_{\lambda} = \bigoplus_{j}\mathcal{F}_{j}$, et donc
 
 $$
-\mathrm{H} _ {c} ^ {*} (\mathrm{X}, \mathbf {Q} _ {\ell}) \otimes_ {\mathbf {q} _ {\ell}} \mathrm{E} _ {\lambda} = \bigoplus_ {j} \mathrm{H} _ {c} ^ {*} (\mathrm{A}, \mathcal {F} _ {j}).\tag{8.4.3}
+\mathrm{H} _ {c} ^ {*} (\mathrm{X}, \mathbf {Q} _ {\ell}) \otimes_ {\mathbf {Q} _ {\ell}} \mathrm{E} _ {\lambda} = \bigoplus_ {j} \mathrm{H} _ {c} ^ {*} (\mathrm{A}, \mathcal {F} _ {j}).\tag{8.4.3}
 $$
 
 Pour $j=0$, $\mathcal{F}_{j}$ est le faisceau constant $\mathrm{E}_{\lambda}$; ce facteur correspond à l'inclusion, par image réciproque, de la cohomologie de A dans celle de X.
@@ -1390,7 +1384,7 @@ $$
 \mathrm{H} _ {c} ^ {n} (\mathrm{A}, \mathcal {F} _ {1}) \stackrel {\sigma^ {*}} {\rightarrow} \mathrm{H} _ {c} ^ {n} (\mathrm{X}, \mathcal {F} _ {1}) = \mathrm{H} _ {c} ^ {n} (\mathrm{X}, \mathrm{E} _ {\lambda}) \stackrel {\jmath_ {!}} {\rightarrow} \mathrm{H} ^ {n} (\mathrm{Z}, \mathrm{E} _ {\lambda}).
 $$
 
-On a $\operatorname{Tr}(a \cup b) = \frac{\mathrm{I}}{p} \operatorname{Tr}(j_1 \sigma^* a \cup j_1 \sigma^* b)$, donc cette injectivité résulte de (ii).
+On a $\operatorname{Tr}(a \cup b) = \frac{1}{p} \operatorname{Tr}(j_1 \sigma^* a \cup j_1 \sigma^* b)$, donc cette injectivité résulte de (ii).
 
 (8.6) Prouvons (8.5) (iii). Soient  $P_{0}$  l'espace projectif sur  $F_{q}$  complété de  $A_{0}$  par adjonction d'un hyperplan à l'infini  $P_{0}^{\infty}$ ,  $H_{0} \subset P_{0}^{\infty}$  d'équation  $Q_{d}=0$  et  $Y_{0}$  le revêtement de  $P_{0}$  normalisé de  $P_{0}$  dans  $X_{0}$ .
 
@@ -1427,13 +1421,13 @@ $$
 $$
 
 (f propre et lisse, u plongement ouvert,  $Z_{s}-X_{s}$  diviseur à croisements normaux relatifs).
-Soit  $F_{j,s}$  le  $E_{\lambda}$ -faisceau sur  $A_{s}$  déduit comme en (8.4) de  $X_{s}/A_{s}$ . On a  $\sigma_{*}E_{\lambda}=\bigoplus F_{j,s}$ , donc
+Soit  $\mathcal{F}_{j,s}$  le  $E_{\lambda}$ -faisceau sur  $A_{s}$  déduit comme en (8.4) de  $X_{s}/A_{s}$ . On a  $\sigma_{*}E_{\lambda}=\bigoplus \mathcal{F}_{j,s}$ , donc
 
 $$
-\mathrm{R} ^ {*} (f u) _ {1} (\mathrm{E} _ {\lambda}) = \bigoplus_ {j} \mathrm{R} ^ {*} a _ {1} \mathcal {F} _ {j, \mathrm{s}}.
+\mathrm{R} ^ {*} (f u) _ {!} (\mathrm{E} _ {\lambda}) = \bigoplus_ {j} \mathrm{R} ^ {*} a _ {!} \mathcal {F} _ {j, \mathrm{s}}.
 $$
 
-Les propriétés de $Z_S$ assurent que les $R^i(fu)_1 E_\lambda = R^i f_*(u_1 E_\lambda)$ sont des faisceaux localement constants sur S. Dès lors, les $R^i a_1 \mathcal{F}_{j,s}$ également sont localement constants. Puisque S est connexe, il suffit de prouver (8.5) (i), (ii) pour un polynôme Q particulier. On prendra $Q = \sum_{i} x_i^d$. Ce polynôme vérifie la condition de non-singularité car $(d, p) = 1$. Pour ce polynôme, les variables se séparent dans la somme exponentielle de (8.4). Ceci correspond au fait que $\mathcal{F}_j$ est le produit tensoriel des images réciproques de
+Les propriétés de $Z_S$ assurent que les $R^i(fu)_! E_\lambda = R^i f_*(u_! E_\lambda)$ sont des faisceaux localement constants sur S. Dès lors, les $R^i a_! \mathcal{F}_{j,s}$ également sont localement constants. Puisque S est connexe, il suffit de prouver (8.5) (i), (ii) pour un polynôme Q particulier. On prendra $Q = \sum_{i} x_i^d$. Ce polynôme vérifie la condition de non-singularité car $(d, p) = 1$. Pour ce polynôme, les variables se séparent dans la somme exponentielle de (8.4). Ceci correspond au fait que $\mathcal{F}_j$ est le produit tensoriel des images réciproques de
 
 faisceaux analogues $\mathcal{F}_{j}^{1}$ sur les facteurs de dimension un $A^{1}$ de $A = A^{n}$. Par la formule de Künneth
 
@@ -1441,7 +1435,7 @@ $$
 \mathrm{H} ^ {*} (\mathrm{A}, \mathcal {F} _ {j}) = \bigotimes \mathrm{H} ^ {*} (\mathrm{A} ^ {1}, \mathcal {F} _ {j} ^ {1}).
 $$
 
-Ceci ramène la preuve de (8.5) (i), (ii) au cas où $n=\mathrm{i}$ et où $\mathbf{Q}$ est $x^{d}$.
+Ceci ramène la preuve de (8.5) (i), (ii) au cas où $n=1$ et où $\mathbf{Q}$ est $x^{d}$.
 
 (8.11) Traitons ce cas particulier. Le revêtement X de A est irréductible, de sorte que pour i=0,2
 
@@ -1455,10 +1449,10 @@ $$
 \mathrm{H} _ {c} ^ {i} (\mathrm{A}, \mathcal {F} _ {j}) = 0.
 $$
 
-L'assertion (ii) résulte de (2.8) ou (2.12) et de ce que $u_{i}\mathcal{F}_{j} = u_{*}\mathcal{F}_{j}$. Pour prouver (i), il reste à vérifier que
+L'assertion (ii) résulte de (2.8) ou (2.12) et de ce que $u_{!}\mathcal{F}_{j} = u_{*}\mathcal{F}_{j}$. Pour prouver (i), il reste à vérifier que
 
 $$
-\chi_ {c} (\mathrm{A}, \mathcal {F} _ {j}) = \mathrm{i} - d.
+\chi_ {c} (\mathrm{A}, \mathcal {F} _ {j}) = 1 - d.
 $$
 
 D'après la formule d'Euler-Poincaré (voir l'exposé Bourbaki 286 de février 1965, par M. Raynaud), ceci équivaut au lemme suivant.
@@ -1491,7 +1485,7 @@ SGA, Séminaire de Géométrie Algébrique du Bois-Marie (IHES) :
 
 SGA 4, Théorie des topos et cohomologie étale des schémas (dirigé par M. ARTIN, A. GROTHENDIECK et J.-L. VERDIER), Lecture Notes in Math., 269, 270, 305.
 
-SGA 5, Cohomologie l-adique et fonctions L, diffusé par l'IHES.
+SGA 5, Cohomologie $\ell$-adique et fonctions L, diffusé par l'IHES.
 
 SGA 7, Groupes de monodromie en géométrie algébrique.
 
