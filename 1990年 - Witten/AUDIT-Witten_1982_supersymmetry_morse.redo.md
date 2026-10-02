@@ -146,3 +146,8 @@
 - PNG：`audit-redo/p027.png`（pngmono 150dpi）；𝓗 字形终裁：`audit-redo/300dpi/p027_Hdecomp.png`（𝓗 = 𝓗₊ ⊕ 𝓗₋ 行）、`audit-redo/300dpi/p027_Q5decomp.png`（𝓗 = 𝓗̃₊ ⊕ 𝓗̃₋ 行）。
 - 核对：index 定理引入段；`𝓗 = 𝓗₊ ⊕ 𝓗₋` 分解与 `Tr(−1)^F` 段；duality/`½N` 近似段；`Q₅` 对称与 `𝓗 = 𝓗̃₊ ⊕ 𝓗̃₋` 分解段；(50) `Tr(−1)^F = χ(B), Tr Q₅ = sign(B)`。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。正文与 (50) 逐项与印刷页相符。**上块移交仲裁完毕（发现 Luna 修复的字体变体错误）**：两处 300dpi 裁片确认印刷 Hilbert 空间字形为 script `𝓗`/`𝓗̃`（与 p.001 判定的 `\mathscr{H}` 同形），md line 639/643 共 18 处 `\mathcal{H}`/`\tilde{\mathcal{H}}`（Luna 从 K 恢复 H 时选错 \mathcal 变体，与其自身 p.001/p.004 修复标准不一致）已用结构化 Edit（replace_all，`mathcal{H}` 全文清零验证）修为 `\mathscr{H}`/`\tilde{\mathscr{H}}`。**Luna 旧修复其余部分重核：Q₅（从 Q_s 恢复，md line 643 ×3）与印刷一致，正确**。记号备注：md line 645 `$TrQ_{5}$` 与 `$\operatorname{Tr}(-1)^{F}$` 混排（印刷均作 Tr，排版级不一致，不误导，登记不改）。跨页断点一致（line 651 末 "it is enough"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 687" 未入 md（版面信息省略）。
+
+## p.028（PDF p.28 / 印刷 p.688）
+- PNG：`audit-redo/p028.png`（pngmono 150dpi）；`Lef(f)` quirk 独立终裁：`audit-redo/300dpi/p028_formula51.png`（300dpi 裁片，本轮自摄）。
+- 核对：渐近展开论证段（[22] 引文）；`t: B → B` 与 `T: Ω → Ω` 定义段；(51) `Tr(−1)^F T = Lef(f), Tr Q₅T = sign(t)`；重要性段与总结段；`φ⁴` 理论过渡段开头。
+- 结果：PASS±。正文与 (51) 逐项与印刷页相符。print quirk：印刷 (51) 原样为 "Lef(**f**)"（前句映射记作 t: B → B，300dpi 裁片独立复核确认字形为斜体 `f`，原刊符号不一致如此），md line 660 `\operatorname{Lef} (f)` 忠实保留，不按上下文改为 `Lef(t)`。跨页断点一致（line 669 末 "We"）。差异仅：页眉 "688 EDWARD WITTEN" 未入 md（版面信息省略）。
