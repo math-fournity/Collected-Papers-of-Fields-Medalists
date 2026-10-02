@@ -556,3 +556,10 @@
 - 证据：源 PDF p.077 文本层、页图 `audit/Hironaka_1964_resolution_partI_p077.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p077_Proposition1_mappings.png`，并比对 MinerU Markdown 第 1513–1535 行。印刷 (1) 的 $\psi$ 映射域为 $\operatorname{gr}_{\bar m}^{0}(\operatorname{gr}_{P}(O))\otimes_K\operatorname{gr}_{\bar m}^{-}(\bar O)$ 并映到 $\operatorname{gr}_m(O)$；Markdown 第 1518 行两处把 $\bar m$ 写成无横线的 $m$，内层 $\operatorname{gr}_{P}(O)$ 公式结构被拆坏，且多处把环 $O$ 录成数字 $0$。印刷条件 (2) 为 $\operatorname{gr}_m(O)$ flat over K，Markdown 第 1523 行同样写成 $\operatorname{gr}_{\mathfrak m}(0)$。条件 (1)–(2)、proof diagram 的包含/自然映射及嵌入的 diagram image 与原页对应。
 - 备注：印刷运行页眉和页码 184 未录入 Markdown，属导航元素省略。
 - 结论：$\psi$ 映射的商理想、嵌套 graded-ring 项和环符号被误录，条件 (2) 亦将 $O$ 误为 $0$，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.078 / 96（印刷 p.185）— FAIL
+
+- 时间：2026-10-02 05:03 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.078 文本层、页图 `audit/Hironaka_1964_resolution_partI_p078.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p078_Proposition1_proof.png` 与 MinerU Markdown 第 1543–1575 行。印刷生成元式为 $P^p=(f_1^{(p)},f_2^{(p)},\ldots)O$，Markdown 第 1545 行误把环 $O$ 写成数字 `0`；印刷同余式左端为 $\sum_i f_i^{(\delta)}g_i^{(n-\delta)}$，Markdown 第 1558 行漏掉 $f$ 的下标 i。另第 1553 行将印刷两行求和约束排成 `\binom` 样式（条件仍在），属于非语义版式差异；第 1564 行将普通 $g_i$ 加粗为 $\boldsymbol{g}_i$，属字体样式差异（PASS±）。Proposition 1 证明余下归纳步骤、Corollary 1 的开头与局部环论述均已对照原页。
+- 备注：印刷运行页眉和页码 185 未录入 Markdown，属导航元素省略；页面末尾与 Corollary 1 的后续在下一页继续。
+- 结论：环符号误录及关键同余式漏掉系数下标，列为 FAIL；待全篇审计后逐处手工修复。
