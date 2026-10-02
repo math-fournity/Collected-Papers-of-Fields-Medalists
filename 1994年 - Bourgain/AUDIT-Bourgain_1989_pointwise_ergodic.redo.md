@@ -132,7 +132,14 @@
 - PNG：`audit-redo/p017.png`（Ghostscript `pngmono`，150dpi；原 PDF p.17）；`audit-redo/p017_4.24_300dpi.png`（(4.24) 范数下标放大裁片）、`audit-redo/p017_4.28_4.29_300dpi.png`（(4.28)/(4.29) 标签挂接裁片；原 PDF p.17 300dpi 渲染后裁切）。
 - 核对：Estimate 无编号式（$\sup_{t>0}$ 对 $\sum_{s\in\mathbf Z}\max_{\bar b\in\mathbf B_s}$）；(4.24) 的求和与范数；“For given $s$” 的 min{2^{s+1}K^{1/2}, […]} 界；(4.25) 两行与 $\sim\mathrm C\tau^{-1/2}\int_0^\infty\min(K,M_\lambda(x))^{1/2}d\lambda$；“Taking the $L^2(dx)$-norm … This proves (4.14)”；Lemma 4.26 与 (4.27)；$\hat\varphi=1$ on $[-\frac12,\frac12]$；(4.28)/(4.29) 分解（(4.28) 标前两行、(4.29) 标第三行）；$g*\varphi_{2^j}=(g*\varphi_{2^{s-1}})*\varphi_{2^j}$ 段与 “f.e^{-2πiλ_k x}” 基线点排布；(4.30)；(4.31) 两行。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 759–815 行（本页止于 (4.31)；MD 813/815 两句在下一页核对）。
 - 结果：FAIL（两处，已当场修复）。①(4.24)：300dpi 放大裁片显示印刷范数下标为 $\mathrm L^2([0,\tau^{-1}])$——**无 “,du”**；Luna 旧修复在此式补入的 “, du” 为原页所无（正文行 “the $L^2([0,\tau^{-1}],du)$-norm” 的 du 为原文所有、保留），已删去。②(4.28)/(4.29)：原页 (4.28) 挂显示式前两行（$\sup_{j\geqslant s}|\cdots|\leqslant$ 与 sup 加项行）、(4.29) 挂第三行（$+\{\sum_{j\geqslant s}|\cdots|^2\}^{1/2}$），与下文 “bound on (4.28)”/“(4.29) is bounded by” 分别引用对应；Markdown 把 “(4.28)” 留成孤立文本行、整个 array 只挂 (4.29)。已按原页拆分并分别挂标签（与 p.12、p.15 同类 MinerU 错挂，Luna 漏检）。其余：(4.25)、(4.27)、(4.30)、(4.31) 与 Lemma 4.26 陈述均与原页一致。Luna 旧修复登记两处勘误：其把 (4.24) 的范数修复列在 PDF p.16 名下（实在本页），且该修复把下标写成 $L^2([0,\tau^{-1}],du)$ 与原页不符（见上）。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 20。
-- 时间：2026-10-02 18:58 EDT 落签
+- 时间：2026-10-02 19:18 EDT 落签
+
+## p.019（PDF p.19 / 印刷 p.22）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p019.png`（Ghostscript `pngmono`，150dpi；原 PDF p.19）
+- 核对：$\widetilde g_j=\mathcal F^{-1}[\chi_{\mathrm R_j}\mathcal Fg_j]$ 与 (4.35)；Hölder 四行链（$S_{c,0}/S_{c,1}$ 分解、$(1+2Bs)$ 收尾）与 “proving (4.33)”；Proof of (4.12) 的 S 定义（$K^{-1}2^{-j}<|\lambda_k-\lambda_{k'}|<K2^{-j}$）；(4.36) 的 $|S|\leqslant K^3$；$Z_r$ 定义与 (4.37) 的 $Z_1\prec Z_2\prec\dots\prec Z_K$；$j_r=\min Z_r$、$\Lambda_r$；(4.38) 分离条件与 (4.39) 内外包络；对偶 B 式；$\mathbf G_r/\widetilde{\mathbf G}_r$ 设定及 $\|\sum_j\widetilde g_j\|_2$ 链；$Z_r\prec Z_{r'}$ 段、$\langle\widetilde g_j,\widetilde g_{j'}\rangle$、$\langle\widetilde G_r,\widetilde G_{r'}\rangle$ 与 $\|\Sigma\widetilde G_r\|_2^2$ 展开式。文本层 + 150dpi 原页图双通道，对 Markdown 第 864–942 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 对 (4.38)/(4.39) 的标签修复经原页核验正确——(4.38) 现挂分离条件、(4.39) 现挂包络式，与原页一一对应。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 22。与 Luna 旧审（p.019 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 19:12 EDT 落签
 
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
