@@ -81,3 +81,9 @@
 - 核对：Gibbs measures 段与引文 [ABF87][Aiz80, Hig81][CV10][Dob72]；幂律 µ^+_{βc}[σ_0σ_x] ≈ ∣x∣^{−1/4}（[Ons44]）；Theorem 2.3（[MW73]）——τ_β(a) = lim_{n→∞} −(1/n) ln µ^+_β[σ_0σ_[na]] = x arcsinh(s_x) + y arcsinh(s_y)，s 的方程 √(1+s²x²) + √(1+s²y²) = sinh(2β) + (sinh(2β))^{−1}；Theorem 2.4 (see e.g. [Mes06]) 公式 (2.5) lim_{β↗β_c} τ_β(z)/(β_c−β) = 4∣z∣；§2.2 Low and high temperature expansions 标题；低温展开 partition function 公式 (2.6) Z^+_{β,G} = e^{β# edges in G⋆} Σ_{ω∈E_{G⋆}} (e^{−2β})^{∣ω∣}；页脚印刷页码 10。
 - 结果：FAIL——MD 无任何对应段（整文档错源为 Arnlind–Hoppe–Huisken），以原图为准。
 - 备注：文本层与 PNG 双通道一致；(2.6) 中 e 的指数 "β# edges in G⋆" 与 G⋆ 的 ⋆ 上标位置印刷紧凑，重导出对账时按 PNG 为准。
+
+## p.011（PDF p.11 / 印刷 p.11）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：high temperature expansion 段；恒等式 (2.7) e^{βσ_xσ_y} = cosh(β) + σ_xσ_y sinh(β) = cosh(β)[1 + tanh(β)σ_xσ_y]；Proposition 2.5——公式 (2.8) Z^f_{β,G} = 2^{# vertices G} cosh(β)^{# edges in G} Σ_{ω∈Ɛ_G} tanh(β)^{∣ω∣}、公式 (2.9) µ^f_{β,G}[σ_aσ_b] = Σ_{ω∈Ɛ_G(a,b)} tanh(β)^{∣ω∣} / Σ_{ω∈Ɛ_G} tanh(β)^{∣ω∣}；Ɛ_G 与 Ɛ_{G⋆} 记号衔接句；Proof——(2.10) µ^f 定义式、(2.11) Σ_σ σ_aσ_b e^{−βH(σ)} = 2^{# vertices G} cosh(β)^{# edges in G} Σ_{ω∈Ɛ_G(a,b)} tanh(β)^{∣ω∣}；页底两行推导收尾；页脚印刷页码 11。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：PNG 中边族集合用花体 Ɛ（\mathcal{E} 类），pdftotext 拍平为 "EG"，重导出时须保留花体记号；公式编号 (2.7)–(2.11) 连续齐全。
