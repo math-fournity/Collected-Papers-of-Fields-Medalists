@@ -994,7 +994,7 @@ On va maintenant déterminer les invariants  $(N, k, \varepsilon)$  attachés à
 
 C'est là une propriété générale des courbes semi-stables, qui se vérifie immédiatement sur les modèles de Tate “$\mathbf{G}_{m}/q^{\mathbf{Z}}$”.
 
-Remarque. Vu (4.1.6), la condition “$v_{I}(\Delta)$ n'est pas divisible par $p$” est équivalente à:
+Remarque. Vu (4.1.6), la condition “$v_{l}(\Delta)$ n'est pas divisible par $p$” est équivalente à:
 
 $$
 v _ {l} (A B C) \not \equiv \left\{ \begin{array}{l l} 0 & (\mathrm{mod} p) \quad \text { si } l \neq 2 \\ 4 & (\mathrm{mod} p) \quad \text { si } l = 2. \end{array} \right.\tag{4.1.13}
