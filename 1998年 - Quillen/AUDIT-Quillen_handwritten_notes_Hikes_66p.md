@@ -284,3 +284,13 @@
 - 印刷证据与差异：原图 Postnikov 图有 `BSt(A)→K(H_3BSt(A),3)`、`BE(A)→K(H_2BE(A),2)`、`BGL(A)→K(H_1BGL(A),1)` 三层；基线第 937、941 行只留后两层且把 `K(H_1BGL(A),1)` 写坏，漏掉 `BSt(A)` 层。原图记 `K_3A=H_3(St(A),\mathbb Z)`，基线第 947 行漏了 `K_3`。source ring-map 结论为 `u_*:K_nA→K_nB`，基线第 979 行误成 `IT_n A`；product ring 原式 `GL(A×A')=GL(A)×GL(A')`，基线第 987 行把第二项的 `A'` 写成 `A`。原图 universal-property 图与条件也在基线第 955–962 行部分损坏，需按 300dpi 裁片回核。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张裁片回核 Postnikov 级别、K3、universal property 与 ring-product 项。
 - 记录：2026-10-02 01:44:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.028（PDF p.28 / 纸面圈号 28）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p028.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p028_product-formulas.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p028_H-space.png`。
+- 核对：`B(G×G')` 与 `BGL(A×A')` 的乘积分解、plus product formula、`K_n` product 结论；Whitney sum 的 H-space 结构与嵌入 `\mathbb N\sqcup\mathbb N→\mathbb N` 的归约。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图推论是 `K_n(A×A')=K_nA×K_nA'`，基线第 1005 行误为 `H_n`。原图第 1001 行对 `BGL(A×A')` 的 plus 构造保持完整 ring-product 括号，基线把括号落在 `A'` 之前。源图 `α⊕β` 的交换共轭发生在 `GL_{n+p}(A)`，基线第 1022 行写成 `GL_{nip}`；归约部分选择的是两份自然数指标的嵌入 `\mathbb N\sqcup\mathbb N→\mathbb N`，而基线第 1024 行压成 `N⊆N→N`，且第 1027 行把交错矩阵条目定义写成 `etc.`，丢失实际映射。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张裁片复核 `K_n`、ring-product 括号和 interleaving map。
+- 记录：2026-10-02 01:54:07 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
