@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02，AUDIT-INDEX 有 136 条记录：71 篇完成、40 篇原有分派（其中 P37 的 Fano 论文被错配 MinerU 导出阻塞，P40 仍在产出候选），另登记 P41–P65 共 25 篇新 Peer 任务。25 个 Codex project create_thread 请求均获接受并返回 provisional clientThreadId；最新 worktree 快照共 52 个，其中 21 个新 worktree 位于基线 dc234aee，4 个请求当前无对应 checkout；正式 task 状态和实际运行模型/effort 未逐个核验。并行创建期间，较早快照63个降至当前52个，11个既有 checkout 路径现不可见；Master 未运行清理，宿主归档/清理原因与恢复能力 UNKNOWN。全仓有141个 PDF 路径；SHA-256 清点发现两个 byte-identical 双副本组、139个 distinct PDF byte streams；逻辑统计口径仍与 INDEX 的140声明不一致，尚未闭合。Donaldson 1983（Peer-P03）已集成于8713f2fc；Witten bc4605dc与Deng 3e5e964b有完整Peer候选待Master集成。P40在worktree 716d已提交到p.73，p.74为未提交图像草稿；候选仍因方法范围复核未闭合而不计完成。
+本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02 的旧 Peer 冻结点，`AUDIT-INDEX.md` 有 138 条记录：102 篇完成、6 篇“审计证据已收割但未完成”、28 篇“冻结无候选”、1 篇 PDF↔MinerU 映射阻塞（P37）和 1 篇冻结保全但未集成（P40）。所有此前启动的 Peer 已由用户声明停止；本机可见 16 个 Git worktree（含 main），且限定的进程检查未见独立旧 Peer Codex App Server/broker。Master 没有删除、archive、clean 或 reset 任何旧 worktree。P01–P40 的 28 个完整候选、6 个未完成证据候选以及更早的 Witten/Deng/Drinfeld 候选均已按 exact source/base/path/merge 预检收割到 main；完整分类、OID 和未提交资产边界见 `dev-docs/002-2026-10-02-旧Peer批次冻结与收割收据.md`。全仓仍有 141 个 PDF 路径、139 个 distinct PDF byte streams，与 AUDIT-INDEX 的 138 行口径不一致，尚未闭合。
 
 项目治理骨架已于 2026-10-01 建立。用户新增的剩余 MinerU Markdown 正文逐处 Edit 规则已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。MinerU Skill 的最近检查快照为 2026-10-01：本地 MinerU 4.0.8 CLI 可执行，library server 当时停止、standard 所需 GGUF 模型缺失；每个缺失导出的 Peer 必须重新只读核对当前运行时，只可用已就绪的本地资源，不能启停服务、下载模型、改配置或远程上传。
 
@@ -10,9 +10,20 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有尚未并发处理的文档任务同时派发 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 个新 Peer create_thread 请求已接受。P37 0/93 映射阻塞，用户将向 P37 窗口发送新提示词；其原 worktree a829 当前不在 Git worktree 列表中。P40 在 worktree 716d 已提交 p.1–p.73，p.73已提交；p.74草稿未签；方法冲突未解，候选不计完成。新批次均有 provisional clientThreadId；21 个新 checkout 可见、4 个无对应 checkout，formal thread 状态与实际运行模型/effort 未核；worktree 总数下降原因/恢复能力未知。Master 只做调度、审计身份/路径/证据、维护根总账并串行集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
+| 旧 Peer 冻结与收割 | COMPLETE | 29 个 P01–P40 完整成果（含既有 P03）及 Witten/Deng/Drinfeld 已完整纳入 main；6 个未完成候选的审计证据已收割；P10/P12/P30/P41–P65 无候选，P37 映射阻塞，P40 方法范围 hold。 | AUDIT-002、R-004 |
+| 后续 App Server 控制层资格化 | READY_FOR_NEXT_AUTHORIZATION；未启动 | 先在不写论文资产的独立 worktree 验证 start → observe → steer → interrupt/complete → restart → resume、cwd/权限/session 映射和 shared `CODEX_HOME` 行为；资格化通过前不得启动论文 worker。 | AUDIT-002、R-004 |
+| 未完成论文的继续审计/修复 | PAUSED_BY_USER | 仅在用户下一次明确开始后，且 App Server 控制层资格化通过时，从 P17/P19/P27/P31/P32/P34、P37、P40 的已记录断点继续；Master 仍不替 worker 做逐页初审或正文修复。 | AUDIT-001、AUDIT-002 |
 
-## 当前开放问题与阻塞
+## 当前开放问题与阻塞（冻结后）
+
+- P37 的 `Birkar_2016_fano_flips` 仍为唯一 PDF↔MinerU 映射阻塞：93 页 PDF 是 Caucher Birkar `arXiv:1603.05765v4`，同名 Markdown 却是 Keshvari 生产率论文。错误 bundle 原样保留；以后先生成并核验正确导出，不能改名冒充。
+- P17、P19、P27、P31、P32、P34 的已收割审计实物均不等于论文完成；各自缺口和 exact OID 在冻结收据 002 与 AUDIT-INDEX 中。P40 只有 p.1–p.118/127 且证据方法范围冲突未闭合，仍不得计完成。
+- P39、P34、P27 的停止 worktree 留有未提交但未被 committed AUDIT 引用的 300dpi 图；它们保留在原路径，未纳入主线，采用前需重新建立其页级来源关系。
+- PDF 路径数 141、distinct byte streams 139、AUDIT-INDEX 138 行的口径差仍未闭合；不得用本次完成数推出全范围覆盖。
+- R-004 已把后续方向改为 App Server，仍是 `ADOPTED_DIRECTION / NOT_IMPLEMENTED / NOT_RUNTIME_VERIFIED`：共享 broker 的 real-host resume/steer/restart 路径及 shared `CODEX_HOME` 并发行为尚未验证。控制层资格化失败即停止，不启动论文 worker。
+- MinerU library server 的旧停止状态不是自动启动许可；任何未来新解析仍须按 MinerU skill 的质量、隐私和运行边界核定。
+
+## 冻结前历史开放问题与阻塞（不作为当前执行队列）
 
 - P37 的 `Birkar_2016_fano_flips` 前置映射失败：93 页 PDF 首页确为 Caucher Birkar 的 `arXiv:1603.05765v4`，而唯一同名 MinerU Markdown 是 Abolfazl Keshvari 的生产率分析论文。P37 0/93、worktree 论文文件未改；等待用户向 P37 task 发送新提示词。正确 MinerU 导出应先在独立路径生成/核验，不能改名冒充或覆盖当前错配 bundle。
 - `AUDIT-001` 的 Edit 修复行为尚未验证：p.4–5 已发现待修 OCR 差异，按全篇审计完成前不改 Markdown；之后须逐处手改并复读全文。
@@ -26,6 +37,7 @@
 - 官方 Codex 文档确认项目 task/worktree 并行工作模式，但未发现该 app task 入口的数字并发上限；API multi-agent 默认并发配置不同，不能当作 app project peer cap。40 是用户本轮的最低操作目标，不是平台保证值。
 - 当前 Codex 任务列表只暴露 Master 任务，Peer 的正式 threadId/status 仍不可见；worktree 数量不证明同数 Session 此刻都在运行。P40 创建请求返回 provisional clientThreadId 且新 worktree 已出现；不能把 client ID 用于 wait/read/message，也不能将 worktree 存在说成 turn 已启动。P40 的实际 model/effort 状态仍待运行时证据确认。
 - 当前新分派为 2026 Hong Wang/Zahl Kakeya；PDF 127 页、MinerU Markdown 存在、未见对应 AUDIT/Index/page-progress 记录。其他未分派 PDF 的完整交叉核对仍待继续；不得复用旧摘要中的“Viazovska dim24”候选，因为当前 AUDIT-INDEX 第 33 行已登记该 17 页篇为完成。
+- Codex CLI App Server 被作为未来 Peer 控制方式调查，当前仅为 `DRAFT_PROPOSAL`（见 `dev-docs/001-2026-10-02-Codex-App-Server并发Peer工作流调查与试点方案.md`）。续传解题系统现存、可复核的流式运行证据是 OpenCode/Devin ACP；在其 tracked 当前实现与已查 Git 历史中未找到 Codex CLI `app-server` 接线，用户所指的 App Server 运行实例仍待定位。共享 `agent_session_broker.py` 已有 Codex app-server facade，但当前能力索引为 `REVIEW_NEEDED`，缺 resume/steer/启动后 worker-session 恢复和真实 Host smoke。未启动服务器/model；不迁移或重复派发现有 project Peer；R-003 的 40 个顶层 Peer 要求不变。
 
 ## 当前有效约束摘要
 
@@ -46,7 +58,7 @@
 
 ## 已验证事实
 
-- main 分支 AUDIT-INDEX.md 有 70 篇带完成标记，Drinfeld 32p 登记为 审计中（5/32）；这只证明 canonical 登记状态，不代表未集成 peer 候选已完成。
+- 当前 `AUDIT-INDEX.md` 有 138 条记录，其中 102 条标为完成；完成/部分/冻结分类与 exact source/integration OID 已由冻结收据 002 交叉记录。该统计仍不解决 PDF 路径/unique-byte-stream/索引行数的总量冲突。
 - `/Users/aurolafly/.codex/skills/mineru/SKILL.md` 通过 `quick_validate.py`；该结构校验不证明 MinerU 解析质量或本项目页面审计已通过。
 - bootstrap layout validator 报告治理入口布局完整；这不证明 `AUDIT-001` 的未来行为已验证。
 
@@ -146,3 +158,17 @@
 - 在 25 个新 project create_thread 请求均被接受后，当前 `git worktree list` 为52项（含main），其中21个新checkout仍精确停在注册基线dc234aee；4个新请求没有可映射的checkout。P41–P65 formal threadId/turn status未在list_threads出现，不能称25 turn都active。
 - 与更早的63项快照对比，11个先前已列出的旧worktree路径当前不存在，包括P37的a829；Master未调用archive/remove/clean。11个旧HEAD commit对象均能从对象库读取，但其中6个HEAD当前不被branch refs包含；这只证明commit对象现存，不证明未提交/未跟踪资产可恢复。应用归档收据未在当前Master任务可见。
 - P40 worktree在本次观察时已提交p.1–p.66并留下p.67图像草稿；页面候选尚不接受，方法范围冲突仍待闭合。
+
+### E017 · 2026-10-02 · Codex App Server 并发 Peer 工作流调查
+
+- 将新报告写入 `dev-docs/001-2026-10-02-Codex-App-Server并发Peer工作流调查与试点方案.md`，状态明确为 `DRAFT_PROPOSAL / NOT_IMPLEMENTED / NOT_RUNTIME_VERIFIED`。R-003 的并发与身份要求保持不变；本轮没有启动 Codex App Server、模型、论文 Peer，也没有进入论文处理。
+- 只读复核续传系统 `shuxuedashi-analysis-system` 的 `main@667e960d6cbe815ab26f041be1fa584651ed5ecd`：当前 root/代码把 P27 legacy 后端描述为 Devin CLI/tmux，把 v2 后端描述为 OpenCode ACP；`src/v2_pipeline.py` 每个 Round 启动 `opencode acp`、建立 ACP `sessionId`、采集通知并归档 Round。U1 的 OpenCode/Devin ACP smoke 日志确实报告 `/tmp` 文件写读成功；U2 的 OpenCode ACP 实验记录 12,062 个 thought chunks、95,884 字符，且 tracked `c_native_export2.json` 的 assistant reasoning 也是 95,884 字符。U2 同时记录 `end_turn`、零 agent message，不能把协议轮次结束认作解题成功。`046` 对 `session/list` 崩溃恢复的说明是设计；当前所查 `src` 未见其实现。当前 tracked repo/`git log` 搜索未发现 Codex CLI App Server (`thread/start`/`thread/resume`) 的接线；外部/未跟踪运行现场仍属 `UNKNOWN`。
+- 共享 Codex repo `main@d039261aec53c50bb062e479114e245dd2168059` 的 broker 已按 worker `cwd` 启动独立 `codex app-server` 子进程并调用 `thread/start`，但只将 `thread.id` 放入进程内 session map；已有 private event/wire 线索，启动后不重建 worker、不调 `thread/resume`，也未暴露 `turn/steer`。默认 `max_workers=32`（可配置）只是该 broker admission setting，不是 OpenAI 并发上限；能力索引的 Codex real-host post-fix smoke 仍 open。官方 App Server 资料确认 ID、resume、turn/steer 和 sandbox API，但将 App Server 命令标为 experimental/不支持 production workload；共享 `CODEX_HOME` 的多进程锁/40-worker容量尚未实测。
+- 方案借用续传系统 ACP 的 per-work-unit process、实时流、持久化每轮产物、以业务状态和文件证据复核结果；不把 ACP 运行记录改称 Codex App Server 验证，也不复用其“end_turn=结束”作成功判据。后续若采纳，先做无论文写入的单 worker fake/real smoke，再验证进程重启恢复、exact CWD/权限、multi-process shared state，最后测量实际 40 个唯一 thread/worker；具体阶段和 stop/fallback 判据见报告。
+
+### E018 · 2026-10-02 · 旧 Peer 批次冻结、候选收割与 App Server 切换
+
+- 用户声明所有曾启动的 Peer Worker 已停止。Master 以候选 Git history、页签连续性、AUDIT 修复/全文复读收据、路径隔离、未提交资产和 merge preflight 检查旧批次；没有删除、archive、clean 或 reset 任何 worktree。当前 `git worktree list` 为 16（含 main）；限定进程检查未见独立旧 Peer Codex App Server/broker，这只是本机当时的有界观察。
+- P01–P40 中，28 个完整候选被新 Master 提交收割、P03 已在 `8713f2fc`，合计 29 个完整 P 结果；P17/P19/P27/P31/P32/P34 的审计证据收割但明确保持未完成；P10/P12/P30 无候选，P37 映射阻塞，P40 到 `422ed58a` 的 p.118/127 且有方法范围冲突、未集成。P41–P65 仅有 provisional create receipt，未发现可验证 worker 产物。更早的 Witten `bc4605dc`、Deng `3e5e964b`、Drinfeld `f46300d1` 也已收割为 `3429efe7`、`16381c63`、`d2e6bdac`。所有 exact OID、分类和未提交资产边界见收据 002。
+- `AUDIT-INDEX.md` 已成为冻结后的当前篇级真值（138 条：102 完成、6 证据已收割未完成、28 冻结无候选、P37 阻塞、P40 hold）；`AUDIT-PROGRESS.log` 追加冻结/收割/控制模式收据。P07/P16 的 README 页数冲突未改写用户 README；PDF 路径数 141、distinct byte streams 139、索引行数 138 的口径冲突保持开放。
+- 用户已通过 R-004 采纳“后续使用 Codex CLI App Server”的方向；该方向仍未实现/未通过真实 Host 验证。下一步是无论文写入的 start/observe/steer/interrupt-or-complete/restart/resume 资格化。论文继续处理由用户暂缓，资格化前不会派发或重启任何论文 worker。

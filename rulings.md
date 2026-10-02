@@ -33,3 +33,17 @@
 > 立即开启40并发
 
 **归一后的当前要求**：立即建立 40 个同时运行的 Codex 项目 Peer Worker（Master 是调度/审计/集成角色，不计入 40）。已查阅的 OpenAI 官方 Codex app 资料说明可用并行 tasks/worktrees，但未公布此项目 task/worktree 入口的数字并发上限；因此按用户明确的 40 下限执行，不将其描述为平台保证的最大值。继续使用独立 worktree、每 Peer 单篇及互不重叠的精确写入路径；同一 parent 目录下不同论文可并发，前提是 audit 图片文件名空间也互斥。若宿主实际创建/运行能力无法达到 40，立即报告实际建立的活动数量和明确失败证据，不伪称已达标。
+
+## R-004 · 2026-10-02 · 冻结旧 Project Peer 批次，后续改用 App Server 控制单元
+
+**状态**：已采纳；取代 R-003 中“继续以 Codex 项目 Peer 作为后续运行方式”的执行部分，但不追溯否定旧批次的身份、提交、证据或已经收割的结果。
+
+**原始用户指令**：
+
+> 注意，现在非常重要的是，你所有曾经启动的Peer Worker，无论它执行得是否成功，是否接受了你的指令完成了自己的工作，现在它们已经全部停下了。所以对于后续，我们使用App Server的方式，这是一个非常重要的时间节点。在这个节点上，你要检视之前的所有的Peer Worker的工作情况，该收菜的收菜，该记录的记录。
+
+**归一后的当前要求**：旧 Project Peer 批次在 2026-10-02 冻结。Master 先以候选 Git 提交、工作树状态、审计实物和页级记录分类并收割可验证结果，再更新唯一的篇级/页级 current truth；不得把“被派发”“clientThreadId”“工作树仍在”或“轮次结束”当作论文完成。后续新 worker 不再通过 project `create_thread` 派发，而采用每篇独立 worktree 中独立运行的 Codex CLI App Server 控制单元：启动时记录精确 `cwd`、`thread.id`、`thread.sessionId`、`turn.id`、actor、模型、effort、输入 PDF/Markdown 身份与独占写入路径；Master 通过事件流观察，并以 `thread/resume`、`turn/steer`、`turn/interrupt` 管理中断和恢复。
+
+**资格化与停止条件**：App Server 当前只被采纳为后续方向，尚未获得真实运行资格。启动任何论文 worker 之前，必须先在不写论文资产的隔离工作树中验证 start → observe → steer → interrupt/complete → server restart → resume 的完整链，并核验精确 cwd、独立身份、持久化 session 映射、shared `CODEX_HOME` 行为、权限边界和可观察事件；任何一步失败、thread/session 对不上、恢复后工作树状态无法核对，或未能证明独占路径时，停止在控制层，不派发论文。旧 provisional `clientThreadId` 不能推算或转换为 App Server `thread.id`，不得因迁移而重复启动冻结任务。
+
+**并发与模型边界**：用户此前指定的目标 worker 配置为 `gpt-6-luna` 与 `max`；后续每个真实 App Server worker 必须记录实际回显，不得把请求参数冒充为运行证据。并发采用可观测的滑动窗口，窗口大小须由单 worker 恢复资格化、实际账户/主机容量与文件系统隔离结果逐步确定；本裁定不宣称 App Server 或账户已验证支持 40 个同时运行的进程。Master 始终是唯一 canonical integrator，继续独占根级 current truth、集成与状态裁决。

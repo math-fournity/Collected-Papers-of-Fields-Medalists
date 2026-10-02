@@ -90,6 +90,8 @@ echo "$(date '+%Y-%m-%d %H:%M') | PAGE | <论文短名> | p.N/总页 | <PASS±/F
 
 并行 Worktree 采用单篇单 Peer、精确文件集互斥；同一时点只有 Master 是 `CANONICAL_INTEGRATOR`。不同论文可共用同一获奖者父目录，但各 Peer 的 MinerU Markdown、篇级 AUDIT 和 `audit/`/`audit/300dpi/` 证据文件名空间必须不重叠，并以各自 PDF 短名作唯一前缀。Peer 在每页签认后立即把带时间、页码、结果和 actor 的记录写入自己的篇级 AUDIT，并按每页一提交保全该页审计说明与证据图片。Peer 不改根 `AUDIT-INDEX.md`、`AUDIT-PROGRESS.log`、`README.md`、`MEMORY.md` 或其他篇目；Master 监测到 Peer 的精确 page commit 后，把原始事件时间和 actor 复制到主线根进度日志，并独占更新当前总账/资产地图。Peer 的篇级 AUDIT 与候选 Git 提交是并行期间的恢复证据；根级日志是集成后的 canonical 投影。若 Master 尚未收录某页，按 Peer 精确候选 OID 恢复，不能把未集成候选说成主线已完成。
 
+**冻结与后续控制面（R-004）**：2026-10-02 前的 Project Peer 批次已冻结；不得再用 project `create_thread` 启动、重复启动或推断其状态。上述单篇、互斥路径、身份留痕和 Master 单一集成规则继续适用于后续 worker，但后续运行方式为独立 worktree 的 Codex CLI App Server。每个新 App Server worker 除既有 actor/model/effort 外，还必须把精确 cwd、`thread.id`、`thread.sessionId` 和每次 `turn.id` 写入其启动/恢复记录；旧 provisional `clientThreadId` 不能作为这些标识的替代。开始任何论文 worker 前，必须先通过不写论文资产的 start/observe/steer/interrupt-or-complete/restart/resume 资格化；失败则停在控制层。旧批次的收割分类、候选/集成 OID 与未提交资产边界见 `dev-docs/002-2026-10-02-旧Peer批次冻结与收割收据.md`。
+
 旧提交和旧日志不得为满足新格式而改写或回填猜测身份。历史 GLM/其他模型工作继续保留原样；身份、模型或 effort 当时未被记录时必须标为 `UNKNOWN`，不能从文本风格推断。
 
 ## README 与索引维护（资产地图）

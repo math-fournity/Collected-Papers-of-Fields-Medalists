@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|---|
 | AUDIT-001 | 工作方法约束 | 剩余篇目的 MinerU Markdown 正文纠错由 AI 用 Edit 逐处手改；脚本只做只读终验/清点；AI 按原文证据全面复核改动和最终全文。 | `rulings.md#R-001` | 已采纳 | 已记录；实际执行待验证 | SRC:`rulings.md#R-001`；DES:`AGENTS.md#剩余篇目的-MinerU-Markdown-修复`；IMP:`ZCODE-HANDOFF-PROMPT.md#2.4`；VER:`未运行`；EVD:`后续各篇 AUDIT 修复登记 |
 
-| AUDIT-002 | 证据来源与协作 | Master 与每个 Peer 使用唯一 AI actor；篇级 AUDIT、页级工作日志和 Git commit 记录 actor/模型/effort，历史 GLM 身份不回填。官方无公开数值上限时，用户当前要求至少 40 个并发项目 Peer；每 Peer 独立 worktree、单篇及互斥精确写入文件集，Master 独占根级当前态与串行集成。 | `rulings.md#R-002`、`rulings.md#R-003` | 已采纳 | 已记录；实际执行进行中 | SRC:`rulings.md#R-002/#R-003`；DES:`AUDIT-SOP.md#AI-身份与并行Worktree日志`；IMP:`AUDIT-PROGRESS.log`、各篇 `AUDIT-*.md` 与 Git history；VER:`本轮 40-Worker 配置与任务启动检查`；EVD:`Peer 候选提交与 Master 集成收据` |
+| AUDIT-002 | 证据来源、并发与控制面 | Master 与每个 worker 使用唯一 AI actor；篇级 AUDIT、页级工作日志和 Git commit 记录 actor/模型/effort，历史 GLM 身份不回填。旧 Project Peer 批次已冻结并按候选实物收割；后续每篇 worker 使用独立 worktree 的 Codex CLI App Server 控制单元，必须持久记录 cwd、`thread.id`、`thread.sessionId`、`turn.id`、实际模型/effort、输入身份和独占写入集。论文 worker 之前先做无论文写入的 start/observe/steer/restart/resume 资格化；Master 独占根级当前态与串行集成。 | `rulings.md#R-002`、`rulings.md#R-003`、`rulings.md#R-004` | 已采纳；App Server 方向尚未运行资格化 | 旧批次收割已完成；后续运行待控制层资格化 | SRC:`rulings.md#R-002/#R-003/#R-004`；DES:`AUDIT-SOP.md#AI-身份与并行Worktree日志`、`dev-docs/001-2026-10-02-Codex-App-Server并发Peer工作流调查与试点方案.md`；IMP:`AUDIT-PROGRESS.log`、各篇 `AUDIT-*.md` 与 Git history；VER:`App Server 非论文 smoke + 恢复验收`；EVD:`dev-docs/002-2026-10-02-旧Peer批次冻结与收割收据.md`、Peer 候选与 Master 集成收据 |
 
 ## 锚点合同
 
