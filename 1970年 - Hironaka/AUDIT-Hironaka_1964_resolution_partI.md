@@ -261,3 +261,10 @@
 - 证据：源 PDF p.035 文本层、页图 `audit/Hironaka_1964_resolution_partI_p035.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p035_J_index.png` 与 MinerU Markdown 第 553–567 行。Main theorem II 条件 (ii) 印刷为 `\nu(J_{i,x(i)})`；Markdown 第 561 行写作 `\nu(J_{ix(i)})`，丢失 sheaf index i 与 point x(i) 之间的逗号，裁片确认该分隔符。
 - 备注：印刷运行页眉和页码 142 未录入 Markdown；其余 weak-transform 与 E_{i+1} 公式相符。
 - 结论：局部 sheaf-index 结构误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.036 / 96（印刷 p.143）— FAIL
+
+- 时间：2026-10-02 02:02 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.036 文本层、页图 `audit/Hironaka_1964_resolution_partI_p036.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p036_transform_indices.png` 与 MinerU Markdown 第 561、575、577 行。Main theorem II 条件 (iv) 印刷为 `\nu(J_{r,y})<d`，Markdown 第 575 行写成 `\nu(J_{ry})<d`；由 (ii) 推出的 `\nu(J_{i,x(i)})=d` 在第 577 行也丢失 i 与点 x(i) 间的逗号。300dpi 裁片核准这两个索引分隔符。
+- 备注：B* 比较方向、e≥1 与两项 corollary 条件相符；印刷运行页眉和页码 143 未录入 Markdown。
+- 结论：两个局部 sheaf/stalk index 逗号缺失，列为 FAIL；待全篇审计结束后逐处修复。
