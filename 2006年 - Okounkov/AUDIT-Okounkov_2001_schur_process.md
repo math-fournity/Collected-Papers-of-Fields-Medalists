@@ -215,3 +215,9 @@
 - 核对：§3.2.4（φ_Planch[m] 分段特化 e^{√αz}/e^{√αz^{−1}}/1、K_Planch 二重积分式）、§3.2.5（α→∞ 渐近、S_Planch=z−z^{−1}−(ξ/2)ln z、临界点 |ξ|<2 时 e^{±iθ}、θ=arccos(ξ/2)、K_Planch→sin(θΔ)/(πΔ)）
 - 结果：PASS±（一处已修复）：行 1137 句末补句号（p031.png "see [1, 8]."）。
 - 备注：Bessel/Bessel functions、poissonized 拼写与印刷一致；数学内容零差异。
+
+## p.032（PDF p.32 / 印刷 p.32）
+- PNG：audit/p032.png（pngmono 150dpi）
+- 核对：§3.2.6（depoissonization、等价系综）、§3.2.7 与式 (40)（K 的系数提取式）、Airy 核恒等式、§3.2.8（[7] Airy process）、附录 A 开头（Λ^{∞/2}V、v_S=s₁∧s₂∧s₃∧…）
+- 结果：PASS±（两处已修复）：① 行 1167 "as$N  \infty$"→"as$N \to \infty$"（p032.png 印刷 N → ∞，箭头丢失）；② 行 1191 "spanned by k"→"spanned by$\underline { k }$"——p032.png 印刷基向量 k 带下划线，md 附录他处（如行 1219）均用 \underline{{k}}，本处丢失。
+- 备注：Airy 核公式与 (40) 的系数记号 [z^{x₁+m}w^{−x₂−m}] 全部吻合。

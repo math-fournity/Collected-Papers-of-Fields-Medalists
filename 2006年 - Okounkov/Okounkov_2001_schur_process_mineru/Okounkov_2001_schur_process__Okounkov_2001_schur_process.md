@@ -1166,7 +1166,7 @@ $$
 
 ## 3.2.6
 
-Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume N as$N  \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
+Of course, a finer analysis (which was carried out in [1]) is needed to justify depoissonization in the asymptotics. In our situation, a similar problem is to pass from the$q \to 1$asymptotics of the measure${ \mathfrak { M } } _ { q }$to the asymptotics of the uniform measures on partitions of a given volume N as$N \to \infty$. In other words, further work is needed to verify the equivalence of ensembles in the asymptotics.
 
 ## 3.2.7
 
@@ -1190,7 +1190,7 @@ Recently, the techniques of this paper were used in [7] to prove that, indeed, t
 
 ## A Summary of the infinite wedge formulas
 
-Let the space V be spanned by k,$k \in \mathbb { Z } + \frac { 1 } { 2 }$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
+Let the space V be spanned by$\underline { k }$,$k \in \mathbb { Z } + \frac { 1 } { 2 }$. The space$\Lambda ^ { \frac { \infty } { 2 } } V$is, by definition, spanned by vectors
 
 $$
 v _ {S} = \underline {{s _ {1}}} \wedge \underline {{s _ {2}}} \wedge \underline {{s _ {3}}} \wedge \dots ,
