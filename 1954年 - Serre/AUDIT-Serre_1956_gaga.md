@@ -269,6 +269,13 @@
 - Checked: Proposition 23's flat-pair transitivity argument, Remark, the local-ring setup, Proposition 24, and footnote (6).
 - Result: FAIL. Print names the maximal ideal as fraktur lowercase m; Markdown line 976 gives uppercase M. Line 978 also renders m in regular rather than fraktur type, a non-misleading style loss. The subscript/variable identity in the setup is materially wrong at line 976.
 
+### PDF p.039/43 — print p.38
+
+- Reviewed: 2026-10-02 00:53 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi m-adic and Artin–Rees crop](audit/300dpi/Serre_1956_gaga_p039_m-adic-Artin-Rees_300dpi.png); PDF text layer and MinerU Markdown lines 986–1018.
+- Checked: Proposition 24 and its corollary, the m-adic topology definition, Proposition 25(a)–(b), the Artin–Rees relation, and the completion map in Proposition 26.
+- Result: FAIL. The print defines the neighborhood basis by the submodules m^n E; the crop confirms exponent n. Markdown line 996 has m°E. The Artin–Rees relation and completion map agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
