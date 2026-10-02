@@ -82,3 +82,9 @@
 - Luna 旧修复重核：9 页逐页抽样全部通过——旧基线登记的 FAIL 项（题名重音、arXiv 印记、deduce/the、连字符、∈、bullet、widetilde/barΔ、N_k^{1/k} 后多 2、致谢顺序、f_i 初值、方框控制字符等）在当前 MD 中均确已修复；Luna 登记的 print quirk 保留项（hands、was has been、a integer、one in interested、this give 等）均被正确保留、未被误改。
 - 收尾只读清点：`$$` 定界行 490（偶）；`\tag` 51；C0 控制字符 0；1,783 行 / 124,488 bytes。MD SHA-256 由基线 60f572494701…dd1b 变为 a6ff2f6080b91693e03e58e3fcf962a26c5e2c0a174185abaf445ae86c36e796（差异 = 上列 8 处修复，见 git diff 8d10e4f6..HEAD）。
 - 范围声明：本块只覆盖 p.1–p.9；p.10–p.34 的重检与全篇总评、根级索引/进度由后续块与集成方负责，本文件不对其作任何结论。证据图 18 张（p001–p009 全页 + 9 张 300dpi 裁片）均已随页提交入库。
+
+## p.010（PDF p.10 / 印刷 p.10）
+- PNG：audit-redo/p010.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：Proposition 3.2 假设与 (3.1)、(i)(ii) 两式（≼ N^{4/3}⟨t⟩^{1/6}、≼ N⁴T）、§3.2 节引、Lemma 3.3 差分式（ΣΣΠ min(N, 1/‖2tL_j(r)‖)）、#E^N_{m₁,m₂} 求和式与定义、(3.2)、Minkowski minima 引理（N²/(M₁^tM₂^t)、F(n,m)=max(|n_i/N|, N|tL_i(n)−m_i|)、M_k^t 定义）、t∼T∈2^ℤ、dyadic 条件 (3.3a)–(3.3e)
+- 结果：PASS±（2 处已修复）。(3.1)–(3.3e) 编号与内容逐项与印刷一致（Luna 旧基线的编号错位/空标签已不存在；(3.3a)-(3.3e) 标签齐全且与印刷对位）。**修复 2 处**：L539-541 位于 (3.3c) 与 (3.3d) 之间的**空 display 块**（`$$`空对，印刷页无此结构）——整块删除；L489 句尾全角逗号 "，"→半角 ","（印刷为半角）。残余瑕疵（不误导，不改）：L481 "(ii) For any T ≥ 1" 后缺逗号。
+- 备注：Luna 旧修复抽核通过——本页公式链（Lemma 3.3 → E 集合 → (3.2) → Minkowski → (3.3a-e)）与印刷逐式一致，旧基线的编号问题已修复且未引入新错位。

@@ -486,7 +486,7 @@ $$
 
 3.2. Proof of (i) in Proposition 3.2. The first step is to apply Weyl differencing to obtain the following lemma, whose proof we postpone for the moment.
 
-Lemma 3.3. Denoting$\begin{array} { r } { L _ { j } ( n ) = \sum \alpha _ { i j } n _ { i } } \end{array}$, for any$\boldsymbol { x } \in \mathbb { T } ^ { 2 }$and$t \in \mathbb { R }$，
+Lemma 3.3. Denoting$\begin{array} { r } { L _ { j } ( n ) = \sum \alpha _ { i j } n _ { i } } \end{array}$, for any$\boldsymbol { x } \in \mathbb { T } ^ { 2 }$and$t \in \mathbb { R }$,
 
 $$
 | K _ {N} (t, x) | ^ {2} \lesssim \sum_ {r _ {1} = - 2 N} ^ {2 N} \sum_ {r _ {2} = - 2 N} ^ {2 N} \prod_ {j = 1} ^ {2} \min \left(N, \frac {1}{\| 2 t L _ {j} (r) \|}\right).
@@ -536,8 +536,6 @@ $$
 
 $$
 | n _ {1} ^ {\prime} |, | n _ {2} ^ {\prime} | \leq \frac {\gamma}{\beta} N\tag{3.3c}
-$$
-
 $$
 | m | \lesssim T \beta N\tag{3.3d}
 $$
