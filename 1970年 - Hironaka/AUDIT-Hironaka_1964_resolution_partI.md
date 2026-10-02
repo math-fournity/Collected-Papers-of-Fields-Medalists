@@ -304,3 +304,10 @@
 - 证据：源 PDF p.041 文本层、页图 `audit/Hironaka_1964_resolution_partI_p041.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p041_zariski_symbol.png` 与 MinerU Markdown 第 647–663 行。原页 Theorem / Question (F) 使用花体 Zariski-space 标识 `\mathfrak{Z}`，Markdown 第 659、661、663 行及后续关联式将其写成数字 `3`，包括 `\mathfrak{Z}(X_1)`、`\mathfrak{Z}(X_2)`、`h_i:\mathfrak{Z}\to X_i`。`dim(X)\leq 3` 的边界与原页相符。
 - 备注：印刷运行页眉和页码 148 未录入 Markdown，属导航元素省略。
 - 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.042 / 96（印刷 p.149）— FAIL
+
+- 时间：2026-10-02 02:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.042 文本层、页图 `audit/Hironaka_1964_resolution_partI_p042.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p042_zariski_questions.png` 与 MinerU Markdown 第 659–677 行。Question (F) 和后续定理里的 Zariski space 印刷为花体 `\mathfrak{Z}`，Markdown 相应多处写成数字 `3`，包括全局空间、`h_i` 的定义域及定理假设中的对象；维数关系 `\dim(X_1)=\dim(X_2)\geq 3` 与问题 (F′) 复合映射其余部分相符。
+- 备注：印刷运行页眉和页码 149 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL。
