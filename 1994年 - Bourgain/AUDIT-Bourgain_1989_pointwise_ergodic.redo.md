@@ -56,3 +56,10 @@
 - 核对：(2.2) 的归一化 $|\Lambda\cap[1,N]|^{-1}$ 与求和条件 $1\leqslant n\leqslant N,\ n\in\Lambda$；平方序列的极限两式（irrational → 0；Gauss-sums 定义 $S(q,a)$）；§2B 开头 $A_n f$、$f^*$ 定义；(2.3)、(2.4) 双范数不等式与 $L^{1,\infty}$ 定义行。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 151–207 行。
 - 结果：PASS±。(2.3) 现为 $\|f^*\|_{L^p(\Omega,\mu)}\leqslant C(p)\|f\|_{L^p(\Omega,\mu)}$、(2.4) 现为 $\|f^*\|_{L^{1,\infty}(\Omega,\mu)}\leqslant C\|f\|_{L^1(\Omega,\mu)}$，均与原页一致——Luna 对 (2.3)/(2.4) 定界符的旧修复经核正确。Gauss 和式：300dpi 裁片显示印刷为 $e^{2\pi i\alpha r^2}$（希腊 α，无 /q），与 Markdown 现文完全一致；Luna 旧审备注称印刷为 $e^{2\pi iar^2/q}$ 属对原页的误述，但未导致 Markdown 错误，本次不修复、只更正记录。印刷源级 quirk “given by (4)” 忠实保留；“arithmetic sets” 拼写与原页一致（150dpi 下疑似的 “arithmetics” 经 300dpi 否定），该行闭引号后原页有一墨迹微点，非字符。§2B 的 $A_n f=\frac{1}{N}\sum_{n=1}^{N}T^nf$ 下标混用（$A_n$ 对 $1/N$）为原页排印原样，Markdown 忠实保留。Markdown 未保留运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS”、印刷页码 9 及右下角孤立数字 2。与 Luna 旧审（p.006 FAIL→修复）差异已修复的说法一致，但其等价性备注表述有误。
 - 时间：2026-10-02 15:22 EDT 落签
+
+## p.007（PDF p.7 / 印刷 p.10）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p007.png`（Ghostscript `pngmono`，150dpi；原 PDF p.7）；`audit-redo/p007_2.8_300dpi.png`（(2.8) 裁片）、`audit-redo/p007_ell_300dpi.png`（shift 不等式范数下标裁片；原 PDF p.7 300dpi 渲染后裁切）。
+- 核对：(2.5) 受限极大函数（含源级 “$(f\leqslant 0)$” 条件）；轨道与截断 (2.6)；(2.7)；ℓ^p 链不等式；(2.8) 及其积分后的 $\|T^j\bar f\|_p^p$ 不等式（含 $C(p)^p$）；收尾 $\|\bar f\|_p\leqslant C(p)\frac{J}{J-\bar N}\|f\|_p$、$\|f^*\|_p$；弱型推导起点与集合计数式。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 203–275 行。
+- 结果：PASS±。全部公式、求和界（(2.8) 右端 $0\leqslant j\leqslant J$ 对积分后右端 $0\leqslant j<J$ 的差别）与文字均与原页一致；Luna 对积分后不等式两处 Fraktur $\mathfrak p\to p$ 的旧修复经核正确（现为普通斜体 $p$，与原页相符）。两处原页排印原样在 Markdown 中忠实保留，本次补记：①(2.8) 左端 $\bar f(T^jx)$ 前印刷为双竖线、闭侧单竖线（300dpi 裁片证实为原页排印，非 MinerU 伪影）；②shift 不等式左范数下标印刷排为 $\ell^{1}\,\infty_{(\mathbf Z)}$（“1” 作 ℓ 下标、“$(\mathbf Z)$” 挂于 ∞ 下），Markdown 逐字对应，不按数学预期改写。源级语病 “in the some way” 忠实保留。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 10。与 Luna 旧审（p.007 FAIL→修复）已修复项一致；其未登记上述两条印刷 quirk。
+- 时间：2026-10-02 15:35 EDT 落签
