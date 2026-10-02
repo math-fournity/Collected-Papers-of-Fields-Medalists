@@ -106,7 +106,7 @@ $$
 
 and $f \in \mathbf{L}^r(\Omega, \mu), r > 1$. The constant $\mathbf{C}$ in (1.7) depends only on $r > 1$ and on the polynomial $p(x)$. Moreover, the averages $A_{N}f$ converge almost surely for $N \to \infty$. If $T$ is weakly mixing, the limit if given by $\int f d\mu$.
 
-The previous result remains valid for positive isometries on  $\mathbf{L}^{1}(\Omega,\mu)$ . Let us point out that the proof of Theorem 1, in the case of a general polynomial  $p(x)$  with integer coefficients, is essentially identical to the special case  $p(x)=x^{2}$ . Essential use is made of duality and interpolation methods.
+The previous result remains valid for positive isometries on  $\mathbf{L}^{r}(\Omega,\mu)$ . Let us point out that the proof of Theorem 1, in the case of a general polynomial  $p(x)$  with integer coefficients, is essentially identical to the special case  $p(x)=x^{2}$ . Essential use is made of duality and interpolation methods.
 
 In section 8, the results of section 4 and section 5 are used to prove the following
 

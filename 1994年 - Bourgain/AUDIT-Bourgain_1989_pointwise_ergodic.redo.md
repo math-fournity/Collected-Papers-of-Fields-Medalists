@@ -35,3 +35,10 @@
 - 核对：§1 后半段（$\Lambda=\{[p(n)]\}$、full $L^p$-range、$L^1$ open）；圆周平方平均 (1.2) 与极大不等式 (1.3)（含积分上下限 0–1、sup 的指数 $p$、$n^2\alpha$、右端 $c\int f^p$、条件 $f\geqslant 0$）；过渡两句。文本层 + 150dpi 原页图双通道，对 Markdown 第 39–65 行。
 - 结果：PASS±。全部公式与文字与原页一致；印刷源级语病 “Let $f$ be and $\mathbf{L}^p$-function”（原页如此）与 “straight forward” 在 Markdown 忠实保留，不按语法改正。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 6（版面件缺录，与 Luna 旧审记录一致，不误导）。与 Luna 旧审（p.003 PASS±）结论一致，无修复。
 - 时间：2026-10-02 14:53 EDT 落签
+
+## p.004（PDF p.4 / 印刷 p.7）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p004.png`（Ghostscript `pngmono`，150dpi；原 PDF p.4）；`audit-redo/p004_isometries_300dpi.png`（原 PDF p.4 300dpi 渲染后裁片，裁决 “positive isometries” 句的上标）。
+- 核对：(1.4) 变差空间定义（含 sup 下标 $s;\,j_1<\dots<j_s$ 与 $x_{j_{s-1}}-x_{j_s}$、指数 $1/p$）；(1.5)–(1.6) 指数和与多项式；定理 1 陈述与 (1.7) 的范数/绝对值/上确界分组；定理后文字（$\mathbf{L}^r(\Omega,\mu)$、$r>1$、“positive isometries” 句、$p(x)=x^2$ 句）。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 67–121 行。
+- 结果：FAIL（一处，已当场修复）。(1.7) 现为 $\|\sup_{\mathbf N}|A_{\mathbf N}f|\|_r\leqslant C\|f\|_r$，与原页分组一致（Luna 对 (1.7) 的旧修复经核正确）。但 Luna 旧修复把 “positive isometries” 句的空间改成 $\mathbf{L}^{1}(\Omega,\mu)$ 并声称印刷为 $L^1$；本次 300dpi 裁片清晰显示印刷上标为斜体 **r**，原页为 $\mathbf{L}^{r}(\Omega,\mu)$。已用 Edit 将该处改回 `$\mathbf{L}^{r}(\Omega,\mu)$`（Luna 旧修复中的错误，本次纠正）。其余：印刷源级 quirks “we considerer the variation spaces”、定理 1 的 “by a dynamical system”、“the limit if given by” 均忠实保留未改；(1.4)–(1.6) 的下标、求和界与系数与原页一致。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 7。与 Luna 旧审（p.004 FAIL→修复）结论部分一致，但其 $L^1$ 判读经 300dpi 复核为误判。
+- 时间：2026-10-02 15:01 EDT 落签
