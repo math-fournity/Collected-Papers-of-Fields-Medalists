@@ -364,17 +364,17 @@ S. M. was supported by the Engineering and Physical Sciences Research Council [E
 
 ## 2. The conjecture
 
-In order to formulate a conjecture, we examine a few particular functions$f ,$, and determine heuristically the ratio$\| e ^ { i t \tilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } / \| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) }$which they yield.
+In order to formulate a conjecture, we examine a few particular functions$f$, and determine heuristically the ratio$\| e ^ { i t \tilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } / \| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) }$which they yield.
 
 (1) If$f = 1$, we find$\| e ^ { i t \widetilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \sim T ^ { \frac { 1 } { p } }$
 
-(2) Choose$f ( x ) = N ^ { \frac { d } { 2 } } \chi \left( N x \right)$for a smooth compactly supported function$\chi .$. Then$f$is normalized in$L ^ { 2 }$, with$\| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) } \sim 1$, and the transform$\hat { f }$has rapid decay outside the ball $B ( 0 , N )$. Furthermore, for$\begin{array} { r } { \frac { 1 } { N ^ { 2 } } \ll t \ll \frac { 1 } { N } , e ^ { i t \widetilde { \Delta } } f } \end{array}$nearly coincides with the solution of the Schrödinger equation on$\mathbb { R } ^ { d }$with initial data$f$which is mostly supported on$B ( 0 , t N )$and has size$\sim \frac { 1 } { ( t N ) ^ { d / 2 } } ;$this is because the solution to this PDE propagates at a group velocity$\lesssim N$, hence for times$\ll \frac { 1 } { N }$, the difference between the torus and the whole space is negligible. Therefore
+(2) Choose$f ( x ) = N ^ { \frac { d } { 2 } } \chi \left( N x \right)$for a smooth compactly supported function$\chi$. Then$f$is normalized in$L ^ { 2 }$, with$\| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) } \sim 1$, and the transform$\hat { f }$has rapid decay outside the ball $B ( 0 , N )$. Furthermore, for$\begin{array} { r } { \frac { 1 } { N ^ { 2 } } \ll t \ll \frac { 1 } { N } , e ^ { i t \widetilde { \Delta } } f } \end{array}$nearly coincides with the solution of the Schrödinger equation on$\mathbb { R } ^ { d }$with initial data$f$which is mostly supported on$B ( 0 , t N )$and has size$\sim \frac { 1 } { ( t N ) ^ { d / 2 } } ;$this is because the solution to this PDE propagates at a group velocity$\lesssim N$, hence for times$\ll \frac { 1 } { N }$, the difference between the torus and the whole space is negligible. Therefore
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, 1 ] \times \mathbb {T} ^ {d})} ^ {p} \gtrsim \int_ {\frac {1}{N ^ {2}}} ^ {\frac {1}{N}} \int_ {B (0, t N)} \frac {d x d t}{(t N) ^ {d p / 2}} \gtrsim N ^ {\frac {d p}{2} - (d + 2)} \qquad \mathrm{if} p > \frac {2 (d + 2)}{d}.
 $$
 
-(3) We want to find the “refocusing time” with the same$f .$. In other words, how big should t be taken in order that$e ^ { i t \tilde { \Delta } } f$be similar to$f$itself? Or what is an “almost period” of the flow?
+(3) We want to find the “refocusing time” with the same$f$. In other words, how big should t be taken in order that$e ^ { i t \tilde { \Delta } } f$be similar to$f$itself? Or what is an “almost period” of the flow?
 
 On a rectangular torus all possible$e ^ { i t \Delta } f$are periodic with a common period, forcing the refocusing time to be$O ( 1 )$; clearly this is not the typical behaviour of a nonpositively curved manifold.
 

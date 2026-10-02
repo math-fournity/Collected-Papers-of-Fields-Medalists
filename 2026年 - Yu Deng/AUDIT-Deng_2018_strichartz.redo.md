@@ -53,3 +53,9 @@
 - 核对：μ₁/μ₂ measure 定义式（t^{−1}m_i^{(j)}、O(γ_j/TN)、O(1/tN)、≲ 条件尾）、y^{(k)} 系统计数段与 Σ_{k=1}^{d+1}y_i^{(k)}y_j^{(k)}=A_{ij}、§1.5 八条 Notation bullet（‖x‖=min|x−k|、≲/∼ 定义、⪯ 定义、≪ 约定、1_E(x)、f̂_k 与 f̂(τ,k) 两个积分式、⟨t⟩=√(1+t²)）、Acknowledgements 四段 grant 号
 - 结果：PASS±（1 处已修复）。μ₁/μ₂、求和式、八条 bullet、四个 grant（DMS-1900251；DMS-1501019+Simons+NYUAD；Simons Investigator；EP/M507970/1+ERC 670239+Fields+NSF-DMS 1363013）逐项与印刷一致；\widehat{f}_k（帽只在 f 上）忠实。print quirk 忠实保留：L323 原刊不平衡括号 y^{(d+1)})∈(ℤ^d)^{d+1}（无开括号）。**修复 1 处**：L323 "the number of solution"→"solutions"（印刷与 pdftotext 均为 solutions）。残余瑕疵（不误导，不改）：L333/L335/L339 bullet 尾缺句号 3 处。
 - 备注：Luna 旧修复抽核通过——旧基线 ‖x‖ 主语漏录、\widehat{f_k} 帽位错、致谢顺序错/S.M. grant 重复在当前 MD（L333/L346/L357-363）均已不存在。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit-redo/p008.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p008_300dpi_rect_display.png ＋ pdftotext 文本层对账
+- 核对：§2 节引（比值 ‖e^{itΔ̃}f‖/‖f‖）、启发式 (1)–(3) 全部 display：(1) ∼T^{1/p}；(2) N^{d/2}χ(Nx)、∫_{1/N²}^{1/N}∫_{B(0,tN)}dx dt/(tN)^{dp/2} ≳ N^{dp/2−(d+2)}；(3) N^{−d/2}Σχ̂(k/N)e^{2πi[…]}、∀k 邻式、‖tα_{ij}‖≪1/N²、(d²+d−2)/2、Dirichlet/Khinchin 的 N^{d²+d−2−ε}≲q≲N^{d²+d−2} 与 ‖qα_{ij}‖<1/N²、almost period、末式 N^{d/2−(d+2)/p}[T/N^{d²+d−2−ε}]^{1/p}>N^{d/2−(d²+2d)/p−ε}T^{1/p}；(4) 开头
+- 结果：PASS±（3 处已修复）。全部公式逐项吻合。300dpi 裁定两处易误读点均为 MD 忠实：矩形环面句印刷确为**无波浪** e^{itΔ}（与紧邻下一句的 e^{itΔ̃} 形成原刊自身对比，MD L379/L381 分别正确）；表达式 display 内层 Σ 印刷**无** _{ij} 下标（MD L384 一致；∀k 式的 Σ_{ij} 有下标，MD L390 亦一致）。print quirk 忠实保留："close to a integer multiple of 2π"（L393）、"this give examples"（L409）。**修复 3 处**（同类：原刊没有的多余标点）：L367 `$f ,$,`→`$f$,`；L371 `$\chi .$.`→`$\chi$.`；L377 `$f .$.`→`$f$.`。残余瑕疵（不误导，不改）：L369/L403 句尾标点缺失；L371 "initial data f" 后缺逗号。
+- 备注：Luna 旧修复抽核通过——旧基线初值误成 f_i 等在当前 MD（L371 为 N^{d/2}χ(Nx)）已不存在；"a integer multiple" 为原刊原样，Luna 亦登记保留，正确。
