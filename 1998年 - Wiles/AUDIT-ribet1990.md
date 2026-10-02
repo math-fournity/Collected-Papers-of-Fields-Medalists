@@ -185,3 +185,10 @@
 - 印刷原文 quirk：L782 印刷即 "For x ∈ *I*, x ≠ 0"（语义预期为 x∈T；300 dpi 确证 I 为印刷原样），MD 忠实保留不改。
 - 备注：F_q 印刷粗体，MD 正体（登记不改）。
 - 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.023（PDF p.23 / 印刷 p.452）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 17:08 -0400。
+- PNG：`audit/ribet1990_p023.png`（pngmono，150 dpi）。
+- 核对：Lemma 3.17 收尾（Z[p⁻¹]、[41] Th. 5.7 p.89、□）；Theorem 3.15 证明（(E−E′,0)/(0,E−E′)、even power p^{2i}、π_j/θ_j 因子分解、λ=π₀−θ₁+…−θ_{2i−1}、δ(λ) 与 λ′）；Remark 3.18（Ron Livné、Bas Edixhoven）；τ 与 T_p 之区分（p-th Hecke、w_p 相对 divisor p）；正合列 0→Y→L→X⊕X→0；Theorem 3.19（T_p=−w_p on Y、(x,y)↦(τ(x)−y, px)）；αw_p=β、βw_p=α；T_p+w_p 经 α_*/β^* 分解、vanishes on Y；p+1=α_*α*=β_*β*、τ=β_*α*=α_*β*（上下标正确）；(τx,(p+1)x)、 Subtracting w_p、□ ✓ 全部与印刷一致。
+- 备注：E/E′ 全页粗体 enhanced 记号 MD 保留正确（块二修复后惯例稳定）；"even" 斜体拍平（登记不改）；□ 惯例不收录。
+- 结果：PASS。
