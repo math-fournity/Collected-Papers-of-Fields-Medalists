@@ -52,3 +52,9 @@
 - 核对：映射 (5)（{λ(t)}↦𝔖({λ(t)})⊂ℤ×(ℤ+½)）、Figure 2（点场与非相交路径图及题注）、§2.2/§2.2.1、Prob∝∏_{t∈ℤ}𝕊^(t)(λ(t),λ(t+1)) 式
 - 结果：PASS。公式、编号 (5)、∏ 下标 t∈ℤ、图题注全部吻合；图片引用 images/page_6_chart_4.jpg 存在可解析。
 - 备注：印刷原文两处均写 "as in Figure 2"/"shown in Figure 2"（第二句亦指 Figure 2，印刷如此）忠实保留；行 187 句末无句号与印刷一致。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit/p008.png（pngmono 150dpi）
+- 核对：§2.2.2（φ(z)=Σ_{k∈ℤ}φ_k z^k、winding number 0/geometric mean 1 条款）、§2.2.3（X={x_i},Y={y_i}∈𝔖、无限行列式 (6) det(φ_{y_i−x_j})）、§2.2.4 Wiener-Hopf 分解 φ(z)=φ⁺(z)φ⁻(z)
+- 结果：PASS±（三处 ff 连字丢失已修复，文本层+PNG 双证）：① 行 207 "coeficient"→"coefficient"；② 行 233 "diferent regularizations difer"→"different regularizations differ"；③ 行 235 "diferent"→"different"。
+- 备注：公式、节编号、tag (6) 全部吻合；"well defined"（无连字符）与印刷一致。

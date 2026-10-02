@@ -204,7 +204,7 @@ $$
 
 where$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a certain time-dependent transition weight between the partition$\mu$and λ which will be defined presently.
 
-The coeficient$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a suitably regularized infinite minor of a certain Toeplitz matrix. It can be viewed as a generalization of the Jacobi-Trudy determinant for a skew Schur function or as a form of Karlin-McGregor non-intersection probability [12].
+The coefficient$\mathsf { S } ^ { ( t ) } ( \mu , \lambda )$is a suitably regularized infinite minor of a certain Toeplitz matrix. It can be viewed as a generalization of the Jacobi-Trudy determinant for a skew Schur function or as a form of Karlin-McGregor non-intersection probability [12].
 
 ## 2.2.2
 
@@ -230,9 +230,9 @@ $$
 \det \left(\phi_ {y _ {i} - x _ {j}}\right).\tag{6}
 $$
 
-We will see that, even though there is no canonical way to evaluate this determinant, diferent regularizations difer by a constant which depends only on$\phi$and not on$X$and$Y$.
+We will see that, even though there is no canonical way to evaluate this determinant, different regularizations differ by a constant which depends only on$\phi$and not on$X$and$Y$.
 
-Since our goal is to define probabilities only up to a constant factor, it is clear that diferent regularizations lead to the same random process.
+Since our goal is to define probabilities only up to a constant factor, it is clear that different regularizations lead to the same random process.
 
 ## 2.2.4
 
