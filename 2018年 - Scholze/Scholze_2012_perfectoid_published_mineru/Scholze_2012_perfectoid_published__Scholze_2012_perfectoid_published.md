@@ -32,19 +32,19 @@ $$
 \mathrm{K} ^ {\circ} / p = \mathbf {Z} _ {p} \big [ p ^ {1 / p ^ {\infty}} \big ] / p \cong \mathbf {F} _ {p} \big [ t ^ {1 / p ^ {\infty}} \big ] / t = \mathrm{K} ^ {\flat \circ} / t,
 $$
 
-where the middle isomorphism sends$p ^ { 1 / p ^ { n } }$to$t ^ { 1 / \boldsymbol { p } ^ { n } }$. Using it, one can define a continuous multiplicative, but nonadditive, map$\mathrm { K } ^ { \flat }  \mathrm { K } , x \mapsto x ^ { \sharp } .$, which sends t to$\beta .$On$\mathrm { K } ^ { \flat \circ }$, it is given by sending x to$\scriptstyle \operatorname* { l i m } _ { n \to \infty } y _ { n } ^ { p ^ { n } }$, where$\mathcal { V } _ { n } \in \mathrm { K } ^ { \circ }$is any lift of the image of$x ^ { 1 / \beta ^ { n } }$in $\mathrm { K } ^ { \flat \circ } / t = \mathrm { K } ^ { \circ } / \boldsymbol { \rho }$. Then one has an identification
+where the middle isomorphism sends$p ^ { 1 / p ^ { n } }$to$t ^ { 1 / \boldsymbol { p } ^ { n } }$. Using it, one can define a continuous multiplicative, but nonadditive, map$\mathrm { K } ^ { \flat } \to \mathrm { K } , x \mapsto x ^ { \sharp }$, which sends t to$p$. On$\mathrm { K } ^ { \flat \circ }$, it is given by sending x to$\operatorname* { l i m } _ { n \to \infty } y _ { n } ^ { p ^ { n } }$, where$y _ { n } \in \mathrm { K } ^ { \circ }$is any lift of the image of$x ^ { 1 / p ^ { n } }$in $\mathrm { K } ^ { \flat \circ } / t = \mathrm { K } ^ { \circ } / p$. Then one has an identification
 
 $$
-\mathrm{K} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K},   x \mapsto \big (x ^ {\sharp}, \big (x ^ {1 / p} \big) ^ {\sharp}, \ldots \big).
+\mathrm{K} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\sharp}} \mathrm{K},   x \mapsto \big (x ^ {\sharp}, \big (x ^ {1 / p} \big) ^ {\sharp}, \ldots \big).
 $$
 
-In order to prove the theorem, one has to construct a canonical finite extension$\mathrm { L } ^ { \sharp }$of K for any finite extension L of$\mathrm { K } ^ { \flat }$. There is the following description. Say L is the splitting field of a separable polynomial$\mathrm { X } ^ { d } + a _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + a _ { 0 }$, which is also the splitting field of$\mathrm { X } ^ { d } + a _ { d - 1 } ^ { 1 / \hat { p } ^ { n } } \mathrm { X } ^ { d - 1 } + \cdots + a _ { 0 } ^ { 1 / { p } ^ { n } }$for all$n \geq 0$. Then$\mathrm { L } ^ { \sharp }$can be defined as the splitting field of$\mathbf { \partial } \cdot \mathbf { X } ^ { d } + ( a _ { d - 1 } ^ { 1 / p ^ { n } } ) ^ { \sharp } \mathbf { X } ^ { d - 1 } + \cdots + ( a _ { 0 } ^ { 1 / p ^ { n } } ) ^ { \sharp }$for n large enough: these fields stabilize as$n \to \infty$
+In order to prove the theorem, one has to construct a canonical finite extension$\mathrm { L } ^ { \sharp }$of K for any finite extension L of$\mathrm { K } ^ { \flat }$. There is the following description. Say L is the splitting field of a separable polynomial$\mathrm { X } ^ { d } + a _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + a _ { 0 }$, which is also the splitting field of$\mathrm { X } ^ { d } + a _ { d - 1 } ^ { 1 / p ^ { n } } \mathrm { X } ^ { d - 1 } + \cdots + a _ { 0 } ^ { 1 / p ^ { n } }$for all$n \geq 0$. Then$\mathrm { L } ^ { \sharp }$can be defined as the splitting field of$\mathrm { X } ^ { d } + ( a _ { d - 1 } ^ { 1 / p ^ { n } } ) ^ { \sharp } \mathrm { X } ^ { d - 1 } + \cdots + ( a _ { 0 } ^ { 1 / p ^ { n } } ) ^ { \sharp }$for n large enough: these fields stabilize as$n \to \infty$.
 
 In fact, the same ideas work in greater generality.
 
 Definition 1.2. — A perfectoid field is a complete topological field K whose topology is induced by a nondiscrete valuation of rank 1, such that the Frobenius$\Phi$is surjective on$\mathrm { K } ^ { \circ } /  { p } .$
 
-Here$\mathrm { K } ^ { \circ } \subset \mathrm { K }$denotes the set of powerbounded elements. Generalizing the example above, a construction of Fontaine associates to any perfectoid field K another perfectoid field$\mathrm { K } ^ { \flat }$ofcharacteristic$\beta ,$whose underlying multiplicative monoid can be described as
+Here$\mathrm { K } ^ { \circ } \subset \mathrm { K }$denotes the set of powerbounded elements. Generalizing the example above, a construction of Fontaine associates to any perfectoid field K another perfectoid field$\mathrm { K } ^ { \flat }$of characteristic$p$, whose underlying multiplicative monoid can be described as
 
 $$
 \mathrm{K} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K}.
@@ -52,13 +52,13 @@ $$
 
 The theorem above generalizes to the following result.
 
-## Theorem 1.3. — The absolute Galois groups of K and$\mathrm { K } ^ { \flat }$are canonically isomorphic.
+Theorem 1.3. — The absolute Galois groups of K and$\mathrm { K } ^ { \flat }$are canonically isomorphic.
 
 Our aim is to generalize this to a comparison of geometric objects over K with geometric objects over$\mathrm { K } ^ { \flat }$. The basic claim is the following.
 
-Claim 1.4. — The affine line$\mathbf { A } _ { \mathrm { K } ^ { \flat } } ^ { 1 }$‘is equal$t o ^ { \bullet }$the inverse limit lim$\mathbf { \Gamma } _ { \mathrm { T } \mapsto \mathrm { T } ^ { p } } \mathbf { A } _ { \mathrm { K } } ^ { 1 } .$, where T is the coordinate on${ \bf A } ^ { 1 }$
+Claim 1.4. — The affine line$\mathbf { A } _ { \mathrm { K } ^ { \flat } } ^ { 1 }$‘is equal to’ the inverse limit$\varprojlim _ { \mathrm { T } \mapsto \mathrm { T } ^ { p } } \mathbf { A } _ { \mathrm { K } } ^ { 1 }$, where T is the coordinate on$\mathbf { A } ^ { 1 }$.
 
-One way in which this is correct is the observation that it is true on$\mathrm { K } ^ { \flat _ { - } } ;$, resp.$\mathrm { K } \mathfrak { - } ,$ valued points. Moreover, for any finite extension L of K corresponding to an extension
+One way in which this is correct is the observation that it is true on$\mathrm { K } ^ { \flat }$-, resp. K-, valued points. Moreover, for any finite extension L of K corresponding to an extension
 
 L<sup>-</sup> of$\mathrm { K } ^ { \flat }$, we have the same relation
 
