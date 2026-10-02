@@ -444,3 +444,10 @@
 - 证据：源 PDF p.061 文本层、页图 `audit/Hironaka_1964_resolution_partI_p061.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p061_definition7_formulas.png` 与 MinerU Markdown 第 1035–1091 行。Definition 6 restrictions、Definition 7 的 datum 变换、矩阵中新增系数、`a_{\alpha+1}=(\sum_{B\subseteq E_i}a_i)+\nu-b` 及脚注 35 正文均与印刷页相符。但 Markdown 第 1081–1089 行在完整脚注 35（第 1091 行）之外另含 5 个脚注式碎片：独立的 `f:X'\to X`、`X'`、`X' (or, by f)` 与 `f^{-1}(B)` 等；这些片段在印刷页无对应独立内容，是脚注 35 的重复/截片伪影。
 - 备注：正文在印刷页末以断词 `permis-` 续至下一页，Markdown 同样在第 1079 行保留断词；页脚 35 的完整内容仍在第 1091 行。印刷运行页眉和页码 168 未录入 Markdown。
 - 结论：MinerU Markdown 多出 5 条脚注式变量碎片，列为 FAIL；待全篇审计结束后以 Edit 逐处清理，保留完整脚注 35。
+
+### PDF p.062 / 96（印刷 p.169）— FAIL
+
+- 时间：2026-10-02 04:07 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.062 文本层、页图 `audit/Hironaka_1964_resolution_partI_p062.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p062_type_I_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p062_parameters_and_Definition8.png`，并比对 MinerU Markdown 第 1093–1115 行。印刷在 Remark 1 连续 4 次写作 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`（其中末次为 `\mathfrak{R}_{\mathrm{I}}^{N,n'}`）；Markdown 第 1093 行 4 处均将罗马大写 I 误录成数字 1。其余维数与变换后 datum 论述、normal-crossings 参数证明，以及 Definition 8 的 permissible succession 定义和条件 (i)–(iii) 均与原页相符。
+- 备注：印刷运行页眉和页码 169 未录入 Markdown，属导航元素省略。
+- 结论：四处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
