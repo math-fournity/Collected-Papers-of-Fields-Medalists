@@ -214,6 +214,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对商关系、群完成映射及各 `K_0` 例子。
 - 记录：2026-10-02 00:47:04 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.022（PDF p.22 / 纸面圈号 22）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p022.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p022_K0-E-matrices.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p022_elementary-matrices.png`。
+- 核对：Dedekind-domain `K_0` 描述；Grothendieck–Serre 对多项式环的结论；`GL_n(A)` 与 elementary matrices 的生成、逆元/交换子公式、标准增维嵌入，以及 `E_n(A)` perfect 性。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 693、700、702 行分别使用 `Iso(P_A)` 与 `K_0A`；基线将对象写成 `I_so(y_A)`，并把 `K_0` 多次误成 `H_0`。原图 elementary generator 是 `e_{ij}^a=I+aE_{ij}`，基线第 711、715 行误成上标 `2`；原图 `e_{ij}^a e_{ij}^b=e_{ij}^{a+b}` 与交换子恒等式在基线第 719、723、727 行丢了乘法/交换子结构并损坏指数。原图 `GL_n(A)→GL_{n+1}(A)` 是标准嵌入 `α↦diag(α,1)`，基线第 731 行把矩阵写成不可读的圆圈/分号。上述差异影响 `E_n(A)` 完美性论证所用的生成元关系。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片逐式还原 generator、commutator 与嵌入。
+- 记录：2026-10-02 00:54:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.020（PDF p.20 / 纸面圈号 20）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
