@@ -92,3 +92,11 @@
 - 核对：2.6 节（k = 1 + a₀ + pa₁、a₁ ⩽ a₀ + 1、p=3 例 k=2,3,4,5,6,8、p=2 句）、Exemple（u: G₂ → Z/2Z、ρ₂ 矩阵 (1 u(s); 0 1)）、K/Q₂ 三行判据（√5；discr=(4): √−1/√−5；discr=(8): √2/√−2/√10/√−10）、2.7 节标题与 (2.7.1)/(2.7.2)、Remarques (1)(2)（矩阵 (x *; 0 1)、χ^m ⊗ ρ_p、[44] th.3）、2.8 节标题、PROPOSITION 3、(2.8.1) ρ_p|I ≃ (ψ′ 0; 0 ψ)。
 - 结果：PASS。公式、矩阵、根式内容、编号全部与印刷吻合。
 - 备注：Remarques (1) 矩阵左上元素 300 dpi 确认为斜体 x（非 χ），Markdown 一致；(2.8.1) 连接号 300 dpi 确认为 ≃（simeq），Markdown \simeq 一致——150 dpi 初观似 “=” 系分辨率不足；\sqrt{1 0} 数字间空格与判据首行的行内公式形式为排版级，渲染可读不改；页眉 “188 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。(2.8.2) 印于下一页，随 p.011 核对。
+
+## p.011（PDF p.11 / 印刷 p.189）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p011.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p011_282_sign.png`、`audit/300dpi/serre1987_p011_psi_exponents.png`（pnggray）。
+- 核对：(2.8.2) ρ_p|I ≃ (χ 0; 0 1) ou (χ *; 0 1)、schémas en groupes de type (p,p) 段（Raynaud [35]、finie en p 定义）、PROPOSITION 4、(2.8.3) det ρ_p|I = χ、(2.8.4) ρ_p est finie en p、(2.8.5) k ≡ 2 mod(p−1)、[35] cor. 3.4.4 段、ψ^n ψ′^{n′}（0 ⩽ n, n′ ⩽ 1）、四可能性 1, ψ, ψ′, ψψ′ = χ、p=2 归三句、情形 (i) {ψ, ψ′} 与 (ii) {1, χ}。
+- 结果：FAIL。三处已依原图修复：① 正文 “prend ses valeurs **dan** GL₂(F_p)” 丢 s，修为 “dans”；② (2.8.2) 式内连接词 “ou” 被拆成 “o u”（300 dpi 裁片确认印刷为斜体正字 ou），修为 “ou”；③ (2.8.3)/(2.8.4) 编号错位——Markdown 把 “(2.8.3)” 写成文本行且第一式挂 \tag{2.8.4}、第二式无编号，修为第一式 \tag{2.8.3}、第二式 \tag{2.8.4}。
+- 备注：(2.8.2) 连接号 300 dpi 确认为 ≃，Markdown \simeq 一致；ψ^n ψ′^{n′} 上标与 0 ⩽ n, n′ ⩽ 1 经裁片确认一致；同段 Q_p、Z_p、F_q 在 Markdown 为非粗体而印刷为粗体（与全文 \mathbf 体例不一），数学对象同一、不误导，登记排版级不改；情形 (i)/(ii) 在 Markdown 以 \tag{i}/\tag{ii} 表达左侧标号，渲染等效；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 189” 未收入 Markdown，排版级。印刷页止于 “(ii) {φ, φ′} = {1, χ}.”，其后段属印刷 p.190。

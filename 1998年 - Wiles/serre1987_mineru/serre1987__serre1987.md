@@ -441,23 +441,21 @@ $$
 où $\psi, \psi'$: $I \to I_t \to \mathbf{F}_{p^2}^*$ sont les deux caractères fondamentaux de $I$ de niveau 2;
 
 $$
-\rho_ {p} | I \simeq \left( \begin{array}{c c} \chi & 0 \\ 0 & 1 \end{array} \right) o u \left( \begin{array}{c c} \chi & * \\ 0 & 1 \end{array} \right),\tag{2.8.2}
+\rho_ {p} | I \simeq \left( \begin{array}{c c} \chi & 0 \\ 0 & 1 \end{array} \right) ou \left( \begin{array}{c c} \chi & * \\ 0 & 1 \end{array} \right),\tag{2.8.2}
 $$
 
 l'action du groupe d'inertie sauvage $I_{p}$ étant, soit triviale, soit peu ramifiée.
 
-On peut donner une autre caractérisation de ce cas, en termes de schémas en groupes de type  $(p, p)$ . Pour l'énoncer, je me bornerai au cas où  $\rho_{p}$  prend ses valeurs dan  $\mathbf{GL}_{2}(\mathbf{F}_{p})$ , donc définit un schéma en groupes (étale) de type  $(p, p)$  sur le corps  $Q_{p}$  (dans le cas général, il faudrait parler de “schémas en  $F_{q}$ -vectoriels” au sens de Raynaud [35]). On peut se demander si ce schéma en groupes se prolonge en un schéma en groupes fini et plat sur  $Z_{p}$ , cf. [35]; s’il en est ainsi, je dirai (cf. [48]) que la représentation  $\rho_{p}$  est finie en p.
+On peut donner une autre caractérisation de ce cas, en termes de schémas en groupes de type  $(p, p)$ . Pour l'énoncer, je me bornerai au cas où  $\rho_{p}$  prend ses valeurs dans  $\mathbf{GL}_{2}(\mathbf{F}_{p})$ , donc définit un schéma en groupes (étale) de type  $(p, p)$  sur le corps  $Q_{p}$  (dans le cas général, il faudrait parler de “schémas en  $F_{q}$ -vectoriels” au sens de Raynaud [35]). On peut se demander si ce schéma en groupes se prolonge en un schéma en groupes fini et plat sur  $Z_{p}$ , cf. [35]; s’il en est ainsi, je dirai (cf. [48]) que la représentation  $\rho_{p}$  est finie en p.
 
 PROPOSITION 4. On a $k = 2$ si et seulement si les deux conditions suivantes sont satisfaites:
 
-(2.8.3)
-
 $$
-\det \rho_ {p} | I = \chi ;\tag{2.8.4}
+\det \rho_ {p} | I = \chi ;\tag{2.8.3}
 $$
 
 $$
-\rho_ {p} \text {   est   finie   en   } p.
+\rho_ {p} \text {   est   finie   en   } p.\tag{2.8.4}
 $$
 
 D'après le n° 2.5, la condition (2.8.3) équivaut à:
