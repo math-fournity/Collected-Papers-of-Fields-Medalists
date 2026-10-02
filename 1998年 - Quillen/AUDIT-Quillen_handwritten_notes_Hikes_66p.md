@@ -643,3 +643,14 @@
 - 页面边界：原图 p.60 止于关联分次商上 `ψ^k=k^i` 的 fact；Markdown 第 2196 行起 “Fact: In a λ-ring” 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复特征 2 公式、`γ`-series/filtration、关联分次权重与局部幂零结论。
 - 记录：2026-10-02 05:17:48 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.061（PDF p.61 / 纸面圈号 61）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p061.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p061_gamma-nilpotence.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p061_Adams-corollary.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p061_eigenspace-lemma.png`。
+- 核对：有限复形上 `γ`-filtration 的局部幂零性；由 Adams operators 得到的 annihilating polynomial；perfect characteristic-`p` 环的 `K_*A` 唯一 `p`-可除性及其自同构/特征空间引理。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 2200–2201 行定理说对每个 `x∈\widetilde F(X,A)` 存在 `N_x`，使总 `γ`-权重达到 `N_x` 的乘积 `γ^{i_1}(x)…γ^{i_r}(x)=0`；基线写成 `x`-filtration 和 `x^{i'}(x)…`，丢失 `γ` 运算。原图第 2203–2208 行推论是 `∃N:(ψ^k−1)(ψ^k−k)…(ψ^k−k^N)x=0`，其系数可展开为高 γ-weight 多项式；基线的 `\Psi^{\underline{k}}`、`(\psi^{-1})…` 与 `P(γ^1,…,γ^{-k})` 都损坏了算子指数/变量范围。Perfect char-`p` 定理称 `K_*A` uniquely `p`-divisible，并在证明中用 `\Psi^p=F_*`；基线第 2266 行把 `K_*A` 与乘以 `p` 的自同构陈述拆坏。末尾 abelian-group 引理需要将 `A=\bigcup_n\ker(\Psi-p)…(\Psi-p^n)` 过滤为 `X_n`，再由 quotient 上 `\Psi=p^n` 的作用归纳推出 `p:A→A` 为同构；基线第 2212–2216 行混并了两个核定义、`A^\Psi` 记号和短正合列箭头/系数，无法支持该归纳。
+- 页面边界：本页止于 abelian-group kernel filtration 的同构引理；Markdown 第 2218 行起的 `\widetilde K(X,A)=\lim[X,BGL(A)^+]` 备注属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复 `γ`-monomial 权重、Adams polynomial factors、perfect char-`p` 结论与 kernel filtration diagram。
+- 记录：2026-10-02 05:24:06 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
