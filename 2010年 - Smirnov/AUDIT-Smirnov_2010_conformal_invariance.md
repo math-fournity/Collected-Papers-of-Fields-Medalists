@@ -279,3 +279,9 @@
 - 核对：Lemma 5.2/5.5 证明用贡献表（列：configuration、Case 1(a)、1(b)、2、3(a)、3(b)、4；x_ω 行全为 x_ω；y_{ω′} 行：(√2−1)e^{iπ/4}x_ω、(e^{iπ/4}/(√2−1))x_ω、e^{−iπ/4}x_ω、e^{3π/4}x_ω、e^{5π/4}x_ω、e^{−5π/4}x_ω；arg. x_ω mod π 行：5π/8、π/8、π/8、5π/8、5π/8、5π/8）；◻ 收尾；Proof of Theorem 2.11 (Sketch)——[CS09] 完整证明引用、H_δ 定义（white face adjacent to b 处为 0）、H_δ○ 边界恒 0、H_δ 在 a 附近不应有界（superharmonic 非 harmonic）、unboundedness near a_δ 阻碍 Prop 4.3 直接使用、boundary modification trick（[DCHN10] FK 情形、[CS09] Ising 原始情形）、precompactness、(f,H) 极限、H=0 on ∂Ω∖{a}、H ≥ 0、one-parameter family of positive harmonic functions（= Ω 到上半平面 ℍ、a↦∞ 的共形映射虚部）、ψ 固定 b↦0、H = λImψ、Im(∫^z f̄²) = H（f̄ 的 bar 以 PNG 为准）⟹ f² = λψ′、f(b) = 1 ⟹ λ = 1/ψ′(b)、结论 f(z) = √(ψ′(z)/ψ′(b))（◻）；边界 b 附近光滑性正则性假设说明段；§6 Convergence to chordal SLE(3) and chordal SLE(16/3) 标题与三步策略第一条 bullet；页脚印刷页码 43。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：表中 (e^{iπ/4}/(√2−1)) 为堆叠分数、e^{5π/4}/e^{−5π/4} 指数以 PNG 为准；√(ψ′(z)/ψ′(b)) 根号套分数为对账锚点；本页 §6 标题与 p.1 目录 §6 页码 43 呼应。
+
+## p.044（PDF p.44 / 印刷 p.44）
+- PNG：audit/p044.png（pngmono 150dpi）
+- 核对：§6 三步策略续两条 bullet——time-changed Loewner chain with continuous driving process（Beffara's course 引用）、唯一可能 driving process 为 √κB_t（B_t standard Brownian motion）；Lévy's theorem 段——X_t 与 X_t² − at 均为 martingale 的连续实值过程必为 √aB_t；§6.1 Tightness of interfaces for the FK-Ising model 标题；Theorem 6.1——(γ_δ)_{δ>0} 对 curve distance 拓扑 tight；[AB99] annuli crossed back and forth 论述；S_{r,R}(x) = (x+[−R,R]²) ∖ (x+[−r,r]²) 与 A_k(x;r,R)（k crossings）记号；Theorem 6.2 (Aizenman-Burchard [AB99])——P_δ(A_k(x;r,R)) ≤ C_k(r/R)^{Δ_k}（k ∈ N、C_k < ∞、Δ_k > 2）⟹ (γ̃_δ) tight；Lemma 6.3 (Circuits in annuli)——φ^1_{p_sd,S_{n,2n}(x)}(E(x;n,2n)) ≤ c（c < 1）；wired boundary conditions 与 decouple 论述；页脚印刷页码 44。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：S_{r,R}(x) 下标 r,R、(r/R)^{Δ_k} 指数、φ 上标 1 与 p_sd,S_{n,2n}(x) 堆叠以 PNG 为准；𝔼 概率记号未见（本页无）。
