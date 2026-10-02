@@ -207,3 +207,12 @@
 - 核对：(4.1.4) 条件满足句、v_l(ABC) ≡ 0 (mod p) 式、(4.1.11)+(4.1.13) ⇒ k = N = 2 段（prop. 6、X₀(2) genre 0、D'où le théorème）、Remarque（Hurwitz [20] 1886）、Hellegouarch [19]/Vélu [54]/Frey [16],[17] 段、4.3 节标题（p ⩾ 11）、THÉORÈME 2（Admettons (3.3.1?)、L ≠ p）、S = {3,5,7,11,13,17,19,23,29,53,59}、(4.3.1) a^p + b^p + L^α c^p = 0、abc ≠ 0 句、证明开头（0 < α < p、B pair、2^p、a fortiori 32、A ≡ −1 mod 4、k = 2、N = 2L）、f = q + a₂(f)q² + ⋯ + a_n(f)q^n + ⋯、F̄ₚ/2L 句。
 - 结果：PASS。公式、集合元素、引用编号（[19]/[54]/[16]/[17]/[20]）、上下标全部与印刷吻合。
 - 备注：S 集合内 “1 1, 1 3…” 数字带空格渲染正常，排版级；印刷 “avec a, b, c ∈ Z et abc ≠ 0” 的 “et” 与 Markdown 一致（th. 1 处印刷无 “et”，Markdown 同样无——两处各自忠实）；页眉 “202 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “soit isomorphe à ρ_p^E. Nous”，其后 “allons voir…” 段与 LEMME 1 属印刷 p.203。
+
+## p.025（PDF p.25 / 印刷 p.203）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p025.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p025_b1_neq.png`、`audit/300dpi/serre1987_p025_b2_mu3.png`、`audit/300dpi/serre1987_p025_table.png`（pnggray）。
+- 核对：allons voir 段（L = 3,5、X₀(6)/X₀(10) genre 0、L ⩾ 7）、LEMME 1 (a)(b)(c)（a₃(f) = 0 ou ±4、a₅(f) = ±2 ou ±6）、(3.1.6) f = F̃ 段（niveau L 反证、conducteur 2L）、(b₁) bonne réduction en 3（ABC ≠ 0 mod 3、Ě、点数被 4 整除、1 ± 3 ± 2√3、trace 0、a₃(f) = 0 (dans F_p)、(3.1.8)）、(b₂) mauvaise réduction en 3（déployée/Tate、G_{Q₃}-module E_p extension de Z/pZ par μ_p、特征值 1 et 3、a₃(f) = 4 / −4）、(c) 类推段、LEMME 2（F、Aₙ ∈ Z̄、A₃ = ±1, ±2 ou ±3 si L ≠ 23、A₅ = 4 si L = 23）、A₃ 数值表（L = 7/13/17/19/29/53/59）。
+- 结果：PASS。文字、公式与表格逐项吻合。
+- 印刷原文 quirk：(b₂) 段印刷作 “E_p est extension de Z/pZ par μ_p”（300 dpi 裁片确认 p 系下标），但该处 Frobenius 特征值 “1 et 3” 在数学上对应 3-division——疑为原文笔误，print 原文优先，Markdown 同作 E_p/Z/pZ/μ_p 忠实保留。
+- 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① (b₁) 印刷确为 “ABC ≠ 0 (mod 3)”（单斜杠）；② (b₂) 确为 p 系下标（见上）；③ 表格 L=59 列印刷确为 “−1, −1, 2, 2”，Markdown 表格逐格一致。LEMME 1 (b)(c) 的法语动词 a 在 Markdown 入数学环境（“On $a$…”），同 p.009 quirk，排版级；“2 3” 数字空格排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 203” 未收入 Markdown，排版级。印刷页止于 A₃ 数值表，“L = 11 ne figure pas…” 句属印刷 p.204。
