@@ -147,3 +147,10 @@
 - 源级 print quirk：印刷给出的 `\tilde{f}` 同构目标写为 `X|h^{-1}(T)`（未带波浪），即使此前定义 `N=(\tilde{X},\tilde{J})` 且 `\Phi=(h,\alpha)`；Markdown 忠实保留该页字面式，不按图式预期补波浪。
 - 备注：印刷运行页眉和页码 126 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现 Markdown 与印刷页的内容差异；登记源页式样 quirk，并因页眉/页码省略记为 PASS±。
+
+### PDF p.020 / 96（印刷 p.127）— PASS±
+
+- 时间：2026-10-02 00:15 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.020 文本层、页图 `audit/Hironaka_1964_resolution_partI_p020.png`（pngmono 150dpi）与 MinerU Markdown 第 339–343 行。Chow 定理段落续文、`(\mathcal{R}/S)`-ideal 定义、映射对与 sheaf homomorphism 条件、annihilator 构造及 footnote 14″ 均相符；页图确认文本层压平的 `\theta`、`\varphi` 和结构 sheaf 下标按 Markdown 当前写法保留。
+- 备注：印刷运行页眉与页码 127 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
