@@ -431,7 +431,7 @@ $$
 Proof of Lemma 3.11. — By (3.13), (3.12) will be a consequence of the following inequality
 
 $$
-\left| \left| \left\{f * \mathrm{K} _ {t} \mid t > 0 \right\} \right| \right| _ {\mathrm{L} _ {v _ {2}} ^ {2}} \leqslant c \| f \| _ {2},\tag{3.14}
+\left| \left| \left\{f * \mathrm{K} _ {t} \mid t > 0 \right\} \right| \right| _ {\mathrm{L} _ {v _ {s}} ^ {2}} \leqslant c \| f \| _ {2},\tag{3.14}
 $$
 
 where K stands for the function  $\chi - P_{1}$ , hence satisfies the Fourier transform estimates
@@ -443,7 +443,7 @@ $$
 We clearly have the pointwise estimate
 
 $$
-\begin{array}{r l} \left| \left| \left\{f * \mathrm{K} _ {t} \mid t > 0 \right\} \right| \right| _ {v _ {2}} & \leqslant (\sum_ {k \in \mathbb {Z}} | f * \mathrm{K} _ {2 ^ {k}} | ^ {2}) ^ {1 / 2} \\ & + (\sum_ {k \in \mathbb {Z}} | | \left\{f * \mathrm{K} _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \right\} | | _ {v _ {3}} ^ {2}) ^ {1 / 2}. \end{array}\tag{3.16}
+\begin{array}{r l} \left| \left| \left\{f * \mathrm{K} _ {t} \mid t > 0 \right\} \right| \right| _ {v _ {2}} & \leqslant (\sum_ {k \in \mathbb {Z}} | f * \mathrm{K} _ {2 ^ {k}} | ^ {2}) ^ {1 / 2} \\ & + (\sum_ {k \in \mathbb {Z}} | | \left\{f * \mathrm{K} _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \right\} | | _ {v _ {2}} ^ {2}) ^ {1 / 2}. \end{array}\tag{3.16}
 $$
 
 By Parseval's identity, the  $L^{2}$ -norm of the first term in (3.16) is bounded by
@@ -457,7 +457,7 @@ invoking also (3.5).
 Next, we estimate the contribution of the second term
 
 $$
-\{\sum_ {k \in \mathbf {Z}} | | \{f * \mathrm{K} _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \} | | _ {\mathrm{L} _ {v _ {3}} ^ {2}} ^ {2} \} ^ {1 / 2}.\tag{3.18}
+\{\sum_ {k \in \mathbf {Z}} | | \{f * \mathrm{K} _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \} | | _ {\mathrm{L} _ {v _ {s}} ^ {2}} ^ {2} \} ^ {1 / 2}.\tag{3.18}
 $$
 
 Let $0 < \eta < 1$ be a function supported by $\left[\frac{1}{2}, 2\right] \cup \left[-2, -\frac{1}{2}\right]$, $|\eta'| < C$, such that
@@ -469,7 +469,7 @@ $$
 Defining $\mathbf{K}_{\alpha}$ by $\hat{\mathbf{K}}_{\alpha}(\lambda) = \hat{\mathbf{K}}(\lambda)\eta(2^{\alpha}\lambda)$, one has that $\mathbf{K} = \sum_{\alpha}\mathbf{K}_{\alpha}$, and (3.18) may be estimated by the triangle inequality as
 
 $$
-\sum_ {\alpha \in \mathbf {Z}} \left\{\sum_ {k \in \mathbf {Z}} | | \{f * (\mathrm{K} _ {\alpha}) _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \} | | _ {\mathrm{L} _ {v _ {3}} ^ {2}} ^ {2} \right\} ^ {1 / 2}.\tag{3.19}
+\sum_ {\alpha \in \mathbf {Z}} \left\{\sum_ {k \in \mathbf {Z}} | | \{f * (\mathrm{K} _ {\alpha}) _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \} | | _ {\mathrm{L} _ {v _ {s}} ^ {2}} ^ {2} \right\} ^ {1 / 2}.\tag{3.19}
 $$
 
 From (3.15),

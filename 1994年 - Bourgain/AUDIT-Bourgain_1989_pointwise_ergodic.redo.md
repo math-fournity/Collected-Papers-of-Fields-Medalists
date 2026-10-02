@@ -84,3 +84,10 @@
 - 核对：Lemma 3.3 陈述与 (3.4)；Doob 振荡引理 (3.5)；Lorentz 空间 (3.6)（范围 $3/2\leqslant p\leqslant s<5/2$）；$\chi_{\mathbf A}$、$\mu(\mathbf A)=\varepsilon$、$\|f\|_{p,1}=\varepsilon^{1/p}$ 段；(3.7) 的 $2^{-ks}$、$N_{2^{-k}}$ 与闭括号；(3.8) 的 $2^{-kp}$、$(N_{2^{-k}})^{p/s}$、$2^{-kp(1-2/s)}$、$\|f\|_r^r$；$r=2p/s$、$6/5\leqslant r<2$ 段；(3.9)–(3.10) Fourier 定义。文本层 + 150dpi 原页图双通道，对 Markdown 第 367–413 行。
 - 结果：PASS±。全部公式与文字与原页一致；Luna 旧修复三处经原页核验正确——(3.6) Lorentz 空间为普通斜体 $p$（非 Fraktur）、(3.7) 右端闭括号恢复、(3.7)/(3.8) 跳跃计数下标为 $N_{2^{-k}}$（非 $2^{-k}$ 误录为 $2-k$ 后的残形）。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 13。与 Luna 旧审（p.010 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 16:52 EDT 落签
+
+## p.011（PDF p.11 / 印刷 p.14）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p011.png`（Ghostscript `pngmono`，150dpi；原 PDF p.11）；`audit-redo/p011_3.14_norm_300dpi.png`、`audit-redo/p011_3.16_rhs_300dpi.png`、`audit-redo/p011_3.19_300dpi.png`（原 PDF p.11 300dpi 渲染后裁片，裁决 (3.14)/(3.16)/(3.18)/(3.19) 的 $v$ 下标）。
+- 核对：Lemma 3.11 与 (3.12)；Poisson 半群乘子 $\widehat P_t(\lambda)$；(3.13)；(3.14) 与 $K=\chi-P_1$；(3.15) 两条 Fourier 估计；(3.16) 点态估计两项；(3.17) Parseval；(3.18)；$\eta$ 分解与 $\sum_\alpha\eta(2^\alpha\lambda)=1$；(3.19)；(3.20) 的 $2^{-|\alpha|}$。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 415–479 行。
+- 结果：FAIL（四处 $v$ 下标误读，已当场逐处修复）。300dpi 放大裁片裁决：印刷 (3.14) 为 $\mathrm{L}^2_{v_s}$（Markdown 误作 $v_2$）；(3.16) 右端范数为 $v_2$（Markdown 误作 $v_3$；左端 $v_2$ 本就正确）；(3.18) 为 $\mathrm{L}^2_{v_s}$（误作 $v_3$）；(3.19) 为 $\mathrm{L}^2_{v_s}$（误作 $v_3$）。已用 Edit 按原页改正四处。此页 $v_2/v_3/v_s$ 混排为 Luna 旧审未发现的残留 MinerU 下标误读。其余：Luna 对 Poisson 乘子 $e^{-i|\lambda|}\to e^{-t|\lambda|}$ 的旧修复经原页核验正确；(3.12)、(3.13)、(3.15)、(3.17)、(3.20) 的指数、常数与范围均与原页一致。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 14。与 Luna 旧审（p.011 FAIL→修复）结论部分一致，但漏检上述四处下标。
+- 时间：2026-10-02 17:12 EDT 落签
