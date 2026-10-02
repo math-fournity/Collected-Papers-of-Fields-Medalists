@@ -95,3 +95,12 @@
   4. "a map$\mathrm{H}^i(\mathrm{X})=\mathrm{H}^i(\tilde{\mathrm{X}})\ \mathrm{H}^i(\mathrm{Y})$)." 缺箭头+游离右括号 → "$\mathrm{H}^i(\mathrm{X})=\mathrm{H}^i(\tilde{\mathrm{X}}) \to \mathrm{H}^i(\mathrm{Y})$."
   5. Kedlaya–Liu 段 "finite étale R<sup>-</sup>-algebras" → $\mathrm{R}^\flat$-algebras
 - 备注：三个 display（X 例、homeomorphism、X_n）与 print 逐字符吻合（含 p^n 上标）；本行 187 自 "application to the weight-monodromy conjecture…" 起属印刷 p.252，留待 p.008。
+## p.008（PDF p.8 / 印刷 p.252）
+- PNG：audit/p008.png（pngmono 150dpi）
+- 核对：页眉 252/PETER SCHOLZE；Kedlaya–Liu 段收尾（"Theorem 1.3 was proved…for fields, proved in [15], Chapter 6"——print 自身为 1.3，MD 一致，不改）；§2. Adic spaces 节标题；§2 首段 [22][20][19]；Definition 2.1；norm |·|:k→R_≥0 与 automorphisms x↦x^α 段；functor {varieties/k}→{adic spaces/k} display 与 {|f(x)|≤1} display；Γ(X,O_X)→k′ 赋值段至 "inducing"
+- 结果：**PASS±**（排版级伪影，已修 4 处，无数学内容错误）：
+  1. Definition 2.1："nonarchimedeanfield"、"topologicalfield"、"ofrank" 缺空格 → 修正
+  2. "0<α<∞.$, of R_≥0" 游离 ".$" → "0<α<∞, of$\mathbf{R}_{\geq 0}$."（句点移到句末，print 原样）
+  3. "subspaces of$\mathrm{\Delta X^{ad}}$" 伪 Δ → $\mathrm{X}^{\mathrm{ad}}$（p.252 右栏 "define subspaces of X^ad"）
+  4. "scheme$\mathrm{X}.$."、"Each ofthem"、"of$\mathrm{\nabla}k;\mathrm{\nabla}$composing" → "scheme X."、"Each of them"、"of$k$; composing"（∇ 系 MinerU 伪字，print 为分号）
+- 备注：Kedlaya 段中 "Theorem 1.3" 与 print 一致（指 §1 的 Galois 群定理，非编号错误）；两个 display 逐字符吻合；本行 211 自 "a fixed norm map on k.…" 起属印刷 p.253，留待 p.009。

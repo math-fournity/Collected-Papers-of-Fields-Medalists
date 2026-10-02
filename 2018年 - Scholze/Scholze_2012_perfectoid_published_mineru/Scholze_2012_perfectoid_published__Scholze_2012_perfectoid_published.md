@@ -190,9 +190,9 @@ After the results of this paper were first announced, Kiran Kedlaya informed us 
 
 Throughout this paper, we make use of Huber’s theory of adic spaces. For this reason, we recall some basic definitions and statements about adic spaces over nonarchimedean local fields. We also compare Huber’s theory to the more classical language of rigid-analytic geometry, and to the theory of Berkovich’s analytic spaces. The material of this section can be found in [22], [20] and [19].
 
-Definition 2.1. — A nonarchimedeanfield is a topologicalfield k whose topology is induced by a nontrivial valuation ofrank 1.
+Definition 2.1. — A nonarchimedean field is a topological field k whose topology is induced by a nontrivial valuation of rank 1.
 
-In particular, k admits a norm$| \cdot | : k \to \mathbf { R } _ { \geq 0 }$, and it is easy to see that$| \cdot |$is unique up to automorphisms$x \mapsto x ^ { \alpha } , 0 < \alpha < \infty .$, of$\mathbf { R } _ { \geq 0 }$
+In particular, k admits a norm$| \cdot | : k \to \mathbf { R } _ { \geq 0 }$, and it is easy to see that$| \cdot |$is unique up to automorphisms$x \mapsto x ^ { \alpha } , 0 < \alpha < \infty$, of$\mathbf { R } _ { \geq 0 }$.
 
 Throughout, we fix a nonarchimedean field k. Replacing k by its completion will not change the theory, so we may and do assume that k is complete.
 
@@ -202,13 +202,13 @@ $$
 \{\text {varieties} / k \} \to \{\text {adic spaces} / k \}: X \mapsto X ^ {\text {ad}},
 $$
 
-sending any variety over$k$to its analytification$\mathrm { X ^ { a d } }$. Moreover, it should be possible to define subspaces of$\mathrm { \Delta X ^ { \mathrm { a d } } }$by inequalities: For any$f \in \Gamma ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } )$, the subset
+sending any variety over$k$to its analytification$\mathrm { X ^ { a d } }$. Moreover, it should be possible to define subspaces of$\mathrm { X } ^ { \mathrm { a d } }$by inequalities: For any$f \in \Gamma ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } )$, the subset
 
 $$
 \left\{x \in \mathrm{X} ^ {\mathrm{ad}} \mid | f (x) | \leq 1 \right\}
 $$
 
-should make sense. In particular, any point$x \in \mathrm { X } ^ { \mathrm { a d } }$should give rise to a valuation function $f \mapsto | f ( x ) |$. In classical rigid-analytic geometry, one considers only the maximal points of the scheme$\mathrm { X } .$. Each ofthem gives a map$\Gamma ( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } ) \to k ^ { \prime }$for some finite extension$k ^ { \prime }$of$\mathrm { \nabla } k ; \mathrm { \nabla }$ composing with the unique extension of the absolute value of k to$k ^ { \prime }$gives a valuation on $\Gamma ( \mathbf { X } , \mathcal { O } _ { \mathrm { X } } )$. In Berkovich’s theory, one considers norm maps$\Gamma ( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } ) \to \mathbf { R } _ { \geq 0 }$inducing a fixed norm map on k. Equivalently, one considers valuations of rank 1 on$\Gamma ( \mathbf { X } , \mathcal { O } _ { \mathrm { X } } )$ In Huber’s theory, one allows also valuations of higher rank.
+should make sense. In particular, any point$x \in \mathrm { X } ^ { \mathrm { a d } }$should give rise to a valuation function $f \mapsto | f ( x ) |$. In classical rigid-analytic geometry, one considers only the maximal points of the scheme X. Each of them gives a map$\Gamma ( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } ) \to k ^ { \prime }$for some finite extension$k ^ { \prime }$of$k$; composing with the unique extension of the absolute value of k to$k ^ { \prime }$gives a valuation on $\Gamma ( \mathbf { X } , \mathcal { O } _ { \mathrm { X } } )$. In Berkovich’s theory, one considers norm maps$\Gamma ( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } ) \to \mathbf { R } _ { \geq 0 }$inducing a fixed norm map on k. Equivalently, one considers valuations of rank 1 on$\Gamma ( \mathbf { X } , \mathcal { O } _ { \mathrm { X } } )$ In Huber’s theory, one allows also valuations of higher rank.
 
 Definition 2.2. — Let R be some ring. A valuation on R is given by a multiplicative map $| \cdot | : \mathbb { R } \to \Gamma \cup \{ 0 \}$, where  is some totally ordered abelian group, written multiplicatively, such that $| 0 | = 0 , | 1 | = 1$and$| x + y | \leq \operatorname* { m a x } ( | x | , | y | )$for all$x , y \in \mathrm { R }$
 
