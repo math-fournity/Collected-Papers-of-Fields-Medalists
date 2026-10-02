@@ -119,3 +119,10 @@
 - 结果：FAIL（印刷忠实性回退，b 记号 7 处）。印刷（300dpi+600dpi 定裁）在本页通篇作 **t_{b-1}**（×5）、**1 ≤ i ≤ b−1**、**j < q^b − 1**、**Σ_{i=1}^{b-1}**；MD（含 Luna 修复）均为 h 系。已 Edit：行 345（t_{h-1}×2、h-1、q^h−1 → b 系）与行 375（t_{h-1}×3、Σ_{i=1}^{h-1} → b 系）。**erratum 登记**：数学上均为 h（finite height h 的 h−1），印刷 b/h 混用延续 p.566/p.570 同族，按原样保留。
 - 重核 Luna 修复：cocycle 三组关系式、coboundary 式、(Δ_i,δ_i) ≡ 0 mod deg q^i / ≢ 0 mod deg(q^i+1)、mod m^r 两处（Luna 由 m' 修复）、a) 两条 congruence 全部与页图相符。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 571" 未收。
+
+## p.012（PDF p.12 / 印刷 p.572）
+
+- PNG：audit-redo/p012.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p012_D0.png（D_0 ≃ Ô^{nr}[[t_1,…]] 行）、…_p012_Lemma.png（Lemma 1) t_r,… 行）
+- 核对：b) cocycle congruence 两式（v[(x+y)^n−…] 与 h·p/π·C_n）、§4B 设置（finite height h、n ∈ Z, n ≥ 0）、level-n 结构定义（φ: ((1/π^n)O/O)^h → m、f_{π^n}、Π_{α∈((1/π^n)O/O)^h}）、唯一结构段、Prop 4.3 三项（e_i (i=1,…,h)、O/(π)^n-模、D_m → D_n finite and flat）、Proof a)（D_0 ≃ Ô^{nr}[[t_1,…,t_{h-1}]]、0 ≤ r ≤ h、Φ_r、Π_{((1/π)O/O)^r}）、Lemma（L_r regular、e_i (i=1,…,r)、t_r,…,t_{h-1}、L_{r-1} → L_r finite and flat）、Proof 开头（θ_i = φ_{r-1}(e_i)）。
+- 结果：PASS±。全部内容项与印刷相符，本轮无需修改。300dpi 确认本页两处 `t_{h-1}` 印刷均为**双拱 h**——印刷的 b 记号混用止于 p.571，本页回到 h；Luna 本页的 h 系修复（§4B height、f_{π^n}、level-n 结构指数等）经复核方向正确、MD 与印刷一致。 display 中 φ/ϕ 字形差异系印刷两种 phi 变体，MD 分用 \phi/\varphi 忠实。
+- 另记（PASS± 级伪影，不改）：页眉 "572 V. G. DRINFEL'D" 未收。
