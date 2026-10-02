@@ -1,5 +1,8 @@
 # Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces
 
+Invent. math. 167, 179–222 (2007)
+DOI: 10.1007/s00222-006-0013-2
+
 Maryam Mirzakhani
 
 Department of Mathematics, Princeton University, Fine Hall, Washington Road, Princeton, NJ 08544, USA (e-mail: mmirzakh@math.princeton.edu)
@@ -21,9 +24,9 @@ Published online: 12 October 2006 – © Springer-Verlag 2006
 
 ## 1. Introduction
 
-In this paper we investigate the Weil-Petersson volume of the moduli space of curves with marked points. We develop a method for integrating geometric functions over the moduli space of curves, and obtain an effective recursive formula for the volume${ \bar { V } } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$of the moduli space$\mathcal { M } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$of hyperbolic Riemann surfaces of genus g with n geodesic boundary components. We show that$V _ { g , n } ( L )$is a polynomial whose coefficients are rational multiples of powers of π. The constant term of the polynomial$V _ { g , n } ( L )$is the Weil-Petersson volume of the moduli space of closed surfaces of genus g with n marked points.
+In this paper we investigate the Weil-Petersson volume of the moduli space of curves with marked points. We develop a method for integrating geometric functions over the moduli space of curves, and obtain an effective recursive formula for the volume$V _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$of the moduli space$\mathcal { M } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$of hyperbolic Riemann surfaces of genus g with n geodesic boundary components. We show that$V _ { g , n } ( L )$is a polynomial whose coefficients are rational multiples of powers of π. The constant term of the polynomial$V _ { g , n } ( L )$is the Weil-Petersson volume of the moduli space of closed surfaces of genus g with n marked points.
 
-Volume of the moduli space of curves. When studying volumes of moduli spaces of hyperbolic Riemann surfaces with cusps, it proves fruitful to consider more generally bordered hyperbolic Riemann surfaces with geodesic boundary components. Given$L = ( L _ { 1 } , \ldots , L _ { n } ) \in ( \mathbb { R } _ { > 0 } ) ^ { n }$, the mapping class group$\mathbf { M o d } _ { g , n }$acts on the Teichmüller space${ \mathcal { T } } _ { g , n } ( L )$of hyperbolic structures with geodesic boundary components of length$L _ { 1 } , \ldots , L _ { n }$. We study the Weil-Petersson volume of the quotient space
+Volume of the moduli space of curves. When studying volumes of moduli spaces of hyperbolic Riemann surfaces with cusps, it proves fruitful to consider more generally bordered hyperbolic Riemann surfaces with geodesic boundary components. Given$L = ( L _ { 1 } , \ldots , L _ { n } ) \in ( \mathbb { R } _ { \ge 0 } ) ^ { n }$, the mapping class group$\mathbf { M o d } _ { g , n }$acts on the Teichmüller space${ \mathcal { T } } _ { g , n } ( L )$of hyperbolic structures with geodesic boundary components of length$L _ { 1 } , \ldots , L _ { n }$. We study the Weil-Petersson volume of the quotient space
 
 $$
 \mathcal {M} _ {g, n} (L) = \mathcal {T} _ {g, n} (L) / \mathrm{Mod} _ {g, n}.
@@ -44,7 +47,7 @@ Here the exponent$\alpha = ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$ranges o
 Moreover, in Sect. 5 we give an explicit recursive formula for calculating these volumes. For example, we have:
 
 $$
-V _ {1, 1} (L) = L ^ {2} / 2 4 + \pi^ {2} / 6.
+V _ {1, 1} (L) = L ^ {2} / 24 + \pi^ {2} / 6.
 $$
 
 For more examples, see Table 1.
@@ -104,7 +107,7 @@ $$
 
 where$f ( x ) = ( 1 + e ^ { x } ) ^ { - 1 }$
 
-For any simple closed curve α on a hyperbolic once punctured torus, we have$\mathcal { M } _ { 1 , 1 } ^ { \ast } = \bar { \mathcal { T } } _ { 1 , 1 } / \mathrm { S t a b } ( \alpha )$. Now we use the Fenchel-Nielsen coordinates for$\mathcal { T } _ { 1 , 1 }$about α; any element$( X , \gamma ) \in \mathcal { M } _ { 1 , 1 } ^ { * }$is determined by the pair$( \ell , \tau )$ the length and the twisting parameter of X around$\gamma .$. Note that we have $\phi _ { \gamma } ( \ell , \tau ) = ( \ell , \ell + \tau )$, where$\phi _ { \gamma }$denotes a right Dehn twist around$\gamma$. Hence we have
+For any simple closed curve α on a hyperbolic once punctured torus, we have$\mathcal { M } _ { 1 , 1 } ^ { \ast } = \mathcal { T } _ { 1 , 1 } / \mathrm { S t a b } ( \alpha )$. Now we use the Fenchel-Nielsen coordinates for$\mathcal { T } _ { 1 , 1 }$about α; any element$( X , \gamma ) \in \mathcal { M } _ { 1 , 1 } ^ { * }$is determined by the pair$( \ell , \tau )$ the length and the twisting parameter of X around$\gamma .$. Note that we have $\phi _ { \gamma } ( \ell , \tau ) = ( \ell , \ell + \tau )$, where$\phi _ { \gamma }$denotes a right Dehn twist around$\gamma$. Hence we have
 
 $$
 \mathcal {M} _ {1, 1} ^ {*} \cong \left\{(\ell , \tau) | 0 \leq \ell \leq \tau \right\} / (x, 0) \sim (x, x).
@@ -130,7 +133,7 @@ Calculation of$V _ { g , n }$. To carry out a similar analysis for${ \mathcal { 
 
 We now turn to a more detailed account of the two main steps in the proof:
 
-(I): Generalized McShane’s identity. McShane [M] gives a version of formula (1.1) for punctured Riemann surfaces of higher genus. In our discussion, we need a further generalization to bordered Riemann surfaces with geodesic boundary components. Roughly speaking, we want to find a function defined on Teichmüller space such that the sum of its values over the elements of each orbit of$\mathbf { M o d } _ { g , n }$is a constant independent of the orbit. In Sect. 3 we introduce two auxiliary functions D,$\mathcal { R } : \mathbb { R } _ { + } ^ { 3 }  \mathbb { R } _ { + }$related to the geometry of hyperbolic pairs of pants. A central role in our approach to volumes of moduli spaces is played by the following result (Sect. 4):
+(I): Generalized McShane’s identity. McShane [M] gives a version of formula (1.1) for punctured Riemann surfaces of higher genus. In our discussion, we need a further generalization to bordered Riemann surfaces with geodesic boundary components. Roughly speaking, we want to find a function defined on Teichmüller space such that the sum of its values over the elements of each orbit of$\mathbf { M o d } _ { g , n }$is a constant independent of the orbit. In Sect. 3 we introduce two auxiliary functions D,$\mathcal { R } : \mathbb { R } _ { + } ^ { 3 } \to \mathbb { R } _ { + }$related to the geometry of hyperbolic pairs of pants. A central role in our approach to volumes of moduli spaces is played by the following result (Sect. 4):
 
 Theorem 1.3. For any hyperbolic surface X with n geodesic boundary components$\beta _ { 1 } , \ldots , \beta _ { n }$of lengths$L _ { 1 } , \ldots , L _ { n }$, we have
 
@@ -182,7 +185,7 @@ Our goal is to calculate the integral of$f _ { \gamma }$over$\mathcal { M } _ { 
 
 First, consider the covering space of$\mathcal { M } _ { g , n }$
 
-$\pi ^ { \gamma } : \mathcal { M } _ { g , n } ^ { \gamma } = \{ ( X , \alpha ) \ : | \ : X \in \mathcal { M } _ { g , n }$, and$\alpha \in \mathcal { O } _ { \gamma }$is a geodesic on$X \}  \mathcal { M } _ { g , n }$ where$\pi ^ { \gamma } ( X , \alpha ) \ = \ X$. The hyperbolic length function descends to the function
+$\pi^\gamma:\mathcal M_{g,n}^\gamma=\{(X,\alpha)\mid X\in\mathcal M_{g,n},\ \alpha\in\mathcal O_\gamma\text{ is a geodesic on }X\}\to\mathcal M_{g,n}$ where $\pi^\gamma(X,\alpha)=X$. The hyperbolic length function descends to the function
 
 $$
 \ell : \mathcal {M} _ {g, n} ^ {\gamma} \to \mathbb {R} _ {+}
@@ -204,13 +207,13 @@ where the volume is taken with respect to the volume form induced on $\ell ^ { -
 
 The main idea for integrating over$\mathcal { M } _ { g , n } ^ { \gamma }$is that the decomposition of the surface along the simple closed curve$\gamma$gives rise to a description of $\mathcal { M } _ { g , n } ^ { \gamma }$in terms of moduli spaces corresponding to simpler surfaces. This observation leads to formulas for the integral of$f _ { \gamma }$in terms of the Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces and the function$f$as follows.
 
-Let$S _ { g , n } ( \gamma )$denote the surface obtained by cutting the surface$S _ { g , n }$ along$\gamma ;$that is$S _ { g , n } ( \gamma ) \cong S _ { g , n } - U _ { \gamma }$, where$U _ { \gamma }$is an open neighborhood of$\gamma$ homeomorphic to$\gamma \times ( 0 , 1 )$. Thus$S _ { g , n } ( \gamma )$is a possibly disconnected compact surface with$n { + 2 }$boundary components. We define M$\mathbf { \xi } ( S _ { g , n } ( \gamma ) , \ell _ { \gamma } = t )$ to be the moduli space of Riemann surfaces homeomorphic to$S _ { g , n } ( \gamma )$such that the lengths of the 2 boundary components corresponding to$\gamma$are equal to t. We have a natural circle bundle
+Let$S _ { g , n } ( \gamma )$denote the surface obtained by cutting the surface$S _ { g , n }$ along$\gamma ;$that is$S _ { g , n } ( \gamma ) \cong S _ { g , n } - U _ { \gamma }$, where$U _ { \gamma }$is an open neighborhood of$\gamma$ homeomorphic to$\gamma \times ( 0 , 1 )$. Thus$S _ { g , n } ( \gamma )$is a possibly disconnected compact surface with$n { + 2 }$boundary components. We define $\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$ to be the moduli space of Riemann surfaces homeomorphic to$S _ { g , n } ( \gamma )$such that the lengths of the 2 boundary components corresponding to$\gamma$are equal to t. We have a natural circle bundle
 
 $$
 \begin{array}{c} \ell^ {- 1} (t) \subset \mathcal {M} _ {g, n} ^ {\gamma} \\ \Big \downarrow \\ \mathcal {M} (S _ {g, n} (\gamma), \ell_ {\gamma} = t). \end{array}
 $$
 
-We will study the$S ^ { 1 }$-action on the level set$\ell ^ { - 1 } ( t ) \subset \mathcal { M } _ { g , n } ^ { \gamma }$induced by twisting the surface along$\gamma .$. The quotient space$\ell ^ { - 1 } ( t ) / S ^ { 1 }$inherits a symplectic form from the Weil-Petersson symplectic form. On the other hand, $\mathbf { \bar { \mathcal { M } } } ( S _ { g , n } ( \gamma ) , \ell _ { \gamma } = t )$is equipped with the Weil-Petersson symplectic form. By investigating these$S ^ { 1 }$-actions in more detail in Sect. 7 we show that
+We will study the$S ^ { 1 }$-action on the level set$\ell ^ { - 1 } ( t ) \subset \mathcal { M } _ { g , n } ^ { \gamma }$induced by twisting the surface along$\gamma .$. The quotient space$\ell ^ { - 1 } ( t ) / S ^ { 1 }$inherits a symplectic form from the Weil-Petersson symplectic form. On the other hand, $\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$is equipped with the Weil-Petersson symplectic form. By investigating these$S ^ { 1 }$-actions in more detail in Sect. 7 we show that
 
 $$
 \ell^ {- 1} (t) / S ^ {1} \cong \mathcal {M} (S _ {g, n} (\gamma), \ell_ {\gamma} = t)
@@ -230,7 +233,7 @@ $$
 
 where$M ( \gamma ) = 1 \operatorname { i f } \gamma$separates off a one-handle, and$M ( \gamma ) = 0$otherwise.
 
-An alternative proof of Theorem 1.1. The method of symplectic reduction can be used to show that$V _ { g , n } ( L )$is a polynomial in L. In a sequel [Mirz2], we obtain a formula for$V _ { g , n } ( \breve { L } )$in terms of intersection numbers of tautological classes over${ \overline { { \mathcal { M } } } } _ { g , n }$. However, this symplectic method does not lead us to a recursive algorithm for calculating the volumes explicitly.
+An alternative proof of Theorem 1.1. The method of symplectic reduction can be used to show that$V _ { g , n } ( L )$is a polynomial in L. In a sequel [Mirz2], we obtain a formula for$V _ { g , n } ( L )$in terms of intersection numbers of tautological classes over${ \overline { { \mathcal { M } } } } _ { g , n }$. However, this symplectic method does not lead us to a recursive algorithm for calculating the volumes explicitly.
 
 Applications. In forthcoming papers, we will study the connection of the polynomial$V _ { g , n } ( L )$with the length distribution of simple closed geodesics on a hyperbolic surface [Mirz1]. We also relate the coefficients of the volume polynomial$V _ { g , n } ( L )$to intersection numbers of tautological line classes on$\overline { { \mathcal { M } } } _ { g , n } \left[ \mathrm { M i r z } 2 \right]$. The algorithm for calculating$V _ { g , n } ( L )$presented in Sect. 5 leads to a new proof of the Virasoro constraints for a point which is equivalent to the Witten-Kontsevich formula [K]. The discussion in [Mirz2] suggests some similarities between$\mathcal { M } _ { g , n }$and the variety${ \mathrm { H o m } } ( \pi _ { 1 } ( S ) , G ) / G$ of representations of the fundamental group of the oriented surface S in a compact Lie group G, up to conjugacy. See [D], [BL], and [JK].
 
@@ -246,7 +249,7 @@ I would like to thank Greg McShane and Scott Wolpert for many helpful comments a
 
 In this section, we recall some basic facts and results in hyperbolic geometry and moduli spaces of bordered Riemann surfaces. See [IT] and [Bus] for more details.
 
-Teichmüller space. A point in the Teichmüller space$\mathcal { T } ( S )$is a complete hyperbolic surface X equipped with a diffeomorphism$f : S  X$. The map f provides a marking on X by S. Two marked surfaces$f : S \to X$and $g : \ S \to Y$define the same point in$\mathcal { T } ( S )$if and only if$f \circ g ^ { - 1 } : Y \to X$ is isotopic to a conformal map. When ∂S is nonempty, consider hyperbolic Riemann surfaces homeomorphic to S with geodesic boundary components of fixed length. Let$A = \partial S$and$L = ( L _ { \alpha } ) _ { \alpha \in A } \in \mathbb { R } _ { + } ^ { | A | }$. A point$X \in \mathcal { T } ( S , L )$ is a marked hyperbolic surface with geodesic boundary components such that for each boundary component$\beta \in \partial S$, we have
+Teichmüller space. A point in the Teichmüller space$\mathcal { T } ( S )$is a complete hyperbolic surface X equipped with a diffeomorphism$f : S \to X$. The map f provides a marking on X by S. Two marked surfaces$f : S \to X$and $g : \ S \to Y$define the same point in$\mathcal { T } ( S )$if and only if$f \circ g ^ { - 1 } : Y \to X$ is isotopic to a conformal map. When ∂S is nonempty, consider hyperbolic Riemann surfaces homeomorphic to S with geodesic boundary components of fixed length. Let$A = \partial S$and$L = ( L _ { \alpha } ) _ { \alpha \in A } \in \mathbb { R } _ { + } ^ { | A | }$. A point$X \in \mathcal { T } ( S , L )$ is a marked hyperbolic surface with geodesic boundary components such that for each boundary component$\beta \in \partial S$, we have
 
 $$
 \ell_ {\beta} (X) = L _ {\beta}.
@@ -258,7 +261,7 @@ $$
 \mathcal {T} _ {g, n} (L _ {1}, \ldots , L _ {n}) = \mathcal {T} (S _ {g, n}, L _ {1}, \ldots , L _ {n})
 $$
 
-denote the Teichmüller space of hyperbolic structures on$S _ { g , n }$with geodesic boundary components of length$L _ { 1 } , \ldots , L _ { n }$. Let Mod(S) denote the mapping class group of S, or in other words the group of isotopy classes of orientation preserving self homeomorphisms of S leaving each boundary component set wise fixed. The mapping class group$\mathbf { M o d } _ { g , n } ^ { - } = \mathbf { M o d } ( S _ { g , n } )$ acts on${ \mathcal { T } } _ { g , n } ( L )$by changing the marking. The quotient space
+denote the Teichmüller space of hyperbolic structures on$S _ { g , n }$with geodesic boundary components of length$L _ { 1 } , \ldots , L _ { n }$. Let Mod(S) denote the mapping class group of S, or in other words the group of isotopy classes of orientation preserving self homeomorphisms of S leaving each boundary component set wise fixed. The mapping class group$\mathbf { M o d } _ { g , n } = \mathbf { M o d } ( S _ { g , n } )$ acts on${ \mathcal { T } } _ { g , n } ( L )$by changing the marking. The quotient space
 
 $$
 \mathcal {M} _ {g, n} (L) = \mathcal {M} (S _ {g, n}, \ell_ {\beta_ {i}} = L _ {i}) = \mathcal {T} _ {g, n} (L _ {1}, \dots , L _ {n}) / \operatorname{Mod} _ {g, n}
@@ -286,7 +289,7 @@ $$
 
 where$L _ { A _ { i } } = ( L _ { s } ) _ { s \in A _ { i } }$
 
-The Weil-Petersson symplectic form. Recall that a symplectic structure on a manifold M is a non-degenerate closed 2-form$\omega \overset { \cdot } { \in } \dot { \Omega } ^ { 2 } ( M )$. The n-fold wedge product
+The Weil-Petersson symplectic form. Recall that a symplectic structure on a manifold M is a non-degenerate closed 2-form$\omega \in \Omega ^ { 2 } ( M )$. The n-fold wedge product
 
 $$
 \frac {1}{n !} \omega \wedge \dots \wedge \omega
@@ -298,7 +301,7 @@ $$
 \operatorname{Vol} (\mathcal {M} (S, L)) = \prod_ {i = 1} ^ {k} \operatorname{Vol} (\mathcal {M} (S _ {i}, L _ {A _ {i}})).
 $$
 
-The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decompose the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n } , \mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where $\bar { k } = 3 g - 3 + \bar { n }$. For a marked hyperbolic surface$\check { X } \in \mathcal { T } _ { g , n } ( L )$, the Fenchel-Nielsen coordinates associated with P,$\{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ( X )$ $\dots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces. We have an isomorphism [Bus]
+The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decompose the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n } , \mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where $k = 3 g - 3 + n$. For a marked hyperbolic surface$\check { X } \in \mathcal { T } _ { g , n } ( L )$, the Fenchel-Nielsen coordinates associated with P,$\{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ( X )$ $\dots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces. We have an isomorphism [Bus]
 
 $$
 \mathcal {T} _ {g, n} (L) \cong \mathbb {R} _ {+} ^ {\mathcal {P}} \times \mathbb {R} ^ {\mathcal {P}}
@@ -342,7 +345,7 @@ Splitting along a multicurve. We say$\textstyle \gamma = \sum _ { i = 1 } ^ { k 
 
 Fig. 1
 
-a multicurve$\gamma _ { : }$, and consider the surface$S _ { g , n } ( \gamma )$obtained by cutting$S _ { g , n }$ along$\gamma _ { 1 } , \ldots , \gamma _ { k }$. Then$S _ { g , n } ( \gamma )$is a (possibly disconnected) surface with $n + 2 k$boundary components and$s = s ( \gamma )$connected components. Each connected component$\gamma _ { i }$of$\gamma$gives rise to 2 boundary components,$\gamma _ { i } ^ { 1 }$and $\gamma _ { i } ^ { 2 }$on$S _ { g , n } ( \gamma )$, and we have
+a multicurve$\gamma$, and consider the surface$S _ { g , n } ( \gamma )$obtained by cutting$S _ { g , n }$ along$\gamma _ { 1 } , \ldots , \gamma _ { k }$. Then$S _ { g , n } ( \gamma )$is a (possibly disconnected) surface with $n + 2 k$boundary components and$s = s ( \gamma )$connected components. Each connected component$\gamma _ { i }$of$\gamma$gives rise to 2 boundary components,$\gamma _ { i } ^ { 1 }$and $\gamma _ { i } ^ { 2 }$on$S _ { g , n } ( \gamma )$, and we have
 
 $$
 \partial (S _ {g, n} (\gamma)) = \{\beta_ {1}, \dots , \beta_ {n} \} \cup \left\{\gamma_ {1} ^ {1}, \gamma_ {1} ^ {2}, \dots , \gamma_ {k} ^ {1}, \gamma_ {k} ^ {2} \right\}.
@@ -450,7 +453,7 @@ is equal to the geodesic length of the projection of$\beta _ { 3 }$on$\beta _ { 
 
 Also, define$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$to be the sum of the geodesic length of$( y _ { 1 } , z _ { 1 } )$ and$( y _ { 2 } , z _ { 2 } )$. Here$( y _ { i } , z _ { i } )$is the interval between$y _ { i }$and$z _ { i }$containing$w _ { i }$ on$\beta _ { 1 } . S 0$the function$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$is twice the geodesic distance between two geodesics perpendicular to$\beta _ { 1 }$spiraling around$\beta _ { 2 }$and$\beta _ { 3 }$. Equivalently, in the universal cover of$\mathcal { C } , \mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$equals 2 times the distance between the projection of$\beta _ { 2 }$and$\beta _ { 3 }$on$\beta _ { 1 }$
 
-Define the function$H : \mathbb { R } ^ { 2 }  \mathbb { R }$by
+Define the function$H : \mathbb { R } ^ { 2 } \to \mathbb { R }$by
 
 $$
 H (x, y) = \frac {1}{1 + e ^ {\frac {x + y}{2}}} + \frac {1}{1 + e ^ {\frac {x - y}{2}}}.
@@ -513,7 +516,7 @@ $$
 Hence,
 
 $$
-\mathcal {R} (x _ {1}, x _ {2}, x _ {3}) = x _ {1} - \log \left(\frac {\cosh (d (\beta_ {1} , \beta_ {3}) + 1}{\cosh (d (\beta_ {1} , \beta_ {3})) - 1}\right),
+\mathcal {R} (x _ {1}, x _ {2}, x _ {3}) = x _ {1} - \log \left(\frac {\cosh (d (\beta_ {1} , \beta_ {3})) + 1}{\cosh (d (\beta_ {1} , \beta_ {3})) - 1}\right),
 $$
 
 which implies equation (3.2).
@@ -522,7 +525,7 @@ See [LM] for a different proof of the preceding lemma.
 
 Next lemma will allow us to simplify integrals involving functions D and R:
 
-Lemma 3.2. The functions$\mathcal { D } , \mathcal { R } : \mathbb { R } _ { + }  \mathbb { R } _ { + }$satisfy the following equations:
+Lemma 3.2. The functions$\mathcal { D } , \mathcal { R } : \mathbb { R } _ { + } \to \mathbb { R } _ { + }$satisfy the following equations:
 
 $$
 \frac {\partial}{\partial x} \mathcal {D} (x, y, z) = H (y + z, x),\tag{3.3}
@@ -566,7 +569,7 @@ $$
 \mathcal {R} (x, y, z) \to 0,
 $$
 
-as$z  \infty$. Similarly, when x is a fixed number as
+as $z \to \infty$. Similarly, when x is a fixed number as
 
 $$
 \mathcal {D} (x, y, z) \to 0,
@@ -580,17 +583,17 @@ In this section, we discuss an identity for the lengths of certain types of simp
 
 Embedded pairs ofpants. We say three isotopy classes ofconnected simple closed curves,$\alpha _ { 1 } , \alpha _ { 2 }$, and$\alpha _ { 3 }$on$S _ { g , n }$, bound a pair of pants if there exists an embedded pair of pants$\Sigma \subset S _ { g , n }$such that$\partial \Sigma = \{ \alpha _ { 1 } , \alpha _ { 2 } , \alpha _ { 3 } \}$. Here$\alpha _ { i }$ may be a boundary component, and a closed geodesic of length 0 is a cusp.
 
-The statement of Theorem 1.3 motivates the following definitions. For $1 \leq i \leq n$, let$\mathcal { F } _ { i }$denote the set of unordered pairs of isotopy classes of non-peripheral simple closed curves$\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair of pants with$\beta _ { i }$ Similarly, for$\bar { 1 } \leq i \neq j \leq n$, let$\mathcal { F } _ { i , j }$denote the set of isotopy classes of simple closed curves γ bounding a pair of pants containing$\beta _ { i }$and$\beta _ { j }$
+The statement of Theorem 1.3 motivates the following definitions. For $1 \leq i \leq n$, let$\mathcal { F } _ { i }$denote the set of unordered pairs of isotopy classes of non-peripheral simple closed curves$\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair of pants with$\beta _ { i }$ Similarly, for$1 \leq i \neq j \leq n$, let$\mathcal { F } _ { i , j }$denote the set of isotopy classes of simple closed curves γ bounding a pair of pants containing$\beta _ { i }$and$\beta _ { j }$
 
 An identity for lengths of simple closed geodesics. First we state an identity for lengths of simple closed geodesics on hyperbolic punctured surfaces due to G. McShane [M]:
 
 Theorem 4.1. Let$\{ p _ { 1 } , \ldots , p _ { n } \}$be the set of punctures of$X \in \mathcal { T } _ { g , n }$. Then we have
 
 $$
-\sum_ {\{\gamma_ {1}, \gamma_ {2} \} \in \mathcal {F} _ {1}} \frac {1}{1 + e ^ {\frac {\ell \gamma_ {1} (X) + \ell \gamma_ {2} (X)}{2}}} + \sum_ {i = 2} ^ {n} \sum_ {\gamma \in \mathcal {F} _ {1, i}} \frac {1}{1 + e ^ {\frac {\ell \gamma (X)}{2}}} = \frac {1}{2}.
+\sum_ {\{\gamma_ {1}, \gamma_ {2} \} \in \mathcal {F} _ {1}} \frac {1}{1 + e ^ {\frac {\ell_ {\gamma_ {1}} (X) + \ell_ {\gamma_ {2}} (X)}{2}}} + \sum_ {i = 2} ^ {n} \sum_ {\gamma \in \mathcal {F} _ {1, i}} \frac {1}{1 + e ^ {\frac {\ell_ {\gamma} (X)}{2}}} = \frac {1}{2}.
 $$
 
-We will use the properties of functions$\mathcal { D } , \mathcal { R } : \mathbb { R } _ { + } ^ { 3 }  \mathbb { R } _ { + }$, and the geometry of complete simple geodesics on a hyperbolic surface to get a similar result for hyperbolic bordered Riemann surfaces with geodesic boundary components:
+We will use the properties of functions$\mathcal { D } , \mathcal { R } : \mathbb { R } _ { + } ^ { 3 } \to \mathbb { R } _ { + }$, and the geometry of complete simple geodesics on a hyperbolic surface to get a similar result for hyperbolic bordered Riemann surfaces with geodesic boundary components:
 
 Theorem 4.2 (Generalized McShane identity for bordered surfaces). For any$X \in { \mathcal { T } } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$with$3 g - 3 + n > 0$, we have
 
@@ -603,7 +606,7 @@ We remark that as$L _ { 1 } \to 0$both sides of equation (4.1) tend to zero and$
 Corollary 4.3. For any$X \in { \mathcal { T } } _ { g , n } ( 0 , L _ { 2 } , \ldots , L _ { n } )$with$3 g - 3 + n > 0 ,$, we have
 
 $$
-\sum_ {\left\{\gamma_ {1}, \gamma_ {2} \right\} \in \mathcal {F} _ {1}} \frac {1}{1 + e ^ {\frac {\ell \gamma_ {1} (X) + \ell \gamma_ {2} (X)}{2}}} + \sum_ {i = 2} ^ {n} \sum_ {\gamma \in \mathcal {F} _ {1, i}} \frac {1}{2} \left(\frac {1}{1 + e ^ {\frac {\ell \gamma (X) + L _ {i}}{2}}} + \frac {1}{1 + e ^ {\frac {\ell \gamma (X) - L _ {i}}{2}}}\right) = \frac {1}{2}.\tag{4.2}
+\sum_ {\left\{\gamma_ {1}, \gamma_ {2} \right\} \in \mathcal {F} _ {1}} \frac {1}{1 + e ^ {\frac {\ell_ {\gamma_ {1}} (X) + \ell_ {\gamma_ {2}} (X)}{2}}} + \sum_ {i = 2} ^ {n} \sum_ {\gamma \in \mathcal {F} _ {1, i}} \frac {1}{2} \left(\frac {1}{1 + e ^ {\frac {\ell_ {\gamma} (X) + L _ {i}}{2}}} + \frac {1}{1 + e ^ {\frac {\ell_ {\gamma} (X) - L _ {i}}{2}}}\right) = \frac {1}{2}.\tag{4.2}
 $$
 
 Note that Corollary 4.3 implies Theorem 4.1.
@@ -638,9 +641,9 @@ Theorem 4.6. For any$x \in E _ { i }$, exactly one of the following holds:
 
 a) If the other end of$\gamma _ { x }$approaches a boundary component, then the point x is an isolated point of$E _ { i }$.
 
-b)$H \Omega ( \gamma _ { x } )$is a simple closed curve inside the surface, then the point x is a boundary point of$E _ { i }$.
+b)$\Omega ( \gamma _ { x } )$is a simple closed curve inside the surface, then the point x is a boundary point of$E _ { i }$.
 
-c)$H \Omega ( \gamma _ { x } )$is not a simple closed curve, then x is neither a boundary point nor an isolated point in$E _ { i }$
+c)$\Omega ( \gamma _ { x } )$is not a simple closed curve, then x is neither a boundary point nor an isolated point in$E _ { i }$
 
 Simple arcs in embedded pairs of pants. There is a one-to-one correspondence between simple common perpendiculars between two (not necessarily distinct) boundary components$\beta _ { 1 }$and$\beta _ { j }$of$X$, and embedded pairs of pants containing$\beta _ { 1 }$and$\beta _ { j }$as follows.
 
@@ -666,7 +669,7 @@ $$
 E _ {1} \cap (z _ {1}, z _ {2}) = x _ {2}.
 $$
 
-Assume$\gamma _ { z }$is a simple geodesic ray such that$z \not \in \{ x _ { 1 } , x _ { 2 } , y _ { 1 } , y _ { 2 } , z _ { 1 } , z _ { 2 } \}$ Then$\gamma _ { z }$must leave$\hat { \Sigma }$and hence it meets$\alpha _ { 1 } \cup \alpha _ { 2 }$. Without loss of generality, we can assume that$\gamma _ { z }$meets$\alpha _ { 1 }$first. In the universal cover of this pair of pants, as shown in Fig. 5, let$\tilde { \beta }$, joining$s _ { 1 }$and$\infty$, be a lift of$\beta _ { 1 }$. Also, let $\tilde { \alpha } _ { 1 }$, joining$r _ { 1 }$and$r _ { 2 }$, be the outermost lift of$\alpha _ { 1 }$meeting$\tilde { \gamma } _ { z }$. Consider$\psi _ { 1 }$ and$\psi _ { 2 }$, two geodesics perpendicular to$\tilde { \beta }$at$a _ { 1 }$and$a _ { 2 }$, and passing through the two endpoints of$\tilde { \alpha } _ { 1 }$. And let$\eta _ { 1 }$(resp.$\eta _ { 2 } )$be the piecewise geodesic path going from$\tilde { z }$to h along$\tilde { \gamma } _ { z }$and from h to$r _ { 1 }$(resp.$r _ { 2 } )$along$\tilde { \alpha } _ { 1 }$. As both $\alpha _ { 1 }$and$\gamma _ { z }$are simple on$X$, the projection of$\eta _ { 1 }$and$\eta _ { 2 }$are simple rays on the surface. On the other hand, since$\tilde { \alpha } _ { 1 }$is the outermost lift of$\alpha _ { 1 }$meeting $\gamma _ { z }$, the projections of$\eta _ { 1 }$and$\eta _ { 2 }$are disjoint from both$\alpha _ { 1 }$and$\alpha _ { 2 }$. Therefore, the projections are infinite simple geodesic rays on the pair of pants$\Sigma$
+Assume$\gamma _ { z }$is a simple geodesic ray such that$z \not \in \{ x _ { 1 } , x _ { 2 } , y _ { 1 } , y _ { 2 } , z _ { 1 } , z _ { 2 } \}$ Then$\gamma _ { z }$must leave$\Sigma$and hence it meets$\alpha _ { 1 } \cup \alpha _ { 2 }$. Without loss of generality, we can assume that$\gamma _ { z }$meets$\alpha _ { 1 }$first. In the universal cover of this pair of pants, as shown in Fig. 5, let$\tilde { \beta }$, joining$s _ { 1 }$and$\infty$, be a lift of$\beta _ { 1 }$. Also, let $\tilde { \alpha } _ { 1 }$, joining$r _ { 1 }$and$r _ { 2 }$, be the outermost lift of$\alpha _ { 1 }$meeting$\tilde { \gamma } _ { z }$. Consider$\psi _ { 1 }$ and$\psi _ { 2 }$, two geodesics perpendicular to$\tilde { \beta }$at$a _ { 1 }$and$a _ { 2 }$, and passing through the two endpoints of$\tilde { \alpha } _ { 1 }$. And let$\eta _ { 1 }$(resp.$\eta _ { 2 } )$be the piecewise geodesic path going from$\tilde { z }$to h along$\tilde { \gamma } _ { z }$and from h to$r _ { 1 }$(resp.$r _ { 2 } )$along$\tilde { \alpha } _ { 1 }$. As both $\alpha _ { 1 }$and$\gamma _ { z }$are simple on$X$, the projection of$\eta _ { 1 }$and$\eta _ { 2 }$are simple rays on the surface. On the other hand, since$\tilde { \alpha } _ { 1 }$is the outermost lift of$\alpha _ { 1 }$meeting $\gamma _ { z }$, the projections of$\eta _ { 1 }$and$\eta _ { 2 }$are disjoint from both$\alpha _ { 1 }$and$\alpha _ { 2 }$. Therefore, the projections are infinite simple geodesic rays on the pair of pants$\Sigma$
 
 Furthermore,$\eta _ { 1 }$(resp.$\eta _ { 2 } )$is homotopic to$\psi _ { 1 }$(resp.$\psi _ { 2 } )$. This shows that the projections of$\psi _ { 1 }$and$\psi _ { 2 }$are complete simple geodesics on$\Sigma$. Since both$\psi _ { 1 }$and$\psi _ { 2 }$are asymptotic to a lift of$\alpha _ { 1 }$, their images spiral to$\alpha _ { 1 }$ Therefore$a _ { 1 }$and$a _ { 2 }$are actually pre-images of$z _ { 1 }$and$y _ { 1 }$. Also, for any $x \in [ a _ { 1 } , a _ { 2 } ]$the curve$\gamma _ { x }$meets$\alpha .$Therefore, we have$z \in [ y _ { 1 } , z _ { 1 } ]$
 
@@ -682,9 +685,9 @@ $$
 d (\alpha (s), \alpha (t)) > k | s - t |
 $$
 
-for all s and t. Recall that any quasi-geodesic is a bounded distance away from a unique geodesic. If L is much bigger than$\theta _ { : }$then any$( L , \theta )$polygon path α of segments of length at least L and bends at most$\theta < \pi$is a quasi-geodesic. See [CEG] for more details.
+for all s and t. Recall that any quasi-geodesic is a bounded distance away from a unique geodesic. If L is much bigger than$\theta$then any$( L , \theta )$polygon path α of segments of length at least L and bends at most$\theta < \pi$is a quasi-geodesic. See [CEG] for more details.
 
-Now assume that$\tilde { \gamma }$is a geodesic perpendicular to a fixed geodesic$\tilde { \beta }$ in H such that$\tilde { \gamma } \cap \tilde { \beta } = \{ x \}$. Let$\tilde { \alpha }$be an$( L , \theta )$polygon path such that$\tilde { \alpha }$ and$\tilde { \beta }$also meet at x, and the straightening of$\tilde { \alpha }$meets$\tilde { \gamma }$in$x _ { \alpha }$. Then as $( L , \theta )  ( \infty , 0 )$the distance from$x _ { \alpha }$to x tends to zero. Moreover, if the bending angles are all positive (negative), then$x _ { \alpha }$is on the right (left) side of x on$\tilde { \beta }$. See Fig. 6.
+Now assume that$\tilde { \gamma }$is a geodesic perpendicular to a fixed geodesic$\tilde { \beta }$ in H such that$\tilde { \gamma } \cap \tilde { \beta } = \{ x \}$. Let$\tilde { \alpha }$be an$( L , \theta )$polygon path such that$\tilde { \alpha }$ and$\tilde { \beta }$also meet at x, and the straightening of$\tilde { \alpha }$meets$\tilde { \gamma }$in$x _ { \alpha }$. Then as $(L,\theta)\to(\infty,0)$the distance from$x _ { \alpha }$to x tends to zero. Moreover, if the bending angles are all positive (negative), then$x _ { \alpha }$is on the right (left) side of x on$\tilde { \beta }$. See Fig. 6.
 
 ![](images/page_19_image_7.jpg)
 
@@ -746,7 +749,7 @@ $$
 c \cap \{\gamma_ {x} (t) \mid 0 \leq t <   t _ {2} \} = \emptyset .
 $$
 
-For any$\epsilon > 0$there exist$\delta , L > 0$such that if$( \alpha , t _ { 0 } , t _ { 1 } , c )$is a δ-good geodesic segment and$L \leq t _ { 1 } - t _ { 0 }$, then η is a simple quasi geodesic.$\bar { L } e t \widehat { \eta }$ denote the geodesic representative ofη and$y = \widehat { \eta } \cap \beta _ { i }$. Then
+For any$\epsilon > 0$there exist$\delta , L > 0$such that if$( \alpha , t _ { 0 } , t _ { 1 } , c )$is a δ-good geodesic segment and$L \leq t _ { 1 } - t _ { 0 }$, then $\eta$ is a simple quasi geodesic. Let $\widehat{\eta}$ denote the geodesic representative of $\eta$ and $y = \widehat{\eta} \cap \beta_i$. Then
 
 $$
 d (y, x) <   \epsilon .
@@ -766,7 +769,7 @@ $L \leq | t |$, and
 
 • the points$y = \phi _ { y } ( 0 )$and$\phi _ { y } ( t )$are not boundary points in$\lambda \cap c$
 
-To prove the claim, choose a transverse almost perpendicular arc$c _ { 1 }$ such that$\lambda \cap c _ { 1 } \neq \varnothing$. Since λ is not a simple closed curve,$\lambda \cap c _ { 1 }$is an uncountable set with only countably many boundary points [HP]. Therefore one can choose$x _ { 0 } \in \lambda \cap c _ { 1 }$so that$\phi _ { x _ { 0 } } \cap c _ { 1 }$does not contain any boundary points of$\lambda \cap c _ { 1 }$. Let$\phi = \phi _ { x _ { 0 } }$. Choose a small transverse subarc$c : [ - r , + r ]  X , \ r > 0 , \ c ( 0 ) = x _ { 0 }$such that for$\phi ( a ) \ \neq$ $\phi ( b ) \in c [ - r , r ]$, we have$| a - b | > L$. Without loss of generality, we can assume that the orientation of the pair
+To prove the claim, choose a transverse almost perpendicular arc$c _ { 1 }$ such that$\lambda \cap c _ { 1 } \neq \varnothing$. Since λ is not a simple closed curve,$\lambda \cap c _ { 1 }$is an uncountable set with only countably many boundary points [HP]. Therefore one can choose$x _ { 0 } \in \lambda \cap c _ { 1 }$so that$\phi _ { x _ { 0 } } \cap c _ { 1 }$does not contain any boundary points of$\lambda \cap c _ { 1 }$. Let$\phi = \phi _ { x _ { 0 } }$. Choose a small transverse subarc$c : [ - r , + r ] \to X , \ r > 0 , \ c ( 0 ) = x _ { 0 }$such that for$\phi ( a ) \ \neq$ $\phi ( b ) \in c [ - r , r ]$, we have$| a - b | > L$. Without loss of generality, we can assume that the orientation of the pair
 
 ![](images/page_22_image_0.jpg)
 
@@ -885,12 +888,12 @@ $$
 and
 
 $$
-V _ {1, 1} (L _ {1}) = \frac {L _ {1} ^ {2}}{2 4} + \frac {\pi^ {2}}{6}.
+V _ {1, 1} (L _ {1}) = \frac {L _ {1} ^ {2}}{24} + \frac {\pi^ {2}}{6}.
 $$
 
 The first equation holds since the moduli space$\mathcal { M } _ { 0 , 3 } ( L _ { 1 } , L _ { 2 } , L _ { 3 } )$consists of only one point. For the calculation of$V _ { 1 , 1 } ( L )$see Sect. 6.
 
-• For$L = ( L _ { 1 } , \ldots , L _ { n } )$, let$\widehat { L } = ( L _ { 2 } , \ldots , L _ { n } )$. When$( g , n ) \neq ( 1 , 1 )$ $( 0 , 3 )$, the volume$V _ { g , n } ( L ) = \operatorname { V o l } ( \mathcal { M } _ { g , n } ( L ) )$satisfies
+• For$L = ( L _ { 1 } , \ldots , L _ { n } )$, let$\widehat { L } = ( L _ { 2 } , \ldots , L _ { n } )$. When$( g , n ) \neq ( 1 , 1 ) , ( 0 , 3 )$, the volume$V _ { g , n } ( L ) = \operatorname { V o l } ( \mathcal { M } _ { g , n } ( L ) )$satisfies
 
 $$
 \frac {\partial}{\partial L _ {1}} L _ {1} V _ {g, n} (L) = \mathcal {A} _ {g, n} ^ {c o n} (L _ {1}, \widehat {L}) + \mathcal {A} _ {g, n} ^ {d c o n} (L _ {1}, \widehat {L}) + \mathcal {B} _ {g, n} (L _ {1}, \widehat {L}),\tag{5.1}
@@ -936,13 +939,13 @@ $$
 
 So$m ( g , n ) = 0$unless$g = 1$and$n = 1$
 
-I): Definition of$\widehat { \mathcal { A } } _ { g , n } ^ { c o n }$. Define$\widehat { \mathcal { A } } _ { g , n } ^ { c o n } : \mathbb { R } _ { + } ^ { n + 2 }  \mathbb { R } _ { + }$by
+I): Definition of$\widehat { \mathcal { A } } _ { g , n } ^ { c o n }$. Define$\widehat { \mathcal { A } } _ { g , n } ^ { c o n } : \mathbb { R } _ { + } ^ { n + 2 } \to \mathbb { R } _ { + }$by
 
 $$
 \widehat {\mathcal {A}} _ {g, n} ^ {c o n} (x, y, L _ {1}, \dots , L _ {n}) = \frac {1}{2 ^ {m (g - 1 , n + 1)}} V _ {g - 1, n + 1} (x, y, \widehat {L}) \cdot H (x + y, L _ {1}).
 $$
 
-II): Definition of$\widehat { \mathcal { A } _ { g , n } } ^ { d c o n }$. Let$\tau _ { g , n }$be the set of ordered paris
+II): Definition of$\widehat { \mathcal { A } _ { g , n } } ^ { d c o n }$. Let$\mathcal{I}_{g,n}$be the set of ordered paris
 
 $$
 a = ((g _ {1}, I _ {1}), (g _ {2}, I _ {2})),
@@ -977,7 +980,7 @@ $$
 where$I = \{ j _ { 1 } , \ldots , j _ { k } \}$. Now for each
 
 $$
-a = ((g _ {1}, I _ {1}), (g _ {2}, I _ {2})) \in \mathfrak {I} _ {g, n},
+a = ((g _ {1}, I _ {1}), (g _ {2}, I _ {2})) \in \mathcal {I} _ {g, n},
 $$
 
 let
@@ -988,7 +991,7 @@ $$
 
 As we will see later, the reason we have to divide by 2 in this case is that every$X \in \mathcal { M } _ { 1 , 1 } ( L )$is hyperelliptic.
 
-Finally, define$\widehat { \mathcal { A } } _ { g , n } ^ { d c o n } : \mathbb { R } _ { + } ^ { n + 2 }  \mathbb { R } _ { + }$by
+Finally, define$\widehat { \mathcal { A } } _ { g , n } ^ { d c o n } : \mathbb { R } _ { + } ^ { n + 2 } \to \mathbb { R } _ { + }$by
 
 $$
 \widehat {\mathcal {A}} _ {g, n} ^ {d c o n} (x, y, L _ {1}, \widehat {L}) = \sum_ {a \in \mathcal {I} _ {g, n}} V (a, x, y, \widehat {L}) \cdot H (x + y, L _ {1}).
@@ -997,7 +1000,7 @@ $$
 III): Definition of$\widehat { \mathcal { B } } _ { g , n }$. Define$\widehat { \mathcal { B } } _ { g , n } : \mathbb { R } _ { + } ^ { n + 1 } \to \mathbb { R } _ { + }$by
 
 $$
-\begin{array}{l} \widehat {\mathcal {B}} _ {g, n} (x, L _ {1}, \widehat {L}) = \frac {1}{2 ^ {m (g , n - 1)}} \sum_ {j = 2} ^ {n} \frac {1}{2} (H (x, L _ {1} + L _ {j}) + H (x, L _ {1} - L _ {j})) \\ \cdot V _ {g, n - 1} (x, L _ {2}, \dots , \widehat {L} _ {j}, \dots , L _ {n}). \end{array} \tag {5}\tag{5.5}
+\begin{array}{l} \widehat {\mathcal {B}} _ {g, n} (x, L _ {1}, \widehat {L}) = \frac {1}{2 ^ {m (g , n - 1)}} \sum_ {j = 2} ^ {n} \frac {1}{2} (H (x, L _ {1} + L _ {j}) + H (x, L _ {1} - L _ {j})) \\ \cdot V _ {g, n - 1} (x, L _ {2}, \dots , \widehat {L} _ {j}, \dots , L _ {n}). \end{array} \tag{5.5}
 $$
 
 Remark. The functions$\mathcal { A } _ { g , n } ^ { c o n } , \mathcal { A } _ { g , n } ^ { d c o n }$and${ \mathcal { B } } _ { g , n }$are determined by the functions$\{ V _ { i , j } \}$where$3 i + j < 3 g + n$. Therefore equation (5.1) is a recursive formula for calculating$V _ { g , n } ( L )$. In Sect. 6 we will simplify this recursive formula and use it to prove that$V _ { g , n } ( L )$is a polynomial in L (Theorem 1.1).
@@ -1055,7 +1058,7 @@ $$
 Therefore, we have:
 
 $$
-V _ {1, 1} (L) = \frac {L ^ {2}}{2 4} + \frac {\pi^ {2}}{6}.\tag{6.1}
+V _ {1, 1} (L) = \frac {L ^ {2}}{24} + \frac {\pi^ {2}}{6}.\tag{6.1}
 $$
 
 Remark. This result agrees with the result obtained in [NN].
@@ -1124,13 +1127,13 @@ $$
 
 Now we can use the preceding lemma to prove that$V _ { g , n } ( L )$is a polynomial in L.
 
-Sketch of the Proof of Theorem 6.1. The proof is by induction on$3 g + n$ Using equation (5.1), it suffices to prove that$\mathcal { A } _ { g , n } ^ { c o n } ( L ) , \mathcal { A } _ { g , n } ^ { d c o n } ( L )$and${ \mathcal { B } } _ { g , n } ( L )$ are polynomials in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. Here we prove that${ \mathcal { B } } _ { g , n } ( L )$is a polynomial in$L _ { i } ^ { 2 } \mathrm { { ^ , s } ; }$a similar argument shows that$\mathcal { A } _ { g , n } ^ { d c o n } ( L )$and$\mathcal { A } _ { g , n } ^ { c o n } ( L )$are also polynomials in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. By the induction hypothesis, for any$2 \leq j \leq n$ the volume$V _ { g , n - 1 } ( x , L _ { 2 } , \dots , L _ { j - 1 } , L _ { j + 1 } , \dots , L _ { n } )$is a polynomial in$x ^ { 2 }$ and$L _ { 2 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. On the other hand, Lemma 6.2 implies that for$i \geq 0$
+Sketch of the Proof of Theorem 6.1. The proof is by induction on$3 g + n$ Using equation (5.1), it suffices to prove that$\mathcal { A } _ { g , n } ^ { c o n } ( L ) , \mathcal { A } _ { g , n } ^ { d c o n } ( L )$and${ \mathcal { B } } _ { g , n } ( L )$ are polynomials in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. Here we prove that${ \mathcal { B } } _ { g , n } ( L )$is a polynomial in$L _ { i } ^ { 2 }$'s; a similar argument shows that$\mathcal { A } _ { g , n } ^ { d c o n } ( L )$and$\mathcal { A } _ { g , n } ^ { c o n } ( L )$are also polynomials in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. By the induction hypothesis, for any$2 \leq j \leq n$ the volume$V _ { g , n - 1 } ( x , L _ { 2 } , \dots , L _ { j - 1 } , L _ { j + 1 } , \dots , L _ { n } )$is a polynomial in$x ^ { 2 }$ and$L _ { 2 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$. On the other hand, Lemma 6.2 implies that for$i \geq 0$
 
 $$
 \begin{array}{c} \int_ {0} ^ {\infty} x ^ {2 i + 1} \cdot (H (x, L _ {1} + L _ {j}) + H (x, L _ {1} - L _ {j}))   d x \\ = F _ {2 i + 1} (L _ {1} + L _ {j}) + F _ {2 i + 1} (L _ {1} - L _ {j}) \end{array}
 $$
 
-is a polynomial in$L _ { 1 } ^ { 2 }$and$L _ { j } ^ { 2 }$. Hence, equations (5.5) and (5.4) imply that ${ \mathcal { B } } _ { g , n } ( L )$is a polynomial in$L _ { 1 } ^ { \dot { 2 } } , \dots , L _ { n } ^ { 2 }$. Moreover, this argument shows that the coefficient of$L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdots L _ { n } ^ { 2 \alpha _ { n } }$in$V _ { g , n } ( L )$lies in$\pi ^ { 6 g - 6 + 2 n - 2 | \alpha | } \cdot \mathbb { Q } _ { + }$
+is a polynomial in$L _ { 1 } ^ { 2 }$and$L _ { j } ^ { 2 }$. Hence, equations (5.5) and (5.4) imply that ${ \mathcal { B } } _ { g , n } ( L )$is a polynomial in$L _ { 1 } ^ { 2 } , \dots , L _ { n } ^ { 2 }$. Moreover, this argument shows that the coefficient of$L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdots L _ { n } ^ { 2 \alpha _ { n } }$in$V _ { g , n } ( L )$lies in$\pi ^ { 6 g - 6 + 2 n - 2 | \alpha | } \cdot \mathbb { Q } _ { + }$
 
 Definition. Let$C _ { g } ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$be the coefficient of$L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdots L _ { n } ^ { 2 \alpha _ { n } }$in the polynomial$V _ { g , n } ( L )$. To simplify notation, set
 
@@ -1140,7 +1143,7 @@ $$
 
 where$\textstyle | \alpha | = \sum _ { i = 1 } ^ { n } \alpha _ { i }$
 
-The recursive formula for volume polynomials (Sect. 5) simplifies when $\textstyle \sum _ { i = 1 } ^ { n } 2 \alpha _ { i } = 6 g - 6 + 2 n$; in this case, we get a recursive formula in terms of the leading coefficients of$\{ V _ { h , m } \}$with$3 h - m < 3 g - n$. If one of the $\alpha _ { i } \mathrm { ^ { * } s }$is 0 or 1, the recursive formula simplifies even further.
+The recursive formula for volume polynomials (Sect. 5) simplifies when $\textstyle \sum _ { i = 1 } ^ { n } 2 \alpha _ { i } = 6 g - 6 + 2 n$; in this case, we get a recursive formula in terms of the leading coefficients of$\{ V _ { h , m } \}$with$3 h - m < 3 g - n$. If one of the $\alpha_i$'s is 0 or 1, the recursive formula simplifies even further.
 
 Theorem 6.3. For$n > 0 ,$, we have
 
@@ -1158,7 +1161,7 @@ $$
 
 where$\textstyle \sum _ { i = 1 } ^ { n } \alpha _ { i } = 3 g - 2 + n .$
 
-Proofof Theorem 6.3. To prove the theorem, we calculate the coefficient of $L _ { 0 } ^ { 2 } \cdot L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in both sides of equation (5.1) for$\mathcal { M } _ { g , n + 1 } ( L _ { 0 } , \ldots , L _ { n } )$ It is easy to check that the coefficient of$L _ { 0 } ^ { 2 } \cdot L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in both $\widehat { \mathcal { A } } ^ { c o n } ( L _ { 0 } , L _ { 1 } , \cdots , L _ { n } )$and$\widehat { \mathcal { A } } _ { g , n } ^ { d c o n } ( L _ { 0 } , L _ { 1 } , \cdot \cdot \cdot , \bar { L } _ { n } )$equals zero. By Lemma 6.2, the leading coefficient of$F _ { 2 i + 1 } ( t )$equals$1 / ( 2 i + 2 )$. Therefore, the coefficient of$L _ { 0 } ^ { 2 } \cdot \dot { L } _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in
+Proofof Theorem 6.3. To prove the theorem, we calculate the coefficient of $L _ { 0 } ^ { 2 } \cdot L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in both sides of equation (5.1) for$\mathcal { M } _ { g , n + 1 } ( L _ { 0 } , \ldots , L _ { n } )$ It is easy to check that the coefficient of$L _ { 0 } ^ { 2 } \cdot L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in both $\widehat { \mathcal { A } } ^ { c o n } ( L _ { 0 } , L _ { 1 } , \cdots , L _ { n } )$and$\widehat { \mathcal { A } } _ { g , n } ^ { d c o n } ( L _ { 0 } , L _ { 1 } , \cdot \cdot \cdot , \bar { L } _ { n } )$equals zero. By Lemma 6.2, the leading coefficient of$F _ { 2 i + 1 } ( t )$equals$1 / ( 2 i + 2 )$. Therefore, the coefficient of$L _ { 0 } ^ { 2 } \cdot L _ { 1 } ^ { 2 \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { 2 \alpha _ { n } }$in
 
 $$
 \sum_ {j = 1} ^ {n} \int_ {0} ^ {\infty} \frac {1}{2} x \cdot (H (x, L _ {0} + L _ {j}) + H (x, L _ {0} - L _ {j})) \cdot V _ {g, n - 1} (x, L _ {T _ {n} - \{j \}}) d x
@@ -1230,7 +1233,7 @@ $$
 
 where$\begin{array} { r } { \Gamma = ( \gamma _ { 1 } , \ldots , \gamma _ { k } ) , | { \bf x } | = \sum _ { i = 1 } ^ { k } c _ { i } \mathrm { ~ } x _ { i } \mathrm { , ~ } { \bf x } \cdot d { \bf x } = x _ { 1 } \cdot \cdot \cdot x _ { k } \cdot d x _ { 1 } \wedge \cdot \cdot \cdot \wedge d x _ { k } , } \end{array}$ and
 
-M(γ) = |{i|γ separates offa one-handle from$S _ { g , n } \} |$
+$M(\gamma) = |\{i \mid \gamma_i \text{ separates off a one-handle from } S_{g,n}\}|$
 
 Recall that given${ \bf x } = ( x _ { 1 } , \ldots , x _ { k } ) \in \mathbb { R } _ { + } ^ { k } , V _ { g , n } ( \Gamma , { \bf x } , \beta , L )$is defined by
 
@@ -1274,7 +1277,7 @@ $$
 \int_ {X _ {2}} \left(\pi_ {*} f\right) d v _ {2} = \int_ {X _ {1}} f d v _ {1}.\tag{7.4}
 $$
 
-Coverings and volume forms of the$\mathcal { M } _ { g , n } ( L ) ^ { \bullet }$. An element$h \in \operatorname { M o d } _ { g , n }$ acts on Γ by
+Coverings and volume forms of the$\mathcal{M}_{g,n}(L)$'s. An element$h \in \operatorname { M o d } _ { g , n }$ acts on Γ by
 
 $$
 h. \Gamma = (h \cdot \gamma_ {1}, \dots , h \cdot \gamma_ {k}).
@@ -1286,7 +1289,7 @@ $$
 \{(X, \eta) \mid X \in \mathcal {M} _ {g, n} (L), \eta = (\eta_ {1}, \dots , \eta_ {k}) \in \mathcal {O} _ {\Gamma},
 $$
 
-$\eta _ { i } \mathrm { ^ { * } s }$are closed geodesics on$X \}$.
+$\eta_i$'s are closed geodesics on$X \}$.
 
 Then
 
@@ -1308,7 +1311,7 @@ $$
 
 As the Weil-Petersson symplectic structure on Teichmüller space is invariant under the action ofthe mapping class group, it induces a symplectic structure on$\mathcal { M } _ { g , n } ( L ) ^ { \Gamma }$which is the same as the form$\pi ^ { \Gamma * } ( w _ { w p } )$
 
-The key tool in our approach is the existence of k commuting Hamiltonian$S ^ { 1 }$-actions on$\mathcal { M } _ { g , n } ( \hat { L } ) ^ { \Gamma }$induced by twisting along connected components of$\gamma$. We will discuss how the corresponding quotient space is related to the moduli space of hyperbolic structures over$S _ { g , n } ( \gamma )$
+The key tool in our approach is the existence of k commuting Hamiltonian$S ^ { 1 }$-actions on$\mathcal { M } _ { g , n } ( L ) ^ { \Gamma }$induced by twisting along connected components of$\gamma$. We will discuss how the corresponding quotient space is related to the moduli space of hyperbolic structures over$S _ { g , n } ( \gamma )$
 
 Twisting and the Weil-Petesson symplectic form. Let$\ell _ { \Gamma } : \mathcal { T } _ { g , n } \to \mathbb { R } _ { + } ^ { k }$ denote the length vector
 
@@ -1565,7 +1568,7 @@ $$
 Then by the definition (equation (7.1)), for any$X \in \mathcal { M } _ { g , n } ( L )$we have
 
 $$
-\tilde {\mathcal {R}} _ {j (x)} (X) = R _ {\gamma_ {j}} ^ {j} (X).
+\tilde {\mathcal {R}} _ {j} (X) = R _ {\gamma_ {j}} ^ {j} (X).
 $$
 
 Since$S _ { g , n } ( \gamma _ { j } ) \cong S _ { g , n - 1 }$, and$| \operatorname { S y m } ( \gamma _ { j } ) | = 1$, Theorem 7.1 implies that
@@ -1606,10 +1609,10 @@ $$
 A ^ {d c o n} = \bigcup_ {a \in \mathcal {I} _ {g, n}} A _ {a}.
 $$
 
-For each$a \in \mathcal { I } _ { g , n }$, choose an element$\gamma _ { a }$of the set$A _ { a }$; also, choose$\gamma \in A ^ { c o n }$ Define the set of representatives of the distinct orbits of$\tau _ { g , n } , \mathcal { C }$by
+For each$a \in \mathcal { I } _ { g , n }$, choose an element$\gamma _ { a }$of the set$A _ { a }$; also, choose$\gamma \in A ^ { c o n }$ Define the set of representatives of the distinct orbits of$\mathcal{I}_{g,n}, \mathcal { C }$by
 
 $$
-\mathcal {C} = \{\gamma_ {a} \mid a \in \mathfrak {I} _ {g, n} \} \cup \{\gamma \}.
+\mathcal {C} = \{\gamma_ {a} \mid a \in \mathcal {I} _ {g, n} \} \cup \{\gamma \}.
 $$
 
 Then it is easy to see that by the definition (equation (7.1))
@@ -1628,7 +1631,7 @@ $$
 
 Now the result is immediate from equations (8.4), (8.5) and (8.6).
 
-The term$1 / 2$in equation (5.2) and (5.3) is related to$\operatorname { S y m } ( \gamma )$when$\gamma$is nonseparating. Note that the sum in the definition of$\widehat { \mathcal { A } } _ { g , n } ^ { d c o \overline { { n } } }$is over ordered pairs
+The term$1 / 2$in equation (5.2) and (5.3) is related to$\operatorname { S y m } ( \gamma )$when$\gamma$is nonseparating. Note that the sum in the definition of$\widehat { \mathcal { A } } _ { g , n } ^ { d c o n }$is over ordered pairs
 
 $$
 ((g _ {1}, I _ {1}), (g _ {2}, I _ {2})).
