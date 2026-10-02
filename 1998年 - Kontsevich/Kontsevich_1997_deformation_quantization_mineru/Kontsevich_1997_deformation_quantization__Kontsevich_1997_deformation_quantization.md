@@ -580,23 +580,23 @@ $$
 d \gamma + \frac {1}{2} [ \gamma , \gamma ] = 0 \Longrightarrow d \widetilde {\gamma} + \frac {1}{2} [ \widetilde {\gamma}, \widetilde {\gamma} ] = 0 \quad \text {where} \quad \widetilde {\gamma} = \sum_ {n = 1} ^ {\infty} \frac {1}{n !} \mathcal {F} _ {n} (\gamma \wedge \dots \wedge \gamma) \in \mathbf {g} _ {2} ^ {1} \otimes \mathbf {m}.
 $$
 
-The same formula is applicable to solutions of the Maurer-Cartan equation depending formally on parameter$\hbar \mathrm { : }$:
+The same formula is applicable to solutions of the Maurer-Cartan equation depending formally on parameter$\hbar$:
 
 $$
 \gamma (\hbar) = \gamma_ {1} \hbar + \gamma_ {2} \hbar^ {2} + \ldots \in \mathbf {g} _ {1} ^ {1} [ [ \hbar ] ], d \gamma (\hbar) + \frac {1}{2} [ \gamma (\hbar), \gamma (\hbar) ] = 0 \Longrightarrow d \widetilde {\gamma (\hbar)} + \frac {1}{2} [ \widetilde {\gamma (\hbar)}, \widetilde {\gamma (\hbar)} ] = 0.
 $$
 
-The reason why it works is that the Maurer-Cartan equation in any diferential graded Lie algebra g is the equation for the subscheme of zeroes of$Q$in formal manifold$\mathbf { g } [ 1 ] _ { f o r m a l }$$L _ { \infty } \mathrm { { - m o r p h i s m s } }$map zeroes of Q to zeroes of$Q$because they commute with Q. We will see in 4.5.2 that$L _ { \infty } \mathrm { { - m o r p h i s m s } }$induce natural transformations of deformation functors.
+The reason why it works is that the Maurer-Cartan equation in any diferential graded Lie algebra g is the equation for the subscheme of zeroes of$Q$in formal manifold$\mathbf { g } [ 1 ] _ { f o r m a l }$. $L _ { \infty }$-morphisms map zeroes of Q to zeroes of$Q$because they commute with Q. We will see in 4.5.2 that$L _ { \infty }$-morphisms induce natural transformations of deformation functors.
 
 ## 4.4. Quasi-isomorphisms
 
-L -morphisms generalize usual morphisms of diferential graded Lie algebras. In particular, the first Taylor coeficient of an$L _ { \infty } \mathrm { { - m o r p h i s m } }$from$\mathbf { g } _ { 1 }$to$\mathbf { g } _ { 2 }$is a morphism of complexes$( { \bf g } _ { 1 } , Q _ { 1 } ^ { ( { \bf g } _ { 1 } ) } ) { \longrightarrow } ( { \bf g } _ { 2 } , Q _ { 1 } ^ { ( { \bf g } _ { 2 } ) } )$ where$Q _ { 1 } ^ { ( \mathbf { g } _ { i } ) }$are the first Taylor coeficients of vector fields$Q ^ { ( \mathbf { g } _ { i } ) }$(which we denoted before simply by$Q )$.
+$L _ { \infty }$-morphisms generalize usual morphisms of diferential graded Lie algebras. In particular, the first Taylor coeficient of an$L _ { \infty } \mathrm { { - m o r p h i s m } }$from$\mathbf { g } _ { 1 }$to$\mathbf { g } _ { 2 }$is a morphism of complexes$( { \bf g } _ { 1 } , Q _ { 1 } ^ { ( { \bf g } _ { 1 } ) } ) { \longrightarrow } ( { \bf g } _ { 2 } , Q _ { 1 } ^ { ( { \bf g } _ { 2 } ) } )$ where$Q _ { 1 } ^ { ( \mathbf { g } _ { i } ) }$are the first Taylor coeficients of vector fields$Q ^ { ( \mathbf { g } _ { i } ) }$(which we denoted before simply by$Q )$.
 
 Definition. A quasi-isomorphism is an$L _ { \infty }$-morphism$\mathcal { F }$such that the first component$\mathcal { F } _ { 1 }$induces isomorphism between cohomology groups of complexes$( \mathbf { g } _ { 1 } , Q _ { 1 } ^ { ( \mathbf { g } _ { 1 } ) } )$and$( \mathbf { g } _ { 2 } , Q _ { 1 } ^ { ( \mathbf { g } _ { 2 } ) } )$.
 
 The essence of the homotopy/deformation theory is contained in the following
 
-Theorem. Let$\mathbf { g } _ { 1 } , \mathbf { g } _ { 2 }$be two$L _ { \infty } { \mathrm { - } } a l g e b r a s$and$\mathcal { F }$be an$L _ { \infty }$-morphism from$\mathbf { g } _ { 1 }$to$\mathbf { g } _ { 2 }$. Assume that$\mathcal { F }$is a quasi-isomorphism. Then there exists an$L _ { \infty } .$-morphism from$\mathbf { g } _ { 2 }$to$\mathbf { g } _ { 1 }$inducing the inverse isomorphism between cohomology of complexes$( \mathbf { g } _ { i } , Q _ { 1 } ^ { ( \mathbf { g } _ { i } ) } ) \ i = 1 , 2$Also, for the case of diferential graded algebras, $L _ { \infty } { \mathrm { - } m o r p h i s m ~ } \mathcal { F }$induces an isomorphism between deformation functors associated with$\mathbf { g } _ { i }$
+Theorem. Let$\mathbf { g } _ { 1 } , \mathbf { g } _ { 2 }$be two$L _ { \infty } { \mathrm { - } } a l g e b r a s$and$\mathcal { F }$be an$L _ { \infty }$-morphism from$\mathbf { g } _ { 1 }$to$\mathbf { g } _ { 2 }$. Assume that$\mathcal { F }$is a quasi-isomorphism. Then there exists an$L _ { \infty }$-morphism from$\mathbf { g } _ { 2 }$to$\mathbf { g } _ { 1 }$inducing the inverse isomorphism between cohomology of complexes$( \mathbf { g } _ { i } , Q _ { 1 } ^ { ( \mathbf { g } _ { i } ) } ) \ i = 1 , 2$. Also, for the case of diferential graded algebras, $L _ { \infty } { \mathrm { - } m o r p h i s m ~ } \mathcal { F }$induces an isomorphism between deformation functors associated with$\mathbf { g } _ { i }$
 
 The first part of this theorem shows that if$\mathbf { g } _ { 1 }$is quasi-isomorphic to$\mathbf { g } _ { 2 }$then$\mathbf { g } _ { 2 }$is quasi-isomorphic to $\mathbf { g } _ { 1 }$, i.e. we get an equivalence relation.
 
@@ -610,15 +610,15 @@ This theorem is essentially standard (see related results in [GM], [HS1], [SS]).
 
 Any complex of vector spaces can be decomposed into the direct sum of a complex with trivial diferential and a contractible complex. There is an analogous decomposition in the non-linear case.
 
-Definition. An$L _ { \infty } { \mathrm { - } a l g } \mathrm { e } b r a \left( \mathbf { g } , Q \right)$is called minimal if the first Taylor coeficient$Q _ { 1 }$of the coderivation Q vanishes.
+Definition. An$L _ { \infty }$-algebra$( \mathbf { g } , Q )$is called minimal if the first Taylor coeficient$Q _ { 1 }$of the coderivation Q vanishes.
 
 The property of being formal is invariant under$L _ { \infty }$-isomorphisms. Thus, one can speak about minimal formal graded pointed Q-manifolds.
 
-Definition. An$L _ { \infty } { \mathrm { - } a l g } \mathrm { e } b r a \left( \mathbf { g } , Q \right)$is called linear contractible if higher Taylor coeficients$Q _ { \geq 2 }$vanish and the diferential$Q _ { 1 }$has trivial cohomology.
+Definition. An$L _ { \infty }$-algebra$( \mathbf { g } , Q )$is called linear contractible if higher Taylor coeficients$Q _ { \geq 2 }$vanish and the diferential$Q _ { 1 }$has trivial cohomology.
 
-The property of being linear contractible is not$L _ { \infty } { \mathrm { - i n v a r i a n t } }$. One can call formal graded pointed $Q { \mathrm { - m a n i f o l d } }$contractible if the corresponding diferential graded coalgebra is$L _ { \infty } \mathrm { - i s o m o r p h i c }$to a linear contractible one.
+The property of being linear contractible is not$L _ { \infty } { \mathrm { - i n v a r i a n t } }$. One can call formal graded pointed $Q$-manifold contractible iff the corresponding diferential graded coalgebra is$L _ { \infty }$-isomorphic to a linear contractible one.
 
-Lemma. Any$L _ { \infty } { \mathrm { - } a l g } \mathrm { e } b r a \left( \mathbf { g } , Q \right)$is$L _ { \infty }$-isomorphic to the direct sum ofa minimal and ofa linear contractible $L _ { \infty } { \mathrm { - } } a l g \mathrm { e } b r a s$
+Lemma. Any$L _ { \infty }$-algebra$( \mathbf { g } , Q )$is$L _ { \infty }$-isomorphic to the direct sum of a minimal and of a linear contractible$L _ { \infty }$-algebras.
 
 This lemma says that there exists an afine structure on a formal graded pointed manifold in which the odd vector field$Q$has the form of a direct sum of a minimal and a linear contractible one. This afine structure can be constructed by induction in the degree of the Taylor expansion. The base of the induction is the decomposition of the complex$( \mathbf { g } , Q _ { 1 } )$into the direct sum of a complex with vanishing diferential and a complex with trivial cohomology. We leave details of the proof of the lemma to the reader. Q.E.D.
 
