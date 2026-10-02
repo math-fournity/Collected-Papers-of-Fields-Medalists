@@ -749,7 +749,7 @@ $$
 \mathbf {E} _ {1} \rightarrow \mathbf {E} _ {2},
 $$
 
-where  $E_{1}$  and  $E_{2}$  are enhanced by subgroups of order M as before. (We will continue to understand that “enhanced elliptic curves” are elliptic curves which are enhanced by cyclic subgroups of order M.)
+where  $\mathbf{E}_{1}$  and  $\mathbf{E}_{2}$  are enhanced by subgroups of order M as before. (We will continue to understand that “enhanced elliptic curves” are elliptic curves which are enhanced by cyclic subgroups of order M.)
 
 There are two natural degeneracy maps
 
@@ -767,7 +767,7 @@ Theorem 3.15. The map $\delta$ is surjective.
 
 We give a proof based on two lemmas, derived from results of Eichler concerning the arithmetic of Eichler orders in quaternion algebras.
 
-Lemma 3.16. Let E be an enhanced supersingular elliptic curve over  $F_{q}$ . There is a non-zero endomorphism of E whose degree (as an endomorphism of E) is an odd power of p.
+Lemma 3.16. Let $\mathbf{E}$ be an enhanced supersingular elliptic curve over  $F_{q}$ . There is a non-zero endomorphism of $\mathbf{E}$ whose degree (as an endomorphism of E) is an odd power of p.
 
 Proof. For  $x \in R = \text{End}(\mathbf{E})$ , the degree of x as an endomorphism coincides with the reduced norm of x as an element of H. To prove (3.16) is to verify that p is the reduced norm of some element of the order  $R[p^{-1}]$  of H. This follows from [41], Cor. 5.9, page 90, since all positive rational numbers are reduced norms of elements of H ([41], Th. 4.1, page 80). ☐
 

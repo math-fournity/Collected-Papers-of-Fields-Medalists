@@ -176,3 +176,12 @@
 - 核对：η_r-等变性、λ=η_r(i)/e(i) 整除论证；E=(E,B)、F=(F,C)、e=e(i)=card(A)、Aut(E)/{±}（印刷 {±} 无 1，MD 忠实；后文 {±1} 带 1，MD 亦忠实）；E/H≈F 整除命题；A 自由作用、α 阶 3/4/6、虚二次域；R=End(E) 由 α 生成、Gaussian integers、Q(√−3)、R/rR-模 E[r]、ideal ℘=(π)、π′=r/π、E/H≈E 矛盾；Remark 3.13（Brandt matrix、i-th column）；Proposition 3.14（η_r: Λ*→X、Φ→X/η_rX）；Φ=X*/X=Λ*/(X⊕X^⊥)、σ、Weil Riemann Hypothesis、η_r 等距；段尾行间式 η_r: Λ*→X ✓。
 - 发现并当场修复：L714 "$E/H \approx F$"→"$\mathbf{E}/H \approx \mathbf{F}$"（粗体 enhanced 对象拍平；300 dpi 裁片确证）。
 - 结果：FAIL（1 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.022（PDF p.22 / 印刷 p.451）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:58 -0400。
+- PNG：`audit/ribet1990_p022.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："where **E**₁ and **E**₂"、"Lemma 3.16 Let **E** … of **E** … of *E*"、"For x∈*I*"，未存档）。
+- 核对：σ 单射性结尾（□）；节标题 "Comparison with X₀(pqM)"；L 与 pM、proposition (3.1)、p-isogenies E₁→E₂；α,β: X₀(pqM)⇉X₀(qM)、α_*,β_*: L⇒X、[E₁→E₂]↦E₁ 或 E₂；δ: L→(X⊕X)；Theorem 3.15（δ surjective）；Lemma 3.16（odd power of p）与 Proof（reduced norm、R[p⁻¹]、[41] Cor. 5.9 p.90/Th. 4.1 p.80、□）；Lemma 3.17（isogeny、degree a power of p）与 Proof 开头（T=Hom(E₁,E₂)、[T: xR]）✓。
+- 发现并当场修复：①L752 "$E_1$ and $E_2$"→"$\mathbf{E}_1$ and $\mathbf{E}_2$"（粗体 enhanced，300 dpi 确证）；②L770 Lemma 3.16 两处："Let E"→"$\mathbf{E}$"、"endomorphism of E"→"$\mathbf{E}$"（括号内 "as an endomorphism of E" 印刷斜体，MD 保留）。
+- 印刷原文 quirk：L782 印刷即 "For x ∈ *I*, x ≠ 0"（语义预期为 x∈T；300 dpi 确证 I 为印刷原样），MD 忠实保留不改。
+- 备注：F_q 印刷粗体，MD 正体（登记不改）。
+- 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
