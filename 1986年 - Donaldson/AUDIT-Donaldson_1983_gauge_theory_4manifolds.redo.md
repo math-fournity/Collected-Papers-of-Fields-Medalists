@@ -22,3 +22,13 @@
   - cup-square 公式 $Q\colon H^2(X;\mathbf{Z})\to H^4(X;\mathbf{Z})\cong\mathbf{Z}$ 与页图一致；`$E_8$` 正确（pdftotext 文本层作 `£ 8`，系 OCR quirk，md 不采纳）。
   - 排版级伪影（登记不改）：印刷斜体 *smooth*、*Rohlin's theorem* 在 md 中拍平为正体；印刷粗体 **Z**/2 在 md 中为正体 `Z/2`。
 - 修复登记：md 标题前补期刊行（依据 `audit-redo/p001.png` + 300dpi 期刊行裁片）。
+
+### p.002（PDF p.2 / 印刷 p.280）
+
+- PNG：`audit-redo/p002.png`（pngmono 150dpi）
+- 核对：Theorem 1 陈述与对角化公式；2mE₈+n[[0,1],[1,0]] 矩阵式；smoothing 讨论（m=1、n=3/0、CP³）；π₁(X)→SU(2) 条件；Acknowledgement；节标题 I.2；𝔐σ(X) 与 Q(α)=1 设定段
+- 结果：**PASS±**。
+  - Theorem 1 陈述逐字吻合（含印刷原样 quirk "so in some base"，忠实保留不改）；公式 $Q(u_1,\dots,u_r)=u_1^2+\dots+u_r^2$、矩阵 $2mE_8+n\begin{pmatrix}0&1\\1&0\end{pmatrix}$、$CP^3$、$Q(\alpha)=1,\ \alpha\in H^2(X;\mathbf{Z})$ 全部与页图一致。
+  - 排版级伪影（登记不改）：印刷整段斜体的 Theorem 1 在 md 中为正体；粗体 **CP**³ 拍平为 `$CP^{3}$`；**Z**/2 同前。
+  - 系统性省略（登记一次，适用于全部正文页）：MinerU 导出无逐页 running head 与页码数字（本页印刷页眉 `280  S. K. DONALDSON`）；不影响正文完整性，不逐页补录。
+- 修复登记：无。
