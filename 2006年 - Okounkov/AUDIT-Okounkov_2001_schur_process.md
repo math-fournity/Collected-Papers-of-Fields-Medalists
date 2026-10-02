@@ -46,3 +46,9 @@
 - 核对：Figure 1（3D diagram π 图与题注）、对角切片式 (3)（λ(t)=(π_{i,t+i}), i≥max(0,−t)）、interlacing 条件 (4)、interlace 定义 λ₁≥μ₁≥λ₂≥μ₂≥λ₃≥…、示例链 (2)≺(3,1)≺(4,2)≺(5,3,1)≻(3,1)≻(2,1)≻(1)、§2.1.3 𝔖(λ) 映射与 |𝔖∖(ℤ+½)<0|=|(ℤ+½)<0∖𝔖|<∞
 - 结果：PASS±（一处已修复）：md 行 161 "the configuration λ(t)" 丢花括号，印刷原页为 "the configuration {λ(t)}"（p006.png 可见）→ 补 "$\{ \lambda ( t ) \}$"。
 - 备注：印刷 quirk "is a bijection of the of the set of partitions"（p006.png 与文本层 line 264 双证）忠实保留；Figure 1 图片引用 images/page_5_image_0.jpg 存在且可解析（mineru 内部页索引命名，非 md 错误）。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit/p007.png（pngmono 150dpi）
+- 核对：映射 (5)（{λ(t)}↦𝔖({λ(t)})⊂ℤ×(ℤ+½)）、Figure 2（点场与非相交路径图及题注）、§2.2/§2.2.1、Prob∝∏_{t∈ℤ}𝕊^(t)(λ(t),λ(t+1)) 式
+- 结果：PASS。公式、编号 (5)、∏ 下标 t∈ℤ、图题注全部吻合；图片引用 images/page_6_chart_4.jpg 存在可解析。
+- 备注：印刷原文两处均写 "as in Figure 2"/"shown in Figure 2"（第二句亦指 Figure 2，印刷如此）忠实保留；行 187 句末无句号与印刷一致。
