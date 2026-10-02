@@ -47,6 +47,14 @@
 - 差异：印刷 "Notice that v/2−h vanishes identically **iff** the measure dm=e^{−f}dV is kept fixed"，MD 原文作 "if"（丢 ff，改变逻辑强度）。PNG（p005.png 第 5 段）与 pdftotext p.5 双证 "iff"。以原图为准，已 Edit 补为 "iff"。
 - 备注：其余（变分公式三行逐项、(1.1)–(1.3) 编号与内容、Proposition 陈述无句号 print 原样）一致。
 
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：audit-redo/p006.png（pngmono 150dpi）；仲裁图 audit-redo/p006_bianchi_300dpi.png、p006_period_300dpi.png、p006_barline_600dpi.png
+- 核对：(1.4)、F_t ≥ (2/n)∫(R+△f)²e^{−f}dV ≥ (2/n)(∫(R+△f)e^{−f}dV)² = (2/n)F²、1.3 Remark 全部 Bochner-Lichnerovicz 公式（含 R^m 系列定义与 Bianchi 恒等式）、1.4* DeTurck 段、dilaton 段 [D,§6]、Bakry-Emery [B-Em]/[Lott]、节标题 "2 No breathers theorem I"、2.1 breather 定义开头
+- 结果：PASS±（两处排版级差异，登记不改）
+- 差异：(a) Bianchi 恒等式中间项印刷为 ∇_i R̄^m_ij（R 上有短横，原 PDF 印刷 quirk；600dpi p006_barline_600dpi.png 证实）——MD 以 `\bar { R _ { i j } ^ { m } }` 忠实保留，一致；(b) 印刷 "= 1/2∇_jR^m**.**" 行尾句点存在（p006_period_300dpi.png），MD 该句点缺失（丢字符类排版伪影，不误导数学内容，按 SOP 默认不批量改，仅登记）。
+- 备注：其余公式（(1.4)、F_t 链、∇*∇u_i/∇*∇ψ、∇*m 系列、δ^mψ、R^m=2△f−|∇f|²+R、g^ijR^m_ij=R+△f≠R^m）与文本逐项一致。
+
+
 
 
 
