@@ -63,3 +63,9 @@
 - 核对：§1.1 续（Section 4–8 概述，含 s-holomorphic/spin-holomorphic 与 Loewner chains 表述）；§1.2 Notations；§1.2.1 Primal, dual and medial graphs——rotated square lattice L 顶点集 e^{iπ/4}Z²、边 [xy]、x ∼ y、primal graphs、boundary ∂G（<4 邻居）、dual graph G⋆ 与 L⋆（无限面不对应对偶点）、medial lattice L◇ 与 medial graph G◇、L◇ 为 L 旋转 1/√2 缩放、black/white faces、L◇ 边绕 black faces 逆时针定向；§1.2.2 Approximations of domains——√2δL 记 L_δ（mesh-size √2δ）、L◇_δ（mesh-size δ）、Ω_δ = Ω ∩ L_δ；页脚印刷页码 7。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷 quirk 登记——"Note that L◇ is" 处菱形上标基线略下沉（PNG 与文本层断行 "vertices of L ◇ / √ corresponding…" 均可见）；√2δ 的根号覆盖范围以 PNG 为准（只盖 2）。重导出对账时 L/L⋆/L◇ 的星号与菱形记号需逐个核对。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit/p008.png（pngmono 150dpi）
+- 核对：§1.2.2 续（分段线性延拓 f）；§1.2.3 Distances and convergence——公式 (1.1) d(z,F) ∶= inf_{y∈F} ∣z−y∣、公式 (1.2) d(γ1,γ2) = inf_φ sup_{u∈[0,1]} ∣γ1(u) − γ2(φ(u))∣（重参数化 φ(0)=0, φ(1)=1），编号 (1.1)/(1.2) 齐全；§2 Two-dimensional Ising model；§2.1 Boundary conditions, infinite-volume measures and phase transition——b ∈ {−1,+1}^{∂G}、公式 (2.1) Z^b_{β,G} = Σ_{σ∈{−1,1}^G ∶ σ=b on ∂G} exp[β Σ_{x∼y} σ_x σ_y]、公式 (2.2) µ^b_{β,G}(σ) = (1/Z^b_{β,G}) exp[β Σ_{x∼y} σ_x σ_y]、free boundary conditions 记号 µ^f_{β,G}；页脚印刷页码 8。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(2.1)/(2.2) 中 β 符号为正（exp[+β∑σ_xσ_y]），下标 σ=b on ∂G 排于求和条件下方；公式编号 (1.1)(1.2)(2.1)(2.2) 为重导出对账锚点。文本层与 PNG 双通道一致。
