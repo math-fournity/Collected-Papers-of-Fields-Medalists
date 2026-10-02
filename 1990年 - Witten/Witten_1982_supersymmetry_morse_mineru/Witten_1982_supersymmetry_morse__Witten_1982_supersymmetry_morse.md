@@ -402,7 +402,7 @@ $$
 d _ {s} ^ {2} = - d _ {s} ^ {* 2} = s \mathscr {L} _ {K},\tag{34}
 $$
 
-where $d_s^*$ is the adjoint of $d_s$, and $\mathcal{L}_K$ is the Lie derivative along $K$. Only in verifying that $d_s^{*2} = -d_s^2$ do we need the fact that $K$ is a Killing vector field.
+where $d_s^*$ is the adjoint of $d_s$, and $\mathscr{L}_K$ is the Lie derivative along $K$. Only in verifying that $d_s^{*2} = -d_s^2$ do we need the fact that $K$ is a Killing vector field.
 
 In this section, we will primarily study the “Hamiltonian”
 

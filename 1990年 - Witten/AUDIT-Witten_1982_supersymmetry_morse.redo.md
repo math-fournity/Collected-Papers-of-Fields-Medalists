@@ -86,3 +86,8 @@
 - PNG：`audit-redo/p015.png`（pngmono 150dpi）
 - 核对：(31) `|ψ(n,m)⟩ = |χ(n)⟩ ⊗ |α(m;n)⟩`；`|χ⟩` 全局条件与 twisted cohomology 段；(32) `(d̃d̃* + d̃*d̃)|χ⟩ = λ|χ⟩`；退化 Morse 不等式与 Morse 多项式 `t^p P̄_t(N_0)` 段；双原子分子类比段。
 - 结果：PASS±。(31)–(32)、`Λ(N_0)` 可定向性条件、`H_t|ψ⟩ = λ|ψ⟩` 及正文逐项与印刷页相符。**Luna 旧修复重核：Morse 多项式指数 `t^p`（小写 p，md line 383）与印刷一致，修复正确**；`$\overline{P}$` 记号一致。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 675" 未入 md（版面信息省略）。
+
+## p.016（PDF p.16 / 印刷 p.676）
+- PNG：`audit-redo/p016.png`（pngmono 150dpi）；Lie 导数记号终裁：`audit-redo/300dpi/p016_Lie_derivative.png`（300dpi 裁片）。
+- 核对：§3 标题；Killing 场设定两段；(33) `d_s = d + s i(K)`；`V_±` 分解段；(34) `d_s² = −d_s*² = s𝓛_K`；(35) `H_s = d_s d_s* + d_s* d_s`；[8] 界与 Hirzebruch signature 引段。
+- 结果：FAIL（以原图为准）→ 修复后复核 PASS。(33)–(35)、`i(K)`、`V_±` 映射方向、`d_s*² = −d_s²` 及正文逐项与印刷页相符。**发现 Luna 漏检 1 处记号错误**：(34) 后散文 "and 𝓛_K is the Lie derivative" 印刷为 script 𝓛_K（300dpi 裁片确认，与式 (34) 内同形），md line 405 误作 `$\mathcal{L}_K$`；已用结构化 Edit 修为 `$\mathscr{L}_K$`（与 Luna 自己在 p.017/p.021/p.022 的同类修复标准一致）。**移交备注**：md line 539（p.022 redo 范围）`$I(\theta) = \operatorname{Tr} * \exp\theta\mathcal{L}_{K}$` 仍含 `\mathcal{L}_{K}`，且 `Tr * exp` 的 `*` 需该页仲裁。跨页断点一致（line 417 末 "each connected"）。差异仅：页眉 "676 EDWARD WITTEN" 未入 md（版面信息省略）。
