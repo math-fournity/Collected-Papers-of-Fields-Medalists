@@ -311,3 +311,10 @@
 - 证据：源 PDF p.042 文本层、页图 `audit/Hironaka_1964_resolution_partI_p042.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p042_zariski_questions.png` 与 MinerU Markdown 第 659–677 行。Question (F) 和后续定理里的 Zariski space 印刷为花体 `\mathfrak{Z}`，Markdown 相应多处写成数字 `3`，包括全局空间、`h_i` 的定义域及定理假设中的对象；维数关系 `\dim(X_1)=\dim(X_2)\geq 3` 与问题 (F′) 复合映射其余部分相符。
 - 备注：印刷运行页眉和页码 149 未录入 Markdown，属导航元素省略。
 - 结论：Zariski-space 标识符误录为数字，列为 FAIL。
+
+### PDF p.043 / 96（印刷 p.150）— FAIL
+
+- 时间：2026-10-02 02:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.043 文本层、页图 `audit/Hironaka_1964_resolution_partI_p043.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p043_zariski_space.png` 与 MinerU Markdown 第 681–693 行。Question (F) 结尾和 Theorem (a) 中 canonical map 的定义域在印刷中是花体 Zariski-space 符号 `\mathfrak{Z}`；Markdown 第 681、687 行写成数字 `3`，复用 p.40–42 的系统性符号误录。维数界、归一化/monoidal transformation 序列和 compact-window 结论均相符。
+- 备注：印刷运行页眉与页码 150 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后统一逐处修复。
