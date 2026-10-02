@@ -189,4 +189,14 @@
 - 与 Luna 旧记录交叉：旧表 p.15 行「重建 Ω/σ 四列对应表」经原页重核与印刷结构一致，维持；游离 `$^{1}$` 系旧审计未检出项。
 - 结果：PASS±（1° 修复后与印刷一致；表格上方横线连接记号以 \multicolumn 分组近似表达，登记为排版级近似）。
 
+### p.016（PDF p.16 / 印刷 p.172）
+
+- audited_at=2026-10-02 18:45 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p016.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p016_gamma_nu_300dpi.png`。
+- 核对：页眉（172 / Lars Ahlfors.）、页首续句（…auf diesen Fall nicht näher einzugehen.）、编号段 **14.（第二次）**「Wir kehren zur Ungleichung (5) zurück…」、Aufspaltung 段、公式 (7) `ϱ≧[n(σ″)+½n(σ′)−N(Ω′)]+[n(σ*)+½n(σ′)−N(Ω*)].`（句点在、\tag{7}）、Wenn man ausdrückt 段（n(σ′)+2n(σ″)≧2N(Ω′)、n(σ′)+2n(σ*)≧qN(Ω*)）、公式 (8) `ϱ≧(q−2)/q(n(σ*)+½n(σ′))≧(q−2)/q n(σ*).`（句点在、\tag{8}）、Es gilt jetzt 段（γ_ν、λ(σ)、λ*、λ′、λ″、λ_a、n(σ*)≧λ*、Σ₁^q s(γ_ν)=λ*+λ′+λ″+λ_a）、Σ₁^q s(γ_ν)≧qS−kL 行、无号公式 `ϱ≧(q−2)S−kL−(λ′+λ″+λ_a).`（句点在、印刷无编号 ✓）、Um den Beweis 段页末断词「Kon-」。
+- print quirk 保留核验（不改）：①印刷第二次出现编号「**14.**」（前页已有 14.，此段逻辑上应为后续编号）——MD 行 376 忠实保留重复编号 ✓（与 Luna 总评所述 p.35–36 重复「28.」同类印刷现象）；②「der erste Klammer」（语法性 print quirk）MD 行 382 忠实保留 ✓；③「gleich der entsprechenden Summe erstreckt über…」措辞照排 ✓。
+- 发现并修复（MD 结构化 Edit，1 处）：行 390 `$s(\gamma_{v})$` → `$s(\gamma_{\nu})$`——同页行 388 对同一印刷记号已转写 `\gamma_{\nu}`，300dpi 裁片显示两处下标字形完全相同（v/ν 同形，p.003 已证不可辨），属 mineru 转写不一致，统一为 `\nu`（段内移交项核销）。
+- 结果：PASS±（γ_ν 转写统一后与印刷一致）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.16 行；重复编号 14. 与「der erste Klammer」为 Luna 总评未点名但属忠实保留项，本次补登记。
+
 <!-- redo-tail -->

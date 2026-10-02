@@ -387,7 +387,7 @@ $$
 
 Es gilt jetzt die Anzahl $n(\sigma^{*})$ nach unten abzuschätzen. Jeder Querschnitt $\sigma$ liegt über einer der Kurven $\gamma_{\nu}$; $\lambda(\sigma)$ bezeichne die Länge des Querschnitts dividiert durch die Länge dieser Kurve. Ferner setzen wir $\lambda^{*}=\Sigma\lambda(\sigma^{*})$, $\lambda^{\prime}=\Sigma\lambda(\sigma^{\prime})$, $\lambda^{\prime\prime}=\Sigma\lambda(\sigma^{\prime\prime})$ und endlich $\lambda_{a}$ gleich der entsprechenden Summe erstreckt über alle Querschnitte der abgesonderten Klassen ($\sigma_{n}$). Es ist zunächst $n(\sigma^{*})\geq\lambda^{*}$, denn jedes $\lambda(\sigma)$ ist höchstens gleich 1. Weiter gilt definitionsgemäss $\sum_{1}^{q}s(\gamma_{\nu})=\lambda^{*}+\lambda^{\prime}+\lambda^{\prime\prime}+\lambda_{a}$. Nach dem Überdeckungssatz ist andererseits
 
-$\sum_{1}^{q}s(\gamma_{v}) \geqq qS - kL$ und wir erhalten aus (8)
+$\sum_{1}^{q}s(\gamma_{\nu}) \geqq qS - kL$ und wir erhalten aus (8)
 
 $$
 \varrho \geq (q - 2) S - k L - (\lambda^ {\prime} + \lambda^ {\prime \prime} + \lambda_ {a}).
