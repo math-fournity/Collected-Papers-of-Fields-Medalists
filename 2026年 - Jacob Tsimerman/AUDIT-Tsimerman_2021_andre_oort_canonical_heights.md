@@ -181,7 +181,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p020_Theorem4.14-bound.png`
 - 核对：Lemma 4.11 余段、Lemma 4.12、Definition 4.13、Theorem 4.14 陈述及证明开头。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Markdown 第 789 行 Theorem 4.14 的比较因子 `p^{b(dim L-1)/(p-1)}` 被破坏成 `b…` 后接 `p^{\longrightarrow\not\longrightarrow}`；该界是本定理的核心定量结论。300dpi 裁片清楚显示指数 `b(dim L-1)/(p-1)`。第 791 行的证明标签还把 `Theorem 4.5` 录成 `Theorem 4.1%`，作为交叉引用瑕疵另记。
+- 差异与依据：Markdown 第 789 行 Theorem 4.14 的比较因子 `p^{b(dim L-1)/(p-1)}` 被破坏成 `b…` 后接 `p^{\longrightarrow\not\longrightarrow}`；该界是本定理的核心定量结论。300dpi 裁片清楚显示指数 `b(dim L-1)/(p-1)`。第 791 行的证明标签还把 `Theorem 4.5` 录成 `Theorem 4.1%`，作为交叉引用瑕疵另记。复核还确认本页定理条件中的 normalized weight-sum `≤p−2` 被拆坏成 `V i s`，而 “p-weight range is b” 也有 OCR 损坏；最终 Markdown 已恢复这两个条件。
 
 ## p.021（PDF p.21 / 印刷 p.21）
 - 时间：2026-10-01 18:27:04 EDT (-0400)
@@ -216,7 +216,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Special-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Prop6.2-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Prop6.3-maps.png`
 - 核对：§6.2 special points、Lemma 6.1、Proposition 6.2 的映射与群覆盖构造、Proposition 6.3 开头。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：多处数学映射在 Markdown 中丢失箭头：第 897 行 `h : S → G`；第 911 行 `f : (G',X') → (G,X)`；第 913 行 `G' → G`；第 919 行 `G^s → G^{der}` 与 `μ : S → G`；第 923 行 `((G_2,X_2) → (G_0,X_0))`。300dpi 裁片显示这些箭头在印刷页均清楚存在，关系语义因此无法由 Markdown 原文完整恢复。
+- 差异与依据：多处数学映射在 Markdown 中丢失箭头：第 897 行 `h : S → G`；第 911 行 `f : (G',X') → (G,X)`；第 913 行 `G' → G`；第 919 行 `G^s → G^{der}` 与 `μ : S → G`；第 923 行 `((G_2,X_2) → (G_0,X_0))`。300dpi 裁片显示这些箭头在印刷页均清楚存在，关系语义因此无法由 Markdown 原文完整恢复。另复核发现同页 `Q.-simple` 与 `Q.-torus` 多录句点，印刷分别为 `Q-simple` 与 `Q-torus`；两处句点已删除。
 
 ## p.025（PDF p.25 / 印刷 p.25）
 - 时间：2026-10-02 00:22:11 EDT (-0400)
@@ -225,7 +225,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p025_principal-bundle-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p025_Rational-representation-maps.png`
 - 核对：§6.4 principal bundle 的商类映射与作用、§6.5 automorphic vector bundles、§6.6 Betti/étale local systems 及 Proposition 6.4。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Markdown 第 949 行把 étale local system 的标签写成 `\Pi_{et}`，随后又把同一标签写成 `\Omega_{et}`；第 953 行把 Betti local system `{}_B V_{\mathbb Q}`误录成 `\Sigma_B V_{\mathbb Q}`。300dpi 文本裁片确认来源仅为下标 `et` 与 `B`，无 Π、Ω、Σ 这些额外符号。PASS± 瑕疵：principal-bundle 第二个 quotient representative 在 Markdown 用 ceiling brackets `\lceil\rceil`，印刷为 square brackets `[ ]`；其两个映射箭头和对象相符。
+- 差异与依据：Markdown 第 949 行把 étale local system 的标签写成 `\Pi_{et}`，随后又把同一标签写成 `\Omega_{et}`；第 953 行把 Betti local system `{}_B V_{\mathbb Q}`误录成 `\Sigma_B V_{\mathbb Q}`。300dpi 文本裁片确认来源仅为下标 `et` 与 `B`，无 Π、Ω、Σ 这些额外符号。同页另将 p-adic Riemann–Hilbert 向量丛 `{}_{p-\mathrm{dR}}V_{E_v}` 的局部域下标误录为 `E_\imath`，已按印刷更正；Proposition 6.4 的 footnote 11 中 “representation” 及 Betti 对象 `{}_B(f^*V)_{\mathbb Q}` 也已恢复。PASS± 瑕疵：principal-bundle 第二个 quotient representative 在 Markdown 用 ceiling brackets `\lceil\rceil`，印刷为 square brackets `[ ]`；其两个映射箭头和对象相符。
 
 ## p.026（PDF p.26 / 印刷 p.26）
 - 时间：2026-10-02 00:26:29 EDT (-0400)
@@ -279,7 +279,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-Theorem8.1-Lemma8.2.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-Lemma8.2-proof.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-setup-Lemma8.3.png`
 - 核对：Theorem 8.1；Lemma 8.2 陈述及证明；§8.2 模型与 CM 点设定、Lemma 8.3 陈述和式 (8.2.1) 之前的基本群分解。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Lemma 8.2 证明中印刷变量为 `η_j`，Markdown 将 localization 的素理想写成 `\mathfrak h_{\mathcal j}`，随后又将其上方的素理想写成 `\mathfrak p_j`；印刷两处均为 `η_j`。同一证明把 `R[[x_1,…,x_n,…]]` 的首变量写成 `x_i`，并将 localization 下标误留为 HTML `<sub>j</sub>`。§8.2 的 `G_\mathbb Q`-representation 漏了 `\mathbb Q`，integral point 的 `\mathcal S` 误成小写 `s`，Lemma 8.3 的 `et V_2` 局部系统标记被破坏成空下标形式。300dpi 裁片核实了这些对象和下标；Theorem 8.1 中 `S(\overline{\mathbb Q})` 和 `S(\overline{\mathbb Z}[N^{-1}])` 则与印刷相符。
+- 差异与依据：Lemma 8.2 证明中印刷变量为 `η_j`，Markdown 将 localization 的素理想写成 `\mathfrak h_{\mathcal j}`，随后又将其上方的素理想写成 `\mathfrak p_j`；印刷两处均为 `η_j`。同一证明的 localization 下标误留为 HTML `<sub>j</sub>`。复核更正：该环的首变量在印刷页和 Markdown 中均为 `x_i`，`G_Q`-representation 与 integral point of `\mathcal S` 也均与印刷相符；这三项从差异列表撤下。Lemma 8.3 的 `et V_2` 局部系统标记被破坏成空下标形式。300dpi 裁片核实了这些对象和下标；Theorem 8.1 中 `S(\overline{\mathbb Q})` 和 `S(\overline{\mathbb Z}[N^{-1}])` 则与印刷相符。
 
 ## p.032（PDF p.32 / 印刷 p.32）
 - 时间：2026-10-02 01:16:24 EDT (-0400)
@@ -413,7 +413,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p046-PropositionA10-contract.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p046-arithmetic-model-proof.png`
 - 核对：Remark A.9、Proposition A.10 (a)–(g)、证明中选取 arithmetic model 与 moduli-space base change。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Proposition A.10 所述 model 应以 `(S,\bar X_S,D_S,\mathcal O_{\bar X_S}(1))` 为源、以 `(\bar X_C,D_C,\mathcal O_{\bar X_C}(1))` 为目标；Markdown 两个 tuple 都丢失了紧化横线。性质 (e) 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头，性质 (g) 的 `S → \operatorname{Spec}\mathbb Z` 也漏箭头。证明中 `\mathbb P^N_{\tilde S}` 后多出 `r`，并在 `\bar X_{\tilde S}` 的 smooth 断言前多出 `r`。300dpi 裁片确认 scheme、bar、箭头及多余字符。
+- 差异与依据：Proposition A.10 所述 model 应以 `(S,\bar X_S,D_S,\mathcal O_{\bar X_S}(1))` 为源、以 `(\bar X_C,D_C,\mathcal O_{\bar X_C}(1))` 为目标；Markdown 两个 tuple 都丢失了紧化横线。性质 (e) 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头，性质 (g) 的 `S → \operatorname{Spec}\mathbb Z` 也漏箭头。证明中 `\mathbb P^N_{\tilde S}` 后多出 `r`，并在 `\bar X_{\tilde S}` 的 smooth 断言前多出 `r`；此外，“We now consider …” 之前另有一处孤立 OCR `r`，已删除。300dpi 裁片确认 scheme、bar、箭头及多余字符。
 
 ## p.047（PDF p.47 / 印刷 p.47）
 - 时间：2026-10-02 02:32:27 EDT (-0400)
@@ -449,7 +449,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p050-TheoremA20-periodic-identity.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p050-Betti-TheoremA22.png`
 - 核对：Theorem A.20 periodic lift identity; Remark A.21; Betti representations, their extension to the étale fundamental group, and Theorem A.22.
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Theorem A.20 的 periodic identity 应将 `C_n^{-1}\circ\overline{gr}` 作用后的 connection 指标写为 `\nabla_{W_n}^{\sigma(i)}`；Markdown 保留了 `\nabla_{W_n}^{i}`。Betti moduli passage 两处把表示数上界 `n_r` 错作 `n`、`n_i`；embedding `\mathcal O_F → W(\overline{\mathbb F}_p)` 漏箭头。Remark A.21 的 `End(E_{\mathbb C,an})^{End(\nabla_{\mathbb C})}` invariant group 又被拆成 HTML sub/sup 标签与乱码。两张 300dpi 裁片核实 connection index、rank-count indices、embedding arrow 与 cohomology invariant。
+- 差异与依据：Theorem A.20 的 periodic identity 应将 `C_n^{-1}\circ\overline{gr}` 作用后的 connection 指标写为 `\nabla_{W_n}^{\sigma(i)}`；Markdown 保留了 `\nabla_{W_n}^{i}`。Betti moduli passage 两处把表示数上界 `n_r` 错作 `n`、`n_i`；embedding `\mathcal O_F → W(\overline{\mathbb F}_p)` 漏箭头。复核更正：Remark A.21 的 cohomology invariant 在 Markdown 中已按数学下标/上标结构表达，和印刷相符，不属于差异；两张 300dpi 裁片核实 connection index、rank-count indices、embedding arrow 与 cohomology invariant。
 
 ## p.051（PDF p.51 / 印刷 p.51）
 - 时间：2026-10-02 02:58:29 EDT (-0400)
@@ -458,7 +458,7 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p051-residual-representations.png`
 - 核对：Theorem A.22 proof 的 residual irreducibility、pairwise non-isomorphism 与 pigeonhole descent；附录参考文献 [Del70]–[EV86]。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：pairwise-isomorphism contradiction 中右侧 residual coefficient field 应为 `\overline{\mathbb F}_p`，Markdown 将 p 错录成粗体 `\boldsymbol\pi`；结尾 pigeonhole argument 的 local-system coefficient ring 应为 `W(\overline{\mathbb F}_p)`，Markdown 将下标 p 移到 (W(\overline{\mathbb F})_p) 之后。300dpi 裁片确认这两处的 p 都属于有限域下标。
+- 差异与依据：pairwise-isomorphism contradiction 中右侧 residual coefficient field 应为 `\overline{\mathbb F}_p`，Markdown 将 p 错录成粗体 `\boldsymbol\pi`；结尾 pigeonhole argument 的 local-system coefficient ring 应为 `W(\overline{\mathbb F}_p)`，Markdown 将下标 p 移到 (W(\overline{\mathbb F})_p) 之后。结尾 Claim 计数项还把 `n_r` 误录为 `n_τ`，现已按 PDF 文本层改回 `n_r`。300dpi 裁片确认这两处的 p 都属于有限域下标。
 
 ## p.052（PDF p.52 / 印刷 p.52）
 - 时间：2026-10-02 03:02:45 EDT (-0400)
@@ -466,3 +466,17 @@
 - PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p052.png`（pngmono 150dpi）
 - 核对：末尾参考文献 [Fal88]、[Kat96]、[LSZ13]、[LSYZ19]、[Lan14]、[Mo06]、[Nit93]、[Sch08]、[SYZ22]、[Sim90]、[Sim94]、[Xu19] 的作者、题名、出版信息、卷页年及 (p^n) 指数。
 - 结果：PASS。上述条目的题录与印刷页相符；[Xu19] 题名中的 (p^n) 指数在 Markdown 中保留为上标。
+
+## 52页审计汇总
+
+- PDF 52/52 页均已逐页对账；原始审计分级为 44 FAIL、7 PASS±、1 PASS。实际 FAIL 转录差异均已按印刷页逐处修复；复核时确认的误报已从对应差异列表撤下。PASS± 中不误导正文的排版/OCR 噪声和源级印刷 quirk 保持原样并继续登记。
+- 审计证据包括 born-digital PDF 文本层、52 张 150dpi 页图及审计条目引用的 300dpi 仲裁裁片。修复后已从头到尾重新阅读最终 MinerU Markdown 的全部 2,123 行，并按审计登记复核修复落点与未误改内容。
+- 本审计判断 PDF 与 MinerU Markdown 的转录忠实度；不审查论文数学证明的有效性。
+
+### 修复登记
+
+- MinerU 原始 Markdown 来源提交：`ce11d92fd5c5a412de2d8f31c1415b9f9f8951ac`；指定任务基线：`037602429d3b009f6fc468c732073eb3ddf9875f`。两者中该 Markdown 的 SHA-256 均为 `0de9233bcfd509050b12f7fca0e7f6fd98251f5d7fdd59c0442c5db1b0aa951d`。
+- Markdown 修复提交 1：`4fa3e789e0d58f5ee6c87838cb880f1ccf2e0a6c`；补充修复提交 2：`3dfe32c024ac2166f8eeb81de705b8dcc7630d5f`。两者均为独立 `fix(md)` 提交，actor 为 `Peer-P21 | gpt-6-luna/max`。
+- 最终 Markdown：2,123 行；SHA-256 `c8853078eaf9b8f7ab96f9b08330e97ed272a7774bd11764e751e2875a223d97`。
+- 修复覆盖定理与引理公式、映射箭头、权重及指数/下标、局部系统和向量丛标签、脚注、引用与 URL，以及附录中的映射和符号。Git 父版本链保留 MinerU 原始文本和两轮修复过程。
+- 只读核验：`git diff --check` 通过；修复后全文复读完成；未运行测试（本任务为 PDF 转录对账）。本候选仍处于 detached Peer worktree，尚未集成；篇级总账、根进度日志及其他 root 状态由 `Master-Luna` 维护。
