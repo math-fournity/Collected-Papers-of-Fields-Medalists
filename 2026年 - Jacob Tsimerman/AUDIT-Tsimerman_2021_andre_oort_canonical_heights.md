@@ -187,10 +187,10 @@
 - 时间：2026-10-01 18:27:04 EDT (-0400)
 - actor=Peer-P21；model=gpt-6-luna；effort=max
 - PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p021.png`（pngmono 150dpi）
-- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_Theorem4.14-scaling.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_quadratic-field-print.png`
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_Theorem4.14-scaling.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_quadratic-field-print.png`；补充印刷记号裁片：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_print-sign-quirk.png`
 - 核对：Theorem 4.14 证明收尾与 §5.1 题材、平方关系、二次域定义、CM 模与 A/B 元素。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Markdown 第 807 行把缩放因子 `1/π^i` 写成 `1/π^2`，改变了按权重 i 缩放的公式；300dpi 裁片确认上标为 i。印刷页还保留一个源级数学排印冲突：同页先称 `\mathfrak p^2=-p`，随后定义 `M=\mathbb Q[x]/(x^2-p)`；Markdown 忠实保留两处原文，未按预期更正。相邻的 A、B 公式与来源字形一致。
+- 差异与依据：Markdown 第 807 行把缩放因子 `1/π^i` 写成 `1/π^2`，改变了按权重 i 缩放的公式；300dpi 裁片确认上标为 i。印刷页还保留一个源级数学排印冲突：同页先称 `\mathfrak p^2=-p`，随后定义 `M=\mathbb Q[x]/(x^2-p)`；Markdown 忠实保留两处原文，未按预期更正。相邻的 A、B 公式与来源字形一致。补充裁片显示同页正文中的印刷记号 `\mathfrak p`；未据此提出新的转录差异。
 
 ## p.022（PDF p.22 / 印刷 p.22）
 - 时间：2026-10-01 20:27:23 EDT (-0400)
