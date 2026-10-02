@@ -212,3 +212,29 @@
 MD 修复 8 处（每处对应上表已修复项）；重做起点 MD SHA=dfee1701…，块完成时 MD SHA=81e6b4c1…。
 
 ---
+
+## p.010（PDF p.10 / 印刷 p.10）
+- PNG：audit-redo/p010.png（pngmono 150dpi）
+- 核对：stable 情形 $v_l(\Delta_E)=-\text{Min}(v_l(j_E),0)$ 句；geometric conductor
+  $N:=\prod_{v_l(\Delta_E)>0}l$ 展示行；ref [9]；节标题 2. Stable elliptic curves；
+  K_p small ramification over $\mathbb{Q}(\zeta_p)$ 句；A ≡ 0 mod $2^5$、B ≡ 1 mod 4、C := A-B 句；
+  展示式 $N_E: Y^2=X^3+(A+B)X^2+ABX$；Weierstraß 式 $N_{\widetilde{E}}: \widetilde{Y}^2=\widetilde{X}^3-
+  \frac{1}{3}(A^2+B^2-AB)\widetilde{X}+\frac{1}{27}(A+B)(2A^2+2B^2-5AB)$；
+  $\Delta=A^2\cdot B^2\cdot C^2$；$j_E=2^8(A^2+B^2-AB)^3\cdot A^{-2}\cdot B^{-2}\cdot C^{-2}$；
+  $\delta_E\equiv\frac{1}{2}\cdot\frac{A^2+B^2-AB}{(A+B)(2A^2+2B^2-5AB)} \bmod Q^{*2}$。
+- 结果：PASS±（修复 1 处后）
+- 差异与处置：
+  1. 【已修复】删除伪造展示块 `$$\mathbf{K}_{\mathbf{p}}$$`（原夹于 "rami-" 与 "fication over…" 之间）：
+     印刷对应位置为连续句子 "…has only small rami-/fication over Q(ζ_p)."，无任何独立 K_p 展示行；
+     系 MinerU 把行内 $K_p$ 下标误提为展示式。删除后按 MD 自身惯例拼合连字符行为
+     "…has only small ramification over…"。
+  2. 【300dpi 澄清】Weierstraß 式标签确为 $N_{\widetilde{E}}$（E 与变量均有波浪号：$N_{\tilde E}$、
+     $\widetilde{Y}^2$、$\widetilde{X}^3$、$\widetilde{X}$），MD 转写忠实（证据
+     audit-redo/300dpi/frey1986-p010-NEtilde-display-300dpi.png）；
+     $\Delta=A^2\cdot B^2\cdot C^2$ 的 B 指数为 2（150dpi 疑似 3 系噪点；与 $j_E$ 式自洽），MD 忠实
+     （audit-redo/300dpi/frey1986-p010-delta-300dpi.png）；δ_E 式 ≡ 忠实。
+  3. 【登记不改】节标题 "2. Stable elliptic curves." 印刷有下划线，MD 拍平；
+     $\zeta_{\mathbf{p}}$ 粗体 p 为字体伪影（同页内非粗体 $\zeta_p$ 见他页）。
+- 备注：页眉 "10　G. Frey" 未入 MD，正常。本页止于 δ_E 展示式，"From those data…" 属 p.11 范围。
+
+---
