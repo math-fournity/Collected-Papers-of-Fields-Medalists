@@ -389,3 +389,14 @@
 - 页面边界：本页止于共轭矩阵恒等式；Markdown 第 1375 行起的下一组 `G_p→G_{2p}` 同调图不在本页图像中，归到后续页核对。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复块和交换图、`G_∞` 的稳定映射与共轭矩阵。
 - 记录：2026-10-02 03:08:53 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.038（PDF p.38 / 纸面圈号 38）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p038.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p038_group-completion-diagram.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p038_induction.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p038_convolution.png`。
+- 核对：`G_p` 上两种乘法映射及其同调复合；由连通 Hopf 代数的分次归纳证明 `s_*p_*=1`；卷积 `u*v` 的定义与其单位/逆元讨论。
+- 结果：**FAIL**。
+- 印刷证据与差异：第一张裁片中的交换图区分 `id⊗id` 与 `id⊗s_*p_*`，并由乘法 `μ` 映到 `H_*(G_{2p})`；基线第 1379 行重复下方映射标签、将 `μ` 识成 `y`，且把整个交换图压成连续公式。归纳证明原图以 `Δ_*x=1⊗x+Σx_i'⊗x_i''` 开始；基线第 1383 行把 `<n` 的边界写成 `<n_j`，第 1387 行把 `μ` 写成 `y`，第 1389 行把 `μ` 写成 `M` 并损坏 `s_*p_*` 项，第 1391 行则将结论 `x=s_*p_*x` 误成 `x=S_xp_xx`。卷积定义中，原图的末映射 `A⊗A→A` 是乘法 `μ`；基线第 1397 行误写成 `u`。第 1393 行关于 Hopf algebra 的条件/术语也被损坏成 `\overline{Hopf}` 与 `toalgebra`。本页后面的连通性、monoid-to-group 和 cancellation 文字与原图可辨认。
+- 页面边界：本页止于 `id*id=id*s_*p_*` 的 cancellation 备注；Markdown 第 1404 行的矩阵代数定义在下一页核对。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张裁片恢复交换图、归纳映射与卷积乘法 `μ`。
+- 记录：2026-10-02 03:11:36 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
