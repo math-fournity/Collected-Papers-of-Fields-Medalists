@@ -314,3 +314,13 @@
 - 印刷证据与差异：原图第 1054–1055 行的同调诱导图与“内自同构在 `H_*(BG)` 上作用平凡”事实，基线将两列拼接成含混文本。原图第 1057 行是 homotopy associative，基线写成 `2ssociative`。原图第 1061 行是 `π_1(BGL(A)^+)=GL(A)/E(A)=H_1(BGL(A))`，基线误成 `BL(A)/E(A)`。第 1066 行原图的 plus superscript 属于 `BGL(A)` 并与 `BE(A)` cover 相连，Markdown 把上标挪进 `A^+` 且图中对象错置；第 1073 行又将 `f'` 的无环性、cover `BE(A)` 与同调同构压成 `BE(A)^T=BGL`。原图第 1079 行的 Dror stages 与目标 Postnikov tower 也被拼成难以辨认的链。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核 plus 图与 cover/tower 对应。
 - 记录：2026-10-02 02:18:20 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.031（PDF p.31 / 纸面圈号 31）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p031.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p031_telescope-homology.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p031_group-homology-chain.png`。
+- 核对：`BE(A)` 的 sequential direct limit 与同调；由有限维嵌入共轭导出 `u_*` 在同调上的恒等；群同调用 `\mathbb Z[G]`-free resolution 与 universal cover chains 的描述。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图为 `BE(A)=\lim_\to BE_n(A)` 并给出对应 `H_*(BE(A))=\lim_\to H_*(BE_n(A))`；基线第 1086、1094 行把 stage index/同调指标错成 `0`、`y`，且第 1090、1098 行将映射序列与 mapping telescope 注释拼坏。群同调系数链复形原式是 `C_i(\widetilde{BG})\otimes_{\mathbb Z[G]}M`，基线第 1118 行漏掉平衡张量的基环，第 1122 行更把 `\otimes_{\mathbb Z[G]}` 写成 `\oplus_{\mathbb Z[G]}`。原图结论 `H_i(BG,M)=H_i(G,M)`，基线第 1126 行写成 `H_1(-1)=H_1(GM)`，改变了指标与群同调对象。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对 direct-limit 指标与平衡张量。
+- 记录：2026-10-02 02:25:48 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
