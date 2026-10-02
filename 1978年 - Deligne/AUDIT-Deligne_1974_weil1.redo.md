@@ -18,3 +18,10 @@
 - 核对：封面题录——刊头、作者 PIERRE DELIGNE、题名 La conjecture de Weil : I、期刊卷年页码（tome 43, 1974, p. 273-307）、Numdam item URL、版权段全文、页脚 NUMDAM 块。
 - 结果：PASS±。作者/题名/期刊卷年页码/URL/版权法律文本与 md 逐项吻合（撇号排为直引号，不误导）。差异：md 缺印刷页顶部刊头横幅「PUBLICATIONS MATHÉMATIQUES DE L'I.H.É.S.」与页脚「NUMDAM / Article numérisé dans le cadre du programme / Numérisation de documents anciens mathématiques / http://www.numdam.org/」整块。均为来源/版式信息，不误导检索与使用，不构成 FAIL。
 - 修复：补录上述两块缺失文本（依据 audit-redo/p001.png；NUMDAM 图形标志本身不录，只录其下文字行）。Luna「不修」的处置本次改为补全，属增补非改正。
+## p.002（PDF p.2 / 印刷 p.273）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 15:00 EDT。
+- PNG：audit-redo/p002.png（pngmono 150dpi）。
+- 旧审计对照：Luna p.002 = FAIL→已修复（公式号 I.I.I→(1.1.1)、zeta 因子 I→1）；本次重核修复后状态。
+- 核对：题名页（LA CONJECTURE DE WEIL. I / par PIERRE DELIGNE）、SOMMAIRE 全 8 条及页码 273/280/283/287/289/294/298/301、引言三段（含 « difficile »、§§ 3, 6, 7 et 8、Cambridge juillet 1973、N. Katz）、§1 节标题、(1.1) 定义段、公式 (1.1.1) ζ_X(s)=Π_{x∈|X|}(1−N(x)^{-s})^{-1}、ℜ(s) 与 Spec(Z) 句。
+- 结果：PASS±。全部内容项与印刷页吻合；Luna 的两处修复（公式号、标量 1）经原页确认正确且已生效。差异：①md 无页脚印刷页码 273 与装订号 35（全篇系统性版式省略，不误导）；②(1.1.1) 公式号在 md 中为独立 display 块置于公式前（排版投影差异，编号存在且正确）；③N、X 等罗马/粗体字形在 md 中混用（不误导）。
+- 修复：无（本页无需改 md）。
