@@ -201,3 +201,16 @@
   7. "⟩discussed"补空格（p.260 In the example 行）
   8. "any$r<1$"句末补句点（print 原有）；**图片引用路径断裂**第二处：`![](images/page_15_image_12.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_15_image_12.jpg)`（p.260 小树状图；目标文件 7.4K 实测存在）
 - 备注：⋃_{r<1} display 与 print 一致含尾句点；Theorem 2.22 起（行 477）属印刷 p.261，留待 p.017。
+## p.017（PDF p.17 / 印刷 p.261）
+- PNG：audit/p017.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/261；Theorem 2.22（**𝔛** admissible formal scheme vs X generic fibre 的 fraktur 区分；sp : X^ad → 𝔛 display；(X^ad,O_{X^ad}^+)→(𝔛,O_𝔛)；X≅lim_{←𝔛}𝔛 display；(X,O_X^+)≅lim_{←𝔛}(𝔛,O_𝔛)）；Proof（[3]/[20] Section 4、X→lim_{←𝔛}𝔛 display、Tychonoff、𝔘=Spf R⊂𝔛、U=Spa(R[1/p],R)、O_X^+(U)=R=O_𝔛(𝔘)、QED □）；Spf(k°⟨T⟩) 例与 A^1_κ/P^1_κ's；nonstrict equalities 段；Berkovich 对比预告
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. **Theorem 2.22 首 "Let X be some admissibleformal scheme" 的形式概形丢 fraktur → "Let$\mathfrak{X}$be…"**（print 用 𝔛/X 区分形式概形与其 generic fibre，PNG 确认）；"admissibleformal/genericfibre/ofRaynaud"补空格
+  2. "(X^ad,O_{X^ad}^+)␣(𝔛,O_𝔛)" 缺箭头→→、句末补句点；"oflocally"→of locally（p.261 extending to a morphism 行）
+  3. "afixed/offinite"补空格、"over$k.$"句点出 math、"formal models X for X"首 X→$\mathfrak{X}$（print "there exist formal models 𝔛 for X"）（p.261 Now assume 段）
+  4. "runs overformal models ofX"补空格、"oflocally"×2 补空格（p.261 where 𝔛 runs 段）
+  5. Proof："of[3]"、"proofofthe"补空格（p.261 Proof 行）
+  6. display X→lim 下标 $\mathfrak{x}$（小写）→$\mathfrak{X}$（print 为大写 𝔛）
+  7. Proof 中段："$\mathrm{X,}$one may"/"of$\mathrm{X,}$"逗号出 math；"${\mathfrak{X}}.$. "伪'.$.'；"(as X is$\mathrm{T}_0)_{\mathrm{:}}$"乱码→"(as X is$\mathrm{T}_0$)"；**"$\mathrm{U}=\mathrm{Spa}(\mathrm{R}[\frac{1}{\rho}],R)$"→"$\mathrm{Spa}(\mathrm{R}[\frac{1}{p}],\mathrm{R})$"（print 为 1/p，ρ 系 p 误读）**；"$\mathcal{\bar O}_\mathfrak{X}(\mathfrak{U})$"伪 \bar 删；"assertion.-"→"assertion.□"（QED，print 有 tombstone）（p.261 Proof 中段原图）
+  8. "Spf(k°⟨T⟩))"游离右括号删除；"additional$\mathbf{p}^1_\kappa\mathrm{\tilde{s};}$"（小写 p+乱码 's;）→"additional$\mathbf{P}^1_\kappa$'s;"（print 𝐏¹_κ's）（p.261 In the example 段）
+- 备注：sp display 与 X≅lim display 本身完好；Definition 2.23 起（行 507）属印刷 p.262，留待 p.018。

@@ -474,31 +474,31 @@ In the adic world, one can see this non-admissibility as being caused by the poi
 
 Moreover, adic spaces behave well with respect to formal models. In fact, one can define adic spaces in greater generality so as to include locally noetherian formal schemes as a full subcategory, but we will not need this more general theory here.
 
-Theorem 2.22. — Let X be some admissibleformal scheme over$k ^ { \circ }$, let X be its genericfibre in the sense ofRaynaud, and let$\mathrm { X ^ { a d } }$be the associated adic space. Then there is a continuous specialization map
+Theorem 2.22. — Let$\mathfrak { X }$be some admissible formal scheme over$k ^ { \circ }$, let X be its generic fibre in the sense of Raynaud, and let$\mathrm { X ^ { a d } }$be the associated adic space. Then there is a continuous specialization map
 
 $$
 \mathrm{sp}: \mathrm{X} ^ {\mathrm{ad}} \to \mathfrak {X},
 $$
 
-extending to a morphism oflocally ringed topological spaces$( \mathrm { X ^ { a d } } , \mathcal { O } _ { \mathrm { X ^ { a d } } } ^ { + } )  ( { \mathfrak { X } } , \mathcal { O } _ { \mathfrak { X } } )$
+extending to a morphism of locally ringed topological spaces$( \mathrm { X ^ { a d } } , \mathcal { O } _ { \mathrm { X ^ { a d } } } ^ { + } ) \to ( { \mathfrak { X } } , \mathcal { O } _ { \mathfrak { X } } )$.
 
-Now assume that X is afixed quasicompact quasiseparated adic space locally offinite type over$k .$ By Raynaud, there exist formal models X for X, unique up to admissible blowup. Then there is a homeomorphism
+Now assume that X is a fixed quasicompact quasiseparated adic space locally of finite type over$k$. By Raynaud, there exist formal models$\mathfrak { X }$for X, unique up to admissible blowup. Then there is a homeomorphism
 
 $$
 \mathrm{X} \cong \varprojlim_ {\mathfrak {X}} \mathfrak {X},
 $$
 
-where$\mathfrak { X }$runs overformal models ofX, extending to an isomorphism oflocally ringed topological spaces $( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { + } ) \cong \varprojlim _ { \mathfrak { X } } ( \mathfrak { X } , \mathcal { O } _ { \mathfrak { X } } )$, where the right-hand side is the inverse limit in the category oflocally ringed topological spaces.
+where$\mathfrak { X }$runs over formal models of X, extending to an isomorphism of locally ringed topological spaces $( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { + } ) \cong \varprojlim _ { \mathfrak { X } } ( \mathfrak { X } , \mathcal { O } _ { \mathfrak { X } } )$, where the right-hand side is the inverse limit in the category of locally ringed topological spaces.
 
-Proof. — It is an easy exercise to deduce this from the previous theorem and the results of[3], Section 4, and [20], Section 4. Let us sketch the proofofthe last part. In the situation of the first part, the map sp :$\mathrm { X ^ { a d } } \to \mathfrak { X }$is a surjective spectral map of spectral spaces. It follows that the map
+Proof. — It is an easy exercise to deduce this from the previous theorem and the results of [3], Section 4, and [20], Section 4. Let us sketch the proof of the last part. In the situation of the first part, the map sp :$\mathrm { X ^ { a d } } \to \mathfrak { X }$is a surjective spectral map of spectral spaces. It follows that the map
 
 $$
-\mathrm{X} \to \varprojlim_ {\mathfrak {x}} \mathfrak {X}
+\mathrm{X} \to \varprojlim_ {\mathfrak {X}} \mathfrak {X}
 $$
 
-is still a surjective map of spectral spaces. For this, note that$\mathrm { X }$is compact for the constructible topology, and use Tychonoff ’s theorem. But for any quasicompact open U of $\mathrm { X , }$one may find a formal model$\mathfrak { X }$of$\mathrm { X , }$such that U is the preimage under the specialization map of a quasicompact open subset of${ \mathfrak { X } } .$. This implies that the map is injective (as X is$\mathrm { T } _ { 0 } ) _ { \mathrm { : } }$, and then a homeomorphism. Moreover, if U is the preimage under specialization of an open affine formal subscheme$\mathfrak { U } = \mathrm { S p f R } \subset \mathfrak { X }$, and$\mathfrak { X }$is normal, then $\mathrm { U } = \mathrm { S p a } ( \mathrm { R } [ \textstyle { \frac { 1 } { \rho } } ]$, R) is still affinoid, and$\mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) = \mathrm { R } = \mathcal { \bar { O } } _ { \mathfrak { X } } ( \mathfrak { U } )$. Using that X is covered by such U, one deduces the assertion.-
+is still a surjective map of spectral spaces. For this, note that$\mathrm { X }$is compact for the constructible topology, and use Tychonoff ’s theorem. But for any quasicompact open U of $\mathrm { X }$, one may find a formal model$\mathfrak { X }$of$\mathrm { X }$, such that U is the preimage under the specialization map of a quasicompact open subset of${ \mathfrak { X } }$. This implies that the map is injective (as X is$\mathrm { T } _ { 0 }$), and then a homeomorphism. Moreover, if U is the preimage under specialization of an open affine formal subscheme$\mathfrak { U } = \mathrm { S p f R } \subset \mathfrak { X }$, and$\mathfrak { X }$is normal, then $\mathrm { U } = \mathrm { S p a } ( \mathrm { R } [ \textstyle { \frac { 1 } { p } } ] , \mathrm { R } )$is still affinoid, and$\mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) = \mathrm { R } = \mathcal { O } _ { \mathfrak { X } } ( \mathfrak { U } )$. Using that X is covered by such U, one deduces the assertion.□
 
-In the example, one can start with$\mathfrak { X } = \operatorname { S p f } ( k ^ { \circ } \langle \mathrm { T } \rangle )$) as a formal model; this gives${ \bf A } _ { \kappa } ^ { 1 }$ as underlying topological space. After that, one can perform iterated blowups at closed points. This introduces additional$\mathbf { p } _ { \kappa } ^ { 1 } \mathrm { \tilde { s } ; }$the strict transform of each component survives in the inverse limit and gives the closure of a point of type (2). Note that the point of type (2) is given as the preimage of the generic point of the component in the formal model.
+In the example, one can start with$\mathfrak { X } = \operatorname { S p f } ( k ^ { \circ } \langle \mathrm { T } \rangle )$ as a formal model; this gives${ \bf A } _ { \kappa } ^ { 1 }$ as underlying topological space. After that, one can perform iterated blowups at closed points. This introduces additional$\mathbf { P } _ { \kappa } ^ { 1 }$'s; the strict transform of each component survives in the inverse limit and gives the closure of a point of type (2). Note that the point of type (2) is given as the preimage of the generic point of the component in the formal model.
 
 We note that in order to get continuity of sp, it is necessary to use nonstrict equalities in the definition of open subsets.
 
