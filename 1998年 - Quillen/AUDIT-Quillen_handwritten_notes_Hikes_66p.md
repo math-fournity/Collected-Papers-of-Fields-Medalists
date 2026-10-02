@@ -584,6 +584,17 @@
 - 核对：由 `(E−εE)⊗(F−εF)` 构造 reduced representation class 的乘法；表示张量积诱导到 `\widetilde R/\widetilde F(X,A⊗B)` 的自然变换；乘法 `μ` 的双线性、结合性与交换性。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图首个公式展开为 `[E⊗F]−[E⊗εF]−[εE⊗F]+[εE⊗εF]`；基线第 1976 行压成 `EH`、`EQF` 等不可识别碎片，第 1978 行虽保留项序但上标/类符号仍有损坏。原图把表示 `E,F` 的张量构造映到 `\widetilde R(π_1X,A)⊗\widetilde R(π_1X,B)→\widetilde R(π_1X,A⊗B)`，再诱导 `\widetilde F(X,A)×\widetilde F(X,B)→\widetilde F(X,A⊗B)`；基线第 1980–1986 行把 `π_1X`、目标环和这个交换映射拼成 `π_X`、`\widetilde F` 错位文本与 `1/4`。原图第 1990–2002 行依次陈述 `μ` bilinear/associative/commutative、双线性公式、结合交换图和乘积对象；基线将 `μ` 识成 `y`、双线性拼作 `bilenear`，后续代数对象和结构映射也被压坏。
-- 页面边界待续核：原图 p.55 页尾止于 reduced `\widetilde F` 的乘积等式；Markdown 第 2003 行起 “so that putting `H(X,A)`” 与第 2011 行 “Products in H-groups” 待 p.56 原图确认其起始页。
+- 页面边界核对：原图 p.55 页尾止于 reduced `\widetilde F` 的乘积等式；p.56 原图从 “Can also define products” 起续写，再到 “Products in H-groups”。因此 Markdown 第 2001 行起的 `\widetilde r` 与 H-space 产品说明均属于 p.56。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片重建 reduced tensor expansion、表示张量自然映射与 `μ` 结构性质。
 - 记录：2026-10-02 04:38:16 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.056（PDF p.56 / 纸面圈号 56）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p056.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p056_H-groups.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p056_smash-wedge.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p056_reduced-products.png`。
+- 核对：`H(X,A)` 的 `K_0A` 与 reduced 部分乘法；`\widetilde H` 上的 H-space 乘积；`X∧Y`、`X∨Y` 的 mapping-set exact sequence 及 projection pullbacks；`\widetilde F(X∧Y,A⊗B)` 的自然产品。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 2003 行构造 `H(X,A)=K_0A×\widetilde F(X,A)`，第 2005 行的乘法目标为 `H(X,A⊗B)`；基线将 `K_0A` 误成 `H_0A`，并把目标写成 `H(X,A)⊗B`。原图第 2009 行说 `\widetilde F(X,A)` 是 commutative ring 且为 `\widetilde H(X,A)` 的 ideal，基线把后者重复写成 `\widetilde F(X,A)`。Products-in-H-groups 图以 `pr_1^*x,pr_2^*y` 映到 `\widetilde F(X×Y,A⊗B)`；基线第 2013–2019 行损坏 product 对象、投影和 `μ` 映射。原图使用 `0→[X∧Y,Z]→[X×Y,Z]→[X∨Y,Z]→0`（`Z` 为 H-space）并由 `[X,Z]×[Y,Z]` 分裂；基线虽保留序列，旁边 splitting 注记错位。由此 `μ(pr_1^*x,pr_2^*y)` 落在 `\widetilde F(X∧Y,A⊗B)`，基线第 2028–2032 行将 smash/wedge、projection pullback 与系数 tensor 错成 `X∩Y`/`A∩B`，球面例子参数也被损坏。
+- 页面边界：本页以 `\widetilde F(X,A)×\widetilde F(Y,B)→\widetilde F(X∧Y,A⊗B)` 的自然产品收尾；Markdown 第 2034 行起的 extension exercise 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_0A` 因子、H-group projection 图、smash/wedge exact sequence 与自然产品。
+- 记录：2026-10-02 04:42:57 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
