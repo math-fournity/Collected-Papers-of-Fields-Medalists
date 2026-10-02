@@ -254,7 +254,7 @@ $$
 Q _ {\mathbf {R}} (\alpha) = \int_ {X} \alpha \wedge \alpha , \quad \alpha \in H ^ {2} (X; \mathbf {R}).
 $$
 
-(This is very close to some of the earliest applications of the theory of harmonic forms [9, §52.2]); so an equivalent form of the hypothesis in Theorem 1 that the intersection form is positive definite is the statement that the space $\mathcal{K}_-^2(X)$ of anti-self dual harmonic forms vanishes.
+(This is very close to some of the earliest applications of the theory of harmonic forms [9, §52.2]); so an equivalent form of the hypothesis in Theorem 1 that the intersection form is positive definite is the statement that the space $\mathcal{H}_-^2(X)$ of anti-self dual harmonic forms vanishes.
 
 In the recent paper [18] C. H. Taubes constructs self-dual connections on the bundle P under precisely this hypothesis [18, Theorem 1.1]. They are constructed there by means of an “implicit function theorem” which we state here for later use:
 

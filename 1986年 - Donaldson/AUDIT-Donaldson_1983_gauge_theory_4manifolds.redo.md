@@ -74,3 +74,15 @@
   - **修复**：印刷把 `P\downarrow S^4` 排成 P/↓/S⁴ 三行叠置，Luna 转写丢了下位 S⁴（行 231 作 `$P\downarrow$`），又把版面重叠的同一 S⁴ 误挂成 `SO(5)` 的上标（`$SO(5)^{S^4}$`）。300dpi 裁片确认：SO(5) 无上标，S⁴ 是箭头叠置的下位 → 已 Edit 改为 `on $P\downarrow S^4$ form a single orbit … a single $SO(5)$ invariant class`；第二处叠置 `$S^7\downarrow S^4$` Luna 转写正确，不动。
   - 排版级伪影（登记不改）：印刷斜体 *moduli space*、*centre*、*scale*、Proposition 4 整段斜体在 md 中为正体；粗体 **R⁴** 拍平。
 - 修复登记：行 231 `$P\downarrow$`→`$P\downarrow S^4$`、`$SO(5)^{S^4}$`→`$SO(5)$`（依据 `audit-redo/p006.png` + 300dpi 叠置记号裁片）。
+
+### p.007（PDF p.7 / 印刷 p.285）
+
+- PNG：`audit-redo/p007.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（F(I₀,λ) 分母、谐和空间花体字母、Proposition 5 叠置记号，结论记于本条）
+- 核对：dilations/quaternionic 段；I₀,λ 与 F(I₀,λ) 两式；B̄⁵=𝔐(S⁴)∪S⁴ 段；节标题 I.5；ℋ²=ℋ²₊⊕ℋ²₋ 分解；Q_R(α)=∫α∧α；[9, §52.2] 段；Taubes 引入段；Proposition 5 开头（P↓X 叠置）
+- 结果：**PASS±**（含一处记号一致性修复）。
+  - `I_{0,\lambda}(x)=\mathrm{Im}(xd\bar{x}/(\lambda^2+|x|^2))` 与页图一致；`\overline{B}^5=\mathfrak{M}(S^4)\cup S^4`、`Q_{\mathbf{R}}(\alpha)=\int_X\alpha\wedge\alpha,\ \alpha\in H^2(X;\mathbf{R})`、`[9,\ \S52.2]`（印刷原样 quirk，忠实保留）均吻合。
+  - **印刷 quirk 登记（不改）**：`F(I_{0,\lambda})=\lambda^2\,dx\,d\bar{x}/(\lambda^2+|x|)^2` —— 300dpi 确认印刷分母即无 `|x|^2` 的 `(\lambda^2+|x|)^2`，与上一式自相矛盾，系原刊排印笔误；md 忠实保留。
+  - 300dpi 确认 Proposition 5 叠置记号 `P\downarrow X`（行 261）Luna 转写正确。
+  - **修复**：同一印刷花体字形，md 行 251 作 `$\mathcal{H}^2=\mathcal{H}^2_+\oplus\mathcal{H}^2_-$`，行 257 却作 `$\mathcal{K}^2_-(X)$`；300dpi 裁片确认两处为同一字形（字形本身 H/K 形难分，但语境为 harmonic forms 空间，且全文无其它 script-K 用法）→ 已 Edit 统一为 `\mathcal{H}`。行 277 的 `$\mathcal{K}^2_-(X)=0$` 属 p.8 内容，届时同规则修复。
+  - 排版级伪影（登记不改）：印刷斜体 *moduli space* 等在 md 中为正体。
+- 修复登记：行 257 `$\mathcal{K}^2_-(X)$`→`$\mathcal{H}^2_-(X)$`（依据 `audit-redo/p007.png` + 300dpi 两处花体字形对比裁片）。
