@@ -290,3 +290,10 @@
 - 源级 print quirk：Corollary 3 后的段落写“assumption of Corollary 2”；Markdown 保留该交叉引用，不按上一段推改为 Corollary 3。
 - 备注：印刷运行页眉和页码 146 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现 Markdown 内容差异；记录印刷交叉引用 quirk，并因页眉/页码省略记为 PASS±。
+
+### PDF p.040 / 96（印刷 p.147）— FAIL
+
+- 时间：2026-10-02 02:28 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.040 文本层、页图 `audit/Hironaka_1964_resolution_partI_p040.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_space.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_restriction.png`，以及 MinerU Markdown 第 641–665 行。原页反复以花体 Zariski-space 记号 `\mathfrak{Z}` 书写 `\mathfrak{Z}(X)`、`\mathfrak{Z}(g)` 等；Markdown 多处转成数字 `3`（例如第 643、659、661、663、665 行），改变了专名对象的记号。
+- 备注：印刷运行页眉和页码 147 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处修复。
