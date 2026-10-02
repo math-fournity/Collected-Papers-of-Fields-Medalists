@@ -395,3 +395,10 @@
 - 证据：源 PDF p.054 文本层、页图 `audit/Hironaka_1964_resolution_partI_p054.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p054_footnote_numbers_and_Inst.png` 与 MinerU Markdown 第 847、849–873 行。印刷脚注 30 的正文在 Markdown 第 871 行误标为 `^{80}`；同一注释中的期刊出版机构缩写印刷为 `de l'Inst.`，Markdown 第 871 行将小写字母 `l` 录成数字 `1`。正文条件 (i)–(iii)、性质 (a)–(c) 与脚注 29、31 的内容相符；另印刷在 Markdown 第 849、859 行写作花体 `\mathcal{B}` 的 class 名称为普通 `B`，而同页的 membership 公式仍保留花体，属于不改变指代的正/花体混排（PASS±）。
 - 备注：Markdown 第 845 行的脚注 28 正文属于上一印刷页 p.160 的页脚，不计作本页内容；本页印刷运行页眉和页码 161 未录入 Markdown，属导航元素省略。
 - 结论：脚注 30 号误录为 80，刊名缩写小写 `l` 误录为数字 `1`，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.055 / 96（印刷 p.162）— PASS±
+
+- 时间：2026-10-02 03:51 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.055 文本层、页图 `audit/Hironaka_1964_resolution_partI_p055.png`（pngmono 150dpi）与 MinerU Markdown 第 875、877、879、881 行。关于代数 scheme 的定义和结构态射、local-ring class B 在代数/解析几何中的范围、选择较小 B 类的说明及脚注 32 均对应印刷页。印刷多处以花体 `\mathcal{B}` 表示已定义的 class，Markdown 第 875、877、879 行使用普通 `B`；上下文中的 class 指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 162 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；class B 的字体样式混排及运行页眉/页码省略记为 PASS±。
