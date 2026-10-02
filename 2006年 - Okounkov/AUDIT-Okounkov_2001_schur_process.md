@@ -101,3 +101,9 @@
 - PNG：audit/p014.png（pngmono 150dpi）
 - 核对：Z_{3D}=exp(Σ_{m1,m2=1/2}^∞Σ_k q^{k(m1+m2)}/k)=∏_{m1,m2}(1−q^{m1+m2})^{-1}=∏_{n=1}^∞(1−q^n)^{-n}（McMahon）、§2.3/§2.3.1、Definition 3、ρ(U)=Prob(U⊂𝔖({λ(t)}))、式 (16)、§2.3.2（u_i 排序 t1≤t2≤…≤tn、t_0=−∞）、式 (17)
 - 结果：PASS。全部吻合；上块移交的 (22) 缺失问题位于 Theorem 1（§2.3.4），不在本页，待后续页处理。
+
+## p.015（PDF p.15 / 印刷 p.15）
+- PNG：audit/p015.png（pngmono 150dpi）
+- 核对：R_U 算子（双重 ∏^← 嵌套）、§2.3.3、Ψ_x(t)=Ad(∏_{m>t}Γ₊(φ[m])∏_{m<t}Γ₋(φ[m])^{-1})·ψ_x、ρ(U)=(←∏Ψ_{x_i}(t_i)Ψ*_{x_i}(t_i)v_∅,v_∅)、Lemma 1 (Wick formula) 与式 (18)、K_A(i,j) 分段、K((t1,x1),(t2,x2)) 分段式
+- 结果：PASS±（一处已修复）：行 549 "sufices"→"suffices"（p015.png+文本层双证，ff 连字丢失）。
+- 备注：行 549 "$A _ { i } \mathrm { ^ { * } s }$/$A _ { j } ^ { * } \mathrm { { ^ { s } } }$" 撇号排版伪影（印刷为 A_i's / A_j^*'s）数学无损、可辨认，登记不改；Lemma 1 斜体排版（Let/Then/Proof 斜体）为 LaTeX 强调，非错误。

@@ -546,7 +546,7 @@ $$
 K _ {A} (i, j) = \left\{ \begin{array}{l l} (A _ {i}   A _ {j} ^ {*}   v _ {\emptyset}, v _ {\emptyset})  , & i \geq j  , \\ - (A _ {j} ^ {*}   A _ {i}   v _ {\emptyset}, v _ {\emptyset})  , & i <   j  . \end{array} \right.
 $$
 
-Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } { : }$, therefore it sufices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { ^ { * } s }$and$A _ { j } ^ { * } \mathrm { { ^ { s } } }$. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$ one then verifies (18) directly.□
+Proof. Both sides of (18) are linear in$a _ { i , k }$and$a _ { i , k } ^ { * } { : }$, therefore it suffices to verify (18) for some linear basis in the space of possible$A _ { i } \mathrm { ^ { * } s }$and$A _ { j } ^ { * } \mathrm { { ^ { s } } }$. A convenient linear basis is formed by the series (19) as the parameter z varies. Using the canonical anticommutation relation satisfied by$\psi ( z )$and$\psi ^ { * } ( z )$ one then verifies (18) directly.□
 
 We obtain the formula (16) with
 
