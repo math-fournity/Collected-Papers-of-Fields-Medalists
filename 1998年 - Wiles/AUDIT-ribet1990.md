@@ -153,3 +153,11 @@
 - 发现并当场修复（粗体 Hecke 代数 **T** 拍平 5 处 + 字形误植 1 处；均据 300 dpi 裁片）：①L588 "$\mathbf{G}_{\mathfrak{m}}$"→"$\mathbf{G}_{\mathrm{m}}$"（印刷下标为正体 m；与 MD p.006 处 G_m 渲染一致）；②L588 "The action of T on T corresponds to the action of T on X"→两处 $\mathbf{T}$；③L588 "The action of T on J₀(M)×J₀(M)"→$\mathbf{T}$；④L588 "$T_q\in T_M$"→"$T_q\in\mathbf{T}_M$"；⑤L620 "$t\in T$ maps to 0 in $T_1$"→"$t\in\mathbf{T}$ / $\mathbf{T}_1$"。
 - 备注："defined over Q" 印刷粗体 **Q**，MD 正体（登记不改）；End_**Q** 下标 MD 本即粗体正确。
 - 结果：FAIL（6 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.019（PDF p.19 / 印刷 p.448）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:30 -0400。
+- PNG：`audit/ribet1990_p019.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："**T**-equivariant"、"as a **T**-module"、"Let **Λ** … set **𝒮** … X⊂**Λ**"、"**Φ**≈coker(*ι*)"，未存档）。
+- 核对：π: J₀(Mq)→Q 诱导 J⁰→U、π_*η_* 等距、Theorem 3.10 Proof 结尾（□）；Theorem 3.11（**T**-module via (5)、t is 0 in **T**₀）与 Proof（similar to (3.10)、A→J⁰、(5) 复合等距、□）；节标题 "Action of Hecke operators on Φ"；Eisenstein 性（T_r 乘 1+r、[30]/[8]）；Λ/𝒮/X⊂Λ/degree 0、e(i) 对角配对；κ: Λ→Λ*、ι: X→X*；Φ≈coker(ι)（300 dpi 确证为 ι 非 t）；T_n 作用 target/source 之别、ξ_n=w_{qM}T_nw_{qM}；段尾 "because the source" 接下页 ✓。
+- 发现并当场修复：①L622 "T-equivariant"→"$\mathbf{T}$-equivariant"（粗体代数拍平，300 dpi 确证）；②L624 "as a T-module"→"as a $\mathbf{T}$-module"（同）；③L632 六处字母/花体：A→Λ ×3（free abelian group、X⊂Λ、subgroup of Λ、pairing on A）、S→𝒮 ×3（supersingular points 集、Note that、i∈𝒮）（300 dpi 确证印刷为 Λ 与花体 S，MD 误作普通 A/S）；④L649 行间式 "coker(t)"→"coker(ι)"（300 dpi 确证印刷为 ι；MD 误作拉丁 t，字母身份错误）。
+- 备注：F_q、F̄_q 印刷粗体，MD 正体（登记不改）；两处证明结束符 □ 未收录（惯例）。
+- 结果：FAIL（10 处记号/字母错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

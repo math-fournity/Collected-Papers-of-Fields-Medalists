@@ -619,9 +619,9 @@ $$
 
 It is clear that the abelian variety Q has purely toric reduction in characteristic q, as A has good reduction at q and the dimensions of T and Q coincide. Let U be the connected component of 0 in the fiber at q of the Néron model of Q, so that U is a torus of the same dimension as T. By a well known property of abelian varieties with purely toric reduction, the action of  $\operatorname{End}_{\mathbf{Q}}(Q)$  on U is faithful. Therefore,  $t \in \mathbf{T}$  maps to 0 in  $\mathbf{T}_{1}$  if and only if it acts as 0 on U.
 
-The structural map $\pi: J_0(Mq) \to Q$ induces a homomorphism $J^0 \to U$. Combining this map with the inclusion of $T$ in $J^0$, we get a T-equivariant map $\pi_*: T \to U$. Choose a map $\eta: Q \to J_0(Mq)$ for which $\pi\eta$ is an isogeny from $Q$ to $Q$. We obtain in characteristic $q$ a map $\eta_*: U \to T$ for which $\pi_*\eta_*$ is an isogeny. Since $T$ and $U$ have the same dimensions, $\pi_*$ is an isogeny. Hence $t \in \mathbf{T}$ maps to 0 in $\mathbf{T}_1$ if and only if it acts as 0 on $T$.
+The structural map $\pi: J_0(Mq) \to Q$ induces a homomorphism $J^0 \to U$. Combining this map with the inclusion of $T$ in $J^0$, we get a $\mathbf{T}$-equivariant map $\pi_*: T \to U$. Choose a map $\eta: Q \to J_0(Mq)$ for which $\pi\eta$ is an isogeny from $Q$ to $Q$. We obtain in characteristic $q$ a map $\eta_*: U \to T$ for which $\pi_*\eta_*$ is an isogeny. Since $T$ and $U$ have the same dimensions, $\pi_*$ is an isogeny. Hence $t \in \mathbf{T}$ maps to 0 in $\mathbf{T}_1$ if and only if it acts as 0 on $T$.
 
-Theorem 3.11. View $J_0(M) \times J_0(M)$ as a T-module via (5). Let $t$ be an element of $\mathbf{T}$. Then $t$ acts as 0 on $J_0(M) \times J_0(M)$ if and only if $t$ is 0 in $\mathbf{T}_0$.
+Theorem 3.11. View $J_0(M) \times J_0(M)$ as a $\mathbf{T}$-module via (5). Let $t$ be an element of $\mathbf{T}$. Then $t$ acts as 0 on $J_0(M) \times J_0(M)$ if and only if $t$ is 0 in $\mathbf{T}_0$.
 
 Proof. This is similar to (3.10). With $A$ as above, $t \in \mathbf{T}$ acts as 0 on $A$ if and only if it acts as 0 on $S_0$. The inclusion of $A$ in $J_0(Mq)$ induces in characteristic $q$ a map $A \to J^0$. The composition of this map with the map $J^0 \to J_0(M) \times J_0(M)$ of (5) is an isogeny. Hence $t$ acts as 0 on $S_0$ if and only if it acts as 0 on $J_0(M) \times J_0(M)$.
 
@@ -629,7 +629,7 @@ Proof. This is similar to (3.10). With $A$ as above, $t \in \mathbf{T}$ acts as 
 
 We now study the action of the Hecke operators  $T_{n} \in \text{End}(J_{0}(qM))$  on the component group  $\Phi$  associated with the reduction of  $X_{0}(qM)$  over  $F_{q}$ . Our aim is to prove that  $\Phi$  is “Eisenstein” in the sense that  $T_{r}$  operates on  $\Phi$  by multiplication by  $1 + r$ , for almost all primes r. We do this by reducing the question to one involving supersingular elliptic curves over  $\bar{F}_{q}$ . (See [30] and [8] for more information about component groups attached to Jacobians of modular curves.)
 
-We first specialize to  $X_{0}(qM)$  the description of  $\Phi$  given in §2. Let A be the free abelian group on the set S of supersingular points of  $X_{0}(M)_{\mathbf{F}_{q}}$  and let  $X \subset A$  be the subgroup of A consisting of elements of degree 0. Thus X is the character group of the torus T associated with  $X_{0}(qM)_{\mathbf{F}_{q}}$ . Note that S is the set of isomorphism classes of pairs  $\mathbf{E} = (E, B)$ , where E is a supersingular elliptic curve over  $\bar{F}_{q}$  and B is a cyclic subgroup of E of order M. (Thus E is an “enhanced elliptic curve” in the jargon introduced above.) For each  $i \in S$ , we define  $e(i)$  as above; the  $e(i)$  furnish a diagonal pairing on A. We let
+We first specialize to  $X_{0}(qM)$  the description of  $\Phi$  given in §2. Let $\Lambda$ be the free abelian group on the set $\mathcal{S}$ of supersingular points of  $X_{0}(M)_{\mathbf{F}_{q}}$  and let  $X \subset \Lambda$  be the subgroup of $\Lambda$ consisting of elements of degree 0. Thus X is the character group of the torus T associated with  $X_{0}(qM)_{\mathbf{F}_{q}}$ . Note that $\mathcal{S}$ is the set of isomorphism classes of pairs  $\mathbf{E} = (E, B)$ , where E is a supersingular elliptic curve over  $\bar{F}_{q}$  and B is a cyclic subgroup of E of order M. (Thus E is an “enhanced elliptic curve” in the jargon introduced above.) For each  $i \in \mathcal{S}$ , we define  $e(i)$  as above; the  $e(i)$  furnish a diagonal pairing on $\Lambda$. We let
 
 $$
 \kappa \colon \Lambda \to \Lambda^ {*}
@@ -646,7 +646,7 @@ by restricting the pairing to $X$.
 The results of §2 (especially 2.3) provide us with an isomorphism
 
 $$
-\Phi \approx \operatorname{coker} (t).
+\Phi \approx \operatorname{coker} (\iota).
 $$
 
 In this model for $\Phi$, the action of $T_{n}$ on the target $X^{*} = \operatorname{Hom}(X, \mathbf{Z})$ of $\iota$ is the action $\operatorname{Hom}(T_{n}, \text{identity})$ induced by the standard action of $T_{n}$ on $X$ which we considered above. The action of $T_{n}$ on the source $X$ of $\iota$, however, is that induced by the transpose $\xi_{n} = w_{qM} T_{n} w_{qM}$ acting on $X$. This circumstance arises because the source
