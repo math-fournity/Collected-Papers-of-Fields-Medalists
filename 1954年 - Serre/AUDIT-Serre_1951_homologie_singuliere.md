@@ -51,3 +51,11 @@
   - **[已修复]** md 行 181 记号定义 "$C_{-}^{p}$ : ensemble des éléments de A^p dont le bord est dans A^{p−r}" 的下标误为减号。证据链：本行印刷自证 "dans A^{p−r}" 用斜体 r（p005_Cr.png）；p.5 该 C 下标字形退化呈短横（p005_Cr_left.png、p005_Cr_600.png），与同行 B_r 的清晰 r 不同；p.6 同一记号印刷清晰为 C_r^{p+r} = B_r^p 及包含链 C_∞ ⊃ C_r（p006_dCr_600.png、audit/p006.png）。据此判定 p.5 印刷字形为退化 r、mineru 误读为 "-"，Edit 修复为 "$C_{r}^{p}$"（本页 commit 内，diff 可溯）。
 - PASS± 项（不修）：目录 CHAPITRE V、CHAPITRE VI 两行缺 `##` 标题前缀（md 行 129/139；Ch.I–IV 均有），mineru 结构伪影，内容忠实，仅影响标题导航。
 - 备注：目录与正文其余文字、公式逐项吻合。
+
+## p.006（PDF p.6 / 印刷 p.429）
+- PNG：audit/p006.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p006_dCr_600.png、p006_Cinf_600.png、p006_Er_def_600.png、p006_kernel_600.png、p006_display_600.png、p006_display2_600.png（600dpi）
+- 核对：C_∞^p/B_∞^p 定义行；包含链 B_0 ⊂ B_1 ⊂ ⋯ ⊂ B_∞ ⊂ C_∞ ⊂ ⋯ ⊂ C_r ⊂ C_{r−1} ⊂ ⋯ ⊂ C_0 = A^p；d(C_r^{p+r}) = B_r^p；DÉFINITION DES E_r^p；E_r^p = C_r^p/(C_{r−1}^{p−1} + B_{r−1}^p)；d 诱导 d_r^p: E_r^p → E_r^{p−r}；noyau (C_{r+1}^p + C_{r−1}^{p−1})/(C_{r−1}^{p−1} + B_{r−1}^p)；image (C_{r−1}^{p−1} + B_r^p)/(C_{r−1}^{p−1} + B_{r−1}^p)；d_r^p∘d_r^{p+r} = 0 与商 = E_{r+1}^p 展示式（两行）；Interprétation 段（E_r = ∑_p E_r^p、degré −r）；H(E_r) = E_{r+1} 链；Le terme E_0 段（E_0^p = A^p/A^{p−1}、d_0 段）
+- 结果：PASS
+- 仲裁记录：初读 150dpi 曾疑 MD 的 C_{r−1}^{p−1}（上标 p−1）为印刷 C_{r−1}^p 之误读；600dpi 三处裁剪（p006_Er_def_600.png、p006_kernel_600.png、p006_display2_600.png）确认印刷确为 **p−1**（E_r^p = C_r^p/(C_{r−1}^{p−1} + B_{r−1}^p)，展示式尾项 C_r^{p−1} + B_r^p），MD 与印刷逐字一致，无需修改。按数学直觉"改正"该上标反而是错的——print quirk 纪律的正面案例。
+- 差异：无。
+- 备注：本页公式密度最高，全部逐一核过；"Le terme E_1"起属印刷 p.430。
