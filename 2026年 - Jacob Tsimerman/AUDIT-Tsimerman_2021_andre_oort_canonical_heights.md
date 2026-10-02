@@ -423,3 +423,12 @@
 - 核对：Proposition A.10 证明中的 sections 与有限平坦 structural morphism；§A.2 Definition A.11、periodicity definition、restricted Higgs-de Rham correspondence (A.2.1)。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：式 (A.1.1) 的 sections `[(E_S^i,\nabla_S^i)]_{i\in I}` 从 `S` 到模空间的箭头在 Markdown 写成冒号；随后的 structural morphism `\mathcal M_{log-dR}(\bar X_{\tilde S}/\tilde S) → S` 也漏箭头。§A.2 中 geometric-point map `s:\operatorname{Spec}\bar k → S` 再次漏箭头；定义 `R_{dR}(s)` 时印刷为 nilpotent residues **of** level `≤p-1`，Markdown 写成 **or**。式 (A.2.1) 印刷有两条相反方向的 correspondence（上方 `C^{-1}` 向右、下方 `gr` 向左），Markdown 只保留单一向右箭头，并把 `gr` 挂在它下面。300dpi 裁片核实 sections、morphism 和两条流向。PASS± 拼写伪影：`Griffiths` 变成 `Grifiths`；“are jointly surjective” 另有 `r rare` 噪声。
+
+## p.048（PDF p.48 / 印刷 p.48）
+- 时间：2026-10-02 02:37:32 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p048.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmasA12-A14.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmaA15-A18.png`
+- 核对：Lemmas A.12–A.15 的 category equivalence、Ext/rigidity 及 injectivity arguments；Propositions A.16–A.17；§A.3 的 Witt-ring setup 与 Definition A.18 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Lemma A.12 的 `gr:R_{dR}(s) → R_{Dol}(s)` 漏箭头；Definition A.15 Artin–Rees family 中 `t:\mathbb A_s^1 → \mathbb A_s^1` 也漏箭头。Grothendieck-existence conclusion 的 `\operatorname{Spec}\bar k[[t]]` 被缩成 `\operatorname{Spec}\bar k t`，丢失 formal power series ring；Proposition A.17 的 `\sigma^{f'}` 多出 degree-circle 标记。Definition A.18 前 §A.3 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 再次漏箭头，且 Lemma A.13 的 target category `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。两张 300dpi 裁片核实箭头、环和 category 字形。PASS± 拼写/粘连噪声：`Grifiths-transverse` 被粘成 `Grifithstransverse`。
