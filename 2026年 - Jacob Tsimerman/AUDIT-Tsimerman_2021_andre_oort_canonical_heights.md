@@ -217,3 +217,12 @@
 - 核对：§6.2 special points、Lemma 6.1、Proposition 6.2 的映射与群覆盖构造、Proposition 6.3 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：多处数学映射在 Markdown 中丢失箭头：第 897 行 `h : S → G`；第 911 行 `f : (G',X') → (G,X)`；第 913 行 `G' → G`；第 919 行 `G^s → G^{der}` 与 `μ : S → G`；第 923 行 `((G_2,X_2) → (G_0,X_0))`。300dpi 裁片显示这些箭头在印刷页均清楚存在，关系语义因此无法由 Markdown 原文完整恢复。
+
+## p.025（PDF p.25 / 印刷 p.25）
+- 时间：2026-10-02 00:22:11 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p025.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p025_principal-bundle-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p025_Rational-representation-maps.png`
+- 核对：§6.4 principal bundle 的商类映射与作用、§6.5 automorphic vector bundles、§6.6 Betti/étale local systems 及 Proposition 6.4。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 949 行把 étale local system 的标签写成 `\Pi_{et}`，随后又把同一标签写成 `\Omega_{et}`；第 953 行把 Betti local system `{}_B V_{\mathbb Q}`误录成 `\Sigma_B V_{\mathbb Q}`。300dpi 文本裁片确认来源仅为下标 `et` 与 `B`，无 Π、Ω、Σ 这些额外符号。PASS± 瑕疵：principal-bundle 第二个 quotient representative 在 Markdown 用 ceiling brackets `\lceil\rceil`，印刷为 square brackets `[ ]`；其两个映射箭头和对象相符。
