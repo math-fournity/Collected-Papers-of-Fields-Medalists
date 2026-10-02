@@ -535,3 +535,10 @@
 - 证据：源 PDF p.074 文本层、页图 `audit/Hironaka_1964_resolution_partI_p074.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p074_localization_and_diagram.png` 与 MinerU Markdown 第 1403–1439 行。局部化同构的印刷下标为 `I A_P`，即 `\operatorname{gr}_{I A_P}(A_P)`；Markdown 第 1415 行压成 `\operatorname{gr}_{\mathrm{IAP}}(A_P)`，丢失了 A 的 P 下标分组。交换图底行印刷的子模包含映射 `I^{m+1}M \to I^m M` 为单向箭头，Markdown 第 1438 行写成 `\longleftrightarrow` 双向箭头。gr_I(A)/gr_I(M) 定义、有限型模块引理及图中其余对象与映射均已对照。
 - 备注：印刷运行页眉和页码 181 未录入 Markdown，属导航元素省略。
 - 结论：局部化下标结构丢失，且底行包含映射方向被改为双向，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.075 / 96（印刷 p.182）— FAIL
+
+- 时间：2026-10-02 04:48 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.075 文本层、页图 `audit/Hironaka_1964_resolution_partI_p075.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p075_gr_I_module_formulas.png`，并比对 MinerU Markdown 第 1441–1469 行。印刷的 `\mathrm{gr}_{I}` 下标为罗马大写 I；Markdown 第 1441 行一次、第 1463 行四次共 5 处写成数字下标 `1`（如 `\mathrm{gr}_{1}(A)`、`\operatorname{gr}_{1}^{0}(M)`）。Lemma 2 的等价条件、canonical homomorphism、graded-module corollary 和直接和论证的其余陈述/公式对应原页。
+- 备注：印刷运行页眉和页码 182 未录入 Markdown，属导航元素省略。
+- 结论：5 处 graded algebra/module 标识将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
