@@ -247,3 +247,10 @@
 - 证据：源 PDF p.033 文本层、页图 `audit/Hironaka_1964_resolution_partI_p033.png`（pngmono 150dpi）与 MinerU Markdown 第 515、517–535 行。Question (E) 的三项条件、proper rational application 与 graph projection 说明、trivialization 段落及脚注 22 对应印刷页；图像确认文本层显示的 `propar` 是提取失真，印刷实际拼作 `proper`，Markdown 保留正确印字。
 - 备注：印刷运行页眉和页码 140 未录入 Markdown，属导航元素省略。
 - 结论：未发现 Markdown 内容差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.034 / 96（印刷 p.141）— FAIL
+
+- 时间：2026-10-02 01:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.034 文本层、页图 `audit/Hironaka_1964_resolution_partI_p034.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p034_ideal_indices.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p034_normal_crossings.png` 与 MinerU Markdown 第 539、545 行。性质 (*) 原文条件中残余理想的点 index 写为 `J'_{i,x}=O_{X',x}`；Markdown 写成 `J_{ix}'`，丢失 i 与 x 之间的逗号。normal-crossings 定义里的 `O_{x,x}` 参数环与原页相符。
+- 备注：印刷运行页眉和页码 141 未录入 Markdown，属导航元素省略。
+- 结论：局部理想 index 分隔符误录，列为 FAIL；待全篇审计完成后逐处修复。
