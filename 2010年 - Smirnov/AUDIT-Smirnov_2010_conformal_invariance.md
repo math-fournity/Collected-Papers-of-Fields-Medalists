@@ -171,3 +171,9 @@
 - 核对：§4.1 Preharmonic functions、§4.1.1 Definition and connection with random walks——Laplacian Δ ∶= ¼(∂²_{xx} + ∂²_{yy})、Δ_δ f(u) = ¼ Σ_{v∼u}(f(v) − f(u))；Definition 4.1——preharmonic (resp. pre-superharmonic, pre-subharmonic) 若 Δ_δh(x) = 0 (resp. ≤ 0, ≥ 0)；斜体随机游走刻画（(h(X_n)) is a martingale ⟺ preharmonic）；[Law91]、复向量空间与最大最小值原理段；§4.1.2 Derivative estimates and compactness criteria；Proposition 4.2——公式 (4.1) ∣h(x) − h(y)∣ ≤ Cδ · sup_{z∈Ω_δ}∣h(z)∣ / d(x,Ω^c)；Proof——公式 (4.2) h(x) − h(y) = E[h(X_τ) − h(Y_{τ′})]、2r = d(x,Ω^c)、U = x + [−r,r]²、X/Y coupling 两条 bullet（σ 为 [X_1,y] 垂直平分线 ℓ 的 orthogonal symmetry）；页脚印刷页码 25。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：垂直平分线记号在 PNG 中为花体 ℓ，文本层映射为反引号 `，属字体映射伪影；¼ 分数与 ∂² 上下标 PNG 印刷清晰。
+
+## p.026（PDF p.26 / 印刷 p.26）
+- PNG：audit/p026.png（pngmono 150dpi）；疑难字形仲裁件 audit/p026_item2_300dpi.png / audit/p026_item2_crop300.png（300dpi 裁切）
+- 核对：Proposition 4.2 Proof 收尾——∣h(x)−h(y)∣ ≤ E[∣h(X_τ)−h(Y_{τ′})∣1_{X_τ≠Y_{τ′}}] ≤ 2(sup_{z∈∂U_δ}∣h(z)∣)P(X_τ≠Y_{τ′})、touch ℓ before exiting 概率 ≤ (C′/r)δ、两层 sup 递推（◻）；Proposition 4.3——(h_δ)_{δ>0} precompact 两条件：(1) 任意紧子集一致有界，or (2) 对任意紧 K 存在 M=M(K)>0 使 δ² Σ_{x∈K_δ}∣h_δ(x)∣² ≤ M；Proof——Arzelà-Ascoli、uniformly Lipschitz、C_K = C·sup_{δ>0}sup_{x∈Ω:d(x,K)≤r/2}∣h_δ(x)∣ / d(K,Ω^c)、∣h_δ(x)−h_δ(y)∣ ≤ 2C_K∣x−y∣；第二条件⟹第一条件段——2r = d(K,Ω^c)、(2δ/r) ≤ k ≤ (r/δ)、公式 (4.3) δ Σ_{y∈∂U_{k_δ}}∣h_δ(y)∣² ≤ 2M/r、U_{k_δ} = x + [−δk,δk]²、公式 (4.4) h_δ(x) = Σ_{y∈∂U_{k_δ}} h_δ(y)H_{U_{k_δ}}(x,y)；页脚印刷页码 26。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：疑难字形仲裁——150dpi PNG 中 Proposition 4.3 条件 (2) 的数字疑似带圈 "②"，经 300dpi 裁切（audit/p026_item2_crop300.png）确认为数学斜体 "(2)"，属字体式样而非 print quirk。ℓ 花体、1_{X_τ≠Y_{τ′}} 下标堆叠为对账重点。
