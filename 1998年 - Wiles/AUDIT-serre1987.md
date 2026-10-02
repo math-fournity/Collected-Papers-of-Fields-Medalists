@@ -216,3 +216,11 @@
 - 结果：PASS。文字、公式与表格逐项吻合。
 - 印刷原文 quirk：(b₂) 段印刷作 “E_p est extension de Z/pZ par μ_p”（300 dpi 裁片确认 p 系下标），但该处 Frobenius 特征值 “1 et 3” 在数学上对应 3-division——疑为原文笔误，print 原文优先，Markdown 同作 E_p/Z/pZ/μ_p 忠实保留。
 - 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① (b₁) 印刷确为 “ABC ≠ 0 (mod 3)”（单斜杠）；② (b₂) 确为 p 系下标（见上）；③ 表格 L=59 列印刷确为 “−1, −1, 2, 2”，Markdown 表格逐格一致。LEMME 1 (b)(c) 的法语动词 a 在 Markdown 入数学环境（“On $a$…”），同 p.009 quirk，排版级；“2 3” 数字空格排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 203” 未收入 Markdown，排版级。印刷页止于 A₃ 数值表，“L = 11 ne figure pas…” 句属印刷 p.204。
+
+## p.026（PDF p.26 / 印刷 p.204）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p026.png`（pngmono，150 dpi）。
+- 核对：(L = 11) 括注、th. 2 证明收尾（L = 23：±2 ou ±6 ≡ 4 mod p、p ⩾ 7；L ≠ 23：0 ou ±4 ≡ ±1, ±2 ou ±3 mod p、p ⩾ 11）、Remarques (1)（p = L 时 k = p + 1、N = 2、(3.2.4?)）、(2)（p = 5/7、Dénes [12]）、(3)（L = 31 Mersenne、ρ_p^E、F = q + q² + q⁴ − 2q⁵ + q⁸ + … niveau 62、a⁵ + b⁵ + 31c⁵ = 0 解 (1, −2, 1)、y² = x(x+1)(x−32)、courbe de Weil）、15c^p 与 3b^p + 5c^p 方程（N = 30）、(4) Mazur 结果开头（L 非 Fermat 非 Mersenne、2^n ± 1 跨页）。
+- 结果：FAIL。一处已依原图修复：Mazur 结果的引用 Markdown 写成 “(3.3.1$_{2}$)”（下标 2），印刷为 (3.3.1_?)（问号下标，同 p.196 quirk），修为 (3.3.1$_{?}$)。
+- 备注：本段引用 Markdown 用 $_{?}$ 下标形式、他处用平排 “(3.2.4?)”，形式不一但语义同为问号下标，排版级；“Mersenne–cf.” 印刷为 en-dash 连接，Markdown 用连字符，排版级；“1 5 c^p” 数字空格排版级；页眉 “204 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…ne peut pas s'écrire sous la forme”，“2^n ± 1)” 句属印刷 p.205。

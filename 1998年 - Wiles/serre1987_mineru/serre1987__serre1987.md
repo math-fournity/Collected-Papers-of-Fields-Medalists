@@ -1138,7 +1138,7 @@ pour lesquelles le conducteur N est égal à 30.
 
 (4) Si l'on fixe L, on peut se demander ce qui se passe pour p assez grand. Dans cette direction, Mazur m'a signalé le résultat suivant:
 
-Admettons (3.3.1$_{2}$). Soit $L$ un nombre premier $\neq 2$ qui ne soit ni un nombre de Fermat ni un nombre de Mersenne (i.e. $L$ ne peut pas s'écrire sous la forme
+Admettons (3.3.1$_{?}$). Soit $L$ un nombre premier $\neq 2$ qui ne soit ni un nombre de Fermat ni un nombre de Mersenne (i.e. $L$ ne peut pas s'écrire sous la forme
 
 $2^{n} \pm 1)$. Il existe alors une constante $C_{L}$ telle que, si $p \geqslant C_{L}$ et $\alpha \geqslant 0$, l'équation
 
