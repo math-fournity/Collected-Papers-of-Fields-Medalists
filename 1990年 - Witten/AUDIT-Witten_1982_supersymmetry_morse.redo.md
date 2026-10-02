@@ -126,3 +126,8 @@
 - PNG：`audit-redo/p023.png`（pngmono 150dpi）；(46) 字形终裁：`audit-redo/300dpi/p023_formula46.png`（300dpi 裁片）。
 - 核对：twisted signature complex 与 [4]/[20] 引段；(46) `Q_{1s}, Q_{2s}, H_s, P = 2is𝓛_K`；(47) `Q_1² = H + P` 等；`d_{s,t} = e^{−ht}d_s e^{ht}` 与 (48) 四行定义；非紧情形两段。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。(46)–(48) 各行、下标 `s,t` 结构及正文逐项与印刷页相符。**发现 Luna 漏检 1 处记号错误**：(46) 末行印刷 `P = 2is𝓛_K`（script，300dpi 裁片确认），md line 562 误作 `\mathcal {L} _ {K}`（此前 grep 用无空格模式漏检，本轮宽松模式补获）；已用结构化 Edit 修为 `\mathscr {L} _ {K}`（(48) 内同位置本就是 `\mathscr`）。print quirk：印刷原句 "A slight generalizations is possible"（原刊语法 quirk）被 md line 573 忠实保留。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 683" 未入 md（版面信息省略）。
+
+## p.024（PDF p.24 / 印刷 p.684）
+- PNG：`audit-redo/p024.png`（pngmono 150dpi）
+- 核对：N 非紧段（`(dh)^2` 有界条件）；`d_t = e^{−ht}de^{ht}`、`H_t = d_t d_t* + d_t* d_t` 谱重合段；§4 标题；Ω(B; S) 与内积 `(δσ, δτ) = ∫dx⟨δσ(x), δτ(x)⟩` 段；loop space de Rham 局限段。
+- 结果：PASS±。正文与小节标题顺序逐项与印刷页相符；`Tr(−1)^F`、`V = V₊ ⊕ V₋`、`L → ∞` 一致；跨页断点一致（line 603 末 "Indeed, the group"）。差异仅：页眉 "684 EDWARD WITTEN" 未入 md（版面信息省略）。
