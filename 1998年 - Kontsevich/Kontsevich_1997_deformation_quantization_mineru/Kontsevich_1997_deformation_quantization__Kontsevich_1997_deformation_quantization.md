@@ -1088,7 +1088,7 @@ Construction of the function Φ from the graph Γ, polyvector fields$\gamma _ { 
 
 ## 6.4. Main Theorem for$X = \mathbf { R } ^ { d }$, and the proof
 
-We define an$L _ { \infty }$-morphism :$T _ { p o l y } ( \mathbf { R } ^ { d } ) \longrightarrow D _ { p o l y } ( \mathbf { R } ^ { d } )$by the formula for its n-th derivative$\textstyle { \mathcal { U } } _ { n } , \ n \geq 1$ considered as a skew-symmetric polylinear map (see 4.2) from$\otimes ^ { n } T _ { p o l y } ( \mathbf { R } ^ { d } )$to$D _ { p o l y } ( { \mathbf R } ^ { d } ) [ 1 - n ]$
+We define an$L _ { \infty }$-morphism$\mathcal { U }$ :$T _ { p o l y } ( \mathbf { R } ^ { d } ) \longrightarrow D _ { p o l y } ( \mathbf { R } ^ { d } )$by the formula for its n-th derivative$\textstyle { \mathcal { U } } _ { n } , \ n \geq 1$ considered as a skew-symmetric polylinear map (see 4.2) from$\otimes ^ { n } T _ { p o l y } ( \mathbf { R } ^ { d } )$to$D _ { p o l y } ( { \mathbf R } ^ { d } ) [ 1 - n ]$
 
 $$
 \mathcal {U} _ {n} = \sum_ {m \geq 0} \sum_ {\Gamma \in G _ {n, m}} W _ {\Gamma} \times \mathcal {U} _ {\Gamma}.
@@ -1096,11 +1096,11 @@ $$
 
 Here$G _ { n , m }$denotes the set of all admissible graphs with n vertices of the first type, m vertices in the second group and$2 n + m - 2$edges, where$n \geq 1 , m \geq 0$(and automatically$2 n + m - 2 \geq 0 )$
 
-Theorem. is an$L _ { \infty } – m o r p h i s m ,$, and also a quasi-isomorphism.
+Theorem.$\mathcal { U }$is an$L _ { \infty }$-morphism, and also a quasi-isomorphism.
 
-Proof: first of all, we should check that$\mathcal { U } _ { n }$is skew-symmetric, i.e. that is a pre-$L _ { \infty }$-morphism. For this see subsection 6.5.
+Proof: first of all, we should check that$\mathcal { U } _ { n }$is skew-symmetric, i.e. that$\mathcal { U }$ is a pre-$L _ { \infty }$-morphism. For this see subsection 6.5.
 
-The condition that is an$L _ { \infty }$-morhism (see 4.3 and 3.4.2) can be written explicitly as
+The condition that$\mathcal { U }$ is an$L _ { \infty }$-morhism (see 4.3 and 3.4.2) can be written explicitly as
 
 $$
 f _ {1} \cdot (\mathcal {U} _ {n} (\gamma_ {1} \wedge \dots \wedge \gamma_ {n})) (f _ {2} \otimes \dots \otimes f _ {m}) \pm (\mathcal {U} _ {n} (\gamma_ {1} \wedge \dots \wedge \gamma_ {n})) (f _ {1} \otimes \dots \otimes f _ {m - 1}) \cdot f _ {m} +
@@ -1110,9 +1110,9 @@ $$
 \begin{array}{l} + \sum_ {i = 1} ^ {m - 1} \pm (\mathcal {U} _ {n} (\gamma_ {1} \wedge \ldots \wedge \gamma_ {n})) (f _ {1} \otimes \ldots \otimes (f _ {i} f _ {i + 1}) \otimes \ldots \otimes f _ {m}) + \\ + \sum_ {i \neq j} \pm (\mathcal {U} _ {n - 1} ([ \gamma_ {i}, \gamma_ {j} ] \wedge \gamma_ {1} \wedge \ldots \wedge \gamma_ {n})) (f _ {1} \otimes \ldots \otimes f _ {m}) + \\ + \frac {1}{2} \sum_ {k, l \geq 1, k + l = n} \frac {1}{k ! l !} \sum_ {\sigma \in \Sigma_ {n}} \pm [ \mathcal {U} _ {k} (\gamma_ {\sigma_ {1}} \wedge \ldots \wedge \gamma_ {\sigma_ {k}}), \mathcal {U} _ {l} (\gamma_ {\sigma_ {k + 1}} \wedge \ldots \wedge \gamma_ {\sigma_ {n}}) ] (f _ {1} \otimes \ldots \otimes f _ {m}) = 0. \end{array}
 $$
 
-Here$\gamma _ { i }$are polyvector fields,$f _ { i }$are functions,$\mathcal { U } _ { n }$are homogeneous components of  (see 4.1). There is a way to rewrite this formula. Namely, we define$\mathcal { U } _ { 0 }$as the map$\bigotimes ^ { 0 } ( T _ { p o l y } ( { \mathbf { R } } ^ { d } ) ) \longrightarrow D _ { p o l y } ( { \mathbf { R } } ^ { d } ) [ 1 ]$which maps the generator 1 of${ \bf R } \simeq \otimes ^ { 0 } ( T _ { p o l y } ( { \bf R } ^ { d } ) )$to the product$m _ { A } \in D _ { p o l y } ^ { 1 } ( \mathbf { R } ^ { d } )$in the algebra$A : = C ^ { \infty } ( \mathbf { R } ^ { d } )$. Here $m _ { A } : f _ { 1 } \otimes f _ { 2 } \mapsto f _ { 1 } f _ { 2 }$is considered as a bidiferential operator.
+Here$\gamma _ { i }$are polyvector fields,$f _ { i }$are functions,$\mathcal { U } _ { n }$are homogeneous components of$\mathcal { U }$ (see 4.1). There is a way to rewrite this formula. Namely, we define$\mathcal { U } _ { 0 }$as the map$\bigotimes ^ { 0 } ( T _ { p o l y } ( { \mathbf { R } } ^ { d } ) ) \longrightarrow D _ { p o l y } ( { \mathbf { R } } ^ { d } ) [ 1 ]$which maps the generator 1 of${ \bf R } \simeq \otimes ^ { 0 } ( T _ { p o l y } ( { \bf R } ^ { d } ) )$to the product$m _ { A } \in D _ { p o l y } ^ { 1 } ( \mathbf { R } ^ { d } )$in the algebra$A : = C ^ { \infty } ( \mathbf { R } ^ { d } )$. Here $m _ { A } : f _ { 1 } \otimes f _ { 2 } \mapsto f _ { 1 } f _ { 2 }$is considered as a bidiferential operator.
 
-The condition from above for  to be an$L _ { \infty }$-morphism is equivalent to the following one:
+The condition from above for$\mathcal { U }$ to be an$L _ { \infty }$-morphism is equivalent to the following one:
 
 $$
 \sum_ {i \neq j} \pm \left(\mathcal {U} _ {n - 1} ((\gamma_ {i} \bullet \gamma_ {j}) \wedge \gamma_ {1} \wedge \dots \wedge \gamma_ {n})\right) (f _ {1} \otimes \dots \otimes f _ {m}) +
@@ -1122,11 +1122,11 @@ $$
 + \sum_ {k, l \geq 0, k + l = n} \frac {1}{k ! l !} \sum_ {\sigma \in \Sigma_ {n}} \pm \left(\mathcal {U} _ {k} (\gamma_ {\sigma_ {1}} \wedge \ldots \wedge \gamma_ {\sigma_ {k}}) \circ \mathcal {U} _ {l} (\gamma_ {\sigma_ {k + 1}} \wedge \ldots \wedge \gamma_ {\sigma_ {n}})\right) (f _ {1} \otimes \ldots \otimes f _ {m}) = 0.
 $$
 
-Here we use definitions of brackets in$D _ { p o l y }$and$T _ { p o l y }$via operations  (see 3.4.2) and  (see 4.6.1). We denote the l.h.s. of the expression above as (F).
+Here we use definitions of brackets in$D _ { p o l y }$and$T _ { p o l y }$via operations$\circ$ (see 3.4.2) and$\bullet$ (see 4.6.1). We denote the l.h.s. of the expression above as (F).
 
-$\mathcal { U } + \mathcal { U } _ { \mathrm { 0 } }$is not a pre-$L _ { \infty } .$-morphism because it maps 0 to a non-zero point$m _ { A }$. Still the equation$( F ) = 0$ makes sense and means that the map$( \mathcal { U } + \mathcal { U } _ { 0 } )$from formal Q-manifold$T _ { p o l y } ( { \mathbf { R } } ^ { d } ) [ 1 ] ) _ { f o r m a l }$to the formal neighborhood of point$m _ { A }$in super vector space$D _ { p o l y } ( \mathbf { R } ^ { d } ) [ 1 ]$is Q-equivariant, where the odd vector field$Q$ on the target is purely quadratic and comes from the bracket on$D _ { p o l y } ( \mathbf { R } ^ { d } )$, forgetting the diferential.
+$\mathcal { U } + \mathcal { U } _ { \mathrm { 0 } }$is not a pre-$L _ { \infty }$-morphism because it maps 0 to a non-zero point$m _ { A }$. Still the equation$( F ) = 0$ makes sense and means that the map$( \mathcal { U } + \mathcal { U } _ { 0 } )$from formal Q-manifold$T _ { p o l y } ( { \mathbf { R } } ^ { d } ) [ 1 ] _ { f o r m a l }$to the formal neighborhood of point$m _ { A }$in super vector space$D _ { p o l y } ( \mathbf { R } ^ { d } ) [ 1 ]$is Q-equivariant, where the odd vector field$Q$ on the target is purely quadratic and comes from the bracket on$D _ { p o l y } ( \mathbf { R } ^ { d } )$, forgetting the diferential.
 
-Also, the term$\mathcal { U } _ { \mathrm { 0 } }$comes from the unique graph$\Gamma _ { 0 }$which was missing in the definition of . Namely, $\Gamma _ { 0 }$has$n = 0$vertices of the first type, m = 2 vertices of the second$\mathrm { t y p e }$, and no edges at all. It is easy to see that$W _ { \Gamma _ { 0 } } = 1$and$\mathcal { U } _ { \Gamma _ { 0 } } = \mathcal { U } _ { 0 }$
+Also, the term$\mathcal { U } _ { \mathrm { 0 } }$comes from the unique graph$\Gamma _ { 0 }$which was missing in the definition of$\mathcal { U }$. Namely, $\Gamma _ { 0 }$has$n = 0$vertices of the first type, m = 2 vertices of the second$\mathrm { t y p e }$, and no edges at all. It is easy to see that$W _ { \Gamma _ { 0 } } = 1$and$\mathcal { U } _ { \Gamma _ { 0 } } = \mathcal { U } _ { 0 }$
 
 We consider the expression$( F )$simultaneously for all possible dimensions d. It is clear that one can write (F) as a linear combination
 
