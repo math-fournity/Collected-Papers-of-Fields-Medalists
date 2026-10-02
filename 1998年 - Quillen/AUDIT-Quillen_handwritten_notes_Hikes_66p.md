@@ -606,6 +606,17 @@
 - 核对：球面维数下乘法的结合/交换性质；交换环上的 graded-anticommutative `K_*A`；Atiyah λ-ring 的生成级数、加法乘法恒等式与 Adams operations 起始公式。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图第 2037 行明确为 `K_*A` graded anticommutative ring，基线写成 `K_x A` 与 `king`。Atiyah 生成级数是 `\lambda_t(x)=1+\lambda^1(x)t+\lambda^2(x)t^2+\cdots∈K(X)[[t]]`；基线第 2056 行末尾把 `K(X)` 误成 `eK(X)`。原图 λ-ring 公理为 `\lambda_t(x+y)=\lambda_t(x)\lambda_t(y)`，基线第 2059 行将乘法改成逗号；第 2067 行的复合恒等式以 `P_{k,\ell}` 记多项式，基线输出为 `P_{13,k}`。对线丛，原图是 `\lambda_t(L)=1+tL`、`\lambda_{-t}(L)=1-tL` 及 `\ln(1/(1-tL))=tL+t^2L^2/2+t^3L^3/3+…`；基线第 2085 行丢失 `-t` 下标，第 2093 行把三次项分母 3 写成 5。Adams operations 的后续幂和式仍有符号/分数丢失，待结合下一页边界核对。
-- 页面边界待续核：原图 p.57 的可见末段为线丛的 `λ`-级数与对数展开；Markdown 第 2097 行起的 reciprocal、导数和 Adams 幂和式待 p.58 图像确认是否跨页。
+- 页面边界核对：原图 p.57 止于线丛的 `λ`-级数与 `\ln(1/(1-tL))` 展开；p.58 从 `ψ^k(L)=L^k` 续入 reciprocal、导数与 Adams 幂和式。Markdown 第 2097–2116 行对应 p.58。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_*A`、λ-ring 乘法/复合公理及 Adams 线丛展开。
 - 记录：2026-10-02 04:52:19 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.058（PDF p.58 / 纸面圈号 58）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p058.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p058_adams-identities.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p058_eigenspaces.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p058_lambda-ring.png`。
+- 核对：线丛的 Adams 操作与幂和生成式；Adams operations 的加法、乘法、复合恒等式；`\widetilde K(X,A)⊗\mathbb Q` 的 Adams eigenspace 分解；交换环表示环的 λ-ring 结构与首两条 λ-公理。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图本页起始为 `ψ^k(L)=L^k` 并继续给出 `-\ln(λ_{-t}(L))` 与 `t\frac d{dt}(1/λ_{-t}(L))` 的展开；基线第 2104 行把 `λ_{-t}` 写成 `λ_t`，改动了该式的符号约定。Adams 幂和生成式为 `\sum_{k≥1}t^kψ^k(x)=t\frac d{dt}\ln(1/λ_{-t}(x))`，基线第 2107 行把右侧分子 `1` 识成 `i`。原图第 2112 行的加法恒等式是 `ψ^k(x+y)=ψ^k(x)+ψ^k(y)`，基线出现 `ψ^{-h}y`；第 2116 行复合为 `ψ^kψ^\ell(x)=ψ^{k\ell}(x)`，基线将上标和符号错排。后续定理的对象是 `\widetilde K(X,A)` 并给出有理 Adams eigenspaces `V_n`；基线第 2118–2122 行混成 `\widetilde H`、`H^{2n}` 及错置本体。第 2128–2139 行的 λ-ring 生成式应为 `λ_t(x)=\sum_{k≥0}λ^k(x)t^k`、`λ_t(x+y)=λ_t(x)λ_t(y)`、`λ_t(0)=1` 和 `λ^k(xy)=P_k(...)`；基线把生成级数写成 `t_k^k`，并损坏 `P_k` 下标及两个自变量族。右侧手写日期 `10.23.74` 未录入。
+- 页面边界：本页末尾是表示环 λ-ring 公理的乘积公式 `λ^k(xy)=P_k(...)`；Markdown 第 2142 行起的 symmetric-polynomial 计算 procedure 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 Adams 幂和式、eigenspace 对象、λ-series 与 λ-ring 公理。
+- 记录：2026-10-02 04:59:23 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
