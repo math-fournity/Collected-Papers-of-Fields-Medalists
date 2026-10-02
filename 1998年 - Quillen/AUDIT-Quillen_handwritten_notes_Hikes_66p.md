@@ -496,6 +496,17 @@
 - 核对：`S^n` 情形下 acyclic pullback diagram 与表示同态；Jordan–Hölder 同构表示的推论及 converse 问题；`Rep(G,A)` 按投射模同构类的分解；`R(G,A)`、`R'(G,A)` 的 Grothendieck 群关系及 forget-action 映射。
 - 结果：**FAIL**。
 - 印刷证据与差异：本页原图从 “Trouble” 和 `S^n` 图开始；`page_46_image_1.jpg` 与图中的 `X^n→X',X''→S^n` 拉回图吻合。原图第 1713 行所问的是两个同态 `π_1Y→GL_n(A)` 是否诱导同一 `[X,BGL(A)^+]` 映射，基线写成 `π,Y→GL_N`。Jordan–Hölder 推论原式为表示的短正合列 `0→E'→E→E''→0` 蕴含 `[E]=[E'⊕E'']`；基线第 1715 行把 `E''` 重复成 `E'`，并损坏目标空间。`Rep(G,A)=\coprod_{s∈S}Hom(G,Aut(P_s))_{Aut(P_s)}` 中，原图的 `S=Iso(\mathcal P_A)` 与代表 `P_s` 被基线第 1719 行压成 `1/s`、`Ant(Ps)` 等碎片。原图区分由短正合列关系定义的 `R(G,A)` 与以直和关系定义的 `R_\oplus(G,A)`/`R'(G,A)`；基线第 1721–1725 行将两种 Grothendieck 记号和关系严重拼坏。原图 forget-action 映射 `R'(G,A)→R'(e,A)=K_0A` 在第 1732 行被写成 `H_0A` 且映射标签不可读。
-- 页面边界：原图 p.47 页尾止于 forget-action 映射到 `K_0A`；Markdown 第 1735 行 “Gives splitting” 起的 `R'(G,A)=K_0A⊕\widetilde R'` 属于下一页，待 p.48 核对。
+- 页面边界核对：p.47 页尾的 forget-action 映射到 `R'(e,A)=K_0A`；p.48 原图确实从 `R'(G,A)=K_0A⊕\widetilde R'(G,A)` 与 `R(G,A)=K_0A⊕\widetilde R(G,A)` 两个 splitting 开始，对应 Markdown 第 1735–1744 行。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `π_1Y`、Jordan–Hölder 短正合列、表示分解索引与 Grothendieck 关系。
 - 记录：2026-10-02 03:58:02 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.048（PDF p.48 / 纸面圈号 48）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p048.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p048_representation-ring.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p048_H-space-inverse.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p048_universal-property.png`。
+- 核对：`R'(G,A)` 与 `R(G,A)` 的 `K_0A` 分裂；表示到 `[BG,BGL(A)^+]` 的映射及其基本性质；连通 H-space 的同伦逆；商表示环的 universal property、`X→Bπ_1X` 与有限复形上的自然变换结论。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图的两个分裂式均以 `K_0A` 为直和项，基线第 1744 行把 `R(G,A)` 的项误成 `H_0A`。表示映射及性质列表在基线第 1757 行被拼成一行，损坏了 trivial representation、短正合列条件和对应的 `E'`,`E''` 类关系。连通 H-space 的同伦逆证明，原图使用 `g:M×M→M×M` 的乘法构造、两个投影及长正合列；基线第 1762–1770 行丢失乘法映射并将 `g_*:[X,M]×[X,M]→[X,M]` 的群逆构造压成含混表达。原图 universal property 取商 `R(G,A)/K_0A`，基线第 1776 行误成 `/π_0A`。第 1780 行 canonical map 的目标是 `Bπ_1(X)`，基线写成 `Bπ_i(X)`；第 1784 行的 `\bar R(π_1X,A)→[Bπ_1X,BGL(A)^+]→[X,BGL(A)^+]` 三段映射及域/陪域被压坏。第 1787 行“`π_1Z` 无非平凡 perfect 子群”与自然变换延拓条件被损坏，第 1795 行的表示群是 `π_1X` 而非 `πX`。
+- 页面边界待续核：p.48 页尾引入 finite pointed connected complexes 的 theorem；Markdown 第 1797 行起的标题与第 1799 行类别限定，待 p.49 原图核实题头和定义的跨页分配。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_0A` 分裂、H-space 逆证明、商环与 `π_1`-索引映射。
+- 记录：2026-10-02 04:04:06 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
