@@ -633,3 +633,10 @@
 - 证据：源 PDF p.088 文本层、页图 `audit/Hironaka_1964_resolution_partI_p088.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p088_theorem2_Osymbols.png` 与 MinerU Markdown 第 1867–1903 行。定理 2 (i) 的 $\mathrm{gr}_{P}(O)$/$O/P$ 中两个 O、第 1874 行 $\psi'$ 式中四个 O、第 1888 行 $\varphi$ 式中四个 O，以及第 1896 行直和同构中的四个 O，共 14 处都被写成数字 0。命题条件 (ii)–(iv)、(i)–(iv) 间的等价推导、direct-sum argument 与脚注 42 正文均对应原页。
 - 备注：印刷运行页眉和页码 195 未录入 Markdown，属导航元素省略。
 - 结论：14 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.089 / 96（印刷 p.196）— FAIL
+
+- 时间：2026-10-02 05:43 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.089 文本层、页图 `audit/Hironaka_1964_resolution_partI_p089.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p089_corollary1_O.png` 与 MinerU Markdown 第 1906–1920 行。大交换图两列 graded modules 的关系、$\delta/\varepsilon$ 论证及 Theorem 2 proof 均与印刷页对应。但 Corollary 1 条件 (i) 印刷为 $\operatorname{gr}_{P}(O)$ flat over $O/P$，Markdown 第 1919 行两处均将大写环符号 O 录成数字 0。
+- 备注：印刷运行页眉和页码 196 未录入 Markdown，属导航元素省略。
+- 结论：2 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
