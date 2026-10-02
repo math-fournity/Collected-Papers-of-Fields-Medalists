@@ -40,7 +40,7 @@
 - 结果：**PASS±**（含一处记号修复）。
   - Lemma 2 斜体陈述、`n(Q)\leqslant\operatorname{rank}(Q)`（印刷斜 slanted ⩽，md `\leqslant` 正确）、split 两式、`Q|_{\alpha^\perp}`、`\operatorname{rank}(Q)\leqslant n(Q).\sigma(\mathbf{CP}^2)=n(Q)` 全部与页图一致。
   - 节标题、引论句、`P\downarrow X`、`A-B\in\Omega^1(\mathfrak{g})`、`d_A\colon\Omega^p(V)\to\Omega^{p+1}(V)`、伴随与协变导数行均吻合；跨页句 "The curvature F(A) of any | connection…" 断点与 md 一致。
-  - **修复**：md 行 95 "so Q is an affine space" 的普通 `Q` 与同段行 89/109 的 `$\mathcal{Q}$` 不一致；300dpi 裁片确认印刷两处同为草书 𝒬 → 已 Edit 改为 `so $\mathcal{Q}$ is an affine space`。
+  - **修复**：md 行 97（p.1 补题录前行号 95）"so Q is an affine space" 的普通 `Q` 与同段行 91/111 的 `$\mathcal{Q}$` 不一致；300dpi 裁片确认印刷两处同为草书 𝒬 → 已 Edit 改为 `so $\mathcal{Q}$ is an affine space`。
   - 排版级伪影（登记不改）：印刷斜体 *connections*、*signature*、Lemma 2 斜体陈述在 md 中为正体。
 - 修复登记：行 95 `Q`→`$\mathcal{Q}$`（依据 `audit-redo/p003.png` + 300dpi 两处草书 𝒬 裁片）。
 
@@ -86,3 +86,13 @@
   - **修复**：同一印刷花体字形，md 行 251 作 `$\mathcal{H}^2=\mathcal{H}^2_+\oplus\mathcal{H}^2_-$`，行 257 却作 `$\mathcal{K}^2_-(X)$`；300dpi 裁片确认两处为同一字形（字形本身 H/K 形难分，但语境为 harmonic forms 空间，且全文无其它 script-K 用法）→ 已 Edit 统一为 `\mathcal{H}`。行 277 的 `$\mathcal{K}^2_-(X)=0$` 属 p.8 内容，届时同规则修复。
   - 排版级伪影（登记不改）：印刷斜体 *moduli space* 等在 md 中为正体。
 - 修复登记：行 257 `$\mathcal{K}^2_-(X)$`→`$\mathcal{H}^2_-(X)$`（依据 `audit-redo/p007.png` + 300dpi 两处花体字形对比裁片）。
+
+### p.008（PDF p.8 / 印刷 p.286）
+
+- PNG：`audit-redo/p008.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（Ω²₋(𝔤) 两处、Sobolev 范数下标、𝔅=𝒬/𝔤 商空间行、𝔐 与 ℳ 两种 M 字形，结论记于本条）
+- 核对：Proposition 5 正文（δ(A₀) 判据、结论 (i)(ii)）；Taubes 应用段；U(1) 唯一性观察；节标题 II.1（含 $\mathfrak{B}$）；Sobolev 空间定义与范数示例式；widening 段；moduli space 定义与商空间、记号行
+- 结果：**PASS±**（含五处记号修复）。
+  - `\delta(A_0)=\|F_-(A_0)\|_{L^2}+\|F(A_0)\|_{L^4}\|F_-(A_0)\|_{L^{4/3}}<\varepsilon_0`、`(i)\ \|\nabla_{A_0}a\|_{L^2}\leqslant C.\delta(A_0)`、`(ii)\ \|a\|_{L^2}\leqslant C.\|F_-(A_0)\|_{L^{4/3}}`、范数示例式 `\|s\|^2_{L^2_1(A)}=\|\nabla_A s\|^2_{L^2}+\|s\|^2_{L^2}=\int_X(|\nabla_A s|^2+|s|^2)d\mu`（300dpi 确认印刷下标即 `L^2_1`，md 正确）、`L^2_3(\Omega^1(\mathfrak{g}))` 与 `\|\ \|_{L^2_k(A)}`、`k\leqslant3`（300dpi 确认 md 正确）均吻合。
+  - **修复×5**（均 300dpi 裁片裁决）：① 行 263 与 ② 行 269 印刷均为 `Ω²₋(𝔤)`，md `\Omega_-(\mathfrak{g})` 丢上标 ² → 补 `\Omega^2_-`；③ 行 277 同字形花体 K → `\mathcal{H}`（同 p.7 规则）；④ 行 294 商空间印刷为 `𝔅 = 𝒬/𝔤`（分子草书 𝒬 同 p.3 字形、分母 Fraktur 𝔤 与 Ω(𝔤) 中一致），md `\mathscr{A}/\mathfrak{g}` 分子误作草书 A → 改 `\mathcal{Q}`；⑤ 行 297 记号行印刷 `p: 𝒬 → 𝔅`，md `\mathcal{A}\to\mathcal{B}` 两字形皆误 → 改 `\mathcal{Q}\to\mathfrak{B}`；同行 "the moduli space **ℳ**"（印刷圆弧草书 M，与行 291 定义处 Fraktur 𝔐 不同字形）md 拍平为 M → 改 `$\mathscr{M}$`，"the ambient space **𝔅**" 拍平为 B → 改 `$\mathfrak{B}$`。
+  - 排版级伪影（登记不改）：Proposition 5 结论行斜体、*moduli space* 斜体在 md 中为正体。
+- 修复登记：行 263/269 `\Omega_-`→`\Omega^2_-`；行 277 `\mathcal{K}`→`\mathcal{H}`；行 294 `\mathscr{A}`→`\mathcal{Q}`；行 297 `\mathcal{A}\to\mathcal{B}`→`\mathcal{Q}\to\mathfrak{B}`、`M`→`$\mathscr{M}$`、`B`→`$\mathfrak{B}$`（依据 `audit-redo/p008.png` + 300dpi 裁片）。

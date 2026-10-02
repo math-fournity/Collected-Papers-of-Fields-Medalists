@@ -260,13 +260,13 @@ In the recent paper [18] C. H. Taubes constructs self-dual connections on the bu
 
 Proposition 5 [18, Theorem 2.2]. Let $A_0$ be a connection on $P \downarrow X$. There are constants $C, \varepsilon_0 > 0$, depending only on the Riemannian structure of $X$, the
 
-$L^3$-norm $\| F_-(A_0)\|_{L^3}$ and the 1st eigenvalue $\mu(A_0)$ of the operator $\Delta_{A_0} = d_{A_0}^{-}d_{A_0}^*$ on $\Omega_-(\mathfrak{g})$ such that if
+$L^3$-norm $\| F_-(A_0)\|_{L^3}$ and the 1st eigenvalue $\mu(A_0)$ of the operator $\Delta_{A_0} = d_{A_0}^{-}d_{A_0}^*$ on $\Omega^2_-(\mathfrak{g})$ such that if
 
 $$
 \delta (A _ {0}) = \left\| F _ {-} (A _ {0}) \right\| _ {L ^ {2}} + \left\| F (A _ {0}) \right\| _ {L ^ {4}} \left\| F _ {-} (A _ {0}) \right\| _ {L ^ {4 / 3}} <   \varepsilon_ {0},
 $$
 
-then there is a self-dual connection $A_0 + d_{A_0}^* u = A_0 + a = q(A_0)$ with $u \in \Omega_-(\mathfrak{g})$ and
+then there is a self-dual connection $A_0 + d_{A_0}^* u = A_0 + a = q(A_0)$ with $u \in \Omega^2_-(\mathfrak{g})$ and
 
 (i) $\| \nabla_{A_0}a\|_{L^2}\leqslant C.\delta (A_0),$
 
@@ -274,7 +274,7 @@ then there is a self-dual connection $A_0 + d_{A_0}^* u = A_0 + a = q(A_0)$ with
 
 The construction is $\mathcal{G}$-invariant, and $q(A_0)$ varies smoothly with $A_0$.
 
-Given any point of X and  $\lambda > 0$ , Taubes applies this to a connection  $A_{0}$  constructed to have most of its curvature in a ball of radius  $\lambda$  around that point. The hypothesis  $\mathcal{K}_{-}^{2}(X) = 0$  means that the 1st eigenvalue of  $\Delta$  on  $\Omega_{-}^{2}$  is positive and ensures that  $\mu(A_{0})$  is bounded away from zero as  $\lambda \to 0$ .
+Given any point of X and  $\lambda > 0$ , Taubes applies this to a connection  $A_{0}$  constructed to have most of its curvature in a ball of radius  $\lambda$  around that point. The hypothesis  $\mathcal{H}_{-}^{2}(X) = 0$  means that the 1st eigenvalue of  $\Delta$  on  $\Omega_{-}^{2}$  is positive and ensures that  $\mu(A_{0})$  is bounded away from zero as  $\lambda \to 0$ .
 
 A much easier observation, which we need to complete these preliminaries, is that for the 4-manifold X with positive definite form each  $U(1)$  bundle has a unique self-dual connection up to isomorphism. This follows directly from Proposition 3 and the fact that the harmonic curvature form is automatically self-dual.
 
@@ -291,10 +291,10 @@ Moreover it is convenient in this §II to widen the definition of $\mathcal{Q}$ 
 We define the moduli space  $\mathfrak{M}(X)$  to be the set of equivalence classes of self-dual connections on P, that is to say a subset of the quotient space:
 
 $$
-\mathfrak {B} = \mathscr {A} / \mathfrak {g},
+\mathfrak {B} = \mathcal{Q} / \mathfrak{g},
 $$
 
-and use the notation  $p: \mathcal{A} \to \mathcal{B}, A \to [A]$ . The techniques which we use here to study the moduli space M are essentially those of [2], but we emphasise the role of the ambient space B rather more.
+and use the notation  $p: \mathcal{Q} \to \mathfrak{B}, A \to [A]$ . The techniques which we use here to study the moduli space $\mathscr{M}$ are essentially those of [2], but we emphasise the role of the ambient space $\mathfrak{B}$ rather more.
 
 We discuss first the reducible connections on P. These may be understood from various different points of view. If we pick a base point in X, a connection gives, by parallel transport, a representation of the space of loops in X into  $SU(2)$ . The connection is reducible if this representation takes values in some proper subgroup of  $SU(2)$ . Since P is topologically nontrivial, the only possibility is that this subgroup be a copy of  $S^{1}$ . Alternatively a connection is reducible if there is a decomposition
 
