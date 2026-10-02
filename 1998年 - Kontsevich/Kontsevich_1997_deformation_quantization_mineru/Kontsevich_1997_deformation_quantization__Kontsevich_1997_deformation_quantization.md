@@ -1134,9 +1134,9 @@ $$
 \sum_ {\Gamma} c _ {\Gamma} \cdot \mathcal {U} _ {\Gamma} \left(\gamma_ {1} \otimes \dots \otimes \gamma_ {n}\right)) \left(f _ {1} \otimes \dots \otimes f _ {m}\right)
 $$
 
-of expressions$\mathcal { U } _ { \Gamma }$for admissible graphs Γ with n vertices of the first type, m vertices of the second type, and $2 n + m - 3$edges where$n \geq 0 , m \geq 0 , 2 n + m - 3 \geq 0$. We assume that$c _ { \Gamma } = \pm c _ { \Gamma ^ { \prime } }$′ if graph$\Gamma ^ { \prime }$is obtained from Γ by a renumeration of vertices of first type and by a relabeling of edges in sets$S t a r ( v )$(see 6.5 where we discuss signs).
+of expressions$\mathcal { U } _ { \Gamma }$for admissible graphs Γ with n vertices of the first type, m vertices of the second type, and $2 n + m - 3$edges where$n \geq 0 , m \geq 0 , 2 n + m - 3 \geq 0$. We assume that$c _ { \Gamma } = \pm c _ { \Gamma ^ { \prime } }$ if graph$\Gamma ^ { \prime }$is obtained from Γ by a renumeration of vertices of first type and by a relabeling of edges in sets$S t a r ( v )$(see 6.5 where we discuss signs).
 
-Coeficients c<sub>Γ</sub> of this linear combination are equal to certain sums with signs of weights$\mathcal { W } _ { \Gamma ^ { \prime } }$associated with some other graphs$\Gamma ^ { \prime }$, and of products of two such weights. In particular, numbers c do not depend on the dimension d in our problem. Perhaps it is better to use here the language of operads, but we will not do it.
+Coeficients c<sub>Γ</sub> of this linear combination are equal to certain sums with signs of weights$\mathcal { W } _ { \Gamma ^ { \prime } }$associated with some other graphs$\Gamma ^ { \prime }$, and of products of two such weights. In particular, numbers$c _ { \Gamma }$ do not depend on the dimension d in our problem. Perhaps it is better to use here the language of operads, but we will not do it.
 
 We want to check that$c _ { \Gamma }$vanishes for each Γ.
 
@@ -1154,13 +1154,13 @@ $$
 
 ## 6.4.1. Case S1
 
-Points$p _ { i } \in \mathcal { H }$for i from subset$S \subset \{ 1 , \ldots , n \}$where$\# S \geq 2 .$, move close to each other. The integral over the stratum$\partial _ { S } \overline { { C } } _ { n , m }$is equal to the product of an integral over$C _ { n _ { 1 } , m }$with an integral over$C _ { n _ { 2 } }$where $n _ { 2 } : = \# S , n _ { 1 } : = n - n _ { 2 } + 1$. The integral vanishes by dimensional reasons unless the number of edges of Γ connecting vertices from S is equal to$2 n _ { 2 } - 3$
+Points$p _ { i } \in \mathcal { H }$for i from subset$S \subset \{ 1 , \ldots , n \}$where$\# S \geq 2$, move close to each other. The integral over the stratum$\partial _ { S } \overline { { C } } _ { n , m }$is equal to the product of an integral over$C _ { n _ { 1 } , m }$with an integral over$C _ { n _ { 2 } }$where $n _ { 2 } : = \# S , n _ { 1 } : = n - n _ { 2 } + 1$. The integral vanishes by dimensional reasons unless the number of edges of Γ connecting vertices from S is equal to$2 n _ { 2 } - 3$
 
 There are several possibilities:
 
 ## 6.4.1.1. First subcase of S1:$n _ { 2 } = 2$
 
-In this subcase two vertices from$S _ { 1 }$are connected exactly by one edge, which we denote by$e .$The integral over$C _ { 2 }$here gives number 1 (after division by 2π coming from the of the formula for weights$W _ { \Gamma } )$ The total integral over the boundary stratum is equal to the integral of a new graph$\Gamma _ { 1 }$obtained from Γ by the contraction of edge e. It is easy to see (up to a sign) that this corresponds to the first line in our expression (F), the one where the operation on polyvector fields appears.
+In this subcase two vertices from$S _ { 1 }$are connected exactly by one edge, which we denote by$e .$The integral over$C _ { 2 }$here gives number$\pm 1$ (after division by 2π coming from the of the formula for weights$W _ { \Gamma } )$ The total integral over the boundary stratum is equal to the integral of a new graph$\Gamma _ { 1 }$obtained from Γ by the contraction of edge e. It is easy to see (up to a sign) that this corresponds to the first line in our expression (F), the one where the operation$\bullet$ on polyvector fields appears.
 
 ![](images/page_25_image_0.jpg)
 

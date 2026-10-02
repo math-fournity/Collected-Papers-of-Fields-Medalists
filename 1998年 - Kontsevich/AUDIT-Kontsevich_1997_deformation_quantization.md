@@ -178,3 +178,10 @@
 - 结果：`FAIL`→11 处已修复（PNG/文本层确凿）：①行 1091 `-morphism :$T_{poly}`→补 `$\mathcal{U}$`（𝒰 丢失）；②行 1099 `Theorem. is an$L_{\infty}–morphism,$$,`（𝒰 丢失+数学mush）→`Theorem.$\mathcal{U}$is an$L_{\infty}$-morphism,`；③行 1101 `i.e. that is a pre-`→补 `$\mathcal{U}$`；④行 1103 `The condition that is an`→补 `$\mathcal{U}$`；⑤行 1113 `homogeneous components of  (see 4.1)`→补 `$\mathcal{U}$`；⑥行 1115 `for  to be an`→补 `$\mathcal{U}$`；⑦行 1125 `via operations  (see 3.4.2) and  (see 4.6.1)`→补 `$\circ$`/`$\bullet$`（两运算符号丢失）；⑧行 1127 `pre-$L_{\infty}.$-morphism` 杂散句点；⑨行 1127 `$T_{poly}(\mathbf{R}^d)[1])_{formal}$` 多余 `)`（印刷 [1]_{formal}）；⑩行 1129 `definition of . Namely,`→补 `$\mathcal{U}$`；⑪同句 `second$\mathrm{type}$` 直立体保留。print quirk 忠实保留：行 1103 `-morhism`（原文拼写缺 p，PNG 确证）。其余 PASS±：行 1087 `afine`、行 1113/1127 `bidiferential`/`diferential`（ff 拍平）；行 1085/1097/1113 附近句末缺句点（登记）。公式行 1094/1106/1110/1118/1122 与印刷逐符号吻合。
 - 备注：行 1131 起（We consider the expression (F)…）为印刷 p.25 内容，在 p.025 核对。
 
+## p.025（PDF p.25 / 印刷 p.25）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p025.png`（pngmono 150dpi）
+- 核对：(F) 线性组合段与 Σ_Γ c_Γ·𝒰_Γ(γ₁⊗…⊗γₙ))(f₁⊗…⊗f_m) 式（印刷括号本身不配对 `))(f`，MD 忠实保留）、2n+m−3 边条件段（c_Γ=±c_{Γ′}、relabeling）、Coeficients 段（𝒲_{Γ′} 权、operads 段）、c_Γ vanishes 段、Stokes 公式 ∫_{∂C̄}⋀dφ_e=∫_{C̄}d(⋀dφ_e)=0 式、boundary strata 分解 0=Σ_S∫_{∂_S}+Σ_{S,S'}∫_{∂_{S,S'}} 式、§6.4.1 Case S1（n₂=#S、n₁=n−n₂+1、2n₂−3 边数条件）、§6.4.1.1 n₂=2 子情形（𝒰 收缩、• 运算）（MD 行 1131–1163）。
+- 结果：`FAIL`→5 处已修复：①行 1137 `$c_{\Gamma'}$′ if` 幻影 ′ 已删（印刷 prime 在下标内）；②行 1139 `numbers c do not depend`→`numbers$c_{\Gamma}$ do not depend`（下标 Γ 丢失，PNG+文本层确凿）；③行 1157 `$\#S \geq 2 .$,` 双句点→`$\#S \geq 2$,`；④行 1163 `gives number 1`→`gives number$\pm 1$`（± 丢失，PNG 确凿）；⑤行 1163 `the operation on polyvector fields`→`the operation$\bullet$ on polyvector fields`（• 丢失，PNG+文本层确凿）。print quirk 忠实保留：行 1134 公式 `𝒰_Γ(γ₁⊗…⊗γₙ))(f₁⊗…)` 印刷括号本身不配对；行 1163 `coming from the of the formula`（原文重复 the of the）；行 1163 `$e .$` 句点入式。其余 PASS±：行 1139 `Coeficients`、行 1143 `diferential`（ff 拍平）。公式行 1146/1152 与印刷逐符号吻合。
+- 备注：行 1165 起（图 page_25_image_0.jpg、§6.4.1.2 n₂≥3）为印刷 p.26 内容，在 p.026 核对。
+
