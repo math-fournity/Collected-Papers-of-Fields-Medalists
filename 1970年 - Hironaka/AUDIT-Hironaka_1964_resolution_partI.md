@@ -168,3 +168,10 @@
 - 证据：源 PDF p.022 文本层、页图 `audit/Hironaka_1964_resolution_partI_p022.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p022_ideal_morphism.png` 与 MinerU Markdown 第 357 行。印刷定义的局部环结构层商为 `O_X/J`，限制到 D；Markdown 写作 `O_x/J`，把空间下标 X 变成小写 x。裁片核准该字形不是局部点变量。其余 universal property、理想/子空间对应及 footnote 15 对应。
 - 备注：印刷运行页眉和页码 129 未录入 Markdown，属导航元素省略。
 - 结论：结构层下标大小写误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.023 / 96（印刷 p.130）— FAIL
+
+- 时间：2026-10-02 00:42 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.023 文本层、页图 `audit/Hironaka_1964_resolution_partI_p023.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p023_generic_local_ring.png` 与 MinerU Markdown 第 363–369 行。本页印刷给出 generic point 处局部环 `O_{X,\bar{x}}`；Markdown 第 367 行写为 `O_{x,\bar{x}}`，把空间标识 X 误为小写 x。章节题名中的 `Main theorem I`、generic point 横线及其余域扩张记号与原页相符。
+- 备注：印刷运行页眉和页码 130 未录入 Markdown，属导航元素省略。
+- 结论：局部环空间下标误录大小写，列为 FAIL；待全篇审计结束后逐处修复。
