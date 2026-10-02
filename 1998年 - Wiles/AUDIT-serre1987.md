@@ -60,3 +60,11 @@
 - 核对：(2.2.4) k = 1 + pa + b、Remarques (1)(2)（含无编号式 k = 1 + b, d'où 2 ⩽ k ⩽ p）、“torsion” 段与 ρ_p = χ^a ⊗ ρ′_p、(a,b) ↦ (0, b−a)、k′ = 1 + b − a、(2.2.5) k = k′ + a(p+1)、[24],[42] 比较句、2.3 节标题与 ρ_p|I 对角矩阵、mod(p−1) 正规化句、(2.3.1)、(2.3.2) 分段定义。
 - 结果：PASS。公式、不等号方向（⩽）、分段括号、编号全部与印刷吻合；印刷中 k = 1 + b 一式无编号，Markdown 亦无编号，一致。
 - 备注：页眉 “184 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级；Remarques (2) 式内 “d'où” 在 Markdown 为 \mathrm{d}′+\text{où} 拼合，渲染可读，排版级不改。
+
+## p.007（PDF p.7 / 印刷 p.185）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p007.png`（pngmono，150 dpi）。
+- 核对：2.3 节后 Remarques (1)(2)(3)（k=2、非分歧 “décaler” k by p−1、cycle de Tate [21],[22]）、2.4 节标题与正文（droite D、θ₁/θ₂）、(2.4.1) 上三角矩阵、(2.4.2) θ = χ^α ε₁/χ^β ε₂ 与 Z/(p−1)Z、e₁/e₂ 非分歧句、ρ_p|I = (χ^β *; 0 χ^α)、(2.4.3) 正规化、对称性提醒句、(2.4.4) Inf/Sup、情形 (i) 与 (2.4.5)。
+- 结果：PASS。矩阵 (*, 0) 位置、χ 上标 α/β 分配、不等号端点（0 ⩽ α ⩽ p−2；1 ⩽ β ⩽ p−1）、Inf/Sup、编号全部吻合。
+- 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 185” 未收入 Markdown，排版级。印刷页止于 (2.4.5)；其后的 “(Noter le cas …)” 与情形 (ii) 属印刷 p.186，在下一页核对。
