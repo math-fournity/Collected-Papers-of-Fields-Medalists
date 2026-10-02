@@ -129,3 +129,9 @@
 - 核对：Theorem 3.4 ([BDC10])——FK percolation 于 square lattice 的 p_c(q) = p_sd(q) = √q/(1+√q) 对每个 q ≥ 1；Exercise 3.5（free boundary conditions 的对偶）；Exercise 3.6 (Zhang's argument, [Gri06])——p = p_sd(q)、φ^0_{p_sd,q}、三小问（1−ε、{n}×[−n,n] 外侧触碰概率 > 1−ε^{1/4}、wired 情形与 p_c(q) 讨论）；Exercise 3.7 (Euler's formula)；§3.2 FK-Ising model and Edwards-Sokal coupling——q = 2、[ES88]、cluster 独立赋 ± 自旋概率 1/2；Proposition 3.8——β = −½ ln(1−p) 与 free boundary conditions；Proof 开头 P[(ω,σ)] = (1/Z^0_{p,2,G}) p^{o(ω)}(1−p)^{c(ω)} 2^{k(ω)}·2^{−k(ω)} = (1/Z^0_{p,2,G}) p^{o(ω)}(1−p)^{c(ω)}；P̃ 与 e^{−2β} = 1−p 段起头；页脚印刷页码 18。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：ε^{1/4} 的堆叠分数 1/4 与 β = −½ln(1−p) 的负号+分数 PNG 印刷清晰（文本层拍平）；Theorem 3.4 编号与 p_c=p_sd 等式为重导出对账锚点。
+
+## p.019（PDF p.19 / 印刷 p.19）
+- PNG：audit/p019.png（pngmono 150dpi）
+- 核对：Edwards-Sokal 证明续——P̃[(ω̃,σ̃)] = e^{−2βr(σ̃)} p^{o(ω̃)}(1−p)^{a−o(ω̃)−r(σ̃)} / Z^f_{β,p} = p^{o(ω̃)}(1−p)^{c(ω̃)} / Z^f_{β,p}（a 为边数、r(σ̃) 为异自旋相邻边数）；P = P̃ 与 marginal 结论（◻）；coupling 双向随机程序段；wired boundary conditions 给 + boundary conditions 段；Corollary 3.9——µ^f_{β,G}[σ_xσ_y] = φ^0_{p,2,G}(x ↔ y)、µ^+_{β,G}[σ_x] = φ^1_{p,2,G}(x ↔ ∂G)、β_c = −½ ln[1−p_c(2)]、"We leave the proof as an exercise."（◻）；φ^1_{p,2}/φ^0_{p,2} extremal 与唯一性论证段（[Wer09]、p_c = p_sd、self-dual point √2/(1+√2)）；Proposition 3.10——p_c = √2/(1+√2) 处唯一 infinite-volume FK-Ising measure 且 a.s. 无 infinite cluster、对应 β_c 处唯一 spin Ising measure；页脚印刷页码 19。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：两处 ½/√2 分数根号 PNG 印刷清晰（文本层拍平为 12、2）；(x ↔ y)/(x ↔ ∂G) 的双箭头记号为对账锚点。
