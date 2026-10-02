@@ -196,10 +196,10 @@ and therefore $u = S^{*}T^{*}u$. Hence, if $v \in \mathcal{R}_{T^*}$, we have $T
 
 Let $\Omega$ be a $\nu$-dimensional infinitely differentiable manifold. We shall denote by $C^{\infty}(\Omega)$ the set of infinitely differentiable functions defined in $\Omega$, and by $C_0^\infty (\Omega)$ the set of those functions in $C^\infty (\Omega)$ which vanish outside a compact set in $\Omega$. When no confusion seems to be possible, we also write simply $C^\infty$ and $C_0^\infty$.
 
-A transformation P from  $C^{\infty}(\Omega)$  to itself is called a differential operator, if, in local coordinate systems  $(x^{1},\ldots,x^{n})$ , it has the form
+A transformation P from  $C^{\infty}(\Omega)$  to itself is called a differential operator, if, in local coordinate systems  $(x^{1},\ldots,x^{\nu})$ , it has the form
 
 $$
-p u = \sum a ^ {\alpha_ {1}} \dots^ {\alpha_ {k}} (x) \frac {1}{i} \frac {\partial}{\partial x ^ {\alpha_ {1}}} \dots \frac {1}{i} \frac {\partial}{\partial x ^ {\alpha_ {k}}} u,\tag{1.2.1}
+P u = \sum a ^ {\alpha_ {1} \ldots \alpha_ {k}} (x) \frac {1}{i} \frac {\partial}{\partial x ^ {\alpha_ {1}}} \dots \frac {1}{i} \frac {\partial}{\partial x ^ {\alpha_ {k}}} u,\tag{1.2.1}
 $$
 
 where the sum contains only a finite number of terms $\neq 0$, and the coefficients $a^{\alpha_1\ldots \alpha_k}$ are infinitely differentiable functions of $x$ which do not change if we permute the indices $\alpha_{j}$. We shall denote the sequence $(\alpha_{1},\ldots ,\alpha_{k})$ of indices between 1 and $\nu$ by $\alpha$ and its length $k$ by $|\alpha|$. Furthermore, we set
@@ -216,7 +216,7 @@ $$
 
 Here the summation shall be performed over all sequences  $\alpha$ .
 
-We shall say that we have a differential operator with constant coefficients, if  $\Omega$  is a domain in the v-dimensional real vector space  $R^{v}$ , and the coefficients in (1.2.2) are constant, when the coordinates are linear.
+We shall say that we have a differential operator with constant coefficients, if  $\Omega$  is a domain in the $\nu$-dimensional real vector space  $R^{\nu}$ , and the coefficients in (1.2.2) are constant, when the coordinates are linear.
 
 Let $\varrho$ be a fixed density in $\Omega$, i.e. $\varrho(x)$ is a positive function, defined in every local coordinate system, such that $\varrho(x)dx^{1}\ldots dx^{\nu}$ is an invariant measure, which will be denoted $dx$. We require that $\varrho(x)$ shall be infinitely differentiable, and, in cases where $P$ has constant coefficients, we always take $\varrho(x)=\text{constant}$.
 
@@ -308,13 +308,13 @@ $$
 u _ {n} \rightarrow u, \quad P u _ {n} \rightarrow P _ {0} u.
 $$
 
-Applying (1.2.5) to the functions $u_{n} - u_{m}$ we find that $Qu_{n}$ is a Cauchy sequence. Since $Q_{0}$ is closed, it follows that $u \in \mathcal{D}_{Q_{\bullet}}$.
+Applying (1.2.5) to the functions $u_{n} - u_{m}$ we find that $Qu_{n}$ is a Cauchy sequence. Since $Q_{0}$ is closed, it follows that $u \in \mathcal{D}_{Q_{0}}$.
 
-We shall repeatedly use the criterion given by Lemma 1.5 in the following chapters. In Chapter II we shall find a simple and complete description of the operators Q with constant coefficients which are weaker than a given operator P with constant coefficients, when  $\Omega$  is a bounded domain in  $R^{r}$ . (The answer is then independent of  $\Omega$ .) In Chapter IV analogous results will be proved for a class of operators with variable coefficients.
+We shall repeatedly use the criterion given by Lemma 1.5 in the following chapters. In Chapter II we shall find a simple and complete description of the operators Q with constant coefficients which are weaker than a given operator P with constant coefficients, when  $\Omega$  is a bounded domain in  $R^{\nu}$ . (The answer is then independent of  $\Omega$ .) In Chapter IV analogous results will be proved for a class of operators with variable coefficients.
 
-REMARK. If $\mathcal{D}_{P_{\bullet}} \subset \mathcal{D}_{Q}$, it follows from Theorem 1.1 in the same way as in the proof of Lemma 1.5 that (1.2.5) is valid. Hence $\mathcal{D}_{P_{\bullet}} \subset \mathcal{D}_{Q}$, so that $Q$ is weaker than $P$. This shows that in Definition 1.2 we might replace the condition $\mathcal{D}_{P_{\bullet}} \subset \mathcal{D}_{Q}$ by the apparently weaker condition $\mathcal{D}_{P_{\bullet}} \subset \mathcal{D}_{Q}$. It should also be observed that, in Definition 1.2 and in most of our arguments here, we use the minimal and not the maximal differential operators in view of the fact that the relation $\mathcal{D}_{P} \subset \mathcal{D}_{Q}$ is very exceptional for partial differential operators, as will be proved in Chapter III.
+REMARK. If $\mathcal{D}_{P_{0}} \subset \mathcal{D}_{Q_{0}}$, it follows from Theorem 1.1 in the same way as in the proof of Lemma 1.5 that (1.2.5) is valid. Hence $\mathcal{D}_{P_{0}} \subset \mathcal{D}_{Q_{0}}$, so that $Q$ is weaker than $P$. This shows that in Definition 1.2 we might replace the condition $\mathcal{D}_{P_{0}} \subset \mathcal{D}_{Q_{0}}$ by the apparently weaker condition $\mathcal{D}_{P} \subset \mathcal{D}_{Q}$. It should also be observed that, in Definition 1.2 and in most of our arguments here, we use the minimal and not the maximal differential operators in view of the fact that the relation $\mathcal{D}_{P} \subset \mathcal{D}_{Q}$ is very exceptional for partial differential operators, as will be proved in Chapter III.
 
-We shall next deduce the conditions in order that $Q u$ should be continuous after correction on a null set for every $u \in D_{P_*}$, the operator $Q$ being interpreted in the distribution sense. Such results form a stepping-stone from the weak concept of a solution of a differential equation to the classical one. Sobolev has studied similar questions (see [30]), but our results overlap very little with his.
+We shall next deduce the conditions in order that $Q u$ should be continuous after correction on a null set for every $u \in D_{P_0}$, the operator $Q$ being interpreted in the distribution sense. Such results form a stepping-stone from the weak concept of a solution of a differential equation to the classical one. Sobolev has studied similar questions (see [30]), but our results overlap very little with his.
 
 LEMMA 1.6. In order that $Qu$ should equal a bounded function in the distribution sense for every $u \in D_{P_0}$, it is necessary and sufficient that there is a constant $C$ such that
 
@@ -349,12 +349,12 @@ The example on page 169 makes it justifiable to say that the functions in $\math
 DEFINITION 1.3. The quotient space
 
 $$
-C = G _ {P} / G _ {P _ {\bullet}}\tag{1.3.1}
+C = G _ {P} / G _ {P _ {0}}\tag{1.3.1}
 $$
 
-with the quotient norm is called the Cauchy space of $P$. If $u \in \mathcal{D}_p$, the residue class of the pair $[u, Pu]$ is an element of $C$, which is called the Cauchy datum of $u$ and is denoted by $\Gamma u$.
+with the quotient norm is called the Cauchy space of $P$. If $u \in \mathcal{D}_P$, the residue class of the pair $[u, Pu]$ is an element of $C$, which is called the Cauchy datum of $u$ and is denoted by $\Gamma u$.
 
-It follows from the definition that two functions in  $D_{p}$ , which only differ by a function in  $C_{0}^{\infty}(\Omega)$ , have the same Cauchy data. When the coefficients are constant it is easy to prove (Lemma 2.11) that every function in  $D_{p}$ , which vanishes outside a compact set in  $\Omega$ , is also in  $D_{p}$ . It then follows that two functions in  $D_{p}$ , which are identical outside a compact set in  $\Omega$ , have the same Cauchy data. It is of course natural to expect that this is valid for very general operators though we have not obtained any proof.
+It follows from the definition that two functions in  $D_{P}$ , which only differ by a function in  $C_{0}^{\infty}(\Omega)$ , have the same Cauchy data. When the coefficients are constant it is easy to prove (Lemma 2.11) that every function in  $D_{P}$ , which vanishes outside a compact set in  $\Omega$ , is also in  $D_{P_0}$ . It then follows that two functions in  $D_{P_0}$ , which are identical outside a compact set in  $\Omega$ , have the same Cauchy data. It is of course natural to expect that this is valid for very general operators though we have not obtained any proof.
 
 The example on page 169 also suggests the following definition.
 
@@ -460,7 +460,7 @@ A slight modification of the proof of Theorem 1.3 shows that the operator $\hat{
 
 ## 2.0. Introduction
 
-Let P be a differential operator with constant coefficients and let  $\Omega$  be a domain in  $R^{v}$ . In Chapter I we introduced the minimal differential operator  $P_{0}$  in  $L^{2}(\Omega)$ , defined by P. The object of this chapter is to study  $P_{0}$  more closely, We first restrict ourselves to the case where  $\Omega$  is bounded, and can then obtain fairly complete results. Some remarks on the case of non-bounded domains are given at the end of the chapter.
+Let P be a differential operator with constant coefficients and let  $\Omega$  be a domain in  $R^{\nu}$ . In Chapter I we introduced the minimal differential operator  $P_{0}$  in  $L^{2}(\Omega)$ , defined by P. The object of this chapter is to study  $P_{0}$  more closely, We first restrict ourselves to the case where  $\Omega$  is bounded, and can then obtain fairly complete results. Some remarks on the case of non-bounded domains are given at the end of the chapter.
 
 We first establish the boundedness of the inverse of a minimal differential operator with constant coefficients for bounded  $\Omega$  by means of the Laplace transformation, using
 
@@ -516,7 +516,7 @@ $$
 P (D) = \sum a ^ {\alpha} D _ {\alpha}\tag{2.1.2}
 $$
 
-(see section 1.2). The polynomials in $C_v$ and the differential operators in $R^\nu$ are thus in a one-to-one correspondence, and this correspondence is in fact independent of the choice of coordinates since
+(see section 1.2). The polynomials in $C_\nu$ and the differential operators in $R^\nu$ are thus in a one-to-one correspondence, and this correspondence is in fact independent of the choice of coordinates since
 
 $$
 P (D) e ^ {i \langle x, \zeta \rangle} = P (\zeta) e ^ {i \langle x, \zeta \rangle}.
@@ -573,7 +573,7 @@ $$
 PROOF. We form the Laplace transform of u, defined by
 
 $$
-\hat {u} (\zeta) = \hat {u} (\xi + i \eta) = (2 \pi) ^ {- r / 2} \int e ^ {- i \langle x, \xi + i \eta \rangle} u (x) d x.
+\hat {u} (\zeta) = \hat {u} (\xi + i \eta) = (2 \pi) ^ {- \nu / 2} \int e ^ {- i \langle x, \xi + i \eta \rangle} u (x) d x.
 $$
 
 This is an entire analytic function since u has compact support. The Laplace transform of  $P(D)u$  is  $P(\zeta)\hat{u}(\zeta)$ . Now the proof of (2.2.1) follows easily from the following lemma on analytic functions of one variable, analogous to one used previously by Malgrange [20].
@@ -797,7 +797,7 @@ then there exist polynomials $G^{ik}(\zeta, \bar{\zeta})$ such that $G^{ik}(\zet
 PROOF. If we write $G^i(\xi + i\eta, \xi - i\eta) = g^i(\xi, \eta)$, the assumption means that
 
 $$
-\sum_ {1} ^ {v} \eta_ {i} g ^ {i} (\xi , \eta) = 0.\tag{2.4.7}
+\sum_ {1} ^ {\nu} \eta_ {i} g ^ {i} (\xi , \eta) = 0.\tag{2.4.7}
 $$
 
 Since the identity (2.4.7) must also be satisfied by the parts of  $g^{i}(\xi,\eta)$ , which are homogeneous of the same degree with respect to  $\eta$ , we may suppose in the proof that the  $g^{i}$  are all homogeneous of degree m with respect to  $\eta$ . Then Euler's identity gives
@@ -1022,7 +1022,7 @@ $$
 \left| Q (\xi) \right| ^ {2} <   C \left(\left(\xi_ {1} ^ {2} + \dots + \xi_ {\nu - 1} ^ {2} - \xi_ {\nu}\right) ^ {2} + \xi_ {1} ^ {2} + \dots + \xi_ {\nu - 1} ^ {2} + 1\right).\tag{2.7.1}
 $$
 
-Evidently (2.7.1) requires that $Q(\xi)$ is of degree two at most and not of higher degree than one in $\xi_v$, so we may write
+Evidently (2.7.1) requires that $Q(\xi)$ is of degree two at most and not of higher degree than one in $\xi_{\nu}$, so we may write
 
 $$
 Q (\xi) = a _ {0} + \sum_ {i = 1} ^ {\nu} a _ {i} \xi_ {i} + \sum_ {i, k = 1} ^ {\nu} a _ {i k} \xi_ {i} \xi_ {k},\tag{2.7.2}
@@ -1069,7 +1069,7 @@ Suppose that all the derivatives $\partial p(\eta) / \partial \eta$ vanish for s
 Now suppose that  $P(\xi)$  satisfies the condition in Theorem 2.3 and let  $Q(\xi)$  have the same principal part as  $P(\xi)$ . Dropping positive terms in the definition of  $\tilde{P}(\xi)^{2}$ , we obtain
 
 $$
-\tilde {P} (\xi) ^ {2} > \sum_ {1} ^ {v} \left| \frac {\partial P (\xi)}{\partial \xi_ {k}} \right| ^ {2} = \pi (\xi) + r (\xi),
+\tilde {P} (\xi) ^ {2} > \sum_ {1} ^ {\nu} \left| \frac {\partial P (\xi)}{\partial \xi_ {k}} \right| ^ {2} = \pi (\xi) + r (\xi),
 $$
 
 where $r(\xi)$ is of degree less than $2(m - 1)$ and
@@ -1154,7 +1154,7 @@ It is obvious how the theorem can be generalized, if a polynomial decomposes in 
 
 The first topic in this section concerns the continuity of the functions in  $D_{P_{0}}$  and their derivatives. From an abstract point of view this was already studied in Chapter I. We shall assume in the whole section that  $\Omega$  is a bounded domain.
 
-THEOREM 2.6. If $Q(D)u$ is a continuous function after correction on a null set, for any $u \in \mathcal{D}_{P_*}$, then
+THEOREM 2.6. If $Q(D)u$ is a continuous function after correction on a null set, for any $u \in \mathcal{D}_{P_0}$, then
 
 $$
 \int \frac {\left| Q (\xi) \right| ^ {2}}{\tilde {P} (\xi) ^ {2}} d \xi <   \infty .\tag{2.8.1}
@@ -1252,17 +1252,17 @@ where the last estimate follows from the proof of Theorem 2.6. It is clear that 
 
 The theorem cannot be reversed since Sobolev's results (cf. [30], p. 64) are stronger for elliptic operators. We give two examples of non-elliptic operators.
 
-EXAMPLE 1. If $P(\xi) = \xi_1^2 + \cdots + \xi_{\nu-1}^2 - \xi_\nu$, we have $1 / \tilde{P}(\xi) \in L^q$ if and only if $q > \nu$. In particular, when $\nu = 2$, it follows that the functions in $\mathcal{D}_{P_*}$ are in $L^q$ for every $q < \infty$ but are not all continuous.
+EXAMPLE 1. If $P(\xi) = \xi_1^2 + \cdots + \xi_{\nu-1}^2 - \xi_\nu$, we have $1 / \tilde{P}(\xi) \in L^q$ if and only if $q > \nu$. In particular, when $\nu = 2$, it follows that the functions in $\mathcal{D}_{P_0}$ are in $L^q$ for every $q < \infty$ but are not all continuous.
 
 EXAMPLE 2. If $P(\xi) = \xi_1^2 + \cdots + \xi_{\nu - 1}^2 + i\xi_\nu$, we have $1 / \tilde{P}(\xi) \in L^q$ if and only if $q > \frac{1}{2} (\nu + 1)$. In particular, every function in the domain of $P_0$ is continuous when $\nu = 2$.
 
-In the proof of Theorem 2.6 we found that $Q(D)u$ is continuous for any $u \in \mathcal{D}_{P_{\bullet}}$ if and only if (2.8.2) is fulfilled, i.e., if the value of $Q(D)u$ at a fixed point is a continuous function of $[u, P(D)u] \in G_{P_{\bullet}}$ ($u \in C_0^\infty(\Omega)$). When we now pass to studying $Q(D)u$ on varieties of dimensions between 1 and $\nu - 1$, we examine a condition similar to (2.8.2) from the outset. Thus let $\Sigma$ be a variety in $\Omega$ and let $d\sigma$ be the element of area of $\Sigma$. If the inequality
+In the proof of Theorem 2.6 we found that $Q(D)u$ is continuous for any $u \in \mathcal{D}_{P_{0}}$ if and only if (2.8.2) is fulfilled, i.e., if the value of $Q(D)u$ at a fixed point is a continuous function of $[u, P(D)u] \in G_{P_{0}}$ ($u \in C_0^\infty(\Omega)$). When we now pass to studying $Q(D)u$ on varieties of dimensions between 1 and $\nu - 1$, we examine a condition similar to (2.8.2) from the outset. Thus let $\Sigma$ be a variety in $\Omega$ and let $d\sigma$ be the element of area of $\Sigma$. If the inequality
 
 $$
 \int_ {\Sigma} \left| Q (D) u \right| ^ {2} d \sigma \leq C (\left\| P (D) u \right\| ^ {2} + \left\| u \right\| ^ {2}), \quad u \in C _ {0} ^ {\infty} (\Omega),\tag{2.8.7}
 $$
 
-holds good, the restriction of $Q(D)u$ to $\Sigma$ may be defined when $u \in \mathcal{D}_P$, in the usual way: We take a sequence $u_n \in C_0^\infty$ such that $u_n \to u$ and $P(D)u_n \to P_0u$. In virtue of (2.8.7) the sequence $Q(D)u_n$ is convergent in $L^2(\Sigma)$. The limit in $L^2(\Sigma)$, which does not depend on the sequence $u_n$, which we have have chosen, is the desired restriction of $Q(D)u$ to $\Sigma$. Somewhat roughly we may say that $Q(D)u$ exists in $\Sigma$ for $u \in \mathcal{D}_{P_*}$, when the inequality (2.8.7) is valid.
+holds good, the restriction of $Q(D)u$ to $\Sigma$ may be defined when $u \in \mathcal{D}_{P_0}$, in the usual way: We take a sequence $u_n \in C_0^\infty$ such that $u_n \to u$ and $P(D)u_n \to P_0u$. In virtue of (2.8.7) the sequence $Q(D)u_n$ is convergent in $L^2(\Sigma)$. The limit in $L^2(\Sigma)$, which does not depend on the sequence $u_n$, which we have have chosen, is the desired restriction of $Q(D)u$ to $\Sigma$. Somewhat roughly we may say that $Q(D)u$ exists in $\Sigma$ for $u \in \mathcal{D}_{P_0}$, when the inequality (2.8.7) is valid.
 
 Our methods only permit us to study the case when $\Sigma$ is a linear variety of dimension $\mu$, $1 \leq \mu \leq \nu - 1$. We may of course assume that $\Sigma$ has points in common with $\Omega$. By $\Sigma'$ we denote any one of the varieties in $R_{\nu}$, orthogonal to $\Sigma$. The surface element in $\Sigma'$ is denoted $d\sigma'$.
 
@@ -1375,7 +1375,7 @@ for any choice of the function $\varphi(\xi) \in \mathcal{S}$ and for any $\xi_1
 Now suppose that (2.8.8) is fulfilled. For $u \in C_0^\infty(\Omega)$ we have
 
 $$
-Q (D) u \left(x ^ {1}, \dots , x ^ {\mu}, 0, \dots , 0\right) = (2 \pi) ^ {- v / 2} \int Q (\xi) \hat {u} (\xi) e ^ {i \left(x ^ {1} \xi_ {1} + \dots + x ^ {\mu} \xi_ {\mu}\right)} d \xi ,
+Q (D) u \left(x ^ {1}, \dots , x ^ {\mu}, 0, \dots , 0\right) = (2 \pi) ^ {- \nu / 2} \int Q (\xi) \hat {u} (\xi) e ^ {i \left(x ^ {1} \xi_ {1} + \dots + x ^ {\mu} \xi_ {\mu}\right)} d \xi ,
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">13-553810. Acta Mathematica. 94. Imprimé le 27 septembre 1955.</span></small>
@@ -1754,7 +1754,7 @@ $$
 
 The proof is complete.
 
-THEOREM 2.16. Let $\Sigma$ be a plane of dimension less than $v$. Then the mapping
+THEOREM 2.16. Let $\Sigma$ be a plane of dimension less than $\nu$. Then the mapping
 
 $$
 \mathcal {R} _ {P _ {0}} \ni P (D) u \rightarrow \{Q (D) u \} _ {\Sigma} \in L ^ {2} (\Sigma),\tag{2.9.11}
@@ -1844,9 +1844,9 @@ $$
 \bigcap_ {k = 1} ^ {n} \Lambda (P ^ {k}) = \{0 \},
 $$
 
-then  $(\tilde{P}^{1^{2}} + \cdots + \tilde{P}^{n^{2}})^{-\frac{1}{2}}$  is in  $L^{q}$  if q > v.
+then  $(\tilde{P}^{1^{2}} + \cdots + \tilde{P}^{n^{2}})^{-\frac{1}{2}}$  is in  $L^{q}$  if $q > \nu$.
 
-Note that Example 1 on page 191 shows that the constant v of the lemma cannot be replaced by any smaller one. We also remark, that we shall only use Lemma 2.14 when n = 1, but the more general statement is necessary for our proof. Using this special case of Lemma 2.14 and Theorem 2.7, we obtain
+Note that Example 1 on page 191 shows that the constant $\nu$ of the lemma cannot be replaced by any smaller one. We also remark, that we shall only use Lemma 2.14 when n = 1, but the more general statement is necessary for our proof. Using this special case of Lemma 2.14 and Theorem 2.7, we obtain
 
 THEOREM 2.18. We have $u \in L^q$, if $u$ is in the minimal domain of a complete differential operator and $q < 2\nu / (\nu - 2)$, if $\nu > 2$, $q < \infty$. if $\nu = 2$.
 
@@ -1871,7 +1871,7 @@ $$
 Hence (2.9.15) is valid in this case. Using this result and (2.9.13), we obtain for a general $P = \Sigma P_k$
 
 $$
-\bigcap_ {i = 1} ^ {v} \Lambda (\partial P / \partial \xi_ {i}) = \bigcap_ {i = 1} ^ {v} \bigcap_ {k = 1} ^ {m} \Lambda (\partial P _ {k} / \partial \xi_ {i}) = \bigcap_ {k = 1} ^ {m} \bigcap_ {i = 1} ^ {v} \Lambda (\partial P _ {k} / \partial \xi_ {i}) = \bigcap_ {k = 2} ^ {m} \Lambda (P _ {k}) = \underline {{\Lambda}} (P),
+\bigcap_ {i = 1} ^ {\nu} \Lambda (\partial P / \partial \xi_ {i}) = \bigcap_ {i = 1} ^ {\nu} \bigcap_ {k = 1} ^ {m} \Lambda (\partial P _ {k} / \partial \xi_ {i}) = \bigcap_ {k = 1} ^ {m} \bigcap_ {i = 1} ^ {\nu} \Lambda (\partial P _ {k} / \partial \xi_ {i}) = \bigcap_ {k = 2} ^ {m} \Lambda (P _ {k}) = \underline {{\Lambda}} (P),
 $$
 
 since all $\partial P_1 / \partial \xi_i$ are constants. This proves (2.9.15).
@@ -1924,7 +1924,7 @@ Since $q > \nu \geq 1$, the first integral is convergent. Furthermore, since it 
 
 ## 2.10. On some sets of polynomials
 
-Let $P$ be a fixed polynomial. We have studied the set of polynomials $Q$ such that $Q(D)u$ exists for $u \in \mathcal{D}_{P_{\bullet}}$ in one sense or another (Theorems 2.2, 2.6, 2.7, 2.8, 2.15, 2.16). In all cases, the set $I$ of polynomials $Q$, which we have obtained, has the following two properties:
+Let $P$ be a fixed polynomial. We have studied the set of polynomials $Q$ such that $Q(D)u$ exists for $u \in \mathcal{D}_{P_{0}}$ in one sense or another (Theorems 2.2, 2.6, 2.7, 2.8, 2.15, 2.16). In all cases, the set $I$ of polynomials $Q$, which we have obtained, has the following two properties:
 
 a) $I$ is linear and invariant for translation.
 
@@ -1959,7 +1959,7 @@ LEMMA 2.15. The algebra R, generated by the polynomials weaker than a polynomial
 PROOF. The statement is obvious, if P is of degree 1. To prove it for a polynomial  $P = \sum_{k=0}^{m} P_k$ , we may assume that it has already been proved for polynomials of degree less than m. Now the polynomials which are weaker than  $\partial P/\partial \xi_i$  are also weaker than P, and hence R contains all polynomials with the lineality manifold  $\Lambda(\partial P/\partial \xi_i)$ . Thus R contains all polynomials with the lineality manifold
 
 $$
-\bigcap_ {i = 1} ^ {v} \Lambda (\partial P / \partial \xi_ {i}) = \underline {{\Lambda}} (P) = \Lambda (P - P _ {1}).
+\bigcap_ {i = 1} ^ {\nu} \Lambda (\partial P / \partial \xi_ {i}) = \underline {{\Lambda}} (P) = \Lambda (P - P _ {1}).
 $$
 
 Since $R$ contains $P$ and $P - P_{1}$, the polynomial $P_{1}$ is also in $R$, which proves that $R$ also contains all polynomials with the lineality manifold $\Lambda(P_{1})$. This completes the proof.
@@ -2507,7 +2507,7 @@ is a fundamental solution. He proved that all solutions of the equation $Pu = 0$
 If  $P(\xi)$  did not vanish for any real  $\xi$ , we could obtain a fundamental solution by writing
 
 $$
-E * u (x) = (2 \pi) ^ {- v / 2} \int e ^ {i \langle x, \xi \rangle} \frac {\hat {u} (\xi)}{P (\xi)} d \xi , u \in C _ {0} ^ {\infty},\tag{3.4.2}
+E * u (x) = (2 \pi) ^ {- \nu / 2} \int e ^ {i \langle x, \xi \rangle} \frac {\hat {u} (\xi)}{P (\xi)} d \xi , u \in C _ {0} ^ {\infty},\tag{3.4.2}
 $$
 
 or equivalently
@@ -2546,14 +2546,12 @@ which proves that E is a fundamental solution.
 
 We now divide the integral (3.4.4) into two parts in the following manner. If  $R = \sqrt{C^{2} + C'^{2}}$ , we have  $|\xi| < R$  in the part of the integral (3.4.4), where  $\xi$  is not real. Thus if we write
 
-(3.4.5)
-
 $$
-\boldsymbol {E} = \boldsymbol {E _ {1}} + \boldsymbol {E _ {2}},\tag{3.4.6}
+\boldsymbol {E} = \boldsymbol {E _ {1}} + \boldsymbol {E _ {2}},\tag{3.4.5}
 $$
 
 $$
-E _ {1} (\check {u}) = (2 \pi) ^ {- \nu / 2} \int_ {| \xi | \geq R} \frac {\hat {u} (\xi)}{P (\xi)} d \xi , E _ {2} (\check {u}) = (2 \pi) ^ {- \nu / 2} \oint_ {| \xi | \leq R} \frac {\hat {u} (\xi)}{P (\xi)} d \xi ,
+E _ {1} (\check {u}) = (2 \pi) ^ {- \nu / 2} \int_ {| \xi | \geq R} \frac {\hat {u} (\xi)}{P (\xi)} d \xi , E _ {2} (\check {u}) = (2 \pi) ^ {- \nu / 2} \oint_ {| \xi | \leq R} \frac {\hat {u} (\xi)}{P (\xi)} d \xi ,\tag{3.4.6}
 $$
 
 the variable $\xi$ only assumes real values in the integral defining $E_{1}$. The distribution $E_{2}$ is an entire analytic function, for when $u\in C_0^\infty$ we obtain in virtue of the definition of $\hat{u}$
@@ -2564,7 +2562,7 @@ $$
 
 The change of the order of integrations is justified by the fact that both integrals are only extended over compact sets. Hence  $E_{2}$  equals the function
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ξ</span></small>
+
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  There is a very large freedom in the choice of integration paths, and different choices give different fundamental solutions. Note that  $\xi$  is here a complex variable, whereas  $\xi$  always denotes a real vector elsewhere in this paper.</span></small>
 
@@ -2687,7 +2685,7 @@ $$
 where D now denotes differentiation with respect to  $\xi$ . Integrating by parts, we obtain  $F(\check{u}) = G(\check{u}) + I(\check{u})$ , where
 
 $$
-G (\check {u}) = (2 \pi) ^ {- v / 2} \int_ {| \xi | \geq R} \hat {u} (\xi) \left(\langle - D, \eta \rangle^ {l} \left(\frac {\langle y , \xi \rangle^ {k}}{P (\xi)}\right)\right) d \xi\tag{3.4.15}
+G (\check {u}) = (2 \pi) ^ {- \nu / 2} \int_ {| \xi | \geq R} \hat {u} (\xi) \left(\langle - D, \eta \rangle^ {l} \left(\frac {\langle y , \xi \rangle^ {k}}{P (\xi)}\right)\right) d \xi\tag{3.4.15}
 $$
 
 and, dS being the vectorial element of area on the sphere  $|\xi|=R$ ,
@@ -2752,7 +2750,7 @@ $$
 
 Now  $F = G + I$ , so that we have proved that the distribution F, defined by (3.4.13), is a continuous function, if (3.4.14) is valid. We have also proved that the absolute value of F has an estimate of the form (3.4.17), (3.4.19), when x is in a compact set K. If we now choose l as the smallest integer such that (3.4.14) is valid, and recall that  $E(x) = E_{1}(x) + E_{2}(x)$ , where  $E_{2}(x)$  is an entire analytic function, the following theorem is proved.
 
-THEOREM 3.5. Let y be a vector in  $R^{v}$  and b the number introduced in Lemma 3.9. Then, for any compact set K, which does not contain the origin, there exists a constant C such that
+THEOREM 3.5. Let y be a vector in  $R^{\nu}$  and b the number introduced in Lemma 3.9. Then, for any compact set K, which does not contain the origin, there exists a constant C such that
 
 $$
 \left| \langle y, D \rangle^ {k} E (x) \right| \leq C ^ {k} \Gamma \left(\frac {k}{b}\right), x \in K,\tag{3.4.20}
@@ -2833,13 +2831,13 @@ $$
 is closed, and by assumption it is defined in the whole of U. Hence it is continuous in virtue of the theorem on the closed graph, so that
 
 $$
-\int_ {\Omega^ {\prime}} \sum_ {k = 1} ^ {v} \left| \frac {\partial u}{\partial x ^ {k}} \right| ^ {2} d x \leq C \int_ {\Omega} | u | ^ {2} d x, u \in U.
+\int_ {\Omega^ {\prime}} \sum_ {k = 1} ^ {\nu} \left| \frac {\partial u}{\partial x ^ {k}} \right| ^ {2} d x \leq C \int_ {\Omega} | u | ^ {2} d x, u \in U.
 $$
 
 If we apply this inequality to the function $u = e^{i\langle x,\xi \rangle}$, where $\zeta = \xi + i\eta$ is a solution of the equation $P(\zeta) = 0$, we obtain
 
 $$
-\left(\sum_ {k = 1} ^ {v} \mid \zeta_ {k} \mid^ {2}\right) \int_ {\Omega^ {\prime}} e ^ {- 2 \langle x, \eta \rangle} d x \leq C \int_ {\Omega} e ^ {- 2 \langle x, \eta \rangle} d x.
+\left(\sum_ {k = 1} ^ {\nu} \mid \zeta_ {k} \mid^ {2}\right) \int_ {\Omega^ {\prime}} e ^ {- 2 \langle x, \eta \rangle} d x \leq C \int_ {\Omega} e ^ {- 2 \langle x, \eta \rangle} d x.
 $$
 
 Hence when  $\eta$  is bounded,  $|\eta|<A$ , it follows that  $|\zeta|<C'$ , which proves that P is complete and satisfies the condition I of Theorem 3.3.
@@ -2997,7 +2995,7 @@ $$
 Thus $\varphi_{x,\alpha} \in \mathcal{D}_{\hat{P}^k}$ and $\hat{P}^k \varphi_{x,\alpha} = \varphi_{x,\lambda^k\alpha}$, for any integer $k$. Hence it follows from Theorem 3.6 that $\varphi_{x,\alpha}$ is an infinitely differentiable function $\varphi_{x,\alpha}(x')$, $x' \in \Omega$, and if $K'$ is a compact set in $\Omega$, Lemma 3.12 shows that
 
 $$
-\left| \varphi_ {x, \alpha} \left(x ^ {\prime}\right) \right| ^ {2} + \sum_ {i = 1} ^ {v} \left| \partial \varphi_ {x, \alpha} \left(x ^ {\prime}\right) / \partial x ^ {\prime i} \right| ^ {2} \leq C ^ {2} \left(\left\| \varphi_ {x, \alpha} \right\| ^ {2} + \left\| \varphi_ {x, \lambda^ {*} \alpha} \right\| ^ {2}\right), \quad x ^ {\prime} \in K ^ {\prime}.
+\left| \varphi_ {x, \alpha} \left(x ^ {\prime}\right) \right| ^ {2} + \sum_ {i = 1} ^ {\nu} \left| \partial \varphi_ {x, \alpha} \left(x ^ {\prime}\right) / \partial x ^ {\prime i} \right| ^ {2} \leq C ^ {2} \left(\left\| \varphi_ {x, \alpha} \right\| ^ {2} + \left\| \varphi_ {x, \lambda^ {*} \alpha} \right\| ^ {2}\right), \quad x ^ {\prime} \in K ^ {\prime}.
 $$
 
 Estimating the right-hand side of this inequality by means of (3.7.6), we thus obtain
@@ -3258,11 +3256,7 @@ $$
 P e ^ {i t \varphi} = t ^ {m} \sum_ {| \alpha | = m} a ^ {\alpha} \varphi_ {\alpha} + O (t ^ {m - 1})
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Ω</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$R^{\nu}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  It is sufficient here to suppose that  $\Omega$  is a domain in  $R^{\prime\prime}$ .</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  It is sufficient here to suppose that  $\Omega$  is a domain in  $R^{\nu}$ .</span></small>
 
 when $t \to \infty$, where $\varphi_k = \partial \varphi / \partial x^k$ and $\varphi_\alpha = \varphi_{\alpha_1} \ldots \varphi_{\alpha_m}$. Thus the polynomial
 
@@ -3322,7 +3316,7 @@ $$
 
 ## 4.2. Estimates of the minimal operator
 
-We shall now prove that an analogue of Theorems 2.1 and 2.2 is valid for certain differential operators P with variable coefficients. Since our results are not valid in the large, we may assume from the outset that our operator P is defined in a neighbourhood of a sphere  $|x| \leq A$  in  $R^{v}$ .
+We shall now prove that an analogue of Theorems 2.1 and 2.2 is valid for certain differential operators P with variable coefficients. Since our results are not valid in the large, we may assume from the outset that our operator P is defined in a neighbourhood of a sphere  $|x| \leq A$  in  $R^{\nu}$ .
 
 THEOREM 4.1. Suppose that $p(x, \xi)$ is real for real $\xi$ and of principal type, that is, that all the partial derivatives $\partial p(x, \xi) / \partial \xi_i$ do not vanish simultaneously for any real $\xi \neq 0$. Let the coefficients of $p(x, \xi)$ be continuously differentiable and the other coefficients of $P$ be continuous. Then there exists an open neighbourhood $\Omega$ of the origin, such that
 
