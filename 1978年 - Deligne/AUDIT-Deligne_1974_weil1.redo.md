@@ -111,3 +111,11 @@
 - 核对：où ε=±1 句与 ε 分段式、Grothendieck formulation 句、(2.7)（𝓕(r)=𝓕⊗Q_ℓ(r)）、Théorème (2.8)（𝓕~ le dual；四段链 Tr(x∪y):H^i(X,𝓕)⊗H_c^{2n-i}(X,𝓕ˇ(n))→H_c^{2n}(X,𝓕⊗𝓕ˇ(n))→H_c^{2n}(X,Q_ℓ(n))→Q_ℓ）、(2.9)（foncteur 𝓕↦𝓕_x、(2.9.1) H^0≅𝓕_x^{π_1}）、H_c^{2n}=H^0(𝓕∨(n))^∨=((𝓕_x^∨(n))^{π_1})^∨、invariants/coinvariants 句与 (𝓕_x)_{π_1(X,x)}(−n)、n=1 句、Scholie (2.10)（(i) H_c^0=o、(ii) H_c^2=(𝓕_x)_{π_1}（−1)）、support fini 句、(2.11) 起首。
 - 结果：PASS±（修复 1 处）。内容全部吻合；Luna 记号修复生效。印刷双重 dual 记号（(2.8) 行文 𝓕~、(2.8) 式内 𝓕ˇ、(2.9) 起 𝓕∨）在 md 中分别以 ^{\sim}/\vee 投影，忠实保留。修复 1 处：Scholie (2.10)(i) 印刷为「H_c^0(X,𝓕)=o si X est affine」，等号后为小写字母高度 o（p011_hc0_affine-11.png，对照同式 (ii) 的数字 1 高度），零排作 o quirk 首次见于显示式；md 原 0 改回 o。
 - 修复：`(2.10)(i) = 0` → `= o`（md 行 396；依据 p011_hc0_affine-11.png）。
+
+## p.012（PDF p.12 / 印刷 p.283）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 19:25 EDT。
+- PNG：audit-redo/p012.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p012_caract_E-12.png（300dpi）。
+- 旧审计对照：Luna p.012 = FAIL→已修复（(2.12) 的 script F dual 对偶与 twist、(2.13) 的 Z/ℓ^n(1)、书目指引 Q_ℓ、H_c^i、特征零）；本次重核修复后状态。
+- 核对：(2.11) 末句（monodromie locale）、Théorème (2.12) 双行链（H^i/H^{2-i} 无 c 下标、j_*𝓕ˇ(1)、j_*(𝓕⊗𝓕ˇ)(1)、=H^2(X,Q_ℓ(1))→Q_ℓ）、(2.13)（racines (ℓ^n)^ièmes）、(2.14) A)-E) 全部引注（VII、XVII 5.1、XIV 1/XVII 5.3、X、XVIII；SGA 5 XV §§1,2；[1]；(1.14.3)/(1.12)；SGA 4 XVIII (3.2.5)、S=Spec(k)）、§3 节标题、Rankin [3] 句、(3.1)（P^1、u point fermé、𝓕_0/𝓕）。
+- 结果：PASS±（修复 1 处）。内容全部吻合；Luna 的 (2.12)/(2.13) 修复生效；E) 段末「en caractéristique o」300dpi 终裁为小写 o（p012_caract_E-12.png，同句 modérée/relevant 的 o 同高），属零排作 o quirk——此即 block-1 总评预告的行 426 实例，本次回退 Luna 的 0 并登记。
+- 修复：行 426 `en caractéristique 0.` → `en caractéristique o.`（依据 p012_caract_E-12.png）。

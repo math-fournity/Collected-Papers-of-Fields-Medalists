@@ -423,7 +423,7 @@ C) La relation entre les divers Frobenius ((1.4), (1.11), (1.15)) est expliquée
 
 D) L'interprétation cohomologique des fonctions Z (1.14.3) est clairement exposée dans [1]; toutefois, la formule de Lefschetz (1.12), pour X une courbe projective et lisse, y est utilisée, mais non démontrée. Pour la démonstration, il faut, hélas, renvoyer à SGA 5.
 
-E) La forme (2.12) du théorème de dualité de Poincaré résulte du résultat général SGA 4, XVIII (3.2.5) (pour $\mathbf{S} = \operatorname{Spec}(k)$, $\mathbf{X} = \mathbf{X}$, $\mathbf{K} = j_{*}\mathcal{F}$, $\mathbf{L} = \mathbf{Q}_{\ell}$) par un calcul local qui n'est pas difficile. L'énoncé figurera explicitement dans la version définitive de SGA 5. Dans le cas où nous l'utiliserons (ramification de $\mathcal{F}$ modérée), on pourrait l'obtenir par voie transcendante, en relevant $\mathbf{X}$ et $\mathcal{F}$ en caractéristique 0.
+E) La forme (2.12) du théorème de dualité de Poincaré résulte du résultat général SGA 4, XVIII (3.2.5) (pour $\mathbf{S} = \operatorname{Spec}(k)$, $\mathbf{X} = \mathbf{X}$, $\mathbf{K} = j_{*}\mathcal{F}$, $\mathbf{L} = \mathbf{Q}_{\ell}$) par un calcul local qui n'est pas difficile. L'énoncé figurera explicitement dans la version définitive de SGA 5. Dans le cas où nous l'utiliserons (ramification de $\mathcal{F}$ modérée), on pourrait l'obtenir par voie transcendante, en relevant $\mathbf{X}$ et $\mathcal{F}$ en caractéristique o.
 
 ## 3. La majoration fondamentale.
 
