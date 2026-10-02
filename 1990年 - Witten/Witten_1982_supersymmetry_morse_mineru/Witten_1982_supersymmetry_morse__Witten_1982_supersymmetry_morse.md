@@ -70,7 +70,7 @@ Since $H$ and $P$ are quadratic in the $Q_i$, the fact that the $Q_i$ are odd (e
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$ In a world with one space and one time dimension, there is a single (anti-Hermitian) generator M of Lorentz transformations. It satisfies  $[M, H] = P$ ,  $[M, P] = H$ ,  $[M, Q_{1}] = \frac{1}{2}Q_{1}$ ,  $[M, Q_{2}] = -\frac{1}{2}Q_{2}$ . These relations, which say that  $(H, P)$  transform like a vector and  $(Q_{1}, Q_{2})$  like a spinor under Lorentz transformations, are compatible with (5).</span></small>
 
-We are now almost ready to understand why it is that modern mathematics has something to say about supersymmetry. The most important question about a supersymmetric theory is the question of whether there exists in the Hilbert space $\mathcal{H}$ a state $|\Omega\rangle$ which is annihilated by the supersymmetry operators $Q_{i}$,
+We are now almost ready to understand why it is that modern mathematics has something to say about supersymmetry. The most important question about a supersymmetric theory is the question of whether there exists in the Hilbert space $\mathscr{H}$ a state $|\Omega\rangle$ which is annihilated by the supersymmetry operators $Q_{i}$,
 
 $$
 Q _ {i} | \Omega \rangle = 0.\tag{8}

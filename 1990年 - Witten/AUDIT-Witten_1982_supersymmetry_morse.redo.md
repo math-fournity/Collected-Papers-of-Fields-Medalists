@@ -21,3 +21,8 @@
 - PNG：`audit-redo/p002.png`（pngmono 150dpi）
 - 核对：公式 (2)–(7)；相对论推广段；末段 H、P 偶性陈述；脚注 1（Lorentz 生成元 M 的对易关系）。
 - 结果：PASS±。(2) `Q_iH - HQ_i = 0`、(3) `Q_i^2 = H`、(4) `Q_iQ_j + Q_jQ_i = 0`、(5) `Q_1^2 = H + P, Q_2^2 = H - P, Q_1Q_2 + Q_2Q_1 = 0`、(6) `[Q_i,H] = [Q_i,P] = 0`、(7) `H = ½(Q_1^2 + Q_2^2)` 及前后正文逐项与印刷页相符；脚注 1 全文（含 `[M,H] = P`、`[M,P] = H`、`[M,Q_1] = ½Q_1`、`[M,Q_2] = −½Q_2`）相符。**Luna 旧修复重核：DocVortex 脚注碎片清除后无残留，完整脚注保留，正确**。差异仅：页眉 "662 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.003（PDF p.3 / 印刷 p.663）
+- PNG：`audit-redo/p003.png`（pngmono 150dpi）；Hilbert 记号终裁：`audit-redo/300dpi/p003_Hilbert_space.png`（300dpi 裁片）。
+- 核对：真空态讨论五段、公式 (8)、[21] 段至跨页句 "It may be shown that a solution does"。
+- 结果：FAIL（以原图为准）→ 修复后复核 PASS。正文与公式 (8) `Q_i|\Omega\rangle = 0` 及跨页断点均与印刷页相符。**发现 Luna 漏检 1 处记号错误**：md 将 "Hilbert space 𝓗 a state |Ω⟩" 的 script 𝓗 误作 `\mathcal{H}`（md line 73）；300dpi 裁片确认印刷字形与 p.001 判定的 `\mathscr{H}` 同形，已用结构化 Edit 修为 `$\mathscr{H}$`。**移交备注**：md line 639/643（§4，属 p.027/p.028 redo 复检范围）仍有 `\mathcal{H}`/`\tilde{\mathcal{H}}`，其印刷字形应由该两页 redo 仲裁，本轮不动。差异：页眉 "SUPERSYMMETRY AND MORSE THEORY 663" 未入 md（版面信息省略）。
