@@ -64,3 +64,11 @@
 - 发现并当场修复（均据 150 dpi 页图，上标集合字形 𝒮 与 p.006 300 dpi 裁片同款花体 S）：①L202 𝒢̄ 拍平为 $\bar{G}$；②L205/211/214/223 四处上标 \mathcal{I}→\mathcal{S}；③L254 "edges of G"→𝒢、"$Z^{J}$"→$\mathbf{Z}^{\mathcal{S}}$；④L256 Theorem 2.3 三处 "$Z^{I}$"→$\mathbf{Z}^{\mathcal{S}}$。
 - 备注：Proposition 2.2 前后印刷 D 为粗斜体、正文 X/Y/P/Φ 斜粗体拍平为普通体（字母与结构正确，排版级，登记不改）。
 - 结果：FAIL（7 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.008（PDF p.8 / 印刷 p.437）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:45 -0400。
+- PNG：`audit/ribet1990_p008.png`（pngmono，150 dpi）；仲裁裁片：`/tmp` 核验后未引用（"kernel is the group X" 无上杠、𝒮̃/𝒯̃ 字形，与 p.006 裁片同款花体）。
+- 核对：节标题 "Admissible curves"（印刷斜体小写 c，MD 一致）；admissible curve/Jordan-Livné [13] §3；e(i) 链替换与 P¹；surjection 𝒮̃→𝒮；τ: Z^𝒮→Z^𝒮̃；Z^𝒯→Z^𝒯̃；ι: D→D̃；α̃ kernel=X（300 dpi 确证无杠）；四图交换方 α,α̃,ι,τ；蛇图引理论证；段尾 "we can continue to" 接下页 ✓。
+- 发现并当场修复（记号级；依据 150 dpi 页图 + 300 dpi 裁片）：①L262 三处 \mathcal{I}→\mathcal{S}（sets 𝒮/𝒯、i∈𝒮 ×2）；②L264 "$C_k$"→$\mathcal{C}_k$、"sets I and T"→$\mathcal{S}$/$\mathcal{T}$、"$\tilde I/\tilde T$"→$\tilde{\mathcal{S}}/\tilde{\mathcal{T}}$；③L267 行间式 𝒮̃→𝒮；④L273 τ 式上下标；⑤L276 i∈𝒮、𝒮̃、"set T"、𝒯̃；⑥L282 "$Z^T$"→$\mathbf{Z}^{\mathcal{T}}$；⑦L290/292 两处 sets 𝒮̃/𝒯̃；⑧L295 交换图 (2) 上/下行 Z 上标 \mathcal{I}→\mathcal{S}、\tilde{\mathcal{I}}→\tilde{\mathcal{S}}。
+- 备注：D、D̃、P_k 等印刷粗斜体拍平（字母正确，登记不改）；印刷 ∪ 记号沿用前页 quirk。
+- 结果：FAIL（10 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

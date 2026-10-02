@@ -259,27 +259,27 @@ Proof. The first statement is Théorème 12.5 of [11]. The second statement foll
 
 ## Admissible curves
 
-Next, as a variant, we relax the condition that $\mathcal{C}$ be regular, assuming instead that $\mathcal{C}$ is an admissible curve in the sense of Jordan-Livné [13], §3. This assumption implies that special fiber $\mathcal{C}_k$ of $\mathcal{C}$ has only ordinary double points as singularities; we define the sets $\mathcal{I}$ and $\mathcal{T}$ as above. Moreover, there is a collection of positive integers $e(i), i \in \mathcal{I}$, such that the special fiber of a regular minimal model for $C$ may be obtained from $\mathcal{C}_k$ by replacing each singular point $i \in \mathcal{I}$ with $e(i) > 1$ by a chain of $(e(i) - 1)$ copies of the projective line $\mathbf{P}^1$.
+Next, as a variant, we relax the condition that $\mathcal{C}$ be regular, assuming instead that $\mathcal{C}$ is an admissible curve in the sense of Jordan-Livné [13], §3. This assumption implies that special fiber $\mathcal{C}_k$ of $\mathcal{C}$ has only ordinary double points as singularities; we define the sets $\mathcal{S}$ and $\mathcal{T}$ as above. Moreover, there is a collection of positive integers $e(i), i \in \mathcal{S}$, such that the special fiber of a regular minimal model for $C$ may be obtained from $\mathcal{C}_k$ by replacing each singular point $i \in \mathcal{S}$ with $e(i) > 1$ by a chain of $(e(i) - 1)$ copies of the projective line $\mathbf{P}^1$.
 
-This construction produces a “blow-up” of  $C_{k}$  where the sets I and T are replaced by analogues  $\tilde{I}$  and  $\tilde{T}$ . There is an evident surjective map
+This construction produces a “blow-up” of $\mathcal{C}_k$ where the sets $\mathcal{S}$ and $\mathcal{T}$ are replaced by analogues $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$. There is an evident surjective map
 
 $$
-\tilde {\mathcal {I}} \rightarrow \mathcal {I}
+\tilde {\mathcal {S}} \rightarrow \mathcal {S}
 $$
 
 gotten by contracting the $\mathbf{P}^1$'s. The associated map
 
 $$
-\tau \colon \mathbf {Z} ^ {\mathcal {I}} \to \mathbf {Z} ^ {\tilde {\mathcal {I}}}
+\tau \colon \mathbf {Z} ^ {\mathcal {S}} \to \mathbf {Z} ^ {\tilde {\mathcal {S}}}
 $$
 
-which takes each  $i \in I$  to the sum of its antecedents in  $\tilde{I}$  is then an injection with torsion free cokernel. On the other hand, the set T is a subset of  $\tilde{T}$ , so that we have a natural injection
+which takes each  $i \in \mathcal{S}$  to the sum of its antecedents in  $\tilde{\mathcal{S}}$  is then an injection with torsion free cokernel. On the other hand, the set $\mathcal{T}$ is a subset of  $\tilde{\mathcal{T}}$ , so that we have a natural injection
 
 $$
 \mathbf {Z} ^ {\mathcal {T}} \rightarrow \mathbf {Z} ^ {\tilde {\mathcal {T}}}
 $$
 
-Its restriction to the subgroup D of  $Z^{T}$  gives an injection
+Its restriction to the subgroup D of  $\mathbf{Z}^{\mathcal{T}}$  gives an injection
 
 $$
 \iota \colon D \to \tilde {D},
@@ -287,12 +287,12 @@ $$
 
 where $\tilde{D}$ is the analogue of $D$ for the blow-up.
 
-The calculus introduced above computes the groups $X$ and $\Phi$ for the Néron model of $\operatorname{Pic}^0(C)$. The computation starts with the sets $\tilde{\mathcal{I}}$ and $\tilde{\mathcal{T}}$ and an ordering of two components passing through each singular point of the blow-up. For example, this ordering defines a map $\tilde{\alpha}$ analogous to the map $\alpha$ seen above, whose kernel is the group $X$.
+The calculus introduced above computes the groups $X$ and $\Phi$ for the Néron model of $\operatorname{Pic}^0(C)$. The computation starts with the sets $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$ and an ordering of two components passing through each singular point of the blow-up. For example, this ordering defines a map $\tilde{\alpha}$ analogous to the map $\alpha$ seen above, whose kernel is the group $X$.
 
-To relate $X$ and $\Phi$ to the sets $\tilde{\mathcal{I}}$ and $\tilde{\mathcal{T}}$, we first order, as above, the two components of $\mathcal{C}_k$ which pass through each singular point $i$. We then find easily a (unique) analogous ordering for the blow up in such a way that the four maps $\alpha, \tilde{\alpha}, \iota$, and $\tau$ form a commutative square. The maps $\alpha$ and $\tilde{\alpha}$ are surjective, since the curve $\mathcal{C}_k$ is connected. Letting $Y$ be the kernel of $\alpha$, we discover a commutative diagram
+To relate $X$ and $\Phi$ to the sets $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$, we first order, as above, the two components of $\mathcal{C}_k$ which pass through each singular point $i$. We then find easily a (unique) analogous ordering for the blow up in such a way that the four maps $\alpha, \tilde{\alpha}, \iota$, and $\tau$ form a commutative square. The maps $\alpha$ and $\tilde{\alpha}$ are surjective, since the curve $\mathcal{C}_k$ is connected. Letting $Y$ be the kernel of $\alpha$, we discover a commutative diagram
 
 $$
-\begin{array}{c c c c c c c c c} 0 & \to & Y & \to & \mathbf {Z} ^ {\mathcal {I}} & \to & D & \to & 0 \\ & & \kappa \downarrow & & \tau \downarrow & & \iota \downarrow & & \\ 0 & \to & X & \to & \mathbf {Z} ^ {\tilde {\mathcal {I}}} & \to & \tilde {D} & \to & 0, \end{array}\tag{2}
+\begin{array}{c c c c c c c c c} 0 & \to & Y & \to & \mathbf {Z} ^ {\mathcal {S}} & \to & D & \to & 0 \\ & & \kappa \downarrow & & \tau \downarrow & & \iota \downarrow & & \\ 0 & \to & X & \to & \mathbf {Z} ^ {\tilde {\mathcal {S}}} & \to & \tilde {D} & \to & 0, \end{array}\tag{2}
 $$
 
 where the map  $\kappa$  is induced by  $\tau$  and  $\iota$ . Since  $\tau$  and  $\iota$  are injective, so is  $\kappa$ . Counting ranks, we see that the cokernel of  $\kappa$  is a torsion abelian group. On the other hand,  $\tau$  is such that its cokernel is torsion free. Since the Snake Lemma implies that the cokernel of  $\kappa$  injects into the cokernel of  $\tau$ ,  $\kappa$  is in fact an isomorphism. In other words, there is no difference between the groups X and Y, and we can continue to
