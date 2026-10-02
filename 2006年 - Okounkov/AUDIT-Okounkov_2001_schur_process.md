@@ -130,3 +130,9 @@
 - 全文复读：本块 13 处修复后重读整份最终 Markdown（1299 行），逐项核对每处修改与对应页 PNG/文本层证据一致，未发现原定修复遗漏，未引入新差异。
 - 只读脚本清点：`\tag` 恢复 43 个、编号 1–43 完整（p.017 修复使 \tag{22} 回归，(21)/(22) 相邻结构见行 610/614）；全文残余 ff 伪影仅剩 p.19+ 两处（行 947 "diferences"→Theorem 2 所在 p.24、行 1095 "difers…diferent"→§3.1.14 所在 p.30），按页证据纪律留待后续页块；7 个 images/ 引用全部存在；audit/ 内 p001–p018 页图 18 张齐全。
 - 分级统计（本块）：PASS 3（p.13/14/16）、PASS± 5（p.10/11/12/15/18）、FAIL 1（p.17，(22) 公式体与编号丢失，已在该页 commit 内按 p017.png 修复并复核）。
+
+## p.019（PDF p.19 / 印刷 p.19）
+- PNG：audit/p019.png（pngmono 150dpi）
+- 核对：Corollary 1（Prob({(t_i,h_i)}⊂𝔖̃(π))=det[K_{3D}(...)]）、式 (26)（二重围线积分与 z^{h1+(|t1|+1)/2}w^{−h2−(|t2|−1)/2} 权重）、§3/§3.1/§3.1.1、式 (27)（∫_γ e^{MS(x)}dx→0）、§3.1.2 开头
+- 结果：PASS±（一处已修复）：行 709 句末补句号（p019.png "for all but finitely many points x ∈ γ."）。
+- 备注：印刷 quirk "how suitable is the formula (22)"、"a much wider variety of specialization"（无复数 s）忠实保留；K_{3D} 记号与 (26) 结构全部吻合。

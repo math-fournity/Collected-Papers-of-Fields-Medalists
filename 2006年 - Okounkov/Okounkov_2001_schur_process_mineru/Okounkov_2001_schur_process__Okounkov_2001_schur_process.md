@@ -706,7 +706,7 @@ $$
 \int_ {\gamma} e ^ {M S (x)} d x \rightarrow 0, \quad M \rightarrow + \infty ,\tag{27}
 $$
 
-provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points$x \in \gamma$
+provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely many points$x \in \gamma$.
 
 ## 3.1.2
 
