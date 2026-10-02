@@ -477,3 +477,14 @@
 - 页面边界：p.44 的 “Proof of ③” 经本页开头确认属短正合列性质；本页最后转入 H-space mapping lemma，Markdown 第 1678 行的 `K_0A=π_0(BGL(A)^+)` 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复自由模秩、群分块/极限图与 Puppe 序列。
 - 记录：2026-10-02 03:45:35 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.046（PDF p.46 / 纸面圈号 46）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p046.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_vector-bundle-analogue.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_acyclic-representations.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_finite-classification.png`。
+- 核对：`K_0A=π_0(BGL(A)^+)`；与复向量丛分类的类比；有限复形到 `BGL(A)^+` 的映射与 acyclic replacement/表示的关系；Jordan–Hölder 同构表示对应的映射相等结论及其逆问题。
+- 结果：**FAIL**。
+- 印刷证据与差异：300dpi 裁片确认向量丛项为 `\widetilde{KU}(X)=[X,BU]=\lim_n[X,BU_n]`，基线第 1682 行把 `KU` 识成 `FU`，且极限项没有还原 `BU_n`。原图的 attempt 是 `X→BGL(A)^+` 与下方 `X'→BGL_n(A)` 组成的 acyclic 图；基线第 1685 行把第一个目标误成 `BGL_n(A)^+`，第 1687 行把箭头关系拆成游离的 `acyclic`，第 1691 行又把 `[X',BGL_n(A)]=Hom(π_1X',GL_n(A))` 的 `π_1X'` 损坏成 `π,X'`。有限复形的稳定映射式右端应为 `\lim_n[X,BGL_n(A)^+]`，基线第 1694 行重复写成 `[X,BGL(A)^+]`。原图第 1703 行说明 `π_1(BGL(A)^+)` abelian 并使用 acyclic maps 的 universal property；基线将 `abelian`、`acyclic maps` 和 perfect-subgroup 注记拼坏。结论处基线第 1705–1707 行把 `g` acyclic 写成 `acidic` 并损坏配对对象。原图第 1713 行的问题是两个同态 `π_1Y→GL_N` 是否给出同一 `[X,BGL(A)^+]` 元素，基线写成 `π,Y`。第 1715 行所述短正合列定理的结果是 `[E]=[E'⊕E'']`，基线重复 `E'`，并损坏目标 `BGL(A)^+`。第 1711 行的 `page_46_image_1.jpg` 与原图 “case of `S^n`” 旁的手绘图对应。
+- 页面边界：本页止于表示同构与 Jordan–Hölder 的问题，以及 “converse” 问题；Markdown 第 1719 行起的 Grothendieck 群记号属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `KU`/直极限、acyclic replacement、`π_1X'`、Jordan–Hölder 结论中的 `E''`。
+- 记录：2026-10-02 03:51:43 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
