@@ -121,6 +121,13 @@
 - 差异与修复：印刷 "every such L-shortest curve is **L-geodesic**"（无冠词 an；pdftotext 同证），MD 作 "is an $\mathcal{L}$-geodesic" → 已删 "an"（同 p.007 多冠词类）。
 - 备注：MD "$q .$In"（q 后空格句点）为 math/文本边界间距伪影，标点与印刷一致，登记不改；其余逐项一致。
 
+## p.016（PDF p.16 / 印刷 p.16）
+- PNG：audit-redo/p016.png（pngmono 150dpi）
+- 核对：H(X) trace Harnack 引语、(7.4) τ̄^{3/2}(R+|X|²)(τ̄)=−K+½L(q,τ̄)、K=∫₀^{τ̄}τ^{3/2}H(X)dτ、(7.5) L_τ̄=2√τ̄R−(1/2τ̄)L+(1/τ̄)K、(7.6) |∇L|²=−4τ̄R+(2/√τ̄)L−(4/√τ̄)K、二阶变分两行、d/dτ⟨∇_Y Y,X⟩ 展开式、(7.7)（含 2∇_XRic(Y,Y)−4∇_Y Ric(Y,X)）、(7.2) 左端正交弃项句、(7.8) ODE
+- 结果：PASS
+- 备注：全部公式（含各 (7.x) 编号与尾标点）与印刷逐项一致；无需修复。
+
+
 
 
 
