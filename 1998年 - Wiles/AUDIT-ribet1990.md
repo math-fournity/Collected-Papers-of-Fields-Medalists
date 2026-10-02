@@ -192,3 +192,10 @@
 - 核对：Lemma 3.17 收尾（Z[p⁻¹]、[41] Th. 5.7 p.89、□）；Theorem 3.15 证明（(E−E′,0)/(0,E−E′)、even power p^{2i}、π_j/θ_j 因子分解、λ=π₀−θ₁+…−θ_{2i−1}、δ(λ) 与 λ′）；Remark 3.18（Ron Livné、Bas Edixhoven）；τ 与 T_p 之区分（p-th Hecke、w_p 相对 divisor p）；正合列 0→Y→L→X⊕X→0；Theorem 3.19（T_p=−w_p on Y、(x,y)↦(τ(x)−y, px)）；αw_p=β、βw_p=α；T_p+w_p 经 α_*/β^* 分解、vanishes on Y；p+1=α_*α*=β_*β*、τ=β_*α*=α_*β*（上下标正确）；(τx,(p+1)x)、 Subtracting w_p、□ ✓ 全部与印刷一致。
 - 备注：E/E′ 全页粗体 enhanced 记号 MD 保留正确（块二修复后惯例稳定）；"even" 斜体拍平（登记不改）；□ 惯例不收录。
 - 结果：PASS。
+
+## p.024（PDF p.24 / 印刷 p.453）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 17:18 -0400。
+- PNG：`audit/ribet1990_p024.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：首段 "**T**=**T**_{Mpq}/…quotients of **T**/**T̄** of **T**" 粗体全行确证，未存档）。
+- 核对：**T**=**T**_{Mpq}、q-old/q-new quotients of **T**_{Mq}、pq-new quotient **T̄**；S=S₂(Γ₀(Mpq)) 与两个直和子空间；S_{pq-old}/S_{pq-new}（Petersson）；**T**-stable、**T̄**=image of **T** in End(S_{pq-new})；Theorem 3.20（**T**-module Y cuts out **T̄**）与 Proof（R=pq-new quotient、退化映射、purely toric、V=(R_{F_q})⁰、Hom(L,G_m)/Hom(X,G_m)、λ、dim(L)/dim(X)/dim(Y) 三组公式、四 copies of S₂(Γ₀(M))、λη isogeny、□）✓。
+- 发现并当场修复：①L828 五处 Hecke 代数粗体拍平（**T**=**T**_{Mpq}、**T**_{Mq}、quotients of **T**、**T̄** of **T**）；②L840 四处（**T**-stable、**T̄**、quotient of **T**、image of **T**）；③L842 四处（**T**-module、**T̄** of **T**、element t of **T**、0 in **T̄**）；④L844 两处（t∈**T**、0 in **T̄**）；⑤L852 四处 "$\mathbf{G}_{\mathfrak{m}}$"→"$\mathbf{G}_{\mathrm{m}}$"（印刷下标正体 m，同 p.018 仲裁）；⑥L868 一处同款 G_m。共 20 个记号点（300 dpi 裁片 + p.017/018 同款花体先例）。
+- 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
