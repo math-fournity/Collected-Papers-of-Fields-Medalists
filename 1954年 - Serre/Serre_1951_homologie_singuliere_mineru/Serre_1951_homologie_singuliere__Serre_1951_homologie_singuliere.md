@@ -407,7 +407,7 @@ Un diagramme.
 Considérons le diagramme (I) qui suit.
 
 $$
-\begin{array}{c c c c c} 0 \longrightarrow C _ {\infty} ^ {p - 1, 1} & \longrightarrow C _ {p - 1} ^ {p - 1, 1} & \stackrel {{d}} {{\longrightarrow}} B _ {p - 1} ^ {0, p - 1} & \longrightarrow 0 \\ \Bigg \downarrow & \Bigg \downarrow & \Bigg \downarrow \\ H _ {p} (A) & \longrightarrow H _ {p} (A / R) & \stackrel {{\partial}} {{\longrightarrow}} H _ {p - 1} (R) & \longrightarrow H _ {p - 1} (A) \\ \Bigg \downarrow & \Bigg \downarrow & \Bigg \downarrow & \Bigg \uparrow \\ 0 \longrightarrow E _ {\infty} ^ {p, 0} & \longrightarrow E _ {p} ^ {p, 0} & \stackrel {{d _ {p}}} {{\longrightarrow}} E _ {p} ^ {0, p - 1} & \longrightarrow E _ {\infty} ^ {0, p - 1} & \longrightarrow 0 \\ \Bigg \downarrow \lambda & \swarrow \mu & \Bigg \downarrow & \Bigg \uparrow \\ 0 & H _ {p} (S) & 0 & 0 & 0 \end{array}
+\begin{array}{c c c c c} 0 \longrightarrow C _ {\infty} ^ {p - 1, 1} & \longrightarrow C _ {p - 1} ^ {p - 1, 1} & \stackrel {{d}} {{\longrightarrow}} B _ {p - 1} ^ {0, p - 1} & \longrightarrow 0 \\ \Bigg \downarrow & \Bigg \downarrow & \Bigg \downarrow \\ H _ {p} (A) & \longrightarrow H _ {p} (A / R) & \stackrel {{\partial}} {{\longrightarrow}} H _ {p - 1} (R) & \longrightarrow H _ {p - 1} (A) \\ \Bigg \downarrow & \Bigg \downarrow & \Bigg \downarrow & \Bigg \uparrow \\ 0 \longrightarrow E _ {\infty} ^ {p, 0} & \longrightarrow E _ {p} ^ {p, 0} & \stackrel {{d _ {p}}} {{\longrightarrow}} E _ {p} ^ {0, p - 1} & \longrightarrow E _ {\infty} ^ {0, p - 1} & \longrightarrow 0 \\ \Bigg \downarrow & \searrow \lambda \quad \swarrow \mu & \Bigg \downarrow & \Bigg \uparrow \\ 0 & H _ {p} (S) & 0 & 0 & 0 \end{array}
 $$
 
 $(p \geq 2)$,

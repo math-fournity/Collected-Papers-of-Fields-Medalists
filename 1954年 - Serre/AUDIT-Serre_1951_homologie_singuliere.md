@@ -8,7 +8,7 @@
 - PDF SHA256=1420abbef07ec179ce1cbad72dec745b05a9f386fe1dbbeeaf98817835f9f69f
 - MD 基线 SHA256=cb13117e5f47226c41b61d39cff1b1760463ea47ea772c1b8ee6a2c6f571b6aa（mineru 原始导出 `Serre_1951_homologie_singuliere_mineru/Serre_1951_homologie_singuliere__Serre_1951_homologie_singuliere.md`）
 - 审计开始：2026-10-02 13:47
-- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。
+- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。分块 2（p.010–p.018）进行中。
 - 文本层判定：**可用**（JSTOR OCR 文本层；首页 `pdftotext -f 1 -l 1` 成功输出封面文字，p.2–p.3 数学正文页亦能输出全部段落文本）。但 OCR 噪声明显（例：`L'int6retde`、`getodesiques`、`memoireest` 等粘连/错字），故全程采用「**文本层主对账 + PNG 视觉核验**」双通道：文本层用于定位与文字对账，凡字形、上下标、公式、记号一律以 150dpi PNG（pngmono）视觉核验为最终裁决。
 - mineru doc_id：UNKNOWN（导出目录未含 doc_id 元数据，仅 `full.md` 等产物；如需可在 `structured_content.json` 侧另行核查）
 
@@ -83,3 +83,13 @@
 - 仲裁记录：①150dpi 初读展示式为 "⋯ → E_r^{p,0} → E_2^{p,0}"，600dpi（p009_E3_600.png）确认印刷为 **E_3^{p,0}**，MD 正确；②150dpi 初读 "rappelons" 句为 "E_2^{p,0} = C_2^p/(C_1^{p−1,1} + B_2^{p,0})"，600dpi（p009_E1_600.png）确认印刷为 **E_1^{p,0} = C_1^{p,0}/(C_0^{p−1,1} + B_0^{p,0})**，与 MD 逐字一致。
 - 差异：无。
 - 备注：md 行 371 起 "Dans le cas d'un espace fibré…" 属印刷 p.433，留待下一分块。
+
+## p.010（PDF p.10 / 印刷 p.433）
+- PNG：audit/p010.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p010_HpAR_600.png、p010_imDis_600.png、p010_diag1_600.png、p010_lamMu_600.png、p010_lamMu2_600.png（600dpi）
+- 核对：espace fibré E/F/B 段（R→A→S 与 F→E→B）；§3 标题 "La transgression et la suspension"；Le groupe A/R（π、π′: A^{p,0}/A^{0,p} → S_p、π_*′: H_p(A/R) → H_p(S)）；H_p(A/R) = C_p^{p,0}/(C_0^{0,p} + B_1^{p,0}) 与 H_p(B) = C_2^{p,0}/(C_1^{p−1,1} + B_1^{p,0})；π_*′ 的核（C_{p−1}^{p−1,1} → H_p(A/R) 的像）与像（C_p^{p,0}/[C_1^{p,0} ∩ (C_1^{p−1,1} + B_1^{p,0})] = C_p^{p,0}/(C_{p−1}^{p−1,1} + B_1^{p,0}) = E_p^{p,0}）；正合列 C_{p−1}^{p−1,1} → H_p(A/R) → E_p^{p,0} → 0；composé 段；Un diagramme + 图 (I)（三行三列/五行结构、(p ≥ 2)、suites exactes/commutatif/λ μ biunivoques 段）；La transgression 开头
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录：①初读疑 H_p(A/R) 公式为 C_1^{p,0}/(C_0^{p,0}+…)（MD 作 C_p^{p,0}/(C_0^{0,p}+B_1^{p,0})），600dpi（p010_HpAR_600.png）确认印刷为 **C_p^{p,0}/(C_0^{0,p} + B_1^{p,0})**，MD 正确；②初读疑 π_*′ 像展示式首项为 C_1^{p,0}，600dpi（p010_imDis_600.png）确认印刷为 **C_p^{p,0}**，MD 正确；③图 (I) 第一行 600dpi（p010_diag1_600.png）确证 C_∞^{p−1,1} → C_{p−1}^{p−1,1} —d→ B_{p−1}^{0,p−1}，MD 一致。
+- 差异与修复：
+  - **[已修复]** md 行 410 图 (I) 的线性化 array 把 λ 画在第一列竖箭头上（"\\Bigg \\downarrow \\lambda"），使 λ 的目标呈现为底行的 0；印刷（p010_lamMu_600.png、p010_lamMu2_600.png）中第一列竖箭头无标签（E_∞^{p,0} ↓ 0），λ 是从 E_∞^{p,0} 指向 H_p(S) 的右下斜箭头（箭头头部在 H_p(S) 端），μ 是从 E_p^{p,0} 指向 H_p(S) 的左下斜箭头。MD 原状与同页 "les homomorphismes λ et μ … sont biunivoques" 相矛盾。Edit 修复为 "\\Bigg \\downarrow & \\searrow \\lambda \\quad \\swarrow \\mu & …"（两斜箭头汇入 H_p(S)，竖箭头去 λ 标签），本页 commit 内 diff 可溯。
+- PASS± 项（不修）：mineru 将二维交换图线性化为 array，列间部分竖箭头（如 B_{p−1}^{0,p−1} ↓ H_{p−1}(R) 列的排布）与原图几何有出入，属图线性化固有近似，其余节点/标签逐项吻合。
+- 备注：md 行 413 起 "La transgression." 段的正文部分属印刷 p.434。
