@@ -107,3 +107,15 @@
 - 结果：FAIL（1 处印刷忠实性回退）。Prop 4.2 陈述（MD 行 341）：印刷为 **Ô^{nr}[[t_1, …, t_{b−1}]]**（下标 b，300dpi 与同裁片证明行 q^h 的双拱 h 字形可区分），MD（含 Luna 修复）为 t_{h-1}；已 Edit 回退为 `t_{b-1}`。**erratum 登记**：数学上应为 h−1（同句 "finite height h"），印刷排成 b——与 p.566 Prop 1.6 证明的 b/h 混用同族，按原样保留。
 - 重核 Luna 修复：递归估计两处 `p^{-i}`（c_i=|b_i|^{p^{-i}}、|a_j|^{p^{-i}}）与印刷相符（Luna 由 p-i 修复方向正确）；Proof 首行印刷确为 q^h−1（MD 相符，无需改）。
 - 另记（PASS± 级伪影，不改）：页眉 "570 V. G. DRINFEL'D" 未收。
+
+### p.010 勘误（本页落签后 600dpi 复核，随 p.011 commit 修正）
+
+- p.010 条目中"Proof 首行印刷确为 q^h−1（MD 相符，无需改）"的记录**有误**：600dpi/400% 终裁（audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p010_qh600.png）显示 p.570 证明行印刷为 **q^b − 1**（闭碗 b），先前 300dpi 读判（…_p010_proofopen.png / …_p010_qexp600.png）将 b 误读为 h。已补 Edit 行 343：q^h − 1 → q^b − 1。p.570 的 b 记号与 p.571 通篇 b（见下条）连贯：变形函子语境印刷通篇用 b（t_{b-1}、i ≤ b−1、q^b−1、Σ^{b−1}），erratum 登记不变（数学上均为 h）。
+
+## p.011（PDF p.11 / 印刷 p.571）
+
+- PNG：audit-redo/p011.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p011_F0.png（(F^0,f^0) 段）、…_p011_phipsi.png（Let φ: 段）；600dpi 终裁：…_p011_qh600.png（q^b 指数）
+- 核对：(F^0,f^0) 万能变形段、2-cocycle 定义与三组关系式、coboundary 定义、Lemma 1) 2)（含印刷 quirk "The exists"，MD 行 369 忠实保留）及证明、φ/ψ 同态构造段、(Δ_i,δ_i) 次数式、cohomology 基论证、a) 两条 coboundary congruence（x^n 与 x^{q^i}，C_{q^{i+h}}、(a^{q^{i+h}}−a)/π、h_i≠0）。
+- 结果：FAIL（印刷忠实性回退，b 记号 7 处）。印刷（300dpi+600dpi 定裁）在本页通篇作 **t_{b-1}**（×5）、**1 ≤ i ≤ b−1**、**j < q^b − 1**、**Σ_{i=1}^{b-1}**；MD（含 Luna 修复）均为 h 系。已 Edit：行 345（t_{h-1}×2、h-1、q^h−1 → b 系）与行 375（t_{h-1}×3、Σ_{i=1}^{h-1} → b 系）。**erratum 登记**：数学上均为 h（finite height h 的 h−1），印刷 b/h 混用延续 p.566/p.570 同族，按原样保留。
+- 重核 Luna 修复：cocycle 三组关系式、coboundary 式、(Δ_i,δ_i) ≡ 0 mod deg q^i / ≢ 0 mod deg(q^i+1)、mod m^r 两处（Luna 由 m' 修复）、a) 两条 congruence 全部与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 571" 未收。

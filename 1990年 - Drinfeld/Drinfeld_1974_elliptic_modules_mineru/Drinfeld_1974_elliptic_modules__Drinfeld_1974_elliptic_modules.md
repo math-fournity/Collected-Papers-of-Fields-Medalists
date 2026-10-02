@@ -340,9 +340,9 @@ Deformations $(F_{1}, f_{1})$ and $(F_{2}, f_{2})$ of the module $(G, g)$ are ca
 
 Proposition 4.2. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}$ of finite height $h$. The functor that associates to $R \in C$ the set of deformations of the module $(G, g)$ up to isomorphism is represented by the algebra $\hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$.
 
-Proof. Let $O[g_1, g_2, \ldots] = \Lambda_O \to \hat{O}^{nr} / (\pi)$ be the homomorphism corresponding to $(G, g)$. We can assume that under this homomorphism $g_i \to 0$ for $i < q^h - 1$. Let
+Proof. Let $O[g_1, g_2, \ldots] = \Lambda_O \to \hat{O}^{nr} / (\pi)$ be the homomorphism corresponding to $(G, g)$. We can assume that under this homomorphism $g_i \to 0$ for $i < q^b - 1$. Let
 
-$(F^0, f^0)$ be a deformation of $(G, g)$ with basis $\hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$ such that the corresponding homomorphism $\Lambda_O \to \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$ sends $g_i$ into $t_i$ for $1 \leq i \leq h-1$ and $g_j$ into zero for $j < q^h - 1$, $j \neq q^i - 1$. We shall show that $(F^0, f^0)$ is a universal deformation.
+$(F^0, f^0)$ be a deformation of $(G, g)$ with basis $\hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$ such that the corresponding homomorphism $\Lambda_O \to \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$ sends $g_i$ into $t_i$ for $1 \leq i \leq b-1$ and $g_j$ into zero for $j < q^b - 1$, $j \neq q^i - 1$. We shall show that $(F^0, f^0)$ is a universal deformation.
 
 Let $M$ be a vector space over $\hat{O}^{nr}/(\pi)$. A 2-dimensional cocycle of the module $(G, g)$ with coefficients in $M$ is a set $\{\Delta \in M[[x, y]], \delta_a \in M[[x]] \text{ for } a \in O\}$ such that
 
@@ -372,7 +372,7 @@ Lemma. 1) The exists a one-to-one correspondence between formal O-modules $(F^{\
 
 Proof. If $(F', f') \equiv (F'', f'') \mod m^r$, then the isomorphism of the deformations $(F', f')$ and $(F'', f'')$ is the identity mod $m^r$ (by Proposition 4.1). The remaining assertions can be verified directly. $\square$
 
-Let $\phi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ be a homomorphism such that $\phi(F^0, f^0) \equiv (F, f) \mod m^r$. For the proof of the proposition it suffices to show the existence and uniqueness of a homomorphism $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ such that $\psi \equiv \phi \mod m^r$ and $\psi_*(F^0, f^0) \approx (F, f)$. Let $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ be a homomorphism such that $\psi(t_i) = \phi(t_i) + \epsilon_i, \epsilon_i \in m^r$. Then the difference between the cocycles corresponding to $\phi_*(F^0, f^0)$ and $\psi_*(F^0, f^0)$ has the form $\Sigma_{i=1}^{h-1} \epsilon_i(\Delta_i, \delta_i)$, where $(\Delta_i, \delta_i)$ is a cocycle with coefficients in $\hat{O}^{nr}/(\pi)$ (which depends neither on $\epsilon_i$ nor on $r$). Then
+Let $\phi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ be a homomorphism such that $\phi(F^0, f^0) \equiv (F, f) \mod m^r$. For the proof of the proposition it suffices to show the existence and uniqueness of a homomorphism $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ such that $\psi \equiv \phi \mod m^r$ and $\psi_*(F^0, f^0) \approx (F, f)$. Let $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ be a homomorphism such that $\psi(t_i) = \phi(t_i) + \epsilon_i, \epsilon_i \in m^r$. Then the difference between the cocycles corresponding to $\phi_*(F^0, f^0)$ and $\psi_*(F^0, f^0)$ has the form $\Sigma_{i=1}^{b-1} \epsilon_i(\Delta_i, \delta_i)$, where $(\Delta_i, \delta_i)$ is a cocycle with coefficients in $\hat{O}^{nr}/(\pi)$ (which depends neither on $\epsilon_i$ nor on $r$). Then
 
 $$
 \left(\Delta_ {i}, \delta_ {i}\right) \equiv 0 \bmod \deg q ^ {i}, \left(\Delta_ {i}, \delta_ {i}\right) \not \equiv 0 \bmod \deg \left(q ^ {i} + 1\right).
