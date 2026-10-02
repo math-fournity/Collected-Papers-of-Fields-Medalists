@@ -253,3 +253,12 @@
 - 核对：Theorem 6.6 identity 收尾、Definition 6.7、Theorem 6.8、Proposition 6.9 及其 Tannakian reduction。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 1073 行把 Proposition 6.9 上下文中的 rational representation `V` 属于 `T` 误录成 `T_i`，并把 lattice `\mathbb V ⊂ V` 写成 `\mathbb V ⊂ V'`。第 1085 行把 source 中的 `A` 写成含 `\mathscr A` 的异形记号。第 1087 行的 projection `W → V` 和 quotient/surjection `T' → T` 均漏箭头。300dpi 裁片核实变量与箭头。
+
+## p.029（PDF p.29 / 印刷 p.29）
+- 时间：2026-10-02 01:06:03 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p029.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p029_Theorem7.1-fields.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p029_Corollary7.2-labels.png`
+- 核对：§7 开头、Theorem 7.1 与 Corollary 7.2 陈述，以及证明中导出的有限 étale 映射。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：§7 首段将 rigid flat vector bundles 的 rank 条件 `≤ m` 录为 `m`。Theorem 7.1 将 `G^c` 污染为含 `;` 的下标，将整数 `N'` 的第一次出现录为 HTML 上标 `1`，并把结论中的 `et V_p` 写成 `\Pi_{et}V_p`、底域下标 `E_v` 写成 `E_\tau`；300dpi 裁片确认印刷分别为 `G^c`、`N'`、`et V_p` 和 `E_v`。Corollary 7.2 的 `et V_{p^f}^{\oplus n}` 在 Markdown 中丢失 `t`；对应裁片确认印刷有完整的 `et` 标签。证明中有限 étale 映射 `S_{K'}(G',X') → S(G,X)` 在 Markdown 漏掉箭头。上述差异会改变量词范围、局部系统标签或映射关系。
