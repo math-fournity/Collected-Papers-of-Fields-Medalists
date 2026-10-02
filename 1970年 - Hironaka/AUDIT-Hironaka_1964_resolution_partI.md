@@ -183,3 +183,10 @@
 - 源级 print quirk：同一页正文印刷拼作 `conicides`；Markdown 忠实保留此拼法，不按英语惯用拼法订正。
 - 备注：印刷运行页眉和页码 131 未录入 Markdown，属导航元素省略。
 - 结论：参考文献 [16] 书名发生 OCR 误录，列为 FAIL；源级正文拼写 quirk 保留。
+
+### PDF p.025 / 96（印刷 p.132）— FAIL
+
+- 时间：2026-10-02 00:53 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.025 文本层、页图 `audit/Hironaka_1964_resolution_partI_p025.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p025_theorem_I.png` 与 MinerU Markdown 第 375–399 行。印刷在第 381、383 行关联段落和本页强形式起句反复使用罗马大写 `I`；Markdown 将其误录为阿拉伯 `1`（行 381、383）或小写 `i`，并在第 391 行把 `theorem` 拼成 `therem`。裁片确认这不是印刷写法差异，待全篇初审结束后逐处修复。
+- 备注：印刷运行页眉与页码 132 未录入 Markdown，属导航元素省略。
+- 结论：定理编号与术语有 OCR 误录，列为 FAIL。
