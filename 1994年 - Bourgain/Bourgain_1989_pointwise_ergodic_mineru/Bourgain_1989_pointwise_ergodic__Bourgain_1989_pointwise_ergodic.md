@@ -480,10 +480,12 @@ $$
 
 Fix $\alpha \in \mathbf{Z}$. For $k \in \mathbf{Z}$, consider a net $2^k = u_1 < u_2 < \ldots < u_N = 2^{k+1}$ of $N = N_\alpha$ equidistributed points. The number $N_\alpha$ will be specified later. Estimate
 
-(3.21)
+$$
+\begin{array}{r l} & {\left| \left| \left\{f * (\mathrm{K} _ {\alpha}) _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \right\} \right| \right| _ {v _ {2}} \leqslant} \\ & {\quad \left[ \sum_ {\ell = 1} ^ {\mathrm{N}} | f * (\mathrm{K} _ {\alpha}) _ {u _ {\ell}} | ^ {2} \right] ^ {1 / 2} +} \end{array}\tag{3.21}
+$$
 
 $$
-\begin{array}{r l} & {\left| \left| \left\{f * (\mathrm{K} _ {\alpha}) _ {t} \mid 2 ^ {k} \leqslant t \leqslant 2 ^ {k + 1} \right\} \right| \right| _ {v _ {2}} \leqslant} \\ & {\quad \left[ \sum_ {\ell = 1} ^ {\mathrm{N}} | f * (\mathrm{K} _ {\alpha}) _ {u _ {\ell}} | ^ {2} \right] ^ {1 / 2} +} \\ & {\quad \left\{\sum_ {\ell = 1} ^ {\mathrm{N}} \left[ \int_ {u _ {\ell}} ^ {u _ {\ell + 1}} | \partial_ {t} [ f * (\mathrm{K} _ {\alpha}) _ {t} ] | d t \right] ^ {2} \right\} ^ {1 / 2}} \end{array}\tag{3.22}
+\left\{\sum_ {\ell = 1} ^ {\mathrm{N}} \left[ \int_ {u _ {\ell}} ^ {u _ {\ell + 1}} | \partial_ {t} [ f * (\mathrm{K} _ {\alpha}) _ {t} ] | d t \right] ^ {2} \right\} ^ {1 / 2}\tag{3.22}
 $$
 
 majorizing $v_{2}([u_{\ell}, u_{\ell+1}])$ by $v_{1}([u_{\ell}, u_{\ell+1}])$.
@@ -513,7 +515,7 @@ Summation of (3.17), (3.18) yields (3.14), which proves Lemma 3.11.
 Let us point out one application of Lemma 3.11 to the convergence of the averages
 
 $$
-\mathrm{A} _ {\mathbf {N}} f = \frac {1}{\overline {{\mathbf {N}}}} \sum_ {1 \leqslant n \leqslant \mathbf {N}} \mathbf {T} ^ {n} f
+\mathrm{A} _ {\mathbf {N}} f = \frac {1}{\mathbf {N}} \sum_ {1 \leqslant n \leqslant \mathbf {N}} \mathbf {T} ^ {n} f
 $$
 
 in Birkhoff's theorem.
