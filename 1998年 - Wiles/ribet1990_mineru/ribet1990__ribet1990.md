@@ -453,7 +453,7 @@ $$
 
 furnishes a 1-1 correspondence between the set of isomorphism classes of pairs $(\mathbf{E},\lambda)$ and the set $H_{\mathbf{f}}^{*} / R_{\mathbf{f}}^{*}$ of "enhanced" lattices in $V(\mathbf{E}_0)$. Dividing by $\mathbf{Q}^*$, we obtain a 1-1 correspondence between $H_{\mathbf{f}}^{*} / (R_{\mathbf{f}}^{*}\mathbf{Q}^{*})$ and the set of isomorphism classes of pairs $(\mathbf{E},\kappa)$ with $\mathbf{E}$ an enhanced elliptic curve and $\kappa$ an injection $\operatorname{End}(\mathbf{E})\otimes \mathbf{Q}\to H$.
 
-Take  $g \in H_{f}^{*}$  and consider the associated pair  $(\mathbf{E}, \kappa)$ . The image of End(E) (resp. End(E)) in H is the order  $H \cap (gR_{\mathbf{f}}g^{-1})$  (resp.  $H \cap (gA_{\mathbf{f}}g^{-1})$ ). Thus  $\kappa$  maps End(E) to R and End(E) to A if and only if we have the equalities
+Take  $g \in H_{f}^{*}$  and consider the associated pair  $(\mathbf{E}, \kappa)$ . The image of End($\mathbf{E}$) (resp. End($E$)) in H is the order  $H \cap (gR_{\mathbf{f}}g^{-1})$  (resp.  $H \cap (gA_{\mathbf{f}}g^{-1})$ ). Thus  $\kappa$  maps End($\mathbf{E}$) to R and End($E$) to A if and only if we have the equalities
 
 $$
 g A _ {\mathbf {f}} g ^ {- 1} = B _ {\mathbf {f}}, \quad g R _ {\mathbf {f}} g ^ {- 1} = S _ {\mathbf {f}}.

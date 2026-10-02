@@ -106,3 +106,10 @@
 - 发现并当场修复（粗体 enhanced 对象拍平，字母身份级记号）：①L434 "$E\approx E^{\prime}$"→"$\mathbf{E}\approx\mathbf{E}^{\prime}$"（300 dpi 确证印刷粗体）；②L436 "curve $E_{0}$"→"$\mathbf{E}_{0}$"（300 dpi 确证粗体）。
 - 备注：For each **E**、endomorphisms of **E**₀、(E₀,B₀) 等其余粗体拍平处字母不变，登记不改；L444 两处 End(**E**) MD 本即粗体正确（300 dpi 核验）；Hom(E,E₀) 内 E₀ 印刷斜体、MD 一致。
 - 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.013（PDF p.13 / 印刷 p.442）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:28 -0400。
+- PNG：`audit/ribet1990_p013.png`（pngmono，150 dpi）；仲裁裁片：`audit/300dpi/ribet1990_p013_endE.png`（pnggray，300 dpi）。
+- 核对：λ′ 配对同构判据（ι: E→E′、λ′ι、[42] Prop. 3.4）；(E,λ)↦T(E)⊂V(E₀)；H_f*/(R_f*Q*) 与 pairs (E,κ)；gA_fg⁻¹=B_f、gR_fg⁻¹=S_f；局部素点分析（l=q：Lemme 1.5 p. 34、两类、除以 Q_q* 对应 Z/2Z；l 与 qM 互素：M(2,Q_l)、Th. 2.3 p. 38、normalizer）；l|M：Eichler 序 R_l/S_l、A′=End(E′)、树 Δ 与 [33] Ch. II、Elementary Divisor Theorem、Z_le₁⊕lⁿZ_le₂；h⁻¹g∈N(A_l)∩N(B_l)=R_l*Q_l*；全局两类被 Frobenius 交换、Remark 3.5b、□ ✓。
+- 发现并当场修复（粗体 enhanced 对象 End(**E**) 拍平，2 处；300 dpi 裁片 ribet1990_p013_endE.png 确证印刷为 End(**E**) (resp. End(E)) / End(**E**) to R and End(E) to A）：L456 "The image of End(E) (resp. End(E))"→"End(𝐄) (resp. End(𝐸))"；"maps End(E) to R and End(E) to A"→"End(𝐄) to R and End(𝐸) to A"。
+- 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
