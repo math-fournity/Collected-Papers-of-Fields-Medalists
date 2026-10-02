@@ -9,6 +9,32 @@
 >   print 页码 = PDF p.N + 1016（p.001=1017 … p.017=1033）。
 > - 本块范围：p.1–p.9（p.10–p.17 由后续块处理）。
 
+## 总评（全 17 页完成后补；Wf-P41，2026-10-02）
+
+- **覆盖**：p.001–p.017 全部 17 页逐页审计完成（同 actor 两块连续执行：p.1–9 + p.10–17），
+  非抽查；每页 PNG（audit/p001–p017.png，pngmono 150dpi）+ born-digital 文本层双通道对账。
+- **等级分布**：PASS± 1 页（p.002，仅排版伪影+print quirk 登记）；其余 16 页 PASS（其中 12 页
+  含修复，均修复后 PASS）；无 FAIL 未决项。
+- **修复合计 40 处**（逐处计数：p.1×2、p.4×1、p.5×1、p.8×1、p.9×1、p.11×5、p.12×2、
+  p.13×5、p.14×13、p.15×4、p.16×3、p.17×2；每处可溯源至页码+原图+文本层，见各页条目）：
+  题录期刊头补回与 © 还原（p.1）；转写错字族 diferent/coeficients/sufices/dificult/
+  dificulties/ineficient 等按 print 逐一还原；mineru 结构性损伤重建——S/T 矩阵（p.8）、
+  −1/16380 乱码与无效命令 \overrightharpoon（p.11）、As t→∞ 丢箭头（p.13）、DOI URL 乱码
+  （p.13）、Lemma A.1 脚注 1 六块乱序重排（p.14）、Viazovska 地址块乱序+重音还原（p.17）；
+  游离字符与断行 URL 并行（p.9/p.11 Letπii/p.16 ×2/[8] arXiv/[13] DOI）。
+- **print quirk 忠实保留登记**（不改）：p.2 "Optimizing the bound from Theorem 1.1"（语义应指
+  Theorem 1.2，双通道确认系印刷原状）；p.15 Lemma A.2 证明中 t≤1 情形经换元后原文写
+  "for t ≥ 1"（同属印刷原状）。排版级伪影（数字空格、双句点族、<sub>,</sub> 逗号、small caps
+  拍平等）按 SOP 登记不改。
+- **mineru doc_id**：导出目录仅含 images/、middle_json.json、structured_content.json，
+  无 doc_id 落盘，无法登记（非遗漏）。
+- **MD 终态**：mineru 原始导出（基线 SHA bed8ba55…）→ 逐页结构化 Edit 修复 → 全文复读核验
+  → 只读脚本清点（命令与结果：`grep -c "coeficients|diferent|sufice|dificult|…"` = 0、
+  游离字符/无效命令模式 = 0、`grep -c 'tag{'` = 20（(2.1)–(2.10)/(3.1)–(3.5)/(4.1)–(4.5)
+  齐全）、关键系数与修复串逐项 ≥1；含复读补修 p.13 "dificult"→difficult 一处）；
+  修复链完整保留于 git 历史（17 个页级 commit + 本总评 commit）。
+
+
 ## p.001（PDF p.1 / 印刷 p.1017：题录页 + §1 开头 + Theorem 1.1 + 页底脚注）
 - PNG：audit/p001.png（pngmono 150dpi）
 - 核对：题录——标题 "The sphere packing problem in dimension 24"、作者行 "By Henry Cohn, Abhinav
@@ -178,7 +204,9 @@
   ②"it sufices to prove"（(4.5) 前）→ "suffices"；③"take a diferent approach" →
   "different"（print p.13 文本层 "different"）；④DOI URL 乱码
   "$\mathrm{https}//\mathrm{doi.org}/10$ 4007/…" → 纯文本 "https://doi.org/10.4007/annals.2017.185.3.8"
-  （print 跨行 "10. / 4007"，与 p.1 题录 DOI 一致；便于检索）
+  （print 跨行 "10. / 4007"，与 p.1 题录 DOI 一致；便于检索）；⑤【全文复读补登】段末
+  "not dificult to check" → "difficult"（print p.13 末句 "not difficult to check in any
+  computer algebra system"，初审遗漏、复读发现后补修，证据同 p013.png）
 - 结果：PASS（修复后）
 
 ## p.014（PDF p.14 / 印刷 p.1030：Appendix A 方法论 + Lemma A.1 证明前半 + 脚注 1）
