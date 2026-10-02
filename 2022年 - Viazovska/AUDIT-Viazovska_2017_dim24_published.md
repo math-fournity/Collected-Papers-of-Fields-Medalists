@@ -218,6 +218,25 @@
   "Lemma$\mathrm{A.1}$ For" 句点缺失
 - 结果：PASS（修复后）
 
+## p.016（PDF p.16 / 印刷 p.1032：Lemma A.3 + References [1]–[10]）
+- PNG：audit/p016.png（pngmono 150dpi）
+- 核对：**Lemma A.3：t≥1 时 B(t) > 1/39·te^{2πt} − 10/(117π)·e^{2πt}**（严格不等号 ✓）、
+  证明（乘 Δ²、q⁵⁰ 截断、误差 ≤10^{−50}q⁶、Sturm 收尾）、References 头、
+  **[1]–[10] 逐条核对**：[1] Cohn Notices 64 (2017) 102–115 + noti1474；[2] Cohn–Elkies Ann. 157
+  (2003) 689–714 + MR 1973059 + Zbl 1041.52011 + math/0110009；[3] Cohn–Kumar Ann. 170 (2009)
+  1003–1050 + MR 2600869 + Zbl 1213.11144 + math.MG/0403263；[4] Cohn–Miller preprint 2016 +
+  arXiv 1603.04759；[5] Conway–Sloane Grundl. 290 1999 + MR 1662447 + Zbl 0915.52003；
+  [6] Ebeling Adv. Lect. Math. 2013 + MR 2977354 + Zbl 1257.11066；[7] Hales Ann. 162 (2005)
+  1065–1185 + MR 2179728 + Zbl 1096.52010；[8] Hales et al. 22 作者名单逐姓核对 ✓ +
+  Forum of Mathematics, Pi + arXiv 1501.02155；[9] de Laat–Vallentin Nieuw Arch. Wiskd. 17
+  (2016) 184–192 + 1607.02111；[10] PARI/GP 2.9.1 2016 Bordeaux ✓
+- 差异与修复（print 双通道核验）：①"Lemma A.3. For all$t \geq 1$2" 游离 2 → ","（print 逗号，
+  与 p.9 同型）；②"$10^{-50}q^6$2 and Sturm's" 游离 2 → ", and"（print 逗号）；③
+  [8] "arXiv 1501. 02155"（print 跨行 "1501. / 02155"）→ 并行 "1501.02155"（同 [7] DOI 并行先例）
+- 残留排版伪影（登记不改）：参考文献作者 small caps 拍平（H. COHN→H. Cohn 等，mineru 一致风格）
+- 结果：PASS（修复后）
+
+
 
 
 

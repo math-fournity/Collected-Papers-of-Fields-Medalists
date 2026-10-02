@@ -569,7 +569,7 @@ Of course these proofs are by no means optimized. Instead, they were chosen to b
 
 The final inequality we must verify is (4.5):
 
-Lemma A.3. For all$t \geq 1$2
+Lemma A.3. For all$t \geq 1$,
 
 $$
 B (t) > \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}.
@@ -581,7 +581,7 @@ $$
 B (t) - \left(\frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\right)
 $$
 
-by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show that removing the$q ^ { 5 0 }$and higher terms introduces an error bound of at most$1 0 ^ { - 5 0 } q ^ { 6 }$2 and Sturm’s theorem again completes the proof.
+by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show that removing the$q ^ { 5 0 }$and higher terms introduces an error bound of at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem again completes the proof.
 
 ## References
 
@@ -599,7 +599,7 @@ by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show tha
 
 [7] T. C. Hales, A proof of the Kepler conjecture, Ann. of Math. 162 (2005), 1065–1185. MR 2179728. Zbl 1096.52010. https://doi.org/10.4007/annals.2005.162.1065.
 
-[8] T. Hales, M. Adams, G. Bauer, D. T. Dang, J. Harrison, T. L. Hoang, C. Kaliszyk, V. Magron, S. McLaughlin, T. T. Nguyen, T. Q. Nguyen, T. Nipkow, S. Obua, J. Pleso, J. Rute, A. Solovyev, A. H. T. Ta, T. N. Tran, D. T. Trieu, J. Urban, K. K. Vu, and R. Zumkeller, A formal proof of the Kepler conjecture, to appear in Forum of Mathematics, Pi. arXiv 1501. 02155.
+[8] T. Hales, M. Adams, G. Bauer, D. T. Dang, J. Harrison, T. L. Hoang, C. Kaliszyk, V. Magron, S. McLaughlin, T. T. Nguyen, T. Q. Nguyen, T. Nipkow, S. Obua, J. Pleso, J. Rute, A. Solovyev, A. H. T. Ta, T. N. Tran, D. T. Trieu, J. Urban, K. K. Vu, and R. Zumkeller, A formal proof of the Kepler conjecture, to appear in Forum of Mathematics, Pi. arXiv 1501.02155.
 
 [9] D. de Laat and F. Vallentin, A breakthrough in sphere packing: the search for magic functions, Nieuw Arch. Wiskd. 17 (2016), 184–192. arXiv 1607.02111.
 
