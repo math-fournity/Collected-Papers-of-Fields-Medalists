@@ -400,3 +400,14 @@
 - 页面边界：本页止于 `id*id=id*s_*p_*` 的 cancellation 备注；Markdown 第 1404 行的矩阵代数定义在下一页核对。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张裁片恢复交换图、归纳映射与卷积乘法 `μ`。
 - 记录：2026-10-02 03:11:36 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.039（PDF p.39 / 纸面圈号 39）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p039.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p039_triangular-ring.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p039_spectral-sequences.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p039_corollary.png`。
+- 核对：上三角矩阵环 `B` 与 `GL_n(B)` 的块矩阵识别；`K_nB≅K_nA⊕K_nA`；通过群扩张/群上同调谱序列比较得出的稳定同调结论；`r→∞` 后的对角环到 `B` 的嵌入。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图定义 `B=\{\left(\begin{smallmatrix}a&b\\0&d\end{smallmatrix}\right)\}=\left(\begin{smallmatrix}A&A\\0&A\end{smallmatrix}\right)`；基线第 1404 行将右下角结构写坏，并把零元 `0` 写成 `o`。原图第 1408–1416 行描述 `GL_n(B)` 的网格矩阵经共轭识别为 `\left(\begin{smallmatrix}GL_n(A)&M_n(A)\\0&GL_n(A)\end{smallmatrix}\right)`；基线把 `GL_n` 识成 `GL_0`，第 1412 行的共轭示意几乎不可读，第 1416 行的分块群也损坏。`K_nB≅K_nA⊕K_nA` 的断言（第 1419 行）与原图吻合。证明中的两条扩张，原图第一条以 `G_n` 为核、上三角块的右下角为 `GL_n`，第二条以 `GL_n` 为核、商为 `GL_r`；基线第 1430 行将第一条右下角误为 `GL_r`，第 1434 行又把第二条左端的 `1` 写成 `Φ`。群上同调谱序列的 `E^2_{p,q}=H_p(GL_r,H_q(G_n))` 与 `E^2_{p,q}=H_p(GL_r,H_q(GL_n))` 及各自的上三角/对角目标在基线第 1440、1444 行被损坏；第 1447–1450 行也没能还原原图的“极限保持正合性，因此由 Comparison Theorem 得同构”推理。末尾关于 `r→∞` 的嵌入在第 1452–1454 行仍有结构破损。
+- 页面边界待续核：原图页尾的 `diag(A,A)⊂B` 嵌入说明延伸到本页下缘；Markdown 第 1456 行起继续出现对同调对象的短语，待第 40 页确认续句的精确边界后再回修本条。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片重建环/群块矩阵、两条群扩张与比较谱序列。
+- 记录：2026-10-02 03:15:38 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
