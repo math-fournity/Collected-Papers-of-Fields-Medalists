@@ -598,3 +598,14 @@
 - 页面边界：本页以 `\widetilde F(X,A)×\widetilde F(Y,B)→\widetilde F(X∧Y,A⊗B)` 的自然产品收尾；Markdown 第 2034 行起的 extension exercise 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_0A` 因子、H-group projection 图、smash/wedge exact sequence 与自然产品。
 - 记录：2026-10-02 04:42:57 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.057（PDF p.57 / 纸面圈号 57）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p057.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p057_product-exercise.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p057_lambda-ring.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p057_adams-series.png`。
+- 核对：球面维数下乘法的结合/交换性质；交换环上的 graded-anticommutative `K_*A`；Atiyah λ-ring 的生成级数、加法乘法恒等式与 Adams operations 起始公式。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 2037 行明确为 `K_*A` graded anticommutative ring，基线写成 `K_x A` 与 `king`。Atiyah 生成级数是 `\lambda_t(x)=1+\lambda^1(x)t+\lambda^2(x)t^2+\cdots∈K(X)[[t]]`；基线第 2056 行末尾把 `K(X)` 误成 `eK(X)`。原图 λ-ring 公理为 `\lambda_t(x+y)=\lambda_t(x)\lambda_t(y)`，基线第 2059 行将乘法改成逗号；第 2067 行的复合恒等式以 `P_{k,\ell}` 记多项式，基线输出为 `P_{13,k}`。对线丛，原图是 `\lambda_t(L)=1+tL`、`\lambda_{-t}(L)=1-tL` 及 `\ln(1/(1-tL))=tL+t^2L^2/2+t^3L^3/3+…`；基线第 2085 行丢失 `-t` 下标，第 2093 行把三次项分母 3 写成 5。Adams operations 的后续幂和式仍有符号/分数丢失，待结合下一页边界核对。
+- 页面边界待续核：原图 p.57 的可见末段为线丛的 `λ`-级数与对数展开；Markdown 第 2097 行起的 reciprocal、导数和 Adams 幂和式待 p.58 图像确认是否跨页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_*A`、λ-ring 乘法/复合公理及 Adams 线丛展开。
+- 记录：2026-10-02 04:52:19 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
