@@ -113,3 +113,11 @@
 - 核对：λ′ 配对同构判据（ι: E→E′、λ′ι、[42] Prop. 3.4）；(E,λ)↦T(E)⊂V(E₀)；H_f*/(R_f*Q*) 与 pairs (E,κ)；gA_fg⁻¹=B_f、gR_fg⁻¹=S_f；局部素点分析（l=q：Lemme 1.5 p. 34、两类、除以 Q_q* 对应 Z/2Z；l 与 qM 互素：M(2,Q_l)、Th. 2.3 p. 38、normalizer）；l|M：Eichler 序 R_l/S_l、A′=End(E′)、树 Δ 与 [33] Ch. II、Elementary Divisor Theorem、Z_le₁⊕lⁿZ_le₂；h⁻¹g∈N(A_l)∩N(B_l)=R_l*Q_l*；全局两类被 Frobenius 交换、Remark 3.5b、□ ✓。
 - 发现并当场修复（粗体 enhanced 对象 End(**E**) 拍平，2 处；300 dpi 裁片 ribet1990_p013_endE.png 确证印刷为 End(**E**) (resp. End(E)) / End(**E**) to R and End(E) to A）：L456 "The image of End(E) (resp. End(E))"→"End(𝐄) (resp. End(𝐸))"；"maps End(E) to R and End(E) to A"→"End(𝐄) to R and End(𝐸) to A"。
 - 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.014（PDF p.14 / 印刷 p.443）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:38 -0400。
+- PNG：`audit/ribet1990_p014.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：页中斜体 T 与页末正体 T 对比核验，未存档）。
+- 核对：h⁻¹g∈N(A_l)∩N(B_l) 链式等式；两类被 Frobenius 交换、Remark 3.5b、□；节标题 "Action of Hecke operators on X"（印刷斜体 run-in，MD 一致）；Hecke 对应定义（[39] Chapter 7、Δ′、det(α)=n、X_SS(α)、page 183）；"modular" 定义（(7.2.4)、Proposition 3.36 of [39]、rational field Q）；J₀(N) 的 two ways（Albanese/Pic）；抽象对应框架（U×V、f/g 投影、A_X/A_U/A_V、f_*,g_*,f*,g*、ξ: A_U→A_V、T: A_V→A_U、[39] §7.2）；φ: U→V 特例段尾 "refer to ξ and T as" 接下页 ✓。
+- 印刷 quirk 登记：页末 "refer to ξ and T as" 的 T 印刷为正体（同页它处均斜体 T；300 dpi 对比确证）；MD 该句恰为正体 T，与印刷一致，不修改。
+- 备注："in *two* ways" 斜体拍平（登记不改）。
+- 结果：PASS。
