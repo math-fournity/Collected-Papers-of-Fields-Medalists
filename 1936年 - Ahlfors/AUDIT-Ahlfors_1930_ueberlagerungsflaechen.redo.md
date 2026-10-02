@@ -212,4 +212,18 @@
 - 与 Luna 旧记录交叉：Luna 修复表 p.17 行为「两处 𝒜′/𝒜″ 还原为 Δ′/Δ″」——本页 Δ′/Δ″ 均正确（该修复对象应在 p.018 内容，待次页核）；本次 (II. I) 与多余逗号系旧审计未检出项。
 - 页界：本页止于「woraus sofort λ_a ≦ kL folgt.」，衔接正确。
 
+### p.018（PDF p.18 / 印刷 p.174）
+
+- audited_at=2026-10-02 19:10 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p018.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p018_zusammen_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p018_zasammen_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p018_zusammenhang2_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p018_sumplus_300dpi.png`。
+- 核对：页眉（174 / Lars Ahlfors.）、Die Grössen λ′ und λ″ 段（γ_μ、σ′/σ″）、公式 `Σ_{Ω′}λ(σ′)+Σ_{Ω′}λ(σ″)≦Σ_{ν≠μ}s(γ_ν)≦(q−1)s(γ_μ)+(q−2)kL(Ω′).¹`（脚注标 ¹ 在 ✓）、Wenn wir diese 段（λ′+2λ″）、公式 `λ′+2λ″≦(q−1)λ_a+(q−2)kL≦(2q−3)kL.`（句点在）、Hiermit 段、编号段 16（Rückkehrschnitte γ̄、W̄₀、σ̄、Zerlegungsgesetz (4)）、公式 (9) `ϱ=Σϱ(W̄)+n(σ̄),`（逗号在、\tag{9}、n(σ̄) 横线 ✓——Luna p.18「补回 n(σ̄) 横线」经原页核验正确）、wo n(σ̄) 段、第二式 `ϱ=Σϱ⁺(W̄)−N₁+n(σ̄)`（无标点）、schreiben 段（N₁）、Nach einem grundlegenden Satz 段、页末断词「mehr-」、脚注 ¹「Die linksstehenden Summen…」。
+- 发现并修复（MD 结构化 Edit，4 处）：
+  1. 行 431 `Σ_{v≠μ}s(γ_v)` → `Σ_{ν≠μ}s(γ_ν)`——同一公式链在 p.017 侧均已转写 `\gamma_{\mu}/\gamma_{\nu}`，印刷下标同形（v/ν 不可辨，p.003 已证），统一转写（段内移交项核销）。
+  2. 行 451 `Σ⁺ϱ(W̄)` → `Σϱ⁺(W̄)`（`\sum^{+}` → `\sum \stackrel{+}{\varrho}`）——300dpi 裁片显示加号在 **ϱ 上方**而非 Σ 上方；与 Luna p.20「ρ⁺ 位置」修复同类的加号归位。
+  3. 行 456 还原印刷误植「zusammenhängende」→「**zasammenhängende**」——300dpi 裁片（`…p018_zasammen_300dpi.png`）确证印刷原文为 z-a-s；Luna 旧修复「zasammenhängende→zusammenhängende」违反 print quirk 忠实原则，本次撤销并还原；同段第二处「zusammenhängend」经裁片核验印刷拼写正确、维持不动。
+  4. 删除两块游离脚注碎片 `$\Omega^{\prime}$`、`$\sigma^{\prime}$`（真实脚注 ¹ 完整含此二记号，碎片为 mineru 重复伪影；段内移交项核销）。
+- 结果：PASS±（4 处修复后与印刷一致）。
+- 与 Luna 旧记录交叉：旧表 p.18 行两项中「补回 n(σ̄) 横线」正确维持；「zasammenhängende→zusammenhängende」经原页仲裁判定为对印刷误植的不忠实改正，已撤销还原——本段发现的首例 Luna 旧修复方向性错误。
+- 页界：本页止于「…Wenn die gegebene Fläche mehr-」（断词跨页，次页续「fach zusammenhängend ist…」），脚注 ¹ 位置与印刷一致。
+
 <!-- redo-tail -->

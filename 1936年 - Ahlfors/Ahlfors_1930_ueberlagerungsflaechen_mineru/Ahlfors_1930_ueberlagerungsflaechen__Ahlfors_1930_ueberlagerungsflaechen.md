@@ -428,7 +428,7 @@ woraus sofort $\lambda_{a} \leq kL$ folgt.
 Die Grössen $\lambda'$ und $\lambda''$ sind jetzt leicht abzuschätzen. Es gibt zu jedem $\Omega'$ eine Kurve $\gamma_{\mu}$, die von keinem zu $\Omega'$ gehörigen Querschnitt $\sigma'$ oder $\sigma''$ überdeckt wird. Für diesen Index $\mu$ gilt
 
 $$
-\sum_ {\Omega^ {\prime}} \lambda (\sigma^ {\prime}) + \sum_ {\Omega^ {\prime}} \lambda (\sigma^ {\prime \prime}) \leq \sum_ {v \neq \mu} s (\gamma_ {v}) \leq (q - 1) s (\gamma_ {\mu}) + (q - 2) k L (\Omega^ {\prime}). ^ {1}
+\sum_ {\Omega^ {\prime}} \lambda (\sigma^ {\prime}) + \sum_ {\Omega^ {\prime}} \lambda (\sigma^ {\prime \prime}) \leq \sum_ {\nu \neq \mu} s (\gamma_ {\nu}) \leq (q - 1) s (\gamma_ {\mu}) + (q - 2) k L (\Omega^ {\prime}). ^ {1}
 $$
 
 Wenn wir diese Ungleichungen addieren, so erhalten wir links die Summe $\lambda' + 2\lambda''$. Rechts hat man zu beachten, dass die $s(\gamma_{\mu})$ nur von den abgesonderten Querschnitten herrühren können, und dass jeder Querschnitt $\sigma_n$ höchstens ein $\Omega'$ begrenzt. Man findet dann
@@ -448,16 +448,12 @@ $$
 wo $n(\bar{\sigma})$ die Anzahl der unter den Kurven $\bar{\sigma}$ vorkommenden Querschnitte bezeichnet. Wenn wir bemerken, dass jedes negative $\varrho(\overline{W})$ gleich $-1$ ist, so können wir (9) auch in der Form
 
 $$
-\varrho = \sum^ {+} \varrho (\bar {W}) - N _ {1} + n (\bar {\sigma})
+\varrho = \sum \stackrel {+} {\varrho} (\bar {W}) - N _ {1} + n (\bar {\sigma})
 $$
 
 schreiben, wobei  $N_{1}$  die Zahl der einfach zusammenhängenden Teilflächen angibt.
 
-Nach einem grundlegenden Satz der Topologie wird eine zusammenhängende Fläche durch einen Querschnitt in höchstens zwei Teile zerlegt, und beide Teile sind einfach zusammenhängend nur wenn dieses von der ursprünglichen Fläche gilt. Wendet man diesen Satz wiederholt an, so sieht man dass in jeder Zerlegung durch lauter Querschnitte die Anzahl der Teilgebiete höchstens um Eins grösser ist als die Anzahl der Querschnitte. Wenn die gegebene Fläche mehr-
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\Omega^{\prime}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\sigma^{\prime}$</span></small>
+Nach einem grundlegenden Satz der Topologie wird eine zasammenhängende Fläche durch einen Querschnitt in höchstens zwei Teile zerlegt, und beide Teile sind einfach zusammenhängend nur wenn dieses von der ursprünglichen Fläche gilt. Wendet man diesen Satz wiederholt an, so sieht man dass in jeder Zerlegung durch lauter Querschnitte die Anzahl der Teilgebiete höchstens um Eins grösser ist als die Anzahl der Querschnitte. Wenn die gegebene Fläche mehr-
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Die linksstehenden Summen werden über sämtliche  $\Omega'$  begrenzende  $\sigma'$  bzw.  $\sigma''$  erstreckt.</span></small>
 
