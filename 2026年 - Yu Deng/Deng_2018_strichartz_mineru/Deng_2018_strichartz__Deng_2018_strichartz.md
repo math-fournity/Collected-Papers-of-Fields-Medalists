@@ -1098,7 +1098,7 @@ $$
 \mathrm{meas} _ {\mathbb {R} ^ {3}} (B) \geq \int_ {1} ^ {2} \mathrm{meas} _ {\mathbb {R} ^ {2}} (A _ {z})   \mathrm{d} z, \quad A _ {z} := \left\{(x, y) \in [ 1, 4 ] ^ {2}: | a \frac {x}{z} + b \frac {y}{z} + c | <   \frac {2 \varepsilon}{z}, | d \frac {x}{z} + e \frac {y}{z} + f | <   \frac {2 \varepsilon}{z} \right\},
 $$
 
-and that$z A \subset A _ { z } { \mathrm { ~ f o r ~ } } z \in [ 1 , 2 ]$, so a bound for meas<sub>R</sub>3 (B) implies the same bound for meas<sub>R</sub>2 (A).
+and that$z A \subset A _ { z } { \mathrm { ~ f o r ~ } } z \in [ 1 , 2 ]$, so a bound for$\mathrm{meas}_{\mathbb{R}^{3}}(B)$implies the same bound for$\mathrm{meas}_{\mathbb{R}^{2}}(A)$.
 
 6.1. Pall’s formula. Our technical tool will be a formula from a paper of Pall [27]. Let$A ^ { \prime } , B ^ { \prime } , C ^ { \prime } \in$ Z. We apply Pall’s formula (43) to the quadratic form$\phi ( x , y ) = A ^ { \prime } x ^ { 2 } + B ^ { \prime } y ^ { 2 } + 2 C ^ { \prime } x y$. This gives
 
@@ -1108,7 +1108,7 @@ $$
 \sum_{\substack{\sum_{i = 1}^{3}(k_{i}^{\prime \prime})^{2} = A^{\prime},\\ \sum_{i = 1}^{3}(\ell_{i}^{\prime \prime})^{2} = B^{\prime},\\ \sum_{i = 1}^{3}k_{i}^{\prime \prime}\ell_{i}^{\prime \prime} = C^{\prime}}}1 = 24\cdot 2^{\nu}\prod_{p|2k\Delta}\chi (p)
 $$
 
-where$k _ { i } ^ { \prime \prime } , \ell _ { i } ^ { \prime \prime } \in \mathbb { Z } , k = \operatorname* { g c d } ( A ^ { \prime } , B ^ { \prime } , C ^ { \prime } ) , \Delta = ( A ^ { \prime } B ^ { \prime } - (C ^ { \prime})^2 ) / k ^ { 2 }$, we let ν be the number of distinct odd prime factors of k∆ and$\chi$is defined in the comments after (43) and at the start of page 358 in [27].
+where$k _ { i } ^ { \prime \prime } , \ell _ { i } ^ { \prime \prime } \in \mathbb { Z } , k = \operatorname* { g c d } ( A ^ { \prime } , B ^ { \prime } , C ^ { \prime } ) , \Delta = ( A ^ { \prime } B ^ { \prime } - C ^ { \prime } ) / k ^ { 2 }$, we let ν be the number of distinct odd prime factors of k∆ and$\chi$is defined in the comments after (43) and at the start of page 358 in [27].
 
 For the reader’s convenience we repeat the definition of$\chi$in full here. Given a prime$p ,$let$p ^ { u _ { 1 } }$ be the largest power of$p$dividing k, let$p ^ { u _ { 2 } - u _ { 1 } }$be the largest power of$p$dividing$\Delta$and write $\begin{array} { r } { \delta _ { 1 } = \lfloor \frac { u _ { 1 } + 1 } { 2 } \rfloor } \end{array}$. If$p = 2$then$\chi ( p ) = 0$or 1 according to the cases set out in Pall’s formula (44). If $p \neq 2$we let$\phi _ { 1 } = \phi / k$and adopt the convention that, if$p \mid \Delta$, then$\begin{array} { r } { \big ( \frac { \phi _ { 1 } } { p } \big ) = \big ( \frac { \phi _ { 1 } ( x , y ) } { p } \big ) } \end{array}$for any$x , y \in \mathbb { Z }$ such that$\phi _ { 1 } ( x , y )$is prime to$p .$We further define quantities$\kappa _ { 1 }$and$\kappa _ { 2 }$by
 

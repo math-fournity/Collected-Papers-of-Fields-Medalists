@@ -158,6 +158,12 @@
 - 核对：|S|^{p/2−1} 计数论证段（含原刊不平衡括号 "(ie i ≥ p/2,"）、"We can write" 三行 display（f̂ 与 overline{f̂}、1_S(k,ℓ)、(1−e^{2πiT(A+Bα+Cβ)})/(2πi(A+Bα+Cβ))）、Σ1≲N⁴2^j+1、(N⁴+2^{−j})N^{p−8}|S|^{p/2}≼(N⁴+T)…、证明结束方框、§6 节标题、Theorem 6.1（≲|S⁴|(N⁴+NT)）、(6.1) 两条 meas 估计、B 集合与 meas_R3(B)、A_z 定义 display
 - 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；print quirk 忠实保留："(ie i ≥ p/2," 无闭括号（L1041，原刊原样）。**修复 3 处**：L1049 `$\beta _ { i }$`→`$\beta$` 并补逗号（印刷为 "genericity of α and β,"，无下标 i）；L1067 Theorem 6.1 句尾全角逗号 "，"→","；L1060 补 "□" 证明结束框（印刷在 Theorem 5.1 证明末尾右侧有空心方框，MD 缺失——Luna 基线的"方框存为控制字符"实际被整体删除而非替换）。**误报登记**：初审曾将 L1039 的 `$$` 误判为孤儿开启符，经与 git HEAD 逐行对照确认它是 (5.2) display 的闭合定界符（其后直接接正文属合法结构），未做修改——p.010 教训再次强调 display 定界符必须查配对上下文。
 - 备注：Luna 旧修复抽核通过——旧基线 p.19 的"证明结束方框存为控制字符"已不在（但方框本身也被删了，本次补回 □）；其余无新问题。
+
+## p.020（PDF p.20 / 印刷 p.20）
+- PNG：audit-redo/p020.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p020_300dpi_delta.png（2.2x）＋ pdftotext 文本层对账
+- 核对：zA⊂A_z 句、§6.1 Pall's formula 引（φ(x,y)=A′x²+B′y²+2C′xy、公式 (43)/(44)、[27] p.358）、Lemma 6.2 求和式（24·2^ν∏_{p|2kΔ}χ(p)）、χ 定义段（p^{u₁}/p^{u₂−u₁}/δ₁=⌊(u₁+1)/2⌋）、κ₁/κ₂ 四行表、(6.2)、Corollary 6.3（≤h、h²|gcd）、Proof 的 χ(p)≤{…} 与 Πχ(p)≤2^ν(…)(…)＝2^ν d(Δ)h、□ 结束框
+- 结果：PASS±（2 处已修复，1 处还原印刷错字）。κ 表四行、(6.2)、Corollary 及证明链逐项与印刷一致。**还原 1 处（印刷错字忠实化）**：L1111 印刷为 **Δ=(A′B′−C′)/k²**（C′ 上无平方；300dpi 2.2x 与同行 k² 的清晰上标 2 对照确认，pdftotext 亦无该 2）——原刊排版错字（数学上应为 C′²），MD 原作 `(C′)²` 属静默数学改正，已按印刷原形还原并在此登记；同页 Lemma 6.2 条件 "A′B′−C′²>0" 印刷有平方、MD 忠实，两处对照佐证 Δ 行确为原刊漏排。**修复 1 处**：L1101 `meas<sub>R</sub>3`/`meas<sub>R</sub>2` HTML 下标残留→`$\mathrm{meas}_{\mathbb{R}^3}$`/`$\mathrm{meas}_{\mathbb{R}^2}$`。残余瑕疵（不误导，不改）：L1103 "C′ ∈ Z" 的 Z 为数学环境外裸字符（印刷为黑板体 ℤ）；L1131 "gcd(A′,B′,C′)" 后缺句号。
+- 备注：Luna 旧修复抽核**发现偏离**——Δ=(A′B′−C′)/k² 的印刷错字被此前的修复链静默改正为 (C′)²，本次已按纪律还原；其余本页无新问题。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
