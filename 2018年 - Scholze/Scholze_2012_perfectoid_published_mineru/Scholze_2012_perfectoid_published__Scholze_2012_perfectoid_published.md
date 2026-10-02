@@ -594,31 +594,31 @@ $$
 \mathrm{K} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K}.
 $$
 
-In particular, there is a map$\operatorname { K } ^ { \flat } \to \operatorname { K } , x \mapsto x ^ { \sharp }$. Then$\mathrm { K } ^ { \flat }$is a perfectoidfield ofcharacteristic$\rho ,$
+In particular, there is a map$\operatorname { K } ^ { \flat } \to \operatorname { K } , x \mapsto x ^ { \sharp }$. Then$\mathrm { K } ^ { \flat }$is a perfectoid field of characteristic$p$,
 
 $$
 \mathrm{K} ^ {\flat \circ} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K} ^ {\circ} \cong \varprojlim_ {\Phi} \mathrm{K} ^ {\circ} / \varpi ,
 $$
 
-and the rank-1-valuation on$\mathrm { K } ^ { \flat }$can be defined by$| x | _ { \mathrm { K } ^ { \flat } } = | x ^ { \sharp } | _ { \mathrm { K } }$. We have$| \mathrm { K } ^ { \mathrm { p \times } } | = | \mathrm { K } ^ { \times } |$ Moreover,
+and the rank-1-valuation on$\mathrm { K } ^ { \flat }$can be defined by$| x | _ { \mathrm { K } ^ { \flat } } = | x ^ { \sharp } | _ { \mathrm { K } }$. We have$| \mathrm { K } ^ { \flat \times } | = | \mathrm { K } ^ { \times } |$. Moreover,
 
 $$
 \mathrm{K} ^ {\flat \circ} / \varpi^ {\flat} \cong \mathrm{K} ^ {\circ} / \varpi , \quad \mathrm{K} ^ {\flat \circ} / \mathfrak {m} ^ {\flat} = \mathrm{K} ^ {\circ} / \mathfrak {m},
 $$
 
-where m, resp.${ \mathfrak { m } } ^ { \flat } .$, is the maximal ideal$o f \mathrm { K } ^ { \circ }$, resp.$\mathrm { K } ^ { \flat \circ }$.
+where$\mathfrak { m }$, resp.${ \mathfrak { m } } ^ { \flat }$, is the maximal ideal of$\mathrm { K } ^ { \circ }$, resp.$\mathrm { K } ^ { \flat \circ }$.
 
-(iv) IfK is ofcharacteristic$\beta ,$then$\mathrm { K } ^ { \flat } = \mathrm { K }$
+(iv) If K is of characteristic$p$, then$\mathrm { K } ^ { \flat } = \mathrm { K }$.
 
 We call$\mathrm { K } ^ { \flat }$the tilt of K.
 
-Remark 3.5. — Obviously,$\varpi ^ { \flat }$in (ii) is not unique. As it is not harmful to replace with an element of the same norm, we will usually redefine$\varpi = ( \varpi ^ { \flat } ) ^ { \sharp }$, which comes equipped with a compatible system
+Remark 3.5. — Obviously,$\varpi ^ { \flat }$in (ii) is not unique. As it is not harmful to replace$\varpi$with an element of the same norm, we will usually redefine$\varpi = ( \varpi ^ { \flat } ) ^ { \sharp }$, which comes equipped with a compatible system
 
 $$
 \varpi^ {1 / p ^ {n}} = \left(\left(\varpi^ {\flat}\right) ^ {1 / p ^ {n}}\right) ^ {\sharp}
 $$
 
-of$\beta ^ { n } \mathrm { \mathrm { ^ { - t h } } }$roots. Conversely,$\varpi$together with such a choice ofp<sup>n</sup>-th roots gives an element $\varpi ^ { \flat }$of
+of$p ^ { n }$-th roots. Conversely,$\varpi$together with such a choice of$p ^ { n }$-th roots gives an element $\varpi ^ { \flat }$of
 
 $$
 \mathrm{K} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K}.
@@ -630,7 +630,7 @@ $$
 \varprojlim_ {\Phi} \mathrm{K} ^ {\circ} / \varpi \to \mathrm{K} ^ {\circ}: x \mapsto x ^ {\sharp}.
 $$
 
-Let$( \overline { { x } } _ { 0 } , \overline { { x } } _ { 1 } , . . . ) \in \varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi$. Choose any lift$x _ { n } \in \mathrm { K } ^ { \circ }$of$\cdot _ { \overline { { x } } _ { n } }$. Then we claim that the limit
+Let$( \overline { { x } } _ { 0 } , \overline { { x } } _ { 1 } , . . . ) \in \varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi$. Choose any lift$x _ { n } \in \mathrm { K } ^ { \circ }$of$\overline { { x } } _ { n }$. Then we claim that the limit
 
 $$
 x ^ {\sharp} = \lim _ {n \to \infty} x _ {n} ^ {p ^ {n}}

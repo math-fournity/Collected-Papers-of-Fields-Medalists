@@ -251,3 +251,15 @@
   6. "## Lemma 3.4."伪标题层级→正文行（同页 Lemma 版式）
   7. Lemma 3.4(i) display：左极限转移 "$x\mapsto x^{\flat}$"→"$x\mapsto x^{\sharp}$"（print 下标为 x↦x^♯，PNG 确认；与 p.246 K^♭=lim_{←x↦x^♯}K 一致）；"independent of$\dot{}_{\varpi}$"乱码→"independent of$\varpi$"（p.264 (i) display 与 given by projection 行）
 - 备注：(ii) 的 ϖ^♭、|(ϖ^♭)^♯|=|ϖ|、K^♭ display 均与 print 一致；行 591 (iii) 起属印刷 p.265，留待 p.021。
+## p.021（PDF p.21 / 印刷 p.265）
+- PNG：audit/p021.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/265；Lemma 3.4 (iii)（K^♭=lim_{←x↦x^♭}K，此处为 ♭ 正确）；In particular 段（K^♭→K、char p）；K^♭° display；|x|_{K^♭}=|x^♯|_K 与 |K^{♭×}|=|K^×|；K^♭°/ϖ^♭≅K°/ϖ、K^♭°/𝔪^♭=K°/𝔪 display；𝔪/𝔪^♭ maximal ideal 段；(iv)；We call K^♭ the tilt；Remark 3.5（ϖ=（ϖ^♭)^♯、ϖ^{1/p^n}=((ϖ^♭)^{1/p^n})^♯ display、K^♭=lim display）；Proof (i)（lim K°/ϖ→K° display、(x̄_0,x̄_1,…)、x^♯=lim x_n^{p^n} display、well-defined、telescoping display (x_n′)^{p^i}−…）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. "perfectoidfield ofcharacteristic$\rho,$"→"perfectoid field of characteristic$p$,"（ρ 系 p 误读；p.265 In particular 段）
+  2. "$|\mathrm{K}^{\mathrm{p}\times}|=|\mathrm{K}^{\times}|$"→"$|\mathrm{K}^{\flat\times}|=|\mathrm{K}^{\times}|$"（♭× 误为 p×，print |K^{♭×}|）+句末补句点（p.265 We have 行）
+  3. "where m, resp.𝔪^♭.$,"→"where$\mathfrak m$, resp.$\mathfrak m^\flat$,"（首 m 补 fraktur、伪'.$,'删）、"ideal$o f\mathrm K^\circ$"（of 入 math）→of 出 math（p.265 where 行；𝔪 为 fraktur，PNG 确认）
+  4. (iv)：IfK/ofcharacteristic 补空格、$\beta,→p,、句末补句点（p.265 (iv) 行）
+  5. Remark 3.5："to replace with"丢 ϖ→"to replace$\varpi$with"（print 有 ϖ，文本层整体丢字无残骸）（p.265 Remark 行）
+  6. "of$\beta^n\mathrm{^{-th}}$roots"→"of$p^n$-th roots"（β→p）；"choice ofp<sup>n</sup>-th"→"choice of$p^n$-th"（p.265 of p^n-th roots 行）
+  7. "lift$x_n∈K^\circ$of$\cdot_{\overline{x}_n}$"伪 \cdot 前缀→"of$\overline{x}_n$"（p.265 Let (x̄_0,…) 行）
+- 备注：(iii) display 与 Proof 的 telescoping display（x_n′ 带 prime）均与 print 一致；K^♭=lim_{←x↦x^♭}K 此处 ♭ 正确（与 p.264 (i) display 的 x↦x^♯ 不同，两处 print 本就不同，均已按原图处理）。
