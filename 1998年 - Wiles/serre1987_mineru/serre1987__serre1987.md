@@ -52,7 +52,7 @@ On se propose d'attacher à $\rho$ des entiers positifs $N$ et $k$, ainsi qu'un 
 
 1.2. Définition de N. L'entier N est simplement le conducteur d'Artin de  $\rho$ , défini comme en caractéristique 0 (cf. [1], [38]), à cela près que l'on se restreint aux places premières à p.
 
-De façon plus précise, soit l un nombre premier  $\neq p$ . Choisissons une extension à Q de la valuation l-adique de Q, et soient
+De façon plus précise, soit l un nombre premier  $\neq p$ . Choisissons une extension à $\overline{\mathbf{Q}}$ de la valuation l-adique de Q, et soient
 
 $$
 G _ {0} \supset G _ {1} \supset \dots \supset G _ {i} \supset \dots
