@@ -95,3 +95,11 @@
 - **Luna 审计质量小结（仅本块 9 页证据）**：Luna 的题录/文字级修复（Identifions、(1.1.2)/(1.1.3) 标量与编号、F_{q^n}、(-1)^i、Q_ℓ/Z_ℓ/𝓕 记号、1/4、dfn 保留等）大部正确；但存在四类方向性错误——按数学预期改正 print quirk（o→0 系）、恒等字形误判（I/1 形态学不辨）、修复表与页条目自相矛盾（P_i）、以及对图链失效/裸页码 277/(1.15.2) dfn 的漏检。用户判定 Luna 审计不可信在本块证据下成立，逐页重检必要。
 - **mineru doc_id**：`structured_content.json` 仅含 pages/metadata/extensions/is_full_document 字段，无 doc_id 标识；如实记为缺失。
 - **SOP 偏离声明**：本重做未向 repo 根 `AUDIT-PROGRESS.log` 追加行（ask 明令禁止写根级任何文件）；页级进度以本 redo AUDIT 的逐页条目 + 每页独立 commit（5ab03a49 → 61303542）承载，可追溯性由 git 历史保全。修复均以结构化 Edit 逐处手改目标 md，脚本仅用于只读清点；未改 PDF、未动旧 audit/ 与旧 AUDIT、未触碰其他论文目录、未 push。
+
+## p.010（PDF p.10 / 印刷 p.281）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 19:00 EDT。
+- PNG：audit-redo/p010.png（pngmono 150dpi）。
+- 旧审计对照：Luna p.010 = FAIL→已修复（Euler 特征 (-1)^i、Q_t→Q_ℓ、epsilon 标量 1 与 (-1)^N）；本次重核修复后状态。
+- 核对：§2.2 末段（Q_ℓ(1)≅Q_ℓ、aut(k) 经 Z_ℓ* 作用、φ:x↦x^q 乘 q）、faisceau d'orientation 段、Tr 两式、Théorème (2.3) dualité de Poincaré（Tr(x∪y) 式与 dual de H^{2n-i}(X,Q_ℓ(n))）、(2.4)（q^n α_j^{-1}）、(2.5) a)-d)、(2.6) χ(X) 定义与函数方程 Z(X_0,t)=ε·q^{−nχ(X)/2}·t^{−χ(X)}·Z(X_0,q^{−n}t^{−1})、ε={1 / (−1)^N} 分段式、Grothendieck formulation 句。pdftotext 交叉核对一致。
+- 结果：PASS±（本页无需改 md）。内容全部吻合；Luna 四项修复生效。仅登记：页眉页脚（281/36）未收录（全篇系统性版式省略）；χ(X) 的 X、Tr 内 X 等斜体/粗体字形在 md 中偶有混排（不误导）。
+- 修复：无。
