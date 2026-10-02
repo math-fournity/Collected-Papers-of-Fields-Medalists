@@ -60,31 +60,31 @@ Claim 1.4. — The affine line$\mathbf { A } _ { \mathrm { K } ^ { \flat } } ^ {
 
 One way in which this is correct is the observation that it is true on$\mathrm { K } ^ { \flat }$-, resp. K-, valued points. Moreover, for any finite extension L of K corresponding to an extension
 
-L<sup>-</sup> of$\mathrm { K } ^ { \flat }$, we have the same relation
+$\mathrm { L } ^ { \flat }$ of$\mathrm { K } ^ { \flat }$, we have the same relation
 
 $$
 \mathrm{L} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{L}.
 $$
 
-Looking at the example above, we see that the explicit description of the map between $\mathbf { A } _ { \mathrm { K } ^ { \flat } } ^ { 1 }$and$\varprojlim _ { \mathrm { \tiny { F }  T ^ { \flat } } } \mathbf { A } _ { \mathrm { K } } ^ { 1 }$involves a limit procedure. For this reason, a formalization of this isomorphism has to be of an analytic nature, and we have to use some kind of rigidanalytic geometry over K. We choose to work with Huber’s language of adic spaces, which reinterprets rigid-analytic varieties as certain locally ringed topological spaces. In particular, any variety X over K has an associated adic space$\mathrm { X ^ { a d } }$over K, which in turn has an underlying topological space$| \mathrm { X ^ { a d } } |$
+Looking at the example above, we see that the explicit description of the map between $\mathbf { A } _ { \mathrm { K } ^ { \flat } } ^ { 1 }$and$\varprojlim _ { \mathrm { T } \mapsto \mathrm { T } ^ { p } } \mathbf { A } _ { \mathrm { K } } ^ { 1 }$involves a limit procedure. For this reason, a formalization of this isomorphism has to be of an analytic nature, and we have to use some kind of rigid-analytic geometry over K. We choose to work with Huber’s language of adic spaces, which reinterprets rigid-analytic varieties as certain locally ringed topological spaces. In particular, any variety X over K has an associated adic space$\mathrm { X ^ { a d } }$over K, which in turn has an underlying topological space$| \mathrm { X ^ { a d } } |$
 
-Theorem 1.5. — There is a homeomorphism oftopological spaces
-
-$$
-\big|\big(\mathbf{A}_{\mathrm{K}^{\flat}}^{1}\big)^{\mathrm{ad}}\big|\cong \varprojlim_{\substack{\mathrm{T}\mapsto \mathrm{T}^{\flat}}} \big|\big(\mathbf{A}_{\mathrm{K}}^{1}\big)^{\mathrm{ad}}\big|.
-$$
-
-Note that both sides of this isomorphism can be regarded as locally ringed topological spaces. It is natural to ask whether one can compare the structure sheaves on both sides. There is the obvious obstacle that the left-hand side has a sheaf of characteristic$\boldsymbol { p }$ rings, whereas the right-hand side has a sheafofcharacteristic 0 rings. Fontaine’s functors make it possible to translate between the two worlds. There is the following result.
-
-Definition 1.6. — Let K be a perfectoidfield. A perfectoid K-algebra is a Banach K-algebra R such that the set ofpowerbounded elements$\mathrm { R } ^ { \circ } \subset \mathrm { R }$is bounded, and such that the Frobenius  is surjective on$\mathrm { R } ^ { \circ } /  { p } .$
-
-Theorem 1.7. — There is natural equivalence of categories, called the tilting equivalence, between the category ofperfectoid K-algebras and the category ofperfectoid K<sup>-</sup>-algebras. Here a perfectoid K-algebra R is sent to the perfectoid K<sup>-</sup>-algebra
+Theorem 1.5. — There is a homeomorphism of topological spaces
 
 $$
-\mathrm{R} ^ {b} = \varprojlim_ {x \mapsto x ^ {b}} \mathrm{R}.
+\big|\big(\mathbf{A}_{\mathrm{K}^{\flat}}^{1}\big)^{\mathrm{ad}}\big|\cong \varprojlim_{\substack{\mathrm{T}\mapsto \mathrm{T}^{p}}} \big|\big(\mathbf{A}_{\mathrm{K}}^{1}\big)^{\mathrm{ad}}\big|.
 $$
 
-We note in particular that for perfectoid K-algebras R, we still have a map $\mathbb { R } ^ { \flat } \to \mathbb { R } , f \mapsto f ^ { \sharp }$. An example of a perfectoid K-algebra is the algebra$\mathrm { R } = \mathrm { K } \langle \mathrm { T } ^ { 1 / p ^ { \infty } } \rangle$ for which$\mathrm { R } ^ { \circ } = \mathrm { K } ^ { \circ } \langle \mathrm { T } ^ { 1 / p ^ { \infty } } \rangle$is the p-adic completion of$\mathrm { K } ^ { \circ } [ \mathrm { T } ^ { 1 / p ^ { \infty } } ]$. This is the completion of an algebra that appears on the right-hand side of Theorem 1.5. Its tilt is given by $\mathrm { R } ^ { \flat } = \mathrm { K } ^ { \flat } \langle \mathrm { T } ^ { 1 / \flat ^ { \infty } } \rangle$, which is the completed perfection of an algebra that appears on the left-hand side of Theorem 1.5.
+Note that both sides of this isomorphism can be regarded as locally ringed topological spaces. It is natural to ask whether one can compare the structure sheaves on both sides. There is the obvious obstacle that the left-hand side has a sheaf of characteristic$\boldsymbol { p }$ rings, whereas the right-hand side has a sheaf of characteristic 0 rings. Fontaine’s functors make it possible to translate between the two worlds. There is the following result.
+
+Definition 1.6. — Let K be a perfectoid field. A perfectoid K-algebra is a Banach K-algebra R such that the set of powerbounded elements$\mathrm { R } ^ { \circ } \subset \mathrm { R }$is bounded, and such that the Frobenius$\Phi$is surjective on$\mathrm { R } ^ { \circ } /  { p } .$
+
+Theorem 1.7. — There is natural equivalence of categories, called the tilting equivalence, between the category of perfectoid K-algebras and the category of perfectoid$\mathrm { K } ^ { \flat }$-algebras. Here a perfectoid K-algebra R is sent to the perfectoid$\mathrm { K } ^ { \flat }$-algebra
+
+$$
+\mathrm{R} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{R}.
+$$
+
+We note in particular that for perfectoid K-algebras R, we still have a map $\mathrm { R } ^ { \flat } \to \mathrm { R } , f \mapsto f ^ { \sharp }$. An example of a perfectoid K-algebra is the algebra$\mathrm { R } = \mathrm { K } \langle \mathrm { T } ^ { 1 / p ^ { \infty } } \rangle$ for which$\mathrm { R } ^ { \circ } = \mathrm { K } ^ { \circ } \langle \mathrm { T } ^ { 1 / p ^ { \infty } } \rangle$is the p-adic completion of$\mathrm { K } ^ { \circ } [ \mathrm { T } ^ { 1 / p ^ { \infty } } ]$. This is the completion of an algebra that appears on the right-hand side of Theorem 1.5. Its tilt is given by $\mathrm { R } ^ { \flat } = \mathrm { K } ^ { \flat } \langle \mathrm { T } ^ { 1 / p ^ { \infty } } \rangle$, which is the completed perfection of an algebra that appears on the left-hand side of Theorem 1.5.
 
 Now an affinoid perfectoid space is associated to a perfectoid affinoid K-algebra, which is a pair (R, R<sup>+</sup>), where R is a perfectoid K-algebra, and$\mathrm { R } ^ { + } \subset \mathrm { R } ^ { \circ }$is open and integrally closed (and often$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ } )$. There is a natural way to form the tilt$( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$
 
