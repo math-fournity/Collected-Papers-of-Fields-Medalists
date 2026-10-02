@@ -133,3 +133,11 @@
 - 核对：z ↦ z̃ 同态句、ε₀: (Z/NZ)* → Z̄* 定义式、relèvement multiplicatif 句、ε₀(x)˜ = ε(x)、ε₀(−1) = (−1)^k 句、Γ₀(N) 上 formes paraboliques 引言、(3.1.2) F = Σ A_n q^n（q = e^{2πiz}）、收敛半平面句、条件 (a)（ε₀(d)(cz+d)^k F(z)、Γ₀(N)）、条件 (b)（SL₂(Z)、z ↦ (cz+d)^{−k}F((az+b)/(cz+d))、q 换 q^{1/N}）、type (N,k,ε₀) 缩写句、DÉFINITION（f = Σ aₙqⁿ、aₙ ∈ F̄ₚ、F = Σ Aₙqⁿ、Aₙ ∈ Z̄、F̃ = f、Ãₙ = aₙ）、anneau local 括注。
 - 结果：PASS。公式、矩阵、群记号（Γ₀(N)、SL₂(Z)）、上下标全部与印刷吻合。
 - 备注：印刷将约化记号 ~ 排在 ε₀(x) 正上方，Markdown 作上标 \varepsilon_0(x)^{\sim}，语义同一（mod p 约化），排版级不改；“à coefficients dans F̄ₚ” 处 \overline{F}_p 非粗体体例同前登记；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 193” 未收入 Markdown，排版级。印刷页止于 “Cela ne changerait rien.)”，S(N,k,ε) 句属印刷 p.194。
+
+## p.016（PDF p.16 / 印刷 p.194）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p016.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p016_euler_product.png`、`audit/300dpi/serre1987_p016_316_Z.png`、`audit/300dpi/serre1987_p016_nmid_glyphs.png`（pnggray）。
+- 核对：S(N,k,ε) 引言、(3.1.3)（Shimura [51] th. 3.52、[11] prop. 2.7）、(3.1.4) T_l/U_l 作用式（ε(l)l^{k−1}、l∤pN、l|pN）、U_p 为 T_p (ε₀(p)p^{k−1}) 的 mod p 约化句、k ⩾ 2、(3.1.5)（f ≠ 0、a₁ = 1 正规化、T_l(f) = a_l f / U_l(f) = a_l f）、L_f(s) = Σ aₙn^{−s}、Euler 积、f 由 a_l 决定句、(3.1.6)（F de type (N,k,ε₀)、à coefficients dans Z̄、A₁ = 1、F̃ = f）。
+- 结果：FAIL。两处已依原图修复：① (3.1.5) 中 “T_l(f) = a_l f pour **l ⊬ pN**”（Duke 字体不整除符 ⊬ 呈 + 样，与 (3.1.4) 的 l∤pN 同字形，见裁片 nmid_glyphs）在 Markdown 写成真加号 “l + pN”，修为 l \nmid pN；② (3.1.6) 中 “T_l(**l ⊬ N**)” 同样被写成 “l + N”，修为 l \nmid N。
+- 备注：Euler 积因子-下标配对经 300 dpi 裁片确认与 Markdown 一致（∏_{l|pN}(1−a_l l^{−s})^{−1}·∏_{l∤pN}(1−a_l l^{−s}+ε(l)l^{k−1}l^{−2s})^{−1}），且与 T_l/U_l 定义及经典好/坏素数因子结构吻合，150 dpi 阶段的 “颠倒” 怀疑系误读；(3.1.6) “à coefficients dans Z̄” 的 Z 带 bar（裁片确认），Markdown \overline{\mathbf{Z}} 一致；页眉 “194 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “A₁ = 1; F̃ = f.”。

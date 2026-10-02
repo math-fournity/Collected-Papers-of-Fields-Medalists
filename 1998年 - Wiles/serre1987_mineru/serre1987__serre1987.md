@@ -694,7 +694,7 @@ $$
 f = \sum a _ {n} q ^ {n}, \quad f \neq 0,
 $$
 
-est une fonction propre de ces opérateurs, on peut multiplier $f$ par un scalaire non nul de telle sorte que $a_1 = 1$. Une fois $f$ ainsi normalisée, on a $T_l(f) = a_l f$ pour $l + pN$ et $U_l(f) = a_l f$ pour $l|pN$: les $a_l$ sont les valeurs propres des $T_l$ et $U_l$. De plus, la série formelle de Dirichlet
+est une fonction propre de ces opérateurs, on peut multiplier $f$ par un scalaire non nul de telle sorte que $a_1 = 1$. Une fois $f$ ainsi normalisée, on a $T_l(f) = a_l f$ pour $l \nmid pN$ et $U_l(f) = a_l f$ pour $l|pN$: les $a_l$ sont les valeurs propres des $T_l$ et $U_l$. De plus, la série formelle de Dirichlet
 
 $$
 L _ {f} (s) = \sum a _ {n} n ^ {- s} \left(\text { à   coefficients   dans } \overline {{\mathbf {F}}} _ {p}\right)
@@ -708,7 +708,7 @@ $$
 
 En particulier, $f$ est déterminée par les $a_{l}$.
 
-(3.1.6) Si $f = \sum a_n q^n$ est une fonction propre des opérateurs de Hecke normalisée comme ci-dessus, il existe une forme parabolique $F = \sum A_n q^n$ de type $(N, k, \varepsilon_0)$ à coefficients dans $\overline{\mathbf{Z}}$, qui est fonction propre des $T_l(l + N)$ et des $U_l(l|N)$ et vérifie:
+(3.1.6) Si $f = \sum a_n q^n$ est une fonction propre des opérateurs de Hecke normalisée comme ci-dessus, il existe une forme parabolique $F = \sum A_n q^n$ de type $(N, k, \varepsilon_0)$ à coefficients dans $\overline{\mathbf{Z}}$, qui est fonction propre des $T_l(l \nmid N)$ et des $U_l(l|N)$ et vérifie:
 
 $$
 A _ {1} = 1; \qquad \tilde {F} = f.
