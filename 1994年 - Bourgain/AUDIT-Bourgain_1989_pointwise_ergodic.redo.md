@@ -176,6 +176,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 三处旧修复经原页核验正确——(6.19) 的 $\ell^2(\mathbf Z)$ 双范数完整、(6.22) 的 $10^s$ 完整、(6.25)/(6.26) 标签归位且 (6.26) 变量为小写 $\widetilde\psi$；源级 “This proves Lemma (6.14).” 的括号排布忠实保留。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 27。与 Luna 旧审（p.024 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 20:12 EDT 落签
 
+## p.025（PDF p.25 / 印刷 p.28）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p025.png`（Ghostscript `pngmono`，150dpi；原 PDF p.25）；`audit-redo/p025_6.36_v4_300dpi.png`（原 PDF p.25 300dpi 渲染后放大裁片，裁决 (6.36) 变差范数下标）。
+- 核对：(6.29) 的 $C(\sum_{s=0}^\infty s^22^{-s\delta'})\|f\|_2$；(6.30) 的 $\|\sup_N|A_Nf|\|_2\leqslant C\|f\|_2$ 外层双范数；(6.31) 的 $o(J)\|f\|_2$；(6.32) 的 $\mathcal M_j$ 定义（严格不等号 $N_j<N<N_{j+1}$、$N\in Z_\varepsilon$）；$Z_\varepsilon$ 与 rapidly increasing 句；(6.33) 的 $C\varepsilon^{-1}2^{-\delta''s_0}$；(6.34)；$w_N$ 与 additional factor 句；(6.35) 的 $\widetilde{\mathcal M}_j f$ 与 $\chi_{(N^d)}$；$\chi_t$ 定义；(6.36) 的 $J^{1/4}$ 与右端 $v_4$ 下标；源级 “is follows from (6.36) and (3.26)” quirk；$\sum\|\widetilde{\mathcal M}_jf\|_2^2\leqslant CJ^{1/2}\|f\|_2^2$ 无编号式。文本层 + 150dpi 原页图 + 300dpi 放大裁片三通道，对 Markdown 第 1262–1318 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 对 (6.30) 外层 $L^2$ 极大范数的旧修复经原页核验正确；源级语病 “is follows” 忠实保留。(6.36) 右端范数下标经 300dpi 放大裁决为粗体 $v_4$（非 $v_s$），与 Markdown 一致、无需修复。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 28。与 Luna 旧审（p.025 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 20:26 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
