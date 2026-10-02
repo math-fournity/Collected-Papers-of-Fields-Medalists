@@ -161,6 +161,15 @@
 - 登记不改（印刷句点存在、MD 缺失，PNG/pdftotext 双证）：(a) "where d(x₁, t₀) = r₀**.** Then"；(b) "satisfying d(y, ½) ≤ 1/10**.** Now we compute"。均不误导，按 SOP 默认不批量改。
 - 备注："complemented by X," 的 math 内逗号、"tangent vector, On the other hand" 印刷原样逗号连接、"at $t=t_0$" 嵌入 display 为 MinerU 伪影，语义均与印刷一致，登记不改。
 
+## p.022（PDF p.22 / 印刷 p.22）
+- PNG：audit-redo/p022.png（pngmono 150dpi）
+- 核对：d(y,t)≥1/20 段与 □h≥−(L̄+2n+1)C(A)φ−2nφ≥−(2n+C(A))h、min h 收尾、节标题 "9 Differential Harnack inequality for solutions of the conjugate heat equation"、9.1 Proposition 与 (9.1)（□*v=−2(T−t)|R_ij+∇_i∇_j f−g_ij/(2(T−t))|²）、"Proof. Routine computation."、9.2 Corollary（"M,or" 紧连 print 原样）、9.3 Corollary、Proof（∫hu=0、∫hv≥0）、9.4 与 (9.2)
+- 结果：PASS±（一处标题层级已修；一处句点缺失登记不改）
+- 差异与修复：MD 节标题作 "# 9 …"（H1），其余各节均 "##"（H2），印刷中 §9 与 §8/§10 同级 → 已改为 "## 9 …" 对齐。
+- 登记不改：9.3 行尾 "for all t < T**.**" 句点印刷存在（PNG/pdftotext 双证），MD 缺失——丢标点不误导，按 SOP 默认不批量改。
+- 备注："M,or" 无空格紧连为 print quirk，MD 忠实保留；"But it is easy to see, that" 印刷原样逗号，MD 忠实保留。
+
+
 
 
 

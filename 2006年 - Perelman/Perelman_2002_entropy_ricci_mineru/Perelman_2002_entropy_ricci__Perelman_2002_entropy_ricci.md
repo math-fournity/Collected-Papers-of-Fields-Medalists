@@ -518,7 +518,7 @@ $$
 
 This implies that min$h$can not decrease too fast, and we get the required estimate.
 
-# 9 Differential Harnack inequality for solutions of the conjugate heat equation
+## 9 Differential Harnack inequality for solutions of the conjugate heat equation
 
 9.1. Proposition. Let$g _ { i j } ( t )$be a solution to the Ricci flow$( g _ { i j } ) _ { t } = - 2 R _ { i j } , 0 \leq$ $t \leq T$, and let$u = ( 4 \pi ( T - t ) ) ^ { - \frac { n } { 2 } } e ^ { - f }$satisfy the conjugate heat equation $\Box ^ { * } u = - u _ { t } - \triangle u + R u = 0$. Then$v = [ ( T - t ) ( 2 \triangle f - | \nabla f | ^ { 2 } + R ) + f - n ] u$ satisfies
 
