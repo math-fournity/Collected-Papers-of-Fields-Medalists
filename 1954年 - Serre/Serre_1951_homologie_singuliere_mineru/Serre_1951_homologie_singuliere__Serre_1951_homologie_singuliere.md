@@ -594,7 +594,7 @@ $$
 
 Soit X un espace connexe par arcs, localement connexe par arcs, et localement simplement connexe; on définit à la façon habituelle (Voir par exemple, Pontr-
 
-jagin, Topological groups, n° 46) son revêtement universel T. Nous allons rappeler quelques relations, dues à Leray et Cartan ([8], [3], [6]), existant entre l'homologie de X, celle de T, et celle du groupe fondamental II de X.
+jagin, Topological groups, n° 46) son revêtement universel T. Nous allons rappeler quelques relations, dues à Leray et Cartan ([8], [3], [6]), existant entre l'homologie de X, celle de T, et celle du groupe fondamental $\Pi$ de X.
 
 Définition du revêtement universel. Rappelons-la brièvement: soit $e \in X$ un point fixé; $T$ est l'ensemble des classes de chemins homotopes issus de $e$. Soit $q \in T$, et $h$ un chemin de la classe $q$; soit $U$ un voisinage de l'extrémité $b$ de $h$, et désignons par $V_U$ l'ensemble des classes de chemins obtenus en composant $h$ avec un chemin issu de $b$ et contenu dans $U$; par définition, les $V_U$ forment un système fondamental de voisinages de $q$ dans $T$. On vérifie aisément que $T$, muni de cette topologie, est connexe par arcs, localement connexe par arcs, localement simplement connexe, et simplement connexe. Si à tout $q \in T$, on fait correspondre l'extrémité commune $b$ des chemins de la classe $q$, on définit ainsi une application continue $p: T \to X$, appelée projection de $T$ sur $X$. Cette projection est un homéomorphisme local, et définit comme on sait un isomorphisme du groupe d'homotopie $\pi_i(T)$ sur le groupe d'homotopie $\pi_i(X)$ ($i = 2, 3, \cdots$)
 
@@ -612,7 +612,7 @@ Une suite analogue existe en cohomologie.
 
 (Précisons que $H_{p}(\Pi, H_{q}(T, G))$ désigne le $p$-ème groupe d'homologie de $\Pi$, au sens de Hopf-Eilenberg-MacLane-Eckmann, à valeurs dans le $q$-ème groupe d'homologie singulière $H_{q}(T, G)$, groupe sur lequel $\Pi$ opère canoniquement, comme on l'a vu).
 
-COROLLAIRE 1. Si II est le groupe additif Z des entiers, et s'il opère trivialement sur $H_i(T, k)$ pour tout i (k désignant un corps), alors $H_i(X, k)$ est isomorphe à la somme directe de $H_i(T, k)$ et de $H_{i-1}(T, k)$.
+COROLLAIRE 1. Si $\Pi$ est le groupe additif Z des entiers, et s'il opère trivialement sur $H_i(T, k)$ pour tout i (k désignant un corps), alors $H_i(X, k)$ est isomorphe à la somme directe de $H_i(T, k)$ et de $H_{i-1}(T, k)$.
 
 Si $\Pi = Z$ opère trivialement sur un groupe abélien $G$, on sait que $H_0(\Pi, G) = H_1(\Pi, G) = G$ et $H_i(\Pi, G) = 0$ pour $i \geq 2$ (ceci n'est rien d'autre, d'après un théorème de Hurewicz [18], que l'homologie d'un cercle). Dans le terme $E_2$ de la suite spectrale de la Prop. 4 le degré filtrant $p$ ne prend que les valeurs 0 et 1, et il s'ensuit que les différentielles $d_2, d_3, \cdots$ sont nulles puisqu'elles abaissent ce degré de 2, 3, $\cdots$ unités. Le terme $E_\infty$ est donc isomorphe à $E_2$, et, pour le degré total $i$ ne comporte que deux termes:
 

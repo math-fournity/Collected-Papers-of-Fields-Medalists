@@ -128,3 +128,14 @@
 - PASS± 项（不修）：①印刷 quirk：对偶 Prop 3 展示式中 H^j(**A\**)? 有星号而 H^i(**A**) 无星号（p014_prop3_600.png），印刷自身不一致，MD 逐字保留 "H^{i}(A)"，不改；②md 行 580 "il en est de même des $E_{r}^{*}$" 句尾缺印刷的句点——标点级，不误导，不修。
 - 差异：无内容错误。
 - 备注：md 行 589 起 "## 6…" 之后 §6 正文（Pontrjagin 引用、Définition du revêtement universel 段）属印刷 p.438。
+
+## p.015（PDF p.15 / 印刷 p.438）
+- PNG：audit/p015.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p015_Pi1b_600.png、p015_Erq2_600.png、p015_Erq3_600.png、p015_Pi2_600.png（600dpi）
+- 核对：Pontrjagin Topological groups n° 46 引用与 Leray-Cartan ([8], [3], [6]) 句；Définition du revêtement universel 全段（e、T、V_U、p: T → X projection、π_i(T) ≅ π_i(X) (i = 2, 3, ⋯)）；Les opérateurs définis par Π sur T（Π opère canoniquement、homéomorphisme sans point fixe、K(T) Π-libre、K(T)_Π ≅ K(X)）；La suite spectrale（[6] Exp. XII）；PROPOSITION 4 全文（Π = π_1(X)、suite (E_r) avec E_2^{p,q} = H_p(Π, H_q(T, G))）；Une suite analogue existe en cohomologie；(Précisons que H_p(Π, H_q(T, G))…Hopf-Eilenberg-MacLane-Eckmann…)；COROLLAIRE 1（Π = Z、H_i(X, k) ≅ H_i(T, k) ⊕ H_{i−1}(T, k)）
+- 结果：FAIL（已当场修复 2 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 597 "le groupe fondamental II de X" 的 "II"：600dpi（p015_Pi1b_600.png）确认印刷为希腊字母 **Π**（顶横杠与双脚衬线清晰，非罗马数字 II），Edit 修复为 "$\Pi$"（md 全文其余处均作 $\Pi$，此为孤立误读）。
+  - **[已修复]** md 行 615 "COROLLAIRE 1. Si II est le groupe additif Z" 的 "II"：600dpi（p015_Pi2_600.png）确认印刷为 **Π**，Edit 修复为 "$\Pi$"。
+  - 150dpi 疑 Prop 4 为 E_r^{p,q}，600dpi（p015_Erq3_600.png）确认印刷为 "(E_r) avec **E_2^{p,q}**"（同行 (E_r) 的 r 与之对照），MD $E_{2}^{p,q}$ 正确。
+- 差异：无其他。
+- 备注：md 行 619 起 "Si $\Pi$ = Z opère trivialement…"、COROLLAIRE 2、Note 与 "## CHAPITRE II" 开头属印刷 p.439；COROLLAIRE 2 中 "$\pi$ soit un groupe d'ordre fini" 的大小写待 p.016 仲裁。
