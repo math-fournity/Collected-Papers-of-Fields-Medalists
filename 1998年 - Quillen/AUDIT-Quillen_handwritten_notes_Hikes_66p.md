@@ -234,6 +234,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核矩阵因子、指标范围和 abelianization。
 - 记录：2026-10-02 01:01:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.024（PDF p.24 / 纸面圈号 24）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p024.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p024_euclidean-K1.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p024_steinberg-Milnor.png`。
+- 核对：域情形 `[GL_n(F),GL_n(F)]=E_n(F)=SL_n(F)` 及小阶例外；Euclidean domain 的 `K_1`；Steinberg generators/relations 与映射到 `E(A)`；Milnor central-extension theorem 和 `K_2` 定义。
+- 结果：**FAIL**。
+- 印刷证据与差异：纸面列出域情形的 derived subgroup/`SL_n(F)` 说明，随后才转 Euclidean domain；MinerU 当前相邻内容直接从 Euclidean domain 开始，未保存该域情形结论。原图 `St(A)` generators 为 `x_{ij}^a`，基线第 814 行写成 `X_j^a`；关系中的参数 `a,b` 在第 817、821、829 行被错读/省掉（如 `x_{ij}^a x_{ij}^b=x_{ij}^{a+b}` 与第三条 Steinberg commutator relation）。原图 canonical map 是 `x_{ij}^a↦e_{ij}^a`，基线第 837 行改成 `x_{ij}^2↦e_{ji}^2`。纸面页尾还明确给出 Milnor 定理 `φ:St(A)→E(A)` 是 `E(A)` 的 universal central extension，并定义 `K_2A=ker φ≅H_2(E(A),\mathbb Z)`；Markdown 在 map 后直接进入 `BGL(A)^+` 段，没有记录该定理/定义。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复，并补回本页原文中的 Milnor/K2 结论；按两张裁片复核 presentation 与 map。
+- 记录：2026-10-02 01:15:08 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.020（PDF p.20 / 纸面圈号 20）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
