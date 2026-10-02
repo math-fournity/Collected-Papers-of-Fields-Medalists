@@ -416,3 +416,10 @@
 - 证据：源 PDF p.057 文本层、页图 `audit/Hironaka_1964_resolution_partI_p057.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p057_data_types.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p057_definition3_formulas.png`，及 MinerU Markdown 第 887–917 行。四种 resolution data 标识与 (F)/(U) 配对、Definition 3 的 `\mathfrak{R}_{\mathrm{I}}^{N,n}` 数据形式及条件 (i)–(iv)、`\mathfrak{R}_{\mathrm{II}}^N` 矩阵数据形式，连同 permissible transformation 术语说明均与原页相符。
 - 备注：印刷运行页眉和页码 164 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.058 / 96（印刷 p.165）— FAIL
+
+- 时间：2026-10-02 03:58 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.058 文本层、页图 `audit/Hironaka_1964_resolution_partI_p058.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p058_definition4_symbols.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p058_resolution_sets.png`，并比对 MinerU Markdown 第 919–969 行。Definition 4(I) 印刷写作 `\mathfrak{R}_{\mathrm{I}}^{N,n}`，Markdown 第 933 行将罗马大写 I 误录成数字 1（`\mathfrak{R}_1^{N,n}`）。其余 Definition 3(II) 的参数/normal-crossings 条件、`\nu_{\mathbf M}(\mathbf J)` 与 `M^\nu \supseteq J`、Definition 4 的 resolved 条件和解析度集 $S,\nu,S_\nu,S_*$ 对应印刷页。另 Definition 4(II) 的数据符号在印刷中为花体 `\mathfrak{R}_{\mathrm{II}}^N`，Markdown 第 941 行写普通 `R_{II}^N`，属于不改变上下文指代的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 165 未录入 Markdown，属导航元素省略。
+- 结论：Definition 4(I) 的 datum 类型标签将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
