@@ -34,3 +34,12 @@
   2. 行 59/61 人名：印刷 `Pjateckiĭ-Šapiro`（ĭ=U+012D breve 在 i 上，Š=U+0160 caron 在大写 S 上；300dpi name 裁片），MD 写 `Pjateckiš-Sapiro`（caron 错置于 i、S 无 caron）；已两处定向 Edit 更正。
 - 重核 Luna 修复/存留项：⊕_{k=0}^{n-1} 上限印刷确为 n−1（MD 本已相符）；formal group/module 各定义式、τ 交换律均与页图相符。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 563" 未收。
+
+## p.004（PDF p.4 / 印刷 p.564）
+
+- PNG：audit-redo/p004.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p004_rel3.png（关系(2)(3)）、…_p004_prooftilde.png（Proof 首句 Λ̃）、…_p004_Fpk.png（F_{p^k} 两处关系符）
+- 核对：Prop 1.1 关系 (1)(2)(3) 与证明四个 display、C_n 注、B) Prop 1.2 两项及证明（φ(a∘b)=aφ(b)+b^{p^k}φ(a)、s=φ(a)/(a^{p^k}−a)）、C) 节设置、Prop 1.3 两项及其证明 1)。
+- 结果：FAIL（1 处）。Proof 首句（MD 行 101）：印刷 `Λ̃_O^{n-1}`（tilde 清晰可辨，与 p.563 Prop 1.1 陈述一致），MD 缺 tilde；已 Edit 为 `$\widetilde{\Lambda}_O^{n-1}$`。
+- 重核 Luna 修复：关系 (1) 的 `h(a)`/`h(a)∘p`、证明 display 的全部 `h(·)`、Prop 1.3 两项的 `h(a)`/`(a^n−a)h(b)=(b^n−b)h(a)` 均与印刷相符（Luna 由 `b` 改 `h` 的方向正确）。
+- print quirk 登记（不改）：① 关系 (3) 印刷右端为 `h(a, b)`（带逗号，与证明中 `h(ab)` 写法不一致，系原文排印原样）；② Prop 1.2 证明第二个 `If O ⊂ F_{p^k}` 印刷无否定斜线（同段 `a ∉ F_{p^k}` 的 ∉ 斜线清晰），数学上应为 ⊄，忠实保留。MD 两处均与印刷原样一致。
+- 另记（PASS± 级伪影，不改）：页眉 "564 V. G. DRINFEL'D" 未收。

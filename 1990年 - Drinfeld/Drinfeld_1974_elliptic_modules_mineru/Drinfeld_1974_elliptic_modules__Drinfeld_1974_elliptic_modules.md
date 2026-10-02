@@ -98,7 +98,7 @@ $$
 C _ {n} (x, y) = ((x + y) ^ {n} - x ^ {n} - y ^ {n}) / p \text {   if   } n = p ^ {k}).
 $$
 
-Proof. Clearly, $\Lambda_O^{n-1}$ can be defined by the generators $h(a)$ and $c_i$ ($0 < i < n$) with the relations
+Proof. Clearly, $\widetilde{\Lambda}_O^{n-1}$ can be defined by the generators $h(a)$ and $c_i$ ($0 < i < n$) with the relations
 
 $$
 \begin{array}{c} a (x + y + \Phi (x, y)) + h (a) (x + y) ^ {n} = a x + a y + h (a) x ^ {n} + h (a) y ^ {n} + \Phi (a x, a y), \\ a x + h (a) x ^ {n} + b x + h (b) x ^ {n} + \Phi (a x, b x) = (a + b) x + h (a + b) x ^ {n}, \end{array}
