@@ -271,3 +271,12 @@
 - 核对：Corollary 7.2 证明余段（乘积 Shimura 数据与局部系统）、Theorem 7.1 证明，以及 §8 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Corollary 7.2 证明将诱导有限 étale 映射 `S_K(G,X) → ∏_i S_{K_i}(G^{(i)},X_i)` 的箭头漏录；张量表示中给 `V_2` 多加点号，并把 isotypic component 中的 `V_1` 多加复共轭横线。Hodge-weight 对象的 `d_R(V_1 ⊠ … ⊠ V_k)` 被录成 `\bigcap(V_1 ⊠ … ⊠ V_k)`；其后 `⊠_{i,et}V_{i,p^f}` 被误录为带黑体 `S` 的 `\mathbb S_{i,et}\mathbb V_{i,p^f}`，另一个局部系统项又多出 `\breve{}` 标记。两张 300dpi 裁片核实原文的 `d_R`、`⊠`、局部系统标签和普通表示因子。PASS± 拼写伪影：`diference`、`sufices`；§8 标题与问题陈述和印刷相符。
+
+## p.031（PDF p.31 / 印刷 p.31）
+- 时间：2026-10-02 01:12:51 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p031.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-Theorem8.1-Lemma8.2.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-Lemma8.2-proof.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p031-setup-Lemma8.3.png`
+- 核对：Theorem 8.1；Lemma 8.2 陈述及证明；§8.2 模型与 CM 点设定、Lemma 8.3 陈述和式 (8.2.1) 之前的基本群分解。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Lemma 8.2 证明中印刷变量为 `η_j`，Markdown 将 localization 的素理想写成 `\mathfrak h_{\mathcal j}`，随后又将其上方的素理想写成 `\mathfrak p_j`；印刷两处均为 `η_j`。同一证明把 `R[[x_1,…,x_n,…]]` 的首变量写成 `x_i`，并将 localization 下标误留为 HTML `<sub>j</sub>`。§8.2 的 `G_\mathbb Q`-representation 漏了 `\mathbb Q`，integral point 的 `\mathcal S` 误成小写 `s`，Lemma 8.3 的 `et V_2` 局部系统标记被破坏成空下标形式。300dpi 裁片核实了这些对象和下标；Theorem 8.1 中 `S(\overline{\mathbb Q})` 和 `S(\overline{\mathbb Z}[N^{-1}])` 则与印刷相符。
