@@ -58,3 +58,10 @@
 - 核对：Theorem 收尾两句、§3/§3.1/§3.2 节标题顺序、Super^k 段（ΠV=V⊗k^{0|1}、Koszul 符号规则、Vect^k）、Graded^k 段（Ẽ^{(n)} 奇偶、ℰ=⊕Π^n(ℰ^n)）、shift functor 段（k[1]^{-1}≃k、k[1]^{≠-1}=0）、ℰ=⊕_{n∈Z}ℰ^n[−n] 式、dgLie 公理三式（d²=0、Leibniz、反交换、Jacobi 恒等式，含 (−1)^{γ̄₁·γ̄₂} 等指标）与 γ̄_i 说明句（MD 行 271–317）。
 - 结果：`FAIL`→3 处幻影字符已修复（300dpi 裁剪确凿）：①行 285 `$\mathbf{Z}\mathbf{\cdot}$-grading` 印刷为 `Z-grading`，删幻影 `·`；②行 289 `k[1]^{≠-1}=\dot{0}` 印刷为 `= 0`（0 上无点），删 `\dot{}`；③行 289 `denoted by [n],$\mathbf{\psi}_n\in\mathbf{Z}$` 印刷为 `[n], n ∈ Z`（无 ψ），删幻影 ψ。另修 1 处重复标点：行 315 `$\gamma_i.$, i.e.` 印刷为 `γ_i, i.e.`。其余 PASS±：行 275/297/301/317 `diferential`/`diferential`/`diferential`（含两处节标题 ff 拍平，登记不改）；行 285 `Graded^k$` 后缺句点（登记）；行 289 `(acting from the$\mathrm{right})` 正体拍平。公式行 304/308/312 与印刷逐符号吻合。
 - 备注：行 319 起（Def_g 函子）为印刷 p.8 内容，在 p.008 核对。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p008.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p008_degree_minus1.png`（300dpi）
+- 核对：Def_g 函子定义段、MC(g)={γ∈g¹|dγ+½[γ,γ]=0}/Γ⁰ 式、Γ⁰ 仿射作用与无穷小作用 α∈g⁰↦(γ̇=dα+[α,γ]) 式、无单位代数 m^{dim(m)+1}=0 与 Def_g(m)=MC(g⊗m)、Artin 代数 m′=m⊕k·1、线性拓扑 m:=ℏR[[ℏ]]=lim←(ℏR[ℏ]/ℏ^kR[ℏ])、§3.3 Remark 全段、§3.4/§3.4.1 节标题、切复形定义式 g=⊕g^k[−k]; g^k=Γ(X,Ω^{0,k}_X⊗T^{1,0}_X)（MD 行 319–364）。
+- 结果：`FAIL`→2 处已修复：①行 353 `non-trivial component in degree 1` 印刷为 `degree −1`（300dpi 裁剪确凿，负号丢失，数学内容错误），已补 `−1`；②同 行 `$\mathbf{g}^{<0}=0 .$.` 双句点已删。其余 PASS±：行 353/357 `diferential`×3（ff 拍平）；行 325 `afine`。公式行 322/328/334/340/348/364 与印刷逐符号吻合。
+- 备注：印刷 p.8 止于 ⊕ 公式（页码 8）；MD 行 367 起「with the diferential equal to ∂̄…」为印刷 p.9 内容，其中 `$\overline{\partial}.$forms` 疑似幻影句点、`X$eof` 杂散 e 在 p.009 处理。
