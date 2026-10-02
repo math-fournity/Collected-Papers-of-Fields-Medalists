@@ -75,3 +75,9 @@
 - 核对：Theorem 2.1 (Positive association at every temperature)——FKG inequality 公式 (2.3) µ^b_{β,G}(A∩B) ≥ µ^b_{β,G}(A)µ^b_{β,G}(B)、Comparison between boundary conditions 公式 (2.4) µ^{b1}_{β,G}(A) ≤ µ^{b2}_{β,G}(A)；stochastic domination µ^{b1} ≤ µ^{b2} 与 extremal +/− boundary conditions；Λ_n = [−n,n]² 递增盒子序列与 infinite-volume 极限 µ^+_β、µ^−_β；Theorem 2.2——β_c = ½ ln(1+√2)，magnetization µ^+_β[σ_0] 在 β>β_c 严格正、β<β_c 等于 0；引文 [FKG71][Pei36][KW41a, KW41b][Yan52]；脚注 4；页脚印刷页码 9。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：文本层把 ½ 拍平为 "12"、√2 的根号丢失（"ln(1 + 2)"），属 pdftotext 已知伪影；PNG 为裁决源，分数与根号印刷清晰。上标 b/b1/b2/+/- 与下标 β,G 的堆叠记号是重导出对账重点。
+
+## p.010（PDF p.10 / 印刷 p.10）
+- PNG：audit/p010.png（pngmono 150dpi）
+- 核对：Gibbs measures 段与引文 [ABF87][Aiz80, Hig81][CV10][Dob72]；幂律 µ^+_{βc}[σ_0σ_x] ≈ ∣x∣^{−1/4}（[Ons44]）；Theorem 2.3（[MW73]）——τ_β(a) = lim_{n→∞} −(1/n) ln µ^+_β[σ_0σ_[na]] = x arcsinh(s_x) + y arcsinh(s_y)，s 的方程 √(1+s²x²) + √(1+s²y²) = sinh(2β) + (sinh(2β))^{−1}；Theorem 2.4 (see e.g. [Mes06]) 公式 (2.5) lim_{β↗β_c} τ_β(z)/(β_c−β) = 4∣z∣；§2.2 Low and high temperature expansions 标题；低温展开 partition function 公式 (2.6) Z^+_{β,G} = e^{β# edges in G⋆} Σ_{ω∈E_{G⋆}} (e^{−2β})^{∣ω∣}；页脚印刷页码 10。
+- 结果：FAIL——MD 无任何对应段（整文档错源为 Arnlind–Hoppe–Huisken），以原图为准。
+- 备注：文本层与 PNG 双通道一致；(2.6) 中 e 的指数 "β# edges in G⋆" 与 G⋆ 的 ⋆ 上标位置印刷紧凑，重导出对账时按 PNG 为准。
