@@ -160,3 +160,9 @@
 - 核对：整页插图页——Figure 4（γ 圆上 ℜS 梯度场，标注 z_c/z̄_c/γ/e^τ/e^{τ/2}/e^{3τ/4−χ/2}）与 Figure 5（γ> dashed、γ< dotted、γ± 弧与 θ* 角），两图题注
 - 结果：PASS±（一处已修复）：Figure 5 题注 md 原为 "$\gamma _ { > } ( \mathrm { d a s h e d } )$$\gamma _ { < } ( \mathrm { d o t t e d } )$" 两 math 块相接无标点，p023.png 印刷为 "Contours γ>(dashed), γ<(dotted), and γ±" → 补 ", "。
 - 备注：Figure 4 题注 "Gradient of ℜS(z) on the circle γ={|z|=e^{τ/2}}" 与 md 一致；图内标注与式 (32)/(33) 几何关系一致。
+
+## p.024（PDF p.24 / 印刷 p.24）
+- PNG：audit/p024.png（pngmono 150dpi）
+- 核对：γ± 弧定义、K_{3D}=∫^{(1)}+∫^{(2)} 分解、∫^{(1)}=(1/(2πi)²)∫_{γ<}dz∫_{γ>}dw、∫^{(2)} 量子 dilog 比式、∫^{(1)}→0 (r→+0)、§3.1.7、(1−e^{−τ}w)^{Δt} 极限、w=e^τw′ 替换与 e^{−τ(Δh+Δt/2)} 前因子、Definition 4（𝔹_±(k,l;z)=(1/2πi)∫_z̄^z(1−w)^k w^{−l−1}dw，路径过 (0,1)/(−∞,0)）
+- 结果：PASS。全部吻合；行 902/908 的 "r \rightarrow + 0" 箭头完整无缺。
+- 备注：印刷 quirk "with the same integrand in as in (26)"（"in as in"，印刷原样）忠实保留；行 909 "e$- \tau ( \Delta h + \Delta t / 2 )$" 上标拆分为正文+math 的 mineru 排版伪影，内容可辨，不改；"\operatorname { i f }" 伪影不改。
