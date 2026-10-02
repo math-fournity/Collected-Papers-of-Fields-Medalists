@@ -361,3 +361,12 @@
 - 核对：Definition 11.2 的 endomorphism algebra、trace polarization 与 discriminant；Lemma 11.3；§11.3 Property (1) 的 projection/index/polarization 比较及 Property (3) 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Definition 11.2 应定义 `\mathbb Q_\chi=\operatorname{End}_T(V_\chi)`，Markdown 的 End 对象丢了下标 `\chi`；同段 trace 与 norm 域 `\mathbb Q_\chi` 多次误成 `\mathbb Q_x`。Property (1) 中系数环映射 `R_{\chi_1}\otimes R_{\chi_2} → R_{\chi_3}` 漏箭头，`\mathbb V_{\chi_i}, i=1,2,3` 的定义行也把枚举变量混入下标。Property (3) 的 Shimura-data map `f:(T_1,r_1) → (T_2,r_2)` 漏箭头，其 Archimedean error bound 的维数/range 下标被拆坏。300dpi 裁片核实 endomorphism 对象、`\mathbb Q_\chi`、映射及误差下标。PASS± 源级瑕疵：印刷原文的 `odd of even` 被保留；`fix a sign` 在 Markdown 中有字母拆裂。
+
+## p.041（PDF p.41 / 印刷 p.41）
+- 时间：2026-10-02 02:00:00 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p041.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p041-property4-characters.png`
+- 核对：Property (3) 的高度与范数界余段；§11.4 Property (4) 的 character、restriction level、pullback norm collection 与格子分解。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Property (4) 中取点范围应为 `x ∈ S_{K'}(T,r)(\mathbb Q)`，Markdown 改成 `x ∈ S_K(T,r)(\overline{\mathbb Q})`，同时丢失 `K'=i^*K` 的 level。紧接着的 norm collection `\mathcal N_0|\cdot|` 被写成无名称的 `_0|\cdot|`。同页后半将 direct-summand 表示/lattice `\mathbb V_\chi` 多次误录为 `\mathbb V_x` 或 `\mathbb V_{\mathcal X}`，改变了 subscript 中的 character 身份。300dpi 裁片确认点集的 level/base field、collection 名称和 `\chi` 字形。PASS±：`morphisms`、`diferent` 与 `suficient` 拼写/词形伪影。
