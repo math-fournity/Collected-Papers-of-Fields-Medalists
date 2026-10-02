@@ -88,7 +88,7 @@ $$
 f B _ {1} (g, h) - B _ {1} (f g, h) + B _ {1} (f, g h) - B _ {1} (f, g) h = 0,
 $$
 
-i.e. the linear map${ \widetilde { B } } _ { 1 } : A \otimes A { \longrightarrow } A$associated with$B _ { 1 }$as$\widetilde { B } _ { 1 } ( f \otimes g ) : = B _ { 1 } ( f , g )$, is a 2-cocycle in the e ecohomological Hochschild complex of algebra A (the definition of this complex is given in 3.4.2).
+i.e. the linear map${ \widetilde { B } } _ { 1 } : A \otimes A { \longrightarrow } A$associated with$B _ { 1 }$as$\widetilde { B } _ { 1 } ( f \otimes g ) : = B _ { 1 } ( f , g )$, is a 2-cocycle in the cohomological Hochschild complex of algebra A (the definition of this complex is given in 3.4.2).
 
 Let us decompose$B _ { 1 }$into the sum of the symmetric part and of the anti-symmetric part:
 
