@@ -272,3 +272,11 @@
 - 核对：Néron 模型句（diviseur de N）、(4.7.6) k = 2、prop. 4 du n° 2.8、(4.7.3)…(4.7.6) 汇总句与 (3.3.1?)、f_p = Σa_{n,p}qⁿ、ρ_p^X ≃ ρ_{f_p}、a_{l,p} = ã_l pour tout l ⊬ N, l ≠ p、F = ΣAₙqⁿ、Z̄/P 无限/K_X 段、Ã_l = a_{l,p} = ã_l 式、Faltings [13]、Remarque（primitive、Carayol [8]）、4.8 节标题与四个定义项（X、X_C、m impair、H^m(X_C, C)）、(4.8.1)/(4.8.2) Hodge 分解、Choisissons S 句。
 - 结果：FAIL。两处已依原图修复：Markdown 两处把不整除符写成真加号——“a_{l,p} = ã_l pour tout **l + N**, l ≠ p” 与 “Si **l + N**, on a donc”，300 dpi 裁片确认印刷均为 l ⊬ N（+ 样字形，同 p.194/p.208 已裁决字形），均修为 l \nmid N。其余逐项吻合。
 - 备注：(4.8.1) 与 (4.8.2) 在 Markdown 合并为一行，印刷分两行，内容一致，排版级不改；页眉 “210 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “on peut définir une réduction”，modulo l 段属印刷 p.211。
+
+## p.033（PDF p.33 / 印刷 p.211）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p033.png`（pngmono，150 dpi）。
+- 核对：modulo l 段（X̃_l、π_l/π′_l、Deligne、corps quadratique imaginaire）、(4.8.3) π′_l = π̄_l et π_lπ̄_l = l^m、(4.8.4) a_l(X) = π_l + π̄_l、|a_l(X)| ⩽ 2l^{m/2}、unicité 括注（[40] n° 1.2）、THÉORÈME 6（Admettons (3.2.4?)）、(a) N ⩾ 1、(b) (N, m+1, 1)、F = q + ⋯ + Aₙqⁿ + …、(4.8.5) A_l = a_l(X) pour l ∉ S、En d'autres termes 括注、galoisiennes 重述段（X̄、H^m_et(X̄, Q_p)、H_p、Z_p*、arithmétiques/géométriques、k = m + 1）、Démonstration 开头（T 有限、p ∉ T、dim H^m_et = 2）。
+- 结果：PASS。公式、编号、上下标（l^m、2l^{m/2}、H^{m+1}_et）全部与印刷吻合。
+- 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 211” 未收入 Markdown，排版级。印刷页止于 “définit alors une”，ρ_p 式及其后内容属印刷 p.212。
