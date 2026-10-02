@@ -159,3 +159,13 @@
   - **修复×3**：① 行 479 `$K \subset M$` → `$K \subset \mathfrak{M}$`（印刷 Fraktur 𝔐）；② 行 488 显示式箭头 `\leftrightarrow` → `\Rightarrow`（300dpi 确认印刷为双线 ⇒）；③ 行 491 丛对 `$\mathfrak{E}^3\to\mathfrak{E}^2$` → `$\mathscr{E}^3 \Rightarrow \mathscr{E}^2$`，及 "section $\Phi$ of $\mathfrak{E}^2$" → `$\mathscr{E}^2$`（300dpi 确认为草书 ℰ 与双箭头 ⇒，Luna 误作 Fraktur E + 单箭头）。
   - 排版级伪影（登记不改）：Proposition 8 整段斜体拍平；`C^3` 印刷粗体拍平为正体。
 - 修复登记：行 479 `M`→`$\mathfrak{M}$`；行 488 箭头→`\Rightarrow`；行 491 `\mathfrak{E}`→`\mathscr{E}` 与箭头→`\Rightarrow`（依据 `audit-redo/p013.png` + 300dpi 裁片）。
+
+### p.014（PDF p.14 / 印刷 p.292）
+
+- PNG：`audit-redo/p014.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（ℰ 系列字形、L²₃⇒L²₂ 箭头、H¹_A→φ→H²_A 箭头标、(Dφ)₀、Φ(ψ⁻¹X) 大写 X、"transυersally" 希腊 υ，结论记于本条）
+- 核对：∇σ 定义显示式与 ℰ³ 纤维范数段；"in effect the slices" 段与 L²₃⇒L²₂ compact；Γ_A symmetry 拓扑段；reducible 处理段（H²_A≅C^p、H¹_A≅C^{3+p}→^φ H²_A≅C^p、(Dφ)₀=0、α 上同调、φ̃(z) 式、φ̃⁻¹(0)/S¹≅C³/S¹ cone on CP²）；Φ/Φ̃ 替换两显示式；K⊂𝔅* 段；Lemma 9 全文
+- 结果：**PASS±**（含八处修复）。
+  - 与页图一致：`(∇σ)_{[A]}` 显示式结构（`(T\mathfrak{B}^*)_{[A]}` Fraktur 正确）、`H_A^1\cong\mathbf{C}^{3+p}\xrightarrow{\phi}H_A^2\cong\mathbf{C}^p`（300dpi 确认箭头标为**无 tilde 的 φ**，md 正确）、`(\mathbf{D}\phi)_0=0`（300dpi 确认**无 tilde**，md 正确）、φ̃(z) 式、`L^2_2(\Omega^2_-(\mathfrak{g}))`（300dpi 确认下标 2）、`Φ(ψ^{-1}X)` 印刷确为**大写 X**（与同式小写 x 并存系原刊疏忽，md 忠实保留）、Lemma 9 的 `V\subset\subset U` 与 `K\subset U_1\subset\subset U_2\subset\subset U_3`。
+  - **修复×8**：① 行 493 `\mathfrak{S}^3` → `$\mathscr{E}^3$`（印刷草书 ℰ³，Luna 此处误作 Fraktur S——同一字形在 p.13 又被它作 Fraktur E，三页三种写法）；② 行 496 `\mathfrak{E}_A^3` → `$\mathscr{E}_A^3$`；③④ 行 499 `\mathfrak{E}^k`/`\mathfrak{E}^2` → `\mathscr{E}`；⑤ 行 499 `L_3^2 \Leftrightarrow L_2^2` → `L_3^2 \Rightarrow L_2^2`（300dpi 确认双线 ⇒，与 p.13 行 488 同型）；⑥⑦ 行 529 两处 `$B^{*}$` → `$\mathfrak{B}^{*}$`（印刷 Fraktur）；⑧ 行 531 "cut out transversally" → "cut out transυersally"（300dpi 放大对比同段斜体 *covered* 的尖底 v：印刷此处为**圆底希腊 υ**，ABBYY 文本层亦作 transυersally；Luna 曾静默改正，按 print quirk 原则复原并登记）。
+  - 排版级伪影（登记不改）：Lemma 9 整段斜体拍平；`C^p`（行 503）印刷粗体、md 正体，而同行 506/515 又用 `\mathbf{C}`——粗体处理不一致系 Luna 基线遗留，语义无损。
+- 修复登记：行 493/496/499（×3）草书 ℰ 统一为 `\mathscr{E}`；行 499 箭头→`\Rightarrow`；行 529 两处 `B*`→`$\mathfrak{B}^{*}$`；行 531 "transversally"→"transυersally"（依据 `audit-redo/p014.png` + 300dpi 裁片）。

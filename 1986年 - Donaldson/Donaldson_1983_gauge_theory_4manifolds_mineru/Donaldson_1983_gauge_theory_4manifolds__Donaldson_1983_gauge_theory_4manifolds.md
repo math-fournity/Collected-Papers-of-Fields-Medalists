@@ -490,13 +490,13 @@ $$
 
 So we get a pair of bundles, $\mathscr{E}^3 \Rightarrow \mathscr{E}^2$ say, over the manifold $\mathfrak{B}^*$, associated to the principal bundle $p^{-1}(\mathfrak{B}^*)$; and the anti-self dual component of the curvature induces a canonical section $\Phi$ of $\mathscr{E}^2$. The allowable perturbations $\sigma$ are to
 
-be smooth sections of $\mathfrak{S}^3$: the “uniform norm” $\| \sigma(A) \|_{L_3^2(A)}$ in the fibre over $[A] \in \mathfrak{B}^*$ is well defined as is the “covariant derivative” $(\nabla \sigma)_A$, a linear map
+be smooth sections of $\mathscr{E}^3$: the “uniform norm” $\| \sigma(A) \|_{L_3^2(A)}$ in the fibre over $[A] \in \mathfrak{B}^*$ is well defined as is the “covariant derivative” $(\nabla \sigma)_A$, a linear map
 
 $$
-(\nabla \sigma) _ {[ A ]}: \operatorname{Ker} d _ {A} ^ {*} \cong (T \mathfrak {B} ^ {*}) _ {[ A ]} \rightarrow \mathfrak {E} _ {A} ^ {3} \cong L _ {3} ^ {2} (\Omega_ {-} ^ {2} (\mathfrak {g})),
+(\nabla \sigma) _ {[ A ]}: \operatorname{Ker} d _ {A} ^ {*} \cong (T \mathfrak {B} ^ {*}) _ {[ A ]} \rightarrow \mathscr{E} _ {A} ^ {3} \cong L _ {3} ^ {2} (\Omega_ {-} ^ {2} (\mathfrak {g})),
 $$
 
-(in effect the slices $T_{A,\varepsilon}$ define a connection on $\mathfrak{E}^k$). If we interpret $\sigma$ as a section of $\mathfrak{E}^2$, $\nabla(\Phi + \sigma)$ is Fredholm and of the same index as $\nabla\Phi$, since $\nabla\sigma$ factors through $L_3^2$, and $L_3^2 \Leftrightarrow L_2^2$ is compact.
+(in effect the slices $T_{A,\varepsilon}$ define a connection on $\mathscr{E}^k$). If we interpret $\sigma$ as a section of $\mathscr{E}^2$, $\nabla(\Phi + \sigma)$ is Fredholm and of the same index as $\nabla\Phi$, since $\nabla\sigma$ factors through $L_3^2$, and $L_3^2 \Rightarrow L_2^2$ is compact.
 
 All of this makes sense over the whole of $\mathfrak{B}$ provided that $\sigma$ is defined in a $T_{A,\varepsilon}$ with the appropriate $\Gamma_A$ symmetry. We give such $\sigma$ the topology of uniform convergence of $\| \sigma \|_{L_3^2 (A)}$ and convergence of $\nabla \sigma$ in operator norm, uniformly on compact sets.
 
@@ -526,9 +526,9 @@ $$
 
 equal to $\Phi$ outside a small neighborhood of $[A]$.
 
-Doing this for each of the  $n(Q)$  reducible self-dual connections we can pass without loss of generality to the case when the compact set K is contained in  $B^{*}$  since all our subsequent perturbations will be supported in  $B^{*}$ . It is convenient then to prove
+Doing this for each of the  $n(Q)$  reducible self-dual connections we can pass without loss of generality to the case when the compact set K is contained in  $\mathfrak{B}^{*}$  since all our subsequent perturbations will be supported in  $\mathfrak{B}^{*}$ . It is convenient then to prove
 
-Lemma 9. If $V \subset \subset U \subset \mathfrak{B}^*$ are open sets with $U$ covered by finitely many slices $T_{A,\varepsilon}$, then the set $G$ of "good perturbations" $\sigma$, supported in $U$ and such that the zero set $\overline{V} \cap Z(\Phi + \sigma)$ is cut out transversally (i.e., $(\nabla(\Phi + \sigma))$ is onto for all $[A] \in \overline{V} \cap Z(\Phi + \sigma)$) is open and dense.
+Lemma 9. If $V \subset \subset U \subset \mathfrak{B}^*$ are open sets with $U$ covered by finitely many slices $T_{A,\varepsilon}$, then the set $G$ of "good perturbations" $\sigma$, supported in $U$ and such that the zero set $\overline{V} \cap Z(\Phi + \sigma)$ is cut out transυersally (i.e., $(\nabla(\Phi + \sigma))$ is onto for all $[A] \in \overline{V} \cap Z(\Phi + \sigma)$) is open and dense.
 
 Given Lemma 9 we can find three open sets  $K \subset U_{1} \subset \subset U_{2} \subset \subset U_{3}$ , each covered by finitely many slices  $T_{A,\varepsilon}$ , since K is compact. The set of good perturbations over  $U_{1}$  supported in  $U_{2}$  is open and dense, and by applying
 
