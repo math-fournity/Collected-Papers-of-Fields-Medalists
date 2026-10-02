@@ -183,3 +183,13 @@
 - 印刷证据与差异：原图 action 结论涉及 `π_1X_3`、`π_1K(H_2X_2,1)` 与 `H_2(BN)`，基线第 552–554 行把该图与作用写成拼接的 `Π/H/π_x` 残式，无法复核中心性论证。中心扩张证明原图的纤维为 `BA=K(A,1)`，基线第 563 行写成 `IT(A,V)`；obstruction 分类的上标是 `H^{n+1}(-,A)`，基线第 565 行误成 `H^{m+1}`。原图 §Fact 使用 `K(A,n)→E→B` 与唯一映射 `B→K(A,n+1)`，基线第 567 行写成 `π(A,n)`。原图最后一项为 `Ext(H_1(BN),A)`，基线第 575 行把 `H_1(BN)` 的次序/下标拆坏，影响由 `H_1(BN)=0` 得到 `u=0` 的依据。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核作用、纤维类型及 Ext 项。
 - 记录：2026-10-02 00:13:22 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.018（PDF p.18 / 纸面圈号 18）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p018.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p018_perfectness-universality.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p018_higher-homotopy.png`。
+- 核对：截面推出直积扩张；`X_3=BE` 的 perfectness 与无非平凡中心扩张性质；普遍中心扩张的纤维积论证；Schur multiplier、`n≥3` 的 `π_1` 稳定性及 super-perfect 定义。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图明确由 `H_1(BE)=E^{ab}=0` 得出 E perfect；基线第 581 行写成 `E^{ab}≠0`，反转了结论。原图第 597 行的纤维是 `\Pi(H_nX_n,n−1)`，基线把空间符号错成 `H(H_nX_n,n−1)`；第 599 行 `π_1(AX)`、`π_1X_n` 的下标被写成逗号。底部定义的术语是 `super-perfect`，基线第 602 行识别成 `Oror`。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片回核 H_1 / E^{ab} 的零值、纤维空间符号与 `π_1`。
+- 记录：2026-10-02 00:18:28 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
