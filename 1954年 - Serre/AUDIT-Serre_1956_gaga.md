@@ -10,7 +10,7 @@
 - Text mode: born-digital. `pdfinfo` reports Producer `pdfTeX-1.40.16`; UTF-8 `pdftotext -layout` yields 87,978 bytes across 43 nonempty pages and 0 U+FFFD. PDF p.1 is the unnumbered journal cover; PDF p.2–43 are print pages 1–42.
 - Existing export metadata: MinerU 3.4.4, 43 structured pages. A `doc_id` field is absent from the tracked `structured_content.json` and `middle_json.json`; no value is inferred.
 - Review route: full PDF text-layer to MinerU Markdown page-by-page reconciliation; visual whole-page samples at the title page and two dense mathematical pages; glyph ambiguities, if found, require a committed 300 dpi crop. Text-layer absence is not treated as proof that a printed symbol is absent.
-- The per-page records below identify the AI actor, model, and effort. Page commits preserve this file and any image cited by that page. Root progress/index files remain owned by the canonical integrator.
+- The per-page records below identify the AI actor, model, and effort. Each page commit preserves its audit record and the page evidence available at that point; two supplementary 300 dpi crops found necessary during final readback are included with this closeout. Root progress/index files remain owned by the canonical integrator.
 
 ## Page records
 
@@ -80,16 +80,16 @@
 ### PDF p.010/43 — print p.9
 
 - Reviewed: 2026-10-01 16:13 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
-- Evidence: [300 dpi ring-label crop](audit/300dpi/Serre_1956_gaga_p010_ring-label_300dpi.png); [300 dpi theta-map crop](audit/300dpi/Serre_1956_gaga_p010_theta_300dpi.png); [300 dpi Proposition 3 crop](audit/300dpi/Serre_1956_gaga_p010_hat-theta_300dpi.png); PDF text layer and MinerU Markdown lines 143–164.
+- Evidence: [300 dpi ring-label crop](audit/300dpi/Serre_1956_gaga_p010_ring-label_300dpi.png); [300 dpi theta-map crop](audit/300dpi/Serre_1956_gaga_p010_theta_300dpi.png); [300 dpi Proposition 3 crop](audit/300dpi/Serre_1956_gaga_p010_hat-theta_300dpi.png); [300 dpi ideal-J crop](audit/300dpi/Serre_1956_gaga_p010_ideal-J_300dpi.png); PDF text layer and MinerU Markdown lines 143–164.
 - Checked: direct definition of the analytic structure, X^h properties, local-ring comparison, the homomorphism and its completion, Proposition 3, and the ideal J_x(Y) setup.
 - Result: FAIL. The print uses H_{x,X} and O_{x,X} in the direct-definition sentence; the crop confirms uppercase X, while Markdown line 145 uses lowercase x in both subscripts. Proposition 3 prints the completed map with theta; the crop confirms it matches the preceding theta map, while Markdown line 159 has zero. Defer both corrections until the full audit is complete.
 
 ### PDF p.011/43 — print p.10
 
 - Reviewed: 2026-10-01 16:15 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
-- Evidence: [300 dpi Proposition 4 and formal-series crop](audit/300dpi/Serre_1956_gaga_p011_prop4-formal-powers_300dpi.png); PDF text layer and MinerU Markdown lines 164–180.
+- Evidence: [300 dpi Proposition 4 and formal-series crop](audit/300dpi/Serre_1956_gaga_p011_prop4-formal-powers_300dpi.png); [300 dpi J-ideal crop](audit/300dpi/Serre_1956_gaga_p011_J-ideal_300dpi.png); PDF text layer and MinerU Markdown lines 164–180.
 - Checked: Proposition 4, the affine-space formal-series case, the Nullstellensatz exponent, ideal products/intersections, and the quotient argument for Propositions 3 and 4.
-- Result: FAIL. The print has theta in the generator statement, C[[z_1,...,z_n]] for formal power series, and f^r with r ≥ 0. The crop confirms all three. Markdown line 166 instead has zero in the generator, single brackets around the series variables, and a prime on f. Defer these corrections until the full audit is complete.
+- Result: FAIL. The print has theta in the generator statement, C[[z_1,...,z_n]] for formal power series, and f^r with r ≥ 0. The crops also show theta in “au moyen de theta” and J_x(Y) in the definition continuation and both completed-ideal terms; the audited Markdown instead had zero in that phrase and I_x(Y) in those three places. All identified differences are repaired in the final Markdown; see the closeout register.
 
 ### PDF p.012/43 — print p.11
 
@@ -185,12 +185,26 @@
 - Checked: composition proving Theorem 2, kernel/cokernel uniqueness proof, and the reduction of Theorem 3 existence to projective space by extension by zero.
 - Result: FAIL. The print's first Hom section is H^0(X,A), but Markdown line 554 has X^h. In the existence reduction, print uses M^X, f in the ideal sheaf I, and the stalk G_x^h = M_x^X; Markdown line 572 instead has M^x, J_x, G_{fx}^h, and M_x^x. The print also has I·G = 0 and M^X at the end of this passage, while line 574 has J·G and M_b^X. The crops confirm these object and case differences. Defer correction until the full audit is complete.
 
+### PDF p.025/43 — print p.24
+
+- Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi twist-transition crop](audit/300dpi/Serre_1956_gaga_p025_twist-transition_300dpi.png); [300 dpi Lemma 8 crop](audit/300dpi/Serre_1956_gaga_p025_lemma8_300dpi.png); PDF text layer and MinerU Markdown lines 574–592.
+- Checked: closing restriction step of the extension-by-zero argument, definition of M(n) and its transition maps, Lemma 7, and Lemma 8's global-generation bound.
+- Result: FAIL. The print's closing phrase is that F^h is isomorphic to M, with no subscript on M; Markdown line 574 has M_b^X. The 300 dpi crop confirms the print. The twist t_j^n/t_i^n and Lemma 8 bound/generation statement otherwise agree.
+
+### PDF p.026/43 — print p.25
+
+- Reviewed: 2026-10-01 16:42 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [150 dpi full page](audit/Serre_1956_gaga_p026_150dpi.png); [300 dpi tensor-sequence crop](audit/300dpi/Serre_1956_gaga_p026_tensor-sequence_300dpi.png); [300 dpi equations (1)–(4) crop](audit/300dpi/Serre_1956_gaga_p026_equations1-4_300dpi.png); PDF text layer and MinerU Markdown lines 594–635.
+- Checked: generation by global sections, hyperplane ideal sequence, tensoring by M, Tor_1 identification, and equations (1)–(4).
+- Result: FAIL. The print identifies the hyperplane ideal as A(E), but line 602 has b(E). In the tensor sequence and its explanation, print uses M throughout; lines 613 and 616 instead use A in the tensor factors, target and Tor_1 arguments. Equation (2) prints M(n−1) → M(n), while line 625 has 1_0(n−1) → 1_0(n). The print has distinct exact sequences (3) and (4): line 630 contains only the bare label (3), and line 633 labels a corrupted copy of sequence (3) as (4), omitting the printed sequence (4) altogether. A full-page reread also showed that an extra untagged duplicate of sequence (4) later in the Markdown has no counterpart on the printed page; it was removed. Both crops confirm the displayed sequences and the extra display is absent from the full-page source. All differences are repaired in the final Markdown; see the closeout register.
+
 ### PDF p.027/43 — print p.26
 
 - Reviewed: 2026-10-01 16:46 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
 - Evidence: [300 dpi sequences (5)–(8) crop](audit/300dpi/Serre_1956_gaga_p027_sequences5-8_300dpi.png); [300 dpi equations (5)–(9) crop](audit/300dpi/Serre_1956_gaga_p027_equations5-9_300dpi.png); [300 dpi Theorem A tail crop](audit/300dpi/Serre_1956_gaga_p027_theorem-A_300dpi.png); PDF text layer and MinerU Markdown lines 636–670.
 - Checked: exact cohomology sequences (5)–(6), vanishing and dimension inequalities (7)–(8), surjectivity (9), the global-generation step, and footnote (5).
-- Result: FAIL. In (5), print has M(n−1) and L_n; line 643 has N(n−1) and X_n. In (7), print has L_n between the two M terms; line 653 has P_n. The dimension function in line 656 uses ℓ(n) instead of M(n). In (8), print uses H^1 and starts with M(n−1); line 659 has prime superscripts and M(n). The map after (8) in line 662 uses P_n where print has L_n. Equation (9) and the checked global-generation conclusion agree.
+- Result: FAIL. In (5), print has M(n−1) and L_n; line 643 has N(n−1) and X_n. In (7), print has L_n between the two M terms; line 653 has P_n. The dimension function in line 656 uses ℓ(n) instead of M(n). In (8), print uses H^1 and starts with M(n−1); line 659 has prime superscripts and M(n). The map after (8) in line 662 uses P_n where print has L_n. The footnote marker at line 662 is also (5), not the corrupted placeholder in Markdown. Equation (9) and the checked global-generation conclusion agree. All listed transcription differences are repaired in the final Markdown; see the closeout register.
 
 ### PDF p.028/43 — print p.27
 
@@ -295,7 +309,7 @@
 - Reviewed: 2026-10-02 01:09 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
 - Evidence: [300 dpi full bibliography page](audit/300dpi/Serre_1956_gaga_p042_references_300dpi.png); [300 dpi references 11–14 crop](audit/300dpi/Serre_1956_gaga_p042_refs11-14_300dpi.png); PDF text layer and MinerU Markdown lines 1072–1113.
 - Checked: final Proposition 30 proof and references [1]–[16] (authors, titles, journal/book names, volumes, years and pages).
-- Result: FAIL. Reference [14] prints “Potenzreihenideale”; Markdown line 1109 has “Potenzreihendeale,” missing the i after “Potenzreihen.” The crop confirms the printed title. Reference [11] also has a period after “type” before the parenthetical subtitle in print; Markdown line 1103 omits it. That punctuation difference is PASS± and is left as a minor citation-format difference. The other checked bibliographic entries agree.
+- Result: FAIL. Reference [14] prints “Potenzreihenideale”; Markdown line 1109 has “Potenzreihendeale,” missing the i after “Potenzreihen.” The full page also includes the continuation of Proposition 30's proof at its top: print has A'^n where the Markdown had A'n. Both differences are repaired in the final Markdown; see the closeout register. Reference [11] has a period after “type” before the parenthetical subtitle in print; Markdown line 1103 omits it. That punctuation difference is PASS± and is left as a minor citation-format difference. The other checked bibliographic entries agree.
 
 ### PDF p.043/43 — print p.42
 
@@ -304,16 +318,42 @@
 - Checked: references [17]–[20], including titles, author names, series/journal, place, and year.
 - Result: PASS±. The checked reference text agrees with the print. The running author and print page number are not represented in Markdown.
 
-### PDF p.025/43 — print p.24
+## Audit closeout
 
-- Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
-- Evidence: [300 dpi twist-transition crop](audit/300dpi/Serre_1956_gaga_p025_twist-transition_300dpi.png); [300 dpi Lemma 8 crop](audit/300dpi/Serre_1956_gaga_p025_lemma8_300dpi.png); PDF text layer and MinerU Markdown lines 574–592.
-- Checked: closing restriction step of the extension-by-zero argument, definition of M(n) and its transition maps, Lemma 7, and Lemma 8's global-generation bound.
-- Result: FAIL. The print's closing phrase is that F^h is isomorphic to M, with no subscript on M; Markdown line 574 has M_b^X. The 300 dpi crop confirms the print. The twist t_j^n/t_i^n and Lemma 8 bound/generation statement otherwise agree.
+- Comparison basis: original MinerU Markdown from commit `4e5d9aabe1bc05fbb69fe4f77c0e692470fd9935`, SHA-256 `82ded987cca1b0e03fe200a8059cd17b7e86d9a42b86f222f205a1c4a2a4b339`.
+- The complete 43-page born-digital PDF text layer was compared page by page with the Markdown. `pdftotext -layout` produced 87,978 UTF-8 bytes over 43 nonempty pages with no U+FFFD. The visual review and glyph adjudications are cited in the page records; print page numbers 1–42 correspond to PDF pages 2–43, with PDF page 1 being the unnumbered journal cover.
+- Pre-repair page grades: 15 PASS± and 28 FAIL. These grades record differences in the original Markdown snapshot, not the repaired file. All substantive FAIL differences identified in those page comparisons are listed below and corrected. The documented PASS± items are non-misleading omissions, layout/style losses, or print quirks retained faithfully.
+- After the 43 page audits, the complete final Markdown was read from beginning to end. Each edit was made with `apply_patch`; the Markdown was not written, formatted, or repaired by a script. Final SHA-256: `f4ebe12f7a27be038319d2eb23db2f236b6dad7add13c26b9ed8d6224ed19408`.
+- Markdown repair commit: `c270a3c2c4a35262210134fc22c20639cdeff0c4` (`fix(md): repair Serre GAGA transcription [Peer-P09 | gpt-6-luna/max]`). `git diff --check` passed before commit and on the closeout changes.
+- The page records are ordered PDF p.001 through p.043. There is one `audit(page)` commit per PDF page; the separate Markdown repair commit follows the page audits. Two extra crops—`p010_ideal-J` and `p011_J-ideal`—were made during the complete final readback to resolve the ideal-symbol continuation; both are committed with this closeout. The final closeout commit follows the Markdown repair commit.
+- No known substantive transcription discrepancy from the page audit remains unresolved. The citation punctuation difference noted for reference [11] on PDF p.042 is retained as PASS±; documented print quirks and non-misleading presentation omissions remain as recorded. No project progress/index files or other paper directories were modified. This candidate remains `CANDIDATE_NOT_CURRENT`; integration belongs to Master-Luna.
 
-### PDF p.026/43 — print p.25
+### Markdown repair register
 
-- Reviewed: 2026-10-01 16:42 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
-- Evidence: [150 dpi full page](audit/Serre_1956_gaga_p026_150dpi.png); [300 dpi tensor-sequence crop](audit/300dpi/Serre_1956_gaga_p026_tensor-sequence_300dpi.png); [300 dpi equations (1)–(4) crop](audit/300dpi/Serre_1956_gaga_p026_equations1-4_300dpi.png); PDF text layer and MinerU Markdown lines 594–635.
-- Checked: generation by global sections, hyperplane ideal sequence, tensoring by M, Tor_1 identification, and equations (1)–(4).
-- Result: FAIL. The print identifies the hyperplane ideal as A(E), but line 602 has b(E). In the tensor sequence and its explanation, print uses M throughout; lines 613 and 616 instead use A in the tensor factors, target and Tor_1 arguments. Equation (2) prints M(n−1) → M(n), while line 625 has 1_0(n−1) → 1_0(n). The print has distinct exact sequences (3) and (4): line 630 contains only the bare label (3), and line 633 labels a corrupted copy of sequence (3) as (4), omitting the printed sequence (4) altogether. Both crops confirm these differences. Defer all Markdown edits until the complete PDF audit.
+The PDF page numbers below refer to the audited source page; evidence is linked in the corresponding page record above unless a crop is named here.
+
+- PDF p.002: corrected “CNow” to “Chow.”
+- PDF p.005: corrected the analytic sheaf subscript from `\mathcal{H}_{\backslash}` to `\mathcal{H}_{V}`.
+- PDF p.006: corrected `H_{x,Y}` to `H_{x,X}`.
+- PDF p.007: corrected both power-series subscripts `z_i` to `z_1`; PDF p.008: corrected the finite-extension subscript `z_i` to `z_1`.
+- PDF p.010: corrected the second local-space subscripts to uppercase X in `\mathcal{H}_{x,X}` and `\mathcal{O}_{x,X}`, and corrected `\hat{0}` to `\hat{\theta}`.
+- PDF p.011: corrected `\mathfrak I_x(Y)` to `\mathfrak J_x(Y)` in the definition continuation and both completed-ideal terms, as confirmed by the supplementary crops [p.010 ideal J](audit/300dpi/Serre_1956_gaga_p010_ideal-J_300dpi.png) and [p.011 ideal J](audit/300dpi/Serre_1956_gaga_p011_J-ideal_300dpi.png). Also corrected the Proposition 4 generator and “au moyen de” map from zero to `\theta`, restored formal-series brackets `[[...]]`, and changed `f'` to `f^r`.
+- PDF p.014: corrected `O_x` to `O_X` and the second subscript in `O_{x,x}` to uppercase X. PDF p.015: corrected the second subscripts of the local `O` and `H` rings from lowercase x to uppercase X.
+- PDF p.018: restored the missing prime on the final `\mathcal{F}_3'` in the prose exact sequence.
+- PDF p.019: corrected local-space second subscripts to uppercase X/Y, replaced the accented `B/àB` with `B/aB`, and restored `B' = B/aB = B\otimes_A A'`.
+- PDF p.020: restored the missing sheaf symbol C in “le faisceau C est cohérent.”
+- PDF p.023: corrected `\mathcal{L}(n)` to `\mathcal{O}(n)` and restored the fifth column and `\varepsilon_5` in the long cohomology diagram.
+- PDF p.024: corrected the first Hom section domain from `H^0(X^h,A)` to `H^0(X,A)`. Across PDF pp.024–025, corrected extension-by-zero notation to `\mathcal{M}^X`, the ideal from `\mathcal{J}_x` to `\mathcal{I}_x`, the stalk from `\mathcal{G}_{fx}` to `\mathcal{G}_x`, its analytic extension to `\mathcal{G}_x^h = \mathcal{M}_x^X`, the annihilation statement to `\mathcal{I}\cdot\mathcal{G}=0`, and the final `\mathcal{M}^X`.
+- PDF p.026: corrected the hyperplane ideal from `\mathfrak b(E)` to `\mathcal{A}(E)`; changed the tensor sequence, kernel, Tor term, and twist terms from the garbled `\mathcal A`/`\mathbb 1_0` forms to `\mathfrak M`; restored the missing exact sequence (3), corrected sequence (4), and removed the extra untagged duplicate of (4) that was absent from the print. The 150 dpi full page and 300 dpi equations (1)–(4) crop show the printed pair.
+- PDF p.027: corrected sequence (5) to use `\mathfrak M(n-1)` and `\mathfrak L_n`; corrected `\mathfrak P_n` to `\mathfrak L_n` in (7) and the following map; corrected the dimension function to `\mathfrak M(n)`; restored `H^1` and the `\mathfrak M(n-1)` term in (8); and restored the printed footnote marker `(5)` in place of the corrupted placeholder.
+- PDF p.028: corrected the garbled sheaf symbol in both exact sequences to `\mathfrak M` and changed `L_i` to `L_1`.
+- PDF p.029: corrected `X^\circ` to `X^\sigma` and restored `\Omega^p(X)` on the source side of the cohomology map.
+- PDF p.031: corrected `H^6(X,A)` to `H^0(X,A)`.
+- PDF p.032: corrected the group action to `(g,g')\cdot h = gh(g')^{-1}`, restored both `H^1` superscripts, and corrected the final sheaf from `\mathcal A` to `\mathfrak M`.
+- PDF p.033: corrected `H'` to `H^1` in the divisor-class statement.
+- PDF p.036: corrected both occurrences of the flatness criterion subscript from `\mathfrak i` to `1` in `\mathrm{Tor}_1`.
+- PDF p.038: corrected uppercase M to the printed fraktur lowercase `\mathfrak m`.
+- PDF p.039: corrected `m^\circ E` to `\mathfrak m^n E`.
+- PDF p.040: corrected all three tensor bases in the completion diagram from `\Lambda` to A.
+- PDF p.041: corrected the local-ring map glyph from zero to `\theta`; restored `E'=E\otimes_A A'` and `E'\simeq(A')^n`; and corrected the maximal-ideal relation from a plain `<` to `\mathfrak m\subset\mathfrak m'`.
+- PDF p.042: corrected “Potenzreihendeale” to “Potenzreihenideale” and restored `A'^n` in the continuation of Proposition 30's proof at the page top.
