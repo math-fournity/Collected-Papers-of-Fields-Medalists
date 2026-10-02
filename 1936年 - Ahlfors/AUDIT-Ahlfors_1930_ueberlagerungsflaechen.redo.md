@@ -61,4 +61,13 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.4 行，本页公式错位系旧审计遗留未检出的结构缺陷，本次修复。
 - 结果：PASS±（公式语序修复后与印刷一致；斜体缺失与公式末存疑小点登记保留）。
 
+### p.005（PDF p.5 / 印刷 p.161）
+
+- audited_at=2026-10-02 15:22 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p005.png`（pngmono 150dpi）；本页无需 300dpi 仲裁。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 161）、节标题 § 2. Metrische Eigenschaften der Überlagerungsfläche.、编号段 5 及 Spurdreieck 对应公设、D₀^(1)/D₀^(2)/D^(1)/D^(2) 全部上下标、Spurpunkt 段（P₀ über P₀）、Der relative Rand 段、Verzweigungspunkt 段（h>1、Vielfachheit、h−1 Verzweigungsordnung）、Metrik 转移段、页底 imprint 行（21—34686. Acta mathematica. 65. Imprimé le 8 février 1935.）。
+- 结果：PASS±。内容逐词与印刷一致，无修复项。保留登记（排版级，不修）：印刷斜体术语 Der relative Rand / relativ unberandet / unbegrenzt 及刊名 Acta mathematica 在 MD 中丢失（系统性）；imprint 行「21—34686」长划转写为半角连字符「21-34686」；「h − 1」转写为带连字符的纯文本「h - 1」（语义等价）。
+- 与 Luna 旧记录交叉：旧 p.5 未列入修复表；本次重核与旧判（PASS± 类排版伪影）精神一致，未发现旧修复错误。
+- 备注：imprint 行证实本篇刊于 Acta Mathematica 65（Imprimé le 8 février 1935）；文件名年份 1930 与印刷年不符属篇目命名既有事实，不属于本页 Markdown 审计范围，仅登记。
+
 <!-- redo-tail -->
