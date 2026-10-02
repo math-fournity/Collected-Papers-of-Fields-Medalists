@@ -332,3 +332,10 @@
 - 证据：源 PDF p.045 文本层、页图 `audit/Hironaka_1964_resolution_partI_p045.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p045_theorem_II_prime.png` 与 MinerU Markdown 第 709–735 行。印刷 Main theorem II′ 引用的是 `main theorem I′`，Markdown 第 721 行写作 `main theorem 1′`；条件 (ii) 印刷为 `\nu(I_{i,y})`，Markdown 第 725 行写成 `\nu(I_{iy})`，丢失 i/y 下标分隔逗号。其余弱变换和 (E_{i+1}) 条件相符。
 - 备注：印刷运行页眉和页码 152 未录入 Markdown，属导航元素省略。
 - 结论：定理标号及局部 ideal index 有两处误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.046 / 96（印刷 p.153）— PASS±
+
+- 时间：2026-10-02 03:02 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.046 文本层、页图 `audit/Hironaka_1964_resolution_partI_p046.png`（pngmono 150dpi）与 MinerU Markdown 第 737–767 行。Local Chow lemma 两项、Corollary 1 的四项、higher-direct-image vanishing 与 Corollary 3 起始句的映射/下标方向均对照原页一致。
+- 备注：印刷运行页眉和页码 153 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
