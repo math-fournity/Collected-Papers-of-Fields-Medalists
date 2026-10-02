@@ -946,13 +946,13 @@ In order to introduce a smooth structure on$\overline { { C } } _ { n }$, we sho
 
 The case of configurations of points on$\mathcal { H } \cup \mathbf { R }$ is not much harder. First of all, we say that a finite non-empty set S of points on${ \mathcal { H } } \cup \mathbf { R }$is in standard position iff
 
-1) the projection of the convex hull of S to the horizontal line${ \bf R } \subset { \bf C } \simeq { \bf R } ^ { 2 }$is either the one-point set 0 , or it is an interval with the center at 0,
+1) the projection of the convex hull of S to the horizontal line${ \bf R } \subset { \bf C } \simeq { \bf R } ^ { 2 }$is either the one-point set$\{ 0 \}$, or it is an interval with the center at 0,
 
 2) the maximum of the diameter of S and of the distance from$S$to R is equal to 1.
 
-It is easy to see that for$2 n + m \ge 2$(the stable case) any configuration of n points on and m points on R can be put uniquely in standard position by an element of$G ^ { \breve { ( 1 ) } }$. In order to get a smooth structure, we repeat the same arguments as for the case of manifolds$C _ { n }$
+It is easy to see that for$2 n + m \ge 2$(the stable case) any configuration of n points on$\mathcal { H }$ and m points on R can be put uniquely in standard position by an element of$G ^ { ( 1 ) }$. In order to get a smooth structure, we repeat the same arguments as for the case of manifolds$C _ { n }$
 
-Domains where we will need magnification in order to see details, are now of two types. The first case is when at least two points of the configuration come too close to each other. We want to know whether what we see is a single point or a collection of several points. The second possibility is when a point on comes too close to R. Here we want also to decide whether what we see is a point (or points) on  or on R.
+Domains where we will need magnification in order to see details, are now of two types. The first case is when at least two points of the configuration come too close to each other. We want to know whether what we see is a single point or a collection of several points. The second possibility is when a point on$\mathcal { H }$ comes too close to R. Here we want also to decide whether what we see is a point (or points) on$\mathcal { H }$ or on R.
 
 If the domain which we want to magnify is close to R, then after magnification we get again a stable configuration which we can put into the standard position. If the domain is inside${ \mathcal { H } } ,$then after magnification we get a picture without the horizontal line in it, and we are back in the situation concerning$\overline { { C } } _ { n ^ { \prime } }$for$n ^ { \prime } \leq n$
 
@@ -960,7 +960,7 @@ It is instructional to draw low-dimensional spaces$C _ { n , m }$. The simplest 
 
 ![](images/page_20_image_6.jpg)
 
-The space$C _ { 2 , 0 }$is difeomorphic to$\mathcal { H } \setminus \{ 0 + 1 \cdot i \}$. The reason is that by action of$G ^ { ( 1 ) }$we can put point $p _ { 1 }$to the position$i = { \sqrt { - 1 } } \in { \mathcal { H } } .$. The closure$\overline { { C } } _ { 2 , 0 }$can be drawn like this:
+The space$C _ { 2 , 0 }$is difeomorphic to$\mathcal { H } \setminus \{ 0 + 1 \cdot i \}$. The reason is that by action of$G ^ { ( 1 ) }$we can put point $p _ { 1 }$to the position$i = { \sqrt { - 1 } } \in { \mathcal { H } }$. The closure$\overline { { C } } _ { 2 , 0 }$can be drawn like this:
 
 ![](images/page_20_image_8.jpg)
 

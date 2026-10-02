@@ -149,3 +149,10 @@
 - 核对：6 点配置图与 tree 图（行 919–925，树图引 `images/page_19_image_2.jpg` 文件存在）、Star(v) 定义段、a)/b) 参数化数据、(z↦s_v z+p_v)∈G^{(2)}、s_v 缩放与 C̄_n 紧化段、strata C_T 与 ⊔_{trees T}∏_{v∈V_T\{leaves}}C_{Star(v)} 式、s^smooth 截面段、H∪R 情形过渡句（MD 行 919–947）。
 - 结果：`FAIL`→4 处已修复：①行 931 `$Star(v)$，` 全角逗号 U+FF0C→ASCII `,`（上块移交线索落实）；②行 945 `$v \in V_T \mathrm{~}\backslash$leaves`→`$v \in V_T \backslash \{\text{leaves}\}$`（集合差记号括号丢失，PNG 确凿）；③行 947 `points on   R is not much harder`→`points on$\mathcal{H}\cup\mathbf{R}$ is not much harder`（𝓗∪ 丢失，PNG+文本层确凿）；④行 947 `standard position if`→`iff`（印刷 iff，PNG+文本层确凿）。`FAIL` 另登记 1 项不可修复：行 919–921 6 点配置图被 MinerU 损毁为 `$^2\bullet\quad^3_4$` 数学残片且 images/ 无源图（仅 page_19_equation_* 与 page_19_image_2），图内容以 PDF p.20 原图为准，不虚构重建。其余 PASS±：行 933/935/945 句末缺句点（登记）。公式行 942 与印刷逐符号吻合。
 - 备注：行 949 起（standard position 条件 1)/2)）为印刷 p.21 内容，在 p.021 核对。
+
+## p.021（PDF p.21 / 印刷 p.21）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p021.png`（pngmono 150dpi）
+- 核对：standard position 条件 1)/2)（convex hull 投影、{0}、diameter=1）、stable case 唯一放置段（G^{(1)}）、两类放大域段、C̄_{n'} 归约段、低维空间 C_{1,0}/C_{0,2}/C_{1,1} 段、半圆图（行 961 引 page_20_image_6.jpg 存在）、C_{2,0}≃𝓗\{0+1·i} 段与 i=√−1、C̄_{2,0} 两图（行 965/969 引 page_20_image_8/10.jpg 存在）、The Eye 图题、forgetting maps 段（MD 行 949–973）。
+- 结果：`FAIL`→6 处已修复（PNG/文本层确凿）：①行 949 `one-point set 0 ,`→`one-point set$\{0\}$,`（花括号丢失）；②行 953 `n points on and m points on R`→补 `$\mathcal{H}$`（𝓗 丢失）；③行 953 `$G^{\breve{(1)}}$`→`$G^{(1)}$`（幻影 \breve 重音，印刷为干净 G^{(1)}）；④行 955 `a point on comes too close to R`→补 `$\mathcal{H}$`；⑤行 955 `on  or on R.`→`on$\mathcal{H}$ or on R.`（𝓗 丢失）；⑥行 963 `$\in{\mathcal{H}}.$.` 双句点已删。其余 PASS±：行 957 `$\mathcal{H},$` 逗号入式、行 953/957 句末缺句点（登记）；行 963 `difeomorphic`（ff 拍平）。图文对应逐项吻合（三张 Eye 系列图与印刷三图对应）。
+- 备注：行 975 起（§5.2.1 Boundary strata、S1)/S2) 层）为印刷 p.22 内容，在 p.022 核对。
