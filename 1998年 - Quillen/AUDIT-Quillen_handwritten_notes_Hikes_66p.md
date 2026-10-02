@@ -364,6 +364,17 @@
 - 结果：**FAIL**。
 - 印刷证据与差异：300dpi 例子裁片确认原图是 `GL_1=\mathbb F_p^*`，基线第 1283 行误作 `SL_1`；下一行原图是 `H_0(G_n)` 对无穷多个 `n` 有 p-torsion，基线第 1287 行把对象写成 `G_1`。原图第 1301 行写 `Whitney sum`，基线写成 `Whitney sun`。乘法图裁片显示 Künneth 张量项与块和诱导映射，并含后续相容图；基线第 1312 行把 `H_*` 误成 `H_x`、张量号变成 `≈`，且把 `GL_q` 识成 `GL_b`；第 1315、1318、1322 行把图中的映射/指标拆成 `M_{119}`、`GL_{p-q}` 和 `GL_{\rho\mu}` 等无法对应原图的碎片。对应的下方与边注也未保留成可读图式。
 - 原文拼写 quirk：300dpi 拼写裁片显示手稿写作 “Riemannia”；基线第 1281 行为 “Riemania”，少一个 `n`。修复时忠实保留手稿拼法，不规范化为标准拼写 “Riemannian”。
-- 页面边界待续核：本页底部另有关于稳定同调乘积/环结构的手写句；Markdown 在乘法图碎片之后转入 “Return to Theorem”，而第 1352 行稍后出现相关稳定同调句，待下一页核对时确认是否为本句错位转录并回修本页记录。
+- 页面边界核对：300dpi bottomline 裁片确认第 35 页页尾另写关于 `H_*(GL)=\lim H_*(GL_n)` 的乘积/环结构说明；该句未在相应 Markdown 段转录。第 1352 行的相近稳定同调句对应 p.36 本页底部手写内容，两页的说明分别出现，不能用后一页替代前一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述裁片重建 `GL_1`、`G_n` 与稳定同调乘法/相容图，保留原稿拼写。
 - 记录：2026-10-02 03:01:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.036（PDF p.36 / 纸面圈号 36）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p036.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p036_exact-sequences.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p036_kunneth-hopf.png`。
+- 核对：系数同调定理的系数归约与 abelian-group 子范畴；两条短正合列；Künneth 公式、对角映射给出的 coalgebra coproduct、连通空间的 `H_0` 生成元，以及稳定 `H_*(GL)` 的代数结构开头。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图将 `\mathcal C` 定义为使定理成立的 abelian groups 子范畴；基线第 1328 行把 “abelian gps / theorem” 识成 `zbelian gps / them`。原图第 1332 行是 `\lim` 保持 exactness 且应用 5th Lemma，基线将极限方向误成 `w→∞` 并把 “5th Lemma” 损坏为 `5° Lemmz`。第 1338 行原文为任意 abelian group `\Lambda`，基线误成 `belief group`；第 1340 行的第二条列为 `0→\Lambda/t\Lambda→(\Lambda/t\Lambda)\otimes_{\mathbb Z}\mathbb Q→torsion group→0`，基线将中项误成 `\Lambda_{1/2}\oplus Q`、末项误成 `tracing g`。第 1342–1344 行反复把 `H_*` 识成 `H_x`，并将 Künneth 公式的 `X×Y` 写成 `X*Y`；第 1346–1348 行又把对角 `X→X×X` 及其诱导同调/张量映射损坏。第 1352 行原图是 `H_*(GL)=\lim_n H_*(GL_n)`，基线末项误成 `H_n(GL_n)`。
+- 页边界核对：第 1352 行对应第 36 页图像末行；第 35 页 bottomline 裁片中的稳定乘积说明是另一处独立手写内容，仍属前页漏转录。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片重建第二条系数短正合列、Künneth `×`、对角映射与稳定同调对象。
+- 记录：2026-10-02 03:04:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
