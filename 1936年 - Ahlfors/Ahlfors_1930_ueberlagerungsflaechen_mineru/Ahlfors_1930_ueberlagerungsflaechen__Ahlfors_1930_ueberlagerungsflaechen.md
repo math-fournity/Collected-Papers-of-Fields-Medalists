@@ -177,7 +177,7 @@ Hiermit ist der erste Teil des für die ganze Theorie grundlegenden Überdeckung
 Überdeckungssatz 1. — Die mittlere Blätteranzahl über der ganzen Grundfläche $W_0$ unterscheidet sich von der mittleren Blätteranzahl über einem Teilgebiet $\Delta$ um eine Grösse, die durch die Länge $L$ des relativen Randes majoriert wird, d. h. es gilt eine Ungleichung der Form
 
 $$
-\left| S - S (\Delta) \right| \leq k L.\tag{I. I}
+\left| S - S (\Delta) \right| \leq k L.\tag{I. 1}
 $$
 
 Das Wesentliche in diesem Satze ist natürlich, dass die Abschätzung gleichmässig für alle Überlagerungsflächen gilt, indem die Konstante k nur von  $W_{0}$  und  $\Delta$  abhängt, dagegen weder von der Überlagerungsfläche W noch von der zu ihrer Definition verwendeten Dreiecksteilung. Ist L = 0 so wird  $S = S(\Delta)$  für jedes Gebiet  $\Delta$, d. h. die Blätteranzahl einer relativ unberandeten Überlagerungsfläche ist konstant.

@@ -89,4 +89,15 @@
 - 与 Luna 旧记录交叉：旧修复表 p.7 行（还原 S(Δ)/Sₙ(Δ)、三个数字 1、删除绝对值式重复负号）经原页重核全部与印刷一致，`git show abde327` 的对应 diff 亦确认；本次新发现并修复 `\varDelta` 混写一处。
 - 结果：PASS±（记号统一修复后与印刷一致）。
 
+### p.008（PDF p.8 / 印刷 p.164）
+
+- audited_at=2026-10-02 15:55 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p008.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p008_tag_zoom3x.png`、`audit-redo/ueberlagerungsflaechen_p008_L0_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p008_lambda0_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p008_l0_first_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p008_l0_zoom2x.png`。
+- 核对：页眉（164 / Lars Ahlfors.）、「woraus durch Addition」+ 公式 `|S−S(Δ)|≦k/δ Σ₁^N Lₙ = k/δ L.`（句点在）、Überdeckungssatz 1 引言句与整段陈述、公式 (I. 1) `|S−S(Δ)|≦kL`、Das Wesentliche 段（k 只依赖 W₀ 与 Δ；Ist L=0 句）、编号段 8（λ₀、s(γ) 定义）、Zerlegung 公式 `s(γ)=s₁(γ)+⋯+s_N(γ).`（句点在）、γ′ Teilbogen 段、`|s(γ)−s(γ′)|≦k′/λ′ L,`（逗号在）、「wo λ′ die Länge von γ′ bedeutet…aufgefasst werden.」。
+- 发现并修复（MD 结构化 Edit，1 处）：公式编号 `\tag{I. I}` → `\tag{I. 1}`——3x 裁片显示编号括号内第二字形为短杆带旗头的旧式数字 **1**（首字形为高衬线罗马 I），印刷为 **(I. 1)**；编号制度=章号（罗马）+公式号（阿拉伯），与 Luna 旧表 p.20 还原的 (II. 2′) 同制。
+- 仲裁否决（登记不改）：①「Ist L = 0」印刷字形为小圆 o 形，旧式数字 0 与字母 o 在本字体同形不可辨（`…p008_L0_300dpi.png`）；按语义（相对边界长为零⇒Blätteranzahl 常值）与 Luna 全篇同类字形读 0 的先例维持 MD 的 0，登记同形异写。②行 185 两处 `$\lambda_{0}$`：低分辨率初读第二处疑为 l₀，2x 宽幅裁片确证两处字形相同、均为 **λ₀**，MD 正确。
+- 保留登记（PASS± 排版级，不修）：Überdeckungssatz 1 陈述整段与 Überdeckungssatzes 斜体丢失（系统性）。
+- 与 Luna 旧记录交叉：旧修复表 p.8 行（两处 S(𝒜)→S(Δ)）经原页重核与印刷一致；公式编号 (I. 1) 的 I/1 混写系旧审计未检出项，本次修复。
+- 结果：PASS±（编号修复后与印刷一致）。
+
 <!-- redo-tail -->
