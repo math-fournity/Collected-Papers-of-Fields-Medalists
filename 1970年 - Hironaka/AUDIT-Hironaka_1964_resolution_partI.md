@@ -423,3 +423,10 @@
 - 证据：源 PDF p.058 文本层、页图 `audit/Hironaka_1964_resolution_partI_p058.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p058_definition4_symbols.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p058_resolution_sets.png`，并比对 MinerU Markdown 第 919–969 行。Definition 4(I) 印刷写作 `\mathfrak{R}_{\mathrm{I}}^{N,n}`，Markdown 第 933 行将罗马大写 I 误录成数字 1（`\mathfrak{R}_1^{N,n}`）。其余 Definition 3(II) 的参数/normal-crossings 条件、`\nu_{\mathbf M}(\mathbf J)` 与 `M^\nu \supseteq J`、Definition 4 的 resolved 条件和解析度集 $S,\nu,S_\nu,S_*$ 对应印刷页。另 Definition 4(II) 的数据符号在印刷中为花体 `\mathfrak{R}_{\mathrm{II}}^N`，Markdown 第 941 行写普通 `R_{II}^N`，属于不改变上下文指代的正/花体混排（PASS±）。
 - 备注：印刷运行页眉和页码 165 未录入 Markdown，属导航元素省略。
 - 结论：Definition 4(I) 的 datum 类型标签将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.059 / 96（印刷 p.166）— PASS±
+
+- 时间：2026-10-02 03:59 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.059 文本层、页图 `audit/Hironaka_1964_resolution_partI_p059.png`（pngmono 150dpi）与 MinerU Markdown 第 969–1009 行。Definition 5 中 (I.1)、(I.2)、(II.1) 三种带 restriction 的 datum、闭/开 restriction 条件及四类 datum 的归纳角色说明，与单项变换的 universal mapping property、`\operatorname{Proj}(S(I))` 及直和 `\sum_{m=0}^{\infty} I^m` 构造、脚注 33 均对应印刷页。正文叙述处 Markdown 第 977、989、997 行将印刷的 `\mathfrak{R}` 写作普通 `R`；上下文中的 datum 指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 166 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
