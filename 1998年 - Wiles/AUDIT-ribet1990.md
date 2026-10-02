@@ -121,3 +121,10 @@
 - 印刷 quirk 登记：页末 "refer to ξ and T as" 的 T 印刷为正体（同页它处均斜体 T；300 dpi 对比确证）；MD 该句恰为正体 T，与印刷一致，不修改。
 - 备注："in *two* ways" 斜体拍平（登记不改）。
 - 结果：PASS。
+
+## p.015（PDF p.15 / 印刷 p.444）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:45 -0400。
+- PNG：`audit/ribet1990_p015.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Prop. 3.54, of [39]" 逗号确证，未存档）。
+- 核对：Albanese/Pic maps 段；auto-dual 与 Rosati 对合；T(n)/ξ_n/[39] Chapter 7；式 (3) T_n=ξ_n*、T_n*=ξ_n（Rosati）；Atkin-Lehner w=w_N、X_SS(τ)、[39] §7.5；式 (4) wT_nw=ξ_n、wξ_nw=T_n；page 193 恒等式与 Prop. 3.54（印刷即带逗号 "3.54, of"）；子代数 Ξ=Ξ_N 与 **T**=**T**_N（MD 粗体保留正确）、Ξ≈**T**、S₂(Γ₀(N))、T_n*、faithful/cotangent、free Z-module rank、Th. 3.45；段尾 "Consider now the special situation where" 接下页 ✓。
+- 备注：L518 "defined over Q" 印刷粗体 **Q**，MD 正体 Q（字母不变，登记不改）。
+- 结果：PASS。
