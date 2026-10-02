@@ -204,6 +204,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对有限群指标、p 索引、image/idempotent 与定义语句。
 - 记录：2026-10-02 00:23:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.021（PDF p.21 / 纸面圈号 21）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p021.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p021_group-completion.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p021_K0-examples.png`。
+- 核对：交换幺半群的 group completion 等价关系与普遍映射；`K_0A` 作为 projective-module iso-class monoid 的群完成；division ring/PID/local-ring、product ring 与 Dedekind domain 的 `K_0` 例子。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图定义 `\overline M=M×M/\sim`，其中 `(m,s)\sim(m_1,s_1)` 当且仅当存在 `t` 使 `m+s_1+t=s+m_1+t`，并给出 `M→\overline M, m↦(m,0)` 的群完成普遍性质；基线第 669、676 行把等价关系丢坏，并把映射目标写成 `M`。原图 claim 是 `K_0A=\overline{\mathrm{Iso}(P(A))}`，基线第 678 行成了 `Y_0A`；product-ring 与 Dedekind-domain 结论中的 `K_0` 也在基线第 683、700 行多次误成 `H_0`。第 693、697 行的 `\mathrm{Iso}(P_A)` 与 rank/determinant 映射同样损坏，影响 `K_0A\cong\mathbb Z\times\mathrm{Pic}(A)` 的推导。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对商关系、群完成映射及各 `K_0` 例子。
+- 记录：2026-10-02 00:47:04 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.020（PDF p.20 / 纸面圈号 20）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
