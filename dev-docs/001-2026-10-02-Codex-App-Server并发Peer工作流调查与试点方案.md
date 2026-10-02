@@ -6,11 +6,11 @@
 >
 > **范围**：仅调查与提出后续方案；不启动 App Server、Codex model 或论文 Peer，不处理论文内容。
 >
-> **当前要求**：`AUDIT-002` / `rulings.md#R-004` 规定：旧 Project Peer 批次已冻结，后续工作方向为独立 worktree 的 Codex CLI App Server；身份留痕、独占写入路径和 Master 单一集成者约束保持不变。本文件不证明控制面已经运行或已能派发论文 worker。
+> **当前要求**：`AUDIT-002` / `rulings.md#R-004/#R-005` 规定：旧 Project Peer 批次已冻结。用户确认后，ZCode 可选择独立 worktree 的 Codex CLI App Server，或其实际支持且另获 exact envelope 的原生 Sub Agent；本文件只定义前一种 App Server 路线。身份留痕、独占写入路径和单一 integrator 约束保持不变。本文件不证明控制面已经运行或已能派发论文 worker。
 
 ## 1. 决策摘要
 
-用户已在旧 Peer 批次停止后的冻结点采纳 Codex CLI App Server 作为后续 worker 的控制方向。它能在创建时同步返回 `thread.id`，通过事件流观察线程与轮次，并提供 `thread/resume`、`turn/steer`、`turn/interrupt` 等控制方法。对比 project Peer 异步创建返回 provisional `clientThreadId` 的路径，它有机会让 worker 身份、worktree、实际 Codex thread/turn 和恢复动作建立更直接的对应关系。
+用户已在旧 Peer 批次停止后的冻结点把 Codex CLI App Server 采纳为后续 worker 的可选控制路径；随后 R-005 允许 ZCode 在用户明确确认的作用域内改选其原生 Sub Agent。本文件只适用于用户后来选定 App Server 的情形。App Server 能在创建时同步返回 `thread.id`，通过事件流观察线程与轮次，并提供 `thread/resume`、`turn/steer`、`turn/interrupt` 等控制方法。对比 project Peer 异步创建返回 provisional `clientThreadId` 的路径，它有机会让 worker 身份、worktree、实际 Codex thread/turn 和恢复动作建立更直接的对应关系。
 
 但调查没有证实用户所回忆的 Codex App Server 已经在 `/Users/aurolafly/shuxuedashi-analysis-system` 这个仓库中运行。当前能找到的真实协作运行证据属于 OpenCode ACP / Devin ACP，不是 Codex CLI `app-server`。因此，续传系统可以提供的是流式观测、按任务隔离工作目录、保留每轮产物和失败恢复方面的参考经验，不能替新方案提供 Codex App Server 的运行通过证明。用户回忆的实例可能是未入库/外部运行现场，也可能是把 ACP server 泛称为 App Server；目前原因 `UNKNOWN`。
 
@@ -163,7 +163,7 @@ Broker 重启后如果还找不到 worker map，应由持久恢复记录 + exact
 
 ## 9. 分阶段实施与验收建议
 
-本轮授权仅覆盖调查、写方案与只读证据审阅，以下是候选未来验收，不表示已获授权执行。
+本轮授权仅覆盖调查、写方案与只读证据审阅，以下是候选未来验收，不表示已获授权执行。R-005 进一步要求：即使是无论文写入的 P0–P4 控制层资格化，也必须先由 ZCode 向用户提交所选通道、exact cwd/worker/模型/权限/停止方案并获得明确确认；P0–P4 通过后也不能自动进入 P5 或论文处理。
 
 | 阶段 | 工作 | PASS / 停止条件 |
 |---|---|---|

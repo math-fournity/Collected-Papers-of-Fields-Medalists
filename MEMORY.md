@@ -4,15 +4,15 @@
 
 本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02 的旧 Peer 冻结点，`AUDIT-INDEX.md` 有 138 条记录：102 篇完成、6 篇“审计证据已收割但未完成”、28 篇“冻结无候选”、1 篇 PDF↔MinerU 映射阻塞（P37）和 1 篇冻结保全但未集成（P40）。所有此前启动的 Peer 已由用户声明停止；本机可见 16 个 Git worktree（含 main），且限定的进程检查未见独立旧 Peer Codex App Server/broker。Master 没有删除、archive、clean 或 reset 任何旧 worktree。P01–P40 的 28 个完整候选、6 个未完成证据候选以及更早的 Witten/Deng/Drinfeld 候选均已按 exact source/base/path/merge 预检收割到 main；完整分类、OID 和未提交资产边界见 `dev-docs/002-2026-10-02-旧Peer批次冻结与收割收据.md`。全仓仍有 141 个 PDF 路径、139 个 distinct PDF byte streams，与 AUDIT-INDEX 的 138 行口径不一致，尚未闭合。
 
-项目治理骨架已于 2026-10-01 建立。用户新增的剩余 MinerU Markdown 正文逐处 Edit 规则已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。MinerU Skill 的最近检查快照为 2026-10-01：本地 MinerU 4.0.8 CLI 可执行，library server 当时停止、standard 所需 GGUF 模型缺失；每个缺失导出的 Peer 必须重新只读核对当前运行时，只可用已就绪的本地资源，不能启停服务、下载模型、改配置或远程上传。
+项目治理骨架已于 2026-10-01 建立。用户新增的剩余 MinerU Markdown 正文逐处 Edit 规则已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与当前 `ZCODE-HANDOFF-PROMPT.md` §5；R-005 的确认 Gate 优先于任何 MinerU/论文动作。MinerU Skill 的最近检查快照为 2026-10-01：本地 MinerU 4.0.8 CLI 可执行，library server 当时停止、standard 所需 GGUF 模型缺失；每个缺失导出的未来 worker 必须在用户确认后重新只读核对当前运行时，只可用已就绪的本地资源，不能启停服务、下载模型、改配置或远程上传。
 
 ## 当前执行队列
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 旧 Peer 冻结与收割 | COMPLETE | 29 个 P01–P40 完整成果（含既有 P03）及 Witten/Deng/Drinfeld 已完整纳入 main；6 个未完成候选的审计证据已收割；P10/P12/P30/P41–P65 无候选，P37 映射阻塞，P40 方法范围 hold。 | AUDIT-002、R-004 |
-| 后续 App Server 控制层资格化 | READY_FOR_NEXT_AUTHORIZATION；未启动 | 先在不写论文资产的独立 worktree 验证 start → observe → steer → interrupt/complete → restart → resume、cwd/权限/session 映射和 shared `CODEX_HOME` 行为；资格化通过前不得启动论文 worker。 | AUDIT-002、R-004 |
-| 未完成论文的继续审计/修复 | PAUSED_BY_USER | 仅在用户下一次明确开始后，且 App Server 控制层资格化通过时，从 P17/P19/P27/P31/P32/P34、P37、P40 的已记录断点继续；Master 仍不替 worker 做逐页初审或正文修复。 | AUDIT-001、AUDIT-002 |
+| 旧 Peer 冻结与收割 | COMPLETE | 29 个 P01–P40 完整成果（含既有 P03）及 Witten/Deng/Drinfeld 已完整纳入 main；6 个未完成候选的审计证据已收割；P10/P12/P30/P41–P65 无候选，P37 映射阻塞，P40 方法范围 hold。 | AUDIT-002、R-004、R-005 |
+| ZCode 接管确认 Gate | WAITING_FOR_USER_CONFIRMATION；未启动 | ZCode 先只读恢复当前真值并向用户提交机制/范围/模型/agent 数/worktree/写入集/停止方案。用户明确确认后，才可选择 App Server 或 ZCode 原生 Sub Agent；两条路线均不得自动启动。 | AUDIT-002、R-005、ZCODE-HANDOFF-PROMPT.md |
+| 未完成论文的继续审计/修复 | PAUSED_BY_USER | 仅在用户之后明确确认目标 scope；若选 App Server，先确认并完成非论文控制层资格化，再另行确认论文 worker；若选 ZCode Sub Agent，确认 exact agent envelope 后才从 P17/P19/P27/P31/P32/P34、P37、P40 的记录断点继续。 | AUDIT-001、AUDIT-002、R-005 |
 
 ## 当前开放问题与阻塞（冻结后）
 
@@ -20,7 +20,7 @@
 - P17、P19、P27、P31、P32、P34 的已收割审计实物均不等于论文完成；各自缺口和 exact OID 在冻结收据 002 与 AUDIT-INDEX 中。P40 只有 p.1–p.118/127 且证据方法范围冲突未闭合，仍不得计完成。
 - P39、P34、P27 的停止 worktree 留有未提交但未被 committed AUDIT 引用的 300dpi 图；它们保留在原路径，未纳入主线，采用前需重新建立其页级来源关系。
 - PDF 路径数 141、distinct byte streams 139、AUDIT-INDEX 138 行的口径差仍未闭合；不得用本次完成数推出全范围覆盖。
-- R-004 已把后续方向改为 App Server，仍是 `ADOPTED_DIRECTION / NOT_IMPLEMENTED / NOT_RUNTIME_VERIFIED`：共享 broker 的 real-host resume/steer/restart 路径及 shared `CODEX_HOME` 并发行为尚未验证。控制层资格化失败即停止，不启动论文 worker。
+- R-005 将项目交接给 ZCode，并允许用户确认后选择 App Server 或 ZCode 原生 Sub Agent。两条路线均是 `NOT_RUNTIME_VERIFIED`；确认前连控制层 pilot 也不得启动。若选 App Server，shared broker 的 real-host resume/steer/restart 与 shared `CODEX_HOME` 并发仍需资格化；若选 Sub Agent，ZCode 当前 runtime 的实际 profile/隔离/递归边界仍需核验。
 - MinerU library server 的旧停止状态不是自动启动许可；任何未来新解析仍须按 MinerU skill 的质量、隐私和运行边界核定。
 
 ## 冻结前历史开放问题与阻塞（不作为当前执行队列）
@@ -41,7 +41,7 @@
 
 ## 当前有效约束摘要
 
-- 剩余 MinerU Markdown 正文修复须使用 `Edit` 逐处手工编辑，脚本只做人工修复后的只读终验/清点；详细规则见 `AGENTS.md`，操作说明见 `ZCODE-HANDOFF-PROMPT.md#2.4`。
+- 剩余 MinerU Markdown 正文修复须使用 `Edit` 逐处手工编辑，脚本只做人工修复后的只读终验/清点；详细规则见 `AGENTS.md`，ZCode 接管后的业务合同见 `ZCODE-HANDOFF-PROMPT.md` §5（但当前仍在确认 Gate，尚未授权执行）。
 - `AUDIT-INDEX.md` 是篇级进度唯一真值，`AUDIT-PROGRESS.log` 是页级恢复点；历史 handoff 快照不覆盖这两个 owner。
 
 ## 开放事故
@@ -172,3 +172,9 @@
 - P01–P40 中，28 个完整候选被新 Master 提交收割、P03 已在 `8713f2fc`，合计 29 个完整 P 结果；P17/P19/P27/P31/P32/P34 的审计证据收割但明确保持未完成；P10/P12/P30 无候选，P37 映射阻塞，P40 到 `422ed58a` 的 p.118/127 且有方法范围冲突、未集成。P41–P65 仅有 provisional create receipt，未发现可验证 worker 产物。更早的 Witten `bc4605dc`、Deng `3e5e964b`、Drinfeld `f46300d1` 也已收割为 `3429efe7`、`16381c63`、`d2e6bdac`。所有 exact OID、分类和未提交资产边界见收据 002。
 - `AUDIT-INDEX.md` 已成为冻结后的当前篇级真值（138 条：102 完成、6 证据已收割未完成、28 冻结无候选、P37 阻塞、P40 hold）；`AUDIT-PROGRESS.log` 追加冻结/收割/控制模式收据。P07/P16 的 README 页数冲突未改写用户 README；PDF 路径数 141、distinct byte streams 139、索引行数 138 的口径冲突保持开放。
 - 用户已通过 R-004 采纳“后续使用 Codex CLI App Server”的方向；该方向仍未实现/未通过真实 Host 验证。下一步是无论文写入的 start/observe/steer/interrupt-or-complete/restart/resume 资格化。论文继续处理由用户暂缓，资格化前不会派发或重启任何论文 worker。
+
+### E019 · 2026-10-02 · ZCode 接管协议与确认 Gate
+
+- 用户要求把工作交接给 ZCode，并说明 ZCode 在未来可使用 Codex App Server 或自己的 Sub Agent；同时明确要求真正开始动手前必须再次确认。R-005 将这写为当前要求：ZCode 只可做只读恢复并提交确认包；确认前禁止 App Server、control-plane pilot、Sub Agent、MinerU、论文处理、Git 写入和 push。
+- 已将过时的 `ZCODE-HANDOFF-PROMPT.md` 原位替换为当前接管协议，明确旧文“自动开工/自动 push/不使用 Sub Agent”失效。新协议保存冻结批次、未完成候选、P37/P40 边界、用户 README dirty、Git 保护、App Server 与原生 Sub Agent 两条路线、每条路线的确认/资格化/恢复边界以及 ZCode 首次确认请求模板。
+- R-005 允许选择两条未来路径，但不证明 ZCode 原生 Sub Agent 或 Codex App Server 已可运行。App Server 是独立 Codex CLI 进程而非 ZCode 原生 ACP；选择前后都须核验实际 Host 能力。当前执行队列为 `WAITING_FOR_USER_CONFIRMATION`，没有启动新 worker、模型或服务。

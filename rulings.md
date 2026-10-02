@@ -47,3 +47,20 @@
 **资格化与停止条件**：App Server 当前只被采纳为后续方向，尚未获得真实运行资格。启动任何论文 worker 之前，必须先在不写论文资产的隔离工作树中验证 start → observe → steer → interrupt/complete → server restart → resume 的完整链，并核验精确 cwd、独立身份、持久化 session 映射、shared `CODEX_HOME` 行为、权限边界和可观察事件；任何一步失败、thread/session 对不上、恢复后工作树状态无法核对，或未能证明独占路径时，停止在控制层，不派发论文。旧 provisional `clientThreadId` 不能推算或转换为 App Server `thread.id`，不得因迁移而重复启动冻结任务。
 
 **并发与模型边界**：用户此前指定的目标 worker 配置为 `gpt-6-luna` 与 `max`；后续每个真实 App Server worker 必须记录实际回显，不得把请求参数冒充为运行证据。并发采用可观测的滑动窗口，窗口大小须由单 worker 恢复资格化、实际账户/主机容量与文件系统隔离结果逐步确定；本裁定不宣称 App Server 或账户已验证支持 40 个同时运行的进程。Master 始终是唯一 canonical integrator，继续独占根级 current truth、集成与状态裁决。
+
+## R-005 · 2026-10-02 · ZCode 接管、双执行通道与用户确认 Gate
+
+**状态**：已采纳；补充并替代 R-004 中“后续唯一使用 App Server”的狭窄执行选择。R-004 的旧 Project Peer 冻结、候选收割、单一 canonical integrator、路径隔离和 App Server 资格化要求继续有效。
+
+**原始用户指令**：
+
+> 我需要你把工作交接给ZCode那边，它那边也可以使用Codex App Server来完成处理，也可以使用自己的Sub Agent处理。所以你给他写一份交接文档，让它接手，但是真正开始动手之前，必须和我确认。
+
+**归一后的当前要求**：将当前项目交接给 ZCode 的主控会话。ZCode 在收到本交接协议后可以做只读认知恢复并准备确认请求；它可以在**用户之后的明确确认**中选择下列一个执行通道：
+
+1. **Codex CLI App Server**：ZCode 作为控制/观察方，实际 worker 是独立 worktree 中的 Codex CLI `app-server` 进程。该通道仍须先通过不写论文资产的 start → observe → steer → interrupt/complete → restart → resume 资格化，再单独确认论文 worker 启动；不得把它称为 ZCode 原生 ACP，旧 `clientThreadId` 也不能转换为 `thread.id`。
+2. **ZCode 原生 Sub Agent**：仅在 ZCode 当前运行时确实暴露该能力且用户确认 exact agent 数量、任务、模型/思考级别、读写路径、worktree、无递归、失败/停止/关闭方案后使用。不得把 Codex 的 Sub Agent profile/model 规则凭名称套用到 ZCode，也不得把“ZCode 可能支持”写成已验证运行能力。
+
+**确认 Gate（不可绕过）**：本用户消息仅授权写入交接文档与更新项目路由，**不**授权启动 App Server、资格化 smoke、任何额外模型进程、ZCode Sub Agent、MinerU、PDF 渲染、论文审计/修复、Git 写入（含新 worktree/commit）或 push。ZCode 在真正开始任何上述动作前，必须向用户提交并等待确认包：所选通道、目标论文/非论文 pilot、actor、实际或拟用模型与思考级别、agent/worker 数、精确 cwd/worktree、独占写入路径、输入身份、预期验证、停止/恢复、并发上限和 push 状态。没有该确认，状态只能是 `WAITING_FOR_USER_CONFIRMATION`；“已交接”“用户允许使用某能力”或旧任务历史都不是启动许可。
+
+**Git 与状态边界**：ZCode 只有在用户确认的作用域内才可成为该作用域的 canonical integrator；此前主线的 `AUDIT-INDEX.md`、`AUDIT-PROGRESS.log`、`MEMORY.md` 和冻结收据是当前真值。任何 worker 只写自己的独占论文路径，根级 current truth 由已确认的 ZCode integrator 串行更新。README 当前有用户未提交修改，必须原样保留、不得 stage/stash/reset；push、发布、删除、归档旧 worktree和重写历史继续需要单独明确授权。
