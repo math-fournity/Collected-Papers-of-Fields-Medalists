@@ -159,3 +159,9 @@
 - 核对：oriented loops 与 exploration path γ = γ(ω) 定义（open cluster 连 ∂_ba 与 dual-open cluster 连 ∂_ab^⋆ 的 interface）；Theorem 3.13 (Conformal invariance of the FK-Ising model, [KS10])——γ_δ 弱收敛于 chordal SLE，κ = 16/3；Definition 3.14——edge FK fermionic observable 公式 (3.5) F_{Ω◇_δ,a_δ,b_δ,p}(e) = E^{a_δ,b_δ}_{Ω_δ,p}[e^{(1/2)·iW_γ(e,b_δ)} 1_{e∈γ}]（指数内堆叠分数 1/2）、vertex observable 公式 (3.6) F(v) = ½ Σ_{e∼v} F(e)；临界时省略 p、简记 F_δ；Theorem 3.15 ([Smi10a])——公式 (3.7) (1/√(2δ)) F_δ(·) → √(φ′(·))，φ 为 Ω 到条带 R×(0,1)、a↦−∞、b↦∞ 的任一共形映射；Theorem 3.16 (RSW-type crossing bounds, [DCHN10])——公式 (3.8) φ^0_{p_sd,2,R}(open path left to right) ≥ c（矩形 4n×n）；页脚印刷页码 23。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(3.5) 指数内 ½·iW 与 (3.7) 的 1/√(2δ)、√(φ′(·)) 根号结构 PNG 印刷可辨（文本层拆散拍平），重导出对账时建议对 (3.5)(3.7) 做 300dpi 抽查；κ = 16/3 与定理编号 3.13/3.15/3.16 为锚点。
+
+## p.024（PDF p.24 / 印刷 p.24）
+- PNG：audit/p024.png（pngmono 150dpi）
+- 核对：loop representation 分布显式计算段起头；Proposition 3.17——公式 (3.9) φ^{a_δb_δ}_{Ω_δ,p}(ω) = (1/Z) x^{o(ω)} √2^{ℓ(ω)}，x = p/[√2(1−p)]、ℓ(ω) 为 loop 数、o(ω) 为 open 边数；Proof——φ = (1/Z)[p/(1−p)]^{o(ω)} 2^{k(ω)}、Dobrushin boundary conditions 自对偶（dual 为 φ^{b_δa_δ}_{Ω_δ^⋆,p⋆}）、四行根号推演（√(φ^{ab}(ω)φ^{ba}(ω⋆)) 起）、p(1−p⋆)/((1−p)p⋆) = x²、ℓ(ω) = k(ω)+k(ω⋆)−1、Z̃ = √(ZZ⋆)/[√2√(p⋆/(1−p⋆))]^{o(ω)+o(ω⋆)} 与构型无关、◻；§4 Discrete complex analysis on graphs 标题与开篇两段；页脚印刷页码 24。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：本页根号套分数密集（文本层乱码为 ¿ÁÀ 序列），PNG 逐项可辨；φ 的上标 a_δ b_δ / b_δ a_δ 堆叠与 √2 的 ℓ(ω)/k(ω) 指数是重导出对账最高风险点，建议 300dpi 抽查整段证明。
