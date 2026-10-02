@@ -646,9 +646,9 @@ $$
 
 We now distinguish between different regimes:
 
-If$T > 1$, set$\gamma = T ^ { - 1 / 3 - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
+- If$T > 1$, set$\gamma = T ^ { - 1 / 3 - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
 
-If$T < 1$, set$\gamma = T ^ { - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
+- If$T < 1$, set$\gamma = T ^ { - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
 
 With these choices for$\gamma$(which ensure that$\gamma \ll 1 )$, we obtain
 
@@ -656,7 +656,7 @@ $$
 \sum_ {n, n ^ {\prime}} \sum_ {\beta , N, T} | E _ {\beta , \gamma , N, T} ^ {n, n ^ {\prime}} | <   \infty .
 $$
 
-Therefore, by Borel-Cantelli, we learn that almost surely in$( \alpha _ { i j } )$，
+Therefore, by Borel-Cantelli, we learn that almost surely in$( \alpha _ { i j } )$,
 
 $$
 M _ {1} ^ {t} M _ {2} ^ {t} \succeq \gamma (t, N).

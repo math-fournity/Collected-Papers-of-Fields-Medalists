@@ -94,3 +94,9 @@
 - 核对：(3.4a)–(3.4d) 四条兼容性条件（β/N、γ/βN 右端与编号顺序）、regime 句 1/N<β<√γ≪1、(3.5) β≳1/(NT) 及反证段、E^{n,n′}_{β,γ,N,T} 定义、Lemma 3.4 (i)(ii)（∅ 与 γ²N/|n×n′|(1+TγN·gcd/β|n₂′|)min(β/|n|, γ/β|n′|)）、Σ 分割 display（两 substack 条件 + "= Σ₁+Σ₂"）、Bound for Σ₁ 与 γ³TN²Σgcd/(|n₂′||n×n′||n₁|)
 - 结果：PASS±。四条 (3.4x) 编号依次对位无误（Luna 旧基线的"四标签整体错后一位"已修复且现与印刷一致）；Lemma 3.4 (ii)、(3.5)、Σ 分割多行 display 逐项吻合。print quirk 忠实保留："The cases where one of n₁,n₂,n₁′,n₂′ is zero is easier to deal with"（L589，原刊语法原样）。残余瑕疵（不误导，不改）：L577 "= 0" 后缺逗号、L583 "n₂′ ≠ 0" 后缺逗号、L589 句尾缺句号（印刷均有）；L599 印刷对 "Bound for Σ₁" 整词组加下划线而 MD 仅对 Σ₁ 加下划线（排版级，语义无损）。
 - 备注：Luna 旧修复抽核通过——旧基线登记的 (3.4a) 孤立标签/末式漏标在当前 MD（L549-563）已不存在；标签-公式配对与 p.11 印刷逐一对齐。
+
+## p.012（PDF p.12 / 印刷 p.12）
+- PNG：audit-redo/p012.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p012_300dpi_conclusion.png（1.5x 与 4x）＋ pdftotext 文本层对账
+- 核对：gcd 分式分解 display（Σ_λ、三重 substack、≼1）、Σ₁≼γ³TN²、Bound for Σ₂ 与 γ³N/(β|n×n′||n₂′|)、Σ_{n,n′}1/(|n×n′||n₂′|) 链式 ≼ βN、Σ₂≼γ³N²、"Proposition (3.2)" 结论段两式（γ³N²(1+T)）、两 regime bullet（T^{−1/3−δ}N^{−2/3−δ} / T^{−δ}N^{−2/3−δ}）、ΣΣ|E|<∞、Borel-Cantelli 后 M₁^tM₂^t≽γ(t,N)、末式 ∀t>1/N, x∈𝕋^d, |K_N|≼N^{4/3}⟨T⟩^{1/6}
+- 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；末式环面记号经 4x 放大确认为**黑板体 𝕋^d**（上标 d 为原刊原样——Proposition 3.2 主体系 𝕋² 而此结论行写 𝕋^d，MD L668 `\mathbb{T}^d` 忠实）。print quirk 忠实保留："We can now conclude the proof of Proposition (3.2)"（L635，带括号系原刊原样）。**修复 3 处**：L649/L651 两条 regime 设置补回 bullet 符号 "- "（印刷有 •，Luna 旧基线已登记项目符号丢失但未修复）；L659 "(α_{ij})" 后全角逗号 "，"→半角 ","。残余瑕疵（不误导，不改）：L617/L599 "Bound for Σ₂/Σ₁" 印刷整词组下划线而 MD 仅对 Σ 加下划线。
+- 备注：Luna 旧修复抽核部分未完成——p.12 两条 bullet 在 Luna 修复后仍缺失（本次补上），其余本页旧修复无新问题。
