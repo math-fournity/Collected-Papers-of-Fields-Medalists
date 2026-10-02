@@ -962,13 +962,13 @@ $$
 | E _ {\lambda} | \preceq N ^ {\delta} \lambda^ {- 4}.
 $$
 
-If$N ^ { 2 / 3 } < \lambda < N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } , \mu = \lambda ^ { 2 } N ^ { - \delta / 4 } } \end{array}$, and appeal to (4.2) to obtain
+- If$N ^ { 2 / 3 } < \lambda < N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } , \mu = \lambda ^ { 2 } N ^ { - \delta / 4 } } \end{array}$, and appeal to (4.2) to obtain
 
 $$
 \left| E _ {\lambda} \right| \lesssim N ^ {\delta} \left[ \lambda^ {- 4} + N ^ {4} T \lambda^ {- 10} \right] \lesssim N ^ {4 + \delta} T \lambda^ {- 10}.
 $$
 
-Finally, if$\lambda < N ^ { 2 / 3 }$, we rely on the Chebyshev inequality and the estimate$\| F \| _ { L ^ { 4 } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \lesssim$ $T ^ { 1 / 4 }$(which follows from the$L ^ { 4 }$bound of Bourgain-Demeter [9]) to obtain
+- Finally, if$\lambda < N ^ { 2 / 3 }$, we rely on the Chebyshev inequality and the estimate$\| F \| _ { L ^ { 4 } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \lesssim$ $T ^ { 1 / 4 }$(which follows from the$L ^ { 4 }$bound of Bourgain-Demeter [9]) to obtain
 
 $$
 | E _ {\lambda} | \lesssim T \lambda^ {- 4}.
