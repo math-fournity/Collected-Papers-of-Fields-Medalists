@@ -266,7 +266,7 @@ $$
 
 called rational subsets, as basis for the topology, where$f _ { 1 } , \ldots , f _ { n } \in \mathrm { R }$generate R as an ideal and$g \in \mathrm { R }$.
 
-Remark 2.8. — Let$\varpi \in k$be topologically nilpotent, i.e.$| \varpi | < 1$. Then$\mathrm { t o } f _ { 1 } , \ldots , f _ { n }$ one can add$f _ { n + 1 } = \varpi ^ { \mathrm { N } }$for some big integer N without changing the rational subspace. Indeed, there are elements$h _ { 1 } , \ldots , h _ { n } \in \mathbf { R }$such that$\sum h _ { i } f _ { i } = 1$. Multiplying by$\varpi ^ { \mathrm { N } }$for N sufficiently large, we have$\varpi ^ { \mathrm { N } } h _ { i } \in \mathrm { R } ^ { + } , \mathrm { a s ~ } \mathrm { R } ^ { + } \subset \mathrm { R }$is open. Now for any$x \in \operatorname { U } ( { \frac { f _ { 1 } , \ldots { } { } \mathcal { f } _ { n } } { g } } )$, we have
+Remark 2.8. — Let$\varpi \in k$be topologically nilpotent, i.e.$| \varpi | < 1$. Then to$f _ { 1 } , \ldots , f _ { n }$ one can add$f _ { n + 1 } = \varpi ^ { \mathrm { N } }$for some big integer N without changing the rational subspace. Indeed, there are elements$h _ { 1 } , \ldots , h _ { n } \in \mathbf { R }$such that$\sum h _ { i } f _ { i } = 1$. Multiplying by$\varpi ^ { \mathrm { N } }$for N sufficiently large, we have$\varpi ^ { \mathrm { N } } h _ { i } \in \mathrm { R } ^ { + } , \mathrm { a s ~ } \mathrm { R } ^ { + } \subset \mathrm { R }$is open. Now for any$x \in \operatorname { U } ( { \frac { f _ { 1 } , \ldots , f _ { n } } { g } } )$, we have
 
 $$
 \left| \varpi^ {\mathrm{N}} (x) \right| = \left| \sum \left(\varpi^ {\mathrm{N}} h _ {i}\right) (x) f _ {i} (x) \right| \leq \max \left| \left(\varpi^ {\mathrm{N}} h _ {i}\right) (x) \right| \left| f _ {i} (x) \right| \leq \left| g (x) \right|,
@@ -274,31 +274,31 @@ $$
 
 as desired. In particular, we see that on rational subsets,$| g ( x ) |$is nonzero, and bounded from below.
 
-The topological spaces$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$have some special properties reminiscent ofthe properties of Spec(A) for a ring A. In fact, let us recall the following result of Hochster [18].
+The topological spaces$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$have some special properties reminiscent of the properties of Spec(A) for a ring A. In fact, let us recall the following result of Hochster [18].
 
-Definition/Proposition 2.9. — A topological space X is called spectral ifit satisfies thefollowing equivalent properties.
+Definition/Proposition 2.9. — A topological space X is called spectral if it satisfies the following equivalent properties.
 
-(i) There is some ring A such that$\mathrm { { X } \cong \mathrm { { S p e c ( A ) } } }$
+(i) There is some ring A such that$\mathrm { { X } \cong \mathrm { { S p e c ( A ) } } }$.
 
-(ii) One can write X as an inverse limit offinite$\mathrm { { T _ { 0 } } }$spaces.
+(ii) One can write X as an inverse limit of finite$\mathrm { { T _ { 0 } } }$spaces.
 
-(iii) The space X is quasicompact, has a basis ofquasicompact open subsets stable underfinite intersections, and every irreducible closed subset has a unique generic point.
+(iii) The space X is quasicompact, has a basis of quasicompact open subsets stable under finite intersections, and every irreducible closed subset has a unique generic point.
 
-In particular, spectral spaces are quasicompact, quasiseparated and$\mathrm { { T _ { 0 } } }$. Recall that a topological space X is called quasiseparated ifthe intersection ofany two quasicompact open subsets is again quasicompact. In the following we will often abbreviate quasicompact, resp. quasiseparated, as qc, resp. qs.
+In particular, spectral spaces are quasicompact, quasiseparated and$\mathrm { { T _ { 0 } } }$. Recall that a topological space X is called quasiseparated if the intersection of any two quasicompact open subsets is again quasicompact. In the following we will often abbreviate quasicompact, resp. quasiseparated, as qc, resp. qs.
 
-Proposition 2.10 [19, Theorem 3.5]. — For any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, the space $\mathrm { S p a } ( \mathbf { R } , \mathbf { R } ^ { + } )$is spectral. The rational subsets form a basis of quasicompact open subsets stable underfinite intersections.
+Proposition 2.10 [19, Theorem 3.5]. — For any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, the space $\mathrm { S p a } ( \mathbf { R } , \mathbf { R } ^ { + } )$is spectral. The rational subsets form a basis of quasicompact open subsets stable under finite intersections.
 
-Proposition 2.11 [19, Proposition$3 . 9 7 . \mathrm { ~ - ~ } L e t \left( \mathrm { R } , \mathrm { R } ^ { + } \right)$be an affinoid k-algebra with completion$( \hat { \textmd R } , \hat { \textmd R } ^ { + } )$. Then$\mathrm { S p a } ( \mathrm { R } , \bar { \mathrm { R } ^ { + } } ) \cong \mathrm { S p a } ( \hat { \mathrm { R } } , \hat { \mathrm { R } ^ { + } } )$), identifying rational subsets.
+Proposition 2.11 [19, Proposition 3.9]. — Let$\left( \mathrm { R } , \mathrm { R } ^ { + } \right)$be an affinoid k-algebra with completion$( \hat { \mathrm { R } } , \hat { \mathrm { R } } ^ { + } )$. Then$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } ) \cong \mathrm { S p a } ( \hat { \mathrm { R } } , \hat { \mathrm { R } } ^ { + } )$, identifying rational subsets.
 
 Moreover, the space$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$is large enough to capture important properties.
 
-Proposition$2 . 1 2 . - L e t \left( \mathrm { R } , \mathrm { R } ^ { + } \right)$be an affinoid k-algebra,$\mathrm { X = S p a ( R , R ^ { + } ) }$
+Proposition 2.12. — Let$\left( \mathrm { R } , \mathrm { R } ^ { + } \right)$be an affinoid k-algebra, $\mathrm { X = S p a ( R , R ^ { + } ) }$.
 
 (i)$\begin{array} { r } { I f \mathrm { X } = \varnothing , t h e n \hat { \mathrm { R } } = 0 . } \end{array}$
 
-(ii)$L e t f \in \mathbb { R }$be such that$| f ( x ) | \neq 0 f o r$all$x \in \mathrm { X } .$. IfR is complete, thenf is invertible.
+(ii) Let$f \in \mathrm { R }$be such that$| f ( x ) | \neq 0$for all$x \in \mathrm { X }$. If R is complete, then f is invertible.
 
-(iii)$L e t f \in \mathbb { R }$be such that$| f ( x ) | \leq 1$for all$x \in \mathrm { X }$. Then$f \in \mathbb { R } ^ { + }$
+(iii) Let$f \in \mathrm { R }$be such that$| f ( x ) | \leq 1$for all$x \in \mathrm { X }$. Then$f \in \mathrm { R } ^ { + }$.
 
 Proof. — Part (i) is [19], Proposition 3.6(i). Part (ii) is [20], Lemma 1.4, and part (iii) follows from [19], Lemma 3.3(i).-
 

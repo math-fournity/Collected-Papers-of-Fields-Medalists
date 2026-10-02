@@ -128,3 +128,14 @@
   7. "write$f↦|f(x)| f o r$the"（for 入 math）→"$|f(x)|$for"
   8. "as basisfor"、"f_1,…,f_n∈\mathbb{R}"、"$g∈\mathbb{R}$"→basis for、∈\mathrm{R} 两处（print 为环 R）、句末补句点
 - 备注：Spa 定义 display 的 Γ 本页未丢（\Gamma 在 MD 中存在）；收敛幂级 display 与 print 一致。
+## p.011（PDF p.11 / 印刷 p.255）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/255；Remark 2.8（ϖ^N 添加引理、Σh_i f_i=1、|ϖ^N(x)| display）；Spa 特殊性质段（Hochster [18]）；Definition/Proposition 2.9 spectral (i)–(iii)；qc/qs 缩写段；Proposition 2.10 [19, Thm 3.5]；Proposition 2.11 [19, Prop 3.9]（Spa(R,R^+)≅Spa(R̂,R̂^+)）；Proposition 2.12 (i)–(iii)
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Remark 2.8："$\mathrm{to}f_1$"（to 入 math）→ to$f_1$；"$\operatorname{U}({\frac{f_1,\ldots{}{}\mathcal{f}_n}{g}})$" 乱码（\ldots{}{}+\mathcal f_n）→ U(f_1,…,f_n/g)（p.255 Remark 行）
+  2. "ofthe/ifit/thefollowing/offinite/ofquasicompact/underfinite×2/ifthe/ofany" 缺空格 → 修正（p.255 各段）
+  3. Def/Prop 2.9(i) 句末补句点（print "Spec(A)."）
+  4. Proposition 2.11 头 "[19, Proposition$3.97.\mathrm{~-~}Let"（3.9]. — Let 乱码为 3.97）→ "[19, Proposition 3.9]. — Let"；$\hat{\textmd R}$×2→\hat{\mathrm{R}}；"$\mathrm{Spa}(\mathrm{R},\bar{\mathrm{R}^+})\cong\mathrm{Spa}(\hat{\mathrm{R}},\hat{\mathrm{R}^+})$)（伪 \bar、伪花括号嵌套、尾部游离右括号）→$\mathrm{Spa}(\mathrm{R},\mathrm{R}^+)\cong\mathrm{Spa}(\hat{\mathrm{R}},\hat{\mathrm{R}}^+)$,（p.255 Proposition 2.11 行原图）
+  5. Proposition$2.12.-Let 乱码头→Proposition 2.12. — Let、句末 X=Spa(R,R^+) 补句点
+  6. Prop 2.12(ii)(iii)：$Let f∈\mathbb{R}$→Let f∈R（\mathbb 系误字族+Let 入 math）、"≠0 f o r"→"≠0 for"、"X.$."→"X."、"IfR/thenf"→If R/then f、(iii) Then f∈\mathbb{R}^+→\mathrm{R}^+ 并补句点（p.255 (ii)(iii) 行）
+- 备注：|ϖ^N(x)| display 与 print 逐字符一致；(i) 的 \begin{array} 包装为排版伪影、内容正确，未动。
