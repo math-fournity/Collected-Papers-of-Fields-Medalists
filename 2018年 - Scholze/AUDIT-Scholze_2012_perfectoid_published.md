@@ -239,3 +239,15 @@
   8. "unramified extensions of$\mathbf{Q}_b$"→"$\mathbf{Q}_p$"（p.263 We note 段；Q_b 系 Q_p 误读）
   9. Lemma 3.2：头"Lemma 3.2.$-Let"→"— Let"、|·|:K→Γ∪{0} 缺箭头→→、"$|\mathrm K^\times|\ i s$chosen"→"$|\mathrm K^\times|$is chosen"；**"Then \x05 is p-divisible"含 0x05 控制字节（Γ 丢失，print "Then Γ is p-divisible."，PNG 确认）——Edit 通道无法表达该字节，登记待字节级修复（方案：\x05→$\Gamma$）**（p.263 Lemma 3.2 行原图）
 - 备注：Def 2.28 的 ≻/≺ 与 Prop 2.29 的 ≅ MD 本正确；"affinoid field is pair"为 print 原样。
+## p.020（PDF p.20 / 印刷 p.264）
+- PNG：audit/p020.png（pngmono 150dpi）
+- 核对：页眉 264/PETER SCHOLZE；Lemma 3.2 证明（Γ≠|p|^Z、|p|<|x|≤1、|y|^p=|y^p|=|x|、QED □）；char 0/char p 分离段；Remark 3.3 deeply ramified [15] Prop 6.6.6；tilting functor 段；ϖ∈K^× 选择段；lim_{←Φ}K°/ϖ display；Φ Frobenius x↦x^p 段；Lemma 3.4 (i)（lim_{←x↦x^♯}K°≅lim_{←Φ}K°/ϖ display、independent of ϖ、lim K°/ϖ→K°: x↦x^♯ display）；(ii)（ϖ^♭、K^♭=(lim K°/ϖ)[(ϖ^♭)^{-1}] display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 1 条，以原图为准）：
+  1. Lemma 3.2 证明："the group \x05 is generated"（Γ 丢失，print "the group Γ is generated"，PNG 确认）——0x05 控制字节 Edit 通道无法表达，登记待字节级修复（\x05→$\Gamma$）；同句其余已修
+  2. 同证明："|μ|<|x|≤1"→"$|p|<|x|≤1$"（μ 系 p 误读）；"For such$x,$"→"$x$,"；choose somey→some y；"as desired.-"→"as desired.□"（QED）
+  3. char 分离段与 tilting 段："characteristic$\beta.$"×3→"$p$. "（p.264 两段）
+  4. ϖ 选择段："$|\rho|≤|\varpi|<1$"→"$|p|≤|\varpi|<1$"（ρ 系 p 误读）+补句点（p.264 For its first description 行）
+  5. Φ 段："Frobenius morphism$x↦x^{ρ}$"→"$x↦x^{p}$"（print 为 x^p）；characteristic$\beta.$→$p$.（p.264 where Φ 行）
+  6. "## Lemma 3.4."伪标题层级→正文行（同页 Lemma 版式）
+  7. Lemma 3.4(i) display：左极限转移 "$x\mapsto x^{\flat}$"→"$x\mapsto x^{\sharp}$"（print 下标为 x↦x^♯，PNG 确认；与 p.246 K^♭=lim_{←x↦x^♯}K 一致）；"independent of$\dot{}_{\varpi}$"乱码→"independent of$\varpi$"（p.264 (i) display 与 given by projection 行）
+- 备注：(ii) 的 ϖ^♭、|(ϖ^♭)^♯|=|ϖ|、K^♭ display 均与 print 一致；行 591 (iii) 起属印刷 p.265，留待 p.021。
