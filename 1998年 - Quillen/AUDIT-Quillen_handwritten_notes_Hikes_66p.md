@@ -434,13 +434,24 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_2` 反例函子、双数环方块、`K_1`/determinant 与单位说明。
 - 记录：2026-10-02 03:28:59 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
-### p.042（PDF p.42 / 纸面圈号 42；页脚另印 43）
+### p.042（PDF p.42 / 纸面圈号 42）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p042.png`（pngmono 150dpi）
 - 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p042_representation-maps.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p042_finite-field-theorem.png`。
 - 核对：表示 `ρ:G→GL_n(A)` 对同调的诱导映射；上三角块群到 `GL_{r+n}` 的包含 `i` 与投影 `j`；稳定后 `i_*=j_*` 的证明；有限域代数闭包上的模 p 同调定理陈述。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图第 1547 行的中间群为 `GL_n(A)`，基线误成 `GL_0(A)`。300dpi 映射裁片确认 `G` 的上右块为 `M_{rn}`；原图的 `i` 保持矩阵 `\left(\begin{smallmatrix}a&b\\0&d\end{smallmatrix}\right)` 不变，`j` 将上右 `b` 投影为 `0` 并保持对角项；基线第 1551 行把 `M_{rn}` 写成 `M_m`，第 1555 行将左上 `a` 改成 `z`、右侧又改成 `x`，第 1559 行也将投影后的左上项误成 `z`，并把零元写成 `o`。第 1563 行的 `i_*=j_*` 结论可辨。稳定化证明中，原图采用这些群的递增并/直极限；基线第 1573 行误成 `\prod_{GL_\infty}`，第 1579 行又把 `H_*` 识成 `H_x`。末尾定理的主要同调式可读，但基线第 1589 行把 “finite field with `q=p^d` elements, `p` prime” 损坏为 `finitefieldwith ... pazprime`，并与重复的 `Then` 拼在一个公式行内。
-- 页面边界：PDF p.42 页底陈述有限域同调定理；同页另印内部页码 `43`，Markdown 第 1594 行起该定理证明属于 PDF p.43。
+- 页面边界复核：原图 p.42 以有限域同调定理的断言结束；Markdown 第 1592 行的 `43` 与第 1594 行证明对应后续 PDF p.43 及其圈号 43，不是前页页脚。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复 `i/j` 矩阵、直极限及有限域条件。
 - 记录：2026-10-02 03:32:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.043（PDF p.43 / 纸面圈号 43）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p043.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p043_sylow-diagrams.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p043_representation-classes.png`。
+- 核对：有限域一般线性群的 Sylow p-子群与 Z/p 同调证明步骤；`T_{n-1}` 的包含和 `i/j` 映射比较；`Rep(G,A)` 的对象、同构关系与按投射模同构类 `S` 的分解。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图所用域是 `\mathbb F_q`，基线第 1594、1596 行写成 `\mathbb F_g`；首处还把 “Sylow p-subgroup” 损坏成 `p-sulgp`。第 1596 行原图的源群是上三角幺幂矩阵群、目标是 `GL(\mathbb F_q)` 且限定正次数；基线把群矩阵与“zero map”短语挤到同一矩阵环境，丢失上下三角块关系。300dpi 裁片中的 `T_{n-1}` 到分块 `GL_{n-1}`/`GL_1` 群的包含图，以及标为 `i,j` 的同调映射比较，在基线第 1598 行被输出为大量空矩阵行和错位 `i↓j` 文本，无法保留“迭代并使用前述事实”的证明连接。表示论部分，原图先取 `S=Iso(\mathcal P_A)` 并为 `s∈S` 选代表 `P_s`，再将 `Rep(G,A)` 分解为 `\coprod_{s∈S} Hom(G,Aut(P_s))_{Aut(P_s)}`；基线第 1600 行将代表写成 `P_S`、底类写成 `P∈R`，第 1604 行更把分解指标 `s∈S` 改为 `s∈G`。第 1602 行的表示等价共轭条件可辨认。
+- 页面边界：本页止于 `Rep(G,A)` 的 `S`-分解；Markdown 第 1606 行的 `Goal` 开始下一页论证。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复域参数、Sylow 子群图及表示同构类索引。
+- 记录：2026-10-02 03:37:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
