@@ -543,3 +543,14 @@
 - 页面边界：本页止于 `R'(π_1X,A)` 的 quotient/`K_0A` 记号；Markdown 第 1893 行 `Exercise` 起属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片补记胞并与映射集极限、自然变换比较图及有限 `π_1X` 表示式。
 - 记录：2026-10-02 04:19:56 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.052（PDF p.52 / 纸面圈号 52）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p052.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p052_representation-limits.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p052_Grothendieck-construction.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p052_exactness-diagram.png`。
+- 核对：`~R'(π_1X,A)` 与稳定有限秩表示的 exercise；`[X,BGL(A)]→[X,BGL(A)^+]` 图；`\ell,k` 的 property `(*)`；交换幺半群的 Grothendieck completion 作为 coequalizer 的定义与等价关系。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 exercise 说明 `\widetilde R'(π_1X,A)` 是由 `\lim_n Hom(π_1X,GL_n(A))` 的表示同构类生成的 abelian group；基线第 1893 行将 `π_1X`、直极限、同构类条件拆成 `π,X`、`130 classes` 等碎片。原图相邻图从该 Hom 极限到 `[X,BGL(A)]→[X,BGL(A)^+]`，并向下连到 `\widetilde R'`；基线第 1895–1902 行将域、陪域、垂直映射与商群关系压成无法读取的符号串。原图 theorem 为 `\ell,k` 都有 property `(*)`，只需 diagram chase 验证 `\ell`；基线第 1904–1906 行误成 `f_n,f_k` 与 `f_0`。交换幺半群 `M` 的 Grothendieck 构造，原图以两映射 `a,b:M^3⇉M^2→\bar M` 表示，并定义 `(m'_1,m'_2)∼(m_1,m_2)` 当且仅当 `∃t` 使 `m'_1+m_2+t=m'_2+m_1+t`；基线第 1910–1923 行将两箭头、pair relation 与“精确泛性质”的符号严重损坏。
+- 页面边界：原图 p.52 止于 Grothendieck coequalizer/“exact means” 定义图；Markdown 第 1926 行起 `Proof that h satisfies (*)` 的映射集长正合图属于下一页，待 p.53 再核确切续接。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片重建稳定表示 colimit、property `(*)` 记号与 Grothendieck coequalizer/relation。
+- 记录：2026-10-02 04:25:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
