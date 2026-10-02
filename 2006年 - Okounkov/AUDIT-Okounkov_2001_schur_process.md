@@ -78,3 +78,9 @@
 - 核对：§2.2.6 全节（Γ±(φ)=exp(Σ_{k=1}^∞(log φ)_{∓k}α_{±k})、(log φ)_k=p_k/k、(Γ₋(φ)v_μ,v_λ)=s_{λ/μ}(φ⁺)、式 (10) 𝕊_φ(μ,λ)=(Γ₋(φ)Γ₊(φ)v_μ,v_λ)、式 (11) 交换关系）、§2.2.7 开头（φ[m](z)=Σ_{k∈ℤ}φ_k[m]z^k）
 - 结果：PASS±（4 个 ff 连字伪影已修复，PNG+文本层双证）：行 303 "coeficient"→"coefficient"；行 311 "coeficient"→"coefficient"；行 329 "diferent…diferent…difer"→"different…different…differ"。
 - 备注：印刷 quirk "probablistic applications"（p010.png 与文本层 line 530 双证印刷原样）忠实保留；式 (10)(11) 编号与 𝕊 无衬线记号与印刷一致。
+
+## p.011（PDF p.11 / 印刷 p.11）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：Σ_{m∈ℤ}log φ[m](z) 收敛假设、Definition 2（Prob=(1/Z)∏_{m∈ℤ+1/2}𝕊_{φ[m]}(...））、Z 求和式、§2.2.8、式 (12)（时间有序积 ∏^←）、式 (13)（Γ₊(φ)v_∅=v_∅）、Z=exp(Σ_{m1<m2}Σ_k k(log φ[m1])_k(log φ[m2])_{−k})
+- 结果：PASS±（三处已修复）：行 361、行 375 "coeficient"→"coefficient"（p011.png+文本层双证）；行 381 句末补印刷原页句号（p011.png 末行 "ensure the convergence of Z."）。
+- 备注：(12) 式 md 中 Γ 项间多余空段为排版伪影不改；∏^←、v_∅ 记号与印刷一致。

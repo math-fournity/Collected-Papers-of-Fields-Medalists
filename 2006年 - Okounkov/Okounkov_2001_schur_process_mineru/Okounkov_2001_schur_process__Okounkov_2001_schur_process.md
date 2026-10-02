@@ -358,7 +358,7 @@ $$
 
 ## 2.2.8
 
-It follows from (10) that Z is given by the following matrix coeficient
+It follows from (10) that Z is given by the following matrix coefficient
 
 $$
 Z = \left(\prod_ {m \in \mathbb {Z} + 1 / 2} ^ {\leftarrow} \Gamma_ {-} (\phi [ m ])   \Gamma_ {+} (\phi [ m ])   v _ {\emptyset}, v _ {\emptyset}\right)  ,\tag{12}
@@ -372,13 +372,13 @@ $$
 \Gamma_ {+} (\phi) v _ {\emptyset} = v _ {\emptyset}.\tag{13}
 $$
 
-we compute the matrix coeficient (12) as follows
+we compute the matrix coefficient (12) as follows
 
 $$
 Z = \exp \left(\sum_ {m _ {1} <   m _ {2}} \sum_ {k} k (\log \phi [ m _ {1} ]) _ {k} (\log \phi [ m _ {2} ]) _ {- k}\right).
 $$
 
-Our growth assumptions on the functions$\phi [ m ]$ensure the convergence of$Z$
+Our growth assumptions on the functions$\phi [ m ]$ensure the convergence of$Z$.
 
 ## 2.2.9
 
