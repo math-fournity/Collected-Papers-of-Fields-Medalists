@@ -35,3 +35,9 @@
 - 核对：Theorem 1.1（LHS 𝕋²/RHS 𝕋^d 混用、N^{(2/3)(1−4/p)} 缺口因子）、Theorem 1.2 两分支（T^{1/p}N^{1/2−3/p} 与 N^{1−8/p}T^{1/p}）、Remark 1.3（”elliptic”/”hyperbolic” 反向引号、∂_x²±∂_y²、[10]、p≥8/p≤8）、§1.3.1 run-in 标题、(1.7)、K_N 定义
 - 结果：PASS±。300dpi 核实定理两式为黑板体 𝕋（与 (1.6) 的粗体 \mathbf T 不同属原刊自身混用），指数、≲_{α,ε}、方括号结构与 MD L170/L180 逐项一致；Remark 1.3 的 ”…” 原刊反向引号（L185）忠实保留；K_N 定义与 (1.7) 完整。瑕疵（不误导，不改）：L167 "p > 4" 后缺逗号；L173 Thm 1.1 "B(0,N)" 后缺句号（印刷有）；L177 "ε > 0" 后缺逗号。注意：Thm 1.2 的 "provided Supp f̂ ⊂ B(0,N)" 印刷本身无句号，MD L183 忠实一致，不属缺失。
 - 备注：Luna 旧修复抽核通过——旧基线 If→I f、p=10 拆字、As a 损坏在当前 MD（L167/L180/L185）均已不存在。
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit-redo/p005.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p005_300dpi_bounds.png、p005_300dpi_levelset.png、p005_300dpi_exponent.png（4x）、p005_300dpi_Sline.png（3x）＋ pdftotext 文本层对账
+- 核对：页顶三条 K_N bounds（第一条 ≲ min(N²,1/t)、后两条 ⪯ 与 N^{4/3}(1+t^{1/6})、N⁴T 及 T 条件）、E_λ level-set 定义、|E_λ| 分解式、S 定义、Ĵ₁ 公式、‖Ĵ₁‖≲|S|、TT* 两 bullet、§1.3.2 大求和式（f̂_{k₁}overline{f̂}_{k₂}…、(1−e^{2πiTΩ})/(2πiΩ)）、Ω 定义
+- 结果：PASS±。300dpi 核实：三条 bounds 第 1 条为 ≲、第 2/3 条为 ⪯（MD L204 \lesssim/\preceq 区分忠实）；E_λ 行与 bounds 下标为黑板体 𝕋²，而 S 行 sup 下标为粗体 \mathbf{T}²（3x 放大清晰可辨）——MD L212 \mathbb{T}²、L230 \mathbf{T}² 均忠实，混用属原刊自身；E_λ 指数 4x 放大确认为 e^{it\widetilde{Δ}}（波浪清晰）。原刊 quirk 忠实保留：provided λ²>‖J₂‖_{L^∞} 后的多余 ")"（L227）、"The approach which was has been sketched"（L247）、J₁ 的 \widehat{L^∞} 宽帽（L227）。瑕疵（不误导，不改）：L249 bullet 句尾缺句号；L259 "(α_{ij})" 后缺逗号。L209 行内 Δ̃ 用 \tilde 而非 \widetilde，仅帽宽渲染差异，同一符号。
+- 备注：Luna 旧修复抽核通过——旧基线 E_λ 的 \bar{Δ}、行首多余 e、bcan、bullet 丢失在当前 MD 均已不存在。
