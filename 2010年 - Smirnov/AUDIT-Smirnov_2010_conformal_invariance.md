@@ -123,3 +123,9 @@
 - 核对：FK percolation duality 开篇（wired boundary conditions 情形、dual model 构造）；Proposition 3.3——公式 (3.4) p⋆ = p⋆(p,q) ∶= (1−p)q / ((1−p)q + p)；Proof——∂G 边缘边可忽略的说明、o(ω⋆) = a − o(ω)、f(ω) = k(ω⋆)、Euler formula "# edges + # connected components + 1 = #sites + # faces"、k(ω) = s − 1 + f(ω) − o(ω) = s − 1 + k(ω⋆) − a + o(ω⋆)、φ^1_{G,p,q}(ω) 四行推演至 φ^0_{p⋆,q,G⋆}(ω⋆)、q(1−p)/p = p⋆/(1−p⋆) 收尾（◻）；self-dual point p_sd = p_sd(q) ∶= √q/(1+√q)；p_c(q) = p_sd(q) 的 Kramers-Wannier 式 heuristic 段起头；页脚印刷页码 17。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(3.4) 分母 (1−p)q + p 与 p_sd 的 √q/(1+√q) 根号覆盖 PNG 印刷清晰；φ 的上标 1/0（wired/free）与 p⋆ 上标星号堆叠为对账重点。
+
+## p.018（PDF p.18 / 印刷 p.18）
+- PNG：audit/p018.png（pngmono 150dpi）
+- 核对：Theorem 3.4 ([BDC10])——FK percolation 于 square lattice 的 p_c(q) = p_sd(q) = √q/(1+√q) 对每个 q ≥ 1；Exercise 3.5（free boundary conditions 的对偶）；Exercise 3.6 (Zhang's argument, [Gri06])——p = p_sd(q)、φ^0_{p_sd,q}、三小问（1−ε、{n}×[−n,n] 外侧触碰概率 > 1−ε^{1/4}、wired 情形与 p_c(q) 讨论）；Exercise 3.7 (Euler's formula)；§3.2 FK-Ising model and Edwards-Sokal coupling——q = 2、[ES88]、cluster 独立赋 ± 自旋概率 1/2；Proposition 3.8——β = −½ ln(1−p) 与 free boundary conditions；Proof 开头 P[(ω,σ)] = (1/Z^0_{p,2,G}) p^{o(ω)}(1−p)^{c(ω)} 2^{k(ω)}·2^{−k(ω)} = (1/Z^0_{p,2,G}) p^{o(ω)}(1−p)^{c(ω)}；P̃ 与 e^{−2β} = 1−p 段起头；页脚印刷页码 18。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：ε^{1/4} 的堆叠分数 1/4 与 β = −½ln(1−p) 的负号+分数 PNG 印刷清晰（文本层拍平）；Theorem 3.4 编号与 p_c=p_sd 等式为重导出对账锚点。
