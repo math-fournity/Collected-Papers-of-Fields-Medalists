@@ -112,7 +112,7 @@ $$
 \frac {1}{n} (\int (R + \triangle f) ^ {2} e ^ {- f} d V - (\int (R + \triangle f) e ^ {- f} d V) ^ {2}) ] \geq 0,
 $$
 
-where$f$is the minimizer for${ \mathcal F } .$.
+where$f$is the minimizer for${ \mathcal F } .$
 
 2.4. The arguments above also show that there are no nontrivial (that is with non-constant Ricci curvature) steady or expanding Ricci solitons (on closed $M )$. Indeed, the equality case in the chain of inequalities above requires that $R { + \triangle f }$be constant on$M ;$on the other hand, the Euler-Lagrange equation for the minimizer f is$2 \triangle f - | \nabla f | ^ { 2 } + R =$const. Thus,$\triangle f - | \nabla f | ^ { 2 } = c o n s t = 0$ because$\begin{array} { r } { \int { ( \triangle f - | \nabla f | ^ { 2 } ) e ^ { - f } d V = 0 } } \end{array}$. Therefore,$f$is constant by the maximum principle.
 

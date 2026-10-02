@@ -62,6 +62,15 @@
 - 登记不改：印刷行尾 "a = −|x|²/2**.**" 句点存在（PNG/pdftotext 双证），MD 缺失——丢字符类排版伪影，不误导，按 SOP 默认不批量改。
 - 备注：Claim 斜体段、"can not"、"t∈[t₁,t₂]" 紧排、三行不等式链（含 λ∫−RdV）逐项一致。
 
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit-redo/p008.png（pngmono 150dpi）；仲裁图 audit-redo/p008_eq34_300dpi.png
+- 核对：2.4 无 soliton 论证（R+△f const、Euler-Lagrange 2△f−|∇f|²+R=const、∫(△f−|∇f|²)e^{−f}dV=0）、2.5* [H 6,§2] RV^{2/n}、节标题 "3 No breathers theorem II"、3.1 引语、(3.1) W 定义、(3.2)、τ>0 段、(3.3)（含 τ_t=−1）、□* 共轭热算子段、(3.4)
+- 结果：PASS±（一处双句点已修；一处逗点缺失登记不改）
+- 差异与修复：(a) MD 行 115 "${ \mathcal F } .$." 双句点（印刷为 "F ." 单句点带空格 quirk）→ 已删多余句点，保留 "F ." quirk。
+- 登记不改：印刷 "= const = 0**,** because"（150dpi PNG 与 pdftotext 双证有逗点），MD 缺失——丢标点类排版伪影，不误导，按 SOP 默认不批量改。
+- 备注：(3.4) 300dpi 仲裁：积分号前无 1/(2τ) 系数，1/(2τ) 仅出现于绝对值内被减项 g_ij/(2τ)，MD 与印刷逐项一致；(3.3) τ_t=−1 与印刷一致；□* 用 \Box 表示与印刷空心方框一致。
+
+
 
 
 
