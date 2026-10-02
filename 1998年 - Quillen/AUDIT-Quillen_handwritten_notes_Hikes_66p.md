@@ -484,7 +484,18 @@
 - 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_vector-bundle-analogue.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_acyclic-representations.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p046_finite-classification.png`。
 - 核对：`K_0A=π_0(BGL(A)^+)`；与复向量丛分类的类比；有限复形到 `BGL(A)^+` 的映射与 acyclic replacement/表示的关系；Jordan–Hölder 同构表示对应的映射相等结论及其逆问题。
 - 结果：**FAIL**。
-- 印刷证据与差异：300dpi 裁片确认向量丛项为 `\widetilde{KU}(X)=[X,BU]=\lim_n[X,BU_n]`，基线第 1682 行把 `KU` 识成 `FU`，且极限项没有还原 `BU_n`。原图的 attempt 是 `X→BGL(A)^+` 与下方 `X'→BGL_n(A)` 组成的 acyclic 图；基线第 1685 行把第一个目标误成 `BGL_n(A)^+`，第 1687 行把箭头关系拆成游离的 `acyclic`，第 1691 行又把 `[X',BGL_n(A)]=Hom(π_1X',GL_n(A))` 的 `π_1X'` 损坏成 `π,X'`。有限复形的稳定映射式右端应为 `\lim_n[X,BGL_n(A)^+]`，基线第 1694 行重复写成 `[X,BGL(A)^+]`。原图第 1703 行说明 `π_1(BGL(A)^+)` abelian 并使用 acyclic maps 的 universal property；基线将 `abelian`、`acyclic maps` 和 perfect-subgroup 注记拼坏。结论处基线第 1705–1707 行把 `g` acyclic 写成 `acidic` 并损坏配对对象。原图第 1713 行的问题是两个同态 `π_1Y→GL_N` 是否给出同一 `[X,BGL(A)^+]` 元素，基线写成 `π,Y`。第 1715 行所述短正合列定理的结果是 `[E]=[E'⊕E'']`，基线重复 `E'`，并损坏目标 `BGL(A)^+`。第 1711 行的 `page_46_image_1.jpg` 与原图 “case of `S^n`” 旁的手绘图对应。
-- 页面边界：本页止于表示同构与 Jordan–Hölder 的问题，以及 “converse” 问题；Markdown 第 1719 行起的 Grothendieck 群记号属于下一页。
+- 印刷证据与差异：300dpi 裁片确认向量丛项为 `\widetilde{KU}(X)=[X,BU]=\lim_n[X,BU_n]`，基线第 1682 行把 `KU` 识成 `FU`，且极限项没有还原 `BU_n`。原图的 attempt 是 `X→BGL(A)^+` 与下方 `X'→BGL_n(A)` 组成的 acyclic 图；基线第 1685 行把第一个目标误成 `BGL_n(A)^+`，第 1687 行把箭头关系拆成游离的 `acyclic`，第 1691 行又把 `[X',BGL_n(A)]=Hom(π_1X',GL_n(A))` 的 `π_1X'` 损坏成 `π,X'`。有限复形的稳定映射式右端应为 `\lim_n[X,BGL_n(A)^+]`，基线第 1694 行重复写成 `[X,BGL(A)^+]`。原图第 1703 行说明 `π_1(BGL(A)^+)` abelian 并使用 acyclic maps 的 universal property；基线将 `abelian`、`acyclic maps` 和 perfect-subgroup 注记拼坏。结论处基线第 1705–1707 行把 `g` acyclic 写成 `acidic` 并损坏配对对象。
+- 页面边界复核：PDF p.46 在 “If finite every element of group is obtained this way” 处结束。Markdown 第 1709 行起的 “Trouble”/`S^n` 同值问题、同态比较与 Jordan–Hölder 结论均属于 p.47；嵌入图 `page_46_image_1.jpg` 与 p.47 页首原图图示对应，名称中的 46 是 MinerU 页索引。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `KU`/直极限、acyclic replacement、`π_1X'`、Jordan–Hölder 结论中的 `E''`。
 - 记录：2026-10-02 03:51:43 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.047（PDF p.47 / 纸面圈号 47）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p047.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p047_JH-diagram.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p047_representation-monoid.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p047_Grothendieck-definitions.png`。
+- 核对：`S^n` 情形下 acyclic pullback diagram 与表示同态；Jordan–Hölder 同构表示的推论及 converse 问题；`Rep(G,A)` 按投射模同构类的分解；`R(G,A)`、`R'(G,A)` 的 Grothendieck 群关系及 forget-action 映射。
+- 结果：**FAIL**。
+- 印刷证据与差异：本页原图从 “Trouble” 和 `S^n` 图开始；`page_46_image_1.jpg` 与图中的 `X^n→X',X''→S^n` 拉回图吻合。原图第 1713 行所问的是两个同态 `π_1Y→GL_n(A)` 是否诱导同一 `[X,BGL(A)^+]` 映射，基线写成 `π,Y→GL_N`。Jordan–Hölder 推论原式为表示的短正合列 `0→E'→E→E''→0` 蕴含 `[E]=[E'⊕E'']`；基线第 1715 行把 `E''` 重复成 `E'`，并损坏目标空间。`Rep(G,A)=\coprod_{s∈S}Hom(G,Aut(P_s))_{Aut(P_s)}` 中，原图的 `S=Iso(\mathcal P_A)` 与代表 `P_s` 被基线第 1719 行压成 `1/s`、`Ant(Ps)` 等碎片。原图区分由短正合列关系定义的 `R(G,A)` 与以直和关系定义的 `R_\oplus(G,A)`/`R'(G,A)`；基线第 1721–1725 行将两种 Grothendieck 记号和关系严重拼坏。原图 forget-action 映射 `R'(G,A)→R'(e,A)=K_0A` 在第 1732 行被写成 `H_0A` 且映射标签不可读。
+- 页面边界：原图 p.47 页尾止于 forget-action 映射到 `K_0A`；Markdown 第 1735 行 “Gives splitting” 起的 `R'(G,A)=K_0A⊕\widetilde R'` 属于下一页，待 p.48 核对。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `π_1Y`、Jordan–Hölder 短正合列、表示分解索引与 Grothendieck 关系。
+- 记录：2026-10-02 03:58:02 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
