@@ -274,3 +274,15 @@
   5. Proposition 3.6："perfectoidfield/ofK"补空格、"$|\cdot|^\flat gf\mathbf K^\flat$"（of 乱码为 gf）→"$|\cdot|^\flat$of$\mathrm K^\flat$"、句末补句点（p.266 Prop 3.6 行原图）
   6. 末段："nilpotent elements m"→$\mathfrak m$（fraktur，PNG 确认）、$\dot{\mathrm K}^+$伪点删、"$\mathrm{K^\circ/m}=\mathrm{K^\circ/m^\flat}$"→"$\mathrm K^\circ/\mathfrak m=\mathrm K^{\flat\circ}/\mathfrak m^\flat$"（print 右侧为 K^♭°/𝔪^♭，MD 丢 ♭）、"described.-"→"described.□"（QED）（p.266 末段原图）
 - 备注：|ϖ_1|^p（(ii) 首行）print 即为上标 p，MD 正确；双行 |x+y|^♭ display 与 print 一致；行 681 起（Theorem 3.7 前 seed 段）属印刷 p.267，留待 p.023。
+## p.023（PDF p.23 / 印刷 p.267）
+- PNG：audit/p023.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/267；Fontaine-Wintenberger 段；Theorem 3.7 (i)(ii)（tilting functor L↦L^♭、preserves degrees）；defer 段；Proposition 3.8（K^♭ 代数闭 ⇒ K 代数闭）；Proof（P(X) monic irreducible、Newton polygon 线、|a_0|=1、|K^×|=|K^{♭×}| Q-向量空间、Q(X)∈K^{♭°}[X]、K°/ϖ[X]=K^{♭°}/ϖ^♭[X]、P(X+y^♯)、P_1(X)=c^{-d}P(cX+y^♯)、|c|^d≤|ϖ|、QED □）；Theorem 3.7 预告段；§4 Almost mathematics 节标题；Gabber-Ramero [15] 段；𝔪=K^{°∘} 段；Definition 4.1 almost zero
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 5 条，以原图为准）：
+  1. Theorem 3.7/(i)/Prop 3.8："perfectoidfield"×3 → perfectoid field（p.267 三行）
+  2. (ii)："K<sup>-</sup>"×2 →$\mathrm{K}^\flat$（tilt 记号，print K^♭）（p.267 (ii) 行）
+  3. "proofofthis"→proof of this（p.267 defer 段）；"IfK"→If K
+  4. Proof 头 "$Proof\mathrm{-}\mathrm{Let}$"→"Proof. — Let"；"$=1,\mathrm{as}|…|$"（as 入 math）→"$=1$, as$|…|$"；"Qhave"→Q have；"$\mathrm{K}^{\mathrm{bo}}[\mathrm X]$"→"$\mathrm K^{\flat\circ}[\mathrm X]$"（b°→♭°）；"root of$\mathrm{\Delta Q}$"伪 Δ→$\mathrm Q$+补句点（p.267 Proof 两行原图）
+  5. "constant term P(y^♯) is divisible by \x0b. As"（ϖ 丢失，print "divisible by ϖ."，PNG 确认）——0x0b 字节登记待字节级修复（\x0b→$\varpi$）；同段 "P.-"→"P.□"（QED）
+  6. §4 导语段："neglects m-torsion"→"neglects$\mathfrak m$-torsion"（fraktur，PNG 确认）
+  7. Definition 4.1："almost zero$i f\mathfrak m x=0$"（if 入 math）→if 出 math；"ifall ofits"→if all of its；"equivalently, m$\mathbf M=0$"→"equivalently,$\mathfrak m\mathbf M=0$"（m→𝔪）+补句点（p.267 Def 4.1 行）
+- 备注：P/Q 多项式 display 与 K°/ϖ[X]=K^{♭°}/ϖ^♭[X] 均与 print 一致；Lemma 4.2 起行 709 属印刷 p.268，留待 p.024。

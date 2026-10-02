@@ -680,21 +680,21 @@ On the other hand, continuous valuations are in bijection with open valuation su
 
 The main theorem about tilting for perfectoid fields is the following theorem. For many fields, this was known by the classical work of Fontaine-Wintenberger.
 
-Theorem 3.7. — Let K be a perfectoidfield.
+Theorem 3.7. — Let K be a perfectoid field.
 
-(i) Let L be a finite extension of K. Then L (with its natural topology as a finite-dimensional K-vector space) is a perfectoidfield.
+(i) Let L be a finite extension of K. Then L (with its natural topology as a finite-dimensional K-vector space) is a perfectoid field.
 
-(ii) Let K<sup>-</sup> be the tilt of K. Then the tilting functor$\mathrm { L } \mapsto \mathrm { L } ^ { \flat }$induces an equivalence of categories between the category of finite extensions of K and the category of finite extensions of K<sup>-</sup>. This equivalence preserves degrees.
+(ii) Let$\mathrm { K } ^ { \flat }$be the tilt of K. Then the tilting functor$\mathrm { L } \mapsto \mathrm { L } ^ { \flat }$induces an equivalence of categories between the category of finite extensions of K and the category of finite extensions of$\mathrm { K } ^ { \flat }$. This equivalence preserves degrees.
 
-It turns out that many of the arguments will generalize directly to the context of perfectoid K-algebras introduced later. For this reason, we defer the proofofthis theorem. Let us only prove the following special case here.
+It turns out that many of the arguments will generalize directly to the context of perfectoid K-algebras introduced later. For this reason, we defer the proof of this theorem. Let us only prove the following special case here.
 
-Proposition 3.8. — Let K be a perfectoidfield with tilt K<sup>-</sup>. IfK<sup>-</sup> is algebraically closed, then K is algebraically closed.
+Proposition 3.8. — Let K be a perfectoid field with tilt$\mathrm { K } ^ { \flat }$. If$\mathrm { K } ^ { \flat }$is algebraically closed, then K is algebraically closed.
 
-$P r o o f \mathrm { - } \mathrm { L e t } \mathrm { P } \mathrm { ( X ) } = \mathrm { X } ^ { d } + a _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + a _ { 0 } \in \mathrm { K } ^ { \circ } [ \mathrm { X } ]$be any monic irreducible polynomial of positive degree d. Then the Newton polygon of P is a line. Moreover, we may assume that the constant term of P has absolute value$| a _ { 0 } | = 1 , \mathrm { a s } | \mathrm { K } ^ { \times } | = | \mathrm { K } ^ { \flat \times } |$is a Q-vector space.
+Proof. — Let$\mathrm { P } \mathrm { ( X ) } = \mathrm { X } ^ { d } + a _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + a _ { 0 } \in \mathrm { K } ^ { \circ } [ \mathrm { X } ]$be any monic irreducible polynomial of positive degree d. Then the Newton polygon of P is a line. Moreover, we may assume that the constant term of P has absolute value$| a _ { 0 } | = 1$, as$| \mathrm { K } ^ { \times } | = | \mathrm { K } ^ { \flat \times } |$is a Q-vector space.
 
-Now let$\operatorname { Q } ( \mathrm { X } ) = \mathrm { X } ^ { d } + b _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + b _ { 0 } \in \mathrm { K } ^ { \mathrm { b o } } [ \mathrm { X } ]$be any polynomial such that P and Qhave the same image in$\mathrm { K } ^ { \circ } / \varpi [ \mathrm { X } ] = \mathrm { K } ^ { \flat \circ } / \varpi ^ { \flat } [ \mathrm { X } ]$, and let$y \in \mathbf { K } ^ { \flat \circ }$be a root of$\mathrm { \Delta Q }$
+Now let$\operatorname { Q } ( \mathrm { X } ) = \mathrm { X } ^ { d } + b _ { d - 1 } \mathrm { X } ^ { d - 1 } + \cdot \cdot \cdot + b _ { 0 } \in \mathrm { K } ^ { \flat \circ } [ \mathrm { X } ]$be any polynomial such that P and Q have the same image in$\mathrm { K } ^ { \circ } / \varpi [ \mathrm { X } ] = \mathrm { K } ^ { \flat \circ } / \varpi ^ { \flat } [ \mathrm { X } ]$, and let$y \in \mathbf { K } ^ { \flat \circ }$be a root of$\mathrm { Q }$.
 
-Considering$\mathrm { P } ( \mathrm { X } + \boldsymbol { y } ^ { \sharp } )$, we see that the constant term$\mathrm { P } ( y ^ { \sharp } )$is divisible by  . As it is still irreducible, its Newton polygon is a line and hence the polynomial$\mathrm { { P } _ { 1 } ( X ) = }$ $c ^ { - d } \mathrm { P } ( c \mathrm { X } + y ^ { \sharp } )$has integral coefficients again, where$| c | ^ { d } = | \mathrm { P } ( y ^ { \sharp } ) | \le | \varpi |$. Repeating the arguments gives an algorithm converging to a root of P.-
+Considering$\mathrm { P } ( \mathrm { X } + \boldsymbol { y } ^ { \sharp } )$, we see that the constant term$\mathrm { P } ( y ^ { \sharp } )$is divisible by  . As it is still irreducible, its Newton polygon is a line and hence the polynomial$\mathrm { { P } _ { 1 } ( X ) = }$ $c ^ { - d } \mathrm { P } ( c \mathrm { X } + y ^ { \sharp } )$has integral coefficients again, where$| c | ^ { d } = | \mathrm { P } ( y ^ { \sharp } ) | \le | \varpi |$. Repeating the arguments gives an algorithm converging to a root of P.□
 
 Our proof of Theorem 3.7 will make use of Faltings’s almost mathematics. For this reason, we recall some necessary background in the next section.
 
@@ -702,9 +702,9 @@ Our proof of Theorem 3.7 will make use of Faltings’s almost mathematics. For t
 
 We will use the book of Gabber-Ramero [15] as our basic reference.
 
-Fix a perfectoid field K. Let${ \mathfrak { m } } = { \mathrm { K } } ^ { \circ \circ } \subset { \mathrm { K } } ^ { \circ }$be the subset of topologically nilpotent elements; it is also the set$\{ x \in \mathrm { K } \mid \lvert x \rvert < 1 \}$, and the unique maximal ideal of$\mathrm { K } ^ { \circ }$. The basic idea of almost mathematics is that one neglects m-torsion everywhere.
+Fix a perfectoid field K. Let${ \mathfrak { m } } = { \mathrm { K } } ^ { \circ \circ } \subset { \mathrm { K } } ^ { \circ }$be the subset of topologically nilpotent elements; it is also the set$\{ x \in \mathrm { K } \mid \lvert x \rvert < 1 \}$, and the unique maximal ideal of$\mathrm { K } ^ { \circ }$. The basic idea of almost mathematics is that one neglects$\mathfrak { m }$-torsion everywhere.
 
-Definition 4.1. — Let M be a K<sup>◦</sup>-module. An element$x \in \mathbf { M }$is almost zero$i f \mathfrak { m } x = 0$. The module M is almost zero ifall ofits elements are almost zero; equivalently, m$\mathbf { M } = 0$
+Definition 4.1. — Let M be a K<sup>◦</sup>-module. An element$x \in \mathbf { M }$is almost zero if$\mathfrak { m } x = 0$. The module M is almost zero if all of its elements are almost zero; equivalently,$\mathfrak { m } \mathbf { M } = 0$.
 
 Lemma 4.2. — Thefull subcategory ofalmost zero objects in$\mathrm { K } ^ { \circ }$-mod is thick.
 
