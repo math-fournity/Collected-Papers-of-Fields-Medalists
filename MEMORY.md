@@ -10,7 +10,7 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有尚未并发处理的文档任务同时派发 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 个新 Peer create_thread 请求已接受。P37 0/93 映射阻塞，用户将向 P37 窗口发送新提示词；其原 worktree a829 当前不在 Git worktree 列表中。P40 在 worktree 716d 已提交 p.1–p.66，p.67 草稿未签；方法冲突未解，候选不计完成。新批次均有 provisional clientThreadId；21 个新 checkout 可见、4 个无对应 checkout，formal thread 状态与实际运行模型/effort 未核；worktree 总数下降原因/恢复能力未知。Master 只做调度、审计身份/路径/证据、维护根总账并串行集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有尚未并发处理的文档任务同时派发 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 个新 Peer create_thread 请求已接受。P37 0/93 映射阻塞，用户将向 P37 窗口发送新提示词；其原 worktree a829 当前不在 Git worktree 列表中。P40 在 worktree 716d 已提交 p.1–p.69，p.69 已提交；观察时 clean；方法冲突未解，候选不计完成。新批次均有 provisional clientThreadId；21 个新 checkout 可见、4 个无对应 checkout，formal thread 状态与实际运行模型/effort 未核；worktree 总数下降原因/恢复能力未知。Master 只做调度、审计身份/路径/证据、维护根总账并串行集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
