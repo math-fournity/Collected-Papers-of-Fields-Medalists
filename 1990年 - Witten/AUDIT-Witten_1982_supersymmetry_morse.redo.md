@@ -131,3 +131,8 @@
 - PNG：`audit-redo/p024.png`（pngmono 150dpi）
 - 核对：N 非紧段（`(dh)^2` 有界条件）；`d_t = e^{−ht}de^{ht}`、`H_t = d_t d_t* + d_t* d_t` 谱重合段；§4 标题；Ω(B; S) 与内积 `(δσ, δτ) = ∫dx⟨δσ(x), δτ(x)⟩` 段；loop space de Rham 局限段。
 - 结果：PASS±。正文与小节标题顺序逐项与印刷页相符；`Tr(−1)^F`、`V = V₊ ⊕ V₋`、`L → ∞` 一致；跨页断点一致（line 603 末 "Indeed, the group"）。差异仅：页眉 "684 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.025（PDF p.25 / 印刷 p.685）
+- PNG：`audit-redo/p025.png`（pngmono 150dpi）
+- 核对：U(1) circle action 段；(49) `d_s = d + si(K), H_s = d_s d_s* + d_s* d_s`；renormalization/asymptotically free 段；`S^N`/`CP^N` 大 N 谱段；`H = −∇² + V` 类比段。
+- 结果：PASS±。(49) 及正文逐项与印刷页相符；`[1], [10], [19]`、`S^N`/`CP^N`、`(46) and (47)` 引用一致。print quirks 忠实保留（不改）：circle action 行 "$\sigma(x) + \sigma(x + a)$"（Luna 300dpi 已证为加号，本轮 150dpi 复核一致；数学意图未知）；"the supersymmetric nonlinear sigma is mathematically well-defined"（原刊漏 "model"，md line 617 原样）。跨页断点一致（line 619 末 "potential energy function"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 685" 未入 md（版面信息省略）。
