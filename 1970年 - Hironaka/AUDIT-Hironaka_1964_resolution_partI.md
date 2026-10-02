@@ -339,3 +339,10 @@
 - 证据：源 PDF p.046 文本层、页图 `audit/Hironaka_1964_resolution_partI_p046.png`（pngmono 150dpi）与 MinerU Markdown 第 737–767 行。Local Chow lemma 两项、Corollary 1 的四项、higher-direct-image vanishing 与 Corollary 3 起始句的映射/下标方向均对照原页一致。
 - 备注：印刷运行页眉和页码 153 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.047 / 96（印刷 p.154）— PASS±
+
+- 时间：2026-10-02 03:06 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.047 文本层、页图 `audit/Hironaka_1964_resolution_partI_p047.png`（pngmono 150dpi）与 MinerU Markdown 第 769–777 行。Corollary 3 的局部拼接构造、投影映射、应用 Theorem I′、及关于 I′/II′ 推广的说明均与印刷页相符；图像核对了文本层丢失的帽记、限制符号和映射箭头。
+- 备注：印刷运行页眉和页码 154 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
