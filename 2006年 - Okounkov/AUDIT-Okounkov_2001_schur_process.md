@@ -136,3 +136,9 @@
 - 核对：Corollary 1（Prob({(t_i,h_i)}⊂𝔖̃(π))=det[K_{3D}(...)]）、式 (26)（二重围线积分与 z^{h1+(|t1|+1)/2}w^{−h2−(|t2|−1)/2} 权重）、§3/§3.1/§3.1.1、式 (27)（∫_γ e^{MS(x)}dx→0）、§3.1.2 开头
 - 结果：PASS±（一处已修复）：行 709 句末补句号（p019.png "for all but finitely many points x ∈ γ."）。
 - 备注：印刷 quirk "how suitable is the formula (22)"、"a much wider variety of specialization"（无复数 s）忠实保留；K_{3D} 记号与 (26) 结构全部吻合。
+
+## p.020（PDF p.20 / 印刷 p.20）
+- PNG：audit/p020.png（pngmono 150dpi）
+- 核对：Lemma 2（r³|π|→2ζ(3), r→+0）、𝔼|π| 推导链（q(d/dq)Z_{3D}/Z_{3D}=Σn²q^n/(1−q^n)=Σn²q^{nk}=Σq^k(1+q^k)/(1−q^k)³~2ζ(3)/r³）、Var|π|=o(r^{−6})、§3.1.3、rt_i→τ/rh_i→χ、Δt/Δh、τ≥0 对称性
+- 结果：PASS±（四处箭头/符号丢失已修复，均 p020.png 双证）：① 行 713 "and$r  + 0$"→"and$r \to + 0$"；② 行 719 句末补句号（"sampled from the measure 𝔐_q."）；③ 行 735 证明末补印刷的 □ 符号；④ 行 739/741 "$r ~  ~ + 0$"→"$r \to + 0$"（mineru 将箭头 → 拍成 "~ ~"）。
+- 备注：本页确认 mineru 存在系统性 "→" 丢失/变形伪影，后续页同类问题逐页对照修复。

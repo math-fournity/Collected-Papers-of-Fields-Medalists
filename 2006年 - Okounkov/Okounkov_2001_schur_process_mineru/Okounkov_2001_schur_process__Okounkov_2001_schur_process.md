@@ -710,7 +710,7 @@ provided the function$S ( x )$is smooth and$\Re S ( x ) < 0$for all but finitely
 
 ## 3.1.2
 
-Let$q = e ^ { - r }$and$r  + 0$. We begin with the following
+Let$q = e ^ { - r }$and$r \to + 0$. We begin with the following
 
 Lemma 2. We have the following convergence in probability
 
@@ -718,7 +718,7 @@ $$
 r ^ {3} | \pi | \rightarrow 2 \zeta (3), r \rightarrow + 0,
 $$
 
-where$| \pi |$is the volume of a 3D diagram$\pi$sampled from the measure${ \mathfrak { M } } _ { q }$
+where$| \pi |$is the volume of a 3D diagram$\pi$sampled from the measure${ \mathfrak { M } } _ { q }$.
 
 Proof. First consider the expectation of$| \pi |$
 
@@ -732,13 +732,13 @@ $$
 \mathrm{Var} | \pi | = q \frac {d}{d q} \mathsf {E} | \pi | = o (r ^ {- 6}),
 $$
 
-whence$\mathrm { V a r } ( r ^ { 3 } | \pi | ) \to 0$, which concludes the proof.
+whence$\mathrm { V a r } ( r ^ { 3 } | \pi | ) \to 0$, which concludes the proof.□
 
 ## 3.1.3
 
-It follows that as$r ~  ~ + 0$the typical 3D diagram$\pi ,$scaled by$r$in all directions, approaches the suitably scaled limit shape for typical 3D diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
+It follows that as$r \to + 0$the typical 3D diagram$\pi ,$scaled by$r$in all directions, approaches the suitably scaled limit shape for typical 3D diagrams of a large volume described in [3]. Below we will also see this limit shape appear from our calculations.
 
-We are interested in the$r ~  ~ + 0$limiting local structure of$\pi$in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
+We are interested in the$r \to + 0$limiting local structure of$\pi$in the neighborhood of various points in the limit shape. In other words, we are interested in the limit of the kernel (26) as
 
 $$
 r t _ {i} \rightarrow \tau , r h _ {i} \rightarrow \chi ,
