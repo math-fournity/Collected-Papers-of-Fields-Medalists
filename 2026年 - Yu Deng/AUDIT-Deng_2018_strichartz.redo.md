@@ -59,3 +59,9 @@
 - 核对：§2 节引（比值 ‖e^{itΔ̃}f‖/‖f‖）、启发式 (1)–(3) 全部 display：(1) ∼T^{1/p}；(2) N^{d/2}χ(Nx)、∫_{1/N²}^{1/N}∫_{B(0,tN)}dx dt/(tN)^{dp/2} ≳ N^{dp/2−(d+2)}；(3) N^{−d/2}Σχ̂(k/N)e^{2πi[…]}、∀k 邻式、‖tα_{ij}‖≪1/N²、(d²+d−2)/2、Dirichlet/Khinchin 的 N^{d²+d−2−ε}≲q≲N^{d²+d−2} 与 ‖qα_{ij}‖<1/N²、almost period、末式 N^{d/2−(d+2)/p}[T/N^{d²+d−2−ε}]^{1/p}>N^{d/2−(d²+2d)/p−ε}T^{1/p}；(4) 开头
 - 结果：PASS±（3 处已修复）。全部公式逐项吻合。300dpi 裁定两处易误读点均为 MD 忠实：矩形环面句印刷确为**无波浪** e^{itΔ}（与紧邻下一句的 e^{itΔ̃} 形成原刊自身对比，MD L379/L381 分别正确）；表达式 display 内层 Σ 印刷**无** _{ij} 下标（MD L384 一致；∀k 式的 Σ_{ij} 有下标，MD L390 亦一致）。print quirk 忠实保留："close to a integer multiple of 2π"（L393）、"this give examples"（L409）。**修复 3 处**（同类：原刊没有的多余标点）：L367 `$f ,$,`→`$f$,`；L371 `$\chi .$.`→`$\chi$.`；L377 `$f .$.`→`$f$.`。残余瑕疵（不误导，不改）：L369/L403 句尾标点缺失；L371 "initial data f" 后缺逗号。
 - 备注：Luna 旧修复抽核通过——旧基线初值误成 f_i 等在当前 MD（L371 为 N^{d/2}χ(Nx)）已不存在；"a integer multiple" 为原刊原样，Luna 亦登记保留，正确。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit-redo/p009.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：(4) 后半与 display N^{n/2−(n²+2n)/p−ε}T^{1/p}‖f‖、"Overall, this gives the conjecture (1.1)"、Remark 2.1 全部四式（Parsell–Vinogradov 两条件式、≳N^{pd/2}+ΣN^{(p−1)j+d−j(j+2)}≥…、(N^{d/2}+N^{d−d(d+2)/p})T^{1/p}>max(1,·)T^{1/p}‖f‖、as T→∞ sup 比 ≳ T^{1/p}Σ_{n=0}^d N^{n/2−(n²+2n)/p}）、§3 节标题、§3.1 χ 截断与 K_N 定义、Lemma 3.1（|t|≲1/N ⟹ ∀x∈𝕋², |K_N|≲min(N²,1/t)）、Proof 方框
+- 结果：PASS±（1 处已修复）。四条 display 的指数、求和限、≥/＞/≳ 层次、1_{|k|<N} 粗体指示符逐项与印刷一致；Lemma 3.1 与 □ 证明结束符忠实。**修复 1 处**（同类）：L449 `on$\mathbb{R} .$,`→`on$\mathbb{R}$,`（原刊无此句点）。残余瑕疵（不误导，不改）：L455 "(α_{ij})" 后缺句号（印刷有）；L369（p.8 范围已登记）同类的 (1) 句尾缺句号在 L409 区域无新例。
+- 备注：Luna 旧修复抽核通过——旧基线 "Similar sums 前多出 e"、"differencing 误识"、证明方框控制字符在当前 MD 均已不存在（方框现为 □）；"this give examples"（L409）与 "focuse" 类原刊拼写保留正确。

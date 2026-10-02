@@ -446,7 +446,7 @@ This is consistent with the conjecture which was heuristically derived above.
 
 ## 3. Weyl sum estimates
 
-3.1. Statement of the results. For χ a smooth, nonnegative function on$\mathbb { R } .$, equal to 1 on$B ( 0 , \scriptstyle { \frac { 1 } { 2 } } )$ and 0 on$B ( 0 , 1 ) ^ { \complement }$, we define the regularized fundamental solution
+3.1. Statement of the results. For χ a smooth, nonnegative function on$\mathbb { R }$, equal to 1 on$B ( 0 , \scriptstyle { \frac { 1 } { 2 } } )$ and 0 on$B ( 0 , 1 ) ^ { \complement }$, we define the regularized fundamental solution
 
 $$
 K _ {N} (t, x) = \sum_ {n \in \mathbb {Z} ^ {2}} \chi \left(\frac {n _ {1}}{N}\right) \chi \left(\frac {n _ {2}}{N}\right) e ^ {2 \pi i [ x \cdot n + t \sum_ {i, j} \alpha_ {i j} n _ {i} n _ {j} ]}.
