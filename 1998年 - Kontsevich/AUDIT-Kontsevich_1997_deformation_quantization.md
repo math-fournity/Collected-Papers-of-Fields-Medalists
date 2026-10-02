@@ -121,3 +121,10 @@
 - 核对：U₁^{(0)}:T_poly(X)⟶D_poly(X) 定义式（Hochschild-Kostant-Rosenberg 型 symmetrization 求和 + h↦(1↦h)）、§4.6.1.1/Theorem（U₁^{(0)} 是复形态射拟同构）、KHR 定理段（⊕_{k≥0}Γ(X,∧^kT_Y)[−k]）、 filtration 论证段与 Gr(U₁^{(0)}):Gr(T_poly)⟶Gr(D_poly) 式、principal symbols 段（Sym(T)⊗…⊗Sym(T)）、𝒞:=C(T)⊕(k·1)* 式、f↦(D(f))(0) 式、coproduct Δ 与纤维微分 d:⊗^{n+1}𝒞⟶⊗^{n+2}𝒞 完整公式（MD 行 737–783）。
 - 结果：`FAIL`→2 处已修复：①行 747 `on$Y .$. Analogous` 双句点→`on$Y$.`；②行 777 `coalgebra$\mathcal{C} .$. It` 双句点→`$\mathcal{C}$.`。print quirk 忠实保留：行 765 印刷原文 "It better to identify"（缺 is，原文如此）。其余 PASS±：行 747 `afine`、行 749/751/757/759/771/777 `diferential`/`polydiferential`/`coeficients`（ff 拍平）；行 757 `$A=C^{\infty}(X)$` 后缺句点（登记）。公式行 740/754/762/768/774/780 与印刷逐符号吻合。
 - 备注：行 785 起（Lemma. Let be the cofree…）为印刷 p.17 内容，在 p.017 核对。
+
+## p.017（PDF p.17 / 印刷 p.17）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p017.png`（pngmono 150dpi）
+- 核对：Lemma（∧^{n+1}T, d=0 ⟶ (⊗^{n+1}𝒞, d as above) 拟同构）、Proof 段（Euler 向量场分解、completed complex、H̄om(A^{⊗(n+1)},k)、Ext^{n+1}_{A-mod}(k,k)=∧^{n+1}T、resolution …⟶A⊗A⟶A⟶0⟶…）、𝒞↦C(T) reduced cochains 旁注、gr(U₁^{(0)}) fiberwise 收尾、§4.6.2 Main theorem（U₁≠bracket 兼容、Theorem U₁=U₁^{(0)}、[Su] formality 命名、MC 解=Poisson 结构 α∈T¹_poly 式、γ(ℏ):=α·ℏ 式、difeomorphism 共轭作用、corollary 1.3 定理回指）（MD 行 785–831）。
+- 结果：`FAIL`→6 处已修复：①行 785 `Lemma. Let be the cofree`→`Let$\mathcal{C}$be`（斜体 𝒞 丢失，PNG+文本层确凿）；②行 795 `is true if the analogous`→`iff`（ff 连字吞失）；③行 795 `A^{\diamondsuit(n+1)}`→`A^{\otimes(n+1)}`（◇ 符号错写，印刷为 ⊗，PNG+文本层确凿）；④行 803 `one replaces by$C(T)$`→`one replaces$\mathcal{C}$by$C(T)$`（𝒞 丢失）；⑤行 815 `The quasi-isomorphism in the theorem`→`The quasi-isomorphism$\mathcal{U}$in the theorem`（U 丢失）；⑥行 823 `depending on$\hbar ,$,` 双逗号→`$\hbar$,`。print quirk 忠实保留：行 831 印刷原文 `L∞-morphim`（morphism 拼错缺 s，PNG 确证），MD `\mathrm{-morphim}` 原样；行 811 句末缺句点（登记）。其余 PASS±：`difeomorphism`/`diferential`×3（ff 拍平）；行 829 `¯h` 分解。公式行 788/798/820/826 与印刷逐符号吻合。
+- 备注：行 833 起（§4.6.3 Non-uniqueness）为印刷 p.18 内容，在 p.018 核对。
