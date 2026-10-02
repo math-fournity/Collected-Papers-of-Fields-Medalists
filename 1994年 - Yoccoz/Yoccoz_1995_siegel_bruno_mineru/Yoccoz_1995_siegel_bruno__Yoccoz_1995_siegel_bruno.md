@@ -145,7 +145,7 @@ Nous introduisons au Paragraphe 2 une autre approche de la linéarisation des po
 
 linéarisante de $P_{\lambda}$ lorsque $|\lambda| < 1$, puis à laisser tendre non-tangentiellement $\lambda$ vers le cercle unité. Pour $|\lambda| < 1$, l'application linéarisante $H_{\lambda}$ possède en fait une unique singularité $U(\lambda)$ sur le bord de son disque de convergence, et $H_{\lambda}(U(\lambda))$ est égal au point critique $1/2$ de $P_{\lambda}$. La fonction $\lambda \mapsto U(\lambda)$ est holomorphe et bornée dans le disque unité, et son module est le rayon de convergence de $H_{\lambda}$. Le résultat principal du Paragraphe 2 est que le module $|U(\lambda)|$, lorsque $\lambda$ tend non-tangentiellement vers un point $\lambda_0 \in S^1$, admet pour limite le rayon de convergence de $H_{\lambda_0}$. On obtient ainsi, comme corollaire immédiat d'un célèbre théorème de Fatou, que le polynôme $P_{\lambda}$ est linéarisable pour presque tout $\lambda \in S^1$. Cette démonstration n'est valable que pour la famille quadratique (ou des familles très similaires), et ne donne pas d'information arithmétique sur l'ensemble des $\lambda$ pour lesquels $P_{\lambda}$ est linéarisable (condition (B)) mais elle est considérablement plus courte que les autres démonstrations de linéarisabilité. En combinant avec II.1.4, on retrouve facilement que $G_{\lambda}$ est une classe de conjugaison de $G$ pour presque tout $\lambda \in S^1$.
 
-La fonction holomorphe U semble posséder des propriétés très intéressantes, que je n'ai malheureusement pas été capable de démontrer (ou d'infirmier). Ces propriétés sont évoquées au Paragraphe 3, où l'on trouvera aussi des formules reliées à la fonction U, et aux coefficients des applications linéarisantes  $H_{\lambda}$ .
+La fonction holomorphe U semble posséder des propriétés très intéressantes, que je n'ai malheureusement pas été capable de démontrer (ou d’infirmer). Ces propriétés sont évoquées au Paragraphe 3, où l'on trouvera aussi des formules reliées à la fonction U, et aux coefficients des applications linéarisantes  $H_{\lambda}$ .
 
 Finalement, les deux appendices sont consacrées à des questions connexes ; en appliquant un résultat d'Il'yasenko ([Il]), on montre dans l'Appendice 1 que si une matrice $A \in GL_{n}(\mathbb{C})$ possède une valeur propre $\lambda$ de module 1 pour laquelle les sous-espaces propres et caractéristiques sont distincts, alors les germes de difféomorphismes holomorphes de $(\mathbb{C}^{n},0)$ de dérivée $A$ en 0 ne sont en général pas linéarisables. L'Appendice 2 montre que la condition $(B)$ est la limite naturelle de la méthode de démonstration de Siegel et Bruno.
 
@@ -423,7 +423,7 @@ d'où $\sum_{j=0}^{k}\beta_{j-1}\mathrm{Log}\alpha_j^{-1}\leq 4B$ .
 
 Comme k est arbitraire, cela prouve la seconde partie du lemme.
 
-Supposons que $\mathcal{I}$ soit fini et non vide, de plus grand élément $k$. Pour tout $k' > k$, il existe un entier $i$, avec $k < i \leq k'$, tel que $B_{k',i} \leq 0$; en effet, dans le cas contraire, on a en particulier $B_{k',k+1} > 0$, d'où $B_{k',j} = B_{k,j} + \beta_{j-1}\beta_k^{-1}B_{k',k+1} > B_{k,j} > 0$ pour $0 \leq j \leq k$, et $k' \in \mathcal{I}$. On peut donc trouver des entiers $k = k_0 < k_1 < \ldots < k_r = k'$ tels que $B_{k_\ell, k_\ell-1+1} \leq 0$ pour $1 \leq \ell \leq r$. Comme précédemment, on en déduit :
+Supposons que $\mathcal{I}$ soit fini et non vide, de plus grand élément $k$. Pour tout $k' > k$, il existe un entier $i$, avec $k < i \leq k'$, tel que $B_{k',i} \leq 0$; en effet, dans le cas contraire, on a en particulier $B_{k',k+1} > 0$, d'où $B_{k',j} = B_{k,j} + \beta_{j-1}\beta_k^{-1}B_{k',k+1} > B_{k,j} > 0$ pour $0 \leq j \leq k$, et $k' \in \mathcal{I}$. On peut donc trouver des entiers $k = k_0 < k_1 < \ldots < k_r = k'$ tels que $B_{k_\ell, k_{\ell-1}+1} \leq 0$ pour $1 \leq \ell \leq r$. Comme précédemment, on en déduit :
 
 $$
 \sum_ {j = k + 1} ^ {k ^ {\prime}} \beta_ {j - 1} \mathrm{Log} \alpha_ {j} ^ {- 1} <   4 B \beta_ {k}.
@@ -751,7 +751,7 @@ Soit $\beta \in (0,1/2) \cap \mathbb{R} - \mathbb{Q}$, $\lambda = E(\beta)$ et $
 
 Nous choisissons $\ell$ et $\ell'$ de sorte que les courbes $\ell$, $\ell'$, $f(\ell)$ ne s'intersectent qu'en leurs extrémités (formant ainsi un "triangle"), et que l'ouverture de $U$ en 0 soit $2\pi\beta$ (cf. Figure 1).
 
-![](images/page_25_image_7.jpg)
+![](Yoccoz_1995_siegel_bruno/images/page_25_image_7.jpg)
 
 Figure 1
 
@@ -2063,7 +2063,7 @@ $$
 B \geq c _ {1 6} = 2 \pi (c _ {8} ^ {\prime} + c _ {1 4} ^ {- 1}) + \log c _ {1 4}, \quad c _ {1 6} <   3 4. 5 9.
 $$
 
-Pour $0 \leq \ell \leq n$, il existe $z_{\ell} \in \mathbb{H}$ et $m_{\ell} \in \mathbb{N}^{*}$ tells qu'on ait $F_{n,\ell}^{m_{\ell}}(z_{\ell}) \notin \mathbb{H}$ et:
+Pour $0 \leq \ell \leq n$, il existe $z_{\ell} \in \mathbb{H}$ et $m_{\ell} \in \mathbb{N}^{*}$ tels qu'on ait $F_{n,\ell}^{m_{\ell}}(z_{\ell}) \notin \mathbb{H}$ et:
 
 $$
 \Im z _ {\ell} \geq \frac {1}{2 \pi} B _ {n, \ell}.
@@ -2117,7 +2117,7 @@ d'où la conclusion du théorème dans ce cas (cf. 2.8).
 
 Pour $n \in \mathcal{I} = \mathcal{I}(\alpha)$, et $0 \leq \ell \leq n + 1$, construisons des difféomorphismes $F_{n,\ell} \in \widehat{S}_{\alpha_\ell}$.
 
-Lemme.— Pour tous entiers  $0 \leq \ell \leq n' \leq n$ , avec  $n', n \in I$ , il existe
+Lemme.— Pour tous entiers  $0 \leq \ell \leq n' \leq n$ , avec  $n', n \in \mathcal{I}$ , il existe
 
 $$
 z = z (\ell , n ^ {\prime}, n) \in \mathbb {H}, \quad m = m (\ell , n ^ {\prime}, n) \in \mathbb {N} ^ {*}
@@ -2345,7 +2345,7 @@ $$
 
 La propriété (ii) garantit que la classe de conjugaison de $f_{\theta}$ dans $G$ ne contient pas de fonction entière : une telle fonction $g$ vérifierait, pour $m \in \mathcal{J}_{2}$ assez grand, l'identité $g^{r_{m}q_{k(m)}} \equiv id$, en contradiction avec $Dg(0) = E(\alpha)$.
 
-Pour $f \in G$, notons $\Lambda(f)$ l'ensemble des nombres complexes $t$ qui possèdent la propriété suivante : pour tout $\varepsilon > 0$, il existe $m \in \mathcal{J}_1$ et $z_m \in \mathbb{C}$ tels qu'on ait $f^{q_{k(m)}}(z_m) = z_m$, $|f^j(z_m)| < \varepsilon$ pour $0 \leq j < q_{k(m)}$ et $Df^{q_{k(m)}}(z_m) = E(\varepsilon(m)\alpha_m'(t))$ (avec $\alpha'_m(t) - \alpha_m^{-1} = c_9t$).
+Pour $f \in G$, notons $\Lambda(f)$ l'ensemble des nombres complexes $t$ qui possèdent la propriété suivante : pour tout $\varepsilon > 0$, il existe $m \in \mathcal{J}_1$ et $z_m \in \mathbb{C}$ tels qu'on ait $f^{q_{k(m)}}(z_m) = z_m$, $|f^j(z_m)| < \varepsilon$ pour $0 \leq j < q_{k(m)}$ et $Df^{q_{k(m)}}(z_m) = E(\varepsilon(m)\alpha_m'(t))$ (avec $\alpha'_m(t)^{-1} - \alpha_m^{-1} = c_9t$).
 
 L'ensemble $\Lambda(f)$ est au plus dénombrable, et ne dépend que de la classe de conjugaison de $f$ dans $G$. Or on a, par construction, $\theta \in \Lambda(f_{\theta})$ pour tout $\theta \in \mathbb{D}$. L'ensemble des classes de conjugaison des $f_{\theta}$, $\theta \in \mathbb{D}$ ne peut donc être au plus dénombrable.
 
@@ -2444,8 +2444,6 @@ $$
 $$
 
 Les hypothèses de la proposition sont donc vérifiées par $G$ et $z'$ à l'ordre $m - 1$. Mais les conclusions, pour $G$ et $z'$ à l'ordre $m - 1$, ne sont autres que les conclusions désirées pour $F$ et $z$ à l'ordre $m$. Ceci conclut la démonstration de la proposition.
-
-The Ground Truth image displays a single, solid horizontal line. According to Rule 2 (UNDERSCORE & LINE RULES), this is a stylistic or background line, not a placeholder underscore. Therefore, the OCR result must ignore it. The provided OCR content is "\_\_\_\_", which consists of four underscores. This is an incorrect interpretation of the line as a placeholder and violates the rule that stylistic lines must be ignored. The OCR has hallucinated text (underscores) where none should exist in the GT. This adheres to the strict requirement to ignore such lines.
 
 # Chapitre II LINÉARISATION DES POLYNÔMES QUADRATIQUES
 
@@ -3539,7 +3537,7 @@ $$
 B (g) = g \circ A - A \circ g.
 $$
 
-En écrivant $g = (g_1, g_2)$, la seconde composante de $B(g)$ est $A_{\lambda,1}(g_2)$, donc $B$ n'est pas surjectif. D'après un résultat d'Il'yashenko ([II]), si $w = (w_1, w_2)$ n'appartient pas à l'image de $B$, alors le germe de difféomorphisme $F_t = A + tw$ n'est pas linéarisable pour presque toute valeur de $t \in \mathbb{C}$.
+En écrivant $g = (g_1, g_2)$, la seconde composante de $B(g)$ est $A_{\lambda,1}(g_2)$, donc $B$ n'est pas surjectif. D'après un résultat d'Il'yashenko ([Il]), si $w = (w_1, w_2)$ n'appartient pas à l'image de $B$, alors le germe de difféomorphisme $F_t = A + tw$ n'est pas linéarisable pour presque toute valeur de $t \in \mathbb{C}$.
 
 APPENDICE 2 - Divergence des séries de Siegel modifiées lorsque la condition de Bruno est violée.
 
@@ -3641,8 +3639,6 @@ $$
 
 On conclut donc finalement qu'on a :
 
-The Ground Truth image displays a single, solid horizontal line. According to Rule 2 (UNDERSCORE & LINE RULES), this is a stylistic or background line, not a placeholder underscore. Therefore, the OCR result must ignore it. The provided OCR content is "\_\_\_\_", which consists of four underscores. This is an incorrect interpretation of the line as a placeholder and violates the rule that stylistic lines must be ignored. The OCR has hallucinated text (underscores) where none should exist in the GT. This adheres to the strict requirement to ignore such lines.
-
 ## Bibliographie
 
 [Ah] L.V. AHLFORS: Lectures on quasiconformal mappings, Van Nostrand-Reinhold, Princeton, New-Jersey (1966).
@@ -3661,7 +3657,7 @@ The Ground Truth image displays a single, solid horizontal line. According to Ru
 
 [He] M.R. HERMAN: Recent results and some open questions on Siegel's linearization theorem of germs of complex analytic diffeomorphisms of $\mathbb{C}^n$ near a fixed point, Proceedings VIII$^{\text{th}}$ Int. Conf. Math. Phys., World Scientific Publishers, Singapour (1987).
 
-[II] Y.S. IL'YASHENKO: Divergence of series reducing an analytic differential equation to linear normal form at a singular point, Funct. Analysis and Appl. 13 (1979), 227-229.
+[Il] Y.S. IL'YASHENKO: Divergence of series reducing an analytic differential equation to linear normal form at a singular point, Funct. Analysis and Appl. 13 (1979), 227-229.
 
 [N] V.I. NAISHUL': Topological invariants of analytic and area preserving mappings and their applications to analytic differential equations in $\mathbb{C}^2$ and $\mathbb{CP}^2$, Trans. Moscow Math. Soc. 42 (1983), 239-250.
 
