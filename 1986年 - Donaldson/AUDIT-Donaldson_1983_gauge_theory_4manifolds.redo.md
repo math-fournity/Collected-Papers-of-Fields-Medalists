@@ -116,3 +116,14 @@
   - **修复×6**（同页字形拍平，均 300dpi 裁片裁决）：行 319 "automorphisms G"→`$\mathcal{G}$`；"fixes A in Q"→`$\mathcal{Q}$`（印刷确为草书 𝒬，γ 固定的是连接本身，语义亦通）；"of A in Q"→`$\mathcal{Q}$`；"the g valued forms"与"The bundle g splits"→`$\mathfrak{g}$`；行 327 "in G"→`$\mathcal{G}$`、"sections of g"→`$\mathfrak{g}$`。行 322 display 中 `\mathcal{K}`→`\mathcal{H}`（同 p.7/p.8 同字形规则）。
   - 排版级伪影（登记不改）：*reducible connections* 斜体等在 md 中为正体。
 - 修复登记：行 305 "line"→"lie"（print quirk 复原）；行 319 G→`$\mathcal{G}$`、两处 Q→`$\mathcal{Q}$`、两处 g→`$\mathfrak{g}$`；行 322 `\mathcal{K}`→`\mathcal{H}`；行 327 G→`$\mathcal{G}$`、g→`$\mathfrak{g}$`（依据 `audit-redo/p009.png` + 300dpi 裁片）。
+
+### p.010（PDF p.10 / 印刷 p.288）
+
+- PNG：`audit-redo/p010.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（𝔤⊗C 的 C、b 式提位负号、‖b‖ 下标撇号、S 映射目标字形，结论记于本条）
+- 核对：Theorem 6 (i)(ii) 全文与 slice 定义式；"principle bundle" 句；Proof 段（Lie 群拓扑、分解 g=γg̃、H⁰_A/H^{0⊥}_A、⩾ 不等式、b 式与 d_Ag₂ 式、‖b‖‖a‖<ε 段、g=γg̃ 两行式）；Hausdorff 论证段；(i) 开集论证与 S 映射定义
+- 结果：**PASS±**（含四处 Fraktur/商式修复）。
+  - slice 式 `T_{A,\varepsilon}=\{A+a\mid d_A^*a=0,\ \|a\|_{L^2_3}<\varepsilon\}`、`L^2_4(\Omega^0(\mathfrak{g}\otimes\mathbf{C}))`（300dpi 确认印刷为粗体 **C**，md `\mathbf{C}` 正确）、`H_A^0/H_A^{0\perp}`、`\|d_Ag_2\|_{L^2_k}\geqslant\mathrm{const.}\|g_2\|_{L^2_{k+1}}`、`g=\gamma\tilde g` 两行式全部与页图一致。
+  - **修复×4**：① 行 329 Theorem 6 开头 `B`/`$B^{*}$` → `$\mathfrak{B}$`/`$\mathfrak{B}^{*}$`（印刷 Fraktur 𝔅/𝔅*，同侧行 369 前两处 Luna 已用 `\mathfrak{B}`，同一行内自相矛盾）；② 行 337 `$T_{A,\varepsilon/\Gamma_A}$` → `$T_{A,\varepsilon}/\Gamma_A$`（印刷商号在 T 之外，Luna 把 /Γ_A 塞进了下标）；③ 行 365 `so $\mathcal{B}$ is Hausdorff` → `$\mathfrak{B}$`；④ 行 369 `$p^{-1}(B^*)$` → `$p^{-1}(\mathfrak{B}^*)$`。
+  - **印刷 quirk 登记（不改，300dpi 逐一确认确系印刷原样）**：① "is a **principle** 𝒢/±1 bundle"（principal 之误植，Luna 忠实保留）；② b 式中提位负号 "=⁻d_Agg⁻¹"（负号位于上标高度，md `= ^{-} d_A g g^{-1}` 忠实保留空底上标形式）；③ "Thus from ‖b‖_{L²₃′}‖a‖_{L²₃} < ε" 首个下标带撇号（印刷确有 prime，md `L_3^2'` 忠实保留）。
+  - 排版级伪影（登记不改）：Theorem 6 整段斜体拍平为正体；行 362 印刷内层括号转写为花括号 `\{\ldots\}`。
+- 修复登记：行 329 `B`/`$B^{*}$`→`$\mathfrak{B}$`/`$\mathfrak{B}^{*}$`；行 337 `$T_{A,\varepsilon/\Gamma_A}$`→`$T_{A,\varepsilon}/\Gamma_A$`；行 365 `$\mathcal{B}$`→`$\mathfrak{B}$`；行 369 `$p^{-1}(B^*)$`→`$p^{-1}(\mathfrak{B}^*)$`（依据 `audit-redo/p010.png` + 300dpi 四张裁片）。

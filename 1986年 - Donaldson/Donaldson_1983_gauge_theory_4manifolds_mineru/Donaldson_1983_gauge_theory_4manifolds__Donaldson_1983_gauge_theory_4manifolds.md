@@ -326,7 +326,7 @@ the harmonic spaces $H_A^1$, $H_A^2$ are contained entirely within the complex p
 
 Conversely, if a connection A has a nontrivial stabiliser  $\Gamma_{A}$  in $\mathcal{G}$, then it is reducible. Similarly a connection is reducible if and only if the harmonic space  $H_{A}^{0}$  of covariant constant sections of $\mathfrak{g}$ is not zero, and this is then one dimensional.
 
-Theorem 6. (i) B is a Hausdorff space, and the open subset  $B^{*}$  of equivalence classes of irreducible connections forms a Banach manifold, with charts constructed from “slices”:
+Theorem 6. (i) $\mathfrak{B}$ is a Hausdorff space, and the open subset  $\mathfrak{B}^{*}$  of equivalence classes of irreducible connections forms a Banach manifold, with charts constructed from “slices”:
 
 $$
 T _ {A, \varepsilon} = \left\{A + a \mid d _ {A} ^ {*} a = 0, \| a \| _ {L _ {3} ^ {2}} <   \varepsilon \right\}. (\varepsilon \text {   sufficiently   small }).
@@ -334,7 +334,7 @@ $$
 
 Moreover $p: p^{-1}(\mathfrak{B}^*) \to \mathfrak{B}^*$ is a principle $\mathcal{G}/\pm 1$ bundle.
 
-(ii) If $A$ is reducible, then $\Gamma_A$ acts on $T_{A,\varepsilon}$ and the map $T_{A,\varepsilon / \Gamma_A} \to \mathfrak{B}$ is a homeomorphism to a neighborhood of $[A]$ in $\mathfrak{B}$, smooth off the fixed point set of $\Gamma_A$.
+(ii) If $A$ is reducible, then $\Gamma_A$ acts on $T_{A,\varepsilon}$ and the map $T_{A,\varepsilon}/\Gamma_A \to \mathfrak{B}$ is a homeomorphism to a neighborhood of $[A]$ in $\mathfrak{B}$, smooth off the fixed point set of $\Gamma_A$.
 
 Proof. Results of this type are now standard [2], [13], so we shall be brief.
 
@@ -362,11 +362,11 @@ $$
 \begin{array}{r l} g & = g _ {1} + g _ {2} = \gamma + (g _ {1} - \gamma + g _ {2}) \\ & = \gamma (1 + \gamma^ {- 1} \{g _ {1} - \gamma + g _ {2} \}) = \gamma \tilde {g}. \end{array}
 $$
 
-By the same argument, if $A, B \in \mathcal{Q}$, then for small enough $\varepsilon$ any $g \in \mathcal{G}$ moving an element within $\varepsilon$ of $A$ to an element within $\varepsilon$ of $B$ can be factored into an automorphism sending $A$ to $B$ and an automorphism close to 1, so $\mathcal{B}$ is Hausdorff in the quotient topology.
+By the same argument, if $A, B \in \mathcal{Q}$, then for small enough $\varepsilon$ any $g \in \mathcal{G}$ moving an element within $\varepsilon$ of $A$ to an element within $\varepsilon$ of $B$ can be factored into an automorphism sending $A$ to $B$ and an automorphism close to 1, so $\mathfrak{B}$ is Hausdorff in the quotient topology.
 
 Now the proof is standard calculus.
 
-(i) The set $\mathfrak{B}^* \subset \mathfrak{B}$ representing irreducible connections is open since the condition $H_A^0 = 0$ is an open condition ("semi-continuity of cohomology"), and $\mathcal{G} / \pm 1$ acts freely on $p^{-1}(B^*)$. The smooth map
+(i) The set $\mathfrak{B}^* \subset \mathfrak{B}$ representing irreducible connections is open since the condition $H_A^0 = 0$ is an open condition ("semi-continuity of cohomology"), and $\mathcal{G} / \pm 1$ acts freely on $p^{-1}(\mathfrak{B}^*)$. The smooth map
 
 $$
 S \colon T _ {A, \varepsilon} \times \mathcal {G} / \pm 1 \rightarrow \mathcal {Q}, \quad S (A + a, g) = g (A + a)
