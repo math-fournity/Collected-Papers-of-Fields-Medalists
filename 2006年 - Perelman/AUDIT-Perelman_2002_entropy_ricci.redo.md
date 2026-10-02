@@ -107,6 +107,14 @@
 - 差异与修复：(a) 印刷 "u satisfies the heat equation on M **iff** ũ…" 与 "similarly, u satisfies the conjugate heat equation on M **iff** ũ*=τ^{−(N−1)/2}ũ…"（PNG 与 pdftotext p.13 双证），MD 两处均作 "if"（丢 ff，改变逻辑强度）→ 两处均已 Edit 补为 "iff"；(b) 6.2 开头印刷 "Starting from g̃**,** we can also construct a metric g^m on M̃**,** isometric…"（单逗点），MD 作 "${\tilde g}._$," 与 "$\tilde M,$," 双标点 → 均已改为单逗点。
 - 备注："( given by equations (1.1)" 括号内空格、"τ =const" 空格为 print quirk，MD 忠实保留；度规分量两条 display 式逐项一致。
 
+## p.014（PDF p.14 / 印刷 p.14）
+- PNG：audit-redo/p014.png（pngmono 150dpi）；仲裁图 audit-redo/p014_accents_300dpi.png、p014_Sring_600dpi.png、p014_Ldot2_600dpi.png
+- 核对：测地线长度第二行 display（=√(2Nτ(q))+…+O(N^{−3/2})）、L(γ) 极小化段与 L(q_M)、度量球体积式 V(𝕊^N)∫_M(√τ(q)−(1/2N)L(x)+O(N^{−2}))^N dx、reduced volume 定义段、6.4* [C-Chu 1,2]/[Hu]、节标题 "7 A comparison geometry approach to the Ricci flow"、7.1 引语、L(γ) 定义式
+- 结果：PASS±（两处伪影 accent 已修）
+- 差异与修复：(a) 印刷 "Let **L**(*q_M*) denote"（600dpi p014_Ldot2_600dpi.png 证实 L 上方净空、无点），MD 作 "$\overset{\cdot}{L}(q_M)$"（伪影点 accent）→ 已改为 "$L(q_M)$"；(b) 印刷 "V(**𝕊**^N)"（600dpi p014_Sring_600dpi.png 证实为无 ring 的黑板粗体 S），MD 作 "\mathring{\mathbb{S}}^N"（伪影 ring）→ 已改为 "\mathbb{S}^N"。
+- 备注：MD "M<sup>˜</sup>"（M̃ 的上标式波浪号）为 MinerU 排版伪影，语义不变，登记不改；O(N^{−3/2}) 上标 pdftotext 拍平为 "N − 2" 属文本层伪影，以 PNG 为准与 MD 一致；其余逐项一致。
+
+
 
 
 
