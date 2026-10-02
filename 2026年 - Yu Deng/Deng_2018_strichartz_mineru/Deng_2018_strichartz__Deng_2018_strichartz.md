@@ -152,7 +152,7 @@ $$
 
 The heuristic behind this conjecture, and some supporting lower bounds, are explained in section 2 below. In particular, it is seen there that the saving over the rectangular case is due to the longer refocusing time, which more closely reflects the expected behavior on a “typical” nonpositively curved manifold.
 
-We now focus on the case of dimension$d = 2 .$, in which case the above conjecture becomes:
+We now focus on the case of dimension$d = 2$, in which case the above conjecture becomes:
 
 - For$p \leq 4$, bound$\sim T ^ { \frac { 1 } { p } }$
 
