@@ -164,6 +164,24 @@
 - 残留排版伪影（登记不改）："for $r > \sqrt{2} .$," / "not just $r > 2 .$" 双句点族
 - 结果：PASS（修复后）
 
+## p.013（PDF p.13 / 印刷 p.1029：B(t) 减项论证 + (4.5) + §4 定理收尾 + Appendix A 开头）
+- PNG：audit/p013.png（pngmono 150dpi）
+- 核对：B(t)=1/39·te^{2πt}−10/(117π)·e^{2πt}+O(t)、[1,∞) 减项贡献
+  ∫₁^∞(…)e^{−πr²t}dt=(10−3π)(2−r²)+3)/(117π²(r²−2)²)·e^{−π(r²−2)}（0<r<√2 非负）、
+  剩余项 ∫₀^1+∫₁^∞（符号 −1/39·te^{2πt}+10/(117π)e^{2πt} ✓）对 r>0 收敛、
+  **(4.5) B(t)≥1/39·te^{2πt}−10/(117π)·e^{2πt}**（t≥1，Lemma A.3）、
+  §4 收尾（f 满足 Theorem 1.2 假设、根仅 r=√(2k)、[2] §8 → 唯一最密周期填充、
+  Theorem 1.1 证毕）、Appendix A 标题与前四段（Sturm 定理 + truncated q-series、
+  ancillary file appendix.txt、DOI 10.4007/annals.2017.185.3.8、arXiv 1603.06518、
+  PARI/GP [10]）✓
+- 差异与修复（print 均正确，双通道核验）：①"As t ∞" 丢箭头 → "As$t \to \infty$"；
+  ②"it sufices to prove"（(4.5) 前）→ "suffices"；③"take a diferent approach" →
+  "different"（print p.13 文本层 "different"）；④DOI URL 乱码
+  "$\mathrm{https}//\mathrm{doi.org}/10$ 4007/…" → 纯文本 "https://doi.org/10.4007/annals.2017.185.3.8"
+  （print 跨行 "10. / 4007"，与 p.1 题录 DOI 一致；便于检索）
+- 结果：PASS（修复后）
+
+
 
 
 

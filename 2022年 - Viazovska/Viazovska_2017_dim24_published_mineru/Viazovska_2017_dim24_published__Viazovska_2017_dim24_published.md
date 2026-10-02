@@ -481,7 +481,7 @@ for the same reason as we saw above with$A ( t )$. This inequality is Lemma A.2.
 
 The formula (4.2) in fact holds for$r > { \sqrt { 2 } } .$, not just$r > 2 .$. To see why, we must examine the asymptotics of$B ( t )$. There is no problem with the integral in (4.2) as$t \to 0$, because$B ( t )$vanishes in this limit by (2.4) and (3.4). However, the exponential growth of$B ( t )$as$t \to \infty$causes divergence when r is too small for$e ^ { - \pi r ^ { 2 } t }$to counteract this growth. To estimate the growth rate, note that by (2.9) and (3.1), the$e ^ { 4 \pi t }$terms cancel in the asymptotic expansion of$B ( t )$as $t \to \infty$, which means that$B ( t ) = O \bigl ( t e ^ { 2 \pi t } \bigr )$. Thus, the formula (4.2) for$\widehat { f } ( r )$ converges when$r > { \sqrt { 2 } } .$, and it must equal$\widehat { f } ( r )$by analytic continuation. Note that it cannot hold for the whole interval (0, ∞), because that would force$\widehat { f }$ to vanish at$\sqrt { 2 }$, which does not happen.
 
-Thus, (4.2) and the inequality$B ( t ) \geq 0$in fact prove that$\widehat { f } \geq 0$for all $r \geq \sqrt { 2 }$. When$0 < r < { \sqrt { 2 } }$, this inequality no longer implies that${ \widehat { f } } ( r ) \geq 0$ which is a complication that does not occur in [12]. Instead, we must analyze $B ( t )$more carefully.$\mathrm { A s } \ t  \infty$, equations (2.9) and (3.1) show that
+Thus, (4.2) and the inequality$B ( t ) \geq 0$in fact prove that$\widehat { f } \geq 0$for all $r \geq \sqrt { 2 }$. When$0 < r < { \sqrt { 2 } }$, this inequality no longer implies that${ \widehat { f } } ( r ) \geq 0$ which is a complication that does not occur in [12]. Instead, we must analyze $B ( t )$more carefully. As$t \to \infty$, equations (2.9) and (3.1) show that
 
 $$
 B (t) = \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t} + O (t).
@@ -499,7 +499,7 @@ $$
 \int_ {0} ^ {1} B (t) e ^ {- \pi r ^ {2} t} d t + \int_ {1} ^ {\infty} \left(B (t) - \frac {1}{3 9} t e ^ {2 \pi t} + \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\right) e ^ {- \pi r ^ {2} t} d t
 $$
 
-converge for all$r > 0$. The integrand$B ( t )$in the first integral is nonnegative, and thus to prove that${ \widehat { f } } ( r ) \geq 0$for$0 < r < \sqrt { 2 }$it sufices to prove that
+converge for all$r > 0$. The integrand$B ( t )$in the first integral is nonnegative, and thus to prove that${ \widehat { f } } ( r ) \geq 0$for$0 < r < \sqrt { 2 }$it suffices to prove that
 
 $$
 B (t) \geq \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\tag{4.5}
@@ -513,7 +513,7 @@ Combining the results of this section shows that$f$satisfies the hypotheses of T
 
 The proof in Section 4 requires checking certain inequalities for quasimodular forms on the imaginary axis. Fortunately, these inequalities are not too delicate, because equality is never attained. The behavior at infinity is easily analyzed, which reduces the proof to verifying the inequalities on a compact interval, and that can be done by a finite calculation.
 
-Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a diferent approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at$\mathrm { h t t p s } { : } / / \mathrm { d o i . o r g } / 1 0$ 4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not dificult to check in any computer algebra system.
+Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a different approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at https://doi.org/10.4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not dificult to check in any computer algebra system.
 
 To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coeficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign.
 
