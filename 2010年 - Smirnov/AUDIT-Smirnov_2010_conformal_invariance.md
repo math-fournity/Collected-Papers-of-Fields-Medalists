@@ -195,3 +195,9 @@
 - 核对：Proposition 4.9 Proof（harmonic + 边界为零 ⟹ 恒零，◻）；aQ_δ = [−a,a]² ∩ L_δ 与 ∇_x f(x) = (f(x+δ)−f(x), f(x+iδ)−f(x)) 记号；Proposition 4.10——Σ_{x∈Q_δ}∣∇_x G_{9Q_δ}(x,y)∣ ≤ Cδ Σ_{x∈Q_δ} G_{9Q_δ}(x,y)（y ∈ 9Q_δ）；Proof——C_1,…,C_7 universal constants、y ∈ 9Q_δ∖3Q_δ 情形（Harnack 特例 (1/C_1)G(x,y) ≤ G(x′,y) ≤ C_1G(x,y)、Prop 4.2 推 C_1C_2δ 上界）、y ∈ 3Q_δ 情形（Σ G ≥ C_3/δ²、需证 ≤ C_4/δ、全平面 Green function G_{L_δ}、[MW40] 渐近式 G_{L_δ}(x,y) = (1/π)ln(∣x−y∣/δ) + C_5 + o(δ/∣x−y∣)、两不等式相加，◻）；页脚印刷页码 29。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：疑难字形仲裁——150dpi 下 "9Q_δ" 的数字 9 疑似空心方块，300dpi 裁切（audit/p029_boxq_crop300.png）确认为数字 9（与 aQ_δ 缩放记号一致），非 quirk；ln 分式与 o(δ/∣x−y∣) 以 PNG 为准。
+
+## p.030（PDF p.30 / 印刷 p.30）
+- PNG：audit/p030.png（pngmono 150dpi）
+- 核对：§4.2 Preholomorphic functions、§4.2.1 Historical introduction——Kirchhoff [Kir47] 电网络模型、两条定律公式 (4.5) Σ_{v∼u}F(uv) = 0 与 (4.6) Σ_{[uv]∈γ}F(uv) = 0、[BSST40] 方形铺砌、Isaacs [Isa41, Isa52]（mono-diffric、Cauchy-Riemann 离散版 ∂_{iα}F = i∂_α F / z̄-导数为 0）、第一定义 i[f(E)−f(S)] = f(W)−f(S)、第二定义 i[f(E)−f(W)] = f(N)−f(S)（N/E/S/W 为面四角）、Ferrand [Fer44, LF55]、Duffin [Duf56]；§4.3 Isaacs's definition of preholomorphic functions——∂̄ = ∂_x + i∂_y 的离散化 ∂̄_δ f(x) = ½[f(E)−f(W)] + (i/2)[f(N)−f(S)]（x ∈ L⋆_δ）；页脚印刷页码 30。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：Cauchy-Riemann 行的下标 iα/α 堆叠与 ∂̄_δ 的 bar 记号以 PNG 为准；(4.5)/(4.6) 编号齐全。
