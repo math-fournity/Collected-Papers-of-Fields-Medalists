@@ -68,3 +68,11 @@
 - 核对：2.3 节后 Remarques (1)(2)(3)（k=2、非分歧 “décaler” k by p−1、cycle de Tate [21],[22]）、2.4 节标题与正文（droite D、θ₁/θ₂）、(2.4.1) 上三角矩阵、(2.4.2) θ = χ^α ε₁/χ^β ε₂ 与 Z/(p−1)Z、e₁/e₂ 非分歧句、ρ_p|I = (χ^β *; 0 χ^α)、(2.4.3) 正规化、对称性提醒句、(2.4.4) Inf/Sup、情形 (i) 与 (2.4.5)。
 - 结果：PASS。矩阵 (*, 0) 位置、χ 上标 α/β 分配、不等号端点（0 ⩽ α ⩽ p−2；1 ⩽ β ⩽ p−1）、Inf/Sup、编号全部吻合。
 - 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 185” 未收入 Markdown，排版级。印刷页止于 (2.4.5)；其后的 “(Noter le cas …)” 与情形 (ii) 属印刷 p.186，在下一页核对。
+
+## p.008（PDF p.8 / 印刷 p.186）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p008.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p008_xi_elements.png`、`audit/300dpi/serre1987_p008_remark2_KKt.png`（pnggray）。
+- 核对：(2.4.5) 后 “Noter le cas” 句（χ^α = χ^β = 1、p ⩾ 3、α = 0、β = p − 1、k = p）、情形 (ii) β = α + 1、peu/très ramifié 定义、K₀ = Q_{p,nr} 句、域塔图 K | K_t | K₀、Gal(K_t/K₀) = (Z/pZ)*、Kummer 段（矩阵 (1 *; 0 1)）、(2.4.6)、x_i ∈ K₀*/K₀*^p 句、(2.4.7)、très ramifiées 句、Remarques (1)(2) 首句。
+- 结果：FAIL。(2.4.6) 中印刷 “où” 在 Markdown 被拆成 “o u”（丢 accent、字符间插空格）；(2.4.6) 后正文印刷 “les x_i étant”（300 dpi 裁片确认下标为 i，与 (2.4.7) ν_p(x_i) 同形）在 Markdown 写成 $x_{t}$。两处均已依原图修复。
+- 备注：域塔图 K | K_t | K₀ 在 Markdown 以 `![](images/page_7_image_4.jpg)` 保留，位置与印刷一致（“contenue dans K.” 与 “Du fait que” 两段之间）；Remarques (2) 印刷为 “Si K/K_t est peu ramifiée”（300 dpi 裁片确认），Markdown 一致，150 dpi 初观似 “K_t/K₀” 系误读；页眉 “186 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。

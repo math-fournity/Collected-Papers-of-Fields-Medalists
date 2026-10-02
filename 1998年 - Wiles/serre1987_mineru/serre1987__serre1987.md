@@ -313,10 +313,10 @@ Soit $K_0 = \mathbf{Q}_{p,\mathrm{nr}}$ l'extension non ramifiée maximale de $\
 Du fait que $\beta = \alpha + 1$, on déduit que $\operatorname{Gal}(K_t / K_0) = (\mathbf{Z} / p\mathbf{Z})^*$, donc que $K_t = K_0(z)$, où $z$ est une racine primitive $p$-ième de l'unité. D'autre part, le groupe $\operatorname{Gal}(K / K_t) = \rho_p(I_p)$ est un groupe abélien élémentaire de type $(p, \ldots, p)$, représentable matriciellement par $\left( \begin{array}{cc}1 & * \\ 0 & 1 \end{array} \right)$. De plus, l'hypothèse $\beta = \alpha + 1$ entraîne que l'action par conjugaison de $\operatorname{Gal}(K_t / K_0) = (\mathbf{Z} / p\mathbf{Z})^*$ sur $\operatorname{Gal}(K / K_t)$ est l'action évidente. Utilisant la théorie de Kummer, on en déduit que $K$ peut s'écrire sous la forme
 
 $$
-K = K _ {t} \left(x _ {1} ^ {1 / p}, \dots , x _ {m} ^ {1 / p}\right), \quad \text { o   u } p ^ {m} = \left[ K: K _ {t} \right],\tag{2.4.6}
+K = K _ {t} \left(x _ {1} ^ {1 / p}, \dots , x _ {m} ^ {1 / p}\right), \quad \text {où} p ^ {m} = \left[ K: K _ {t} \right],\tag{2.4.6}
 $$
 
-les $x_{t}$ étant des éléments de $K_{0}^{*}/K_{0}^{*p}$. Si $v_{p}$ désigne la valuation de $K_{0}$, normalisée par $v_{p}(p)=1$, nous dirons que l'extension $K$ (ou la représentation $\rho_{p}$) est peu ramifiée si
+les $x_{i}$ étant des éléments de $K_{0}^{*}/K_{0}^{*p}$. Si $v_{p}$ désigne la valuation de $K_{0}$, normalisée par $v_{p}(p)=1$, nous dirons que l'extension $K$ (ou la représentation $\rho_{p}$) est peu ramifiée si
 
 $$
 v _ {p} \left(x _ {i}\right) \equiv 0 (\mathrm{mod} p) \quad \text { pour } i = 1, \dots , m,\tag{2.4.7}
