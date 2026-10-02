@@ -1190,11 +1190,11 @@ Now we assume that there is an edge$( i , j )$in Γ such that$i \in S _ { 1 } , 
 
 The reader can wonder about what happens if after the collapsing the graph will have multiple edges. Such terms do not appear in$( F )$. Nevertheless, we ingore them because in this case the diferential form which we integrate vanishes as it contains the square of 1-form.
 
-Thus, we see that we exhausted all possibilities and get contributions of all terms in the formula (F). We proved that$c _ { \Gamma } = 0$for any Γ, and that  is an$L _ { \infty } .$-morphism.
+Thus, we see that we exhausted all possibilities and get contributions of all terms in the formula (F). We proved that$c _ { \Gamma } = 0$for any Γ, and that$\mathcal { U }$ is an$L _ { \infty }$-morphism.
 
 ## 6.4.3. We finish the proof of the theorem from 6.4
 
-In order to check that it is a quasi-isomorphism, we should show that its component$\mathcal { U } _ { 1 }$coincides with$\mathcal { U } _ { 1 } ^ { ( 0 ) }$introduced in 4.6.1. It follows from definitions that every admissible graph with$n = 1$vertex of first type and$m \geq 0$vertices of the second type, and with m edges, is the following tree:
+In order to check that$\mathcal { U }$ it is a quasi-isomorphism, we should show that its component$\mathcal { U } _ { 1 }$coincides with$\mathcal { U } _ { 1 } ^ { ( 0 ) }$introduced in 4.6.1. It follows from definitions that every admissible graph with$n = 1$vertex of first type and$m \geq 0$vertices of the second type, and with m edges, is the following tree:
 
 ![](images/page_26_image_8.jpg)
 

@@ -192,3 +192,10 @@
 - 结果：`FAIL`→1 处已修复：行 1181 `where the product  on polydiferential operators appears`→补 `$\circ$`（印刷为 product ◦，PNG+文本层确凿）。其余 PASS±：行 1175/1179 句末缺句点（登记）；行 1181 `polydiferential`（ff 拍平）。行 1183 图 page_26_image_0.jpg 属印刷 p.27 版式（p.26 印刷止于 ◦ 句+页码 26），归 p.027 核对。
 - 备注：行 1185 起（§6.4.2.2 bad edge）为印刷 p.27 内容，在 p.027 核对。
 
+## p.027（PDF p.27 / 印刷 p.27）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p027.png`（pngmono 150dpi）
+- 核对：p.26 末无 bad edge 收缩图（行 1183 引 page_26_image_0.jpg，与印刷 p.27 顶部图对应）、§6.4.2.2 bad edge heading、dφ(x,y)=0 消没段、bad edge 图（行 1189 引 page_26_image_3.jpg 存在）、multiple edges/ingore 段、c_Γ=0 收尾段、§6.4.3 heading、𝒰₁=𝒰₁^{(0)} 检查段、n=1 树图（行 1199 引 page_26_image_8.jpg 存在，p₁→q₁…q_m）（MD 行 1183–1199）。
+- 结果：`FAIL`→2 处已修复：①行 1193 `and that  is an$L_{\infty}.$-morphism.`→`and that$\mathcal{U}$ is an$L_{\infty}$-morphism.`（𝒰 丢失+杂散句点，PNG+文本层确凿）；②行 1197 `check that it is a quasi-isomorphism`→`check that$\mathcal{U}$ it is a quasi-isomorphism`（𝒰 丢失；印刷原文冗余 "𝒰 it is" 忠实保留）。print quirk 忠实保留：行 1191 `we ingore them`（原文拼写）；`diferential form`（ff 拍平）。
+- 备注：行 1201 起（(2π)^m/m!、ξ₁∧…∧ξ_m 映射式、Theorem is proven. Q.E.D.、§6.4.4）为印刷 p.28 内容，属下一块 p.028 审计。
+
