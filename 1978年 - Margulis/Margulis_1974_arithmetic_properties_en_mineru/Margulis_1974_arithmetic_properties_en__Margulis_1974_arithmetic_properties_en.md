@@ -1,3 +1,6 @@
+Russian Math. Surveys 29:1 (1974), 107–156\
+*From* Uspekhi Mat. Nauk 29:1 (1974), 49–98
+
 to Israil Moiseevich Gel'fand
 on his sixtieth birthday
 
@@ -75,11 +78,7 @@ The main theorem together with the above-mentioned theorem on the finiteness of 
 
 THEOREM. Let S be a Riemannian symmetric space of non-compact type, of rank greater than 1, and  $\Lambda$  an irreducible discrete group of motions
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$n\geqslant 3$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">If $H$ is the group of motions of an $n$-dimensional Lobachevskii space, $n > 3$, this theorem was previously obtained by the present author [44], using the ideas of Moscow's paper [45].</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2. obtained by the present author [44], using the ideas of Mostow's paper [45].</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">If $H$ is the group of motions of an $n$-dimensional Lobachevskii space, $n > 3$, this theorem was previously obtained by the present author [44], using the ideas of Mostow's paper [45].</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2 This theorem was announced by the author in [46].</span></small>
 
@@ -97,7 +96,7 @@ The author thanks L. N. Vasershtein, B. Yu. Veisfeiler, E. B. Vinberg, and D. A.
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">1 This theorem was announced by the author (in a slightly weaker form) in [36] and proved in the recent paper [29]. The proof of the “rationality” theorem in the present paper is a modification of that in [29].</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2 ADDED IN PROOF. The author has received a preprint from Raghunathan containing a proof of the “rationality” theorem, and also a proof of the main theorem in the case rank $Q^{G} > 2$.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2 ADDED IN PROOF. The author has received a preprint from Raghunathan containing a proof of the “rationality” theorem, and also a proof of the main theorem in the case $\operatorname{rank}_{\mathbf{Q}} G > 2$.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Raghunathan's proof differs considerably from that of the present paper, although it is also based on a study of the unipotent subgroups of $\Gamma$.</span></small>
 
@@ -243,27 +242,7 @@ A neighbourhood that satisfies the conclusion of this lemma will be called a Zas
 
 For any unipotent matrix u we denote by  $\ln u$  the unique nilpotent matrix for which  $\exp(\ln u) = u$ .
 
-3.1. Let $V$ be a unipotent algebraic $\mathbf{R}$-group, $\mathfrak{W}$ the Lie algebra of $V$, $\mathfrak{W}_{\mathbb{R}}$ the set of $\mathbf{R}$-points of $\mathfrak{W}$, and $\Lambda$ a discrete subgroup of $V_{\mathbb{R}}$. For any subset $M \subset \mathfrak{W}$ and any constant $b$ we put $bM = \{bm; m \in M\}$. Now $V_{\mathbb{R}}$ is a simply-connected nilpotent Lie group. Therefore, we can associate with $\Lambda$ a lattice $\Delta_{\Lambda} \subset \mathfrak{W}_{\mathbb{R}}$, just as in §1 of [5]. We note [5] that $b(n)\ln \Lambda \subset \Delta_{\Lambda} \subset \ln \Lambda$, where $b(n) \in \mathbf{Z}$ depends only on $n = \dim V$, and
-
-$$
-\Delta_ {\Lambda}
-$$
-
-$$
-\exp . \mathfrak {W} \rightarrow V
-$$
-
-$$
-V \rightarrow \mathfrak {W}
-$$
-
-$$
-\Delta_ {\Lambda} \supset b (n) \ln
-$$
-
-$$
-\mathfrak {W} _ {\mathbf {R}}
-$$
+3.1. Let $V$ be a unipotent algebraic $\mathbf{R}$-group, $\mathfrak{W}$ the Lie algebra of $V$, $\mathfrak{W}_{\mathbb{R}}$ the set of $\mathbf{R}$-points of $\mathfrak{W}$, and $\Lambda$ a discrete subgroup of $V_{\mathbb{R}}$. For any subset $M \subset \mathfrak{W}$ and any constant $b$ we put $bM = \{bm; m \in M\}$. Now $V_{\mathbb{R}}$ is a simply-connected nilpotent Lie group. Therefore, we can associate with $\Lambda$ a lattice $\Delta_{\Lambda} \subset \mathfrak{W}_{\mathbb{R}}$, just as in §1 of [5]. We note [5] that $b(n)\ln \Lambda \subset \Delta_{\Lambda} \subset \ln \Lambda$, where $b(n) \in \mathbf{Z}$ depends only on $n = \dim V$, and that $\Delta_{\Lambda}$ is determined uniquely by $\Lambda$. Since $V$ is unipotent, $\exp: \mathfrak{W} \to V$ and $\ln: V \to \mathfrak{W}$ are regular rational maps. Therefore, if $\Lambda$ is Zariski-dense in $V$, then $\Lambda$ is Zariski-dense in $\mathfrak{W}$, and consequently, $\Delta_{\Lambda} \supset b(n)\ln\Lambda$ is a lattice in $\mathfrak{W}_{\mathbb{R}}$ of full dimension.
 
 3.2. Let $V$ and $\Lambda$ be as in 3.1.
 
@@ -293,7 +272,7 @@ The following result is well known (for example, see [19]).
 
 3.4.1. LEMMA. $\Lambda$ is an arithmetic subgroup of $V$.
 
-PROOF. Since (§3.1) $\Delta_{\Lambda}$ is a lattice of full dimension in $\mathfrak{W}_{\mathbb{R}}$. $\Delta_{\Lambda}$ gives a Q-structure on $\mathfrak{W}$. But $\exp: \mathfrak{W} \to V$ is a biregular rational map (because $V$ is unipotent). Therefore, a Q-structure on $\mathfrak{W}$ gives a Q-structure on $V$, and since $b(n)\ln \Lambda \subset \Delta_{\Lambda}$, we have $\Lambda \subset V_{\mathbf{Q}}$. Since $\Delta$ is contained in $V_{\mathbf{Q}}$ and is Zariski-dense in $V$, the mappings $\mu: V \times V \to V$, $\mu(v_1, v_2) = v_1 \cdot v_2$ and $i: V \to V$, $i(v) = v^{-1}$, are defined over $\mathbf{Q}$, hence, $V$ is an algebraic Q-group with respect to the given Q-structure. But $A \subset V_{\mathbf{Q}}$, consequently (see 3.3.2), $\Lambda$ is commensurable with $V_{\mathbf{Z}}$, which proves the lemma.
+PROOF. Since (§3.1) $\Delta_{\Lambda}$ is a lattice of full dimension in $\mathfrak{W}_{\mathbb{R}}$. $\Delta_{\Lambda}$ gives a Q-structure on $\mathfrak{W}$. But $\exp: \mathfrak{W} \to V$ is a biregular rational map (because $V$ is unipotent). Therefore, a Q-structure on $\mathfrak{W}$ gives a Q-structure on $V$, and since $b(n)\ln \Lambda \subset \Delta_{\Lambda}$, we have $\Lambda \subset V_{\mathbf{Q}}$. Since $\Delta$ is contained in $V_{\mathbf{Q}}$ and is Zariski-dense in $V$, the mappings $\mu: V \times V \to V$, $\mu(v_1, v_2) = v_1 \cdot v_2$ and $i: V \to V$, $i(v) = v^{-1}$, are defined over $\mathbf{Q}$, hence, $V$ is an algebraic Q-group with respect to the given Q-structure. But $\Lambda \subset V_{\mathbf{Q}}$, consequently (see 3.3.2), $\Lambda$ is commensurable with $V_{\mathbf{Z}}$, which proves the lemma.
 
 3.4.2. REMARK. In the proof of Lemma 3.4.1 we did not use explicitly the fact ([4], Ch. I, Proposition 1.10) that an affine k-group is k-isomorphic to a closed subgroup of  $GL_{n}$  defined over k (for a suitable n).
 
