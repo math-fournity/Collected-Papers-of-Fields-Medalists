@@ -290,6 +290,13 @@
 - Checked: Propositions 28–30, quotient-ring completion maps, the finite-module rank criterion, and the induced map between local rings.
 - Result: FAIL. The print uses theta for the local-ring homomorphism; Markdown lines 1044, 1052, 1056 and 1058 use zero. Proposition 30 prints E' = E⊗_A A' and E' ≅ (A')^n, while line 1056 loses the tensor-base subscript and exponent. The crop confirms these formulas; the printed m ⊂ m' relation is also represented with a plain less-than sign in Markdown.
 
+### PDF p.042/43 — print p.41
+
+- Reviewed: 2026-10-02 01:09 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi full bibliography page](audit/300dpi/Serre_1956_gaga_p042_references_300dpi.png); [300 dpi references 11–14 crop](audit/300dpi/Serre_1956_gaga_p042_refs11-14_300dpi.png); PDF text layer and MinerU Markdown lines 1072–1113.
+- Checked: final Proposition 30 proof and references [1]–[16] (authors, titles, journal/book names, volumes, years and pages).
+- Result: FAIL. Reference [14] prints “Potenzreihenideale”; Markdown line 1109 has “Potenzreihendeale,” missing the i after “Potenzreihen.” The crop confirms the printed title. Reference [11] also has a period after “type” before the parenthetical subtitle in print; Markdown line 1103 omits it. That punctuation difference is PASS± and is left as a minor citation-format difference. The other checked bibliographic entries agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
