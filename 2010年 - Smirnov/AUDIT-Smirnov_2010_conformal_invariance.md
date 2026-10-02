@@ -39,3 +39,9 @@
 - 核对：Figure 1（三幅 Ising 构型图，pngmono 下呈半调网纹）及图注 "Ising configurations at β < β_c, at β = β_c, and β > β_c respectively."；Onsager/Yang/McCoy-Wu/Lieb-Baxter/Fisher-Kasteleyn/Kac-Ward 历史段；脚注 1（"This result represented a shock for the community…"）；引文 [Ons44][KO50][Yan52][MW73][Pal07][Lie67, Bax89][Fis66, Kas61][KW52][She60][Vdo65][DZM+99, Cim10][Fis98]；页脚印刷页码 3。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：Figure 1 为位图插图，pngmono 150dpi 下仅见网纹属正常二值化现象；后续 MinerU 重导出需保留该图并抽 300dpi 复核图注 β 关系方向。
+
+## p.004（PDF p.4 / 印刷 p.4）
+- PNG：audit/p004.png（pngmono 150dpi）
+- 核对：universality/CFT 段与引文 [PP66, Kad66][BPZ84b, BPZ84a][ISZ88][Sch00]；Dobrushin boundary conditions 段（Ω_δ ⊂ δZ²，arcs ∂_ab/∂_ba，+1/−1 自旋固定）；斜体预测展示式 "For any (Ω,a,b) and any conformal map ψ ∶ Ω → C, the random curve ψ ○ γ_(Ω,a,b) has the same law as γ_(ψ(Ω),ψ(a),ψ(b))"；SLE(κ) 定义（driving process √κ B_t，(B_t) standard Brownian motion）；脚注 2 "i.e. one-to-one holomorphic maps"、脚注 3 "In fact the interface is not unique…"；页脚印刷页码 4。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷 quirk 登记——脚注 3 末 "the closest interface to ∂_ab" 的下标 ab 排印位置偏高（近乎上标位），文本层提取为 "to ∂\nab"；重导出对账时按此原样登记，不作"改正"。
