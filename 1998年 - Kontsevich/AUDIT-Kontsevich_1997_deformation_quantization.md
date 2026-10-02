@@ -51,3 +51,10 @@
 - 核对：weight W_Γ 引言段、Lobachevsky 上半平面构造段（𝓗={z∈C|Im(z)>0}、φ^h(p,q)∈R/2πZ、l(p,q)/l(p,∞) 两线夹角、counterclockwise 方向、h=harmonic）、角度示意图（MD 行 235 引 `images/page_5_image_2.jpg`，文件存在）、Arg/Log 公式 φ^h=(1/2i)Log((q−p)(q̄−p)/((q−p̄)(q̄−p̄)))、𝓗_n 配置空间定义式与定向段、图的几何实现段（L↦0、R↦1）、权公式 w_Γ:=1/(n!(2π)^{2n})∫_{𝓗ₙ}⋀_{i=1}^n(dφ^h_{e¹ₖ}∧dφ^h_{e²ₖ})、Lemma、Theorem f⋆g:=ΣℏⁿΣ_{Γ∈Gₙ}w_ΓB_{Γ,α}(f,g)（MD 行 231–268）。
 - 结果：`FAIL`→2 处已修复：①行 233 `through p and the point  on the absolute` 印刷为 `the point ∞ on the absolute`（PNG+文本层确凿），已补 `$\infty$`；②行 253 `to the vertex$L ,$, and point` 印刷为 `to the vertex L, and point`，双逗号已删。print quirk 忠实保留：权公式⋀ 指标 `i=1..n` 与 φ 下标 `e^1_k/e^2_k` 混用为印刷原貌（MD 行 258 逐符号一致）。其余 PASS±：行 240 `A r g`/`L o g` 字距拆分；行 233 `I m ( z )` 同类；行 253 句末缺句点；行 281 起属印刷 p.7。
 - 备注：行 271「defines an associative product.」起为印刷 p.7 内容，在 p.007 核对。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p007.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p007_zgrading.png`、`..._p007_shift_functor.png`（300dpi）
+- 核对：Theorem 收尾两句、§3/§3.1/§3.2 节标题顺序、Super^k 段（ΠV=V⊗k^{0|1}、Koszul 符号规则、Vect^k）、Graded^k 段（Ẽ^{(n)} 奇偶、ℰ=⊕Π^n(ℰ^n)）、shift functor 段（k[1]^{-1}≃k、k[1]^{≠-1}=0）、ℰ=⊕_{n∈Z}ℰ^n[−n] 式、dgLie 公理三式（d²=0、Leibniz、反交换、Jacobi 恒等式，含 (−1)^{γ̄₁·γ̄₂} 等指标）与 γ̄_i 说明句（MD 行 271–317）。
+- 结果：`FAIL`→3 处幻影字符已修复（300dpi 裁剪确凿）：①行 285 `$\mathbf{Z}\mathbf{\cdot}$-grading` 印刷为 `Z-grading`，删幻影 `·`；②行 289 `k[1]^{≠-1}=\dot{0}` 印刷为 `= 0`（0 上无点），删 `\dot{}`；③行 289 `denoted by [n],$\mathbf{\psi}_n\in\mathbf{Z}$` 印刷为 `[n], n ∈ Z`（无 ψ），删幻影 ψ。另修 1 处重复标点：行 315 `$\gamma_i.$, i.e.` 印刷为 `γ_i, i.e.`。其余 PASS±：行 275/297/301/317 `diferential`/`diferential`/`diferential`（含两处节标题 ff 拍平，登记不改）；行 285 `Graded^k$` 后缺句点（登记）；行 289 `(acting from the$\mathrm{right})` 正体拍平。公式行 304/308/312 与印刷逐符号吻合。
+- 备注：行 319 起（Def_g 函子）为印刷 p.8 内容，在 p.008 核对。
