@@ -156,3 +156,8 @@
 - PNG：`audit-redo/p029.png`（pngmono 150dpi）
 - 核对：`d_{s,t} = e^{−ht}d_s e^{ht}` 与 `H_{s,t}` 定义段；`φ: S → R` 与 (52) `h(φ) = ∫_S dx W(φ(x))`；`W(φ) = mφ²`/`aφ³ + bφ` 段；`d_t` 限制到 R 段；(53) `D = d/dφ + tL dW/dφ`；Atiyah–Singer 指数段。
 - 结果：PASS±。(52)–(53) 及正文逐项与印刷页相符。**Luna 旧修复重核：`H_{s,t} = d_{s,t}d_{s,t}^* + d_{s,t}^* d_{s,t}`（md line 673，Luna 修复原始 md 的逗号误识为乘积）与印刷一致，修复正确**；`d_t = e^{-ht}de^{ht}`、`+φ^n`、`1,0, or -1` 一致；跨页断点一致（line 695 末 "In particular,"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 689" 未入 md（版面信息省略）。
+
+## p.030（PDF p.30 / 印刷 p.690）
+- PNG：`audit-redo/p030.png`（pngmono 150dpi）
+- 核对：偶数阶多项式 `Tr(−1)^F = 1` 段；奇数阶/零指数段（`H_t` 与 `H_{s,t}` 谱收敛）；有限 `L` 与 `L → ∞` 体积极限两段；`W = φ³ + bφ` 的 b 正负区分段；§5 标题与首段。
+- 结果：PASS±。正文与小节标题逐项与印刷页相符；`[22]`、`L → ∞`、`L = ∞` 一致；印刷斜体 "not"（md line 705 平排）为排版级拍平，登记不改。差异仅：页眉 "690 EDWARD WITTEN" 未入 md（版面信息省略）。
