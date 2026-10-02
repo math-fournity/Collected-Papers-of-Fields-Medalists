@@ -47,3 +47,17 @@
 - 备注：页眉 "2　G. Frey" 为页件未入 MD，正常。本次修复后五点比对无内容错误。
 
 ---
+
+## p.003（PDF p.3 / 印刷 p.3）
+- PNG：audit-redo/p003.png（pngmono 150dpi）
+- 核对：Taniyama–Shimura 句；展示式 $\varphi: X_0(N) \longrightarrow E$；geometric conductor 句；
+  $\varphi^{*}\omega$→weight 2 modular form 句；$G_{\mathbb{Q}} := \text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$
+  与 torsion points 句；III. 预告句（Serre 型 / Szpiro 型猜想，$C_{F_p}$、polynomial bound in N）。
+- 结果：PASS
+- 差异与处置：
+  1. 【print quirk】印刷行首作 `'field case".`（300dpi 仲裁：撇号系印刷本身痕迹，"function field case" 引号对
+     完整）；MD line 121 忠实保留，不改。
+  2. MD line 93 将印刷跨行连字符 "corres-/ponds" 正常拼合为 "corresponds"，无损。
+- 备注：页眉 "Elliptic Curves and Fermat's Equation　3" 未入 MD，正常。无 MD 修改。
+
+---
