@@ -399,3 +399,9 @@
 - 核对：Figure 19（九种 plaquettes 及其权重 p_v 图，权重标签为花体下标）及图注 "Different possible plaquettes with their associated weights."；SLE martingales 段——g_t′(z)^α[g_t(z) − W_t]^β 为 SLE(κ) martingale、κ = 4(α−β)/[β(β−1)]、parafermionic observables 为简单 SLE martingales 的离散化（Prop 6.7 回引）；Question 8.15（更复杂 SLE martingales 的离散化?）；harmonic explorer [SS05]（SLE(4) martingale 离散化即 discrete martingale ⟹ 收敛）；Question 8.16（reverse engineering 推广?）；§8.5 Discrete observables in other models 标题——Cardy/Ikhlef/Riva/Rajabpour [IC09, RC07, RC06]、partially preholomorphic、half-holomorphic observable 与 Yang-Baxter equality 对应；Question 8.17（与 Yang-Baxter relations [Bax89] 方法的直接联系?）；O(n) model on square lattice——[IC09]、非三价图困难、G ⊂ L 上以 Fig. 19 九种 plaquettes 区分局部构型、权重 p_v（v ∈ G⋆）、概率 ∝ n^{#loops}Π_{v∈L⋆}p_v；页脚印刷页码 63。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：g_t′(z)^α[g_t(z)−W_t]^β 双上标、κ = 4(α−β)/[β(β−1)] 分式以 PNG 为准；花体 p_v 权重下标在 150dpi 图内可辨度有限，重导出时按原 PDF 彩色/放大核对。
+
+## p.064（PDF p.64 / 印刷 p.64）
+- PNG：audit/p064.png（pngmono 150dpi）
+- 核对：Remark 8.18——三个特例（u_1=u_2=v=x, t=1, w_1=w_2=n=0 对应 vertex self-avoiding walks；u_1=u_2=v=√w_1=√w_2=x, n=t=1 对应 Ising 高温展开——PNG 中 √w_1/√w_2 带根号，文本层拍平；t=u_1=u_2=v=0, w_1=w_2=1, n>0 对应 q=n 的临界 FK percolation）；parafermionic observable 公式 (8.8) F(z) = Σ_{ω∈Ɛ(a,z)}e^{−iσW_γ(a,z)}n^{#loops}Π_{v∈L⋆}p_v / Σ_{ω∈Ɛ}n^{#loops}Πp_v；公式 (8.9) F(N) − F(S) = i[F(E) − F(W)]；stretched lattice（rhombus 内角 α）自由度；Case v = 0 and n = 1——six-vertex model disordered phase、Gaussian free field、SLE(4,ρ) 猜想（[IC09]）；Case v = 0 and n ≠ 1——spin −1 唯一权重、√q = n+1、trivial scaling limit；Case v ≠ 0——σ = (3η/2π) − ½（η ∈ [−π,π] 满足 −n/2 = cos2η，四个可能 σ）、权重线性系统 t/u_1/u_2/v/w_1/w_2（sin(2φ−3η/2)、cos(3η/2−φ) 等六行）、φ = (1+σ)α；页脚印刷页码 64。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(8.8)/(8.9) 编号齐全；σ = (3η/2π) − ½ 的分式（文本层拍平为 "12"）与 √w_1/√w_2 根号以 PNG 为准；六行权重方程组为重导出对账重点。
