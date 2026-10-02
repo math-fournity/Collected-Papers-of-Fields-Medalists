@@ -726,7 +726,7 @@ $$
 
 We now argue as follows:
 
-For$\epsilon , \epsilon ^ { \prime }$fixed,$\nu$and$\nu ^ { \prime }$satisfy
+- For$\epsilon , \epsilon ^ { \prime }$fixed,$\nu$and$\nu ^ { \prime }$satisfy
 
 $$
 | \nu p _ {1} ^ {\prime} - \nu^ {\prime} p _ {1} - C | <   \epsilon | p _ {1} ^ {\prime} | + \epsilon^ {\prime} | p _ {1} |,
@@ -738,9 +738,9 @@ $$
 \preceq t k (\epsilon | p _ {1} ^ {\prime} | + \epsilon^ {\prime} | p _ {1} | + 1).
 $$
 
-Indeed, for each fixed value of$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 } , \nu$is determined modulo$p _ { 1 }$, and it ranges in an interval of size$\sim t | n _ { 1 } |$, leaving$\begin{array} { r } { \lesssim \frac { t | n _ { 1 } | } { | p _ { 1 } | } = t k } \end{array}$possibilities. Finally, the number of possible values for$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 }$is$\lesssim \epsilon | p _ { 1 } ^ { \prime } | + \epsilon ^ { \prime } | \stackrel { \sim } { p } _ { 1 } | + 1$
+Indeed, for each fixed value of$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 } , \nu$is determined modulo$p _ { 1 }$, and it ranges in an interval of size$\sim t | n _ { 1 } |$, leaving$\begin{array} { r } { \lesssim \frac { t | n _ { 1 } | } { | p _ { 1 } | } = t k } \end{array}$possibilities. Finally, the number of possible values for$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 }$is$\lesssim \epsilon | p _ { 1 } ^ { \prime } | + \epsilon ^ { \prime } | p _ { 1 } | + 1$
 
-Furthermore, given$\nu , \nu ^ { \prime } , \epsilon , \epsilon ^ { \prime }$, the measure of possible$\alpha _ { 1 1 }$is
+- Furthermore, given$\nu , \nu ^ { \prime } , \epsilon , \epsilon ^ { \prime }$, the measure of possible$\alpha _ { 1 1 }$is
 
 $$
 \lesssim \min \left(\frac {\epsilon}{t | n _ {1} |}, \frac {\epsilon^ {\prime}}{t | n _ {1} ^ {\prime} |}\right).
