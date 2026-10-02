@@ -226,3 +226,12 @@
 - 核对：§6.4 principal bundle 的商类映射与作用、§6.5 automorphic vector bundles、§6.6 Betti/étale local systems 及 Proposition 6.4。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 949 行把 étale local system 的标签写成 `\Pi_{et}`，随后又把同一标签写成 `\Omega_{et}`；第 953 行把 Betti local system `{}_B V_{\mathbb Q}`误录成 `\Sigma_B V_{\mathbb Q}`。300dpi 文本裁片确认来源仅为下标 `et` 与 `B`，无 Π、Ω、Σ 这些额外符号。PASS± 瑕疵：principal-bundle 第二个 quotient representative 在 Markdown 用 ceiling brackets `\lceil\rceil`，印刷为 square brackets `[ ]`；其两个映射箭头和对象相符。
+
+## p.026（PDF p.26 / 印刷 p.26）
+- 时间：2026-10-02 00:26:29 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p026.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p026_CM-character-lattice.png`
+- 核对：§6.7 canonical metrics、§6.8 torus representation lemma、§6.9 torus lattices/partial CM type 与 `r_Φ`、`χ_Φ` 定义。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 977 行 character lattice 生成元写作 `e_σ^* - e_σ^*`，丢失第二个基向量的复共轭横线；印刷为 `e_σ^* - e_{\bar σ}^*`，缺横线会把所列生成元退化为零。该行的 embedding `σ : K → C` 也漏掉箭头。300dpi 裁片确认横线与 `K → C` 映射。
