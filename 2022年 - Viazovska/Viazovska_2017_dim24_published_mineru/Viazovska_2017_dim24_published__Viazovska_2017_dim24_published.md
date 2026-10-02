@@ -325,7 +325,7 @@ $$
 - 4 \sin (\pi r ^ {2} / 2) ^ {2} = e ^ {- \pi i r ^ {2}} - 2 + e ^ {\pi i r ^ {2}}
 $$
 
-and shift contours to show that for$r > 2$2
+and shift contours to show that for$r > 2$,
 
 $$
 \begin{array}{r l} & b (r) = \int_ {- 1} ^ {i \infty - 1} \psi_ {I} (z + 1) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i \infty} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ & \qquad + \int_ {1} ^ {i \infty + 1} \psi_ {I} (z - 1) e ^ {\pi i r ^ {2} z} d z \\ & = \int_ {- 1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z + \int_ {1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ & \qquad + 2 \int_ {i} ^ {i \infty} (\psi_ {T} (z) - \psi_ {I} (z)) e ^ {\pi i r ^ {2} z} d z. \end{array}
