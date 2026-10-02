@@ -14,9 +14,9 @@ A number of concepts in modern mathematics have significant applications to supe
 
 The mathematical applications in §§2 and 3 will be self-contained. However, it may be useful to first make a few remarks about some of the relevant aspects of supersymmetry.
 
-In any quantum field theory, the Hilbert space  $K = K^{+} \oplus K^{-}$ , where  $K^{+}$  and  $K^{-}$  are the spaces of “bosonic” and “fermionic” states respectively. A supersymmetry theory is by definition a theory in which there are (Hermitian) symmetry operators  $Q_{i}, i = 1, \cdots, N$ , which map  $K^{+}$  into  $K^{-}$  and vice-versa.
+In any quantum field theory, the Hilbert space  $\mathscr{H} = \mathscr{H}^{+} \oplus \mathscr{H}^{-}$ , where  $\mathscr{H}^{+}$  and  $\mathscr{H}^{-}$  are the spaces of “bosonic” and “fermionic” states respectively. A supersymmetry theory is by definition a theory in which there are (Hermitian) symmetry operators  $Q_{i}, i = 1, \cdots, N$ , which map  $\mathscr{H}^{+}$  into  $\mathscr{H}^{-}$  and vice-versa.
 
-Let us define the operator  $(-1)^{F}$  which distinguishes  $K^{+}$  from  $K^{-}$  (and counts the number of fermions modulo two). Thus we define  $(-1)^{F}\psi = \psi$  for  $\psi \in K^{+}$ , and  $(-1)^{F}\chi = -\chi$  for  $\chi \in K^{-}$ . The first basic condition which must be satisfied by the supersymmetry operators  $Q_{i}$  is that they each anticommute with  $(-1)^{F}$ :
+Let us define the operator  $(-1)^{F}$  which distinguishes  $\mathscr{H}^{+}$  from  $\mathscr{H}^{-}$  (and counts the number of fermions modulo two). Thus we define  $(-1)^{F}\psi = \psi$  for  $\psi \in \mathscr{H}^{+}$ , and  $(-1)^{F}\chi = -\chi$  for  $\chi \in \mathscr{H}^{-}$ . The first basic condition which must be satisfied by the supersymmetry operators  $Q_{i}$  is that they each anticommute with  $(-1)^{F}$ :
 
 $$
 (- 1) ^ {F} Q _ {i} + Q _ {i} (- 1) ^ {F} = 0.\tag{1}
@@ -68,14 +68,6 @@ can be expressed in terms of the  $Q_{i}$  and is positive semi-definite (being 
 
 Since $H$ and $P$ are quadratic in the $Q_i$, the fact that the $Q_i$ are odd (equation (1)) implies that $H$ and $P$ are even, $[H, (-1)^F] = [P, (-1)^F] = 0$.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$-\frac{1}{2} Q_{2}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$[M,H] = P,[M,P] = H,[M,Q_1] = \frac{1}{2} Q_1,[M,Q_2] =$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">(H, P)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$(Q_{1}, Q_{2})$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$ In a world with one space and one time dimension, there is a single (anti-Hermitian) generator M of Lorentz transformations. It satisfies  $[M, H] = P$ ,  $[M, P] = H$ ,  $[M, Q_{1}] = \frac{1}{2}Q_{1}$ ,  $[M, Q_{2}] = -\frac{1}{2}Q_{2}$ . These relations, which say that  $(H, P)$  transform like a vector and  $(Q_{1}, Q_{2})$  like a spinor under Lorentz transformations, are compatible with (5).</span></small>
 
 We are now almost ready to understand why it is that modern mathematics has something to say about supersymmetry. The most important question about a supersymmetric theory is the question of whether there exists in the Hilbert space $\mathcal{H}$ a state $|\Omega\rangle$ which is annihilated by the supersymmetry operators $Q_{i}$,
@@ -98,11 +90,11 @@ In some cases, methods which are standard in physics suffice to show that a supe
 
 exist by showing that the theory has a mass gap so that there is no potential "Goldstone fermion".) In general, though, it is far too difficult to show by direct methods whether (8) has a solution, much as it is too difficult to determine directly whether, say, the Dirac operator on a compact manifold has a zero eigenvalue. But the indirect methods that are effective in the latter case can usefully be applied to supersymmetry.
 
-The simplest indirect method is to calculate the index of one of the supersymmetry operators. In view of (5), any state  $|\Omega\rangle$  with  $Q_{i}|\Omega\rangle=0$  also obeys  $P|\Omega\rangle=0$ . In looking for states  $|\Omega\rangle$  which obey  $Q_{i}|\Omega\rangle=0$ , we therefore lose nothing by restricting ourselves to the subspace  $H_{0}$  consisting of states annihilated by P. Like the full Hilbert space H,  $H_{0}$  has a decomposition  $H_{0}=H_{0}^{+}\oplus H_{0}^{-}$  into bosonic and fermionic states.
+The simplest indirect method is to calculate the index of one of the supersymmetry operators. In view of (5), any state  $|\Omega\rangle$  with  $Q_{i}|\Omega\rangle=0$  also obeys  $P|\Omega\rangle=0$ . In looking for states  $|\Omega\rangle$  which obey  $Q_{i}|\Omega\rangle=0$ , we therefore lose nothing by restricting ourselves to the subspace  $\mathscr{H}_{0}$  consisting of states annihilated by P. Like the full Hilbert space $\mathscr{H}$,  $\mathscr{H}_{0}$  has a decomposition  $\mathscr{H}_{0}=\mathscr{H}_{0}^{+}\oplus \mathscr{H}_{0}^{-}$  into bosonic and fermionic states.
 
-Within  $K_{0}$  the simplest supersymmetry algebra of (3) and (4) is obeyed. In particular,  $Q_{i}^{2} = Q_{j}^{2} = H$  for any i or j. Hence a state in  $K_{0}$  annihilated by one of the  $Q_{i}$  is annihilated by all of them.
+Within  $\mathscr{H}_{0}$  the simplest supersymmetry algebra of (3) and (4) is obeyed. In particular,  $Q_{i}^{2} = Q_{j}^{2} = H$  for any i or j. Hence a state in  $\mathscr{H}_{0}$  annihilated by one of the  $Q_{i}$  is annihilated by all of them.
 
-Choosing one of the  $Q_{i}$  and denoting it simply as Q, we want to know whether Q restricted to  $K_{0}$  has a zero eigenvalue. This of course can be partially addressed as an index problem. We write the restriction of Q to  $K_{0}$  as  $Q_{+} + Q_{-}$, where  $Q_{+}$ maps  $K_{0}^{+}$ into  $K_{0}^{-}$, and  $Q_{-}$ is the adjoint of  $Q_{+}$. A nonzero index of  $Q_{+}$ would ensure that Q does have a zero eigenvalue within  $K_{0}$. The index of  $Q_{+}$ may usefully be referred to as  $\operatorname{Tr}(-1)^{F}$, the trace of the operator  $(-1)^{F}$  which distinguishes bosons from fermions.
+Choosing one of the  $Q_{i}$  and denoting it simply as Q, we want to know whether Q restricted to  $\mathscr{H}_{0}$  has a zero eigenvalue. This of course can be partially addressed as an index problem. We write the restriction of Q to  $\mathscr{H}_{0}$  as  $Q_{+} + Q_{-}$, where  $Q_{+}$ maps  $\mathscr{H}_{0}^{+}$ into  $\mathscr{H}_{0}^{-}$, and  $Q_{-}$ is the adjoint of  $Q_{+}$. A nonzero index of  $Q_{+}$ would ensure that Q does have a zero eigenvalue within  $\mathscr{H}_{0}$. The index of  $Q_{+}$ may usefully be referred to as  $\operatorname{Tr}(-1)^{F}$, the trace of the operator  $(-1)^{F}$  which distinguishes bosons from fermions.
 
 In [21] the index was calculated and shown to be nonzero in a number of interesting cases, including supersymmetric  $\phi^{4}$  theory and supersymmetric non-Abelian gauge theories (both in four dimensions). Therefore supersymmetry is not spontaneously broken in any of these theories.
 
@@ -172,7 +164,7 @@ We will calculate explicitly the  $A_{p}$  below. As has been argued above, the 
 
 that  $M_{p} \geqslant B_{p}$ . The stronger form of the Morse inequalities will require a slight further argument.
 
-As t becomes large, the low-lying eigenvalues of  $H_{t}$  can be calculated by expanding about the critical points  $p^{a}$ . In the vicinity of any critical point, one can introduce locally Euclidean coordinates  $\phi_{i}$  (chosen so that the critical point is at  $\phi_{i}=0$  and so that in terms of the  $\phi_{i}$  the metric tensor  $\gamma$  is Euclidean up to terms of order  $\phi^{2}$ ). The  $\phi_{i}$  can be chosen so that, near the critical point,  $h(\phi_{i})=h(0)+\frac{1}{2}\sum\lambda_{i}\phi_{i}^{2}+0(\phi^{3})$  for some  $\lambda_{i}$ .
+As t becomes large, the low-lying eigenvalues of  $H_{t}$  can be calculated by expanding about the critical points  $p^{a}$ . In the vicinity of any critical point, one can introduce locally Euclidean coordinates  $\phi_{i}$  (chosen so that the critical point is at  $\phi_{i}=0$  and so that in terms of the  $\phi_{i}$  the metric tensor  $\gamma$  is Euclidean up to terms of order  $\phi^{2}$ ). The  $\phi_{i}$  can be chosen so that, near the critical point,  $h(\phi_{i})=h(0)+\frac{1}{2}\sum\lambda_{i}\phi_{i}^{2}+O(\phi^{3})$  for some  $\lambda_{i}$ .
 
 Near the critical point  $p^{a}$ ,  $H_{t}$  can be approximated as
 
@@ -266,29 +258,7 @@ Consequently, if we denote as  $Y_{p}$  the number of zero eigenvalues of  $\del
 
 Actually, it is reasonable to conjecture that the  $Y_{p}$  are in fact always equal to the Betti numbers  $B_{p}$  of M. This does not follow from instanton considerations alone. It is conceivable that some states which really do not have zero energy nonetheless remain at zero energy not just in perturbation theory but also in
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$M_{x}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$M_{x} = D^{2}h / D\phi_{i}D\phi_{j}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{x}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{s}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\tilde{V}_B$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{A}$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$ Another way to define this is as follows. As we are working on a Riemannian manifold, we have at each point x on  $\Gamma$  a well-defined matrix  $M_{x}=D^{2}h/D\phi_{i}D\phi_{j}$  of second derivatives of h. For generic h,  $M_{x}$  has nondegenerate eigenvalues for every x on  $\Gamma$, so there is a well-defined vector space  $V_{x}$  consisting of the p lowest eigenvectors. As  $V_{s}$  interpolates smoothly from  $\tilde{V}_{B}$  to  $V_{A}$, we may transport the orientation of  $\tilde{V}_{B}$  to  $V_{A}$  via  $V_{x}$. (It is essential here that generically the tangent vector v to  $\Gamma$  at B is always the element of  $V_{B}$  corresponding to the largest eigenvalue.)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\tilde{V}_B$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{x}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{B}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$V_{A}$</span></small>
 
 the simplest instanton calculation which leads to (22). Their energies would in that case vanish even more rapidly for large $t$ than $\exp - 2t | h(A) - h(B)|$.
 
@@ -313,8 +283,6 @@ It is easy to prove that minimum action extrema of $\mathcal{L}$ with given init
 $$
 \bar {\mathfrak {L}} = \frac {1}{2} \int d \lambda \left| \frac {d \phi^ {i}}{d \lambda} \pm t \gamma^ {i j} \frac {\partial h}{\partial \phi^ {j}} \right| ^ {2} \mp t \int d \lambda \frac {d h}{d \lambda}.\tag{25}
 $$
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\psi^i$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{4}$  This Lagrangian is a simplification of the supersymmetric nonlinear sigma model which we will discuss in §4. It is obtained by requiring the fields in the sigma model to be functions only of the “time”,  $\lambda$ .</span></small>
 
@@ -366,14 +334,6 @@ $$
 
 where  $n(a,b)$  was defined earlier. $^{7}$  However, the factors of  $e^{th}$, which obviously carry no essential information, can be eliminated by redefining the states  $e^{-th(A)}|a\rangle Z\to|a\rangle$. In so doing we are simply undoing the conjugation by  $e^{th}$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$h(B) > h(A)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$p + 1$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$(h(B) - h(A))$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}$ For the WKB treatment of tunneling through a barrier in one dimension, see, for example, [13, 171–178]. For a discussion of the multi-dimensional case, see [19].</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}$ Note that the absolute value sign can be dropped here from  $(h(B) - h(A))$ , because if A and B have Morse index p and  $p + 1$  respectively, then paths  $\Gamma$  from A and B only exist for  $h(B) > h(A)$ .</span></small>
@@ -420,7 +380,7 @@ on  $N_{0}$ . The zero eigenvalues correspond of course to the cohomology (or tw
 
 In particular, the states which have nonzero energy in this approximation really have nonzero energy for large enough t. However, their energies are of order one and equal (for large t) to the nonzero eigenvalues of the Laplacian on N.
 
-States that really have zero energy must have zero energy in this leading approximation. We thus obtain the inequalities of degenerate Morse theory—which bound the Betti numbers of M in terms of those of the critical point set. The contribution of  $N_{0}$  to the Morse polynomial is  $t^{P}\overline{P}_{t}(N_{0})$ , where  $\overline{P}$  refers to the ordinary Poincaré polynomial or the Poincaré polynomial appropriate to the twisted de Rham complex, depending on whether  $\Lambda(N_{0})$  is orientable.
+States that really have zero energy must have zero energy in this leading approximation. We thus obtain the inequalities of degenerate Morse theory—which bound the Betti numbers of M in terms of those of the critical point set. The contribution of  $N_{0}$  to the Morse polynomial is  $t^{p}\overline{P}_{t}(N_{0})$ , where  $\overline{P}$  refers to the ordinary Poincaré polynomial or the Poincaré polynomial appropriate to the twisted de Rham complex, depending on whether  $\Lambda(N_{0})$  is orientable.
 
 The subtlety that arises when  $\Lambda(N_{0})$  is not orientable is analogous to what occurs in the diatomic molecule when the electrons have nonzero angular momentum about the axis between the nuclei. The quantum numbers of the nuclear motion are then shifted, because the nuclear wave-function is a section of a twisted bundle, even though the interaction of the nuclei with the electron angular momentum might have appeared negligible.
 
@@ -458,7 +418,7 @@ In the course of determining the number of zero eigenvalues of  $H_{s}$ , we wil
 
 component of N is an integer (its own signature). Also, dropping the requirement that K should be a Killing vector field, one can obtain from the large s limit of  $H_{s}$  a proof of Hopf's theorem expressing the Euler characteristic of M in terms of the zeros of any vector field. The proofs of these theorems which we will extract from the large s behavior of  $H_{s}$  are really variants of the proofs based on the index theorem [6], [7], [5].
 
-Turning to our main goal—counting the zero eigenvalues of  $H_{s}=d_{s}d_{s}^{*}+d_{s}^{*}d_{s}$ —clearly any zero eigenvalue  $\psi$  of  $H_{s}$  must obey  $d_{s}\psi=d_{s}^{*}\psi=0$ . It must therefore also be annihilated by  $d_{s}^{2}=sL_{K}$ . We therefore lose nothing by restricting ourselves to the subspace  $\overline{V}$  of the de Rham complex consisting of states which are annihilated by  $L_{K}$ —states which are invariant under the isometry generated by K.
+Turning to our main goal—counting the zero eigenvalues of  $H_{s}=d_{s}d_{s}^{*}+d_{s}^{*}d_{s}$ —clearly any zero eigenvalue  $\psi$  of  $H_{s}$  must obey  $d_{s}\psi=d_{s}^{*}\psi=0$ . It must therefore also be annihilated by  $d_{s}^{2}=s\mathscr{L}_{K}$ . We therefore lose nothing by restricting ourselves to the subspace  $\overline{V}$  of the de Rham complex consisting of states which are annihilated by  $\mathscr{L}_{K}$ —states which are invariant under the isometry generated by K.
 
 Within  $\overline{V}$ ,  $d_{s}^{2}=0$ , and we can view  $d_{s}$  as a sort of generalized coboundary operator. By standard arguments the number of zero eigenvalues of  $d_{s}d_{s}^{*}+d_{s}^{*}d_{s}$  equals the maximum number of linearly independent states which are closed but not exact in the sense of  $d_{s}$ . In other words, it equals the dimension of  $(\ker d_{s}/\operatorname{im}d_{s})$ .
 
@@ -536,7 +496,7 @@ Consequently,  $H_{s}$  has  $N_{+}$ even eigenvalues and  $N_{-}$ odd eigenvalu
 
 This completes our determination of the number of zero eigenvalues of  $H_{s}$ . Let us now discuss how the fixed point theorems for the Euler characteristic and the Hirzebruch signature emerge in this framework. As noted previously, we will obtain essentially an explicit realization of the proofs based on the index theorem.
 
-Considering first the Euler characteristic, we have  $H_{s}=d_{s}d_{s}^{*}+d_{s}d_{s}^{*}=(d_{s}+d_{s}^{*})^{2}$  since  $d_{s}^{2}+d_{s}^{*2}=0$ . Hence zero eigenvalues of  $H_{s}$  are zero eigenvalues of the Hermitian operator  $D_{s}=d_{s}+d_{s}^{*}$ . Using the decomposition  $V=V_{+}+V_{-}$  for the de Rham complex, we may write  $D_{s}=D_{s+}+D_{s-}$ , where  $D_{s+}$  maps  $V_{+}$  into  $V_{-}$ , and  $D_{s-}$  is its adjoint.
+Considering first the Euler characteristic, we have  $H_{s}=d_{s}d_{s}^{*}+d_{s}^{*}d_{s}=(d_{s}+d_{s}^{*})^{2}$  since  $d_{s}^{2}+d_{s}^{*2}=0$ . Hence zero eigenvalues of  $H_{s}$  are zero eigenvalues of the Hermitian operator  $D_{s}=d_{s}+d_{s}^{*}$ . Using the decomposition  $V=V_{+}+V_{-}$  for the de Rham complex, we may write  $D_{s}=D_{s+}+D_{s-}$ , where  $D_{s+}$  maps  $V_{+}$  into  $V_{-}$ , and  $D_{s-}$  is its adjoint.
 
 By standard arguments the index of  $D_{s+}$  is independent of s and hence equal to the Euler characteristic of M just as at s=0. On the other hand, we can calculate the index of  $D_{s+}$  from our knowledge of the spectrum of  $H_{s}$  in the limit of large s. As there are  $N_{+}$ even eigenvalues and  $N_{-}$ odd eigenvalues of  $H_{s}$  which vanish as s becomes large, the index of  $D_{s+}$  is  $N_{+}-N_{-}$, which is just the Euler characteristic of N. So M and N have equal Euler characteristics,
 
@@ -556,9 +516,9 @@ Let us now return to the case in which K is a Killing vector field. Assuming tha
 
 The de Rham complex has the decomposition  $V = \tilde{V}_{+} + \tilde{V}_{-}$  into states which are even or odd under the duality operation\*. Define the Hermitian operator  $Q_{s} = i^{1/2}d_{s} + i^{-1/2}d_{s}^{*}$ . With appropriate conventions in defining \*,  $Q_{s}$  is odd under \*, so we may write  $Q_{s} = \tilde{Q}_{s+} + \tilde{Q}_{s-}$  where  $\tilde{Q}_{s+}$  maps  $\tilde{V}_{+}$  into  $\tilde{V}_{-}$ , and  $\tilde{Q}_{s-}$  is its adjoint. By standard arguments the index of  $\tilde{Q}_{s+}$  is independent of s and equal to the Hirzebruch signature of M.
 
-At $s = 0$, all states annihilated by $Q_{s}$ are also annihilated by $\mathfrak{L}_K$. Hence, for any $s$, in calculating the index of $Q_{s}$ we may restrict ourselves to the space $\overline{V}$ of states annihilated by $\mathfrak{L}_K$.
+At $s = 0$, all states annihilated by $Q_{s}$ are also annihilated by $\mathscr{L}_K$. Hence, for any $s$, in calculating the index of $Q_{s}$ we may restrict ourselves to the space $\overline{V}$ of states annihilated by $\mathscr{L}_K$.
 
-Since  $Q_{s}^{2}=H_{s}+2$  is  $L_{K}$ , as one may readily calculate, any zero eigenvector of  $Q_{s}$  which is annihilated by  $L_{K}$  is also annihilated by  $H_{s}$ . Therefore we may calculate the signature of M as the number of zero eigenvalues of  $H_{s}$  in  $\tilde{V}_{+}$ minus the number in  $\tilde{V}_{-}$ .
+Since  $Q_{s}^{2}=H_{s}+2is\mathscr{L}_{K}$ , as one may readily calculate, any zero eigenvector of  $Q_{s}$  which is annihilated by  $\mathscr{L}_{K}$  is also annihilated by  $H_{s}$ . Therefore we may calculate the signature of M as the number of zero eigenvalues of  $H_{s}$  in  $\tilde{V}_{+}$ minus the number in  $\tilde{V}_{-}$ .
 
 For example, we have seen that near an isolated zero of K,  $H_{s}$  has a single zero energy state. It is straightforward to determine, by further study of (40), whether this state is even or odd under \*. Choosing the  $\lambda_{r}$  of (39) to be all positive, the zero energy state near a given fixed point  $A_{i}$  is even or odd under \* depending on whether  $dx_{1} \wedge dx_{2} \wedge \cdots dx_{n}$  is a positive or negative multiple, at  $A_{i}$ , of the orientation form  $\omega$  of M. Defining  $n_{i} = \pm 1$  accordingly,
 
@@ -576,7 +536,7 @@ $$
 \operatorname{sign} M = \operatorname{sign} N.\tag{43}
 $$
 
-These considerations may be sharpened by thinking of the signature as a character of the group generated by  $L_{K}$ . Thus for any real  $\theta$  let  $I(\theta) = \operatorname{Tr} * \exp\theta\mathcal{L}_{K}$ ; the trace is to be evaluated among the states annihilated by  $Q_{s}$ . Actually  $I(\theta)$  is independent of  $\theta$ ; this must be true for any s, since it is certainly true at s = 0. However, the contribution from states localized near any given fixed point is not independent of  $\theta$ . An isolated point  $A_{i}$  contributes
+These considerations may be sharpened by thinking of the signature as a character of the group generated by  $\mathscr{L}_{K}$ . Thus for any real  $\theta$  let  $I(\theta) = \operatorname{Tr} * \exp\theta\mathcal{L}_{K}$ ; the trace is to be evaluated among the states annihilated by  $Q_{s}$ . Actually  $I(\theta)$  is independent of  $\theta$ ; this must be true for any s, since it is certainly true at s = 0. However, the contribution from states localized near any given fixed point is not independent of  $\theta$ . An isolated point  $A_{i}$  contributes
 
 $$
 I _ {i} (\theta) = n _ {i} \prod_ {r} \frac {\left(1 + e ^ {i \theta \lambda_ {i r}}\right)}{\left(1 - e ^ {i \theta \lambda_ {i r}}\right)},\tag{44}
@@ -584,7 +544,7 @@ $$
 
 where the  $\lambda_{ir}, r = 1, 2, \cdots, n/2$ , are the “rotation angles” at the ith zero of K; (it is assumed again that they are defined to be all positive). (44) can be calculated by study of  $Q_{s}$  in the approximation of (40).
 
-The calculation of (44) is somewhat delicate and must be done by fixing a given Fourier component of  $I(\theta)$  (in other words, a given eigenvalue of  $iL_{K}$ ) and calculating the spectrum of  $Q_{s}$  and  $H_{s}$  in the large s limit. The convergence is not uniform for the different Fourier components. A more extensive discussion and an analogous treatment of certain problems on complex manifolds will appear in a forthcoming paper.
+The calculation of (44) is somewhat delicate and must be done by fixing a given Fourier component of  $I(\theta)$  (in other words, a given eigenvalue of  $i\mathscr{L}_{K}$ ) and calculating the spectrum of  $Q_{s}$  and  $H_{s}$  in the large s limit. The convergence is not uniform for the different Fourier components. A more extensive discussion and an analogous treatment of certain problems on complex manifolds will appear in a forthcoming paper.
 
 Adding the contributions of all the fixed points (which we assume to be isolated, for simplicity), we have
 
@@ -680,7 +640,7 @@ There are two relevant decompositions of the Hilbert space $\mathcal{H}$ of this
 
 It is also possible in the supersymmetry nonlinear sigma model to define an operation which generalizes the notion of duality on finite dimensional manifolds. One may be surprised that it makes sense to formulate duality on the infinite dimensional space  $\Omega$ . Very roughly, this may be understood as follows. If one chooses an N-dimensional approximation to  $\Omega$ , the low-lying spectrum of  $H_{s}$  is dominated by p-forms with p of order  $\frac{1}{2}N$ . Letting N become larger and larger, the relevant values of p increase in such a way that the duality operation which exists in the finite dimensional case has a smooth limit when one finally defines the theory on the infinite dimensional manifold  $\Omega$ .
 
-In any case, the supersymmetric nonlinear sigma model admits a symmetry operation which in the physics literature is usually referred to as the discrete chiral symmetry  $Q_{5}$ , and which has all the algebraic properties of duality on finite dimensional manifolds. Thus  $Q_{5}$  commutes with  $H_{s}$ , and  $Q_{5}^{2}=1$ , so K has a decomposition  $K=\tilde{K}_{+}\oplus\tilde{K}_{-}$ , where  $\tilde{K}_{+}$  and  $\tilde{K}_{-}$  contain respectively the states even and odd under  $Q_{5}$ . Also the Hermitian operator  $Q=i^{1/2}d_{s}+i^{-1/2}d_{s}^{*}$  anti-commutes with  $Q_{s}$ . So for the same reasons as in the finite dimensional case, the difference between the number of zero eigenvalues of  $H_{s}$  in  $\tilde{K}_{+}$  and the number in  $\tilde{K}_{-}$  is a deformation invariant, which we may think of as the trace of  $Q_{5}$ .
+In any case, the supersymmetric nonlinear sigma model admits a symmetry operation which in the physics literature is usually referred to as the discrete chiral symmetry  $Q_{5}$ , and which has all the algebraic properties of duality on finite dimensional manifolds. Thus  $Q_{5}$  commutes with  $H_{s}$ , and  $Q_{5}^{2}=1$ , so $\mathcal{H}$ has a decomposition  $\mathcal{H}=\tilde{\mathcal{H}}_{+}\oplus\tilde{\mathcal{H}}_{-}$ , where  $\tilde{\mathcal{H}}_{+}$  and  $\tilde{\mathcal{H}}_{-}$  contain respectively the states even and odd under  $Q_{5}$ . Also the Hermitian operator  $Q=i^{1/2}d_{s}+i^{-1/2}d_{s}^{*}$  anti-commutes with  $Q_{5}$ . So for the same reasons as in the finite dimensional case, the difference between the number of zero eigenvalues of  $H_{s}$  in  $\tilde{\mathcal{H}}_{+}$  and the number in  $\tilde{\mathcal{H}}_{-}$  is a deformation invariant, which we may think of as the trace of  $Q_{5}$ .
 
 These invariants  $\operatorname{Tr}(-1)^{F}$  and  $TrQ_{5}$  may be viewed as providing a definition of the Euler characteristic and Hirzebruch signature of the function space  $\Omega$ . In the finite dimensional case, we can identify  $\operatorname{Tr}(-1)^{F}$  and  $TrQ_{5}$  with the Euler characteristic and Hirzebruch signature of the space of zeros of K. We have seen that in the quantum field theory the space of zeros can be naturally identified with B itself, so we expect
 
@@ -710,7 +670,7 @@ Let us now leave aside the nonlinear sigma model, and consider the supersymmetri
 
 choose for B the real line R. The system based on  $d_{s}$  and  $H_{s}$  is then relatively trivial—supersymmetric massless free field theory.
 
-However, as discussed at the end of §3, we may introduce a function $h$ on $\Omega$ and pass from $d_s$ to $d_{s,t} = e^{-th}d_s e^{th}$. The Hamiltonian is now $H_{s,t} = d_{s,t}d_{s,t}^* + d_{s,t}^*, d_{s,t}$. With suitable choices of $h$, this gives the supersymmetric version of the usual scalar field theories.
+However, as discussed at the end of §3, we may introduce a function $h$ on $\Omega$ and pass from $d_s$ to $d_{s,t} = e^{-th}d_s e^{th}$. The Hamiltonian is now $H_{s,t} = d_{s,t}d_{s,t}^* + d_{s,t}^* d_{s,t}$. With suitable choices of $h$, this gives the supersymmetric version of the usual scalar field theories.
 
 The appropriate choices of h are as follows. Let  $\phi: S \rightarrow R$  be a real-valued function on S— that is, a point in  $\Omega$ . Let W be a smooth real-valued function of a real variable. Then define
 
@@ -756,7 +716,7 @@ Another outstanding question is the generalization of the considerations of §4 
 
 [1] O. Alvarez, Dynamical symmetry breakdown in the supersymmetric nonlinear  $\sigma$  model, Phys. Rev. D 17 (1978) 1123–1130.
 
-[2] M. F. Atiyah & R. Bott, A Lefschetz fixed point formula for elliptic complexes: I, Ann. of Math. 86 (1967) 374-407.
+[2] M. F. Atiyah & R. Bott, A Lefschetz fixed point formula for elliptic complexes. I, Ann. of Math. 86 (1967) 374-407.
 
 [3] \_\_\_\_, A Lefschetz fixed point formula for elliptic complexes. II. Applications, Ann. of Math. 88 (1968) 451–491.
 
