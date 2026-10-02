@@ -651,6 +651,17 @@
 - 核对：有限复形上 `γ`-filtration 的局部幂零性；由 Adams operators 得到的 annihilating polynomial；perfect characteristic-`p` 环的 `K_*A` 唯一 `p`-可除性及其自同构/特征空间引理。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图第 2200–2201 行定理说对每个 `x∈\widetilde F(X,A)` 存在 `N_x`，使总 `γ`-权重达到 `N_x` 的乘积 `γ^{i_1}(x)…γ^{i_r}(x)=0`；基线写成 `x`-filtration 和 `x^{i'}(x)…`，丢失 `γ` 运算。原图第 2203–2208 行推论是 `∃N:(ψ^k−1)(ψ^k−k)…(ψ^k−k^N)x=0`，其系数可展开为高 γ-weight 多项式；基线的 `\Psi^{\underline{k}}`、`(\psi^{-1})…` 与 `P(γ^1,…,γ^{-k})` 都损坏了算子指数/变量范围。Perfect char-`p` 定理称 `K_*A` uniquely `p`-divisible，并在证明中用 `\Psi^p=F_*`；基线第 2266 行把 `K_*A` 与乘以 `p` 的自同构陈述拆坏。末尾 abelian-group 引理需要将 `A=\bigcup_n\ker(\Psi-p)…(\Psi-p^n)` 过滤为 `X_n`，再由 quotient 上 `\Psi=p^n` 的作用归纳推出 `p:A→A` 为同构；基线第 2212–2216 行混并了两个核定义、`A^\Psi` 记号和短正合列箭头/系数，无法支持该归纳。
-- 页面边界：本页止于 abelian-group kernel filtration 的同构引理；Markdown 第 2218 行起的 `\widetilde K(X,A)=\lim[X,BGL(A)^+]` 备注属于下一页。
+- 页面边界核对：p.61 止于 abelian-group kernel filtration 的同构引理；p.62 原图从 `x∈\widetilde K(X,A)=\lim_n[X,BGL_n(A)^+]` 及 `\lambda^k(x+n)=0` 的旁注开始，确认为 Markdown 第 2218 行之后内容。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复 `γ`-monomial 权重、Adams polynomial factors、perfect char-`p` 结论与 kernel filtration diagram。
 - 记录：2026-10-02 05:24:06 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.062（PDF p.62 / 纸面圈号 62）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p062.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p062_adams-generating-series.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p062_newton-identities.png`。
+- 核对：`\widetilde K(X,A)` 的有限阶段表示；Adams/log generating-series 导数；由生成式导出的前几条 Newton identities 与一般 `k` 递推。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图以 `x∈\widetilde K(X,A)=\lim_n[X,BGL_n(A)^+]` 开始，并旁注 `\lambda^k(x+n)=0`（`k>n`，proof next time）；基线第 2219 行把 `BGL_n` 误成 `BGL_R`。p.62 页边日期 `10.30.74` 未录入。原图第 2231 行是 `\log(1/\lambda_{-t}(x))=\sum_{m≥1}\psi^m(x)t^m/m=-\log(\lambda_{-t}(x))`；基线把求和指数写成 `n` 且损坏 `\lambda_{-t}`。求导式 `\frac1{\lambda_{-t}(x)}\lambda'_{-t}(x)=\sum_{m≥1}\psi^m(x)t^{m-1}` 与后续 `\lambda'_{-t}(x)` 展开在基线第 2235–2255 行丢了起始指标、上下标和相乘项。Newton 递推原图先列 `\psi^1x=x`、`-2\lambda^2x=\psi^2x-x\psi^1x`、`+3\lambda^3x=\psi^3x-x\psi^2x+\lambda^2x\cdot x`、`-4\lambda^4x=\psi^4x-x\psi^3x+\lambda^2x\cdot\psi^2x-\lambda^3x\cdot x`，再给一般式；基线第 2259、2263 行将若干指标和系数改坏。
+- 页面边界待续核：原图 p.62 页尾以 Newton identities 及“将 `\lambda^k x` 看作 elementary symmetric function、`\psi^k x=\sum x_i^k`”注释结束；Markdown 第 2266 行起的 perfect characteristic-`p` theorem 待 p.63 原图核对。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复有限阶段 `K`-类、Adams generating series、Newton identities 与递推式。
+- 记录：2026-10-02 05:28:36 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
