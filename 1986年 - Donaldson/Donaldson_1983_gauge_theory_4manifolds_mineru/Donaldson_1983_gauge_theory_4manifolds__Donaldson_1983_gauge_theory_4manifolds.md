@@ -652,7 +652,7 @@ is the restriction of $w_{1}(\mathrm{ind}\{d^{*} + d^{-}\}(M,3,k)) \in H^{1}(\ha
 
 Then we claim that $\hat{\mathfrak{B}}(M, n, k)$ is simply connected for $n \geqslant 3$; this will obviously complete the proof of the lemma. $\mathcal{G}_0 = \mathcal{G}_0(M, n, k)$ acts freely on the contractible affine space of connections so $\pi_1(\hat{\mathfrak{B}}(M, n, k))$ is isomorphic to the set of connected components of $\mathcal{G}_0(M, n, k)$.
 
-The 4-manifold M is simply connected so it is, homotopically, a wedge of 2-spheres with a 4-cell attached [12]. The bundle  $P_{k}$  is trivial over the 2-skeleton and, since  $\pi_{2}(SU(n)) = 0$ , any element of  $G_{0}$  can be deformed to be the identity on a neighborhood of the 2-skeleton. Thus collapsing the 2-skeleton, we may reduce to the case when  $M = S^{4}$ . Similarly  $P_{k}$  is trivial on the complement of a point, so we may reduce to the case when k = 0 and the bundle is trivial. Then the components of  $\mathcal{G}_{0}(S^{4}, n, 0)$  are the homotopy groups
+The 4-manifold M is simply connected so it is, homotopically, a wedge of 2-spheres with a 4-cell attached [12]. The bundle  $P_{k}$  is trivial over the 2-skeleton and, since  $\pi_{2}(SU(n)) = 0$ , any element of  $\mathcal{G}_{0}$  can be deformed to be the identity on a neighborhood of the 2-skeleton. Thus collapsing the 2-skeleton, we may reduce to the case when  $M = S^{4}$ . Similarly  $P_{k}$  is trivial on the complement of a point, so we may reduce to the case when k = 0 and the bundle is trivial. Then the components of  $\mathcal{G}_{0}(S^{4}, n, 0)$  are the homotopy groups
 
 $$
 \pi_ {4} (S U (n)),
@@ -660,7 +660,7 @@ $$
 
 which vanish for $n \geqslant 3$.
 
-Notes. (i) $\operatorname{ind}\{d^{*} + d^{-}\}$ is not strictly defined on the noncompact space $\hat{\mathcal{B}}$. However, this plainly does not affect the argument, which only involves compact subsets.
+Notes. (i) $\operatorname{ind}\{d^{*} + d^{-}\}$ is not strictly defined on the noncompact space $\hat{\mathfrak{B}}$. However, this plainly does not affect the argument, which only involves compact subsets.
 
 (ii) For the case at hand, when $k = 1$, $n = 2$, one may alternatively argue that the full quotient $\mathfrak{B} = \hat{\mathfrak{B}} / SO(3)$ is simply connected.
 

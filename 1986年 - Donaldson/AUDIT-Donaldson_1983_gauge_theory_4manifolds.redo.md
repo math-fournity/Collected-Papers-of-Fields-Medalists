@@ -188,3 +188,13 @@
   - 与页图一致：`ind\{L_t\}|_S=\operatorname{Ker}\{L_t\}-\operatorname{CoKer}\{L_t\}\in KO(S)`（正文 coKer 小写 co、显示式 CoKer 大写 C 系印刷原样，md 两处分别正确）；KO(T)→**Z**；Ṽ/W̃ 显示式的整体宽 tilde（`\widetilde{(T^*X)\otimes\mathfrak{g}}` 等）；`L_{[A]}` 显示式；`d_A^*+d_A^-+t(\nabla\sigma)_A\colon L_3^2\to L_2^2`；`Ind\{d_A^*+d_A^-\}\in KO(\hat{\mathfrak{B}})`；Lemma 10 的 `P_k`/`SU(n)`/`c_2=k`；μ^σ 系印刷原样（300dpi 确认为小写希腊 μ，非 Fraktur 𝔐——语义上应为 moduli space 的笔误，但 Luna 忠实保留 μ，本次不改并在此登记）；`\hat{\mathfrak{B}}(M,n,k)` 帽号（300dpi 确认印刷有 hat，md 正确）。
   - **修复×4**：① 行 577 `over the product $\mathcal{A}/\mathcal{G}_0\times X$` → `$\mathcal{Q}/\mathcal{G}_0\times X$`（300dpi 放大确认印刷为草书 𝒬，即连接空间 𝒬 对受限规范群 𝒢₀ 的商，Luna 误作 𝒜）；② 行 577 `= \hat{\mathcal{B}}\times X` → `\hat{\mathfrak{B}}`；③ 行 586 投影显示式 `\hat{\mathcal{B}}\to\mathcal{B}` → `\hat{\mathfrak{B}}\to\mathfrak{B}`（300dpi 确认首个 B 带 hat、均为 Fraktur）；④ 行 589 `$\mathcal{B}^*\subset\mathcal{B}$` 与同句 `$\mu^\sigma\cap\mathcal{B}^*$` 两处 → `\mathfrak{B}`（同段行 594/597 Luna 又用 `\mathfrak{B}`，同段自相矛盾）。
 - 修复登记：行 577 两处；行 586 两处；行 589 三处 `𝔅` 字形（依据 `audit-redo/p016.png` + 300dpi 裁片）。
+
+### p.017（PDF p.17 / 印刷 p.295）
+
+- PNG：`audit-redo/p017.png`（pngmono 150dpi）
+- 核对：Proof 开头（stable range n⩾3）；伴随表示分解 𝔰𝔲(2)⊕R⊕V；𝔅̂(M,2,k)/𝔅̂(M,3,k) 归纳段与三个 ind 显示式；w₁ 限制句（H¹(𝔅̂(M,3,k),Z/2)、H¹(𝔅̂(M,2,k);Z/2)）；𝒢₀=𝒢₀(M,n,k) 单连通论证；2-skeleton/wedge of 2-spheres 段；π₄(SU(n)) 显示式；Notes (i)(ii)(iii)
+- 结果：**PASS±**（含两处字形拍平修复）。
+  - 与页图一致：`\mathfrak{su}(3)`、`\mathfrak{su}(2)\oplus\mathbf{R}\oplus V`、全部 `\hat{\mathfrak{B}}(M,n,k)`（含帽号）、三个 ind 显示式、`w_1` 限制句、`n\geqslant 3`（印刷 slanted ⩾）、`\pi_2(SU(n))=0`、`M=S^4`、`\pi_4(SU(n))`、`$\mathfrak{B}=\hat{\mathfrak{B}}/SO(3)$`、`Sp(n)`。
+  - **修复×2**：① 行 655 "any element of $G_{0}$" → `$\mathcal{G}_{0}$`（印刷草书 𝒢₀；同行末 `$\mathcal{G}_{0}(S^{4},n,0)$` Luna 本就正确，行内自相矛盾）；② 行 663 "noncompact space $\hat{\mathcal{B}}$" → `$\hat{\mathfrak{B}}$`（印刷 Fraktur 带帽；行 665 同段又用 `\hat{\mathfrak{B}}`，同段自相矛盾）。
+  - 排版级伪影（登记不改）：Proof 斜体、*Notes.* 粗体拍平；行 651 第一个 H¹(…) 分隔符逗号/分号依印刷原样（第二个为分号）。
+- 修复登记：行 655 `G_{0}`→`$\mathcal{G}_{0}$`；行 663 `\hat{\mathcal{B}}`→`\hat{\mathfrak{B}}`（依据 `audit-redo/p017.png`）。
