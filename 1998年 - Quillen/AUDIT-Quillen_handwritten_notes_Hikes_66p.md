@@ -662,6 +662,17 @@
 - 核对：`\widetilde K(X,A)` 的有限阶段表示；Adams/log generating-series 导数；由生成式导出的前几条 Newton identities 与一般 `k` 递推。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图以 `x∈\widetilde K(X,A)=\lim_n[X,BGL_n(A)^+]` 开始，并旁注 `\lambda^k(x+n)=0`（`k>n`，proof next time）；基线第 2219 行把 `BGL_n` 误成 `BGL_R`。p.62 页边日期 `10.30.74` 未录入。原图第 2231 行是 `\log(1/\lambda_{-t}(x))=\sum_{m≥1}\psi^m(x)t^m/m=-\log(\lambda_{-t}(x))`；基线把求和指数写成 `n` 且损坏 `\lambda_{-t}`。求导式 `\frac1{\lambda_{-t}(x)}\lambda'_{-t}(x)=\sum_{m≥1}\psi^m(x)t^{m-1}` 与后续 `\lambda'_{-t}(x)` 展开在基线第 2235–2255 行丢了起始指标、上下标和相乘项。Newton 递推原图先列 `\psi^1x=x`、`-2\lambda^2x=\psi^2x-x\psi^1x`、`+3\lambda^3x=\psi^3x-x\psi^2x+\lambda^2x\cdot x`、`-4\lambda^4x=\psi^4x-x\psi^3x+\lambda^2x\cdot\psi^2x-\lambda^3x\cdot x`，再给一般式；基线第 2259、2263 行将若干指标和系数改坏。
-- 页面边界待续核：原图 p.62 页尾以 Newton identities 及“将 `\lambda^k x` 看作 elementary symmetric function、`\psi^k x=\sum x_i^k`”注释结束；Markdown 第 2266 行起的 perfect characteristic-`p` theorem 待 p.63 原图核对。
+- 页面边界核对：原图 p.62 止于 Newton identities 及“将 `\lambda^k x` 看作 elementary symmetric function、`\psi^k x=\sum x_i^k`”注释；p.63 原图从 perfect characteristic-`p` theorem 开始，对应 Markdown 第 2266 行。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复有限阶段 `K`-类、Adams generating series、Newton identities 与递推式。
 - 记录：2026-10-02 05:28:36 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.063（PDF p.63 / 纸面圈号 63）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p063.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p063_perfect-K.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p063_gamma-conversion.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p063_gamma-filtration-lemma.png`。
+- 核对：perfect characteristic-`p` 环的 `K_*A` 唯一 `p`-可除定理；`ψ^p=F_*` 与球面 cup-product vanish 推出的 `λ^p` 性质；`γ_t` 与 λ-series 的变量换元；有限复形 `γ`-filtration 定理/推论及 `k=2` 例式。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图定理前提为 `A` perfect **of characteristic `p`**，结论是 `K_*A` uniquely `p`-divisible；基线第 2266 行省去 characteristic 条件并只写 `K_nA`，同时把 proof 内容粘在 theorem 行。原图证明由 `ψ^p=F_*`、`ψ^p` 在 `\widetilde K(X,A)` 上为同构、球面上的 cup-products vanish，导出 `(-1)^{p-1}p\lambda^p(x)=ψ^p(x)`；基线第 2266–2273 行将 `X=S^n`、乘积消失及同态性压成碎句。原图 `γ_t(x)=1+tγ^1x+t^2γ^2x+…=λ_{t/(1-t)}(x)`，与 `r_t(L-1)=1+t(L-1)`，基线第 2274、2277 行把 `γ`/`r`、λ 参数及上标项混写。后续 finite-X filtration 结论中，基线第 2280–2284 行又将 `γ`-monomials、annihilating polynomial 和相应理想关系错成 `r`/`ψ` 拼接。原图第 2286 行 `k=2` 例子展开 `(1+(L-1))^k` 并比较 Adams/γ 项，基线指数 `k`、binomial coefficient 与各项对象均损坏。
+- 页面边界：原图 p.63 以 `k=2` 的 γ/Adams 展开为末段；Markdown 第 2288 行起 “Proof of Theorem” 与 γ-series 计算属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复 perfect characteristic-`p` 条件、sphere proof、γ 换元和局部幂零例式。
+- 记录：2026-10-02 05:33:26 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
