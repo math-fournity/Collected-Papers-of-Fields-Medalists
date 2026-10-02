@@ -671,7 +671,7 @@ $$
 \mathbf {E} \mapsto \sum_ {\boldsymbol {H}} \mathbf {E} / H,
 $$
 
-where the sum runs over the  $(r+1)$  subgroups of E having order r. (The quotient E/H is simply the quotient E/H with the evident enhancement.) This action induces the functorial actions of  $T_{r}$  on the subgroup X of  $\Lambda$  and on the duals  $X^{*}$  and  $\Lambda^{*}$  of X and  $\Lambda$ . It is well known (and not hard to verify) that  $\iota$  and  $\kappa$  commute with these actions. (This fact corresponds to the relation  $T_{r} = \xi_{r}$ .) The actions of  $\eta_{r}$  on these groups are realized by subtracting the endomorphisms  $T_{r}$  and “multiplication by  $r + 1$ ” of these groups.
+where the sum runs over the  $(r+1)$  subgroups of E having order r. (The quotient $\mathbf{E}/H$ is simply the quotient E/H with the evident enhancement.) This action induces the functorial actions of  $T_{r}$  on the subgroup X of  $\Lambda$  and on the duals  $X^{*}$  and  $\Lambda^{*}$  of X and  $\Lambda$ . It is well known (and not hard to verify) that  $\iota$  and  $\kappa$  commute with these actions. (This fact corresponds to the relation  $T_{r} = \xi_{r}$ .) The actions of  $\eta_{r}$  on these groups are realized by subtracting the endomorphisms  $T_{r}$  and “multiplication by  $r + 1$ ” of these groups.
 
 We have $\Phi = X^{*} / X$, where $\iota$ is used to embed $X$ into $X^{*}$. Theorem (3.12) thus asserts that we have
 
@@ -695,7 +695,7 @@ $$
 
 from which Theorem (3.12) visibly follows. Indeed, take $\zeta \in \Lambda^{*}$. For $e = (\Lambda^{*} : \Lambda)$, we have $e\zeta \in \Lambda$. We then get $\eta_{r}(e\zeta) \in X$ because of the obvious inclusion $\eta_{r}(\Lambda) \subset X$. Assuming (6), we find that $\eta_{r}(\zeta)$ is an element of $\Lambda$ for which $e \cdot \eta_{r}(\zeta) \in X$. Since $\Lambda / X$ is the torsion-free group $\mathbf{Z}$, we have $\eta_{r}(\zeta) \in X$.
 
-To prove (6), we first express this inclusion as a concrete divisibility. Let $\{i^{*}\}$ be the basis of $\Lambda^{*}$ which is dual to the basis $\mathcal{I} = \{i\}$ of $\Lambda$. For each $i^{*}$, we must exhibit a $\lambda \in \Lambda$ such that $\eta_{r}(i^{*})(j) = \lambda \cdot j$ for each $j \in \mathcal{I}$. By the definition of the action of $\eta_{r}$ on $\Lambda^{*}$, $\eta_{r}(i^{*})(j)$ represents the coefficient of $i$ in $\eta_{r}(j)$, a number we may write
+To prove (6), we first express this inclusion as a concrete divisibility. Let $\{i^{*}\}$ be the basis of $\Lambda^{*}$ which is dual to the basis $\mathcal{S} = \{i\}$ of $\Lambda$. For each $i^{*}$, we must exhibit a $\lambda \in \Lambda$ such that $\eta_{r}(i^{*})(j) = \lambda \cdot j$ for each $j \in \mathcal{S}$. By the definition of the action of $\eta_{r}$ on $\Lambda^{*}$, $\eta_{r}(i^{*})(j)$ represents the coefficient of $i$ in $\eta_{r}(j)$, a number we may write
 
 $$
 \frac {1}{e (i)} i \cdot \eta_ {r} (j) = \frac {1}{e (i)} j \cdot \eta_ {r} (i),

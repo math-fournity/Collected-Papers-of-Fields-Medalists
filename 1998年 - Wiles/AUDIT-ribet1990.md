@@ -161,3 +161,11 @@
 - 发现并当场修复：①L622 "T-equivariant"→"$\mathbf{T}$-equivariant"（粗体代数拍平，300 dpi 确证）；②L624 "as a T-module"→"as a $\mathbf{T}$-module"（同）；③L632 六处字母/花体：A→Λ ×3（free abelian group、X⊂Λ、subgroup of Λ、pairing on A）、S→𝒮 ×3（supersingular points 集、Note that、i∈𝒮）（300 dpi 确证印刷为 Λ 与花体 S，MD 误作普通 A/S）；④L649 行间式 "coker(t)"→"coker(ι)"（300 dpi 确证印刷为 ι；MD 误作拉丁 t，字母身份错误）。
 - 备注：F_q、F̄_q 印刷粗体，MD 正体（登记不改）；两处证明结束符 □ 未收录（惯例）。
 - 结果：FAIL（10 处记号/字母错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.020（PDF p.20 / 印刷 p.449）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:40 -0400。
+- PNG：`audit/ribet1990_p020.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："variety **to** X₀(qM)" 用词确证，未存档）。
+- 核对：ι/Θ-polarization/ξ_n 段；T_r=ξ_r、η_r=T_r−(1+r)；Theorem 3.12（Φ annihilated by η_r, (r,qM)=1）与 Theorem 3.22 预告；E↦Σ_H E/H（(r+1) 子群、evident enhancement）；ι/κ 与 T_r 作用交换（T_r=ξ_r）；Φ=X*/X；η_r(X*)⊂X；式 (6) η_r(Λ*)⊂Λ 与式 (7) η_r(Λ*)⊂X；e=(Λ*:Λ) 挠性论证、Λ/X≅Z；基 {i*} 对偶于 𝒮={i}；1/e(i) i·η_r(j)=1/e(i) j·η_r(i)；段尾接下页 ✓。
+- 发现并当场修复：①L674 首个 "(The quotient E/H"→"$\mathbf{E}/H$"（印刷粗体 enhanced 商，与后文斜体 E/H 对照，150 dpi 页图）；②L698 两处 "$\mathcal{I}$"→"$\mathcal{S}$"（"basis 𝒮={i}"、"for each j∈𝒮"，150 dpi 页图同款花体 S）。
+- 印刷原文 quirk：L654 印刷即 "the reduction of the Albanese variety **to** X₀(qM)"（语义预期为 of；300 dpi 确证 to 为印刷原样），MD 忠实保留不改。
+- 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
