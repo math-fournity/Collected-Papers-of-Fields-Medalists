@@ -559,7 +559,7 @@ This reasoning can also be applied to obtain the fixed point theorems for the tw
 Let us now make a few remarks preliminary to our discussion of quantum field theory in §4. We define
 
 $$
-\begin{array}{l} Q _ {1 s} = i ^ {1 / 2} d _ {s} + i ^ {- 1 / 2} d _ {s} ^ {*}, \quad Q _ {2 s} = i ^ {- 1 / 2} d _ {s} + i ^ {1 / 2} d _ {s} ^ {*}, \\ H _ {s} = d _ {s} d _ {s} ^ {*} + d _ {s} ^ {*} d _ {s}, \quad P = 2 i s \mathcal {L} _ {K}. \end{array}\tag{46}
+\begin{array}{l} Q _ {1 s} = i ^ {1 / 2} d _ {s} + i ^ {- 1 / 2} d _ {s} ^ {*}, \quad Q _ {2 s} = i ^ {- 1 / 2} d _ {s} + i ^ {1 / 2} d _ {s} ^ {*}, \\ H _ {s} = d _ {s} d _ {s} ^ {*} + d _ {s} ^ {*} d _ {s}, \quad P = 2 i s \mathscr {L} _ {K}. \end{array}\tag{46}
 $$
 
 One readily sees that for any $s$ these operators satisfy the supersymmetry algebra in the form

@@ -121,3 +121,8 @@
 - PNG：`audit-redo/p022.png`（pngmono 150dpi）；`I(θ)` 定义行终裁：`audit-redo/300dpi/p022_Itheta.png`（300dpi 裁片）。
 - 核对：(42) `sign(M) = Σ_i n_i`；τ 取向与 (43) `sign M = sign N`；`I(θ) = Tr * exp θ𝓛_K` 特征讨论；(44) `I_i(θ) = n_i Π_r (1+e^{iθλ_ir})/(1−e^{iθλ_ir})`；Fourier 分量段；(45) `sign M = Σ_i I_i(θ)` 与 Atiyah–Bott 引文。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。(42)–(45) 及正文逐项与印刷页相符。**上块移交仲裁完毕**：印刷原句确为 "I(θ) = Tr * exp θ𝓛_K"（`Tr * exp` 中的 `*` 是前文定义的 duality 算子，印刷如此，md 忠实保留）；但 `exp` 后的 Lie 导数印刷为 script `𝓛_K`（300dpi 裁片确认），md line 539 误作 `\mathcal{L}_{K}`（**Luna 漏检第 4 处**），已用结构化 Edit 修为 `\mathscr{L}_{K}`。**Luna 旧修复重核：本页其余 `\mathscr{L}_K`/`i\mathscr{L}_K` 与印刷一致，修复正确**。差异仅：页眉 "682 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.023（PDF p.23 / 印刷 p.683）
+- PNG：`audit-redo/p023.png`（pngmono 150dpi）；(46) 字形终裁：`audit-redo/300dpi/p023_formula46.png`（300dpi 裁片）。
+- 核对：twisted signature complex 与 [4]/[20] 引段；(46) `Q_{1s}, Q_{2s}, H_s, P = 2is𝓛_K`；(47) `Q_1² = H + P` 等；`d_{s,t} = e^{−ht}d_s e^{ht}` 与 (48) 四行定义；非紧情形两段。
+- 结果：FAIL（以原图为准）→ 修复后复核 PASS。(46)–(48) 各行、下标 `s,t` 结构及正文逐项与印刷页相符。**发现 Luna 漏检 1 处记号错误**：(46) 末行印刷 `P = 2is𝓛_K`（script，300dpi 裁片确认），md line 562 误作 `\mathcal {L} _ {K}`（此前 grep 用无空格模式漏检，本轮宽松模式补获）；已用结构化 Edit 修为 `\mathscr {L} _ {K}`（(48) 内同位置本就是 `\mathscr`）。print quirk：印刷原句 "A slight generalizations is possible"（原刊语法 quirk）被 md line 573 忠实保留。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 683" 未入 md（版面信息省略）。
