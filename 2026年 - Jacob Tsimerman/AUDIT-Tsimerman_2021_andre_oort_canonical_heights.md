@@ -352,3 +352,12 @@
 - 核对：Definition 11.1 的 norm-label、Fontaine–Laffaille range 条件及局部比较对象；Lemma 11.2 的 constancy domain、twisted-lattice identity 和脚注 14–15。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Definition 11.1 的 norm-label `\mathcal K_{K,\mathbb V,q}|\cdot|` 被破坏为近似 `|K,\mathbb V,q|\cdot|` 的字串；界 `p ≥ rng_V · dim V + 2` 漏乘号。crystalline 条件下的比较对象把 `E_v` 误录成 `E_{\imath}`，另一分支的 `p-d_RV_{E_v}` 也出现额外粗体/上标噪声。Lemma 11.2 的 constancy domain 应为 `S_K(T,X)(\mathbb Q)`，Markdown 写成 `S_K(T,X)(\overline{\mathbb Q})`；证明末行的 `t^{-1}\mathbb V` 又将 `\mathbb V` 错并入指数。300dpi 裁片核实 norm-label、域下标、局部系统对象和结尾变量。脚注 15 的 `\mathbb Z_p` 从句中脱落成独立 footnote 碎片；其尾部 `GSp_{2g}` 又在 Markdown 重复一次。
+
+## p.040（PDF p.40 / 印刷 p.40）
+- 时间：2026-10-02 01:54:59 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p040.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p040-Definition11.2-polarization.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p040-Property1-3.png`
+- 核对：Definition 11.2 的 endomorphism algebra、trace polarization 与 discriminant；Lemma 11.3；§11.3 Property (1) 的 projection/index/polarization 比较及 Property (3) 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Definition 11.2 应定义 `\mathbb Q_\chi=\operatorname{End}_T(V_\chi)`，Markdown 的 End 对象丢了下标 `\chi`；同段 trace 与 norm 域 `\mathbb Q_\chi` 多次误成 `\mathbb Q_x`。Property (1) 中系数环映射 `R_{\chi_1}\otimes R_{\chi_2} → R_{\chi_3}` 漏箭头，`\mathbb V_{\chi_i}, i=1,2,3` 的定义行也把枚举变量混入下标。Property (3) 的 Shimura-data map `f:(T_1,r_1) → (T_2,r_2)` 漏箭头，其 Archimedean error bound 的维数/range 下标被拆坏。300dpi 裁片核实 endomorphism 对象、`\mathbb Q_\chi`、映射及误差下标。PASS± 源级瑕疵：印刷原文的 `odd of even` 被保留；`fix a sign` 在 Markdown 中有字母拆裂。
