@@ -864,7 +864,7 @@ $$
 \lesssim \gamma (T N) ^ {2} \left(1 + \frac {T \gamma N \operatorname* {g c d} (n _ {2} , n _ {2} ^ {\prime})}{\beta | n _ {2} ^ {\prime} |}\right).
 $$
 
-- With t still frozen, and now m and$m ^ { \prime }$fixed, we use (3.4a) and (3.4c) to solve for$\alpha _ { 1 1 }$and $\alpha _ { 1 2 }$. This gives a set of measure$\sim \frac { \gamma } { N ^ { 2 } T ^ { 2 } } \frac { 1 } { | n \times n ^ { \prime } | }$. Next use (3.4b) to solve for$\alpha _ { 2 2 }$. This gives a set of measure$\sim \frac { \beta } { N T } \frac { 1 } { | n _ { 2 } | }$. Symmetrically, one could use (3.4d) to solve for α<sub>22</sub>, giving a set of measure$\sim \frac { \gamma } { \beta N T } \frac { 1 } { | n _ { 2 } ^ { \prime } | }$. By symmetry between the first and second coordinates, we get a bound
+- With t still frozen, and now m and$m ^ { \prime }$fixed, we use (3.4a) and (3.4c) to solve for$\alpha _ { 1 1 }$and $\alpha _ { 1 2 }$. This gives a set of measure$\sim \frac { \gamma } { N ^ { 2 } T ^ { 2 } } \frac { 1 } { | n \times n ^ { \prime } | }$. Next use (3.4b) to solve for$\alpha _ { 2 2 }$. This gives a set of measure$\sim \frac { \beta } { N T } \frac { 1 } { | n _ { 2 } | }$. Symmetrically, one could use (3.4d) to solve for$\alpha _ { 2 2 }$, giving a set of measure$\sim \frac { \gamma } { \beta N T } \frac { 1 } { | n _ { 2 } ^ { \prime } | }$. By symmetry between the first and second coordinates, we get a bound
 
 $$
 \lesssim \frac{\gamma}{N^{3}T^{3}|n\times n^{\prime}|}\min\left(\frac{\beta}{|n|},\frac{\gamma}{\beta|n^{\prime}|}\right).

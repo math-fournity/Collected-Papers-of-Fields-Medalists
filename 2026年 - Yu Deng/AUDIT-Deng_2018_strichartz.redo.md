@@ -118,3 +118,9 @@
 - 核对：§3.5 (i) n×n′=0 反证（n=kp, n′=kp′、四条代入不等式 β/(N|p|) 与 γ/(βN|p′|)、binom 向量差的 ≲/≥ 夹逼、1≲β|p′|/N+γ|p|/βN、矛盾式 ≲γ≪1）、(ii) 开头、• First freezing t bullet、两条 α₁₂ 求解 display（±O(γ/T|n×n′|)）、(3.8) 兼容性条件、"staisfying" 计数段与 ≲γ(TN)²、≲1+TγN·gcd/(β|n₂′|)
 - 结果：PASS±（2 处已修复）。全部公式与印刷逐项一致。print quirk 忠实保留："staisfying"（L855，原刊拼写）。**修复 2 处**：L789 `The case $n×n′=0 .$$.` 双句点（印刷单句点）；L839 "First freezing t…" 补回 bullet "- "（印刷有 •）。残余瑕疵（不误导，不改）：印刷对 "(ii) The case n×n′≠0" 加下划线而 MD 无下划线（与 p.11 "Bound for Σ" 同类排版级差异，语义无损）。
 - 备注：Luna 旧修复抽核通过——本页公式链与印刷逐式一致，未见 Luna 引入的错误。
+
+## p.016（PDF p.16 / 印刷 p.16）
+- PNG：audit-redo/p016.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：(3.8) 解数汇总 ≲γ(TN)²(1+…)、• With t still frozen bullet（三个测度 ∼γ/N²T²·1/|n×n′|、β/NT·1/|n₂|、γ/βNT·1/|n₂′| 及 ≲γ/(N³T³|n×n′|)min(…)）、• dt≪1/N² 离散时间 bullet（O(N²T)）、Lemma 3.4(ii) 汇总式、§4 节标题、Step 1 kernel 分解（φ、φ̂≥0、A∈(0,1/N)、J₁/J₂/J₃ underbrace display）、‖Ĵ₁‖≲A、‖J₂‖≲1/A、‖J₃‖≼N^{4/3}T^{1/6}、S_μ 定义（无绝对值）、|S_μ|≼N⁴T/μ⁴、J₃=J₃1_{S_μ}+J₃(1−1_{S_μ})=J₃′+J₃″
+- 结果：PASS±（1 处已修复）。全部公式与印刷逐项一致。print quirk 忠实保留：S_μ 定义中 sup K_N 无绝对值（Luna 登记为原刊原样，PNG 复核确认）；p.16 印刷在 ≲γ(TN)² display 后 bullet 前有一行游离句点（原刊排印噪声），MD 未转录该噪声行，属合理省略。**修复 1 处**：L867 "solve for α<sub>22</sub>" HTML 下标残留→`$\alpha _ { 2 2 }$`（全文一致性，印刷为 α₂₂）。残余瑕疵（不误导，不改）："Step 1: decompositions of the kernel" 印刷有下划线、MD 无（排版级）。
+- 备注：Luna 旧修复抽核通过——本页未见 Luna 登记项之外的问题；S_μ 无绝对值的保留判断正确。
