@@ -584,3 +584,10 @@
 - 证据：源 PDF p.081 文本层、页图 `audit/Hironaka_1964_resolution_partI_p081.png`（pngmono 150dpi）与 MinerU Markdown 第 1661–1685 行。Lemma 3、Lemma 4 的 flatness/Tor 条件、Theorem 1 的开性陈述及证明开头到“necessary and sufficient that”均与印刷页对应。但 Markdown 第 1683 行在完整脚注 40（第 1685 行）前另有孤立脚注式片段 `$M_x$`；印刷页脚只有完整脚注 40，没有独立的 $M_x$ 条目。
 - 备注：印刷运行页眉和页码 188 未录入 Markdown，属导航元素省略。
 - 结论：脚注 40 中公式碎片 `M_x` 被额外作为独立内容重复，列为 FAIL；待全篇审计后删除碎片并保留完整脚注 40。
+
+### PDF p.082 / 96（印刷 p.189）— PASS±
+
+- 时间：2026-10-02 05:14 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.082 文本层、页图 `audit/Hironaka_1964_resolution_partI_p082.png`（pngmono 150dpi）与 MinerU Markdown 第 1687–1709 行。Theorem 1 的开性判据、flat locus Corollary 与其 proof、Remark、initial form 记号及 graded ideal 定义/公式均与印刷页对应。
+- 备注：印刷正文与 Markdown 均保留原文重复短语 “if and only only if”；这是 source print quirk，不作 Markdown 改动。印刷运行页眉和页码 189 未录入 Markdown。
+- 结论：未发现正文转录差异；因运行页眉/页码省略记为 PASS±。
