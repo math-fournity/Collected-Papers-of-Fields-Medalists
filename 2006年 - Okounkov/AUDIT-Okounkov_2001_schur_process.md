@@ -172,3 +172,9 @@
 - 核对：§3.1.8（ℜS 在 γ< 上最大、(29)/(27) 引用）、§3.1.9、式 (33)（{z*,z̄*} 两圆交，ℑz*>0）、z* 延拓定义、式 (34)（分段）、Theorem 2 完整陈述与 det[𝔹_±(Δt_{ij}, Δh_{ij}+Δt_{ij}/2; z*)]
 - 结果：PASS±（七处已修复，均 p025.png 双证）：① 行 923 "$\gamma _ { < }$" 后删 mineru 多余的 "<sub><</sub>"（印刷无重复字符）；② 行 925 "$z _ { c } ,$," 双逗号 → "$z _ { c }$,"；③ 行 941 "as$r  + 0$"→"as$r \to + 0$"；④ 行 947 "diferences"→"differences"（ff 连字，上块移交项之一，本页结清）；⑤ 行 951 "as$r  + 0$"→"as$r \to + 0$"；⑥ Theorem 2 主式 "\mathtt {B}"→"\mathsf {B}"（p025.png 与 Definition 4 同为无衬线 𝔹，统一 md 记号）；⑦ 行 957 句末补句号（"t_i − t_j ≥ 0."）。
 - 备注："(33)and (34)" 缺空格为排版伪影不改；Theorem 2 斜体陈述为 LaTeX 强调。
+
+## p.026（PDF p.26 / 印刷 p.26）
+- PNG：audit/p026.png（pngmono 150dpi）
+- 核对：Remark 1（[5] Proposition 8.5 / Conjecture 13.5）、Remark 2、§3.1.10、K_{3D}((t,h),(t,h))→ρ_*(τ,χ)（rt→τ, rh→χ）、Corollary 2（ρ_*=θ*/π）、式 (35)（θ*=arccos(cosh(τ/2)−e^{−χ}/2)）、等值线 θ*(τ,χ)=kπ/8, k=0..8
+- 结果：PASS。全部吻合。
+- 备注：印刷 quirk "the limit correlation are trivial"（correlation 单数，印刷原样）忠实保留。
