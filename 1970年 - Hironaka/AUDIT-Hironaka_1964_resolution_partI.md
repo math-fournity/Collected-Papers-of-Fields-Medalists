@@ -563,3 +563,10 @@
 - 证据：源 PDF p.078 文本层、页图 `audit/Hironaka_1964_resolution_partI_p078.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p078_Proposition1_proof.png` 与 MinerU Markdown 第 1543–1575 行。印刷生成元式为 $P^p=(f_1^{(p)},f_2^{(p)},\ldots)O$，Markdown 第 1545 行误把环 $O$ 写成数字 `0`；印刷同余式左端为 $\sum_i f_i^{(\delta)}g_i^{(n-\delta)}$，Markdown 第 1558 行漏掉 $f$ 的下标 i。另第 1553 行将印刷两行求和约束排成 `\binom` 样式（条件仍在），属于非语义版式差异；第 1564 行将普通 $g_i$ 加粗为 $\boldsymbol{g}_i$，属字体样式差异（PASS±）。Proposition 1 证明余下归纳步骤、Corollary 1 的开头与局部环论述均已对照原页。
 - 备注：印刷运行页眉和页码 185 未录入 Markdown，属导航元素省略；页面末尾与 Corollary 1 的后续在下一页继续。
 - 结论：环符号误录及关键同余式漏掉系数下标，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.079 / 96（印刷 p.186）— FAIL
+
+- 时间：2026-10-02 05:07 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.079 文本层、页图 `audit/Hironaka_1964_resolution_partI_p079.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p079_corollary2_formulas.png`，并比对 MinerU Markdown 第 1575–1625 行。印刷中 $K=O/m$，Markdown 第 1593 行把 O 录成数字 0；局部化对象为 $\operatorname{gr}_{P O_P}(O_P)$，Markdown 第 1597 行写成 $\operatorname{gr}_{P0_P}(O_P)$；维数域为 $O_P/(P O_P)$，第 1600 行把理想顺序排成 $O P_P$；同一行的求和映射中印刷 $\operatorname{gr}_{\bar m}^{q}(\bar O)$，Markdown 第 1606 行将 $q$ 标成带下划线 $\underline q$。F(n)、组合因子恒等式、乘数结论及后续维数等式的其余部分与原页对应。
+- 备注：印刷运行页眉和页码 186 未录入 Markdown，属导航元素省略。
+- 结论：四处局部环/理想/graded-degree 符号结构误录，列为 FAIL；待全篇审计后逐处手工修复。
