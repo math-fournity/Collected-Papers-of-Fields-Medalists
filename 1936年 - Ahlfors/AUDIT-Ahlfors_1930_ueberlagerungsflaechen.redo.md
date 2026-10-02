@@ -129,4 +129,14 @@
 - 文末结构：MD 止于行 1103（正文末句「…in wichtiger Weise komplettiert.」），**未含参考文献表与收稿日期**；PDF p.36–38 是否有 Literatur/Zusammenfassung 及其是否被 mineru 整体遗漏，必须由后续页重检对照原页定论（SOP 文末页五点含参考文献逐条与收稿日期）。
 - 本段（p.001–p.009）修复后的 MD 终态 SHA-256：`b4e48563b5e3233c4d14fd3ca3ae2902ae48117a5f383b111a52277d4256f017`（基线 `6659c161…` + 本段 6 处结构化 Edit）。
 
+### p.010（PDF p.10 / 印刷 p.166）
+
+- audited_at=2026-10-02 17:45 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p010.png`（pngmono 150dpi）；本页无需 300dpi 仲裁。
+- 核对：页眉（166 / Lars Ahlfors.）、节标题 § 3. Die Charakteristik.、编号段 9（E/K/P 定义、Dreiecke (Polygone)）、无号公式 `ϱ=−E+K−P,`（逗号在）、Charakteristik 定义句、Ω/σ/ϱ(Ω)/Ē/K̄ 段、公式 (3) `ϱ=Σϱ(Ω)−Ē+K̄.`（句点在、\tag{3}）、Oberteilung 段（Ē,K̄,P̄、−Ē+K̄−P̄）、Die Bedeutung 段页末断句「punktfremde Rück-」。
+- print quirk 保留核验：印刷「die zur **Oberteilung** gehörigen Anzahlen」（语义应为 Unterteilung）——MD 行 265 忠实保留「Oberteilung」，不改正 ✓。
+- 结果：PASS±。内容逐词与印刷一致，无修复项。保留登记（排版级，不修）：Charakteristik 斜体丢失（系统性）；页眉/印刷页码 mineru 全篇未收（系统性，旧审计已登记）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.10 行；本次独立重核未见内容差异，旧状态维持。
+- 页界：本页止于「…punktfremde Rück-」（断词跨页），MD 连写为「Rückkehrschnitte」并衔接 (4) 公式，顺序正确。
+
 <!-- redo-tail -->
