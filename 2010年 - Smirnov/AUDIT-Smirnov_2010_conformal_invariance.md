@@ -231,3 +231,9 @@
 - 核对：isoradial embedding 续段——circumcircle 同半径 r、Kenyon-Schlenker [KS05] 拓扑充要条件、Baxter [Bax89] Z-invariant graphs 与 eight-vertex/Ising、Mercat [Mer01]、Boutilier-de Tilière [BdT11, BdT10]、Chelkak-Smirnov [CS08]、dimer/UST [Ken02]、star-triangle relation、Cauchy-Riemann 算子离散化高阶成立；circle packings 段——Thurston [Thu86]、Rodin-Sullivan [RS87]（Riemann uniformization 新证）、He-Schramm [HS93]（Koebe conjecture、可数边界分支情形）、Stephenson [Ste05]、non-linear Cauchy-Riemann [BMS05]；§5 Convergence of fermionic observables 标题（at criticality、Theorems 2.11 与 3.15）；§5.1 Convergence of the FK fermionic observable——固定 (Ω,a,b)、F_δ = F_{Ω◇_δ,a_δ,b_δ,p_sd}、三步证明（第一条 bullet：prove the s-holomorphicity of the observable）；页脚印刷页码 35。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：本页为文献密集段（15 个引文键），重导出对账时逐键核对；F_δ 记号的上标 p_sd 堆叠以 PNG 为准。
+
+## p.036（PDF p.36 / 印刷 p.36）
+- PNG：audit/p036.png（pngmono 150dpi）
+- 核对：三步证明续——Second：H_δ 与 s-holomorphic functions F_δ/√(2δ) 的收敛；Third：F_δ/√(2δ) → √φ′；§5.1.1 s-holomorphicity of the (vertex) fermionic observable for FK-Ising 标题；Lemma 5.1——F_δ(e) ∈ ℓ(e)；Proof——winding 取值 W + 2πZ、权重 ∝ e^{iW/2}、b_δ southeast corner、末边向右（◻）；parenthetical remark（FK Dobrushin domain 定义非旋转不变、southeast 条件不影响收敛结果）；Lemma 5.2——公式 (5.1) F_δ(N) − F_δ(S) = i[F_δ(E) − F_δ(W)]（N/E/S/W 为顺时针相邻边）；Proof——v 对应 SE→NW primal edge（NE→SW 类似，Fig. 11）、involution s 切换 v 对应 primal 边开闭、ê_ω ∶= φ_{Ω◇_δ,a_δ,b_δ,p_sd}(ω) e^{(1/2)W_γ(e,b_δ)} 1_{e∈γ}（e 上方是否有 hat 记号在 150dpi 不可确证，该行建议 300dpi 抽查）、F_δ(e) = ½Σ_ω[ê_ω + ê_{s(ω)}]、公式 (5.2) N_ω + N_{s(ω)} − S_ω − S_{s(ω)} = i[E_ω + E_{s(ω)} − W_ω − W_{s(ω)}]、Case 1（γ 不经邻边，(5.2) 平凡成立）与 Case 2 起头；页脚印刷页码 36。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(5.1)/(5.2) 编号齐全；W + 2πZ 的花体 Z、1_{e∈γ} 指示函数下标以 PNG 为准；Fig. 11 在下一页，跨页引用登记。
