@@ -1,3 +1,6 @@
+Annals of Mathematics 185 (2017), 1017–1033
+https://doi.org/10.4007/annals.2017.185.3.8
+
 # The sphere packing problem in dimension 24
 
 By Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska
@@ -16,7 +19,7 @@ Theorem 1.1. The Leech lattice achieves the optimal sphere packing density in$\m
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Miller’s research was supported by National Science Foundation grants DMS-1500562 and CNS-1526333.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">c 2017 by the authors. This paper may be reproduced, in its entirety, for noncommercial purposes.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">© 2017 by the authors. This paper may be reproduced, in its entirety, for noncommercial purposes.</span></small>
 
 In particular, the optimal sphere packing density in$\mathbb { R } ^ { 2 4 }$is that of the Leech lattice, namely,
 
@@ -124,7 +127,7 @@ for$r > 2$, which converges absolutely by these bounds.
 
 Lemma 2.1. The function$r \mapsto a ( r )$analytically continues to a holomorphic function on a neighborhood ofR. Its restriction to R is a Schwartz function and a radial eigenfunction of the Fourier transform in$\mathbb { R } ^ { 2 4 }$with eigenvalue 1.
 
-Proof. We follow the approach of [12], adapted to use modular forms of diferent weight. Substituting
+Proof. We follow the approach of [12], adapted to use modular forms of different weight. Substituting
 
 $$
 - 4 \sin (\pi r ^ {2} / 2) ^ {2} = e ^ {\pi i r ^ {2}} - 2 + e ^ {- \pi i r ^ {2}}
@@ -148,7 +151,7 @@ $$
 \begin{array}{r l} & {a (r) = \int_ {- 1} ^ {i} \varphi \Bigl (- \frac {1}{z + 1} \Bigr) (z + 1) ^ {1 0} e ^ {\pi i r ^ {2} z} d z} \\ & {\qquad + \int_ {1} ^ {i} \varphi \Bigl (- \frac {1}{z - 1} \Bigr) (z - 1) ^ {1 0} e ^ {\pi i r ^ {2} z} d z} \\ & {\qquad - 2 \int_ {0} ^ {i} \varphi \Bigl (- \frac {1}{z} \Bigr) z ^ {1 0} e ^ {\pi i r ^ {2} z} d z + 2 \int_ {i} ^ {i \infty} \varphi (z) e ^ {\pi i r ^ {2} z} d z,} \end{array}\tag{2.6}
 $$
 
-which gives the analytic continuation of a to a neighborhood of R by (2.3) and (2.4). Essentially the same estimates as in Proposition 1 of [12] show that it is a Schwartz function. Specifically, the exponential decay of$\varphi ( z )$as the imaginary part of z tends to infinity sufices to bound all the terms in (2.6), which shows that a and all its derivatives decay exponentially.
+which gives the analytic continuation of a to a neighborhood of R by (2.3) and (2.4). Essentially the same estimates as in Proposition 1 of [12] show that it is a Schwartz function. Specifically, the exponential decay of$\varphi ( z )$as the imaginary part of z tends to infinity suffices to bound all the terms in (2.6), which shows that a and all its derivatives decay exponentially.
 
 Taking the 24-dimensional radial Fourier transform commutes with the integrals in (2.6) and amounts to replacing$e ^ { \pi i r ^ { 2 } z }$with$z ^ { - 1 2 } e ^ { \pi i r ^ { 2 } ( - 1 / z ) }$. Therefore,
 
@@ -266,7 +269,7 @@ $$
 \begin{array}{l l l} \Theta_ {0 0} ^ {4} | _ {2} S = - \Theta_ {0 0} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} S = - \Theta_ {1 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} S = - \Theta_ {0 1} ^ {4}, \\ \Theta_ {0 0} ^ {4} | _ {2} T = \Theta_ {0 1} ^ {4}, & \Theta_ {0 1} ^ {4} | _ {2} T = \Theta_ {0 0} ^ {4}, & \Theta_ {1 0} ^ {4} | _ {2} T = - \Theta_ {1 0} ^ {4}, \end{array}
 $$
 
-where$S = { \binom { 0 } { 1 } } \quad { \overset { - 1 } { 0 } } { \bigg ) } , T = { \binom { 1 } { 0 } } \quad 1 { \bigg ) }$, and
+where$S = \left(\begin{array}{cc} 0 & -1 \\ 1 & 0 \end{array}\right), T = \left(\begin{array}{cc} 1 & 1 \\ 0 & 1 \end{array}\right)$, and
 
 $$
 \big (g | _ {k} M \big) (z) = (c z + d) ^ {- k} g \Big (\frac {a z + b}{c z + d} \Big)
@@ -322,7 +325,7 @@ $$
 - 4 \sin (\pi r ^ {2} / 2) ^ {2} = e ^ {- \pi i r ^ {2}} - 2 + e ^ {\pi i r ^ {2}}
 $$
 
-and shift contours to show that for$r > 2$2
+and shift contours to show that for$r > 2$,
 
 $$
 \begin{array}{r l} & b (r) = \int_ {- 1} ^ {i \infty - 1} \psi_ {I} (z + 1) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i \infty} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ & \qquad + \int_ {1} ^ {i \infty + 1} \psi_ {I} (z - 1) e ^ {\pi i r ^ {2} z} d z \\ & = \int_ {- 1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z + \int_ {1} ^ {i} \psi_ {T} (z) e ^ {\pi i r ^ {2} z} d z - 2 \int_ {0} ^ {i} \psi_ {I} (z) e ^ {\pi i r ^ {2} z} d z \\ & \qquad + 2 \int_ {i} ^ {i \infty} (\psi_ {T} (z) - \psi_ {I} (z)) e ^ {\pi i r ^ {2} z} d z. \end{array}
@@ -406,13 +409,13 @@ To obtain the definition (3.1) of$\psi _ { I }$, we began with the Ansatz that$\
 
 ## 4. Proof of Theorem 1.1
 
-We can now construct the optimal auxiliary function for use in Theorem 1.2. Letπii
+We can now construct the optimal auxiliary function for use in Theorem 1.2. Let
 
 $$
 f (r) = - \frac {\pi i}{1 1 3 2 1 8 5 6 0} a (r) - \frac {i}{2 6 2 0 8 0 \pi} b (r).
 $$
 
-Then$f ( 0 ) = { \widehat { f } } ( 0 ) = 1$, and the quadratic Taylor coeficients of$f$and$\widehat { f }$are $- 1 4 3 4 7 / 5 4 6 0$and$- 2 0 5 / 1 5 6$, respectively, as conjectured in [4]. The functions $f$and$\overrightharpoon { f }$have roots at all of the vector lengths in the Leech lattice, i.e.,$\sqrt { 2 k }$ for$k = 2 , 3 , \ldots$. These roots are double roots except for the root of$f$at 2, where$f ^ { \prime } ( 2 ) = - 1 / \frac { \ d } { \ d t }$16380 (in accordance with Lemma 5.1 in [4]). Furthermore, $f$has the value$1 / 1 5 6$and derivative$- 1 4 6 \sqrt { 2 } / 4 0 9 5$at${ \sqrt { 2 } }$, while$\widehat { f }$has the value$1 / 1 5 6$and derivative$- 5 { \sqrt { 2 } } / 1 1 7$there.
+Then$f ( 0 ) = { \widehat { f } } ( 0 ) = 1$, and the quadratic Taylor coefficients of$f$and$\widehat { f }$are $- 1 4 3 4 7 / 5 4 6 0$and$- 2 0 5 / 1 5 6$, respectively, as conjectured in [4]. The functions $f$and$\widehat { f }$have roots at all of the vector lengths in the Leech lattice, i.e.,$\sqrt { 2 k }$ for$k = 2 , 3 , \ldots$. These roots are double roots except for the root of$f$at 2, where$f ^ { \prime } ( 2 ) = - 1 / 1 6 3 8 0$ (in accordance with Lemma 5.1 in [4]). Furthermore, $f$has the value$1 / 1 5 6$and derivative$- 1 4 6 \sqrt { 2 } / 4 0 9 5$at${ \sqrt { 2 } }$, while$\widehat { f }$has the value$1 / 1 5 6$and derivative$- 5 { \sqrt { 2 } } / 1 1 7$there.
 
 We must still check that f satisfies the hypotheses of Theorem 1.2. We will do so using the approach of [12], with one extra complication at the end.
 
@@ -428,7 +431,7 @@ $$
 \begin{array}{r} A (t) = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) - \frac {1}{6 5 5 2 0 \pi} \psi_ {I} (i t) \\ = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) + \frac {1}{6 5 5 2 0 \pi} t ^ {1 0} \psi_ {S} (i / t). \end{array}
 $$
 
-To show that$f ( r ) \leq 0$for$r \geq 2$with equality only at$r$of the form$\sqrt { 2 k }$ with$k = 2 , 3 , \ldots$, it sufices to show that$A ( t ) \leq 0$. Specifically, A cannot be identically zero since then$f$would vanish as well; given that$A$is continuous, nonpositive everywhere, and negative somewhere, it follows that
+To show that$f ( r ) \leq 0$for$r \geq 2$with equality only at$r$of the form$\sqrt { 2 k }$ with$k = 2 , 3 , \ldots$, it suffices to show that$A ( t ) \leq 0$. Specifically, A cannot be identically zero since then$f$would vanish as well; given that$A$is continuous, nonpositive everywhere, and negative somewhere, it follows that
 
 $$
 \int_ {0} ^ {\infty} A (t) e ^ {- \pi r ^ {2} t} d t <   0
@@ -454,7 +457,7 @@ $$
 \psi_ {S} = - \frac {7 \Theta_ {1 0} ^ {2 0} \Theta_ {0 1} ^ {8} + 7 \Theta_ {1 0} ^ {2 4} \Theta_ {0 1} ^ {4} + 2 \Theta_ {1 0} ^ {2 8}}{\Delta^ {2}}
 $$
 
-immediately implies that$\psi _ { S } ( i t ) \leq 0$, and so to prove (4.1) it sufices to prove that$\varphi ( i t ) \leq 0$. We prove this inequality in Lemma A.1 by bounding the truncation error in the q-series and examining the leading terms (splitting into the cases$t \geq 1$and$t \leq 1 )$. It follows that$f ( r ) \leq 0$for$r \geq 2$, as desired.
+immediately implies that$\psi _ { S } ( i t ) \leq 0$, and so to prove (4.1) it suffices to prove that$\varphi ( i t ) \leq 0$. We prove this inequality in Lemma A.1 by bounding the truncation error in the q-series and examining the leading terms (splitting into the cases$t \geq 1$and$t \leq 1 )$. It follows that$f ( r ) \leq 0$for$r \geq 2$, as desired.
 
 For$r > 2 .$, the analogous formula for$\widehat { f }$is
 
@@ -468,7 +471,7 @@ $$
 \begin{array}{r} B (t) = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) + \frac {1}{6 5 5 2 0 \pi} \psi_ {I} (i t) \\ = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) - \frac {1}{6 5 5 2 0 \pi} t ^ {1 0} \psi_ {S} (i / t). \end{array}\tag{4.3}
 $$
 
-To show that${ \widehat { f } } ( r ) \geq 0$for$r > 2$, it sufices to show that$B ( t ) \geq 0$for all$t \geq 0$ i.e.,
+To show that${ \widehat { f } } ( r ) \geq 0$for$r > 2$, it suffices to show that$B ( t ) \geq 0$for all$t \geq 0$ i.e.,
 
 $$
 \varphi (i t) - \frac {4 3 2}{\pi^ {2}} \psi_ {S} (i t) \geq 0,\tag{4.4}
@@ -478,7 +481,7 @@ for the same reason as we saw above with$A ( t )$. This inequality is Lemma A.2.
 
 The formula (4.2) in fact holds for$r > { \sqrt { 2 } } .$, not just$r > 2 .$. To see why, we must examine the asymptotics of$B ( t )$. There is no problem with the integral in (4.2) as$t \to 0$, because$B ( t )$vanishes in this limit by (2.4) and (3.4). However, the exponential growth of$B ( t )$as$t \to \infty$causes divergence when r is too small for$e ^ { - \pi r ^ { 2 } t }$to counteract this growth. To estimate the growth rate, note that by (2.9) and (3.1), the$e ^ { 4 \pi t }$terms cancel in the asymptotic expansion of$B ( t )$as $t \to \infty$, which means that$B ( t ) = O \bigl ( t e ^ { 2 \pi t } \bigr )$. Thus, the formula (4.2) for$\widehat { f } ( r )$ converges when$r > { \sqrt { 2 } } .$, and it must equal$\widehat { f } ( r )$by analytic continuation. Note that it cannot hold for the whole interval (0, ∞), because that would force$\widehat { f }$ to vanish at$\sqrt { 2 }$, which does not happen.
 
-Thus, (4.2) and the inequality$B ( t ) \geq 0$in fact prove that$\widehat { f } \geq 0$for all $r \geq \sqrt { 2 }$. When$0 < r < { \sqrt { 2 } }$, this inequality no longer implies that${ \widehat { f } } ( r ) \geq 0$ which is a complication that does not occur in [12]. Instead, we must analyze $B ( t )$more carefully.$\mathrm { A s } \ t  \infty$, equations (2.9) and (3.1) show that
+Thus, (4.2) and the inequality$B ( t ) \geq 0$in fact prove that$\widehat { f } \geq 0$for all $r \geq \sqrt { 2 }$. When$0 < r < { \sqrt { 2 } }$, this inequality no longer implies that${ \widehat { f } } ( r ) \geq 0$ which is a complication that does not occur in [12]. Instead, we must analyze $B ( t )$more carefully. As$t \to \infty$, equations (2.9) and (3.1) show that
 
 $$
 B (t) = \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t} + O (t).
@@ -496,7 +499,7 @@ $$
 \int_ {0} ^ {1} B (t) e ^ {- \pi r ^ {2} t} d t + \int_ {1} ^ {\infty} \left(B (t) - \frac {1}{3 9} t e ^ {2 \pi t} + \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\right) e ^ {- \pi r ^ {2} t} d t
 $$
 
-converge for all$r > 0$. The integrand$B ( t )$in the first integral is nonnegative, and thus to prove that${ \widehat { f } } ( r ) \geq 0$for$0 < r < \sqrt { 2 }$it sufices to prove that
+converge for all$r > 0$. The integrand$B ( t )$in the first integral is nonnegative, and thus to prove that${ \widehat { f } } ( r ) \geq 0$for$0 < r < \sqrt { 2 }$it suffices to prove that
 
 $$
 B (t) \geq \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\tag{4.5}
@@ -510,13 +513,13 @@ Combining the results of this section shows that$f$satisfies the hypotheses of T
 
 The proof in Section 4 requires checking certain inequalities for quasimodular forms on the imaginary axis. Fortunately, these inequalities are not too delicate, because equality is never attained. The behavior at infinity is easily analyzed, which reduces the proof to verifying the inequalities on a compact interval, and that can be done by a finite calculation.
 
-Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a diferent approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at$\mathrm { h t t p s } { : } / / \mathrm { d o i . o r g } / 1 0$ 4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not dificult to check in any computer algebra system.
+Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a different approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at https://doi.org/10.4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not difficult to check in any computer algebra system.
 
-To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coeficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign.
+To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coefficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign.
 
-To prove the error bounds, we need to control the growth of the coefi cients. We first multiply by$\Delta ^ { 2 }$to clear the denominators that appear in (2.1), (3.1), and (3.2). The advantage of doing so is that the coeficients of the numerator grow only polynomially. To estimate the growth rate, we bound the coeficient of$q ^ { n }$in$E _ { 2 }$by$2 4 ( n + 1 ) ^ { 2 }$in absolute value, in$E _ { 4 }$by$2 4 0 ( n + 1 ) ^ { 4 }$, and in$E _ { 6 }$by$5 0 4 ( n + 1 ) ^ { 6 }$. It is also not dificult to show that the coeficient of$q ^ { n / 2 }$ in$\Theta _ { 0 0 } ^ { 4 } , \Theta _ { 0 1 } ^ { 4 }$or$\Theta _ { 1 0 } ^ { 4 }$is at most$2 4 ( n + 1 ) ^ { 2 }$in absolute value.<sup>1</sup> Multiplying series is straightforward: if$| a _ { n } | \leq ( n + 1 ) ^ { \ell }$and$| b _ { n } | \leq ( n + 1 ) ^ { m }$, then the coeficients of $\begin{array} { r } { \Big ( \sum _ { n } a _ { n } q ^ { n } \Big ) \Big ( \sum _ { n } b _ { n } q ^ { n } \Big ) } \end{array}$are bounded by$( n + 1 ) ^ { \ell + m + 1 }$. When we add two q-series with coeficients bounded by diferent powers of$n + 1$, we typically produce an upper bound by rounding up the lower power for simplicity. Using these techniques leads to explicit polynomial bounds for the coeficients of$\varphi \Delta ^ { 2 } , \psi _ { I } \Delta ^ { 2 }$ and$\psi _ { S } \Delta ^ { 2 }$by using their definitions in terms of Eisenstein series and theta functions. These bounds are ineficient, but they sufice for our purposes.
+To prove the error bounds, we need to control the growth of the coefficients. We first multiply by$\Delta ^ { 2 }$to clear the denominators that appear in (2.1), (3.1), and (3.2). The advantage of doing so is that the coefficients of the numerator grow only polynomially. To estimate the growth rate, we bound the coefficient of$q ^ { n }$in$E _ { 2 }$by$2 4 ( n + 1 ) ^ { 2 }$in absolute value, in$E _ { 4 }$by$2 4 0 ( n + 1 ) ^ { 4 }$, and in$E _ { 6 }$by$5 0 4 ( n + 1 ) ^ { 6 }$. It is also not difficult to show that the coefficient of$q ^ { n / 2 }$ in$\Theta _ { 0 0 } ^ { 4 } , \Theta _ { 0 1 } ^ { 4 }$or$\Theta _ { 1 0 } ^ { 4 }$is at most$2 4 ( n + 1 ) ^ { 2 }$in absolute value.<sup>1</sup> Multiplying series is straightforward: if$| a _ { n } | \leq ( n + 1 ) ^ { \ell }$and$| b _ { n } | \leq ( n + 1 ) ^ { m }$, then the coefficients of $\begin{array} { r } { \Big ( \sum _ { n } a _ { n } q ^ { n } \Big ) \Big ( \sum _ { n } b _ { n } q ^ { n } \Big ) } \end{array}$are bounded by$( n + 1 ) ^ { \ell + m + 1 }$. When we add two q-series with coefficients bounded by different powers of$n + 1$, we typically produce an upper bound by rounding up the lower power for simplicity. Using these techniques leads to explicit polynomial bounds for the coefficients of$\varphi \Delta ^ { 2 } , \psi _ { I } \Delta ^ { 2 }$ and$\psi _ { S } \Delta ^ { 2 }$by using their definitions in terms of Eisenstein series and theta functions. These bounds are inefficient, but they suffice for our purposes.
 
-When$t \geq 1 , q = e ^ { - 2 \pi t }$is small enough that these coeficient bounds yield a reasonable error term. When$t \leq 1$, we replace it with$1 / t \ ( \mathrm { v i a } \ z \mapsto - 1 / z )$ and compute the corresponding q-expansion.
+When$t \geq 1 , q = e ^ { - 2 \pi t }$is small enough that these coefficient bounds yield a reasonable error term. When$t \leq 1$, we replace it with$1 / t \ ( \mathrm { v i a } \ z \mapsto - 1 / z )$ and compute the corresponding q-expansion.
 
 Lemma A.1. For t > 0,
 
@@ -524,7 +527,7 @@ $$
 \varphi (i t) <   0.
 $$
 
-Proof. First, we prove this inequality for$t \geq 1$, in which case$q = e ^ { - 2 \pi t } <$ $1 / 5 3 5$. The bounds described above show that the coeficient of$q ^ { n }$in$\varphi \Delta ^ { 2 }$is at most$5 1 3 2 0 0 6 5 5 3 6 0 ( n + 1 ) ^ { 2 0 }$in absolute value, and exact computation shows that
+Proof. First, we prove this inequality for$t \geq 1$, in which case$q = e ^ { - 2 \pi t } <$ $1 / 5 3 5$. The bounds described above show that the coefficient of$q ^ { n }$in$\varphi \Delta ^ { 2 }$is at most$5 1 3 2 0 0 6 5 5 3 6 0 ( n + 1 ) ^ { 2 0 }$in absolute value, and exact computation shows that
 
 $$
 \sum_ {n = 5 0} ^ {\infty} \frac {5 1 3 2 0 0 6 5 5 3 6 0 (n + 1) ^ {2 0}}{5 3 5 ^ {n - 6}} <   1 0 ^ {- 5 0}.
@@ -532,17 +535,7 @@ $$
 
 Thus, the sum of the absolute values of the terms in$\varphi \Delta ^ { 2 }$for$n \geq 5 0$amounts to at most$1 0 ^ { - 5 0 } q ^ { 6 }$. Let$\sigma$be the sum of the terms with$n < 5 0$. We use Sturm’s theorem to check that$\sigma + 1 0 ^ { - 5 0 } q ^ { 6 }$never changes sign on (0, 1/535)
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>00</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">D₄</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>10</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.Θ01 = Θ40 − Θ40 .</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">q<sup>1/2</sup>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both and have nonnegative coeficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable from which one can bound their coeficients. Furthermore,</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both Θ<sup>4</sup><sub>00</sub> and Θ<sup>4</sup><sub>10</sub> have nonnegative coefficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable q<sup>1/2</sup>, from which one can bound their coefficients. Furthermore, Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.</span></small>
 
 as a polynomial in$q ,$and we observe that it is negative in the limit as$q \to 0$ This proves that$\varphi ( i t ) < 0$for$t \geq 1$
 
@@ -552,9 +545,9 @@ $$
 - t ^ {2} \varphi (i t) + i t \varphi_ {1} (i t) + \varphi_ {2} (i t) > 0
 $$
 
-for$t \geq 1$. Again we multiply by$\Delta ^ { 2 }$to control the coeficients. This case is more complicated, because there are factors of t and$\pi .$. We replace factors of$\pi$ with rational bounds, namely,$\lfloor 1 0 ^ { 1 0 } \pi \rfloor / 1 0 ^ { 1 0 }$or$\lceil 1 0 ^ { 1 0 } \pi \rceil / 1 0 ^ { 1 0 }$based on the sign of the term and whether it is a positive power of π (so that we obtain a lower bound), and we similarly use the bounds$1 \leq t \leq 1 / \left( 2 3 q ^ { 1 / 2 } \right)$; the latter bound follows from$q = e ^ { - 2 \pi t }$and$t e ^ { - \pi t } \leq e ^ { - \pi } \leq 1 / 2 3$. To estimate the error bound from truncation, we use$q ^ { 1 / 2 } < 1 / 2 3 ;$the result is that the error from omitting the$q ^ { n }$terms with$n \geq 5 0$is at most$1 0 ^ { - 5 0 } q ^ { 6 }$. These observations reduce the problem to showing that a polynomial in$q ^ { 1 / 2 }$with rational coeficients is positive over the interval$( 0 , e ^ { - \pi } )$. Using Sturm’s theorem, we check that it holds over the larger interval (0, 1/23).
+for$t \geq 1$. Again we multiply by$\Delta ^ { 2 }$to control the coefficients. This case is more complicated, because there are factors of t and$\pi .$. We replace factors of$\pi$ with rational bounds, namely,$\lfloor 1 0 ^ { 1 0 } \pi \rfloor / 1 0 ^ { 1 0 }$or$\lceil 1 0 ^ { 1 0 } \pi \rceil / 1 0 ^ { 1 0 }$based on the sign of the term and whether it is a positive power of π (so that we obtain a lower bound), and we similarly use the bounds$1 \leq t \leq 1 / \left( 2 3 q ^ { 1 / 2 } \right)$; the latter bound follows from$q = e ^ { - 2 \pi t }$and$t e ^ { - \pi t } \leq e ^ { - \pi } \leq 1 / 2 3$. To estimate the error bound from truncation, we use$q ^ { 1 / 2 } < 1 / 2 3 ;$the result is that the error from omitting the$q ^ { n }$terms with$n \geq 5 0$is at most$1 0 ^ { - 5 0 } q ^ { 6 }$. These observations reduce the problem to showing that a polynomial in$q ^ { 1 / 2 }$with rational coefficients is positive over the interval$( 0 , e ^ { - \pi } )$. Using Sturm’s theorem, we check that it holds over the larger interval (0, 1/23).
 
-Note that we could have avoided fractional powers of$q$in this proof if we had used a diferent upper bound for$t ,$but fractional powers will be needed to handle$\psi _ { S }$and$\psi _ { I }$in any case. We will use the bounds such as$1 \leq t \leq$ $1 / \big ( 2 3 q ^ { 1 / 2 } \big )$from the preceding proof systematically in the remaining proofs.
+Note that we could have avoided fractional powers of$q$in this proof if we had used a different upper bound for$t ,$but fractional powers will be needed to handle$\psi _ { S }$and$\psi _ { I }$in any case. We will use the bounds such as$1 \leq t \leq$ $1 / \big ( 2 3 q ^ { 1 / 2 } \big )$from the preceding proof systematically in the remaining proofs.
 
 Lemma A.2. For$t > 0$
 
@@ -570,13 +563,13 @@ $$
 - t ^ {2} \varphi (i t) + i t \varphi_ {1} (i t) + \varphi_ {2} (i t) - \frac {4 3 2}{\pi^ {2}} \psi_ {I} (i t) <   0
 $$
 
-for$t \geq 1$. When we multiply by$\Delta ^ { 2 }$and remove the$q ^ { 5 0 }$and higher terms, the error bound is at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem completes the proof. As in the previous proof, this case involves handling factors of t and$\pi .$but they present no dificulties.
+for$t \geq 1$. When we multiply by$\Delta ^ { 2 }$and remove the$q ^ { 5 0 }$and higher terms, the error bound is at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem completes the proof. As in the previous proof, this case involves handling factors of t and$\pi .$but they present no difficulties.
 
 Of course these proofs are by no means optimized. Instead, they were chosen to be straightforward and easy to describe.
 
 The final inequality we must verify is (4.5):
 
-Lemma A.3. For all$t \geq 1$2
+Lemma A.3. For all$t \geq 1$,
 
 $$
 B (t) > \frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}.
@@ -588,7 +581,7 @@ $$
 B (t) - \left(\frac {1}{3 9} t e ^ {2 \pi t} - \frac {1 0}{1 1 7 \pi} e ^ {2 \pi t}\right)
 $$
 
-by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show that removing the$q ^ { 5 0 }$and higher terms introduces an error bound of at most$1 0 ^ { - 5 0 } q ^ { 6 }$2 and Sturm’s theorem again completes the proof.
+by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show that removing the$q ^ { 5 0 }$and higher terms introduces an error bound of at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem again completes the proof.
 
 ## References
 
@@ -606,7 +599,7 @@ by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show tha
 
 [7] T. C. Hales, A proof of the Kepler conjecture, Ann. of Math. 162 (2005), 1065–1185. MR 2179728. Zbl 1096.52010. https://doi.org/10.4007/annals.2005.162.1065.
 
-[8] T. Hales, M. Adams, G. Bauer, D. T. Dang, J. Harrison, T. L. Hoang, C. Kaliszyk, V. Magron, S. McLaughlin, T. T. Nguyen, T. Q. Nguyen, T. Nipkow, S. Obua, J. Pleso, J. Rute, A. Solovyev, A. H. T. Ta, T. N. Tran, D. T. Trieu, J. Urban, K. K. Vu, and R. Zumkeller, A formal proof of the Kepler conjecture, to appear in Forum of Mathematics, Pi. arXiv 1501. 02155.
+[8] T. Hales, M. Adams, G. Bauer, D. T. Dang, J. Harrison, T. L. Hoang, C. Kaliszyk, V. Magron, S. McLaughlin, T. T. Nguyen, T. Q. Nguyen, T. Nipkow, S. Obua, J. Pleso, J. Rute, A. Solovyev, A. H. T. Ta, T. N. Tran, D. T. Trieu, J. Urban, K. K. Vu, and R. Zumkeller, A formal proof of the Kepler conjecture, to appear in Forum of Mathematics, Pi. arXiv 1501.02155.
 
 [9] D. de Laat and F. Vallentin, A breakthrough in sphere packing: the search for magic functions, Nieuw Arch. Wiskd. 17 (2016), 184–192. arXiv 1607.02111.
 
@@ -616,7 +609,7 @@ by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show tha
 
 [12] M. S. Viazovska, The sphere packing problem in dimension 8, Ann. of Math. 185 (2017), 991–1015. arXiv 1603.04246. https://doi.org/10.4007/annals.2017.185.3.7.
 
-[13] D. Zagier, Elliptic modular forms and their applications, in The 1-2-3 of Modular Forms, Universitext, Springer-Verlag, New York, 2008, pp. 1–103. MR 2409678. Zbl 1259.11042. https://doi.org/10.1007/978-3-540-74119-0 1.
+[13] D. Zagier, Elliptic modular forms and their applications, in The 1-2-3 of Modular Forms, Universitext, Springer-Verlag, New York, 2008, pp. 1–103. MR 2409678. Zbl 1259.11042. https://doi.org/10.1007/978-3-540-74119-0_1.
 
 (Received: May 23, 2016)
 
@@ -632,8 +625,8 @@ Berlin Mathematical School and Humboldt University of Berlin,
 
 Berlin<sub>,</sub> Germany
 
+Current address : École Polytechnique Fédérale de Lausanne,
+
 Lausanne<sub>,</sub> Switzerland
 
 E-mail : viazovska@gmail.com
-
-Current address : Ecole Polytechnique F <sup>´</sup> ed<sup>´</sup> erale de Lausanne, <sup>´</sup>
