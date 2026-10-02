@@ -381,3 +381,10 @@
 - 证据：源 PDF p.052 文本层、页图 `audit/Hironaka_1964_resolution_partI_p052.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p052_theorem_IIprime.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p052_Zariski_notation.png`，并比对 MinerU Markdown 第 827、829–837 行。页首印刷写作 `II′(N)`，Markdown 第 827 行误录为希腊字母 `\Pi′(N)`。本页关于解析情形的限制、维数界、Question (M)、Zariski 空间及其规范态射、下标 0 和脚注 27 的正文均与印刷页对应；300dpi 裁片确认字体化 Z 及其下标，Markdown 对应使用 `\mathfrak{Z}`/`\mathfrak{Z}_0`。
 - 备注：印刷运行页眉和页码 159 未录入 Markdown，属导航元素省略。
 - 结论：定理 II′ 标识误录为 Pi′，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.053 / 96（印刷 p.160）— FAIL
+
+- 时间：2026-10-02 03:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.053 文本层、页图 `audit/Hironaka_1964_resolution_partI_p053.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p053_IIprime_and_note28.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p053_G_and_footnote.png` 与 MinerU Markdown 第 839、845 行。印刷称 `main theorem II′(3)`，Markdown 第 839 行误录为 `\Pi′(3)`；并且印刷在 `n=dim(X)` 后有脚注标记 28，Markdown 第 839 行漏掉该锚点，虽然脚注 28 的正文保留在第 845 行。图像还确认印刷写作 `g: X_i \to X`（此处确为小写下标 i），以及例中关于 $X_i$、$h_1$、$h_2$、变换序列、维数界与局部图的其余记号/叙述均与 Markdown 对应。
+- 备注：印刷运行页眉和页码 160 未录入 Markdown，属导航元素省略。
+- 结论：主定理 II′ 标识误录为 Pi′，且正文遗漏脚注 28 锚点（脚注本身仍在）；列为 FAIL，待全篇审计后逐处手工修复。
