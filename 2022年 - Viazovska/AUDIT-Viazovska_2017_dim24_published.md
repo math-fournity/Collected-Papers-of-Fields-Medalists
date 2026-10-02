@@ -285,6 +285,72 @@
   不改变内容）；作者 small caps 拍平同 p.16
 - 结果：PASS（修复后）
 
+## 收尾终验（closeout：全文复读 + 修复登记 + 复读收据；Wf-P41，2026-10-02）
+
+### 抽查覆盖声明
+
+- **非抽查**：17/17 页全部逐页审计（两块连续执行），每页双通道（pdftotext born-digital
+  文本层主对账 + 150dpi pngmono 整页目检仲裁），证据图 audit/p001–p017.png 全数入库。
+- 修复方式：全部经 Edit 工具逐处结构化修改，无脚本写回；脚本仅用于只读清点
+  （tag/系数串/伪影串/FFFD 计数）。
+
+### 修复登记（40 处；每处：页码 + 内容 + 依据 + 所在 commit）
+
+| # | 页 | 内容 | 依据 | commit |
+|---|----|------|------|--------|
+| 1 | p.1 | 补回期刊头两行 185 (2017), 1017–1033 + DOI URL | p001.png+文本层 | 47b19894 |
+| 2 | p.1 | 页底脚注 c→© | p001.png | 47b19894 |
+| 3 | p.4 | diferent→different | 文本层+p004.png | 210e6063 |
+| 4 | p.5 | sufices→suffices | 文本层+p005.png | 0fecb9b0 |
+| 5 | p.8 | S/T 矩阵按原图重建（T 阵末元素丢失） | p008.png | a11df0b4 |
+| 6 | p.9 | 「for$r>2$2」游离 2→逗号 | 文本层+p009.png | c04828b7 |
+| 7 | p.11 | Letπii→Let | 文本层+p011.png | b4c9939b |
+| 8 | p.11 | coeficients→coefficients | 文本层+p011.png | b4c9939b |
+| 9 | p.11 | \overrightharpoon{f}→\widehat{f} | p011.png | b4c9939b |
+| 10 | p.11 | −1/$\frac{\d}{\dt}$16380 乱码→−1/16380 | 文本层+p011.png | b4c9939b |
+| 11 | p.11 | sufices→suffices | 文本层+p011.png | b4c9939b |
+| 12 | p.12 | (4.1) 前 sufices→suffices | 文本层+p012.png | 9bfc3cbf |
+| 13 | p.12 | (4.4) 前 sufices→suffices | 文本层+p012.png | 9bfc3cbf |
+| 14 | p.13 | As t ∞ 丢箭头→As t→∞ | 文本层+p013.png | e74246ac |
+| 15 | p.13 | sufices→suffices | 文本层+p013.png | e74246ac |
+| 16 | p.13 | diferent approach→different | 文本层+p013.png | e74246ac |
+| 17 | p.13 | DOI URL 乱码→纯文本 10.4007/annals.2017.185.3.8 | p013.png+p.1 题录 | e74246ac |
+| 18 | p.13 | 【复读补修】dificult→difficult | 文本层末句+p013.png | 8092adf8 |
+| 19 | p.14 | 行518 coeficients→coefficients | 文本层+p014.png | a0beaad4 |
+| 20–28 | p.14 | 行520 九处词形（coefi cients/coeficients/coeficient ×5、dificult、diferent、ineficient、sufice） | 文本层+p014.png | a0beaad4 |
+| 29 | p.14 | 行522 coeficient→coefficient | p014.png | a0beaad4 |
+| 30 | p.14 | 行530 coeficient→coefficient | p014.png | a0beaad4 |
+| 31 | p.14 | 脚注 1 六块乱序重排+补主语宾语+coeficients ×2 | p014.png 页底脚注 | a0beaad4 |
+| 32 | p.15 | control the coeficients→coefficients | 文本层+p015.png | e564eeab |
+| 33 | p.15 | rational coeficients→coefficients | p015.png | e564eeab |
+| 34 | p.15 | diferent upper bound→different | p015.png | e564eeab |
+| 35 | p.15 | dificulties→difficulties | p015.png | e564eeab |
+| 36 | p.16 | Lemma A.3 游离 2→逗号 | 文本层+p016.png | a4cab958 |
+| 37 | p.16 | q⁶ 后游离 2→逗号 | p016.png | a4cab958 |
+| 38 | p.16 | [8] arXiv 1501. 02155→1501.02155（断行并行） | p016.png | a4cab958 |
+| 39 | p.17 | [13] DOI 74119-0 1→74119-0_1（print 下划线） | p017.png | 8c99b674 |
+| 40 | p.17 | Viazovska 地址块乱序重排+É/é 还原+删孤儿 ´ | p017.png | 8c99b674 |
+
+- print quirk 忠实保留（不改，已登记）：p.2 "Theorem 1.1"、p.15 "for t ≥ 1"（t≤1 情形换元后
+  原文如此）、数字空格展开、双句点族（$r>2 .$ 型）、<sub>,</sub> 逗号、small caps 拍平。
+
+### 复读收据（2026-10-02，Wf-P41）
+
+- **复读方式**：Read 工具全文重读（1–320、321–632 两窗），逐项回核 40 处修复全部在位、
+  与页面证据一致、无遗漏、无新引入差异。
+- **复读疑点排除记录**：复读中曾疑行 145 第三项 φ₂ 写作 `\phi_2`（与全文 `\varphi` 不一致）；
+  经字节级核验（`python3 -c` 正则 + `od -c`）文件实际为 `\varphi_ {2} (z - 1)`，全文不存在
+  裸 `\phi`，系复读端误读，未做修改、未引入新差异。
+- **只读清点结果**：`\tag` 共 20 个且编号齐全（2.1–2.10、3.1–3.5、4.1–4.5）；
+  U+FFFD = 0；残留错字词形（coeficients/diferent/sufice/dificult/ineficient 等）= 0；
+  `$` 配对偶数（888 个）；裸 `\phi` = 0。
+- **最终实物**：修复后 Markdown 共 **632 逻辑行**（`wc -l` = 631，因末行无换行符），
+  **SHA-256 = `38ac56b12a25a6e94a3bec21ecea592311822834ef1d321b0e7c69fc50adf131`**
+  （`shasum -a 256` 实测）。原始 mineru 基线（SHA `bed8ba550cc6795d2dd730cbf788d1738dc988c4916cecbbce86fd7f2f84de31`）
+  → 修复后终态的完整 diff 链保留于 git 历史（17 个页级 commit + 8092adf8 + 本 closeout commit）。
+- **残留问题**：无未决内容问题；仅存已登记不改的排版伪影与两处 print quirk（见上）。
+
+
 
 
 
