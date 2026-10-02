@@ -176,6 +176,12 @@
 - 核对：(6.7) 两段式（(1+2^j)N 分离项与 A′B′≠0 substack）、§6.3 退化情形引（A′B′=(C′)²、三平方和等式条件）、k″_i=pz_i/ℓ″_i=qz_i、(6.8) 双段链（p,q≲N/√m 与 mp²,mq²≲N²、√m）、Lemma 6.4（satisying 原刊拼写、⪰_{α,β}N^{−2}）、Proof 的 E 集合与 |E|≤N^{−2−τ}min(1/(mq²−m′(q′)²), 1/(mp²−m′(p′)²))、Σ|E|∼N^{−2−τ}Σ(1/d)Σ、p′-bounds display（√max(mp²−d,0)/√m′ ≤ p′ ≤ √(mp²+d)/√m′）
 - 结果：PASS±。本页（至 p′-bounds display，MD L1233）全部公式与印刷逐项一致；⪰ 方向与下标 α,β 忠实（Luna 旧基线的"符号方向转成 \succeq"实为正确转录，印刷即 ⪰）。print quirk 忠实保留："satisying"（L1211，原刊拼写）。残余瑕疵（不误导，不改）：L1195 "k″ = 0 or ℓ″ = 0" 后缺句号。
 - 备注：Luna 旧修复抽核通过——旧基线 p.22 的"判别式条件拆乱"在当前 MD 已不存在；(6.7)(6.8) 结构完整对位。
+
+## p.023（PDF p.23 / 印刷 p.23）
+- PNG：audit-redo/p023.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：p′ 计数 display（1+d/√(m′(mp²+d))）、(p,p′) 求和 ≼N/√m+d/√(mm′)、d 定义链 ≼N²、"there are most O(N^ε)" divisor 段及 1/d² 链 ≼N²、Σ|E|<∞ 与 Borel-Cantelli 收尾（□）、(6.9) ≼(2^jN²+1)N、§6.4 节引（U=h^{−2}A′ 等）、(6.10)、|U+Vα+Wβ|⪰_{α,β}h⁴/N⁴、h≤N^{1/2} 求和 ≲2^jN⁴+N、"this should heuristically" 段首
+- 结果：PASS±。本页（至 "this should heuristically"，段落在 MD L1287 跨页延续）全部公式与印刷逐项一致；□ 结束框在位。print quirk 忠实保留："there are most O(N^ε)"（L1253，原刊漏 "at"）。残余瑕疵（不误导，不改）：L1275 "W=h^{-2}C′" 后 MD 添有原刊没有的逗号（印刷 "W = h−2C′ we deduce"，无逗号）。
+- 备注：Luna 旧修复抽核通过——旧基线 p.23 的"mq²/d 带点横线变量""h,U,V 定义多出点横线""方框控制字符"在当前 MD 均已不存在。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
