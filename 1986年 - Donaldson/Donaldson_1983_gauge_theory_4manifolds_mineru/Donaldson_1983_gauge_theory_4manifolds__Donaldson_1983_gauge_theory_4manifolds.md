@@ -574,7 +574,7 @@ $$
 \tilde {V} = \widetilde {(T ^ {*} X) \otimes \mathfrak {g}}, \quad \tilde {W} = \widetilde {\mathfrak {g} \oplus \lambda^ {2} (T ^ {*} X) \otimes \mathfrak {g}},
 $$
 
-over the product $\mathcal{A} / \mathcal{G}_0\times X = \hat{\mathcal{B}}\times X$ , and a family of operators:
+over the product $\mathcal{Q} / \mathcal{G}_0\times X = \hat{\mathfrak{B}}\times X$ , and a family of operators:
 
 $$
 L _ {[ A ]} = d _ {A} ^ {*} + d _ {A} ^ {-} + (\nabla \sigma) _ {A} \colon \Gamma (\tilde {V} _ {[ A ]}) \rightarrow \Gamma (\tilde {W} _ {[ A ]}).
@@ -583,10 +583,10 @@ $$
 Note first that the natural projection
 
 $$
-\hat {\mathcal {B}} \stackrel {\pi} {\rightarrow} \mathcal {B}
+\hat {\mathfrak {B}} \stackrel {\pi} {\rightarrow} \mathfrak {B}
 $$
 
-becomes a fibration when restricted to the dense open subset $\mathcal{B}^* \subset \mathcal{B}$ of irreducible connections, with fibre $SO(3)$; hence the tangent bundle to $\mu^\sigma \cap \mathcal{B}^*$ will be orientable if and only if its lift to $\pi^{-1}(\mu^\sigma \cap \mathcal{B}^*)$ is.
+becomes a fibration when restricted to the dense open subset $\mathfrak{B}^* \subset \mathfrak{B}$ of irreducible connections, with fibre $SO(3)$; hence the tangent bundle to $\mu^\sigma \cap \mathfrak{B}^*$ will be orientable if and only if its lift to $\pi^{-1}(\mu^\sigma \cap \mathfrak{B}^*)$ is.
 
 Second we recall that the characteristic class  $w_{1}$  is defined on KO, and since by the property (\*) above:
 

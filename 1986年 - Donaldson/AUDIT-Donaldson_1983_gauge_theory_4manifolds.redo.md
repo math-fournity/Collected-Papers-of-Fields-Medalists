@@ -179,3 +179,12 @@
   - **修复×3**：① 行 537 "an $L_3^2$ bound on Φ+σ" → `$L_4^2$`（300dpi 确认印刷为 L²₄；界链为 L²₄→给 L²₃→得 L²₄）；② 行 537 `$L_4^2 \Leftrightarrow L_3^2$` → `\Rightarrow`（300dpi 确认双线 ⇒，本块第 4 例同型错误）；③ 行 563 脚注尾 "dense in Q" → `$\mathcal{Q}$`（300dpi 确认草书 𝒬）。
   - 印刷 quirk 登记（不改）：脚注标 ¹ 与 "covering¹ U" 原位保留（md `covering$^1$$U$`）；行 537 `$T_{A,\epsilon}$` 用 `\epsilon` 而全文他处用 `\varepsilon`——同一印刷字形，MinerU 宏不一致，语义无损。
 - 修复登记：行 537 `L_3^2`→`L_4^2`（首个界）、`\Leftrightarrow`→`\Rightarrow`；行 563 `Q`→`$\mathcal{Q}$`（依据 `audit-redo/p015.png` + 300dpi 裁片）。
+
+### p.016（PDF p.16 / 印刷 p.294）
+
+- PNG：`audit-redo/p016.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（乘积商空间行、𝔅̂→π𝔅 显示式、μσ 字形、𝔅̂(M,n,k) 帽号，结论记于本条）
+- 核对：(*) 显示式与 coKer/CoKer 大小写；KO 增广句；𝒢₀⊂𝒢 与 "on P_{x₀}. Then" 段；Ṽ/W̃ 显示式（整体宽 tilde）；𝒬/𝒢₀×X=𝔅̂×X；L_[A] 显示式；𝔅̂→π𝔅 投影；μ^σ∩𝔅* 可定向段；π*(Tμ^σ)=Ind{L_[A]} 式；w₁=0∈H¹(𝔅̂;Z/2)；柱面族 Ind{L_[A]}=Ind{d_A*+d_A⁻}∈KO(𝔅̂)；Lemma 10 全文
+- 结果：**PASS±**（含四处花体/Fraktur 修复）。
+  - 与页图一致：`ind\{L_t\}|_S=\operatorname{Ker}\{L_t\}-\operatorname{CoKer}\{L_t\}\in KO(S)`（正文 coKer 小写 co、显示式 CoKer 大写 C 系印刷原样，md 两处分别正确）；KO(T)→**Z**；Ṽ/W̃ 显示式的整体宽 tilde（`\widetilde{(T^*X)\otimes\mathfrak{g}}` 等）；`L_{[A]}` 显示式；`d_A^*+d_A^-+t(\nabla\sigma)_A\colon L_3^2\to L_2^2`；`Ind\{d_A^*+d_A^-\}\in KO(\hat{\mathfrak{B}})`；Lemma 10 的 `P_k`/`SU(n)`/`c_2=k`；μ^σ 系印刷原样（300dpi 确认为小写希腊 μ，非 Fraktur 𝔐——语义上应为 moduli space 的笔误，但 Luna 忠实保留 μ，本次不改并在此登记）；`\hat{\mathfrak{B}}(M,n,k)` 帽号（300dpi 确认印刷有 hat，md 正确）。
+  - **修复×4**：① 行 577 `over the product $\mathcal{A}/\mathcal{G}_0\times X$` → `$\mathcal{Q}/\mathcal{G}_0\times X$`（300dpi 放大确认印刷为草书 𝒬，即连接空间 𝒬 对受限规范群 𝒢₀ 的商，Luna 误作 𝒜）；② 行 577 `= \hat{\mathcal{B}}\times X` → `\hat{\mathfrak{B}}`；③ 行 586 投影显示式 `\hat{\mathcal{B}}\to\mathcal{B}` → `\hat{\mathfrak{B}}\to\mathfrak{B}`（300dpi 确认首个 B 带 hat、均为 Fraktur）；④ 行 589 `$\mathcal{B}^*\subset\mathcal{B}$` 与同句 `$\mu^\sigma\cap\mathcal{B}^*$` 两处 → `\mathfrak{B}`（同段行 594/597 Luna 又用 `\mathfrak{B}`，同段自相矛盾）。
+- 修复登记：行 577 两处；行 586 两处；行 589 三处 `𝔅` 字形（依据 `audit-redo/p016.png` + 300dpi 裁片）。
