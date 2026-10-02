@@ -141,3 +141,11 @@
 - 核对：S(N,k,ε) 引言、(3.1.3)（Shimura [51] th. 3.52、[11] prop. 2.7）、(3.1.4) T_l/U_l 作用式（ε(l)l^{k−1}、l∤pN、l|pN）、U_p 为 T_p (ε₀(p)p^{k−1}) 的 mod p 约化句、k ⩾ 2、(3.1.5)（f ≠ 0、a₁ = 1 正规化、T_l(f) = a_l f / U_l(f) = a_l f）、L_f(s) = Σ aₙn^{−s}、Euler 积、f 由 a_l 决定句、(3.1.6)（F de type (N,k,ε₀)、à coefficients dans Z̄、A₁ = 1、F̃ = f）。
 - 结果：FAIL。两处已依原图修复：① (3.1.5) 中 “T_l(f) = a_l f pour **l ⊬ pN**”（Duke 字体不整除符 ⊬ 呈 + 样，与 (3.1.4) 的 l∤pN 同字形，见裁片 nmid_glyphs）在 Markdown 写成真加号 “l + pN”，修为 l \nmid pN；② (3.1.6) 中 “T_l(**l ⊬ N**)” 同样被写成 “l + N”，修为 l \nmid N。
 - 备注：Euler 积因子-下标配对经 300 dpi 裁片确认与 Markdown 一致（∏_{l|pN}(1−a_l l^{−s})^{−1}·∏_{l∤pN}(1−a_l l^{−s}+ε(l)l^{k−1}l^{−2s})^{−1}），且与 T_l/U_l 定义及经典好/坏素数因子结构吻合，150 dpi 阶段的 “颠倒” 怀疑系误读；(3.1.6) “à coefficients dans Z̄” 的 Z 带 bar（裁片确认），Markdown \overline{\mathbf{Z}} 一致；页眉 “194 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “A₁ = 1; F̃ = f.”。
+
+## p.017（PDF p.17 / 印刷 p.195）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p017.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p017_Al_line.png`、`audit/300dpi/serre1987_p017_reecrite.png`、`audit/300dpi/serre1987_p017_rho_simeq.png`（pnggray）。
+- 核对：En effet 提升句（[11] lemme 6.11、Ã_l = a_l、F̃ = f）、(Bien entendu…) 非唯一性括注、(3.1.7) Deligne 定理与 ρ_f: G_Q → GL₂(F̄ₚ)、(D) 性质（Frob_l 非分歧）、(3.1.8) Tr ρ_f(Frob_l) = a_l、(3.1.9) det ρ_f(Frob_l) = ε(l)l^{k−1}、(3.1.10) det ρ_f = ε·χ^{k−1}、Compte tenu 段（det ρ_f(c) = −1、caractère impair）、Remarque（niveau p^mN、poids 2/niveau p ⇔ poids p+1/niveau 1、[43] th. 11）、3.2 节标题与 ρ: G_Q → GL(V) ≃ GL₂(F̄ₚ)、F̄ₚ-espace vectoriel 句。
+- 结果：PASS。全部文字与公式吻合。
+- 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① 印刷确为 “Ã_l = a_l”（A 带 tilde，Markdown \tilde{A}_l 一致）；② 印刷确为 “récrite”（单 e，Markdown 一致）；③ 3.2 节 ρ 式连接号确为 ≃（Markdown \simeq 一致）。(D) 段 “et, si l'on note” 的逗号为 Markdown 增益标点，语义无差，排版级不改；Remarque 段 \overline{F}_p 非粗体体例同前登记；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 195” 未收入 Markdown，排版级。印刷页止于 “V étant un F̄ₚ-espace vectoriel de dimension 2. On”。
