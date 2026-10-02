@@ -40,6 +40,14 @@
 - 结果：PASS
 - 备注：print quirk 忠实保留——"formal expressions ," 逗号前空格、"( they must satisfy" 括号内空格、"can not" 分写、"three manifolds" 无连字符，MD 与印刷一致。
 
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit-redo/p005.png（pngmono 150dpi）
+- 核对：节标题 "1 Ricci flow as a gradient flow"、1.1 泛函 F=∫(R+|∇f|²)e^{−f}dV、一阶变分 display 公式逐项、1.2 Proposition（F^m ≤ n/2T ∫dm）、(1.1)/(1.2)/(1.3)
+- 结果：FAIL（一处逻辑词丢失）——已按原图修复
+- 差异：印刷 "Notice that v/2−h vanishes identically **iff** the measure dm=e^{−f}dV is kept fixed"，MD 原文作 "if"（丢 ff，改变逻辑强度）。PNG（p005.png 第 5 段）与 pdftotext p.5 双证 "iff"。以原图为准，已 Edit 补为 "iff"。
+- 备注：其余（变分公式三行逐项、(1.1)–(1.3) 编号与内容、Proposition 陈述无句号 print 原样）一致。
+
+
 
 
 
