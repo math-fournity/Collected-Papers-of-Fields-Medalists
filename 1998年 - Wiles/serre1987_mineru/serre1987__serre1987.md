@@ -378,7 +378,7 @@ $$
 \det \rho_ {p} = \varepsilon_ {p} \cdot \chi^ {k - 1},\tag{2.5.2}
 $$
 
-où $\varepsilon_{p}$ est un caractère non ramifié de $G_{p}$ à valeurs dans $\overline{\mathbf{F}}_{p}^{*}$. Dans le cas où $\rho_{p}$ provient d'une représentation globale $\rho$ de $\operatorname{Gal}(\overline{\mathbf{Q}}/\mathbf{Q})$, le caractère $\varepsilon_{p}$ n'est autre que la $p$-composante du caractère $\varepsilon$ défini au n° 1.3; on a
+où $\varepsilon_{p}$ est un caractère non ramifié de $G_{p}$ à valeurs dans $\mathbf{F}_{p}^{*}$. Dans le cas où $\rho_{p}$ provient d'une représentation globale $\rho$ de $\operatorname{Gal}(\overline{\mathbf{Q}}/\mathbf{Q})$, le caractère $\varepsilon_{p}$ n'est autre que la $p$-composante du caractère $\varepsilon$ défini au n° 1.3; on a
 
 $$
 \varepsilon_ {p} \left(\operatorname{Frob} _ {p}\right) = \varepsilon (p),\tag{2.5.3}
