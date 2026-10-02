@@ -240,3 +240,11 @@
 - 核对：Soit J 段（Spec(Z) − {p}、ρ: G_Q → GL₂(F_p)、Raynaud [35] prop. 3.3.2）、LEMME 3（三选项 Z/pZ ⊕ Z/pZ、Z/pZ ⊕ μ_p、μ_p ⊕ μ_p）、0 → A → J → B → 0、Oort-Tate [34] 句、Fontaine [15] n° 3.4.3、LEMME 4（det ρ = χ、χ^i、0 ⩽ i ⩽ p−2、i = 0,1,2、Minkowski、i = 1）、th. 3 证明收尾（(1,2,1)、(3.3.1?)、prop. 7）、Remarques (1)（p = 3…17、(p,…,p)、Fontaine [15]）、(2)（Z/2Z 组合、extension non scindée、ρ = (1 u; 0 1)）。
 - 结果：PASS。公式、引用编号、记号（⊕、μ_p、χ^i）全部与印刷吻合。
 - 备注：Markdown 将 “LEMME 4” 行标记为 ## 标题（其余 LEMME 为正文段落），渲染样式差异不改变内容，排版级不改；F_p/G_Q 等粗体一致；页眉 “206 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 ρ = (1 u; 0 1) 式，“où u: G_Q → Z/2Z…” 句属印刷 p.207。
+
+## p.029（PDF p.29 / 印刷 p.207）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p029.png`（pngmono，150 dpi）。
+- 核对：u 核 Gal(Q̄/Q(i)) 句、2-division 曲线 y² + xy + y = x³ − x² − x − 14（conducteur 17、discriminant −17⁴）、4.6 节标题（j_E、N）、THÉORÈME 4（Admettons (3.3.1?)、courbe de Weil de niveau N）、J₀(N)/X₀(N) 括注、ρ_p^E 定义、(4.6.1) det ρ_p^E = χ、LEMME 5（C_E）、(4.6.2)/(4.6.3)、Mazur [29] p > 163 句、[18],[40],[49]、N_p divise N、p ⩾ 5 条件句、(a) p∤N、(b) v_l(N) = 1 ⇒ p∤v_l(j_E)、Noter 括注（v_l(j_E) < 0）、Bornons-nous 段（ρ_{f_p}、f_p = Σa_{n,p}qⁿ、F̄ₚ）、(3.1.6) relève 句。
+- 结果：PASS。公式、引用编号、上下标（−17⁴、a_{n,p}）全部与印刷吻合。
+- 备注：“− 1 4” 数字带空格渲染 14，排版级；valuation 记号 v_l 与印刷一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 207” 未收入 Markdown，排版级。印刷页止于 “il existe une forme parabolique de poids 2 et de niveau N”，F = ΣAₙqⁿ 式属印刷 p.208。
