@@ -11,7 +11,14 @@
 - PDF 类型：扫描件。`pdftotext -layout` 输出仅 66 个分页符、无正文文字；因此按全页图模式逐页检查。
 - MinerU 来源元数据：`middle_json.json` 显示 MinerU 3.4.4、tier `basic`、parse_mode `ocr`，66 页；所检查的 `middle_json.json` 与 `structured_content.json` 均未提供 `doc_id` 字段，故记录为 `UNKNOWN / NOT EXPOSED IN SOURCE BUNDLE`。
 - 方法：逐页以 Ghostscript `pngmono` 150dpi 渲染、目检原图并对照 Markdown；字形无法由 150dpi 唯一判定时另存本篇前缀 300dpi 裁片。PDF 与其余 MinerU 导出资产保持只读。
-- 状态：逐页审计进行中；本文件与图片属于候选证据，尚未集成至 canonical `main`。
+- 状态：逐页审计已完成（66/66；65 FAIL、1 PASS±）；MinerU 正文修复尚未开始；本文件与图片仍为候选证据，未集成至 canonical `main`。
+
+## 总评与覆盖声明
+
+- 总评：66 页均已逐页检查原始扫描图并对照 MinerU Markdown。计分为 65 页 FAIL、1 页 PASS±、0 页 PASS。多页出现数学记号/映射关系误识、公式结构损坏或整段证明内容缺失；原始 OCR 尚不满足按内容直接使用的条件，具体差异和 print 源级写法均保留在对应页记录。
+- 覆盖：66/66 页均有 repo 内 150dpi `pngmono` 全页图并完成目检，不是抽样审计；遇到需要字形/公式裁决的页面，记录了 300dpi 裁片。p.66 原图极淡，因此另存原始 300dpi 灰度裁片及线性调色观察副本；调色副本不替代原始灰度证据。
+- 修复与验证状态：本轮仅完成原图对照和审计记录；MinerU Markdown 未编辑，修复后复读与终验均未执行。p.66 具体公式及 Lemma 1 的最终收尾因原图对比度不足保持 `UNKNOWN`，不从上下文推定。
+- 来源元数据：`middle_json.json` 与 `structured_content.json` 未暴露 MinerU `doc_id`；当前记录为 `UNKNOWN / NOT EXPOSED IN SOURCE BUNDLE`。
 
 ## 逐页审计
 
