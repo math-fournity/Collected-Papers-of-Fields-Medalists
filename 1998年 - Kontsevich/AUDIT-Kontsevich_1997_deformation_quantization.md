@@ -114,3 +114,10 @@
 - 核对：Def_M 函子对应段（行 673）、四条性质 1)–4)（3.2 等价、自然变换、直和→函子积、linear contractible→平凡）、"Properties 2)-4)…Q.E.D."、super Q-manifold 推广段、§4.6/§4.6.1 节标题、D_poly(X) 定义段与 Hochschild 余链公式、T_poly(X)=Γ(X,∧^{n+1}T_X)、Schouten-Nijenhuis 括号两条公式（含 (−1)^{i+j+k} 与 (−1)^i ξ_i(h)）、De Rham 分叉段（ψ_i 奇变量）、[γ₁,γ₂]=γ₁•γ₂−(−1)^{k₁k₂}γ•γ₁ 与 γ₁•γ₂ 定义式（MD 行 673–734）。
 - 结果：`FAIL`→3 处已修复：①行 681 `$Def_{\mathbf{g}_1}\times Def_{\mathbf{g}_2}$，` 全角逗号 U+FF0C→ASCII `,`（杂散字符）；②行 683 `linear contractible L -algebra g`→`$L_{\infty}$-algebra`（∞ 丢失，本块第 2 处同型）；③行 699 `are functions in$(x_i)$`→`$(x^i).$`（印刷上标 x^i+句点，下标错为上标且缺句点）。print quirk 忠实保留：行 728 印刷第二项确为 `γ•γ₁`（无下标 2，应为 γ₂，原文如此）；行 731 `where introduce the following notation:`（原文缺 we）。其余 PASS±：`diferential`×5/`polydiferential`/`coeficients`（ff 拍平，含 §4.6.1 标题）。公式行 696/704/710/714/718/722/734 与印刷逐符号吻合。
 - 备注：行 737 起（evident map U₁^{(0)}）为印刷 p.16 内容，在 p.016 核对。
+
+## p.016（PDF p.16 / 印刷 p.16）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p016.png`（pngmono 150dpi）
+- 核对：U₁^{(0)}:T_poly(X)⟶D_poly(X) 定义式（Hochschild-Kostant-Rosenberg 型 symmetrization 求和 + h↦(1↦h)）、§4.6.1.1/Theorem（U₁^{(0)} 是复形态射拟同构）、KHR 定理段（⊕_{k≥0}Γ(X,∧^kT_Y)[−k]）、 filtration 论证段与 Gr(U₁^{(0)}):Gr(T_poly)⟶Gr(D_poly) 式、principal symbols 段（Sym(T)⊗…⊗Sym(T)）、𝒞:=C(T)⊕(k·1)* 式、f↦(D(f))(0) 式、coproduct Δ 与纤维微分 d:⊗^{n+1}𝒞⟶⊗^{n+2}𝒞 完整公式（MD 行 737–783）。
+- 结果：`FAIL`→2 处已修复：①行 747 `on$Y .$. Analogous` 双句点→`on$Y$.`；②行 777 `coalgebra$\mathcal{C} .$. It` 双句点→`$\mathcal{C}$.`。print quirk 忠实保留：行 765 印刷原文 "It better to identify"（缺 is，原文如此）。其余 PASS±：行 747 `afine`、行 749/751/757/759/771/777 `diferential`/`polydiferential`/`coeficients`（ff 拍平）；行 757 `$A=C^{\infty}(X)$` 后缺句点（登记）。公式行 740/754/762/768/774/780 与印刷逐符号吻合。
+- 备注：行 785 起（Lemma. Let be the cofree…）为印刷 p.17 内容，在 p.017 核对。

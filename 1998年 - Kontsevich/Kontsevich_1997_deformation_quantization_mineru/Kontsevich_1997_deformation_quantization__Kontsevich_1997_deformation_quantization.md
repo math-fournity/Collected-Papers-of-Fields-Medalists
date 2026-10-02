@@ -744,7 +744,7 @@ $$
 
 Theorem.$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is a quasi-isomorphism of complexes.
 
-This is a version of Kostant-Hochschild-Rosenberg theorem which says that for a smooth afine algebraic variety$Y$over field k of characteristic zero, the Hochschild cohomology of algebra$\mathcal { O } ( Y )$coincides with the space$\oplus _ { k \geq 0 } \Gamma ( X , \wedge ^ { k } T _ { Y } ) [ - k ]$of algebraic polyvector fields on$Y .$. Analogous statement for$C ^ { \infty }$manifolds seems to be well known, although we were not able to find it in the literature. In any case, we show here a proof.
+This is a version of Kostant-Hochschild-Rosenberg theorem which says that for a smooth afine algebraic variety$Y$over field k of characteristic zero, the Hochschild cohomology of algebra$\mathcal { O } ( Y )$coincides with the space$\oplus _ { k \geq 0 } \Gamma ( X , \wedge ^ { k } T _ { Y } ) [ - k ]$of algebraic polyvector fields on$Y$. Analogous statement for$C ^ { \infty }$manifolds seems to be well known, although we were not able to find it in the literature. In any case, we show here a proof.
 
 Proof: First of all, one can immediately check that the image of$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is annihilated by the diferential in$D _ { p o l y } ( X )$, i.e. that$\mathcal { U } _ { 1 } ^ { ( 0 ) }$is a morphism of complexes.
 
@@ -774,7 +774,7 @@ $$
 f \mapsto (D (f)) (0).
 $$
 
-We denote by$\Delta$the coproduct in coalgebra$\mathcal { C } .$. It is easy to see that diferential in the complex $G r \big ( D _ { p o l y } ( X ) \big )$in the fiber at x is the following:
+We denote by$\Delta$the coproduct in coalgebra$\mathcal { C }$. It is easy to see that diferential in the complex $G r \big ( D _ { p o l y } ( X ) \big )$in the fiber at x is the following:
 
 $$
 d: \otimes^ {n + 1} \mathcal {C} \longrightarrow \otimes^ {n + 2} \mathcal {C}, d = 1 ^ {*} \otimes i d _ {\otimes^ {n + 1} \mathcal {C}} - \sum_ {i = 0} ^ {n} (- 1) ^ {i} i d \otimes \dots \otimes \Delta_ {i} \otimes \dots \otimes i d + (- 1) ^ {n} i d _ {\otimes^ {n + 1} \mathcal {C}} \otimes 1 ^ {*}
