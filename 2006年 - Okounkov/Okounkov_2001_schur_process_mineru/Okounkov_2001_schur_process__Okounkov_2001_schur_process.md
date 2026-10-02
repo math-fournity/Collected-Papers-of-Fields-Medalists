@@ -607,12 +607,14 @@ $$
 where the kernel K is determined by the following generating function
 
 $$
-\begin{array}{l} \mathsf {K} _ {t _ {1}, t _ {2}} (z, w) = \sum_ {x _ {1}, x _ {2} \in \mathbb {Z} + \frac {1}{2}} z ^ {x _ {1}}   w ^ {- x _ {2}}   K ((t _ {1}, x _ {1}), (t _ {2}, x _ {2}))  , \\ = \frac {\sqrt {z w}}{z - w}   \frac {\Phi (t _ {1} , z)}{\Phi (t _ {2} , w)}  . \end{array}\tag{21}
+\mathsf { K } _ {t_1,t_2} (z, w) = \sum_ {x_1,x_2 \in \mathbb {Z} + \frac {1}{2}} z ^ {x_1}   w ^ {-x_2}   K ((t _ {1}, x _ {1}), (t _ {2}, x _ {2}))  ,\tag{21}
 $$
 
-(22)
+$$
+= \frac {\sqrt {z w}}{z - w}   \frac {\Phi (t _ {1} , z)}{\Phi (t _ {2} , w)}  .\tag{22}
+$$
 
-Here the function$\boldsymbol { \mathrm { { } } } ^ { \mathrm { { } } } \dot { \boldsymbol { \mathrm { { } } } } ( t , z )$is defined by (20), and (21) is the expansion of (22) in the region$| z | > | w |$if$t _ { 1 } \geq t _ { 2 }$and$| z | < | w | \ i f t _ { 1 } < t _ { 2 }$
+Here the function$\Phi ( t , z )$is defined by (20), and (21) is the expansion of (22) in the region$| z | > | w |$if$t _ { 1 } \geq t _ { 2 }$and$| z | < | w |$if$t _ { 1 } < t _ { 2 }$.
 
 ## 2.3.5
 
