@@ -353,3 +353,10 @@
 - 证据：源 PDF p.048 文本层、页图 `audit/Hironaka_1964_resolution_partI_p048.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p048_theorem_names.png` 与 MinerU Markdown 第 777 行。印刷写作 `I′(n)`、`II′(N)`，并分别称为主定理 `I(n)`、`II(N)`；Markdown 第 777 行把 I 写成花体 `\mathfrak{I}`，又把 II 写成希腊大写 Pi `\Pi`，均改变定理标识。
 - 备注：印刷运行页眉和页码 155 未录入 Markdown，属导航元素省略。
 - 结论：主定理符号 I/II 被转录为其他字形，列为 FAIL；待全文审计后逐处手工修复。
+
+### PDF p.049 / 96（印刷 p.156）— FAIL
+
+- 时间：2026-10-02 03:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.049 文本层、页图 `audit/Hironaka_1964_resolution_partI_p049.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p049_theorem_IIprime_indices.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p049_local_rings.png`，并比对 MinerU Markdown 第 797–809 行。Main theorem II′ 的名称、well-ordered sequence 和局部环事实对应原页；但条件 (ii) 印刷写作 `\nu(J_{\lambda,y})`，Markdown 第 801 行为 `\nu(J_{\lambda y})`，遗漏 index λ 与点 y 之间的逗号。
+- 备注：印刷运行页眉和页码 156 未录入 Markdown，属导航元素省略。
+- 结论：局部理想下标分隔符误录，列为 FAIL；待全篇审计结束后逐处修复。
