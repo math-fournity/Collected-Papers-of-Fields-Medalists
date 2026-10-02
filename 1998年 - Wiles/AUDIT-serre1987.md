@@ -304,3 +304,11 @@
 - 核对：Comme m est impair 段（(3.2.4?)、k = m + 1、f_p = Σa_{n,p}qⁿ、ρ_p ≃ ρ_{f_p}）、th. 4 类比收尾句、Remarques (1)（Schoen [37]、m = dim X = 3、k = 4、S = {5}、N = 5²、P₄ 五次超曲面 X₀⁵ + … − 5X₀X₁X₂X₃X₄ = 0、Faltings [13] p. 362-363、[47]）、(2)（S. Bloch [5]、archimédiennes、motifs、Deligne [10]、Weil [55]、(2π)^{−s}Γ(s)）、(3)（(m−r, r) + (r, m−r)、0 ⩽ r < m/2、(3.2.4?)、m − 2r、a_l(X) = l^rA_l、torsion de Tate）、4.9 节标题与记号区（K complet、v_K: K* → Z、K̄、G_K = Gal(K̄/K)）。
 - 结果：PASS。公式、引用编号、上下标（5²、(2π)^{−s}、l^rAₗ）全部与印刷吻合。
 - 备注：v_K 式中目标域 “Z” 在 Markdown 为非粗体，印刷粗体，体例差异排版级不改（同前登记）；页眉 “214 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…le groupe de Galois de K̄ sur K.”，“On suppose que K…” 段属印刷 p.215。
+
+## p.037（PDF p.37 / 印刷 p.215）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p037.png`（pngmono，150 dpi）。
+- 核对：On suppose 段（e_K = ν_K(p)、indice de ramification absolu、changement de notation 括注）、Soit maintenant V 段（Ω、ρ: G_K → GL(V)、exposant du conducteur n(ρ) ⩾ 0、(G_i)_{i⩾0}）、(4.9.1) n(ρ) = Σ_{i⩾0}(g_i/g₀)dim V/V_i、g_i/V_i 句、(4.9.2) n(ρ) = dim V/V₀ + b(ρ)、b(ρ) = Σ_{i⩾1}…、invariant sauvage 句（[39] §19.3）、PROPOSITION 9（p^c、G₁、N sur Ω）、(4.9.3) b(ρ) ⩽ N e_K(c + 1/(p−1))、stricte 句、COROLLAIRE、(4.9.4) n(ρ) ⩽ N(1 + e_K c + e_K/(p−1))。
+- 结果：PASS。公式、量词（Σ 端点 i⩾0/i⩾1）、不等式方向与端点全部与印刷吻合。
+- 备注：(4.9.3) 左端 Markdown 为 b(ρ) 与印刷一致；b(ρ) 式内 \mathrm{dim} 与他处 \dim 混用，渲染等效，排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 215” 未收入 Markdown，排版级。印刷页止于 (4.9.4) 后 stricte 句，“Démonstration de la prop. 9” 属印刷 p.216。
