@@ -223,3 +223,10 @@
 - 发现并当场修复（12 个记号点；Hecke 代数粗体系列 + 花体模型 𝒞，依据 300 dpi 裁片与既有同款先例）：①L934 "Picard T-module"→"$\mathbf{T}$-module"；②L954 "A model C for C"→"A model $\mathcal{C}$ for C"（印刷花体 𝒞，§2 同一对象）；③L958 五处（"the T-modules"→"$\mathbf{T}$-modules"、"make T"→"$\mathbf{T}$"、"of $\tilde T$"→"$\tilde{\mathbf{T}}$"、"every T-module"→"$\mathbf{T}$-module"、"$\tilde T$-module"→"$\tilde{\mathbf{T}}$-module"）；④L964 三处（"$\bar T$"→"$\bar{\mathbf{T}}$"、"quotient of T cut out"×2→"$\mathbf{T}$"）；⑤L972 "sequence of T-modules"→"$\mathbf{T}$-modules"；⑥L980 "as a T-module"→"$\mathbf{T}$-module"。
 - 备注：GL₂、Q_p/Z_p/F_p/F̄_p 等印刷粗体，MD 正体（weight 拍平，登记不改）；□ 惯例不录。
 - 结果：FAIL（12 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.028（PDF p.28 / 印刷 p.457）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:00 -0400。
+- PNG：`audit/ribet1990_p028.png`（pngmono，150 dpi）。
+- 核对：本页内容为 T̃ 形式多项式环段、Theorem 4.1、Corollary 4.2、Theorem 4.3、Cerednik-Drinfeld 摘要与 GL(2,Q_p)\(℘^unr×X)——与 p.027 扫描页（印刷 p.456）后 2/3 完全相同；对应 MD 段 L956–988。逐项复对：**T̃**/**Z**[...T_n...]、**T̃**-isomorphism Z≈Y、End_**Q**(J) faithful、trace_{**T**/**Z**}(T_n)、γ=(T_p)²−1∈**T**、0→K→(X⊕X)/γ(X⊕X)→Ψ→C→0、**T̄** cut out by **T**、GL(2,**Q**_p)\(℘^unr×X)、K\H_**f***/H* ✓（本段记号修复已于 p.027 完成，本页复核一致）。
+- 扫描件特性登记：PDF 的印刷 p.456 与 p.457 扫描页内容重叠重复（p.457 前 2/3 重摄 p.456 后 2/3）；MD（mineru 导出）仅含该内容一次（grep "formal polynomial ring"/"arising from R"/"The object of this" 各 1 处，L956/958），无重复输出、无缺文，忠实可用。
+- 结果：PASS。
