@@ -572,7 +572,7 @@ On constate que l'extension $K / K_{t}$ du n° 2.4 est $K = K_{t}(q_{E}^{1/p})$.
 
 $-v_{p}(j_{E})/p$ et $u=p^{pm}j_{E}$, de sorte que u est une unité p-adique et que $q_{E}$ est égal au produit de $u^{-1}$ par la puissance p-ème d'un élément de $K_{t}$. On a alors $K=K_{t}(u^{1/p})$ et l'on voit que:
 
-(a) si $u^{p - 1} \equiv 1 \pmod{p^2}$, on a $K = K_t$ et $\rho_p | I \simeq \begin{pmatrix} x & 0 \\ 0 & 1 \end{pmatrix}$;
+(a) si $u^{p - 1} \equiv 1 \pmod{p^2}$, on a $K = K_t$ et $\rho_p | I \simeq \begin{pmatrix} \chi & 0 \\ 0 & 1 \end{pmatrix}$;
 
 (b) si $u^{p-1} \not\equiv 1 \pmod{p^2}$, on a $[K: K_t] = p$ et $\rho_p | I \simeq \begin{pmatrix} \chi & * \\ 0 & 1 \end{pmatrix}$.
 

@@ -116,3 +116,12 @@
 - 核对：2.9 节标题（E semi-stable、j_E、E_p）、ρ_p: G_p → Aut(E_p) ≃ GL₂(F_p)、(2.9.1) k ≡ 2 mod(p−1)、semi-stable 限定句、PROPOSITION 5 (i)(ii) 与 k 分段（v_p(j_E) divisible par p / sinon）、v_p 正规化括注、bonne réduction 句、Tate 模型段与正合列 0 → μ_p → E_p → Z/pZ → 0、ρ_p|I ≃ (χ *; 0 1)、q_E 恒等式 j_E = q_E^{-1} + 744 + 196884 q_E + …、K = K_t(q_E^{1/p}) 与 v_p(q_E) = −v_p(j_E) 句、Remarques (1) 首句至 “Posons m =”。
 - 结果：PASS。公式、分段、正合列、q_E 展开系数（744、196884）全部与印刷吻合。
 - 备注：d'où 后 ρ_p|I 连接号 300 dpi 确认为 ≃，Markdown \simeq 一致；valuation 记号 300 dpi 确认印刷为拉丁 v_p（非希腊 ν），Markdown $v_{p}$ 一致（p.012 条目中核对栏写 “ν_p” 系签认笔误，本页起统一以 v_p 为准，md 无需改动）；印刷 “i.e. a, soit bonne réduction…” 的 “a,” 为印刷原文 quirk，Markdown 忠实保留；196884 在 Markdown 为 “1 9 6 8 8 4” 数字带空格，渲染可读，排版级不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 191” 未收入 Markdown，排版级。印刷页止于 “Posons m =”，Remarques (1) 余部属印刷 p.192。
+
+## p.014（PDF p.14 / 印刷 p.192）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p014.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p014_pieme_ab.png`（pnggray）。
+- 核对：−v_p(j_E)/p 与 u = p^{pm}j_E 句、(a) u^{p−1} ≡ 1 (mod p²) ⇒ K = K_t、ρ_p|I ≃ (χ 0; 0 1)、(b) u^{p−1} ≢ 1 (mod p²) ⇒ [K:K_t] = p、ρ_p|I ≃ (χ *; 0 1)、[6] prop. 5.1.(3)(d) 反驳句、(2) 类型 additif 段（p ≡ 1 mod 3、y² = x³ + Ax + B、v_p(A) ⩾ 1、v_p(B) = 1、type c₁ de Néron）、ρ_p|I ≃ (χ^β 0; 0 χ^α) ou (χ^β *; 0 χ^α)、α = (p−1)/6、β = (5p+1)/6、p > 7 与 p = 7（k = 14 / k = 2、v_p(A) ⩾ 2）、§3 标题、3.1 段（N、k、ε）、(3.1.1)、formes paraboliques 引言与 Identifions Q̄ 句。
+- 结果：FAIL。一处已依原图修复：Remarques (1)(a) 中矩阵印刷为 (χ 0; 0 1)（300 dpi 裁片确认左上 χ 带弯尾），Markdown 写成 x，修为 χ。
+- 印刷原文 quirk：本页 “la puissance p-ème” 印刷确为 p-ème（无 i；300 dpi 裁片确认），与 p.190 页的 “p-ièmes” 排印不一致属印刷原文自身差异，Markdown 两处各自忠实保留。
+- 备注：(a)(b) 连接号 300 dpi 确认为 ≃，Markdown 一致；“à coefficients dans F̄ₚ” 处 Markdown 用非粗体 \overline{F}_p，体例差异排版级不改（同 p.011 登记）；页眉 “192 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “le choix de la place en question définit”，ε₀ 式属印刷 p.193。
