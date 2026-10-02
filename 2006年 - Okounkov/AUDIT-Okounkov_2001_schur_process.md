@@ -233,3 +233,9 @@
 - 核对：References [1]–[14] 逐条（作者/标题/刊名/卷期页年/arXiv 号）
 - 结果：PASS±（两处已修复）：① [3] "Wulf"→"Wulff"——p034.png 印刷 "the Wulff crystal"（双 f），md 丢 ff 连字；② [13] "Poincar´e"→"Poincaré"——p034.png 印刷 "Ann. Inst. H. Poincaré"，md 重音分解伪影（妨碍检索）。
 - 备注：印刷原样 quirk 忠实保留：[2] "transfer-impendances"（应 impedances）、[7] "condmat/0212456"（无连字符）、[9] "math.ph/0006020"、[12] "Pacific J. Math 9"（Math 后无点）——均与印刷逐字一致。
+
+## p.035（PDF p.35 / 印刷 p.35）
+- PNG：audit/p035.png（pngmono 150dpi）
+- 核对：References [15]–[19] 逐条（Macdonald 1995、Okounkov Selecta Math. 7 (2001) 57–81 math.RT/9907127、Okounkov 2002 Kluwer、Praehofer-Spohn math.PR/0105240、Vershik 1997 Vienna talk）
+- 结果：PASS。[15]–[19] 逐字吻合；本页为全文末页，页码 35 完整收尾。
+- 备注：本 PDF 为 arXiv 版（math/0107056v3），印刷无收稿日期（received date）栏，无从核对，非缺失。
