@@ -189,3 +189,9 @@
 - 核对：Theorem 4.7 陈述收尾（uniformly on compact subsets、h 为 ∂Ω 上取值 f 的唯一 harmonic extension）与 Proof——(h_δ) 界 M、precompact (Prop 4.3)、h̃ harmonic (Prop 4.6)、边界连续延拓论证：∣f_δ(x′)−f_δ(x)∣ < ε for x′ ∈ ∂Ω∩Q(x,R)、Q(x,R)=x+[−R,R]²、∣h_δ(y)−f_δ(x)∣ = E_y[f_δ(X_τ)−f_δ(x)]、≤ ε + 2M P_y[X_τ ∉ Q(x,R)]、Exercise 4.8 给 P_y ≤ (r/R)^α、取 r = R(ε/2M)^{1/α} 得 ∣h̃(y)−f(x)∣ ≤ 2ε（◻）；Exercise 4.8 完整陈述（D = {z∶∣z∣<1}、C = {∣z∣=1}、annulus {x ≤ ∣z∣ ≤ 2x}、概率 < r^α）；§4.1.4 Discrete Green functions——G_{Ω_δ}(·,y) 定义两 bullet（Laplacian 仅在 y 处为 1、边界取 0）；−G 的 visit 计数解释；Proposition 4.9 (Riesz representation formula)——f = Σ_{y∈Ω_δ} Δ_δf(y) G_{Ω_δ}(·,y)；页脚印刷页码 28。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(r/R)^α、(ε/2M)^{1/α} 指数与 𝔻 花体 D 的 PNG 印刷清晰；G_{Ω_δ}(·,y) 中点记号 · 为对账锚点。
+
+## p.029（PDF p.29 / 印刷 p.29）
+- PNG：audit/p029.png（pngmono 150dpi）；疑难字形仲裁件 audit/p029_boxq_300dpi.png / audit/p029_boxq_crop300.png（300dpi 裁切）
+- 核对：Proposition 4.9 Proof（harmonic + 边界为零 ⟹ 恒零，◻）；aQ_δ = [−a,a]² ∩ L_δ 与 ∇_x f(x) = (f(x+δ)−f(x), f(x+iδ)−f(x)) 记号；Proposition 4.10——Σ_{x∈Q_δ}∣∇_x G_{9Q_δ}(x,y)∣ ≤ Cδ Σ_{x∈Q_δ} G_{9Q_δ}(x,y)（y ∈ 9Q_δ）；Proof——C_1,…,C_7 universal constants、y ∈ 9Q_δ∖3Q_δ 情形（Harnack 特例 (1/C_1)G(x,y) ≤ G(x′,y) ≤ C_1G(x,y)、Prop 4.2 推 C_1C_2δ 上界）、y ∈ 3Q_δ 情形（Σ G ≥ C_3/δ²、需证 ≤ C_4/δ、全平面 Green function G_{L_δ}、[MW40] 渐近式 G_{L_δ}(x,y) = (1/π)ln(∣x−y∣/δ) + C_5 + o(δ/∣x−y∣)、两不等式相加，◻）；页脚印刷页码 29。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：疑难字形仲裁——150dpi 下 "9Q_δ" 的数字 9 疑似空心方块，300dpi 裁切（audit/p029_boxq_crop300.png）确认为数字 9（与 aQ_δ 缩放记号一致），非 quirk；ln 分式与 o(δ/∣x−y∣) 以 PNG 为准。
