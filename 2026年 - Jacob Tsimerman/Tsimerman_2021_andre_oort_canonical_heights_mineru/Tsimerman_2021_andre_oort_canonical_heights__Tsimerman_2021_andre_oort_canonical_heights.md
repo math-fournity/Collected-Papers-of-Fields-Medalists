@@ -78,7 +78,7 @@ Theorem 1.1. Let S be a Shimura variety. Let$V \subset S$be a subvariety. Then t
 
 The first unconditional result was obtained by André [1] for a product of two modular curves. In the past two decades there has been much work on the conjecture. First, spurred by an idea of Edixhoven [18], the conjecture was proven conditionally on GRH in a series of works by Klingler-Ullmo-Yafaev [33, 60].
 
-Further unconditional results were obtained, starting with [49], using a diferent strategy. This strategy was originally proposed by Zannier and had been implemented to reprove the Manin-Mumford conjecture in [51]. The approach has three main ingredients:
+Further unconditional results were obtained, starting with [49], using a different strategy. This strategy was originally proposed by Zannier and had been implemented to reprove the Manin-Mumford conjecture in [51]. The approach has three main ingredients:
 
 • Estimates [50] for counting rational points on a transcendental set
 
@@ -98,7 +98,7 @@ Gao [23] has shown how to deduce the André-Oort conjecture for a mixed Shimura 
 
 ## 1.2 Method of proof
 
-The idea is to reduce the general case to the height bounds for CM points in$\mathcal { A } _ { g } .$. We thus need a way to compare heights for CM points which embed in diferent Shimura varieties. To facilitate this comparison, we require a ‘canonical’ height on arbitrary Shimura varieties, similar to the Faltings height on$A _ { g }$. At first glance this might feel minor, because all Weil heights on a line bundle are the same up to bounded functions, so why is it so important to get a canonical height function? The reason is that we have a diferent comparison for each CM point, so knowing the result up to a bounded function for each CM point separately tells us nothing! As such, we need to have better pointwise control. We explain how to do this in the next subsection. Once this is done, then for every 0-dimensional Shimura variety and automorphic line bundle - i.e. a character of the split torus - we obtain a canonical height <sup>1</sup>.
+The idea is to reduce the general case to the height bounds for CM points in$\mathcal { A } _ { g } .$. We thus need a way to compare heights for CM points which embed in different Shimura varieties. To facilitate this comparison, we require a ‘canonical’ height on arbitrary Shimura varieties, similar to the Faltings height on$A _ { g }$. At first glance this might feel minor, because all Weil heights on a line bundle are the same up to bounded functions, so why is it so important to get a canonical height function? The reason is that we have a different comparison for each CM point, so knowing the result up to a bounded function for each CM point separately tells us nothing! As such, we need to have better pointwise control. We explain how to do this in the next subsection. Once this is done, then for every 0-dimensional Shimura variety and automorphic line bundle - i.e. a character of the split torus - we obtain a canonical height <sup>1</sup>.
 
 We first explain in 6.9 how to associate a 0-dimensional Shimura datum$\left( E ^ { \times } / F ^ { \times } , r _ { \Phi } \right)$to a partial CM type Φ associated to a CM field$E / F _ { ; }$, and a canonical character$\chi _ { \Phi }$on the associated torus. We are thus reduced to bounding the corresponding intrinsic heights of$\chi _ { \Phi }$on$( T _ { \Phi } , r _ { \Phi } )$, and the case where Φ is a full CM-type is covered by the case of$A _ { g }$
 
@@ -1174,7 +1174,7 @@ is in actually exact and admits a natural splitting given by$\eta ,$proving the 
 
 Finally, via this decomposition, we see that a prime-to-p local system on$S _ { \mathbb { Q } _ { p } ^ { \mathrm { u r } } }$extends to${ \mathcal { S } } _ { W ( { \overline { { \mathbb { F } } } } _ { p } ) }$if and only if the induced action of$\pi _ { 1 } ^ { \prime } ( \mathbb { Q } _ { p } ^ { \mathrm { u r } } )$is trivial, which can be checked on any$\mathbb { Q } _ { p } ^ { \mathrm { u r } }$point of$S$which extends to a$\mathbb { Z } _ { p } ^ { \mathrm { u r } }$point of S. Indeed, this follows from$\mathbb { Z } _ { p } ^ { \mathrm { u r } }$having no étale extensions.
 
-Now, by assumption, x is a point of$S$which extends to$s { \mathrm { . } }$, so it is enough to check that$\operatorname { e t } { \mathbb { V } } _ { 2 , x }$is unramified at$p .$. However, since x is a CM point and$2 \neq p$we see that the image of inertia on$\operatorname { e t } { \mathbb { V } } _ { 2 , \overline { { x } } }$is finite, and therefore is trivial since the monodromy of$\mathrm { _ { e t } \mathbb { V } _ { 2 } }$is contained in$K _ { 2 }$which is torsion-free by construction. This completes the proof.
+Now, by assumption, x is a point of$S$which extends to$\mathcal S$, so it is enough to check that$\operatorname { e t } { \mathbb { V } } _ { 2 , x }$is unramified at$p .$. However, since x is a CM point and$2 \neq p$we see that the image of inertia on$\operatorname { e t } { \mathbb { V } } _ { 2 , \overline { { x } } }$is finite, and therefore is trivial since the monodromy of$\operatorname* { e t } \mathbb { V } _ { 2 }$is contained in$K _ { 2 }$which is torsion-free by construction. This completes the proof.
 
 The following lemma completes the proof of Theorem 8.1.
 
