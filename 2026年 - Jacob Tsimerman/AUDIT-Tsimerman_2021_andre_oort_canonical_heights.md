@@ -262,3 +262,12 @@
 - 核对：§7 开头、Theorem 7.1 与 Corollary 7.2 陈述，以及证明中导出的有限 étale 映射。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：§7 首段将 rigid flat vector bundles 的 rank 条件 `≤ m` 录为 `m`。Theorem 7.1 将 `G^c` 污染为含 `;` 的下标，将整数 `N'` 的第一次出现录为 HTML 上标 `1`，并把结论中的 `et V_p` 写成 `\Pi_{et}V_p`、底域下标 `E_v` 写成 `E_\tau`；300dpi 裁片确认印刷分别为 `G^c`、`N'`、`et V_p` 和 `E_v`。Corollary 7.2 的 `et V_{p^f}^{\oplus n}` 在 Markdown 中丢失 `t`；对应裁片确认印刷有完整的 `et` 标签。证明中有限 étale 映射 `S_{K'}(G',X') → S(G,X)` 在 Markdown 漏掉箭头。上述差异会改变量词范围、局部系统标签或映射关系。
+
+## p.030（PDF p.30 / 印刷 p.30）
+- 时间：2026-10-02 01:10:01 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p030.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p030-product-formulas.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p030-Hodge-and-local-systems.png`
+- 核对：Corollary 7.2 证明余段（乘积 Shimura 数据与局部系统）、Theorem 7.1 证明，以及 §8 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Corollary 7.2 证明将诱导有限 étale 映射 `S_K(G,X) → ∏_i S_{K_i}(G^{(i)},X_i)` 的箭头漏录；张量表示中给 `V_2` 多加点号，并把 isotypic component 中的 `V_1` 多加复共轭横线。Hodge-weight 对象的 `d_R(V_1 ⊠ … ⊠ V_k)` 被录成 `\bigcap(V_1 ⊠ … ⊠ V_k)`；其后 `⊠_{i,et}V_{i,p^f}` 被误录为带黑体 `S` 的 `\mathbb S_{i,et}\mathbb V_{i,p^f}`，另一个局部系统项又多出 `\breve{}` 标记。两张 300dpi 裁片核实原文的 `d_R`、`⊠`、局部系统标签和普通表示因子。PASS± 拼写伪影：`diference`、`sufices`；§8 标题与问题陈述和印刷相符。
