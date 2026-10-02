@@ -136,3 +136,8 @@
 - PNG：`audit-redo/p025.png`（pngmono 150dpi）
 - 核对：U(1) circle action 段；(49) `d_s = d + si(K), H_s = d_s d_s* + d_s* d_s`；renormalization/asymptotically free 段；`S^N`/`CP^N` 大 N 谱段；`H = −∇² + V` 类比段。
 - 结果：PASS±。(49) 及正文逐项与印刷页相符；`[1], [10], [19]`、`S^N`/`CP^N`、`(46) and (47)` 引用一致。print quirks 忠实保留（不改）：circle action 行 "$\sigma(x) + \sigma(x + a)$"（Luna 300dpi 已证为加号，本轮 150dpi 复核一致；数学意图未知）；"the supersymmetric nonlinear sigma is mathematically well-defined"（原刊漏 "model"，md line 617 原样）。跨页断点一致（line 619 末 "potential energy function"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 685" 未入 md（版面信息省略）。
+
+## p.026（PDF p.26 / 印刷 p.686）
+- PNG：`audit-redo/p026.png`（pngmono 150dpi）
+- 核对：QFT 即无穷维量子力学段；de Rham 算子为 Laplace–Beltrami 平方根段（[22] 引文）；真空态问题段；`Ω(B)` 零点空间识别为 B 段；`H_s` 零模数等于 Betti 数之和段；`1/N` 展开段。
+- 结果：PASS±。正文逐项与印刷页相符；`[1], [11], [19], [22]`、`§3` 引用及跨页断点（line 635 末 "drawn on the"）一致。差异仅：页眉 "686 EDWARD WITTEN" 未入 md（版面信息省略）。
