@@ -127,3 +127,11 @@
 - 核对：poids 定义段（q_x^{β/2}、Q_ℓ(r) poids −2r）、Théorème (3.2) (i) ψ:𝓕_0⊗𝓕_0→Q_ℓ(−β)(β∈Z)、(ii) Sp(𝓕_u,ψ_u)、(iii) det(1−F_x t,𝓕_0)、Alors 句、𝓕≠o 句、Lemme (3.3)（⊗^{2k}、(2k)^ième、det(1−F_x t^{deg(x)},⊗^{2k}𝓕_0)^{-1}）、Tr(F_x^n,⊗^{2k}𝓕_0)=Tr(F_x^n,𝓕_0)^{2k}、(1.5.3) 句、Lemme (3.4) 两处 det、≥o 句、Lemme (3.5)（f_i−1→∞、a_{i,n}≤a_n）、Lemme (3.6) inf 式、rayons 句。
 - 结果：PASS±（修复 7 处）。全部内容项吻合；Luna 的 2k/记号修复生效，唯「恒等算子 I」系误判（印刷为 1）。修复：①(iii) I→1；②𝓕≠0→𝓕≠o（p013_F_neq-13.png，小写 o）；③(3.3) 式 I→1；④(3.4) I→1；⑤(3.4) 第二处 I→1；⑥同句 ≥0→≥o（p013_geq_o-13.png，小写 o）；⑦删除 MinerU 捕获的裸页码行「284」（本页页脚）。
 - 修复：行 446/450/455/468/470/470/484 共 7 处（详见上）。
+
+## p.014（PDF p.14 / 印刷 p.285）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 20:02 EDT。
+- PNG：audit-redo/p014.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p014_hc0_o-14.png、p014_Z_det-14.png、p014_mid_det-14.png（300dpi）、p014_alpha_exp-14.png、p014_ineq_exp-14.png（600dpi）。
+- 旧审计对照：Luna p.014 = FAIL→已修复（H_c^2/H_c^0 的张量幂和 Tate twist、极点/倒数/分母标量 1、行列式恒等算子 I 保留）；本次重核：Luna「I 保留」再次方向性错误，印刷为 1。
+- 核对：(3.7) 开头与 ψ_P 式、Soit x point fermé de X 句、Zariski-dense 句、H. Weyl 引文（The classical groups, Princeton University Press, chap. VI, § 1）、𝓟′⊂𝓟、同构式 (⊗^{2k}𝓕_u)_{π_1}=(⊗^{2k}𝓕_u)_{Sp}≅Q_ℓ(−kβ)^{𝓟′}、N 句、H_c^2(U,⊗^{2k}𝓕)≅Q_ℓ(−kβ−1)^N、Puisque H_c^0=o 句、Z(U_0,⊗^{2k}𝓕_0,t)=det(1−F*t,H^1(U,⊗^{2k}𝓕))/(1−q^{kβ+1}t)^N、pôle t=1/q^{kβ+1} 句、dans C 句、α^{2k} 句、1/α^{2k/deg(x)} 极点句（600dpi 终裁：印刷指数确含斜杠 2k/deg(x)，md 正确）、两条不等式与 |α|≤q_x^{β/2+1/2k}、Faisant tendre k 句、q_x^β α^{−1} 句、q_x^{β/2}≤|α|、Ceci achève la démonstration.
+- 结果：PASS±（修复 3 处）。内容全部吻合；Luna 的标量 1/Tate twist 修复生效。修复：①Puisque 句 H_c^0(U,⊗^{2k}𝓕)=0 → =o（p014_hc0_o-14.png，小写 o）；②Z 式 det(I→1（p014_Z_det-14.png，同式分母标量 1 印刷同形，md 已正确）；③段中 det(I→1（p014_mid_det-14.png）。排除一项 150dpi 误判：α 指数 2k/deg(x) 的斜杠经 600dpi 确认存在，md 无需改。
+- 修复：md 行 502/505/508 共 3 处（详见上）。

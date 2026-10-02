@@ -499,13 +499,13 @@ $$
 \mathrm{H} _ {c} ^ {2} (\mathbf {U}, \stackrel {{2 k}} {\otimes} \mathcal {F}) \simeq \mathbf {Q} _ {\ell} (- k \beta - 1) ^ {\mathrm{N}}.
 $$
 
-Puisque $\mathrm{H}_c^0 (\mathbf{U},\bigotimes^{2k}\mathcal{F}) = 0$ , la formule (1.14.3) se réduit à
+Puisque $\mathrm{H}_c^0 (\mathbf{U},\bigotimes^{2k}\mathcal{F}) = o$ , la formule (1.14.3) se réduit à
 
 $$
-Z (U _ {0}, \overset {2 k} {\otimes} \mathcal {F} _ {0}, t) = \frac {\det (\mathrm{I} - F ^ {*} t , H ^ {1} (U , \overset {2 k} {\otimes} \mathcal {F}))}{(1 - q ^ {k \beta + 1} t) ^ {N}}.
+Z (U _ {0}, \overset {2 k} {\otimes} \mathcal {F} _ {0}, t) = \frac {\det (1 - F ^ {*} t , H ^ {1} (U , \overset {2 k} {\otimes} \mathcal {F}))}{(1 - q ^ {k \beta + 1} t) ^ {N}}.
 $$
 
-Cette fonction $Z$ est donc le développement en série de Taylor d'une fonction rationnelle n'ayant de pôle qu'en $t = 1 / q^{k\beta + 1}$. Nous utiliserons seulement le fait que les pôles sont de valeur absolue $1 / q^{k\beta + 1}$ dans $\mathbf{C}$. Cela pourrait se déduire d'arguments généraux sur les groupes réductifs. Si $\alpha$ est une valeur propre de $F_x$ sur $\mathcal{F}_0$, alors $\alpha^{2k}$ est une valeur propre de $F_x$ sur $\bigotimes^{2k} \mathcal{F}_0$. Notons encore $\alpha$ un quelconque conjugué complexe de $\alpha$. La puissance inverse $1 / \alpha^{2k/\deg(x)}$ est un pôle de $\det(\mathrm{I} - \mathrm{F}_x t^{\deg(x)}, \bigotimes^{2k} \mathcal{F})^{-1}$. D'après (3.4) et (3.6), on a donc
+Cette fonction $Z$ est donc le développement en série de Taylor d'une fonction rationnelle n'ayant de pôle qu'en $t = 1 / q^{k\beta + 1}$. Nous utiliserons seulement le fait que les pôles sont de valeur absolue $1 / q^{k\beta + 1}$ dans $\mathbf{C}$. Cela pourrait se déduire d'arguments généraux sur les groupes réductifs. Si $\alpha$ est une valeur propre de $F_x$ sur $\mathcal{F}_0$, alors $\alpha^{2k}$ est une valeur propre de $F_x$ sur $\bigotimes^{2k} \mathcal{F}_0$. Notons encore $\alpha$ un quelconque conjugué complexe de $\alpha$. La puissance inverse $1 / \alpha^{2k/\deg(x)}$ est un pôle de $\det(1 - \mathrm{F}_x t^{\deg(x)}, \bigotimes^{2k} \mathcal{F})^{-1}$. D'après (3.4) et (3.6), on a donc
 
 $$
 \left| 1 / q ^ {k \beta + 1} \right| \leq \left| 1 / \alpha^ {2 k / \deg (x)} \right|,
