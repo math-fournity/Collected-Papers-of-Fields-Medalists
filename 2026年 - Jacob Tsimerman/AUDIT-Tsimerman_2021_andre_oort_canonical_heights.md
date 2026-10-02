@@ -428,10 +428,10 @@
 - 时间：2026-10-02 02:37:32 EDT (-0400)
 - actor=Peer-P21；model=gpt-6-luna；effort=max
 - PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p048.png`（pngmono 150dpi）
-- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmasA12-A14.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmaA15-A18.png`
-- 核对：Lemmas A.12–A.15 的 category equivalence、Ext/rigidity 及 injectivity arguments；Propositions A.16–A.17；§A.3 的 Witt-ring setup 与 Definition A.18 开头。
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmasA12-A14.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p048-LemmaA15-injectivity.png`
+- 核对：Lemmas A.12–A.15 的 category equivalence、Ext/rigidity 及 injectivity arguments。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：Lemma A.12 的 `gr:R_{dR}(s) → R_{Dol}(s)` 漏箭头；Definition A.15 Artin–Rees family 中 `t:\mathbb A_s^1 → \mathbb A_s^1` 也漏箭头。Grothendieck-existence conclusion 的 `\operatorname{Spec}\bar k[[t]]` 被缩成 `\operatorname{Spec}\bar k t`，丢失 formal power series ring；Proposition A.17 的 `\sigma^{f'}` 多出 degree-circle 标记。Definition A.18 前 §A.3 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 再次漏箭头，且 Lemma A.13 的 target category `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。两张 300dpi 裁片核实箭头、环和 category 字形。PASS± 拼写/粘连噪声：`Grifiths-transverse` 被粘成 `Grifithstransverse`。
+- 差异与依据：Lemma A.12 的 `gr:R_{dR}(s) → R_{Dol}(s)` 漏箭头；Definition A.15 Artin–Rees family 中 `t:\mathbb A_s^1 → \mathbb A_s^1` 也漏箭头。Grothendieck-existence conclusion 的 `\operatorname{Spec}\bar k[[t]]` 被缩成 `\operatorname{Spec}\bar k t`，丢失 formal power series ring；Lemma A.13 的 target category `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。两张 300dpi 裁片核实箭头、环和 category 字形。
 
 ## p.049（PDF p.49 / 印刷 p.49）
 - 时间：2026-10-02 02:43:53 EDT (-0400)
