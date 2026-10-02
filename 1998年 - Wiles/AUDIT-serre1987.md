@@ -84,3 +84,11 @@
 - 核对：conducteur (π²)/(π^{p+1})=(pπ²) 句、(ii₁) peu ramifié 与 (2.4.8) k = 1+pa+b = 2+α(p+1)、(ii₂) très ramifié 与 (2.4.9) 分段（(α+1)(p+1) / 4）、五公式汇总句、2.5 节标题、PROPOSITION 2、(2.5.1)、χ d'ordre p−1 括注、hauteur 2 验证链 (ψ^a ψ′^b)(ψ^b ψ′^a) = (ψψ′)^{a+b} = χ^{a+b} = χ^{k−1}、puisque k−1 = pa+b ≡ a+b mod(p−1)、(2.5.2)、ε_p 非分歧句、(2.5.3) ε_p(Frob_p) = ε(p)。
 - 结果：FAIL。印刷 “à valeurs dans **Fₚ***”（300 dpi 裁片确认 F 无 bar）在 Markdown 写成 $\overline{\mathbf{F}}_{p}^{*}$（多 bar，ε_p 值域改变）；已依裁片修复为 $\mathbf{F}_{p}^{*}$。其余公式与推导链逐项吻合。
 - 备注：PROPOSITION 2 的法语动词 “a” 在 Markdown 被放入数学环境写作 “On $a$.”（斜体化），语义可辨、不误导，排版级不改；印刷页止于 “où Frob_p est un élément de Frobenius de G_p.”，其后 2.6 节属印刷 p.188；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 187” 未收入 Markdown，排版级。
+
+## p.010（PDF p.10 / 印刷 p.188）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p010.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p010_rem1_matrix.png`、`audit/300dpi/serre1987_p010_281_sign.png`（pnggray）。
+- 核对：2.6 节（k = 1 + a₀ + pa₁、a₁ ⩽ a₀ + 1、p=3 例 k=2,3,4,5,6,8、p=2 句）、Exemple（u: G₂ → Z/2Z、ρ₂ 矩阵 (1 u(s); 0 1)）、K/Q₂ 三行判据（√5；discr=(4): √−1/√−5；discr=(8): √2/√−2/√10/√−10）、2.7 节标题与 (2.7.1)/(2.7.2)、Remarques (1)(2)（矩阵 (x *; 0 1)、χ^m ⊗ ρ_p、[44] th.3）、2.8 节标题、PROPOSITION 3、(2.8.1) ρ_p|I ≃ (ψ′ 0; 0 ψ)。
+- 结果：PASS。公式、矩阵、根式内容、编号全部与印刷吻合。
+- 备注：Remarques (1) 矩阵左上元素 300 dpi 确认为斜体 x（非 χ），Markdown 一致；(2.8.1) 连接号 300 dpi 确认为 ≃（simeq），Markdown \simeq 一致——150 dpi 初观似 “=” 系分辨率不足；\sqrt{1 0} 数字间空格与判据首行的行内公式形式为排版级，渲染可读不改；页眉 “188 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。(2.8.2) 印于下一页，随 p.011 核对。
