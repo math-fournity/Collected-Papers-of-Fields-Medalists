@@ -144,3 +144,22 @@
   "torus split by"（跨页句），下一行 "an extension of degree ≤ 2…" 属 p.8 范围。
 
 ---
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit-redo/p008.png（pngmono 150dpi）
+- 核对：torus split by 跨页句收尾（degree ≤ 2 / additive group / $\mathbb{F}_l$）；
+  Tate 定理段（$Q_l$ l-adic、$\delta_E\in K^{\times2}$、$K/\langle q\rangle$、
+  $j_E=\frac{1}{q}+\sum_{i\geq 0}a_iq^i$、Fourier expansion、$q=e^{2\pi i\tau}$、ref [7]）；
+  consequence 段（$E_p$、$E(\overline{\mathbb{Q}})$、$K_p$、$K_{p,l}=Q_l(\zeta_p,\sqrt[p]{j_E})$）；
+  Hensel's lemma 句（$l$ unramified in $K_p$）。
+- 结果：PASS±（修复 2 处后）
+- 差异与处置：
+  1. 【已修复】`\sum_{i>0}` → `\sum_{i\geq 0}`：350dpi 级放大仲裁印刷下标为 "i≥0"（≥ 字形带底横清晰）。
+  2. 【已修复】"good reduction mod $l$. Hensel's" → "good reduction mod $l$ Hensel's"：印刷行尾无标点
+     （300% 放大确认），MD 句点系转写添加。
+  3. 【核对无误】$K/\langle q\rangle$、$K^{\times2}$、$e^{2\pi i\tau}$、$Q_l(\zeta_p,\sqrt[p]{j_E})$、
+     "Let $l$ be a divisor of $l$"（打字机 l/1 同形，语义为素元除 l，MD 读法正确）、ref [7]。
+- 备注：页眉 "8　G. Frey" 未入 MD，正常。本页末行止于 "unramified in $K_p$."，后续
+  "For brevity's sake…" 属 p.9 范围。
+
+---
