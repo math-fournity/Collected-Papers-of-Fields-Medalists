@@ -207,3 +207,11 @@
 - 发现并当场修复：L870 两处 Hecke 代数粗体拍平（"quotient of T"→"$\mathbf{T}$"、"$T_{q-new/p-old}$"→"$\mathbf{T}_{q\text{-new}/p\text{-old}}$"；300 dpi 确证；与 L872 Theorem 3.21 既有 \mathbf 写法对齐）。
 - 备注：页界跨越——MD L912 前半（"X⊕X given by the 2×2 matrix…"）属印刷 p.454 末至 p.455 首的跨页句，其矩阵部分留待 p.026 核验。
 - 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.026（PDF p.26 / 印刷 p.455）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 17:38 -0400。
+- PNG：`audit/ribet1990_p026.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："two **T**-module structures"、"T_n∈**T**"、"isomorphic **T**-modules"、"call'these" 排印杂符，未存档）。
+- 核对：跨页句收尾（2×2 矩阵 μ=((p+1,τ),(τ,p+1))、Y→Y*）；Proposition 3.23（0→K→(X⊕X)/μ(X⊕X)→Y*/Y→C→0）与 Proof（交换图 L/Y→L*/Y→Θ、σ/δ*/θ、snake lemma、4-term、□）；Remark 3.24（Hecke compatible、p-th Hecke on J₀(qM)² 非 τ 诱导、Picard/Albanese 双作用、T_n 与 ξ_n、 intertwining w=w_{pqM}）；T=(T_n)*=Hom(T_n, id)；T-模结构同构段；w_{qM}∈Aut(X) 与 (x,y)↦(y,x) 复合 ✓。
+- 发现并当场修复：①L928 四处 Hecke 代数粗体拍平（"two T-module structures"→"$\mathbf{T}$-module"、"$T_n\in T$"→"$T_n\in\mathbf{T}$"、"These two T-module structures"→"$\mathbf{T}$-module"、"isomorphic T-modules"→"$\mathbf{T}$-modules"）；②L930 两处（"sequence of T-modules"→"$\mathbf{T}$-modules"、"provided that T acts"→"$\mathbf{T}$ acts"）；③L932 两处（"$\mathbf{T}$-module structures"、"$\mathbf{T}$-modules"）。均据 300 dpi 裁片。
+- 印刷原文 quirk：Remark 3.24 印刷 "call'these"（call 后有排印杂符撇号），MD 规范化为 "call these"（噪点级，登记不改）。
+- 结果：FAIL（8 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
