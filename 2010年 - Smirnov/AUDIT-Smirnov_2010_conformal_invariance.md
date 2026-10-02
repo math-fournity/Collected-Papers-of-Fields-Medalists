@@ -345,3 +345,9 @@
 - 核对：Proposition 7.8 陈述收尾（W 为 B 的任意不在 ∂_ab^⋆ 上的 dual neighbor）；boundary modification trick 总结段——[CS09] 引入、H 扩张 0/1 后 H●/H○ 对 X●/X○ 的 Laplacian sub/superharmonic（H● 对通常 Laplacian 非 subharmonic）；Theorem 3.16 Proof (Sketch)——R_n = [0,4n]×[0,n]、N 为对边连通点对数、期望经 Prop 7.8 与 degenerate Dobrushin domain（a=b=y）、harmonic measure 1/n² 量级 ⟹ φ^f_{p_sd,R_n}[N] ≥ cn、二阶矩 φ[N²] ≤ Cn²（successive conditioning + Prop 7.8，[DCHN10]）、Cauchy-Schwarz 公式 (7.11) φ[N>0]φ[N²] ≥ φ[N]²、公式 (7.12) φ^f_{R_n,p_sd}[∃ open crossing] ≥ c²/C（◻）；[KS10] 另一路线提及；Proposition 7.9——公式 (7.13) c/∣x−y∣^δ ≤ µ_{β_c}[σ_xσ_y] ≤ C/∣x−y∣^Δ（µ_{β_c} 唯一 infinite-volume 测度）；Proof 开头——Edwards-Sokal coupling 改写为 c/∣x−y∣^δ ≤ φ_{p_sd,2}[x ↔ y] ≤ C/∣x−y∣^Δ；页脚印刷页码 54。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(7.11)/(7.12)/(7.13) 编号齐全；φ^f_{R_n,p_sd} 上标 f 与 R_n 下标堆叠、∃ open crossing 记号以 PNG 为准。
+
+## p.055（PDF p.55 / 印刷 p.55）
+- PNG：audit/p055.png（pngmono 150dpi）
+- 核对：Proposition 7.9 Proof 收尾——φ_{p_sd,2}(0 ↔ ∂Λ_k) 多项式衰减、annuli A_n = S_{2^{n−1},2^n}(x)（n ≤ ln_2 k）、ℰ(A_n) crossing 事件、Corollary 6.3（Theorem 3.16 直接应用）φ^1_{A_n,p_sd,2}(ℰ(A_n)) ≤ c、successive conditionings 连乘 ≤ c^N、lower bound 留作 exercise（◻）；criticality 幂律 vs subcritical 指数衰减对比段、µ_{β_c}[σ_xσ_y] ∼ ∣x−y∣^{−α}（α = 1/4、critical exponent）；ratio mixing 与 Lubetzky-Sly [LS10]（Glauber dynamics mixing time 猜想）；Exercise 7.10 (Spatial mixing)——公式 (7.14) ∣φ_{p_sd,2}(A∩B) − φ(A)φ(B)∣ ≤ c(r/R)^Δ φ(A)φ(B)；§7.3 Discrete singularities and energy density of the Ising model 标题；能量密度（Theorem 2.12）与 singular observable F^{a_δ}_{Ω_δ}(z_δ)（a_δ ∈ Ω◇_δ 内点）公式 (7.15) λ·Σ_{ω∈Ɛ(a_δ,z_δ)}e^{−(1/2)iW_{γ(ω)}(a_δ,z_δ)}(√2−1)^{∣ω∣} / Σ_{ω∈Ɛ}(√2−1)^{∣ω∣}（λ 为显式复数、分母即 Z^f_{β_c,G}）；[HS10] 引出；页脚印刷页码 55。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(7.14)/(7.15) 编号齐全；(7.15) 指数 1/2 堆叠分数与 (7.15) 分母无 winding 因子的结构为对账锚点（与 p.13 Definition 2.9 对照）。
