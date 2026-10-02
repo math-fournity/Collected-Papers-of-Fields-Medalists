@@ -95,7 +95,7 @@ Section 7 of this paper contains the corresponding (new) L$^{r}$-result for all 
 Theorem 1. — Let  $(\Omega, \mathcal{B}, \mu, T)$  by a dynamical system and  $p(x)$  a polynomial with integer coefficients. Then there is the maximal inequality
 
 $$
-\left| \left| \sup _ {\mathbf {N}} \right| A _ {\mathbf {N}} f \right| \| _ {r} \leqslant C \| f \| _ {r}\tag{1.7}
+\left\| \sup_{\mathbf{N}} \left| A_{\mathbf{N}} f \right| \right\|_{r} \leqslant C \left\| f \right\|_{r}\tag{1.7}
 $$
 
 where $\mathbf{A}_{\mathbf{N}}f$ is given by (1.1), i.e.,
@@ -106,7 +106,7 @@ $$
 
 and $f \in \mathbf{L}^r(\Omega, \mu), r > 1$. The constant $\mathbf{C}$ in (1.7) depends only on $r > 1$ and on the polynomial $p(x)$. Moreover, the averages $A_{N}f$ converge almost surely for $N \to \infty$. If $T$ is weakly mixing, the limit if given by $\int f d\mu$.
 
-The previous result remains valid for positive isometries on  $\mathbf{L}^{\prime}(\Omega,\mu)$ . Let us point out that the proof of Theorem 1, in the case of a general polynomial  $p(x)$  with integer coefficients, is essentially identical to the special case  $p(x)=x^{2}$ . Essential use is made of duality and interpolation methods.
+The previous result remains valid for positive isometries on  $\mathbf{L}^{1}(\Omega,\mu)$ . Let us point out that the proof of Theorem 1, in the case of a general polynomial  $p(x)$  with integer coefficients, is essentially identical to the special case  $p(x)=x^{2}$ . Essential use is made of duality and interpolation methods.
 
 In section 8, the results of section 4 and section 5 are used to prove the following
 
@@ -189,13 +189,13 @@ $$
 There are the $\mathbf{L}^p$-inequalities ($1 < p \leqslant \infty$)
 
 $$
-\left| \left| f ^ {*} \right. \right| \left| _ {\mathrm{L} ^ {p} (\Omega , \mu)} \leqslant \mathrm{C} (p) \right. \left| \left| f \right| \right| _ {\mathrm{L} ^ {p} (\Omega , \mu)}\tag{2.3}
+\left\| f^{*} \right\|_{L^{p}(\Omega,\mu)} \leqslant C(p) \left\| f \right\|_{L^{p}(\Omega,\mu)}\tag{2.3}
 $$
 
 and the weak-type inequality
 
 $$
-\left| \left| f ^ {*} \right. \right| \left| _ {\mathbf {L} ^ {1, \infty} (\Omega , \mu)} \leqslant \mathbf {C} \right. \left| \left| f \right| \right| _ {\mathbf {L} ^ {1} (\Omega , \mu)}\tag{2.4}
+\left\| f^{*} \right\|_{L^{1,\infty}(\Omega,\mu)} \leqslant C \left\| f \right\|_{L^{1}(\Omega,\mu)}\tag{2.4}
 $$
 
 where $||g||_{\mathbf{L}^{1,\infty}} = \sup_{\lambda > 0}\lambda \mu [|g| > \lambda]$ and $\mathbf{C}, \mathbf{C}(p)$ are absolute constants.
@@ -233,13 +233,13 @@ $$
 Integrating (2.8) in  $x \in \Omega$  with respect to the measure  $\mu$  yields
 
 $$
-\sum_ {0 \leqslant j <   J - \overline {{N}}} | | T ^ {j} \bar {f} | | _ {\mathfrak {p}} ^ {\mathfrak {p}} \leqslant C (p) ^ {\mathfrak {p}} \sum_ {0 \leqslant j <   J} | | T ^ {j} f | | _ {\mathfrak {p}} ^ {\mathfrak {p}}
+\sum_ {0 \leqslant j <   J - \overline {{N}}} | | T ^ {j} \bar {f} | | _ {p} ^ {p} \leqslant C (p) ^ {p} \sum_ {0 \leqslant j <   J} | | T ^ {j} f | | _ {p} ^ {p}
 $$
 
 and since T is measure-preserving, one gets
 
 $$
-\left| \left| \bar {f} \right| \right| _ {\mathfrak {p}} \leqslant \mathrm{C} (p) \frac {\mathrm{J}}{\mathrm{J} - \bar {\mathrm{N}}} \left| \left| f \right| \right| _ {\mathfrak {p}},
+\left| \left| \bar {f} \right| \right| _ {p} \leqslant \mathrm{C} (p) \frac {\mathrm{J}}{\mathrm{J} - \bar {\mathrm{N}}} \left| \left| f \right| \right| _ {p},
 $$
 
 hence
@@ -274,7 +274,7 @@ $$
 
 from which (2.4) easily follows.
 
-At present, the covering argument leading to weak-type inequalities does not seem to be available when dealing with particular subsets of Z, such as the squares or the primes. In these cases, we were unable so far to develop an  $L^{1}$ -theory. The  $L^{2}$  and  $L^{2}$ -inequalities (p > 1) are obtained by making essential use of Fourier-transform methods. This is an approach similar to that in differentiation problems in real analysis involving lower-dimensional manifolds.
+At present, the covering argument leading to weak-type inequalities does not seem to be available when dealing with particular subsets of Z, such as the squares or the primes. In these cases, we were unable so far to develop an  $L^{1}$ -theory. The  $L^{2}$  and  $L^{p}$ -inequalities (p > 1) are obtained by making essential use of Fourier-transform methods. This is an approach similar to that in differentiation problems in real analysis involving lower-dimensional manifolds.
 
 ## C) Almost sure Convergence
 
@@ -287,7 +287,7 @@ $$
 By the invariance of the limit (since the ergodic means relates to the full set of positive integers) and the maximal inequality, we have
 
 $$
-\left| \sup _ {\mathbf {N}} \right| \mathrm{F} - \mathrm{A} _ {\mathbf {N}} (\mathrm{A} _ {\mathbf {N} _ {\varepsilon}} f) \left| \right| _ {2} <   \mathrm{C} \varepsilon .\tag{2.10}
+\left\| \sup_{\mathbf{N}} \left| \mathrm{F} - \mathrm{A}_{\mathbf{N}}(\mathrm{A}_{\mathbf{N}_{\varepsilon}} f) \right| \right\|_{2} < C\varepsilon.\tag{2.10}
 $$
 
 Since
@@ -299,7 +299,7 @@ $$
 it follows from (2.10) that
 
 $$
-\left| \left| \overline {{\lim}} \right| F - A _ {N} f \right| \| _ {2} <   C \varepsilon , \quad \text { hence } \quad \overline {{\lim}} _ {N} | F - A _ {N} f | = 0 \text { almost   surely. }
+\left\| \overline{\lim}\, \left| F - A_{N} f \right| \right\|_{2} < C\varepsilon, \quad \text{hence} \quad \overline{\lim}_{N} \left| F - A_{N} f \right| = 0 \text{ almost surely.}
 $$
 
 This discussion completes the proof of Birkhoff's theorem. It is clear that the preceding argument does not apply when dealing with the more general averages
@@ -359,7 +359,7 @@ $$
 The sequence space $v_s$ then consists of those sequences $\bar{x}$ for which $||\bar{x}||_{v_s} < \infty$. We will also use the notation $||\|_{v_s}$ for continuously indexed systems $\bar{x} = (x_t)_{t > 0}$, where now
 
 $$
-\left| \left| \bar {x} \right| \right| _ {v _ {s}} = \sup \left\{\left(\sum_ {j = 1} ^ {s} \left| x _ {t _ {j}} - x _ {t _ {j + 1}} \right| ^ {s}\right) ^ {1 / s} \mid J = 1, 2, \dots \text {   and   } t _ {1} <   t _ {2} <   \dots <   t _ {J} \right\}.\tag{3.2}
+\left| \left| \bar {x} \right| \right| _ {v _ {s}} = \sup \left\{\left(\sum_ {j = 1} ^ {J} \left| x _ {t _ {j}} - x _ {t _ {j + 1}} \right| ^ {s}\right) ^ {1 / s} \mid J = 1, 2, \dots \text {   and   } t _ {1} <   t _ {2} <   \dots <   t _ {J} \right\}.\tag{3.2}
 $$
 
 These spaces  $v_{s}$  are frequently used in probability theory when studying questions about convergence. In this context, some known inequalities about martingales are needed for our purpose. More precisely, we will use the following result due to Lépingle [Lé] (cf. also [P-X]).
@@ -380,7 +380,7 @@ $$
 \left| \left| \lambda (N _ {\lambda}) ^ {1 / 2} \right| \right| _ {r} \leqslant c _ {r} \left| \left| f \right| \right| _ {r} \quad \text { for   all } \lambda > 0.\tag{3.5}
 $$
 
-This is a form of Doob's oscillation lemma for martingales (see [Nev]) and is obtained by methods of stopping times and square functions. We use interpolation to derive (3.4) from (3.5). First we prove $(\mathbf{L}^{\mathfrak{p},1}$ denoting the Lorentz space):
+This is a form of Doob's oscillation lemma for martingales (see [Nev]) and is obtained by methods of stopping times and square functions. We use interpolation to derive (3.4) from (3.5). First we prove $(\mathbf{L}^{p,1}$ denoting the Lorentz space):
 
 $$
 \left| \left| \left\{f _ {n} \right\} \right| \right| _ {\mathrm{L} _ {v _ {s}} ^ {p}} \leqslant c (s - 2) ^ {- 1 / p} \left| \left| f \right| \right| _ {\mathrm{L} ^ {p, 1}} \quad \text { for } \frac {3}{2} \leqslant p \leqslant s <   \frac {5}{2}, \quad s > 2.\tag{3.6}
@@ -389,13 +389,13 @@ $$
 Let thus $f = \chi_{\mathbf{A}}$ and $\mathbf{A} \subset \Omega$ be a measurable set of measure $\mu(\mathbf{A}) = \varepsilon$, hence $||f||_{p,1} = \varepsilon^{1/p}$. Estimate pointwise, for $N_{\lambda}$ defined as above from the function $f$, yields
 
 $$
-\left| \left| \left\{f _ {n} (\omega) \right| \right| _ {v _ {s}} \leqslant \left[ \sum_ {k = 0} ^ {\infty} 2 ^ {- k s} \mathrm{N} _ {2 - k} (\omega) \right] ^ {1 / s}. \right.\tag{3.7}
+\left\| \left\{ f_n(\omega) \right\} \right\|_{v_s} \leqslant \left[ \sum_{k=0}^{\infty} 2^{-ks} \mathrm{N}_{2^{-k}}(\omega) \right]^{1/s}.\tag{3.7}
 $$
 
 Hence, since $p \leqslant s$,
 
 $$
-\left| \left| \left\{f _ {n} \right\} \right| \right| _ {\mathrm{L} _ {v _ {s}} ^ {p}} \leqslant 2 \left[ \sum_ {k = 0} ^ {\infty} 2 ^ {- k p} \int_ {\Omega} \left(\mathrm{N} _ {2 - k}\right) ^ {p / s} d \omega \right] ^ {1 / p} \leqslant c [ \sum 2 ^ {- k p (1 - (2 / s))} | | f | | _ {r} ^ {r} ] ^ {1 / p}\tag{3.8}
+\left| \left| \left\{f _ {n} \right\} \right| \right| _ {\mathrm{L} _ {v _ {s}} ^ {p}} \leqslant 2 \left[ \sum_ {k = 0} ^ {\infty} 2 ^ {- k p} \int_ {\Omega} \left(\mathrm{N} _ {2 ^ {- k}}\right) ^ {p / s} d \omega \right] ^ {1 / p} \leqslant c [ \sum 2 ^ {- k p (1 - (2 / s))} | | f | | _ {r} ^ {r} ] ^ {1 / p}\tag{3.8}
 $$
 
 applying (3.5) with $r = 2p / s$ (which implies $6/5 \leqslant r < 2$ in view of the hypotheses made on $p, s$) and $\lambda = 2^{-k}$. Since $||f||_r^r = \varepsilon$, (3.6) is immediate from (3.8). Writing $\mathbf{L}^2$ as interpolation space between $\mathbf{L}^{s,1}$ and $\mathbf{L}^{3/2}$, (3.6) is easily seen to imply (3.4).
@@ -422,7 +422,7 @@ where $v_{s}$ stands for $v_{s}(\mathbf{R}_{+})$ with the norm given by (3.2).
 
 As usual, $f * g$ denotes the convolution of $f$ and $g$.
 
-Denote by $(\mathbf{P}_t)_{t > 0}$ the Poisson semi-group on $\mathbb{R}$. Thus if $\mathbf{P}_t f = f * \mathbf{P}_t$, one has $\hat{\mathbf{P}}_t(\lambda) = e^{-i|\lambda|}$. Considering the Brownian martingale associated to the harmonic function $u(x,t) = (f*\mathbf{P}_t)(x)$ on the upper half-plane or, alternatively, invoking Rota's dilation theorem, inequality (3.4) relative to martingales implies
+Denote by $(\mathbf{P}_t)_{t > 0}$ the Poisson semi-group on $\mathbb{R}$. Thus if $\mathbf{P}_t f = f * \mathbf{P}_t$, one has $\hat{\mathbf{P}}_t(\lambda) = e^{-t|\lambda|}$. Considering the Brownian martingale associated to the harmonic function $u(x,t) = (f*\mathbf{P}_t)(x)$ on the upper half-plane or, alternatively, invoking Rota's dilation theorem, inequality (3.4) relative to martingales implies
 
 $$
 \left| \left| \left\{\mathrm{P} _ {t} f \mid t > 0 \right\} \right| \right| _ {\mathrm{L} _ {v _ {s}} ^ {2}} \leqslant c (s - 2) ^ {- 1} \left| \left| f \right| \right| _ {2}.\tag{3.13}
@@ -636,11 +636,11 @@ For the sake of completeness, we include the following known argument to derive 
 
 Lemma 4.4. — Let $\Phi$ be a set of multipliers on $[0,1]$ satisfying
 
-(4.5)
+$$
+\left\| \sup_{\varphi\in\Phi} \left| \mathcal {F}^{-1}[\varphi\mathcal {F}f] \right| \right\|_{\mathrm{L}^{2}(\mathbf{R})} \leqslant \mathrm{B}\left\|f\right\|_{\mathrm{L}^{2}(\mathbf{R})}.\tag{4.5}
+$$
 
-$$
-\left| \sup _ {\varphi \in \Phi} \right| \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | _ {\mathrm{L} ^ {2} (\mathbf {R})} \leqslant \mathrm{B} | | f | | _ {\mathrm{L} ^ {2} (\mathbf {R})}.\tag{Then}
-$$
+Then
 
 $$
 \left| \right| \sup _ {\varphi \in \Phi} | \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | | _ {\ell^ {2} (\mathbf {Z})} \leqslant \mathrm{CB} | | f | | _ {\ell^ {2} (\mathbf {Z})}\tag{4.6}
@@ -695,7 +695,7 @@ $$
 Proof. — Observe first that
 
 $$
-\left| \right| \sum_ {k \leqslant \mathbf {K}} a _ {k} e ^ {2 \pi i \lambda_ {k} u} \left| \right| _ {\mathrm{L} ^ {3} [ 0, \tau^ {- 1} ]} \leqslant \mathrm{C} \tau^ {- 1 / 2} (\sum_ {k = 1} ^ {k} | a _ {k} | ^ {2}) ^ {1 / 2}\tag{4.15}
+\left| \right| \sum_ {k \leqslant \mathbf {K}} a _ {k} e ^ {2 \pi i \lambda_ {k} u} \left| \right| _ {\mathrm{L} ^ {2} [ 0, \tau^ {- 1} ]} \leqslant \mathrm{C} \tau^ {- 1 / 2} (\sum_ {k = 1} ^ {\mathbf {K}} | a _ {k} | ^ {2}) ^ {1 / 2}\tag{4.15}
 $$
 
 for all scalar sequences $\overline{a} = (a_k)_{1 \leqslant k \leqslant \mathbf{K}}$. This is an easy consequence of the separation hypothesis of the $\lambda_k$'s and we leave the verification to the reader.
@@ -709,7 +709,7 @@ $$
 For $u \in \mathbf{R}$, denote by $\sigma_u$ the translation operator; thus $\sigma_u f(x) = f(x + u)$. It follows from (4.16) and Parseval's identity that
 
 $$
-\left| \left| f _ {k} - \sigma_ {u} f _ {k} \right| \right| _ {2} <   \frac {1}{2} \left| \left| f _ {k} \right| \right| _ {2} \quad \text { for } | u | <   \frac {1}{1 0 0} \tau^ {- 1}.\tag{4.17}
+\left| \left| f _ {k} - \sigma_ {u} f _ {k} \right| \right| _ {2} <   \frac {1}{2} \left| \left| f _ {k} \right| \right| _ {2} \quad \text { for } | u | <   \frac {1}{100} \tau^ {- 1}.\tag{4.17}
 $$
 
 Denoting by B the best constant fulfilling (4.14) $(\mathbf{CK}^{1/2}$ will certainly do), one gets from (4.17) for $0 \leqslant u \leqslant \frac{1}{100} \tau^{-1}$ that
@@ -738,14 +738,12 @@ $$
 
 as a subset of the K-dimensional Hilbert space $\ell_{\mathbf{K}}^{2}$. For $\lambda > 0$, denote again by $\mathbf{M}_{\lambda} = \mathbf{M}_{\lambda}(x)$ the entropy numbers of A. There exists a sequence $\mathbf{B}_{s} (s \in \mathbf{Z})$ of finite subsets of the difference set $\mathbf{A}' - \mathbf{A}$ such that
 
-(4.21)
-
 $$
-\mid \overline {{{b}}} \mid \leqslant 2. 2 ^ {s} \quad \text { for } \overline {{{b}}} \in \mathbf {B} _ {s}\tag{4.22}
+\mid \overline {{{b}}} \mid \leqslant 2. 2 ^ {s} \quad \text { for } \overline {{{b}}} \in \mathbf {B} _ {s}\tag{4.21}
 $$
 
 $$
-\# \mathbf {B} _ {s} \leqslant \mathbf {M} _ {(2 ^ {s})}
+\# \mathbf {B} _ {s} \leqslant \mathbf {M} _ {(2 ^ {s})}\tag{4.22}
 $$
 
 and each element $\bar{a} \in \mathbf{A}$ has a representation
@@ -765,7 +763,7 @@ $$
 and replace the $\mathbf{L}^2 ([0,\tau^{-1}],du)$-norm by
 
 $$
-\sum_ {s \in \mathbf {Z}} | | \max _ {\bar {b} \in \mathrm{B} _ {s}} | \sum_ {k = 1} ^ {\mathbf {K}} e ^ {- 2 \pi i \lambda_ {k} u} e ^ {2 \pi i \lambda_ {k} x} b _ {k} | | | _ {\mathrm{L} ^ {3} ([ 0, \tau^ {- 1} ])}.\tag{4.24}
+\sum_ {s \in \mathbf {Z}} | | \max _ {\bar {b} \in \mathrm{B} _ {s}} | \sum_ {k = 1} ^ {\mathbf {K}} e ^ {- 2 \pi i \lambda_ {k} u} e ^ {2 \pi i \lambda_ {k} x} b _ {k} | | | _ {\mathrm{L} ^ {2} ([ 0, \tau^ {- 1} ], du)}.\tag{4.24}
 $$
 
 For given $s$, consider the following bounds
@@ -822,14 +820,14 @@ In the remainder of this section, we complete the proof of (4.12).
 
 Lemma 4.32. — Let again
 
+$$
+\mathbf {R} _ {j} = \{\lambda \in \mathbf {R} \mid \min _ {1 \leqslant k \leqslant \mathbb {K}} | \lambda - \lambda_ {k} | \leqslant 2 ^ {- j} \} \quad \text{for } j \in \mathbf {Z}.
+$$
+
 Then
 
 $$
-\mathbf {R} _ {j} = \{\lambda \in \mathbf {R} | \min _ {1 \leqslant k \leqslant \mathbb {K}} | \lambda - \lambda_ {k} | \leqslant 2 ^ {- j} \} f o r j \in \mathbf {Z}.\tag{4.33}
-$$
-
-$$
-\left| \left| \sup _ {j \in \mathbb {S}} \right| \mathcal {F} ^ {- 1} \left[ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f \right] \right| | | _ {2} \leqslant (\log | S |) | | f | | _ {2}
+\left\| \sup _ {j \in \mathbb {S}} \left| \mathcal {F} ^ {- 1} \left[ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f \right] \right| \right\| _ {2} \leqslant (\log | S |) \left\| f \right\| _ {2}.\tag{4.33}
 $$
 
 for S a finite subset of Z.
@@ -896,14 +894,12 @@ $$
 
 where  $Z_{1}$ ,  $Z_{K}$  are half-lines and  $Z_{r}$  is a finite segment for 1 < r < K. For r > 1, let  $j_{r} = \min Z_{r}$ . By construction, there is a set  $\Lambda_{r} \subset \{\lambda_{k}\}$  satisfying
 
-(4.38)
-
 $$
-\mid \lambda - \lambda^ {\prime} \mid > 2 ^ {- j _ {r}} \quad \text { for } \lambda \neq \lambda^ {\prime} \text { in } \Lambda_ {r}\tag{4.39}
+\mid \lambda - \lambda^ {\prime} \mid > 2 ^ {- j _ {r}} \quad \text { for } \lambda \neq \lambda^ {\prime} \text { in } \Lambda_ {r}\tag{4.38}
 $$
 
 $$
-\bigcup_ {\lambda \in \Lambda_ {r}} [ \lambda - 2 ^ {- j}, \lambda + 2 ^ {- j} ] \subset R _ {j} \subset \bigcup_ {\lambda \in \Lambda_ {r}} [ \lambda - 2 ^ {- j + 1}, \lambda + 2 ^ {- j + 1} ] \quad \text { for } j \in Z _ {r}.
+\bigcup_ {\lambda \in \Lambda_ {r}} [ \lambda - 2 ^ {- j}, \lambda + 2 ^ {- j} ] \subset R _ {j} \subset \bigcup_ {\lambda \in \Lambda_ {r}} [ \lambda - 2 ^ {- j + 1}, \lambda + 2 ^ {- j + 1} ] \quad \text { for } j \in Z _ {r}.\tag{4.39}
 $$
 
 To prove (4.12) we proceed again by duality and estimate the best B fulfilling
@@ -945,7 +941,7 @@ $$
 where $\mathbf{B}_1$ has to satisfy
 
 $$
-\left| \sup _ {j \in \mathbf {Z} _ {r}} \right| \mathcal {F} ^ {- 1} [ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f ] | | _ {2} \leqslant \mathrm{B} _ {1} | | f | | _ {2}.\tag{4.41}
+\left\| \sup _ {j \in \mathbf {Z} _ {r}} \left| \mathcal {F} ^ {- 1} [ \chi_ {\mathrm{R} _ {j}} \mathcal {F} f ] \right| \right\| _ {2} \leqslant \mathrm{B} _ {1} \left\| f \right\| _ {2}.\tag{4.41}
 $$
 
 In order to estimate  $B_{1}$ , apply (4.26) with  $\Lambda = \Lambda_{r}$ ,  $s = j_{r}$ , taking into account (4.38) and  $j \geqslant j_{r}$  for  $j \in Z_{r}$ . Invoking then (4.39) and a square function argument such as in (4.31), it follows that  $B_{1} < C(\log K)^{2}$ . Substitution in (4.40) yields that  $B < C(\log K)^{2}$ . This proves (4.12), hence Lemma's 4.11 and 4.1.
@@ -1052,14 +1048,12 @@ $$
 
 Lemma 5.17.
 
-(5.18)
-
 $$
-\mid 1 - \mathrm{V} _ {\mathbf {N}} (\overline {{\beta}}) \mid <   \mathbf {C} \sum_ {j = 1} ^ {d} \mid \beta_ {j} \mid \mathrm{N} ^ {j}\tag{5.19}
+\mid 1 - \mathrm{V} _ {\mathbf {N}} (\overline {{\beta}}) \mid <   \mathbf {C} \sum_ {j = 1} ^ {d} \mid \beta_ {j} \mid \mathrm{N} ^ {j}\tag{5.18}
 $$
 
 $$
-\mid \mathrm{V} _ {\mathbf {N}} (\overline {{\beta}}) \mid <   \mathbf {C} [ 1 + \sum_ {j = 1} ^ {d} \mid \beta_ {j} \mid \mathrm{N} ^ {j} ] ^ {- 1 / d}
+\mid \mathrm{V} _ {\mathbf {N}} (\overline {{\beta}}) \mid <   \mathbf {C} [ 1 + \sum_ {j = 1} ^ {d} \mid \beta_ {j} \mid \mathrm{N} ^ {j} ] ^ {- 1 / d}\tag{5.19}
 $$
 
 where $\mathbf{C} = c(d)$.
@@ -1070,14 +1064,12 @@ The first estimate (5.18) is obvious and the second (5.19) follows from van der 
 
 In this section, we prove Theorem 1 for functions of class  $L^{2}$ . This result appears in  $[B_{1}]$ . The argument presented here uses less structure. According to the discussion in section 1, the maximal inequality and convergence problem for the averages
 
-(6.1)
-
 $$
-\mathrm{A} _ {\mathbf {N}} f = \frac {1}{\mathbf {N}} \sum_ {n = 1} ^ {\mathbf {N}} \mathrm{T} ^ {p (n)} f\tag{6.2}
+\mathrm{A} _ {\mathbf {N}} f = \frac {1}{\mathbf {N}} \sum_ {n = 1} ^ {\mathbf {N}} \mathrm{T} ^ {p (n)} f\tag{6.1}
 $$
 
 $$
-p (x) = b _ {1} x + b _ {2} x ^ {2} + \dots + b _ {d} x ^ {d}, \quad b _ {j} \in \mathbf {Z} \text {   and   } b _ {d} > 0,
+p (x) = b _ {1} x + b _ {2} x ^ {2} + \dots + b _ {d} x ^ {d}, \quad b _ {j} \in \mathbf {Z} \text {   and   } b _ {d} > 0.\tag{6.2}
 $$
 
 where reduced to proving certain inequalities for the shift model  $(\mathbf{Z}, \mathbf{S})$ . In the case of the shift, one has
@@ -1111,19 +1103,17 @@ Denote by $\zeta$ a smooth function on $\mathbf{R}$ with $\zeta = 1$ on $\left[-
 Define
 
 $$
-\psi_ {s, \mathbf {N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s}} \mathrm{S} (\theta) w _ {\mathbf {N}} (\alpha - \theta) \zeta (1 0 ^ {s} (\alpha - \theta))\tag{6.7}
+\psi_ {s, \mathbf {N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s}} \mathrm{S} (\theta) w _ {\mathbf {N}} (\alpha - \theta) \zeta (10 ^ {s} (\alpha - \theta))\tag{6.7}
 $$
 
 where, with the notation (5.10), (5.11) of section 5,
 
-(6.8)
-
 $$
-\begin{array}{r l} \mathrm{S} (\theta) & = \mathrm{S} (q ^ {\prime}, a _ {1} ^ {\prime}, \dots , a _ {d} ^ {\prime}) \\ & \text { where } - \theta . b _ {j} \equiv a _ {j} ^ {\prime} / q ^ {\prime} (\bmod 1) \text { and } (a _ {1} ^ {\prime}, \dots , a _ {d} ^ {\prime}, q ^ {\prime}) = 1, \end{array}\tag{6.9}
+\begin{array}{r l} \mathrm{S} (\theta) & = \mathrm{S} (q ^ {\prime}, a _ {1} ^ {\prime}, \dots , a _ {d} ^ {\prime}) \\ & \text { where } - \theta . b _ {j} \equiv a _ {j} ^ {\prime} / q ^ {\prime} (\bmod 1) \text { and } (a _ {1} ^ {\prime}, \dots , a _ {d} ^ {\prime}, q ^ {\prime}) = 1, \end{array}\tag{6.8}
 $$
 
 $$
-w _ {\mathbf {N}} (\beta) = \mathrm{V} _ {\mathbf {N}} (- \beta b _ {1}, \dots , - \beta b _ {d}).
+w _ {\mathbf {N}} (\beta) = \mathrm{V} _ {\mathbf {N}} (- \beta b _ {1}, \dots , - \beta b _ {d}).\tag{6.9}
 $$
 
 Thus it follows from Lemma 5.12 that, if $\theta = a / q$, $q < \mathbf{N}^{\delta}$,
@@ -1138,14 +1128,12 @@ Also, since $q' > q / b_d$, if $\theta = a / q$, $(a, q) = 1$, one has by (5.15)
 
 From (6.9) and (5.17)
 
-(6.12)
-
 $$
-\mid 1 - w _ {\mathbf {N}} (\beta) \mid <   \mathbf {C} \mid \beta \mid . \mathbf {N} ^ {d},\tag{6.13}
+\mid 1 - w _ {\mathbf {N}} (\beta) \mid <   \mathbf {C} \mid \beta \mid . \mathbf {N} ^ {d},\tag{6.12}
 $$
 
 $$
-\mid w _ {\mathbf {N}} (\beta) \mid <   \mathrm{C} [ 1 + \mid \beta \mid \mathrm{N} ^ {d} ] ^ {- 1 / d}.
+\mid w _ {\mathbf {N}} (\beta) \mid <   \mathrm{C} [ 1 + \mid \beta \mid \mathrm{N} ^ {d} ] ^ {- 1 / d}.\tag{6.13}
 $$
 
 Observe also that the summands in (6.7) are disjointly supported, by definition of $\mathcal{R}_s$ and $\zeta$.
@@ -1173,7 +1161,7 @@ Case 1. — $\alpha$ belongs to an arc $\mathcal{M}(\theta_0)$.
 Assume $\theta_0 \in \mathcal{R}_{s_0}$, thus $2^{s_0} < N^\delta$. Let $s_1$ be a positive integer (depending on $N$), to be specified later. Estimate, using (6.10), (6.11),
 
 $$
-\begin{array}{r l} | \mathcal {F} [ \mathrm{K} _ {\mathrm{N}} ] (\alpha) - \sum \psi_ {s, \mathrm{N}} (\alpha) | & \leqslant | 1 - \zeta (1 0 ^ {s _ {0}} (\alpha - \theta_ {0})) | \\ & + \sum_ {s \leqslant s _ {1}} \sup | w _ {\mathrm{N}} (\alpha - \theta) | + \mathrm{C} 2 ^ {- s _ {1} \delta^ {\prime}} + \mathrm{CN} ^ {- 1 / 2}, \end{array}\tag{6.17}
+\begin{array}{r l} | \mathcal {F} [ \mathrm{K} _ {\mathrm{N}} ] (\alpha) - \sum \psi_ {s, \mathrm{N}} (\alpha) | & \leqslant | 1 - \zeta (10 ^ {s _ {0}} (\alpha - \theta_ {0})) | \\ & + \sum_ {s \leqslant s _ {1}} \sup | w _ {\mathrm{N}} (\alpha - \theta) | + \mathrm{C} 2 ^ {- s _ {1} \delta^ {\prime}} + \mathrm{CN} ^ {- 1 / 2}, \end{array}\tag{6.17}
 $$
 
 where the sup is extended over all $\theta \in \mathcal{R}_s$ different from $\theta_0$.
@@ -1201,7 +1189,7 @@ By definition of $\mathcal{M}(\theta)$, it follows from the hypothesis on $\alph
 It is clear that, when proving the maximal inequality
 
 $$
-\left| \sup _ {\mathbf {N}} | f * \mathrm{K} _ {\mathbf {N}} | \right| _ {\ell^ {2} (\mathbf {Z})} \leqslant \mathrm{C} \| f \| _ {\ell^ {2} (\mathbf {Z})},\tag{6.19}
+\left\| \sup _ {\mathbf {N}} \left| f * \mathrm{K} _ {\mathbf {N}} \right| \right\| _ {\ell^ {2} (\mathbf {Z})} \leqslant \mathrm{C} \left\| f \right\| _ {\ell^ {2} (\mathbf {Z})},\tag{6.19}
 $$
 
 the function $f$ may be taken positive and hence the supremum taken over the set $Z_{1} = \{2^{k} \mid k = 1, 2, \ldots\}$. Setting
@@ -1219,7 +1207,7 @@ $$
 To estimate the contribution of the first terms, define
 
 $$
-\widetilde {\psi} _ {s, \mathbf {N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s}} \mathrm{S} (\theta) \chi (\mathrm{N} ^ {d} (\alpha - \theta)) \zeta (1 0 ^ {s} (\alpha - \theta))\tag{6.22}
+\widetilde {\psi} _ {s, \mathbf {N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s}} \mathrm{S} (\theta) \chi (\mathrm{N} ^ {d} (\alpha - \theta)) \zeta (10 ^ {s} (\alpha - \theta))\tag{6.22}
 $$
 
 with $\chi = \chi_{[-1,1]}$, considered as function on $\mathbf{R}$. It easily follows from (6.11), (6.12), (6.13) that there is a uniform estimate
@@ -1236,14 +1224,12 @@ $$
 
 For $\mathbf{N} \in \mathbf{Z}_1$, write $\mathbf{N}^d = 2^j$ and let $\mathbf{R}_j$ be the $2^{-j}$-neighborhood of $\mathbf{R}_s \subset \Pi$. Thus, setting
 
-(6.25)
-
 $$
-\mathcal {F} [ g _ {s} ] = \mathcal {F} [ f ] \sum_ {\theta \in \mathcal {R} _ {s}} S (\theta) \zeta (1 0 ^ {s} (\alpha - \theta))\tag{6.26}
+\mathcal {F} [ g _ {s} ] = \mathcal {F} [ f ] \sum_ {\theta \in \mathcal {R} _ {s}} S (\theta) \zeta (10 ^ {s} (\alpha - \theta))\tag{6.25}
 $$
 
 $$
-\widetilde {\Psi} _ {s, \mathrm{N}} \mathcal {F} f = \mathcal {F} [ g _ {s} ] \cdot \chi_ {\mathrm{R} _ {j}},
+\widetilde {\psi} _ {s, \mathrm{N}} \mathcal {F} f = \mathcal {F} [ g _ {s} ] \cdot \chi_ {\mathrm{R} _ {j}}.\tag{6.26}
 $$
 
 it follows from inequality (4.3) in Lemma 4.1 that
@@ -1273,7 +1259,7 @@ $$
 which proves the maximal inequality
 
 $$
-\left| \sup _ {\mathbf {N}} \mid \mathrm{A} _ {\mathbf {N}} f \right| \left| \right| _ {2} \leqslant \mathrm{C} \left| \right| f \left| \right| _ {2}.\tag{6.30}
+\left\| \sup _ {\mathbf {N}} \left| \mathrm{A} _ {\mathbf {N}} f \right| \right\| _ {2} \leqslant \mathrm{C} \left\| f \right\| _ {2}.\tag{6.30}
 $$
 
 Next, we verify the almost sure convergence using the method described in section 2 of this paper. Thus we prove an inequality (2.14) in (Z, S)
@@ -1384,7 +1370,7 @@ $$
 
 Denote again by $\zeta$ a smooth function on $\mathbf{R}$, $0 \leqslant \zeta \leqslant 1$, supp $\zeta \subset [-1/2, 1/2]$ and $\zeta = 1$ on $[-1/4, 1/4]$.
 
-The following lemma will be useful when comparing  $\mathbf{L}^{\nu}(\mathbf{R})$  and  $\ell^{\nu}(\mathbf{Z})$ -norms.
+The following lemma will be useful when comparing  $\mathbf{L}^{p}(\mathbf{R})$  and  $\ell^{p}(\mathbf{Z})$ -norms.
 
 Lemma 7.4. — For $1 < q < \varepsilon D, \varepsilon = o(1)$, one has
 
@@ -1423,7 +1409,7 @@ $$
 and apply the inequality $||||_{\ell^p} \leqslant \rho ||||_{L^p}$ and (7.6) to estimate
 
 $$
-\left| \left| \int \mathrm{F} (\beta) e ^ {2 \pi i \beta \alpha y} [ 1 - e ^ {2 \pi i \beta \alpha u} ] \zeta (\mathrm{D} \beta) d \beta \right| \right| _ {\ell^ {p} (d y)} \leqslant \mathrm{C} \varepsilon \rho | | \mathrm{F} (\beta) e ^ {2 \pi i q \beta y} \zeta (\mathrm{D} \beta) d \beta | | _ {\mathbf {L} ^ {p}}\tag{7.9}
+\left\| \int \mathrm{F}(\beta) e^{2 \pi i \beta q y} \left[1-e^{2 \pi i \beta q u}\right]\zeta(\mathrm{D}\beta)\,d\beta \right\|_{\ell^{p}(dy)} \leqslant \mathrm{C}\varepsilon\rho \left\| \int \mathrm{F}(\beta)e^{2\pi i\beta qy}\zeta(\mathrm{D}\beta)\,d\beta \right\|_{\mathbf{L}^{p}}\tag{7.9}
 $$
 
 for $0 \leqslant u \leqslant 1$. Since $\mathbf{C}_{\varepsilon \rho} < 1/2$ for $\varepsilon$ small enough, substitution of (7.9) in (7.8) yields the converse inequality, proving (7.5).
@@ -1479,13 +1465,13 @@ $$
 Proof. — As observed earlier,  $w_{N}$  is the Fourier transform of the measure  $v_{N}$ , image of the measure dy/N under the mapping  $p: [0, N] \to R$ . Thus we have to estimate  $\left|\left|\sup_{N}\left|f * v_{N}\right|\right|\right|_{p}$ . For t sufficiently large, one has that  $\frac{d v_{N}}{ds}\bigg|_{s=t}=1/Np'(p^{-1}(t))$  which is of the order  $(1/N)t^{-1+(1/d)}$  in size. Thus the problem reduces to show that
 
 $$
-\left| \left| \sup _ {\mathbf {N}} \right| f * \left[ (1 / \mathrm{N}) t ^ {- 1 + (1 / d)} \chi_ {[ 0, \mathrm{N} d ]} (t) \right] \right| \left| \right| _ {\mathcal {P}} \leqslant \mathrm{C} \left| \right| f \left| \right| _ {\mathcal {P}}.\tag{7.18}
+\left\| \sup_{\mathbf{N}} \left| f * \left[ (1 / \mathrm{N}) t^{-1 + (1/d)} \chi_{[0,\mathrm{N}^{d}]}(t) \right] \right| \right\|_{p} \leqslant \mathrm{C} \left\| f \right\|_{p}.\tag{7.18}
 $$
 
 Defining $k(t) = t^{-1 + (1 / d)}\chi_{[0,1]}$, (1/N) $t^{-1 + (1 / d)}\chi_{[0,\mathbf{N}^d ]}(t) = k_{(\mathbf{N}^d)}$, where $k_{s}(t) = \frac{1}{s} k\left(\frac{t}{s}\right)$, $s > 0$. The fact that
 
 $$
-\left| \right| \sup _ {s > 0} | f * k _ {s} | \| _ {\mathcal {P}} \leqslant \mathrm{C} \| f \| _ {\mathcal {P}}\tag{7.19}
+\left\| \sup_{s>0} \left| f*k_s \right| \right\|_{p} \leqslant \mathrm{C} \left\| f \right\|_{p}\tag{7.19}
 $$
 
 follows from the Hardy-Littlewood maximal function boundedness on R. This proves the lemma.
@@ -1499,7 +1485,7 @@ $$
 Proof. — The main ingredient will be (7.16) and the problem is to pass from R to Z. Writing  $x \in Z$  as  $x = yq + z$ ,  $z = 0, 1, \ldots, q - 1$ , the left member of (7.21) equals
 
 $$
-\left\{\sum_ {0 \leqslant z <   q} \left| \left| \sup _ {\mathbf {N}} \right| \int w _ {\mathbf {N}} (\beta) F _ {z} (\beta) \zeta (D \beta) e ^ {2 \pi i \beta q y} d \beta \right| \left| \right| _ {\ell^ {p} (d y)} ^ {p} \right\} ^ {1 / p}\tag{7.22}
+\left\{\sum_{0\leqslant z<q}\left\|\sup_{\mathbf{N}}\left|\int w_{\mathbf{N}}(\beta)F_z(\beta)\zeta(D\beta)e^{2\pi i\beta qy}\,d\beta\right|\right\|_{\ell^p(dy)}^p\right\}^{1/p}\tag{7.22}
 $$
 
 with
@@ -1511,7 +1497,7 @@ $$
 As in the proof of (7.4), denote by $\rho$ the a priori best constant in the inequality
 
 $$
-\left| \left| \sup _ {N} \right| \int w _ {N} (\beta) F (\beta) \zeta (D \beta) e ^ {2 \pi i \beta a v} d \beta \right| \left| \right| _ {\ell^ {p}} \leqslant \rho \left| \left| \int F (\beta) \zeta (D \beta) e ^ {2 \pi i \beta a v} d \beta \right. \right| _ {\ell^ {p}}.\tag{7.24}
+\left\|\sup_{N}\left|\int w_N(\beta)F(\beta)\zeta(D\beta)e^{2\pi i\beta av}\,d\beta\right|\right\|_{\ell^p} \leqslant \rho\left\|\int F(\beta)\zeta(D\beta)e^{2\pi i\beta av}\,d\beta\right\|_{\ell^p}.\tag{7.24}
 $$
 
 For $0 \leqslant u < 1$, write
@@ -1523,7 +1509,7 @@ $$
 Integrating the $p$th power of the first term of (7.25) in $u \in [0,1]$ gives, by (7.16) and (7.4)
 
 $$
-\begin{array}{r l} q ^ {- 1 / p} \left| \left| \sup _ {N} \right| \mathcal {F} ^ {- 1} [ w _ {N} F \zeta (D.) ] \right| & \| _ {L ^ {p}} \leqslant \\ C q ^ {- 1 / p} \left| \left| \mathcal {F} ^ {- 1} [ F \zeta (D.) ] \right| \right| _ {L ^ {p}} = \\ C \left| \left| \int F (\beta) \zeta (D \beta) e ^ {2 \pi i \beta q y} d \beta \right| \right| _ {L ^ {p} (d y)} & \sim \left| \left| \int F (\beta) \zeta (D \beta) e ^ {2 \pi i q y} d \beta \right| \right| _ {\ell^ {p} (d y)}. \end{array}\tag{7.26}
+\begin{array}{r l} q^{-1/p}\left\|\sup_N\left|\mathcal{F}^{-1}[w_NF\zeta(D\cdot)]\right|\right\|_{L^p} & \leqslant \\ Cq^{-1/p}\left\|\mathcal{F}^{-1}[F\zeta(D\cdot)]\right\|_{L^p} &= \\ C\left\|\int F(\beta)\zeta(D\beta)e^{2\pi i\beta qy}\,d\beta\right\|_{L^p(dy)} & \sim \left\|\int F(\beta)\zeta(D\beta)e^{2\pi iqy}\,d\beta\right\|_{\ell^p(dy)}. \end{array}\tag{7.26}
 $$
 
 By definition of $\rho$, the $\ell^p$-norm of the second term in (7.25) is, for fixed $u \in [0, 1]$, bounded by
@@ -1557,7 +1543,7 @@ This completes the proof of Lemma 7.20.
 Lemma 7.29. — Under the hypothesis of Lemma (7.20), for $p > 1$,
 
 $$
-\left|\left| \sup _ {\mathbf {N}} \right| \sum_ {0 \leqslant a <   q} \mathrm{S} \left(\frac {a}{q}\right) \int w _ {\mathrm{N}} (\beta) \mathscr {F} f \left(\frac {a}{q} + \beta\right) \zeta (\mathrm{D} \beta) e ^ {2 \pi i x \left(\frac {a}{q} + \beta\right)} d \beta \right|\left. \right| _ {\ell^ {p}} \leqslant \mathrm{C} _ {\boldsymbol {p}} | | f | | _ {\ell^ {p}}.\tag{7.30}
+\left\|\sup_{\mathbf{N}}\left|\sum_{0\leqslant a<q}\mathrm{S}\left(\frac{a}{q}\right)\int w_{\mathrm{N}}(\beta)\mathscr{F}f\left(\frac{a}{q}+\beta\right)\zeta(\mathrm{D}\beta)e^{2\pi i x(\frac{a}{q}+\beta)}\,d\beta\right|\right\|_{\ell^p}\leqslant \mathrm{C}_{p}\left\|f\right\|_{\ell^p}.\tag{7.30}
 $$
 
 Proof. — Apply (7.21) to the function g given by
@@ -1573,13 +1559,13 @@ The following lemma in an important new ingredient in proving (7.1).
 Lemma 7.32. — One has the following restricted maximal inequality:
 
 $$
-\left| \left| \sup _ {\mathbf {N} _ {0} <   \mathbf {N} <   \mathbf {N} _ {0} ^ {2}} | f * \mathrm{K} _ {\mathbf {N}} | \right| \right| _ {\mathfrak {p}} \leqslant \mathrm{C} _ {\mathfrak {p}} (\log \log \mathrm{N} _ {0}) \| f \| _ {\mathfrak {p}} \quad \text { for } p > 1.\tag{7.33}
+\left\|\sup_{\mathbf{N}_0<\mathbf{N}<\mathbf{N}_0^2}|f*\mathrm{K}_{\mathbf{N}}|\right\|_{\ell^p}\leqslant \mathrm{C}_p(\log\log\mathbf{N}_0)\left\|f\right\|_{\ell^p}\quad\text{for }p>1.\tag{7.33}
 $$
 
 This is a problem about positive functions and hence N may be taken of the form  $N = 2^{k}$ ,  $k_{0} \leqslant k \leqslant 2k_{0}$ . Instead of considering the  $\ell^{p}(\mathbf{Z})$ -inequality, we will rather deal with functions f taken on a finite cyclic group  $G \equiv Z_{J} = Z/JZ$ , where J is taken large enough (depending on  $N_{0}$ ). The measure on G is the normalized counting measure and  $f * K_{N}$  is the convolution on G of f and  $\frac{1}{N} \sum_{1 \leqslant n \leqslant N} \delta_{\{\mathcal{P}(n)\}}$ . The inequality (7.33) is equivalent to
 
 $$
-\left| \right| \sup _ {k _ {0} \leqslant k \leqslant 2 k _ {0}} | f * \mathrm{K} _ {2 k} | \left| \right| _ {\mathrm{L} ^ {p} (\mathrm{G})} \leqslant \mathrm{C} _ {p} (\log k _ {0}) \left| | f | \right| _ {\mathrm{L} ^ {p} (\mathrm{G})}.\tag{7.34}
+\left\|\sup_{k_0\leqslant k\leqslant 2k_0}\left|f*\mathrm{K}_{2^k}\right|\right\|_{\mathrm{L}^p(\mathrm{G})}\leqslant \mathrm{C}_p(\log k_0)\left\|f\right\|_{\mathrm{L}^p(\mathrm{G})}.\tag{7.34}
 $$
 
 The reason for this set-up is to invoke Stein's extrapolation theorem [St] according to which the inequalities (7.34) for $p > 1$ follow from the weaker inequalities
@@ -1606,7 +1592,7 @@ $$
 \mathbf {M} \sim \log k _ {\mathbf {0}}\tag{7.38}
 $$
 
-and put $\mathbf{L}_k = \mathbf{K}_{2^{\mathbf{uk}}}$ for simplicity. By splitting in sub-sums, (7.36) will clearly follow from
+and put $\mathbf{L}_k = \mathbf{K}_{2^{Mk}}$ for simplicity. By splitting in sub-sums, (7.36) will clearly follow from
 
 $$
 \left| \right| \sum_ {k _ {0} <   k <   2 k _ {0}} \left(g _ {k} * \mathrm{L} _ {k}\right) \left| \right| _ {q} <   \mathrm{C} _ {q}\tag{7.39}
@@ -1616,14 +1602,12 @@ whenever $\{g_k\}$ fulfils (7.37). Denote by $\rho$ the smallest constant $\math
 
 Expanding the qth power of a sum and integrating, we have
 
-(7.40)
-
 $$
-\begin{array}{r l} & {| | \sum_ {k _ {0} <   k <   2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) | | _ {q} ^ {q} \leqslant} \\ & {\quad \mathrm{C} \sum_ {k _ {0} <   k _ {1} <   \dots <   k _ {q} <   2 k _ {0}} \int_ {\mathrm{G}} (g _ {k _ {1}} * \mathrm{L} _ {k _ {1}}) \dots (g _ {k _ {q}} * \mathrm{L} _ {k _ {q}})} \end{array}\tag{7.41}
+\begin{array}{r l} & {\left\| \sum_ {k _ {0} < k < 2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) \right\| _ {q} ^ {q} \leqslant} \\ & {\quad \mathrm{C} \sum_ {k _ {0} < k _ {1} < \dots < k _ {q} < 2 k _ {0}} \int_ {\mathrm{G}} (g _ {k _ {1}} * \mathrm{L} _ {k _ {1}}) \dots (g _ {k _ {q}} * \mathrm{L} _ {k _ {q}})} \end{array}\tag{7.40}
 $$
 
 $$
-+ \mathrm{C} \int_ {\mathrm{G}} [ \sum_ {k _ {0} <   k <   2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) ] ^ {q - 1},
++ \mathrm{C} \int_ {\mathrm{G}} [ \sum_ {k _ {0} < k < 2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) ] ^ {q - 1}.\tag{7.41}
 $$
 
 where (7.41) is bounded by $\rho^{k - 1}$.
@@ -1631,7 +1615,7 @@ where (7.41) is bounded by $\rho^{k - 1}$.
 Choosing M appropriately, we will achieve the estimate
 
 $$
-\left| \left[ g _ {k _ {2}} * \mathrm{L} _ {k _ {2}}\right) \dots \left(g _ {k _ {q}} * \mathrm{L} _ {k _ {q}}\right) \right] * \left(\mathrm{L} _ {k _ {1}} - \mathrm{L} _ {k _ {0}}\right) \left| \right| _ {\mathrm{L} ^ {2} (\mathrm{G})} \leqslant k _ {0} ^ {- q}\tag{7.42}
+\left\| \left[ \left(g _ {k _ {2}} * \mathrm{L} _ {k _ {2}}\right) \dots \left(g _ {k _ {q}} * \mathrm{L} _ {k _ {q}}\right) \right] * \left(\mathrm{L} _ {k _ {1}} - \mathrm{L} _ {k _ {0}}\right) \right\| _ {\mathrm{L} ^ {2} (\mathrm{G})} \leqslant k _ {0} ^ {- q}\tag{7.42}
 $$
 
 whenever $k_0 < k_1 < k_2 < \ldots < k_q < 2k_0$.
@@ -1657,7 +1641,7 @@ We keep the notation F for the Fourier transform on Z and identify G with the in
 For each r, let  $s_{r}$  be increasing integers to be specified later. With the notation of the previous section and D to be specified, define
 
 $$
-\Omega_ {r} = \sum_ {s \leqslant s _ {r}} \sum_ {\theta \in \mathcal {R} _ {s}} S (\theta) w _ {N _ {r}} (\alpha - \theta) \zeta (1 0 ^ {s} (\alpha - \theta)) \zeta (D ^ {- 1} N _ {r} ^ {d} (\alpha - \theta)).\tag{7.44}
+\Omega_ {r} = \sum_ {s \leqslant s _ {r}} \sum_ {\theta \in \mathcal {R} _ {s}} S (\theta) w _ {N _ {r}} (\alpha - \theta) \zeta (10 ^ {s} (\alpha - \theta)) \zeta (D ^ {- 1} N _ {r} ^ {d} (\alpha - \theta)).\tag{7.44}
 $$
 
 It follows from (6.15), (6.11), (6.13) that, for some $\delta > 0$,
@@ -1689,27 +1673,32 @@ Observe that the Fourier transform of the function $\mathcal{F}^{-1}[\Omega_2\ma
 Estimate the left member of (7.42) as
 
 $$
-\begin{array}{r l} & {| | (g _ {2} * \mathrm{L} _ {k _ {2}}) - \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {2}) \Omega_ {2} ] | | _ {\mathrm{L} ^ {2} (\mathrm{G})} +} \\ & {\quad | | \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {2}) \Omega_ {2} ] | | _ {\infty} | | (g _ {3} * \mathrm{L} _ {k _ {3}}) - \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {3}) \Omega_ {3} ] | | _ {\mathrm{L} ^ {2} (\mathrm{G})} + \dots +} \end{array}\tag{7.49}
+\begin{array}{l}
+\left\|(g _ {2} * \mathrm{L} _ {k _ {2}}) - \mathcal {F} ^ {-1} [\mathcal {F}(g _ {2})\Omega _ {2}]\right\|_{\mathrm{L} ^ {2}(\mathrm{G})}\\
++\left\|\mathcal {F} ^ {-1}[\mathcal {F}(g _ {2})\Omega _ {2}]\right\|_{\infty}
+\left\|(g _ {3} * \mathrm{L} _ {k _ {3}})-\mathcal {F} ^ {-1}[\mathcal {F}(g _ {3})\Omega _ {3}]\right\|_{\mathrm{L} ^ {2}(\mathrm{G})}+\dots\\
++\left\|\mathcal {F} ^ {-1}[\mathcal {F}(g _ {2})\Omega _ {2}]\right\|_{\infty}\dots
+\left\|\mathcal {F} ^ {-1}[\mathcal {F}(g _ {q - 1})\Omega _ {q - 1}]\right\|_{\infty}
+\left\|(g _ {q} * \mathrm{L} _ {k _ {q}})-\mathcal {F} ^ {-1}[\mathcal {F}(g _ {q})\Omega _ {q}]\right\|_{\mathrm{L} ^ {2}(\mathrm{G})}
+\end{array}\tag{7.49}
 $$
 
 $$
-\begin{array}{r l} \left| \left| \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {2}) \Omega_ {2} \right| \right| _ {\infty} \dots & \left| \left| \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {q - 1}) \Omega_ {q - 1} ] \right| \right| _ {\infty} \left| \right| (g _ {q} * L _ {k _ {q}}) \\ & - \mathcal {F} ^ {- 1} [ \mathcal {F} (g _ {q}) \Omega_ {q} ] \left| \right| _ {L ^ {2} (G)} \end{array}\tag{7.50}
-$$
-
-$$
-+ \left\| \left\{\mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {2}\right) \Omega_ {2} \right] \dots \mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {q}\right) \Omega_ {q} \right] \right\} * \left(\mathrm{L} _ {k _ {1}} - \mathrm{L} _ {k _ {0}}\right) \right\| _ {\mathrm{L} ^ {2} (\mathrm{G})}.
++\left\|\left\{\mathcal {F} ^ {- 1}[\mathcal {F}(g _ {2})\Omega _ {2}]\dots
+\mathcal {F} ^ {- 1}[\mathcal {F}(g _ {q})\Omega _ {q}]\right\} *
+(\mathrm{L} _ {k _ {1}}-\mathrm{L} _ {k _ {0}})\right\|_{\mathrm{L} ^ {2}(\mathrm{G})}.\tag{7.50}
 $$
 
 By (7.47) and (7.48), (7.49) is bounded by
 
 $$
-\mathbf {C} \sum_ {r = 2} ^ {q} 4 ^ {s _ {3} + \dots + s _ {r - 1}} (\mathrm{N} _ {r} ^ {- \delta} + 2 ^ {- s _ {r} \delta} + \mathrm{D} ^ {- 1 / d}).\tag{7.51}
+\mathbf {C} \sum_ {r = 2} ^ {q} 4 ^ {s _ {2} + \dots + s _ {r - 1}} (\mathrm{N} _ {r} ^ {- \delta} + 2 ^ {- s _ {r} \delta} + \mathrm{D} ^ {- 1 / d}).\tag{7.51}
 $$
 
 Making the appropriate choice of the numbers  $s_{r} \sim \log k_{0}$  then allows the estimation
 
 $$
-(7. 4 9) \leqslant \frac {1}{1 0} k _ {0} ^ {- q} + k _ {0} ^ {\mathrm{C}}. (\mathrm{N} _ {2} ^ {- \delta} + \mathrm{D} ^ {- 1 / d}).\tag{7.52}
+(7.49) \leqslant \frac {1}{10} k _ {0} ^ {- q} + k _ {0} ^ {\mathrm{C}}. (\mathrm{N} _ {2} ^ {- \delta} + \mathrm{D} ^ {- 1 / d}).\tag{7.52}
 $$
 
 By the remark on the support of the Fourier transform made above, (7.50) is clearly bounded by
@@ -1741,7 +1730,7 @@ $$
 Collecting estimates (7.52) and (7.56), the left number of (7.42) is bounded by
 
 $$
-\frac {1}{1 0} k _ {0} ^ {- a} + k _ {0} ^ {\mathrm{C}} \left[ \mathrm{D} ^ {- 1 / d} + \mathrm{D} 2 ^ {- \mathbf {M} d} + 2 ^ {- \delta k _ {0}} \right] <   k _ {0} ^ {- a}
+\frac {1}{10} k _ {0} ^ {- q} + k _ {0} ^ {\mathrm{C}} \left[ \mathrm{D} ^ {- 1 / d} + \mathrm{D} 2 ^ {- \mathbf {M} d} + 2 ^ {- \delta k _ {0}} \right] <   k _ {0} ^ {- q}
 $$
 
 for a suitable choice of D,  $\log D \sim \log k_{0}$  and  $M \sim \log k_{0}$  (cf. (7.38)). This completes the proof of (7.42) and hence of Lemma 7.32.
@@ -1750,20 +1739,18 @@ The proof of (7.2) is mainly based on $\mathbf{L}^2$-estimates, (7.29), (7.32) a
 
 Proof of (7.2). — Denote by || ||, the  $\ell^{r}(\mathbf{Z})$ -norm in what follows. For  $s = 1, 2, \ldots$ , define
 
-(7.57)
-
 $$
-Q _ {s} = 2 ^ {s}!\tag{7.58}
+Q _ {s} = 2 ^ {s}!\tag{7.57}
 $$
 
 $$
-\mathcal {K} _ {s} = \{k \in \mathbf {Z} | 4 ^ {s} \leqslant k <   4 ^ {s + 1} \}
+\mathcal {K} _ {s} = \{k \in \mathbf {Z} | 4 ^ {s} \leqslant k <   4 ^ {s + 1} \}\tag{7.58}
 $$
 
 and with previous notation, let
 
 $$
-\Omega_ {k, s ^ {\prime}} = \sum_ {0 \leqslant a <   Q _ {s ^ {\prime}}} S \left(\frac {a}{Q _ {s ^ {\prime}}}\right) w _ {2 k} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right) \zeta \left(Q _ {s ^ {\prime}} ^ {2} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right)\right)\tag{7.59}
+\Omega_ {k, s ^ {\prime}} = \sum_ {0 \leqslant a < Q _ {s ^ {\prime}}} S \left(\frac {a}{Q _ {s ^ {\prime}}}\right) w _ {2 ^ {k}} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right) \zeta \left(Q _ {s ^ {\prime}} ^ {2} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right)\right)\tag{7.59}
 $$
 
 for $s' \leqslant s, k \in \mathcal{K}_s$.
@@ -1771,7 +1758,7 @@ for $s' \leqslant s, k \in \mathcal{K}_s$.
 It follows from (6.15), (6.11), (6.13) that for $s' \leqslant s$, $k \in \mathcal{K}_s$
 
 $$
-\left| \mathcal {F} [ \mathrm{K} _ {2 k} ] (\alpha) - \Omega_ {k, s ^ {\prime}} (\alpha) \right| <   2 ^ {- \delta^ {\prime} s ^ {\prime}}\tag{7.60}
+\left| \mathcal {F} [ \mathrm{K} _ {2 ^ {k}} ] (\alpha) - \Omega_ {k, s ^ {\prime}} (\alpha) \right| <   2 ^ {- \delta^ {\prime} s ^ {\prime}}\tag{7.60}
 $$
 
 and by (7.13)
@@ -1783,37 +1770,37 @@ $$
 Fix $1 < p_0 < p < 2$. It follows from (7.30) that
 
 $$
-\left| \left| \sup _ {k} \right| \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}} \mathcal {F} f ] \right| \left| \right| _ {p _ {0}} \leqslant C \left| | f | \right| _ {p _ {0}}.\tag{7.62}
+\left\| \sup_{k} \left| \mathcal{F}^{-1}[\Omega_{k,s'}\mathcal{F}f] \right| \right\|_{p_0} \leqslant C\left\|f\right\|_{p_0}.\tag{7.62}
 $$
 
 For $k\in \mathcal{K}_s$ , write
 
 $$
-\begin{array}{r l} f * \mathrm{K} _ {2 k} & = \mathcal {F} ^ {- 1} [ \Omega_ {k, 1} \mathcal {F} f ] + \mathcal {F} ^ {- 1} [ (\Omega_ {k, 2} - \Omega_ {k, 1} ] \mathcal {F} f ] + \dots \\ & \quad + \mathcal {F} ^ {- 1} [ (\Omega_ {k, s} - \Omega_ {k, s - 1}) \mathcal {F} f ] + [ (f * \mathrm{K} _ {2 k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] ], \end{array}
+\begin{array}{r l} f * \mathrm{K} _ {2 ^ {k}} & = \mathcal {F} ^ {- 1} [ \Omega_ {k, 1} \mathcal {F} f ] + \mathcal {F} ^ {- 1} [ (\Omega_ {k, 2} - \Omega_ {k, 1} ] \mathcal {F} f ] + \dots \\ & \quad + \mathcal {F} ^ {- 1} [ (\Omega_ {k, s} - \Omega_ {k, s - 1}) \mathcal {F} f ] + [ (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] ], \end{array}
 $$
 
 so that
 
-(7.63)
-
 $$
-\begin{array}{r l} \sup _ {k} | f * \mathrm{K} _ {2 k} | & \leqslant \sum_ {s ^ {\prime}} \sup _ {k \geqslant 4 s ^ {\prime}} | \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] | \\ & \quad + \sum_ {s} \sup _ {k \in \mathcal {X} _ {s}} | (f * \mathrm{K} _ {2 k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] |. \end{array}\tag{By (7.62}
+\begin{array}{r l} \sup _ {k} \left| f * \mathrm{K} _ {2 ^ {k}} \right| & \leqslant \sum_ {s ^ {\prime}} \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] \right| \\ & \quad + \sum_ {s} \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right|. \end{array}\tag{7.63}
 $$
 
+By (7.62)
+
 $$
-\left| \left| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \right| \mathcal {F} ^ {- 1} \left[ \left(\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}\right) \mathcal {F} f \right] \right| \left| \right| _ {p _ {0}} <   C \| f \| _ {p _ {0}}\tag{7.64}
+\left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \mathcal {F} ^ {- 1} \left[ \left(\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}\right) \mathcal {F} f \right] \right| \right\| _ {p _ {0}} <   C \left\| f \right\| _ {p _ {0}}\tag{7.64}
 $$
 
 while by (7.33) and (7.62) also
 
 $$
-\left| \sup _ {k \in \mathcal {K} _ {s}} \right| (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] | | _ {\mathfrak {p} _ {0}} \leqslant \mathrm{C}. s | | f | | _ {\mathfrak {p} _ {0}}.\tag{7.65}
+\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right| \right\| _ {p _ {0}} \leqslant \mathrm{C}. s \left\| f \right\| _ {p _ {0}}.\tag{7.65}
 $$
 
 Our purpose is to interpolate (7.64), (7.65) with better  $\ell^{2}$ -estimates. Using (6.15), estimate
 
 $$
-\begin{array}{l} \left| \left| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \right| (f * K _ {2 k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}} \mathcal {F} f ] \right| \left| \right| _ {2} \leqslant \\ C \sum_ {k \geqslant 4 ^ {s ^ {\prime}}} 2 ^ {- k \delta_ {1}} + \left| \left| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \right| \sum_ {0 \leqslant r \leqslant s ^ {\prime}} \mathcal {F} ^ {- 1} [ \psi_ {r, 2 k}. \mathcal {F} f ] - \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}}. \mathcal {F} f ] \right| \left| \right| _ {2} + \\ \sum_ {r > s ^ {\prime}} \left| \left| \sup _ {k} \right| \mathcal {F} ^ {- 1} [ \psi_ {r, 2 k}. \mathcal {F} f ] \right| \left| \right| _ {2}, \end{array}\tag{7.66}
+\begin{array}{l} \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| (f * K _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} \leqslant \\ C \sum _ {k \geqslant 4 ^ {s ^ {\prime}}} 2 ^ {- k \delta_ {1}} + \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \sum _ {0 \leqslant r \leqslant s ^ {\prime}} \mathcal {F} ^ {- 1} [ \psi _ {r, 2 ^ {k}} \mathcal {F} f ] - \mathcal {F} ^ {- 1} [ \Omega _ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} + \\ \sum _ {r > s ^ {\prime}} \left\| \sup _ {k} \left| \mathcal {F} ^ {- 1} [ \psi _ {r, 2 ^ {k}} \mathcal {F} f ] \right| \right\| _ {2}, \end{array}\tag{7.66}
 $$
 
 where $\psi_{r,\mathbf{N}}$ is given by (6.7).
@@ -1822,16 +1809,18 @@ By (6.28), the last term of (7.66) is bounded by $\mathbf{C}.2^{-s'\delta'}||f||
 
 Write
 
-(7.67)
+$$
+\Omega_{k,s^{\prime}} - \sum_{r\leqslant s^{\prime}}\psi_{r,2^{k}} = \sum_{r\leqslant s^{\prime}}\sum_{\theta \in \mathcal{R}_{r}}S(\theta) w_{2^{k}}(\alpha - \theta)\left[\zeta\left(Q_{s^{\prime}}^{2}(\alpha - \theta)\right) - \zeta\left(10^{r}(\alpha - \theta)\right)\right].\tag{7.67}
+$$
 
 $$
-\begin{array}{l}\Omega_{k,s^{\prime}} - \sum_{r\leqslant s^{\prime}}\psi_{r,2^{k}} = \\ \sum_{r\leqslant s^{\prime}}\sum_{\theta \in \mathcal{R}_{r}}S(\theta) w_{2k}(\alpha - \theta)[\zeta (Q_{s^{\prime}}^{2}(\alpha - \theta)) - \zeta (10^{r}(\alpha - \theta))]\\ +\sum_{\substack{q|Q_{s^{\prime}}\\ q\geqslant 2^{s^{\prime} + 1}}}\sum_{\substack{1\leqslant a\leqslant q\\ (a,q) = 1}}S\left(\frac{a}{q}\right)w_{2k}\left(\alpha - \frac{a}{q}\right)\zeta \left(Q_{s^{\prime}}^{2}\left(\alpha - \frac{a}{q}\right)\right). \end{array}\tag{7.68}
++\sum_{\substack{q|Q_{s^{\prime}}\\ q\geqslant 2^{s^{\prime}+1}}}\sum_{\substack{1\leqslant a\leqslant q\\(a,q)=1}}S\left(\frac{a}{q}\right)w_{2^{k}}\left(\alpha-\frac{a}{q}\right)\zeta\left(Q_{s^{\prime}}^{2}\left(\alpha-\frac{a}{q}\right)\right).\tag{7.68}
 $$
 
 There is a uniform estimate on (7.67) for $k \geqslant 4^{s'}$ by
 
 $$
-\mathrm{C}. 4 ^ {s ^ {\prime}}. \sup _ {| \beta | > \mathbf {Q} _ {s ^ {\prime}} ^ {- 2}} | w _ {2 k} (\beta) | <   \mathrm{C} 2 ^ {- k / 2}\tag{7.69}
+\mathrm{C}. 4 ^ {s ^ {\prime}}. \sup _ {| \beta | > \mathbf {Q} _ {s ^ {\prime}} ^ {- 2}} | w _ {2 ^ {k}} (\beta) | <   \mathrm{C} 2 ^ {- k / 2}\tag{7.69}
 $$
 
 in view of (6.13) and (7.57). Thus (7.67) contributes to the maximal function for at most  $C2^{-s'}$ .
@@ -1841,19 +1830,19 @@ As was done in section 6 to prove (6.28), (6.29), one estimates the maximal func
 Collecting estimates yields the bound C. $2^{-\delta^{\prime}s^{\prime}}$ on (7.66). Hence also, by subtraction
 
 $$
-\left| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \right. | \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] | | _ {2} \leqslant C. 2 ^ {- \delta^ {\prime} s ^ {\prime}} | | f | | _ {2}\tag{7.70}
+\left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] \right| \right\| _ {2} \leqslant C. 2 ^ {- \delta^ {\prime} s ^ {\prime}} \left\| f \right\| _ {2}.\tag{7.70}
 $$
 
 while
 
 $$
-\left| \sup _ {k \in \mathcal {K} _ {s}} \right| (f * \mathrm{K} _ {2 k}) - \mathscr {F} ^ {- 1} \left[ \Omega_ {k s}. \mathscr {F} f \right] | | _ {2} \leqslant \mathrm{C}. 2 ^ {- \delta^ {\prime s}} | | f | | _ {2}.\tag{7.71}
+\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathscr {F} ^ {- 1} \left[ \Omega_ {k,s} \mathscr{F} f \right] \right| \right\| _ {2} \leqslant \mathrm{C}. 2 ^ {- \delta^ {\prime} s} \left\| f \right\| _ {2}.\tag{7.71}
 $$
 
 Interpolating (7.64), (7.70) at $p_0 < p < 2$ yields the corresponding $\ell^p$-inequality with constant $C.2^{-\delta_p s'}$. Similarly when interpolating (7.65), (7.71), and $\ell^p$-estimate $C.2^{-\delta_p s}$ is found. Here $\delta_p > 0$ depends on $p > 1$. Substitution of these bounds in (7.63) yields
 
 $$
-\left| \left| \sup _ {k} | f * \mathrm{K} _ {2 k} | \right| \right| _ {p} \leqslant \mathrm{C} \sum_ {s ^ {\prime}} 2 ^ {- \delta_ {p} s ^ {\prime}} + \mathrm{C} \sum_ {s} 2 ^ {- \delta_ {p} s} <   \mathrm{C},
+\left\| \sup _ {k} \left| f * \mathrm{K} _ {2 ^ {k}} \right| \right\| _ {p} \leqslant \mathrm{C} \sum_ {s ^ {\prime}} 2 ^ {- \delta_ {p} s ^ {\prime}} + \mathrm{C} \sum_ {s} 2 ^ {- \delta_ {p} s} <   \mathrm{C},
 $$
 
 completing the proof of (7.2).
@@ -1939,11 +1928,7 @@ $$
 For $k\in \mathbf{Z}$ , define
 
 $$
-\mathcal {R} _ {s, k} = \left\{\theta \in [ 0, 1 ] \mid b _ {j} (k - \theta) \equiv \frac {a _ {j}}{q} (\mathrm{mod} 1) \right.\tag{8.9}
-$$
-
-$$
-\text { where } (q, a _ {1}, \dots , a _ {d}) = 1 \text { and } 2 ^ {s} \leqslant q \leqslant 2 ^ {s + 1} \Bigg \}
+\mathcal {R} _ {s, k} = \left\{\theta \in [0,1] \mid b _ {j}(k-\theta) \equiv \frac{a _ {j}}{q} (\mathrm{mod}\ 1),\ \text{where }(q,a _ {1},\dots,a _ {d})=1\text{ and }2^{s}\leqslant q\leqslant 2^{s+1}\right\}.\tag{8.9}
 $$
 
 and for $\theta \in \mathcal{R}_{s,k}$, let, with the notation (5.10),
@@ -1960,14 +1945,12 @@ $$
 
 Set further
 
-(8.12)
-
 $$
-\psi_ {s, k, \mathrm{N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s, k}} \mathrm{S} (\theta) w _ {\mathrm{N}} (\alpha - \theta) \zeta (1 0 ^ {s} b _ {d} (\alpha - \theta))\tag{8.13}
+\psi_ {s, k, \mathrm{N}} (\alpha) = \sum_ {\theta \in \mathcal {R} _ {s, k}} \mathrm{S} (\theta) w _ {\mathrm{N}} (\alpha - \theta) \zeta (10 ^ {s} b _ {d} (\alpha - \theta))\tag{8.12}
 $$
 
 $$
-\psi_ {s, \mathrm{N}} (\alpha) = \sum_ {k \in \mathbf {Z}} \widehat {\tau} (k - \alpha) e ^ {2 \pi i (k - \alpha) b _ {0}} \psi_ {s, k, \mathrm{N}} (\alpha).
+\psi_ {s, \mathrm{N}} (\alpha) = \sum_ {k \in \mathbf {Z}} \widehat {\tau} (k - \alpha) e ^ {2 \pi i (k - \alpha) b _ {0}} \psi_ {s, k, \mathrm{N}} (\alpha).\tag{8.13}
 $$
 
 Notice that different elements of  $R_{s,k}$  are at least  $4^{-s-1}b_{d}^{-1}$ -separated and the summands in (8.12) are thus supported by disjoint arcs in  $\Pi$  (not necessarily centered around rational points).
@@ -1983,7 +1966,7 @@ We leave the verification to the reader.
 Proceeding as in the proof of (6.28) in section 6, one gets
 
 $$
-\left| \left| \sup _ {\mathbf {N} \in \mathbf {Z} _ {1}} \right| \mathcal {F} ^ {- 1} \left[ \psi_ {s, k, \mathbf {N}} \mathcal {F} f \right] \right| | | _ {2} \leqslant \mathrm{C} (\log | \mathcal {R} _ {s, k} |) ^ {2} 2 ^ {- \delta^ {\prime} s} | | f | | _ {2} \sim \mathrm{Cs} ^ {2} 2 ^ {- \delta^ {\prime} s} | | f | | _ {2}.\tag{8.15}
+\left\| \sup_{\mathbf{N}\in\mathbf{Z}_1}\left|\mathcal{F}^{-1}[\psi_{s,k,\mathbf{N}}\mathcal{F}f]\right|\right\|_2 \leqslant \mathrm{C}(\log|\mathcal{R}_{s,k}|)^2 2^{-\delta' s}\left\|f\right\|_2 \sim \mathrm{C}s^2 2^{-\delta' s}\left\|f\right\|_2.\tag{8.15}
 $$
 
 Hence, by (8.8)
