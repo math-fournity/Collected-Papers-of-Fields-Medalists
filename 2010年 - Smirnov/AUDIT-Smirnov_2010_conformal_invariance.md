@@ -297,3 +297,9 @@
 - 核对：Theorem 6.1 Proof 收尾（Theorem 6.2 ⟹ (γ_δ) tight，◻）；§6.2 sub-sequential limits of FK-Ising interfaces are Loewner chains 标题（行首小写 sub-sequential，与 p.1 目录 quirk 同源，正文证实）；h-capacity / time-changed Loewner chain 定义段（Beffara's course 引用）；Theorem 6.4——(γ_δ)_{δ>0} 的任一 sub-sequential limit 是 time-changed Loewner chain；非自交曲线三条件刻画（h-capacity 连续、严格递增、curve grows locally seen from infinity——g_s 为 Ω_s 到 ℳ hydrodynamical renormalization 的共形映射，PNG 花体 ℳ）；six arm event Δ_6 > 2、universal exponents、5-arm exponent = 2、Δ_6 > Δ_5 = 2 论述；Kemppainen-第二作者结构定理引出；Condition (⋆) 完整陈述（C > 1、Δ > 0、0 < δ < r < R/C、stopping time τ、annulus S_{r,R}(x) 不含 γ_τ、概率 < C(r/R)^Δ，Fig. 15 引用）；页脚印刷页码 46。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷 quirk 登记——§6.2 节标题行首 "sub-sequential" 小写（p.1 目录已登记，本页正文节标题同式样）；(⋆) 星号条件记号与斜体强调 "while it is not forced to enter S_{r,R}(x) again" 为对账锚点。
+
+## p.047（PDF p.47 / 印刷 p.47）
+- PNG：audit/p047.png（pngmono 150dpi）
+- 核对：Figure 15（左：fjord 例子，S_{r,R} 与六次 alternating crossings；右：unforced vs forced crossing 两图，标注 a、b）及长图注；unforced crossings 说明段；Theorem 6.5 ([KS10])——Condition (⋆) ⟹ tight 且 sub-sequential limit 为 time-changed Loewner chain；tightness 几乎显然（Aizenman-Burchard 假设）与 h-capacity 严格递增难点的论述；Proof of Theorem 6.4——Lemma 6.3 给出 Condition (⋆)（◻）；§6.3 Convergence of FK-Ising interfaces to SLE(16/3) 标题；Lemma 6.6——M_n^δ(z) = F_{Ω_δ∖γ[0,n],γ_n,b_δ}(z) 关于 (F_n) 是 martingale（F_n 为 γ[0,n] 生成的 σ-algebra）；Proof——slit domain 仍为 Dobrushin domain、条件分布 φ^{γ_nb_δ}_{Ω◇_δ∖γ[0,n]}、M_n^δ(z) 条件于 F_n 等于 1_{z∈γ_δ}e^{(1/2)iW_{γ_δ}(z,b)}（◻）；Proposition 6.7 起头（Loewner chain 型 sub-sequential limit 是 chordal SLE κ = 16/3）；页脚印刷页码 47。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷 quirk 登记（忠实保留）——Theorem 6.5 结论句原文作 "any sub-sequential limit (γ_{δ_n}) is to a time-changed Loewner chain"，"is to a" 多出 "to"（文本层与 PNG 双通道一致），不作"改正"；M_n^δ 上标、σ-algebra 花体 F 为对账锚点。
