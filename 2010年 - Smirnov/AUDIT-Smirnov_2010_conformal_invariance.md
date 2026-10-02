@@ -237,3 +237,9 @@
 - 核对：三步证明续——Second：H_δ 与 s-holomorphic functions F_δ/√(2δ) 的收敛；Third：F_δ/√(2δ) → √φ′；§5.1.1 s-holomorphicity of the (vertex) fermionic observable for FK-Ising 标题；Lemma 5.1——F_δ(e) ∈ ℓ(e)；Proof——winding 取值 W + 2πZ、权重 ∝ e^{iW/2}、b_δ southeast corner、末边向右（◻）；parenthetical remark（FK Dobrushin domain 定义非旋转不变、southeast 条件不影响收敛结果）；Lemma 5.2——公式 (5.1) F_δ(N) − F_δ(S) = i[F_δ(E) − F_δ(W)]（N/E/S/W 为顺时针相邻边）；Proof——v 对应 SE→NW primal edge（NE→SW 类似，Fig. 11）、involution s 切换 v 对应 primal 边开闭、ê_ω ∶= φ_{Ω◇_δ,a_δ,b_δ,p_sd}(ω) e^{(1/2)W_γ(e,b_δ)} 1_{e∈γ}（e 上方是否有 hat 记号在 150dpi 不可确证，该行建议 300dpi 抽查）、F_δ(e) = ½Σ_ω[ê_ω + ê_{s(ω)}]、公式 (5.2) N_ω + N_{s(ω)} − S_ω − S_{s(ω)} = i[E_ω + E_{s(ω)} − W_ω − W_{s(ω)}]、Case 1（γ 不经邻边，(5.2) 平凡成立）与 Case 2 起头；页脚印刷页码 36。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(5.1)/(5.2) 编号齐全；W + 2πZ 的花体 Z、1_{e∈γ} 指示函数下标以 PNG 为准；Fig. 11 在下一页，跨页引用登记。
+
+## p.037（PDF p.37 / 印刷 p.37）
+- PNG：audit/p037.png（pngmono 150dpi）
+- 核对：Figure 11（两个 associated configurations：一条 exploration path + 一个 loop / 无 loop，标注 N/W/E/S、v、b_δ）及图注（switching the state of the edge 互相转换）；Lemma 5.2 Proof Case 2 续——γ(ω) 经 W 入 S 出（primal edge open）、P(s(ω)) = (1/√2)P(ω)（self-dual point、少一条 open edge 权 1、少一个 loop 权 √2，Proposition 3.17）、winding 用 W_ω 表出（N 的 winding = W − π/2）；贡献表两行——ω 行：W_ω、0、0、e^{iπ/4}W_ω；s(ω) 行：W_ω/√2、e^{iπ/2}W_ω/√2、e^{−iπ/4}W_ω/√2、e^{iπ/4}W_ω/√2；恒等式 e^{iπ/4} − e^{−iπ/4} = i√2 与 (5.2) 求和推证；Case 3（γ 过四边时 s(ω) 只过两边，化归 Case 2）；结论 (5.2) 恒成立（◻）；vertex observable 过渡段；页脚印刷页码 37。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：表格中 e^{iπ/2}/e^{−iπ/4}/e^{iπ/4} 指数与 √2 分母以 PNG 为准；表格结构与 W/E/N/S 列序为重导出对账锚点。
