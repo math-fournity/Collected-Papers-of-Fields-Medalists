@@ -16,7 +16,7 @@ This paper is a continuation of [16]. The Schur measure, introduced in [16], is 
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>∗</sup>Department of Mathematics, University of California at Berkeley, Evans Hall #3840, Berkeley, CA 94720-3840. E-mail: okounkov@math.berkeley.edu, reshetik@math.berkeley.edu</span></small>
 
-Here we consider a time-dependent version of the Schur measure which we call the Schur process, see Definition 2. This is a measure on sequences {<sup>λ(t)</sup>} <sup>such</sup> <sup>that</sup>
+Here we consider a time-dependent version of the Schur measure which we call the Schur process, see Definition 2. This is a measure on sequences {λ(t)} such that
 
 $$
 \operatorname{Prob} (\{\lambda (t) \}) \propto \prod \mathsf {S} ^ {(t)} (\lambda (t), \lambda (t + 1)),
@@ -36,7 +36,7 @@ $$
 \mathfrak {S} (\{\lambda (t) \}) = \left\{(t, \lambda (t) _ {i} - i + \frac {1}{2}) \right\}, \quad t, i \in Z,
 $$
 
-contains a given set$U \subset \mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$
+contains a given set$U \subset \mathbb { Z } \times ( \mathbb { Z } + { \frac { 1 } { 2 } } )$.
 
 Using the same infinite wedge machinery as in [16] we prove that the correlation functions of the Schur process have a determinantal form
 
