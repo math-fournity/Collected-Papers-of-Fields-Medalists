@@ -28,3 +28,10 @@
 - 核对：论文题名、作者、“With an appendix on return-time sequences” 及 joint 合作者 HARRY FURSTENBERG / YITZHAK KATZNELSON / DONALD S. ORNSTEIN；§1 首段与公式 (1.1)。文本层 + 150dpi 原页图双通道，对 Markdown 第 13–37 行。
 - 结果：PASS。题名行、appendix 说明、三位合作者、§1 首段（$[B_1]$、$[B_2]$、$[B_3]$、$(\Omega,\mathcal{B},\mu,T)$、polynomial $p(x)$）及 (1.1) 的 $A_{\mathbf{N}}f=\frac{1}{N}\sum_{1\leqslant n\leqslant N}T^{p(n)}f$ 全部与原页一致；后续段落 $N\to\infty$、$L^2(\Omega,\mu)$、$L^p$-theory ($p<2$) 与 a)/b)/c) 三条方法概述亦吻合。文本层在专名与显示式处有 OCR/布局噪声（如 “BirkhofTs”、(1.1) 拍平），150dpi 原页已裁决，Markdown 无错项。与 Luna 旧审（p.002 PASS）结论一致，无修复。
 - 时间：2026-10-02 14:47 EDT 落签
+
+## p.003（PDF p.3 / 印刷 p.6）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p003.png`（Ghostscript `pngmono`，150dpi；原 PDF p.3）
+- 核对：§1 后半段（$\Lambda=\{[p(n)]\}$、full $L^p$-range、$L^1$ open）；圆周平方平均 (1.2) 与极大不等式 (1.3)（含积分上下限 0–1、sup 的指数 $p$、$n^2\alpha$、右端 $c\int f^p$、条件 $f\geqslant 0$）；过渡两句。文本层 + 150dpi 原页图双通道，对 Markdown 第 39–65 行。
+- 结果：PASS±。全部公式与文字与原页一致；印刷源级语病 “Let $f$ be and $\mathbf{L}^p$-function”（原页如此）与 “straight forward” 在 Markdown 忠实保留，不按语法改正。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 6（版面件缺录，与 Luna 旧审记录一致，不误导）。与 Luna 旧审（p.003 PASS±）结论一致，无修复。
+- 时间：2026-10-02 14:53 EDT 落签
