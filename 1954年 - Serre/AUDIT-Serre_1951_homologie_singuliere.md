@@ -93,3 +93,13 @@
   - **[已修复]** md 行 410 图 (I) 的线性化 array 把 λ 画在第一列竖箭头上（"\\Bigg \\downarrow \\lambda"），使 λ 的目标呈现为底行的 0；印刷（p010_lamMu_600.png、p010_lamMu2_600.png）中第一列竖箭头无标签（E_∞^{p,0} ↓ 0），λ 是从 E_∞^{p,0} 指向 H_p(S) 的右下斜箭头（箭头头部在 H_p(S) 端），μ 是从 E_p^{p,0} 指向 H_p(S) 的左下斜箭头。MD 原状与同页 "les homomorphismes λ et μ … sont biunivoques" 相矛盾。Edit 修复为 "\\Bigg \\downarrow & \\searrow \\lambda \\quad \\swarrow \\mu & …"（两斜箭头汇入 H_p(S)，竖箭头去 λ 标签），本页 commit 内 diff 可溯。
 - PASS± 项（不修）：mineru 将二维交换图线性化为 array，列间部分竖箭头（如 B_{p−1}^{0,p−1} ↓ H_{p−1}(R) 列的排布）与原图几何有出入，属图线性化固有近似，其余节点/标签逐项吻合。
 - 备注：md 行 413 起 "La transgression." 段的正文部分属印刷 p.434。
+
+## p.011（PDF p.11 / 印刷 p.434）
+- PNG：audit/p011.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p011_pistarmod_600.png、p011_diag2_600.png、p011_diag2top_600.png、p011_diag2end_600.png（600dpi）
+- 核对：图 (I) 说明段（suites exactes、commutatif、λ μ biunivoques）；La transgression（H_{p−1}(R) ←∂— H_p(A/R) —π*′→ H_p(S) (p ≧ 2)、L/M/L′/M′ 定义、T: M′ → H_{p−1}(R)/∂(M)、éléments/cycle transgressif、da ∈ R_{p−1} 判据、PROPOSITION 2 全文）；La suspension（Σ 定义、élève les degrés d'une unité、H_p(A) = H_{p−1}(A) = 0 情形、π_*′∘∂^{−1}）；图 (II)；"Dans ce diagramme, d_p est un isomorphisme sur, E_p^{p,0} → H_p(S) est biunivoque…même noyau que Σ" 末行
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录：①初读疑印刷 "égal à π*∘∂^{−1}" 无 prime，600dpi（p011_pistarmod_600.png）确认 π 右上有 prime（π*′∘∂^{−1}），MD \pi_*' 正确；②初读疑末行为 E_∞^{p,0} → H_p(S)，600dpi（p011_diag2_600.png 下部）确认印刷为 **E_p^{p,0}**（下标 p 清晰），MD 正确；③图 (II) 中间斜线：600dpi（p011_diag2top_600.png、p011_diag2end_600.png）确认印刷为**单头 ↖ 斜箭头**（箭头头部仅在上左端，右下端为裸线端、无头部）。
+- 差异与修复：
+  - **[已修复]** md 行 449 图 (II) 中间斜箭头写作 "\\nwarrow \\searrow"（双头），印刷仅单头 ↖。Edit 修复为 "\\nwarrow"（本页 commit 内 diff 可溯）。
+- PASS± 项（不修）：transgression 定义前展示式中 md 作 "\\xrightarrow{\\pi^{\\prime} *}"（π′∗），印刷为 π*′（星号右下标、prime 右上标）且 md 其余处均作 \\pi_{*}^{\\prime}——同一态射的装饰次序排版差异，无数学歧义，不修。
+- 备注：md 行 452 起 Note（Chern-Hirsch-Koszul、Eilenberg-MacLane、Koszul [20] deux dernières lignes）与 "## 4. Une suite exacte / Hypothèses." 属印刷 p.435。

@@ -445,7 +445,7 @@ Nous pouvons définir de façon tout analogue à la précédente un homomorphism
 Le cas le plus important pour la suite est celui où $H_p(A) = H_{p-1}(A) = 0$. Dans ce cas, on a $L' = H_{p-1}(R)$, $\pi_*'(L) = 0$, et la suspension est alors un homomorphisme de $H_{p-1}(R)$ dans $H_p(S)$, égal à $\pi_*' \circ \partial^{-1}$. On tire alors du diagramme (I) le diagramme commutatif suivant:
 
 $$
-\begin{array}{c c c} E _ {p} ^ {p, 0} & \xrightarrow {d _ {p}} & E _ {p} ^ {0, p - 1} \\ \Big \downarrow & \nwarrow \searrow & \Big \uparrow \\ H _ {p} (S) & \xleftarrow {\Sigma} & H _ {p - 1} (R). \end{array}\tag{II}
+\begin{array}{c c c} E _ {p} ^ {p, 0} & \xrightarrow {d _ {p}} & E _ {p} ^ {0, p - 1} \\ \Big \downarrow & \nwarrow & \Big \uparrow \\ H _ {p} (S) & \xleftarrow {\Sigma} & H _ {p - 1} (R). \end{array}\tag{II}
 $$
 
 Dans ce diagramme, $d_p$ est un isomorphisme sur, $E_p^{p,0} \to H_p(S)$ est biunivoque et a même image que $\Sigma$, $H_{p-1}(R) \to E_p^{0,p-1}$ est sur, et a même noyau que $\Sigma$.
