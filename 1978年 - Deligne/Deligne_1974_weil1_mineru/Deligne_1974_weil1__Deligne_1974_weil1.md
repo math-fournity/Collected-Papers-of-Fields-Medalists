@@ -207,9 +207,9 @@ Pour $k = \mathbf{C}$, les $\mathrm{H}^i(\mathbf{X}, \mathcal{F})$ et $\mathrm{H
 
 (1.11) Soient  $X_{0}$  une variété algébrique sur  $F_{q}$, X la variété sur  $\overline{F}_{q}$  correspondante, et  $F_{0}$  un faisceau d'ensembles sur  $X_{0}$  (pour la topologie étale). On note F son image réciproque sur X. Outre le morphisme de Frobenius  $F: X \to X$, on dispose alors d'un isomorphisme canonique  $F^{*}: F^{*}F \cong F$. En voici une description. On regarde  $F_{0}$  comme un espace étalé sur  $X_{0}$, i.e. on identifie  $F_{0}$  à l'espace algébrique  $[F_{0}]$, muni d'un morphisme étale  $f: [F_{0}] \to X_{0}$, tel que  $F_{0}$  soit le faisceau des sections locales de  $[F_{0}]$. L'espace analogue  $[F]$, étalé sur X, se déduit de  $[F_{0}]$  par extension des scalaires. On dispose donc d'un diagramme commutatif
 
-![](images/page_6_image_2.jpg)
+![](Deligne_1974_weil1/images/page_6_image_2.jpg)
 
-d'où un morphisme $[\mathcal{F}] \to \mathbf{X} \times_{(\mathbb{F},\mathbf{X},f)}[\mathcal{F}] = [\mathbf{F}^*\mathcal{F}]$, qui est un isomorphisme car $f$ est étale. Son inverse définit l'isomorphisme $\mathbf{F}^*\mathcal{F} \xrightarrow{\sim} \mathcal{F}$ cherché.
+d'où un morphisme $[\mathcal{F}] \to \mathbf{X} \times_{(F,X,f)}[\mathcal{F}] = [\mathbf{F}^*\mathcal{F}]$, qui est un isomorphisme car $f$ est étale. Son inverse définit l'isomorphisme $\mathbf{F}^*\mathcal{F} \xrightarrow{\sim} \mathcal{F}$ cherché.
 
 Cette construction se généralise aux $\mathbf{Q}_{\ell}$-faisceaux.
 
@@ -234,7 +234,7 @@ $$
 (1.13) Soient $x_{0}\in|\mathbf{X}_{0}|$, Z l'orbite correspondante de F dans $|\mathbf{X}|$ et $x\in\mathbf{Z}$. L'orbite Z a $\deg(x_{0})$ éléments (1.4). On note $\mathrm{F}_{x_{0}}^{*}$ l'endomorphisme $\mathrm{F}_{x}^{*\deg(x_{0})}$ de $\mathcal{F}_{x}$, et on pose
 
 $$
-\det (\mathrm{I} - \mathrm{F} _ {x _ {0}} ^ {*} t, \mathcal {F} _ {0}) = \det (\mathrm{I} - \mathrm{F} _ {x _ {0}} ^ {*} t, \mathcal {F} _ {x}).
+\det (1 - \mathrm{F} _ {x _ {0}} ^ {*} t, \mathcal {F} _ {0}) = \det (1 - \mathrm{F} _ {x _ {0}} ^ {*} t, \mathcal {F} _ {x}).
 $$
 
 A isomorphisme près, $(\mathcal{F}_x,\mathrm{F}_{x_0}^*)$ ne dépend pas du choix de $x$. Ceci justifie d'omettre $x$ de la notation. On utilisera une notation analogue pour d'autres fonctions de $(\mathcal{F}_x,\mathrm{F}_{x_0}^*)$.
