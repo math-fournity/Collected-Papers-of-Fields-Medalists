@@ -136,14 +136,14 @@ $$
 soit
 
 $$
-Z (X _ {0}, t) = \prod_ {i} \det (I - F ^ {*} t, H _ {c} ^ {i} (X, Q _ {\ell})) ^ {(- 1) ^ {i + 1}}.\tag{1.5.4}
+Z (X _ {0}, t) = \prod_ {i} \det (1 - F ^ {*} t, H _ {c} ^ {i} (X, Q _ {\ell})) ^ {(- 1) ^ {i + 1}}.\tag{1.5.4}
 $$
 
-Le membre de droite est un élément de $\mathbf{Q}_{\ell}(t)$. La formule affirme que son développement de Taylor en $t=0$, a priori une série formelle dans $\mathbf{Q}_{\ell}[[t]]$ de terme constant un, est dans $\mathbf{Z}[[t]]$, et est égal au membre de gauche, lui aussi considéré comme une série formelle en $t$. Cette formule est l'interprétation cohomologique de Grothendieck de la fonction $\mathbf{Z}$.
+Le membre de droite est un élément de $\mathbf{Q}_{\ell}(t)$. La formule affirme que son développement de Taylor en $t=o$, a priori une série formelle dans $\mathbf{Q}_{\ell}[[t]]$ de terme constant un, est dans $\mathbf{Z}[[t]]$, et est égal au membre de gauche, lui aussi considéré comme une série formelle en $t$. Cette formule est l'interprétation cohomologique de Grothendieck de la fonction $\mathbf{Z}$.
 
 Notre résultat principal est le suivant.
 
-Théorème (1.6). — Soit  $X_{0}$  une variété projective non singulière (=lisse) sur  $F_{q}$ . Pour chaque i, le polynôme caractéristique det(t·I − F*, H^{i}(X, Q\_{\ell})) est à coefficients entiers indépendants de  $\ell (\ell \neq p)$ . Les racines complexes  $\alpha$  de ce polynôme (les conjugués complexes des valeurs propres de F*) sont de valeur absolue  $|\alpha| = q^{i/2}$ .
+Théorème (1.6). — Soit  $X_{0}$  une variété projective non singulière (=lisse) sur  $F_{q}$ . Pour chaque i, le polynôme caractéristique det(t.1 − F*, H^{i}(X, Q\_{\ell})) est à coefficients entiers indépendants de  $\ell (\ell \neq p)$ . Les racines complexes  $\alpha$  de ce polynôme (les conjugués complexes des valeurs propres de F*) sont de valeur absolue  $|\alpha| = q^{i/2}$ .
 
 Montrons déjà que (1.6) résulte du résultat apparemment plus faible suivant.
 
@@ -164,7 +164,7 @@ $$
 Écrivons $Z(X_0, t) = P/Q$, avec $P, Q \in \mathbf{Z}[t]$, premiers entre eux, et de terme constant positif. D'après un lemme de Fatou, que $Z(X_0, t)$ soit dans $\mathbf{Z}[[t]]$ et de terme constant un implique que les termes constants de $P$ et $Q$ sont 1. Posons
 
 $$
-\mathrm{P} _ {i} (t) = \det (\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).
+\mathrm{P} _ {i} (t) = \det (1 - \mathrm{F} ^ {*} t, \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell})).
 $$
 
 277
