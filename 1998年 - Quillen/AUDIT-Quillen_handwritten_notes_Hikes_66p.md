@@ -274,3 +274,13 @@
 - 页码边界修订：本条确认 p.25 源页止于 `A(BG)=fiber(BG→BG⁺)`；已在本 commit 原位修订 p.25 audit 记录，避免把本页 `π_q(BG⁺)` 表格计入前一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对全部 q 分段、H₂/H₃ 与 plus-construction 括号。
 - 记录：2026-10-02 01:32:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.027（PDF p.27 / 纸面圈号 27）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p027.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p027_postnikov.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p027_universal-property.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p027_functor-product.png`。
+- 核对：`BSt(A)→BE(A)→BGL(A)` 的低阶 Postnikov 图；`K_3A` 与 `H_3(St(A),\mathbb Z)`；`BGL(A)^+` 的 universal property；环同态对 `K_n` 与 product ring 的作用。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 Postnikov 图有 `BSt(A)→K(H_3BSt(A),3)`、`BE(A)→K(H_2BE(A),2)`、`BGL(A)→K(H_1BGL(A),1)` 三层；基线第 937、941 行只留后两层且把 `K(H_1BGL(A),1)` 写坏，漏掉 `BSt(A)` 层。原图记 `K_3A=H_3(St(A),\mathbb Z)`，基线第 947 行漏了 `K_3`。source ring-map 结论为 `u_*:K_nA→K_nB`，基线第 979 行误成 `IT_n A`；product ring 原式 `GL(A×A')=GL(A)×GL(A')`，基线第 987 行把第二项的 `A'` 写成 `A`。原图 universal-property 图与条件也在基线第 955–962 行部分损坏，需按 300dpi 裁片回核。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张裁片回核 Postnikov 级别、K3、universal property 与 ring-product 项。
+- 记录：2026-10-02 01:44:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
