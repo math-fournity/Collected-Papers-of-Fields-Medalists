@@ -44,3 +44,10 @@
 - 核对：Definition（有向图 Γ=(V_Γ,E_Γ)）、G_n 归属条件 1)–5)（顶点 {1,…,n}⊔{L,R}、边标号 e^1_1…e^2_n、无环 (v,v)、2n 条边）、|G_n|=(n(n+1))^n（PNG 确证上标 n，文本层拍平为 `n(n + 1)`；MD `\left( n ( n + 1 ) \right) ^ { n }` 与印刷一致）、B_{Γ,α} 定义式、n=3 边表 ((1,L),(1,R),(2,R),(2,3),(3,L),(3,R))、图 PNG（顶点 1/2/3→L/R、边标 i₁–i₆，MD 行 217 引 `images/page_4_image_14.jpg`，文件存在于 `_mineru/Kontsevich_1997_deformation_quantization/images/`）、示例算子 (f,g)↦Σα^{i₁i₂}α^{i₃i₄}∂_{i₄}(α^{i₅i₆})∂_{i₁}∂_{i₅}(f)∂_{i₂}∂_{i₃}∂_{i₆}(g)（与图逐边自洽：L 入边 i₁,i₅→f；R 入边 i₂,i₃,i₆→g；i₄ 终点为顶点 3 作用于 α^{i₅i₆}）、一般公式两行（MD 行 185–229）。
 - 结果：`PASS±`。无内容错误。伪影登记：行 185 句末缺句点、行 197 列表尾缺逗号、行 203 句末缺句点（标点遗漏）；行 205 `bidiferential`（ff 拍平）；行 187/199 句点/逗号包进数学式（`$v_2 .$`、`$k,$`）。公式行 208/214/222/228 与印刷逐符号吻合。
 - 备注：行 231 起（weight W_Γ）为印刷 p.6 内容，在 p.006 核对。mineru 图引用相对路径 `images/…` 为全 repo 统一导出布局，不按内容错误处理。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p006.png`（pngmono 150dpi）
+- 核对：weight W_Γ 引言段、Lobachevsky 上半平面构造段（𝓗={z∈C|Im(z)>0}、φ^h(p,q)∈R/2πZ、l(p,q)/l(p,∞) 两线夹角、counterclockwise 方向、h=harmonic）、角度示意图（MD 行 235 引 `images/page_5_image_2.jpg`，文件存在）、Arg/Log 公式 φ^h=(1/2i)Log((q−p)(q̄−p)/((q−p̄)(q̄−p̄)))、𝓗_n 配置空间定义式与定向段、图的几何实现段（L↦0、R↦1）、权公式 w_Γ:=1/(n!(2π)^{2n})∫_{𝓗ₙ}⋀_{i=1}^n(dφ^h_{e¹ₖ}∧dφ^h_{e²ₖ})、Lemma、Theorem f⋆g:=ΣℏⁿΣ_{Γ∈Gₙ}w_ΓB_{Γ,α}(f,g)（MD 行 231–268）。
+- 结果：`FAIL`→2 处已修复：①行 233 `through p and the point  on the absolute` 印刷为 `the point ∞ on the absolute`（PNG+文本层确凿），已补 `$\infty$`；②行 253 `to the vertex$L ,$, and point` 印刷为 `to the vertex L, and point`，双逗号已删。print quirk 忠实保留：权公式⋀ 指标 `i=1..n` 与 φ 下标 `e^1_k/e^2_k` 混用为印刷原貌（MD 行 258 逐符号一致）。其余 PASS±：行 240 `A r g`/`L o g` 字距拆分；行 233 `I m ( z )` 同类；行 253 句末缺句点；行 281 起属印刷 p.7。
+- 备注：行 271「defines an associative product.」起为印刷 p.7 内容，在 p.007 核对。

@@ -230,7 +230,7 @@ $$
 
 In the next step we associate a weight$W _ { \Gamma } \in \mathbf { R }$with each graph$\Gamma \in G _ { n }$. In order to define it we need an elementary construction from hyperbolic geometry.
 
-Let$p , q , p \neq q$be two points on the standard upper half-plane$\mathcal { H } = \left\{ z \in \mathbf { C } | I m ( z ) > 0 \right\}$endowed with the Lobachevsky metric. We denote by$\phi ^ { h } ( p , q ) \in \mathbf { R } / 2 \pi \mathbf { Z }$the angle at$p$formed by two lines,$l ( p , q )$ and$l ( p , \infty )$passing through$p$and$q ,$and through p and the point  on the absolute. The direction of the measurement of the angle is counterclockwise from$l ( p , \infty )$to$l ( p , q )$. In the notation$\phi ^ { h } ( p , q )$letter h is for harmonic.
+Let$p , q , p \neq q$be two points on the standard upper half-plane$\mathcal { H } = \left\{ z \in \mathbf { C } | I m ( z ) > 0 \right\}$endowed with the Lobachevsky metric. We denote by$\phi ^ { h } ( p , q ) \in \mathbf { R } / 2 \pi \mathbf { Z }$the angle at$p$formed by two lines,$l ( p , q )$ and$l ( p , \infty )$passing through$p$and$q ,$and through p and the point $\infty$ on the absolute. The direction of the measurement of the angle is counterclockwise from$l ( p , \infty )$to$l ( p , q )$. In the notation$\phi ^ { h } ( p , q )$letter h is for harmonic.
 
 ![](images/page_5_image_2.jpg)
 
@@ -250,7 +250,7 @@ $$
 
 $\mathcal { H } _ { n } \subset \mathbf { C } ^ { n }$is a non-compact smooth 2n-dimensional manifold. We introduce orientation on$\mathcal { H } _ { n }$using the natural complex structure on it.
 
-If$\Gamma \in G _ { n }$is a graph as above, and$( p _ { 1 } , \ldots , p _ { n } ) \in { \mathcal { H } } _ { n }$is a configuration of points, then we draw a copy of Γ on the plane$\mathbf { R } ^ { 2 } \simeq \mathbf { C }$by assigning point$p _ { k } \in \mathcal { H }$to the vertex k,$1 \leq k \leq n$, point$0 \in { \mathbf { R } } \subset { \mathbf { C } }$to the vertex$L ,$, and point$1 \in \mathbf { R } \subset \mathbf { C }$to the vertex R. Each edge should be drawn as a line interval in hyperbolic geometry. Every edge e of the graph Γ defines an ordered pair$( p , q )$of points on${ \mathcal { H } } \sqcup \mathbf { R }$, thus an angle $\phi _ { e } ^ { h } : = \phi ^ { h } ( p , q )$. If points$p _ { i }$move around, we get a function$\phi _ { e } ^ { h }$on$\mathcal { H } _ { n }$with values in$\mathbf { R } / 2 \pi \mathbf { Z }$
+If$\Gamma \in G _ { n }$is a graph as above, and$( p _ { 1 } , \ldots , p _ { n } ) \in { \mathcal { H } } _ { n }$is a configuration of points, then we draw a copy of Γ on the plane$\mathbf { R } ^ { 2 } \simeq \mathbf { C }$by assigning point$p _ { k } \in \mathcal { H }$to the vertex k,$1 \leq k \leq n$, point$0 \in { \mathbf { R } } \subset { \mathbf { C } }$to the vertex$L$, and point$1 \in \mathbf { R } \subset \mathbf { C }$to the vertex R. Each edge should be drawn as a line interval in hyperbolic geometry. Every edge e of the graph Γ defines an ordered pair$( p , q )$of points on${ \mathcal { H } } \sqcup \mathbf { R }$, thus an angle $\phi _ { e } ^ { h } : = \phi ^ { h } ( p , q )$. If points$p _ { i }$move around, we get a function$\phi _ { e } ^ { h }$on$\mathcal { H } _ { n }$with values in$\mathbf { R } / 2 \pi \mathbf { Z }$
 
 We define the weight of Γ as
 
