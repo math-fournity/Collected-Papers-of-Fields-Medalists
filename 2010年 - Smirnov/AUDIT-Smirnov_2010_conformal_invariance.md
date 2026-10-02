@@ -225,3 +225,9 @@
 - 核对：Figure 10（isoradial graph 黑图 + dual 灰顶点）及图注（所有面可内切于半径 r 的圆、dual 顶点为圆心）；Proposition 4.20 Proof——B ∈ Ω_δ∖∂Ω_δ、Fig. 9 十六条 arrows、a,b,c,d = √δP_{ℓ(e)}[f(y)] 四值、八个 interior increments −a²,−b²,−c²,−d²（各两次）、八个 exterior increments (a√2−b)², (b√2−a)², (b√2−c)², (c√2−b)², (c√2−d)², (d√2−c)², (d√2+a)², (a√2+d)²、S = 4(a²+b²+c²+d²) − 4√2(ab+bc+cd−da) (4.9) = 4∣e^{−iπ/4}a − b + e^{i3π/4}c − id∣² ≥ 0 (4.10)、H○ 同理（◻）；Remark 4.21——subharmonic ≤ harmonic 同边界、H●/H○ sandwich 论证；§4.5 Isoradial graphs and circle packings——Duffin [Duf68] 扩展定义；页脚印刷页码 34。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(4.9)/(4.10) 编号齐全；e^{i3π/4} 指数（非 e^{3iπ/4} 排法差异按 PNG 原样）与 √2 因子的括号结构为重导出对账锚点。
+
+## p.035（PDF p.35 / 印刷 p.35）
+- PNG：audit/p035.png（pngmono 150dpi）
+- 核对：isoradial embedding 续段——circumcircle 同半径 r、Kenyon-Schlenker [KS05] 拓扑充要条件、Baxter [Bax89] Z-invariant graphs 与 eight-vertex/Ising、Mercat [Mer01]、Boutilier-de Tilière [BdT11, BdT10]、Chelkak-Smirnov [CS08]、dimer/UST [Ken02]、star-triangle relation、Cauchy-Riemann 算子离散化高阶成立；circle packings 段——Thurston [Thu86]、Rodin-Sullivan [RS87]（Riemann uniformization 新证）、He-Schramm [HS93]（Koebe conjecture、可数边界分支情形）、Stephenson [Ste05]、non-linear Cauchy-Riemann [BMS05]；§5 Convergence of fermionic observables 标题（at criticality、Theorems 2.11 与 3.15）；§5.1 Convergence of the FK fermionic observable——固定 (Ω,a,b)、F_δ = F_{Ω◇_δ,a_δ,b_δ,p_sd}、三步证明（第一条 bullet：prove the s-holomorphicity of the observable）；页脚印刷页码 35。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：本页为文献密集段（15 个引文键），重导出对账时逐键核对；F_δ 记号的上标 p_sd 堆叠以 PNG 为准。
