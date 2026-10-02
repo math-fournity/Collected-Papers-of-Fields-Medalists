@@ -275,3 +275,10 @@
 - 证据：源 PDF p.037 文本层、页图 `audit/Hironaka_1964_resolution_partI_p037.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p037_ideal_index.png` 与 MinerU Markdown 第 589–599 行。印刷 T/S 集合定义在条件项中使用 local ring `O_{X,x}`；Markdown 第 589 行写为 `O_X_x`，第 591 行写为 `O_{x,x}`，均未保留大写空间下标 X 与点 x 的逗号/区分。裁片核实了上下文中两者是不同 index。
 - 备注：Corollary 1 的闭子集构造及函数域对的 (1)/(2) 叙述其余部分与原页相符；印刷运行页眉和页码 144 未录入 Markdown。
 - 结论：局部环下标误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.038 / 96（印刷 p.145）— FAIL
+
+- 时间：2026-10-02 02:17 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.038 文本层、页图 `audit/Hironaka_1964_resolution_partI_p038.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p038_sheaf_indices.png` 与 MinerU Markdown 第 595–609 行。印刷第 601 行引用 `main theorem I`，Markdown 写作 `main theorem 1`；Corollary 2 证明第 607 行印作 `O_x`-modules，Markdown 写为 `O_X`-modules。300dpi 裁片确认此处是小写 x。其余 direct-image 和 quotient-sheaf 语句与原页对应。
+- 备注：印刷运行页眉与页码 145 未录入 Markdown，属导航元素省略。
+- 结论：定理编号和结构层下标各有误录，列为 FAIL；待全篇审计结束后逐处修复。
