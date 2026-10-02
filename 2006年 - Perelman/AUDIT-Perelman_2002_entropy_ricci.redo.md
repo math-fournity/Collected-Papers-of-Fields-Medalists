@@ -100,6 +100,14 @@
 - 差异与修复：印刷 "a limit of a sequence of functions u_i**,** such that each u_i"（仅逗点），MD 作 "$u_i.$,"（math 句点+文本逗号双写）→ 已改为 "$u_i$, such that"。
 - 备注：印刷原样错字 "Rimannian geometry"（应为 Riemannian）为 print quirk，MD 忠实保留未改；其余逐字一致。
 
+## p.013（PDF p.13 / 印刷 p.13）
+- PNG：audit-redo/p013.png（pngmono 150dpi）
+- 核对：6.1 续（Ricci 张量为零 mod N^{−1}、热方程/共轭热方程经 M̃ 上 Laplace 方程解释、ũ*=τ^{−(N−1)/2}ũ）、6.2 g^m 构造（τ(1−2f/N) 微分同胚、g̃^m 分量式、g^m_αβ/g^m_00=(1/τ)(N/2−[τ(2△f−|∇f|²+R)+f−n])、g^m_i0=g^m_α0=g^m_iα=0）、τ=const 超曲面体积形式与标量曲率段、6.3 Bishop-Gromov 引语与测地线长度第一积分
+- 结果：FAIL（两处 iff 丢失）——已按原图修复；另两处双标点已修
+- 差异与修复：(a) 印刷 "u satisfies the heat equation on M **iff** ũ…" 与 "similarly, u satisfies the conjugate heat equation on M **iff** ũ*=τ^{−(N−1)/2}ũ…"（PNG 与 pdftotext p.13 双证），MD 两处均作 "if"（丢 ff，改变逻辑强度）→ 两处均已 Edit 补为 "iff"；(b) 6.2 开头印刷 "Starting from g̃**,** we can also construct a metric g^m on M̃**,** isometric…"（单逗点），MD 作 "${\tilde g}._$," 与 "$\tilde M,$," 双标点 → 均已改为单逗点。
+- 备注："( given by equations (1.1)" 括号内空格、"τ =const" 空格为 print quirk，MD 忠实保留；度规分量两条 display 式逐项一致。
+
+
 
 
 
