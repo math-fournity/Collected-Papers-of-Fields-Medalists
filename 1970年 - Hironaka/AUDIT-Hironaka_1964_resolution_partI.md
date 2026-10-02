@@ -668,3 +668,10 @@
 - 证据：源 PDF p.093 文本层、页图 `audit/Hironaka_1964_resolution_partI_p093.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p093_Lemma11_and_Theorem3.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p093_theorem3_OQ_notation.png`，并比对 MinerU Markdown 第 2017–2079 行。Lemma 11 的局部化图在第 2042 行把印刷的 $\mathrm{gr}_{Q}(O)$、$\mathrm{gr}_{Q}(O)_{Q}$ 中的 Q 三次写成 `\varrho`。Theorem 3 第 2049 行两处、第 2051 行一次以及第 2059 行一次，共 4 处把环符号 O 录成数字 0；第 2051 行另有两个局部环下标把大写 Q 写成小写 q，且局部化理想 $P O_Q$ 被排成 $P0_Q$。Lemma 11 diagram、Theorem 3 的参数系统与 graded-ring polynomial identifications 其余部分均与原页对应。
 - 备注：印刷运行页眉和页码 200 未录入 Markdown，属导航元素省略。
 - 结论：3 处 Q/varrho 误录、4 处 O/0 误录、2 处 Q/q 大小写误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.094 / 96（印刷 p.201）— FAIL
+
+- 时间：2026-10-02 06:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.094 文本层、页图 `audit/Hironaka_1964_resolution_partI_p094.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p094_Theorem3_proof.png` 与 MinerU Markdown 第 2067–2085 行。印刷将 $Q'=Q/P$ 记为 $\bar Q$；Markdown 第 2071 行再次写成 $Q/P$，漏掉横线。同行 proof 的元素变量印刷为 $\mathrm{gr}_{Q}(J,R)$，Markdown 有一处写成小写 $\mathrm{gr}_{q}(J,R)$。其余多项式环表示、理想生成条件、度数排序及元素 $g_1$ 的构造条件均与原页相符。
+- 备注：印刷运行页眉和页码 201 未录入 Markdown，属导航元素省略。
+- 结论：商素理想横线与定理变量 Q/q 有两处差异，列为 FAIL；待全篇审计后逐处手工修复。
