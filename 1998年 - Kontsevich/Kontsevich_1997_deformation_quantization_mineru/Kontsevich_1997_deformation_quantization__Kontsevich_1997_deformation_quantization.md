@@ -884,17 +884,17 @@ We will construct compactifications$\overline { { C } } _ { n , m }$of$C _ { n ,
 
 We remind that a manifold with corners (of dimension$d )$is defined analogously to a usual manifold with boundary, with the only diference that the manifold with corners looks locally as an open part of closed simplicial cone$( { \bf R } _ { \geq 0 } ) ^ { d }$. For example, the closed hypercube$[ 0 , 1 ] ^ { d }$is a manifold with corners. There is a natural smooth stratification by faces of any manifold with corners.
 
-First of all, we give one of possible formal definitions of the compactification$\overline { { C } } _ { n , m }$in the case$n \geq 1$ With any point$\left[ \left( p _ { 1 } , \ldots , p _ { n } ; q _ { 1 } , \ldots , q _ { m } \right) \right]$of$C _ { n , m }$we associate a collection of$2 n ( n - 1 ) +$nm angles with values in$\mathbf { R } / 2 \pi \mathbf { Z } \colon$
+First of all, we give one of possible formal definitions of the compactification$\overline { { C } } _ { n , m }$in the case$n \geq 1$. With any point$\left[ \left( p _ { 1 } , \ldots , p _ { n } ; q _ { 1 } , \ldots , q _ { m } \right) \right]$of$C _ { n , m }$we associate a collection of$2 n ( n - 1 ) +$nm angles with values in$\mathbf { R } / 2 \pi \mathbf { Z } \colon$
 
 $$
 \left(A r g (p _ {i} - p _ {j}), A r g (p _ {i} - \overline {{p}} _ {j}), A r g (p _ {i} - q _ {j})\right) .
 $$
 
-It is easy to see that we obtain an embedding of$C _ { n , m }$into the torus$( \mathbf { R } / 2 \pi \mathbf { Z } ) ^ { 2 n ( n - 1 ) + n m }$. The space$\overline { { C } } _ { r }$,m is defined as the compactification of the image of this embedding. Analogously, the compactification$\overline { { C } } _ { n }$is obtained using angles$A r g ( p _ { i } - p _ { j } )$.
+It is easy to see that we obtain an embedding of$C _ { n , m }$into the torus$( \mathbf { R } / 2 \pi \mathbf { Z } ) ^ { 2 n ( n - 1 ) + n m }$. The space$\overline { { C } } _ { n , m }$ is defined as the compactification of the image of this embedding. Analogously, the compactification$\overline { { C } } _ { n }$is obtained using angles$A r g ( p _ { i } - p _ { j } )$.
 
 One can show that open strata of$\overline { { C } } _ { n , m }$are naturally isomorphic to products of manifolds of type$C _ { n ^ { \prime } , m ^ { \prime } }$ and$C _ { n ^ { \prime } }$. In the next subsection we will describe explicitly$\overline { { C } } _ { n , m }$as a manifold with corners.
 
-There is a natural action of the permutation group$\Sigma _ { n }$on$C _ { n } .$, and also of$\Sigma _ { n } \times \Sigma _ { m }$on$C _ { n , m }$. This gives us a possibility to define spaces$C _ { A }$and$C _ { A , B }$for finite sets$A , B$such that$\# A \geq 2$or$2 \# A + \# B \geq 2$ respectively. If$A ^ { \prime } { \hookrightarrow } A$and$B ^ { \prime } { \hookrightarrow } B$are inclusions of sets then there are natural fibrations (forgetting maps) $C _ { A } { \longrightarrow } C _ { A ^ { \prime } }$and$C _ { A , B } { \longrightarrow } C _ { A ^ { \prime } , B ^ { \prime } }$
+There is a natural action of the permutation group$\Sigma _ { n }$on$C _ { n }$, and also of$\Sigma _ { n } \times \Sigma _ { m }$on$C _ { n , m }$. This gives us a possibility to define spaces$C _ { A }$and$C _ { A , B }$for finite sets$A , B$such that$\# A \geq 2$or$2 \# A + \# B \geq 2$ respectively. If$A ^ { \prime } { \hookrightarrow } A$and$B ^ { \prime } { \hookrightarrow } B$are inclusions of sets then there are natural fibrations (forgetting maps) $C _ { A } { \longrightarrow } C _ { A ^ { \prime } }$and$C _ { A , B } { \longrightarrow } C _ { A ^ { \prime } , B ^ { \prime } }$
 
 ## 5.2. Looking through a magnifying glass
 
@@ -902,7 +902,7 @@ The definition of the compactification given in the previous subsection is not d
 
 Let us try to look through a magnifying glass, or better through a microscope with arbitrary magnification, on diferent parts of the picture formed by points on${ \mathcal { H } } \cup \mathbf { R } \subset \mathbf { C }$, and by the line$\mathbf { R } \subset \mathbf { C }$. Here we use Euclidean geometry on${ \bf C } \simeq { \bf R } ^ { 2 }$instead of Lobachevsky geometry.
 
-Before doing this let us first consider the case of a configuration on$\mathbf { R } ^ { 2 } \simeq \mathbf { C } .$, i.e. without the horizontal line$\mathbf { R } \subset \mathbf { C }$. We say that the configuration$( p _ { 1 } , \ldots , p _ { n } )$is in standard position if
+Before doing this let us first consider the case of a configuration on$\mathbf { R } ^ { 2 } \simeq \mathbf { C }$, i.e. without the horizontal line$\mathbf { R } \subset \mathbf { C }$. We say that the configuration$( p _ { 1 } , \ldots , p _ { n } )$is in standard position iff
 
 1) the diameter of the set$\{ p _ { 1 } , . . . , p _ { n } \}$is equal to 1, and,
 
