@@ -148,7 +148,7 @@ Therefore, if we let$\mu ( g _ { i j } , \tau ) = \operatorname* { i n f } \math
 
 Claim For an arbitrary metric$g _ { i j }$on a closed manifold M, the function $\mu ( g _ { i j } , \tau )$is negative for small$\tau > 0$and tends to zero as$\tau$tends to zero.
 
-Proof of the Claim. (sketch) Assume that$\bar { \tau } > 0$is so small that Ricci flow starting from$g _ { i j }$exists on$[ 0 , \bar { \tau } ]$. Let$u = ( 4 \pi \tau ) ^ { - { \frac { n } { 2 } } } e ^ { - f }$be the solution of the conjugate heat equation, starting from a δ-function at$t = \bar { \tau } , \tau ( t ) =$ $\bar { \tau } - t$. Then$\mathcal { W } ( g _ { i j } ( t ) , f ( t ) , \tau ( t ) )$tends to zero as t tends to$\bar { \tau } .$, and therefore $\mu ( g _ { i j } , \bar { \tau } ) \leq \mathcal { W } ( g _ { i j } ( 0 ) , f ( 0 ) , \tau ( 0 ) ) < 0$by (3.4).
+Proof of the Claim. (sketch) Assume that$\bar { \tau } > 0$is so small that Ricci flow starting from$g _ { i j }$exists on$[ 0 , \bar { \tau } ]$. Let$u = ( 4 \pi \tau ) ^ { - { \frac { n } { 2 } } } e ^ { - f }$be the solution of the conjugate heat equation, starting from a δ-function at$t = \bar { \tau } , \tau ( t ) =$ $\bar { \tau } - t$. Then$\mathcal { W } ( g _ { i j } ( t ) , f ( t ) , \tau ( t ) )$tends to zero as t tends to$\bar { \tau }$, and therefore $\mu ( g _ { i j } , \bar { \tau } ) \leq \mathcal { W } ( g _ { i j } ( 0 ) , f ( 0 ) , \tau ( 0 ) ) < 0$by (3.4).
 
 Now let$\tau \to 0$and assume that$f ^ { \tau }$are the minimizers, such that
 

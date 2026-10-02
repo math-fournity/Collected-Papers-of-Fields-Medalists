@@ -70,6 +70,14 @@
 - 登记不改：印刷 "= const = 0**,** because"（150dpi PNG 与 pdftotext 双证有逗点），MD 缺失——丢标点类排版伪影，不误导，按 SOP 默认不批量改。
 - 备注：(3.4) 300dpi 仲裁：积分号前无 1/(2τ) 系数，1/(2τ) 仅出现于绝对值内被减项 g_ij/(2τ)，MD 与印刷逐项一致；(3.3) τ_t=−1 与印刷一致；□* 用 \Box 表示与印刷空心方框一致。
 
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit-redo/p009.png（pngmono 150dpi）
+- 核对：μ/ν 定义段（lim_{τ→∞}μ=+∞）、Claim（μ 负小 τ、τ→0 趋零）、Proof of the Claim (sketch)（u=(4πτ)^{−n/2}e^{−f}、τ(t)=τ̄−t、μ(g_ij,τ̄)≤W(g_ij(0),f(0),τ(0))<0 by (3.4)）、W(½τ^{−1}g_ij,f^τ,½)=W(g_ij,f^τ,τ)=μ≤c<0、∫_{ℝⁿ}[½|∇f|²+f−n](2π)^{−n/2}e^{−f}dx<0、L.Gross 段（f=|x|²/2−2logφ）、3.2 Remark（R_ij−g_ij−∇_ib_j−∇_jb_i=0、(1−2t)g_ij(0)、μ(g_ij(t),½−t)=μ(g_ij(0),½)）
+- 结果：PASS±（一处双标点已修）
+- 差异与修复：印刷 "tends to zero as t tends to τ̄**,** and therefore"（仅逗点），MD 作 "$\bar{\tau}.$,"（math 内句点+文本逗点双写）→ 已改为 "$\bar{\tau}$, and therefore"。
+- 备注：印刷 ”converge”（两枚右引号）为 print quirk，MD 忠实保留未改；其余逐项一致。
+
+
 
 
 
