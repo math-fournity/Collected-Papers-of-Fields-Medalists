@@ -297,6 +297,13 @@
 - Checked: final Proposition 30 proof and references [1]–[16] (authors, titles, journal/book names, volumes, years and pages).
 - Result: FAIL. Reference [14] prints “Potenzreihenideale”; Markdown line 1109 has “Potenzreihendeale,” missing the i after “Potenzreihen.” The crop confirms the printed title. Reference [11] also has a period after “type” before the parenthetical subtitle in print; Markdown line 1103 omits it. That punctuation difference is PASS± and is left as a minor citation-format difference. The other checked bibliographic entries agree.
 
+### PDF p.043/43 — print p.42
+
+- Reviewed: 2026-10-02 01:15 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi final references page](audit/300dpi/Serre_1956_gaga_p043_references_300dpi.png); PDF text layer and MinerU Markdown lines 1115–1121.
+- Checked: references [17]–[20], including titles, author names, series/journal, place, and year.
+- Result: PASS±. The checked reference text agrees with the print. The running author and print page number are not represented in Markdown.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
