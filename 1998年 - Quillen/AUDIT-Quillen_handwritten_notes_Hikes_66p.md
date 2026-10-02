@@ -378,3 +378,14 @@
 - 页边界核对：第 1352 行对应第 36 页图像末行；第 35 页 bottomline 裁片中的稳定乘积说明是另一处独立手写内容，仍属前页漏转录。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片重建第二条系数短正合列、Künneth `×`、对角映射与稳定同调对象。
 - 记录：2026-10-02 03:04:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.037（PDF p.37 / 纸面圈号 37）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p037.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p037_diagram.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p037_G-operation.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p037_conjugacy.png`。
+- 核对：`GL_n` 对角映射与块和的相容图和 Hopf 代数结论；`G_n` 上的块矩阵运算及其稳定同调乘法；`p_*`,`s_*` 的代数映射与复合；共轭引理及其矩阵证明。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1354 行相应映射使用 `GL_q`，基线写作 `G_q`；第 1356 行的目标映射是 `(α⊕γ, β⊕δ)`，基线将两个块和写成普通 `+`，且把兼容交换图压为拼接文本。`H_*(GL)` 的 Hopf 代数结论（第 1358 行）可辨认。随后原图定义 `G_p×G_q→G_{p+q}` 的上三角块运算，基线第 1360 行将 `\perp` 记号与右侧矩阵块位置/条目损坏；第 1362 行还重复 “induces”，并把稳定对象 `H_*(G_∞)=\lim H_*(G_n)` 错成 `H_x`。原图第 1364–1367 行的 `p_*:H_*(G_∞)→H_*(GL_∞)`、`s_*:H_*(GL_∞)→H_*(G_∞)` 及 `s_*p_*=1_{H_*(G_∞)}`，在基线中被写成 `H_x`、`GL_0`、`G_w` 等。共轭引理的原图使用同一参数 `u`；基线第 1369 行两处误作 `4`，第 1372 行左矩阵右上角误作 `y`（原图为 `u`）。
+- 页面边界：本页止于共轭矩阵恒等式；Markdown 第 1375 行起的下一组 `G_p→G_{2p}` 同调图不在本页图像中，归到后续页核对。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复块和交换图、`G_∞` 的稳定映射与共轭矩阵。
+- 记录：2026-10-02 03:08:53 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
