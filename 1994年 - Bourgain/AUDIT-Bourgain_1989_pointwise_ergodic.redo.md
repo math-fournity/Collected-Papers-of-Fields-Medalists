@@ -70,3 +70,10 @@
 - 核对：(2.9) 集合计数式与求和界；积分后 $\lambda\mu(\Omega_\lambda)\leqslant C\frac{J}{J-\bar N}\|f\|_1$；“The $L^2$ and $L^p$-inequalities ($p>1$)” 句；§2C 开头、$\|F-A_{N_\varepsilon}f\|_2<\varepsilon$；(2.10) 的 $\|\sup_{\mathbf N}|F-A_N(A_{N_\varepsilon}f)|\|_2<C\varepsilon$；$\frac{N_\varepsilon}{N}\|f\|_\infty$ 式；上极限结论行（首个 $\overline{\lim}$ 无下标、第二个带 $_N$）；(2.11) 一般子集平均；页末 “If the eigenfunctions …” 半句。文本层 + 150dpi 原页图双通道，对 Markdown 第 269–315 行。
 - 结果：PASS±。全部公式与文字与原页一致；Luna 旧修复两处经核正确——“The $L^2$ and $L^p$” 第二空间恢复为 $L^p$ 与原页相符；(2.10) 的范数/绝对值/上确界定界符分组与原页相符。原页首个 $\overline{\lim}$ 确无下标 N、第二个带 $_N$，Markdown 逐字保留该字形差异，不补写。源级语病 “the ergodic means relates to the full set” 忠实保留。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 11。与 Luna 旧审（p.008 FAIL→修复）已修复项一致，无新差异。
 - 时间：2026-10-02 15:47 EDT 落签
+
+## p.009（PDF p.9 / 印刷 p.12）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p009.png`（Ghostscript `pngmono`，150dpi；原 PDF p.9）；`audit-redo/p009_norm_notation_300dpi.png`（原 PDF p.9 300dpi 渲染后裁片，裁决 $v_s$ 记号行的两竖线间是否有圆点）。
+- 核对：§2 收尾——密本征函数段的极大不等式 $\|f^*\|_p\leqslant C\|f\|_p$、模型 $(\mathbf T,\mathbf R_a)$；(2.12) 的 $Z_\varepsilon=\{[(1+\varepsilon)^n]\}$、$|A_Nf-A_{N'}f|\leqslant 2\varepsilon$；(2.13) 的 $\mathcal M_j$ 定义（sup 范围 $N_j\leqslant N\leqslant N_{j+1},\ N\in Z_\varepsilon$）；(2.14) 的 $o(J)\|f\|_2$；§3 开头 (3.1)、(3.2) 变差范数定义（求和上界 $J$、指标链 $n_1<\dots<n_J$ / $t_1<\dots<t_J$）；Lépingle [Lé]、[P-X] 引用句。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 313–365 行。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 对 (3.2) 求和上界 $s\to J$ 的旧修复经核正确（现与 (3.1) 同为 $J$，与原页相符）。原页排印原样在 Markdown 中忠实保留，本次登记：①$v_s$ 记号行印刷即两竖线间空心（无 $\cdot$），300dpi 裁片证实，Markdown 的 `$||\|_{v_s}$` 逐字对应，不按预期补点；②(3.1)、(3.2) 的条件只列到 $n_J/t_J$ 而差分出现 $n_{j+1}/t_{j+1}$，为原页自身的索引排布，Markdown 忠实保留（与 Luna 旧审登记一致）；③(2.13) 的 `where` 与 $\mathcal M_j$ 之间 Markdown 无空格（`\text{where}\mathcal{M}_jf`），MinerU 间距伪影，渲染稍挤但不误导，登记不改。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 12。与 Luna 旧审（p.009 FAIL→修复）已修复项一致，无新差异。
+- 时间：2026-10-02 16:02 EDT 落签
