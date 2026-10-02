@@ -198,3 +198,13 @@
   - **修复×2**：① 行 655 "any element of $G_{0}$" → `$\mathcal{G}_{0}$`（印刷草书 𝒢₀；同行末 `$\mathcal{G}_{0}(S^{4},n,0)$` Luna 本就正确，行内自相矛盾）；② 行 663 "noncompact space $\hat{\mathcal{B}}$" → `$\hat{\mathfrak{B}}$`（印刷 Fraktur 带帽；行 665 同段又用 `\hat{\mathfrak{B}}`，同段自相矛盾）。
   - 排版级伪影（登记不改）：Proof 斜体、*Notes.* 粗体拍平；行 651 第一个 H¹(…) 分隔符逗号/分号依印刷原样（第二个为分号）。
 - 修复登记：行 655 `G_{0}`→`$\mathcal{G}_{0}$`；行 663 `\hat{\mathcal{B}}`→`\hat{\mathfrak{B}}`（依据 `audit-redo/p017.png`）。
+
+### p.018（PDF p.18 / 印刷 p.296）
+
+- PNG：`audit-redo/p018.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（Theorem 11 的 λ₀ 上下标、(ii) 行范数记号，结论记于本条）
+- 核对：Notes (iii) 收尾句；节标题 III（独行）；Theorem 11 全文；§II 回顾段；Taubes/Uhlenbeck 引言与四部分列表；节标题 III.1.（印刷即为无标题裸标题）；Proposition 12 全文与 ∫|F(Ã_i)|²dμ⩽C；(i)(ii) 两行
+- 结果：**PASS±**（含两处上下标修复）。
+  - 与页图一致：`\mathfrak{M}_{\lambda_0}`（300dpi 确认 Theorem 11 中 λ₀ 为**下标**，md 正确；III.3 列表中同为下标）、`\mathfrak{M}^{\sigma}`、`K.K. Uhlenbeck`、四部分列表（III.3 含 `\xrightarrow{p}`）、裸标题 `III.1.`、`C^{\infty}(\overline{B}^4)`、`m_{\infty}`、`\int_{B^4}|F(\tilde{A}_i)|^2 d\mu\leqslant C`、`{i'}\subset\{i\}`、`\frac{1}{2}B^4=\{X\in\mathbb{R}^4||X|<\frac{1}{2}\}`、`(i) d^*A_i=0`、`p\geqslant 2`。
+  - 印刷 quirk 登记（不改）：Proposition 12 陈述中 "a limiting $m_{\infty}$ ; and if"（分号）、显示式后 "Then" 大写、"such that $A_i$, converge"（多余逗号）、"$A_\infty$; self-dual"（分号）——均系原刊排印原样，md 忠实保留。
+  - **修复**：行 703 (ii) 行两处 `$L^p$` → `$L_p$`——300dpi 放大确认印刷两个范数的 p 均在下标位（与 p.8 定义的 `L^p_k` 上标 p 风格不同，此处印刷即为 `L_p`）；同 zoom 亦确认 `A_i` 无 prime，md 原样正确。
+- 修复登记：行 703 两处 `L^p`→`L_p`（依据 `audit-redo/p018.png` + 300dpi 裁片）。

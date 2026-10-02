@@ -700,7 +700,7 @@ This proposition follows from Theorem 1.3 of [21]. Identifying in the usual way 
 
 (i)  $d^{*}A_{i}=0,$
 
-(ii) $\| A_i\|_{L^p}\leqslant \mathrm{const.}\| F(\tilde{A}_i)\|_{L^p},$ for any $p\geqslant 2$
+(ii) $\| A_i\|_{L_p}\leqslant \mathrm{const.}\| F(\tilde{A}_i)\|_{L_p},$ for any $p\geqslant 2$
 
 Just as in §II the constraint (i), together with the self-duality condition,
 
