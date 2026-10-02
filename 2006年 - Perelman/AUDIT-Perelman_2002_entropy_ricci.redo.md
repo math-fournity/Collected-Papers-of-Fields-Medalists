@@ -34,5 +34,12 @@
 - 差异：印刷 "confirm Hamilton's hope that the solution that exists for all time **t → ∞** necessarily has bounded normalized curvature"，MD 原文缺 "→ ∞"（"for all time t necessarily…"）。PNG（p003.png 第 4 行）与 pdftotext p.3 双证。以原图为准，已 Edit 补为 "$t \to \infty$"。
 - 备注：其余文本（含 "an hierarchy" print 原样）逐字一致。
 
+## p.004（PDF p.4 / 印刷 p.4）
+- PNG：audit-redo/p004.png（pngmono 150dpi）
+- 核对：Introduction §3 组织段（§2/§3/(3.4)/L.Gross/§4–§10、[Cao-C]）、§11–§13 概述段、historical remarks 段
+- 结果：PASS
+- 备注：print quirk 忠实保留——"formal expressions ," 逗号前空格、"( they must satisfy" 括号内空格、"can not" 分写、"three manifolds" 无连字符，MD 与印刷一致。
+
+
 
 
