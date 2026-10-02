@@ -122,3 +122,25 @@
 - 备注：页眉 "6　G. Frey" 未入 MD，正常。展示式逐项核对无误（含杠线位置）。
 
 ---
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit-redo/p007.png（pngmono 150dpi）
+- 核对：2. Multiplicative type 整段（singularity/two tangent lines；typical case 展示式
+  $v_l(\lambda)=0, v_l(\mu)>0, v_l(\alpha)>0, v_l(\beta)>0$, $v_l(\gamma)=-v_l(j_E)>0$）；
+  DEFINITION（multiplicative type mod $l$，$N_{E(l)}$）；if and only if 句
+  （$v_l(j_E)<0$、$Q(\sqrt{\delta_E})$ unramified）；3. Additive type 整段（$N_{E(l)}$、$\mathbb{F}_l$、
+  one tangent line）；cases 1./2. 与 stable reduction mod $l$ 定义句；
+  "multiplicative type"/"additive type" 词源句至 "torus split by"。
+- 结果：PASS±（修复 2 处后）
+- 差异与处置：
+  1. 【已修复】两处 `$N_{E}(l)$` → `$N_{E(l)}$`（multiplicative DEFINITION 段、Additive type 段）：
+     与 p.006 同型——印刷为打字机整行下标（N 下一行 "E(1)"，无逗号），即 $N_{E(l)}$；
+     证据：audit-redo/p007.png + 300dpi 裁剪（N 下方独立行布局与 p.6 相同）。
+  2. 【150dpi 误读澄清】"the reduction type of E modulo"：300dpi 仲裁印刷为单数 type，MD 忠实
+     （150dpi 疑似复数 types 系噪点）。
+  3. 【登记不改】印刷下划线强调：case 标号 "1."、"2."、"DEFINITION"、"stable reduction mod l"：
+     排版级伪影，MD 拍平。
+- 备注：页眉 "Elliptic Curves and Fermat's Equation　7" 未入 MD，正常。本页末行止于
+  "torus split by"（跨页句），下一行 "an extension of degree ≤ 2…" 属 p.8 范围。
+
+---
