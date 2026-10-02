@@ -500,3 +500,10 @@
 - 证据：源 PDF p.069 文本层、页图 `audit/Hironaka_1964_resolution_partI_p069.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p069_theorem_II_and_OXr.png`，并比对 MinerU Markdown 第 1223–1241 行。印刷三处写作 `\mathfrak{R}_{\mathrm{II}}^N`/`II_2^N`：第 1225 行的弱变换所属 datum 类型 `\mathfrak{R}_{\Pi}^N` 应为 `\mathfrak{R}_{\mathrm{II}}^N`，同句的 fundamental theorem `\Pi_2^N` 应为 `II_2^N`，第 1237 行再次将 `II_2^N` 录为 `\Pi_2^N`。此外，Main Theorem II(N) 的性质 (4) 印刷为 `J_r = O_{X_r}`，Markdown 第 1235 行将大写空间下标 X 录成小写点变量 x。弱变换定义、定理条件 (1)–(3) 和 datum 矩阵对应原页。
 - 备注：印刷运行页眉和页码 176 未录入 Markdown，属导航元素省略。
 - 结论：3 处罗马 II 被误录为希腊 Pi，且 `O_{X_r}` 下标大小写误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.070 / 96（印刷 p.177）— FAIL
+
+- 时间：2026-10-02 04:30 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.070 文本层、页图 `audit/Hironaka_1964_resolution_partI_p070.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p070_OXr_and_II_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p070_implication_B_formula.png`，并比对 MinerU Markdown 第 1243–1260 行。印刷第 1243 行写 `O_{X_r}`，Markdown 写成 `O_{x_r}`；第 1247 行的 fundamental-theorem labels `II_1^N`、`II_2^N` 被记为 `\Pi_1^N`、`\Pi_2^N`。此外，implication (B) 的印刷结论为 `I_2^{N,n}`，Markdown 第 1260 行写成 `I_2^{N^n}`；同一行第二输入 theorem label 印刷为 `I_2^{N',n'}`，Markdown 漏掉 `N'` 与 `n'` 之间的逗号。主定理 II(N) 证明中的矩阵 datum、implication (A) 与 (B) 的其余条件和标签均与原页对应。
+- 备注：印刷运行页眉和页码 177 未录入 Markdown，属导航元素省略。
+- 结论：结构层下标大小写、2 个 II/Pi 标签、implication (B) 的结论上标结构及输入编号逗号均有差异，列为 FAIL；待全篇审计后逐处手工修复。
