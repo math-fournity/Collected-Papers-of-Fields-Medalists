@@ -378,4 +378,4 @@
 - 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p042-references1-18.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p042-references19-30.png`
 - 核对：§11.4 证明收尾；参考文献 [1]–[30] 的作者、题名、刊物/出版信息、页码与 URL。
 - 结果：FAIL（以原图为准）。
-- 差异与依据：参考文献 [9] 的 URL 在印刷为 `https://math.stanford.edu/~conrad/papers/notes.pdf`，Markdown 丢掉 `~` 并插入空格；[13] 的 `~conrad` 被转为 `„conrad`，均破坏可用链接。Markdown 将 [30] 的 arXiv URL 末尾 `v3` 与下一条 `[31]` 连成同一行，失去条目分隔。两张 300dpi 裁片确认 URL 字符及页面末尾 [30] 的边界。PASS± 源级印刷瑕疵忠实保留：[16] 的 `info Sémin. Bourbaki`、[19] 的作者标点 `A, Yafaev`、[23] 的 `Andrè-Oort` 重音、[29] 的 `Japac Acad.`；其余已对照的题录和页码相符。
+- 差异与依据：参考文献 [13] 的印刷 URL 含 `~conrad`，Markdown 将波浪号转为 `„`，破坏链接。参考文献 [9] 的印刷 URL 本身未印出 `~`，MinerU 忠实沿用该源级缺字，故不计作转录差异。Markdown 将 [30] 的 arXiv URL 末尾 `v3` 与下一条 `[31]` 连成同一行，失去条目分隔。两张 300dpi 裁片确认 [13] URL 字符和页面末尾 [30] 的边界。PASS± 源级印刷瑕疵忠实保留：[9] URL 中缺少 `~`；[16] 的 `info Sémin. Bourbaki`、[19] 的作者标点 `A, Yafaev`、[23] 的 `Andrè-Oort` 重音、[29] 的 `Japac Acad.`；其余已对照的题录和页码相符。
