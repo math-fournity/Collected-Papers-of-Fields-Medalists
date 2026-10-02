@@ -378,23 +378,23 @@ Any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$for which$\math
 
 Definition 2.18. — An adic space over k is an object$( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } , ( | \cdot ( x ) | | x \in \mathrm { X } ) )$of (V) that is locally on X an affinoid adic space.
 
-Proposition 2.19 [20, Proposition$2 . I ( i i ) ] . -$For any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$with$\mathrm { X = }$ $\mathrm { S p a } ( \mathbf { R } , \mathbf { R } ^ { + } )$such that$\mathcal { O } _ { \mathrm { X } }$is a sheaf, and any adic space Y over k, we have
+Proposition 2.19 [20, Proposition 2.1(ii)]. — For any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$with$\mathrm { X = }$ $\mathrm { S p a } ( \mathbf { R } , \mathbf { R } ^ { + } )$such that$\mathcal { O } _ { \mathrm { X } }$is a sheaf, and any adic space Y over k, we have
 
 $$
 \mathrm{Hom} (\mathrm{Y}, \mathrm{X}) = \mathrm{Hom} \bigl (\bigl (\hat {\mathrm{R}}, \hat {\mathrm{R}} ^ {+} \bigr), \bigl (\mathcal {O} _ {\mathrm{Y}} (\mathrm{Y}), \mathcal {O} _ {\mathrm{Y}} ^ {+} (\mathrm{Y}) \bigr) \bigr).
 $$
 
-Here, the latter set denotes the set of continuous k-algebra morphisms$\hat { \mathrm { R } }  \mathcal { O } _ { \mathrm { Y } } ( \mathrm { Y } )$such that$\hat { \mathrm { R } } ^ { + } \mathrm { \Delta } _ { i s }$ mapped into$\mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { Y } )$
+Here, the latter set denotes the set of continuous k-algebra morphisms$\hat { \mathrm { R } } \to \mathcal { O } _ { \mathrm { Y } } ( \mathrm { Y } )$such that$\hat { \mathrm { R } } ^ { + }$is mapped into$\mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { Y } )$.
 
 In particular, the category of complete affinoid k-algebras for which the structure presheaf is a sheaf is equivalent to the category of affinoid adic spaces over k.
 
 For the rest of this section, let us discuss an example, and explain the relation to rigid-analytic varieties [33] and Berkovich’s analytic spaces [1].
 
-Example 2.20. — Assume that k is complete and algebraically closed. Let$\mathrm { R } = k \langle \mathrm { T } \rangle$, $\mathbf { R } ^ { + } = \mathbf { R } ^ { \circ } = k ^ { \circ } \langle \mathrm { T } \rangle$the subspace of power series with coefficients in$k ^ { \circ }$. Then$( \mathrm { R } , \mathrm { R } ^ { + } )$is an affinoid k-algebra of tft. We want to describe the topological space$\mathrm { X = S p a ( R , R ^ { + } ) }$ For convenience, let us fix the norm$| \cdot | : k \to \mathbf { R } _ { \geq 0 }$. Then there are in general points of 5 different types, of which the first four are already present in Berkovich’s theory.
+Example 2.20. — Assume that k is complete and algebraically closed. Let$\mathrm { R } = k \langle \mathrm { T } \rangle$, $\mathbf { R } ^ { + } = \mathbf { R } ^ { \circ } = k ^ { \circ } \langle \mathrm { T } \rangle$ the subspace of power series with coefficients in$k ^ { \circ }$. Then$( \mathrm { R } , \mathrm { R } ^ { + } )$is an affinoid k-algebra of tft. We want to describe the topological space$\mathrm { X = S p a ( R , R ^ { + } ) }$. For convenience, let us fix the norm$| \cdot | : k \to \mathbf { R } _ { \geq 0 }$. Then there are in general points of 5 different types, of which the first four are already present in Berkovich’s theory.
 
-![](images/page_13_image_7.jpg)
+![](Scholze_2012_perfectoid_published/images/page_13_image_7.jpg)
 
-(1) The classical points: Let$x \in k ^ { \circ }$, i.e.$x \in k$with$| x | \le 1$. Then for any$f \in k \langle \mathrm { T } \rangle$, we can evaluatef at x to get a map$\begin{array} { r } { \mathrm { R }  k , f = \sum a _ { n } \mathrm { T } ^ { n } \mapsto \sum a _ { n } x ^ { n } } \end{array}$. Composing with the norm on$k ,$one gets a valuation$f \mapsto | f ( x ) |$on R, which is obviously continuous and$\leq 1$ for all$f \in \mathrm { R } ^ { + }$
+(1) The classical points: Let$x \in k ^ { \circ }$, i.e.$x \in k$with$| x | \le 1$. Then for any$f \in k \langle \mathrm { T } \rangle$, we can evaluate f at x to get a map$\begin{array} { r } { \mathrm { R } \to k , f = \sum a _ { n } \mathrm { T } ^ { n } \mapsto \sum a _ { n } x ^ { n } } \end{array}$. Composing with the norm on$k$, one gets a valuation$f \mapsto | f ( x ) |$on R, which is obviously continuous and$\leq 1$ for all$f \in \mathrm { R } ^ { + }$.
 
 (2), (3) The rays of the tree: Let$0 \leq r \leq 1$be some real number, and$x \in k ^ { \circ }$. Then
 
@@ -402,7 +402,7 @@ $$
 f = \sum a _ {n} (T - x) ^ {n} \mapsto \sup | a _ {n} | r ^ {n} = \sup _ {y \in k ^ {\circ}: | y - x | \leq r} | f (y) |
 $$
 
-defines another continuous valuation on R which is$\leq 1$for all$f \in \mathbb { R } ^ { + }$. It depends only on the disk$\mathrm { D } ( x , r ) = \{ y \in k ^ { \circ } \mid \lfloor y - x \vert \leq r \} . \mathrm { I f } r = 0$, then it agrees with the classical point corresponding to x. For$r = 1$, the disk$\mathrm { D } ( x , 1 )$is independent of$x \in k ^ { \circ }$, and the corresponding valuation is called the Gaußpoint.
+defines another continuous valuation on R which is$\leq 1$for all$f \in \mathrm { R } ^ { + }$. It depends only on the disk$\mathrm { D } ( x , r ) = \{ y \in k ^ { \circ } \mid | y - x | \leq r \}$. If$r = 0$, then it agrees with the classical point corresponding to x. For$r = 1$, the disk$\mathrm { D } ( x , 1 )$is independent of$x \in k ^ { \circ }$, and the corresponding valuation is called the Gaußpoint.
 
 If$\dot { \boldsymbol { r } } \in | \boldsymbol { k } ^ { \times } |$, then the point is said to be of type (2), otherwise of type (3). Note that a branching occurs at a point corresponding to the disk$Ḋ \mathrm { Ḋ ( } x , r ) Ḍ Ḍ$if and only if$r \in | k ^ { \times } |$, i.e. a branching occurs precisely at the points of type (2).
 

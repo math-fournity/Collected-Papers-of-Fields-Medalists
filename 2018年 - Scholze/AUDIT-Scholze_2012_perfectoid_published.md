@@ -163,3 +163,14 @@
   6. category (V) 段：triples 后游离右括号")"删除、"sheafofcomplete"→"sheaf of complete"、"on O_X,,"双逗号→单（p.257 Finally 段）
   7. affinoid adic space 段：triple 后游离右括号")"删除（p.257 Any affinoid 段）
 - 备注：Def 2.16 display 的 x∈R̂（带 hat）与 print 一致；脚注 1 以 MinerU HTML 包装保留（内容与 print 逐字符一致）；本页起 0x 控制字节首次成片出现（行 343 已清），后续行见 notes。
+## p.014（PDF p.14 / 印刷 p.258）
+- PNG：audit/p014.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p258_classical.png（item (1) "x∈k" 行）
+- 核对：页眉 258/PETER SCHOLZE；Definition 2.18；Proposition 2.19 [20, Prop 2.1(ii)] + Hom display + R̂→O_Y(Y) 段；例 2.20 引言（R=k⟨T⟩, R^+=R°=k°⟨T⟩、|·|:k→R_≥0、5 types）；树状图（MinerU 抽为图片 page_13_image_7.jpg，print 原图带 (1)–(5) 标注）；(1) classical points（x∈k°，R→k, f=Σa_nT^n↦Σa_nx^n）；(2),(3) rays（f↦sup|a_n|r^n=sup|f(y)|、D(x,r)）
+- 结果：**FAIL**（OCR/导出缺陷，已当页修复，以原图为准）：
+  1. Proposition 2.19 头 "[20, Proposition$2.I(ii)].-$"（罗马 I）→"[20, Proposition 2.1(ii)]. —"（p.258 Prop 行原图）
+  2. "morphisms$\hat R␣\mathcal{O}_Y(Y)$" 缺箭头→$\hat{\mathrm{R}}\to\mathcal{O}_Y(Y)$；"$\hat R^+\mathrm{\Delta}_{is}$ mapped"（is 变 Δ 下标）→"$\hat R^+$is mapped"；句末补句点（p.258 Here, the latter set 行）
+  3. 例 2.20："k°⟨T⟩the"补空格、"X=Spa(R,R^+)␣For"补句点（p.258 Example 行）
+  4. **图片引用路径断裂**：`![](images/page_13_image_7.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_13_image_7.jpg)`（mineru 导出 images/ 嵌套在同名子目录内，MD 相对路径原本解析不到；目标文件 30.9K 实测存在）——p.258 树状图
+  5. (1) 段："evaluatef"→"evaluate f"；"map$\mathrm{R}␣k$（缺箭头）"→$\mathrm{R}\to k$；"$k,$"内伪逗号删除；句末补句点（p.258 (1) 行；"i.e. x∈k"经 300dpi 仲裁确认 print 无 bar，MD 本正确，不改）
+  6. (2),(3) 段（p.258 部分）：f∈\mathbb{R}^+→\mathrm{R}^+；D(x,r) 中 "\lfloor y-x \vert"→"|y-x|"；"\}. \mathrm{If} r=0"→"\}$. If$r=0$"（p.258 末段原图）
+- 备注：本页含插图（print p.258 中部的树状图），MD 以图片引用承载；其余 5 处同类断裂引用（行 473、1701、1721、1995、2119）按页归属留待对应块处理，本块只修行内所属页。
