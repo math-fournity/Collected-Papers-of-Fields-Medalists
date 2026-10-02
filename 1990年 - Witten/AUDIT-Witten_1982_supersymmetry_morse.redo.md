@@ -16,3 +16,8 @@
 - PNG：`audit-redo/p001.png`（pngmono 150dpi）
 - 核对：期刊页眉/卷页信息；标题、作者、摘要；§1 引言四段；公式 (1)；收稿日期脚注。
 - 结果：PASS±。题录、摘要、引言各段（含 [17]/[18]、[22]、§§2 and 3）、公式 (1) `(-1)^F Q_i + Q_i(-1)^F = 0`、脚注（Received March 26, 1982；NSF PHY80-19754；致谢 R. Bott, W. Browder, S. Graffi, J. Milnor, D. Sullivan）逐项与印刷页相符。**Luna 旧修复重核：本页 `\mathscr{H}`/`\mathscr{H}^{\pm}` 共 7 处与印刷 script 𝓗 一致，修复正确**。差异仅：印刷页眉 "J. DIFFERENTIAL GEOMETRY 17 (1982) 661–692" 与页码未入 md（版面信息省略，不误导）。
+
+## p.002（PDF p.2 / 印刷 p.662）
+- PNG：`audit-redo/p002.png`（pngmono 150dpi）
+- 核对：公式 (2)–(7)；相对论推广段；末段 H、P 偶性陈述；脚注 1（Lorentz 生成元 M 的对易关系）。
+- 结果：PASS±。(2) `Q_iH - HQ_i = 0`、(3) `Q_i^2 = H`、(4) `Q_iQ_j + Q_jQ_i = 0`、(5) `Q_1^2 = H + P, Q_2^2 = H - P, Q_1Q_2 + Q_2Q_1 = 0`、(6) `[Q_i,H] = [Q_i,P] = 0`、(7) `H = ½(Q_1^2 + Q_2^2)` 及前后正文逐项与印刷页相符；脚注 1 全文（含 `[M,H] = P`、`[M,P] = H`、`[M,Q_1] = ½Q_1`、`[M,Q_2] = −½Q_2`）相符。**Luna 旧修复重核：DocVortex 脚注碎片清除后无残留，完整脚注保留，正确**。差异仅：页眉 "662 EDWARD WITTEN" 未入 md（版面信息省略）。
