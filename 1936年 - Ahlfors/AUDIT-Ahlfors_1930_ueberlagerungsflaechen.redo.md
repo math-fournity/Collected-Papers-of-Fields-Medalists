@@ -199,4 +199,17 @@
 - 结果：PASS±（γ_ν 转写统一后与印刷一致）。
 - 与 Luna 旧记录交叉：Luna 修复表无 p.16 行；重复编号 14. 与「der erste Klammer」为 Luna 总评未点名但属忠实保留项，本次补登记。
 
+### p.017（PDF p.17 / 印刷 p.173）
+
+- audited_at=2026-10-02 18:55 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p017.png`（pngmono 150dpi，两处修复均在该页图直接可辨，无需新增 300dpi）。
+- 核对：页眉（Zur Theorie der Überlagerungsflaechen 印刷作 Überlagerungsflächen / 173）、页首续句（stante.…(II. 1) ist erfüllt…）、编号段 15（**print quirk「Zuendeführung」忠实保留 ✓**，印刷原文如此）、Δ′/Δ″ Teilgebiete、feste Zahl k 段、公式 `|s(γ_μ)−s(γ_ν)|≦(q−2)/(q−1) kL(Ω)`（无标点 ✓）、erfüllt sein 段（L(Ω)、Δ′ bzw. Δ″）、Für Ω wählen wir 段（ν=2,…,q）、公式 `λ(σₙ)≦s(γ₁)≦s(γ_ν)+(q−2)/(q−1) kL(Ωₙ).`（句点在）、Diese Ungleichungen 段、公式 `qλ(σₙ)≦Σ_{Ωₙ}λ(σ)+(q−2)kL(Ωₙ),`（逗号在）、wo die Summe 段（ein-eindeutig ✓、2λ_a、(q−2)kL）、公式 `qλ_a≦2λ_a+(q−2)kL,`、woraus sofort 句。
+- 发现并修复（MD 结构化 Edit，2 处）：
+  1. 行 398 正文引用「(II. I)」→「(II. 1)」——本页印刷第四行清晰为数字 1（与 p.013 同类 I/1 转写残留，段内移交项再核销一处）。
+  2. 行 423 公式内多余逗号 `2, \lambda_{a}` → `2 \lambda_{a}`——印刷为「q λ_a ≦ 2 λ_a + (q−2) kL,」，2 与 λ_a 间无标点；数学恒等式亦唯一支持此读法。
+- print quirk 保留核验（不改）：「Die Zuendeführung des Beweises」（印刷原文如此）MD 行 400 忠实保留 ✓。
+- 结果：PASS±（两处修复后与印刷一致）。
+- 与 Luna 旧记录交叉：Luna 修复表 p.17 行为「两处 𝒜′/𝒜″ 还原为 Δ′/Δ″」——本页 Δ′/Δ″ 均正确（该修复对象应在 p.018 内容，待次页核）；本次 (II. I) 与多余逗号系旧审计未检出项。
+- 页界：本页止于「woraus sofort λ_a ≦ kL folgt.」，衔接正确。
+
 <!-- redo-tail -->

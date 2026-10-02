@@ -395,7 +395,7 @@ $$
 
 Um den Beweis zu vollenden brauchen wir nur noch zu zeigen, dass $\lambda' + \lambda'' + \lambda_a$ kleiner ist als $L$ multipliziert mit einer von $W$ unabhängigen Kon-
 
-stante. Dieses genügt auch in dem Falle, wo die Klassen  $(\sigma_{n})$  sämtliche Querschnitte umfassen. Man schliesst nämlich dann mit Hilfe des Überdeckungssatzes, dass S selbst kleiner als eine Konstante mal L wird, und die Ungleichung (II. I) ist erfüllt für einen gewissen Wert der Konstante k.
+stante. Dieses genügt auch in dem Falle, wo die Klassen  $(\sigma_{n})$  sämtliche Querschnitte umfassen. Man schliesst nämlich dann mit Hilfe des Überdeckungssatzes, dass S selbst kleiner als eine Konstante mal L wird, und die Ungleichung (II. 1) ist erfüllt für einen gewissen Wert der Konstante k.
 
 15. Die Zuendeführung des Beweises geschieht durch eine neue Anwendung des Überdeckungssatzes. Wir betrachten als Grundflächen die von den Kurven $\gamma_{\nu}$ begrenzten Teilgebiete $\Delta'$ und $\Delta''$, und bestimmen eine feste Zahl $k$ mit folgender Eigenschaft: Wenn $\Omega$ eine beliebige Überlagerungsfläche von $\Delta'$ oder $\Delta''$ ist und $s(\gamma_{\nu})$ ihre mittlere Blätteranzahl über $\gamma_{\nu}$, so soll für jedes Kurvenpaar $\gamma_{\mu}, \gamma_{\nu}$ die Ungleichung
 
@@ -420,7 +420,7 @@ $$
 wo die Summe über sämtliche $\Omega_{n}$ begrenzende Querschnitte erstreckt werden soll. Wir addieren noch einmal über sämtliche Gebiete der abgesonderten Klassen $(\Omega_{1}),\ldots,(\Omega_{p})$. Auf der linken Seite erhalten wir $q\lambda_{a}$, falls die abgesonderten Querschnitte und Gebiete sich ein-eindeutig entsprechen, oder ausnahmsweise eine grössere Summe, wenn ein $\sigma_{n}$ gleichzeitig zu zwei $\Omega_{n}$ gehört. Das rechtsstehende Hauptglied gibt bei der Addition eine Summe, die höchstens gleich $2\lambda_{a}$ ist, denn jeder Querschnitt begrenzt höchstens zwei Gebiete $\Omega$. Schliesslich wird die Summe der Restglieder kleiner oder gleich $(q-2)kL$. Wir finden also die Ungleichung
 
 $$
-q \lambda_ {a} \leq 2, \lambda_ {a} + (q - 2) k L,
+q \lambda_ {a} \leq 2 \lambda_ {a} + (q - 2) k L,
 $$
 
 woraus sofort $\lambda_{a} \leq kL$ folgt.
