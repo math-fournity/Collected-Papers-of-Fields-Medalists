@@ -42,3 +42,12 @@
 - 结果：PASS
 - 差异：无。目录各条目文字、编号、顺序、标点（Ch.II 标题无句点、其余章标题有句点；n°5 "suite spectrale—Cas" em-dash；斜体 E₁/E₂ → $E_{1}$/$E_{2}$）逐项吻合。
 - 备注：md 行 112 起的 Ch.IV n°5 条目属印刷 p.428 内容，跨页顺序正常。
+
+## p.005（PDF p.5 / 印刷 p.428）
+- PNG：audit/p005.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p005_Cr.png、p005_Cr_left.png、p005_Cr_600.png（本页记号行）、p006_dCr_600.png（p.6 同记号对照）
+- 核对：目录续（Ch.IV n°5–9、Ch.V n°1–6、Ch.VI n°1–3、APPENDICE、BIBLIOGRAPHIE）；正文开头（CHAPITRE I 标题、§1 标题、DÉFINITION 段、 filtration 三条件 ∪_p A^p = A; A^p ⊂ A^{p+1}; d(A^p) ⊂ A^p、A^{−∞}=0/A^{+∞}=A、w(x) 定义、w(a−b) ≦ Sup(w(a), w(b)); w(da) ≦ w(a)、Réciproquement 段、Notations C/B 定义）
+- 结果：FAIL（已当场修复 1 处）
+- 差异与修复：
+  - **[已修复]** md 行 181 记号定义 "$C_{-}^{p}$ : ensemble des éléments de A^p dont le bord est dans A^{p−r}" 的下标误为减号。证据链：本行印刷自证 "dans A^{p−r}" 用斜体 r（p005_Cr.png）；p.5 该 C 下标字形退化呈短横（p005_Cr_left.png、p005_Cr_600.png），与同行 B_r 的清晰 r 不同；p.6 同一记号印刷清晰为 C_r^{p+r} = B_r^p 及包含链 C_∞ ⊃ C_r（p006_dCr_600.png、audit/p006.png）。据此判定 p.5 印刷字形为退化 r、mineru 误读为 "-"，Edit 修复为 "$C_{r}^{p}$"（本页 commit 内，diff 可溯）。
+- PASS± 项（不修）：目录 CHAPITRE V、CHAPITRE VI 两行缺 `##` 标题前缀（md 行 129/139；Ch.I–IV 均有），mineru 结构伪影，内容忠实，仅影响标题导航。
+- 备注：目录与正文其余文字、公式逐项吻合。

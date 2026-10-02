@@ -178,7 +178,7 @@ Réciproquement, si l'on se donne une fonction $w(x)$ sur $A$, à valeurs entiè
 
 Notations (r désignera un entier positif):
 
-$C_{-}^{p}$ : ensemble des éléments de  $A^{p}$  dont le bord est dans  $A^{p-r}$ .
+$C_{r}^{p}$ : ensemble des éléments de  $A^{p}$  dont le bord est dans  $A^{p-r}$ .
 
 $B_{r}^{p}$ : ensemble des éléments de  $A^{p}$  qui sont bords d'éléments de  $A^{p+r}$ .
 
