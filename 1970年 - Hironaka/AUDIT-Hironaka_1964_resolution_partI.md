@@ -409,3 +409,10 @@
 - 证据：源 PDF p.056 文本层、页图 `audit/Hironaka_1964_resolution_partI_p056.png`（pngmono 150dpi）与 MinerU Markdown 第 883、885–887 行。scheme、simple/multiple/singular、singular locus、结构层与 stalk、维数和空子概形余维约定，以及“Resolution data and permissible transformations”节首均与印刷页对应。
 - 备注：印刷运行页眉和页码 163 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.057 / 96（印刷 p.164）— PASS±
+
+- 时间：2026-10-02 03:54 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.057 文本层、页图 `audit/Hironaka_1964_resolution_partI_p057.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p057_data_types.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p057_definition3_formulas.png`，及 MinerU Markdown 第 887–917 行。四种 resolution data 标识与 (F)/(U) 配对、Definition 3 的 `\mathfrak{R}_{\mathrm{I}}^{N,n}` 数据形式及条件 (i)–(iv)、`\mathfrak{R}_{\mathrm{II}}^N` 矩阵数据形式，连同 permissible transformation 术语说明均与原页相符。
+- 备注：印刷运行页眉和页码 164 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
