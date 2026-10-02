@@ -49,3 +49,10 @@
 - 核对：定理 2 陈述与 (1.8) 的 $T^{[p(n)]}f$、$1\leqslant n\leqslant N$；$L^r$-results ($r>1$) 句；CONTENTS 目录 1–9 条及页码 1/4/8/13/19/21/25/34/36；appendix 合作者与 $[B_4]$、$[B_6]$；§2 开头一段与谱测度 (2.1)。文本层 + 150dpi 原页图双通道，对 Markdown 第 111–149 行。
 - 结果：PASS±。全部公式、目录条目、页码与合作者均与原页一致；(2.1) 的内积、$\widehat\nu(n)\equiv\int_0^1 e^{-2\pi i n\theta}\nu(d\theta)$ 与原页相符。微小字形注记：正文 “positive Radon measure v” 处印刷为斜体希腊 ν，Markdown 文字层用拉丁 v（下一行公式内为 $\nu$），不影响辨识。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 8。与 Luna 旧审（p.005 PASS±）结论一致，无修复。
 - 时间：2026-10-02 15:09 EDT 落签
+
+## p.006（PDF p.6 / 印刷 p.9）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p006.png`（Ghostscript `pngmono`，150dpi；原 PDF p.6）；`audit-redo/p006_gauss_300dpi.png`、`audit-redo/p006_arithsets_300dpi.png`（原 PDF p.6 300dpi 渲染后裁片，分别裁决 Gauss 和式指数与 “arithmetic sets” 拼写）。
+- 核对：(2.2) 的归一化 $|\Lambda\cap[1,N]|^{-1}$ 与求和条件 $1\leqslant n\leqslant N,\ n\in\Lambda$；平方序列的极限两式（irrational → 0；Gauss-sums 定义 $S(q,a)$）；§2B 开头 $A_n f$、$f^*$ 定义；(2.3)、(2.4) 双范数不等式与 $L^{1,\infty}$ 定义行。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 151–207 行。
+- 结果：PASS±。(2.3) 现为 $\|f^*\|_{L^p(\Omega,\mu)}\leqslant C(p)\|f\|_{L^p(\Omega,\mu)}$、(2.4) 现为 $\|f^*\|_{L^{1,\infty}(\Omega,\mu)}\leqslant C\|f\|_{L^1(\Omega,\mu)}$，均与原页一致——Luna 对 (2.3)/(2.4) 定界符的旧修复经核正确。Gauss 和式：300dpi 裁片显示印刷为 $e^{2\pi i\alpha r^2}$（希腊 α，无 /q），与 Markdown 现文完全一致；Luna 旧审备注称印刷为 $e^{2\pi iar^2/q}$ 属对原页的误述，但未导致 Markdown 错误，本次不修复、只更正记录。印刷源级 quirk “given by (4)” 忠实保留；“arithmetic sets” 拼写与原页一致（150dpi 下疑似的 “arithmetics” 经 300dpi 否定），该行闭引号后原页有一墨迹微点，非字符。§2B 的 $A_n f=\frac{1}{N}\sum_{n=1}^{N}T^nf$ 下标混用（$A_n$ 对 $1/N$）为原页排印原样，Markdown 忠实保留。Markdown 未保留运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS”、印刷页码 9 及右下角孤立数字 2。与 Luna 旧审（p.006 FAIL→修复）差异已修复的说法一致，但其等价性备注表述有误。
+- 时间：2026-10-02 15:22 EDT 落签
