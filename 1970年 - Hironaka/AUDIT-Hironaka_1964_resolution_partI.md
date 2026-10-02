@@ -190,3 +190,10 @@
 - 证据：源 PDF p.025 文本层、页图 `audit/Hironaka_1964_resolution_partI_p025.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p025_theorem_I.png` 与 MinerU Markdown 第 375–399 行。印刷在第 381、383 行关联段落和本页强形式起句反复使用罗马大写 `I`；Markdown 将其误录为阿拉伯 `1`（行 381、383）或小写 `i`，并在第 391 行把 `theorem` 拼成 `therem`。裁片确认这不是印刷写法差异，待全篇初审结束后逐处修复。
 - 备注：印刷运行页眉与页码 132 未录入 Markdown，属导航元素省略。
 - 结论：定理编号与术语有 OCR 误录，列为 FAIL。
+
+### PDF p.026 / 96（印刷 p.133）— FAIL
+
+- 时间：2026-10-02 01:00 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.026 文本层、页图 `audit/Hironaka_1964_resolution_partI_p026.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p026_multiplicity_stalk.png` 与 MinerU Markdown 第 399–409 行。印刷 multiplicity 定义中的局部环为 `O_{x,x}`；Markdown 第 409 行写成 `O_{Xx}`（无分隔逗号），随后将 multiplicity 写作 `e(O_{X,x})`，下标与印刷的两级小写索引不一致。其他 (gr_m^p(A))、ν_M(J) 及 theorem I* 记号与本页相符。
+- 备注：印刷运行页眉和页码 133 未录入 Markdown，属导航元素省略。
+- 结论：局部环 stalk 下标误录，列为 FAIL；待全篇审计结束后逐处修复。
