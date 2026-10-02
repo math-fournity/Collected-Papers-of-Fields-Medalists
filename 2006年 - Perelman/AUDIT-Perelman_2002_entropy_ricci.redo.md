@@ -127,6 +127,13 @@
 - 结果：PASS
 - 备注：全部公式（含各 (7.x) 编号与尾标点）与印刷逐项一致；无需修复。
 
+## p.017（PDF p.17 / 印刷 p.17）
+- PNG：audit-redo/p017.png（pngmono 150dpi）
+- 核对：⟨Y,Y⟩ 演化式（=2Ric(Y,Y)+2⟨∇_XY,Y⟩=(1/τ)⟨Y,Y⟩）、|Y(τ)|²=τ/τ̄ 段、Hess_L(Y,Y) 两行不等式（含 +1/(2ττ̄) 项）、Ric(Y(τ),Y(τ)) 演化两行、(7.9)、H(X,Y) Hamilton 矩阵 Harnack 表达式两行（含 ⟨R(Y,X)Y,X⟩ 无逗点 print 原样）、(7.10)、L-Jacobi 定义段、(d/dτ)|Y|² 第一行
+- 结果：PASS
+- 备注：全部公式与印刷逐项一致；"< R(Y, X)Y, X >" 缺逗点为 print quirk，MD 忠实保留。
+
+
 
 
 
