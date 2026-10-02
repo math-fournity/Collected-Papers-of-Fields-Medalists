@@ -54,8 +54,6 @@ $\forall \varphi \in C_0^\infty (\mathbf{R}^N),\varphi \geqslant 0,\forall k\in 
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ This name refers to the “vanishing viscosity” method used in the existence results, and was chosen for want of a better idea.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$C_b(\Omega))$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{3}$ BUC( $\Omega$ ) (respectively,  $C_{b}(\Omega)$ ) denotes the space of bounded and uniformly continuous (respectively, bounded and continuous) functions on  $\Omega$ .</span></small>
 
 Under these assumptions, the results to follow imply:
@@ -158,7 +156,7 @@ $$
 F _ {l} \left(y _ {l}, u _ {l} (y _ {l}), - \frac {u _ {l} (y _ {l}) - k}{\varphi (y _ {l})} D \varphi (y _ {l})\right) \leqslant 0.\tag{1.5}
 $$
 
-Now $y_{l} \in \operatorname{supp} \varphi,^{4}$ and thus there is a subsequence $y_{l'}$ convergent to some $\bar{y} \in \mathcal{O}$. Moreover $\varphi(u - k) \leqslant \lim \max(\varphi(u_{l} - k)) = \lim \varphi(y_{l})(u_{l}(y_{l}) - k) \leqslant \varphi(\bar{y})(u(\bar{y}) - k)$ so $\bar{y} \in E_{+}(\varphi(u - \overline{k}))$. Letting $l \to \infty$ through the subsequence $l'$ in (1.5) and using the assumed convergence $F_{l} \to F$ we have
+Now $y_{l} \in \operatorname{supp} \varphi,^{4}$ and thus there is a subsequence $y_{l'}$ convergent to some $\bar{y} \in \mathcal{O}$. Moreover $\varphi(u - k) \leqslant \lim \max(\varphi(u_{l} - k)) = \lim \varphi(y_{l})(u_{l}(y_{l}) - k) \leqslant \varphi(\bar{y})(u(\bar{y}) - k)$ so $\bar{y} \in E_{+}(\varphi(u - k))$. Letting $l \to \infty$ through the subsequence $l'$ in (1.5) and using the assumed convergence $F_{l} \to F$ we have
 
 $$
 F \left(\bar {y}, u (\bar {y}), - \frac {u (\bar {y}) - k}{\varphi (\bar {y})} D \varphi (\bar {y})\right) \leqslant 0.
@@ -192,19 +190,11 @@ $$
 \psi_ {+} (y) = \int_ {| y |} ^ {2 | y |} \bar {\rho} (s) d s + | y | ^ {2}.
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}a \cdot b$ denotes the Euclidean inner-product of $a, b \in \mathbf{R}^{M}$.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{5}B(y_{0},r)$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}a \cdot b$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$y_{0}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$a, b \in \mathbf{R}^{M}$.</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{4}$ Supp  $\varphi$  denotes the support of  $\varphi$ .</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{5}B(y_{0}, r)$ denotes the open ball of radius r and center $y_{0}$.</span></small>
+
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{6}a \cdot b$ denotes the Euclidean inner-product of $a, b \in \mathbf{R}^{M}$.</span></small>
 
 Let $\overline{B(0,h)}\subset\mathcal{O}$. Then $\psi_{+}\in C^{1}(B(0,h))$, $\psi_{+}(0)=0$, $\psi_{+}(y)\geqslant|y|\bar{\rho}(|y|)+|y|^{2}>|y|\rho(y)=\varphi(y)$ for $y\in B(0,h)\backslash\{0\}$ by the monotonicity of $\bar{\rho}$, and $D\psi_{+}(0)=0$. This $\psi_{+}$ may be modified outside $B(0,h/2)$ if necessary to achieve $\psi_{+}\in C_{c}^{1}(\mathcal{O})$.
 
@@ -221,7 +211,7 @@ $$
 Next choose a sequence $\{\varphi_l\}_{l=1}^{\infty} \subset \mathfrak{D}(\mathcal{O})^+$ with supports contained in a fixed compact subset of $\mathcal{O}$ so that $\varphi_l \to \psi_-$ and $D\varphi_l \to D\psi_-$ uniformly. For large $l$, $\varphi_l(y_0)(u(y_0) - k) > 0$ so $E_+(\varphi_l(u - k)) \neq 0$ and, by assumption, there exist $y_l \in E_+(\varphi_l(u - k))$ such that
 
 $$
-F \left(y _ {l}, u (y _ {l}), - \frac {u (y _ {l}) - k}{\varphi (y _ {l})} D \varphi_ {l} (y _ {l})\right) \leqslant 0.\tag{1.9}
+F \left(y _ {l}, u (y _ {l}), - \frac {u (y _ {l}) - k}{\varphi_ {l} (y _ {l})} D \varphi_ {l} (y _ {l})\right) \leqslant 0.\tag{1.9}
 $$
 
 Passing to a subsequence if necessary we may assume $y_{l}$ converges to a limit $y$. Clearly $y \in E_{+}(\psi_{-}(u - k))$ and then $y = y_0$ by (1.8). Sending $l$ to $\infty$ in (1.9) and using $\varphi_{l} \to \psi_{-}$ in $C^1, \psi_{-}(y_0) = \varphi(y_0), D\psi_{-}(y_0) = D\varphi(y_0)$ we conclude
@@ -364,10 +354,6 @@ $$
 \begin{array}{l} - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} p _ {T} D \varphi (y _ {0}) = p _ {T} D u _ {+} (y _ {0}) = p _ {T} D u _ {-} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \vec {n} (y _ {0}) \geqslant D u _ {+} (y _ {0}) \cdot \vec {n} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \vec {n} (y _ {0}) \leqslant D u _ {-} (y _ {0}) \cdot \vec {n} (y _ {0}). \end{array}
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}u|_{\theta'}$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">O'.</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}u|_{\mathfrak{O}'}$ means the restriction of $u$ to $\mathfrak{O}'$.</span></small>
 
 Hence
@@ -420,7 +406,7 @@ $$
 \frac {\partial u _ {+}}{\partial y _ {1}} (0, 0, \dots , 0) <   \xi <   \frac {\partial u _ {-}}{\partial y _ {1}} (0, 0, \dots , 0).
 $$
 
-Let $\psi_0(y_2,\ldots ,y_m)\geqslant u_{\pm}(0,y_2,\ldots ,y_m)$ with strict inequality if $(y_{2},\ldots ,y_{m})\neq (0,\ldots ,0)$ in some neighborhood of $(0,\ldots ,0),\psi_0(0,\ldots ,0) = u_{\pm}(0,0,\ldots ,0),\partial \psi_0(0,\ldots ,0) / \partial y_i =$$\partial u_{\pm}(0,\dots ,0) / \partial y_i$ for $i = 2,\dots ,m.\psi_0$ exists by Lemma I.4. Then set $\psi (y_1,\dots ,y_m) =$$\psi_0(y_2,\dots ,y_m) + \xi y_1$ . Clearly $\psi$ has the desired properties and the proof is complete.
+Let $\psi_0(y_2,\ldots,y_m)\geqslant u_{\pm}(0,y_2,\ldots,y_m)$ with strict inequality if $(y_2,\ldots,y_m)\neq(0,\ldots,0)$ in some neighborhood of $(0,\ldots,0)$. We have $\psi_0(0,\ldots,0)=u_{\pm}(0,0,\ldots,0)$ and $\partial\psi_0(0,\ldots,0)/\partial y_i=\partial u_{\pm}(0,\ldots,0)/\partial y_i$ for $i=2,\ldots,m$. $\psi_0$ exists by Lemma I.4. Then set $\psi(y_1,\ldots,y_m)=\psi_0(y_2,\ldots,y_m)+\xi y_1$. Clearly, $\psi$ has the desired properties and the proof is complete.
 
 To illustrate this result, consider the example solution $u = 0$ for $|x| \geqslant t \geqslant 0$, $u = -t + |x|$ if $|x| \leqslant t$ of $u_t + (u_x)^2 = 0$ in the introduction. Let $\Gamma$ be $x = 0$, $\vec{n}(0, t) = (1, 0)$. Then $F((x, t), u, (p_1, p_2)) = p_2 + (p_1)^2$, $u_+ = -t + x$ and $u_- = -t - x$ in the appropriate domains. We have
 
@@ -443,7 +429,7 @@ $$
 in ]0, T[. Then
 
 $$
-g (t) \leqslant g (s) + \int_ {s} ^ {t} h (\tau) d \tau \quad f o r 0 \leqslant s \leqslant t \leqslant T.\tag{1.17}
+g (t) \leqslant g (s) + \int_ {s} ^ {t} h (\tau) d \tau \quad \text{for } 0 \leqslant s \leqslant t \leqslant T.\tag{1.17}
 $$
 
 PROOF. It is enough to show (1.17) for $s = 0$ and for this it suffices to prove that for $\varepsilon > 0$
@@ -464,14 +450,14 @@ REMARK 1.19. It follows from Proposition I.11 that (1.16) holds in the viscosity
 
 COROLLARY I.12. Let $T > 0$, $\gamma \in \mathbb{R}$ and $g, h \in C([0, T])$. Let $g$ be a viscosity solution of
 
-(1.20)
-
 $$
-g ^ {\prime} + \gamma g \leqslant h \quad o n ] 0, T [.\tag{Then}
+g ^ {\prime} + \gamma g \leqslant h \quad \text {on} ] 0, T [.\tag{1.20}
 $$
 
+Then
+
 $$
-e ^ {\gamma t} g (t) \leqslant e ^ {\gamma s} g (s) + \int_ {s} ^ {t} e ^ {\gamma \tau} h (\tau) d \tau \quad f o r 0 \leqslant s \leqslant t \leqslant T.\tag{1.21}
+e ^ {\gamma t} g (t) \leqslant e ^ {\gamma s} g (s) + \int_ {s} ^ {t} e ^ {\gamma \tau} h (\tau) d \tau \quad \text{for } 0 \leqslant s \leqslant t \leqslant T.\tag{1.21}
 $$
 
 PROOF. By Remark 1.19, (1.20) holds in the sense of distributions and then it is known that (1.21) holds. (Of course, one could prove (1.21) directly by adapting the proof of the proposition or by using Corollary I.7 to find $(e^{\gamma t}g)' \leqslant e^{\gamma t}h$ in the viscosity sense.)
@@ -486,14 +472,12 @@ exactly when the corresponding statement holds for the functions of one variable
 
 PROPOSITION I.13. Let $u, g \in C(\mathcal{O})$. For $z = (y_2, \ldots, y_m) \in \mathbf{R}^{M-1}$, let $\mathcal{O}_z = \{r: (r, z) \in \mathcal{O}\}$. Let $u_z(r) = u(r, z)$, $g_z(r) = g(r, z)$ on $\mathcal{O}_z$. Then the following are equivalent:
 
-(1.23)
-
 $$
-\left\{ \begin{array}{l} \text { For   each } z \in \mathbf {R} ^ {M - 1}, u _ {z} \text { is   a   viscosity   solution   of } \\ u _ {z} ^ {\prime} \leqslant g _ {z} \text { in } \vartheta_ {z}. \end{array} \right.\tag{1.24}
+\left\{ \begin{array}{l} \text { For   each } z \in \mathbf {R} ^ {M - 1}, u _ {z} \text { is   a   viscosity   solution   of } \\ u _ {z} ^ {\prime} \leqslant g _ {z} \text { in } \mathcal{O}_z. \end{array} \right.\tag{1.23}
 $$
 
 $$
-\left\{ \begin{array}{l} u \text {   is   a   viscosity   subsolution   of } \\ \frac {\partial}{\partial y _ {1}} u (y _ {1}, \dots , y _ {m}) = g (y _ {1}, \dots , y _ {m}) \text {   in   } \mathcal {O}. \end{array} \right.
+\left\{ \begin{array}{l} u \text {   is   a   viscosity   subsolution   of } \\ \frac {\partial}{\partial y _ {1}} u (y _ {1}, \dots , y _ {m}) = g (y _ {1}, \dots , y _ {m}) \text {   in   } \mathcal {O}. \end{array} \right.\tag{1.24}
 $$
 
 PROOF. We show (1.24) implies (1.23). Let $z_0 \in \mathbb{R}^{m-1}$ be such that $\mathcal{O}_{z_0} \neq \emptyset$. Let $\eta \in \mathfrak{D}(\mathcal{O}_{z_0})^+$, $k \in \mathbb{R}$ and $r_0 \in E_+ (\eta(u_{z_0} - k): \mathcal{O}_{z_0})$. Using Lemma I.4 in the usual way we may assume $\{r_0\} = E_+ (\eta(u_{z_0} - k): \mathcal{O}_{z_0})$. Pick $\varphi \in \mathfrak{D}(B(z_0, 1))^+$ such that $\varphi(z_0) = 1$. Set $\varphi_\varepsilon(z) = \varphi(z/\varepsilon)$. For $\varepsilon > 0$ and small, $\eta(y_1)\varphi_\varepsilon(y_2, \ldots, y_m) \in \mathfrak{D}(\mathcal{O})^+$ and there exists $(r_\varepsilon, z_\varepsilon) \in E_+( \eta\varphi(u - k): \mathcal{O})$. By assumption,
@@ -517,7 +501,7 @@ $$
 which is defined on a maximal interval of existence $I_{y_0}$. (By assumption $Y(I_{y_0}, y_0) \subset \mathcal{O}$.) Let $u, g \in C(\mathcal{O})$ and $u$ be a viscosity solution of
 
 $$
-(D u) \cdot v \leqslant g \quad i n \mathcal {O}.\tag{1.27}
+(D u) \cdot \nu \leqslant g \quad \text{in } \mathcal {O}.\tag{1.27}
 $$
 
 Then for $y_0 \in \mathcal{O}$, $s, t \in I_{y_0}$ and $s \leqslant t$ one has
@@ -561,17 +545,17 @@ While this inequality is only established for $|s|, |t|$ small, it is then trivi
 COROLLARY I.15. Let $\mathcal{O}$ be convex, $u \in C(\mathcal{O})$ and $L \in \mathbb{R}$. If for every $\varphi \in \mathfrak{D}(\mathcal{O})^+$ and $k \in \mathbb{R}$
 
 $$
-\frac {(u - k)}{\varphi} \mid D \varphi \mid \leqslant L \quad o n E _ {+} (\varphi (u - k))\tag{1.29}
+\frac {(u - k)}{\varphi} \mid D \varphi \mid \leqslant L \quad \text{on } E _ {+} (\varphi (u - k))\tag{1.29}
 $$
 
 $$
 \text { then } \mid u (\bar {y}) - u (\hat {y}) \mid \leqslant L \mid \bar {y} - \hat {y} \mid \text { for } \bar {y}, \hat {y} \in \mathcal {O}.
 $$
 
-PROOF. Fix $y, \hat{y} \in \mathcal{O}$ with $y \neq \hat{y}$. Put $\nu \equiv (|\bar{y} - \hat{y}|)^{-1}(\bar{y} - \hat{y})$. From (1.29) it follows that $u$ is a viscosity solution of $Du \cdot \nu \leqslant L$ in $\mathcal{O}$. By Theorem I.14
+PROOF. Fix $y, \hat{y} \in \mathcal{O}$ with $y \neq \hat{y}$. Put $v \equiv (|\bar{y} - \hat{y}|)^{-1}(\bar{y} - \hat{y})$. From (1.29) it follows that $u$ is a viscosity solution of $Du \cdot v \leqslant L$ in $\mathcal{O}$. By Theorem I.14
 
 $$
-u \left(y _ {0} + t \nu\right) - u \left(y _ {0} + s \nu\right) \leqslant \int_ {s} ^ {t} L d \tau = L (t - s)
+u \left(y _ {0} + t v\right) - u \left(y _ {0} + s v\right) \leqslant \int_ {s} ^ {t} L d \tau = L (t - s)
 $$
 
 whenever $s \leqslant t$ and $y_0, y_0 + tv, y_0 + sv \in \mathcal{O}$. Set $y_0 = \hat{y}, t = |\bar{y} - \hat{y}|$, $s = 0$ to obtain $u(\bar{y}) - u(\hat{y}) \leqslant L|\bar{y} - \hat{y}|$. Since we may interchange $\bar{y}$ and $\hat{y}$, the proof is complete.
@@ -623,12 +607,12 @@ $$
 COROLLARY I.17. Let $u \in C(\mathcal{O})$. Then
 
 $$
-A _ {+} = \left\{y _ {0} \in \mathcal {O}: \exists \tilde {\psi} \in C ^ {1} (\mathcal {O}), \tilde {\psi} (y _ {0}) = u (y _ {0}) a n d \tilde {\psi} \geqslant u n e a r y _ {0} \right\}
+A _ {+} = \left\{y _ {0} \in \mathcal {O}: \exists \tilde {\psi} \in C ^ {1} (\mathcal {O}), \tilde {\psi} (y _ {0}) = u (y _ {0}) \text{and} \tilde {\psi} \geqslant u \text{near } y _ {0} \right\}
 $$
 
 is dense in $\mathcal{O}$. Similarly, the set $A_{-}$ defined as above with $\tilde{\psi} \geqslant u$ replaced by $u \geqslant \tilde{\psi}$ is dense in $\mathcal{O}$.
 
-PROOF. If $y_0 \in \mathcal{O}$ and $\varepsilon > 0$, choose $\varphi \in C_c^1(\mathcal{O})^+$ so that $\varphi(y_0) > 0$ and $\operatorname{supp} \varphi \subset B(y_0, \varepsilon)$. Then $E_+(u - (u(y_0) - 1)))$ is nonempty and it follows from Theorem I.16 that it is contained in $B(y_0, \varepsilon) \cap A_+$, hence the result.
+PROOF. If $y_0 \in \mathcal{O}$ and $\varepsilon > 0$, choose $\varphi \in C_c^1(\mathcal{O})^+$ so that $\varphi(y_0) > 0$ and $\operatorname{supp} \varphi \subset B(y_0, \varepsilon)$. Then $E_+(\varphi(u - (u(y_0) - 1)))$ is nonempty and it follows from Theorem I.16 that it is contained in $B(y_0, \varepsilon) \cap A_+$, hence the result.
 
 REMARK 1.32. One cannot expect $A_{+}$ to be much more than dense (e.g., of full measure, second category, etc.) since $A_{+} \cap A_{-} = d(u)$ may well be empty.
 
@@ -646,7 +630,7 @@ $$
 D ^ {-} u \left(y _ {0}\right) = \left\{a \in \mathbf {R} ^ {N}: \lim _ {y \rightarrow y _ {0}} \frac {\left(u (y) - u \left(y _ {0}\right) - a \cdot \left(y - y _ {0}\right)\right) ^ {-}}{\left| y - y _ {0} \right|} = 0 \right\},
 $$
 
-where  $r^{+} = \max(r,0)$ ,  $r^{-} = -\min(r,0)$ . In general,  $D^{\pm}u(y_{0})$  may be empty, but by Corollary I.17 each is nonempty for a dense set of  $y_{0} \in \varnothing$ . The next result is an immediate consequence of the above considerations.
+where  $r^{+} = \max(r,0)$ ,  $r^{-} = -\min(r,0)$ . In general,  $D^{\pm}u(y_{0})$  may be empty, but by Corollary I.17 each is nonempty for a dense set of  $y_{0} \in \mathcal{O}$ . The next result is an immediate consequence of the above considerations.
 
 PROPOSITION I.18. Let $u \in C(\mathcal{O})$. Then:
 
@@ -701,8 +685,6 @@ $$
 $$
 
 REMARK 2.6. It follows from (2.5) that $n \leqslant m$ implies $u \leqslant v$. It is also an immediate consequence of the theorem that if $u, v$ are viscosity solutions of their
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{8}r^{+}(r^{-})$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{8}r^{+}(r^{-})$ denotes the maximum of r (respectively, -r) and 0.</span></small>
 
@@ -990,7 +972,7 @@ $$
 \lambda_ {\varepsilon} + \delta_ {\varepsilon} = - (u (x _ {\varepsilon}) - \psi_ {1} (x _ {\varepsilon})) \frac {D \Phi (x _ {\varepsilon})}{\Phi (x _ {\varepsilon})} + D \psi_ {1} (x _ {\varepsilon})
 $$
 
-where $\Phi(x) = e^{-\varepsilon|x|^2}\varphi((x - y_\varepsilon)/\alpha)$, $\psi_1 = e^{\varepsilon(|x|^2 - |y_\varepsilon|^2)}$, $\sqrt{\varepsilon} (|x_\varepsilon| + |y_\varepsilon|) \leqslant c$ and $x_\varepsilon \in E_+(u - \psi_1)\Phi)$. It follows from Lemma II.3 that the first term on the right above is bounded by
+where $\Phi(x) = e^{-\varepsilon|x|^2}\varphi((x - y_\varepsilon)/\alpha)$, $\psi_1 = e^{\varepsilon(|x|^2 - |y_\varepsilon|^2)}$, $\sqrt{\varepsilon} (|x_\varepsilon| + |y_\varepsilon|) \leqslant c$ and $x_\varepsilon \in E_+((u - \psi_1)\Phi)$. It follows from Lemma II.3 that the first term on the right above is bounded by
 
 $$
 \left\| D u \right\| _ {L ^ {\infty} \left(\mathbf {R} ^ {N}\right)} + \left\| 2 x e ^ {\varepsilon \left(| x | ^ {2} - | y _ {\varepsilon} | ^ {2}\right)} \right\| _ {L ^ {\infty} \left(B \left(x, 1 _ {\varepsilon}\right)\right)}
@@ -1146,7 +1128,7 @@ $$
 \left\| \left(\Phi (u) - \Phi (v)\right) ^ {+} \right\| _ {L ^ {\infty} (\Omega)} \leqslant \left\| \left(\Phi (u) - \Phi (v)\right) ^ {+} \right\| _ {L ^ {\infty} (\partial \Omega)}.
 $$
 
-Since $\Psi$ can be replaced by $\Psi_{\theta}(r) = \theta \Psi(r) + (1 - \mathcal{O})r$ for any $\theta \in ]0, 1]$, we deduce
+Since $\Psi$ can be replaced by $\Psi_{\theta}(r) = \theta \Psi(r) + (1 - \theta)r$ for any $\theta \in ]0, 1]$, we deduce
 
 $$
 \left\| \left(\Phi_ {\theta} (u) - \Phi_ {\theta} (v)\right) ^ {+} \right\| _ {L ^ {\infty} (\Omega)} \leqslant \left\| \left(\Phi_ {\theta} (u) - \Phi_ {\theta} (v)\right) ^ {+} \right\| _ {L ^ {\infty} (\partial \Omega)}
@@ -1185,7 +1167,7 @@ PROPOSITION III.3. Let $H(x, r, p)$ be a continuous Hamiltonian, convex in $p$.
 (ii) Let $u$ be a locally bounded semiconcave function satisfying
 
 $$
-H (x, u, D u) \geqslant 0 \quad i n \Omega .
+H (x, u, D u) \geqslant 0 \quad \text{in } \Omega .
 $$
 
 Then $u$ is a viscosity supersolution of $H(x, v, Dv) = 0$.
@@ -1233,7 +1215,7 @@ $$
 consists of approximating the problem by ones of the form
 
 $$
-\begin{array}{l l} \text {(a)} & - \varepsilon \Delta u _ {\varepsilon} + H _ {\varepsilon} (x, u _ {\varepsilon}, D u _ {\varepsilon}) = 0 \quad \text { in } \Omega , \\ \text {(b)} & u _ {\varepsilon} = z _ {\varepsilon} \quad \text { on } \partial \Omega \end{array}\tag{4.1) \( _{\varepsilon} \}
+\begin{array}{l l} \text {(a)} & - \varepsilon \Delta u _ {\varepsilon} + H _ {\varepsilon} (x, u _ {\varepsilon}, D u _ {\varepsilon}) = 0 \quad \text { in } \Omega , \\ \text {(b)} & u _ {\varepsilon} = z _ {\varepsilon} \quad \text { on } \partial \Omega \end{array}\tag{(4.1)_{\varepsilon}}
 $$
 
 where $\varepsilon > 0$, $H_{\varepsilon}$, $z_{\varepsilon}$ are adequately smooth and converge locally uniformly to $H$, $z$ respectively. One attempts to prove $(4.1)_{\varepsilon}$ is solvable for $\varepsilon > 0$, and to obtain precompactness of the family $\{u_{\varepsilon}: 0 < \varepsilon \leqslant 1\}$ in $C(\Omega)$ (or $C(\overline{\Omega})$). Typically this is done by obtaining (perhaps local) estimates on $u_{\varepsilon}$ and $Du_{\varepsilon}$ in $L^{\infty}$. See [18] and §IV.2 below in this regard. We prove
@@ -1243,7 +1225,7 @@ PROPOSITION IV.1. Let $u_{\varepsilon} \in C^{2}(\Omega)$ be a solution of (4.1)
 PROOF. Let $u_{\varepsilon_n} \to u$ in $C(\Omega)$ as in the assumptions. Fix $\varphi \in \mathfrak{D}(\Omega)^+$, $k \in \mathbf{R}^N$ and assume $E_+(\varphi(u-k)) \neq \emptyset$. Then for large $n$ there exists $x_n \in E_+(\varphi(u_{\varepsilon_n}-k))$ and, passing to a subsequence if necessary, we may assume $x_n \to x \in E_+(\varphi(u-k))$. By a simple computation we have, on supp $\varphi$,
 
 $$
-\begin{array}{l} 0 = \frac {1}{\varphi} \left(\varphi \left(- \varepsilon \Delta u _ {\varepsilon} + H (x, u _ {\varepsilon}, D u _ {\varepsilon})\right)\right) \\ = - \varepsilon \frac {1}{\varphi} \Delta \left(\varphi \left(u _ {\varepsilon} - k\right)\right) + \varepsilon \left(u _ {\varepsilon} - k\right) \frac {\Delta \varphi}{\varphi} + 2 \varepsilon \frac {D \varphi \cdot D \left(\varphi \left(u _ {\varepsilon} - k\right)\right)}{\phi^ {2}} \\ - 2 \varepsilon \frac {(u _ {\varepsilon} - k)}{\varphi^ {2}} | D \varphi | ^ {2} + H \left(x, u _ {\varepsilon}, \frac {1}{\varphi} D (\varphi (u _ {\varepsilon} - k)) - \frac {u _ {\varepsilon} - k}{\varphi} D \varphi\right). \end{array}
+\begin{array}{l} 0 = \frac {1}{\varphi} \left(\varphi \left(- \varepsilon \Delta u _ {\varepsilon} + H (x, u _ {\varepsilon}, D u _ {\varepsilon})\right)\right) \\ = - \varepsilon \frac {1}{\varphi} \Delta \left(\varphi \left(u _ {\varepsilon} - k\right)\right) + \varepsilon \left(u _ {\varepsilon} - k\right) \frac {\Delta \varphi}{\varphi} + 2 \varepsilon \frac {D \varphi \cdot D \left(\varphi \left(u _ {\varepsilon} - k\right)\right)}{\varphi^ {2}} \\ - 2 \varepsilon \frac {(u _ {\varepsilon} - k)}{\varphi^ {2}} | D \varphi | ^ {2} + H \left(x, u _ {\varepsilon}, \frac {1}{\varphi} D (\varphi (u _ {\varepsilon} - k)) - \frac {u _ {\varepsilon} - k}{\varphi} D \varphi\right). \end{array}
 $$
 
 Evaluating this identity at $\varepsilon = \varepsilon_{n}$, $x = x_{n}$ and using $(\Delta (\varphi (u_{\varepsilon} - k))) (x_{n}) \leqslant 0$, $(D\varphi (u_{\varepsilon} - k))(x_{n}) = 0$ (because $x_{n} \in E_{+}(\varphi (u_{\varepsilon_{n}} - k)))$ we conclude
@@ -1306,8 +1288,10 @@ $$
 
 and
 
+(4.11)
+
 $$
-\begin{array}{l} \text {4.11)} \| (v - \hat {v}) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \\ \leqslant \sup \left\{| \gamma^ {- 1} (s + \| (m - \hat {m}) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})}) - \gamma^ {- 1} (s) |: | s | \leqslant \| \hat {m} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \right\}. \end{array}
+\begin{array}{l} \| (v - \hat {v}) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \\ \leqslant \sup \left\{| \gamma^ {- 1} (s + \| (m - \hat {m}) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})}) - \gamma^ {- 1} (s) |: | s | \leqslant \| \hat {m} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \right\}. \end{array}
 $$
 
 SKETCH OF PROOF. If $x \in E_{+}(v)$ then $\Delta v(x) \leqslant 0$ and $F(Dv(x)) = F(0) = 0$. Hence, from (4.9), $\gamma(v(x)) \leqslant m(x)$, and we would have (4.10) with $\nu = +$. If $E_{+}(v) = \emptyset$ but $v > 0$ somewhere, one chooses $x_{\lambda} \in E_{+}(e^{-\lambda |x|^{2}}v)$, makes the associated computation and uses $\lambda |x_{\lambda}|^{2} \leqslant C$ to let $\lambda \downarrow 0$ and reach the same conclusion.
@@ -1393,7 +1377,7 @@ $$
 which is equivalent to
 
 $$
-\begin{array}{c} (u - v) ^ {+} \leqslant \sup \Bigl \{\beta^ {- 1} \bigl (s + \| (n - m) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \bigr) - \beta^ {- 1} (s): \\ | s | \leqslant \max \bigl (\| m \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \| n \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \bigr) \Bigr \}. \end{array}
+\begin{array}{c} (u - v) ^ {+} \leqslant \sup \Bigl \{\beta^ {- 1} \bigl (s + \| (n - m) ^ {+} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \bigr) - \beta^ {- 1} (s): \\ | s | \leqslant \max \bigl (\| m \| _ {L ^ {\infty} (\mathbf {R} ^ {N})}, \| n \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} \bigr) \Bigr \}. \end{array}
 $$
 
 The estimate (4.12) follows from the construction. This ends the sketch of the proof.
@@ -1482,7 +1466,7 @@ These conditions are obvious analogues of (2.19)-(2.21\*). See §V.4 concerning 
 
 The main uniqueness result is
 
-THEOREM V.2. Let (5.7) and (5.8) hold. Let $u \in C_b(\overline{Q}_T)$ be a viscosity subsolution of $u_t + H(x, t, u, Du) = 0$ in $Q_T$ and $v \in C_b(\overline{Q}_\overline{T})$ be a viscosity supersolution of $v_t + H(x, t, v, Dv) = g(x, t)$ in $Q_T$ where $g \in C_b(\overline{Q}_\overline{T})$. Let
+THEOREM V.2. Let (5.7) and (5.8) hold. Let $u \in C_b(\overline{Q}_T)$ be a viscosity subsolution of $u_t + H(x, t, u, Du) = 0$ in $Q_T$ and $v \in C_b(\overline{Q}_T)$ be a viscosity supersolution of $v_t + H(x, t, v, Dv) = g(x, t)$ in $Q_T$ where $g \in C_b(\overline{Q}_T)$. Let
 
 $$
 R _ {0} = \max \Big (\| u \| _ {L ^ {\infty} (Q _ {T})}, \| v \| _ {L ^ {\infty} (Q _ {T})} \Big)
@@ -1614,26 +1598,24 @@ The main result is
 
 THEOREM V.3. Let $u, v \in C(\mathbf{R}^N \times [0, T])$ be viscosity solutions of (5.21) on $Q_T = \mathbf{R}^N \times [0, T]$. Let (5.22) hold and
 
-(5.23)
-
 $$
-u (x, 0) \leqslant v (x, 0) \quad o n | x | \leqslant R,\tag{5.24}
+u (x, 0) \leqslant v (x, 0) \quad \text{on } | x | \leqslant R,\tag{5.23}
 $$
 
 $$
-C = \max \left(\| D u \| _ {L ^ {\infty} \left(Q _ {T}\right)}, \| D v \| _ {L ^ {\infty} \left(Q _ {T}\right)}\right), \quad m = \max \left(\| u \| _ {L ^ {\infty} \left(Q _ {T}\right)}, \| v \| _ {L ^ {\infty} \left(Q _ {T}\right)}\right)
+C = \max \left(\| D u \| _ {L ^ {\infty} \left(Q _ {T}\right)}, \| D v \| _ {L ^ {\infty} \left(Q _ {T}\right)}\right), \quad m = \max \left(\| u \| _ {L ^ {\infty} \left(Q _ {T}\right)}, \| v \| _ {L ^ {\infty} \left(Q _ {T}\right)}\right)\tag{5.24}
 $$
 
 and
 
 $$
-\left\{ \begin{array}{l} | H (x, t, r, p) - H (x, t, r, q) | \leqslant L | p - q | \\ f o r | p |, | q | \leqslant C, | r | \leqslant m, | x | \leqslant R - L t, a n d 0 \leqslant t \leqslant T. \end{array} \right.\tag{5.25}
+\left\{ \begin{array}{l} | H (x, t, r, p) - H (x, t, r, q) | \leqslant L | p - q | \\ \text{for } | p |, | q | \leqslant C, | r | \leqslant m, | x | \leqslant R - L t, \text{and } 0 \leqslant t \leqslant T. \end{array} \right.\tag{5.25}
 $$
 
 Then
 
 $$
-u \leqslant v \quad o n | x | \leqslant R - L t, \quad 0 \leqslant t \leqslant T.\tag{5.26}
+u \leqslant v \quad \text{on } | x | \leqslant R - L t, \quad 0 \leqslant t \leqslant T.\tag{5.26}
 $$
 
 Moreover, this is correct if $C = \infty$ in (5.25), $u, v \in C(\overline{Q}_T)$, and $H(x, t, r, p)$ is continuous in $(x, t)$ uniformly for $|r| \leqslant m$, $p \in \mathbf{R}^N$.
@@ -1643,7 +1625,7 @@ This result is a consequence of the following proposition.
 PROPOSITION V.4. Let (5.22) hold and $u, v \in C(\overline{Q}_T)$ be viscosity solutions of (5.21) on $Q_T$. Let $\Lambda \in C^1(\overline{Q}_T), \Lambda \geqslant 0, \Lambda = 0$ for $|x|$ large and
 
 $$
-- \Lambda_ {t} > L | D \Lambda | \quad i n (\operatorname{supp} \Lambda) ^ {0} (t h e i n t e r i o r o f \operatorname{supp} \Lambda).\tag{5.27}
+- \Lambda_ {t} > L | D \Lambda | \quad \text{in } (\operatorname{supp} \Lambda) ^ {0} \text{(the interior of }\operatorname{supp} \Lambda\text{)}.\tag{5.27}
 $$
 
 Assume (5.24) and that (5.25) holds for $(x,t)\in (\operatorname {supp}\Lambda)^{0}$. If $u(x,0)\leqslant v(x,0)$ on $\{(x,0)\colon \Lambda (x,0) > 0\}$, then $u\leqslant v$ on $\operatorname {supp}\Lambda$. Moreover, the result is valid if $C = \infty$ in (5.25), $u,v\in C(\overline{Q}_T)$ and $H(x,t,r,p)$ is continuous in $(x,t)$ uniformly for $|r|\leqslant m$, $p\in \mathbf{R}^N$.
@@ -1801,7 +1783,7 @@ VI.1. Vanishing viscosity and viscosity solutions. Avoiding useless repetition, 
 PROPOSITION VI.1. Let $u_{\varepsilon}$ be a solution of
 
 $$
-\left\{ \begin{array}{l} u _ {\varepsilon t} - \varepsilon \Delta u _ {\varepsilon} + H _ {\varepsilon} (x, t, u _ {\varepsilon}, D u _ {\varepsilon}) = 0 \quad i n Q _ {T}, \\ u _ {\varepsilon} = z _ {\varepsilon} \quad o n \partial \Omega \times [ 0, T ], \qquad u _ {\varepsilon} (x, 0) = u _ {0 \varepsilon} (x) \quad i n \overline {{\Omega}}, \end{array} \right.\tag{6.1}
+\left\{ \begin{array}{l} u _ {\varepsilon t} - \varepsilon \Delta u _ {\varepsilon} + H _ {\varepsilon} (x, t, u _ {\varepsilon}, D u _ {\varepsilon}) = 0 \quad \text{in } Q _ {T}, \\ u _ {\varepsilon} = z _ {\varepsilon} \quad \text{on } \partial \Omega \times [ 0, T ], \qquad u _ {\varepsilon} (x, 0) = u _ {0 \varepsilon} (x) \quad \text{in } \overline {{\Omega}}, \end{array} \right.\tag{6.1}
 $$
 
 with $u_{\varepsilon t}, u_{\varepsilon x_i x_j} \in C(Q_T)$ and $u \in C_b(\overline{Q}_T)$. Assume $H_{\varepsilon} \to H$ in $C(Q_T \times \mathbf{R} \times \mathbf{R}^N)$,
@@ -1809,13 +1791,13 @@ with $u_{\varepsilon t}, u_{\varepsilon x_i x_j} \in C(Q_T)$ and $u \in C_b(\ove
 $z_{\varepsilon} \to z$ in $C(\partial \Omega \times [0, T])$ and $u_{0\varepsilon} \to u_0$ in $C(\overline{\Omega})$. If $\varepsilon_n \downarrow 0$ and $u_{\varepsilon_n} \to u$ in $C(Q_T)$, then $u$ is a viscosity solution of
 
 $$
-u _ {t} + H (x, t, u, D u) = 0 \quad i n Q _ {T}.\tag{6.2}
+u _ {t} + H (x, t, u, D u) = 0 \quad \text{in } Q _ {T}.\tag{6.2}
 $$
 
 If the convergence $u_{\epsilon_n} \to u$ is in $C(\overline{Q}_T)$, then $u$ also satisfies
 
 $$
-u = z \quad o n \partial \Omega \times [ 0, T ], \quad u (x, 0) = u _ {0} (x) \quad i n \overline {{{\Omega}}}.\tag{6.3}
+u = z \quad \text{on } \partial \Omega \times [ 0, T ], \quad u (x, 0) = u _ {0} (x) \quad \text{in } \overline {{{\Omega}}}.\tag{6.3}
 $$
 
 VI.2. A model problem. Let
@@ -1851,7 +1833,7 @@ $$
 $$
 
 $$
-f o r u _ {0} v _ {0} \in \operatorname{BUC} (\mathbf {R} ^ {N}).
+\text{for } u _ {0} v _ {0} \in \operatorname{BUC} (\mathbf {R} ^ {N}).
 $$
 
 The existence of u satisfying (6.6) and (6.7) is easily established by the vanishing viscosity method, and we will not carry this out. (The proof of Proposition IV.3 indicates the main points.) The uniqueness and the estimate (6.8) follow from Theorem V.2. The uniqueness implies the semigroup property  $S(t)S(\tau) = S(t + \tau)$  for  $t, \tau \geqslant 0$  as usual. We remark that (6.7) also follows from (6.8) and the translation invariance of this model problem as reflected in
