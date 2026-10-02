@@ -856,7 +856,7 @@ $$
 
 where dots stand for the same integrand as in (26),$0 < \epsilon \ll 1$, and we pick the plus sign if$t _ { 1 } \geq t _ { 2 }$and the negative sign otherwise.
 
-Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - }$. This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of S, see Figure 4. Similarly, the contour $\gamma _ { < }$is the same circle$| z | = e ^ { \tau / 2 }$slightly pushed in the opposite direction. The
+Now we define the contours$\gamma _ { > } , \gamma _ { < } , \gamma _ { + } , \gamma _ { - }$. This definition will be illustrated by Figure 5. The contour$\gamma _ { > }$is the circle$| z | = e ^ { \tau / 2 }$slightly deformed in the direction of the gradient of$\Re S$, see Figure 4. Similarly, the contour $\gamma _ { < }$is the same circle$| z | = e ^ { \tau / 2 }$slightly pushed in the opposite direction. The
 
 ![](images/page_22_image_0.jpg)
 
