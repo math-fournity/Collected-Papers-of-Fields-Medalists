@@ -127,7 +127,7 @@ for$r > 2$, which converges absolutely by these bounds.
 
 Lemma 2.1. The function$r \mapsto a ( r )$analytically continues to a holomorphic function on a neighborhood ofR. Its restriction to R is a Schwartz function and a radial eigenfunction of the Fourier transform in$\mathbb { R } ^ { 2 4 }$with eigenvalue 1.
 
-Proof. We follow the approach of [12], adapted to use modular forms of diferent weight. Substituting
+Proof. We follow the approach of [12], adapted to use modular forms of different weight. Substituting
 
 $$
 - 4 \sin (\pi r ^ {2} / 2) ^ {2} = e ^ {\pi i r ^ {2}} - 2 + e ^ {- \pi i r ^ {2}}
