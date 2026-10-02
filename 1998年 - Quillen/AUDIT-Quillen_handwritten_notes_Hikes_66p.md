@@ -554,3 +554,14 @@
 - 页面边界：原图 p.52 止于 Grothendieck coequalizer/“exact means” 定义图；Markdown 第 1926 行起 `Proof that h satisfies (*)` 的映射集长正合图属于下一页，待 p.53 再核确切续接。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片重建稳定表示 colimit、property `(*)` 记号与 Grothendieck coequalizer/relation。
 - 记录：2026-10-02 04:25:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.053（PDF p.53 / 纸面圈号 53）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p053.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p053_exactness-property.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p053_representation-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p053_transfer.png`。
+- 核对：证明 `\ell` 的 property `(*)`；`M(X)` 与表示等价类的两行 exact diagram；由此推出乘积环的自然变换性质；`\widetilde H(X,A)` 定义、环同态的标量扩张及有限投射限制的 transfer。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1926 行标题是 “Proof that `\ell` satisfies `(*)`”，基线写成 `h` 与 `(x)`。原图令 `M(X)=\lim_n Hom(π_1X,GL_nA)_{GL_nA}`，再以由 Grothendieck construction 得到的 `M(X)^3⇉M(X)^2→\widetilde R'(π_1X,A)` 与映射集行组成交换图；基线第 1928–1935 行把商集、两个箭头、竖直自然映射、`[X,BGL(A)^+]` 各次幂及 “both rows exact” 合并成无法按原图读取的公式。第 1936 行原图的乘积索引两侧相同为 `i=1,…,n`，基线右端错成 `k`。第 1938 行原图定义 `\widetilde H(X,A)=[X,BGL(A)^+]`（类比 `\widetilde K(X)=[X,BU]`），基线将 `BGL` 损坏。原图第 1942 行为标量扩张 `u^*(P)=P\otimes_A B`，基线写成 `P_A×B`；第 1946 行的值域为 Abelian groups，基线只剩 `Rung→A(t`。Transfer 情形要求 `B` 是有限生成投射 `A`-模，取 restriction-of-scalars `u_*:P_B→P_A` 且 `u_*(Q)=Q|_A`；基线第 1948–1954 行把 `P_A^n`、限制函子与诱导的 `\widetilde R/\widetilde K` 映射写坏。右侧日期 `10.24.74` 未录入。
+- 页面边界：本页以 transfer 段落收尾；Markdown 第 1958 行起的 products/projection formula 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 exact diagram、`M(X)`、scalar extension 与 transfer 条件。
+- 记录：2026-10-02 04:29:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
