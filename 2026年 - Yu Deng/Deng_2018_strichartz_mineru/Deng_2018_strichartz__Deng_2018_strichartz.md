@@ -320,7 +320,7 @@ $$
 
 We suggest that it may be possible to estimate$\mu _ { 1 }$and$\mu _ { 2 }$using the geometry of numbers.
 
-Finally we consider extending the proof of Theorem 1.2, as outlined in section 1.3.2, to the case $d > 2$. The problem here is easier to describe. Given a symmetric integer matrix$( A _ { i j } )$, one requires a bound for the number of solution$y ^ { ( 1 ) } , \dots , y ^ { ( d + 1 ) } ) \in (  { \mathbb { Z } } ^ { d } ) ^ { d + 1 }$with$| y ^ { ( k ) } | \lesssim N$to the system
+Finally we consider extending the proof of Theorem 1.2, as outlined in section 1.3.2, to the case $d > 2$. The problem here is easier to describe. Given a symmetric integer matrix$( A _ { i j } )$, one requires a bound for the number of solutions$y ^ { ( 1 ) } , \dots , y ^ { ( d + 1 ) } ) \in (  { \mathbb { Z } } ^ { d } ) ^ { d + 1 }$with$| y ^ { ( k ) } | \lesssim N$to the system
 
 $$
 \sum_ {k = 1} ^ {d + 1} y _ {i} ^ {(k)} y _ {j} ^ {(k)} = A _ {i j} \quad (1 \leq i \leq j \leq d)

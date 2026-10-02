@@ -47,3 +47,9 @@
 - 核对：(1.8) 三段式（|Q(k₂)+Q(k₄)+⋯+Q(k_p)−β|<δ、k₂+k₄+⋯+k_p=a、k_i∈ℤ²∩B(0,N)）、[7,19,26] 与 Borel-Cantelli 段、Pall [27] 方程组（k₁²+k₂²+k₃²=A 等）、N_k^{1/k} 简单估计段、§1.4 节、K_N^{(d)} 定义、(1.9) sup/积分式（\mathbf{T}^d 下标、2s 指数、s∈ℕ）、(1.10) I_s(T)≲N^εT(N^{ds+d}+N^{2ds−d(d+1)})
 - 结果：PASS±（2 处已修复）。全部公式与正文经 PNG＋文本层逐项吻合；(1.9) 的 sup_{x∈**T**^d, t∈[T,2T]}、|·|^{2s} 与 (1.10) 指数 ds+d、2ds−d(d+1) 无误。print quirk "one in interested principally"（L273）经 PNG 核实为原刊原样，保留。**修复 2 处**（同类：原刊没有的多余句点）：L265 `$k_1,k_3,...$. and`→`$k_1,k_3,...$ and`；L271 `$a,\beta .$.`→`$a,\beta$.`。残余瑕疵（不误导，不改）：L271/L285/L287 公式或段尾缺句号 3 处（δ=1/N 后、p=8 后、d>2 后，印刷均有句号）。
 - 备注：Luna 旧修复抽核通过——旧基线 N_k^{1/k} 后多 2、coefficients 误拼、p=16 拆字在当前 MD（L283/L273/L265）均已不存在。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit-redo/p007.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：μ₁/μ₂ measure 定义式（t^{−1}m_i^{(j)}、O(γ_j/TN)、O(1/tN)、≲ 条件尾）、y^{(k)} 系统计数段与 Σ_{k=1}^{d+1}y_i^{(k)}y_j^{(k)}=A_{ij}、§1.5 八条 Notation bullet（‖x‖=min|x−k|、≲/∼ 定义、⪯ 定义、≪ 约定、1_E(x)、f̂_k 与 f̂(τ,k) 两个积分式、⟨t⟩=√(1+t²)）、Acknowledgements 四段 grant 号
+- 结果：PASS±（1 处已修复）。μ₁/μ₂、求和式、八条 bullet、四个 grant（DMS-1900251；DMS-1501019+Simons+NYUAD；Simons Investigator；EP/M507970/1+ERC 670239+Fields+NSF-DMS 1363013）逐项与印刷一致；\widehat{f}_k（帽只在 f 上）忠实。print quirk 忠实保留：L323 原刊不平衡括号 y^{(d+1)})∈(ℤ^d)^{d+1}（无开括号）。**修复 1 处**：L323 "the number of solution"→"solutions"（印刷与 pdftotext 均为 solutions）。残余瑕疵（不误导，不改）：L333/L335/L339 bullet 尾缺句号 3 处。
+- 备注：Luna 旧修复抽核通过——旧基线 ‖x‖ 主语漏录、\widehat{f_k} 帽位错、致谢顺序错/S.M. grant 重复在当前 MD（L333/L346/L357-363）均已不存在。
