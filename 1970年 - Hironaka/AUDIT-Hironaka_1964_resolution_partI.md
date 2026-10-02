@@ -388,3 +388,10 @@
 - 证据：源 PDF p.053 文本层、页图 `audit/Hironaka_1964_resolution_partI_p053.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p053_IIprime_and_note28.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p053_G_and_footnote.png` 与 MinerU Markdown 第 839、845 行。印刷称 `main theorem II′(3)`，Markdown 第 839 行误录为 `\Pi′(3)`；并且印刷在 `n=dim(X)` 后有脚注标记 28，Markdown 第 839 行漏掉该锚点，虽然脚注 28 的正文保留在第 845 行。图像还确认印刷写作 `g: X_i \to X`（此处确为小写下标 i），以及例中关于 $X_i$、$h_1$、$h_2$、变换序列、维数界与局部图的其余记号/叙述均与 Markdown 对应。
 - 备注：印刷运行页眉和页码 160 未录入 Markdown，属导航元素省略。
 - 结论：主定理 II′ 标识误录为 Pi′，且正文遗漏脚注 28 锚点（脚注本身仍在）；列为 FAIL，待全篇审计后逐处手工修复。
+
+### PDF p.054 / 96（印刷 p.161）— FAIL
+
+- 时间：2026-10-02 03:48 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.054 文本层、页图 `audit/Hironaka_1964_resolution_partI_p054.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p054_footnote_numbers_and_Inst.png` 与 MinerU Markdown 第 847、849–873 行。印刷脚注 30 的正文在 Markdown 第 871 行误标为 `^{80}`；同一注释中的期刊出版机构缩写印刷为 `de l'Inst.`，Markdown 第 871 行将小写字母 `l` 录成数字 `1`。正文对 class B 的条件 (i)–(iii)、性质 (a)–(c)，以及脚注 29、31 的标号和内容均与印刷页相符。
+- 备注：Markdown 第 845 行的脚注 28 正文属于上一印刷页 p.160 的页脚，不计作本页内容；本页印刷运行页眉和页码 161 未录入 Markdown，属导航元素省略。
+- 结论：脚注 30 号误录为 80，刊名缩写小写 `l` 误录为数字 `1`，列为 FAIL；待全篇审计后逐处手工修复。
