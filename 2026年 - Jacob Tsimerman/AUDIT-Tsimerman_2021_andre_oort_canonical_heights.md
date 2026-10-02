@@ -235,3 +235,12 @@
 - 核对：§6.7 canonical metrics、§6.8 torus representation lemma、§6.9 torus lattices/partial CM type 与 `r_Φ`、`χ_Φ` 定义。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 977 行 character lattice 生成元写作 `e_σ^* - e_σ^*`，丢失第二个基向量的复共轭横线；印刷为 `e_σ^* - e_{\bar σ}^*`，缺横线会把所列生成元退化为零。该行的 embedding `σ : K → C` 也漏掉箭头。300dpi 裁片确认横线与 `K → C` 映射。
+
+## p.027（PDF p.27 / 印刷 p.27）
+- 时间：2026-10-02 00:47:38 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p027.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p027_Theorem6.6-products.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p027_character-beta-map.png`
+- 核对：Theorem 6.6 陈述、Step 1 product splitting/character maps、Step 2 partial CM type construction 与 identity 起始式。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 1003 行定理中的 `a_i : (T_x,h_x) → (R_K,r_{Φ_i})` 漏箭头。第 1015 行将 `G_R ≅ \prod_{j∈J}G_j` 写成索引 `i∈J` 却仍用 `G_j`。第 1021 行的 character-lattice map `X^*(R_{K_x}) → X^*(T_x)` 漏箭头，且生成元 `e^*_{τ_0}-e^*_{\bar τ_0}` 丢失复共轭横线；同一行又把 `f_β:T_x→R_{K_x}` 写成无箭头且目标 `R_{K_β}`。两张 300dpi 裁片确认原文的箭头、指标与目标域。
