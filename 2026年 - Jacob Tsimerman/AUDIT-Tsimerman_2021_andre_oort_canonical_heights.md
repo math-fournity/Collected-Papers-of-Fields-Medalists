@@ -370,3 +370,12 @@
 - 核对：Property (3) 的高度与范数界余段；§11.4 Property (4) 的 character、restriction level、pullback norm collection 与格子分解。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Property (4) 中取点范围应为 `x ∈ S_{K'}(T,r)(\mathbb Q)`，Markdown 改成 `x ∈ S_K(T,r)(\overline{\mathbb Q})`，同时丢失 `K'=i^*K` 的 level。紧接着的 norm collection `\mathcal N_0|\cdot|` 被写成无名称的 `_0|\cdot|`。同页后半将 direct-summand 表示/lattice `\mathbb V_\chi` 多次误录为 `\mathbb V_x` 或 `\mathbb V_{\mathcal X}`，改变了 subscript 中的 character 身份。300dpi 裁片确认点集的 level/base field、collection 名称和 `\chi` 字形。PASS±：`morphisms`、`diferent` 与 `suficient` 拼写/词形伪影。
+
+## p.042（PDF p.42 / 印刷 p.42）
+- 时间：2026-10-02 02:05:15 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p042.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p042-references1-18.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p042-references19-30.png`
+- 核对：§11.4 证明收尾；参考文献 [1]–[30] 的作者、题名、刊物/出版信息、页码与 URL。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：参考文献 [9] 的 URL 在印刷为 `https://math.stanford.edu/~conrad/papers/notes.pdf`，Markdown 丢掉 `~` 并插入空格；[13] 的 `~conrad` 被转为 `„conrad`，均破坏可用链接。Markdown 将 [30] 的 arXiv URL 末尾 `v3` 与下一条 `[31]` 连成同一行，失去条目分隔。两张 300dpi 裁片确认 URL 字符及页面末尾 [30] 的边界。PASS± 源级印刷瑕疵忠实保留：[16] 的 `info Sémin. Bourbaki`、[19] 的作者标点 `A, Yafaev`、[23] 的 `Andrè-Oort` 重音、[29] 的 `Japac Acad.`；其余已对照的题录和页码相符。
