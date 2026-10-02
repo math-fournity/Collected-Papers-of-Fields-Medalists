@@ -534,7 +534,7 @@ Given Lemma 9 we can find three open sets  $K \subset U_{1} \subset \subset U_{2
 
 Lemma 9 to $(U_2\backslash \overline{U}_1)\subset U_3\backslash \overline{U}_1$ and the fact that $\Phi$ is already good outside $U_{1}$, we can find the required small perturbation $\sigma$ such that $\mathfrak{M}^{\sigma} = Z(\Phi +\sigma)$ is a smooth 5-manifold with $n(Q)$ singular points, equal to $\mathfrak{M}$ outside a compact set.
 
-Proof of Lemma 9. If $\sigma$ is any perturbation bounded in $\| \|_{L_3^2}$ and $0 \leqslant R < \infty$, then the set of $[A]$ in $\overline{V}$ such that $\| (\Phi + \sigma)(A)\|_{L_3^2(A)} \leqslant R$ is compact (for in each of the slices $T_{A,\epsilon}$ covering$^1$$U$ an $L_3^2$ bound on $\Phi + \sigma$ gives an $L_3^2$ bound on $(d_A^- + d_A^*)a$ and so an $L_4^2$ bound on $a$ by ellipticity, and $L_4^2 \Leftrightarrow L_3^2$ is compact).
+Proof of Lemma 9. If $\sigma$ is any perturbation bounded in $\| \|_{L_3^2}$ and $0 \leqslant R < \infty$, then the set of $[A]$ in $\overline{V}$ such that $\| (\Phi + \sigma)(A)\|_{L_3^2(A)} \leqslant R$ is compact (for in each of the slices $T_{A,\epsilon}$ covering$^1$$U$ an $L_4^2$ bound on $\Phi + \sigma$ gives an $L_3^2$ bound on $(d_A^- + d_A^*)a$ and so an $L_4^2$ bound on $a$ by ellipticity, and $L_4^2 \Rightarrow L_3^2$ is compact).
 
 That G is open, in the topology we defined, follows almost immediately from this and the fact that the set of surjective operators on a Banach space is open in operator norm.
 
@@ -560,7 +560,7 @@ $$
 \operatorname{ind} \left\{L _ {t} \right\} \in K O (T),
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  We ought here to suppose that the slices  $T_{A,\varepsilon}$  are centred on smooth connections A—this is possible since the smooth connections are dense in Q.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  We ought here to suppose that the slices  $T_{A,\varepsilon}$  are centred on smooth connections A—this is possible since the smooth connections are dense in $\mathcal{Q}$.</span></small>
 
 which has the property that if $\dim \operatorname{Ker} L_t$ is constant for $t$ in some closed subset $S \subset T - \text{so that } \operatorname{Ker}\{L_t\}$, $\operatorname{coKer}\{L_t\}$ form vector bundles over $S -$
 

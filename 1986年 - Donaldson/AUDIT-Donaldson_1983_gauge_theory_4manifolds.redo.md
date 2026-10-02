@@ -169,3 +169,13 @@
   - **修复×8**：① 行 493 `\mathfrak{S}^3` → `$\mathscr{E}^3$`（印刷草书 ℰ³，Luna 此处误作 Fraktur S——同一字形在 p.13 又被它作 Fraktur E，三页三种写法）；② 行 496 `\mathfrak{E}_A^3` → `$\mathscr{E}_A^3$`；③④ 行 499 `\mathfrak{E}^k`/`\mathfrak{E}^2` → `\mathscr{E}`；⑤ 行 499 `L_3^2 \Leftrightarrow L_2^2` → `L_3^2 \Rightarrow L_2^2`（300dpi 确认双线 ⇒，与 p.13 行 488 同型）；⑥⑦ 行 529 两处 `$B^{*}$` → `$\mathfrak{B}^{*}$`（印刷 Fraktur）；⑧ 行 531 "cut out transversally" → "cut out transυersally"（300dpi 放大对比同段斜体 *covered* 的尖底 v：印刷此处为**圆底希腊 υ**，ABBYY 文本层亦作 transυersally；Luna 曾静默改正，按 print quirk 原则复原并登记）。
   - 排版级伪影（登记不改）：Lemma 9 整段斜体拍平；`C^p`（行 503）印刷粗体、md 正体，而同行 506/515 又用 `\mathbf{C}`——粗体处理不一致系 Luna 基线遗留，语义无损。
 - 修复登记：行 493/496/499（×3）草书 ℰ 统一为 `\mathscr{E}`；行 499 箭头→`\Rightarrow`；行 529 两处 `B*`→`$\mathfrak{B}^{*}$`；行 531 "transversally"→"transυersally"（依据 `audit-redo/p014.png` + 300dpi 裁片）。
+
+### p.015（PDF p.15 / 印刷 p.293）
+
+- PNG：`audit-redo/p015.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（Proof 首句两个 Sobolev 上标与紧性箭头、f=Φ+σ 显示式、Ṽ/W̃ tilde、KO(T) 字形、脚注尾词，结论记于本条）
+- 核对：Lemma 9 应用句（𝔐^σ=Z(Φ+σ)、n(Q) 奇点）；Proof of Lemma 9（covering¹ 脚注标、L²₄/L²₃/L²₄ 界链、L²₄⇒L²₃ 紧性）；G 开性段；f=Φ+σ 显示式；Sard 引理与 bump function β(‖a‖) 段；节标题 II.4（$\mathfrak{M}^{\sigma}$）；Fredholm 族 setup（Ṽ,W̃ over M×T、Ṽ_t|≅V、ind{L_t}∈KO(T)）；页脚注¹全文
+- 结果：**PASS±**（含三处修复）。
+  - 与页图一致：`f=\Phi+\sigma\colon E=\operatorname{Ker}d_A^*\cap L^2_3\to L^2_2=F`（300dpi 确认印刷无 Ω¹(𝔤)、单箭头，md 原样正确）；`\tilde{V},\tilde{W}` over M×T 与 `\tilde{V}_t=\tilde{V}|_{M\times\{t\}}\cong V`（300dpi 确认 tilde 在上）；`\operatorname{ind}\{L_t\}\in KO(T)`（300dpi 确认为**基线 KO**，实 K 论，非 K⁰）；`0\leqslant R<\infty`、`\|(\Phi+\sigma)(A)\|_{L^2_3(A)}\leqslant R`、Sard 句与 `\beta(\|a\|)`。
+  - **修复×3**：① 行 537 "an $L_3^2$ bound on Φ+σ" → `$L_4^2$`（300dpi 确认印刷为 L²₄；界链为 L²₄→给 L²₃→得 L²₄）；② 行 537 `$L_4^2 \Leftrightarrow L_3^2$` → `\Rightarrow`（300dpi 确认双线 ⇒，本块第 4 例同型错误）；③ 行 563 脚注尾 "dense in Q" → `$\mathcal{Q}$`（300dpi 确认草书 𝒬）。
+  - 印刷 quirk 登记（不改）：脚注标 ¹ 与 "covering¹ U" 原位保留（md `covering$^1$$U$`）；行 537 `$T_{A,\epsilon}$` 用 `\epsilon` 而全文他处用 `\varepsilon`——同一印刷字形，MinerU 宏不一致，语义无损。
+- 修复登记：行 537 `L_3^2`→`L_4^2`（首个界）、`\Leftrightarrow`→`\Rightarrow`；行 563 `Q`→`$\mathcal{Q}$`（依据 `audit-redo/p015.png` + 300dpi 裁片）。
