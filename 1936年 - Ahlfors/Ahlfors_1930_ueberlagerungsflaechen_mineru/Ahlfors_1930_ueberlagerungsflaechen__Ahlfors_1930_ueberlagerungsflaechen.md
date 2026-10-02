@@ -130,7 +130,7 @@ $$
 S - S (\Delta) = \sum_ {1} ^ {N} (S _ {n} - S _ {n} (\Delta)).
 $$
 
-Hieraus ergibt sich durch eine leichte Überlegung eine Abschätzung der Differenz  $|S-S(\Delta)|$ . Wenn man ausdrückt, dass der Inhalt des in  $\varDelta$  gelegenen Teils von  $W_{n}$  höchstens gleich dem ganzen Inhalt von  $W_{n}$  ist, so erhält man
+Hieraus ergibt sich durch eine leichte Überlegung eine Abschätzung der Differenz  $|S-S(\Delta)|$ . Wenn man ausdrückt, dass der Inhalt des in  $\Delta$  gelegenen Teils von  $W_{n}$  höchstens gleich dem ganzen Inhalt von  $W_{n}$  ist, so erhält man
 
 $$
 S _ {n} (\Delta) \leqslant \frac {I _ {0}}{\delta} S _ {n}.

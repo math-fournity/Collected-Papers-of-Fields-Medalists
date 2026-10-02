@@ -79,4 +79,14 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.6 行；本次独立重核未发现内容差异，旧状态维持。
 - 页界：本页印刷内容止于「…von $W_{n}$ ist.」，MD 行 119 吻合；下一行（Betrachten wir ein Teilgebiet Δ…）属 p.007，待次页核。
 
+### p.007（PDF p.7 / 印刷 p.163）
+
+- audited_at=2026-10-02 15:40 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p007.png`（pngmono 150dpi）；本页五点比对无需新增 300dpi 仲裁（S(Δ)/δ 记号沿用 Luna 已修复并与原页图直接吻合）。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 163）、Teilgebiet Δ 段（S(Δ)、Inhalt δ）、公式 `S(Δ)=S₁(Δ)+⋯+S_N(Δ)`（无标点）、「und folglich」、`S−S(Δ)=Σ₁^N(Sₙ−Sₙ(Δ)).`（句点在）、Abschätzung 段、`Sₙ(Δ)≦I₀/δ Sₙ.`、Komplementärmenge 段、`1−Sₙ(Δ)≦I₀/δ(1−Sₙ).`、「Man hat nun einerseits」、`|Sₙ−Sₙ(Δ)|≦Max(Sₙ,Sₙ(Δ))≦I₀/δ Sₙ`（无标点）、「und andererseits」、`|Sₙ−Sₙ(Δ)|=|(1−Sₙ)−(1−Sₙ(Δ))|≦Max(1−Sₙ,1−Sₙ(Δ))≦I₀/δ(1−Sₙ).`（句点在）、「Diese Ungleichungen…」、`|Sₙ−Sₙ(Δ)|≦I₀/δ Min(Sₙ,1−Sₙ)`（无标点）、zusammenfassen 段、`|Sₙ−Sₙ(Δ)|≦k/δ Lₙ,`（逗号在）。
+- 发现并修复（MD 结构化 Edit，1 处）：行内 `$\varDelta$` → `$\Delta$`（「des in Δ gelegenen Teils」）——印刷全篇同一 Δ 字形，mineru 转写混用 `\Delta`/`\varDelta`，本页为 p.1–9 内唯一 `\varDelta`，按同字形同转写统一。
+- 移交登记（超出本段页范围，不改）：MD 行 603 另有一处 `\varDelta`（`p(\varDelta_{v})`，属后续页），且其下标 `v` 与本篇 ν 转写问题同类，留待该页重检处理。
+- 与 Luna 旧记录交叉：旧修复表 p.7 行（还原 S(Δ)/Sₙ(Δ)、三个数字 1、删除绝对值式重复负号）经原页重核全部与印刷一致，`git show abde327` 的对应 diff 亦确认；本次新发现并修复 `\varDelta` 混写一处。
+- 结果：PASS±（记号统一修复后与印刷一致）。
+
 <!-- redo-tail -->
