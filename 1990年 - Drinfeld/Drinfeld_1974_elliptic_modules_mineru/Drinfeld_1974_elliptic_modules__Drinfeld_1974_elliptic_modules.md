@@ -26,7 +26,7 @@ Admissible triples are of the following types:
 
 The goal of this paper is the generalization of three classical theorems (connected with the first three types of admissible triples): 1) the Kronecker-Weber theorem, 2) the Eichler-Shimura theorem on $\zeta$-functions of modular curves, and 3) the fundamental theorem on complex multiplication. This generalization is connected with the fourth type of admissible triple.
 
-Let $(k, \infty, d)$ be an admissible triple. We introduce the following notation: A is the ring of elements of k which are integral at all places except $\infty$; U is the ring of adèles of k; and $\mathfrak{A}_f$ is the ring of adèles without the $\infty$ component. We formulate the classical theorems 1)-3) in a form suitable for generalization. First we introduce some necessary definitions.
+Let $(k, \infty, d)$ be an admissible triple. We introduce the following notation: A is the ring of elements of k which are integral at all places except $\infty$; $\mathfrak{U}$ is the ring of adèles of k; and $\mathfrak{U}_f$ is the ring of adèles without the $\infty$ component. We formulate the classical theorems 1)-3) in a form suitable for generalization. First we introduce some necessary definitions.
 
 Let $(k,\infty,d)$ be an admissible triple of type 1)-3), and let K be a field over A (i.e. there is given a homomorphism $i:A\to K$).
 
