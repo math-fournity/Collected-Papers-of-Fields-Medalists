@@ -298,3 +298,12 @@
 - 核对：§9 两个有限处范数约定、Theorem 9.1、Proposition 9.2 陈述及其关于 Shimura 数据乘积与 de Rham 模型的归约。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：第一条非 Archimedean 范数条件中的界 `p > rng_V · dim V + 2` 漏掉乘号。Proposition 9.2 把 `d_R V_{E_v}` 误作 `d_R V_{E_i}`，其证明的覆盖 `f:(G',X') → (G,X)` 漏掉箭头；末段的 `\mathcal V_v` 误作希腊字母 `\nu_v`，并把 `d_R V` 写成 `\operatorname{der}V`。300dpi 裁片逐项确认乘号、映射、`\mathcal V_v` 与 `d_R`。另有 `Q.`-simple 的多余句点属于内容级符号噪声，列入本页 FAIL。PASS± 拼写/措辞伪影：`is is`、`comes form`、`suficiently` 与 `based change base`；其余本页已核公式和命题结构按印刷为准。
+
+## p.034（PDF p.34 / 印刷 p.34）
+- 时间：2026-10-02 01:26:26 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p034.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p034-comparison-and-height.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p034-Definitions9.4-10.2.png`
+- 核对：§9 p-adic comparison isomorphism、Corollary 9.3、Definition 9.4；§10.1 notation 与 Definition 10.1–10.2。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：p-adic comparison isomorphism 两端 `p-d_R V_0` 与 `d_R V_0` 在 Markdown 被破坏为含 `\nabla_0`、`\mathbf\Omega` 的不同对象，且括号内的 `D_{dR}(et V_{0,p}[1/p])` 也出现额外上下标。Corollary 9.3 的 `L = det(Gr^a_{F^\cdot} d_R V)` 漏掉等号，首个 Schmid 引用的 `Thm 6.6'` 被录为 `Thm 6.67`。§10.1 用于参数依赖的向量 `\vec{x}` 被录为 `\~x`；Definition 10.2 将 filtration 对象 `V_{\chi,\mathbb C}` 写成 `V_{x,\mathbb C}`，并漏掉 `Fil^\cdot` 的点。300dpi 裁片确认这些字形与上下标。PASS±：正文拼写 `Rieman Hilbert` 是印刷原文，Markdown 忠实保留；另有 `diference` 拼写伪影。
