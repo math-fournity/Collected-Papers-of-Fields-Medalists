@@ -93,3 +93,9 @@
 - 核对：Figure 3（两幅菱形网格图）及长图注（low-temperature expansion 的 contour 不含 G 边界点间边、对应 Ɛ_{G⋆}、即 G⋆ 上 free boundary conditions 高温展开）；Proposition 2.5 证明结尾（◻ 收尾）；Ɛ_G 为 loop collections、Ɛ_G(a,b) 附一条 a→b 曲线的说明段；Proposition 2.6 (Kramers-Wannier duality)——tanh(β⋆) = e^{−2β}、公式 (2.12) 2^{# vertices G⋆} cosh(β⋆)^{# edges in G⋆} Z^+_{β,G} = (e^β)^{# edges in G⋆} Z^f_{β⋆,G⋆}；Proof 与 Kramers-Wannier 奇点论证（β_c = β_c⋆ ⟹ β_c = ½ln(1+√2)）；Exercise 2.7、Exercise 2.8 (Peierls argument)；页脚印刷页码 12。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：β_c = ½ln(1+√2) 的分数与根号 PNG 印刷清晰（文本层拍平为 "21 ln(1 + 2)"）；◻ 结尾符、β⋆ 上标星号为对账锚点。
+
+## p.013（PDF p.13 / 印刷 p.13）
+- PNG：audit/p013.png（pngmono 150dpi）
+- 核对：Figure 4（medial lattice 图，标注 a_δ、z_δ、b_δ）及图注 "An example of collection of contours in Ɛ(a_δ, z_δ) on the lattice Ω◇."；§2.3 Spin-Dobrushin domain, fermionic observable and results on the Ising model 标题；spin-Dobrushin domain (Ω◇_δ, a_δ, b_δ) 定义（b_δ 为 black face 东南角）；E(a_δ,z_δ)/γ(ω) 左转约定；Definition 2.9——spin-Ising fermionic observable F_{Ω_δ,a_δ,b_δ}(z_δ) = Σ_{ω∈Ɛ(a_δ,z_δ)} e^{−(1/√2) iW_{γ(ω)}(a_δ,z_δ)} (√2−1)^{∣ω∣} / Σ_{ω∈Ɛ(a_δ,b_δ)} e^{−(1/√2) iW_{γ(ω)}(a_δ,b_δ)} (√2−1)^{∣ω∣}；winding W_γ 定义句；分母与 conditioned critical Ising partition function 的联系段（(2.11) 回引）；页脚印刷页码 13。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：指数内堆叠分数 1/√2 在 150dpi 下字形较小，文本层被拆散为 "e− 2 iW…/1/√" 三段，属 pdftotext 伪影；PNG 可辨分数结构，重导出对账时以 300dpi 抽查该公式再定案。
