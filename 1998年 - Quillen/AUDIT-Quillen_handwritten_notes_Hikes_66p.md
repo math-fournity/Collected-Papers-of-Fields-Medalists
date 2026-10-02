@@ -153,3 +153,13 @@
 - 印刷证据与差异：原图唯一性引理前提为 `E` perfect，MinerU 基线第 443 行误作 `perth`。原图定义 `f:E→ker(p')` 并以 `f(e)=α_1(e)α_2(e)^{-1}` 证明其值落在中心核、因而是到 abelian group 的同态；基线第 451 行将关键乘法/共轭等式序列识别成多处互相矛盾的项，无法支持后文 `f=0` 的推出。第 453 行还把 `abelian` OCR 成 `ebelian`；自由表示 `G=F/R`, `E=F/(F,R)` 与短正合列在第 455–457 行则与原图基本对应。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；以 300dpi 原图核对唯一性证明的定义式与代数步骤。
 - 记录：2026-10-01 17:48:56 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.015（PDF p.15 / 纸面圈号 15）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p015.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p015_commutator.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p015_schur-examples.png`。
+- 核对：`(E,E)` perfect 的交换子证明；Schur multiplier 的定义与 `A_n`、`SL_3(F_2)` / `PSL_2(F_7)` 例子；`BG` 在离散群情形下的覆盖空间解释。
+- 结果：**FAIL**。
+- 印刷证据与差异：300dpi 裁片显示 perfectness 证明利用 central extension 的核映射写出交换子分解，从而得到 `(E,E)⊆((E,E),(E,E))`；基线第 479–481 行把参与分解的元素和包含关系写成多组无法对应原式的项。`SL_3(F_2)` 阶的原图因子是 `(2^3−1)(2^3−2)(2^3−4)=7·6·4=168`，基线第 489 行把最后因子误成 `2^3−3`，与紧随的 168 计算矛盾。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按裁片回核交换子等式和计数因子。
+- 记录：2026-10-01 20:55:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
