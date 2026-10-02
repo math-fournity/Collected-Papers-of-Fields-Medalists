@@ -340,19 +340,19 @@ $$
 
 and similarly for$\mathcal { O } _ { \mathrm { X } } ^ { + }$.
 
-Proposition 2.15 [20, Lemma 1.5, Proposition$I . 6 J . - F o r \ a n y \ x \in \mathrm { X } .$, the valuation f → $| f ( x ) |$extends to the stalk$\mathcal { O } _ { \mathrm { X } , x } ,$, and
+Proposition 2.15 [20, Lemma 1.5, Proposition 1.6]. — For any$x \in \mathrm { X }$, the valuation$f \mapsto | f ( x ) |$extends to the stalk$\mathcal { O } _ { \mathrm { X } , x }$, and
 
 $$
 \mathcal {O} _ {\mathrm{X}, x} ^ {+} = \left\{f \in \mathcal {O} _ {\mathrm{X}, x} \mid | f (x) | \leq 1 \right\}.
 $$
 
-The ring${ \mathcal { O } } _ { \mathrm { X } , }$is a local ring with maximal ideal given by$\smash { \{ f \mid \lvert f ( x ) \rvert = 0 \} }$. The ring$\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is a local ring with maximal ideal given by$\smash { \{ f \mid | f ( x ) | < 1 \} }$. Moreover,for any open subset$\mathrm { ~ U ~ C ~ X ~ }$
+The ring${ \mathcal { O } } _ { \mathrm { X } , x }$is a local ring with maximal ideal given by$\smash { \{ f \mid \lvert f ( x ) \rvert = 0 \} }$. The ring$\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is a local ring with maximal ideal given by$\smash { \{ f \mid | f ( x ) | < 1 \} }$. Moreover, for any open subset$\mathrm { U } \subset \mathrm { X }$
 
 $$
 \mathcal {O} _ {\mathrm{X}} ^ {+} (\mathrm{U}) = \left\{f \in \mathcal {O} _ {\mathrm{X}} (\mathrm{U}) \mid \forall x \in \mathrm{U}: | f (x) | \leq 1 \right\}.
 $$
 
-$H \mathrm { U } \subset \mathrm { X }$is rational, then$\mathrm { U } \cong \mathrm { S p a } ( { \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } ) , { \mathcal { O } } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$compatible with rational subsets, the presheaves$\mathcal { O } _ { \mathrm { X } }$and$\mathcal { O } _ { \mathrm { X } } ^ { + }$, and the valuations at all$x \in \mathrm { U }$
+If$\mathrm { U } \subset \mathrm { X }$is rational, then$\mathrm { U } \cong \mathrm { S p a } ( { \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } ) , { \mathcal { O } } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$compatible with rational subsets, the presheaves$\mathcal { O } _ { \mathrm { X } }$and$\mathcal { O } _ { \mathrm { X } } ^ { + }$, and the valuations at all$x \in \mathrm { U }$.
 
 Unfortunately, it is not in general known<sup>1</sup> that$\mathcal { O } _ { \mathrm { X } }$is sheaf. We note that the proposition ensures that$\mathcal { O } _ { \mathrm { X } } ^ { + }$is a sheaf if$\mathcal { O } _ { \mathrm { X } }$is. The basic problem is that completion behaves in general badly for nonnoetherian rings.
 
@@ -362,17 +362,17 @@ $$
 \mathrm{R} \langle \mathrm{T} _ {1}, \ldots , \mathrm{T} _ {n} \rangle = \left\{\sum_ {i _ {1}, \ldots , i _ {n} \geq 0} x _ {i _ {1}, \ldots , i _ {n}} \mathrm{T} _ {1} ^ {i _ {1}} \dots \mathrm{T} _ {n} ^ {i _ {n}}   \Big |   x _ {i _ {1}, \ldots , i _ {n}} \in \hat {\mathrm{R}}, x _ {i _ {1}, \ldots , i _ {n}} \to 0 \right\}
 $$
 
-is noetherianfor all$n \geq 0$
+is noetherian for all$n \geq 0$.
 
 For example, if R is of tft, then R is strongly noetherian.
 
-Theorem 2.17 [20, Theorem$2 . 2 ] . - I f ( { \bf R } , { \bf R } ^ { + } )$is an affinoid k-algebra such that R is strongly noetherian, then$\mathcal { O } _ { \mathrm { X } }$is a sheaf.
+Theorem 2.17 [20, Theorem 2.2]. — If$( \mathrm { R } , \mathrm { R } ^ { + } )$is an affinoid k-algebra such that R is strongly noetherian, then$\mathcal { O } _ { \mathrm { X } }$is a sheaf.
 
 Later, we will show that this theorem is true under the assumption that R is a perfectoid k-algebra. We define perfectoid k-algebras later; let us only remark that except for trivial examples, they are huge and in particular not strongly noetherian.
 
-Finally, we can define the category of adic spaces over k. Namely, consider the category (V) of triples$( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } , ( | \cdot ( x ) | | x \in \mathrm { X } ) )$) consisting of a locally ringed topological space$( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } )$, where$\mathcal { O } _ { \mathrm { X } }$is a sheafofcomplete topological k-algebras, and a continuous valuation$f \mapsto | f ( x ) |$on${ \mathcal { O } } _ { \mathrm { X } , x }$for every$x \in \mathrm { X }$. Morphisms are given by morphisms of locally ringed topological spaces which are continuous k-algebra morphisms on${ \mathcal { O } } _ { \mathrm { X } } ,$, and compatible with the valuations in the obvious sense.
+Finally, we can define the category of adic spaces over k. Namely, consider the category (V) of triples$( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } , ( | \cdot ( x ) | | x \in \mathrm { X } ) )$consisting of a locally ringed topological space$( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } )$, where$\mathcal { O } _ { \mathrm { X } }$is a sheaf of complete topological k-algebras, and a continuous valuation$f \mapsto | f ( x ) |$on${ \mathcal { O } } _ { \mathrm { X } , x }$for every$x \in \mathrm { X }$. Morphisms are given by morphisms of locally ringed topological spaces which are continuous k-algebra morphisms on${ \mathcal { O } } _ { \mathrm { X } }$, and compatible with the valuations in the obvious sense.
 
-Any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$for which$\mathcal { O } _ { \mathrm { X } }$is a sheaf gives rise to such a triple $( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } , ( | \cdot ( x ) | \mid x \in \mathrm { X } ) )$). Call an object of (V) isomorphic to such a triple an affinoid adic space.
+Any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$for which$\mathcal { O } _ { \mathrm { X } }$is a sheaf gives rise to such a triple $( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } , ( | \cdot ( x ) | \mid x \in \mathrm { X } ) )$. Call an object of (V) isomorphic to such a triple an affinoid adic space.
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup> And probably not true.</span></small>
 

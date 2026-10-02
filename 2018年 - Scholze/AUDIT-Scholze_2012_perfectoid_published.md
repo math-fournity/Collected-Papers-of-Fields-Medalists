@@ -151,3 +151,15 @@
   6. "f_i/g∈S^+" 句末补句点（print 原有）
   7. lim 下标 "U⊂Wrational"→"U⊂W rational"（缺空格）；"and similarly for O_X^+"句末补句点
 - 备注：Definition 2.13 中 a$\mathsf{R}_0$[f_i/g] 的 \mathsf 字族与 print 粗斜体不同但记号无歧义，按排版伪影保留；三个 display 与 print 一致。
+## p.013（PDF p.13 / 印刷 p.257）
+- PNG：audit/p013.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/257；Proposition 2.15 [20, Lemma 1.5, Proposition 1.6]（stalk 赋值扩张 + O_{X,x}^+ display）；O_{X,x}/O_{X,x}^+ 局部环极大理想段 + O_X^+(U) display；U≅Spa(O_X(U),O_X^+(U)) 段；"not in general known¹" 段；Definition 2.16 strongly noetherian display（x∈R̂）；tft 例句；Theorem 2.17 [20, Theorem 2.2]；perfectoid k-algebra 预告段；category (V) 定义段；affinoid adic space 段；脚注 1 "And probably not true."
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Proposition 2.15 头 "[20, Lemma 1.5, Proposition$I.6J.-For\any\x∈\mathrm{X}.$"（罗马 I.6、J.-For 乱码、句点错位）→ "[20, Lemma 1.5, Proposition 1.6]. — For any$x∈X$,"；"valuation f \x06→"（0x06 控制字节+Unicode 箭头残骸）→"$f\mapsto|f(x)|$"；"stalk O_{X,x},,"双逗号→单（p.257 Prop 2.15 行原图）
+  2. "The ring O_{X,} is a local ring"（丢 x 下标）→ O_{X,x}；"Moreover,for"→"Moreover, for"；"U C X"（C 代 ⊂）→$\mathrm{U}\subset\mathrm{X}$（p.257 局部环段）
+  3. "If U⊂X is rational"的伪 H 头（"$H\mathrm{U}\subset\mathrm{X}$"）→"If$\mathrm{U}\subset\mathrm{X}$"、句末补句点（p.257 If U⊂X is rational 行）
+  4. Def 2.16 后 "noetherianfor all n≥0"→"noetherian for all$n≥0$."+补句点（p.257 display 后）
+  5. Theorem 2.17 头 "[20, Theorem$2.2].-If({\bf R},{\bf R}^+)$"→"[20, Theorem 2.2]. — If$(\mathrm{R},\mathrm{R}^+)$"（p.257 定理行）
+  6. category (V) 段：triples 后游离右括号")"删除、"sheafofcomplete"→"sheaf of complete"、"on O_X,,"双逗号→单（p.257 Finally 段）
+  7. affinoid adic space 段：triple 后游离右括号")"删除（p.257 Any affinoid 段）
+- 备注：Def 2.16 display 的 x∈R̂（带 hat）与 print 一致；脚注 1 以 MinerU HTML 包装保留（内容与 print 逐字符一致）；本页起 0x 控制字节首次成片出现（行 343 已清），后续行见 notes。
