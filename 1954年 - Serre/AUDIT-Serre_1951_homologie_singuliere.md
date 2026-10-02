@@ -8,7 +8,7 @@
 - PDF SHA256=1420abbef07ec179ce1cbad72dec745b05a9f386fe1dbbeeaf98817835f9f69f
 - MD 基线 SHA256=cb13117e5f47226c41b61d39cff1b1760463ea47ea772c1b8ee6a2c6f571b6aa（mineru 原始导出 `Serre_1951_homologie_singuliere_mineru/Serre_1951_homologie_singuliere__Serre_1951_homologie_singuliere.md`）
 - 审计开始：2026-10-02 13:47
-- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）
+- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。
 - 文本层判定：**可用**（JSTOR OCR 文本层；首页 `pdftotext -f 1 -l 1` 成功输出封面文字，p.2–p.3 数学正文页亦能输出全部段落文本）。但 OCR 噪声明显（例：`L'int6retde`、`getodesiques`、`memoireest` 等粘连/错字），故全程采用「**文本层主对账 + PNG 视觉核验**」双通道：文本层用于定位与文字对账，凡字形、上下标、公式、记号一律以 150dpi PNG（pngmono）视觉核验为最终裁决。
 - mineru doc_id：UNKNOWN（导出目录未含 doc_id 元数据，仅 `full.md` 等产物；如需可在 `structured_content.json` 侧另行核查）
 
@@ -75,3 +75,11 @@
 - 仲裁记录：①150dpi 初读疑首句为 E_r^{p,q}（MD 作 E_0^{p,q}），600dpi（p008_E0_600.png）确认印刷为 **E_0^{p,q}**（下标 0 清晰、与同行 E_r 的 r 对比明确），MD 正确；②150dpi 初读疑 "E_r^{p,s} = 0"，600dpi（p008_Eps_600.png）确认印刷为 **E_r^{s,t} = 0 pour s < 0**，与 MD 一致。
 - PASS± 项（不修）：md 将斜体小节引导句 "Conséquences de l'hypothèse (Φ)." 与前段合并在同一行（印刷中为独立一行），mineru 分段伪影，内容无缺损。
 - 备注：本页证明段、Prop. 1 陈述逐项吻合；"(r ≧ 1)" 处 md 作 "(r \geq 1)"，符号等价。
+
+## p.009（PDF p.9 / 印刷 p.432）
+- PNG：audit/p009.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p009_E3_600.png、p009_E1_600.png（600dpi）
+- 核对：R 组续（"cycles pour d_r…degré filtrant minimum"段、H_q(R) = E_1^{0,q} → E_2^{0,q} → ⋯、isomorphismes sur dès que r > q+1、E_∞^{0,q} = E_{q+2}^{0,q}、H_q(R) → E_∞^{0,q} → H_q(A)、injection R → A）；Le groupe différentiel S（E_1^{p,0} = S_p、S = ∑_p S_p、H_p(S) = E_2^{p,0}、d_r (r ≧ 2) 无 bord、⋯ → E_3^{p,0} → E_2^{p,0} = H_p(S)、E_{p+1}^{p,0} = E_∞^{p,0}、E_∞^{p,0} = D^{p,0}/D^{p−1,1} = H_p(A)/D^{p−1,1}、H_p(A) → E_∞^{p,0} → H_p(S)、E_1^{p,0} = C_1^{p,0}/(C_0^{p−1,1} + B_0^{p,0})、C_1^{p,0} = ᵖA、π: A → S、π_* image = E_∞^{p,0} noyau = D^{p−1,1}）；Note（groupes d'opérateurs、extensions de groupes discrets、Morse）
+- 结果：PASS
+- 仲裁记录：①150dpi 初读展示式为 "⋯ → E_r^{p,0} → E_2^{p,0}"，600dpi（p009_E3_600.png）确认印刷为 **E_3^{p,0}**，MD 正确；②150dpi 初读 "rappelons" 句为 "E_2^{p,0} = C_2^p/(C_1^{p−1,1} + B_2^{p,0})"，600dpi（p009_E1_600.png）确认印刷为 **E_1^{p,0} = C_1^{p,0}/(C_0^{p−1,1} + B_0^{p,0})**，与 MD 逐字一致。
+- 差异：无。
+- 备注：md 行 371 起 "Dans le cas d'un espace fibré…" 属印刷 p.433，留待下一分块。
