@@ -824,14 +824,6 @@ en parfait accord avec [27], th. 3 (iii).]
 
 (6) Au lieu de définir les formes paraboliques à coefficients dans $\overline{\mathbf{F}}_p$ par réduction à partir de la caractéristique 0, comme nous l'avons fait, nous aurions pu utiliser la définition de Katz [23], qui conduit à un espace $a$ priori plus grand,$^2$ donc donne peut-être davantage de représentations $\rho_f$. Il serait intéressant de voir si les représentations supplémentaires ainsi obtenues peuvent être irréductibles; je n'en connais aucun exemple (pour $k \geqslant 2$), mais, si cela se produisait, il y aurait lieu de modifier (3.2.4?) et (3.2.6?). Il serait également intéressant d'étudier de ce
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ La</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$p = 2$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k + p - 1$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$p \geqslant 5,$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ La définition de Katz jouit de la propriété agréable suivante: toute forme de poids k est aussi de poids  $k + p - 1$ . Avec la définiton adoptée ici, cet énoncé est vrai pour  $p \geqslant 5$ , mais est faux pour p = 2 ou 3.</span></small>
 
 point de vue le cas $k=1$, que nous avons exclu jusqu'ici; peut-être la définition de Katz donne-t-elle alors beaucoup plus de représentations $\rho_{f}$?

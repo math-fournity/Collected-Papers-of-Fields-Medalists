@@ -158,3 +158,12 @@
 - 结果：FAIL。两处已依原图修复：(3.2.4) 定义处 Markdown 写成 “(3.2.4.)” 且引用写成 “de (3.2.3.)”（丢下标 ?），而印刷为 (3.2.4_?)/(3.2.3_?)（600 dpi 裁片确认编号下标为问号字形），且 Markdown 自己的引用处 “satisfasse à (3.2.3?) et (3.2.4?)” 带 ?；已统一修复为 “(3.2.4?)”/“(3.2.3?)”。
 - 印刷原文 quirk：编号 (3.2.3?)/(3.2.4?)/(3.2.6?) 的下标经 600 dpi 放大确认为问号 “?” 字形（上弯钩带点，非 ε 月牙形）——Duke 排印原样，Markdown 以平排 “(3.2.3?)” 忠实保留，不按数学预期改成 ε。
 - 备注：“une place l-adique donnée de Q̄” 的 Q 带 bar（300 dpi 裁片确认），Markdown $\overline{\mathbf{Q}}$ 一致；(3.2.5) 用 Frob_{l,ρ} 记号与 p.182 (1.3.5) 一致；页眉 “196 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…valeur propre λ de la substitution de Frobenius en l opérant sur V/D est telle”，Remarques (1) 余部属印刷 p.197。
+
+## p.019（PDF p.19 / 印刷 p.197）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p019.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p019_footnote_line.png`（pnggray）。
+- 核对：Remarques (1) 余部（λ² = ε_prim(l)l^{k−2}、a_l² = ε_prim(l)l^{k−2} 无编号式、[27] th. 3 (iii)）、(2) l=p ramifiée 句（a_p 唯一、corps de rationalité、F_p）、(3) l=p non ramifiée 句（λ、μ、λμ = ε(p)、ρ_f ~ ρ、corps de définition、n° 5.1）、(4) Atkin-Lehner-Li W_l (l|N)、constantes locales（Deligne [9], §6）、Remarques sur (3.2.4?) (5)（N、k minimaux、F̃、forme primitive newform [11],[27]）、(6) Katz [23] 定义、a priori、脚注 ² 全文。
+- 结果：FAIL。脚注 ² 在 Markdown 被解析成 4 个碎片 span（“$^{2}$ La”、“$p = 2$”、“$k + p - 1$”、“$p \geqslant 5,$”）加 1 个完整 span 的重复伪影；已删除 4 个碎片、保留完整版。其余文字与公式逐项吻合。
+- 印刷原文 quirk：脚注中 “Avec la définiton adoptée ici” 印刷确为 “définiton”（300 dpi 裁片确认丢 i），Markdown 忠实保留。
+- 备注：正文末行印刷为 “d'étudier de ce”（300 dpi 裁片确认，跨页接 “point de vue”），Markdown “d'étudier de ce” 一致，150 dpi 阶段的 “多 de” 怀疑系误读；编号 (3.2.4?)/(3.2.6?) 沿用 p.018 的问号下标 quirk；“un espace $a$ priori” 的 a 单独数学环境，排版级不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 197” 未收入 Markdown，排版级。印刷页止于 “d'étudier de ce”，其余属印刷 p.198。
