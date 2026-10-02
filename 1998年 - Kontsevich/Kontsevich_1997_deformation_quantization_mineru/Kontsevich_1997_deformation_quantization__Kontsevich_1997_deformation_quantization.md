@@ -154,11 +154,11 @@ $$
 \begin{array}{l} f \star g = f g + \hbar \sum_ {i, j} \alpha^ {i j}   \partial_ {i} (f)   \partial_ {j} (g) + \frac {\hbar^ {2}}{2} \sum_ {i, j, k, l} \alpha^ {i j} \alpha^ {k l}   \partial_ {i} \partial_ {k} (f)   \partial_ {j} \partial_ {l} (g) + \ldots = \\ = \sum_ {n = 0} ^ {\infty} \frac {\hbar^ {n}}{n !} \sum_ {i _ {1}, \ldots , i _ {n}; j _ {1}, \ldots j _ {n}} \prod_ {k = 1} ^ {n} \alpha^ {i _ {k} j _ {k}} \left(\prod_ {k = 1} ^ {n} \partial_ {i _ {k}}\right) (f) \times \left(\prod_ {k = 1} ^ {n} \partial_ {j _ {k}}\right) (g) . \end{array}
 $$
 
-Here and later symbol denotes the usual product.
+Here and later symbol $\times$ denotes the usual product.
 
 ## 1.4.2. Deformation quantization up to the second order
 
-Let$\begin{array} { r } { \alpha = \sum _ { i , j } \alpha ^ { i j } \partial _ { i } \wedge \partial _ { j } } \end{array}$be a Poisson bracket with variable coeficients in an open domain of$\mathbf { R } ^ { d } ~ ( \mathrm { i . e }$ $\alpha ^ { i j }$is not a constant, but a function of coordinates), then the following formula gives an associative product modulo$O ( \hbar ^ { 3 } )$):
+Let$\begin{array} { r } { \alpha = \sum _ { i , j } \alpha ^ { i j } \partial _ { i } \wedge \partial _ { j } } \end{array}$be a Poisson bracket with variable coeficients in an open domain of$\mathbf { R } ^ { d } ~ ( \mathrm { i . e }$ $\alpha ^ { i j }$is not a constant, but a function of coordinates), then the following formula gives an associative product modulo$O ( \hbar ^ { 3 } )$:
 
 $$
 \begin{array}{l} f \star g = f g + \hbar \sum_ {i, j} \alpha^ {i j} \partial_ {i} (f) \partial_ {j} (g) + \frac {\hbar^ {2}}{2} \sum_ {i, j, k, l} \alpha^ {i j} \alpha^ {k l} \partial_ {i} \partial_ {k} (f) \partial_ {j} \partial_ {l} (g) + \\ + \frac {\hbar^ {2}}{3} \left(\sum_ {i, j, k, l} \alpha^ {i j} \partial_ {j} (\alpha^ {k l}) (\partial_ {i} \partial_ {k} (f) \partial_ {l} (g) - \partial_ {k} (f) \partial_ {i} \partial_ {l} (g))\right) + O (\hbar^ {3}) \end{array}
@@ -178,7 +178,7 @@ Also, it is not clear whether the “deformation quantization” is natural for 
 
 ## 2. Explicit universal formula
 
-Here we propose a formula for the star-product for arbitrary Poisson structure α in an open domain of the standard coordinate space$\mathbf { R } ^ { d }$. Terms of our formula modulo$O ( \hbar ^ { 3 } )$are the same as in the previous section, plus a gauge-trivial term of order$O ( \hbar ^ { 2 } )$, symmetric in$f$and$g .$Terms of the formula are certain universal polydiferential operators applied to coeficients of the bi-vector field α and to functions$f , g .$. All indices corresponding to coordinates in the formula appear once as lower indices and once as upper indices, i.e. the formula is invariant under afine transformations of$\mathbf { R } ^ { d }$
+Here we propose a formula for the star-product for arbitrary Poisson structure α in an open domain of the standard coordinate space$\mathbf { R } ^ { d }$. Terms of our formula modulo$O ( \hbar ^ { 3 } )$are the same as in the previous section, plus a gauge-trivial term of order$O ( \hbar ^ { 2 } )$, symmetric in$f$and$g .$Terms of the formula are certain universal polydiferential operators applied to coeficients of the bi-vector field α and to functions$f , g$. All indices corresponding to coordinates in the formula appear once as lower indices and once as upper indices, i.e. the formula is invariant under afine transformations of$\mathbf { R } ^ { d }$
 
 In order to describe terms proportional to$\hbar ^ { n }$for any integer$n \geq 0$, we introduce a special class$G _ { n }$of oriented labeled graphs.
 

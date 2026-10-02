@@ -30,3 +30,10 @@
 - 核对：p.2 跨页句、§1.2 First approximation 全节（Hochschild 2-cocycle 等式、B₁ 对称/反对称分解式、gauge 变换式、B₁⁻=⟨α,df⊗dg⟩ 双矢量式、Poisson/Jacobi 恒等式、{f,g}:=（f⋆g−g⋆f)/ℏ|_{ℏ=0} 式、Schouten-Nijenhuis [α,α]=0）、§1.3 Theorem 陈述与 α(ℏ) 公式、α_{(0)} 路径句（MD 行 81–139）。
 - 结果：`PASS±`→含 1 处已修复：MD 行 91 `in the e ecohomological Hochschild complex`，印刷为 `in the cohomological Hochschild complex`（杂散 `e` 为提取故障，PNG 与文本层一致确凿），已 Edit 修复。其余 PASS± 伪影：行 105 `diferential`/`afect`、行 113 `afine`、行 137 `difeomorphism`×2（印刷 `differential`/`affect`/`affine`/`diffeomorphism`，ff 连字拍平）；行 107 `$g .$` 空格错位；行 131 `¯h` 重音分解；行 127 印刷斜体 *A priori* 拍平为正体。全部公式（行 88/96/102/110/118/122/125/134/139）与印刷逐符号吻合。
 - 备注：本页无数学内容错误；「e ecohomological」修复随本页提交。
+
+## p.004（PDF p.4 / 印刷 p.4）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p004.png`（pngmono 150dpi）
+- 核对：§1.4/§1.4.1/§1.4.2/§1.5/§2 节标题顺序；常系数 Poisson 结构式 α=Σα^{ij}∂_i∧∂_j；Moyal 公式两行（含 Π α^{i_k j_k}(Π∂_{i_k})(f)×(Π∂_{j_k})(g)，Σ 下标 `i₁,…,iₙ;j₁,…jₙ` 的印刷不对称标点忠实保留）；二阶近似公式两行（含 ℏ²/3 项系数）；结合性 O(ℏ³) 式；§1.5 两段；§2 首两段（MD 行 141–183）。
+- 结果：`FAIL`→3 处已修复：①行 157 `Here and later symbol denotes the usual product.` 印刷为 `symbol × denotes`（× 为数学符号，PNG 与文本层确凿），已补 `$\times$`；②行 161 `modulo$O ( \hbar ^ { 3 } )$):` 印刷为单闭括号+冒号，多余 `)` 已删；③行 181 `to functions$f , g .$. All` 印刷为 `f, g. All`，重复句点已删。其余 PASS±：行 145/161/175/181 `coeficients`/`bidiferential`/`polydiferential`（ff 拍平）；行 161 `( \mathrm { i . e }` 缩写缺句点、行 181 句末缺句点（标点遗漏伪影，登记不改）；行 175/181 印刷粗体 `\mathbf R` 拍平为正体 R。公式行 148/154/164/170/183 与印刷逐符号吻合（含 `j _ { 1 } , \ldots j _ { n }` 无逗号 quirk）。
+- 备注：行 185 起为印刷 p.5 内容（Definition. An (oriented) graph…），在 p.005 核对。
