@@ -197,3 +197,10 @@
 - 证据：源 PDF p.026 文本层、页图 `audit/Hironaka_1964_resolution_partI_p026.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p026_multiplicity_stalk.png` 与 MinerU Markdown 第 399–409 行。印刷 multiplicity 定义中的局部环为 `O_{x,x}`；Markdown 第 409 行写成 `O_{Xx}`（无分隔逗号），随后将 multiplicity 写作 `e(O_{X,x})`，下标与印刷的两级小写索引不一致。其他 (gr_m^p(A))、ν_M(J) 及 theorem I* 记号与本页相符。
 - 备注：印刷运行页眉和页码 133 未录入 Markdown，属导航元素省略。
 - 结论：局部环 stalk 下标误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.027 / 96（印刷 p.134）— FAIL
+
+- 时间：2026-10-02 01:06 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.027 文本层、页图 `audit/Hironaka_1964_resolution_partI_p027.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p027_multiplicity_bounds.png` 与 MinerU Markdown 第 411–433 行。Statements (A)–(C)、Question (D) 的 multiplicity 阈值 `≥ d`、`< d` 与前后映射均对应原页；但原文两处写作罗马大写 `Main theorem I`，Markdown 第 431 行写成数字 `1`，属于定理编号误录。
+- 备注：印刷运行页眉和页码 134 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I/1 不符，列为 FAIL；待全篇审计结束后逐处修复。
