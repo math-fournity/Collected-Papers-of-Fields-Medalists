@@ -63,3 +63,13 @@
 - print quirk 登记（不改）：同一证明行的高度参数印刷作 **b**（`q^b−1`、`height b`，字形与 3) 行的双拱 h 可区分），与本页 3)/Prop 1.7 通篇的 h 不一致，系印刷混用；原 mineru 与当前 MD 的 b 忠实，保留。Luna 本页签字未涉此处，无改动。
 - 重核 Luna 修复：Prop 1.7 的 normal 条件 1)–3) 及证明 a)b)c) 的全部 `h`（`q^h`、`F_{q^h}`、`1/h`）与印刷相符（Luna 由 b 改 h 方向正确）；height 定义式与 remark 相符。
 - 另记（PASS± 级伪影，不改）：页眉 "566 V. G. DRINFEL'D" 未收。
+
+## p.007（PDF p.7 / 印刷 p.567）
+
+- PNG：audit-redo/p007.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p007_absnorm.png（绝对值记号句）、…_p007_example.png（A=F_q[x] 例子）
+- 核对：Prop 1.7(c) 收尾（dim L/πL=h²、1/h、τ^{log_p q}a=a^q τ^{log_p q}）、§2 标题、§2A τ 环与 ε/D（D(Σb_iτ^i)=b_0）、全篇记号段（k_ν、| |_ν、A={x||x|_ν≤1}）、"char" 定义、elliptic A-module 定义、§2B deg 映射（=p^n）、Prop 2.1 两项及证明、rank 定义、F_q[x] 例子。
+- 结果：FAIL（4 处）：
+  1. 记号段绝对值（MD 行 235）：印刷为一对空杠加下标——`| |_ν is the normed absolute value`、`we write | | for | |_∞`、`the completion of A at | |_ν`；MD 单杠 `|_{\nu}`/`|_{\infty}` 丢一杠（且 "we write |_ν for |_∞" 语义不通）。已三处 Edit 为 `$|\ |_{\nu}$`/`$|\ |$ for $|\ |_{\infty}$`/`$|\ |_{\nu}$`。
+  2. 例子（MD 行 255）：印刷为 "one can take any element of the form **(x)** + Σ_{j=1}^d a_j τ^{j log_p q}"——无 φ（同句 "In place of φ(x)" 对照；300dpi 确认）。原 mineru 忠实，Luna 补入 φ 违反印刷；已 Edit 回退为 `$(x) + \sum\ldots$`。**erratum 登记**：数学上应为 φ(x)，印刷脱落 φ，按原样保留。
+- 重核 Luna 修复（其余，均相符）：1.7(c) 的 h²/1/h、`τ^{log_p q}`；§2A 的 `τ^i`（原 r^i）、`D(Σ_0^n b_iτ^i)=b_0`；Prop 2.1(b) 首式 `deg φ(a)·deg φ(b)` 的中点与印刷一致；例子中 `τ^{j log_p q}`（log_p 真下标）。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 567" 未收。

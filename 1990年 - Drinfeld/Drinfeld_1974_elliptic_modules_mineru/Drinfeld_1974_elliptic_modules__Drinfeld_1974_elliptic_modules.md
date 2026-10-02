@@ -232,7 +232,7 @@ it follows that $\dim L / \pi L = h^2$, and that the center of $L / \pi L$ coinc
 
 A) Definitions and notation. Let $B$ be a ring of characteristic $p$. We denote by $\tau$ the endomorphism of the (algebraic) additive group over $B$ that sends $t$ to $t^p$ (just as in §1). We shall identify the element $b \in B$ with the endomorphism of multiplication by $b$. Every endomorphism of the (algebraic) additive group over $B$ has the form $\sum_0^n b_i \tau^i$, and, moreover, $\tau b = b^p \tau$. We denote the ring of such “polynomials” by $B\{\tau\}$. We have two homomorphisms: $\epsilon: B \to B\{\tau\}$, $\epsilon(b) = b$, and $D: B\{\tau\} \to B$, $D(\sum_0^n b_i \tau^i) = b_0$.
 
-The following notation will be used throughout this paper. $k$ is a global field of characteristic $p; \infty$ is a fixed place of $k$; $k_{\nu}$ is the completion of $k$ corresponding to the place $\nu$; $|_{\nu}$ is the normed absolute value corresponding to $\nu$ (or its continuation to a finite extension $k_{\nu}$); we write $|_{\nu}$ for $|_{\infty}$; $A = \{x \in k | |x|_{\nu} \leq 1 \text{ for } \nu \neq \infty\}$; if $\nu \in \operatorname{Spec} A$, then $A_{\nu}$ is the completion of $A$ at $|_{\nu}$.
+The following notation will be used throughout this paper. $k$ is a global field of characteristic $p; \infty$ is a fixed place of $k$; $k_{\nu}$ is the completion of $k$ corresponding to the place $\nu$; $|\ |_{\nu}$ is the normed absolute value corresponding to $\nu$ (or its continuation to a finite extension $k_{\nu}$); we write $|\ |$ for $|\ |_{\infty}$; $A = \{x \in k | |x|_{\nu} \leq 1 \text{ for } \nu \neq \infty\}$; if $\nu \in \operatorname{Spec} A$, then $A_{\nu}$ is the completion of $A$ at $|\ |_{\nu}$.
 
 Let $K$ be a field over $A$ (i.e. there is defined $i: A \to K$). We call the place $i^*(\operatorname{Spec} K) \in \operatorname{Spec} A$ (i.e. the ideal $\operatorname{Ker} i$) the “characteristic” (notation: “char”). Thus $i$ is an imbedding if and only if $K$ has general “characteristic.”
 
@@ -252,7 +252,7 @@ $\deg \phi(ab) = \deg \phi(a) \cdot \deg \phi(b), \quad \deg \phi(a + b) \leqsla
 
 Definition. d is called the rank of the elliptic A-module  $\phi$ .
 
-Example. Let $A = \mathbf{F}_q[x]$. Then $\phi|_{\mathbf{F}_q} = \epsilon \circ i|_{\mathbf{F}_q}$. The representation of $\phi$ is equivalent to the representation of $\phi(x) \in K\{\tau\}$. In place of $\phi(x)$ one can take any element of the form $\phi(x) + \sum_{j=1}^{d} a_j \tau^{j \log_p q}$, where $d \geq 1, a_d \neq 0, a_j \in K$. The rank of such a module equals $d$.
+Example. Let $A = \mathbf{F}_q[x]$. Then $\phi|_{\mathbf{F}_q} = \epsilon \circ i|_{\mathbf{F}_q}$. The representation of $\phi$ is equivalent to the representation of $\phi(x) \in K\{\tau\}$. In place of $\phi(x)$ one can take any element of the form $(x) + \sum_{j=1}^{d} a_j \tau^{j \log_p q}$, where $d \geq 1, a_d \neq 0, a_j \in K$. The rank of such a module equals $d$.
 
 The representation of an elliptic A-module over K changes any K-algebra into an A-module. Let K be the algebraic closure of K.
 
