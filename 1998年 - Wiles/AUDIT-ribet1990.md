@@ -41,3 +41,9 @@
 - PNG：`audit/ribet1990_p004.png`（pngmono，150 dpi）。
 - 核对：Summary 节前半——§2 Raynaud [24]/Grothendieck [11]/Mazur-Rapoport ([18], Appendix)；Deligne-Rapoport [4]、Cerednik-Drinfeld ([3], [7])；Theorem 4.1 与 Eichler [9]/Shimizu [36]/Jacquet-Langlands [12] 对应；Z[...T_n...]-module Z、fiber over F_p、J_0(pqM)_{F_q} 与 J_0(pqM)_{F_p} 的 p/q 互换方向；§5/§6 路线图、p ≢ 1 (mod l)、q ≡ −1 (mod l)、段尾 "and the image" 接下页 ✓ 全部与印刷一致。
 - 结果：PASS。
+
+## p.005（PDF p.5 / 印刷 p.434）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:18 -0400。
+- PNG：`audit/ribet1990_p005.png`（pngmono，150 dpi）。
+- 核对：Summary 后半（Cebotarev Density Theorem——印刷原拼无重音，MD 一致忠实保留；§8 Mpq→Mq 路线；MSRI 致谢、Lemma 6.2/Fontaine/Messing；Henniart、Oesterlé、Livné 重音正确；NSF/Vaughn Foundation）；Contents 全部 16 条节名与页码（1.Introduction 431/The Main Theorem 431/Summary 433/2.Picard-Lefschetz 435/Admissible Curves 437/3. 438/X 443/Old and new 446/Φ 448/X_0(pqM) 451/4. 456/5. 465/6. 469/A variant 471/7. 471/8. 473）✓ 与印刷逐条一致。
+- 结果：PASS。
