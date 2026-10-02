@@ -70,4 +70,13 @@
 - 与 Luna 旧记录交叉：旧 p.5 未列入修复表；本次重核与旧判（PASS± 类排版伪影）精神一致，未发现旧修复错误。
 - 备注：imprint 行证实本篇刊于 Acta Mathematica 65（Imprimé le 8 février 1935）；文件名年份 1930 与印刷年不符属篇目命名既有事实，不属于本页 Markdown 审计范围，仅登记。
 
+### p.006（PDF p.6 / 印刷 p.162）
+
+- audited_at=2026-10-02 15:30 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p006.png`（pngmono 150dpi）；本页无需 300dpi 仲裁。
+- 核对：页眉（162 / Lars Ahlfors.）、编号段 6（Blätterfolge W₁,W₂,…,Wₙ,…、das n:te Blatt、maximale Blätteranzahl N）、äquivalent 段（P₀、n₀、Iₙ）、公式 (2) `I=I₁+I₂+⋯+I_N.`（\tag{2}，句点在）、relativer Rand der Blätter 段（n₀ Kanten）、无号公式 `L=L₁+L₂+⋯+L_N,`（逗号在）、「wobei die Länge einer doppelten Kante zweifach zu zählen ist.」、编号段 7（mittlere Blätteranzahl S、Nach (2) gilt）、公式 `S=S₁+S₂+⋯+S_N,`、「wo Sₙ die mittlere Blätteranzahl von Wₙ ist.」。
+- 结果：PASS±。内容、公式与编号逐项与印刷一致，无修复项。保留登记（排版级，不修）：印刷斜体 das n:te Blatt / mittlere Blätteranzahl 丢失（系统性）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.6 行；本次独立重核未发现内容差异，旧状态维持。
+- 页界：本页印刷内容止于「…von $W_{n}$ ist.」，MD 行 119 吻合；下一行（Betrachten wir ein Teilgebiet Δ…）属 p.007，待次页核。
+
 <!-- redo-tail -->
