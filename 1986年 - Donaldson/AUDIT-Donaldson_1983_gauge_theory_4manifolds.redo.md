@@ -43,3 +43,14 @@
   - **修复**：md 行 95 "so Q is an affine space" 的普通 `Q` 与同段行 89/109 的 `$\mathcal{Q}$` 不一致；300dpi 裁片确认印刷两处同为草书 𝒬 → 已 Edit 改为 `so $\mathcal{Q}$ is an affine space`。
   - 排版级伪影（登记不改）：印刷斜体 *connections*、*signature*、Lemma 2 斜体陈述在 md 中为正体。
 - 修复登记：行 95 `Q`→`$\mathcal{Q}$`（依据 `audit-redo/p003.png` + 300dpi 两处草书 𝒬 裁片）。
+
+### p.004（PDF p.4 / 印刷 p.282）
+
+- PNG：`audit-redo/p004.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（Proposition 3 分母与括号内记号，结论记于本条）
+- 核对：F(A+a) 曲率公式；𝒢 作用 g(A)=A−(d_A g)g⁻¹；SU(2)/U(1) 分类两行；Proposition 3 全文（含分数系数与括号注记）；c₂(P)=(1/8π²)∫Tr(F∧F)；Tc₂(A)∈R/Z 与带边版本；Self-duality 段与 Ω²=Ω²₊⊕Ω²₋
+- 结果：**PASS±**（含一处记号修复）。
+  - `F(A+a)=F(A)+d_Aa+\frac12[a,a]`、`g(A)=A-(d_Ag)g^{-1}`、`c_2(P)=\frac{1}{8\pi^2}\int_X Tr(F(A)\wedge F(A))\in\mathbf{Z}`、`Tc_2(A)\in\mathbf{R}/\mathbf{Z}`、带边 `Tc_2(A)=\frac{1}{8\pi^2}\int_Z Tr(F(\tilde A)\wedge F(\tilde A)),\ \mathrm{mod}\ \mathbf{Z}`、`\Omega^2=\Omega^2_+\oplus\Omega^2_-` 全部与页图一致。
+  - 300dpi 仲裁：Proposition 3 分数分母印刷为 `2πi`，md `$-\frac{1}{2\pi i}F(A)$` **正确**（150dpi 下曾疑为 4π，以 300dpi 裁片否定）。
+  - **修复**：md 行 129 "(g is in this case a trivial bundle)" 的普通 `g`，300dpi 裁片确认印刷为 Fraktur **𝔤**（U(1) 情形伴随李代数丛平凡，非连接空间 𝒬）→ 已 Edit 改为 `($\mathfrak{g}$ is in this case a trivial bundle)`。
+  - 排版级伪影（登记不改）：Proposition 3 印刷整段斜体在 md 中为正体；粗体 **Z**、**R** 在行内公式外沿用正体。
+- 修复登记：行 129 `g`→`$\mathfrak{g}$`（依据 `audit-redo/p004.png` + 300dpi Proposition 3 裁片）。

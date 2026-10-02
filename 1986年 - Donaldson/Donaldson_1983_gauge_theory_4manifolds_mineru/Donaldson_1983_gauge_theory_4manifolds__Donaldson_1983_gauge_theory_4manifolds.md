@@ -126,7 +126,7 @@ $$
 
 In the second case we summarise all we need in
 
-Proposition 3. If P is a  $U(1)$  bundle over X, and A any connection on P, then the image of  $c_{1}(P)$  in  $H^{2}(X; \mathbf{R})$  is represented in de Rham cohomology by the closed 2-form  $-\frac{1}{2\pi i}F(A)$  (g is in this case a trivial bundle); all 2-forms within this cohomology class occur as the curvature of some connection, and on the simply connected manifold X any two connections with the same curvature are isomorphic. In particular, if X has a Riemannian metric, there is a unique connection on P, up to equivalence, with harmonic curvature:  $\Delta F = 0$ .
+Proposition 3. If P is a  $U(1)$  bundle over X, and A any connection on P, then the image of  $c_{1}(P)$  in  $H^{2}(X; \mathbf{R})$  is represented in de Rham cohomology by the closed 2-form  $-\frac{1}{2\pi i}F(A)$  ($\mathfrak{g}$ is in this case a trivial bundle); all 2-forms within this cohomology class occur as the curvature of some connection, and on the simply connected manifold X any two connections with the same curvature are isomorphic. In particular, if X has a Riemannian metric, there is a unique connection on P, up to equivalence, with harmonic curvature:  $\Delta F = 0$ .
 
 The corresponding characteristic class representation for an  $SU(2)$  bundle is:
 
