@@ -72,7 +72,7 @@ From the point of view of statistical mechanics, the argument behind this conjec
 
 In this paper, we approach the local geometry of random 3D diagrams using the general exact formulas for correlation functions of the Schur process. For 3D diagrams, these general formulas specialize to contour integrals involving the quantum dilogarithm function (24), see Corollary 1.
 
-We compute the q  1 limit of the correlation kernel explicitly. The result turns out to be the discrete incomplete beta kernel, see Theorem 2. One can show, see Section 3.1.12, that this kernel is a specialization of the kernel of [5] when one of the parameters vanishes in agreement with Conjecture 13.5 of [5].
+We compute the $q \to 1$ limit of the correlation kernel explicitly. The result turns out to be the discrete incomplete beta kernel, see Theorem 2. One can show, see Section 3.1.12, that this kernel is a specialization of the kernel of [5] when one of the parameters vanishes in agreement with Conjecture 13.5 of [5].
 
 The incomplete beta kernel is also a bivariate generalization of the discrete sine kernel which appeared in [1] in the situation of the Plancherel specialization of the Schur measure, see also [10].
 
