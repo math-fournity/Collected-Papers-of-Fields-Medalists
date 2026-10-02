@@ -203,3 +203,9 @@
 - 核对：Figure 7（limit shape 3D 图与题注，引用 images/page_28_image_0.jpg 存在）、ρ_*(τ,χ)=(1/4π²)∬ du dv/(1+e^{χ/2+τ/4+iu}+e^{χ/2−τ/4+iv})、z(τ,χ)=(1/2π²)∬ ln|1+…| du dv、[3] 参数化 (x,y,z)=(f−2lnA, f−2lnB, f−2lnC)、f(A,B,C) 定义
 - 结果：PASS。全部吻合。
 - 备注：印刷 quirk "is equivalent to following parametrization"（缺 the，p029.png 确认）忠实保留。
+
+## p.030（PDF p.30 / 印刷 p.30）
+- PNG：audit/p030.png（pngmono 150dpi）
+- 核对：§3.1.14 结尾（与 [3] 相差因子 2）、§3.2/§3.2.1（围线变形普遍原理）、§3.2.2（各向异性扰动 q^{|m|}→q^{V(m)}）、§3.2.3（Res_{z=w}(dz/(z−w))(Φ(t1,z)/Φ(t2,w))=1、∫^{(2)}=(1/2πi)∫_{γ±}dw/w^{Δx+1}）
+- 结果：PASS±（两处已修复）：① 行 1095 "difers…diferent"→"differs…different"（p030.png+文本层双证，上块移交项②，本页结清）；② 行 1123 句末补句号（p030.png "in the variable Δx."）。
+- 备注：印刷 quirk "the points of the intersection of γ> and γ< the minima of the function ℜS(z)"（缺 are，印刷原样）与破折号 "— on the other" 忠实保留。

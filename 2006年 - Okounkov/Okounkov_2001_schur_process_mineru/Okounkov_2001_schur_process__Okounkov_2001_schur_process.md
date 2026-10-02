@@ -1092,7 +1092,7 @@ $$
 
 This parametrization is manifestly symmetric in x, y, and z. However, it involves integrals that are more complicated to evaluate than the parametrization (38).
 
-Note that the shape considered in [3] difers from our by a factor of 2 due to diferent scaling conventions.
+Note that the shape considered in [3] differs from our by a factor of 2 due to different scaling conventions.
 
 ## 3.2 Universality
 
@@ -1120,7 +1120,7 @@ $$
 \int^ {(2)} = \frac {1}{2 \pi i} \int_ {\gamma_ {\pm}} \frac {d w}{w ^ {\Delta x + 1}},
 $$
 
-which leads to the discrete sine kernel in the variable$\Delta x$
+which leads to the discrete sine kernel in the variable$\Delta x$.
 
 ## 3.2.4
 
