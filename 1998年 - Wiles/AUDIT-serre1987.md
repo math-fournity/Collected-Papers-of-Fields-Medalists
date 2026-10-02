@@ -199,3 +199,11 @@
 - 核对：PROPOSITION 6（ρ_p^E irréductible、absolument irréductible 括注）、réductible 反证段（sous-groupe X、caractère unité/χ、[41] p.307、torsion ⩾ 4p ⩾ 20、Mazur [28] th. 8、E′ = E/X）、Remarque（Mazur [29]）、invariants 引言、(4.1.10) ε = 1、(4.1.11) k = 2 / k = p + 1（v_p(Δ)、prop. 5 du n° 2.9）、(4.1.12) conducteur N（l ≠ p、v_l(Δ)）、Tate 模型 “G_m/q^Z” 句、Remarque（v_l(Δ) 条件）、(4.1.13) v_l(ABC) ≢ {0; 4} (mod p) 分段、4.2 节标题、THÉORÈME 1（Admettons (3.3.1?)、a^p + b^p + c^p = 0、a,b,c ∈ Z、abc ≠ 0）、homothétie 段（b ≡ 0 mod 2、a ≡ −1 mod 4）、A = a^p, B = b^p, C = c^p。
 - 结果：FAIL。一处已依原图修复：Remarque 段 Markdown 把 “v_l(Δ)” 的下标写成大写 I（$v_{I}(\Delta)$），印刷为小写 l（同段 (4.1.12)/(4.1.13) 均为小写 l），修为 $v_{l}$。其余逐项吻合。
 - 备注：“Admettons (3.3.1?)” 引用带 ? 与印刷一致；“G_m/q^Z” 粗体一致；页眉 “201 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 A = a^p, B = b^p, C = c^p 式。
+
+## p.024（PDF p.24 / 印刷 p.202）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p024.png`（pngmono，150 dpi）。
+- 核对：(4.1.4) 条件满足句、v_l(ABC) ≡ 0 (mod p) 式、(4.1.11)+(4.1.13) ⇒ k = N = 2 段（prop. 6、X₀(2) genre 0、D'où le théorème）、Remarque（Hurwitz [20] 1886）、Hellegouarch [19]/Vélu [54]/Frey [16],[17] 段、4.3 节标题（p ⩾ 11）、THÉORÈME 2（Admettons (3.3.1?)、L ≠ p）、S = {3,5,7,11,13,17,19,23,29,53,59}、(4.3.1) a^p + b^p + L^α c^p = 0、abc ≠ 0 句、证明开头（0 < α < p、B pair、2^p、a fortiori 32、A ≡ −1 mod 4、k = 2、N = 2L）、f = q + a₂(f)q² + ⋯ + a_n(f)q^n + ⋯、F̄ₚ/2L 句。
+- 结果：PASS。公式、集合元素、引用编号（[19]/[54]/[16]/[17]/[20]）、上下标全部与印刷吻合。
+- 备注：S 集合内 “1 1, 1 3…” 数字带空格渲染正常，排版级；印刷 “avec a, b, c ∈ Z et abc ≠ 0” 的 “et” 与 Markdown 一致（th. 1 处印刷无 “et”，Markdown 同样无——两处各自忠实）；页眉 “202 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “soit isomorphe à ρ_p^E. Nous”，其后 “allons voir…” 段与 LEMME 1 属印刷 p.203。
