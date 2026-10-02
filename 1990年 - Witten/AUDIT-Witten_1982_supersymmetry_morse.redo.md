@@ -26,3 +26,8 @@
 - PNG：`audit-redo/p003.png`（pngmono 150dpi）；Hilbert 记号终裁：`audit-redo/300dpi/p003_Hilbert_space.png`（300dpi 裁片）。
 - 核对：真空态讨论五段、公式 (8)、[21] 段至跨页句 "It may be shown that a solution does"。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。正文与公式 (8) `Q_i|\Omega\rangle = 0` 及跨页断点均与印刷页相符。**发现 Luna 漏检 1 处记号错误**：md 将 "Hilbert space 𝓗 a state |Ω⟩" 的 script 𝓗 误作 `\mathcal{H}`（md line 73）；300dpi 裁片确认印刷字形与 p.001 判定的 `\mathscr{H}` 同形，已用结构化 Edit 修为 `$\mathscr{H}$`。**移交备注**：md line 639/643（§4，属 p.027/p.028 redo 复检范围）仍有 `\mathcal{H}`/`\tilde{\mathcal{H}}`，其印刷字形应由该两页 redo 仲裁，本轮不动。差异：页眉 "SUPERSYMMETRY AND MORSE THEORY 663" 未入 md（版面信息省略）。
+
+## p.004（PDF p.4 / 印刷 p.664）
+- PNG：`audit-redo/p004.png`（pngmono 150dpi）
+- 核对：mass gap 续段、index 方法段、`𝓗₀ = 𝓗₀⁺ ⊕ 𝓗₀⁻` 分解段、`Q₊ + Q₋` 与 `Tr(−1)^F` 段、[21] 与 φ⁴ 段、章节路线段。
+- 结果：PASS±。正文逐段与印刷页相符，含 `Q_i^2 = Q_j^2 = H`、`Tr(-1)^F`、`$\phi^{4}$`、(1)-(4)/(5) 引用及跨页断点（"can usefully be applied to supersymmetry." 起本页）。**Luna 旧修复重核：本页 `\mathscr{H}_0`/`\mathscr{H}_0^{\pm}`/`\mathscr{H}` 系列（md line 93/95/97）与印刷 script 记号一致，13 处修复正确**。差异仅：页眉 "664 EDWARD WITTEN" 未入 md（版面信息省略）。
