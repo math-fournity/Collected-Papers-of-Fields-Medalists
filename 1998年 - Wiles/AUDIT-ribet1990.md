@@ -145,3 +145,11 @@
 - 发现并当场修复：①L560 "\\mathcal{I}"→"\\mathcal{S}"（singular points 集，150 dpi 页图，同款花体 S）；②L574 四处 Hecke 代数粗体拍平："T-stable"→"$\mathbf{T}$-stable"、"let $T_0$ and $T_1$"→"$\mathbf{T}_0$/$\mathbf{T}_1$"、"images of T"→"$\mathbf{T}$"、"quotients of T"→"$\mathbf{T}$"（300 dpi 裁片确证全行粗体；MD 下一行显示式本为 \mathbf，修复后页内一致）。
 - 备注：J₀(Mq)_C 的下标 C、F_q-group 的 F 印刷粗体，MD 正体（字母不变，登记不改）。
 - 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.018（PDF p.18 / 印刷 p.447）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:18 -0400。
+- PNG：`audit/ribet1990_p018.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Hom(X, **G**_m)" 下标正体 m、"T_q∈**T**_M" 粗体、"End_**Q**(Q)" 下标粗体、"t∈**T** … **T**₁" 粗体，未存档）。
+- 核对：T=Hom(X, G_m)、(5) 作用分解、ω: J⁰→J₀(M)×J₀(M) 由 Pic 函子性、与 Albanese 函子性退化映射之区分、X₀(M)⇉X₀(Mq) 仅特征 q；Remark 3.9（ρ: J₀(M)×J₀(M)→J₀(Mq)、kernel [28]、ρξ=T_qρ、(x,y)↦(τx+qy,−x)、τ=q-th Hecke、(3.19)）；Theorem 3.10（**T** 作用切出 q-new 商 **T**₁）；Proof（A=im ρ、Q=coker ρ、[19]、0→A→J₀(Mq)→Q→0 对偶、cotangent over C、0→S₀→S→S₁→0、End_Q(Q) faithful、toric reduction）✓。
+- 发现并当场修复（粗体 Hecke 代数 **T** 拍平 5 处 + 字形误植 1 处；均据 300 dpi 裁片）：①L588 "$\mathbf{G}_{\mathfrak{m}}$"→"$\mathbf{G}_{\mathrm{m}}$"（印刷下标为正体 m；与 MD p.006 处 G_m 渲染一致）；②L588 "The action of T on T corresponds to the action of T on X"→两处 $\mathbf{T}$；③L588 "The action of T on J₀(M)×J₀(M)"→$\mathbf{T}$；④L588 "$T_q\in T_M$"→"$T_q\in\mathbf{T}_M$"；⑤L620 "$t\in T$ maps to 0 in $T_1$"→"$t\in\mathbf{T}$ / $\mathbf{T}_1$"。
+- 备注："defined over Q" 印刷粗体 **Q**，MD 正体（登记不改）；End_**Q** 下标 MD 本即粗体正确。
+- 结果：FAIL（6 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
