@@ -255,3 +255,9 @@
 - 核对：Figure 12（∂_ba 上相邻两点 B、B′ 与 W、e、e′ 记号图）及图注；Lemma 5.4 Proof 收尾——H_δ○ 在 ∂_ab^⋆ 上常值、dual white face A⋆ ∈ ∂_ab^⋆ bordering a_δ 满足公式 (5.4) H_δ○(A⋆) = H_δ●(A) − ∣F_δ(e)∣² = 1 − 1 = 0（e 为分离 A 与 A⋆ 的边、必属 γ，◻）；Lemma 5.5——H_δ● → 0 on ∂_ab、H_δ○ → 1 on ∂_ba^⋆（uniformly away from a and b）；Proof——B ∈ ∂_ab 距 ∂_ba 为 r、W 为 B 在 ∂_ab^⋆ 上邻点、H_δ•(B) = H_δ○(W) + ∣P_{ℓ(e)}[F_δ(e)]∣² = φ^{a_δb_δ}_{Ω_δ,p_sd}(e ∈ γ)²、e∈γ ⟺ B 连通 wired arc、free boundary conditions 比较 ⟹ ≤ φ^1_{U_δ,p_sd}(B ↔ ∂U_δ)²（U_δ = (B+[−r,r]²)∩L_δ）、Proposition 3.10 ⟹ 收敛于 0（◻）；两引理边界条件 0/1 过渡段；页脚印刷页码 39。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(5.4) 编号齐全；φ 上标 a_δb_δ 与 φ^1_{U_δ,p_sd} 的堆叠下标为对账锚点；e∈γ 平方（(e ∈ γ)²）排法以 PNG 为准。
+
+## p.040（PDF p.40 / 印刷 p.40）
+- PNG：audit/p040.png（pngmono 150dpi）
+- 核对：Proposition 5.6——(H_δ)_{δ>0} 收敛于 Im(φ)（compact subsets 一致），φ 为 Ω 到条带 T = ℝ×(0,1)（PNG 花体 T）、a↦−∞、b↦∞ 的任一共形映射；Im(φ) 为边界条件 1 on ∂_ba / 0 on ∂_ab 的 Dirichlet 解；Proof——H_δ● subharmonic、h_δ●/h_δ○ 为同边界 preharmonic 函数、三明治公式 (5.5) h_δ○(w_δ) ≤ H_δ○(w_δ) ≤ H_δ●(b_δ) ≤ h_δ●(b_δ)、Theorem 4.7 应用（◻）；§5.1.3 Convergence of FK fermionic observables (F_δ/√(2δ))_{δ>0} 标题；Proof of Theorem 3.15——precompactness 假设下取收敛子列 (F_{δ_n}/√(2δ_n))、f holomorphic、H_{δ_n}(y)−H_{δ_n}(x) = ½Im(∫_x^y (1/δ_n)F²_{δ_n}(z)dz)、右端收敛 Im(∫_x^y f(z)²dz)、左端收敛 Im(φ(y)−φ(x))、φ(y)−φ(x) = C + ∫_x^y f(z)²dz ⟹ f = √φ′；precompactness 化归与 9Q（同中心更大方形）策略；公式 (5.6) δ²Σ_{v∈Q◇_δ}∣F_δ(v)/√(2δ)∣² = δΣ_{x∈Q_δ}∣∇H_δ●(x)∣ + δΣ_{x∈Q⋆_δ}∣∇H_δ○(x)∣ 与 ∇H_δ● 定义；页脚印刷页码 40。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(5.5)/(5.6) 编号齐全；𝕋 花体 T、∫_x^y 上下限、δ_n 下标堆叠以 PNG 为准。
