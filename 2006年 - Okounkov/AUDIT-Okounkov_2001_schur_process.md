@@ -154,3 +154,9 @@
 - 核对：§3.1.5（S(z̄;τ,χ)=overline{S(z;τ,χ)}、S+S(e^τ/z)=−(τ/2+χ)τ、ℜS 在 γ 上常值 −(τ/2+χ)τ/2、z(d/dz)S=3τ/2−χ−ln|e^τ−z|²）、式 (32)、向量场 ∇(ℜS)=(z²/e^τ)(d/dz)S、§3.1.6 围线变形 ∫_{(1±ε)γ}dz∫_{(1∓ε)γ}dw、γ>,γ<,γ+,γ− 定义开头
 - 结果：PASS±（一处已修复）：行 857 "the gradient of S" → "the gradient of$\Re S$"——p022.png 与文本层双证印刷为 "gradient of ℜS"，md 丢 ℜ。
 - 备注：Figure 4/5 图片引用（page_22_image_0/2.jpg）在本页与下页交界，已验证文件存在；(32) 与圆交结构全部吻合。
+
+## p.023（PDF p.23 / 印刷 p.23）
+- PNG：audit/p023.png（pngmono 150dpi）
+- 核对：整页插图页——Figure 4（γ 圆上 ℜS 梯度场，标注 z_c/z̄_c/γ/e^τ/e^{τ/2}/e^{3τ/4−χ/2}）与 Figure 5（γ> dashed、γ< dotted、γ± 弧与 θ* 角），两图题注
+- 结果：PASS±（一处已修复）：Figure 5 题注 md 原为 "$\gamma _ { > } ( \mathrm { d a s h e d } )$$\gamma _ { < } ( \mathrm { d o t t e d } )$" 两 math 块相接无标点，p023.png 印刷为 "Contours γ>(dashed), γ<(dotted), and γ±" → 补 ", "。
+- 备注：Figure 4 题注 "Gradient of ℜS(z) on the circle γ={|z|=e^{τ/2}}" 与 md 一致；图内标注与式 (32)/(33) 几何关系一致。

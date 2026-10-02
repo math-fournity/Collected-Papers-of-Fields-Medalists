@@ -864,7 +864,7 @@ Figure 4: Gradient of$\Re S ( z )$on the circle$\gamma = \{ | z | = e ^ { \tau /
 
 ![](images/page_22_image_2.jpg)
 
-Figure 5: Contours$\gamma _ { > } ( \mathrm { d a s h e d } )$$\gamma _ { < } ( \mathrm { d o t t e d } )$, and$\gamma _ { \pm }$
+Figure 5: Contours$\gamma _ { > } ( \mathrm { d a s h e d } )$, $\gamma _ { < } ( \mathrm { d o t t e d } )$, and$\gamma _ { \pm }$
 
 contours$\gamma _ { \pm }$are the arcs of the circle$| z | = e ^ { \tau / 2 }$between$\bar { z } _ { c }$and$z _ { c } ,$oriented toward$z _ { c } .$
 
