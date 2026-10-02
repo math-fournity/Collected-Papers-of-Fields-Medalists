@@ -521,3 +521,14 @@
 - 页面边界：本页止于 property `(*)` 的交换图；Markdown 第 1809 行的 canonical map theorem 与证明从 PDF p.50 开始。与 p.48 的 theorem cue 重复之处见前页边界复核。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `π_1X`/`π_1Z`、自然变换域陪域、日期与 property 图。
 - 记录：2026-10-02 04:10:33 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.050（PDF p.50 / 纸面圈号 50）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p050.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p050_finite-subcomplexes.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p050_plus-construction.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p050_direct-limit.png`。
+- 核对：`[X,BGL(A)]→[X,BGL(A)^+]` 的 property `(*)` 定理；CW 复形由有向有限子复形逼近时的映射集极限；`F_0` 与 perfect `Ω_5` 的构造、附加 2/3 胞得到 plus construction；`[X,BGL(A)]` 的有限子复形表达。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1817–1820 行的事实是有限 `X` 到 `Y=\bigcup_\alpha F_\alpha` 的映射落入某个有限子复形，并给出 ` [X,Y]\cong\lim_\alpha[X,F_\alpha]`；基线把索引错成 `\vec v`/`a`，并将说明 `X` finite 的旁注粘到公式尾。原图取 `F_0` 为 `BΩ_5⊂BGL(A)` 的 2-skeleton，经 Milnor model 选取后 `π_1(F_0)=Ω_5` 是 perfect group；基线第 1823、1826 行将 `BΩ_5`、2-skeleton 与 `Ω_5` 读成 `B\&L_s`、`z-skeleton`、`BOI_5/OI_5`，改变了构造和所杀群。原图后续以单个 2-cell 和 3-cell 得到 `F_0→F_0^+` 并组成 `BGL(A)\cup_{F_0}F_0^+=BGL(A)^+`，基线第 1829–1832 行大体保留，但局部连接语句仍被拼坏。第 1835 行 MinerU 内嵌图 `page_49_image_9.jpg` 与原图的 acyclic `F_0→F_0^+` / `BGL(A)→BGL(A)\cup F_0^+` 图一致。原图第 1838 行说明 `π_1(BGL(A)\cup F_0^+)=GL(A)/N=...`，其中 `N` 是 normal subgroup 并对应 `E(A)`；第 1841 行由包含 commutator subgroup 推出矩阵在该商中交换。基线两行的群商表达与 normal-subgroup 条件严重损坏。第 1843–1850 行的“取所有包含 `F_0` 的有限子复形并取并”主线可辨，极限式仍被噪声打断。
+- 页面边界：本页止于 `BGL(A)=\bigcup F_\alpha` 及 ` [X,BGL(A)]=\lim_alpha[X,F_\alpha]`；Markdown 第 1853 行起的自然变换极限计算属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复有限子复形极限、`F_0/Ω_5` 与 `π_1` 商群论证。
+- 记录：2026-10-02 04:15:43 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
