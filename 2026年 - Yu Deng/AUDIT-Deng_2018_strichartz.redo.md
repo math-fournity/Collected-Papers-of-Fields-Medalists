@@ -141,7 +141,7 @@
 
 - 覆盖：PDF p.10–p.18（印刷页码同），逐页 150dpi pngmono PNG 全览＋逐页 pdftotext 文本层对账（双通道主对账），1 处升级 300dpi 仲裁（p012 末式 𝕋^d 字形，1.5x 初读误似粗体、4x 放大确认为黑板体，避免了一次误改）。页界：p.10 起 Proposition 3.2，p.18 止 (5.2)；L729 起属 p.14、L861/L915 起分属 p.16/p.17 的跨页内容按印刷页界归属登记。
 - 页级结论：9 页全部 **PASS±**，0 FAIL。无数学内容错误；Lemma 3.3/3.4、Proposition 3.2、(3.1)–(3.8)、(4.1)(4.2)、Theorem 5.1、(5.1)(5.2) 及各推导链与印刷逐式一致；≲/≤/≼ 与 ≳/≥/⪯ 层次、bold **1** 指示符、binom/underbrace 结构均忠实。
-- 本次净修复 **12 处**（每处可溯源对应页 PNG/文本层证据）：
+- 本次净修复 **13 处**（每处可溯源对应页 PNG/文本层证据；git 净 diff 恰为 13+/13−，与下表逐行对应）：
   1. L489（p.10）全角逗号 "，"→","
   2. L649/L651（p.12）两条 regime bullet 补 "- "（印刷有 •，Luna 基线登记未修）
   3. L659（p.12）全角逗号 "，"→","
@@ -149,8 +149,9 @@
   5. L741（p.14）`ε′|\stackrel{\sim}{p}_1|`→`ε′|p_1|`（Luna 基线登记未修的遗留错误）
   6. L789（p.15）`$=0 .$.` 双句点→单句点
   7. L839（p.15）"First freezing t" bullet 补 "- "
-  8. L867（p.16）HTML 残留 `α<sub>22</sub>`→`$\alpha_{22}$`
+  8. L867（p.16）HTML 残留 `α<sub>22</sub>`→`$\alpha_{22}$`（该行 bullet 原本就在，仅替换记号）
   9. L959（p.17）/L965、L971（p.18）三条 bullet 补 "- "（Step 3 三情况至此齐全）
+  （上表按行号分组共 9 组、按修复处数计 13：1+2+1+2+1+1+1+1+3。）
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
