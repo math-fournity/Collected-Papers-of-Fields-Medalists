@@ -302,7 +302,7 @@ $$
 E = L \oplus L ^ {- 1}
 $$
 
-of the  $C^{2}$  vector bundle E associated to P compatible, in the obvious sense, with the connection. Topologically the complex line bundles are classified by the first Chern class in  $H^{2}(X; \mathbf{Z})$ , and since by the Cartan formula
+of the  $C^{2}$  vector bundle E associated to P compatible, in the obvious sense, with the connection. Topologically the complex lie bundles are classified by the first Chern class in  $H^{2}(X; \mathbf{Z})$ , and since by the Cartan formula
 
 $$
 c _ {2} \big (L \oplus L ^ {- 1} \big) = - c _ {1} (L) ^ {2}
@@ -316,15 +316,15 @@ $$
 
 of §I.2. (The factor  $\frac{1}{2}$  appearing since we have a choice of L,  $L^{-1}$ .) Hence by Proposition 3 and the remark at the end of §I.5, there is a unique self-dual connection on P, up to equivalence, for each of these  $n(Q)$  reductions.
 
-If A is a reducible connection on P corresponding to a splitting  $E = L \oplus L^{-1}$ , then for any  $e^{i\theta} \in S^{1}$  the element  $\gamma$  of the group of automorphisms G corresponding to a constant rotation of L by  $e^{i\theta}$  and  $L^{-1}$  by  $e^{-i\theta}$  is a covariant constant;  $d_{A}\gamma = 0$ . Hence  $\gamma$  fixes A in Q, and moreover the action of  $\gamma$  on bundle-valued forms commutes with all the differential operators associated with A. In particular the stabiliser  $\Gamma_{A} \cong S^{1}$  of A in Q acts on the harmonic sub-spaces  $H_{A}^{1}, H_{A}^{2}$  of the g valued forms. The bundle g splits naturally into the direct sum of a trivial line bundle and the complex line bundle  $L^{2}$ . It will become important to note that since
+If A is a reducible connection on P corresponding to a splitting  $E = L \oplus L^{-1}$ , then for any  $e^{i\theta} \in S^{1}$  the element  $\gamma$  of the group of automorphisms $\mathcal{G}$ corresponding to a constant rotation of L by  $e^{i\theta}$  and  $L^{-1}$  by  $e^{-i\theta}$  is a covariant constant;  $d_{A}\gamma = 0$ . Hence  $\gamma$  fixes A in $\mathcal{Q}$, and moreover the action of  $\gamma$  on bundle-valued forms commutes with all the differential operators associated with A. In particular the stabiliser  $\Gamma_{A} \cong S^{1}$  of A in $\mathcal{Q}$ acts on the harmonic sub-spaces  $H_{A}^{1}, H_{A}^{2}$  of the $\mathfrak{g}$ valued forms. The bundle $\mathfrak{g}$ splits naturally into the direct sum of a trivial line bundle and the complex line bundle  $L^{2}$ . It will become important to note that since
 
 $$
-H ^ {1} (X; \mathbf {R}) = \mathcal {K} _ {-} ^ {2} (X) = 0,
+H ^ {1} (X; \mathbf {R}) = \mathcal{H} _ {-} ^ {2} (X) = 0,
 $$
 
 the harmonic spaces $H_A^1$, $H_A^2$ are contained entirely within the complex part $\Omega^p (L^2)$, acted on by $\Gamma_A$ in the obvious way.
 
-Conversely, if a connection A has a nontrivial stabiliser  $\Gamma_{A}$  in G, then it is reducible. Similarly a connection is reducible if and only if the harmonic space  $H_{A}^{0}$  of covariant constant sections of g is not zero, and this is then one dimensional.
+Conversely, if a connection A has a nontrivial stabiliser  $\Gamma_{A}$  in $\mathcal{G}$, then it is reducible. Similarly a connection is reducible if and only if the harmonic space  $H_{A}^{0}$  of covariant constant sections of $\mathfrak{g}$ is not zero, and this is then one dimensional.
 
 Theorem 6. (i) B is a Hausdorff space, and the open subset  $B^{*}$  of equivalence classes of irreducible connections forms a Banach manifold, with charts constructed from “slices”:
 

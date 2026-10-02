@@ -96,3 +96,15 @@
   - **修复×5**（均 300dpi 裁片裁决）：① 行 263 与 ② 行 269 印刷均为 `Ω²₋(𝔤)`，md `\Omega_-(\mathfrak{g})` 丢上标 ² → 补 `\Omega^2_-`；③ 行 277 同字形花体 K → `\mathcal{H}`（同 p.7 规则）；④ 行 294 商空间印刷为 `𝔅 = 𝒬/𝔤`（分子草书 𝒬 同 p.3 字形、分母 Fraktur 𝔤 与 Ω(𝔤) 中一致），md `\mathscr{A}/\mathfrak{g}` 分子误作草书 A → 改 `\mathcal{Q}`；⑤ 行 297 记号行印刷 `p: 𝒬 → 𝔅`，md `\mathcal{A}\to\mathcal{B}` 两字形皆误 → 改 `\mathcal{Q}\to\mathfrak{B}`；同行 "the moduli space **ℳ**"（印刷圆弧草书 M，与行 291 定义处 Fraktur 𝔐 不同字形）md 拍平为 M → 改 `$\mathscr{M}$`，"the ambient space **𝔅**" 拍平为 B → 改 `$\mathfrak{B}$`。
   - 排版级伪影（登记不改）：Proposition 5 结论行斜体、*moduli space* 斜体在 md 中为正体。
 - 修复登记：行 263/269 `\Omega_-`→`\Omega^2_-`；行 277 `\mathcal{K}`→`\mathcal{H}`；行 294 `\mathscr{A}`→`\mathcal{Q}`；行 297 `\mathcal{A}\to\mathcal{B}`→`\mathcal{Q}\to\mathfrak{B}`、`M`→`$\mathscr{M}$`、`B`→`$\mathfrak{B}$`（依据 `audit-redo/p008.png` + 300dpi 裁片）。
+
+### p.009（PDF p.9 / 印刷 p.287）
+
+- PNG：`audit-redo/p009.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（"complex lie bundles" 用词、§I.2/§I.5 引用、fixes-A-in 字形、Ω^p(L²) 上标、stabiliser 行字形，结论记于本条）
+- 核对：reducible connections 讨论段；E=L⊕L⁻¹ 分解；c₂(L⊕L⁻¹)=−c₁(L)²；n(Q)=½|{α∈H²(X;Z)|Q(α)=1}|；§I.2/§I.5 引用；γ 固定 A 与 stabiliser Γ_A≅S¹ 段；H¹(X;R)=ℋ²₋(X)=0 式；Ω^p(L²) 段；Conversely 段
+- 结果：**PASS±**（含一处 print quirk 复原 + 六处字形拍平修复）。
+  - 公式全部吻合：`E=L\oplus L^{-1}`、`c_2(L\oplus L^{-1})=-c_1(L)^2`、`n(Q)=\frac12|\{\alpha\in H^2(X;\mathbf{Z})\mid Q(\alpha)=1\}|`、`H^1(X;\mathbf{R})=\mathcal{H}^2_-(X)=0`（修复后）。
+  - 300dpi 仲裁：印刷 "the complex **lie** bundles"（"line" 之排印误植）→ **Luna 静默改正为 "line"，违背 print quirk 忠实原则，本次 Edit 复原为 "lie" 并在此登记**；同页后文 "trivial line bundle / complex line bundle L²" 印刷确为 line，不动。
+  - 印刷 §I.2、§I.5 为罗马 I，md 原本即正确；印刷 `Ω^p(L²)` 上标确为斜体 p（非 0/2），md `$\Omega^p(L^2)$` 正确（语义存疑但忠实保留）。
+  - **修复×6**（同页字形拍平，均 300dpi 裁片裁决）：行 319 "automorphisms G"→`$\mathcal{G}$`；"fixes A in Q"→`$\mathcal{Q}$`（印刷确为草书 𝒬，γ 固定的是连接本身，语义亦通）；"of A in Q"→`$\mathcal{Q}$`；"the g valued forms"与"The bundle g splits"→`$\mathfrak{g}$`；行 327 "in G"→`$\mathcal{G}$`、"sections of g"→`$\mathfrak{g}$`。行 322 display 中 `\mathcal{K}`→`\mathcal{H}`（同 p.7/p.8 同字形规则）。
+  - 排版级伪影（登记不改）：*reducible connections* 斜体等在 md 中为正体。
+- 修复登记：行 305 "line"→"lie"（print quirk 复原）；行 319 G→`$\mathcal{G}$`、两处 Q→`$\mathcal{Q}$`、两处 g→`$\mathfrak{g}$`；行 322 `\mathcal{K}`→`\mathcal{H}`；行 327 G→`$\mathcal{G}$`、g→`$\mathfrak{g}$`（依据 `audit-redo/p009.png` + 300dpi 裁片）。
