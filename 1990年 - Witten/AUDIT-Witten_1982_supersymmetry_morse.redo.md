@@ -31,3 +31,8 @@
 - PNG：`audit-redo/p004.png`（pngmono 150dpi）
 - 核对：mass gap 续段、index 方法段、`𝓗₀ = 𝓗₀⁺ ⊕ 𝓗₀⁻` 分解段、`Q₊ + Q₋` 与 `Tr(−1)^F` 段、[21] 与 φ⁴ 段、章节路线段。
 - 结果：PASS±。正文逐段与印刷页相符，含 `Q_i^2 = Q_j^2 = H`、`Tr(-1)^F`、`$\phi^{4}$`、(1)-(4)/(5) 引用及跨页断点（"can usefully be applied to supersymmetry." 起本页）。**Luna 旧修复重核：本页 `\mathscr{H}_0`/`\mathscr{H}_0^{\pm}`/`\mathscr{H}` 系列（md line 93/95/97）与印刷 script 记号一致，13 处修复正确**。差异仅：页眉 "664 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.005（PDF p.5 / 印刷 p.665）
+- PNG：`audit-redo/p005.png`（pngmono 150dpi）
+- 核对：§2 标题；公式 (9)–(12)；Betti 数 `B_p(t)` 不变性段；跨页断点 "We will be"。
+- 结果：PASS±。(9) `Q_1 = d + d*, Q_2 = i(d - d*), H = dd* + d*d`、(10) `Q_1^2 = Q_2^2 = H, Q_1Q_2 + Q_2Q_1 = 0`、(11) `d_t = e^{-ht}de^{ht}, d_t^* = e^{ht}d^*e^{-ht}`、(12) `Q_{1t}, Q_{2t}, H_t` 各项及前后正文逐项与印刷页相符；`d^2 = d^{*2} = 0`、`e^{th}`、`B_p(t)` 记号一致；跨页断点与印刷页一致（line 139 末 "We will be"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 665" 未入 md（版面信息省略）。
