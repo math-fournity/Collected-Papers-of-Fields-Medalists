@@ -58,7 +58,7 @@ Nous considérerons exclusivement le cas où X est un schéma sur un corps fini 
 Pour $x \in |X|$, nous écrirons $q_x$ plutôt que $N(x)$. Posant $\deg(x) = [k(x) : \mathbf{F}_q]$, on a $q_x = q^{\deg(x)}$. Il y a intérêt à introduire la variable $t = q^{-s}$. Posons
 
 $$
-Z (X; t) = \prod_ {x \in | X |} (1 - t ^ {\deg (x)}) ^ {- 1};\tag{\( (1.1.2) \}
+Z (X; t) = \prod_ {x \in | X |} (1 - t ^ {\deg (x)}) ^ {- 1};\tag{1.1.2}
 $$
 
 ce produit infini converge pour  $|t|$  assez petit, et on a
@@ -73,7 +73,7 @@ Pour Grothendieck, c'est là un corollaire de résultats généraux en cohomolog
 
 Nous ferons un usage essentiel des résultats de Grothendieck, et les rappelons ci-dessous.
 
-(1.3) Soit X une variété algébrique sur un corps algébriquement clos $k$ de caractéristique $p$, i.e. un schéma séparé de type fini sur $k$. On n'exclut pas le cas $p=0$. Pour tout nombre premier $\ell\neq p$, Grothendieck a défini des groupes de cohomologie $\ell$-adiques $\mathrm{H}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Il a aussi défini des groupes de cohomologie à support propre $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Pour X propre, les deux coïncident. Les $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$ sont des espaces vectoriels de dimension finie sur $\mathbf{Q}_{\ell}$, nuls pour $i>2\dim(\mathrm{X})$.
+(1.3) Soit X une variété algébrique sur un corps algébriquement clos $k$ de caractéristique $p$, i.e. un schéma séparé de type fini sur $k$. On n'exclut pas le cas $p=o$. Pour tout nombre premier $\ell\neq p$, Grothendieck a défini des groupes de cohomologie $\ell$-adiques $\mathrm{H}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Il a aussi défini des groupes de cohomologie à support propre $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$. Pour X propre, les deux coïncident. Les $\mathrm{H}_{c}^{i}(\mathrm{X},\mathbf{Q}_{\ell})$ sont des espaces vectoriels de dimension finie sur $\mathbf{Q}_{\ell}$, nuls pour $i>2\dim(\mathrm{X})$.
 
 (1.4) Soient  $X_{0}$  une variété algébrique sur  $F_{q}$,  $\overline{F}_{q}$  une clôture algébrique de  $F_{q}$  et X la variété algébrique sur  $\overline{F}_{q}$  déduite de  $X_{0}$  par extension des scalaires de  $F_{q}$  à  $\overline{F}_{q}$. Dans le langage de Weil ou Shimura, on exprimerait cette situation par : « Soit X une variété algébrique définie sur  $F_{q}$ ». Soit  $F : X \to X$  le morphisme de Frobenius; il envoie le point de coordonnées x vers le point de coordonnées  $x^{q}$; en d'autres termes, pour  $U_{0}$  un ouvert de Zariski de  $X_{0}$, définissant un ouvert U de X, on a  $F^{-1}(U) = U$; pour  $x \in H^{0}(U_{0}, \mathcal{O})$, on a  $F^{*}x = x^{q}$. Identifions l'ensemble |X| des points fermés de X à  $X_{0}(\overline{\mathbf{F}}_{q})$  (l'ensemble  $\operatorname{Hom}_{\mathbf{F}_{q}}(\operatorname{Spec}(\overline{\mathbf{F}}_{q}), X_{0})$  des points de  $X_{0}$  à coefficients dans  $\overline{F}_{q}$), et soit
 
@@ -105,7 +105,7 @@ $$
 \# \mathbf {X} ^ {\mathrm{F}} = \sum_ {i} (- 1) ^ {i} \operatorname{Tr} (\mathrm{F} ^ {*}, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathbf {Q} _ {\ell}));
 $$
 
-le membre de droite, a priori un nombre ℓ-adique, est entier, et égal au membre de gauche. On notera qu'une telle formule n'est raisonnable que parce que dF=0, même à l'infini (X n'est pas supposé propre); la relation dF=0 implique que les points fixes de F sont de multiplicité un.
+le membre de droite, a priori un nombre ℓ-adique, est entier, et égal au membre de gauche. On notera qu'une telle formule n'est raisonnable que parce que dF=o, même à l'infini (X n'est pas supposé propre); la relation dF=o implique que les points fixes de F sont de multiplicité un.
 
 Une formule analogue vaut pour les itérés de F :
 
