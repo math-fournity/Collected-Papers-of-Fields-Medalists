@@ -1,0 +1,29 @@
+# AUDIT-frey1986.redo — Luna 审计重做（逐页对照 PDF 全量重检）
+
+- 性质：Luna 审计重做（用户 2026-10-02 判定 Luna 审计不可信，逐页对照 PDF 全量重检，旧修复一并重核）
+- actor：Wf-R-P06
+- host/model/effort：zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（run级配置，自报UNKNOWN）
+- PDF SHA256：0f092a804000ad55d39506015516777fee288a4b8de65bb9e41a738cb6a87ab0
+- MD 基线 SHA256（重做起点，frey1986_mineru/frey1986__frey1986.md）：dfee1701475ac1593bb55affe56e397537db988b9cf2788d22971602d481835f
+- 日期时间：2026-10-02 16:11 EDT 起
+- 范围：本文件块只覆盖 p.1–p.9（共 40 页，后续块由其他 worker 接续）
+- 证据图：`1998年 - Wiles/audit-redo/p0NN.png`（gs pngmono 150dpi；旧 `audit/` 不动）
+- 文本层判定：`pdftotext -f 1 -l 1` 输出散文大体可读但数学区域严重 OCR 失真
+  （例：`z_1·z_2·z_3 ≠ 0` → `21-22-23 + O`、`C_{F_n}` → `CF`），
+  **判定=部分可用（仅散文/结构旁证，公式不可用）**；主裁决 = 150dpi PNG 视觉逐页核对。
+- 分级与纪律：按 AUDIT-SOP；print quirk/错字忠实登记不改正；修复用结构化 Edit 逐处修改并逐页 commit；
+  禁止写根级文件，进度以本文件页条目 + 逐页 commit 承载（AUDIT-PROGRESS.log 属根级，本块不写）。
+
+---
+
+## p.001（PDF p.1 / 印刷 p.1）
+- PNG：audit-redo/p001.png（pngmono 150dpi）
+- 核对：题录（标题两行下划线/By/Gerhard Frey）；I. Introduction 开篇；式 $C_{F_n}: z_1^n - z_2^n = z_3^n$；
+  解的定义句（$(z_1,z_2,z_3)\in\mathbb{Z}^3$、$z_1\cdot z_2\cdot z_3\neq 0$、$\gcd=1$）；
+  $n=1,2$ 无穷多解 / $n=3$ 无解 / $n>3$ 有限多解句；CONJECTURE F_n 陈述（$n\geq 3$ 无解）。
+- 结果：PASS
+- 备注：①300dpi 仲裁（/tmp 裁剪比对）：印刷 CONJECTURE 后下标为 **n**（非 p），MD line 21 `$F_{n}$` 忠实；
+  ②印刷把 Faltings 印作 **"Falting's theorem"**（300dpi 仲裁确认，专名少 s），MD 忠实保留，属 print quirk 不改；
+  ③文本层 pdftotext 该页数学区失真（`21-22-23 + O` 等），未作裁决依据。本次无 MD 修改。
+
+---
