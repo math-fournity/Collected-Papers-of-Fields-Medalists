@@ -316,7 +316,7 @@ $$
 
 wo S die mittlere Blätteranzahl, L die Länge des relativen Randes bezeichnet.
 
-Es soll zunächst kurz erklärt werden, wie man zu dieser Formulierung kommt. Aus der Hurwitzschen Relation $\varrho = N\varrho_{0} + w$ folgt die weniger genaue Ungleichung $\varrho \geq N\varrho_{0}$. Um diese Ungleichung auf den Fall einer berandeten Überlagerungsfläche zu verallgemeinern ersetzen wir $N$ durch die mittlere Blätterzahl $S$ und fügen rechts ein Restglied hinzu. Die Ungleichung (II. I) besagt im Falle $\varrho > 0$, dass für dieses Restglied eine ähnliche Abschätzung gilt wie in (I. I) und (I. 2). Wenn $\varrho = -1$ ist, so ist es klar dass man auf der linken Seite Null schreiben muss, denn $S$ und $L$ können beliebig klein sein.
+Es soll zunächst kurz erklärt werden, wie man zu dieser Formulierung kommt. Aus der Hurwitzschen Relation $\varrho = N\varrho_{0} + w$ folgt die weniger genaue Ungleichung $\varrho \geq N\varrho_{0}$. Um diese Ungleichung auf den Fall einer berandeten Überlagerungsfläche zu verallgemeinern ersetzen wir $N$ durch die mittlere Blätterzahl $S$ und fügen rechts ein Restglied hinzu. Die Ungleichung (II. 1) besagt im Falle $\varrho > 0$, dass für dieses Restglied eine ähnliche Abschätzung gilt wie in (I. 1) und (I. 2). Wenn $\varrho = -1$ ist, so ist es klar dass man auf der linken Seite Null schreiben muss, denn $S$ und $L$ können beliebig klein sein.
 
 Wir bemerken schliesslich, dass der Satz trivial ist für $\varrho_{0} \leq 0$. Wir brauchen also nur solche Grundflächen zu betrachten, deren Charakteristik $\varrho_{0}$ positiv ist.
 

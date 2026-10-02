@@ -160,4 +160,15 @@
 - 结果：PASS±。无内容修复项；定理句斜体丢失登记（系统性）。
 - 与 Luna 旧记录交叉：旧修复内容正确；本次另核 (II. 1) 编号数字 1 正确（p.008 同类问题在本页不存在）。
 
+### p.013（PDF p.13 / 印刷 p.169）
+
+- audited_at=2026-10-02 18:15 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p013.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p013_formelref_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 169）、Es soll zunächst 段（ϱ=Nϱ₀+w、ϱ≧Nϱ₀、mittlere Blätterzahl S、(II. 1) 引用、ϱ>0、(I. 1)/(I. 2) 引用、ϱ=−1、Null schreiben）、Wir bemerken 段（ϱ₀≦0）、编号段 12（q>2、ϱ₀=q−2、γ₁,…,γ_q、Δ′/Δ″）、Die Überlagerungsfläche W ist definiert 段、Die folgenden Betrachtungen 段、公式 (5) 重复 `ϱ≧n(σ)−N(Ω).`（句点在、\tag{5}）、页底 imprint 行「22—34686. Acta mathematica. 65. Imprimé le 8 février 1935.」（位置：印刷在 (5) 式下方页底，MD 行 333 同位独立行 ✓）。
+- 发现并修复（MD 结构化 Edit，1 处含 2 字形）：行 319 正文公式引用「(II. I)」→「(II. 1)」、「(I. I)」→「(I. 1)」——300dpi 裁片显示两处均为旗头短杆旧式数字 **1**（段内移交项核销）；同段 (I. 2) 原本正确。
+- 同形登记（不改）：印刷「ϱ > o」与「ϱ₀ ≦ o」的 o 形字符（0/o 同形，同 p.008/p.012 类）；MD 维持 0。
+- 结果：PASS±（引用编号修复后与印刷一致）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.13 行；本次修复的两处引用编号 I/1 系旧审计未检出项。
+- 备注：本页印刷将 (5) 式原样重排一次（编号同为 (5)），MD 忠实保留重排与同号，✓。
+
 <!-- redo-tail -->
