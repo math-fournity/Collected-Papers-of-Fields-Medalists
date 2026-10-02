@@ -441,3 +441,12 @@
 - 核对：Lemma A.15 injectivity continuation、Propositions A.16–A.17；§A.3 geometric-point setup、Definition A.18 的 periodic tuple 与 φ-map；Theorem A.19。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Proposition A.17 的 printed formula 是 `\sigma^{f'}([(E,\nabla)])=[(E,\nabla)]`，Markdown 在 `\sigma` 上多出圆圈。§A.3 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头；Definition A.18 的 `\phi_i` 对象 `C_1^{-1}(\operatorname{gr}_F E_{W_n}^i,\mathrm{KS}_i)` 被加上额外 `\cdot` 上标，且 prose 中 `\mathsf{MIC}_{p-1}` 被录成 `\mathsf{MlC}_{p-1}`。300dpi 裁片核实 `\sigma`、`\mathrm{KS}_i`、point map 与 MIC identifier。PASS± 拼写伪影：`Grifithstransverse` 与 reference/citation spacing noise。
+
+## p.050（PDF p.50 / 印刷 p.50）
+- 时间：2026-10-02 02:53:30 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p050.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p050-TheoremA20-periodic-identity.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p050-Betti-TheoremA22.png`
+- 核对：Theorem A.20 periodic lift identity; Remark A.21; Betti representations, their extension to the étale fundamental group, and Theorem A.22.
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Theorem A.20 的 periodic identity 应将 `C_n^{-1}\circ\overline{gr}` 作用后的 connection 指标写为 `\nabla_{W_n}^{\sigma(i)}`；Markdown 保留了 `\nabla_{W_n}^{i}`。Betti moduli passage 两处把表示数上界 `n_r` 错作 `n`、`n_i`；embedding `\mathcal O_F → W(\overline{\mathbb F}_p)` 漏箭头。Remark A.21 的 `End(E_{\mathbb C,an})^{End(\nabla_{\mathbb C})}` invariant group 又被拆成 HTML sub/sup 标签与乱码。两张 300dpi 裁片核实 connection index、rank-count indices、embedding arrow 与 cohomology invariant。
