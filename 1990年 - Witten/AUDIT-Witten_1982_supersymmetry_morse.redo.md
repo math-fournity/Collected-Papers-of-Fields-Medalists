@@ -76,3 +76,8 @@
 - PNG：`audit-redo/p013.png`（pngmono 150dpi）；`Z→` quirk 独立终裁：`audit-redo/300dpi/p013_redefinition.png`（300dpi 裁片，本轮自摄）。
 - 核对：WKB 符号确定两段；(29) `δ̃|a⟩ = Σ_b e^{−t(h(B)−h(A))} n(a,b)|b⟩`；`e^{th}` 共轭消除与状态重定义行；脚注 6–7。
 - 结果：PASS±。(29)、正文（含 "the |a⟩ falls off like exp − th(φ)"——印刷 "the" 作引导词被 md 忠实保留）及脚注 6（[13, 171–178]、[19]）、脚注 7（绝对值可去条件、h(B) > h(A)）逐项与印刷页相符。print quirk：状态重定义行印刷原样为 "e^{−th(A)}|a⟩**Z**→|a⟩"，本轮 300dpi 裁片独立复核确认 `Z` 字形确实见于印刷（Luna 保留决定正确），md line 335 的 `Z\to` 忠实保留，不按数学预期删除。**Luna 旧修复重核：4 个 DocVortex 脚注碎片清除后无残留，完整脚注 7 保留，正确**。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 673" 未入 md（版面信息省略）。
+
+## p.014（PDF p.14 / 印刷 p.674）
+- PNG：`audit-redo/p014.png`（pngmono 150dpi）
+- 核对：退化 Morse 情形设定段（`N_i`、Morse index `p_i`、负丛 `Λ(N_i)`）；`V(φ) = t²(dh)²` 段；`M(N_0)` 纤维丛邻域与 `d̃` 段；(30) `H_t = (d̃d̃* + d̃*d̃) + H′`；`|α(m;n)⟩` 段；Born–Oppenheimer 段开头。
+- 结果：PASS±。(30) 各项、`D^2h/Dφ^iDφ^j`、`Λ(N_0)`、`p_i`-维负丛及正文逐项与印刷页相符。排版级伪影：印刷破折号 "state |α(m; n)⟩—n denoting…" 在 md 拍平为 "⟩ - n denoting"（line 359），不误导，登记不改。跨页断点一致（line 361 末 "large energy associated"）。差异仅：页眉 "674 EDWARD WITTEN" 未入 md（版面信息省略）。
