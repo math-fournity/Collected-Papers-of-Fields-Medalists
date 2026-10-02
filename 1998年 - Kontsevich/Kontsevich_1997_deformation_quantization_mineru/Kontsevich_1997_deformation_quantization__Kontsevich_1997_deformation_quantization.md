@@ -364,9 +364,9 @@ $$
 \mathbf {g} = \bigoplus_ {k \in \mathbf {Z}} \mathbf {g} ^ {k} [ - k ]; \quad \mathbf {g} ^ {k} = \Gamma (X, \Omega_ {X} ^ {0, k} \otimes T _ {X} ^ {1, 0}) \text {for} k \geq 0, \quad \mathbf {g} ^ {<   0} = 0
 $$
 
-with the diferential equal to${ \overline { { \partial } } } ,$and the Lie bracket coming from the cup-product on$\overline { { \partial } } .$forms and the usual Lie bracket on holomorphic vector fields.
+with the diferential equal to${ \overline { { \partial } } } ,$and the Lie bracket coming from the cup-product on${ \overline { { \partial } } }$-forms and the usual Lie bracket on holomorphic vector fields.
 
-The deformation functor related with g is the usual deformation functor for complex structures on$X$ The set$D e f _ { \mathbf { g } } ( \mathbf { m } )$can be naturally identified with the set of equivalence classes of analytic spaces$\widetilde { X }$endowed with a flat map$p : \widetilde { X } \longrightarrow S p e c ( \mathbf { m } ^ { \prime } )$, and an identification$i : \tilde { X } \times _ { S p e c ( \mathbf { m } ^ { \prime } ) } S p e c ( \mathbf { C } ) \simeq X$eof the special fiber of $p$with X.
+The deformation functor related with g is the usual deformation functor for complex structures on$X$ The set$D e f _ { \mathbf { g } } ( \mathbf { m } )$can be naturally identified with the set of equivalence classes of analytic spaces$\widetilde { X }$endowed with a flat map$p : \widetilde { X } \longrightarrow S p e c ( \mathbf { m } ^ { \prime } )$, and an identification$i : \tilde { X } \times _ { S p e c ( \mathbf { m } ^ { \prime } ) } S p e c ( \mathbf { C } ) \simeq X$ of the special fiber of $p$with X.
 
 ## 3.4.2. Hochschild complex
 
@@ -394,7 +394,7 @@ $$
 \left[ \Phi_ {1}, \Phi_ {2} \right] = \Phi_ {1} \circ \Phi_ {2} - (- 1) ^ {k _ {1} k _ {2}} \Phi_ {2} \circ \Phi_ {1}, \quad \Phi_ {i} \in \mathbf {g} ^ {k _ {i}},
 $$
 
-where the (non-associative) product is defined as
+where the (non-associative) product $\circ$ is defined as
 
 $$
 \begin{array}{c} (\Phi_ {1} \circ \Phi_ {2}) (a _ {0} \otimes \ldots \otimes a _ {k _ {1} + k _ {2}}) = \\ = \sum_ {i = 0} ^ {k _ {1}} (- 1) ^ {i k _ {2}} \Phi_ {1} (a _ {0} \otimes \ldots \otimes a _ {i - 1} \otimes (\Phi_ {2} (a _ {i} \otimes \ldots \otimes a _ {i + k _ {2}})) \otimes a _ {i + k _ {2} + 1} \otimes \ldots \otimes a _ {k _ {1} + k _ {2}}) . \end{array}
@@ -406,9 +406,9 @@ $$
 F = \bigoplus_ {n \geq 1} \otimes^ {n} (A [ 1 ]) .
 $$
 
-Graded Lie algebra$\mathbf { g }$is the Lie algebra of coderivations of$F$in the tensor category$G r a d e d ^ { \mathbf { k } }$. The associative product on$A$gives an element m$A \in { \bf g } ^ { 1 }$, m$\mathbf { \delta } _ { A } : A \otimes A { \longrightarrow } A$satisfying the equation$[ m _ { A } , m _ { A } ] = 0$ The diferential d in$\mathbf { g }$is defined as$a d ( m _ { A } )$
+Graded Lie algebra$\mathbf { g }$is the Lie algebra of coderivations of$F$in the tensor category$G r a d e d ^ { \mathbf { k } }$. The associative product on$A$gives an element$m _ { A } \in { \bf g } ^ { 1 }$, $m _ { A } : A \otimes A { \longrightarrow } A$satisfying the equation$[ m _ { A } , m _ { A } ] = 0$ The diferential d in$\mathbf { g }$is defined as$a d ( m _ { A } )$
 
-Again, the deformation functor related to g is equivalent to the usual deformation functor for algebraic structures. Associative products on A correspond to solutions of the Maurer- Cartan equation in$\mathbf { g } .$The set $D e f _ { \mathbf { g } } ( \mathbf { m } )$is naturally identified with the set of equivalence classes of pairs$( \widetilde { A } , i )$where$\widetilde { A }$is an associative algebra over$\mathbf { m } ^ { \prime } = \mathbf { m } \oplus \mathbf { k } \cdot \mathbf { \mathrm { 1 } }$such that$\widetilde { A }$e eis free as an m′-module, and i an isomorphism of k-algebras $\overset { \triangledown } { \boldsymbol { A } } \otimes _ { \mathbf { m ^ { \prime } } } \mathbf { k } \simeq \boldsymbol { A }$
+Again, the deformation functor related to g is equivalent to the usual deformation functor for algebraic structures. Associative products on A correspond to solutions of the Maurer- Cartan equation in$\mathbf { g } .$The set $D e f _ { \mathbf { g } } ( \mathbf { m } )$is naturally identified with the set of equivalence classes of pairs$( \widetilde { A } , i )$where$\widetilde { A }$is an associative algebra over$\mathbf { m } ^ { \prime } = \mathbf { m } \oplus \mathbf { k } \cdot \mathbf { \mathrm { 1 } }$such that$\widetilde { A }$ is free as an m′-module, and i an isomorphism of k-algebras $\widetilde { \boldsymbol { A } } \otimes _ { \mathbf { m } ^ { \prime } } \mathbf { k } \simeq \boldsymbol { A }$
 
 The cohomology of the Hochschild complex are
 
