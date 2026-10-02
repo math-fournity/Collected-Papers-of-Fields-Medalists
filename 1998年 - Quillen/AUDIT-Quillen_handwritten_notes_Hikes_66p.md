@@ -676,3 +676,15 @@
 - 页面边界：原图 p.63 以 `k=2` 的 γ/Adams 展开为末段；Markdown 第 2288 行起 “Proof of Theorem” 与 γ-series 计算属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复 perfect characteristic-`p` 条件、sphere proof、γ 换元和局部幂零例式。
 - 记录：2026-10-02 05:33:26 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.064（PDF p.64 / 纸面圈号 64）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p064.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p064_stable-stage-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p064_gamma-polynomial-proof.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p064_nilpotent-coefficients.png`。
+- 核对：`γ_t(x)` 的多项式性目标、`~K(X,A)=[X,BGL(A)^+]` 的稳定阶段表示图、有限阶段类的 `γ^k` 消失引理，以及秩 `n` 表示上的生成级数公式和页末系数幂零引理。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 p.64 开头称 `γ_t(x)` 是 `t` 的多项式，并写出 `~K(X,A)=[X,BGL(A)^+]`；基线第 2291 行将稳定幂零式中的 `γ^n(x)` 丢成 `x^n(x)`。第 2293 行的有限阶段图在 OCR 中塌成 `tan(π,X,GL_nA)`、孤立 `I/E/n/m` 等碎片，未保留原图从 `Hom(π_1X,GL_n(A))=[X,BGL_nA]` 经 ①、② 到 `~R(π,X;A)`、稳定 `BGL(A)^+` 与 `~K(X,A)` 的对象和映射关系。原图的阶段引理说明若 `x` 来自 `[X,BGL_n(A)^+]`，则 `γ^k x=0`（`k>n`）；基线第 2295–2296 行把 `γ^k([E]-n)=0` 与表示条件/秩条件拆成残缺句。生成级数原图为 `γ_t([E]-n)=γ_t(E)/γ_t(n)=γ_t(E)(1-t)^n=λ_{t/(1-t)}(E)(1-t)^n`，并展开至 `λ^n(E)(t/(1-t))^n`，由 `Λ^kE=0`（`k>n`）推出次数 `≤ n`；基线第 2298–2300 行把 `λ_{t/(1-t)}(E)` 误排成分子/分母，并将 `λ^1(E)` 记号识成撇号。第 2305 行将原图的 `γ_t(x)γ_t(-x)=γ_t(0)=1` 读成 `r_t`。页末“若 `(f,a)=1`，则 `i>0` 的 `x_i` 系数幂零”引理与原图大体相符，保留作与下一页衔接的边界锚点。
+- 页面边界：原图 p.64 末尾是上述系数幂零引理；基线第 2310 行起的 `γ`-filtration 局部幂零论述尚待 p.65 原图核对。
+- 修复状态：待 66 页逐页审计完成后，按已留 300dpi 裁片用 Edit/apply_patch 逐处修复有限阶段图、`γ`/`λ` 公式和上标记号，再按扫描件模式复读最终全文。
+- 记录：2026-10-02 05:44:41 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+- 字形保留：页末系数幂零引理的结论 `i>0` 的 `x_i` 系数 nilpotent 可辨；假设中的函数/元素关系在 300dpi 图上仍不能唯一判读。OCR 为 `(f,a)=1`，仅作 OCR 转录，精确假设标记 `UNKNOWN`。
