@@ -107,3 +107,10 @@
 - 核对：Lemma 证明收尾（归纳构造、Q.E.D.）、奇点理论旁注（[AGV] 11.1、f=constant+Q₂(x)+Q_{≥3}(y)）、g/g^min 投影-包含两态射式、拟同构传递式、g₁^min⟶g₂^min 式、minimal 拟同构可逆段（含印刷原缺 of 的 "the set equivalence classes" print quirk 忠实保留）、§4.5.2 节标题、Maps(Spec(m⊕k·1)…)⊂Maps(…(M,0)) 式、余代数 C 同态段、gauge equivalent 定义与 dp(t)/dt=[Q,ξ(t)]_{|p(t)} 式、g¹⊗m⊗k[t] 段、Hom_{Graded^k} 公式（MD 行 623–671）。
 - 结果：`FAIL`→6 处已修复（PNG/文本层确凿）：①行 627 `an$L_{\infty}.$-algebra` 杂散句点；②行 645 `$L_{\infty}{-}\mathrm{a}$lgebras` 拆词→`$L_{\infty}$-algebras`；③行 655 `the coalgebra  corresponding`→`the coalgebra$C$corresponding`（斜体 C 丢失，与 p.010 同类）；④行 655 `base point to$(M,0)$`→`base point ) to$(M,0)$`（闭括号丢失）；⑤行 657 `gauge equivalent if`→`iff`（ff 连字吞失）；⑥行 657 `of degree 1`→`of degree −1`（负号丢失，数学内容错误）。print quirk 忠实保留：行 645 印刷原文缺 "of"（"the set equivalence classes of L∞-algebras"），MD 原样。其余 PASS±：行 623 `afine`×2/`diferential`、行 649 `coeficients`（ff 拍平）；行 645/665 句末缺句点、行 645/665 直立体样式（登记）。公式行 630/636/642/652/660/668 与印刷逐符号吻合。
 - 备注：行 671 句子跨页（"solutions of the"→p.15），在 p.015 核对。
+
+## p.015（PDF p.15 / 印刷 p.15）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p015.png`（pngmono 150dpi）
+- 核对：Def_M 函子对应段（行 673）、四条性质 1)–4)（3.2 等价、自然变换、直和→函子积、linear contractible→平凡）、"Properties 2)-4)…Q.E.D."、super Q-manifold 推广段、§4.6/§4.6.1 节标题、D_poly(X) 定义段与 Hochschild 余链公式、T_poly(X)=Γ(X,∧^{n+1}T_X)、Schouten-Nijenhuis 括号两条公式（含 (−1)^{i+j+k} 与 (−1)^i ξ_i(h)）、De Rham 分叉段（ψ_i 奇变量）、[γ₁,γ₂]=γ₁•γ₂−(−1)^{k₁k₂}γ•γ₁ 与 γ₁•γ₂ 定义式（MD 行 673–734）。
+- 结果：`FAIL`→3 处已修复：①行 681 `$Def_{\mathbf{g}_1}\times Def_{\mathbf{g}_2}$，` 全角逗号 U+FF0C→ASCII `,`（杂散字符）；②行 683 `linear contractible L -algebra g`→`$L_{\infty}$-algebra`（∞ 丢失，本块第 2 处同型）；③行 699 `are functions in$(x_i)$`→`$(x^i).$`（印刷上标 x^i+句点，下标错为上标且缺句点）。print quirk 忠实保留：行 728 印刷第二项确为 `γ•γ₁`（无下标 2，应为 γ₂，原文如此）；行 731 `where introduce the following notation:`（原文缺 we）。其余 PASS±：`diferential`×5/`polydiferential`/`coeficients`（ff 拍平，含 §4.6.1 标题）。公式行 696/704/710/714/718/722/734 与印刷逐符号吻合。
+- 备注：行 737 起（evident map U₁^{(0)}）为印刷 p.16 内容，在 p.016 核对。

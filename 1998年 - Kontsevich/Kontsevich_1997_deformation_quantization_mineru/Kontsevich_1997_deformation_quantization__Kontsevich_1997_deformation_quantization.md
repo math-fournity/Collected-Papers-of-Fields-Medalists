@@ -678,9 +678,9 @@ One can easily prove the following properties:
 
 2) any$L _ { \infty }$-morphism gives a natural transformation of functors,
 
-3) the functor$D e f _ { \mathbf { g } _ { 1 } \oplus \mathbf { g } _ { 2 } }$corresponding to the direct sum of two$L _ { \infty } { \mathrm { - a l g e b r a s } }$, is naturally equivalent to the product of functors$D e f _ { { \bf g } _ { 1 } } \times D e f _ { { \bf g } _ { 2 } }$，
+3) the functor$D e f _ { \mathbf { g } _ { 1 } \oplus \mathbf { g } _ { 2 } }$corresponding to the direct sum of two$L _ { \infty } { \mathrm { - a l g e b r a s } }$, is naturally equivalent to the product of functors$D e f _ { { \bf g } _ { 1 } } \times D e f _ { { \bf g } _ { 2 } }$,
 
-4) the deformation functor for a linear contractible L -algebra g is trivial,$D e f _ { \mathbf { g } } ( \mathbf { m } )$is a one-element set for every m.
+4) the deformation functor for a linear contractible$L _ { \infty }$-algebra g is trivial,$D e f _ { \mathbf { g } } ( \mathbf { m } )$is a one-element set for every m.
 
 Properties 2)-4) are just trivial, and 1) is easy. It follows from properties 1)-4) that if an$L _ { \infty }$-morphism of diferential graded Lie algebras is a quasi-isomorphism, then it induces an isomorphism of deformation functors. The theorem is proven. Q.E.D.
 
@@ -696,7 +696,7 @@ $$
 f _ {0} \otimes \dots \otimes f _ {n} \mapsto \sum_ {\left(I _ {0}, \dots , I _ {n}\right)} C ^ {I _ {0}, \dots , I _ {n}} (x) \cdot \partial_ {I _ {0}} \left(f _ {0}\right) \dots \partial_ {I _ {n}} \left(f _ {n}\right)
 $$
 
-where the sum is finite,$I _ { k }$denote multi-indices,$\partial _ { I _ { k } }$denote corresponding partial derivatives, and$f _ { k }$and $C ^ { I _ { 0 } , \ldots , I _ { n } }$are functions in$( x _ { i } )$
+where the sum is finite,$I _ { k }$denote multi-indices,$\partial _ { I _ { k } }$denote corresponding partial derivatives, and$f _ { k }$and $C ^ { I _ { 0 } , \ldots , I _ { n } }$are functions in$( x ^ { i } ) .$
 
 The second diferential graded Lie algebra,$T _ { p o l y } ( X )$is the graded Lie algebra of polyvector fields on X:
 
