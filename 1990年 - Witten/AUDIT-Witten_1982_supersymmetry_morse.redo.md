@@ -46,3 +46,8 @@
 - PNG：`audit-redo/p007.png`（pngmono 150dpi）
 - 核对：跨页续段 `M_p ⩾ B_p`；局部坐标与 Taylor 展开 `h(φ_i) = h(0) + ½Σλ_iφ_i² + O(φ³)`；式 (15)–(18)（谐振子谱与 `K_i` 本征值 ±1）；p-形式限制与零模对应段。
 - 结果：PASS±。(15) `H̄_t = Σ_i(−∂²/∂φ_i² + t²λ_i²φ_i² + tλ_i[a^{i*}, a^i])`、(16) `H̄_t = Σ(H_i + tλ_iK_i)`、(17) `H_i = −∂²/∂φ_i² + t²λ_i²φ_i², K_j = [a^{j*}, a^j]`、(18) `tΣ_i(|λ_i|(1+2N_i) + λ_i n_i), N_i = 0,1,2,···, n_i = ±1` 及正文逐项与印刷页相符；`|λ_iφ_i| ≫ 1/√t`、`t|λ_i|(1+2N_i)` 一致。**Luna 旧修复重核：Taylor 余项 `O(φ^3)`（md line 167）与印刷一致，修复正确**。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 667" 未入 md（版面信息省略）。
+
+## p.008（PDF p.8 / 印刷 p.668）
+- PNG：`audit-redo/p008.png`（pngmono 150dpi）
+- 核对：零能态计数与弱形式结论段；强 Morse 不等式 (19)；`X_p`/`δ: X_p → X_{p+1}` 上同调模型段；脚注 2（Reed–Simon [16]，pp. 34–38）。
+- 结果：PASS±。(19) `Σ M_p t^p − Σ B_p t^p = (1 + t) Σ Q_p t^p` 及正文逐项与印刷页相符；`δ² = 0`、`Q_p` 非负整数陈述一致；脚注 2 全文（含 "pp. 34–38"、"double well potential"）相符；跨页断点一致（line 213 末 "we can go"）。差异仅：页眉 "668 EDWARD WITTEN" 未入 md（版面信息省略）。
