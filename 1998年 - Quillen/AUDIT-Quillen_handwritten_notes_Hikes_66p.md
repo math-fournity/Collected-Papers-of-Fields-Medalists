@@ -422,3 +422,14 @@
 - 页面边界：本页以“两映射均 epic 时可写出 K₂ 序列”及其 `K_2D→K_2A⊕K_2C→K_2B→K_1D` 公式结束；Markdown 第 1499 行起的 `Swan's Theorem` 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按四张 300dpi 裁片复核日期、稳定块矩阵指标及 Milnor `K_1/K_2` 序列末端对象。
 - 记录：2026-10-02 03:23:26 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.041（PDF p.41 / 纸面圈号 41）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p041.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p041_swan-statement.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p041_dual-numbers-square.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p041_K1-units.png`。
+- 核对：Swan 对仅一边 surjective 时 Mayer–Vietoris 第二结论的反例；对偶数环 `A[ε]` 的交换图与 `K_1` 正合列；交换环的 `K_1`/行列式说明及 `1+εA` 的单位。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 Swan 断言说不存在满足该条件的函子 `\overline{K_2}`，其序列以 `\overline{K_2}` 三项开头并以 `K_1B` 收尾；基线第 1499、1502 行均误作 `\overline{H_2}`，且第 1502 行末项漏掉 `B`。原图 p.41 的双数环方块写 `A[ε]` 与映射 `f',g'`；基线第 1519 行将 `ε` 识成 `E` 并把 `ε^2=0` 的说明拼接，旁边第 1508 行多出原图没有的 `H_1=...` 碎片。`K_1(A[ε])` 到 `K_1(A)` 的同构和中间 exact sequence 基本可辨，但第 1534 行原图对象为 `K_1A` 而非 `H_1A`，且 determinant 的目标为 `A^*`，基线写成 `A`；该行后面的 `SK_1` 短正合列也缺少正确的 `K_1A` 中间对象。原图随后明确列出 `1+εA` 是单位，以说明 `A[ε]^*\not\cong A^*`；基线第 1537、1540 行只留“假”而漏掉这一依据。
+- 页面边界：原图止于 `A[ε]^*` 的单位说明；Markdown 第 1543 行起的表示 `ρ:G→GL_nA` 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_2` 反例函子、双数环方块、`K_1`/determinant 与单位说明。
+- 记录：2026-10-02 03:28:59 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
