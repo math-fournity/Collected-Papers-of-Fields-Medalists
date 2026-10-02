@@ -374,3 +374,10 @@
 - 证据：源 PDF p.051 文本层、页图 `audit/Hironaka_1964_resolution_partI_p051.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p051_theorem_II_notation.png` 与 MinerU Markdown 第 815–825 行。印刷将第二主定理记为罗马数字 `II′(N)`/`II(N)`；Markdown 第 817 行将同段的 `II′(N)` 和两处 `II(N)` 都录为希腊字母 `\Pi`，第 819 行再次将 `II′(N)` 录为 `\Pi′(N)`。另印刷第 158 页 `\Gamma(X, O_X)` 与 `X=(X,O_X)` 的 sheaf 符号均为大写下标 `X`，Markdown 第 821 行两处均写作 `O_x`。相邻定理 I′/II″ 标识、基础定理 `I_2^{N,n}`、解析类比 `III(N,n)`、态射与变换链的其余对应文本已对照页图。
 - 备注：印刷运行页眉和页码 158 未录入 Markdown，属导航元素省略。
 - 结论：主定理 II/II′ 被误录为 Pi/Π，且结构层符号 `O_X` 的下标大小写错误，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.052 / 96（印刷 p.159）— FAIL
+
+- 时间：2026-10-02 03:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.052 文本层、页图 `audit/Hironaka_1964_resolution_partI_p052.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p052_theorem_IIprime.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p052_Zariski_notation.png`，并比对 MinerU Markdown 第 827、829–837 行。页首印刷写作 `II′(N)`，Markdown 第 827 行误录为希腊字母 `\Pi′(N)`。本页关于解析情形的限制、维数界、Question (M)、Zariski 空间及其规范态射、下标 0 和脚注 27 的正文均与印刷页对应；300dpi 裁片确认字体化 Z 及其下标，Markdown 对应使用 `\mathfrak{Z}`/`\mathfrak{Z}_0`。
+- 备注：印刷运行页眉和页码 159 未录入 Markdown，属导航元素省略。
+- 结论：定理 II′ 标识误录为 Pi′，列为 FAIL；待全篇审计结束后逐处手工修复。
