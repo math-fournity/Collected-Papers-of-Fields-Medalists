@@ -280,3 +280,12 @@
 - 核对：Theorem 8.1；Lemma 8.2 陈述及证明；§8.2 模型与 CM 点设定、Lemma 8.3 陈述和式 (8.2.1) 之前的基本群分解。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Lemma 8.2 证明中印刷变量为 `η_j`，Markdown 将 localization 的素理想写成 `\mathfrak h_{\mathcal j}`，随后又将其上方的素理想写成 `\mathfrak p_j`；印刷两处均为 `η_j`。同一证明把 `R[[x_1,…,x_n,…]]` 的首变量写成 `x_i`，并将 localization 下标误留为 HTML `<sub>j</sub>`。§8.2 的 `G_\mathbb Q`-representation 漏了 `\mathbb Q`，integral point 的 `\mathcal S` 误成小写 `s`，Lemma 8.3 的 `et V_2` 局部系统标记被破坏成空下标形式。300dpi 裁片核实了这些对象和下标；Theorem 8.1 中 `S(\overline{\mathbb Q})` 和 `S(\overline{\mathbb Z}[N^{-1}])` 则与印刷相符。
+
+## p.032（PDF p.32 / 印刷 p.32）
+- 时间：2026-10-02 01:16:24 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p032.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p032-Lemma8.4-parameters.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p032-Lemma8.4-monodromy.png`
+- 核对：Lemma 8.3 证明余段、Lemma 8.4 及其反证构造、§9 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Lemma 8.3 证明把延拓至积分模型的点 `\mathcal S` 录成小写 `s`，局部系统 `et V_2` 又误录为 `\Pi_{et}\mathbb V_2`。Lemma 8.4 反证假设和完成局部环中，印刷的 residue field `\overline{\mathbb F}_p` 被写成 `\overline{\mathbb F}_n`，且 `\widehat{\mathcal O}_{\overline S, y_{0,\overline{\mathbb F}_p}}` 漏掉紧化符号 `\overline S`。300dpi 裁片确认 residue-field 下标和环所在的紧化空间；构造中的 `t_i` 分母、`M=E_w'^{\mathrm{ur}}` 与后续映射指数则与印刷相符。PASS± 拼写伪影：页首 `in actually exact` 对应印刷 `in fact exact`，并有 `ppull` 重复字母。
