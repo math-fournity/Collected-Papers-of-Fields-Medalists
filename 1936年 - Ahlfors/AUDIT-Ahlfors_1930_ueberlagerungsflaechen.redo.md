@@ -171,4 +171,13 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.13 行；本次修复的两处引用编号 I/1 系旧审计未检出项。
 - 备注：本页印刷将 (5) 式原样重排一次（编号同为 (5)），MD 忠实保留重排与同号，✓。
 
+### p.014（PDF p.14 / 印刷 p.170）
+
+- audited_at=2026-10-02 18:25 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p014.png`（pngmono 150dpi）；本页无需 300dpi 仲裁。
+- 核对：页眉（170 / Lars Ahlfors.）、Aus dieser Ungleichung 段（正文引用 (II. 1) 数字 1 ✓，MD 行 335 本就正确）、编号段 13（Gebietsklassen (Ω₁)…(Ω_p)、Querschnittsklassen (σ₁)…(σ_p)）、Zur der ersten Klasse 段（(Ω₂)/(σ₂)、(σ₁)…(σ_{n−1})）、Aus der Definition 段（斜体 Eigenschaft 陈述：Jeder Querschnitt σₙ zerlegt…）、Für n = 1 归纳段、Wenn es vorkommt 段页末断句「und auch dann」。
+- 结果：PASS±。内容逐词与印刷一致，无修复项。保留登记（排版级，不修）：Eigenschaft 陈述句印刷斜体丢失（系统性）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.14 行；本次独立重核未见内容差异。
+- 页界：本页止于「…und auch dann」，次页续「nur für den einzigen Querschnitt der höchsten Klasse」，衔接正确。
+
 <!-- redo-tail -->
