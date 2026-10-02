@@ -455,3 +455,14 @@
 - 页面边界：本页止于 `Rep(G,A)` 的 `S`-分解；Markdown 第 1606 行的 `Goal` 开始下一页论证。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复域参数、Sylow 子群图及表示同构类索引。
 - 记录：2026-10-02 03:37:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.044（PDF p.44 / 纸面圈号 44）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p044.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p044_representation-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p044_properties.png`。
+- 核对：表示 `E=(P,ρ)` 给出的 based map `BG→BGL(A)^+`；由补模 `Q` 与同构 `θ` 构造群同态；`K_1A` 的作用与目标简单性；平凡表示、直和及短正合列三条性质。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图用 `P⊕Q≅A^n` 及 `θ` 将 `ρ(g)⊕1_Q` 送到 `Aut(A^n)=GL_n(A)`，再得到 `BG→BGL_nA→BGLA→BGLA^+`；基线第 1615 行损坏同构箭头与 `θ`，写出无法解析的 `A_ut`。原图第 1623 行是 `π_1(BGL(A)^+)=K_1A` 作用平凡，基线将等式对象压成 `π, A`。所定义映射的目标为 `[BG,BGL(A)^+]`，基线第 1625 行把 `+` 移到 `A` 上。平凡表示要求 `ρ(g)=id_P`，基线第 1627–1629 行将恒等映射与 `T=(P,ρ)` 损坏。直和性质的等式可辨，但基线第 1630–1632 行把 target 的加法与其来自 `BGL(A)^+` H-space 结构的说明拼坏。第三性质原图为若 `0→E'→E→E''→0` 是表示的短正合列，则 `[E]=[E']⊕[E'']`；基线第 1637 行右侧把 `E''` 重复成 `E'`。
+- 页面边界待续核：原图 p.44 页尾标为 “Proof of ③”；Markdown 第 1639 行下一段写 “Proof of ②”。待 p.45 原图核实续文具体对应的性质后，再确定错误是在本页尾标注还是下一段标题。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复 `θ` 构造、`K_1A` 等式、H-space 目标及短正合列结论。
+- 记录：2026-10-02 03:41:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
