@@ -154,6 +154,14 @@
 - 登记不改（印刷句点存在、MD 缺失，PNG/pdftotext 双证）：(a) 8.1 "that was used in 7.3**.**"；(b) Definition 行尾 "less than κr^n**.**"；(c) 8.2 Theorem 行尾 "≤ Ar₀**.**"；(d) 8.3 "(g_ij)_t = −2R_ij**.** (a) Suppose"。均不误导，按 SOP 默认不批量改。
 - 备注：Definition/Theorem 斜体段 MD 拍平为正体，属 MinerU 已知伪影；其余逐项一致。
 
+## p.021（PDF p.21 / 印刷 p.21）
+- PNG：audit-redo/p021.png（pngmono 150dpi）
+- 核对：8.3(b)（cf. [H 4,§17]）与 (d/dt)dist_t(x₀,x₁)≥−2(n−1)((2/3)Kr₀+r₀^{−1}) at t=t₀、Proof of Lemma (a) 全段（∫_γ−Ric(X,X)、Σs''_{Y_k}、Y_k 平行/线性构造、△d 三式不等式链逐项）、"The proof of (b) is similar."、maximum principle 段（h(y,t)=φ(d(y,t)−A(2t−1))(L̄(y,1−t)+2n+1)、(−∞,1/20)、(1/20,1/10)）、(8.1)–(8.4)
+- 结果：PASS±（两处句点缺失登记不改）
+- 登记不改（印刷句点存在、MD 缺失，PNG/pdftotext 双证）：(a) "where d(x₁, t₀) = r₀**.** Then"；(b) "satisfying d(y, ½) ≤ 1/10**.** Now we compute"。均不误导，按 SOP 默认不批量改。
+- 备注："complemented by X," 的 math 内逗号、"tangent vector, On the other hand" 印刷原样逗号连接、"at $t=t_0$" 嵌入 display 为 MinerU 伪影，语义均与印刷一致，登记不改。
+
+
 
 
 
