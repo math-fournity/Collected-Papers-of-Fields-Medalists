@@ -334,3 +334,13 @@
 - 印刷证据与差异：原图开头给出带 basepoint/cover 的 mapping-space 分量公式，基线第 1130 行把源、作用指标和目标分量索引压成 `π_0[((X,*)^{(z,x)})_{π,X}]=π_c(X^z)`，无法按原图确定所指映射。原图随后把 `π_1X` 对 `[Z,X]` 的作用与 `BG` 情形的 `Hom(π_1Z,G)` 分类、按 G 共轭取商连接；基线第 1133–1135 行丢失 `π_1Z` 下标并把相关 map-space/pointed 条件写成 `Z⊥pt`。本页内自同构同伦结论与 Milnor–Moore 的 `\mathbb Q⊗π_iM→Prim(H_i(M;\mathbb Q))` 可读，与该页的主要错识无关。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 原图重建 mapping-space 与共轭商公式。
 - 记录：2026-10-02 02:32:32 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.033（PDF p.33 / 纸面圈号 33）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p033.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p033_corollary-borel.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p033_borel-dimension.png`。
+- 核对：Milnor–Moore corollary 的 K-group primitive rationalization；Borel 的 number-field rank 参数与 mod-4 table；`K_0A=\mathbb Z\oplus\mathrm{Pic}(A)`。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图 corollary 与 Borel dimension formula 的对象都是 `K_iA⊗\mathbb Q`，基线第 1147、1162 行均写成 `H_iA⊗Q`，改变了陈述所涉及的不变量。原图证明行是 `\pi_i(BGL(A)^+)⊗\mathbb Q=\mathrm{Prim}(H_i(BGL(A)^+;\mathbb Q))`，基线第 1150 行把 `Prim` 拆成 `P_im` 并损坏右侧括号。Borel 表中 `i=0`、`i=1` 特例与 `i\pmod4` 各行在基线第 1162 行也被挤成重叠条件，需依原图逐项排版/核值。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对 `K_i` 对象和全部表项条件。
+- 记录：2026-10-02 02:41:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
