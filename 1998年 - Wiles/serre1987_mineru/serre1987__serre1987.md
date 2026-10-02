@@ -4,6 +4,8 @@
 
 à Yuri Ivanovich Manin, pour son 50$^{e}$ anniversaire
 
+Received December 5, 1986.
+
 Le présent travail reprend, en la précisant, une conjecture faite en 1973, dont on trouvera un cas particulier dans [44], §3.
 
 Il s'agit de représentations "modulaires" (au sens de Brauer), de degré 2, du groupe de Galois $G_{\mathbf{Q}} = \operatorname{Gal}(\overline{\mathbf{Q}} / \mathbf{Q})$.
