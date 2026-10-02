@@ -343,3 +343,12 @@
 - 核对：Theorem 10.10 Step 3 的复合域/partial CM type 公式与高度组合；Step 4 的全 CM type 归约和式 (10.4.1)；Theorem 10.11 与式 (10.5.1)。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Step 3 的 Shimura-data map 应由范数 `Nm_{E^{(j)}/E_i}` 诱导，Markdown 写成了 `Nm_{E'/E_i}`，并漏掉 map `(R_{E^{(j)}},\rho_{\Phi^{(j)}}) → (R_{E_i},\rho_{\Phi_i}^{2^{d-1}})` 的箭头。300dpi 裁片确认复合域上标及箭头。式 (10.4.1)、式 (10.5.1) 的表达式与编号均相符。PASS± 源级排印：Theorem 10.11 印作 `S_K(G,x)`（末字母为小写 `x`），MinerU 忠实保留。
+
+## p.039（PDF p.39 / 印刷 p.39）
+- 时间：2026-10-02 01:50:12 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p039.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p039-Definition11.1-norms.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p039-Lemma11.2-footnotes.png`
+- 核对：Definition 11.1 的 norm-label、Fontaine–Laffaille range 条件及局部比较对象；Lemma 11.2 的 constancy domain、twisted-lattice identity 和脚注 14–15。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Definition 11.1 的 norm-label `\mathcal K_{K,\mathbb V,q}|\cdot|` 被破坏为近似 `|K,\mathbb V,q|\cdot|` 的字串；界 `p ≥ rng_V · dim V + 2` 漏乘号。crystalline 条件下的比较对象把 `E_v` 误录成 `E_{\imath}`，另一分支的 `p-d_RV_{E_v}` 也出现额外粗体/上标噪声。Lemma 11.2 的 constancy domain 应为 `S_K(T,X)(\mathbb Q)`，Markdown 写成 `S_K(T,X)(\overline{\mathbb Q})`；证明末行的 `t^{-1}\mathbb V` 又将 `\mathbb V` 错并入指数。300dpi 裁片核实 norm-label、域下标、局部系统对象和结尾变量。脚注 15 的 `\mathbb Z_p` 从句中脱落成独立 footnote 碎片；其尾部 `GSp_{2g}` 又在 Markdown 重复一次。
