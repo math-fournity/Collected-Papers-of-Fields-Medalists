@@ -241,6 +241,13 @@
 - Checked: associated G/H spaces, the induced isomorphism and section, pullback P_1, the commutative fiber-product diagram, and the rational-section condition in Proposition 20.
 - Result: PASS±. The displayed fiber products, transition maps and diagram agree with print; no content mismatch was found. The running title and print page number are not represented in Markdown.
 
+### PDF p.035/43 — print p.34
+
+- Reviewed: 2026-10-02 00:13 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi group examples crop](audit/300dpi/Serre_1956_gaga_p035_group-examples_300dpi.png); PDF text layer and MinerU Markdown lines 838–860.
+- Checked: examples satisfying condition (R), the symplectic alternating-form reduction, the simply-connected conjecture, and the orthogonal-group counterexample condition.
+- Result: PASS±. The crop confirms Sp_n with n=2m, the canonical alternating form, O_n^+ and n ≥ 3, and the H^1 map. These agree with Markdown; the running header/page number are omitted.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
