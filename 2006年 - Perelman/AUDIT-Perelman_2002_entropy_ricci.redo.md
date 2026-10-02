@@ -140,6 +140,13 @@
 - 登记不改：印刷 "Ỹ(τ̄) = Y(τ̄)**.** Moreover"（PNG/pdftotext 双证有句点），MD 该句点缺失——丢标点不误导，按 SOP 默认不批量改。
 - 备注：其余（含 "( Alternatively"、"…(7.10).)" 双右括号 print 原样）逐项一致。
 
+## p.019（PDF p.19 / 印刷 p.19）
+- PNG：audit-redo/p019.png（pngmono 150dpi）
+- 核对：(The lower bound…) R_τ=−△R−2|Ric|² 段收尾、7.2 非负曲率算子段（H(X,Y)≥−Ric(Y,Y)(1/τ+1/(τ₀−τ))≥−R(…)|Y|²、(say, τ≤(1−c)τ₀, c>0)）、(7.16)、(7.17)、7.3 弱化 no-local-collapsing 证明全段（ε_k=r_k^{−1}Vol(B_k)^{1/n}、Ṽ_k(ε_k r_k²)<3ε_k^{n/2}、½ε_k^{−1/2}、exp(−½ε_k^{−1/2})、min l_k≤n/2、γ(t_k−½T)=q_k）、4.2 corollary 加强段（τ(t)=t₀−t、bounded below by κ.）
+- 结果：PASS
+- 备注：全部公式与文本逐项一致；"$M ;$" 分号前空格为 MinerU 边界伪影，标点与印刷一致，登记不改。
+
+
 
 
 
