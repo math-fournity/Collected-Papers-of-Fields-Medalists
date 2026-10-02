@@ -493,3 +493,10 @@
 - 证据：源 PDF p.068 文本层、页图 `audit/Hironaka_1964_resolution_partI_p068.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p068_footnote37.png` 与 MinerU Markdown 第 1215–1221 行。闭集像的局部完成论证、底变换/基变换关系、center $\hat C$ 与 $C$ 的构造、维数严格下降及应用定理 I(n') 的续段均与印刷页对应；页脚 37 的全文也保存在第 1221 行。但第 1217、1219 行在完整脚注 37 前另有两个孤立脚注式碎片 `$\mathcal{B}$` 与 `$\hat{V}_0$`；原页只有一条包含两者的完整脚注，没有这两个独立条目。
 - 备注：印刷页正文在 “a succession of monoidal transformations” 处续至下一页，Markdown 同样在第 1215 行保留断点；印刷运行页眉和页码 175 未录入 Markdown。
 - 结论：Markdown 多出 2 条脚注式符号碎片，列为 FAIL；待全篇审计后删除碎片并保留脚注 37 正文。
+
+### PDF p.069 / 96（印刷 p.176）— FAIL
+
+- 时间：2026-10-02 04:25 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.069 文本层、页图 `audit/Hironaka_1964_resolution_partI_p069.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p069_theorem_II_and_OXr.png`，并比对 MinerU Markdown 第 1223–1241 行。印刷三处写作 `\mathfrak{R}_{\mathrm{II}}^N`/`II_2^N`：第 1225 行的弱变换所属 datum 类型 `\mathfrak{R}_{\Pi}^N` 应为 `\mathfrak{R}_{\mathrm{II}}^N`，同句的 fundamental theorem `\Pi_2^N` 应为 `II_2^N`，第 1237 行再次将 `II_2^N` 录为 `\Pi_2^N`。此外，Main Theorem II(N) 的性质 (4) 印刷为 `J_r = O_{X_r}`，Markdown 第 1235 行将大写空间下标 X 录成小写点变量 x。弱变换定义、定理条件 (1)–(3) 和 datum 矩阵对应原页。
+- 备注：印刷运行页眉和页码 176 未录入 Markdown，属导航元素省略。
+- 结论：3 处罗马 II 被误录为希腊 Pi，且 `O_{X_r}` 下标大小写误录，列为 FAIL；待全篇审计后逐处手工修复。
