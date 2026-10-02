@@ -85,3 +85,13 @@
   8. Deligne 段 "characteristic$\beta,$" → "characteristic $p$,"（同句第二个 characteristic p 原本正确）
   9. "ofvarieties"、"ofDrinfeld's" 缺空格 → 修正
 - 备注：π 坐标公式本就为 ♯ 正确；print "non-/degenerate" 跨行连字符，MD 作 "non-degenerate" 保留（软连字符歧义，不擅改）；"Deligne [10], proved" 的逗号为 print 原样，保留。
+## p.007（PDF p.7 / 印刷 p.251）
+- PNG：audit/p007.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/251；Theorem 1.15 全文；π : P^n_{K^♭} → P^n_K display；H^i(X)→H^i(π^{-1}(X)) 段；X = {x_0+x_1+x_2=0} ⊂ (P²_K)^ad display；|(P²_{K^♭})^ad| ≅ lim_φ |(P²_K)^ad| display；X_n = {x_0^{p^n}+x_1^{p^n}+x_2^{p^n}=0} ⊂ (P²_K)^ad display；Lemma 1.16；Huber 结果段 H^i(X)=H^i(X̃)→H^i(Y)；Kedlaya–Liu [28] 段开头
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Theorem 1.15："localfield ofcharacteristic"、"truefor" → "local field of characteristic"、"true for"
+  2. "injective map$\mathrm{H}^i(\mathrm{X})\ \mathrm{H}^i(\pi^{-1}(\mathrm{X}))$" 缺箭头 → $\mathrm{H}^i(\mathrm{X}) \to \mathrm{H}^i(\pi^{-1}(\mathrm{X}))$（p.251 左栏）
+  3. Lemma 1.16 头 "Lemma 1.$\mathbf{16.}\mathrm{~\_~}Let"（编号进 math、伪下划线）→ "Lemma 1.16. — Let"；句末补句点
+  4. "a map$\mathrm{H}^i(\mathrm{X})=\mathrm{H}^i(\tilde{\mathrm{X}})\ \mathrm{H}^i(\mathrm{Y})$)." 缺箭头+游离右括号 → "$\mathrm{H}^i(\mathrm{X})=\mathrm{H}^i(\tilde{\mathrm{X}}) \to \mathrm{H}^i(\mathrm{Y})$."
+  5. Kedlaya–Liu 段 "finite étale R<sup>-</sup>-algebras" → $\mathrm{R}^\flat$-algebras
+- 备注：三个 display（X 例、homeomorphism、X_n）与 print 逐字符吻合（含 p^n 上标）；本行 187 自 "application to the weight-monodromy conjecture…" 起属印刷 p.252，留待 p.008。
