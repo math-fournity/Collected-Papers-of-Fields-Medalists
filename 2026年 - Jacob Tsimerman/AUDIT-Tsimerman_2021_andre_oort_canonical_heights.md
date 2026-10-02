@@ -289,3 +289,12 @@
 - 核对：Lemma 8.3 证明余段、Lemma 8.4 及其反证构造、§9 开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Lemma 8.3 证明把延拓至积分模型的点 `\mathcal S` 录成小写 `s`，局部系统 `et V_2` 又误录为 `\Pi_{et}\mathbb V_2`。Lemma 8.4 反证假设和完成局部环中，印刷的 residue field `\overline{\mathbb F}_p` 被写成 `\overline{\mathbb F}_n`，且 `\widehat{\mathcal O}_{\overline S, y_{0,\overline{\mathbb F}_p}}` 漏掉紧化符号 `\overline S`。300dpi 裁片确认 residue-field 下标和环所在的紧化空间；构造中的 `t_i` 分母、`M=E_w'^{\mathrm{ur}}` 与后续映射指数则与印刷相符。PASS± 拼写伪影：页首 `in actually exact` 对应印刷 `in fact exact`，并有 `ppull` 重复字母。
+
+## p.033（PDF p.33 / 印刷 p.33）
+- 时间：2026-10-02 01:19:22 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p033.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p033-norm-bound-Prop9.2.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p033-Shimura-product-reductions.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p033-dR-model-identification.png`
+- 核对：§9 两个有限处范数约定、Theorem 9.1、Proposition 9.2 陈述及其关于 Shimura 数据乘积与 de Rham 模型的归约。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：第一条非 Archimedean 范数条件中的界 `p > rng_V · dim V + 2` 漏掉乘号。Proposition 9.2 把 `d_R V_{E_v}` 误作 `d_R V_{E_i}`，其证明的覆盖 `f:(G',X') → (G,X)` 漏掉箭头；末段的 `\mathcal V_v` 误作希腊字母 `\nu_v`，并把 `d_R V` 写成 `\operatorname{der}V`。300dpi 裁片逐项确认乘号、映射、`\mathcal V_v` 与 `d_R`。另有 `Q.`-simple 的多余句点属于内容级符号噪声，列入本页 FAIL。PASS± 拼写/措辞伪影：`is is`、`comes form`、`suficiently` 与 `based change base`；其余本页已核公式和命题结构按印刷为准。
