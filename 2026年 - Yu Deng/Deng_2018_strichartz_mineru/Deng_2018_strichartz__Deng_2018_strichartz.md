@@ -262,13 +262,13 @@ $$
 \Omega (k _ {1}, \ldots , k _ {p}) = Q (k _ {1}) - Q (k _ {2}) + \dots - Q (k _ {p}).
 $$
 
-After some manipulations, matters reduce to counting weighted solutions of Diophantine inequalities. In Section 5, the decoupling theory of Bourgain and Demeter [9] leads to the proof of the conjecture for$p \geq 16$in a rather straightforward way. Alternatively, one can sum trivially over the odd numbered vectors$k _ { 1 } , k _ { 3 } , . . .$. and proceed by seeking a bound for the number of solutions to
+After some manipulations, matters reduce to counting weighted solutions of Diophantine inequalities. In Section 5, the decoupling theory of Bourgain and Demeter [9] leads to the proof of the conjecture for$p \geq 16$in a rather straightforward way. Alternatively, one can sum trivially over the odd numbered vectors$k _ { 1 } , k _ { 3 } , . . .$ and proceed by seeking a bound for the number of solutions to
 
 $$
 \left| Q \left(k _ {2}\right) + Q \left(k _ {4}\right) + \dots + Q \left(k _ {p}\right) - \beta \right| <   \delta , \quad k _ {2} + k _ {4} + \dots + k _ {p} = a, \quad k _ {i} \in \mathbb {Z} ^ {2} \cap B (0, N),\tag{1.8}
 $$
 
-which is uniform in$a , \beta .$. To recover the conjecture it is necessary, in particular, to have an optimal bound in the case$\begin{array} { r } { \delta = \frac { 1 } { N } } \end{array}$
+which is uniform in$a , \beta$. To recover the conjecture it is necessary, in particular, to have an optimal bound in the case$\begin{array} { r } { \delta = \frac { 1 } { N } } \end{array}$
 
 There is previous work on bounds for the count of integer solutions to a generic quadratic inequality, where one wants uniformity in certain parameters [7, 19, 26]. In those cases one in interested principally in lower bounds. In short, the strategy is to seek an asymptotic for the number of solutions which is valid unless the coefficients lie in a set with small measure. If the sum of this measure over all values of the parameters is finite, then by the Borel-Cantelli lemma the asymptotic holds for generic values of the coefficients.
 

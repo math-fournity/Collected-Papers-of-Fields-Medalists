@@ -41,3 +41,9 @@
 - 核对：页顶三条 K_N bounds（第一条 ≲ min(N²,1/t)、后两条 ⪯ 与 N^{4/3}(1+t^{1/6})、N⁴T 及 T 条件）、E_λ level-set 定义、|E_λ| 分解式、S 定义、Ĵ₁ 公式、‖Ĵ₁‖≲|S|、TT* 两 bullet、§1.3.2 大求和式（f̂_{k₁}overline{f̂}_{k₂}…、(1−e^{2πiTΩ})/(2πiΩ)）、Ω 定义
 - 结果：PASS±。300dpi 核实：三条 bounds 第 1 条为 ≲、第 2/3 条为 ⪯（MD L204 \lesssim/\preceq 区分忠实）；E_λ 行与 bounds 下标为黑板体 𝕋²，而 S 行 sup 下标为粗体 \mathbf{T}²（3x 放大清晰可辨）——MD L212 \mathbb{T}²、L230 \mathbf{T}² 均忠实，混用属原刊自身；E_λ 指数 4x 放大确认为 e^{it\widetilde{Δ}}（波浪清晰）。原刊 quirk 忠实保留：provided λ²>‖J₂‖_{L^∞} 后的多余 ")"（L227）、"The approach which was has been sketched"（L247）、J₁ 的 \widehat{L^∞} 宽帽（L227）。瑕疵（不误导，不改）：L249 bullet 句尾缺句号；L259 "(α_{ij})" 后缺逗号。L209 行内 Δ̃ 用 \tilde 而非 \widetilde，仅帽宽渲染差异，同一符号。
 - 备注：Luna 旧修复抽核通过——旧基线 E_λ 的 \bar{Δ}、行首多余 e、bcan、bullet 丢失在当前 MD 均已不存在。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：audit-redo/p006.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：(1.8) 三段式（|Q(k₂)+Q(k₄)+⋯+Q(k_p)−β|<δ、k₂+k₄+⋯+k_p=a、k_i∈ℤ²∩B(0,N)）、[7,19,26] 与 Borel-Cantelli 段、Pall [27] 方程组（k₁²+k₂²+k₃²=A 等）、N_k^{1/k} 简单估计段、§1.4 节、K_N^{(d)} 定义、(1.9) sup/积分式（\mathbf{T}^d 下标、2s 指数、s∈ℕ）、(1.10) I_s(T)≲N^εT(N^{ds+d}+N^{2ds−d(d+1)})
+- 结果：PASS±（2 处已修复）。全部公式与正文经 PNG＋文本层逐项吻合；(1.9) 的 sup_{x∈**T**^d, t∈[T,2T]}、|·|^{2s} 与 (1.10) 指数 ds+d、2ds−d(d+1) 无误。print quirk "one in interested principally"（L273）经 PNG 核实为原刊原样，保留。**修复 2 处**（同类：原刊没有的多余句点）：L265 `$k_1,k_3,...$. and`→`$k_1,k_3,...$ and`；L271 `$a,\beta .$.`→`$a,\beta$.`。残余瑕疵（不误导，不改）：L271/L285/L287 公式或段尾缺句号 3 处（δ=1/N 后、p=8 后、d>2 后，印刷均有句号）。
+- 备注：Luna 旧修复抽核通过——旧基线 N_k^{1/k} 后多 2、coefficients 误拼、p=16 拆字在当前 MD（L283/L273/L265）均已不存在。
