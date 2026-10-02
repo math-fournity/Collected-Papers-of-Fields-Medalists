@@ -523,7 +523,7 @@ $$
 X \approx H _ {1} (\mathcal {G}, \mathbf {Z})
 $$
 
-of (2.1). In view of the inclusion (1) of §2, it is natural to relate the actions of the $T_{n}$ on $X$ to the correspondences induced by the $T_{n}$ on the set $\mathcal{I} = \Sigma(M)$ of isomorphism classes of enhanced supersingular elliptic curves over $\overline{\mathbf{F}}_q$. Note, however, that the map $X \to \mathbf{Z}^{\mathcal{I}}$ depends on our having oriented each edge $i \in \mathcal{I}$. Our discussion must take into account any inversions introduced by the $T_{n}$.
+of (2.1). In view of the inclusion (1) of §2, it is natural to relate the actions of the $T_{n}$ on $X$ to the correspondences induced by the $T_{n}$ on the set $\mathcal{S} = \Sigma(M)$ of isomorphism classes of enhanced supersingular elliptic curves over $\overline{\mathbf{F}}_q$. Note, however, that the map $X \to \mathbf{Z}^{\mathcal{S}}$ depends on our having oriented each edge $i \in \mathcal{S}$. Our discussion must take into account any inversions introduced by the $T_{n}$.
 
 We first consider the case where n is prime to q. Then there are no inversions, as the  $T_{n}$  “preserve” each component of  $X_{0}(N)_{\mathbf{F}_{q}}$ . Moreover, the  $T_{n}$  operate on  $\Sigma(M)$  in the evident way, i.e., via the same “modular rules” which define the  $T_{n}$  over Q. For the sake of completeness, let us recall the rule for  $T_{n}$  when n is a prime number  $r \neq q$ ; we give the expression for  $T_{r}(\mathbf{E})$ , where E is an elliptic curve E which is enhanced by a cyclic subgroup of order M.
 
@@ -533,7 +533,7 @@ $$
 T _ {r} (\mathbf {E}) = \sum_ {C} \mathbf {E} / C,
 $$
 
-where the sum is taken over all subgroups C of order r in E and where E/C is the elliptic curve E/C with the evident subgroup of order M. In the case where r divides M, the enhancement of E provides E, in particular, with a subgroup D of order r. We have
+where the sum is taken over all subgroups C of order r in E and where $\mathbf{E}/C$ is the elliptic curve E/C with the evident subgroup of order M. In the case where r divides M, the enhancement of E provides E, in particular, with a subgroup D of order r. We have
 
 $$
 T _ {r} (\mathbf {E}) = \sum_ {C \neq D} \mathbf {E} / C.

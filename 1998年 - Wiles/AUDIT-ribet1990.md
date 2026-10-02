@@ -128,3 +128,12 @@
 - 核对：Albanese/Pic maps 段；auto-dual 与 Rosati 对合；T(n)/ξ_n/[39] Chapter 7；式 (3) T_n=ξ_n*、T_n*=ξ_n（Rosati）；Atkin-Lehner w=w_N、X_SS(τ)、[39] §7.5；式 (4) wT_nw=ξ_n、wξ_nw=T_n；page 193 恒等式与 Prop. 3.54（印刷即带逗号 "3.54, of"）；子代数 Ξ=Ξ_N 与 **T**=**T**_N（MD 粗体保留正确）、Ξ≈**T**、S₂(Γ₀(N))、T_n*、faithful/cotangent、free Z-module rank、Th. 3.45；段尾 "Consider now the special situation where" 接下页 ✓。
 - 备注：L518 "defined over Q" 印刷粗体 **Q**，MD 正体 Q（字母不变，登记不改）。
 - 结果：PASS。
+
+## p.016（PDF p.16 / 印刷 p.445）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:55 -0400。
+- PNG：`audit/ribet1990_p016.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：Σ 下标 "C≠D" 确证、"where **E**/C" 粗体+斜体 E/C 对比、"fact that T" 斜体放大、"defined over **Q**" 粗体，未存档）。
+- 核对：N=qM、toric part T、X≈H₁(𝒢, Z)（(2.1)）、inclusion (1)；n 与 q 互素情形无 inversion；T_r(E)=Σ_C E/C 与 T_r(E)=Σ_{C≠D} E/C（下标 300 dpi 确证 ≠）；w_q 三重结构 (E, C_M, C_q) 与 (E/C_q, (C_M⊕C_q)/C_q, E[q]/C_q)；w_q 于 J₀(N)/Néron 模/特征 q 纤维；[1] Th. 3、q-new、(3.10)；Proposition 3.7（w_q=−T_q on torus T）；Proof：degeneracy maps α, β（cf. [19]）、w_q+T_q=α*β_*、β_*: J₀(N)→J₀(M)、T→J₀(M)_Fq、torus 消没、□ ✓。
+- 发现并当场修复：①L526 三处 \\mathcal{I}→\\mathcal{S}（𝒮=Σ(M)、Z^𝒮、i∈𝒮）；②L536 首个 "E/C"→"$\mathbf{E}/C$"（300 dpi 带状裁片确证印刷首个粗体、第二个斜体）。
+- 印刷 quirk 登记：L548 "the fact that *T* pertains" 印刷为斜体 T（与 p.015 子代数粗体 **T** 为印刷自身不一致；300 dpi 放大确证斜体），MD 正体 T 恰与印刷一致，不改。
+- 备注：L548/552 "over Q" 印刷粗体 **Q**，MD 正体（登记不改）；其余与本页逐项吻合。
+- 结果：FAIL（4 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
