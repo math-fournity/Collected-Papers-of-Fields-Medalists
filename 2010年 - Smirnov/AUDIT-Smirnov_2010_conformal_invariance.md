@@ -87,3 +87,9 @@
 - 核对：high temperature expansion 段；恒等式 (2.7) e^{βσ_xσ_y} = cosh(β) + σ_xσ_y sinh(β) = cosh(β)[1 + tanh(β)σ_xσ_y]；Proposition 2.5——公式 (2.8) Z^f_{β,G} = 2^{# vertices G} cosh(β)^{# edges in G} Σ_{ω∈Ɛ_G} tanh(β)^{∣ω∣}、公式 (2.9) µ^f_{β,G}[σ_aσ_b] = Σ_{ω∈Ɛ_G(a,b)} tanh(β)^{∣ω∣} / Σ_{ω∈Ɛ_G} tanh(β)^{∣ω∣}；Ɛ_G 与 Ɛ_{G⋆} 记号衔接句；Proof——(2.10) µ^f 定义式、(2.11) Σ_σ σ_aσ_b e^{−βH(σ)} = 2^{# vertices G} cosh(β)^{# edges in G} Σ_{ω∈Ɛ_G(a,b)} tanh(β)^{∣ω∣}；页底两行推导收尾；页脚印刷页码 11。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：PNG 中边族集合用花体 Ɛ（\mathcal{E} 类），pdftotext 拍平为 "EG"，重导出时须保留花体记号；公式编号 (2.7)–(2.11) 连续齐全。
+
+## p.012（PDF p.12 / 印刷 p.12）
+- PNG：audit/p012.png（pngmono 150dpi）
+- 核对：Figure 3（两幅菱形网格图）及长图注（low-temperature expansion 的 contour 不含 G 边界点间边、对应 Ɛ_{G⋆}、即 G⋆ 上 free boundary conditions 高温展开）；Proposition 2.5 证明结尾（◻ 收尾）；Ɛ_G 为 loop collections、Ɛ_G(a,b) 附一条 a→b 曲线的说明段；Proposition 2.6 (Kramers-Wannier duality)——tanh(β⋆) = e^{−2β}、公式 (2.12) 2^{# vertices G⋆} cosh(β⋆)^{# edges in G⋆} Z^+_{β,G} = (e^β)^{# edges in G⋆} Z^f_{β⋆,G⋆}；Proof 与 Kramers-Wannier 奇点论证（β_c = β_c⋆ ⟹ β_c = ½ln(1+√2)）；Exercise 2.7、Exercise 2.8 (Peierls argument)；页脚印刷页码 12。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：β_c = ½ln(1+√2) 的分数与根号 PNG 印刷清晰（文本层拍平为 "21 ln(1 + 2)"）；◻ 结尾符、β⋆ 上标星号为对账锚点。
