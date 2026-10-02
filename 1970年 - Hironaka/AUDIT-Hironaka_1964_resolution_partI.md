@@ -479,3 +479,10 @@
 - 证据：源 PDF p.066 文本层、页图 `audit/Hironaka_1964_resolution_partI_p066.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p066_type_I_labels.png` 与 MinerU Markdown 第 1179–1193 行。印刷定义为 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`；Markdown 第 1179 行中共 10 处写作 `\mathfrak{R}_1^{N,n}`，将罗马大写 I 误录成数字 1。resolution datum 的构造与 I₂ 定理应用、序列索引和中心、normal-flatness 条件 (1)–(3)、强化条件 (1′)、新序列映射及性质 (a) 起始句均与印刷页对应。
 - 备注：印刷运行页眉和页码 173 未录入 Markdown，属导航元素省略。
 - 结论：10 处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.067 / 96（印刷 p.174）— PASS±
+
+- 时间：2026-10-02 04:20 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.067 文本层、页图 `audit/Hironaka_1964_resolution_partI_p067.png`（pngmono 150dpi）与 MinerU Markdown 第 1191–1213 行。新 succession 的性质 (a)–(c)、Main Theorem I(n) 的对象、中心与诱导变换条件 (1)–(4)，以及按 n 归纳和缩小闭集像的首段均与印刷页对应；页尾同在 “We first remark” 处续至下一页。第 1203 行叙述将印刷的 Fraktur type label `\mathfrak{R}_{\mathrm{I}}^{N,n}` 写作普通 `R_I^{N,n}`，属于不改变指代的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 174 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
