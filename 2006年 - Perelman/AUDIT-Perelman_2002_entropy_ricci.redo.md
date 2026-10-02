@@ -21,3 +21,10 @@
 - 结果：PASS
 - 备注：印刷日期行为 "November 26, 2024"（本 PDF 为 2024-11-26 重编译件，arXiv 侧标仍为 11 Nov 2002）——print quirk 忠实保留，MD 同文，不改。跨页断句（"positive curvature operator"→p.2 "in dimension four converge…"）在 MD 中合并为同段，文本逐字一致，属 MinerU 页流合并，非内容错误。
 
+## p.002（PDF p.2 / 印刷 p.2）
+- PNG：audit-redo/p002.png（pngmono 150dpi）
+- 核对： blow-up/ancient solution 段（[H 9]、(−∞,T)、[I]、[H 4]、[H 3]、[H 4,§26]）、surgery 段（[H 5]、$\tilde{Rm}(x,t)=tRm(x,t)$、$t\to\infty$、[H 6]）
+- 结果：PASS
+- 备注：印刷原样错字 "a priory"（应为 a priori）与 "a convergence theorem ," 逗号前空格均为 print quirk，MD 忠实保留未改。
+
+
