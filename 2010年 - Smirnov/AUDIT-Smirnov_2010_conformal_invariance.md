@@ -117,3 +117,9 @@
 - 核对：boundary conditions ξ = ∂G 的 partition、o(ω)/c(ω)/k(ω,ξ)（wiring）定义；FK percolation 定义公式 (3.1) φ^ξ_{p,q,G}(ω) ∶= p^{o(ω)}(1−p)^{c(ω)} q^{k(ω,ξ)} / Z^ξ_{p,q,G}；q ≥ 1 positively correlated 段；Theorem 3.1——FKG 公式 (3.2) φ^ξ_{p,q,G}(A∩B) ≥ φ^ξ_{p,q,G}(A)φ^ξ_{p,q,G}(B)、Comparison 公式 (3.3) φ^ψ_{p,q,G}(A) ≥ φ^ξ_{p,q,G}(A)（ξ 为 ψ 的 refinement）；wired ξ=1 / free ξ=0 及 extremal 性质；Theorem 3.2——p_c(q) ∈ (0,1)、p<p_c 无 infinite cluster、p>p_c 唯一 infinite cluster；q=1 即 bond percolation 与 coupling 论证段（[Gri06]）；页脚印刷页码 16。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(3.3) 的 φ 上标 ψ/ξ 方向（ξ refinement of ψ ⟹ φ^ψ ≥ φ^ξ）以 PNG 为准核对无误；公式编号 (3.1)–(3.3) 齐全，为重导出对账锚点。
+
+## p.017（PDF p.17 / 印刷 p.17）
+- PNG：audit/p017.png（pngmono 150dpi）
+- 核对：FK percolation duality 开篇（wired boundary conditions 情形、dual model 构造）；Proposition 3.3——公式 (3.4) p⋆ = p⋆(p,q) ∶= (1−p)q / ((1−p)q + p)；Proof——∂G 边缘边可忽略的说明、o(ω⋆) = a − o(ω)、f(ω) = k(ω⋆)、Euler formula "# edges + # connected components + 1 = #sites + # faces"、k(ω) = s − 1 + f(ω) − o(ω) = s − 1 + k(ω⋆) − a + o(ω⋆)、φ^1_{G,p,q}(ω) 四行推演至 φ^0_{p⋆,q,G⋆}(ω⋆)、q(1−p)/p = p⋆/(1−p⋆) 收尾（◻）；self-dual point p_sd = p_sd(q) ∶= √q/(1+√q)；p_c(q) = p_sd(q) 的 Kramers-Wannier 式 heuristic 段起头；页脚印刷页码 17。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(3.4) 分母 (1−p)q + p 与 p_sd 的 √q/(1+√q) 根号覆盖 PNG 印刷清晰；φ 的上标 1/0（wired/free）与 p⋆ 上标星号堆叠为对账重点。
