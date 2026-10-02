@@ -1006,7 +1006,7 @@ $$
 \mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \frac {\sin (\theta_ {*} (h _ {i} - h _ {j}))}{\pi (h _ {i} - h _ {j})} \right],
 $$
 
-as$r  + 0$
+as$r \to + 0$.
 
 ## 3.1.12
 

@@ -178,3 +178,9 @@
 - 核对：Remark 1（[5] Proposition 8.5 / Conjecture 13.5）、Remark 2、§3.1.10、K_{3D}((t,h),(t,h))→ρ_*(τ,χ)（rt→τ, rh→χ）、Corollary 2（ρ_*=θ*/π）、式 (35)（θ*=arccos(cosh(τ/2)−e^{−χ}/2)）、等值线 θ*(τ,χ)=kπ/8, k=0..8
 - 结果：PASS。全部吻合。
 - 备注：印刷 quirk "the limit correlation are trivial"（correlation 单数，印刷原样）忠实保留。
+
+## p.027（PDF p.27 / 印刷 p.27）
+- PNG：audit/p027.png（pngmono 150dpi）
+- 核对：Figure 6（密度等值线图与题注）、§3.1.11、Corollary 3（discrete sine kernel：det[sin(θ_*(h_i−h_j))/(π(h_i−h_j))], as r→+0）、§3.1.12、标准积分（β^k / −β^k / 0 分段）、|w−1|⋚e^{−τ/4−χ/2} 条件
+- 结果：PASS±（一处已修复）：行 1007 "as$r  + 0$"→"as$r \to + 0$."（p027.png 印刷 "as r → +0." 有箭头有句号，md 两者皆缺）。
+- 备注：行 1003 "$i f t _ { 1 } = t _ { 2 } = . .$." 的 if 进 math 与省略号断点为 mineru 排版伪影，内容可辨不改；𝔹_± 无衬线记号此处 md 已正确用 \mathsf。
