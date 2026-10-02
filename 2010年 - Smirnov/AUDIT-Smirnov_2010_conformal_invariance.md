@@ -339,3 +339,9 @@
 - 核对：两个 scaling limits 段——p = p_sd(1−λδ)、(1/δ²)(Δ_δ + [1−cos2α]I) → Δ + λ²I、massive harmonic 极限、非绝对连续于 SLE(16/3)、massive SLEs；killed random walks 解释段（F_δ(v) 为 killed random walk 访问 wired arc 概率、[BDC11]、Messikh [Mes06]）；Theorem 7.6——m(β) ∶= cos(2α)、公式 (7.9) −lim_{n→∞}(1/n)ln µ_β[σ_0σ_(nx)] = −lim_{n→∞}(1/n)ln G_{m(β)}(0,nx)、G_m(0,x) ∶= E^x[m^τ]（τ 为原点 hitting time、P^x 简单随机游走）；massive Green function 与 Theorem 2.3/2.4 推断段；Exercise 7.7；§7.2 Russo-Seymour-Welsh Theorem for FK-Ising 标题（[DCHN10]、不依赖 scaling limits、独立于 §5/§6）；modified harmonic measure——Ω̃_δ/Ω̃⋆_δ（加两层 extra vertices）、(X_t●) continuous-time random walk、extra layer 上 rate ρ ∶= 2/(√2+1)、H̃●(B) 与 H̃○(w) 定义；Proposition 7.8——公式 (7.10) √(H̃○(W)) ≤ φ^{a_δb_δ}_{Ω_δ,p_sd}[B ↔ ∂_ba] ≤ √(H̃●(B))；页脚印刷页码 53。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(7.9)/(7.10) 编号齐全；E^x[m^τ] 花体 E 上标 x、√(H̃○(W)) 根号套 H̃ 记号以 PNG 为准；ρ = 2/(√2+1) 分母根号 PNG 印刷清晰（文本层丢根号）。
+
+## p.054（PDF p.54 / 印刷 p.54）
+- PNG：audit/p054.png（pngmono 150dpi）
+- 核对：Proposition 7.8 陈述收尾（W 为 B 的任意不在 ∂_ab^⋆ 上的 dual neighbor）；boundary modification trick 总结段——[CS09] 引入、H 扩张 0/1 后 H●/H○ 对 X●/X○ 的 Laplacian sub/superharmonic（H● 对通常 Laplacian 非 subharmonic）；Theorem 3.16 Proof (Sketch)——R_n = [0,4n]×[0,n]、N 为对边连通点对数、期望经 Prop 7.8 与 degenerate Dobrushin domain（a=b=y）、harmonic measure 1/n² 量级 ⟹ φ^f_{p_sd,R_n}[N] ≥ cn、二阶矩 φ[N²] ≤ Cn²（successive conditioning + Prop 7.8，[DCHN10]）、Cauchy-Schwarz 公式 (7.11) φ[N>0]φ[N²] ≥ φ[N]²、公式 (7.12) φ^f_{R_n,p_sd}[∃ open crossing] ≥ c²/C（◻）；[KS10] 另一路线提及；Proposition 7.9——公式 (7.13) c/∣x−y∣^δ ≤ µ_{β_c}[σ_xσ_y] ≤ C/∣x−y∣^Δ（µ_{β_c} 唯一 infinite-volume 测度）；Proof 开头——Edwards-Sokal coupling 改写为 c/∣x−y∣^δ ≤ φ_{p_sd,2}[x ↔ y] ≤ C/∣x−y∣^Δ；页脚印刷页码 54。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(7.11)/(7.12)/(7.13) 编号齐全；φ^f_{R_n,p_sd} 上标 f 与 R_n 下标堆叠、∃ open crossing 记号以 PNG 为准。
