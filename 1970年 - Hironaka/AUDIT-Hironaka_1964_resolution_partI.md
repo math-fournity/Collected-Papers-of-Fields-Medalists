@@ -486,3 +486,10 @@
 - 证据：源 PDF p.067 文本层、页图 `audit/Hironaka_1964_resolution_partI_p067.png`（pngmono 150dpi）与 MinerU Markdown 第 1191–1213 行。新 succession 的性质 (a)–(c)、Main Theorem I(n) 的对象、中心与诱导变换条件 (1)–(4)，以及按 n 归纳和缩小闭集像的首段均与印刷页对应；页尾同在 “We first remark” 处续至下一页。第 1203 行叙述将印刷的 Fraktur type label `\mathfrak{R}_{\mathrm{I}}^{N,n}` 写作普通 `R_I^{N,n}`，属于不改变指代的正/花体混排（PASS±）。
 - 备注：印刷运行页眉和页码 174 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.068 / 96（印刷 p.175）— FAIL
+
+- 时间：2026-10-02 04:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.068 文本层、页图 `audit/Hironaka_1964_resolution_partI_p068.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p068_footnote37.png` 与 MinerU Markdown 第 1215–1221 行。闭集像的局部完成论证、底变换/基变换关系、center $\hat C$ 与 $C$ 的构造、维数严格下降及应用定理 I(n') 的续段均与印刷页对应；页脚 37 的全文也保存在第 1221 行。但第 1217、1219 行在完整脚注 37 前另有两个孤立脚注式碎片 `$\mathcal{B}$` 与 `$\hat{V}_0$`；原页只有一条包含两者的完整脚注，没有这两个独立条目。
+- 备注：印刷页正文在 “a succession of monoidal transformations” 处续至下一页，Markdown 同样在第 1215 行保留断点；印刷运行页眉和页码 175 未录入 Markdown。
+- 结论：Markdown 多出 2 条脚注式符号碎片，列为 FAIL；待全篇审计后删除碎片并保留脚注 37 正文。
