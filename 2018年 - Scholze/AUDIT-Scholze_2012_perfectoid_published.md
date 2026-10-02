@@ -59,3 +59,15 @@
   8. Remark 1.11：$\mathbf{\tilde{R}}_0$、$\mathbf{\check{K}}^\circ$、$\mathbf{\check{T}}_d$ 的伪 tilde/háček → $\mathrm{R}_0$、$\mathrm{K}^\circ$、$\mathrm{T}_d$（p.248 印刷无重音）
   9. Remark 段（p.248 部分）："finite over$\mathrm{R_0}.$," 游离 ".$" → $\mathrm{R}_0$；"the$\mathrm{R}_{n},$," 游离逗号 → $\mathrm{R}_n$；"$[\frac{1}{\mathit{\Pi}_b}]$" → $[\frac{1}{p}]$（print 为 1/p，Π_b 系 OCR 误字）；"invertingp" → "inverting p"
 - 备注：本行 119 自 "R_n-algebra which is étale…" 起属印刷 p.249，留待 p.005 审计；(iii) 无差异；Theorem 1.9/1.10 其余文字吻合。
+## p.005（PDF p.5 / 印刷 p.249）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/249；Remark 1.11 收尾（[p^{-1}]、S°=Ŝ_∞）；log-smooth/Gabber–Ramero [14]/[31] 段；almost purity 证明梗概段（R^♭-algebras）；Theorem 1.12（tilting 等价 X_ét ≅ X^♭_ét）；Theorem 1.13（(P^n_{K^♭,ad})_ét^~ ≅ lim_φ (P^n_{K,ad})_ét^~）；φ 坐标映射 (x_0^p:…:x_n^p)；π : P^n_{K^♭} → P^n_K display
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Remark 段："$[{ \boldsymbol{\rho}}^{-1}]$" → $[p^{-1}]$（print 为 p^{-1}）；"$m\geq n_{\because}$" 伪 ∵ → $m\geq n$；"$\hat{\mathrm{S}}_\infty^{\bar{}}.$"（空上标+游离句点）→ $\hat{\mathrm{S}}_\infty$；句末补 "∞."；"inverting${p,}$" → "inverting p"
+  2. "ofassumptions"、"ofthe" 缺空格 → 修正
+  3. "characteristic$\beta.$" → characteristic $p$.；"R<sup>-</sup>-algebras" → $\mathrm{R}^\flat$-algebras（almost purity 梗概段）
+  4. "space$\mathrm{X},$, and" 游离双逗号 → 单逗号（Theorem 1.12 前导段）
+  5. Theorem 1.12："over K<sup>-</sup>" → over $\mathrm{K}^\flat$；"ofsites" → "of sites"；句末补句点（print "X_ét ≅ X^♭_ét."）
+  6. Theorem 1.13：$\mathrm{K}^{\mathrm{p}}$ → $\mathrm{K}^{\flat}$（第一 topos 下标）；$(P^n_{K,ad})_{\tilde{\mathrm{et}}}^{\sim}$ 的伪 \tilde 下标 → $(P^n_{K,ad})_{\mathrm{et}}^{\sim}$（print tilde 在上标位）；句末补句点
+  7. φ 坐标公式 $(x_0^\flat:\ldots:x_n^\flat)$ → $(x_0^p:\ldots:x_n^p)$（print 上标为 p，PNG p.249 右栏确认）；公式后补句点
+- 备注：π display（p.005 末）与 print 一致；本页 print 无 quirk；行 139 起（"defined on topological spaces…"）属印刷 p.250，留待 p.006。
