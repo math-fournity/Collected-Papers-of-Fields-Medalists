@@ -147,3 +147,9 @@
 - 核对：整页为 Figure 6——Dobrushin boundary conditions 的 Ω_δ 图（primal 黑点、dual Ω_δ^⋆ 白圈、中间 medial graph Ω_δ^◇；图内标注 ∂_ba、∂_ba^⋆、A、A^⋆、a_δ、b_δ、∂_ab、∂_ab^⋆、Ω_δ^◇ 及注记 "do not belong to Ω_δ^◇"）；长图注——∂_ba 与 ∂_ab^⋆ 为两条最外弧、∂_ba^⋆/∂_ab^⋆ 从内侧毗邻 ∂_ba/∂_ab、solid lines 为 ∂_ab 与 ∂_ba（dashed 为 ∂_ab^⋆ 与 ∂_ba^⋆）；页脚印刷页码 21。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：文本层把图中菱形上标映射为 "!"（"Ω!δ"、"Ω!δ"），属嵌入字体 ToUnicode 缺失的伪影；PNG 为裁决源，重导出时图中标注须逐个按 PNG 核对（含 A/A^⋆ 两点）。
+
+## p.022（PDF p.22 / 印刷 p.22）
+- PNG：audit/p022.png（pngmono 150dpi）
+- 核对：整页为 Figure 7——Dobrushin domain (Ω_δ, a_δ, b_δ) 中的 FK percolation configuration 及 medial lattice 上的 interfaces（loops 为灰线、exploration path γ 从 a_δ 到 b_δ 为黑线）；图内标注 ∂_ba、a_δ、b_δ、"Ω_δ and Ω_δ^⋆ ∪ ∂_ab^⋆"、γ ∶= γ(ω)、∂_ab^⋆；长图注——exploration path 是 wired arc 侧 open cluster 与 free arc 白面侧 dual-open cluster 之间的 interface；页脚印刷页码 22。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：文本层把 ⋆ 映射为 "#"（"Ω#δ ∪ ∂ab#"），与 p.21 的 "!" 同类字体映射伪影；pngmono 下灰线呈浅网点属正常二值化现象，重导出时图注 grey/black 对应关系按 PNG 与原 PDF 彩色版核对。
