@@ -81,3 +81,12 @@
 - 印刷原文 quirk：正文称 "the map y: Y → Hom(Y, Z)"（斜体 y），同页 Proof 却作 "cokernel of γ"——印刷自身记号不一致；MD 两处各按印刷保留（y 与 γ），不统一。
 - 备注：M、Y、D 等印刷粗斜体拍平（字母正确，登记不改）。
 - 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.010（PDF p.10 / 印刷 p.439）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:05 -0400。
+- PNG：`audit/ribet1990_p010.png`（pngmono，150 dpi）；仲裁裁片：`audit/300dpi/ribet1990_p010_curves.png`（pnggray，300 dpi）。
+- 核对：§3 续段（𝒞 over Z_q、Deligne-Rapoport [4]/Katz-Mazur [15]、𝒞_Fq 两分支在超奇异点粘合、Frobenius 变换 x^(q)、(loc. cit. 1.18)、𝒯 两元素、𝒮=Σ(M)、j₁(i),j₂(i) 定向、𝒢 两顶点、(2.2) 特化）；Proposition 3.1（C=X₀(Mq)，印刷此处 Mq 与前文 qM 拼排不一，MD 忠实保留）；enhanced elliptic curves 段（H=(End E)⊗_Z Q、End(E) 极大序、End(E) Eichler 序、λ: E→E/B、σ↦λ⁻¹σλ）；oriented/ordered Eichler order 段；Aut 群阶整除 24、{±1}、([4], VI, Th. 6.9)、e(i)=#(Aut E)/2；Proposition 3.2（θ(D)、exponent dividing 12）；[(3.12)–(3.14)] ✓。
+- 发现并当场修复：L338 三处 \\mathcal{I}→\\mathcal{S}（"The set 𝒮 is the set Σ(M)"、"For each i∈𝒮"、"we orient the i∈𝒮"），依据 150 dpi 页图（花体 S 与 p.006 300 dpi 裁片同款）。
+- 印刷 quirk 登记：300 dpi 裁片确证 "enhanced elliptic curves." 引号内句号存在，MD 一致（150 dpi 初判误读，无修复）。
+- 备注：enhanced 曲线粗体 **E** 与椭圆曲线斜体 E 的粗体区分在 "curve E"/"For each E"/"Q-algebra" 处拍平（字母不变，登记不改）；oriented/ordered 斜体拍平同前例。
+- 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
