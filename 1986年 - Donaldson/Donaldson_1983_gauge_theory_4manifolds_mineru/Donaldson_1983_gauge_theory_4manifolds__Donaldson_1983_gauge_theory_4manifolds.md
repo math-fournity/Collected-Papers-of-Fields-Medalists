@@ -94,7 +94,7 @@ $$
 A - B \in \Omega^ {1} (\mathfrak {g})
 $$
 
-of the vector space of 1-forms with values in the bundle of Lie algebras associated to P, so Q is an affine space. For any vector bundle V associated to P a connection A induces a differential operator
+of the vector space of 1-forms with values in the bundle of Lie algebras associated to P, so $\mathcal{Q}$ is an affine space. For any vector bundle V associated to P a connection A induces a differential operator
 
 $$
 d _ {A} \colon \Omega^ {p} (V) \to \Omega^ {p + 1} (V),

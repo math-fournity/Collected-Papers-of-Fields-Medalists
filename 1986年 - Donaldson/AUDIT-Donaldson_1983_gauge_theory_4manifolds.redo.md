@@ -32,3 +32,14 @@
   - 排版级伪影（登记不改）：印刷整段斜体的 Theorem 1 在 md 中为正体；粗体 **CP**³ 拍平为 `$CP^{3}$`；**Z**/2 同前。
   - 系统性省略（登记一次，适用于全部正文页）：MinerU 导出无逐页 running head 与页码数字（本页印刷页眉 `280  S. K. DONALDSON`）；不影响正文完整性，不逐页补录。
 - 修复登记：无。
+
+### p.003（PDF p.3 / 印刷 p.281）
+
+- PNG：`audit-redo/p003.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（connection 空间草书体记号，结论记于本条）
+- 核对：Lemma 2 陈述与 n(Q)⩽rank(Q)；split 公式两行；n(Q|α⊥) 限制记号；σ(CP²) 不等式；节标题 I.3；𝔐σ=𝔐σ(X)；P↓X 记号；A−B∈Ω¹(𝔤)；d_A、d_A*、∇_A 算子行
+- 结果：**PASS±**（含一处记号修复）。
+  - Lemma 2 斜体陈述、`n(Q)\leqslant\operatorname{rank}(Q)`（印刷斜 slanted ⩽，md `\leqslant` 正确）、split 两式、`Q|_{\alpha^\perp}`、`\operatorname{rank}(Q)\leqslant n(Q).\sigma(\mathbf{CP}^2)=n(Q)` 全部与页图一致。
+  - 节标题、引论句、`P\downarrow X`、`A-B\in\Omega^1(\mathfrak{g})`、`d_A\colon\Omega^p(V)\to\Omega^{p+1}(V)`、伴随与协变导数行均吻合；跨页句 "The curvature F(A) of any | connection…" 断点与 md 一致。
+  - **修复**：md 行 95 "so Q is an affine space" 的普通 `Q` 与同段行 89/109 的 `$\mathcal{Q}$` 不一致；300dpi 裁片确认印刷两处同为草书 𝒬 → 已 Edit 改为 `so $\mathcal{Q}$ is an affine space`。
+  - 排版级伪影（登记不改）：印刷斜体 *connections*、*signature*、Lemma 2 斜体陈述在 md 中为正体。
+- 修复登记：行 95 `Q`→`$\mathcal{Q}$`（依据 `audit-redo/p003.png` + 300dpi 两处草书 𝒬 裁片）。
