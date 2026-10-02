@@ -208,3 +208,12 @@
 - 核对：§5.2 crystalline norm 的 Faltings-height 算式及 §6.1 Basic definitions。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 867 行把 Faltings 高度增量分母 `2p` 写成 `2\upsilon`。第 881 行 Shimura datum 的 homomorphism `f : S → G_R` 漏掉箭头。第 893 行把 `Res_{F/\mathbb Q}` 误录为 `Res_{F/\mathbb 0}`，并省略 `G_R` 与 Hermitian domain 两个乘积的下标范围（源文分别为 `σ:F→R` 与 `σ∈I_nc`）。300dpi 裁片逐项确认分母、箭头、基域和索引集合。
+
+## p.024（PDF p.24 / 印刷 p.24）
+- 时间：2026-10-02 00:14:07 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p024.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Special-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Prop6.2-maps.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p024_Prop6.3-maps.png`
+- 核对：§6.2 special points、Lemma 6.1、Proposition 6.2 的映射与群覆盖构造、Proposition 6.3 开头。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：多处数学映射在 Markdown 中丢失箭头：第 897 行 `h : S → G`；第 911 行 `f : (G',X') → (G,X)`；第 913 行 `G' → G`；第 919 行 `G^s → G^{der}` 与 `μ : S → G`；第 923 行 `((G_2,X_2) → (G_0,X_0))`。300dpi 裁片显示这些箭头在印刷页均清楚存在，关系语义因此无法由 Markdown 原文完整恢复。
