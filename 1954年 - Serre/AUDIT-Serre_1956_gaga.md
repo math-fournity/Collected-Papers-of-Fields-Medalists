@@ -283,6 +283,13 @@
 - Checked: completion of Proposition 26, the exact completion diagram, surjectivity/injectivity conclusion, and the opening of Proposition 27.
 - Result: FAIL. In the top row of the diagram, the print tensors over A throughout. Markdown line 1029 uses Lambda as the tensor base in all three terms. The crop confirms A; the surrounding completion maps agree.
 
+### PDF p.041/43 — print p.40
+
+- Reviewed: 2026-10-02 01:03 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi local-ring maps crop](audit/300dpi/Serre_1956_gaga_p041_local-ring-maps_300dpi.png); PDF text layer and MinerU Markdown lines 1044–1064.
+- Checked: Propositions 28–30, quotient-ring completion maps, the finite-module rank criterion, and the induced map between local rings.
+- Result: FAIL. The print uses theta for the local-ring homomorphism; Markdown lines 1044, 1052, 1056 and 1058 use zero. Proposition 30 prints E' = E⊗_A A' and E' ≅ (A')^n, while line 1056 loses the tensor-base subscript and exponent. The crop confirms these formulas; the printed m ⊂ m' relation is also represented with a plain less-than sign in Markdown.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
