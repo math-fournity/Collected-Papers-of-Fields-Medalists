@@ -43,3 +43,12 @@
 - 核对：(1.3.4) φ = χ^h、cyclotomique 句（χ: G_Q → Fₚ* 无 bar）、(1.3.5)/(1.3.6) Frob 式、Remarque（复共轭 c）、(1.3.7)/(1.3.8)/(1.3.9)、p=2 段与矩阵 (1 0; 0 −1)、§2 引言、2.1 Préliminaires、ρ_p: G_p → GL(V) ≃ GL₂(F̄ₚ)、où G_p = Gal(Q̄_p/Q_p)。
 - 结果：PASS±。Markdown 在 “où G_p = Gal(Q̄_p/Q_p)” 处把法语 où 写成数学环境内的 $\mathrm{ou}$（丢 grave accent，300 dpi 裁片确认印刷为 “où”）；已修复为正体文本 “où” + 数学式。其余公式、上下标（l^{k−1}、(−1)^{k−1}、(−1)^k）、记号全部吻合。
 - 备注：ρ_p 式连接号 300 dpi 确认为 ≃（simeq），Markdown \simeq 正确——150 dpi 初观似 “=”，以裁片为准，不改。χ 值域 Fₚ* 无 bar 与印刷一致。页眉 “182 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。
+
+## p.005（PDF p.5 / 印刷 p.183）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p005.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p005_projlime.png`、`audit/300dpi/serre1987_p005_restriction_It.png`（pnggray）；600 dpi 放大：`audit/300dpi/serre1987_p005_projlime_600dpi.png`。
+- 核对：I/I_p/I_t 惯性群定义句、I_t ≅ lim← Fₚₙ* 句、V^ss 半简化段、φ, φ′: I_t → F̄ₚ*、PROPOSITION 1 全陈述、Frobenius s 共轭句（sus⁻¹ ≡ u^p mod I_p）、情形 (a)/(b)、2.2 节标题与正文（ψ, ψ′ = ψ^p、F_{p²} 嵌入）、(2.2.1)/(2.2.2)/(2.2.3)。
+- 结果：PASS。公式与陈述全部吻合。
+- 印刷原文 quirk：① 印刷将逆向极限排作 “lim”（其下一行 “←”）加基线圆点 “·” 再接 F*ₚₙ（600 dpi 裁片确认无下标 n），Markdown 作 $\varprojlim$. $\mathbf{F}_{p^{n}}^{*}$，与印刷视觉一致，忠实保留、不按数学预期补下标；② (2.2.1) 后正文印刷作 “sa restriction à I”（300 dpi 裁片确认 I 无下标 t），Markdown 亦作 $I$，忠实保留。
+- 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 183” 未收入 Markdown，排版级。
