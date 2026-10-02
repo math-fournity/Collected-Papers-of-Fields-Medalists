@@ -81,3 +81,17 @@
 - 核对：§2 节标题、(2.1) 起句（langage farfelu）、a) Variétés différentiables 全段（Z′、Tr:H_c^n(X,Z′)→Z、classe fondamentale）、b) Variétés complexes 起句、a) X²=−1/+i、b) R/Z 与 U¹={z∈C||z|=1}、+i est l'image de 1/4、c) exp(±2πix) 与 U¹、Z(1) 定义段（Ker(exp:C→C*)、y=±2πi、c):x↦exp(xy)）、Z(r) 幂句、(2.2) 全段（caractéristique o、Ẑ*/Z*、Z/ℓ^n(1)、système projectif）、σ_{m,n} 转移式、Z_ℓ(1)=lim proj、Q_ℓ(1)=Z_ℓ(1)⊗Q_ℓ、Q_ℓ(r)=Q_ℓ(−r)^∨。
 - 结果：PASS±（回退 1 处 Luna 修复）。内容全部吻合；Luna 的 1/4 与 Tate twist (1) 修复生效。①「caractéristique」后字形：300dpi 裁片显示为小写字母高度 o（与同 crop 内 choisir/isomorphismes 的 o 同形同高；页眉粗体 280 参照零远大之），印刷原文为「caractéristique o」——与 p.003 (p=o)、p.004 (dF=o)、p.276 (t=o) 同属本印刷体「零排作 o」的系统性 quirk。Luna 把 md 的 o 改为 0 属按数学预期改写印刷原样，回退为 o 并登记。范围外提示：行 426（印刷 p.283）、844（p.292）、904（p.293，即 Luna 重分类「caractéristique 0」的那处）的同模式实例，应由对应页块按同一 300dpi 比高法重裁——本块证据提示 Luna 的 p.022 判 0 很可能同样有误。
 - 修复：`caractéristique 0` → `caractéristique o`（md 行 308；依据 p009_caracteristique-09.png + p009_ref_280-09.png）。
+
+---
+
+## 本块总评（p.001-p.009 / PDF p.1-9 = 封面 + 印刷 pp.273-280）
+
+- **覆盖声明**：9/9 页逐页审计完成（2026-10-02 14:31-17:29 EDT）。每页 pngmono 150dpi 全页目检（audit-redo/p001-p009.png）+ 关键字形 300/600dpi 仲裁裁片共 17 张（audit-redo/300dpi/，含参照裁片）；pdftotext 文本层全程辅助交叉核对（双通道主对账），公式/字形裁决一律以原页图像为准。分级：**PASS± ×9，PASS ×0，FAIL ×0**（分级针对重做时的页面状态；每页瑕疵均当场以 Edit 修复并登记）。
+- **修复统计**：本块共改 md 22 处（按各页条目修复计数：p.001×2 + p.003×2 + p.004×3 + p.005×4 + p.006×2 + p.007×3 + p.008×5 + p.009×1；git diff vs 重做前 8aa00fdd：27 insertions / 19 deletions，仅目标 md）。修复后 md SHA-256：`6a2401c4023bc3fb58896535282be2aa078a3ccdfd953ff6db0362a3ba043831`（1504 行）。只读终验：游离三字页码行本块区间 0（行 484+ 的 7 处属后续页块，见下）；`\tag` 共 31 处与印刷公式编号清点相符；本块 det 恒等字形 0 残留 `I`。
+- **系统性发现一（print quirk：零排作小写 o）**：本印刷体行内数学的数字 0 多处排为小写字母高度 o（p=o (1.3)、dF=o ×2 (1.5)、t=o (p.276)、caractéristique o (2.2)）；裁决法=与同页同字号已知数字零（年份/页码）比高。**Luna 的 o→0 系列修复属按数学预期改写印刷原样，本块 4 处已全部回退并登记**。范围外同模式待核：md 行 426（印刷 p.283）、844（p.292）、904（p.293）——其中行 904 即 Luna 据以「重分类」p.022 为 FAIL 的那处，本块同型证据提示该判定很可能同样有误，后续页块必须逐处以 300dpi 比高法重裁，不得沿袭。
+- **系统性发现二（恒等字形 det(1−Ft) 非大写 I）**：本印刷体正体数字 1=窄干+上下小衬线无旗，大写 I=宽干重衬线（Il induit 参照）；全部 det(?) 字形经 600dpi 形态学比对均为数字 1（Luna 的 P_i 判 I 与其自身页条目矛盾；(1.5.3) 的 I 系漏改）。本块 8 处已改 1。范围外残留 `\det (\mathrm{I}…)`/`\det (I …)` 共 12 处（行 457/509/553/563/993/999/1013/1019/1025/1035/1052/1062），后续页块按同一标准逐页裁决。
+- **系统性发现三（MinerU 图片链接悬空）**：md 的 `images/…` 相对路径相对 md 自身位置不存在，实际文件在 `Deligne_1974_weil1/images/` 嵌套目录。本块已修行 210（交换图，图像内容经与印刷图核对一致）；范围外残留行 782（page_18_image_6.jpg），后续页块处置。
+- **范围外其他移交项**：裸三字页码行 7 处（行 484=284、712=288、768=289、950=295、1119=298、1171=299、1329=302），与 Luna 已删的 275/279 及本次删除的 277 同类，建议后续页块按页归属删除；Hankel 式 `\mathbb{M}`/`\mathbf{N}` 字体投影（行 155）本块登记不改。
+- **Luna 审计质量小结（仅本块 9 页证据）**：Luna 的题录/文字级修复（Identifions、(1.1.2)/(1.1.3) 标量与编号、F_{q^n}、(-1)^i、Q_ℓ/Z_ℓ/𝓕 记号、1/4、dfn 保留等）大部正确；但存在四类方向性错误——按数学预期改正 print quirk（o→0 系）、恒等字形误判（I/1 形态学不辨）、修复表与页条目自相矛盾（P_i）、以及对图链失效/裸页码 277/(1.15.2) dfn 的漏检。用户判定 Luna 审计不可信在本块证据下成立，逐页重检必要。
+- **mineru doc_id**：`structured_content.json` 仅含 pages/metadata/extensions/is_full_document 字段，无 doc_id 标识；如实记为缺失。
+- **SOP 偏离声明**：本重做未向 repo 根 `AUDIT-PROGRESS.log` 追加行（ask 明令禁止写根级任何文件）；页级进度以本 redo AUDIT 的逐页条目 + 每页独立 commit（5ab03a49 → 61303542）承载，可追溯性由 git 历史保全。修复均以结构化 Edit 逐处手改目标 md，脚本仅用于只读清点；未改 PDF、未动旧 audit/ 与旧 AUDIT、未触碰其他论文目录、未 push。
