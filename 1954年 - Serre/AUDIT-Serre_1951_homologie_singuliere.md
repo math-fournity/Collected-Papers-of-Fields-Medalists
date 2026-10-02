@@ -27,3 +27,11 @@
 - 结果：PASS±
 - 差异：md 缺印刷页眉块 "ANNALS OF MATHEMATICS / Vol. 54, No. 3, November, 1951 / Printed in U.S.A."（grep "Printed in U.S.A|November" 全文 0 命中，系 mineru 系统性略去运行页眉；卷期信息已见于 p.1 封面行，不误导，不修）。正文文字、脚注标记 $^{1}$ 位置（Marston Morse 之后）、关系式 $\pi_i(\Omega) = \pi_{i+1}(X)$、引用编号 [25]/[18]/[22]/[19]/[24] 顺序均与原图逐项吻合。
 - 备注：mineru 已知瑕疵类型"运行页眉略去"在本篇为系统性表现，后续页不再重复登记，除非页眉含正文性信息。
+
+## p.003（PDF p.3 / 印刷 p.426）
+- PNG：audit/p003.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p003_pi_formula.png、p003_distinct.png、p003_distinct_word.png、p003_donne_zoom.png（300dpi，sips 裁剪/放大）
+- 核对：Ch.II 续段（terme E₁ de la suite spectrale…définition des espaces fibrés）；Ch.III（Prop. 5、Prop. 3、Leray [24]、Čech）；Ch.IV（th. de Hopf、n°7/n°8、Riemann compact connexe、infinité de géodésiques）；Ch.V（π_i(S_n) finis sauf π_n(S_n) et π_{4n−1}(S_{2n})；caractéristique p：π_{n+2p−3}(S_n)，n impair）；Ch.VI（Eilenberg-MacLane）；Comptes-Rendus [28]；致谢 H. Cartan / J-L Koszul 段
+- 结果：PASS±
+- 仲裁记录：①初读 150dpi 疑 MD 行 45 "π_{n+2p−3}" 与印刷 "π_{n+2p−2}" 不符 → 300dpi 裁剪（p003_pi_formula.png）确认印刷确为 **n+2p−3**，MD 正确，我方初读有误；②印刷原句为 "deux points **distinct** donnés"（p003_distinct_word.png/p003_donne_zoom.png：distinct 无尾 s；donnés 拼写确认）——印刷语法 quirk（应为 distincts），**md 忠实保留 "distinct"，不改**。
+- 差异：md "dont on connaît les groupes" 对印刷 "dont on connait les groupes"——重音符号现代化（排版级），不误导，不修。
+- 备注：本页无内容错误需修复；引用 [22][19][24][25][28] 与数学式全部逐项吻合。
