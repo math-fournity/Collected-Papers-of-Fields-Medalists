@@ -225,3 +225,17 @@
   5. fibres 段："$\mathrm{X^{ad}␣}\ \mathrm{X^{Berk}}$"缺箭头→→；"$k{\mathrm{-algebra}}.$,"乱码→"$k$-algebra,"；"$\mathcal{O}_{\mathrm{X},x},,$"双逗号→单（p.262 Let (R,R^+) 段）
   6. **Proposition 2.25（部分修复+登记）**：陈述含两处 0x0b 控制字节（ϖ 丢失，print 为 "ϖ-adic completion"×2，PNG 确认）与尾部"\ o f"乱码。尾部已修："$\widehat{k(x)}^{+} \ o f k(x)^{+}$"→"$\widehat{k(x)}^{+}$of$k(x)^{+}$."+补句点。**两处 \x0b 字节本 Edit 通道无法表达（转义在匹配前被剥离，多次尝试失败），按修复协议不转用脚本，登记待后续字节级修复**：行 529 现为 "Then the \x0b-adic completion of$\mathcal{O}_{X,x}^{+}$is equal to the \x0b-adic completion…"，修复方案=将 \x0b 替换为 "$\varpi$"。
 - 备注：本页其余文字（Hellmann 段、type 收缩段）与 print 逐句吻合；Proposition 2.25 的 Proof 起于行 531（印刷 p.263），留待下一块。
+## p.019（PDF p.19 / 印刷 p.263）
+- PNG：audit/p019.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/263；Prop 2.25 证明（O_{X,x}^+→k(x)^+、ϖ-divisible、QED □）；Definition 2.26 affinoid field（print "is pair" 无冠词，print quirk 保留）；In other words 段；Proposition 2.27（points 与 affinoid fields 双射）；Definition 2.28（x ≻ y / y ≺ x specializes、closure {x}‾）；Proposition 2.29 [22, (1.1.6)–(1.1.10)]（x≻y ⟺ K≅L 且 L^+⊂K^+）；generalizations 链段；x_0 段；§3 Perfectoid fields 节标题；Definition 3.1（residue characteristic p>0、Frobenius 满射）；Q_p 排除段；Lemma 3.2（|·|:K→Γ∪{0}、Γ=|K^×| minimal、Γ p-divisible）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 9 条，以原图为准）：
+  1. Prop 2.25 证明："map$\mathcal{O}_{X,x}␣k(x)$"缺箭头→$\to$；QED ".-"→"□"（print 有 tombstone）（p.263 首行）
+  2. Def 2.26 句末补句点；"is pair"无冠词为 print 原样，保留不改
+  3. Prop 2.27 头 "Proposition$2.2.7.\_{Let}$"乱码→"Proposition 2.27. — Let"；"points$gf\mathrm{Spa}$"（of 误为 gf）→"points of$\mathrm{Spa}$"；"affinoidfields"→affinoid fields；maps 缺箭头→→（p.263 Prop 2.27 行原图）
+  4. Def 2.28：$\mathrm{X,}$逗号出 math、specializes toy (ory→to y (or y、"$x\succ y ( o r y \prec x ) .$,"乱包→$x\succ y$(or$y\prec x$), if、ify→if y、closure 乱包头清理（p.263 Def 2.28 行；≻/≺ 两符号 MD 本正确）
+  5. Prop 2.29 头 "$[22,(\cal I.\cal I.\delta)-(\cal I.\cal I.\cal I 0)].-\cal Let\ (\bf R,\bf R^+)$"（罗马/δ 乱码）→"[22, (1.1.6)–(1.1.10)]. — Let$(\mathrm R,\mathrm R^+)$"；maps 两处缺箭头→→、resp. 后补逗号、"only$i f$"→only if、句末补句点（p.263 Prop 2.29 行原图）
+  6. generalizations 段：X,,、ofgeneralizations ofy、oflength/ofthe 补空格、"$t o\:y$"→to$y$+补句点（p.263）
+  7. Definition 3.1："perfectoidfield/nonarchimedeanfield/ofresidue"补空格；**"characteristic $/ > 0$"→"$p > 0$"（/ 系 p 误读，PNG 确认）**；句末补句点（p.263 Def 3.1 行）
+  8. "unramified extensions of$\mathbf{Q}_b$"→"$\mathbf{Q}_p$"（p.263 We note 段；Q_b 系 Q_p 误读）
+  9. Lemma 3.2：头"Lemma 3.2.$-Let"→"— Let"、|·|:K→Γ∪{0} 缺箭头→→、"$|\mathrm K^\times|\ i s$chosen"→"$|\mathrm K^\times|$is chosen"；**"Then \x05 is p-divisible"含 0x05 控制字节（Γ 丢失，print "Then Γ is p-divisible."，PNG 确认）——Edit 通道无法表达该字节，登记待字节级修复（方案：\x05→$\Gamma$）**（p.263 Lemma 3.2 行原图）
+- 备注：Def 2.28 的 ≻/≺ 与 Prop 2.29 的 ≅ MD 本正确；"affinoid field is pair"为 print 原样。

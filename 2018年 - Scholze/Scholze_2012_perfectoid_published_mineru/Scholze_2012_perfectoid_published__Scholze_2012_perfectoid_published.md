@@ -528,29 +528,29 @@ Let (R, R<sup>+</sup>) be an affinoid$k$-algebra, and let$\mathrm { X = S p a ( 
 
 Proposition 2.25. — Let$\varpi \in k$be topologically nilpotent. Then the  -adic completion of $\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is equal to the  -adic completion$\widehat { k ( x ) } ^ { + }$of$k ( x ) ^ { + }$.
 
-Proof. — It is enough to note that kernel of the map$\mathcal { O } _ { \mathrm { X } , x } ^ { + } \to k ( x ) ^ { + }$, which is also the kernel of the map$\mathcal { O } _ { \mathrm { X } , x }  k ( x )$, is  -divisible.-
+Proof. — It is enough to note that kernel of the map$\mathcal { O } _ { \mathrm { X } , x } ^ { + } \to k ( x ) ^ { + }$, which is also the kernel of the map$\mathcal { O } _ { \mathrm { X } , x } \to k ( x )$, is  -divisible.□
 
-Definition 2.26. — An affinoid field is pair$( \mathrm { K } , \mathrm { K } ^ { + } )$consisting of a nonarchimedean field K and an open valuation subring$\mathrm { K } ^ { + } \subset \mathrm { K } ^ { \circ }$
+Definition 2.26. — An affinoid field is pair$( \mathrm { K } , \mathrm { K } ^ { + } )$consisting of a nonarchimedean field K and an open valuation subring$\mathrm { K } ^ { + } \subset \mathrm { K } ^ { \circ }$.
 
 In other words, an affinoid field is given by a nonarchimedean field K equipped with a continuous valuation (up to equivalence). In the situation above,$( k ( x ) , k ( x ) ^ { + } )$is an affinoid field. The completion of an affinoid field is again an affinoid field. Also note that affinoid fields for which$k \subset \mathrm { K }$are affinoid k-algebras. The following description of points is immediate.
 
-Proposition$2 . 2 7 . \_ { L e t } ( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra. The points$g f \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$are in bijection with maps$( \mathrm { R } , \mathrm { R } ^ { + } )  ( \mathrm { K } , \mathrm { K } ^ { + } )$to complete affinoidfields$( \mathrm { K } , \mathrm { K } ^ { + } )$such that the quotient field of the image of R in K is dense.
+Proposition 2.27. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra. The points of$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$are in bijection with maps$( \mathrm { R } , \mathrm { R } ^ { + } ) \to ( \mathrm { K } , \mathrm { K } ^ { + } )$to complete affinoid fields$( \mathrm { K } , \mathrm { K } ^ { + } )$such that the quotient field of the image of R in K is dense.
 
-Definition 2.28. — For two points$x , y$in some topological space$\mathrm { X , }$, we say that x specializes toy (ory generalizes to x), written$x \succ y ( o r y \prec x ) .$, ify lies in the closure${ \overline { { \{ x \} } } } o f x .$
+Definition 2.28. — For two points$x , y$in some topological space$\mathrm { X }$, we say that x specializes to y (or y generalizes to x), written$x \succ y$ (or$y \prec x$), if y lies in the closure${ \overline { { \{ x \} } } }$of x.
 
-Proposition 2.29$\ [ 2 2 , ( { \cal I } . { \cal I } . \delta ) - ( { \cal I } . { \cal I } . { \cal I } 0 ) ] . - { \cal L } e t \ ( { \bf R } , { \bf R } ^ { + } )$be an affinoid k-algebra, and let $x , y \in \mathrm { { X = S p a ( R , R ^ { + } ) } }$correspond to maps$( \mathrm { R } , \mathrm { R } ^ { + } )  ( \mathrm { K } , \mathrm { K } ^ { + } )$, resp.$( \mathrm { R } , \mathrm { R } ^ { + } )  ( \mathrm { L } , \mathrm { L } ^ { + } )$ Then$x \succ y$if and only$i f \mathrm { K } \cong \mathrm { L }$as topological R-algebras and$\mathrm { L } ^ { + } \subset \mathrm { K } ^ { + }$
+Proposition 2.29 [22, (1.1.6)–(1.1.10)]. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra, and let $x , y \in \mathrm { { X = S p a ( R , R ^ { + } ) } }$correspond to maps$( \mathrm { R } , \mathrm { R } ^ { + } ) \to ( \mathrm { K } , \mathrm { K } ^ { + } )$, resp.$( \mathrm { R } , \mathrm { R } ^ { + } ) \to ( \mathrm { L } , \mathrm { L } ^ { + } )$, Then$x \succ y$if and only if$\mathrm { K } \cong \mathrm { L }$as topological R-algebras and$\mathrm { L } ^ { + } \subset \mathrm { K } ^ { + }$.
 
-For any point$y \in \mathrm { X } ,$, the set$\{ x \mid x \succ y \}$ofgeneralizations ofy is a totally ordered chain oflength exactly the rank ofthe valuation corresponding$t o \ : y$
+For any point$y \in \mathrm { X }$, the set$\{ x \mid x \succ y \}$of generalizations of y is a totally ordered chain of length exactly the rank of the valuation corresponding to$y$.
 
 Note that in particular, for a given complete nonarchimedean field K with a map $\mathrm { R } \to \mathrm { K }$, there is the point$x _ { 0 }$corresponding to$( \mathrm { K } , \mathrm { K } ^ { \circ } )$. This corresponds to the unique continuous rank-1-valuation on$\mathrm { K }$. The point$x _ { 0 }$specializes to any other point for the same K.
 
 ## 3. Perfectoid fields
 
-Definition 3.1. — A perfectoidfield is a complete nonarchimedeanfield K ofresidue characteristic $/ > 0$whose associated rank-1-valuation is nondiscrete, such that the Frobenius is surjective on$\mathrm { K } ^ { \circ } /  { p }$
+Definition 3.1. — A perfectoid field is a complete nonarchimedean field K of residue characteristic$p > 0$whose associated rank-1-valuation is nondiscrete, such that the Frobenius is surjective on$\mathrm { K } ^ { \circ } /  { p }$.
 
-We note that the requirement that the valuation is nondiscrete is needed to exclude unramified extensions of$\mathbf { Q } _ { b }$. It has the following consequence.
+We note that the requirement that the valuation is nondiscrete is needed to exclude unramified extensions of$\mathbf { Q } _ { p }$. It has the following consequence.
 
-Lemma 3.2.$- L e t \mid \cdot \mid : \mathrm { K }  \Gamma \cup \{ 0 \}$be the unique rank-1-valuation on K, where$\Gamma =$ $| \mathrm { K } ^ { \times } | \ i s$chosen minimal. Then  is p-divisible.
+Lemma 3.2. — Let$\mid \cdot \mid : \mathrm { K } \to \Gamma \cup \{ 0 \}$be the unique rank-1-valuation on K, where$\Gamma = | \mathrm { K } ^ { \times } |$is chosen minimal. Then  is p-divisible.
 
 Proof. — As$\Gamma \neq | p | ^ { \mathbf { Z } }$, the group  is generated by the set of all$| x |$for$x \in \mathrm { K }$with $| \boldsymbol { \mu } | < | \boldsymbol { x } | \leq 1$. For such$x ,$choose somey such that$| x - y ^ { p } | \leq | p |$. Then$\vert y \vert ^ { p } = \vert y ^ { p } \vert = \vert x \vert$, as desired.-
 
