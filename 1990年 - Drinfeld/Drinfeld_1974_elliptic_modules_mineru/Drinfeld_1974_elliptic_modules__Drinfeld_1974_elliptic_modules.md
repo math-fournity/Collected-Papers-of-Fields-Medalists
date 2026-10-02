@@ -56,9 +56,9 @@ B) Outline of the paper. The concept of elliptic module is introduced in §2. In
 
 modular surfaces (for $d = 2$) are constructed; this uses results of §7. In §§10 and 11 the analog of Theorem 2 is proved.
 
-This article was written under the influence of the paper [14] and also of conversations with I. I. Pjateckiš-Sapiro. However, modular varieties have been constructed algebraically (as in [6]). The analytic description of modular varieties is based on ideas from [3] (although the congruence subgroups of $GL(2, A)$ are not Schottky groups).
+This article was written under the influence of the paper [14] and also of conversations with I. I. Pjateckiĭ-Šapiro. However, modular varieties have been constructed algebraically (as in [6]). The analytic description of modular varieties is based on ideas from [3] (although the congruence subgroups of $GL(2, A)$ are not Schottky groups).
 
-The author expresses his deep gratitude to Ju. I. Manin and I. I. Pjateckiš-Sapiro for their valuable remarks and attention to this paper.
+The author expresses his deep gratitude to Ju. I. Manin and I. I. Pjateckiĭ-Šapiro for their valuable remarks and attention to this paper.
 
 ## §1. Formal modules
 
@@ -78,7 +78,7 @@ We consider the following functor from the category of O-algebras to the categor
 
 $\Lambda_{O}$ has a natural gradation. It is easy to check that the set of germs of formal O-modules over B mod $\deg(n+1)$ is canonically isomorphic to the set of O-module homomorphisms $\bigoplus_{k=0}^{n-1}\Lambda_{O}^{k}\stackrel{\psi}{\rightarrow}B$ such that $\psi(ab)=\psi(a)\psi(b)$ and $\psi(1)=1$. Elements of the form ab, where $a\in\Lambda_{O}, b\in\Lambda_{O}, \deg a>1$ and $\deg b>1$, generate a homogeneous ideal. We denote by $\widetilde{\Lambda_{O}}$ the factor of $\Lambda_{O}$ by this ideal.
 
-Proposition 1.1. Let $n \geq 2$. Then $\Lambda_O^{n-1}$ (as an O-module) can be defined by generators $a$ and $h(a)$ (for all $a \in O$) and the relations
+Proposition 1.1. Let $n \geq 2$. Then $\widetilde{\Lambda}_O^{n-1}$ (as an O-module) can be defined by generators $a$ and $h(a)$ (for all $a \in O$) and the relations
 
 $$
 \alpha (a ^ {n} - a) = \left\{ \begin{array}{l l} h (a), & \text { if   } n \text {   is   not   a   power   of   a   prime   number } \\ h (a) \circ p, & \text { if   } n = p ^ {k}, \end{array} \right.\tag{1}

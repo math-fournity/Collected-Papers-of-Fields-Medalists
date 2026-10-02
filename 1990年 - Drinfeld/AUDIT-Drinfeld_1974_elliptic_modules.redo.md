@@ -24,3 +24,13 @@
 - 结果：FAIL。adèle 环记号 4 处：MD 行 41 `GL(d,\mathfrak{A}_f)`、行 43 `\mathfrak{A}_f^*`、行 45 `GL(2,\mathfrak{A}_{f})`、行 49 `GL(2,\mathfrak{A})`，印刷均为 Fraktur **𝔘**（U 形，与 p.561 记号定义一致；300dpi 逐处核验）。已 Edit 逐处改为 `\mathfrak{U}_f` / `\mathfrak{U}`。
 - 重核 Luna 修复：Theorem 2 陈述结构（H^1(N̄,Q̄_l)≃⊕_i U_i⊗W_i、U_i=⊗U_i^p、Gal(Q̄_p/Q_p)）、1) 中 L(s,W_i^p)=L(s−1/2,Û_i^p)、2) 中 Hom_{GL(2,R)}(Π,A_0)、P_1(R)、Outline 的 Ω^d/§§1 and 4/[14] 均与页图相符，无 Luna 引入的错误。
 - 另记（PASS± 级伪影，不改）：页眉 "562 V. G. DRINFEL'D" 未收。
+
+## p.003（PDF p.3 / 印刷 p.563）
+
+- PNG：audit-redo/p003.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p003_sumlimit.png（⊕ 上限与 Λ̃ 定义句）、…_p003_prop11.png（Prop 1.1 引导句）、…_p003_name.png（致谢段人名）
+- 核对：B) Outline 收尾（§§10 and 11）、[14]/[6]/[3] 段与 GL(2,A) Schottky 句、致谢、§1 标题、formal group 定义（F(x,F(y,z))=F(F(x,y),z)、D: End F→B、φ'(0)）、加法例、τ 与 B{{τ}} 交换律 τb=b^pτ、formal O-module 定义（D∘f=γ）、germ mod deg n、Λ_O 函子与 gradation 段（⊕_{k=0}^{n-1}Λ_O^k→ψB、ψ(ab)=ψ(a)ψ(b)、ψ(1)=1、Λ̃_O 因子）、Prop 1.1 引导句。
+- 结果：FAIL。三处内容级差异：
+  1. Prop 1.1（MD 行 81）：印刷 `Λ̃_O^{n-1}`（带 tilde，与其定义句及 Prop 1.3 一致），MD 缺 tilde；已 Edit 为 `$\widetilde{\Lambda}_O^{n-1}$`。
+  2. 行 59/61 人名：印刷 `Pjateckiĭ-Šapiro`（ĭ=U+012D breve 在 i 上，Š=U+0160 caron 在大写 S 上；300dpi name 裁片），MD 写 `Pjateckiš-Sapiro`（caron 错置于 i、S 无 caron）；已两处定向 Edit 更正。
+- 重核 Luna 修复/存留项：⊕_{k=0}^{n-1} 上限印刷确为 n−1（MD 本已相符）；formal group/module 各定义式、τ 交换律均与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 563" 未收。
