@@ -156,3 +156,11 @@
 - 核对：standard position 条件 1)/2)（convex hull 投影、{0}、diameter=1）、stable case 唯一放置段（G^{(1)}）、两类放大域段、C̄_{n'} 归约段、低维空间 C_{1,0}/C_{0,2}/C_{1,1} 段、半圆图（行 961 引 page_20_image_6.jpg 存在）、C_{2,0}≃𝓗\{0+1·i} 段与 i=√−1、C̄_{2,0} 两图（行 965/969 引 page_20_image_8/10.jpg 存在）、The Eye 图题、forgetting maps 段（MD 行 949–973）。
 - 结果：`FAIL`→6 处已修复（PNG/文本层确凿）：①行 949 `one-point set 0 ,`→`one-point set$\{0\}$,`（花括号丢失）；②行 953 `n points on and m points on R`→补 `$\mathcal{H}$`（𝓗 丢失）；③行 953 `$G^{\breve{(1)}}$`→`$G^{(1)}$`（幻影 \breve 重音，印刷为干净 G^{(1)}）；④行 955 `a point on comes too close to R`→补 `$\mathcal{H}$`；⑤行 955 `on  or on R.`→`on$\mathcal{H}$ or on R.`（𝓗 丢失）；⑥行 963 `$\in{\mathcal{H}}.$.` 双句点已删。其余 PASS±：行 957 `$\mathcal{H},$` 逗号入式、行 953/957 句末缺句点（登记）；行 963 `difeomorphic`（ff 拍平）。图文对应逐项吻合（三张 Eye 系列图与印刷三图对应）。
 - 备注：行 975 起（§5.2.1 Boundary strata、S1)/S2) 层）为印刷 p.22 内容，在 p.022 核对。
+
+## p.022（PDF p.22 / 印刷 p.22）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p022.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p022_starting_from_s.png`（300dpi）
+- 核对：§5.2.1 S1)/S2) 余维 1 层清单（#S≥2、2#S+#S′≥2、#S+#S′≤#A+#B−1）、∂_S C̄_{A,B}≃C_S×C_{(A\\S)⊔{pt},B} 与 ∂_{S,S'} 两式、§6/§6.1 节标题、admissible graph Definition 1)–4)（顶点 {1..n}⊔{1̄..m̄}、2n+2−m≥0、无环、Star(k) 标号 e¹_k…e^{#Star(k)}_k）、§2 图=_identifications L=1̄,R=2̄ 段、§6.2 节标题、Eye 同伦 S¹ 段、angle map Definition、φ([(x,y)]) 记号段、φ^h 段、weight 引言（MD 行 975–1027）。
+- 结果：`FAIL`→3 处已修复：①行 989 `of points in . Analogously`→`of points in$\mathcal{H}$. Analogously`（𝓗 丢失，PNG+文本层确凿）；②行 1001 `$\mathbf{Z}_{>0}$`→`$\mathbf{Z}_{\geq 0}$`：印刷为 Z_{≥0}（PNG+文本层确凿，数学内容错误——定义允许 m=0）；③行 1023 `$\phi([(x,y)])$) simply` 幻影闭括号已删。print quirk 忠实保留：行 1013 `starting from$s ,$`（300dpi 确证印刷原文为 s，语义应为 k，原文如此）；行 1001 `{1̄,…,m̄}` 带杠记号原样。其余 PASS±：行 1017 §6.2 标题 `Diferential`（ff 拍平）；行 981/1003/1021 句末缺逗号/句点；行 1021 `of the$Eye,$` 逗号入式（登记）。公式行 986/992/1010 与印刷逐符号吻合。
+- 备注：行 1029 起（W_Γ weight 公式）为印刷 p.23 内容，在 p.023 核对。
+

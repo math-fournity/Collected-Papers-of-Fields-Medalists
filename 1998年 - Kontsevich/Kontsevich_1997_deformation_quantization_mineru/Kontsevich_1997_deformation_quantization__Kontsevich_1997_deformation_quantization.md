@@ -986,7 +986,7 @@ $$
 \partial_ {S} \overline {{C}} _ {A, B} \simeq C _ {S} \times C _ {(A \setminus S) \sqcup \{p t \}, B}
 $$
 
-where$\{ p t \}$is a one-element set, whose element represents the cluster$( p _ { i } ) _ { i \in S }$of points in . Analogously, the stratum of type S2 is
+where$\{ p t \}$is a one-element set, whose element represents the cluster$( p _ { i } ) _ { i \in S }$of points in$\mathcal { H }$. Analogously, the stratum of type S2 is
 
 $$
 \partial_ {S, S ^ {\prime}} \overline {{C}} _ {A, B} \simeq C _ {S, S ^ {\prime}} \times C _ {A \setminus S, (B \setminus S ^ {\prime}) \sqcup \{p t \}}.
@@ -998,7 +998,7 @@ In this section we propose a formula for an$L _ { \infty }$-morphism$T _ { p o l
 
 ## 6.1. Admissible graphs
 
-Definition. Admissible graph Γ is an oriented graph with labels such that 1) the set of vertices$V _ { \Gamma }$is$\{ 1 , \ldots , n \} \sqcup \{ { \overline { { 1 } } } , \ldots , { \overline { { m } } } \}$where$n , m \in { \bf Z } _ { > 0 }$, 2n$+ 2 - m \ge 0 ;$vertices from the set$\{ 1 , \ldots , n \}$are called vertices of the first type, vertices from$\{ \overline { { 1 } } , \ldots , \overline { { m } } \}$are called vertices of the second type,
+Definition. Admissible graph Γ is an oriented graph with labels such that 1) the set of vertices$V _ { \Gamma }$is$\{ 1 , \ldots , n \} \sqcup \{ { \overline { { 1 } } } , \ldots , { \overline { { m } } } \}$where$n , m \in { \bf Z } _ { \geq 0 }$, 2n$+ 2 - m \ge 0 ;$vertices from the set$\{ 1 , \ldots , n \}$are called vertices of the first type, vertices from$\{ \overline { { 1 } } , \ldots , \overline { { m } } \}$are called vertices of the second type,
 
 2) every edge$( v _ { 1 } , v _ { 2 } ) \in E _ { \Gamma }$starts at a vertex of first type,$v _ { 1 } \in \{ 1 , \ldots , n \}$
 
@@ -1020,7 +1020,7 @@ The space$\overline { { C } } _ { 2 , 0 }$(the Eye) is homotopy equivalent to th
 
 Definition. An angle map is a smooth map$\phi : \overline { { C } } _ { 2 , 0 } \longrightarrow \mathbf { R } / 2 \pi \mathbf { Z } \simeq S ^ { 1 }$such that the restriction of$\phi$to $C _ { 2 } \simeq S ^ { 1 }$is the angle measured in the anti-clockwise direction from the vertical line, and φ maps the whole upper interval$\overline { { C } } _ { 1 , 1 } \simeq [ 0 , 1 ]$of the$E y e ,$to a point in$S ^ { 1 }$
 
-We will denote$\phi ( [ ( x , y ) ] )$) simply by$\phi ( x , y )$where$x , y \in \mathcal { H } \cup \mathbf { R } , \ x \neq y$. It follows from the definition that$d \phi ( x , y ) = 0$if x stays in R.
+We will denote$\phi ( [ ( x , y ) ] )$ simply by$\phi ( x , y )$where$x , y \in \mathcal { H } \cup \mathbf { R } , \ x \neq y$. It follows from the definition that$d \phi ( x , y ) = 0$if x stays in R.
 
 For example, the special map$\phi ^ { h }$used in the formula in section 2, is an angle map. In the rest of the paper (except of the comments 9.5 and 9.8) we can use any φ, not necessarily harmonic.
 
