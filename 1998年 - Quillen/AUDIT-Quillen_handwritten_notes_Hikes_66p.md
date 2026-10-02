@@ -163,3 +163,13 @@
 - 印刷证据与差异：300dpi 裁片显示 perfectness 证明利用 central extension 的核映射写出交换子分解，从而得到 `(E,E)⊆((E,E),(E,E))`；基线第 479–481 行把参与分解的元素和包含关系写成多组无法对应原式的项。`SL_3(F_2)` 阶的原图因子是 `(2^3−1)(2^3−2)(2^3−4)=7·6·4=168`，基线第 489 行把最后因子误成 `2^3−3`，与紧随的 168 计算矛盾。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按裁片回核交换子等式和计数因子。
 - 记录：2026-10-01 20:55:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.016（PDF p.16 / 纸面圈号 16）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p016.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p016_Dror-setup.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p016_fibration-action.png`。
+- 核对：`BG` 的普遍覆盖、Dror tower 中 `BN/X_2` 与 `BE/X_3` 的空间记号、fibration `X_3→X_2` 的纤维及其诱导 `π_1` central extension；`π_1E` 对纤维同伦群的作用构造。
+- 结果：**FAIL**。
+- 印刷证据与差异：300dpi 裁片在 `BE=X_3→K(H_3X_3,3)` 与 `BN=X_2→K(H_2X_2,2)` 两处均写 `K`，基线第 503 行将其写成 `H`；第 517 行又把纤维空间 `\Pi(H_2X_2,1)` 错成 `H(H_2X_2,1)`，并多出 `H(N,1)` 残片。第 520 行把 `π_1X_3` 的下标识别为逗号。第 532–543 行将路径提升/作用图中的空间、端点和箭头关系压平；虽第 537 行单独的 `(f,t)↦p(α(t))` 可读，整体定义在 Markdown 中不再与原图对应。第 550 行的孤立中文 `行` 不见于原图，属伪 OCR 残留。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片还原空间对象和 action 图，并去除经原图确认的残片。
+- 记录：2026-10-01 23:31:24 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
