@@ -37,4 +37,17 @@
 - 与 Luna 旧记录交叉：旧 p.002 判 PASS±（列 distance/300dpi 局部核对、游离片段类伪影）；本次重核另发现人名缺音与游离碎片两项内容级问题并已修复，其余吻合。
 - 结果：PASS±（两处内容级修复后与印刷一致；斜体缺失登记保留）。
 
+### p.003（PDF p.3 / 印刷 p.159）
+
+- audited_at=2026-10-02 15:05 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p003.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p003_hilfssatz_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p003_nu_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p003_nu_zoom8x.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 159）、Regularitätsbedingung 段（δ、δ/2、U_P、U′_P、d、L<d、I<kL）、编号段 2 与 Hilfssatz 1 陈述、公式 (1) `Min(I′,I″)≦kL`（含 \tag{1}）、证明两段（Σ I^{(ν)} < kΣL^{(ν)} = kL、k=I₀/2d、Min(I′,I″)≦I₀/2）、编号段 3 起始、页末断句「von der Länge L」、脚注 1（k 或 k′ 为常数但不必相同）。
+- 发现并修复（MD 结构化 Edit，2 处）：
+  1. 上标曲线索引 `(v)` → `(\nu)`（一行内 6 个字形：L^{(ν)}、I^{(ν)}<kL^{(ν)}、ΣI^{(ν)}<kΣL^{(ν)}=kL）。依据：印刷字形为斜体，v/ν 在该字体下几乎同形（8x 放大 `…p003_nu_zoom8x.png` 不能单凭字形判别；OCR 文本层此处为 `L(')`，无旁证），但 MD 其余 7 行（γ_ν、Δ_ν、a_ν 等）对同一印刷字形均转写 `\nu`，本行是唯一 `v` 转写——按转写一致性统一为 `\nu` 并在此留痕，非按数学预期静默改正。
+  2. 删除游离脚注碎片块 `$k^{\prime}$`——印刷正文与脚注均无独立 k′ 块，该碎片为脚注中「k 或 k′」的 mineru 重复伪影。
+- 仲裁否决（登记不改）：①150dpi 疑 Hilfssatz 1 中「geschlossenen」；300dpi 裁片确证印刷即为 **geschlossene**，MD 正确。②旧审计修复表 p.3 行「两处 ∂/2 误识为 δ/2」措辞方向写反——`git show abde327` 实际 diff 为 mineru 的 `\partial/2` 被改回印刷的 `\delta/2`（修复内容正确，仅表格描述颠倒；登记为旧审计记录瑕疵，不改旧文件）。
+- 保留登记（PASS± 排版级，不修）：Hilfssatz 1 陈述整段印刷为斜体，MD 丢失斜体（系统性伪影）；公式 (1) 印刷关系号 ≦ 转写为 \leq，等价。
+- 与 Luna 旧记录交叉：旧 p.3 修复（δ/2、S(Δ)、数字 1、重复负号）经本次原页重核均与印刷一致；本次新发现并修复上标索引与游离碎片两项。
+- 结果：PASS±（两处内容级修复后与印刷一致）。
+
 <!-- redo-tail -->

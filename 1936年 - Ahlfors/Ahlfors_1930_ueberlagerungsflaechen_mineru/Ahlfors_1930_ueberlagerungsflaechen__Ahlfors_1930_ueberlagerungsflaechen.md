@@ -42,13 +42,11 @@ $$
 
 wo k nur von der Fläche  $W_{0}$  abhängt.
 
-Zuerst wird angenommen, dass die Länge $L^{(v)}$ jeder einzelnen Kurve kleiner als $d$ ist. Jede Kurve begrenzt dann ein Gebiet vom Inhalt $I^{(v)} < kL^{(v)}$. Die Punkte der Fläche, welche in keinem dieser Gebiete liegen, gehören alle zu demselben der zwei Teile, in welche $W_0$ zerlegt wurde. Hieraus folgt, dass der andere Teil einen Inhalt kleiner oder gleich $\Sigma I^{(v)} < k\Sigma L^{(v)} = kL$ hat.
+Zuerst wird angenommen, dass die Länge $L^{(\nu)}$ jeder einzelnen Kurve kleiner als $d$ ist. Jede Kurve begrenzt dann ein Gebiet vom Inhalt $I^{(\nu)} < kL^{(\nu)}$. Die Punkte der Fläche, welche in keinem dieser Gebiete liegen, gehören alle zu demselben der zwei Teile, in welche $W_0$ zerlegt wurde. Hieraus folgt, dass der andere Teil einen Inhalt kleiner oder gleich $\Sigma I^{(\nu)} < k\Sigma L^{(\nu)} = kL$ hat.
 
 Wenn andererseits $L \geq d$, so ist der Satz trivial. Wählt man nämlich $k = I_0 / 2d$, wo $I_0$ den Inhalt der ganzen Fläche $W_0$ bezeichnet, so folgt (1) sofort aus $\text{Min}(I', I'') \leq I_0 / 2$.
 
 3. Wir betrachten jetzt auf  $W_{0}$  eine geschlossene oder offene Kurve  $\gamma$ . In einer der Umgebungen  $U_{P}$  sei eine geschlossene Kurve von der Länge L
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k^{\prime}$</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Wir machen darauf aufmerksam, dass wir in der ganzen Arbeit mit k oder  $k'$  eine konstante Grösse bezeichnen, aber nicht notwendig immer dieselbe.</span></small>
 
