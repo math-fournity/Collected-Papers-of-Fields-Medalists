@@ -169,6 +169,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 两处旧修复经原页核验正确——(6.12)/(6.13) 标签归位（(6.12) 挂 $|1-w_N|$ 界、(6.13) 挂 $|w_N|$ 界）、(6.17) 的尺度 $10^{s_0}$ 完整。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 26。与 Luna 旧审（p.023 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 20:00 EDT 落签
 
+## p.024（PDF p.24 / 印刷 p.27）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p024.png`（Ghostscript `pngmono`，150dpi；原 PDF p.24）
+- 核对：Case 2 收尾（$CN^{-\delta/d}$、“This proves Lemma (6.14).” 括号原样）；(6.19) 的 $\|\sup_N|f*K_N|\|_{\ell^2(\mathbf Z)}\leqslant C\|f\|_{\ell^2(\mathbf Z)}$；$Z_1=\{2^k\}$；(6.20)；(6.21) 三行（含 $\psi_N$ 与 $\Sigma_{s=0}^\infty$ 行）；(6.22) 的 $\chi(N^d(\alpha-\theta))\zeta(10^s(\alpha-\theta))$；$\chi=\chi_{[-1,1]}$；(6.23)；(6.24)；$N^d=2^j$ 段；(6.25) $\mathcal F[g_s]$ 定义与 (6.26) $\widetilde\psi_{s,N}\mathcal Ff=\mathcal F[g_s]\chi_{\mathrm R_j}$ 标签；(6.27) 两行；$|\mathcal R_s|<4^s$、$\|g_s\|_2$ 界；(6.28) 的 $C.s^22^{-s\delta'}$。文本层 + 150dpi 原页图双通道，对 Markdown 第 1196–1259 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 三处旧修复经原页核验正确——(6.19) 的 $\ell^2(\mathbf Z)$ 双范数完整、(6.22) 的 $10^s$ 完整、(6.25)/(6.26) 标签归位且 (6.26) 变量为小写 $\widetilde\psi$；源级 “This proves Lemma (6.14).” 的括号排布忠实保留。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 27。与 Luna 旧审（p.024 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 20:12 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
