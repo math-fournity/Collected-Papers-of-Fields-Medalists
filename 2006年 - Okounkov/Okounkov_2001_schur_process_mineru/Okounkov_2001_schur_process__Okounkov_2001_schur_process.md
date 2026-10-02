@@ -158,7 +158,7 @@ $$
 \lambda_ {1} \geq \mu_ {1} \geq \lambda_ {2} \geq \mu_ {2} \geq \lambda_ {3} \geq \dots .
 $$
 
-In particular, the configuration λ(t) corresponding to the diagram (2) is
+In particular, the configuration $\{ \lambda ( t ) \}$ corresponding to the diagram (2) is
 
 $$
 (2) \prec (3, 1) \prec (4, 2) \prec (5, 3, 1) \succ (3, 1) \succ (2, 1) \succ (1).
