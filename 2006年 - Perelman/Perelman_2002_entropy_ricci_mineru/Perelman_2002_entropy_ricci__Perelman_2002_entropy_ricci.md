@@ -182,7 +182,7 @@ Proof. Assume that there is a sequence of collapsing balls$B _ { k } = B ( p _ {
 
 4.2. Definition We say that a metric$g _ { i j }$is κ-noncollapsed on the scale$\rho ,$if every metric ball B of radius$r < \rho ,$which satisfies$| R m | ( x ) \leq r ^ { - 2 }$for every $x \in B$, has volume at least$\kappa r ^ { n }$
 
-It is clear that a limit of κ-noncollapsed metrics on the scale$\rho$is also κ-noncollapsed on the scale$\rho ;$it is also clear that$\alpha ^ { 2 } g _ { i j }$is κ-noncollapsed on the scale$\alpha \rho$whenever$g _ { i j }$is κ-noncollapsed on the scale$\rho .$. The theorem above essentially says that given a metric$g _ { i j }$on a closed manifold M and $T < \infty$, one can find$\kappa = \kappa ( g _ { i j } , T ) > 0$, such that the solution$g _ { i j } ( t )$to the Ricci flow starting at$g _ { i j }$is κ-noncollapsed on the scale$T ^ { 1 / 2 }$for all$t \in [ 0 , T )$
+It is clear that a limit of κ-noncollapsed metrics on the scale$\rho$is also κ-noncollapsed on the scale$\rho ;$it is also clear that$\alpha ^ { 2 } g _ { i j }$is κ-noncollapsed on the scale$\alpha \rho$whenever$g _ { i j }$is κ-noncollapsed on the scale$\rho$. The theorem above essentially says that given a metric$g _ { i j }$on a closed manifold M and $T < \infty$, one can find$\kappa = \kappa ( g _ { i j } , T ) > 0$, such that the solution$g _ { i j } ( t )$to the Ricci flow starting at$g _ { i j }$is κ-noncollapsed on the scale$T ^ { 1 / 2 }$for all$t \in [ 0 , T )$
 
 provided it exists on this interval. Therefore, using the convergence theorem of Hamilton, we obtain the following
 

@@ -77,6 +77,15 @@
 - 差异与修复：印刷 "tends to zero as t tends to τ̄**,** and therefore"（仅逗点），MD 作 "$\bar{\tau}.$,"（math 内句点+文本逗点双写）→ 已改为 "$\bar{\tau}$, and therefore"。
 - 备注：印刷 ”converge”（两枚右引号）为 print quirk，MD 忠实保留未改；其余逐项一致。
 
+## p.010（PDF p.10 / 印刷 p.10）
+- PNG：audit-redo/p010.png（pngmono 150dpi）
+- 核对：3.2 Remark 收尾、3.3* [I]、Log-Sobolev 段 [G]/[B-Em]/[E 1]、节标题 "4 No local collapsing theorem I"、4.1 locally collapsing 定义与 Theorem、Proof（f_k=−logφ(dist+…)、μ(g_ij(0),t_k+r_k²)→−∞）、4.2 κ-noncollapsed Definition、ρ 尺度稳定性段（α²g_ij/αρ）
+- 结果：PASS±（一处双句点已修；五处丢/换标点登记不改）
+- 差异与修复：印刷 "…on the scale ρ**.** The theorem above…"（单句点），MD 作 "$\rho .$. The theorem"（math 句点+文本句点双写）→ 已改为 "$\rho$. The theorem"。
+- 登记不改（丢/换标点，印刷侧均有 PNG+pdftotext 双证）：(a) 4.1 "on [0, T)**.** We say" 句点缺失；(b) "at times t_k**,** such that" 印刷逗点被 MD 作 "$t_k.$" 句点；(c) Proof "…→ −∞**.** However" 句点缺失；(d) Definition "has volume at least κr^n**.**" 句点缺失；(e) 页末 "for all t ∈ [0,T)**,**" 逗点缺失。均不误导数学内容，按 SOP 默认不批量改。
+- 备注：Definition 斜体段 MD 拍平为正体，属 MinerU 已知排版伪影；其余文本逐字一致。
+
+
 
 
 
