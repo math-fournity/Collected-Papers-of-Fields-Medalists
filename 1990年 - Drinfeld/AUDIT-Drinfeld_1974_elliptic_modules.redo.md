@@ -99,3 +99,11 @@
 - 跨页待查（p.10–32 批次必读）：① p.018/p.025/p.031 Luna 将 `𝔘_f` 改为 `𝔄_f` 的方向与 p.561 记号定义冲突，须以原页重裁核定（本批次证据：印刷为 Fraktur U）；② p.029 起如遇 `Pjateckii-Šapiro` 书目拼写，p.563 正文印刷带 ĭ（ĭ=U+012D），书目是否同形须独立核验；③ p.010 的 `p^{-i}` 类指数与 p.009 的 `a^{p^i}` 同族，建议 600dpi 复核。
 - 最终 Markdown 复读收据：本 run 结束后已从头至尾复读全文 1136 行（1–347 为本 run 逐页工作区，348–1136 零改动区复读确认结构完整至 `Translated by M. B. NATHANSON`）；`git diff 8aa00fdd..HEAD` 枚举本 run 全部 MD 变更=17 处，逐项与本文件各页记录一致，无误伤。只读清点：行 1–330 残余 `\mathfrak{A}` = 0；`\mathfrak{U}` = 6 处（行 29×2、41、43、45、49），与页证一一对应。
 - 基线与结果 SHA：MD 基线 `77dc542b8a3b…`（= Luna 修复后态）；最终 `e4ba86b7425f455ade3a20ca7ec8c0a1a71d875336f0e729580c19a90753fd9a`。逐页 commit：6679b8c9(p.001) / 1ccc6e82(p.002) / c0a4ba76(p.003) / 597c427d(p.004) / 411b1c26(p.005) / f80b9835(p.006) / e56f4e09(p.007) / 815bf9ae(p.008) / 89accf54(p.009)。
+
+## p.010（PDF p.10 / 印刷 p.570）
+
+- PNG：audit-redo/p010.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p010_proofopen.png（Prop 4.2 陈述末行 + Proof 首行）、…_p010_qexp600.png（q^h 指数 400%）
+- 核对：Prop 3.1 proof 2) 收尾（c_i=|b_i|^{p^{-i}}、(1/a)Γ/Γ≃(A/(a))^d）与 proof 3)（f_2(αz)=P(f_1(z))、P(f_1(z))=f_2(αz)）、Corollary、§4 标题、§4A 设置（Ô^{nr}、Residue ≅ Ô^{nr}/(π)）、deformation 定义、Prop 4.1 及证明、isomorphic 定义、Prop 4.2 陈述、Proof 首行（q^h−1）。
+- 结果：FAIL（1 处印刷忠实性回退）。Prop 4.2 陈述（MD 行 341）：印刷为 **Ô^{nr}[[t_1, …, t_{b−1}]]**（下标 b，300dpi 与同裁片证明行 q^h 的双拱 h 字形可区分），MD（含 Luna 修复）为 t_{h-1}；已 Edit 回退为 `t_{b-1}`。**erratum 登记**：数学上应为 h−1（同句 "finite height h"），印刷排成 b——与 p.566 Prop 1.6 证明的 b/h 混用同族，按原样保留。
+- 重核 Luna 修复：递归估计两处 `p^{-i}`（c_i=|b_i|^{p^{-i}}、|a_j|^{p^{-i}}）与印刷相符（Luna 由 p-i 修复方向正确）；Proof 首行印刷确为 q^h−1（MD 相符，无需改）。
+- 另记（PASS± 级伪影，不改）：页眉 "570 V. G. DRINFEL'D" 未收。

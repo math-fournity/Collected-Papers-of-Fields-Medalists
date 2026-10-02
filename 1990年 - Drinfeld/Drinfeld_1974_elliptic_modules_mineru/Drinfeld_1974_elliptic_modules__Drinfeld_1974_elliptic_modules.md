@@ -338,7 +338,7 @@ Proof. Let $m \subset R$ be a maximal ideal. It suffices to consider the case wh
 
 Deformations $(F_{1}, f_{1})$ and $(F_{2}, f_{2})$ of the module $(G, g)$ are called isomorphic if there exists an isomorphism $(F_{1}, f_{1}) \cong (F_{2}, f_{2})$ inducing the identity automorphism on $(G, g)$. (If $(G, g)$ has finite height, then such an isomorphism is unique.)
 
-Proposition 4.2. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}$ of finite height $h$. The functor that associates to $R \in C$ the set of deformations of the module $(G, g)$ up to isomorphism is represented by the algebra $\hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$.
+Proposition 4.2. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}$ of finite height $h$. The functor that associates to $R \in C$ the set of deformations of the module $(G, g)$ up to isomorphism is represented by the algebra $\hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$.
 
 Proof. Let $O[g_1, g_2, \ldots] = \Lambda_O \to \hat{O}^{nr} / (\pi)$ be the homomorphism corresponding to $(G, g)$. We can assume that under this homomorphism $g_i \to 0$ for $i < q^h - 1$. Let
 
