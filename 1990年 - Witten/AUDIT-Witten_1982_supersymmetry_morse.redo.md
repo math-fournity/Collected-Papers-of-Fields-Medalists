@@ -111,3 +111,8 @@
 - PNG：`audit-redo/p020.png`（pngmono 150dpi）
 - 核对：非孤立零点段（`H_N = dd* + d*d`）；`n₊ ⩽ N₊, n₋ ⩽ N₋` 上界段；Euler 特征框架段（`H_s = d_s d_s* + d_s* d_s = (d_s + d_s*)²`、`D_s = d_s + d_s*`）；(41) `χ(M) = χ(N)`；任意向量场推广段开头。
 - 结果：PASS±。正文与 (41) 逐项与印刷页相符。**Luna 旧修复重核：`H_s` 第二项 `d_s^* d_s`（md line 499，Luna 曾修复原始 md 的重复 `d_s d_s^*`）与印刷一致，修复正确**；`d_s² + d_s*² = 0`、`D_{s±}`、`N₊ − N₋` 一致；跨页断点一致（line 509 末 "it is no"）。差异仅：页眉 "680 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.021（PDF p.21 / 印刷 p.681）
+- PNG：`audit-redo/p021.png`（pngmono 150dpi）
+- 核对：任意向量场 Euler 特征表达段（`α(N_i) = α₊ − α₋`、`χ(M) = Σ_i α(N_i)`）；signature 算子 `Q_s = i^{1/2}d_s + i^{−1/2}d_s*` 与 `Q̃_{s±}` 段；`𝓛_K` 零化段；`Q_s² = H_s + 2is𝓛_K` 段；(40) 与 `dx₁∧dx₂∧···dx_n` 取向段。
+- 结果：PASS±。正文逐项与印刷页相符。**Luna 旧修复重核：`Q_s^2 = H_s + 2is\mathscr{L}_K`（md line 521，Luna 补回丢失项）与印刷一致，修复正确；本页 `\mathscr{L}_K` 系列记号与印刷 script 字形一致**；`i^{±1/2}`、`Ṽ₊/Ṽ₋`、`A_i`、`n_i = ±1` 一致；`dx_1∧dx_2∧⋯dx_n`（末项无 ∧）忠实保留。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 681" 未入 md（版面信息省略）。
