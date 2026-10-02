@@ -242,7 +242,7 @@ A isomorphisme près, $(\mathcal{F}_x,\mathrm{F}_{x_0}^*)$ ne dépend pas du cho
 (1.14) Définissons  $Z(X_{0},\mathcal{F}_{0},t)\in\mathbf{Q}_{\ell}[[t]]$  par le produit
 
 $$
-\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {x \in | \mathrm{X} _ {0} |} \det (\mathrm{I} - \mathrm{F} _ {x} ^ {*} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1}.\tag{1.14.1}
+\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {x \in | \mathrm{X} _ {0} |} \det (1 - \mathrm{F} _ {x} ^ {*} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1}.\tag{1.14.1}
 $$
 
 Pour $\mathcal{F}$ le faisceau constant $\mathbf{Q}_{\ell}$, on retrouve (1.1.2). D'après (1.5.3), la dérivée logarithique de $Z$ est
@@ -254,7 +254,7 @@ $$
 Substituant (1.12.1) dans (1.14.2), on trouve par le même calcul qu'en (1.5) la généralisation suivante de (1.5.4)
 
 $$
-\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {i} \det (\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.\tag{1.14.3}
+\mathrm{Z} (\mathrm{X} _ {0}, \mathcal {F} _ {0}, t) = \prod_ {i} \det (1 - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {i} (\mathrm{X}, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.\tag{1.14.3}
 $$
 
 Cette formule est une identité dans $\mathbf{Q}_{\ell}[[t]]$.
@@ -278,13 +278,13 @@ Ceci amène à définir le Frobenius géométrique  $F \in \text{Gal}(\overline{
 Soit $x$ un point géométrique de $\mathbf{X}_{0}$, localisé en $x_{0} \in |\mathbf{X}_{0}|$. Par transport de structure, le groupe $\operatorname{Gal}(k(x)/k(x_{0}))$ agit sur la fibre $(\mathcal{F}_{0})_{x}$ de $\mathcal{F}_{0}$ en $x$; en particulier, le Frobenius géométrique relatif à $k(x_{0}): \mathrm{F}_{x_{0}} \in \operatorname{Gal}(k(x)/k(x_{0}))$, agit. Pour $x$ défini par un point fermé, encore noté $x$, de $\mathbf{X}$, on a $\mathcal{F}_{x} = (\mathcal{F}_{0})_{x}$, et
 
 $$
-\mathrm{F} _ {x _ {0}} ^ {*} = \mathrm{F} _ {x} ^ {* \deg (x _ {0})} = \mathrm{F} _ {x _ {0}} \quad (\text { dans } \quad \operatorname{End} (\mathcal {F} _ {x})).\tag{1.15.2}
+\mathrm{F} _ {\substack{x _ {0} \\ \mathrm{dfn}}} ^ {*} = \mathrm{F} _ {x} ^ {* \deg (x _ {0})} = \mathrm{F} _ {x _ {0}} \quad (\text { dans } \quad \operatorname{End} (\mathcal {F} _ {x})).\tag{1.15.2}
 $$
 
 En notations galoisiennes, (1.14.3) s'écrit
 
 $$
-\prod_ {x \in | X _ {0} |} \det (I - F _ {x} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1} = \prod_ {i} \det (I - F t, H _ {c} ^ {i} (X, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.
+\prod_ {x \in | X _ {0} |} \det (1 - F _ {x} t ^ {\deg (x)}, \mathcal {F} _ {0}) ^ {- 1} = \prod_ {i} \det (1 - F t, H _ {c} ^ {i} (X, \mathcal {F})) ^ {(- 1) ^ {i + 1}}.
 $$
 
 ## 2. La théorie de Grothendieck : dualité de Poincaré.
