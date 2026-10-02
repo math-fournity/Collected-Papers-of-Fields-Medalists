@@ -84,3 +84,9 @@
 - 核对：Σ_{m∈ℤ}log φ[m](z) 收敛假设、Definition 2（Prob=(1/Z)∏_{m∈ℤ+1/2}𝕊_{φ[m]}(...））、Z 求和式、§2.2.8、式 (12)（时间有序积 ∏^←）、式 (13)（Γ₊(φ)v_∅=v_∅）、Z=exp(Σ_{m1<m2}Σ_k k(log φ[m1])_k(log φ[m2])_{−k})
 - 结果：PASS±（三处已修复）：行 361、行 375 "coeficient"→"coefficient"（p011.png+文本层双证）；行 381 句末补印刷原页句号（p011.png 末行 "ensure the convergence of Z."）。
 - 备注：(12) 式 md 中 Γ 项间多余空段为排版伪影不改；∏^←、v_∅ 记号与印刷一致。
+
+## p.012（PDF p.12 / 印刷 p.12）
+- PNG：audit/p012.png（pngmono 150dpi）
+- 核对：§2.2.9 式 (14)（Prob(λ(t)=μ)∝s_μ(∏_{m<t}φ⁺[m])s_μ(∏_{m>t}φ⁻[m])）、Schur measure [16] with parameters (14)、§2.2.10（{t_k}⊂ℤ、{λ̃(k)}={λ(t_k)}、φ̃[l]=∏_{t_{l−½}<m<t_{l+½}}φ[m]）、§2.2.11 开头（𝓛(z,s), s∈ℝ）
+- 结果：PASS±（一处两修）：行 391 "coeficient"→"coefficient"（p012.png+文本层双证）且句末补印刷句号（p012.png "φ⁺[m](z) over m < t."）。
+- 备注：行 415 "t_k 's" 的 mineru 上标排版伪影（${}'$）内容可读不改；印刷 quirk "with parameters (14)"（参数实为 φ[m]，印刷如此）忠实保留。

@@ -388,7 +388,7 @@ $$
 \operatorname{Prob} (\lambda (t) = \mu) \propto s _ {\mu} \left(\prod_ {m <   t} \phi^ {+} [ m ]\right) s _ {\mu} \left(\prod_ {m > t} \phi^ {-} [ m ]\right),\tag{14}
 $$
 
-where, for example, the first factor is the image of the Schur function under the specialization that sets$h _ { k }$to the coeficient of$z ^ { k }$in the product of $\phi ^ { + } [ m ] ( z )$over$m < t$
+where, for example, the first factor is the image of the Schur function under the specialization that sets$h _ { k }$to the coefficient of$z ^ { k }$in the product of $\phi ^ { + } [ m ] ( z )$over$m < t$.
 
 This means that the distribution of each individual$\lambda ( t )$is a Schur measure [16] with parameters (14).
 
