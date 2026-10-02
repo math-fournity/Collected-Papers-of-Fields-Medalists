@@ -612,3 +612,10 @@
 - 证据：源 PDF p.085 文本层、页图 `audit/Hironaka_1964_resolution_partI_p085.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p085_Lemma7_calculation.png` 与 MinerU Markdown 第 1777–1801 行。印刷第 1777 行的理想生成元 tuple 以 `z_r` 结束，指数为 `\mu-d_\alpha-\nu_\beta`；Markdown 将其转为 `z^r`、`\mu-d_x-\nu_3`。印刷中 $Y_j$ 对应的分次分量是 $\operatorname{gr}_{\bar Q}^{1}(\bar R)$，Markdown 第 1783 行误录为 $\operatorname{gr}_{\bar Q}^{1/2}(\bar R)$。后续关于 $\psi_0$、$\Psi^*$ 和 $\bar Q^n H$ 的结论结构与原页相符。
 - 备注：印刷运行页眉和页码 192 未录入 Markdown，属导航元素省略。
 - 结论：三处变量下标/指数差异及一次分次次数 1→1/2 误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.086 / 96（印刷 p.193）— PASS±
+
+- 时间：2026-10-02 05:26 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.086 文本层、页图 `audit/Hironaka_1964_resolution_partI_p086.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p086_Lemma7_closure.png` 与 MinerU Markdown 第 1803–1837 行。Lemma 7 inclusion iteration 与 Nakayama 结论、$O=R/J$, $P=P/J$, $Q=Q/J$ 的记号、两张 graded-algebra 图以及 $\alpha$, $\beta^*$, $\beta^{*'}$ 的方向/定义均与印刷页对应；正文页末同样在引入组合交换图处续至下一页。
+- 备注：印刷运行页眉和页码 193 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
