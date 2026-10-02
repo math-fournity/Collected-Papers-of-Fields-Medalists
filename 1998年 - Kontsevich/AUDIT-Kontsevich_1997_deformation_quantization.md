@@ -142,3 +142,10 @@
 - 核对：G^{(2)}={z↦az+b|a∈R,b∈C,a>0} 式、C̄_{n,m}/C̄_n 紧化引言、manifold with corners 段（(R_{≥0})^d、[0,1]^d）、angle 集合 (Arg(p_i−p_j),Arg(p_i−p̄_j),Arg(p_i−q_j)) 式、torus 嵌入段、open strata 段、Σ_n/Σ_n×Σ_m 作用与 C_A/C_{A,B} 纤维化段、§5.2 节标题、[FM] 引用段、H∪R⊂C 显微镜段、standard position 定义 1)–2)（diameter=1、center=0）、s^cont 截面段、stable configuration 段、oriented tree T 引言（MD 行 877–917）。
 - 结果：`FAIL`→5 处已修复：①行 887 `$n\geq 1$ With`→`$n\geq 1$. With`（缺句点，PNG 确凿）；②行 893 `The space$\overline{{C}}_{r}$,m is defined`→`$\overline{{C}}_{n,m}$ is defined`（下标错写 r, 应为 n,m，PNG 确凿）；③行 897 `$C_n .$,` 双句点→`$C_n$,`；④行 905 `$\mathbf{R}^2\simeq\mathbf{C}.$, i.e.` 双句点→`$\mathbf{C}$, i.e.`；⑤行 905 `standard position if`→`iff`（印刷 iff，PNG+文本层确凿，ff 吞失）。print quirk 忠实保留：行 915 `(i.e.the number`（印刷粘排缺空格）；行 883 `( and`（印刷空格原貌）。其余 PASS±：行 885 `diference`、行 903 `diferent`（ff 拍平）；行 903 Euclidean 斜体拍平；行 909/911/897 句末缺句点（登记）。公式行 880/890/883 与印刷逐符号吻合。
 - 备注：行 919 起（$^2\bullet…$ 配置图、tree、Star(v)、a)/b) 数据）为印刷 p.20 内容，在 p.020 核对；行 931 全角逗号为上块移交线索，届时处理。
+
+## p.020（PDF p.20 / 印刷 p.20）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p020.png`（pngmono 150dpi）
+- 核对：6 点配置图与 tree 图（行 919–925，树图引 `images/page_19_image_2.jpg` 文件存在）、Star(v) 定义段、a)/b) 参数化数据、(z↦s_v z+p_v)∈G^{(2)}、s_v 缩放与 C̄_n 紧化段、strata C_T 与 ⊔_{trees T}∏_{v∈V_T\{leaves}}C_{Star(v)} 式、s^smooth 截面段、H∪R 情形过渡句（MD 行 919–947）。
+- 结果：`FAIL`→4 处已修复：①行 931 `$Star(v)$，` 全角逗号 U+FF0C→ASCII `,`（上块移交线索落实）；②行 945 `$v \in V_T \mathrm{~}\backslash$leaves`→`$v \in V_T \backslash \{\text{leaves}\}$`（集合差记号括号丢失，PNG 确凿）；③行 947 `points on   R is not much harder`→`points on$\mathcal{H}\cup\mathbf{R}$ is not much harder`（𝓗∪ 丢失，PNG+文本层确凿）；④行 947 `standard position if`→`iff`（印刷 iff，PNG+文本层确凿）。`FAIL` 另登记 1 项不可修复：行 919–921 6 点配置图被 MinerU 损毁为 `$^2\bullet\quad^3_4$` 数学残片且 images/ 无源图（仅 page_19_equation_* 与 page_19_image_2），图内容以 PDF p.20 原图为准，不虚构重建。其余 PASS±：行 933/935/945 句末缺句点（登记）。公式行 942 与印刷逐符号吻合。
+- 备注：行 949 起（standard position 条件 1)/2)）为印刷 p.21 内容，在 p.021 核对。

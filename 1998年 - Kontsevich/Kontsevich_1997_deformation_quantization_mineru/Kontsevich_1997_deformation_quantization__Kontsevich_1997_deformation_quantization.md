@@ -928,7 +928,7 @@ For every vertex of tree$T$except leaves, we denote by$S t a r ( v )$the set of 
 
 Points in$C _ { n }$close to one which we consider, can be parametrized by the following data:
 
-a) for each vertex v of$T$except leaves, a stable configuration$c _ { v }$in standard position of points labeled by the set$S t a r ( v )$，
+a) for each vertex v of$T$except leaves, a stable configuration$c _ { v }$in standard position of points labeled by the set$S t a r ( v )$,
 
 b) for each vertex v except leaves and the root of the tree, the scale$s _ { v } > 0$with which we should put a copy of$c _ { v }$instead of the corresponding point$p _ { v } \in \mathbf { C }$on stable configuration$c _ { u }$where$u \in V _ { T }$is such that $( u , v ) \in E _ { T }$
 
@@ -942,9 +942,9 @@ $$
 \bigsqcup_ {\text { trees } T} \prod_ {v \in V _ {T} \setminus \{\text { leaves } \}} C _ {S t a r (v)} .
 $$
 
-In order to introduce a smooth structure on$\overline { { C } } _ { n }$, we should choose a$\Sigma _ { n }$-equivariant smooth section $s ^ { s m o o t h }$of the projection map$C o n f _ { n } { \longrightarrow } C _ { n }$instead of the section$s ^ { c o n t }$given by configurations in standard position. Local coordinates on$\overline { { C } } _ { n }$near a given point lying in stratum$C _ { T }$are scales$s _ { v } \in \mathbf { R } _ { \geq 0 }$close to zero and local coordinates in manifolds$C _ { S t a r ( v ) }$for all$v \in V _ { T } \mathrm { ~ } \backslash$leaves . The resulting structure of a smooth manifold with corners does not depend on the choice of section$s ^ { s m o o t h }$
+In order to introduce a smooth structure on$\overline { { C } } _ { n }$, we should choose a$\Sigma _ { n }$-equivariant smooth section $s ^ { s m o o t h }$of the projection map$C o n f _ { n } { \longrightarrow } C _ { n }$instead of the section$s ^ { c o n t }$given by configurations in standard position. Local coordinates on$\overline { { C } } _ { n }$near a given point lying in stratum$C _ { T }$are scales$s _ { v } \in \mathbf { R } _ { \geq 0 }$close to zero and local coordinates in manifolds$C _ { S t a r ( v ) }$for all$v \in V _ { T } \backslash \{ \text { leaves } \}$. The resulting structure of a smooth manifold with corners does not depend on the choice of section$s ^ { s m o o t h }$
 
-The case of configurations of points on   R is not much harder. First of all, we say that a finite non-empty set S of points on${ \mathcal { H } } \cup \mathbf { R }$is in standard position if
+The case of configurations of points on$\mathcal { H } \cup \mathbf { R }$ is not much harder. First of all, we say that a finite non-empty set S of points on${ \mathcal { H } } \cup \mathbf { R }$is in standard position iff
 
 1) the projection of the convex hull of S to the horizontal line${ \bf R } \subset { \bf C } \simeq { \bf R } ^ { 2 }$is either the one-point set 0 , or it is an interval with the center at 0,
 
