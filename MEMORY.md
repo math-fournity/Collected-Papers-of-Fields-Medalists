@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02，AUDIT-INDEX 有 136 条记录：71 篇完成、40 篇原有分派（其中 P37 的 Fano 论文被错配 MinerU 导出阻塞，P40 仍在产出候选），另登记 P41–P65 共 25 篇新 Peer 任务。25 个 Codex project create_thread 请求均获接受并返回 provisional clientThreadId；当前 worktree snapshot 共 52 个，其中 22 个新 worktree 位于基线 dc234aee，另 3 个任务尚未映射到 checkout；正式 task 状态和实际运行模型/effort 未逐个核验。并行创建期间，较早 snapshot 中 63 个 worktree 降至当前 52 个，11 个既有 checkout 路径现不可见；Master 未运行清理，宿主归档/清理原因与恢复能力 UNKNOWN。全仓有 141 个 PDF 路径；SHA-256 清点发现两个 byte-identical 双副本组、139 个 distinct PDF byte streams；逻辑统计口径仍与 INDEX 的 140 声明不一致，尚未闭合。Donaldson 1983（Peer-P03）已集成于 8713f2fc；Witten bc4605dc 与 Deng 3e5e964b 有完整 Peer 候选待 Master 集成。P40 在 worktree 716d 已提交到 p.54，p.55 有未提交图像/AUDIT 草稿；其候选页仍因方法范围复核未闭合而不计完成。
+本仓库收录菲尔兹奖得主获奖相关论文、会议论文和颁奖材料，并维护 MinerU 衍生文本及逐页审计记录；详细资产地图见 README.md。截至 2026-10-02，AUDIT-INDEX 有 136 条记录：71 篇完成、40 篇原有分派（其中 P37 的 Fano 论文被错配 MinerU 导出阻塞，P40 仍在产出候选），另登记 P41–P65 共 25 篇新 Peer 任务。25 个 Codex project create_thread 请求均获接受并返回 provisional clientThreadId；最新 worktree 快照共 52 个，其中 21 个新 worktree 位于基线 dc234aee，4 个请求当前无对应 checkout；正式 task 状态和实际运行模型/effort 未逐个核验。并行创建期间，较早快照63个降至当前52个，11个既有 checkout 路径现不可见；Master 未运行清理，宿主归档/清理原因与恢复能力 UNKNOWN。全仓有141个 PDF 路径；SHA-256 清点发现两个 byte-identical 双副本组、139个 distinct PDF byte streams；逻辑统计口径仍与 INDEX 的140声明不一致，尚未闭合。Donaldson 1983（Peer-P03）已集成于8713f2fc；Witten bc4605dc与Deng 3e5e964b有完整Peer候选待Master集成。P40在worktree 716d已提交到p.66，p.67图像草稿未签；候选仍因方法范围复核未闭合而不计完成。
 
 项目治理骨架已于 2026-10-01 建立。用户新增的剩余 MinerU Markdown 正文逐处 Edit 规则已记录于 `rulings.md#R-001`，并路由到 `AGENTS.md` 与 `ZCODE-HANDOFF-PROMPT.md#2.4`。MinerU Skill 的最近检查快照为 2026-10-01：本地 MinerU 4.0.8 CLI 可执行，library server 当时停止、standard 所需 GGUF 模型缺失；每个缺失导出的 Peer 必须重新只读核对当前运行时，只可用已就绪的本地资源，不能启停服务、下载模型、改配置或远程上传。
 
@@ -10,7 +10,7 @@
 
 | 方向 | 状态 | 下一步 | 相关 Feature |
 |---|---|---|---|
-| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有尚未并发处理的文档任务同时派发 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 个新 Peer create_thread 请求已接受。P37 0/93 映射阻塞，用户将向 P37 窗口发送新提示词；其原 worktree a829 当前不在 Git worktree 列表中。P40 在 worktree 716d 已提交 p.1–p.54，p.55 草稿未签；方法冲突未解，候选不计完成。新批次均有 provisional clientThreadId；22 个新 checkout 可见、3 个未映射到 checkout，formal thread 状态与实际运行模型/effort 未核；worktree 总数下降原因/恢复能力未知。Master 只做调度、审计身份/路径/证据、维护根总账并串行集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
+| 剩余篇目的逐页审计与 Markdown 修复 | ACTIVE_WORK；用户要求将所有尚未并发处理的文档任务同时派发 | AUDIT-INDEX 现在为 136 条：71 完成、40 原有分派、25 个新 Peer create_thread 请求已接受。P37 0/93 映射阻塞，用户将向 P37 窗口发送新提示词；其原 worktree a829 当前不在 Git worktree 列表中。P40 在 worktree 716d 已提交 p.1–p.66，p.67 草稿未签；方法冲突未解，候选不计完成。新批次均有 provisional clientThreadId；21 个新 checkout 可见、4 个无对应 checkout，formal thread 状态与实际运行模型/effort 未核；worktree 总数下降原因/恢复能力未知。Master 只做调度、审计身份/路径/证据、维护根总账并串行集成，不亲自逐页审计或修复论文 | AUDIT-001、AUDIT-002 |
 
 ## 当前开放问题与阻塞
 
@@ -141,3 +141,8 @@
 - 25 个 Codex project create_thread 请求均获接受，基线 dc234aee28ba87a6dff9bebf14ac2186733c06aa；请求模型 gpt-6-luna，effort 继承已核 host default max。全部返回 provisional clientThreadId，当前不可用于 wait/read/message。最新 worktree 快照为52个（22个新 checkout 位于该基线，3个请求尚未映射），新 Peer 的正式 thread/status、实际 model/effort仍未逐个核验。
 - 同一异步准备窗口内，worktree 总数从先前63降至52，11个之前观察到的目录（含 P37 a829）当前缺席；Master未执行 cleanup/remove，宿主处理原因与缺失 untracked 资产的恢复能力均 UNKNOWN。不得据此声称旧任务完成或 dirty 内容已保全。
 - P40 已观察到 p.1–p.54 候选提交，p.55图像/AUDIT草稿未签；AUDIT-SOP 与 Handoff 方法范围冲突仍未闭合。P37 Fano flips 0/93，等待用户向 P37 task 窗口发新提示词。
+### E016 · 2026-10-02 · Peer worktree 状态复核
+
+- 在 25 个新 project create_thread 请求均被接受后，当前 `git worktree list` 为52项（含main），其中21个新checkout仍精确停在注册基线dc234aee；4个新请求没有可映射的checkout。P41–P65 formal threadId/turn status未在list_threads出现，不能称25 turn都active。
+- 与更早的63项快照对比，11个先前已列出的旧worktree路径当前不存在，包括P37的a829；Master未调用archive/remove/clean。11个旧HEAD commit对象均能从对象库读取，但其中6个HEAD当前不被branch refs包含；这只证明commit对象现存，不证明未提交/未跟踪资产可恢复。应用归档收据未在当前Master任务可见。
+- P40 worktree在本次观察时已提交p.1–p.66并留下p.67图像草稿；页面候选尚不接受，方法范围冲突仍待闭合。
