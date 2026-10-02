@@ -1,3 +1,5 @@
+PUBLICATIONS MATHÉMATIQUES DE L'I.H.É.S.
+
 PIERRE DELIGNE
 
 La conjecture de Weil : I
@@ -9,6 +11,14 @@ Publications mathématiques de l'I.H.É.S., tome 43 (1974), p. 273-307
 © Publications mathématiques de l'I.H.É.S., 1974, tous droits réservés.
 
 L'accès aux archives de la revue « Publications mathématiques de l'I.H.É.S. » (http://www.ihes.fr/IHES/Publications/Publications.html) implique l'accord avec les conditions générales d'utilisation (http://www.numdam.org/conditions). Toute utilisation commerciale ou impression systématique est constitutive d'une infraction pénale. Toute copie ou impression de ce fichier doit contenir la présente mention de copyright.
+
+NUMDAM
+
+Article numérisé dans le cadre du programme
+
+Numérisation de documents anciens mathématiques
+
+http://www.numdam.org/
 
 # LA CONJECTURE DE WEIL. I par PIERRE DELIGNE
 
