@@ -254,3 +254,10 @@
 - 证据：源 PDF p.034 文本层、页图 `audit/Hironaka_1964_resolution_partI_p034.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p034_ideal_indices.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p034_normal_crossings.png` 与 MinerU Markdown 第 539、545 行。性质 (*) 原文条件中残余理想的点 index 写为 `J'_{i,x}=O_{X',x}`；Markdown 写成 `J_{ix}'`，丢失 i 与 x 之间的逗号。normal-crossings 定义里的 `O_{x,x}` 参数环与原页相符。
 - 备注：印刷运行页眉和页码 141 未录入 Markdown，属导航元素省略。
 - 结论：局部理想 index 分隔符误录，列为 FAIL；待全篇审计完成后逐处修复。
+
+### PDF p.035 / 96（印刷 p.142）— FAIL
+
+- 时间：2026-10-02 01:56 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.035 文本层、页图 `audit/Hironaka_1964_resolution_partI_p035.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p035_J_index.png` 与 MinerU Markdown 第 553–567 行。Main theorem II 条件 (ii) 印刷为 `\nu(J_{i,x(i)})`；Markdown 第 561 行写作 `\nu(J_{ix(i)})`，丢失 sheaf index i 与 point x(i) 之间的逗号，裁片确认该分隔符。
+- 备注：印刷运行页眉和页码 142 未录入 Markdown；其余 weak-transform 与 E_{i+1} 公式相符。
+- 结论：局部 sheaf-index 结构误录，列为 FAIL；待全篇审计结束后逐处修复。
