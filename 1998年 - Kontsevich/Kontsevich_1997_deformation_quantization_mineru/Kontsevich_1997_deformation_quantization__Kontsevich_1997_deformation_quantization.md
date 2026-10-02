@@ -1212,17 +1212,17 @@ The weight w<sub>Γ</sub> defined in section 2 difer from$W _ { \Gamma }$defined
 
 ## 6.5. Grading, orientations, factorials, signs
 
-Homogeneous components of  are maps of graded spaces
+Homogeneous components of$\mathcal { U }$ are maps of graded spaces
 
 $$
 S y m ^ {n} ((\bigoplus_ {k \geq 0} \Gamma (\mathbf {R} ^ {d}, \wedge^ {k} T) [ - k ]) [ 2 ]) \longrightarrow (\underline {{H o m}} (A [ 1 ] ^ {\otimes m}, A [ 1 ])) [ 1 ]
 $$
 
-where Hom denotes the internal Hom in the tensor category$G r a d e d ^ { \mathbf { k } }$. We denote the expression from above by (E). First of all, in the expression (E) each polyvector field$\gamma _ { i } \in \Gamma ( \mathbf { R } ^ { d } , \wedge ^ { k _ { i } } T )$appears with the shift $2 - k _ { i }$. In our formula for the same$\gamma _ { i }$gives$k _ { i }$edges of the graph, and thus$k _ { i }$1-forms which we have to integrate. Also, it gives 2 dimensions for the integration domain$\overline { { C } } _ { n , m }$. Secondly, every function$f _ { j } \in A$ appears with shift 1 in (E) and gives 1 dimension to the integration domain. We are left with two shifts by 1 in (E) which are accounted for 2 dimensions of the group$\bar { G } ^ { ( 1 ) }$. From this it is clear that our formula for is compatible with Z-grading.
+where Hom denotes the internal Hom in the tensor category$G r a d e d ^ { \mathbf { k } }$. We denote the expression from above by (E). First of all, in the expression (E) each polyvector field$\gamma _ { i } \in \Gamma ( \mathbf { R } ^ { d } , \wedge ^ { k _ { i } } T )$appears with the shift $2 - k _ { i }$. In our formula for$\mathcal { U }$ the same$\gamma _ { i }$gives$k _ { i }$edges of the graph, and thus$k _ { i }$1-forms which we have to integrate. Also, it gives 2 dimensions for the integration domain$\overline { { C } } _ { n , m }$. Secondly, every function$f _ { j } \in A$ appears with shift 1 in (E) and gives 1 dimension to the integration domain. We are left with two shifts by 1 in (E) which are accounted for 2 dimensions of the group$G ^ { ( 1 ) }$. From this it is clear that our formula for$\mathcal { U }$ is compatible with Z-grading.
 
 Moreover, it is also clear that things responsible for various signs in our formulas:
 
-1) the orientation of$\overline { { C } } _ { n , m } .$7
+1) the orientation of$\overline { { C } } _ { n , m }$,
 
 2) the order in which we multiply 1-forms$d \phi _ { e }$
 
@@ -1232,7 +1232,7 @@ are naturally decomposed into pairs. This implies that the enumeration of the se
 
 Inverse factorials$1 / ( \# S t a r ( v ) ! )$kill the summation over enumerations of sets$S t a r ( v )$. The inverse factorial$1 / n !$is the final formula does not appear because we consider higher derivatives which are already multiplied by n!.
 
-The last thing to check is that in our derivation of the fact that is an$L _ { \infty }$-morphism using Stokes formula we did not loose anywhere a sign. This is really hard to explain. How, for example, can one compare the standard orientation on C with shifts by 2 in$( E ) ?$As a hint to the reader we would like to mention that it is very convenient to$\mathrm { \Delta ^ { 6 6 } \mathrm { \ p u t } ^ { \mathrm { , 9 3 } } }$the resulting expression
+The last thing to check is that in our derivation of the fact that$\mathcal { U }$ is an$L _ { \infty }$-morphism using Stokes formula we did not loose anywhere a sign. This is really hard to explain. How, for example, can one compare the standard orientation on C with shifts by 2 in$( E ) ?$As a hint to the reader we would like to mention that it is very convenient to "put" the resulting expression
 
 $$
 \Phi := \left(\mathcal {U} _ {\Gamma} \left(\gamma_ {1} \otimes \dots \otimes \gamma_ {n}\right)\right) \left(f _ {1} \otimes \dots \otimes f _ {m}\right)

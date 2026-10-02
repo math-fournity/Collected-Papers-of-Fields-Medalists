@@ -199,3 +199,10 @@
 - 结果：`FAIL`→2 处已修复：①行 1193 `and that  is an$L_{\infty}.$-morphism.`→`and that$\mathcal{U}$ is an$L_{\infty}$-morphism.`（𝒰 丢失+杂散句点，PNG+文本层确凿）；②行 1197 `check that it is a quasi-isomorphism`→`check that$\mathcal{U}$ it is a quasi-isomorphism`（𝒰 丢失；印刷原文冗余 "𝒰 it is" 忠实保留）。print quirk 忠实保留：行 1191 `we ingore them`（原文拼写）；`diferential form`（ff 拍平）。
 - 备注：行 1201 起（(2π)^m/m!、ξ₁∧…∧ξ_m 映射式、Theorem is proven. Q.E.D.、§6.4.4）为印刷 p.28 内容，属下一块 p.028 审计。
 
+## p.028（PDF p.28 / 印刷 p.28）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p028.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p028_is_final_formula.png`、`..._p028_put_quotes.png`（300dpi）
+- 核对：(2π)^m/m! 与 Ũ_Γ 映射式（sgn(σ)·ξ_{σ₁}⊗…）、Theorem is proven. Q.E.D.、§6.4.4 Comparison 段（w_Γ 与 W_Γ 差 2^n/n! 因子、B_{Γ,α}=2^{−n}𝒰_Γ(α∧…∧α)）、§6.5 节标题、(E) 分次空间映射式（Sym^n((⊕Γ(∧^kT)[−k])[2])⟶(Hom(A[1]^{⊗m},A[1]))[1]）、shift 记账段、三重符号来源 1)–3)、skew-symmetric 推断、inverse factorials 段、Stokes 无丢号讨论段与 Φ 表达式、§6.6 heading 与 C_n/G^{(2)} 段（MD 行 1201–1245）。
+- 结果：`FAIL`→7 处已修复：①行 1215 `Homogeneous components of  are maps`→补 `$\mathcal{U}$`（𝒰 丢失）；②行 1221 `In our formula for the same`→补 `$\mathcal{U}$`；③行 1221 `$\bar{G}^{(1)}$`→`$G^{(1)}$`（幻影杠，PNG 确证无 bar）；④行 1221 `our formula for is compatible`→补 `$\mathcal{U}$`；⑤行 1225 `1) the orientation of$\overline{{C}}_{n,m} .$7`→`…_{n,m}$,`（幻影 7+印刷为逗号，PNG 确凿）；⑥行 1235 `the fact that is an`→补 `$\mathcal{U}$`；⑦行 1235 `$\mathrm{\Delta^{66}\ put^{,93}}$` 引号损毁→`"put"`（300dpi `_p028_put_quotes.png` 确证正规引号）。print quirk 忠实保留：行 1233 `1/n! is the final formula does not appear`（300dpi `_p028_is_final_formula.png` 确证印刷为 is 非 in，原文笔误）；行 1211 印刷 `differ`（MD `difer` 为 ff 拍平伪影，登记不改）。其余 PASS±：行 1211 `bidiferential`、行 1235 `loose`（原文如此）/`diferential` 拍平；行 1227 列表尾缺逗号、行 1245 句末缺句点、行 1235 bold C 拍平（登记）。公式行 1204/1218/1238 与印刷逐符号吻合。
+- 备注：行 1247 起（Lemma. Let n≥3…）为印刷 p.29 内容，在 p.029 核对。
+
