@@ -404,15 +404,15 @@ $$
 
 defines another continuous valuation on R which is$\leq 1$for all$f \in \mathrm { R } ^ { + }$. It depends only on the disk$\mathrm { D } ( x , r ) = \{ y \in k ^ { \circ } \mid | y - x | \leq r \}$. If$r = 0$, then it agrees with the classical point corresponding to x. For$r = 1$, the disk$\mathrm { D } ( x , 1 )$is independent of$x \in k ^ { \circ }$, and the corresponding valuation is called the Gaußpoint.
 
-If$\dot { \boldsymbol { r } } \in | \boldsymbol { k } ^ { \times } |$, then the point is said to be of type (2), otherwise of type (3). Note that a branching occurs at a point corresponding to the disk$Ḋ \mathrm { Ḋ ( } x , r ) Ḍ Ḍ$if and only if$r \in | k ^ { \times } |$, i.e. a branching occurs precisely at the points of type (2).
+If$r \in | k ^ { \times } |$, then the point is said to be of type (2), otherwise of type (3). Note that a branching occurs at a point corresponding to the disk$\mathrm { D } ( x , r )$if and only if$r \in | k ^ { \times } |$, i.e. a branching occurs precisely at the points of type (2).
 
-(4) Dead ends ofthe tree: Let$\mathrm { D } _ { 1 } \supset \mathrm { D } _ { 2 } \supset \cdots$be a sequence ofdisks with$\cap \mathrm { D } _ { i } = \emptyset$ Such families exist if k is not spherically complete, e.g. if$k = \mathbf { C } _ { \rho }$. Then
+(4) Dead ends of the tree: Let$\mathrm { D } _ { 1 } \supset \mathrm { D } _ { 2 } \supset \cdots$be a sequence of disks with$\cap \mathrm { D } _ { i } = \emptyset$. Such families exist if k is not spherically complete, e.g. if$k = \mathbf { C } _ { p }$. Then
 
 $$
 f \mapsto \inf _ {i} \sup _ {x \in \mathrm{D} _ {i}} \left| f (x) \right|
 $$
 
-defines a valuation on$\mathrm { R } ,$which again is$\leq 1$for all$f \in \mathbb { R } ^ { + }$
+defines a valuation on$\mathrm { R } ,$which again is$\leq 1$for all$f \in \mathrm { R } ^ { + }$.
 
 (5) Finally, there are some valuations of rank 2 which are only seen in the adic space. Let us first give an example, before giving the general classification. Consider the totally ordered abelian group$\Gamma = \mathbf { R } _ { > 0 } \times \boldsymbol { \gamma } ^ { \mathbf { Z } }$, where we require that$r < \gamma < 1$for all real numbers$r < 1$. It is easily seen that there is a unique such ordering. Then
 
@@ -420,19 +420,19 @@ $$
 f = \sum a _ {n} (\mathrm{T} - x) ^ {n} \mapsto \max | a _ {n} | \gamma^ {n}
 $$
 
-defines a rank-2-valuation on R. This is similar to cases$( 2 ) , ( 3 )$, but with the variable r infinitesimally close to 1. One may check that this point only depends on the disc$\mathrm { D } ( x , <$ $1 ) = \{ y \in k ^ { \circ } \mid | y - x | < 1 \}$
+defines a rank-2-valuation on R. This is similar to cases$( 2 ) , ( 3 )$, but with the variable r infinitesimally close to 1. One may check that this point only depends on the disc$\mathrm { D } ( x , < 1 ) = \{ y \in k ^ { \circ } \mid | y - x | < 1 \}$.
 
-Similarly, take any$x \in k ^ { \circ }$, some real number$0 < r < 1$and choose a sign$? \in$ $\{ < , > \}$. Consider the totally ordered abelian group$\Gamma _ { ? r } = \mathbf { R } _ { > 0 } \times \boldsymbol { \gamma } ^ { \mathbf { Z } }$, where$r ^ { \prime } < \gamma < r$for all real numbers$r ^ { \prime } < r \mathrm { i f } ? = <$, and$r ^ { \prime } > \gamma > r$for all real numbers$r ^ { \prime } > r \mathrm { i f } ? = >$. Then
+Similarly, take any$x \in k ^ { \circ }$, some real number$0 < r < 1$and choose a sign$? \in$ $\{ < , > \}$. Consider the totally ordered abelian group$\Gamma _ { ? r } = \mathbf { R } _ { > 0 } \times \boldsymbol { \gamma } ^ { \mathbf { Z } }$, where$r ^ { \prime } < \gamma < r$for all real numbers$r ^ { \prime } < r$if$? = <$, and$r ^ { \prime } > \gamma > r$for all real numbers$r ^ { \prime } > r$if$? = >$. Then
 
 $$
 f = \sum a _ {n} (\mathrm{T} - x) ^ {n} \mapsto \max | a _ {n} | \gamma^ {n}
 $$
 
-defines a rank 2-valuation on R. If$? = <$, then it depends only on$\operatorname { D } ( x , < r ) = \{ y \in k ^ { \circ } \mid$ $\vert y - x \vert < r \} . \operatorname { I f } ^ { \mathrm { ? } } = >$, then it depends only on$Ḋ \mathrm { Ḋ ( } x , r ) Ḍ Ḍ$
+defines a rank 2-valuation on R. If$? = <$, then it depends only on$\operatorname { D } ( x , < r ) = \{ y \in k ^ { \circ } \mid | y - x | < r \}$. If$? = >$, then it depends only on$\mathrm { D } ( x , r )$.
 
-One checks that ifr$\notin | k ^ { \times } |$, then these points are all equivalent to the corresponding point oftype (3). However, at each branching point, i.e. point oftype (2), this gives exactly one additional point for each ray starting from this point.
+One checks that if$r \notin | k ^ { \times } |$, then these points are all equivalent to the corresponding point of type (3). However, at each branching point, i.e. point of type (2), this gives exactly one additional point for each ray starting from this point.
 
-All points except those of type (2) are closed. Let κ be the residue field of k. Then the closure of the Gaußpoint is exactly the Gaußpoint together with the points of type (5) around it, and is homeomorphic to$\dot { \mathbf { A } _ { \kappa } ^ { 1 } }$, with the Gaußpoint as the generic point. At the other points of type (2), one gets$\mathbf { P } _ { \kappa } ^ { 1 }$
+All points except those of type (2) are closed. Let κ be the residue field of k. Then the closure of the Gaußpoint is exactly the Gaußpoint together with the points of type (5) around it, and is homeomorphic to$\mathbf { A } _ { \kappa } ^ { 1 }$, with the Gaußpoint as the generic point. At the other points of type (2), one gets$\mathbf { P } _ { \kappa } ^ { 1 }$.
 
 We note that in case (5), one could define a similar valuation
 
@@ -440,7 +440,7 @@ $$
 f = \sum a _ {n} \mathrm{T} ^ {n} \mapsto \max | a _ {n} | \gamma^ {n},
 $$
 
-with$\gamma$having the property that$r > \gamma > 1$for all$r > 1$. This valuation would still be continuous, but it takes the value$\gamma > 1$on$\mathrm { T } \in \mathrm { R } ^ { + }$. This shows the relevance of the requirement$| f ( x ) | \leq 1$for all$f \in \mathbb { R } ^ { + }$, which is automatic for rank-1-valuations.
+with$\gamma$having the property that$r > \gamma > 1$for all$r > 1$. This valuation would still be continuous, but it takes the value$\gamma > 1$on$\mathrm { T } \in \mathrm { R } ^ { + }$. This shows the relevance of the requirement$| f ( x ) | \leq 1$for all$f \in \mathrm { R } ^ { + }$, which is automatic for rank-1-valuations.
 
 Theorem 2.21 [22, (1.1.11)]. — There is afullyfaithfulfunctor
 

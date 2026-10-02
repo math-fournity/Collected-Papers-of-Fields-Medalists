@@ -174,3 +174,17 @@
   5. (1) 段："evaluatef"→"evaluate f"；"map$\mathrm{R}␣k$（缺箭头）"→$\mathrm{R}\to k$；"$k,$"内伪逗号删除；句末补句点（p.258 (1) 行；"i.e. x∈k"经 300dpi 仲裁确认 print 无 bar，MD 本正确，不改）
   6. (2),(3) 段（p.258 部分）：f∈\mathbb{R}^+→\mathrm{R}^+；D(x,r) 中 "\lfloor y-x \vert"→"|y-x|"；"\}. \mathrm{If} r=0"→"\}$. If$r=0$"（p.258 末段原图）
 - 备注：本页含插图（print p.258 中部的树状图），MD 以图片引用承载；其余 5 处同类断裂引用（行 473、1701、1721、1995、2119）按页归属留待对应块处理，本块只修行内所属页。
+## p.015（PDF p.15 / 印刷 p.259）
+- PNG：audit/p015.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p259_A1k.png（A^1_κ 行）
+- 核对：页眉 PERFECTOID SPACES/259；Gaußpoint 收尾；type (2)/(3) 判据（r∈|k^×|、branching）；(4) Dead ends（D_1⊃D_2⊃⋯、⋂D_i=∅、k=C_p、f↦inf_i sup|f(x)| display）；(5) rank 2 赋值（Γ=R_{>0}×γ^Z、f↦max|a_n|γ^n、D(x,<1)）；Γ_{?r} 变体段；D(x,<r)/D(x,r) 段；branching 等价段；A^1_κ/P^1_κ 段；case (5) 反例（f↦max|a_n|γ^n、r>γ>1、T∈R^+）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. type (2)/(3) 判据段：$\dot{\boldsymbol r}$ 伪点删、\boldsymbol{k}→k（print 斜体）；"$Ḋ\mathrm{Ḋ(}x,r)ḌḌ$"Unicode 组合点乱码→$\mathrm{D}(x,r)$（p.259 第二段）
+  2. (4) 段："ofthe/ofdisks"补空格、"$\emptyset$ Such"补句点、**"$\mathbf{C}_{\rho}$"→"$\mathbf{C}_p$"**（print 为 C_p，Completed algebraic closure；ρ 系 p 误读，PNG 确认）（p.259 (4) 行）
+  3. (4) display 后：f∈\mathbb{R}^+→\mathrm{R}^+、句末补句点
+  4. (5) 段："$\mathrm{D}(x,<$ $1)$ 跨 math run 断裂→$\mathrm{D}(x,<1)=\{y∈k^\circ\mid|y-x|<1\}$"+补句点（print "disc D(x,< 1)"，disc 拼写保留）
+  5. Γ_{?r} 段：两处 "$\mathrm{if}?=</>$"（if 塞入 math）→"if$? = <$""if$? = >$"（p.259 Similarly 段）
+  6. D(x,<r) 段："$\operatorname{If}^{?}=>$"乱码头→"If$? = >$"、尾部 $Ḋ…Ḍ$ 乱码→$\mathrm{D}(x,r)$+补句点；mid 处 \vert 闭合一并统一为 |（p.259 defines a rank 2-valuation 段）
+  7. "ifr∉"→"if$r∉"、oftype×2→of type（p.259 One checks 段）
+  8. **A^1_κ 段：$\dot{\mathbf{A}^1_\kappa}$ 伪 \dot 删除→$\mathbf{A}^1_\kappa$——300dpi 仲裁（audit/300dpi/Scholze_2012_p259_A1k.png）确认 print 无 dot**；P^1_κ 句末补句点
+  9. case (5) 反例段：f∈\mathbb{R}^+→\mathrm{R}^+
+- 备注：Γ=R_{>0}×γ^Z 与 Γ_{?r} 的 Γ 在 MD 中完好；三个 max/inf display 与 print 一致；(5) 段 "disc" 拼写为 print 原样保留。
