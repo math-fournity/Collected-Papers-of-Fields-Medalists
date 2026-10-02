@@ -124,3 +124,9 @@
 - 核对：§2.3.6、𝔖̃(π)={(j−i, π_{ij}−(i+j−1)/2)}、式 (25)（(x,y,z)↦(t,h)=(y−x, z−(x+y)/2)）、Figure 3（水平瓦片图与题注）、𝔖̃(π)⊂ℤ×½ℤ、(t,h)∈𝔖̃(π)⟺(t,x+|t|/2)∈𝔖({λ(t)})
 - 结果：PASS±（两处已修复）：① 行 641 "diferent"→"different"（p018.png+文本层双证，ff 连字）；② 行 671 "if λ(t) corresponds" → "if $\{ \lambda ( t ) \}$ corresponds"（p018.png 印刷有花括号，与 p.006 同类 mineru 丢括号）。
 - 备注：Figure 3 图片引用 images/page_17_chart_8.jpg 存在；题注 "corresponding to diagram in Figure 1"（无 the，印刷如此）忠实一致。
+
+## 本块（p.010–p.018）修复后复核收据
+
+- 全文复读：本块 13 处修复后重读整份最终 Markdown（1299 行），逐项核对每处修改与对应页 PNG/文本层证据一致，未发现原定修复遗漏，未引入新差异。
+- 只读脚本清点：`\tag` 恢复 43 个、编号 1–43 完整（p.017 修复使 \tag{22} 回归，(21)/(22) 相邻结构见行 610/614）；全文残余 ff 伪影仅剩 p.19+ 两处（行 947 "diferences"→Theorem 2 所在 p.24、行 1095 "difers…diferent"→§3.1.14 所在 p.30），按页证据纪律留待后续页块；7 个 images/ 引用全部存在；audit/ 内 p001–p018 页图 18 张齐全。
+- 分级统计（本块）：PASS 3（p.13/14/16）、PASS± 5（p.10/11/12/15/18）、FAIL 1（p.17，(22) 公式体与编号丢失，已在该页 commit 内按 p017.png 修复并复核）。
