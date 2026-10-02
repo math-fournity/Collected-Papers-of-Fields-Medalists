@@ -154,7 +154,7 @@ On peut de plus supposer $A$ assez voisin de l'identité — au point de vue de 
 
 Désignant par $(y_{j})$ un système de $q$ fonctions coordonnées transverses au voisinage du point $y = f(x)$ de $N^{p - q}$, à tout point $z \in B_x$, associons le point de $R^q$ dont les coordonnées sont $y_{j}(g(z))$; on définit ainsi une application $L: B_x \to R^q$ qui, si $g = f$, donne l'homéomorphisme identique; l'image réciproque $L^{-1}(O)$ est l'intersection de $B_x$ avec la variété $W' = g^{-1}(N^{p - q})$.
 
-$\varepsilon$ désignant toujours le rayon de $B_x$, on peut prendre $A$ assez voisin de 1, donc $g$ assez voisin de $f$, pour que, $\|L(z)-z\|\leq\varepsilon$, uniformément en $x$, et pour tout système $(y_f)$ associé à $y=f(x)$. Ceci implique que la sphère $L(S^{q-1})$ image du bord $S^{q-1}$ de $B_x$ est homotope à $S^{q-1}$ dans l'espace $R^q-O$, privé de l'origine $O$. Il en résulte que le degré de l'application $L$, est, sur le point $O$, égal à celui de l'application identique, et est donc égal à $+1$. Par ailleurs, l'application $L$ est de rang maximum en tout point de $B_x$: au voisinage de tout point $z$ de $B_x$, $L$ est un homéomorphisme local, et par suite, l'image réciproque $L^{-1}(O)$ ne peut contenir que des points isolés; comme tout point de $B_x$ est appliqué sur $R^q$ avec le degré $+1$ (signe du jacobien de l'application $L$), l'image réciproque $L^{-1}(O)$ est formée d'un point $x'$ unique. Ainsi $W'$ ne rencontre chaque boule $B_x$ qu'en un point unique $x'$; la correspondance $x\to x'$ est un homéomorphisme de $W^{n-q}$ sur $W'^{n-q}$. De plus, comme $x'$ peut être joint à $x$ par un arc géodésique $s(x,x')$ dans $B_x$, on peut définir évidemment une isotopie qui déforme $W^{n-q}$ sur $W'^{n-q}$. On obtient ainsi:
+$\varepsilon$ désignant toujours le rayon de $B_x$, on peut prendre $A$ assez voisin de 1, donc $g$ assez voisin de $f$, pour que, $\|L(z)-z\|<\varepsilon$, uniformément en $x$, et pour tout système $(y_j)$ associé à $y=f(x)$. Ceci implique que la sphère $L(S^{q-1})$ image du bord $S^{q-1}$ de $B_x$ est homotope à $S^{q-1}$ dans l'espace $R^q-O$, privé de l'origine $O$. Il en résulte que le degré de l'application $L$, est, sur le point $O$, égal à celui de l'application identique, et est donc égal à $+1$. Par ailleurs, l'application $L$ est de rang maximum en tout point de $B_x$: au voisinage de tout point $z$ de $B_x$, $L$ est un homéomorphisme local, et par suite, l'image réciproque $L^{-1}(O)$ ne peut contenir que des points isolés; comme tout point de $B_x$ est appliqué sur $R^q$ avec le degré $+1$ (signe du jacobien de l'application $L$), l'image réciproque $L^{-1}(O)$ est formée d'un point $x'$ unique. Ainsi $W'$ ne rencontre chaque boule $B_x$ qu'en un point unique $x'$; la correspondance $x\to x'$ est un homéomorphisme de $W^{n-q}$ sur $W'^{n-q}$. De plus, comme $x'$ peut être joint à $x$ par un arc géodésique $s(x,x')$ dans $B_x$, on peut définir évidemment une isotopie qui déforme $W^{n-q}$ sur $W'^{n-q}$. On obtient ainsi:
 
 Théorème I. 6. Soit f une application de classe $C^n$ de la variété compacte $V^n$ dans $M^p$, t-régulière sur la sous-variété compacte $N^{p-q}$. Alors, pour tout homéomorphisme A de H du voisinage tubulaire de $N^{p-q}$, assez voisin de l'identité dans H, l'application $g = A \circ f$ est t-régulière sur $N^{p-q}$, et les deux sous-variétés $W^{n-q} = f^{-1}(N^{p-q})$; $W'^{n-q} = g^{-1}(N^{p-q})$ sont isotopes dans $V^n$.
 
@@ -182,7 +182,7 @@ $$
 U = \varphi_ {G} ^ {*} (\omega_ {G})
 $$
 
-où $\omega_{G}$ désigne la classe-unité de $H^{o}(B_{G})$. La classe $U$ sera appelée classe fondamentale du complexe $M(G)$. Rappelons que $U$ est une classe à coefficients entiers si $E_{G}$ est orientable ($G$ connexe); c'est une classe mod 2, si $E_{G}$ n'est pas orientable ($G$ non connexe).
+où $\omega_{G}$ désigne la classe-unité de $H^{0}(B_{G})$. La classe $U$ sera appelée classe fondamentale du complexe $M(G)$. Rappelons que $U$ est une classe à coefficients entiers si $E_{G}$ est orientable ($G$ connexe); c'est une classe mod 2, si $E_{G}$ n'est pas orientable ($G$ non connexe).
 
 3. Le théorème fondamental. Définition. On dira qu'une classe de cohomologie $u \in H^{k}(A)$ d'un espace $A$ est réalisable pour le groupe $G \subset O(k)$, ou encore: admet une $G$-réalisation, s'il existe une application $f: A \to M(G)$ telle que $u$ soit l'image, pour l'homomorphisme $f^{*}$ induit par $f$, de la classe fondamentale $U$ du complexe $M(G)$.
 
@@ -203,7 +203,7 @@ soit commutatif.
 La restriction de $F$ au bord $T$ de $N$ applique $T$ dans le bord $E_{G}$ de $A_{G}$. Si l'on désigne par $\varphi^{*}$, resp. $\varphi_{G}^{*}$, les isomorphismes des espaces fibrés en $k$-boules $N$, resp. $A_{G}$, le diagramme:
 
 $$
-\begin{array}{c} H ^ {k} (N, T) \xrightarrow {F} H ^ {k} (A _ {G}, E _ {G}) \\ \varphi^ {*} \uparrow \\ H ^ {o} (W ^ {n - k}) \xrightarrow {g} H ^ {o} (B _ {G}) \end{array}\tag{1}
+\begin{array}{ccc} H ^ {k} (N, T) & \xrightarrow {F} & H ^ {k} (A _ {G}, E _ {G}) \\ \varphi^ {*} \uparrow & & \varphi_{G}^{*} \uparrow \\ H ^ {0} (W ^ {n - k}) & \xrightarrow {g} & H ^ {0} (B _ {G}) \end{array}\tag{1}
 $$
 
 est également commutatif.
@@ -247,7 +247,7 @@ L'espace fibré universel $E_{SO(k)}$ s'obtient en associant à tout $k$-plan de
 
 topie que la grassmannienne $\widehat{G}_{k-1}$; et l'injection $E_{SO(k)} \to A_{SO(k)}$ s'identifie — au point de vue de l'homotopie — à l'application canonique $\widehat{G}_{k-1} \to \widehat{G}_k$ déduite de l'injection du sous-groupe $SO(k-1)$ dans $SO(k)$.
 
-Cohomologie de $M(SO(k))$. Pour les dimensions $r > 0$, la cohomologie $H^{*}(M(SO(k)))$ s'identifie à la cohomologie relative $H(\widehat{G}_{k}, \widehat{G}_{k-1})$; on la déterminera grâce à la suite exacte:
+Cohomologie de $M(SO(k))$. Pour les dimensions $r > 0$, la cohomologie $H^{*}(M(SO(k)))$ s'identifie à la cohomologie relative $H^{*}(\widehat{G}_{k}, \widehat{G}_{k-1})$; on la déterminera grâce à la suite exacte:
 
 $$
 \rightarrow H ^ {r} \left(\widehat {G} _ {k}\right) \stackrel {{i ^ {*}}} {{\longrightarrow}} H ^ {r} \left(\widehat {G} _ {k - 1}\right) \stackrel {{\delta^ {*}}} {{\longrightarrow}} H ^ {r + 1} \left(\widehat {G} _ {k}, \widehat {G} _ {k - 1}\right) \longrightarrow H ^ {r + 1} \left(\widehat {G} _ {k}\right) \longrightarrow\tag{2}
@@ -262,15 +262,15 @@ Cohomologie mod $p, p$ premier $> 2$. Distinguons deux cas:
 i) k impair,  $k = 2m + 1$ .  $H^{*}(\widehat{G}_{k}; Z_{p})$  est une algèbre de polynômes engendrée par des générateurs  $P^{4i}$  de dimension divisible par 4 (classes de Pontrjagin, réduites mod p):
  $P^{4}, P^{8}, \ldots, P^{4m}$ .
 
-ii) $k$ pair, $k = 2m'$. $H^{*}(G_{k};Z_{p})$ est une algèbre de polynômes engendrée par les classes de Pontrjagin, réduites mod $p$: $P^{4}, P^{8}, \ldots P^{4m'-4}$ et la «classe fondamentale» $X^{2m'}$.
+ii) $k$ pair, $k = 2m'$. $H^{*}(\widehat{G}_{k};Z_{p})$ est une algèbre de polynômes engendrée par les classes de Pontrjagin, réduites mod $p$: $P^{4}, P^{8}, \ldots P^{4m'-4}$ et la «classe fondamentale» $X^{2m'}$.
 
-Dans l'application canonique $\widehat{G}_{k} \to \widehat{G}_{k+1}$, les classes de Pontrjagin $P^{4i}$ s'appliquent l'une sur l'autre, sauf, si $k$ est pair, la classe de dimension maximum de $H^{4m}(\widehat{G}_{k+1})$, $P^{4m}$, qui se trouve appliquée par $i^{*}$ sur le cup-carré $(X^{2m})^{2}$ de la classe fondamentale $X^{2m} \in H^{k}(\widehat{G}_{k})$ (cf. [5]). Il en résulte: si $k$ est pair, $H^{*}(\widehat{G}_{k}, \widehat{G}_{k-1})$ s'identifie à l'idéal engendré par la classe $X^{2m}$ dans $H^{*}(\widehat{G}_{k})$; si $k$ est impair, $H^{*}(M(SO(k))$ s'identifie à une algèbre extérieure de générateur $\delta^{*}(X^{2m'})$.
+Dans l'application canonique $\widehat{G}_{k} \to \widehat{G}_{k+1}$, les classes de Pontrjagin $P^{4i}$ s'appliquent l'une sur l'autre, sauf, si $k$ est pair, la classe de dimension maximum de $H^{4m}(\widehat{G}_{k+1})$, $P^{4m}$, qui se trouve appliquée par $i^{*}$ sur le cup-carré $(X^{2m})^{2}$ de la classe fondamentale $X^{2m} \in H^{k}(\widehat{G}_{k})$ (cf. [5]). Il en résulte: si $k$ est pair, $H^{*}(\widehat{G}_{k}, \widehat{G}_{k-1})$ s'identifie à l'idéal engendré par la classe $X^{2m}$ dans $H^{*}(\widehat{G}_{k})$; si $k$ est impair, $H^{*}(M(SO(k)))$ s'identifie à une algèbre extérieure de générateur $\delta^{*}(X^{2m'})$.
 
 Cohomologie de $M(O(k))$.
 
 On utilise la même suite exacte que (2), où les $G_{k}$ remplacent les $\widehat{G}_{k}$
 
-Cohomologie mod 2. La cohomologie $H^{*}(G_{k};Z_{2})$ est une algèbre de polynômes, engendrée par $k$ générateurs $W_{1},W_{2},W_{3},\ldots W_{k}$. Comme précédemment, on trouve que $H^{*}(G_{k},G_{k-1};Z_{2})$ s'identifie à l'idéal $\mathfrak{f}$ engendré par la classe $W_{k}$ dans $H^{*}(G_{k};Z_{2})$.
+Cohomologie mod 2. La cohomologie $H^{*}(G_{k};Z_{2})$ est une algèbre de polynômes, engendrée par $k$ générateurs $W_{1},W_{2},W_{3},\ldots W_{k}$. Comme précédemment, on trouve que $H^{*}(G_{k},G_{k-1};Z_{2})$ s'identifie à l'idéal $\mathcal{J}$ engendré par la classe $W_{k}$ dans $H^{*}(G_{k};Z_{2})$.
 
 Cohomologie mod $p, p$ premier $> 2$. Soit $g$ le groupe d'automorphismes du revêtement à deux feuilllets $\widehat{G}_k \to G_k$. On vérifie aisément les propriétés suivantes: les classes de Pontrjagin $P^{4i}$ sont invariantes par $g$; par contre, $g$ transforme, si $k$ est pair, la classe fondamentale $X_k$ en son opposée $-X_k$. D'après un résultat classique de la théorie des revêtements (B. Eckmann [9]), il en résulte que: pour $k$ impair, $H^*(G_k; Z_p)$ est isomorphe à $H^*(\widehat{G}_k; Z_p)$; pour $k$ pair $= 2m$, $H^*(G_k; Z_p)$ est une algèbre de polynômes engendrée par les classes de Pontrjagin: $P^4, P^8 \ldots P^{4m-4}$ et le cup-carré $(X_k)^2$ de la classe fondamentale $X_k$; (en effet, si $X_k$ n'est pas invariant par $g$, par contre $(X_k)^2$ l'est).
 
@@ -321,7 +321,7 @@ Or, on a le théorème suivant: soit $K$ un complexe asphérique jusqu'en dimens
 La suite des isomorphismes:
 
 $$
-\begin{array}{l}\pi_ {k - 1 + i} (M (O (k - 1))) \stackrel {{E}} {{\rightarrow}} \pi_ {k + i} (T (k - 1)) \rightarrow \pi_ {k + i} (X) \simeq \pi_ {k + i} (M (O (k))\\i <   k - 1\end{array}
+\begin{array}{l}\pi_ {k - 1 + i} (M (O (k - 1))) \stackrel {{E}} {{\rightarrow}} \pi_ {k + i} (T (k - 1)) \rightarrow \pi_ {k + i} (X) \simeq \pi_ {k + i} (M (O (k)))\\i <   k - 1\end{array}
 $$
 
 achève la démonstration du théorème. La démonstration serait tout-à fait analogue pour $M(SO(k))$.
@@ -392,7 +392,7 @@ Si l'on revient maintenant à l'interprétation des $W_{i}$ comme fonctions sym�
 
 Lemme II.8.' Les classes $Sq^I(t_1 t_2 \ldots t_k)$, où $I$ parcourt l'ensemble des suites admissibles de degré total $h \leqslant k$, sont des fonctions symétriques des $t_i$ linéairement indépendantes.
 
-On a vu que la cohomologie $H^{*}(M(O(k)) ; Z_{2})$ s'identifie à l'idéal $\mathcal{F}$ engendré par la classe $W_{k}$ dans $H^{*}(G_{k} ; Z_{2})$; or, par l'introduction des $k$ variables $t_{i}$, on obtient une base du groupe $H^{h}(G_{k})$ en formant tous les monômes symétrisés:
+On a vu que la cohomologie $H^{*}(M(O(k)) ; Z_{2})$ s'identifie à l'idéal $\mathcal{J}$ engendré par la classe $W_{k}$ dans $H^{*}(G_{k} ; Z_{2})$; or, par l'introduction des $k$ variables $t_{i}$, on obtient une base du groupe $H^{h}(G_{k})$ en formant tous les monômes symétrisés:
 
 $$
 \Sigma (t _ {1}) ^ {a _ {1}} (t _ {2}) ^ {a _ {2}} \dots (t _ {r}) ^ {a _ {r}}\tag{4}
@@ -691,8 +691,9 @@ $$
 Calcul mod $p; p = 5$
 
 $$
-i = 0; F ^ {*} (\iota) = U; F ^ {*} (v) = U \cdot P _ {4}; F ^ {*} \left(S t _ {5} ^ {8} \iota\right) = U \cdot \left(\left(P _ {4}\right) ^ {2} - 2 P _ {8}\right) ^ {8})
+i = 0; F ^ {*} (\iota) = U; F ^ {*} (v) = U \cdot P _ {4}; F ^ {*} \left(S t _ {5} ^ {8} \iota\right) = U \cdot \left(\left(P _ {4}\right) ^ {2} - 2 P _ {8}\right)
 $$
+$^{8)}$
 
 Calcul mod $p; p > 5$.
 
@@ -754,7 +755,7 @@ En effet, toutes les puissances de Steenrod $St_{p}^{2m(p-1)+1}U$ de la classe f
 
 Notation: On désigne par $F_{N}$ l'application — définie à une homotopie près — de $K(Z,n)$ dans lui-même, telle que $F_{N}^{*}(\iota)=N\cdot\iota$.
 
-Lemme II.21. Soit $0 \to G' \to G \to G'' \to 0$ une suite exacte de groupes abéliens; supposons que les homomorphismes: $(F_{N'})^*: H^*(Z, k; G')$ et $(F_{N'})^*: H^*(Z, k; G'')$ soient nuls. Alors l'homomorphisme $(F_N)^*$, où $N = N' \cdot N''$, annule $H^*(Z, k; G)$.
+Lemme II.21. Soit $0 \to G' \to G \to G'' \to 0$ une suite exacte de groupes abéliens; supposons que les homomorphismes: $(F_{N'})^*: H^*(Z, k; G')$ et $(F_{N''})^*: H^*(Z, k; G'')$ soient nuls. Alors l'homomorphisme $(F_N)^*$, où $N = N' \cdot N''$, annule $H^*(Z, k; G)$.
 
 Ecrivons en effet la suite exacte de cohomologie induite:
 
@@ -850,7 +851,7 @@ Théorème II.27. Sont réalisables dans $V^n$ orientable par des sous-variété
 
 En effet, dans le cas limite  $H_{5}(V^{8};Z)$ , l'obstruction correspondante, donnée par le cube de Steenrod  $St_{3}^{5}(u)$ , est une classe d'ordre 3, et est donc nulle sur la classe fondamentale. De là on tire:
 
-Corollaire II.28. Toutes les classes d'homologie entière des variétés orientables de dimension  $\leqslant8$  sont réalisables par des sous-variétés. Ici encore, le cas le plus simple non décidé est donné par les classes du groupe  $H_{6}(V^{9};Z)$ . (Cf. la note  $^{9}$ ), qui suit.)
+Corollaire II.28. Toutes les classes d'homologie entière des variétés orientables de dimension  $\leqslant8$  sont réalisables par des sous-variétés. Ici encore, le cas le plus simple non décidé est donné par les classes du groupe  $H_{4}(V^{6};Z)$ . (Cf. la note  $^{9}$ ), qui suit.)
 
 On notera encore, en conséquence du théorème II.17: Pour qu'une classe d'homologie de dimension 8 dans une variété de dimension $\geqslant 17$ soit réalisable par une sous-variété, il faut et il suffit que le cube $St_{3}^{5}$ de la classe de cohomologie duale soit nul.
 
@@ -954,7 +955,7 @@ ii) Dans toute application $f: K \to K'$, $\vartheta_{i}^{p}$ commute avec l'hom
 iii) Sur le corps $Z_p$, les opérateurs $\vartheta_i^p$ peuvent être déterminés en fonction des $St_p^i$; si $\vartheta_i^p$ applique $H_r(K)$ dans $H_{r-i}(K)$, désignons par $Q_p^i$ l'homomorphisme dual, qui applique $H^{r-i}(K;Z_p)$ dans $H^r (K;Z_p)$. Alors les $Q_p^i$ d'indice pair s'expriment en fonction des $St_p^i$ par les formules:
 
 $$
-\Sigma_ {i} Q _ {p} ^ {m - i} S t _ {p} ^ {i} = 0 m, i \equiv 0 \bmod 2 (p - 1), Q ^ {\circ} = \text { identité }.
+\Sigma_ {i} Q _ {p} ^ {m - i} S t _ {p} ^ {i} = 0 m, i \equiv 0 \bmod 2 (p - 1), Q ^ {0} = \text { identité }.
 $$
 
 La démonstration de cette formule est en tout point analogue à celle de la formule (60) Th. III. 23 de [27]. Les $Q^i$ d'indice impair s'obtiennent à partir des $Q^i$ pairs par la relation, transposée des $\vartheta_i^p$:
@@ -1115,7 +1116,7 @@ $$
 \left(y _ {1}, y _ {2} \dots y _ {q}, x _ {q + 1}, \dots , x _ {n}, t\right).
 $$
 
-Dans ce voisinage $A^{n+1-q}$ est défini par les équations linéaires: $y_{1}=y_{2}=y_{q}=0$, et $C^{n}$ en y ajoutant la relation $t=0$; c'est dire que $x$
+Dans ce voisinage $A^{n+1-q}$ est défini par les équations linéaires: $y_{1}=y_{2}=\cdots=y_{q}=0$, et $C^{n}$ en y ajoutant la relation $t=0$; c'est dire que $x$
 
 admet dans $A^{n+1-q}$ un voisinage homéomorphe au demi-espace $R^{n+1-q}$ (de coordonnées $x_{q+1}, \ldots, x_n; t$) limité par un espace $R^{n-q}$ (de coordonnées $x_{q+1} \ldots x_n$) image de $C^n \cdot C.Q.F.D$.
 
@@ -1162,7 +1163,7 @@ $$
 telle que le diagramme:
 
 $$
-\begin{array}{c} N \xrightarrow {F} A _ {S O (k)} \\ p \Big \downarrow \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ W ^ {n - k} \xrightarrow {g} \widehat {G} _ {k} \end{array}
+\begin{array}{ccc} N & \xrightarrow{F} & A_{SO(k)} \\ p\Big\downarrow & & p'\Big\downarrow \\ W^{n-k} & \xrightarrow{g} & \widehat{G}_k \end{array}
 $$
 
 soit commutatif ($p$ et $p'$ désignant les fibrations canoniques en $k$-boules). Comme en II.2, l'application $F$ s'étend en une application
@@ -1187,7 +1188,7 @@ Cet homéomorphisme $\Phi$ de $Q^{n+1}$ est ainsi défini: il se réduit à l'id
 
 On vérifie alors directement que tout vecteur tangent en $x$ à $\Phi(X^{k+1})$ est tangent au cylindre orthogonal à $V^n$, $W^k \times t'$, où $t'$ varie dans $I$.
 
-Revenons maintenant à la variété $V^n$, plongée dans $R^{n+m}$ suivant deux plongements différents $i_0$ et $i_1$; si $m > n + 2$, on peut supposer les images $i_0(V^n), i_1(V^n)$ disjointes — au besoin après une translation convenable de $i_1$; on peut alors trouver, d'après un théorème de H. Whitney un plongement $i$ du produit $V^n \times I$ dans $R^{n+m}$, dont la restriction à $(V, 0)$, resp. $(V, 1)$, est précisément $i_0$, resp. $i_1$. La variété à bord plongée $i(V^n \times I)$ contient une sous-variété plongée de la forme $W^{n-k} \times I$, qui rencontre le bord de $V^n \times I$ transversalement. Supposons donnée sur $V^n \times I$ une métrique riemannienne; d'après le lemme, on peut supposer que $W^{n-k} \times I$ rencontre les bords $(V^n, 0)$ et $(V^n, 1)$ de $V^n \times I$ orthogonalement. Formons alors un voisinage tubulaire normal de $W^{n-k} \times I$ dans $V^n \times I$, soit $N$. Les intersections $N_0 = N \cap i_0(V^n), N_1 = N \cap i_1(V^n)$ ne sont autres que les voisinages tubulaires normaux associés à $i_0(W^{n-k})$, resp. $i_1(W^{n-k})$ plongées dans $i_0(V^n)$, resp. $i_1(V^n)$. Formons l'application canonique — par parallèlement.
+Revenons maintenant à la variété $V^n$, plongée dans $R^{n+m}$ suivant deux plongements différents $i_0$ et $i_1$; si $m > n + 2$, on peut supposer les images $i_0(V^n), i_1(V^n)$ disjointes — au besoin après une translation convenable de $i_1$; on peut alors trouver, d'après un théorème de H. Whitney un plongement $i$ du produit $V^n \times I$ dans $R^{n+m}$, dont la restriction à $(V, 0)$, resp. $(V, 1)$, est précisément $i_0$, resp. $i_1$. La variété à bord plongée $i(V^n \times I)$ contient une sous-variété plongée de la forme $W^{n-k} \times I$, qui rencontre le bord de $V^n \times I$ transversalement. Supposons donnée sur $V^n \times I$ une métrique riemannienne; d'après le lemme, on peut supposer que $W^{n-k} \times I$ rencontre les bords $(V^n, 0)$ et $(V^n, 1)$ de $V^n \times I$ orthogonalement. Formons alors un voisinage tubulaire normal de $W^{n-k} \times I$ dans $V^n \times I$, soit $N$. Les intersections $N_0 = N \cap i_0(V^n), N_1 = N \cap i_1(V^n)$ ne sont autres que les voisinages tubulaires normaux associés à $i_0(W^{n-k})$, resp. $i_1(W^{n-k})$ plongées dans $i_0(V^n)$, resp. $i_1(V^n)$. Formons l'application canonique — par parallélisme.
 
 $$
 \boldsymbol {F}: N \rightarrow A _ {S O (k)}.
@@ -1254,7 +1255,7 @@ $$
 induisent toutes deux l'espace fibré des vecteurs normaux à $W^{n-k}$ dans $V^n$; en raison du théorème de classification des espaces fibrés, ces deux applications sont homotopes. Or, si nous écrivons à nouveau le diagramme commutatif:
 
 $$
-\begin{array}{c} N \xrightarrow {h} A _ {S O (k)} \\ \Big \downarrow \\ W ^ {n - k} \xrightarrow {h} \widehat {G} _ {\kappa} \end{array}
+\begin{array}{c} N \xrightarrow {h} A _ {S O (k)} \\ \Big \downarrow \\ W ^ {n - k} \xrightarrow {h} \widehat {G} _ {k} \end{array}
 $$
 
 nous en déduisons, par relèvement de l'homotopie  $h \simeq g$ , qu'il existe une application  $h_{1}$ , homotope à h, telle que:
@@ -1386,7 +1387,6 @@ les classes $W_{i}$ de la structure tangente d'une variété. La question se tro
 On a défini plus haut la variété $V_{\omega}^{k}$; rappelons que tous les nombres caractéristiques normaux $Y_{\omega_1}$, de $V_{\omega}^{k}$ sont nuls, à l'exception du nombre $Y_{\omega}$. On va montrer que la variété $V^{k}$ est cobordante mod 2 au produit des variétés: $V_{\omega_1}^r \times V_{\omega_2}^s$. Il suffira pour cela de montrer, d'après le corollaire IV.11, que tous leurs nombres caractéristiques de Stiefel-Whitney sont égaux.
 
 Or cela résulte immédiatement de la formule suivante, que nous allons établir:
-$X_{\text{max}} = \sum_{n=1}^{N} (X_{n}) / (X_{n-1})$
 
 $$
 Y _ {\omega} = \sum_ {(\omega_ {1}, \omega_ {2})} (Y _ {\omega_ {1}}) (Y _ {\omega_ {2}})\tag{3}
@@ -1428,7 +1428,7 @@ $$
 
 Les seules classes $[V_{\omega}^{k}]$ non décomposables sont par suite les classes $[V_{(k)}^{k}]$, où $(k)$ est la partition de $k$ constituée de l'entier $k$ lui-même ($k$ non de la forme $2^{m}-1$). Toute autre classe se met — univoquement — sous forme d'une somme de produits de ces classes indécomposables. Ceci nous permet d'énoncer:
 
-Théorème IV.12. L'anneau N des groupes  $N^{k}$  est isomorphe à une algèbre de polynômes sur le corps  $Z_{2}$ , admettant un générateur  $[V_{(k)}^{k}]$  pour toute dimension k qui n'est pas de la forme  $2^{m}-1$ .
+Théorème IV.12. L'anneau $\mathfrak{N}$ des groupes  $\mathfrak{N}^{k}$  est isomorphe à une algèbre de polynômes sur le corps  $Z_{2}$ , admettant un générateur  $[V_{(k)}^{k}]$  pour toute dimension k qui n'est pas de la forme  $2^{m}-1$ .
 
 Corollaire: Si V et V' ne sont pas des bords (mod 2), la variété produit V × V' n'est pas un bord (mod 2).
 
@@ -1469,11 +1469,11 @@ $$
 \Sigma (\bar {t} _ {1}) ^ {a _ {1}} (\bar {t} _ {2}) ^ {a _ {2}} \dots (\bar {t} _ {m}) ^ {a _ {m}},
 $$
 
-où les $a_{i}$ forment une partition non dyadique $\omega$ de $n$, ne sont pas nuls pour $PR(n)$, on formera la somme $PR(n)+\bigcup_{i}V_{c_{i}}^{n}$; pour cette variété, tous les nombres caractéristiques normaux définis par des partitions non-dyadiques de $n$ sont nuls, à la seule exception de $\Sigma(t)^{n}$; cette variété est donc un représentant de la classe primitive $[V_{(n)}^{n}]$.
+où les $a_{i}$ forment une partition non dyadique $\omega$ de $n$, ne sont pas nuls pour $PR(n)$, on formera la somme $PR(n)+\bigcup_{i}V_{\omega_{i}}^{n}$; pour cette variété, tous les nombres caractéristiques normaux définis par des partitions non-dyadiques de $n$ sont nuls, à la seule exception de $\Sigma(\bar{t})^{n}$; cette variété est donc un représentant de la classe primitive $[V_{(n)}^{n}]$.
 
 Et, d'après la formule (5), toutes les classes  $[V_{\omega_{i}}^{n}]$ ,  $\omega_{i} \neq (n)$ , sont décomposables.
 
-Or, pour toute variété $V^n$, le nombre caractéristique normal $\Sigma(t)^n$ est égal au nombre caractéristique tangent $\Sigma(t^n)$. En effet, d'après la formule de dualité de Whitney [32], les variables $t$ de la structure tangente, et les $\overline{t}_i$ de la structure normale sont liées par la relation:
+Or, pour toute variété $V^n$, le nombre caractéristique normal $\Sigma(\bar{t})^n$ est égal au nombre caractéristique tangent $\Sigma(t^n)$. En effet, d'après la formule de dualité de Whitney [32], les variables $t$ de la structure tangente, et les $\overline{t}_i$ de la structure normale sont liées par la relation:
 
 $$
 \Sigma W _ {i} t ^ {i} \times \Sigma \overline {{{W}}} _ {j} \overline {{{t}}} ^ {j} = 1
@@ -1535,7 +1535,7 @@ On remarquera que le générateur de $\Omega^{5} \simeq Z_{2}$ est la variété 
 
 La structure multiplicative des $\Omega^{k}$.
 
-Désignons par $\Omega^{T}$ l'ensemble des éléments d'ordre fini de $\Omega\cdot\Omega^{T}$ est un idéal de $\Omega$, et l'on peut définir l'anneau quotient $\Omega/\Omega^{T}$. On a vu (Th. IV.15) que la composante de cet anneau pour la dimension $4m$, est la somme directe de $c(m)$ groupes isomorphes à $Z$; désignons par $Q$ le corps des rationnels; nous trouvons ainsi que
+Désignons par $\Omega^{T}$ l'ensemble des éléments d'ordre fini de $\Omega$. $\Omega^{T}$ est un idéal de $\Omega$, et l'on peut définir l'anneau quotient $\Omega/\Omega^{T}$. On a vu (Th. IV.15) que la composante de cet anneau pour la dimension $4m$, est la somme directe de $c(m)$ groupes isomorphes à $Z$; désignons par $Q$ le corps des rationnels; nous trouvons ainsi que
 
 $$
 \Omega^ {4 m} \otimes Q \simeq \pi_ {k + 4 m} (M (S O (k))) \otimes Q
@@ -1543,9 +1543,9 @@ $$
 
 est en dualité (sur le corps Q) avec le groupe de cohomologie
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$N^{4}=Z_{2}$</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$\mathfrak{N}^{4}=Z_{2}$</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{12}$ Voir mon exposé au Colloque de Topologie de Strasbourg (Juin 1952). La Note [20] de Rokhlin contient également des résultats sur les groupes N, dont le résultat erroné  $N^{4}=Z_{2}$  (au lieu de  $Z_{2}+Z_{2}$ ).</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{12}$ Voir mon exposé au Colloque de Topologie de Strasbourg (Juin 1952). La Note [20] de Rokhlin contient également des résultats sur les groupes $\mathfrak{N}$, dont le résultat erroné  $\mathfrak{N}^{4}=Z_{2}$  (au lieu de  $Z_{2}+Z_{2}$ ).</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$Z_{2} + Z_{2})$</span></small>
 
@@ -1690,3 +1690,5 @@ $^{13}$  Voir à ce sujet les travaux récents de F. Hirzebruch (Notes miméogra
 [34] Wu W. T. Les i-carrés dans une variété grassmannienne. C. R. Acad. Sci., Paris, 230, 1950, p. 918.
 
 [35] Wu W. T. Sur les puissances de Steenrod. Colloque de Topologie de Strasbourg, Juillet 1951. (Miméographié).
+
+(Reçu le 16 mai 1953)
