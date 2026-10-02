@@ -372,3 +372,15 @@
   5. Prop 5.5/Proof："$\mathrm K^\circ{}_{;};$"伪"_{;};"→"$\mathrm K^\circ$;"；末行"-$"→".□"（QED）
   6. **控制字节登记（7 字节）**：行 935 两处 \x0b（"no \x0b-torsion"×2，print "no ϖ-torsion"）；行 961 \x17+\x0b（"if M is \x17-adically"，print ϖ-adic）；行 967 一处 \x0b（"M_* is \x0b-adically"）；行 973 一处 \x04（"Then \x04 induces"，print "Then Φ induces"）；行 975 一处 \x14 与两处 \x0b（"By assumption, \x14 is surjective"=Φ、"R° is \x0b-adically"×2）——Edit 无法表达，登记待字节级修复（\x0b/\x17→$\varpi$，\x04/\x14→$\Phi$）
 - 备注：(ii)(iii) 三个 display 与 print 逐字符一致；Prop 5.5 的 R°/ϖ^{1/p}≅R°/ϖ 正确；Lemma 5.6 起行 977 属印刷 p.275，留待 p.031。
+## p.031（PDF p.31 / 印刷 p.275）
+- PNG：audit/p031.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/275；Lemma 5.6（R=A_*[ϖ^{-1}]、A_*=R°、Φ:A_*/ϖ^{1/p}≅A_*/ϖ display）；Proof 5.6（almost isomorphism A_*/ϖ^{1/p}→A_*/ϖ、x^p∈ϖA_*、εx∈ϖ^{1/p}A_*）；Lemma 5.7（x^♭∈A_*）；Proof 5.7（y^♭∈ϖA_*、y=ϖ^{k/p}x、ϖ^{(k−1)/p}x、induction、QED □）；power-bounded 段（(εx)^{p^N}∈A_*）；surjectivity 段（A_*/ϖ^{1/p}→A_*/ϖ→A_*/𝔪、z=y/ϖ^{1/p²}、z^p≡x mod ϖ^{(p−1)/p}A_*、𝔪A_*）；Finally 段；K^{°a}-Perf≅K-Perf 段+QED □；Proposition 5.8 reduced+Proof+QED □；char p 段；Proposition 5.9（R perfectoid ⟺ R perfect）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；3 处控制字节遗留见第 6 条，以原图为准）：
+  1. Proof 5.6：段首 "By definition, \x04 is an isomorphism"（Φ 丢失）登记待字节级修复；"almost isomorphism$\mathrm A_*/\varpi^{1/p}␣\mathrm A_*/\varpi$"缺箭头→→；句末"A_* = ϖ^{1/p}A_*"补句点（p.275 Proof 5.6 行原图）
+  2. **Lemma 5.7："satisfies$x^p∈\mathrm A_*$"→"$x^\flat∈\mathrm A_*$"（print 为 x^♭，PNG 确认）**+补句点（p.275 Lemma 5.7 行）
+  3. Proof 5.7："satisfies$y^{\boldsymbol p}∈\varpi\mathrm A_*$"→"$y^\flat∈\varpi\mathrm A_*$"（♭ 系 p 误读）；"$y∈\varpi^{1/\beta}A_*$"→"$\varpi^{1/p}$"；"$\varpi^{(k-1)/\beta}\boldsymbol x$"→"$\varpi^{(k-1)/p}$"；"$\in\mathrm A_*.\mathrm{By}$induction"→". By induction"；"result.-"→"result.□"（p.275 Proof 5.7 行原图）
+  4. power-bounded 段："Then x is topologically nilpotent"→"Then$\epsilon x$is topologically nilpotent"（print εx，PNG 确认）；"for all ε∈𝔪 so that"补逗号（p.275 Obviously 段）
+  5. surjectivity 段：段首"Next, \x14 is surjective"（Φ 丢失）登记；composition 两处缺箭头→→；"$\varpi^{(p-1)/P}$"×2→"$\varpi^{(p-1)/p}$"（P→p）；"in particular$\tilde z^p$"与"As$x≡\tilde{\mathcal Z}^p$"→plain"$z^p$"（print 无 tilde/花体）；"modulo m$\mathrm A_*$,"→"modulo$\mathfrak m\mathrm A_*$,"（fraktur）（p.275 Next 段原图）
+  6. **控制字节登记**：行 983（\x04，"By definition, Φ is"）、行 987（\x0b，"A_* has no ϖ-torsion"）、行 991（\x04，"Next, Φ is surjective"）——登记待字节级修复
+  7. K^{°a}-Perf≅K-Perf 段"propositions.-"→".□"；Prop 5.8 Proof"bounded.-"→".□"（QED，print 有 tombstone）（p.275 两行）
+- 备注：Lemma 5.6 display 与 Proof 主体、z 构造段均与 print 一致；Prop 5.9 陈述正确；行 1003 起（Prop 5.9 证明）属印刷 p.276，留待 p.032。
