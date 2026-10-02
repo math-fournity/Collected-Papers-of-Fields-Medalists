@@ -296,3 +296,11 @@
 - 核对：p(p²−1) 段（l ⩾ 5 modérée、n(l,p) ⩽ 2、Sylow cycliques d'ordre 3 / quaternioniens d'ordre 8、n° 4.9、n(3,p) ⩽ 5、n(2,p) ⩽ 9）、Notons P 段、(4.8.9)、P′/semi-simplification 段（α, β: G_Q → Fₚ*、αβ = χ^m）、(4.8.10) a_l(X) ≡ α(l) + α(l)^{−1}l^m (mod p)、α₀ relèvement 段（(Z/N_pZ)* → Z̄*、P″）、b_l 式、a_l(X) = b_l 段、{π_l, π̄_l} = {α₀(l), α₀(l)^{−1}l^m}、absurde 句、P₁/∏_{l∈S}l^{n(l)} 段、(a)(b)(c)（χ^m、N、m + 1）。
 - 结果：PASS。公式、引用编号、上下标（α(l)^{−1}l^m、χ^m、P″）全部与印刷吻合。
 - 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 213” 未收入 Markdown，排版级。印刷页止于 “(c) l'invariant k de ρ_p est égal à m + 1.”，“Comme m est impair…” 段属印刷 p.214。
+
+## p.036（PDF p.36 / 印刷 p.214）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p036.png`（pngmono，150 dpi）。
+- 核对：Comme m est impair 段（(3.2.4?)、k = m + 1、f_p = Σa_{n,p}qⁿ、ρ_p ≃ ρ_{f_p}）、th. 4 类比收尾句、Remarques (1)（Schoen [37]、m = dim X = 3、k = 4、S = {5}、N = 5²、P₄ 五次超曲面 X₀⁵ + … − 5X₀X₁X₂X₃X₄ = 0、Faltings [13] p. 362-363、[47]）、(2)（S. Bloch [5]、archimédiennes、motifs、Deligne [10]、Weil [55]、(2π)^{−s}Γ(s)）、(3)（(m−r, r) + (r, m−r)、0 ⩽ r < m/2、(3.2.4?)、m − 2r、a_l(X) = l^rA_l、torsion de Tate）、4.9 节标题与记号区（K complet、v_K: K* → Z、K̄、G_K = Gal(K̄/K)）。
+- 结果：PASS。公式、引用编号、上下标（5²、(2π)^{−s}、l^rAₗ）全部与印刷吻合。
+- 备注：v_K 式中目标域 “Z” 在 Markdown 为非粗体，印刷粗体，体例差异排版级不改（同前登记）；页眉 “214 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…le groupe de Galois de K̄ sur K.”，“On suppose que K…” 段属印刷 p.215。
