@@ -116,3 +116,8 @@
 - PNG：`audit-redo/p021.png`（pngmono 150dpi）
 - 核对：任意向量场 Euler 特征表达段（`α(N_i) = α₊ − α₋`、`χ(M) = Σ_i α(N_i)`）；signature 算子 `Q_s = i^{1/2}d_s + i^{−1/2}d_s*` 与 `Q̃_{s±}` 段；`𝓛_K` 零化段；`Q_s² = H_s + 2is𝓛_K` 段；(40) 与 `dx₁∧dx₂∧···dx_n` 取向段。
 - 结果：PASS±。正文逐项与印刷页相符。**Luna 旧修复重核：`Q_s^2 = H_s + 2is\mathscr{L}_K`（md line 521，Luna 补回丢失项）与印刷一致，修复正确；本页 `\mathscr{L}_K` 系列记号与印刷 script 字形一致**；`i^{±1/2}`、`Ṽ₊/Ṽ₋`、`A_i`、`n_i = ±1` 一致；`dx_1∧dx_2∧⋯dx_n`（末项无 ∧）忠实保留。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 681" 未入 md（版面信息省略）。
+
+## p.022（PDF p.22 / 印刷 p.682）
+- PNG：`audit-redo/p022.png`（pngmono 150dpi）；`I(θ)` 定义行终裁：`audit-redo/300dpi/p022_Itheta.png`（300dpi 裁片）。
+- 核对：(42) `sign(M) = Σ_i n_i`；τ 取向与 (43) `sign M = sign N`；`I(θ) = Tr * exp θ𝓛_K` 特征讨论；(44) `I_i(θ) = n_i Π_r (1+e^{iθλ_ir})/(1−e^{iθλ_ir})`；Fourier 分量段；(45) `sign M = Σ_i I_i(θ)` 与 Atiyah–Bott 引文。
+- 结果：FAIL（以原图为准）→ 修复后复核 PASS。(42)–(45) 及正文逐项与印刷页相符。**上块移交仲裁完毕**：印刷原句确为 "I(θ) = Tr * exp θ𝓛_K"（`Tr * exp` 中的 `*` 是前文定义的 duality 算子，印刷如此，md 忠实保留）；但 `exp` 后的 Lie 导数印刷为 script `𝓛_K`（300dpi 裁片确认），md line 539 误作 `\mathcal{L}_{K}`（**Luna 漏检第 4 处**），已用结构化 Edit 修为 `\mathscr{L}_{K}`。**Luna 旧修复重核：本页其余 `\mathscr{L}_K`/`i\mathscr{L}_K` 与印刷一致，修复正确**。差异仅：页眉 "682 EDWARD WITTEN" 未入 md（版面信息省略）。
