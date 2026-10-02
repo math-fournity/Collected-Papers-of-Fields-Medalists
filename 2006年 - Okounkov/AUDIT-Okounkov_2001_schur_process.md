@@ -209,3 +209,9 @@
 - 核对：§3.1.14 结尾（与 [3] 相差因子 2）、§3.2/§3.2.1（围线变形普遍原理）、§3.2.2（各向异性扰动 q^{|m|}→q^{V(m)}）、§3.2.3（Res_{z=w}(dz/(z−w))(Φ(t1,z)/Φ(t2,w))=1、∫^{(2)}=(1/2πi)∫_{γ±}dw/w^{Δx+1}）
 - 结果：PASS±（两处已修复）：① 行 1095 "difers…diferent"→"differs…different"（p030.png+文本层双证，上块移交项②，本页结清）；② 行 1123 句末补句号（p030.png "in the variable Δx."）。
 - 备注：印刷 quirk "the points of the intersection of γ> and γ< the minima of the function ℜS(z)"（缺 are，印刷原样）与破折号 "— on the other" 忠实保留。
+
+## p.031（PDF p.31 / 印刷 p.31）
+- PNG：audit/p031.png（pngmono 150dpi）
+- 核对：§3.2.4（φ_Planch[m] 分段特化 e^{√αz}/e^{√αz^{−1}}/1、K_Planch 二重积分式）、§3.2.5（α→∞ 渐近、S_Planch=z−z^{−1}−(ξ/2)ln z、临界点 |ξ|<2 时 e^{±iθ}、θ=arccos(ξ/2)、K_Planch→sin(θΔ)/(πΔ)）
+- 结果：PASS±（一处已修复）：行 1137 句末补句号（p031.png "see [1, 8]."）。
+- 备注：Bessel/Bessel functions、poissonized 拼写与印刷一致；数学内容零差异。

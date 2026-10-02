@@ -1136,7 +1136,7 @@ $$
 K _ {\mathrm{Planch}} (x, y) = \frac {1}{(2 \pi i) ^ {2}} \iint \frac {z ^ {- x - 1 / 2} w ^ {y - 1 / 2}}{z - w} e ^ {\sqrt {\alpha} (z - z ^ {- 1} - w + w ^ {- 1})} d z d w,
 $$
 
-which can be expressed in terms of Bessel functions of the argument$2 \sqrt { \alpha }$ see [1, 8].
+which can be expressed in terms of Bessel functions of the argument$2 \sqrt { \alpha }$ see [1, 8]..
 
 ## 3.2.5
 
