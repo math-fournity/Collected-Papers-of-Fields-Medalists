@@ -1290,7 +1290,7 @@ Pour d'autres exemples, voir les n°s 4.7 et 4.8 ci-après.
 
 [36]) si la Q-algèbre  $K_{X} = \mathbf{Q} \otimes \operatorname{End}_{\mathbf{Q}}(X)$  est un corps de nombres algébriques totalement réel de degré n. On sait que de telles variétés apparaissent lorsqu'on décompose les jaciennes  $J_{0}(N)$  sous l'action des opérateurs de Hecke, cf. Shimura [51], §7.5. Réciproquement:
 
-THÉORÈME 5. Admettons (3.3.1). Alors toute variété abélienne X sur Q, à multiplications réelles, de dimension n, est isomorphe à un quotient de  $J_{0}(N)$ , où N est la racine n-ème du conducteur de X.
+THÉORÈME 5. Admettons (3.3.1?). Alors toute variété abélienne X sur Q, à multiplications réelles, de dimension n, est isomorphe à un quotient de  $J_{0}(N)$ , où N est la racine n-ème du conducteur de X.
 
 La démonstration est analogue à celle du th. 4 (que l'on retrouve pour n = 1). Je me bornerai à en indiquer les grandes lignes. Tout d'abord:
 
@@ -1298,7 +1298,7 @@ La démonstration est analogue à celle du th. 4 (que l'on retrouve pour n = 1).
 
 Cela est expliqué dans Ribet [36].
 
-Si $X$ a bonne réduction en $l$, on notera $a_{l}$ la trace de l'endomorphisme correspondant (dans le système $\lambda$-adique ci-dessus); c'est un entier du corps $K_{x}$.
+Si $X$ a bonne réduction en $l$, on notera $a_{l}$ la trace de l'endomorphisme correspondant (dans le système $\lambda$-adique ci-dessus); c'est un entier du corps $K_{X}$.
 
 (4.7.2) Le conducteur de $X$ est de la forme $N^n$, avec $N$ entier $\geqslant 1$.
 

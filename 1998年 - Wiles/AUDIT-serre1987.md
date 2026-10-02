@@ -256,3 +256,11 @@
 - 核对：F̃ = f_p 有限性论证段、a_l ≡ a_{l,p} (mod p) 式、A_l − a_l image 段、(4.6.4) A_l = a_l pour tout l ⊬ N、courbe de Weil E_F 段（Faltings [13],[14]、isogènes sur Q、D'où le th. 4）、Remarques (1)（Colmez、Colloque de Luminy 1986）、(2)（primitive、Carayol [8]）、(3) Shimura 例子（K = Q(√D)、σ、E^σ、λ^σ∘λ = −c、[52] p.184、(N,2,ε)、(3.2.4?)、Q(√−c)）、n°s 4.7 et 4.8 句、4.7 节标题首句。
 - 结果：FAIL。一处已依原图修复：(4.6.4) 式印刷 “pour tout l ⊬ N”（300 dpi 裁片确认不整除符 + 样字形，同 p.194 已裁决字形），Markdown 写成 “l + N”（真加号），修为 l \nmid N。其余逐项吻合。
 - 备注：F̄ₚ/Z̄/Q 粗体一致；(3.2.4$_{?}$) 下标问号沿用 quirk；页眉 “208 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 4.7 节首句 “(cf. Ribet”，其后属印刷 p.209。
+
+## p.031（PDF p.31 / 印刷 p.209）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p031.png`（pngmono，150 dpi）。
+- 核对：K_X = Q ⊗ End_Q(X) 定义句、Shimura [51] §7.5 句、THÉORÈME 5（Admettons (3.3.1?)、racine n-ème du conducteur）、th. 4 类比句、(4.7.1) λ-adiques 系统句、Ribet [36]、a_l trace 句、(4.7.2) N^n 句、[18] exposé IX §4 / [40] n° 2.1 段、Fixons 段（λ_p、F_p、ρ_p^X: G_Q → GL₂(F_p)）、(4.7.3) det ρ_p^X = χ、(4.7.4)（Faltings [14] p. 204、th. 6）、(4.7.5)。
+- 结果：FAIL。两处已依原图修复：① THÉORÈME 5 引用 Markdown 写成 “(3.3.1)”（丢下标 ?），印刷为 (3.3.1_?)，修为 “(3.3.1?)”；② “c'est un entier du corps K_X” 处 Markdown 下标写成小写 x（$K_{x}$），印刷为大写 X，修为 $K_{X}$。其余逐项吻合。
+- 备注：K_X 大小写在 Markdown 全文他处均正确为大写，仅此一处笔误；(4.7.2)-(4.7.5) 编号连续一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 209” 未收入 Markdown，排版级。印刷页止于 (4.7.5)，其后 Néron 模型句属印刷 p.210。
