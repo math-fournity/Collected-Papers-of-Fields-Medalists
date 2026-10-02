@@ -224,6 +224,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片逐式还原 generator、commutator 与嵌入。
 - 记录：2026-10-02 00:54:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.023（PDF p.23 / 纸面圈号 23）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p023.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p023_elementary-identities.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p023_K1-dieudonne.png`。
+- 核对：Whitehead lemma 的 commutator 包含；对角块 `diag(α,α^{-1})` 的 elementary-matrix 分解；`GL_n(F)/E_n(F)` 的 Dieudonné 结论。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图将 `diag(α,α^{-1})` 分解为 elementary matrices；基线第 779 行的第二种分解插入原图没有的 `1/2` 并损坏矩阵项。第 783 行原图说上三角 unipotent 矩阵可由 `e_{ij}^a` 生成且指标 `i<j`，基线把参数 `a` 写成 `2`、不等式错写成 `i+1<i`。原图 Dieudonné 商群为 `(F^*)^{ab}`（并注明 `n=2,F=F_2` 的例外），基线第 787 行把 `ab` 误成指数 2；后文第 801 行虽又出现 `ab`，不能消除前述同页错误陈述。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核矩阵因子、指标范围和 abelianization。
+- 记录：2026-10-02 01:01:17 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.020（PDF p.20 / 纸面圈号 20）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
