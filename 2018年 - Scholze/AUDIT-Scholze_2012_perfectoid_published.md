@@ -104,3 +104,14 @@
   3. "subspaces of$\mathrm{\Delta X^{ad}}$" 伪 Δ → $\mathrm{X}^{\mathrm{ad}}$（p.252 右栏 "define subspaces of X^ad"）
   4. "scheme$\mathrm{X}.$."、"Each ofthem"、"of$\mathrm{\nabla}k;\mathrm{\nabla}$composing" → "scheme X."、"Each of them"、"of$k$; composing"（∇ 系 MinerU 伪字，print 为分号）
 - 备注：Kedlaya 段中 "Theorem 1.3" 与 print 一致（指 §1 的 Galois 群定理，非编号错误）；两个 display 逐字符吻合；本行 211 自 "a fixed norm map on k.…" 起属印刷 p.253，留待 p.009。
+## p.009（PDF p.9 / 印刷 p.253）
+- PNG：audit/p009.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/253；rank 1 赋值段收尾；Definition 2.2（|·|: R → Γ∪{0}，Γ 全序交换群，|0|=0,|1|=1，|x+y|≤max）；连续性段（{x | |x|<γ} ⊂ R 开）；Remark 2.3（Γ=R_{>0} seminorm 讨论）；Remark 2.4（valuation ring、Γ=K^×/R^×）；supp(|·|)/R(|·|) 段；Definition 2.5 (i)–(iii)
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Definition 2.2："$| \cdot | : \mathbb{R} \to \Gamma∪\{0\}$" 定义域黑板 ℝ → $\mathrm{R}$（print 为环 R，两次：Def 2.2 与 supp 段）；"where \x05 is some totally ordered abelian group"（Γ 丢失、残留 0x05 控制字节）→ "where$\Gamma$is some"（p.253 定义行 PNG 确认 Γ）；句末补句点
+  2. "IfR"、"iffor"、"ofR"、"ofx" 缺空格 → 修正（连续性段与 Remark 2.4）
+  3. Remark 2.3："$\mathbf{R}_{>0},,$" 双逗号 → "$\mathbf{R}_{>0}$, then"
+  4. "rank 1 on$\Gamma(\mathbf{X},\mathcal{O}_X)$ In Huber's theory" 补句点；"i.e.$\mathrm{R}(|\cdot|)=\{x∈\mathrm{K}\,|\,|x|≤1\}$" 补句点（print 原有）
+  5. Definition 2.5(i)："$|\cdot|'{=}\alpha∘|\cdot|$" 游离花括号等号 → "$|\cdot|'=\alpha\circ|\cdot|$"+句末补句点
+  6. Definition 2.5(iii)："if and only${jf|a|'\geq|b|'}$"（if 塞进 math 花括号）→ "if and only if$|a|'\geq|b|'$."；"for all$a,b∈\mathbf{R}, |a|\geq|b|$" 逗号后补空格
+- 备注：本页 Γ 大量为 pdftotext/MinerU 双重丢字（print 的哥特/希腊 Γ 字形不进文本层），全部经 PNG 确认；行 233 起（Definition 2.6）属印刷 p.254，留待下一块。
