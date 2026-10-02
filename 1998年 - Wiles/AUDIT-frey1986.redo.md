@@ -61,3 +61,23 @@
 - 备注：页眉 "Elliptic Curves and Fermat's Equation　3" 未入 MD，正常。无 MD 修改。
 
 ---
+
+## p.004（PDF p.4 / 印刷 p.4）
+- PNG：audit-redo/p004.png（pngmono 150dpi）
+- 核对："Fermat type" 后果句；congruence primes（cf. [6]）/Deligne–Rapoport–Mazur/Néron model of
+  $J_0(N)$ over Z 句；节标题 II. Construction of stable elliptic curves；1. Arithmetic of elliptic curves
+  开头（ref [9]）；椭圆曲线定义句与 Riemann–Roch/models 句；The generalized Weierstraß normal form 标引；
+  展示式 $N_E: Y^2+\lambda XY+\mu Y = X^3+\alpha X^2+\beta X+\gamma$。
+- 结果：PASS±（修复 1 处后）
+- 差异与处置：
+  1. 【已修复】MD line 149 `one Q-rational point P.` → `one Q-rational point $P_{\infty}$.`：300dpi 仲裁
+     印刷 "point P_∞"（∞ 下标清晰，且本页后文 "such that $P_{\infty}$ is the only..." 同记号）。
+  2. 【print quirk 登记不改】印刷作 "**E/C** is a projective irreducible curve"：300dpi 高倍仲裁该字形为开口 C
+     （与同页 "over Q"、"Q-rational" 两处闭合金尾 Q 明确不同），数学上应为 E/Q，但系印刷错字，
+     按纪律忠实保留（MD line 147 `E/C`）。
+  3. 【登记不改】三处印刷下划线强调（节标题 II.、小节 1. Arithmetic...、The generalized Weierstraß normal form:
+     及行内 "normal forms"）在 MD 中拍平：排版级伪影。
+  4. 【字形澄清】印刷 "Weierstraß" 的 ß 为打字机 ß 字形（形似 3），MD `Weierstraß` 忠实。
+- 备注：页眉 "4　G. Frey" 未入 MD，正常。展示式逐项（系数/指数/希腊字母）核对无误。
+
+---
