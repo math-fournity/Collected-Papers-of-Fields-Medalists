@@ -1046,7 +1046,7 @@ $$
 \begin{array}{l} \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {p} = \sum_ {A, B, C} \sum_ {(k _ {i}, \ell_ {i}) \in \Omega_ {0, 0, A, B, C} ^ {p, N}} \widehat {f} _ {k _ {1}, \ell_ {1}} \ldots \overline {{\widehat {f} _ {k _ {p} , \ell_ {p}}}} \mathbf {1} _ {S} (k _ {1}, \ell_ {1}) \ldots \mathbf {1} _ {S} (k _ {p}, \ell_ {p}) \frac {1 - e ^ {2 \pi i T (A + B \alpha + C \beta)}}{2 \pi i (A + B \alpha + C \beta)} \\ \lesssim \sum_ {2 ^ {j} > \frac {1}{T}} \sum_ {| A + B \alpha + C \beta | \lesssim 2 ^ {j}} 2 ^ {- j} \sum_ {\Omega_ {0, 0, A, B, C} ^ {p, N}} \mathbf {1} _ {S} (k _ {1} \ell_ {1}) \ldots \mathbf {1} _ {S} (k _ {p} \ell_ {p}) \\ = \sum_ {2 ^ {j} > \frac {1}{T}} \sum_ {| A + B \alpha + C \beta | \lesssim 2 ^ {j}} 2 ^ {- j} | S ^ {p} \cap \Omega_ {0, 0, A, B, C} ^ {p, N} |. \end{array}
 $$
 
-On the one hand, we can use (5.2) to bound$| S ^ { p } \cap \Omega _ { 0 , 0 , A , B , C } ^ { p , N } |$. On the other hand, by genericity of α and$\beta _ { i }$,
+On the one hand, we can use (5.2) to bound$| S ^ { p } \cap \Omega _ { 0 , 0 , A , B , C } ^ { p , N } |$. On the other hand, by genericity of α and$\beta$,
 
 $$
 \sum_ {| A + B \alpha + C \beta | <   2 ^ {j}} 1 \lesssim N ^ {4} 2 ^ {j} + 1.
@@ -1058,11 +1058,13 @@ $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {p} \preceq \sum_ {\frac {1}{T} <   2 ^ {j} \lesssim N ^ {2}} (N ^ {4} + 2 ^ {- j}) N ^ {p - 8} | S | ^ {p / 2} \preceq (N ^ {4} + T) N ^ {p - 8} | S | ^ {\frac {p}{2}}.
 $$
 
+□
+
 ## 6. The counting argument through Pall’s bound:$p = 8$
 
 With the same ansatz for$f$as in the previous section, we are going to prove the following theorem, which implies Theorem 1.2 for$p = 8$
 
-Theorem 6.1. Generically in$\left( \alpha _ { i j } \right)$，
+Theorem 6.1. Generically in$\left( \alpha _ { i j } \right)$,
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {8} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {8} \lesssim | S ^ {4} | (N ^ {4} + N T).

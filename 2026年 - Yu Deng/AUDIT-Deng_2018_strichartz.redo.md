@@ -152,6 +152,12 @@
   8. L867（p.16）HTML 残留 `α<sub>22</sub>`→`$\alpha_{22}$`（该行 bullet 原本就在，仅替换记号）
   9. L959（p.17）/L965、L971（p.18）三条 bullet 补 "- "（Step 3 三情况至此齐全）
   （上表按行号分组共 9 组、按修复处数计 13：1+2+1+2+1+1+1+1+3。）
+
+## p.019（PDF p.19 / 印刷 p.19）
+- PNG：audit-redo/p019.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：|S|^{p/2−1} 计数论证段（含原刊不平衡括号 "(ie i ≥ p/2,"）、"We can write" 三行 display（f̂ 与 overline{f̂}、1_S(k,ℓ)、(1−e^{2πiT(A+Bα+Cβ)})/(2πi(A+Bα+Cβ))）、Σ1≲N⁴2^j+1、(N⁴+2^{−j})N^{p−8}|S|^{p/2}≼(N⁴+T)…、证明结束方框、§6 节标题、Theorem 6.1（≲|S⁴|(N⁴+NT)）、(6.1) 两条 meas 估计、B 集合与 meas_R3(B)、A_z 定义 display
+- 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；print quirk 忠实保留："(ie i ≥ p/2," 无闭括号（L1041，原刊原样）。**修复 3 处**：L1049 `$\beta _ { i }$`→`$\beta$` 并补逗号（印刷为 "genericity of α and β,"，无下标 i）；L1067 Theorem 6.1 句尾全角逗号 "，"→","；L1060 补 "□" 证明结束框（印刷在 Theorem 5.1 证明末尾右侧有空心方框，MD 缺失——Luna 基线的"方框存为控制字符"实际被整体删除而非替换）。**误报登记**：初审曾将 L1039 的 `$$` 误判为孤儿开启符，经与 git HEAD 逐行对照确认它是 (5.2) display 的闭合定界符（其后直接接正文属合法结构），未做修改——p.010 教训再次强调 display 定界符必须查配对上下文。
+- 备注：Luna 旧修复抽核通过——旧基线 p.19 的"证明结束方框存为控制字符"已不在（但方框本身也被删了，本次补回 □）；其余无新问题。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
