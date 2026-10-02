@@ -642,9 +642,9 @@ $$
 \left(x _ {n} ^ {\prime}\right) ^ {p ^ {i}} - x _ {n} ^ {p ^ {i}} = \left(x _ {n} ^ {p ^ {i - 1}} + \left(\left(x _ {n} ^ {\prime}\right) ^ {p ^ {i - 1}} - x _ {n} ^ {p ^ {i - 1}}\right)\right) ^ {p} - x _ {n} ^ {p ^ {i}}
 $$
 
-gives a well-defined element of$\mathrm { K } ^ { \circ } / \varpi ^ { i + 1 }$, using that$\varpi | \boldsymbol { p } .$
+gives a well-defined element of$\mathrm { K } ^ { \circ } / \varpi ^ { i + 1 }$, using that$\varpi | p$.
 
-It is clear from the definition that$x \mapsto x ^ { \sharp }$is multiplicative and continuous. Now the map$\varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi  \varprojlim _ { x \mapsto x ^ { \beta } } \mathrm { K } ^ { \circ }$given by$x \mapsto ( x ^ { \sharp } , ( x ^ { 1 / \hbar } ) ^ { \sharp } , \ldots )$gives an inverse to the obvious projection map.
+It is clear from the definition that$x \mapsto x ^ { \sharp }$is multiplicative and continuous. Now the map$\varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi \to \varprojlim _ { x \mapsto x ^ { p } } \mathrm { K } ^ { \circ }$given by$x \mapsto ( x ^ { \sharp } , ( x ^ { 1 / p } ) ^ { \sharp } , \ldots )$gives an inverse to the obvious projection map.
 
 (ii) Pick some element$\varpi _ { 1 }$with$| \varpi _ { 1 } | ^ { p } = | \varpi |$. Then$\varpi _ { 1 }$defines a nonzero element of$\mathrm { K } ^ { \circ } / \varpi$. Choose any sequence
 
@@ -652,7 +652,7 @@ $$
 \varpi^ {\flat} = (0, \varpi_ {1}, \ldots) \in \varprojlim_ {\Phi} \mathrm{K} ^ {\circ} / \varpi ;
 $$
 
-this is possible by surjectivity of  on$\mathrm { K } ^ { \circ } / \varpi$. By the proof of part$\mathrm { ( i ) }$, we have$| ( \varpi ^ { \flat } ) ^ { \sharp } -$ $\varpi _ { 1 } ^ { \boldsymbol { p } } \vert \leq \vert \varpi \vert ^ { 2 }$. This gives$| ( \varpi ^ { \flat } ) ^ { \sharp } | = | \varpi |$, as desired.
+this is possible by surjectivity of  on$\mathrm { K } ^ { \circ } / \varpi$. By the proof of part$\mathrm { ( i ) }$, we have$| ( \varpi ^ { \flat } ) ^ { \sharp } - \varpi _ { 1 } ^ { \sharp } | \leq | \varpi | ^ { 2 }$. This gives$| ( \varpi ^ { \flat } ) ^ { \sharp } | = | \varpi |$, as desired.
 
 (iii) As$x \mapsto x ^ { \sharp }$is multiplicative, it extends to a map
 
@@ -660,13 +660,13 @@ $$
 \mathrm{K} ^ {\flat} \to \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{K}.
 $$
 
-One easily checks that it is a homeomorphism; in particular$\mathrm { K } ^ { \flat }$is a field. One also checks that the topology on$\varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi$is induced by the norm$x \mapsto \vert x ^ { \sharp } \vert$. Hence the topology on$\mathrm { K } ^ { \flat }$is induced by the rank-1-valuation$x \mapsto \vert x ^ { \sharp } \vert$. Clearly,$\mathrm { K } ^ { \flat }$is perfect and complete, so$\mathrm { K } ^ { \flat }$is a perfectoid field of characteristic$\beta .$. One easily deduces all other claims.
+One easily checks that it is a homeomorphism; in particular$\mathrm { K } ^ { \flat }$is a field. One also checks that the topology on$\varprojlim _ { \Phi } \mathrm { K } ^ { \circ } / \varpi$is induced by the norm$x \mapsto \vert x ^ { \sharp } \vert$. Hence the topology on$\mathrm { K } ^ { \flat }$is induced by the rank-1-valuation$x \mapsto \vert x ^ { \sharp } \vert$. Clearly,$\mathrm { K } ^ { \flat }$is perfect and complete, so$\mathrm { K } ^ { \flat }$is a perfectoid field of characteristic$p$. One easily deduces all other claims.
 
 (iv) This is clear since$\operatorname { K } ^ { \flat } \cong \varprojlim _ { x \mapsto x ^ { \flat } } \operatorname { K } .$
 
 Recall that when working with adic spaces, it is important to understand the continuous valuations on K. Under the process of tilting, we have the following equivalence.
 
-Proposition 3.6. — Let K be a perfectoidfield with tilt$\mathrm { K } ^ { \flat }$. Then the continuous valuations | · | ofK (up to equivalence) are mapped bijectively to the continuous valuations$| \cdot | ^ { \flat } g f \mathbf { K } ^ { \flat }$(up to equivalence) via$| x | ^ { \flat } = | x ^ { \sharp } |$
+Proposition 3.6. — Let K be a perfectoid field with tilt$\mathrm { K } ^ { \flat }$. Then the continuous valuations | · | of K (up to equivalence) are mapped bijectively to the continuous valuations$| \cdot | ^ { \flat }$of$\mathrm { K } ^ { \flat }$(up to equivalence) via$| x | ^ { \flat } = | x ^ { \sharp } |$.
 
 Proof. — First, we check that the map$| \cdot | \mapsto | \cdot | ^ { \flat }$maps valuations to valuations. All properties except$| x + y | ^ { \flat } \leq \operatorname* { m a x } ( | x | ^ { \flat } , | y | ^ { \flat } )$are immediate, using that$x \mapsto x ^ { \sharp }$is multiplicative. But
 
@@ -676,7 +676,7 @@ $$
 
 It is clear that continuity is preserved.
 
-On the other hand, continuous valuations are in bijection with open valuation subrings$\mathrm { K } ^ { + } \subset \mathrm { K } ^ { \circ }$. They necessarily contain the topologically nilpotent elements m. We see that open valuation subrings$\dot { \mathrm { K } } ^ { + } \subset \mathrm { K } ^ { \circ }$are in bijection with valuation subrings in $\mathrm { K ^ { \circ } / m } = \mathrm { K ^ { \circ } / m ^ { \flat } }$. This implies that one gets a bijection with continuous valuations of K and continuous valuations of$\mathrm { K } ^ { \flat }$which is easily seen to be the one described.-
+On the other hand, continuous valuations are in bijection with open valuation subrings$\mathrm { K } ^ { + } \subset \mathrm { K } ^ { \circ }$. They necessarily contain the topologically nilpotent elements$\mathfrak { m }$. We see that open valuation subrings$\mathrm { K } ^ { + } \subset \mathrm { K } ^ { \circ }$are in bijection with valuation subrings in $\mathrm { K } ^ { \circ } / \mathfrak { m } = \mathrm { K } ^ { \flat \circ } / \mathfrak { m } ^ { \flat }$. This implies that one gets a bijection with continuous valuations of K and continuous valuations of$\mathrm { K } ^ { \flat }$which is easily seen to be the one described.□
 
 The main theorem about tilting for perfectoid fields is the following theorem. For many fields, this was known by the classical work of Fontaine-Wintenberger.
 

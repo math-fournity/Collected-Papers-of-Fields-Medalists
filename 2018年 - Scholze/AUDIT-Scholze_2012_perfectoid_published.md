@@ -263,3 +263,14 @@
   6. "of$\beta^n\mathrm{^{-th}}$roots"→"of$p^n$-th roots"（β→p）；"choice ofp<sup>n</sup>-th"→"choice of$p^n$-th"（p.265 of p^n-th roots 行）
   7. "lift$x_n∈K^\circ$of$\cdot_{\overline{x}_n}$"伪 \cdot 前缀→"of$\overline{x}_n$"（p.265 Let (x̄_0,…) 行）
 - 备注：(iii) display 与 Proof 的 telescoping display（x_n′ 带 prime）均与 print 一致；K^♭=lim_{←x↦x^♭}K 此处 ♭ 正确（与 p.264 (i) display 的 x↦x^♯ 不同，两处 print 本就不同，均已按原图处理）。
+## p.022（PDF p.22 / 印刷 p.266）
+- PNG：audit/p022.png（pngmono 150dpi）
+- 核对：页眉 266/PETER SCHOLZE；well-defined/ϖ|p 段；x↦x^♯ multiplicative 段（lim_Φ→lim_{x↦x^p} 逆映射）；(ii)（ϖ_1、ϖ^♭=(0,ϖ_1,…) display、surjectivity of Φ、|(ϖ^♭)^♯−ϖ_1^♯|≤|ϖ|²）；(iii)（K^♭→lim_{←x↦x^♭}K display、topology 段）；(iv)+QED □；continuous valuations 段；Proposition 3.6（|x|^♭=|x^♯|）；Proof（|x+y|^♭ 双行 display）；K^+/K°/𝔪=K^♭°/𝔪^♭ 段+QED □
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 3 条，以原图为准）：
+  1. "using that$\varpi|\boldsymbol p.$"→"$\varpi|p$."（bold p→p、句点出 math）（p.266 首行）
+  2. "map$\varprojlim_\Phi K^\circ/\varpi␣\varprojlim_{x↦x^\beta}K^\circ$"缺箭头+β→p→$\to\varprojlim_{x\mapsto x^p}$；"$(x^\sharp,(x^{1/\hbar})^\sharp,…)$"（1/ℏ 系 1/p 误读）→$(x^{1/p})^\sharp$（p.266 It is clear 段）
+  3. "surjectivity of \x04 on$K^\circ/\varpi$"（Φ 丢失，print "surjectivity of Φ on K°/ϖ"，PNG 确认）——0x04 字节 Edit 无法表达，登记待字节级修复（\x04→$\Phi$）；(ii) 后段"|(ϖ^♭)^♯−ϖ_1^{\boldsymbol p}|"→"ϖ_1^\sharp"（print 指数为 ♯ 非 p）+中间游离 "$-" 拆分合并（p.266 (ii) 段）
+  4. (iii) 段"characteristic$\beta.$."→"$p$. "（β→p+伪'.$.'删）（p.266 (iii) 段）
+  5. Proposition 3.6："perfectoidfield/ofK"补空格、"$|\cdot|^\flat gf\mathbf K^\flat$"（of 乱码为 gf）→"$|\cdot|^\flat$of$\mathrm K^\flat$"、句末补句点（p.266 Prop 3.6 行原图）
+  6. 末段："nilpotent elements m"→$\mathfrak m$（fraktur，PNG 确认）、$\dot{\mathrm K}^+$伪点删、"$\mathrm{K^\circ/m}=\mathrm{K^\circ/m^\flat}$"→"$\mathrm K^\circ/\mathfrak m=\mathrm K^{\flat\circ}/\mathfrak m^\flat$"（print 右侧为 K^♭°/𝔪^♭，MD 丢 ♭）、"described.-"→"described.□"（QED）（p.266 末段原图）
+- 备注：|ϖ_1|^p（(ii) 首行）print 即为上标 p，MD 正确；双行 |x+y|^♭ display 与 print 一致；行 681 起（Theorem 3.7 前 seed 段）属印刷 p.267，留待 p.023。
