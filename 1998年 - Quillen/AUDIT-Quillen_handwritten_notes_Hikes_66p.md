@@ -204,6 +204,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对有限群指标、p 索引、image/idempotent 与定义语句。
 - 记录：2026-10-02 00:23:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.020（PDF p.20 / 纸面圈号 20）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_exact-sequence.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_module-example.png`。
+- 核对：精确序列 Grothendieck 关系；projective quotient splitting；`\mathbb Z/p^2`-module 范畴中 direct-sum 与 exact-sequence 两种群的生成元及短正合列关系。
+- 结果：**PASS±**。
+- 差异：源图的 “(2) ⇒ (1) easy” 在 MinerU 基线第 642 行写为 `(z)⇒(1)`；上下文中两种 Grothendieck group 定义仍可定位到该编号，因此记为轻微标签 OCR 误差。第 656 行把 direct-sum 群和 exact-sequence 群的两项结果压在一行，分界不清，但 300dpi 裁片可确认原文是 `\mathbb Z⊕\mathbb Z` 与 `\mathbb Z` 两项分别陈述。
+- 修复状态：无需内容级 FAIL 修复；若最终全篇手工修订本处排版，将保留两项群结果的原义。
+- 记录：2026-10-02 00:41:20 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.021（PDF p.21 / 纸面圈号 21）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p021.png`（pngmono 150dpi）
@@ -250,16 +260,17 @@
 - 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p025_K-theory-tower.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p025_homotopy-groups.png`。
 - 核对：`K_iA=π_i(BGL(A)^+)` 的定义；Dror tower 的 `BN/X_n` stages 与纤维；tower 对 `π_q` 的分段公式；`A(BG)` 与 `BG→BG⁺` 的纤维及其同伦长正合列。
 - 结果：**FAIL**。
-- 印刷证据与差异：原图塔的 stage spaces 使用 `K(H_2BN,2)` 与一般 `K(H_nX_n,n)`；基线第 858、861 行将其错写为 `PIT` / `H`，第 865 行写成 `π(H_nX_n,n)`。原图 `π_q(BN)` 的分段条件是 `q=1` 给 `\widetilde N`、其余为 0；基线第 873 行把非 1 的条件和 `q` 指标破坏成 `0.w`。同一行的 `X_4` 分段以及第 877、881、901 行的 `π_q(X_n)`、`π_q(A(BG))`、`π_q(BG^+)` piecewise 表格也有条件/下标错位；这些决定 tower 同伦群的 degree 对应，需按裁片逐项复核。
+- 印刷证据与差异：原图塔的 stage spaces 使用 `K(H_2BN,2)` 与一般 `K(H_nX_n,n)`；基线第 858、861 行将其错写为 `PIT` / `H`，第 865 行写成 `π(H_nX_n,n)`。原图 `π_q(BN)` 的分段条件是 `q=1` 给 `\widetilde N`、其余为 0；基线第 873 行把非 1 的条件和 `q` 指标破坏成 `0.w`。同一行的 `X_4` 分段以及第 877、881 行的 `π_q(X_n)`、`π_q(A(BG))` piecewise 表格也有条件/下标错位；这些决定 tower 同伦群的 degree 对应，需按裁片逐项复核。PDF p.25 原图结束于 `A(BG)=fiber(BG→BG⁺)`；`π_q(BG⁺)` 的 piecewise 表格属于下一页，现改由 p.26 条目对照。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对全部分段公式与 `K(A,n)` 符号。
 - 记录：2026-10-02 01:22:51 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
-### p.020（PDF p.20 / 纸面圈号 20）
+### p.026（PDF p.26 / 纸面圈号 26）
 
-- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
-- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_exact-sequence.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_module-example.png`。
-- 核对：精确序列 Grothendieck 关系；projective quotient splitting；`\mathbb Z/p^2`-module 范畴中 direct-sum 与 exact-sequence 两种群的生成元及短正合列关系。
-- 结果：**PASS±**。
-- 差异：源图的 “(2) ⇒ (1) easy” 在 MinerU 基线第 642 行写为 `(z)⇒(1)`；上下文中两种 Grothendieck group 定义仍可定位到该编号，因此记为轻微标签 OCR 误差。第 656 行把 direct-sum 群和 exact-sequence 群的两项结果压在一行，分界不清，但 300dpi 裁片可确认原文是 `\mathbb Z⊕\mathbb Z` 与 `\mathbb Z` 两项分别陈述。
-- 修复状态：无需内容级 FAIL 修复；若最终全篇手工修订本处排版，将保留两项群结果的原义。
-- 记录：2026-10-02 00:41:20 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p026.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p026_homotopy-groups.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p026_K1-K2-definition.png`。
+- 核对：`A(BG)` 的 homotopy exact sequence；`π_q(BG⁺)` 分段公式；Dror tower 的 Postnikov 描述；`K_1A/K_2A` 与 `BGL(A)^+` 的低阶同伦群定义。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第一个序列使用统一指标 `i`，基线第 897 行误成 `g`。`π_q(BG⁺)` 的三段是 `G/N (q=1)`、`H_2(BN) (q=2)`、`H_qX_q (q≥3)`；基线第 901 行第三段写 `q≥2`，与第二段重叠，且上下标混用。原图第 904 行为 Postnikov tower，基线误成 `Postmkov`。本页的 Steinberg 定义重复写 `x_{ij}^a`，基线第 913 行再度错成 `X_j^2`。原图明确 `π_2(BGL(A)^+)=H_2(BE(A),\mathbb Z)`，基线第 925 行写 `H_3(BEA,\mathbb Z)`；最终定义是 `K_nA≅π_n(BGL(A)^+)`，基线第 929 行把 `+` 移到括号外。
+- 页码边界修订：本条确认 p.25 源页止于 `A(BG)=fiber(BG→BG⁺)`；已在本 commit 原位修订 p.25 audit 记录，避免把本页 `π_q(BG⁺)` 表格计入前一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对全部 q 分段、H₂/H₃ 与 plus-construction 括号。
+- 记录：2026-10-02 01:32:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
