@@ -315,3 +315,9 @@
 - 核对：§6.4 Convergence to SLE(3) for spin Ising interfaces 标题；Theorem 2.10 证明与 3.13 类似、余留为 exercise 的说明；Lemma 6.8——M_n^δ(z) = F_{Ω◇_δ∖γ[0,n],γ(n),b_δ}(z) 关于 (F_n) martingale（F_n 由 exploration process γ[0,n] 生成）；Proof——单步 γ_1 检查、F_0 平凡 σ-algebra、公式 (6.5) µ^{a,b}_{β_c,Ω}[F_{Ω◇_δ∖[a_δγ_1],γ_1,b_δ}(z)] = F_{Ω◇_δ,a_δ,b_δ}(z)；Z_{Ω◇_δ,a_δ,b_δ} 与 Z_{Ω◇_δ∖[a_δx],x,b_δ} partition function 记号（= Σ_ω(√2−1)^{∣ω∣}）；三行推演（(√2−1)e^{(1/2)iW_γ(x,b_δ)} 起、ℰ_{Ω◇_δ∖[a_δx]}(x,z_δ) 与 ℰ_{Ω◇_δ}(a_δ,z_δ) 双射、(√2−1) 权差）；求和收尾 (6.5)（◻）；Exercise 6.9——spin Ising interfaces → SLE(3)、Condition (⋆)、Theorem 3.16 与 Edwards-Sokal coupling、类似 Lemma 6.3 的 intermediate result；§7 Other results on the Ising and FK-Ising models 标题；§7.1 Massive harmonicity away from criticality 开篇；页脚印刷页码 49。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(6.5) 编号齐全；µ^{a,b}_{β_c,Ω} 三重上下标、e^{±(1/2)iW} 的堆叠分数以 PNG 为准；Z 下标 Ω◇_δ∖[a_δx],x,b_δ 的复合下标为重导出对账重点。
+
+## p.050（PDF p.50 / 印刷 p.50）
+- PNG：audit/p050.png（pngmono 150dpi）
+- 核对：massive harmonicity（Δf = λ²f、[BDC11]）；Lemma 7.1——p ≠ p_sd 时推广 Lemma 5.2，公式 (7.1) F(A) − F(C) = ie^{iα}[F(B) − F(D)]（A 指向 v、A/B/C/D 逆时针）、参数 e^{iα} = [e^{−iπ/4}(1−p)√2 + p] / [e^{−iπ/4}p + (1−p)√2]；Proposition 7.2——p < √2/(1+√2) 时存在 ξ = ξ(p) > 0 使公式 (7.2) φ_p(0 ↔ in) ≤ e^{−ξn}（L mesh size 1）；Lemma 7.3——公式 (7.3) ∣F(e)∣ = φ^{a,b}_{p,G}(u ↔ wired arc)（u 在 free arc、e 为 u 的 black diamond 边）；Proof——exploration path 是 wired arc 开簇与 free arc 对偶开簇的 interface、e∈γ ⟺ u 连 wired arc、winding W_1 deterministic、∣F(e)∣ = ∣φ(e^{(i/2)W_1}1_{e∈γ})∣ 两行推演（◻）；Proposition 7.2 证明策略段（strip 内指数衰减 → bulk，[BDC11]）；页脚印刷页码 50。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(7.1)/(7.2)/(7.3) 编号齐全；e^{iα} 分式分子分母中 e^{−iπ/4} 与 √2 的排布以 PNG 为准；1_{e∈γ} 指示下标为对账锚点。
