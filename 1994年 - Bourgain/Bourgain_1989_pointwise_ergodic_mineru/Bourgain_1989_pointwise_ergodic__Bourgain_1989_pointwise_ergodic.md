@@ -658,10 +658,12 @@ $$
 
 and averaging in $u$ gives
 
-(4.7)
+$$
+\begin{array}{r l} & {| | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | | _ {\ell^ {2} (\mathbb {Z})} \leqslant} \\ & {\qquad \rho^ {- 1 / 2} | | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | | _ {L ^ {2} (\mathbb {R})} +} \end{array}\tag{4.7}
+$$
 
 $$
-\begin{array}{r l} & {| | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | | _ {\ell^ {2} (\mathbb {Z})} \leqslant} \\ & {\qquad \rho^ {- 1 / 2} | | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ \varphi \mathcal {F} f ] | | | _ {L ^ {2} (\mathbb {R})} +} \\ & {\qquad \sup _ {0 <   u <   \rho} | | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ (1 - e ^ {2 \pi i \lambda u}) \varphi \mathcal {F} f ] | | | _ {\ell^ {2} (\mathbb {Z})}.} \end{array}\tag{4.8}
+\sup _ {0 <   u <   \rho} | | \sup _ {\varphi} | \mathcal {F} ^ {- 1} [ (1 - e ^ {2 \pi i \lambda u}) \varphi \mathcal {F} f ] | | | _ {\ell^ {2} (\mathbb {Z})}.\tag{4.8}
 $$
 
 By (4.5), (4.7) is clearly bounded by
