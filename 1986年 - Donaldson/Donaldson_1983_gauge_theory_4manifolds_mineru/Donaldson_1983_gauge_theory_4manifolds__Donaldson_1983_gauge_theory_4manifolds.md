@@ -378,7 +378,7 @@ $$
 D S: \operatorname{Ker} d _ {A} ^ {*} \times \Omega^ {0} (\mathfrak {g}) \rightarrow \Omega^ {1} (\mathfrak {g}), (a, v) \rightarrow a + d _ {A} v,
 $$
 
-which is an isomorphism since $\operatorname{Ker} d_A = H_A^0 = 0$ and $\Omega^1(g) = \operatorname{Im} d_A \oplus \operatorname{Ker} d_A^*$. Hence $S$ is locally a diffeomorphism and so, appealing to the discussion above, a diffeomorphism to its image. The cited properties of $p^{-1}(\mathcal{B}^*) \to \mathcal{B}^*$ follow easily from this.
+which is an isomorphism since $\operatorname{Ker} d_A = H_A^0 = 0$ and $\Omega^1(\mathfrak{g}) = \operatorname{Im} d_A \oplus \operatorname{Ker} d_A^*$. Hence $S$ is locally a diffeomorphism and so, appealing to the discussion above, a diffeomorphism to its image. The cited properties of $p^{-1}(\mathfrak{B}^*) \to \mathfrak{B}^*$ follow easily from this.
 
 (ii) This time DS is surjective but has Kernel  $H_{A}^{0}$ . Thus the restriction
 
@@ -386,15 +386,15 @@ $$
 S \colon T _ {A, \varepsilon} \times \exp \left(H _ {A} ^ {0 \perp}\right)\rightarrow \mathscr {Q}
 $$
 
-$(H_{A}^{0\perp}$ the complement in the $L^{2}$ inner product) is a local diffeomorphism. Similarly, since multiplication $\Gamma_{A} \times \exp(H_{A}^{0\perp}) \to \mathcal{G}$ has derivative 1 at the identity there is a unique splitting of $g \in \mathcal{G}$ close to 1 as $g = \gamma \tilde{g}, \gamma \in \Gamma_{A}, \tilde{g} \in \exp(H_{A}^{0\perp})$. So in this case a neighborhood of [A] in $\mathcal{B}$ is homeomorphic to $T_{A,\varepsilon/\Gamma_{A}}$, and $p: T_{A,\varepsilon} \to \mathcal{B}^{*}$ is clearly smooth off the fixed point set of $\Gamma_{A}$.
+$(H_{A}^{0\perp}$ the complement in the $L^{2}$ inner product) is a local diffeomorphism. Similarly, since multiplication $\Gamma_{A} \times \exp(H_{A}^{0\perp}) \to \mathcal{G}$ has derivative 1 at the identity there is a unique splitting of $g \in \mathcal{G}$ close to 1 as $g = \gamma \tilde{g}, \gamma \in \Gamma_{A}, \tilde{g} \in \exp(H_{A}^{0\perp})$. So in this case a neighborhood of [A] in $\mathfrak{B}$ is homeomorphic to $T_{A,\varepsilon}/\Gamma_{A}$, and $p: T_{A,\varepsilon} \to \mathfrak{B}^{*}$ is clearly smooth off the fixed point set of $\Gamma_{A}$.
 
-We see then that in the local model of a neighborhood of a reducible connection in B:
+We see then that in the local model of a neighborhood of a reducible connection in $\mathfrak{B}$:
 
 $$
 T _ {A, \varepsilon} / \Gamma_ {A} \subset \Omega^ {1} (L ^ {2}) / S ^ {1} \times \Omega_ {X} ^ {1},
 $$
 
-the component  $\operatorname{Ker} d^{*} \subset \Omega_{X}^{1}$  corresponds to the deformations of A within the space of equivalence classes of reducible connections, and that transverse to this set B has a quotient singularity of the form Complex Hilbert space/ $S^{1}$ .
+the component  $\operatorname{Ker} d^{*} \subset \Omega_{X}^{1}$  corresponds to the deformations of A within the space of equivalence classes of reducible connections, and that transverse to this set $\mathfrak{B}$ has a quotient singularity of the form Complex Hilbert space/ $S^{1}$ .
 
 ## II.2. Local properties of the moduli space
 
@@ -407,7 +407,7 @@ $$
 The essential fact which we use is that the derivative of $\Phi$:
 
 $$
-(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right)\right.
+(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right)\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right)\right.
 $$
 
 is a Fredholm operator (recall that a bounded linear map is Fredholm if it has finite dimensional kernel and cokernel and a closed range). This is an immediate consequence of the ellipticity of the differential operator:  $d_{A}^{*} + d_{A}^{-}$ since it is well known that elliptic operators over compact manifolds are

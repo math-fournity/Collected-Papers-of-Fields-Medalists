@@ -127,3 +127,13 @@
   - **印刷 quirk 登记（不改，300dpi 逐一确认确系印刷原样）**：① "is a **principle** 𝒢/±1 bundle"（principal 之误植，Luna 忠实保留）；② b 式中提位负号 "=⁻d_Agg⁻¹"（负号位于上标高度，md `= ^{-} d_A g g^{-1}` 忠实保留空底上标形式）；③ "Thus from ‖b‖_{L²₃′}‖a‖_{L²₃} < ε" 首个下标带撇号（印刷确有 prime，md `L_3^2'` 忠实保留）。
   - 排版级伪影（登记不改）：Theorem 6 整段斜体拍平为正体；行 362 印刷内层括号转写为花括号 `\{\ldots\}`。
 - 修复登记：行 329 `B`/`$B^{*}$`→`$\mathfrak{B}$`/`$\mathfrak{B}^{*}$`；行 337 `$T_{A,\varepsilon/\Gamma_A}$`→`$T_{A,\varepsilon}/\Gamma_A$`；行 365 `$\mathcal{B}$`→`$\mathfrak{B}$`；行 369 `$p^{-1}(B^*)$`→`$p^{-1}(\mathfrak{B}^*)$`（依据 `audit-redo/p010.png` + 300dpi 四张裁片）。
+
+### p.011（PDF p.11 / 印刷 p.289）
+
+- PNG：`audit-redo/p011.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（p⁻¹(𝔅*) 行、T_{A,ε}/Γ_A 行、Φ 映射显示式、DΦ 显示式，结论记于本条）
+- 核对：DS 导数式与同构论证段；(ii) 限制式 S: T_{A,ε}×exp(H^{0⊥}_A)→𝒬；Γ_A 分裂与 T_{A,ε}/Γ_A 局部模型；T_{A,ε}/Γ_A ⊂ Ω¹(L²)/S¹×Ω¹_X 显示式；quotient singularity 段；节标题 II.2；Φ 零点定义与两行显示式；DΦ Fredholm 段
+- 结果：**PASS±**（含六处 Fraktur/括号结构修复）。
+  - `DS\colon\operatorname{Ker}d_A^*\times\Omega^0(\mathfrak{g})\to\Omega^1(\mathfrak{g})`、`T_{A,\varepsilon}/\Gamma_A\subset\Omega^1(L^2)/S^1\times\Omega_X^1`（此行商号位置 Luna 本就正确）、`\Omega^1_X` 下标、Φ 两行显示式（含 `L^2_2(\Omega^2_-(\mathfrak{g}))` 目标与 `d_A^-a+\frac12[a,a]`）全部与页图一致（300dpi 确认目标 Sobolev 下标为 2）。
+  - **修复×6**：① 行 381 `\Omega^1(g)`→`\Omega^1(\mathfrak{g})`；② 行 381 `$p^{-1}(\mathcal{B}^*)\to\mathcal{B}^*$`→`$\mathfrak{B}^*$`（300dpi 确认印刷 Fraktur）；③ 行 389 `in $\mathcal{B}$`→`$\mathfrak{B}$`；④ 行 389 `$T_{A,\varepsilon/\Gamma_{A}}$`→`$T_{A,\varepsilon}/\Gamma_{A}$`（300dpi 确认商号在 T 外，与 p.010 行 337 同型错误）；⑤ 行 389 `$\mathcal{B}^{*}$`→`$\mathfrak{B}^{*}$`；⑥ 行 391/397 两处普通 `B`→`$\mathfrak{B}$`；⑦ 行 410 DΦ 显示式补闭大括号——印刷为 `(Ker d_A^* ⊂ L²₃(Ω¹(𝔤))) →^{d_A⁻} L²₂(Ω²₋(𝔤))`（大括号在 Ω¹(𝔤) 后即闭合，目标在括号外），md 原 `\left(` 未闭合且跨含目标，结构错误 → 已 Edit 改为 `\left(\operatorname{Ker}\ldots\left(\Omega^1(\mathfrak{g})\right)\right)\stackrel{d_A^-}{\rightarrow}L^2_2(\ldots)`。
+  - 记号宏不一致（登记不改）：行 386 目标 `$\mathscr{Q}$` 与全文 `\mathcal{Q}$` 为同一印刷字形（草书 𝒬），MinerU 宏混用，语义无损。
+- 修复登记：行 381 两处；行 389 三处；行 391/397 各一处；行 410 括号结构（依据 `audit-redo/p011.png` + 300dpi 裁片）。
