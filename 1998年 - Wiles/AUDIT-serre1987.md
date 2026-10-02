@@ -280,3 +280,11 @@
 - 核对：modulo l 段（X̃_l、π_l/π′_l、Deligne、corps quadratique imaginaire）、(4.8.3) π′_l = π̄_l et π_lπ̄_l = l^m、(4.8.4) a_l(X) = π_l + π̄_l、|a_l(X)| ⩽ 2l^{m/2}、unicité 括注（[40] n° 1.2）、THÉORÈME 6（Admettons (3.2.4?)）、(a) N ⩾ 1、(b) (N, m+1, 1)、F = q + ⋯ + Aₙqⁿ + …、(4.8.5) A_l = a_l(X) pour l ∉ S、En d'autres termes 括注、galoisiennes 重述段（X̄、H^m_et(X̄, Q_p)、H_p、Z_p*、arithmétiques/géométriques、k = m + 1）、Démonstration 开头（T 有限、p ∉ T、dim H^m_et = 2）。
 - 结果：PASS。公式、编号、上下标（l^m、2l^{m/2}、H^{m+1}_et）全部与印刷吻合。
 - 备注：页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 211” 未收入 Markdown，排版级。印刷页止于 “définit alors une”，ρ_p 式及其后内容属印刷 p.212。
+
+## p.034（PDF p.34 / 印刷 p.212）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p034.png`（pngmono，150 dpi）。
+- 核对：ρ_p: G_Q → GL₂(F_p) 式、non ramifiée hors S et p 段（det ρ_p = χ^m、J-M. Fontaine、W. Messing）、(4.8.6) (Fontaine—non publié)（k = m + 1）、Hodge 括注、N_p = ∏_{l∈S} l^{n(l,p)}（n(l,p) ⩾ 0）、C₃ de [40] 段（bornés、formule (11)）、(4.8.7) 同余式组（mod 2³ / mod 3² / mod l，si 2 ∈ S / si 3 ∈ S / pour tout l ∈ S, l ⩾ 5）、(4.8.8)（n(l,p) ⩽ 9 pour l = 2；⩽ 5 pour l = 3；⩽ 2 pour l ⩾ 5）、En effet 句首（I_{l,p}、SL₂(F_p)、diviseur de）。
+- 结果：PASS。公式、同余条件、不等式界全部与印刷吻合。
+- 备注：页眉 “212 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…et son ordre est un diviseur de”，p(p²−1) 段属印刷 p.213。
