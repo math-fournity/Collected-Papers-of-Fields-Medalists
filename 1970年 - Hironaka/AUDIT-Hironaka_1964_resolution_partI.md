@@ -451,3 +451,10 @@
 - 证据：源 PDF p.062 文本层、页图 `audit/Hironaka_1964_resolution_partI_p062.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p062_type_I_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p062_parameters_and_Definition8.png`，并比对 MinerU Markdown 第 1093–1115 行。印刷在 Remark 1 连续 4 次写作 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`（其中末次为 `\mathfrak{R}_{\mathrm{I}}^{N,n'}`）；Markdown 第 1093 行 4 处均将罗马大写 I 误录成数字 1。其余维数与变换后 datum 论述、normal-crossings 参数证明，以及 Definition 8 的 permissible succession 定义和条件 (i)–(iii) 均与原页相符。
 - 备注：印刷运行页眉和页码 169 未录入 Markdown，属导航元素省略。
 - 结论：四处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.063 / 96（印刷 p.170）— FAIL
+
+- 时间：2026-10-02 04:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.063 文本层、页图 `audit/Hironaka_1964_resolution_partI_p063.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p063_theorem_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p063_theorem_II2_label.png`，并比对 MinerU Markdown 第 1117–1129 行。印刷的 resolution-datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}` 在第 1123、1125 行的定理 I₁/I₂陈述中共 9 处被 Markdown 误录为 `\mathfrak{R}_1^{N,n}`。另印刷的主定理标签为 `II_1^N`、`II_2^N`，Markdown 第 1127、1129 行分别录为希腊字母 `\Pi_1^N`、`\Pi_2^N`。section heading 中 I₁/I₂/II₁/II₂编号、维数范围、定理陈述及因子化约定的其余部分已对照原页。
+- 备注：引言叙述中 Markdown 第 1121 行用普通 `R` 表示印刷的 Fraktur datum label，属不改变指代的正/花体混排（PASS±）；印刷运行页眉和页码 170 未录入 Markdown。
+- 结论：9 处 datum 标签把罗马 I 误录为数字 1，另有 2 个主定理 II 标签误录为 Pi，列为 FAIL；待全篇审计后逐处手工修复。
