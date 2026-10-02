@@ -234,6 +234,13 @@
 - Checked: completion of Proposition 18, the GL_1/C* remark, the divisor-class statement, and the setup for Proposition 19.
 - Result: FAIL. The print identifies the divisor-class group as H^1(X,G); Markdown line 806 has H'(X,G). The crop confirms superscript 1. The surrounding group and divisor statements agree.
 
+### PDF p.034/43 — print p.33
+
+- Reviewed: 2026-10-01 23:54 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi fiber-product and diagram crop](audit/300dpi/Serre_1956_gaga_p034_fiber-diagram_300dpi.png); PDF text layer and MinerU Markdown lines 814–836.
+- Checked: associated G/H spaces, the induced isomorphism and section, pullback P_1, the commutative fiber-product diagram, and the rational-section condition in Proposition 20.
+- Result: PASS±. The displayed fiber products, transition maps and diagram agree with print; no content mismatch was found. The running title and print page number are not represented in Markdown.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
