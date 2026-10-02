@@ -507,6 +507,17 @@
 - 核对：`R'(G,A)` 与 `R(G,A)` 的 `K_0A` 分裂；表示到 `[BG,BGL(A)^+]` 的映射及其基本性质；连通 H-space 的同伦逆；商表示环的 universal property、`X→Bπ_1X` 与有限复形上的自然变换结论。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图的两个分裂式均以 `K_0A` 为直和项，基线第 1744 行把 `R(G,A)` 的项误成 `H_0A`。表示映射及性质列表在基线第 1757 行被拼成一行，损坏了 trivial representation、短正合列条件和对应的 `E'`,`E''` 类关系。连通 H-space 的同伦逆证明，原图使用 `g:M×M→M×M` 的乘法构造、两个投影及长正合列；基线第 1762–1770 行丢失乘法映射并将 `g_*:[X,M]×[X,M]→[X,M]` 的群逆构造压成含混表达。原图 universal property 取商 `R(G,A)/K_0A`，基线第 1776 行误成 `/π_0A`。第 1780 行 canonical map 的目标是 `Bπ_1(X)`，基线写成 `Bπ_i(X)`；第 1784 行的 `\bar R(π_1X,A)→[Bπ_1X,BGL(A)^+]→[X,BGL(A)^+]` 三段映射及域/陪域被压坏。第 1787 行“`π_1Z` 无非平凡 perfect 子群”与自然变换延拓条件被损坏，第 1795 行的表示群是 `π_1X` 而非 `πX`。
-- 页面边界待续核：p.48 页尾引入 finite pointed connected complexes 的 theorem；Markdown 第 1797 行起的标题与第 1799 行类别限定，待 p.49 原图核实题头和定义的跨页分配。
+- 页面边界核对：p.48 页尾先写 “Theorem: Let X range over finite complexes (ptd connected)”；p.49 另以 “Theorem as above” 重提并明确 pointed finite complexes 与态射。Markdown 只保留第 1797 行一个题头、接第 1799 行的完整类别描述；这是源笔记相邻页重复引题被线性转录后的合并，没有另一个不同 theorem 陈述可分配。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_0A` 分裂、H-space 逆证明、商环与 `π_1`-索引映射。
 - 记录：2026-10-02 04:04:06 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.049（PDF p.49 / 纸面圈号 49）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p049.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p049_extension-property.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p049_representation-fibre.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p049_pointed-category.png`。
+- 核对：自然变换延拓性质及其 `π_1Z` 限制；`\bar R(π_1X,A)` 上的 λ-ring 运算；`π_1X` 表示与投射模纤维丛的关系；有限基点复形范畴及 property `(*)` 的交换图。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图开头的 `h` 定义域为 `\bar R(π_1X,A)`，条件是 `π_1Z` 没有非平凡 perfect 子群，结论为唯一延拓 `[X,BGL(A)^+]→[X,Z]`；基线第 1787 行把 `π_1X` 读成 `π,X`、漏坏 overline/自然变换标签，第 1789 行虽然保留了端点但与前述定义的连接已丢。原图第 1795 行的表示群为 `π_1X`，基线漏掉下标 `1`。手写日期 `10.16.74` 未录入。p.49 第二次出现的 “Theorem as above” 后将 `X` 限定为 pointed finite complexes、态射为保基点映射的同伦类；基线第 1799 行大意可辨，但第 1801 行将“`F,G` 为集合值函子”损坏为 `to leti`，第 1805 行又将 `π_1Z` 写成 `π,Z`。property `(*)` 图原意是由 `F(X)→[X,Z]` 与自然变换 `r_X:F(X)→G(X)` 唯一诱导 `G(X)→[X,Z]`；基线第 1807 行将两行对象/交换图拼接成无法读取的 `exists! e` 碎片。
+- 页面边界：本页止于 property `(*)` 的交换图；Markdown 第 1809 行的 canonical map theorem 与证明从 PDF p.50 开始。与 p.48 的 theorem cue 重复之处见前页边界复核。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `π_1X`/`π_1Z`、自然变换域陪域、日期与 property 图。
+- 记录：2026-10-02 04:10:33 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
