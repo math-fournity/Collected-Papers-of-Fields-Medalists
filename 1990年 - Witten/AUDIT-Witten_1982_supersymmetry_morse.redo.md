@@ -41,3 +41,8 @@
 - PNG：`audit-redo/p006.png`（pngmono 150dpi）
 - 核对：`a^k`/`a^{k*}` 记号段；式 (13)（Hessian 项与 `[a^{*i}, a^j]`）；`(dh)^2 = γ^{ij}(∂h/∂φ^i)(∂h/∂φ^j)`；弱 Morse 不等式论证；渐近展开 (14)；跨页断点 "This shows"。
 - 结果：PASS±。(13) `H_t = dd* + d*d + t^2(dh)^2 + Σ_{i,j} t(D^2h/Dφ^iDφ^j)[a^{*i}, a^j]`、(14) `λ_p^{(n)}(t) = t(A_p^{(n)} + B_p^{(n)}/t + C_p^{(n)}/t^2 + ···)` 及正文逐项与印刷页相符；`M_p ⩾ B_p`、`D^2h/Dφ^iDφ^j`、`p^a` 记号一致。print quirk：印刷原句 "the number of $A_{p}^{(n)}$ vanish is equal to the Morse number"（"vanish" 非标准搭配）被 md 忠实保留，不改。跨页断点一致（line 163 末 "This shows"）。差异仅：页眉 "666 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.007（PDF p.7 / 印刷 p.667）
+- PNG：`audit-redo/p007.png`（pngmono 150dpi）
+- 核对：跨页续段 `M_p ⩾ B_p`；局部坐标与 Taylor 展开 `h(φ_i) = h(0) + ½Σλ_iφ_i² + O(φ³)`；式 (15)–(18)（谐振子谱与 `K_i` 本征值 ±1）；p-形式限制与零模对应段。
+- 结果：PASS±。(15) `H̄_t = Σ_i(−∂²/∂φ_i² + t²λ_i²φ_i² + tλ_i[a^{i*}, a^i])`、(16) `H̄_t = Σ(H_i + tλ_iK_i)`、(17) `H_i = −∂²/∂φ_i² + t²λ_i²φ_i², K_j = [a^{j*}, a^j]`、(18) `tΣ_i(|λ_i|(1+2N_i) + λ_i n_i), N_i = 0,1,2,···, n_i = ±1` 及正文逐项与印刷页相符；`|λ_iφ_i| ≫ 1/√t`、`t|λ_i|(1+2N_i)` 一致。**Luna 旧修复重核：Taylor 余项 `O(φ^3)`（md line 167）与印刷一致，修复正确**。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 667" 未入 md（版面信息省略）。
