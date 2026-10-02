@@ -902,31 +902,31 @@ $$
 
 Morphisms are the morphisms ofK<sup>◦a</sup>/ -algebras.
 
-Let K-Perf denote the category of perfectoid K-algebras, and similarly for $\mathrm { K } ^ { \circ a } { \ – } \mathrm { P e r f } , \ \dots$. Let$\mathrm { K } ^ { \flat }$be the tilt of K. Then the main theorem of this section is the following.
+Let K-Perf denote the category of perfectoid K-algebras, and similarly for$\mathrm { K } ^ { \circ a }$-Perf, .... Let$\mathrm { K } ^ { \flat }$be the tilt of K. Then the main theorem of this section is the following.
 
-Theorem 5.2. — The categories ofperfectoid K-algebras andperfectoid$\mathrm { K } ^ { \flat }$-algebras are equivalent.$I n f a c t ,$we have thefollowing series ofequivalences ofcategories.
+Theorem 5.2. — The categories of perfectoid K-algebras and perfectoid$\mathrm { K } ^ { \flat }$-algebras are equivalent. In fact, we have the following series of equivalences of categories.
 
 $$
 \begin{array}{c} \text {K - Perf} \cong \text {K} ^ {\circ a} \text {-Perf} \cong \left(\text {K} ^ {\circ a} / \varpi\right) \text {-Perf} = \left(\text {K} ^ {\flat \circ a} / \varpi^ {\flat}\right) \text {-Perf} \cong \text {K} ^ {\flat \circ a} \text {-Perf} \\ \cong \text {K} ^ {\flat} \text {-Perf} \end{array}
 $$
 
-In other words, a perfectoid K-algebra, which is an object over the generic fibre, has a canonical extension to the almost integral level as a perfectoid K<sup>◦a</sup>-algebra, and perfectoid$\mathrm { K } ^ { \circ a } .$-algebras are determined by their reduction modulo$\varpi$
+In other words, a perfectoid K-algebra, which is an object over the generic fibre, has a canonical extension to the almost integral level as a perfectoid K<sup>◦a</sup>-algebra, and perfectoid$\mathrm { K } ^ { \circ a }$-algebras are determined by their reduction modulo$\varpi$.
 
-The following lemma expresses the conditions imposed on a perfectoid$\mathrm { K } ^ { \circ a . }$ algebra in terms of classical commutative algebra.
+The following lemma expresses the conditions imposed on a perfectoid$\mathrm { K } ^ { \circ a }$-algebra in terms of classical commutative algebra.
 
 Lemma 5.3. — Let M be a$\mathrm { K } ^ { \circ a }$-module.
 
-(i) The module M isflat over$\mathrm { K } ^ { \circ a }$ifand only$i f \mathrm { M } _ { \ast }$isflat over$\mathrm { K } ^ { \circ }$ifand only ifM has no -torsion.
+(i) The module M is flat over$\mathrm { K } ^ { \circ a }$if and only if$\mathrm { M } _ { * }$is flat over$\mathrm { K } ^ { \circ }$if and only if$\mathrm { M } _ { * }$has no$\varpi$-torsion.
 
-(ii) If N is a flat K<sup>◦</sup>-module and$\mathrm { M } = \mathrm { N } ^ { a }$, then M is flat over$\mathrm { K } ^ { \circ a }$and we have$\mathrm { M } _ { * } =$ $\begin{array} { r } { \{ x \in \mathbf { N } [ \frac { 1 } { \pi } ] \ | \ \forall \epsilon \in \mathfrak { m } : \epsilon x \in \mathbf { N } \} } \end{array}$
+(ii) If N is a flat K<sup>◦</sup>-module and$\mathrm { M } = \mathrm { N } ^ { a }$, then M is flat over$\mathrm { K } ^ { \circ a }$and we have$\mathrm { M } _ { * } =$ $\begin{array} { r } { \{ x \in \mathbf { N } [ \frac { 1 } { \varpi } ] \ | \ \forall \epsilon \in \mathfrak { m } : x \epsilon \in \mathbf { N } \} } \end{array}$.
 
-(iii) If M is flat over$\mathrm { K } ^ { \circ a }$, then for all$x \in \mathrm { K } ^ { \circ }$, we have$( x \mathbf { M } ) _ { * } = x \mathbf { M } _ { * }$. Moreover, $\mathrm { M } _ { * } / x \mathrm { M } _ { * } \subset ( \mathrm { M } / x \mathrm { M } ) _ { * }$, and for all$\epsilon \in { \mathfrak { m } }$the image of$( \mathrm { M } / x \epsilon \mathrm { M } )$)in$( \mathrm { M } / x \mathrm { M } )$∗ is equal to$\mathrm { M } _ { * } / x \mathrm { M } _ { * }$
+(iii) If M is flat over$\mathrm { K } ^ { \circ a }$, then for all$x \in \mathrm { K } ^ { \circ }$, we have$( x \mathbf { M } ) _ { * } = x \mathbf { M } _ { * }$. Moreover, $\mathrm { M } _ { * } / x \mathrm { M } _ { * } \subset ( \mathrm { M } / x \mathfrak { m } \mathrm { M } ) _ { * }$, and for all$\epsilon \in { \mathfrak { m } }$the image of$( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$in$( \mathrm { M } / x \mathrm { M } ) _ { * }$is equal to$\mathrm { M } _ { * } / x \mathrm { M } _ { * }$.
 
-(iv) If M is flat over$\mathrm { K } ^ { \circ a }$, then M is  -adically complete if and only$i f \mathbf { M } _ { * }$is  -adically complete.
+(iv) If M is flat over$\mathrm { K } ^ { \circ a }$, then M is  -adically complete if and only if$\mathbf { M } _ { * }$is  -adically complete.
 
 Remark 5.4. — The non-surjectivity in (iii) is due to elements as in Remark 4.8.
 
-Proof. — (i) By definition, M is a flat$\mathrm { K } ^ { \circ a }$-module ifand only ifall To$\mathrm { r } _ { i } ^ { \mathrm { K } ^ { \circ } } ( \mathrm { M } _ { * } , \mathrm { N } )$are almost zero for all$i > 0$and all$\mathrm { K } ^ { \circ }$-modules N. Hence if$\mathrm { M } _ { * }$is a flat$\mathrm { K } ^ { \circ }$-module, then M is a flat$\mathrm { K } ^ { \circ a }$-module. Conversely, choosing$\mathrm { N } = \mathrm { K } ^ { \circ } / \varpi$and$i = 1$, we find that the kernel of multiplication by  on$\mathrm { M } _ { * }$is almost zero. But
+Proof. — (i) By definition, M is a flat$\mathrm { K } ^ { \circ a }$-module if and only if all$\operatorname { T o r } _ { i } ^ { \mathrm { K } ^ { \circ a } } ( \mathrm { M } _ { * } , \mathrm { N } )$are almost zero for all$i > 0$and all$\mathrm { K } ^ { \circ }$-modules N. Hence if$\mathrm { M } _ { * }$is a flat$\mathrm { K } ^ { \circ }$-module, then M is a flat$\mathrm { K } ^ { \circ a }$-module. Conversely, choosing$\mathrm { N } = \mathrm { K } ^ { \circ } / \varpi$and$i = 1$, we find that the kernel of multiplication by  on$\mathrm { M } _ { * }$is almost zero. But
 
 $$
 \mathrm{M} _ {*} = \operatorname{Hom} _ {\mathrm{K} ^ {\circ a}} \left(\mathrm{K} ^ {\circ a}, \mathrm{M}\right) = \operatorname{Hom} _ {\mathrm{K} ^ {\circ}} (\mathfrak {m}, \mathrm{M} _ {*})

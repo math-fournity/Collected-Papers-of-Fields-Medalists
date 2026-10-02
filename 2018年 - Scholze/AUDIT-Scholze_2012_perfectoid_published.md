@@ -348,3 +348,16 @@
   6. Def 5.1(i)：Frobenius$\Phi:R^\circ/\varpi␣R^\circ/\varpi$缺箭头→→、"ofKalgebras"→of K-algebras（p.272 (i) 行）
   7. Def 5.1(ii)：completeflat→complete flat；末段"$\mathrm K^{\circ a}.$-algebras"伪'.$'删、"ofK^{◦a}"补空格（p.272 (ii) 行与末行）
 - 备注：string of equivalences display 与 print 逐字符一致；Def 5.1(iii) 起行 897 属印刷 p.273，留待 p.029。
+## p.029（PDF p.29 / 印刷 p.273）
+- PNG：audit/p029.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p273_thm52.png（Theorem 5.2 范畴链 display）
+- 核对：页眉 PERFECTOID SPACES/273；Def 5.1(iii)（承接 p.028 修毕）；K-Perf/K^{°a}-Perf 命名段；Theorem 5.2（等价 + K-Perf≅K^{°a}-Perf≅(K^{°a}/ϖ)-Perf=(K^{♭°a}/ϖ^♭)-Perf≅K^{♭°a}-Perf≅K^♭-Perf display）；In other words 段；Lemma 5.3 (i)–(iv)（flat 判据、M_*={x∈N[1/ϖ]|∀ε∈𝔪:xε∈N}、(xM)_*=xM_*、M_*/xM_*⊂(M/x𝔪M)_*、ϖ-adic complete）；Remark 5.4；Proof (i)（Tor_i^{K^{°a}}、N=K°/ϖ、M_*=Hom_{K^{°a}}(K^{°a},M)=Hom_{K°}(𝔪,M_*) display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；2 处控制字节遗留见第 6 条，以原图为准）：
+  1. K-Perf 命名段："$\mathrm K^{\circ a}{\ –}\mathrm{Perf},\ \dots$"散字乱码→"$\mathrm K^{\circ a}$-Perf, ...."（p.273 Let K-Perf 段）
+  2. Theorem 5.2：ofperfectoid/andperfectoid/thefollowing/ofequivalences 补空格、"$In fact,$"出 math（p.273 定理行）
+  3. In other words 段："$\mathrm K^{\circ a}.$-algebras"伪'.$'删、modulo ϖ 后补句点；Lemma 引导段"$\mathrm K^{\circ a.}$ algebra"→$\mathrm K^{\circ a}$-algebra（p.273 两段）
+  4. Lemma 5.3(i)："isflat/ifand only/only$if M_*$（\\ast 变体）"修正、**"if and only if M has no -torsion"→"if and only if$\mathrm M_*$has no$\varpi$-torsion"（丢 M_* 下标与 ϖ，print "M_* has no ϖ-torsion"，PNG 确认）**（p.273 (i) 行）
+  5. Lemma 5.3(ii)：**"$\mathbf N[\frac1\pi]$"→"$\mathbf N[\frac1\varpi]$"（π 系 ϖ 误读）**；"∀ε∈𝔪: εx∈N"→"∀ε∈𝔪: xε∈N"（print 顺序 xε，PNG 确认）+补句点（p.273 (ii) 行）
+  6. Lemma 5.3(iii)：**"(M/xM)_*"漏 𝔪→"(M/x𝔪M)_*"**（print M/x𝔪M，PNG 确认）；"(M/xϵM))in(M/xM)∗"（游离右括号、∗ 散落 math 外且丢 _*）→"$(\mathrm M/x\epsilon\mathrm M)_*$in$(\mathrm M/x\mathrm M)_*$"；句末补句点（p.273 (iii) 行原图）
+  7. **控制字节登记**：行 925 两处 \x0b（"M is \x0b-adically complete…"×2，ϖ 丢失）、行 929 一处 \x0b（"multiplication by \x0b on M_*"，print "by ϖ on"）——登记待字节级修复（\x0b→$\varpi$）
+  8. Proof (i)："ifand only ifall To$\mathrm r_i^{\mathrm K^\circ}$"→"if and only if all$\operatorname{Tor}_i^{\mathrm K^{\circ a}}$"（To r 拆字+上标漏 a，print Tor_i^{K^{°a}}）（p.273 Proof 行原图）
+- 备注：Theorem 5.2 display 经 300dpi 仲裁（audit/300dpi/Scholze_2012_p273_thm52.png）确认第 4 项为 (K^{♭∘a}/ϖ^♭)-Perf，与 MD 一致无需改；M_*=Hom… display 与 print 一致；Proof 行 935 起属印刷 p.274，留待 p.030。
