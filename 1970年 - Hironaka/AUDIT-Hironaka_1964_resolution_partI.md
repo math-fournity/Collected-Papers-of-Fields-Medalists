@@ -679,6 +679,6 @@
 ### PDF p.095 / 96（印刷 p.202）— FAIL
 
 - 时间：2026-10-02 06:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.095 文本层、页图 `audit/Hironaka_1964_resolution_partI_p095.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p095_Z_indices_and_generators.png` 与 MinerU Markdown 第 2087–2125 行。印刷将 $\psi_\alpha(Z)$ 限为变量 $Z_1,\ldots,Z_r$ 的形式；Markdown 第 2093 行误写为 $Z_1,\ldots,Z_s$。另印刷分解为 $\psi_\alpha=\sum_{\beta<i}\lambda_{\alpha,\beta}\varphi_\beta$，Markdown 第 2112 行将生成元 $\varphi_\beta$ 误录为花体 $\mathcal P_\beta$。度数比较、提升 $h_{\alpha,\beta}$ 及 $g_1$ 的性质 (1)–(3) 其余部分对应原页。
+- 证据：源 PDF p.095 文本层、页图 `audit/Hironaka_1964_resolution_partI_p095.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p095_Z_indices_and_generators.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p095_iterative_conditions.png`，并比对 MinerU Markdown 第 2087–2127 行。印刷将 $\psi_\alpha(Z)$ 限为变量 $Z_1,\ldots,Z_r$ 的形式；Markdown 第 2093 行误写为 $Z_1,\ldots,Z_s$。另印刷分解为 $\psi_\alpha=\sum_{\beta<i}\lambda_{\alpha,\beta}\varphi_\beta$，Markdown 第 2112 行将生成元 $\varphi_\beta$ 误录为花体 $\mathcal P_\beta$。在 $g_2$ 迭代条件中，印刷标签为 $(1_1),(2_1),(3_1)$，Markdown 第 2123、2125、2127 行分别排为 $(1),(21),(31)$；第 2125 行另将分次上标 d 误作 l（印刷为 $\mathrm{gr}_{P}^{d}(R)$）。
 - 备注：正文在列出 $g_2$ 的性质时续至下一页；印刷运行页眉和页码 202 未录入 Markdown。
-- 结论：变量范围上界与引理生成元符号各有一处误录，列为 FAIL；待全篇审计后逐处手工修复。
+- 结论：变量范围、引理生成元、迭代条件标号和分次上标共 6 处差异，列为 FAIL；待全篇审计后逐处手工修复。
