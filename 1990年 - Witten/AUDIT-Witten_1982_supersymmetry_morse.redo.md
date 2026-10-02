@@ -36,3 +36,8 @@
 - PNG：`audit-redo/p005.png`（pngmono 150dpi）
 - 核对：§2 标题；公式 (9)–(12)；Betti 数 `B_p(t)` 不变性段；跨页断点 "We will be"。
 - 结果：PASS±。(9) `Q_1 = d + d*, Q_2 = i(d - d*), H = dd* + d*d`、(10) `Q_1^2 = Q_2^2 = H, Q_1Q_2 + Q_2Q_1 = 0`、(11) `d_t = e^{-ht}de^{ht}, d_t^* = e^{ht}d^*e^{-ht}`、(12) `Q_{1t}, Q_{2t}, H_t` 各项及前后正文逐项与印刷页相符；`d^2 = d^{*2} = 0`、`e^{th}`、`B_p(t)` 记号一致；跨页断点与印刷页一致（line 139 末 "We will be"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 665" 未入 md（版面信息省略）。
+
+## p.006（PDF p.6 / 印刷 p.666）
+- PNG：`audit-redo/p006.png`（pngmono 150dpi）
+- 核对：`a^k`/`a^{k*}` 记号段；式 (13)（Hessian 项与 `[a^{*i}, a^j]`）；`(dh)^2 = γ^{ij}(∂h/∂φ^i)(∂h/∂φ^j)`；弱 Morse 不等式论证；渐近展开 (14)；跨页断点 "This shows"。
+- 结果：PASS±。(13) `H_t = dd* + d*d + t^2(dh)^2 + Σ_{i,j} t(D^2h/Dφ^iDφ^j)[a^{*i}, a^j]`、(14) `λ_p^{(n)}(t) = t(A_p^{(n)} + B_p^{(n)}/t + C_p^{(n)}/t^2 + ···)` 及正文逐项与印刷页相符；`M_p ⩾ B_p`、`D^2h/Dφ^iDφ^j`、`p^a` 记号一致。print quirk：印刷原句 "the number of $A_{p}^{(n)}$ vanish is equal to the Morse number"（"vanish" 非标准搭配）被 md 忠实保留，不改。跨页断点一致（line 163 末 "This shows"）。差异仅：页眉 "666 EDWARD WITTEN" 未入 md（版面信息省略）。
