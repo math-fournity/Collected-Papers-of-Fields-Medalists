@@ -182,3 +182,12 @@
 - 核对：Lemma 4.11 余段、Lemma 4.12、Definition 4.13、Theorem 4.14 陈述及证明开头。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 789 行 Theorem 4.14 的比较因子 `p^{b(dim L-1)/(p-1)}` 被破坏成 `b…` 后接 `p^{\longrightarrow\not\longrightarrow}`；该界是本定理的核心定量结论。300dpi 裁片清楚显示指数 `b(dim L-1)/(p-1)`。第 791 行的证明标签还把 `Theorem 4.5` 录成 `Theorem 4.1%`，作为交叉引用瑕疵另记。
+
+## p.021（PDF p.21 / 印刷 p.21）
+- 时间：2026-10-01 18:27:04 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p021.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_Theorem4.14-scaling.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p021_quadratic-field-print.png`
+- 核对：Theorem 4.14 证明收尾与 §5.1 题材、平方关系、二次域定义、CM 模与 A/B 元素。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 807 行把缩放因子 `1/π^i` 写成 `1/π^2`，改变了按权重 i 缩放的公式；300dpi 裁片确认上标为 i。印刷页还保留一个源级数学排印冲突：同页先称 `\mathfrak p^2=-p`，随后定义 `M=\mathbb Q[x]/(x^2-p)`；Markdown 忠实保留两处原文，未按预期更正。相邻的 A、B 公式与来源字形一致。
