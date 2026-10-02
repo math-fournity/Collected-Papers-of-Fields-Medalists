@@ -105,3 +105,9 @@
 - 核对：Figure 5（primal/dual lattice 高温展开与对偶构型图，含 +/− 自旋圈码与 a_δ、b_δ 标注）及长图注（a_δ 连 b_δ 的约束对应 +/− boundary conditions partition function）；分母对应 free boundary conditions 条件于 σ_a=σ_b 同自旋的 partition function 段、disorder operators 一句；临界性 √2−1 = e^{−2β_c} 与 Kramers-Wannier duality 解释段（dual graph 加一层 dual vertices、Fig. 5 引用）；spin Dobrushin domain 上的临界 Ising 模型约定段（interface γ_δ 从 a_δ 到 b_δ、左转约定、∂_{ab}^⋆/∂_{ba}^⋆ 弧、Figures 1/2 回引）；Theorem 2.10——(γ_δ)_{δ>0} 弱收敛于 chordal Schramm-Loewner Evolution κ = 3；页脚印刷页码 14。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：∂_{ab}^⋆ 的下标 ab 与上标 ⋆ 堆叠排印（PNG 中 ab 偏高），与 p.4 脚注 3 同类 print quirk，登记不改；κ = 3 与 Theorem 2.10 编号为重导出对账锚点。
+
+## p.015（PDF p.15 / 印刷 p.15）
+- PNG：audit/p015.png（pngmono 150dpi）；疑难字形仲裁件 audit/p015_cetail_300dpi.png（300dpi 裁切）
+- 核对：Theorem 2.10 证明程序四条 bullet——tightness、M_t^z_δ = F_{Ω◇_δ∖γ_δ[0,t],γ_δ(t),b_δ}(z_δ) 为 discrete curve γ_δ 的 martingale、martingales 收敛给出 sub-sequential limit 的 (M_t^z)_t、用 martingales 识别唯一可能极限 chordal SLE(κ=3)；Theorem 2.11 ([CS09])——公式 (2.13) F_{Ω_δ,a_δ,b_δ}(·) → √( ψ′(·) / ψ′(b) )，根号覆盖分数（pdftotext 把该根号-分数结构乱码为 "¿ Á À"，PNG 为裁决源），在 Ω 每一紧子集上一致收敛，ψ 为 Ω 到上半平面 ℍ 的任一共形映射（a↦∞、b↦0）；Theorem 2.12 ([HS10])——µ^f_{β_c,Ω∩δZ²}[σ_xσ_y] = (√2/2) − (φ′_a(a)/π)δ + o(δ)，φ_a 为 Ω 到圆盘 𝔻、a↦0、φ′_a(a)>0 的唯一共形映射；§3 Two-dimensional FK-Ising model 标题；§3.1 FK percolation 开篇（[Gri06][FK72]、configuration ω、open/closed、x ↔ y、clusters）；页脚印刷页码 15。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：疑难字形仲裁——150dpi PNG 中 "will be explained in … Section 6" 一行的 d 字形升部缺损疑似 "cetail"，经 300dpi 裁切复核（audit/p015_cetail_crop300.png）确认为 "detail"，属渲染伪影而非 print quirk，不登记为原文错字。(2.13) 的根号套分数结构是重导出对账高风险点。
