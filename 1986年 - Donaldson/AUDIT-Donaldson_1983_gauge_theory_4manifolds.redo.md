@@ -137,3 +137,13 @@
   - **修复×6**：① 行 381 `\Omega^1(g)`→`\Omega^1(\mathfrak{g})`；② 行 381 `$p^{-1}(\mathcal{B}^*)\to\mathcal{B}^*$`→`$\mathfrak{B}^*$`（300dpi 确认印刷 Fraktur）；③ 行 389 `in $\mathcal{B}$`→`$\mathfrak{B}$`；④ 行 389 `$T_{A,\varepsilon/\Gamma_{A}}$`→`$T_{A,\varepsilon}/\Gamma_{A}$`（300dpi 确认商号在 T 外，与 p.010 行 337 同型错误）；⑤ 行 389 `$\mathcal{B}^{*}$`→`$\mathfrak{B}^{*}$`；⑥ 行 391/397 两处普通 `B`→`$\mathfrak{B}$`；⑦ 行 410 DΦ 显示式补闭大括号——印刷为 `(Ker d_A^* ⊂ L²₃(Ω¹(𝔤))) →^{d_A⁻} L²₂(Ω²₋(𝔤))`（大括号在 Ω¹(𝔤) 后即闭合，目标在括号外），md 原 `\left(` 未闭合且跨含目标，结构错误 → 已 Edit 改为 `\left(\operatorname{Ker}\ldots\left(\Omega^1(\mathfrak{g})\right)\right)\stackrel{d_A^-}{\rightarrow}L^2_2(\ldots)`。
   - 记号宏不一致（登记不改）：行 386 目标 `$\mathscr{Q}$` 与全文 `\mathcal{Q}$` 为同一印刷字形（草书 𝒬），MinerU 宏混用，语义无损。
 - 修复登记：行 381 两处；行 389 三处；行 391/397 各一处；行 410 括号结构（依据 `audit-redo/p011.png` + 300dpi 裁片）。
+
+### p.012（PDF p.12 / 印刷 p.290）
+
+- PNG：`audit-redo/p012.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（index 公式分数、"intepreted" 用词，结论记于本条）
+- 核对：Index(DΦ)_A 两行显示式；Atiyah-Singer index 公式（8|c₂(P)|−3/2(χ−τ)=5）；χ=2+b₂、τ=b₂ 段与 [A]∈𝔅 句；Kuranishi/Smale 引言；Lemma 7 全文（斜体）；E=kerL⊕E′、F=ImL⊕F′；Proof（L|_{E′}、L̃、ψ 三行式、f∘ψ⁻¹ 式）；regular value 段
+- 结果：**PASS±**（含一处 print quirk 复原 + 一处草书拍平修复）。
+  - Index 显示式（`\operatorname{Index}(D\Phi)_A=\dim\operatorname{Ker}-\dim\operatorname{coker}`，目标 `\Omega^0(\mathfrak{g})\oplus\Omega^2_-(\mathfrak{g})`）、index 公式 300dpi 确认分数为 **3/2**（md `\frac{3}{2}` 正确；与 χ−τ=2 时结果 5 自洽）、行 427 `in $\mathfrak{B}$`（此处 Luna 本就正确）、Lemma 7 全部公式（`\ker L`/`\operatorname{Ker} L` 大小写混排系印刷原样）、Proof 三行式与 f(ψ⁻¹(x)) 式均与页图一致。
+  - **修复×2**：① 行 421 `$A \in Q$` → `$A \in \mathcal{Q}$`（印刷草书 𝒬）；② 行 429 "interpreted" → "intepreted"（300dpi 确认印刷即漏字母 r 的 **intepreted**，系原刊排印错误；Luna 曾静默改正，按 print quirk 忠实原则复原并登记）。
+  - 排版级伪影（登记不改）：Lemma 7 斜体陈述、*regular value* 斜体拍平；"(c.f. [16])" 印刷原样保留。
+- 修复登记：行 421 `Q`→`$\mathcal{Q}$`；行 429 "interpreted"→"intepreted"（依据 `audit-redo/p012.png` + 300dpi 裁片）。

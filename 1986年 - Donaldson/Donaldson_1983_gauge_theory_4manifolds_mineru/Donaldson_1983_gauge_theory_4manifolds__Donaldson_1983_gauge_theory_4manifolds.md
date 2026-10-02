@@ -418,7 +418,7 @@ $$
 \begin{array}{r l}\operatorname{Index} (D \Phi) _ {A}&= \dim \operatorname{Ker} (D \Phi) _ {A} - \dim \operatorname{coker} (D \Phi) _ {A}\\&= \operatorname{index} \left(d _ {A} ^ {*} + d _ {A} ^ {-}: \Omega^ {1} (\mathfrak {g}) \rightarrow \Omega^ {0} (\mathfrak {g}) \oplus \Omega_ {-} ^ {2} (\mathfrak {g})\right) + \dim H _ {A} ^ {0}.\end{array}
 $$
 
-The index of  $d_{A}^{*} + d_{A}^{-}$  is independent of  $A \in Q$  and can be computed by the Atiyah-Singer index theorem in terms of the original data X, P to be [2]:
+The index of  $d_{A}^{*} + d_{A}^{-}$  is independent of  $A \in \mathcal{Q}$  and can be computed by the Atiyah-Singer index theorem in terms of the original data X, P to be [2]:
 
 $$
 \operatorname{index} \left(d _ {A} ^ {*} + d _ {A} ^ {-}\right) = 8 \left| c _ {2} (P) \right| - \frac {3}{2} (\chi (X) - \tau (X)) = 5,
@@ -426,7 +426,7 @@ $$
 
 since by our assumptions on $X$, $\chi = 2 + b_2$, $\tau = b_2$. Thus the index of $(D\Phi)_A$ is 5 or 6 as $A$ is irreducible or not, corresponding as we shall see to the fact that if $A$ is reducible, we have to divide $Z(\Phi)$ by $\Gamma_A$ to get a true neighborhood of $[A]$ in $\mathfrak{B}$.
 
-Second, it is a general property of nonlinear maps of this type that we may reduce them locally to a linear part and a finite dimensional nonlinear part. This was done by Kuranishi in [10] and by Smale in [16]; we shall use the following simple lemma, in which all maps are to be interpreted as germs about the origin.
+Second, it is a general property of nonlinear maps of this type that we may reduce them locally to a linear part and a finite dimensional nonlinear part. This was done by Kuranishi in [10] and by Smale in [16]; we shall use the following simple lemma, in which all maps are to be intepreted as germs about the origin.
 
 Lemma 7. Let $E \xrightarrow{f} F, f(0) = 0$, be a smooth map between Banach spaces with the property that $L = (Df)_0$ is a Fredholm operator of index $k > 0$. If we choose complements
 
