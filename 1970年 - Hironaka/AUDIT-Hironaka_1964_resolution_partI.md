@@ -154,3 +154,10 @@
 - 证据：源 PDF p.020 文本层、页图 `audit/Hironaka_1964_resolution_partI_p020.png`（pngmono 150dpi）与 MinerU Markdown 第 339–343 行。Chow 定理段落续文、`(\mathcal{R}/S)`-ideal 定义、映射对与 sheaf homomorphism 条件、annihilator 构造及 footnote 14″ 均相符；页图确认文本层压平的 `\theta`、`\varphi` 和结构 sheaf 下标按 Markdown 当前写法保留。
 - 备注：印刷运行页眉与页码 127 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.021 / 96（印刷 p.128）— PASS±
+
+- 时间：2026-10-02 00:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.021 文本层、页图 `audit/Hironaka_1964_resolution_partI_p021.png`（pngmono 150dpi）与 MinerU Markdown 第 345–349 行。coherent ideal categories、(S_A^*(J))/(I_1^*) 的 Proj 构造、从局部 ringed spaces 态射诱导 sheaf-ideal 映射及逆像记号均与印刷页相符；页图核验了文本层丢失的上/下标和范畴符号。
+- 备注：印刷运行页眉和页码 128 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
