@@ -1,10 +1,18 @@
+On modular representations of Gal (.../Q) arising from modular forms.
+
+by Ribet, K.A.
+
+in Inventiones mathematicae
+
+volume 100; pp. 431 - 476
+
 Göttingen State and University Library
 
 ## Terms and Conditions
 
 The Göttingen State and University Library provides access to digitized documents strictly for noncommercial educational, research and private purposes and makes no warranty with regard to their use for other purposes. Some of our collections are protected by copyright. Publication and/or broadcast in any form (including electronic) requires prior written permission from the Göttingen State- and University Library.
 
-Each copy of any part of this document must contain these Terms and Conditions. With the usage of the library's online-systems to access or download a digitized document you accept these Terms and Conditions.
+Each copy of any part of this document must contain these Terms and Conditions.With the usage of the library's online-systems to access or download a digitized document you accept these Terms and Conditions.
 
 Reproductions of materials on the web site may not be made for or donated to other repositories, nor may they be further reproduced without written permission from the Göttingen State- and University Library.
 
@@ -12,7 +20,7 @@ For reproduction requests and permissions, please contact us. If citing material
 
 Contact:
 
-Niedersaechssische Staats- und Universitaetsbibliothek Göttingen
+Niedersaechsische Staats- und Universitaetsbibliothek Göttingen
 
 Digitalisierungszentrum
 
