@@ -414,3 +414,12 @@
 - 核对：Remark A.9、Proposition A.10 (a)–(g)、证明中选取 arithmetic model 与 moduli-space base change。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Proposition A.10 所述 model 应以 `(S,\bar X_S,D_S,\mathcal O_{\bar X_S}(1))` 为源、以 `(\bar X_C,D_C,\mathcal O_{\bar X_C}(1))` 为目标；Markdown 两个 tuple 都丢失了紧化横线。性质 (e) 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头，性质 (g) 的 `S → \operatorname{Spec}\mathbb Z` 也漏箭头。证明中 `\mathbb P^N_{\tilde S}` 后多出 `r`，并在 `\bar X_{\tilde S}` 的 smooth 断言前多出 `r`。300dpi 裁片确认 scheme、bar、箭头及多余字符。
+
+## p.047（PDF p.47 / 印刷 p.47）
+- 时间：2026-10-02 02:32:27 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p047.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p047-sections-A1.1-A2.1.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p047-Higgs-de-Rham-maps.png`
+- 核对：Proposition A.10 证明中的 sections 与有限平坦 structural morphism；§A.2 Definition A.11、periodicity definition、restricted Higgs-de Rham correspondence (A.2.1)。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：式 (A.1.1) 的 sections `[(E_S^i,\nabla_S^i)]_{i\in I}` 从 `S` 到模空间的箭头在 Markdown 写成冒号；随后的 structural morphism `\mathcal M_{log-dR}(\bar X_{\tilde S}/\tilde S) → S` 也漏箭头。§A.2 中 geometric-point map `s:\operatorname{Spec}\bar k → S` 再次漏箭头；定义 `R_{dR}(s)` 时印刷为 nilpotent residues **of** level `≤p-1`，Markdown 写成 **or**。式 (A.2.1) 印刷有两条相反方向的 correspondence（上方 `C^{-1}` 向右、下方 `gr` 向左），Markdown 只保留单一向右箭头，并把 `gr` 挂在它下面。300dpi 裁片核实 sections、morphism 和两条流向。PASS± 拼写伪影：`Griffiths` 变成 `Grifiths`；“are jointly surjective” 另有 `r rare` 噪声。
