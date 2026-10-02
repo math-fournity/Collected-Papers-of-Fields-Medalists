@@ -629,6 +629,17 @@
 - 核对：λ-ring multiplication polynomial `P_k`、`\lambda^k(x)` 的 elementary symmetric function 描述与 `Q_{j,k}`；表示环 Adams operations 的 generating series 和恒等式；特征 `p` 下的 Frobenius-induced endomorphism。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图第 2142 行关系是 `x^j\lambda^k(x)=Q_{j,k}(\lambda^1x,\ldots,\lambda^{jk}x)`，基线将左端误成 `x^j(x)` 并损坏 `Q_{j,k}` 的参数；第 2152 行原图对象仍是 `\lambda^k(x)`，基线写成 `x^k(x)`，后面的 elementary-symmetric index bounds 亦损坏。Adams operations 的 generating series 原图为 `1/\lambda_{-t}(x)=\exp(\sum_{m≥1}\psi^m(x)t^m/m)`；基线第 2160 行把该公式替换成 `1/2` 与 “ring homomorphism” 噪声。线丛性质为 `\psi^k(L)=L^k`，基线第 2163 行将其写成 tensor-power 文本。特征 `p` 的原图 Frobenius 满足 `F_a(a)=a^p` 并诱导 `F_*` 于 `R(G,A)`，结论 `\psi^p=F_*`；基线第 2165 行写成 `F_a=2^p` 与 `\Psi^iP=F_1`。末端在 `x_1^2+x_2^2=` 处续入算例，等待 p.60 对账。
-- 页面边界：本页止于 Frobenius assertion 及紧接的 `x_1^2+x_2^2=` 算例起头；后续多项式展开待 p.60 核对。
+- 页面边界核对：p.59 以 `x_1^2+x_2^2=` 算例起头结束；p.60 从 `p=2` 的 `ψ^2x=x^2-2λ^2x` 与平方模短正合列续写。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复对称多项式/Adams series、Frobenius 映射与 λ-ring parameters。
 - 记录：2026-10-02 05:06:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.060（PDF p.60 / 纸面圈号 60）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p060.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p060_characteristic-two.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p060_gamma-series.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p060_gamma-filtration.png`。
+- 核对：特征 2 下 Adams `ψ^2` 与 `Λ^2P/S^2P` 短正合列；`γ_t` 从 `λ_t` 定义；`γ`-filtration 的生成子群与关联分次上的 Adams 权重事实；有限复形上的局部幂零结论。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 2171–2173 行用 `ψ^2x=x^2−2λ^2x`、`0→Λ^2P→P⊗P→S^2P→0` 及关联 Frobenius 图说明 p=2 情形；基线把 exact sequence/映射图挤成未闭合的 K/S²P/Λ²P 矩阵碎片。对 `E=L_1+…+L_n`，原图规定 `γ_k(E−n)` 为 `L_i−1` 的 k 次 elementary symmetric function，且 `γ_t(E−n)=∏(1+t(L_i−1))`；基线第 2175–2176 行将对象、指数及乘积记号写坏。原图 `γ_t(x+y)=γ_t(x)γ_t(y)`，以及 `γ_t(L−1)=1+t(L−1)`；基线第 2179 行把等式写成减法。由此 `γ_t(L)=1+\frac{t}{1−t}L=λ_{t/(1−t)}(L)`，基线第 2183 行把 `γ` 统一误读为 `r` 并扰乱 λ 参数。`F_p^γR(G,A)` 应由 `γ^{i_1}(x_1)…γ^{i_n}(x_n)`（`Σi_j≥p`）生成；基线第 2189 行改成 `x^{i_j}`，关联分次上 `ψ^k` 作用为 `k^i`（第 2193 行）也被 `O_n/F_i^r` 损坏。局部幂零 theorem 的对象应是 `\widetilde K(X,A)` 的 `γ`-filtration，基线第 2200 行写成 “x-filtration locally illpote”，corollary 中 Adams 算子与多项式因子亦损坏。
+- 页面边界：原图 p.60 止于关联分次商上 `ψ^k=k^i` 的 fact；Markdown 第 2196 行起 “Fact: In a λ-ring” 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复特征 2 公式、`γ`-series/filtration、关联分次权重与局部幂零结论。
+- 记录：2026-10-02 05:17:48 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
