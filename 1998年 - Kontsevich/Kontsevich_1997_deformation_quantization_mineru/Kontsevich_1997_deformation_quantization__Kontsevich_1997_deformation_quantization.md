@@ -624,7 +624,7 @@ This lemma says that there exists an afine structure on a formal graded pointed 
 
 As a side remark, we mention analogy between this lemma and a theorem from singularity theory (see, for example, the beginning of 11.1 in$\mathrm { [ A G V ] } )$: for every germ f of analytic function at critical point one can find local coordinates$( x ^ { 1 } , \ldots , x ^ { k } , y ^ { 1 } , \ldots , y ^ { l } )$such that$f = c o n s t a n t + Q _ { 2 } ( x ) + Q _ { \geq 3 } ( y )$where$Q _ { 2 }$is a nondegenerate quadratic form in x and$Q _ { \geq 3 } ( y )$is a germ of a function in y such that its Taylor expansion at$y = 0$starts at terms of degree at least 3.
 
-Let g be an$L _ { \infty } .$-algebra and$\mathbf { g } ^ { m i n }$be a minimal L<sub>∞</sub>-algebra as in the previous lemma. Then there are two$L _ { \infty }$-morphisms (projection and inclusion)
+Let g be an$L _ { \infty }$-algebra and$\mathbf { g } ^ { m i n }$be a minimal L<sub>∞</sub>-algebra as in the previous lemma. Then there are two$L _ { \infty }$-morphisms (projection and inclusion)
 
 $$
 (\mathbf {g} [ 1 ] _ {\text { formal }}, 0) \longrightarrow (\mathbf {g} ^ {\text { min }} [ 1 ] _ {\text { formal }}, 0), (\mathbf {g} ^ {\text { min }} [ 1 ] _ {\text { formal }}, 0) \longrightarrow (\mathbf {g} [ 1 ] _ {\text { formal }}, 0)
@@ -642,7 +642,7 @@ $$
 (\mathbf {g} _ {1} ^ {m i n} [ 1 ] _ {f o r m a l}, 0) \longrightarrow (\mathbf {g} _ {2} ^ {m i n} [ 1 ] _ {f o r m a l}, 0).
 $$
 
-Any quasi-isomorphism between minimal$L _ { \infty } { \mathrm { - a l g e b r a s } }$is invertible, because it induces an isomorphism of spaces of cogenerators (the inverse mapping theorem from 4.1). Thus, we proved the first part of the theorem. Also, we see that the set equivalence classes of$L _ { \infty } { - } \mathrm { a }$lgebras up to quasi-isomorphisms can be naturally identified with the set of equivalence classes of minimal$L _ { \infty }$-algebras up to$L _ { \infty }$-isomorphisms.
+Any quasi-isomorphism between minimal$L _ { \infty } { \mathrm { - a l g e b r a s } }$is invertible, because it induces an isomorphism of spaces of cogenerators (the inverse mapping theorem from 4.1). Thus, we proved the first part of the theorem. Also, we see that the set equivalence classes of$L _ { \infty }$-algebras up to quasi-isomorphisms can be naturally identified with the set of equivalence classes of minimal$L _ { \infty }$-algebras up to$L _ { \infty }$-isomorphisms.
 
 ## 4.5.2. Deformation functors at fixed points of Q
 
@@ -652,9 +652,9 @@ $$
 M a p s \left(\left(S p e c (\mathbf {m} \oplus \mathbf {k} \cdot 1), \text {   base   point }\right), \left(Z e r o e s (Q), 0\right)\right) \subset M a p s \left(\left(S p e c (\mathbf {m} \oplus \mathbf {k} \cdot 1), \text {   base   point }\right), \left(M, 0\right)\right).
 $$
 
-In terms of the coalgebra  corresponding to M this set is equal to the set of homomorphisms of coalgebras$\mathbf { m } ^ { * } { \longrightarrow } \mathcal { C }$with the image annihilated by Q. Another way to say is to introduce a global (i.e. not formal) pointed Q-manifold of maps from$( S p e c ( \mathbf { m } \oplus \mathbf { k } \cdot 1 )$, base point to$( M , 0 )$and consider zeroes of the global vector field Q on it.
+In terms of the coalgebra$C$corresponding to M this set is equal to the set of homomorphisms of coalgebras$\mathbf { m } ^ { * } { \longrightarrow } \mathcal { C }$with the image annihilated by Q. Another way to say is to introduce a global (i.e. not formal) pointed Q-manifold of maps from$( S p e c ( \mathbf { m } \oplus \mathbf { k } \cdot 1 )$, base point ) to$( M , 0 )$and consider zeroes of the global vector field Q on it.
 
-Two solutions p<sub>0</sub> and p<sub>1</sub> of the Maurer-Cartan equation are called gauge equivalent if there exists (parametrized by$S p e c ( \mathbf { m } \oplus \mathbf { k } \cdot 1 ) )$polynomial family of odd vector fields ξ(t) on M (of degree 1 with respect to Z-grading) and a polynomial solution of the equation
+Two solutions p<sub>0</sub> and p<sub>1</sub> of the Maurer-Cartan equation are called gauge equivalent iff there exists (parametrized by$S p e c ( \mathbf { m } \oplus \mathbf { k } \cdot 1 ) )$polynomial family of odd vector fields ξ(t) on M (of degree −1 with respect to Z-grading) and a polynomial solution of the equation
 
 $$
 \frac {d p (t)}{d t} = [ Q, \xi (t) ] _ {| p (t)}, p (0) = p _ {0}, p (1) = p _ {1},
