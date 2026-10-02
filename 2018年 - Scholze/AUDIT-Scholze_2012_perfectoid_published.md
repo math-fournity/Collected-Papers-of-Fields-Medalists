@@ -322,3 +322,17 @@
   6. Example 4.9："$\mathbf{Q}_{\mathcal{P}}(\boldsymbol{\phi}^{1/\mathcal{P}^\infty}),\boldsymbol{\mathscr{p}}\neq 2$"→"$\mathbf{Q}_p(p^{1/p^\infty})$, $p\neq 2$"（花体/希腊字族系 p 误读，PNG 确认）；"$\mathrm{K}(\boldsymbol{\mu}^{1/2})$"→"$\mathrm{K}(p^{1/2})$"（μ→p）（p.270 Example 行原图）
   7. Prop 4.10：isflat/almostfinitely×2/ifand only ifit 补空格（p.270 Prop 4.10 行）
 - 备注：Hom/Σ 两个 display 与 print 一致；Theorem 4.11 起行 823 属印刷 p.271，留待 p.027。
+## p.027（PDF p.27 / 印刷 p.271）
+- PNG：audit/p027.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/271；Theorem 4.11 [15, Prop 4.3.27, Remark 4.3.10(i)]（A=A_0×⋯×A_k 分解、∧^i M_i invertible、∧^{i+1}M_i=0、invertible if L⊗_A alHom_A(L,A)=A）；étale morphisms 段；Definition 4.12（μ:B⊗_A B→B）；(i) unramified（e∈(B⊗_A B)_*、ker(μ)_*）；(ii) étale；diagonal closed immersion 段；almost finitely presented étale maps 段；Definition 4.13 finite étale（A_fét）；trace morphisms 段（P_*=alHom(P,A)、P_{**}≅P、End(P)^a=P⊗_A P_* display、tr_{P/A}:End(P)^a→A）；Definition 4.14 trace form（t_{B/A}:B⊗_A B→A display、b′↦bb′ of B）；Remark 4.15 开头（至 "There is no"）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Theorem 4.11 头 "Remark$4.3.IO(i)]$"→"Remark 4.3.10(i)]."（IO 系 10 误读）；such thatfor→such that for；"$\Lambda^{i\breve{+}1}\mathbf M_i$"伪 \breve+Λ→$\bigwedge^{i+1}\mathbf M_i$；"invertible ifL$\otimes_A$$\mathrm{{lHom}_A(L,A)=A}$"→"invertible if$\mathrm L\otimes_{\mathrm A}\operatorname{alHom}_{\mathrm A}(\mathrm L,\mathrm A)=\mathrm A$."（lHom→alHom、跨 math run 合并、补句点）（p.271 定理行原图）
+  2. Definition 4.12："Let A be$\iota \ K ^ { \circ a } - a l g e b r a ,$"（ι 系冠词 a 误读+连字符散入 math）→"Let A be a$\mathrm K^{\circ a}$-algebra"（p.271 Def 4.12 行原图）
+  3. (i)：**"(B⊗_A B)"与"ker(μ)"补 _* 下标**（print 为几乎元素 (B⊗_A B)_*、ker(μ)_*，PNG 确认）；ifthere→if there；游离 ",$."→"_{*}$."（p.271 (i) 行）
+  4. (ii)：ifit→if it、aflat→a flat（p.271 (ii) 行）
+  5. Definition 4.13：almostfinitely→almost finitely、offinite→of finite、$\mathrm{\bf A}_{fet}$→$\mathrm{\bf A}_{f\acute et}$（fét 带尖音符，与 p.268 display 一致）（p.271 Def 4.13 行）
+  6. trace 段："$\mathrm{K}^{\circ a}\mathrm{-algebra}.$"→$\mathrm K^{\circ a}$-algebra（散字合并）；**"$\mathrm P^*=\mathrm{alHom}(\mathrm P,\mathrm A)$"→"$\mathrm P_*=\operatorname{alHom}(\mathrm P,\mathrm A)$"、"$\mathrm P^{**}\cong\mathrm P$"→"$\mathrm P_{**}\cong\mathrm P$"、display "P⊗_A P^*"→"P⊗_A P_*"（print 三处均为下标 _*，上标系误读）**（p.271 trace 段与 display 原图）
+  7. tr_{P/A} 行：End(P)^a␣A 缺箭头→→+补句点（p.271 In particular 行）
+  8. Definition 4.14：afinite→a finite、traceform/bilinearform→trace form/bilinear form（p.271 Def 4.14 行）
+  9. "composition of${\bf{\dot\mu}}$"伪点删、"$\mathrm B␣\mathrm A$"缺箭头→→、"$bb′ \ g f{\bf B}$"（of 乱码为 \ gf）→"of$\mathbf B$"+补句点（p.271 given by 段）
+- 备注：Theorem 4.11 的 ∧^i/∧^{i+1} 上标经 PNG 确认为同一 i 指标；Remark 4.15 起（行 857）跨印刷 p.271/272，其 p.271 部分无差异；行 859（Theorem 4.16）属印刷 p.272，留待下一块。

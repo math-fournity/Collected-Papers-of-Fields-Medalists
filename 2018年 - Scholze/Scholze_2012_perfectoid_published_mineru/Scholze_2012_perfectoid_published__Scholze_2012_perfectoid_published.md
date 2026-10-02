@@ -820,39 +820,39 @@ By abuse of notation, we call such A-modules M finite projective in the followin
 
 For uniformly finite projective modules, there is a good notion of rank.
 
-Theorem 4.11 [15, Proposition 4.3.27, Remark$4 . 3 . I O ( i ) ]$. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra, and let M be a uniformly finite projective A-module. Then there is a unique decomposition$\mathrm { A } = \mathrm { A } _ { 0 } \times \mathrm { A } _ { 1 } \times$ $\cdots \times \mathrm { A } _ { k }$such thatfor each$i = 0 , \ldots , k ,$the A -module$\mathbf { M } _ { i } = \mathbf { M } \otimes _ { \mathbf { A } } \mathbf { A } _ { i }$has theproperty that${ \textstyle \bigwedge } ^ { i } \mathbf { M } _ { i }$is invertible, and$\Lambda ^ { i \breve { + } 1 } \mathbf { M } _ { i } = 0$. Here, an A-module L is called invertible ifL$\otimes _ { \mathrm { A } }$$\mathrm { { l H o m } _ { A } ( L , A ) = A }$
+Theorem 4.11 [15, Proposition 4.3.27, Remark 4.3.10(i)]. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra, and let M be a uniformly finite projective A-module. Then there is a unique decomposition$\mathrm { A } = \mathrm { A } _ { 0 } \times \mathrm { A } _ { 1 } \times$ $\cdots \times \mathrm { A } _ { k }$such that for each$i = 0 , \ldots , k ,$the A -module$\mathbf { M } _ { i } = \mathbf { M } \otimes _ { \mathbf { A } } \mathbf { A } _ { i }$has the property that${ \textstyle \bigwedge } ^ { i } \mathbf { M } _ { i }$is invertible, and$\bigwedge ^ { i + 1 } \mathbf { M } _ { i } = 0$. Here, an A-module L is called invertible if$\mathrm { L } \otimes _ { \mathrm { A } } \operatorname { a l H o m } _ { \mathrm { A } } ( \mathrm { L } , \mathrm { A } ) = \mathrm { A }$.
 
 Finally, we need the notion of étale morphisms.
 
-Definition 4.12. — Let A be$\iota \ K ^ { \circ a } - a l g e b r a ,$, and let B be an A-algebra. Let$\mu : \mathbf { B } \otimes _ { \mathrm { A } } \mathbf { B } \to \mathbf { B }$ denote the multiplication morphism.
+Definition 4.12. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra, and let B be an A-algebra. Let$\mu : \mathbf { B } \otimes _ { \mathrm { A } } \mathbf { B } \to \mathbf { B }$ denote the multiplication morphism.
 
-(i) The morphism$\mathrm { A } \to \mathrm { B }$is said to be unramified ifthere is some element$e \in ( \mathbf { B } \otimes _ { \mathbf { A } } \mathbf { B } )$such that$e ^ { 2 } = e , \mu ( e ) = 1$and$x e = 0$for all$x \in \ker ( \mu ) ,$.
+(i) The morphism$\mathrm { A } \to \mathrm { B }$is said to be unramified if there is some element$e \in ( \mathbf { B } \otimes _ { \mathbf { A } } \mathbf { B } ) _ { * }$such that$e ^ { 2 } = e , \mu ( e ) = 1$and$x e = 0$for all$x \in \ker ( \mu ) _ { * }$.
 
-(ii) The morphism$\mathrm { A } \to \mathrm { B }$is said to be étale ifit is unramified and B is aflat A-module.
+(ii) The morphism$\mathrm { A } \to \mathrm { B }$is said to be étale if it is unramified and B is a flat A-module.
 
 We note that the definition of unramified morphisms basically says that the diagonal morphism$\mu : \mathbf { B } \otimes _ { \mathrm { A } } \mathbf { B } \to \mathbf { B }$is a closed immersion in the geometric picture.
 
 In the following, we will be particularly interested in almost finitely presented étale maps.
 
-Definition 4.13. — A morphism A → B of K<sup>◦a</sup>-algebras is said to be finite étale if it is étale and B is an almostfinitely presented A-module. Write$\mathrm { \bf A } _ { \mathrm { f e t } }$for the category offinite étale A-algebras.
+Definition 4.13. — A morphism A → B of K<sup>◦a</sup>-algebras is said to be finite étale if it is étale and B is an almost finitely presented A-module. Write$\mathrm { \bf A } _ { \mathrm { f \acute { e } t } }$for the category of finite étale A-algebras.
 
 We note that in this case B is a finite projective A-module. Also, this terminology is not used in [15], but we feel that it is the appropriate almost analogue of finite étale covers.
 
-There is an equivalent characterization of finite étale morphisms in terms of trace morphisms. If A is any${ \mathrm { K } } ^ { \circ a } { \mathrm { - a l g e b r a } } .$, and P is some finite projective A-module, we define$\mathrm { P ^ { * } } = \mathrm { a l H o m } ( \mathrm { P } , \mathrm { A } )$, which is a finite projective A-module again. Moreover,$\mathrm { P } ^ { \ast \ast } \cong \mathrm { P }$ canonically, and there is an isomorphism
+There is an equivalent characterization of finite étale morphisms in terms of trace morphisms. If A is any${ \mathrm { K } } ^ { \circ a }$-algebra, and P is some finite projective A-module, we define$\mathrm { P } _ { * } = \operatorname { a l H o m } ( \mathrm { P } , \mathrm { A } )$, which is a finite projective A-module again. Moreover,$\mathrm { P } _ { * * } \cong \mathrm { P }$ canonically, and there is an isomorphism
 
 $$
-\operatorname{End} (\mathrm{P}) ^ {a} = \mathrm{P} \otimes_ {\mathrm{A}} \mathrm{P} ^ {*}.
+\operatorname{End} (\mathrm{P}) ^ {a} = \mathrm{P} \otimes_ {\mathrm{A}} \mathrm{P} _ {*}.
 $$
 
-In particular, one gets a trace morphism$\mathrm { t r } _ { \mathrm { P / A } } : \mathrm { E n d } ( \mathrm { P } ) ^ { a }  \mathrm { A }$
+In particular, one gets a trace morphism$\mathrm { t r } _ { \mathrm { P / A } } : \mathrm { E n d } ( \mathrm { P } ) ^ { a } \to \mathrm { A }$.
 
-Definition 4.14. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra, and let B be an A-algebra such that B is afinite projective A-module. Then we define the traceform as the bilinearform
+Definition 4.14. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra, and let B be an A-algebra such that B is a finite projective A-module. Then we define the trace form as the bilinear form
 
 $$
 t _ {\mathrm{B/A}}: \mathrm{B} \otimes_ {\mathrm{A}} \mathrm{B} \to \mathrm{A}
 $$
 
-given by the composition of${ \bf { \dot { \boldsymbol { \mu } } } } : { \bf B } \otimes _ { \mathrm { A } } { \bf B } \to { \bf B }$and the map$\mathrm { B }  \mathrm { A }$sending any$b \in \mathrm { B }$to the trace of the endomorphism$b ^ { \prime } \mapsto b b ^ { \prime } \ g f { \bf B }$
+given by the composition of$\mu : { \bf B } \otimes _ { \mathrm { A } } { \bf B } \to { \bf B }$and the map$\mathrm { B } \to \mathrm { A }$sending any$b \in \mathrm { B }$to the trace of the endomorphism$b ^ { \prime } \mapsto b b ^ { \prime }$of$\mathbf { B }$.
 
 Remark 4.15. — We should remark that the latter definition does not literally make sense, as one can not talk about an element b of some almost object B: There is no underlying set. However, one can define a map$\mathrm { B } _ { * }  \mathrm { E n d } _ { \mathrm { A } _ { * } } ( \mathrm { B } _ { * } )$in the way described, and we are considering the corresponding map of almost objects$\mathbf { B }  \mathrm { E n d _ { A _ { * } } ( B _ { * } ) ^ { \mathfrak { a } } = }$ $\operatorname { E n d } _ { \mathrm { A } } ( \mathrm { B } ) ^ { a }$
 
