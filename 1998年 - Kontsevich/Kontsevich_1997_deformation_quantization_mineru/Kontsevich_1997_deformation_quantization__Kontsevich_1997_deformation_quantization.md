@@ -72,7 +72,7 @@ $$
 \sum_ {n \geq 0} f _ {n} \hbar^ {n} \mapsto \sum_ {n \geq 0} f _ {n} \hbar^ {n} + \sum_ {n \geq 0, m \geq 1} D _ {m} (f _ {n}) \hbar^ {n + m}, \text { for   general   element } f (\hbar) = \sum_ {n \geq 0} f _ {n} \hbar^ {n} \in A [ [ \hbar ] ],
 $$
 
-where$D _ { i } : A { \longrightarrow } A$are diferential operators. If$\begin{array} { r } { D ( \hbar ) = 1 + \sum _ { m > 1 } D _ { m } \hbar ^ { m } } \end{array}$is such an automorphism, it acts on the set of star-products as
+where$D _ { i } : A { \longrightarrow } A$are diferential operators. If$\begin{array} { r } { D ( \hbar ) = 1 + \sum _ { m \geq 1 } D _ { m } \hbar ^ { m } } \end{array}$is such an automorphism, it acts on the set of star-products as
 
 $$
 \star \mapsto \star^ {\prime}, f (\hbar) \star^ {\prime} g (\hbar) := D (\hbar) \big (D (\hbar) ^ {- 1} (f (\hbar)) \star D (\hbar) ^ {- 1} (g (\hbar)), f (\hbar), g (\hbar) \in A [ [ \hbar ] ] .
