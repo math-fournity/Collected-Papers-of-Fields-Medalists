@@ -175,3 +175,11 @@
 - 证据：源 PDF p.023 文本层、页图 `audit/Hironaka_1964_resolution_partI_p023.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p023_generic_local_ring.png` 与 MinerU Markdown 第 363–369 行。本页印刷给出 generic point 处局部环 `O_{X,\bar{x}}`；Markdown 第 367 行写为 `O_{x,\bar{x}}`，把空间标识 X 误为小写 x。章节题名中的 `Main theorem I`、generic point 横线及其余域扩张记号与原页相符。
 - 备注：印刷运行页眉和页码 130 未录入 Markdown，属导航元素省略。
 - 结论：局部环空间下标误录大小写，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.024 / 96（印刷 p.131）— FAIL
+
+- 时间：2026-10-02 00:47 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.024 文本层、页图 `audit/Hironaka_1964_resolution_partI_p024.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p024_references.png` 与 MinerU Markdown 第 369、373 行。脚注 [16] 印刷书名为 `Faisceaux algébriques cohérents`，Markdown 第 373 行写成 `Faisceaux algebrigues cohérents`，重音和字母次序均不符；需按此页书名修复。方程/域扩张段的符号对应原页。
+- 源级 print quirk：同一页正文印刷拼作 `conicides`；Markdown 忠实保留此拼法，不按英语惯用拼法订正。
+- 备注：印刷运行页眉和页码 131 未录入 Markdown，属导航元素省略。
+- 结论：参考文献 [16] 书名发生 OCR 误录，列为 FAIL；源级正文拼写 quirk 保留。
