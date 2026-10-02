@@ -72,11 +72,11 @@ Im zweiten Hilfssatz kann man besonders für  $\gamma$  die Randkurve C von  $W_
 
 Wenn eine berandete Fläche  $W_{0}$  durch endlich viele Querschnitte von der Gesamtlänge L in zwei Teile zerlegt wird, so zerfällt der Rand in Teile, deren Längen  $\lambda'$  und  $\lambda''$  der Bedingung
 
-genügen.
-
 $$
 \operatorname{Min} \left(\lambda^ {\prime}, \lambda^ {\prime \prime}\right) \leq k ^ {\prime} L
 $$
+
+genügen.
 
 ## § 2. Metrische Eigenschaften der Überlagerungsfläche.
 

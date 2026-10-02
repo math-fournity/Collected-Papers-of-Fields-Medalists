@@ -50,4 +50,15 @@
 - 与 Luna 旧记录交叉：旧 p.3 修复（δ/2、S(Δ)、数字 1、重复负号）经本次原页重核均与印刷一致；本次新发现并修复上标索引与游离碎片两项。
 - 结果：PASS±（两处内容级修复后与印刷一致）。
 
+### p.004（PDF p.4 / 印刷 p.160）
+
+- audited_at=2026-10-02 15:15 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p004.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p004_formel_300dpi.png`。
+- 核对：页眉（160 / Lars Ahlfors.）、页首续句（gezogen.…λ<k′L…U_P abhängt.）、Hilfssatz 2 陈述与公式 `Min(λ′,λ″)≦k′L,`、beweis 一句、编号段 4（Verdoppelung、relativ zu W₀ geschlossen）、Randkurve C 段、页末 formuliert 结果（…der Bedingung / Min(λ′,λ″)≦k′L / genügen.）。
+- 发现并修复（MD 结构化 Edit，1 处）：**公式错位**——印刷顺序「…deren Längen λ′ und λ″ der Bedingung / [公式 Min(λ′,λ″)≦k′L] / genügen.」，MD 原把整段 display 公式放在「genügen.」之后（原行 73→75→77-79），已按印刷顺序移回 Bedingung 与 genügen. 之间。
+- 看不清登记（不改）：页末公式 k′L 之后有一极淡的低位小点，300dpi 裁片不能判定为句号还是印刷污点（glyph 类别 UNKNOWN）；MD 现无句号，维持原状，待后续更高分辨率仲裁。
+- 保留登记（PASS± 排版级，不修）：Hilfssatz 2 陈述、relativ zu、页末结果整段及 Randkurve C 的斜体在 MD 中系统性丢失。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.4 行，本页公式错位系旧审计遗留未检出的结构缺陷，本次修复。
+- 结果：PASS±（公式语序修复后与印刷一致；斜体缺失与公式末存疑小点登记保留）。
+
 <!-- redo-tail -->
