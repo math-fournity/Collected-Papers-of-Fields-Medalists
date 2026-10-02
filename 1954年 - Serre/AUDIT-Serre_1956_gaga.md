@@ -227,6 +227,13 @@
 - Checked: the G×G action on G, Proposition 16 proof, nonabelian H^0/H^1 notation, and Propositions 17–18.
 - Result: FAIL. The print action is (g,g')·h = g h g'^{-1}; Markdown line 787 has g h g^{-1}. The print uses H^1(X,G) and H^1(X^h,G^h); Markdown line 792 has H' in both exponents. The vector-sheaf criterion ends with F^h isomorphic to M, while line 802 has A. Proposition 17's sentence omits the symbol epsilon, but the immediately preceding sentence identifies the map, so that omission is non-misleading and recorded PASS±.
 
+### PDF p.033/43 — print p.32
+
+- Reviewed: 2026-10-01 20:43 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi H^1 divisor-class crop](audit/300dpi/Serre_1956_gaga_p033_H1-divisors_300dpi.png); PDF text layer and MinerU Markdown lines 804–812.
+- Checked: completion of Proposition 18, the GL_1/C* remark, the divisor-class statement, and the setup for Proposition 19.
+- Result: FAIL. The print identifies the divisor-class group as H^1(X,G); Markdown line 806 has H'(X,G). The crop confirms superscript 1. The surrounding group and divisor statements agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
