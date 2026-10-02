@@ -355,3 +355,15 @@
 - 源级文字瑕疵：按原图保留短语 “which identity on subspace A^r”；其英文语法不完整，不据语法推测改写为另一种印刷表述。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核矩阵维数、`Hom`、投影和拓扑商。
 - 记录：2026-10-02 02:52:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.035（PDF p.35 / 纸面圈号 35）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p035.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p035_example.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p035_product-formula.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p035_bottomline-and-margin.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p035_riemannia-source-spelling.png`。
+- 核对：向量丛短正合列分裂的说明；`\mathbb F_p` 例子及同调中的 p-torsion；块和 `GL_p×GL_q→GL_{p+q}`、Whitney sum 与稳定同调乘法图。
+- 结果：**FAIL**。
+- 印刷证据与差异：300dpi 例子裁片确认原图是 `GL_1=\mathbb F_p^*`，基线第 1283 行误作 `SL_1`；下一行原图是 `H_0(G_n)` 对无穷多个 `n` 有 p-torsion，基线第 1287 行把对象写成 `G_1`。原图第 1301 行写 `Whitney sum`，基线写成 `Whitney sun`。乘法图裁片显示 Künneth 张量项与块和诱导映射，并含后续相容图；基线第 1312 行把 `H_*` 误成 `H_x`、张量号变成 `≈`，且把 `GL_q` 识成 `GL_b`；第 1315、1318、1322 行把图中的映射/指标拆成 `M_{119}`、`GL_{p-q}` 和 `GL_{\rho\mu}` 等无法对应原图的碎片。对应的下方与边注也未保留成可读图式。
+- 原文拼写 quirk：300dpi 拼写裁片显示手稿写作 “Riemannia”；基线第 1281 行为 “Riemania”，少一个 `n`。修复时忠实保留手稿拼法，不规范化为标准拼写 “Riemannian”。
+- 页面边界待续核：本页底部另有关于稳定同调乘积/环结构的手写句；Markdown 在乘法图碎片之后转入 “Return to Theorem”，而第 1352 行稍后出现相关稳定同调句，待下一页核对时确认是否为本句错位转录并回修本页记录。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按上述裁片重建 `GL_1`、`G_n` 与稳定同调乘法/相容图，保留原稿拼写。
+- 记录：2026-10-02 03:01:15 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
