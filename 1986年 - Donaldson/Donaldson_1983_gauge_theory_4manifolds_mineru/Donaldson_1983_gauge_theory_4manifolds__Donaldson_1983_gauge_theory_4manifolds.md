@@ -476,7 +476,7 @@ $$
 
 This position follows straight from the lemma: the second part because the symmetry group  $\Gamma_{A}$  acts on the whole procedure.
 
-Thus just as  $H_{A}^{0}$  detects the reducibility of a connection, the vanishing of the space  $H_{A}^{2}$  signals whether or not 0 is a regular value for  $\Phi$, and so whether or not the moduli space has generic behaviour about A: either a smooth 5-manifold or the quotient of  $H_{A}^{1} \cong C^{3}$  by  $\Gamma_{A} \cong S^{1}$. The 1st eigenvalue  $\mu$  of  $\Delta_{A_{0}} = d_{A_{0}}^{-} d_{A_{0}}^{*}$  on  $\Omega_{-}^{2}(\mathfrak{g})$  in Taubes implicit function theorem (Proposition 5) appears for essentially the same reason. Anticipating here Proposition 18 we can say that the subset  $K \subset M$  of classes where  $H_{A}^{2} \neq 0$  is compact.
+Thus just as  $H_{A}^{0}$  detects the reducibility of a connection, the vanishing of the space  $H_{A}^{2}$  signals whether or not 0 is a regular value for  $\Phi$, and so whether or not the moduli space has generic behaviour about A: either a smooth 5-manifold or the quotient of  $H_{A}^{1} \cong C^{3}$  by  $\Gamma_{A} \cong S^{1}$. The 1st eigenvalue  $\mu$  of  $\Delta_{A_{0}} = d_{A_{0}}^{-} d_{A_{0}}^{*}$  on  $\Omega_{-}^{2}(\mathfrak{g})$  in Taubes implicit function theorem (Proposition 5) appears for essentially the same reason. Anticipating here Proposition 18 we can say that the subset  $K \subset \mathfrak{M}$  of classes where  $H_{A}^{2} \neq 0$  is compact.
 
 ## II.3. Perturbation of the moduli space
 
@@ -485,10 +485,10 @@ For the proof of the main theorem used in §I.2 we have to establish the existen
 This is the formal setting for the perturbation: the group $\mathcal{G} / \pm 1$ acts on the Banach spaces
 
 $$
-L _ {3} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right) \leftrightarrow L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
+L _ {3} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right) \Rightarrow L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
 $$
 
-So we get a pair of bundles, $\mathfrak{E}^3\to \mathfrak{E}^2$ say, over the manifold $\mathfrak{B}^*$, associated to the principal bundle $p^{-1}(\mathfrak{B}^*)$; and the anti-self dual component of the curvature induces a canonical section $\Phi$ of $\mathfrak{E}^2$. The allowable perturbations $\sigma$ are to
+So we get a pair of bundles, $\mathscr{E}^3 \Rightarrow \mathscr{E}^2$ say, over the manifold $\mathfrak{B}^*$, associated to the principal bundle $p^{-1}(\mathfrak{B}^*)$; and the anti-self dual component of the curvature induces a canonical section $\Phi$ of $\mathscr{E}^2$. The allowable perturbations $\sigma$ are to
 
 be smooth sections of $\mathfrak{S}^3$: the “uniform norm” $\| \sigma(A) \|_{L_3^2(A)}$ in the fibre over $[A] \in \mathfrak{B}^*$ is well defined as is the “covariant derivative” $(\nabla \sigma)_A$, a linear map
 

@@ -147,3 +147,15 @@
   - **修复×2**：① 行 421 `$A \in Q$` → `$A \in \mathcal{Q}$`（印刷草书 𝒬）；② 行 429 "interpreted" → "intepreted"（300dpi 确认印刷即漏字母 r 的 **intepreted**，系原刊排印错误；Luna 曾静默改正，按 print quirk 忠实原则复原并登记）。
   - 排版级伪影（登记不改）：Lemma 7 斜体陈述、*regular value* 斜体拍平；"(c.f. [16])" 印刷原样保留。
 - 修复登记：行 421 `Q`→`$\mathcal{Q}$`；行 429 "interpreted"→"intepreted"（依据 `audit-redo/p012.png` + 300dpi 裁片）。
+
+### p.013（PDF p.13 / 印刷 p.291）
+
+- PNG：`audit-redo/p013.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（φ|_{L⁻¹(y₁)} 与 dimension K、H²_A 补空间句、§I.2、Banach 显示式、ℰ³⇒ℰ² 丛对，结论记于本条）
+- 核对：Lemma 7 收尾句；Proposition 8 全文与两个显示式（Z(φ)、Z(φ)/Γ_A≅Z(φ)/S¹、dim_R=6）；"This position" 段；H⁰_A/H²_A 段与 K⊂𝔐 句；节标题 II.3；§I.2 引用句；𝒢/±1 作用与 Banach 显示式；ℰ³⇒ℰ² 丛对句
+- 结果：**PASS±**（含三处修复）。
+  - Proposition 8 两个显示式（含 `dim_{\mathbf{R}}` 与实维数 5/6）、"This position follows straight from the lemma"（印刷原样 quirk，忠实保留）、"Taubes implicit function theorem"（印刷无所有格 's，忠实保留）、`H_A^1\cong C^3`、`\Delta_{A_0}=d_{A_0}^-d_{A_0}^*`、`\Omega^2_-(\mathfrak{g})`、`§I.2`（300dpi 确认罗马 I）均与页图一致。
+  - **印刷 quirk 登记（不改，300dpi 确认）**：① 行 461 `φ|_{L^{-1}(y_1)}`（语义应为 f⁻¹，印刷确为 L）与 "of dimension $K$"（语义应为小写 k，印刷确为大写 K）——均系原刊排印疏忽，md 忠实保留；② 行 477 "This position"（语义疑为 This proposition/result，印刷原样）。
+  - 300dpi 否决两处初读怀疑：行 463 "harmonic space $H_A^2$ as the complement of Im $d_A^-$" 印刷确为上标 2（md 正确，未改）；行 488 Banach 显示式两侧 Sobolev 下标印刷确为 3 与 2、两目标同为 Ω²₋(𝔤)（md 正确，未改）。
+  - **修复×3**：① 行 479 `$K \subset M$` → `$K \subset \mathfrak{M}$`（印刷 Fraktur 𝔐）；② 行 488 显示式箭头 `\leftrightarrow` → `\Rightarrow`（300dpi 确认印刷为双线 ⇒）；③ 行 491 丛对 `$\mathfrak{E}^3\to\mathfrak{E}^2$` → `$\mathscr{E}^3 \Rightarrow \mathscr{E}^2$`，及 "section $\Phi$ of $\mathfrak{E}^2$" → `$\mathscr{E}^2$`（300dpi 确认为草书 ℰ 与双箭头 ⇒，Luna 误作 Fraktur E + 单箭头）。
+  - 排版级伪影（登记不改）：Proposition 8 整段斜体拍平；`C^3` 印刷粗体拍平为正体。
+- 修复登记：行 479 `M`→`$\mathfrak{M}$`；行 488 箭头→`\Rightarrow`；行 491 `\mathfrak{E}`→`\mathscr{E}` 与箭头→`\Rightarrow`（依据 `audit-redo/p013.png` + 300dpi 裁片）。
