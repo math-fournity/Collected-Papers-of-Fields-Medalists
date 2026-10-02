@@ -700,3 +700,14 @@
 - 页面边界：原图 p.65 从 `\gamma`-filtration 局部幂零句续入，页末停在 Lemma 1 证明中的 `\pi E_1\oplus B^m\cong\pi E_1\oplus\pi E\oplus\pi F_1\cong B^m\oplus\pi F_1` 同构链；基线该段后续内容严重碎裂，末端与 p.66 的衔接待下页核对。
 - 修复状态：待 66 页逐页审计完成后，按裁片用 Edit/apply_patch 逐处修复 Adams eigenspace 记号、悬挂/商映射定义和三元组 Lemma 1 及证明，再按扫描件模式复读最终全文。
 - 记录：2026-10-02 05:56:49 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.066（PDF p.66 / 纸面圈号 66）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p066.png`（pngmono 150dpi；本页在该二值渲染中几乎空白）
+- 300dpi 灰度终裁裁片（原始灰度）：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p066_faint-top.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p066_faint-bottom.png`；调色观察副本：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p066_faint-top-contrast.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p066_faint-bottom-contrast.png`（副本将 244–255 灰阶线性映射到 0–255，原始灰度裁片一并保留）。
+- 核对：p.65 Lemma 1 证明的末页衔接、纸面圈号 66、末页手写行迹与 MinerU 文末内容。
+- 结果：**FAIL**。
+- 印刷证据与差异：150dpi pngmono 几乎没有保留本页笔迹；300dpi 原始灰度裁片及其调色观察副本可见圈号 66 与多行很浅的手写公式/证明文字，但字迹仍不足以逐符号可靠判读。该页具体命题、等式和证明收尾标为 `UNKNOWN`，不以邻页内容补写。MinerU 第 2331 行起出现无法连贯解释的 `\bigoplus` / `Q(A_X)` / `\overline{Y}` 碎片，随后转成断裂的公式和变量列表；第 2347–2417 行列出 `a_i=A_i`，末行 2418 又扩成 `b` 指标长串至 `b_{200}`。这些文本与原图有限的淡墨行迹无法建立可信对应，不能据此确认 p.65 证明在本页如何完成。
+- 页面边界与未知：本页是 PDF 最后一页，灰度图中的圈号 66 确认其页码；末页有内容，但扫描对比度不足以判定其准确转录。当前证据只支持“原图有淡墨正文、MinerU 文末块严重损坏”，不支持恢复公式或证明结论。
+- 修复状态：本页不按相邻页数学语境重建；需要更清晰的 p.66 原始扫描/独立同源副本后，才能逐处决定是否修复 MinerU 末段。
+- 记录：2026-10-02 06:09:24 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
