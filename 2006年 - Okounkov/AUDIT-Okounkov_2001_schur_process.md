@@ -197,3 +197,9 @@
 - 核对：§3.1.12 结尾与式 (36)（𝔹_± 二重积分形式，|w|=e^{−τ/2}/|z|=e^{τ/4+χ/2}）、§3.1.13、式 (37)（z(τ,χ)=∫_{−∞}^χ(1−ρ_*(τ,s))ds）、式 (38)（z(τ,χ)=(1/π)∫_0^{π−θ*} s sin s ds/(cos s+cosh(τ/2))）、式 (39)（x/y 坐标）、§3.1.14 开头
 - 结果：PASS±（两处已修复）：① 行 1027 "$\mathtt { B } _ { \pm } ( k , l ; z _ { * } )$"→"$\mathsf { B } _ { \pm } ( k , l ; z _ { * } )$"——p028.png 首行印刷为无衬线 𝔹_±(k,l;z*)，与式 (36) 及 Definition 4 统一（上块移交项①，本页结清）；② 行 1033 句末补句号（p028.png "where the plus sign corresponds to k ≥ 0."）。
 - 备注：印刷 quirk "such as the one in the Figure 3"（多余 the，印刷原样）忠实保留；行 1057 "shown in Figure 7" 后无句号与印刷一致。
+
+## p.029（PDF p.29 / 印刷 p.29）
+- PNG：audit/p029.png（pngmono 150dpi）
+- 核对：Figure 7（limit shape 3D 图与题注，引用 images/page_28_image_0.jpg 存在）、ρ_*(τ,χ)=(1/4π²)∬ du dv/(1+e^{χ/2+τ/4+iu}+e^{χ/2−τ/4+iv})、z(τ,χ)=(1/2π²)∬ ln|1+…| du dv、[3] 参数化 (x,y,z)=(f−2lnA, f−2lnB, f−2lnC)、f(A,B,C) 定义
+- 结果：PASS。全部吻合。
+- 备注：印刷 quirk "is equivalent to following parametrization"（缺 the，p029.png 确认）忠实保留。
