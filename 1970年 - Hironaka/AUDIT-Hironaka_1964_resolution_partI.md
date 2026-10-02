@@ -360,3 +360,10 @@
 - 证据：源 PDF p.049 文本层、页图 `audit/Hironaka_1964_resolution_partI_p049.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p049_theorem_IIprime_indices.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p049_local_rings.png`，并比对 MinerU Markdown 第 797–809 行。Main theorem II′ 的名称、well-ordered sequence 和局部环事实对应原页；但条件 (ii) 印刷写作 `\nu(J_{\lambda,y})`，Markdown 第 801 行为 `\nu(J_{\lambda y})`，遗漏 index λ 与点 y 之间的逗号。
 - 备注：印刷运行页眉和页码 156 未录入 Markdown，属导航元素省略。
 - 结论：局部理想下标分隔符误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.050 / 96（印刷 p.157）— PASS±
+
+- 时间：2026-10-02 03:27 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.050 文本层、页图 `audit/Hironaka_1964_resolution_partI_p050.png`（pngmono 150dpi）与 MinerU Markdown 第 811–815 行。`n' ≤ n` 的界、Theorem I′(n) 归纳链、基础变换诱导的闭子空间和临时重变换过程与原页对应；图像确认文本层压平的帽记和不等号。
+- 备注：印刷运行页眉和页码 157 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
