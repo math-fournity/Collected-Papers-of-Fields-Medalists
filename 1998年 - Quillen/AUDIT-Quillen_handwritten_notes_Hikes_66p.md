@@ -294,3 +294,13 @@
 - 印刷证据与差异：原图推论是 `K_n(A×A')=K_nA×K_nA'`，基线第 1005 行误为 `H_n`。原图第 1001 行对 `BGL(A×A')` 的 plus 构造保持完整 ring-product 括号，基线把括号落在 `A'` 之前。源图 `α⊕β` 的交换共轭发生在 `GL_{n+p}(A)`，基线第 1022 行写成 `GL_{nip}`；归约部分选择的是两份自然数指标的嵌入 `\mathbb N\sqcup\mathbb N→\mathbb N`，而基线第 1024 行压成 `N⊆N→N`，且第 1027 行把交错矩阵条目定义写成 `etc.`，丢失实际映射。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张裁片复核 `K_n`、ring-product 括号和 interleaving map。
 - 记录：2026-10-02 01:54:07 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.029（PDF p.29 / 纸面圈号 29）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p029.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-monoid.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-support.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-intersection.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_homology-action.png`。
+- 核对：embedding `u:N→M` 诱导的 `μ_u`；embedding monoid 到群的平凡同态引理；`BGL(A)^+` 的同调/Whitehead 论证及 `π_1` 识别。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图的诱导映射写作 `μ_u`，基线第 1032 行写为 `μ_*`，丢失它对 `u` 的依赖。原图以分段规则定义 `v_*(u)`（`v_*(u)(vn)=v(un)`，在 `n∉Im(v)` 时固定 `n`）；基线第 1038–1040 行没有还原该定义。基线第 1054–1055 行把同调交换图与“内自同构在 `H_*(BG)` 上诱导恒等”事实串成无法按原图读取的文本；第 1057 行将 `homotopy associative` OCR 成 `2ssociative`，第 1061 行又把 `GL(A)/E(A)` 误为 `BL(A)/E(A)`。原图局部条件照写 `Im(w)∩Im(v)≠∅` 后接 `v_*(u)∘w=w`；作为纸面表述先保留原样，不按推理预期改符号，列入源级 quirk 复核。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；保留原图中上述交集条件的写法并在总评记录。
+- 记录：2026-10-02 02:06:24 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
