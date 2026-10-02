@@ -57,3 +57,9 @@
 - 核对：fermionic observable 段（Definition 2.9、Theorem 2.11）；discrete complex analysis 应用段及引文 [Ken00][Lov04][Ste05][Mer01][BS08]；Acknowledgments 整段（Búzios, Brazil, August 2010 Clay Mathematics Institute Summer School；致谢 Sidoravicius/Benoist/Cimasoni/Hammond；资助 EU Marie-Curie RTN CODY、ERC AG CONFRA、Swiss FNS、RF Government grant 11.G34.31.0026）；§1.1 Organization of the notes 开篇（Section 2/3 概述）；页脚印刷页码 6。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：Acknowledgments 为重导出对账的高风险段（人名地名带重音：Búzios、Stéphane；长资助编号 11.G34.31.0026），文本层与 PNG 双通道逐项一致。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit/p007.png（pngmono 150dpi）
+- 核对：§1.1 续（Section 4–8 概述，含 s-holomorphic/spin-holomorphic 与 Loewner chains 表述）；§1.2 Notations；§1.2.1 Primal, dual and medial graphs——rotated square lattice L 顶点集 e^{iπ/4}Z²、边 [xy]、x ∼ y、primal graphs、boundary ∂G（<4 邻居）、dual graph G⋆ 与 L⋆（无限面不对应对偶点）、medial lattice L◇ 与 medial graph G◇、L◇ 为 L 旋转 1/√2 缩放、black/white faces、L◇ 边绕 black faces 逆时针定向；§1.2.2 Approximations of domains——√2δL 记 L_δ（mesh-size √2δ）、L◇_δ（mesh-size δ）、Ω_δ = Ω ∩ L_δ；页脚印刷页码 7。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷 quirk 登记——"Note that L◇ is" 处菱形上标基线略下沉（PNG 与文本层断行 "vertices of L ◇ / √ corresponding…" 均可见）；√2δ 的根号覆盖范围以 PNG 为准（只盖 2）。重导出对账时 L/L⋆/L◇ 的星号与菱形记号需逐个核对。
