@@ -334,3 +334,12 @@
 - 核对：Theorem 10.9 证明的 adjoint filtration、Theorem 6.6 的 partial-CM-type maps 与 height sum；Theorem 10.10 Step 1–3 及 Galois-closure reduction。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Theorem 10.9 证明中的 `L := det Fil^1_{dR}V` 被录成含波浪号的 `Fil^{\tilde 1}`。由 Theorem 6.6 给出的 map `a_i:(T_x,h_x) → (R_{E_T},r_{\Phi_i})` 漏箭头；Step 2 的 norm map `Nm_{E'/E}:R_{E'} → R_E` 和诱导 Shimura-data map 两处也漏箭头。Step 3 标题 `|\Phi|=1` 的编号 `3` 被录成 `\mathcal B`。300dpi 裁片确认其上标、映射与步骤编号。PASS± 源级印刷瑕疵：`By Theorem 6.6 there there are` 的重复 `there` 被忠实保留；另有 `suficient` 拼写伪影。
+
+## p.038（PDF p.38 / 印刷 p.38）
+- 时间：2026-10-02 01:44:54 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p038.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p038-Step3-combination.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p038-Step4-Theorem10.11.png`
+- 核对：Theorem 10.10 Step 3 的复合域/partial CM type 公式与高度组合；Step 4 的全 CM type 归约和式 (10.4.1)；Theorem 10.11 与式 (10.5.1)。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Step 3 的 Shimura-data map 应由范数 `Nm_{E^{(j)}/E_i}` 诱导，Markdown 写成了 `Nm_{E'/E_i}`，并漏掉 map `(R_{E^{(j)}},\rho_{\Phi^{(j)}}) → (R_{E_i},\rho_{\Phi_i}^{2^{d-1}})` 的箭头。300dpi 裁片确认复合域上标及箭头。式 (10.4.1)、式 (10.5.1) 的表达式与编号均相符。PASS± 源级排印：Theorem 10.11 印作 `S_K(G,x)`（末字母为小写 `x`），MinerU 忠实保留。
