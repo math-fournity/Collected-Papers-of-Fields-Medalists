@@ -397,3 +397,11 @@
 - 核对：Appendix A 开头；定义边界 divisor 与 residue map；Definitions A.1(a)–(d)、Remark A.2(a)–(b) 和 Definition A.3 arithmetic-model data。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：边界 divisor `D_S=\bigcup_{\mu=1}^{c}D_S^\mu` 多出 brevé；residue map `res_\mu:\Omega^1_{\bar X_S/S}\langle D\rangle → \mathcal O_{D_S^\mu/S}` 在 Markdown 丢失映射箭头。Remark A.2(a) 的 `End(E_{C,an})^{End(\nabla_C)}` 被拆成 HTML sub/sup 标签及乱码 `Endp∇Cq`。Definition A.3 首个 triple 中 `\mathcal O_{\bar X_C}(1)` 漏掉基底下标 `C`；(b) 的相应 tuple 又将 `C` 误成 `r`。三张 300dpi 裁片确认 union、箭头、cohomology invariant 与 scheme 下标。PASS± 拼写伪影：`affine` 被录成 `afine`，`differentials` 也有漏字母。
+
+## p.045（PDF p.45 / 印刷 p.45）
+- 时间：2026-10-02 02:22:44 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p045.png`（pngmono 150dpi）
+- 核对：Theorem A.4；Remark A.5；§A.1 的 Theorem A.6、Corollary A.7、Theorem A.8 及 associated-graded 与 Kodaira–Spencer maps。
+- 结果：PASS±。
+- 差异与依据：数学陈述、Hilbert polynomial `P_0(n)`、étale gluing、torsionfree Fontaine–Laffaille conclusion 和 maps 均与印刷相符。PASS± 字面噪声：`Griffiths` 转成 `Grifiths`；Corollary A.7 中 `U_i`-family 被插入额外的数学点号。
