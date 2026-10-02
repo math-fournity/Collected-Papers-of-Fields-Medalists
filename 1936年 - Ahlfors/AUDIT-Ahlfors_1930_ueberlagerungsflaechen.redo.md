@@ -150,4 +150,14 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.11 行；本次发现的 (5′) 双层括号系旧审计未检出项。
 - 页界：本页止于「Für die Teilung」，次页续「der Fläche W gilt…」，衔接正确。
 
+### p.012（PDF p.12 / 印刷 p.168）
+
+- audited_at=2026-10-02 18:05 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p012.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p012_rho0_300dpi.png`。
+- 核对：页眉（168 / Lars Ahlfors.）、页首续句（P=ΣPₙ、K=ΣKₙ、E≦ΣEₙ、E=ΣEₙ−w、Verzweigungszahl）、公式 (6) `ϱ=Σϱₙ+w.`（句点在、\tag{6}）、斜体定理句（Charakteristik einer Überlagerungsfläche…）、Hurwitzsche Relation 段（ϱ=Nϱ₀+w）、节标题 § 4. Der metrisch-topologische Hauptsatz.、编号段 11、引言两段、Metrisch-topologischer Hauptsatz 陈述（ϱ₀、ϱ⁺=grössere der Zahlen ϱ und 0）、公式 (II. 1) `ϱ⁺≧ϱ₀S−kL,`（逗号在、\tag{II. 1} 印刷数字 1 ✓）、wo S… 句。
+- print quirk/同形登记（不改）：印刷「die grössere der Zahlen ϱ und **o**.」末字形为小圆 o 形（300dpi 裁片 `…p012_rho0_300dpi.png`），旧式数字 0 与字母 o 在本字体同形（与 p.008「L = o」同类）；MD「0」为 Luna p.12 修复结果，语义（ϱ 与 0 取大）与全篇读法支持，维持 0 并登记同形异写。
+- Luna 旧修复重核：本页旧表行「点号误识还原为 ρ⁺、字母 o 改为数字 0」——$\stackrel{+}{\varrho}$ 与「0」经原页重核均与印刷判定一致，维持。
+- 结果：PASS±。无内容修复项；定理句斜体丢失登记（系统性）。
+- 与 Luna 旧记录交叉：旧修复内容正确；本次另核 (II. 1) 编号数字 1 正确（p.008 同类问题在本页不存在）。
+
 <!-- redo-tail -->
