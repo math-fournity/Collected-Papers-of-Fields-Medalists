@@ -233,3 +233,10 @@
 - 源级 print quirk：MAIN THEOREM I* 的条件 (b) 在印刷中写成 `X_r`，虽周围索引为 `i`；Markdown 同样写 `X_r`，忠实保留原页，不擅自改成 `X_i`。
 - 备注：印刷运行页眉与页码 138 未录入 Markdown，属导航元素省略。
 - 结论：定理编号误录列为 FAIL；条件 (b) 的 X_r 保留并列入源级 quirk。
+
+### PDF p.032 / 96（印刷 p.139）— FAIL
+
+- 时间：2026-10-02 01:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.032 文本层、页图 `audit/Hironaka_1964_resolution_partI_p032.png`（pngmono 150dpi）与 MinerU Markdown 第 515–519 行。proper rational application 的图像投影条件、domain of definition、复合条件及 elimination-of-indeterminacy 问题均相符；但 Markdown 第 517 行写作 `these exists a unique morphism`，印刷为 `there exists a unique morphism`，是可见正文转录错误，待全文审完后手工修复。
+- 备注：印刷运行页眉与页码 139 未录入 Markdown，属导航元素省略。
+- 结论：正文出现词汇误录，列为 FAIL。
