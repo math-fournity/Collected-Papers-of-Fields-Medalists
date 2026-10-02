@@ -282,3 +282,11 @@
 - 证据：源 PDF p.038 文本层、页图 `audit/Hironaka_1964_resolution_partI_p038.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p038_sheaf_indices.png` 与 MinerU Markdown 第 595–609 行。印刷第 601 行引用 `main theorem I`，Markdown 写作 `main theorem 1`；Corollary 2 证明第 607 行印作 `O_x`-modules，Markdown 写为 `O_X`-modules。300dpi 裁片确认此处是小写 x。其余 direct-image 和 quotient-sheaf 语句与原页对应。
 - 备注：印刷运行页眉与页码 145 未录入 Markdown，属导航元素省略。
 - 结论：定理编号和结构层下标各有误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.039 / 96（印刷 p.146）— PASS±
+
+- 时间：2026-10-02 02:21 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.039 文本层、页图 `audit/Hironaka_1964_resolution_partI_p039.png`（pngmono 150dpi）与 MinerU Markdown 第 609–630 行。Corollary 3 的复合中心、约化总变换和法向交叉条件，以及 Zariski space 的定义/两条相容性质与原页对应；页图核验了文本层丢失的上划线和函子符号。
+- 源级 print quirk：Corollary 3 后的段落写“assumption of Corollary 2”；Markdown 保留该交叉引用，不按上一段推改为 Corollary 3。
+- 备注：印刷运行页眉和页码 146 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现 Markdown 内容差异；记录印刷交叉引用 quirk，并因页眉/页码省略记为 PASS±。
