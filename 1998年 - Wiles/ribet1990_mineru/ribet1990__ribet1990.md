@@ -153,7 +153,7 @@ A variant. 471
 
 Let $p$ be a prime. Consider a curve $C$ over a $p$-adic field $K$ of characteristic 0, with residue field $k$ of characteristic $p$. Denote by $P$ the Jacobian $\operatorname{Pic}^0(C)$ of $C$. We recall in a special case some relations between the special fiber of the Néron model of $P$ and the special fibers of suitable models of $C$. These relations are based on work of [24]. They are discussed in [11], §12 and in the appendix to [18].
 
-Suppose first that C is the regular minimal model of C over the integer ring of K. Suppose that the greatest common divisor of the multiplicities of the irreducible components of  $C_{k}$  is 1. Let  $P_{k}$  be the special fiber of the Néron model of P and let  $P^{0} = (P_{k})^{0}$  be the connected component of 0 in this special fiber.
+Suppose first that $\mathcal{C}$ is the regular minimal model of $C$ over the integer ring of K. Suppose that the greatest common divisor of the multiplicities of the irreducible components of $\mathcal{C}_k$ is 1. Let  $P_{k}$  be the special fiber of the Néron model of P and let  $P^{0} = (P_{k})^{0}$  be the connected component of 0 in this special fiber.
 
 As explained in [11], §12, the results of [24] imply that there is a canonical isomorphism
 
@@ -161,21 +161,21 @@ $$
 P ^ {0} \approx \operatorname{Pic} ^ {0} (\mathcal {C} _ {k}),
 $$
 
-cf. [11], (12.1.12). Assume, moreover, that all singular points of the curve  $C_{k}$  are ordinary double points (i.e., have local equation xy = 0). Then  $P^{0}$  is a semiabelian scheme over k, i.e., an extension of an abelian variety A by a torus. More precisely, write the normalization of  $C_{k}$  as a disjoint union of non-singular curves  $D_{j}$ . The normalization map  $\cup D_{j} \to C_{k}$  induces a surjection
+cf. [11], (12.1.12). Assume, moreover, that all singular points of the curve $\mathcal{C}_k$ are ordinary double points (i.e., have local equation xy = 0). Then  $P^{0}$  is a semiabelian scheme over k, i.e., an extension of an abelian variety A by a torus. More precisely, write the normalization of $\mathcal{C}_k$ as a disjoint union of non-singular curves $\mathcal{D}_{j}$. The normalization map  $\cup \mathcal{D}_{j} \to \mathcal{C}_{k}$  induces a surjection
 
 $$
-\operatorname{Pic} ^ {0} \left(\mathscr {C} _ {k}\right)\rightarrow \prod_ {j} \operatorname{Pic} ^ {0} \left(D _ {j}\right) = A,
+\operatorname{Pic} ^ {0} \left(\mathscr {C} _ {k}\right)\rightarrow \prod_ {j} \operatorname{Pic} ^ {0} \left(\mathcal{D} _ {j}\right) = A,
 $$
 
 whose kernel T is a torus which may be described explicitly in view of [EGA IV], 21.8.5.
 
-The description, which is well known, is most compactly expressed in terms of the “dual graph” G attached to  $C_{k}$ . This is the unoriented graph with the following definition:
+The description, which is well known, is most compactly expressed in terms of the “dual graph” $\mathcal{G}$ attached to $\mathcal{C}_k$. This is the unoriented graph with the following definition:
 
 \- The set of vertices of $\mathcal{G}$ is the set $\mathcal{T}$ of irreducible components of $\mathcal{C}_k$.
 
-\- The set of edges of $\mathcal{G}$ is the set $\mathcal{I}$ of singular points of $\mathcal{C}_k$.
+\- The set of edges of $\mathcal{G}$ is the set $\mathcal{S}$ of singular points of $\mathcal{C}_k$.
 
-\- The edge corresponding to a singular point $i \in \mathcal{I}$ connects the two vertices corresponding to the two components of $\mathcal{C}_k$ which meet at $i$.
+\- The edge corresponding to a singular point $i \in \mathcal{S}$ connects the two vertices corresponding to the two components of $\mathcal{C}_k$ which meet at $i$.
 
 Proposition 2.1 (cf. [11], (12.3.7)). There is a canonical isomorphism
 
@@ -191,13 +191,13 @@ $$
 
 where $X = X(T)$ is the character group of $T$.
 
-To calculate  $H_{1}(\mathcal{G}, \mathbf{Z})$ , we first consider the bouquet G of circles obtained by collapsing to a single point all vertices of G. The map  $G \to G$  induces an inclusion
+To calculate  $H_{1}(\mathcal{G}, \mathbf{Z})$ , we first consider the bouquet $\bar{\mathcal{G}}$ of circles obtained by collapsing to a single point all vertices of $\mathcal{G}$. The map  $\mathcal{G} \to \bar{\mathcal{G}}$  induces an inclusion
 
 $$
 X = H _ {1} (\mathcal {G}, \mathbf {Z}) \rightarrow H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}).
 $$
 
-For each  $i \in I$ , choose an orientation of the corresponding edge of G, i.e., an
+For each  $i \in \mathcal{S}$ , choose an orientation of the corresponding edge of $\mathcal{G}$, i.e., an
 
 ordering  $\{j_{1}(i), j_{2}(i)\}$  of the two components which pass through i. The resulting orientation of the edges of  $\bar{G}$  determines an isomorphism
 

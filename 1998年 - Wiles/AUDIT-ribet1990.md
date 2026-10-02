@@ -47,3 +47,12 @@
 - PNG：`audit/ribet1990_p005.png`（pngmono，150 dpi）。
 - 核对：Summary 后半（Cebotarev Density Theorem——印刷原拼无重音，MD 一致忠实保留；§8 Mpq→Mq 路线；MSRI 致谢、Lemma 6.2/Fontaine/Messing；Henniart、Oesterlé、Livné 重音正确；NSF/Vaughn Foundation）；Contents 全部 16 条节名与页码（1.Introduction 431/The Main Theorem 431/Summary 433/2.Picard-Lefschetz 435/Admissible Curves 437/3. 438/X 443/Old and new 446/Φ 448/X_0(pqM) 451/4. 456/5. 465/6. 469/A variant 471/7. 471/8. 473）✓ 与印刷逐条一致。
 - 结果：PASS。
+
+## p.006（PDF p.6 / 印刷 p.435）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:28 -0400。
+- PNG：`audit/ribet1990_p006.png`（pngmono，150 dpi）；仲裁裁片：`audit/300dpi/ribet1990_p006_suppose.png`、`audit/300dpi/ribet1990_p006_bullets.png`、`audit/300dpi/ribet1990_p006_foreach.png`（pnggray，300 dpi）。
+- 核对：§2 节标题；¶1（p-adic 域 K/剩余域 k/P=Pic⁰(C)/[24],[11] §12,[18] 附录）；P⁰≈Pic⁰(𝒞_k)（(12.1.12)）；半阿贝尔扩张与归一化 surjection（[EGA IV], 21.8.5）；对偶图三要点；Proposition 2.1（cf. [11], (12.3.7)）T ≈ H¹(𝒢, Z) ⊗ G_m；X ≈ H₁(𝒢, Z)；段尾接下页 ✓。
+- 发现并当场修复（Fraktur 拍平/误植，均为记号级内容错误；依据 300 dpi 裁片与 150 dpi 页图）：①L156 "C is the regular minimal model of C"→"𝒞 is the regular minimal model of C"，同行 C_k→𝒞_k；②L164 曲线 𝒞_k 两处、𝒟_j、映射 ∪𝒟_j→𝒞_k；③L167 行间公式 Pic⁰(D_j)→Pic⁰(𝒟_j)；④L172 对偶图 G→𝒢、C_k→𝒞_k；⑤L176/178/200 奇异点集合 \mathcal{I}→𝒮（300 dpi 确证印刷为花体 S）；⑥L194 bouquet G→𝒢̄、G→𝒢、映射 G→G→𝒢→𝒢̄；⑦L200 边所属 G→𝒢。
+- 印刷原文 quirk：归一化映射印刷即为 "∪ 𝒟_j"（用 ∪ 表不相交并），MD 原有 \cup 忠实保留，不改为 ⨿/⊔。
+- 备注：P_k、P⁰ 印刷为粗斜体，MD 拍平为普通斜体（字母正确，排版级，登记不改）；𝒞_k 在 L161 作 \mathcal{C}_k、L167 作 \mathscr{C}_k，为 mineru 既有混排（均指同一花体字形，不误导，保留现状）。
+- 结果：FAIL（8 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
