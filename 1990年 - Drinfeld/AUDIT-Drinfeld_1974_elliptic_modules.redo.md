@@ -73,3 +73,10 @@
   2. 例子（MD 行 255）：印刷为 "one can take any element of the form **(x)** + Σ_{j=1}^d a_j τ^{j log_p q}"——无 φ（同句 "In place of φ(x)" 对照；300dpi 确认）。原 mineru 忠实，Luna 补入 φ 违反印刷；已 Edit 回退为 `$(x) + \sum\ldots$`。**erratum 登记**：数学上应为 φ(x)，印刷脱落 φ，按原样保留。
 - 重核 Luna 修复（其余，均相符）：1.7(c) 的 h²/1/h、`τ^{log_p q}`；§2A 的 `τ^i`（原 r^i）、`D(Σ_0^n b_iτ^i)=b_0`；Prop 2.1(b) 首式 `deg φ(a)·deg φ(b)` 的中点与印刷一致；例子中 `τ^{j log_p q}`（log_p 真下标）。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 567" 未收。
+
+## p.008（PDF p.8 / 印刷 p.568）
+
+- PNG：audit-redo/p008.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p008_prop23b.png（Prop 2.3(b) 指数）、…_p008_qexp600.png
+- 核对：Prop 2.2 结论（|a|^d、i(a)≠0、 torsion ⊕(K_ν/A_ν)^{j_ν}、j_ν<d）、证明、Corollary、formal A-module remark（d−j_ν）、§2C isogeny 定义（αφ(a)=ψ(a)α）、Prop 2.3 a)/b) 及证明（uφ(a)=ψ(a)u、D(ψ(a))=[i(a)]^n、i(aⁿ)=i(a)）、Corollary、Prop 2.4 陈述与 proof 1) 开头。
+- 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复：`(K_ν/A_ν)^{j_ν}` 上标 j_ν、证明 `j_ν`、Prop 2.3(b) `t^{q^b}`（300dpi 确认指数为单闭碗 **b**，非 h——Luna 此处记号判断正确；与本文 height 通篇用 h 的不一致系印刷原样，quirk 登记）均忠实保留。
+- 另记（PASS± 级伪影，不改）：页眉 "568 V. G. DRINFEL'D" 未收。
