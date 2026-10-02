@@ -55,3 +55,16 @@
   "different"）不符 → 已修为 "different"
 - 结果：PASS（修复后）
 
+## p.005（PDF p.5 / 印刷 p.1021：Lemma 2.1 证明的围道平移 + quasimodularity 链 + (2.6)）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：八条围道积分等式（∫_{−1}^{i∞−1}/∫₀^{i∞}/∫₁^{i∞+1} → 拆分为 ∫_{−1}^{i}+∫_i^{i∞} 等，
+  被积函数 φ(−1/(z+1))(z+1)¹⁰ / φ(−1/z)z¹⁰ / φ(−1/(z−1))(z−1)¹⁰ 与 e^{πir²z} 逐项一致）、
+  quasimodularity 链 φ(−1/(z+1))(z+1)¹⁰−2φ(−1/z)z¹⁰+φ(−1/(z−1))(z−1)¹⁰
+  = φ(z+1)(z+1)²−2φ(z)z²+φ(z−1)(z−1)² + φ₁/φ₂ 三行 → = 2φ(z)、
+  (2.6) a(r)=∫_{−1}^i+∫₁^i−2∫₀^i+2∫_i^{i∞}φ(z)e^{πir²z}dz（tag 2.6 位置正确）、
+  Proposition 2/Proposition 1 of [12] 引用、Schwartz 衰减段 ✓
+- 差异与修复：md "sufices" 与印刷原文（文本层+PNG 均为 "suffices"）不符 → 已修为 "suffices"；
+  另 "neighborhood ofR" 空格合并为排版伪影，登记不改
+- 结果：PASS（修复后）
+
+

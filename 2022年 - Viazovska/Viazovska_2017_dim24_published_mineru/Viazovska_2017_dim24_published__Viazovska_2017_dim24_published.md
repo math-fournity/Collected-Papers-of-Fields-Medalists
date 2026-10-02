@@ -151,7 +151,7 @@ $$
 \begin{array}{r l} & {a (r) = \int_ {- 1} ^ {i} \varphi \Bigl (- \frac {1}{z + 1} \Bigr) (z + 1) ^ {1 0} e ^ {\pi i r ^ {2} z} d z} \\ & {\qquad + \int_ {1} ^ {i} \varphi \Bigl (- \frac {1}{z - 1} \Bigr) (z - 1) ^ {1 0} e ^ {\pi i r ^ {2} z} d z} \\ & {\qquad - 2 \int_ {0} ^ {i} \varphi \Bigl (- \frac {1}{z} \Bigr) z ^ {1 0} e ^ {\pi i r ^ {2} z} d z + 2 \int_ {i} ^ {i \infty} \varphi (z) e ^ {\pi i r ^ {2} z} d z,} \end{array}\tag{2.6}
 $$
 
-which gives the analytic continuation of a to a neighborhood of R by (2.3) and (2.4). Essentially the same estimates as in Proposition 1 of [12] show that it is a Schwartz function. Specifically, the exponential decay of$\varphi ( z )$as the imaginary part of z tends to infinity sufices to bound all the terms in (2.6), which shows that a and all its derivatives decay exponentially.
+which gives the analytic continuation of a to a neighborhood of R by (2.3) and (2.4). Essentially the same estimates as in Proposition 1 of [12] show that it is a Schwartz function. Specifically, the exponential decay of$\varphi ( z )$as the imaginary part of z tends to infinity suffices to bound all the terms in (2.6), which shows that a and all its derivatives decay exponentially.
 
 Taking the 24-dimensional radial Fourier transform commutes with the integrals in (2.6) and amounts to replacing$e ^ { \pi i r ^ { 2 } z }$with$z ^ { - 1 2 } e ^ { \pi i r ^ { 2 } ( - 1 / z ) }$. Therefore,
 
