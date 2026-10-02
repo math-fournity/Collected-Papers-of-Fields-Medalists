@@ -224,3 +224,11 @@
 - 核对：(L = 11) 括注、th. 2 证明收尾（L = 23：±2 ou ±6 ≡ 4 mod p、p ⩾ 7；L ≠ 23：0 ou ±4 ≡ ±1, ±2 ou ±3 mod p、p ⩾ 11）、Remarques (1)（p = L 时 k = p + 1、N = 2、(3.2.4?)）、(2)（p = 5/7、Dénes [12]）、(3)（L = 31 Mersenne、ρ_p^E、F = q + q² + q⁴ − 2q⁵ + q⁸ + … niveau 62、a⁵ + b⁵ + 31c⁵ = 0 解 (1, −2, 1)、y² = x(x+1)(x−32)、courbe de Weil）、15c^p 与 3b^p + 5c^p 方程（N = 30）、(4) Mazur 结果开头（L 非 Fermat 非 Mersenne、2^n ± 1 跨页）。
 - 结果：FAIL。一处已依原图修复：Mazur 结果的引用 Markdown 写成 “(3.3.1$_{2}$)”（下标 2），印刷为 (3.3.1_?)（问号下标，同 p.196 quirk），修为 (3.3.1$_{?}$)。
 - 备注：本段引用 Markdown 用 $_{?}$ 下标形式、他处用平排 “(3.2.4?)”，形式不一但语义同为问号下标，排版级；“Mersenne–cf.” 印刷为 en-dash 连接，Markdown 用连字符，排版级；“1 5 c^p” 数字空格排版级；页眉 “204 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…ne peut pas s'écrire sous la forme”，“2^n ± 1)” 句属印刷 p.205。
+
+## p.027（PDF p.27 / 印刷 p.205）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p027.png`（pngmono，150 dpi）。
+- 核对：Mazur 结果余部（C_L、a^p + b^p + L^α c^p = 0、abc ≠ 0、conducteur 2L 段）、4.4 节标题（Brumer-Kramer [6] §9）、PROPOSITION 7（|Δ| p-ème 幂、p ⩽ 7）、p = 2 段（𝔖₃/𝔄₃、[6] prop. 9.2、Mazur [29] th. 4、(N,k,ε) = (1,2,1)、niveau 1 矛盾）、PROPOSITION 8（Δ = ±P^m、Setzer-Neumann、P = 11,17,19,37）、m > 1 段（[33],[50]、P = 17、Miyawaki [32]、P = 11 / 19 ou 37）、4.5 节标题（p ⩾ 3）、THÉORÈME 3 与三选项式（Z/pZ ⊕ Z/pZ、Z/pZ ⊕ μ_p、μ_p ⊕ μ_p）。
+- 结果：PASS±。一处已依原图修复：THÉORÈME 3 引用处 Markdown 写成 “Admettons (3.3.1?), Tout schéma…”（句号误作逗号、逗号后大写），印刷为 “(3.3.1_?). Tout schéma…”，修为句号。其余文字、引用与公式逐项吻合。
+- 备注：引用编号 (3.3.1_?) 的问号下标沿用已登记 quirk；𝔖₃/𝔄₃ Fraktur 记号 Markdown 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 205” 未收入 Markdown，排版级。印刷页止于三选项式，“Soit J un schéma…” 段属印刷 p.206。

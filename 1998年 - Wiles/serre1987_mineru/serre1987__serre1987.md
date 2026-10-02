@@ -1162,7 +1162,7 @@ Supposons $m > 1$. Il existe alors un nombre premier $p$ qui divise $m$, et l'on
 
 4.5. Schémas en groupes de type  $(p, p)$  sur Z. Soit p un nombre premier  $\geqslant 3$ .
 
-THÉORÈME 3. Admettons (3.3.1?), Tout schéma en groupes fini et plat sur Z, de type (p, p), est alors isomorphe à l'un des trois suivants:
+THÉORÈME 3. Admettons (3.3.1?). Tout schéma en groupes fini et plat sur Z, de type (p, p), est alors isomorphe à l'un des trois suivants:
 
 $$
 \mathbf {Z} / p \mathbf {Z} \oplus \mathbf {Z} / p \mathbf {Z}, \quad \mathbf {Z} / p \mathbf {Z} \oplus \mu_ {p}, \quad \mu_ {p} \oplus \mu_ {p}.
