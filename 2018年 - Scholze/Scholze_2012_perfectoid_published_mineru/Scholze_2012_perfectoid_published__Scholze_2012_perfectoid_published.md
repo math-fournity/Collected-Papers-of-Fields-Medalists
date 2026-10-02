@@ -706,7 +706,7 @@ Fix a perfectoid field K. Let${ \mathfrak { m } } = { \mathrm { K } } ^ { \circ 
 
 Definition 4.1. — Let M be a K<sup>◦</sup>-module. An element$x \in \mathbf { M }$is almost zero if$\mathfrak { m } x = 0$. The module M is almost zero if all of its elements are almost zero; equivalently,$\mathfrak { m } \mathbf { M } = 0$.
 
-Lemma 4.2. — Thefull subcategory ofalmost zero objects in$\mathrm { K } ^ { \circ }$-mod is thick.
+Lemma 4.2. — The full subcategory of almost zero objects in$\mathrm { K } ^ { \circ }$-mod is thick.
 
 Proof. — The only nontrivial part is to show that it is stable under extensions, so let
 
@@ -714,7 +714,7 @@ $$
 0 \to \mathrm{M} ^ {\prime} \to \mathrm{M} \to \mathrm{M} ^ {\prime \prime} \to 0
 $$
 
-be a short exact sequence of$\mathrm { K } ^ { \circ }$-modules, with$\mathrm { \ m M ^ { \prime } = m M ^ { \prime \prime } = 0 }$. In general, one gets that$\mathfrak { m } ^ { 2 } \mathbf { M } = 0$. But in our situation,${ \mathfrak { m } } ^ { 2 } = { \mathfrak { m } }$, so M is almost zero.-
+be a short exact sequence of$\mathrm { K } ^ { \circ }$-modules, with$\mathfrak { m } \mathrm { M } ^ { \prime } = \mathfrak { m } \mathrm { M } ^ { \prime \prime } = 0$. In general, one gets that$\mathfrak { m } ^ { 2 } \mathbf { M } = 0$. But in our situation,${ \mathfrak { m } } ^ { 2 } = { \mathfrak { m } }$, so M is almost zero.□
 
 We note that there is a sequence of localization functors
 
@@ -722,9 +722,9 @@ $$
 \mathrm{K} ^ {\circ} \text {-mod} \rightarrow \mathrm{K} ^ {\circ} \text {-mod} / (\mathfrak {m} \text {-torsion}) \rightarrow \mathrm{K} \text {-mod}.
 $$
 
-Their composite is the functor of passing from an integral structure to its generic fibre. In this sense, the category in the middle can be seen as a slightly generic fibre, or as an almost integral structure. It will turn out that in perfectoid situations, properties and objects over the generic fibre will extend automatically to the slightly generic fibre, in other words the generic fibre almost determines the integral level. It will be easy to justify this philosophy if K has characteristic$\beta ,$by using the following argument. Assume that some statement is true over K. By using some finiteness property, it follows that there is some big N such that it is true up to$\varpi ^ { \mathrm { N } }$-torsion. But Frobenius is bijective, hence the property stays true up to$\varpi ^ { \mathrm { N } / { p } } \mathrm { - t o r s i o n }$. Now iterate this argument to see that it is true up to$\dot { \varpi } ^ { \mathrm { N } / \dot { p ^ { m } } }$-torsion for all$m ,$i.e. almost true.
+Their composite is the functor of passing from an integral structure to its generic fibre. In this sense, the category in the middle can be seen as a slightly generic fibre, or as an almost integral structure. It will turn out that in perfectoid situations, properties and objects over the generic fibre will extend automatically to the slightly generic fibre, in other words the generic fibre almost determines the integral level. It will be easy to justify this philosophy if K has characteristic$p$, by using the following argument. Assume that some statement is true over K. By using some finiteness property, it follows that there is some big N such that it is true up to$\varpi ^ { \mathrm { N } }$-torsion. But Frobenius is bijective, hence the property stays true up to$\varpi ^ { \mathrm { N } / { p } } \mathrm { - t o r s i o n }$. Now iterate this argument to see that it is true up to$\varpi ^ { \mathrm { N } / p ^ { m } }$-torsion for all$m$, i.e. almost true.
 
-Following these ideas, our proof of Theorem 3.7 will proceed as follows, using the subscript fet to denote categories of finite étale (almost) algebras.´
+Following these ideas, our proof of Theorem 3.7 will proceed as follows, using the subscript fét to denote categories of finite étale (almost) algebras.
 
 $$
 \mathrm{K} _ {\mathrm {f \acute {e} t}} \cong \mathrm{K} _ {\mathrm {f \acute {e} t}} ^ {\circ a} \cong \left(\mathrm{K} ^ {\circ a} / \varpi\right) _ {\mathrm {f \acute {e} t}} = \left(\mathrm{K} ^ {\flat \circ a} / \varpi^ {\flat}\right) _ {\mathrm {f \acute {e} t}} \cong \mathrm{K} _ {\mathrm {f \acute {e} t}} ^ {\flat \circ a} \cong \mathrm{K} _ {\mathrm {f \acute {e} t}} ^ {\flat}.
@@ -732,23 +732,23 @@ $$
 
 Our principal aim in this section is to define all intermediate categories.
 
-Definition 4.3. — Define the category ofalmost$\mathrm { K } ^ { \circ }$-modules as
+Definition 4.3. — Define the category of almost$\mathrm { K } ^ { \circ }$-modules as
 
 $$
 \mathrm{K} ^ {\circ a} \text {-mod} = \mathrm{K} ^ {\circ} \text {-mod} / (\mathfrak {m} \text {-torsion}).
 $$
 
-In particular, there is a localization functor$\mathbf { M } \mapsto \mathbf { M } ^ { a }$from$\mathrm { K } ^ { \circ }$-mod to$\mathrm { K } ^ { \circ a }$-mod, whose kernel is exactly the thick subcategory ofalmost zero modules.
+In particular, there is a localization functor$\mathbf { M } \mapsto \mathbf { M } ^ { a }$from$\mathrm { K } ^ { \circ }$-mod to$\mathrm { K } ^ { \circ a }$-mod, whose kernel is exactly the thick subcategory of almost zero modules.
 
-Proposition 4.4 [15, §2.2.2]. — Let M, N be two$\mathrm { K } ^ { \circ } .$-modules. Then
+Proposition 4.4 [15, §2.2.2]. — Let M, N be two$\mathrm { K } ^ { \circ }$-modules. Then
 
 $$
 \operatorname{Hom} _ {\mathrm{K} ^ {\circ a}} \left(\mathrm{M} ^ {a}, \mathrm{N} ^ {a}\right) = \operatorname{Hom} _ {\mathrm{K} ^ {\circ}} (\mathfrak {m} \otimes \mathrm{M}, \mathrm{N}).
 $$
 
-In particular,$\mathrm { H o m } _ { \mathrm { K } ^ { \circ a } } ( \mathrm { X } , \mathrm { Y } )$has a natural structure of$\mathrm { K } ^ { \circ }$-modulefor any two$\mathrm { K } ^ { \circ a }$-modules X and$\mathrm { Y }$. The module$\mathrm { H o m } _ { \mathrm { K } ^ { \circ a } } ( \mathrm { X } , \mathrm { Y } )$has no almost zero elements.
+In particular,$\mathrm { H o m } _ { \mathrm { K } ^ { \circ a } } ( \mathrm { X } , \mathrm { Y } )$has a natural structure of$\mathrm { K } ^ { \circ }$-module for any two$\mathrm { K } ^ { \circ a }$-modules X and$\mathrm { Y }$. The module$\mathrm { H o m } _ { \mathrm { K } ^ { \circ a } } ( \mathrm { X } , \mathrm { Y } )$has no almost zero elements.
 
-For two$\mathrm { K } ^ { \circ a }$-modules$\mathrm { { M } , N , }$we define alHom$\operatorname { ( X , Y ) } = \operatorname { H o m } ( \mathrm { X , Y } ) ^ { a }$
+For two$\mathrm { K } ^ { \circ a }$-modules$\mathrm { { M } , N , }$we define alHom$\operatorname { ( X , Y ) } = \operatorname { H o m } ( \mathrm { X , Y } ) ^ { a }$.
 
 Proposition 4.5$[ I 5 , \{ 2 . 2 . 6 , \ S 2 . 2 . 1 2 \} . - \ T$he category$\mathrm { K } ^ { \circ a }$-mod is an abelian tensor category, where we define kernels, cokernels and tensor products in the unique way compatible with their definition in K<sup>◦</sup>-mod,$e . g .$
 

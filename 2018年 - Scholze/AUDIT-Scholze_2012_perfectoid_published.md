@@ -286,3 +286,15 @@
   6. §4 导语段："neglects m-torsion"→"neglects$\mathfrak m$-torsion"（fraktur，PNG 确认）
   7. Definition 4.1："almost zero$i f\mathfrak m x=0$"（if 入 math）→if 出 math；"ifall ofits"→if all of its；"equivalently, m$\mathbf M=0$"→"equivalently,$\mathfrak m\mathbf M=0$"（m→𝔪）+补句点（p.267 Def 4.1 行）
 - 备注：P/Q 多项式 display 与 K°/ϖ[X]=K^{♭°}/ϖ^♭[X] 均与 print 一致；Lemma 4.2 起行 709 属印刷 p.268，留待 p.024。
+## p.024（PDF p.24 / 印刷 p.268）
+- PNG：audit/p024.png（pngmono 150dpi）
+- 核对：页眉 268/PETER SCHOLZE；Lemma 4.2 thick + Proof（0→M′→M→M″→0 display、𝔪M′=𝔪M″=0、𝔪²=𝔪、QED □）；localization functors display（K°-mod→K°-mod/(𝔪-torsion)→K-mod）；slightly generic fibre 段（ϖ^N/ϖ^{N/p}/ϖ^{N/p^m}-torsion）；fét 约定段；K_fét≅K^{°a}_fét≅(K^{°a}/ϖ)_fét=(K^{♭°a}/ϖ^♭)_fét≅K^{♭°a}_fét≅K^♭_fét display；Definition 4.3 K^{°a}-mod display；M↦M^a 段；Proposition 4.4 [15, §2.2.2]（Hom_{K^{°a}}(M^a,N^a)=Hom_{K°}(𝔪⊗M,N) display）；alHom 定义
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Lemma 4.2："Thefull/ofalmost"补空格（p.268 Lemma 行）
+  2. Proof："with$\mathrm{\ mM′=mM″=0}$"的 m 补 fraktur→$\mathfrak m$（print 𝔪M′=𝔪M″）；"almost zero.-"→".□"（QED）（p.268 Proof 段）
+  3. ϖ^N-torsion 段："characteristic$\beta,$"→"$p$,"；"$\dot\varpi^{\mathrm{N}/\dot{p^m}}$"伪点×2→"$\varpi^{\mathrm{N}/p^m}$"；"for all$m,$"→"$m$,"（p.268 右栏）
+  4. fét 段："subscript fet"→"subscript fét"、句末游离 "´" 删除（p.268 Following these ideas 段）
+  5. Def 4.3 "ofalmost"、M↦M^a 段"ofalmost"补空格（p.268 两行）
+  6. Prop 4.4："two$\mathrm{K}^\circ.$-modules"伪'.$'→$\mathrm{K}^\circ$-modules；"-modulefor"→-module for（p.268 Prop 4.4 行）
+  7. alHom 句：",$we"补空格、句末补句点（p.268 末行）
+- 备注：六个范畴的 display 链与 print 逐字符一致（含 f-acute）；其余段落无差异。
