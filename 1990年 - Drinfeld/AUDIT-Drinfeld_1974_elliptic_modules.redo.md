@@ -16,3 +16,11 @@
 - 重核 Luna 修复：摘要 `GL(2,Q)`（300dpi 确认斜体 GL）、"main result"（无 s）、`d \leq [\overline{k}_{\infty}:k_{\infty}]`、四类 triple、`$\zeta$-functions` 均与页图相符，无 Luna 引入的错误。
 - 另记（PASS± 级伪影，不改）：期刊页眉两行、印刷页码 561、Copyright 行未收；triple 1)/2) 行尾分号在 MD 中脱落。
 - ⚠ 跨页待查（本批次外）：p.018/p.025/p.031 Luna 将 MD 的 `𝔘_f` 改为 `𝔄_f` 的方向与 p.561 记号定义冲突，p.10–32 批次须以原页重裁核定。
+
+## p.002（PDF p.2 / 印刷 p.562）
+
+- PNG：audit-redo/p002.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p002_GLdf.png（GL(d,𝔘_f) 与 Theorem 1 𝔘_f^*）、…_p002_GL2U.png（Theorem 2 2) 与 GL(2,𝔘)）
+- 核对：elliptic A-module of rank d 定义、level I 结构定义、N_I/N=lim← 段、Theorem 1、Theorem 1) 2) 两项、d=1,2 过渡段、B) Outline 至 §9、cusp form 编辑注。
+- 结果：FAIL。adèle 环记号 4 处：MD 行 41 `GL(d,\mathfrak{A}_f)`、行 43 `\mathfrak{A}_f^*`、行 45 `GL(2,\mathfrak{A}_{f})`、行 49 `GL(2,\mathfrak{A})`，印刷均为 Fraktur **𝔘**（U 形，与 p.561 记号定义一致；300dpi 逐处核验）。已 Edit 逐处改为 `\mathfrak{U}_f` / `\mathfrak{U}`。
+- 重核 Luna 修复：Theorem 2 陈述结构（H^1(N̄,Q̄_l)≃⊕_i U_i⊗W_i、U_i=⊗U_i^p、Gal(Q̄_p/Q_p)）、1) 中 L(s,W_i^p)=L(s−1/2,Û_i^p)、2) 中 Hom_{GL(2,R)}(Π,A_0)、P_1(R)、Outline 的 Ω^d/§§1 and 4/[14] 均与页图相符，无 Luna 引入的错误。
+- 另记（PASS± 级伪影，不改）：页眉 "562 V. G. DRINFEL'D" 未收。
