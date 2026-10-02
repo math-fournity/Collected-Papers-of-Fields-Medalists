@@ -431,9 +431,9 @@ $$
 
 i.e., an isomorphism $B \approx \operatorname{End}(E)$ which carries $S$ to $\operatorname{End}(\mathbf{E})$. Moreover, let $\mathbf{E}'$ be such an elliptic curve and let $\kappa'$ be an isomorphism $(S, B) \approx (\operatorname{End}(\mathbf{E}')$, $\operatorname{End}(E')$). Then the pair $(\mathbf{E}', \kappa')$ is isomorphic to either $(\mathbf{E}, \kappa)$ or to $(\mathbf{E}^{(q)}, \kappa^{(q)})$.
 
-[We say that  $(\mathbf{E},\kappa)$  and  $(\mathbf{E}^{\prime},\kappa^{\prime})$  are isomorphic if there is an isomorphism  $E\approx E^{\prime}$  for which the induced isomorphism  $\iota:\operatorname{End}(\mathbf{E})\approx\operatorname{End}(\mathbf{E}^{\prime})$  satisfies  $\kappa^{\prime}\iota=\kappa.$ ]
+[We say that  $(\mathbf{E},\kappa)$  and  $(\mathbf{E}^{\prime},\kappa^{\prime})$  are isomorphic if there is an isomorphism  $\mathbf{E}\approx\mathbf{E}^{\prime}$  for which the induced isomorphism  $\iota:\operatorname{End}(\mathbf{E})\approx\operatorname{End}(\mathbf{E}^{\prime})$  satisfies  $\kappa^{\prime}\iota=\kappa.$ ]
 
-Proof. Fix an enhanced supersingular elliptic curve  $E_{0}$  as before. Let
+Proof. Fix an enhanced supersingular elliptic curve  $\mathbf{E}_{0}$  as before. Let
 
 $$
 R = \operatorname{End} (\mathbf {E} _ {0}), \quad A = \operatorname{End} (E _ {0}), \quad H = R \otimes \mathbf {Q}.

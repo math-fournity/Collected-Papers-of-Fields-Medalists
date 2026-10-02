@@ -98,3 +98,11 @@
 - 发现并当场修复：L362 一处 \\mathcal{I}→\\mathcal{S}（"the set 𝒮=Σ(M)"），依据 150 dpi 页图（同款花体 S）。
 - 备注：\\bar{F}_q、E₀、(E₀,B₀) 等处印刷粗体拍平为普通体（字母不变，登记不改）；Variant/Proposition 标签斜体拍平同前例。
 - 结果：FAIL（1 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.012（PDF p.12 / 印刷 p.441）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:20 -0400。
+- PNG：`audit/ribet1990_p012.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：括号句 "E≈E′" 粗体、Proof "curve E₀" 粗体、"End(E) to B" 粗体核验；引用判读后未存档）。
+- 核对：Remarks 3.5a（E↦Hom(E₀,E)、"(isomorphism classes of enhanced elliptic curves) → (ideal classes)"、Serre [32]）；g⁻¹T(E)=T(E₀) 替代式；Remarks 3.5b（Frobenius 对合 x↦x^(q)、H_f^* 右乘、[22] Theorem 5、R-理想 I′⊂I 指标 q²）；Proposition 3.6 [cf. [42], Theorem 4.5]（S=B∩B′ Eichler 序、κ: (S,B)≈(End(E),End(E))、(E^(q),κ^(q)）；方括号同构定义（ι: End(E)≈End(E′)、κ′ι=κ）；Proof 开头（R=End(E₀)、A=End(E₀)、H=R⊗Q；B⊗Q≈H；κ_λ=λeλ⁻¹、Skolem-Noether）✓。
+- 发现并当场修复（粗体 enhanced 对象拍平，字母身份级记号）：①L434 "$E\approx E^{\prime}$"→"$\mathbf{E}\approx\mathbf{E}^{\prime}$"（300 dpi 确证印刷粗体）；②L436 "curve $E_{0}$"→"$\mathbf{E}_{0}$"（300 dpi 确证粗体）。
+- 备注：For each **E**、endomorphisms of **E**₀、(E₀,B₀) 等其余粗体拍平处字母不变，登记不改；L444 两处 End(**E**) MD 本即粗体正确（300 dpi 核验）；Hom(E,E₀) 内 E₀ 印刷斜体、MD 一致。
+- 结果：FAIL（2 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
