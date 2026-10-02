@@ -103,3 +103,11 @@
 - 核对：§2.2 末段（Q_ℓ(1)≅Q_ℓ、aut(k) 经 Z_ℓ* 作用、φ:x↦x^q 乘 q）、faisceau d'orientation 段、Tr 两式、Théorème (2.3) dualité de Poincaré（Tr(x∪y) 式与 dual de H^{2n-i}(X,Q_ℓ(n))）、(2.4)（q^n α_j^{-1}）、(2.5) a)-d)、(2.6) χ(X) 定义与函数方程 Z(X_0,t)=ε·q^{−nχ(X)/2}·t^{−χ(X)}·Z(X_0,q^{−n}t^{−1})、ε={1 / (−1)^N} 分段式、Grothendieck formulation 句。pdftotext 交叉核对一致。
 - 结果：PASS±（本页无需改 md）。内容全部吻合；Luna 四项修复生效。仅登记：页眉页脚（281/36）未收录（全篇系统性版式省略）；χ(X) 的 X、Tr 内 X 等斜体/粗体字形在 md 中偶有混排（不误导）。
 - 修复：无。
+
+## p.011（PDF p.11 / 印刷 p.282）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 19:10 EDT。
+- PNG：audit-redo/p011.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p011_hc0_affine-11.png、p011_eq28_tilde-11.png（300dpi）。
+- 旧审计对照：Luna p.011 = FAIL→已修复（§§2.8-2.11 的 script F 记号、Q_ℓ 记号、Tate twist (-1)）；本次重核修复后状态。
+- 核对：où ε=±1 句与 ε 分段式、Grothendieck formulation 句、(2.7)（𝓕(r)=𝓕⊗Q_ℓ(r)）、Théorème (2.8)（𝓕~ le dual；四段链 Tr(x∪y):H^i(X,𝓕)⊗H_c^{2n-i}(X,𝓕ˇ(n))→H_c^{2n}(X,𝓕⊗𝓕ˇ(n))→H_c^{2n}(X,Q_ℓ(n))→Q_ℓ）、(2.9)（foncteur 𝓕↦𝓕_x、(2.9.1) H^0≅𝓕_x^{π_1}）、H_c^{2n}=H^0(𝓕∨(n))^∨=((𝓕_x^∨(n))^{π_1})^∨、invariants/coinvariants 句与 (𝓕_x)_{π_1(X,x)}(−n)、n=1 句、Scholie (2.10)（(i) H_c^0=o、(ii) H_c^2=(𝓕_x)_{π_1}（−1)）、support fini 句、(2.11) 起首。
+- 结果：PASS±（修复 1 处）。内容全部吻合；Luna 记号修复生效。印刷双重 dual 记号（(2.8) 行文 𝓕~、(2.8) 式内 𝓕ˇ、(2.9) 起 𝓕∨）在 md 中分别以 ^{\sim}/\vee 投影，忠实保留。修复 1 处：Scholie (2.10)(i) 印刷为「H_c^0(X,𝓕)=o si X est affine」，等号后为小写字母高度 o（p011_hc0_affine-11.png，对照同式 (ii) 的数字 1 高度），零排作 o quirk 首次见于显示式；md 原 0 改回 o。
+- 修复：`(2.10)(i) = 0` → `= o`（md 行 396；依据 p011_hc0_affine-11.png）。

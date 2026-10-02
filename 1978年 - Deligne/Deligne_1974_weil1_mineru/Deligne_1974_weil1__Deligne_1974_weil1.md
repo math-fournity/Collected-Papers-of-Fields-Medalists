@@ -393,7 +393,7 @@ Nous ne l'utiliserons que pour $n=1$.
 
 Scholie (2.10). — Soient X une courbe lisse et connexe sur k algébriquement clos, x un point fermé de X et $\mathcal{F}$ un $Q_{\ell}$-faisceau constant tordu. On a
 
-(i) $\mathrm{H}_c^0 (\mathbf{X},\mathcal{F}) = 0$ si X est affine.
+(i) $\mathrm{H}_c^0 (\mathbf{X},\mathcal{F}) = o$ si X est affine.
 
 (ii) $\mathrm{H}_c^2 (\mathbf{X},\mathcal{F}) = (\mathcal{F}_x)_{\pi_1(\mathbf{X},x)}(-1).$
 
