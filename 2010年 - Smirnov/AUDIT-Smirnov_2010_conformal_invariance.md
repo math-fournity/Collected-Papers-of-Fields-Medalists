@@ -51,3 +51,9 @@
 - 核对：Figure 2 及图注 "An interface between + and − in the Ising model."；Main result 1 (Theorem 2.10) critical Ising → SLE(κ=3)；Main result 2 (Theorem 3.13) critical FK-Ising → SLE(κ=16/3)；[LPSA94] 数值实验段、Cardy's formula [Car92]、Smirnov [Smi01]；crossing probability 记号 C_δ(Ω,A,B,C,D)；页脚印刷页码 5。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：两条 Main result 的定理编号（2.10/3.13）与 κ 值（3 与 16/3）为后续重导出对账的关键锚点；文本层与 PNG 双通道一致。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：audit/p006.png（pngmono 150dpi）
+- 核对：fermionic observable 段（Definition 2.9、Theorem 2.11）；discrete complex analysis 应用段及引文 [Ken00][Lov04][Ste05][Mer01][BS08]；Acknowledgments 整段（Búzios, Brazil, August 2010 Clay Mathematics Institute Summer School；致谢 Sidoravicius/Benoist/Cimasoni/Hammond；资助 EU Marie-Curie RTN CODY、ERC AG CONFRA、Swiss FNS、RF Government grant 11.G34.31.0026）；§1.1 Organization of the notes 开篇（Section 2/3 概述）；页脚印刷页码 6。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：Acknowledgments 为重导出对账的高风险段（人名地名带重音：Búzios、Stéphane；长资助编号 11.G34.31.0026），文本层与 PNG 双通道逐项一致。
