@@ -202,6 +202,23 @@
   → 已按 p014.png 页底脚注原样合并为单条完整脚注
 - 结果：PASS（修复后）
 
+## p.015（PDF p.15 / 印刷 p.1031：Lemma A.1 证明后半 + Lemma A.2 全证明）
+- PNG：audit/p015.png（pngmono 150dpi）
+- 核对：q→0 极限负、φ(it)<0 for t≥1、(2.8) 归约 −t²φ(it)+itφ₁(it)+φ₂(it)>0、
+  π 的有理界 ⌊10¹⁰π⌋/10¹⁰ 或 ⌈10¹⁰π⌉/10¹⁰、1≤t≤1/(23q^{1/2})（te^{−πt}≤e^{−π}≤1/23）、
+  q^{1/2}<1/23、截断误差 ≤10^{−50}q⁶、q^{1/2} 多项式在 (0,e^{−π}) 为正、Sturm 放大到 (0,1/23)、
+  分数幂不可避免说明、**Lemma A.2：φ(it)−432/π²·ψ_S(it)>0**、同法证明（q⁵⁰ 截断、
+  (φ−432ψ_S/π²)Δ²、ψ_S 含 q^{1/2} 幂）、t≤1 情形经 (2.2)(3.2) 归约为
+  −t²φ(it)+itφ₁(it)+φ₂(it)−432/π²·ψ_I(it)<0（print 原文即写 "for t ≥ 1"，忠实）、
+  "Of course these proofs are by no means optimized" 段 ✓
+- 差异与修复（print 双通道均为 coefficients/different/difficulties）：
+  ①"control the coeficients" → coefficients；②"rational coeficients" → coefficients；
+  ③"a diferent upper bound" → different；④"no dificulties" → difficulties
+- 残留排版伪影（登记不改）："as$q \to 0$" 后句点缺失、"factors of t and$\pi .$but" 双句点 ×2、
+  "Lemma$\mathrm{A.1}$ For" 句点缺失
+- 结果：PASS（修复后）
+
+
 
 
 

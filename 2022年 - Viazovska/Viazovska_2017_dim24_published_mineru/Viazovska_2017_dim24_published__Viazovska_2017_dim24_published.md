@@ -545,9 +545,9 @@ $$
 - t ^ {2} \varphi (i t) + i t \varphi_ {1} (i t) + \varphi_ {2} (i t) > 0
 $$
 
-for$t \geq 1$. Again we multiply by$\Delta ^ { 2 }$to control the coeficients. This case is more complicated, because there are factors of t and$\pi .$. We replace factors of$\pi$ with rational bounds, namely,$\lfloor 1 0 ^ { 1 0 } \pi \rfloor / 1 0 ^ { 1 0 }$or$\lceil 1 0 ^ { 1 0 } \pi \rceil / 1 0 ^ { 1 0 }$based on the sign of the term and whether it is a positive power of π (so that we obtain a lower bound), and we similarly use the bounds$1 \leq t \leq 1 / \left( 2 3 q ^ { 1 / 2 } \right)$; the latter bound follows from$q = e ^ { - 2 \pi t }$and$t e ^ { - \pi t } \leq e ^ { - \pi } \leq 1 / 2 3$. To estimate the error bound from truncation, we use$q ^ { 1 / 2 } < 1 / 2 3 ;$the result is that the error from omitting the$q ^ { n }$terms with$n \geq 5 0$is at most$1 0 ^ { - 5 0 } q ^ { 6 }$. These observations reduce the problem to showing that a polynomial in$q ^ { 1 / 2 }$with rational coeficients is positive over the interval$( 0 , e ^ { - \pi } )$. Using Sturm’s theorem, we check that it holds over the larger interval (0, 1/23).
+for$t \geq 1$. Again we multiply by$\Delta ^ { 2 }$to control the coefficients. This case is more complicated, because there are factors of t and$\pi .$. We replace factors of$\pi$ with rational bounds, namely,$\lfloor 1 0 ^ { 1 0 } \pi \rfloor / 1 0 ^ { 1 0 }$or$\lceil 1 0 ^ { 1 0 } \pi \rceil / 1 0 ^ { 1 0 }$based on the sign of the term and whether it is a positive power of π (so that we obtain a lower bound), and we similarly use the bounds$1 \leq t \leq 1 / \left( 2 3 q ^ { 1 / 2 } \right)$; the latter bound follows from$q = e ^ { - 2 \pi t }$and$t e ^ { - \pi t } \leq e ^ { - \pi } \leq 1 / 2 3$. To estimate the error bound from truncation, we use$q ^ { 1 / 2 } < 1 / 2 3 ;$the result is that the error from omitting the$q ^ { n }$terms with$n \geq 5 0$is at most$1 0 ^ { - 5 0 } q ^ { 6 }$. These observations reduce the problem to showing that a polynomial in$q ^ { 1 / 2 }$with rational coefficients is positive over the interval$( 0 , e ^ { - \pi } )$. Using Sturm’s theorem, we check that it holds over the larger interval (0, 1/23).
 
-Note that we could have avoided fractional powers of$q$in this proof if we had used a diferent upper bound for$t ,$but fractional powers will be needed to handle$\psi _ { S }$and$\psi _ { I }$in any case. We will use the bounds such as$1 \leq t \leq$ $1 / \big ( 2 3 q ^ { 1 / 2 } \big )$from the preceding proof systematically in the remaining proofs.
+Note that we could have avoided fractional powers of$q$in this proof if we had used a different upper bound for$t ,$but fractional powers will be needed to handle$\psi _ { S }$and$\psi _ { I }$in any case. We will use the bounds such as$1 \leq t \leq$ $1 / \big ( 2 3 q ^ { 1 / 2 } \big )$from the preceding proof systematically in the remaining proofs.
 
 Lemma A.2. For$t > 0$
 
@@ -563,7 +563,7 @@ $$
 - t ^ {2} \varphi (i t) + i t \varphi_ {1} (i t) + \varphi_ {2} (i t) - \frac {4 3 2}{\pi^ {2}} \psi_ {I} (i t) <   0
 $$
 
-for$t \geq 1$. When we multiply by$\Delta ^ { 2 }$and remove the$q ^ { 5 0 }$and higher terms, the error bound is at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem completes the proof. As in the previous proof, this case involves handling factors of t and$\pi .$but they present no dificulties.
+for$t \geq 1$. When we multiply by$\Delta ^ { 2 }$and remove the$q ^ { 5 0 }$and higher terms, the error bound is at most$1 0 ^ { - 5 0 } q ^ { 6 }$, and Sturm’s theorem completes the proof. As in the previous proof, this case involves handling factors of t and$\pi .$but they present no difficulties.
 
 Of course these proofs are by no means optimized. Instead, they were chosen to be straightforward and easy to describe.
 
