@@ -275,13 +275,13 @@ $$
 and it is in this form that the theory appears in the physics literature. $^{4}$  In (23),  $\phi^{i}$  are local coordinates of M,  $\gamma_{ij}$  and  $R_{ijkl}$  are the metric and curvature tensors of M, and the  $\psi^{i}$  are anti-commuting fields tangent to M. $^{5}$  How canonical quantization of (23) leads to the exterior algebra was discussed in [21]. Instanton solutions or tunneling paths in this theory would be extrema of this Lagrangian, written with a Euclidean metric and with the fermions discarded. So we write the relevant action:
 
 $$
-\bar {\mathfrak {L}} = \frac {1}{2} \int d \lambda \left(\gamma_ {i j} \frac {d \phi^ {i}}{d \lambda} \frac {d \phi^ {j}}{d \lambda} + t ^ {2} \gamma^ {i j} \frac {\partial h}{\partial \phi^ {i}} \frac {\partial h}{\partial \phi^ {j}}\right).\tag{24}
+\bar {\mathcal {L}} = \frac {1}{2} \int d \lambda \left(\gamma_ {i j} \frac {d \phi^ {i}}{d \lambda} \frac {d \phi^ {j}}{d \lambda} + t ^ {2} \gamma^ {i j} \frac {\partial h}{\partial \phi^ {i}} \frac {\partial h}{\partial \phi^ {j}}\right).\tag{24}
 $$
 
 It is easy to prove that minimum action extrema of $\mathcal{L}$ with given initial and final conditions are paths of steepest descent. In fact after simple manipulations one finds
 
 $$
-\bar {\mathfrak {L}} = \frac {1}{2} \int d \lambda \left| \frac {d \phi^ {i}}{d \lambda} \pm t \gamma^ {i j} \frac {\partial h}{\partial \phi^ {j}} \right| ^ {2} \mp t \int d \lambda \frac {d h}{d \lambda}.\tag{25}
+\bar {\mathcal {L}} = \frac {1}{2} \int d \lambda \left| \frac {d \phi^ {i}}{d \lambda} \pm t \gamma^ {i j} \frac {\partial h}{\partial \phi^ {j}} \right| ^ {2} \mp t \int d \lambda \frac {d h}{d \lambda}.\tag{25}
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{4}$  This Lagrangian is a simplification of the supersymmetric nonlinear sigma model which we will discuss in §4. It is obtained by requiring the fields in the sigma model to be functions only of the “time”,  $\lambda$ .</span></small>

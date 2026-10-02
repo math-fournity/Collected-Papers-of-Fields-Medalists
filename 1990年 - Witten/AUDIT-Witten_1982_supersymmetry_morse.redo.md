@@ -61,3 +61,8 @@
 - PNG：`audit-redo/p010.png`（pngmono 150dpi）；脚注 3 下标终裁：`audit-redo/300dpi/p010_footnote3.png`（300dpi 裁片）。
 - 核对：路径 Γ 取向定义两段；(21) `n(a,b) = Σ_Γ n_Γ`；(22) `δ|a⟩ = Σ_b n(a,b)|b⟩`；`δδ* + δ*δ` 谱与 `Y_p` 上界段；脚注 3。
 - 结果：PASS±。正文、(21)–(22)、`Y_p` 论证及跨页断点（line 259 末 "but also in"）逐项与印刷页相符。**Luna 旧修复重核：11 个 DocVortex 脚注碎片清除后无残留，完整脚注 3 保留，正确**。print quirk：脚注 3 印刷原句 "As **V_s** interpolates smoothly from Ṽ_B to V_A … via V_x"（300dpi 确认下标为 `s`，与同句 `V_x` 不一致系原刊排版如此）被 md line 261 忠实保留，不按上下文改为 `V_x`。差异仅：页眉 "670 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.011（PDF p.11 / 印刷 p.671）
+- PNG：`audit-redo/p011.png`（pngmono 150dpi）；ℒ 字形终裁：`audit-redo/300dpi/p011_L23.png`（式 23）、`p011_L24.png`（式 24）、`p011_L25.png`（式 25）、`p011_L_prose_zoom.png`（散文处）。
+- 核对：(23) 拉格朗日量逐项（动能 + ψ̄i Dψ/Dλ + ¼R_ijkl ψ̄ψψ̄ψ − t²γ∂h∂h − t Hessian ψ̄ψ）；(24) 欧氏作用量；(25) 配方恒等式；脚注 4–5。
+- 结果：FAIL（以原图为准）→ 修复后复核 PASS。(23)–(25) 各项系数、指标、∫dλ 结构及前后正文（含 `Y_p = B_p`、[13]、`integral cohomology`）逐项与印刷页相符；脚注 4–5 全文相符。**发现 Luna 漏检 2 处记号错误**：(24)(25) 左端印刷为 cursive ℒ 加顶杠（与 (23) 的 ℒ 同字形），md 误作 `\bar{\mathfrak{L}}`（Fraktur）；300dpi 裁片确认后已用结构化 Edit 修为 `\bar{\mathcal{L}}`（md 原 line 278/284）。散文处 "extrema of ℒ"（无杠，line 281）与 (26) 的 `\bar{\mathcal{L}}`（p.012 复核）本就与印刷一致。**Luna 旧修复重核：重复孤立 ψ^i 碎片已清除、完整脚注 5 保留，正确**。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 671" 未入 md（版面信息省略）。
