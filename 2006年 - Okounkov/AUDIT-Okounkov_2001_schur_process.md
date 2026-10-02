@@ -221,3 +221,9 @@
 - 核对：§3.2.6（depoissonization、等价系综）、§3.2.7 与式 (40)（K 的系数提取式）、Airy 核恒等式、§3.2.8（[7] Airy process）、附录 A 开头（Λ^{∞/2}V、v_S=s₁∧s₂∧s₃∧…）
 - 结果：PASS±（两处已修复）：① 行 1167 "as$N  \infty$"→"as$N \to \infty$"（p032.png 印刷 N → ∞，箭头丢失）；② 行 1191 "spanned by k"→"spanned by$\underline { k }$"——p032.png 印刷基向量 k 带下划线，md 附录他处（如行 1219）均用 \underline{{k}}，本处丢失。
 - 备注：Airy 核公式与 (40) 的系数记号 [z^{x₁+m}w^{−x₂−m}] 全部吻合。
+
+## p.033（PDF p.33 / 印刷 p.33）
+- PNG：audit/p033.png（pngmono 150dpi）
+- 核对：S₊/S₋ 有限性条件、Λ^{∞/2}V 内积与 {v_S} 正交基、v_λ=λ₁−1/2∧λ₂−3/2∧λ₄−5/2∧…、v_∅ vacuum、ψ_k 外乘定义 ψ_k(f)=k∧f、canonical anti-commutation、式 (41)（ψ_kψ*_k v_S 分段）、α_n 定义与 Heisenberg 关系 [α_n,α_m]=nδ_{n,−m}、式 (42)、式 (43)
+- 结果：PASS。全部吻合。
+- 备注：印刷 quirk 两处忠实保留：① v_λ 定义中 "λ_4−5/2"（按 wedge 序应为 λ_3，印刷 typo，md 原样保留）；② "see the formula"（无编号悬空引用，印刷原样）。
