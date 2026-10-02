@@ -135,7 +135,8 @@
 - 差异与处置：
   1. 【已修复】两处 `$N_{E}(l)$` → `$N_{E(l)}$`（multiplicative DEFINITION 段、Additive type 段）：
      与 p.006 同型——印刷为打字机整行下标（N 下一行 "E(1)"，无逗号），即 $N_{E(l)}$；
-     证据：audit-redo/p007.png + 300dpi 裁剪（N 下方独立行布局与 p.6 相同）。
+     证据：audit-redo/p007.png + 300dpi 裁剪 audit-redo/300dpi/frey1986-p007-NEl-definition-300dpi.png
+     （N 下方独立行布局，与 p.6 相同；该裁剪于证据持久化 commit 补齐存档）。
   2. 【150dpi 误读澄清】"the reduction type of E modulo"：300dpi 仲裁印刷为单数 type，MD 忠实
      （150dpi 疑似复数 types 系噪点）。
   3. 【登记不改】印刷下划线强调：case 标号 "1."、"2."、"DEFINITION"、"stable reduction mod l"：
@@ -179,5 +180,35 @@
   2. 【登记不改】印刷下划线强调：DEFINITION、PROPOSITION 1、行内 "one"：排版级伪影。
 - 备注：页眉 "Elliptic Curves and Fermat's Equation　9" 未入 MD，正常。本块（p.1–p.9）至此完成；
   本页末行止于 "The following facts hold:"，后续 "Assume that E is stable…" 属 p.10 范围。
+
+---
+
+## 证据持久化附注（p.001–p.009 块收尾）
+
+按 AUDIT-SOP「被引用证据不得只存 /tmp」，上列各页条目中引用的 300dpi 仲裁裁剪已持久化至
+`audit-redo/300dpi/`（frey1986 短名前缀，避免同目录其他篇目碰撞；150dpi 整页图为本目录 p0NN.png）：
+
+| 页 | 文件 | 裁决内容 |
+|---|---|---|
+| p.001 | frey1986-p001-conjecture-Fn-300dpi.png | CONJECTURE 下标为 n 非 p |
+| p.001 | frey1986-p001-faltings-300dpi.png | 印刷 "Falting's theorem"（print quirk） |
+| p.002 | frey1986-p002-implies-Fp-underline-300dpi.png | implies F̲_p 有下划线（已修复项） |
+| p.002 | frey1986-p002-theorem-p15-300dpi.png | "the Theorem on p. 15"（无重音） |
+| p.002 | frey1986-p002-there-motivation-300dpi.png | "There is our motivation"（print quirk） |
+| p.003 | frey1986-p003-fieldcase-300dpi.png | 行首撇号 `'field case"`（print quirk） |
+| p.004 | frey1986-p004-EoverC-Pinf-300dpi.png | 印刷 E/C（quirk 保留）+ P_∞ 下标（已修复项） |
+| p.005 | frey1986-p005-fromO-300dpi.png / frey1986-p005-delta-eq-300dpi.png | 零字形一致 → O 改 0（已修复项） |
+| p.006 | frey1986-p006-NE-display-betaY-300dpi.png | 本页印刷 βY（print quirk 保留） |
+| p.006 | frey1986-p006-NEl-display-300dpi.png | N_{E(l)} 整行下标（已修复项） |
+| p.006 | frey1986-p006-criterion-300dpi.png / frey1986-p006-criterion-exponents-300dpi.png | β³、γ² 指数确认 |
+| p.007 | frey1986-p007-NEl-definition-300dpi.png | N_{E(l)} 整行下标（已修复项证据补齐） |
+| p.007 | frey1986-p007-reduction-type-300dpi.png | 单数 type（澄清 150dpi 误读） |
+| p.008 | frey1986-p008-sum-index-300dpi.png | Σ_{i≥0}（已修复项） |
+| p.008 | frey1986-p008-modl-no-period-300dpi.png | 行尾无句点（已修复项） |
+| p.009 | frey1986-p009-congruence-300dpi.png | ≡ 三横确认 |
+| p.009 | frey1986-p009-NE-display-betaX-300dpi.png | 本页 βX（反证 p.6 βY 为孤立印刷误） |
+
+块内统计：p.001–p.009 共 9 页 = PASS×3（p.001/p.003/p.009）+ PASS±×6（p.002/p.004–p.008）+ FAIL×0；
+MD 修复 8 处（每处对应上表已修复项）；重做起点 MD SHA=dfee1701…，块完成时 MD SHA=81e6b4c1…。
 
 ---
