@@ -232,11 +232,11 @@ In [19], Huber defines spaces of (continuous) valuations in great generality. Le
 
 Definition 2.6.
 
-(i) A Tate k-algebra is a topological k-algebra R for which there exists a subring$\mathrm { R } _ { 0 } \subset \mathrm { R }$ such that aR${ \sf \Phi } _ { \sf ( 0 ) } , a \in k ^ { \sf \times }$, forms a basis of open neighborhoods of 0. A subset M$\subset \mathbf { R }$is called bounded$i f \mathbf { M } \subset a \mathbf { R } _ { 0 } .$for some$a \in k ^ { \times }$. An element$x \in \mathrm { R }$is calledpower-bounded if $\{ x ^ { n } \mid n \geq 0 \} \subset \mathbf { R }$is bounded. Let$\mathrm { R } ^ { \circ } \subset \mathrm { R }$denote the subring ofpowerbounded elements; it is an open and integrally closed subring of R.
+(i) A Tate k-algebra is a topological k-algebra R for which there exists a subring$\mathrm { R } _ { 0 } \subset \mathrm { R }$ such that a$\mathrm { R } _ { 0 }$, $a \in k ^ { \times }$, forms a basis of open neighborhoods of 0. A subset M$\subset \mathbf { R }$is called bounded if$\mathbf { M } \subset a \mathbf { R } _ { 0 }$for some$a \in k ^ { \times }$. An element$x \in \mathrm { R }$is called power-bounded if $\{ x ^ { n } \mid n \geq 0 \} \subset \mathbf { R }$is bounded. Let$\mathrm { R } ^ { \circ } \subset \mathrm { R }$denote the subring of powerbounded elements; it is an open and integrally closed subring of R.
 
-(ii) An affinoid k-algebra is a pair$( \mathrm { R } , \mathrm { R } ^ { + } )$consisting of a Tate k-algebra R and an open and integrally closed subring$\mathrm { R } ^ { + } \subset \mathrm { R } ^ { \circ }$
+(ii) An affinoid k-algebra is a pair$( \mathrm { R } , \mathrm { R } ^ { + } )$consisting of a Tate k-algebra R and an open and integrally closed subring$\mathrm { R } ^ { + } \subset \mathrm { R } ^ { \circ }$.
 
-(iii) An affinoid k-algebra (R, R<sup>+</sup>) is said to be of topologically finite type (tft for short) if R is a quotient o$^ { c } k \langle \mathrm { T } _ { 1 } , \dots , \mathrm { T } _ { n } \rangle$for some n, and$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$
+(iii) An affinoid k-algebra (R, R<sup>+</sup>) is said to be of topologically finite type (tft for short) if R is a quotient of$k \langle \mathrm { T } _ { 1 } , \dots , \mathrm { T } _ { n } \rangle$for some n, and$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$.
 
 Here,
 
@@ -244,11 +244,11 @@ $$
 k \langle \mathrm{T} _ {1}, \dots , \mathrm{T} _ {n} \rangle = \left\{\sum_ {i _ {1}, \dots , i _ {n} \geq 0} x _ {i _ {1}, \dots , i _ {n}} \mathrm{T} _ {1} ^ {i _ {1}} \dots \mathrm{T} _ {n} ^ {i _ {n}} \mid x _ {i _ {1}, \dots , i _ {n}} \in k, x _ {i _ {1}, \dots , i _ {n}} \rightarrow 0 \right\}
 $$
 
-is the ring of convergent power series on the ball given by$| \mathrm { T } _ { 1 } | , \ldots , | \mathrm { T } _ { n } | \leq 1$. Often, only affinoid k-algebras of tft are considered; however, this paper will show that other classes of affinoid k-algebras are of interest as well. Also, we will often take$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$，but there are two important reasons for allowing more general subrings. One reason is that points of the adic space give rise to pairs$( \mathrm { L } , \mathrm { L } ^ { + } )$, where L is some nonarchimedean extension of$\mathrm { K } ,$and$\mathrm { L } ^ { + } \subset \mathrm { L } ^ { \circ }$is an open valuation subring, cf. Proposition 2.27. If the valuation corresponding to this point is not of height 1, we will have$\mathrm { L } ^ { + } \neq \mathrm { L } ^ { \circ }$. The other reason is that the condition$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$is not always preserved under passage to a rational subdomain.
+is the ring of convergent power series on the ball given by$| \mathrm { T } _ { 1 } | , \ldots , | \mathrm { T } _ { n } | \leq 1$. Often, only affinoid k-algebras of tft are considered; however, this paper will show that other classes of affinoid k-algebras are of interest as well. Also, we will often take$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$, but there are two important reasons for allowing more general subrings. One reason is that points of the adic space give rise to pairs$( \mathrm { L } , \mathrm { L } ^ { + } )$, where L is some nonarchimedean extension of$\mathrm { K } ,$and$\mathrm { L } ^ { + } \subset \mathrm { L } ^ { \circ }$is an open valuation subring, cf. Proposition 2.27. If the valuation corresponding to this point is not of height 1, we will have$\mathrm { L } ^ { + } \neq \mathrm { L } ^ { \circ }$. The other reason is that the condition$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$is not always preserved under passage to a rational subdomain.
 
-We also note that any Tate k-algebra R, resp. affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, admits the completion$\hat { \mathrm { R } } ,$resp.$( \hat { \textmd R } , \hat { \textmd R } ^ { + } )$, which is again a Tate, resp. affinoid, k-algebra. Everything depends only on the completion, so one may assume that$( \mathrm { R } , \mathrm { R } ^ { + } )$is complete in the following.
+We also note that any Tate k-algebra R, resp. affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, admits the completion$\hat { \mathrm { R } } ,$resp.$( \hat { \mathrm { R } } , \hat { \mathrm { R } } ^ { + } )$, which is again a Tate, resp. affinoid, k-algebra. Everything depends only on the completion, so one may assume that$( \mathrm { R } , \mathrm { R } ^ { + } )$is complete in the following.
 
-Definition 2.7.$- \angle e t ( { \bf R } , { \bf R } ^ { + } )$be an affinoid k-algebra. Let
+Definition 2.7. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra. Let
 
 $$
 \mathrm{X} = \operatorname{Spa} \left(\mathrm{R}, \mathrm{R} ^ {+}\right) = \left\{\mid \cdot \mid : \mathrm{R} \rightarrow \Gamma \cup \{0 \} \text { continuous   valuation } \mid \right.
@@ -258,13 +258,13 @@ $$
 \forall f \in \mathrm{R} ^ {+}: | f | \leq 1 \} / \cong .
 $$
 
-For any$x \in \mathrm { X }$, write$f \mapsto | f ( x ) | f o r$the corresponding valuation on R. We equip X with the topology which has the open subsets
+For any$x \in \mathrm { X }$, write$f \mapsto | f ( x ) |$for the corresponding valuation on R. We equip X with the topology which has the open subsets
 
 $$
 \mathrm{U} \left(\frac {f _ {1} , \dots , f _ {n}}{g}\right) = \left\{x \in \mathrm{X} \mid \forall i: | f _ {i} (x) | \leq | g (x) | \right\},
 $$
 
-called rational subsets, as basisfor the topology, where$f _ { 1 } , \ldots , f _ { n } \in \mathbb { R }$generate R as an ideal and$g \in \mathbb { R }$
+called rational subsets, as basis for the topology, where$f _ { 1 } , \ldots , f _ { n } \in \mathrm { R }$generate R as an ideal and$g \in \mathrm { R }$.
 
 Remark 2.8. — Let$\varpi \in k$be topologically nilpotent, i.e.$| \varpi | < 1$. Then$\mathrm { t o } f _ { 1 } , \ldots , f _ { n }$ one can add$f _ { n + 1 } = \varpi ^ { \mathrm { N } }$for some big integer N without changing the rational subspace. Indeed, there are elements$h _ { 1 } , \ldots , h _ { n } \in \mathbf { R }$such that$\sum h _ { i } f _ { i } = 1$. Multiplying by$\varpi ^ { \mathrm { N } }$for N sufficiently large, we have$\varpi ^ { \mathrm { N } } h _ { i } \in \mathrm { R } ^ { + } , \mathrm { a s ~ } \mathrm { R } ^ { + } \subset \mathrm { R }$is open. Now for any$x \in \operatorname { U } ( { \frac { f _ { 1 } , \ldots { } { } \mathcal { f } _ { n } } { g } } )$, we have
 

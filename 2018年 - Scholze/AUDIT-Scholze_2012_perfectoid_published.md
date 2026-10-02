@@ -115,3 +115,16 @@
   5. Definition 2.5(i)："$|\cdot|'{=}\alpha∘|\cdot|$" 游离花括号等号 → "$|\cdot|'=\alpha\circ|\cdot|$"+句末补句点
   6. Definition 2.5(iii)："if and only${jf|a|'\geq|b|'}$"（if 塞进 math 花括号）→ "if and only if$|a|'\geq|b|'$."；"for all$a,b∈\mathbf{R}, |a|\geq|b|$" 逗号后补空格
 - 备注：本页 Γ 大量为 pdftotext/MinerU 双重丢字（print 的哥特/希腊 Γ 字形不进文本层），全部经 PNG 确认；行 233 起（Definition 2.6）属印刷 p.254，留待下一块。
+## p.010（PDF p.10 / 印刷 p.254）
+- PNG：audit/p010.png（pngmono 150dpi）
+- 核对：页眉 254/PETER SCHOLZE；Definition 2.6 (i)–(iii)（Tate k-algebra/bounded/power-bounded/R°；affinoid 对 (R,R^+)；tft 定义 k⟨T_1,…,T_n⟩ 商）；收敛幂级环 display；R^+=R° 两点理由段（Proposition 2.27、height 1、rational subdomain）；完备化 R̂/(R̂,R̂^+) 段；Definition 2.7 Spa(R,R^+) 定义 display（Γ∪{0} continuous valuation | ∀f∈R^+|f|≤1 /≅）；rational subsets U(f_1,…,f_n/g) display 与 basis 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Def 2.6(i)："aR${\sf\Phi}_{\sf(0)}$"（R_0 被打成花体 Φ 乱码）→ a$\mathrm{R}_0$；"bounded$i f M⊂aR_0.$for some"（if 入 math+内部伪句点）→ "bounded if$M⊂aR_0$for some"；"calledpower-bounded"、"ofpowerbounded" 补空格（p.254 (i) 行）
+  2. (ii)(iii) 句末补句点（print 原有 "R^+⊂R°."）
+  3. (iii) "quotient o$^{c}k⟨…⟩"→"quotient of$k⟨…⟩"（of 被拆成 o+上标 c）
+  4. "take R^+=R^∘，but"（全角逗号）→", but"（p.254 右栏首段）
+  5. 完备化 "$( \hat{\textmd R},\hat{\textmd R}^+)$" 非法宏 \textmd→\mathrm（print (R̂,R̂^+)）
+  6. Definition 2.7 头 "$- \angle e t ({\bf R},{\bf R}^+)$"（—Let 乱码为 \angle et）→ "— Let$(\mathrm{R},\mathrm{R}^+)$"
+  7. "write$f↦|f(x)| f o r$the"（for 入 math）→"$|f(x)|$for"
+  8. "as basisfor"、"f_1,…,f_n∈\mathbb{R}"、"$g∈\mathbb{R}$"→basis for、∈\mathrm{R} 两处（print 为环 R）、句末补句点
+- 备注：Spa 定义 display 的 Γ 本页未丢（\Gamma 在 MD 中存在）；收敛幂级 display 与 print 一致。
