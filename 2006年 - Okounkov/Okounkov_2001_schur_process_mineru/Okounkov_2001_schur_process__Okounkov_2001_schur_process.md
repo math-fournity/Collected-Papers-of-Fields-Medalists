@@ -98,7 +98,7 @@ $$
 \lambda = \left(\lambda_ {1} \geq \lambda_ {2} \geq \lambda_ {3} \geq \dots \geq 0\right)
 $$
 
-of integers such that$\lambda _ { i } = 0$for$i \gg 0$. The zero, or empty, partition is denoted by . The book [15] is a most comprehensive reference on partitions and symmetric functions.
+of integers such that$\lambda _ { i } = 0$for$i \gg 0$. The zero, or empty, partition is denoted by $\varnothing$. The book [15] is a most comprehensive reference on partitions and symmetric functions.
 
 Schur process is a measure on sequences
 
@@ -106,7 +106,7 @@ $$
 \{\lambda (t) \}, \quad t \in \mathbb {Z},
 $$
 
-where each$\lambda ( t )$is a partition and$\lambda ( t ) = \varnothing$for$| t | \gg 0$. We call the variable t the time, even though it may have a diferent interpretation in applications.
+where each$\lambda ( t )$is a partition and$\lambda ( t ) = \varnothing$for$| t | \gg 0$. We call the variable t the time, even though it may have a different interpretation in applications.
 
 ## 2.1.2
 

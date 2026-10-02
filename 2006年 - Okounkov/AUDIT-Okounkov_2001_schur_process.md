@@ -34,3 +34,9 @@
 - 核对：§1.2.3 全节、§1.3 Universality、§1.4 Acknowledgments（NSF DMS-0096246/DMS-0070931、CRDF RM1-2244）、§2/§2.1 节标题
 - 结果：PASS±（一处内容错误已修复）：md 行 75 "We compute the q  1 limit" 丢失箭头，印刷原页为 "the q → 1 limit"（p004.png 第 2 段首行清晰可见）→ 修复为 "$q \to 1$"。
 - 备注：其余文字、资助号、节标题顺序、引文编号（(24)/Corollary 1/Theorem 2/Section 3.1.12/[5]/[1]/[10]/[9]/Section 3.2.3）全部吻合。
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：§2.1.1（分划定义式 λ=(λ₁≥λ₂≥λ₃≥⋯≥0)、∅ 记号、[15]）、Schur process 序列式 {λ(t)}, t∈ℤ、§2.1.2 平面分划定义、(x,y)↦π_{⌈x⌉,⌈y⌉}、矩阵 (2)（rows 5 3 2 1 / 4 3 1 1 / 3 2 1 / 2 1）
+- 结果：PASS±（两处内容错误已修复）：① md 行 101 "denoted by ." 丢失 ∅（p005.png 明示 "denoted by ∅."）→ 补 "$\varnothing$"；② md 行 109 "diferent"——pdftotext 文本层与 p005.png 均为 "different"，系 mineru 丢 ff 连字伪影（非印刷 quirk）→ 改 "different"。
+- 备注：全文文本层预检确认印刷自身 quirk "of the of the"（§2.1.3，后页核）与 "probablistic"（§2.2.6）为印刷原样，md 忠实保留不改；其余 ff 词（coeficient/sufices 等）待到所在页逐一对照后处理。
