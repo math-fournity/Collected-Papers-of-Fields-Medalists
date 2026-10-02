@@ -211,3 +211,10 @@
 - 证据：源 PDF p.028 文本层、页图 `audit/Hironaka_1964_resolution_partI_p028.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p028_main_theorem_I.png` 与 MinerU Markdown 第 435–453 行。印刷页写作 `main theorem I`（强形式引用），Markdown 第 451 行写成 `main theorem 1`；300dpi 图确认是罗马大写 I。Definition 1 关于 `gr_D^p(X)` 与 `J^p/J^{p+1}` 的记号与原页一致。
 - 备注：印刷运行页眉和页码 135 未录入 Markdown，属导航元素省略。
 - 结论：定理编号 I 误录为 1，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.029 / 96（印刷 p.136）— FAIL
+
+- 时间：2026-10-02 01:17 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.029 文本层、页图 `audit/Hironaka_1964_resolution_partI_p029.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p029_theorem_I.png` 与 MinerU Markdown 第 455–469 行。normal-flatness 定义中的 `gr_D^p(X)`、`J^p/J^{p+1}`、`O_{D,x}` 及命题 (I)、(II) 与原页相符；第 467 行的 `main theorem 1` 对应印刷的罗马大写 `main theorem I`，属定理编号误录。
+- 备注：印刷运行页眉和页码 136 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I/1 不符，列为 FAIL；待全篇审计结束后逐处修复。
