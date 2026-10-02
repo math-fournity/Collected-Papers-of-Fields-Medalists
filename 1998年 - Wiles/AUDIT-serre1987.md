@@ -183,3 +183,11 @@
 - 核对：§4 标题与应用列表五项（n°s 4.1-4.3、4.4、(p,p) sur Z 4.5、Taniyama-Weil + variétés abéliennes 4.6-4.7、cohomologie/Betti 4.8）、Excepté la dernière 句（(3.2.4?)、ε = 1, k = 2、n° 3.3）、4.1 节（A,B,C 两两互素、A+B+C=0）、x₁,x₂,x₃ 选择式、y² = (x−x₁)(x−x₂)(x−x₃)、x₁=A/x₂=0/x₃=−B、(4.1.1) y² = x(x−A)(x+B)、E_{A,B,C}、Remarque（signature ±1、tordue Q(√−1)/Q）、(4.1.2)（l|ABC、type multiplicatif、modèle minimal、Tate [4] p.47）、(4.1.3)、(4.1.4) A ≡ −1 (mod 4), B ≡ 0 (mod 32)。
 - 结果：FAIL。一处已依原图修复：§4 标题印刷为 “Ces applications concernent:”，Markdown 写成 “concern”（缺 “ent”），已补全。其余文字与公式逐项吻合。
 - 备注：Taniyama-Weil 拼法与印刷一致；“(mod 3 2)” 数字带空格渲染为 32，排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 199” 未收入 Markdown，排版级。印刷页止于 (4.1.4)，变量替换式属印刷 p.200。
+
+## p.022（PDF p.22 / 印刷 p.200）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p022.png`（pngmono，150 dpi）。
+- 核对：变量替换 x = 4X, y = 8Y + 4X、(4.1.5) Y² + XY = X³ + cX² + dX（c = (B−1−A)/4、d = −AB/16）、(mod 2) 分段（A ≡ 7 / A ≡ 3 mod 8）、cubique sur F₂ 段（point double (0,0)、tangentes rationnelles、Tate loc. cit.、équation minimale、Spec(Z)）、(4.1.6) Δ = 2^{−8}A²B²C²、semi-stable/conducteur 句、(4.1.7) cond(E) = rad(ABC)、rad(X) 定义句、(4.1.8) j_E = 2⁸(C²−AB)³/A²B²C²、(4.1.9) 分段（−2v_l(ABC) / 8−2v₂(ABC)）、Points de p-division 段（p ⩾ 5、ρ_p^E: G_Q → GL₂(F_p)）。
+- 结果：PASS。公式、分段条件、上下标（2^{−8}、2⁸、³、v_l/v₂）全部与印刷吻合。
+- 备注：F₂/F_p 在 Markdown 部分为非粗体（$F_{2}$），与印刷粗体体例不一，排版级不改（同前登记）；“−AB/1 6” 数字带空格渲染 16，排版级；valuation 记号与 p.013 裁片实证一致为拉丁 v；页眉 “200 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 ρ_p^E 式，“fournie par…” 句属印刷 p.201。
