@@ -244,6 +244,16 @@
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复，并补回本页原文中的 Milnor/K2 结论；按两张裁片复核 presentation 与 map。
 - 记录：2026-10-02 01:15:08 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 
+### p.025（PDF p.25 / 纸面圈号 25）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p025.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p025_K-theory-tower.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p025_homotopy-groups.png`。
+- 核对：`K_iA=π_i(BGL(A)^+)` 的定义；Dror tower 的 `BN/X_n` stages 与纤维；tower 对 `π_q` 的分段公式；`A(BG)` 与 `BG→BG⁺` 的纤维及其同伦长正合列。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图塔的 stage spaces 使用 `K(H_2BN,2)` 与一般 `K(H_nX_n,n)`；基线第 858、861 行将其错写为 `PIT` / `H`，第 865 行写成 `π(H_nX_n,n)`。原图 `π_q(BN)` 的分段条件是 `q=1` 给 `\widetilde N`、其余为 0；基线第 873 行把非 1 的条件和 `q` 指标破坏成 `0.w`。同一行的 `X_4` 分段以及第 877、881、901 行的 `π_q(X_n)`、`π_q(A(BG))`、`π_q(BG^+)` piecewise 表格也有条件/下标错位；这些决定 tower 同伦群的 degree 对应，需按裁片逐项复核。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对全部分段公式与 `K(A,n)` 符号。
+- 记录：2026-10-02 01:22:51 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
 ### p.020（PDF p.20 / 纸面圈号 20）
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
