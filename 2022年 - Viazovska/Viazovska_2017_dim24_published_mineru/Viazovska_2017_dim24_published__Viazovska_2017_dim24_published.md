@@ -457,7 +457,7 @@ $$
 \psi_ {S} = - \frac {7 \Theta_ {1 0} ^ {2 0} \Theta_ {0 1} ^ {8} + 7 \Theta_ {1 0} ^ {2 4} \Theta_ {0 1} ^ {4} + 2 \Theta_ {1 0} ^ {2 8}}{\Delta^ {2}}
 $$
 
-immediately implies that$\psi _ { S } ( i t ) \leq 0$, and so to prove (4.1) it sufices to prove that$\varphi ( i t ) \leq 0$. We prove this inequality in Lemma A.1 by bounding the truncation error in the q-series and examining the leading terms (splitting into the cases$t \geq 1$and$t \leq 1 )$. It follows that$f ( r ) \leq 0$for$r \geq 2$, as desired.
+immediately implies that$\psi _ { S } ( i t ) \leq 0$, and so to prove (4.1) it suffices to prove that$\varphi ( i t ) \leq 0$. We prove this inequality in Lemma A.1 by bounding the truncation error in the q-series and examining the leading terms (splitting into the cases$t \geq 1$and$t \leq 1 )$. It follows that$f ( r ) \leq 0$for$r \geq 2$, as desired.
 
 For$r > 2 .$, the analogous formula for$\widehat { f }$is
 
@@ -471,7 +471,7 @@ $$
 \begin{array}{r} B (t) = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) + \frac {1}{6 5 5 2 0 \pi} \psi_ {I} (i t) \\ = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) - \frac {1}{6 5 5 2 0 \pi} t ^ {1 0} \psi_ {S} (i / t). \end{array}\tag{4.3}
 $$
 
-To show that${ \widehat { f } } ( r ) \geq 0$for$r > 2$, it sufices to show that$B ( t ) \geq 0$for all$t \geq 0$ i.e.,
+To show that${ \widehat { f } } ( r ) \geq 0$for$r > 2$, it suffices to show that$B ( t ) \geq 0$for all$t \geq 0$ i.e.,
 
 $$
 \varphi (i t) - \frac {4 3 2}{\pi^ {2}} \psi_ {S} (i t) \geq 0,\tag{4.4}
