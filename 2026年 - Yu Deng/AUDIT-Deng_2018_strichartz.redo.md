@@ -112,3 +112,9 @@
 - 核对：两条 • bullet（ν/ν′ 约束计数与 α₁₁ 测度）、|νp₁′−ν′p₁−C|<ε|p₁′|+ε′|p₁|、≼tk(ε|p₁′|+ε′|p₁|+1)、tk 论证段、≲min(ε/t|n₁|, ε′/t|n₁′|)、|S₁(t)| 汇总链（≼Σ(1/εε′)tk(…)min(…)≲Σ1+1/(ε′|p₁|)≼N/|p₁|）、§3.4 节、K_N 平方展开与 r=n−n′/s=n+n′ 换元 display（Σ* 奇偶限制）、s₁ 子和、Abel 求和 ≲min(N,1/‖2tΣα₁jr_j‖)、总体 ΣΣΠ min(N,1/‖2tL_j(r)‖)
 - 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；print quirk "a constant dedending on"（L735）、"restricted to these s"（L769）忠实保留。**修复 3 处**：L741 `ε′|\stackrel{\sim}{p}_1|`→`ε′|p_1|`（**Luna 基线已登记"带波浪的 p₁"但未修复的遗留错误**，印刷为无波浪 p₁）；L729/L743 补回两条 bullet "- "（印刷有 •）。残余瑕疵（不误导，不改）：L741 句尾缺句号；L757 §3.4 run-in 标题被 MinerU 升级为 `##`（与 §1.3 同类，内容无损）；L787 "L_j(r)=Σα_{ij}r_i" 后缺句号。
 - 备注：Luna 旧修复抽核**发现遗留缺陷**——其 p.14 条目登记的"ε′|p₁| 误排为带波浪 p₁"在修复后版本中仍存在（本次修正）；bullet 缺失同样登记未修（本次补上）。除此外本页无其他问题。
+
+## p.015（PDF p.15 / 印刷 p.15）
+- PNG：audit-redo/p015.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：§3.5 (i) n×n′=0 反证（n=kp, n′=kp′、四条代入不等式 β/(N|p|) 与 γ/(βN|p′|)、binom 向量差的 ≲/≥ 夹逼、1≲β|p′|/N+γ|p|/βN、矛盾式 ≲γ≪1）、(ii) 开头、• First freezing t bullet、两条 α₁₂ 求解 display（±O(γ/T|n×n′|)）、(3.8) 兼容性条件、"staisfying" 计数段与 ≲γ(TN)²、≲1+TγN·gcd/(β|n₂′|)
+- 结果：PASS±（2 处已修复）。全部公式与印刷逐项一致。print quirk 忠实保留："staisfying"（L855，原刊拼写）。**修复 2 处**：L789 `The case $n×n′=0 .$$.` 双句点（印刷单句点）；L839 "First freezing t…" 补回 bullet "- "（印刷有 •）。残余瑕疵（不误导，不改）：印刷对 "(ii) The case n×n′≠0" 加下划线而 MD 无下划线（与 p.11 "Bound for Σ" 同类排版级差异，语义无损）。
+- 备注：Luna 旧修复抽核通过——本页公式链与印刷逐式一致，未见 Luna 引入的错误。

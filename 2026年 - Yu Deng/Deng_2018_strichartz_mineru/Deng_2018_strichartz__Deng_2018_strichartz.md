@@ -786,7 +786,7 @@ $$
 
 where$\begin{array} { r } { L _ { j } ( r ) = \sum \alpha _ { i j } r _ { i } } \end{array}$
 
-3.5. Proof of Lemma 3.4. (i) The case$n \times n ^ { \prime } = 0 .$. We argue by contradiction and start by assuming that$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } }$is not empty. Since n and$n ^ { \prime }$are aligned, they can be written
+3.5. Proof of Lemma 3.4. (i) The case$n \times n ^ { \prime } = 0$. We argue by contradiction and start by assuming that$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } }$is not empty. Since n and$n ^ { \prime }$are aligned, they can be written
 
 $$
 n = k p, \qquad n ^ {\prime} = k p ^ {\prime},
@@ -836,7 +836,7 @@ $$
 
 (ii) The case$n \times n ^ { \prime } \ne 0 .$. In order to estimate the size of$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } } ,$we proceed in three steps.
 
-First freezing t, we note that the system (3.4a) to (3.4d) is overdetermined in$\left( \alpha _ { i j } \right)$, which results in a compatibility condition on$m , m ^ { \prime }$. To derive this compatibility condition, observe that solving for$\alpha _ { 1 2 }$by (3.4a) and (3.4c) or (3.4b) and (3.4d) gives, respectively,
+- First freezing t, we note that the system (3.4a) to (3.4d) is overdetermined in$\left( \alpha _ { i j } \right)$, which results in a compatibility condition on$m , m ^ { \prime }$. To derive this compatibility condition, observe that solving for$\alpha _ { 1 2 }$by (3.4a) and (3.4c) or (3.4b) and (3.4d) gives, respectively,
 
 $$
 \alpha_ {1 2} = \frac {1}{t (n \times n ^ {\prime})} (- n _ {1} ^ {\prime} m _ {1} + n _ {1} m _ {1} ^ {\prime}) + O \left(\frac {\gamma}{T | n \times n ^ {\prime} |}\right)
