@@ -379,3 +379,12 @@
 - 核对：§11.4 证明收尾；参考文献 [1]–[30] 的作者、题名、刊物/出版信息、页码与 URL。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：参考文献 [13] 的印刷 URL 含 `~conrad`，Markdown 将波浪号转为 `„`，破坏链接。参考文献 [9] 的印刷 URL 本身未印出 `~`，MinerU 忠实沿用该源级缺字，故不计作转录差异。Markdown 将 [30] 的 arXiv URL 末尾 `v3` 与下一条 `[31]` 连成同一行，失去条目分隔。两张 300dpi 裁片确认 [13] URL 字符和页面末尾 [30] 的边界。PASS± 源级印刷瑕疵忠实保留：[9] URL 中缺少 `~`；[16] 的 `info Sémin. Bourbaki`、[19] 的作者标点 `A, Yafaev`、[23] 的 `Andrè-Oort` 重音、[29] 的 `Japac Acad.`；其余已对照的题录和页码相符。
+
+## p.043（PDF p.43 / 印刷 p.43）
+- 时间：2026-10-02 02:14:06 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p043.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p043-references31-40.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p043-references47-62.png`
+- 核对：参考文献 [31]–[62] 的作者、题名、刊物/出版信息、卷页年及 URL。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：参考文献 [34] 的印刷 URL 在行末为 `intro-`、下一行续 `sh-ex.pdf`，构成 `intro-sh-ex.pdf`；Markdown 将连接号变成空格 (`intro sh-ex.pdf`)，改变链接路径。300dpi 裁片核实该连接号。PASS±：Refs [47]、[58] 的 `A_g` 与 [49] 的 `C^n` 上下标被拍平为 `Ag`、`Cn`；[59] 的 `\mathbb Z_p`、`A_{\inf}` 亦拍平。源级印刷 URL [34] 在主机目录分隔符后没有可见 `~`，MinerU 忠实保留；其余本页核过的参考文献条目与印刷相符。
