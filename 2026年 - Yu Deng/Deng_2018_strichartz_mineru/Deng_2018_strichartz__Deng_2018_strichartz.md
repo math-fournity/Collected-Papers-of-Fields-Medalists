@@ -537,6 +537,8 @@ $$
 $$
 | n _ {1} ^ {\prime} |, | n _ {2} ^ {\prime} | \leq \frac {\gamma}{\beta} N\tag{3.3c}
 $$
+
+$$
 | m | \lesssim T \beta N\tag{3.3d}
 $$
 
