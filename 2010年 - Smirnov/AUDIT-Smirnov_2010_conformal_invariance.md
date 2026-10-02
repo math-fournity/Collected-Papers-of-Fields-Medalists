@@ -249,3 +249,9 @@
 - 核对：Proposition 5.3——vertex fermionic observable F_δ 是 s-holomorphic；Proof——(5.1) 取共轭改写为 F_δ(N)+F_δ(S) = F_δ(E)+F_δ(W)、由 (3.6) 得 F_δ(v) ∶= ½Σ_{e adjacent}F_δ(e) = F_δ(N)+F_δ(S) = F_δ(E)+F_δ(W)、F_δ(N)⊥F_δ(S)（Lemma 5.1）⟹ F_δ(N) 为 F_δ(v) 在 ℓ(N) 上的投影（◻）；F_δ/√(2δ) preholomorphic 与 discrete Riemann-Hilbert boundary value problem 段、离散类比 Im(∫^z [F_δ(z)/√(2δ)]² dz)；§5.1.2 Convergence of (H_δ)_{δ>0} 标题——A 为 bordering a_δ 的 black face（Fig. 6）、Theorem 4.19 定义 H_δ ∶ Ω_δ∪Ω⋆_δ → R，H_δ(A) = 1 且 H_δ(B)−H_δ(W) = ∣P_{ℓ(e)}[F_δ(x)]∣² = ∣P_{ℓ(e)}[F_δ(y)]∣²；H_δ● subharmonic / H_δ○ superharmonic；Lemma 5.4——H_δ● ≡ 1 on ∂_ba、H_δ○ ≡ 0 on ∂_ab^⋆；Proof 起头——公式 (5.3) H_δ●(B)−H_δ●(B′) = ∣F_δ(e)∣² − ∣F_δ(e′)∣² = 0（因 ∣F_δ(e)∣² = φ^{a_δb_δ}_{Ω◇_δ,p_sd}(W ↔ ∂_ab^⋆)，见 Lemma 7.3）、H_δ●(A) = 1 收尾；页脚印刷页码 38。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：∣·∣² 的 ‖ 双竖线排法（PNG 中 ∣P_{ℓ(e)}[F_δ(x)]∣² 用双竖线）与 φ 上标 a_δb_δ 堆叠为对账锚点；(5.3) 编号齐全。
+
+## p.039（PDF p.39 / 印刷 p.39）
+- PNG：audit/p039.png（pngmono 150dpi）
+- 核对：Figure 12（∂_ba 上相邻两点 B、B′ 与 W、e、e′ 记号图）及图注；Lemma 5.4 Proof 收尾——H_δ○ 在 ∂_ab^⋆ 上常值、dual white face A⋆ ∈ ∂_ab^⋆ bordering a_δ 满足公式 (5.4) H_δ○(A⋆) = H_δ●(A) − ∣F_δ(e)∣² = 1 − 1 = 0（e 为分离 A 与 A⋆ 的边、必属 γ，◻）；Lemma 5.5——H_δ● → 0 on ∂_ab、H_δ○ → 1 on ∂_ba^⋆（uniformly away from a and b）；Proof——B ∈ ∂_ab 距 ∂_ba 为 r、W 为 B 在 ∂_ab^⋆ 上邻点、H_δ•(B) = H_δ○(W) + ∣P_{ℓ(e)}[F_δ(e)]∣² = φ^{a_δb_δ}_{Ω_δ,p_sd}(e ∈ γ)²、e∈γ ⟺ B 连通 wired arc、free boundary conditions 比较 ⟹ ≤ φ^1_{U_δ,p_sd}(B ↔ ∂U_δ)²（U_δ = (B+[−r,r]²)∩L_δ）、Proposition 3.10 ⟹ 收敛于 0（◻）；两引理边界条件 0/1 过渡段；页脚印刷页码 39。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(5.4) 编号齐全；φ 上标 a_δb_δ 与 φ^1_{U_δ,p_sd} 的堆叠下标为对账锚点；e∈γ 平方（(e ∈ γ)²）排法以 PNG 为准。
