@@ -459,3 +459,10 @@
 - 核对：Theorem A.22 proof 的 residual irreducibility、pairwise non-isomorphism 与 pigeonhole descent；附录参考文献 [Del70]–[EV86]。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：pairwise-isomorphism contradiction 中右侧 residual coefficient field 应为 `\overline{\mathbb F}_p`，Markdown 将 p 错录成粗体 `\boldsymbol\pi`；结尾 pigeonhole argument 的 local-system coefficient ring 应为 `W(\overline{\mathbb F}_p)`，Markdown 将下标 p 移到 (W(\overline{\mathbb F})_p) 之后。300dpi 裁片确认这两处的 p 都属于有限域下标。
+
+## p.052（PDF p.52 / 印刷 p.52）
+- 时间：2026-10-02 03:02:45 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p052.png`（pngmono 150dpi）
+- 核对：末尾参考文献 [Fal88]、[Kat96]、[LSZ13]、[LSYZ19]、[Lan14]、[Mo06]、[Nit93]、[Sch08]、[SYZ22]、[Sim90]、[Sim94]、[Xu19] 的作者、题名、出版信息、卷页年及 (p^n) 指数。
+- 结果：PASS。上述条目的题录与印刷页相符；[Xu19] 题名中的 (p^n) 指数在 Markdown 中保留为上标。
