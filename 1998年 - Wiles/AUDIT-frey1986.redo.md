@@ -99,3 +99,26 @@
 - 备注：页眉 "Elliptic Curves and Fermat's Equation　5" 未入 MD，正常。四个展示式逐项核对无误。
 
 ---
+
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：audit-redo/p006.png（pngmono 150dpi）
+- 核对：$\delta_E$ 展示式（mod $Q^{*2}$，if $j_E\neq 0,12^3$）；$j_E\notin\mathbb{Z}$ 括注；reduction theory 引入句；
+  展示式 $N_E: Y^2+\lambda XY+\mu Y=X^3+\alpha X^2+\beta Y+\gamma$；residue classes
+  $\overline{\alpha},\overline{\beta},\overline{\gamma},\overline{\lambda},\overline{\mu}\in\mathbb{F}_l=Z/l$ 句；
+  展示式 $N_{E(l)}$（带杠系数）；plane affine curve / projective closure $E^{(l)}$ 句；
+  1. Good reduction case 整段（$l\neq 2,3$；$v_l(j_E)\geq 0$；$v_l(4\beta^3-27\gamma^2)=v_l(\Delta)=0$）；
+  DEFINITION（good reduction mod $l$）。
+- 结果：PASS±（修复 1 处后）
+- 差异与处置：
+  1. 【已修复】展示式 `\mathrm{N}_{\mathrm{E}}(l)` → `\mathrm{N}_{\mathrm{E}(l)}`：印刷为打字机整行下标布局
+     （N 下一行左缘 "E(1)"，无逗号，两处出现一致），即 $N_{E(l)}$；与 MD 中 DEFINITION 段的 `$N_{E(l)}$`
+     原本一致，展示式系转写错位。
+  2. 【print quirk 登记不改】本页 $N_E$ 展示式印刷作 "$\beta Y+\gamma$"（300dpi 高倍确认字形为 Y），
+     与 p.4 同一正规式的 "$\beta X+\gamma$" 印刷不一致（p.6 打字误）；MD 按本页忠实保留 βY。
+  3. 【300dpi 澄清】判据式指数确认：$4\beta^3-27\gamma^2$（β 有下降部双环=β 非 δ；指数 3、2 清晰）；
+     β、γ 为无杠整系数，与印刷一致。
+  4. 【登记不改】"over $\mathbf{Q}$"（reduction theory 句）印刷为普通打字机 Q，MD 作粗体 `\mathbf{Q}`：字体伪影。
+  5. 【登记不改】DEFINITION 一词印刷有下划线，MD 拍平：排版级伪影。
+- 备注：页眉 "6　G. Frey" 未入 MD，正常。展示式逐项核对无误（含杠线位置）。
+
+---
