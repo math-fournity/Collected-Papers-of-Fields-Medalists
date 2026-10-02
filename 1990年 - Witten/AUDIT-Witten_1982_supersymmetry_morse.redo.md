@@ -66,3 +66,8 @@
 - PNG：`audit-redo/p011.png`（pngmono 150dpi）；ℒ 字形终裁：`audit-redo/300dpi/p011_L23.png`（式 23）、`p011_L24.png`（式 24）、`p011_L25.png`（式 25）、`p011_L_prose_zoom.png`（散文处）。
 - 核对：(23) 拉格朗日量逐项（动能 + ψ̄i Dψ/Dλ + ¼R_ijkl ψ̄ψψ̄ψ − t²γ∂h∂h − t Hessian ψ̄ψ）；(24) 欧氏作用量；(25) 配方恒等式；脚注 4–5。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。(23)–(25) 各项系数、指标、∫dλ 结构及前后正文（含 `Y_p = B_p`、[13]、`integral cohomology`）逐项与印刷页相符；脚注 4–5 全文相符。**发现 Luna 漏检 2 处记号错误**：(24)(25) 左端印刷为 cursive ℒ 加顶杠（与 (23) 的 ℒ 同字形），md 误作 `\bar{\mathfrak{L}}`（Fraktur）；300dpi 裁片确认后已用结构化 Edit 修为 `\bar{\mathcal{L}}`（md 原 line 278/284）。散文处 "extrema of ℒ"（无杠，line 281）与 (26) 的 `\bar{\mathcal{L}}`（p.012 复核）本就与印刷一致。**Luna 旧修复重核：重复孤立 ψ^i 碎片已清除、完整脚注 5 保留，正确**。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 671" 未入 md（版面信息省略）。
+
+## p.012（PDF p.12 / 印刷 p.672）
+- PNG：`audit-redo/p012.png`（pngmono 150dpi）
+- 核对：(26) 作用量下界（ℒ̄ ⩾ t|h(+∞) − h(−∞)|）；(27) 等号条件；(28) `I = t|h(B) − h(A)|`；瞬子贡献 exp−I / exp−2I 段；Dirac 零模与归一化抵消段；跨页断点 "determine the sign from the"。
+- 结果：PASS±。(26) 左端印刷 ℒ̄ 与 md `\bar{\mathcal{L}}` 一致；`⩾`、`±`/`∓`、绝对值与指数（exp − I、exp − 2I、exp − t|h(B) − h(A)|）逐项相符；`⟨b, d_t a⟩`、`L^2 norm`、`λ → λ + constant` 记号一致。print quirk：印刷原句 "The instantons contributions to matrix elements"（"instantons" 复数作定语）被 md 忠实保留。跨页断点一致（line 319 末）。差异仅：页眉 "672 EDWARD WITTEN" 未入 md（版面信息省略）。
