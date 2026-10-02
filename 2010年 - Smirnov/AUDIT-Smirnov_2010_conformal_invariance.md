@@ -141,3 +141,9 @@
 - 核对：Proposition 3.10 Proof——φ^0_{p_sd,2} 无 infinite cluster（Exercise 3.6）、star-connected circuit（八邻域）、µ^f_{β_c} restricted to box 随机占优 µ^+_{β_c}、µ^f_{β_c} ≥ µ^+_{β_c}、结论 φ^0_{p_sd,2} = φ^1_{p_sd,2} 与 µ^−_{β_c} = µ^f_{β_c} = µ^+_{β_c}（◻）；Remark 3.11（integer q ≥ 2 与 Potts models、FKG 可用性对比）；§3.3 Loop representation of the FK-Ising model and fermionic observable 标题；FK Dobrushin boundary conditions（wired on ∂_ba、free on ∂_ab、φ^a,b_{Ω_δ,p} 记号）；dual boundary arcs ∂_ba^⋆/∂_ab^⋆ 与 FK-Dobrushin domain (Ω◇_δ, a_δ, b_δ) 两条 bullet；Remark 3.12；loop configuration 构造起头；页脚印刷页码 20。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷错字登记（忠实保留、不改）——FK-Dobrushin domain 第二条 bullet 原文作 "medial sites a_δ, b_δ ∈ Ω◇_δ between arcs ∂_ba an ∂_ab^⋆"，"an" 系 "and" 脱字，文本层与 150dpi PNG 双通道一致，重导出时须按原样保留。∂ 的下标 ab/ba 与上标 ⋆ 堆叠继续为对账重点。
+
+## p.021（PDF p.21 / 印刷 p.21）
+- PNG：audit/p021.png（pngmono 150dpi）
+- 核对：整页为 Figure 6——Dobrushin boundary conditions 的 Ω_δ 图（primal 黑点、dual Ω_δ^⋆ 白圈、中间 medial graph Ω_δ^◇；图内标注 ∂_ba、∂_ba^⋆、A、A^⋆、a_δ、b_δ、∂_ab、∂_ab^⋆、Ω_δ^◇ 及注记 "do not belong to Ω_δ^◇"）；长图注——∂_ba 与 ∂_ab^⋆ 为两条最外弧、∂_ba^⋆/∂_ab^⋆ 从内侧毗邻 ∂_ba/∂_ab、solid lines 为 ∂_ab 与 ∂_ba（dashed 为 ∂_ab^⋆ 与 ∂_ba^⋆）；页脚印刷页码 21。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：文本层把图中菱形上标映射为 "!"（"Ω!δ"、"Ω!δ"），属嵌入字体 ToUnicode 缺失的伪影；PNG 为裁决源，重导出时图中标注须逐个按 PNG 核对（含 A/A^⋆ 两点）。
