@@ -285,3 +285,9 @@
 - 核对：§6 三步策略续两条 bullet——time-changed Loewner chain with continuous driving process（Beffara's course 引用）、唯一可能 driving process 为 √κB_t（B_t standard Brownian motion）；Lévy's theorem 段——X_t 与 X_t² − at 均为 martingale 的连续实值过程必为 √aB_t；§6.1 Tightness of interfaces for the FK-Ising model 标题；Theorem 6.1——(γ_δ)_{δ>0} 对 curve distance 拓扑 tight；[AB99] annuli crossed back and forth 论述；S_{r,R}(x) = (x+[−R,R]²) ∖ (x+[−r,r]²) 与 A_k(x;r,R)（k crossings）记号；Theorem 6.2 (Aizenman-Burchard [AB99])——P_δ(A_k(x;r,R)) ≤ C_k(r/R)^{Δ_k}（k ∈ N、C_k < ∞、Δ_k > 2）⟹ (γ̃_δ) tight；Lemma 6.3 (Circuits in annuli)——φ^1_{p_sd,S_{n,2n}(x)}(E(x;n,2n)) ≤ c（c < 1）；wired boundary conditions 与 decouple 论述；页脚印刷页码 44。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：S_{r,R}(x) 下标 r,R、(r/R)^{Δ_k} 指数、φ 上标 1 与 p_sd,S_{n,2n}(x) 堆叠以 PNG 为准；𝔼 概率记号未见（本页无）。
+
+## p.045（PDF p.45 / 印刷 p.45）
+- PNG：audit/p045.png（pngmono 150dpi）
+- 核对：Figure 14（左：event A_6(x,r,R) 与 alternating open/closed paths；右：矩形 R_T、R_R、R_B、R_L 被 closed paths 沿长边穿过，标注 [−n,n]² 与 [−2n,2n]²）及图注；Lemma 6.3 Proof——四矩形 R_B = [−2n,2n]×[−n,−2n]、R_L = [−2n,−n]×[−2n,2n]、R_T = [−2n,2n]×[n,2n]、R_R = [n,2n]×[−2n,2n]（Theorem 3.16，Section 7.2 预引）、aspect ratio 4、closed path 概率 ≥ c_1、FKG inequality (3.2) ⟹ circuit 概率 ≥ c_1⁴、crossing 概率 ≤ c = 1 − c_1⁴ < 1（◻）；Proof of Theorem 6.1——公式 (6.1) φ^{a_δb_δ}_{Ω_δ,p_sd}(A_{2k}(x; r, 2r)) ≤ c^k（c < 1 一致）、alternating open/dual paths 论证、 successive conditionings、≤ [φ^1_{p_sd,S_{r,2r}(x)}(E(x; r, 2r))]^k、固定 k 使 c^k < 1/8、annulus 分解为 ln_2(R/r) 个 S_{r,2r}、公式 (6.2) φ(A_{2k}(x; r, R)) ≤ (r/R)³；页脚印刷页码 45。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷错字登记（忠实保留、不改）——"Using Lemma 6.3, φ… ≤ c < 1 and and (6.1) follows." 中 "and and" 连写为原文重复（文本层与 PNG 双通道一致）；(6.1)/(6.2) 编号齐全；R_B/R_L/R_T/R_R 与 [−2n,2n] 记号为对账锚点。
