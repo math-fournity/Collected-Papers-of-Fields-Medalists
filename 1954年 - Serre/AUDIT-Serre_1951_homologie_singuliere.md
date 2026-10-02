@@ -59,3 +59,11 @@
 - 仲裁记录：初读 150dpi 曾疑 MD 的 C_{r−1}^{p−1}（上标 p−1）为印刷 C_{r−1}^p 之误读；600dpi 三处裁剪（p006_Er_def_600.png、p006_kernel_600.png、p006_display2_600.png）确认印刷确为 **p−1**（E_r^p = C_r^p/(C_{r−1}^{p−1} + B_{r−1}^p)，展示式尾项 C_r^{p−1} + B_r^p），MD 与印刷逐字一致，无需修改。按数学直觉"改正"该上标反而是错的——print quirk 纪律的正面案例。
 - 差异：无。
 - 备注：本页公式密度最高，全部逐一核过；"Le terme E_1"起属印刷 p.430。
+
+## p.007（PDF p.7 / 印刷 p.430）
+- PNG：audit/p007.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p007_phi_600.png（A^{p,q} 定义行）、p007_phi2_600.png（Eilenberg 引用行）
+- 核对：Le terme E_1（E_1^p = H(A^p/A^{p−1})、∂: H(A^p/A^{p−1}) → H(A^{p−1}/A^{p−2})、"triple" (A^p, A^{p−1}, A^{p−2})）；Le terme E_∞（E_∞^p = C_∞^p/(C_∞^{p−1} + B_∞^p)）；D^p = C_∞^p/B_∞^p；D^p/D^{p−1} = E_∞^p；∩_p A^p = 0 与 ∩_p D^p remark；Note（J. Leray [23]、J-L. Koszul [20]、remplacer p par −p）；Eilenberg ([6], Exp. VIII)；§2 Cas d'un groupe gradué（ⁿA、d(ⁿA) ⊂ ⁿ⁻¹A、A^{p,q} = ⁽ᵖ⁺ᑫ⁾A ∩ A^p、H_n(A)）；Graduation des termes…开头（Nous noterons C_r^{p,q}, B_r^{p,q}, C_∞^{p,q}, B_∞^{p,q},）
+- 结果：PASS
+- 仲裁记录：①150dpi 初读 Eilenberg 引用疑为 [16]，600dpi（p007_phi2_600.png）+JSTOR 文本层双证为 **([6], Exp. VIII)**，MD 正确；②600dpi 确认印刷 "Nous poserons A^{p,q} = ⁽ᵖ⁺ᑫ⁾A ∩ A^p" 与 MD 逐字一致；③印刷本页作 "vis a vis"（a 无重音），MD 行 277 同样保留 "vis a vis"，忠实。
+- 差异：md "J.-L. Koszul" 对印刷 "J-L. Koszul"——标点规范化（排版级），不误导，不修。
+- 备注：md 中 D^{p,q} 定义句、E_r^{p,q} 商式、d_r 次数性质、(Φ) 假设、"Conséquences de l'hypothèse (Φ)" 均属印刷 p.431，留待 p.008 核对。
