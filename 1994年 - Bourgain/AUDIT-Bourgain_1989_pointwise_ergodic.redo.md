@@ -42,3 +42,10 @@
 - 核对：(1.4) 变差空间定义（含 sup 下标 $s;\,j_1<\dots<j_s$ 与 $x_{j_{s-1}}-x_{j_s}$、指数 $1/p$）；(1.5)–(1.6) 指数和与多项式；定理 1 陈述与 (1.7) 的范数/绝对值/上确界分组；定理后文字（$\mathbf{L}^r(\Omega,\mu)$、$r>1$、“positive isometries” 句、$p(x)=x^2$ 句）。文本层 + 150dpi 原页图 + 300dpi 局部裁片三通道，对 Markdown 第 67–121 行。
 - 结果：FAIL（一处，已当场修复）。(1.7) 现为 $\|\sup_{\mathbf N}|A_{\mathbf N}f|\|_r\leqslant C\|f\|_r$，与原页分组一致（Luna 对 (1.7) 的旧修复经核正确）。但 Luna 旧修复把 “positive isometries” 句的空间改成 $\mathbf{L}^{1}(\Omega,\mu)$ 并声称印刷为 $L^1$；本次 300dpi 裁片清晰显示印刷上标为斜体 **r**，原页为 $\mathbf{L}^{r}(\Omega,\mu)$。已用 Edit 将该处改回 `$\mathbf{L}^{r}(\Omega,\mu)$`（Luna 旧修复中的错误，本次纠正）。其余：印刷源级 quirks “we considerer the variation spaces”、定理 1 的 “by a dynamical system”、“the limit if given by” 均忠实保留未改；(1.4)–(1.6) 的下标、求和界与系数与原页一致。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 7。与 Luna 旧审（p.004 FAIL→修复）结论部分一致，但其 $L^1$ 判读经 300dpi 复核为误判。
 - 时间：2026-10-02 15:01 EDT 落签
+
+## p.005（PDF p.5 / 印刷 p.8）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p005.png`（Ghostscript `pngmono`，150dpi；原 PDF p.5）
+- 核对：定理 2 陈述与 (1.8) 的 $T^{[p(n)]}f$、$1\leqslant n\leqslant N$；$L^r$-results ($r>1$) 句；CONTENTS 目录 1–9 条及页码 1/4/8/13/19/21/25/34/36；appendix 合作者与 $[B_4]$、$[B_6]$；§2 开头一段与谱测度 (2.1)。文本层 + 150dpi 原页图双通道，对 Markdown 第 111–149 行。
+- 结果：PASS±。全部公式、目录条目、页码与合作者均与原页一致；(2.1) 的内积、$\widehat\nu(n)\equiv\int_0^1 e^{-2\pi i n\theta}\nu(d\theta)$ 与原页相符。微小字形注记：正文 “positive Radon measure v” 处印刷为斜体希腊 ν，Markdown 文字层用拉丁 v（下一行公式内为 $\nu$），不影响辨识。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 8。与 Luna 旧审（p.005 PASS±）结论一致，无修复。
+- 时间：2026-10-02 15:09 EDT 落签
