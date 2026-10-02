@@ -346,3 +346,10 @@
 - 证据：源 PDF p.047 文本层、页图 `audit/Hironaka_1964_resolution_partI_p047.png`（pngmono 150dpi）与 MinerU Markdown 第 769–777 行。Corollary 3 的局部拼接构造、投影映射、应用 Theorem I′、及关于 I′/II′ 推广的说明均与印刷页相符；图像核对了文本层丢失的帽记、限制符号和映射箭头。
 - 备注：印刷运行页眉和页码 154 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.048 / 96（印刷 p.155）— FAIL
+
+- 时间：2026-10-02 03:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.048 文本层、页图 `audit/Hironaka_1964_resolution_partI_p048.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p048_theorem_names.png` 与 MinerU Markdown 第 777 行。印刷写作 `I′(n)`、`II′(N)`，并分别称为主定理 `I(n)`、`II(N)`；Markdown 第 777 行把 I 写成花体 `\mathfrak{I}`，又把 II 写成希腊大写 Pi `\Pi`，均改变定理标识。
+- 备注：印刷运行页眉和页码 155 未录入 Markdown，属导航元素省略。
+- 结论：主定理符号 I/II 被转录为其他字形，列为 FAIL；待全文审计后逐处手工修复。
