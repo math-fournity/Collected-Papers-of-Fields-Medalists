@@ -438,9 +438,9 @@ $$
 
 The reason for this is that if V is finite-dimensional then$C ( V ) ^ { * }$(the dual space to$C ( V ) )$is the algebra of formal power series on V vanishing at the origin.
 
-Definition. A formal pointed manifold M is an object corresponding to a coalgebra which is isomorphic to$C ( V )$for some vector space V.
+Definition. A formal pointed manifold M is an object corresponding to a coalgebra$C$which is isomorphic to$C ( V )$for some vector space V.
 
-The specific isomorphism between and$C ( V )$is not considered as a part of data. Nevertheless, the vector space V can be reconstructed from M as the space of primitive elements in coalgebra . Speaking geometrically, V is the tangent space to M at the base point. A choice of an isomorphism between$\mathcal { C }$and $C ( V )$can be considered as a choice of an afine structure on M.
+The specific isomorphism between$C$and$C ( V )$is not considered as a part of data. Nevertheless, the vector space V can be reconstructed from M as the space of primitive elements in coalgebra$C$. Speaking geometrically, V is the tangent space to M at the base point. A choice of an isomorphism between$\mathcal { C }$and $C ( V )$can be considered as a choice of an afine structure on M.
 
 If$V _ { 1 }$and$V _ { 2 }$are two vector spaces then a map$f$between corresponding formal pointed manifolds is defined as a homomorphism of coalgebras (the pushforward on distributions supported at zero)
 
@@ -460,7 +460,7 @@ $$
 f ^ {(n)}: \left(\otimes^ {n} (V _ {1})\right) ^ {\Sigma_ {n}} \longrightarrow V _ {2}, n \geq 1
 $$
 
-can be considered as Taylor coeficients of$f .$. More precisely, Taylor coeficients are defined as maps
+can be considered as Taylor coeficients of$f$. More precisely, Taylor coeficients are defined as maps
 
 $$
 \partial^ {n} f: S y m ^ {n} (V _ {1}) \longrightarrow V _ {2}, \quad \partial^ {n} f (v _ {1} \cdot \ldots \cdot v _ {n}) := \frac {\partial^ {n}}{\partial t _ {1} \ldots \partial t _ {n}}   | _ {t _ {1} = \ldots = t _ {n} = 0}   (f (t _ {1} v _ {1} + \ldots + t _ {n} v _ {n}))    .
