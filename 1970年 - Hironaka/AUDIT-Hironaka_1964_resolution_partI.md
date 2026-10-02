@@ -1,0 +1,723 @@
+# Hironaka, Resolution of Singularities, Part I — 逐页审计
+
+## 任务与来源
+
+- 状态：96/96 页初审完成；正文修复已提交；修复后全篇复读与只读终验完成；修复登记见文末。
+- Actor：Peer-P38；model：gpt-6-luna；reasoning effort：max。
+- 角色：CONTRIBUTOR；唯一 canonical integrator：Master-Luna。
+- 审计基线：`037602429d3b009f6fc468c732073eb3ddf9875f`（main 的任务基线）。
+- 源 PDF：`Hironaka_1964_resolution_partI.pdf`；PDF 物理页数 96；SHA-256 `5827903e8edb78f93660c3ef7fa17fb2c83aa1718ed6b88d9aed2dcc65a63bd7`。
+- 唯一审计对象：`Hironaka_1964_resolution_partI_mineru/Hironaka_1964_resolution_partI__Hironaka_1964_resolution_partI.md`；修复前 SHA-256 `15f32017f4527f5e7ec8141804338637459dff4198d9535a69632714da3d21c2`；修复前行数/字节数 `2134 / 314059`。
+- 源类型：born-digital。`pdfinfo` 记录 Creator `PDFplus`、Producer `Atypon Systems, Inc.`；UTF-8 `pdftotext` 文本层 232523 字节、U+FFFD 计数 0。以 PDF 文本层逐物理页对账；目检题录页和 1–2 个密集数学页；文本层丢失/压平的符号及其他疑点回到源页 PNG 或 300dpi 裁片裁决。
+- MinerU doc_id：UNKNOWN；保留的导出元数据未记录该字段，不能从其他标识推断。
+- 页码映射：PDF p.001 是无印刷页码的 JSTOR 包装页；PDF p.002 印刷页 109，PDF p.096 印刷页 203。README 所列 95 页对应印刷页 109–203；任务索引与 PDF 物理页数均为 96。
+- 唯一证据图像名前缀：`audit/Hironaka_1964_resolution_partI_` 与 `audit/300dpi/Hironaka_1964_resolution_partI_`。未引用的临时渲染不保留。
+- 本篇页级签认由本文件和逐页 Git commits 保存；根 `AUDIT-PROGRESS.log`、`AUDIT-INDEX.md`、README 与 MEMORY 由 Master 独占维护，本 Peer 不修改。
+
+## 逐页签认
+
+### PDF p.001 / 96（无印刷页码）— PASS±
+
+- 时间：2026-10-01 16:18 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.001 文本层、入库页图 audit/Hironaka_1964_resolution_partI_p001.png（pngmono 150dpi）与 MinerU Markdown 第 1–13 行。页图确认 JSTOR 题录、使用条款及页底 “Annals of Mathematics is collaborating with JSTOR …” 说明和裸站点 URL；MinerU 保留题录/使用条款但省略页底平台说明和 URL。该遗漏不改变论文内容或书目信息，记为非误导性差异。
+- 结论：PDF p.001 是 JSTOR 包装页，未发现论文正文内容缺失；仅有上述包装说明省略。
+
+### PDF p.002 / 96（印刷 p.109，题录页）— PASS
+
+- 时间：2026-10-01 16:21 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.002 文本层、入库题录页图 `audit/Hironaka_1964_resolution_partI_p002.png`（pngmono 150dpi）与 MinerU Markdown 第 14–61 行。题名、作者、献词、收稿/修订日期、Part II 说明、参考文献 1–18 与作者资助脚注均相符。图像确认文本层的特殊字符提取失真不是印刷错误；例如参考文献 [1] 的 `p ≠ 0` 在 Markdown 中对应为 `p \neq 0`。
+- 结论：本页论文题录及参考文献内容与印刷页相符；未发现需修订项。
+
+### PDF p.003 / 96（印刷 p.110）— FAIL
+
+- 时间：2026-10-01 16:24 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.003 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p003.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p003_refs28_29.png` 与 MinerU Markdown 第 63–83 行。参考文献 [19]–[29] 顺序与主体可对账，但 [28] 在第 81 行停于 `Accad.`；印刷页还含 `Naz. dei Lincei, Roma, 31 (1962), 97-102 (Nota I) pp. 177-180 (Nota II).`，整段书目信息缺失，无法从当前条目定位完整来源。
+- 源级 print quirk：参考文献 [29] 印刷为 `Trans,`（逗号）；Markdown 保留该印刷字形，禁止据出版物惯例改成句点。
+- 备注：本页还开始目录，印刷内容到 Chapter III §4；Markdown 目录继续到 Chapter IV，后续部分须与 PDF p.004 对账。运行页眉 `HEISUKE HIRONAKA` 与页码 110 未录入 Markdown，属于重复导航元素省略。
+- 结论：引用 [28] 后半段确实缺失，列为 FAIL，待全篇审计结束后依据本页原文修复。
+
+### PDF p.004 / 96（印刷 p.111）— PASS±
+
+- 时间：2026-10-01 16:26 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.004 文本层、目检页图 `audit/Hironaka_1964_resolution_partI_p004.png`（pngmono 150dpi）与 MinerU Markdown 第 133–169 行。目录 Chapter III §5–§10、Chapter IV §1–§4 与该页续文吻合；开篇公式映射 `f:\widetilde{X} \to X` 及 `f^{-1}(V) \xrightarrow{\approx} V` 已在图像核验，后者与 Markdown 相符。文本层把这些符号压平，但未造成 Markdown 丢失。
+- 备注：印刷运行页眉和页码 111 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：目录续项及 Introduction 起始段无实质差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.005 / 96（印刷 p.112）— FAIL
+
+- 时间：2026-10-01 16:28 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.005 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p005.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p005_theorem_I.png` 与 MinerU Markdown 第 169–181 行。印刷多次写作 `Main theorem I`、`I*`、`I(n)`、`I'`、`I'(n)`、`I''(n)`；Markdown 第 177、179 行相应写成数字 `1`（如 `main theorem 1(n)`、`1'(n)`）。300dpi 图确认均为罗马大写 I，非阿拉伯数字 1，属于定理名称误录，待全篇审计后逐处手工修复。该页的映射公式 `f: \widetilde{X} \to X`、`f^{-1}(V) \xrightarrow{\approx} V` 及脚注 1 与原页相符。
+- 备注：印刷运行页眉与页码 112 未录入 Markdown，属非误导性导航元素省略。
+- 结论：定理编号 I 被误录为 1，列为 FAIL；修复前保留原稿。
+
+### PDF p.006 / 96（印刷 p.113）— PASS±
+
+- 时间：2026-10-01 16:29 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.006 文本层、入库页图 audit/Hironaka_1964_resolution_partI_p006.png（pngmono 150dpi）与 MinerU Markdown 第 183–190 行。页图逐段确认 Chapter 0 §§1–3、§5 概述、Levi–Zariski 说明、normal flatness 与代数边界段落相符；正文在印刷页末的 “into an” 处续至下一物理页，Markdown 后续行衔接相符。
+- 备注：印刷运行页眉与页码 113 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：未发现正文或数学记号差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.007 / 96（印刷 p.114）— PASS±
+
+- 时间：2026-10-01 16:29 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.007 文本层、页图 `audit/Hironaka_1964_resolution_partI_p007.png`（pngmono 150dpi）与 MinerU Markdown 第 191–205 行。Introduction 章节概述、脚注 2、以及基本定理标签 `I_{1}^{N,n}`、`I_{2}^{N,n}`、`II_{1}^{N}`、`II_{2}^{N}` 均与印刷页相符；图像校正了文本层在这些下标/上标处的丢失。
+- 备注：印刷运行页眉和页码 114 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.008 / 96（印刷 p.115）— PASS±
+
+- 时间：2026-10-01 16:31 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.008 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p008.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p008_nu_tau.png` 与 MinerU Markdown 第 207–209 行。逐项核对 normal-flatness 概述及 Chapter III 内容；300dpi 裁片确认原文的记号为 `ν*` 与 `τ*`，Theorem 3 的比较方向与 Markdown 中 `\nu^{*}`、`\tau^{*}` 相符。Markdown 行 209 在 “those” 处接续到下一物理页。
+- 备注：印刷运行页眉和页码 115 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文、定理记号或比较关系差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.009 / 96（印刷 p.116）— PASS±
+
+- 时间：2026-10-01 16:32 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.009 文本层、页图 `audit/Hironaka_1964_resolution_partI_p009.png`（pngmono 150dpi）与 MinerU Markdown 第 211、213、215–221 行。图像核定本页的符号为 `τ-frame`（文本层误成 `z-frame`）；Markdown 写作 `τ-frame`，并且 local-uniformization/Chapter IV 概述及脚注 3–5 对应原页。印刷作者致谢止于 `Professor`，Markdown 下一行从 `M. Kuranishi` 续接，未漏文。
+- 备注：印刷运行页眉和页码 116 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.010 / 96（印刷 p.117）— FAIL
+
+- 时间：2026-10-01 16:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.010 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p010.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_topology_not_supset.png`、局部态射裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_local_map.png` 与 MinerU Markdown 第 227–231 行。拓扑定义的印刷关系为 `P ⊅ I`（素理想 P 不包含理想 I），Markdown 写成 `P \not\cong I`；关系含义错误。局部环结构层定义、态射、预概形与 `Spec` 定义共有 10 处结构层/点下标误录，包括 `O_x/O_y/O_s` 应分别为 `O_X/O_Y/O_S`，以及态射 stalk target 从 `O_X` 改为 `O_{X,x}`。该页类别花体 `\mathcal{R}` 在 Markdown 中记作普通 `R`，仅属排版差异。
+- 结论：拓扑开集条件及结构层/stalk 记号有实质错误；全部按原页修复，列为 FAIL。
+
+### PDF p.011 / 96（印刷 p.118）— PASS±
+
+- 时间：2026-10-01 16:38 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.011 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p011.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p011_products.png` 与 MinerU Markdown 第 235–243 行。文本层压平了基底积、对角映射和 Hom 同构中的符号；图像确认 Markdown 的 `\pi_1`、`\pi_2`、`\Delta` 与同构关系正确。印刷产品符号使用小写下标 `s`（`\times_s`），Markdown 忠实保留，不按对数学记号的预期改成大写。印刷类别符号有独特字形，Markdown 记为普通 `S`，只记录为排版差异。
+- 备注：印刷运行页眉和页码 118 未录入 Markdown，属非误导性导航元素省略。
+- 结论：该页定义与映射内容相符；仅有类别符号字形和运行页眉/页码省略，记为 PASS±。
+
+### PDF p.012 / 96（印刷 p.119）— PASS±
+
+- 时间：2026-10-01 16:40 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.012 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p012.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p012_structural_morphism_order.png` 与 MinerU Markdown 第 247–251 行。有限型定义、类别路由、结构映射和复/实解析空间定义均与本页对应；文本层丢失了多处类别字形和映射符号，页图支持 Markdown 的 `p: X \to S`、`f: X_1 \to X_2` 与 `X_i` 等记号。
+- 源级 print quirk：印刷原页本身写作 `p_1 = f \circ p_2`，虽然前句将 `f` 写成 `X_1 \to X_2`，后句将 `p_i` 写成 `X_i \to S`。该组合顺序在类型上不相容，但 MinerU Markdown 忠实转录原页；按 print 优先原则不修正文档，只在此登记。
+- 备注：印刷运行页眉和页码 119 未录入 Markdown；部分花体类别字形简化为普通体。
+- 结论：未发现由 Markdown 新增的内容差异；保留已印出的映射次序 quirk，按 PASS± 记录。
+
+### PDF p.013 / 96（印刷 p.120）— FAIL
+
+- 时间：2026-10-01 16:42 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.013 文本层、页图 `audit/Hironaka_1964_resolution_partI_p013.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p013_complexification_symbols.png` 与 MinerU Markdown 第 253–267 行。高分辨率对照确认 4 处印刷结构层下标为大写空间标识 X、Markdown 初稿写作小写 x，分布在第 253 行 1 处、第 255 行 2 处和第 261 行 1 处；此前把小号大写 X 误认作小写 x 并降级为 PASS±，现撤回。其余 Hausdorff、Kⁿ-coordination、复化映射、同构条件及脚注 7 相符。
+- 备注：印刷运行页眉和页码 120 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：4 处结构层大写空间下标误录为小写并已修复，列为 FAIL；运行页眉与页码另未录入 Markdown。
+
+### PDF p.014 / 96（印刷 p.121）— FAIL
+
+- 时间：2026-10-01 16:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.014 文本层、页图 `audit/Hironaka_1964_resolution_partI_p014.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p014_sheaf_and_stalk.png` 与 MinerU Markdown 第 273、275 行。高分辨率对照确认印刷结构层为 `O_X`，点处局部环为 `O_{X,x}`；Markdown 分别写为 `O_x` 与 `O_{x,x}`，丢失大写空间标识 X。此前将小号大写 X 误读为小写并降级为 PASS±，现撤回。其余 simple/multiple 点条件、解析坐标、复化及脚注 8–11 相符。
+- 备注：页内关于简单/多重点、解析坐标、复化及脚注 8–11 的其余内容与原页相符；印刷运行页眉、页码 121 未录入 Markdown。
+- 结论：结构层/局部环下标误录大小写，列为 FAIL；运行页眉与页码另未录入 Markdown。
+
+### PDF p.015 / 96（印刷 p.122）— FAIL
+
+- 时间：2026-10-01 16:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.015 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p015.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p015_local_ring_indices.png` 与 MinerU Markdown 第 285–297 行。条件 (1) 印刷为局部环 `O_{X,\lambda(\hat{x})}`，条件 (2) 的 homomorphism source 同样以该局部环为源；Markdown 第 287、289 行均漏掉 `X` 与 `\lambda(\hat{x})` 之间的逗号，损坏局部环下标结构。其余 universal-property/canonical-map 关系及脚注 12 与原页相符。
+- 备注：印刷运行页眉与页码 122 未录入 Markdown，属导航元素省略。
+- 结论：局部环 index 标点缺失，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.016 / 96（印刷 p.123）— PASS±
+
+- 时间：2026-10-01 16:48 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.016 文本层、页图 `audit/Hironaka_1964_resolution_partI_p016.png`（pngmono 150dpi）与 MinerU Markdown 第 299–307 行。模块、态射对、同调映射、blowing-up 的 universal mapping property 及存在定理段落均与该页相符；文本层多处损失 `\mathcal{R}`、`\mathcal{M}`、`\Phi` 等符号，已对照页图确认 Markdown 保留这些记号。
+- 备注：印刷运行页眉和页码 123 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.017 / 96（印刷 p.124）— FAIL
+
+- 时间：2026-10-01 17:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.017 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p017.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p017_proj_and_stalks.png` 与 MinerU Markdown 第 317、319 行。对称张量代数和 Proj 构造均与原页对应；高分辨率对照显示结构层 O_X/O_X' 共 6 处大小写误录，其中 5 处在第 317 行、1 处在第 319 行。第 319 行表示点处局部环的 O_x 保持原样，不与结构层混淆。
+- 备注：印刷运行页眉和页码 124 未录入 Markdown，属不影响正文的导航元素省略。
+- 结论：6 处结构层空间下标大小写误录并已修复，列为 FAIL；运行页眉与页码 124 另未录入 Markdown。
+
+### PDF p.018 / 96（印刷 p.125）— FAIL
+
+- 时间：2026-10-01 23:24 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.018 文本层、页图 `audit/Hironaka_1964_resolution_partI_p018.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p018_Px_sheaf.png` 与 MinerU Markdown 第 325、327 行。印刷定义为 P^x=(P^x,O_{P^x})；Markdown 第 325 行的 5 处 O_{Px} 均漏掉结构层下标中 P 的上标 x，现已逐处补回。裁片确认原页上下标；对称张量代数、开集基和脚注 13–14 的其余部分逐项对应。
+- 备注：印刷运行页眉和页码 125 未录入 Markdown，属导航元素省略。
+- 结论：5 处结构层下标丢失上标并已修复，列为 FAIL。
+
+### PDF p.019 / 96（印刷 p.126）— PASS±
+
+- 时间：2026-10-02 00:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.019 文本层、页图 `audit/Hironaka_1964_resolution_partI_p019.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p019_analytic_projective.png` 与 MinerU Markdown 第 329–335 行。解析 K-cover、`\lambda^{*}(I)`、`\Psi=(f\circ\lambda,\psi\circ\varphi)` 和 projective 映射定义逐项核对相符。
+- 源级 print quirk：印刷给出的 `\tilde{f}` 同构目标写为 `X|h^{-1}(T)`（未带波浪），即使此前定义 `N=(\tilde{X},\tilde{J})` 且 `\Phi=(h,\alpha)`；Markdown 忠实保留该页字面式，不按图式预期补波浪。
+- 备注：印刷运行页眉和页码 126 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现 Markdown 与印刷页的内容差异；登记源页式样 quirk，并因页眉/页码省略记为 PASS±。
+
+### PDF p.020 / 96（印刷 p.127）— PASS±
+
+- 时间：2026-10-02 00:15 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.020 文本层、页图 `audit/Hironaka_1964_resolution_partI_p020.png`（pngmono 150dpi）与 MinerU Markdown 第 339–343 行。Chow 定理段落续文、`(\mathcal{R}/S)`-ideal 定义、映射对与 sheaf homomorphism 条件、annihilator 构造及 footnote 14″ 均相符；页图确认文本层压平的 `\theta`、`\varphi` 和结构 sheaf 下标按 Markdown 当前写法保留。
+- 备注：印刷运行页眉与页码 127 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.021 / 96（印刷 p.128）— PASS±
+
+- 时间：2026-10-02 00:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.021 文本层、页图 `audit/Hironaka_1964_resolution_partI_p021.png`（pngmono 150dpi）与 MinerU Markdown 第 345–349 行。coherent ideal categories、(S_A^*(J))/(I_1^*) 的 Proj 构造、从局部 ringed spaces 态射诱导 sheaf-ideal 映射及逆像记号均与印刷页相符；页图核验了文本层丢失的上/下标和范畴符号。
+- 备注：印刷运行页眉和页码 128 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.022 / 96（印刷 p.129）— FAIL
+
+- 时间：2026-10-02 00:24 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.022 文本层、页图 `audit/Hironaka_1964_resolution_partI_p022.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p022_ideal_morphism.png` 与 MinerU Markdown 第 357 行。印刷定义的局部环结构层商为 `O_X/J`，限制到 D；Markdown 写作 `O_x/J`，把空间下标 X 变成小写 x。裁片核准该字形不是局部点变量。其余 universal property、理想/子空间对应及 footnote 15 对应。
+- 备注：印刷运行页眉和页码 129 未录入 Markdown，属导航元素省略。
+- 结论：结构层下标大小写误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.023 / 96（印刷 p.130）— FAIL
+
+- 时间：2026-10-02 00:42 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.023 文本层、页图 `audit/Hironaka_1964_resolution_partI_p023.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p023_generic_local_ring.png` 与 MinerU Markdown 第 363–369 行。本页印刷给出 generic point 处局部环 `O_{X,\bar{x}}`；Markdown 第 367 行写为 `O_{x,\bar{x}}`，把空间标识 X 误为小写 x。章节题名中的 `Main theorem I`、generic point 横线及其余域扩张记号与原页相符。
+- 补充修复记录：同页段首的 scheme 结构层 O_X 在 MinerU 初稿中也误作 O_x；它与 generic-point 局部环下标一并按 p.023 页图修复。
+- 备注：印刷运行页眉和页码 130 未录入 Markdown，属导航元素省略。
+- 结论：结构层及 generic-point 局部环下标大小写误录并已修复，列为 FAIL；运行页眉和页码仍未录入 Markdown。
+
+### PDF p.024 / 96（印刷 p.131）— FAIL
+
+- 时间：2026-10-02 00:47 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.024 文本层、页图 `audit/Hironaka_1964_resolution_partI_p024.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p024_references.png` 与 MinerU Markdown 第 369、373 行。脚注 [16] 印刷书名为 `Faisceaux algébriques cohérents`，Markdown 第 373 行写成 `Faisceaux algebrigues cohérents`，重音和字母次序均不符；需按此页书名修复。方程/域扩张段的符号对应原页。
+- 源级 print quirk：同一页正文印刷拼作 `conicides`；Markdown 忠实保留此拼法，不按英语惯用拼法订正。
+- 备注：印刷运行页眉和页码 131 未录入 Markdown，属导航元素省略。
+- 结论：参考文献 [16] 书名发生 OCR 误录，列为 FAIL；源级正文拼写 quirk 保留。
+
+### PDF p.025 / 96（印刷 p.132）— FAIL
+
+- 时间：2026-10-02 00:53 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.025 文本层、页图 `audit/Hironaka_1964_resolution_partI_p025.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p025_theorem_I.png` 与 MinerU Markdown 第 375–399 行。印刷在第 381、383 行关联段落和本页强形式起句反复使用罗马大写 `I`；Markdown 将其误录为阿拉伯 `1`（行 381、383）或小写 `i`，并在第 391 行把 `theorem` 拼成 `therem`。裁片确认这不是印刷写法差异，待全篇初审结束后逐处修复。
+- 备注：印刷运行页眉与页码 132 未录入 Markdown，属导航元素省略。
+- 结论：定理编号与术语有 OCR 误录，列为 FAIL。
+
+### PDF p.026 / 96（印刷 p.133）— FAIL
+
+- 时间：2026-10-02 01:00 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.026 文本层、页图 `audit/Hironaka_1964_resolution_partI_p026.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p026_multiplicity_stalk.png` 与 MinerU Markdown 第 399–409 行。印刷 multiplicity 定义中的局部环为 `O_{x,x}`；Markdown 第 409 行写成 `O_{Xx}`（无分隔逗号），随后将 multiplicity 写作 `e(O_{X,x})`，下标与印刷的两级小写索引不一致。其他 (gr_m^p(A))、ν_M(J) 及 theorem I* 记号与本页相符。
+- 源级 print quirk：印刷在局部环条件后明确写作 e(O_{x,x})；初稿的 e(O_{X,x}) 已按原页改正，并保留原文这个下标写法。
+- 备注：印刷运行页眉和页码 133 未录入 Markdown，属导航元素省略。
+- 结论：局部环 stalk 下标与 multiplicity 记号误录已按印刷页修复；保留 e(O_{x,x}) 这一原页写法，列为 FAIL。
+
+### PDF p.027 / 96（印刷 p.134）— FAIL
+
+- 时间：2026-10-02 01:06 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.027 文本层、页图 `audit/Hironaka_1964_resolution_partI_p027.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p027_multiplicity_bounds.png` 与 MinerU Markdown 第 411–433 行。Statements (A)–(C)、Question (D) 的 multiplicity 阈值 `≥ d`、`< d` 与前后映射均对应原页；但原文两处写作罗马大写 `Main theorem I`，Markdown 第 431 行写成数字 `1`，属于定理编号误录。
+- 备注：印刷运行页眉和页码 134 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I/1 不符，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.028 / 96（印刷 p.135）— FAIL
+
+- 时间：2026-10-02 01:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.028 文本层、页图 `audit/Hironaka_1964_resolution_partI_p028.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p028_main_theorem_I.png` 与 MinerU Markdown 第 435–453 行。印刷页写作 `main theorem I`（强形式引用），Markdown 第 451 行写成 `main theorem 1`；300dpi 图确认是罗马大写 I。Definition 1 关于 `gr_D^p(X)` 与 `J^p/J^{p+1}` 的记号与原页一致。
+- 备注：印刷运行页眉和页码 135 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I 误录为 1，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.029 / 96（印刷 p.136）— FAIL
+
+- 时间：2026-10-02 01:17 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.029 文本层、页图 `audit/Hironaka_1964_resolution_partI_p029.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p029_theorem_I.png` 与 MinerU Markdown 第 455–469 行。normal-flatness 定义中的 `gr_D^p(X)`、`J^p/J^{p+1}`、`O_{D,x}` 及命题 (I)、(II) 与原页相符；第 467 行的 `main theorem 1` 对应印刷的罗马大写 `main theorem I`，属定理编号误录。
+- 修复后复读发现：p.029 页脚的完整脚注 18 后，初稿另有一条重复公式片段 A = Γ(H, O_X|H)。原页只在完整脚注 18 中出现该式；已删除孤立副本并保留完整脚注。
+- 备注：印刷运行页眉和页码 136 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I/1 误录与脚注 18 的重复公式片段均已修复，列为 FAIL；完整脚注保留。
+
+### PDF p.030 / 96（印刷 p.137）— PASS±
+
+- 时间：2026-10-02 01:23 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.030 文本层、页图 `audit/Hironaka_1964_resolution_partI_p030.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p030_stability_and_I.png` 与 MinerU Markdown 第 469–485 行。脚注 18–19、singularity character `s_x(X/Y)`、性质 (1) 的比较关系、性质 (2) 的 `i ≥ r` 等号方向及 Question (D*) 起始段逐项对应；图像确认文本层丢失的上/下标和不等号方向未进入 Markdown。
+- 备注：印刷运行页眉和页码 137 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.031 / 96（印刷 p.138）— FAIL
+
+- 时间：2026-10-02 01:30 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.031 文本层、页图 `audit/Hironaka_1964_resolution_partI_p031.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p031_theorem_I_star.png` 与 MinerU Markdown 第 485–515 行。印刷 `main theorem I`（上一节定理的引用）为罗马大写 I，Markdown 第 493 行写成数字 `1`。Question (D*) 的映射、限制及严格下降式与本页对应。
+- 源级 print quirk：MAIN THEOREM I* 的条件 (b) 在印刷中写成 `X_r`，虽周围索引为 `i`；Markdown 同样写 `X_r`，忠实保留原页，不擅自改成 `X_i`。
+- 备注：印刷运行页眉与页码 138 未录入 Markdown，属导航元素省略。
+- 结论：定理编号误录列为 FAIL；条件 (b) 的 X_r 保留并列入源级 quirk。
+
+### PDF p.032 / 96（印刷 p.139）— FAIL
+
+- 时间：2026-10-02 01:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.032 文本层、页图 `audit/Hironaka_1964_resolution_partI_p032.png`（pngmono 150dpi）与 MinerU Markdown 第 515–519 行。proper rational application 的图像投影条件、domain of definition、复合条件及 elimination-of-indeterminacy 问题均相符；但 Markdown 第 517 行写作 `these exists a unique morphism`，印刷为 `there exists a unique morphism`，是可见正文转录错误，待全文审完后手工修复。
+- 备注：印刷运行页眉与页码 139 未录入 Markdown，属导航元素省略。
+- 结论：正文出现词汇误录，列为 FAIL。
+
+### PDF p.033 / 96（印刷 p.140）— PASS±
+
+- 时间：2026-10-02 01:39 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.033 文本层、页图 `audit/Hironaka_1964_resolution_partI_p033.png`（pngmono 150dpi）与 MinerU Markdown 第 515、517–535 行。Question (E) 的三项条件、proper rational application 与 graph projection 说明、trivialization 段落及脚注 22 对应印刷页；图像确认文本层显示的 `propar` 是提取失真，印刷实际拼作 `proper`，Markdown 保留正确印字。
+- 备注：印刷运行页眉和页码 140 未录入 Markdown，属导航元素省略。
+- 结论：未发现 Markdown 内容差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.034 / 96（印刷 p.141）— FAIL
+
+- 时间：2026-10-02 01:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.034 文本层、页图 `audit/Hironaka_1964_resolution_partI_p034.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p034_ideal_indices.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p034_normal_crossings.png` 与 MinerU Markdown 第 539、545 行。性质 (*) 原文条件中残余理想的点 index 写为 `J'_{i,x}=O_{X',x}`；Markdown 写成 `J_{ix}'`，丢失 i 与 x 之间的逗号。normal-crossings 定义里的 `O_{x,x}` 参数环与原页相符。
+- 备注：印刷运行页眉和页码 141 未录入 Markdown，属导航元素省略。
+- 结论：局部理想 index 分隔符误录，列为 FAIL；待全篇审计完成后逐处修复。
+
+### PDF p.035 / 96（印刷 p.142）— FAIL
+
+- 时间：2026-10-02 01:56 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.035 文本层、页图 `audit/Hironaka_1964_resolution_partI_p035.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p035_J_index.png` 与 MinerU Markdown 第 553–567 行。Main theorem II 条件 (ii) 印刷为 `\nu(J_{i,x(i)})`；Markdown 第 561 行写作 `\nu(J_{ix(i)})`，丢失 sheaf index i 与 point x(i) 之间的逗号，裁片确认该分隔符。
+- 备注：印刷运行页眉和页码 142 未录入 Markdown；其余 weak-transform 与 E_{i+1} 公式相符。
+- 结论：局部 sheaf-index 结构误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.036 / 96（印刷 p.143）— FAIL
+
+- 时间：2026-10-02 02:02 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.036 文本层、页图 `audit/Hironaka_1964_resolution_partI_p036.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p036_transform_indices.png` 与 MinerU Markdown 第 561、575、577 行。Main theorem II 条件 (iv) 印刷为 `\nu(J_{r,y})<d`，Markdown 第 575 行写成 `\nu(J_{ry})<d`；由 (ii) 推出的 `\nu(J_{i,x(i)})=d` 在第 577 行也丢失 i 与点 x(i) 间的逗号。300dpi 裁片核准这两个索引分隔符。
+- 备注：B* 比较方向、e≥1 与两项 corollary 条件相符；印刷运行页眉和页码 143 未录入 Markdown。
+- 结论：两个局部 sheaf/stalk index 逗号缺失，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.037 / 96（印刷 p.144）— FAIL
+
+- 时间：2026-10-02 02:11 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.037 文本层、页图 `audit/Hironaka_1964_resolution_partI_p037.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p037_ideal_index.png` 与 MinerU Markdown 第 589–599 行。印刷 T/S 集合定义在条件项中使用 local ring `O_{X,x}`；Markdown 第 589 行写为 `O_X_x`，第 591 行写为 `O_{x,x}`，均未保留大写空间下标 X 与点 x 的逗号/区分。裁片核实了上下文中两者是不同 index。
+- 备注：Corollary 1 的闭子集构造及函数域对的 (1)/(2) 叙述其余部分与原页相符；印刷运行页眉和页码 144 未录入 Markdown。
+- 结论：局部环下标误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.038 / 96（印刷 p.145）— FAIL
+
+- 时间：2026-10-02 02:17 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.038 文本层、页图 audit/Hironaka_1964_resolution_partI_p038.png（pngmono 150dpi）、300dpi 裁片 audit/300dpi/Hironaka_1964_resolution_partI_p038_sheaf_indices.png 与 MinerU Markdown 第 595–609 行。印刷第 601 行引用 main theorem I，Markdown 初稿写作 main theorem 1，现已修复。此前记录的 Corollary 2 证明第 607 行 O_x-modules 差异是误报：印刷页与原始 MinerU Markdown 均为 O_X-modules，该处未编辑。其余 direct-image 和 quotient-sheaf 语句与原页对应。
+- 备注：印刷运行页眉与页码 145 未录入 Markdown，属导航元素省略。
+- 结论：定理编号 I/1 误录并已修复，列为 FAIL；结构层下标在此处相符。
+
+### PDF p.039 / 96（印刷 p.146）— PASS±
+
+- 时间：2026-10-02 02:21 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.039 文本层、页图 `audit/Hironaka_1964_resolution_partI_p039.png`（pngmono 150dpi）与 MinerU Markdown 第 609–630 行。Corollary 3 的复合中心、约化总变换和法向交叉条件，以及 Zariski space 的定义/两条相容性质与原页对应；页图核验了文本层丢失的上划线和函子符号。
+- 源级 print quirk：Corollary 3 后的段落写“assumption of Corollary 2”；Markdown 保留该交叉引用，不按上一段推改为 Corollary 3。
+- 备注：印刷运行页眉和页码 146 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现 Markdown 内容差异；记录印刷交叉引用 quirk，并因页眉/页码省略记为 PASS±。
+
+### PDF p.040 / 96（印刷 p.147）— FAIL
+
+- 时间：2026-10-02 02:28 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.040 文本层、页图 `audit/Hironaka_1964_resolution_partI_p040.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_space.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_restriction.png`，以及 MinerU Markdown 第 641–665 行。原页反复以花体 Zariski-space 记号 `\mathfrak{Z}` 书写 `\mathfrak{Z}(X)`、`\mathfrak{Z}(g)` 等；Markdown 多处转成数字 `3`（例如第 643、659、661、663、665 行），改变了专名对象的记号。
+- 备注：印刷运行页眉和页码 147 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.041 / 96（印刷 p.148）— FAIL
+
+- 时间：2026-10-02 02:34 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.041 文本层、页图 `audit/Hironaka_1964_resolution_partI_p041.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p041_zariski_symbol.png` 与 MinerU Markdown 第 647–663 行。原页 Theorem / Question (F) 使用花体 Zariski-space 标识 `\mathfrak{Z}`，Markdown 第 659、661、663 行及后续关联式将其写成数字 `3`，包括 `\mathfrak{Z}(X_1)`、`\mathfrak{Z}(X_2)`、`h_i:\mathfrak{Z}\to X_i`。`dim(X)\leq 3` 的边界与原页相符。
+- 备注：印刷运行页眉和页码 148 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.042 / 96（印刷 p.149）— FAIL
+
+- 时间：2026-10-02 02:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.042 文本层、页图 `audit/Hironaka_1964_resolution_partI_p042.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p042_zariski_questions.png` 与 MinerU Markdown 第 659–677 行。Question (F) 和后续定理里的 Zariski space 印刷为花体 `\mathfrak{Z}`，Markdown 相应多处写成数字 `3`，包括全局空间、`h_i` 的定义域及定理假设中的对象；维数关系 `\dim(X_1)=\dim(X_2)\geq 3` 与问题 (F′) 复合映射其余部分相符。
+- 备注：印刷运行页眉和页码 149 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL。
+
+### PDF p.043 / 96（印刷 p.150）— FAIL
+
+- 时间：2026-10-02 02:46 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.043 文本层、页图 `audit/Hironaka_1964_resolution_partI_p043.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p043_zariski_space.png` 与 MinerU Markdown 第 681–693 行。Question (F) 结尾和 Theorem (a) 中 canonical map 的定义域在印刷中是花体 Zariski-space 符号 `\mathfrak{Z}`；Markdown 第 681、687 行写成数字 `3`，复用 p.40–42 的系统性符号误录。维数界、归一化/monoidal transformation 序列和 compact-window 结论均相符。
+- 备注：印刷运行页眉与页码 150 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后统一逐处修复。
+
+### PDF p.044 / 96（印刷 p.151）— PASS±
+
+- 时间：2026-10-02 02:50 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.044 文本层、页图 `audit/Hironaka_1964_resolution_partI_p044.png`（pngmono 150dpi）与 MinerU Markdown 第 697–709 行。维数 2/3 对比、analytic C-space 覆盖范围、局部环类 `\mathcal B`、Strong Theorem I 与 Theorem I′ 起始陈述均与原页相符。
+- 备注：印刷运行页眉和页码 151 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.045 / 96（印刷 p.152）— FAIL
+
+- 时间：2026-10-02 02:56 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.045 文本层、页图 `audit/Hironaka_1964_resolution_partI_p045.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p045_theorem_II_prime.png` 与 MinerU Markdown 第 709–735 行。印刷 Main theorem II′ 引用的是 `main theorem I′`，Markdown 第 721 行写作 `main theorem 1′`；条件 (ii) 印刷为 `\nu(I_{i,y})`，Markdown 第 725 行写成 `\nu(I_{iy})`，丢失 i/y 下标分隔逗号。其余弱变换和 (E_{i+1}) 条件相符。
+- 备注：印刷运行页眉和页码 152 未录入 Markdown，属导航元素省略。
+- 结论：定理标号及局部 ideal index 有两处误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.046 / 96（印刷 p.153）— PASS±
+
+- 时间：2026-10-02 03:02 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.046 文本层、页图 `audit/Hironaka_1964_resolution_partI_p046.png`（pngmono 150dpi）与 MinerU Markdown 第 737–767 行。Local Chow lemma 两项、Corollary 1 的四项、higher-direct-image vanishing 与 Corollary 3 起始句的映射/下标方向均对照原页一致。
+- 备注：印刷运行页眉和页码 153 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.047 / 96（印刷 p.154）— PASS±
+
+- 时间：2026-10-02 03:06 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.047 文本层、页图 `audit/Hironaka_1964_resolution_partI_p047.png`（pngmono 150dpi）与 MinerU Markdown 第 769–777 行。Corollary 3 的局部拼接构造、投影映射、应用 Theorem I′、及关于 I′/II′ 推广的说明均与印刷页相符；图像核对了文本层丢失的帽记、限制符号和映射箭头。
+- 备注：印刷运行页眉和页码 154 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.048 / 96（印刷 p.155）— FAIL
+
+- 时间：2026-10-02 03:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.048 文本层、页图 `audit/Hironaka_1964_resolution_partI_p048.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p048_theorem_names.png` 与 MinerU Markdown 第 777 行。印刷写作 `I′(n)`、`II′(N)`，并分别称为主定理 `I(n)`、`II(N)`；Markdown 第 777 行把 I 写成花体 `\mathfrak{I}`，又把 II 写成希腊大写 Pi `\Pi`，均改变定理标识。
+- 备注：印刷运行页眉和页码 155 未录入 Markdown，属导航元素省略。
+- 结论：主定理符号 I/II 被转录为其他字形，列为 FAIL；待全文审计后逐处手工修复。
+
+### PDF p.049 / 96（印刷 p.156）— FAIL
+
+- 时间：2026-10-02 03:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.049 文本层、页图 `audit/Hironaka_1964_resolution_partI_p049.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p049_theorem_IIprime_indices.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p049_local_rings.png`，并比对 MinerU Markdown 第 797–809 行。Main theorem II′ 的名称、well-ordered sequence 和局部环事实对应原页；但条件 (ii) 印刷写作 `\nu(J_{\lambda,y})`，Markdown 第 801 行为 `\nu(J_{\lambda y})`，遗漏 index λ 与点 y 之间的逗号。
+- 备注：印刷运行页眉和页码 156 未录入 Markdown，属导航元素省略。
+- 结论：局部理想下标分隔符误录，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.050 / 96（印刷 p.157）— PASS±
+
+- 时间：2026-10-02 03:27 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.050 文本层、页图 `audit/Hironaka_1964_resolution_partI_p050.png`（pngmono 150dpi）与 MinerU Markdown 第 811–815 行。`n' ≤ n` 的界、Theorem I′(n) 归纳链、基础变换诱导的闭子空间和临时重变换过程与原页对应；图像确认文本层压平的帽记和不等号。
+- 备注：印刷运行页眉和页码 157 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.051 / 96（印刷 p.158）— FAIL
+
+- 时间：2026-10-02 03:36 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.051 文本层、页图 `audit/Hironaka_1964_resolution_partI_p051.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p051_theorem_II_notation.png` 与 MinerU Markdown 第 815–825 行。印刷将第二主定理记为罗马数字 `II′(N)`/`II(N)`；Markdown 第 817 行将同段的 `II′(N)` 和两处 `II(N)` 都录为希腊字母 `\Pi`，第 819 行再次将 `II′(N)` 录为 `\Pi′(N)`。另印刷第 158 页 `\Gamma(X, O_X)` 与 `X=(X,O_X)` 的 sheaf 符号均为大写下标 `X`，Markdown 第 821 行两处均写作 `O_x`。相邻定理 I′/II″ 标识、基础定理 `I_2^{N,n}`、解析类比 `III(N,n)`、态射与变换链的其余对应文本已对照页图。
+- 备注：印刷运行页眉和页码 158 未录入 Markdown，属导航元素省略。
+- 结论：主定理 II/II′ 被误录为 Pi/Π，且结构层符号 `O_X` 的下标大小写错误，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.052 / 96（印刷 p.159）— FAIL
+
+- 时间：2026-10-02 03:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.052 文本层、页图 `audit/Hironaka_1964_resolution_partI_p052.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p052_theorem_IIprime.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p052_Zariski_notation.png`，并比对 MinerU Markdown 第 827、829–837 行。页首印刷写作 `II′(N)`，Markdown 第 827 行误录为希腊字母 `\Pi′(N)`。本页关于解析情形的限制、维数界、Question (M)、Zariski 空间及其规范态射、下标 0 和脚注 27 的正文均与印刷页对应；300dpi 裁片确认字体化 Z 及其下标，Markdown 对应使用 `\mathfrak{Z}`/`\mathfrak{Z}_0`。
+- 备注：印刷运行页眉和页码 159 未录入 Markdown，属导航元素省略。
+- 结论：定理 II′ 标识误录为 Pi′，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.053 / 96（印刷 p.160）— FAIL
+
+- 时间：2026-10-02 03:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.053 文本层、页图 `audit/Hironaka_1964_resolution_partI_p053.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p053_IIprime_and_note28.png`、`audit/300dpi/Hironaka_1964_resolution_partI_p053_G_and_footnote.png` 与 MinerU Markdown 第 839、845 行。印刷称 `main theorem II′(3)`，Markdown 第 839 行误录为 `\Pi′(3)`；并且印刷在 `n=dim(X)` 后有脚注标记 28，Markdown 第 839 行漏掉该锚点，虽然脚注 28 的正文保留在第 845 行。图像还确认印刷写作 `g: X_i \to X`（此处确为小写下标 i），以及例中关于 $X_i$、$h_1$、$h_2$、变换序列、维数界与局部图的其余记号/叙述均与 Markdown 对应。
+- 备注：印刷运行页眉和页码 160 未录入 Markdown，属导航元素省略。
+- 结论：主定理 II′ 标识误录为 Pi′，且正文遗漏脚注 28 锚点（脚注本身仍在）；列为 FAIL，待全篇审计后逐处手工修复。
+
+### PDF p.054 / 96（印刷 p.161）— FAIL
+
+- 时间：2026-10-02 03:48 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.054 文本层、页图 `audit/Hironaka_1964_resolution_partI_p054.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p054_footnote_numbers_and_Inst.png` 与 MinerU Markdown 第 847、849–873 行。印刷脚注 30 的正文在 Markdown 第 871 行误标为 `^{80}`；同一注释中的期刊出版机构缩写印刷为 `de l'Inst.`，Markdown 第 871 行将小写字母 `l` 录成数字 `1`。正文条件 (i)–(iii)、性质 (a)–(c) 与脚注 29、31 的内容相符；另印刷在 Markdown 第 849、859 行写作花体 `\mathcal{B}` 的 class 名称为普通 `B`，而同页的 membership 公式仍保留花体，属于不改变指代的正/花体混排（PASS±）。
+- 备注：Markdown 第 845 行的脚注 28 正文属于上一印刷页 p.160 的页脚，不计作本页内容；本页印刷运行页眉和页码 161 未录入 Markdown，属导航元素省略。
+- 结论：脚注 30 号误录为 80，刊名缩写小写 `l` 误录为数字 `1`，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.055 / 96（印刷 p.162）— PASS±
+
+- 时间：2026-10-02 03:51 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.055 文本层、页图 `audit/Hironaka_1964_resolution_partI_p055.png`（pngmono 150dpi）与 MinerU Markdown 第 875、877、879、881 行。关于代数 scheme 的定义和结构态射、local-ring class B 在代数/解析几何中的范围、选择较小 B 类的说明及脚注 32 均对应印刷页。印刷多处以花体 `\mathcal{B}` 表示已定义的 class，Markdown 第 875、877、879 行使用普通 `B`；上下文中的 class 指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 162 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；class B 的字体样式混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.056 / 96（印刷 p.163）— PASS±
+
+- 时间：2026-10-02 03:52 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.056 文本层、页图 `audit/Hironaka_1964_resolution_partI_p056.png`（pngmono 150dpi）与 MinerU Markdown 第 883、885–887 行。scheme、simple/multiple/singular、singular locus、结构层与 stalk、维数和空子概形余维约定，以及“Resolution data and permissible transformations”节首均与印刷页对应。
+- 备注：印刷运行页眉和页码 163 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.057 / 96（印刷 p.164）— PASS±
+
+- 时间：2026-10-02 03:54 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.057 文本层、页图 `audit/Hironaka_1964_resolution_partI_p057.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p057_data_types.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p057_definition3_formulas.png`，及 MinerU Markdown 第 887–917 行。四种 resolution data 标识与 (F)/(U) 配对、Definition 3 的 `\mathfrak{R}_{\mathrm{I}}^{N,n}` 数据形式及条件 (i)–(iv)、`\mathfrak{R}_{\mathrm{II}}^N` 矩阵数据形式，连同 permissible transformation 术语说明均与原页相符。
+- 备注：印刷运行页眉和页码 164 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.058 / 96（印刷 p.165）— FAIL
+
+- 时间：2026-10-02 03:58 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.058 文本层、页图 `audit/Hironaka_1964_resolution_partI_p058.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p058_definition4_symbols.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p058_resolution_sets.png`，并比对 MinerU Markdown 第 919–969 行。Definition 4(I) 印刷写作 `\mathfrak{R}_{\mathrm{I}}^{N,n}`，Markdown 第 933 行将罗马大写 I 误录成数字 1（`\mathfrak{R}_1^{N,n}`）。其余 Definition 3(II) 的参数/normal-crossings 条件、`\nu_{\mathbf M}(\mathbf J)` 与 `M^\nu \supseteq J`、Definition 4 的 resolved 条件和解析度集 $S,\nu,S_\nu,S_*$ 对应印刷页。另 Definition 4(II) 的数据符号在印刷中为花体 `\mathfrak{R}_{\mathrm{II}}^N`，Markdown 第 941 行写普通 `R_{II}^N`，属于不改变上下文指代的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 165 未录入 Markdown，属导航元素省略。
+- 结论：Definition 4(I) 的 datum 类型标签将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.059 / 96（印刷 p.166）— PASS±
+
+- 时间：2026-10-02 03:59 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.059 文本层、页图 `audit/Hironaka_1964_resolution_partI_p059.png`（pngmono 150dpi）与 MinerU Markdown 第 969–1009 行。Definition 5 中 (I.1)、(I.2)、(II.1) 三种带 restriction 的 datum、闭/开 restriction 条件及四类 datum 的归纳角色说明，与单项变换的 universal mapping property、`\operatorname{Proj}(S(I))` 及直和 `\sum_{m=0}^{\infty} I^m` 构造、脚注 33 均对应印刷页。正文叙述处 Markdown 第 977、989、997 行将印刷的 `\mathfrak{R}` 写作普通 `R`；上下文中的 datum 指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 166 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.060 / 96（印刷 p.167）— PASS±
+
+- 时间：2026-10-02 04:01 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.060 文本层、页图 `audit/Hironaka_1964_resolution_partI_p060.png`（pngmono 150dpi）与 MinerU Markdown 第 1011–1033 行。嵌入概形的 strict transform 图、strict-transform 定义、中心与变换的配对约定、Definition 6 的 permissible 数据条件及脚注 34 均对应印刷页。Definition 6 的叙述行 1025 在印刷中使用 `\mathfrak{R}_{\mathrm{I}}^{N,n}`/`\mathfrak{R}_{\mathrm{II}}^N`，Markdown 使用普通 `R`；紧邻的数学式仍使用花体标识，属不改变指代的正/花体混排（PASS±）。
+- 备注：印刷定义 strict transform 时先写 `X' - g^{-1}(B)`，后在括号中写 `X' - f^{-1}(B)`；Markdown 原样保留此印刷用法。运行页眉和页码 167 未录入 Markdown。
+- 结论：未发现正文内容差异；datum 标识字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.061 / 96（印刷 p.168）— FAIL
+
+- 时间：2026-10-02 04:04 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.061 文本层、页图 `audit/Hironaka_1964_resolution_partI_p061.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p061_definition7_formulas.png` 与 MinerU Markdown 第 1035–1091 行。Definition 6 restrictions、Definition 7 的 datum 变换、矩阵中新增系数、`a_{\alpha+1}=(\sum_{B\subseteq E_i}a_i)+\nu-b` 及脚注 35 正文均与印刷页相符。但 Markdown 第 1081–1089 行在完整脚注 35（第 1091 行）之外另含 5 个脚注式碎片：独立的 `f:X'\to X`、`X'`、`X' (or, by f)` 与 `f^{-1}(B)` 等；这些片段在印刷页无对应独立内容，是脚注 35 的重复/截片伪影。
+- 备注：正文在印刷页末以断词 `permis-` 续至下一页，Markdown 同样在第 1079 行保留断词；页脚 35 的完整内容仍在第 1091 行。印刷运行页眉和页码 168 未录入 Markdown。
+- 结论：MinerU Markdown 多出 5 条脚注式变量碎片，列为 FAIL；待全篇审计结束后以 Edit 逐处清理，保留完整脚注 35。
+
+### PDF p.062 / 96（印刷 p.169）— FAIL
+
+- 时间：2026-10-02 04:07 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.062 文本层、页图 `audit/Hironaka_1964_resolution_partI_p062.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p062_type_I_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p062_parameters_and_Definition8.png`，并比对 MinerU Markdown 第 1093–1115 行。印刷在 Remark 1 连续 4 次写作 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`（其中末次为 `\mathfrak{R}_{\mathrm{I}}^{N,n'}`）；Markdown 第 1093 行 4 处均将罗马大写 I 误录成数字 1。其余维数与变换后 datum 论述、normal-crossings 参数证明，以及 Definition 8 的 permissible succession 定义和条件 (i)–(iii) 均与原页相符。
+- 备注：印刷运行页眉和页码 169 未录入 Markdown，属导航元素省略。
+- 结论：四处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.063 / 96（印刷 p.170）— FAIL
+
+- 时间：2026-10-02 04:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.063 文本层、页图 `audit/Hironaka_1964_resolution_partI_p063.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p063_theorem_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p063_theorem_II2_label.png`，并比对 MinerU Markdown 第 1117–1129 行。印刷的 resolution-datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}` 在第 1123、1125 行的定理 I₁/I₂陈述中共 9 处被 Markdown 误录为 `\mathfrak{R}_1^{N,n}`。另印刷的主定理标签为 `II_1^N`、`II_2^N`，Markdown 第 1127、1129 行分别录为希腊字母 `\Pi_1^N`、`\Pi_2^N`。section heading 中 I₁/I₂/II₁/II₂编号、维数范围、定理陈述及因子化约定的其余部分已对照原页。
+- 修复登记补充：定义/定理段的原稿 datum 标签 `\Re_{11}^N` 经页图核验应为花体 `\mathfrak{R}_{\mathrm{II}}^N`，已按原页修复；这处与本页列出的 9 处 I/1 标签及 2 处 II/Pi 标签分别计数。
+- 备注：引言叙述中 Markdown 第 1121 行用普通 `R` 表示印刷的 Fraktur datum label，属不改变指代的正/花体混排（PASS±）；印刷运行页眉和页码 170 未录入 Markdown。
+- 结论：9 处 datum 标签把罗马 I 误录为数字 1、1 处 datum II 标签误录为 11、另有 2 个主定理 II 标签误录为 Pi，均已按原页修复；列为 FAIL。
+
+### PDF p.064 / 96（印刷 p.171）— FAIL
+
+- 时间：2026-10-02 04:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.064 文本层、页图 `audit/Hironaka_1964_resolution_partI_p064.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p064_II_theorem_references.png` 与 MinerU Markdown 第 1131–1140 行。印刷在第 1135 行对应位置写 `II_1^N`、`II_2^N`；Markdown 将这两个 theorem label 在关于 $N=0$ 的句子、$N=1$ 的特例和结尾待维持的基本情形中共 6 次写成希腊 `\Pi`。其余空变换情形、$N\leq 1$ 的说明、初始四项定理列表及 implication (A) 标题对应印刷页。
+- 备注：第 1131 行叙述中的普通 `R_{II}^N` 对应印刷 Fraktur datum label，属不改变指代的正/花体混排（PASS±）；印刷运行页眉和页码 171 未录入 Markdown。
+- 结论：六处主定理 II 引用被误录为 Pi，列为 FAIL；待全篇审计结束后逐处手工修复。
+
+### PDF p.065 / 96（印刷 p.172）— FAIL
+
+- 时间：2026-10-02 04:16 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.065 文本层、页图 `audit/Hironaka_1964_resolution_partI_p065.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p065_induction_II_labels.png`，并比对 MinerU Markdown 第 1142–1177 行。归纳蕴含 (B) 中印刷的 `II_2^{N'}`、(C) 中的 `II_1^{N'}`/`II_2^{N'}`/`II_1^N`、(D) 中的 `II_2^{N'}`/`II_1^N`/`II_2^N`，在 Markdown 第 1152、1160、1168 行合计 7 处误录为希腊字母 `\Pi`。各蕴含中的 I 定理标签、条件和结论、四蕴含的充分性陈述、主定理 I(n)/II(N) 节标题、初始维数/子概形条件以及脚注 36 正文均与印刷页对应。
+- 备注：第 1175 行的 class `\mathcal B` 与 datum `\mathfrak R_I` 在 Markdown 叙述中分别写作普通 `B`、`R_I`，属于不改变指代的正/花体混排（PASS±）；印刷运行页眉和页码 172 未录入 Markdown。
+- 结论：7 处主定理 II 标签被误录为 Pi，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.066 / 96（印刷 p.173）— FAIL
+
+- 时间：2026-10-02 04:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.066 文本层、页图 `audit/Hironaka_1964_resolution_partI_p066.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p066_type_I_labels.png` 与 MinerU Markdown 第 1179–1193 行。印刷定义为 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`；Markdown 第 1179 行中共 10 处写作 `\mathfrak{R}_1^{N,n}`，将罗马大写 I 误录成数字 1。resolution datum 的构造与 I₂ 定理应用、序列索引和中心、normal-flatness 条件 (1)–(3)、强化条件 (1′)、新序列映射及性质 (a) 起始句均与印刷页对应。
+- 备注：印刷运行页眉和页码 173 未录入 Markdown，属导航元素省略。
+- 结论：10 处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.067 / 96（印刷 p.174）— PASS±
+
+- 时间：2026-10-02 04:20 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.067 文本层、页图 `audit/Hironaka_1964_resolution_partI_p067.png`（pngmono 150dpi）与 MinerU Markdown 第 1191–1213 行。新 succession 的性质 (a)–(c)、Main Theorem I(n) 的对象、中心与诱导变换条件 (1)–(4)，以及按 n 归纳和缩小闭集像的首段均与印刷页对应；页尾同在 “We first remark” 处续至下一页。第 1203 行叙述将印刷的 Fraktur type label `\mathfrak{R}_{\mathrm{I}}^{N,n}` 写作普通 `R_I^{N,n}`，属于不改变指代的正/花体混排（PASS±）。
+- 备注：印刷运行页眉和页码 174 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文内容差异；datum 标识的字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.068 / 96（印刷 p.175）— FAIL
+
+- 时间：2026-10-02 04:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.068 文本层、页图 `audit/Hironaka_1964_resolution_partI_p068.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p068_footnote37.png` 与 MinerU Markdown 第 1215–1221 行。闭集像的局部完成论证、底变换/基变换关系、center $\hat C$ 与 $C$ 的构造、维数严格下降及应用定理 I(n') 的续段均与印刷页对应；页脚 37 的全文也保存在第 1221 行。但第 1217、1219 行在完整脚注 37 前另有两个孤立脚注式碎片 `$\mathcal{B}$` 与 `$\hat{V}_0$`；原页只有一条包含两者的完整脚注，没有这两个独立条目。
+- 备注：印刷页正文在 “a succession of monoidal transformations” 处续至下一页，Markdown 同样在第 1215 行保留断点；印刷运行页眉和页码 175 未录入 Markdown。
+- 结论：Markdown 多出 2 条脚注式符号碎片，列为 FAIL；待全篇审计后删除碎片并保留脚注 37 正文。
+
+### PDF p.069 / 96（印刷 p.176）— FAIL
+
+- 时间：2026-10-02 04:25 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.069 文本层、页图 `audit/Hironaka_1964_resolution_partI_p069.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p069_theorem_II_and_OXr.png`，并比对 MinerU Markdown 第 1223–1241 行。印刷三处写作 `\mathfrak{R}_{\mathrm{II}}^N`/`II_2^N`：第 1225 行的弱变换所属 datum 类型 `\mathfrak{R}_{\Pi}^N` 应为 `\mathfrak{R}_{\mathrm{II}}^N`，同句的 fundamental theorem `\Pi_2^N` 应为 `II_2^N`，第 1237 行再次将 `II_2^N` 录为 `\Pi_2^N`。此外，Main Theorem II(N) 的性质 (4) 印刷为 `J_r = O_{X_r}`，Markdown 第 1235 行将大写空间下标 X 录成小写点变量 x。弱变换定义、定理条件 (1)–(3) 和 datum 矩阵对应原页。
+- 备注：印刷运行页眉和页码 176 未录入 Markdown，属导航元素省略。
+- 结论：3 处罗马 II 被误录为希腊 Pi，且 `O_{X_r}` 下标大小写误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.070 / 96（印刷 p.177）— FAIL
+
+- 时间：2026-10-02 04:30 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.070 文本层、页图 `audit/Hironaka_1964_resolution_partI_p070.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p070_OXr_and_II_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p070_implication_B_formula.png`，并比对 MinerU Markdown 第 1243–1260 行。印刷第 1243 行写 `O_{X_r}`，Markdown 写成 `O_{x_r}`；第 1247 行的 fundamental-theorem labels `II_1^N`、`II_2^N` 被记为 `\Pi_1^N`、`\Pi_2^N`。此外，implication (B) 的印刷结论为 `I_2^{N,n}`，Markdown 第 1260 行写成 `I_2^{N^n}`；同一行第二输入 theorem label 印刷为 `I_2^{N',n'}`，Markdown 漏掉 `N'` 与 `n'` 之间的逗号。主定理 II(N) 证明中的矩阵 datum、implication (A) 与 (B) 的其余条件和标签均与原页对应。
+- 备注：印刷运行页眉和页码 177 未录入 Markdown，属导航元素省略。
+- 结论：结构层下标大小写、2 个 II/Pi 标签、implication (B) 的结论上标结构及输入编号逗号均有差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.071 / 96（印刷 p.178）— FAIL
+
+- 时间：2026-10-02 04:34 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.071 文本层、页图 `audit/Hironaka_1964_resolution_partI_p071.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p071_frame_formulas.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p071_theorem_III_start.png`，并比对 MinerU Markdown 第 1263–1316 行。[b*] 印刷类型为单一上标 `\Re_{\mathrm{I}}^{N,n}`；Markdown 第 1269 行写作 `\Re_{\mathrm{I}}^{N}\,^{n}`，将 $n$ 拆成另一个独立上标。regular-frame 的其余条件、[c*]–[e*] 基底/系数/理想公式、维数不等式及 Theorem III$^N$ 的首个 datum 形式均与原页对应。
+- 备注：印刷运行页眉和页码 178 未录入 Markdown，属导航元素省略。
+- 结论：resolution datum 类型标签的合并上标被拆开，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.072 / 96（印刷 p.179）— PASS±
+
+- 时间：2026-10-02 04:37 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.072 文本层、页图 `audit/Hironaka_1964_resolution_partI_p072.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p072_Theorem_III_data_and_conditions.png` 与 MinerU Markdown 第 1322–1357 行。第二类 datum 矩阵形式、Theorem III$^N$ 的前提和结论、集合 $S$ 的定义、(1) 有限性以及 (2)(a)–(c) 的 $\nu^*$/$\tau^*$ 比较式均与印刷页对应。证明叙述中的 datum references 在 Markdown 第 1331 行用普通 `R_i`/`R_j'` 代替印刷 Fraktur `\mathfrak{R}_i`/`\mathfrak{R}_j'`，上下文指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷页在证明续段 “we can extend and replace the succession $f$ with” 处接至下一页；运行页眉和页码 179 未录入 Markdown。
+- 结论：未发现正文内容差异；datum 字体混排及运行页眉/页码省略记为 PASS±。
+
+### PDF p.073 / 96（印刷 p.180）— FAIL
+
+- 时间：2026-10-02 04:41 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.073 文本层、页图 `audit/Hironaka_1964_resolution_partI_p073.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p073_graded_formula_and_footnote38.png` 与 MinerU Markdown 第 1361–1401 行。印刷写作 `II_2^{N'}`、`II(N)`、`II_2^N`、`II(N)`；Markdown 第 1363、1365、1373 行共 4 处将 II 录为希腊字母 `\Pi`。Main Theorem III(N,n) 印刷的中心范围为 `0 \leq i < r`，Markdown 第 1367 行漏掉等号而写成 `0 < i < r`。脚注 38 的完整正文在第 1401 行，但第 1397、1399 行另有两条未见于原页的脚注式碎片 `$B_{r-1}\cong W_{r-1}$` 与 `$B_{r-1}=W_{r-1})$`。Theorem III 的其他条件、空子概形结论、Chapter II 标题及 graded-algebra 公式均已对照。
+- 备注：印刷运行页眉和页码 180 未录入 Markdown，属导航元素省略。
+- 结论：4 处 theorem II/Pi 符号误录、中心范围遗漏等号、2 条脚注式碎片，列为 FAIL；待全篇审计后逐处手工修复，并保留脚注 38 完整正文。
+
+### PDF p.074 / 96（印刷 p.181）— FAIL
+
+- 时间：2026-10-02 04:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.074 文本层、页图 `audit/Hironaka_1964_resolution_partI_p074.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p074_localization_and_diagram.png` 与 MinerU Markdown 第 1403–1439 行。局部化同构的印刷下标为 `I A_P`，即 `\operatorname{gr}_{I A_P}(A_P)`；Markdown 第 1415 行压成 `\operatorname{gr}_{\mathrm{IAP}}(A_P)`，丢失了 A 的 P 下标分组。交换图底行印刷的子模包含映射 `I^{m+1}M \to I^m M` 为单向箭头，Markdown 第 1438 行写成 `\longleftrightarrow` 双向箭头。gr_I(A)/gr_I(M) 定义、有限型模块引理及图中其余对象与映射均已对照。
+- 备注：印刷运行页眉和页码 181 未录入 Markdown，属导航元素省略。
+- 结论：局部化下标结构丢失，且底行包含映射方向被改为双向，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.075 / 96（印刷 p.182）— FAIL
+
+- 时间：2026-10-02 04:48 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.075 文本层、页图 `audit/Hironaka_1964_resolution_partI_p075.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p075_gr_I_module_formulas.png`，并比对 MinerU Markdown 第 1441–1469 行。印刷的 `\mathrm{gr}_{I}` 下标为罗马大写 I；Markdown 第 1441 行一次、第 1463 行四次共 5 处写成数字下标 `1`（如 `\mathrm{gr}_{1}(A)`、`\operatorname{gr}_{1}^{0}(M)`）。Lemma 2 的等价条件、canonical homomorphism、graded-module corollary 和直接和论证的其余陈述/公式对应原页。
+- 备注：印刷运行页眉和页码 182 未录入 Markdown，属导航元素省略。
+- 结论：5 处 graded algebra/module 标识将罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.076 / 96（印刷 p.183）— FAIL
+
+- 时间：2026-10-02 04:52 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.076 文本层、页图 `audit/Hironaka_1964_resolution_partI_p076.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p076_maps_and_footnote39.png` 与 MinerU Markdown 第 1471–1509 行。印刷的自然包含为 $P^m \to m^m$，Markdown 第 1477 行误作 $P^n \to m^m$。α 映射印刷域为 $\mathrm{gr}_{\bar m}^{0}(\mathrm{gr}_{P}(O))$，Markdown 第 1480 行的 formula 被拆坏，漏掉内层 $\mathrm{gr}_{P}(O)$ 的结构并损坏括号。β 映射印刷为 $\mathrm{gr}_{m}(O) \to \mathrm{gr}_{\bar m}(\bar O)$，Markdown 第 1486 行两处都把大写环符号 $O$ 录成数字 $0$；β* 映射的 source domain 为 $\mathrm{gr}_{\bar m}^{-}(\bar O)$，Markdown 第 1492 行漏掉 $m$ 的横线。其余自然映射、参数系、商环多项式表示、ψ 映射及正文说明均与原页对应。
+- 备注：脚注 39 的完整正文位于第 1509 行；第 1503、1505、1507 行还另有三个孤立碎片 `A/N`、`M/M^2`、`(N+M^2)/M^2`，为脚注正文中的重复公式片段。印刷运行页眉和页码 183 未录入 Markdown。
+- 结论：幂指数、α/β/β* 映射符号结构有多处误录，且脚注 39 前多出 3 个公式碎片，列为 FAIL；待全篇审计后逐处手工修复，保留脚注 39 完整正文。
+
+### PDF p.077 / 96（印刷 p.184）— FAIL
+
+- 时间：2026-10-02 04:58 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.077 文本层、页图 `audit/Hironaka_1964_resolution_partI_p077.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p077_Proposition1_mappings.png`，并比对 MinerU Markdown 第 1513–1535 行。印刷 (1) 的 $\psi$ 映射域为 $\operatorname{gr}_{\bar m}^{0}(\operatorname{gr}_{P}(O))\otimes_K\operatorname{gr}_{\bar m}^{-}(\bar O)$ 并映到 $\operatorname{gr}_m(O)$；Markdown 第 1518 行两处把 $\bar m$ 写成无横线的 $m$，内层 $\operatorname{gr}_{P}(O)$ 公式结构被拆坏，且多处把环 $O$ 录成数字 $0$。印刷条件 (2) 为 $\operatorname{gr}_m(O)$ flat over K，Markdown 第 1523 行同样写成 $\operatorname{gr}_{\mathfrak m}(0)$。条件 (1)–(2)、proof diagram 的包含/自然映射及嵌入的 diagram image 与原页对应。
+- 备注：印刷运行页眉和页码 184 未录入 Markdown，属导航元素省略。
+- 结论：$\psi$ 映射的商理想、嵌套 graded-ring 项和环符号被误录，条件 (2) 亦将 $O$ 误为 $0$，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.078 / 96（印刷 p.185）— FAIL
+
+- 时间：2026-10-02 05:03 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.078 文本层、页图 `audit/Hironaka_1964_resolution_partI_p078.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p078_Proposition1_proof.png` 与 MinerU Markdown 第 1543–1575 行。印刷生成元式为 $P^p=(f_1^{(p)},f_2^{(p)},\ldots)O$，Markdown 第 1545 行误把环 $O$ 写成数字 `0`；印刷同余式左端为 $\sum_i f_i^{(\delta)}g_i^{(n-\delta)}$，Markdown 第 1558 行漏掉 $f$ 的下标 i。另第 1553 行将印刷两行求和约束排成 `\binom` 样式（条件仍在），属于非语义版式差异；第 1564 行将普通 $g_i$ 加粗为 $\boldsymbol{g}_i$，属字体样式差异（PASS±）。Proposition 1 证明余下归纳步骤、Corollary 1 的开头与局部环论述均已对照原页。
+- 备注：印刷运行页眉和页码 185 未录入 Markdown，属导航元素省略；页面末尾与 Corollary 1 的后续在下一页继续。
+- 结论：环符号误录及关键同余式漏掉系数下标，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.079 / 96（印刷 p.186）— FAIL
+
+- 时间：2026-10-02 05:07 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.079 文本层、页图 `audit/Hironaka_1964_resolution_partI_p079.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p079_corollary2_formulas.png`，并比对 MinerU Markdown 第 1575–1625 行。印刷中 $K=O/m$，Markdown 第 1593 行把 O 录成数字 0；局部化对象为 $\operatorname{gr}_{P O_P}(O_P)$，Markdown 第 1597 行写成 $\operatorname{gr}_{P0_P}(O_P)$；维数域为 $O_P/(P O_P)$，第 1600 行把理想顺序排成 $O P_P$；同一行的求和映射中印刷 $\operatorname{gr}_{\bar m}^{q}(\bar O)$，Markdown 第 1606 行将 $q$ 标成带下划线 $\underline q$。F(n)、组合因子恒等式、乘数结论及后续维数等式的其余部分与原页对应。
+- 备注：印刷运行页眉和页码 186 未录入 Markdown，属导航元素省略。
+- 结论：四处局部环/理想/graded-degree 符号结构误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.080 / 96（印刷 p.187）— PASS±
+
+- 时间：2026-10-02 05:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.080 文本层、页图 `audit/Hironaka_1964_resolution_partI_p080.png`（pngmono 150dpi）与 MinerU Markdown 第 1615–1655 行。$G^0(n)$ 的多项式展开、卷积二项式恒等式、乘数比较结论、Corollary 3 及 Samuel characteristic function 的定义与关系均对应印刷页。
+- 备注：正文于 `F_x(n)=\binom{n+s+r}{s+r}` 后的句子续至下一页；印刷运行页眉和页码 187 未录入 Markdown。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.081 / 96（印刷 p.188）— FAIL
+
+- 时间：2026-10-02 05:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.081 文本层、页图 `audit/Hironaka_1964_resolution_partI_p081.png`（pngmono 150dpi）与 MinerU Markdown 第 1661–1685 行。Lemma 3、Lemma 4 的 flatness/Tor 条件、Theorem 1 的开性陈述及证明开头到“necessary and sufficient that”均与印刷页对应。但 Markdown 第 1683 行在完整脚注 40（第 1685 行）前另有孤立脚注式片段 `$M_x$`；印刷页脚只有完整脚注 40，没有独立的 $M_x$ 条目。
+- 备注：印刷运行页眉和页码 188 未录入 Markdown，属导航元素省略。
+- 结论：脚注 40 中公式碎片 `M_x` 被额外作为独立内容重复，列为 FAIL；待全篇审计后删除碎片并保留完整脚注 40。
+
+### PDF p.082 / 96（印刷 p.189）— PASS±
+
+- 时间：2026-10-02 05:14 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.082 文本层、页图 `audit/Hironaka_1964_resolution_partI_p082.png`（pngmono 150dpi）与 MinerU Markdown 第 1687–1709 行。Theorem 1 的开性判据、flat locus Corollary 与其 proof、Remark、initial form 记号及 graded ideal 定义/公式均与印刷页对应。
+- 备注：印刷正文与 Markdown 均保留原文重复短语 “if and only only if”；这是 source print quirk，不作 Markdown 改动。印刷运行页眉和页码 189 未录入 Markdown。
+- 结论：未发现正文转录差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.083 / 96（印刷 p.190）— PASS±
+
+- 时间：2026-10-02 05:16 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.083 文本层、页图 `audit/Hironaka_1964_resolution_partI_p083.png`、嵌入的分次模交换图 `images/page_82_image_1.jpg` 与 MinerU Markdown 第 1709–1745 行。图中各商、嵌入、投影与 graded pieces 和原页交换图对应；Lemma 5 的 graded-module exact sequence、Lemma 6 的初始形式生成条件及 Nakayama/完备性论证、Lemma 7 的前提与初始公式均与印刷页相符。
+- 备注：印刷运行页眉和页码 190 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.084 / 96（印刷 p.191）— PASS±
+
+- 时间：2026-10-02 05:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.084 文本层、页图 `audit/Hironaka_1964_resolution_partI_p084.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p084_Lemma7_proof.png` 与 MinerU Markdown 第 1735–1775 行。Lemma 7 的参数系统、`\bar{R}[Z]`/`K[Z,Y]` 多项式环表示、待证交式、$\nu+n\geq\mu\geq\nu$ 的阶估计、$\psi$ 分解和系数次数界均与原页对应；脚注 41 正文亦对应。
+- 备注：印刷运行页眉和页码 191 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.085 / 96（印刷 p.192）— FAIL
+
+- 时间：2026-10-02 05:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.085 文本层、页图 `audit/Hironaka_1964_resolution_partI_p085.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p085_Lemma7_calculation.png` 与 MinerU Markdown 第 1777–1801 行。印刷第 1777 行的理想生成元 tuple 以 `z_r` 结束，指数为 `\mu-d_\alpha-\nu_\beta`；Markdown 将其转为 `z^r`、`\mu-d_x-\nu_3`。印刷中 $Y_j$ 对应的分次分量是 $\operatorname{gr}_{\bar Q}^{1}(\bar R)$，Markdown 第 1783 行误录为 $\operatorname{gr}_{\bar Q}^{1/2}(\bar R)$。后续关于 $\psi_0$、$\Psi^*$ 和 $\bar Q^n H$ 的结论结构与原页相符。
+- 备注：印刷运行页眉和页码 192 未录入 Markdown，属导航元素省略。
+- 结论：三处变量下标/指数差异及一次分次次数 1→1/2 误录，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.086 / 96（印刷 p.193）— PASS±
+
+- 时间：2026-10-02 05:26 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.086 文本层、页图 `audit/Hironaka_1964_resolution_partI_p086.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p086_Lemma7_closure.png` 与 MinerU Markdown 第 1803–1837 行。Lemma 7 inclusion iteration 与 Nakayama 结论、$O=R/J$, $P=P/J$, $Q=Q/J$ 的记号、两张 graded-algebra 图以及 $\alpha$, $\beta^*$, $\beta^{*'}$ 的方向/定义均与印刷页对应；正文页末同样在引入组合交换图处续至下一页。
+- 备注：印刷运行页眉和页码 193 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.087 / 96（印刷 p.194）— FAIL
+
+- 时间：2026-10-02 05:32 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.087 文本层、页图 `audit/Hironaka_1964_resolution_partI_p087.png`、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p087_Psi_diagram_and_Lemma8.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p087_Lemma8_formula.png`，并比对 MinerU Markdown 第 1839–1865 行。Lemma 8 印刷映射域使用 $\mathrm{gr}_{Q}^{0}(\mathrm{gr}_{P}(O))\otimes_{\bar O/\bar Q}\mathrm{gr}_{\bar Q}(\bar O)$；Markdown 第 1856 行第二因子的 graded subscript 将 bar 录成 dot。另条件 (2) 印刷理想生成元为 $(\varphi_1,\ldots,\varphi_m)$，Markdown 第 1863 行误写成 $(\varphi_j,\ldots,\varphi_m)$。组合 diagram、映射方向、gamma 论证与 Lemma 8 条件 (1) 对应原页。
+- 备注：印刷运行页眉和页码 194 未录入 Markdown，属导航元素省略。
+- 结论：Lemma 8 映射中的一个 $\bar Q$ 下标误录为 dot，且生成元起始索引将 1 写成 j，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.088 / 96（印刷 p.195）— FAIL
+
+- 时间：2026-10-02 05:39 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.088 文本层、页图 `audit/Hironaka_1964_resolution_partI_p088.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p088_theorem2_Osymbols.png` 与 MinerU Markdown 第 1867–1903 行。定理 2 (i) 的 $\mathrm{gr}_{P}(O)$/$O/P$ 中两个 O、第 1874 行 $\psi'$ 式中四个 O、第 1888 行 $\varphi$ 式中四个 O，以及第 1896 行直和同构中的四个 O，共 14 处都被写成数字 0。命题条件 (ii)–(iv)、(i)–(iv) 间的等价推导、direct-sum argument 与脚注 42 正文均对应原页。
+- 备注：印刷运行页眉和页码 195 未录入 Markdown，属导航元素省略。
+- 结论：14 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.089 / 96（印刷 p.196）— FAIL
+
+- 时间：2026-10-02 05:43 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.089 文本层、页图 `audit/Hironaka_1964_resolution_partI_p089.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p089_corollary1_O.png` 与 MinerU Markdown 第 1906–1920 行。大交换图两列 graded modules 的关系、$\delta/\varepsilon$ 论证及 Theorem 2 proof 均与印刷页对应。但 Corollary 1 条件 (i) 印刷为 $\operatorname{gr}_{P}(O)$ flat over $O/P$，Markdown 第 1919 行两处均将大写环符号 O 录成数字 0。
+- 备注：印刷运行页眉和页码 196 未录入 Markdown，属导航元素省略。
+- 结论：2 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.090 / 96（印刷 p.197）— FAIL
+
+- 时间：2026-10-02 05:47 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.090 文本层、页图 `audit/Hironaka_1964_resolution_partI_p090.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p090_corollary1_maps.png` 与 MinerU Markdown 第 1921–1955 行。Corollary 1 的 (ii) 映射式在第 1924 行含 4 处环符号误录：印刷的 O 在 Markdown 中都写作数字 0；(iv) 的 canonical map 在第 1938 行另有 4 处同样的 O→0。条件 (iii)、Theorem 2 与 Corollary 2 的等价性说明、局部重数结论及 §3 faithfully-flat 定义的开头均与原页对应。
+- 备注：印刷运行页眉和页码 197 未录入 Markdown，属导航元素省略。
+- 结论：两条 graded-algebra 映射中的 8 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.091 / 96（印刷 p.198）— FAIL
+
+- 时间：2026-10-02 05:53 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.091 文本层、页图 `audit/Hironaka_1964_resolution_partI_p091.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p091_Lemma9_and_corollary.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p091_completion_localization.png`，并比对 MinerU Markdown 第 1961–1984 行。Lemma 9 交换图上排印刷商项为 $\mathrm{gr}_{I}^{n}(M)\otimes_A A'$，Markdown 第 1966 行使用 $\mathrm{gr}_{I'}^{n}(M)\otimes_A A'$，把 I 错加了 prime。完成局部化的推论第 1977、1979 行共 7 处将印刷的 $O_Q$ 误写为 $O_q$；第 1977 行还把 $\hat P\hat O_{\hat Q}$ 的 P-倍局部环下标排成了未分组的 $\hat P\hat O\hat Q$。Lemma 9 的 flatness 判据、其余图中态射、完成局部环的 faithful-flat 推论及后续 graded-ring 同构起始句已对照原页。
+- 备注：印刷运行页眉和页码 198 未录入 Markdown，属导航元素省略。
+- 结论：交换图 graded quotient、7 处局部环下标大小写及完成局部化下标分组均有差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.092 / 96（印刷 p.199）— FAIL
+
+- 时间：2026-10-02 05:59 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.092 文本层、页图 `audit/Hironaka_1964_resolution_partI_p092.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p092_Lemma10_and_footnote43.png` 与 MinerU Markdown 第 1981–2025 行。Lemma 10 条件中的 graded-ring localization 印刷为 $\mathrm{gr}_{P O_Q}(O_Q)$，Markdown 第 2003 行写成 $\mathrm{gr}_{P Q}(O_Q)$，漏掉中间的结构环 O。Canonical map $\lambda'$ 印刷为 $\mathrm{gr}_{Q}(\mathrm{gr}_{P}(O))\to\mathrm{gr}_{Q}(O)$；Markdown 第 2008 行两处将 O 误录为数字 0。另脚注 43 的完整正文保留在第 2025 行，但第 2019、2021、2023 行在此前分别多出 $\mathrm{gr}_{P}(0)$、$0/P$ 与 $(f_1,\ldots,f_m)$ 三个孤立片段；前两片段同样把 O 误录为 0。
+- 备注：印刷运行页眉和页码 199 未录入 Markdown，属导航元素省略。
+- 结论：局部化下标缺 O、lambda map 中 2 处 O/0 误读及脚注 43 前 3 个碎片，列为 FAIL；待全篇审计后逐处清理并保留脚注正文。
+
+### PDF p.093 / 96（印刷 p.200）— FAIL
+
+- 时间：2026-10-02 06:05 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.093 文本层、页图 `audit/Hironaka_1964_resolution_partI_p093.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p093_Lemma11_and_Theorem3.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p093_theorem3_OQ_notation.png`，并比对 MinerU Markdown 第 2017–2079 行。Lemma 11 的局部化图在第 2042 行把印刷的 $\mathrm{gr}_{Q}(O)$、$\mathrm{gr}_{Q}(O)_{Q}$ 中的 Q 三次写成 `\varrho`。Theorem 3 第 2049 行两处、第 2051 行一次以及第 2059 行一次，共 4 处把环符号 O 录成数字 0；第 2051 行另有两个局部环下标把大写 Q 写成小写 q，且局部化理想 $P O_Q$ 被排成 $P0_Q$。Lemma 11 diagram、Theorem 3 的参数系统与 graded-ring polynomial identifications 其余部分均与原页对应。
+- 修复后复读补充：Theorem 3 proof 的识别式 R'=R/P=0/P 中，初稿将 O 录为数字 0，已按 p.093 页图修为 O/P；这是上文记录的 4 处 O/0 误录之一。
+- 备注：印刷运行页眉和页码 200 未录入 Markdown，属导航元素省略。
+- 结论：3 处 Q/varrho、4 处 O/0（含 P0_Q 局部化下标与 R'=R/P=0/P 识别式）、2 处 Q/q 大小写误录均已按原页修复，列为 FAIL。
+
+### PDF p.094 / 96（印刷 p.201）— FAIL
+
+- 时间：2026-10-02 06:10 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.094 文本层、页图 `audit/Hironaka_1964_resolution_partI_p094.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p094_Theorem3_proof.png` 与 MinerU Markdown 第 2067–2085 行。印刷将 $Q'=Q/P$ 记为 $\bar Q$；Markdown 第 2071 行再次写成 $Q/P$，漏掉横线。同行 proof 的元素变量印刷为 $\mathrm{gr}_{Q}(J,R)$，Markdown 有一处写成小写 $\mathrm{gr}_{q}(J,R)$。其余多项式环表示、理想生成条件、度数排序及元素 $g_1$ 的构造条件均与原页相符。
+- 备注：印刷运行页眉和页码 201 未录入 Markdown，属导航元素省略。
+- 结论：商素理想横线与定理变量 Q/q 有两处差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.095 / 96（印刷 p.202）— FAIL
+
+- 时间：2026-10-02 06:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.095 文本层、页图 `audit/Hironaka_1964_resolution_partI_p095.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p095_Z_indices_and_generators.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p095_iterative_conditions.png`，并比对 MinerU Markdown 第 2087–2127 行。印刷将 $\psi_\alpha(Z)$ 限为变量 $Z_1,\ldots,Z_r$ 的形式；Markdown 第 2093 行误写为 $Z_1,\ldots,Z_s$。另印刷分解为 $\psi_\alpha=\sum_{\beta<i}\lambda_{\alpha,\beta}\varphi_\beta$，Markdown 第 2112 行将生成元 $\varphi_\beta$ 误录为花体 $\mathcal P_\beta$。在 $g_2$ 迭代条件中，印刷标签为 $(1_1),(2_1),(3_1)$，Markdown 第 2123、2125、2127 行分别排为 $(1),(21),(31)$；第 2125 行另将分次上标 d 误作 l（印刷为 $\mathrm{gr}_{P}^{d}(R)$）。
+- 备注：正文在列出 $g_2$ 的性质时续至下一页；印刷运行页眉和页码 202 未录入 Markdown。
+- 结论：变量范围、引理生成元、迭代条件标号和分次上标共 6 处差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.096 / 96（印刷 p.203）— FAIL
+
+- 时间：2026-10-02 06:23 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.096 文本层、页图 `audit/Hironaka_1964_resolution_partI_p096.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p096_sequence_conditions.png`，并比对 MinerU Markdown 第 2129–2135 行。印刷证明写作“若 $\Psi_k\in Q^{\mu_k}\mathrm{gr}_{P}^{d}(R)$，且 $\mu_{k+1}>\mu_k$ 对所有 k，则 $f_i$ 在 $\mathrm{gr}_{P}(R)$ 中的初始形式属于交集”；Markdown 第 2131 行将 $\Psi_k$ 误写成 $\Psi_i$。收敛序列、结论矛盾及 Corollary 的陈述/证明其余部分均与原页对应。
+- 备注：印刷运行页眉和页码 203 未录入 Markdown，属导航元素省略。
+- 结论：收敛序列指标 $\Psi_k$ 误录为 $\Psi_i$，列为 FAIL；待全篇审计后逐处手工修复。
+
+## 总评与修复登记
+
+### 修复后总评
+
+- 逐页审计覆盖 96/96 个 PDF 物理页；初始分级为 1 页 PASS、31 页 PASS±、64 页 FAIL。这里的分级记录修复前页级审计结果，逐处修复与复核状态见下列登记及各页条目。
+- 覆盖声明：本篇 96/96 个 PDF 物理页均有对应的 pNNN.png（pngmono 150dpi）并逐页比对页图、PDF 文本层和 MinerU Markdown 段；缺失的 p.001、p.006 页图已补渲并目检。题录页 p.002 与公式密集页使用对应页级记录及 300dpi 裁片仲裁，结论不由小样本外推。
+- 页级初审条目中的“待修复”措辞记录的是相应签认时的状态；文末登记和 fix(md) exact commit 396d20ae283ee691d0fa3c5bbebb6c76739c2a79 记录最终修复闭环。
+- MinerU doc_id：UNKNOWN。对保留导出目录执行 doc_id 搜索未发现此字段；middle_json.json 与 structured_content.json 元数据只记录 MinerU 3.4.4、tier basic、parse_mode ocr 等信息，未提供 doc_id。
+- 修复后人工完整复读最终 2101 行 Markdown，并执行 git diff --check 与只读错误模式/脚注碎片扫描，未发现已登记错误残留。没有运行测试；本项是基于页面证据的文本审计。
+
+### 64 个初始 FAIL 页的修复范围
+
+- 物理页：003、005、010、013–015、017–018、022–029、031–032、034–038、040–043、045、048–049、051–054、058、061–066、068–071、073–079、081、085、087–096（共 64 页）。
+- 修复类别：参考文献完整性及书名字形；正文词汇；Roman I/II 与数字 1、希腊 Pi、Fraktur datum labels 的区分；结构层和 stalk/local-ring 下标及大小写；Zariski-space 符号；局部化下标、图中映射方向、公式系数/指数/次数与脚注锚点；删除脚注内容之外重复导出的孤立片段。
+- 脚注碎片清理涉及 PDF p.029、p.061、p.068、p.073、p.076、p.081、p.092；各页完整脚注均保留。p.029 的重复公式是在修复后全文复读中追加发现并以 p.029 页图复核。
+- 按印刷原文保留源页 quirk，包括 p.012 的映射次序、p.026 的 e(O_{x,x}) 写法等；没有按数学预期改写原文。
+
+### 来源链与提交
+
+- 任务基线：037602429d3b009f6fc468c732073eb3ddf9875f。
+- 原始 MinerU Markdown 最后入库提交：3393eb35d3ad7dc4e939b799e607004e4b4e08f5；修复前 SHA-256：15f32017f4527f5e7ec8141804338637459dff4198d9535a69632714da3d21c2。
+- 独立正文修复提交：396d20ae283ee691d0fa3c5bbebb6c76739c2a79；该提交只修改本篇 MinerU Markdown。修复后 SHA-256：83be4eb5d821cf2b5ede599daaf955fdbcfd10e1905fb11baa3f0beca660757e；2101 行、312390 字节。
+- 补全缺失页图的独立页级提交：p.001 `4c0e93ace6b0fb76dbadbcbaddf94c51eb136d47`；p.006 `ff9e5ee0842cdb1063ff9e91cdfebea699f6eb9f`。每个提交只增加对应一页的 150dpi 图像及其审计行更新。
+- PDF SHA-256：5827903e8edb78f93660c3ef7fa17fb2c83aa1718ed6b88d9aed2dcc65a63bd7；PDF 原件未修改。
+- 本 Peer 仍为 CONTRIBUTOR；上述提交是待 Master-Luna 按 exact OID 审阅和集成的候选。根 AUDIT-PROGRESS.log、AUDIT-INDEX.md、README.md、MEMORY.md 及其他篇目未修改，未 push。
