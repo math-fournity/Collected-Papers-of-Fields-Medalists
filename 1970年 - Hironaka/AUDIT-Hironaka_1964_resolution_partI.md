@@ -18,7 +18,7 @@
 ### PDF p.001 / 96（无印刷页码）— PASS±
 
 - 时间：2026-10-01 16:18 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.001 文本层与 MinerU Markdown 第 1–13 行。标题、JSTOR 题录、稳定 URL、访问时间、使用条款和服务说明均对应；MinerU 未保留页底 “Annals of Mathematics is collaborating with JSTOR …” 说明及裸站点 URL。该遗漏属于 JSTOR 包装页平台说明，不改变论文内容或书目信息，记录为非误导性差异，不修正文档。
+- 证据：源 PDF p.001 文本层、入库页图 audit/Hironaka_1964_resolution_partI_p001.png（pngmono 150dpi）与 MinerU Markdown 第 1–13 行。页图确认 JSTOR 题录、使用条款及页底 “Annals of Mathematics is collaborating with JSTOR …” 说明和裸站点 URL；MinerU 保留题录/使用条款但省略页底平台说明和 URL。该遗漏不改变论文内容或书目信息，记为非误导性差异。
 - 结论：PDF p.001 是 JSTOR 包装页，未发现论文正文内容缺失；仅有上述包装说明省略。
 
 ### PDF p.002 / 96（印刷 p.109，题录页）— PASS
