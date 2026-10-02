@@ -148,6 +148,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 对 (4.41) 双范数及内层绝对值的旧修复经原页核验正确；源级语病 “than shows”、“Lemma's 4.11” 忠实保留。微小排版注记：(5.4) 的 “where” 在 Markdown 中为数学模式散排字母 `w h e r e`，渲染为斜体连排、可辨识，登记不改。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 23。与 Luna 旧审（p.020 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 19:24 EDT 落签
 
+## p.021（PDF p.21 / 印刷 p.24）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p021.png`（Ghostscript `pngmono`，150dpi；原 PDF p.21）
+- 核对：$\varphi_{\mathbf N}(\bar\alpha)$ 形状段（$\theta_j=a_j/q$、$\alpha_j=\theta_j+\beta_j$、$n=qs+r$）；(5.8) 的 $o(N^{-1+2\delta})$；(5.9) 双因子分解与 $o(N^{-1/2})$；(5.10) Gauss 和定义；(5.11) 的 $V_N(\bar\beta)$；Lemma 5.12 与 (5.13) 的 $O(N^{-1/2})$、where $\theta_j=a_j/q$；Lemma 5.14 与 (5.15) 的 $cq^{-\delta'}$；“consequence of (5.3)”；A. Weil 句；(5.16)；Lemma 5.17 的 (5.18)（$|1-V_N|<C\sum|\beta_j|N^j$）与 (5.19)（$|V_N|<C[1+\sum|\beta_j|N^j]^{-1/d}$）、where $\mathbf C=c(d)$；van der Corput 收尾句。文本层 + 150dpi 原页图双通道，对 Markdown 第 1004–1070 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 对 (5.18)/(5.19) 标签的旧修复经原页核验正确——(5.18) 现挂 $|1-V_N(\bar\beta)|$ 界、(5.19) 现挂 $|V_N(\bar\beta)|$ 界，与原页一致；A. Weil's estimate 句与原页相符。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 24。与 Luna 旧审（p.021 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 19:36 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
