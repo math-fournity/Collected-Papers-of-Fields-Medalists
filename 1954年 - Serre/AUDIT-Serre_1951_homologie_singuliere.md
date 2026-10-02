@@ -103,3 +103,11 @@
   - **[已修复]** md 行 449 图 (II) 中间斜箭头写作 "\\nwarrow \\searrow"（双头），印刷仅单头 ↖。Edit 修复为 "\\nwarrow"（本页 commit 内 diff 可溯）。
 - PASS± 项（不修）：transgression 定义前展示式中 md 作 "\\xrightarrow{\\pi^{\\prime} *}"（π′∗），印刷为 π*′（星号右下标、prime 右上标）且 md 其余处均作 \\pi_{*}^{\\prime}——同一态射的装饰次序排版差异，无数学歧义，不修。
 - 备注：md 行 452 起 Note（Chern-Hirsch-Koszul、Eilenberg-MacLane、Koszul [20] deux dernières lignes）与 "## 4. Une suite exacte / Hypothèses." 属印刷 p.435。
+
+## p.012（PDF p.12 / 印刷 p.435）
+- PNG：audit/p012.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p012_notE_600.png、p012_ds1_600.png、p012_ds2_600.png、p012_Es1_600.png、p012_Es4_600.png、p012_Es5_600.png（600dpi）
+- 核对：Note（proposition 2 due à Koszul [20]）；§4 Une suite exacte；Hypothèses（i < j、ⁿE_s′/ⁿE_s″ 记号约定、a_n < c_n）；两条假设（E_r^{p,q} = 0: p+q = n−1, p ≦ a_n − r；p+q = n+1, p ≧ c_n + r）；PROPOSITION 3 长正合列（ʲE_r′ → H_j(A) → ʲE_r″ → ʲ⁻¹E_r′ → ⋯ → ⁱE_r′ → H_i(A) → ⁱE_r″）；DÉMONSTRATION（D^{p,q}/D^{p−1,q+1} = E_∞^{p,q}、0 → ⁿE_∞′ → H_n(A) → ⁿE_∞″ → 0、d_s nulle sur ⁿE_s′ (s ≧ r)、cible E_s^{a_n−s, b_n+s−1}、ⁿE_∞′ quotient de ⁿE_r′、ⁿE_∞″ sous-groupe de ⁿE_r″、ⁿE_r′ → H_n(A) → ⁿE_r″）；末段（noyau = bords pour d_s (s ≧ r)、deux termes de E_s: ⁿ⁺¹E_s′/ⁿ⁺¹E_s″、d_s-cycles、页尾断句 "…non nulle, celle"）
+- 结果：PASS
+- 仲裁记录：150dpi 多处疑印刷为 E_r（记号定义句 ⁿE_?′/E_?^{p,q}、d_s 两句、ⁿ⁺¹E_?′/ⁿ⁺¹E_?″、"deux termes de E_?"），600dpi 逐处（p012_notE_600.png、p012_ds1_600.png、p012_ds2_600.png、p012_Es1_600.png、p012_Es5_600.png）确认印刷在这些位置**均为下标 s**，仅 "Ainsi E_r…"、quotient de ⁿE_r′ 等处为 r——印刷本身混用 E_s/E_r，MD 逐处与印刷一致，无需修改。本页我方 150dpi 误读累计八处，全部被仲裁推翻。
+- 差异：无。
+- 备注：md 行 503 起 "qui applique ⁿ⁺¹E_s″ dans ⁿE_s′…s = c_{n+1} − a_n" 与 ⁿ⁺¹E_r″ → ⁿE_r′ → H_n(A) 展示式属印刷 p.436。
