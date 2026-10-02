@@ -114,6 +114,14 @@
 - 差异与修复：(a) 印刷 "Let **L**(*q_M*) denote"（600dpi p014_Ldot2_600dpi.png 证实 L 上方净空、无点），MD 作 "$\overset{\cdot}{L}(q_M)$"（伪影点 accent）→ 已改为 "$L(q_M)$"；(b) 印刷 "V(**𝕊**^N)"（600dpi p014_Sring_600dpi.png 证实为无 ring 的黑板粗体 S），MD 作 "\mathring{\mathbb{S}}^N"（伪影 ring）→ 已改为 "\mathbb{S}^N"。
 - 备注：MD "M<sup>˜</sup>"（M̃ 的上标式波浪号）为 MinerU 排版伪影，语义不变，登记不改；O(N^{−3/2}) 上标 pdftotext 拍平为 "N − 2" 属文本层伪影，以 PNG 为准与 MD 一致；其余逐项一致。
 
+## p.015（PDF p.15 / 印刷 p.15）
+- PNG：audit-redo/p015.png（pngmono 150dpi）
+- 核对：(7.1) 三行 first variation 链逐项、(7.2) L-geodesic 方程、L-shortest curve 存在性与 τ₁=0 延拓段、∇L(q,τ̄)=2√τ̄X(τ̄) 与 |∇L|²=4τ̄|X|²=−4τ̄R+4τ̄(R+|X|²)、L_τ̄(q,τ̄)=√τ̄(R+|X|²)−⟨X,∇L⟩=2√τ̄R−√τ̄(R+|X|²)、(7.3) 三行 d/dτ(R+|X|²) 链
+- 结果：PASS±（一处多冠词已修）
+- 差异与修复：印刷 "every such L-shortest curve is **L-geodesic**"（无冠词 an；pdftotext 同证），MD 作 "is an $\mathcal{L}$-geodesic" → 已删 "an"（同 p.007 多冠词类）。
+- 备注：MD "$q .$In"（q 后空格句点）为 math/文本边界间距伪影，标点与印刷一致，登记不改；其余逐项一致。
+
+
 
 
 
