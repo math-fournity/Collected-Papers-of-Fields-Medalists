@@ -514,3 +514,10 @@
 - 证据：源 PDF p.071 文本层、页图 `audit/Hironaka_1964_resolution_partI_p071.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p071_frame_formulas.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p071_theorem_III_start.png`，并比对 MinerU Markdown 第 1263–1316 行。[b*] 印刷类型为单一上标 `\Re_{\mathrm{I}}^{N,n}`；Markdown 第 1269 行写作 `\Re_{\mathrm{I}}^{N}\,^{n}`，将 $n$ 拆成另一个独立上标。regular-frame 的其余条件、[c*]–[e*] 基底/系数/理想公式、维数不等式及 Theorem III$^N$ 的首个 datum 形式均与原页对应。
 - 备注：印刷运行页眉和页码 178 未录入 Markdown，属导航元素省略。
 - 结论：resolution datum 类型标签的合并上标被拆开，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.072 / 96（印刷 p.179）— PASS±
+
+- 时间：2026-10-02 04:37 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.072 文本层、页图 `audit/Hironaka_1964_resolution_partI_p072.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p072_Theorem_III_data_and_conditions.png` 与 MinerU Markdown 第 1322–1357 行。第二类 datum 矩阵形式、Theorem III$^N$ 的前提和结论、集合 $S$ 的定义、(1) 有限性以及 (2)(a)–(c) 的 $\nu^*$/$\tau^*$ 比较式均与印刷页对应。证明叙述中的 datum references 在 Markdown 第 1331 行用普通 `R_i`/`R_j'` 代替印刷 Fraktur `\mathfrak{R}_i`/`\mathfrak{R}_j'`，上下文指代明确，属不改变意义的正/花体混排（PASS±）。
+- 备注：印刷页在证明续段 “we can extend and replace the succession $f$ with” 处接至下一页；运行页眉和页码 179 未录入 Markdown。
+- 结论：未发现正文内容差异；datum 字体混排及运行页眉/页码省略记为 PASS±。
