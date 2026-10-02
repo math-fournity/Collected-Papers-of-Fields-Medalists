@@ -20,3 +20,10 @@
 - 结果：PASS±
 - 差异：①md（第 14–15 行后）缺印刷页末句 "Annals of Mathematics is collaborating with JSTOR to digitize, preserve and extend access to The Annals of Mathematics." 及页脚 "http://www.jstor.org"——JSTOR 封面样板，非论文内容，不误导，不修；②印刷页 "available at" 与 URL 分两行，md 合并为一行——排版级，不修。其余题录字段逐项吻合。
 - 备注：本页为 JSTOR 自动生成封面；该缺失句建议阅读时忽略。
+
+## p.002（PDF p.2 / 印刷 p.425）
+- PNG：audit/p002.png（pngmono 150dpi）
+- 核对：题录（标题 HOMOLOGIE SINGULIÈRE DES ESPACES FIBRÉS / Applications / PAR JEAN-PIERRE SERRE / Received May 4, 1951）；INTRODUCTION 前三段；章节预告 Ch.I（suite spectrale ([22], [19])、K(π; q)、Cartan-Leray）与 Ch.II 开头（跨页断句 "…consiste à prouver que le"）；脚注 1（Les crochets renvoient à la Bibliographie…）
+- 结果：PASS±
+- 差异：md 缺印刷页眉块 "ANNALS OF MATHEMATICS / Vol. 54, No. 3, November, 1951 / Printed in U.S.A."（grep "Printed in U.S.A|November" 全文 0 命中，系 mineru 系统性略去运行页眉；卷期信息已见于 p.1 封面行，不误导，不修）。正文文字、脚注标记 $^{1}$ 位置（Marston Morse 之后）、关系式 $\pi_i(\Omega) = \pi_{i+1}(X)$、引用编号 [25]/[18]/[22]/[19]/[24] 顺序均与原图逐项吻合。
+- 备注：mineru 已知瑕疵类型"运行页眉略去"在本篇为系统性表现，后续页不再重复登记，除非页眉含正文性信息。
