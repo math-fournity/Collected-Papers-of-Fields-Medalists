@@ -507,3 +507,10 @@
 - 证据：源 PDF p.070 文本层、页图 `audit/Hironaka_1964_resolution_partI_p070.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p070_OXr_and_II_labels.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p070_implication_B_formula.png`，并比对 MinerU Markdown 第 1243–1260 行。印刷第 1243 行写 `O_{X_r}`，Markdown 写成 `O_{x_r}`；第 1247 行的 fundamental-theorem labels `II_1^N`、`II_2^N` 被记为 `\Pi_1^N`、`\Pi_2^N`。此外，implication (B) 的印刷结论为 `I_2^{N,n}`，Markdown 第 1260 行写成 `I_2^{N^n}`；同一行第二输入 theorem label 印刷为 `I_2^{N',n'}`，Markdown 漏掉 `N'` 与 `n'` 之间的逗号。主定理 II(N) 证明中的矩阵 datum、implication (A) 与 (B) 的其余条件和标签均与原页对应。
 - 备注：印刷运行页眉和页码 177 未录入 Markdown，属导航元素省略。
 - 结论：结构层下标大小写、2 个 II/Pi 标签、implication (B) 的结论上标结构及输入编号逗号均有差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.071 / 96（印刷 p.178）— FAIL
+
+- 时间：2026-10-02 04:34 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.071 文本层、页图 `audit/Hironaka_1964_resolution_partI_p071.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p071_frame_formulas.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p071_theorem_III_start.png`，并比对 MinerU Markdown 第 1263–1316 行。[b*] 印刷类型为单一上标 `\Re_{\mathrm{I}}^{N,n}`；Markdown 第 1269 行写作 `\Re_{\mathrm{I}}^{N}\,^{n}`，将 $n$ 拆成另一个独立上标。regular-frame 的其余条件、[c*]–[e*] 基底/系数/理想公式、维数不等式及 Theorem III$^N$ 的首个 datum 形式均与原页对应。
+- 备注：印刷运行页眉和页码 178 未录入 Markdown，属导航元素省略。
+- 结论：resolution datum 类型标签的合并上标被拆开，列为 FAIL；待全篇审计后逐处手工修复。
