@@ -139,4 +139,15 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.10 行；本次独立重核未见内容差异，旧状态维持。
 - 页界：本页止于「…punktfremde Rück-」（断词跨页），MD 连写为「Rückkehrschnitte」并衔接 (4) 公式，顺序正确。
 
+### p.011（PDF p.11 / 印刷 p.167）
+
+- audited_at=2026-10-02 17:55 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p011.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p011_formel5p_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 167）、公式 (4) `ϱ=Σϱ(Ω)+n(σ),`（逗号在、\tag{4}）、allgemeine Zerlegungsformel 句、topologische Typen 段（q−1、q−2、q′、q+2q′−2）、Geschlecht Null 段（ϱ=−2、−1）、公式 (5) `ϱ≧n(σ)−N(Ω),`（\tag{5}）、Gleichheitszeichen 句、公式 (5′) `ϱ≧n(σ)−N₁(Ω),`、N₁(Ω) 句、编号段 10 起始、Der Betrachtung 段（Eₙ,Kₙ,Pₙ、ϱₙ=−Eₙ+Kₙ−Pₙ）页末断句「Für die Teilung」。
+- 发现并修复（MD 结构化 Edit，1 处）：公式编号 `\tag{(5')}` → `\tag{5'}`——印刷编号为单层括号「(5′)」，mineru 把编号括号并入 tag 内容造成双层；本篇其余编号 tag 均为单层惯例（如 `\tag{5}` 对应印刷 (5)）。
+- 仲裁否决（登记不改）：150dpi 疑 (5′) 式末为句点；300dpi 裁片显示末标记带下伸尾，为**逗号**，MD 逗号正确。
+- 结果：PASS±（编号修复后与印刷一致；斜体/页眉系统性伪影同前，不重复展开）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.11 行；本次发现的 (5′) 双层括号系旧审计未检出项。
+- 页界：本页止于「Für die Teilung」，次页续「der Fläche W gilt…」，衔接正确。
+
 <!-- redo-tail -->

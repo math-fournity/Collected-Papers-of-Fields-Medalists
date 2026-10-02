@@ -283,7 +283,7 @@ $$
 und das Gleichheitszeichen gilt nur, wenn sämtliche Teilgebiete einfach zusammenhängend sind. Etwas genauer gilt sogar
 
 $$
-\varrho \geq n (\sigma) - N _ {1} (\Omega),\tag{(5')}
+\varrho \geq n (\sigma) - N _ {1} (\Omega),\tag{5'}
 $$
 
 wo  $N_{1}(\Omega)$  die Anzahl der einfach zusammenhängenden Gebiete  $\Omega$  ist.
