@@ -324,3 +324,13 @@
 - 印刷证据与差异：原图为 `BE(A)=\lim_\to BE_n(A)` 并给出对应 `H_*(BE(A))=\lim_\to H_*(BE_n(A))`；基线第 1086、1094 行把 stage index/同调指标错成 `0`、`y`，且第 1090、1098 行将映射序列与 mapping telescope 注释拼坏。群同调系数链复形原式是 `C_i(\widetilde{BG})\otimes_{\mathbb Z[G]}M`，基线第 1118 行漏掉平衡张量的基环，第 1122 行更把 `\otimes_{\mathbb Z[G]}` 写成 `\oplus_{\mathbb Z[G]}`。原图结论 `H_i(BG,M)=H_i(G,M)`，基线第 1126 行写成 `H_1(-1)=H_1(GM)`，改变了指标与群同调对象。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对 direct-limit 指标与平衡张量。
 - 记录：2026-10-02 02:25:48 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.032（PDF p.32 / 纸面圈号 32）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p032.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p032_maps-action.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p032_milnor-moore.png`。
+- 核对：mapping-space 的分量/`π_1` 作用关系；`[Z,BG]` 与表示 `Hom(π_1Z,G)` 的分类和共轭商；内自同构对 `BG` 的同伦/同调作用；Milnor–Moore primitive theorem。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图开头给出带 basepoint/cover 的 mapping-space 分量公式，基线第 1130 行把源、作用指标和目标分量索引压成 `π_0[((X,*)^{(z,x)})_{π,X}]=π_c(X^z)`，无法按原图确定所指映射。原图随后把 `π_1X` 对 `[Z,X]` 的作用与 `BG` 情形的 `Hom(π_1Z,G)` 分类、按 G 共轭取商连接；基线第 1133–1135 行丢失 `π_1Z` 下标并把相关 map-space/pointed 条件写成 `Z⊥pt`。本页内自同构同伦结论与 Milnor–Moore 的 `\mathbb Q⊗π_iM→Prim(H_i(M;\mathbb Q))` 可读，与该页的主要错识无关。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 原图重建 mapping-space 与共轭商公式。
+- 记录：2026-10-02 02:32:32 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
