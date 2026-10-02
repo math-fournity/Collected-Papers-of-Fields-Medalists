@@ -1269,7 +1269,7 @@ $$
 Il en résulte que l'entier algébrique $A_{l}-a_{l}$ a une image dans $\overline{\mathbf{F}}_{p}$ qui est égale à 0 pour tout $p\in P$, $p\neq l$. Comme $P$ est infini, cela entraîne
 
 $$
-A _ {l} = a _ {l} \quad \text { pour   tout } l + N.\tag{4.6.4}
+A _ {l} = a _ {l} \quad \text { pour   tout } l \nmid N.\tag{4.6.4}
 $$
 
 En particulier, les $A_{l}$ appartiennent à $\mathbf{Z}$. Ils définissent une courbe de Weil $E_{F}$ de niveau un diviseur de $N$; d'après (4.6.4), les représentations $l$-adiques attachées à $E$ et $E_{F}$ sont isomorphes, et l'on sait (Faltings [13], [14]) que cela entraîne que $E$ et $E_{F}$ sont isogènes sur $\mathbf{Q}$. D'où le th. 4.

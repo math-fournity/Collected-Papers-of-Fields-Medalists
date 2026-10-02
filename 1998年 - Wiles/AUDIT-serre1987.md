@@ -248,3 +248,11 @@
 - 核对：u 核 Gal(Q̄/Q(i)) 句、2-division 曲线 y² + xy + y = x³ − x² − x − 14（conducteur 17、discriminant −17⁴）、4.6 节标题（j_E、N）、THÉORÈME 4（Admettons (3.3.1?)、courbe de Weil de niveau N）、J₀(N)/X₀(N) 括注、ρ_p^E 定义、(4.6.1) det ρ_p^E = χ、LEMME 5（C_E）、(4.6.2)/(4.6.3)、Mazur [29] p > 163 句、[18],[40],[49]、N_p divise N、p ⩾ 5 条件句、(a) p∤N、(b) v_l(N) = 1 ⇒ p∤v_l(j_E)、Noter 括注（v_l(j_E) < 0）、Bornons-nous 段（ρ_{f_p}、f_p = Σa_{n,p}qⁿ、F̄ₚ）、(3.1.6) relève 句。
 - 结果：PASS。公式、引用编号、上下标（−17⁴、a_{n,p}）全部与印刷吻合。
 - 备注：“− 1 4” 数字带空格渲染 14，排版级；valuation 记号 v_l 与印刷一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 207” 未收入 Markdown，排版级。印刷页止于 “il existe une forme parabolique de poids 2 et de niveau N”，F = ΣAₙqⁿ 式属印刷 p.208。
+
+## p.030（PDF p.30 / 印刷 p.208）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p030.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p030_464_nmid.png`（pnggray）。
+- 核对：F̃ = f_p 有限性论证段、a_l ≡ a_{l,p} (mod p) 式、A_l − a_l image 段、(4.6.4) A_l = a_l pour tout l ⊬ N、courbe de Weil E_F 段（Faltings [13],[14]、isogènes sur Q、D'où le th. 4）、Remarques (1)（Colmez、Colloque de Luminy 1986）、(2)（primitive、Carayol [8]）、(3) Shimura 例子（K = Q(√D)、σ、E^σ、λ^σ∘λ = −c、[52] p.184、(N,2,ε)、(3.2.4?)、Q(√−c)）、n°s 4.7 et 4.8 句、4.7 节标题首句。
+- 结果：FAIL。一处已依原图修复：(4.6.4) 式印刷 “pour tout l ⊬ N”（300 dpi 裁片确认不整除符 + 样字形，同 p.194 已裁决字形），Markdown 写成 “l + N”（真加号），修为 l \nmid N。其余逐项吻合。
+- 备注：F̄ₚ/Z̄/Q 粗体一致；(3.2.4$_{?}$) 下标问号沿用 quirk；页眉 “208 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 4.7 节首句 “(cf. Ribet”，其后属印刷 p.209。
