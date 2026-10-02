@@ -405,3 +405,12 @@
 - 核对：Theorem A.4；Remark A.5；§A.1 的 Theorem A.6、Corollary A.7、Theorem A.8 及 associated-graded 与 Kodaira–Spencer maps。
 - 结果：PASS±。
 - 差异与依据：数学陈述、Hilbert polynomial `P_0(n)`、étale gluing、torsionfree Fontaine–Laffaille conclusion 和 maps 均与印刷相符。PASS± 字面噪声：`Griffiths` 转成 `Grifiths`；Corollary A.7 中 `U_i`-family 被插入额外的数学点号。
+
+## p.046（PDF p.46 / 印刷 p.46）
+- 时间：2026-10-02 02:26:59 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p046.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p046-PropositionA10-contract.png`、`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p046-arithmetic-model-proof.png`
+- 核对：Remark A.9、Proposition A.10 (a)–(g)、证明中选取 arithmetic model 与 moduli-space base change。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Proposition A.10 所述 model 应以 `(S,\bar X_S,D_S,\mathcal O_{\bar X_S}(1))` 为源、以 `(\bar X_C,D_C,\mathcal O_{\bar X_C}(1))` 为目标；Markdown 两个 tuple 都丢失了紧化横线。性质 (e) 的 geometric-point map `s:\operatorname{Spec}\bar k → S` 漏箭头，性质 (g) 的 `S → \operatorname{Spec}\mathbb Z` 也漏箭头。证明中 `\mathbb P^N_{\tilde S}` 后多出 `r`，并在 `\bar X_{\tilde S}` 的 smooth 断言前多出 `r`。300dpi 裁片确认 scheme、bar、箭头及多余字符。
