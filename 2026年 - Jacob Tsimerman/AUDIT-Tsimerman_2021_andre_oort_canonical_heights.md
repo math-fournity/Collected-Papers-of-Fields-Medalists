@@ -191,3 +191,11 @@
 - 核对：Theorem 4.14 证明收尾与 §5.1 题材、平方关系、二次域定义、CM 模与 A/B 元素。
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Markdown 第 807 行把缩放因子 `1/π^i` 写成 `1/π^2`，改变了按权重 i 缩放的公式；300dpi 裁片确认上标为 i。印刷页还保留一个源级数学排印冲突：同页先称 `\mathfrak p^2=-p`，随后定义 `M=\mathbb Q[x]/(x^2-p)`；Markdown 忠实保留两处原文，未按预期更正。相邻的 A、B 公式与来源字形一致。
+
+## p.022（PDF p.22 / 印刷 p.22）
+- 时间：2026-10-01 20:27:23 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p022.png`（pngmono 150dpi）
+- 核对：§5.1.1 intrinsic valuation 余段、§5.1.2 crystalline valuations、§5.2 开头至 intrinsic norm 与 crystalline norm 分节。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：Markdown 第 853 行在正文把 degree-p isogeny 写成 `E E'`，漏掉映射箭头；第 863 行同一 isogeny 再次出现时则有 `E → E'`。150dpi 页图与 PDF 文本层均显示第一处印刷原文为 `E → E'`，故这是单处转录漏符号。其余本页 valuation 公式与印刷排版相符。
