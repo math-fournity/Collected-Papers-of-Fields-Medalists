@@ -450,3 +450,12 @@
 - 核对：Theorem A.20 periodic lift identity; Remark A.21; Betti representations, their extension to the étale fundamental group, and Theorem A.22.
 - 结果：FAIL（以原图为准）。
 - 差异与依据：Theorem A.20 的 periodic identity 应将 `C_n^{-1}\circ\overline{gr}` 作用后的 connection 指标写为 `\nabla_{W_n}^{\sigma(i)}`；Markdown 保留了 `\nabla_{W_n}^{i}`。Betti moduli passage 两处把表示数上界 `n_r` 错作 `n`、`n_i`；embedding `\mathcal O_F → W(\overline{\mathbb F}_p)` 漏箭头。Remark A.21 的 `End(E_{\mathbb C,an})^{End(\nabla_{\mathbb C})}` invariant group 又被拆成 HTML sub/sup 标签与乱码。两张 300dpi 裁片核实 connection index、rank-count indices、embedding arrow 与 cohomology invariant。
+
+## p.051（PDF p.51 / 印刷 p.51）
+- 时间：2026-10-02 02:58:29 EDT (-0400)
+- actor=Peer-P21；model=gpt-6-luna；effort=max
+- PNG：`audit/Tsimerman_2021_andre_oort_canonical_heights_p051.png`（pngmono 150dpi）
+- 300dpi 仲裁图：`audit/300dpi/Tsimerman_2021_andre_oort_canonical_heights_p051-residual-representations.png`
+- 核对：Theorem A.22 proof 的 residual irreducibility、pairwise non-isomorphism 与 pigeonhole descent；附录参考文献 [Del70]–[EV86]。
+- 结果：FAIL（以原图为准）。
+- 差异与依据：pairwise-isomorphism contradiction 中右侧 residual coefficient field 应为 `\overline{\mathbb F}_p`，Markdown 将 p 错录成粗体 `\boldsymbol\pi`；结尾 pigeonhole argument 的 local-system coefficient ring 应为 `W(\overline{\mathbb F}_p)`，Markdown 将下标 p 移到 (W(\overline{\mathbb F})_p) 之后。300dpi 裁片确认这两处的 p 都属于有限域下标。
