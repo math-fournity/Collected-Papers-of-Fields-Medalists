@@ -64,3 +64,13 @@
   - 300dpi 仲裁三处均确认 md 正确：① `d_A^-\colon\Omega^1(V)\to\Omega_-^2(V)` 目标确有下标减号；② Laplacians 印刷为 `d_A^*d_A,\ d_Ad_A^*+d_A^*d_A^-,\ d_A^-d_A^*`，md（行 195）连中项的上标减号都一致；③ 椭圆复箭头标签印刷为 `d_A` 与 `d_A^-`（无数字上标），md 行 198 一致。
   - 排版级伪影（登记不改）：印刷斜体 *self-dual connection*、*Yang-Mills action*、*flat*、*if A is self-dual* 在 md 中为正体。
 - 修复登记：无。
+
+### p.006（PDF p.6 / 印刷 p.284）
+
+- PNG：`audit-redo/p006.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（叠置丛记号 P↓S⁴ 与 S⁷↓S⁴，结论记于本条）
+- 核对：节标题 I.4；∫_U|F|²dμ 与共形不变段；式(2)；Proposition 4 [20, Theorem 4.1] 全文与有限作用积分；moduli space 𝔐(S⁴)=SO(5,1)⁺/SO(5)=B⁵ 段；P↓S⁴ 与 S⁷↓S⁴ 叠置记号
+- 结果：**PASS±**（含两处叠置记号错位修复）。
+  - I.4 标题、`c_2(P)=-1`、`\int_U|F|^2d\mu`、式(2) `\int_{\mathbf{R}^4}|F|^2d\mu . = -8\pi^2c_2`（印刷原样 quirk：`d\mu` 后多一句点，md 忠实保留）、Proposition 4 斜体全文、`\int_{B^4\setminus\{0\}}|F(A)|^2d\mu<\infty`、`g\colon B^4\setminus\{0\}\to SU(2)`、总作用 `8\pi^2`、`\mathfrak{M}(S^4)=SO(5,1)^+/SO(5)=B^5`、centre/scale 段与 `4\pi^2` 全部与页图一致。
+  - **修复**：印刷把 `P\downarrow S^4` 排成 P/↓/S⁴ 三行叠置，Luna 转写丢了下位 S⁴（行 231 作 `$P\downarrow$`），又把版面重叠的同一 S⁴ 误挂成 `SO(5)` 的上标（`$SO(5)^{S^4}$`）。300dpi 裁片确认：SO(5) 无上标，S⁴ 是箭头叠置的下位 → 已 Edit 改为 `on $P\downarrow S^4$ form a single orbit … a single $SO(5)$ invariant class`；第二处叠置 `$S^7\downarrow S^4$` Luna 转写正确，不动。
+  - 排版级伪影（登记不改）：印刷斜体 *moduli space*、*centre*、*scale*、Proposition 4 整段斜体在 md 中为正体；粗体 **R⁴** 拍平。
+- 修复登记：行 231 `$P\downarrow$`→`$P\downarrow S^4$`、`$SO(5)^{S^4}$`→`$SO(5)$`（依据 `audit-redo/p006.png` + 300dpi 叠置记号裁片）。
