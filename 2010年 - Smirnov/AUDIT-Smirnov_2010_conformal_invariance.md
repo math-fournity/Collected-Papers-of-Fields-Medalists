@@ -99,3 +99,9 @@
 - 核对：Figure 4（medial lattice 图，标注 a_δ、z_δ、b_δ）及图注 "An example of collection of contours in Ɛ(a_δ, z_δ) on the lattice Ω◇."；§2.3 Spin-Dobrushin domain, fermionic observable and results on the Ising model 标题；spin-Dobrushin domain (Ω◇_δ, a_δ, b_δ) 定义（b_δ 为 black face 东南角）；E(a_δ,z_δ)/γ(ω) 左转约定；Definition 2.9——spin-Ising fermionic observable F_{Ω_δ,a_δ,b_δ}(z_δ) = Σ_{ω∈Ɛ(a_δ,z_δ)} e^{−(1/√2) iW_{γ(ω)}(a_δ,z_δ)} (√2−1)^{∣ω∣} / Σ_{ω∈Ɛ(a_δ,b_δ)} e^{−(1/√2) iW_{γ(ω)}(a_δ,b_δ)} (√2−1)^{∣ω∣}；winding W_γ 定义句；分母与 conditioned critical Ising partition function 的联系段（(2.11) 回引）；页脚印刷页码 13。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：指数内堆叠分数 1/√2 在 150dpi 下字形较小，文本层被拆散为 "e− 2 iW…/1/√" 三段，属 pdftotext 伪影；PNG 可辨分数结构，重导出对账时以 300dpi 抽查该公式再定案。
+
+## p.014（PDF p.14 / 印刷 p.14）
+- PNG：audit/p014.png（pngmono 150dpi）
+- 核对：Figure 5（primal/dual lattice 高温展开与对偶构型图，含 +/− 自旋圈码与 a_δ、b_δ 标注）及长图注（a_δ 连 b_δ 的约束对应 +/− boundary conditions partition function）；分母对应 free boundary conditions 条件于 σ_a=σ_b 同自旋的 partition function 段、disorder operators 一句；临界性 √2−1 = e^{−2β_c} 与 Kramers-Wannier duality 解释段（dual graph 加一层 dual vertices、Fig. 5 引用）；spin Dobrushin domain 上的临界 Ising 模型约定段（interface γ_δ 从 a_δ 到 b_δ、左转约定、∂_{ab}^⋆/∂_{ba}^⋆ 弧、Figures 1/2 回引）；Theorem 2.10——(γ_δ)_{δ>0} 弱收敛于 chordal Schramm-Loewner Evolution κ = 3；页脚印刷页码 14。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：∂_{ab}^⋆ 的下标 ab 与上标 ⋆ 堆叠排印（PNG 中 ab 偏高），与 p.4 脚注 3 同类 print quirk，登记不改；κ = 3 与 Theorem 2.10 编号为重导出对账锚点。
