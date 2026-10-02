@@ -255,6 +255,13 @@
 - Checked: the Tor criterion for flatness, localization example, canonical Hom-tensor map, Proposition 21 and the finite free presentation setup.
 - Result: FAIL. The print uses Tor_1^A in the flatness criterion; Markdown line 878 has a fraktur i subscript, and the crop confirms numeral 1. Markdown line 896 also omits the map name after “L'homomorphisme”; this is non-misleading because the map is defined immediately above, but it is a recorded PASS± omission.
 
+### PDF p.037/43 — print p.36
+
+- Reviewed: 2026-10-02 00:41 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi T-diagram crop](audit/300dpi/Serre_1956_gaga_p037_T-diagram_300dpi.png); [300 dpi diagram endpoints crop](audit/300dpi/Serre_1956_gaga_p037_diagram-endpoints_300dpi.png); [300 dpi injection-map crop](audit/300dpi/Serre_1956_gaga_p037_E-tensor-B_300dpi.png); PDF text layer and MinerU Markdown lines 914–950.
+- Checked: Proposition 21's T/T' diagram and five-lemma step; Proposition 22's definition of a flat pair, Tor exact sequences, and tensor-injection criterion.
+- Result: PASS±. The print's rightmost T(L_1)/T'(L_1) diagram marks have incomplete/stray delimiters, and the injection sentence prints E → E⊗_A B*; the 300 dpi crops confirm these print quirks and Markdown preserves them. Markdown line 896 omits the name of the homomorphism in Proposition 21, but the preceding display defines it unambiguously.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
