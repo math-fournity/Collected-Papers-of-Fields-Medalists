@@ -43,3 +43,14 @@
 - 重核 Luna 修复：关系 (1) 的 `h(a)`/`h(a)∘p`、证明 display 的全部 `h(·)`、Prop 1.3 两项的 `h(a)`/`(a^n−a)h(b)=(b^n−b)h(a)` 均与印刷相符（Luna 由 `b` 改 `h` 的方向正确）。
 - print quirk 登记（不改）：① 关系 (3) 印刷右端为 `h(a, b)`（带逗号，与证明中 `h(ab)` 写法不一致，系原文排印原样）；② Prop 1.2 证明第二个 `If O ⊂ F_{p^k}` 印刷无否定斜线（同段 `a ∉ F_{p^k}` 的 ∉ 斜线清晰），数学上应为 ⊄，忠实保留。MD 两处均与印刷原样一致。
 - 另记（PASS± 级伪影，不改）：页眉 "564 V. G. DRINFEL'D" 未收。
+
+## p.005（PDF p.5 / 印刷 p.565）
+
+- PNG：audit-redo/p005.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p005_alpha.png、…_p005_hpib.png；600dpi 终裁：…_p005_alpha600.png、…_p005_hpib600.png、…_p005_hbar600.png、…_p005_prop15a600.png、…_p005_proof1q600.png；旁证（p.564）：…_p004_prop13_1line600.png、…_p004_prop13q600.png
+- 核对：Prop 1.3 证明 1) 续与 2)、Prop 1.4 及证明、Corollary 两项、Prop 1.5 1)a)/1)b)/2) 全部 display、证明、加法判别 Corollary、D) 节标题。
+- 结果：FAIL（3 处印刷忠实性回退，均为 Luna 旧修复或其遗漏）：
+  1. 行 133 `α ↦ ?/π`：600dpi 确认印刷分子为斜体 **f**（升部+横杠+降部；同页 `h(p)`、`p^{n-1}` 与 p.564 `α = pu/π` 的斜体 p 均无升部，字形可区分）。Luna 将原 mineru 忠实的 `f` "修复"为 `p`，违反印刷忠实；已 Edit 回退为 `$\alpha \mapsto f/\pi$`（α 的修正保留）。**erratum 登记**：按 Prop 1.3 2) 数学上应为 p/π，印刷误排为 f/π，按原样保留。
+  2. 行 135 首项：600dpi 确认印刷为 **h(π^b)**（π 带上标 b，字形完整非噪声），同句后文 `h̄(πb)` 无上标——印刷自身不一致。当前 MD（含 Luna 修复后）缺该上标；已 Edit 为 `$h(\pi^b) = \pi h(b) = \pi^{n}h(b)$`。**erratum 登记**：数学上应为 πb，上标系误排，按原样保留。
+  3. 行 147 Prop 1.5 a)：600dpi 确认印刷为 "not a power of **g**"（g 与同片 `(G,g)`/`deg n` 同形；b) 行为直降部 q，同片可区分；p.564 Prop 1.3 1) 与 p.565 证明 1) 均为 q）。原 mineru 的 `g` 忠实，Luna "修复"为 `q` 违反印刷忠实；已 Edit 回退为 `$g$`。**erratum 登记**：数学上应为 q，印刷误排为 g，按原样保留。
+- 重核 Luna 修复（其余）：全部 `h(·)` 系（含 `(a^n−a)h(b)=(b^n−b)h(a)`、`h(π)`、`h̄` 横线）与印刷相符；Prop 1.4/1.5 各 display（含 `h·p/π·C_n`、`h·(a^n−a)/π·x^n`）相符。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 565" 未收；行 135 印刷在前三项下有细横线（扫描/印痕），不转写。
