@@ -106,3 +106,8 @@
 - PNG：`audit-redo/p019.png`（pngmono 150dpi）
 - 核对：(38) `H_s = dd* + d*d + s²K² + s((dK̃)∧ + i(dK̃))`；(39) Killing 场局部标准形；(40) 近似 Hamiltonian；`n₊ ⩽ N₊` 论证段。
 - 结果：PASS±。(38)–(40) 及正文逐项与印刷页相符。print quirks 忠实保留（Luna 已 300dpi 仲裁，本轮 150dpi 复核一致，不改）：(40) 势能项印刷排作 `((x_{2r-1})^2 + x_{2r})^2`（md line 484 原样）；(40) 末项求和上限印刷排作 `n`（λ_r 定义域至 n/2，md 原样）；正文 "As in §3 this makes it possible to obtain detailed information about the spectrum for large s"（上下文指向 §2 方法，印刷作 §3，md line 471 原样）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 679" 未入 md（版面信息省略）。
+
+## p.020（PDF p.20 / 印刷 p.680）
+- PNG：`audit-redo/p020.png`（pngmono 150dpi）
+- 核对：非孤立零点段（`H_N = dd* + d*d`）；`n₊ ⩽ N₊, n₋ ⩽ N₋` 上界段；Euler 特征框架段（`H_s = d_s d_s* + d_s* d_s = (d_s + d_s*)²`、`D_s = d_s + d_s*`）；(41) `χ(M) = χ(N)`；任意向量场推广段开头。
+- 结果：PASS±。正文与 (41) 逐项与印刷页相符。**Luna 旧修复重核：`H_s` 第二项 `d_s^* d_s`（md line 499，Luna 曾修复原始 md 的重复 `d_s d_s^*`）与印刷一致，修复正确**；`d_s² + d_s*² = 0`、`D_{s±}`、`N₊ − N₋` 一致；跨页断点一致（line 509 末 "it is no"）。差异仅：页眉 "680 EDWARD WITTEN" 未入 md（版面信息省略）。
