@@ -125,3 +125,11 @@
 - 结果：FAIL。一处已依原图修复：Remarques (1)(a) 中矩阵印刷为 (χ 0; 0 1)（300 dpi 裁片确认左上 χ 带弯尾），Markdown 写成 x，修为 χ。
 - 印刷原文 quirk：本页 “la puissance p-ème” 印刷确为 p-ème（无 i；300 dpi 裁片确认），与 p.190 页的 “p-ièmes” 排印不一致属印刷原文自身差异，Markdown 两处各自忠实保留。
 - 备注：(a)(b) 连接号 300 dpi 确认为 ≃，Markdown 一致；“à coefficients dans F̄ₚ” 处 Markdown 用非粗体 \overline{F}_p，体例差异排版级不改（同 p.011 登记）；页眉 “192 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “le choix de la place en question définit”，ε₀ 式属印刷 p.193。
+
+## p.015（PDF p.15 / 印刷 p.193）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p015.png`（pngmono，150 dpi）。
+- 核对：z ↦ z̃ 同态句、ε₀: (Z/NZ)* → Z̄* 定义式、relèvement multiplicatif 句、ε₀(x)˜ = ε(x)、ε₀(−1) = (−1)^k 句、Γ₀(N) 上 formes paraboliques 引言、(3.1.2) F = Σ A_n q^n（q = e^{2πiz}）、收敛半平面句、条件 (a)（ε₀(d)(cz+d)^k F(z)、Γ₀(N)）、条件 (b)（SL₂(Z)、z ↦ (cz+d)^{−k}F((az+b)/(cz+d))、q 换 q^{1/N}）、type (N,k,ε₀) 缩写句、DÉFINITION（f = Σ aₙqⁿ、aₙ ∈ F̄ₚ、F = Σ Aₙqⁿ、Aₙ ∈ Z̄、F̃ = f、Ãₙ = aₙ）、anneau local 括注。
+- 结果：PASS。公式、矩阵、群记号（Γ₀(N)、SL₂(Z)）、上下标全部与印刷吻合。
+- 备注：印刷将约化记号 ~ 排在 ε₀(x) 正上方，Markdown 作上标 \varepsilon_0(x)^{\sim}，语义同一（mod p 约化），排版级不改；“à coefficients dans F̄ₚ” 处 \overline{F}_p 非粗体体例同前登记；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 193” 未收入 Markdown，排版级。印刷页止于 “Cela ne changerait rien.)”，S(N,k,ε) 句属印刷 p.194。
