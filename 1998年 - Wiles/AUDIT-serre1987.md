@@ -167,3 +167,11 @@
 - 结果：FAIL。脚注 ² 在 Markdown 被解析成 4 个碎片 span（“$^{2}$ La”、“$p = 2$”、“$k + p - 1$”、“$p \geqslant 5,$”）加 1 个完整 span 的重复伪影；已删除 4 个碎片、保留完整版。其余文字与公式逐项吻合。
 - 印刷原文 quirk：脚注中 “Avec la définiton adoptée ici” 印刷确为 “définiton”（300 dpi 裁片确认丢 i），Markdown 忠实保留。
 - 备注：正文末行印刷为 “d'étudier de ce”（300 dpi 裁片确认，跨页接 “point de vue”），Markdown “d'étudier de ce” 一致，150 dpi 阶段的 “多 de” 怀疑系误读；编号 (3.2.4?)/(3.2.6?) 沿用 p.018 的问号下标 quirk；“un espace $a$ priori” 的 a 单独数学环境，排版级不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 197” 未收入 Markdown，排版级。印刷页止于 “d'étudier de ce”，其余属印刷 p.198。
+
+## p.020（PDF p.20 / 印刷 p.198）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p020.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p020_331eps.png`（pnggray）。
+- 核对：point de vue 段（k=1、Katz 定义反问句）、3.3 Exemple k=2（ρ: G_Q → GL₂(F_p) 无 bar）、条件 (a) det ρ = χ、(b) absolument irréductible（F̄ₚ）、(c) finie en p n° 2.8、[p ≠ 2 时 (b′) 替代条件括注（ρ(c) 特征值 ±1、rationnelle sur F_p、contredirait (b′)）、N/k/ε 句（ε = 1、k = 2、prop. 4 du n° 2.8）、(3.3.1?)、(3.2.6?) 系数句（F_p、p = 2 例外）、J₀(N)/X₀(N)/Γ₀(N) 句、(3.3.2?)、3.4 Questions (1)(2)（Ash-Stevens [2]、GL₂/GL_N/其他整体域列表）。
+- 结果：FAIL。两处已依原图修复：(3.3.1) 与 (3.3.2) 定义处 Markdown 写成 “(3.3.1.)”/“(3.3.2.)”（丢下标 ?），印刷为 (3.3.1_?)/(3.3.2_?)（300 dpi 裁片确认问号字形，与 p.196 同款印刷 quirk），修为 “(3.3.1?)”/“(3.3.2?)”。
+- 备注：ρ 式 F_p 无 bar 与印刷一致（与 (b) 的 F̄ₚ 形成对照，Markdown 正确区分）；GL₂/GL_N/Q 在 (2) 列表中为非粗体，体例差异排版级不改；页眉 “198 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “de remplacer Q par d'autres corps globaux.”，§4 标题属印刷 p.199。

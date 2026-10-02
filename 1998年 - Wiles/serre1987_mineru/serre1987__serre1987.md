@@ -850,11 +850,11 @@ En effet, (a) entraîne que det $\rho$ est impair, donc que les valeurs propres 
 
 Soient $N$, $k$ et $\varepsilon$ les invariants de $\rho$. D'après le n° 1.3, on a $\varepsilon = 1$, et d'après la prop. 4 du n° 2.8, on a $k = 2$. La conjecture (3.2.4?) donne alors:
 
-(3.3.1.) Il existe une forme parabolique $f$ de poids 2 et de niveau $N$, à coefficients dans $\overline{\mathbf{F}}_p$, qui est fonction propre des opérateurs de Hecke et dont la représentation $\rho_f$ associée est isomorphe à $\rho$.
+(3.3.1?) Il existe une forme parabolique $f$ de poids 2 et de niveau $N$, à coefficients dans $\overline{\mathbf{F}}_p$, qui est fonction propre des opérateurs de Hecke et dont la représentation $\rho_f$ associée est isomorphe à $\rho$.
 
 D'après (3.2.6?), cette forme parabolique est à coefficients dans $\mathbf{F}_{p}$, sauf peut-être si $\rho$ est non ramifiée en $p$ (ce qui ne peut se produire que si $p = 2$). On peut reformuler (3.3.1?) en termes de la jacobienne $J_{0}(N)$ de la courbe modulaire $X_{0}(N)$ associée au groupe $\Gamma_{0}(N)$:
 
-(3.3.2.) La représentation $\rho$ intervient comme quotient de Jordan-Hölder dans la représentation de $G_{\mathbf{Q}}$ sur les points de $p$-division de $J_0(N)$.
+(3.3.2?) La représentation $\rho$ intervient comme quotient de Jordan-Hölder dans la représentation de $G_{\mathbf{Q}}$ sur les points de $p$-division de $J_0(N)$.
 
 3.4. Questions. En voici deux, l'une pour pessimistes, l'autre pour optimistes:
 
