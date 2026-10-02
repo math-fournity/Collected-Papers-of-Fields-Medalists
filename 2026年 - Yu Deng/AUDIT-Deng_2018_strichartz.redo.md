@@ -65,3 +65,20 @@
 - 核对：(4) 后半与 display N^{n/2−(n²+2n)/p−ε}T^{1/p}‖f‖、"Overall, this gives the conjecture (1.1)"、Remark 2.1 全部四式（Parsell–Vinogradov 两条件式、≳N^{pd/2}+ΣN^{(p−1)j+d−j(j+2)}≥…、(N^{d/2}+N^{d−d(d+2)/p})T^{1/p}>max(1,·)T^{1/p}‖f‖、as T→∞ sup 比 ≳ T^{1/p}Σ_{n=0}^d N^{n/2−(n²+2n)/p}）、§3 节标题、§3.1 χ 截断与 K_N 定义、Lemma 3.1（|t|≲1/N ⟹ ∀x∈𝕋², |K_N|≲min(N²,1/t)）、Proof 方框
 - 结果：PASS±（1 处已修复）。四条 display 的指数、求和限、≥/＞/≳ 层次、1_{|k|<N} 粗体指示符逐项与印刷一致；Lemma 3.1 与 □ 证明结束符忠实。**修复 1 处**（同类）：L449 `on$\mathbb{R} .$,`→`on$\mathbb{R}$,`（原刊无此句点）。残余瑕疵（不误导，不改）：L455 "(α_{ij})" 后缺句号（印刷有）；L369（p.8 范围已登记）同类的 (1) 句尾缺句号在 L409 区域无新例。
 - 备注：Luna 旧修复抽核通过——旧基线 "Similar sums 前多出 e"、"differencing 误识"、证明方框控制字符在当前 MD 均已不存在（方框现为 □）；"this give examples"（L409）与 "focuse" 类原刊拼写保留正确。
+
+## 本块小结（p.001–p.009 重做完成；非全篇总评）
+
+- 覆盖：PDF p.1–p.9（印刷页码同），逐页 150dpi pngmono PNG 全览＋逐页 pdftotext 文本层对账（双通道主对账，文本层可用），9 处疑难字形/符号升级 300dpi 仲裁（p002 底式、p003 (1.6)、p004 定理两式、p005 bounds/level-set/exponent 4x/S-line 3x、p008 矩形环面句＋表达式 display）。
+- 页级结论：9 页全部 **PASS±**，0 FAIL。无一处数学内容错误（公式、指数、编号、陈述全与印刷页一致）；登记不修改的 PASS± 瑕疵共 25 处，其中 display 公式边界句尾标点缺失 23 处（p.1×3、p.2×2、p.3×3、p.4×3、p.5×2、p.6×3、p.7×3、p.8×3、p.9×1，详见各页条目），另 2 处为 §1.3 run-in 标题被 MinerU 升级为 `##`（L71）与行内 Δ̃ 的 \tilde/\widetilde 帽宽渲染差（L209）。print quirk 忠实保留共 9 处（"on the other hands"、"the spectrum of Δ_M the torus is rational"、"symmetric, positive definite, matrix" 双逗号、provided 后多余 ")"、"which was has been sketched"、\widehat{L^∞} 宽帽、不平衡括号 y^{(d+1)})、"close to a integer multiple"、"this give examples"；另有 𝕋/\mathbf{T} 与 e^{itΔ}/e^{itΔ̃} 的原刊自身混用经 300dpi 逐处核实为印刷原样）。
+- 本次修复（8 处，均为原刊没有的多余标点或词级误录，逐处对应页证据；git diff 全量核对恰为 8+/8−，无其他行变动）：
+  1. L155（p.3）`$d = 2 .$,`→`$d = 2$,`
+  2. L265（p.6）`$k _ { 1 } , k _ { 3 } , . . .$. and`→`$…$ and`
+  3. L271（p.6）`$a , \beta .$.`→`$a , \beta$.`
+  4. L323（p.7）"the number of solution"→"solutions"
+  5. L367（p.8）`functions$f ,$,`→`functions$f$,`
+  6. L371（p.8）`function$\chi .$.`→`function$\chi$.`
+  7. L377（p.8）`the same$f .$.`→`the same$f$.`
+  8. L449（p.9）`on$\mathbb { R } .$,`→`on$\mathbb { R }$,`
+- Luna 旧修复重核：9 页逐页抽样全部通过——旧基线登记的 FAIL 项（题名重音、arXiv 印记、deduce/the、连字符、∈、bullet、widetilde/barΔ、N_k^{1/k} 后多 2、致谢顺序、f_i 初值、方框控制字符等）在当前 MD 中均确已修复；Luna 登记的 print quirk 保留项（hands、was has been、a integer、one in interested、this give 等）均被正确保留、未被误改。
+- 收尾只读清点：`$$` 定界行 490（偶）；`\tag` 51；C0 控制字符 0；1,783 行 / 124,488 bytes。MD SHA-256 由基线 60f572494701…dd1b 变为 a6ff2f6080b91693e03e58e3fcf962a26c5e2c0a174185abaf445ae86c36e796（差异 = 上列 8 处修复，见 git diff 8d10e4f6..HEAD）。
+- 范围声明：本块只覆盖 p.1–p.9；p.10–p.34 的重检与全篇总评、根级索引/进度由后续块与集成方负责，本文件不对其作任何结论。证据图 18 张（p001–p009 全页 + 9 张 300dpi 裁片）均已随页提交入库。
