@@ -133,6 +133,25 @@
 - 残留排版伪影（登记不改）："satisfies${\widehat b} = -b .$ we" 双句点+丢逗号
 - 结果：PASS
 
+## p.011（PDF p.11 / 印刷 p.1027：§3 收尾 Ansatz + §4 开头 f(r) 定义 + A(t) + (4.1) 前置）
+- PNG：audit/p011.png（pngmono 150dpi）
+- 核对：b(r)=−172128πir²+O(r⁴)、b maps ℝ to iℝ、(3.1) Ansatz（Δ²ψ_I weight 14 for Γ(2)、
+  八维空间 Θ₀₁^{4i}Θ₁₀^{28−4i}, i=0..7、约束 ψ_S+ψ_T=ψ_I 三维、(3.3)(3.4) 定 ψ_I）、
+  §4 标题 "Proof of Theorem 1.1"、**f(r)=−πi/113218560·a(r) − i/(262080π)·b(r)**、
+  f(0)=f̂(0)=1、二次 Taylor 系数 −14347/5460 与 −205/156、根在 √(2k)（k=2,3,…）、
+  f′(2)=−1/16380（Lemma 5.1 in [4]）、√2 处值 1/156 导数 −146√2/4095、
+  f̂ 在 √2 处值 1/156 导数 −5√2/117、(2.7)+(3.5) → f(r)=sin(πr²/2)²∫₀^∞A(t)e^{−πr²t}dt、
+  **A(t)=π/28304640·t¹⁰φ(i/t) − 1/(65520π)·ψ_I(it) = π/28304640·t¹⁰φ(i/t) + 1/(65520π)·t¹⁰ψ_S(i/t)**、
+  f(r)≤0（r≥2 等号仅 √(2k)）、∫₀^∞A(t)e^{−πr²t}dt<0（r>2 收敛）✓
+- 差异与修复（均为 mineru 转写错/乱，print 均正确）：①行 412 段首 "Letπii" 游离字符 →
+  "Let"（print 为 "Let" + 显示式）；②"Taylor coeficients" → "coefficients"（print 双 f）；
+  ③第二个 f̂ 写成无效命令 $\overrightharpoon{f}$ → $\widehat{f}$（print 为 f̂）；
+  ④"f′(2) = −1/$\frac{\d}{\dt}$16380" 乱码 → "$-1/16380$"（print −1/16380）；
+  ⑤"it sufices" → "it suffices"（print suffices）
+- 残留排版伪影（登记不改）："For $r > 2 .$," 双句点；ψ<sub>I</sub> HTML 下标残留
+- 结果：PASS（修复后）
+
+
 
 
 

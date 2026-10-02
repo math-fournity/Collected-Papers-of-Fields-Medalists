@@ -409,13 +409,13 @@ To obtain the definition (3.1) of$\psi _ { I }$, we began with the Ansatz that$\
 
 ## 4. Proof of Theorem 1.1
 
-We can now construct the optimal auxiliary function for use in Theorem 1.2. Letπii
+We can now construct the optimal auxiliary function for use in Theorem 1.2. Let
 
 $$
 f (r) = - \frac {\pi i}{1 1 3 2 1 8 5 6 0} a (r) - \frac {i}{2 6 2 0 8 0 \pi} b (r).
 $$
 
-Then$f ( 0 ) = { \widehat { f } } ( 0 ) = 1$, and the quadratic Taylor coeficients of$f$and$\widehat { f }$are $- 1 4 3 4 7 / 5 4 6 0$and$- 2 0 5 / 1 5 6$, respectively, as conjectured in [4]. The functions $f$and$\overrightharpoon { f }$have roots at all of the vector lengths in the Leech lattice, i.e.,$\sqrt { 2 k }$ for$k = 2 , 3 , \ldots$. These roots are double roots except for the root of$f$at 2, where$f ^ { \prime } ( 2 ) = - 1 / \frac { \ d } { \ d t }$16380 (in accordance with Lemma 5.1 in [4]). Furthermore, $f$has the value$1 / 1 5 6$and derivative$- 1 4 6 \sqrt { 2 } / 4 0 9 5$at${ \sqrt { 2 } }$, while$\widehat { f }$has the value$1 / 1 5 6$and derivative$- 5 { \sqrt { 2 } } / 1 1 7$there.
+Then$f ( 0 ) = { \widehat { f } } ( 0 ) = 1$, and the quadratic Taylor coefficients of$f$and$\widehat { f }$are $- 1 4 3 4 7 / 5 4 6 0$and$- 2 0 5 / 1 5 6$, respectively, as conjectured in [4]. The functions $f$and$\widehat { f }$have roots at all of the vector lengths in the Leech lattice, i.e.,$\sqrt { 2 k }$ for$k = 2 , 3 , \ldots$. These roots are double roots except for the root of$f$at 2, where$f ^ { \prime } ( 2 ) = - 1 / 1 6 3 8 0$ (in accordance with Lemma 5.1 in [4]). Furthermore, $f$has the value$1 / 1 5 6$and derivative$- 1 4 6 \sqrt { 2 } / 4 0 9 5$at${ \sqrt { 2 } }$, while$\widehat { f }$has the value$1 / 1 5 6$and derivative$- 5 { \sqrt { 2 } } / 1 1 7$there.
 
 We must still check that f satisfies the hypotheses of Theorem 1.2. We will do so using the approach of [12], with one extra complication at the end.
 
@@ -431,7 +431,7 @@ $$
 \begin{array}{r} A (t) = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) - \frac {1}{6 5 5 2 0 \pi} \psi_ {I} (i t) \\ = \frac {\pi}{2 8 3 0 4 6 4 0} t ^ {1 0} \varphi (i / t) + \frac {1}{6 5 5 2 0 \pi} t ^ {1 0} \psi_ {S} (i / t). \end{array}
 $$
 
-To show that$f ( r ) \leq 0$for$r \geq 2$with equality only at$r$of the form$\sqrt { 2 k }$ with$k = 2 , 3 , \ldots$, it sufices to show that$A ( t ) \leq 0$. Specifically, A cannot be identically zero since then$f$would vanish as well; given that$A$is continuous, nonpositive everywhere, and negative somewhere, it follows that
+To show that$f ( r ) \leq 0$for$r \geq 2$with equality only at$r$of the form$\sqrt { 2 k }$ with$k = 2 , 3 , \ldots$, it suffices to show that$A ( t ) \leq 0$. Specifically, A cannot be identically zero since then$f$would vanish as well; given that$A$is continuous, nonpositive everywhere, and negative somewhere, it follows that
 
 $$
 \int_ {0} ^ {\infty} A (t) e ^ {- \pi r ^ {2} t} d t <   0
