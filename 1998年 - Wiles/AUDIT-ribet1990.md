@@ -215,3 +215,11 @@
 - 发现并当场修复：①L928 四处 Hecke 代数粗体拍平（"two T-module structures"→"$\mathbf{T}$-module"、"$T_n\in T$"→"$T_n\in\mathbf{T}$"、"These two T-module structures"→"$\mathbf{T}$-module"、"isomorphic T-modules"→"$\mathbf{T}$-modules"）；②L930 两处（"sequence of T-modules"→"$\mathbf{T}$-modules"、"provided that T acts"→"$\mathbf{T}$ acts"）；③L932 两处（"$\mathbf{T}$-module structures"、"$\mathbf{T}$-modules"）。均据 300 dpi 裁片。
 - 印刷原文 quirk：Remark 3.24 印刷 "call'these"（call 后有排印杂符撇号），MD 规范化为 "call these"（噪点级，登记不改）。
 - 结果：FAIL（8 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.027（PDF p.27 / 印刷 p.456）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 17:50 -0400。
+- PNG：`audit/ribet1990_p027.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Picard **T**-module"、"A model **𝒞** for C"，未存档）。
+- 核对：Remark 3.24 收尾；Proposition 3.25（γ=(T_p)²−1∈**T**、μ(X⊕X)=γ(X⊕X)、λ=(x,y)↦(−x,τx−y)、γ=μλ、□）；节标题 "4. Bad reduction of Shimura curves"；Cerednik-Drinfeld ([3],[7] §4)、[13,14,16]、Jacquet-Langlands、GL₂、[29]；Jordan-Livné 预告；B/𝒪/Γ_∞/M(2,R)/SL(2,R)/H/Γ_∞\H/J=Pic⁰(C)；C_{Q_p}、J_{Q_p}、模型 𝒞（Cerednik [3]/Drinfeld [7]）、purely toric、Z、Ψ=Z*/Z；T̃=Z[...T_n...] 双作用（standard/Albanese）；Theorem 4.1（T̃-isomorphism Z≈Y、bilinear pairing）与 adjoint 论证；T̄ 与 S_{pq-new}；Corollary 4.2（**T̄**→End(J) 注入）；trace_{T/Z}(T_n)；Theorem 4.3（0→K→(X⊕X)/γ(X⊕X)→Ψ→C→0）；Cerednik-Drinfeld 定理模型（GL(2,Q_p)\(℘^unr×X)、K\H_f*/H*、Eichler order R⊂H）；段尾 "arising from R." 接下页 ✓。
+- 发现并当场修复（12 个记号点；Hecke 代数粗体系列 + 花体模型 𝒞，依据 300 dpi 裁片与既有同款先例）：①L934 "Picard T-module"→"$\mathbf{T}$-module"；②L954 "A model C for C"→"A model $\mathcal{C}$ for C"（印刷花体 𝒞，§2 同一对象）；③L958 五处（"the T-modules"→"$\mathbf{T}$-modules"、"make T"→"$\mathbf{T}$"、"of $\tilde T$"→"$\tilde{\mathbf{T}}$"、"every T-module"→"$\mathbf{T}$-module"、"$\tilde T$-module"→"$\tilde{\mathbf{T}}$-module"）；④L964 三处（"$\bar T$"→"$\bar{\mathbf{T}}$"、"quotient of T cut out"×2→"$\mathbf{T}$"）；⑤L972 "sequence of T-modules"→"$\mathbf{T}$-modules"；⑥L980 "as a T-module"→"$\mathbf{T}$-module"。
+- 备注：GL₂、Q_p/Z_p/F_p/F̄_p 等印刷粗体，MD 正体（weight 拍平，登记不改）；□ 惯例不录。
+- 结果：FAIL（12 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
