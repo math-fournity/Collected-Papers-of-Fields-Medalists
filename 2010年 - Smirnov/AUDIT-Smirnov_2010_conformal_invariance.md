@@ -327,3 +327,9 @@
 - 核对：Proposition 7.2 Proof——strip 高度 ℓ、top free / bottom wired、φ^{∞,−∞}_{p,S_ℓ} 记号、极限 observable 满足 Lemma 7.1；e_k 为中心 ik + (1+i)/√2 的 medial edge（Fig. 16）；公式 (7.4) F(e_{k+1}) = {[1+cos(π/4−α)]cos(π/4−α)} / {[1+cos(π/4+α)]cos(π/4+α)} · F(e_k)；归纳得 ∣F(e_ℓ)∣ = e^{−ξℓ}∣F(e_0)∣ ≤ e^{−ξℓ}；ξ ∶= −ln[同分式] 公式 (7.5)；φ^{∞,−∞}_{p,S_ℓ}[iℓ ↔ Z] ≤ e^{−ξℓ}；Figure 16（左：edges e_k、e_{k+1} 与 (0,k)、(0,k+1)；右：[−a_2,a_2]² 中围绕 open path 的 dual circuit、explored area、a=(a_1,a_2)、L）及图注；φ^0_{p,N} ∶= φ^0_{p,2,[−N,N]²} → φ^0_p；A_max（ℓ^∞-norm 最大、lexicographical 取大）；Γ outermost dual circuit（自 a + i/2 起）；公式 (7.6) φ^0_{p,N}(A_max = a) = Σ_γ φ^0_{p,N}(a ↔ 0∣Γ = γ)φ^0_{p,N}(Γ = γ)；页脚印刷页码 51。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷 quirk 登记（忠实保留）——Figure 16 图注原文作 "Conditioning on to the most exterior such circuit gives no information…"，"on to" 连用为原文式样（双通道一致），不作"改正"；(7.4)/(7.5)/(7.6) 编号齐全；cos(π/4±α) 分式结构以 PNG 为准。
+
+## p.052（PDF p.52 / 印刷 p.52）
+- PNG：audit/p052.png（pngmono 150dpi）
+- 核对：Proposition 7.2 Proof 续——{Γ=γ} 可测性、domain Markov property、条件分布为 free boundary FK、boundary conditions 比较 φ^0_{p,N}(a↔0∣Γ=γ) ≤ φ^{∞,−∞}_{p,S_{a_2}}(a↔0) = φ^{∞,−∞}_{p,S_{a_2}}(a↔Z) ≤ e^{−ξa_2}；代入 (7.6) 得 φ^0_{p,N}(A_max=a) ≤ Σ_γ e^{−ξmax{a_1,a_2}}φ(Γ=γ) ≤ e^{−ξa_2}；n ≤ N 时 Σ ≤ cn e^{−ξn}；公式 (7.7) φ^0_p(0 ↔ in) ≤ φ^0_p(0 ↔ Z²∖[−n,n]²) ≤ cn e^{−ξn}（◻）；Theorem 7.4——FK-Ising 临界参数 √2/(1+√2)、Ising 临界逆温度 ½ln(1+√2)；Proof——p_c ≥ 由 Prop 7.2、p_c ≤ 由 A_n open circuit、Borel-Cantelli、infinite dual cluster、duality（◻）；F_δ 在 p ≠ p_sd 时 massive harmonic 段；Proposition 7.5——公式 (7.8) Δ_δF_δ(v) = (cos2α − 1)F_δ(v)（v ∈ Ω◇_δ∖∂Ω◇_δ，Δ_δ 为 distance √2δ 平均减点值）；页脚印刷页码 52。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(7.7)/(7.8) 编号齐全；S_{a_2} 花体 S、e^{−ξmax{a_1,a_2}} 双层指数、cos2α 无括号排法以 PNG 为准。
