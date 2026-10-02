@@ -54,3 +54,12 @@
   3. 行 147 Prop 1.5 a)：600dpi 确认印刷为 "not a power of **g**"（g 与同片 `(G,g)`/`deg n` 同形；b) 行为直降部 q，同片可区分；p.564 Prop 1.3 1) 与 p.565 证明 1) 均为 q）。原 mineru 的 `g` 忠实，Luna "修复"为 `q` 违反印刷忠实；已 Edit 回退为 `$g$`。**erratum 登记**：数学上应为 q，印刷误排为 g，按原样保留。
 - 重核 Luna 修复（其余）：全部 `h(·)` 系（含 `(a^n−a)h(b)=(b^n−b)h(a)`、`h(π)`、`h̄` 横线）与印刷相符；Prop 1.4/1.5 各 display（含 `h·p/π·C_n`、`h·(a^n−a)/π·x^n`）相符。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 565" 未收；行 135 印刷在前三项下有细横线（扫描/印痕），不转写。
+
+## p.006（PDF p.6 / 印刷 p.566）
+
+- PNG：audit-redo/p006.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p006_prop16.png；600dpi 终裁：…_p006_prop16_600.png、…_p006_prop16_3_h600.png、…_p006_Lambda_formula600.png、…_p006_Lambda_sub600.png、…_p006_sub_final.png；旁证（Luna 旧存证，只读）：audit/300dpi/Drinfeld_1974_elliptic_modules_p006.png
+- 核对：homomorphism 定义句、height 定义（φ(x)=ψ(x^{p^k})、log_p q|k、k/log_p q）、O′-height remark、Prop 1.6 三项及证明、Prop 1.7 两项及 normal 条件 1)–3) 与证明 a)/b)/c)。
+- 结果：FAIL（1 处印刷忠实性回退）。Prop 1.6 证明 1)（MD 行 205）：印刷为 `λ: Λ_0 ≃ O[g_1, g_2, …] → E`，下标为**数字 0**（600dpi 三方对照：p.566 该下标与 p.563 `k=0` 数字零同为窄长椭圆，而 p.563/564/565 的 `Λ_O` 下标均为宽圆字母 O）。Luna 将原 mineru 忠实的 `Λ_0` "修复"为 `Λ_O`，违反印刷忠实；已 Edit 回退为 `\Lambda_0`。**erratum 登记**：数学上应为 Λ_O（与 pp.563–565 记号一致），印刷此处误排数字 0，按原样保留。
+- print quirk 登记（不改）：同一证明行的高度参数印刷作 **b**（`q^b−1`、`height b`，字形与 3) 行的双拱 h 可区分），与本页 3)/Prop 1.7 通篇的 h 不一致，系印刷混用；原 mineru 与当前 MD 的 b 忠实，保留。Luna 本页签字未涉此处，无改动。
+- 重核 Luna 修复：Prop 1.7 的 normal 条件 1)–3) 及证明 a)b)c) 的全部 `h`（`q^h`、`F_{q^h}`、`1/h`）与印刷相符（Luna 由 b 改 h 方向正确）；height 定义式与 remark 相符。
+- 另记（PASS± 级伪影，不改）：页眉 "566 V. G. DRINFEL'D" 未收。

@@ -202,7 +202,7 @@ Proposition 1.6. 1) There exist modules of arbitrary height.
 
 3) A formal O-module of height $h$ is isomorphic to the additive module mod $\deg q^h$.
 
-Proof. 1) We consider a homomorphism $\lambda: \Lambda_O \simeq O[g_1, g_2, \ldots] \to E$ such that $\lambda(g_{q^b - 1}) \neq 0$ and $\lambda(g_i) = 0$ for $i < q^b - 1$. To this corresponds a formal $O$-module over $E$ of height $b$.
+Proof. 1) We consider a homomorphism $\lambda: \Lambda_0 \simeq O[g_1, g_2, \ldots] \to E$ such that $\lambda(g_{q^b - 1}) \neq 0$ and $\lambda(g_i) = 0$ for $i < q^b - 1$. To this corresponds a formal $O$-module over $E$ of height $b$.
 
 2) This follows from the fact that the height of the composition of homomorphisms equals the sum of their heights.
 
