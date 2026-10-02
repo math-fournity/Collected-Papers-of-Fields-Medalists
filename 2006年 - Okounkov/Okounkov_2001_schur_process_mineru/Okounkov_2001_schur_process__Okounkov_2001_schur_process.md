@@ -1024,13 +1024,13 @@ $$
 | w - 1 | \lessgtr e ^ {- \tau / 4 - \chi / 2},
 $$
 
-in the definition of$\mathtt { B } _ { \pm } ( k , l ; z _ { * } )$by an extra integral. We obtain
+in the definition of$\mathsf { B } _ { \pm } ( k , l ; z _ { * } )$by an extra integral. We obtain
 
 $$
 \mathsf{B}_{\pm}(k,l;z_{*}) = \frac{1}{(2\pi i)^{2}}\iint_{\substack{|w| = e^{-\tau /2}\\ |z| = e^{\tau /4 + \chi /2}}}\frac{z^{-k - 1}w^{-l - 1}}{1 - z + zw}  dz  dw  ,\tag{36}
 $$
 
-where the plus sign corresponds to$k \geq 0$
+where the plus sign corresponds to$k \geq 0$.
 
 ## 3.1.13
 
