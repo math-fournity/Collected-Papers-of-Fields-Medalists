@@ -460,10 +460,10 @@ Nach einem grundlegenden Satz der Topologie wird eine zasammenhängende Fläche 
 fach zusammenhängend ist, so ist ausserdem die Anzahl der einfach zusammenhängenden Teilgebiete höchstens gleich der Anzahl der Querschnitte. Dieses Resultat wenden wir auf die obige Zerlegung an. Wenn die Zerlegung nur durch Querschnitte erfolgen würde, so hätte man, vorausgesetzt dass $\varrho \geq 0$, $N_{1} \leq n(\overline{\sigma})$. Durch Hinzufügung der Rückkehrschnitte werden keine neuen einfach zusammenhängenden Gebiete erhalten, denn jedes Teilgebiet, das von einem Rückkerschnitt $\overline{\sigma}$ begrenzt wird, besitzt ausserdem wenigstens eine andere Kontur und ist folglich mehrfach zusammenhängend. Es gilt also tatsächlich $N_{1} \leq n(\overline{\sigma})$, wenn nur $\varrho \geq 0$ ist, und wir finden
 
 $$
-{ } ^ { + } \varrho \geq \sum { } ^ { + } \varrho ( \bar { W } ) .
+\stackrel {+} {\varrho} \geq \sum \stackrel {+} {\varrho} ( \bar { W } ) .
 $$
 
-Wenn andererseits $\varrho = -1$, so haben wir $N_{1} \leq n(\overline{\sigma}) + 1$, und es folgt dass kein $\varrho^{+}(\overline{W})$ positiv ist. Wir schliessen hieraus, dass die Ungleichung
+Wenn andererseits $\varrho = -1$, so haben wir $N_{1} \leq n(\overline{\sigma}) + 1$, und es folgt dass kein $\stackrel {+} {\varrho}(\overline{W})$ positiv ist. Wir schliessen hieraus, dass die Ungleichung
 
 $$
 \stackrel {+} {\varrho} \geq \sum \stackrel {+} {\varrho} (\overline {{W}})
@@ -471,7 +471,7 @@ $$
 
 in jedem Falle erfüllt ist.
 
-Die Grössen  $\varrho(\overline{W})$  werden jetzt mit Hilfe des schon bewiesenen Teils des Hauptsatzes nach unten abgeschätzt. Wir erhalten dann nichts anderes als die Ungleichung (II. 1), denn S ist die Summe der mittleren Blätteranzahlen der Teilflächen  $\overline{W}$ , und L ist bestimmt nicht grösser als die Summe der Längen ihrer relativen Ränder.
+Die Grössen  $\stackrel {+} {\varrho}(\overline{W})$  werden jetzt mit Hilfe des schon bewiesenen Teils des Hauptsatzes nach unten abgeschätzt. Wir erhalten dann nichts anderes als die Ungleichung (II. 1), denn S ist die Summe der mittleren Blätteranzahlen der Teilflächen  $\overline{W}$ , und L ist bestimmt nicht grösser als die Summe der Längen ihrer relativen Ränder.
 
 ## § 5. Die Umkehrung.
 

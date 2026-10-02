@@ -239,4 +239,18 @@
 - 本段修复后的 MD 终态 SHA-256：`10e6cfe205aef4e4be162d93475f4d73a4f594293a45b88075a4a4695f04e198`（上段末 `b4e48563…` + 本段 8 处结构化 Edit）。
 - 分级汇总（本段 9 页）：PASS 0、PASS± 9、FAIL 0。
 
+### p.019（PDF p.19 / 印刷 p.175）
+
+- audited_at=2026-10-02 20:00 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p019.png`（pngmono 150dpi，ϱ⁺ 三处加号位置在该页图直接可辨，无需新增 300dpi）。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 175）、页首续句（fach zusammenhängend…N₁≦n(σ̄)）、Rückkerschnitt 句、公式 `ϱ⁺≧Σϱ⁺(W̄).`（句点在）、Wenn andererseits 段（ϱ=−1、N₁≦n(σ̄)+1）、公式 `ϱ⁺≧Σϱ⁺(W̄)`（无标点）、in jedem Falle 句、Die Grössen 段（(II. 1) 引用数字 1 ✓）、节标题 § 5. Die Umkehrung.、编号段 17（ϱ=Nϱ₀、ϱ=Sϱ₀、(II. 1) 引用）、Die Fläche W sei 段页末断句「Das Komplement von」。
+- print quirk 保留核验（不改）：「Rückkerschnitt」（印刷原文如此，Luna 总评已登记）MD 行 464 忠实保留 ✓。
+- 发现并修复（MD 结构化 Edit，3 处）——ϱ⁺ 加号转写不一致统一（印刷三处均为加号在 ϱ 上方；行内既有的 `\stackrel {+} {\varrho}` 惯例为准）：
+  1. 行 463 display 式浮动 `{ } ^ { + } \varrho` ×2 → `\stackrel {+} {\varrho}` ×2；
+  2. 行 466 行内 `$\varrho^{+}(\overline{W})$` → `$\stackrel {+} {\varrho}(\overline{W})$`；
+  3. 行 473 「Die Grössen $\varrho(\overline{W})$」→「$\stackrel {+} {\varrho}(\overline{W})$」（印刷有 ϱ⁺，MD 漏加号）。
+- 结果：PASS±（ϱ⁺ 统一后与印刷一致）。
+- 与 Luna 旧记录交叉：Luna 修复表无 p.19 行；行 473（次页首式）为其 p.20「ρ⁺ 位置」修复对象、写法正确，本页三处系旧审计未检出项。
+- 页界：本页止于「Das Komplement von」，次页续「W in Bezug auf F…」，衔接正确。
+
 <!-- redo-tail -->
