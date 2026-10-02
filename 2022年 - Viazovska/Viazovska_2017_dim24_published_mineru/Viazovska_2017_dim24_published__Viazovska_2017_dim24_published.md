@@ -515,11 +515,11 @@ The proof in Section 4 requires checking certain inequalities for quasimodular f
 
 Thus, these inequalities are clearly provable if true. The proof of the analogous inequalities in [12] used interval arithmetic, but in this appendix we take a different approach, based on applying Sturm’s theorem to truncated q-series. We have documented the calculations carefully, to facilitate checking the proof. Computer code for verifying our calculations is contained in the ancillary file appendix.txt. The code can be obtained at https://doi.org/10.4007/annals.2017.185.3.8, as well as at the arXiv.org e-print archive, where this paper is available as arXiv 1603.06518. Our code is for the free computer algebra system PARI/GP (see [10]), but the calculations are simple enough that they are not dificult to check in any computer algebra system.
 
-To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coeficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign.
+To prove each inequality, we approximate the modular form using q-series and prove error bounds for truncating the series, which we then incorporate by adding them to an appropriate term of the truncated series. The result is nearly a polynomial in$q ,$with the possible exceptions being factors of t (where $z = i t )$, and we bound those factors so as to reduce to the case of a polynomial in q. Furthermore, we bound any factors of π so that the coefficients become rational. Finally, we use Sturm’s theorem with exact rational arithmetic to verify that the truncated series never changes sign.
 
-To prove the error bounds, we need to control the growth of the coefi cients. We first multiply by$\Delta ^ { 2 }$to clear the denominators that appear in (2.1), (3.1), and (3.2). The advantage of doing so is that the coeficients of the numerator grow only polynomially. To estimate the growth rate, we bound the coeficient of$q ^ { n }$in$E _ { 2 }$by$2 4 ( n + 1 ) ^ { 2 }$in absolute value, in$E _ { 4 }$by$2 4 0 ( n + 1 ) ^ { 4 }$, and in$E _ { 6 }$by$5 0 4 ( n + 1 ) ^ { 6 }$. It is also not dificult to show that the coeficient of$q ^ { n / 2 }$ in$\Theta _ { 0 0 } ^ { 4 } , \Theta _ { 0 1 } ^ { 4 }$or$\Theta _ { 1 0 } ^ { 4 }$is at most$2 4 ( n + 1 ) ^ { 2 }$in absolute value.<sup>1</sup> Multiplying series is straightforward: if$| a _ { n } | \leq ( n + 1 ) ^ { \ell }$and$| b _ { n } | \leq ( n + 1 ) ^ { m }$, then the coeficients of $\begin{array} { r } { \Big ( \sum _ { n } a _ { n } q ^ { n } \Big ) \Big ( \sum _ { n } b _ { n } q ^ { n } \Big ) } \end{array}$are bounded by$( n + 1 ) ^ { \ell + m + 1 }$. When we add two q-series with coeficients bounded by diferent powers of$n + 1$, we typically produce an upper bound by rounding up the lower power for simplicity. Using these techniques leads to explicit polynomial bounds for the coeficients of$\varphi \Delta ^ { 2 } , \psi _ { I } \Delta ^ { 2 }$ and$\psi _ { S } \Delta ^ { 2 }$by using their definitions in terms of Eisenstein series and theta functions. These bounds are ineficient, but they sufice for our purposes.
+To prove the error bounds, we need to control the growth of the coefficients. We first multiply by$\Delta ^ { 2 }$to clear the denominators that appear in (2.1), (3.1), and (3.2). The advantage of doing so is that the coefficients of the numerator grow only polynomially. To estimate the growth rate, we bound the coefficient of$q ^ { n }$in$E _ { 2 }$by$2 4 ( n + 1 ) ^ { 2 }$in absolute value, in$E _ { 4 }$by$2 4 0 ( n + 1 ) ^ { 4 }$, and in$E _ { 6 }$by$5 0 4 ( n + 1 ) ^ { 6 }$. It is also not difficult to show that the coefficient of$q ^ { n / 2 }$ in$\Theta _ { 0 0 } ^ { 4 } , \Theta _ { 0 1 } ^ { 4 }$or$\Theta _ { 1 0 } ^ { 4 }$is at most$2 4 ( n + 1 ) ^ { 2 }$in absolute value.<sup>1</sup> Multiplying series is straightforward: if$| a _ { n } | \leq ( n + 1 ) ^ { \ell }$and$| b _ { n } | \leq ( n + 1 ) ^ { m }$, then the coefficients of $\begin{array} { r } { \Big ( \sum _ { n } a _ { n } q ^ { n } \Big ) \Big ( \sum _ { n } b _ { n } q ^ { n } \Big ) } \end{array}$are bounded by$( n + 1 ) ^ { \ell + m + 1 }$. When we add two q-series with coefficients bounded by different powers of$n + 1$, we typically produce an upper bound by rounding up the lower power for simplicity. Using these techniques leads to explicit polynomial bounds for the coefficients of$\varphi \Delta ^ { 2 } , \psi _ { I } \Delta ^ { 2 }$ and$\psi _ { S } \Delta ^ { 2 }$by using their definitions in terms of Eisenstein series and theta functions. These bounds are inefficient, but they suffice for our purposes.
 
-When$t \geq 1 , q = e ^ { - 2 \pi t }$is small enough that these coeficient bounds yield a reasonable error term. When$t \leq 1$, we replace it with$1 / t \ ( \mathrm { v i a } \ z \mapsto - 1 / z )$ and compute the corresponding q-expansion.
+When$t \geq 1 , q = e ^ { - 2 \pi t }$is small enough that these coefficient bounds yield a reasonable error term. When$t \leq 1$, we replace it with$1 / t \ ( \mathrm { v i a } \ z \mapsto - 1 / z )$ and compute the corresponding q-expansion.
 
 Lemma A.1. For t > 0,
 
@@ -527,7 +527,7 @@ $$
 \varphi (i t) <   0.
 $$
 
-Proof. First, we prove this inequality for$t \geq 1$, in which case$q = e ^ { - 2 \pi t } <$ $1 / 5 3 5$. The bounds described above show that the coeficient of$q ^ { n }$in$\varphi \Delta ^ { 2 }$is at most$5 1 3 2 0 0 6 5 5 3 6 0 ( n + 1 ) ^ { 2 0 }$in absolute value, and exact computation shows that
+Proof. First, we prove this inequality for$t \geq 1$, in which case$q = e ^ { - 2 \pi t } <$ $1 / 5 3 5$. The bounds described above show that the coefficient of$q ^ { n }$in$\varphi \Delta ^ { 2 }$is at most$5 1 3 2 0 0 6 5 5 3 6 0 ( n + 1 ) ^ { 2 0 }$in absolute value, and exact computation shows that
 
 $$
 \sum_ {n = 5 0} ^ {\infty} \frac {5 1 3 2 0 0 6 5 5 3 6 0 (n + 1) ^ {2 0}}{5 3 5 ^ {n - 6}} <   1 0 ^ {- 5 0}.
@@ -535,17 +535,7 @@ $$
 
 Thus, the sum of the absolute values of the terms in$\varphi \Delta ^ { 2 }$for$n \geq 5 0$amounts to at most$1 0 ^ { - 5 0 } q ^ { 6 }$. Let$\sigma$be the sum of the terms with$n < 5 0$. We use Sturm’s theorem to check that$\sigma + 1 0 ^ { - 5 0 } q ^ { 6 }$never changes sign on (0, 1/535)
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>00</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">D₄</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>10</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.Θ01 = Θ40 − Θ40 .</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">q<sup>1/2</sup>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both and have nonnegative coeficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable from which one can bound their coeficients. Furthermore,</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>Both Θ<sup>4</sup><sub>00</sub> and Θ<sup>4</sup><sub>10</sub> have nonnegative coefficients, and their sum is the theta series of the D<sub>4</sub> root lattice in the variable q<sup>1/2</sup>, from which one can bound their coefficients. Furthermore, Θ<sup>4</sup><sub>01</sub> = Θ<sup>4</sup><sub>00</sub> − Θ<sup>4</sup><sub>10</sub>.</span></small>
 
 as a polynomial in$q ,$and we observe that it is negative in the limit as$q \to 0$ This proves that$\varphi ( i t ) < 0$for$t \geq 1$
 

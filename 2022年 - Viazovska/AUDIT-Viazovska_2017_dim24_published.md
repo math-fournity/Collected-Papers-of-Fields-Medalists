@@ -181,6 +181,28 @@
   （print 跨行 "10. / 4007"，与 p.1 题录 DOI 一致；便于检索）
 - 结果：PASS（修复后）
 
+## p.014（PDF p.14 / 印刷 p.1030：Appendix A 方法论 + Lemma A.1 证明前半 + 脚注 1）
+- PNG：audit/p014.png（pngmono 150dpi）
+- 核对：q 级数逼近+截断误差方法论（factors of t/π、Sturm 定理+精确有理算术）、
+  系数增长控制：E₂ 被 24(n+1)²、E₄ 被 240(n+1)⁴、E₆ 被 504(n+1)⁶ 界、Θ₀₀⁴/Θ₀₁⁴/Θ₁₀⁴ 的
+  q^{n/2} 系数 ≤ 24(n+1)²、级数乘积界 (n+1)^{ℓ+m+1}、φΔ²/ψ_IΔ²/ψ_SΔ² 多项式界、
+  t≥1 用 q=e^{−2πt}、t≤1 换 1/t（z↦−1/z）、**Lemma A.1：t>0 时 φ(it)<0**、
+  t≥1 情形：q=e^{−2πt}<1/535、φΔ² 系数 ≤ 513200655360(n+1)²⁰、
+  Σ_{n=50}^∞ 513200655360(n+1)²⁰/535^{n−6} < 10^{−50}（逐位 ✓）、σ+10^{−50}q⁶ 在 (0,1/535) 不变号、
+  **脚注 1：Both Θ₀₀⁴ and Θ₁₀⁴ have nonnegative coefficients, … D₄ root lattice …
+  q^{1/2} … Furthermore, Θ₀₁⁴ = Θ₀₀⁴ − Θ₁₀⁴.** ✓
+- 差异与修复（print 均为 coefficients/difficult/different/inefficient/suffice，双通道核验）：
+  ①行 518 "coeficients become rational" → coefficients；
+  ②行 520 段内 9 处词形修复："coefi cients"→coefficients、"coeficients/coeficient"×5→
+  coefficients/coefficient、"dificult"→difficult、"diferent powers"→different、"ineficient"→
+  inefficient、"sufice"→suffice；
+  ③行 522 "coeficient bounds"→coefficient bounds；④行 530 "coeficient of q^n"→coefficient；
+  ⑤**脚注 1 整段重排**：mineru 碎成 6 个乱序小块（含重复乱行 "Θ01 = Θ40 − Θ40 ."、
+  两处 "coeficients"、"Both and have…" 主语丢失、"in the variable from which…" 宾语丢失）
+  → 已按 p014.png 页底脚注原样合并为单条完整脚注
+- 结果：PASS（修复后）
+
+
 
 
 
