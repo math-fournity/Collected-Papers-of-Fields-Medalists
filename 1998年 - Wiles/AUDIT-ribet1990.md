@@ -137,3 +137,11 @@
 - 印刷 quirk 登记：L548 "the fact that *T* pertains" 印刷为斜体 T（与 p.015 子代数粗体 **T** 为印刷自身不一致；300 dpi 放大确证斜体），MD 正体 T 恰与印刷一致，不改。
 - 备注：L548/552 "over Q" 印刷粗体 **Q**，MD 正体（登记不改）；其余与本页逐项吻合。
 - 结果：FAIL（4 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.017（PDF p.17 / 印刷 p.446）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:05 -0400。
+- PNG：`audit/ribet1990_p017.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："T-stable" 粗体 **T**、"images of **T**"、"**T**₀ and **T**₁ are the *q-old* and *q-new* quotients of **T**" 全行确证，未存档）。
+- 核对：Proposition 3.8 (i)/(ii)（w_q 置换两分支、Frobenius x↦x^(q)、Z^Σ(M)、 restriction=Frobenius）与 Proof（[4] Ch. V §1、(3.7)、𝒢 两顶点反转、X₀(qM)_Fq 有理、[18] Appendix §3、□）；节标题 "Old and new"；**T**=**T**_{M_q} 定义（cotangent space S、S₂(Γ₀(Mq))、[39] Th. 3.45）；q-old subspace（cf. [1]）；S₀=α*(S₂(Γ₀(M)))⊕β*(S₂(Γ₀(M)))；Petersson 正交补 S₁；**T**-stable、**T**₀/**T**₁ images、q-old/q-new quotients；积映射 **T**→**T**₀×**T**₁ finite index；特征 q 纤维 F_q-group、Φ、J、Raynaud [24]/Deligne-Rapoport [4]；正合列 (5) 1→T→J⁰→J₀(M)×J₀(M)→0 ✓。
+- 发现并当场修复：①L560 "\\mathcal{I}"→"\\mathcal{S}"（singular points 集，150 dpi 页图，同款花体 S）；②L574 四处 Hecke 代数粗体拍平："T-stable"→"$\mathbf{T}$-stable"、"let $T_0$ and $T_1$"→"$\mathbf{T}_0$/$\mathbf{T}_1$"、"images of T"→"$\mathbf{T}$"、"quotients of T"→"$\mathbf{T}$"（300 dpi 裁片确证全行粗体；MD 下一行显示式本为 \mathbf，修复后页内一致）。
+- 备注：J₀(Mq)_C 的下标 C、F_q-group 的 F 印刷粗体，MD 正体（字母不变，登记不改）。
+- 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

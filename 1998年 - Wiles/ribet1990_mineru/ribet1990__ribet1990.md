@@ -557,7 +557,7 @@ $$
 
 A calculation gives the identity  $w_{q} + T_{q} = \alpha^{*}\beta_{*}$  of endomorphisms of  $J_{0}(N)$ , where  $^{*}$  and  $^{*}$  refer to Pic and Albanese functoriality, respectively. In particular,  $w_{q} + T_{q}$  factors through the map  $\beta_{*}: J_{0}(N) \to J_{0}(M)$ . Considering fibers at q of Néron models, we find that the restriction to T of  $w_{q} + T_{q}$  factors through a map  $T \to J_{0}(M)_{\mathbf{F}_{q}}$ . All such maps are 0, since T is a torus and  $J_{0}(M)$  is an abelian variety. ☐
 
-Proposition 3.8. (i) The involution $w_q$ permutes the two components of $X_0(N)_{\mathbf{F}_q}$. It acts on the set $\mathcal{I}$ of singular points of $X_0(N)_{\mathbf{F}_q}$ as the Frobenius morphism $x \mapsto x^{(q)}$. (ii) The action of $T_q$ on the character group $X$ is the restriction to $X$ of the map on $\mathbf{Z}^{\Sigma(M)}$ induced by the Frobenius automorphism of $\Sigma(M)$. This restriction is the Frobenius automorphism of $X$.
+Proposition 3.8. (i) The involution $w_q$ permutes the two components of $X_0(N)_{\mathbf{F}_q}$. It acts on the set $\mathcal{S}$ of singular points of $X_0(N)_{\mathbf{F}_q}$ as the Frobenius morphism $x \mapsto x^{(q)}$. (ii) The action of $T_q$ on the character group $X$ is the restriction to $X$ of the map on $\mathbf{Z}^{\Sigma(M)}$ induced by the Frobenius automorphism of $\Sigma(M)$. This restriction is the Frobenius automorphism of $X$.
 
 Proof. For (i), see [4], Chapter V, §1. The first statement of (ii) follows from (3.7) and (i), as $w_q$ combines the Frobenius automorphism of $\Sigma(M)$ with an inversion of the two vertices of the graph $\mathcal{G}$. The second statement of (ii) then results from the fact that the two components of $X_0(qM)_{\mathbf{F}_q}$ are rational. (Cf. [18], Appendix, §3.) □
 
@@ -571,7 +571,7 @@ $$
 S _ {0} = \alpha^ {*} (S _ {2} (\Gamma_ {0} (M))) \oplus \beta^ {*} (S _ {2} (\Gamma_ {0} (M)))
 $$
 
-of two copies of  $S_{2}(\Gamma_{0}(M))$  which occurs naturally in  $S = S_{2}(\Gamma_{0}(Mq))$ . The corresponding new space is the orthogonal complement  $S_{1}$  to  $S_{0}$  in S, relative to the Petersson inner product on S. Both  $S_{0}$  and  $S_{1}$  are T-stable subspaces of S; let  $T_{0}$  and  $T_{1}$  be the images of T in the endomorphism rings of these spaces. We say that  $T_{0}$  and  $T_{1}$  are the q-old and q-new quotients of T. The product map
+of two copies of  $S_{2}(\Gamma_{0}(M))$  which occurs naturally in  $S = S_{2}(\Gamma_{0}(Mq))$ . The corresponding new space is the orthogonal complement  $S_{1}$  to  $S_{0}$  in S, relative to the Petersson inner product on S. Both  $S_{0}$  and  $S_{1}$  are $\mathbf{T}$-stable subspaces of S; let  $\mathbf{T}_{0}$  and  $\mathbf{T}_{1}$  be the images of $\mathbf{T}$ in the endomorphism rings of these spaces. We say that  $\mathbf{T}_{0}$  and  $\mathbf{T}_{1}$  are the q-old and q-new quotients of $\mathbf{T}$. The product map
 
 $$
 \mathbf {T} \rightarrow \mathbf {T} _ {0} \times \mathbf {T} _ {1}
