@@ -85,6 +85,15 @@
 - 登记不改（丢/换标点，印刷侧均有 PNG+pdftotext 双证）：(a) 4.1 "on [0, T)**.** We say" 句点缺失；(b) "at times t_k**,** such that" 印刷逗点被 MD 作 "$t_k.$" 句点；(c) Proof "…→ −∞**.** However" 句点缺失；(d) Definition "has volume at least κr^n**.**" 句点缺失；(e) 页末 "for all t ∈ [0,T)**,**" 逗点缺失。均不误导数学内容，按 SOP 默认不批量改。
 - 备注：Definition 斜体段 MD 拍平为正体，属 MinerU 已知排版伪影；其余文本逐字一致。
 
+## p.011（PDF p.11 / 印刷 p.11）
+- PNG：audit-redo/p011.png（pngmono 150dpi）
+- 核对：§4 Corollary（t_k→T、Q_k=|Rm|(p_k,t_k)→∞、(a subsequence of )、κ-noncollapsed on all scales）、节标题 "5 A statistical analogy"、5.1 partition function 段（Z=∫exp(−βE)dω(E)、⟨E⟩=−∂/∂β log Z、S=β⟨E⟩+log Z、σ=⟨(E−⟨E⟩)²⟩=∂²/(∂β)² log Z、dm=udV、log Z=∫(−f+n/2)dm）、⟨E⟩/S/σ 三条 display 公式、(3.3 ) 替换段、σ 非负段开头
+- 结果：PASS±（一处双逗点已修；一处句点缺失登记不改）
+- 差异与修复：印刷 "the entropy S = β⟨E⟩ + log Z**,** and the fluctuation"（单逗点），MD 作 "+\log Z ,$, and"（math 逗号+文本逗号双写）→ 已改为 "+\log Z$, and"。
+- 登记不改：Corollary 行尾 "for some κ > 0**.**" 句点印刷存在（PNG/pdftotext 双证），MD 缺失——丢标点不误导，默认不批量改。
+- 备注：印刷 quirk 忠实保留——"(a subsequence of )"、"(3.3 ) ," 括号内空格、”density of states” 双右引号。
+
+
 
 
 
