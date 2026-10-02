@@ -28,3 +28,10 @@
 - 印刷原文 quirk：印刷首行即 "Assume that **ρ** is a prime which exactly divides N (we write p ∥ N)"——主语排成 ρ（数学预期为 p），300 dpi 裁片确证为印刷原样；MD 与印刷一致，忠实保留不改。
 - 备注：页眉 "Invent. math. 100, 431–476 (1990) / Inventiones mathematicae © Springer-Verlag 1990" 为 mineru 惯例不收录；完整题录信息已在本 MD 文章题名块与 p.001 封面补录块中。
 - 结果：PASS。
+
+## p.003（PDF p.3 / 印刷 p.432）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 14:10 -0400。
+- PNG：`audit/ribet1990_p003.png`（pngmono，150 dpi）。
+- 核对：Theorem 1.1 (Main Theorem) 陈述与条件 1. p ≢ 1 (mod l)、2. N is prime to l；Corollary 1.2；Fermat 方程 a^l+b^l+c^l=0；Frey 曲线 y²=x(x−a^l)(x+b^l)；V=E[l]；(4.1.9)/(4.1.12)；证明结尾 "we have a contradiction." ✓ 全部与印刷一致。
+- 备注：定理与推论陈述的斜体排版未保留（如条件 2 印刷为斜体 "*N* is *prime to l*"，MD 为正体）——mineru 惯例排版级伪影，不误导，按 SOP 默认不批量修；证明结束符 □ 未收录（惯例）。
+- 结果：PASS±。
