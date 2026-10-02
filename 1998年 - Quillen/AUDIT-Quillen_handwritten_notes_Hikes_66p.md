@@ -463,6 +463,17 @@
 - 核对：表示 `E=(P,ρ)` 给出的 based map `BG→BGL(A)^+`；由补模 `Q` 与同构 `θ` 构造群同态；`K_1A` 的作用与目标简单性；平凡表示、直和及短正合列三条性质。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图用 `P⊕Q≅A^n` 及 `θ` 将 `ρ(g)⊕1_Q` 送到 `Aut(A^n)=GL_n(A)`，再得到 `BG→BGL_nA→BGLA→BGLA^+`；基线第 1615 行损坏同构箭头与 `θ`，写出无法解析的 `A_ut`。原图第 1623 行是 `π_1(BGL(A)^+)=K_1A` 作用平凡，基线将等式对象压成 `π, A`。所定义映射的目标为 `[BG,BGL(A)^+]`，基线第 1625 行把 `+` 移到 `A` 上。平凡表示要求 `ρ(g)=id_P`，基线第 1627–1629 行将恒等映射与 `T=(P,ρ)` 损坏。直和性质的等式可辨，但基线第 1630–1632 行把 target 的加法与其来自 `BGL(A)^+` H-space 结构的说明拼坏。第三性质原图为若 `0→E'→E→E''→0` 是表示的短正合列，则 `[E]=[E']⊕[E'']`；基线第 1637 行右侧把 `E''` 重复成 `E'`。
-- 页面边界待续核：原图 p.44 页尾标为 “Proof of ③”；Markdown 第 1639 行下一段写 “Proof of ②”。待 p.45 原图核实续文具体对应的性质后，再确定错误是在本页尾标注还是下一段标题。
+- 页面边界核对：原图 p.44 页尾 “Proof of ③” 是对短正合列性质的证明标题；p.45 续文明确说 “Enough to show `[E]=[E'⊕E'']` assuming ②”，确认是性质③由性质②推出。因此 Markdown 第 1639 行 “Proof of ②” 是错识，应按原图保留 Proof of ③。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复 `θ` 构造、`K_1A` 等式、H-space 目标及短正合列结论。
 - 记录：2026-10-02 03:41:14 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.045（PDF p.45 / 纸面圈号 45）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p045.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p045_exact-sequence-G.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p045_stable-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p045_homology-lemma.png`。
+- 核对：短正合列表示的底层自由模秩；替换为自同构群 `G` 后的 `i/j` 诱导映射；稳定化时它们在 `BGL(A)^+` 上相同；连通 H-space 目标下同调同构诱导映射集双射的引理与 Puppe 证明。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1641 行将底层 `A`-模依次定为 `A^p,A^{p+q},A^q`，基线写成 `A'`,`A^9`,`A^{p+8}`。原图第 1649 行的自同构群分块为 `G=\left(\begin{smallmatrix}GL_q&M_{q,p}\\0&GL_p\end{smallmatrix}\right)`；基线把 `M_{q,p}`、零块与下右 `GL_p` 全部识坏。第 1656 行的 `i/j` 分别对应 `E` 与 `E'⊕E''` 两个表示嵌入，基线箭头标签和目标 `GL` 被挤坏。稳定比较原图令 `p→∞`，使用 `\left(\begin{smallmatrix}GL_q&M_{q,\infty}\\0&GL_\infty\end{smallmatrix}\right)`；基线第 1660 行误成 `GL_1`/`M_{f\infty}`，第 1667 行把对角子群到上三角群的 classifying-space 图及其 homology-iso 标注损坏。原图引理为若 `f:X→Y` 是同调同构且 `M` 是连通 H-space，则 `[Y,M]→[X,M]` 为双射；基线第 1671–1672 行损坏“homology iso”条件，并把两端都写成 `[X,M]`。第 1674 行的 Puppe 序列中 `C_f` 与 `ΣX` 也识坏；第 1676 行仅保留证明片段，`C_f` acyclic 与 obstruction theory 的理由需按原图恢复。
+- 页面边界：p.44 的 “Proof of ③” 经本页开头确认属短正合列性质；本页最后转入 H-space mapping lemma，Markdown 第 1678 行的 `K_0A=π_0(BGL(A)^+)` 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复自由模秩、群分块/极限图与 Puppe 序列。
+- 记录：2026-10-02 03:45:35 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
