@@ -183,3 +183,9 @@
 - 核对：Proposition 4.3 Proof 收尾——Cauchy-Schwarz：h_δ(x)² = (Σ_{y∈∂U_{k_δ}} h_δ(y)H_{U_{k_δ}}(x,y))² ≤ (δ·Σ∣h_δ(y)∣²)(¼·Σ H_{U_{k_δ}}(x,y)²) ≤ 2M/r·C（Exercise 4.5 给 H_{U_{k_δ}}(x,y) ≤ Cδ，◻）；Exercise 4.4——discrete harmonic measure H_{Ω_δ}(·,y) 定义与 h = Σ_{y∈∂Ω_δ} h(y)H_{Ω_δ}(·,y)；Exercise 4.5——H_{Q_δ}(0,y) ≤ Cδ（Q = [−1,1]²）；§4.1.3 Discrete Dirichlet problem and convergence in the scaling limit——早期文献 [PW23, Bou26, Lus26]、[CFL28]；Proposition 4.6——preharmonic 一致极限为 harmonic；Proof——(1/δ)[h_δ(·+δ)−h_δ] precompact、(1/(√2δ))[h_δ(·+δ)−h_δ] 收敛、0 = (1/(2δ²))Δ_δh_δ → ¼[∂²_{xx}h + ∂²_{yy}h]（◻）；Theorem 4.7 陈述起头（f_δ 一致有界且 away from a,b 收敛于 f、h_δ 为唯一 preharmonic 延拓）与页底展示式 h_δ ⟶ h when δ → 0；页脚印刷页码 27。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：文本层把长箭头映射为 "Ð"（"hδ Ð→ h"），PNG 为长箭头 ⟶，属字体映射伪影；1/(√2δ)、1/(2δ²)、¼[∂²xx+∂²yy] 的分数根号 PNG 印刷清晰。
+
+## p.028（PDF p.28 / 印刷 p.28）
+- PNG：audit/p028.png（pngmono 150dpi）
+- 核对：Theorem 4.7 陈述收尾（uniformly on compact subsets、h 为 ∂Ω 上取值 f 的唯一 harmonic extension）与 Proof——(h_δ) 界 M、precompact (Prop 4.3)、h̃ harmonic (Prop 4.6)、边界连续延拓论证：∣f_δ(x′)−f_δ(x)∣ < ε for x′ ∈ ∂Ω∩Q(x,R)、Q(x,R)=x+[−R,R]²、∣h_δ(y)−f_δ(x)∣ = E_y[f_δ(X_τ)−f_δ(x)]、≤ ε + 2M P_y[X_τ ∉ Q(x,R)]、Exercise 4.8 给 P_y ≤ (r/R)^α、取 r = R(ε/2M)^{1/α} 得 ∣h̃(y)−f(x)∣ ≤ 2ε（◻）；Exercise 4.8 完整陈述（D = {z∶∣z∣<1}、C = {∣z∣=1}、annulus {x ≤ ∣z∣ ≤ 2x}、概率 < r^α）；§4.1.4 Discrete Green functions——G_{Ω_δ}(·,y) 定义两 bullet（Laplacian 仅在 y 处为 1、边界取 0）；−G 的 visit 计数解释；Proposition 4.9 (Riesz representation formula)——f = Σ_{y∈Ω_δ} Δ_δf(y) G_{Ω_δ}(·,y)；页脚印刷页码 28。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(r/R)^α、(ε/2M)^{1/α} 指数与 𝔻 花体 D 的 PNG 印刷清晰；G_{Ω_δ}(·,y) 中点记号 · 为对账锚点。
