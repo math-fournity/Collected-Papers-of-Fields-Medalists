@@ -219,3 +219,9 @@
 - 核对：Figure 9（2ΔH● 的 arrows contributions 图，黑白点与箭头）及图注（black→white 箭头贡献为负、white→black 为正）；H(b_1)−H(b_2) = ½Im[f(v)²·(b_1−b_2)]（v 为 [b_1b_2] 中心 medial vertex，Ω⋆_δ 同式）；H 为 ½Im(∫^z f̄²) 的离散类似（f̄ 的 bar 在 150dpi 可辨度有限，同 p.32 登记）；Theorem 4.19 Proof——唯一性（单连通）、存在性（沿路径求和、second Kirchhoff's law、elementary square contours）、公式 (4.7) ∣P_{ℓ(n)}[f(v)]∣² − ∣P_{ℓ(e)}[f(v)]∣² + ∣P_{ℓ(s)}[f(v)]∣² − ∣P_{ℓ(w)}[f(v)]∣² = 0 与公式 (4.8) ∣P_{ℓ(n)}∣²+∣P_{ℓ(s)}∣² = ∣f(v)∣² = ∣P_{ℓ(e)}∣²+∣P_{ℓ(w)}∣²（◻）；H●/H○ 记号（Ω_δ 黑面/Ω⋆_δ 白面限制）；Proposition 4.20——H● subharmonic、H○ superharmonic；脚注 5 "H is roughly (the imaginary part of) the primitive of the square of f."；页脚印刷页码 33。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(4.7)/(4.8) 编号齐全；ℓ(n)/ℓ(e)/ℓ(s)/ℓ(w) 与正交关系为重导出对账锚点；脚注 5 上标与正文分隔正常。
+
+## p.034（PDF p.34 / 印刷 p.34）
+- PNG：audit/p034.png（pngmono 150dpi）
+- 核对：Figure 10（isoradial graph 黑图 + dual 灰顶点）及图注（所有面可内切于半径 r 的圆、dual 顶点为圆心）；Proposition 4.20 Proof——B ∈ Ω_δ∖∂Ω_δ、Fig. 9 十六条 arrows、a,b,c,d = √δP_{ℓ(e)}[f(y)] 四值、八个 interior increments −a²,−b²,−c²,−d²（各两次）、八个 exterior increments (a√2−b)², (b√2−a)², (b√2−c)², (c√2−b)², (c√2−d)², (d√2−c)², (d√2+a)², (a√2+d)²、S = 4(a²+b²+c²+d²) − 4√2(ab+bc+cd−da) (4.9) = 4∣e^{−iπ/4}a − b + e^{i3π/4}c − id∣² ≥ 0 (4.10)、H○ 同理（◻）；Remark 4.21——subharmonic ≤ harmonic 同边界、H●/H○ sandwich 论证；§4.5 Isoradial graphs and circle packings——Duffin [Duf68] 扩展定义；页脚印刷页码 34。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(4.9)/(4.10) 编号齐全；e^{i3π/4} 指数（非 e^{3iπ/4} 排法差异按 PNG 原样）与 √2 因子的括号结构为重导出对账锚点。
