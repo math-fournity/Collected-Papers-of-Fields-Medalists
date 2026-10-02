@@ -79,3 +79,10 @@
 - 核对：HH^k(A,A)=Ext^k_{A-mod-A}(A,A) 式、§4/§4.1 节标题、余自由余代数 C(V)=⊕_{n≥1}(⊗^nV)^{Σ_n}⊂⊕_{n≥1}(⊗^nV) 式、(V_formal, base point) 定义式、C(V)^* 幂级数说明、formal pointed manifold Definition、coalgebra 同构段、f_*:C(V₁)⟶C(V₂) 与线性映射 C(V₁)⟶V₂、齐次分量 f^{(n)} 式、Taylor 系数 ∂^n f 定义式、Sym^n(V₁) 商空间式（MD 行 413–472）。
 - 结果：`FAIL`→3 处独立斜体 `C` 被 MinerU 丢失，已补（PNG+文本层确凿）：①行 441 `a coalgebra which is isomorphic`→`a coalgebra$C$which is isomorphic`；②行 443 `between and$C(V)$`→`between$C$and$C(V)$`；③行 443 `primitive elements in coalgebra .`→`in coalgebra$C$.`。另修 1 处：行 463 `of$f .$.` 双句点已删。其余 PASS±：行 423 `diferential`、行 443 `afine`、行 463/475 `coeficients`（ff 拍平）；行 477 句末缺句点（登记）；行 466 偏导分式与下标 `|_{t₁=…=tₙ=0}` 位置逐符号吻合。
 - 备注：印刷 p.10 止于 Sym^n 公式（页码 10）；MD 行 475 起（inverse mapping theorem）为印刷 p.11 内容，在 p.011 核对。
+
+## p.011（PDF p.11 / 印刷 p.11）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p011.png`（pngmono 150dpi）
+- 核对：inverse mapping theorem 段、§4.2/§4.3 节标题、pre-L∞-morphism Definition 与 𝓕:((g₁[1])_formal,0)⟶((g₂[1])_formal,0) 式、∂¹F/∂²F/∂³F 三行、Sym^n(g₁[1])≃(∧^n(g₁))[n]、F_{(k₁,…,kₙ)} 定义式与 symmetry property（含 (−1)^{k_i k_{i+1}} 与参数置换）、∂^nF(γ₁∧…∧γₙ)=F_{(k₁,…,kₙ)}(γ₁⊗…⊗γₙ)、Q-流形段（Q₁ 线性映射、Q₂:∧²g⟶g、[Q,Q]=0↔dgLa、[AKSZ]）（MD 行 475–533）。
+- 结果：`FAIL`→3 处已修复（PNG 确凿）：①行 475 `is invertible if its first`→`iff its first`（印刷 iff，ff 连字吞失致词义改变）；②行 485 Definition `$A \ p r e - L _ { \infty } . _ {\mathit{morphism}} \mathcal{F}$from g to g`→`A pre-$L_\infty$-morphism$\mathcal{F}$from$\mathbf{g}_1$to$\mathbf{g}_2$`（幻影句点还原为连字符 + 补丢失的 g₁/g₂ 下标）；③行 529 `The second coeficien$Q^{2}:`→`coefficient$Q_{2}:`（丢 t + 印刷下标 Q₂ 错为上标 Q²，PNG 确证；与后文 "the bracket Q₂" 一致）。其余 PASS±：`coeficients`/`coeficient`/`diferential`×2（ff 拍平）；行 477 句末缺句点；行 481/527 标题 `L<sub>∞</sub>` HTML 残留（格式级）。公式行 488/494/498/502/505/508/514/520 与印刷逐符号吻合。
+- 备注：行 533 为印刷 p.11 末段（页码 11）；MD 行 535 起属印刷 p.12，在 p.012 核对。

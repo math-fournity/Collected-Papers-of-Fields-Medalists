@@ -472,7 +472,7 @@ $$
 S y m ^ {n} (V _ {1}) := \otimes^ {n} V _ {1} / \{s t a n d a r d r e l a t i o n s \}
 $$
 
-As in the usual calculus, there is the inverse mapping theorem: non-linear map$f$is invertible if its first Taylor coeficient$f ^ { ( 1 ) } : V _ { 1 } { \longrightarrow } V _ { 2 }$is invertible.
+As in the usual calculus, there is the inverse mapping theorem: non-linear map$f$is invertible iff its first Taylor coeficient$f ^ { ( 1 ) } : V _ { 1 } { \longrightarrow } V _ { 2 }$is invertible.
 
 Analogous definitions and statements can be made in other tensor categories, including$S u p e r ^ { \mathbf { k } }$and $G r a d e d ^ { \mathbf { k } }$
 
@@ -482,7 +482,7 @@ The reader can ask why we speak about base points for formal manifolds, as such 
 
 Let$\mathbf { g } _ { 1 }$and$\mathbf { g } _ { 2 }$be two graded vector spaces.
 
-Definition.$A \ p r e - L _ { \infty } . _ { \mathit { m o r p h i s m } } \mathcal { F }$from g to g is a map of formal pointed graded manifolds
+Definition. A pre-$L _ { \infty }$-morphism$\mathcal { F }$from$\mathbf { g } _ { 1 }$to$\mathbf { g } _ { 2 }$is a map of formal pointed graded manifolds
 
 $$
 \mathcal {F}: \big ((\mathbf {g} _ {1} [ 1 ]) _ {f o r m a l}, 0 \big) \longrightarrow \big ((\mathbf {g} _ {2} [ 1 ]) _ {f o r m a l}, 0 \big) .
@@ -526,7 +526,7 @@ In the sequel we will denote$\partial ^ { n } { \mathcal { F } }$simply by${ \ma
 
 ## 4.3. L<sub>∞</sub>-algebras and L<sub>∞</sub>-morphisms
 
-Suppose that we have an odd vector field$Q$of degree +1 on formal graded manifold$( \mathbf { g } [ 1 ] _ { f o r m a l } , 0 )$such that the Taylor series for coeficients of Q has terms of degree 1 and 2 only. The first Taylor coeficient$Q _ { 1 }$ gives a linear map$\mathbf { g } \longrightarrow \mathbf { g }$of degree +1 (or, better, a map$\mathbf { g } { \longrightarrow } \mathbf { g } [ 1 ] )$. The second coeficien$Q ^ { 2 } : \wedge ^ { 2 } { \bf g } { \longrightarrow } { \bf g }$ gives a skew-symmetric bilinear operation of degree 0 on g.
+Suppose that we have an odd vector field$Q$of degree +1 on formal graded manifold$( \mathbf { g } [ 1 ] _ { f o r m a l } , 0 )$such that the Taylor series for coeficients of Q has terms of degree 1 and 2 only. The first Taylor coeficient$Q _ { 1 }$ gives a linear map$\mathbf { g } \longrightarrow \mathbf { g }$of degree +1 (or, better, a map$\mathbf { g } { \longrightarrow } \mathbf { g } [ 1 ] )$. The second coefficient$Q _ { 2 } : \wedge ^ { 2 } { \bf g } { \longrightarrow } { \bf g }$ gives a skew-symmetric bilinear operation of degree 0 on g.
 
 It is easy to see that${ \mathrm { i f ~ } } [ Q , Q ] = 0$then g is a diferential graded Lie algebra, with diferential$Q _ { 1 }$and the bracket$Q _ { 2 }$, and vice versa.
 
