@@ -91,3 +91,8 @@
 - PNG：`audit-redo/p016.png`（pngmono 150dpi）；Lie 导数记号终裁：`audit-redo/300dpi/p016_Lie_derivative.png`（300dpi 裁片）。
 - 核对：§3 标题；Killing 场设定两段；(33) `d_s = d + s i(K)`；`V_±` 分解段；(34) `d_s² = −d_s*² = s𝓛_K`；(35) `H_s = d_s d_s* + d_s* d_s`；[8] 界与 Hirzebruch signature 引段。
 - 结果：FAIL（以原图为准）→ 修复后复核 PASS。(33)–(35)、`i(K)`、`V_±` 映射方向、`d_s*² = −d_s²` 及正文逐项与印刷页相符。**发现 Luna 漏检 1 处记号错误**：(34) 后散文 "and 𝓛_K is the Lie derivative" 印刷为 script 𝓛_K（300dpi 裁片确认，与式 (34) 内同形），md line 405 误作 `$\mathcal{L}_K$`；已用结构化 Edit 修为 `$\mathscr{L}_K$`（与 Luna 自己在 p.017/p.021/p.022 的同类修复标准一致）。**移交备注**：md line 539（p.022 redo 范围）`$I(\theta) = \operatorname{Tr} * \exp\theta\mathcal{L}_{K}$` 仍含 `\mathcal{L}_{K}`，且 `Tr * exp` 的 `*` 需该页仲裁。跨页断点一致（line 417 末 "each connected"）。差异仅：页眉 "676 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.017（PDF p.17 / 印刷 p.677）
+- PNG：`audit-redo/p017.png`（pngmono 150dpi）
+- 核对：Hopf 定理与 [6],[7],[5] 引段；`V̄` 子空间与 `𝓛_K` 零化段；(ker d_s/im d_s) 维数段；`e^{λP}` 共轭段（`e^{−λP} d_s e^{λP} = e^{−λ} d_s`、`s′ = se^{2λ}`）；`n_±`/`N_±` 与 Euler 特征段。
+- 结果：PASS±。正文逐项与印刷页相符：`d_s² = s𝓛_K`、`χ(M)`、`n₊ − n₋ = N₊ − N₋ = χ(M)`、`n₊ ⩾ N₊`、`s ≠ 0` 条件一致。**Luna 旧修复重核：本页 2 处 Lie 导数 `\mathscr{L}_K`（md line 421）与印刷 script 记号一致，修复正确；共轭算子上标印刷为大写 `P`（`e^{λP}`，后续文字定义其在 p-形式上的作用），md 保留 `P` 符合页面证据**。跨页断点一致（line 431 末 "large s behavior of"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 677" 未入 md（版面信息省略）。
