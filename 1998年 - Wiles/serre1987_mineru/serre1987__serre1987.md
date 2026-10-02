@@ -494,7 +494,7 @@ $$
 0 \rightarrow A \rightarrow J \rightarrow B \rightarrow 0,\tag{2.8.6}
 $$
 
-où A et B sont des schémas en groupes finis et plats d'ordre p. De plus, (ii) impose que l'un de ces schémas soit étale, et que l'autre soit de type multiplicatif. Il existe donc une extension finie étale R de  $Z_{p}$  sur laquelle A ou B devient isomorphe au schéma étale constant Z/pZ, et B ou A au schéma  $\mu_{p}$  des racines p-èmes de l'unité. Sur R, la suite exacte (2.8.6) devient:
+où A et B sont des schémas en groupes finis et plats d'ordre p. De plus, (ii) impose que l'un de ces schémas soit étale, et que l'autre soit de type multiplicatif. Il existe donc une extension finie étale R de  $Z_{p}$  sur laquelle A ou B devient isomorphe au schéma étale constant Z/pZ, et B ou A au schéma  $\mu_{p}$  des racines p-ièmes de l'unité. Sur R, la suite exacte (2.8.6) devient:
 
 $$
 0 \to \mathbf {Z} / p \mathbf {Z} \to J \to \mu_ {p} \to 0
@@ -518,7 +518,7 @@ Reste à prouver que $k=2$ entraîne que $\rho_{p}$ est finie en $p$. D'après l
 
 (a) Celui où $\rho_{p}|I$ est donné par les deux caractères fondamentaux $\psi$ et $\psi'$. Ce cas est traité dans Raynaud [35], th. 2.4.3.
 
-(b) Celui où $\rho_{p}|I$ est de la forme $\left( \begin{array}{cc}x & *\\ 0 & 1 \end{array} \right)$, avec action de $I_{p}$ triviale ou peu ramifiée. On fait alors une construction directe, basée sur la classification des extensions de $\mathbf{Z}/p\mathbf{Z}$ par $\mu_{p}$, cf. ci-dessus (de façon un peu plus précise, on commence par remplacer $\mathbf{Z}_{p}$ par une extension finie étale $R$ convenable, on construit l'extension en question sur $R$, et l'on descend ensuite à $\mathbf{Z}_{p}$).
+(b) Celui où $\rho_{p}|I$ est de la forme $\left( \begin{array}{cc}\chi & *\\ 0 & 1 \end{array} \right)$, avec action de $I_{p}$ triviale ou peu ramifiée. On fait alors une construction directe, basée sur la classification des extensions de $\mathbf{Z}/p\mathbf{Z}$ par $\mu_{p}$, cf. ci-dessus (de façon un peu plus précise, on commence par remplacer $\mathbf{Z}_{p}$ par une extension finie étale $R$ convenable, on construit l'extension en question sur $R$, et l'on descend ensuite à $\mathbf{Z}_{p}$).
 
 2.9. Exemple de calcul de k: points de p-division d'une courbe elliptique semi-stable. Soit E une courbe elliptique sur  $Q_{p}$ , d'invariant modulaire  $j_{E}$ , et soit  $E_{p}$  le groupe des points de p-division de E. L'action de  $G_{p}$  sur  $E_{p}$  définit une représentation
 

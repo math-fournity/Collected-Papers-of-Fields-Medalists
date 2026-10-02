@@ -100,3 +100,11 @@
 - 核对：(2.8.2) ρ_p|I ≃ (χ 0; 0 1) ou (χ *; 0 1)、schémas en groupes de type (p,p) 段（Raynaud [35]、finie en p 定义）、PROPOSITION 4、(2.8.3) det ρ_p|I = χ、(2.8.4) ρ_p est finie en p、(2.8.5) k ≡ 2 mod(p−1)、[35] cor. 3.4.4 段、ψ^n ψ′^{n′}（0 ⩽ n, n′ ⩽ 1）、四可能性 1, ψ, ψ′, ψψ′ = χ、p=2 归三句、情形 (i) {ψ, ψ′} 与 (ii) {1, χ}。
 - 结果：FAIL。三处已依原图修复：① 正文 “prend ses valeurs **dan** GL₂(F_p)” 丢 s，修为 “dans”；② (2.8.2) 式内连接词 “ou” 被拆成 “o u”（300 dpi 裁片确认印刷为斜体正字 ou），修为 “ou”；③ (2.8.3)/(2.8.4) 编号错位——Markdown 把 “(2.8.3)” 写成文本行且第一式挂 \tag{2.8.4}、第二式无编号，修为第一式 \tag{2.8.3}、第二式 \tag{2.8.4}。
 - 备注：(2.8.2) 连接号 300 dpi 确认为 ≃，Markdown \simeq 一致；ψ^n ψ′^{n′} 上标与 0 ⩽ n, n′ ⩽ 1 经裁片确认一致；同段 Q_p、Z_p、F_q 在 Markdown 为非粗体而印刷为粗体（与全文 \mathbf 体例不一），数学对象同一、不误导，登记排版级不改；情形 (i)/(ii) 在 Markdown 以 \tag{i}/\tag{ii} 表达左侧标号，渲染等效；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 189” 未收入 Markdown，排版级。印刷页止于 “(ii) {φ, φ′} = {1, χ}.”，其后段属印刷 p.190。
+
+## p.012（PDF p.12 / 印刷 p.190）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p012.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p012_b_matrix.png`（pnggray）。
+- 核对：cas (i)/(ii) 衔接句、J 在 Z_p 上延拓句（[35] prop. 3.3.2）、(2.8.6) 0 → A → J → B → 0、A/B étale 与 multiplicatif 句、R 上两条正合列（0 → Z/pZ → J → μ_p → 0 与 0 → μ_p → J → Z/pZ → 0）、scindée 句（Z/pZ ⊕ μ_p）、Kummer 类 u ∈ R*/R*^p、ρ_p|I ~ (χ *; 0 1)、K_t(u^{1/p}) 句与 Fontaine [15] th. 1、prop. 3 两情形 (a)（Raynaud [35] th. 2.4.3）/(b)。
+- 结果：FAIL。两处已依原图修复：① “des racines **p-èmes** de l'unité” 修为印刷的 “p-ièmes”（丢 i）；② (b) 情形矩阵印刷为 (χ *; 0 1)（300 dpi 裁片确认左上为 χ 带波浪尾，与 p.188 Remarques (1) 的斜体 x 不同），Markdown 写成 x，修为 χ。其余公式与序列方向全部吻合。
+- 备注：该段 Q_p/Z_p 在 Markdown 部分为非粗体（$Q_{p}$、$Z_{p}$），与印刷粗体体例不一，对象同一，排版级不改（p.011 已登记同类差异）；页眉 “190 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 (b) 段句末，2.9 节属印刷 p.191。
