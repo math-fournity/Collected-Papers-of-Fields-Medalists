@@ -81,3 +81,21 @@
 - 备注：页眉 "4　G. Frey" 未入 MD，正常。展示式逐项（系数/指数/希腊字母）核对无误。
 
 ---
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit-redo/p005.png（pngmono 150dpi）
+- 核对：$\alpha,\beta,\gamma,\lambda,\mu\in\mathbb{Z}$ 句；$\mathbb{Z}[1/2]$ biregular transformation 句；
+  展示式 $N'_E: Y^2=X^3+AX^2+BX+C$；discriminant 句（different from 0）；
+  $X\to X'+\frac{1}{3}A$ 句与 $N''_E: Y^2=X^3-g_2X-g_3$；$g_i\in Z$ 句；
+  展示式 $\Delta:=4g_2^3-27g_3^2\neq 0$；$\mu^2X/\mu^3Y$ 变换段（$\mu^{-4}g_2$、$\mu^{-6}g_3$、$\mu^{-12}\Delta$）；
+  绝对不变量 $j_E:=12^3\cdot 4g_2^3\cdot\Delta^{-1}$；Hasse invariant $\delta_E$ 引句。
+- 结果：PASS±（修复 1 处后）
+- 差异与处置：
+  1. 【已修复】"is different from **O**." → "is different from **0**."：300dpi 仲裁该字形为无斜杠椭圆零，
+     与同页 Δ 展示式 "≠ 0" 处零字形相同（MD 在 Δ 式已作 `0`）；判别式 ≠ 0 语境下字母 O 为转写错误。
+  2. 【150dpi 误读澄清】"g₃ to μ⁻⁶g₃" 行首 150dpi 疑似 z₂，300dpi 仲裁确为 **g₃**，MD 忠实。
+  3. 【登记不改】印刷下划线："Weierstraß normal form"、"the invariants" 的 "the"：排版级伪影。
+  4. 【登记不改】"μ⁻¹².Δ" 以打字机句点充当乘号，MD 忠实保留。
+- 备注：页眉 "Elliptic Curves and Fermat's Equation　5" 未入 MD，正常。四个展示式逐项核对无误。
+
+---
