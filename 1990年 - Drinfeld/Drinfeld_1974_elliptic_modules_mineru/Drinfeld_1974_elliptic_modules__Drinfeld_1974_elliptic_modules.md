@@ -314,10 +314,10 @@ Proof. Clearly $g(z + w) - g(z) - g(w) = 0$ for $z \in \Delta$ or $w \in \Delta$
 
 Since $\Gamma$ is the union of an increasing sequence of finite subgroups, we see that $f(z + w) = f(z) + f(w)$. Clearly $f$ induces a group isomorphism $\overline{L} / \Gamma \simeq \overline{L}$. Since $\Gamma$ is an $A$-module, the structure of an $A$-module passes over from $\overline{L} / \Gamma$ to $\overline{L}$. If $a \in A$ and $a \neq 0$ then $f(az)$ and $\prod_{\beta \in (1/a)\Gamma / \Gamma}(f(z) - f(\beta))$ are analytic functions of $z$ with the same divisors. Therefore $f(az) = P_a(f(z))$, where $P_a$ is a polynomial of degree $|a|^d$.
 
-2) Let $\phi$ be an elliptic $A$-module of rank $d$ over $L$. There is a corresponding formal $k$-module over $L$ (cf. the remark at the end of §2B). According to Proposition 1.2, there exists a unique $f = 1 + \sum_{1}^{\infty} b_i \tau^i \in L \{\{\tau\}\}$ such that $fa = \phi(a)f$ for $a \in A$. We shall prove that the formal homomorphism $f$ is an analytic homomorphism. Let $a \in A$, $|a| > 1$ and $\phi(a) = a + \sum_{1}^{s} a_j \tau^j$. Let $i > s$. From the identity $fa = \phi(a)f$ we obtain
+2) Let $\phi$ be an elliptic $A$-module of rank $d$ over $L$. There is a corresponding formal $k$-module over $L$ (cf. the remark at the end of §2B). According to Proposition 1.2, there exists a unique $f = 1 + \sum_{1}^{\infty} b_i \tau^i \in L \{\{\tau\}\}$ such that $fa = \phi(a)f$ for $a \in A$. We shall prove that the formal homomorphism $f$ is an analytic homomorphism. Let $a \in A$, $|a| > 1$ and $\phi(a) = a + \sum_{1}^{s} a_j r^j$. Let $i > s$. From the identity $fa = \phi(a)f$ we obtain
 
 $$
-(a ^ {i} - a) b _ {i} = \sum_ {j = 1} ^ {s} a _ {j} b _ {i - j} ^ {p ^ {j}}.
+(a ^ {p ^ {i}} - a) b _ {i} = \sum_ {j = 1} ^ {s} a _ {j} b _ {i - j} ^ {p ^ {j}}.
 $$
 
 Let $c_{i} = |b_{i}|^{p^{-i}}$. Then $|a|c_{i} \leq \max_{1 \leq j \leq s} (|a_{j}|^{p^{-i}}c_{i - j})$. Let $1 / |a| < \theta < 1$, and $c_{i} \leq \theta \cdot \max_{1 \leq j \leq s} c_{i - j}$ for sufficiently large $i$. Therefore $c_{i} \to 0$. Let $\Gamma \subset \overline{L}$ be the kernel of $f$. Clearly $\Gamma \subset L^{s}$, $\Gamma$ is invariant with respect to $\operatorname{Gal}(L^{s}/L)$, $\Gamma$ is an $A$-module, and $(1/a)\Gamma/\Gamma \simeq (A/(a))^{d}$. Since $\Gamma$ is discrete, $\Gamma$ is a lattice over $L$ of dimension $d$.

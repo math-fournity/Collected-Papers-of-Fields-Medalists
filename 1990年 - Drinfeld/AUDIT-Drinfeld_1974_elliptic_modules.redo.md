@@ -80,3 +80,13 @@
 - 核对：Prop 2.2 结论（|a|^d、i(a)≠0、 torsion ⊕(K_ν/A_ν)^{j_ν}、j_ν<d）、证明、Corollary、formal A-module remark（d−j_ν）、§2C isogeny 定义（αφ(a)=ψ(a)α）、Prop 2.3 a)/b) 及证明（uφ(a)=ψ(a)u、D(ψ(a))=[i(a)]^n、i(aⁿ)=i(a)）、Corollary、Prop 2.4 陈述与 proof 1) 开头。
 - 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复：`(K_ν/A_ν)^{j_ν}` 上标 j_ν、证明 `j_ν`、Prop 2.3(b) `t^{q^b}`（300dpi 确认指数为单闭碗 **b**，非 h——Luna 此处记号判断正确；与本文 height 通篇用 h 的不一致系印刷原样，quirk 登记）均忠实保留。
 - 另记（PASS± 级伪影，不改）：页眉 "568 V. G. DRINFEL'D" 未收。
+
+## p.009（PDF p.9 / 印刷 p.569）
+
+- PNG：audit-redo/p009.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p009_recursion.png；600dpi 终裁：…_p009_tau_ref600.png（b_iτ^i 已知 τ）、…_p009_ajj600.png（a_j 后字形）、…_p009_recursion600.png、…_p009_api600.png（左指数 400%）
+- 核对：Prop 2.4 证明 1) 收尾与 2)（|a|_ν<1、lim← 单射链、⊗_A A_ν 单射）、Corollary（End X、d²、⊗_A k_∞）、§3 标题、lattice/morphism 定义、Prop 3.1、Weierstrass 乘积 f(z)=zΠ(1−z/a)、Lemma g(z)=Π(z−α) 及证明、Γ 并集论证（L̄/Γ≃L̄、P_a 次数 |a|^d）、proof 2) 设置与递推式。
+- 结果：FAIL（2 处）：
+  1. proof 2) 正文（MD 行 317）：印刷为 "φ(a) = a + Σ_1^s a_j **r**^j"——600dpi 字形为斜体 r（单竖干+x高度右臂），与同证明开头清晰印刷的 τ（顶部横杠+中垂干，见 b_iτ^i、L{{τ}}）完全不同形。原 mineru 的 r 忠实，Luna 一并改为 τ 违反印刷；已 Edit 回退为 `a_j r^j`。**erratum 登记**：数学上应为 τ^j（φ(a) ∈ K{τ} 系数比较的上下文），印刷此处脱落 τ 的横杠排成 r，按原样保留；同句相邻的 b_iτ^i 印刷确为 τ，Luna 该处修改正确。
+  2. 递推式（MD 行 320）：印刷为 **(a^{p^i} − a)b_i = Σ_{j=1}^s a_j b_{i-j}^{p^j}**——左侧 a 的指数为两层 p^i（600dpi/400% 确认小 p 在 i 下方；系数比较 fa=φ(a)f 亦要求 a^{p^i}）。当前 MD（含 Luna 修复）只有 a^i；Luna 澄清记录"扫描原式为 (a^i−a)b_i"与页图不符。已 Edit 补为 `a ^ {p ^ {i}}`。Σ 下限印刷为 j=1（j 带点/降部，非 i）。
+- 重核 Luna 修复（其余，均相符）：`f = 1 + Σ_1^∞ b_i τ^i ∈ L{{τ}}`、`fa = φ(a)f`（无多余负号/点）、Corollary 与 proof 2) 各式。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 569" 未收。
