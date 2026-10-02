@@ -232,3 +232,11 @@
 - 核对：Mazur 结果余部（C_L、a^p + b^p + L^α c^p = 0、abc ≠ 0、conducteur 2L 段）、4.4 节标题（Brumer-Kramer [6] §9）、PROPOSITION 7（|Δ| p-ème 幂、p ⩽ 7）、p = 2 段（𝔖₃/𝔄₃、[6] prop. 9.2、Mazur [29] th. 4、(N,k,ε) = (1,2,1)、niveau 1 矛盾）、PROPOSITION 8（Δ = ±P^m、Setzer-Neumann、P = 11,17,19,37）、m > 1 段（[33],[50]、P = 17、Miyawaki [32]、P = 11 / 19 ou 37）、4.5 节标题（p ⩾ 3）、THÉORÈME 3 与三选项式（Z/pZ ⊕ Z/pZ、Z/pZ ⊕ μ_p、μ_p ⊕ μ_p）。
 - 结果：PASS±。一处已依原图修复：THÉORÈME 3 引用处 Markdown 写成 “Admettons (3.3.1?), Tout schéma…”（句号误作逗号、逗号后大写），印刷为 “(3.3.1_?). Tout schéma…”，修为句号。其余文字、引用与公式逐项吻合。
 - 备注：引用编号 (3.3.1_?) 的问号下标沿用已登记 quirk；𝔖₃/𝔄₃ Fraktur 记号 Markdown 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 205” 未收入 Markdown，排版级。印刷页止于三选项式，“Soit J un schéma…” 段属印刷 p.206。
+
+## p.028（PDF p.28 / 印刷 p.206）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p028.png`（pngmono，150 dpi）。
+- 核对：Soit J 段（Spec(Z) − {p}、ρ: G_Q → GL₂(F_p)、Raynaud [35] prop. 3.3.2）、LEMME 3（三选项 Z/pZ ⊕ Z/pZ、Z/pZ ⊕ μ_p、μ_p ⊕ μ_p）、0 → A → J → B → 0、Oort-Tate [34] 句、Fontaine [15] n° 3.4.3、LEMME 4（det ρ = χ、χ^i、0 ⩽ i ⩽ p−2、i = 0,1,2、Minkowski、i = 1）、th. 3 证明收尾（(1,2,1)、(3.3.1?)、prop. 7）、Remarques (1)（p = 3…17、(p,…,p)、Fontaine [15]）、(2)（Z/2Z 组合、extension non scindée、ρ = (1 u; 0 1)）。
+- 结果：PASS。公式、引用编号、记号（⊕、μ_p、χ^i）全部与印刷吻合。
+- 备注：Markdown 将 “LEMME 4” 行标记为 ## 标题（其余 LEMME 为正文段落），渲染样式差异不改变内容，排版级不改；F_p/G_Q 等粗体一致；页眉 “206 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 ρ = (1 u; 0 1) 式，“où u: G_Q → Z/2Z…” 句属印刷 p.207。
