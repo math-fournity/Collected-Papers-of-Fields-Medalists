@@ -10,6 +10,18 @@
 
 ---
 
+## 总评（全篇 35 页审计完成后补记）
+
+- **覆盖声明**：本篇 p.1–p.35 全部 35 页逐页审计完成（非抽查、全页覆盖），每页均执行「gs pngmono 150dpi 渲染 → PNG 目检 → pdftotext 文本层主对账 → 五点比对 → 落签 → 逐页 commit」；图片证据 audit/p001.png–p035.png 共 35 张随审计提交。
+- **分级统计**：PASS 11（p.1/3/7/13/14/16/24/26/29/33/35）、PASS± 23、FAIL 1（p.17——Theorem 1 生成函数 (22) 公式体与编号被 mineru 整体丢失，已按 p017.png 修复，见修复登记）。
+- **系统性 mineru 瑕疵（均已逐页按原图证据修复）**：① ff 连字丢失（coefficient/different/differ/differences/suffices/Wulff 等，共 15 处）；② "→" 箭头丢失或变形为 "~ ~"（r→+0、N→∞、q→1 等，共 8 处）；③ 句末句号丢失（10 处）；④ 花括号 {λ(t)} 丢失（2 处）；⑤ ∅ 字形丢失（1 处）；⑥ (21)/(22) 双编号公式被合并致 (22) 丢失（1 处，FAIL 级）；⑦ 记号拍平（𝕊→S、𝔹 mathtt、ℜ 丢失、基向量 k 下划线丢失，共 5 处）；⑧ 重音分解 Poincar´e（1 处）；⑨ Figure 5 题注丢逗号、γ< 后多余 <sub> 伪影、双逗号（3 处）。累计修复约 52 处，全部有页级 PNG/文本层双证。
+- **印刷 quirk 清单（忠实保留不改，均有 PNG 证据）**："weights a partitions λ"、邮箱 "reshetik@math.berkeley.edu"、"This determinants can be also interpreted"、"a bijection of the of the"、"probablistic"、"the meaning of (6) in unambiguous"、"correlation functions asymptotics"、"certain rhombi tiling"、"of π, is a particular specialization"、"in the Figure 3"、"equivalent to following parametrization"、"the points of the intersection of γ> and γ< the minima"（缺 are）、"the limit correlation are trivial"、"with parameters (14)"、v_λ 中 "λ_4−5/2"（印刷 typo）、"see the formula"、References 中 "transfer-impendances"/"condmat/0212456"/"math.ph/0006020"/"Pacific J. Math 9"。
+- **mineru doc_id**：UNKNOWN——导出文件 middle_json.json 与 structured_content.json 中均无 doc_id 字段。
+- **修复登记**：唯一 FAIL（p.17 (22) 公式体与编号丢失）已在该页审计 commit `32f8def8` 内按 p017.png 修复（拆分 tag{21}/tag{22}、删孤立 "(22)" 残行、恢复 Φ 函数名、修 if 伪影补句号）；原始 mineru md 基线见 commit `0b0f3dd2`（SHA-256 = ad6a88a9e361adf0407b097ab68b5c4f158506460d0a4c245fc7b1ab623a846d）。PASS± 级排版伪影按 SOP 默认不批量改（仅妨碍阅读/检索的内容级错误逐处修复），登记在各页条目备注。
+- **收稿日期**：本 PDF 为 arXiv 版（math/0107056v3, 2003-01-31），印刷无收稿日期栏，无从核对，非缺失。
+
+---
+
 ## p.001（PDF p.1 / 印刷 p.1）
 - PNG：audit/p001.png（pngmono 150dpi）
 - 核对：题录（标题/作者/脚注邮箱）、Abstract 全文、§1、§1.1、§1.1.1 首句
@@ -239,3 +251,10 @@
 - 核对：References [15]–[19] 逐条（Macdonald 1995、Okounkov Selecta Math. 7 (2001) 57–81 math.RT/9907127、Okounkov 2002 Kluwer、Praehofer-Spohn math.PR/0105240、Vershik 1997 Vienna talk）
 - 结果：PASS。[15]–[19] 逐字吻合；本页为全文末页，页码 35 完整收尾。
 - 备注：本 PDF 为 arXiv 版（math/0107056v3），印刷无收稿日期（received date）栏，无从核对，非缺失。
+
+## 本块（p.028–p.035）修复后复核收据与全篇完结
+
+- 全文复读：本块 9 处修复后重读整份最终 Markdown（1298 行），逐项核对每处修改与对应页 PNG/文本层证据一致，未发现遗漏，未引入新差异。
+- 只读脚本清点（全篇终验）：ff 连字/箭头/伪影 grep 全文零残余；`\tag` 43 个（1–43 完整）；7 个 images/ 引用可解析；audit/ 内 p001–p035 页图 35 张齐全。
+- 分级统计（本块）：PASS 3（p.29/33/35）、PASS± 5（p.28/30/31/32/34）、FAIL 0。上块移交两项均已在本块结清：行 1027 \mathtt→\mathsf（p.028）、行 1095 difers…diferent（p.030）。
+- 全篇 35 页审计至此完成，总评见文件头；AUDIT-INDEX 登记与根级进度日志由 Master 集成时更新（Peer 不写根级）。
