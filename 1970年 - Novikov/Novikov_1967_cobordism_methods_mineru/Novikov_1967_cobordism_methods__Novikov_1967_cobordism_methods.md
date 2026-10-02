@@ -6,13 +6,13 @@ Abstract. The goal of this work is the construction of the analogue to the Adams
 
 ## Introduction
 
-In algebraic topology during the last few years the role of the so-called extraordinary homology and cohomology theories has started to become apparent; these theories satisfy all the Eilenberg–Steenrod axioms, except the axiom on the homology of a point. The merit of introducing such theories into topology and their first brilliant applications are due to Atiyah, Hirzebruch, Conner and Floyd, although in algebraic geometry the germs of such notions have appeared earlier (the Chow ring, the Grothendieck K-functor, etc.). Duality laws of Poincar´e type, Thom isomorphisms, the construction of several important analogues of cohomology operations and characteristic classes, and also relations between diferent theories were quickly discovered and understood (cf. [2, 5, 8, 9, 11, 12]).
+In algebraic topology during the last few years the role of the so-called extraordinary homology and cohomology theories has started to become apparent; these theories satisfy all the Eilenberg–Steenrod axioms, except the axiom on the homology of a point. The merit of introducing such theories into topology and their first brilliant applications are due to Atiyah, Hirzebruch, Conner and Floyd, although in algebraic geometry the germs of such notions have appeared earlier (the Chow ring, the Grothendieck K-functor, etc.). Duality laws of Poincaré type, Thom isomorphisms, the construction of several important analogues of cohomology operations and characteristic classes, and also relations between different theories were quickly discovered and understood (cf. [2, 5, 8, 9, 11, 12]).
 
 These ideas and notions gave rise to a series of brilliant results ([2]–[13]). In time there became manifest two important types of such theories: (1) theories of “K type” and (2) theories of “cobordism type” and their dual homology (“bordism”) theories.
 
 The present work is connected mainly with the theory of unitary cobordism. It is a detailed account and further development of the author’s work [19]. The structure of the homology of a point in the unitary cobordism theory was first discovered by Milnor [15] and the author [17]; the most complete and systematic account together with the structure of the ring can be found in [18]. Moreover, in recent work of Stong [22] and Hattori important relations of unitary cobordism to K-theory were found. We freely use the results and methods of all these works later, and we refer the reader to the works [15, 17, 18, 22] for preliminary information.
 
-Our basic aim is the development of new methods which allow us to compute stable homotopy invariants in a regular fashion with the help of extraordinary homology theories, by analogy with the method of Cartan–Serre–Adams in the usual classical$Z _ { p } .$-cohomology theory. We have succeeded in the complete computation of the analogue of the Steenrod algebra and the construction of a “spectral sequence of Adams$\mathrm { t y p e } ^ { { \mathfrak { N } } 1 }$in some cohomology theories, of which the most important is the theory of U-cobordism, and we shall sketch some computations which permit us to obtain and comprehend from the same point of view a series of already known concrete results (Milnor, Kervaire, Adams, Conner–Floyd, and others), and some new results as well.
+Our basic aim is the development of new methods which allow us to compute stable homotopy invariants in a regular fashion with the help of extraordinary homology theories, by analogy with the method of Cartan–Serre–Adams in the usual classical $Z_p$-cohomology theory. We have succeeded in the complete computation of the analogue of the Steenrod algebra and the construction of a “spectral sequence of Adams type”<sup>1</sup> in some cohomology theories, of which the most important is the theory of U-cobordism, and we shall sketch some computations which permit us to obtain and comprehend from the same point of view a series of already known concrete results (Milnor, Kervaire, Adams, Conner–Floyd, and others), and some new results as well.
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Date: Received 10 APR 67.</span></small>
 
@@ -20,27 +20,15 @@ Our basic aim is the development of new methods which allow us to compute stable
 
 In the process of the work the author ran into a whole series of new and tempting algebraic and topological situations, analogues to which in the classical case are either completely lacking or strongly degenerate; many of them have not been considered in depth. All this leads us to express hope for the perspective of this circle of ideas and methods both for applications to known classical problems of homotopy theory, and for the formulation and solution of new problems from which one can expect the appearance of nontraditional algebraic connections and concepts.
 
-The reader, naturally, is interested in the following question: to what extent is the program (of developing far-reaching algebraic-topological methods in extraordinary cohomology theory) able to resolve dificulties connected with the stable homotopy groups of spheres? In the author’s opinion, it succeeds in showing some principal (and new) sides of this problem, which allow us to put forth arguments about the nearness of the problems to solution and the formulation of final answers. First of all, the question should be separated into two parts: (1) the correct selection of the theory of cobordism type as “leading” in this program, and why it is richer than cohomology and K-theory; (2) how to look at the problem of homotopy groups of spheres from the point of view of cobordism theory.
+The reader, naturally, is interested in the following question: to what extent is the program (of developing far-reaching algebraic-topological methods in extraordinary cohomology theory) able to resolve difficulties connected with the stable homotopy groups of spheres? In the author’s opinion, it succeeds in showing some principal (and new) sides of this problem, which allow us to put forth arguments about the nearness of the problems to solution and the formulation of final answers. First of all, the question should be separated into two parts: (1) the correct selection of the theory of cobordism type as “leading” in this program, and why it is richer than cohomology and K-theory; (2) how to look at the problem of homotopy groups of spheres from the point of view of cobordism theory.
 
-The answer to the first part of the question is not complicated. As is shown in Appendix 3, if we have any other “good” cohomology theory, then it has the form of cobordism with coeficients in an Ω-module. Besides, working as in §§ 9 and 12, it is possible to convince oneself that these give the best filtrations for homotopy groups (at any rate, for complexes without torsion; for$p = 2$it may be that the appropriate substitute for MU is MSU). In this way, the other theories lead to the scheme of cobordism theory, and there their properties may be exploited in our program by means of homological algebra, as shown in many parts of the present work.
+The answer to the first part of the question is not complicated. As is shown in Appendix 3, if we have any other “good” cohomology theory, then it has the form of cobordism with coefficients in an Ω-module. Besides, working as in §§ 9 and 12, it is possible to convince oneself that these give the best filtrations for homotopy groups (at any rate, for complexes without torsion; for $p=2$ it may be that the appropriate substitute for MU is MSU). In this way, the other theories lead to the scheme of cobordism theory, and there their properties may be exploited in our program by means of homological algebra, as shown in many parts of the present work.
 
-We now attempt to answer the second fundamental part of the question. Here we must initially formulate some notions and assertions. Let$A _ { p } ^ { \bar { U } } [ A ^ { U } ]$be the ring of cohomology operations in$U _ { p } ^ { * } .$-theory$[ U ^ { * }$, respectively],$\Lambda _ { p } \stackrel { \cdot } { = } U _ { p } ^ { * } ( P )$$\Lambda =$ $U ^ { * } ( P )$, P = point,$Q _ { p } =$p-adic integers.<sup>2</sup> Note that$\Lambda \subset A ^ { U }$. The ring over$Q _ { p } ,$ $\Lambda \otimes _ { Z } Q _ { p } \supset \Lambda _ { p } ,$, lies in$A ^ { U } \{ \stackrel { \textstyle - } { \otimes } _ { Z } Q _ { p } \supset \bar { A } _ { p } ^ { U }$, and$\Lambda \otimes _ { Z } Q _ { p }$is a local ring with maximal ideal$m \subset \Lambda \otimes _ { Z } Q _ { p } .$where$\Lambda \otimes _ { Z } Q _ { p } / m = Z _ { p } ,$. Note that$\Lambda _ { p }$is an$A _ { p } ^ { U }$-module and $A _ { p } ^ { U }$is also a left$\Lambda _ { p } .$-module.
+We now attempt to answer the second fundamental part of the question. Here we must initially formulate some notions and assertions. Let $A_p^U [A^U]$ be the ring of cohomology operations in $U_p^*$-theory [$U^*$, respectively], $\Lambda_p=U_p^*(P)$, $\Lambda=U^*(P)$, $P=$ point, $Q_p=$ p-adic integers.<sup>2</sup> Note that $\Lambda\subset A^U$. The ring over $Q_p$, $\Lambda\otimes_Z Q_p\supset\Lambda_p$, lies in $A^U\otimes_Z Q_p\supset A_p^U$, and $\Lambda\otimes_Z Q_p$ is a local ring with maximal ideal $m\subset\Lambda\otimes_Z Q_p$, where $(\Lambda\otimes_Z Q_p)/m=Z_p$. Note that $\Lambda_p$ is an $A_p^U$-module and $A_p^U$ is also a left $\Lambda_p$-module.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2"</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>It may be shown that the Adams spectral sequence is the generalization specifically for S-categories (see § 1) of “the universal coefficient formula,” and this is used in the proofs of Theorems 1 and 2 of Appendix 3.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>It may be shown that the Adams spectral sequence is the generalization specifically for Scategories (see § 1) of “the universal coeficient formula,” and this is used in the proofs of Theorems 1 and 2 of Appendix 3.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2U\*</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">U\*⊗Qp</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">H<sup>∗</sup>(M<sub>p</sub>, Z<sub>p</sub>) = A/(βA + Aβ)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Mp</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>p</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>U<sup>∗</sup><sub>p</sub> -theory is a direct summand of the cohomology theory U<sup>∗</sup> ⊗ Q<sub>p</sub>, having spectrum M<sub>p</sub> such that {where A is the Steenrod algebra over and β is the Bokˇste˘ın operator} (see §§ 1, 5, 11, 12).</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>2</sup>$U_p^*$-theory is a direct summand of the cohomology theory $U^*\otimes Q_p$, having spectrum $M_p$ such that $H^*(M_p,Z_p)=A/(\beta A+A\beta)$ {where $A$ is the Steenrod algebra over $Z_p$ and $\beta$ is the Bokšteĭn operator} (see §§ 1, 5, 11, 12).</span></small>
 
 Consider the following rings:
 
@@ -68,19 +56,19 @@ determined by the maximal ideal$m _ { p } \subset \Lambda _ { p }$and the induce
 
 It turns out that for all$p > 2$the following holds:
 
-Theorem. The ring Ext$\bar { \bar { A } } _ { n } ^ { u * * } \big ( \bar { \Lambda } _ { p } , \bar { \Lambda } _ { p } \big )$is isomorphic to$\mathrm { E x t } _ { A } ^ { * * } ( Z _ { p } , Z _ { p } )$, and the algebraic spectral sequence$( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$is associated with the “geometric” spectral sequence of Adams in the theory$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$. Here$p > 2$and A is the usual Steenrod algebra for$Z _ { p }$-cohomology.
+Theorem. The ring $\operatorname{Ext}_{\bar A_p^U}^{***}(\bar\Lambda_p,\bar\Lambda_p)$ is isomorphic to $\operatorname{Ext}_A^{**}(Z_p,Z_p)$, and the algebraic spectral sequence $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ is associated with the “geometric” spectral sequence of Adams in the theory $H^*(\ ,Z_p)$. Here $p>2$ and $A$ is the usual Steenrod algebra for $Z_p$-cohomology.
 
-We note that$\tilde { \tilde { E } } _ { \infty } ^ { * * * }$is associated with Ex$\stackrel { * * * } { { \cal A } ^ { U } } \left( \Lambda , \Lambda \right) \otimes _ { Z } Q _ { p }$(more precisely stated in § 12). A priori the spectral sequence$( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$is cruder than the Adams spectral sequence in$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$-theory and$\tilde { \tilde { E } } _ { \infty } ^ { * * * }$is bigger than the stable homotopy groups of spheres; on account of this, the Adams spectral sequence for cobordism theory constructed in this work can in principle be non-trivial, since$\tilde { \tilde { E } } _ { \infty }$is associated with Ex$\mathfrak { t } _ { A ^ { U } } ( \Lambda , \Lambda ) \otimes _ { Z } Q _ { p } .$
+We note that $\tilde{\tilde E}_\infty^{***}$ is associated with $\operatorname{Ext}_{A^U}^{***}(\Lambda,\Lambda)\otimes_Z Q_p$ (more precisely stated in § 12). A priori the spectral sequence $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ is cruder than the Adams spectral sequence in $H^*(\ ,Z_p)$-theory and $\tilde{\tilde E}_\infty^{***}$ is bigger than the stable homotopy groups of spheres; on account of this, the Adams spectral sequence for cobordism theory constructed in this work can in principle be nontrivial, since $\tilde{\tilde E}_\infty$ is associated with $\operatorname{Ext}_{A^U}(\Lambda,\Lambda)\otimes_Z Q_p$.
 
-We now recall the striking diference between the Steenrod algebra modulo 2 and modulo$p > 2$. As is shown in H. Cartan’s well-known work, the Steenrod algebra for$p > 2$in addition to the usual grading possesses a second grading (“the number of occurrences of the Bokˇste˘ın homomorphism”) of a type which cannot be defined for$p = 2$(it is only correct modulo 2 for$p = 2 )$. Therefore for$p > 2$the cohomology$\mathrm { E x t } _ { A } ( Z _ { p } , Z _ { p } )$has a triple grading in distinction to$p = 2$. In § 12 we show:
+We now recall the striking difference between the Steenrod algebra modulo 2 and modulo $p>2$. As is shown in H. Cartan’s well-known work, the Steenrod algebra for $p>2$, in addition to the usual grading, possesses a second grading (“the number of occurrences of the Bokšteĭn homomorphism”) of a type which cannot be defined for $p=2$ (it is only correct modulo 2 for $p=2$). Therefore for $p>2$ the cohomology $\operatorname{Ext}_A(Z_p,Z_p)$ has a triple grading, in distinction to $p=2$. In § 12 we show:
 
 Lemma. There is a canonical algebra isomorphism
 
 $$
-\tilde {\tilde {E}} _ {2} ^ {* * *} = \mathrm{Ext} _ {\bar {A} _ {p} ^ {U}} ^ {* * *} (\bar {\Lambda} _ {p}, \bar {\Lambda} _ {p}) = \mathrm{Ext} _ {A} ^ {* * *} (Z _ {p}, Z _ {p}) \quad f o r p > 2.
+\tilde{\tilde E}_2^{***}=\operatorname{Ext}_{\bar A_p^U}^{***}(\bar\Lambda_p,\bar\Lambda_p)=\operatorname{Ext}_A^{***}(Z_p,Z_p),\quad\text{for }p>2.
 $$
 
-From this it follows that the algebra$\tilde { \tilde { E } } _ { 2 }$for the “algebraic Adams spectral sequence”$\tilde { \tilde { E } } _ { r }$is not associated, but is canonically isomorphic to the algebra $\mathrm { E x t } _ { A } ( Z _ { p } , Z _ { p } )$which is the second term of the usual topological Adams spectral sequence.
+From this it follows that the algebra $\tilde{\tilde E}_2$ for the “algebraic Adams spectral sequence” $\tilde{\tilde E}_r$ is not associated, but is canonically isomorphic to the algebra $\operatorname{Ext}_A(Z_p,Z_p)$, which is the second term of the usual topological Adams spectral sequence.
 
 If we assume that existence of the grading of Cartan type is not an accidental result of the algebraic computation of the Steenrod algebra A, but has a deeper geometric significance, then it is not out of the question that the whole Adams spectral sequence is not bigraded, but trigraded, as is the term
 
@@ -88,23 +76,23 @@ $$
 E _ {2} = \mathrm{Ext} _ {A} ^ {* * *} (Z _ {p}, Z _ {p}), \quad p \neq 2.
 $$
 
-From this, obviously, would follow the corollary: for$p > 2$the algebraic Adams spectral sequence$( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$coincides with the topological Adams spectral sequence $( E _ { r } , d _ { r } )$, if the sequence$( E _ { r } , d _ { r } )$is trigraded by means of the Cartan grading, as is $( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$. Therefore the orders$\left| \pi _ { N + i } ( S ^ { N } ) \right|$would coincide with$\left| \sum _ { t - s = i } \mathrm { E x t } _ { A ^ { U } } ^ { s , t } ( \Lambda , \Lambda ) \right|$ up to a factor of the form$2 ^ { h }$
+From this, obviously, would follow the corollary: for $p>2$, the algebraic Adams spectral sequence $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ coincides with the topological Adams spectral sequence $(E_r,d_r)$ if the latter sequence is trigraded by means of the Cartan grading, as is $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$. Therefore the orders $|\pi_{N+i}(S^N)|$ would coincide with $|\sum_{t-s=i}\operatorname{Ext}_{A^U}^{s,t}(\Lambda,\Lambda)|$ up to a factor of the form $2^h$.
 
-Moreover, this corollary would hold for all complexes without torsion (see § 12). The case$p = 2$is more complicated, although even there, there are clear algebraic rules for computing some diferentials. This is indicated precisely in$\ S \ S 2$
+Moreover, this corollary would hold for all complexes without torsion (see § 12). The case $p=2$ is more complicated, although even there, there are clear algebraic rules for computing some differentials. This is indicated precisely in § 12.
 
-In this way it is possible not only to prove the nonexistence of elements of Hopf invariant one by the methods of extraordinary cohomology theory as in [4] (see also §§ 9, 10), but also to calculate Adams diferentials.
+In this way it is possible not only to prove the nonexistence of elements of Hopf invariant one by the methods of extraordinary cohomology theory as in [4] (see also §§ 9, 10), but also to calculate Adams differentials.
 
-The content of this work are as follows: in §§ 1–3 we construct the Adams spectral sequence in diferent cohomology theories and discuss its general properties.
+The content of this work are as follows: in §§ 1–3 we construct the Adams spectral sequence in different cohomology theories and discuss its general properties.
 
 §§ 4, 5 are devoted to cohomology operations in cobordism theory. Here we adjoin Appendices 1 and 2. This is the most important part of the work.
 
-§§ 6, 7 are largely devoted to the computations of$U ^ { * } ( M S U )$and Ex$^ { * * U } _ { A } ( U ^ { * } ( M S U ) , \Lambda )$ $\ S \ S$has an auxiliary character; in it we establish the facts from K-theory which we need.
+§§ 6, 7 are largely devoted to the computations of $U^*(MSU)$ and $\operatorname{Ext}_{A^U}^{**}(U^*(MSU),\Lambda)$. § 8 has an auxiliary character; in it we establish the facts from K-theory which we need.
 
-§§ 10, 11 are devoted to computing Ex${ } _ { , A } ^ { * * } ( \Lambda , \Lambda )$
+§§ 10, 11 are devoted to computing $\operatorname{Ext}_{A^U}^{**}(\Lambda,\Lambda)$.
 
 §§ 9, 12 were discussed above; they have a “theoretical” character.
 
-Appendices 3 and 4 are connected with the problems of fixed points and the problem of connections between diferent homology theories from the point of view of homological algebra. Here the author only sketches the proofs.
+Appendices 3 and 4 are connected with the problems of fixed points and the problem of connections between different homology theories from the point of view of homological algebra. Here the author only sketches the proofs.
 
 The paper has been constructed as a systematic exposition of the fundamental theoretical questions connected with new methods and their first applications. The author tried to set down and in the simplest cases to clarify the most important theoretical questions, not making long calculations with the aim of concrete applications; this is explained by the hope mentioned earlier for the role of a similar circle of ideas in further developments of topology.
 
@@ -124,7 +112,7 @@ or short exact sequences
 
 {extending the given square};
 
-c) for any morphism$f \colon A \ { \xrightarrow { f } } \ B$there exist unique short exact sequences$0$ $C ^ { \prime } \to A \ { \overset { f } { \to } } \ B \to 0$and$0 \to A { \overset { f } { \longrightarrow } } B \to C \to 0$, where the objects$C$and$C ^ { \prime }$are related by a short exact sequence$0  C ^ { \prime }  0  C  0$and$C$and$C ^ { \prime }$determine each other.
+c) For any morphism $f:A\to B$ there exist unique short exact sequences $0\to C'\to A\xrightarrow{f}B\to0$ and $0\to A\xrightarrow{f}B\to C\to0$, where the objects $C$ and $C'$ are related by a short exact sequence $0\to C'\to0\to C\to0$ and $C$ and $C'$ determine each other.
 
 We introduce an operator$E$in the category S by setting$C ^ { \prime } = E ^ { - 1 } C , \mathrm { o r } \ C =$ $E C ^ { \prime }$, and we call E the suspension.
 
@@ -142,15 +130,15 @@ $$
 \stackrel {\delta} {\to} \operatorname{Hom} ^ {i} (C, T) \stackrel {g ^ {*}} {\longrightarrow} \operatorname{Hom} ^ {i} (B, T) \stackrel {f _ {*}} {\longrightarrow} \operatorname{Hom} ^ {i} (A, T) \stackrel {\delta} {\to} \operatorname{Hom} ^ {i + 1} (C, T),
 $$
 
-which are functorial in T and in$( 0  A  B  C  0 )$. Here the homomorphisms $f _ { * } , g _ { * } , f ^ { * } , g ^ { * }$are the natural ones and the homomorphisms$\partial , \delta$are induced by the projection$C  E A$in the short exact sequence$0 \to B { \overset { g } { \to } } C \to E A \to 0$according to the above axiom 1.
+which are functorial in $T$ and in the short exact sequence $(0\to A\to B\to C\to0)$. Here the homomorphisms $f_*,g_*,f^*,g^*$ are the natural ones and the homomorphisms $\partial,\delta$ are induced by the projection $C\to EA$ in the short exact sequence $0\to B\xrightarrow{g}C\to EA\to0$ according to axiom 1.
 
-3. In the category there exists a unique operation of direct sum with amalgamated subobjects: pairs$X , Y ~ \in ~ S$and morphisms$Z \to X , Z \to Y$define the sum$X + _ { Z } Y$and the natural maps$X  X + \phantom { } _ { Z } Y$and$Y  X + _ { Z } Y$such that the following sequences are exact:
+3. In the category there exists a unique operation of direct sum with amalgamated subobjects: pairs $X,Y\in S$ and morphisms $Z\to X$, $Z\to Y$ define the sum $X+_Z Y$ and the natural maps $X\to X+_Z Y$ and $Y\to X+_Z Y$ such that the following sequences are exact:
 
 $$
 \begin{array}{c} 0 \to X \to X + _ {Z} Y \to C _ {1} \to 0, \\ 0 \to Y \to X + _ {Z} Y \to C _ {2} \to 0 \end{array}
 $$
 
-(where$C _ { 1 }$and$C _ { 2 }$are defined by the exact sequences$0  Z  X  C _ { 2 }  0$and $0  Z  Y  C _ { 1 }  0 )$. By definition we regard$X + _ { 0 } Y = X + Y${where 0 is the point object}.
+(where $C_1$ and $C_2$ are defined by the exact sequences $0\to Z\to X\to C_2\to0$ and $0\to Z\to Y\to C_1\to0$). By definition we regard $X+_0Y=X+Y$, where $0$ is the point object.
 
 Definition. We call two objects$X , Y \in S$equivalent if there exists a third object $Z \in S$and morphisms$f \colon X \to Z$and$g \colon Y \to Z$inducing isomorphisms of the functor${ \mathrm { H o m } } ^ { * } ( Z , \ )$with Hom$^ { * } ( X , \ )$and Hom$^ * ( Y , \ )$and of the functor$\mathrm { H o m } ^ { * } ( \ , Z )$ with${ \mathrm { H o m } } ^ { * } ( \mathbf { \theta } , { \dot { X } } )$and Hom${ ^ * } ( \mathbf { \theta } , Y )$. We call the maps$f , g$equivalences.
 
@@ -200,11 +188,11 @@ $$
 \operatorname{Hom} ^ {*} (X, Y) = \varprojlim_ {m} \varinjlim_ {n} \operatorname{Hom} ^ {*} (X _ {n}, Y _ {m})
 $$
 
-in the case of inverse spectra. Here, of course, let us keep in mind that in taking limits the grading in$\mathrm { H o m } ^ { * } ( \ , \ )$is taken in the natural way. As usual, remember that the dimension of a morphism$E ^ { \gamma } T  X _ { n }$is equal to$n + n _ { 0 } - \gamma$, where$n _ { 0 }$ is a fixed integer, given together with the spectrum, defining the dimension of the mappings into$X _ { n } ,$and usually considered equal to zero. In addition, Hom and Ext here and later are understood in the sense of the natural topology generated by spectra.
+in the case of inverse spectra. Here, of course, keep in mind that in taking limits the grading in $\operatorname{Hom}^*(\ ,\ )$ is taken in the natural way. As usual, the dimension of a morphism $E^\gamma T\to X_n$ is $n+n_0-\gamma$, where $n_0$ is a fixed integer given with the spectrum, defining the dimension of the mappings into $X_n$, and usually considered equal to zero. In addition, Hom and Ext here and later are understood in the sense of the natural topology generated by spectra.
 
-Thus arise categories$\vec { S }$(direct spectra over S) and$\overleftarrow { S }$(inverse spectra). There are defined inclusions$S \to { \vec { S } }$and$S  \overleftarrow { S }$. We have the simple
+Thus arise the categories $\vec S$ (direct spectra over $S$) and $\overleftarrow S$ (inverse spectra). There are inclusions $S\to\vec S$ and $S\to\overleftarrow S$. We have the simple
 
-Lemma 1.1. In the categories$\vec { S }$and$\overleftarrow { S }$there exist short exact sequences$0  A$ $B  C  0 .$, where A,$B , C \in { \vec { S } }$or$A , B , C \in { \overleftarrow { S } }$, satisfying axiom 1 of the category S and axiom 2 for the functor Hom${ } ^ { * } ( T , \mathbf { \epsilon } )$if A, B,$C \in \vec { S }$and$T \in { \overleftarrow { S } }$, and axiom 2 for$\mathrm { H o m } ^ { * } ( \mathbf { \Omega } , T )$if A,$B , C \in { \overleftarrow { S } }$and$T \in { \vec { S } }$. In the categories$\vec { S }$and$\overleftarrow { S }$there exist direct sums with amalgamation satisfying axiom$3 .$
+Lemma 1.1. In the categories $\vec S$ and $\overleftarrow S$ there exist short exact sequences $0\to A\to B\to C\to0$, where $A,B,C\in\vec S$ or $A,B,C\in\overleftarrow S$, satisfying axiom 1 of the category $S$ and axiom 2 for the functor $\operatorname{Hom}^*(T,\ )$ if $A,B,C\in\vec S$ and $T\in\overleftarrow S$, and axiom 2 for $\operatorname{Hom}^*(\ ,T)$ if $A,B,C\in\overleftarrow S$ and $T\in\vec S$. In the categories $\vec S$ and $\overleftarrow S$ there exist direct sums with amalgamation satisfying axiom 3.
 
 Proof. The existence of direct sums with amalgamation in the categories$\vec { S }$and$\overleftarrow { S }$ is proved immediately.
 
@@ -226,7 +214,7 @@ c) The ring${ \mathrm { H o m } } ^ { * } ( X , X )$for$X \in { \vec { S } }$is 
 
 d) The Steenrod ring for the cohomology theory$X ^ { * }$is denoted by$A ^ { X }$, for the homology theory by$A _ { X }$. They are graded topological rings with unity.
 
-Note that an infinite direct sum$Z = \sum X _ { i }$of objects$X _ { i } \in \vec { S }$lies, by definition, in$\overleftarrow { \vec { S } } ,$if we let$Z _ { n } = \sum X _ { i }$<sub>i</sub> and$Z _ { n } \to Z _ { n - 1 }$be the projection. Obviously,$X ^ { * } ( \Sigma X _ { i } )$ i≤n is an infinite-dimensional free$A ^ { X }$-module, being the limit of the direct spectrum
+Note that an infinite direct sum $Z=\sum_i X_i$ of objects $X_i\in\vec S$ lies, by definition, in $\overleftarrow{\vec S}$, if we let $Z_n=\sum_{i\le n}X_i$ and $Z_n\to Z_{n-1}$ be the projection. Obviously, $X^*(\sum_{i\le n}X_i)$ is an infinite-dimensional free $A^X$-module, being the limit of the direct spectrum
 
 $$
 \operatorname{Hom} ^ {*} (Z _ {n}, X) \to \operatorname{Hom} ^ {*} (Z _ {n + 1}, X),
@@ -234,13 +222,13 @@ $$
 
 where$X \in { \vec { S } } \subset { \overleftarrow { \vec { S } } }$, all$X _ { i }$are equivalent to the object$X$or$E ^ { \gamma _ { i } } X$, and$E$is the suspension.
 
-For an homology theory, if$X \in { \vec { S } } .$, an infinite direct sum$\sum X _ { i }$is considered as the limit of the direct spectrum
+For a homology theory, if $X\in\overleftarrow S$, an infinite direct sum $\sum_i X_i$ is considered as the limit of the direct spectrum
 
 $$
 \dots \rightarrow \sum_ {i \leq n} X _ {i} \rightarrow \sum_ {i \leq n + 1} X _ {i} \rightarrow \dots ,
 $$
 
-where$X _ { i }$is$E ^ { \gamma _ { i } } X$, and therefore lies in$\overleftarrow { \vec { S } } ,$, and the$A _ { X }$-module Hom${ } ^ { * } ( X , \Sigma X _ { i } )$is free.
+where $X_i=E^{\gamma_i}X$, and therefore lies in $\overleftarrow{\vec S}$, and the $A_X$-module $\operatorname{Hom}^*(X,\sum_i X_i)$ is free.
 
 By X-free objects for$X \in { \vec { S } }$we mean direct sums$\textstyle \sum X _ { i }$, where$X _ { i } = E ^ { \gamma _ { i } } X$for arbitrary integers$\gamma _ { i }$. Finite direct sums belong to${ \vec { S } } .$
 
@@ -266,7 +254,7 @@ $$
 0 \to Y _ {i} \xrightarrow {f _ {i}} Y _ {i - 1} \xrightarrow {g _ {i}} Z _ {i} \to 0, \quad Y _ {- 1} = Y.
 $$
 
-3) By the complexes associated with the filtration, for any$T \in { \overleftarrow { S } }$, are meant the complexes$( C _ { x } , \partial _ { x } )$and$( B _ { T } , \delta _ { T } )$, where$( C _ { x } ) _ { i } = X ^ { * } ( Z _ { i } )$and$( B _ { T } ) ^ { i } = T _ { * } ( Z _ { i } )$and the diferentials$\partial \colon ( C _ { x } ) _ { i } \to ( C _ { x } ) _ { i - 1 }$and$\delta _ { T } ( B _ { T } ) _ { i } \to ( B _ { T } ) _ { i + 1 }$are the compositions
+3) By the complexes associated with the filtration, for any$T \in { \overleftarrow { S } }$, are meant the complexes$( C _ { x } , \partial _ { x } )$and$( B _ { T } , \delta _ { T } )$, where$( C _ { x } ) _ { i } = X ^ { * } ( Z _ { i } )$and$( B _ { T } ) ^ { i } = T _ { * } ( Z _ { i } )$and the differentials$\partial \colon ( C _ { x } ) _ { i } \to ( C _ { x } ) _ { i - 1 }$and$\delta _ { T } ( B _ { T } ) _ { i } \to ( B _ { T } ) _ { i + 1 }$are the compositions
 
 $$
 \partial_ {X} \colon X ^ {*} (Z _ {i}) \xrightarrow {g _ {i}} X ^ {*} (Y _ {i - 1}) \xrightarrow {\delta} X ^ {*} (Z _ {i - 1})
@@ -282,15 +270,15 @@ $$
 
 From the properties (axioms 1 and 2) of the category$S$and Lemma 1.1 we obtain the obvious
 
-Lemma 1.2. 1) Each filtration$( Y  Y _ { 0 }  Y _ { 1 }  . . . )$defines a spectral sequence $( E _ { r } , d _ { r } )$with term$E _ { 1 } = B _ { T } , d _ { 1 } = \delta _ { T }$, associated with Hom${ } ^ { * } ( T , Y )$in the sense that there are defined homomorphisms$q _ { 0 } \colon$: Hom${ } ^ { \ast } ( T , Y ) \to E _ { \infty } ^ { 0 , * } , q _ { i } { : }$: Ker$q _ { i - 1 } \to E _ { \infty } ^ { i , * }$2 where the filtration (Ker q ) in$T _ { * } ( Y ) = \mathrm { H o m } ^ { * } ( T , Y )$is defined by the images of compositions of filtration maps$T _ { * } ( Y _ { i } ) \to T _ { * } ( Y )$
+Lemma 1.2. 1) Each filtration $(Y\leftarrow Y_0\leftarrow Y_1\leftarrow\dots)$ defines a spectral sequence $(E_r,d_r)$ with term $E_1=B_T$, $d_1=\delta_T$, associated with $\operatorname{Hom}^*(T,Y)$ in the sense that there are homomorphisms $q_0:\operatorname{Hom}^*(T,Y)\to E_\infty^{0,*}$ and $q_i:\ker q_{i-1}\to E_\infty^{i,*}$, where the filtration $(\ker q_i)$ in $T_*(Y)=\operatorname{Hom}^*(T,Y)$ is defined by the images of the compositions of the filtration maps $T_*(Y_i)\to T_*(Y)$.
 
-2) Ifthe filtration is$X { - } f r e e ,$, the complex$( B _ { T } , \delta _ { T } )$is precisely Hom$^ { * } _ { A ^ { X } } ( C _ { x } , X ^ { * } ( T ) )$ {with diferential$\mathrm { H o m } _ { A ^ { X } } ( \partial _ { x } , 1 ) \}$
+2) If the filtration is $X$-free, the complex $(B_T,\delta_T)$ is precisely $\operatorname{Hom}_{A^X}^*(C_x,X^*(T))$ (with differential $\operatorname{Hom}_{A^X}(\partial_x,1)$).
 
-3) If the filtration is X-free and$\begin{array} { r } { a c y c l i c , } \end{array}$, then$E _ { 2 } ^ { * * }$in this spectral sequence coincides precisely with Ex$^ { * * } _ { A ^ { T } } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$).
+3) If the filtration is $X$-free and acyclic, then $E_2^{**}$ in this spectral sequence coincides precisely with $\operatorname{Ext}_{A^X}^{**}(X^*(Y),X^*(T))$.
 
 Lemma 1.2 follows in the obvious way from axioms 1, 2 of the category S and Lemma 1.1.
 
-However, the problem of the existence of X-free and acyclic filtrations is nontrivial. We shall give their construction in a special case, suficient for our subsequent purposes.
+However, the problem of the existence of $X$-free and acyclic filtrations is nontrivial. We shall give their construction in a special case, sufficient for our subsequent purposes.
 
 Definition 1.1. The spectrum$X \in { \vec { S } }$will be called stable if for any$T \in S$and any j there exists an integer n such that Hom$^ s ( T , X _ { m } ) = \operatorname { H o m } ^ { m } ( T , X )$for all$m \geq n ,$ $s \geq j$
 
@@ -298,7 +286,7 @@ Definition 1.2. The cohomology theory$X ^ { * } , X \in { \vec { S } } .$defined
 
 We have
 
-Lemma 1.3.$H X ^ { * }$is a Noetherian cohomology and$Y \in S _ { : }$, then there exists a filtration
+Lemma 1.3. If $X^*$ is a Noetherian cohomology and $Y\in S$, then there exists a filtration
 
 $$
 Y \leftarrow Y _ {0} \leftarrow \dots \leftarrow Y _ {i - 1} \leftarrow Y _ {i} \leftarrow \dots
@@ -306,9 +294,9 @@ $$
 
 such that$Z _ { i } = Y _ { i - 1 } / Y _ { i }$is a direct sum$Z _ { i } = \sum _ { j } X _ { n _ { j } }$for large$n _ { j }$and the complex $\begin{array} { r } { C = \sum X ^ { * } ( Z _ { i } ) } \end{array}$is acyclic through large dimensions. Here$X = \left( X _ { n } \right) \in { \vec { S } }$
 
-Proof. Take a large integer n and consider a map$\textit { Y } \to \sum _ { i } X _ { n } ^ { ( i ) }$such that $X ^ { * } \left( \sum _ { i } X _ { n } \right) \to X ^ { * } ( Y )$is an epimorphism, where$X ^ { \ast }$is a Noetherian cohomology theory.
+Proof. Take a large integer $n$ and consider a map $Y\to\sum_i X_n^{(i)}$ such that $X^*(\sum_i X_n)\to X^*(Y)$ is an epimorphism, where $X^*$ is a Noetherian cohomology theory.
 
-By virtue of the stability of the spectrum X, for$Y \in S$there is an integer n such that the map$Y  \sum X _ { i }$factors into the composition$Y \xrightarrow { f _ { 0 } } \sum _ { i } X _ { n }  \sum E ^ { i } X$ where$X _ { n } \to X$is the natural map. Therefore$X ^ { * } ( \sum X _ { n _ { i } } ) \to X ^ { * } ( Y ) { \xrightarrow { X ^ { * } ( f _ { 0 } ) } } X ^ { * } ( Y )$ is an epimorphism. Consider the short exact sequence
+By virtue of the stability of the spectrum $X$, for $Y\in S$ there is an integer $n$ such that the map $Y\to\sum_i X_i$ factors into the composition $Y\xrightarrow{f_0}\sum_i X_n\to\sum_i E^iX$, where $X_n\to X$ is the natural map. Therefore $X^*(\sum_i X_{n_i})\to X^*(Y)\xrightarrow{X^*(f_0)}X^*(Y)$ is an epimorphism. Consider the short exact sequence
 
 $$
 0 \to Y _ {0} ^ {(n)} \to Y \xrightarrow {f _ {0}} \sum_ {i} X _ {n} \to 0.
@@ -326,13 +314,13 @@ By definition,$C = \sum _ { i } X ^ { * } ( Z _ { i } )$is an acyclic complex th
 
 Definition 1.3. A stable spectrum$X = \left( X _ { n } \right)$in the category$\vec { S }$is called acyclic if for each object$T \in S$we have the equalities:
 
-a)$\mathrm { E x t } _ { A ^ { \prime } } ^ { i , t } ( X ^ { * } ( X _ { n } ) , X ^ { * } ( T ) ) = 0 , i > 0 , t - i < f _ { n } ( i )$, where$f _ { n } ( i ) \to \infty \mathrm { a s } n \to \infty ;$
+a)$\mathrm { E x t } _ { A ^ { X } } ^ { i , t } ( X ^ { * } ( X _ { n } ) , X ^ { * } ( T ) ) = 0 , i > 0 , t - i < f _ { n } ( i )$, where$f _ { n } ( i ) \to \infty \mathrm { a s } n \to \infty ;$
 
-b) Hom$\operatorname { \ i } _ { A ^ { X } } ^ { t } ( X ^ { * } ( X _ { n } ) , X ^ { * } ( T ) ) = \operatorname { H o m } ^ { t } ( T , X )$for$t < f _ { n } ,$, and$f _ { n } \to \infty { \mathrm { ~ a s ~ } } n \to \infty$
+b) $\operatorname{Hom}_{A^X}^{t}(X^*(X_n),X^*(T))=\operatorname{Hom}^{t}(T,X)$ for $t<f_n$, and $f_n\to\infty$ as $n\to\infty$.
 
-The so-called Adams spectral sequence$( E _ { r } , d _ { r } )$with$E _ { 2 }$-term$\begin{array} { r l } { E _ { 2 } } & { { } = } \end{array}$ $\mathrm { E x t } _ { A ^ { \ast } } ^ { \ast \ast } ( X ^ { \ast } ( Y ) , X ^ { \ast } ( T ) )$arises in the following cases:
+The so-called Adams spectral sequence $(E_r,d_r)$ with $E_2$-term $E_2=\operatorname{Ext}_{A^X}^{**}(X^*(Y),X^*(T))$ arises in the following cases:
 
-1. If in the category$\vec { S }$there exists an X-free acyclic filtration$Y = Y _ { - 1 }  Y _ { 0 }$ $Y _ { 1 } \gets \dots  Y _ { i - 1 }  Y _ { i } \dots .$, on the basis of Lemma 1.2. However, such a filtration does not always exist, since the theory$X ^ { * }$in the category$\vec { S }$does not have the exactness property.
+1. If in the category $\vec S$ there exists an $X$-free acyclic filtration $Y=Y_{-1}\leftarrow Y_0\leftarrow Y_1\leftarrow\dots\leftarrow Y_{i-1}\leftarrow Y_i\leftarrow\dots$, on the basis of Lemma 1.2. However, such a filtration does not always exist, since the theory $X^*$ in the category $\vec S$ does not have the exactness property.
 
 2. If$Y \in S , T \in S$and the theory$X ^ { \ast }$is stable, Noetherian and acyclic, then, by virtue of Lemma$1 . 3 .$, there exists a filtration
 
@@ -340,11 +328,11 @@ $$
 Y _ {- 1} = Y \leftarrow Y _ {0} \leftarrow Y _ {1} \leftarrow \dots \leftarrow Y _ {i} \leftarrow \dots ,
 $$
 
-where the$Y _ { i } / Y _ { i + 1 }$are sums of objects$X _ { n } .$for numbers n which may be taken as large as we want, with the filtration acyclic through large gradings. For such a filtration, the corresponding spectral sequence$( E _ { r } , d _ { r } )$has the term$E _ { 2 } ^ { s , t } \ =$ Ex$\mathrm { t } _ { A ^ { X ^ { s , t } } } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$through large gradings, by the definition of acyclicity for the theory$X ^ { * }$
+where the $Y_i/Y_{i+1}$ are sums of objects $X_n$, for numbers $n$ which may be taken as large as we want, with the filtration acyclic through large gradings. For such a filtration, the corresponding spectral sequence $(E_r,d_r)$ has the term $E_2^{s,t}=\operatorname{Ext}_{A^X}^{s,t}(X^*(Y),X^*(T))$ through large gradings, by the definition of acyclicity for the theory $X^*$.
 
 In this way we obtain:
 
-Theorem 1.1. For any stable Noetherian acyclic cohomology theory$X \in { \vec { S } }$and objects$Y , T \in S _ { i }$, one can construct an Adams spectral sequence$( E _ { r } , d _ { r } )$, where $d _ { r } \colon E _ { r } ^ { s , t } \to E _ { r } ^ { s + r , t + r - 1 }$and the groups$\sum _ { t - s = m } E _ { \infty } ^ { s , t }$are connected$t o \ { \mathrm { { H o m } } } ^ { m } ( t , Y )$in
+Theorem 1.1. For any stable Noetherian acyclic cohomology theory $X\in\vec S$ and objects $Y,T\in S_i$, one can construct an Adams spectral sequence $(E_r,d_r)$, where $d_r:E_r^{s,t}\to E_r^{s+r,t+r-1}$ and the groups $\sum_{t-s=m}E_\infty^{s,t}$ are connected to $\operatorname{Hom}^m(T,Y)$ in
 
 the following way: there exist homomorphisms
 
@@ -362,9 +350,9 @@ is the natural homomorphism.
 
 The Adams spectral sequence is functorial in T and$Y$.
 
-Remark 1.1. The homomorphism q<sub>1</sub> : Ker$q _ { 0 } \to \mathrm { E x t } _ { A ^ { x } } ^ { 1 , * } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$is called the “Hopf invariant.”
+Remark 1.1. The homomorphism $q_1:\ker q_0\to\operatorname{Ext}_{A^X}^{1,*}(X^*(Y),X^*(T))$ is called the “Hopf invariant.”
 
-Remark 1.2. For objects$T , Y \in S$and a stable Noetherian acyclic homology theory$X \in { \overleftarrow { S } }$one can also construct an Adams spectral sequence$( E _ { r } , d _ { r } )$such that $E _ { 2 } = \mathrm { E x t } _ { A _ { x } } ^ { * * } ( X _ { * } ( T ) , X _ { * } ( Y ) )$. In this spectral sequence,$d _ { r } \colon E _ { r } ^ { p , q } \ \to \ E _ { r } ^ { p - r , q + r + 1 }$ and the homomorphisms$q _ { i }$are such that
+Remark 1.2. For objects $T,Y\in S$ and a stable Noetherian acyclic homology theory $X\in\overleftarrow S$, one can also construct an Adams spectral sequence $(E_r,d_r)$ such that $E_2=\operatorname{Ext}_{A_X}^{**}(X_*(T),X_*(Y))$. In this spectral sequence, $d_r:E_r^{p,q}\to E_r^{p-r,q+r+1}$ and the homomorphisms $q_i$ are such that
 
 $$
 q _ {i} \colon \operatorname{Ker} q _ {i - 1} \to E _ {\infty} ^ {i, i + n},
@@ -376,13 +364,13 @@ $$
 q _ {0} \colon \operatorname{Hom} ^ {n} (T, Y) \to \operatorname{Hom} _ {A ^ {X}} ^ {n} (X ^ {*} (Y), X ^ {*} (T))
 $$
 
-is the natural homomorphism and$A _ { X }$is the Steenrod ring of the homology theory $X _ { * }$<sub>∗</sub>.
+is the natural homomorphism and $A_X$ is the Steenrod ring of the homology theory $X_*$.
 
 The proof of Theorem 1.1 is a trivial consequence of Lemmas 1.1–1.3 and standard verifications of the functoriality of the spectral sequence in the case where the filtration is X-free and acyclic.
 
 We shall be specially interested in those cases when the Adams spectral sequence converges exactly to$T _ { * } ( Y ) = \mathrm { H o m } ^ { * } ( T , Y )$). Let us formulate a simple criterion for convergence:
 
-(A) If there exists an X-free filtration$Y _ { - 1 } = Y \gets Y _ { 0 } \gets \cdot \cdot \cdot \gets Y _ { i }$(not necessarily acyclic) such that for any j, l there exists a number$i > l ,$depending on j and l, for which$\sum _ { k \leq j } { \mathrm { H o m } } ^ { k } ( T , Y _ { i } ) = { \mathrm { 0 } }$, then the Adams spectral sequence converges exactly to Hom$^ * ( T , Y )$. Criterion$\mathrm { ( A ) }$does not appear to be the most powerful of those possible, but it will be fully suficient for the purposes of the present work.
+(A) If there exists an $X$-free filtration $Y_{-1}=Y\gets Y_0\gets\cdots\gets Y_i$ (not necessarily acyclic) such that for any $j,l$ there exists a number $i>l$, depending on $j$ and $l$, for which $\sum_{k\le j}\operatorname{Hom}^k(T,Y_i)=0$, then the Adams spectral sequence converges exactly to $\operatorname{Hom}^*(T,Y)$. Criterion (A) does not appear to be the most powerful of those possible, but it will be fully sufficient for the purposes of the present work.
 
 ## § 2. The S-category of finite complexes with distinguished base points. Simplest operations in this category
 
@@ -390,25 +378,25 @@ The basic categories we shall be dealing with are the following:
 
 1. The S-category of finite complexes and the categories$\vec { S }$and$\overleftarrow { S }$over it.
 
-2. For any flat Z-module G (an abelian group such that$\otimes _ { Z } G$is an exact functor) we introduce the category$S \otimes _ { Z } G ,$, in which we keep the old objects of$S$and let $\mathrm { H o m } ( X , Y ) \otimes _ { Z } G$be the group of morphisms of X to$\bar { Y }$in the new category$S \otimes _ { Z } G$ Important examples are: a)$G = Q , \mathrm { b } ) \ G = Q _ { p }$(p-adic integers). The respective categories will be denoted by$S _ { 0 }$for$G = Q$and$S _ { p }$for$\boldsymbol { G } = \boldsymbol { Q _ { p } } , p$a prime.
+2. For any flat $Z$-module $G$ (an abelian group such that $\otimes_ZG$ is an exact functor) we introduce the category $S\otimes_ZG$, in which we keep the old objects of $S$ and let $\operatorname{Hom}(X,Y)\otimes_ZG$ be the group of morphisms of $X$ to $Y$ in the new category $S\otimes_ZG$. Important examples are: a) $G=Q$, b) $G=Q_p$ ($p$-adic integers). The respective categories will be denoted by $S_0$ for $G=Q$ and $S_p$ for $G=Q_p$, $p$ a prime.
 
 3. In S (or$S _ { p }$for$p > 0 )$we single out the subcategory D (or$D _ { p } \subset S _ { p } )$ consisting of complexes with torsion-free integral cohomology. It should be noted that the subcategories$D$and$D _ { p }$are not closed with respect to the operations entering in axiom 1 for S-categories.
 
-These subcategories, however, are closed with respect to the operations referred to, when the morphism$f \colon A  B$is such that$f ^ { * } \colon H ^ { * } ( B , Z ) \to H ^ { * } ( A , Z )$is an epimorphism.
+These subcategories, however, are closed with respect to the operations referred to, when the morphism $f:A\to B$ is such that $f^*:H^*(B,Z)\to H^*(A,Z)$ is an epimorphism.
 
-Therefore the category D is closed under the construction of X-free acyclic resolutions (only acyclic), and it is possible to study the Adams spectral sequence only for$X , Y \in D { \mathrm { ~ ( o r ~ } } D _ { p } )$
+Therefore the category $D$ is closed under the construction of $X$-free acyclic resolutions (only acyclic), and it is possible to study the Adams spectral sequence only for $X,Y\in D$ (or $D_p$).
 
 The following operations are well known in the S-category of spaces of the homotopy type of finite complexes (with distinguished base points):
 
 1. The connected sum with amalgamated subcomplex$X + _ { Z } Y$, becoming the wedge$X \vee Y$if$Z = 0$(a point).
 
-2. Changing any map to an inclusion and to a projection (up to homotopy type): axiom 1 of$\ S \ O 1$
+2. Changing any map to an inclusion and to a projection (up to homotopy type): axiom 1 of § 1.
 
-3. Exactness of the functors Hom$^ { * } ( X , \ )$and$\mathrm { H o m } ^ { * } ( \mathbf { \theta } , X )$
+3. Exactness of the functors $\operatorname{Hom}^*(X,\ )$ and $\operatorname{Hom}^*(\ ,X)$.
 
 4. The tensor product$X \otimes Y = X \times Y / X \vee Y$
 
-5. The definition, for a pair$X , Y \in S$, of$X \otimes _ { Z } Y$, given multiplications X ⊗$Z$ X and$Z \otimes Y \to Y$
+5. The definition, for a pair $X,Y\in S$, of $X\otimes_ZY$, given multiplications $X\otimes Z\to X$ and $Z\otimes Y\to Y$.
 
 6. Existence of a “point”-pair$P = ( S ^ { 0 } , * )$such that$X \otimes P = X$and$X \otimes _ { p } Y =$ $X \otimes Y$
 
@@ -420,7 +408,7 @@ $$
 X \otimes X \to X, \quad X \in \vec {S}.
 $$
 
-The cohomology theory$Y ^ { * }$is said to act on the right [left] of the theory$X ^ { \ast }$if there is given a multiplication$X \otimes Y  X$or$Y \otimes X \to X$
+The cohomology theory $Y^*$ is said to act on the right [left] of the theory $X^*$ if there is given a multiplication $X\otimes Y\to X$ or $Y\otimes X\to X$.
 
 The previously mentioned theory$P ^ { * }$, generated by the point spectrum$P =$ $( S ^ { 0 } , * )$, operates on all cohomology theories and is called “cohomotopy theory.” Its spectrum, of course, consists of the spheres$( S ^ { n } )$. It is obviously multiplicative, because$P \otimes P = P$
 
@@ -444,13 +432,13 @@ Suppose that the cohomology ring$X ^ { * } ( X )$and all$X ^ { * } ( K )$have id
 
 induced by the inclusion$H _ { n } \subset H _ { n } ^ { 0 }$
 
-Let$\pi ( K , L )$be the homotopy classes (ordinary, non-stable) of maps$K  L .$, and let$\Pi ^ { - 1 } \dot { ( K ) } = \operatorname * { l i m } _ { n \longrightarrow \infty } \pi ( K , H _ { n } )$. Obviously$\Pi ^ { - 1 } ( K )$is a semigroup with respect to the previously introduced multiplication. We have
+Let $\pi(K,L)$ be the homotopy classes (ordinary, non-stable) of maps $K\to L$, and let $\Pi^{-1}(K)=\operatorname*{lim}_{n\to\infty}\pi(K,H_n)$. Obviously $\Pi^{-1}(K)$ is a semigroup with respect to the previously introduced multiplication. We have
 
 Lemma 2.1.$\Pi ^ { - 1 } ( K )$is a group, isomorphic to the multiplicative group of elements of the form$\{ 1 + x \} \in X ^ { 0 } ( K )$, where x ranges over the elements of the group$X ^ { 0 } ( K )$ of filtration$> 0$
 
 The proof of Lemma 2.1 easily follows from the definition of the multiplication $H _ { n } \times H _ { m } \to H _ { m + n }$by means of the multiplication in the spectrum$X$
 
-Therefore the spectrum$\left( H _ { n } \right)$defines an$^ { \mathrm { 6 } } H { \mathrm { - s p a c e } } ^ { \mathrm { 3 } }$and the spectrum $B H = \left( B H _ { n } \right)$has often been defined. The set of homotopy classes$\pi ( K , B H ) =$ lim$\pi ( K , B H _ { n } )$we denote by$\Pi ^ { 0 } ( K )$, while$\Pi ^ { 0 } ( E K ) \ = \ \bar { \Pi } ^ { - 1 } ( K )$by definition, n where E is the suspension.
+Therefore the spectrum $(H_n)$ defines an H-space, and the spectrum $BH=(BH_n)$ has often been defined. The set of homotopy classes $\pi(K,BH)=\operatorname*{lim}\pi(K,BH_n)$ we denote by $\Pi^0(K)$, while $\Pi^0(EK)=\bar\Pi^{-1}(K)$ by definition, n where $E$ is the suspension.
 
 The following fact is. evident:
 
@@ -460,13 +448,13 @@ An important example. Let$X = P = ( S ^ { n } , * )$. Then the spectrum$H _ { n 
 
 The J-functor of Atiyah is the image of$\bar { K } ( L ) \stackrel { \cdot } { \longrightarrow } \Pi ^ { 0 } ( L )$in our case$X = P .$In particular, in an S-category$L = E ^ { 2 } L ^ { \prime }$we have that$\Pi ^ { 0 } ( L )$is$P ^ { * } ( L )$; in the case $L = E L ^ { \prime } , \Pi ^ { 0 } ( L )$depends on the multiplication in$P ^ { * } ( L ^ { \prime } )$
 
-Besides the enumerated facts relating to the S-category of finite complexes one should also mention the existence of an anti-automorphism$\sigma \colon S  S$of this$S _ { - }$ category which associates to a complex X its S-dual complex (complement in a sphere of high dimension). The operator σ induces
+Besides the enumerated facts relating to the S-category of finite complexes one should also mention the existence of an anti-automorphism $\sigma:S\to S$ of this $S_-$ category which associates to a complex $X$ its $S$-dual complex (complement in a sphere of high dimension). The operator $\sigma$ induces
 
 $$
 \sigma \colon \overrightarrow {S} \to \overleftarrow {S}, \quad \sigma \colon \overleftarrow {S} \to \overrightarrow {S}, \quad \sigma^ {2} = 1.
 $$
 
-Since$\operatorname { H o m } ( X , Y ) = \operatorname { H o m } ( \sigma Y , \sigma X )$and$\sigma X$is a homology theory in$\overleftarrow { S }$if X is a cohomology theory, then the duality law of Alexander–Pontrjagin is, obviously, the equality$X ^ { * } ( K ) = \sigma X _ { * } ( \sigma K )$, and by an X-homology manifold is meant a complex $K$such that$X ^ { i } ( K ) = \sigma K _ { n - i } ( K )$in the presence of some natural identification of$\sigma X _ { * } ( K )$with$\sigma X _ { * } ( \sigma K )$; for example, if K is a smooth manifold, then$\sigma ( K )$ according to Atiyah [6] is the spectrum of the Thom complex of the normal bundle in a sphere. In the presence of a functorial Thom isomorphism in$X ^ { * } .$-theory for some class of manifolds, we obtain Poincar´e–Atiyah duality.
+Since $\operatorname{Hom}(X,Y)=\operatorname{Hom}(\sigma Y,\sigma X)$ and $\sigma X$ is a homology theory in $\overleftarrow S$ if $X$ is a cohomology theory, then the duality law of Alexander–Pontrjagin is, obviously, the equality $X^*(K)=\sigma X_*(\sigma K)$, and by an $X$-homology manifold is meant a complex $K$ such that $X^i(K)=\sigma K_{n-i}(K)$ in the presence of some natural identification of $\sigma X_*(K)$ with $\sigma X_*(\sigma K)$; for example, if $K$ is a smooth manifold, then $\sigma(K)$ according to Atiyah [6] is the spectrum of the Thom complex of the normal bundle in a sphere. In the presence of a functorial Thom isomorphism in $X^*$-theory for some class of manifolds, we obtain Poincaré–Atiyah duality.
 
 Let$X \in \vec { S } , Y \in S , T \in \overleftarrow { S }$. In$\ S \ O 1$we constructed the Adams spectral sequence with$E _ { 2 }$term equal to Ex$^ { * * } _ { A ^ { X } } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$.
 
@@ -490,21 +478,21 @@ Proof. Since each${ \tilde { X } } \cdot$-free acyclic resolution is at the same
 
 From the lemma follows
 
-Corollary 2.1. For any stable Noetherian acyclic cohomology theory$X \in { \vec { S } }$and any$Y \in S$and$T \in S$, all groups Ex$\mathsf { t } _ { A ^ { X } } ^ { s t } ( X ^ { * } ( Y ) , X ^ { * } ( T ) ) \otimes _ { Z } \bar { Q } = 0$for$s > 0$
+Corollary 2.1. For any stable Noetherian acyclic cohomology theory $X\in\vec S$ and any $Y,T\in S$, all groups $\operatorname{Ext}_{A^X}^{s,t}(X^*(Y),X^*(T))\otimes_ZQ=0$ for $s>0$.
 
-Proof. Since a stable spectrum$X$in the category$S _ { 0 } = S \otimes _ { Z } Q$is equivalent to a sum $\sum E ^ { \gamma _ { i } } K ( Z )$of Eilenberg–MacLane spectra for$\pi = Z$, and since for$X ^ { \prime } = K ( Z )$ the ring$A ^ { X ^ { \prime } } \otimes _ { Z } Q$is trivial, it follows that all$\mathrm { E x t } _ { A ^ { x } } ^ { s } ( \ r , \mathbf { \alpha } ) \otimes _ { Z } Q = 0$for$s > 0$, since $\mathrm { E x t } _ { A ^ { X ^ { \prime } } } ^ { s } \otimes _ { Z } Q ( \ , \ ) = 0$for$s > 0$and by virtue of Lemma 2.2.
+Proof. Since a stable spectrum $X$ in the category $S_0=S\otimes_ZQ$ is equivalent to a sum $\sum E^{\gamma_i}K(Z)$ of Eilenberg–MacLane spectra for $\pi=Z$, and since for $X'=K(Z)$ the ring $A^{X'}\otimes_ZQ$ is trivial, it follows that all $\operatorname{Ext}_{A^X}^{s}(\ ,\ )\otimes_ZQ=0$ for $s>0$, since $\operatorname{Ext}_{A^{X'}}^{s}\otimes_ZQ(\ ,\ )=0$ for $s>0$ and by virtue of Lemma 2.2.
 
 ## § 3. Important examples of cohomology and homology theories. Convergence and some properties of Adams spectral se<sub>q</sub>uences in cobordism theory
 
 We list here the majority of the most interesting cohomology theories.
 
-1.$X = K ( \pi )$, where$X _ { n } = K ( \pi , n )$. This theory is multiplicative if π is a ring, and$X ^ { * } = H ^ { * } ( \mathbf { \Omega } , \pi )$. The case$\pi = Z _ { p }$is well known, having been studied in many works [1, 9, 15, 17, 18]. The spectral sequence was constructed by Adams in$[ 1 ]$ where its convergence was proved$( \pi = Z _ { p } )$. The ring$A ^ { X }$is the usual Steenrod algebra over$Z _ { p } .$. Here the commonly studied case is$p = 2$. The case$p > 2$was first studied in [24].<sup>3</sup>
+1. $X=K(\pi)$, where $X_n=K(\pi,n)$. This theory is multiplicative if $\pi$ is a ring, and $X^*=H^*(\ ,\pi)$. The case $\pi=Z_p$ is well known, having been studied in many works [1, 9, 15, 17, 18]. The spectral sequence was constructed by Adams in [1], where its convergence was proved ($\pi=Z_p$). The ring $A^X$ is the usual Steenrod algebra over $Z_p$. Here the commonly studied case is $p=2$. The case $p>2$ was first studied in [24].<sup>3</sup>
 
-The criterion (A) for the convergence of the Adams spectral sequence applies easily in the category$S _ { p } = S \otimes _ { Z } Q _ { p }$under the condition that$Y$is a complex with$\pi _ { i } ^ { * } ( Y ) \otimes z Q _ { p }$finite groups, in which case there is a nonacyclic resolution (the Postnikov system) which is X-free.
+The criterion (A) for the convergence of the Adams spectral sequence applies easily in the category $S_p=S\otimes_ZQ_p$ under the condition that $Y$ is a complex with $\pi_i^*(Y)\otimes_ZQ_p$ finite groups, in which case there is a nonacyclic resolution (the Postnikov system) which is $X$-free.
 
 In the case$\pi = Z$, as is easy to see, the applicability of criterion (A) in the category S itself again easily follows from the properties of the usual contractible spaces and Postnikov systems (see, for example, [16]).
 
-2. Homotopy and cohomotopy theories. Let P be the point in$S _ { ; }$, where $P _ { n } = S ^ { n }$. The theory$P _ { * }$is that of stable homotopy groups, and$P ^ { * }$that of stable cohomotopy groups. The (Eckmann–Hilton) dual of this spectrum is$K ( Z )$and the theory$H ^ { * } ( \mathbf { \theta } , Z )$. Similarly, the spectra$P _ { ( m ) } = P / m P$(m an integer) are Eckmann– Hilton duals of the spectra$K ( Z _ { m } )$
+2. Homotopy and cohomotopy theories. Let $P$ be the point in $S$, where $P_n=S^n$. The theory $P_*$ is that of stable homotopy groups, and $P^*$ that of stable cohomotopy groups. The (Eckmann–Hilton) dual of this spectrum is $K(Z)$ and the theory $H^*(\ ,Z)$. Similarly, the spectra $P_{(m)}=P/mP$ ($m$ an integer) are Eckmann–Hilton duals of the spectra $K(Z_m)$.
 
 For the homology theory$P _ { * } ( X )$the proof of convergence of the homology Adams spectral sequence with term$E _ { 2 } = \mathrm { E x t } _ { A _ { P } } ^ { * * }$is similar to the proof for the cohomology spectrum$K ( Z )$by virtue of Eckmann–Hilton duality and follows from criterion (A) of § 1.
 
@@ -520,15 +508,11 @@ Here$k ^ { i } = K ^ { i }$for$i \leq 0$for$K ^ { * }$the usual complex K-theory
 
 b) Let$k O = \left( k O _ { n } \right)$, where$\Omega ^ { 8 n } k O _ { 8 n } = B O \times Z$, and all$k O _ { n }$are (n−1)-connected. We have$k O ^ { [ i ] } = ( k O _ { n } ^ { [ i ] } )$where$\Omega ^ { 8 n } k O _ { 8 n - i } ^ { [ i ] } = B O \times Z , k O ^ { [ 0 ] } = k O$and the$k O _ { n } ^ { [ i ] }$ are$( n - 1 )$)-connected. Here i is to be taken mod 8.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p > 2</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>In Theorem 2 of the author’s work [24] there are erroneous computations, not influencing the basic results. We note also the peculiar analogues, first discovered and applied in [24], to the Steenrod powers in the cohomology of a Hopf algebra with commutative diagonal. It turns out that for all $p>2$ these “Steenrod powers” $St_p^i$ are defined and nontrivial for $i\equiv0,1\pmod{p-1}$, $i\ge0$. These peculiar operations have never been noted in more recent literature on these questions, although they are of value; for example, they reflect on the multiplicative formulas of Theorem 2 in [24] for $p>2$.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">p − 1), i ≥ 0.</span></small>
+It is easy to show that in the category $S\otimes_ZZ[1/2]$ all spectra $kO^{[i]}$ coincide up to suspension, and the spectrum $k$ is a sum of two spectra of the type $k=kO+E^2kO^{[2]}$.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>3</sup>In Theorem 2 of the author’s work [24] there are erroneous computations, not influencing the basic results. We note also the peculiar analogues, first discovered and applied in [24], to the Steenrod powers in the cohomology of a Hopf algebra with commutative diagonal. It turns out that for all these “Steenrod powers” St p<sup>i</sup> are defined and nontrivial for 1i ≡ 0, (mod These peculiar operations have never been noted in more recent literature on these questions, although they are of value; for example, they reflect on the multiplicative formulas of Theorem 2 in [24] for p > 2.p > 2.</span></small>
-
-It is easy to show that in the category$S \otimes z Z [ 1 / 2 ]$all spectra$k O ^ { [ i ] }$coincide up to suspension, and the spectrum$k$is a sum of two spectra of the type$k =$ $k O + E ^ { 2 } k O ^ { [ 2 ] }$
-
-4. Cobordism. Let$G = \left( G _ { n } \right)$be a sequence of subgroups of the groups$O _ { \alpha ( n ) }$ where$\alpha ( n + 1 ) > \alpha ( n )$and$\alpha ( n ) \to \infty { \mathrm { ~ f o r ~ } } n \to \infty$with$G _ { n } \subset G _ { n + 1 }$under the inclusion${ \cal O } _ { \alpha ( n ) } \subset { \cal O } _ { \alpha ( n + 1 ) }$There arise natural homomorphisms$B G _ { n }  B G _ { n + 1 }$ and a direct spectrum (not in the$S \mathrm { . }$-category) BG. With this spectrum BG is connected the spectrum of Thom complexes$M G = \left( M G _ { n } \right)$in the category$\vec { S } .$
+4. Cobordism. Let $G=(G_n)$ be a sequence of subgroups of the groups $O_{\alpha(n)}$, where $\alpha(n+1)>\alpha(n)$ and $\alpha(n)\to\infty$ for $n\to\infty$, with $G_n\subset G_{n+1}$ under the inclusion $O_{\alpha(n)}\subset O_{\alpha(n+1)}$. There arise natural homomorphisms $BG_n\to BG_{n+1}$ and a direct spectrum (not in the $S$-category) $BG$. With this spectrum $BG$ is connected the spectrum of Thom complexes $MG=(MG_n)$ in the category $\vec S$.
 
 Examples:
 
@@ -540,7 +524,7 @@ $$
 \begin{array}{l l} 1) & M O = \sum_ {i} E ^ {\lambda_ {i}} K (Z _ {2}); \\ 2) & M S O \otimes_ {Z} Q _ {2} = \sum_ {j} E ^ {\lambda_ {j}} K (Z) + \sum_ {q} E ^ {\mu_ {q}} K (Z _ {2}) \quad (\text { see   [17, 18, 23] }); \\ 3) & M G \otimes_ {Z} Q _ {p} = \sum_ {k} E ^ {\lambda_ {k}} M _ {(p)}, \end{array}
 $$
 
-where$H ^ { * } ( M _ { ( p ) } , Z _ { p } ) = A / \beta A + A \beta ,$A is the Steenrod algebra over$Z _ { p }$and$\beta$is the mod$p$Bokšteǐn homomorphism. This result holds for$G = S O , \boldsymbol { U } , \boldsymbol { \mathrm { S p i n } } , S p$for $p > 2 , G = U$for$p \geq 2$, and$G = S U$for$p > 2$with reduction of the number of terms$\lambda _ { k }$corresponding to certain partitions ω (see [15, 17, 18, 26])
+where $H^*(M_{(p)},Z_p)=A/(\beta A+A\beta)$, $A$ is the Steenrod algebra over $Z_p$, and $\beta$ is the mod $p$ Bokšteĭn homomorphism. This result holds for $G=SO,U,Spin,Sp$ for $p>2$, $G=U$ for $p\ge2$, and $G=SU$ for $p>2$ with reduction of the number of terms $\lambda_k$ corresponding to certain partitions $\omega$ (see [15, 17, 18, 26]).
 
 $$
 4) \quad M \operatorname{Spin} \otimes_ {Z} Q _ {2} = \sum_ {s} E ^ {\lambda_ {s}} K (Z _ {2}) + \sum_ {q} E ^ {\mu_ {q}} k O + \sum_ {l} E ^ {\delta_ {l}} k O ^ {[ 2 ]}.
@@ -550,7 +534,7 @@ Facts (1) and (2) are known, and fact (4) is given in a recent result of Anderso
 
 c)$G = T$, where$T ^ { n } = G _ { n } \subset U _ { n } \subset O _ { 2 n }$is the maximal torus. This leads to$M G ,$ again a multiplicative spectrum since$M T ^ { m + n } = M T ^ { m } \otimes M T ^ { n }$
 
-Let us mention the structure of the cohomology$M _ { ( p ) } ^ { * } ( P )$, where$P = ( S ^ { 0 } , * )$is a point,$M _ { ( o ) } ^ { * } ( P ) = Q _ { p } [ x _ { 1 } , \dots , x _ { i } , \dots ]$(polynomials over$Q _ { p } )$with dim$x _ { i } = - 2 _ { p ^ { i } } + 2$ and$M _ { ( p ) } ^ { 0 } ( P )$the scalars$Q _ { p }$
+Let us mention the structure of the cohomology $M_{(p)}^*(P)$, where $P=(S^0,*)$ is a point: $M_{(p)}^*(P)=Q_p[x_1,\dots,x_i,\dots]$ (polynomials over $Q_p$) with $\dim x_i=-2p^i+2$, and $M_{(p)}^0(P)$ the scalars $Q_p$.
 
 The ring$U ^ { * } ( P )$for$G = U$(spectrum MU) is$Z [ y _ { 1 } , \dots , y _ { i } , \dots ]$, where dim$y _ { i } =$ $- 2 i$
 
@@ -574,11 +558,11 @@ For spectra$X = M _ { ( p ) } , X = M U$we have the obvious
 
 Lemma 3.2. Let$Y \in \vec { D _ { p } }$be a stable spectrum. Then$X ^ { * } ( Y )$is a free Λ-module, where the minimal dimension of the$\Lambda { - } f r e e$generators is equal to n,$i f Y = ( Y _ { m } )$is a spectrum of$( n + m )$-connected complexes$Y _ { m }$
 
-The lemma obviously follows from the fact that in the usual spectral sequence in which$E _ { 2 } = H ^ { \ast } ( Y , X ^ { \ast } ( P ) ) = H ^ { \ast } ( Y , \Lambda )$for$X = M _ { ( p ) } , M U$all diferentials$d _ { r } = 0$ for$r \geq 2 \AA$, and the sequence converges to$X ^ { * } ( Y )$
+The lemma obviously follows from the fact that in the usual spectral sequence in which $E_2=H^*(Y,X^*(P))=H^*(Y,\Lambda)$ for $X=M_{(p)},MU$, all differentials $d_r=0$ for $r\ge2$, and the sequence converges to $X^*(Y)$.
 
 Now let Y satisfy the hypotheses of Lemma 3.2. We have
 
-Lemma 3.3. There exists an X-free acyclic resolution for${ \cal X } = { \cal M } _ { ( p ) } , { \cal M } U : { \cal Y }$ $Y _ { 0 } \gets Y _ { 1 } \gets \cdot \cdot \cdot  Y _ { i }  . . .$, where the stable spectra$Y _ { i } \in D _ { p }$are$( m + 2 i - 1 )$ connected, if Y is a stable$( m - 1 )$-connected spectrum in$\vec { D _ { p } }$. Furthermore, if $X = M _ { ( p ) }$, the spectrum$Y _ { i }$is$( m + 2 i ( p - 1 ) - 1 )$)-connected.
+Lemma 3.3. There exists an $X$-free acyclic resolution for $X=M_{(p)},MU$: $Y\leftarrow Y_0\leftarrow Y_1\leftarrow\cdots\leftarrow Y_i\leftarrow\cdots$, where the stable spectra $Y_i\in D_p$ are $(m+2i-1)$-connected, if $Y$ is a stable $(m-1)$-connected spectrum in $\vec D_p$. Furthermore, if $X=M_{(p)}$, the spectrum $Y_i$ is $(m+2i(p-1)-1)$-connected.
 
 Proof. Since Y is an$( m - 1 )$-connected stable spectrum, the minimal Λ-free generator of the module$X ^ { * } ( Y )$) has dimension m, and the set of m-dimensional Λ-free generators corresponds to the generators of the group$H ^ { m } ( Y , Q _ { p } )$
 
@@ -588,7 +572,7 @@ $$
 f _ {0 *} \colon H _ {m + k} (Y, Q _ {p}) \to H _ {m + k} (C _ {0}, Q _ {p})
 $$
 
-is an isomorphism for$k \leq 1$. Obviously$C _ { 0 }$is also$\scriptstyle ( m \mathrm { ~ - ~ } 1 ) \mathrm { - c o n n e c t e d }$. Then the object$Y _ { 0 }$such that$0  Y _ { 0 }  Y  C _ { 0 }  0$is a short exact sequence has the property that it is also a stable spectrum in$\vec { D _ { p } }$. Furthermore, since$f _ { 0 * }$is an isomorphism on the groups$H _ { m + k } ( Y , Q _ { p } )$for$k \leq 1$, the object$Y _ { 0 }$is m-connected in$\vec { D _ { p } } . \mathrm { ~ H ~ } X = M _ { ( p ) }$, then it may be shown furthermore that in constructing$C _ { 0 }$ in correspondence with Λ-free generators in$X ^ { * } ( Y )$the map$f _ { 0 * } \colon H _ { j } ( Y , Q _ { p } ) \ \to$ $H _ { j } ( C _ { 0 } , Q _ { p } )$is an isomorphism for$j \le m + 2 p - 3$and a monomorphism for$j =$ $m + 2 p - 2$
+is an isomorphism for $k\le1$. Obviously $C_0$ is also $(m-1)$-connected. Then the object $Y_0$ such that $0\to Y_0\to Y\to C_0\to0$ is a short exact sequence has the property that it is also a stable spectrum in $\vec D_p$. Furthermore, since $f_{0*}$ is an isomorphism on the groups $H_{m+k}(Y,Q_p)$ for $k\le1$, the object $Y_0$ is $m$-connected in $\vec D_p$. If $X=M_{(p)}$, then it may be shown furthermore that in constructing $C_0$ in correspondence with $\Lambda$-free generators in $X^*(Y)$ the map $f_{0*}:H_j(Y,Q_p)\to H_j(C_0,Q_p)$ is an isomorphism for $j\le m+2p-3$ and a monomorphism for $j=m+2p-2$.
 
 Therefore$Y _ { 0 }$will be$( m + 2 p - 3 )$-connected if$Y$is$( m - 1 )$-connected. The result for$X = M U$in the category D is obtained by substituting the minimal$p = 2$. This process we continue further, and obviously obtain the desired filtration. The lemma is proved.
 
@@ -596,9 +580,9 @@ Now let$T \in S$be a finite complex. By virtue of Lemma 3.3 we have that Hom${ }
 
 From these lemmas follows
 
-Theorem 3.1. For any stable$( m - 1 )$-connected spectrum$Y \in { \vec { D } } \subset S , X = M U$ and any finite complex$T \in S$of dimension n, the Adams spectral sequence$( E _ { r } , d _ { r } )$ with term$E _ { 2 } = \mathrm { E x t } _ { A ^ { x } } ^ { * * } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$exists and converges exactly to Hom${ } ^ { * } ( T , Y ) ;$ moreover Ex$\mathsf { t } _ { A ^ { X } } ^ { s , t } ( X ^ { * } ( Y ) , X ^ { * } ( T ) ) = 0 \ f o r \ t - s < s + m - n$. Furthermore, the$p \mathrm { - }$ primary part$\mathrm { E x t } _ { A ^ { x } } ^ { s , t } ( X ^ { * } ( Y ) , X ^ { * } ( T ) ) \otimes _ { Z } Q _ { p } = 0 f o r t < 2 s ( p - 1 ) + m - n$
+Theorem 3.1. For any stable $(m-1)$-connected spectrum $Y\in\vec D\subset S$, $X=MU$, and any finite complex $T\in S$ of dimension $n$, the Adams spectral sequence $(E_r,d_r)$ with term $E_2=\operatorname{Ext}_{A^X}^{**}(X^*(Y),X^*(T))$ exists and converges exactly to $\operatorname{Hom}^*(T,Y)$; moreover, $\operatorname{Ext}_{A^X}^{s,t}(X^*(Y),X^*(T))=0$ for $t-s<s+m-n$. Furthermore, the $p$-primary part $\operatorname{Ext}_{A^X}^{s,t}(X^*(Y),X^*(T))\otimes_ZQ_p=0$ for $t<2s(p-1)+m-n$.
 
-The proof follows immediately from the fact that if T is an n-dimensional complex and$Y$is a k-connected spectrum, then Ho$\mathrm { n } _ { A ^ { x } } ^ { i } ( X ^ { * } ( Y ) , X ^ { * } ( T ) ) = 0$for $i < k - n$and from Lemma 3.3 for$X = M U$
+The proof follows immediately from the fact that if $T$ is an $n$-dimensional complex and $Y$ is a $k$-connected spectrum, then $\operatorname{Hom}_{A^X}^{i}(X^*(Y),X^*(T))=0$ for $i<k-n$, and from Lemma 3.3 for $X=MU$.
 
 The statement about the p-components of the groups Ext follows from Lemma 3.3 for the spectrum$M _ { ( p ) }$, since
 
@@ -610,21 +594,21 @@ The theorem is proved.
 
 Note that for$X = M U , M _ { ( p ) }$, stable spectra$Y$and finite complexes$T _ { : }$, all groups $\operatorname { E x t } _ { A ^ { X } } ^ { s , t }$are torsion groups for$s > 0 ,$, as derived in$\ S ~ 2$
 
-Let$X = { \cal M } _ { ( p ) } , Y \in \vec { D _ { p } }$be a stable spectrum, and$T \in S \otimes _ { Z } Q _ { p }$, where the cohomology$H ^ { * } ( Y , Q _ { p } )$) and$H ^ { * } ( T , Q _ { p } )$is diferent from zero only in dimensions of the form$2 k ( p - 1 )$
+Let $X=M_{(p)}$, $Y\in\vec D_p$ be a stable spectrum, and $T\in S\otimes_ZQ_p$, where the cohomology $H^*(Y,Q_p)$ and $H^*(T,Q_p)$ is different from zero only in dimensions of the form $2k(p-1)$.
 
 Under these hypotheses we have
 
-Theorem 3.2. a) The groups Hom$\mathfrak { i } _ { A ^ { x } } ^ { i } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$) are diferent from zero only $f o r i \equiv 0$mod$2 p - 2 ;$
+Theorem 3.2. a) The groups $\operatorname{Hom}_{A^X}^{i}(X^*(Y),X^*(T))$ are different from zero only for $i\equiv0\pmod{2p-2}$;
 
 b)$A ^ { X }$is a graded ring in which elements are non-zero only in dimensions of the form$2 k ( p - 1 )$;
 
-c) The groups$\mathrm { E x t } _ { A ^ { x } } ^ { s , t } ( X ^ { * } ( Y ) , X ^ { * } ( T ) )$are diferent from zero only for$t ~ \equiv ~ 0$ mod$2 p - 2$;
+c) The groups $\operatorname{Ext}_{A^X}^{s,t}(X^*(Y),X^*(T))$ are different from zero only for $t\equiv0\pmod{2p-2}$;
 
-d) In the Adams spectral sequence$( E _ { r } , d _ { r } )$all diferentials d are equal to zero $f o r \ r \not \equiv 1$mod$2 p - 2$
+d) In the Adams spectral sequence $(E_r,d_r)$ all differentials $d_r$ are equal to zero for $r\not\equiv1\pmod{2p-2}$.
 
-Proof. Since the ring$X ^ { * } ( P ) \ ( P \mathrm { a } \mathrm { p o i n t } )$is nontrivial only in dimensions of the form $2 k ( p - 1 )$, statement (b) follows from Lemma 3.1. Statement (a) follows from (b) and the hypotheses on$X ^ { * } ( T )$. From (b) it follows that it is possible to construct an A<sup>x</sup>-free acyclic resolution for$X ^ { * } ( Y )$in which generators are all of dimensions divisible by$2 p - 2$. From this (c) follows. Statement (d) comes from (c) and the fact that$\begin{array} { r } { \dot { d } _ { r } ( \hat { E } _ { r } ^ { s , t } ) \subset E _ { r } ^ { s + r , t + r - 1 } } \end{array}$. Q.E.D.
+Proof. Since the ring $X^*(P)$ ($P$ a point) is nontrivial only in dimensions of the form $2k(p-1)$, statement (b) follows from Lemma 3.1. Statement (a) follows from (b) and the hypotheses on $X^*(T)$. From (b) it follows that it is possible to construct an $A^X$-free acyclic resolution for $X^*(Y)$ in which generators are all of dimensions divisible by $2p-2$. From this (c) follows. Statement (d) comes from (c) and the fact that $d_r(E_r^{s,t})\subset E_r^{s+r,t+r-1}$. Q.E.D.
 
-Corollary 3.1. For$X = M U , Y = P , T = P$the groups$\mathrm { E x t } _ { A ^ { x } } ^ { s , t } ( X ^ { * } ( P ) , X ^ { * } ( P ) ) \otimes _ { Z }$ $Q _ { p } = 0 \ f o r \ t < 2 s ( p - 1 )$and$f o r t \not \equiv 0$mod$2 p - 2$, and the diferentials$d _ { r }$on the groups$E _ { r } \otimes _ { Z } Q _ { p }$are equal to zero$f o r \ r \not \equiv 1$mod$2 p - 2$
+Corollary 3.1. For $X=MU$, $Y=P$, $T=P$, the groups $\operatorname{Ext}_{A^X}^{s,t}(X^*(P),X^*(P))\otimes_ZQ_p=0$ for $t<2s(p-1)$ and for $t\not\equiv0\pmod{2p-2}$, and the differentials $d_r$ on the groups $E_r\otimes_ZQ_p$ are equal to zero for $r\not\equiv1\pmod{2p-2}$.
 
 From now on we always denote the cohomology$X ^ { * }$for$X = M U$by$U ^ { * }$and the Steenrod ring$A ^ { X }$by$A ^ { U }$. In the next section this ring will be completely calculated.
 
@@ -632,9 +616,9 @@ As for the question about the existence of the Adams spectral sequence in the th
 
 ## Lemma 3.4. The cohomology theory$U ^ { * }$is stable, Noetherian, and acyclic.
 
-Proof. The stability of the spectrum$M U = \left( M U _ { n } \right)$is obvious. Let$T$be a finite complex. We shall prove that$U ^ { * } ( T )$is finitely generated as a Λ-module, so of course as an$A ^ { U }$-module, where$\Lambda = U ^ { * } ( { \dot { P } } ) \subset A ^ { U }$. Consider the spectral sequence$( E _ { r } , d _ { r } )$ with term$E _ { 2 } = H ^ { * } ( T , \Lambda )$, converging to$U ^ { * } ( T )$. Since$T$is a finite complex, in this spectral sequence only a finite number of diferentials$d _ { r } , \ldots , d _ { k }$are diferent from zero,$d _ { i } = 0$for$i > k$. Note that all$d _ { r }$commute with Λ, and$E _ { \infty }$as a Λ-module is associated with$U ^ { * } ( T )$, where$E _ { \infty } = E _ { k }$. The generators of the Λ-module$E _ { 2 }$ in$H ^ { * } ( T , Z ) ; \Lambda ^ { 0 } = Z$and they are finite in number:$u _ { 1 } ^ { ( r ) } , \ldots , u _ { l _ { r } } ^ { ( r ) } \in E _ { 2 } ^ { * , 0 }$. Note that$d _ { r } ( E _ { r } ^ { p , q } ) \subset E _ { r } ^ { p + r , q - r + 1 }$. Denote by$\Lambda _ { N } \subset \Lambda$the subring of polynomials in generators of dimension$\leq 2 N$$\Lambda = U ^ { * } ( P ) = \Omega _ { U }$. The ring$\Lambda _ { N }$is Noetherian. Similarly, let$\Lambda ^ { N } \subset \Lambda$be the subring of polynomials in generators of dimension $> 2 N$. Obviously,$\Lambda = \Lambda _ { N } \otimes _ { Z } \Lambda ^ { N }$and Λ has no torsion.
+Proof. The stability of the spectrum $MU=(MU_n)$ is obvious. Let $T$ be a finite complex. We shall prove that $U^*(T)$ is finitely generated as a $\Lambda$-module, so of course as an $A^U$-module, where $\Lambda=U^*(P)\subset A^U$. Consider the spectral sequence $(E_r,d_r)$ with term $E_2=H^*(T,\Lambda)$, converging to $U^*(T)$. Since $T$ is a finite complex, in this spectral sequence only a finite number of differentials $d_r,\ldots,d_k$ are different from zero, $d_i=0$ for $i>k$. Note that all $d_r$ commute with $\Lambda$, and $E_\infty$ as a $\Lambda$-module is associated with $U^*(T)$, where $E_\infty=E_k$. The generators of the $\Lambda$-module $E_2$ lie in $H^*(T,Z)$; $\Lambda^0=Z$, and they are finite in number: $u_1^{(r)},\ldots,u_{l_r}^{(r)}\in E_2^{*,0}$. Note that $d_r(E_r^{p,q})\subset E_r^{p+r,q-r+1}$. Denote by $\Lambda_N\subset\Lambda$ the subring of polynomials in generators of dimension $\le2N$; $\Lambda=U^*(P)=\Omega_U$. The ring $\Lambda_N$ is Noetherian. Similarly, let $\Lambda^N\subset\Lambda$ be the subring of polynomials in generators of dimension $>2N$. Obviously, $\Lambda=\Lambda_N\otimes_Z\Lambda^N$ and $\Lambda$ has no torsion.
 
-Assume, by induction, that the Λ-module$E _ { r }$has a finite number of Λ-generators $u _ { 1 } ^ { ( r ) } , \ldots , u _ { l _ { r } } ^ { ( r ) }$and there exists a number$N _ { r }$such that$E _ { r } = \tilde { E } _ { r } \otimes _ { Z } \Lambda ^ { N _ { r } }$, where$\tilde { E } _ { r }$is a Λ -module with the finite number of generators$u _ { 1 } ^ { ( r ) } , \ldots , u _ { l _ { r } } ^ { ( r ) }$, above. Consider $d _ { r } ( u _ { j } ^ { ( r ) } ) = \sum _ { k } \lambda _ { k j } ^ { ( r ) } u _ { k } ^ { ( r ) }$, where$\lambda _ { k j } ^ { ( r ) } \in \Lambda$. Let dim$\lambda _ { k j } ^ { ( r ) } \le \tilde { N } _ { r }$for all$k , j$. Set$N _ { r + 1 } =$ $\mathrm { M a x } ( \tilde { N } _ { r } , N _ { r } )$. Then$\lambda _ { k j } ^ { ( r ) } \in \Lambda _ { N _ { r + 1 } } . \mathrm { ~ B y ~ }$virtue of the Noetherian property of the ring $\Lambda _ { N _ { r + 1 } }$, the module$H ( \tilde { E } _ { r } \otimes _ { Z } \Lambda _ { N _ { r } } ^ { N _ { r + 1 } } , d _ { r } )$is finitely generated, where$\Lambda _ { N _ { \eta } }$is generated by polynomial generators of dimension$N _ { r } < k \le N _ { r + 1 }$<sub>1</sub> and$\Lambda _ { N _ { r } } ^ { N _ { r + 1 } } \otimes _ { Z } \Lambda ^ { N _ { r + 1 } } = \Lambda ^ { N _ { r } }$ Since
+Assume, by induction, that the $\Lambda$-module $E_r$ has a finite number of $\Lambda$-generators $u_1^{(r)},\ldots,u_{l_r}^{(r)}$ and there exists a number $N_r$ such that $E_r=\tilde E_r\otimes_Z\Lambda^{N_r}$, where $\tilde E_r$ is a $\Lambda_{N_r}$-module with the finite number of generators $u_1^{(r)},\ldots,u_{l_r}^{(r)}$, above. Consider $d_r(u_j^{(r)})=\sum_k\lambda_{kj}^{(r)}u_k^{(r)}$, where $\lambda_{kj}^{(r)}\in\Lambda$. Let $\dim\lambda_{kj}^{(r)}\le\tilde N_r$ for all $k,j$. Set $N_{r+1}=\max(\tilde N_r,N_r)$. Then $\lambda_{kj}^{(r)}\in\Lambda_{N_{r+1}}$. By virtue of the Noetherian property of the ring $\Lambda_{N_{r+1}}$, the module $H(\tilde E_r\otimes_Z\Lambda_{N_r}^{N_{r+1}},d_r)$ is finitely generated, where $\Lambda_{N_r}^{N_{r+1}}$ is generated by polynomial generators of dimension $N_r<k\le N_{r+1}$ and $\Lambda_{N_r}^{N_{r+1}}\otimes_Z\Lambda^{N_{r+1}}=\Lambda^{N_r}$. Since
 
 $$
 \begin{array}{c} H (E _ {r}, d _ {r}) = E _ {r + 1} = H (\tilde {E} _ {r} \otimes_ {Z} \Lambda^ {N _ {r}}, d _ {r}) = H (\tilde {E} _ {r} \otimes_ {Z} \Lambda_ {N _ {r}} ^ {N _ {r + 1}} \otimes \Lambda^ {N _ {r + 1}}, d _ {r}) \\ = H (\tilde {E} _ {r} \otimes \Lambda_ {N _ {r}} ^ {N _ {r + 1}}, d _ {r}) \otimes \Lambda^ {N _ {r + 1}}, \end{array}
@@ -644,17 +628,17 @@ if we set$\tilde { E } _ { r + 1 } = H ( \tilde { E } _ { r } \otimes \Lambda _ 
 
 Taking$N _ { 2 } = 0 .$, we complete the induction, since for some$k , E _ { k } = E _ { \infty }$is a finitely generated Λ-module. Therefore the module$U ^ { * } ( T )$is finitely generated and the theory$U ^ { * }$is Noetherian.
 
-Let us prove the acyclicity of the theory$U ^ { * }$in the sense of § 1. Since the$( 4 n - 2 ) \cdot$ skeletons$X _ { 2 n }$of the complexes$M U _ { n }$do not have torsion, by virtue of the lemma for these complexes in the category D the spectral sequence exists; moreover, the module$U ^ { * } ( X _ { 2 n } )$is a cyclic$A ^ { \check { U } } .$-module with generator of dimension 2n and with the single relation that all elements of filtration$\geq 2 n$in the ring$A ^ { U }$annihilate the generator. From this and the lemma it follows that Ex$\bar { \iota } _ { A ^ { U } } ^ { i , t } ( \bar { U ^ { * } } ( X _ { 2 n } ) ) = 0$for $t < 2 n - \mathrm { d i m } T$, and Hom$\mathsf { \Phi } _ { A } ^ { * } \upsilon \left( U ^ { * } ( X _ { 2 n } ) , \mathbf { \Phi } \right) = \mathrm { H o m } ^ { * } ( \mathbf { \Phi } , X _ { 2 n } ) \mathbf { \Phi } = \mathrm { H o m } ^ { * } ( \mathbf { \Phi } , X )$in the same dimensions. From this the lemma follows easily.
+Let us prove the acyclicity of the theory $U^*$ in the sense of § 1. Since the $(4n-2)$-skeletons $X_{2n}$ of the complexes $MU_n$ do not have torsion, by virtue of the lemma for these complexes in the category $D$ the spectral sequence exists; moreover, the module $U^*(X_{2n})$ is a cyclic $A^U$-module with generator of dimension $2n$ and with the single relation that all elements of filtration $\ge2n$ in the ring $A^U$ annihilate the generator. From this and the lemma it follows that $\operatorname{Ext}_{A^U}^{i,t}(U^*(X_{2n}))=0$ for $t<2n-\dim T$, and $\operatorname{Hom}_{A^U}^*(U^*(X_{2n}),\ )=\operatorname{Hom}^*(\ ,X_{2n})=\operatorname{Hom}^*(\ ,X)$ in the same dimensions. From this the lemma follows easily.
 
 Lemma 3.4 implies
 
-Theorem 3.3. For any$Y , T \in S$there exists an Adams spectral sequence$( E _ { r } , d _ { r } )$ with term$E _ { r } = \mathrm { E x t } _ { A ^ { U } } ^ { * * } ( U ^ { * } ( Y ) , U ^ { * } ( T ) )$).
+Theorem 3.3. For any $Y,T\in S$ there exists an Adams spectral sequence $(E_r,d_r)$ with term $E_r=\operatorname{Ext}_{A^U}^{**}(U^*(Y),U^*(T))$.
 
 A. S. Miˇsˇcenko proved the convergence of this spectral sequence to${ \mathrm { H o m } } ^ { * } ( T , Y )$ (see [16]).
 
 ## § 4. O-cobordism and the ordinary Steenrod algebra modulo 2
 
-As an illustration of our method of describing the Steenrod ring$A ^ { U }$(see$\ S \ S \ 5$ 6) we exhibit it first in the simple case of the theory$O ^ { * }$, defined by the spectrum $M O$isomorphic to the direct sum$M O = \sum _ { \omega } E ^ { \lambda _ { \omega } } \dot { K } ( Z _ { 2 } )$, where$\omega = ( a _ { 1 } , \ldots , a _ { s } )$ $\begin{array} { r } { \sum a _ { i } = \lambda _ { \omega } , \ a _ { i } \ne 2 ^ { j } - 1 , \ \mathrm { o r } \ \omega = 0 } \end{array}$. The Steenrod ring$A ^ { O }$is an algebra over the field$Z _ { 2 }$. Let A be the ordinary Steenrod algebra. The simplest description of the algebra$A ^ { O }$is the following:$A ^ { O } = G L ( A )$consists of infinite matrices $a = \left( a _ { \omega , \omega ^ { \prime } } \right)$, where$\omega , \omega ^ { \prime }$are nondyadic partitions$( a _ { 1 } , \hdots , a _ { s } ) , ( a _ { r } ^ { \prime } , \hdots , a _ { s } ^ { \prime } ) , a _ { \omega , \omega ^ { \prime } } \in A$ and dim$a = \lambda _ { \omega } - \lambda _ { \omega ^ { \prime } } + \dim a _ { \omega , \omega ^ { \prime } }$is the dimension of the matrix. The ring$G L ( A )$ is, by definition, a graded ring. This describes the ring$A ^ { O }$more generally for all spectra of the form$\sum E ^ { \lambda _ { \omega } } K ( Z _ { 2 } )$
+As an illustration of our method of describing the Steenrod ring $A^U$ (see §§ 5, 6), we exhibit it first in the simple case of the theory $O^*$, defined by the spectrum $MO$ isomorphic to the direct sum $MO=\sum_\omega E^{\lambda_\omega}K(Z_2)$, where $\omega=(a_1,\ldots,a_s)$, $\sum a_i=\lambda_\omega$, $a_i\ne2^j-1$, or $\omega=0$. The Steenrod ring $A^O$ is an algebra over the field $Z_2$. Let $A$ be the ordinary Steenrod algebra. The simplest description of the algebra $A^O$ is the following: $A^O=GL(A)$ consists of infinite matrices $a=(a_{\omega,\omega'})$, where $\omega,\omega'$ are nondyadic partitions $(a_1,\ldots,a_s),(a'_r,\ldots,a'_s)$, $a_{\omega,\omega'}\in A$, and $\dim a=\lambda_\omega-\lambda_{\omega'}+\dim a_{\omega,\omega'}$ is the dimension of the matrix. The ring $GL(A)$ is, by definition, a graded ring. This describes the ring $A^O$ more generally for all spectra of the form $\sum E^{\lambda_\omega}K(Z_2)$.
 
 In the ring$G L ( A )$we have a projection operator π such that$\pi A ^ { O } \pi = A , \pi ^ { 2 } = 1$ $\pi \in A ^ { O } = G L ( A )$
 
@@ -690,7 +674,7 @@ $$
 
 by setting$\mathrm { S q } ^ { \omega } ( u ) = \phi ( \tilde { W } _ { \omega } )$, where$\tilde { W } _ { \omega } \in O ^ { * } ( B O _ { n } )$
 
-Under the homomorphism$i ^ { * } \cdot j ^ { * } \colon O ^ { * } ( M O _ { n } ) \to O ^ { * } ( B O _ { n } ) \to O ^ { * } \left( \prod _ { k = 1 } ^ { n } R P _ { k } ^ { \infty } \right)$ the element$u \ : = \ : \phi ( 1 )$goes into$i ^ { * } j ^ { * } ( u ) \ = \ u _ { 1 } \dots u _ { n } .$, where$u _ { i } ~ \in ~ O ^ { 1 } ( R P _ { i } ^ { \infty } )$is the class$\tilde { W } _ { 1 } ( \xi _ { i } ) , \xi _ { i }$the canonical O -bundle over$R P _ { i } ^ { \infty } ,$, defined above, and $\operatorname { S q } ^ { \omega } ( u _ { 1 } \dots . . u _ { n } ) = S ^ { \omega } ( u _ { 1 } , \dots , u _ { n } ) u _ { 1 } \dots . . u _ { n }$, where$S _ { \omega }$is the symmetrized monomial $\sum u _ { 1 } ^ { \dot { a } _ { 1 } } \ldots u _ { s } ^ { { a } _ { s } } , s \leq n$
+Under the homomorphism $i^*j^*:O^*(MO_n)\to O^*(BO_n)\to O^*(\prod_{k=1}^nRP_k^\infty)$, the element $u:=\phi(1)$ goes into $i^*j^*(u)=u_1\cdots u_n$, where $u_i\in O^1(RP_i^\infty)$ is the class $\tilde W_1(\xi_i)$, $\xi_i$ the canonical $O$-bundle over $RP_i^\infty$, defined above, and $\operatorname{Sq}^{\omega}(u_1\cdots u_n)=S^{\omega}(u_1,\dots,u_n)u_1\cdots u_n$, where $S_\omega$ is the symmetrized monomial $\sum u_1^{a_1}\cdots u_s^{a_s}$, $s\le n$.
 
 There is defined the subset$\mathrm { M a p } ( X , M O _ { 1 } ) \subset O ^ { 1 } ( X )$and a (non-additive) map $\gamma \colon O ^ { 1 } ( X ) \to H ^ { 1 } ( X , Z _ { 2 } ) \to \operatorname { M a p } ( X , M O _ { 1 } )$, where$\varepsilon \colon O ^ { * } \to H ^ { * } ( \ , Z _ { 2 } )$is the natural homomorphism {defined by the Thom class}. The operations$\operatorname { S q } ^ { \omega }$have the following
 
@@ -700,7 +684,7 @@ $$
 \mathrm{a}) \quad \operatorname{Sq} ^ {\omega} (x y) = \sum_ {(\omega_ {1}, \omega_ {2}) = \omega} \operatorname{Sq} ^ {\omega_ {1}} (x) \operatorname{Sq} ^ {\omega_ {2}} (y);
 $$
 
-b) if$x = \gamma ( x ^ { 1 } )$, then$\mathrm { S q } ^ { \omega } ( x ) = 0 , \omega \neq ( k )$and$\mathrm { S q } ^ { k } ( x ) = x ^ { k + 1 }$;
+b) if $x=\gamma(x_1)$, then $\operatorname{Sq}^{\omega}(x)=0$ for $\omega\ne(k)$ and $\operatorname{Sq}^k(x)=x^{k+1}$;
 
 c) the composition$\mathrm { S q } ^ { \omega _ { 1 } } \circ \mathrm { S q } ^ { \omega _ { 2 } }$is a linear combination of the form$\sum \lambda _ { \omega } \mathrm { S q } ^ { \omega }$ $\lambda _ { \omega } ~ \in ~ Z _ { 2 }$, which can be calculated on$u ~ = ~ \phi ( 1 ) ~ \in ~ O ^ { * } ( M O _ { n } )$or on$i ^ { * } j ^ { * } ( u ) =$ $u _ { 1 } \ldots u _ { n } \in O ^ { * } ( R P _ { 1 } ^ { \infty } \times \cdots \times R P _ { n } ^ { \infty } ) , u _ { i } \in$Im γ;
 
@@ -712,19 +696,19 @@ $$
 
 where ∧ means completion and$S$is the ring spanned by all$\operatorname { S q } ^ { \omega }$.
 
-We note that the set of all$\operatorname { S q } ^ { \omega }$such that$\omega = ( a _ { 1 } , \ldots , a _ { s } )$, where$a _ { 1 } = 2 ^ { j } - 1$9 is closed under composition and forms a subalgebra isomorphic to the Steenrod algebra$A \subset S \subset A ^ { O }$
+We note that the set of all $\operatorname{Sq}^{\omega}$ such that $\omega=(a_1,\ldots,a_s)$, where $a_1=2^j-1$, is closed under composition and forms a subalgebra isomorphic to the Steenrod algebra $A\subset S\subset A^O$.
 
 How does one compute a composition of the form$\operatorname { S q } ^ { \omega }$◦α, where$\alpha \in \Lambda ?$We shall indicate here without proof a formula for this (which will be basic in$\ S \ 5 ,$ where the ring$A ^ { U }$is computed).
 
 Let$( X , \xi )$be a pair (a closed manifold and a vector bundle$\xi )$, considered up to cobordism of pairs, i.e.$( X , \xi ) \in O ^ { * } ( B O )$. In particular,$\mathrm { i f } \ \xi = - \tau _ { X }$, where$\tau _ { X }$is the tangent bundle, then the pair$( X , \xi ) \in \Omega _ { O } = O _ { * } ( P )$
 
-We define operators (“diferentiations”)
+We define operators (“differentiations”)
 
 $$
 \begin{array}{c} W _ {\omega} ^ {*} \colon O ^ {*} (B O) \to O ^ {*} (B O), \\ W _ {\omega} ^ {*} \colon \Omega_ {O} \to \Omega_ {O}, \end{array}
 $$
 
-by setting$W _ { \omega } ^ { * } ( X , \xi ) = ( Y _ { \omega } , f _ { \omega } ^ { * } ( \xi + \tau _ { X } ) - \tau _ { Y _ { \omega } } )$, where$( Y _ { \omega } , f _ { \omega } : Y _ { \omega }  X )$is$D \tilde { W } _ { \omega } ( \boldsymbol { \xi } ) \in$ $O _ { * } ( X )$
+by setting $W_\omega^*(X,\xi)=(Y_\omega,f_\omega^*(\xi+\tau_X)-\tau_{Y_\omega})$, where $(Y_\omega,f_\omega:Y_\omega\to X)$ is $D\widetilde W_\omega(\xi)\in O_*(X)$.
 
 We also have multiplication operators
 
@@ -788,19 +772,19 @@ $$
 
 The homomorphisms$\partial ^ { * }$and$\Delta ^ { * } \colon \Omega _ { O }  \Omega _ { O }$coincide with the homomorphisms of Rohlin [20], [21] and Wall [23].
 
-We consider the complex Hom$\mathfrak { l } _ { A ^ { o } } ^ { * } ( C , O ^ { * } ( P ) )$with diferential$d ^ { * }$defined by the operators$\partial ^ { * }$and$\Delta ^ { * }$on$O ^ { * } ( P )$≈ Ω. The homology of this complex is naturally isomorphic to$\mathrm { E x t } _ { A ^ { o } } ^ { * * } ( O ^ { * } ( M S O ) , O ^ { * } ( P ) )$) or the$E _ { 2 }$term of the Adams spectral sequence.
+We consider the complex $\operatorname{Hom}_{A^O}^*(C,O^*(P))$ with differential $d^*$ defined by the operators $\partial^*$ and $\Delta^*$ on $O^*(P)\cong\Omega$. The homology of this complex is naturally isomorphic to $\operatorname{Ext}_{A^O}^{**}(O^*(MSO),O^*(P))$, or the $E_2$ term of the Adams spectral sequence.
 
 It is possible to prove the following:
 
-1) all Adams diferentials are zero;
+1) all Adams differentials are zero;
 
-2)$\operatorname { E x t } _ { A ^ { o } } ^ { 0 , * } ( O ^ { * } ( M S O ) , O ^ { * } ( P ) ) = \Omega _ { S O } / 2 \Omega _ { S O } \subset \Omega _ { O }$where$\Omega _ { S O } / 2 \Omega _ { S O } = \mathrm { K e r } \partial ^ { * } \cap$ Ker$\Delta ^ { * }$by definition of the complex$C ;$
+2) $\operatorname{Ext}_{A^O}^{0,*}(O^*(MSO),O^*(P))=\Omega_{SO}/2\Omega_{SO}\subset\Omega_O$, where $\Omega_{SO}/2\Omega_{SO}=\ker\partial^*\cap\ker\Delta^*$ by definition of the complex $C$.
 
 3)$\mathrm { E x t } _ { A ^ { O } } ^ { i , i + s } = 0 , \mathrm { f o r } s \neq 4 k ;$
 
 4)$\mathrm { E x t } _ { A ^ { O } } ^ { i , i + 4 k } ( O ^ { \ast } ( M S O ) , O ^ { \ast } ( P ) )$is isomorphic to$Z _ { 2 } + \cdots + Z _ { 2 }$, where the number of summands is equal to the number of partitions of k into positive summands $( k _ { 1 } , \ldots , k _ { s } ) , \sum k _ { i } = k ;$
 
-5) there exists an element$h _ { 0 } \in \mathrm { E x t } _ { A ^ { o } } ^ { 1 , 1 }$associated with multiplication by 2 in$E _ { \infty } ,$ such that$\mathrm { E x t } _ { A ^ { O } } ^ { 0 , t } \xrightarrow { h _ { 0 } } \mathrm { E x t } _ { A ^ { O } } ^ { 1 , t + 1 }$is an epimorphism,$t = 4 k$, and$\operatorname { E x t } _ { A } ^ { i , t } \xrightarrow { h _ { 0 } } \operatorname { E x t } _ { A } ^ { i + 1 }$,t+1 is an isomorphism,$i \geq 1$
+5) There exists an element $h_0\in\operatorname{Ext}_{A^O}^{1,1}$ associated with multiplication by 2 in $E_\infty$, such that $\operatorname{Ext}_{A^O}^{0,t}\xrightarrow{h_0}\operatorname{Ext}_{A^O}^{1,t+1}$ is an epimorphism, $t=4k$, and $\operatorname{Ext}_{A^O}^{i,t}\xrightarrow{h_0}\operatorname{Ext}_{A^O}^{i+1,t+1}$ is an isomorphism, $i\ge1$.
 
 These facts actually are trivial since
 
@@ -812,9 +796,9 @@ and$H ^ { * } ( M S O , Z _ { 2 } )$, as was shown by the author [17, 18] and by
 
 We have mentioned these facts here in connection with the analogy later of MSO with MSU and the paper of Conner and Floyd [13].
 
-In the study of$\operatorname { E x t } _ { A ^ { U } } ( U ^ { * } ( M S U ) )$all dimensions will be doubled, the groups $E _ { \infty } ^ { i , 8 k + i }$for$1 \leq i < 3$will be constructed in an identical fashion, but the element $h _ { 0 } \in \mathrm { E x t } ^ { 1 , 1 }$will be replaced by an elemen$h \in \operatorname { E x t } _ { A ^ { U } } ^ { 1 , 2 }$and the Adams diferential $d _ { 3 }$will be non-trivial (see$\ S \ S \ 6 , 7 )$
+In the study of $\operatorname{Ext}_{A^U}(U^*(MSU))$, all dimensions will be doubled, the groups $E_\infty^{i,8k+i}$ for $1\le i<3$ will be constructed in an identical fashion, but the element $h_0\in\operatorname{Ext}^{1,1}$ will be replaced by an element $h\in\operatorname{Ext}_{A^U}^{1,2}$, and the Adams differential $d_3$ will be nontrivial (see §§ 6, 7).
 
-We note that the construction described here gives us a natural representation of the ring$A ^ { O } = ( \Lambda \circ S ) ^ { \Lambda }$on the ring$\Omega _ { O }$by means of the operators$W _ { \omega } ^ { * }$(“diferentiation”) and the multiplication on$\Lambda$.
+We note that the construction described here gives us a natural representation of the ring $A^O=(\Lambda\cdot S)^\wedge$ on the ring $\Omega_O$ by means of the operators $W_\omega^*$ (“differentiation”) and the multiplication on $\Lambda$.
 
 In a certain sense the operators$W _ { \omega } ^ { \ast }$generalize the ordinary characteristic numbers. They can be calculated easily for$[ R P ^ { 2 h } ] \in \Omega _ { O }$and
 
@@ -838,7 +822,7 @@ $$
 
 where quasicomplex means a complex structure in the stable tangent (or normal) bundle. Here there is also the Thom isomorphism φ:$U ^ { i } ( X ) \to U ^ { 2 n + i } ( M \xi , * )$where $\xi$is a complex$U _ { n } .$-bundle of dimension 2n, and$M \xi$is its Thom complex. We denote the Poincar´e–Atiyah duality operator by D. There is defined a natural homomorphism ε:$U _ { * } ( X ) \to U _ { * } ( P )$, where P is a point and$\Omega _ { U } = U _ { * } ( P ) = Z [ x _ { 1 } , \dots , x _ { i } , \dots ]$ dim$x _ { i } = 2 i$
 
-We consider the group$U _ { * } ( K )$given by pairs$( X , f )$, where X is a manifold and $f \colon X \to K$. Let α be arbitrary characteristic class,$\alpha \in U ^ { * } ( B U )$. For any complex K in the category$S _ { ; }$, the class α defines an operator
+We consider the group $U_*(K)$ given by pairs $(X,f)$, where $X$ is a manifold and $f:X\to K$. Let $\alpha$ be an arbitrary characteristic class, $\alpha\in U^*(BU)$. For any complex $K$ in the category $S$, the class $\alpha$ defines an operator
 
 $$
 \alpha \colon U _ {*} (K) \to U _ {*} (K),
@@ -846,7 +830,7 @@ $$
 
 if we set$\alpha ( X , f ) ~ = ~ ( Y _ { \alpha } , f \cdot f _ { \alpha } )$, where$( Y _ { \alpha } , f _ { \alpha } ) \ \in \ U _ { * } ( X )$is the element having the form$D \alpha ( - \tau _ { X } )$, where$\tau _ { X } \in K ( X )$is the stable tangent U-bundle of X. $\{ D _ { \alpha } ( - \tau _ { X } ) = D ( ( - \tau _ { X } ) ^ { * } ( \alpha ) ) . \}$
 
-As we know, the operation of the class α on$U _ { * } ( K )$can be defined in another way: since$U ^ { * } ( M U ) = U ^ { * } ( B U )$by virtue of the Thom isomorphism$\phi ,$we have $\phi ( \alpha ) = a \in U ^ { * } ( M U ) = A ^ { U }$We consider the pair$L = ( K \cup P , P )$in the$S _ { - }$ category; then U<sub>∗</sub>(K) = Hom${ { } ^ { : } ( P , M U \otimes L ) }$by definition, where$P$is the spectrum of a point. Every operation$a = \phi ( \alpha )$defines a morphism φ(α):$M U  M U$and, of course, a morphism
+As we know, the operation of the class $\alpha$ on $U_*(K)$ can be defined in another way: since $U^*(MU)=U^*(BU)$ by virtue of the Thom isomorphism $\phi$, we have $\phi(\alpha)=a\in U^*(MU)=A^U$. We consider the pair $L=(K\cup P,P)$ in the $S$-category; then $U_*(K)=\operatorname{Hom}^*(P,MU\otimes L)$ by definition, where $P$ is the spectrum of a point. Every operation $a=\phi(\alpha)$ defines a morphism $\phi(\alpha):MU\to MU$ and, of course, a morphism
 
 $$
 \varphi (\alpha) \otimes 1 \colon M U \otimes L \to M U \otimes L.
@@ -858,11 +842,11 @@ Lemma 5.1. The operators$\alpha ^ { * }$and$\bar { \alpha } ^ { * }$coincide on$
 
 The proof of this lemma follows easily from the usual considerations with Thom complexes, connected with t-regularity.
 
-Thus there arises a natural representation of the ring$A ^ { U }$on$U _ { * } ( K )$for any$K ,$ where$a  [ \phi ^ { - 1 } ( a ) ] ^ { * } = \alpha ^ { * } , \phi \colon U ^ { * } ( B U )  U ^ { * } ( M U )$
+Thus there arises a natural representation of the ring $A^U$ on $U_*(K)$ for any $K$, where $a\mapsto[\phi^{-1}(a)]^*=\alpha^*$, $\phi:U^*(BU)\to U^*(MU)$.
 
 We have
 
-Lemma 5.2. For$K = P ,$the representation$a  [ \phi ^ { - 1 } ( a ) ] ^ { * }$of the Steenrod ring$A ^ { U }$ in the ring of endomorphisms of$U _ { * } ( P ) = \Omega _ { U }$is dual by Poincar´e–Atiyah duality to the operation of the ring$A ^ { U }$on$U ^ { * } ( P )$and is a$f a i t h f u l$representation.
+Lemma 5.2. For $K=P$, the representation $a\mapsto[\phi^{-1}(a)]^*$ of the Steenrod ring $A^U$ in the ring of endomorphisms of $U_*(P)=\Omega_U$ is dual by Poincaré–Atiyah duality to the operation of the ring $A^U$ on $U^*(P)$ and is a faithful representation.
 
 Proof. Since$K \ = \ P$and$M U \otimes P \ : = \ : M U$, the operation of the ring$A ^ { U }$on ${ \mathrm { H o m } } ^ { * } ( P , M U )$is dual to the ordinary operation, by definition. By virtue of Lemma 3.1 of$\ S \ 3 .$, this operation is a faithful representation of the ring$A ^ { U }$. The lemma is proved.
 
@@ -880,19 +864,19 @@ We have the obvious
 
 Lemma 5.3. The representation$a \to \tilde { a }$of the ring$A ^ { U }$on$U _ { * } ( B U )$is well-defined and is faithful.
 
-Proof. The independence of the definition of ˜a from the choice of representative $( X , \xi )$of the class x follows from the standard arguments verifying invariance with respect to cobordism of pairs$( X , \xi )$and properties of Poincar´e–Atiyah duality for manifolds with boundary.
+Proof. The independence of the definition of $\tilde a$ from the choice of representative $(X,\xi)$ of the class $x$ follows from the standard arguments verifying invariance with respect to cobordism of pairs $(X,\xi)$ and properties of Poincaré–Atiyah duality for manifolds with boundary.
 
 The fidelity of the representation ˜a follows from the fact that it is already faithful on$U _ { * } ( P ) \subset U _ { * } ( B U )$by the preceding lemma, where ˜a coincides with$[ \phi ^ { - 1 } ( a ) ] ^ { * }$ The only thing that remains to be verified is that ˜a is a representation of the ring $A ^ { U }$and not of some extension of it. For this however, we note that the composition of transformations ˜a<sup>˜</sup>b is also induced by some characteristic class and hence has the form$\tilde { a } \tilde { b } = \tilde { c } .$. Whence follows the lemma.
 
 Remark 5.1. It is easy to show that the transformation ˜a has the form$\phi ^ { - 1 } a _ { * } \phi ,$ where$\phi \colon U _ { * } ( B U ) \to U _ { * } ( M U )$and$a _ { * } \colon U _ { * } ( M U ) \to U _ { * } ( M U )$is the transformation induced by$a \colon M U \to M U$. In the future we shall use the geometric meaning of the transformation$\tilde { a } = \phi ^ { - 1 } a _ { * } \phi$and hence we have given the definition of ˜a in a geometric form.
 
-The transformation ˜a induces a transformation$\alpha ^ { * } \colon \Omega _ { U } \to \Omega _ { U } = U _ { * } ( P )$, where $U _ { i } ( P ) = \Omega _ { I J } ^ { i } = U ^ { - i } ( P )$
+The transformation $\tilde a$ induces a transformation $\alpha^*:\Omega_U\to\Omega_U=U_*(P)$, where $U_i(P)=\Omega_U^i=U^{-i}(P)$.
 
 We shall also denote by$\alpha ^ { * }$the dual transformation$U ^ { * } ( P ) \to U ^ { * } ( P ) , U ^ { * } ( P ) =$ Λ ≈$\Omega _ { U }$
 
 We shall now indicate the set of operations needed, from which we can construct all the operations of the Steenrod ring$A ^ { U }$
 
-1. Multiplication operators. For any element$a \in U ^ { * } ( P ) = \Lambda$there is defined the multiplication operator$x  a x$. Hence$\Lambda \subset A ^ { U }$. The corresponding transformation$\tilde { a } \colon U _ { * } ( B U ) \to U _ { * } ( B U )$has the form:
+1. Multiplication operators. For any element $a\in U^*(P)=\Lambda$, there is defined the multiplication operator $x\mapsto ax$. Hence $\Lambda\subset A^U$. The corresponding transformation $\tilde a:U_*(BU)\to U_*(BU)$ has the form:
 
 $$
 (X, \xi) \rightarrow (X \times Y _ {a}, \xi \times (- \tau_ {Y _ {a}})),
@@ -900,21 +884,21 @@ $$
 
 where$\left( Y _ { a } , - \tau _ { Y _ { a } } \right)$represents the element$D a \in U _ { * } ( P ) = \Omega _ { U }$
 
-2. Chern classes and their corresponding cohomology operations. As Conner and Floyd remarked in$[ 1 1 ]$, if in the axioms for the ordinary Chern classes one replaces the fact that$c _ { 1 } ( \xi )$for the canonical$U _ { \mathrm { 1 - b u n d l e } }$over$C P ^ { N }$is the homology class dual to$C P ^ { N - 1 }$, by the fact that the “first Chern class${ \mathfrak { n } } _ { \sigma _ { 1 } ( \xi ) }$is the canonical cobordism class$\sigma _ { 1 } \in \dot { U } ^ { 2 } ( C P ^ { N } )$) which is dual, by Atiyah, to$[ \ddot { C } P ^ { N - 1 } ]$, then there arise classes$\sigma _ { i } ( \xi ) \in U ^ { 2 i } ( X )$with the following properties:
+2. Chern classes and their corresponding cohomology operations. As Conner and Floyd remarked in [11], if in the axioms for the ordinary Chern classes one replaces the fact that $c_1(\xi)$ for the canonical $U_1$-bundle over $CP^N$ is the homology class dual to $CP^{N-1}$, by the fact that the “first Chern class” $\sigma_1(\xi)$ is the canonical cobordism class $\sigma_1\in U^2(CP^N)$ which is dual, by Atiyah, to $[CP^{N-1}]$, then there arise classes $\sigma_i(\xi)\in U^{2i}(X)$ with the following properties:
 
 1. σ<sub>i</sub> = 0, i < 0; σ<sub>0</sub> = 1; σ<sub>i</sub> = 0, i > dim<sub>C</sub> ξ;
 
 $$
-2. \sigma_ {i} (\xi + \eta) = \sum_ {j + k = i} \sigma_ {i} (\xi) \sigma_ {k} (\eta);
+2. $\sigma_i(\xi+\eta)=\sum_{j+k=i}\sigma_j(\xi)\sigma_k(\eta)$;
 $$
 
 3.$\sigma _ { 1 } ( \xi ) \in \operatorname { M a p } ( X , M U ) \subset U ^ { 2 } ( X )$, if ξ is a U<sub>1</sub>-bundle;
 
-4.$\nu ( \sigma _ { i } ) = c _ { i }$, where$\nu \colon U ^ { * } \to H ^ { * } ( \mathbf { \Omega } , Z )$is the map defined by the Thom class.
+4. $\nu(\sigma_i)=c_i$, where $\nu:U^*\to H^*(\ ,Z)$ is the map defined by the Thom class.
 
 We note that in the usual way (by the symbolic generators of Wu) the characteristic classes$\sigma _ { i }$determine classes$\sigma _ { \omega } ( \xi ) , \omega = ( k _ { 1 } , \ldots , k _ { s } )$, such that$\sigma _ { \omega } ( \xi + \eta ) =$ $\begin{array} { r l } { \sum } & { { } \ \sigma _ { \omega _ { 1 } } ( \xi ) \sigma _ { \omega _ { 2 } } ( \eta ) } \end{array}$), with$\sigma _ { ( 1 , \dots , 1 ) } = \sigma _ { i }$ ω=(ω<sub>1</sub>,ω<sub>2</sub>)
 
-In the usual way the classes$\sigma _ { \omega }$determine elements$S _ { \omega } = \phi \sigma _ { \omega } \in U ^ { * } ( M U )$and, as was shown earlier, homomorphisms$\sigma _ { \omega } ^ { * } \colon \Omega _ { U }  \Omega _ { U }$and$\tilde { S } _ { \omega } \colon U _ { * } ( B U ) \to U _ { * } ( B U )$.
+In the usual way the classes $\sigma_\omega$ determine elements $S_\omega=\phi\sigma_\omega\in U^*(MU)$ and, as was shown earlier, homomorphisms $\sigma_\omega^*:\Omega_U\to\Omega_U$ and $\tilde S_\omega:U_*(BU)\to U_*(BU)$.
 
 We have the important
 
@@ -932,11 +916,11 @@ $$
 
 by definition. Here$( Y _ { \omega _ { 1 } } , f _ { \omega _ { 1 } } )$represents the element$D \sigma _ { \omega _ { 1 } } ( \boldsymbol { \xi } )$, and similarly for $N _ { \omega _ { 2 } }$. The lemma is proved.
 
-In order that the formula derived above be more efective, we shall indicate exactly the action of the operator$\sigma _ { \omega } ^ { * }$on the ring$\Omega _ { U }$
+In order that the formula derived above be more effective, we shall indicate exactly the action of the operator $\sigma_\omega^*$ on the ring $\Omega_U$.
 
 It is known that by virtue of the Whitney formula the classes$\sigma _ { \omega } ( - \xi )$are linear forms in the classes$\sigma _ { \omega } ( \boldsymbol { \xi } )$with coeficients which are independent of ξ. Let$\bar { \sigma } _ { \omega } ( \xi ) =$ $\sigma _ { \omega } ( - \xi )$and let$\bar { \sigma } _ { \omega } ^ { * }$be the homomorphism associated with this linear form.
 
-If$( X , - \tau _ { X } )$represents an element a of$\Omega _ { U }$, then the classes$\bar { \sigma } _ { \omega } ^ { * } ( a )$, represented by$\varepsilon D \bar { \sigma } _ { \omega } ( - \tau _ { X } ) \in \Omega _ { U }${where ε is induced by$X  P \}$are the characteristic classes of the tangent bundle.
+If $(X,-\tau_X)$ represents an element $a$ of $\Omega_U$, then the classes $\bar\sigma_\omega^*(a)$, represented by $\varepsilon D\bar\sigma_\omega(-\tau_X)\in\Omega_U$ (where $\varepsilon$ is induced by $X\to P$), are the characteristic classes of the tangent bundle.
 
 Let$X = C P ^ { n }$and$u _ { \omega } = \sum _ { i _ { j } \leq n + 1 } t _ { i _ { 1 } } ^ { k _ { 1 } } \cdot \cdot \cdot t _ { i _ { s } } ^ { k _ { s } }$(the sum over all symmetrizations,$\omega =$ $( k _ { 1 } , \ldots , k _ { s } ) )$. Let$\lambda _ { \omega }$be the number of summands in the symmetrized monomial $u _ { \omega } , k = \sum k _ { i }$. We have the simple
 
@@ -990,7 +974,7 @@ $$
 2. S _ {\omega} (\alpha , \beta) = \sum_ {\omega = \left(\omega_ {1}, \omega_ {2}\right)} S _ {\omega_ {1}} (\alpha) S _ {\omega_ {2}} (\beta) f o r a l l \alpha , \beta \in U ^ {*}.
 $$
 
-3. If$k ^ { ( i ) } < n , \ : \omega _ { i } = \ : ( k _ { 1 } ^ { ( i ) } , \ldots , k _ { s _ { i } } ^ { ( i ) } ) , \ : \sum _ { i } k _ { j } ^ { ( i ) } = k ^ { ( i ) }$and$a ~ = ~ \sum { \lambda } _ { i } S _ { \omega _ { i } }$, then $a \phi ( 1 ) = a u = 0$is equivalent to$a = 0$
+3. If $k^{(i)}<n$, $\omega_i=(k_1^{(i)},\ldots,k_{s_i}^{(i)})$, $\sum_j k_j^{(i)}=k^{(i)}$, and $a=\sum_i\lambda_iS_{\omega_i}$, then $a\phi(1)=au=0$ is equivalent to $a=0$.
 
 4. The composition of operations$S _ { \omega _ { 1 } } \cdot S _ { \omega _ { 2 } }$is a linear combination of operations of the form$S _ { \omega }$with integral coeficients, so that an additive basis for the ring$S$ consists of all$S _ { \omega }$
 
@@ -1002,7 +986,7 @@ Property 3 is clear. Property 4 follows from the fact that on the basis of prope
 
 The lemma is proved.
 
-Further, we note the obvious circumstance: An additive topological basis of the ring$A ^ { U }$has the form$x _ { i } S _ { \omega }$, where$x _ { i }$is an additive homogeneous basis for$U ^ { * } ( P )$, $U ^ { i } ( P ) = \Omega _ { U }$
+Further, we note the obvious circumstance: An additive topological basis of the ring $A^U$ has the form $x_iS_\omega$, where $x_i$ is an additive homogeneous basis for $U^*(P)$, $U^i(P)=\Omega_U^i$.
 
 The topology of$A ^ { U }$is defined by a filtration. This means that the finite linear combinations of the form$\sum \lambda _ { i } x _ { i } S _ { \omega }$are dense in$A ^ { U }$and the completion coincides with$A ^ { U }$, which thus consists of formal series of the form$\sum \lambda _ { i } x _ { i } S _ { \omega _ { i } }$, where the$\lambda _ { i }$ are integers and dim$x _ { i } S _ { \omega _ { i } } = \mathrm { c o n s t a n t } .$, since$A ^ { U }$is a graded ring.
 
@@ -1036,7 +1020,7 @@ $$
 
 and hence$A ^ { U } \otimes A ^ { U }$is an$A ^ { U }$-module with respect to the diagonal$\Delta$.
 
-Moreover, we remark that$A ^ { U }$has a natural representation \* on the ring$\Omega _ { U }$ where$\Omega _ { I J } ^ { i } = U ^ { - i } ( P )$, under which the action of the ring Λ goes over to the multi-plication operators$\Lambda \approx \Omega _ { U }$and the$S _ { \omega }  \sigma _ { \omega } ^ { * }$
+Moreover, we remark that $A^U$ has a natural representation on the ring $\Omega_U$, where $\Omega_U^i=U^{-i}(P)$, under which the action of the ring $\Lambda$ goes over to the multiplication operators $\Lambda\cong\Omega_U$ and $S_\omega\mapsto\sigma_\omega^*$.
 
 We now define an important map$\gamma \colon U ^ { 2 } \to U ^ { 2 }$(nonadditive), such that$\nu \gamma ( x ) =$ $\nu ( x ) , \nu \colon U ^ { * } \to H ^ { * } ( \ , Z )$is defined by the Thom class, and$\gamma ( x ) \in \operatorname { M a p } ( X , M U _ { 1 } ) \ \subset$ $U ^ { 2 } ( X )$, for$x \in U ^ { 2 } ( X )$
 
@@ -1104,7 +1088,7 @@ There arise classes$\chi _ { ( k _ { 1 } , k _ { 2 } ) } \in U ^ { * } ( B U )$,
 
 We note that$\chi _ { ( 0 , 1 ) } = 0$. We denote the operation$\chi _ { ( 1 , 0 ) }$by$\chi$and the operation χ<sub>(1,1)</sub> by$\Psi$.
 
-The homomorphism$\Psi ^ { * } \colon \Omega _ { U }  \Omega _ { U }$was studied by Conner and Floyd (see [13]). It is easy to establish the following equations:
+The homomorphism $\Psi^*:\Omega_U\to\Omega_U$ was studied by Conner and Floyd (see [13]). It is easy to establish the following equations:
 
 a)$\Delta _ { ( k _ { 1 } , k _ { 2 } ) } \circ \partial = 0$(in particular,$\partial ^ { 2 } = 0 , \Delta \partial = 0 )$);
 
@@ -1130,7 +1114,7 @@ This projector has the property that it allows the complete decomposition of the
 
 Let$\xi , \eta$be U-bundles. How does one compute the class$\sigma _ { 1 } ( \xi \otimes \eta ) ?$
 
-Lemma 5.7. a) For any$U _ { n } \cdot$bundle ξ there is a cohomology operation$\gamma _ { n - 1 } \in A ^ { U }$ such that$\sigma _ { 1 } ( \lambda _ { - 1 } ( \xi ) ) = \gamma _ { n - 1 } ( \sigma _ { n } ( \xi ) )$, where$\begin{array} { r } { \lambda _ { - 1 } = \sum ( - 1 ) ^ { i } \Lambda ^ { i } } \end{array}$and the$\Lambda ^ { i }$are the exterior powers.
+Lemma 5.7. a) For any $U_n$-bundle $\xi$ there is a cohomology operation $\gamma_{n-1}\in A^U$ such that $\sigma_1(\lambda_{-1}(\xi))=\gamma_{n-1}(\sigma_n(\xi))$, where $\lambda_{-1}=\sum(-1)^i\Lambda^i$ and the $\Lambda^i$ are the exterior powers.
 
 b)$I f u _ { 1 } , \ldots , u _ { n } \in U ^ { 2 } ( X )$are elements in the subset Im$\gamma = \mathrm { M a p } ( X , M U _ { 1 } ) ~ ($$U ^ { 2 } ( X )$, then we have the equation
 
@@ -1150,7 +1134,7 @@ $$
 - \sigma_ {1} (\xi) - \sigma_ {1} (\eta) + \sigma_ {1} (\xi \otimes \eta) = \sum_ {i \geq 1, j \geq 1} x _ {i, j} \sigma_ {1} ^ {i} (\xi) \sigma_ {1} ^ {j} (\eta), \quad x _ {i, j} \in \Lambda .
 $$
 
-Since the bundle$\lambda _ { 1 } ( \xi + \eta )$lies in a natural way in$K ^ { 0 } ( M U _ { 2 } )$and$\lambda _ { 1 } ( \xi + \eta ) =$ $\xi \otimes \eta - \xi - \eta + 1 .$, the diference$- \sigma _ { 1 } ( \xi ) - \sigma _ { 1 } ( \eta ) + \sigma _ { 1 } ( \xi \otimes \eta ) + 1$has the form$\gamma _ { 1 } u$ where$u \in U ^ { * } ( M U _ { 2 } )$is the fundamental class$u = \phi ( 1 )$
+Since the bundle $\lambda_1(\xi+\eta)$ lies in a natural way in $K^0(MU_2)$ and $\lambda_1(\xi+\eta)=\xi\otimes\eta-\xi-\eta+1$, the difference $-\sigma_1(\xi)-\sigma_1(\eta)+\sigma_1(\xi\otimes\eta)+1$ has the form $\gamma_1u$, where $u\in U^*(MU_2)$ is the fundamental class $u=\phi(1)$.
 
 The operation$\gamma _ { 1 }$can be written in the form
 
@@ -1164,7 +1148,7 @@ Let$\omega = ( k _ { 1 } , \dots , k _ { s } )$, where$s > 2 .$. Then$S _ { \ome
 
 We set$\gamma _ { n - 1 } = \gamma _ { 1 } ( u _ { 1 } \dots \gamma _ { 1 } ( u _ { n - 1 } u _ { n } ) \dots )$on the element$u = u _ { 1 } \ldots u _ { n } = \phi ( 1 ) \in$ $U ^ { * } ( M U _ { n } )$. The operation$\gamma _ { n - 1 }$is well defined mod$x _ { \omega } S _ { \omega } .$, where$\omega = ( k _ { 1 } , \dots , k _ { s } )$ $s > n . \mathrm { ~ B y ~ }$definition, we have the formula$\sigma _ { 1 } \lambda _ { - 1 } ( \xi ) = \gamma _ { n - 1 } \sigma _ { n } ( \xi )$for a$U _ { n } { \mathrm { - b u n d l e } } \xi$ The lemma is proved.
 
-Remark 5.4. It would be very useful, if it were possible, to define exactly an operation$\gamma _ { 1 } \in A ^ { U } \otimes Q$so as to satisfy the equations$\gamma _ { 1 } ^ { i } = \gamma _ { i }$. The meaning of this will be clarified later in$\ S \ S$
+Remark 5.4. It would be very useful, if it were possible, to define exactly an operation $\gamma_1\in A^U\otimes Q$ so as to satisfy the equations $\gamma_1^i=\gamma_i$. The meaning of this will be clarified later in § 8.
 
 We now consider analogues of the Adams operations and the Chern character in the theory of U-cobordism which are important for our purposes.
 
@@ -1180,7 +1164,7 @@ $$
 \gamma_{1}(uv) = \sum_{\substack{i\geq 0\\ j\geq 0\\ i\neq j}}x_{ij}(u^{i + 1}v^{j + 1} + u^{j + 1}v^{i + 1}) + \sum_{i\geq 0}x_{i,i}u^{i + 1}v^{i + 1},\quad x_{i,j}\in \Omega_{U}.
 $$
 
-We set$u + v + \gamma _ { 1 } ( u , v ) = f ( u , v )$. Then we have the “law of composition$\therefore a \oplus v =$ $f ( u , v )$for$u , v \in \operatorname { I m } \gamma _ { 1 } = \operatorname { M a p } ( X , M U _ { 1 } )$, which turns Map$X , M U _ { 1 } )$into a formal one-dimensional commutative group with coeficients in the graded ring$\Omega _ { U }$, while dim$u , v , f ( u , v ) = 2$. As A. S. Miˇsˇcenko has shown, if we make the change of variables with rational coeficients
+We set $u+v+\gamma_1(u,v)=f(u,v)$. Then we have the “law of composition” $u\oplus v=f(u,v)$ for $u,v\in\operatorname{Im}\gamma_1=\operatorname{Map}(X,MU_1)$, which turns $\operatorname{Map}(X,MU_1)$ into a formal one-dimensional commutative group with coefficients in the graded ring $\Omega_U$, while $\dim u,v,f(u,v)=2$. As A. S. Miščenko has shown, if we make the change of variables with rational coefficients
 
 $$
 g (u) = \sum_ {i \geq 0} \frac {x _ {i}}{i + 1} u ^ {i}, \quad x _ {i} = [ C P ^ {i} ],
@@ -1196,7 +1180,7 @@ $$
 
 a) We set$\sigma h ( \boldsymbol { \xi } ) = e ^ { g ( u ) }$, where$u = \sigma _ { 1 } ( \boldsymbol { \xi } )$for U -bundles$\xi ;$
 
-b) if$\xi = \xi _ { 1 } + \xi _ { 2 }$, then$\sigma h ( \xi ) = \sigma h ( \xi ) = \sigma h ( \xi _ { 1 } ) + \sigma h ( \xi _ { 2 } ) ;$
+b) if $\xi=\xi_1+\xi_2$, then $\sigma h(\xi)=\sigma h(\xi_1)+\sigma h(\xi_2)$;
 
 c)${ \mathrm { i f ~ } } \xi = \xi _ { 1 } \otimes \xi _ { 2 }$, then$\sigma h ( \xi ) = \sigma h ( \xi _ { 1 } ) \sigma h ( \xi _ { 2 } )$
 
@@ -1222,7 +1206,7 @@ $$
 2) \quad a = \sum_ {i \geq 0} S _ {\underbrace {(1 , \ldots , 1)} _ {i \text { times}}}.
 $$
 
-The Chern character gives a new example of such an operation$a \in A ^ { U } \otimes Q \colon$: We consider the$\mathrm { \ddot { \cdot } R i e m a n n \mathrm { - } R o c h \ddot { \prime } }$transformation$\lambda _ { - 1 } ^ { ( n ) } \colon U ^ { 2 n } \to K$which is defined by the element$\lambda _ { - 1 } ^ { ( n ) } \in K ( M U _ { n } )$, and let$\lambda = ( \lambda _ { - 1 } ^ { ( n ) } ) , n \to \infty$. Let$\Phi ^ { ( n ) } = \sigma h ^ { n } \circ \lambda _ { - 1 } ^ { ( n ) } ,$ and$\Phi = \left( \Phi ^ { ( n ) } \right)$. The operation Φ obviously has the property that$\Delta \Phi = \Phi \otimes \Phi$ since σh and$\lambda _ { - 1 }$are multiplicative, and if the element$\xi \in K ( X )$has filtration m and the element η has filtration$n _ { \mathrm { : } }$, then$\sigma h ^ { m + n } ( \xi \otimes \eta ) = \sigma h ^ { m } ( \xi ) \sigma h ^ { n } ( \eta )$. It is easy to verify that the operator Φ has the following properties:
+The Chern character gives a new example of such an operation $a\in A^U\otimes Q$: we consider the “Riemann–Roch” transformation $\lambda_{-1}^{(n)}:U^{2n}\to K$, which is defined by the element $\lambda_{-1}^{(n)}\in K(MU_n)$, and let $\lambda=(\lambda_{-1}^{(n)}), n\to\infty$. Let $\Phi^{(n)}=\sigma h^n\circ\lambda_{-1}^{(n)}$, and $\Phi=(\Phi^{(n)})$. The operation $\Phi$ obviously has the property that $\Delta\Phi=\Phi\otimes\Phi$ since $\sigma h$ and $\lambda_{-1}$ are multiplicative, and if the element $\xi\in K(X)$ has filtration $m$ and the element $\eta$ has filtration $n$, then $\sigma h^{m+n}(\xi\otimes\eta)=\sigma h^m(\xi)\sigma h^n(\eta)$. It is easy to verify that the operator $\Phi$ has the following properties:
 
 1)$\Phi ^ { 2 } = \Phi .$
 
@@ -1246,7 +1230,7 @@ For our subsequent purposes the following operations will be important:
 
 2) Projection operators which preserve the multiplicative structure.
 
-All these operations are given by series$a ( u ) \in U ^ { * } ( C P ^ { \infty } )$, since$\Delta a = a \otimes a .$ We define the Adams operations$\Psi _ { { I J } } ^ { k }$, which arise from the requirements:
+All these operations are given by series $a(u)\in U^*(CP^\infty)$, since $\Delta a=a\otimes a$. We define the Adams operations $\Psi_U^k$, which arise from the requirements:
 
 1)$\Psi _ { U } ^ { k } ( x y ) = \Psi _ { U } ^ { k } ( x ) \Psi _ { U } ( y ) , x , y \in U ^ { * }$
 
@@ -1272,27 +1256,27 @@ $$
 \Psi_ {U} ^ {p} (u) = u + \lambda_ {2} u ^ {2} + \dots + \lambda_ {i} u ^ {i} + \dots , \quad u \in \operatorname{Map} (X, M U _ {1}),
 $$
 
-are integral for$\textit { i } < \textit { p }$. Hence the element$p ^ { n } \Psi _ { { \cal I } { \cal T } } ^ { p } ( u _ { 1 } \dots u _ { n } )$, where$u _ { 1 } \ldots u _ { n } \in$ $U ^ { 2 n } ( M U _ { n } )$is a universal element, is integral, and so the operation$p ^ { n } \Psi _ { U } ^ { n } ~ f o r ~ e l \mathrm { - }$ ements of dimension 2n is “integral,” if the dimension of the complex is$< 2 p n$ (See Appendix 2 for proof.)
+are integral for $i<p$. Hence the element $p^n\Psi_U^p(u_1\cdots u_n)$, where $u_1\cdots u_n\in U^{2n}(MU_n)$ is a universal element, is integral, and so the operation $p^n\Psi_U^n$ for elements of dimension $2n$ is “integral,” if the dimension of the complex is $<2pn$ (See Appendix 2 for proof.)
 
-4. We now consider the projection operators. The condition defining a projection operator$\pi \in A ^ { U }$is obviously${ \overline { { \pi } } } ^ { 2 } = \pi , { \mathrm { o r } } \pi ^ { * 2 } = \pi ^ { * }$, where$\pi ^ { * } \colon \Lambda \to \Lambda$is the natural representation. We shall consider only those π for which$\pi ( x y ) = \pi ( x ) \pi ( y )$and $\pi ( u ) = \sum _ { i \geq 1 } \lambda _ { i } u ^ { i } \in U ^ { * } ( C P ^ { \infty } )$. Let
+4. We now consider the projection operators. The condition defining a projection operator $\pi\in A^U$ is obviously $\pi^2=\pi$, or $\pi^{*2}=\pi^*$, where $\pi^*:\Lambda\to\Lambda$ is the natural representation. We shall consider only those $\pi$ for which $\pi(xy)=\pi(x)\pi(y)$ and $\pi(u)=\sum_{i\ge1}\lambda_i u^i\in U^*(CP^\infty)$. Let
 
 $$
 x _ {i} = \left[ C P ^ {i} \right], \quad \pi (u) = \left(1 + \sum_ {i \geq 1} \lambda_ {i} u ^ {i}\right) u,
 $$
 
-where the$\lambda _ { i } \in \Lambda \otimes Q$are polynomials in$x _ { i }$with rational coeficients, dim$\lambda _ { i } = - 2 i$ It is easy to show that$\pi ^ { * } ( \lambda _ { i } ) = 0$, since$\pi ^ { 2 } = \pi$
+where the $\lambda_i\in\Lambda\otimes Q$ are polynomials in $x_i$ with rational coefficients, $\dim\lambda_i=-2i$. It is easy to show that $\pi^*(\lambda_i)=0$, since $\pi^2=\pi$.
 
 We shall be especially interested in the case when there exists a complete system of orthogonal projectors$( \pi _ { j } ) , \pi _ { j } \pi _ { k } = 0 , j \neq k$, which split the cohomology theory $U ^ { * }$into a direct sum of identical theories.
 
 Let$y \in \Lambda$and$\Delta _ { y } \in A ^ { U }$⊗ Q be the “operator of division by$y , ^ { v }$which has the following properties:
 
 $$
-\begin{array}{l} 1) \Delta_ {y} (a b) = \Delta_ {y} (a) b + a \Delta_ {y} (b) - y \Delta_ {y} (a) \Delta_ {y} (b), \\ 2) \Delta_ {u} ^ {*} (y) = 1. \end{array}
+\begin{array}{l} 1) \Delta_y(ab)=\Delta_y(a)b+a\Delta_y(b)-y\Delta_y(a)\Delta_y(b), \\ 2) \Delta_y^*(y)=1. \end{array}
 $$
 
-Let$\Phi _ { y } = y \Delta _ { y } , \Psi _ { y } = 1 - \Phi _ { y } \in A ^ { U } \otimes Q$. It is easy to see that$\Phi _ { y } ^ { 2 } = \Phi _ { y } , \Psi _ { y } ^ { 2 } = \Psi _ { y } ,$ and$\Phi _ { y } \circ \Psi _ { y } = 0$. Moreover, the collection of projectors$\pi _ { i } = y ^ { i } \bar { \Delta } _ { u } ^ { i } - y ^ { i + 1 }$is such that$\pi _ { j } \pi _ { k } = 0 , j \neq k .$, and it decomposes the theory$U ^ { * } \otimes Q$into a sum of identical theories.
+Let $\Phi_y=y\Delta_y$, $\Psi_y=1-\Phi_y\in A^U\otimes Q$. It is easy to see that $\Phi_y^2=\Phi_y$, $\Psi_y^2=\Psi_y$, and $\Phi_y\circ\Psi_y=0$. Moreover, the collection of projectors $\pi_i=y^i\Delta_y^i-y^{i+1}\Delta_y^{i+1}$ is such that $\pi_j\pi_k=0$ for $j\ne k$, and it decomposes the theory $U^*\otimes Q$ into a sum of identical theories.
 
-Let$y _ { i } \in \Lambda ^ { - 2 j } = \Omega _ { I J } ^ { 2 j }$be a system of polynomial generators, and$\Phi _ { i } = y _ { i } \Delta _ { y _ { i } }$. We note that$\Phi _ { i } ^ { * } ( y _ { i } ) = 0$for$j < i$. Let$\tilde { y } _ { k } = y _ { k }$for$k \leq j$and$\tilde { y } _ { k } = ( 1 - \phi _ { i } ) ^ { * } y _ { k } = \Psi _ { i } ^ { * } ( y _ { k } )$ Obviously,$\Phi _ { i } ^ { * } ( \tilde { y } _ { k } ) = 0$for$k \neq i$and$\Phi _ { i } ^ { * } ( \tilde { y } _ { i } ) = y _ { i } = \tilde { y } _ { i }$
+Let $y_i\in\Lambda^{-2j}=\Omega_U^{2j}$ be a system of polynomial generators, and $\Phi_i=y_i\Delta_{y_i}$. We note that $\Phi_i^*(y_i)=0$ for $j<i$. Let $\tilde y_k=y_k$ for $k\le j$ and $\tilde y_k=(1-\phi_i)^*y_k=\Psi_i^*(y_k)$. Obviously, $\Phi_i^*(\tilde y_k)=0$ for $k\ne i$ and $\Phi_i^*(\tilde y_i)=y_i=\tilde y_i$.
 
 Since$( 1 - \Phi _ { i } ) ^ { * } ( y _ { j } ) = y _ { j }$for$j \le i$and$y _ { j } - y _ { i } \Delta _ { y _ { i } } ( y _ { j } ) = ( 1 - \phi _ { i } ) ^ { * } y _ { j }$for$j > i$, the collection of elements ˜y is a system of polynomial generators.
 
@@ -1324,7 +1308,7 @@ $$
 \Delta_ {y} = \sum_ {q \geq 1} \frac {(- 1) ^ {q} y ^ {q - 1}}{\lambda^ {q}} S _ {\underbrace {(k , \ldots , k)} _ {q \text { times}}}.
 $$
 
-For the generators$y _ { i } \in \Omega _ { U } ^ { 2 i }$we have$| \lambda | = 1$for$i \neq p ^ { j } - 1$and$| \lambda | = p$for$i = p ^ { i } - 1$ for any prime$p .$Hence
+For the generators $y_i\in\Omega_U^{2i}$ we have $|\lambda|=1$ for $i\ne p^j-1$ and $|\lambda|=p$ for $i=p^j-1$ for any prime $p$. Hence
 
 $$
 \Delta_ {y _ {i}} = \sum_ {q \geq 1} y _ {i} ^ {q - 1} S _ {(i, \dots , i)} \quad (i \neq p ^ {j} - 1)
@@ -1338,11 +1322,11 @@ $$
 
 It is easy to see that for$i + 1 \neq p ^ { j }$for given$p , \Delta _ { y _ { i } } \in A ^ { U } \otimes _ { Z } Q _ { p } ;$for$i + 1 = p ^ { j }$ and$p \ge 2 , \Delta _ { y _ { i } } \in A ^ { U } \otimes Q$, where$Q _ { p }$is the p-adic integers.
 
-Now let$y _ { i }$be a collection of polynomial generators of$\Omega _ { U }$and let$p$be prime. We consider all numbers$i _ { k } \neq p ^ { j } - 1$in the natural order,$i _ { 1 } < i _ { 2 } < \cdots < i _ { k } <$ Let$\Phi _ { k } = ( 1 - y _ { i _ { k } } \Delta _ { y _ { i _ { k } } } )$, where k is some suficiently large integer. The projector $\Phi _ { k }$is such that the ring$\Phi _ { k } ^ { * } \Lambda \subset \Lambda$has as a system of polynomial generators all$\tilde { y } _ { i }$ for$i \neq i _ { k } ,$, and$\Phi _ { k } ^ { * } y _ { i _ { k } } = 0$
+Now let $y_i$ be a collection of polynomial generators of $\Omega_U$ and let $p$ be prime. We consider all numbers $i_k\ne p^j-1$ in the natural order, $i_1<i_2<\cdots<i_k<\cdots$. Let $\Phi_k=(1-y_{i_k}\Delta_{y_{i_k}})$, where $k$ is some sufficiently large integer. The projector $\Phi_k$ is such that the ring $\Phi_k^*\Lambda\subset\Lambda$ has as a system of polynomial generators all $\tilde y_i$ for $i\ne i_k$, and $\Phi_k^*y_{i_k}=0$.
 
-Obviously, the operator$\Phi _ { k }$commutes with the operator of multiplication by$y _ { j }$ for$j \leq i _ { k }$since$\Phi _ { k } = 1 - y _ { i _ { k } } \Delta _ { y _ { i _ { k } } }$, and$\Delta _ { y _ { i _ { k } } }$commutes with$y _ { j } , j \le i _ { k }$ l
+Obviously, the operator $\Phi_k$ commutes with the operator of multiplication by $y_j$ for $j\le i_k$ since $\Phi_k=1-y_{i_k}\Delta_{y_{i_k}}$, and $\Delta_{y_{i_k}}$ commutes with $y_j$ for $j\le i_k$.
 
-We consider the operator$\Phi _ { k } \Delta _ { y _ { i _ { k - 1 } } } \Phi = \tilde { \Delta } _ { k - 1 }$. Since$\Phi _ { k }$is multiplicative,$\tilde { \Delta } _ { k - 1 }$ is the operator of division by$\Phi _ { k } y _ { i _ { k - 1 } } \Phi _ { k }$. Hence in the cohomology theory$\Phi _ { k } ( U ^ { * } )$ the operator$\tilde { \Delta } _ { k - 1 }$has all the properties making$1 - y _ { i _ { k - 1 } } \circ \tilde { \Delta } _ { k - 1 } = \Phi _ { k - 1 }$a multi-plicative projector, and$\Phi _ { ( k - 1 ) } ^ { ( j ) } = y _ { i _ { k - 1 } } ^ { j } \tilde { \Delta } _ { k - 1 } ^ { j } - y _ { i _ { k - 1 } } ^ { j + 1 } \tilde { \Delta } _ { k - 1 } ^ { j + 1 }$forms a complete system of orthogonal projectors.
+We consider the operator $\Phi_k\Delta_{y_{i_{k-1}}}\Phi_k=\tilde\Delta_{k-1}$. Since $\Phi_k$ is multiplicative, $\tilde\Delta_{k-1}$ is the operator of division by $\Phi_k y_{i_{k-1}}\Phi_k$. Hence in the cohomology theory $\Phi_k(U^*)$ the operator $\tilde\Delta_{k-1}$ has all the properties making $1-y_{i_{k-1}}\circ\tilde\Delta_{k-1}=\Phi_{k-1}$ a multiplicative projector, and $\Phi_{(k-1)}^{(j)}=y_{i_{k-1}}^j\tilde\Delta_{k-1}^j-y_{i_{k-1}}^{j+1}\tilde\Delta_{k-1}^{j+1}$ forms a complete system of orthogonal projectors.
 
 Thus,$\tilde { \Phi } _ { k - 1 } = \Phi _ { k } - y _ { i _ { k - 1 } } \Phi _ { k } \circ \Delta _ { y _ { i _ { k - 1 } } } \circ \Phi _ { k } = \Phi _ { k } ( 1 - y _ { i _ { k - 1 } } \Delta _ { y _ { i _ { k - 1 } } } ) \Phi _ { k }$and$\tilde { \Phi } _ { k - 1 } \Phi _ { k } =$ $\tilde { \Phi } _ { k - 1 }$, while
 
@@ -1380,7 +1364,7 @@ c) the theory$U ^ { * } \otimes _ { Z } Q _ { p }$splits into a sum of identical
 
 We note that the elements$\tilde { y } _ { s } = \Phi ^ { * } ( y _ { s } )$for$s = p ^ { j } - 1$have the property that all $\sigma _ { \omega } ^ { * } ( \tilde { y } _ { s } ) \equiv 0$mod$p$for all$\omega ,$dim$\omega = 2 s$
 
-The cohomology theory Φ$\nu ( U ^ { * } \otimes z Q _ { p } )$is given by a spectrum$M _ { ( p ) }$, where $H ^ { * } ( { \cal M } _ { ( p ) } , Z _ { p } ) = A / \beta A + A \beta$, A the Steenrod algebra and$\beta$the Bokˇste˘ın homomorphism.
+The cohomology theory $\Phi(U^*\otimes_ZQ_p)$ is given by a spectrum $M_{(p)}$, where $H^*(M_{(p)},Z_p)=A/(\beta A+A\beta)$, $A$ the Steenrod algebra and $\beta$ the Bokšteĭn homomorphism.
 
 Thus, we have shown
 
@@ -1390,7 +1374,7 @@ b) The theory$U ^ { * } \otimes _ { Z } Q _ { p }$decomposes into a direct sum o
 
 ## § 6. The$A ^ { U } .$-modules of cohomology of the most important spaces
 
-In this section we shall give the structure of the module$U ^ { * } ( X )$for the most important spectra$X = P \mathrm { ( a  p o i n t ) } , X = C P ^ { n } , X = R P ^ { 2 n } , X = R P ^ { 2 n - 1 } , X =$ MSU,$X = \bar { S } ^ { 2 n - 1 } / Z _ { p } , X = \bar { B G } , G = Z _ { p }$
+In this section we shall give the structure of the module $U^*(X)$ for the most important spectra $X=P$ (a point), $X=CP^n$, $X=RP^{2n}$, $X=RP^{2n-1}$, $X=MSU$, $X=S^{2n-1}/Z_p$, and $X=BG$, $G=Z_p$.
 
 1. Let$X = P .$. The A<sup>U</sup> -module$U ^ { * } ( P )$is given by one generator$u \in U ^ { 0 } ( P )$ and the relations$S _ { \omega } ( u ) = 0$for all$\omega > 0$. An additive basis for$U ^ { * } ( P )$is given by the fact that$U ^ { * } ( P )$is a free one-dimensional Λ-module, where Λ ≈$\Omega _ { U }$. We shall denote the module$U ^ { * } ( P )$by Λ.
 
@@ -1400,7 +1384,7 @@ $$
 \operatorname{Hom} _ {A ^ {U}} ^ {*} (A ^ {U}, \Lambda) = U _ {*} (P) = \Omega_ {U}.
 $$
 
-If d :$A ^ { U }  A ^ { U }$is a map such that$d ( 1 ) = a \in A ^ { U }$, then it is easy to see that $d ^ { * } ( h _ { x } ) = h _ { a ^ { * } ( x ) }$, where$h _ { x } \in { \mathrm { H o m } } _ { A ^ { U } } ( A ^ { U } , \Lambda ) , x \in \Lambda$, and$h _ { x }$is such that$h _ { x } ( 1 ) = x$ In particular, for$a = S _ { \omega }$we have$a ^ { * } = \sigma _ { \omega } ^ { * }$, and for$a = \partial , \Delta$we have$a ^ { * } = \partial ^ { * }$or $\Delta ^ { * }$, the known homomorphisms of the ring$\Omega _ { U }$
+If $d:A^U\to A^U$ is a map such that $d(1)=a\in A^U$, then it is easy to see that $d^*(h_x)=h_{a^*(x)}$, where $h_x\in\operatorname{Hom}_{A^U}(A^U,\Lambda)$, $x\in\Lambda$, and $h_x$ is such that $h_x(1)=x$. In particular, for $a=S_\omega$ we have $a^*=\sigma_\omega^*$, and for $a=\partial,\Delta$ we have $a^*=\partial^*$ or $\Delta^*$, the known homomorphisms of the ring $\Omega_U$.
 
 These remarks are essential for computing
 
@@ -1444,7 +1428,7 @@ In particular, au = 0 for$a = \Delta _ { ( k _ { 1 } , k _ { 2 } ) }$
 
 We have the important
 
-Theorem${ \bf 6 . 1 . \nabla \ a ) }$The module$U ^ { * } ( M S U )$is completely described by the relations $\partial ( u ) = 0 , \Delta ( u ) = 0$
+Theorem 6.1. a) The module $U^*(MSU)$ is completely described by the relations $\partial(u)=0$, $\Delta(u)=0$.
 
 b) The left annihilator of the operation ∂ consists of all operations of the form $a \partial + b \Delta , a , b \in A ^ { U }$
 
@@ -1468,7 +1452,7 @@ For the proof of (2) we note that$U _ { * } ( B S U )$is a direct summand in$U _
 
 U (BSU) with respect to the representation ˜a. Obviously,$A ^ { U } \partial = ( B + A ) \partial = A \partial$ If the operation$a \in A$is such that a∂ is divisible by the integer λ, then ˜a∂<sup>˜</sup> is divisible by λ, and hence for all SU-bundles ξ the characteristic class$\phi ^ { - 1 } \bar { a } ( \xi )$is divisible by λ. Hence this class is a λ-multiple class in$U ^ { * } ( B S U )$and (up to$J ( \gamma \sigma _ { 1 } ) )$ a λ-multiple class in$U ^ { * } ( B U )$. Whence follows fact (2).
 
-We deduce from (1) and (2) that the map$f \colon N \to U ^ { * } ( M S U )$is a monomorphism. Since$N = \dot { A } ^ { U } / A ^ { U } \Delta + { A } ^ { U } \partial$, it follows from (1) and (2) that the kernel Ker f is a direct summand. Since$A ^ { U } \Delta$is a free module and$\overset { \cdot } { A } { } ^ { U } \partial$is a module isomorphic to$U ^ { * } ( M S U )$with shifted dimension (see (1)), the equation Ker$f = 0$ follows from the calculation of ranks in the groups
+We deduce from (1) and (2) that the map $f:N\to U^*(MSU)$ is a monomorphism. Since $N=A^U/A^U\Delta+A^U\partial$, it follows from (1) and (2) that the kernel $\operatorname{Ker}f$ is a direct summand. Since $A^U\Delta$ is a free module and $A^U\partial$ is a module isomorphic to $U^*(MSU)$ with shifted dimension (see (1)), the equation $\operatorname{Ker}f=0$ follows from the calculation of ranks in the groups
 
 $$
 \begin{array}{c} (A ^ {U} \Delta \otimes_ {\Lambda} Z) ^ {k} = H ^ {(k - 4)} (M U, Z), \quad (A ^ {U} \partial \otimes_ {\Lambda} Z) ^ {k} = H ^ {k - 2} (M S U, Z), \\ (U ^ {*} (M S U) \otimes Z) ^ {k} = H ^ {k} (M S U, Z). \end{array}
@@ -1484,7 +1468,7 @@ $$
 \operatorname{Ext} _ {A ^ {U}} ^ {* *} (U ^ {*} (M S U), \Lambda)
 $$
 
-and all diferentials$d _ { i }$of the Adams spectral sequence$( E _ { r } , d _ { r } )$, where $E _ { 2 } ~ = ~ \mathrm { E x t } _ { A ^ { U } } ^ { * * } ( U ^ { * } ( M S U ) , \Lambda )$In particular, it turns out that$d _ { i } \ = \ 0$for $i \neq 3 , d _ { 3 } \neq 0$, and$E _ { \infty } ^ { i , * } = E _ { 4 } ^ { i , * } = 0$for$i \geq 3$
+and all differentials $d_i$ of the Adams spectral sequence $(E_r,d_r)$, where $E_2=\operatorname{Ext}_{A^U}^{**}(U^*(MSU),\Lambda)$. In particular, it turns out that $d_i=0$ for $i\ne3$, $d_3\ne0$, and $E_\infty^{i,*}=E_4^{i,*}=0$ for $i\ge3$.
 
 For the calculation of$\operatorname { E x t } _ { A ^ { U } } ^ { * * }$we consider the complex of$A ^ { U } .$-modules
 
@@ -1494,15 +1478,15 @@ $$
 
 where the generators are denoted by$u _ { i } \in C _ { i }$for$i \geq 0$and$v _ { i } \in C _ { i }$for$i \geq 1$ $C _ { 0 } = A ^ { U }$and$C _ { i } = A ^ { U } + A ^ { U }$for$i \geq 1$. We set$d ( u _ { i } ) = \partial u _ { i - 1 }$and$d ( v _ { i } ) = \Delta u _ { i - 1 }$ Since$\partial ^ { 2 } = 0$and$\Delta \partial = 0 , d ^ { 2 } = 0$. It follows from the theorem above that C is an acyclic resolution of the module$U ^ { * } ( M S U ) = H _ { 0 } ( C )$
 
-We now consider the complex Hom$_ { \cdot _ { A } v } ^ { * } ( C , \Lambda )$, where$\Lambda ~ = ~ U ^ { * } ( P )$Since Hom$\mathsf { \Pi } _ { \boldsymbol { A } ^ { U } } ^ { * } ( \boldsymbol { A } ^ { U } , \boldsymbol { \Lambda } ) = \Omega _ { U }$, we obtain the complex
+We now consider the complex $\operatorname{Hom}_{A^U}^*(C,\Lambda)$, where $\Lambda=U^*(P)$. Since $\operatorname{Hom}_{A^U}^*(A^U,\Lambda)=\Omega_U$, we obtain the complex
 
 $$
 \mathrm{Hom} _ {A ^ {U}} ^ {*} (C, \Lambda) = (\Omega_ {U} \xrightarrow {d ^ {*}} \Omega_ {U} + \Omega_ {U} \xrightarrow {d ^ {*}} \Omega_ {U} + \Omega_ {U} \xrightarrow {d ^ {*}} \dots),
 $$
 
-where$d ^ { * } = \partial ^ { * } + \Delta ^ { * } \colon \Omega _ { U }  \Omega _ { U } + \Omega _ { U }$
+where $d^*=\partial^*+\Delta^*:\Omega_U\to\Omega_U+\Omega_U$.
 
-Since$\Delta ^ { * }$is an epimorphism, the complex Hom${ } _ { \stackrel { * } { A } { U } } ^ { * } \left( C , \Lambda \right)$reduces to the following:
+Since $\Delta^*$ is an epimorphism, the complex $\operatorname{Hom}_{A^U}^*(C,\Lambda)$ reduces to the following:
 
 $$
 \tilde {W} = (W \xrightarrow {\partial^ {*}} W \xrightarrow {\partial^ {*}} W \xrightarrow {\partial^ {*}} \dots),
@@ -1522,21 +1506,21 @@ $$
 \mathrm{b)} \operatorname{Ext} _ {A ^ {U}} ^ {0, *} (U ^ {*} (M S U), \Lambda) = \operatorname{Ker} \partial^ {*} \cap \operatorname{Ker} \Delta^ {*} \subset \Omega_ {U}.
 $$
 
-c)$I f h \in \mathrm { E x t } _ { A ^ { \prime } } ^ { 1 , 2 } ( U ^ { * } ( M S U ) , \Lambda ) = Z _ { 2 }$is the nonzero element, then the homomorphism$\alpha  h \alpha \colon { \mathrm { E x t } } _ { A ^ { U } } ^ { i , * } \ { \overset { h } { \longrightarrow } } \ { \mathrm { E x t } } _ { A ^ { U } } ^ { i + 1 , * }$is an epimorphism with kernel Im$\partial ^ { * } \ f o r \ i = 0$1 and an isomorphism$f o r i \geq 1$(we recall that the spectrum MSU is multiplicative).
+c) If $h\in\operatorname{Ext}_{A^U}^{1,2}(U^*(MSU),\Lambda)=Z_2$ is the nonzero element, then the homomorphism $\alpha\mapsto h\alpha:\operatorname{Ext}_{A^U}^{i,*}\to\operatorname{Ext}_{A^U}^{i+1,*}$ is an epimorphism with kernel $\operatorname{Im}\partial^*$ for $i=0$ and an isomorphism for $i\ge1$ (we recall that the spectrum $MSU$ is multiplicative).
 
 Proof. Statements (a), (b) of the lemma obviously follow from the structure of the complex W, in which the grading of each term is shifted by 2 from the one before by the construction. For the proof of (c), we note that$h = \textstyle { \frac { 1 } { 2 } } \partial ^ { * } ( x _ { 1 } )$, where $x _ { 1 } = [ C P ^ { 1 } ] \in \Omega _ { U } , x _ { 1 } \in W$, and$\partial ^ { * } ( x _ { 1 } ) = - 2$. Further, we note that$\partial ^ { * } ( x _ { 1 } y ) = - 2 y$ if$\partial ^ { * } ( y ) = 0 .$. Hence the element hy is represented by the element$\frac { 1 } { 2 } \partial ^ { * } ( y x _ { 1 } )$for a representative of$y \in H ^ { * } ( \tilde { W } , \partial ^ { * } )$. But since$\frac { 1 } { 2 } \partial ^ { * } ( y x _ { 1 } ) = y$under the condition $\partial ^ { * } y = 0$, statement (c) is proved, and therewith the lemma.
 
-We consider the element$K = 9 x _ { 1 } ^ { 2 } - 8 x _ { 2 } \in \Omega _ { I J } ^ { 4 }$, where$x _ { 1 } = [ C P ^ { 1 } ] , x _ { 2 } = [ C P ^ { 2 } ]$ Clearly,$\partial ^ { * } K = \Delta ^ { * } K = 0$. The element K is a generator of the group
+We consider the element $K=9x_1^2-8x_2\in\Omega_U^4$, where $x_1=[CP^1]$, $x_2=[CP^2]$. Clearly, $\partial^*K=\Delta^*K=0$. The element $K$ is a generator of the group
 
 $$
-\mathrm{Ext} _ {A ^ {U}} ^ {0, 4} (U ^ {*} (M S U), \Lambda) = \mathrm{Ker} \partial^ {*} \cap \mathrm{Ker} \Lambda^ {*} = Z.
+\mathrm{Ext}_{A^U}^{0,4}(U^*(MSU),\Lambda)=\mathrm{Ker}\partial^*\cap\mathrm{Ker}\Delta^*=Z.
 $$
 
-Since$A [ K ] = \pm 1$, where$A = e ^ { - c _ { 1 / 2 } } T$and T is the Todd genus, by virtue of the Riemann–Roch theorem there is an i such that$d _ { i } ( K ) \neq 0$in the Adams spectral sequence, since for all 4-dimensional SU-manifolds the A-genus is even (see [20]).
+Since $A[K]=\pm1$, where $A=e^{-c_1/2}T$ and $T$ is the Todd genus, by virtue of the Riemann–Roch theorem there is an $i$ such that $d_i(K)\ne0$ in the Adams spectral sequence, since for all 4-dimensional $SU$-manifolds the $A$-genus is even (see [20]).
 
 It follows from dimensional considerations that$d _ { 2 } ( K ) = 0$and$d _ { 3 } ( K ) = h ^ { 3 }$
 
-We note that from dimensional considerations it follows trivially that$d _ { 2 k } = 0$ (see theorem in$\ S \ O ^ { 2 } )$. Consider the diferential
+We note that from dimensional considerations it follows trivially that $d_{2k}=0$ (see theorem in § 2). Consider the differential
 
 $$
 d _ {3} \colon E _ {3} ^ {p, q} \to E _ {3} ^ {p + 3, q + 2},
@@ -1610,19 +1594,9 @@ We now consider$d _ { 3 } ( K \mathrm { E x t } _ { A ^ { U } } ^ { 0 , 8 k _ { 
 
 Thus, we obtain
 
-$$
-\Omega_ {S U} ^ {i} / \operatorname{Tor} \subset \Omega_ {U}
-$$
+Corollary 7.3. a) The image $\Omega_{SU}^i/\operatorname{Tor}\subset\Omega_U^i$ coincides with $\operatorname{Ker}\partial^*\cap\operatorname{Ker}\Delta^*$ for $i\ne8k+4$.
 
-$$
-\partial^ {*} \cap \operatorname{Ker} \Delta^ {*}
-$$
-
-$$
-i \neq 8 k + 4
-$$
-
-b) For$i = 8 k + 4$the image$\Omega _ { A U } ^ { 8 k + 4 } / \mathrm { T o r } \subset \Omega _ { U } ^ { 8 k + 4 }$is picked out precisely by the requirement of the “Riemann–Roch Theorem”:
+b) For $i=8k+4$, the image $\Omega_{SU}^{8k+4}/\operatorname{Tor}\subset\Omega_U^{8k+4}$ is picked out precisely by the requirement of the “Riemann–Roch Theorem”:
 
 $$
 \operatorname{ch} (c \xi) A (X) [ X ] \equiv 0 \pmod {2},
@@ -1630,7 +1604,7 @@ $$
 
 where X is an$S U \mathbf { - } m a n i f o l d , \xi \in k O ( X )$
 
-We note that (a) follows immediately from the lemma. As to (b), we note that$A [ K ] = 1$. In [9], “Pontrjagin classes”$\mathrm { ~ , ~ } _ { \pi _ { l } } \in k O ^ { * } [ X ]$are introduced in kOtheory. Consider the classes$\pi _ { 2 l } \in { \widetilde { k O } } ( X )$; let$\pi _ { 2 l } = \kappa _ { l }$. Now consider the numbers$\mathrm { c h } ( \boldsymbol { c } \kappa _ { l _ { 1 } } \cdot \cdot \cdot \boldsymbol { c } \kappa _ { l _ { k } } ) A ( X ) [ X ]$for$X \in \dot { \Omega } _ { I J } ^ { \ 8 k } / \operatorname { T o r } \subset \Omega _ { I J } ^ { 8 k }$. These numbers are different from zero mod 2 if and only if$h X \neq 0$in$\bar { \Omega } _ { S U } ^ { 8 k + 1 }$. Hence the condition $d _ { 3 } ( K X ) ~ = ~ h ^ { 3 } X ~ \neq ~ 0$in$E _ { 3 } ^ { 3 , * }$is equivalent to the fact that one of the numbers $\mathrm { c h } ( c ( \kappa _ { l _ { 1 } } , \dots , \kappa _ { l _ { k } } ) ) A ( X ) [ X ] \ne 0$(mod 2). All such numbers are in 1-1 correspondence with partitions of 8k into summands$( 8 l _ { 1 } , \ldots , 8 l _ { k } )$(these facts are easily deduced from [9]).
+We note that (a) follows immediately from the lemma. As to (b), we note that $A[K]=1$. In [9], “Pontrjagin classes” $\pi_l\in kO^*(X)$ are introduced in $kO$-theory. Consider the classes $\pi_{2l}\in\widetilde{kO}(X)$; let $\pi_{2l}=\kappa_l$. Now consider the numbers $\operatorname{ch}(c\kappa_{l_1}\cdots c\kappa_{l_k})A(X)[X]$ for $X\in\Omega_U^{8k}/\operatorname{Tor}\subset\Omega_U^{8k}$. These numbers are different from zero mod 2 if and only if $hX\ne0$ in $\Omega_{SU}^{8k+1}$. Hence the condition $d_3(KX)=h^3X\ne0$ in $E_3^{3,*}$ is equivalent to the fact that one of the numbers $\operatorname{ch}(c(\kappa_{l_1},\dots,\kappa_{l_k}))A(X)[X]\ne0$ (mod 2). All such numbers are in 1-1 correspondence with partitions of $8k$ into summands $(8l_1,\ldots,8l_k)$ (these facts are easily deduced from [9]).
 
 Since$\mathrm { c h } ( c \kappa _ { l _ { 1 } } \cdot \cdot \cdot c \kappa _ { l _ { k } } \otimes 1 ) { \cal A } ( X \times K ) [ X \times K ] = \mathrm { c h } ( c \kappa _ { l _ { 1 } } \cdot \cdot \cdot c \kappa _ { l _ { k } } ) { \cal A } ( X ) [ X ] \circ { \cal A } [ K ]$ $A [ K ] = 1$, we have found elements$\kappa \boldsymbol { l } _ { 1 } \ldots \kappa \boldsymbol { l } _ { k } \otimes 1 \in k O ( X \times K )$which do not satisfy the Riemann–Roch theorem, and they determine$\pi ( k )$linearly independent forms mod 2, where$\pi ( k )$is the number of partitions of k. From this part (b) of the corollary follows.
 
@@ -1664,33 +1638,19 @@ $$
 
 where$( k ^ { n } \Psi ^ { k } ) \colon k ^ { 2 n } ( X ) \to k ^ { 2 n } ( X )$
 
-It is easy to see that this is well defined and gives rise to an unstable operation$( k ^ { n } \Psi ^ { k } )$such that$( k ^ { n } \Psi ^ { k } )$can be considered as a map$k _ { 2 n }  k _ { 2 n }$for which $( k ^ { n } \Psi ^ { k } ) _ { * } \colon \pi _ { 2 n + 2 j } ( k _ { 2 n } ) \to \pi _ { 2 n + 2 j } ( k _ { 2 n } )$is multiplication by$k ^ { n + j }$
+It is easy to see that this is well defined and gives rise to an unstable operation $(k^n\Psi^k)$ such that $(k^n\Psi^k)$ can be considered as a map $k_{2n}\to k_{2n}$ for which $(k^n\Psi^k)_*:\pi_{2n+2j}(k_{2n})\to\pi_{2n+2j}(k_{2n})$ is multiplication by $k^{n+j}$.
 
-$$
-a _ {n} = \sum_ {k} \lambda_ {k} ^ {(n)} (k ^ {n} \Psi^ {k})
-$$
-
-$$
-\lambda_ {k} ^ {(n)}
-$$
-
-$$
-a _ {n} ^ {(j) *}
-$$
-
-$$
-\sum_ {k} \lambda_ {k} ^ {(n)} k ^ {n + j}
-$$
+Let $a_n=\sum_k\lambda_k^{(n)}(k^n\Psi^k)$, where $\lambda_k^{(n)}$ are integers, be an unstable cohomology operation. Then $a_n^{(j)*}$ is multiplication by $\sum_k\lambda_k^{(n)}k^{n+j}$.
 
 Definition 8.1. The sequence$a = \left( a _ { n } \right)$will be called a stable operation if for any j there is a number n such that for all$N \geq n$the number$\hat { a _ { N } ^ { ( j ) } } \overset { \cdot } { = } \sum _ { k } \lambda _ { k } ^ { ( N ) } k ^ { N + j }$is independent of N.
 
 Definition 8.2. If the stable operation a has a zero of order$q$in the sense that $a _ { * } ^ { ( j ) } = 0$for$j \leq q ,$, then we also call$b = \left( x ^ { - q } a \right)$a stable operation, where$a = x ^ { q } b$ $b \colon k ^ { i } ( X ) \to k ^ { i + 2 q } ( X ) , X \in D$
 
-We consider the ring generated by the operations so constructed and the operation x by means of composition, taking into account the facts that$k x \Psi ^ { k } = \Psi ^ { k } x$ and$\Psi ^ { k } \bar { \Psi } ^ { \bar { l } } = \Psi ^ { k l }$. The resulting uniquely defined ring, which we denote by$A _ { \Psi } ^ { k }$, is a ring of operations acting in the category$D$. In it lies the subring of operations generated by the operations indicated in Definition 8.1 together with the periodicity x. This ring we denote by$B _ { \Psi } ^ { k } \subset A _ { \Psi } ^ { k }$. There is defined the inclusion$B _ { \Psi } ^ { k }  A _ { \Psi } ^ { k }$
+We consider the ring generated by the operations so constructed and the operation $x$ by means of composition, taking into account the facts that $kx\Psi^k=\Psi^kx$ and $\Psi^k\Psi^l=\Psi^{kl}$. The resulting uniquely defined ring, which we denote by $A_\Psi^k$, is a ring of operations acting in the category $D$. In it lies the subring of operations generated by the operations indicated in Definition 8.1 together with the periodicity $x$. This ring we denote by $B_\Psi^k\subset A_\Psi^k$. There is defined the inclusion $B_\Psi^k\to A_\Psi^k$.
 
 We shall exhibit a basis for the ring$A _ { \Psi } ^ { k }$. It is easy to see that it is possible to construct operations$\delta _ { i } \in A _ { \Psi } ^ { k }$of dimension$2 i .$, where$\delta _ { 0 } = 1$, such that the elements $x ^ { k } \delta _ { i }$give an additive topological basis for the ring$A _ { \Psi } ^ { k } .$, and all elements of$A _ { \Psi } ^ { k }$can be described as formal series$\sum \lambda _ { k } x ^ { k } \delta _ { k - i }$, where the$\lambda _ { k }$are integers. The choice of such elements$\delta _ { i }$is of course unique only mod$x A _ { \Psi } ^ { k }$(elements of higher filtration).
 
-We construct these elements$\delta _ { i }$in a canonical fashion: it sufices to define operations$\gamma _ { i } = x _ { i } \delta _ { i }$of dimension 0. Let$\delta _ { 0 } = 1$. Let$\gamma _ { 1 * } ^ { ( 0 ) } = 0$and$\gamma _ { 1 * } ^ { ( 1 ) }$be multiplication by 2. By definition, we shall take$\gamma _ { i * } ^ { ( j ) } = 0$for$j < i$and$\gamma _ { i * } ^ { ( i ) }$to be multiplication by a number$\tilde { \gamma } _ { i }$which is a linear combination$\tilde { \gamma } _ { i } = \sum _ { k } \mu _ { k } ^ { ( i ) } k ^ { n + i }$, where the numbers $\mu _ { k } ^ { ( i ) }$are such that$\sum _ { k } \mu _ { k } ^ { ( i ) } k ^ { n + i } = 0$for$j < i$. We require in addition that$\tilde { \gamma } _ { i }$be the smallest positive integer of all linear combinations of the form$\sum _ { k } \mu _ { k } ^ { ( i ) } k ^ { n + i }$under the conditions:
+We construct these elements $\delta_i$ in a canonical fashion: it suffices to define operations $\gamma_i=x_i\delta_i$ of dimension 0. Let $\delta_0=1$. Let $\gamma_{1*}^{(0)}=0$ and $\gamma_{1*}^{(1)}$ be multiplication by 2. By definition, we shall take $\gamma_{i*}^{(j)}=0$ for $j<i$ and $\gamma_{i*}^{(i)}$ to be multiplication by a number $\tilde\gamma_i$ which is a linear combination $\tilde\gamma_i=\sum_k\mu_k^{(i)}k^{n+i}$, where the numbers $\mu_k^{(i)}$ are such that $\sum_k\mu_k^{(i)}k^{n+i}=0$ for $j<i$. We require in addition that $\tilde\gamma_i$ be the smallest positive integer of all linear combinations of the form $\sum_k\mu_k^{(i)}k^{n+i}$ under the conditions:
 
 $$
 \sum_ {k} \mu_ {k} ^ {(i)} k ^ {n + i} = 0, \quad j <   i.
@@ -1706,21 +1666,21 @@ We exhibit a table of the integers$\gamma _ { i * } ^ { ( j ) } = \tilde { \gamm
 
 <table><tr><td></td><td> $\gamma_0$ </td><td> $\gamma_1$ </td><td> $\gamma_2$ </td><td></td></tr><tr><td>0</td><td>1</td><td>0</td><td>0</td><td>...</td></tr><tr><td>2</td><td>1</td><td>2</td><td>0</td><td>...</td></tr><tr><td>4</td><td>1</td><td>0</td><td>24</td><td>...</td></tr><tr><td></td><td colspan="4">......</td></tr></table>
 
-By definition,$\delta _ { i } = x ^ { - i } \gamma _ { i }$. It is clear that the operations$\gamma _ { i }$commute. Since$\pi _ { 2 i } ( B U )$ is$Z ,$the rings$A _ { \Psi } ^ { k }$and$B _ { \Psi } ^ { k }$are represented as operators on$k ^ { * } ( P ) = Z [ x ]$in a natural way, in particular, the operations of dimension 0 by diagonal operators with integral characteristic values; the operation x is represented by the translation operator (or multiplication by x in$k ^ { * } ( P ) _ { , }$). It is easy to show that we have a transformation $* \colon A _ { \Psi } ^ { k } \ \to \ A _ { \Psi } ^ { k }$such that$* ( B _ { \Psi } ^ { k } ) \subset B _ { \Psi } ^ { k }$and$a x \ = \ x a ^ { * }$. This transformation ∗ is completely determined by the condition that in$k ^ { * } \otimes Q \mathrm { - t h e o r y }$we have$k x \Psi ^ { k } = \Psi ^ { k } \Im$x and$\mathbf { \Psi } ^ { * } \Psi ^ { k } = k \Psi ^ { k }$
+By definition, $\delta_i=x^{-i}\gamma_i$. It is clear that the operations $\gamma_i$ commute. Since $\pi_{2i}(BU)$ is $Z$, the rings $A_\Psi^k$ and $B_\Psi^k$ are represented as operators on $k^*(P)=Z[x]$ in a natural way, in particular, the operations of dimension 0 by diagonal operators with integral characteristic values; the operation $x$ is represented by the translation operator (or multiplication by $x$ in $k^*(P)$). It is easy to show that we have a transformation $*:A_\Psi^k\to A_\Psi^k$ such that $*(B_\Psi^k)\subset B_\Psi^k$ and $ax=xa^*$. This transformation $*$ is completely determined by the condition that in $k^*\otimes Q$-theory we have $kx\Psi^k=\Psi^kx$ and $\Psi^{k*}\Psi^k=k\Psi^k$.
 
 We also indicate the following simple fact.
 
 Lemma 8.1. The greatest common divisor of the integers$\gamma _ { i * } ^ { ( q ) } = ( x ^ { i } \delta _ { i } ) _ { * } ^ { ( q ) }$for all $i > 0$, for a fixed integer q, coincides precisely with the greatest common divisor of the numbers$k ^ { N } ( k ^ { q } - 1 )$for all k. There exist operations$a _ { k , n } \in B _ { \Psi } ^ { k }$such that $a _ { k , n * } ^ { ( j ) } = k ^ { n + j } ~ f o r ~ j \leq f ( n )$, where$f ( n ) \to \infty \ a s \ n \to \infty$
 
-The proof of this consists of the fact that the operations$x ^ { i } \delta _ { i } = \gamma _ { i }$are obtained as linear combinations of the operations$k ^ { n } ( \Psi ^ { k } - 1 )$by virtue of the condition $\gamma _ { i * } ^ { ( 0 ) } = 0$for$i > 0$, where n is large, and the determinant of the transition from the$k ^ { n } ( \Psi ^ { k } - 1 )$to the$x ^ { i } \delta _ { i }$is equal to 1. In fact, the process described above for constructing$( x ^ { i } \delta _ { i } )$is the process of reduction of the set of transformations $k ^ { n } ( \Psi ^ { k } - 1 )$to the set$\gamma _ { i }$of “triangular type” on$Z [ x ] = k ^ { * } ( P )$. More exactly: let n be suficiently large that$\gamma _ { i , n * } ^ { ( j ) } = 0$for$j < i$and$\gamma _ { i , n * } ^ { ( i ) } = \tilde { \gamma } _ { i }$for$i < f ( n )$, where $f ( n ) \to \infty \mathrm { a s } n \to \infty$and$\begin{array} { r } { \gamma _ { i , n } = \sum \lambda _ { k , i } ^ { ( n ) } ( k ^ { n } \Psi ^ { k } ) } \end{array}$. Under the condition$\sum \lambda _ { k , i } ^ { ( n ) } k ^ { n } = 0$ one can write all these operations in the form$\sum \mu _ { k , i } ^ { ( n ) } k ^ { n } \big ( \Psi ^ { k } - 1 \big )$and then apply to the set$k ^ { n } ( \Psi ^ { k } - 1 )$the process of reduction to “triangular form” described above for constructing the operations$( x ^ { i } \delta _ { i } )$up to high dimensions. We assert that the passage from$\{ k ^ { n } ( \Psi ^ { k } - 1 ) \}$to$\{ \gamma _ { i , n } \}$is invertible. Indeed, any operation of the form $\textstyle \sum \lambda _ { k } k ^ { n } \Psi ^ { k }$has the form$\mu _ { 1 } \gamma _ { 1 , n } + b _ { 1 }$, where$b _ { 1 * } ^ { ( 0 ) } = b _ { 1 * } ^ { ( 1 ) } = 0$. Hence the operation$b _ { 1 }$ has the form$b _ { 1 } = \mu _ { 2 } \gamma _ { 2 , n } + b _ { 2 }$, where$b _ { 2 * } ^ { ( 0 ) } = b _ { 2 * } ^ { ( 1 ) } = b _ { 2 * } ^ { ( 2 ) } = 0$, etc.
+The proof of this consists of the fact that the operations $x^i\delta_i=\gamma_i$ are obtained as linear combinations of the operations $k^n(\Psi^k-1)$ by virtue of the condition $\gamma_{i*}^{(0)}=0$ for $i>0$, where $n$ is large, and the determinant of the transition from $k^n(\Psi^k-1)$ to $x^i\delta_i$ is equal to 1. In fact, the process described above for constructing $(x^i\delta_i)$ is the process of reduction of the set of transformations $k^n(\Psi^k-1)$ to the set $\gamma_i$ of “triangular type” on $Z[x]=k^*(P)$. More exactly: let $n$ be sufficiently large that $\gamma_{i,n*}^{(j)}=0$ for $j<i$ and $\gamma_{i,n*}^{(i)}=\tilde\gamma_i$ for $i<f(n)$, where $f(n)\to\infty$ as $n\to\infty$ and $\gamma_{i,n}=\sum\lambda_{k,i}^{(n)}(k^n\Psi^k)$. Under the condition $\sum\lambda_{k,i}^{(n)}k^n=0$ one can write all these operations in the form $\sum\mu_{k,i}^{(n)}k^n(\Psi^k-1)$ and then apply to the set $k^n(\Psi^k-1)$ the process of reduction to “triangular form” described above for constructing the operations $(x^i\delta_i)$ up to high dimensions. We assert that the passage from $\{k^n(\Psi^k-1)\}$ to $\{\gamma_{i,n}\}$ is invertible. Indeed, any operation of the form $\sum\lambda_k k^n\Psi^k$ has the form $\mu_1\gamma_{1,n}+b_1$, where $b_{1*}^{(0)}=b_{1*}^{(1)}=0$. Hence the operation $b_1$ has the form $b_1=\mu_2\gamma_{2,n}+b_2$, where $b_{2*}^{(0)}=b_{2*}^{(1)}=b_{2*}^{(2)}=0$, etc.
 
-Consequently,$a = \sum _ { i \leq f ( n ) } \mu _ { i } \gamma _ { i } + b _ { f ( n ) }$where$b _ { f ( n ) , * } ^ { ( j ) } = 0 , j \leq f _ { n }$. If$n  \infty .$ then$f ( n )  \infty$and the coeficients$\mu _ { i }$stabilize, while$\begin{array} { r } { a _ { n } = \sum \mu _ { i } x ^ { i } \delta _ { i } + b _ { f ( n ) } } \end{array}$if $a = ( a _ { n } ) \in B _ { \Psi } ^ { k }$. Since the greatest common divisor of the homomorphisms$a _ { * } ^ { ( j ) }$ for all$a \in B _ { \Psi } ^ { k }$such that$a _ { * } ^ { ( 0 ) } = 0$, is invariant and this invariant can be calculated with respect to any basis of operations in$B ^ { k }$such that$a _ { * } ^ { ( 0 ) } = 0$, we have that for the basis$\left( x _ { i } \delta _ { i } \right) = \left( \gamma _ { i } \right)$it coincides with the greatest common divisor for the basis $( k ^ { n } ( \Psi ^ { k } - 1 ) ) = b _ { k }$, where$b _ { k * } ^ { ( j ) } = k ^ { n } ( k ^ { j } - 1 )$. We note that the operations$( k ^ { n } \Psi ^ { k } )$ are nonstable, but, by virtue of what has been said, there exist operations${ a } _ { k , n }$such that$a _ { k , n * } ^ { ( j ) } = k ^ { n + j }$for$j \le f ( n )$, where$f ( n ) \to \infty { \mathrm { ~ a s ~ } } n \to \infty$. These operations are obtained by the transformation from$( x ^ { i } \delta _ { i } )$to$( k ^ { n } \Psi ^ { k } )$inverse to that described above.
+Consequently, $a=\sum_{i\le f(n)}\mu_i\gamma_i+b_{f(n)}$, where $b_{f(n),*}^{(j)}=0$ for $j\le f(n)$. If $n\to\infty$, then $f(n)\to\infty$ and the coefficients $\mu_i$ stabilize, while $a_n=\sum\mu_i x^i\delta_i+b_{f(n)}$ if $a=(a_n)\in B_\Psi^k$. Since the greatest common divisor of the homomorphisms $a_*^{(j)}$ for all $a\in B_\Psi^k$ such that $a_*^{(0)}=0$ is invariant and this invariant can be calculated with respect to any basis of operations in $B^k$ such that $a_*^{(0)}=0$, we have that for the basis $(x_i\delta_i)=(\gamma_i)$ it coincides with the greatest common divisor for the basis $(k^n(\Psi^k-1))=b_k$, where $b_{k*}^{(j)}=k^n(k^j-1)$. We note that the operations $(k^n\Psi^k)$ are nonstable, but, by virtue of what has been said, there exist operations $a_{k,n}$ such that $a_{k,n*}^{(j)}=k^{n+j}$ for $j\le f(n)$, where $f(n)\to\infty$ as $n\to\infty$. These operations are obtained by the transformation from $(x^i\delta_i)$ to $(k^n\Psi^k)$ inverse to that described above.
 
 The lemma is proved.
 
 Remark 8.1. The same operations$\Psi ^ { k }$in$k ^ { * } \otimes Q$are obtained as formal sums of the form$\sum \mu _ { i } x ^ { i } \delta _ { i } = \Psi ^ { k }$, where$\mu _ { i } \in Q$and$k ^ { n } \mu _ { i } \in Z$for large n and$i < f ( n )$
 
-Example 1. Let$X = P \in D$be the point spectrum. Then$k ^ { * } ( P )$has a single generator t as an$A _ { \Psi } ^ { k }$module and is given by the relations$\delta _ { i } ( t ) = 0 , i > 0$. The module$k ^ { * } ( P )$, as a$\bar { B } _ { \Psi } ^ { k } \mathrm { - m o d u l e } .$, has a single generator t and is given by the relations $( p ^ { n } \Psi ^ { p } ) ( t ) = p ^ { n } t$for all primes p (n large). (Or: all operations$a \in B _ { \Psi } ^ { k }$which have zeros of order one are such that$a t = 0 . )$1
+Example 1. Let $X=P\in D$ be the point spectrum. Then $k^*(P)$ has a single generator $t$ as an $A_\Psi^k$-module and is given by the relations $\delta_i(t)=0$, $i>0$. The module $k^*(P)$, as a $B_\Psi^k$-module, has a single generator $t$ and is given by the relations $(p^n\Psi^p)(t)=p^nt$ for all primes $p$ ($n$ large). (Or: all operations $a\in B_\Psi^k$ which have zeros of order one are such that $at=0$.)1
 
 Example 2. Let$X = M U _ { n }$. Then$k ^ { * } ( M U _ { n } )$can be described by the ideal in the ring of symmetric polynomials in the ring$\Lambda [ u _ { 1 } , \ldots , u _ { n } ]$, dim$u _ { i } = 2 i$, generated by $u = u _ { 1 } \ldots u _ { n }$. Let$v _ { i } = x u _ { i } , \Psi ^ { k } ( v _ { i } ^ { l } ) = ( ( v _ { i } + 1 ) ^ { k } - 1 ) ^ { l }$and$\Psi ^ { k } ( x y ) = \Psi ^ { k } ( x ) \Psi ^ { k } ( y )$ The elements of$k ^ { * } ( M U _ { n } )$have the form$\sum \lambda _ { i , s } x ^ { s } d _ { s }$, where$d _ { s } = f ( u _ { 1 } , \ldots , u _ { n } )$is an element of the symmetric ideal in$Z [ u _ { 1 } , \ldots , u _ { n } ]$generated by$u = u _ { 1 } \ldots u _ { n } ,$and x is the Bott operator. This uniquely determines$k ^ { * } ( M U _ { n } )$and$k ^ { * } ( M U )$as$A _ { \Psi } ^ { k } -$ and$B _ { \Psi } ^ { k } \mathrm { - m o d u l e s }$
 
@@ -1728,19 +1688,19 @@ We have the following
 
 Lemma 8.2. The ring$B _ { \Psi } ^ { k } \subset A _ { \Psi } ^ { k }$coincides exactly with the subring of$A _ { \Psi } ^ { k }$consisting of operations of dimension$\leq 0$
 
-The only thing which must be proved is that$B _ { \Psi } ^ { k }$contains all operations of dimension$\leq 0$. For a pair$a _ { 1 } \in B _ { \Psi } ^ { k } , a _ { 2 } \in B _ { \Psi } ^ { k }$of operations which have zeros of order$q _ { 1 } , q _ { 2 }$respectively, we introduce the operations$x ^ { - q _ { 1 } } a _ { 1 } = b _ { 1 }$and$x ^ { - q _ { 2 } } a _ { 2 } = b _ { 2 }$ and the composition$b _ { 1 } \circ b _ { 2 }$in$A _ { \Psi } ^ { k }$. We shall show that$x ^ { q _ { 1 } + q _ { 2 } } b _ { 1 } \circ b _ { 2 }$lies in$B _ { \Psi } ^ { k }$if $x ^ { q _ { 1 } } b _ { 1 } \in B _ { \Psi } ^ { k }$. Let$a _ { 1 n } = \sum _ { k } \lambda _ { k } ^ { ( n ) } k ^ { n } \bar { \Psi } ^ { k }$and$a _ { 2 n } = \sum _ { k } \mu _ { k } ^ { ( n ) } k ^ { n } \Psi ^ { k }$. We consider
+The only thing which must be proved is that $B_\Psi^k$ contains all operations of dimension $\le0$. For a pair $a_1\in B_\Psi^k$, $a_2\in B_\Psi^k$ of operations which have zeros of order $q_1$, $q_2$ respectively, we introduce the operations $x^{-q_1}a_1=b_1$ and $x^{-q_2}a_2=b_2$ and the composition $b_1\circ b_2$ in $A_\Psi^k$. We shall show that $x^{q_1+q_2}b_1\circ b_2$ lies in $B_\Psi^k$ if $x^{q_1}b_1\in B_\Psi^k$. Let $a_{1n}=\sum_k\lambda_k^{(n)}k^n\Psi^k$ and $a_{2n}=\sum_k\mu_k^{(n)}k^n\Psi^k$. We consider
 
 $$
-\begin{array}{l} x ^ {q _ {1} + q _ {2}} b _ {1 n} \cdot b _ {2 n} = x _ {1} ^ {q _ {1} + q _ {2}} x ^ {- q _ {1}} a _ {1 n} x ^ {- q _ {2}} a _ {2 n} \\ = \left(\sum_ {k} \lambda_ {k} ^ {(n)} k ^ {(n - q _ {2})} \Psi^ {k}\right) \left(\sum_ {k} \mu_ {k} ^ {(n)} k ^ {n} \Psi^ {k}\right) \end{array}
+\begin{array}{l} x^{q_1+q_2}b_{1n}\cdot b_{2n}=x^{q_1+q_2}x^{-q_1}a_{1n}x^{-q_2}a_{2n} \\ =\left(\sum_k\lambda_k^{(n)}k^{n-q_2}\Psi^k\right)\left(\sum_k\mu_k^{(n)}k^n\Psi^k\right) \end{array}
 $$
 
-{using$k ^ { q _ { 2 } } x ^ { q _ { 2 } } \Psi ^ { k } = \Psi ^ { k } x ^ { q _ { 2 } } \}$. We shall assume that n is very large,$n  \infty , q _ { 1 }$and $q _ { 2 }$are fixed. We set$m = n - q _ { 2 }$. Then
+{using $k^{q_2}x^{q_2}\Psi^k=\Psi^kx^{q_2}$.} We shall assume that $n$ is very large, $n\to\infty$, and $q_1,q_2$ are fixed. We set $m=n-q_2$. Then
 
 $$
 \begin{array}{l} \left(\sum_ {k} \lambda_ {k} ^ {(n)} k ^ {m} \Psi^ {k}\right) \left(\sum_ {k} \mu_ {k} ^ {(n)} k ^ {q _ {2}} k ^ {m} \Psi^ {k}\right) \\ = \left(\sum_ {k} \bar {\lambda} _ {k} ^ {(m)} k ^ {m} \Psi^ {k}\right) \left(\sum_ {k} \bar {\mu} _ {k} ^ {(m)} k ^ {m} \Psi^ {k}\right), \end{array}
 $$
 
-where$\lambda _ { k } ^ { ( m ) } = \lambda _ { k } ^ { ( n ) }$and$\bar { \mu } _ { k } ^ { ( m ) } = k ^ { q ^ { 2 } } \mu _ { k } ^ { ( n ) }$. Clearly, as$m \to \infty$we have a composition of operations in$B _ { \Psi } ^ { k }$which lies in$B _ { \Psi } ^ { k }$
+where $\bar\lambda_k^{(m)}=\lambda_k^{(n)}$ and $\bar\mu_k^{(m)}=k^{q_2}\mu_k^{(n)}$. Clearly, as $m\to\infty$ we have a composition of operations in $B_\Psi^k$ which lies in $B_\Psi^k$.
 
 The lemma is proved.
 
@@ -1760,7 +1720,7 @@ $$
 
 while$d u = t$and$d u _ { p } = \kappa _ { p } ( u )$, where$u , ~ u _ { p }$are free generators of the modules $B _ { \Psi } ^ { k } = C _ { 0 } , B _ { \Psi , p } ^ { k } \subset C _ { 1 }$, respectively.
 
-We consider the complex Hom$\mathsf { \Omega } _ { B _ { \Psi } ^ { k } } ^ { * } \left( C , k ^ { * } ( P ) \right)$
+We consider the complex $\operatorname{Hom}_{B_\Psi^k}^*(C,k^*(P))$.
 
 Let$h _ { i } \in \mathrm { H o m } _ { B _ { \Psi } ^ { k } } ^ { 2 i } ( C _ { 0 } , k ^ { * } ( P ) )$be elements such that$h _ { i } ( u ) = x ^ { i } ( t )$and$h _ { i } ^ { ( p ) } \in$ Hom$^ { * } ( C _ { 1 } , k ^ { * } ( P ) )$) be such that$h _ { i } ^ { ( p ) } ( u _ { p } ) = x ^ { i } ( t )$and$0 = h _ { i } ^ { ( p ) } ( u _ { p ^ { \prime } } )$for$\boldsymbol { p ^ { \prime } } \neq \boldsymbol { p }$
 
@@ -1770,17 +1730,17 @@ $$
 \begin{array}{r} (d ^ {*} h _ {i}, u _ {p}) = (h _ {i}, \kappa_ {p} u) = \kappa_ {p} x ^ {i} (t) \\ = p ^ {n} (\Psi^ {p} - 1) x ^ {i} (t) = p ^ {n} (p ^ {i} - 1) x ^ {i} (t). \end{array}
 $$
 
-Hence,$d ^ { * } h _ { i } = \sum _ { p } p ^ { n } ( p ^ { i } - 1 ) h _ { i } ^ { ( p ) }$. Thus,$\frac { d ^ { * } ( h _ { i } ) } { \{ p ^ { n } ( p ^ { i } - 1 ) \} _ { p } }$is a 1-cocycle for the operator $d ^ { * }$. Since Hom${ } ^ { * } ( \mathbf { \epsilon } , k ^ { * } ( P ) )$is a free abelian group, the element$\frac { d ^ { * } ( h _ { i } ) } { \{ p ^ { n } ( p ^ { i } - 1 ) \} _ { p } }$is the unique element of finite order equal to$d _ { i }$in the group$\mathrm { E x t } _ { B _ { \Psi } ^ { k } } ^ { 1 , 2 i } ( k ^ { * } ( { \cal P } ) , k ^ { * } ( { \cal P } ) ) , d _ { i } =$ $\{ p ^ { n } ( p ^ { i } - 1 ) \} _ { p } , n \to \infty$
+Hence, $d^*h_i=\sum_p p^n(p^i-1)h_i^{(p)}$. Thus, $\frac{d^*(h_i)}{\{p^n(p^i-1)\}_p}$ is a 1-cocycle for the operator $d^*$. Since $\operatorname{Hom}^*(\ ,k^*(P))$ is a free abelian group, the element $\frac{d^*(h_i)}{\{p^n(p^i-1)\}_p}$ is the unique element of finite order equal to $d_i$ in the group $\operatorname{Ext}_{B_\Psi^k}^{1,2i}(k^*(P),k^*(P))$, $d_i=\{p^n(p^i-1)\}_p$, $n\to\infty$.
 
 The lemma is proved.
 
-Note that the computation of Ext${ } _ { B _ { \Psi } ^ { k } } ^ { * * } \left( k ^ { * } ( P ) , k ^ { * } ( P ) \right)$presents no dificulties, since the module$k ^ { * } ( P )$has a$B _ { \Psi } ^ { k }$-free resolution which coincides with the complex for the polynomial algebra$Z [ \gamma _ { 2 } , \dots , \gamma _ { p } , \dots ]$, as long as the operator x acts freely on $k ^ { * } ( P ) , B _ { \Psi } ^ { k }$
+Note that the computation of Ext${ } _ { B _ { \Psi } ^ { k } } ^ { * * } \left( k ^ { * } ( P ) , k ^ { * } ( P ) \right)$presents no difficulties, since the module$k ^ { * } ( P )$has a$B _ { \Psi } ^ { k }$-free resolution which coincides with the complex for the polynomial algebra$Z [ \gamma _ { 2 } , \dots , \gamma _ { p } , \dots ]$, as long as the operator x acts freely on $k ^ { * } ( P ) , B _ { \Psi } ^ { k }$
 
 We have
 
 Theorem 8.1. The groups$\operatorname { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 i } ( k ^ { * } ( P ) , k ^ { * } ( P ) )$are cyclic groups of order$d _ { i } =$ $\{ p ^ { n } ( p ^ { i } - 1 ) \} _ { p }$, where n is large.
 
-Proof. It is easy to see that the algebra$A _ { \Psi } ^ { k } \otimes Q$is precisely the algebra of operations in k-theory$k ^ { * } \otimes Q$. Hence, by virtue of$\ S \ 2 ,$, we have:
+Proof. It is easy to see that the algebra $A_\Psi^k\otimes Q$ is precisely the algebra of operations in $k$-theory $k^*\otimes Q$. Hence, by virtue of § 2, we have:
 
 $$
 \operatorname{Ext} _ {A _ {\Psi} ^ {k} \otimes Q} ^ {s, *} (k ^ {*} (P) \otimes Q, k ^ {*} (P) \otimes Q) = \operatorname{Ext} _ {A _ {\Psi} ^ {k}} ^ {s, *} (k (P), k (P) \otimes Q) = 0
@@ -1800,7 +1760,7 @@ $$
 \left(\dots \xrightarrow {\bar {d}} \sum_ {i} A _ {\Psi , i} ^ {k} \xrightarrow {\bar {d}} A _ {\Psi} ^ {k} \xrightarrow {\varepsilon} k ^ {*} (P)\right) = \bar {C},
 $$
 
-where$\bar { d } ( v _ { i } ) = x ^ { i } \delta _ { i } ( v )$) and$v _ { i } , v$are free generators. We shall show that the complex $\bar { C }$is such that in the group
+where$\bar { d } ( v _ { i } ) = x ^ { i } \delta _ { i } ( v )$ and$v _ { i } , v$are free generators. We shall show that the complex $\bar { C }$is such that in the group
 
 $$
 H _ {1} (\mathrm{Hom} _ {A _ {\Psi} ^ {k}} ^ {*} (\bar {C}, k ^ {*} (P)), \bar {d} ^ {*})
@@ -1824,7 +1784,7 @@ $$
 \bar {d} ^ {*} h _ {j} = \sum \mu_ {i} ^ {(j)} h _ {i} ^ {(j)},
 $$
 
-where$h _ { j } ^ { ( i ) } ( v _ { i } ) = x ^ { j } ( t )$and the numbers$\mu _ { i } ^ { ( j ) }$are the same. We note that the order of the group$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 j }$is precisely the greatest common divisor of the numbers$\mu _ { i } ^ { ( j ) }$as i varies, and a generator is$d ^ { * } ( h _ { j } ) / \{ \mu _ { i } ^ { ( j ) } \} .$. Since the elements$( x ^ { i } \delta _ { i } )$give a system of relations in$k ^ { * } ( P )$over the ring$B _ { \Psi } ^ { k } \subset A _ { \Psi } ^ { k }$, the same integers$\mu _ { i } ^ { ( j ) }$give the torsion part of$\mathrm { E x t } _ { B _ { \mathrm { v } } ^ { k } } ^ { 1 , 2 j }$, since the complex$\bar { C }$over$A _ { \Psi } ^ { k }$is a segment of a$B _ { \Psi } ^ { k }$-resolution of the module$k ^ { * } ( P )$. By virtue of the lemma, we get the required result. The theorem is proved.
+where$h _ { j } ^ { ( i ) } ( v _ { i } ) = x ^ { j } ( t )$and the numbers$\mu _ { i } ^ { ( j ) }$are the same. We note that the order of the group$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 j }$is precisely the greatest common divisor of the numbers$\mu _ { i } ^ { ( j ) }$as i varies, and a generator is$d ^ { * } ( h _ { j } ) / \{ \mu _ { i } ^ { ( j ) } \} .$. Since the elements$( x ^ { i } \delta _ { i } )$give a system of relations in$k ^ { * } ( P )$over the ring$B _ { \Psi } ^ { k } \subset A _ { \Psi } ^ { k }$, the same integers$\mu _ { i } ^ { ( j ) }$give the torsion part of$\mathrm { E x t } _ { B _ { \Psi } ^ { k } } ^ { 1 , 2 j }$, since the complex$\bar { C }$over$A _ { \Psi } ^ { k }$is a segment of a$B _ { \Psi } ^ { k }$-resolution of the module$k ^ { * } ( P )$. By virtue of the lemma, we get the required result. The theorem is proved.
 
 We now pass to the module$k ^ { * } ( M U )$
 
@@ -1836,7 +1796,7 @@ $$
 \operatorname{Hom} _ {A _ {\Psi} ^ {k}} ^ {*} (k ^ {*} (M U), k ^ {*} (X)) = U ^ {*} (X).
 $$
 
-The proof of this assertion is essentially a straightforward consequence of the result of [22] concerning the fact that the Riemann–Roch theorem on the integrality of the number ch$\xi T ( X ) [ X ]$gives a complete set of congruence relations on Chern numbers in$\Omega _ { U }$. More precisely: if$[ X ] \in \Omega _ { U }$indivisible element, then there exists$\xi \in K ( X )$such that ch$\xi T ( X ) [ X ] = 1$. By virtue of the properties of the Thom isomorphism in K-theory, this assertion is equivalent to the following: for any indivisible element$\alpha \in \pi _ { * } ( M U )$, there exists$\xi \ \in \ K ^ { 0 } ( M U )$such that (ch$\xi , H \alpha ) = 1$, where$H \colon \pi _ { * } \ \to \ H _ { * }$is the Hurewicz homomorphism. Let $\beta \in \operatorname { H o m } _ { A _ { \mathrm { r } } ^ { k } } ^ { * } ( k ^ { * } ( M U ) , k ^ { * } ( P ) )$; then the number$( \cosh \xi , \beta )$is also an integer by virtue of Bott periodicity. Both groups Hom${ _ { A _ { \mathrm { \tiny ~ r } } ^ { * } } } ( k ^ { * } ( M U ) , k ^ { * } ( P ) )$) and$\pi _ { * } ( M U )$have no torsion. {Note that Hom$_ { A _ { \mathfrak { s r } } ^ { k } } ( k ^ { * } ( M U ) , k ^ { * } ( P ) ) \subset k ^ { * } ( P )$, for$k ^ { * } ( M U )$is cyclic on $u _ { n } . \}$Hence π$_ { * } ( M U ) \subset \mathrm { H o m } _ { A _ { \Psi } ^ { k } } ^ { * } . \mathrm { ~ B y ~ }$virtue of what was said about the indivisibility of the numbers$( \mathrm { c h } \xi , H \alpha ) \alpha \in \dot { \pi } _ { * } ( M U )$, the group$\pi _ { * } ( M U )$is indivisible in$\operatorname { H o m } _ { A _ { \Psi } ^ { k } } ^ { * }$ Since the ranks of these groups coincide, the groups coincide. Thus the assertion is proved for the point spectrum.
+The proof of this assertion is essentially a straightforward consequence of the result of [22] concerning the fact that the Riemann–Roch theorem on the integrality of the number $\operatorname{ch}\xi\,T(X)[X]$ gives a complete set of congruence relations on Chern numbers in $\Omega_U$. More precisely, if $[X]\in\Omega_U$ is an indivisible element, then there exists $\xi\in K(X)$ such that $\operatorname{ch}\xi\,T(X)[X]=1$. By virtue of the properties of the Thom isomorphism in K-theory, this assertion is equivalent to the following: for any indivisible element $\alpha\in\pi_*(MU)$, there exists $\xi\in K^0(MU)$ such that $(\operatorname{ch}\xi,H\alpha)=1$, where $H:\pi_*\to H_*$ is the Hurewicz homomorphism. Let $\beta\in\operatorname{Hom}_{A_\Psi^k}^*(k^*(MU),k^*(P))$; then the number $(\operatorname{ch}\xi,\beta)$ is also an integer by virtue of Bott periodicity. Both groups $\operatorname{Hom}_{A_\Psi^k}^*(k^*(MU),k^*(P))$ and $\pi_*(MU)$ have no torsion. (Note that $\operatorname{Hom}_{A_\Psi^k}(k^*(MU),k^*(P))\subset k^*(P)$, for $k^*(MU)$ is cyclic on $u_n$.) Hence $\pi_*(MU)\subset\operatorname{Hom}_{A_\Psi^k}^*$. By virtue of what was said about the indivisibility of the numbers $(\operatorname{ch}\xi,H\alpha)$ for $\alpha\in\pi_*(MU)$, the group $\pi_*(MU)$ is indivisible in $\operatorname{Hom}_{A_\Psi^k}^*$. Since the ranks of these groups coincide, the groups coincide. Thus the assertion is proved for the point spectrum.
 
 Let$X \in D , X _ { 1 } , X _ { 2 } \in D$, with$X _ { 1 }$a skeleton of X,$X _ { 2 } = X / X _ { 1 }$; we have exact sequences:
 
@@ -1860,7 +1820,7 @@ is an epimorphism, since$i ^ { * }$is an epimorphism and$\gamma$is an isomorphis
 
 Remark 8.2. In what follows it will become clear that the groups$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { i , * } ( k ^ { * } ( M U ) , k ^ { * } ( P ) )$ are nontrivial even for$i = 1$, and the question of their computation is extraordinarily important (see § 9, 11).
 
-By analogy with the rings$A _ { \Psi } ^ { k }$and$B _ { \Psi } ^ { k }$it is possible to construct analogous rings $A _ { \Psi } ^ { k O }$and${ \cal B } _ { \Psi } ^ { \bar { k } O } . \quad \mathrm { L e t } k O ^ { * }$be the theory defined by the spectrum$k O$such that $\Omega ^ { \hat { 8 } n } k O _ { n } = \hat { B } O \times Z \mathrm { ~ ( s e e ~ \ S ~ 3 ) ~ }$. The cohomology ring of a point$k O ^ { * } ( P ) = \Lambda _ { O }$is described as follows: generators$1 \in \Lambda _ { O } ^ { 0 } , h \in \bar { \Lambda } _ { O } ^ { - 1 } , \overline { { v } } \in \Lambda _ { O } ^ { - 4 } , w \in \Lambda _ { O } ^ { - 8 } ;$relations $2 h = 0 , h ^ { 3 } = 0 , h v = 0 , v ^ { 2 } = 4 w$
+By analogy with the rings $A_\Psi^k$ and $B_\Psi^k$, it is possible to construct analogous rings $A_\Psi^{kO}$ and $B_\Psi^{kO}$. Let $kO^*$ be the theory defined by the spectrum $kO$ such that $\Omega^{8n}kO_{8n}=BO\times Z$ (see § 3). The cohomology ring of a point, $kO^*(P)=\Lambda_O$, is described as follows: generators $1\in\Lambda_O^0$, $h\in\Lambda_O^{-1}$, $v\in\Lambda_O^{-4}$, $w\in\Lambda_O^{-8}$; relations $2h=0$, $h^3=0$, $hv=0$, $v^2=4w$.
 
 We have the “complexification” operator
 
@@ -1868,7 +1828,7 @@ $$
 c \colon k O ^ {*} \to k ^ {*}
 $$
 
-such that$c ( h ) = 0 , c ( v ) = 2 x ^ { 2 } , c ( w ) = x ^ { 4 }$, where x is the Bott periodicity operator. In the theory$k O ^ { * }$it is possible by analogy with the theory$k ^ { * }$to introduce operations$( k ^ { n } \Psi ^ { k } )$and their combinations$\begin{array} { r } { a = ( a _ { n } ) , \ a _ { n } = \sum \lambda _ { k } ^ { ( n ) } ( k ^ { n } \Psi ^ { k } ) } \end{array}$, where $a _ { n * } ^ { ( j ) }$does not depend on$n .$. The ring of such operators is identical to the analogous ring for k<sup>∗</sup>-theory which lies in$B _ { \Psi } ^ { k }$. The ring$\bar { B _ { \Psi } ^ { k O } }$is composed, in a fashion identical to that for the ring$B _ { \Psi } ^ { k }$, from such operators$a = \left( a _ { n } \right)$constructed from$\Psi ^ { k }$and from the multiplication operators on$\Lambda _ { { \cal O } } = k { \cal O } ^ { * } ( { \cal P } )$, keeping in mind the following commutativity relations:${ \mathrm { \bar { \Psi } } } ^ { k } h = k h \Psi ^ { k } ; \Psi ^ { k } v = { \dot { k } } ^ { 2 } v \Psi ^ { k } ; { \hat { \Psi } } ^ { k } w = k ^ { 4 } w \Psi ^ { k }$. We denote the resulting ring by$B _ { \Psi } ^ { k O }$. Similarly, it is possible to construct a ring$A _ { \Psi } ^ { k O }$also, but we shall not consider this ring in what follows.
+We have the “complexification” operator $c:kO^*\to k^*$ such that $c(h)=0$, $c(v)=2x^2$, $c(w)=x^4$, where $x$ is the Bott periodicity operator. In the theory $kO^*$ it is possible by analogy with the theory $k^*$ to introduce operations $(k^n\Psi^k)$ and their combinations $a=(a_n)$, $a_n=\sum\lambda_k^{(n)}(k^n\Psi^k)$, where $a_{n*}^{(j)}$ does not depend on $n$. The ring of such operators is identical to the analogous ring for $k^*$-theory, which lies in $B_\Psi^k$. The ring $B_\Psi^{kO}$ is composed, in a fashion identical to that for the ring $B_\Psi^k$, from such operators $a=(a_n)$ constructed from $\Psi^k$ and from the multiplication operators on $\Lambda_O=kO^*(P)$, keeping in mind the following commutativity relations: $\Psi^k h=kh\Psi^k$; $\Psi^k v=k^2v\Psi^k$; $\Psi^k w=k^4w\Psi^k$. We denote the resulting ring by $B_\Psi^{kO}$. Similarly, it is possible to construct a ring $A_\Psi^{kO}$ also, but we shall not consider this ring in what follows.
 
 We consider the category$B \subset D \subset S$
 
@@ -1876,7 +1836,7 @@ We consider the category$B \subset D \subset S$
 
 2) the operation of the ring$B _ { \Psi } ^ { k O }$is well-defined in$B ^ { \prime }$. As is easy to see, the spheres$S ^ { n }$(their spectra in S) lie in$B ^ { \prime }$by definition, since$k O ^ { * } ( S ^ { n } ) \approx k O ^ { * } ( P )$
 
-If$f \colon S ^ { n + k } \to S ^ { n }$is a mapping, then a necessary and suficient condition for the complex$D ^ { n + k + 1 } \cup _ { f } S ^ { n }$to belong to$B ^ { \prime }$is that$f ^ { * } = 0 , f ^ { * } \colon k O ^ { * } ( S ^ { n } ) \to k O ^ { * } ( S ^ { n + k } )$
+If $f:S^{n+k}\to S^n$ is a mapping, then a necessary and sufficient condition for the complex $D^{n+k+1}\cup_f S^n$ to belong to $B'$ is that $f^*=0$, $f^*:kO^*(S^n)\to kO^*(S^{n+k})$.
 
 In the category$B \supset B ^ { \prime }$the operation of the ring$\tilde { B } _ { \Psi } ^ { k O }$is well-defined, the latter being a priori an extension$B _ { \Psi } ^ { k O } \to B _ { \Psi } ^ { k }$, since in view of the presence of torsion in $A _ { O } = k O ^ { * } ( P )$the operation is not defined by its own representation on$k O ^ { * } ( P )$ in contrast to$k ^ { * } .$-theory in the category$D$
 
@@ -1903,7 +1863,7 @@ $$
 and
 
 $$
-\mathrm{Ext} _ {B _ {\Psi} ^ {k O}} ^ {0 s} (\Lambda_ {O}, \Lambda_ {O}) = Z _ {2} \quad \mathrm{for} \quad s = 8 k + 1, 8 k + 2.
+\mathrm{Ext}_{B_\Psi^{kO}}^{0,s}(\Lambda_O,\Lambda_O)=Z_2\quad\mathrm{for}\quad s=8k+1,8k+2.
 $$
 
 We have a natural ring homomorphism$\tau \colon B _ { \Psi } ^ { k O } \to B _ { \Psi } ^ { k }$generated by the homomorphism$c \colon k O ^ { * } ( P ) \to k ^ { * } ( P )$, and consequently a homomorphism
@@ -1912,7 +1872,7 @@ $$
 \begin{array}{c} \tilde {c} \colon \operatorname{Ext} _ {B _ {\Psi} ^ {k O}} ^ {1, 4 k} (\Lambda_ {O}, \Lambda_ {O}) \to \operatorname{Ext} _ {B _ {\Psi} ^ {k}} ^ {1, 4 k} (\Lambda , \Lambda), \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \Lambda = k ^ {*} (P), \quad \Lambda_ {O} = k O ^ {*} (P), \end{array}
 $$
 
-whose image has, as is easy to see, index 1 for$k = 2 l$and index 2 for$k = 2 l + 1$ in consequence of the fact that the image of the homomorphism$c \colon k O ^ { t } \to k ^ { t }$has index 1 for$t = 8 l$and 2 for$t = 8 l + 4$. Later, in$\ S \ : 9$, this homomorphism will be considered from another point of view.
+whose image has, as is easy to see, index 1 for $k=2l$ and index 2 for $k=2l+1$, in consequence of the fact that the image of the homomorphism $c:kO^t\to k^t$ has index 1 for $t=8l$ and 2 for $t=8l+4$. Later, in § 9, this homomorphism will be considered from another point of view.
 
 There is defined an element$h \in \mathrm { E x t } _ { B _ { \Psi } ^ { k O } } ^ { 0 , 1 } ( \Lambda _ { O } , \Lambda _ { O } )$such that$2 h = 0 , h ^ { 3 } = 0$ while multiplication by h
 
@@ -1934,11 +1894,11 @@ $$
 q _ {1} \colon \pi_ {*} (S ^ {n}) \to \operatorname{Ext} _ {B _ {\Psi} ^ {k O}} ^ {1, *} (\Lambda_ {O}, \Lambda_ {O})
 $$
 
-are easy to study: namely,$q _ { 0 }$is an epimorphism (see [9]), and the image Im$q _ { 1 }$is realized by the image of$q _ { 1 } \circ J$, where$J \colon \pi _ { * } ( S O )  \pi _ { * } ( S ^ { n } )$, and is nontrivial in dimensions$( 1 , 4 k ) , ( 1 , 8 k + 1 ) , ( 1 , 8 k + 2 )$
+are easy to study: namely, $q_0$ is an epimorphism (see [9]), and the image $\operatorname{Im}q_1$ is realized by the image of $q_1\circ J$, where $J:\pi_*(SO)\to\pi_*(S^n)$, and is nontrivial in dimensions $(1,4k)$, $(1,8k+1)$, $(1,8k+2)$.
 
 ## § 9. Relations between different cohomology theories. Generalized Hopf invariant. U-cobordism, k-theory,$Z _ { p }$-cohomology
 
-Let$X \in { \vec { S } }$be a cohomology theory. Suppose given a subcategory$B \in { \vec { S } } .$. We define the notion of the “Steenrod$\mathrm { r i n g } ^ { \prime \prime } \ A _ { B } ^ { X }$of the theory$X ^ { * }$in the subcategory B: the ring$A _ { B } ^ { X }$is the set of transformations$\mathsf { \partial } \theta _ { K } \colon X ^ { * } ( K ) \to X ^ { * } ( K )$which commute with the morphisms of the category B (according to Serre). The ring$A _ { B } ^ { X }$contains the factor-ring$A ^ { X } / J ( B )$, where$J ( B )$consists of all operations which vanish on the category B.
+Let $X\in\vec S$ be a cohomology theory. Suppose given a subcategory $B\in\vec S$. We define the notion of the “Steenrod ring” $A_B^X$ of the theory $X^*$ in the subcategory $B$: the ring $A_B^X$ is the set of transformations $\theta_K:X^*(K)\to X^*(K)$ which commute with the morphisms of the category $B$ (according to Serre). The ring $A_B^X$ contains the factor ring $A^X/J(B)$, where $J(B)$ consists of all operations which vanish on the category $B$.
 
 We now define “the generalized Hopf invariant:” let
 
@@ -1946,7 +1906,7 @@ $$
 g \colon K _ {1} \to K _ {2}
 $$
 
-be a morphism in B such that the object$C K _ { 1 } \cup _ { g } K _ { 2 } \ ( = 0 + _ { K _ { 1 } } K _ { 2 }$in the notation of$\ S \ 1 , \ \mathrm { i . e . }$., the sum with respect to the inclusions$K _ { 1 } \stackrel { g } {  }$and$K _ { 1 } \ \overset { g } { \longrightarrow } \ K _ { 2 } )$also lies in B.
+be a morphism in $B$ such that the object $CK_1\cup_gK_2$ (=$0+_{K_1}K_2$ in the notation of § 1, i.e., the sum with respect to the inclusions $K_1\to CK_1$ and $K_1\xrightarrow{g}K_2$) also lies in $B$.
 
 We have an exact sequence
 
@@ -1958,7 +1918,7 @@ $$
 0 \to X ^ {*} (K _ {1}) \to X ^ {*} (C K _ {1} \cup_ {g} K _ {2}) \to X ^ {*} (K _ {2}) \to 0,
 $$
 
-where$X ^ { * } ( K _ { i } ) , X ^ { * } ( C K _ { 1 } \cup _ { g } K _ { 2 } )$are modules, and our short exact sequence determines a unique elemen
+where $X^*(K_i)$ and $X^*(CK_1\cup_gK_2)$ are modules, and our short exact sequence determines a unique element
 
 $$
 q _ {1} (g) \in \operatorname{Ext} _ {A _ {B} ^ {X}} ^ {1, *} (X ^ {*} (K _ {1}), X ^ {*} (K _ {2})).
@@ -1970,9 +1930,9 @@ $$
 q _ {1} \colon \operatorname{Ker} q _ {0} ^ {(B)} \to \operatorname{Ext} _ {A _ {B} ^ {X}} ^ {1, *} (X ^ {*} (K _ {1}), X ^ {*} (K _ {2})),
 $$
 
-where$q _ { 0 }$: Hom$^ { * } ( K _ { 1 } , K _ { 2 } ) \ \to \ \mathrm { H o m } _ { A _ { R } ^ { X } } ^ { * } ( X ^ { * } ( K _ { 2 } ) , X ^ { * } ( K _ { 1 } ) ) , \ K _ { 1 } , K _ { 2 } \ \in \ B$and$g \in$ B $\operatorname { K e r } q _ { 0 } ^ { ( B ) }$, provided$C K _ { 1 } \cup _ { g } K _ { 2 } \in B$. This map is “generalized Hopf invariant.”
+where $q_0:\operatorname{Hom}^*(K_1,K_2)\to\operatorname{Hom}_{A_B^X}^*(X^*(K_2),X^*(K_1))$, $K_1,K_2\in B$ and $g\in B\cap\operatorname{Ker}q_0^{(B)}$, provided $CK_1\cup_gK_2\in B$. This map is the “generalized Hopf invariant.”
 
-General problem: which elements of$\mathrm { E x t } _ { A _ { B } ^ { x } } ^ { 1 , * } ( X ^ { * } ( K _ { 2 } ) , X ^ { * } ( K _ { 1 } ) )$ate realized geometrically as images$q _ { 1 } ( \mathrm { K e r } q _ { 0 } ^ { ( B ) } ) \ ?$
+General problem: which elements of $\operatorname{Ext}_{A_B^X}^{1,*}(X^*(K_2),X^*(K_1))$ are realized geometrically as images $q_1(\operatorname{Ker}q_0^{(B)})$?
 
 If$\bar { A } _ { B } ^ { X } \in A _ { B } ^ { X }$is an arbitrary subring, then there is defined the usual homomorphism:
 
@@ -1986,11 +1946,11 @@ Examples.
 
 1. If B consists of a single object K, then$A _ { B } ^ { X } = \operatorname { E n d } X ^ { * } ( K )$and there is no Hopf invariant.
 
-2. If B consists of objects$K _ { 1 } , K _ { 2 } , L = C K _ { 1 } \cup _ { q } K _ { 2 }$and morphisms g :$K _ { 1 }  K _ { 2 }$ $\beta \colon L \to E K _ { 1 } , \alpha \colon K _ { 2 } \to L ,$where$g ^ { * } \colon X ^ { * } ( K _ { 2 } ) { \stackrel { } { } } \to X ^ { * } ( K _ { 1 } )$is the trivial homomorphism, then the ring$A _ { B } ^ { X }$consists of all endomorphisms of$X ^ { * } ( L )$which pre-serve the image$\beta ^ { * } X ^ { * } ( K _ { 1 } ) \subset X ^ { * } ( L )$. In this case, the Hopf invariant$q _ { 1 } ^ { ( B ) } ( g ) \in$ $\mathrm { E x t } _ { A _ { B } ^ { X ^ { * } } } ^ { 1 } ( X ^ { * } ( K _ { 1 } , X ^ { * } ( K _ { 2 } ) )$is defined, and is equal to zero if and only if$X ^ { * } ( L ) =$
+2. If $B$ consists of objects $K_1,K_2,L=CK_1\cup_gK_2$ and morphisms $g:K_1\to K_2$, $\beta:L\to EK_1$, and $\alpha:K_2\to L$, where $g^*:X^*(K_2)\to X^*(K_1)$ is the trivial homomorphism, then the ring $A_B^X$ consists of all endomorphisms of $X^*(L)$ which preserve the image $\beta^*X^*(K_1)\subset X^*(L)$. In this case, the Hopf invariant $q_1^{(B)}(g)\in\operatorname{Ext}_{A_B^X}^{1}(X^*(K_1),X^*(K_2))$ is defined, and is equal to zero if and only if $X^*(L)=$
 
 $X ^ { * } ( K _ { 1 } ) + X ^ { * } ( K _ { 2 } )$(as groups). Of course, examples 1 and 2 are uninteresting. We go on now to the examples which interest us.
 
-3. Let$B = D$(complexes with no torsion) and$X ^ { * } = H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$. In this case $A _ { B } ^ { X } = A / ( \beta A + A \beta )$, where$\beta$is the Bokˇste˘ın homomorphism and A is the Steenrod algebra (over$Z _ { p } )$
+3. Let $B=D$ (complexes with no torsion) and $X^*=H^*(\ ,Z_p)$. In this case $A_B^X=A/(\beta A+A\beta)$, where $\beta$ is the Bokšteĭn homomorphism and $A$ is the Steenrod algebra over $Z_p$.
 
 There is a canonical isomorphism
 
@@ -2008,9 +1968,9 @@ $$
 
 5. For the theory$X ^ { * } = U ^ { * }$we shall also consider the category$B = D$and the Hopf invariant for the whole ring$A ^ { U }$
 
-The groups$\operatorname { E x t } _ { A ^ { U } } ^ { 1 , * }$will be computed later (for$K _ { 2 } = M S U ;$see$\ S \ O 6 )$
+The groups $\operatorname{Ext}_{A^U}^{1,*}$ will be computed later (for $K_2=MSU$; see § 6).
 
-6. In$\ S ~ 2$it was indicated that for complexes$K = E ^ { 2 } L$the homomorphism $J \colon K ^ { 0 } ( X ) \to J ( X )$can be considered as a homorphism$J \colon K ^ { 0 } ( X ) \to P ^ { * } ( X )$, where $P$is the point spectrum or cohomotopy theory. A lower bound for the groups${ \tilde { J } } ( X )$ can be computed in any cohomology theory$Y ^ { * }$, if we consider the composition
+6. In § 2 it was indicated that for complexes $K=E^2L$ the homomorphism $J:K^0(X)\to J(X)$ can be considered as a homomorphism $J:K^0(X)\to P^*(X)$, where $P$ is the point spectrum or cohomotopy theory. A lower bound for the groups $\widetilde J(X)$ can be computed in any cohomology theory $Y^*$, if we consider the composition
 
 $$
 q _ {1} ^ {(Y)} \cdot J \colon K ^ {0} (X) \to P ^ {*} (X) \to \operatorname{Ext} _ {A ^ {Y}} ^ {1, *} (Y ^ {*} (P), Y ^ {*} (X)),
@@ -2068,9 +2028,9 @@ For the theory$X ^ { * } = U ^ { * }$, the augmentation functors$\nu , \nu _ { p
 
 Later it will be shown that these functors are algebraic in the category D.
 
-Now let$\alpha \colon X ^ { * } \to Y ^ { * }$be an algebraic transformation of theories in the category $B \subset S$with respect to the subrings$\bar { A } _ { B } ^ { X } , \bar { A } _ { B } ^ { Y }$. What is the connection between the “Hopf invariants”$q _ { 1 } ^ { ( B ) }$in the theories$X ^ { * }$and$Y ^ { \ast \dagger }$
+Now let $\alpha:X^*\to Y^*$ be an algebraic transformation of theories in the category $B\subset S$ with respect to the subrings $\bar A_B^X,\bar A_B^Y$. What is the connection between the “Hopf invariants” $q_1^{(B)}$ in the theories $X^*$ and $Y^*$?
 
-Since α :$X ^ { * }  Y ^ { * }$leads to a functor in the category of modules, the trivial morphism$g _ { X } ^ { * } \colon X ^ { * } ( K _ { 2 } ) \to X ^ { * } ( K _ { 1 } )$corresponds to the trivial morphism$g _ { Y } ^ { * } \colon Y ^ { * } ( K _ { 2 } ) \to$ $Y ^ { * } ( K _ { 1 } )$for$K _ { 1 } , K _ { 2 } , g \in B$. Hence we have the inclusion Ker$q _ { 0 X } ^ { ( B ) } \subset \mathop { \mathrm { K e r } } q _ { 0 Y } ^ { ( \dot { B } ) }$, and the domain of definition of the Hopf invariant$\bar { q } _ { 1 X } ^ { ( B ) }$is contained in the domain of definition of$\bar { q } _ { 1 Y } ^ { ( B ) }$
+Since $\alpha:X^*\to Y^*$ leads to a functor in the category of modules, the trivial morphism $g_X^*:X^*(K_2)\to X^*(K_1)$ corresponds to the trivial morphism $g_Y^*:Y^*(K_2)\to Y^*(K_1)$ for $K_1,K_2,g\in B$. Hence we have the inclusion $\operatorname{Ker}q_{0X}^{(B)}\subset\operatorname{Ker}q_{0Y}^{(B)}$, and the domain of definition of the Hopf invariant $\bar q_{1X}^{(B)}$ is contained in the domain of definition of $\bar q_{1Y}^{(B)}$.
 
 Now let ¯α be a right exact functor in the category of modules. We consider a resolution$C _ { x }$of the module$M \ = \ X ^ { * } ( K _ { 2 } )$and the following (commutative) diagram:
 
@@ -2078,7 +2038,7 @@ Now let ¯α be a right exact functor in the category of modules. We consider a 
 
 where$C _ { Y }$is an acyclic${ \bar { A } } _ { B } ^ { Y } .$-free resolution of the module$\bar { \alpha } M = Y ^ { * } ( K _ { 2 } ) , \tilde { C } _ { Y }$is a free complex such that$H ^ { 0 } ( \tilde { C } _ { Y } ) = \bar { \alpha } M$. Let$N = X ^ { \ast } ( K _ { 1 } ) , \bar { \alpha } N = Y ^ { \ast } ( K _ { 1 } )$
 
-By definition we have:$H ^ { * } ( \mathrm { H o m } _ { \bar { A } _ { B } ^ { Y } } ^ { * } ( \bar { \alpha } C _ { X } , \bar { \alpha } N ) ) = R ^ { * } { \cal G } _ { N } ( M )$, where$\dot { R ^ { * } } = \sum _ { q } R ^ { q }$ and$G _ { N } = \mathrm { H o m } _ { \bar { A } _ { B } ^ { Y } } ^ { * } ( { \bf \alpha } , \bar { \alpha } N )$◦α¯ is the composite functor,$R ^ { q } G$is the q-th right derived functor. There is defined a natural homomorphism
+By definition we have $H^*(\operatorname{Hom}_{\bar A_B^Y}^*(\bar\alpha C_X,\bar\alpha N))=R^*G_N(M)$, where $\dot R^*=\sum_qR^q$ and $G_N=\operatorname{Hom}_{\bar A_B^Y}^*(\ ,\bar\alpha N)\circ\bar\alpha$ is the composite functor, and $R^qG$ is the $q$-th right derived functor. There is defined a natural homomorphism
 
 $$
 r _ {q} \colon \mathrm{Ext} _ {\bar {A} _ {B} ^ {X}} ^ {q, *} (M, N) \to R ^ {q} G _ {N} (M), \quad r = \sum_ {q} r _ {q},
@@ -2087,7 +2047,7 @@ $$
 and homomorphisms
 
 $$
-\begin{array}{c} \beta_ {1} ^ {*} \colon R ^ {q} G _ {N} (M) \to H ^ {q, *} (\operatorname{Hom} _ {\tilde {A} _ {B}} ^ {*} (\tilde {C} _ {Y}, \bar {\alpha} N)) \\ \Big \uparrow_ {\beta_ {2} ^ {*}} \\ \operatorname{Ext} _ {\tilde {A} _ {B} ^ {Y}} ^ {q, *} (\bar {\alpha} M, \bar {\alpha} N), \end{array}
+\begin{array}{c} \beta_1^*:R^qG_N(M)\to H^{q,*}(\operatorname{Hom}_{\bar A_B^Y}^*(\tilde C_Y,\bar\alpha N)) \\ \Big\uparrow_{\beta_2^*} \\ \operatorname{Ext}_{\tilde A_B^Y}^{q,*}(\bar\alpha M,\bar\alpha N), \end{array}
 $$
 
 where Ker$\beta _ { 2 } ^ { * } = 0$
@@ -2095,7 +2055,7 @@ where Ker$\beta _ { 2 } ^ { * } = 0$
 We have the composite map
 
 $$
-\tilde {\alpha} = (\beta_ {2} ^ {*}) ^ {- 1} \beta_ {1} ^ {*} r _ {1} \colon E _ {1} (\bar {\alpha}) \to \mathrm{Ext} _ {\bar {A} _ {R} ^ {Y}} ^ {1} (Y ^ {*} (K _ {2}), Y ^ {*} (K _ {1})),
+\tilde\alpha=(\beta_2^*)^{-1}\beta_1^*r_1:E_1(\bar\alpha)\to\operatorname{Ext}_{\bar A_B^Y}^{1}(Y^*(K_2),Y^*(K_1)),
 $$
 
 where
@@ -2106,13 +2066,13 @@ $$
 
 In the following cases the group${ E } _ { 1 } ( \bar { \alpha } )$coincides with the whole group Ext: a) ¯α is an exact functor; here$H ^ { i } ( \bar { \alpha } C _ { X } ) = 0 , i > 0$, and one can assume that $\tilde { C } _ { Y } = C _ { Y } , \beta _ { 2 } = 1$
 
-b) If in addition ¯α is such that$\mathrm { E x t } _ { \bar { A } _ { B } ^ { Y } } ^ { i } ( \mathbf { \Omega } , \varepsilon N ) \circ \varepsilon = 0$for$i > 0$, then$\bar { \alpha } C _ { X } = C _ { Y }$ and an isomorphism is generated:
+b) If in addition $\bar\alpha$ is such that $\operatorname{Ext}_{\bar A_B^Y}^{i,*}(\ ,\varepsilon N)\circ\varepsilon=0$ for $i>0$, then $\bar\alpha C_X=C_Y$ and an isomorphism is generated:
 
 $$
 \mathrm{Ext} _ {\bar {A} _ {B} ^ {Y}} ^ {* *} (\bar {\alpha} M, \bar {\alpha} N) = R ^ {*} G _ {N} (M).
 $$
 
-In case$\mathrm { ( a ) } \ \mathrm { ( \bar { \alpha } }$is an exact functor) there arises a spectral sequence$( E _ { r } , d _ { r } )$ where$E _ { 2 } ^ { p , q } = \sum _ { n , a } R ^ { p } G _ { q , N } ( M )$, which converges to$\operatorname { E x t } ^ { * * } ( { \bar { \alpha } } M , { \bar { \alpha } } N )$, and$G _ { q , N } ( M ) =$ p,q $\mathrm { E x t } ^ { q , * } ( \mathbf { \Omega } , \varepsilon N ) \stackrel { \_ } { \circ } \varepsilon$. From this spectral sequence it follows immediately that the homomorphism
+In case (a) ($\bar\alpha$ is an exact functor) there arises a spectral sequence $(E_r,d_r)$, where $E_2^{p,q}=\sum_{p,q}R^pG_{q,N}(M)$, which converges to $\operatorname{Ext}^{**}(\bar\alpha M,\bar\alpha N)$, and $G_{q,N}(M)=\operatorname{Ext}_{\bar A_B^Y}^{q,*}(\ ,\varepsilon N)\circ\varepsilon$. From this spectral sequence it follows immediately that the homomorphism
 
 $$
 \beta_ {1} ^ {*} \colon R ^ {1} G _ {N} (M) \to \mathrm{Ext} ^ {1} (\bar {\alpha} M, \bar {\alpha} N)
@@ -2120,13 +2080,13 @@ $$
 
 is a monomorphism.
 
-The basic examples which we shall consider are the subcategory D of torsion-free complexes, the theories$U ^ { * } , k ^ { * } , H ^ { * } ( \mathbf { \theta } , Z _ { p } )$, the Riemann–Roch functor$\lambda \colon U ^ { * } \to k ^ { * }$ and the augmentations$\nu _ { p } \colon U ^ { * } \to H ^ { * } ( \mathbf { \Sigma } , Z _ { p } )$. We have
+The basic examples which we shall consider are the subcategory $D$ of torsion-free complexes, the theories $U^*,k^*,H^*(\ ,Z_p)$, the Riemann–Roch functor $\lambda:U^*\to k^*$ and the augmentations $\nu_p:U^*\to H^*(\ ,Z_p)$. We have
 
 Lemma 9.1. a) The functors$\lambda \colon U ^ { * } \to k ^ { * }$and$\nu _ { p } \colon U ^ { * } \to H ^ { * } ( \ , Z _ { p } )$are algebraic in the subcategory D;
 
 b) The functors λ and$\nu _ { p }$are exact in this category.
 
-c) The functor λ is such that$R ^ { q } G _ { N } ( M ) = \mathrm { E x t } _ { A U } ^ { q } ( M , N )$, where$M = U ^ { * } ( K _ { 2 } )$ $N = U ^ { * } ( K _ { 1 } ) , M , N \in D , C _ { N } = \mathrm { H o m } _ { A ^ { k } } ( \Omega , \lambda N ) \circ \lambda \mathrm { , } \tilde { \lambda } N = k ^ { * } ( K _ { 1 } ) .$
+c) The functor $\lambda$ is such that $R^qG_N(M)=\operatorname{Ext}_{A^U}^q(M,N)$, where $M=U^*(K_2)$, $N=U^*(K_1)$, $M,N\in D$, $C_N=\operatorname{Hom}_{A_\Psi^k}^*(\ ,\lambda N)\circ\lambda$, and $\lambda N=k^*(K_1)$.
 
 d) The functor$\nu _ { p }$is such that$R ^ { q } G _ { N } ( M ) = \mathrm { E x t } _ { A / \beta A + A \beta } ^ { q } ( \nu _ { p } M , \nu _ { p } N )$
 
@@ -2134,13 +2094,13 @@ Proof. The category of$A ^ { U }$-modules corresponding to the category D is the
 
 From the group point of view we have$\lambda M = M \otimes _ { \Lambda } Z [ x ]$, where M is Λ-free. There follows the exactness of the functor λ and$R ^ { q } \lambda = 0 , q > 0$. For$\nu _ { p }$we have $\nu _ { p } U ^ { * } ( P ) = Z _ { p }$, and in the category$D , \nu _ { p } M = M \otimes _ { \Lambda } Z _ { p } ;$since in the category D all groups$U ^ { * } ( K )$and$H ^ { * } ( K )$are free abelian, the functor$\nu _ { p }$is exact in this category. This proves part (d). Part (c) follows immediately from the theorem in § 7. Part (b) follows from the well-known fact that$H ^ { * } ( M U , Z _ { p } )$is a free$( A / \beta A + A \beta )$-module. We shall now prove the fundamental part$\mathrm { ( a ) }$
 
-Consider first the functor λ. We recall that in$\ S ~ 5$we constructed operations $\Psi _ { U } ^ { k } \in A ^ { U } \otimes Q$. Let
+Consider first the functor $\lambda$. We recall that in § 5 we constructed operations $\Psi_U^k\in A^U\otimes Q$. Let
 
 $$
 \Psi^ {k} (\lambda \tilde {x}) = \lambda \Psi_ {U} ^ {k} (\tilde {x}), \quad \tilde {x} \in U ^ {*} (K),
 $$
 
-where$K \in D$is a complex with no torsion. Since λ is an epimorphism and$\lambda ( y ) =$ $T ( y ) x ^ { i }$where x is the Bott operator, the desired formula follows easily from the construction of the Adams operations$\Psi ^ { k }$in K-theory and of the operations$\Psi _ { U } ^ { k }$ in$\ S ~ 5$. The operations$( k ^ { n } \Psi ^ { k } )$have the form$k ^ { n } \lambda \Psi _ { U } ^ { k }$and are “integral” for large n. Thus, the action of the operators$( k ^ { n } \Psi ^ { k } )$and multiplication by x in k<sup>∗</sup>-theory are calculated by$A ^ { U }$and λ. This proves part (a) of the lemma for the functor$\lambda$. Now let$\alpha = \nu _ { p } \colon U ^ { * } \to H ^ { * } ( \ , Z _ { p } )$In$\ S ~ 5$we constructed a projector$\Phi \in \mathsf { \Gamma }$ $A ^ { U } \otimes _ { Z } Q _ { p }$of the theory$U ^ { * }$onto a smaller theory having the cohomology of a point $\Lambda _ { p } = Q _ { p } [ x _ { 1 } , \dots , x _ { i } , \dots ]$, dim$x _ { i } = - 2 ( p ^ { i } - 1 )$
+where $K\in D$ is a complex with no torsion. Since $\lambda$ is an epimorphism and $\lambda(y)=T(y)x^i$, where $x$ is the Bott operator, the desired formula follows easily from the construction of the Adams operations $\Psi^k$ in K-theory and of the operations $\Psi_U^k$ in § 5. The operations $(k^n\Psi^k)$ have the form $k^n\lambda\Psi_U^k$ and are “integral” for large $n$. Thus, the action of the operators $(k^n\Psi^k)$ and multiplication by $x$ in $k^*$-theory are calculated by $A^U$ and $\lambda$. This proves part (a) of the lemma for the functor $\lambda$. Now let $\alpha=\nu_p:U^*\to H^*(\ ,Z_p)$. In § 5 we constructed a projector $\Phi\in A^U\otimes_ZQ_p$ of the theory $U^*$ onto a smaller theory having the cohomology of a point $\Lambda_p=Q_p[x_1,\dots,x_i,\dots]$, $\dim x_i=-2(p^i-1)$.
 
 We set
 
@@ -2148,7 +2108,7 @@ $$
 P ^ {k} (\nu_ {p} \tilde {x}) = \nu_ {p} \Phi S _ {\omega} \Phi (\tilde {x}),
 $$
 
-where$\omega = ( p - 1 , \ldots , p - 1 )$(k times) and the$P ^ { k }$are the Steenrod powers. The correctness of this formula follows from the fact that all homomorphisms $( \Phi S _ { \omega } \Phi ) ^ { * } ( y ) \equiv 0$mod$p$if dim ω = dim y, i.${ \sf \Psi } _ { \sf ( \Psi ) } \Psi \Psi \Psi , \sf ( \Phi ) _ { \omega } \Psi \Psi _ { \sf ( \Psi ) } \Psi \Psi \Psi ,$. The lemma is proved.
+where $\omega=(p-1,\ldots,p-1)$ ($k$ times) and the $P^k$ are the Steenrod powers. The correctness of this formula follows from the fact that all homomorphisms $(\Phi S_\omega\Phi)^*(y)\equiv0\pmod p$ if $\dim\omega=\dim y$, i.e., $(\Phi S_\omega\Phi)^*(y)\in\Omega_U^0=Z$. The lemma is proved.
 
 Corollary 9.1. For any$K _ { 1 } , K _ { 2 } \in D$the homomorphism
 
@@ -2176,7 +2136,7 @@ Corollary 9.2 follows from Corollary 9.1.
 
 Corollary 9.3. The groups Ext$_ { A ^ { U } } ^ { 1 , 2 i } ( U ^ { * } ( P ) , U ^ { * } ( P ) )$are cyclic groups – subgroups$o f$ cyclic groups of order equal to the greatest common divisor of the integers$\{ k ^ { n } ( k ^ { i } -$ 1)}<sub>k</sub> for all k, for large n.
 
-Proof. Since the groups Ex$_ { A _ { \mathrm { { u } } } ^ { k } } ^ { 1 , 2 i } ( k ^ { * } ( P ) , k ^ { * } ( P ) )$by virtue of the theorem are cyclic of the asserted orders, Corollary 9.3 follows from Corollary 9.1. We shall indicate a simple fact about the connection between the Hopf invariants in diferent cohomology theories$X ^ { * } , Y ^ { * }$in the presence of an algebraic transformation α :$X ^ { * }  Y ^ { * }$ with respect to the rings$\bar { A } _ { B } ^ { \bar { X } } , \tilde { A } _ { B } ^ { Y }$in the subcategory$B \subset S$
+Proof. Since the groups $\operatorname{Ext}_{A_\Psi^k}^{1,2i}(k^*(P),k^*(P))$ are cyclic of the asserted orders by virtue of the theorem, Corollary 9.3 follows from Corollary 9.1. We shall indicate a simple fact about the connection between the Hopf invariants in different cohomology theories $X^*,Y^*$ in the presence of an algebraic transformation $\alpha:X^*\to Y^*$ with respect to the rings $\bar A_B^X,\tilde A_B^Y$ in the subcategory $B\subset S$.
 
 Lemma 9.2. We have the equality
 
@@ -2216,7 +2176,7 @@ $$
 (\dots \stackrel {d} {\to} C _ {1} \stackrel {d} {\to} C _ {0} \stackrel {\varepsilon} {\to} U ^ {*} (P) = \Lambda) = C,
 $$
 
-where$C _ { 0 } = A ^ { U }$(generated by u) and$C _ { 1 } = \sum _ { \omega } A _ { \omega } ^ { U }$with generators$u _ { \omega } , d u _ { \omega } = S _ { \omega } ( u )$ dim$\omega > 0$. We consider the diferential
+where $C_1=\sum_{\omega>0}A_\omega^U$ has generators $u_\omega$, $du_\omega=S_\omega(u)$, and $\dim\omega>0$. We consider the differential
 
 $$
 d ^ {*} \colon \Omega_ {U} ^ {2 i} \to \sum_ {\omega > 0} \Omega_ {U} ^ {2 i - 2 \dim \omega}
@@ -2231,12 +2191,12 @@ $$
 and
 
 $$
-\sigma_ {\omega} ^ {*} (x) \in \mathrm{Hom} _ {A ^ {U}} ^ {2 i} (C _ {1}, \Lambda) = \sum_ {(i)} \Omega_ {U} ^ {2 i - 2   \dim \omega},
+\sigma_\omega^*(x)\in\operatorname{Hom}_{A^U}^{2i}(C_1,\Lambda)=\sum_{\omega>0}\Omega_U^{2i-2\dim\omega},
 $$
 
-where$\sigma _ { \omega } ^ { * } ( x ) [ u _ { \omega ^ { \prime } } ] = 0 \mathrm { ~ i f ~ } \omega \neq \omega ^ { \prime } ,$, and$\sigma _ { \omega } ^ { * } ( x ) [ u _ { \omega } ] = \sigma _ { \omega } ^ { * } ( x ) \in \Lambda$. These facts follow from$\ S 5$
+where $\sigma_\omega^*(x)[u_{\omega'}]=0$ if $\omega\ne\omega'$, and $\sigma_\omega^*(x)[u_\omega]=\sigma_\omega^*(x)\in\Lambda$. These facts follow from § 5.
 
-Now let i be odd. We consider the element$x _ { 1 } ^ { i }$, where$x _ { 1 } = [ C P ^ { 1 } ] \in \Omega _ { U } ^ { 2 }$. Since $\sigma _ { 1 } ^ { * } ( x _ { 1 } ) = \pm 2$, all$\sigma _ { \omega } ^ { * } ( x _ { 1 } ^ { i } ) \equiv 0$mod$2 , \omega > 0 .$, from the properties of the homomorphisms$\boldsymbol { \sigma } _ { \omega } ^ { \ast }$described in$\ S 5$. Hence the cokernel Coker$d ^ { * }$always contains an element of order 2. Since the homomorphism Ex$_ { A } ^ { 1 , 4 l + 2 } \to \mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 4 l + 2 }$is monomorphic and $\{ k ^ { n } ( k ^ { i } - 1 ) \} _ { k } = 2 , i \equiv 1$(mod 2), we have
+Now let $i$ be odd. We consider the element $x_1^i$, where $x_1=[CP^1]\in\Omega_U^2$. Since $\sigma_1^*(x_1)=\pm2$, all $\sigma_\omega^*(x_1^i)\equiv0\pmod2$ for $\omega>0$, from the properties of the homomorphisms $\sigma_\omega^*$ described in § 5. Hence the cokernel $\operatorname{Coker}d^*$ always contains an element of order 2. Since the homomorphism $\operatorname{Ext}_{A^U}^{1,4l+2}\to\operatorname{Ext}_{A_\Psi^k}^{1,4l+2}$ is monomorphic and $\{k^n(k^i-1)\}_k=2$ for $i\equiv1\pmod2$, we have
 
 $$
 \mathrm{Ext} _ {A ^ {U}} ^ {1, 4 l + 2} (U ^ {*} (P), U ^ {*} (P)) = \mathrm{Ext} _ {A _ {\Psi} ^ {k}} ^ {1, 4 l + 2} (k ^ {*} (P), k ^ {*} (P)) = Z _ {2}
@@ -2248,7 +2208,7 @@ Thus, we have proved
 
 Theorem 10.1. The groups$\operatorname { E x t } _ { A ^ { U } } ^ { 1 , 2 i } ( \Lambda , \Lambda )$are isomorphic to$Z _ { 2 } ~ f o r ~ i = 2 l + 1$
 
-We now study the case of even$i = 2 l$. Let$y _ { i } \in \Omega _ { U } ^ { 2 i }$be an indivisible element such that some multiple$\lambda y _ { i } , \lambda \ne 0 .$, represents an almost-parallelizable manifold $M ^ { 2 i }$, whose tangent bundle τ is a multiple of the basic element$\kappa _ { i }$of the group $K ^ { 0 } ( S ^ { 2 i } ) , \tau = \mu _ { i } \bar { \kappa } _ { i } , \mu _ { i }$integral, where$\bar { \kappa } _ { i } = f ^ { * } \bar { \kappa } _ { i } , f \colon M ^ { 2 i }  S ^ { 2 i }$a projection of degree ±1. From the requirement of the integrality of the Todd genus and the fact that$( \cosh \bar { \kappa } _ { 1 } , M ^ { 2 i } ) = 1$, it follows easily that all$\sigma _ { \omega } ^ { * } y _ { i }$for all$\omega$are divisible by the denominator of the number$( B _ { l } / a _ { l } \cdot 2 l )$, where$a _ { 2 S + 1 } = 1$and$a _ { 2 S } = 2 , \ B _ { l }$is the Bernoulli number entering into the Todd genus,$i = 2 l \ ( \mathrm { s e e } \ [ 1 4 ] )$. Hence Coker$d ^ { * }$ contains a group of order of equal of the denominator of the number$( B _ { l } / a _ { l } \cdot 2 l )$ Since this number is only half of the number$\{ k ^ { n } ( k ^ { i } - 1 ) \} _ { k } ( a _ { l } = 1 )$, the image $\tilde { \lambda } \mathrm { E x t } _ { A ^ { U } } ^ { 1 , 2 i } \subset \mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 i }$coincides with$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 i }$for$l = 2 s$and has index 2 in$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 2 i }$for $l = 2 s + 1$
+We now study the case of even $i=2l$. Let $y_i\in\Omega_U^{2i}$ be an indivisible element such that some multiple $\lambda y_i$, $\lambda\ne0$, represents an almost-parallelizable manifold $M^{2i}$, whose tangent bundle $\tau$ is a multiple of the basic element $\kappa_i$ of the group $K^0(S^{2i})$, $\tau=\mu_i\bar\kappa_i$, $\mu_i$ integral, where $\bar\kappa_i=f^*\kappa_i$, $f:M^{2i}\to S^{2i}$ is a projection of degree $\pm1$. From the requirement of the integrality of the Todd genus and the fact that $(\ch\bar\kappa_1,M^{2i})=1$, it follows easily that all $\sigma_\omega^*y_i$ for all $\omega$ are divisible by the denominator of the number $(B_l/(a_l\cdot2l))$, where $a_{2s+1}=1$ and $a_{2s}=2$, $B_l$ is the Bernoulli number entering into the Todd genus, $i=2l$ (see [14]). Hence $\operatorname{Coker}d^*$ contains a group of order equal to the denominator of $(B_l/(a_l\cdot2l))$. Since this number is only half of $\{k^n(k^i-1)\}_k$ ($a_l=1$), the image $\tilde\lambda\operatorname{Ext}_{A^U}^{1,2i}\subset\operatorname{Ext}_{A_\Psi^k}^{1,2i}$ coincides with $\operatorname{Ext}_{A_\Psi^k}^{1,2i}$ for $l=2s$ and has index 2 in it for $l=2s+1$.
 
 From this, for the case$a _ { l } = 2 , l = 2 s$, follows the
 
@@ -2260,13 +2220,13 @@ Hence, we have the weaker
 
 Theorem 10.3. The groups$\mathrm { E x t } _ { A _ { U } } ^ { 1 , 8 k + 4 } ( \Lambda , \Lambda )$are cyclic groups whose order is equal to either the denominator of the number$B _ { 2 k + 1 } / ( 4 k + 2 )$or the denominator of the number$B _ { 2 k + 1 } / ( 8 k + 4 )$
 
-Remark 10.1. In what follows it will be established that this order is in fact equal to the denominator of$B _ { 2 k + 1 } / ( 8 k + 4 )$for$k \geq 1$(however, for$k = 0$it is easy to see that Ex$\mathfrak { t } _ { A ^ { U } } ^ { 1 , 4 } ( \Lambda , \Lambda ) = Z _ { 1 2 } )$. The basis element$u _ { k }$of the group$\mathrm { E x t } _ { A ^ { U } } ^ { 1 , 8 k + 4 }$is such that
+Remark 10.1. In what follows it will be established that this order is in fact equal to the denominator of $B_{2k+1}/(8k+4)$ for $k\ge1$ (however, for $k=0$ it is easy to see that $\operatorname{Ext}_{A^U}^{1,4}(\Lambda,\Lambda)=Z_{12}$). The basis element $u_k$ of the group $\operatorname{Ext}_{A^U}^{1,8k+4}$ is such that
 
 $$
 d _ {3} (u _ {k}) = h ^ {3} \operatorname{Ext} _ {A ^ {U}} ^ {1, 8 k} (\Lambda , \Lambda), \quad h \in \operatorname{Ext} _ {A ^ {U}} ^ {1, 2} (\Lambda , \Lambda) = Z _ {2}.
 $$
 
-We now study the question of the relations among diferent cohomology theories and the question of the existence of elements in the homotopy groups of spheres with given Hopf invariant
+We now study the question of the relations among different cohomology theories and the question of the existence of elements in the homotopy groups of spheres with given Hopf invariant
 
 $$
 \gamma \in \mathrm{Ext} _ {\bar {A} _ {D} ^ {X}} ^ {1, *} (X ^ {*} (P), X ^ {*} (P))
@@ -2293,7 +2253,7 @@ $$
 $$
 
 $$
-\mathrm{Ext} _ {B _ {\Psi} ^ {k O}} ^ {0   t} (k O ^ {*} (P), k O ^ {*} (P)) = 0, \quad t \neq 8 k + 1, 8 k + 2;
+\mathrm{Ext}_{B_\Psi^{kO}}^{0,t}(kO^*(P),kO^*(P))=Z_2,\quad\mathrm{for}\quad t=8k+1,8k+2.
 $$
 
 $$
@@ -2306,9 +2266,9 @@ $$
 
 for$t = 1 , 2 ;$
 
-c) the homomorphism$q _ { 0 } \colon \pi _ { * } ^ { S } ( P )  \mathrm { H o m } _ { B _ { \mathrm { u  r } } ^ { k o } } ^ { * } ( k O ^ { * } ( P ) , k O ( P ) )$is an epimorphism (result of Brown–Peterson–Anderson [9]);
+c) The homomorphism $q_0:\pi_*^S(P)\to\operatorname{Hom}_{B_\Psi^{kO}}^*(kO^*(P),kO^*(P))$ is an epimorphism (result of Brown–Peterson–Anderson [9]);
 
-d) the homomorphism$q _ { 1 } \cdot J \colon \widetilde { k O ^ { t } } ( P )  \mathrm { E x t } _ { B _ { x x } ^ { k O } } ^ { 1 , t } ( k O ^ { * } ( P ) , k O ^ { * } ( P ) )$is an epimorphism. This last fact follows from the work of Adams [3] for the groups $\mathrm { E x t } _ { B _ { \Psi } ^ { k O } } ^ { 1 , 4 k } ( \Lambda _ { O } , \Lambda _ { O } )$; since
+d) The homomorphism $q_1\cdot J:\widetilde{kO^t}(P)\to\operatorname{Ext}_{B_\Psi^{kO}}^{1,t}(kO^*(P),kO^*(P))$ is an epimorphism. This last fact follows from the work of Adams [3] for the groups $\operatorname{Ext}_{B_\Psi^{kO}}^{1,4k}(\Lambda_O,\Lambda_O)$; since
 
 $$
 \mathrm{Ext} _ {B _ {\Psi} ^ {k O}} ^ {1, 8 k + t} = h ^ {t} \mathrm{Ext} _ {B _ {\Psi} ^ {k O}} ^ {1, 8 k} (t = 1, 2), h \in \mathrm{Ext} _ {B _ {\Psi} ^ {k O}} ^ {0, 1},
@@ -2319,10 +2279,10 @@ the required fact follows for the groups Ext$_ { B _ { \Psi } ^ { k O } } ^ { 1 
 We now consider the complexification$c ,$defining homomorphisms$\tilde { c } , \tilde { c } ^ { \prime } { : }$
 
 $$
-\begin{array}{c} \operatorname{Ext} _ {\tilde {B} _ {\Psi} ^ {k O}} ^ {1, *} (\Lambda_ {O}, \Lambda_ {O}) \xrightarrow {\tilde {c}} \operatorname{Ext} _ {B _ {\Psi} ^ {k}} ^ {1, *} (\Lambda , \Lambda) = \operatorname{Ext} _ {A _ {\Psi} ^ {k}} ^ {1, *}, \\ \Big \backslash \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\ \operatorname{Ext} _ {B _ {\Psi} ^ {k O}} ^ {1, *} (\Lambda_ {O}, \Lambda_ {O}) \end{array}
+\begin{array}{c} \operatorname{Ext}_{\tilde B_\Psi^{kO}}^{1,*}(\Lambda_O,\Lambda_O)\xrightarrow{\tilde c}\operatorname{Ext}_{B_\Psi^k}^{1,*}(\Lambda,\Lambda)=\operatorname{Ext}_{A_\Psi^k}^{1,*} \\ \nwarrow_{\tilde c'} \qquad\qquad \nearrow_{\tilde c'} \\ \operatorname{Ext}_{B_\Psi^{kO}}^{1,*}(\Lambda_O,\Lambda_O) \end{array}
 $$
 
-Since in the groups$k ^ { t } ( P )$the image of the homomorphism c has index 2 for$t =$ $8 k + 4$, index 1 for$t = 8 k$and is equal to zero for$t \neq 8 k , 8 k + 4$, we can draw from this the conclusion that the image group Im$\tilde { c } \subset \mathrm { E x t } _ { A _ { \mathrm { { u } r } } ^ { k } } ^ { 1 , t } ( \Lambda , \Lambda )$has index 2 for$t = 8 k + 4$, index 1 for$t = 8 k$and is equal to zero for$t ^ { \star } \neq 8 k , 8 k + 4$, since Im$\tilde { c } = \operatorname { I m } \tilde { c } ^ { \prime }$
+Since in the groups $k^t(P)$ the image of the homomorphism $c$ has index 2 for $t=8k+4$, index 1 for $t=8k$, and is equal to zero for $t\ne8k,8k+4$, we can draw from this the conclusion that the image group $\operatorname{Im}\tilde c\subset\operatorname{Ext}_{A_\Psi^k}^{1,t}(\Lambda,\Lambda)$ has index 2 for $t=8k+4$, index 1 for $t=8k$, and is equal to zero for $t\ne8k,8k+4$, since $\operatorname{Im}\tilde c=\operatorname{Im}\tilde c'$.
 
 Consider the groups$\pi _ { n + 4 k - 1 } ( S ^ { n } )$and the Hopf invariants in$k O ^ { * }$- and$k ^ { * } -$ theories. These invariants are always defined since$\mathrm { E x t } _ { \tilde { B } _ { \Psi } ^ { k O } } ^ { 0 , 4 k - 1 } = 0$. We have thus the
 
@@ -2340,23 +2300,23 @@ The Hopf invariant$q _ { 1 U } \colon \pi _ { n + 4 k - 1 } ( S ^ { n } ) \to { 
 
 Later we shall study$\mathrm { E x t } _ { A ^ { U } } ^ { 1 , 8 k + 2 }$and$\mathrm { E x t } _ { A U } ^ { 1 , 8 k + 6 }$
 
-3. We now consider the functor$\nu _ { p } \colon U ^ { * } \stackrel { * } {  } H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$and the corresponding Hopf invariant
+3. We now consider the functor $\nu_p:U^*\to H^*(\ ,Z_p)$ and the corresponding Hopf invariant
 
 $$
-\begin{array}{c} \pi_ {n + i - 1} (S ^ {n}), \quad n \to \infty , \quad i > 1 \\ \operatorname{Ext} _ {A ^ {U}} ^ {1, i} (\Lambda , \Lambda) \xrightarrow {\tilde {\lambda}} \operatorname{Ext} _ {A / \beta A + A \beta} ^ {1, i} (Z _ {p}, Z _ {p}) = \operatorname{Ext} _ {A} ^ {1, i} (Z _ {p}, Z _ {p}). \end{array}
+\begin{array}{c} \pi_{n+i-1}(S^n),\quad n\to\infty,\quad i>1 \\ \swarrow q_{1U}\qquad\searrow q_{1H} \\ \operatorname{Ext}_{A^U}^{1,i}(\Lambda,\Lambda)\xrightarrow{\tilde\lambda}\operatorname{Ext}_{A/\beta A+A\beta}^{1,i}(Z_p,Z_p)=\operatorname{Ext}_{A}^{1,i}(Z_p,Z_p) \end{array}
 $$
 
-Since$\mathrm { E x t } _ { A / \beta A + A \beta } ^ { 1 , i } ( Z _ { p } , Z _ { p } ) = \mathrm { E x t } _ { A } ( Z _ { p } , Z _ { p } )$for$i > 1$this becomes the usual Hopf invariant. Since the homomorphism
+Since $\operatorname{Ext}_{A/\beta A+A\beta}^{1,i}(Z_p,Z_p)=\operatorname{Ext}_A^{1,i}(Z_p,Z_p)$ for $i>1$, this becomes the usual Hopf invariant. Since the homomorphism
 
 $$
 q _ {1 U} \colon J \pi_ {8 k - 1} (S O) \to \mathrm{Ext} _ {A ^ {U}} ^ {1, 8 k} (\Lambda , \Lambda)
 $$
 
-is an epimorphism, the question of the existence of elements with ordinary Hopf invariant equal to 1 reduces to the calculation of this invariant on the group $J \pi _ { 4 k - 1 } ( S O )$. For example, let$p = 2 ,$and let$h _ { i } \in \mathrm { E x t } _ { A } ^ { 1 , 2 ^ { i } } ( Z _ { 2 } , Z _ { 2 } )$be basis elements. Since$h _ { 1 } , h _ { 2 } , h _ { 3 }$are cycles for all Adams diferentials and represent elements in the groups$J \pi _ { * } ( S O )$, it follows that, in view of the fact that Im J is closed under composition,$h _ { i } \cdot h _ { 2 } \in \mathrm { E x t } _ { A } ^ { 2 , * } ( Z _ { 2 } , Z _ { 2 } )$must represent an element of$q _ { 2 } J \pi _ { * } ( S O ) { \mathrm { ~ i f ~ } } h _ { i }$ represents an element of$q _ { 1 } J \pi _ { * } ( S O )$. Moreover, since$q _ { 2 } J \pi _ { 4 k - 2 } ( S O ) = 0 .$, we have $h _ { 2 } h _ { i } = 0 { \mathrm { ~ i f ~ } } h _ { i } \in q _ { 1 } J \pi _ { * } ( S O )$, since$h _ { 2 } \in q _ { 1 } J \pi _ { * } ( S O )$
+is an epimorphism, the question of the existence of elements with ordinary Hopf invariant equal to 1 reduces to the calculation of this invariant on the group $J \pi _ { 4 k - 1 } ( S O )$. For example, let$p = 2 ,$and let$h _ { i } \in \mathrm { E x t } _ { A } ^ { 1 , 2 ^ { i } } ( Z _ { 2 } , Z _ { 2 } )$be basis elements. Since$h _ { 1 } , h _ { 2 } , h _ { 3 }$are cycles for all Adams differentials and represent elements in the groups$J \pi _ { * } ( S O )$, it follows that, in view of the fact that Im J is closed under composition,$h _ { i } \cdot h _ { 2 } \in \mathrm { E x t } _ { A } ^ { 2 , * } ( Z _ { 2 } , Z _ { 2 } )$must represent an element of$q _ { 2 } J \pi _ { * } ( S O ) { \mathrm { ~ i f ~ } } h _ { i }$ represents an element of$q _ { 1 } J \pi _ { * } ( S O )$. Moreover, since$q _ { 2 } J \pi _ { 4 k - 2 } ( S O ) = 0 .$, we have $h _ { 2 } h _ { i } = 0 { \mathrm { ~ i f ~ } } h _ { i } \in q _ { 1 } J \pi _ { * } ( S O )$, since$h _ { 2 } \in q _ { 1 } J \pi _ { * } ( S O )$
 
 However,$\boldsymbol { h } _ { i } \cdot \boldsymbol { h } _ { 1 } \neq 0$for$i \geq 4 .$. We have thus the
 
-Conclusion. For$i \geq 4$the elements$h _ { i } \in \mathrm { E x t } _ { A } ^ { 1 , 2 ^ { \iota } } ( Z _ { 2 } , Z _ { 2 } )$do not belong to the image of the homomorphism
+Conclusion. For$i \geq 4$the elements$h _ { i } \in \mathrm { E x t } _ { A } ^ { 1 , 2 ^ { i } } ( Z _ { 2 } , Z _ { 2 } )$do not belong to the image of the homomorphism
 
 $$
 \nu_ {2} \colon \operatorname{Ext} _ {A ^ {U}} ^ {1, 2 ^ {i}} (\Lambda , \Lambda) \to \operatorname{Ext} _ {A} ^ {1, 2 ^ {i}} (Z _ {2}, Z _ {2}).
@@ -2384,7 +2344,7 @@ We assume that$K \in \mathrm { E x t } _ { A ^ { U } } ^ { 0 , 4 } ( U ^ { * } (
 
 Lemma 10.1. All elements of the form$h ^ { n + 1 } \cdot K ^ { \varepsilon } \cdot y ^ { m } , n \geq 0 , m \geq 0 , \varepsilon = 0 , 1$ belong to Im δ.
 
-Proof. Since$h \in \operatorname { I m } \delta .$, it sufices to show that$K ^ { \varepsilon } \cdot y ^ { m } \cdot h$belongs to Im δ. For this it sufices to establish that all homomorphisms$\sigma _ { \omega } ^ { * } ( x _ { 1 } \cdot K ^ { \varepsilon } \cdot y ^ { m } )$are divisible by 2. It is easy to verify that$\sigma _ { \omega } ^ { * } ( x _ { 1 } ) , \sigma _ { \omega } ^ { * } ( K )$and$\sigma _ { \omega } ^ { * } ( y ^ { m } )$are divisible by 2. The general result follows from the Leibnitz formula
+Proof. Since$h \in \operatorname { I m } \delta .$, it suffices to show that$K ^ { \varepsilon } \cdot y ^ { m } \cdot h$belongs to Im δ. For this it suffices to establish that all homomorphisms$\sigma _ { \omega } ^ { * } ( x _ { 1 } \cdot K ^ { \varepsilon } \cdot y ^ { m } )$are divisible by 2. It is easy to verify that$\sigma _ { \omega } ^ { * } ( x _ { 1 } ) , \sigma _ { \omega } ^ { * } ( K )$and$\sigma _ { \omega } ^ { * } ( y ^ { m } )$are divisible by 2. The general result follows from the Leibnitz formula
 
 $$
 \sigma_ {\omega} ^ {*} (a b) = \sum_ {\omega = (\omega_ {1}, \omega_ {2})} \sigma_ {\omega_ {1}} ^ {*} (a) \sigma_ {\omega_ {2}} ^ {*} (b).
@@ -2392,23 +2352,22 @@ $$
 
 The lemma is proved.
 
-As was shown in$\ S \ 6 .$in the Adams spectral sequence for$U ^ { * } ( M S U )$we have: a)$d _ { 3 } ( h K y ^ { n } ) = h ^ { 4 } y ^ { m } \neq 0 .$
+As was shown in § 6, in the Adams spectral sequence for $U^*(MSU)$ we have: a) $d_3(hKy^m)=h^4y^m\ne0$; b) $d_i(hy^m)=0$, $i\ge2$.
 
-b)$d _ { i } ( h y ^ { m } ) = 0 , i \geq 2 .$
 
 Moreover, Brown–Peterson–Anderson showed in [9] that elements of the form${ h y ^ { m } \in }$ $\Omega _ { S U } ^ { 8 m + 1 }$belong to the image of the homomorphism$\pi _ { * } ( S ^ { n } ) \to \pi _ { * } ( M S U _ { n } )$by a direct construction of the elements.
 
 We have thus the
 
-Theorem 10.5. a) The groups$\operatorname { E x t } _ { A U } ^ { 1 , 8 k + 2 } ( \Lambda , \Lambda ) = Z _ { 2 }$are cycles for all Adams diferentials and belong to the image of the Hopf invariant
+Theorem 10.5. a) The groups $\operatorname{Ext}_{A^U}^{1,8k+2}(\Lambda,\Lambda)=Z_2$ are cycles for all Adams differentials and belong to the image of the Hopf invariant
 
 $$
 q _ {1 U} \colon \pi_ {n + 8 k + 1} (S ^ {n}) \to \mathrm{Ext} _ {A ^ {U}} ^ {1, 8 k + 2} (\Lambda , \Lambda), \quad n \to \infty .
 $$
 
-b) The groups$\mathrm { E x t } _ { A ^ { U } } ^ { 1 , 8 k + 6 } ( \Lambda , \Lambda ) = Z _ { 2 }$are not cycles for the diferential$d _ { 3 }$
+b) The groups $\operatorname{Ext}_{A^U}^{1,8k+6}(\Lambda,\Lambda)=Z_2$ are not cycles for the differential $d_3$.
 
-Remark 10.2. Since Ex$\begin{array} { r } { { \scriptscriptstyle \mathrm { \Lambda } } _ { A } ^ { 1 , 4 i + 2 } = \mathrm { E x t } _ { A _ { \mathrm { u } } ^ { k } } ^ { 1 , 4 i + 2 } } \end{array}$, the analogous facts hold also for ktheory, although basis elements here are not related to the J-functor, in contrast to$\mathrm { E x t } _ { A _ { \Psi } ^ { k } } ^ { 1 , 4 k }$(here, the elements go into${ h y } ^ { m }$under the homomorphism$\Omega _ { e }  \Omega _ { S U } )$.
+Remark 10.2. Since $\operatorname{Ext}_{A^U}^{1,4i+2}=\operatorname{Ext}_{A_\Psi^k}^{1,4i+2}$, the analogous facts hold also for $k$-theory, although basis elements here are not related to the $J$-functor, in contrast to $\operatorname{Ext}_{A_\Psi^k}^{1,4k}$ (here, the elements go into $hy^m$ under the homomorphism $\Omega_e\to\Omega_{SU}$).
 
 We summarize the results of this section:
 
@@ -2418,17 +2377,17 @@ We summarize the results of this section:
 
 where$q _ { 1 H }$is the classical Hopf invariant, J is the Whitehead homomorphism, λ is the “Riemann–Roch” functor, c is complexification, and$\nu _ { p }$is the augmentation of $U ^ { * } .$-theory into$Z _ { p } .$-cohomology theory.
 
-2) The homomorphism Ex${ } _ { A U } ^ { 1 } ( \Lambda , \Lambda )  \mathrm { E x t } _ { A U } ^ { 1 } ( U ^ { * } ( M S U ) , \Lambda )$was studied.
+2) The homomorphism $\operatorname{Ext}_{A^U}^{1}(\Lambda,\Lambda)\to\operatorname{Ext}_{A^U}^{1}(U^*(MSU),\Lambda)$ was studied.
 
-3) It was established which elements of all these groups$\mathrm { E x t } ^ { 1 }$are realized as images of the Hopf invariant$q _ { 1 }$. In particular, for the groups Ex$^ { 1 , 2 t } _ { ^ { A } } ( \Lambda , \Lambda )$this image Im$q _ { 1 U }$is trivial for$t = 4 k + 3 ; q _ { 1 U }$is an epimorphism for$t = \overset { \triangledown } { 4 \ v k } - 1$, 4k; for $t = 4 k + 2 \ ( k \geq 1 )$and$t = 4 k + 3 \ ( k \geq 0 )$the Adams diferential
+3) It was established which elements of all these groups $\operatorname{Ext}^{1}$ are realized as images of the Hopf invariant $q_1$. In particular, for the groups $\operatorname{Ext}_{A^U}^{1,2t}(\Lambda,\Lambda)$ this image $\operatorname{Im}q_{1U}$ is trivial for $t=4k+3$; $q_{1U}$ is an epimorphism for $t=4k-1,4k$; for $t=4k+2$ ($k\ge1$) and $t=4k+3$ ($k\ge0$), the Adams differential
 
 $$
 d _ {3} \colon \operatorname{Ext} _ {A ^ {U}} ^ {1, 2 t} (\Lambda , \Lambda) \to \operatorname{Ext} _ {A ^ {U}} ^ {4, 2 t + 2} (\Lambda , \Lambda)
 $$
 
-is nontrivial; it can be shown that$d _ { 3 } ( E _ { 3 } ^ { 1 , 2 t } ) = h ^ { 3 } E _ { 3 } ^ { 1 , 2 t - 4 } { \mathrm { ~ f o r ~ } } t = 4 k + 2 \ ( k \geq 1 )$and $t = 4 k + 3 \ ( k \geq 0 ) \ ( \mathrm { s e e \ \ S \ 1 1 } )$
+is nontrivial; it can be shown that $d_3(E_3^{1,2t})=h^3E_3^{1,2t-4}$ for $t=4k+2$ ($k\ge1$) and $t=4k+3$ ($k\ge0$) (see § 11).
 
-4) The nonexistence of elements with classical Hopf invariant 1 is a consequence of the fact that$\tilde { \nu } _ { 2 } ( \mathrm { E x t } _ { A U } ^ { 1 , 2 ^ { i } } ) = 0$for$i \geq 4$. Analogously for$p > 2$(see § 12).
+4) The nonexistence of elements with classical Hopf invariant 1 is a consequence of the fact that $\tilde\nu_2(\operatorname{Ext}_{A^U}^{1,2^i})=0$ for $i\ge4$. Analogously for $p>2$ (see § 12).
 
 5. For$t \neq 8 k + 4 ,$, the fact of the following group isomorphism was established:
 
@@ -2436,61 +2395,47 @@ $$
 \mathrm{Ext} _ {A ^ {U}} ^ {1, t} (\Lambda , \Lambda) \stackrel {\tilde {\lambda}} {=} \mathrm{Ext} _ {A _ {\Psi} ^ {k}} ^ {1, t} (k ^ {*} (P), k ^ {*} (P));
 $$
 
-for$t = 4$this fact is false. For$t = 8 k + 4 , k \geq 1$, it is true and will be proved later $( \mathrm { s e e \ \ S \ 1 1 } )$
+for $t=4$ this fact is false. For $t=8k+4$, $k\ge1$, it is true and will be proved later (see § 11).
 
 ## § 11. Cobordism theory in the category$S \otimes _ { Z } Q _ { p }$
 
-Earlier, in$\ S \ 5 ,$, it was proved that in the algebra$A ^ { U } \otimes _ { Z } Q _ { p }$there exists a projector$\Phi \in A ^ { U } \otimes _ { Z } Q _ { p }$such that$\Phi ( x , y ) = \Phi ( x ) \Phi ( y )$and Im$\Phi ^ { * } \subset \Lambda$is the ring of polynomials in generators$y _ { 1 } , \ldots , y _ { i } , \ldots ,$dim$y _ { i } = 2 p ^ { i } - 2$, where the y are polynomial generators of the ring$\Lambda = \Omega _ { U } \otimes _ { Z } Q _ { p }$such that the numbers$\sigma _ { \varepsilon } ^ { * } ( y ) \in Q _ { p }$ are divisible by p and$\sigma _ { k } ^ { * } ( y _ { i } ) = p , k = p ^ { i } - 1$. Moreover, a complete system of orthogonal projectors$\Phi ^ { ( i ) }$was constructed,$\sum \Phi ^ { ( i ) } = 1 , \Phi ^ { ( i ) } \cdot \Phi ^ { ( j ) } = 0 , i \neq j$, where the$\Phi ^ { ( i ) } ( U ^ { * } \otimes _ { Z } Q _ { p } )$are isomorphic theories up to shift of dimensions. Hence, in the category$S \otimes _ { Z } Q _ { p }$the spectrum MU is equal to the sum$M U \approx \sum _ { \omega } E ^ { 2 d ( \omega ) } M _ { p }$, where
+Earlier, in § 5, it was proved that in the algebra$A ^ { U } \otimes _ { Z } Q _ { p }$there exists a projector$\Phi \in A ^ { U } \otimes _ { Z } Q _ { p }$such that$\Phi ( x , y ) = \Phi ( x ) \Phi ( y )$and Im$\Phi ^ { * } \subset \Lambda$is the ring of polynomials in generators$y _ { 1 } , \ldots , y _ { i } , \ldots ,$dim$y _ { i } = 2 p ^ { i } - 2$, where the y are polynomial generators of the ring$\Lambda = \Omega _ { U } \otimes _ { Z } Q _ { p }$such that the numbers$\sigma _ { \varepsilon } ^ { * } ( y ) \in Q _ { p }$ are divisible by p and$\sigma _ { k } ^ { * } ( y _ { i } ) = p , k = p ^ { i } - 1$. Moreover, a complete system of orthogonal projectors$\Phi ^ { ( i ) }$was constructed,$\sum \Phi ^ { ( i ) } = 1 , \Phi ^ { ( i ) } \cdot \Phi ^ { ( j ) } = 0 , i \neq j$, where the$\Phi ^ { ( i ) } ( U ^ { * } \otimes _ { Z } Q _ { p } )$are isomorphic theories up to shift of dimensions. Hence, in the category$S \otimes _ { Z } Q _ { p }$the spectrum MU is equal to the sum$M U \approx \sum _ { \omega } E ^ { 2 d ( \omega ) } M _ { p }$, where
 
 ω is not p-adic$\{ \mathrm { i . e . , } \omega = ( i _ { 1 } , \ldots , i _ { k } )$, all$i _ { q } \neq p ^ { r } - 1$for any r, and$d ( \omega ) = \sum _ { q = 1 } ^ { k } i _ { q } \}$ If$A _ { p } ^ { U }$is the Steenrod ring of the spectrum$M _ { p } ,$where$A _ { p } ^ { U } = \Phi \cdot A ^ { U } \cdot \Phi$, then we have:
 
-1)$A ^ { U } \otimes _ { Z } Q _ { p } = G L ( A _ { p } ^ { U } )$is the appropriately graded ring of infinite matrices of the form$( a _ { \omega _ { i } \omega _ { j } } ) , a _ { \omega _ { i } \omega _ { j } } \in A _ { p } ^ { U } , \omega _ { i }$not p-adic and dim$( a _ { \omega _ { i } \omega _ { j } } ) = 2 d ( \omega _ { j } ) - 2 d ( \omega _ { j } ) +$ dim$a _ { \omega _ { i } \omega _ { j } } \mathrm { \quad } \{ \mathrm { i . e . }$, the right-hand side is a constant for the whole matrix and defines the degree of the matrix}.
+1) $A^U\otimes_ZQ_p=GL(A_p^U)$ is the appropriately graded ring of infinite matrices of the form $(a_{\omega_i\omega_j})$, $a_{\omega_i\omega_j}\in A_p^U$, $\omega_i$ not $p$-adic, and $\dim(a_{\omega_i\omega_j})=2d(\omega_i)-2d(\omega_j)+\dim a_{\omega_i\omega_j}$ (i.e., the right-hand side is a constant for the whole matrix and defines the degree of the matrix).
 
-$$
-\operatorname{Ext} _ {A ^ {U}} ^ {s, t} \left(U ^ {*} (K), U ^ {*} (L)\right) \otimes_ {Z} Q _ {p} = \operatorname{Ext} _ {A _ {U} ^ {0}} ^ {s, t} \left(U _ {p} ^ {*} (K), U _ {p} ^ {*} (L)\right)
-$$
+2) $\operatorname{Ext}_{A^U}^{s,t}(U^*(K),U^*(L))\otimes_ZQ_p=\operatorname{Ext}_{A_p^U}^{s,t}(U_p^*(K),U_p^*(L))$, where $U_p^*=\Phi(U^*\otimes_ZQ_p)$ is the theory defined by the spectrum $M_p$.
 
-$$
-U _ {p} ^ {*} = \Phi (U ^ {*} \otimes_ {Z}
-$$
+3) The Adams spectral sequences $(E_r\otimes Q_p,d_r\otimes Q_p)$ in $U$-theory and $(\tilde E_r,\tilde d_r)$ in $U_p$-theory coincide. These facts follow from §§ 1–3.
 
-$$
-Q _ {p})
-$$
-
-$$
-M _ {p}
-$$
-
-3) The Adams spectral sequences$( E _ { r } \otimes Q _ { p } , d _ { r } \otimes Q _ { p } )$in U-theory and$( \tilde { E } _ { r } , \tilde { d } _ { r } )$ in$U _ { p } { \mathrm { - t h e o r y } }$coincide. These facts follow from$\ S \ S \ 1 - 3$
-
-We note that the polynomial generators of the ring$\Lambda _ { p } = U _ { p } ^ { * } ( P ) = \Phi ^ { * } U ^ { * } ( P )$ can be chosen to be polynomials with rational coeficients in the elements$x _ { i } =$ $[ C P ^ { { i } ^ { - 1 } } ] \in \Omega _ { U }$, where the polynomial generator can be identified with$[ C P ^ { p - 1 } ] =$ $x _ { 1 } = y _ { 1 }$in the first nontrivial dimension, equal to$p - 1$
+We note that the polynomial generators of the ring $\Lambda_p=U_p^*(P)=\Phi^*U^*(P)$ can be chosen to be polynomials with rational coefficients in the elements $x_i=[CP^{p^i-1}]\in\Omega_U$, where the polynomial generator can be identified with $[CP^{p-1}]=x_1=y_1$ in the first nontrivial dimension, equal to $p-1$.
 
 We consider the ring$\Lambda _ { p , i } \subset \Lambda$, generated by the first i polynomial generators $y _ { 1 } , \dotsc , y _ { i } \in \Lambda _ { p }$. This ring$\Lambda _ { p , i }$does not depend on the choice of generators.
 
 The following fact is clear: the subring$\Lambda _ { p , i } \subset \Lambda _ { p }$is invariant with respect to the action of all operations$\Phi \cdot S _ { 2 } \cdot \Phi$on the ring$\Lambda _ { p } .$The proof follows from the fact that the subring$\Lambda _ { ( j ) } \subset \Lambda = \Omega _ { U }$, generated by all generators of dimension$\leq 2 j$, is invariant with respect to$S _ { \omega }$and with respect to Φ, while$\Phi ( \Lambda _ { p ^ { i } - 1 } ) = \Lambda _ { p , i } .$
 
-We consider the projection operator$\Phi _ { i } ~ \in ~ A _ { p } ^ { U } \otimes _ { Q _ { p } } Q$such that$\Phi _ { i } ^ { * } \colon \Lambda _ { p } \$ $\Lambda _ { p , i } , \Phi _ { i } | \Lambda _ { p , i } = 1$and$\Phi _ { i } ( y _ { j } ) = 0$for$j > i$. The ring$\Phi _ { i } A _ { p } ^ { U } \Phi$will be denoted by $A _ { p , i }$. It is generated by the operators of multiplication by elements of$\Lambda _ { p , i } \subset A _ { p , i }$ and by operators of the form$\Phi _ { i } \cdot \Phi \cdot S _ { \omega } \cdot \Phi \cdot \Phi _ { i }$, where it is suficient to take only partitions$\omega = ( k _ { 1 } , \ldots , k _ { s } ) , k _ { j } = p ^ { q i } - 1$, while$q _ { j } \leq i$
+We consider the projection operator $\Phi_i\in A_p^U\otimes_{Q_p}Q$ such that $\Phi_i^*:\Lambda_p\to\Lambda_{p,i}$, $\Phi_i|_{\Lambda_{p,i}}=1$, and $\Phi_i(y_j)=0$ for $j>i$. The ring $\Phi_iA_p^U\Phi_i$ will be denoted by $A_{p,i}$. It is generated by the operators of multiplication by elements of $\Lambda_{p,i}\subset A_{p,i}$ and by operators of the form $\Phi_i\cdot\Phi\cdot S_\omega\cdot\Phi\cdot\Phi_i$, where it is sufficient to take only partitions $\omega=(k_1,\ldots,k_s)$, $k_j=p^{q_j}-1$, while $q_j\le i$.
 
 We have the following general fact.
 
-The ring$A _ { p } ^ { U }$is generated by operators of the form$\Phi \cdot S _ { \omega } \cdot \Phi$for$\omega ( k _ { 1 } , \dots , k _ { s } )$ $k _ { j } = p ^ { q _ { j } } - 1$
+The ring $A_p^U$ is generated by operators of the form $\Phi\cdot S_\omega\cdot\Phi$ for $\omega=(k_1,\ldots,k_s)$, $k_j=p^{q_j}-1$.
 
 This fact follows easily from properties of the projector Φ and the structure of the spectrum$M _ { p }$
 
-However, if$\omega = ( p ^ { q _ { 1 } } - 1 , \ldots , p ^ { q _ { s } } - 1 )$and at least one$q _ { j } \ > \ i$, then clearly $\sigma _ { \omega } ( \Lambda _ { p , i } ) = 0$. Hence in the ring$\Phi _ { i } A _ { p } ^ { U } \Phi _ { i }$it sufices to consider only$\Phi _ { i } \cdot \Phi \cdot S _ { \omega } \cdot \Phi \cdot \Phi _ { i }$ for$\omega = ( p ^ { p _ { 1 } } - 1 , \ldots , p ^ { q _ { s } } - 1 )$, where all$q _ { j } \leq i$
+However, if $\omega=(p^{q_1}-1,\ldots,p^{q_s}-1)$ and at least one $q_j>i$, then clearly $\sigma_\omega(\Lambda_{p,i})=0$. Hence in the ring $\Phi_iA_p^U\Phi_i$ it suffices to consider only $\Phi_i\cdot\Phi\cdot S_\omega\cdot\Phi\cdot\Phi_i$ for $\omega=(p^{q_1}-1,\ldots,p^{q_s}-1)$, where all $q_j\le i$.
 
 Additive bases for the rings$A _ { p } ^ { U }$and$A _ { p , i } \colon$
 
 a)$A _ { p } ^ { U } = ( \Lambda _ { p } \cdot S _ { \omega } ) ^ { \wedge }$, where ω is p-adic and ∧ denotes completion (by formal series).
 
 $$
-\text { b) } A _ {p, i} = (\Lambda_ {p, i} \cdot S _ {\omega}) ^ {\wedge}, \omega = (p ^ {j 1} - 1, \dots , p ^ {j s} - 1), j _ {k} \leq i.
+b) $A_{p,i}=(\Lambda_{p,i}\cdot S_\omega)^\wedge$, $\omega=(p^{j_1}-1,\dots,p^{j_s}-1)$, $j_k\le i$.
 $$
 
-We consider the operations$e _ { i , k } = S _ { ( p ^ { i } - 1 , \ldots , p ^ { i } - 1 ) } \ ( k \ \mathrm { t i m e s } )$, regarded as elements of the ring$A _ { p , i } , \mathrm { i . e . , } e _ { i , k } = \Phi _ { i } \Phi _ { } S _ { \omega } \Phi _ { i } \nonumber$. Clearly, we have:
+We consider the operations $e_{i,k}=S_{(p^i-1,\ldots,p^i-1)}$ ($k$ times), regarded as elements of the ring $A_{p,i}$, i.e. $e_{i,k}=\Phi_i\Phi S_\omega\Phi\Phi_i$. Clearly, we have:
 
-1)$\Delta ( e _ { i , k } ) \bar { = } \sum _ { k = I \pm c } e _ { i s } \otimes e _ { i , i }$<sub>l</sub> (the projectors Φ<sub>i</sub> and Φ preserve the diagonal);
+1) $\Delta(e_{i,k})=\sum_{k=l+s}e_{i,s}\otimes e_{i,l}$ (the projectors $\Phi_i$ and $\Phi$ preserve the diagonal);
 
 2)$e _ { i , k } ^ { * } ( \Lambda _ { p , i - 1 } ) = 0 ;$
 
@@ -2502,7 +2447,7 @@ We denote by$D _ { i }$the subring of$A _ { p , i }$spanned by$\mathcal { E } _ 
 
 We have the following
 
-Lemma 11.1. a) The subring$\mathcal { E } _ { 1 }$commutes with all operators of multiplication $\Lambda _ { p , i - 1 } \subset \Lambda _ { p }$and all operators$\Phi _ { i } \Phi S _ { \omega } \Phi \Phi$<sub>i</sub> for all$\omega = ( p ^ { j _ { 1 } } - 1 , \ldots , p ^ { j _ { s } } - 1 )$, where $j _ { k } \le i - 1$
+Lemma 11.1. a) The subring $\mathcal{E}_1$ commutes with all operators of multiplication $\Lambda_{p,i-1}\subset\Lambda_p$ and all operators $\Phi_i\Phi S_\omega\Phi\Phi_i$ for all $\omega=(p^{j_1}-1,\ldots,p^{j_s}-1)$, where $j_k\le i-1$.
 
 b) In the ring$\mathcal { E } _ { i }$we have the relations
 
@@ -2511,10 +2456,10 @@ e _ {i, k} \cdot e _ {i, s} = \binom{k + s}{s} \cdot e _ {i, k + s},
 $$
 
 $$
-e _ {i, k} \cdot y _ {i} ^ {q} = \sum_ {s + m = i} e _ {i, m} ^ {*} (y ^ {q}) \cdot e _ {i, s},
+e _ {i, k} \cdot y _ {i} ^ {q} = \sum_ {s + m = i} e _ {i, m} ^ {*} (y _ {i} ^ {q}) \cdot e _ {i, s},
 $$
 
-where$\begin{array} { r } { e _ { i , m } ^ { * } ( y ^ { q } ) = \binom { q } { m } p ^ { m } y ^ { q - m } } \end{array}$
+where $e_{i,m}^*(y^q)=\binom{q}{m}p^m y^{q-m}$.
 
 c) The ring$A _ { p , i - 1 }$is obtained from the ring$A _ { p , i }$by discarding the polynomial generator$y _ { i }$and then factoring the remaining subring$B _ { p , i } ~ \subset ~ A _ { p , i }$by the ideal spanned by the central subalgebra$\mathcal { E } _ { i }$of$B _ { p , i }$, where
 
@@ -2522,7 +2467,7 @@ $$
 B _ {p, i} = \left\{\Lambda_ {p, i - 1} \cdot \left(\Phi_ {i} \Phi S _ {\omega} \Phi \Phi_ {i}\right) \right\} ^ {\wedge}
 $$
 
-for all$p \cdot$-adic$\omega .$
+for all $p$-adic $\\omega$.
 
 The proof of all parts of Lemma 11.1 follows easily from what has preceded.
 
@@ -2536,7 +2481,7 @@ $$
 
 with$\mathcal { E } _ { i }$acting trivially on$\Lambda _ { p , i - 1 } .$
 
-Step 2. We adjoin to the ring of scalars$\Lambda _ { p , i - 1 }$a polynomial generator$y _ { i }$of dimension$p ^ { i } - 1$, setting$e _ { i , k } ^ { * } ( y _ { i } ) = { \binom { q } { k } } p ^ { k } y ^ { q - k }$with all the consequences derived from this.
+Step 2. We adjoin to the ring of scalars $\Lambda_{p,i-1}$ a polynomial generator $y_i$ of dimension $p^i-1$, setting $e_{i,k}^*(y_i)=\binom{q}{k}p^k y^{q-k}$ with all the consequences derived from this.
 
 The ring$Q _ { p } [ y _ { i } ] \cdot B _ { p , i }$coincides with$A _ { p , i } ,$, while the commutation rules for$y _ { i }$and $\Phi _ { i } S _ { \omega } \Phi _ { i }$are derived from part (b) of Lemma 11.1.
 
@@ -2544,9 +2489,9 @@ In particular, the action of the operators$\Phi _ { i } S _ { \omega } \Phi _ { 
 
 We shall denote$\Phi S _ { \omega } \Phi$by$P ^ { k }$when$\omega = ( p - 1 , \ldots , p - 1 )$(k times).
 
-We denote$\Phi _ { i } P ^ { k } \Phi ,$by$P ^ { k }$. For$p = 2$we set$P ^ { k } = \operatorname { S q } ^ { k }$
+We denote $\Phi_iP^k\Phi_i$ by $P^k$. For $p=2$ we set $P^k=\operatorname{Sq}^k$.
 
-As in the ordinary Steenrod algebra mod$p ,$we have here the following fact: the operations$P ^ { k }$together with$\Lambda _ { p }$generate the entire ring$A _ { p } ^ { U }$(it sufices to take $P ^ { p ^ { s } } )$. This follows easily from the fact that for the ring$A _ { p } ^ { U } \otimes \dot { Z } _ { p }$it is easily derived from the properties of the ordinary Steenrod algebra. Hence, it sufices to determine only the action of the operators P<sup>k</sup> on the generators$\dot { P } ^ { k }$$y _ { i }$(and even only of the$P ^ { p ^ { s } \cdot }$).
+As in the ordinary Steenrod algebra mod $p$, the operations $P^k$ together with $\Lambda_p$ generate the entire ring $A_p^U$ (it suffices to take $P^{p^s}$). This follows easily from the properties of the ordinary Steenrod algebra. Hence, it suffices to determine only the action of the operators $P^k$ on the generators $y_i$ (and even only of the $P^{p^s}$).
 
 We now consider the ring$D _ { i } ,$, operating on the module$Q _ { p } [ y _ { i } ]$, and the groups $\mathrm { E x t } _ { D _ { i } } ^ { s , t } ( Q _ { p } [ y _ { i } ] , Q _ { p } [ y _ { i } ] )$. We set
 
@@ -2560,7 +2505,7 @@ Lemma 11.2. a) There is a well-defined graded action of the ring$A _ { p , i - 1
 
 1) λ(x ⊗ µ) = x ⊗ λµ, λ, µ ∈ Λ<sub>p,i−1</sub> ⊂ A<sub>p,i−1</sub>;
 
-2)$i f e _ { i , \omega } = \Phi _ { i } S _ { \omega } \Phi _ { i } ,$
+2) if $e_{i,\omega}=\Phi_iS_\omega\Phi_i,$
 
 $$
 e _ {i, \omega} \in A _ {p, i - 1}, \quad \omega = (p ^ {i} - 1, \ldots , p ^ {j _ {s}} - 1), \quad j _ {j} <   i,
@@ -2598,7 +2543,7 @@ a)$E _ { \infty }$is associated with Ext$_ { A _ { p , i } } ( \Lambda _ { p , i
 
 b)$E _ { 2 } ^ { p , q }$coincides with$\mathrm { E x t } _ { A _ { p , i - 1 } } ^ { p } ( \Lambda _ { p , i - 1 } , \Gamma ^ { q } \otimes \Lambda _ { p , i - 1 } )$, where$\Gamma ^ { q } \otimes \Lambda _ { p , i - 1 }$is a Λ<sub>p,i−1</sub>-module by virtue of Lemma 11.2;
 
-${ \mathrm { c } } ) d _ { r } \colon E _ { r } ^ { p , q } \to E _ { r } ^ { p + r , q - r + 1 } ;$all diferentials$d _ { r }$preserve the dimension of elements induced by the dimension of rings and modules;
+${ \mathrm { c } } ) d _ { r } \colon E _ { r } ^ { p , q } \to E _ { r } ^ { p + r , q - r + 1 } ;$all differentials$d _ { r }$preserve the dimension of elements induced by the dimension of rings and modules;
 
 d)$E _ { 2 } ^ { p , 0 } = \mathrm { E x t } _ { A _ { p , i - 1 } } ^ { p } ( \Lambda _ { p , i - 1 } , \Lambda _ { p , i - 1 } ) ;$
 
@@ -2606,13 +2551,13 @@ e) the spectral sequence$( E _ { r } , d _ { r } )$is a spectral sequence of rin
 
 The proof of this theorem is more or less standard and is constructed by starting from the double complex corresponding to the central extension$B _ { i }$of the rings $\mathcal { E } _ { i } , A _ { p , i - 1 }$. We shall not give it here.
 
-For what follows it will be useful to us to compute Ex$\mathring { \iota } _ { D _ { i } } ^ { * * } ( Q _ { p } [ y ] , Q _ { p } [ y ] )$. We note that$A _ { p , 1 } = D _ { 1 }$, and the calculation of these groups gives certain information about the ring
+For what follows it will be useful to us to compute $\operatorname{Ext}^{**}_{D_i}(Q_p[y],Q_p[y])$. We note that$A _ { p , 1 } = D _ { 1 }$, and the calculation of these groups gives certain information about the ring
 
 $$
 \operatorname{Ext} _ {A ^ {U}} \left(U ^ {*} (P), U ^ {*} (P)\right) \otimes_ {Z} Q _ {p}.
 $$
 
-Lemma 11.3. Let C be a bigraded diferential ring over$Q _ { p } { } _ { ; }$, which is associative and is generated by elements
+Lemma 11.3. Let C be a bigraded differential ring over $Q_p$, which is associative and is generated by elements
 
 $$
 x \in C ^ {0, 2 p ^ {i} - 2}, \quad h _ {j} \in C ^ {1, 2 j (p ^ {i} - 1)}, \quad j \geq 1,
@@ -2628,15 +2573,15 @@ $$
 3) \quad d (h _ {1}) = 0, \quad d (h _ {j + 1}) = \sum_ {k = 1} ^ {j} \binom {j + 1} {k} h _ {j + 1 - k} \cdot h _ {k}, \quad j \geq 1;
 $$
 
-4)$d ( u v ) = ( d u ) v + ( - 1 ) ^ { i } u ( d v )$where$u \in C ^ { i }$. Here, d is the diferential in the ring$C ^ { * * }$
+4)$d ( u v ) = ( d u ) v + ( - 1 ) ^ { i } u ( d v )$where$u \in C ^ { i }$. Here, d is the differential in the ring$C ^ { * * }$
 
 Then the cohomology ring$H ^ { * * } ( C )$is canonically isomorphic to the ring $\mathrm { E x t } _ { D _ { i } } ^ { * * } ( Q _ { p } [ y _ { i } ] , Q _ { p } [ y _ { i } ] )$
 
-The proof of the lemma consists in constructing a$D _ { i }$-free acyclic resolution$\tilde { F }$of the module$Q _ { p } [ y _ { i + 1 } ]$, having the form$Q _ { p } [ y ] \cdot F$, where$F$is a standard resolution over$\mathcal { E } _ { i }$of the trivial module$Q _ { p } = \mathcal { E } _ { i } / \bar { \mathcal { E } } _ { i }$, where$\bar { \mathcal { E } } _ { i }$is the set of elements of positive dimension and$\mathcal { E } _ { i }$is described in Lemma 11.1. The ring$\mathcal { E } _ { i }$has a diagonal, as do$D _ { i }$and$Q _ { p } [ y ]$. Hence the complex Hom$\mathsf { l } _ { D _ { i } } ^ { * * } ( \bar { F } , Q _ { p } [ y ] )$) is a ring, which coincides exactly, as is easy to verify, with the ring$C$together with the diferential operator d. Whence the lemma follows.
+The proof of the lemma consists in constructing a$D _ { i }$-free acyclic resolution$\tilde { F }$of the module$Q _ { p } [ y _ { i + 1 } ]$, having the form$Q _ { p } [ y ] \cdot F$, where$F$is a standard resolution over$\mathcal { E } _ { i }$of the trivial module$Q _ { p } = \mathcal { E } _ { i } / \bar { \mathcal { E } } _ { i }$, where$\bar { \mathcal { E } } _ { i }$is the set of elements of positive dimension and$\mathcal { E } _ { i }$is described in Lemma 11.1. The ring$\mathcal { E } _ { i }$has a diagonal, as do$D _ { i }$and$Q _ { p } [ y ]$. Hence the complex $\operatorname{Hom}^{**}_{D_i}(\bar F,Q_p[y])$ is a ring, which coincides exactly, as is easy to verify, with the ring$C$together with the differential operator d. Whence the lemma follows.
 
 From Lemma 11.3 it is easy to derive
 
-Lemma 11.4. a) For$p = 2$the cohomology ring$H ^ { * * } ( C \otimes Z _ { 2 } )$is isomorphic to the polynomial algebra$Z _ { 2 } [ x ] \otimes Z _ { 2 } [ h _ { 1 } , h _ { 2 } , . . . , h _ { 2 ^ { k } } ]$with Bokˇste˘ın homomorphism$\beta$ of the following form:
+Lemma 11.4. a) For$p = 2$the cohomology ring$H ^ { * * } ( C \otimes Z _ { 2 } )$is isomorphic to the polynomial algebra$Z _ { 2 } [ x ] \otimes Z _ { 2 } [ h _ { 1 } , h _ { 2 } , . . . , h _ { 2 ^ { k } } ]$with Bokšteĭn homomorphism$\beta$ of the following form:
 
 1)$\beta ( x ) = h _ { 1 } ;$
 
@@ -2664,7 +2609,7 @@ $$
 x \in H ^ {0, 2 p ^ {i} - 2} (C _ {i} \otimes Z _ {p})
 $$
 
-and the Bokˇste˘ın homomorphism$\beta$has the following:
+and the Bokšteĭn homomorphism$\beta$has the following:
 
 1)$\beta ( x ) = h _ { 1 } ;$
 
@@ -2675,7 +2620,7 @@ c) The group$\mathrm { E x t } _ { D _ { i } } ^ { 1 , t } ( Q _ { p } [ y _ { i
 d) The image of the homomorphism of “reduction modulo$p ,$，
 
 $$
-\alpha \colon \operatorname{Ext} ^ {1, 2 q (p ^ {i} - 1)} \left(Q _ {p} \left[ y _ {i} \right], Q _ {p} \left[ y _ {i} \right]\right)\rightarrow H ^ {1, 2 q \left(p ^ {i} - 1\right)} \left(C _ {i} \otimes Z _ {p}\right)
+\alpha \colon \operatorname{Ext} _ {D_i} ^ {1, 2 q (p ^ {i} - 1)} \left(Q _ {p} \left[ y _ {i} \right], Q _ {p} \left[ y _ {i} \right]\right)\rightarrow H ^ {1, 2 q \left(p ^ {i} - 1\right)} \left(C _ {i} \otimes Z _ {p}\right)
 $$
 
 is generated by the following elements:
@@ -2700,17 +2645,17 @@ $$
 H ^ {* *} (C _ {i} \otimes Z _ {p}) = Z _ {p} [ x ] \otimes \operatorname{Ext} _ {\mathcal {E} _ {i} \otimes Z _ {p}} (Z _ {p}, Z _ {p}).
 $$
 
-The structure of the Bokˇste˘ın homomorphism$\beta$is derived immediately from Lemma 11.3.
+The structure of the Bokšteĭn homomorphism$\beta$is derived immediately from Lemma 11.3.
 
-Part (c) follows from the fact that$e _ { i , k } ^ { * } ( y _ { i } ^ { q } ) = \sum _ { k > 1 } \binom { q } { k } p ^ { k } x ^ { q - k }$, as was shown in Lemma 11.1, and from the construction of the standard$\mathcal { E } _ { i } .$-resolution$F$for the module$\mathcal { E } _ { i } / \bar { \mathcal { E } } _ { i } = Q _ { p }$and the diferential$d ^ { * }$in the complex Hom$^ { * } ( Q _ { p } [ y _ { i } ] \cdot F , Q _ { p } [ y _ { i } ] )$. Namely, we have:
+Part (c) follows from the fact that$e _ { i , k } ^ { * } ( y _ { i } ^ { q } ) = \sum _ { k \geq 1 } \binom { q } { k } p ^ { k } x ^ { q - k }$, as was shown in Lemma 11.1, and from the construction of the standard$\mathcal { E } _ { i } .$-resolution$F$for the module$\mathcal { E } _ { i } / \bar { \mathcal { E } } _ { i } = Q _ { p }$and the differential$d ^ { * }$in the complex Hom$^ { * } ( Q _ { p } [ y _ { i } ] \cdot F , Q _ { p } [ y _ { i } ] )$. Namely, we have:
 
 $$
 d ^ {*} (x ^ {q}) = \sum_ {k \geq 1} \binom{q}{k} p ^ {k} h _ {k} x ^ {q - k}.
 $$
 
-Part (d) is derived from the fact that${ \frac { 1 } { p ^ { f ( q ) } } } d ( x ^ { q } )$mod$p$is equal to$h _ { 1 } x ^ { q - 1 }$for$p > 2$ or$p = 2 , q = 2 s + 1$, and is equal to$\dot { h } _ { 1 } x ^ { q - 1 } + h _ { 2 } x ^ { q - 2 }$for$p = 2 , q = 2 s$
+Part (d) is derived from the fact that $\frac{1}{p^{f(q)}}d(x^q)\bmod p$ is equal to $h_1x^{q-1}$ for $p>2$ or $p=2,\ q=2s+1$, and is equal to $h_1x^{q-1}+h_2x^{q-2}$ for $p=2,\ q=2s$.
 
-We shall now prove part (e). Since the homomorphism$\beta$is a diferential operator, it sufices to show that$H ^ { t } ( H ^ { * } ( C _ { i } \otimes Z _ { p } ) , \beta ) = 0$for$t > 1$. The structure of the homomorphism$\beta$was determined in parts (a) and (b) of Lemma 11.4, and the required fact is easily derived from the usual homological arguments. The lemma is proved.
+We shall now prove part (e). Since the homomorphism$\beta$is a differential operator, it suffices to show that$H ^ { t } ( H ^ { * } ( C _ { i } \otimes Z _ { p } ) , \beta ) = 0$for$t > 1$. The structure of the homomorphism$\beta$was determined in parts (a) and (b) of Lemma 11.4, and the required fact is easily derived from the usual homological arguments. The lemma is proved.
 
 1. The ring structure in$\mathrm { E x t } _ { D _ { i } } ^ { * * } ( Q _ { p } [ y ] , Q _ { p } [ y ] )$completely follows from Lemma 11.4, since the homomorphism of reduction modulo$p _ { : }$
 
@@ -2760,19 +2705,19 @@ $$
 \operatorname{Ext} _ {D _ {1}} ^ {t, *} (Q _ {p} [ y _ {1} ], Q _ {p} [ y _ {1} ]) \xrightarrow {\gamma^ {(t)}} \operatorname{Ext} _ {A ^ {U}} ^ {t, *} (U ^ {*} (P), U ^ {*} (P)) \otimes_ {Z} Q _ {p}.
 $$
 
-From Lemma 11.4 and the results of$\ S \ S \ 7 , 8$is derived the following
+From Lemma 11.4 and the results of §§ 7, 8 is derived the following
 
 Theorem 11.2. a) For$t = 1$the homomorphism$\gamma _ { p } ^ { ( 1 ) }$is a monomorphism.
 
 b) For all$p > 2$the homomorphism$\gamma _ { p } ^ { ( 1 ) }$is an isomorphism.
 
-c) For$p = 2$the homomorphism$\gamma _ { p } ^ { ( 1 ) }$is an isomorphism on the groups$\mathrm { E x t } ^ { 1 , 2 q }$ $f o r \ q = 2$and for q odd; for$q = 2 s , s \geq 2$, the image of the homomorphism$\gamma _ { 2 } ^ { ( 1 ) }$ nas index$\mathrm { ~ \tt ~ . ~ o r ~ 2 ~ }$in$\operatorname { E x t } _ { A ^ { U } } ^ { 1 , 2 q } \otimes _ { Z } Q _ { 2 }$and in fact index 2 for all$q = 4 s , s \geq 1$
+c) For $p=2$, the homomorphism $\gamma_2^{(1)}$ is an isomorphism on the groups $\operatorname{Ext}^{1,2q}$ for $q=2$ and for $q$ odd; for $q=2s$, $s\geq2$, the image of $\gamma_2^{(1)}$ has index 1 or 2 in $\operatorname{Ext}_{A^U}^{1,2q}\otimes_ZQ_2$, and in fact index 2 for all $q=4s$, $s\geq1$.
 
 d) For all$q = 4 s + 1$and$q = 4 s + 2$the image Im$\gamma _ { 2 } ^ { ( 1 ) }$coincides with the image of the Hopf invariant$q _ { 1 } ^ { U } ( \pi _ { * } ( S ^ { n } ) ) = q _ { 1 } ^ { U } ( J \pi _ { * } ( S O ) )$. For$p > 2$the image Im$\gamma _ { p } ^ { ( 1 ) }$ coincides with the image of the Hopf invariant$q _ { 1 } ^ { U } ( \pi _ { * } ( S ^ { n } ) ) = q _ { 1 } ^ { U } ( J \pi _ { * } ( S O ) )$
 
-In the formulation of Theorem 11.2 the calculation of the group Ex$\mathfrak { t } _ { A ^ { U } } ^ { 1 , 8 k + 4 } \otimes _ { Z } Q _ { p }$ not complete — is the homomorphism$\gamma _ { 2 } ^ { ( 1 ) }$an epimorphism or does Im$\gamma _ { 2 } ^ { 1 }$have index 2?
+In the formulation of Theorem 11.2 the calculation of the group $\operatorname{Ext}_{A^U}^{1,8k+4}\otimes_ZQ_p$ is not complete—is the homomorphism $\gamma_2^{(1)}$ an epimorphism or does $\operatorname{Im}\gamma_2^{(1)}$ have index 2?
 
-For the study of this question we shall use the spectral sequence$( E _ { r } , d _ { r } )$described in Theorem 11.1, which converges to the groups Ext$_ { A _ { 2 , 2 } } ( \Lambda _ { 2 , 2 } , \Lambda _ { 2 , 2 } )$. Namely, we must compute the groups$E _ { 2 } ^ { 0 , 1 }$and the diferential
+For the study of this question we shall use the spectral sequence$( E _ { r } , d _ { r } )$described in Theorem 11.1, which converges to the groups Ext$_ { A _ { 2 , 2 } } ( \Lambda _ { 2 , 2 } , \Lambda _ { 2 , 2 } )$. Namely, we must compute the groups$E _ { 2 } ^ { 0 , 1 }$and the differential
 
 $$
 d _ {2} \colon E _ {2} ^ {0, 1} \to E _ {2} ^ {2, 0} \approx \operatorname{Ext} _ {A _ {2, 1}} ^ {2} (\Lambda_ {2, 1}, \Lambda_ {2, 1}) = \operatorname{Ext} _ {D _ {1}} ^ {2} (Q _ {2} [ y _ {1} ], Q _ {2} [ y _ {1} ]).
@@ -2781,13 +2726,13 @@ $$
 The groups$\mathrm { E x t } _ { D _ { 1 } } ^ { 2 }$were computed in Lemma 11.4 for all$p \geq 2$. We may assume that$y _ { 1 } = [ C P ^ { p - 1 } ] \in \Omega _ { U }$and
 
 $$
-y _ {2} = \frac {1}{p} ([ C _ {p} ^ {p ^ {2} - 1} ] + \lambda [ C _ {p} ^ {p - 1} ] ^ {p + 1}) = \frac {1}{p} (x _ {2} + \lambda x _ {1} ^ {p + 1}),
+y _ {2} = \frac {1}{p} ([ CP ^ {p ^ {2} - 1} ] + \lambda [ CP ^ {p - 1} ] ^ {p + 1}) = \frac {1}{p} (x _ {2} + \lambda x _ {1} ^ {p + 1}),
 $$
 
 where$x _ { i } = [ C P ^ { p ^ { i } - 1 } ]$. Moreover, by the integrality of the Todd genus we can set $\lambda = p - 1$and
 
 $$
-y _ {2} = \frac {1}{p} (x _ {2} + (p - 1) x _ {2} ^ {p + 1}), y _ {1} = x _ {1}.
+y _ {2} = \frac {1}{p} (x _ {2} + (p - 1) x _ {1} ^ {p + 1}), y _ {1} = x _ {1}.
 $$
 
 We have:
@@ -2808,7 +2753,7 @@ $$
 
 As a consequence of this we have
 
-Lemma 11.5. The action of the operators$P ^ { k }$on the generators y<sup>q</sup> of the ring$\Lambda _ { p , 2 }$ is given by the following formula:
+Lemma 11.5. The action of the operators $P^k$ on the generators $y_2^q$ of the ring $\Lambda_{p,2}$ is given by the following formula:
 
 $$
 (\Phi P^{k}\Phi)^{*}(y_{2}^{q}) = \sum_{k\geq 1}\Bigg[ y_{2}^{q - k}\otimes \Bigg(\sum_{\substack{l_{1} > 0\\ l_{k} > 0\\ \sum l_{i} = k}}P^{l_{1}}(y_{2})\circ \dots \circ P^{l_{k}}(y_{2})\Bigg)\circ \binom {q}{k}\Bigg],
@@ -2828,7 +2773,7 @@ $$
 \text { c) } P ^ {p + 1} (y _ {2}) = \frac {1}{p} \left(\binom{p ^ {2}}{p + 1} + p ^ {p + 1}\right).
 $$
 
-We note that$P ^ { 1 } ( y _ { 2 } )$is divisible by$p$for$1 \neq p$and$P ^ { p } ( y _ { 2 } )$is not divisible by$p .$ Now we can describe the action of the ring$A _ { p , 1 }$on$\Gamma ^ { 1 } \otimes \Lambda _ { p , 1 }$, where $\Gamma ^ { t , s } ~ = ~ \mathrm { E x t } _ { D _ { 2 } } ^ { t , - s } ( Q _ { p } [ y _ { 2 } ] , Q _ { p } [ y _ { 2 } ] )$and$\lambda _ { p , 1 } ~ = ~ Q _ { p } [ y _ { 1 } ] { } ~ = ~ Q _ { p } [ x _ { 1 } ] , ~ x _ { 1 } ~ = ~ [ C P ^ { p - 1 } ]$ The groups$\bar { \Gamma } ^ { 1 , * }$were computed in Lemma 11.4, part (c). The generator of the group$\mathrm { E x t } ^ { 1 , q ( p ^ { 2 } - 1 ) } ( Q _ { p } [ y _ { 2 } ] , Q _ { p } [ y _ { 2 } ] )$is obtained as$d ^ { * } ( x ^ { q } ) / p ^ { f ( q ) }$in the complex Hom$\mathrm { 1 } _ { D _ { 2 } } ^ { * } ( F , Q _ { p } [ \gamma _ { 2 } ] )$where$F$is a$D _ { 2 } .$-free acyclic resolution of the module $Q _ { p } [ y _ { 2 } ] , x ^ { q } \ \in$Hom$\left[ D _ { 2 } , Q _ { p } [ y _ { 2 } ] \right)$is an element such that$x ^ { q } ( 1 ) = y _ { 2 } ^ { q } , f ( q ) - 1$is the maximal power of$p$which divides$q ,$and$d ^ { * }$is the diferential in the complex Hom$_ { \cdot D _ { 2 } } ^ { * } ( F , Q _ { p } [ y _ { 2 } ] )$.
+We note that $P^1(y_2)$ is divisible by $p$ for $1\ne p$ and $P^p(y_2)$ is not divisible by $p$. Now we can describe the action of the ring $A_{p,1}$ on $\Gamma^1\otimes\Lambda_{p,1}$, where $\Gamma^{t,s}=\operatorname{Ext}_{D_2}^{t,-s}(Q_p[y_2],Q_p[y_2])$ and $\lambda_{p,1}=Q_p[y_1]=Q_p[x_1]$, $x_1=[CP^{p-1}]$. The groups $\bar\Gamma^{1,*}$ were computed in Lemma 11.4, part (c). The generator of the group $\operatorname{Ext}_{D_2}^{1,q(p^2-1)}(Q_p[y_2],Q_p[y_2])$ is obtained as $d^*(x^q)/p^{f(q)}$ in the complex $\operatorname{Hom}_{D_2}^*(F,Q_p[y_2])$, where $F$ is a $D_2$-free acyclic resolution of the module $Q_p[y_2]$, $x^q\in\operatorname{Hom}^*(D_2,Q_p[y_2])$ is an element such that $x^q(1)=y_2^q$, $f(q)-1$ is the maximal power of $p$ which divides $q$, and $d^*$ is the differential in the complex $\operatorname{Hom}_{D_2}^*(F,Q_p[y_2])$.
 
 We set
 
@@ -2839,7 +2784,7 @@ $$
 where
 
 $$
-a_{k} = \sum_{\substack{\sum l_{i} = k\\ l_{i} > 0}}P^{l}(y_{2})\ldots P^{l_{s}}(y_{2})\binom {q}{k}
+a_k=\sum_{\substack{\sum l_i=k\\l_i>0}}P^{l_1}(y_2)\cdots P^{l_s}(y_2)\binom{q}{k}
 $$
 
 by virtue of Lemma 11.5 and$a _ { k } \in Q _ { p } [ y _ { 1 } ] , a _ { k } = \lambda ^ { k } y _ { 1 } ^ { s _ { k } }$. From what has been said it is easy to derive
@@ -2858,31 +2803,31 @@ $$
 
 are generators (their orders are$p ^ { f ( q ) } )$and$a _ { k } \in Q _ { p } [ y _ { 1 } ]$is described in Lemma 11.4.
 
-Lemma 11.6 follows easily from Lemma 11.4 and the definition of the generators $\alpha _ { q } = d ^ { * } x ^ { q } / p ^ { f ( q ) }$, where$x ^ { q } \in \mathrm { H o m } ^ { * } ( F , Q _ { p } [ y _ { 2 } ] )$is such that$x ^ { q } ( 1 ) = y _ { 2 } ^ { q } \in Q _ { p } [ y _ { 2 } ]$ Further, we compute Hom$\mathbf { \Phi } _ { \mathrm { \cdot } A _ { p , 1 } } ^ { \mathrm { * } } \bigl ( \Lambda _ { p , 2 } , \Gamma ^ { 1 } \bigr . \otimes \Lambda _ { p , 1 } \bigr ) \ : = \ : E _ { 2 } ^ { 0 , 1 }$in the spectral sequence $( E _ { 2 } , d _ { 2 } )$of Theorem 11.1, which converges to Ex$_ { A _ { p , 2 } } ^ { * * } ( \Lambda _ { p , 2 } , \Lambda _ { p , 2 } ) ;$; here$A _ { p , 1 } = D _ { 1 }$ and$\Lambda _ { p , 1 } = Q _ { p } [ y _ { 1 } ]$
+Lemma 11.6 follows easily from Lemma 11.4 and the definition of the generators $\alpha_q=d^*(x^q)/p^{f(q)}$, where $x^q\in\operatorname{Hom}^*(F,Q_p[y_2])$ is such that $x^q(1)=y_2^q\in Q_p[y_2]$. Further, we compute $\operatorname{Hom}_{A_{p,1}}^*(\Lambda_{p,2},\Gamma^1\otimes\Lambda_{p,1})=E_2^{0,1}$ in the spectral sequence $(E_2,d_2)$ of Theorem 11.1, which converges to $\operatorname{Ext}_{A_{p,2}}^{**}(\Lambda_{p,2},\Lambda_{p,2})$; here $A_{p,1}=D_1$ and $\Lambda_{p,1}=Q_p[y_1]$.
 
 We have the following
 
-Lemma 11.7. The groups Hom$\mathsf { \Phi } _ { \mathsf { L } _ { A _ { p , 1 } } } ^ { t } \bigl ( \Lambda _ { p , 1 } , \Gamma ^ { 1 } \otimes \Lambda _ { p , 1 } \bigr )$are spanned by generators$\kappa _ { i , q }$ of dimension$2 p ^ { i } ( p ^ { 2 } - 1 ) + 2 q ( p - 1 )$for all$i \ge 0 , q \ge 0$, where the order of the generator$\kappa _ { i , q } \textit { i s p }$
+Lemma 11.7. The groups $\operatorname{Hom}_{A_{p,1}}^t(\Lambda_{p,1},\Gamma^1\otimes\Lambda_{p,1})$ are spanned by generators $\kappa_{i,q}$ of dimension $2p^i(p^2-1)+2q(p-1)$ for all $i\ge0,\ q\ge0$, where the order of the generator $\kappa_{i,q}$ is $p$.
 
 The proof of the lemma follows easily from Lemma 11.5 and 11.6 by direct calculation.
 
-Since Hom$\mathsf { \Phi } _ { { \mathsf { I } } _ { { p , 1 } } } ^ { * } ( \Lambda _ { p , 1 } , \Gamma ^ { 1 } \otimes \Lambda _ { p , 1 } ) = E _ { 2 } ^ { 0 , 1 }$, our problem is to calculate$d _ { 2 } \colon E _ { 2 } ^ { 0 , 1 } \to$ $E _ { 2 } ^ { 2 , 0 } = \mathrm { E x t } _ { A _ { p , 1 } } ^ { 2 } ( \Lambda _ { p , 1 } , \Lambda _ { p , 1 } )$, where the latter groups are computed in Lemma 11.4 and in the conclusions drawn from it.
+Since $\operatorname{Hom}_{A_{p,1}}^*(\Lambda_{p,1},\Gamma^1\otimes\Lambda_{p,1})=E_2^{0,1}$, our problem is to calculate $d_2:E_2^{0,1}\to E_2^{2,0}=\operatorname{Ext}_{A_{p,1}}^2(\Lambda_{p,1},\Lambda_{p,1})$, where the latter groups are computed in Lemma 11.4 and in the conclusions drawn from it.
 
 Direct calculation proves
 
-Lemma 11.8. The diferential$d _ { 2 } \colon E _ { 2 } ^ { 0 , 1 } \to E _ { 2 } ^ { 2 , 0 }$of the spectral sequence$( E _ { r } , d _ { r } )$ converging to Ext${ _ { \mathrm { \ell } } } _ { A _ { p , 2 } } ( \Lambda _ { p , 2 } , \Lambda _ { p , 2 } )$is given by the following formula:
+Lemma 11.8. The differential $d_2:E_2^{0,1}\to E_2^{2,0}$ of the spectral sequence $(E_r,d_r)$ converging to $\operatorname{Ext}_{A_{p,2}}(\Lambda_{p,2},\Lambda_{p,2})$ is given by the following formula:
 
 $$
 d _ {2} (\kappa_ {i, t}) = \beta (h _ {p ^ {i + 1}} x ^ {p ^ {i} + t} + h _ {p ^ {i}} x ^ {p ^ {i} + t}), \quad i \geq 0, \quad t \geq 0,
 $$
 
-where$h _ { p ^ { i } }$and x are in the notation of Lemma 11.4, and$\beta$is the Bokˇste˘ın homomorphism$H ^ { * * } ( C ) \to \mathrm { E x t } _ { D _ { 1 } } ( Q _ { p } [ x _ { 1 } ] )$described in Lemma 11.4.
+where$h _ { p ^ { i } }$and x are in the notation of Lemma 11.4, and$\beta$is the Bokšteĭn homomorphism$H ^ { * * } ( C ) \to \mathrm { E x t } _ { D _ { 1 } } ( Q _ { p } [ x _ { 1 } ] )$described in Lemma 11.4.
 
 From Lemma 11.8 follows the important
 
-Corollary 11.1. a) For$p > 2 ,$, the kernel Ker$d _ { 2 } | E _ { 2 } ^ { 0 , 1 }$is trivial;
+Corollary 11.1. a) For $p>2$, the kernel $\operatorname{Ker}d_2|E_2^{0,1}$ is trivial;
 
-b) For$p = 2 _ { \mathrm { : } }$, the kernel Ker$d _ { 2 } | E _ { 2 } ^ { 0 , 1 }$is generated by elements
+b) For $p=2$, the kernel $\operatorname{Ker}d_2|E_2^{0,1}$ is generated by elements
 
 $$
 \kappa_ {0, 2 t + 1} \in \operatorname{Hom} _ {A _ {p, 1}} ^ {4 t + 8} (\Lambda_ {p, 1}; \Gamma^ {1} \otimes \Lambda_ {p, 1}), \quad t \geq 0.
@@ -2891,7 +2836,7 @@ $$
 Hence, the image of the homomorphism
 
 $$
-\mathrm{Ext} _ {A _ {p, 1}} ^ {1, 4 t + 8} (\Lambda_ {p, 1}; \Lambda_ {p, 1}) \to \mathrm{Ext} _ {p, 2} ^ {1, 4 t + 8} (\Lambda_ {p, 2}; \Lambda_ {p, 2})
+\mathrm{Ext} _ {A _ {p, 1}} ^ {1, 4 t + 8} (\Lambda_ {p, 1}; \Lambda_ {p, 1}) \to \mathrm{Ext} _ {A _ {p, 2}} ^ {1, 4 t + 8} (\Lambda_ {p, 2}; \Lambda_ {p, 2})
 $$
 
 has index 2 for all$t \geq 0$
@@ -2900,7 +2845,7 @@ Parts (a) and (b) of the corollary are derived in an obvious way from the struct
 
 Comparing part (b) of Corollary 11.1 with Theorem 11.2, we obtain the following result.
 
-Theorem 11.3. a) In all dimensions$\qquad t \quad \neq \quad 4 .$, the order of the cyclic group Ex$\mathrm { t } _ { A ^ { U } } ^ { 1 , t } ( U ^ { * } ( P ) , U ^ { * } ( P ) )$coincides exactly with the order of the group $\mathrm { E x t } _ { A _ { \mathrm { } \mathrm { } \mathrm { } \star } ^ { k } } ^ { 1 , t } ( K ^ { \ast } ( \stackrel { \cdot \cdot } { P } ) , K ^ { \ast } ( P ) )$, and this isomorphism is induced by the Riemann–Roch functor λ.
+Theorem 11.3. a) In all dimensions $t\ne4$, the order of the cyclic group $\operatorname{Ext}_{A^U}^{1,t}(U^*(P),U^*(P))$ coincides exactly with the order of the group $\operatorname{Ext}_{A_\Psi^k}^{1,t}(K^*(P),K^*(P))$, and this isomorphism is induced by the Riemann–Roch functor $\lambda$.
 
 b) The Hopf invariant
 
@@ -2908,9 +2853,9 @@ $$
 q _ {1} \colon \pi_ {n + t - 1} (S ^ {n}) \to \mathrm{Ext} _ {A ^ {U}} ^ {1, t} (U ^ {*} (P), U ^ {*} (P))
 $$
 
-is an epimorphism for$t = 8 k , t = 8 k + 2$and$t = 4$, and the image Im$q _ { 1 }$has index 2 in Ex$_ { ^ A } ^ { 1 , t }$, for$t = 8 k + 6 , k \geq 0$, and$t = 8 k + 4 , k \geq 1$
+is an epimorphism for$t = 8 k , t = 8 k + 2$and$t = 4$, and the image Im$q _ { 1 }$has index 2 in $\operatorname{Ext}_{A^U}^{1,t}$, for$t = 8 k + 6 , k \geq 0$, and$t = 8 k + 4 , k \geq 1$
 
-Corollary 11.2. The generators$\alpha _ { q }$of the groups Ex$_ { _ A U } ^ { 1 , 2 q } ( U ^ { * } ( P ) , U ^ { * } ( P ) )$are cycles for all Adams diferentials$d _ { i }$for$q = 4 s , 4 s + 1 , s \geq 0$, and$q = 2$, and are not cycles for all diferentials for$q = 4 s - 1 , 4 s + 2 , s \geq 1$(the elements$2 \alpha _ { q }$are cycles for all diferentials)<sup>4</sup>.
+Corollary 11.2. The generators $\alpha_q$ of the groups $\operatorname{Ext}_{A^U}^{1,2q}(U^*(P),U^*(P))$ are cycles for all Adams differentials $d_i$ for $q=4s,\ 4s+1,\ s\geq0$, and $q=2$, and are not cycles for all differentials for $q=4s-1,\ 4s+2,\ s\geq1$ (the elements $2\alpha_q$ are cycles for all differentials)<sup>4</sup>.
 
 Supplementary remark. It is possible in all dimensions to prove the formula $d _ { 3 } ( \alpha _ { q } ) = h ^ { 3 } \cdot \alpha _ { q - 2 }$for$q = 4 s - 1 , 4 s + 2 , s \geq 1$, where$h = \alpha _ { 1 } \in \mathrm { E x t } _ { A ^ { U } } ^ { 1 , 2 }$. In particular, for$q = 4 s + 2$this follows from the fact that$h ^ { 3 } \alpha _ { q - 2 } \neq 0$in$\mathrm { E x t } _ { A ^ { U } } ^ { 4 }$ while at the same time$\alpha _ { q - 2 }$is realized by the image of the J-homomorphism, and we must have in$E _ { \infty }$that$h ^ { 3 } \alpha _ { q - 2 } = 0$
 
@@ -2936,7 +2881,7 @@ $$
 \begin{array}{c} \dots \\ \Bigg \downarrow \\ N _ {2, 0} \xleftarrow {} N _ {2, 1} \xleftarrow {} N _ {2, 2} \xleftarrow {} \dots \\ \Bigg \downarrow \\ N _ {1, 0} \xleftarrow {d _ {2}} N _ {1, 1} \xleftarrow {d _ {2}} N _ {1, 2} \xleftarrow {} \dots \\ \Bigg \downarrow d _ {1} \\ N _ {0, 0} \xleftarrow {d _ {2}} N _ {0, 1} \xleftarrow {d _ {2}} N _ {0, 2} \xleftarrow {} \dots \end{array}
 $$
 
-such that (${ \mathrm { a ) } } d _ { 1 } d _ { 2 } = - d _ { 2 } d _ { 1 } ; ( { \mathrm { b ) } } \{  \cdots  N _ { i j } \stackrel { d _ { 1 } } { \longrightarrow } N _ { i - 1 , j }  \ldots \}$for all$j$is an$A ^ { X } .$-free acyclic resolution of the module$M _ { j } ; \mathbf { \Sigma } ( \mathrm { c } )$if$Q _ { k } = \sum _ { j + i = k } N _ { i j }$and$d =$ $d _ { 1 } + d _ { 2 } \colon Q _ { k } \to Q _ { k - 1 }$, then the complex$\{ Q _ { k } \stackrel { d } { \longrightarrow } Q _ { k - 1 } \stackrel { } { \longrightarrow } \dots \stackrel { } { \oplus }$is an$A ^ { X } .$-free acyclic resolution of the module$X ^ { * } ( Y ) ; ( \mathrm { d } )$the complex$N _ { i } = \{  N _ { i , j } \stackrel { d _ { 2 } } { \longrightarrow } N _ { i , j - 1 }  . . . \}$ is such that$H _ { k } ( N _ { i } ) = 0$for$k > 0 , H _ { 0 } ( N _ { i } )$is a free$A ^ { X }$-module and the complex $\{ \dots H _ { 0 } ( N _ { k } ) \ { \stackrel { d _ { 1 } } { \longrightarrow } } \ H _ { 0 } ( N _ { k - 1 } ) \to \dots \}$represents an$A ^ { X }$-free acyclic resolution of the module$X ^ { * } ( Y )$
+such that (a) d _ { 1 } d _ { 2 } = - d _ { 2 } d _ { 1 } ; (b) \{  \cdots  N _ { i j } \stackrel { d _ { 1 } } { \longrightarrow } N _ { i - 1 , j }  \ldots \}$for all$j$is an$A ^ { X } .$-free acyclic resolution of the module$M _ { j } ; (c)$if$Q _ { k } = \sum _ { j + i = k } N _ { i j }$and$d =$ $d _ { 1 } + d _ { 2 } \colon Q _ { k } \to Q _ { k - 1 }$, then the complex$\{ Q _ { k } \stackrel { d } { \longrightarrow } Q _ { k - 1 } \stackrel { } { \longrightarrow } \dots \stackrel { } { \longrightarrow }$is an$A ^ { X } .$-free acyclic resolution of the module$X ^ { * } ( Y ) ; (d)$the complex$N _ { i } = \{  N _ { i , j } \stackrel { d _ { 2 } } { \longrightarrow } N _ { i , j - 1 }  . . . \}$ is such that$H _ { k } ( N _ { i } ) = 0$for$k > 0 , H _ { 0 } ( N _ { i } )$is a free$A ^ { X }$-module and the complex $\{ \dots H _ { 0 } ( N _ { k } ) \ { \stackrel { d _ { 1 } } { \longrightarrow } } \ H _ { 0 } ( N _ { k - 1 } ) \to \dots \}$represents an$A ^ { X }$-free acyclic resolution of the module$X ^ { * } ( Y )$
 
 As usual, there arises a spectral sequence of the double complex$( E _ { r } ^ { t , q } , d _ { r } )$, where
 
@@ -2947,7 +2892,7 @@ $$
 and
 
 $$
-E _ {2} ^ {t, q} = \mathrm{Ext} _ {A X} ^ {t} (M _ {q}, L),
+E _ {2} ^ {t, q} = \mathrm{Ext} _ {A ^ {X}} ^ {t} (M _ {q}, L),
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>We take this opportunity to note the small computational error in parts (3) and (4) of Theorem 5 of the author’s paper [19], which is completely corrected in Theorem 11.3 and Corollary 11.2 of the present paper.</span></small>
@@ -2960,7 +2905,7 @@ Definition 12.1. By a geometric realization of the double complex$N = ( N _ { i 
 
 with the following properties:
 
-a)$Z _ { - 1 , - 1 } = Y , Y _ { i } = Z _ { - 1 , i }$and the filtration$Z _ { - 1 , - 1 }  Z _ { - 1 , 0 } . .$. coincides with the filtration$Y  Y _ { 0 }  \cdot \cdot \cdot  Y _ { i }  . .$
+a) $Z_{-1,-1}=Y$, $Y_i=Z_{-1,i}$, and the filtration $Z_{-1,-1}\leftarrow Z_{-1,0}\leftarrow\cdots$ coincides with the filtration $Y\leftarrow Y_0\leftarrow\cdots\leftarrow Y_i\leftarrow\cdots$.
 
 b) The filtration
 
@@ -2976,25 +2921,15 @@ $$
 
 and hence$X ^ { * } ( Z _ { k , i } / Z _ { k , i + 1 } \cup Z _ { k + 1 , i } ) = N _ { k , i }$
 
-c) The diferentials$d _ { 1 } \colon N _ { k , i } \to N _ { k - 1 , i }$and$d _ { 2 } \colon N _ { k , i } \to N _ { k , i - 1 }$coincide with the natural homomorphisms
+c) The differentials$d _ { 1 } \colon N _ { k , i } \to N _ { k - 1 , i }$and$d _ { 2 } \colon N _ { k , i } \to N _ { k , i - 1 }$coincide with the natural homomorphisms
 
 $$
 \begin{array}{l} X ^ {*} (Z _ {k, i} / Z _ {k, i + 1} \cup Z _ {k + 1, i}) \xrightarrow {d _ {1}} X ^ {*} (Z _ {k - 1, i} / Z _ {k, i} \cup Z _ {k - 1, i + 1}), \\ X ^ {*} (Z _ {k, i} / Z _ {k, i + 1} \cup Z _ {k + 1, i}) \xrightarrow {d _ {2}} X ^ {*} (Z _ {k, i - 1} / Z _ {k, i} \cup Z _ {k + 1, i - 1}). \end{array}
 $$
 
-We make some deductions fromi the properties of the geometric realization of a double complex:
+We make some deductions from the properties of the geometric realization of a double complex:
 
-$$
-Z _ {- 1, - 1} = Y \leftarrow Z _ {0, - 1} \leftarrow Z _ {1, - 1} \leftarrow \dots \leftarrow Z _ {i, - 1} \leftarrow ..
-$$
-
-$$
-A ^ {X}
-$$
-
-$$
-\left\{H ^ {*} \left(N _ {0}\right) \xleftarrow {d _ {2}} H ^ {*} \left(N _ {1}\right) \leftarrow \dots \right\}
-$$
+1. The filtration $Z_{-1,-1}=Y\leftarrow Z_{0,-1}\leftarrow Z_{1,-1}\leftarrow\cdots\leftarrow Z_{i,-1}\leftarrow\cdots$ represents the geometric realization of the $A^X$-free resolution $\{H^*(N_0)\xleftarrow{d_2}H^*(N_1)\leftarrow\cdots\}$.
 
 2. The filtration$Y \gets Z _ { - 1 , 0 } \cup Z _ { 0 , - 1 } \gets \cdot \cdot \cdot \bigcup _ { i + j = k - 1 } Z _ { i , j } \gets . .$. represents the geometric realization of the$A ^ { X }$-free resolution
 
@@ -3022,7 +2957,7 @@ $$
 
 with term$\bar { E } _ { 1 } = \{ \mathrm { H o m } ^ { * } ( K , Y _ { i } / Y _ { i + 1 } ) \}$
 
-In view of the presence of the double filtration$( Z _ { i j } )$of the complex$Y$in all terms of both Adams spectral sequences there arises yet another filtration: in the first case it is equal to$\phi ( x ) , x \in E _ { r } ^ { k }$, where$\phi ( x )$coincides in$E _ { 2 } ^ { k }$with the filtration in $\mathrm { E x t } _ { A ^ { x } } ^ { k } ( X ^ { * } ( Y ) , X ^ { * } ( K ) )$induced by the non-free resolution$X ^ { * } ( Y ) \gets M _ { 0 } \gets M _ { 1 } \gets$ $\cdot \cdot ,$and in$E _ { \infty } ^ { k }$is induced by the geometric filtration
+In view of the double filtration $(Z_{ij})$ of the complex $Y$ in all terms of both Adams spectral sequences, there arises another filtration: in the first case it is $\phi(x)$, $x\in E_r^k$, where $\phi(x)$ coincides in $E_2^k$ with the filtration in $\operatorname{Ext}_{A^X}^k(X^*(Y),X^*(K))$ induced by the non-free resolution $X^*(Y)\leftarrow M_0\leftarrow M_1\leftarrow\cdots$, and in $E_\infty^k$ it is induced by the geometric filtration.
 
 $$
 \bigcup_{\substack{i + j = k - 1\\ i\leq k}}Z_{i,j}\supset \dots \supset \bigcup_{\substack{i + j = k - 1\\ i\leq k - \phi (x)}}Z_{i,j}\supset \dots \supset Z_{-1,k}.
@@ -3036,12 +2971,12 @@ $$
 
 We shall denote it by$\Psi ( y ) , y \in \bar { E } _ { r }$
 
-In addition, each of the indicated spectral sequences defines in the groups of homotopy classes of mappings Hom${ ^ * } ( K , Y )$the usual filtration$i ( x )$, whose corresponding index i is such that the element$x \in { \mathrm { H o m } } ^ { * } ( K , Y )$is nontrivial in$E _ { \infty } ^ { i }$and trivial in$E _ { \infty } ^ { j }$for$j > i$. For the Adams spectral sequence of the theory$X ^ { * }$we shall denote this filtration by$i _ { X }$. We have the double filtration$[ i _ { X } ( x ) , \phi ( x ) ]$where $x \in \mathrm { H o m } ^ { * } ( K , Y ) , \phi ( x ) \leq i _ { x } ( x )$
+In addition, each indicated spectral sequence defines the usual filtration $i(x)$ in the groups of homotopy classes of maps $\operatorname{Hom}^*(K,Y)$, with index $i$ such that $x\in\operatorname{Hom}^*(K,Y)$ is nontrivial in $E_\infty^i$ and trivial in $E_\infty^j$ for $j>i$. For the Adams spectral sequence of the theory $X^*$ we denote this filtration by $i_X$. The double filtration is $[i_X(x),\phi(x)]$, where $x\in\operatorname{Hom}^*(K,Y)$ and $\phi(x)\leq i_X(x)$.
 
 The second Adams spectral sequence for${ \mathrm { H o m } } ^ { * } ( K , Y )$, induced by the filtration
 
 $$
-Y \leftarrow Y _ {0} \leftarrow Y _ {1} \leftarrow \dots \leftarrow Y _ {1} \leftarrow \dots
+Y \leftarrow Y _ {0} \leftarrow Y _ {1} \leftarrow \dots \leftarrow Y _ {i} \leftarrow \dots
 $$
 
 also induces a double filtration in${ \mathrm { H o m } } ^ { * } ( K , Y ) \colon [ i ( x ) , \Psi ( x ) ]$
@@ -3058,7 +2993,7 @@ for all$x \in \mathrm { H o m } ^ { * } ( K , Y )$in the presence of a geometric
 
 By standard methods one proves
 
-Lemma 12.2.$H X ^ { * }$is the theory$o f Z _ { p } - c o h o m o l o g y$, then for any acyclic filtration $Y = Y _ { - 1 }  Y _ { 0 }  Y _ { 1 }  . .$. there exists a geometrically realizable A-free double complex (Z), where A is the ordinary Steenrod algebra.
+Lemma 12.2. If $X^*$ is the theory of $\mathbb{Z}_p$-cohomology, then for any acyclic filtration $Y=Y_{-1}\leftarrow Y_0\leftarrow Y_1\leftarrow\cdots$ there exists a geometrically realizable $A$-free double complex $(Z)$, where $A$ is the ordinary Steenrod algebra.
 
 The proof of this lemma is obtained easily by the methods of [1].
 
@@ -3068,39 +3003,39 @@ a)$Y \in D _ { p } , { \mathrm { i . e . , } } H ^ { * } ( Y , Q _ { p } )$has n
 
 b)$X = H ^ { * } ( \ , Z _ { p } ) , A ^ { X } = A$
 
-c) The filtration$Y \supset Y _ { 0 } \supset Y _ { 1 } \supset \ldots$. is an acyclic free filtration in the theory $U ^ { * } \otimes _ { Z } Q _ { p }$or in the theory$U _ { p } ^ { * } \subset U ^ { * } \otimes _ { Z } Q _ { p }$. By virtue of the exactness of the functor$\bar { U } _ { p } ^ { * } \to H ^ { * } ( \ , Z _ { p } )$in the category$D _ { p } .$, the filtration$Y \supset Y _ { 0 } \supset . . .$. is also acyclic (although not free) in the theory$\boldsymbol { X } \stackrel { \cdot } { = } \boldsymbol { H } ^ { * } ( \mathbf { \Omega } , Z _ { p } )$
+c) The filtration $Y\supset Y_0\supset Y_1\supset\cdots$ is acyclic and free in the theory $U^*\otimes_ZQ_p$ or in the theory $U_p^*\subset U^*\otimes_ZQ_p$. By exactness of the functor $U_p^*\to H^*(\ ,Z_p)$ in the category $D_p$, the filtration $Y\supset Y_0\supset\cdots$ is also acyclic (although not free) in the theory $X=H^*(\ ,Z_p)$.
 
 In this example, the filtration$i ( x )$is a homotopy invariant, with$i ( x ) = i _ { U _ { p } } ( x )$ where$U _ { p } ^ { * }$is cobordism theory. Moreover, we have
 
-Lemma 12.3. a) All the filtrations$i _ { X } , ~ i _ { U _ { p } } , ~ \phi , ~ \Psi$, for$X ^ { * } = H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$, a$U _ { p } ^ { * } -$ free acyclic filtration$Y \supset Y _ { 0 } \supset Y _ { 1 } \supset \ldots$in the category$S \otimes _ { Z } Q _ { p }$and any$X ^ { \ast } - f r e e$ acyclic double complex (Z) are homotopy invariants$o f Y$, and we have the following inequalities:
+Lemma 12.3. a) All the filtrations $i_X,i_{U_p},\phi,\Psi$, for $X^*=H^*(\ ,Z_p)$, a $U_p^*$-free acyclic filtration $Y\supset Y_0\supset Y_1\supset\cdots$ in the category $S\otimes_ZQ_p$ and any $X^*$-free acyclic double complex $(Z)$, are homotopy invariants of $Y$, and we have the following inequalities:
 
 $$
 i _ {U _ {p} ^ {*}} (x) \leq \phi (x) \leq i _ {H ^ {*} (\mathrm{,} Z _ {p})} (x) \leq i _ {U _ {p} ^ {*}} (x) + \Psi (x),
 $$
 
-where$i = i _ { U _ { p } ^ { * } } , i _ { X } = i _ { H ^ { * } ( \mathbf { \Omega } , Z ) }$are the respective filtrations in the theories$U ^ { * } \otimes _ { Z } Q _ { p }$ and$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$
+where $i=i_{U_p^*}$ and $i_X=i_{H^*(\ ,Z_p)}$ are the respective filtrations in the theories $U^*\otimes_ZQ_p$ and $H^*(\ ,Z_p)$.
 
 b) The second Adams spectral sequence$E _ { r }$coincides in this case with the Adams spectral sequence in the theory$U ^ { * } \otimes _ { Z } Q _ { p }$for$r \geq 2$
 
-c) Both Adams spectral sequences$E _ { r }$in the theories$X ^ { \ast } = H ^ { \ast } ( \mathbf { \partial } , Z _ { p } )$and$U ^ { * } \otimes _ { Z }$ $Q _ { p } \ ( o r \ U _ { p } ^ { * } )$in our case preserve, respectively, the filtrations φ and Φ.
+c) Both Adams spectral sequences $E_r$ in the theories $X^*=H^*(\ ,Z_p)$ and $U^*\otimes_ZQ_p$ (or $U_p^*$) in our case preserve, respectively, the filtrations $\phi$ and $\Phi$.
 
-d) The Adams spectral sequence in the theory$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$is such that each diferential$d _ { r }$for$r \geq 2$raises the filtration φ at least by 1, i.e.,
+d) The Adams spectral sequence in the theory $H^*(\ ,Z_p)$ is such that each differential $d_r$ for $r\geq2$ raises the filtration $\phi$ at least by 1, i.e.,
 
 $$
 \phi (d _ {r} y) \geq \phi (y) + 1, \quad y \in E _ {r}.
 $$
 
-For the proof of$\mathrm { ( a ) }$we note that the$U _ { p } ^ { * }$-filtration$Y \supset Y _ { 0 } \supset Y _ { 1 } \supset . .$. depends functorially on the$U _ { p } .$-free resolution and is uniquely determined by it. For a fixed $U _ { p } { \mathrm { - f i l t r a t i o n } }$the same thing is true with respect to the double complex N and the double filtration$( Z )$defined by it. Parts (b) and (c) are obvious. Part (d) follows immediately from the fact that the complex$Y _ { i } / Y _ { i + 1 }$is a direct sum of spectra$M _ { p }$ of the theory$U _ { p } ^ { * }$up to suspension. For such objects the Adams spectral sequence has zero diferentials for$r \geq 2$, as was proved by Milnor and the author [15, 17, 18].
+For the proof of$\mathrm { ( a ) }$we note that the$U _ { p } ^ { * }$-filtration$Y \supset Y _ { 0 } \supset Y _ { 1 } \supset . .$. depends functorially on the$U _ { p } .$-free resolution and is uniquely determined by it. For a fixed $U _ { p } { \mathrm { - f i l t r a t i o n } }$the same thing is true with respect to the double complex N and the double filtration$( Z )$defined by it. Parts (b) and (c) are obvious. Part (d) follows immediately from the fact that the complex$Y _ { i } / Y _ { i + 1 }$is a direct sum of spectra$M _ { p }$ of the theory$U _ { p } ^ { * }$up to suspension. For such objects the Adams spectral sequence has zero differentials for$r \geq 2$, as was proved by Milnor and the author [15, 17, 18].
 
 The lemma is proved.
 
-We now consider the graded ring$\Lambda _ { p } \subset \Omega _ { U } \otimes _ { Z } Q _ { p } ,$, where$\Lambda _ { p } = Q _ { p } [ x _ { 1 } , \dots , x _ { i } , \dots ] .$, dim$x _ { i } = 2 p ^ { i } - 2$. The ring$\Lambda _ { p }$is a local ring: it has a unique maximal ideal m$\subset \Lambda _ { p }$ such that$\Lambda _ { p } / m = Z _ { p }$. Hence the bigraded ring$\bar { \Lambda } _ { p } = \sum _ { i = 0 } \dot { m } ^ { i } / m ^ { i + 1 }$is an algebra over $Z _ { p } ,$, and$\bar { \Lambda } _ { p } = Z _ { p } [ h _ { 0 } , h _ { 1 } , . . . , h _ { i } , . . . ]$, where$h _ { 0 }$is associated with multiplication by p and dim$\bar { h } _ { i } = \bar { ( 1 , 2 p ^ { i } - 1 ) } , \mathrm { i . e . , } h _ { i } \in m / m ^ { 2 }$. Clearly$\bigcap _ { i } m ^ { i } = 0$and, by [15, 17, 18], we have:
+We now consider the graded ring $\Lambda_p\subset\Omega_U\otimes_ZQ_p$, where $\Lambda_p=Q_p[x_1,\ldots,x_i,\ldots]$ and $\dim x_i=2p^i-2$. The ring $\Lambda_p$ is local, with unique maximal ideal $m\subset\Lambda_p$ such that $\Lambda_p/m=Z_p$. Hence the bigraded ring $\bar\Lambda_p=\sum_{i=0}^{\infty}m^i/m^{i+1}$ is an algebra over $Z_p$, and $\bar\Lambda_p=Z_p[h_0,h_1,\ldots,h_i,\ldots]$, where $h_0$ is associated with multiplication by $p$ and $\dim h_i=(1,2p^i-1)$, i.e., $h_i\in m/m^2$. Clearly $\bigcap_i m^i=0$ and, by [15, 17, 18], we have:
 
 $$
 \bar {\Lambda} _ {p} = \operatorname{Ext} _ {A} ^ {* *} (H ^ {*} (M _ {p}, Z _ {p}), Z _ {p}).
 $$
 
-As was established in$\ S \ O 1 1$, the action of the ring$A _ { p } ^ { U }$on$\Lambda _ { p } = U _ { p } ^ { * } ( P )$preserves the filtration generated by the maximal ideal m. Hence it defines an action on${ \bar { \Lambda } } _ { p } ,$ which is described as follows:
+As was established in § 11, the action of the ring $A_p^U$ on $\Lambda_p=U_p^*(P)$ preserves the filtration generated by the maximal ideal $m$. Hence it defines an action on $\bar\Lambda_p$, which is described as follows:
 
 1) the action of$\Lambda _ { p }$on$\bar { \Lambda } _ { p }$is defined by multiplication;
 
@@ -3110,13 +3045,13 @@ $$
 P ^ {p ^ {i}} (h _ {i}) = h _ {i - 1} \text { and } P ^ {j} (h _ {0}) = 0, \quad j \geq 1, \quad P ^ {k} (a b) = \sum_ {l + s = k} P ^ {l} (a) P ^ {s} (b).
 $$
 
-We consider the ring A<sup>¯</sup> associated to$A _ { p } ^ { U }$by the filtration$A _ { p } ^ { U } \supset m A _ { p } ^ { U } \supset \cdot \cdot \cdot \supset$ $m ^ { i } A _ { p } ^ { U } \supset \ldots$. We note that in the ordinary Steenrod algebra A there is a normal (exterior) subalgebra$Q \subset A , Q = \Lambda ( Q _ { 0 } , \dotsc , Q _ { i } , \dotsc )$, dim$Q _ { i } \ = \ 2 p ^ { i } \ - 1$, such that$A / Q$is isomorphic to the quotient$A / \beta A \cup A \beta$and Ex$\delta _ { A } ( H ^ { * } ( M _ { p } , Z _ { p } ) ) =$ $\mathrm { E x t } _ { Q } ( Z _ { p } , Z _ { p } ) = \bar { \Lambda } _ { p } = Z _ { p } [ h _ { 0 } , h _ { 1 } , \ldots , h _ { i } , \ldots ]$
+We consider the ring $\bar A$ associated to $A_p^U$ by the filtration $A_p^U\supset mA_p^U\supset\cdots\supset m^iA_p^U\supset\cdots$. We note that in the ordinary Steenrod algebra $A$ there is a normal (exterior) subalgebra $Q\subset A$, $Q=\Lambda(Q_0,\ldots,Q_i,\ldots)$, $\dim Q_i=2p^i-1$, such that $A//Q$ is isomorphic to the quotient $A/\beta A\cup A\beta$ and $\operatorname{Ext}_A(H^*(M_p,Z_p),Z_p)=\operatorname{Ext}_Q(Z_p,Z_p)=\bar\Lambda_p=Z_p[h_0,h_1,\ldots,h_i,\ldots]
 
 From the results of § 11 and the structure of the Steenrod algebra A follows
 
-Lemma 12.4. The algebra A<sup>¯</sup> associated to the ring$A _ { p } ^ { U }$is isomorphic to$( \bar { \Lambda } _ { p }$ $A / / Q ) ^ { \wedge }$, where the commutation law a$\mathit { \Pi } _ { \mathrm { { \hat { h } } } } = \sum _ { i } \bar { a } _ { i } ^ { * } ( h ) \bar { \bar { a } } _ { i }$is given by the action of
+Lemma 12.4. The algebra $\bar A$ associated to the ring $A_p^U$ is isomorphic to $(\bar\Lambda_p\cdot A//Q)^\wedge$, where the commutation law $ah=\sum_i\bar a_i^*(h)\bar a_i$ is given by the action of
 
-$A / Q$on$\bar { \Lambda } _ { p }$defined by the formulas$P ^ { p ^ { r } } ( h _ { r } ) = h _ { r - 1 } , r \geq 1 , P ^ { k } ( h _ { 0 } ) = 0$for$k > 0$，and$\Delta a = \sum _ { i } ^ { { \overline { { \vphantom { \vphantom { \Delta a } } } } } } { \bar { a } } _ { i } \otimes { \bar { \bar { a } } } _ { i }$, where$\Delta \colon A / / Q \to A / / Q \otimes A / / Q$is the diagonal and$P ^ { k }$is the ordinary Steenrod power.
+$A//Q$ acts on $\bar\Lambda_p$ by the formulas $P^{p^r}(h_r)=h_{r-1}$ for $r\geq1$ and $P^k(h_0)=0$ for $k>0$, and $\Delta a=\sum_i\bar a_i\otimes\bar a_i$, where $\Delta:A//Q\to A//Q\otimes A//Q$ is the diagonal and $P^k$ is the ordinary Steenrod power.
 
 We note now the following identity:
 
@@ -3124,7 +3059,7 @@ $$
 \mathrm{Ext} _ {\bar {A}} ^ {s} (\bar {\Lambda} _ {p}, \bar {\Lambda} _ {p} ^ {t}) = \mathrm{Ext} _ {A / / Q} ^ {s} (Z _ {p}, \bar {\Lambda} _ {p} ^ {t}) = \mathrm{Ext} _ {A / / Q} ^ {s} (Z _ {p}, \mathrm{Ext} _ {Q} ^ {t} (Z _ {p}, Z _ {p}))
 $$
 
-(here, t is the dimension in$\bar { \Lambda } _ { p }$defined by the filtration$\bar { \Lambda } _ { p } ^ { t } = m ^ { t } / m ^ { t + 1 } )$). Moreover, if$Y \subset D _ { p } ,$, then for$L ^ { p } = U _ { p } ^ { * } { \big ( } Y { \big ) }$and$M = H ^ { * } ( Y , Z _ { p } ) = \dot { L } / m L$we have:
+(here, $t$ is the dimension in $\bar\Lambda_p$ defined by the filtration $\bar\Lambda_p^t=m^t/m^{t+1}$). Moreover, if $Y\subset D_p$, then for $L^p=U_p^*(Y)$ and $M=H^*(Y,Z_p)=\bar L/mL$ we have:
 
 a) M is an A//D-module;
 
@@ -3162,9 +3097,9 @@ $$
 
 4) In both spectral sequences there is yet another grading$\tilde { E } _ { r } ^ { s , t } = \sum _ { q } \tilde { E } _ { r } ^ { s , t , q }$and $\tilde { \tilde { E } } _ { r } ^ { s , t } = \sum _ { q } \tilde { \tilde { E } } _ { r } ^ { s , t , q }$, induced by the dimensions in all modules and algebras which appear, and connected to the spectral sequences as follows:
 
-a) the third grading q is preserved by all diferentials$\ddot { d } _ { r }$of the spectral sequence $\tilde { E } _ { r }$which converges to Ext$_ A ( M , Z _ { p } )$;
+a) the third grading $q$ is preserved by all differentials $\tilde d_r$ of the spectral sequence $\tilde E_r$ which converges to $\operatorname{Ext}_A(M,Z_p)$;
 
-b) since$\sum _ { t - q = m } \bar { \Lambda } _ { p } ^ { t , q }$is associated to$\Lambda _ { p } ^ { m }$, the third grading$q$in the second spectral sequence$\bar { \tilde { E } } _ { r }$, which converges to$\mathrm { E x t } _ { A _ { p } ^ { U } } ( L , \Lambda _ { p } )$, is increased by$r - 1$by the diferential$\tilde { \tilde { d } } _ { r }$:
+b) since $\sum_{t-q=m}\bar\Lambda_p^{t,q}$ is associated to $\Lambda_p^m$, the third grading $q$ in the second spectral sequence $\tilde{\tilde E}_r$, which converges to $\operatorname{Ext}_{A_p^U}(L,\Lambda_p)$, is increased by $r-1$ by the differential $\tilde{\tilde d}_r$:
 
 $$
 \tilde {d} _ {r} \colon \tilde {E} _ {r} ^ {s, t, q} \to \tilde {E} _ {r} ^ {s + r, t - r + 1, q},
@@ -3198,9 +3133,9 @@ we have two “dimensions${ \ " } \colon ( m , q ) = ( s + t , q )$is the “coh
 
 We note the important fact: the dimension of the element$\tilde { d } _ { r } ( y )$for the element y of “unitary” dimension$( s , l )$is equal to$( s + r , l + r - 1 )$, where$l = q - t ;$and, conversely,$\tilde { d } _ { r } ( y )$of an element of “cohomological” dimension$( m , q )$has “cohomological” dimension$( m + r , q + r - 1 )$,$m = s + t$. This means that both these spectral sequences have the form of the Adams spectral sequence, although they are defined purely algebraically by the ring$A _ { p } ^ { U }$
 
-Up to this point there has been no diference between$p = 2$and$p > 2$, if we speak of the results if this section. However, the following theorem shows the comparative simplicity of the case$p > 2$
+Up to this point there has been no difference between $p=2$ and $p>2$, if we speak of the results of this section. However, the following theorem shows the comparative simplicity of the case $p>2$.
 
-Theorem 12.1. For any$p > 2$and complex$Y \subset D _ { p }$, the spectral sequence$( \tilde { E } _ { r } , \tilde { d } _ { r } )$ has all diferentials$\tilde { d } _ { r } = 0 \ f o r \ r \ge 2$. The groups
+Theorem 12.1. For any $p>2$ and complex $Y\subset D_p$, the spectral sequence $(\tilde E_r,\tilde d_r)$ has all differentials $\tilde d_r=0$ for $r\geq2$. The groups
 
 $$
 \sum_ {s + t = m} \tilde {E} _ {2} ^ {s, t, q} = \sum_ {s + t = m} \mathrm{Ext} _ {A / / Q} ^ {s, q} (M, \mathrm{Ext} _ {Q} ^ {t} (Z _ {p}, Z _ {p}))
@@ -3212,21 +3147,29 @@ $$
 \operatorname{Ext} _ {Q} ^ {*} \left(Z _ {p}, Z _ {p}\right) = Z _ {p} \left[ h _ {0}, \dots , h _ {i}, \dots \right], \quad \dim h _ {i} = \left(1, 2 p ^ {i} - 1\right),
 $$
 
-and the algebra$A / Q$generated by the Steenrod powers$P ^ { p ^ { i } }$acts on$\mathrm { E x t } _ { Q } ( Z _ { p } , Z _ { p } )$ in the following way:$P ^ { p ^ { i } } ( h _ { i + 1 } ) \ = \ h _ { i } , \ P ^ { k } ( h _ { 0 } ) \ = \ 0$for$k > 0$, and$P ^ { k } ( x y ) =$ $\sum _ { i + j = k } \dot { P ^ { i } } ( x ) P ^ { j } ( \bar { y } )$
+and the algebra $A//Q$ generated by the Steenrod powers $P^{p^i}$ acts on $\operatorname{Ext}_Q(Z_p,Z_p)$ as follows: $P^{p^i}(h_{i+1})=h_i$, $P^k(h_0)=0$ for $k>0$, and $P^k(xy)=\sum_{i+j=k}P^i(x)P^j(y)$.
 
 From Theorem 12.1 follows
 
-Corollary 12.1. For any complex$Y \in D _ { p }$, where$p > 2$, there is defined an$\stackrel { \scriptscriptstyle 4 } { a } l g e -$ braic Adams spectral sequence”$\ ' _ { ( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } ) }$, where$\tilde { \tilde { E } } _ { 2 } ^ { s , t , q } = \mathrm { E x t } _ { A / / Q } ^ { s , q } ( M , \mathrm { E x t } _ { Q } ^ { t } ( Z _ { p } , Z _ { p } ) )$ the group$\begin{array} { r l r } { \sum } & { { } \tilde { \tilde { E } } _ { 2 } ^ { s , t , q } } & { = } & { { \tilde { \tilde { E } } _ { 2 } ^ { m , q } } } \end{array}$is associated to$\mathrm { E x t } _ { A } ^ { m , q } ( M , Z _ { p } ) , \tilde { d } _ { r } \colon \tilde { \tilde { E } } _ { r } ^ { s , t , q } \$ s+t=m $\tilde { \tilde { E } } _ { r } ^ { s + t , t + r - 1 , q + r - 1 }$, and the group$\sum _ { t - q = l } \tilde { \tilde { E } } _ { s , t , q } ^ { \infty }$is associated to$\mathrm { E x t } _ { A _ { p } ^ { \scriptstyle * } } ^ { s , 1 } ( U _ { p } ^ { * } ( Y ) , U _ { p } ^ { * } ( P ) )$ $M = H ^ { * } ( Y , Z _ { p } )$
+Corollary 12.1. For any complex $Y\in D_p$, where $p>2$, there is defined an “algebraic Adams spectral sequence” $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$, where
+$$
+\tilde{\tilde E}_2^{s,t,q}=\operatorname{Ext}_{A//Q}^{s,q}(M,\operatorname{Ext}_Q^t(Z_p,Z_p)).
+$$
+The group $\sum_{s+t=m}\tilde{\tilde E}_2^{s,t,q}=\tilde{\tilde E}_2^{m,q}$ is associated to $\operatorname{Ext}_A^{m,q}(M,Z_p)$, and the differential is
+$$
+\tilde{\tilde d}_r:\tilde{\tilde E}_r^{s,t,q}\to\tilde{\tilde E}_r^{s+1,t+r-1,q+r-1}.
+$$
+The group $\sum_{t-q=l}\tilde{\tilde E}_\infty^{s,t,q}$ is associated to $\operatorname{Ext}_{A_p^U}^{s,l}(U_p^*(Y),U_p^*(P))$, where $M=H^*(Y,Z_p)$.
 
-We prove Theorem 12.1. In the Steenrod algebra A for$p > 2$there is defined a second grading — the so-called$\mathrm { ^ { 6 6 } t y }$pe in the sense of Cartan,” equal to the number of occurrences of the homomorphism$\beta$in the iteration. We shall denote by$\tau ( a ) \geq$ 0 the type of the operation$a \ \in \ A$, with$A = \textstyle \sum A ^ { \tau }$, where τ is the type and τ $A ^ { \tau _ { 1 } } \cdot A ^ { \tau _ { 2 } } \subset A ^ { \tau _ { 1 } + \tau _ { 2 } }$. By the same token, for any. By the same token, for any$Y \in D _ { p }$there is an extra gradingthere is an extra grading — the type τ — in the groups$\mathrm { E x t } _ { A } ( M , Z _ { p } )$, and
+We prove Theorem 12.1. In the Steenrod algebra $A$ for $p>2$ there is a second grading, the “type in the sense of Cartan,” equal to the number of occurrences of the homomorphism $\beta$ in the iteration. We denote by $\tau(a)\geq0$ the type of an operation $a\in A$, with $A=\sum_\tau A^\tau$, where $A^{\tau_1}\cdot A^{\tau_2}\subset A^{\tau_1+\tau_2}$. By the same token, for any $Y\in D_p$ there is an extra grading—the type $\tau$—in the groups $\operatorname{Ext}_A(M,Z_p)$, and
 
 $$
 \operatorname{Ext} _ {A} ^ {s, l} (M, Z _ {p}) = \sum_ {\tau \geq 0} \operatorname{Ext} _ {A} ^ {s, l - \tau , \tau} (M, Z _ {p}),
 $$
 
-where$l - \tau \equiv 0$mod$2 p - 2$. We note that for$Q \subset A , \tau ( Q _ { r } ) = 1$and$\tau ( P ^ { k } ) = 0$ It is also obvious that$\tau ( h _ { i } ) = 1 , h _ { i } \in \mathrm { E x t } _ { Q } ^ { 1 } ( Z _ { p } , Z _ { z } )$, and the type is an invariant of the spectral sequence$( \tilde { d } _ { r } , \tilde { E } _ { r } )$for$r \geq 1$
+where $l-\tau\equiv0\pmod{2p-2}$. We note that for $Q\subset A$, $\tau(Q_r)=1$ and $\tau(P^k)=0$. It is also obvious that $\tau(h_i)=1$, $h_i\in\operatorname{Ext}_Q^1(Z_p,Z_p)$, and the type is an invariant of the spectral sequence $(\tilde d_r,\tilde E_r)$ for $r\geq1$.
 
-Since the type is trivial on the ring$A / Q$, and$A / / Q \subset A$, all$\tilde { d } _ { r } = 0$for$r \geq 2$ since on the groups$\mathrm { E x t } _ { A / / Q } ^ { s , q } ( Z _ { p } , \mathrm { E x t } _ { Q } ^ { \bar { t } } ( \dot { Z } _ { p } , Z _ { p } ) )$the type$\tau = t$and$\tau ( d _ { r } y ) = \tau ( y )$ for$r \geq 1$
+Since the type is trivial on the ring $A//Q$, and $A//Q\subset A$, all $\tilde d_r=0$ for $r\geq2$, since on the groups $\operatorname{Ext}_{A//Q}^{s,q}(Z_p,\operatorname{Ext}_Q^t(Z_p,Z_p))$ the type is $\tau=t$ and $\tau(d_ry)=\tau(y)$ for $r\geq1$.
 
 This implies the isomorphism
 
@@ -3238,7 +3181,7 @@ and$\tilde { E } _ { 2 } = \tilde { E } _ { \infty }$. The theorem is proved.
 
 From the proof of Theorem 12.1 follows
 
-Corollary 12.2. The second term of the “algebraic Adams spectral sequence” $( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$of Corollary 12.1 is canonically isomorphic to the sum$\sum \tilde { \tilde { E } } _ { 2 } ^ { s , t , q }$, where $\tilde { \tilde { E } } _ { 2 } ^ { s , t , q } = \mathrm { E x t } _ { A } ^ { s , t , q } ( M , Z _ { p } ) , t$is the Cartan type,$M = H ^ { * } ( Y , Z _ { p } )$for$Y \in D _ { p }$, and $\sum _ { t + s = m } ^ {  { \mathrm { ~ \textstyle ~ \sum ~ } } } \mathrm { E x t } _ { A } ^ { s , t , \tilde { q } } ( M , Z _ { p } ) \stackrel { \cdot \cdot } { = } \mathrm { E x t } _ { A } ^ { m , q } ( M , Z _ { p } )$
+Corollary 12.2. The second term of the “algebraic Adams spectral sequence” $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ of Corollary 12.1 is canonically isomorphic to the sum $\sum_{s,t,q}\tilde{\tilde E}_2^{s,t,q}$, where $\tilde{\tilde E}_2^{s,t,q}=\operatorname{Ext}_A^{s,t,q}(M,Z_p)$, $t$ is the Cartan type, and $M=H^*(Y,Z_p)$ for $Y\in D_p$. Also, $\sum_{s+t=m}\operatorname{Ext}_A^{s,t,\tilde q}(M,Z_p)=\operatorname{Ext}_A^{m,q}(M,Z_p)$.
 
 In this spectral sequence
 
@@ -3246,11 +3189,11 @@ $$
 \tilde {\tilde {d}} _ {r} \colon \tilde {\tilde {E}} _ {r} ^ {s, t, q} \to \tilde {\tilde {E}} _ {r} ^ {s + 1, t + r - 1, q + r - 1}
 $$
 
-and the group$\sum _ { t - q = l } \tilde { \tilde { E } } _ { \infty } ^ { r , t , q }$is associated to Ex$\mathbf { \Sigma } _ { A _ { p } ^ { U } } ^ { s , l } ( U _ { p } ^ { * } ( Y ) , U _ { p } ^ { * } ( P ) )$
+and the group $\sum_{t-q=l}\tilde{\tilde E}_\infty^{s,t,q}$ is associated to $\operatorname{Ext}_{A_p^U}^{s,l}(U_p^*(Y),U_p^*(P))$.
 
 From the geometric realization of double complexes as defined above, Theorem 12.1 and Corollaries 12.1, 12.2, there follows
 
-Theorem 12.2. The “algebraic Adams spectral sequence$\begin{array} { r } { \because ( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } ) } \end{array}$is associated to the Adams spectral sequence$( E _ { r } , d _ { r } )$in$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$-cohomology theory for all$p > 2$ in the following sense:
+Theorem 12.2. The “algebraic Adams spectral sequence” $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ is associated to the Adams spectral sequence $(E_r,d_r)$ in $H^*(\ ,Z_p)$-cohomology theory for all $p>2$ in the following sense:
 
 $$
 1) E _ {2} ^ {m, q} = \sum_ {s + t = m} \tilde {E} _ {2} ^ {s, t, q} = \mathrm{Ext} _ {A} ^ {m, q} (M, Z _ {p});
@@ -3260,11 +3203,11 @@ $$
 
 3) if$\tilde { y } \in \mathrm { E x t } _ { A } ^ { m , q } ( M , Z _ { p } )$is such that${ d _ { i } ( \tilde { y } ) = 0 \ f o r \ i < k }$and$\phi ( d _ { k } \tilde { y } ) > \phi ( \tilde { y } ) + 1$ then for the projection y of the element$\tilde { y }$in$\mathrm { E x t } _ { A } ^ { m - \phi ( \tilde { y } ) , \phi ( \tilde { y } ) , q } ( M , Z _ { p } )$we have the equation$\tilde { d } _ { i } ( y ) ~ = ~ 0$for$\textit { i } \leq \textit { k }$(we note that for elements$y \in$ $\sum \mathrm { E x t } _ { A } ^ { s , t , q } ( M , Z _ { p } ) , \varphi ( \boldsymbol { y } ) \geq \alpha )$ t≥a
 
-The groups Ext$_ { A _ { n } ^ { U } } ^ { 1 , s } ( U _ { p } ^ { * } ( P ) , U _ { p } ^ { * } ( P ) )$were computed in previous sections; they are cyclic for$s = 2 k ( p - 1 )$of order$P ^ { f ( k ) }$, where$f ( k ) - 1$is the exponent of the greatest power of p which divides k.
+The groups $\operatorname{Ext}_{A_p^U}^{1,s}(U_p^*(P),U_p^*(P))$ were computed in previous sections; they are cyclic for $s=2k(p-1)$ of order $p^{f(k)}$, where $f(k)-1$ is the exponent of the greatest power of $p$ which divides $k$.
 
-Corollary 12.3. The generator α<sub>k</sub> of the group$\mathrm { E x t } _ { A _ { n } ^ { U } } ^ { 1 , 2 k ( p - 1 ) } ( \Lambda _ { p } , \Lambda _ { p } )$has filtration $( 1 , k - f ( k ) )$or, in other words,$\phi ( \alpha _ { k } ) = k - f ( k )$in the term$E _ { \infty } \ o f$the “algebraic Adams spectral sequence”$\ " \ : _ { ( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } ) }$for$p > 2$. Since$\mathrm { E x t } _ { A _ { \mathrm { s } } ^ { U } } ^ { 1 , * } ( \Lambda _ { p } , \Lambda _ { p } )$consists of cycles for all Adams diferentials in U<sup>∗</sup><sub>p</sub> -theory,$d _ { i } ( \alpha _ { k } ) = 0 , i \geq 2$, and there is an associated element$\tilde { \alpha } _ { k } \in \pi _ { * } ( S ^ { n } )$; we have$\phi ( \tilde { \alpha } _ { k } ) = k - f ( k ) , i _ { U } ( \tilde { \alpha } _ { k } ) = 1 , i _ { H } ( \tilde { \alpha } _ { k } ) \leq$ $k - f ( k ) + 1$
+Corollary 12.3. The generator $\alpha_k$ of $\operatorname{Ext}_{A_p^U}^{1,2k(p-1)}(\Lambda_p,\Lambda_p)$ has filtration $(1,k-f(k))$, or, in other words, $\phi(\alpha_k)=k-f(k)$ in the term $E_\infty$ of the “algebraic Adams spectral sequence” $(\tilde{\tilde E}_r,\tilde{\tilde d}_r)$ for $p>2$. Since $\operatorname{Ext}_{A_p^U}^{1,*}(\Lambda_p,\Lambda_p)$ consists of cycles for all Adams differentials in $U_p^*$-theory, $d_i(\alpha_k)=0$ for $i\geq2$, and there is an associated element $\tilde\alpha_k\in\pi_*(S^n)$; we have $\phi(\tilde\alpha_k)=k-f(k)$, $i_{U_p}(\tilde\alpha_k)=1$, and $i_H(\tilde\alpha_k)\leq k-f(k)+1$.
 
-Proof. As was shown in$\ S \_ { 1 1 }$, the homomorphism$\begin{array} { r l } { \mathrm { E x t } _ { D _ { 1 } } ^ { 1 } ( \Lambda _ { p , 1 } , \Lambda _ { p , 1 } ) } & { { } \to } \end{array}$ $\mathrm { E x t } _ { A _ { n } ^ { U } } ^ { 1 } ( \Lambda _ { p } , \Lambda _ { p } )$is an epimorphism for$p \ > \ 2$. For the ring$D _ { 1 }$and the module$\dot { \Lambda _ { p , 1 } } = Q _ { p } [ x _ { 1 } ]$the ring$C = \mathrm { H o m } ^ { * } ( F , \Lambda _ { p , 1 } )$was determined (see Lemma 11.4), where$\phi ( x ) = 1 , \phi ( h _ { j } ) = 0 , \phi ( p ) = 1$and$\hat { \ b { d } } ( \ b { x } ^ { k } ) \sum \left( _ { j } ^ { k } \right) p ^ { j } \ b { x } ^ { k - j } \ b { h } _ { j }$. The element$\alpha _ { k }$ was represented by$\alpha _ { k } = ( 1 / p ^ { f ( k ) } ) d ( x ^ { k } )$.
+Proof. As was shown in § 11, the homomorphism $\operatorname{Ext}_{D_1}^1(\Lambda_{p,1},\Lambda_{p,1})\to\operatorname{Ext}_{A_p^U}^1(\Lambda_p,\Lambda_p)$ is an epimorphism for $p>2$. For the ring $D_1$ and the module $\Lambda_{p,1}=Q_p[x_1]$, the ring $C=\operatorname{Hom}^*(F,\Lambda_{p,1})$ was determined (see Lemma 11.4), where $\phi(x)=1$, $\phi(h_j)=0$, $\phi(p)=1$, and $d(x^k)=\sum_j\binom{k}{j}p^j x^{k-j}h_j$. The element $\alpha_k$ was represented by $\alpha_k=(1/p^{f(k)})d(x^k)$.
 
 From this we have:
 
@@ -3276,31 +3219,31 @@ Thus, the filtration$\phi$of the element$\alpha _ { k }$is equal to$k - f ( k )$
 
 As is known, the groups$\mathrm { E x t } _ { A } ^ { 1 , s } ( Z _ { p } , Z _ { p } )$are equal to$Z _ { p }$for$s = 1$or$s = 2 p ^ { j } ( p - 1 )$ and are generated by elements$u _ { j } , j \geq 0 ,$, of type 0 for$s = 2 p ^ { j } ( p - 1 )$and$h _ { 0 } \in$ $\mathrm { E x t } _ { A } ^ { 0 , 1 , 1 }$of type 1 in the sense of Cartan.
 
-Hence,$u _ { i } \in { \mathrm { E x t } } _ { A } ^ { 1 , 0 , 2 p ^ { i } ( p - 1 ) } ( Z _ { p } , Z _ { p } )$and$h _ { 0 } \in \mathrm { E x t } _ { A } ^ { 0 , 1 , 1 } ( Z _ { p } , Z _ { p } )$, where$\mathrm { E x t } _ { A } ^ { m , q }$= $\sum _ { c \ge + - m } \mathrm { E x t } _ { A } ^ { s , t , q }$and t is the type. In the groups$\mathrm { E x t } _ { A } ^ { 2 , 2 p ^ { i } ( p - 1 ) }$there are nonzero s+t=m elements$y _ { i } , i \geq 1$, having type 0.
+Hence, $u_i\in\operatorname{Ext}_A^{1,0,2p^i(p-1)}(Z_p,Z_p)$ and $h_0\in\operatorname{Ext}_A^{0,1,1}(Z_p,Z_p)$, where $\operatorname{Ext}_A^{m,q}=\sum_{s+t=m}\operatorname{Ext}_A^{s,t,q}$ and $t$ is the type. In the groups $\operatorname{Ext}_A^{2,2p^i(p-1)}$ there are nonzero elements $y_i$, $i\geq1$, having type 0.
 
-Corollary 12.4. In the “algebraic Adams spectral sequence” we have the equation $\tilde { d } _ { 2 } ( u _ { i } ) = h _ { 0 } \gamma _ { i } , f o r i \geq 1$
+Corollary 12.4. In the “algebraic Adams spectral sequence” we have the equation $\tilde d_2(u_i)=h_0\gamma_i$ for $i\geq1$.
 
-The proof, by analogy with the proof of Corollary 12.3, follows easily from the structure of the homomorphism$\beta$in$H ( C \otimes Z _ { p } )$, where$\beta ( h _ { p } i ) = \gamma _ { i }$for$i \geq 1$(see Lemma 11.4).
+The proof, by analogy with the proof of Corollary 12.3, follows easily from the structure of the homomorphism $\beta$ in $H(C\otimes Z_p)$, where $\beta(h_{p^i})=\gamma_i$ for $i\geq1$ (see Lemma 11.4).
 
-Thus, we see that with the help of the “algebraic Adams spectral sequence” it is not only possible to prove the absence of elements with Hopf–Steenrod invariant 1, but also to compute (ordinary) Adams diferentials by purely algebraic methods which come from the ring$A ^ { U }$
+Thus, we see that with the help of the “algebraic Adams spectral sequence” it is not only possible to prove the absence of elements with Hopf–Steenrod invariant 1, but also to compute (ordinary) Adams differentials by purely algebraic methods which come from the ring $A^U$.
 
-Conjecture. For$p > 2$the “algebraic Adams spectral sequence,” which converges to Ex${ \mathrm { \Sigma } } _ { A ^ { U } } ( U ^ { * } ( P ) , U ^ { * } ( P ) ) \otimes _ { Z } Q _ { p } ,$, coincides with the$\mathrm { \Delta ^ { 6 6 a l } } ^ { 5 }$Adams spectral sequence, and the homotopy groups of spheres$\pi _ { * } ( S ^ { n } ) \otimes z \ Q _ { p }$are associated to $\operatorname { E x t } _ { A ^ { U } } ( U ^ { * } ( P ) , U ^ { * } ( P ) ) \otimes _ { Z } Q _ { p }$. {Equivalently: all diferentials$d _ { r } , r \geq 2 .$, are zero in the Adams spectral sequence over$U _ { p } ^ { * } . \big \}$
+Conjecture. For $p>2$ the “algebraic Adams spectral sequence,” which converges to $\operatorname{Ext}_{A^U}(U^*(P),U^*(P))\otimes_ZQ_p$, coincides with the “real” Adams spectral sequence, and the homotopy groups of spheres $\pi_*(S^n)\otimes_ZQ_p$ are associated to $\operatorname{Ext}_{A^U}(U^*(P),U^*(P))\otimes_ZQ_p$. (Equivalently, all differentials $d_r$, $r\geq2$, are zero in the Adams spectral sequence over $U_p^*$.)
 
 We now consider$p = 2$. As was indicated earlier, here there are two spectral sequences$( \tilde { E } _ { r } , \tilde { d } _ { r } )$and$( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$, where$\tilde { \tilde { E } } _ { 2 } = \tilde { E } _ { 2 } = \mathrm { E x t } _ { A / / Q } ( M , \bar { \Lambda } _ { 2 } ) , M = H ^ { * } ( X , Z _ { 2 } )$, and$\bar { \Lambda } _ { 2 } = \mathrm { E x t } _ { Q } ^ { * * } ( Z _ { 2 } , Z _ { 2 } )$is associated to$U _ { 2 } ^ { * } ( P ) = \Lambda _ { 2 }$. The sequence$( \tilde { \tilde { E } } _ { r } , \tilde { \tilde { d } } _ { r } )$converges to$\mathrm { E x t } _ { A _ { 2 } ^ { U } } ( U _ { 2 } ^ { * } ( X ) , \Lambda _ { 2 } )$and$( \tilde { E } _ { r } , \tilde { d } _ { r } )$converges to$\mathrm { E x t } _ { A } ( M , Z _ { 2 } )$
 
 By analogy with Theorem 12.2 for$p > 2$, here we have
 
-Theorem 12.3. The diferentials$\tilde { d } _ { r }$are associated with the Adams diferentials in Cobordism theory on the group$\tilde { E } _ { \infty }$associated with Ext$_ { A _ { 2 } ^ { U } } ( U _ { 2 } ^ { * } ( X ) , \Lambda _ { 2 } )$. The $d i f f e r e n t i a l s ~ \tilde { \tilde { d } } _ { r }$are associated with the Adams diferentials in$H ^ { * } ( \mathbf { \Omega } , Z _ { 2 } )$-theory on the groups$\tilde { E } _ { \infty }$associated with Ext$_ { A } ( H ^ { \ast } ( X , Z _ { 2 } ) , Z _ { 2 } )$, where$X \in D$
+Theorem 12.3. The differentials $\tilde d_r$ are associated with the Adams differentials in cobordism theory on the group $\tilde E_\infty$ associated with $\operatorname{Ext}_{A_2^U}(U_2^*(X),\Lambda_2)$. The differentials $\tilde{\tilde d}_r$ are associated with the Adams differentials in $H^*(\ ,Z_2)$-theory on the groups $\tilde E_\infty$ associated with $\operatorname{Ext}_A(H^*(X,Z_2),Z_2)$, where $X\in D$.
 
 The proof of Theorem 12.3, as of 12.2, follows immediately from the properties of the geometric realization of the double complex.
 
-Thus, for$p = 2$, it is possible to compute the Adams diferentials in$H ^ { * } ( \mathbf { \Omega } , Z _ { 2 } ) .$ theory, starting from cobordism, and conversely.
+Thus, for $p=2$, it is possible to compute the Adams differentials in $H^*(\ ,Z_2)$-theory, starting from cobordism, and conversely.
 
-Question. Do the algebraic Adams spectral sequences${ \tilde { E } } _ { r }$and$\tilde { \tilde { E } } _ { \boldsymbol { \imath } }$<sub>r</sub> define the real Adams spectral sequences in both theories?
+Question. Do the algebraic Adams spectral sequences $\tilde E_r$ and $\tilde{\tilde E}_r$ define the real Adams spectral sequences in both theories?
 
-In any case in all examples known to the author all Adams diferentials are subsumed under this scheme.
+In any case in all examples known to the author all Adams differentials are subsumed under this scheme.
 
-Example. Let$X ~ = ~ M S U$. We consider$\mathrm { E x t } _ { A / / Q } ( M , \bar { \Lambda } )$, where$M \ =$ $H ^ { * } ( X , Z _ { 2 } )$. We write an$A / Q { \it \Delta }$resolution of the module M:
+Example. Let $X=MSU$. We consider $\operatorname{Ext}_{A//Q}(M,\bar\Lambda)$, where $M=H^*(X,Z_2)$. We write an $A//Q$-resolution of the module $M$:
 
 $$
 (\dots \to C _ {i} \xrightarrow {d} C _ {i - 1} \to \dots \to C _ {0} \xrightarrow {\varepsilon} M) = C.
@@ -3316,7 +3259,7 @@ where$u _ { i }$is a generator of$C _ { i } ( M _ { \omega } )$and$d u _ { i } =
 
 There follows straightforwardly (by direct calculation)
 
-Lemma 12.5. Ex$\natural _ { A / / Q } ^ { * * * } ( M _ { \omega } , \bar { \Lambda } _ { 2 } ) \ f o r \ \omega = ( 0 )$has a system of multiplicative generators:
+Lemma 12.5. $\operatorname{Ext}_{A//Q}^{***}(M_\omega,\bar\Lambda_2)$ for $\omega=(0)$ has a system of multiplicative generators:
 
 $$
 h _ {0} \in \operatorname{Ext} ^ {0, 1, 1}, \quad x _ {1} \in \operatorname{Ext} ^ {1, 0, 2}, \quad h _ {i} \in \operatorname{Ext} ^ {0, 1, 2 ^ {i + 1} - 1}, \quad i \geq 2, \quad y \in \operatorname{Ext} ^ {0, 2, 6}
@@ -3324,14 +3267,14 @@ $$
 
 and is given by the relation$h _ { 0 } x _ { 1 } = 0$
 
-We note that the dimension of$\mathrm { E x t } ^ { s , t , q }$in$H ^ { * } ( \mathbf { \Omega } , Z _ { 2 } )$is equal to$( s + t , q )$and the dimension in$U _ { \mathrm { 2 } } ^ { \ast } \mathrm { - t h e o r y }$is equal to$( s , q - t )$(see above).
+We note that the dimension of $\operatorname{Ext}^{s,t,q}$ in $H^*(\ ,Z_2)$ is $(s+t,q)$ and the dimension in $U_2^*$-theory is $(s,q-t)$ (see above).
 
 We now describe the spectral sequences$\tilde { E } _ { r } \searrow \mathrm { E x t } _ { A }$and$\tilde { \tilde { E } } _ { r } \searrow \mathrm { E x t } _ { A _ { 2 } ^ { U } }$
 
 Lemma 12.6. a) The spectral sequence$( \tilde { E } _ { r } , \tilde { d } _ { r } )$is such that:
 
 $$
-\begin{array}{r l} \tilde {d} _ {3} (y) = x _ {1} ^ {3}, & \tilde {d} _ {3} (h _ {0}) = \tilde {d} _ {3} (x _ {1}) = \tilde {d} _ {3} (h _ {i}) = \tilde {d} _ {3} (v _ {\omega} = 0), \\ & \tilde {d} _ {3} | \mathrm{Hom} _ {A / / Q} (F, \bar {\Lambda} _ {2}) = 0 \end{array}
+\begin{array}{r l} \tilde {d} _ {3} (y) = x _ {1} ^ {3}, & \tilde {d} _ {3} (h _ {0}) = \tilde {d} _ {3} (x _ {1}) = \tilde {d} _ {3} (h _ {i}) = 0,\quad \tilde {d} _ {3} (v _ {\omega}) = 0, \\ & \tilde {d} _ {3} | \mathrm{Hom} _ {A / / Q} (F, \bar {\Lambda} _ {2}) = 0 \end{array}
 $$
 
 and all$\tilde { d } _ { r } = 0 \ f o r \ r = 3$
@@ -3348,11 +3291,11 @@ The proof of Lemma 12.6 for$\tilde { E } _ { r }$follows easily from the calcula
 
 Corollary 12.5. For MSU, the Adams spectral sequence (in U-cobordlsm and $H ^ { * } ( \ , Z _ { 2 } )  – t h e o r y )$determined by the algebraic spectral sequences$\tilde { E } _ { r }$and$\tilde { \tilde { E } } _ { r }$.
 
-In analogous fashion it can be shown that all known Adams diferentials for $X = P$in both homology theories (the case of the homotopy groups of spheres) are also determined by$\tilde { E } _ { r } , \tilde { \tilde { E } } _ { r }$and$\tilde { d } _ { r } , \tilde { \tilde { d } } _ { r }$
+In analogous fashion it can be shown that all known Adams differentials for $X = P$in both homology theories (the case of the homotopy groups of spheres) are also determined by$\tilde { E } _ { r } , \tilde { \tilde { E } } _ { r }$and$\tilde { d } _ { r } , \tilde { \tilde { d } } _ { r }$
 
 By analogy with the case$p > 2$, bounds can be determined here also for the filtrations of elements$\operatorname { E x t } _ { A ^ { U } } ^ { 1 }$(see Corollary 12.3).
 
-Appendix 1. On the formal group of “geometric” cobordism
+Appendix 1. On the formal group of “geometric” cobordism (Theorem of A. S. Miščenko)
 
 We consider an arbitrary complex X, the group$U ^ { * } ( X )$and its subgroup Map($X , M U _ { 1 } ) \ \subset \ U ^ { 2 } ( X )$. In what follows we shall denote$\mathrm { M a p } ( X , M U _ { 1 } )$by $V ( X )$. Since$M U _ { 1 } ~ = ~ C P ^ { \infty }$is an H-space,$V ( X )$becomes a group, which is communicative, and with respect to this law of multiplication we obviously have:
 
@@ -3365,10 +3308,10 @@ How is this multiplication in$V ( X )$connected with operations in$U ^ { * } ( X
 Lemma 1. a)$I f u , v \in V ( X )$and ⊕ is the product in$V ( X )$, then the law of multiplication u ⊕$v = f ( u , v )$has the form
 
 $$
-u\otimes v = u + v + \sum_{\substack{i\geq 1\\ j\geq 1}}x_{i,j}u^{i}v^{i},
+u\otimes v = u+v+\sum_{\substack{i\geq1\\j\geq1}}x_{i,j}u^iv^j,
 $$
 
-where$x _ { i j } \in \Lambda ^ { - 1 ( i + j - 1 ) } = \Omega _ { U J } ^ { 2 ( i + j - 1 ) }$are coeficients independent of$u , v ,$
+where $x_{ij}\in\Lambda^{-1(i+j-1)}=\Omega_U^{2(i+j-1)}$ are coefficients independent of $u,v$,
 
 b)$u \oplus v = v \oplus u ,$
 
@@ -3376,25 +3319,23 @@ c)$( u \oplus v ) \oplus w = u \oplus ( v \oplus w )$
 
 d) there exists an inverse element u¯, where$\bar { u } \oplus u = 0$
 
-The proof of this lemma follows in an obvious way from the fact that$V ( X )$≈ $H ^ { 2 } ( X , { \bar { Z } } )$and the possibility of computing all the coeficients on the universal example$X = C P ^ { \infty }$. We note that$x _ { 1 , 1 } = [ C P ^ { 1 } ]$
+The proof of this lemma follows in an obvious way from the fact that $V(X)\approx H^2(X,Z)$ and the possibility of computing all the coefficients on the universal example $X=CP^\infty$. We note that $x_{1,1}=[CP^1]$.
 
-Thus, we have a commutative formal group with graded ring of coeficients Λ, and dim$u = \dim v = 2$. As is known, the structure of such a group is completely determined by a change of variables g over the ring$\Lambda \otimes _ { Z } Q , u \stackrel { \smile } {  } g ( \bar { u } ) = \sum _ { i > 0 } \bar { y } _ { i } u ^ { i + 1 }$
+Thus, we have a commutative formal group with graded ring of coefficients $\Lambda$, and $\dim u=\dim v=2$. As is known, the structure of such a group is completely determined by a change of variables $g$ over the ring $\Lambda\otimes_ZQ$, $u\mapsto g(u)=\sum_{i\geq0}y_i u^{i+1}$,
 
 $y _ { 0 } = 1$, such that
 
 $$
-g (u \oplus u) = g (u) + g (v).
+g(u\oplus v)=g(u)+g(v).
 $$
 
 We have the following
 
-Theorem (A. S. Miˇsˇcenko). The change of variables$u  g ( u )$, where$g ( u ) =$ $\sum _ { n > 0 } { \frac { x _ { n } } { n + 1 } } u ^ { n + 1 } , \ x _ { n } = [ C P ^ { n } ] \in \Lambda ^ { - 2 n }$, reduces the formal group$V \otimes _ { Z } Q$to linear form$g ( u \oplus v ) = g ( u ) + g ( v )$. Hence, the change$u  g ( u )$reduces to linear form the formal group$V ( X ) \otimes Q$for all X and uniquely determines the structure of the one-dimensional formal group V over the ring Λ.
-
-Proof. We consider the ring$U ^ { * } ( C P ^ { \infty } ) = \Lambda [ [ u ] ]$and the multiplication$C P ^ { \infty } \times$ $C P ^ { \infty } \to C P ^ { \infty }$, sending the one-dimensional canonical$U _ { 1 }$-bundle$\xi$over$C P ^ { \infty }$into $\xi _ { 1 } \otimes \xi _ { 2 }$, where$\xi _ { 1 } , \xi _ { 2 }$are canonical bundles over$C P \times C P$. This multiplication induces a diagonal$\Delta \colon U ^ { * } ( C P ^ { \infty } ) \to U ^ { * } ( C P ^ { \infty } ) \otimes _ { \Lambda } U ^ { * } ( C P ^ { \infty } )$, which gives the multiplication in$V ( C P ^ { \infty } )$
+Theorem (A. S. Miščenko). The change of variables $u\mapsto g(u)$, where $g(u)=\sum_{n\geq0}\frac{x_n}{n+1}u^{n+1}$, $x_n=[CP^n]\in\Lambda^{-2n}$, reduces the formal group $V\otimes_ZQ$ to linear form $g(u\oplus v)=g(u)+g(v)$. Hence, the change $u\mapsto g(u)$ reduces to linear form the formal group $V(X)\otimes Q$ for all $X$ and uniquely determines the structure of the one-dimensional formal group $V$ over the ring $\Lambda$.
 
 Let$u ^ { \prime } = g ( u ) \sum \lambda _ { i } u ^ { i }$, where$\Delta ( u ^ { \prime } ) = u ^ { \prime } \otimes 1 + 1 \otimes u ^ { \prime }$. Then g is the desired change of variables.
 
-We compute the coeficients$\lambda _ { i }$. Let$S _ { ( k ) } \in A ^ { U } \ ( \mathrm { s e e \ \ S \ 5 } )$
+We compute the coefficients $\lambda_i$. Let $S_{(k)}\in A^U$ (see § 5).
 
 We have the easy
 
@@ -3417,7 +3358,7 @@ $$
 We set
 
 $$
-u ^ {\prime k} = \sum_ {i} \lambda_ {i} ^ {(k)} u ^ {i}, \quad u ^ {k} = \sum_ {i} \mu_ {i} ^ {(k)} u ^ {\prime i}, \quad \sum_ {i} \lambda_ {i} ^ {(k)} \mu_ {j} ^ {(i)} = \delta_ {j} ^ {k}.
+u_0^k=\sum_i\lambda_i^{(k)}u^i,\quad u^k=\sum_i\mu_i^{(k)}u_0^i,\quad\sum_i\lambda_i^{(k)}\mu_j^{(i)}=\delta_j^k.
 $$
 
 Obviously,$S _ { ( k ) } \Delta u ^ { \prime } = \Delta S _ { ( k ) } u ^ { \prime } .$, since$\Delta u ^ { \prime } = u ^ { \prime } \otimes 1 + 1 \otimes u ^ { \prime }$. Since
@@ -3456,7 +3397,7 @@ $$
 \sigma_ {(k)} ^ {*} \lambda_ {i} = - (i - k) \lambda_ {i - k}.
 $$
 
-Further, since$\sigma _ { ( k ) } ^ { * } [ C P ^ { n } ] = - ( n + 1 ) [ C P ^ { n - k } ]$(see${ \mathrm { ~ \ S ~ 5 , ~ } }$, Lemma 5), it follows that $\bar { \lambda } _ { i } = x _ { i - 1 } / i , x _ { j } = [ C P ^ { j } ] \in \Lambda ^ { - 2 j }$satisfies the condition$\sigma _ { ( k ) } ^ { * } \bar { \lambda } _ { i } = - ( i - k ) \bar { \lambda } _ { i - k }$for all$i , k .$. By Lemma$2 , { \bar { \lambda } } _ { i } = \lambda _ { i }$, and the theorem is proved.
+Further, since $\sigma_{(k)}^*[CP^n]=-(n+1)[CP^{n-k}]$ (see § 5, Lemma 5), it follows that $\bar\lambda_i=x_{i-1}/i$, $x_j=[CP^j]\in\Lambda^{-2j}$, satisfies the condition $\sigma_{(k)}^*\bar\lambda_i=-(i-k)\bar\lambda_{i-k}$ for all $i,k$. By Lemma 2, $\bar\lambda_i=\lambda_i$, and the theorem is proved.
 
 Remark. For a quasicomplex manifold X, the group$V ( X )$is isomorphic to$H _ { 2 n - 2 } ( X )$and the meaning of the sum$u \oplus v$is such that the homology class$\nu ( u ) \nu ( v )$is realized by the inclusion of the submanifold$V _ { 1 } \otimes V _ { 2 }$, where $u \in U _ { 2 n - 2 } ( X ) , v \in U _ { 2 n - 2 }$are realized by the submanifolds$V _ { 1 } , V _ { 2 } \subset X$. Then the series
 
@@ -3468,7 +3409,7 @@ must be considered in the intersection ring$U _ { * } ( X )$
 
 ## Appendix 2. On analogues of the Adams operations in$U ^ { \ast } \mathrm { - T H E O R Y }$
 
-Analogues of the Adams operations$\Psi _ { U } ^ { k } \in A ^ { U } \otimes _ { Z } Z [ ( 1 / k ) ]$were defined in$\ S 5$in the following way:
+Analogues of the Adams operations $\Psi_U^k\in A^U\otimes_ZZ[(1/k)]$ were defined in § 5 in the following way:
 
 a)$\Psi _ { U } ^ { k } ( x y ) = \Psi _ { U } ^ { k } ( x ) \Psi _ { U } ^ { k } ( \gamma )$
 
@@ -3494,7 +3435,7 @@ $$
 \Psi_ {U} ^ {k} (\Psi_ {U} ^ {l} (x)) = \Psi_ {U} ^ {k l} (x).
 $$
 
-Hence, always$\Psi _ { U } ^ { k } \circ \Psi _ { U } ^ { l } = \Psi _ { U } ^ { k l }$in$A ^ { U } \otimes _ { Z } Q$, since for any$n \to \infty$and$u = u _ { 1 } \ldots u _ { n }$ we have$\Psi _ { U } ^ { k } \Psi _ { U } ^ { k } ( u ) = \Psi _ { U } ^ { k l }$by virtue of properties (a) and (b).
+Hence, $\Psi_U^k\circ\Psi_U^l=\Psi_U^{kl}$ in $A^U\otimes_ZQ$, since for any $n\to\infty$ and $u=u_1\cdots u_n$ we have $\Psi_U^k\Psi_U^l(u)=\Psi_U^{kl}$ by virtue of properties (a) and (b).
 
 Of the assertions in Lemma 5.8, only part (d) is nontrivial, and it asserts that $\Psi _ { U } ^ { k , * } ( y ) = k ^ { i } y , y \in \Lambda ^ { - 2 i } = \Omega _ { U } ^ { 2 i }$
 
@@ -3542,7 +3483,7 @@ Thus, all assertions of Lemma 5.8 are proved.
 
 We now consider an arbitrary ring$K ,$, the group of units$U _ { k } \subset K$and$A ^ { U } \otimes _ { Z } K$ We define the following semigroups in$A ^ { U } \otimes _ { Z } K ;$
 
-1. The semigroup of multiplicative operations$a \in A ^ { U } \otimes _ { Z } K$, where$\Delta a = a \otimes a \in$ $A ^ { U } \otimes _ { \Lambda } A ^ { U } \otimes _ { Z } { \bf \bar { \Sigma } }$
+1. The semigroup of multiplicative operations $a\in A^U\otimes_ZK$, where $\Delta a=a\otimes a\in A^U\otimes_\Lambda A^U\otimes_ZK$.
 
 2. The semigroup of multiplicative operations of dimension 0,
 
@@ -3552,11 +3493,9 @@ $$
 
 3. The center$Z _ { K } \subset A _ { K } ^ { 0 }$of the semigroup$A _ { K }$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">U<sup>0</sup>(X),</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Ψ k</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>From Theorem 1 it follows easily that all operations Ψ<sup>k</sup> are well-defined over the integers on as in K-theory.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>From Theorem 1 it follows easily that all operations $\Psi_U^k$ are well-defined over the integers on $U^0(X)$, as in K-theory.</span></small>
 
 4. The “Adams operations”$\Psi _ { U } ^ { q } \in A _ { K } ^ { 0 }$, where$q \in U _ { k }$(the group of units), defined by the requirements of Theorem 1:
 
@@ -3572,17 +3511,17 @@ Remark. If K is an algebra over$Q { \mathrm { . } }$, then the Adams operations$
 
 We have the following
 
-Theorem 2. a) For any algebra K over Q without zero divisors and for$K = Q _ { p } , Z _ { ; }$ the “Adams operations${ } ^ { , , } \Psi _ { U } ^ { \alpha } \in A ^ { U } \otimes _ { Z } K$are defined, where$\alpha \in K ^ { * }$in the Q-algebra case and$\alpha \in U _ { p }$in the case$K = Q _ { p } \ \{ i . e . , U _ { p } = U _ { Q _ { p } } \} , \alpha = \pm 1$in the case$K = Z$ such that:
+Theorem 2. a) For any algebra $K$ over $Q$ without zero divisors and for $K=Q_p,Z$, the “Adams operations” $\Psi_U^\alpha\in A^U\otimes_ZK$ are defined, where $\alpha\in K^*$ in the $Q$-algebra case and $\alpha\in U_p$ in the case $K=Q_p$ (i.e., $U_p=U_{Q_p}$), and $\alpha=\pm1$ in the case $K=Z$, such that:
 
-1)$\Psi _ { I J } ^ { \alpha _ { 1 } } \Psi _ { I J } ^ { \alpha _ { 2 } } = \Psi _ { I J } ^ { \alpha _ { 1 } \alpha _ { 2 } }$
+1) $\Psi_U^{\alpha_1}\Psi_U^{\alpha_2}=\Psi_U^{\alpha_1\alpha_2}$.
 
-2)$\Psi _ { U } ^ { \breve { \alpha } , * } \colon \Lambda _ { K } ^ { - 2 i }  \Lambda _ { K } ^ { - 2 i }$is multiplication by$\alpha ^ { i }$.
+2) $\Psi_U^{\alpha,*}:\Lambda_K^{-2i}\to\Lambda_K^{-2i}$ is multiplication by $\alpha^i$.
 
 3)$\Psi _ { U } ^ { \alpha } \circ a = \alpha ^ { - i } a \Psi _ { U } ^ { \alpha }$, where$a \in A ^ { U } \otimes _ { Z } K$is of dimension 2i.
 
 4) The series α$\Psi _ { U } ^ { \alpha } ( u )$for$u \in V ( C P ^ { \infty } )$makes the operation of raising to the power$\alpha , \alpha \in K ^ { * }$, well-defined in the formal group$V$
 
-b) The collection of all Adams operations forms a semigroup$K ^ { * } \approx \Psi ( K )$for a Q-algebra K, Ψ(K) ≈$U _ { p }$for$K = Q _ { p } , \Psi ( Z ) = Z _ { 2 }$, which coincides precisely with the center$Z _ { K }$of the semigroup$A _ { K } ^ { 0 } \ o f$multiplicative operations of dimension 0 in the ring$A _ { U } \otimes K$for$K = Q _ { p } , Z _ { \mathrm { { a } } }$, while for a Q-algebra K the center consists of $\Psi ( K )$and the operator Φ, where$\Phi ( u ) = g ( u )$
+b) The collection of all Adams operations forms a semigroup $K^*\approx\Psi(K)$ for a $Q$-algebra $K$, $\Psi(K)\approx U_p$ for $K=Q_p$, and $\Psi(Z)=Z_2$, which coincides precisely with the center $Z_K$ of the semigroup $A_K^0$ of multiplicative operations of dimension 0 in the ring $A^U\otimes K$ for $K=Q_p,Z$, while for a $Q$-algebra $K$ the center consists of $\Psi(K)$ and the operator $\Phi$, where $\Phi(u)=g(u)$.
 
 Remark. Although$a \in A _ { K }$is such that$\Delta a = a \otimes a$and is given by a formal series beginning with 1, where$a ( u ) = u + \ldots$, still the coeficients of the series lie in Λ or$\Lambda \otimes K$, while the law of super-position of series$a _ { 1 } \cdot a _ { 2 } ( u )$takes into account the representation of$A ^ { U } \otimes K$on$\Lambda \otimes K$. Hence$A _ { K }$is not a group (as usual in formal series of this kind), but a semigroup. An example of a “noninvertible” element $a \in A ^ { 0 } + K$is given by the series
 
@@ -3592,7 +3531,7 @@ $$
 
 where$\Phi ^ { 2 } = \Phi$and$\Phi ^ { * } ( y ) = 0 , y \in \Lambda ^ { 2 j }$for$j > 0$
 
-We prove Theorem 2. Part (a) was essentially already proved above. In order to establish that$\Psi ( K ) = Z _ { K }$, we consider an arbitrary element$a \in Z _ { K }$and we shall show that$a \in \Psi ( K )$. Since the series$a ( u ) = u + \ldots ,$we have$a ^ { * } | \Lambda ^ { 0 } = 1$and $a ^ { * } | \Lambda ^ { 2 }$is multiplication by a number$\alpha \in K . \mathrm { \ I f \ } a ^ { * } | \Lambda ^ { - 2 j } = 0$for all$j > 0$, then it follows that$a ^ { * } = \Phi ^ { * }$and hence$a = \Phi$, while Φ$\dot { \mathcal { E } } \ A ^ { U } \otimes _ { Z } Q _ { p }$. It will be assumed that for some$j , a ^ { * } \vert \Lambda ^ { - 2 j } \neq 0 , j > 0$. If$a ^ { * } | \Lambda ^ { - 2 j }$is the operator of multiplication by a number$k _ { j } ,$then it is easy to see that$k _ { j } = k _ { 1 } ^ { j }$and$a = \Psi _ { U } ^ { k _ { 1 } }$, where$k _ { 1 } \in K ^ { * }$ or$k _ { 1 } \in U _ { p }$We shall show that for all$j$the operator$a ^ { * }$is multiplication by a number$k _ { j }$. If j is the first number for which$a ^ { * } | \Lambda ^ { - 2 j _ { 0 } }$is not multiplication by a number, then, nevertheless, on the decomposable elements$\bar { \Lambda } ^ { - 2 j _ { 0 } } \subset \Lambda ^ { - 2 j _ { 0 } } , a ^ { * }$ is multiplication by a number in view of the fact that$a ^ { * } ( x y ) = a ^ { * } ( x ) a ^ { * } ( y )$. If $y \in \Lambda ^ { - 2 j _ { 0 } }$is an indecomposable element then$a ^ { * } ( y ) = \lambda y + \bar { y } , \bar { y } \subset \tilde { \Lambda }$and$\bar { y } = 0$ Let$b \in A _ { K } ^ { 0 }$be such that$b ^ { * } ( y ) = \mu y + \bar { \bar { y } }$, where$\bar { \bar { y } } \in \Lambda , \bar { \bar { y } } \neq 0$. Then$b ^ { * } a ^ { * } \neq a ^ { * } b ^ { * }$on $\Lambda ^ { - 2 j _ { 0 } }$, which is impossible. The theorem is proved.
+We prove Theorem 2. Part (a) was essentially already proved above. In order to establish that$\Psi ( K ) = Z _ { K }$, we consider an arbitrary element$a \in Z _ { K }$and we shall show that$a \in \Psi ( K )$. Since the series$a ( u ) = u + \ldots ,$we have$a ^ { * } | \Lambda ^ { 0 } = 1$and $a ^ { * } | \Lambda ^ { 2 }$is multiplication by a number$\alpha \in K . \mathrm { \ I f \ } a ^ { * } | \Lambda ^ { - 2 j } = 0$for all$j > 0$, then it follows that$a ^ { * } = \Phi ^ { * }$and hence$a = \Phi$, while $\Phi\notin A^U\otimes_ZQ_p$. It will be assumed that for some$j , a ^ { * } \vert \Lambda ^ { - 2 j } \neq 0 , j > 0$. If$a ^ { * } | \Lambda ^ { - 2 j }$is the operator of multiplication by a number$k _ { j } ,$then it is easy to see that$k _ { j } = k _ { 1 } ^ { j }$and$a = \Psi _ { U } ^ { k _ { 1 } }$, where$k _ { 1 } \in K ^ { * }$ or$k _ { 1 } \in U _ { p }$We shall show that for all$j$the operator$a ^ { * }$is multiplication by a number$k _ { j }$. If j is the first number for which$a ^ { * } | \Lambda ^ { - 2 j _ { 0 } }$is not multiplication by a number, then, nevertheless, on the decomposable elements$\bar { \Lambda } ^ { - 2 j _ { 0 } } \subset \Lambda ^ { - 2 j _ { 0 } } , a ^ { * }$ is multiplication by a number in view of the fact that$a ^ { * } ( x y ) = a ^ { * } ( x ) a ^ { * } ( y )$. If $y \in \Lambda ^ { - 2 j _ { 0 } }$is an indecomposable element then$a ^ { * } ( y ) = \lambda y + \bar { y } , \bar { y } \subset \tilde { \Lambda }$and$\bar { y } = 0$ Let$b \in A _ { K } ^ { 0 }$be such that$b ^ { * } ( y ) = \mu y + \bar { \bar { y } }$, where$\bar { \bar { y } } \in \Lambda , \bar { \bar { y } } \neq 0$. Then$b ^ { * } a ^ { * } \neq a ^ { * } b ^ { * }$on $\Lambda ^ { - 2 j _ { 0 } }$, which is impossible. The theorem is proved.
 
 ## Appendix 3. Cell complexes in extraordinary cohomology theory, U-cobordism and k-theory
 
@@ -3604,15 +3543,15 @@ a) if dim$K = 0$, then$S _ { X } ( K )$is a free complex$\sum _ { P } \Lambda ( 
 
 b) Suppose that for all$K ^ { j } , j < i , S _ { X } ( K ^ { j } )$has been constructed so that$\partial \lambda = \lambda \partial ,$ $\lambda \in \Lambda$, and the generators of$S _ { X } ( K ^ { j } )$are in one-one correspondence with the cells of$K ^ { j }$
 
-We consider the pair$( K ^ { j } , K ^ { i - 1 } )$, where$K ^ { i } / K ^ { i - 1 }$is a bouquet of spheres$S _ { 1 } ^ { i } \vee$ $\cdots \vee S _ { q _ { i } } ^ { i }$. We adjoin to$S _ { X } ( K ^ { i - 1 } )$free generators$u _ { 1 } , \ldots , u _ { q _ { i } }$of dimension i. A diferential in the complex$S _ { X } ( K ^ { i - 1 } ) + \Lambda ( u _ { 1 } ) + \cdot \cdot \cdot + \Lambda ( u _ { q _ { i } } )$is introduced as follows: 1) ∂λ = λδ, λ ∈ Λ;
+We consider the pair $(K^i,K^{i-1})$, where $K^i/K^{i-1}$ is a bouquet of spheres $S_1^i\vee\cdots\vee S_{q_i}^i$. We adjoin to $S_X(K^{i-1})$ free generators $u_1,\ldots,u_{q_i}$ of dimension $i$. A differential in the complex $S_X(K^{i-1})+\Lambda(u_1)+\cdots+\Lambda(u_{q_i})$ is introduced as follows: 1) $\partial\lambda=\lambda\partial$, $\lambda\in\Lambda$;
 
-2)$\partial u _ { j } = z _ { j } \in S _ { X } ( K ^ { i - 1 } )$, where$z _ { j }$is such that$\partial z _ { j } = 0$in$S _ { X } ( K ^ { i - 1 } )$and the homology class$[ z _ { j } ] \in \backslash { \cal X } _ { * } ( K ^ { i - 1 } )$is represented by the element equal to$\partial u _ { j }$, where $\partial \colon X _ { * } ( S _ { 1 } ^ { i } \vee \cdots \vee S _ { q _ { i } } ^ { i } )  X _ { * } ( K ^ { i - 1 } )$is the boundary homomorphism of the pair $( K ^ { i } , K ^ { i - 1 } )$and$u _ { j } \in X _ { * } ( K ^ { i } / K ^ { i - 1 } )$corresponds to the sphere$S _ { j } ^ { i }$
+2) $\partial u_j=z_j\in S_X(K^{i-1})$, where $z_j$ is such that $\partial z_j=0$ in $S_X(K^{i-1})$ and the homology class $[z_j]\in X_*(K^{i-1})$ is represented by the element equal to $\partial u_j$, where $\partial:X_*(S_1^i\vee\cdots\vee S_{q_i}^i)\to X_*(K^{i-1})$ is the boundary homomorphism of the pair $(K^i,K^{i-1})$ and $u_j\in X_*(K^i/K^{i-1})$ corresponds to the sphere $S_j^i$.
 
 Thus, a complex$S _ { X } ( K )$of free modules arises.
 
-Lemma 1. The complex$S _ { X } ( K )$is uniquely defined up to the choice of the system of generators, and the diferential ∂ in$S _ { X }$coincides up to higher filtration with the homology one. Obviously,$H ( S _ { X } ( K ) , \partial ) = X _ { * } ( K )$as Λ-modules.
+Lemma 1. The complex$S _ { X } ( K )$is uniquely defined up to the choice of the system of generators, and the differential ∂ in$S _ { X }$coincides up to higher filtration with the homology one. Obviously,$H ( S _ { X } ( K ) , \partial ) = X _ { * } ( K )$as Λ-modules.
 
-For a cellular map$Y _ { 1 }  Y _ { 2 }$, there is defined analogously a morphism of free complexes$S _ { X } ( Y _ { 2 } )  S _ { X } ( Y _ { 2 } )$, also unique.
+For a cellular map $Y_1\to Y_2$, there is defined analogously a morphism of free complexes $S_X(Y_1)\to S_X(Y_2)$, also unique.
 
 Let$Y = Y _ { 1 } \times Y _ { 2 }$with the natural cellular subdivision.
 
@@ -3626,7 +3565,7 @@ which is an isomorphism of complexes?
 
 Now let$X = U$
 
-Conjecture. For a pair$Y _ { 1 } , Y _ { 2 }$, the complex$S _ { U } ( Y _ { 1 } \times Y _ { 2 } )$is homo topic ally equiv alent to the tensor product
+Conjecture. For a pair $Y_1,Y_2$, the complex $S_U(Y_1\times Y_2)$ is homotopically equivalent to the tensor product
 
 $$
 S _ {U} (Y _ {1}) \otimes_ {\Omega_ {U}} S _ {U} (Y _ {2}).
@@ -3638,13 +3577,13 @@ We shall indicate important examples:
 
 1.$A = \Omega _ { U }$is a one-dimensional free module.
 
-2.$A = Z [ x ]$, dim$x \ = \ 2$, and the action of$\Omega _ { U }$on A is such that$y ( x ^ { m } ) =$ $T ( y ) x ^ { m + i }$, where$y \in \Omega _ { U } , 2 i = \dim y .$, and$T ( y )$is the Todd genus. Here A is a ring and there is defined a homomorphism$\lambda \colon \Omega _ { U }  Z [ x ]$, such that$\lambda ( y ) = T ( y ) x ^ { i }$
+2. $A=Z[x]$, $\dim x=2$, and the action of $\Omega_U$ on $A$ is such that $y(x^m)=T(y)x^{m+i}$, where $y\in\Omega_U$, $2i=\dim y$, and $T(y)$ is the Todd genus. Here $A$ is a ring and there is defined a homomorphism $\lambda:\Omega_U\to Z[x]$ such that $\lambda(y)=T(y)x^i$.
 
-3.$A = Z [ x , x ^ { - 1 } ]$, where dim$x = 2$, dim$x ^ { - 1 } = - 2$and$x x ^ { - 1 } = 1$. Here A is a ring, while$\Omega _ { U }$acts on A just as in example 2:$y ( x ^ { m } ) = T ( y ) x ^ { m + i } , - \infty < m < \infty$ 4.$A = Z$, where$Z = \Omega _ { U } / \Omega _ { U } ^ { + } , \Omega _ { U } ^ { + }$is the kernel of the augmentation$\Omega _ { U }  Z$ and the action of$\Omega _ { U }$on$Z$is the natural one.
+3. $A=Z[x,x^{-1}]$, where $\dim x=2$, $\dim x^{-1}=-2$, and $xx^{-1}=1$. Here $A$ is a ring, while $\Omega_U$ acts on $A$ as in example 2: $y(x^m)=T(y)x^{m+i}$, $-\infty<m<\infty$. 4. $A=Z$, where $Z=\Omega_U/\Omega_U^+$, $\Omega_U^+$ is the kernel of the augmentation $\Omega_U\to Z$, and the action of $\Omega_U$ on $Z$ is the natural one.
 
-Conjecture. For the$\Omega _ { U }$-modules$A = \Omega _ { U } , Z [ x ] , Z [ x , x _ { - 1 } ] , Z$, the corresponding cohomology groups$U ^ { * } ( \mathbf { \Omega } , A )$are isomorphic, respectively, to the cobordism theory $U ^ { * } ~ f o r ~ A = \Omega _ { U }$, to stable$k ^ { * }$-theory for$A = Z [ x ]$, to unstable K-theory$K ^ { * } \ f o r$ $A = Z [ x , x ^ { - 1 } ]$and to the theory$H ^ { * } ( \mathbf { \Omega } , Z )$for$A \ = \ Z$The homology theories $U _ { * } ( \mathbf { \Omega } , A )$for$\tilde { A ( } = \Omega _ { U } , \ : Z [ x ] , \ : Z [ x , x ^ { - 1 } ] , \ : Z$, are isomorphic, respectively, to$U _ { * } , \ k _ { * }$ $K _ { * }$and$H _ { * } ( \mathbf { \Omega } , Z )$
+Conjecture. For the $\Omega_U$-modules $A=\Omega_U,Z[x],Z[x,x^{-1}],Z$, the corresponding cohomology groups $U^*(\ ,A)$ are isomorphic, respectively, to the cobordism theory $U^*$ for $A=\Omega_U$, to stable $k^*$-theory for $A=Z[x]$, to unstable $K^*$-theory for $A=Z[x,x^{-1}]$, and to the theory $H^*(\ ,Z)$ for $A=Z$. The homology theories $U_*(\ ,A)$ for $A=\Omega_U,Z[x],Z[x,x^{-1}],Z$ are isomorphic, respectively, to $U_*,k_*,K_*$, and $H_*(\ ,Z)$.
 
-Theorem 1. Since the complex$( S _ { U } ( Y ) , \partial )$is a complex of free$\Omega _ { U }$-modules, there exists a spectral sequence with term$E _ { 2 } = \mathrm { E x t } _ { \Omega _ { { \cal I } { \cal I } } } ^ { * * } ( U _ { * } ( Y ) , A )$which converges to $U ^ { * } ( Y , A )$, and there exists a spectral sequence with term$E _ { 2 } = \mathrm { T o r } _ { \Omega _ { U } } ^ { * * } ( U _ { * } ( Y ) , A )$ which converges to$U _ { * } ( Y , A )$
+Theorem 1. Since the complex $(S_U(Y),\partial)$ is a complex of free $\Omega_U$-modules, there exists a spectral sequence with term $E_2=\operatorname{Ext}_{\Omega_U}^{**}(U_*(Y),A)$ which converges to $U^*(Y,A)$, and a spectral sequence with term $E_2=\operatorname{Tor}_{\Omega_U}^{**}(U_*(Y),A)$ which converges to $U_*(Y,A)$.
 
 Theorem 2. Since the complexes$S _ { U } ( Y ) \otimes _ { \Omega _ { U } } Z [ x ] \ = \ S _ { k } ( Y )$and$S _ { U } ( Y ) \otimes _ { \Omega _ { U } }$ $Z [ x , x ^ { - 1 } ] = S _ { k } ( Y )$are complexes of free A-modules for$A = Z [ x ] , Z [ x , x ^ { - 1 } ]$, and the ring$Z [ x ]$is homologically onedimensional, we have the following universal co-eficient formulas:
 
@@ -3664,9 +3603,9 @@ where in formula$1 ) \ k _ { * }$and$k ^ { * }$are connected, in formula$2 ) \ k
 
 It is possible to find a number of other formulas connecting$k _ { * } , k ^ { * } , K _ { * } , K ^ { * } , H _ { * }$ $H ^ { * }$and also K¨unneth formulas for the direct product$Y _ { 1 } \times Y _ { 2 }$, starting with the complex$S _ { U } \otimes _ { \Omega } Z [ x ]$as a$Z [ x ]$-module and the fact that$Z [ x ]$is one-dimensional, as is$Z .$
 
-We note also that Hom$\mathsf { \mathsf { \mathsf { \Pi } } } _ { Z [ x ] } ^ { * } ( Z [ x ] , Z [ x ] ) = Z [ y ]$, where dim$y = - 2$
+We note also that $\operatorname{Hom}_{Z[x]}^*(Z[x],Z[x])=Z[y]$, where $\dim y=-2$.
 
-In all the formulas of Corollary 2 one can start from the complex Ho$\boldsymbol { \mathrm { m } } _ { \Omega _ { T } } ^ { * } ( S _ { U } , Z [ x ] )$, which is a complex of free$Z [ y ]$-modules for$k ^ { * } { \mathrm { - t h e o r y } } .$
+In all the formulas of Corollary 2 one can start from the complex $\operatorname{Hom}_{\Omega_U}^*(S_U,Z[x])$, which is a complex of free $Z[y]$-modules for $k^*$-theory.
 
 With the help of the complex$S _ { U } ( Y )$it is possible to introduce, in addition to the cohomological multiplication, also the$\mathrm { ^ { * } C e c h }$operation$^ { \circ \circ } \cap$such that$( a \cap b , c ) =$ $( a , b c )$, where$c , a \in U ^ { * } , b \in U _ { * }$and$a \cap b \in U _ { * }$, while$( a \cap b , c ) \in \Omega _ { U }$. Analogously for$k _ { * } -$and$k ^ { * } , K ^ { * } -$and$K _ { * } .$-theories.
 
@@ -3685,7 +3624,7 @@ In this appendix we shall consider the following questions:
 2. How to compute in$U _ { * } ( B G )$the following elements: let the group$Z _ { m }$ act on$C ^ { n }$linearly, and without fixed points on$C ^ { n } { \setminus } 0 , \ { \mathrm { i . e . } }$., by means of diagonal matrices$( a _ { i j } )$, where$a _ { i j } = \exp ( 2 \pi i x _ { j } / m )$and$x _ { j }$is a unit in the ring $Z _ { m }$. Then an action of$Z _ { m }$on$S ^ { 2 n - 1 }$is defined, and by the same token a map $f _ { x _ { 1 } , \dots , x _ { n } } \colon S ^ { 2 n - 1 } / Z _ { m } \to B G$, which represents an element of$U _ { 2 n - 1 } ( B G )$. This element we denote by$\alpha _ { n } ( x _ { 1 } , \ldots , x _ { n } ) \in U _ { 2 n - 1 } ( B G )$. It is trivial to find$\alpha _ { n } ( 1 , \ldots , 1 )$ (“geometric bordism”) and to show that$\alpha _ { n } ( x _ { 1 } , \ldots , x _ { n } ) \neq 0$for all (invertible) $x _ { 1 } , \ldots , x _ { n } \in Z _ { m } { \mathrm { ~ ( s e e ~ } } [ 1 1 ] { \mathrm { ) } }$,
 
 $$
-\nu \alpha_ {n} (x _ {1}, \dots , x _ {n}) \neq 0, \quad \nu \colon U _ {*} \to H _ {*} (\mathbf {\Omega}, Z).
+\nu \alpha_ {n} (x _ {1}, \dots , x _ {n}) \neq 0, \quad \nu \colon U _ {*} \to H _ {*} (\, , Z).
 $$
 
 This question arises in connection with the Conner–Floyd approach to the study of fixed points (see [11]).
@@ -3696,9 +3635,9 @@ We recall the well-known result of Atiyah [7] that$K ^ { 1 } ( B G ) = 0$and$K ^
 
 We consider the ring$k ^ { * } ( P ) = \mathrm { H o m } _ { Z [ x ] } ^ { * } ( Z [ x ] , Z [ x ] ) = Z [ y ]$, dim$y = - 2$. We have
 
-Lemma 1. The$Z [ y ]$-module k<sup>∗</sup>(BG) for$G = Z _ { m }$is described as follows: a)$k ^ { 2 j + 1 } = 0$
+Lemma 1. The $Z[y]$-module $k^*(BG)$ for $G=Z_m$ is described as follows: a) $k^{2j+1}(BG)=0$.
 
-b)$k ^ { 2 j } ( B G )$is isomorphic to the subgroup of$k ^ { 0 } ( B G )$consisting of elements of filtration$\geq 2 j$, an this isomorphism is established by the Bott operator$y ^ { j } \colon$:
+b) $k^{2j}(BG)$ is isomorphic to the subgroup of $k^0(BG)$ consisting of elements of filtration $\geq2j$, and this isomorphism is established by the Bott operator $y^j$:
 
 $$
 k ^ {2 j} (B G) \to K ^ {0} (B G).
@@ -3716,7 +3655,7 @@ The proof of the lemma follows easily from the results mentioned about$K ^ { 0 }
 
 We denote the expression m$\Psi ^ { m } ( u )$by$\begin{array} { l } { { F _ { m } ( u ) } } \end{array} = \sum \binom { m } { k } ( - y ) ^ { k - 1 } u ^ { k }$. From Lemma 1 follows
 
-Lemma 2. The cell complex$S _ { k } ^ { * } ( B G ) = \mathrm { H o m } _ { Z [ x ] } ^ { * } ( S _ { k } , Z [ x ] )$of modules over$Z [ y ]$ is a ring with multiplicative generators (over$Z [ \dot { y } ] )  { v } ( o f$dimension (1)) and u$( o f$ dimension (2)) and additive basis$\{ y ^ { s } u ^ { n } , y ^ { q } v u ^ { l } \}$. The diferential d in this complex satisfies the Leibnitz formula, commutes with multiplication by y and has the form:
+Lemma 2. The cell complex$S _ { k } ^ { * } ( B G ) = \mathrm { H o m } _ { Z [ x ] } ^ { * } ( S _ { k } , Z [ x ] )$of modules over$Z [ y ]$ is a ring with multiplicative generators (over$Z [ \dot { y } ] )  { v } ( o f$dimension (1)) and u$( o f$ dimension (2)) and additive basis$\{ y ^ { s } u ^ { n } , y ^ { q } v u ^ { l } \}$. The differential d in this complex satisfies the Leibnitz formula, commutes with multiplication by y and has the form:
 
 $$
 d u = 0, \quad d v = F _ {m} (u).
@@ -3734,7 +3673,7 @@ $$
 \Lambda = U ^ {*} (P) = \mathrm{Hom} _ {\Omega_ {U}} ^ {*} (\Omega_ {U}, \Omega_ {U}),
 $$
 
-and let$S _ { I J } ^ { * } ( B G )$be the cell complex in$U ^ { * } .$-theory which is a complex of Λ-modules, with$\Lambda ^ { - 2 \breve { i } } = \Omega _ { I J } ^ { 2 \breve { i } }$
+and let $S_U^*(BG)$ be the cell complex in $U^*$-theory, which is a complex of $\Lambda$-modules, with $\Lambda^{-2i}=\Omega_U^{2i}$.
 
 With the help of the Conner–Floyd homomorphism$\sigma _ { 1 } \colon k ^ { 0 } \to U ^ { 2 } , k ^ { 0 } = K ^ { 0 }$, we obtain from Lemma 2
 
@@ -3744,13 +3683,13 @@ $$
 S _ {U} ^ {*} (B G) = \mathrm{Hom} _ {\Omega_ {U}} ^ {*} (S _ {U}, \Omega_ {U}),
 $$
 
-which is a complex of free Λ-modules,$\Lambda = U ^ { * } ( P )$, with diferential$d ,$is a ring with multiplicative generators v (of dimension (1)) and u (of dimension (2)) over $\Lambda ,$given in the following way:
+which is a complex of free Λ-modules,$\Lambda = U ^ { * } ( P )$, with differential$d ,$is a ring with multiplicative generators v (of dimension (1)) and u (of dimension (2)) over $\Lambda ,$given in the following way:
 
 $$
 v ^ {2} = 0, \quad d (v) = F _ {m, U} (u), \quad d (u) = 0.
 $$
 
-The complex$S _ { U } ( B G )$is isomorphic to Hom$\ v { D } _ { \Lambda } ^ { * } ( S _ { U } , \Lambda ) , \ G \ = \ Z _ { m }$, where$\begin{array} { r l } { \Omega _ { U } } & { { } = } \end{array}$ $\mathrm { H o m } _ { \Lambda } ^ { * } ( \Lambda , \Lambda )$. The complexes$S _ { U } ^ { * } \otimes _ { \Omega } Z [ x ]$and$S ^ { * } \otimes _ { \Omega } Z [ x , x ^ { - 1 } ]$are isomorphic, respectively, to the complexes$S _ { k } ^ { * } ( B G )$and$S _ { k } ^ { * } ( B G )$in k- and K-theories.
+The complex $S_U(BG)$ is isomorphic to $\operatorname{Hom}_\Lambda^*(S_U,\Lambda)$, $G=Z_m$, where $\Omega_U=\operatorname{Hom}_\Lambda^*(\Lambda,\Lambda)$. The complexes $S_U^*\otimes_{\Omega_U}Z[x]$ and $S_U^*\otimes_{\Omega_U}Z[x,x^{-1}]$ are isomorphic, respectively, to the complexes $S_k^*(BG)$ in $k$- and $K$-theories.
 
 We pass now to the automorphisms of the complex$B G \to B G$. Such automorphisms for$G = Z _ { m }$are completely determined by automorphisms of the group $Z _ { m } \to Z _ { m }$, which are multiplication by$k ,$where k is a unit in$Z _ { m }$
 
@@ -3812,7 +3751,7 @@ $$
 
 whence follows the theorem of Conner–Floyd–Atiyah: there does not exist a transformation T with one fixed point. For$p > 2$this is also true for real transformations $T ,$as can be seen from the analogous application of the theory$S O _ { * } \otimes Z [ 1 / 2 ]$
 
-We now pass to the question of calculating the function$\alpha _ { n } ( x _ { 1 } , \ldots , x _ { n } ) \ \in$ $U _ { 2 n - 1 } ( B Z _ { m } )$. We denote by$v _ { 2 n - 1 } \in { \cal U } _ { 2 n - 1 } ( B G )$the so-called “geometric bordism”$\alpha _ { n } ( 1 , \ldots , 1 )$. In the complex$S _ { U } ( B G )$described in Theorem$^ { 1 , }$the element $v _ { 2 n - 1 }$is adjoint to vu$\displaystyle { \mathrm { \Omega } ^ { n - 1 } \in S _ { U } ^ { * } ( B G ) }$, i.e.,$( v _ { 2 n - 1 } , v u ^ { n - 1 } ) = 1 , ( v _ { 2 n - 1 } , v u ^ { n - 1 + k } ) = 0$ for$k > 0$, where$x \in \Lambda ^ { * }$
+We now pass to the question of calculating the function $\alpha_n(x_1,\ldots,x_n)\in U_{2n-1}(BZ_m)$. We denote by $v_{2n-1}\in U_{2n-1}(BG)$ the so-called “geometric bordism” $\alpha_n(1,\ldots,1)$. In the complex $S_U(BG)$ described in Theorem 1, the element $v_{2n-1}$ is adjoint to $vu^{n-1}\in S_U^*(BG)$, i.e., $(v_{2n-1},vu^{n-1})=1$ and $(v_{2n-1},vu^{n-1+k})=0$ for $k>0$, where $x\in\Lambda^*$.
 
 We shall calculate the function$\alpha _ { n } ( x _ { 1 } , \ldots , x _ { n } )$by the following scheme:
 
@@ -3832,13 +3771,13 @@ $$
 \sum_ {j, s} \alpha_ {n} (x _ {1 j}, \dots , x _ {k j}, y _ {k + 1, s}, \dots , y _ {n, s}) \equiv 0 \mod B Z _ {m _ {1}}.
 $$
 
-This follows in an obvious way from the fact that transformations$T _ { 1 } \colon M ^ { k } \to M ^ { k }$ and$T _ { 2 } \colon M ^ { l } \to M ^ { l }$induce$( { \dot { T } } _ { 1 } , { T } _ { 2 } ) \colon M ^ { k } \times M ^ { n - k }$, where fixed points (and their orders) correspond to each other.
+This follows in an obvious way from the fact that transformations $T_1:M^k\to M^k$ and $T_2:M^l\to M^l$ induce $(T_1,T_2):M^k\times M^{n-k}$, where fixed points (and their orders) correspond to each other.
 
 3) If$\lambda _ { x } \colon B G \to B G$is induced by multiplication by$x \in Z _ { m } ^ { * }$, then$\alpha _ { n } ( x , \ldots , x ) =$ $\lambda _ { x , * } ( v _ { 2 n - 1 } )$, where the structure of$\lambda _ { x , }$<sub>∗</sub> is described in Theorem 2.
 
 As examples of the application of this scheme we shall indicate the following simple results:
 
-Lemma 4.$I f \nu \colon U _ { * } \to H _ { * } ( \mathbf { \Omega } , Z )$is the natural homomorphism, then we have the equation
+Lemma 4. If $\nu:U_*\to H_*(\ ,Z)$ is the natural homomorphism, then we have the equation
 
 $$
 \nu \alpha_ {n} (x _ {1}, \dots , x _ {n}) = (x _ {1}, \dots x _ {n}) \nu (v _ {2 n - 1}),
@@ -3878,7 +3817,7 @@ where the$x _ { s j }$are the orders at the point$P _ { j }$and$\sigma _ { k } (
 
 ## Appendix 5. The conjecture on the bigradation of algebraic functors in S-topology for all primes$p > 2$
 
-In the Introduction and also in$\ S \ S 2$the possibility was already discussed of the appearance of a new categorical invariant — an additional grading, connected with the Cartan type, in the Adams spectral sequence for ordinary cohomology mod$p ,$ $p > 2 ,$, from which it would follow (see the Introduction) that the homotopy groups in the category of torsion-free complexes could be formally computed algebraically by the theory of unitary cobordism. We shall formulate here more exactly the corresponding conjecture.
+In the Introduction and also in § 12 the possibility was already discussed of the appearance of a new categorical invariant—an additional grading, connected with the Cartan type, in the Adams spectral sequence for ordinary cohomology mod $p$, $p>2$, from which it would follow (see the Introduction) that the homotopy groups in the category of torsion-free complexes could be formally computed algebraically by the theory of unitary cobordism. We shall formulate here more exactly the corresponding conjecture.
 
 First of all, we shall go to the question of the category$S \otimes _ { Z } Q _ { p }$for$p > 2$. Let $K ( \pi ) \in S$be the spectrum$K ( \pi , n )$. The following fact is known (H. Cartan): the Steenrod algebra$A = H ^ { * } ( K ( Z _ { p } ) , Z _ { p } )$is bigraded:$A = \textstyle \sum A ^ { k , \beta }$, where dim$= k + \beta$ and$\beta$is the type.
 
@@ -3922,7 +3861,7 @@ $$
 
 This means two things: a) the triviality of the Adams spectral sequence constructed by the author in the theory of U-cobordism; b) the absence of extensions in the term$E _ { \infty } = E _ { 2 }$
 
-3. For$p = 2 ,$, the conjecture in such a simple form is trivially false. {In the spectral sequence for the stable groups of spheres, all powers$\eta ^ { k } \neq { \dot { 0 } }$for an element η representing the Hopf map in$\pi _ { 1 } ( S )$, hence$\eta ^ { k }$for$k \geq 4$must be killed of by diferentials.}
+3. For $p=2$, the conjecture in such a simple form is trivially false. {In the spectral sequence for the stable groups of spheres, all powers $\eta^k\ne0$ for an element $\eta$ representing the Hopf map in $\pi_1(S)$, hence $\eta^k$ for $k\geq4$ must be killed by differentials.}
 
 4. The classical Adams spectral sequence with second term$\begin{array} { r l } { E _ { 2 } ^ { s , k , \beta } } & { { } = } \end{array}$ E$\mathfrak { t } _ { A } ^ { s , k , \beta } ( H ^ { * * } ( X ) , Z _ { p } )$for$X \in S _ { g r }$is arranged as follows:
 
@@ -3930,7 +3869,7 @@ $$
 d _ {r} \colon E _ {r} ^ {s, k, \beta} \to E _ {r} ^ {s + r, k, \beta + r - 1}.
 $$
 
-We note that$h _ { 0 } \in \mathrm { E x t } _ { A } ^ { 1 , 0 , 1 } ( Z _ { p } , Z _ { p } )$is associated with multiplication by p (ordinarily we have$h _ { 0 } \in \operatorname { E x t } _ { A } ^ { 1 , 1 } )$. Here, the dimension difers slightly from that described in § 12 by a simple linear substitution.
+We note that$h _ { 0 } \in \mathrm { E x t } _ { A } ^ { 1 , 0 , 1 } ( Z _ { p } , Z _ { p } )$is associated with multiplication by p (ordinarily we have$h _ { 0 } \in \operatorname { E x t } _ { A } ^ { 1 , 1 } )$. Here, the dimension differs slightly from that described in § 12 by a simple linear substitution.
 
 Examples of bigradation (the simplest). Let$X = K ( Z ) + E K ( Z )$and $Y = K ( Z _ { p ^ { q } } )$. From the ordinary point of view we have:
 
@@ -3942,17 +3881,17 @@ where dim$u = 0$and dim$v = 1$. However, for X the ordinary Adams spectral seque
 
 From our point of view the situation is thus:
 
-a$) \ H ^ { * * } ( X , Z _ { p } ) = A / A \beta ( u ) + A / A \beta ( v )$, where$u \in H ^ { 0 , 0 } , v \in H ^ { 0 , 1 }$. Hence$u ^ { \ast } \in$ $\mathrm { E x t } _ { A } ^ { 0 , 0 , 0 } , v ^ { * } \in \bar { \mathrm { E x t } } _ { A } ^ { 0 , 1 , 0 }$and$h _ { \boldsymbol { \Omega } } ^ { q } u ^ { * } \in \mathrm { E x t } ^ { q , q , 0 }$; by dimensional considerations,$d _ { q } ( v ^ { \ast } ) \in$ $\mathrm { E x t } _ { A } ^ { \bar { q } , 1 , q - 1 }$, and$\mathrm { E x t } _ { a } ^ { q , 1 , q - 1 } = 0$
+a) $H^{**}(X,Z_p)=A/A\beta(u)+A/A\beta(v)$, where $u\in H^{0,0}$ and $v\in H^{0,1}$. Hence $u^*\in\operatorname{Ext}_A^{0,0,0}$, $v^*\in\operatorname{Ext}_A^{0,1,0}$, and $h_0^q u^*\in\operatorname{Ext}_A^{q,q,0}$; by dimensional considerations, $d_q(v^*)\in\operatorname{Ext}_A^{q,1,q-1}$, and $\operatorname{Ext}_A^{q,1,q-1}=0$.
 
 b)$H ^ { * * } ( Y , Z _ { p } ) = A / A \beta ( u ) + A / A \beta ( v ) , u \in H ^ { 0 , 0 } , v \in H ^ { 0 , 1 }$, then$u ^ { * } \in \mathrm { E x t } _ { A } ^ { 0 , 0 , 0 }$ and$v ^ { * } \in \mathrm { E x t } _ { A } ^ { 0 , 0 , 1 } , d _ { i } v ^ { * } \neq 0$for$i = q$
 
 Besides the facts indicated earlier, there are subtler circumstances which corroborate the conjecture:
 
-1. From the results of the author’s series of papers on the J-homomorphism $J _ { * } \subset \pi _ { * } ( S ^ { N } )$and the results of the present paper, it follows that$\mathrm { E x t } _ { A ^ { U } } ^ { 1 , * } ( \Lambda , \Lambda ) \otimes _ { Z } Q _ { p }$ consists$\left( \operatorname { f o r } p > 2 \right)$of cycles for all diferentials, while elements of$\mathrm { E x t } _ { A ^ { U } } ^ { \bar { 1 } , * }$are realized by elements of$\pi _ { * } ^ { ( p ) } ( S ^ { N } )$of the same order; moreover,$\pi _ { * } ^ { ( p ) } ( S ^ { N } ) \stackrel {  } { = } \mathrm { E x t } _ { A ^ { U } } ^ { 1 , * } + \dots .$ where Ext$\ v { U } ^ { 1 , * } = \ v { U } J _ { * } \otimes _ { Z } \ v { Q } Q _ { p }$
+1. From the results of the author’s series of papers on the $J$-homomorphism $J_*\subset\pi_*(S^N)$ and the results of the present paper, it follows that $\operatorname{Ext}_{A^U}^{1,*}(\Lambda,\Lambda)\otimes_ZQ_p$ consists (for $p>2$) of cycles for all differentials, while elements of $\operatorname{Ext}_{A^U}^{1,*}$ are realized by elements of $\pi_*^{(p)}(S^N)$ of the same order; moreover, $\pi_*^{(p)}(S^N)=\operatorname{Ext}_{A^U}^{1,*}+\cdots$, where $\operatorname{Ext}^{1,*}=J_*\otimes_ZQ_p$.
 
-2. The Adams spectral sequence in U-theory would not have to be trivial from dimensional considerations (obviously, only$d _ { i }$is zero for$i - 1 \equiv 0$mod$2 p - 2 )$ There first appears an element$x \ \in \ \mathrm { E x t } _ { A ^ { U } } ^ { 2 , 2 p ^ { 2 } ( p - 1 ) }$where$d _ { 2 p - 1 } ( x ) \ = \ ?$, since $\mathrm { E x t } _ { A U } ^ { 2 p + 1 , 2 p ^ { 2 } ( p - 1 ) + 2 p - 2 } \neq 0$. In reality, these elements in U-theory are “inherited” from ordinary cohomology theory$H ^ { * } ( \mathbf { \Omega } , Z _ { p } )$together with the question about $d _ { 2 p - 1 } ( x )$. A few years ago L. N. Ivanovski˘ı informed the author that with the help of partial operations of Adams type he had succeeded in showing that$d _ { 2 p - 1 } ( x ) = 0$ for$p > 3 \ ( ? )$. However, neither Ivanovski˘ı nor the author were able to verify this calculation, and hence this fact remained obscure. Recently Peterson informed the author that it has only recently been proved by the young American topologist Cohen [25] for all$p \geq 3$(more exactly, the analogue of this question in the classical theory, from which, of course, it follows).
+2. The Adams spectral sequence in $U$-theory would not have to be trivial from dimensional considerations (obviously, only $d_i$ is zero for $i-1\equiv0\pmod{2p-2}$). There first appears an element $x\in\operatorname{Ext}_{A^U}^{2,2p^2(p-1)}$ where $d_{2p-1}(x)=?$, since $\operatorname{Ext}_{A^U}^{2p+1,2p^2(p-1)+2p-2}\ne0$. In reality, these elements in $U$-theory are “inherited” from ordinary cohomology theory $H^*(\ ,Z_p)$ together with the question about $d_{2p-1}(x)$. A few years ago L. N. Ivanovskiĭ informed the author that with the help of partial operations of Adams type he had succeeded in showing that $d_{2p-1}(x)=0$ for $p>3$ (?). However, neither Ivanovskiĭ nor the author were able to verify this calculation, and hence this fact remained obscure. Recently Peterson informed the author that it has only recently been proved by the young American topologist Cohen [25] for all $p\geq3$ (more exactly, the analogue of this question in the classical theory, from which, of course, it follows).
 
-3. The fact that the “algebraic” Adams spectral sequence associated with the “topological” one, which begins with$E _ { 2 } = \mathrm { E x t } _ { A } ^ { * * * * } ( Z _ { p } , Z _ { p } )$and converges to $\mathrm { E x t } _ { A ^ { U } } ^ { * * } ( \Lambda , \Lambda ) \otimes _ { Z } Q _ { p }$(see § 12), is algebraically well-defined, is non-trivial a priori. The situation here is that if for some spectral sequence$( E _ { r } , d _ { r } )$we consider the complementary filtration in$E _ { 2 }$and define on all the$\bar { E } _ { r }$associated diferentials ${ \bar { d } } _ { r } .$then very often the$\bar { d } _ { r }$are not included in a well-defined spectral sequence (of algebras). Hence the fact of such a well-defined inclusion is in our case an extra geometric argument for the existence of an invariant second grading in the subcategory $S _ { g r } \subset S \otimes _ { Z } Q _ { p } .$
+3. The fact that the “algebraic” Adams spectral sequence associated with the “topological” one, which begins with$E _ { 2 } = \mathrm { E x t } _ { A } ^ { * * * * } ( Z _ { p } , Z _ { p } )$and converges to $\mathrm { E x t } _ { A ^ { U } } ^ { * * } ( \Lambda , \Lambda ) \otimes _ { Z } Q _ { p }$(see § 12), is algebraically well-defined, is non-trivial a priori. The situation here is that if for some spectral sequence$( E _ { r } , d _ { r } )$we consider the complementary filtration in$E _ { 2 }$and define on all the$\bar { E } _ { r }$associated differentials ${ \bar { d } } _ { r } .$then very often the$\bar { d } _ { r }$are not included in a well-defined spectral sequence (of algebras). Hence the fact of such a well-defined inclusion is in our case an extra geometric argument for the existence of an invariant second grading in the subcategory $S _ { g r } \subset S \otimes _ { Z } Q _ { p } .$
 
 ## References
 
@@ -3968,9 +3907,9 @@ Besides the facts indicated earlier, there are subtler circumstances which corro
 
 [6] , Thom complexes, Proc. London Math. Soc. (3) 11 (1961), 291-310. MR 24 #A1727.
 
-[7], Characters and cohomology of finite groups, Inst. Hautes Etudes Sci. Publ. Math.<sup>´</sup> No. 9 (1961), 23-64. MR 26 #6228.
+[7], Characters and cohomology of finite groups, Inst. Hautes Etudes Sci. Publ. Math. No. 9 (1961), 23-64. MR 26 #6228.
 
-[8] M. F. Atiyah and F. Hirzebruch, Riemann–Roch theorems for diferentiable manifolds, Bull. Amer. Math. Soc. 65 (1959), 276-281. MR 22 #989.
+[8] M. F. Atiyah and F. Hirzebruch, Riemann–Roch theorems for differentiable manifolds, Bull. Amer. Math. Soc. 65 (1959), 276-281. MR 22 #989.
 
 [9] D. W. Anderson, E. Brown and F. Peterson, SU-cobordism, KO-characteristic numbers and the Kervaire invariant, Ann. of Math. (2) 83 (1966), 54-67. MR 32 #6470.
 
@@ -4000,7 +3939,7 @@ Besides the facts indicated earlier, there are subtler circumstances which corro
 
 [22] R. Stong, Relations among characteristic numbers. I, Topology 4 (1965), 267-281. MR 33 #740.
 
-[23] C. T. C. Wall, Determination of the cobordism ring, Ann. of Math. 72 (I960), 292-311. MR 22 #11403.
+[23] C. T. C. Wall, Determination of the cobordism ring, Ann. of Math. 72 (1960), 292-311. MR 22 #11403.
 
 [24] S. P. Novikov, Cohomology of the Steenrod algebra, Dokl. Akad. Nauk SSSR 128 (1959), 893-895 (Russian). MR 22 #1889.
 
