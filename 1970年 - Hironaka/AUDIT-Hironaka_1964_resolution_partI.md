@@ -598,3 +598,10 @@
 - 证据：源 PDF p.083 文本层、页图 `audit/Hironaka_1964_resolution_partI_p083.png`、嵌入的分次模交换图 `images/page_82_image_1.jpg` 与 MinerU Markdown 第 1709–1745 行。图中各商、嵌入、投影与 graded pieces 和原页交换图对应；Lemma 5 的 graded-module exact sequence、Lemma 6 的初始形式生成条件及 Nakayama/完备性论证、Lemma 7 的前提与初始公式均与印刷页相符。
 - 备注：印刷运行页眉和页码 190 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.084 / 96（印刷 p.191）— PASS±
+
+- 时间：2026-10-02 05:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.084 文本层、页图 `audit/Hironaka_1964_resolution_partI_p084.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p084_Lemma7_proof.png` 与 MinerU Markdown 第 1735–1775 行。Lemma 7 的参数系统、`\bar{R}[Z]`/`K[Z,Y]` 多项式环表示、待证交式、$\nu+n\geq\mu\geq\nu$ 的阶估计、$\psi$ 分解和系数次数界均与原页对应；脚注 41 正文亦对应。
+- 备注：印刷运行页眉和页码 191 未录入 Markdown，属导航元素省略。
+- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
