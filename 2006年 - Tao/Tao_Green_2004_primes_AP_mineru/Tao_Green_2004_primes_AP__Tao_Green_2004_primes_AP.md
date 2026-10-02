@@ -10,7 +10,7 @@ There are three major ingredients. The first is Szemer´edi’s theorem, which a
 
 It is a well-known conjecture that there are arbitrarily long arithmetic progressions of prime numbers. The conjecture is best described as “classical”, or maybe even “folklore”. In Dickson’s History it is stated that around 1770 Lagrange and Waring investigated how large the common diference of an arithmetic progression of L primes must be, and it is hard to imagine that they did not at least wonder whether their results were sharp for all L.
 
-It is not surprising that the conjecture should have been made, since a simple heuristic based on the prime number theorem would suggest that there are$\gg \bar { N ^ { 2 } } / \log ^ { k }$N ktuples of primes$p _ { 1 } , \ldots , p _ { k }$in arithmetic progression, each$p _ { i }$being at most N. Hardy and Littlewood [24], in their famous paper of 1923, advanced a very general conjecture which, as a special case, contains the hypothesis that the number of such k-term progressions is asymptotically$C _ { k } N ^ { 2 } / \log ^ { k } { N }$for a certain explicit numerical factor$C _ { k } > 0$(we do not come close to establishing this conjecture here, obtaining instead a lower bound $( \gamma ( k ) + o ( 1 ) ) N ^ { 2 } / \log ^ { k } N$for some very small$\gamma ( k ) > 0 )$
+It is not surprising that the conjecture should have been made, since a simple heuristic based on the prime number theorem would suggest that there are $\gg N^2/\log^k N$ k-tuples of primes $p_1,\ldots,p_k$ in arithmetic progression, each $p_i$ being at most N. Hardy and Littlewood [24], in their famous paper of 1923, advanced a very general conjecture which, as a special case, contains the hypothesis that the number of such k-term progressions is asymptotically$C _ { k } N ^ { 2 } / \log ^ { k } { N }$for a certain explicit numerical factor$C _ { k } > 0$(we do not come close to establishing this conjecture here, obtaining instead a lower bound $( \gamma ( k ) + o ( 1 ) ) N ^ { 2 } / \log ^ { k } N$for some very small$\gamma ( k ) > 0 )$
 
 The first theoretical progress on these conjectures was made by van der Corput [42] (see also [8]) who, in 1939, used Vinogradov’s method of prime number sums to establish the case$k = 3$, that is to say that there are infinitely many triples of primes in arithmetic progression. However, the question of longer arithmetic progressions seems to have remained completely open (except for upper bounds), even for$k = 4$. On the other hand, it has been known for some time that better results can be obtained if one replaces the primes with a slightly larger set of almost primes. The most impressive such result is due to Heath-Brown [25]. He showed that there are infinitely many 4-term progressions consisting of three primes and a number which is either prime or a product of two primes. In a somewhat diferent direction, let us mention the beautiful results of Balog [2, 3]. Among other things he shows that for any m there are m distinct primes $p _ { 1 } , \ldots , p _ { m }$such that all of the averages${ \frac { 1 } { 2 } } ( p _ { i } + p _ { j } )$are prime.
 
@@ -21,13 +21,13 @@ The first theoretical progress on these conjectures was made by van der Corput [
 The problem of finding long arithmetic progressions in the primes has also attracted the interest of computational mathematicians. At the time of writing the longest known arithmetic progression of primes is of length 23, and was found in 2004 by Markus Frind, Paul Underwood, and Paul Jobling:
 
 $$
-5 6 2 1 1 3 8 3 7 6 0 3 9 7 + 4 4 5 4 6 7 3 8 0 9 5 8 6 0 k; \quad k = 0, 1, \dots , 2 2.
+56211383760397 + 44546738095860k; \quad k = 0, 1, \dots , 22.
 $$
 
 An earlier arithmetic progression of primes of length 22 was found by Moran, Pritchard and Thyssen [32]:
 
 $$
-1 1 4 1 0 3 3 7 8 5 0 5 5 3 + 4 6 0 9 0 9 8 6 9 4 2 0 0 k; \quad k = 0, 1, \dots , 2 1.
+11410337850553 + 4609098694200k; \quad k = 0, 1, \dots , 21.
 $$
 
 Our main theorem resolves the above conjecture.
@@ -36,9 +36,9 @@ Theorem 1.1. The prime numbers contain infinitely many arithmetic progressions o
 
 In fact, we can say something a little stronger:
 
-Theorem 1.2 (Szemer´edi’s theorem in the primes). Let A be any subset of the prime numbers of positive relative upper density, thus lim sup$\stackrel { , } { \phantom { = } } _ { N \longrightarrow \infty } \pi ( N ) ^ { - 1 } | A \cap [ 1 , N ] | > 0$ where$\pi ( N )$denotes the number of primes less than or equal to N. Then A contains infinitely many arithmetic progressions of length k for all k.
+Theorem 1.2 (Szemer´edi’s theorem in the primes). Let A be any subset of the prime numbers of positive relative upper density, thus $\limsup_{N\to\infty}\pi(N)^{-1}|A\cap[1,N]|>0$, where$\pi ( N )$denotes the number of primes less than or equal to N. Then A contains infinitely many arithmetic progressions of length k for all k.
 
-If one replaces “primes” in the statement of Theorem 1.2 by the set of all positive integers Z<sup>+</sup>, then this is a famous theorem of Szemer´edi [38]. The special case$k = 3$of Theorem 1.2 was recently established by the first author [21] using methods of Fourier analysis. In contrast, our methods here have a more ergodic theory flavour and do not involve much Fourier analysis (though the argument does rely on Szemer´edi’s theorem which can be proven by either combinatorial, ergodic theory, or Fourier analysis arguments). We also remark that if the primes were replaced by a random subset of the integers, with density at least$N ^ { - 1 / 2 + \bar { \varepsilon } }$on each interval [1, N], then the$k = 3$case of the above theorem was established in [30].
+If one replaces “primes” in the statement of Theorem 1.2 by the set of all positive integers Z<sup>+</sup>, then this is a famous theorem of Szemer´edi [38]. The special case$k = 3$of Theorem 1.2 was recently established by the first author [21] using methods of Fourier analysis. In contrast, our methods here have a more ergodic theory flavour and do not involve much Fourier analysis (though the argument does rely on Szemer´edi’s theorem which can be proven by either combinatorial, ergodic theory, or Fourier analysis arguments). We also remark that if the primes were replaced by a random subset of the integers, with density at least $N^{-1/2+\varepsilon}$ on each interval [1,N], then the$k = 3$case of the above theorem was established in [30].
 
 Acknowledgements The authors would like to thank Jean Bourgain, Enrico Bombieri, Tim Gowers, Bryna Kra, Elon Lindenstrauss, Imre Ruzsa, Roman Sasyk, Peter Sarnak and Kannan Soundararajan for helpful conversations. We are particularly indebted to Andrew Granville for drawing our attention to the work of Goldston and Yıldırım, and to Dan Goldston for making the preprint [17] available. We are also indebted to Yong-Gao Chen and his students, Bryna Kra, Jamie Radclife, Lior Silberman and Mark Watkins for corrections to earlier versions of the manuscript. We are particularly indebted to the anonymous referees for a very thorough reading and many helpful corrections and suggestions, which have been incorporated into this version of the paper. Portions of this work were completed while the first author was visiting UCLA and Universit´e de Montr´eal, and he would like to thank these institutions for their hospitality. He would also like to thank Trinity College, Cambridge for support over several years.
 
@@ -60,7 +60,7 @@ $$
 N _ {0} (\delta , k) \leqslant 2 ^ {c _ {k} \delta^ {- 1}}\tag{2.1}
 $$
 
-(there is a trick, namely passing to a subprogression of common diference$2 \times 3 \times 5 \times$ $\cdots \times w ( N )$for appropriate$w ( N )$, which allows one to consider the primes as a set of density essentially log log$N /$log N rather than 1/ log$N ;$; we will use a variant of this $^ { \mathrm { 6 6 } } W \mathrm { - t r i c k } ^ { \mathrm { 3 } }$later in this paper to eliminate local irregularities arising from small divisors). In our proof of Theorem 1.2, we will need to use Szemer´edi’s theorem, but we will not need any quantitative estimimates on$N _ { 0 } ( \delta , k )$
+(there is a trick, namely passing to a subprogression of common diference$2 \times 3 \times 5 \times$ $\cdots \times w ( N )$for appropriate$w ( N )$, which allows one to consider the primes as a set of density essentially log log$N /$log N rather than 1/ log$N ;$; we will use a variant of this “W-trick” later in this paper to eliminate local irregularities arising from small divisors). In our proof of Theorem 1.2, we will need to use Szemer´edi’s theorem, but we will not need any quantitative estimimates on$N _ { 0 } ( \delta , k )$
 
 Let us state, for contrast, the best known lower bound which is due to Rankin [35] (see also Lacey- Laba [31]):
 
@@ -68,7 +68,7 @@ $$
 N _ {0} (\delta , k) \geqslant \exp (C (\log 1 / \delta) ^ {1 + \lfloor \log_ {2} (k - 1) \rfloor}).
 $$
 
-At the moment it is clear that a substantial new idea would be required to obtain a result of the strength (2.1). In fact, even for$k = 3$the best bound is$\hat { N _ { 0 } } ( \delta , 3 ) \leqslant 2 ^ { C \delta ^ { - 2 } \log ( 1 / \delta ) }$, a result of Bourgain [6]. The hypothetical bound (2.1) is closely related to the following very open conjecture of Erd˝os:
+At the moment it is clear that a substantial new idea would be required to obtain a result of the strength (2.1). In fact, even for$k = 3$the best bound is$N _ { 0 } ( \delta , 3 ) \leqslant 2 ^ { C \delta ^ { - 2 } \log ( 1 / \delta ) }$, a result of Bourgain [6]. The hypothetical bound (2.1) is closely related to the following very open conjecture of Erd˝os:
 
 Conjecture 2.2 (Erd˝os conjecture on arithmetic progressions). Suppose that$A = \{ a _ { 1 } <$ $a _ { 2 } < \ldots \}$is an infinite sequence of integers such that$\textstyle \sum 1 / a _ { i } = \infty$. Then A contains arbitrarily long arithmetic progressions.
 
@@ -76,17 +76,7 @@ This would imply Theorem 1.1.
 
 We do not make progress on any of these issues here. In one sentence, our argument can be described instead as a transference principle which allows us to deduce Theorems
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ZN</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">[−N, N],</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>N</sub> ,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">2, 3, . . . , k</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>N</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We will retain this notation throughout the paper, thus Z<sub>N</sub> will never refer to the N-adics. We always assume for convenience that N is prime. It is very convenient to work in rather than the more traditional since we are free to divide by and it is possible to make linear changes of variables without worrying about the ranges of summation. There is a slight price to pay for this, in that one must now address some “wraparound” issues when identifying with a subset of the integers, but these will be easily dealt with.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>1</sup>We will retain this notation throughout the paper, thus $\mathbb{Z}_N$ will never refer to the N-adics. We always assume for convenience that N is prime. It is very convenient to work in $\mathbb{Z}_N$, rather than the more traditional $[-N,N]$, since we are free to divide by $2,3,\ldots,k$ and it is possible to make linear changes of variables without worrying about the ranges of summation. There is a slight price to pay for this, in that one must now address some “wraparound” issues when identifying $\mathbb{Z}_N$ with a subset of the integers, but these will be easily dealt with.</span></small>
 
 1.1 and 1.2 from Szemer´edi’s theorem, regardless of what bound we know for$N _ { 0 } ( \delta , k )$ in fact we prove a more general statement in Theorem 3.5 below. Thus, in this paper, we must assume Szemer´edi’s theorem. However with this one (rather large!) caveat<sup>2</sup> our paper is self-contained.
 
@@ -134,13 +124,9 @@ Once Proposition 3.5 is proved, we turn to the issue of finding primes in AP. A 
 
 However, all we need is a measure ν which (after rescaling by at most a constant factor) majorises$\Lambda$pointwise. Then, (2.3) will be satisfied with$f = \Lambda$. Such a measure is provided to us<sup>5</sup> by recent work of Goldston and Yıldırım [17] concerning the size of gaps between primes. The proof that the linear forms condition and the correlation condition are satisfied is heavily based on their work, so much so that parts of the argument are placed in an appendix.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">νconst</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>The term normalized probability density might be more accurate here, but measure has the advantage of brevity. One may think of $\nu_{\mathrm{const}}$ as the uniform probability distribution on $\mathbb{Z}_N$, and $\nu$ as some other probability distribution which can concentrate on a subset of $\mathbb{Z}_N$ of very small density (e.g. it may concentrate on the “almost primes” in $[1,N]$).</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z<sub>N</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>4</sup>The term normalized probability density might be more accurate here, but measure has the advantage of brevity. One may think of ν<sub>const</sub> as the uniform probability distribution on  and ν as someZ<sub>N</sub> , other probability distribution which can concentrate on a subset of of very small density (e.g. it may concentrate on the “almost primes” in [1, N]).</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>Actually, there is an extra technicality which is caused by the very irregular distribution of primes in arithmetic progressions to small moduli (there are no primes congruent to 4(mod 6), for example). We get around this using something which we refer to as the W-trick, which basically consists of restricting the primes to the arithmetic progression n ≡ 1(mod W), where and<sup>W</sup> <sup>=</sup> Qp<w(N) <sup>p</sup>w(N) tends slowly to infinity with N. Although this looks like a trick, it is actually an extremely important feature of that part of our argument which concerns primes.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>5</sup>Actually, there is an extra technicality which is caused by the very irregular distribution of primes in arithmetic progressions to small moduli (there are no primes congruent to 4(mod 6), for example). We get around this using something which we refer to as the W-trick, which basically consists of restricting the primes to the arithmetic progression $n\equiv1\pmod W$, where $W=\prod_{p<w(N)}p$ and $w(N)$ tends slowly to infinity with N. Although this looks like a trick, it is actually an extremely important feature of that part of our argument which concerns primes.</span></small>
 
 The idea of using a majorant to study the primes is by no means new – indeed in some sense sieve theory is precisely the study of such objects. For another use of a majorant in an additive-combinatorial setting, see [33, 34].
 
@@ -158,7 +144,7 @@ The contribution of the Gowers-uniform part to the count (2.5) will be negligibl
 
 ## 3. Pseudorandom measures
 
-In this section we specify exactly what we mean by a pseudorandom measure on$\mathbb { Z } _ { N }$ First, however, we set up some notation. We fix the length k of the arithmetic progressions we are seeking.$N = \left| \mathbb { Z } _ { N } \right|$will always be assumed to be prime and large (in particular, we can invert any of the numbers$1 , \ldots , k \mathrm { ~ i n ~ } \mathbb { Z } _ { N } )$, and we will write$o ( 1 )$for a quantity that tends to zero as$N  \infty$. We will write$O ( 1 )$for a bounded quantity. Sometimes quantities of this type will tend to zero (resp. be bounded) in a way that depends on some other, typically fixed, parameters. If there is any danger of confusion as to what is being proved, we will indicate such dependence using subscripts, thus for instance$O _ { j , \varepsilon } ( 1 )$denotes a quantity whose magnitude is bounded by$C ( j , \varepsilon )$for some quantity$C ( j , \varepsilon ) > 0$depending only$j , \varepsilon .$. Since every quantity in this paper will depend on$k _ { : }$, however, we will not bother indicating the k dependence throughout this paper. $\mathrm { A s }$is customary we often abbreviate$O ( 1 ) X$and$o ( 1 ) X$as$O ( X )$and$o ( X )$respectively for various non-negative quantities$X$
+In this section we specify exactly what we mean by a pseudorandom measure on$\mathbb { Z } _ { N }$ First, however, we set up some notation. We fix the length k of the arithmetic progressions we are seeking.$N = \left| \mathbb { Z } _ { N } \right|$will always be assumed to be prime and large (in particular, we can invert any of the numbers$1 , \ldots , k \mathrm { ~ i n ~ } \mathbb { Z } _ { N } )$, and we will write$o ( 1 )$for a quantity that tends to zero as $N\to\infty$. We will write$O ( 1 )$for a bounded quantity. Sometimes quantities of this type will tend to zero (resp. be bounded) in a way that depends on some other, typically fixed, parameters. If there is any danger of confusion as to what is being proved, we will indicate such dependence using subscripts, thus for instance$O _ { j , \varepsilon } ( 1 )$denotes a quantity whose magnitude is bounded by$C ( j , \varepsilon )$for some quantity$C ( j , \varepsilon ) > 0$depending only$j , \varepsilon .$. Since every quantity in this paper will depend on$k _ { : }$, however, we will not bother indicating the k dependence throughout this paper. $\mathrm { A s }$is customary we often abbreviate$O ( 1 ) X$and$o ( 1 ) X$as$O ( X )$and$o ( X )$respectively for various non-negative quantities$X$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>6</sup>Analogous objects have recently surfaced in the genuinely ergodic-theoretical work of Host and Kra [27, 28, 29] concerning non-conventional ergodic averages, thus enhancing the connection between ergodic theory and additive number theory.</span></small>
 
@@ -166,7 +152,7 @@ In this section we specify exactly what we mean by a pseudorandom measure on$\ma
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>8</sup>Using the language of ergodic theory, we are essentially claiming that the Gowers anti-uniform functions form a characteristic factor for the expression (2.5). The point is that even though f is not necessarily bounded uniformly, the fact that it is bounded pointwise by a pseudorandom measure ν allows us to conclude that the projection of f to the Gowers anti-uniform component is bounded, at which point we can invoke the standard Szemer´edi theorem.</span></small>
 
-If A is a finite non-empty set (for us A is usually just$\mathbb { Z } _ { N } )$and$f : A  \mathbb { R }$is a function, we write$\mathbb { E } ( f ) : = \mathbb { E } ( f ( x ) | x \in A )$for the average value of$f _ { \cdot }$, that is to say
+If A is a finite non-empty set (for us A is usually just$\mathbb { Z } _ { N } )$and$f : A \to \mathbb { R }$is a function, we write$\mathbb { E } ( f ) : = \mathbb { E } ( f ( x ) | x \in A )$for the average value of$f _ { \cdot }$, that is to say
 
 $$
 \mathbb {E} (f) := \frac {1}{| A |} \sum_ {x \in A} f (x).
@@ -206,11 +192,11 @@ $$
 \begin{array}{r l} & {\mathbb {E} \bigg (\nu ((x - y) / 2) \nu ((x - y + h _ {2}) / 2) \nu (- y) \nu (- y - h _ {1}) \times} \\ & {\qquad \times \nu ((x - y ^ {\prime}) / 2) \nu ((x - y ^ {\prime} + h _ {2}) / 2) \nu (- y ^ {\prime}) \nu (- y ^ {\prime} - h _ {1}) \times} \\ & {\qquad \times \nu (x) \nu (x + h _ {1}) \nu (x + h _ {2}) \nu (x + h _ {1} + h _ {2})   \Big |   x, h _ {1}, h _ {2}, y, y ^ {\prime} \in \mathbb {Z} _ {N} \bigg)} \\ & {\qquad = 1 + o (1)} \end{array}\tag{3.4}
 $$
 
-(here$( m _ { 0 } , t _ { 0 } , L _ { 0 } ) = ( 1 2 , 5 , 2 ) )$. For those readers familiar with the Gowers uniformity norms$U ^ { k - 1 }$(which we shall discuss in detail later), the example (3.2) demonstrates that ν is close to 1 in the$U ^ { 2 }$norm (see Lemma 5.2). Similarly, the linear forms condition with appropriately many parameters implies that ν is close to 1 in the$U ^ { d }$norm, for any fixed$d \geqslant 2$. However, the linear forms condition is much stronger than simply asserting that$\| \nu - 1 \| _ { U ^ { d } }$is small for various d.
+(here$( m _ { 0 } , t _ { 0 } , L _ { 0 } ) = ( 12 , 5 , 2 ) )$. For those readers familiar with the Gowers uniformity norms$U ^ { k - 1 }$(which we shall discuss in detail later), the example (3.2) demonstrates that ν is close to 1 in the$U ^ { 2 }$norm (see Lemma 5.2). Similarly, the linear forms condition with appropriately many parameters implies that ν is close to 1 in the$U ^ { d }$norm, for any fixed$d \geqslant 2$. However, the linear forms condition is much stronger than simply asserting that$\| \nu - 1 \| _ { U ^ { d } }$is small for various d.
 
-For the application to the primes, the measure ν will be constructed using truncated divisor sums, and the linear forms condition will be deduced from some arguments of Goldston and Yıldırım. From a probabilistic point of view, the linear forms condition is asserting a type of joint independence between the “random variables”$\nu ( \psi _ { j } ( \mathbf { x } ) )$; in the application to the primes, ν will be concentrated on the “almost primes”, and the linear forms condition is then saying that the events${ \bf \ddot { \boldsymbol { \psi } } } _ { j } ( { \bf x } )$is almost prime” are essentially independent of each other as j varies<sup>9</sup>.
+For the application to the primes, the measure ν will be constructed using truncated divisor sums, and the linear forms condition will be deduced from some arguments of Goldston and Yıldırım. From a probabilistic point of view, the linear forms condition is asserting a type of joint independence between the “random variables” $\nu(\psi_j(\mathbf{x}))$; in the application to the primes, ν will be concentrated on the “almost primes”, and the linear forms condition is then saying that the events “$\psi_j(\mathbf{x})$ is almost prime” are essentially independent of each other as j varies<sup>9</sup>.
 
-Definition 3.2 (Correlation condition). Let$\nu : \mathbb { Z } _ { N } \to \mathbb { R } ^ { + }$be a measure, and let$m _ { 0 }$be a positive integer parameter. We say that ν satisfies the$m _ { 0 ^ { - } }$correlation condition if for every$1 < m \leqslant m _ { 0 }$there exists a weight function$\tau = \tau _ { m } : \mathbb { Z } _ { N } \longrightarrow \mathbb { R } ^ { + }$which obeys the moment conditions
+Definition 3.2 (Correlation condition). Let$\nu : \mathbb { Z } _ { N } \to \mathbb { R } ^ { + }$be a measure, and let$m _ { 0 }$be a positive integer parameter. We say that ν satisfies the$m _ { 0 }$-correlation condition if for every$1 < m \leqslant m _ { 0 }$there exists a weight function$\tau = \tau _ { m } : \mathbb { Z } _ { N } \longrightarrow \mathbb { R } ^ { + }$which obeys the moment conditions
 
 $$
 \mathbb {E} (\tau^ {q}) = O _ {m, q} (1)\tag{3.5}
@@ -226,29 +212,13 @@ for all$h _ { 1 } , \ldots , h _ { m } \in \mathbb { Z } _ { N }$(not necessaril
 
 Remarks. The condition (3.6) may look a little strange, since if ν were to be chosen randomly then we would expect such a condition to hold with$1 + o ( 1 )$on the righthand side, at least when$h _ { 1 } , \ldots , h _ { m }$are distinct. Note that one cannot use the linear forms condition to control the left-hand side of (3.6) because the linear components of the forms$x + h _ { j }$are all the same. The correlation condition has been designed with the primes in mind<sup>10</sup>, because in that case we must tolerate slight “arithmetic”
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">“W-trick”</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>9</sup>This will only be true after first eliminating some local correlations in the almost primes arising from small divisors. This will be achieved by a simple “W-trick” which we will come to later in this paper.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">1/ log N</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">{1, . . . , N}</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ν(x)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">h<sub>j</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">O(log<sup>m</sup> N)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">O(1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">1 + o(1))</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>9</sup>This will only be true after first eliminating some local correlations in the almost primes arising from small divisors. This will be achieved by a simple  which we will come to later in this paper.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>10</sup>A simpler, but perhaps less interesting, model case occurs when one is trying to prove Szemer´edi’s theorem relative to a random subset of of density 1/ log N (cf. [30]). The pseudorandom weight ν would then be a Bernoulli random variable, with each  equal to log N with independent probability and equal to 0 otherwise. In such a case, we can (with high probability) bound the left-hand side of (3.6) more cleanly by  (and even obtain the asymptotic when the are distinct, and by  otherwise.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>10</sup>A simpler, but perhaps less interesting, model case occurs when one is trying to prove Szemer´edi’s theorem relative to a random subset of $\{1,\ldots,N\}$ of density $1/\log N$ (cf. [30]). The pseudorandom weight $\nu$ would then be a Bernoulli random variable, with each $\nu(x)$ equal to $\log N$ with independent probability $1/\log N$ and equal to 0 otherwise. In such a case, we can (with high probability) bound the left-hand side of (3.6) more cleanly by $O(1)$ (and even obtain the asymptotic $1+o(1)$) when the $h_j$ are distinct, and by $O(\log^m N)$ otherwise.</span></small>
 
 nonuniformities. Observe, for example, that the number of$p \leqslant N$for which$p - h$is also prime is not bounded above by a constant times$N / \log ^ { 2 } N$if h contains a very large number of prime factors, although such exceptions will of course be very rare and one still expects to have moment conditions such as (3.5). It is phenomena like this which prevent us from assuming an$L ^ { \infty }$bound for τ . While$m _ { 0 }$will be restricted to be small (in fact, equal to$2 ^ { k - 1 } )$, it will be important for us that there is no upper bound required on q (which we will eventually need to be a very large function of$k ,$but still independent of N of course). Since the correlation condition is an upper bound rather than an asymptotic, it is fairly easy to obtain; we shall prove it using the arguments of Goldston and Yıldırım (since we are using those methods in any case to prove the linear forms condition), but these upper bounds could also be obtained by more standard sieve theory methods.
 
-Definition 3.3 (Pseudorandom measures). Let$\nu : \mathbb { Z } _ { N } \to \mathbb { R } ^ { + }$be a measure. We say that ν is k-pseudorandom if it satisfies the$( k \cdot 2 ^ { k - 1 } , 3 k - 4 , k )$-linear forms condition and also the 2<sup>k</sup>−<sup>1</sup>-correlation condition.
+Definition 3.3 (Pseudorandom measures). Let$\nu : \mathbb { Z } _ { N } \to \mathbb { R } ^ { + }$be a measure. We say that ν is k-pseudorandom if it satisfies the$( k \cdot 2 ^ { k - 1 } , 3 k - 4 , k )$-linear forms condition and also the $2^{k-1}$-correlation condition.
 
 Remarks. The exact values$k \cdot 2 ^ { k - 1 } , 3 k - 4 , k , 2 ^ { k - 1 }$of the parameters chosen here are not too important; in our application to the primes, any quantities which depend only on k would sufice. It can be shown that if$C = C _ { k } > 1$is any constant independent of N and if$S \subseteq \mathbb { Z } _ { N }$is chosen at random, each$x \in \mathbb { Z } _ { N }$being selected to lie in S independently at random with probability$1 / \log ^ { C } N$, then (with high probability) the measure$\nu =$ $\log ^ { C } N \mathbf { 1 } _ { S }$is k-pseudorandom, and the Hardy-Littlewood prime tuples conjecture can be viewed as an assertion that the Von Mangoldt function is essentially of this form (once one eliminates the obvious obstructions to pseudorandomness coming from small prime divisors). While we will of course not attempt to establish this conjecture here, in$\ S 9$we will construct pseudorandom measures which are concentrated on the almost primes instead of the primes; this is of course consistent with the so-called “fundamental lemma of sieve theory”, but we will need a rather precise variant of this lemma due to Goldston and Yıldırım.
 
@@ -304,7 +274,7 @@ $$
 
 If Ω is a subset of$\mathbb { Z } _ { N }$, we use$\mathbf { 1 } _ { \Omega } : \mathbb { Z } _ { N } \longrightarrow \mathbb { R }$to denote the indicator function of$\Omega ,$thus $\mathbf { 1 } _ { \Omega } ( x ) = 1 \mathrm { i f } x \in \Omega$and$\mathbf { 1 } _ { \Omega } ( x ) = 0$otherwise. Similarly if$P ( x )$is a statement concerning an element$x \in \mathbb { Z } _ { N }$, we write${ \mathbf 1 } _ { P ( x ) }$for$\mathbf { 1 } _ { \{ x \in \mathbb { Z } _ { N } : P ( x ) \} } ( x )$
 
-In our arguments we shall frequently be performing linear changes of variables and then taking expectations. To facilitate this we adopt the following definition. Suppose that $A$and B are finite non-empty sets and that$\Phi : A  B$is a map. Then we say that$\Phi$ is a uniform cover of B by A if Φ is surjective and all the fibers$\{ \Phi ^ { - 1 } ( b ) : b \in B \}$have the same cardinality (i.e. they have cardinality$| A | / | B | )$. Observe that if Φ is a uniform cover of B by A, then for any function$f : B \to \mathbb { R }$we have
+In our arguments we shall frequently be performing linear changes of variables and then taking expectations. To facilitate this we adopt the following definition. Suppose that $A$and B are finite non-empty sets and that$\Phi : A \to B$is a map. Then we say that$\Phi$ is a uniform cover of B by A if Φ is surjective and all the fibers$\{ \Phi ^ { - 1 } ( b ) : b \in B \}$have the same cardinality (i.e. they have cardinality$| A | / | B | )$. Observe that if Φ is a uniform cover of B by A, then for any function$f : B \to \mathbb { R }$we have
 
 $$
 \mathbb {E} (f (\Phi (a)) | a \in A) = \mathbb {E} (f (b) | b \in B).\tag{4.1}
@@ -644,7 +614,7 @@ $$
 
 then the above notation is consistent with the quantities$J _ { 0 } , J _ { 1 } , J _ { 2 }$defined in the pre-ceding discussion.
 
-Proof of Lemma${ 5 . 4 } .$. Consider the quantity$J _ { d }$. Since$\phi _ { k - d - 1 }$does not depend on y<sub>k</sub>$- d - 1$, we may take all quantities depending on$\phi _ { k - d - 1 }$outside of the$y _ { k - d - 1 }$average. This allows us to write
+Proof of Lemma 5.4. Consider the quantity$J _ { d }$. Since$\phi _ { k - d - 1 }$does not depend on$y _ { k - d - 1}$, we may take all quantities depending on$\phi _ { k - d - 1 }$outside of the$y _ { k - d - 1 }$average. This allows us to write
 
 $$
 J _ {d} = \mathbb {E} \big (G (y, y ^ {\prime}) H (y, y ^ {\prime}) \mid y _ {1}, \ldots , y _ {k - d - 2}, y _ {k - d}, \ldots , y _ {k - 1}, y _ {k - d} ^ {\prime}, \ldots , y _ {k - 1} ^ {\prime} \in \mathbb {Z} _ {N} \big),
@@ -780,13 +750,13 @@ $$
 x + \omega \cdot h \quad \omega \in \{0, 1 \} ^ {k - 1}.
 $$
 
-$q = 1$. Use the$( 2 ^ { k - 2 } ( k + 1 ) , 2 k - 2 , k )$-linear forms property with variables x,$h _ { 1 } , \ldots , h _ { k - 1 }$2 $y _ { 1 } , \ldots , y _ { k - 2 }$and forms
+$q = 1$. Use the$( 2 ^ { k - 2 } ( k + 1 ) , 2 k - 2 , k )$-linear forms property with variables x,$h _ { 1 } , \ldots , h _ { k - 1 }, y _ { 1 } , \ldots , y _ { k - 2 }$and forms
 
 $$
 \begin{array}{l l} \phi_ {i} (y + \omega h) & \omega \in \{0, 1 \} ^ {k - 1}, \omega_ {i} = 0, 1 \leqslant i \leqslant k - 1; \\ x + \omega \cdot h, & \omega \in \{0, 1 \} ^ {k - 1}. \end{array}
 $$
 
-$q = 2$. Use the$( k \cdot 2 ^ { k - 1 } , 3 k - 4 , k )$-linear forms property with variables x,$h _ { 1 } , \ldots , h _ { k - 1 }$2 $y _ { 1 } , \ldots , y _ { k - 2 } , y _ { 1 } ^ { \prime } , \ldots , y _ { k - 2 } ^ { \prime }$and forms
+$q = 2$. Use the$( k \cdot 2 ^ { k - 1 } , 3 k - 4 , k )$-linear forms property with variables x,$h _ { 1 } , \ldots , h _ { k - 1 }, y _ { 1 } , \ldots , y _ { k - 2 } , y _ { 1 } ^ { \prime } , \ldots , y _ { k - 2 } ^ { \prime }$and forms
 
 $$
 \begin{array}{r l} \phi_ {i} (y + \omega h) & \quad \omega \in \{0, 1 \} ^ {k - 1}, \omega_ {i} = 0, 1 \leqslant i \leqslant k - 1; \\ \phi_ {i} (y ^ {\prime} + \omega h) & \quad \omega \in \{0, 1 \} ^ {k - 1}, \omega_ {i} = 0, 1 \leqslant i \leqslant k - 1; \\ x + \omega \cdot h, & \quad \omega \in \{0, 1 \} ^ {k - 1}. \end{array}
@@ -880,21 +850,15 @@ $$
 
 By the linear forms condition (3.1) (and Lemma 3.4) this expression is$1 + o ( 1 )$(this is the only place in the paper that we appeal to the linear forms condition in the non-homogeneous case where some$b _ { i } \neq 0 ;$; here, all the$b _ { i }$are equal to x). Note that (3.3) corresponds to the$k = 3$case of this application of the linear forms condition.□
 
-Remarks. Observe that if$P : \mathbb { Z } _ { N } \to \mathbb { Z } _ { N }$is any polynomial on$\mathbb { Z } _ { N }$of degree at most $k - 2 .$, and$F ( x ) = e ^ { 2 \pi i P ( x ) / N }$, then${ \bf \nabla } ^ { 1 4 } ~ { \mathcal D } F = F ;$this is basically a reflection of the fact that taking$k - 1$successive diferences of P yields the zero function. Hence by the above lemma$\| F \| _ { ( U ^ { k - 1 } ) ^ { * } } \leqslant 1$, and thus F is Gowers anti-uniform. One should keep these “polynomially quasiperiodic” functions$e ^ { 2 \pi i P ( x ) / N }$in mind as model examples of functions of the form DF, whilst bearing in mind that they are not the only examples<sup>15</sup>. For some further discussion on the role of such polynomials of degree$k { - } 2$in determining Gowers uniformity especially in the$k = 4$case, see [18, 19]. Very roughly speaking, Gowers uniform functions are analogous to the notion of “weakly mixing” functions that appear in ergodic theory proofs of Szemer´edi’s theorem, whereas Gowers anti-uniform functions are somewhat analogous to the notion of “almost periodic” functions. When $k = 3$there is a more precise relation with linear exponentials (which are the same thing as characters on$\mathbb { Z } _ { N } )$. When$\nu = 1$, for example, one has the explicit formula
+Remarks. Observe that if$P : \mathbb { Z } _ { N } \to \mathbb { Z } _ { N }$is any polynomial on$\mathbb { Z } _ { N }$of degree at most $k - 2$, and$F ( x ) = e ^ { 2 \pi i P ( x ) / N }$, then<sup>14</sup> $\mathcal D F=F$; this is basically a reflection of the fact that taking$k - 1$successive diferences of P yields the zero function. Hence by the above lemma$\| F \| _ { ( U ^ { k - 1 } ) ^ { * } } \leqslant 1$, and thus F is Gowers anti-uniform. One should keep these “polynomially quasiperiodic” functions$e ^ { 2 \pi i P ( x ) / N }$in mind as model examples of functions of the form DF, whilst bearing in mind that they are not the only examples<sup>15</sup>. For some further discussion on the role of such polynomials of degree$k { - } 2$in determining Gowers uniformity especially in the$k = 4$case, see [18, 19]. Very roughly speaking, Gowers uniform functions are analogous to the notion of “weakly mixing” functions that appear in ergodic theory proofs of Szemer´edi’s theorem, whereas Gowers anti-uniform functions are somewhat analogous to the notion of “almost periodic” functions. When $k = 3$there is a more precise relation with linear exponentials (which are the same thing as characters on$\mathbb { Z } _ { N } )$. When$\nu = 1$, for example, one has the explicit formula
 
 $$
 \mathcal {D} F (x) = \sum_ {\xi \in \mathbb {Z} _ {N}} | \widehat {F} (\xi) | ^ {2} \widehat {F} (\xi) e ^ {2 \pi i x \xi / N}.\tag{6.7}
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">k − 2</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">k − 2-</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">k − 2,</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>14</sup>To make this assertion precise, one has to generalise the notion of dual function to complex-valued functions by inserting an alternating sequence of conjugation signs; see [19].</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>15</sup>The situation again has an intriguing parallel with ergodic theory, in which the rˆole of the Gowers anti-uniform functions of order  appear to be played by step nilfactors (see [28, 29, 44]), which may contain polynomial eigenfunctions of order but can also exhibit slightly more genera behaviour; see [14] for further discussion.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>15</sup>The situation again has an intriguing parallel with ergodic theory, in which the role of the Gowers anti-uniform functions of order $k-2$ appear to be played by $(k-2)$-step nilfactors (see [28, 29, 44]), which may contain polynomial eigenfunctions of order $k-2$, but can also exhibit slightly more general behaviour; see [14] for further discussion.</span></small>
 
 Suppose for sake of argument that F is bounded pointwise in magnitude by 1. By splitting the set of frequencies$\mathbb { Z } _ { N }$into the sets$S : = \{ \xi : | \widehat { F } ( \xi ) | \geqslant \epsilon \}$and$\mathbb { Z } _ { N } \backslash S$one sees that it is possible to write
 
@@ -910,7 +874,7 @@ Let us refer to a functions of the form DF, where F is pointwise bounded by$\nu 
 
 The following is a statement to the efect that the measure$\nu$is uniformly distributed with respect not just to each basic Gowers anti-uniform function (which is a special case of (6.5)), but also to the algebra generated by such functions.
 
-Proposition 6.2 (Uniform distribution wrt basic Gowers anti-uniform functions). Suppose that ν is k-pseudorandom. Let$K \geqslant 1$be a fixed integer, let$\Phi : I ^ { K }  \mathbb { R }$be a fixed continuous function, let$\mathcal { D } { \cal F } _ { 1 } , \ldots , \mathcal { D } { \cal F } _ { K }$be basic Gowers anti-uniform functions, and define the function$\psi : \mathbb { Z } _ { N } \longrightarrow \mathbb { R }$by
+Proposition 6.2 (Uniform distribution wrt basic Gowers anti-uniform functions). Suppose that ν is k-pseudorandom. Let$K \geqslant 1$be a fixed integer, let$\Phi : I ^ { K } \to \mathbb { R }$be a fixed continuous function, let$\mathcal { D } { \cal F } _ { 1 } , \ldots , \mathcal { D } { \cal F } _ { K }$be basic Gowers anti-uniform functions, and define the function$\psi : \mathbb { Z } _ { N } \longrightarrow \mathbb { R }$by
 
 $$
 \psi (x) := \Phi (\mathcal {D} F _ {1} (x), \dots , \mathcal {D} F _ {K} (x)).
@@ -922,7 +886,7 @@ $$
 \langle \nu - 1, \psi \rangle = o _ {K, \Phi} (1).
 $$
 
-Furthermore$i f \Phi$ranges over a compact set$E \subset C ^ { 0 } ( I ^ { K } )$of the space$C ^ { 0 } ( I ^ { K } )$of continuous functions on$\breve { I } ^ { K }$(in the uniform topology) then the bounds here are uniform in Φ (i.e. one can replace${ \cal O } _ { K , \Phi } ( 1 )$with${ o _ { K , E } ( 1 ) }$in this case).
+Furthermore if $\Phi$ ranges over a compact set $E\subset C^0(I^K)$ of the space $C^0(I^K)$ of continuous functions on $I^K$ (in the uniform topology), then the bounds here are uniform in $\Phi$ (i.e. one can replace $o_{K,\Phi}(1)$ with $o_{K,E}(1)$ in this case).
 
 Remark. In light of the previous remarks, we see in particular that ν is uniformly distributed with respect to any continuous function of polynomial phase functions such as$e ^ { 2 \pi i P ( x ) / N }$, where P has degree at most$k - 2$
 
@@ -1072,7 +1036,7 @@ $$
 
 (for instance). Since$\varepsilon ~ > ~ 0$was arbitrary, the claim follows. It is clear that this argument also gives the uniform bounds when$\Phi$ranges over a compact set (by covering this compact set by finitely many balls of radius ε in the uniform topology).□
 
-Remarks. The philosophy behind Proposition 6.2 and its proof is that$( U ^ { k - 1 } ) ^ { * }$respects, to some degree, the algebra structure of the space of functions on$\mathbb { Z } _ { N }$. However,$\parallel$ $\| { \ L } _ { ( U ^ { k - 1 } ) ^ { * } }$∗ is not itself an algebra norm even in the model case$k = 3$, as can be seen from (6.2) by recalling that$\| g \| _ { ( U ^ { 2 } ) ^ { * } } = \| \widehat { g } \| _ { 4 / 3 }$. Note, however, that$\| g \| _ { ( U ^ { 2 } ) ^ { * } } \leqslant \| g \| _ { A }$, where $\| g \| _ { A } : = \| { \widehat { g } } \| _ { 1 }$bis the Wiener norm. From Young’s inequality we see that the Wiener bnorm is an algebra norm, that is to say$\| g h \| _ { A } \leqslant \| g \| _ { A } \| h \| _ { A }$. Thus while the$( U ^ { 2 } ) ^ { * }$norm is not an algebra norm, it is at least majorised by an algebra norm.
+Remarks. The philosophy behind Proposition 6.2 and its proof is that $(U^{k-1})^*$ respects, to some degree, the algebra structure of the space of functions on $\mathbb Z_N$. However, the dual norm $\|\cdot\|_{(U^{k-1})^*}$ is not itself an algebra norm even in the model case $k=3$, as can be seen from (6.2) by recalling that $\|g\|_{(U^2)^*}=\|\widehat g\|_{4/3}$. Note, however, that $\|g\|_{(U^2)^*}\leqslant\|g\|_A$, where $\|g\|_A:=\|\widehat g\|_1$ is the Wiener norm. From Young’s inequality we see that the Wiener norm is an algebra norm, that is to say $\|gh\|_A\leqslant\|g\|_A\|h\|_A$. Thus while the $(U^2)^*$ norm is not an algebra norm, it is at least majorised by an algebra norm.
 
 Now (6.7) easily implies that if$0 \leqslant F ( x ) \leqslant \nu _ { \mathrm { c o n s t } } ( x )$then$\| \widehat { \mathcal { D } F } \| _ { 1 } \leqslant 1$, and so in this dcase we really have identified an algebra norm (the Weiner norm) such that if$\| f \| _ { U ^ { 2 } }$is large then$f$correlates with a bounded function with small algebra norm. The$( U ^ { k - 1 } ) ^ { * }$ norms can thus be thought of as combinatorial variants of the Wiener algebra norm which apply to more general values of k than the Fourier case$k = 3$. (See also [40] for a slightly diferent generalization of the Wiener algebra to the case$k > 3 . )$
 
@@ -1084,7 +1048,7 @@ For these reasons, our proof of Proposition 6.2 does not mention any algebra nor
 
 To use Proposition 6.2, we shall associate a σ-algebra to each basic Gowers anti-uniform function, such that the measurable functions in each such algebra can be approximated by a function of the type considered in Proposition 6.2. We begin by setting out our notation for σ-algebras.
 
-Definition 7.1. A σ-algebra B in$\mathbb { Z } _ { N }$is any collection of subsets of$\mathbb { Z } _ { N }$which contains the empty set ∅ and the full set$\mathbb { Z } _ { N }$, and is closed under complementation, unions and intersections. As$\mathbb { Z } _ { N }$is a finite set, we will not need to distinguish between countable and uncountable unions or intersections. We define the atoms of a σ-algebra to be the minimal non-empty elements of$\boldsymbol { B }$(with respect to set inclusion); it is clear that the atoms in$\boldsymbol { B }$form a partition of$\mathbb { Z } _ { N }$, and$\boldsymbol { B }$consists precisely of arbitrary unions of its atoms (including the empty union ∅). A function$f \in L ^ { q } ( \mathbb { Z } _ { N } )$is said to be measurable with respect to a σ-algebra B if all the level sets$\{ f ^ { - 1 } ( \{ x \} ) : x \in \mathbb { R } \}$of f lie in$B _ { ; }$or equivalently if f is constant on each of the atoms of B.
+Definition 7.1. A σ-algebra B in$\mathbb { Z } _ { N }$is any collection of subsets of$\mathbb { Z } _ { N }$which contains the empty set ∅ and the full set$\mathbb { Z } _ { N }$, and is closed under complementation, unions and intersections. As$\mathbb { Z } _ { N }$is a finite set, we will not need to distinguish between countable and uncountable unions or intersections. We define the atoms of a σ-algebra to be the minimal non-empty elements of$\boldsymbol { B }$(with respect to set inclusion); it is clear that the atoms in$\boldsymbol { B }$form a partition of$\mathbb { Z } _ { N }$, and$\boldsymbol { B }$consists precisely of arbitrary unions of its atoms (including the empty union ∅). A function$f \in L ^ { q } ( \mathbb { Z } _ { N } )$is said to be measurable with respect to a σ-algebra B if all the level sets$\{ f ^ { - 1 } ( \{ x \} ) : x \in \mathbb { R } \}$of f lie in$B$or equivalently if f is constant on each of the atoms of B.
 
 We define$L ^ { q } ( \mathcal { B } ) \subseteq L ^ { q } ( \mathbb { Z } _ { N } )$to be the subspace of$L ^ { q } ( \mathbb { Z } _ { N } )$consisting of B-measurable functions, equipped with the same$L ^ { q }$norm. We can then define the conditional expectation operator$f \mapsto \mathbb { E } ( f | B )$to be the orthogonal projection of$L ^ { 2 } ( \mathbb { Z } _ { N } )$to$L ^ { 2 } ( B )$; this is of course also defined on all the other$L ^ { q } ( \mathbb { Z } _ { N } )$spaces since they are all the same vector space. An equivalent definition of conditional expectation is
 
@@ -1094,7 +1058,7 @@ $$
 
 for all$x \in \mathbb { Z } _ { N }$, where$B ( x )$is the unique atom in B which contains x. It is clear that conditional expectation is a linear self-adjoint orthogonal projection on$L ^ { 2 } ( \mathbb { Z } _ { N } )$, is a contraction on$L ^ { q } ( \mathbb { Z } _ { N } )$for every$1 \leqslant q \leqslant \infty$, preserves non-negativity, and also preserves constant functions. Also, if$B ^ { \prime }$is a subalgebra of$\boldsymbol { B }$then$\mathbb { E } ( \mathbb { E } ( f | B ) | B ^ { \prime } ) = \mathbb { E } ( f | B ^ { \prime } )$
 
-If$\boldsymbol { B } _ { 1 } , \dots , \boldsymbol { B } _ { K }$are$\sigma \mathrm { - }$algebras, we use$\bigvee _ { i = 1 } ^ { K } \mathcal { B } _ { j } = \mathcal { B } _ { 1 } \lor . . . \lor \mathcal { B } _ { K }$to denote the σ-algebra generated by these algebras, or in other words the algebra whose atoms are the intersections of atoms in$\boldsymbol { B } _ { 1 } , \dots , \boldsymbol { B } _ { K }$. We adopt the usual convention that when$K = 0$, the join$\textstyle \bigvee _ { j = 1 } ^ { K } B _ { j }$is just the trivial σ-algebra$\{ \varnothing , \mathbb { Z } _ { N } \}$
+If$\boldsymbol { B } _ { 1 } , \dots , \boldsymbol { B } _ { K }$are$\sigma \mathrm { - }$algebras, we use$\bigvee _ { i = 1 } ^ { K } \mathcal { B } _ { i } = \mathcal { B } _ { 1 } \lor . . . \lor \mathcal { B } _ { K }$to denote the σ-algebra generated by these algebras, or in other words the algebra whose atoms are the intersections of atoms in$\boldsymbol { B } _ { 1 } , \dots , \boldsymbol { B } _ { K }$. We adopt the usual convention that when$K = 0$, the join$\textstyle \bigvee _ { j = 1 } ^ { K } B _ { j }$is just the trivial σ-algebra$\{ \varnothing , \mathbb { Z } _ { N } \}$
 
 We now construct the basic σ-algebras that we shall use. We view the basic Gowers anti-uniform functions as generalizations of complex exponentials, and the atoms of the σ-algebras we use can be thought of as “generalised Bohr sets”.
 
@@ -1108,7 +1072,7 @@ $$
 
 • (Bounded complexity)$B _ { \varepsilon , \eta } ( G )$is generated by at most$O ( 1 / \varepsilon )$atoms.
 
-• (Approximation by continuous functions of G) If A is any atom in$B _ { \varepsilon , \eta } ( G )$, then there exists a continuous function$\Psi _ { A } : I  [ 0 , 1 ]$such that
+• (Approximation by continuous functions of G) If A is any atom in$B _ { \varepsilon , \eta } ( G )$, then there exists a continuous function$\Psi _ { A } : I \to [ 0 , 1 ]$such that
 
 $$
 \left\| \left(\mathbf {1} _ {A} - \Psi_ {A} (G)\right) (\nu + 1) \right\| _ {L ^ {1} \left(\mathbb {Z} _ {N}\right)} = O (\eta).\tag{7.2}
@@ -1130,11 +1094,11 @@ $$
 
 We now set$B _ { \varepsilon , \eta } ( G )$to be the σ-algebra whose atoms are the sets$G ^ { - 1 } ( [ \varepsilon ( n + \alpha ) , \varepsilon ( n +$ $1 + \alpha ) )$for$n \in \mathbb { Z }$. This is well-defined since the intervals$[ \varepsilon ( n + \alpha ) , \varepsilon ( n + 1 + \alpha ) )$tile the real line.
 
-It is clear that if B is an arbitrary σ-algebra, then on any atom of$B \vee B _ { \varepsilon , \eta } ( G )$, the function G takes values in an interval of diameter ε, which yields (7.1). Now we verify the approximation by continuous functions property. Let$A : = G ^ { - 1 } ( [ \varepsilon ( n + \alpha ) , \varepsilon ( n + 1 + \alpha ) ) )$ be an atom. Since G takes values in I, we may assume that$n = O ( 1 / \varepsilon )$, since A is empty otherwise; note that this already establishes the bounded complexity property. Let$\psi _ { \eta } : \mathbb { R }  [ 0 , 1 ]$be a fixed continuous cutof function which equals 1 on$[ \eta , 1 - \eta ]$ and vanishes outside of$[ - \eta , 1 + \eta ]$, and define$\Psi _ { A } ( x ) : = \psi _ { \eta } ( { \textstyle \frac { x } { \varepsilon } } - n - \alpha )$. Then it is clear that$\Psi _ { A }$ranges over a compact subset$E _ { \varepsilon , \eta }$of$C ^ { 0 } ( I )$(because n and α are bounded). Furthermore from (7.3) it is clear that we have (7.2). The claim follows.□
+It is clear that if B is an arbitrary σ-algebra, then on any atom of$B \vee B _ { \varepsilon , \eta } ( G )$, the function G takes values in an interval of diameter ε, which yields (7.1). Now we verify the approximation by continuous functions property. Let$A : = G ^ { - 1 } ( [ \varepsilon ( n + \alpha ) , \varepsilon ( n + 1 + \alpha ) ) )$ be an atom. Since G takes values in I, we may assume that$n = O ( 1 / \varepsilon )$, since A is empty otherwise; note that this already establishes the bounded complexity property. Let$\psi _ { \eta } : \mathbb { R } \to [ 0 , 1 ]$be a fixed continuous cutof function which equals 1 on$[ \eta , 1 - \eta ]$ and vanishes outside of$[ - \eta , 1 + \eta ]$, and define$\Psi _ { A } ( x ) : = \psi _ { \eta } ( { \textstyle \frac { x } { \varepsilon } } - n - \alpha )$. Then it is clear that$\Psi _ { A }$ranges over a compact subset$E _ { \varepsilon , \eta }$of$C ^ { 0 } ( I )$(because n and α are bounded). Furthermore from (7.3) it is clear that we have (7.2). The claim follows.□
 
 We now specialise to the case when the functions G are basic Gowers anti-uniform functions.
 
-Proposition 7.3. Let ν be a k-pseudorandom measure. Let$K \geqslant 1$be an fixed integer and let$\mathcal { D } F _ { 1 } , \ldots , \mathcal { D } F _ { K } \in L ^ { \infty } ( \mathbb { Z } _ { N } )$be basic Gowers anti-uniform functions. Let$0 < \varepsilon < 1$ and$0 < \eta < 1 / 2$be parameters, and let$B _ { \varepsilon , \eta } ( { \cal D } F _ { j } ) , ~ j = 1 , \ldots , K$, be constructed as in Proposition 7.2. Let$\boldsymbol { B } : = \mathcal { B } _ { \varepsilon , \eta } ( \mathcal { D } \boldsymbol { F } _ { 1 } ) \vee \ldots \vee \tilde { \mathcal { B } } _ { \varepsilon , \eta } ( \mathcal { D } \boldsymbol { F } _ { K } )$. Then if$\eta < \eta _ { 0 } ( \epsilon , K )$is suficiently small and$N > N _ { 0 } ( \epsilon , K , \eta )$is suficiently large we have
+Proposition 7.3. Let ν be a k-pseudorandom measure. Let$K \geqslant 1$be an fixed integer and let$\mathcal { D } F _ { 1 } , \ldots , \mathcal { D } F _ { K } \in L ^ { \infty } ( \mathbb { Z } _ { N } )$be basic Gowers anti-uniform functions. Let$0 < \varepsilon < 1$ and$0 < \eta < 1 / 2$be parameters, and let$B _ { \varepsilon , \eta } ( { \cal D } F _ { j } ) , ~ j = 1 , \ldots , K$, be constructed as in Proposition 7.2. Let$\boldsymbol { B } : = \mathcal { B } _ { \varepsilon , \eta } ( \mathcal { D } \boldsymbol { F } _ { 1 } ) \vee \ldots \vee \mathcal { B } _ { \varepsilon , \eta } ( \mathcal { D } \boldsymbol { F } _ { K } )$. Then if$\eta < \eta _ { 0 } ( \epsilon , K )$is suficiently small and$N > N _ { 0 } ( \epsilon , K , \eta )$is suficiently large we have
 
 $$
 \left\| \mathcal {D} F _ {j} - \mathbb {E} \left(\mathcal {D} F _ {j} | \mathcal {B}\right) \right\| _ {L ^ {\infty} \left(\mathbb {Z} _ {N}\right)} \leqslant \varepsilon \text {   for   all   } 1 \leqslant j \leqslant K.\tag{7.4}
@@ -1154,7 +1118,7 @@ $$
 
 Remark. We strongly recommend that here and in subsequent arguments the reader pretend that the exceptional set Ω is empty; in practice we shall be able to set η small enough that the contribution of Ω to our calculations will be negligible.
 
-Proof. The claim (7.4) follows immediately from (7.1). Now we prove (7.5) and (7.6). Since each of the$B _ { \varepsilon , \eta } ( \mathcal { D } { F } _ { j } )$are generated by$O ( 1 / \varepsilon )$atoms, we see that B is generated by$O _ { K , \varepsilon } ( 1 )$atoms. Call an atom A of B small if$\dot { \mathbb { E } } ( ( \nu + 1 ) \mathbf { 1 } _ { A } ) \leqslant \eta ^ { 1 / 2 }$, and let Ω be the union of all the small atoms. Then clearly Ω lies in B and obeys (7.5). To prove the remaining claim (7.6), it sufices to show that
+Proof. The claim (7.4) follows immediately from (7.1). Now we prove (7.5) and (7.6). Since each of the$B _ { \varepsilon , \eta } ( \mathcal { D } { F } _ { j } )$are generated by$O ( 1 / \varepsilon )$atoms, we see that B is generated by$O _ { K , \varepsilon } ( 1 )$atoms. Call an atom A of B small if$\mathbb { E } ( ( \nu + 1 ) \mathbf { 1 } _ { A } ) \leqslant \eta ^ { 1 / 2 }$, and let Ω be the union of all the small atoms. Then clearly Ω lies in B and obeys (7.5). To prove the remaining claim (7.6), it sufices to show that
 
 $$
 \frac {\mathbb {E} ((\nu - 1) \mathbf {1} _ {A})}{\mathbb {E} (\mathbf {1} _ {A})} = \mathbb {E} (\nu - 1 | A) = o _ {K, \varepsilon , \eta} (1) + O _ {K, \varepsilon} (\eta^ {1 / 2})\tag{7.7}
@@ -1172,7 +1136,7 @@ $$
 \mathbb {E} ((\nu - 1) \mathbf {1} _ {A}) = o _ {K, \varepsilon , \eta} (1) + O _ {K, \varepsilon} (\eta).\tag{7.8}
 $$
 
-On the other hand, since A is the intersection of K atoms$A _ { 1 } , \ldots , A _ { K }$from$B _ { \varepsilon , \eta } ( \mathcal { D } F _ { 1 } ) , \ldots ,$ $B _ { \varepsilon , \eta } ( \mathcal { D } { F } _ { K } )$respectively, we see from Proposition 7.2 and an easy induction argument (involving H¨older’s inequality and the triangle inequality) that we can find a continuous function$\Psi _ { A } : I ^ { K }  [ 0 , 1 ]$such that
+On the other hand, since A is the intersection of K atoms$A _ { 1 } , \ldots , A _ { K }$from$B _ { \varepsilon , \eta } ( \mathcal { D } F _ { 1 } ) , \ldots ,$ $B _ { \varepsilon , \eta } ( \mathcal { D } { F } _ { K } )$respectively, we see from Proposition 7.2 and an easy induction argument (involving H¨older’s inequality and the triangle inequality) that we can find a continuous function$\Psi _ { A } : I ^ { K } \to [ 0 , 1 ]$such that
 
 $$
 \left\| (\nu + 1) \left(\mathbf {1} _ {A} - \Psi_ {A} \left(\mathcal {D} F _ {1}, \dots , \mathcal {D} F _ {K}\right)\right) \right\| _ {L ^ {1} \left(\mathbb {Z} _ {N}\right)} = O _ {K} (\eta),
@@ -1256,21 +1220,7 @@ Since ε can be made arbitrarily small (as long as N is taken suficiently large)
 
 To complete the proof of Theorem 3.5, it sufices to prove Proposition 8.1. To construct the σ-algebra B required in the Proposition, we will use the philosophy laid out by Furstenberg in his ergodic structure theorem (see [10, 13]), which decomposes any measure-preserving system into a weakly-mixing extension of a tower of compact extensions. In our setting, the idea is roughly speaking as follows. We initialise$\boldsymbol { B }$to be the trivial σ-algebra${ \boldsymbol { \mathcal { B } } } = \{ \emptyset , \mathbb { Z } _ { N } \}$. If the function$f - \mathbb { E } ( f | B )$is already Gowers uniform (in the sense of (8.3)), then we can terminate the algorithm. Otherwise, we use the machinery of dual functions, developed in$\ S 6$, to locate a Gowers anti-uniform function $\mathcal { D } \boldsymbol { F } _ { 1 }$which has some non-trivial correlation with$f ,$and add the level sets of$\mathcal { D } \boldsymbol { F } _ { 1 }$to the σ-algebra$B ;$the non-trivial correlation property will ensure that the$L ^ { 2 }$norm of$\mathbb { E } ( f | B )$ increases by a non-trivial amount during this procedure, while the pseudorandomness of ν will ensure that$\mathbb { E } ( f | B )$remains uniformly bounded. We then repeat the above algorithm until$f - \mathbb { E } ( f | B )$becomes suficiently Gowers uniform, at which point we terminate the algorithm. In the original ergodic theory arguments of Furstenberg this algorithm was not guaranteed to terminate, and indeed one required the axiom of choice (in the guise of Zorn’s lemma) in order to conclude<sup>17</sup> the structure theorem. However, in our setting we can terminate in a bounded number of steps (in fact in at most$2 ^ { 2 ^ { k } } / \varepsilon + 2$ steps), because there is a quantitative$L ^ { 2 } .$-increment to the bounded function$\mathbb { E } ( f | B )$at each stage.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">1 + o<sub>ε</sub>(1),</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">fu⊥</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">o<sub>ε</sub>(1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f<sub>U</sub>⊥</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">f<sub>U</sub>⊥</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">δ − o<sub>ε</sub>(1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">o<sub>ε</sub>(1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>16</sup>There is an utterly trivial issue which we have ignored here, which is that f<sub>U</sub>⊥ is not bounded above by 1 but by and that the density is bounded below by  rather than δ. One can easily get around this by modifying by  before applying Proposition 2.3, incurring a net error of  at the end since  is bounded.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>16</sup>There is an utterly trivial issue which we have ignored here, which is that $f_{U^\perp}$ is not bounded above by $1$ but by $1+o_\varepsilon(1)$, and that the density is bounded below by $\delta-o_\varepsilon(1)$ rather than $\delta$. One can easily get around this by modifying $f_{U^\perp}$ by $o_\varepsilon(1)$ before applying Proposition 2.3, incurring a net error of $o_\varepsilon(1)$ at the end since $f_{U^\perp}$ is bounded.</span></small>
 
 Such a strategy will be familiar to any reader acquainted with the proof of Szemer´edi’s regularity lemma [39]. This is no coincidence: there is in fact a close connection between regularity lemmas such as those in [20, 22, 39] and ergodic theory of the type we have brushed up against in this paper. Indeed there are strong analogies between all of the known proofs of Szemer´edi’s theorem, despite the fact that they superficially appear to use very diferent techniques.
 
@@ -1376,7 +1326,7 @@ $$
 
 then we set$\Omega : = \Omega _ { K }$and$\boldsymbol { B } : = \boldsymbol { B } _ { K }$, and successfully terminate the algorithm.
 
-• Step 3. If instead (8.9) holds, then we define$\boldsymbol { B } _ { K + 1 }$by (8.12). (Here we of course need$K \leqslant K _ { 0 }$, but this will be guaranteed by Step 4 below). We then invoke Proposition 8.2 to locate an exceptional set$\Omega _ { K + 1 } \supset \Omega _ { K }$in$\boldsymbol { B } _ { K + 1 }$<sub>1</sub> obeying the conditions<sup>18</sup> (8.13), (8.14), and for which we have the energy increment property (8.15). Also, we have (8.11).
+• Step 3. If instead (8.9) holds, then we define$\boldsymbol { B } _ { K + 1 }$by (8.12). (Here we of course need$K \leqslant K _ { 0 }$, but this will be guaranteed by Step 4 below). We then invoke Proposition 8.2 to locate an exceptional set$\Omega _ { K + 1 } \supset \Omega _ { K }$in$\boldsymbol { B } _ { K + 1 }$ obeying the conditions<sup>18</sup> (8.13), (8.14), and for which we have the energy increment property (8.15). Also, we have (8.11).
 
 • Step 4. Increment K to$K + 1$; observe from construction that the estimates (8.4), (8.6), (8.7) will be preserved when doing so. If we now have$K > K _ { 0 }$, then we terminate the algorithm with an error; otherwise, return to Step 1.
 
@@ -1412,13 +1362,7 @@ $$
 \| (1 - \mathbf {1} _ {\Omega_ {K}}) \mathbb {E} (\nu | \boldsymbol {\mathcal {B}} _ {K}) \| _ {L ^ {\infty}} \leqslant 1 + O _ {K, \varepsilon} (\eta^ {1 / 2});
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">00</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">K</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">K<sub>0</sub>,</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>18</sup>Of course, the constants in the O() bounds are diferent at each stage of this iteration, but we are allowing these constants to depend on K, and K will ultimately be bounded by  which depends only on ε and k.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>18</sup>Of course, the constants in the O() bounds are diferent at each stage of this iteration, but we are allowing these constants to depend on $K$, and $K$ will ultimately be bounded by $K_0$, which depends only on $\varepsilon$ and $k$.</span></small>
 
 since f is non-negative and bounded pointwise by$\nu ,$we obtain (8.10). The bound (8.11) then follows from (8.10) and (8.8), where we again use that f is non-negative and bounded pointwise by ν. This shows in particular that$\mathcal { D } F _ { 1 } , . . . , \mathcal { D } F _ { K _ { 1 } + 1 }$are basic Gowers anti-uniform functions (up to multiplicative errors of$1 + O _ { K _ { 1 } , \varepsilon } ( \eta ^ { 1 / 2 } )$, which are negligible).
 
@@ -1505,7 +1449,7 @@ since we can absorb the error terms$- O _ { K , \varepsilon } ( \eta ^ { 1 / 2 }
 We write the left-hand side as
 
 $$
-\| (1 - \mathbf {1} _ {\Omega_ {K + 1}}) \mathbb {E} (f | \mathcal {B} _ {K}) + (1 - \mathbf {1} _ {\Omega_ {K + 1}}) (\mathbb {E} (f | \mathcal {B} _ {K + 1}) - \mathbb {E} (f | \mathcal {B} _ {K}) \| _ {L ^ {2} (\mathbb {Z} _ {N})} ^ {2}
+\left\| (1 - \mathbf {1} _ {\Omega_ {K + 1}}) \mathbb {E} (f | \mathcal {B} _ {K}) + (1 - \mathbf {1} _ {\Omega_ {K + 1}}) (\mathbb {E} (f | \mathcal {B} _ {K + 1}) - \mathbb {E} (f | \mathcal {B} _ {K})) \right\| _ {L ^ {2} (\mathbb {Z} _ {N})} ^ {2}
 $$
 
 which can be expanded using the cosine rule as
@@ -1526,7 +1470,7 @@ $$
 \left\langle \left(1 - \mathbf {1} _ {\Omega_ {K + 1}}\right) \mathbb {E} (f | \mathcal {B} _ {K}), \mathbb {E} (f | \mathcal {B} _ {K + 1}) - \mathbb {E} (f | \mathcal {B} _ {K}) \right\rangle .
 $$
 
-Now note that$( 1 - \mathbf { 1 } _ { \Omega _ { K } } ) \mathbb { E } ( f | B _ { K } )$is measurable with respect to$\boldsymbol { B } _ { K }$, and hence orthogonal to$\mathbb { E } ( f | \boldsymbol { \mathcal { B } } _ { K + 1 } ) - \mathbb { E } ( f | \boldsymbol { \bar { B } } _ { K } )$, since$\boldsymbol { B } _ { K }$is a sub-σ-algebra of$B _ { K + 1 }$. Thus the above expression can be rewritten as
+Now note that$( 1 - \mathbf { 1 } _ { \Omega _ { K } } ) \mathbb { E } ( f | B _ { K } )$is measurable with respect to$\boldsymbol { B } _ { K }$, and hence orthogonal to$\mathbb { E } ( f | \boldsymbol { \mathcal { B } } _ { K + 1 } ) - \mathbb { E } ( f | \boldsymbol { B } _ { K } )$, since$\boldsymbol { B } _ { K }$is a sub-σ-algebra of$B _ { K + 1 }$. Thus the above expression can be rewritten as
 
 $$
 \left\langle \left(\mathbf {1} _ {\Omega_ {K + 1}} - \mathbf {1} _ {\Omega_ {K}}\right) \mathbb {E} (f | \mathcal {B} _ {K}), \mathbb {E} (f | \mathcal {B} _ {K + 1}) - \mathbb {E} (f | \mathcal {B} _ {K}) \right\rangle .
@@ -1608,15 +1552,7 @@ $$
 
 for the von Mangoldt function, where$\mu$is the M¨obius function, and$\log ( x ) _ { + }$denotes the positive part of the logarithm, that is to say max$( \log ( x ) , 0 )$. Here and in the sequel d is always understood to be a positive integer. Motivated by this, we define
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">n ≡ 1</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">∑N≤n≤2N Λ(n) > N.</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">n ≡ b(mod W)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">W</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>21</sup>In fact, all we need is that <sub>N6n62N</sub> Λ(  n) ≫ N. Thus one could avoid appealing to the theory of eDirichlet L-functions by replacing   (mod W) by , for some b coprime to  chosen using the pigeonhole principle.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>21</sup>In fact, all we need is that $\sum_{N\leqslant n\leqslant2N}\Lambda(n)\gg N$. Thus one could avoid appealing to the theory of Dirichlet L-functions by replacing $n\equiv1\pmod W$ by $n\equiv b\pmod W$, for some $b$ coprime to $W$ chosen using the pigeonhole principle.</span></small>
 
 Definition 9.2 (Goldston–Yıldırım truncated divisor sum). Let R be a parameter (in applications it will be a small power of N). Define
 
@@ -1642,7 +1578,7 @@ Proof. The first claim is trivial. The second claim is also trivial unless$W n +
 
 We will have to wait a while to show that ν is actually a measure (i.e. it verifies (2.4)). The next proposition will be crucial in showing that ν has the linear forms property.
 
-Proposition 9.5 (Goldston-Yıldırım). Let m, t be positive integers. For each$\mid \leqslant i \leqslant$ $m ,$let$\begin{array} { r } { \psi _ { i } ( \mathbf { x } ) : = \sum _ { i = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$, be linear forms with integer coeficients$L _ { i j }$such that $| L _ { i j } | \leqslant \sqrt { w ( N ) } / 2$for all$i = 1 , \dots m$and$j = 1 , \ldots , t .$. We assume that the t-tuples $( L _ { i j } ) _ { j = 1 } ^ { t }$are never identically zero, and that no two t-tuples are rational multiples of each other. Write$\theta _ { i } : = W \psi _ { i } + 1$. Suppose that B is a product$\textstyle \prod _ { i = 1 } ^ { t } I _ { i } \subset \mathbb { R } ^ { t }$of t intervals $I _ { i } { _ { \mathrm { : } } }$, each of which having length at least$R ^ { 1 0 m }$. Then (if the function$w ( N )$is suficiently slowly growing in N)
+Proposition 9.5 (Goldston-Yıldırım). Let m, t be positive integers. For each$1 \leqslant i \leqslant m$, let$\begin{array} { r } { \psi _ { i } ( \mathbf { x } ) : = \sum _ { j = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$, be linear forms with integer coeficients$L _ { i j }$such that $| L _ { i j } | \leqslant \sqrt { w ( N ) } / 2$for all$i = 1 , \dots m$and$j = 1 , \ldots , t .$. We assume that the t-tuples $( L _ { i j } ) _ { j = 1 } ^ { t }$are never identically zero, and that no two t-tuples are rational multiples of each other. Write$\theta _ { i } : = W \psi _ { i } + 1$. Suppose that B is a product$\textstyle \prod _ { i = 1 } ^ { t } I _ { i } \subset \mathbb { R } ^ { t }$of t intervals $I _ { i } { _ { \mathrm { : } } }$, each of which having length at least$R ^ { 1 0 m }$. Then (if the function$w ( N )$is suficiently slowly growing in N)
 
 $$
 \mathbb {E} (\Lambda_ {R} (\theta_ {1} (\mathbf {x})) ^ {2} \dots \Lambda_ {R} (\theta_ {m} (\mathbf {x})) ^ {2} | \mathbf {x} \in B) = (1 + o _ {m, t} (1)) \left(\frac {W \log R}{\phi (W)}\right) ^ {m}.
@@ -1654,7 +1590,7 @@ To keep this paper as self-contained as possible, we give a proof of Proposition
 
 Much the same remarks apply to the next proposition, which will be of extreme utility in demonstrating that ν has the correlation property (Definition 3.2).
 
-Proposition 9.6 (Goldston-Yıldırım). Let m$\geqslant 1$be an integer, and let B be an interval of length at least$R ^ { \dot { 1 } 0 m }$. Suppose that$h _ { 1 } , \ldots , h _ { m }$are distinct integers satisfying$| h _ { i } | \leqslant N ^ { 2 }$ for all$1 \leqslant i \leqslant m$, and let$\Delta$denote the integer
+Proposition 9.6 (Goldston-Yıldırım). Let m$\geqslant 1$be an integer, and let B be an interval of length at least$R ^ { 10m }$. Suppose that$h _ { 1 } , \ldots , h _ { m }$are distinct integers satisfying$| h _ { i } | \leqslant N ^ { 2 }$ for all$1 \leqslant i \leqslant m$, and let$\Delta$denote the integer
 
 $$
 \Delta := \prod_ {1 \leqslant i <   j \leqslant m} | h _ {i} - h _ {j} |.
@@ -1690,7 +1626,7 @@ Now we verify the linear forms condition, which is proven in a similar spirit to
 
 Proposition 9.8. The function ν satisfies the$( k \cdot 2 ^ { k - 1 } , 3 k - 4 , k )$-linear forms condition.
 
-Proof. Let$\begin{array} { r } { \psi _ { i } ( { \bf x } ) = \sum _ { i = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$be linear forms of the type which feature in Definition 3.1. That is to say, we have m$\leqslant k \cdot 2 ^ { k - 1 } , t \leqslant 3 k - 4$, the$L _ { i j }$are rational numbers with numerator and denominator at most k in absolute value, and none of the t-tuples $( L _ { i j } ) _ { j = 1 } ^ { t }$is zero or is equal to a rational multiple of any other. We wish to show that
+Proof. Let$\begin{array} { r } { \psi _ { i } ( { \bf x } ) = \sum _ { j = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$be linear forms of the type which feature in Definition 3.1. That is to say, we have m$\leqslant k \cdot 2 ^ { k - 1 } , t \leqslant 3 k - 4$, the$L _ { i j }$are rational numbers with numerator and denominator at most k in absolute value, and none of the t-tuples $( L _ { i j } ) _ { j = 1 } ^ { t }$is zero or is equal to a rational multiple of any other. We wish to show that
 
 $$
 \mathbb {E} (\nu (\psi_ {1} (\mathbf {x})) \dots \nu (\psi_ {m} (\mathbf {x})) | \mathbf {x} \in \mathbb {Z} _ {N} ^ {t}) = 1 + o (1).\tag{9.2}
@@ -1718,7 +1654,7 @@ $$
 \mathbb {E} \left(\nu \left(\psi_ {1} (\mathbf {x})\right) \dots \nu \left(\psi_ {m} (\mathbf {x})\right) \mid \mathbf {x} \in B _ {u _ {1}, \dots , u _ {t}}\right) = 1 + o _ {m, t} (1)
 $$
 
-whenever$( u _ { 1 } , \ldots , u _ { t } )$is nice, since we can replace<sup>22</sup> each of the$\nu ( \psi _ { i } ( \mathbf x ) )$factors by either $\frac { \phi ( W ) } { W \log R } \Lambda _ { R } ^ { 2 } ( \dot { \theta } _ { i } ( { \bf x } ) )$or 1, and$N / Q$will exceed$R ^ { 1 0 m }$for$Q$suficiently slowly growing in$N .$, by definition of R and the upper bound on$m .$When$( u _ { 1 } , \ldots , u _ { t } )$is not nice, then we can crudely bound$\nu$by$\begin{array} { r } { 1 + \frac { \bar { \phi } ( W ) } { W \log R } \Lambda _ { R } ^ { 2 } ( \theta _ { i } ( \mathbf { x } ) ) } \end{array}$, multiply out, and apply Proposition 9.5 again to obtain
+whenever$( u _ { 1 } , \ldots , u _ { t } )$is nice, since we can replace<sup>22</sup> each of the$\nu ( \psi _ { i } ( \mathbf x ) )$factors by either $\frac { \phi ( W ) } { W \log R } \Lambda _ { R } ^ { 2 } ( \theta _ { i } ( { \bf x } ) )$or 1, and$N / Q$will exceed$R ^ { 1 0 m }$for$Q$suficiently slowly growing in$N .$, by definition of R and the upper bound on$m .$When$( u _ { 1 } , \ldots , u _ { t } )$is not nice, then we can crudely bound$\nu$by$\begin{array} { r } { 1 + \frac { \phi ( W ) } { W \log R } \Lambda _ { R } ^ { 2 } ( \theta _ { i } ( \mathbf { x } ) ) } \end{array}$, multiply out, and apply Proposition 9.5 again to obtain
 
 $$
 \mathbb {E} \left(\nu \left(\psi_ {1} (\mathbf {x})\right) \dots \nu \left(\psi_ {m} (\mathbf {x})\right) \mid \mathbf {x} \in B _ {u _ {1}, \dots , u _ {t}}\right) = O _ {m, t} (1) + o _ {m, t} (1)
@@ -1732,19 +1668,7 @@ $$
 \psi_ {i} (\mathbf {x}), \psi_ {i} (\mathbf {x} ^ {\prime}) = \sum_ {j = 1} ^ {t} L _ {i j} \lfloor N u _ {j} / Q \rfloor + b _ {i} + O _ {m, t} (N / Q).
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Z → ZN</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ψ<sub>i</sub>(x)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">[ǫ<sub>k</sub>N, 2ǫ<sub>k</sub>N]</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ψ<sub>i</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">B<sub>u1,...,ut</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">b<sub>i</sub></span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>22</sup>There is a technical issue here due to the failure of the quotient map Z → Z<sub>N</sub> to be a bijection. More specifically, the functions only take values in the interval modulo N, and so strictly speaking one needs to subtract a multiple of N from in the formula below. However, because of the relatively small dimensions of the box , the multiple of N one needs to subtract is independent of x, and so it can be absorbed into the constant term of the afine-linear form ψ<sub>i</sub>ψi and thus be harmless.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>22</sup>There is a technical issue here due to the failure of the quotient map $\mathbb Z\to\mathbb Z_N$ to be a bijection. More specifically, the functions $\psi_i(\mathbf{x})$ only take values in the interval $[\epsilon_k N,2\epsilon_k N]$ modulo $N$, and so strictly speaking one needs to subtract a multiple of $N$ from $\psi_i$ in the formula below. However, because of the relatively small dimensions of the box $B_{u_1,\ldots,u_t}$, the multiple of $N$ one needs to subtract is independent of $\mathbf{x}$, and so it can be absorbed into the constant term $b_i$ of the affine-linear form $\psi_i$ and thus be harmless.</span></small>
 
 Thus we must have
 
@@ -1776,7 +1700,7 @@ $$
 \prod_ {p \mid \Delta} (1 + O _ {m} (p ^ {- 1 / 2})) \leqslant \prod_ {1 \leqslant i <   j \leqslant m} \left(\prod_ {p \mid h _ {i} - h _ {j}} (1 + p ^ {- 1 / 2})\right) ^ {O _ {m} (1)}.
 $$
 
-By the arithmetic mean-geometric mean inequality (absorbing all constants into the $O _ { m } ( 1 )$factor) we can thus take$\begin{array} { r } { \tau _ { m } ( n ) : = { \cal O } _ { m } ( \bar { 1 } ) \prod _ { p | n } ( 1 + p ^ { - 1 / 2 } ) ^ { \bar { \cal O } _ { m } ( 1 ) } } \end{array}$for all$n \neq 0$. (The value of$\tau$at 0 is irrelevant for this lemma since we are taking all the$h _ { i }$to be distinct). To prove the claim, it thus sufices to show that
+By the arithmetic mean-geometric mean inequality (absorbing all constants into the $O _ { m } ( 1 )$factor) we can thus take$\begin{array} { r } { \tau _ { m } ( n ) : = O _ { m } ( 1 ) \prod _ { p | n } ( 1 + p ^ { - 1 / 2 } ) ^ { O _ { m } ( 1 ) } } \end{array}$for all$n \neq 0$. (The value of$\tau$at 0 is irrelevant for this lemma since we are taking all the$h _ { i }$to be distinct). To prove the claim, it thus sufices to show that
 
 $$
 \mathbb {E} \bigg (\prod_ {p | n} (1 + p ^ {- 1 / 2}) ^ {O _ {m} (q)} \Bigg | 0 <   | n | \leqslant N \bigg) = O _ {m, q} (1) \text {   for   all   } 0 <   q <   \infty .
@@ -1816,7 +1740,7 @@ $$
 
 for some large absolute constant$C .$From the previous lemma we see that$\mathbb { E } ( \tau ^ { q } ) =$ $O _ { m , q } ( 1 )$for all$q ,$since the addition of the weight$\tau ( 0 )$at 0 only contributes$o _ { m , q } ( 1 )$at most.
 
-We first dispose of the easy case when at least two of the$h _ { i }$are equal. In this case we bound the left-hand side of (9.2) crudely by$\| \nu \| _ { L ^ { \infty } } ^ { m }$. But from Definitions 9.2, 9.3 and by standard estimates for the maximal order of the divisor function$d ( n )$we have the crude bound$\| \nu \| _ { L ^ { \infty } } \ll \exp ( C \log N / \log \log N )$, and the claim follows thanks to our choice of$\tau ( 0 )$
+We first dispose of the easy case when at least two of the$h _ { i }$are equal. In this case we bound the left-hand side of (9.3) crudely by$\| \nu \| _ { L ^ { \infty } } ^ { m }$. But from Definitions 9.2, 9.3 and by standard estimates for the maximal order of the divisor function$d ( n )$we have the crude bound$\| \nu \| _ { L ^ { \infty } } \ll \exp ( C \log N / \log \log N )$, and the claim follows thanks to our choice of$\tau ( 0 )$
 
 Suppose then that the$h _ { i }$are distinct. Since, in (9.3), our aim is only to get an upper bound, there is no need to subdivide$\mathbb { Z } _ { N }$into intervals as we did in the proof of Proposition 9.8. Write
 
@@ -1850,7 +1774,7 @@ Proof of Proposition 9.1. This is immediate from Lemma 9.4, Lemma 9.7, Propositi
 
 To conclude the proof of Theorem 1.1 it remains to verify Propositions 9.5 and 9.6. That will be achieved in this section, assuming an estimate (Lemma 10.4) for a certain class of contour integrals involving the ζ-function. The proof of that estimate is given in the preprint [17], and will be repeated in the Appendix for sake of completeness. The techniques of this section are also rather close to those in [17]. We are greatly indebted to Dan Goldston for sharing this preprint with us.
 
-The linear forms condition for$\Lambda _ { R }$. We begin by proving Proposition 9.5. Recall that for each$1 \leqslant i \leqslant$m we have a linear form$\begin{array} { r } { \psi _ { i } ( \mathbf { x } ) = \sum _ { i = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$in t variables$x _ { 1 } , \ldots , x _ { t }$ The coeficients$L _ { i j }$satisfy$| L _ { i j } | \leqslant \sqrt { w ( N ) } / 2$, where$w ( N )$is the function, tending to infinity with N, which we used to set up the W-trick. We assume that none of the t-tuples$( L _ { i j } ) _ { j = 1 } ^ { t }$are zero or are rational multiples of any other. Define$\theta _ { i } : = W \psi _ { i } + 1$
+The linear forms condition for$\Lambda _ { R }$. We begin by proving Proposition 9.5. Recall that for each$1 \leqslant i \leqslant$m we have a linear form$\begin{array} { r } { \psi _ { i } ( \mathbf { x } ) = \sum _ { j = 1 } ^ { t } L _ { i j } x _ { j } + b _ { i } } \end{array}$in t variables$x _ { 1 } , \ldots , x _ { t }$ The coeficients$L _ { i j }$satisfy$| L _ { i j } | \leqslant \sqrt { w ( N ) } / 2$, where$w ( N )$is the function, tending to infinity with N, which we used to set up the W-trick. We assume that none of the t-tuples$( L _ { i j } ) _ { j = 1 } ^ { t }$are zero or are rational multiples of any other. Define$\theta _ { i } : = W \psi _ { i } + 1$
 
 Let$\begin{array} { r } { B : = \prod _ { j = 1 } ^ { t } I _ { j } } \end{array}$be a product of intervals$I _ { j }$, each of length at least$R ^ { 1 0 m }$. We wish to prove the estimate
 
@@ -1940,9 +1864,9 @@ From$\left( 1 0 . 3 \right)$we have$\omega _ { \emptyset } ( p ) = 1$and$\omega 
 
 To proceed further we need to exploit the hypothesis that the linear parts of$\psi _ { 1 } , \ldots , \psi _ { m }$ are non-zero and not rational multiples of each other. This shall be done via the following elementary estimates on$\omega _ { X } ( p )$
 
-Lemma 10.1 (Local factor estimate). If$p \leqslant w ( N )$, then$\omega _ { X } ( p ) = 0$for all non-empty $X _ { i }$in particular,$E _ { p } = 1$when$p \leqslant w ( N )$. If instead$p > w ( N )$, then$\omega _ { X } ( p ) = p ^ { - 1 }$when $| X | = 1$and$\omega _ { X } ( p ) \leqslant p ^ { - 2 }$when$| X | \geqslant 2$
+Lemma 10.1 (Local factor estimate). If$p \leqslant w ( N )$, then$\omega _ { X } ( p ) = 0$for all non-empty $X$; in particular,$E _ { p } = 1$when$p \leqslant w ( N )$. If instead$p > w ( N )$, then$\omega _ { X } ( p ) = p ^ { - 1 }$when $| X | = 1$and$\omega _ { X } ( p ) \leqslant p ^ { - 2 }$when$| X | \geqslant 2$
 
-Proof. The first statement is clear, since the maps$\theta _ { j } : \mathbb { Z } _ { p } ^ { t } \to \mathbb { Z } _ { p }$are identically 1 when $p \leqslant w ( N )$. The second statement (when$p > w ( N )$and$| { \dot { X } } | = 1 )$is similar since in this case$\theta _ { j }$uniformly covers$\mathbb { Z } _ { p }$. Now suppose$p > w ( N )$and$| X | = 2$. We claim that none of the s pure linear forms$\dot { W } ( \psi _ { i } - b _ { i } )$is a multiple of any other (mod$p )$. Indeed, if this were so then we should have$L _ { i j } L _ { i ^ { \prime } j } ^ { - 1 } \equiv \lambda ( { \bmod { p } } )$for some$\lambda ,$, and for all$j = 1 , \dots , t .$. But if$a / q$and$a ^ { \prime } / q ^ { \prime }$are two rational numbers in lowest terms, with$| a | , | a ^ { \prime } | , q , q ^ { \prime } < \sqrt { w ( N ) } / 2$ then clearly$a / q \not \equiv a ^ { \prime } / q ^ { \prime } ( \mathrm { m o d } p )$unless$a = a ^ { \prime } , q = q ^ { \prime }$. It follows that the two pure linear forms$\psi _ { i } - b _ { i }$and$\psi _ { i ^ { \prime } } - b _ { i ^ { \prime } }$′ are rational multiples of one another, contrary to assumption. Thus the set of$\mathbf { x } \in ( \mathbb { Z } / p \mathbb { Z } ) ^ { t }$for which$\theta _ { i } ( \mathbf { x } ) \equiv 0 ( { \bmod { p } } )$for all$i \in X$is contained in the intersection of two skew afine subspaces of$( \mathbb { Z } / p \mathbb { Z } ) ^ { t }$, and as such has cardinality at most$p ^ { t - 2 }$□
+Proof. The first statement is clear, since the maps$\theta _ { j } : \mathbb { Z } _ { p } ^ { t } \to \mathbb { Z } _ { p }$are identically 1 when $p \leqslant w ( N )$. The second statement (when$p > w ( N )$and$| X | = 1 )$is similar since in this case$\theta _ { j }$uniformly covers$\mathbb { Z } _ { p }$. Now suppose$p > w ( N )$and$| X | = 2$. We claim that none of the s pure linear forms$W ( \psi _ { i } - b _ { i } )$is a multiple of any other (mod$p )$. Indeed, if this were so then we should have$L _ { i j } L _ { i ^ { \prime } j } ^ { - 1 } \equiv \lambda ( { \bmod { p } } )$for some$\lambda ,$, and for all$j = 1 , \dots , t .$. But if$a / q$and$a ^ { \prime } / q ^ { \prime }$are two rational numbers in lowest terms, with$| a | , | a ^ { \prime } | , q , q ^ { \prime } < \sqrt { w ( N ) } / 2$ then clearly$a / q \not \equiv a ^ { \prime } / q ^ { \prime } ( \mathrm { m o d } p )$unless$a = a ^ { \prime } , q = q ^ { \prime }$. It follows that the two pure linear forms$\psi _ { i } - b _ { i }$and$\psi _ { i ^ { \prime } } - b _ { i ^ { \prime } }$are rational multiples of one another, contrary to assumption. Thus the set of$\mathbf { x } \in ( \mathbb { Z } / p \mathbb { Z } ) ^ { t }$for which$\theta _ { i } ( \mathbf { x } ) \equiv 0 ( { \bmod { p } } )$for all$i \in X$is contained in the intersection of two skew afine subspaces of$( \mathbb { Z } / p \mathbb { Z } ) ^ { t }$, and as such has cardinality at most$p ^ { t - 2 }$□
 
 This lemma implies, comparing with (10.7), that
 
@@ -1982,13 +1906,13 @@ $$
 
 where$a _ { 1 } , \dots , a _ { m } , a _ { 1 } ^ { \prime } , \dots , a _ { m } ^ { \prime }$range over all non-negative integers with total sum at most $k .$
 
-Lemma 10.3. The Euler products$\begin{array} { r } { \prod _ { p } E _ { p } ^ { ( j ) } \ f o r \ j \ = \ 1 , 2 } \end{array}$are absolutely convergent in the domain$\mathcal { D } _ { 1 / 6 m } ^ { m }$. In particular,$G _ { 1 } , \ : \hat { G } _ { 2 }$can be continued analytically to this domain. Furthermore, we have the estimates
+Lemma 10.3. The Euler products$\begin{array} { r } { \prod _ { p } E _ { p } ^ { ( j ) } \ f o r \ j \ = \ 1 , 2 } \end{array}$are absolutely convergent in the domain$\mathcal { D } _ { 1 / 6 m } ^ { m }$. In particular,$G _ { 1 } , G _ { 2 }$can be continued analytically to this domain. Furthermore, we have the estimates
 
 $$
 \begin{array}{c} \| G _ {1} \| _ {C ^ {m} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant O _ {m} (1) \\ \| G _ {2} \| _ {C ^ {m} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant O _ {m, w (N)} (1) \\ G _ {1} (0, 0) = 1 + o _ {m} (1) \\ G _ {2} (0, 0) = (W / \phi (W)) ^ {m}. \end{array}
 $$
 
-Remark. The choice$\sigma = 1 / 6 m$is of course not best possible, but in fact any small positive quantity depending on m would sufice for our argument here. The dependence of$O _ { m , w ( N ) } ( 1 )$on$w ( N )$is not important, but one can easily obtain (for instance) growth bounds of the form$\dot { w ( N ) } ^ { O _ { m } ( w ( N ) ) }$
+Remark. The choice$\sigma = 1 / 6 m$is of course not best possible, but in fact any small positive quantity depending on m would sufice for our argument here. The dependence of$O _ { m , w ( N ) } ( 1 )$on$w ( N )$is not important, but one can easily obtain (for instance) growth bounds of the form$w ( N ) ^ { O _ { m } ( w ( N ) ) }$
 
 Proof. First consider$j = 1$. From (10.8) and Taylor expansion we have the crude bound $E _ { p } ^ { ( 1 ) } ( z , z ^ { \prime } ) = 1 + O _ { m } ( p ^ { - 2 + 4 / 6 m } )$in$\mathcal { D } _ { 1 / 6 m } ^ { m }$, which gives the desired convergence and also the$C ^ { m } ( D _ { 1 / 6 m } ^ { m } )$bound on$G _ { 1 } ;$; the estmate for$G _ { 1 } ( 0 , 0 )$also follows since the Euler factors $E _ { p } ^ { ( 1 ) } ( z , z ^ { \prime } )$are identically 1 when$p \leqslant w ( N )$. The bound for$G _ { 2 }$are easy since this is just a finite Euler product involving at most$w ( N )$terms; the formula for$G _ { 2 } ( 0 , 0 )$follows from direct calculation since$\begin{array} { r } { \frac { \phi ( W ) } { W } = \prod _ { p < w ( n ) } ( 1 - \frac { 1 } { p } ) } \end{array}$□
 
@@ -2016,7 +1940,7 @@ $$
 \left\| G \right\| _ {C ^ {j} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant O _ {j, m, w (N)} (1) \text {   for   all   } 0 \leqslant j \leqslant m,
 $$
 
-and in particular we obtain (10.10) by choosing$w ( N )$to grow suficiently slowly in$N .$ Also we have$\begin{array} { r } { G ( 0 , 0 ) = ( 1 + { o _ { m } ( 1 ) } ) ( \frac { \dot { W } } { \phi ( W ) } ) ^ { m } } \end{array}$from that lemma. We conclude (again taking $w ( N )$suficiently slowly growing in N) that the quantity in (10.5) is$\begin{array} { r } { ( 1 + o _ { m } ( 1 ) ) ( \frac { W \log R } { \phi ( W ) } ) ^ { m } } \end{array}$2 as desired. This concludes the proof of Proposition 9.5.□
+and in particular we obtain (10.10) by choosing$w ( N )$to grow suficiently slowly in$N .$ Also we have$\begin{array} { r } { G ( 0 , 0 ) = ( 1 + { o _ { m } ( 1 ) } ) ( \frac { W } { \phi ( W ) } ) ^ { m } } \end{array}$from that lemma. We conclude (again taking $w ( N )$suficiently slowly growing in N) that the quantity in (10.5) is$\begin{array} { r } { ( 1 + o _ { m } ( 1 ) ) ( \frac { W \log R } { \phi ( W ) } ) ^ { m } } \end{array}$as desired. This concludes the proof of Proposition 9.5.□
 
 Higher order correlations for$\Lambda _ { R }$. We now prove Proposition 9.6, using arguments very similar to those used to prove Proposition 9.5. The main diferences here are that the number of variables t is just equal to 1, but on the other hand all the linear forms are equal to each other,$\psi _ { i } ( x _ { 1 } ) = x _ { 1 }$. In particular, these linear forms are now rational multiples of each other and so Lemma 10.1 no longer applies. However, the arguments before that Lemma are still valid; thus we can still write the left-hand side of (9.1) as an expression of the form (10.5) plus an acceptable error, where F is again defined by (10.6) and$E _ { p }$is defined by (10.7); the diference now is that$\omega _ { X } ( p )$is the quantity
 
@@ -2026,7 +1950,7 @@ $$
 
 Again we have$\omega _ { \emptyset } ( p ) = 1$for all$p .$The analogue of Lemma 10.1 is as follows.
 
-Lemma 10.5. If$p \ \leqslant \ w ( N )$, then$\omega _ { X } ( p ) = 0$for all non-empty$X ,$; in particular, $E _ { p } = 1$when$p \leqslant w ( N )$. If instead$p > w ( N )$, then$\omega _ { X } ( p ) = p ^ { - 1 }$when$| X | = 1$and $\dot { \omega _ { X } } ( p ) \leqslant p ^ { - 1 }$when$| X | \geqslant 2$. Furthermore,$i f \left| X \right| \geqslant 2$then$\omega _ { X } ( p ) = 0$unless p divides $\begin{array} { r } { \Delta : = \prod _ { 1 \leqslant i < j \leqslant s } | h _ { i } - h _ { j } | } \end{array}$
+Lemma 10.5. If$p \ \leqslant \ w ( N )$, then$\omega _ { X } ( p ) = 0$for all non-empty$X ,$; in particular, $E _ { p } = 1$when$p \leqslant w ( N )$. If instead$p > w ( N )$, then$\omega _ { X } ( p ) = p ^ { - 1 }$when$| X | = 1$and $\omega _ { X } ( p ) \leqslant p ^ { - 1 }$when$| X | \geqslant 2$. Furthermore,$i f \left| X \right| \geqslant 2$then$\omega _ { X } ( p ) = 0$unless p divides $\begin{array} { r } { \Delta : = \prod _ { 1 \leqslant i < j \leqslant s } | h _ { i } - h _ { j } | } \end{array}$
 
 Proof. When$p \leqslant w ( N )$then$W ( x + h _ { i } ) + 1 \equiv 1 ( \mathrm { m o d } p )$and the claim follows. When $p > w ( N )$and$| X | \geqslant 1 , \omega _ { X } ( p )$is equal to$1 / p$when the residue classes$\{ h _ { i } ( { \bmod { p } } ) : i \in$ $X \}$are all equal, and zero otherwise, and the claim again follows.□
 
@@ -2054,17 +1978,41 @@ $$
 \begin{array}{l} E _ {p} ^ {(0)} = 1 + \mathbf {1} _ {p > w (N), p | \Delta} \lambda_ {p} (z, z ^ {\prime}) \\ E _ {p} ^ {(1)} = \frac {E _ {p}}{E _ {p} ^ {(0)} \prod_ {j = 1} ^ {m} (1 - \mathbf {1} _ {p > w (N)} p ^ {- 1 - z _ {j}}) (1 - \mathbf {1} _ {p > w (N)} p ^ {- 1 - z _ {j} ^ {\prime}}) (1 - \mathbf {1} _ {p > w (N)} p ^ {- 1 - z _ {j} - z _ {j} ^ {\prime}}) ^ {- 1}} \\ E _ {p} ^ {(2)} = \prod_ {j = 1} ^ {m} (1 - \mathbf {1} _ {p \leqslant w (N)} p ^ {- 1 - z _ {j}}) ^ {- 1} (1 - \mathbf {1} _ {p \leqslant w (N)} p ^ {- 1 - z _ {j} ^ {\prime}}) ^ {- 1} (1 - \mathbf {1} _ {p \leqslant w (N)} p ^ {- 1 - z _ {j} - z _ {j} ^ {\prime}}) \\ E _ {p} ^ {(3)} = \prod_ {j = 1} ^ {m} (1 - p ^ {- 1 - z _ {j}}) (1 - p ^ {- 1 - z _ {j} ^ {\prime}}) (1 - p ^ {- 1 - z _ {j} - z _ {j} ^ {\prime}}) ^ {- 1}. \end{array}
 $$
 
-Write$\begin{array} { r } { G _ { j } = \prod _ { p } E _ { p } ^ { ( j ) } } \end{array}$. Then, as before,$F = G _ { 0 } G _ { 1 } G _ { 2 } G _ { 3 }$and$G _ { 3 }$is given by (10.9) as before. As for$\dot { G } _ { 0 } , G _ { 1 } , G _ { 2 }$, we have the following analogue of Lemma 10.3.
+Write$\begin{array} { r } { G _ { j } = \prod _ { p } E _ { p } ^ { ( j ) } } \end{array}$. Then, as before,$F = G _ { 0 } G _ { 1 } G _ { 2 } G _ { 3 }$and$G _ { 3 }$is given by (10.9) as before. As for$G _ { 0 } , G _ { 1 } , G _ { 2 }$, we have the following analogue of Lemma 10.3.
 
-Lemma 10.6. Let$0 < \sigma < 1 / 6 m$. Then the Euler products$\begin{array} { r } { \prod _ { p } E _ { p } ^ { ( l ) } ~ f o r ~ l = 0 , 1 , 2 } \end{array}$are absolutely convergent in the domain$\mathcal { D } _ { \sigma } ^ { m }$. In particular,$G _ { 0 } , \ G _ { 1 } ^ { ' } , \ G _ { 2 }$can be continued analytically to this domain. Furthermore, we have the estimates
-
-(10.12)
+Lemma 10.6. Let$0 < \sigma < 1 / 6 m$. Then the Euler products$\begin{array} { r } { \prod _ { p } E _ { p } ^ { ( l ) } ~ f o r ~ l = 0 , 1 , 2 } \end{array}$are absolutely convergent in the domain$\mathcal { D } _ { \sigma } ^ { m }$. In particular,$G _ { 0 } , \ G _ { 1 } , \ G _ { 2 }$can be continued analytically to this domain. Furthermore, we have the estimates
 
 $$
-\begin{array}{r l} & {\| G _ {0} \| _ {C ^ {r} (\mathcal {D} _ {\sigma} ^ {m})} \leqslant O _ {m} \left(\frac {\log R}{\log \log R}\right) ^ {r} \prod_ {p | \Delta} (1 + O _ {m} (p ^ {2 m \sigma - 1})) \quad f o r 0 \leqslant r \leqslant m} \\ & {\| G _ {0} \| _ {C ^ {m} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant \exp (O _ {m} (\log^ {1 / 3} R))} \\ & {\| G _ {1} \| _ {C ^ {m} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant O _ {m} (1)} \\ & {\| G _ {2} \| _ {C ^ {m} (\mathcal {D} _ {1 / 6 m} ^ {m})} \leqslant O _ {m, w (N)} (1)} \\ & {\quad G _ {0} (0, 0) = \prod_ {p | \Delta} (1 + O _ {m} (p ^ {- 1 / 2}))} \\ & {\quad G _ {1} (0, 0) = 1 + o _ {m} (1)} \\ & {\quad G _ {2} (0, 0) = (W / \phi (W)) ^ {m}.} \end{array}\tag{10.13}
+\|G_0\|_{C^r(\mathcal D_\sigma^m)}
+\leqslant O_m\left(\frac{\log R}{\log\log R}\right)^r
+\prod_{p\mid\Delta}\left(1+O_m(p^{2m\sigma-1})\right)
+\quad\text{for }0\leqslant r\leqslant m.
+\tag{10.12}
 $$
 
-(10.14)
+$$
+\|G_0\|_{C^m(\mathcal D_{1/(6m)}^m)}
+\leqslant \exp\left(O_m(\log^{1/3}R)\right).
+\tag{10.13}
+$$
+
+$$
+\begin{aligned}
+\|G_1\|_{C^m(\mathcal D_{1/(6m)}^m)} &\leqslant O_m(1),\\
+\|G_2\|_{C^m(\mathcal D_{1/(6m)}^m)} &\leqslant O_{m,w(N)}(1).
+\end{aligned}
+$$
+
+$$
+G_0(0,0)=\prod_{p\mid\Delta}\left(1+O_m(p^{-1/2})\right).\tag{10.14}
+$$
+
+$$
+\begin{aligned}
+G_1(0,0)&=1+o_m(1),\\
+G_2(0,0)&=\left(\frac{W}{\phi(W)}\right)^m.
+\end{aligned}
+$$
 
 Proof. The estimates for$G _ { 1 }$and$G _ { 2 }$proceed exactly as in Lemma 10.3 (the additional factors of$\lambda _ { p } \big ( z , z ^ { \prime } \big )$which appear on both the numerator and denominator of$E _ { p } ^ { ( 1 ) }$cancel to first order, and thus do not present any new dificulties); it is the estimates for$G _ { 0 }$ which are the most interesting.
 
@@ -2074,7 +2022,7 @@ $$
 \Delta = \prod_ {1 \leqslant i <   j \leqslant m} | h _ {i} - h _ {j} | \leqslant N ^ {m ^ {2}} \leqslant R ^ {O _ {m} (1)},\tag{10.15}
 $$
 
-we thus see that the number of factors in the Euler product for$G _ { 0 }$is$O _ { m } { \big ( } { \frac { \log R } { \log \log R } } { \big ) }$ Upon diferentiating$r$times for any$0 \leqslant r \leqslant m$using the Leibnitz rule, one gets a sum of$O _ { m } ( ( \log R / \log R ) ^ { r } )$terms, each of which consists of$O _ { m } ( \log R / \log R )$factors, each of which is equal to some derivative of$1 + \lambda _ { p } ( z , z ^ { \prime } )$of order between 0 and$^ r \cdot$On $\mathcal { D } _ { \sigma } ^ { m }$, each factor is bounded by$1 + O _ { m } ( p ^ { 2 m \sigma - 1 } )$(in fact, the terms containing a non-zero number of derivatives will be much smaller since the constant term 1 is eliminated). This gives (10.12).
+we thus see that the number of factors in the Euler product for$G_0$ is $O_m\left(\frac{\log R}{\log\log R}\right)$. Upon differentiating $r$ times for any $0\leqslant r\leqslant m$ using the Leibnitz rule, one gets a sum of $O_m\left((\frac{\log R}{\log\log R})^r\right)$ terms, each of which consists of $O_m(\frac{\log R}{\log\log R})$ factors, each of which is equal to some derivative of $1+\lambda_p(z,z')$ of order between 0 and $r$. On $\mathcal D_\sigma^m$, each factor is bounded by $1+O_m(p^{2m\sigma-1})$ (in fact, the terms containing a non-zero number of derivatives will be much smaller since the constant term 1 is eliminated). This gives (10.12).
 
 Now we prove (10.13). In light of (10.12), it sufices to show that
 
@@ -2120,31 +2068,15 @@ In this section we discuss some extensions and refinements of our main result. F
 
 As we remarked earlier, our method also extends to prove Theorem 1.2, namely that any subset of the primes with positive relative upper density contains a k-term arithmetic progression. The only significant change<sup>23</sup> to the proof is that one must use the pigeonhole principle to replace the residue class$n \equiv 1 ( { \bmod { W } } )$by a more general residue class $n \equiv b ( { \bmod { W } } )$for some b coprime to$W$, since the set A in Theorem 1.2 does not need to obey a Dirichlet-type theorem in these residue classes. However it is easy to verify that this does not significantly afect the rest of the argument, and we leave the details to the reader.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">O(1)</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>23</sup>Also, since we are only assuming positivity of the upper density and not the lower density, we only have good density control for an infinite sequence $N_1,N_2,\ldots\to\infty$ of integers, which may not be prime. However one can easily use Bertrands postulate (for instance) to make the $N_j$ prime, giving up a factor of $O(1)$ at most.</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">N<sub>j</sub></span></small>
+Applying Theorem 1.2 to the set of primes$p \equiv 1 ( { \bmod { 4 } } )$, we obtain the previously unknown fact that there are arbitrarily long progressions consisting of numbers which are the sum of two squares. For this problem, more satisfactory results were known for small k than was the case for the primes. Let$S$be the set of sums of two squares. It is a simple matter to show that there are infinitely many 4-term arithmetic progressions in$S .$ Indeed, Heath-Brown [26] observed that the numbers$( n - 1 ) ^ { 2 } + ( n - 8 ) ^ { 2 } , ( n - 7 ) ^ { 2 } + ( n + 4 ) ^ { 2 }$ $( n + 7 ) ^ { 2 } + ( n - 4 ) ^ { 2 }$and$( n + 1 ) ^ { 2 } + ( n + 8 ) ^ { 2 }$always form such a progression; in fact, he was able to prove much more, in particular finding an asymptotic for the number of 4-term progressions in S, all of whose members are at most N (weighted by$r ( n )$, the number of representations of n as the sum of two squares).
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">N<sub>1</sub>, N<sub>2</sub>, . . . → ∞</span></small>
+It is reasonably clear that our method will produce long arithmetic progressions for many sets of primes for which one can give a lower bound which agrees with some upper bound coming from a sieve, up to a multiplicative constant. Invoking Chen’s famous theorem[7] to the efect that there are $\gg N/\log^2 N$ primes $p\leqslant N$ for which $p+2$ is a prime or a product of two primes, it ought to be a simple matter to adapt our arguments to show that there are arbitrarily long arithmetic progressions $p_1,\ldots,p_k$ of primes, such that each $p_i+2$ is either prime or the product of two primes; indeed there should be $N/\log^{2k}N$ such progressions with entries less than N. Whilst we do not$\mathrm { \ p l a n ^ { 2 4 } }$to write a detailed proof of this fact, we will in [23] give a proof of the case $k = 3$using harmonic analysis.
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>23</sup>Also, since we are only assuming positivity of the upper density and not the lower density, we only have good density control for an infinite sequence of integers, which may not be prime. However one can easily use Bertrands postulate (for instance) to make the prime, giving up a factor of  at most.</span></small>
+The methods in this paper suggest a more general “transference principle”, in that if a type of pattern (such as an arithmetic progression) is forced to arise infinitely often within sets of positive density, then it should also be forced to arise infinitely often inside the prime numbers, or more generally inside any subset of a pseudorandom set (such as the “almost primes”) of positive relative density. Thus, for instance, one is led to conjecture a Bergelson-Leibman type result (cf. [4]) for primes. That is, one could hope to show that if$F _ { i } : \mathbb { N } \to \mathbb { N }$are polynomials with$F ( 0 ) = 0$, then there are infinitely many configurations$( a + F _ { 1 } ( d ) , \ldots , a + F _ { k } ( d ) )$in which all k elements are prime. This however seems to require some modification<sup>25</sup> to our current argument, in large part because of the need to truncate the step parameter d to be at most a small power of N. In a similar spirit, the work of Furstenberg and Katznelson [11] on multidimensional analogues of Szemer´edi’s theorem, combined with this transference principle, now suggests that one should be able to$\mathrm { s h o w ^ { 2 6 } }$that the Gaussian primes in Z[i] contain infinitely many constellations of any prescribed shape, and similarly for other number fields. Furthermore, the later work of Furstenberg and Katznelson [12] on density Hales-Jewett theorems suggests that one could also show that for any finite field$F$, the monic irreducible polynomials in$F [ t ]$contain afine subspaces over$F$of arbitrarily high dimension. Again, these results would require non-trivial modifications to our argument for a number of reasons, not least of which is the fact that the characteristic factors for these more advanced generalizations of Szemer´edi’s theorem are much less well understood.
 
-Applying Theorem 1.2 to the set of primes$p \equiv 1 ( { \bmod { 4 } } )$, we obtain the previously unknown fact that there are arbitrarily long progressions consisting of numbers which are the sum of two squares. For this problem, more satisfactory results were known for small k than was the case for the primes. Let$S$be the set of sums of two squares. It is a simple matter to show that there are infinitely many 4-term arithmetic progressions in$S .$ Indeed, Heath-Brown [26] observed that the numbers$( n - 1 ) ^ { 2 } + ( n - 8 ) ^ { 2 } , ( n - 7 ) ^ { 2 } + ( n + 4 ) ^ { 2 }$ $( n + 7 ) ^ { 2 } + ( n - 4 ) ^ { 2 }$and$( n { \dot { + } } 1 ) ^ { 2 } + ( n + 8 ) ^ { 2 }$always form such a progression; in fact, he was able to prove much more, in particular finding an asymptotic for the number of 4-term progressions in S, all of whose members are at most N (weighted by$r ( n )$, the number of representations of n as the sum of two squares).
-
-It is reasonably clear that our method will produce long arithmetic progressions for many sets of primes for which one can give a lower bound which agrees with some upper bound coming from a sieve, up to a multiplicative constant. Invoking Chen’s famous theorem[7] to the efect that there are$\mathrm { { } } \gg { \cal N } / \log ^ { 2 } N$primes$p \leqslant N$for which $p + 2$is a prime or a product of two primes, it ought to be a simple matter to adapt our arguments to show that there are arbitrarily long arithmetic progressions$p _ { 1 } , \ldots , p _ { k }$ of primes, such that each$p _ { i } + 2$is either prime or the product of two primes; indeed there should be$N / \log ^ { 2 k } \bar { N }$such progressions with entries less than N. Whilst we do not$\mathrm { \ p l a n ^ { 2 4 } }$to write a detailed proof of this fact, we will in [23] give a proof of the case $k = 3$using harmonic analysis.
-
-The methods in this paper suggest a more general “transference principle”, in that if a type of pattern (such as an arithmetic progression) is forced to arise infinitely often within sets of positive density, then it should also be forced to arise infinitely often inside the prime numbers, or more generally inside any subset of a pseudorandom set (such as the “almost primes”) of positive relative density. Thus, for instance, one is led to conjecture a Bergelson-Leibman type result (cf. [4]) for primes. That is, one could hope to show that if$F _ { i } : \mathbb { N }  \mathbb { N }$are polynomials with$F ( 0 ) = 0$, then there are infinitely many configurations$( a + F _ { 1 } ( d ) , \ldots , a + F _ { k } ( d ) )$in which all k elements are prime. This however seems to require some modification<sup>25</sup> to our current argument, in large part because of the need to truncate the step parameter d to be at most a small power of N. In a similar spirit, the work of Furstenberg and Katznelson [11] on multidimensional analogues of Szemer´edi’s theorem, combined with this transference principle, now suggests that one should be able to$\mathrm { s h o w ^ { 2 6 } }$that the Gaussian primes in Z[i] contain infinitely many constellations of any prescribed shape, and similarly for other number fields. Furthermore, the later work of Furstenberg and Katznelson [12] on density Hales-Jewett theorems suggests that one could also show that for any finite field$F$, the monic irreducible polynomials in$F [ t ]$contain afine subspaces over$F$of arbitrarily high dimension. Again, these results would require non-trivial modifications to our argument for a number of reasons, not least of which is the fact that the characteristic factors for these more advanced generalizations of Szemer´edi’s theorem are much less well understood.
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">W;</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">Λ<sub>R</sub>(Wn+b)Λ<sub>R</sub>(Wn+b+2)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">ΛR(Wn+1)</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">1 6 b < W</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">b, b + 2</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>24</sup>Very briefly, the idea is to replace the function Λ<sub>R</sub>(Wn + 1) in the definition of the pseudorandom measure ν with a variant such as for some for which are both coprime to  one can use Chen’s theorem and the pigeonhole principle to locate a b for which this majorant will capture a large number of Chen primes. We leave the details to the reader.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>24</sup>Very briefly, the idea is to replace the function $\Lambda_R(Wn+1)$ in the definition of the pseudorandom measure $\nu$ with a variant such as $\Lambda_R(Wn+b)\Lambda_R(Wn+b+2)$ for some $1\leqslant b<W$ for which $b,b+2$ are both coprime to $W$; one can use Chen’s theorem and the pigeonhole principle to locate a $b$ for which this majorant will capture a large number of Chen primes. We leave the details to the reader.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280"><sup>25</sup>Note added in press: such a result has been obtained by the second author and T. Ziegler, to appear in Acta Math.</span></small>
 
@@ -2226,7 +2158,7 @@ $$
 
 for some$\delta = \delta ( \sigma , \beta ) > 0$independent of R.
 
-Proof. We observe from Lemma A.1 that we have enough decay of the integrand in the domain$\mathcal { D } _ { \sigma } ^ { 1 }$to interchange the order of integration, and to shift contours in either one of the variables$z , z ^ { \prime }$while keeping the other fixed, without any dificulties when $\Im ( z ) , \Im ( z ^ { \prime } )  \infty ;$the only issue is to keep track of when the contour passes through a pole of the integrand. In particular we can shift the$z ^ { \prime }$contour from$\Gamma _ { 1 }$to$\Gamma _ { 2 }$, since we do not encounter any of the poles of the integrand while doing so. Let us look at the integrand for each fixed$z ^ { \prime } \in \Gamma _ { 2 }$, viewing it as an analytic function of$z .$. We now attempt to shift the z contour of integration to$\Gamma _ { 0 }$. In so doing the contour passes just one pole, a simple one at$z = 0$. The residue there is$\begin{array} { r } { \frac { 1 } { 2 \pi i } \int _ { \Gamma _ { 2 } } f ( 0 , z ^ { \prime } ) \frac { R ^ { z ^ { \prime } } } { z ^ { \prime 2 } } d z ^ { \prime } } \end{array}$, and so we
+Proof. We observe from Lemma A.1 that we have enough decay of the integrand in the domain$\mathcal { D } _ { \sigma } ^ { 1 }$to interchange the order of integration, and to shift contours in either one of the variables$z , z ^ { \prime }$while keeping the other fixed, without any dificulties when $\Im ( z ) , \Im ( z ^ { \prime } ) \to \infty ;$the only issue is to keep track of when the contour passes through a pole of the integrand. In particular we can shift the$z ^ { \prime }$contour from$\Gamma _ { 1 }$to$\Gamma _ { 2 }$, since we do not encounter any of the poles of the integrand while doing so. Let us look at the integrand for each fixed$z ^ { \prime } \in \Gamma _ { 2 }$, viewing it as an analytic function of$z .$. We now attempt to shift the z contour of integration to$\Gamma _ { 0 }$. In so doing the contour passes just one pole, a simple one at$z = 0$. The residue there is$\begin{array} { r } { \frac { 1 } { 2 \pi i } \int _ { \Gamma _ { 2 } } f ( 0 , z ^ { \prime } ) \frac { R ^ { z ^ { \prime } } } { z ^ { \prime 2 } } d z ^ { \prime } } \end{array}$, and so we
 
 have$I = I _ { 1 } + I _ { 2 }$, where
 
@@ -2234,7 +2166,7 @@ $$
 \begin{array}{l} I _ {1} := \frac {1}{2 \pi i} \int_ {\Gamma_ {2}} f (0, z ^ {\prime}) \frac {R ^ {z ^ {\prime}}}{z ^ {\prime 2}} d z ^ {\prime} \\ I _ {2} := \frac {1}{(2 \pi i) ^ {2}} \int_ {\Gamma_ {2}} \int_ {\Gamma_ {0}} f (z, z ^ {\prime}) \frac {\zeta (1 + z + z ^ {\prime}) R ^ {z + z ^ {\prime}}}{\zeta (1 + z) \zeta (1 + z ^ {\prime}) z ^ {2} z ^ {\prime 2}} d z d z ^ {\prime}. \end{array}
 $$
 
-To evaluate$I _ { 1 }$, we shift the$z ^ { \prime }$contour of integration to Γ<sub>0</sub>. Again there is just one pole, a double one at$z ^ { \prime } = 0$. The residue there is$f ( 0 , 0 )$log$\begin{array} { r } { R + \frac { \partial \bar { f } } { \partial z ^ { \prime } } ( 0 , 0 ) } \end{array}$, and so
+To evaluate$I _ { 1 }$, we shift the$z ^ { \prime }$contour of integration to Γ<sub>0</sub>. Again there is just one pole, a double one at$z ^ { \prime } = 0$. The residue there is$f ( 0 , 0 )$log$\begin{array} { r } { R + \frac { \partial f } { \partial z ^ { \prime } } ( 0 , 0 ) } \end{array}$, and so
 
 $$
 \begin{array}{r c l} {I _ {1}} & = & {f (0, 0) \log R + \frac {\partial f}{\partial z ^ {\prime}} (0, 0) + \frac {1}{2 \pi i} \int_ {\Gamma_ {0}} f (0, z ^ {\prime}) \frac {R ^ {z ^ {\prime}}}{z ^ {\prime 2}} d z ^ {\prime}} \\ & = & {f (0, 0) \log R + \frac {\partial f}{\partial z ^ {\prime}} (0, 0) + O _ {m} (e ^ {- \delta \sqrt {\log R}}),} \end{array}
@@ -2242,7 +2174,7 @@ $$
 
 for some$\delta > 0$, the latter step being a consequence of our bound on$f$and (A.2) (in the case$B = 0 )$
 
-To estimate$I _ { 2 } .$, we first swap the order of integration and, for each fixed$z ,$view the integrand as an analytic function of$z ^ { \prime } .$. We move the$z ^ { \prime }$contour from$\Gamma _ { 2 }$to$\Gamma _ { 0 } .$this again being allowed since we have suficient decay in vertical strips as$| \Im z ^ { \prime } |  \infty$. In so doing we pass exactly two simple poles, at$z ^ { \prime } = - z$and$z ^ { \prime } = 0$. The residue at the first is exactly
+To estimate$I _ { 2 } .$, we first swap the order of integration and, for each fixed$z ,$view the integrand as an analytic function of$z ^ { \prime } .$. We move the$z ^ { \prime }$contour from$\Gamma _ { 2 }$to$\Gamma _ { 0 } .$this again being allowed since we have sufficient decay in vertical strips as$| \Im z ^ { \prime } | \to \infty$. In so doing we pass exactly two simple poles, at$z ^ { \prime } = - z$and$z ^ { \prime } = 0$. The residue at the first is exactly
 
 $$
 \frac {1}{2 \pi i} \int_ {\Gamma_ {0}} f (z, - z) \frac {d z}{\zeta (1 + z) \zeta (1 - z) z ^ {4}},
@@ -2268,7 +2200,7 @@ $$
 | \zeta (1 + z + z ^ {\prime}) | \ll (1 + | z | + | z ^ {\prime} |) ^ {1 / 4} \ll (1 + | z |) ^ {1 / 4} (1 + | z ^ {\prime} |) ^ {1 / 4}\tag{A.5}
 $$
 
-for all$z , z ^ { \prime } \in \Gamma _ { 0 }$. Once this is proven it follows from (A.2), applied with$A = 7 / 4$and $A = 2$, that the integral$\left( \mathrm { A . 4 } \right)$is bounded by$O _ { m } ( e ^ { - \delta \sqrt { \log R } } )$for some$\delta > 0$. Now if $1 / 2 \leqslant \sigma \leqslant 1$and$| t | \geqslant 1 / 1 0 0$we have the convexity bound$| \zeta ( \sigma + i t ) | \ll _ { \epsilon } | t | ^ { 1 - \sigma + \epsilon }$(cf. [41, Chapter V]), and so (A.5) is indeed true provided that$\vert \mathfrak { T } ( z + z ^ { \prime } ) \vert \geqslant 1 / 1 0 0$. However since$z , z ^ { \prime } \in \Gamma _ { 0 }$one may see that if$| \mathbb { S } ( z ) | , | \bar { \mathbb { S } } ( z ^ { \prime } ) | \leqslant t$then$| z + z ^ { \prime } | \gg 1 / \log ( t + 2 )$. It follows from Lemma A.1 that (A.5) holds when$| \mathbb { S } ( z + z ^ { \prime } ) | \leqslant 1 / 1 0 0$as well.
+for all$z , z ^ { \prime } \in \Gamma _ { 0 }$. Once this is proven it follows from (A.2), applied with$A = 7 / 4$and $A = 2$, that the integral$\left( \mathrm { A . 4 } \right)$is bounded by$O _ { m } ( e ^ { - \delta \sqrt { \log R } } )$for some$\delta > 0$. Now if $1 / 2 \leqslant \sigma \leqslant 1$and$| t | \geqslant 1 / 1 0 0$we have the convexity bound$| \zeta ( \sigma + i t ) | \ll _ { \epsilon } | t | ^ { 1 - \sigma + \epsilon }$(cf. [41, Chapter V]), and so (A.5) is indeed true provided that$|\Im(z+z')|\geqslant 1/100$. However since$z , z ^ { \prime } \in \Gamma _ { 0 }$one may see that if$|\Im z|,|\Im z'|\leqslant t$then$| z + z ^ { \prime } | \gg 1 / \log ( t + 2 )$. It follows from Lemma A.1 that (A.5) holds when$|\Im(z+z')|\leqslant 1/100$as well.
 
 Thus we now have estimates for$I _ { 1 }$and$I _ { 2 }$up to errors of$O _ { m } ( e ^ { - \delta \sqrt { \log R } } )$. Putting all of this together completes the proof of the lemma.
 
@@ -2301,10 +2233,10 @@ and so this term is$\begin{array} { r } { O ( \operatorname* { s u p } _ { z \in
 Suppose then that we have established the result for m$\geqslant 1$and wish to deduce it for $m + 1$. Applying Lemma A.3 in the variables$z _ { m + 1 } , z _ { m + 1 } ^ { \prime }$, we get$I ( G , m + 1 ) =$
 
 $$
-\begin{array}{r l} & {\frac {\log R}{(2 \pi i) ^ {2 m}} \int_ {\Gamma_ {1}} \ldots \int_ {\Gamma_ {1}} G (z _ {1}, \ldots , z _ {m}, 0, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, 0) \prod_ {j = 1} ^ {m} \frac {\zeta (1 + z _ {j} + z _ {j} ^ {\prime})}{\zeta (1 + z _ {j}) \zeta (1 + z _ {j} ^ {\prime})} \frac {R ^ {z _ {j} + z _ {j} ^ {\prime}}}{z _ {j} ^ {2} z _ {j} ^ {\prime 2}} d z _ {j} d z _ {j} ^ {\prime}} \\ & {+ \frac {1}{(2 \pi i) ^ {2 m}} \int_ {\Gamma_ {1}} \ldots \int_ {\Gamma_ {1}} H (z _ {1}, \ldots , z _ {m}, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}) \prod_ {j = 1} ^ {m} \frac {\zeta (1 + z _ {j} + z _ {j} ^ {\prime})}{\zeta (1 + z _ {j}) \zeta (1 + z _ {j} ^ {\prime})} \frac {R ^ {z _ {j} + z _ {j} ^ {\prime}}}{z _ {j} ^ {2} z _ {j ^ {\prime 2}}} d z _ {j} d z _ {j} ^ {\prime}} \\ & {+ O (e ^ {- \delta \sqrt {\log R}})} \\ & {= I (G (z _ {1}, \ldots , z _ {m}, 0, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, 0), m) \log R + I (H, m) + O (e ^ {- \delta \sqrt {\log R}})} \end{array}
+\begin{array}{r l} & {\frac {\log R}{(2 \pi i) ^ {2 m}} \int_ {\Gamma_ {1}} \ldots \int_ {\Gamma_ {1}} G (z _ {1}, \ldots , z _ {m}, 0, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, 0) \prod_ {j = 1} ^ {m} \frac {\zeta (1 + z _ {j} + z _ {j} ^ {\prime})}{\zeta (1 + z _ {j}) \zeta (1 + z _ {j} ^ {\prime})} \frac {R ^ {z _ {j} + z _ {j} ^ {\prime}}}{z _ {j} ^ {2} z _ {j} ^ {\prime 2}} d z _ {j} d z _ {j} ^ {\prime}} \\ & {+ \frac {1}{(2 \pi i) ^ {2 m}} \int_ {\Gamma_ {1}} \ldots \int_ {\Gamma_ {1}} H (z _ {1}, \ldots , z _ {m}, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}) \prod_ {j = 1} ^ {m} \frac {\zeta (1 + z _ {j} + z _ {j} ^ {\prime})}{\zeta (1 + z _ {j}) \zeta (1 + z _ {j} ^ {\prime})} \frac {R ^ {z _ {j} + z _ {j} ^ {\prime}}}{z _ {j} ^ {2} z _ {j} ^ {\prime 2}} d z _ {j} d z _ {j} ^ {\prime}} \\ & {+ O (e ^ {- \delta \sqrt {\log R}})} \\ & {= I (G (z _ {1}, \ldots , z _ {m}, 0, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, 0), m) \log R + I (H, m) + O (e ^ {- \delta \sqrt {\log R}})} \end{array}
 $$
 
-where$\delta > 0$and$\boldsymbol { H } : \mathcal { D } _ { \sigma } ^ { m }  \mathbb { C }$is the function
+where$\delta > 0$and$H : \mathcal { D } _ { \sigma } ^ { m } \to \mathbb { C }$is the function
 
 $$
 \begin{array}{l} {H (z _ {1}, \ldots , z _ {m}, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}) := \frac {\partial G}{\partial z _ {m + 1} ^ {\prime}} (z _ {1}, \ldots , z _ {m}, 0, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, 0)} \\ {+ \frac {1}{2 \pi i} \int_ {\Gamma_ {0}} G (z _ {1}, \ldots , z _ {m}, z _ {m + 1}, z _ {1} ^ {\prime}, \ldots , z _ {m} ^ {\prime}, - z _ {m + 1}) \frac {d z _ {m + 1}}{\zeta (1 + z _ {m + 1}) \zeta (1 - z _ {m + 1}) z _ {m + 1} ^ {4}}.} \end{array}
@@ -2413,3 +2345,11 @@ which is what we wanted to prove.
 [44] T. Ziegler, Universal characteristic factors and Furstenberg averages, J. Amer. Math. Soc. 20 (2007), no. 1, 53–97.
 
 [45] , A non-conventional ergodic theorem for a nilsystem, A non-conventional ergodic theorem for a nilsystem. Ergodic Theory Dynam. Systems 25 (2005), no. 4, 1357–1370.
+
+School of Mathematics, University Walk, Bristol, BS8 1TW
+
+E-mail address: b.j.green@bristol.ac.uk
+
+Department of Mathematics, University of California at Los Angeles, Los Angeles, CA 90095
+
+E-mail address: tao@math.ucla.edu
