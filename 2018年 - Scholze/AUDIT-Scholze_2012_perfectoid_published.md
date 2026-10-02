@@ -139,3 +139,15 @@
   5. Proposition$2.12.-Let 乱码头→Proposition 2.12. — Let、句末 X=Spa(R,R^+) 补句点
   6. Prop 2.12(ii)(iii)：$Let f∈\mathbb{R}$→Let f∈R（\mathbb 系误字族+Let 入 math）、"≠0 f o r"→"≠0 for"、"X.$."→"X."、"IfR/thenf"→If R/then f、(iii) Then f∈\mathbb{R}^+→\mathrm{R}^+ 并补句点（p.255 (ii)(iii) 行）
 - 备注：|ϖ^N(x)| display 与 print 逐字符一致；(i) 的 \begin{array} 包装为排版伪影、内容正确，未动。
+## p.012（PDF p.12 / 印刷 p.256）
+- PNG：audit/p012.png（pngmono 150dpi）
+- 核对：页眉 256/PETER SCHOLZE；Prop 2.12 证明（[19] Prop 3.6(i)/[20] Lemma 1.4/[19] Lemma 3.3(i)+QED □）；structure sheaf 引入段；Definition 2.13（R[f_i/g]、R[g^{-1}]、aR_0[f_i/g] 基、B 积分闭包、(R⟨f_i/g⟩,B̂)）；Obviously display Spa(R⟨f_i/g⟩,B̂)→Spa(R,R^+)；Proposition 2.14 [20, Prop 1.3] 泛性质（两处箭头）；(O_X(U),O_X^+(U)) 定义 display；For example 完备化句；f_i/g∈S^+ 段；O_X(W)=lim_{U⊂W rational} display
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Proof 行末 ".-"（QED 墓碑乱码）→ "□"（p.256 首行右缘 print 有 tombstone 方块）
+  2. Definition 2.13：积分闭包目标 "$\mathrm{R}^+[\frac{\bar f_1}{g},…]$" 伪 \bar 删除；"in$\mathbb{R}[f_i/g…]$"→\mathrm{R}（p.256 定义行）
+  3. Proposition 2.14 头 "[20, Proposition$I.3].-In"（罗马 I+乱码）→ "[20, Proposition 1.3]. — In"（print 阿拉伯 1.3）；"(R,R^+)␣(S,S^+)" 缺箭头→→；"Spa(S,S^+)␣Spa(R,R^+)" 缺箭头→→（p.256 Prop 2.14 行原图）
+  4. "In particular,$(\mathrm{\bar R}⟨…⟩, B<sup>ˆ</sup> )"（伪 \bar R、B̂ 误为上标 ˆ）→$(\mathrm{R}⟨…⟩,\hat{\mathrm{B}})$（p.256 In particular 行）
+  5. "is the completion$\varrho f(\mathrm{R},\mathrm{R}^+)$"（of 误成 ρ f）→"completion of$(\mathrm{R},\mathrm{R}^+)$."+补句点（p.256 For example 行）
+  6. "f_i/g∈S^+" 句末补句点（print 原有）
+  7. lim 下标 "U⊂Wrational"→"U⊂W rational"（缺空格）；"and similarly for O_X^+"句末补句点
+- 备注：Definition 2.13 中 a$\mathsf{R}_0$[f_i/g] 的 \mathsf 字族与 print 粗斜体不同但记号无歧义，按排版伪影保留；三个 display 与 print 一致。

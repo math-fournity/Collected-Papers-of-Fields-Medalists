@@ -300,11 +300,11 @@ Proposition 2.12. — Let$\left( \mathrm { R } , \mathrm { R } ^ { + } \right)$b
 
 (iii) Let$f \in \mathrm { R }$be such that$| f ( x ) | \leq 1$for all$x \in \mathrm { X }$. Then$f \in \mathrm { R } ^ { + }$.
 
-Proof. — Part (i) is [19], Proposition 3.6(i). Part (ii) is [20], Lemma 1.4, and part (iii) follows from [19], Lemma 3.3(i).-
+Proof. — Part (i) is [19], Proposition 3.6(i). Part (ii) is [20], Lemma 1.4, and part (iii) follows from [19], Lemma 3.3(i).□
 
 We want to endow$\mathrm { X = S p a ( R , R ^ { + } ) }$with a structure sheaf$\mathcal { O } _ { \mathrm { X } }$. The construction is as follows.
 
-Definition 2.13. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra, and let$\mathrm { U } = \mathrm { U } ( \frac { f _ { 1 } , \dots , f _ { n } } { g } ) \subset \mathrm { X } =$ $\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$be a rational subset. Choose some$\mathrm { R } _ { 0 } \subset \mathrm { R }$such that$a \mathbf { R } _ { 0 } , a \in k ^ { \times }$, is a basis of open neighborhoods of 0 in R. Consider the subalgebra$\mathrm { R } [ \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ]$of$\mathrm { R } [ g ^ { - 1 } ]$, and equip it with the topology making a$\mathsf { R } _ { 0 } [ \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } ] , a \in k ^ { \times }$, a basis ofopen neighborhoods of0. Let$\mathbf { B } \subset \mathbf { R } [ \textstyle { \frac { f _ { 1 } } { g } } , \dotsc , \textstyle { \frac { f _ { n } } { g } } ]$ be the integral closure of$\mathrm { R } ^ { + } [ \frac { \bar { f } _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ]$in$\mathbb { R } [ \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } ]$. Then$( \mathbf { R } [ \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ] , \mathbf { B } )$is an affinoid k-algebra. Let$( \mathbf { R } \langle \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } \rangle , \hat { \mathbf { B } } )$be its completion.
+Definition 2.13. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be an affinoid k-algebra, and let$\mathrm { U } = \mathrm { U } ( \frac { f _ { 1 } , \dots , f _ { n } } { g } ) \subset \mathrm { X } =$ $\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$be a rational subset. Choose some$\mathrm { R } _ { 0 } \subset \mathrm { R }$such that$a \mathbf { R } _ { 0 } , a \in k ^ { \times }$, is a basis of open neighborhoods of 0 in R. Consider the subalgebra$\mathrm { R } [ \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ]$of$\mathrm { R } [ g ^ { - 1 } ]$, and equip it with the topology making a$\mathsf { R } _ { 0 } [ \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } ] , a \in k ^ { \times }$, a basis ofopen neighborhoods of0. Let$\mathbf { B } \subset \mathbf { R } [ \textstyle { \frac { f _ { 1 } } { g } } , \dotsc , \textstyle { \frac { f _ { n } } { g } } ]$ be the integral closure of$\mathrm { R } ^ { + } [ \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ]$in$\mathrm { R } [ \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } ]$. Then$( \mathbf { R } [ \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } ] , \mathbf { B } )$is an affinoid k-algebra. Let$( \mathbf { R } \langle \frac { f _ { 1 } } { g } , \ldots , \frac { f _ { n } } { g } \rangle , \hat { \mathbf { B } } )$be its completion.
 
 Obviously,
 
@@ -314,7 +314,7 @@ $$
 
 factors over the open subset$\mathrm { U } \subset \mathrm { X } .$
 
-Proposition 2.14 [20, Proposition$I . 3 ] . - I n$the situation of the definition, the following universal property is satisfied. For every complete affinoid k-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$with a map$( \mathrm { R } , \mathrm { R } ^ { + } )$ $( \mathrm { S } , \mathrm { S } ^ { + } )$such that the induced map Spa$( \mathrm { S } , \mathrm { S } ^ { + } )  \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$factors over U, there is a unique map
+Proposition 2.14 [20, Proposition 1.3]. — In the situation of the definition, the following universal property is satisfied. For every complete affinoid k-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$with a map$( \mathrm { R } , \mathrm { R } ^ { + } ) \to ( \mathrm { S } , \mathrm { S } ^ { + } )$such that the induced map Spa$( \mathrm { S } , \mathrm { S } ^ { + } ) \to \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$factors over U, there is a unique map
 
 $$
 \left(\mathrm{R} \left\langle \frac {f _ {1}}{g}, \dots , \frac {f _ {n}}{g} \right\rangle , \hat {\mathrm{B}}\right)\rightarrow (\mathrm{S}, \mathrm{S} ^ {+})
@@ -322,23 +322,23 @@ $$
 
 making the obvious diagram commute.
 
-In particular,$( \mathrm { \bar { R } } \langle \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } \rangle$, B<sup>ˆ</sup> ) depends only on U. Define
+In particular,$( \mathrm { R } \langle \frac { f _ { 1 } } { g } , \dots , \frac { f _ { n } } { g } \rangle , \hat { \mathrm { B } } )$depends only on U. Define
 
 $$
 \left(\mathcal {O} _ {\mathrm{X}} (\mathrm{U}), \mathcal {O} _ {\mathrm{X}} ^ {+} (\mathrm{U})\right) = \left(\mathrm{R} \left\langle \frac {f _ {1}}{g}, \dots , \frac {f _ {n}}{g} \right\rangle , \hat {\mathrm{B}}\right).
 $$
 
-For example,$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { X } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { X } ) )$is the completion$\varrho f ( \mathrm { R } , \mathrm { R } ^ { + } )$
+For example,$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { X } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { X } ) )$is the completion of$( \mathrm { R } , \mathrm { R } ^ { + } )$.
 
-The idea is that since$f _ { 1 } , \ldots , f _ { n }$generate R, not all$| f _ { i } ( x ) | = 0$for$x \in \mathrm { U } ;$in particular,$| g ( x ) | \neq 0$for all$x \in \mathrm { U }$. This implies that g is invertible in S in the situation of the proposition. Moreover,$| ( \frac { f _ { i } } { g } ) ( x ) | \leq 1$for all$x \in \mathrm { U }$, which means that$\textstyle { \frac { f _ { i } } { g } } \in \mathrm { S } ^ { + }$
+The idea is that since$f _ { 1 } , \ldots , f _ { n }$generate R, not all$| f _ { i } ( x ) | = 0$for$x \in \mathrm { U } ;$in particular,$| g ( x ) | \neq 0$for all$x \in \mathrm { U }$. This implies that g is invertible in S in the situation of the proposition. Moreover,$| ( \frac { f _ { i } } { g } ) ( x ) | \leq 1$for all$x \in \mathrm { U }$, which means that$\textstyle { \frac { f _ { i } } { g } } \in \mathrm { S } ^ { + }$.$
 
 We define presheaves$\mathcal { O } _ { \mathrm { X } }$and$\mathcal { O } _ { \mathrm { X } } ^ { + }$on X as above on rational subsets, and for general open$\mathrm { U } \subset \mathrm { X }$by requiring
 
 $$
-\mathcal {O} _ {\mathrm{X}} (\mathrm{W}) = \varprojlim_ {\mathrm{U} \subset \mathrm{Wrational}} \mathcal {O} _ {\mathrm{X}} (\mathrm{U}),
+\mathcal {O} _ {\mathrm{X}} (\mathrm{W}) = \varprojlim_ {\mathrm{U} \subset \mathrm{W}\ \mathrm{rational}} \mathcal {O} _ {\mathrm{X}} (\mathrm{U}),
 $$
 
-and similarly for$\mathcal { O } _ { \mathrm { X } } ^ { + }$
+and similarly for$\mathcal { O } _ { \mathrm { X } } ^ { + }$.
 
 Proposition 2.15 [20, Lemma 1.5, Proposition$I . 6 J . - F o r \ a n y \ x \in \mathrm { X } .$, the valuation f → $| f ( x ) |$extends to the stalk$\mathcal { O } _ { \mathrm { X } , x } ,$, and
 
