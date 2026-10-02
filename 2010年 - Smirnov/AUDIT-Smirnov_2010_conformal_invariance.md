@@ -267,3 +267,9 @@
 - 核对：Theorem 3.15 precompactness Proof 主体——H_δ● = S_δ + R_δ 分解（S_δ 为 ∂9Q_δ 上同边界的 harmonic、R_δ ≤ 0 subharmonic）；S_δ 梯度链式估计 Σ_{x∈Q_δ}∣∇S_δ(x)∣ ≤ (C_1/δ²)·C_2δ(sup_{x∈∂Q_δ}∣S_δ(x)∣) ≤ (C_3/δ)(sup_{x∈9Q_δ}∣H_δ●(x)∣) ≤ C_4/δ（Prop 4.2 + maximum principle）；公式 (5.7) R_δ(x) = Σ_{y∈9Q_δ} ΔR_δ(y)G_{9Q_δ}(x,y)（Prop 4.9）；∇R_δ 六行推演至 C_6/δ（ΔR_δ ≥ 0、Prop 4.10、Prop 4.9、Q_δ 含 1/δ² 量级点、R_δ 一致有界）；(F_δ/√(2δ))_{δ>0} precompact 结论（◻）；§5.2 Convergence of the spin fermionic observable 标题——固定 (Ω,a,b)、F_δ = F_{Ω◇_δ,a_δ,b_δ}、三步同前（后两步仅 sketch，[CS09]）；Proposition 5.7——对 δ > 0，F_δ s-holomorphic on Ω◇_δ；页脚印刷页码 41。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(5.7) 编号齐全；C_1/δ² 与 C_2δ 的分数乘积排法、9Q_δ 记号（p.29 已仲裁为数字 9）为对账锚点。
+
+## p.042（PDF p.42 / 印刷 p.42）
+- PNG：audit/p042.png（pngmono 150dpi）
+- 核对：Figure 13——Proposition 5.7 证明中各情形图（上排 ω、下排 ω′，六列标注 1(a)、1(b)、2、3(a)、3(b)、4，图内 x、y、e、v 记号）及图注；Proposition 5.7 Proof——相邻 medial vertices x、y 与 e=[xy]、v 为 bordering e 的 Ω_δ 顶点、x_ω/y_ω 贡献记号、公式 (5.8) Σ_ω P_{ℓ(e)}(x_ω) = Σ_ω P_{ℓ(e)}(y_ω)、γ(ω) 只终于 x_ω 或 y_ω 之一、配置成对 (ω,ω′) 分割；e 指向 southeast ⟹ ℓ(e) = ℝ；x_ω = (1/Z) e^{−(1/2)i[W_{γ(ω)}(a_δ,x_δ) − W_{γ′}(a_δ,b_δ)]} (√2−1)^{∣ω∣}（Z 为不依赖构型的归一化实数）；六种 pairs、Case 1（interface 达 x/y 后一步达另一点）、Case 2（γ 先达 v 再一步至 x/y）、Case 3（loop 阻止延伸）、Case 4（离开 v 又回来）、curve always goes to the left、cases 1(a)/1(b)/2 中 loop 或 past of γ 不改变计算；表格预告段（x_ω 与 y_{ω′}、argument modulo π、投影到 ℝ 收尾）；页脚印刷页码 42。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：印刷 quirk 登记（忠实保留）——页末句原文作 "When upon projecting on ℝ, the result follows."，"When upon" 连用为原文式样（双通道一致），不作"改正"；(5.8) 编号齐全。
