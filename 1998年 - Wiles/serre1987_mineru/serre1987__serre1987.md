@@ -1339,7 +1339,7 @@ $$
 à coefficients dans $\overline{\mathbf{F}}_{p}$, fonction propre normalisée des opérateurs de Hecke, telle que $\rho_{p}^{X} \simeq \rho_{f_{p}}$; on a en particulier
 
 $$
-a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } l + N, l \neq p.
+a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } l \nmid N, l \neq p.
 $$
 
 En relevant  $f_{p}$  en caractéristique zéro grâce à (3.1.6) on en déduit une forme parabolique de poids 2 et de niveau N:
@@ -1348,7 +1348,7 @@ $$
 F = \sum A _ {n} q ^ {n},
 $$
 
-à coefficients dans $\overline{\mathbf{Z}}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\tilde{F} = f_p$ pour tout $p \in P$, où $P$ est un ensemble infini de nombres premiers complètement décomposés dans $K_X$. Si $l + N$, on a donc
+à coefficients dans $\overline{\mathbf{Z}}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\tilde{F} = f_p$ pour tout $p \in P$, où $P$ est un ensemble infini de nombres premiers complètement décomposés dans $K_X$. Si $l \nmid N$, on a donc
 
 $$
 \tilde {A} _ {l} = a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } p \in P, p \neq l,

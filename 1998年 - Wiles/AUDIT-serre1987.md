@@ -264,3 +264,11 @@
 - 核对：K_X = Q ⊗ End_Q(X) 定义句、Shimura [51] §7.5 句、THÉORÈME 5（Admettons (3.3.1?)、racine n-ème du conducteur）、th. 4 类比句、(4.7.1) λ-adiques 系统句、Ribet [36]、a_l trace 句、(4.7.2) N^n 句、[18] exposé IX §4 / [40] n° 2.1 段、Fixons 段（λ_p、F_p、ρ_p^X: G_Q → GL₂(F_p)）、(4.7.3) det ρ_p^X = χ、(4.7.4)（Faltings [14] p. 204、th. 6）、(4.7.5)。
 - 结果：FAIL。两处已依原图修复：① THÉORÈME 5 引用 Markdown 写成 “(3.3.1)”（丢下标 ?），印刷为 (3.3.1_?)，修为 “(3.3.1?)”；② “c'est un entier du corps K_X” 处 Markdown 下标写成小写 x（$K_{x}$），印刷为大写 X，修为 $K_{X}$。其余逐项吻合。
 - 备注：K_X 大小写在 Markdown 全文他处均正确为大写，仅此一处笔误；(4.7.2)-(4.7.5) 编号连续一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 209” 未收入 Markdown，排版级。印刷页止于 (4.7.5)，其后 Néron 模型句属印刷 p.210。
+
+## p.032（PDF p.32 / 印刷 p.210）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p032.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p032_nmid_x2.png`（pnggray）。
+- 核对：Néron 模型句（diviseur de N）、(4.7.6) k = 2、prop. 4 du n° 2.8、(4.7.3)…(4.7.6) 汇总句与 (3.3.1?)、f_p = Σa_{n,p}qⁿ、ρ_p^X ≃ ρ_{f_p}、a_{l,p} = ã_l pour tout l ⊬ N, l ≠ p、F = ΣAₙqⁿ、Z̄/P 无限/K_X 段、Ã_l = a_{l,p} = ã_l 式、Faltings [13]、Remarque（primitive、Carayol [8]）、4.8 节标题与四个定义项（X、X_C、m impair、H^m(X_C, C)）、(4.8.1)/(4.8.2) Hodge 分解、Choisissons S 句。
+- 结果：FAIL。两处已依原图修复：Markdown 两处把不整除符写成真加号——“a_{l,p} = ã_l pour tout **l + N**, l ≠ p” 与 “Si **l + N**, on a donc”，300 dpi 裁片确认印刷均为 l ⊬ N（+ 样字形，同 p.194/p.208 已裁决字形），均修为 l \nmid N。其余逐项吻合。
+- 备注：(4.8.1) 与 (4.8.2) 在 Markdown 合并为一行，印刷分两行，内容一致，排版级不改；页眉 “210 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “on peut définir une réduction”，modulo l 段属印刷 p.211。
