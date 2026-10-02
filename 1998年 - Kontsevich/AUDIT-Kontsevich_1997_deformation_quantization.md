@@ -185,3 +185,10 @@
 - 结果：`FAIL`→5 处已修复：①行 1137 `$c_{\Gamma'}$′ if` 幻影 ′ 已删（印刷 prime 在下标内）；②行 1139 `numbers c do not depend`→`numbers$c_{\Gamma}$ do not depend`（下标 Γ 丢失，PNG+文本层确凿）；③行 1157 `$\#S \geq 2 .$,` 双句点→`$\#S \geq 2$,`；④行 1163 `gives number 1`→`gives number$\pm 1$`（± 丢失，PNG 确凿）；⑤行 1163 `the operation on polyvector fields`→`the operation$\bullet$ on polyvector fields`（• 丢失，PNG+文本层确凿）。print quirk 忠实保留：行 1134 公式 `𝒰_Γ(γ₁⊗…⊗γₙ))(f₁⊗…)` 印刷括号本身不配对；行 1163 `coming from the of the formula`（原文重复 the of the）；行 1163 `$e .$` 句点入式。其余 PASS±：行 1139 `Coeficients`、行 1143 `diferential`（ff 拍平）。公式行 1146/1152 与印刷逐符号吻合。
 - 备注：行 1165 起（图 page_25_image_0.jpg、§6.4.1.2 n₂≥3）为印刷 p.26 内容，在 p.026 核对。
 
+## p.026（PDF p.26 / 印刷 p.26）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p026.png`（pngmono 150dpi）
+- 核对：收缩图 e 与直线图（行 1165 引 page_25_image_0.jpg 存在）、§6.4.1.2 n₂≥3 heading、2n₂−3 angle forms 消没段（"corresponding to the corresponding" 为印刷原句忠实保留）、第二张图（行 1171 引 page_25_image_3.jpg 存在）、§6.4.2 Case S2（j̄∈S₂⊂{1̄,…,m̄}、2n₂+m₂−2≥0、n₂+m₂≤n+m−1、C_{n₁,m₁}×C_{n₂,m₂}）、§6.4.2.1 no bad edges、W_{Γ₁}×W_{Γ₂} 段（MD 行 1165–1181）。
+- 结果：`FAIL`→1 处已修复：行 1181 `where the product  on polydiferential operators appears`→补 `$\circ$`（印刷为 product ◦，PNG+文本层确凿）。其余 PASS±：行 1175/1179 句末缺句点（登记）；行 1181 `polydiferential`（ff 拍平）。行 1183 图 page_26_image_0.jpg 属印刷 p.27 版式（p.26 印刷止于 ◦ 句+页码 26），归 p.027 核对。
+- 备注：行 1185 起（§6.4.2.2 bad edge）为印刷 p.27 内容，在 p.027 核对。
+

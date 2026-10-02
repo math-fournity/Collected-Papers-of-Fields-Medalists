@@ -1178,7 +1178,7 @@ Points$p _ { i }$for$i \in S _ { 1 } \subset \{ 1 , \ldots , n \}$and points$q _
 
 In this subcase we assume that there is no edge$( i , j )$in Γ such that$i \in S _ { 1 } , j \in \{ 1 , \dots , n \} \setminus S _ { 1 }$
 
-The integral over the boundary stratum is equal to the product$W _ { \Gamma _ { 1 } } \times W _ { \Gamma _ { 2 } }$where$\Gamma _ { 2 }$is the restriction of Γ to the subset$S _ { 1 } \sqcup S _ { 2 } \subset \{ 1 , \ldots , n \} \sqcup \{ \overline { { 1 } } , \ldots , \overline { { m } } \} = V _ { \Gamma }$, and$\Gamma _ { 1 }$is obtained by the contraction of all vertices in this set to a new vertex of the second type. Our condition guarantees that$\Gamma _ { 1 }$is an admissible graph. This corresponds to the second line in (F), where the product  on polydiferential operators appears.
+The integral over the boundary stratum is equal to the product$W _ { \Gamma _ { 1 } } \times W _ { \Gamma _ { 2 } }$where$\Gamma _ { 2 }$is the restriction of Γ to the subset$S _ { 1 } \sqcup S _ { 2 } \subset \{ 1 , \ldots , n \} \sqcup \{ \overline { { 1 } } , \ldots , \overline { { m } } \} = V _ { \Gamma }$, and$\Gamma _ { 1 }$is obtained by the contraction of all vertices in this set to a new vertex of the second type. Our condition guarantees that$\Gamma _ { 1 }$is an admissible graph. This corresponds to the second line in (F), where the product$\circ$ on polydiferential operators appears.
 
 ![](images/page_26_image_0.jpg)
 
