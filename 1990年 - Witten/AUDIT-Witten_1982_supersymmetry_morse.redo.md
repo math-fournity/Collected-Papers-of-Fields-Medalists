@@ -51,3 +51,8 @@
 - PNG：`audit-redo/p008.png`（pngmono 150dpi）
 - 核对：零能态计数与弱形式结论段；强 Morse 不等式 (19)；`X_p`/`δ: X_p → X_{p+1}` 上同调模型段；脚注 2（Reed–Simon [16]，pp. 34–38）。
 - 结果：PASS±。(19) `Σ M_p t^p − Σ B_p t^p = (1 + t) Σ Q_p t^p` 及正文逐项与印刷页相符；`δ² = 0`、`Q_p` 非负整数陈述一致；脚注 2 全文（含 "pp. 34–38"、"double well potential"）相符；跨页断点一致（line 213 末 "we can go"）。差异仅：页眉 "668 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.009（PDF p.9 / 印刷 p.669）
+- PNG：`audit-redo/p009.png`（pngmono 150dpi）；(20) 后关键词终裁：`audit-redo/300dpi/p009_correct_word.png`（300dpi 裁片）。
+- 核对：微扰论各阶项消失段；tunneling/WKB/instantons 段；最陡下降方程 (20)；Morse 指数相差 1 条件段；路径 Λ 与 `V_A` 取向段。
+- 结果：PASS±。(20) `dφ_i/dλ = γ^{ij} ∂h/∂φ_j` 及正文逐项与印刷页相符；`V(φ) = t^2(dh)^2`、`V_A`、`D^2h/Dφ^iDφ^j`、`[14]` 引用一致；跨页断点一致（line 213 末 "we can go" 续至本页 "further and attempt to refine"）。print quirk：印刷原句 "the ones which **correct** two critical points whose Morse indices differ by one"（300dpi 裁片确认为 "correct"，非 "connect"；原刊用词如此）被 md line 233 忠实保留，不按数学预期改动。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 669" 未入 md（版面信息省略）。
