@@ -577,3 +577,10 @@
 - 证据：源 PDF p.080 文本层、页图 `audit/Hironaka_1964_resolution_partI_p080.png`（pngmono 150dpi）与 MinerU Markdown 第 1615–1655 行。$G^0(n)$ 的多项式展开、卷积二项式恒等式、乘数比较结论、Corollary 3 及 Samuel characteristic function 的定义与关系均对应印刷页。
 - 备注：正文于 `F_x(n)=\binom{n+s+r}{s+r}` 后的句子续至下一页；印刷运行页眉和页码 187 未录入 Markdown。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.081 / 96（印刷 p.188）— FAIL
+
+- 时间：2026-10-02 05:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.081 文本层、页图 `audit/Hironaka_1964_resolution_partI_p081.png`（pngmono 150dpi）与 MinerU Markdown 第 1661–1685 行。Lemma 3、Lemma 4 的 flatness/Tor 条件、Theorem 1 的开性陈述及证明开头到“necessary and sufficient that”均与印刷页对应。但 Markdown 第 1683 行在完整脚注 40（第 1685 行）前另有孤立脚注式片段 `$M_x$`；印刷页脚只有完整脚注 40，没有独立的 $M_x$ 条目。
+- 备注：印刷运行页眉和页码 188 未录入 Markdown，属导航元素省略。
+- 结论：脚注 40 中公式碎片 `M_x` 被额外作为独立内容重复，列为 FAIL；待全篇审计后删除碎片并保留完整脚注 40。
