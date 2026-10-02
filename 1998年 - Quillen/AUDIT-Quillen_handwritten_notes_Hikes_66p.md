@@ -620,3 +620,15 @@
 - 页面边界：本页末尾是表示环 λ-ring 公理的乘积公式 `λ^k(xy)=P_k(...)`；Markdown 第 2142 行起的 symmetric-polynomial 计算 procedure 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 Adams 幂和式、eigenspace 对象、λ-series 与 λ-ring 公理。
 - 记录：2026-10-02 04:59:23 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+- 跨页核对：p.58 300dpi Adams 裁片确认约定是 `\Psi^0=1`，而非 Markdown 第 2110 行的 `\Psi^p=id`；p.59 以 `\psi^k(L)=L^k` 与对称多项式计算续接。
+
+### p.059（PDF p.59 / 纸面圈号 59）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p059.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p059_symmetric-polynomials.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p059_adams-operations.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p059_frobenius.png`。
+- 核对：λ-ring multiplication polynomial `P_k`、`\lambda^k(x)` 的 elementary symmetric function 描述与 `Q_{j,k}`；表示环 Adams operations 的 generating series 和恒等式；特征 `p` 下的 Frobenius-induced endomorphism。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 2142 行关系是 `x^j\lambda^k(x)=Q_{j,k}(\lambda^1x,\ldots,\lambda^{jk}x)`，基线将左端误成 `x^j(x)` 并损坏 `Q_{j,k}` 的参数；第 2152 行原图对象仍是 `\lambda^k(x)`，基线写成 `x^k(x)`，后面的 elementary-symmetric index bounds 亦损坏。Adams operations 的 generating series 原图为 `1/\lambda_{-t}(x)=\exp(\sum_{m≥1}\psi^m(x)t^m/m)`；基线第 2160 行把该公式替换成 `1/2` 与 “ring homomorphism” 噪声。线丛性质为 `\psi^k(L)=L^k`，基线第 2163 行将其写成 tensor-power 文本。特征 `p` 的原图 Frobenius 满足 `F_a(a)=a^p` 并诱导 `F_*` 于 `R(G,A)`，结论 `\psi^p=F_*`；基线第 2165 行写成 `F_a=2^p` 与 `\Psi^iP=F_1`。末端在 `x_1^2+x_2^2=` 处续入算例，等待 p.60 对账。
+- 页面边界：本页止于 Frobenius assertion 及紧接的 `x_1^2+x_2^2=` 算例起头；后续多项式展开待 p.60 核对。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复对称多项式/Adams series、Frobenius 映射与 λ-ring parameters。
+- 记录：2026-10-02 05:06:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
