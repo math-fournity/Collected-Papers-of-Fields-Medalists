@@ -956,7 +956,7 @@ $$
 
 Step 3: from level set estimates to$L ^ { p }$bounds. Recall first that$\| F \| _ { L ^ { \infty } (  { \mathbb { R } } \times  { \mathbb { T } } ^ { d } ) } \lesssim N$by the Sobolev embedding theorem. Choose next$\delta > 0$. When estimating$\left| E _ { \lambda } \right|$, three cases have to be distinguished:
 
-If$\lambda > N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } } \end{array}$(notice that$\textstyle A < { \frac { 1 } { N } } )$. The bound (4.1) becomes then
+- If$\lambda > N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } } \end{array}$(notice that$\textstyle A < { \frac { 1 } { N } } )$. The bound (4.1) becomes then
 
 $$
 | E _ {\lambda} | \preceq N ^ {\delta} \lambda^ {- 4}.

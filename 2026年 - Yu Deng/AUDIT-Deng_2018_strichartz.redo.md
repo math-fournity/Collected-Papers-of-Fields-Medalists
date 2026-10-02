@@ -124,3 +124,9 @@
 - 核对：(3.8) 解数汇总 ≲γ(TN)²(1+…)、• With t still frozen bullet（三个测度 ∼γ/N²T²·1/|n×n′|、β/NT·1/|n₂|、γ/βNT·1/|n₂′| 及 ≲γ/(N³T³|n×n′|)min(…)）、• dt≪1/N² 离散时间 bullet（O(N²T)）、Lemma 3.4(ii) 汇总式、§4 节标题、Step 1 kernel 分解（φ、φ̂≥0、A∈(0,1/N)、J₁/J₂/J₃ underbrace display）、‖Ĵ₁‖≲A、‖J₂‖≲1/A、‖J₃‖≼N^{4/3}T^{1/6}、S_μ 定义（无绝对值）、|S_μ|≼N⁴T/μ⁴、J₃=J₃1_{S_μ}+J₃(1−1_{S_μ})=J₃′+J₃″
 - 结果：PASS±（1 处已修复）。全部公式与印刷逐项一致。print quirk 忠实保留：S_μ 定义中 sup K_N 无绝对值（Luna 登记为原刊原样，PNG 复核确认）；p.16 印刷在 ≲γ(TN)² display 后 bullet 前有一行游离句点（原刊排印噪声），MD 未转录该噪声行，属合理省略。**修复 1 处**：L867 "solve for α<sub>22</sub>" HTML 下标残留→`$\alpha _ { 2 2 }$`（全文一致性，印刷为 α₂₂）。残余瑕疵（不误导，不改）："Step 1: decompositions of the kernel" 印刷有下划线、MD 无（排版级）。
 - 备注：Luna 旧修复抽核通过——本页未见 Luna 登记项之外的问题；S_μ 无绝对值的保留判断正确。
+
+## p.017（PDF p.17 / 印刷 p.17）
+- PNG：audit-redo/p017.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：The bounds 段（‖Ĵ₃′‖≼N⁴T/μ⁴ 与 ‖J₃″‖≤μ 的 ≼/≤ 区分、provided μ>N^{4/3}）、Step 2（F=e^{itΔ̃}f 的波浪号、E_λ 定义、F̃=(F/|F|)1_{E_λ}、Q(k)）、Plancherel–Cauchy-Schwarz 五行链（χ(k_i/N)^{1/2}、overline、卷积归并）、⟨(J₁+J₂+J₃)*F̃, F̃⟩ 三行链、(4.1) 与 (4.2)、Step 3 引（‖F‖_{L^∞(ℝ×𝕋^d)}≲N）、• If λ>N^{2/3+δ}T^{1/12} bullet 与 |E_λ|≼N^δλ^{−4}
+- 结果：PASS±（1 处已修复）。本页（至 |E_λ|≼N^δλ^{−4}，MD L963）全部公式与印刷逐项一致；≲/≤/≼ 层次、上标 1/2、共轭线均忠实。print quirk 忠实保留：Step 3 的 ‖F‖ 定义域 ℝ×𝕋^d（上标 d 非本篇主体 2，原刊原样，MD L957 忠实）；"Step 2/Step 3" 印刷下划线、MD 无（排版级）。**修复 1 处**：L959 "If λ>N^{2/3+δ}T^{1/12}…" 补回 bullet "- "（印刷有 •）。
+- 备注：Luna 旧修复抽核通过——旧基线的"Cauchy–Schwarz 前多余 e""distinguished 拆字"在当前 MD 已不存在；F=e^{itΔ̃}f 波浪号正确。
