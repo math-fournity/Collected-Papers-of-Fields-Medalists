@@ -359,7 +359,7 @@ Proposition 3.2. The finite group $\Phi$ is an extension by the cyclic group $\t
 
 [More information about $\Phi$ is given in (3.12)-(3.14).]
 
-We next recall a description of the set  $\mathcal{I}=\Sigma(M)$  in terms of the arithmetic of the quaternion algebra H. This description is due to Deuring [6] in the case of supersingular elliptic curves with no additional level structure (i.e., when M=1). Since all supersingular elliptic curves over  $\bar{F}_{q}$  are isogenous, one can start with a fixed  $E_{0}$  and keep track of the isomorphism classes of enhanced elliptic curves gotten by isogenies from  $E_{0}$ . This problem has been studied in detail in analogous (but more complicated) problems in the theory of Shimura varieties (see for example [2, 17, 22]).
+We next recall a description of the set  $\mathcal{S}=\Sigma(M)$  in terms of the arithmetic of the quaternion algebra H. This description is due to Deuring [6] in the case of supersingular elliptic curves with no additional level structure (i.e., when M=1). Since all supersingular elliptic curves over  $\bar{F}_{q}$  are isogenous, one can start with a fixed  $E_{0}$  and keep track of the isomorphism classes of enhanced elliptic curves gotten by isogenies from  $E_{0}$ . This problem has been studied in detail in analogous (but more complicated) problems in the theory of Shimura varieties (see for example [2, 17, 22]).
 
 For each enhanced $\mathbf{E} = (E, B)$ over $\bar{\mathbf{F}}_q$, let $T(\mathbf{E})$ be the "adelic Tate module" of $E$:
 

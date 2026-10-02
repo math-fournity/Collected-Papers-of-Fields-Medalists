@@ -90,3 +90,11 @@
 - 印刷 quirk 登记：300 dpi 裁片确证 "enhanced elliptic curves." 引号内句号存在，MD 一致（150 dpi 初判误读，无修复）。
 - 备注：enhanced 曲线粗体 **E** 与椭圆曲线斜体 E 的粗体区分在 "curve E"/"For each E"/"Q-algebra" 处拍平（字母不变，登记不改）；oriented/ordered 斜体拍平同前例。
 - 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.011（PDF p.11 / 印刷 p.440）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 15:12 -0400。
+- PNG：`audit/ribet1990_p011.png`（pngmono，150 dpi）；仲裁裁片：`audit/300dpi/ribet1990_p011_phi.png`（pnggray，300 dpi）。
+- 核对：𝒮=Σ(M) 与 Deuring [6]（M=1 情形）；T(E)=T_q(E)×∏_{l≠q}T_l(E)；Dieudonné 模、T_q(E)=M(E(q))^t、[23] §3/3.6；enhanced 结构 B⊂T(E)/MT(E)；R=End(E₀)、H=R⊗_Z Q；adelization R_f/H_f/Ẑ；λ∈Hom(E,E₀)⊗_Z Q、V(E₀)、g∈H_f*/R_f*、gT(E)=T(E₀)、g: T(E)/MT(E)≈T(E₀)/MT(E₀)；H*\\H_f*/R_f*；Proposition 3.3（φ_{E₀}，300 dpi 确证粗体小写 φ，MD \\phi 正确）；[22]/[2] §11；Variant 3.4（right ideal classes）；[41], p. 87 ✓。
+- 发现并当场修复：L362 一处 \\mathcal{I}→\\mathcal{S}（"the set 𝒮=Σ(M)"），依据 150 dpi 页图（同款花体 S）。
+- 备注：\\bar{F}_q、E₀、(E₀,B₀) 等处印刷粗体拍平为普通体（字母不变，登记不改）；Variant/Proposition 标签斜体拍平同前例。
+- 结果：FAIL（1 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
