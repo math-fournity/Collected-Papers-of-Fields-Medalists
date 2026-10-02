@@ -193,3 +193,13 @@
 - 印刷证据与差异：原图明确由 `H_1(BE)=E^{ab}=0` 得出 E perfect；基线第 581 行写成 `E^{ab}≠0`，反转了结论。原图第 597 行的纤维是 `\Pi(H_nX_n,n−1)`，基线把空间符号错成 `H(H_nX_n,n−1)`；第 599 行 `π_1(AX)`、`π_1X_n` 的下标被写成逗号。底部定义的术语是 `super-perfect`，基线第 602 行识别成 `Oror`。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按 300dpi 裁片回核 H_1 / E^{ab} 的零值、纤维空间符号与 `π_1`。
 - 记录：2026-10-02 00:18:28 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.019（PDF p.19 / 纸面圈号 19）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p019.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p019_finite-group.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p019_grothendieck.png`。
+- 核对：finite perfect `G` 的 `BG⁺` 同调/同伦有限性；按 `p\mid |G|` 的分解问题；`K_0A` 与 idempotent matrix 定义；Grothendieck group 的 direct-sum 生成关系。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图有限群事实使用 `H_i(BG;\mathbb Z)` 与 `\widetilde H_i(BG^+)`，基线第 612、616 行将指标 `i` 误成 `n` / `g`；原图的同伦群是 `π_i(BG^+)`，基线第 618 行写成 `π_{*i}`。第 620 行原式为按 `p\mid |G|` 索引的 `X_p` 分解，基线把整除条件写坏。环定义部分原图明确说 `P=Im(A^n→A^n)` 对应 idempotent matrices，基线第 628 行误读为 `ln`、`c^2=e` 和 “independent matrices”；第 632 行还漏掉首种 Grothendieck group 定义中的 “abelian”。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对有限群指标、p 索引、image/idempotent 与定义语句。
+- 记录：2026-10-02 00:23:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
