@@ -442,35 +442,35 @@ $$
 
 with$\gamma$having the property that$r > \gamma > 1$for all$r > 1$. This valuation would still be continuous, but it takes the value$\gamma > 1$on$\mathrm { T } \in \mathrm { R } ^ { + }$. This shows the relevance of the requirement$| f ( x ) | \leq 1$for all$f \in \mathrm { R } ^ { + }$, which is automatic for rank-1-valuations.
 
-Theorem 2.21 [22, (1.1.11)]. — There is afullyfaithfulfunctor
+Theorem 2.21 [22, (1.1.11)]. — There is a fully faithful functor
 
 $$
-r: \{\text {rigid - analytic varieties} / k \} \to \{\text {adic spaces} / k \}: \mathrm{X} \mapsto \mathrm{X} ^ {\mathrm{ad}}
+r: \{\text {rigid-analytic varieties} / k \} \to \{\text {adic spaces} / k \}: \mathrm{X} \mapsto \mathrm{X} ^ {\mathrm{ad}}
 $$
 
 sending Sp(R) to Spa(R, R<sup>+</sup>) for any affinoid k-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$of tft. It induces an equivalence
 
-{qs rigid-analytic varieties/k} <sup>∼</sup>= {qs adic spaces locally of finite type/k},
+{qs rigid-analytic varieties/k} $\cong$ {qs adic spaces locally of finite type/k},
 
-where an adic space over k is called locally offinite type ifit is locally oftheform Spa(R, R<sup>+</sup>), where $( \mathrm { R } , \mathrm { R } ^ { + } )$is of tft. Let X be a rigid-analytic variety over k with corresponding adic space$\mathrm { X ^ { a d } }$. As any classical point defines an adic point, we have$\mathrm { \Delta X \subset X ^ { \mathrm { a d } } }$. If X is quasiseparated, then mapping a quasicompact open subset$\mathrm { U } \subset \mathrm { X } ^ { \mathrm { a d } } t o \mathrm { U } \cap \mathrm { X }$defines a bijection
+where an adic space over k is called locally of finite type if it is locally of the form Spa(R, R<sup>+</sup>), where $( \mathrm { R } , \mathrm { R } ^ { + } )$is of tft. Let X be a rigid-analytic variety over k with corresponding adic space$\mathrm { X ^ { a d } }$. As any classical point defines an adic point, we have$\mathrm { X } \subset \mathrm { X } ^ { \mathrm { a d } }$. If X is quasiseparated, then mapping a quasicompact open subset$\mathrm { U } \subset \mathrm { X } ^ { \mathrm { a d } }$to$\mathrm { U } \cap \mathrm { X }$defines a bijection
 
-{qc admissible opens in$\mathrm { X } \mathrm { \cong \{ q c \ o p e n s \ i n \mathrm { X ^ { a d } \} } }$
+{qc admissible opens in $\mathrm { X } \} \cong \{ { \mathrm { q c \ o p e n s \ i n \ } \mathrm { X } ^ { \mathrm { a d } } } \}$,
 
-the inverse ofwhich is denoted U → U<sup>˜</sup> . Under this bijection afamily ofquasicompact admissible opens $\mathrm { U } _ { i } \subset \mathrm { X } .$forms an admissible cover if and only if the corresponding subsets$\tilde { \mathrm { U } } _ { i } \subset \bar { \mathrm { X } } ^ { \mathrm { a d } } c o v e r \mathrm { X } ^ { \mathrm { a d } }$
+the inverse of which is denoted$\mathrm { U } \mapsto \tilde { \mathrm { U } }$. Under this bijection a family of quasicompact admissible opens $\mathrm { U } _ { i } \subset \mathrm { X }$forms an admissible cover if and only if the corresponding subsets$\tilde { \mathrm { U } } _ { i } \subset \mathrm { X } ^ { \mathrm { a d } }$cover$\mathrm { X } ^ { \mathrm { a d } }$.
 
-In particular,for any rigid-analytic variety X, the topos ofsheaves on the Grothendieck site associated to X is equivalent to the category ofsheaves on the sober topological space$\mathrm { X ^ { a d } }$
+In particular, for any rigid-analytic variety X, the topos of sheaves on the Grothendieck site associated to X is equivalent to the category of sheaves on the sober topological space$\mathrm { X ^ { a d } }$.
 
 We recall that for abstract reasons, there is up to equivalence at most one sober topological space with the last property in the theorem. This gives the topological space underlying the adic space a natural interpretation.
 
-In the example$\mathrm { X } = \mathrm { S p } ( { k } \langle \mathrm { T } \rangle )$discussed above, a typical example of a non-admissible cover is the cover of$\{ x \mid | x | \leq 1 \}$as
+In the example$\mathrm { X } = \mathrm { S p } ( { k } \langle \mathrm { T } \rangle )$ discussed above, a typical example of a non-admissible cover is the cover of$\{ x \mid | x | \leq 1 \}$as
 
 $$
 \left\{x \mid | x | \leq 1 \right\} = \left\{x \mid | x | = 1 \right\} \cup \bigcup_ {r <   1} \left\{x \mid | x | \leq r \right\}.
 $$
 
-In the adic world, one can see this non-admissibility as being caused by the point of type (5) which gives |x| a value$\gamma < 1$bigger than any$r < 1$
+In the adic world, one can see this non-admissibility as being caused by the point of type (5) which gives |x| a value$\gamma < 1$bigger than any$r < 1$.
 
-![](images/page_15_image_12.jpg)
+![](Scholze_2012_perfectoid_published/images/page_15_image_12.jpg)
 
 Moreover, adic spaces behave well with respect to formal models. In fact, one can define adic spaces in greater generality so as to include locally noetherian formal schemes as a full subcategory, but we will not need this more general theory here.
 

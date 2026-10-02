@@ -188,3 +188,16 @@
   8. **A^1_κ 段：$\dot{\mathbf{A}^1_\kappa}$ 伪 \dot 删除→$\mathbf{A}^1_\kappa$——300dpi 仲裁（audit/300dpi/Scholze_2012_p259_A1k.png）确认 print 无 dot**；P^1_κ 句末补句点
   9. case (5) 反例段：f∈\mathbb{R}^+→\mathrm{R}^+
 - 备注：Γ=R_{>0}×γ^Z 与 Γ_{?r} 的 Γ 在 MD 中完好；三个 max/inf display 与 print 一致；(5) 段 "disc" 拼写为 print 原样保留。
+## p.016（PDF p.16 / 印刷 p.260）
+- PNG：audit/p016.png（pngmono 150dpi）
+- 核对：页眉 260/PETER SCHOLZE；Theorem 2.21 [22, (1.1.11)]（fully faithful functor r display）；Sp(R)→Spa(R,R^+) 段；{qs…}≅{qs…} 等价式；locally of finite type 定义段（X⊂X^ad、U↦U∩X 双射）；{qc admissible opens in X}≅{qc opens in X^ad}；U↦Ũ、admissible cover 段；topos of sheaves 段；sober topological space 段；non-admissible cover 例 + {x||x|≤1}={x||x|=1}∪⋃_{r<1}{x||x|≤r} display；type (5) 解释段；小树状图（page_15_image_12.jpg）；formal models 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Theorem 2.21 "afullyfaithfulfunctor"→"a fully faithful functor"；display \text 内 "rigid - analytic"→"rigid-analytic"（print 无空格连字符）（p.260 定理行+display）
+  2. "{qs…}<sup>∼</sup>="（≅ 拆成上标）→$\cong$（p.260 等价式行原图）
+  3. "locally offinite/ifit/oftheform"→补空格；"$\mathrm{\Delta X\subset X^{ad}}$"伪 Δ 删除；"$\mathrm{U}\subset\mathrm{X}^{\mathrm{ad}} t o\mathrm{U}\cap\mathrm{X}$"（to 入 math）→"to"出 math（p.260 where an adic space 段）
+  4. 双射式 "{qc admissible opens in$\mathrm{X}\mathrm{\cong\{qc\opens\in\mathrm{X^ad}\}}$"花括号结构错乱→"{qc admissible opens in$\mathrm{X}\}\cong\{$qc opens in$\mathrm{X}^{\mathrm{ad}}\}$,"+补尾逗号（p.260 双射行原图）
+  5. "the inverse ofwhich…U→U<sup>ˆ</sup> ."→"of which…$\mathrm{U}\mapsto\tilde{\mathrm{U}}$."（↦ 印刷原样）；"afamily ofquasicompact"补空格；"$\mathrm{U}_i\subset\mathrm{X}.$forms"伪句点删除；"$\tilde{\mathrm{U}}_i\subset\bar{\mathrm{X}}^{\mathrm{ad}} cover\mathrm{X}^{\mathrm{ad}}$"伪 \bar 删、"cover"出 math、句末补句点（p.260 the inverse of which 段）
+  6. "In particular,for/ofsheaves×2"补空格、句末补句点（p.260 In particular 段）
+  7. "⟩discussed"补空格（p.260 In the example 行）
+  8. "any$r<1$"句末补句点（print 原有）；**图片引用路径断裂**第二处：`![](images/page_15_image_12.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_15_image_12.jpg)`（p.260 小树状图；目标文件 7.4K 实测存在）
+- 备注：⋃_{r<1} display 与 print 一致含尾句点；Theorem 2.22 起（行 477）属印刷 p.261，留待 p.017。
