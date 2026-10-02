@@ -408,6 +408,17 @@
 - 核对：上三角矩阵环 `B` 与 `GL_n(B)` 的块矩阵识别；`K_nB≅K_nA⊕K_nA`；通过群扩张/群上同调谱序列比较得出的稳定同调结论；`r→∞` 后的对角环到 `B` 的嵌入。
 - 结果：**FAIL**。
 - 印刷证据与差异：原图定义 `B=\{\left(\begin{smallmatrix}a&b\\0&d\end{smallmatrix}\right)\}=\left(\begin{smallmatrix}A&A\\0&A\end{smallmatrix}\right)`；基线第 1404 行将右下角结构写坏，并把零元 `0` 写成 `o`。原图第 1408–1416 行描述 `GL_n(B)` 的网格矩阵经共轭识别为 `\left(\begin{smallmatrix}GL_n(A)&M_n(A)\\0&GL_n(A)\end{smallmatrix}\right)`；基线把 `GL_n` 识成 `GL_0`，第 1412 行的共轭示意几乎不可读，第 1416 行的分块群也损坏。`K_nB≅K_nA⊕K_nA` 的断言（第 1419 行）与原图吻合。证明中的两条扩张，原图第一条以 `G_n` 为核、上三角块的右下角为 `GL_n`，第二条以 `GL_n` 为核、商为 `GL_r`；基线第 1430 行将第一条右下角误为 `GL_r`，第 1434 行又把第二条左端的 `1` 写成 `Φ`。群上同调谱序列的 `E^2_{p,q}=H_p(GL_r,H_q(G_n))` 与 `E^2_{p,q}=H_p(GL_r,H_q(GL_n))` 及各自的上三角/对角目标在基线第 1440、1444 行被损坏；第 1447–1450 行也没能还原原图的“极限保持正合性，因此由 Comparison Theorem 得同构”推理。末尾关于 `r→∞` 的嵌入在第 1452–1454 行仍有结构破损。
-- 页面边界待续核：原图页尾的 `diag(A,A)⊂B` 嵌入说明延伸到本页下缘；Markdown 第 1456 行起继续出现对同调对象的短语，待第 40 页确认续句的精确边界后再回修本条。
+- 页面边界核对：PDF p.39 页尾 `diag(A,A)⊂B` 的同调说明跨到 p.40 页首，续为 “of `H_*(GL(A×A))` with `H_*(GL(B))`”，对应 Markdown 第 1454、1458 行。p.40 图像确认第 1456 行的 `page_39_image_0.jpg` 是随后 Milnor pullback square 的提取图，属于 p.40。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片重建环/群块矩阵、两条群扩张与比较谱序列。
 - 记录：2026-10-02 03:15:38 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.040（PDF p.40 / 纸面圈号 40）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p040.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p040_plus-map.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p040_stable-inclusions.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p040_milnor-sequences.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p040_date-note.png`。
+- 核对：p.39 嵌入同调结论的续句；`BGL(A×A)^+→BGL(B)^+`；固定 `A,r` 的稳定同调包含及 `K_*` 推论；Swan 反例前的 Milnor Mayer–Vietoris `K_1/K_2` 序列。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图承接上一页的句子为 “of `H_*(GL(A×A))` with `H_*(GL(B))`”，再说明 `BGL(A×A)^+→BGL(B)^+` 是 H-space 映射、同调同构，故为同伦等价；基线这部分基本可辨。右侧手写日期 `10/16/74` 未录入 Markdown。稳定同调包含中，原图第 1465 行两端均为 `H_*`、上三角块为 `M_n(A)`；基线误写 `H_x`/`H_y`、`M_m(A)`。第 1469 行原图是下右块 `GL_n(A)`，基线为 `GL_o A`；第 1473 行的上右稳定块 `M_{r,\infty}(A)` 被识成 `GN_{r,\infty}A`。第 1476–1480 行的 `K_*` 直和结论可辨。第 1483 行的块矩阵识别把零元写成字母 `O`，其余主要结构可辨。Milnor 序列中，原图为 `K_1B` 与末项 `K_0B`，基线第 1493 行分别误成 `K_1\beta` 并漏去末端 `B`；K₂ 序列的 `K_2B` 在第 1497 行也被误成 `K_2\beta`。第 1495 行还把 `f,g` 写成 `fig`。
+- 页面边界：本页以“两映射均 epic 时可写出 K₂ 序列”及其 `K_2D→K_2A⊕K_2C→K_2B→K_1D` 公式结束；Markdown 第 1499 行起的 `Swan's Theorem` 属于下一页。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按四张 300dpi 裁片复核日期、稳定块矩阵指标及 Milnor `K_1/K_2` 序列末端对象。
+- 记录：2026-10-02 03:23:26 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
