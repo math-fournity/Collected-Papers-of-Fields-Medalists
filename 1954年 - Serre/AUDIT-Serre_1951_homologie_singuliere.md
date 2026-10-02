@@ -35,3 +35,10 @@
 - 仲裁记录：①初读 150dpi 疑 MD 行 45 "π_{n+2p−3}" 与印刷 "π_{n+2p−2}" 不符 → 300dpi 裁剪（p003_pi_formula.png）确认印刷确为 **n+2p−3**，MD 正确，我方初读有误；②印刷原句为 "deux points **distinct** donnés"（p003_distinct_word.png/p003_donne_zoom.png：distinct 无尾 s；donnés 拼写确认）——印刷语法 quirk（应为 distincts），**md 忠实保留 "distinct"，不改**。
 - 差异：md "dont on connaît les groupes" 对印刷 "dont on connait les groupes"——重音符号现代化（排版级），不误导，不修。
 - 备注：本页无内容错误需修复；引用 [22][19][24][25][28] 与数学式全部逐项吻合。
+
+## p.004（PDF p.4 / 印刷 p.427）
+- PNG：audit/p004.png（pngmono 150dpi）
+- 核对：致谢结尾段（Borel/Bourbaki/Eilenberg/Leray/Denjoy）；TABLE DES MATIÈRES：CHAPITRE I（n°1–6）、CHAPITRE II（n°1–13，含 n°4 "Filtration du complexe singulier de E"、n°5/n°6 "Calcul du terme E₁/E₂"、Lemmes 4/5/3 顺序）、CHAPITRE III（n°1–7，Gysin/Wang/Leray-Hirsch）、CHAPITRE IV（n°1–4）
+- 结果：PASS
+- 差异：无。目录各条目文字、编号、顺序、标点（Ch.II 标题无句点、其余章标题有句点；n°5 "suite spectrale—Cas" em-dash；斜体 E₁/E₂ → $E_{1}$/$E_{2}$）逐项吻合。
+- 备注：md 行 112 起的 Ch.IV n°5 条目属印刷 p.428 内容，跨页顺序正常。
