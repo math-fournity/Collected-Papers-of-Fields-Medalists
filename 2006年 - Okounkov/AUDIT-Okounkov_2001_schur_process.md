@@ -166,3 +166,9 @@
 - 核对：γ± 弧定义、K_{3D}=∫^{(1)}+∫^{(2)} 分解、∫^{(1)}=(1/(2πi)²)∫_{γ<}dz∫_{γ>}dw、∫^{(2)} 量子 dilog 比式、∫^{(1)}→0 (r→+0)、§3.1.7、(1−e^{−τ}w)^{Δt} 极限、w=e^τw′ 替换与 e^{−τ(Δh+Δt/2)} 前因子、Definition 4（𝔹_±(k,l;z)=(1/2πi)∫_z̄^z(1−w)^k w^{−l−1}dw，路径过 (0,1)/(−∞,0)）
 - 结果：PASS。全部吻合；行 902/908 的 "r \rightarrow + 0" 箭头完整无缺。
 - 备注：印刷 quirk "with the same integrand in as in (26)"（"in as in"，印刷原样）忠实保留；行 909 "e$- \tau ( \Delta h + \Delta t / 2 )$" 上标拆分为正文+math 的 mineru 排版伪影，内容可辨，不改；"\operatorname { i f }" 伪影不改。
+
+## p.025（PDF p.25 / 印刷 p.25）
+- PNG：audit/p025.png（pngmono 150dpi）
+- 核对：§3.1.8（ℜS 在 γ< 上最大、(29)/(27) 引用）、§3.1.9、式 (33)（{z*,z̄*} 两圆交，ℑz*>0）、z* 延拓定义、式 (34)（分段）、Theorem 2 完整陈述与 det[𝔹_±(Δt_{ij}, Δh_{ij}+Δt_{ij}/2; z*)]
+- 结果：PASS±（七处已修复，均 p025.png 双证）：① 行 923 "$\gamma _ { < }$" 后删 mineru 多余的 "<sub><</sub>"（印刷无重复字符）；② 行 925 "$z _ { c } ,$," 双逗号 → "$z _ { c }$,"；③ 行 941 "as$r  + 0$"→"as$r \to + 0$"；④ 行 947 "diferences"→"differences"（ff 连字，上块移交项之一，本页结清）；⑤ 行 951 "as$r  + 0$"→"as$r \to + 0$"；⑥ Theorem 2 主式 "\mathtt {B}"→"\mathsf {B}"（p025.png 与 Definition 4 同为无衬线 𝔹，统一 md 记号）；⑦ 行 957 句末补句号（"t_i − t_j ≥ 0."）。
+- 备注："(33)and (34)" 缺空格为排版伪影不改；Theorem 2 斜体陈述为 LaTeX 强调。

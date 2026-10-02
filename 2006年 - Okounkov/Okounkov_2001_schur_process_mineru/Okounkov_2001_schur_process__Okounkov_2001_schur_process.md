@@ -920,11 +920,11 @@ where the path of the integration crosses$( 0 , 1 )$for the plus sign and$( - \i
 
 ## 3.1.8
 
-It is also obvious from our construction that the function$\Re S ( z )$reaches its maximal value on the contour$\gamma _ { < }$<sub><</sub> precisely at the points$z _ { c }$and$\bar { z } _ { c }$. The same points are the minima of the function$S ( z )$on the contour$\gamma _ { > }$. The behavior of the integral$\boldsymbol { \int } ^ { ( 1 ) }$is thus determined by the term (29) and, by the basic principle (27), the limit of$\boldsymbol { \int } ^ { ( 1 ) }$vanishes.
+It is also obvious from our construction that the function$\Re S ( z )$reaches its maximal value on the contour$\gamma _ { < }$ precisely at the points$z _ { c }$and$\bar { z } _ { c }$. The same points are the minima of the function$S ( z )$on the contour$\gamma _ { > }$. The behavior of the integral$\boldsymbol { \int } ^ { ( 1 ) }$is thus determined by the term (29) and, by the basic principle (27), the limit of$\boldsymbol { \int } ^ { ( 1 ) }$vanishes.
 
 ## 3.1.9
 
-We can summarize our discussion as follows. Set$z _ { * } = e ^ { - \tau } z _ { c } ,$, in other words,
+We can summarize our discussion as follows. Set$z _ { * } = e ^ { - \tau } z _ { c }$, in other words,
 
 $$
 \left\{z _ {*}, \bar {z} _ {*} \right\} = \left\{\left| z \right| = e ^ {- \tau / 2} \right\} \cap \left\{\left| z - 1 \right| = e ^ {- \tau / 4 - \chi / 2} \right\}, \quad \Im z _ {*} > 0.\tag{33}
@@ -938,25 +938,25 @@ $$
 
 We have established the following
 
-Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r  + 0$
+Theorem 2. Let$U = \{ ( t _ { i } , h _ { i } ) \}$and suppose that as$r \to + 0$
 
 $$
 r t _ {i} \rightarrow \tau \geq 0, r h _ {i} \rightarrow \chi , i = 1, 2, \ldots ,
 $$
 
-in such a way that the diferences
+in such a way that the differences
 
 $$
 \Delta t _ {i j} = t _ {i} - t _ {j}, \quad \Delta h _ {i j} = h _ {i} - h _ {j},
 $$
 
-remain fixed. Then, as$r  + 0$
+remain fixed. Then, as$r \to + 0$
 
 $$
-\mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \mathtt {B} _ {\pm} \left(\Delta t _ {i j}, \Delta h _ {i j} + \frac {\Delta t _ {i j}}{2}; z _ {*}\right) \right],
+\mathrm{Prob} \{U \subset \widetilde {\mathfrak {S}} (\pi) \} \to \det \left[ \mathsf {B} _ {\pm} \left(\Delta t _ {i j}, \Delta h _ {i j} + \frac {\Delta t _ {i j}}{2}; z _ {*}\right) \right],
 $$
 
-where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33)and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$
+where the point$z _ { * } = z _ { * } ( \tau , \chi )$is defined in (33)and (34) and the choice of the plus sign corresponds to$\Delta t _ { i j } = t _ { i } - t _ { j } \geq 0$.
 
 Remark 1. These formulas can be transformed, see Section 3.1.12, into a double integral of form considered in [5], Proposition 8.5 and Conjecture 13.5.
 
