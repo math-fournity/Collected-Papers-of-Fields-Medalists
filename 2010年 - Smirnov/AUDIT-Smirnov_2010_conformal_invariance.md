@@ -69,3 +69,9 @@
 - 核对：§1.2.2 续（分段线性延拓 f）；§1.2.3 Distances and convergence——公式 (1.1) d(z,F) ∶= inf_{y∈F} ∣z−y∣、公式 (1.2) d(γ1,γ2) = inf_φ sup_{u∈[0,1]} ∣γ1(u) − γ2(φ(u))∣（重参数化 φ(0)=0, φ(1)=1），编号 (1.1)/(1.2) 齐全；§2 Two-dimensional Ising model；§2.1 Boundary conditions, infinite-volume measures and phase transition——b ∈ {−1,+1}^{∂G}、公式 (2.1) Z^b_{β,G} = Σ_{σ∈{−1,1}^G ∶ σ=b on ∂G} exp[β Σ_{x∼y} σ_x σ_y]、公式 (2.2) µ^b_{β,G}(σ) = (1/Z^b_{β,G}) exp[β Σ_{x∼y} σ_x σ_y]、free boundary conditions 记号 µ^f_{β,G}；页脚印刷页码 8。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(2.1)/(2.2) 中 β 符号为正（exp[+β∑σ_xσ_y]），下标 σ=b on ∂G 排于求和条件下方；公式编号 (1.1)(1.2)(2.1)(2.2) 为重导出对账锚点。文本层与 PNG 双通道一致。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit/p009.png（pngmono 150dpi）
+- 核对：Theorem 2.1 (Positive association at every temperature)——FKG inequality 公式 (2.3) µ^b_{β,G}(A∩B) ≥ µ^b_{β,G}(A)µ^b_{β,G}(B)、Comparison between boundary conditions 公式 (2.4) µ^{b1}_{β,G}(A) ≤ µ^{b2}_{β,G}(A)；stochastic domination µ^{b1} ≤ µ^{b2} 与 extremal +/− boundary conditions；Λ_n = [−n,n]² 递增盒子序列与 infinite-volume 极限 µ^+_β、µ^−_β；Theorem 2.2——β_c = ½ ln(1+√2)，magnetization µ^+_β[σ_0] 在 β>β_c 严格正、β<β_c 等于 0；引文 [FKG71][Pei36][KW41a, KW41b][Yan52]；脚注 4；页脚印刷页码 9。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：文本层把 ½ 拍平为 "12"、√2 的根号丢失（"ln(1 + 2)"），属 pdftotext 已知伪影；PNG 为裁决源，分数与根号印刷清晰。上标 b/b1/b2/+/- 与下标 β,G 的堆叠记号是重导出对账重点。
