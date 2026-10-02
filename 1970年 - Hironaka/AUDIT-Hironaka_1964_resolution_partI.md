@@ -240,3 +240,10 @@
 - 证据：源 PDF p.032 文本层、页图 `audit/Hironaka_1964_resolution_partI_p032.png`（pngmono 150dpi）与 MinerU Markdown 第 515–519 行。proper rational application 的图像投影条件、domain of definition、复合条件及 elimination-of-indeterminacy 问题均相符；但 Markdown 第 517 行写作 `these exists a unique morphism`，印刷为 `there exists a unique morphism`，是可见正文转录错误，待全文审完后手工修复。
 - 备注：印刷运行页眉与页码 139 未录入 Markdown，属导航元素省略。
 - 结论：正文出现词汇误录，列为 FAIL。
+
+### PDF p.033 / 96（印刷 p.140）— PASS±
+
+- 时间：2026-10-02 01:39 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.033 文本层、页图 `audit/Hironaka_1964_resolution_partI_p033.png`（pngmono 150dpi）与 MinerU Markdown 第 515、517–535 行。Question (E) 的三项条件、proper rational application 与 graph projection 说明、trivialization 段落及脚注 22 对应印刷页；图像确认文本层显示的 `propar` 是提取失真，印刷实际拼作 `proper`，Markdown 保留正确印字。
+- 备注：印刷运行页眉和页码 140 未录入 Markdown，属导航元素省略。
+- 结论：未发现 Markdown 内容差异；因运行页眉/页码省略记为 PASS±。
