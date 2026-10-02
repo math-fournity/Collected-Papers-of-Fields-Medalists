@@ -161,3 +161,10 @@
 - 证据：源 PDF p.021 文本层、页图 `audit/Hironaka_1964_resolution_partI_p021.png`（pngmono 150dpi）与 MinerU Markdown 第 345–349 行。coherent ideal categories、(S_A^*(J))/(I_1^*) 的 Proj 构造、从局部 ringed spaces 态射诱导 sheaf-ideal 映射及逆像记号均与印刷页相符；页图核验了文本层丢失的上/下标和范畴符号。
 - 备注：印刷运行页眉和页码 128 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.022 / 96（印刷 p.129）— FAIL
+
+- 时间：2026-10-02 00:24 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.022 文本层、页图 `audit/Hironaka_1964_resolution_partI_p022.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p022_ideal_morphism.png` 与 MinerU Markdown 第 357 行。印刷定义的局部环结构层商为 `O_X/J`，限制到 D；Markdown 写作 `O_x/J`，把空间下标 X 变成小写 x。裁片核准该字形不是局部点变量。其余 universal property、理想/子空间对应及 footnote 15 对应。
+- 备注：印刷运行页眉和页码 129 未录入 Markdown，属导航元素省略。
+- 结论：结构层下标大小写误录，列为 FAIL；待全篇审计结束后逐处修复。
