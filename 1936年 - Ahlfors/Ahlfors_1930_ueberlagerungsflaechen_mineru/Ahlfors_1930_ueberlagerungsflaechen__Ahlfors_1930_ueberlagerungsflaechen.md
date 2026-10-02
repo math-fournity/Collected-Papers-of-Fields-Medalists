@@ -26,9 +26,7 @@ Die Fläche ist mit einer Metrik versehen, wenn jeder einfachen Kurve eine posit
 
 Wir betrachten zunächst eine geschlossene Fläche  $W_{0}$  und setzen voraus, dass ihre Metrik ausser den oben angegebenen allgemeinen Bedingungen noch einer besonderen Regularitätsbedingung genügt. Gemäss dieser Bedingung soll zu jedem Punkte P auf  $W_{0}$  eine Umgebung  $U_{P}$  gehören, innerhalb deren jede geschlossene Kurve von der Länge L ein Gebiet vom Inhalt I < kL begrenzt,
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">131-163</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Wir verweisen den Leser auf die Darstellung bei KERÉKJÁRTÓ: Vorl. über Topologie, S. 131—163.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Wir verweisen den Leser auf die Darstellung bei KÉRÉKJÁRTÓ: Vorl. über Topologie, S. 131—163.</span></small>
 
 wobei k nur von der Umgebung abhängt. $^{1}$  Man erkennt leicht, dass diese Voraussetzung äusserst allgemein ist.
 

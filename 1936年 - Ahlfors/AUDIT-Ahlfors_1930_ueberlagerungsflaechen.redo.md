@@ -24,4 +24,17 @@
 - 与 Luna 旧记录交叉：旧 p.001 判 PASS；本次独立按页图重核，同样未见差异，旧判维持。
 - 结果：PASS。
 
+### p.002（PDF p.2 / 印刷 p.158）
+
+- audited_at=2026-10-02 14:55 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p002.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p002_kerekjarto_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p002_gebietes_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p002_gebiets_zoom8x.png`。
+- 核对：页眉（158 / Lars Ahlfors.）、Einleitung 末句续文（HURWITZ-RIEMANNschen Relation…endgültige Erklärung.）、节标题顺序（I. Endliche Überlagerungsflächen. → § 1. Die Metrik der Grundfläche.）、定义段 1（geschlossen/berandet 判据）、Metrik 定义段（1°/2° 性质、ε、P）、W₀/U_P/I<kL 记号、脚注 1（Kérékjártó: Vorl. über Topologie, S. 131—163）。
+- 发现并修复（MD 结构化 Edit，各 1 处，同块完成）：
+  1. 脚注人名 `KERÉKJÁRTÓ` → `KÉRÉKJÁRTÓ`——300dpi 裁片显示首 É 带尖音符（印刷小体大写 KÉRÉKJÁRTÓ）。
+  2. 删除游离重复脚注碎片块「131-163」（半角连字符）——印刷该页仅一条脚注，页码范围已完整含于正式脚注「S. 131—163.」，该碎片为 mineru 重复伪影，非印刷内容。
+- 仲裁否决（登记不改）：150dpi 初读疑「Gebiets」应为「Gebietes」，300dpi 单词 4x 放大（`…p002_gebiets_zoom8x.png`）确证印刷即为 **Gebiets,**，MD 原文正确，不动。
+- 保留登记（PASS± 排版级，不修）：印刷定义术语 geschlossen/berandet/Metrik 及书名 Vorl. über Topologie 为斜体，MD 全篇统一丢失斜体（mineru 系统性伪影，按 SOP 默认不逐处改）。
+- 与 Luna 旧记录交叉：旧 p.002 判 PASS±（列 distance/300dpi 局部核对、游离片段类伪影）；本次重核另发现人名缺音与游离碎片两项内容级问题并已修复，其余吻合。
+- 结果：PASS±（两处内容级修复后与印刷一致；斜体缺失登记保留）。
+
 <!-- redo-tail -->
