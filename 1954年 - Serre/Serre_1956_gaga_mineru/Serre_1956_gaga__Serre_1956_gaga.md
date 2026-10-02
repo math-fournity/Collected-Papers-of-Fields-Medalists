@@ -20,7 +20,7 @@ par Jean-Pierre SERRE.
 
 Soit X une variété algébrique projective, définie sur le corps des nombres complexes. L'étude de X peut être entreprise de deux points de vue : le point de vue algébrique, dans lequel on s'intéresse aux anneaux locaux des points de X, aux applications rationnelles, ou régulières, de X dans d'autres variétés, et le point de vue analytique (parfois appelé « transcendant ») dans lequel c'est la notion de fonction holomorphe sur X qui joue le principal rôle. On sait que ce second point de vue s'est révélé particulièrement fécond lorsque X est non singulière, cette hypothèse permettant de lui appliquer toutes les ressources de la théorie des variétés kählériennes (formes harmoniques, courants, cobordisme, etc.)
 
-Dans de nombreuses questions, les deux points de vue conduisent à des résultats essentiellement équivalents, bien que par des méthodes très différentes. Par exemple, on sait que les formes différentielles holomorphes en tout point de X ne sont pas autre chose que les formes différentielles rationnelles qui sont partout « de première espèce » (la variété X étant encore supposée non singulière); le théorème de CNow, d'après lequel tout sous-espace analytique fermé de X est une variété algébrique, est un autre exemple du même type.
+Dans de nombreuses questions, les deux points de vue conduisent à des résultats essentiellement équivalents, bien que par des méthodes très différentes. Par exemple, on sait que les formes différentielles holomorphes en tout point de X ne sont pas autre chose que les formes différentielles rationnelles qui sont partout « de première espèce » (la variété X étant encore supposée non singulière); le théorème de Chow, d'après lequel tout sous-espace analytique fermé de X est une variété algébrique, est un autre exemple du même type.
 
 Le but principal du présent mémoire est d'étendre cette équivalence aux faisceaux cohérents; de façon précise, nous
 
@@ -56,7 +56,7 @@ Soient U et V deux sous-ensembles analytiques de $\mathbb{C}^r$ et de $\mathbb{C
 
 Il revient au même de dire que les $s$ coordonnées de $\varphi(x)$, $x\in\mathbf{U}$, sont des fonctions holomorphes de $x$, autrement dit des sections de $\mathcal{H}_{\mathbf{U}}$.
 
-La composée de deux applications holomorphes est holomorphe. Une bijection $\varphi: U \to V$ est appelée un isomorphisme analytique (ou simplement un isomorphisme) si $\varphi$ et $\varphi^{-1}$ sont holomorphes; cela équivaut à dire que $\varphi$ est un homéomorphisme de U sur V qui transforme le faisceau $\mathcal{H}_{U}$ en le faisceau $\mathcal{H}_{\backslash}$.
+La composée de deux applications holomorphes est holomorphe. Une bijection $\varphi: U \to V$ est appelée un isomorphisme analytique (ou simplement un isomorphisme) si $\varphi$ et $\varphi^{-1}$ sont holomorphes; cela équivaut à dire que $\varphi$ est un homéomorphisme de U sur V qui transforme le faisceau $\mathcal{H}_{U}$ en le faisceau $\mathcal{H}_{V}$.
 
 Si U et U' sont deux sous-ensembles analytiques de C$^{r}$ et de C$^{r'}$, le produit U × U' est un sous-ensemble analytique de C$^{r+r'}$. Les propriétés énoncées dans [18], n° 33 sont valables, en remplaçant partout sous-ensemble localement fermé par sous-ensemble analytique, et application régulière par application holomorphe; en particulier, si φ : U → V et φ' : U' → V' sont des isomorphismes analytiques, il en est de même de
 
@@ -84,7 +84,7 @@ Nous laissons au lecteur le soin de transposer aux espaces analytiques les autre
 
 La définition des faisceaux analytiques donnée dans [2], exp. XV s'étend d'elle-même au cas d'un espace analytique X : un faisceau analytique $\mathcal{F}$ est simplement un faisceau de modules sur le faisceau d'anneaux $\mathcal{H}_{\mathrm{X}}$, autrement dit, un faisceau de $\mathcal{H}_{\mathrm{X}}$-modules (cf. [18], n° 6).
 
-Soit Y un sous-ensemble analytique fermé de X; pour tout  $x \in X$ , soit  $\mathcal{A}_{x}(Y)$  l'ensemble des  $f \in H_{x,Y}$  dont la restriction à Y est nulle au voisinage de x. Les  $\mathcal{A}_{x}(Y)$  forment un faisceau d'idéaux  $\mathcal{A}(Y)$  du faisceau  $H_{X}$ ; le faisceau  $\mathcal{A}(Y)$  est donc un faisceau analytique. Le faisceau quotient  $\mathcal{H}_{X}/\mathcal{A}(Y)$  est nul en dehors de Y, et sa restriction à Y n'est autre que  $H_{Y}$ , par définition même de la structure induite; on pourra donc l'identifier à  $H_{Y}$ , cf. [18], n° 5.
+Soit Y un sous-ensemble analytique fermé de X; pour tout  $x \in X$ , soit  $\mathcal{A}_{x}(Y)$  l'ensemble des  $f \in H_{x,X}$  dont la restriction à Y est nulle au voisinage de x. Les  $\mathcal{A}_{x}(Y)$  forment un faisceau d'idéaux  $\mathcal{A}(Y)$  du faisceau  $H_{X}$ ; le faisceau  $\mathcal{A}(Y)$  est donc un faisceau analytique. Le faisceau quotient  $\mathcal{H}_{X}/\mathcal{A}(Y)$  est nul en dehors de Y, et sa restriction à Y n'est autre que  $H_{Y}$ , par définition même de la structure induite; on pourra donc l'identifier à  $H_{Y}$ , cf. [18], n° 5.
 
 PROPOSITION 1. — a) Le faisceau $\mathcal{H}_{\mathrm{X}}$ est un faisceau cohérent d'anneaux ([18], n° 15).
 
@@ -96,7 +96,7 @@ Comme autres exemples de faisceaux analytiques cohérents, signalons les faiscea
 
 ## 4. Voisinage d'un point dans un espace analytique.
 
-Soient X un espace analytique, x un point de X, et  $H_{x}$  l'anneau des germes de fonctions holomorphes sur X au point x; cet anneau est une algèbre sur C, admettant pour unique idéal maximal l'idéal m formé des fonctions f nulles en x, et le corps  $H_{x}/m$  n'est autre que C; autrement dit,  $H_{x}$  est une algèbre locale sur C. Lorsque  $X = C^{n}$ , l'algèbre  $H_{x}$  n'est autre que l'algèbre  $C\{z_{i}, \ldots, z_{n}\}$  des séries convergentes à n variables; dans le cas général,  $H_{x}$  est isomorphe à une algèbre quotient  $C\{z_{i}, \ldots, z_{n}\}/a$ , puisque X est localement isomorphe à un sous-espace analytique de  $C^{n}$ ; il en résulte que  $H_{x}$  est un anneau noethérien; c'est de plus un anneau analytique, au sens de H. CARTAN ([3], exp. VII).
+Soient X un espace analytique, x un point de X, et  $H_{x}$  l'anneau des germes de fonctions holomorphes sur X au point x; cet anneau est une algèbre sur C, admettant pour unique idéal maximal l'idéal m formé des fonctions f nulles en x, et le corps  $H_{x}/m$  n'est autre que C; autrement dit,  $H_{x}$  est une algèbre locale sur C. Lorsque  $X = C^{n}$ , l'algèbre  $H_{x}$  n'est autre que l'algèbre  $C\{z_{1}, \ldots, z_{n}\}$  des séries convergentes à n variables; dans le cas général,  $H_{x}$  est isomorphe à une algèbre quotient  $C\{z_{1}, \ldots, z_{n}\}/a$ , puisque X est localement isomorphe à un sous-espace analytique de  $C^{n}$ ; il en résulte que  $H_{x}$  est un anneau noethérien; c'est de plus un anneau analytique, au sens de H. CARTAN ([3], exp. VII).
 
 On voit facilement que la connaissance de $\mathcal{H}_{x}$ détermine X au voisinage de $x$ ([3], loc. cit.). En particulier, pour que X soit isomorphe à $\mathbb{C}^{n}$ au voisinage de $x$, il faut et il suffit que l'algèbre $\mathcal{H}_{x}$ soit isomorphe à $\mathbb{C}\{z_{1},\ldots,z_{n}\}$; on voit aisément que cette condition équivaut à dire que $\mathcal{H}_{x}$ est un anneau local régulier de dimension $n$ (pour tout ce qui concerne les anneaux locaux, cf. [16]). Le point $x$ est alors appelé un point simple de dimension $n$ sur X; si tous les points de X sont simples, X est appelé une variété analytique.
 
@@ -106,7 +106,7 @@ $$
 0 = \cap \mathfrak {p} _ {i},
 $$
 
-les $\mathfrak{p}_i$ désignant les idéaux premiers minimaux de $\mathcal{H}_x$. Si l'on note $X_i$ les composantes irréductibles de X en $x$, on a $\mathfrak{p}_i = \mathcal{A}_x(X_i)$ et $\mathcal{H}_x / \mathfrak{p}_i = \mathcal{H}_{x,\mathrm{X}_i}$. Ceci ramène essentiellement l'étude locale de X à celle des $X_i$; par exemple, la dimension (analytique — c'est-à-dire la moitié de la dimension topologique) de X en $x$ est la borne supérieure des dimensions des $X_i$. On observera que cette dimension coïncide avec la dimension (au sens de Krull) de l'anneau local $\mathcal{H}_x$; en effet, il suffit de le vérifier lorsque X est irréductible en $x$, c'est-à-dire lorsque $\mathcal{H}_x$ est un anneau d'intégrité; dans ce cas, si l'on note $r$ la dimension analytique de X en $x$, on sait (cf. [14], § 4 ainsi que [3], exp. VIII) que $\mathcal{H}_x$ est une extension finie de $\mathbb{C}\{z_i,\dots,z_r\}$; comme $\mathbb{C}\{z_1,\dots,z_r\}$ a pour complété l'algèbre de séries formelles $\mathbb{C}[[z_1,\dots,z_r]]$, sa dimension est $r$, et il en est alors de même de $\mathcal{H}_x$, d'après [16], p. 18, ce qui démontre notre assertion.
+les $\mathfrak{p}_i$ désignant les idéaux premiers minimaux de $\mathcal{H}_x$. Si l'on note $X_i$ les composantes irréductibles de X en $x$, on a $\mathfrak{p}_i = \mathcal{A}_x(X_i)$ et $\mathcal{H}_x / \mathfrak{p}_i = \mathcal{H}_{x,\mathrm{X}_i}$. Ceci ramène essentiellement l'étude locale de X à celle des $X_i$; par exemple, la dimension (analytique — c'est-à-dire la moitié de la dimension topologique) de X en $x$ est la borne supérieure des dimensions des $X_i$. On observera que cette dimension coïncide avec la dimension (au sens de Krull) de l'anneau local $\mathcal{H}_x$; en effet, il suffit de le vérifier lorsque X est irréductible en $x$, c'est-à-dire lorsque $\mathcal{H}_x$ est un anneau d'intégrité; dans ce cas, si l'on note $r$ la dimension analytique de X en $x$, on sait (cf. [14], § 4 ainsi que [3], exp. VIII) que $\mathcal{H}_x$ est une extension finie de $\mathbb{C}\{z_{1},\dots,z_r\}$; comme $\mathbb{C}\{z_1,\dots,z_r\}$ a pour complété l'algèbre de séries formelles $\mathbb{C}[[z_1,\dots,z_r]]$, sa dimension est $r$, et il en est alors de même de $\mathcal{H}_x$, d'après [16], p. 18, ce qui démontre notre assertion.
 
 ## § 2. — Espace analytique associé à une variété algébrique.
 
@@ -142,7 +142,7 @@ L'unicité est évidente, puisque l'on peut recouvrir X par des ensembles Z-ouve
 
 Remarque. — On peut donner une définition directe de la structure analytique de X, sans passer par les cartes $\varphi: V \to U$.
 
-On définit la topologie comme la moins fine rendant continues les fonctions régulières sur les sous-ensembles Z-ouverts de X, et l'on définit $\mathcal{H}_{x,\mathrm{x}}$ comme le sous-anneau analytique de $\mathcal{C}(\mathrm{X})_x$ engendré par $\mathcal{O}_{x,\mathrm{x}}$ (au sens de [3], exp. VIII). Nous laissons au lecteur le soin de vérifier l'équivalence des deux définitions.
+On définit la topologie comme la moins fine rendant continues les fonctions régulières sur les sous-ensembles Z-ouverts de X, et l'on définit $\mathcal{H}_{x,\mathrm{X}}$ comme le sous-anneau analytique de $\mathcal{C}(\mathrm{X})_x$ engendré par $\mathcal{O}_{x,\mathrm{X}}$ (au sens de [3], exp. VIII). Nous laissons au lecteur le soin de vérifier l'équivalence des deux définitions.
 
 Dans la suite, nous noterons  $X^{h}$  l'ensemble X muni de la structure d'espace analytique qui vient d'être définie. La topologie de  $X^{h}$  est plus fine que la topologie de X; comme  $X^{h}$  peut être recouvert par un nombre fini d'ouverts possédant des cartes,  $X^{h}$  est un espace localement compact dénombrable à l'infini.
 
@@ -156,17 +156,17 @@ Soit X une variété algébrique, et soit x un point de X. Nous nous proposons d
 
 Comme toute fonction régulière est holomorphe, toute fonction $f\in\mathcal{O}_{x}$ définit un germe de fonction holomorphe en $x$, que nous désignerons par $\theta(f)$. L'application $\theta:\mathcal{O}_{x}\to\mathcal{H}_{x}$ est un homomorphisme, et applique l'idéal maximal de $\mathcal{O}_{x}$ dans celui de $\mathcal{H}_{x}$; elle se prolonge donc par continuité en un homomorphisme $\hat{\theta}:\hat{\mathcal{O}}_{x}\to\hat{\mathcal{H}}_{x}$ du complété de $\mathcal{O}_{x}$ dans celui de $\mathcal{H}_{x}$ (cf. Annexe, n° 24).
 
-PROPOSITION 3. — L'homomorphisme $\hat{0}:\hat{\mathcal{O}}_{x}\to\hat{\mathcal{H}}_{x}$ est bijectif.
+PROPOSITION 3. — L'homomorphisme $\hat{\theta}:\hat{\mathcal{O}}_{x}\to\hat{\mathcal{H}}_{x}$ est bijectif.
 Nous démontrerons la proposition précédente en même temps qu'un autre résultat :
 
 Soit Y un sous-ensemble Z-localement fermé de X, et soit $\mathfrak{J}_{x}(\mathrm{Y})$ (ou $\mathfrak{J}_{x}(\mathrm{Y},\mathrm{X})$ lorsque l'on veut préciser X) l'idéal de $\mathcal{O}_{x}$
 
-formé des fonctions $f$ dont la restriction à $\mathbf{Y}$ est nulle, dans un Z-voisinage de $x$ (cf. [18], n° 39). L'image de $\mathfrak{I}_{x}(\mathbf{Y})$ par $\theta$ est évidemment contenue dans l'idéal $\mathcal{A}_{x}(\mathbf{Y})$ de $\mathcal{H}_{x}$ défini au n° 3.
+formé des fonctions $f$ dont la restriction à $\mathbf{Y}$ est nulle, dans un Z-voisinage de $x$ (cf. [18], n° 39). L'image de $\mathfrak{J}_{x}(\mathbf{Y})$ par $\theta$ est évidemment contenue dans l'idéal $\mathcal{A}_{x}(\mathbf{Y})$ de $\mathcal{H}_{x}$ défini au n° 3.
 
-PROPOSITION 4. — L'idéal $\mathcal{A}_{x}(\mathbf{Y})$ est engendré par $0(\mathfrak{J}_{x}(\mathbf{Y}))$. Nous démontrerons d'abord les propositions 3 et 4 dans le cas particulier où X est l'espace affine $\mathbb{C}^{n}$. La proposition 3 est alors triviale, car $\hat{\mathcal{O}}_{x}$ et $\hat{\mathcal{H}}_{x}$ ne sont autres que l'algèbre $\mathbb{C}[z_{1},\ldots,z_{n}]$ des séries formelles en $n$ indéterminées. Passons à la proposition 4; soit a l'idéal de $\mathcal{H}_{x}$ engendré par $\mathfrak{J}_{x}(\mathbf{Y})$ (l'anneau $\mathcal{O}_{x}$ étant identifié à un sous-anneau de $\mathcal{H}_{x}$ au moyen de 0). Tout idéal de $\mathcal{H}_{x}$ définit un germe de sous-ensemble analytique de X en $x$, cf. [1], n° 3 ou [3], exp. VI, p. 6; il est clair que le germe défini par a n'est autre que Y. Soit alors $f$ un élément de $\mathcal{A}_{x}(\mathbf{Y})$; en vertu du « théorème des zéros » (qui est valable pour les idéaux de $\mathcal{H}_{x}$, cf. [14], p. 278, ainsi que [2], exp. XIV, p. 3 et [3], exp. VIII, p. 9) il existe un entier $r\geqslant0$ tel que $f^{\prime}\in\mathfrak{a}$. A fortiori, on aura
+PROPOSITION 4. — L'idéal $\mathcal{A}_{x}(\mathbf{Y})$ est engendré par $\theta(\mathfrak{J}_{x}(\mathbf{Y}))$. Nous démontrerons d'abord les propositions 3 et 4 dans le cas particulier où X est l'espace affine $\mathbb{C}^{n}$. La proposition 3 est alors triviale, car $\hat{\mathcal{O}}_{x}$ et $\hat{\mathcal{H}}_{x}$ ne sont autres que l'algèbre $\mathbb{C}[[z_{1},\ldots,z_{n}]]$ des séries formelles en $n$ indéterminées. Passons à la proposition 4; soit a l'idéal de $\mathcal{H}_{x}$ engendré par $\mathfrak{J}_{x}(\mathbf{Y})$ (l'anneau $\mathcal{O}_{x}$ étant identifié à un sous-anneau de $\mathcal{H}_{x}$ au moyen de $\theta$). Tout idéal de $\mathcal{H}_{x}$ définit un germe de sous-ensemble analytique de X en $x$, cf. [1], n° 3 ou [3], exp. VI, p. 6; il est clair que le germe défini par a n'est autre que Y. Soit alors $f$ un élément de $\mathcal{A}_{x}(\mathbf{Y})$; en vertu du « théorème des zéros » (qui est valable pour les idéaux de $\mathcal{H}_{x}$, cf. [14], p. 278, ainsi que [2], exp. XIV, p. 3 et [3], exp. VIII, p. 9) il existe un entier $r\geqslant0$ tel que $f^{r}\in\mathfrak{a}$. A fortiori, on aura
 
 $$
-f ^ {r} \in \mathfrak {a}. \hat {\mathcal {H}} _ {x} = \mathfrak {I} _ {x} (\mathrm{Y}). \hat {\mathcal {H}} _ {x} = \mathfrak {I} _ {x} (\mathrm{Y}). \hat {\mathcal {O}} _ {x}.
+f ^ {r} \in \mathfrak {a}. \hat {\mathcal {H}} _ {x} = \mathfrak {J} _ {x} (\mathrm{Y}). \hat {\mathcal {H}} _ {x} = \mathfrak {J} _ {x} (\mathrm{Y}). \hat {\mathcal {O}} _ {x}.
 $$
 
 Mais l'idéal $\mathfrak{J}_x(\mathbf{Y})$ est intersection d'idéaux premiers, qui correspondent aux composantes irréductibles de Y passant par $x$. D'après un théorème de CHEVALLEY (cf. [16], p. 40 ainsi que [17], p. 67), il en est donc de même de l'idéal $\mathfrak{J}_x(\mathbf{Y})$. $\hat{\mathcal{O}}_x$, et la relation $f^r \in \mathfrak{J}_x(\mathbf{Y})$. $\hat{\mathcal{O}}_x$ entraîne donc $f \in \mathfrak{J}_x(\mathbf{Y})$. $\hat{\mathcal{O}}_x$. Puisque $\mathcal{H}_x$ est un anneau local noethérien, on a $\mathfrak{a}$. $\hat{\mathcal{H}}_x \cap \mathcal{H}_x = \mathfrak{a}$ (cf. [15], Chap. IV, ou Annexe, prop. 27); on a donc $f \in \mathfrak{a}$, ce qui démontre la proposition 4 dans le cas considéré.
@@ -233,17 +233,17 @@ PROPOSITION 9. — Soient T et X deux variétés algébriques, et soit $p: \math
 
 Montrons d'abord que $p$ est un homéomorphisme pour les topologies de Zariski de T et de X. Soit F un sous-ensemble Z-fermé de T; puisque $p$ est un isomorphisme analytique, c'est a fortiori un homéomorphisme, et $p(\mathrm{F})$ est fermé dans X. En appliquant la proposition 7 à $p: \mathrm{F} \to \mathrm{X}$, on en conclut que $p(\mathrm{F})$ est Z-fermé dans X, ce qui démontre notre assertion.
 
-Il nous reste maintenant à montrer que p transforme le faisceau  $O_{x}$  des anneaux locaux de X en le faisceau  $O_{T}$  des anneaux locaux de T. De façon plus précise, si t est un point de T, et si  $x = p(t)$ , l'application p définit un homomorphisme
+Il nous reste maintenant à montrer que p transforme le faisceau  $O_{X}$  des anneaux locaux de X en le faisceau  $O_{T}$  des anneaux locaux de T. De façon plus précise, si t est un point de T, et si  $x = p(t)$ , l'application p définit un homomorphisme
 
 $$
-p ^ {*}: \quad \mathcal {O} _ {x, \mathrm{x}} \rightarrow \mathcal {O} _ {t, \mathrm{T}},
+p ^ {*}: \quad \mathcal {O} _ {x, \mathrm{X}} \rightarrow \mathcal {O} _ {t, \mathrm{T}},
 $$
 
 et il nous faut prouver que $p^*$ est bijectif $(^2)$.
 
 (2) La démonstration qui suit m'a été communiquée par P. SAMUEL.
 
-Du fait que $p$ est un Z-homéomorphisme, $p^*$ est injectif, ce qui permet d'identifier $\mathcal{O}_{x,\mathbf{x}}$ à un sous-anneau de $\mathcal{O}_{t,\mathrm{T}}$. Pour simplifier l'écriture, nous poserons $A = \mathcal{O}_{x,\mathbf{x}}$, $A' = \mathcal{O}_{t,\mathrm{T}}$, de sorte que l'on a $A \subset A'$. De même, nous noterons $B$ (resp. $B'$) l'anneau $\mathcal{H}_{x,\mathbf{x}}$ (resp. $\mathcal{H}_{t,\mathrm{T}}$), et nous considérerons $A$ et $A'$ comme plongés respectivement dans $B$ et $B'$ (ce qui est licite, en vertu de la proposition 3). L'hypothèse que $p$ est un isomorphisme analytique signifie que $B = B'$.
+Du fait que $p$ est un Z-homéomorphisme, $p^*$ est injectif, ce qui permet d'identifier $\mathcal{O}_{x,\mathrm{X}}$ à un sous-anneau de $\mathcal{O}_{t,\mathrm{T}}$. Pour simplifier l'écriture, nous poserons $A = \mathcal{O}_{x,\mathrm{X}}$, $A' = \mathcal{O}_{t,\mathrm{T}}$, de sorte que l'on a $A \subset A'$. De même, nous noterons $B$ (resp. $B'$) l'anneau $\mathcal{H}_{x,\mathrm{X}}$ (resp. $\mathcal{H}_{t,\mathrm{T}}$), et nous considérerons $A$ et $A'$ comme plongés respectivement dans $B$ et $B'$ (ce qui est licite, en vertu de la proposition 3). L'hypothèse que $p$ est un isomorphisme analytique signifie que $B = B'$.
 
 Soient  $X_{i}$  les composantes irréductibles de X passant par x; chaque  $X_{i}$  détermine un idéal premier  $\mathfrak{p}_{i} = \mathfrak{I}_{x}(X_{i})$  de l'anneau A, et l'anneau local quotient  $A_{i} = A/\mathfrak{p}_{i}$  n'est autre que l'anneau local de x sur  $X_{i}$ ; le corps des quotients de  $A_{i}$, soit  $K_{i}$, n'est donc pas autre chose que le corps des fonctions rationnelles sur la variété irréductible  $X_{i}$. Les idéaux  $p_{i}$  sont évidemment les idéaux premiers minimaux de l'anneau A, et l'on a  $0 = \cap p_{i}$. L'ensemble S des éléments de A qui n'appartiennent à aucun des  $p_{i}$  est multiplicativement stable (il est facile de voir que c'est l'ensemble des éléments réguliers de A). L'anneau total de fractions  $A_{s}$  est égal au composé direct des corps  $K_{i}$  (cf. lemme 3 ci-après).
 
@@ -316,7 +316,7 @@ b) Pour tout faisceau algébrique $\mathcal{F}$, l'homomorphisme $\alpha: \mathc
 
 c) Si F est un faisceau algébrique cohérent,  $F^{h}$  est un faisceau analytique cohérent.
 
-Si $\mathcal{F}_{1}\to\mathcal{F}_{2}\to\mathcal{F}_{3}$ est une suite exacte de faisceaux algébriques, il en est évidemment de même de la suite $\mathcal{F}_{1}^{\prime}\to\mathcal{F}_{2}^{\prime}\to\mathcal{F}_{3}$, donc aussi de la suite
+Si $\mathcal{F}_{1}\to\mathcal{F}_{2}\to\mathcal{F}_{3}$ est une suite exacte de faisceaux algébriques, il en est évidemment de même de la suite $\mathcal{F}_{1}^{\prime}\to\mathcal{F}_{2}^{\prime}\to\mathcal{F}_{3}^{\prime}$, donc aussi de la suite
 
 $$
 \mathcal {F} _ {1} ^ {\prime} \otimes \mathcal {H} \rightarrow \mathcal {F} _ {2} ^ {\prime} \otimes \mathcal {H} \rightarrow \mathcal {F} _ {3} ^ {\prime} \otimes \mathcal {H},
@@ -351,7 +351,7 @@ Les deux faisceaux en question sont nuls en dehors de  $Y^{h}$ ; il nous suffira
 Soit $x$ un point de Y. Posons, pour simplifier les notations :
 
 $$
-\mathrm{A} = \mathcal {O} _ {x, \mathrm{x}}, \quad \mathrm{A} ^ {\prime} = \mathcal {O} _ {x, \mathrm{y}}, \quad \mathrm{B} = \mathcal {H} _ {x, \mathrm{x}}, \quad \mathrm{B} ^ {\prime} = \mathcal {H} _ {x, \mathrm{y}}, \quad \mathrm{E} = \mathcal {F} _ {x}.
+\mathrm{A} = \mathcal {O} _ {x, \mathrm{X}}, \quad \mathrm{A} ^ {\prime} = \mathcal {O} _ {x, \mathrm{Y}}, \quad \mathrm{B} = \mathcal {H} _ {x, \mathrm{X}}, \quad \mathrm{B} ^ {\prime} = \mathcal {H} _ {x, \mathrm{Y}}, \quad \mathrm{E} = \mathcal {F} _ {x}.
 $$
 
 On a alors :
@@ -360,7 +360,7 @@ $$
 (\mathcal {F} ^ {h}) _ {x} ^ {\mathrm{X}} = \mathrm{E} \otimes_ {\mathrm{A}} \mathrm{B} ^ {\prime} \quad \text { et } \quad (\mathcal {F} ^ {\mathrm{X}}) _ {x} ^ {h} = \mathrm{E} \otimes_ {\mathrm{A}} \mathrm{B}.
 $$
 
-L'anneau A' est le quotient de A par un idéal a, et, d'après la prop. 4 du n° 6, on a B' = B/àB = B⊗A'. En vertu de l'associativité du produit tensoriel, on obtient alors un isomorphisme :
+L'anneau A' est le quotient de A par un idéal a, et, d'après la prop. 4 du n° 6, on a $B' = B/aB = B\otimes_A A'$. En vertu de l'associativité du produit tensoriel, on obtient alors un isomorphisme :
 
 $$
 \theta_ {x}: \mathrm{E} \otimes_ {\mathbf {A} ^ {\prime}} \mathrm{B} ^ {\prime} = \mathrm{E} \otimes_ {\mathbf {A} ^ {\prime}} \mathrm{A} ^ {\prime} \otimes_ {\mathbf {A}} \mathrm{B} \rightarrow \mathrm{E} \otimes_ {\mathbf {A}} \mathrm{B},
@@ -410,7 +410,7 @@ $$
 0 \rightarrow \mathcal {A} \rightarrow \mathcal {B} \rightarrow \mathcal {C} \rightarrow 0,
 $$
 
-où le faisceau à est cohérent, le diagramme :
+où le faisceau $\mathcal{C}$ est cohérent, le diagramme :
 
 $$
 \begin{array}{c} \mathrm{H} ^ {q} (\mathrm{X}, \mathcal {C}) \xrightarrow {\delta} \mathrm{H} ^ {q + 1} (\mathrm{X}, \mathcal {A}) \\ \varepsilon \downarrow \qquad \qquad \qquad \qquad \qquad \varepsilon \downarrow \\ \mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {C} ^ {h}) \xrightarrow {\delta} \mathrm{H} ^ {q + 1} (\mathrm{X} ^ {h}, \mathcal {A} ^ {h}) \end{array}
@@ -504,12 +504,12 @@ $$
 
 (4) On peut aussi calculer directement Hq(X, O) en utilisant le recouvrement ouvert de X défini au n° 16, ainsi que des développements en séries de LAURENT (J. FRENKEL, non publié). On évite ainsi tout recours à la théorie des variétés kählériennes.
 
-où ℒ est somme directe de faisceaux isomorphes à ℒ(n); vu le lemme 5, le théorème 1 est vrai pour le faisceau ℒ.
+où $\mathcal{L}$ est somme directe de faisceaux isomorphes à $\mathcal{O}(n)$; vu le lemme 5, le théorème 1 est vrai pour le faisceau $\mathcal{L}$.
 
 On a un diagramme commutatif :
 
 $$
-\begin{array}{c c c c c c}\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {R})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {L})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {F})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X}, \mathcal {R})\\\varepsilon_ {1} \downarrow&&\varepsilon_ {2} \downarrow&&\varepsilon_ {3} \downarrow&&\varepsilon_ {4} \downarrow\\\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {R} ^ {h})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {L} ^ {h})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {F} ^ {h})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X} ^ {h}, \mathcal {R} ^ {h})\\\end{array}
+\begin{array}{c c c c c c c c c}\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {R})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {L})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X}, \mathcal {F})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X}, \mathcal {R})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X}, \mathcal {L})\\\varepsilon_ {1} \downarrow&&\varepsilon_ {2} \downarrow&&\varepsilon_ {3} \downarrow&&\varepsilon_ {4} \downarrow&&\varepsilon_ {5} \downarrow\\\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {R} ^ {h})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {L} ^ {h})&\rightarrow&\mathrm{H} ^ {q} (\mathrm{X} ^ {h}, \mathcal {F} ^ {h})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X} ^ {h}, \mathcal {R} ^ {h})&\rightarrow&\mathrm{H} ^ {q + 1} (\mathrm{X} ^ {h}, \mathcal {L} ^ {h})\\\end{array}
 $$
 
 Dans ce diagramme, les homomorphismes $\varepsilon_{4}$ et $\varepsilon_{5}$ sont bijectifs, d'après l'hypothèse de récurrence; d'après ce que l'on vient de dire, il en est de même de $\varepsilon_{2}$. Le lemme des cinq montre donc que $\varepsilon_{3}$ est surjectif. Ce résultat, étant valable pour tout faisceau algébrique cohérent $\mathcal{F}$ s'applique en particulier à $\mathcal{R}$, ce qui montre que $\varepsilon_{1}$ est surjectif. Une nouvelle application du lemme des cinq montre alors que $\varepsilon_{3}$ est bijectif, ce qui achève la démonstration.
@@ -551,7 +551,7 @@ $$
 \mathrm{H} ^ {0} (\mathrm{X}, \mathscr {A}) \xrightarrow {\varepsilon} \mathrm{H} ^ {0} (\mathrm{X} ^ {h}, \mathscr {A} ^ {h}) \xrightarrow {\iota} \mathrm{H} ^ {0} (\mathrm{X} ^ {h}, \mathscr {B}).
 $$
 
-Un élément de $\mathrm{H}^0 (\mathbf{X}^h,\mathcal{A})$ (resp. de $\mathrm{H}^0 (\mathbf{X}^h,\mathcal{B}))$ n'est pas autre chose qu'un homomorphisme de $\mathcal{F}$ dans $\mathcal{G}$ (resp. de $\mathcal{F}^h$ dans $\mathcal{G}^h$). De plus, si $f\in \mathrm{H}^0 (\mathbf{X},\mathcal{A})$, on a $\iota \circ \varepsilon (f) = f^h$, par définition même de $\iota$. Le théorème 2 revient donc à affirmer que $\iota \circ \varepsilon$ est bijectif. Or $\varepsilon$ est bijectif d'après le théorème 1 (qui est applicable parce que $\mathcal{A}$ est cohérent, d'après [18], no 14), et $\iota$ est bijectif d'après le lemme 6, c.q.f.d.
+Un élément de $\mathrm{H}^0 (\mathbf{X},\mathcal{A})$ (resp. de $\mathrm{H}^0 (\mathbf{X}^h,\mathcal{B}))$ n'est pas autre chose qu'un homomorphisme de $\mathcal{F}$ dans $\mathcal{G}$ (resp. de $\mathcal{F}^h$ dans $\mathcal{G}^h$). De plus, si $f\in \mathrm{H}^0 (\mathbf{X},\mathcal{A})$, on a $\iota \circ \varepsilon (f) = f^h$, par définition même de $\iota$. Le théorème 2 revient donc à affirmer que $\iota \circ \varepsilon$ est bijectif. Or $\varepsilon$ est bijectif d'après le théorème 1 (qui est applicable parce que $\mathcal{A}$ est cohérent, d'après [18], no 14), et $\iota$ est bijectif d'après le lemme 6, c.q.f.d.
 
 ## 15. Démonstration du théorème 3. Préliminaires.
 
@@ -569,9 +569,9 @@ $$
 
 Puisque $g$ est bijectif, ceci entraîne $\mathcal{A}^h = \mathcal{B}^h = 0$, d'où, d'après la prop. 10 b), $\mathcal{A} = \mathcal{B} = 0$, ce qui montre bien que $f$ est bijectif.
 
-Reste à démontrer l'existence de $\mathcal{F}$. Je dis que l'on peut se borner au cas où X est un espace projectif $\mathbf{P}_{r}(\mathbb{C})$. En effet, soit Y une sous-variété algébrique de $X = \mathbf{P}_{r}(\mathbb{C})$, et soit $\mathcal{M}$ un faisceau analytique cohérent sur $Y^{h}$. Le faisceau $\mathcal{M}^{x}$ obtenu en prolongeant $\mathcal{M}$ par 0 en dehors de $Y^{h}$ est un faisceau analytique cohérent sur $X^{h}$. Si l'on suppose le théorème 3 démontré pour l'espace X, il existe donc un faisceau algébrique cohérent $\mathcal{G}$ sur X tel que $\mathcal{G}^{h}$ soit isomorphe à $\mathcal{M}^{x}$. Soit $\mathcal{I} = \mathcal{I}(Y)$ le faisceau cohérent d'idéaux défini par la sous-variété Y. Si $f \in \mathcal{J}_{x}$, la multiplication par $f$ est un endomorphisme $\varphi$ de $\mathcal{G}_{f x}$; l'endomorphisme $\varphi^{h}$ de $\mathcal{G}_{f x}^{h} = \mathcal{M}_{x}^{x}$ est réduit à 0, puisque $\mathcal{M}$ est un faisceau
+Reste à démontrer l'existence de $\mathcal{F}$. Je dis que l'on peut se borner au cas où X est un espace projectif $\mathbf{P}_{r}(\mathbb{C})$. En effet, soit Y une sous-variété algébrique de $X = \mathbf{P}_{r}(\mathbb{C})$, et soit $\mathcal{M}$ un faisceau analytique cohérent sur $Y^{h}$. Le faisceau $\mathcal{M}^{\mathrm{X}}$ obtenu en prolongeant $\mathcal{M}$ par 0 en dehors de $Y^{h}$ est un faisceau analytique cohérent sur $X^{h}$. Si l'on suppose le théorème 3 démontré pour l'espace X, il existe donc un faisceau algébrique cohérent $\mathcal{G}$ sur X tel que $\mathcal{G}^{h}$ soit isomorphe à $\mathcal{M}^{\mathrm{X}}$. Soit $\mathcal{I} = \mathcal{I}(Y)$ le faisceau cohérent d'idéaux défini par la sous-variété Y. Si $f \in \mathcal{I}_{x}$, la multiplication par $f$ est un endomorphisme $\varphi$ de $\mathcal{G}_{x}$; l'endomorphisme $\varphi^{h}$ de $\mathcal{G}_{x}^{h} = \mathcal{M}_{x}^{\mathrm{X}}$ est réduit à 0, puisque $\mathcal{M}$ est un faisceau
 
-analytique cohérent sur  $Y^{h}$ ; il en est donc de même de  $\varphi$ , d'après la prop. 10 b). Ainsi, l'on a J. G = 0, ce qui signifie qu'il existe un faisceau algébrique cohérent F sur Y, tel que  $G = F^{X}$  ([18], n° 39, prop. 3). D'après la prop. 11,  $(\mathcal{F}^{h})^{X}$  est isomorphe à  $(\mathcal{F}^{X})^{h} = \mathcal{G}^{h}$ , lequel est isomorphe à  $M_{b}^{X}$ . Par restriction à Y, on voit que  $F^{h}$  est isomorphe à M, ce qui démontre notre assertion.
+analytique cohérent sur  $Y^{h}$ ; il en est donc de même de  $\varphi$ , d'après la prop. 10 b). Ainsi, l'on a $\mathcal{I}\cdot\mathcal{G} = 0$, ce qui signifie qu'il existe un faisceau algébrique cohérent F sur Y, tel que  $G = F^{X}$  ([18], n° 39, prop. 3). D'après la prop. 11,  $(\mathcal{F}^{h})^{X}$  est isomorphe à  $(\mathcal{F}^{X})^{h} = \mathcal{G}^{h}$ , lequel est isomorphe à  $\mathcal{M}^{X}$ . Par restriction à Y, on voit que  $F^{h}$  est isomorphe à M, ce qui démontre notre assertion.
 
 ## 16. Démonstration du théorème 3. Les faisceaux $\mathfrak{M}(n)$.
 
@@ -599,7 +599,7 @@ Ces deux remarques, jointes à la compacité de  $X^{h}$ , nous ramènent à dé
 
 Pour tout $x\in X$, il existe un entier $n$, dépendant de $x$ et de $\mathfrak{M}$, tel que $\mathrm{H}^{0}(X^{h},\mathfrak{M}(n))$ engendre $\mathfrak{M}(n)_{x}$.
 
-Choisissons un hyperplan E passant par $x$, d'équation homogène $t=0$. Si $\mathfrak{b}(E)$ désigne le faisceau d'idéaux défini par E (cf. n° 3), on a une suite exacte:
+Choisissons un hyperplan E passant par $x$, d'équation homogène $t=0$. Si $\mathcal{A}(E)$ désigne le faisceau d'idéaux défini par E (cf. n° 3), on a une suite exacte:
 
 $$
 0 \rightarrow \mathcal {A} (\mathrm{E}) \rightarrow \mathcal {H} \rightarrow \mathcal {H} _ {\mathrm{E}} \rightarrow 0.
@@ -610,10 +610,10 @@ De plus, le faisceau $\mathcal{A}(\mathrm{E})$ est isomorphe à $\mathcal{H}(-1)
 Par produit tensoriel avec $\mathfrak{M}$, on obtient une suite exacte :
 
 $$
-\mathcal {A} \otimes \mathcal {A} (\mathrm{E}) \rightarrow \mathcal {A} \rightarrow \mathcal {A} \otimes \mathcal {H} _ {\mathrm{E}} \rightarrow 0.
+\mathfrak {M} \otimes \mathcal {A} (\mathrm{E}) \rightarrow \mathfrak {M} \rightarrow \mathfrak {M} \otimes \mathcal {H} _ {\mathrm{E}} \rightarrow 0.
 $$
 
-Nous noterons $\mathcal{B}$ le faisceau $\mathcal{A}\otimes\mathcal{H}_{\mathrm{E}}$, et nous désignerons par $\mathcal{C}$ le noyau de l'homomorphisme $\mathcal{A}\otimes\mathcal{A}(\mathrm{E})\to\mathcal{A}$ (on a $\mathcal{C}=\operatorname{Tor}_{1}(\mathcal{A},\mathcal{H}_{\mathrm{E}})$); du fait que $\mathcal{A}(\mathrm{E})$ est isomorphe à $\mathcal{H}(-1)$, le faisceau $\mathcal{A}\otimes\mathcal{A}(\mathrm{E})$ est isomorphe à $\mathcal{A}(-1)$, et l'on obtient donc une suite exacte:
+Nous noterons $\mathcal{B}$ le faisceau $\mathfrak{M}\otimes\mathcal{H}_{\mathrm{E}}$, et nous désignerons par $\mathcal{C}$ le noyau de l'homomorphisme $\mathfrak{M}\otimes\mathcal{A}(\mathrm{E})\to\mathfrak{M}$ (on a $\mathcal{C}=\operatorname{Tor}_{1}(\mathfrak{M},\mathcal{H}_{\mathrm{E}})$); du fait que $\mathcal{A}(\mathrm{E})$ est isomorphe à $\mathcal{H}(-1)$, le faisceau $\mathfrak{M}\otimes\mathcal{A}(\mathrm{E})$ est isomorphe à $\mathfrak{M}(-1)$, et l'on obtient donc une suite exacte:
 
 $$
 0 \rightarrow \mathcal {C} \rightarrow \mathfrak {M} (- 1) \rightarrow \mathfrak {M} \rightarrow \mathcal {B} \rightarrow 0.\tag{1}
@@ -622,25 +622,23 @@ $$
 En appliquant le foncteur $\mathfrak{M}(n)$ à la suite exacte (1), on obtient une nouvelle suite exacte:
 
 $$
-0 \rightarrow \mathcal {C} (n) \rightarrow \mathbb {1} _ {0} (n - 1) \rightarrow \mathbb {1} _ {0} (n) \rightarrow \mathcal {B} (n) \rightarrow 0.\tag{2}
+0 \rightarrow \mathcal {C} (n) \rightarrow \mathfrak {M} (n - 1) \rightarrow \mathfrak {M} (n) \rightarrow \mathcal {B} (n) \rightarrow 0.\tag{2}
 $$
 
 Soit $\mathfrak{L}_n$ le noyau de l'homomorphisme $\mathfrak{M}(n) \to \mathfrak{B}(n)$; la suite (2) se décompose en les deux suites exactes:
 
-(3)
-
 $$
-0 \rightarrow \mathcal {C} (n) \rightarrow \mathbb {1 b} (n - 1) \rightarrow \mathfrak {L} _ {n} \rightarrow 0,\tag{4}
+0 \rightarrow \mathcal {C} (n) \rightarrow \mathfrak {M} (n - 1) \rightarrow \mathfrak {L} _ {n} \rightarrow 0.\tag{3}
 $$
 
 $$
-0 \rightarrow \mathfrak {L} _ {n} \rightarrow \mathfrak {M} (n) \rightarrow \mathfrak {B} (n) \rightarrow 0,
+0 \rightarrow \mathfrak {L} _ {n} \rightarrow \mathfrak {M} (n) \rightarrow \mathcal {B} (n) \rightarrow 0.\tag{4}
 $$
 
 qui, à leur tour, donnent naissance aux suites exactes de cohomologie :
 
 $$
-\begin{array}{l}\text {(5)} \quad \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {N} (n - 1)) \rightarrow \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathscr {X} _ {n}) \rightarrow \mathrm{H} ^ {2} (\mathrm{X} ^ {h}, \mathscr {C} (n))\\\text {et}\end{array}
+\begin{array}{l}\text {(5)} \quad \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n - 1)) \rightarrow \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {L} _ {n}) \rightarrow \mathrm{H} ^ {2} (\mathrm{X} ^ {h}, \mathscr {C} (n))\\\text {et}\end{array}
 $$
 
 $$
@@ -650,16 +648,16 @@ $$
 D'après la définition de $\mathcal{B}$ et de $\mathcal{C}$, on a $\mathcal{A}(\mathrm{E})$. $\mathcal{B}=0$ et $\mathcal{A}(\mathrm{E})$. $\mathcal{C}=0$, ce qui signifie que $\mathcal{B}$ et $\mathcal{C}$ sont des faisceaux analytiques cohérents sur l'hyperplan E. Appliquant alors le lemme 7, on voit qu'il existe un entier $n_{0}$ tel que l'on ait, pour tout $n\geqslant n_{0}$, $\mathrm{H}^{1}(\mathrm{X}^{h},\mathcal{B}(n))=0$ et $\mathrm{H}^{2}(\mathrm{X}^{h},\mathcal{C}(n))=0$. Les suites exactes (5) et (6) donnent alors les inégalités:
 
 $$
-\begin{array}{r l} \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n - 1)) & \geqslant \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathscr {P} _ {n}) \\ & \geqslant \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n)). \end{array} \tag {7}
+\begin{array}{r l} \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n - 1)) & \geqslant \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {L} _ {n}) \\ & \geqslant \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n)). \end{array} \tag {7}
 $$
 
-Ces dimensions sont finies, d'après [5] (voir aussi [3], exp. XVII). Il en résulte que dim. H$^{1}$(X$^{h}$, ℓ(n)) est une fonction décroissante de n, pour n ≥ n₀; il existe donc un entier n₁ ≥ n₀ tel que la fonction dim. H$^{1}$(X$^{h}$, ℓ(n)) soit constante pour n ≥ n₁. On a alors :
+Ces dimensions sont finies, d'après [5] (voir aussi [3], exp. XVII). Il en résulte que dim. H$^{1}$(X$^{h}$, $\mathfrak{M}(n)$) est une fonction décroissante de n, pour n ≥ n₀; il existe donc un entier n₁ ≥ n₀ tel que la fonction dim. H$^{1}$(X$^{h}$, $\mathfrak{M}(n)$) soit constante pour n ≥ n₁. On a alors :
 
 $$
-\begin{array}{r l} \dim . \mathrm{H} ^ {\prime} (\mathrm{X} ^ {h}, \mathfrak {M} (n)) & = \dim . \mathrm{H} ^ {\prime} (\mathrm{X} ^ {h}, \mathfrak {L} _ {n}) \\ & = \dim . \mathrm{H} ^ {\prime} (\mathrm{X} ^ {h}, \mathfrak {M} (n)) \quad \text { si } \quad n > n _ {1}. \end{array} \tag {8}
+\begin{array}{r l} \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n - 1)) & = \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {L} _ {n}) \\ & = \dim . \mathrm{H} ^ {1} (\mathrm{X} ^ {h}, \mathfrak {M} (n)) \quad \text { si } \quad n > n _ {1}. \end{array} \tag {8}
 $$
 
-Puisque $n_{1} \geqslant n_{0}$, on a $\mathrm{H}^{1}(X^{h}, \mathcal{B}(n)) = 0$, et la suite exacte (6) montre que $\mathrm{H}^{1}(X^{h}, \mathcal{P}_{n}) \to \mathrm{H}^{1}(X^{h}, \mathcal{M}(n))$ est surjectif; mais, d'après (8), ces deux espaces vectoriels ont même dimension; l'homomorphisme en question est donc injectif, et la suite exacte de cohomologie associée à la suite exacte (4) montre que $\langle^{5}\rangle$:
+Puisque $n_{1} \geqslant n_{0}$, on a $\mathrm{H}^{1}(X^{h}, \mathcal{B}(n)) = 0$, et la suite exacte (6) montre que $\mathrm{H}^{1}(X^{h}, \mathfrak{L}_{n}) \to \mathrm{H}^{1}(X^{h}, \mathcal{M}(n))$ est surjectif; mais, d'après (8), ces deux espaces vectoriels ont même dimension; l'homomorphisme en question est donc injectif, et la suite exacte de cohomologie associée à la suite exacte (4) montre que (5):
 
 (9) $\mathrm{H}^0 (\mathbf{X}^h,\mathcal{M}(n))\to \mathrm{H}^0 (\mathbf{X}^h,\mathcal{B}(n))$ est surjectif pour $n > n_{1}$.
 
@@ -676,12 +674,12 @@ En effet, posons, pour simplifier l'écriture, $\mathbf{A} = \mathcal{H}_x$, $\m
 Soit toujours $\mathcal{M}$ un faisceau analytique cohérent sur $X = P_r(C)$. En vertu du lemme 8, il existe un entier $n$ tel que $\mathcal{M}(n)$ soit isomorphe à un faisceau quotient d'un faisceau $\mathcal{H}^p$, et $\mathcal{M}$ est donc isomorphe à un quotient de $\mathcal{H}(-n)^p$. Si nous désignons par $\mathfrak{L}_0$ le faisceau algébrique cohérent $\mathcal{O}(-n)^p$, on voit donc que l'on a une suite exacte :
 
 $$
-0 \rightarrow \mathcal {R} \rightarrow \mathfrak {L} _ {0} ^ {h} \rightarrow \mathfrak {A b} \rightarrow 0,
+0 \rightarrow \mathcal {R} \rightarrow \mathfrak {L} _ {0} ^ {h} \rightarrow \mathfrak {M} \rightarrow 0,
 $$
 
 où R est un faisceau analytique cohérent.
 
-Appliquant le même raisonnement au faisceau R, on construit un faisceau algébrique cohérent  $L_{i}$  et un homomorphisme analytique surjectif  $L_{i}^{h} \rightarrow R$ . D'où une suite exacte :
+Appliquant le même raisonnement au faisceau R, on construit un faisceau algébrique cohérent  $L_{1}$  et un homomorphisme analytique surjectif  $L_{1}^{h} \rightarrow R$ . D'où une suite exacte :
 
 $$
 \mathfrak {L} _ {1} ^ {h} \xrightarrow {g} \mathfrak {L} _ {0} ^ {h} \to \mathfrak {M} \to 0.
@@ -699,7 +697,7 @@ $$
 \mathfrak {L} _ {1} ^ {h} \xrightarrow {g} \mathfrak {L} _ {0} ^ {h} \to \mathcal {F} ^ {h} \to 0,
 $$
 
-qui montre bien que $\mathcal{A}$b est isomorphe à $\mathcal{F}^{h}$, ce qui achève la démonstration du théorème 3.
+qui montre bien que $\mathfrak{M}$ est isomorphe à $\mathcal{F}^{h}$, ce qui achève la démonstration du théorème 3.
 
 ## § 4. Applications.
 
@@ -709,7 +707,7 @@ Soit $\sigma$ un automorphisme du corps $\mathbb{C}$; si $x$ est un point de $\m
 
 le point de coordonnées homogènes $t_{0}^{\sigma},\ldots,t_{r}^{\sigma}$; ainsi, $\sigma$ définit une permutation de $\mathbf{P}_{r}(\mathbf{C})$.
 
-Si X est une sous-variété algébrique Z-fermée de  $\mathbf{P}_{r}(\mathbb{C})$ , sa transformée  $X^{\circ}$  par  $\sigma$  est encore une sous-variété algébrique Z-fermée de  $\mathbf{P}_{r}(\mathbb{C})$ ; si X est non-singulière, il en est de même de  $X^{\circ}$  (à cause du critère jacobien, par exemple).
+Si X est une sous-variété algébrique Z-fermée de  $\mathbf{P}_{r}(\mathbb{C})$ , sa transformée  $X^{\sigma}$  par  $\sigma$  est encore une sous-variété algébrique Z-fermée de  $\mathbf{P}_{r}(\mathbb{C})$ ; si X est non-singulière, il en est de même de  $X^{\sigma}$  (à cause du critère jacobien, par exemple).
 
 PROPOSITION 12. — Si X est non singulière, les nombres de Betti de X et de X$^{\sigma}$ sont les mêmes.
 
@@ -731,7 +729,7 @@ $$
 b _ {n} \left(\mathrm{X} ^ {\sigma}\right) = \sum_ {p + q = n} h ^ {p, q} \left(\mathrm{X} ^ {\sigma}\right).
 $$
 
-Mais, d'après le théorème 1, on a $h^{p,q}(X) = \dim. H^q(X, \Omega^p(X))$, en désignant cette fois par $\Omega^p(X)$ le faisceau algébrique cohérent des germes de formes différentielles régulières de degré $p$ sur $X$, et de même $h^{p,q}(X^\sigma) = \dim. H^q(X^\sigma, \Omega^p(X^\sigma))$. De plus, si $\omega$ est une forme différentielle régulière sur un sous-ensemble Z-ouvert U de $X$, la forme $\omega^\sigma$ est régulière sur le sous-ensemble Z-ouvert $U^\sigma$ de $X^\sigma$; on en conclut que pour tout recouvrement Z-ouvert $\mathfrak{U}$ de $X$, $\sigma$ définit un isomorphisme semi-linéaire de $C(\mathfrak{U}, \Omega^p(X))$ sur $C(\mathfrak{U}^\sigma, \Omega^p(X^\sigma))$, donc de $H^q(\mathfrak{U}, \Omega^p(X^\sigma))$ sur $H^q(\mathfrak{U}^\sigma, \Omega^p(X^\sigma))$, donc aussi de $H^q(X, \Omega^p(X))$ sur $H^q(X^\sigma, \Omega^p(X^\sigma))$, et l'on a bien $h^{p,q}(X) = h^{p,q}(X^\sigma)$, ce qui démontre la proposition.
+Mais, d'après le théorème 1, on a $h^{p,q}(X) = \dim. H^q(X, \Omega^p(X))$, en désignant cette fois par $\Omega^p(X)$ le faisceau algébrique cohérent des germes de formes différentielles régulières de degré $p$ sur $X$, et de même $h^{p,q}(X^\sigma) = \dim. H^q(X^\sigma, \Omega^p(X^\sigma))$. De plus, si $\omega$ est une forme différentielle régulière sur un sous-ensemble Z-ouvert U de $X$, la forme $\omega^\sigma$ est régulière sur le sous-ensemble Z-ouvert $U^\sigma$ de $X^\sigma$; on en conclut que pour tout recouvrement Z-ouvert $\mathfrak{U}$ de $X$, $\sigma$ définit un isomorphisme semi-linéaire de $C(\mathfrak{U}, \Omega^p(X))$ sur $C(\mathfrak{U}^\sigma, \Omega^p(X^\sigma))$, donc de $H^q(\mathfrak{U}, \Omega^p(X))$ sur $H^q(\mathfrak{U}^\sigma, \Omega^p(X^\sigma))$, donc aussi de $H^q(X, \Omega^p(X))$ sur $H^q(X^\sigma, \Omega^p(X^\sigma))$, et l'on a bien $h^{p,q}(X) = h^{p,q}(X^\sigma)$, ce qui démontre la proposition.
 
 La proposition 12 entraîne le résultat suivant, conjecturé par A. WEIL :
 
@@ -765,7 +763,7 @@ COROLLAIRE. — Tout espace analytique compact possède au plus une structure de
 
 Soient G un groupe algébrique et X une variété algébrique. Les germes d'applications régulières de X dans G forment un faisceau de groupes, en général non abéliens, que nous désignerons par $\mathcal{G}$.
 
-On sait que, si $\mathcal{A}$ est un faisceau de groupes, on peut définir le groupe $H^{6}(X, \mathcal{A})$ et l'ensemble $H^{1}(X, \mathcal{A})$: cf. [9] ainsi que [10], chap. v, par exemple. En particulier, $H^{1}(X, \mathcal{G})$ est défini; les éléments de cet ensemble ne sont autres que les classes d'espaces fibrés algébriques principaux, de base X, et de groupe structural G (au sens défini par A. WEIL, cf. [20]). Par exemple, les éléments de $H^{1}(X, \mathcal{O}_{X})$ sont les classes d'espaces fibrés de groupe le groupe additif C.
+On sait que, si $\mathcal{A}$ est un faisceau de groupes, on peut définir le groupe $H^{0}(X, \mathcal{A})$ et l'ensemble $H^{1}(X, \mathcal{A})$: cf. [9] ainsi que [10], chap. v, par exemple. En particulier, $H^{1}(X, \mathcal{G})$ est défini; les éléments de cet ensemble ne sont autres que les classes d'espaces fibrés algébriques principaux, de base X, et de groupe structural G (au sens défini par A. WEIL, cf. [20]). Par exemple, les éléments de $H^{1}(X, \mathcal{O}_{X})$ sont les classes d'espaces fibrés de groupe le groupe additif C.
 
 De même, si $\mathcal{G}^{h}$ désigne le faisceau des germes d'applications holomorphes de X dans G, les éléments de H$^{1}$(X$^{h}$, $\mathcal{G}^{h}$) ne sont autres que les classes d'espaces fibrés analytiques de base X et de groupe G. Tout espace fibré algébrique E définit un espace fibré analytique E$^{h}$, d'où une application
 
@@ -784,12 +782,12 @@ L'espace E × E' est un espace fibré algébrique principal,
 de base X × X, et de groupe structural G × G; nous désigne-rons par (E, E') son image réciproque par l'application diagonale X → X × X: c'est le « produit fibré » de E et de E'. Faisons opérer G × G sur G par la formule :
 
 $$
-(g, g ^ {\prime}). h = g h g ^ {- 1}.
+\left(g, g^{\prime}\right)\cdot h = g h \left(g^{\prime}\right)^{-1}.
 $$
 
 Soit T l'espace fibré associé à l'espace fibré principal (E, E') et admettant pour fibre type le groupe G, muni des opérations précédentes. On voit tout de suite que les sections de T correspondent biunivoquement aux isomorphismes de E sur E'; en particulier, l'isomorphisme $\varphi$ correspond à une section analytique s de T. En appliquant à $s: X \to T$ la proposition 15, on voit que s est régulière, ce qui signifie que $\varphi$ est régulier, et démontre la proposition.
 
-Supposons maintenant que X soit une variété projective. On peut se demander si $\varepsilon: H'(X, \mathcal{G}) \to H'(X^h, \mathcal{G}^h)$ est bijective, autrement dit (compte tenu de la prop. 16), si tout espace fibré analytique est algébrique. C'est évidemment inexact si l'on n'impose aucune condition à G, comme le montre le cas où G est une variété abélienne (ou un groupe fini); dans les propositions suivantes, nous allons indiquer un certain nombre de groupes G pour lesquels c'est exact.
+Supposons maintenant que X soit une variété projective. On peut se demander si $\varepsilon: H^{1}(X, \mathcal{G}) \to H^{1}(X^h, \mathcal{G}^h)$ est bijective, autrement dit (compte tenu de la prop. 16), si tout espace fibré analytique est algébrique. C'est évidemment inexact si l'on n'impose aucune condition à G, comme le montre le cas où G est une variété abélienne (ou un groupe fini); dans les propositions suivantes, nous allons indiquer un certain nombre de groupes G pour lesquels c'est exact.
 
 PROPOSITION 17. — Si G est le groupe additif C, l'application est bijective.
 
@@ -799,11 +797,11 @@ PROPOSITION 18. — Si G est le groupe linéaire général GL$_{n}$(C), l'applic
 
 A tout espace fibré principal de groupe structural  $\mathrm{GL}_{n}(\mathbb{C})$  est associé un espace fibré à fibre vectorielle, de fibre type  $C^{n}$ , qui le caractérise. Compte tenu de la correspondance entre espaces fibrés à fibres vectorielles et faisceaux localement libres (cf. [18], n° 41, par exemple), on est donc ramené à démontrer l'énoncé suivant :
 
-Si $\mathfrak{M}$ est un faisceau analytique cohérent sur $X^{h}$, qui est localement isomorphe à $\mathcal{H}^{n}$, il existe un faisceau algébrique cohérent $\mathcal{F}$ sur X, qui est localement isomorphe à $\mathcal{O}^{n}$, et tel que $\mathcal{F}^{h}$ soit isomorphe à $\mathfrak{A}$.
+Si $\mathfrak{M}$ est un faisceau analytique cohérent sur $X^{h}$, qui est localement isomorphe à $\mathcal{H}^{n}$, il existe un faisceau algébrique cohérent $\mathcal{F}$ sur X, qui est localement isomorphe à $\mathcal{O}^{n}$, et tel que $\mathcal{F}^{h}$ soit isomorphe à $\mathfrak{M}$.
 
 D'après le théorème 3 il existe un faisceau algébrique cohérent $\mathcal{F}$ sur X vérifiant la seconde condition. Pour tout $x\in X$, le $\mathcal{H}_x$-module $\mathcal{F}_x^h = \mathcal{F}_x\otimes \mathcal{H}_x$ est donc isomorphe à $\mathcal{H}_x^n$; en appliquant la proposition 30 de l'Annexe aux anneaux $A = \mathcal{O}_x$, $A' = \mathcal{H}_x$ et au module $E = \mathcal{F}_x$, on en conclut que $\mathcal{F}_x$ est isomorphe à $\mathcal{O}_x^n$; puisque $\mathcal{F}$ est cohérent, ceci entraîne que $\mathcal{F}$ est localement isomorphe à $\mathcal{O}^n$, et achève la démonstration.
 
-Remarques 1. — Pour $n=1$, $\mathrm{GL}_{n}(\mathbb{C})$ coïncide avec le groupe multiplicatif $\mathbb{C}^{*}$; si l'on suppose que X est une variété normale, le groupe $\mathrm{H}^{\prime}(\mathrm{X},\mathcal{G})$ coïncide avec le groupe des classes de diviseurs localement linéairement équivalents à zéro (cf. [20], § 3) et la proposition 18 signifie que tout espace fibré analytique de base X et de groupe structural $\mathbb{C}^{*}$ provient d'un tel diviseur. Lorsque X est non singulière, ce résultat avait été obtenu par KODAIRA-SPENCER [12]; dans ce cas, il est d'ailleurs essentiellement équivalent au théorème de LEFSCHETZ sur l'existence de diviseurs de classe d'homologie donnée.
+Remarques 1. — Pour $n=1$, $\mathrm{GL}_{n}(\mathbb{C})$ coïncide avec le groupe multiplicatif $\mathbb{C}^{*}$; si l'on suppose que X est une variété normale, le groupe $\mathrm{H}^{1}(\mathrm{X},\mathcal{G})$ coïncide avec le groupe des classes de diviseurs localement linéairement équivalents à zéro (cf. [20], § 3) et la proposition 18 signifie que tout espace fibré analytique de base X et de groupe structural $\mathbb{C}^{*}$ provient d'un tel diviseur. Lorsque X est non singulière, ce résultat avait été obtenu par KODAIRA-SPENCER [12]; dans ce cas, il est d'ailleurs essentiellement équivalent au théorème de LEFSCHETZ sur l'existence de diviseurs de classe d'homologie donnée.
 
 2. La proposition 18 permet d'étendre d'autres résultats de KODAIRA aux variétés projectives arbitraires (pouvant avoir des singularités); il en est notamment ainsi des théorèmes 7 et 8 de [11]. Nous n'insisterons pas là-dessus.
 
@@ -875,7 +873,7 @@ $$
 
 est exacte.
 
-Vu la définition des foncteurs Tor, la condition précédente équivaut à dire que $\mathrm{Tor}_{\mathfrak{i}}^{\mathsf{A}}(\mathbf{B},\mathbf{Q}) = 0$ pour tout A-module Q; comme Tor commute avec les limites inductives, on peut se borner aux modules Q de type fini, et même (grâce à la suite exacte des Tor) aux modules Q monogènes; ainsi, pour que B soit A-plat, il faut et il suffit que $\mathrm{Tor}_{\mathfrak{i}}^{\mathsf{A}}(\mathbf{B},\mathbf{A} / \mathfrak{a}) = 0$ pour tout idéal $\mathfrak{a}$ de A, autrement dit que l'homomorphisme canonique $\mathfrak{a}\otimes_{\mathbf{A}}\mathbf{B}\to \mathbf{B}$ soit injectif.
+Vu la définition des foncteurs Tor, la condition précédente équivaut à dire que $\mathrm{Tor}_{1}^{\mathsf{A}}(\mathbf{B},\mathbf{Q}) = 0$ pour tout A-module Q; comme Tor commute avec les limites inductives, on peut se borner aux modules Q de type fini, et même (grâce à la suite exacte des Tor) aux modules Q monogènes; ainsi, pour que B soit A-plat, il faut et il suffit que $\mathrm{Tor}_{1}^{\mathsf{A}}(\mathbf{B},\mathbf{A} / \mathfrak{a}) = 0$ pour tout idéal $\mathfrak{a}$ de A, autrement dit que l'homomorphisme canonique $\mathfrak{a}\otimes_{\mathbf{A}}\mathbf{B}\to \mathbf{B}$ soit injectif.
 
 Exemples. — 1. Si A est un anneau principal, il résulte de ce qui précède que « B est A-plat » équivaut à « B est sans torsion ».
 
@@ -973,7 +971,7 @@ Remarque. — Un raisonnement analogue montre que si (A, B) et (B, C) sont plats
 
 ## 23. Modules sur un anneau local.
 
-Dans ce numéro, nous désignerons par A un anneau local noethérien (6), d'idéal maximal M.
+Dans ce numéro, nous désignerons par A un anneau local noethérien (6), d'idéal maximal $\mathfrak{m}$.
 
 PROPOSITION 24. — Si un A-module de type fini E vérifie la relation E = mE, on a E = 0.
 
@@ -993,7 +991,7 @@ comme 1 — $x_{n}$ est inversible dans A, ceci montre que les $e_{1}, \ldots, e
 
 COROLLAIRE. — Soit E un A-module de type fini. Si un sous-module F de E vérifie la relation  $E = F + mE$ , on a E = F. En effet, cette relation signifie que  $E/F = m(E/F)$ .
 
-Nous munirons tout A-module E de la topologie m-adique dans laquelle les sous-modules m°E forment une base de voisinages de 0 (cf. [15], p. 153).
+Nous munirons tout A-module E de la topologie m-adique dans laquelle les sous-modules $\mathfrak{m}^{n}E$ forment une base de voisinages de 0 (cf. [15], p. 153).
 
 PROPOSITION 25. — Soit E un A-module de type fini. Alors : a) La topologie induite sur un sous-module F de E par la topologie m-adique de E coïncide avec la topologie m-adique de F.
 
@@ -1026,7 +1024,7 @@ $$
 Considérons alors le diagramme commutatif :
 
 $$
-\begin{array}{c c c c c} \mathrm{R} \otimes_ {\Lambda} \hat {\mathrm{A}} \to \mathrm{L} \otimes_ {\Lambda} \hat {\mathrm{A}} \to \mathrm{E} \otimes_ {\Lambda} \hat {\mathrm{A}} \to 0 \\ \varepsilon^ {\prime \prime} \downarrow & & \varepsilon^ {\prime} \downarrow & & \varepsilon \downarrow \\ \hat {\mathrm{R}} & \to & \hat {\mathrm{L}} & \to & \hat {\mathrm{E}} \end{array}
+\begin{array}{c c c c c} \mathrm{R} \otimes_ {\mathrm{A}} \hat {\mathrm{A}} \to \mathrm{L} \otimes_ {\mathrm{A}} \hat {\mathrm{A}} \to \mathrm{E} \otimes_ {\mathrm{A}} \hat {\mathrm{A}} \to 0 \\ \varepsilon^ {\prime \prime} \downarrow & & \varepsilon^ {\prime} \downarrow & & \varepsilon \downarrow \\ \hat {\mathrm{R}} & \to & \hat {\mathrm{L}} & \to & \hat {\mathrm{E}} \end{array}
 $$
 
 Les deux lignes de ce diagramme sont exactes, et, d'autre part, il est clair que $\varepsilon'$ est bijectif. On en déduit que $\varepsilon$ est surjectif (autrement dit, on a $\hat{\mathbf{E}} = \hat{\mathbf{A}}.\mathbf{E}$, cf. [15], p. 153, lemme 1). Ce résultat, étant démontré pour tout A-module de type fini, s'applique en particulier à R, ce qui montre que $\varepsilon''$ est surjectif, et, en appliquant le lemme des cinq, on en conclut que $\varepsilon$ est bijectif, c.q.f.d.
@@ -1041,7 +1039,7 @@ Tout d'abord, $\hat{\mathbf{A}}$ est A-plat. En effet, il suffit de montrer que,
 
 De même, le fait que E → Ê soit injectif si E est de type fini montre que le couple (A, Â) vérifie la propriété  $a'$  de la proposition 22, donc est bien un couple plat.
 
-Soient maintenant A et B deux anneaux locaux, et soit 0 un homomorphisme de A dans B. Supposons que 0 applique l'idéal
+Soient maintenant A et B deux anneaux locaux, et soit $\theta$ un homomorphisme de A dans B. Supposons que $\theta$ applique l'idéal
 
 maximal de A dans l'idéal maximal de B. Alors $\theta$ est continu, et se prolonge par continuité en un homomorphisme $\hat{\theta}:\hat{A}\to\hat{B}$.
 
@@ -1049,13 +1047,13 @@ PROPOSITION 28. — Supposons que $\hat{\theta}\colon\hat{A}\to\hat{B}$ soit bij
 
 On a  $A \subset B \subset \hat{B} = \hat{A}$ , et les couples (A,  $\hat{A}$ ) et (B,  $\hat{B}$ ) sont plats, d'après la proposition précédente. La proposition 23 montre que (A, B) est un couple plat.
 
-PROPOSITION 29. — Soient A et B deux anneaux locaux, soit a un idéal de A, et soit 0 un homomorphisme de A dans B. Si 0 vérifie l'hypothèse de la proposition 28, il en est de même de l'homomorphisme de A/a dans B/θ(a)B défini par 0 (ce qui montre que le couple (A/a, B/θ(a)B) est un couple plat).
+PROPOSITION 29. — Soient A et B deux anneaux locaux, soit a un idéal de A, et soit $\theta$ un homomorphisme de A dans B. Si $\theta$ vérifie l'hypothèse de la proposition 28, il en est de même de l'homomorphisme de A/a dans B/θ(a)B défini par $\theta$ (ce qui montre que le couple (A/a, B/θ(a)B) est un couple plat).
 
 D'après la proposition 26, le complété de A/a est $\hat{A}/a\hat{A}$, et, de même, celui de B/$\theta(a)$B est $\hat{B}/\theta(a)\hat{B}$, d'où le résultat.
 
-PROPOSITION 30. — Soient A et A' deux anneaux locaux, soit 0 un homomorphisme de A dans A' vérifiant l'hypothèse de la proposition 28, et soit E un A-module de type fini. Si le A'-module E' = E ⊗A'A'est isomorphe à A'n, alors E est isomorphe à A^n.
+PROPOSITION 30. — Soient A et A' deux anneaux locaux, soit $\theta$ un homomorphisme de A dans A' vérifiant l'hypothèse de la proposition 28, et soit E un A-module de type fini. Si le A'-module $E' = E \otimes_{A} A'$ est isomorphe à $(A')^{n}$, alors E est isomorphe à $A^{n}$.
 
-Nous identifierons A à un sous-anneau de A' au moyen de 0. Si m et m' désignent les idéaux maximaux de A et A', on a donc m < m'; d'autre part, puisque m' est un voisinage de 0 dans A', et que A est dense dans A', on a A' = m' + A, ce qui montre que A/m = A'/m', d'où E/mE = E'/m'E'. Puisque le A'-module E' est un module libre de rang n, il en est de même du A'/m'-module E'/m'E'. On en conclut qu'il est possible de choisir n éléments  $e_{1}, \ldots, e_{n}$  dans E dont les images dans E/mE forment une base de E/mE, considéré comme espace vectoriel sur A/m. Les éléments  $e_{i}$  définissent un homomorphisme f: A^n → E qui est surjectif en vertu du corollaire à la proposition 24. Nous allons montrer que f est injectif, ce qui démontrera la proposition.
+Nous identifierons A à un sous-anneau de A' au moyen de $\theta$. Si $\mathfrak{m}$ et $\mathfrak{m}'$ désignent les idéaux maximaux de A et A', on a donc $\mathfrak{m} \subset \mathfrak{m}'$; d'autre part, puisque $\mathfrak{m}'$ est un voisinage de 0 dans A', et que A est dense dans A', on a $A' = \mathfrak{m}' + A$, ce qui montre que $A/\mathfrak{m} = A'/\mathfrak{m}'$, d'où $E/\mathfrak{m}E = E'/\mathfrak{m}'E'$. Puisque le A'-module E' est un module libre de rang n, il en est de même du $A'/\mathfrak{m}'$-module $E'/\mathfrak{m}'E'$. On en conclut qu'il est possible de choisir n éléments $e_{1}, \ldots, e_{n}$ dans E dont les images dans $E/\mathfrak{m}E$ forment une base de $E/\mathfrak{m}E$, considéré comme espace vectoriel sur $A/\mathfrak{m}$. Les éléments $e_{i}$ définissent un homomorphisme $f: A^{n} \to E$ qui est surjectif en vertu du corollaire à la proposition 24. Nous allons montrer que f est injectif, ce qui démontrera la proposition.
 
 Soit N le noyau de f. Du fait que le couple (A, A') est plat (prop. 28), la suite exacte :
 
@@ -1069,7 +1067,7 @@ $$
 0 \rightarrow \mathrm{N} ^ {\prime} \rightarrow \mathrm{A} ^ {\prime n} \xrightarrow {f ^ {\prime}} \mathrm{E} ^ {\prime} \rightarrow 0.
 $$
 
-Comme le module E' est libre, N' est facteur direct dans A'n, et l'on a une suite exacte:
+Comme le module E' est libre, N' est facteur direct dans $A'^{n}$, et l'on a une suite exacte:
 
 $$
 0 \rightarrow \mathrm{N} ^ {\prime} / \mathfrak {m} ^ {\prime} \mathrm{N} ^ {\prime} \rightarrow \mathrm{A} ^ {\prime n} / \mathfrak {m} ^ {\prime} \mathrm{A} ^ {\prime n} \rightarrow \mathrm{E} ^ {\prime} / \mathfrak {m} ^ {\prime} \mathrm{E} ^ {\prime} \rightarrow 0.
@@ -1106,7 +1104,7 @@ C. R., 240, 1955, pp. 2368-2370.
 
 [13] M. ROSENLICHT. Some basic theorems on algebraic groups. Amer J. of Maths., 78, 1956, pp. 401-443.
 
-[14] W. RÜCKERT. Zum Eliminationsproblem der Potenzreihendeale. Math. Ann., 107, 1933, pp. 259-281.
+[14] W. RÜCKERT. Zum Eliminationsproblem der Potenzreihenideale. Math. Ann., 107, 1933, pp. 259-281.
 
 [15] P. SAMUEL. Commutative Algebra (Notes by D. Herzig). Cornell Univ., 1953.
 
