@@ -201,3 +201,9 @@
 - 核对：§4.2 Preholomorphic functions、§4.2.1 Historical introduction——Kirchhoff [Kir47] 电网络模型、两条定律公式 (4.5) Σ_{v∼u}F(uv) = 0 与 (4.6) Σ_{[uv]∈γ}F(uv) = 0、[BSST40] 方形铺砌、Isaacs [Isa41, Isa52]（mono-diffric、Cauchy-Riemann 离散版 ∂_{iα}F = i∂_α F / z̄-导数为 0）、第一定义 i[f(E)−f(S)] = f(W)−f(S)、第二定义 i[f(E)−f(W)] = f(N)−f(S)（N/E/S/W 为面四角）、Ferrand [Fer44, LF55]、Duffin [Duf56]；§4.3 Isaacs's definition of preholomorphic functions——∂̄ = ∂_x + i∂_y 的离散化 ∂̄_δ f(x) = ½[f(E)−f(W)] + (i/2)[f(N)−f(S)]（x ∈ L⋆_δ）；页脚印刷页码 30。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：Cauchy-Riemann 行的下标 iα/α 堆叠与 ∂̄_δ 的 bar 记号以 PNG 为准；(4.5)/(4.6) 编号齐全。
+
+## p.031（PDF p.31 / 印刷 p.31）
+- PNG：audit/p031.png（pngmono 150dpi）
+- 核对：Remark 4.11（derivation 用图-对偶图对偶、二阶导回原图、primitive 在 G⋆）；Definition 4.12——preholomorphic 即 ∂̄_δ f(x) = 0 ∀x ∈ Ω⋆_δ、discrete Cauchy-Riemann equation；preholomorphic 理论起步段（gradient of preharmonic is preholomorphic）；Exercise 4.13（O(δ³)）；Exercise 4.14（√2δ modified Laplacian、gradient 性质、极限 holomorphic）；Exercise 4.15（contour integral/primitive/differential）；Exercise 4.16——(1/√(2δ))∂̄_δ 与 (1/(2δ²))Δ_δ 依分布收敛于 ∂, ∂̄, Δ；§4.4 s-holomorphic functions 引入段；§4.4.1——line ℓ(e) 过原点与 √ē（ℝ, e^{iπ/4}ℝ, iℝ, e^{3iπ/4}ℝ，Fig. 8）；Definition 4.17——P_{ℓ(e)}[f(x)] = P_{ℓ(e)}[f(y)]（P_ℓ 为正交投影）；页脚印刷页码 31。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：1/(√2δ) 与 1/(2δ²) 分数、e^{iπ/4}ℝ 指数、P_{ℓ(e)} 花体 ℓ 下标以 PNG 为准；Fig. 8 在下一页，跨页引用登记。
