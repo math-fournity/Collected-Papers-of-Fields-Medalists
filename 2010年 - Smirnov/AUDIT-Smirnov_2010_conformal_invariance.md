@@ -363,3 +363,9 @@
 - 核对：stretched lattice 非旋转不变收尾；Definition 8.1——rhombic embedding（G 与 G⋆ 顶点的 planar quadrangulation、G→G⋆ 边、等长、Fig. 10 回引）、isoradial 定义；isoradial graphs 两大理由段（[Mer01, Ken02, CS08]、Section 4 回引）；J_xy = arctanh[tan(θ/2)]（θ 为菱形半角）与 critical Ising Hamiltonian H(σ) = −Σ_{x∼y} J_xy σ_xσ_y；Theorem 8.2 (Chelkak, Smirnov [CS09])——isoradial graphs 上 critical Ising interfaces 随 mesh → 0 收敛于 chordal SLE κ = 3（uniform on any rhombic graph）；Question 8.3（非任意 quadrangulation 有 rhombic embedding [KS05]、其他 embedding?）；Question 8.4（更一般 discrete setup、preholomorphic 收敛估计?）；biperiodic lattice L（torus 有限图的 universal cover）与 periodic correlations Hamiltonian；Question 8.5（证明存在 embedding 使 L 上 Ising conformally invariant）；页脚印刷页码 57。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：花体 L（biperiodic lattice）、J_xy 下标、arctanh[tan(θ/2)] 嵌套为对账锚点；Theorem 8.2 编号与 κ=3 为重导出锚点。
+
+## p.058（PDF p.58 / 印刷 p.58）
+- PNG：audit/p058.png（pngmono 150dpi）
+- 核对：Figure 17——FK percolation 相图（纵轴 cluster-weight q、横轴 edge-weight p；曲线 p_c(q) = √q/(1+√q)；标注 subcritical phase、critical phase: first order、4-colours Potts model representation（q=4 虚线）、critical phase: SLE(4π/arccos(−√q/2))、FK Ising（q=2）、percolation（q=1）、UST（q=0 → p=0）、supercritical phase）及图注 "The phase diagram of the FK percolation model on the square lattice."；§8.2 Full scaling limit of critical Ising model——[KS10] SLE(3)、free boundary conditions 下 loops、[HK11] Hongler-Kytölä +/−/free 边界、Sheffield-Werner [SW10a, SW10b] CLE(κ)（κ > 8/3）、Ising 极限应为 CLE(3)；§8.3 FK percolation for general cluster-weight q ≥ 0 标题——p_c(q) = √q/(1+√q) 猜想（[BDC10] q ≥ 1 情形、Fig. 17 引用）；页脚印刷页码 58。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：Figure 17 为图内含公式（p_c(q)、SLE(4π/arccos(−√q/2))）的位图/矢量混合插图，重导出时图内标注需按 PNG/原 PDF 核对；HK11 的 Kytölä 带分音 ö 以 PNG 为准。
