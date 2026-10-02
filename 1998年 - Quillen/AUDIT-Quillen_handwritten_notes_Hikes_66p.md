@@ -203,3 +203,13 @@
 - 印刷证据与差异：原图有限群事实使用 `H_i(BG;\mathbb Z)` 与 `\widetilde H_i(BG^+)`，基线第 612、616 行将指标 `i` 误成 `n` / `g`；原图的同伦群是 `π_i(BG^+)`，基线第 618 行写成 `π_{*i}`。第 620 行原式为按 `p\mid |G|` 索引的 `X_p` 分解，基线把整除条件写坏。环定义部分原图明确说 `P=Im(A^n→A^n)` 对应 idempotent matrices，基线第 628 行误读为 `ln`、`c^2=e` 和 “independent matrices”；第 632 行还漏掉首种 Grothendieck group 定义中的 “abelian”。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片核对有限群指标、p 索引、image/idempotent 与定义语句。
 - 记录：2026-10-02 00:23:46 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.020（PDF p.20 / 纸面圈号 20）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p020.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_exact-sequence.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p020_module-example.png`。
+- 核对：精确序列 Grothendieck 关系；projective quotient splitting；`\mathbb Z/p^2`-module 范畴中 direct-sum 与 exact-sequence 两种群的生成元及短正合列关系。
+- 结果：**PASS±**。
+- 差异：源图的 “(2) ⇒ (1) easy” 在 MinerU 基线第 642 行写为 `(z)⇒(1)`；上下文中两种 Grothendieck group 定义仍可定位到该编号，因此记为轻微标签 OCR 误差。第 656 行把 direct-sum 群和 exact-sequence 群的两项结果压在一行，分界不清，但 300dpi 裁片可确认原文是 `\mathbb Z⊕\mathbb Z` 与 `\mathbb Z` 两项分别陈述。
+- 修复状态：无需内容级 FAIL 修复；若最终全篇手工修订本处排版，将保留两项群结果的原义。
+- 记录：2026-10-02 00:41:20 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
