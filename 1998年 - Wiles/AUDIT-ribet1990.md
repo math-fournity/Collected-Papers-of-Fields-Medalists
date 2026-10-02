@@ -169,3 +169,10 @@
 - 发现并当场修复：①L674 首个 "(The quotient E/H"→"$\mathbf{E}/H$"（印刷粗体 enhanced 商，与后文斜体 E/H 对照，150 dpi 页图）；②L698 两处 "$\mathcal{I}$"→"$\mathcal{S}$"（"basis 𝒮={i}"、"for each j∈𝒮"，150 dpi 页图同款花体 S）。
 - 印刷原文 quirk：L654 印刷即 "the reduction of the Albanese variety **to** X₀(qM)"（语义预期为 of；300 dpi 确证 to 为印刷原样），MD 忠实保留不改。
 - 结果：FAIL（3 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.021（PDF p.21 / 印刷 p.450）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 16:48 -0400。
+- PNG：`audit/ribet1990_p021.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："**E**/*H*≈**F**" 粗体、"α∈Aut(**E**)"、"α∈{±1}"（带 1），未存档）。
+- 核对：η_r-等变性、λ=η_r(i)/e(i) 整除论证；E=(E,B)、F=(F,C)、e=e(i)=card(A)、Aut(E)/{±}（印刷 {±} 无 1，MD 忠实；后文 {±1} 带 1，MD 亦忠实）；E/H≈F 整除命题；A 自由作用、α 阶 3/4/6、虚二次域；R=End(E) 由 α 生成、Gaussian integers、Q(√−3)、R/rR-模 E[r]、ideal ℘=(π)、π′=r/π、E/H≈E 矛盾；Remark 3.13（Brandt matrix、i-th column）；Proposition 3.14（η_r: Λ*→X、Φ→X/η_rX）；Φ=X*/X=Λ*/(X⊕X^⊥)、σ、Weil Riemann Hypothesis、η_r 等距；段尾行间式 η_r: Λ*→X ✓。
+- 发现并当场修复：L714 "$E/H \approx F$"→"$\mathbf{E}/H \approx \mathbf{F}$"（粗体 enhanced 对象拍平；300 dpi 裁片确证）。
+- 结果：FAIL（1 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
