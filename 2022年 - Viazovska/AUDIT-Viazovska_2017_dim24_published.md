@@ -236,6 +236,28 @@
 - 残留排版伪影（登记不改）：参考文献作者 small caps 拍平（H. COHN→H. Cohn 等，mineru 一致风格）
 - 结果：PASS（修复后）
 
+## p.017（PDF p.17 / 印刷 p.1033：References [11]–[13] + 收稿日期 + 五单位地址邮箱）
+- PNG：audit/p017.png（pngmono 150dpi）
+- 核对：**[11] Thue** Forhandlingerne ved de Skandinaviske Naturforskeres 14 (1892) 352–353 +
+  Zbl 24.0259.01；**[12] Viazovska dim 8** Ann. 185 (2017) 991–1015 + arXiv 1603.04246 +
+  DOI …185.3.7；**[13] Zagier** The 1-2-3 of Modular Forms 2008 pp.1–103 + MR 2409678 +
+  Zbl 1259.11042 + DOI 10.1007/978-3-540-74119-0_1；**(Received: May 23, 2016)**；
+  五地址块逐条：Microsoft Research New England（cohn@microsoft.com）、Stony Brook
+  （thenav@gmail.com）、Rutgers（miller@math.rutgers.edu）、Max Planck Bonn → Current address
+  Abdus Salam ICTP Trieste（danradchenko@gmail.com）、Berlin Mathematical School and Humboldt
+  University of Berlin → Current address École Polytechnique Fédérale de Lausanne
+  （viazovska@gmail.com）——邮箱、城市、顺序均与 print 一致 ✓
+- 差异与修复（依据 p017.png）：①[13] DOI "978-3-540-74119-0 1"（print 实为下划线 _1，
+  提取时空格化）→ "978-3-540-74119-0_1."；②**Viazovska 地址块乱序重排**：mineru 把
+  "Lausanne, Switzerland" 提到 E-mail 之前、把 "Current address : École Polytechnique
+  Fédérale de Lausanne," 连同孤儿重音符 "<sup>´</sup>" 甩到末行 → 已按 print 顺序重建为
+  Berlin/Germany → Current address École Polytechnique Fédérale de Lausanne（重音还原 É/é，
+  删孤儿 ´）→ Lausanne/Switzerland → E-mail
+- 残留排版伪影（登记不改）：地址块逗号被包为 <sub>,</sub>（基线检测伪影，五块一致，
+  不改变内容）；作者 small caps 拍平同 p.16
+- 结果：PASS（修复后）
+
+
 
 
 

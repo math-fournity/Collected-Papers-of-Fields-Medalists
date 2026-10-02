@@ -609,7 +609,7 @@ by$\Delta ^ { 2 }$and compute its q-series. Our usual truncation bounds show tha
 
 [12] M. S. Viazovska, The sphere packing problem in dimension 8, Ann. of Math. 185 (2017), 991–1015. arXiv 1603.04246. https://doi.org/10.4007/annals.2017.185.3.7.
 
-[13] D. Zagier, Elliptic modular forms and their applications, in The 1-2-3 of Modular Forms, Universitext, Springer-Verlag, New York, 2008, pp. 1–103. MR 2409678. Zbl 1259.11042. https://doi.org/10.1007/978-3-540-74119-0 1.
+[13] D. Zagier, Elliptic modular forms and their applications, in The 1-2-3 of Modular Forms, Universitext, Springer-Verlag, New York, 2008, pp. 1–103. MR 2409678. Zbl 1259.11042. https://doi.org/10.1007/978-3-540-74119-0_1.
 
 (Received: May 23, 2016)
 
@@ -625,8 +625,8 @@ Berlin Mathematical School and Humboldt University of Berlin,
 
 Berlin<sub>,</sub> Germany
 
+Current address : École Polytechnique Fédérale de Lausanne,
+
 Lausanne<sub>,</sub> Switzerland
 
 E-mail : viazovska@gmail.com
-
-Current address : Ecole Polytechnique F <sup>´</sup> ed<sup>´</sup> erale de Lausanne, <sup>´</sup>
