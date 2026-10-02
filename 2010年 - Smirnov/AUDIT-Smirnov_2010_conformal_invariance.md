@@ -45,3 +45,9 @@
 - 核对：universality/CFT 段与引文 [PP66, Kad66][BPZ84b, BPZ84a][ISZ88][Sch00]；Dobrushin boundary conditions 段（Ω_δ ⊂ δZ²，arcs ∂_ab/∂_ba，+1/−1 自旋固定）；斜体预测展示式 "For any (Ω,a,b) and any conformal map ψ ∶ Ω → C, the random curve ψ ○ γ_(Ω,a,b) has the same law as γ_(ψ(Ω),ψ(a),ψ(b))"；SLE(κ) 定义（driving process √κ B_t，(B_t) standard Brownian motion）；脚注 2 "i.e. one-to-one holomorphic maps"、脚注 3 "In fact the interface is not unique…"；页脚印刷页码 4。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：印刷 quirk 登记——脚注 3 末 "the closest interface to ∂_ab" 的下标 ab 排印位置偏高（近乎上标位），文本层提取为 "to ∂\nab"；重导出对账时按此原样登记，不作"改正"。
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit/p005.png（pngmono 150dpi）
+- 核对：Figure 2 及图注 "An interface between + and − in the Ising model."；Main result 1 (Theorem 2.10) critical Ising → SLE(κ=3)；Main result 2 (Theorem 3.13) critical FK-Ising → SLE(κ=16/3)；[LPSA94] 数值实验段、Cardy's formula [Car92]、Smirnov [Smi01]；crossing probability 记号 C_δ(Ω,A,B,C,D)；页脚印刷页码 5。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：两条 Main result 的定理编号（2.10/3.13）与 κ 值（3 与 16/3）为后续重导出对账的关键锚点；文本层与 PNG 双通道一致。
