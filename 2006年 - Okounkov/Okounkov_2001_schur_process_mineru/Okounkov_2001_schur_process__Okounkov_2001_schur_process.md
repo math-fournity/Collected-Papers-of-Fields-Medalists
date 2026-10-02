@@ -273,7 +273,7 @@ $$
 Definition 1. We define the transition weight by the following formula
 
 $$
-S _ {\phi} (\mu , \lambda) = \sum_ {\nu} s _ {\mu / \nu} (\phi^ {-}) s _ {\lambda / \nu} (\phi^ {+}),\tag{9}
+\mathsf {S} _ {\phi} (\mu , \lambda) = \sum_ {\nu} s _ {\mu / \nu} (\phi^ {-}) s _ {\lambda / \nu} (\phi^ {+}),\tag{9}
 $$
 
 where$s _ { \lambda / \nu } ( \phi ^ { + } )$is defined by (7) and$s _ { \mu / \nu } ( \phi ^ { - } )$is the skew Schur function$s _ { \mu / \nu }$ specialized so that
@@ -288,7 +288,7 @@ $$
 \left(\phi_ {i - j}\right) = \left(\phi_ {i - j} ^ {+}\right) \left(\phi_ {i - j} ^ {-}\right).
 $$
 
-Also note that because of (8) the sum in (9) is finite, namely, it ranges over all ν such that$\nu \subset \mu , \lambda$
+Also note that because of (8) the sum in (9) is finite, namely, it ranges over all ν such that$\nu \subset \mu , \lambda$.
 
 ## 2.2.6
 

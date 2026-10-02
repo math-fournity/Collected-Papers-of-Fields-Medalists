@@ -58,3 +58,9 @@
 - 核对：§2.2.2（φ(z)=Σ_{k∈ℤ}φ_k z^k、winding number 0/geometric mean 1 条款）、§2.2.3（X={x_i},Y={y_i}∈𝔖、无限行列式 (6) det(φ_{y_i−x_j})）、§2.2.4 Wiener-Hopf 分解 φ(z)=φ⁺(z)φ⁻(z)
 - 结果：PASS±（三处 ff 连字丢失已修复，文本层+PNG 双证）：① 行 207 "coeficient"→"coefficient"；② 行 233 "diferent regularizations difer"→"different regularizations differ"；③ 行 235 "diferent"→"different"。
 - 备注：公式、节编号、tag (6) 全部吻合；"well defined"（无连字符）与印刷一致。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit/p009.png（pngmono 150dpi）
+- 核对：φ^{±}(z)=1+Σ_{k∈±ℕ}φ_k^{±}z^k、Jacobi-Trudy 式 det(φ^+_{λ_i−μ_j+j−i})=s_{λ/μ}(φ^+)、specialization (7) h_k=φ_k^+、(8) s_{λ/μ}(φ^+)=0 (μ⊄λ)、Definition 1 与 (9) S_φ(μ,λ)=Σ_ν s_{μ/ν}(φ⁻)s_{λ/ν}(φ⁺)、h_k=φ⁻_{−k}、Cauchy-Binet 段与 (φ_{i−j})=(φ^+_{i−j})(φ^−_{i−j})
+- 结果：PASS±（两处已修复）：① md 行 276 (9) 式左端 "S _ {\phi}" 被拍平为斜体 S，印刷（p009.png Definition 1 公式）为无衬线 𝕊_φ，且 md 式 (10) 等处均作 \mathsf{S}，内部不一致 → 改 "\mathsf {S} _ {\phi}"；② 行 291 句末补印刷原页句号（"…ν such that ν ⊂ µ, λ."）。
+- 备注：印刷 quirk "the meaning of (6) in unambiguous"（应为 is，印刷原样，PNG+文本层双证）忠实保留；行 253 "$\phi ^ { - } ( z ) = 1 \ : ( \mathrm { o r } \ : \phi ^ { + } ( z ) = 1 )$" 的 "\ :" 空距伪影为 mineru 排版级伪影，内容无误，不改。
