@@ -688,3 +688,15 @@
 - 修复状态：待 66 页逐页审计完成后，按已留 300dpi 裁片用 Edit/apply_patch 逐处修复有限阶段图、`γ`/`λ` 公式和上标记号，再按扫描件模式复读最终全文。
 - 记录：2026-10-02 05:44:41 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
 - 字形保留：页末系数幂零引理的结论 `i>0` 的 `x_i` 系数 nilpotent 可辨；假设中的函数/元素关系在 300dpi 图上仍不能唯一判读。OCR 为 `(f,a)=1`，仅作 OCR 转录，精确假设标记 `UNKNOWN`。
+
+### p.065（PDF p.65 / 纸面圈号 65）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p065.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p065_gamma-adams-decomposition.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p065_triples-monoid.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p065_inverse-lemma.png`。
+- 核对：p.64 页末局部幂零叙述的续页；有理 Adams eigenspace 分解及其在代数 K 群上的形式；`A^*`、域上 `K_2` 的 Adams 作用；环悬挂和商映射下的三元组幺半群、Lemma 1 及其逆元构造。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图先由 `\gamma`-filtration 局部幂零导出 `\widetilde K(X,A)\otimes\mathbb Q\cong\bigoplus_{i\ge1}V_{(i)}`，其中 `V_{(i)}=\{x\in\widetilde K(X,A)\otimes\mathbb Q:\Psi^k x=k^i x\ \forall k\}`；基线第 2313 行把 `\widetilde K` 识成 `\widetilde F`，并漏掉 `\forall k`，第 2315 行又损坏 `V_{(i),n}` 的指标位置。原图随后给 `A^*\to K_1A` 上 `\Psi^k\alpha=k\alpha`，以及域 `F` 上 `\alpha\in K_2F` 时 `\Psi^k\alpha=k^2\alpha`；基线第 2317 行将 `K_1A` / 包含对象错成 `k,A` 碎片，第 2319 行的 `K_2F` 幂次结论则大致保留。原图手写日期 `11.3.74` 未录入；悬挂定义末尾的 `s.t.` 被识成 `sit`。
+- 原图定义 `\pi:A\twoheadrightarrow B` 后取 `E,F\in\mathcal P^0(A)` 与同构 `\alpha:\pi E\cong\pi F`，并注明 `\pi E=E/\ker(\pi)E`；基线第 2326 行把对象类别读成 `\mathcal R^0(A)` 并将定义压并。原图说这些三元组的同构类构成幺半群 `M`，运算由直和给出；基线第 2328 行将 “iso classes” 错成 “150 classes”，虽第 2329 行保留了直和运算。原图 Lemma 1 断言每个 `(E,F,\alpha)` 有逆元 `(E',F',\alpha')`，使其和成为 `(A^n,A^n,\operatorname{id}_{B^n})`；旁注称 `(A,A,\operatorname{id}_B)` 为 `M` 的 basic element。其证明从 `E\oplus E_1\cong A^m`、`F\oplus F_1\cong A^m` 开始，并在页末用 `\alpha` 得到商模直和同构链；基线第 2331 行起的矩阵/变量噪声没有保留 Lemma 1 和该证明链，无法对应原图。
+- 页面边界：原图 p.65 从 `\gamma`-filtration 局部幂零句续入，页末停在 Lemma 1 证明中的 `\pi E_1\oplus B^m\cong\pi E_1\oplus\pi E\oplus\pi F_1\cong B^m\oplus\pi F_1` 同构链；基线该段后续内容严重碎裂，末端与 p.66 的衔接待下页核对。
+- 修复状态：待 66 页逐页审计完成后，按裁片用 Edit/apply_patch 逐处修复 Adams eigenspace 记号、悬挂/商映射定义和三元组 Lemma 1 及证明，再按扫描件模式复读最终全文。
+- 记录：2026-10-02 05:56:49 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
