@@ -626,3 +626,10 @@
 - 证据：源 PDF p.087 文本层、页图 `audit/Hironaka_1964_resolution_partI_p087.png`、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p087_Psi_diagram_and_Lemma8.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p087_Lemma8_formula.png`，并比对 MinerU Markdown 第 1839–1865 行。Lemma 8 印刷映射域使用 $\mathrm{gr}_{Q}^{0}(\mathrm{gr}_{P}(O))\otimes_{\bar O/\bar Q}\mathrm{gr}_{\bar Q}(\bar O)$；Markdown 第 1856 行第二因子的 graded subscript 将 bar 录成 dot。另条件 (2) 印刷理想生成元为 $(\varphi_1,\ldots,\varphi_m)$，Markdown 第 1863 行误写成 $(\varphi_j,\ldots,\varphi_m)$。组合 diagram、映射方向、gamma 论证与 Lemma 8 条件 (1) 对应原页。
 - 备注：印刷运行页眉和页码 194 未录入 Markdown，属导航元素省略。
 - 结论：Lemma 8 映射中的一个 $\bar Q$ 下标误录为 dot，且生成元起始索引将 1 写成 j，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.088 / 96（印刷 p.195）— FAIL
+
+- 时间：2026-10-02 05:39 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.088 文本层、页图 `audit/Hironaka_1964_resolution_partI_p088.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p088_theorem2_Osymbols.png` 与 MinerU Markdown 第 1867–1903 行。定理 2 (i) 的 $\mathrm{gr}_{P}(O)$/$O/P$ 中两个 O、第 1874 行 $\psi'$ 式中四个 O、第 1888 行 $\varphi$ 式中四个 O，以及第 1896 行直和同构中的四个 O，共 14 处都被写成数字 0。命题条件 (ii)–(iv)、(i)–(iv) 间的等价推导、direct-sum argument 与脚注 42 正文均对应原页。
+- 备注：印刷运行页眉和页码 195 未录入 Markdown，属导航元素省略。
+- 结论：14 处结构环符号 O 误录为数字 0，列为 FAIL；待全篇审计后逐处手工修复。
