@@ -369,3 +369,9 @@
 - 核对：Figure 17——FK percolation 相图（纵轴 cluster-weight q、横轴 edge-weight p；曲线 p_c(q) = √q/(1+√q)；标注 subcritical phase、critical phase: first order、4-colours Potts model representation（q=4 虚线）、critical phase: SLE(4π/arccos(−√q/2))、FK Ising（q=2）、percolation（q=1）、UST（q=0 → p=0）、supercritical phase）及图注 "The phase diagram of the FK percolation model on the square lattice."；§8.2 Full scaling limit of critical Ising model——[KS10] SLE(3)、free boundary conditions 下 loops、[HK11] Hongler-Kytölä +/−/free 边界、Sheffield-Werner [SW10a, SW10b] CLE(κ)（κ > 8/3）、Ising 极限应为 CLE(3)；§8.3 FK percolation for general cluster-weight q ≥ 0 标题——p_c(q) = √q/(1+√q) 猜想（[BDC10] q ≥ 1 情形、Fig. 17 引用）；页脚印刷页码 58。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：Figure 17 为图内含公式（p_c(q)、SLE(4π/arccos(−√q/2))）的位图/矢量混合插图，重导出时图内标注需按 PNG/原 PDF 核对；HK11 的 Kytölä 带分音 ö 以 PNG 为准。
+
+## p.059（PDF p.59 / 印刷 p.59）
+- PNG：audit/p059.png（pngmono 150dpi）
+- 核对：§8.3.1 Case 0 ≤ q ≤ 4——loop model、每 loop 权 √q、parafermionic observable 定义公式 (8.1) F(e) = E_{Ω◇_δ,a_δ,b_δ,p,q}[e^{σ·iW_γ(e,b_δ)}1_{e∈γ}]（σ = σ(q) 称 spin）；Proposition 8.6——q ≤ 4、criticality、spin σ = 1 − (2/π)arccos(√q/2)、公式 (8.2) F(N) − F(S) = i[F(E) − F(W)]；Cauchy-Riemann 理解段（一般 q 时 F 不被唯一确定、变量多于方程；q = 2 对应 σ = 1/2、Lemma 5.1 + Proposition 5.3）；顶点 parafermionic observable F(v) = ½Σ_{e∼v}F(e)；weakly-holomorphic 期望收敛段；Conjecture 8.7——公式 (8.3) (1/(2δ)^σ)F_δ(z) → φ′(z)^σ（φ 为 Ω → ℝ×(0,1)、a↦−∞、b↦∞ 共形映射）；四步 program bullets（compactness、Loewner chains with unknown W_t、observables/martingales 收敛、Lévy ⟹ W_t 为速度 κ 的 Brownian motion ⟹ SLE(κ)）；页脚印刷页码 59。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(8.1)/(8.2)/(8.3) 编号齐全；(2δ)^σ 底数分数与 φ′(z)^σ 上标 σ 堆叠、e^{σ·iW} 指数以 PNG 为准。
