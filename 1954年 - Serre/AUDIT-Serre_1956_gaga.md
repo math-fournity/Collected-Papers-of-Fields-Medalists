@@ -276,6 +276,13 @@
 - Checked: Proposition 24 and its corollary, the m-adic topology definition, Proposition 25(a)–(b), the Artin–Rees relation, and the completion map in Proposition 26.
 - Result: FAIL. The print defines the neighborhood basis by the submodules m^n E; the crop confirms exponent n. Markdown line 996 has m°E. The Artin–Rees relation and completion map agree.
 
+### PDF p.040/43 — print p.39
+
+- Reviewed: 2026-10-02 00:57 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
+- Evidence: [300 dpi completion diagram crop](audit/300dpi/Serre_1956_gaga_p040_completion-diagram_300dpi.png); PDF text layer and MinerU Markdown lines 1020–1048.
+- Checked: completion of Proposition 26, the exact completion diagram, surjectivity/injectivity conclusion, and the opening of Proposition 27.
+- Result: FAIL. In the top row of the diagram, the print tensors over A throughout. Markdown line 1029 uses Lambda as the tensor base in all three terms. The crop confirms A; the surrounding completion maps agree.
+
 ### PDF p.025/43 — print p.24
 
 - Reviewed: 2026-10-01 16:39 EDT; actor=Peer-P09; model=gpt-6-luna; effort=max.
