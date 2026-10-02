@@ -675,3 +675,10 @@
 - 证据：源 PDF p.094 文本层、页图 `audit/Hironaka_1964_resolution_partI_p094.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p094_Theorem3_proof.png` 与 MinerU Markdown 第 2067–2085 行。印刷将 $Q'=Q/P$ 记为 $\bar Q$；Markdown 第 2071 行再次写成 $Q/P$，漏掉横线。同行 proof 的元素变量印刷为 $\mathrm{gr}_{Q}(J,R)$，Markdown 有一处写成小写 $\mathrm{gr}_{q}(J,R)$。其余多项式环表示、理想生成条件、度数排序及元素 $g_1$ 的构造条件均与原页相符。
 - 备注：印刷运行页眉和页码 201 未录入 Markdown，属导航元素省略。
 - 结论：商素理想横线与定理变量 Q/q 有两处差异，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.095 / 96（印刷 p.202）— FAIL
+
+- 时间：2026-10-02 06:13 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.095 文本层、页图 `audit/Hironaka_1964_resolution_partI_p095.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p095_Z_indices_and_generators.png` 与 MinerU Markdown 第 2087–2125 行。印刷将 $\psi_\alpha(Z)$ 限为变量 $Z_1,\ldots,Z_r$ 的形式；Markdown 第 2093 行误写为 $Z_1,\ldots,Z_s$。另印刷分解为 $\psi_\alpha=\sum_{\beta<i}\lambda_{\alpha,\beta}\varphi_\beta$，Markdown 第 2112 行将生成元 $\varphi_\beta$ 误录为花体 $\mathcal P_\beta$。度数比较、提升 $h_{\alpha,\beta}$ 及 $g_1$ 的性质 (1)–(3) 其余部分对应原页。
+- 备注：正文在列出 $g_2$ 的性质时续至下一页；印刷运行页眉和页码 202 未录入 Markdown。
+- 结论：变量范围上界与引理生成元符号各有一处误录，列为 FAIL；待全篇审计后逐处手工修复。
