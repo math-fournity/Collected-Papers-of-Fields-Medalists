@@ -163,3 +163,21 @@
   "For brevity's sake…" 属 p.9 范围。
 
 ---
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit-redo/p009.png（pngmono 150dpi）
+- 核对：For brevity's sake 引句；DEFINITION（E over Q is stable）；PROPOSITION 1 陈述
+  （$K_p$ unramified over $\mathbb{Q}$ in all primes $l\neq p$ with $v_l(j_E)\geq 0$ or
+  $v_l(j_E)\equiv 0 \mod p$）；minimal Weierstraß equation 段（principal domain、"one" 强调）；
+  展示式 $N_E: Y^2+\lambda XY+\mu Y=X^3+\alpha X^2+\beta X+\gamma$；
+  $\alpha,\beta,\gamma,\lambda,\mu\in\mathbb{Z}$ minimal equation 句；discriminant of E = $\Delta_E$ 句；
+  The following facts hold: 引句。
+- 结果：PASS
+- 差异与处置：
+  1. 【300dpi 澄清】PROPOSITION 1 同余号印刷为 **≡**（三横清晰），MD `\equiv` 忠实；
+     本页 $N_E$ 展示式印刷为 **βX**（与 p.4 一致，反证 p.6 βY 系该页孤立印刷误），MD 忠实。
+  2. 【登记不改】印刷下划线强调：DEFINITION、PROPOSITION 1、行内 "one"：排版级伪影。
+- 备注：页眉 "Elliptic Curves and Fermat's Equation　9" 未入 MD，正常。本块（p.1–p.9）至此完成；
+  本页末行止于 "The following facts hold:"，后续 "Assume that E is stable…" 属 p.10 范围。
+
+---
