@@ -80,7 +80,7 @@
 ### PDF p.010 / 96（印刷 p.117）— FAIL
 
 - 时间：2026-10-01 16:35 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.010 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p010.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_topology_not_supset.png` 与 MinerU Markdown 第 227–231 行。裁片确认 Zariski 拓扑定义中的原文条件为 `P ⊅ I`（素理想 P 不包含理想 I），Markdown 写成 `P \not\cong I`，关系符含义错误。该页还把层 `O_X`、`O_Y` 与 `O_S` 的下标大小写混写为小写 x/y/s，并把点处局部环 `O_{X,x}` 写成 `O_X`；此处 subscript 区分结构层和 stalk，属数学对象记号错误。印刷使用花体 `\mathcal{R}` 表示 local-ringed spaces 类别，Markdown 多处仅为普通 `R`。
+- 证据：源 PDF p.010 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p010.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_topology_not_supset.png`、局部态射裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p010_local_map.png` 与 MinerU Markdown 第 227–231 行。拓扑定义的印刷关系为 `P ⊅ I`（素理想 P 不包含理想 I），Markdown 写成 `P \not\cong I`；关系含义错误。局部态射裁片显示印刷为 `O_Y → O_X`，Markdown 写成 `O_Y → O_x`；印刷局部环目标为 `O_{X,x}`，Markdown 仅写 `O_X`，漏掉点下标 `,x`。该页类别花体 `\mathcal{R}` 在 Markdown 中记作普通 `R`，仅属排版差异。
 - 结论：拓扑开集条件及 local-ringed-space/sheaf 记号有实质错误，列为 FAIL；待完成全篇审计后逐处核验和手工修复。
 
 ### PDF p.011 / 96（印刷 p.118）— PASS±
@@ -101,16 +101,16 @@
 ### PDF p.013 / 96（印刷 p.120）— FAIL
 
 - 时间：2026-10-01 16:42 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.013 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p013.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p013_complexification_symbols.png` 与 MinerU Markdown 第 253–267 行。印刷定义中结构层为 `O_X`，条件 (i) 也写作 `O_X|U`，实空间复化为 `O_X \otimes_R C`；Markdown 相应位置写成 `O_x`（第 253、255、261 行），把大写空间标识 X 改成小写点名 x，造成对象/点记号混淆。余下的 Hausdorff、协调、复化映射与同构条件和脚注 7 相符。
+- 证据：源 PDF p.013 文本层、页图 `audit/Hironaka_1964_resolution_partI_p013.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p013_complexification_symbols.png` 与 MinerU Markdown 第 253–267 行。高分辨率对照确认这些位置的印刷结构层下标为大写空间标识 X，Markdown 第 253、255、261 行写作小写 `O_x`；此前把小号大写 X 误认作小写 x 并降级为 PASS±，现撤回。其余 Hausdorff、Kⁿ-coordination、复化映射、同构条件及脚注 7 相符。
 - 备注：印刷运行页眉和页码 120 未录入 Markdown，属不影响正文的导航元素省略。
-- 结论：结构层下标误录会改变符号所指，列为 FAIL；全篇初审完成后逐处手工修复。
+- 结论：结构层大写空间下标误录为小写，列为 FAIL；运行页眉与页码另未录入 Markdown。
 
 ### PDF p.014 / 96（印刷 p.121）— FAIL
 
 - 时间：2026-10-01 16:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.014 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p014.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p014_sheaf_and_stalk.png` 与 MinerU Markdown 第 273、275 行。原页定义 `X=(X,O_X)`，并把点 x 处局部环写为 `O_{X,x}`；Markdown 写为 `X=(X,O_x)` 与 `O_{x,x}`，把空间标识 X 改成了点变量 x。第 275 行再次将结构层写为 `O_x`，应与原页的 `O_X` 对应。300dpi 裁片可辨大写空间下标与后接的点下标。
+- 证据：源 PDF p.014 文本层、页图 `audit/Hironaka_1964_resolution_partI_p014.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p014_sheaf_and_stalk.png` 与 MinerU Markdown 第 273、275 行。高分辨率对照确认印刷结构层为 `O_X`，点处局部环为 `O_{X,x}`；Markdown 分别写为 `O_x` 与 `O_{x,x}`，丢失大写空间标识 X。此前将小号大写 X 误读为小写并降级为 PASS±，现撤回。其余 simple/multiple 点条件、解析坐标、复化及脚注 8–11 相符。
 - 备注：页内关于简单/多重点、解析坐标、复化及脚注 8–11 的其余内容与原页相符；印刷运行页眉、页码 121 未录入 Markdown。
-- 结论：结构层与 stalk 的数学记号不一致，列为 FAIL，待全篇审计结束后逐处修复。
+- 结论：结构层/局部环下标误录大小写，列为 FAIL；运行页眉与页码另未录入 Markdown。
 
 ### PDF p.015 / 96（印刷 p.122）— FAIL
 
@@ -126,9 +126,9 @@
 - 备注：印刷运行页眉和页码 123 未录入 Markdown，属非误导性导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
 
-### PDF p.017 / 96（印刷 p.124）— PASS±
+### PDF p.017 / 96（印刷 p.124）— FAIL
 
 - 时间：2026-10-01 17:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
-- 证据：源 PDF p.017 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p017.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p017_proj_and_stalks.png` 与 MinerU Markdown 第 309–319 行。对称张量代数、Proj 构造、齐次理想条件、degree-0/1 结构、态射及脚注 13–14 均对应原页；裁片也确认印刷结构层记号 `O_x` / `O_{x'}` 与 Markdown 逐字一致，不能仅凭常用大写记法改写。
+- 证据：源 PDF p.017 文本层、入库页图 `audit/Hironaka_1964_resolution_partI_p017.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p017_proj_and_stalks.png` 与 MinerU Markdown 第 317、319 行。对称张量代数和 Proj 构造均与原页对应；高分辨率对照显示印刷结构层写作 `O_X`/`O_{X'}`，Markdown 第 317 行误作 `O_x`/`O_{x'}`，第 319 行的结构层 `O_X` 也误作 `O_x`。局部点处的 `O_x` 在 line 319 保持原样，不与结构层混淆。
 - 备注：印刷运行页眉和页码 124 未录入 Markdown，属不影响正文的导航元素省略。
-- 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+- 结论：结构层空间下标大小写误录，列为 FAIL；运行页眉与页码 124 另未录入 Markdown。
