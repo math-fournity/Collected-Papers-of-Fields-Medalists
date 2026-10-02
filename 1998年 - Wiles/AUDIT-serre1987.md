@@ -149,3 +149,12 @@
 - 核对：En effet 提升句（[11] lemme 6.11、Ã_l = a_l、F̃ = f）、(Bien entendu…) 非唯一性括注、(3.1.7) Deligne 定理与 ρ_f: G_Q → GL₂(F̄ₚ)、(D) 性质（Frob_l 非分歧）、(3.1.8) Tr ρ_f(Frob_l) = a_l、(3.1.9) det ρ_f(Frob_l) = ε(l)l^{k−1}、(3.1.10) det ρ_f = ε·χ^{k−1}、Compte tenu 段（det ρ_f(c) = −1、caractère impair）、Remarque（niveau p^mN、poids 2/niveau p ⇔ poids p+1/niveau 1、[43] th. 11）、3.2 节标题与 ρ: G_Q → GL(V) ≃ GL₂(F̄ₚ)、F̄ₚ-espace vectoriel 句。
 - 结果：PASS。全部文字与公式吻合。
 - 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① 印刷确为 “Ã_l = a_l”（A 带 tilde，Markdown \tilde{A}_l 一致）；② 印刷确为 “récrite”（单 e，Markdown 一致）；③ 3.2 节 ρ 式连接号确为 ≃（Markdown \simeq 一致）。(D) 段 “et, si l'on note” 的逗号为 Markdown 增益标点，语义无差，排版级不改；Remarque 段 \overline{F}_p 非粗体体例同前登记；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 195” 未收入 Markdown，排版级。印刷页止于 “V étant un F̄ₚ-espace vectoriel de dimension 2. On”。
+
+## p.018（PDF p.18 / 印刷 p.196）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p018.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p018_323eps.png`、`audit/300dpi/serre1987_p018_323eps_600dpi.png`、`audit/300dpi/serre1987_p018_placeQ.png`（pnggray）。
+- 核对：(3.2.1) ρ est irréductible、(3.2.2) det ρ est impair cf. (1.3.8)、conjecture 句、(3.2.3?) 定义、Il convient de préciser 句、(3.2.4?) 与 (3.2.3?) 引用、f normalisée 句、(3.2.5) Tr(Frob_{l,ρ}) = a_l et det(Frob_{l,ρ}) = ε(l)l^{k−1}、densité 1 括注、(3.2.6?) 与 (a)/(b)（droite D、V/D、quotient étale、a_l 特征值句）、Remarques sur (3.2.6?) (1)（droite 唯一性、conducteur N）至 “v_l(cond.ε)” 段首。
+- 结果：FAIL。两处已依原图修复：(3.2.4) 定义处 Markdown 写成 “(3.2.4.)” 且引用写成 “de (3.2.3.)”（丢下标 ?），而印刷为 (3.2.4_?)/(3.2.3_?)（600 dpi 裁片确认编号下标为问号字形），且 Markdown 自己的引用处 “satisfasse à (3.2.3?) et (3.2.4?)” 带 ?；已统一修复为 “(3.2.4?)”/“(3.2.3?)”。
+- 印刷原文 quirk：编号 (3.2.3?)/(3.2.4?)/(3.2.6?) 的下标经 600 dpi 放大确认为问号 “?” 字形（上弯钩带点，非 ε 月牙形）——Duke 排印原样，Markdown 以平排 “(3.2.3?)” 忠实保留，不按数学预期改成 ε。
+- 备注：“une place l-adique donnée de Q̄” 的 Q 带 bar（300 dpi 裁片确认），Markdown $\overline{\mathbf{Q}}$ 一致；(3.2.5) 用 Frob_{l,ρ} 记号与 p.182 (1.3.5) 一致；页眉 “196 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…valeur propre λ de la substitution de Frobenius en l opérant sur V/D est telle”，Remarques (1) 余部属印刷 p.197。

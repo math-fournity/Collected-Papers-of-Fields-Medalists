@@ -770,7 +770,7 @@ La conjecture affirme que $\rho$ est alors du type $\rho_{f}$ de (3.1.7). Autrem
 
 Il convient de préciser (3.2.3?) en donnant le type $(N, k, \varepsilon)$ de $f$:
 
-(3.2.4.) La forme parabolique $f$ de (3.2.3.) peut être choisie de type $(N, k, \varepsilon)$, où $N, k$ et $\varepsilon$ sont les invariants de $\rho$ définis au §1 et au §2.
+(3.2.4?) La forme parabolique $f$ de (3.2.3?) peut être choisie de type $(N, k, \varepsilon)$, où $N, k$ et $\varepsilon$ sont les invariants de $\rho$ définis au §1 et au §2.
 
 Si $f = \sum a_{n}q^{n}$ est normalisée ($a_{1} = 1$), le fait que $\rho_{f}$ soit isomorphe à $\rho$ se traduit par les égalités
 
