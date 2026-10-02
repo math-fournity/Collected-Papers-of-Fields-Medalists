@@ -605,3 +605,10 @@
 - 证据：源 PDF p.084 文本层、页图 `audit/Hironaka_1964_resolution_partI_p084.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p084_Lemma7_proof.png` 与 MinerU Markdown 第 1735–1775 行。Lemma 7 的参数系统、`\bar{R}[Z]`/`K[Z,Y]` 多项式环表示、待证交式、$\nu+n\geq\mu\geq\nu$ 的阶估计、$\psi$ 分解和系数次数界均与原页对应；脚注 41 正文亦对应。
 - 备注：印刷运行页眉和页码 191 未录入 Markdown，属导航元素省略。
 - 结论：未发现正文差异；因运行页眉/页码省略记为 PASS±。
+
+### PDF p.085 / 96（印刷 p.192）— FAIL
+
+- 时间：2026-10-02 05:22 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.085 文本层、页图 `audit/Hironaka_1964_resolution_partI_p085.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p085_Lemma7_calculation.png` 与 MinerU Markdown 第 1777–1801 行。印刷第 1777 行的理想生成元 tuple 以 `z_r` 结束，指数为 `\mu-d_\alpha-\nu_\beta`；Markdown 将其转为 `z^r`、`\mu-d_x-\nu_3`。印刷中 $Y_j$ 对应的分次分量是 $\operatorname{gr}_{\bar Q}^{1}(\bar R)$，Markdown 第 1783 行误录为 $\operatorname{gr}_{\bar Q}^{1/2}(\bar R)$。后续关于 $\psi_0$、$\Psi^*$ 和 $\bar Q^n H$ 的结论结构与原页相符。
+- 备注：印刷运行页眉和页码 192 未录入 Markdown，属导航元素省略。
+- 结论：三处变量下标/指数差异及一次分次次数 1→1/2 误录，列为 FAIL；待全篇审计后逐处手工修复。
