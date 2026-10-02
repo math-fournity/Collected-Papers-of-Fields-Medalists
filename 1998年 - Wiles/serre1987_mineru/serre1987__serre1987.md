@@ -868,7 +868,7 @@ de remplacer  $GL_{2}$  par  $GL_{N}$ , ou même par un groupe réductif;
 
 de remplacer Q par d'autres corps globaux.
 
-## §4. Applications. Ces applications concern:
+## §4. Applications. Ces applications concernent:
 
 l'équation de Fermat et ses variantes (n°s 4.1 à 4.3);
 

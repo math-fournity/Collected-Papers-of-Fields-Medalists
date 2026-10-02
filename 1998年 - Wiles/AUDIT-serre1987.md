@@ -175,3 +175,11 @@
 - 核对：point de vue 段（k=1、Katz 定义反问句）、3.3 Exemple k=2（ρ: G_Q → GL₂(F_p) 无 bar）、条件 (a) det ρ = χ、(b) absolument irréductible（F̄ₚ）、(c) finie en p n° 2.8、[p ≠ 2 时 (b′) 替代条件括注（ρ(c) 特征值 ±1、rationnelle sur F_p、contredirait (b′)）、N/k/ε 句（ε = 1、k = 2、prop. 4 du n° 2.8）、(3.3.1?)、(3.2.6?) 系数句（F_p、p = 2 例外）、J₀(N)/X₀(N)/Γ₀(N) 句、(3.3.2?)、3.4 Questions (1)(2)（Ash-Stevens [2]、GL₂/GL_N/其他整体域列表）。
 - 结果：FAIL。两处已依原图修复：(3.3.1) 与 (3.3.2) 定义处 Markdown 写成 “(3.3.1.)”/“(3.3.2.)”（丢下标 ?），印刷为 (3.3.1_?)/(3.3.2_?)（300 dpi 裁片确认问号字形，与 p.196 同款印刷 quirk），修为 “(3.3.1?)”/“(3.3.2?)”。
 - 备注：ρ 式 F_p 无 bar 与印刷一致（与 (b) 的 F̄ₚ 形成对照，Markdown 正确区分）；GL₂/GL_N/Q 在 (2) 列表中为非粗体，体例差异排版级不改；页眉 “198 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “de remplacer Q par d'autres corps globaux.”，§4 标题属印刷 p.199。
+
+## p.021（PDF p.21 / 印刷 p.199）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p021.png`（pngmono，150 dpi）。
+- 核对：§4 标题与应用列表五项（n°s 4.1-4.3、4.4、(p,p) sur Z 4.5、Taniyama-Weil + variétés abéliennes 4.6-4.7、cohomologie/Betti 4.8）、Excepté la dernière 句（(3.2.4?)、ε = 1, k = 2、n° 3.3）、4.1 节（A,B,C 两两互素、A+B+C=0）、x₁,x₂,x₃ 选择式、y² = (x−x₁)(x−x₂)(x−x₃)、x₁=A/x₂=0/x₃=−B、(4.1.1) y² = x(x−A)(x+B)、E_{A,B,C}、Remarque（signature ±1、tordue Q(√−1)/Q）、(4.1.2)（l|ABC、type multiplicatif、modèle minimal、Tate [4] p.47）、(4.1.3)、(4.1.4) A ≡ −1 (mod 4), B ≡ 0 (mod 32)。
+- 结果：FAIL。一处已依原图修复：§4 标题印刷为 “Ces applications concernent:”，Markdown 写成 “concern”（缺 “ent”），已补全。其余文字与公式逐项吻合。
+- 备注：Taniyama-Weil 拼法与印刷一致；“(mod 3 2)” 数字带空格渲染为 32，排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 199” 未收入 Markdown，排版级。印刷页止于 (4.1.4)，变量替换式属印刷 p.200。
