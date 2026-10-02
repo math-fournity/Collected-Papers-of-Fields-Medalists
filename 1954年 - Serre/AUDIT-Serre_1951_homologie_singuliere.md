@@ -119,3 +119,12 @@
 - 仲裁记录：①md 行 535 "(On a noté w(x)…tels que x ∈ A^{*n})" 的上标 n，600dpi（p013_wx2_600.png）确认印刷为 **A\*p**（斜体 p 带下伸笔清晰），Edit 修复 A^{*n} → A^{*p}；②初读疑 "C_r^{*p,q} est formé des éléments x ∈ A\*p,q"，600dpi（p013_Cr_600.png）确认印刷为 **x ∈ A\*p**（无 ,q），MD 正确。
 - 差异：无其他。
 - 备注：md 行 557 起 "Les groupes différentiels R\* et S\*." 段属印刷 p.437；该段 "homomorphismes canoniques permis" 表述待 p.014 对照印刷核查。
+
+## p.014（PDF p.14 / 印刷 p.437）
+- PNG：audit/p014.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p014_b_600.png、p014_annul_600.png、p014_annul2_600.png、p014_prod_600.png、p014_prop3_600.png、p014_permis3_600.png（600dpi）
+- 核对：Les groupes différentiels R\* et S\*.（R\* = A\*/A\*¹、S_p\* = E_1\*^{p,0}、"homomorphismes canoniques permis"、H^p(S\*) → H^p(A\*) → H^p(R\*)、transgression d_p: E_p\*^{0,p−1} → E_p\*^{p,0}、δ 展示式 H^{p−1}(R\*) →δ H^p(A\*¹) ← H^p(S\*)、cocycle transgressif 判据 da ∈ S_p\*）；Exemple（ⁿA\* = Hom(ⁿA, G)、A\* = ∑ⁿA\*、appelons A\*^p l'annulateur de A^{p−1}）；Structure multiplicative（(a) antidérivation d(x·y) = dx·y + (−1)^p x·dy；(b) A\*^i·A\*^j ⊂ A\*^{i+j}；E_r\* 乘积 E_r\*^{p,q}·E_r\*^{p′,q′} ⊂ E_r\*^{p+p′,q+q′}；antidérivations des E_r\*）；Une suite exacte（Prop 3 对偶版）；§6 revêtement universel 开头
+- 结果：PASS±
+- 仲裁记录：①(b) 行 150dpi 疑为 A\*^p·A\*^q，600dpi（p014_b_600.png）确认印刷为 **A\*^i·A\*^j ⊂ A\*^{i+j}**（印刷自身在 (a) 用 p,q、(b) 用 i,j 的记号切换），MD 忠实；②乘积式首因子 150dpi 疑为 H_r，600dpi（p014_prod_600.png）确认为 **E_r**，MD 正确；③"appelons A\*^p"（p014_annul2_600.png）与 "l'annulateur de A^{p−1}"（p014_annul_600.png）确认，MD 正确；④"canoniques permis" 确为印刷原文（p014_permis3_600.png），MD 忠实于该异常表述。
+- PASS± 项（不修）：①印刷 quirk：对偶 Prop 3 展示式中 H^j(**A\**)? 有星号而 H^i(**A**) 无星号（p014_prop3_600.png），印刷自身不一致，MD 逐字保留 "H^{i}(A)"，不改；②md 行 580 "il en est de même des $E_{r}^{*}$" 句尾缺印刷的句点——标点级，不误导，不修。
+- 差异：无内容错误。
+- 备注：md 行 589 起 "## 6…" 之后 §6 正文（Pontrjagin 引用、Définition du revêtement universel 段）属印刷 p.438。
