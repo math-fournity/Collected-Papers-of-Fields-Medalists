@@ -18,6 +18,14 @@
 - 跨页系统性发现（供后续页沿用）：① 逐页 running head/页码省略（登记于 p.002，不逐页补录）；② 同一花体字形在 md 中 H/K 混排（本文定为 harmonic 空间 $\mathcal{H}$，p.7/8/9 已统一，后续页遇 `\mathcal{K}` 同规则）；③ 草书 𝒬/𝒢、Fraktur 𝔤/𝔅 拍平为普通字母是 Luna 基线的高发缺陷（p.3/4/8/9 连续出现，后续页需重点盯）；④ 叠置记号（P↓S⁴ 型三行叠置）易被错位转写（p.6 一例）；⑤ 印刷原样错字已登记两处："so in some base"（p.2）、"complex lie bundles"（p.9）、`F(I_{0,λ})` 分母 `(λ²+|x|)²`（p.7）、式(2) `dμ.` 多余句点（p.6）。
 - p.10 起 Theorem 6 一带可见残留普通字母 B/B*（行 329），属下一块范围，届时按本块字形规则处理。
 
+## 本块进度（Wf-R-P03，第二块）
+
+- **p.10–p.18 / 38 已完成**（2026-10-02）：9 页全部 PASS±，无 FAIL。逐页一提交：`ee2e9dc3`(p.010)→`bff478e6`(p.011)→`a40d85b0`(p.012)→`e941f6e6`(p.013)→`585a0969`(p.014)→`86b74021`(p.015)→`ef60f780`(p.016)→`50e6219a`(p.017)→`353bf995`(p.018)。
+- 本块对 md 共 30 处修复（含 2 处 Luna print-quirk 静默改正的复原：intepreted、transυersally）；块末 `git diff c1b2d4fc` 复核 27 行增删与登记一一对应，另发现并修正 1 处本块自身修复遗留（行 410 悬挂 `\right.`，见 p.011 条复核补充）。
+- 第二块结束时 md SHA-256：`f7d926ff6542cac062d2594c054cc347e8fa66ee0d91ee3a21f4e819fc907180`（行 410 补删 `\right.` 之后）。
+- 第二块新登记 print quirk：行 335 "principle bundle"、行 356 提位负号 `=⁻d_Agg⁻¹`、行 359 `‖b‖_{L²₃′}` 撇号、行 461 `φ|_{L⁻¹(y₁)}` 与 "dimension K"、行 477 "This position"、行 518 `Φ(ψ⁻¹X)` 大写 X、p.16 μ^σ（μ 系印刷对 𝔐 的误植，Luna 忠实保留）。⇒/↔ 混淆在本块共 4 例（行 488/499/537 及 p.13 丛对），后续页继续盯。
+- p.19 起进入 III.2–III.4 与 Appendix，References（行 ~1403 起）属后续块。
+
 ## 页级条目
 
 ### p.001（PDF p.1 / 印刷 p.279，首页无单独页码数字）
@@ -136,7 +144,7 @@
   - `DS\colon\operatorname{Ker}d_A^*\times\Omega^0(\mathfrak{g})\to\Omega^1(\mathfrak{g})`、`T_{A,\varepsilon}/\Gamma_A\subset\Omega^1(L^2)/S^1\times\Omega_X^1`（此行商号位置 Luna 本就正确）、`\Omega^1_X` 下标、Φ 两行显示式（含 `L^2_2(\Omega^2_-(\mathfrak{g}))` 目标与 `d_A^-a+\frac12[a,a]`）全部与页图一致（300dpi 确认目标 Sobolev 下标为 2）。
   - **修复×6**：① 行 381 `\Omega^1(g)`→`\Omega^1(\mathfrak{g})`；② 行 381 `$p^{-1}(\mathcal{B}^*)\to\mathcal{B}^*$`→`$\mathfrak{B}^*$`（300dpi 确认印刷 Fraktur）；③ 行 389 `in $\mathcal{B}$`→`$\mathfrak{B}$`；④ 行 389 `$T_{A,\varepsilon/\Gamma_{A}}$`→`$T_{A,\varepsilon}/\Gamma_{A}$`（300dpi 确认商号在 T 外，与 p.010 行 337 同型错误）；⑤ 行 389 `$\mathcal{B}^{*}$`→`$\mathfrak{B}^{*}$`；⑥ 行 391/397 两处普通 `B`→`$\mathfrak{B}$`；⑦ 行 410 DΦ 显示式补闭大括号——印刷为 `(Ker d_A^* ⊂ L²₃(Ω¹(𝔤))) →^{d_A⁻} L²₂(Ω²₋(𝔤))`（大括号在 Ω¹(𝔤) 后即闭合，目标在括号外），md 原 `\left(` 未闭合且跨含目标，结构错误 → 已 Edit 改为 `\left(\operatorname{Ker}\ldots\left(\Omega^1(\mathfrak{g})\right)\right)\stackrel{d_A^-}{\rightarrow}L^2_2(\ldots)`。
   - 记号宏不一致（登记不改）：行 386 目标 `$\mathscr{Q}$` 与全文 `\mathcal{Q}$` 为同一印刷字形（草书 𝒬），MinerU 宏混用，语义无损。
-- 修复登记：行 381 两处；行 389 三处；行 391/397 各一处；行 410 括号结构（依据 `audit-redo/p011.png` + 300dpi 裁片）。
+- 修复登记：行 381 两处；行 389 三处；行 391/397 各一处；行 410 括号结构（依据 `audit-redo/p011.png` + 300dpi 裁片）。**复核补充**：行 410 首次修复后块末 diff 复核发现 Luna 原行尾悬挂的 `\right.`（与其跨全式的 `\left` 配对）未被清除，产生不配对定界符；已在 p.018 提交后补删（含于块末 commit），现行为 `…\left(\Omega^1(\mathfrak{g})\right)\right) \stackrel{d_A^-}{\rightarrow} L^2_2\left(\Omega^2_-(\mathfrak{g})\right).`，与印刷结构一致。
 
 ### p.012（PDF p.12 / 印刷 p.290）
 

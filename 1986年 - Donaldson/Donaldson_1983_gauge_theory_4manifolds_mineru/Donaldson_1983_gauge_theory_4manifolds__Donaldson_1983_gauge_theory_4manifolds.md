@@ -407,7 +407,7 @@ $$
 The essential fact which we use is that the derivative of $\Phi$:
 
 $$
-(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right)\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right)\right.
+(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right)\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
 $$
 
 is a Fredholm operator (recall that a bounded linear map is Fredholm if it has finite dimensional kernel and cokernel and a closed range). This is an immediate consequence of the ellipticity of the differential operator:  $d_{A}^{*} + d_{A}^{-}$ since it is well known that elliptic operators over compact manifolds are
