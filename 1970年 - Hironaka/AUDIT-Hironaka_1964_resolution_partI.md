@@ -297,3 +297,10 @@
 - 证据：源 PDF p.040 文本层、页图 `audit/Hironaka_1964_resolution_partI_p040.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_space.png` 与 `audit/300dpi/Hironaka_1964_resolution_partI_p040_zariski_restriction.png`，以及 MinerU Markdown 第 641–665 行。原页反复以花体 Zariski-space 记号 `\mathfrak{Z}` 书写 `\mathfrak{Z}(X)`、`\mathfrak{Z}(g)` 等；Markdown 多处转成数字 `3`（例如第 643、659、661、663、665 行），改变了专名对象的记号。
 - 备注：印刷运行页眉和页码 147 未录入 Markdown，属导航元素省略。
 - 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处修复。
+
+### PDF p.041 / 96（印刷 p.148）— FAIL
+
+- 时间：2026-10-02 02:34 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.041 文本层、页图 `audit/Hironaka_1964_resolution_partI_p041.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p041_zariski_symbol.png` 与 MinerU Markdown 第 647–663 行。原页 Theorem / Question (F) 使用花体 Zariski-space 标识 `\mathfrak{Z}`，Markdown 第 659、661、663 行及后续关联式将其写成数字 `3`，包括 `\mathfrak{Z}(X_1)`、`\mathfrak{Z}(X_2)`、`h_i:\mathfrak{Z}\to X_i`。`dim(X)\leq 3` 的边界与原页相符。
+- 备注：印刷运行页眉和页码 148 未录入 Markdown，属导航元素省略。
+- 结论：Zariski-space 标识符误录为数字，列为 FAIL；待全篇审计结束后逐处手工修复。
