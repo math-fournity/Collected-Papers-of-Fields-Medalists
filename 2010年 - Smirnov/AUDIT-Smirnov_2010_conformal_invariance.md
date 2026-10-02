@@ -333,3 +333,9 @@
 - 核对：Proposition 7.2 Proof 续——{Γ=γ} 可测性、domain Markov property、条件分布为 free boundary FK、boundary conditions 比较 φ^0_{p,N}(a↔0∣Γ=γ) ≤ φ^{∞,−∞}_{p,S_{a_2}}(a↔0) = φ^{∞,−∞}_{p,S_{a_2}}(a↔Z) ≤ e^{−ξa_2}；代入 (7.6) 得 φ^0_{p,N}(A_max=a) ≤ Σ_γ e^{−ξmax{a_1,a_2}}φ(Γ=γ) ≤ e^{−ξa_2}；n ≤ N 时 Σ ≤ cn e^{−ξn}；公式 (7.7) φ^0_p(0 ↔ in) ≤ φ^0_p(0 ↔ Z²∖[−n,n]²) ≤ cn e^{−ξn}（◻）；Theorem 7.4——FK-Ising 临界参数 √2/(1+√2)、Ising 临界逆温度 ½ln(1+√2)；Proof——p_c ≥ 由 Prop 7.2、p_c ≤ 由 A_n open circuit、Borel-Cantelli、infinite dual cluster、duality（◻）；F_δ 在 p ≠ p_sd 时 massive harmonic 段；Proposition 7.5——公式 (7.8) Δ_δF_δ(v) = (cos2α − 1)F_δ(v)（v ∈ Ω◇_δ∖∂Ω◇_δ，Δ_δ 为 distance √2δ 平均减点值）；页脚印刷页码 52。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：(7.7)/(7.8) 编号齐全；S_{a_2} 花体 S、e^{−ξmax{a_1,a_2}} 双层指数、cos2α 无括号排法以 PNG 为准。
+
+## p.053（PDF p.53 / 印刷 p.53）
+- PNG：audit/p053.png（pngmono 150dpi）
+- 核对：两个 scaling limits 段——p = p_sd(1−λδ)、(1/δ²)(Δ_δ + [1−cos2α]I) → Δ + λ²I、massive harmonic 极限、非绝对连续于 SLE(16/3)、massive SLEs；killed random walks 解释段（F_δ(v) 为 killed random walk 访问 wired arc 概率、[BDC11]、Messikh [Mes06]）；Theorem 7.6——m(β) ∶= cos(2α)、公式 (7.9) −lim_{n→∞}(1/n)ln µ_β[σ_0σ_(nx)] = −lim_{n→∞}(1/n)ln G_{m(β)}(0,nx)、G_m(0,x) ∶= E^x[m^τ]（τ 为原点 hitting time、P^x 简单随机游走）；massive Green function 与 Theorem 2.3/2.4 推断段；Exercise 7.7；§7.2 Russo-Seymour-Welsh Theorem for FK-Ising 标题（[DCHN10]、不依赖 scaling limits、独立于 §5/§6）；modified harmonic measure——Ω̃_δ/Ω̃⋆_δ（加两层 extra vertices）、(X_t●) continuous-time random walk、extra layer 上 rate ρ ∶= 2/(√2+1)、H̃●(B) 与 H̃○(w) 定义；Proposition 7.8——公式 (7.10) √(H̃○(W)) ≤ φ^{a_δb_δ}_{Ω_δ,p_sd}[B ↔ ∂_ba] ≤ √(H̃●(B))；页脚印刷页码 53。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：(7.9)/(7.10) 编号齐全；E^x[m^τ] 花体 E 上标 x、√(H̃○(W)) 根号套 H̃ 记号以 PNG 为准；ρ = 2/(√2+1) 分母根号 PNG 印刷清晰（文本层丢根号）。
