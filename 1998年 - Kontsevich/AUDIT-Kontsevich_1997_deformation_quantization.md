@@ -213,3 +213,10 @@
 - 结果：`FAIL`→2 处已修复：①行 1255 `is equal to 2π times`→`is equal to$\pm 2\pi$ times`（± 丢失，PNG+文本层确凿，与 p.025 ±1 同类）；②行 1267 `non-vanishing on$U_i$and`→`on$U$, and`（幻影下标 i，印刷为 U,，PNG 确凿）。print quirk 忠实保留：行 1279 `of a holomorphic an anti-holomorphic form`（原文 an 误于 and）；行 1267 `ofdimension`/`ofX` 粘排。其余 PASS±：行 1263 `diferences`、行 1277/1279/1291 `diferential`/`diference`/`coeficients`（ff 拍平）；行 1267 粘排空格；行 1277 `\Lambda` 代 ⋀ 样式（登记）。公式行 1252/1260/1270/1282/1288 与印刷逐符号吻合。
 - 备注：行 1293 起（Lemma. Let$\omega$…）为印刷 p.30 内容，在 p.030 核对。
 
+## p.030（PDF p.30 / 印刷 p.30）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p030.png`（pngmono 150dpi）
+- 核对：𝓘(ω) Lemma（L^1 系数、𝓘(dω)=d(𝓘(ω))、∫ 对应关系）、elementary exercise 段、Stokes 四重链式 ∫𝒰(C)⋀dArg=…=∫_{Ū(C)}d(𝓘(...))=0. Q.E.D. 式、§6.6.2 Remark（Chern-Simons 维 3、≥4、involution）、§7 heading、R^d_formal 形式完备段、W_d:=Vect 段、m_T/m_D 两态射式、P1)–P4) 性质与 𝒰₁(m_T(ξ))=m_D(𝒰₁(ξ))、𝒰_k(m_T⊗…⊗m_T)=0 两式（MD 行 1293–1340）。
+- 结果：`FAIL`→3 处已修复（PNG+文本层确凿）：①行 1325 `properties of the quasi-isomorphism from 6.4`→补 `$\mathcal{U}$`；②行 1327 `P1) can be defined for`→`P1)$\mathcal{U}$ can be defined for`；③行 1335 `P3)  is$GL(d,\mathbf{R})$-equivariant`→`P3)$\mathcal{U}$ is…`（三处 𝒰 丢失）。其余 PASS±：行 1317 `diferential`×3（ff 拍平）；行 1293–1298 印刷中 ∫_{Ū(C)}𝓘(ω) 显示式在 MD 中后置（版式重排登记）；行 1317 `$T_{poly}(...)$` 后缺句点；行 1341 印刷页末逗号（P4 式后）MD 无对应（p.31 续行核对）。print quirk 忠实保留：行 1315 `that that`（原文重复）。公式行 1298/1306/1320/1332/1340 与印刷逐符号吻合。
+- 备注：行 1343 起（P5) for any k≥2, ξ∈gl(d,R)…）为印刷 p.31 内容，在 p.031 核对；P5 行已见 η 下标疑似重复，届时仲裁。
+

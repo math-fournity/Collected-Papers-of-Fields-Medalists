@@ -1322,9 +1322,9 @@ $$
 
 because vector fields can be considered as polyvector fields and as diferential operators.
 
-We will use the following properties of the quasi-isomorphism from 6.4:
+We will use the following properties of the quasi-isomorphism$\mathcal { U }$ from 6.4:
 
-P1) can be defined for$\mathbf { R } _ { f o r m a l } ^ { d }$as well,
+P1)$\mathcal { U }$ can be defined for$\mathbf { R } _ { f o r m a l } ^ { d }$as well,
 
 P2) for any$\xi \in W _ { d }$we have the equality
 
@@ -1332,7 +1332,7 @@ $$
 \mathcal {U} _ {1} (m _ {T} (\xi)) = m _ {D} (\mathcal {U} _ {1} (\xi)),
 $$
 
-P3)  is$G L ( d , \mathbf { R } )$-equivariant,
+P3)$\mathcal { U }$ is$G L ( d , \mathbf { R } )$-equivariant,
 
 P4) for any$k \ge 2 , \xi _ { 1 } , \ldots , \xi _ { k } \in W _ { d }$we have the equality
 
