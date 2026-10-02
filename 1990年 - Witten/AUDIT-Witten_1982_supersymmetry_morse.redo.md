@@ -151,3 +151,8 @@
 - PNG：`audit-redo/p028.png`（pngmono 150dpi）；`Lef(f)` quirk 独立终裁：`audit-redo/300dpi/p028_formula51.png`（300dpi 裁片，本轮自摄）。
 - 核对：渐近展开论证段（[22] 引文）；`t: B → B` 与 `T: Ω → Ω` 定义段；(51) `Tr(−1)^F T = Lef(f), Tr Q₅T = sign(t)`；重要性段与总结段；`φ⁴` 理论过渡段开头。
 - 结果：PASS±。正文与 (51) 逐项与印刷页相符。print quirk：印刷 (51) 原样为 "Lef(**f**)"（前句映射记作 t: B → B，300dpi 裁片独立复核确认字形为斜体 `f`，原刊符号不一致如此），md line 660 `\operatorname{Lef} (f)` 忠实保留，不按上下文改为 `Lef(t)`。跨页断点一致（line 669 末 "We"）。差异仅：页眉 "688 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+## p.029（PDF p.29 / 印刷 p.689）
+- PNG：`audit-redo/p029.png`（pngmono 150dpi）
+- 核对：`d_{s,t} = e^{−ht}d_s e^{ht}` 与 `H_{s,t}` 定义段；`φ: S → R` 与 (52) `h(φ) = ∫_S dx W(φ(x))`；`W(φ) = mφ²`/`aφ³ + bφ` 段；`d_t` 限制到 R 段；(53) `D = d/dφ + tL dW/dφ`；Atiyah–Singer 指数段。
+- 结果：PASS±。(52)–(53) 及正文逐项与印刷页相符。**Luna 旧修复重核：`H_{s,t} = d_{s,t}d_{s,t}^* + d_{s,t}^* d_{s,t}`（md line 673，Luna 修复原始 md 的逗号误识为乘积）与印刷一致，修复正确**；`d_t = e^{-ht}de^{ht}`、`+φ^n`、`1,0, or -1` 一致；跨页断点一致（line 695 末 "In particular,"）。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 689" 未入 md（版面信息省略）。
