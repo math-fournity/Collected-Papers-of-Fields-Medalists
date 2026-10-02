@@ -243,3 +243,9 @@
 - 核对：Figure 11（两个 associated configurations：一条 exploration path + 一个 loop / 无 loop，标注 N/W/E/S、v、b_δ）及图注（switching the state of the edge 互相转换）；Lemma 5.2 Proof Case 2 续——γ(ω) 经 W 入 S 出（primal edge open）、P(s(ω)) = (1/√2)P(ω)（self-dual point、少一条 open edge 权 1、少一个 loop 权 √2，Proposition 3.17）、winding 用 W_ω 表出（N 的 winding = W − π/2）；贡献表两行——ω 行：W_ω、0、0、e^{iπ/4}W_ω；s(ω) 行：W_ω/√2、e^{iπ/2}W_ω/√2、e^{−iπ/4}W_ω/√2、e^{iπ/4}W_ω/√2；恒等式 e^{iπ/4} − e^{−iπ/4} = i√2 与 (5.2) 求和推证；Case 3（γ 过四边时 s(ω) 只过两边，化归 Case 2）；结论 (5.2) 恒成立（◻）；vertex observable 过渡段；页脚印刷页码 37。
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：表格中 e^{iπ/2}/e^{−iπ/4}/e^{iπ/4} 指数与 √2 分母以 PNG 为准；表格结构与 W/E/N/S 列序为重导出对账锚点。
+
+## p.038（PDF p.38 / 印刷 p.38）
+- PNG：audit/p038.png（pngmono 150dpi）
+- 核对：Proposition 5.3——vertex fermionic observable F_δ 是 s-holomorphic；Proof——(5.1) 取共轭改写为 F_δ(N)+F_δ(S) = F_δ(E)+F_δ(W)、由 (3.6) 得 F_δ(v) ∶= ½Σ_{e adjacent}F_δ(e) = F_δ(N)+F_δ(S) = F_δ(E)+F_δ(W)、F_δ(N)⊥F_δ(S)（Lemma 5.1）⟹ F_δ(N) 为 F_δ(v) 在 ℓ(N) 上的投影（◻）；F_δ/√(2δ) preholomorphic 与 discrete Riemann-Hilbert boundary value problem 段、离散类比 Im(∫^z [F_δ(z)/√(2δ)]² dz)；§5.1.2 Convergence of (H_δ)_{δ>0} 标题——A 为 bordering a_δ 的 black face（Fig. 6）、Theorem 4.19 定义 H_δ ∶ Ω_δ∪Ω⋆_δ → R，H_δ(A) = 1 且 H_δ(B)−H_δ(W) = ∣P_{ℓ(e)}[F_δ(x)]∣² = ∣P_{ℓ(e)}[F_δ(y)]∣²；H_δ● subharmonic / H_δ○ superharmonic；Lemma 5.4——H_δ● ≡ 1 on ∂_ba、H_δ○ ≡ 0 on ∂_ab^⋆；Proof 起头——公式 (5.3) H_δ●(B)−H_δ●(B′) = ∣F_δ(e)∣² − ∣F_δ(e′)∣² = 0（因 ∣F_δ(e)∣² = φ^{a_δb_δ}_{Ω◇_δ,p_sd}(W ↔ ∂_ab^⋆)，见 Lemma 7.3）、H_δ●(A) = 1 收尾；页脚印刷页码 38。
+- 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
+- 备注：∣·∣² 的 ‖ 双竖线排法（PNG 中 ∣P_{ℓ(e)}[F_δ(x)]∣² 用双竖线）与 φ 上标 a_δb_δ 堆叠为对账锚点；(5.3) 编号齐全。
