@@ -45,3 +45,17 @@
   8. tilt 公式 $\mathrm{T}^{1/\flat^\infty}$ → $\mathrm{T}^{1/p^\infty}$（p.247 右栏 "Its tilt is given by"）
   9. "oftopological"、"sheafofcharacteristic"、"rigidanalytic" → of topological / sheaf of characteristic / rigid-analytic（印刷连字符跨行）
 - 备注：本页遗留观察——全文件还有 6 行含 0x04 控制字节（行 655/973/983/991/1007/1079，均在 §4–5 后续页范围），留待对应页块审计处理，本块不越界修改。
+## p.004（PDF p.4 / 印刷 p.248）
+- PNG：audit/p004.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p248_mtorsion.png（300dpi，(iii)/(iv) 与 "Here 𝔪 ⊂ K°" 行）
+- 核对：页眉 248/PETER SCHOLZE；Huber [19] Spa(R,R^+) 连续赋值 R→Γ∪{0} 段；Theorem 1.8 (i)–(iv) 全部陈述；𝔪 ⊂ K° 段与 Tate acyclicity 推论；Theorem 1.9；tilting functor X↦X^♭ 段；Theorem 1.10；Remark 1.11 开头 R_0、R_n display 与 R = R̂_∞[1/p]
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. 赋值 "$\mathrm{R}\ \ \Gamma∪\{0\}$" 缺箭头 → $\mathrm{R}\to\Gamma\cup\{0\}$（p.248 首段；目标含值群 Γ，print 原样）
+  2. **定理号 "Theorem 1.${\bf 3.}$" → Theorem 1.8.**（MinerU 把 8 误成 3，且 "- L e t" 间距伪影 → "— Let"）（p.248 定理行）
+  3. (i) 中 $X^{\mathrm{b}}$、$x^{\mathrm{b}}$、$X^{\mathrm{b}}$（\mathrm{b} 字族）→ $X^\flat$、$x^\flat$、$X^\flat$（同句 |f(x^♭)|=|f^♯(x)| 已是 \flat，MinerU 混排）
+  4. (ii) "with tilt $\mathrm{U}^{\mathrm{p}}\subset\mathrm{X}^{\mathrm{p}}$" → $\mathrm{U}^{\flat}\subset\mathrm{X}^{\flat}$（p 偷换 ♭，后半句同一定理内 tilt 用 ♭ 正确）
+  5. (iv) "m-torsionfor" → "$\mathfrak{m}$-torsion for"；下段 "Here m⊂K°" → "$\mathfrak{m}\subset K°$"——**300dpi 仲裁**（audit/300dpi/Scholze_2012_p248_mtorsion.png）确认印刷为 fraktur 𝔪
+  6. "ofperfectoid"×3、"ofFaltings's" 缺空格 → 修正
+  7. Theorem 1.10 句末补句点（印刷 "over R°."）
+  8. Remark 1.11：$\mathbf{\tilde{R}}_0$、$\mathbf{\check{K}}^\circ$、$\mathbf{\check{T}}_d$ 的伪 tilde/háček → $\mathrm{R}_0$、$\mathrm{K}^\circ$、$\mathrm{T}_d$（p.248 印刷无重音）
+  9. Remark 段（p.248 部分）："finite over$\mathrm{R_0}.$," 游离 ".$" → $\mathrm{R}_0$；"the$\mathrm{R}_{n},$," 游离逗号 → $\mathrm{R}_n$；"$[\frac{1}{\mathit{\Pi}_b}]$" → $[\frac{1}{p}]$（print 为 1/p，Π_b 系 OCR 误字）；"invertingp" → "inverting p"
+- 备注：本行 119 自 "R_n-algebra which is étale…" 起属印刷 p.249，留待 p.005 审计；(iii) 无差异；Theorem 1.9/1.10 其余文字吻合。
