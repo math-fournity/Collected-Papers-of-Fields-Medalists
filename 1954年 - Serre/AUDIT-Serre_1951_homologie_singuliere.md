@@ -67,3 +67,11 @@
 - 仲裁记录：①150dpi 初读 Eilenberg 引用疑为 [16]，600dpi（p007_phi2_600.png）+JSTOR 文本层双证为 **([6], Exp. VIII)**，MD 正确；②600dpi 确认印刷 "Nous poserons A^{p,q} = ⁽ᵖ⁺ᑫ⁾A ∩ A^p" 与 MD 逐字一致；③印刷本页作 "vis a vis"（a 无重音），MD 行 277 同样保留 "vis a vis"，忠实。
 - 差异：md "J.-L. Koszul" 对印刷 "J-L. Koszul"——标点规范化（排版级），不误导，不修。
 - 备注：md 中 D^{p,q} 定义句、E_r^{p,q} 商式、d_r 次数性质、(Φ) 假设、"Conséquences de l'hypothèse (Φ)" 均属印刷 p.431，留待 p.008 核对。
+
+## p.008（PDF p.8 / 印刷 p.431）
+- PNG：audit/p008.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p008_E0_600.png、p008_Eps_600.png（600dpi）
+- 核对：D^{p,q} 求和直解句；On pose de même: E_r^{p,q} = C_r^{p,q}/(C_{r−1}^{p−1,q+1} + B_{r−1}^{p,q}) (0 ≦ r ≦ +∞)；bigraduation 段（degré filtrant/complémentaire/total）；d_r 三条次数性质；Une hypothèse supplémentaire；(Φ) 假设（0 ≦ w(x) ≦ deg. x；A^{n,0} = ⁿA；A^{p,q} = 0 si p < 0）；Conséquences de l'hypothèse (Φ)；E_∞^{p,q} = D^{p,q}/D^{p−1,q+1}；suite de composition 0 = D^{−1,n+1} ⊂ ⋯ ⊂ D^{n,0} = H_n(A)；∩_p D^p = 0；PROPOSITION 1（E_r^{p,q} = ⋯ = E_∞^{p,q} pour r > Sup(p, q+1)）；证明段；C_r^{p,q} = C_∞^{p,q}; B_r^{p,q} = B_∞^{p,q}；limite 段；Le groupe différentiel R 开头（R = A^0、R_q = A^{0,q}、E_1^{0,q} = H_q(R)）
+- 结果：PASS
+- 仲裁记录：①150dpi 初读疑首句为 E_r^{p,q}（MD 作 E_0^{p,q}），600dpi（p008_E0_600.png）确认印刷为 **E_0^{p,q}**（下标 0 清晰、与同行 E_r 的 r 对比明确），MD 正确；②150dpi 初读疑 "E_r^{p,s} = 0"，600dpi（p008_Eps_600.png）确认印刷为 **E_r^{s,t} = 0 pour s < 0**，与 MD 一致。
+- PASS± 项（不修）：md 将斜体小节引导句 "Conséquences de l'hypothèse (Φ)." 与前段合并在同一行（印刷中为独立一行），mineru 分段伪影，内容无缺损。
+- 备注：本页证明段、Prop. 1 陈述逐项吻合；"(r ≧ 1)" 处 md 作 "(r \geq 1)"，符号等价。
