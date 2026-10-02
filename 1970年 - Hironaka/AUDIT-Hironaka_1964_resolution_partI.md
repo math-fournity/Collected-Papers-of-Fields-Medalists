@@ -139,3 +139,11 @@
 - 证据：源 PDF p.018 文本层、页图 `audit/Hironaka_1964_resolution_partI_p018.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p018_Px_sheaf.png` 与 MinerU Markdown 第 325、327 行。印刷定义为 `P^x=(P^x,O_{P^x})`，Markdown 第 325 行写成 `O_{Px}`，漏掉结构层下标中 P 的上标 x；裁片确认原页上下标。对称张量代数、开集基和脚注 13–14 的其余部分逐项对应。
 - 备注：印刷运行页眉和页码 125 未录入 Markdown，属导航元素省略。
 - 结论：结构层下标丢失上标，列为 FAIL，待全篇审计完成后逐处修复。
+
+### PDF p.019 / 96（印刷 p.126）— PASS±
+
+- 时间：2026-10-02 00:12 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.019 文本层、页图 `audit/Hironaka_1964_resolution_partI_p019.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p019_analytic_projective.png` 与 MinerU Markdown 第 329–335 行。解析 K-cover、`\lambda^{*}(I)`、`\Psi=(f\circ\lambda,\psi\circ\varphi)` 和 projective 映射定义逐项核对相符。
+- 源级 print quirk：印刷给出的 `\tilde{f}` 同构目标写为 `X|h^{-1}(T)`（未带波浪），即使此前定义 `N=(\tilde{X},\tilde{J})` 且 `\Phi=(h,\alpha)`；Markdown 忠实保留该页字面式，不按图式预期补波浪。
+- 备注：印刷运行页眉和页码 126 未录入 Markdown，属非误导性导航元素省略。
+- 结论：未发现 Markdown 与印刷页的内容差异；登记源页式样 quirk，并因页眉/页码省略记为 PASS±。
