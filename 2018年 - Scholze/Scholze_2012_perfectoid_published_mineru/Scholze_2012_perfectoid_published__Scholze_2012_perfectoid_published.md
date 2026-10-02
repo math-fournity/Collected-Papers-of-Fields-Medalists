@@ -854,21 +854,21 @@ $$
 
 given by the composition of$\mu : { \bf B } \otimes _ { \mathrm { A } } { \bf B } \to { \bf B }$and the map$\mathrm { B } \to \mathrm { A }$sending any$b \in \mathrm { B }$to the trace of the endomorphism$b ^ { \prime } \mapsto b b ^ { \prime }$of$\mathbf { B }$.
 
-Remark 4.15. — We should remark that the latter definition does not literally make sense, as one can not talk about an element b of some almost object B: There is no underlying set. However, one can define a map$\mathrm { B } _ { * }  \mathrm { E n d } _ { \mathrm { A } _ { * } } ( \mathrm { B } _ { * } )$in the way described, and we are considering the corresponding map of almost objects$\mathbf { B }  \mathrm { E n d _ { A _ { * } } ( B _ { * } ) ^ { \mathfrak { a } } = }$ $\operatorname { E n d } _ { \mathrm { A } } ( \mathrm { B } ) ^ { a }$
+Remark 4.15. — We should remark that the latter definition does not literally make sense, as one can not talk about an element b of some almost object B: There is no underlying set. However, one can define a map$\mathrm { B } _ { * } \to \mathrm { E n d } _ { \mathrm { A } _ { * } } ( \mathrm { B } _ { * } )$in the way described, and we are considering the corresponding map of almost objects$\mathbf { B } \to \mathrm { E n d _ { A _ { * } } ( B _ { * } ) ^ { \mathfrak { a } } = }$ $\operatorname { E n d } _ { \mathrm { A } } ( \mathrm { B } ) ^ { a }$.
 
-Theorem 4.16$[ I 5 ,$Theorem 4.1.14]. — In the situation ofthe definition, the morphism$\mathrm { A } \to$ B isfinite étale ifand only ifthe trace map is a perfect pairing, i.e. induces an isomorphism$\mathrm { B } \cong \mathrm { B } ^ { \ast }$
+Theorem 4.16 [15, Theorem 4.1.14]. — In the situation of the definition, the morphism$\mathrm { A } \to$ B is finite étale if and only if the trace map is a perfect pairing, i.e. induces an isomorphism$\mathrm { B } \cong \mathrm { B } _ { * }$.
 
 An important property is that finite étale covers lift uniquely over nilpotents.
 
-Theorem 4.17. — Let A be a$\mathrm { K } ^ { \circ a } - a l g e b r a .$. Assume that A isflat over$\mathrm { K } ^ { \circ a }$and  -adically complete, i.e.
+Theorem 4.17. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra. Assume that A is flat over$\mathrm { K } ^ { \circ a }$and  -adically complete, i.e.
 
 $$
 \mathrm{A} \cong \varprojlim \mathrm{A} / \varpi^ {n}.
 $$
 
-Then thefunctor$\mathbf { B } \mapsto \mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$induces an equivalence ofcategories$\mathrm { A } _ { \mathrm { f e t } } \cong ( \mathrm { A } / \varpi ) _ { \mathrm { f e t } }$. Any$\mathrm { \bf B } \in \mathrm { \bf A } _ { \mathrm { f e t } }$ is againflat over$\mathrm { K } ^ { \circ a }$and  -adically complete. Moreover, B is a uniformlyfinite projective A-module if and only if$3 \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$is a uniformlyfinite projective A/ -module.
+Then the functor$\mathbf { B } \mapsto \mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$induces an equivalence of categories$\mathrm { A } _ { \mathrm { f e t } } \cong ( \mathrm { A } / \varpi ) _ { \mathrm { f e t } }$. Any$\mathrm { \bf B } \in \mathrm { \bf A } _ { \mathrm { f e t } }$ is again flat over$\mathrm { K } ^ { \circ a }$and  -adically complete. Moreover, B is a uniformly finite projective A-module if and only if$\mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$is a uniformly finite projective A/ -module.
 
-Proof. — The first part follows from [15], Theorem 5.3.27. The rest is easy. -
+Proof. — The first part follows from [15], Theorem 5.3.27. The rest is easy.□
 
 Recall that we wanted to prove the string of equivalences
 
@@ -884,15 +884,15 @@ Fix a perfectoid field K.
 
 Definition 5.1.
 
-(i) A perfectoid K-algebra is a Banach K-algebra R such that the subset$\mathrm { R } ^ { \circ } \subset \mathrm { R }$of powerbounded elements is open and bounded, and the Frobenius morphism$\Phi : \mathrm { R } ^ { \circ } / \varpi  \mathrm { R } ^ { \circ } / \varpi$ is surjective. Morphisms between perfectoid K-algebras are the continuous morphisms ofKalgebras.
+(i) A perfectoid K-algebra is a Banach K-algebra R such that the subset$\mathrm { R } ^ { \circ } \subset \mathrm { R }$of powerbounded elements is open and bounded, and the Frobenius morphism$\Phi : \mathrm { R } ^ { \circ } / \varpi \to \mathrm { R } ^ { \circ } / \varpi$ is surjective. Morphisms between perfectoid K-algebras are the continuous morphisms of K-algebras.
 
-(ii) A perfectoid$\mathrm { K } ^ { \circ a }$-algebra is a  -adically completeflat$\mathrm { K } ^ { \circ a }$-algebra A on which Frobenius induces an isomorphism
+(ii) A perfectoid$\mathrm { K } ^ { \circ a }$-algebra is a  -adically complete flat$\mathrm { K } ^ { \circ a }$-algebra A on which Frobenius induces an isomorphism
 
 $$
 \Phi : \mathrm{A} / \varpi^ {\frac {1}{p}} \cong \mathrm{A} / \varpi .
 $$
 
-Morphisms between perfectoid$\mathrm { K } ^ { \circ a } .$-algebras are the morphisms ofK<sup>◦a</sup>-algebras.
+Morphisms between perfectoid$\mathrm { K } ^ { \circ a }$-algebras are the morphisms of K<sup>◦a</sup>-algebras.
 
 (iii) A perfectoid K<sup>◦a</sup>/ -algebra is a flat$\mathrm { K } ^ { \circ a } / \varpi$-algebra$\overline { { \mathrm A } }$on which Frobenius induces an isomorphism
 

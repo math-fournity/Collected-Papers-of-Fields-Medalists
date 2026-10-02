@@ -336,3 +336,15 @@
   8. Definition 4.14：afinite→a finite、traceform/bilinearform→trace form/bilinear form（p.271 Def 4.14 行）
   9. "composition of${\bf{\dot\mu}}$"伪点删、"$\mathrm B␣\mathrm A$"缺箭头→→、"$bb′ \ g f{\bf B}$"（of 乱码为 \ gf）→"of$\mathbf B$"+补句点（p.271 given by 段）
 - 备注：Theorem 4.11 的 ∧^i/∧^{i+1} 上标经 PNG 确认为同一 i 指标；Remark 4.15 起（行 857）跨印刷 p.271/272，其 p.271 部分无差异；行 859（Theorem 4.16）属印刷 p.272，留待下一块。
+## p.028（PDF p.28 / 印刷 p.272）
+- PNG：audit/p028.png（pngmono 150dpi）
+- 核对：页眉 272/PETER SCHOLZE；Remark 4.15 收尾（B_*→End_{A_*}(B_*)、End_{A_*}(B_*)^a=End_A(B)^a）；Theorem 4.16 [15, Thm 4.1.14]（B≅B_*）；nilpotent lift 段；Theorem 4.17（A≅lim A/ϖ^n display、A_fét≅(A/ϖ)_fét、B⊗_A A/ϖ、uniformly finite projective）；Proof [15] Thm 5.3.27+QED □；string of equivalences display（K_fét≅K^{°a}_fét≅(K^{°a}/ϖ)_fét=(K^{♭°a}/ϖ^♭)_fét≅K^{♭°a}_fét≅K^♭_fét）；tautological 段；§5 Perfectoid algebras 节标题；Definition 5.1 (i)(ii)（Φ:R°/ϖ→R°/ϖ 满射；Φ:A/ϖ^{1/p}≅A/ϖ display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；3 处控制字节遗留见第 4 条，以原图为准）：
+  1. Remark 4.15 收尾："map$\mathrm B_*␣\mathrm{End}_{\mathrm A_*}(\mathrm B_*)$"与"almost objects$\mathbf B␣\mathrm{End…}$"两处缺箭头→→、句末补句点（p.272 首段）
+  2. Theorem 4.16 头"[I 5,→[15,、ofthe/isfinite/ifand only ifthe补空格；**"isomorphism$\mathrm B\cong\mathrm B^{\ast}$"→"$\mathrm B\cong\mathrm B_*$"（print 为下标星 B_*，PNG 确认）**+补句点（p.272 定理行原图）
+  3. Theorem 4.17："$\mathrm K^{\circ a}-algebra.$"散字合并+伪'.$'→$\mathrm K^{\circ a}$-algebra、isflat→is flat；Then 段 thefunctor/ofcategories/againflat/uniformlyfinite×2 补空格；**"$3\otimes_A\mathrm A/\varpi$"→"$\mathbf B\otimes_A\mathrm A/\varpi$"（B 误为数字 3，PNG 确认）**（p.272 定理两行原图）
+  4. **控制字节登记**：行 863 "and \x0b-adically"、行 869 "and \x0b-adically"与"A/\x0b-module"、行 889 "is a \x0b-adically"——共 4 处 \x0b（ϖ 丢失，print "ϖ-adically"×3、"A/ϖ-module"，PNG 确认），Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
+  5. Proof "easy. -"→"easy.□"（QED，print 有 tombstone）（p.272 Proof 行）
+  6. Def 5.1(i)：Frobenius$\Phi:R^\circ/\varpi␣R^\circ/\varpi$缺箭头→→、"ofKalgebras"→of K-algebras（p.272 (i) 行）
+  7. Def 5.1(ii)：completeflat→complete flat；末段"$\mathrm K^{\circ a}.$-algebras"伪'.$'删、"ofK^{◦a}"补空格（p.272 (ii) 行与末行）
+- 备注：string of equivalences display 与 print 逐字符一致；Def 5.1(iii) 起行 897 属印刷 p.273，留待 p.029。
