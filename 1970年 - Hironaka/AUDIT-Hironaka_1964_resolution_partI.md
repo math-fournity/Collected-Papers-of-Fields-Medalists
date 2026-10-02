@@ -472,3 +472,10 @@
 - 证据：源 PDF p.065 文本层、页图 `audit/Hironaka_1964_resolution_partI_p065.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p065_induction_II_labels.png`，并比对 MinerU Markdown 第 1142–1177 行。归纳蕴含 (B) 中印刷的 `II_2^{N'}`、(C) 中的 `II_1^{N'}`/`II_2^{N'}`/`II_1^N`、(D) 中的 `II_2^{N'}`/`II_1^N`/`II_2^N`，在 Markdown 第 1152、1160、1168 行合计 7 处误录为希腊字母 `\Pi`。各蕴含中的 I 定理标签、条件和结论、四蕴含的充分性陈述、主定理 I(n)/II(N) 节标题、初始维数/子概形条件以及脚注 36 正文均与印刷页对应。
 - 备注：第 1175 行的 class `\mathcal B` 与 datum `\mathfrak R_I` 在 Markdown 叙述中分别写作普通 `B`、`R_I`，属于不改变指代的正/花体混排（PASS±）；印刷运行页眉和页码 172 未录入 Markdown。
 - 结论：7 处主定理 II 标签被误录为 Pi，列为 FAIL；待全篇审计后逐处手工修复。
+
+### PDF p.066 / 96（印刷 p.173）— FAIL
+
+- 时间：2026-10-02 04:19 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.066 文本层、页图 `audit/Hironaka_1964_resolution_partI_p066.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p066_type_I_labels.png` 与 MinerU Markdown 第 1179–1193 行。印刷定义为 datum 类型 `\mathfrak{R}_{\mathrm{I}}^{N,n}`；Markdown 第 1179 行中共 10 处写作 `\mathfrak{R}_1^{N,n}`，将罗马大写 I 误录成数字 1。resolution datum 的构造与 I₂ 定理应用、序列索引和中心、normal-flatness 条件 (1)–(3)、强化条件 (1′)、新序列映射及性质 (a) 起始句均与印刷页对应。
+- 备注：印刷运行页眉和页码 173 未录入 Markdown，属导航元素省略。
+- 结论：10 处 datum 类型标签把罗马 I 误录为数字 1，列为 FAIL；待全篇审计后逐处手工修复。
