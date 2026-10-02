@@ -528,3 +528,10 @@
 - 证据：源 PDF p.073 文本层、页图 `audit/Hironaka_1964_resolution_partI_p073.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p073_graded_formula_and_footnote38.png` 与 MinerU Markdown 第 1361–1401 行。印刷写作 `II_2^{N'}`、`II(N)`、`II_2^N`、`II(N)`；Markdown 第 1363、1365、1373 行共 4 处将 II 录为希腊字母 `\Pi`。Main Theorem III(N,n) 印刷的中心范围为 `0 \leq i < r`，Markdown 第 1367 行漏掉等号而写成 `0 < i < r`。脚注 38 的完整正文在第 1401 行，但第 1397、1399 行另有两条未见于原页的脚注式碎片 `$B_{r-1}\cong W_{r-1}$` 与 `$B_{r-1}=W_{r-1})$`。Theorem III 的其他条件、空子概形结论、Chapter II 标题及 graded-algebra 公式均已对照。
 - 备注：印刷运行页眉和页码 180 未录入 Markdown，属导航元素省略。
 - 结论：4 处 theorem II/Pi 符号误录、中心范围遗漏等号、2 条脚注式碎片，列为 FAIL；待全篇审计后逐处手工修复，并保留脚注 38 完整正文。
+
+### PDF p.074 / 96（印刷 p.181）— FAIL
+
+- 时间：2026-10-02 04:45 EDT；actor=Peer-P38；model=gpt-6-luna；effort=max。
+- 证据：源 PDF p.074 文本层、页图 `audit/Hironaka_1964_resolution_partI_p074.png`（pngmono 150dpi）、300dpi 裁片 `audit/300dpi/Hironaka_1964_resolution_partI_p074_localization_and_diagram.png` 与 MinerU Markdown 第 1403–1439 行。局部化同构的印刷下标为 `I A_P`，即 `\operatorname{gr}_{I A_P}(A_P)`；Markdown 第 1415 行压成 `\operatorname{gr}_{\mathrm{IAP}}(A_P)`，丢失了 A 的 P 下标分组。交换图底行印刷的子模包含映射 `I^{m+1}M \to I^m M` 为单向箭头，Markdown 第 1438 行写成 `\longleftrightarrow` 双向箭头。gr_I(A)/gr_I(M) 定义、有限型模块引理及图中其余对象与映射均已对照。
+- 备注：印刷运行页眉和页码 181 未录入 Markdown，属导航元素省略。
+- 结论：局部化下标结构丢失，且底行包含映射方向被改为双向，列为 FAIL；待全篇审计后逐处手工修复。
