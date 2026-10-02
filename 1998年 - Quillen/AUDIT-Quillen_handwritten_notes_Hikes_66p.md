@@ -299,8 +299,18 @@
 
 - PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p029.png`（pngmono 150dpi）
 - 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-monoid.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-support.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_embedding-intersection.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p029_homology-action.png`。
-- 核对：embedding `u:N→M` 诱导的 `μ_u`；embedding monoid 到群的平凡同态引理；`BGL(A)^+` 的同调/Whitehead 论证及 `π_1` 识别。
+- 核对：embedding `u:N→M` 诱导的 `μ_u`；embedding monoid 到群的平凡同态引理；本页证明 `u_*` 的第一步（同调同构）及直接极限式。
 - 结果：**FAIL**。
-- 印刷证据与差异：原图的诱导映射写作 `μ_u`，基线第 1032 行写为 `μ_*`，丢失它对 `u` 的依赖。原图以分段规则定义 `v_*(u)`（`v_*(u)(vn)=v(un)`，在 `n∉Im(v)` 时固定 `n`）；基线第 1038–1040 行没有还原该定义。基线第 1054–1055 行把同调交换图与“内自同构在 `H_*(BG)` 上诱导恒等”事实串成无法按原图读取的文本；第 1057 行将 `homotopy associative` OCR 成 `2ssociative`，第 1061 行又把 `GL(A)/E(A)` 误为 `BL(A)/E(A)`。原图局部条件照写 `Im(w)∩Im(v)≠∅` 后接 `v_*(u)∘w=w`；作为纸面表述先保留原样，不按推理预期改符号，列入源级 quirk 复核。
+- 印刷证据与差异：原图的诱导映射写作 `μ_u`，基线第 1032 行写为 `μ_*`，丢失它对 `u` 的依赖。原图以分段规则定义 `v_*(u)`（`v_*(u)(vn)=v(un)`，在 `n∉Im(v)` 时固定 `n`）；基线第 1038–1040 行没有还原该定义。原图局部条件照写 `Im(w)∩Im(v)≠∅` 后接 `v_*(u)∘w=w`；作为纸面表述先保留原样，不按推理预期改符号，列入源级 quirk 复核。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；保留原图中上述交集条件的写法并在总评记录。
 - 记录：2026-10-02 02:06:24 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.030（PDF p.30 / 纸面圈号 30）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p030.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p030_whitehead-cover.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p030_postnikov-tower.png`。
+- 核对：`BGL(A)^+` 的同调/Whitehead 证明步骤；`π_1(BGL(A)^+)` 与 universal cover `BE(A)`；plus 图的 covering square；Dror tower 的 Postnikov 系统图。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1054–1055 行的同调诱导图与“内自同构在 `H_*(BG)` 上作用平凡”事实，基线将两列拼接成含混文本。原图第 1057 行是 homotopy associative，基线写成 `2ssociative`。原图第 1061 行是 `π_1(BGL(A)^+)=GL(A)/E(A)=H_1(BGL(A))`，基线误成 `BL(A)/E(A)`。第 1066 行原图的 plus superscript 属于 `BGL(A)` 并与 `BE(A)` cover 相连，Markdown 把上标挪进 `A^+` 且图中对象错置；第 1073 行又将 `f'` 的无环性、cover `BE(A)` 与同调同构压成 `BE(A)^T=BGL`。原图第 1079 行的 Dror stages 与目标 Postnikov tower 也被拼成难以辨认的链。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片回核 plus 图与 cover/tower 对应。
+- 记录：2026-10-02 02:18:20 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
