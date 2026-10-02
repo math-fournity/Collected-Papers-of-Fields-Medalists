@@ -433,3 +433,14 @@
 - 页面边界：原图止于 `A[ε]^*` 的单位说明；Markdown 第 1543 行起的表示 `ρ:G→GL_nA` 属于下一页。
 - 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按三张 300dpi 裁片恢复 `K_2` 反例函子、双数环方块、`K_1`/determinant 与单位说明。
 - 记录：2026-10-02 03:28:59 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
+
+### p.042（PDF p.42 / 纸面圈号 42；页脚另印 43）
+
+- PNG：`audit/Quillen_handwritten_notes_Hikes_66p_p042.png`（pngmono 150dpi）
+- 300dpi 终裁裁片：`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p042_representation-maps.png`、`audit/300dpi/Quillen_handwritten_notes_Hikes_66p_p042_finite-field-theorem.png`。
+- 核对：表示 `ρ:G→GL_n(A)` 对同调的诱导映射；上三角块群到 `GL_{r+n}` 的包含 `i` 与投影 `j`；稳定后 `i_*=j_*` 的证明；有限域代数闭包上的模 p 同调定理陈述。
+- 结果：**FAIL**。
+- 印刷证据与差异：原图第 1547 行的中间群为 `GL_n(A)`，基线误成 `GL_0(A)`。300dpi 映射裁片确认 `G` 的上右块为 `M_{rn}`；原图的 `i` 保持矩阵 `\left(\begin{smallmatrix}a&b\\0&d\end{smallmatrix}\right)` 不变，`j` 将上右 `b` 投影为 `0` 并保持对角项；基线第 1551 行把 `M_{rn}` 写成 `M_m`，第 1555 行将左上 `a` 改成 `z`、右侧又改成 `x`，第 1559 行也将投影后的左上项误成 `z`，并把零元写成 `o`。第 1563 行的 `i_*=j_*` 结论可辨。稳定化证明中，原图采用这些群的递增并/直极限；基线第 1573 行误成 `\prod_{GL_\infty}`，第 1579 行又把 `H_*` 识成 `H_x`。末尾定理的主要同调式可读，但基线第 1589 行把 “finite field with `q=p^d` elements, `p` prime” 损坏为 `finitefieldwith ... pazprime`，并与重复的 `Then` 拼在一个公式行内。
+- 页面边界：PDF p.42 页底陈述有限域同调定理；同页另印内部页码 `43`，Markdown 第 1594 行起该定理证明属于 PDF p.43。
+- 修复状态：待全篇审计完成后，使用 Edit/apply_patch 逐处修复；按两张 300dpi 裁片恢复 `i/j` 矩阵、直极限及有限域条件。
+- 记录：2026-10-02 03:32:55 -0400；actor=`Peer-P27`；model=`gpt-6-luna`；effort=`max`。
