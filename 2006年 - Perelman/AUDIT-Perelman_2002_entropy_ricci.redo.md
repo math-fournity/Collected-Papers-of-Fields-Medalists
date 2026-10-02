@@ -27,4 +27,12 @@
 - 结果：PASS
 - 备注：印刷原样错字 "a priory"（应为 a priori）与 "a convergence theorem ," 逗号前空格均为 print quirk，MD 忠实保留未改。
 
+## p.003（PDF p.3 / 印刷 p.3）
+- PNG：audit-redo/p003.png（pngmono 150dpi）
+- 核对：Hamilton program 收束段、Hamilton-Tian 段、Introduction §2（RG flow、[Gaw,§3]）、Introduction §3（论文组织段）
+- 结果：FAIL（一处公式片段丢失）——已按原图修复
+- 差异：印刷 "confirm Hamilton's hope that the solution that exists for all time **t → ∞** necessarily has bounded normalized curvature"，MD 原文缺 "→ ∞"（"for all time t necessarily…"）。PNG（p003.png 第 4 行）与 pdftotext p.3 双证。以原图为准，已 Edit 补为 "$t \to \infty$"。
+- 备注：其余文本（含 "an hierarchy" print 原样）逐字一致。
+
+
 
