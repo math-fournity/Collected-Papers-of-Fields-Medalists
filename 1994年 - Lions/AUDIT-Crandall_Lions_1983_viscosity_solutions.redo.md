@@ -36,3 +36,10 @@
 - 核对：开头续句（the equations almost everywhere + 文献列表 Douglis[10]/Kružkov[18,19,20]/Fleming[13,14,15]/Friedman[16]/Benton[4]/Lions[22]）、(0.1) 反例 u(x) 分段式、分段线性 u 例子、min/max 封闭性段、viscosity solutions² 段、special case 段与 (0.3) 全式、页底脚注 ²、³
 - 结果：**PASS±**。正文与公式均与印刷页相符。重核 Luna 旧修复：删除独立片段 `$C_b(\Omega))$` ——300dpi 页底裁片证实印刷页只有 ²、³ 两条完整脚注，该删除**正确**，维持。新发现：MD 行 51 `n ∈ BUC(R^N), i.e.` 丢失印刷页行内上标 ³（印刷页 `BUC(R**N**),³ i.e.`，300dpi 裁片直证；行 49 的 ² 行内标记保留，此处属漏拍平）→ 本次修复：补回 `$^{3}$`。页眉作者行与印刷页码 2 未录入 Markdown（版面元数据遗漏）。
 - 备注：修复 1 处（行内脚注 ³ 标记），以 p002.png 与 300dpi 裁片为据。
+
+## p.003（PDF p.3 / 印刷 p.3）
+
+- PNG：audit-redo/p003.png（pngmono 150dpi）
+- 核对：Under these assumptions 列举 (i)–(v) 全文、"It is of interest here…" 段（含 u_t + Σf_i(u)_{x_i}=0、Hopf[17]/Vol'pert[26]/Kružkov[20]）、"Finally we recall…" 段（convex Hamiltonian、[8]）、"A few words about the presentation…" 段（阅读路线 §§I.1,I.2/Corollary I.6/§II.1/§IV/§§V.1,V.2）、"§I.5 deserves a special remark…" 段（Proposition I.19、[27]）、页末断句 "…convergence theorems"
+- 结果：**PASS±**。全部正文与印刷页相符；页眉 running head（VISCOSITY SOLUTIONS OF HAMILTON-JACOBI EQUATIONS）与印刷页码 3 未录入 Markdown（版面元数据遗漏，不误导）。
+- 备注：p.3 印刷页末句在 MD 行 79 断开，行 81 起为 p.4 内容，续接正确。
