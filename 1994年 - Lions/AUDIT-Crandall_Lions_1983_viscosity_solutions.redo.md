@@ -43,3 +43,10 @@
 - 核对：Under these assumptions 列举 (i)–(v) 全文、"It is of interest here…" 段（含 u_t + Σf_i(u)_{x_i}=0、Hopf[17]/Vol'pert[26]/Kružkov[20]）、"Finally we recall…" 段（convex Hamiltonian、[8]）、"A few words about the presentation…" 段（阅读路线 §§I.1,I.2/Corollary I.6/§II.1/§IV/§§V.1,V.2）、"§I.5 deserves a special remark…" 段（Proposition I.19、[27]）、页末断句 "…convergence theorems"
 - 结果：**PASS±**。全部正文与印刷页相符；页眉 running head（VISCOSITY SOLUTIONS OF HAMILTON-JACOBI EQUATIONS）与印刷页码 3 未录入 Markdown（版面元数据遗漏，不误导）。
 - 备注：p.3 印刷页末句在 MD 行 79 断开，行 81 起为 p.4 内容，续接正确。
+
+## p.004（PDF p.4 / 印刷 p.4）
+
+- PNG：audit-redo/p004.png（pngmono 150dpi）；仲裁裁片 300dpi：P_{N+1} 行与 Definition I.1 行（/tmp 中转，结论已录本条）
+- 核对：续句（(with error estimates)…[9]）、节标题 I. Viscosity solutions、I.1 记号段（𝒟(𝒪)=C_c^∞(𝒪)）、(1.1)、(1.1) 说明段、X⁺/X_c 记号段、motivation 段与两个导数展示式、E_±(ψ) 定义段、DEFINITION I.1 题头、(1.2) 子解分支（E_+ ⇒ ∃y…≤ 0）
+- 结果：**PASS±**。正文、公式与 (1.2) 子解分支均与印刷页相符。源级 quirk 登记：印刷页 (1.1) 说明段印作 $P_{N+1} + H(x,t,p_1,\ldots,p_N)$，首字母为大写 P（300dpi 裁片与同行小写 p_1,…,p_N 字形对比确证）；MD 照录 `P_{N+1}` 忠实，不按数学预期改为小写。样式差异：印刷 𝒟 字形在 MD 行 93 录作 $\mathcal{D}$、行 119 录作 $\mathfrak{D}$（300dpi 证实两处印刷同形），同一粗体 R 在行 113 录 $\mathbf{R}$、行 119 录 $\mathbb{R}$；均为字体族转录差异，对象可辨，不作正文修复。页眉作者行与印刷页码 4 未录入 Markdown。
+- 备注：(1.2) 超解分支（(respectively, … (1.3)）延续到 p.5，续接点核对见下页条目。
