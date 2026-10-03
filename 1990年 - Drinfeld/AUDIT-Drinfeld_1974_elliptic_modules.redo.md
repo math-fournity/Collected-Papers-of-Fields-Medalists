@@ -148,3 +148,10 @@
 - 结果：FAIL（1 处印刷忠实性回退）。Prop 4.4 proof（MD 行 481）：印刷 `((1/π^m)O/O)^**b**`（300dpi 闭碗 b，与同页 j+h 的双拱 h 可区分），MD（含 Luna 修复）为 ^h；已 Edit 回退为 `^b`。**erratum 登记**：数学上为 h，印刷误排 b——延续 §4 的 b/h 混用（p.566/570–573 同族）。
 - 重核 Luna 修复：level-n 结构的 `^{j+h}`（散文+display）、Prop 4.5 的 `dimension j + h` 均印刷确为 h（300dpi 有升部双拱，Luna 此三处由 b 改 h 方向正确）；Exp/[Mor]^j/Remark 各式相符。
 - 另记（PASS± 级伪影，不改）：页眉 "574 V. G. DRINFEL'D" 未收。
+
+## p.015（PDF p.15 / 印刷 p.575）
+
+- PNG：audit-redo/p015.png（pngmono 150dpi）
+- 核对：§5 标题、§5A Prop 5.1 两项（f_j = Σ_{i=0}^{d_j} a_{ij}τ^i、a_{d_jj}、操作元 h、hf_1 = f_2h）及证明（m²=0、hf_1 = f_2h = a_02h、τ^{d+n}、d = d_1 = d_2）、Prop 5.2 陈述与 conjugation display、存在性证明（a_n/a_d^{p^{n-d}} 两处、τ^{n-d}）、§5B elliptic A-module over S 定义、standard module remark（Σ^{d log p|a|}、L^{1-p^i}）、V(I)/X_I 段（finite flat、étale）。
+- 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复（均正确）：操作元 `h`（原矿 b）、系数比较 `τ^{d+n}`（原矿 r）、`d = d_1 = d_2`（原矿 d=d_2=d）、分母 `a_d^{p^{n-d}}` 两处（原矿 p^{n-1}）——印刷逐一确证。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 575" 未收。
