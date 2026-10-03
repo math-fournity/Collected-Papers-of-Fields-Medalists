@@ -176,3 +176,13 @@
 - 仲裁记录：150dpi 疑印刷 ∑ 下限为 i，600dpi（p019_sum3_600.png，4x）确认印刷为 **∑₀**（下限 0，与同行 "(E_r)" 类对照清晰），MD $\sum_{0}^{n}$ 正确。
 - 差异：无。
 - 备注：md 行 775 起 "Pour établir…le théorème" 的续文属印刷 p.443。
+
+## p.020（PDF p.20 / 印刷 p.443）
+- PNG：audit/p020.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p020_triple_600.png、p020_prop1b_600.png、p020_prop1c_600.png、p020_lemme2b_600.png（600dpi）
+- 核对：relèvement des homotopies 段；DÉFINITION espace fibré（triple、(R) 性质全式）；Exemples 1–4（fibre-bundles [5] Exp. VIII、fibre-spaces d'Hurewicz-Steenrod、GLG/Gleason [5] Exp. VII + 脚注2（Borel C.R. 230 1950 p.1246-1248；作者 Ibid. p.916-918）、Chapitre IV espaces de chemins）；REMARQUE（p^{-1}(b) fermés、topologie quotient）；PROPOSITION 1 全文；LEMME 1/LEMME 2；Prop. 1 证明开头（Y、j: X → Y ⊂ I^n、r rétraction、x → (r(x), j(x))）
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 779 "le triple $E, p, B$" 缺括号：600dpi（p020_triple_600.png）确认印刷为 "**(E, p, B)**"，Edit 修复为 "$(E, p, B)$"。
+- PASS± 项（print quirk 登记，不修）：①Prop 1 印刷作 "A et **K** deux polyèdres finis, contractiles, tels que A ⊂ X"（p020_prop1c_600.png 确认 K；K 在后文未再用，条件句实际用 X）——印刷自身记号不一致，md 忠实保留；②LEMME 2 印刷作 "a → (a, s), **ou** s est un point fixé"（p020_lemme2b_600.png：无重音，对比同行 "où n est" 有重音符）——印刷自身笔误（应为 où），md 忠实保留 "ou"。
+- 差异：无内容错误（除已修复项）。
+- 备注：md 行 797 起 "D'autre part, X est un rétracte…"、REMARQUE réciproque、APPLICATION（π_i(E mod. F) ≅ π_i(B)）与 suite exacte d'homotopie 展示式属印刷 p.444。

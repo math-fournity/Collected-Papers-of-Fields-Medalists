@@ -776,7 +776,7 @@ Pour établir les propriétés de la suite spectrale d'homologie des espaces fib
 
 de relèvement des homotopies pour les polyèdres. Aussi le prendrons-nous comme définition:
 
-DÉFINITION. Nous appellerons espace fibré le triple $E, p, B$, où $E$ et $B$ sont des espaces topologiques et $p$ une application continue de $E$ sur $B$ vérifiant la condition:
+DÉFINITION. Nous appellerons espace fibré le triple $(E, p, B)$, où $E$ et $B$ sont des espaces topologiques et $p$ une application continue de $E$ sur $B$ vérifiant la condition:
 
 (R)—Quelles que soient les applications continues $f: P \times I \to B$, $g: P \to E$ (où $P$ désigne un polyèdre fini, et $I$ le segment [0, 1]) vérifiant $p \circ g(x) = f(x, 0)$ pour tout $x \in P$, il existe une application continue $h: P \times I \to E$ telle que $p \circ h = f$ et que $h(x, 0) = g(x)$ pour tout $x \in P$.
 
