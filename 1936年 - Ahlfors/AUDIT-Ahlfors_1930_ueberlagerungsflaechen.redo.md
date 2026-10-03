@@ -312,4 +312,17 @@
 - 结果：PASS±（4 处修复后与印刷一致）。
 - 页界：本页止于「…≦ 2S+kL.」式（MD 行 623 吻合）；「Durch Anwendung der Gleichung (A)…」起为 p.025 内容。
 
+### p.025（PDF p.25 / 印刷 p.181）
+
+- audited_at=2026-10-03 19:55 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p025.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p025_bprime_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p025_lim_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p025_defekt01_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p025_defektrelation_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p025_b1_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 181）、Gleichung (A) 应用句、公式 (B′)（左侧标签 (B′) ✓、≦2S+kL. 句点在）、Defekt δ(Δ)/Verzweigungsindex ε(Δ) 定义段、lim μ(Δ)/S=δ(Δ)（无标点 ✓）、und、lim w(Δ)/S=ε(Δ).（句点在 ✓）、Nach dieser Definition 段（印刷「zwischen o und ı」旧式 0/1 同形——Luna 旧修复读 0/1，语义（Defekt∈[0,1]）与「gleich Null」拼词对照支持，维持并登记）、Defektrelation 段（印刷黑体+斜体整段）、Σδ(Δ)+Σε(Δ)≦2,（逗号在 ✓）、d. h. 斜体句（gleich 2. ✓）、Wir erinnern 段、Schliesslich 段（a₁,…,a_q、p(a_ν)、p(a_ν)≧p(Δ_ν)）、公式 (B₁)（左侧标签单层括号 (B₁) ✓、p(a_ν)≧(q−2)S−kL. 句点在）。
+- 发现并修复（MD 结构化 Edit，2 处含 8 字形）：
+  1. 行 656 七处下标 `_{v}`/`_{v}` → `_{\nu}`（Δ_v×3、a_v×4）——v/ν 同形（p.003 已证），按全篇 `\nu` 主流转写统一（段内移交项核销）。
+  2. 行 659 `\tag{(B_1)}` → `\tag{B_1}`——300dpi 裁片确证印刷标签为单层括号 (B₁)；mineru 把编号括号并入 tag 内容造成双层（与 p.011 `\tag{(5')}` 完全同类；Luna 旧审计仅登记未修）。
+- 保留登记（PASS± 排版级，不修）：Defekt/Verzweigungsindex、Defektrelation 引言与 d. h. 句印刷斜体及 Defektrelation 黑体丢失（系统性）；「zwischen o und ı」0/1 同形维持（见上）；(B′)/(B₁) 左侧编号在 MD 中以 \tag 收于式末（既有惯例）。
+- 与 Luna 旧记录交叉：旧 p.025 判 FAIL（o/i→0/1 两处）——本次原页重核确认该修复与印刷判定一致，维持；(B₁) 双层括号 Luna 仅登记未修，本次按 p.011 先例修复；7 处 v/ν 转写不一致系旧审计未检出项。
+- 结果：PASS±（2 处修复后与印刷一致）。
+- 页界：本页止于 (B₁) 式（MD 行 659 吻合，页底留白）；「22. Wir werden jetzt zeigen…」起为 p.026 内容。
+
 <!-- redo-tail -->

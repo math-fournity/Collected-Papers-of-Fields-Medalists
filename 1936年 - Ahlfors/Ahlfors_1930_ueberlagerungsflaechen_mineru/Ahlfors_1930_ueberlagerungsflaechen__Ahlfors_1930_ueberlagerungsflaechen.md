@@ -653,10 +653,10 @@ d. h. die Summe sämtlicher Defekte und Verzweigungsindizes ist höchstens gleic
 
 Wir erinnern daran, dass der ganze Defektbegriff und folglich auch die Gültigkeit der Defektrelation wesentlich auf der Annahme beruht, dass eine reguläre Ausschöpfung existiert.
 
-Schliesslich wollen wir noch diejenige Ungleichung aufstellen, die aus (B) entsteht, wenn sämtliche Gebiete $\Delta_{v}$ sich auf Punkte reduzieren. Wir betrachten $q$ Punkte $a_{1},\ldots,a_{q}$ und wählen die Gebiete $\Delta_{v}$ so, dass sie je einen Punkt $a_{v}$ enthalten. Es sei $p(a_{v})$ die mit einfachen Multiplizitäten gezählte Anzahl der über $a_{v}$ gelegenen inneren Punkte von $W$. Dann ist offenbar $p(a_{v})\geqq p(\Delta_{v})$ und wir finden
+Schliesslich wollen wir noch diejenige Ungleichung aufstellen, die aus (B) entsteht, wenn sämtliche Gebiete $\Delta_{\nu}$ sich auf Punkte reduzieren. Wir betrachten $q$ Punkte $a_{1},\ldots,a_{q}$ und wählen die Gebiete $\Delta_{\nu}$ so, dass sie je einen Punkt $a_{\nu}$ enthalten. Es sei $p(a_{\nu})$ die mit einfachen Multiplizitäten gezählte Anzahl der über $a_{\nu}$ gelegenen inneren Punkte von $W$. Dann ist offenbar $p(a_{\nu})\geqq p(\Delta_{\nu})$ und wir finden
 
 $$
-\sum_ {1} ^ {q} p (a _ {\nu}) \geqq (q - 2) S - k L.\tag{(B_1)}
+\sum_ {1} ^ {q} p (a _ {\nu}) \geqq (q - 2) S - k L.\tag{B_1}
 $$
 
 22. Wir werden jetzt zeigen dass es möglich ist, aus der Ungleichung (B) eine notwendige Bedingung für die Existenz einer regulären Ausschöpfung abzulesen.
