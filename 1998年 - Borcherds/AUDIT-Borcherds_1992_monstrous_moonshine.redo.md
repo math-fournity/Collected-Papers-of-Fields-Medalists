@@ -66,3 +66,15 @@
   2. **行文转述改写**（印刷原文 → Luna 改文，均已恢复印刷原文）：`is a virtual vector space which is the alternating sum of the exterior powers of E` → 曾被改为 `formed from the alternating sum of exterior powers of`；`and similarly H(E)` → 曾删 similarly；`For infinite dimensional Lie algebras E we need to be careful that` → 曾改为 `For infinite-dimensional Lie algebras E, we must ensure that`；`they are always differences … and so are well defined` → 曾删 always 与句尾从句 `and so are well defined`；`H_i(E) turns out to have dimension equal to the number of elements in the Weyl group of length i` → 曾改为 `has dimension equal to the number of Weyl-group elements of length i`；`first observed by Bott, and was used by Kostant` → 曾改为 `by Bott and used by Kostant`；`The sum over the homology groups can therefore be identified` → 曾改为 `Thus the sum over homology groups can be identified`。整行已用结构化 Edit 恢复为印刷原文（本页 commit）。
 - Luna 其余本页修复复核：`\Lambda^i(E)'s` 所有格碎片已修复为正常行文 ✓；`coefficients` 拼写 ✓（本页两处 coefficients 均正确）。分母公式与 c(mn) 等其余内容与印刷一致。
 - 备注：`p ^ { 1 }`（印刷 1−p¹q⁻¹ 的显式上标 1）与 `mult(α)` 记号按印刷/原始导出保留。判定依据：本页存在公式记号错误与整句级 omission（and so are well defined 从句丢失），按 SOP FAIL 定义记录；修复后 MD 已与印刷一致。
+
+## p.006（PDF p.6 / 印刷 p.6）
+
+- PNG：audit-redo/p006.png（pngmono 150dpi，本块实渲染实读）。
+- 核对：Garland–Lepowsky [20] 段；homology 显式计算段（which is the product formula for the j function / In section 8 we use this… / they turn out to be H₀(E)=R, H₁(E)=Σ_{n∈Z}V_n pq^n, H₂(E)=Σ_{m>0}V_m p^{m+1} / all the higher homology groups are 0 / Z²-graded / p's and q's / If we substitute these values into the formula Λ(E)=H(E) we find that）；Λ(ΣV_{mn}p^m q^n)=Σ_m V_m p^{m+1}−Σ_n V_n pq^n；trace 恒等式 p^{−1}exp(−Σ_{i>0}Σ_{m>0,n∈Z}Tr(g^i|V_{mn})p^{mi}q^{ni}/i)=Σ_{m∈Z}Tr(g|V_m)p^m−Σ_{n∈Z}Tr(g|V_n)q^n；Norton/Koike/[28]/[1] completely replicable 段；致谢（J. McKay, U. Tillman, J. Lepowsky, referee）；「Notation. (In roughly alphabetical order.)」。
+- 文本层通道：pdftotext 第 6 页与 PNG 一致。
+- 结果：**FAIL**（Luna 修复再次引入行文转述改写；另有一处段末句点缺失；均已按印刷恢复）。
+- 差异与处理（归属证据：原始 MinerU 行文忠实，见 commit `4e5d9aabe` 对应行；改写来自 Luna 修复 commit `01fe4a35`）：
+  1. **行文转述改写**（印刷原文 → Luna 改文，已恢复）：`which is the product formula for the j function` → 曾被改为 `the product formula for $j$`（删 which is 与 function）；`In section 8 we use this to work out the homology groups of E, and they turn out to be` → 曾改为 `In section 8, we use this to work out the homology groups of $E$. They are`；`all the higher homology groups` → 曾删 the；`If we substitute these values into the formula Λ(E)=H(E) we find that` → 曾改为 `Substituting these values into $\Lambda(E)=H(E)$ gives`；另在 `monster Lie algebra` 后增逗号。整行已用结构化 Edit 恢复印刷原文（本页 commit）。
+  2. **句点缺失**：印刷 "…on the vector space V_n**.**"（段末）MD 缺句点，已补（本页 commit；本文件中另一处同句出现在后部页码范围且已有句点，未动）。
+- Luna 其余本页修复复核：trace 恒等式 ✓、Λ(E)=H(E) 代入式 ✓、Norton/Koike/[28]/[1] 段逐句与印刷一致 ✓、致谢与 Notation 标头 ✓、`coefficients` 拼写 ✓。
+- 备注：p.005/p.006 连续两页证实 Luna 修复存在系统性「以同义转述改写印刷行文」的行为模式（原始 MinerU 忠实、修复后不忠实），本重做对后续每页行文逐句核对印刷。
