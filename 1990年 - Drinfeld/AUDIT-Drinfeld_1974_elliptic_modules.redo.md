@@ -162,3 +162,11 @@
 - 核对：level-I 结构定义（ψ: (I^{-1}/A)^d → Mor(S,X)、X_m、m^{-1}/A）、Remark（(I^{-1}/A)^d × S ≅ X_I）、Prop 5.3 及证明（Spec A − m、(m^{-1}/A)^d trivialization）、§5C 设置（O = A_ν、Â_ν^{nr}/ν、level ν^n）、函子表示段（V(I) ∌ ν、level Iν^n、M_{Iν^n}^d ⊗ A_ν^{nr}、F_n）、Ŷ = lim→ Y_{ν^n} 段、Prop 5.4、proof a)、b)（A = F_p[x]、ν = (x)、x ∈ ν、F_p[[x]]/F_p[x] 区分、E'_0/F'_0、交换图）、A_x^* 开头。
 - 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复（均正确）：Remark target `X_I`（原矿 X_r）、level `Iν^n`（原矿 lv^n）、place `ν`（原矿 v，含 ν=(x)、x∈ν）——印刷逐一确证。
 - 另记（PASS± 级伪影，不改）：页眉 "576 V. G. DRINFEL'D" 未收。
+
+## p.017（PDF p.17 / 印刷 p.577）
+
+- PNG：audit-redo/p017.png（pngmono 150dpi）；600dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p017_adeleD.png（§5D adèle 环记号定义行）、…_p017_deform_display.png（c) 段 deformation display）、…_p017_cf4C.png（"cf. §4C))" 行）
+- 核对：deform-ation 断词续接（Y' 构造：b ∈ F_p[x]、b(0) ≠ 0、a|b、Y_(b) étale、X_(a) ⊂ X_(b)、H ⊂ Y_(b)、Y' = Y/H）、A_x^* ∩ A 作用段（Spf F_0 = (Spf F'_0)^{A_x^*}、(cf. §4C))、A_x^* ⊂ A_ν^*、Spf E_0 = (Spf E'_0)^{A_x^*}）、c) 段（n=0、A = F_p[x]、ν = (x)、x → Σ_{i=h}^{d-1}a_iτ^i + τ^d、a_h ≠ 0、F_0 = F̄_p[[x,α_1,…,α_{d-1}]]、universal deformation x ↦ x + Σ_{i=1}^{d-1}α_iτ^i + τ^d、E_0 ≈ F_0、β_1,…,β_{d-1} ∈ F̄_p）、deformation display（x ↦ Σβ_iετ^i + Σa_iτ^i + τ^d）、F̄_p[x]/(ε²)、β_i = 0 (1 ≤ i ≤ h−1) 两处、X̂_loc、r ∈ F̄_p point of order x、display Σ_{i=h}^{d-1}(a_i + β_iε)r^{p^i} + r^{p^d} = 0、p^{d-h} different values、h ≤ i ≤ d−1 □、Corollary（M_I^d smooth d-dimensional、smooth over Spec A − V(I)、M_J^d → M_I^d finite and flat）、§5D 开头（M^d = lim← M_I^d、adèle 环重新定义、Ã = lim← A/I、GL(d,𝔘_f)/k^* 作用、ψ: (k/A)^d → Mor(S,X)、g ∈ GL(d,𝔘_f) coefficients in Ã、H ⊂ P、ψ(α), α ∈ P、X/H、ψ_1: (k/A)^d → Mor(S, X/H)）。
+- 结果：FAIL（印刷忠实性回退，𝔘/𝔄 记号 2 行 5 处）。§5D adèle 环重新定义行（MD 行 599）印刷为 Fraktur **𝔘** 与 **𝔘_f**（600dpi adeleD 裁片：U 形开口向上，与 p.561 记号段同形），MD（含 Luna 修复）作 `\mathfrak{A}`/`\mathfrak{A}_f` 系（3 处）；行 601 `GL(d,\mathfrak{A}_f)` 两处同。已 Edit 全部回退为 `\mathfrak{U}` 系。**跨页待查①就此定谳**：p.561 与 p.577 两处 adèle 环定义印刷均为 𝔘，印刷不存在 𝔄 记号；Luna 在 p.018/p.025/p.031 的 `\mathfrak{A}` 方向确认错误，后续各页逐一以页图确证后回退。
+- 重核 Luna 修复：Y' 构造句、`(cf. §4C))` 双右括号（600dpi 确认印刷双 `))`）、display 的 ↦（正文 x → Σ 用无竖杠 →，MD 分用 \mapsto/\to 与印刷一致）、`(a_i + β_iε)r^{p^i} + r^{p^d} = 0`、p^{d−h}、Corollary 各式均与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 577" 未收；Corollary 整段印刷斜体排印（陈述样式），MD 转正体。
