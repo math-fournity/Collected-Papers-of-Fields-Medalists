@@ -22,3 +22,18 @@
   - 登记非保留伪影（按 Witten 篇先例，不修）：①印刷页眉期刊行 "Annals of Mathematics, 164 (2006), 513–560" 未保留（MinerU 系统性丢页眉）；②左侧竖排 arXiv 水印 `arXiv:math/0612721v1 [math.DS] 22 Dec 2006` 未保留；③MD 行 11 印刷 `\mathbb{R}^k` 拍平为 `R<sup>k</sup>`（黑体拍平，不误导）。
   - 印刷原文 "unimodular lattices in three space" 与 MD 一致，忠实保留（不作数学预期改写）。
 - 备注：本页无需 Edit；MD 段落跨页续接属 MinerU 页流合并（行 15 延入 p.2 内容，p.2 复核）。
+
+### p.002（PDF p.2 / 印刷 p.514）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p002.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 2 -l 2 -layout`。
+- 核对：§1.1 末段（Ratner 定理引文 [41]/[42]/[40]/[43]/[28]/[8]）、§1.2 标题与前两段、Conjecture 1.1 (Margulis) 全句、Furstenberg §Σ_{m,n} 段前半、页眉（514 作者行）。
+- 结果：**PASS±**（发现并修复 MD 对印刷的 4 处偏差；登记 2 处 print quirk）
+  - **print quirk 忠实保留（不改，PNG 视觉确认印刷如此）**：①印刷 "of general unipotents groups"（多 s），MD 一致；②印刷 "Raghunatan's conjecture"（少 h，与 p.1 "Raghunathan" 拼写不一致系印刷本身），MD 一致。
+  - **修复（Edit，逐处溯源 p.2 PNG/文本层）**：
+    1. 行 19 `a diferent homogeneous action` → `a different`（印刷双 f）；
+    2. 行 21 `very diferent from Anosov flows` → `very different`（印刷双 f）；
+    3. 行 21 `For$k > 2 .$the` → `For$k > 2,$the`（印刷为逗号，MinerU 误作句点）；
+    4. 行 25 `where$n ,$, m are two multi-plicatively` → `where$n , m$are two multiplicatively`（印刷 "n, m"，MinerU 产生双逗号伪影；"multi-plicatively" 系印刷断行连字符并入 MD 应还原）；同句 `multi-plicative semigroup` → `multiplicative semigroup`（同理）。
+  - **Luna 旧判定复核**：Luna 将上述 diferent 类仅登记未修、且未发现 `n ,$, m` 双逗号与 `k > 2 .` 逗号误码；重做按 redo 授予「MD 对印刷偏差即修」口径补齐。
+  - 登记非保留伪影（不修）：页眉 "514 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS" 未保留；"isomorphic to ℝ" 印刷黑体拍平为 MD 行 21 `isomorphic to R`。
+  - Conjecture 1.1 陈述、[16]/[15]/[6]/[17]/[25] 引用号、ℝ^{k−1}-action 与印刷逐项吻合。
