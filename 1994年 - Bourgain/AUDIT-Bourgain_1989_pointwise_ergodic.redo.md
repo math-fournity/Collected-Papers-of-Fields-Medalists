@@ -190,6 +190,13 @@
 - 结果：FAIL（一处，已当场修复）。(6.37) 求和下标：300dpi 放大裁片显示印刷为 $Z_\varepsilon$，Markdown 误作 $Z_\xi$，已 Edit 改正。同式括号：印刷在 $\mathcal Ff$ 后即直接接右范数线、**无闭方括号**（原页排印缺 ‘]’），Markdown 逐字对应，登记为 print quirk、不补写。其余：(6.38)–(6.40)、弱混合收尾、(7.1)–(7.3) 及 “goods bounds”、“This first term” 等源级用语均与原页一致。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 29。与 Luna 旧审（p.026 PASS±）结论不同：本页存在一处 $Z_\xi/Z_\varepsilon$ 字母级内容错误（Luna 漏检），已修复。
 - 时间：2026-10-02 20:40 EDT 落签
 
+## p.027（PDF p.27 / 印刷 p.30）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p027.png`（Ghostscript `pngmono`，150dpi；原 PDF p.27）
+- 核对：ζ 段（supp ⊂ [−1/2,1/2]、=1 on [−1/4,1/4]）；$L^p(\mathbf R)$ 与 $\ell^p(\mathbf Z)$ 比较句（普通斜体 p）；Lemma 7.4 与 (7.5) 的 $\sim$；(7.6) 与 Bernstein 句；$||||_{\ell^p(\mathbf Z)}\leqslant\rho||||_{L^p(\mathbf R)}$ 段；(7.7) 两行；a priori ρ 段与 ρ‖·‖⩽Cερ‖·‖ 无编号式；converse 段与 (7.8)（首两项范数对象印刷留空）；(7.9) 的两个 $e^{2\pi i\beta qy}$ 与右端积分号；$C_{\varepsilon\rho}<1/2$ 句；Lemma 7.10 与 (7.11) 的 $0\leqslant a\leqslant q$（原页 quirk）；(7.12) 的 $q\sum_{j\in\mathbf Z}\sup_{0\leqslant x<q}|\mathscr FF(jq+x)|$。文本层 + 150dpi 原页图双通道，对 Markdown 第 1378–1432 行（现行号）。
+- 结果：PASS±。全部公式与文字与原页一致；Luna 三处旧修复/保留决定经原页核验正确——$L^p/\ell^p$ 普通 p（非 $L^\nu/\ell^\nu$）、(7.9) 的两个 $q$ 指数及右端积分号；源级缺项 (7.8) 首两项范数对象印刷留空、(7.11) 求和上界 $a\leqslant q$（紧随证明按 $a<q$）均忠实保留不补写。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 30。与 Luna 旧审（p.027 FAIL→修复）已修复项一致，无新差异、无修复。
+- 时间：2026-10-02 20:56 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
