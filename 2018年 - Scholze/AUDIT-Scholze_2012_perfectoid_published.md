@@ -522,3 +522,12 @@
   4. Proof："ε∈Z[1/ρ]"→Z[1/p]；"We also fix$f .$Then"→"fix$f$. Then"（p.288 Proof 行）
   5. Proof 尾：Z[1/ρ]→Z[1/p]×2（p.288 末段）
 - 备注：composite/In particular/Remark 6.6/|f−g_c^♯| 四个 display 与 print 逐字符一致（ε 记号在文本层完好）；行 1467 起（"Let$\Delta X=\mathrm{Spa}(R,R^+)…$"）属印刷 p.289，留待 p.045。
+## p.045（PDF p.45 / 印刷 p.289）
+- PNG：audit/p045.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p289_OXU.png（O_X(U_c^♯) display）
+- 核对：页眉 PERFECTOID SPACES/289；U_c⊂X^♭ 段（R^+=R°=K°⟨T_i^{1/p^∞}⟩、|g_c(x)|≤|ϖ^♭|^c、h=f−g_c^♯∈ϖ^{c+1−ε+ε(c)}O_X^+(U_c^♯) display）；previous lemma display（O_X(U_c^♯)^{∘a}=R°⟨(g_c^♯/ϖ^c)^{1/p^∞}⟩^a）；ϖ-adic completion ⊕ display；r_i 段与 h=Σϖ^{c+1−ε+ε(c′)}(g_c^♯/ϖ^c)^i r_i display；ε(c′) 段与 s_i 段；g_{c′} display；claim display（|f(x)−g_{c′}^♯(x)|≤|ϖ|^{1−ε+ε(c′)}max）；|f(x)|>|ϖ|^c 情形 display；Neglecting 段；|f(x)|≤|ϖ|^c 情形 display
+- 结果：**FAIL**（OCR 记号错误，已当页修复；1 处控制字节遗留见第 3 条，以原图为准）：
+  1. "Let$\mathrm{\Delta X=\mathrm{Spa}(R,R^+)}$"伪 Δ→$\mathrm X$；"$\mathbf K^\circ\langle\mathbf T_0^{1/\rho^\infty},\ldots,\mathbf T_n^{1/\rho^\infty}\rangle$"→"$1/p^\infty$"×2（ρ 系 p 误读）；"$\mathrm U_c\subset\mathrm X^{\mathrm p}$"→"$\mathrm X^\flat$"（p 系 ♭ 误读，print U_c⊂X^♭）（p.289 首段原图）
+  2. ε(c′) 段："$\epsilon(c′)\in\mathbf Z[\frac{1}{\it\Delta\phi}]$"（Δφ 系 p 乱码）→"$\mathbf Z[\frac 1p]$"；"Choose$s_i∈\mathbb R^{\flat+}$"→\\mathrm；"$s_i␣0$"缺箭头→"$s_i\to 0$"（p.289 where 段原图）
+  3. **控制字节登记**：行 1479 一处 \x0b（"h lies almost in the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
+  4. O_X(U_c^♯) display：**经 300dpi 仲裁（audit/300dpi/Scholze_2012_p289_OXU.png）确认为 "$\mathrm R^\circ\langle(g_c^\sharp/\varpi^c)^{1/p^\infty}\rangle^a$"（分母 ϖ^c、指数 1/p^∞），MD 原本一致未改**（150dpi 下曾疑分母为 ϖ^♯）
+- 备注：h=Σ、g_{c′}、claim、两种情形 estimate 共五个 display 与 print 逐字符一致；行 1517 起（display 之后的正文）属印刷 p.290，留待下一块。

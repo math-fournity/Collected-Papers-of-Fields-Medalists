@@ -1464,7 +1464,7 @@ $$
 
 We will need$\epsilon ( c )$, as each induction step will lose some small constant because of some almost mathematics involved. Now we argue by induction, increasing from c to$c ^ { \prime } = c + a ,$ where$0 < a < \epsilon$is some fixed rational number in$\mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$. The case$c = 0$is obvious: One may take$\epsilon ( 0 ) = \epsilon$. We are free to replace$\epsilon ( c )$by something smaller, so without loss of generality, we assume$\epsilon ( c ) \leq \epsilon - a$and$\epsilon ( c ) \in \mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$.
 
-Let$\mathrm { \Delta X = \mathrm { S p a } ( R , R ^ { + } ) }$, where$\mathbf { R } ^ { + } = \mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } \langle \mathbf { T } _ { 0 } ^ { 1 / \rho ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / \rho ^ { \infty } } \rangle$. Let$\mathrm { U } _ { c } \subset \mathrm { X } ^ { \mathrm { p } } =$ $\mathrm { { S p a } ( R ^ { \flat } , R ^ { \flat + } ) }$be the rational subset given by$| g _ { c } ( x ) | \leq | \varpi ^ { \flat } | ^ { c }$. Its preimage$\mathrm { U } _ { c } ^ { \sharp } \subset \mathrm { X }$is given by$| f ( x ) | \leq | \varpi | ^ { c }$. The condition implies that
+Let$\mathrm { X = \mathrm { S p a } ( R , R ^ { + } ) }$, where$\mathbf { R } ^ { + } = \mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } \langle \mathbf { T } _ { 0 } ^ { 1 / p ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / p ^ { \infty } } \rangle$. Let$\mathrm { U } _ { c } \subset \mathrm { X } ^ { \flat } =$ $\mathrm { { S p a } ( R ^ { \flat } , R ^ { \flat + } ) }$be the rational subset given by$| g _ { c } ( x ) | \leq | \varpi ^ { \flat } | ^ { c }$. Its preimage$\mathrm { U } _ { c } ^ { \sharp } \subset \mathrm { X }$is given by$| f ( x ) | \leq | \varpi | ^ { c }$. The condition implies that
 
 $$
 h = f - g _ {c} ^ {\sharp} \in \varpi^ {c + 1 - \epsilon + \epsilon (c)} \mathcal {O} _ {\mathrm{X}} ^ {+} \left(\mathrm{U} _ {c} ^ {\sharp}\right).
@@ -1488,7 +1488,7 @@ $$
 h = \sum_ {i \in {\bf Z} [ \frac {1}{p} ], 0 \leq i \leq 1} \varpi^ {c + 1 - \epsilon + \epsilon (c ^ {\prime})} \left(\frac {g _ {c} ^ {\sharp}}{\varpi^ {c}}\right) ^ {i} r _ {i},
 $$
 
-where we choose some$0 < \epsilon ( c ^ { \prime } ) < \epsilon ( c ) , \epsilon ( c ^ { \prime } ) \in \mathbf { Z } [ \frac { 1 } { \it \Delta \phi } ]$. Choose$s _ { i } \in \mathbb { R } ^ { \flat + }$homogeneous of degree$d - d i , s _ { i }  0$, such that$\varpi$divides$r _ { i } - s _ { i } ^ { \sharp }$. Now set
+where we choose some$0 < \epsilon ( c ^ { \prime } ) < \epsilon ( c ) , \epsilon ( c ^ { \prime } ) \in \mathbf { Z } [ \frac { 1 } { p } ]$. Choose$s _ { i } \in \mathrm { R } ^ { \flat + }$homogeneous of degree$d - d i , s _ { i } \to 0$, such that$\varpi$divides$r _ { i } - s _ { i } ^ { \sharp }$. Now set
 
 $$
 g _ {c ^ {\prime}} = g _ {c} + \sum_ {i \in \mathbf {Z} [ \frac {1}{p} ], 0 \leq i \leq 1} \left(\varpi^ {\flat}\right) ^ {c + 1 - \epsilon + \epsilon (c ^ {\prime})} \left(\frac {g _ {c}}{(\varpi^ {\flat}) ^ {c}}\right) ^ {i} s _ {i}.
