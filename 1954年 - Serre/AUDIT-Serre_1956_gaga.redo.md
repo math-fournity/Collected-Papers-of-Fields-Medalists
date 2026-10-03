@@ -65,6 +65,13 @@
 - 修复登记：本页 1 处 md 结构修复（行 115 升 ## 标题），随 p.008 页级 commit 提交。
 - 备注：Luna 旧判本页 FAIL（z_i）→ 修复正确；Luna 未发现 n° 5 标题漏标，本次补修。
 
+## p.009（PDF p.9 / 印刷 p.8）
+- PNG：audit-redo/p009.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/p009_Vprime-colon_300dpi.png（V′ 后冒号行）、audit-redo/300dpi/p009_axiomes-VA_300dpi.png（(H_I)/(H_II)/(VA′_II) 公理标号）
+- 核对：LEMME 1 证明段（a/b/c/d 引用、f⁻¹）、X 上解析结构设置段、carte 显示式 φ : V → U（含尾逗号）、PROPOSITION 2 全陈述、「Plus brièvement」句、唯一性/存在性段（φ⁻¹ 运输、V ∩ V′、recollement、ℋ_X、(H_I)、(VA′_II)、T_ij、U_i × U_j、a fortiori、séparé）、Remarque 首句。
+- 结果：PASS±。MD 行 127–143 与原页逐项吻合；无 md 修复。**print quirk 忠实保留（Luna 旧登记复核维持）**：印刷原文即作「Si $\varphi': V': \to U'$」——V′ 与箭头之间多一个冒号（300dpi 确认），MD 行 141 原样保留不改正。公理标号印刷为 (H_I)/(H_II)（罗马数字，300dpi 确认，与 p.005 修复一致），MD 行 141 ($H_I$)/($H_{II}$) 相符；($VA_{II}'$) 与印刷 VA′_II（A 右上撇、II 下标）对应无误；显示式 φ : V → U , 的尾逗号与 \quad 间距均保留。差异（登记不改）：印刷斜体（Prop.2 陈述整段斜体、a fortiori、Remarque）未标。
+- 备注：Luna 旧判本页 PASS±（登记 V′ 冒号 quirk）→ 重检维持；本页 Luna 无 md 修复。
+
+
 
 
 
