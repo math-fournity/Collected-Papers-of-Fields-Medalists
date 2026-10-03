@@ -39,6 +39,13 @@
 - 结果：PASS±。MD 行 37–55 与原页逐项吻合：$\geqslant$ 与印刷斜等号 ⩾ 一致（pdftotext 拍平为「^ 0」，以 PNG 为准）；显示式 ε_x : 𝒞(Cⁿ)_x → 𝒞(U)_x 下标、上标 n 与箭头均正确；𝒜_x(U)、ℋ_{x,U}、f∈ℋ_{φ(x),V} ⟹ f∘φ∈ℋ_{x,U} 全部一致。差异（登记不改）：①印刷显示式末尾句点「(U)_x.」在 MD 显示式未保留；②印刷斜体（analytique、faisceau des germes de fonctions holomorphes sur U、application holomorphe）未标；③印刷正体 U/V/W 与 MD 数学模式 \mathrm{U} 等混排（可辨识）。
 - 备注：Luna 旧判本页 PASS±，重检维持；本页 Luna 无 md 修复。
 
+## p.005（PDF p.5 / 印刷 p.4）
+- PNG：audit-redo/p005.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/p005_def1-axioms_300dpi.png（300dpi，公理标号与 ℋ 下标）
+- 核对：同构判据句（ℋ_U→ℋ_V）、积空间段与显示式 φ×φ′、n° 2 标题、DÉFINITION 1、公理 (H_I)/(H_II)、morphismes 段（ℋ_{φ(x),Y}、ℋ_{x,X}）。
+- 结果：FAIL（两处下标内容错误，已当场修复，见下）。①Déf.1 与 morphismes 段中印刷为 $\mathcal{H}_{X}$（大写斜体 X，指空间；300dpi 确认），MD 两处（行 71、77）作小写 $\mathcal{H}_{\mathrm{x}}$ → 已改 $\mathcal{H}_{\mathrm{X}}$；②公理标号印刷为罗马数字 (H_I)/(H_II)（300dpi：下标为带衬线罗马 I，与同段「n° 1.」的阿拉伯 1 字形明显不同），MD 行 73 作 $(\mathrm{H}_{1})$ → 已改 $(\mathrm{H}_{\mathrm{I}})$。其余各项吻合：Luna 旧修复「$\mathcal{H}_{U}$ en le faisceau $\mathcal{H}_{V}$」与原页相符（旧 mineru 为 $\mathcal{H}_{\backslash}$，已正确修为 V）；显示式 φ×φ′: U×U′→V×V′ 及 C^{r+r'} 等一致。print quirk 忠实保留：印刷原文即作「sera dite holomorphe **si elle continue**」（无 est，印刷脱漏），MD 行 77 原样保留，不按语法预期补词。差异（登记不改）：印刷显示式末尾句点未保留；印刷斜体（isomorphisme analytique、espace affine 等）未标。
+- 修复登记：本页 3 处 md 修复（行 71 x→X、行 73 1→I、行 77 x→X），依据 audit-redo/300dpi/p005_def1-axioms_300dpi.png，随 p.005 页级 commit 提交；修复前 md 基线见 SHA f4ebe12f（重做起点）。
+- 备注：Luna 旧判本页 FAIL（仅 ℋ_{\backslash}→ℋ_V 一项）→ 该修复正确；但 Luna 未发现上述 x/X 与 1/I 两处下标错误，本次重检补修。
+
 
 
 
