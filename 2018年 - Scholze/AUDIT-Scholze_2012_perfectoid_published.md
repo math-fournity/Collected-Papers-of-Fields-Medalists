@@ -611,3 +611,16 @@
   4. "is stronglyfinite étale."补空格；(iii) ofperfectoid/iffor/ofx andf(x) 补空格；第二交换图**图片引用路径断裂**：`![](images/page_51_image_10.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_51_image_10.jpg)`（文件 3.6K 实测存在）；"wherej … p is stronglyfinite étale"→"where$j$…$p$is strongly finite étale"（与首例 where 句同式）
   5. tilt 句："the tilt$f ^ { \flat } : \mathbf { X } ^ { \flat } ␣\mathbf { Y } ^ { \flat }$"缺箭头（双空格）→$\to$（print f^♭ : X^♭ → Y^♭，PNG 确认；文本层 ♭ 全部丢失，MD 中 ♭ 完好）；"characteristic$\beta ,$"→"characteristic$p$,"（β 系 p 误读，PNG 确认）
 - 备注：两个交换图以 MinerU 图片引用承载（print 原图为手绘风格交换图）；(i) 的 R<sup>◦a</sup> HTML 上标内容正确（print R^{∘a}），按既定实践保留；行 1727（## Lemma 7.3.）属印刷 p.297，留待 p.053。
+## p.053（PDF p.53 / 印刷 p.297）
+- PNG：audit/p053.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/297；Lemma 7.3 (i)–(iv) 全文（strongly finite étale/strongly étale 基变换与 affinoid 情形 D=A⊗_B C、积分闭包、|X×_Z Y|→|X|×_{|Z|}|Y| 满射）；Proof（(ii) A⊗_B C finite projective 已完备、D^{∘a}/C^{∘a}；(i) 归纳到 (ii)、[20] Lemma 3.9(i)；(iv) Prop 5.23；(iii) 归到 (iv)）+ QED □；"Let us recall…Henselian rings" 段；Proposition 7.4（flat K°-algebra、Henselian along (ϖ)、A[ϖ^{-1}] 与 Â[ϖ^{-1}]-algebra 范畴等价、Â 为 ϖ-adic 完备化）；Proof（[15] Prop 5.4.53）+ QED □
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. "## Lemma 7.3."伪标题层级→正文行（print 同页 Def 7.1/7.2 版式）
+  2. (i)：stronglyfinite×2/ofperfectoid×3/ofunderlying 补空格；"$l e t g : Z \to \mathrm Y$"散字出 math→let$g : Z \to \mathrm Y$（p.297 (i) 行）
+  3. (ii)："(A,A⁺))"游离右括号删、stronglyfinite 补空格；**"$\scriptstyle { g f \mathbf { C } ^ { + } }$"（of 乱码为 \scriptstyle gf）→"of$\mathbf { C } ^ { + }$"（print "integral closure of C⁺ in D"，PNG 确认）**；句末补句点（print "(C,C⁺)."）（p.297 (ii) 行原图）
+  4. (iii)："ofcharacteristic$p . { \cal I f f }$"乱码→"of characteristic$p$. If$f"（\cal If f 系 If+f 拆字伪花体）；afinite/isfinite/ofunderlying 补空格（p.297 (iii) 行）
+  5. (iv)：of(iii) 补空格；"${ \cal Z }$"伪花体→$Z$；"$\mathbf X \times_Y {Z} =$ Spa$(\mathrm D,\mathrm D^+)$"跨 run 断裂合并→"$= \mathrm { S p a } ( \mathrm { D } , \mathrm { D } ^ { + } )$"；**"${ \mathfrak { o f } } \mathrm { C } ^ { + }$"（of 乱码为 fraktur of）→"of$\mathrm { C } ^ { + }$"**；句末补句点（print "(C,C⁺)."）（p.297 (iv) 行原图）
+  6. Proof (iii) 尾 "before.-"→"before.□"（QED，print 有 tombstone）
+  7. Prop 7.4："$\mathrm K^\circ - a l g e b r a$"散字合并→$\mathrm K^\circ$-algebra；offinite/andfinite 补空格；**"is the -adic completion ofA."（ϖ 整体丢失，hexdump 实测为普通空格无控制字节）→"is the$\varpi$-adic completion of A."（print "ϖ-adic completion"，PNG 确认）**（p.297 Prop 行）
+  8. Proof 尾 "Proposition 5.4.53."补 QED □（print 有 tombstone）
+- 备注：A[ϖ^{-1}]/Â[ϖ^{-1}] 两处 ϖ 在 MD 中完好（仅 "ϖ-adic" 一处丢失）；行 1751（"We recall that -adically complete…"）属印刷 p.298，其 ϖ 丢失留待 p.054。
