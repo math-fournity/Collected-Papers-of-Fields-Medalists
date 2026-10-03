@@ -246,3 +246,13 @@
   - **印刷 quirk 登记（不改，300dpi 确认）**：① 行 805 "compatability condition"（compatibility 之排印误植，印刷连字符断词 com-/patability，md 忠实保留）；② 行 819 "strict inequality in (3) above"——数学上应指式(2)，印刷确作 (3)，系原刊交叉引用笔误，md 忠实保留。
   - 排版级伪影（登记不改）：行 837 *either* 斜体拍平为正体。
 - 修复登记：无。
+
+### p.022（PDF p.22 / 印刷 p.300）
+
+- PNG：`audit-redo/p022.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（三处 moduli space 的 M 字形，结论记于本条）
+- 核对：节标题 III.3；开篇段（紧化句、§I.4、Taubes 映射 X×(0,λ₀)→ℳ 显示式、[19] 微分同胚句、p 映射定义段、"radius"/"smooth" 引号句）；β bump function 段与 χ_{[-1,1]}；β_s(x,y)=β(d(x,y)/s) 式；f=|F(I_{0,1})|² on R⁴ 式；R_I:R⁴×R→R 与 R_I(x,s)=∫β_s(x,y)f(y)dμ_y 式；性质 (i)(ii)；open property 句；Definition 15 (a)(b)
+- 结果：**PASS±**（含三处草书 ℳ 拍平/误作 Fraktur 修复）。
+  - 与页图一致：`\lambda_0>\lambda>0`、`\beta_s(x,y)=\beta(d(x,y)/s)`、`f=|F(I_{0,1})|^2` on `\mathbf{R}^4`、`R_I\colon\mathbf{R}^4\times\mathbf{R}\to\mathbf{R}`、`R_I(x,s)=\int_{\mathbf{R}^4}\beta_s(x,y)f(y)d\mu_y`、`\partial R_I/\partial s\neq0`、`R_I(x,s(x))=4\pi^2`、minimum value K、`\beta` dominated by `\chi_{[-1,1]}`、Definition 15 (a) `R_A(x,s)=\int\beta_s(x,y)|F(A)_y|^2d\mu_y` 与 (b) `\lambda(A)=K^{-1}\min\{s\mid\exists x,\ R_A(x,s)=4\pi^2\}`；`§I.4` 罗马 I（300dpi 确认）。
+  - **修复×3**：行 845 "the moduli space M"、行 848 显示式目标 `\mathfrak{M}`、行 851 "an open subset of M"——300dpi 裁片确认三处印刷均为**圆弧草书 ℳ**（同 p.008 行 297 "the moduli space ℳ" 字形；非本文 Fraktur 𝔐_{λ₀} 的角状字形）→ 分别 Edit 为 `$\mathscr{M}$`、`\mathscr{M}`、`$\mathscr{M}$`（行 848 的 Fraktur 系 Luna 误标，另两处系拍平）。后文 X×(0,λ₀)→ℳ 语境继续沿用此规则。
+  - 排版级伪影（登记不改）：**Definition 15.** 粗体与斜体引言拍平；"Taubes construction" 印刷无所有格 's，md 忠实保留。
+- 修复登记：行 845 `M`→`$\mathscr{M}$`；行 848 `\mathfrak{M}`→`\mathscr{M}`；行 851 `M`→`$\mathscr{M}$`（依据 `audit-redo/p022.png` + 300dpi 三字形裁片）。

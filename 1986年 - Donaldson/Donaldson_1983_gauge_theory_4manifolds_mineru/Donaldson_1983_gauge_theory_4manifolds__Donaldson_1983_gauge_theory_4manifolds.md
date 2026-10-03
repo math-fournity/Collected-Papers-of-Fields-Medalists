@@ -842,13 +842,13 @@ so from (2), (3) $l = 0$ or 1 and we have either one of the following:
 
 ## III.3
 
-Theorem 13 shows that one needs to consider connections with curvature concentrated in small balls in order to compactify the moduli space M (just as for the case  $X = S^{4}$  in §I.4). Taubes constructs self-dual connections of this type depending upon a point in X and a scale  $\lambda_{0} > \lambda > 0$ ; thus he constructs a map:
+Theorem 13 shows that one needs to consider connections with curvature concentrated in small balls in order to compactify the moduli space $\mathscr{M}$ (just as for the case  $X = S^{4}$  in §I.4). Taubes constructs self-dual connections of this type depending upon a point in X and a scale  $\lambda_{0} > \lambda > 0$ ; thus he constructs a map:
 
 $$
-X \times (0, \lambda_ {0}) \rightarrow \mathfrak {M},
+X \times (0, \lambda_ {0}) \rightarrow \mathscr{M},
 $$
 
-and one can prove directly [19] that this map is a diffeomorphism to its image. However, we find it easier here to define a map p from an open subset of M representing these concentrated solutions to  $X \times (0, \lambda_{0})$ —thus approximately inverse to Taubes construction. The definition of any such map is bound to be rather arbitrary; the one we choose is slightly complicated but suits our later needs.
+and one can prove directly [19] that this map is a diffeomorphism to its image. However, we find it easier here to define a map p from an open subset of $\mathscr{M}$ representing these concentrated solutions to  $X \times (0, \lambda_{0})$ —thus approximately inverse to Taubes construction. The definition of any such map is bound to be rather arbitrary; the one we choose is slightly complicated but suits our later needs.
 
 We could define the “radius” and position of a self-dual connection by taking the smallest ball which contains one half of the total action, just as for the instantons. However, we will “smooth” this definition in the following way.
 
