@@ -133,3 +133,26 @@
 - Luna 旧修复重核：本页公式（含箭头图 array、≅ 式、Vol 式句号）当前与印刷一致。
 - 备注：页界 L194–L228（L228 止于 "at a point"，"is in fact t/2…" 属 p.7）。
 
+## p.007（PDF p.7 / 印刷 p.185）
+- PNG：audit-redo/p007.png（pngmono 150dpi）；仲裁裁剪：audit-redo/p007_ack_300dpi.png（300dpi）。
+- 核对：跨页句 "is in fact t/2 instead of t. Hence…"；(1.5)
+  $\int f_\gamma dX=2^{-M(\gamma)}\int_0^\infty f(t)\,t\,\mathrm{Vol}(\cdots)\,dt$；$M(\gamma)$ 定义句；
+  An alternative proof 段（$\overline{\mathcal{M}}_{g,n}$）；Applications 段（[Mirz1]/[Mirz2]/[K]/
+  Hom(π₁(S),G)/G/[D]/[BL]/[JK]）；[LM] 段（SL(n,ℝ)）；Notes and references 段（[KMZ]/[Zo]/[MaZ]/
+  [Pen]/[NN]/[TWZ2]/[TWZ1]）；页脚 Acknowledgements 第一段（小字）。
+- 结果：**PASS±**（4 处偏离已修）。
+- 修复登记（本 redo，证据=p.7 PNG + 文本层）：
+  1. MD L228：平文 γ → $\gamma$（印刷数学斜体）；
+  2. MD L238：引文 [Mirz2] 被 MinerU 并入公式（\left[\mathrm{Mirz}2\right]）→ 移出为正文本 [Mirz2]
+     （印刷：M̄_{g,n} 后正方括号引文）；
+  3. MD L242：同上，[MaZ] 移出公式；
+  4. MD L240：印刷 "in SL(n, ℝ)**.**"，缺句号 → 补 "."。
+- **print quirk 忠实登记不改**：页脚致谢 "Andrei Okounkov, and Igor **Riven** for helpful
+  discussions"——300dpi 裁剪直证印刷为 "Riven"（该数学家通行拼写为 Igor Rivin，属原文印刷 typo）；
+  MD 与印刷一致保留 "Riven"，不按文献常识改正。
+- 结构伪影登记：MD L244 致谢段被包在
+  `<small><span class="docvortex-page-footnote" data-block-type="page_footnote" …>` HTML 包装内
+  （MinerU 导出伪影，对应原页小字页脚位置）；内容逐字与印刷一致，不动。
+- Luna 旧修复重核：(1.5)、$\overline{\mathcal{M}}$ 两处带杠、各引文键当前与印刷一致。
+- 备注：页界 L228–L244；第二段致谢（Greg McShane/Wolpert 段）属 p.8。
+
