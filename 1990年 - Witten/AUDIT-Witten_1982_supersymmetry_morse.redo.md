@@ -166,3 +166,8 @@
 - PNG：`audit-redo/p031.png`（pngmono 150dpi）；[12] 作者名终裁：`audit-redo/300dpi/p031_ref12.png`、`p031_ref12_zoom.png`（300dpi 裁片）。
 - 核对：§5 续两段（constructive field theory、Kähler geometry）；References 标题；参考文献 [1]–[17] 逐条（作者/标题/刊名/卷页/年）。
 - 结果：PASS±。§5 续段与参考文献 [1]–[17] 逐条与印刷页相符（含 [3]/[7] 作者占位线、[5] "Atiyah and G. B. Segal" 用 and、[11] `CP^{n-1}`、[12] "Gol'fand & E. P. Likhtman"（300dpi 放大核对，print 与 md 均作 Likhtman）、[17] 小写 "goldstone"）。**Luna 旧修复重核：[2] 标题 "elliptic complexes. I"（句点，Luna 从冒号修来）与印刷一致，修复正确**；页码范围连字符/短划随印刷原样。差异仅：页眉 "SUPERSYMMETRY AND MORSE THEORY 691" 未入 md（版面信息省略）。
+
+## p.032（PDF p.32 / 印刷 p.692）
+- PNG：`audit-redo/p032.png`（pngmono 150dpi）
+- 核对：参考文献 [18]–[22] 逐条（作者/标题/刊名/卷页/年）；文末单位署名。
+- 结果：PASS±。[18] `Wess & Zumino, Nuclear Phys. B70 (1974) 39–50`、[19] `Witten, B149 (1979) 285–320`、[20] `Kaluza-Klein, B186 (1981) 412–428`、[21] `Dynamical breaking, B188 (1981) 513–555`、[22] `Constraints on supersymmetry breaking, Preprint, Princeton University, 1982, to appear in Nuclear Phys. B` 逐项与印刷页相符；[20]–[22] 作者占位线与 [3]/[7] 同式；文末 "PRINCETON UNIVERSITY" 相符。差异仅：页眉 "692 EDWARD WITTEN" 未入 md（版面信息省略）。
