@@ -1100,29 +1100,29 @@ $$
 \overline {{\mathrm{A}}} _ {n} / \varpi^ {n - 1} \cong \overline {{\mathrm{A}}} _ {n - 1}.
 $$
 
-Let A be their inverse limit. Then A is  -adically complete with$\operatorname { A } / \varpi ^ { n } \mathrm { A } = { \overline { { \mathrm { A } } } } _ { n }$. This shows that A is perfectoid, and we get an equivalence between perfectoid$\mathrm { K } ^ { \circ a }$-algebras and perfectoid$\mathrm { K } ^ { \circ a } / \varpi \mathrm { - a l g e b r a s . }$, as desired.-
+Let A be their inverse limit. Then A is  -adically complete with$\operatorname { A } / \varpi ^ { n } \mathrm { A } = { \overline { { \mathrm { A } } } } _ { n }$. This shows that A is perfectoid, and we get an equivalence between perfectoid$\mathrm { K } ^ { \circ a }$-algebras and perfectoid$\mathrm { K } ^ { \circ a } / \varpi$-algebras, as desired.□
 
-In particular, we also arrive at the tilting equivalence,$\mathrm { K } { \cdot } \mathrm { P e r f } \cong \mathrm { K } ^ { \flat } { \cdot } \mathrm { P e r f } .$. We want to compare this with Fontaine’s construction. Let R be a perfectoid K-algebra, with$\mathrm { A } =$ $\mathrm { R } ^ { \circ a }$. Define
+In particular, we also arrive at the tilting equivalence,$\mathrm { K } \text{-Perf} \cong \mathrm { K } ^ { \flat } \text{-Perf}$. We want to compare this with Fontaine’s construction. Let R be a perfectoid K-algebra, with$\mathrm { A } =$ $\mathrm { R } ^ { \circ a }$. Define
 
 $$
 \mathrm{A} ^ {\flat} = \varprojlim_ {\Phi} \mathrm{A} / \varpi ,
 $$
 
-which we regard as a$\mathrm { K } ^ { \mathsf { b o } a }$-algebra via
+which we regard as a$\mathrm { K } ^ { \flat \circ a }$-algebra via
 
 $$
 \mathrm{K} ^ {\flat \circ a} = \left(\varprojlim_ {\Phi} \mathrm{K} ^ {\circ} / \varpi\right) ^ {a} = \varprojlim_ {\Phi} \left(\mathrm{K} ^ {\circ} / \varpi\right) ^ {a} = \varprojlim_ {\Phi} \mathrm{K} ^ {\circ a} / \varpi ,
 $$
 
-and set$\mathrm { R } ^ { \flat } = \mathrm { A } _ { * } ^ { \flat } [ ( \varpi ^ { \flat } ) ^ { - 1 } ]$
+and set$\mathrm { R } ^ { \flat } = \mathrm { A } _ { * } ^ { \flat } [ ( \varpi ^ { \flat } ) ^ { - 1 } ]$.
 
-Proposition 5.17. — This defines a perfectoid K<sup>-</sup>-algebra$\mathrm { R } ^ { \flat }$with corresponding perfectoid K<sup>-◦a</sup>-algebra$\mathrm { A } _ { ~ i } ^ { \flat }$, and$\mathrm { \sf R } ^ { \flat }$is the tilt of R. Moreover,
+Proposition 5.17. — This defines a perfectoid$\mathrm { K } ^ { \flat }$-algebra$\mathrm { R } ^ { \flat }$with corresponding perfectoid$\mathrm { K } ^ { \flat \circ a }$-algebra$\mathrm { A } ^ { \flat }$, and$\mathrm { R } ^ { \flat }$is the tilt of R. Moreover,
 
 $$
 \mathrm{R} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{R}, \quad \mathrm{A} _ {*} ^ {\flat} = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{A} _ {*}, \quad \mathrm{A} _ {*} ^ {\flat} / \varpi^ {\flat} \cong \mathrm{A} _ {*} / \varpi .
 $$
 
-In particular, we have a continuous multiplicative map$\mathbb { R } ^ { \flat } \to \mathbb { R } , x \mapsto x ^ { \sharp }$
+In particular, we have a continuous multiplicative map$\mathrm { R } ^ { \flat } \to \mathrm { R } , x \mapsto x ^ { \sharp }$.
 
 Remark 5.18. — It follows that the tilting functor is independent of the choice of $\varpi$and$\varpi ^ { \flat }$. We note that this explicit description comes from the fact that the lifting from perfectoid$\mathrm { K } ^ { \flat \circ a } / \varpi ^ { \flat }$-algebras to perfectoid$\mathrm { K } ^ { \flat \circ a }$-algebras can be made explicit by means of the inverse limit over the Frobenius.
 
@@ -1132,10 +1132,10 @@ $$
 \mathrm{A} _ {*} ^ {\flat} = \left(\varprojlim_ {\Phi} \mathrm{A} / \varpi\right) _ {*} = \varprojlim_ {\Phi} (\mathrm{A} / \varpi) _ {*} = \varprojlim_ {\Phi} \mathrm{A} _ {*} / \varpi ,
 $$
 
-because commutes with inverse limits and using Lemma 5.3(iii). Note that the image of$\Phi : ( \mathrm { A } / \varpi ) _ { * } \to ( \mathrm { A } / \varpi )$is$\mathrm { A } _ { * } / \varpi$, because it factors over$( \mathrm { A } / \varpi ^ { 1 / p } ) _ { \ast }$, and the image of the projection$( \mathrm { A } / \varpi ) _ { * } \to ( \mathrm { A } / \varpi ^ { 1 / p } )$) is$\mathrm { A } _ { \ast } / \varpi ^ { 1 / p }$. But
+because$_*$commutes with inverse limits and using Lemma 5.3(iii). Note that the image of$\Phi : ( \mathrm { A } / \varpi ) _ { * } \to ( \mathrm { A } / \varpi ) _ { * }$is$\mathrm { A } _ { * } / \varpi$, because it factors over$( \mathrm { A } / \varpi ^ { 1 / p } ) _ { \ast }$, and the image of the projection$( \mathrm { A } / \varpi ) _ { * } \to ( \mathrm { A } / \varpi ^ { 1 / p } ) _ { * }$is$\mathrm { A } _ { \ast } / \varpi ^ { 1 / p }$. But
 
 $$
-\varprojlim_ {\Phi} \mathrm{A} _ {*} / \varpi = \varprojlim_ {x \mapsto x ^ {p}} \mathrm{A} _ {*},
+\varprojlim_ {\Phi} \mathrm{A} _ {*} / \varpi = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{A} _ {*},
 $$
 
 as in the proof of Lemma$3 . 4 ( \mathrm { { i } ) }$

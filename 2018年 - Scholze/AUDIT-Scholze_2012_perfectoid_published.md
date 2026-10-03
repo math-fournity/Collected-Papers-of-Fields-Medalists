@@ -419,3 +419,15 @@
   5. **短正合列 display 结构修正**："$0\to\overline A\stackrel{\varpi^{n-1}}{\to}\overline A_n→…"（把 ϖ^{n−1} 误作映射标号）→"$0\to\overline A^{\varpi^{n-1}}\to\overline A_n\to\overline A_{n-1}\to 0$"（print 首项为带上标 ϖ^{n−1} 的对象 Ā^{ϖ^{n−1}}，PNG 确认）；tensoring 段 L 补上标 ^a；**triangle display 三项 "$\mathrm A/\mathrm A_n/\mathrm A_{n-1}$"→"$\overline{\mathrm A}/\overline{\mathrm A}_n/\overline{\mathrm A}_{n-1}$"（print 均为 Ā-bar）**（p.278 两 display 原图）
   6. **控制字节登记**：行 1077 一处 \x0b（"K^{◦a}/\x0b-algebra"=ϖ 丢失）、行 1079 一处 \x04（"B/ϖ^{1/p}≅B via \x04."=Φ 丢失）——登记待字节级修复
 - 备注：R_{(Φ)}⊗^L_R display 与 print 一致；行 1097 起（"This gives a unique system…"）属印刷 p.279，留待 p.035。
+## p.035（PDF p.35 / 印刷 p.279）
+- PNG：audit/p035.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/279；unique system 段（Ā_n/ϖ^{n−1}≅Ā_{n−1} display，承接 p.034 修毕）；Let A 段+QED □；tilting equivalence K-Perf≅K^♭-Perf 段；A^♭=lim_Φ A/ϖ display；K^{♭°a}=(lim K°/ϖ)^a=… display；R^♭=A^♭_*[(ϖ^♭)^{-1}]；Proposition 5.17（R^♭=lim_{←x↦x^♭}R、A^♭_*=lim A_*、A^♭_*/ϖ^♭≅A_*/ϖ display、R^♭→R x↦x^♯）；Remark 5.18；Proof（A^♭_*=(lim A/ϖ)_*=… display、because _* commutes、image of Φ 段、lim_Φ A_*/ϖ=lim_{←x↦x^♭}A_* display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 1 条，以原图为准）：
+  1. Let A 段："Then A is \x0b-adically complete"（ϖ 丢失）登记待字节级修复；"$\mathrm K^{\circ a}/\varpi\mathrm{-algebras.}$,"散字+伪'.$,'→-algebras,；"as desired.-"→".□"（p.279 Let A 段）
+  2. tilting 段："$\mathrm K\cdot\mathrm{Perf}\cong\mathrm K^\flat\cdot\mathrm{Perf}.$."（\\cdot 断行伪影+伪'.$.'）→"$\mathrm K$\text{-Perf}$\cong\mathrm K^\flat$\text{-Perf}."（p.279 In particular 段原图）
+  3. "$\mathrm K^{\mathsf{bo}a}$"→"$\mathrm K^{\flat\circ a}$"（bo 系 ♭∘ 误读）（p.279 which we regard 行）
+  4. "and set R^♭=A^♭_*[(ϖ^♭)^{-1}]"补句点；Prop 5.17："K<sup>-</sup>"→$\mathrm K^\flat$、"K<sup>-◦a</sup>"→$\mathrm K^{\flat\circ a}$、"$\mathrm A_{~i}^\flat$"（A^♭ 乱码为 A_{~i}）→$\mathrm A^\flat$、$\sf R→\mathrm R$（p.279 Prop 5.17 行原图）
+  5. In particular 段：$\mathbb R^\flat→\mathbb R$→$\mathrm R^\flat→\mathrm R$（blackboard 系误字族）+补句点（p.275 In particular 行）
+  6. Proof：**"because commutes"丢 _*→"because$_*$commutes"（print "_* commutes"，PNG 确认）**；"image of$\Phi:(A/\varpi)_*\to(A/\varpi)$"目标丢 _*→$(A/\varpi)_*$；"projection$(A/\varpi^{1/p})$)"游离右括号+丢 _*→$(A/\varpi^{1/p})_*$（p.279 Proof 段原图）
+  7. **display "lim_{←x↦x^p}A_*"→"lim_{←x↦x^\flat}A_*"（print 转移映射为 x↦x^♭，PNG 确认）**（p.279 But display）
+- 备注：A^♭/K^{♭°a} 两个 display 与 print 逐字符一致；行 1141 起（"as in the proof of Lemma 3.4(i)"）属印刷 p.280，留待 p.036。
