@@ -335,3 +335,11 @@
 - 发现并当场修复（24 个记号点）：①L1434 五处方案 𝒱 拍平（Express V→𝒱、V^et/V⁰×4→𝒱^et/𝒱⁰；句尾 module V 保留斜体）；②L1436 三处 V⁰→𝒱⁰ + "lemma"→"lemme"（300 dpi 确证印刷法文原样，非更正）；③L1448 ρ_𝔪→ρ_**m**、T[l]→T̲[l]（印刷下划线粗体）；④L1450 七处（𝒱_s×3、**m**/of **T**、**T**₀/of **T**、ρ_**m**×2）；⑤L1452 两处（𝒱、T̲[l]）；⑥L1458 两处（𝒱_s×2——印刷 "coincides with 𝒱_s"，MD 误作 V）；⑦L1460 两处（ρ_**m**、**T**/**m**[D]）；⑧L1463 显示式两处 "\mathfrak{m}"→"\mathbf{m}"。
 - 印刷原文 quirk："[11], lemme (5.9.2)" 法文 lemme 为印刷原样（照录法文文献用语），非拼写更正。
 - 结果：FAIL（24 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.042（PDF p.42 / 印刷 p.471）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 20:45 -0400。
+- PNG：`audit/ribet1990_p042.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："det_{**T**/**m**}(*V*)"（V 斜体、下标粗体）确证，未存档）。
+- 核对：D 于 X/mX 无分歧、Frobenius=T_p (3.8)、−w_p、εχ unramified quadratic；det_{T/m}(V)=ε²χ²=χ²、cyclotomic χ、p≡1 (mod l)、□；节标题 "A variant"；Theorem 6.4（l ⊥ pM(p−1) ⇒ dim X/mX ≤1）与 Proof（(5.2b)、V=J₀(N)[m]、T/m[D]-module、V=Hom(X/mX,μ_l)、□）；节标题 "7. Raising the level"；**T**_{pM}/**T**_{pqM}/q-old subspace/**T**_{pqM,q-old}（MD 粗体本即正确）、**T**_{pM}=R[τ]、**T**_{pqM,q-old}=R[T_q]、q-th Hecke、commute ✓。
+- 发现并当场修复（16 个记号点，延续 **m**/**T** 粗体系列）：①L1466 三处 "since T/m"→"$\mathbf{T}/\mathbf{m}$"、"$\mathsf{m}$"×2→"\mathbf{m}"（mineru 以 sans-serif m 混排，印刷为粗正体）；②L1468 "det_{T/𝔪}"→"\mathbf{m}"；③L1472 Theorem 6.4 四处；④L1474 六处（𝗆×2、T/m、ρ_**m**、Hom(X/𝗆X)、T/m[D]）；⑤L1477 显示式 "\mathfrak{m}"→"\mathbf{m}"。
+- 备注：L1484 §7 开篇 **T**_{pM}/**T**_{pqM} 系列 MD 本即粗体正确；F_l weight 拍平照例登记。
+- 结果：FAIL（16 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

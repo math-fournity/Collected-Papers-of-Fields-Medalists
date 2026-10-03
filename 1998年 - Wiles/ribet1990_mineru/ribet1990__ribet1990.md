@@ -1463,18 +1463,18 @@ $$
 V \subset \underline {{{T}}} [ \mathbf {m} ] (\bar {\mathbf {Q}} _ {p}) = \operatorname{Hom} (X / \mathbf {m} X, \mu_ {l}).
 $$
 
-The action of D on X/mX is unramified; it is given by the Frobenius automorphism of X (coming from the fact that T is defined over  $F_{p}$ ). The Frobenius automorphism of X coincides with the Hecke operator  $T_{p}$  (3.8). This operator is an involution, the negative of the Atkin-Lehner involution  $w_{p}$ . Therefore its action on X/mX is given by either +1 or -1, since T/m is a field. It follows that the action of D on  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$  is given by the  $F_{l}$ -valued character  $\varepsilon\chi$ , where  $\varepsilon$  is an unramified quadratic character. This implies that D acts on V by  $\varepsilon\chi$ , since V is a submodule of  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$ .
+The action of D on X/mX is unramified; it is given by the Frobenius automorphism of X (coming from the fact that T is defined over  $F_{p}$ ). The Frobenius automorphism of X coincides with the Hecke operator  $T_{p}$  (3.8). This operator is an involution, the negative of the Atkin-Lehner involution  $w_{p}$ . Therefore its action on X/mX is given by either +1 or -1, since $\mathbf{T}/\mathbf{m}$ is a field. It follows that the action of D on  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$  is given by the  $F_{l}$ -valued character  $\varepsilon\chi$ , where  $\varepsilon$  is an unramified quadratic character. This implies that D acts on V by  $\varepsilon\chi$ , since V is a submodule of  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$ .
 
-In particular, the character giving the action of D on  $\det_{\mathbf{T}/\mathfrak{m}}(V)$  is  $\varepsilon^{2}\chi^{2}=\chi^{2}$ . On the other hand, the determinant of V is the cyclotomic character  $\chi$ . Comparing the two expressions for the determinant, we get that  $\chi$  is trivial, which is equivalent to the congruence  $p\equiv1\pmod{l}$ . ☐
+In particular, the character giving the action of D on  $\det_{\mathbf{T}/\mathbf{m}}(V)$  is  $\varepsilon^{2}\chi^{2}=\chi^{2}$ . On the other hand, the determinant of V is the cyclotomic character  $\chi$ . Comparing the two expressions for the determinant, we get that  $\chi$  is trivial, which is equivalent to the congruence  $p\equiv1\pmod{l}$ . ☐
 
 ## A variant
 
-Theorem 6.4. Assume that m is a maximal ideal of T which satisfies conditions (i) and (ii) above. Assume further that the residue characteristic l of m is prime to  $pM(p-1)$ . Then the T/m-vector space X/mX is of dimension  $\leq 1$ .
+Theorem 6.4. Assume that $\mathbf{m}$ is a maximal ideal of $\mathbf{T}$ which satisfies conditions (i) and (ii) above. Assume further that the residue characteristic l of $\mathbf{m}$ is prime to  $pM(p-1)$ . Then the $\mathbf{T}/\mathbf{m}$-vector space X/mX is of dimension  $\leq 1$ .
 
-Proof. Since l is prime to N = pM, (5.2b) implies that  $V = J_{0}(N)[\mathsf{m}]$  is a two-dimensional T/m-vector space which gives the representation  $\rho_{m}$ . Since  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$  is a subspace of V (considered as a T/m[D]-module), X/mX is of dimension  $\leq 2$ . If X/mX is of dimension 2, then we get the equality
+Proof. Since l is prime to N = pM, (5.2b) implies that  $V = J_{0}(N)[\mathbf{m}]$  is a two-dimensional $\mathbf{T}/\mathbf{m}$-vector space which gives the representation  $\rho_{\mathbf{m}}$ . Since  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$  is a subspace of V (considered as a $\mathbf{T}/\mathbf{m}$[D]-module), X/mX is of dimension  $\leq 2$ . If X/mX is of dimension 2, then we get the equality
 
 $$
-V = \operatorname{Hom} (X / \mathfrak {m} X, \mu_ {l}).
+V = \operatorname{Hom} (X / \mathbf {m} X, \mu_ {l}).
 $$
 
 Arguing as above, we get the congruence $p \equiv 1 \pmod{l}$. This is contrary to our assumption about $l$.
