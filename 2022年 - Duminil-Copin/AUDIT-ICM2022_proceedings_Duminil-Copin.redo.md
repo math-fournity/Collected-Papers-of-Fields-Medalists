@@ -78,3 +78,12 @@
   - **修复 2（本页证据：PNG 中 "with exactly one endpoint in C." 为单句点，文本层同）**：MD 行 143 `$C .$.` → `$C$.`（转写时重复句点；印刷干净，非 print quirk）。
   - 残留伪影（登记不改）：行 131 `diferent`、行 135 `suficient`、行 143 `efectively`（均 ff 拍平，印刷 `different/sufficient/effectively`）；行 135 `uniformly in$n .$`、行 137 数学跨行拆分 `{ e ^ { * } : e \in$ $E ( \sigma ) \}`（排版级）；行 123 `dual graph1` 脚注上标拍平（脚注正文已入 MD 行 149）；running foot `7 100 Years of the Ising Model` 未入 MD。
 - 备注：Luna 总评登记的 p.7 "the fact that β large renders" print quirk 重核属实；本次修复仅消除双标点转写错误，未触碰任何 print quirk。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p008.png（pngmono 150dpi）
+- 核对：Frame 1 收尾段与 (2.10)、§3/§3.1 节标题、Kramers-Wannier 两段（[79]、1941、Frame 4 互引）、公式 (3.1)(3.2)(3.3) 与编号
+- 结果：**PASS±**
+  - 公式逐项吻合：(2.10) `⟨σ_0σ_g⟩_{Λ_n^+,β,0} ≥ 1 − 2 Σ_{k≥1} k4^k e^{−2βk} > 1 − 8e^{−2β}/(1−4e^{−2β})².`；(3.1) `β_c = β_c(Z^d) := inf{β : m*(β) > 0}.`；(3.2) `C(β) := −β² ∂²/(∂β)² (βf)(β,0).`；(3.3) `βf(β,0) = β*f(β*,0) − 2β + ln 2 + 2 ln cosh(β*),`（尾逗号印刷如此，MD 忠实）——分数、指数、括号平方位置与印刷一致。
+  - 正文：`[79]` 两处、`Hans Kramers and Gregory Wannier in 1941`、"see Frame 4" 互引、`specific heat`、`duality relation` 全部吻合；`(k+1)4^k` 圈数计数与印刷一致。
+  - 残留伪影（登记不改）：MD 行 163 `critical inversetemperature`——印刷为 `critical inverse-temperature`（原印刷断行连字符在转写中丢失且未以空格替代，SOP 空格合并/去连字类）；印刷斜体（`arbitrary`、`critical inverse-temperature`、`specific heat`、`duality relation`、`assuming`）未在 MD 保留（风格级）；running foot `8 Hugo Duminil-Copin` 未入 MD。
+- 备注：页尾 (3.3) 后印刷即换页；MD 行 183 的 Figure 1 图引 `../audit/ICM2022_proceedings_Duminil-Copin_p009_Figure1.png` 指向旧 audit/ 资产——该文件存在且被 git 跟踪，链接有效，本次不改动（旧 audit/ 只读）；图与 caption 归 p.009 审。
