@@ -463,3 +463,12 @@
   4. composite 段："multiplication by , giving"丢ε→by$\epsilon$；"desired properties.-"→".□"（p.282 两行）
   5. extended diagram：$A_{\text{fét}}^b/R_{\text{fét}}^b$→$^\flat$（b→♭）；$K^{\flat oa}→K^{\flat\circ a}$（p.282 末 display）
 - 备注：t_{S/R} display 与 (r_1,…,r_n) display 与 print 一致；行 1237 起（"Moreover, using Theorem 4.17…"）属印刷 p.283，留待 p.039。
+## p.039（PDF p.39 / 印刷 p.283）
+- PNG：audit/p039.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/283；Theorem 5.2 收尾段；Theorem 5.25（fully faithful functor R^♭_fét→R_fét、essential image、uniformly finite projective）；preserves degrees 段；Proof of Theorem 3.7；ramification theory 证明（[15] Prop 6.6.2/6.6.6/6.3.6）；Proof reducing to K^♭ algebraically closed（M=K̄^♭、M^♯、N=∪_L L^♯⊂M̄^♯ dense、Krasner、F^♭=L^H、(F^♭)^♯⊂(L^♯)^H=F、QED □）；§6 Perfectoid spaces: analytic topology 节标题；Definition 6.1；𝔪R°⊂R^+⊂R° 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；3 处控制字节遗留见第 5 条，以原图为准）：
+  1. "Proofreducing to the case"→Proof reducing、completion ofan→of an（p.283 Proof reducing 行）
+  2. **"Any finite extension L ⊂ M of K^♭"→"L ⊂$\overline{\mathrm M}$of K^♭"（print 为 M̄ 带上横线，PNG 确认）**；"union$\mathrm{N}=\mathrm{U}_{I},\mathrm{L}^\sharp\subset\mathrm M^\sharp$"乱码→"$\mathrm N=\bigcup_{\mathrm L}\mathrm L^\sharp\subset\overline{\mathrm M}^\sharp$"（∪_L 误为 U_I，M̄ 丢横线）（p.283 Conversely 段原图）
+  3. "Galois extension L of K<sup>-</sup>"→$\mathrm K^\flat$；"$\mathrm F^{\mathrm b}=\mathrm L^{\mathrm H}$"→"$\mathrm F^\flat=\mathrm L^{\mathrm H}$"（b→♭）；"=F.$and"伪'.$'→", and"；"equal.-"→".□"（p.283 Proof reducing 行）
+  4. **控制字节登记**：行 1247 三处 \x03（"Let M<sup>\x03</sup>"、"contained in L<sup>\x03</sup>"、"Note that L<sup>\x03</sup>"——♯ 丢失，print M^♯/L^♯，PNG 确认）——登记待字节级修复（\x03→$^{\sharp}$，即 sup 内容替换）
+- 备注：Theorem 5.25 与 ramification 段文字与 print 一致；Definition 6.1 与 𝔪R°⊂R^+ 段行 1253/1255 属印刷 p.283 尾与 p.284 交界，其"m$\\mathbb R^\\circ$"缺 fraktur 留待 p.040 一并处理。
