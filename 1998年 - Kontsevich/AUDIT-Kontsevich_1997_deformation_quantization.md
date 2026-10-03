@@ -290,3 +290,10 @@
 - 结果：`FAIL`→3 处已修复：①行 1691 `on$\mathbf{g}^*$$\left(\mathrm{i.e.}\right.$$. elements of$Sym(\mathbf{g}))$`（i.e. 括号错位+双句点）→`on$\mathbf{g}^*$ (i.e. elements of$Sym(\mathbf{g}))$`（印刷 "(i.e. elements of Sym(g))"，od 字节级确证 `\right.` 空定界符损毁）；②行 1697 `$ad(\mathbf{g})^{\prime}$<sup>∗</sup>-invariant`→`$ad(\mathbf{g})^{*}$-invariant`（prime+HTML sup 错排，印刷为 ad(g)*-invariant，PNG 确凿）；③行 1715 `subscript$|\dots\rrangle$. denotes`→`subscript$|\dots$ denotes`（幻影 \rrangle+双句点，印刷 "|... denotes"）。其余 PASS±：行 1685 `Poincar´e-Birkhof-Witt`（重音分解+ff 拍平，印刷 Birkhoff）；行 1691/1709 `coeficients`/`one get`（登记）；行 1700 `Sym`/`Center` 正体 vs 印刷斜体（样式）；行 1723 句末缺句点；行 1725–1727 Q.E.D. 独立显示式版式（登记）。公式行 1682/1688/1694/1700/1706/1712/1720 与印刷逐符号吻合。
 - 备注：行 1731 起（§8.3.3 正文 Let us calculate automorphisms…）为印刷 p.41 内容，在 p.041 核对。
 
+## p.041（PDF p.41 / 印刷 p.41）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p041.png`（pngmono 150dpi）
+- 核对：translation invariant operators 引言两段（V/𝒱^*）、Theorem（I_T 与 I_alg∘I_PBW 对应 S₁(γ)、S₂(γ)=exp(Σc_{2k}^{(i)}Trace(ad(γ)^{2k})) 两式，MD 行 1738 与印刷逐符号吻合）、c 序列说明段、Proof 两 cases、§8.3.3.1 heading、I_T admissible graphs 段（no edge start at v、Poisson-Kirillov 双矢量）、wheels Wh_n 段与轮图（行 1751 引 page_40_image_7.jpg 存在）、typical graph 图（行 1755 引 page_40_image_9.jpg 存在）、v 固定 i·1+0∈𝓗 段（MD 行 1731–1757 上半）。
+- 结果：`FAIL`→6 处已修复：①行 1733 `$V.$.` 双句点→`$V$.`；②行 1735 Theorem `${\cal I}_{alg}\circ$I`→`$I_{alg}\circ I_{PBW}$`（I_PBW 丢失，PNG+文本层确凿）；③行 1741 `$\ldots$. and`/`$\dots$. are` 双句点×2→`$\ldots$ and`/`$\dots$ are`；④行 1757 `$\in\mathcal{H}.$ because`→`$\in\mathcal{H}$, because`（印刷逗号）；⑤行 1757 `$\bar{G}^{(1)}$`→`$G^{(1)}$`（幻影杠——上块移交线索②证实，PNG 确证印刷无 bar）；⑥行 1757 `transitively on . First of all`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）。其余 PASS±：行 1731/1733/1747 句末缺句点；行 1747 `diferential`（ff 拍平）；行 1755/1757 花体样式差异（登记）。
+- 备注：行 1757 下半（to the individual wheel Wh_n…）为印刷 p.42 内容，在 p.042 核对；行 1759–1789（§8.3.3.2、I_alg∘I_PBW 公式、概率分布段、wheels without axles/Λ-graph/typical picture 三图）同为 p.42。
+
