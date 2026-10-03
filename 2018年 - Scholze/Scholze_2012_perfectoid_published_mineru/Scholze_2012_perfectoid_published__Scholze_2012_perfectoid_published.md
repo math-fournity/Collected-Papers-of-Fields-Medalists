@@ -1068,28 +1068,28 @@ $$
 \mathbf {R} _ {(\Phi)} \otimes_ {\mathrm{R}} ^ {\mathbf {L}} \mathbf {L} _ {\mathrm{S/R}} \cong \mathbf {L} _ {\mathrm{S} _ {(\Phi)} / \mathrm{R} _ {(\Phi)}}.
 $$
 
-On the other hand, the explicit description shows that the map induced by$\Phi _ { \mathrm { S } ^ { k } / \mathrm { R } }$on differentials will map$d \mathrm { X } _ { i }$to$d \mathrm { X } _ { i } ^ { p } = 0$, and hence is the zero map. This shows that $\mathbf { L } _ { \mathrm { S } _ { ( \Phi ) } / \mathrm { R } _ { ( \Phi ) } } \cong 0$, and we may identify this with$\mathbf { L } _ { \mathrm { S / R } }$-
+On the other hand, the explicit description shows that the map induced by$\Phi _ { \mathrm { S } ^ { k } / \mathrm { R } }$on differentials will map$d \mathrm { X } _ { i }$to$d \mathrm { X } _ { i } ^ { p } = 0$, and hence is the zero map. This shows that $\mathbf { L } _ { \mathrm { S } _ { ( \Phi ) } / \mathrm { R } _ { ( \Phi ) } } \cong 0$, and we may identify this with$\mathbf { L } _ { \mathrm { S / R } }$.□
 
-In their book [15], Gabber and Ramero generalize the theory of the cotangent complex to the almost context. Specifically, they show that if$\mathrm { R } \to \mathrm { S }$is a morphism of$\mathrm { K } ^ { \circ } \cdot$ algebras, then${ \bf L } _ { \mathrm { S / R } } ^ { a }$as an element of$\mathrm { D } ( \mathrm { S } ^ { a } )$, the derived category of$\mathrm { \Delta S ^ { \it a } }$-modules, depends only the morphism$\mathrm { R } ^ { a } \to \mathrm { S } ^ { a }$of almost$\mathrm { K } ^ { \circ }$-algebras. This allows one to define$\mathbf { L } _ { \mathrm { B / A } } ^ { a } \in$ $\scriptstyle \mathrm { D } ^ { \leq 0 } ( \mathrm { B } )$for any morphism$\mathrm { A }  \mathrm { B }$of$\mathrm { K } ^ { \circ a }$-algebras. With this modification, the previous theorems stay true in the almost world without change.
+In their book [15], Gabber and Ramero generalize the theory of the cotangent complex to the almost context. Specifically, they show that if$\mathrm { R } \to \mathrm { S }$is a morphism of$\mathrm { K } ^ { \circ } \cdot$ algebras, then${ \bf L } _ { \mathrm { S / R } } ^ { a }$as an element of$\mathrm { D } ( \mathrm { S } ^ { a } )$, the derived category of$\mathrm { S } ^ { a }$-modules, depends only the morphism$\mathrm { R } ^ { a } \to \mathrm { S } ^ { a }$of almost$\mathrm { K } ^ { \circ }$-algebras. This allows one to define$\mathbf { L } _ { \mathrm { B / A } } ^ { a } \in$ $\scriptstyle \mathrm { D } ^ { \leq 0 } ( \mathrm { B } )$for any morphism$\mathrm { A } \to \mathrm { B }$of$\mathrm { K } ^ { \circ a }$-algebras. With this modification, the previous theorems stay true in the almost world without change.
 
 Remark 5.15. — In fact, the cotangent complex$\mathbf { L } _ { \mathrm { B / A } }$is defined as an object of a derived category of modules over an actual ring in [15], but for our purposes it is enough to consider its almost version${ \bf L } _ { \mathrm { B / A } } ^ { a }$
 
-Corollary 5.16. — Let$\overline { { \mathrm A } }$be a perfectoid K<sup>◦a</sup>/ -algebra. Then$\mathbf { L } _ { \mathrm { \overline { { A } } / ( K ^ { \circ a } / \varpi ) } } ^ { a } \cong 0$
+Corollary 5.16. — Let$\overline { { \mathrm A } }$be a perfectoid K<sup>◦a</sup>/ -algebra. Then$\mathbf { L } _ { \mathrm { \overline { { A } } / ( K ^ { \circ a } / \varpi ) } } ^ { a } \cong 0$.
 
-Proof. — This follows from the almost version of Proposition 5.13, which can be proved in the same way. Alternatively, argue with${ \bf B } = ( \overline { { \Lambda } } \times \mathrm { K } ^ { \circ a } / \varpi ) _ { ! ! }$, which is a flat $\mathrm { K } ^ { \circ } / \varpi \mathrm { - a l g e b r a }$such that$\mathbf { B } / \varpi ^ { 1 / p } \cong \mathbf { B }$via . Here, we use the functor$\mathrm { C } \mapsto \mathrm { C } _ { ! ! }$from [15], §2.2.25.-
+Proof. — This follows from the almost version of Proposition 5.13, which can be proved in the same way. Alternatively, argue with${ \bf B } = ( \overline { { \mathrm { A } } } \times \mathrm { K } ^ { \circ a } / \varpi ) _ { ! ! }$, which is a flat $\mathrm { K } ^ { \circ } / \varpi$-algebra such that$\mathbf { B } / \varpi ^ { 1 / p } \cong \mathbf { B }$via . Here, we use the functor$\mathrm { C } \mapsto \mathrm { C } _ { ! ! }$from [15], §2.2.25.□
 
 Now we can prove Theorem 5.10.
 
-ProofofTheorem${ 5 . } I { 0 . } - \mathrm { { L e t } } \overline { { \mathrm { { A } } } }$be a perfectoid$\mathrm { K } ^ { \circ a } / \varpi \mathrm { - a l g e b r a }$. We see inductively that all obstructions and ambiguities in lifting inductively to a flat$( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a } { \mathrm { - a l g e b r a ~ } } \overline { { \mathrm { A } } } _ { n }$ vanish: All groups occurring can be expressed in terms of the cotangent complex by the theorems above, so that it suffices to show that${ \bf L } _ { \overline { { \mathrm { A } } } _ { n } / ( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a } } ^ { a } = 0$. But by Theorem 2.5.36 of [15], the short exact sequence
+Proof of Theorem 5.10. — Let$\overline { { \mathrm { { A } } } }$be a perfectoid$\mathrm { K } ^ { \circ a } / \varpi \mathrm { - a l g e b r a }$. We see inductively that all obstructions and ambiguities in lifting inductively to a flat$( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a }$-algebra$\overline { { \mathrm { A } } } _ { n }$ vanish: All groups occurring can be expressed in terms of the cotangent complex by the theorems above, so that it suffices to show that${ \bf L } _ { \overline { { \mathrm { A } } } _ { n } / ( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a } } ^ { a } = 0$. But by Theorem 2.5.36 of [15], the short exact sequence
 
 $$
-0 \to \overline {{\mathrm{A}}} \stackrel {\varpi^ {n - 1}} {\to} \overline {{\mathrm{A}}} _ {n} \to \overline {{\mathrm{A}}} _ {n - 1} \to 0
+0 \to \overline {{\mathrm{A}}} ^ {\varpi^ {n - 1}} \to \overline {{\mathrm{A}}} _ {n} \to \overline {{\mathrm{A}}} _ {n - 1} \to 0
 $$
 
-induces after tensoring with${ \bf L } _ { \overline { { \mathrm { A } } } _ { n } / ( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a } }$a triangle
+induces after tensoring with${ \bf L } _ { \overline { { \mathrm { A } } } _ { n } / ( \mathrm { K } ^ { \circ } / \varpi ^ { n } ) ^ { a } } ^ { a }$a triangle
 
 $$
-\mathbf {L} _ {\mathrm{A} / (\mathrm{K} ^ {\circ} / \varpi) ^ {a}} ^ {a} \rightarrow \mathbf {L} _ {\mathrm{A} _ {n} / (\mathrm{K} ^ {\circ} / \varpi^ {n}) ^ {a}} ^ {a} \rightarrow \mathbf {L} _ {\mathrm{A} _ {n - 1} / (\mathrm{K} ^ {\circ} / \varpi^ {n - 1}) ^ {a}} ^ {a} \rightarrow ,
+\mathbf {L} _ {\overline{\mathrm{A}} / (\mathrm{K} ^ {\circ} / \varpi) ^ {a}} ^ {a} \rightarrow \mathbf {L} _ {\overline{\mathrm{A}} _ {n} / (\mathrm{K} ^ {\circ} / \varpi^ {n}) ^ {a}} ^ {a} \rightarrow \mathbf {L} _ {\overline{\mathrm{A}} _ {n - 1} / (\mathrm{K} ^ {\circ} / \varpi^ {n - 1}) ^ {a}} ^ {a} \rightarrow ,
 $$
 
 and the claim follows by induction.

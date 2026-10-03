@@ -408,3 +408,14 @@
   6. "in D(R). Then L_{S/R}≅0"补句点；Remark 5.14：**"$\Omega^1_{R/\mathbf F_\phi}$"→"$\Omega^1_{R/\mathbf F_p}$"（φ 系 p 误读）**、"written as$y^\flat,$"→"$y^p$, and"（print y^p，PNG 确认）（p.277 Remark 行）
   7. Proof 段："$\mathrm R_{(\Phi)}\mathrm{-algebra}$"散字合并→$\mathrm R_{(\Phi)}$-algebra；"sending$\mathrm X_i\mapsto\mathrm X_i^p$"补句点（p.277 Proof 段）
 - 备注：display（⊗^L 与 Φ_{S•/R}）与 print 一致；行 1065 起（"The assumption says…"）属印刷 p.278，留待 p.034。
+## p.034（PDF p.34 / 印刷 p.278）
+- PNG：audit/p034.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/Scholze_2012_p278_dX.png（dX_i^p 指数行）
+- 核对：页眉 278/PETER SCHOLZE；Φ_{S•/R} quasiisomorphism 段（R_{(Φ)}⊗^L_R L_{S/R}≅L_{S_{(Φ)}/R_{(Φ)}} display、dX_i↦dX_i^p=0）；Gabber-Ramero almost 扩张段；Remark 5.15；Corollary 5.16（L^a_{Ā/(K^{°a}/ϖ)}≅0）；Proof（B=(Ā×K^{°a}/ϖ)_{!!}、B/ϖ^{1/p}≅B via Φ、C↦C_{!!}、§2.2.25、QED □）；Now we can prove Theorem 5.10；Proof of Theorem 5.10（Ā_n 提升、0→Ā^{ϖ^{n−1}}→Ā_n→Ā_{n−1}→0 display、L^a 三角 display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；2 处控制字节遗留见第 5 条，以原图为准）：
+  1. dX 段：句末"with$\mathbf L_{S/R}$-"→".□"（QED）——"dX_i^p"指数经 **300dpi 仲裁**（audit/300dpi/Scholze_2012_p278_dX.png）确认为单独 p（非 p^i），MD 原本正确未改（p.278 On the other hand 段）
+  2. Gabber-Ramero 段："$\mathrm K^\circ\cdot$ algebras"（断行连字符伪 \cdot）→$\mathrm K^\circ$-algebras；"$\mathrm{\Delta S^{\it a}}$-modules"伪 Δ→$\mathrm S^a$-modules；"$\mathrm A␣\mathrm B$"缺箭头→→；**"depends only the morphism"缺 on 为 print 原样，保留不改**（p.278 In their book 段原图）
+  3. Corollary 5.16 句末补句点；Proof："argue with$(\overline{\Lambda}×…)$"→"$(\overline{\mathrm A}×…)$"（Λ 系 Ā 误读，print 为 Ā）；"$\mathrm K^\circ/\varpi\mathrm{-algebra}$"散字合并→-algebra；"§2.2.25.-"→".□"（p.277 Corollary/Proof 行）
+  4. Proof of Theorem 5.10：头"ProofofTheorem${5.}I{0.}-\mathrm{{Let}}$"→"Proof of Theorem 5.10. — Let"；"$(\mathrm K^\circ/\varpi^n)^a{\mathrm{-algebra~}}$"→"-algebra"（p.278 Proof 行原图）
+  5. **短正合列 display 结构修正**："$0\to\overline A\stackrel{\varpi^{n-1}}{\to}\overline A_n→…"（把 ϖ^{n−1} 误作映射标号）→"$0\to\overline A^{\varpi^{n-1}}\to\overline A_n\to\overline A_{n-1}\to 0$"（print 首项为带上标 ϖ^{n−1} 的对象 Ā^{ϖ^{n−1}}，PNG 确认）；tensoring 段 L 补上标 ^a；**triangle display 三项 "$\mathrm A/\mathrm A_n/\mathrm A_{n-1}$"→"$\overline{\mathrm A}/\overline{\mathrm A}_n/\overline{\mathrm A}_{n-1}$"（print 均为 Ā-bar）**（p.278 两 display 原图）
+  6. **控制字节登记**：行 1077 一处 \x0b（"K^{◦a}/\x0b-algebra"=ϖ 丢失）、行 1079 一处 \x04（"B/ϖ^{1/p}≅B via \x04."=Φ 丢失）——登记待字节级修复
+- 备注：R_{(Φ)}⊗^L_R display 与 print 一致；行 1097 起（"This gives a unique system…"）属印刷 p.279，留待 p.035。
