@@ -1879,7 +1879,7 @@ $$
 
 où i désigne un élément d'ordre 4 de $\mathbf{F}_{9}^{*}$. L'image de ce groupe dans $\mathbf{PGL}_{2}(\mathbf{F}_{9})$
 
-est égale à  $\mathbf{PSL}_{2}(\mathbf{F}_{9})$ , qui est isomorphe au groupe alterné  $A_{6}$ . D'où une projection  $\varphi: G \to A_{6}$ . Le couple ( $\varphi$ , det) définit un homomorphisme surjectif  $G \to A_{6} \times \{\pm 1\}$ , de noyau  $\{\pm 1\}$ . On a donc une suite exacte:
+est égale à  $\mathbf{PSL}_{2}(\mathbf{F}_{9})$ , qui est isomorphe au groupe alterné  $\mathfrak{A}_{6}$ . D'où une projection  $\varphi: G \to \mathfrak{A}_{6}$ . Le couple ( $\varphi$ , det) définit un homomorphisme surjectif  $G \to \mathfrak{A}_{6} \times \{\pm 1\}$ , de noyau  $\{\pm 1\}$ . On a donc une suite exacte:
 
 $$
 \{1 \} \rightarrow \{\pm 1 \} \rightarrow G \rightarrow \mathfrak {A} _ {6} \times \{\pm 1 \} \rightarrow \{1 \}.\tag{*}

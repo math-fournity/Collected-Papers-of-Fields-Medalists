@@ -369,3 +369,11 @@
 - 核对：Exemple (5.3.4)（147_I、y² + y = x³ + x² − 114x + 473、147 = 3.7²、type multiplicatif en 3、c₆ en 7、N₀ = 7²、N = 7、très ramifiée en 3、k = 4）、F = q + Σ_{n⩾2}Aₙqⁿ 展开式（q − q² − 2q³ − 7q⁴ + 16q⁵ + 2q⁶ − 7q⁷ + 15q⁸ + …）、calcul 括注、a_l ≡ A_l (mod 3) 式、a_l/A_l 数值表（l < 50，13 列逐格）、Calcul de F 段（Q(√−7)、f₁ = Σ q^{zz̄}、f₂ = (1/2)Σ z²q^{zz̄}、poids 1 et 3、Legendre mod 7）、5.4 节标题（SL₂(F₉) ≅ 𝔄̃₆）、G = {±1, ±i}·SL₂(F₉) 式、F₉* 句。
 - 结果：FAIL。一处已依原图修复：5.4 节标题印刷为 SL₂(F₉) ≅ 𝔄̃₆（300 dpi 裁片确认 fraktur A 带 tilde），Markdown 写成无 tilde 的 \mathfrak{A}_{6}，修为 \tilde{\mathfrak{A}}_{6}。其余文字、公式与表格逐格吻合。
 - 备注：147_I 下标与印刷一致（罗马 I）；表格 markdown 格式逐格一致；页眉 “222 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…dans PGL₂(F₉)”，PSL₂(F₉)/A₆ 段属印刷 p.223。
+
+## p.045（PDF p.45 / 印刷 p.223）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p045.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p045_A6_lines.png`（pnggray）。
+- 核对：PSL₂(F₉)/𝔄₆ 段、projection φ: G → 𝔄₆、(φ, det) 同态句、(*) 正合列 {1} → {±1} → G → 𝔄₆ × {±1} → {1}、Donnons-nous 段（Gal(K^gal/Q) ≅ 𝔄₆、Q(√D)）、α^K/ε_D 与 α 式、Cherchons à relever 段、obs(α) ∈ H²(G_Q, {±1}) ≅ Br₂(Q)、[46] n° 1.1、LEMME 6（Witt invariant、Tr_{K/Q}(x²)）、(5.4.1) obs(α) = w + (−1)(D)、quaternions 括注、th. 1 de [46] 段（α^K: G_Q → 𝔄₆ ≃ PSL₂(F₉)、G_Q → 𝔄̃₆ ≃ SL₂(F₉)）、ε_D/{±1, ±i} 式、Le lemme résulte 句。
+- 结果：FAIL。三处已依原图修复：正文 “groupe alterné 𝔄₆”、“projection φ: G → 𝔄₆”、“G → 𝔄₆ × {±1}” 在 Markdown 均写成普通斜体 $A_{6}$（同页 (*) 式与 α^K 式的 \mathfrak{A}_6 体例正确），统一修为 $\mathfrak{A}_{6}$。其余逐项吻合。
+- 备注：α^K 式与 𝔄̃₆ 式的连接号经 300 dpi 裁片确认均为 ≃，Markdown \simeq 一致；两式 Fraktur 记号一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 223” 未收入 Markdown，排版级。印刷页止于 “…par un argument facile.”，“Fixons maintenant…” 段属印刷 p.224。
