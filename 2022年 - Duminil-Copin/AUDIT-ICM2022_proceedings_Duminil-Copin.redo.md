@@ -48,3 +48,12 @@
   - Luna 旧修复重核**全部成立**：Brush 引语中 `Dr. Wolfgang Pauli`（旧 MD 曾作 `$D r$Wolfgang Pauli`）、`model`（曾作 `mode`）、定义段符号 `V/E/x/y/G`（曾作 `�`）现均与印刷一致。
   - 残留伪影（登记不改）：MD 行 51 `ofthe`、行 59 `magneticfield`、行 65 `neighbourferromagnetic`——均为印刷含空格而 MD 空格合并（SOP PASS± 类）；行内公式与相邻词的空格合并（如 `subgraph$G = ( V , E )$of`）；running foot `4 Hugo Duminil-Copin` 未入 MD。
 - 备注：本页公式编号 (2.1)–(2.3) 完整；p.5 将核对 (2.4) 的 print quirk（印刷在定义 `H_{G,h}` 之后 (2.4) 即使用 `H_{G,β,h}`）。
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p005.png（pngmono 150dpi）
+- 核对：公式 (2.4)(2.5)(2.6)(2.7) 与编号、自由能/磁化强度 prose、§2.3 节标题、§2.3 前两段（至 "violating the latest developments of" 跨页断点）
+- 结果：**PASS±**
+  - 公式逐项吻合：(2.4) `⟨X⟩_{G,β,h} := (1/Z(G,β,h)) Σ_{σ∈{−1,1}^V} X(σ) exp[−βH_{G,β,h}(σ)].`；**print quirk 忠实保留**——印刷 (2.4) 指数内作 `H_{G,β,h}`（前置定义是 `H_{G,h}`，Z(G,β,h) 内亦然），MD 行 78 原样照录，**不得按数学预期改回 `H_{G,h}`**（150dpi 图与 born-digital 文本层双证一致）；(2.5) 无句尾句号（印刷如此，MD 同）；(2.6) 尾逗号保留；(2.7) `lim_{h↘0}`（`\searrow`）正确。
+  - 记号：`Λ_n := [−n,n]^d ∩ Z^d`、`f(β,h) := −(1/β) lim_{n→∞} (1/|Λ_n|) ln Z(Λ_n,β,h)`、`m(β,h) := −∂/∂h f(β,h)`、`m*(β) := lim_{h↘0} m(β,h)` 全部与印刷一致；`[63]` 引用号正确；"a semi-classical version of Heisenberg model"（印刷即无 the）忠实保留。
+  - 残留伪影（登记不改）：MD 行 81 `called thefree energy`、`define thefree energy`（两处空格合并，印刷为 "the free energy"）；行 101 `$m ^ { * } ( \beta ) =$ 0` 行内空格排版；running foot `5 100 Years of the Ising Model` 未入 MD。
+- 备注：Luna 总评登记的 (2.4) print quirk 经本页双通道重核属实且 MD 处置正确；无内容错误、无新修复。
