@@ -1543,25 +1543,25 @@ $$
 
 cf. §5. Because of the Eichler-Shimura relations for $J$ ([37], 11.17 or [38], 2.23), the
 
-proof of (5.2a) shows that W is a successive extension of copies of the T/m[G]-module V which corresponds to the representation  $\rho_{m}$ . Since m is an ideal of  $\overline{T}$ , W is non-zero. Hence there is an embedding of T/m[G]-modules  $V \hookrightarrow W$ .
+proof of (5.2a) shows that W is a successive extension of copies of the $\mathbf{T}/\mathbf{m}$[G]-module V which corresponds to the representation  $\rho_{\mathbf{m}}$ . Since $\mathbf{m}$ is an ideal of  $\overline{\mathbf{T}}$ , W is non-zero. Hence there is an embedding of $\mathbf{T}/\mathbf{m}$[G]-modules  $V \hookrightarrow W$ .
 
-Fixing such an embedding and using the hypothesis that V is finite at p (since l and p are distinct, this hypothesis means that V is unramified at p), we identify V with a subgroup of  $J(\overline{\mathbf{F}}_{p})$ . This identification respects the natural actions of T and  $\operatorname{Frob}_{p} \in \operatorname{Gal}(\overline{\mathbf{F}}_{p}/\mathbf{F}_{p})$  on V and  $J(\overline{\mathbf{F}}_{p})$ . Let  $\Psi$  be the group of components and let Z be the character group of the torus attached to the reduction of J at p. If the image of V in  $\Psi$  is non-zero, then m belongs to the support of  $\Psi$ . By (4.3), (3.12) and (5.2c), m belongs to the support of the T-module  $X \oplus X$ , where X is again the character group arising from the bad reduction of  $J_{0}(qM)$  at q. This implies that m comes from the q-new/p-old quotient of T (3.21). It follows easily from this that  $\rho_{m}$  is isomorphic to  $\rho_{\lambda}$  for some maximal ideal  $\lambda$  of  $T_{qM}$ . Hence  $\rho_{m}$  is modular of level qM.
+Fixing such an embedding and using the hypothesis that V is finite at p (since l and p are distinct, this hypothesis means that V is unramified at p), we identify V with a subgroup of  $J(\overline{\mathbf{F}}_{p})$ . This identification respects the natural actions of $\mathbf{T}$ and  $\operatorname{Frob}_{p} \in \operatorname{Gal}(\overline{\mathbf{F}}_{p}/\mathbf{F}_{p})$  on V and  $J(\overline{\mathbf{F}}_{p})$ . Let  $\Psi$  be the group of components and let Z be the character group of the torus attached to the reduction of J at p. If the image of V in  $\Psi$  is non-zero, then $\mathbf{m}$ belongs to the support of  $\Psi$ . By (4.3), (3.12) and (5.2c), $\mathbf{m}$ belongs to the support of the $\mathbf{T}$-module  $X \oplus X$ , where X is again the character group arising from the bad reduction of  $J_{0}(qM)$  at q. This implies that $\mathbf{m}$ comes from the q-new/p-old quotient of $\mathbf{T}$ (3.21). It follows easily from this that  $\rho_{\mathbf{m}}$  is isomorphic to  $\rho_{\lambda}$  for some maximal ideal  $\lambda$  of  $\mathbf{T}_{qM}$ . Hence  $\rho_{\mathbf{m}}$  is modular of level qM.
 
-It remains to treat the case where the image of V in  $\Psi$  is zero, i.e., where V is contained in the group  $\operatorname{Hom}(Z/\mathsf{m}Z, \mu_{l})$ . We have then
+It remains to treat the case where the image of V in  $\Psi$  is zero, i.e., where V is contained in the group  $\operatorname{Hom}(Z/\mathbf{m}Z, \mu_{l})$ . We have then
 
 $$
-\dim_ {\mathbf {T} / \mathfrak {m}} (Z / \mathfrak {m} Z) \geq 2.
+\dim_ {\mathbf {T} / \mathbf {m}} (Z / \mathbf {m} Z) \geq 2.
 $$
 
-By (4.1), we have  $\dim_{\mathbf{T}/\mathfrak{m}}(Y/\mathfrak{m}Y) \geq 2$ , where Y is the T-module defined in §3 as the kernel of the surjection  $L \to (X \oplus X)$ , L being the character group of the torus arising from the reduction of  $J_{0}(pqM)$  at q. We may assume that m does not belong to the support of  $X \oplus X$ , since we have already established that the conclusion of the theorem holds if it does belong to the support of  $X \oplus X$ .
+By (4.1), we have  $\dim_{\mathbf{T}/\mathbf{m}}(Y/\mathbf{m}Y) \geq 2$ , where Y is the $\mathbf{T}$-module defined in §3 as the kernel of the surjection  $L \to (X \oplus X)$ , L being the character group of the torus arising from the reduction of  $J_{0}(pqM)$  at q. We may assume that $\mathbf{m}$ does not belong to the support of  $X \oplus X$ , since we have already established that the conclusion of the theorem holds if it does belong to the support of  $X \oplus X$ .
 
 Under this assumption, we have an isomorphism
 
 $$
-Y / \mathfrak {m} Y \approx L / \mathfrak {m} L,
+Y / \mathbf {m} Y \approx L / \mathbf {m} L,
 $$
 
-giving finally the statement  $\dim_{\mathbf{T}/\mathfrak{m}}(L/\mathfrak{m}L) \geq 2$ . We get a contradiction by applying (6.4) to the group L. (We apply the theorem with p replaced by q and M replaced by pM). ☐
+giving finally the statement  $\dim_{\mathbf{T}/\mathbf{m}}(L/\mathbf{m}L) \geq 2$ . We get a contradiction by applying (6.4) to the group L. (We apply the theorem with p replaced by q and M replaced by pM). ☐
 
 Theorem 8.2. (Main Theorem) Let $\rho: \operatorname{Gal}(\bar{\mathbf{Q}} / \mathbf{Q}) \to \operatorname{GL}(2, \mathbf{F})$ be an irreducible mod $l$ modular representation of level $Mp$, where $p$ is a prime not dividing $M$. Assume that $\rho$ is finite at $p$. Then $\rho$ is modular of level $M$ provided that at least one of the following two conditions holds:
 
@@ -1571,9 +1571,9 @@ Theorem 8.2. (Main Theorem) Let $\rho: \operatorname{Gal}(\bar{\mathbf{Q}} / \ma
 
 Proof. We have $\rho \approx \rho_{\lambda}$ for some maximal ideal $\lambda$ of $\mathbf{T}_{Mp}$. By (6.1), we know that $\rho$ is modular of level $M$ if (ii) holds. Hence we may assume that $p \equiv 1 \pmod{l}$, and in particular that $p$ and $l$ are distinct.
 
-Also, if  $\lambda$  arises from the p-old quotient of  $T_{Mp}$ , then there is nothing to prove. Hence we may assume that  $\lambda$  does not arise from the p-old quotient of  $T_{Mp}$ , which implies in particular that it does arise from the p-new quotient of  $T_{Mp}$ .
+Also, if  $\lambda$  arises from the p-old quotient of  $\mathbf{T}_{Mp}$ , then there is nothing to prove. Hence we may assume that  $\lambda$  does not arise from the p-old quotient of  $\mathbf{T}_{Mp}$ , which implies in particular that it does arise from the p-new quotient of  $\mathbf{T}_{Mp}$ .
 
-Assuming that  $\lambda$  arises from this quotient, we choose a prime number q as in (7.1) and pick a p-new maximal ideal m of  $T = T_{Mqp}$  which is compatible with  $\lambda$ . By (7.3), m is a pq-new maximal ideal of T. If (i) holds, then (8.1) applies to show that  $\rho$  is modular of level qM. (Note that we have  $q \equiv -1 \pmod{l}$ ; since l is odd, we do
+Assuming that  $\lambda$  arises from this quotient, we choose a prime number q as in (7.1) and pick a p-new maximal ideal $\mathbf{m}$ of  $\mathbf{T} = \mathbf{T}_{Mqp}$  which is compatible with  $\lambda$ . By (7.3), m is a pq-new maximal ideal of $\mathbf{T}$. If (i) holds, then (8.1) applies to show that  $\rho$  is modular of level qM. (Note that we have  $q \equiv -1 \pmod{l}$ ; since l is odd, we do
 
 not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q$, we deduce that $\rho$ is modular of level $M$.
 

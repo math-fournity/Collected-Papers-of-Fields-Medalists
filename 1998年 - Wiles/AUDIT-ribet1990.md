@@ -358,3 +358,11 @@
 - 核对：(7.3)/(7.5) 等价性；Lemma 7.6（(T_p)²−1∈m）与 Proof（ℛ=End(S₂(Γ₀(qM))⊕S₂(Γ₀(qM)))、**T**_{pM}/​**T**_{qpM,p-old}、maximal ideal I、T_p²−1=τT_p−(p+1)、I∩**T**_{qpM,p-old}=**m**、(7.6) □）；(7.5) 证明（X、**T**_{qpM}-module、p-old/q-new、support、(4.3)/(3.12)/(5.2c)、Ψ、**T̄**_{pqM}、unit ideal）；节标题 "8. Lowering the level"；**T**=**T**_{pqM}、**T̄**、**m**；Theorem 8.1（l ⊥ qM、ρ_m finite at p、q ≢ 1 (mod l) ⇒ level qM）；Proof 开头（(6.1)、p≡1、Shimura curve、Eichler order level M、J=Pic⁰(C)、**T**/**m**[G]-module、W=J(Q̄)[**m**]）✓。
 - 发现并当场修复（22 个记号点 + 1 处括号平衡）：①L1520 "\mathfrak{m}"→"\mathbf{m}"；②L1522 七处（"subring R"→"$\mathcal{R}$"×3、"$T_{pM}$"→"\mathbf{T}_{pM}"、"$T_{qpM,p-old}$"→"\mathbf{T}_{qpM,p-old}"、"contains m"→"\mathbf{m}"）+ End( 括号不平衡补全（mineru 丢失一个右括号，印刷为 End(S₂(Γ₀(qM))⊕S₂(Γ₀(qM)))）；③L1528 "\mathfrak{m}"→"\mathbf{m}"；④L1530 九处（$T_{qpM}$×6→\mathbf、$\overline{T}_{pqM}$×2→$\overline{\mathbf{T}}$、无）；⑤L1534 六处（**T**=**T**_{pqM}、**T̄**×2、**m**×3）；⑥L1536 ρ_**m**×2；⑦L1538 "**T**/**m**[G]"；⑧L1541 显示式 "\mathfrak{m}"→"\mathbf{m}"。均据 150 dpi 页图（𝓡/​**T** 粗体同款先例 + 括号计数）。
 - 结果：FAIL（23 处记号/括号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.045（PDF p.45 / 印刷 p.474）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 21:25 -0400。
+- PNG：`audit/ribet1990_p045.png`（pngmono，150 dpi）。
+- 核对：(5.2a) proof 收尾、W successive extension、embedding V↪W；V finite at p/unramified、identify V⊂J(F̄_p)、T 与 Frob_p 作用、Ψ/Z、m∈supp Ψ、q-new/p-old、ρ_m≈ρ_λ、level qM；Hom(Z/mZ,μ_l) 情形、dim_{T/m}(Z/mZ)≥2；(4.1)、dim(Y/mY)≥2、Y 的定义、support 论证；Y/mY≈L/mL、dim(L/mL)≥2、(6.4) 应用 □；Theorem 8.2 (Main Theorem)（ρ: Gal(Q̄/Q)→GL(2,F)、level Mp、finite at p、conditions (i)/(ii)）与 Proof 开头（ρ≈ρ_λ、(6.1)、p-old/p-new、q as in (7.1)、(7.3)、(8.1)、q≡−1 (mod l)）✓。
+- 发现并当场修复（22 个记号点，延续 **m**/**T** 粗体系列）：①L1546 五处；②L1548 七处（of **T**、**m**×3、**T**-module、**T**_{qM}、ρ_**m**×2 中前两处与末处——本行共 8 处计入）；③L1550 "$\mathsf{m}$"→"\mathbf{m}"；④L1553 显示式两处；⑤L1556 三处（dim 下标、Y/**m**Y、**T**-module、**m**）；⑥L1561 显示式两处；⑦L1564 两处；⑧L1574 三处 $T_{Mp}$→\mathbf；⑨L1576 三处（**m**、**T**=**T**_{Mqp}、of **T**）。
+- 印刷原文 quirk：Theorem 8.2 条件 (i) 印刷即为 "The prime l is **a** not a divisor of M"（多一个 "a"，原刊 typo），MD 忠实保留。
+- 结果：FAIL（22 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
