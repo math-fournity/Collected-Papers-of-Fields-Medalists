@@ -727,7 +727,7 @@ Les signes ± dans A) et B) sont les mêmes qu'en (4.1).
 
 (4.4) Ces résultats apportent les informations suivantes sur les  $R^{i}f_{*}Q_{\ell}$ .
 
-a) $Si \delta \neq 0$ :
+a) $Si \delta \neq o$ :
 
 1) Pour $i \neq n$, le faisceau $\mathbf{R}^i f_* \mathbf{Q}_\ell$ est constant.
 
@@ -737,17 +737,17 @@ $$
 \mathbf {R} ^ {n} f _ {*} \mathbf {Q} _ {\ell} = j _ {*} j ^ {*} \mathbf {R} ^ {n} f _ {*} \mathbf {Q} _ {\ell}.
 $$
 
-b) Si $\delta = 0$: (C'est là un cas exceptionnel. Puisque $(\delta, \delta) = \pm 2$ pour $n$ pair, il ne peut se produire que pour $n$ impair.)
+b) Si $\delta = o$: (C'est là un cas exceptionnel. Puisque $(\delta, \delta) = \pm 2$ pour $n$ pair, il ne peut se produire que pour $n$ impair.)
 
 1) Pour $i \neq n + 1$, le faisceau $\mathbf{R}^i f_* \mathbf{Q}_\ell$ est constant.
 
 2) Soit $\mathbf{Q}_{\ell}(m-n)_s$ le faisceau $\mathbf{Q}_{\ell}(m-n)$ sur $\{s\}$, prolongé par zéro sur S. On a une suite exacte
 
 $$
-0 \rightarrow \mathbf {Q} _ {\ell} (m - n) _ {s} \rightarrow \mathrm{R} ^ {n + 1} f _ {*} \mathbf {Q} _ {\ell} \rightarrow j _ {*} j ^ {*} \mathrm{R} ^ {n + 1} f _ {*} \mathbf {Q} _ {\ell} \rightarrow 0,
+o \rightarrow \mathbf {Q} _ {\ell} (m - n) _ {s} \rightarrow \mathrm{R} ^ {n + 1} f _ {*} \mathbf {Q} _ {\ell} \rightarrow j _ {*} j ^ {*} \mathrm{R} ^ {n + 1} f _ {*} \mathbf {Q} _ {\ell} \rightarrow o,
 $$
 
-$\mathrm{ou} j_{*}j^{*}\mathbf{R}^{n + 1}f_{*}\mathbf{Q}_{\ell}$ est un faisceau constant.
+où $j_{*}j^{*}\mathbf{R}^{n + 1}f_{*}\mathbf{Q}_{\ell}$ est un faisceau constant.
 
 ## 5. La théorie de Lefschetz : théorie globale.
 
@@ -760,8 +760,6 @@ $$
 $$
 
 La fibre de $f$ en $t\in\mathbf{D}$ est la section hyperplane $\mathbf{X}_{t}=\mathbf{X}\cap\mathbf{H}_{t}$ de $\mathbf{X}$.
-
-289
 
 Fixons X, et prenons A assez général. Alors :
 
