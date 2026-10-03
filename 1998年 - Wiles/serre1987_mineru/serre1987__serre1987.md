@@ -1957,7 +1957,7 @@ $$
 X ^ {6} + a X + b = 0, \quad a, b \in \mathbf {Z},
 $$
 
-le couple  $(a, b)$  étant choisi de telle sorte que l'équation soit irréductible et de groupe de Galois  $A_{6}$ .
+le couple  $(a, b)$  étant choisi de telle sorte que l'équation soit irréductible et de groupe de Galois  $\mathfrak{A}_{6}$ .
 
 [Voici quelques choix possibles de $(a, b)$, obtenus par Mestre: $(a, b) = (24, -20)$; (30, 25); (240, 400); (240, -400); (48, -80); (432, 720); (480, -400).]
 
@@ -1985,7 +1985,7 @@ $$
 \rho \colon G _ {\mathbf {Q}} \to G \subset \mathbf {G L} _ {2} (\mathbf {F} _ {9}).
 $$
 
-Bien entendu, la représentation $\rho$ ainsi obtenue n'est pas unique: elle n'est définie qu'à torsion quadratique près. Comme dans la théorie de Tate (exposée dans [45], §6), on peut utiliser cette torsion pour rendre les invariants $k$ et $N$ de $\rho$ aussi petits que possible; en particulier, on peut choisir $\rho$ de telle sorte que $k = 2$ ou 4, et que $N$ ne soit divisible que par les facteurs premiers du discriminant $d$ qui sont $\neq 3$ (i.e., $l = 2$ et 5 dans les exemples donnés plus haut). Ceci fait, les conjectures du §3 affirment l'existence d'une forme parabolique $f = \Sigma a_{n} q^{n}$ de type $(N, k, 1)$, à coefficients dans $\mathbf{F}_{9}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho \simeq \rho_{f}$. Cette dernière relation entraîne un lien étroit entre les $a_{l}$ (pour $l + 3N$), et la décomposition de $l$ dans le corps $K$. De façon plus précise, notons ord(l) l'ordre de la substitution de Frobenius attachée à $l$ dans $\operatorname{Gal}(K^{\text{gal}} / \mathbf{Q}) \simeq \mathfrak{A}_{6}$. On doit avoir:
+Bien entendu, la représentation $\rho$ ainsi obtenue n'est pas unique: elle n'est définie qu'à torsion quadratique près. Comme dans la théorie de Tate (exposée dans [45], §6), on peut utiliser cette torsion pour rendre les invariants $k$ et $N$ de $\rho$ aussi petits que possible; en particulier, on peut choisir $\rho$ de telle sorte que $k = 2$ ou 4, et que $N$ ne soit divisible que par les facteurs premiers du discriminant $d$ qui sont $\neq 3$ (i.e., $l = 2$ et 5 dans les exemples donnés plus haut). Ceci fait, les conjectures du §3 affirment l'existence d'une forme parabolique $f = \Sigma a_{n} q^{n}$ de type $(N, k, 1)$, à coefficients dans $\mathbf{F}_{9}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho \simeq \rho_{f}$. Cette dernière relation entraîne un lien étroit entre les $a_{l}$ (pour $l \nmid 3N$), et la décomposition de $l$ dans le corps $K$. De façon plus précise, notons ord(l) l'ordre de la substitution de Frobenius attachée à $l$ dans $\operatorname{Gal}(K^{\text{gal}} / \mathbf{Q}) \simeq \mathfrak{A}_{6}$. On doit avoir:
 
 $$
 \operatorname{ord} (l) = 1 \text {   ou   } 3 \Leftrightarrow a _ {l} ^ {2} = \left(\frac {l}{3}\right);

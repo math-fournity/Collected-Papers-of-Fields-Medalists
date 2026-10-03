@@ -377,3 +377,11 @@
 - 核对：PSL₂(F₉)/𝔄₆ 段、projection φ: G → 𝔄₆、(φ, det) 同态句、(*) 正合列 {1} → {±1} → G → 𝔄₆ × {±1} → {1}、Donnons-nous 段（Gal(K^gal/Q) ≅ 𝔄₆、Q(√D)）、α^K/ε_D 与 α 式、Cherchons à relever 段、obs(α) ∈ H²(G_Q, {±1}) ≅ Br₂(Q)、[46] n° 1.1、LEMME 6（Witt invariant、Tr_{K/Q}(x²)）、(5.4.1) obs(α) = w + (−1)(D)、quaternions 括注、th. 1 de [46] 段（α^K: G_Q → 𝔄₆ ≃ PSL₂(F₉)、G_Q → 𝔄̃₆ ≃ SL₂(F₉)）、ε_D/{±1, ±i} 式、Le lemme résulte 句。
 - 结果：FAIL。三处已依原图修复：正文 “groupe alterné 𝔄₆”、“projection φ: G → 𝔄₆”、“G → 𝔄₆ × {±1}” 在 Markdown 均写成普通斜体 $A_{6}$（同页 (*) 式与 α^K 式的 \mathfrak{A}_6 体例正确），统一修为 $\mathfrak{A}_{6}$。其余逐项吻合。
 - 备注：α^K 式与 𝔄̃₆ 式的连接号经 300 dpi 裁片确认均为 ≃，Markdown \simeq 一致；两式 Fraktur 记号一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 223” 未收入 Markdown，排版级。印刷页止于 “…par un argument facile.”，“Fixons maintenant…” 段属印刷 p.224。
+
+## p.046（PDF p.46 / 印刷 p.224）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p046.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p046_l3N.png`（pnggray）。
+- 核对：Fixons 段（D = −3、K corps sextique、X⁶ + aX + b = 0、𝔄₆）、Mestre 七组 (a,b) 列表、[46] n° 3.3 段（w = (3)(−d) + (−1)(−1)、d discriminant、d est un carré、w = (3)(−1) + (−1)(−1) = (−1)(−3)）、obs(α) = 0、ρ: G_Q → G ⊂ GL₂(F₉)、torsion quadratique 段（[45] §6、k = 2 ou 4、l = 2 et 5）、f = Σaₙqⁿ/(N,k,1)/F₉/ρ ≃ ρ_f、ord(l) 定义句、四情形判据（ord = 1 ou 3 ⇔ a_l² = (l/3)；= 2 ⇔ a_l = 0；= 4 ⇔ a_l² = −(l/3)；= 5 ⇔ a_l⁴ = −1）、F₉ 括注。
+- 结果：FAIL。两处已依原图修复：① “de groupe de Galois 𝔄₆” 在 Markdown 写成普通斜体 $A_{6}$（同段 Gal(K^gal/Q) ≅ \mathfrak{A}_6 体例正确），修为 $\mathfrak{A}_{6}$；② “(pour l ∤ 3N)” 在 Markdown 写成 “l + 3N”（300 dpi 裁片确认 + 样不整除符，同前已登记字形），修为 l \nmid 3N。其余文字与公式逐项吻合。
+- 备注：Legendre 符号 (l/3) 与 ⇔ 记号一致；Mestre 列表七组数对逐项核对无误；页眉 “224 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 F₉ 括注，“En particulier, si l ≠ 3…” 段属印刷 p.225。
