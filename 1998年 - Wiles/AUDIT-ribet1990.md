@@ -285,3 +285,11 @@
 - 发现并当场修复（7 个记号点）：①L1196 "first copy of V"→"$\mathcal{V}$"；②L1200 "graph G"→"$\mathcal{G}$"；③L1202 三处 "vertices of G"→"$\mathcal{G}$"、"two copies of V"→"$\mathcal{V}$"、"$Z^{E}$"→"$\mathbf{Z}^{\mathcal{E}}$"（印刷粗体 Z 花体 ℰ 上标）；④L1212 "the set 9"→"the set $\vartheta$"（300 dpi 确证印刷为希腊 ϑ，mineru 误读为数字 9；L1215 显示式 \vartheta 本即正确）。
 - 备注：H_f*/Z_r/V_r 印刷粗体或字重（weight 类，登记不改）。
 - 结果：FAIL（7 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.036（PDF p.36 / 印刷 p.465）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 19:25 -0400。
+- PNG：`audit/ribet1990_p036.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：两处显示式 "ρ_**m**: G→GL(2,**T**/**m**)" 与 "trace(ρ_**m**(Frob_r))=T_r (mod **m**)" 的下标均为粗正体 m（非 fraktur 𝔪）确证，未存档）。
+- 核对：ℰ 段收尾、ζ_r on ℰ、节标题 "5. Modular representations"；**T**=**T**_N、maximal ideal **m**、[5] Th. 6.7；Proposition 5.1（ρ_**m**: G→GL(2,**T**/**m**)、trace/det 关系、unramified、attached to **m**）；Théorème 6.7 关系（ℒ、Z[[q]]、ℒ 与 **T** 自由 **Z**-模同秩、S₂(Γ₀(N))、residue field **T**/**m**）；式 (9) ℒ→Z[[q]]、ℒ⊗_Zk→k[[q]]、torsion free；pairing (ℒ⊗_Zk)×(**T**⊗_Zk)→k、f|T、式 (10) ℒ⊗_Zk→Hom_Z(**T**,k)、dimension d、[39] Ch. 3、[27] Th. 2.2 ✓。
+- 发现并当场修复（14 个记号点）：①L1226/L1228 两处 "E"→"$\mathcal{E}$"（花体，同款）；②L1232 三处 "Let $T=T_N$"→"$\mathbf{T}=\mathbf{T}_{N}$"、"Let m be"→"Let $\mathbf{m}$ be"、"ideal of T"→"of $\mathbf{T}$"；③L1237 显示式两处 "\mathfrak{m}"→"\mathbf{m}"；④L1243 显示式四处 "\rho_{\mathrm{m}}"×2→"\rho_{\mathbf{m}}"、"\mathrm{mod}\,\mathrm{m}"×2→"\mathrm{mod}\,\mathbf{m}"；⑤L1246 三处 "$\rho_m$"×2→"$\rho_{\mathbf{m}}$"、"attached to m"→"to $\mathbf{m}$"；⑥L1248 "\mathfrak{m}"→"\mathbf{m}"。依据：300 dpi 两处显示式放大确证印刷的最大理想符号为粗正体 m；MD 本页 \mathfrak/\mathrm/普通 m 三种混排，统一按印刷改为 \mathbf{m}。
+- 后续页提示：p.037+ 各页同一符号请按印刷 \mathbf{m} 处理（L1281 起的 "\bmod m" 属 p.037 块范围）。
+- 结果：FAIL（14 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
