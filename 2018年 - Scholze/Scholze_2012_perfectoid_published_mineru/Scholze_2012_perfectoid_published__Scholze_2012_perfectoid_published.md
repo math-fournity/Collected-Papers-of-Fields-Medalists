@@ -1030,29 +1030,29 @@ Just as under certain favorable assumptions, one can describe many deformation p
 
 Specifically, we will need the following results. Fix some ring R with an ideal$\mathrm { I } \subset \mathrm { R }$ such that$\mathrm { { I } ^ { 2 } = 0 }$. Moreover, fix a flat$\mathrm { R } _ { 0 } = \mathrm { R } / \mathrm { I }$-algebra$\mathrm { S } _ { 0 }$. We are interested in the obstruction towards deforming$\mathrm { S } _ { 0 }$to a flat R-algebra S.
 
-Theorem 5.11 ([23, III.2.1.2.3], [15, Proposition 3.2.9]). — There is an obstruction class in$\mathrm { E x t ^ { 2 } ( { \bf L } _ { S _ { 0 } / R _ { 0 } } , S _ { 0 } \otimes _ { R _ { 0 } } I ) }$which vanishes precisely when there exists a flat R-algebra S such that $\mathrm { ~ S ~ } \otimes _ { \mathrm { R } } \mathrm { ~ R _ { 0 } = S _ { 0 } ~ }$. If there exists such a deformation, then the set of all isomorphism classes of such deformationsforms a torsor under$\mathrm { E x t } ^ { 1 } ( \mathbf { L } _ { \mathrm { S _ { 0 } / R _ { 0 } } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R _ { 0 } } } \mathbf { I } )$, and every deformation has automorphism group$\mathrm { H o m } ( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$
+Theorem 5.11 ([23, III.2.1.2.3], [15, Proposition 3.2.9]). — There is an obstruction class in$\mathrm { E x t ^ { 2 } ( { \bf L } _ { S _ { 0 } / R _ { 0 } } , S _ { 0 } \otimes _ { R _ { 0 } } I ) }$which vanishes precisely when there exists a flat R-algebra S such that $\mathrm { ~ S ~ } \otimes _ { \mathrm { R } } \mathrm { ~ R _ { 0 } = S _ { 0 } ~ }$. If there exists such a deformation, then the set of all isomorphism classes of such deformations forms a torsor under$\mathrm { E x t } ^ { 1 } ( \mathbf { L } _ { \mathrm { S _ { 0 } / R _ { 0 } } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R _ { 0 } } } \mathbf { I } )$, and every deformation has automorphism group$\mathrm { H o m } ( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$.
 
-Here, a deformation comes with the isomorphism$\mathrm { ~ S ~ } \otimes _ { \mathrm { { R } } } \mathrm { ~ R _ { 0 } ~ } \cong \mathrm { ~ S _ { 0 } ~ }$, and isomorphisms of deformations are required to act trivially on$\mathrm { S } \otimes _ { \mathrm { R } } \mathrm { R } _ { \mathrm { 0 } } = \mathrm { S } _ { \mathrm { 0 } }$
+Here, a deformation comes with the isomorphism$\mathrm { ~ S ~ } \otimes _ { \mathrm { { R } } } \mathrm { ~ R _ { 0 } ~ } \cong \mathrm { ~ S _ { 0 } ~ }$, and isomorphisms of deformations are required to act trivially on$\mathrm { S } \otimes _ { \mathrm { R } } \mathrm { R } _ { \mathrm { 0 } } = \mathrm { S } _ { \mathrm { 0 } }$.
 
-Now assume that one has two flat R-algebras S, S<sup></sup> with reduction$\mathrm { S } _ { 0 } , \mathrm { S } _ { 0 } ^ { \prime }$to$\mathrm { R _ { 0 } }$, and a morphism$f _ { 0 } : \mathrm { S } _ { 0 } \to \mathrm { S } _ { 0 } ^ { \prime }$. We are interested in the obstruction to lifting$f _ { 0 }$to a morphism $f : \mathrm { S } \to \mathrm { S } ^ { \prime }$
+Now assume that one has two flat R-algebras S, S<sup></sup> with reduction$\mathrm { S } _ { 0 } , \mathrm { S } _ { 0 } ^ { \prime }$to$\mathrm { R _ { 0 } }$, and a morphism$f _ { 0 } : \mathrm { S } _ { 0 } \to \mathrm { S } _ { 0 } ^ { \prime }$. We are interested in the obstruction to lifting$f _ { 0 }$to a morphism $f : \mathrm { S } \to \mathrm { S } ^ { \prime }$.
 
-Theorem 5.12 ([23, III.2.2.2], [15, Proposition 3.2.16]). — There is an obstruction class in Ext<sup>1</sup>$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$which vanishes precisely when there exists an extension off$t o f : \mathrm { S } \to \mathrm { S } ^ { \prime }$ Ifthere exists such a lift, then the set ofall liftsforms a torsor under Hom$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathbf { I } )$
+Theorem 5.12 ([23, III.2.2.2], [15, Proposition 3.2.16]). — There is an obstruction class in Ext<sup>1</sup>$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$which vanishes precisely when there exists an extension of$f _ { 0 }$to$f : \mathrm { S } \to \mathrm { S } ^ { \prime }$ If there exists such a lift, then the set of all lifts forms a torsor under Hom$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathbf { I } )$.
 
 We will need the following criterion for the vanishing of the cotangent complex. This appears as Lemma 6.5.13(i) in [15].
 
 Proposition 5.13.
 
-(i) Let R be a perfect F -algebra. Then$\mathbf { L } _ { \mathrm { R } / \mathbf { F } _ { b } } \cong 0$
+(i) Let R be a perfect$\mathbf { F } _ { p }$-algebra. Then$\mathbf { L } _ { \mathrm { R } / \mathbf { F } _ { p } } \cong 0$.
 
-(ii) Let$\mathrm { R }  \mathrm { S }$be a morphism of$\mathbf { F } _ { p }$-algebras. Let$\mathrm { R } _ { ( \Phi ) }$be the ring R with the R-algebra structure via$\Phi : \mathrm { R }  \mathrm { R } \ .$, and define$\mathrm { S } _ { ( \Phi ) }$similarly. Assume that the relative Frobenius $\Phi _ { \mathrm { S / R } }$induces an isomorphism
+(ii) Let$\mathrm { R } \to \mathrm { S }$be a morphism of$\mathbf { F } _ { p }$-algebras. Let$\mathrm { R } _ { ( \Phi ) }$be the ring R with the R-algebra structure via$\Phi : \mathrm { R } \to \mathrm { R }$, and define$\mathrm { S } _ { ( \Phi ) }$similarly. Assume that the relative Frobenius $\Phi _ { \mathrm { S / R } }$induces an isomorphism
 
 $$
 \mathrm{R} _ {(\Phi)} \otimes_ {\mathrm{R}} ^ {\mathbf {L}} \mathrm{S} \rightarrow \mathrm{S} _ {(\Phi)}
 $$
 
-in D(R). Then$\mathbf { L } _ { \mathrm { S / R } } \cong 0$
+in D(R). Then$\mathbf { L } _ { \mathrm { S / R } } \cong 0$.
 
-Remark 5.14. — Of course, (i) is a special case of (ii), and we will only need part (ii). However, we feel that (i) is an interesting statement that does not seem to be very wellknown. It allows one to define the ring of Witt vectors W(R) of R simply by saying that it is the unique deformation of R to a flat p-adically complete$\mathbf { Z } _ { p }$-algebra. Also note that it is clear that$\Omega _ { \mathrm { R } / \mathbf { F } _ { \phi } } ^ { 1 } = 0$in part (i): Any$x \in \mathrm { R }$can be written as$y ^ { \flat } ,$, and then$d x = d y ^ { p } =$ $p y ^ { p - 1 } d y = 0$. This identity is at the heart of this proposition.
+Remark 5.14. — Of course, (i) is a special case of (ii), and we will only need part (ii). However, we feel that (i) is an interesting statement that does not seem to be very wellknown. It allows one to define the ring of Witt vectors W(R) of R simply by saying that it is the unique deformation of R to a flat p-adically complete$\mathbf { Z } _ { p }$-algebra. Also note that it is clear that$\Omega _ { \mathrm { R } / \mathbf { F } _ { p } } ^ { 1 } = 0$in part (i): Any$x \in \mathrm { R }$can be written as$y ^ { p }$, and then$d x = d y ^ { p } =$ $p y ^ { p - 1 } d y = 0$. This identity is at the heart of this proposition.
 
 Proof. — We sketch the proof of part (ii), cf. proof of Lemma 6.5.13(i) in [15]. Let $\mathrm { S } ^ { \bullet }$be a simplicial resolution of S by free R-algebras. We have the relative Frobenius map
 
@@ -1060,7 +1060,7 @@ $$
 \Phi_ {\mathrm{S} ^ {\bullet} / \mathrm{R}}: \mathrm{R} _ {(\Phi)} \otimes_ {\mathrm{R}} \mathrm{S} ^ {\bullet} \rightarrow \mathrm{S} _ {(\Phi)} ^ {\bullet}.
 $$
 
-Note that identifying$\mathrm { S } ^ { k }$with a polynomial algebra$\mathrm { R } [ \mathrm { X } _ { 1 } , \mathrm { X } _ { 2 } , \ldots ]$, the relative Frobenius map$\Phi _ { \mathrm { S } ^ { k } / \mathrm { R } }$is given by the$\mathrm { R _ { ( \Phi ) } } \mathrm { - a l g e b r a }$map sending$\mathrm { X } _ { i } \mapsto \mathrm { X } _ { i } ^ { p }$
+Note that identifying$\mathrm { S } ^ { k }$with a polynomial algebra$\mathrm { R } [ \mathrm { X } _ { 1 } , \mathrm { X } _ { 2 } , \ldots ]$, the relative Frobenius map$\Phi _ { \mathrm { S } ^ { k } / \mathrm { R } }$is given by the$\mathrm { R } _ { ( \Phi ) }$-algebra map sending$\mathrm { X } _ { i } \mapsto \mathrm { X } _ { i } ^ { p }$.
 
 The assumption says that$\Phi _ { \mathrm { S } ^ { \bullet } / \mathrm { R } }$induces a quasiisomorphism of simplicial$\mathrm { R } _ { ( \Phi ) } -$ algebras. This implies that$\Phi _ { \mathrm { S } ^ { \bullet } / \mathrm { R } }$gives an isomorphism
 

@@ -396,3 +396,15 @@
   6. smooth 段："if$\mathrm R␣\mathrm S$is a smooth morphism"缺箭头→→（p.276 Just as 段）
   7. I²=0 段："$\mathrm{~I~C~R~}$"伪 C→$\mathrm I\subset\mathrm R$；"flat$\mathrm R_0=\mathrm R/\mathrm I\mathrm{-algebra}$$\mathrm S_0$"散字合并→"flat$\mathrm R_0=\mathrm R/\mathrm I$-algebra$\mathrm S_0$"（p.276 Specifically 段原图）
 - 备注：triangle/short exact sequence 两个 display 与 print 一致；Theorem 5.11 起行 1033 属印刷 p.277，留待 p.033。
+## p.033（PDF p.33 / 印刷 p.277）
+- PNG：audit/p033.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/277；Theorem 5.11 [23, III.2.1.2.3]/[15, 3.2.9]（Ext² obstruction、torsor、automorphism group）；deformation isomorphism 段；S,S′ lifting 段；Theorem 5.12 [23, III.2.2.2]/[15, 3.2.16]（Ext¹ obstruction）；cotangent vanishing 引导段；Proposition 5.13 (i)(ii)（F_p-algebra、R_{(Φ)}/S_{(Φ)}、R_{(Φ)}⊗^L_R S→S_{(Φ)} display、L_{S/R}≅0）；Remark 5.14（Witt vectors W(R)、Ω¹_{R/F_p}=0、dx=dy^p=py^{p−1}dy）；Proof（S• simplicial resolution、Φ_{S•/R}:R_{(Φ)}⊗_R S•→S•_{(Φ)} display、S^k polynomial、X_i↦X_i^p）
+- 结果：**FAIL**（OCR 排版级+符号错误，已当页修复，以原图为准）：
+  1. Thm 5.11："deformationsforms"→deformations forms；automorphism group 句末补句点（p.277 定理行）
+  2. deformation 段句末补句点（print "= S_0."）（p.277 Here 段）
+  3. S,S′ 段："S, S<sup>\\x10</sup>"（S′ 丢失、sup 内 0x10 控制字节）——\x10 字节登记待字节级修复（建议整段改写为 "S, $\mathrm S′$"）；"morphism f:S→S′"句末补句点（p.277 Now assume 行原图）
+  4. Thm 5.12："extension off$t o f"→"extension of$f_0$to$f"；Ifthere/set ofall/liftsforms 补空格；句末补句点（p.277 定理行）
+  5. Prop 5.13(i)："perfect F -algebra"丢 p、"L_{R/F_b}"→"L_{R/F_p}"（b 系 p 误读）+补句点；(ii)："R␣S be a morphism"缺箭头→→、"via$\Phi:R␣R\\.$"乱码→"$\Phi:R\to R$, and"（p.277 Prop 5.13 两行原图）
+  6. "in D(R). Then L_{S/R}≅0"补句点；Remark 5.14：**"$\Omega^1_{R/\mathbf F_\phi}$"→"$\Omega^1_{R/\mathbf F_p}$"（φ 系 p 误读）**、"written as$y^\flat,$"→"$y^p$, and"（print y^p，PNG 确认）（p.277 Remark 行）
+  7. Proof 段："$\mathrm R_{(\Phi)}\mathrm{-algebra}$"散字合并→$\mathrm R_{(\Phi)}$-algebra；"sending$\mathrm X_i\mapsto\mathrm X_i^p$"补句点（p.277 Proof 段）
+- 备注：display（⊗^L 与 Φ_{S•/R}）与 print 一致；行 1065 起（"The assumption says…"）属印刷 p.278，留待 p.034。
