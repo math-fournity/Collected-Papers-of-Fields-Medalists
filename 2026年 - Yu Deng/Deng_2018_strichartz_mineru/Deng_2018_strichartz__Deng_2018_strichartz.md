@@ -1527,7 +1527,7 @@ $$
 Clearly the same bound holds if we permute$U , V$and W in (6.18), and also if we put $\sim$ in place of the equalities in (6.18). Inserting this into (6.17) we find
 
 $$
-\begin{array}{c}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \sum_{T,M,G,H\in 2^{\mathbb{Z}}}\sum_{\substack{h_{0},h_{2}\sim K\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}\sum_{\substack{h_{1}\sim K\\ U_{0}\lesssim N^{2} / K^{2}}}\sum_{\substack{U_{1}\lesssim N^{2} / K^{2}\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0})\gtrsim G\\ |h_{1}^{2}U_{1} - h_{0}^{2}U_{0}|\sim T}}\sum_{V_{0},W_{0}\lesssim N^{2} / K^{2}}\\ \\ \sum_{\substack{V_{1},W_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}V_{1} - h_{0}^{2}V_{0}|\lesssim T\\ |h_{1}^{2}W_{1} - h_{0}^{2}W_{0}|\lesssim T\\ \gcd (h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}V_{1} - h_{0}^{2}V_{0})\sim H\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}V_{0})\sim G\\ \frac{\gcd(h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}W_{1} - h_{0}^{2}W_{0})}{\gcd(h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}W_{0})}\gtrsim H / G}}\\ \\ \preceq 1 + \sum_{T,M,G,H\in 2^{\mathbb{Z}}}N^{2}\frac{K}{G^{1 / 2}}\left(\frac{T}{K^{2}} +1\right)\frac{N^{4}}{K ^{4}}\\ \\ \left(\frac{GT}{HK^{2}} +1\right)^{2}\left(1 + \frac{HN^{2}}{TK^{2}} +\frac{M}{K^{2}} +\frac{N^{2}HM}{K^{4}T} +\frac{M^{2}N^{2}}{T^{2}K^{6}}\right)2^{2j}M^{-1}. \end{array}
+\begin{array}{c}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \sum_{\substack{T,M,G,H\in 2^{\mathbb{Z}}\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}\sum_{\substack{h_{0},h_{2}\sim K\\ U_{0}\lesssim N^{2} / K^{2}}}\sum_{\substack{h_{1}\sim K\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0})\gtrsim G}}\sum_{\substack{U_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}U_{1} - h_{0}^{2}U_{0}|\sim T}}\sum_{V_{0},W_{0}\lesssim N^{2} / K^{2}}\\ \\ \sum_{\substack{V_{1},W_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}V_{1} - h_{0}^{2}V_{0}|\lesssim T\\ |h_{1}^{2}W_{1} - h_{0}^{2}W_{0}|\lesssim T\\ \gcd (h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}V_{1} - h_{0}^{2}V_{0})\sim H\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}V_{0})\sim G\\ \frac{\gcd(h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}W_{1} - h_{0}^{2}W_{0})}{\gcd(h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}W_{0})}\gtrsim H / G}}\\ \\ \preceq 1 + \sum_{\substack{T,M,G,H\in 2^{\mathbb{Z}}\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}N^{2}\frac{K}{G^{1 / 2}}\left(\frac{T}{K^{2}} +1\right)\frac{N^{4}}{K ^{4}}\\ \\ \left(\frac{GT}{HK^{2}} +1\right)^{2}\left(1 + \frac{HN^{2}}{TK^{2}} +\frac{M}{K^{2}} +\frac{N^{2}HM}{K^{4}T} +\frac{M^{2}N^{2}}{T^{2}K^{6}}\right)2^{2j}M^{-1}. \end{array}
 $$
 
 Here we will explain the bound in the summation in$( V _ { 1 } , W _ { 1 } )$; the bounds in all other summations are straightforward. First consider$V _ { 1 } ;$as$( h _ { 0 } , h _ { 1 } , U _ { 0 } , U _ { 1 } , V _ { 0 } , W _ { 0 } )$is fixed, the four gcd’s in the summation have$\preceq 1$choices, so we may assume they are fixed. Let
@@ -1536,7 +1536,7 @@ $$
 \xi = \operatorname * {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}, h _ {1} ^ {2} V _ {1} - h _ {0} ^ {2} V _ {0}) \sim H, \qquad \operatorname * {g c d} (\xi , h _ {1} ^ {2}) = \operatorname * {g c d} (h _ {1} ^ {2}, h _ {0} ^ {2} U _ {0}, h _ {0} ^ {2} V _ {0}) \sim G,
 $$
 
-then we have$h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 } \equiv 0$(mod ξ). This implies that the residue of$V _ { 1 }$modulo$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } ) \sim$ $H / G$is fixed; as also$|h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 }| \lesssim T$, the number of choices for$V _ { 1 }$will be at most$G T / H K ^ { 2 } + 1$ For$W _ { 1 }$the bound is similar, except that instead of$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } )$we have
+then we have$h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 } \equiv 0$(mod ξ). This implies that the residue of$V _ { 1 }$modulo$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } ) \sim$ $H / G$is fixed; as also$|h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 }| \lesssim T$, the number of choices for$V _ { 1 }$will be at most$G T / H K ^ { 2 } + 1$. For$W _ { 1 }$the bound is similar, except that instead of$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } )$we have
 
 $$
 \frac {\eta}{\operatorname* {g c d} (\eta , h _ {1} ^ {2})} = \frac {\operatorname* {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0} , h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0})}{\operatorname* {g c d} (h _ {1} ^ {2} , h _ {0} ^ {2} U _ {0} , h _ {0} ^ {2} W _ {0})}, \qquad \eta := \operatorname * {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}, h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}),
@@ -1562,7 +1562,7 @@ $$
 \left(\frac {N ^ {12}}{K ^ {9}} + \frac {N ^ {14}}{K ^ {15}}\right) 2 ^ {2 j} \lesssim \frac {N ^ {12}}{K ^ {9}} 2 ^ {2 j} \lesssim \frac {N ^ {12}}{K ^ {3}} 2 ^ {3 j}
 $$
 
-using the fact that$2 ^ { j } \geq N ^ { - 3 }$and$N ^ { 1 / 2 } \leq K \leq N$
+using the fact that$2 ^ { j } \geq N ^ { - 3 }$and$N ^ { 1 / 2 } \leq K \leq N$. □
 
 6.6. Completing the case$p = 8$. Combining (6.7) with (6.9) and (6.11) shows that
 
