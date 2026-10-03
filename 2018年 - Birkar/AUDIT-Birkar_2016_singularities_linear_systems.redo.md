@@ -70,3 +70,13 @@
   - PASS± 项（不修，登记）：①MD 第 247 行 `$B = 0 .$. ` 双句点（印刷单句点）；②Theorem 1.9 若干条目/结论末尾丢印刷标点（如第 229 行 `$f : X \to Z$` 后缺逗号、第 235 行 `$M | _ { S } \equiv 0$` 后缺句点、第 241/243 行行末缺句点）；③`pseudo-effective(efficiency)`→`pseudo-efective/efectivity` ff 拍平三处；④数学式与单词空格粘连。
 - 备注：Luna p.006 登记的箭头/bullet/尾随 2 差异均属实且已正确落地。本次重检未发现本页数学内容错误。
 - 记录时间：2026-10-03 12:40 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：`audit-redo/p007.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：Sketch of the proof of Theorem 1.1 收尾（第四条 bullet 与 m/v/t 来源段、exceptional 情形）、log birational boundedness 段（两处 `V ⇢ X` 虚线箭头、`K_V+B_V^+`、`Δ_V ∼_Q B_V^+`、`m(K_V+Δ_V) ∼ 0`）、Sketch of the proof of Theorem 1.6 开头（`a(T,X,B+sL)=ǫ′`、两处 `φ : Y → X`、`L_Y = φ^*L` 普通斜体）、末行 `L ∈ |−K_X|_R`（无 Ω）；与 Markdown 第 255–277 行逐项比对，辅以 `pdftotext -f 7 -l 7`。
+- 结果：**PASS±**
+  - Luna 旧修复逐项复核为正确：两处 `$V \dashrightarrow X$` 虚线箭头、两处 `$\phi \colon Y \to X$` 箭头均已恢复（原页 PNG 可辨虚线与实线箭头）；`L_Y = φ^*L` 为普通斜体（原页非花体）；`|−K_X|_R` 前无 Ω（原页无线性系统前缀符号）；`m(K_V+B_V^+) ∼ 0` 处无 ι（原页无 ι）。
+  - **print quirk 忠实保留**：印刷原文即作「Replacing X with can assume it is Q-factorial.」（缺 replace 的宾语），MD 第 267 行原样保留，未按数学预期补写；另本页印刷「some rough explanations for as to why」同样为原文怪异短语，MD 原样保留。
+  - PASS± 项（不修，登记）：①MD 第 259 行 `$\mathrm { A p p l y i n g }$` 把 Applying 排成数学正体；②第 263 行 `replacing$m ,$,` 双逗点（印刷单逗号）；③第 259/261/263/277 行行末丢印刷句点；④`effective/coefficients`→`efective/coeficients` ff 拍平四处；⑤数学式与单词空格粘连。
+- 备注：Luna p.007 登记的箭头、花体 L、Ω、ι 差异与 print quirk 保留决定均属实。本次重检未发现本页数学内容错误。
+- 记录时间：2026-10-03 12:47 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
