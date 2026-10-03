@@ -38,3 +38,13 @@
   - 正文与印刷逐句吻合：`[101]`、`[80]`、`[70]` 引用号正确；`mean-field approximation`、`Curie-Weiss model` 术语正确；Ising 两处直接引语（"decay rapidly with distance…"、"of all the possible positions…"）逐字一致；1900/1924/1925 年份正确；页界断词 `tempera-`/`ture` 跨页衔接正确。
   - 残留伪影（登记不改）：MD 行 35 `eficient`——印刷为 `efficient`（ff 拍平 OCR 伪影，非 print quirk）；印刷 running foot `3 100 Years of the Ising Model` 未入 MD。
 - 备注：Luna 旧审计 p.003 判 PASS± 并登记同一 `eficient` 伪影，本次重核结论一致；无内容错误、无新修复。
+
+## p.004（PDF p.4 / 印刷 p.4）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p004.png（pngmono 150dpi）
+- 核对：p.3 跨页续段（Ising conjecture + Stephen Brush 引语）、§2.2 形式定义段符号、公式 (2.1)(2.2)(2.3) 与编号、n.n.f. 术语
+- 结果：**PASS±**
+  - 数学定义逐项吻合：`G = (V, E)`、`Z^d`、`e = {x,y}`、`σ_x ∈ {−1,+1}`、`(σ_x : x ∈ V) ∈ {−1,1}^V`；打印文本的 `{−1,+1}`（自旋取值）与 `{−1,1}^V`（构型空间）差异在 MD 中忠实保留。
+  - 公式：(2.1) `H_{G,h}(σ) := −Σ_{{x,y}∈E} σ_x σ_y − h Σ_{x∈V} σ_x`；(2.2) `H_{G,h,(J_{x,y})}(σ) := −Σ_{x,y∈V} J_{x,y} σ_x σ_y − h Σ_{x∈V} σ_x`；(2.3) `Z(G,β,h) := Σ_{σ∈{−1,1}^V} exp[−βH_{G,h}(σ)]`——求和域、下标、编号与印刷一致；`h ∈ R`、`(J_{x,y} : x,y ∈ V)`、`n.n.f.` 正确。
+  - Luna 旧修复重核**全部成立**：Brush 引语中 `Dr. Wolfgang Pauli`（旧 MD 曾作 `$D r$Wolfgang Pauli`）、`model`（曾作 `mode`）、定义段符号 `V/E/x/y/G`（曾作 `�`）现均与印刷一致。
+  - 残留伪影（登记不改）：MD 行 51 `ofthe`、行 59 `magneticfield`、行 65 `neighbourferromagnetic`——均为印刷含空格而 MD 空格合并（SOP PASS± 类）；行内公式与相邻词的空格合并（如 `subgraph$G = ( V , E )$of`）；running foot `4 Hugo Duminil-Copin` 未入 MD。
+- 备注：本页公式编号 (2.1)–(2.3) 完整；p.5 将核对 (2.4) 的 print quirk（印刷在定义 `H_{G,h}` 之后 (2.4) 即使用 `H_{G,β,h}`）。
