@@ -186,3 +186,11 @@
 - PASS± 项（print quirk 登记，不修）：①Prop 1 印刷作 "A et **K** deux polyèdres finis, contractiles, tels que A ⊂ X"（p020_prop1c_600.png 确认 K；K 在后文未再用，条件句实际用 X）——印刷自身记号不一致，md 忠实保留；②LEMME 2 印刷作 "a → (a, s), **ou** s est un point fixé"（p020_lemme2b_600.png：无重音，对比同行 "où n est" 有重音符）——印刷自身笔误（应为 où），md 忠实保留 "ou"。
 - 差异：无内容错误（除已修复项）。
 - 备注：md 行 797 起 "D'autre part, X est un rétracte…"、REMARQUE réciproque、APPLICATION（π_i(E mod. F) ≅ π_i(B)）与 suite exacte d'homotopie 展示式属印刷 p.444。
+
+## p.021（PDF p.21 / 印刷 p.444）
+- PNG：audit/p021.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p021_homol_600.png、p021_cond2b_600.png、p021_SCdef2_600.png、p021_Sc_600.png（600dpi）
+- 核对：Prop.1 证明结尾与 REMARQUE réciproque；APPLICATION（F = p^{-1}(b)、π_i(E mod. F) ≅ π_i(B)）；suite exacte d'homotopie ⋯ → π_i(F) → π_i(E) → π_i(B) → π_{i−1}(F) → π_{i−1}(E) → ⋯；§3 Le système local formé par l'homologie de la fibre（F = p^{-1}(b)、B et F connexes par arcs、cubes sommets en x (ou b)、"l'homologie de F, E, E mod. F, B"）；DÉFINITION construction subordonnée à v（条件 1 λ_1^0 C(u) = u；条件 2 (p∘C(u))(t, t_1, ⋯, t_n) = v(t)；条件 3 C(λ_i^ε u) = λ_{i+1}^ε C(u)；条件 4 dégénéré）；S_c 定义（(S_c u)(t_1, ⋯, t_n) = C(u)(1, t_1, ⋯, t_n)）与 S_c(λ_i^ε u) = λ_i^ε(S_c u)
+- 结果：PASS
+- 仲裁记录（MD 正确项）：①150dpi 疑印刷为 "l'homologie de E, E mod. F, B"（无 F），600dpi（p021_homol_600.png）确认行首为 **F**，即 "de F, E, E mod. F, B"，MD 四项正确；②条件 2 参数表 150dpi 疑无前导 t，600dpi（p021_cond2b_600.png）确认印刷为 **(t, t_1, ⋯, t_n)**，MD 正确；③S 下标 2x 下疑为资本 C，4x（p021_Sc_600.png）确认定义行与条件行均为**小写斜体 c**（S_c），MD 一致。
+- 差异：无。
+- 备注：md 行 845 起 "nombre d'éléments de H…"、LEMME 3、PROPOSITION 2 与 (C u)(t, t_1, ⋯, t_n) 展示式属印刷 p.445。
