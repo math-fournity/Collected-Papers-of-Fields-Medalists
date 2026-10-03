@@ -677,7 +677,7 @@ $$
 
 Les données (4.2.1), (4.2.2) décrivent entièrement les faisceaux  $R^{i}f_{*}Q_{\ell}$  sur S.
 
-(4.3) Posons $n = 2m$ pour $n$ pair, et $n = 2m + 1$ pour $n$ impair. (4.2.1) et (4.2.2) se décrivent encore en terme d'un cycle évanescent
+(4.3) Posons $n = 2m$ pour $n$ pair, et $n = 2m + 1$ pour $n$ impair. (4.2.1) et (4.2.2) se décrivent encore en terme d'un cycle évanescant
 
 $$
 \delta \in \mathrm{H} ^ {n} (\mathrm{X} _ {\overline {{\eta}}}, \mathbf {Q} _ {\ell}) (m).\tag{4.3.1}
@@ -694,7 +694,7 @@ $$
 Pour $i = n, n + 1$, on a une suite exacte
 
 $$
-0 \rightarrow H ^ {n} (X _ {s}, \mathbf {Q} _ {\ell}) \rightarrow H ^ {n} (X _ {\bar {\eta}}, \mathbf {Q} _ {\ell}) \xrightarrow {x \mapsto \operatorname{Tr} (x \cup \delta)} \mathbf {Q} _ {\ell} (m - n) \rightarrow H ^ {n + 1} (X _ {s}, \mathbf {Q} _ {\ell}) \rightarrow H ^ {n + 1} (X _ {\bar {\eta}}, \mathbf {Q} _ {\ell}) \rightarrow 0.\tag{4.3.3}
+o \rightarrow H ^ {n} (X _ {s}, \mathbf {Q} _ {\ell}) \rightarrow H ^ {n} (X _ {\bar {\eta}}, \mathbf {Q} _ {\ell}) \xrightarrow {x \mapsto \operatorname{Tr} (x \cup \delta)} \mathbf {Q} _ {\ell} (m - n) \rightarrow H ^ {n + 1} (X _ {s}, \mathbf {Q} _ {\ell}) \rightarrow H ^ {n + 1} (X _ {\bar {\eta}}, \mathbf {Q} _ {\ell}) \rightarrow o.\tag{4.3.3}
 $$
 
 L'action (4.2.2) de I (la monodromie locale) est triviale si $i \neq n$. Pour $i = n$, elle se décrit comme suit.
@@ -706,8 +706,6 @@ t _ {\ell}: \mathbf {I} \rightarrow \mathbf {Z} _ {\ell} (1),
 $$
 
 et l'action de $\sigma\in\mathbf{I}$ est
-
-288
 
 $$
 x \mapsto x \pm t _ {\ell} (\sigma) (x, \delta) \delta .
