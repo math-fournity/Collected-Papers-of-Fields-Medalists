@@ -248,3 +248,10 @@
 - 结果：`FAIL`→9 处已修复：①行 1481 `$\overline{{\Pi T(G}}L(d,\mathbf{R}))$` 部分横线 mangling→`$\overline{\Pi T(GL(d,\mathbf{R}))}$`（300dpi 确证整体横线）；②行 1483 `on$\tau$and on`→`on$\mathcal{T}$ and on`（τ 错写应 𝒯，PNG 确凿）；③行 1483 `$\mathbf{g}_1 .$, and` 双句点→`$\mathbf{g}_1$, and`；④行 1485 `$)$)-equivariant` 幻影括号已删+句末补句点；⑤行 1493 同型幻影括号已删；⑥行 1493 `(property$\mathrm{P3}.$that`→`(property P3, that`（标点损毁，印刷为逗号）；⑦行 1493 `$W_d$$\boldsymbol{\mathcal{U}}_{\ge 2}$, we get`→`$W_d$ in$\mathcal{U}_{\geq 2}$, we get`（缺 in，PNG+文本层确凿）；⑧行 1495 `isomorphic to and to .`→`to$\mathcal{T}$ and to$\mathcal{D}$.`（𝒯/𝒟 丢失，PNG+文本层确凿）；⑨行 1499 `the point on corresponding to v`→补 `$\mathcal{H}$`（𝓗 丢失）。其余 PASS±：行 1483 `$\Pi\mathbf{g}=\Pi TG/G$` 后缺句点、`${\cal G}={\cal G}L(n,\mathbf{R})$` 花体样式、行 1493 `\operatorname{is}` 直立体、行 1499 `${\mathbf{}}gl(d,\mathbf{R})$` 空 \bf 组、行 1503/1505 `polydiferential`/`coeficients`/`diferent`（ff 拍平，登记）。公式行 1490 与印刷逐符号吻合。
 - 备注：行 1507 图 page_34_image_0.jpg（两不同顶点情形图）与行 1509 起 "then we apply the following two lemmas" 为印刷 p.35 内容，在 p.035 核对。
 
+## p.035（PDF p.35 / 印刷 p.35）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p035.png`（pngmono 150dpi）
+- 核对：z/z₁/z₂ or-两图（行 1507 引 page_34_image_0.jpg 存在，与印刷 p.35 顶部双图对应）、两个 Lemma（z₁≠z₂∈𝓗 与 z₁∈𝓗,z₂∈R 两情形 ∫_{𝓗\{z₁,z₂\}}dφ(z₁,z)∧dφ(z,z₂) vanishes）、Proof（φ^h、纯虚、z↦−z̄ 反对称性）、§7.3.4 heading、s^aff 截面段（torsion-free ∇、指数映射、T_xX 仿射结构）、ΠTX⟶ΠT(X^aff) 与 𝒯_{s^aff}/𝒟_{s^aff} 段、jets_∞T_poly/jets_∞D_poly 平坦丛段、canonical iso Lemma 与 Proof（MD 行 1507–1541）。
+- 结果：`FAIL`→3 处已修复（PNG+文本层确凿）：①行 1511 `two distinct points on . Then`→补 `$\mathcal{H}$`（𝓗 丢失）；②行 1531 `torsion-free connection  on the tangent`→补 `$\nabla$`（∇ 丢失）；③行 1531 `the exponential map for gives`→补 `$\nabla$`（∇ 丢失）。其余 PASS±：行 1527 involution 式后缺句点；行 1531 句末缺句点、`afine`（ff 拍平）；行 1535 句末缺句点；行 1541 `$Q.E.D$` 缩写尾点缺失（登记）。print quirk 忠实保留：行 1533 `an morphism`（原文冠词）。公式行 1514/1522 与印刷逐符号吻合。
+- 备注：行 1543 起（§7.3.5 Passing to global sections）为印刷 p.36 内容，在 p.036 核对。
+

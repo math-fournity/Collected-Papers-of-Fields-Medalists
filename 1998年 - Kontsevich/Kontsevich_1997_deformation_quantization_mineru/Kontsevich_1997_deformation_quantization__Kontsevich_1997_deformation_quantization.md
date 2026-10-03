@@ -1508,7 +1508,7 @@ The only relevant case is when there is only one edge starting at$v ,$and only o
 
 then we apply the following two lemmas:
 
-Lemma. Let$z _ { 1 } \neq z _ { 2 } \in \mathcal { H }$be two distinct points on . Then the integral
+Lemma. Let$z _ { 1 } \neq z _ { 2 } \in \mathcal { H }$be two distinct points on$\mathcal { H }$. Then the integral
 
 $$
 \int_ {z \in \mathcal {H} \backslash \{z _ {1}, z _ {2} \}} d \phi (z _ {1}, z) \wedge d \phi (z, z _ {2})
@@ -1528,7 +1528,7 @@ Proof: One can prove analogously to the lemma in 7.3.1.1 that the integral does 
 
 ## 7.3.4. Flat families over X
 
-Let us choose a section$s ^ { a f f }$of the bundle$X ^ { a f f } { \longrightarrow } X$. Such section always exists because fibers of this bundle are contractible. For example, any torsion-free connection  on the tangent bundle to X gives a section$X { \longrightarrow } X ^ { a f f }$. Namely, the exponential map for gives an identification of a neighborhood of each point$x \in X$with a neighborhood of zero in the vector space$T _ { x } X$, i.e. an afine structure on X near x, and a point of$X ^ { a f f }$over$x \in X$
+Let us choose a section$s ^ { a f f }$of the bundle$X ^ { a f f } { \longrightarrow } X$. Such section always exists because fibers of this bundle are contractible. For example, any torsion-free connection$\nabla$ on the tangent bundle to X gives a section$X { \longrightarrow } X ^ { a f f }$. Namely, the exponential map for$\nabla$ gives an identification of a neighborhood of each point$x \in X$with a neighborhood of zero in the vector space$T _ { x } X$, i.e. an afine structure on X near x, and a point of$X ^ { a f f }$over$x \in X$
 
 The section$s ^ { a f f }$defines a map of formal graded Q-manifolds$\Pi T X { \longrightarrow } \Pi T ( X ^ { a f f } )$. After taking the pullback we get two flat families$\mathcal { T } _ { s ^ { a f f } }$and$\mathcal { D } _ { s ^ { a f f } }$over ΠTX and an morphism$m _ { s ^ { a f f } }$from one to another.
 
