@@ -33,5 +33,12 @@
 - 结果：PASS±。MD 行 27–35 与原页逐段吻合：fibrés 重音、« couple plat »、l'Annexe déf. 4、théorèmes A et B de [3] exp. XVIII-XIX、脚注(1)（…renvoyons à [3], exp. XX.）均一致；印刷花体 𝒪_x、ℋ_x 与 MD $\mathcal{O}_x$/$\mathcal{H}_x$ 对应（150dpi 可辨，Luna 300dpi 旧裁剪同证）。差异（登记不改）：印刷小型大写「BETTI」「CHOW」在 MD 作「Betti」「Chow」（与 p.002 同类大小写规范化）；印刷斜体（normales、espaces fibrés 等）未标。
 - 备注：Luna 旧判本页 PASS±，重检维持；本页 Luna 无 md 修复。
 
+## p.004（PDF p.4 / 印刷 p.3）
+- PNG：audit-redo/p004.png（pngmono 150dpi）
+- 核对：Introduction 末段、§ 1 节标题、n° 1 标题、解析子集定义段（n ⩾ 0、f₁,…,f_k、U ∩ W）、𝒞(X)/ℋ/𝒞(Cⁿ) 记号、限制同态显示式 ε_x、𝒜_x(U) 核与商环句、holomorphe 定义段（C^r/C^s、ℋ_{φ(x),V}）。
+- 结果：PASS±。MD 行 37–55 与原页逐项吻合：$\geqslant$ 与印刷斜等号 ⩾ 一致（pdftotext 拍平为「^ 0」，以 PNG 为准）；显示式 ε_x : 𝒞(Cⁿ)_x → 𝒞(U)_x 下标、上标 n 与箭头均正确；𝒜_x(U)、ℋ_{x,U}、f∈ℋ_{φ(x),V} ⟹ f∘φ∈ℋ_{x,U} 全部一致。差异（登记不改）：①印刷显示式末尾句点「(U)_x.」在 MD 显示式未保留；②印刷斜体（analytique、faisceau des germes de fonctions holomorphes sur U、application holomorphe）未标；③印刷正体 U/V/W 与 MD 数学模式 \mathrm{U} 等混排（可辨识）。
+- 备注：Luna 旧判本页 PASS±，重检维持；本页 Luna 无 md 修复。
+
+
 
 
