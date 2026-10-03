@@ -78,3 +78,10 @@
 - 核对：The result now follows from Lemma I.5 段、COROLLARY I.6 (CONSISTENCY) 全陈述与证明（{y_0}=E_-(φ(u−ψ_++1))、F(y_0,…)≥0 展示式）、changes of variables 引句、COROLLARY I.7 (i)(ii) 与两个 G 定义式（r/g(y)+ψ(y)、−rDg/g²+p/g+Dψ；Φ⁻¹(ŷ) 共轭式与 cotangent 说明句）、We omit the proof 段、COROLLARY I.8 与 (1.10)、PROOF OF COROLLARY I.8 首段与 φ̃/k̃ claim 展示式
 - 结果：**PASS±**。全部公式、分号体例（respectively; supersolution, solution）、(1.10) 标号与不等号均与印刷页相符。源级 quirk 登记（MD 忠实照录，不改）：(1.10) 后证明 claim 式右端因子印刷为 $\Psi'(v(x_0))$（300dpi 确证为大写 Psi 加 prime；Ψ 随后在 p.9 定义为 Φ⁻¹），MD 照录 `\Psi^{\prime}`；φ̃/k̃ 印刷为波浪号（非帽号），MD `\tilde` 一致；G(ŷ,r,p)=F(…) 行尾印刷为三个闭括号（2x 裁片确证配平），MD 结构一致。页眉作者行与印刷页码 8 未录入 Markdown。
 - 备注：p.8 页末止于 claim 展示式；"where Ψ(t) = Φ⁻¹(t)…" 自 p.9 起，页界正确。
+
+## p.009（PDF p.9 / 印刷 p.9）
+
+- PNG：audit-redo/p009.png（pngmono 150dpi）；仲裁裁片 300dpi×4：(1.12) 全式（1.7x）、Ω×(]0,T]) 字形（2.2x）、extension 两处 C(R^N)（1.7x/1.9x）（/tmp 中转，结论已录本条）
+- 核对：where Ψ(t)=Φ⁻¹(t) 收尾、(1.11) 两行式（第一行 ·(x−x_0)、辅助函数行 ·|x−x_0|，300dpi 分别核对一致）、ε/ε̃ 条件句、u(x)≤Ψ(…)≤ũ(x) 三行大式、Lemma I.4 应用句（u(x_0)−k̃>0; x_0∈E_+(φ̃(ũ−k̃))）、−Dφ̃(x_0)(u(x_0)−k̃)/φ̃(x_0)=−Ψ′(v(x_0))… 展示式（含 supp φ̃⊂B(x_0,h)）、where h is small 段、**(1.12)**、and thus 句、REMARK I.13 全段、I.3 节首段至页末断句 The unit normal to
+- 结果：**PASS±**。重核 Luna 旧登记（非修复、源级 quirk）：(1.12) 印刷式在第二、三组乘积间**无比较符号**（`φ̃(x)(ũ(x)−k̃)` 与 `φ̃(x_0)(ũ(x_0)−k̃)` 直接并置）且末项为 `φ̃(x_0)(u(x_0)k̃)`（u(x_0) 与 k̃ 间**无减号**）——1.7x 300dpi 裁片逐项确证，同行其余减号清晰可辨，排除扫描丢失；MD 行 316 照录两处忠实，**维持不改**。**本次修复 1 处**：行 321 REMARK I.13 域形式，MD 原作 `Ω × ([0,T])`，印刷 2.2x 裁片明确为 `Ω × (]0,T])`（半开区间，开端在 0，与全文 Ω×]0,T] 用法一致）→ 改为 `(]0,T])`。源级 quirk 补充登记：REMARK I.13 两处 extension 印刷均为 `φ̃ ∈ C(R^N)`（无上标 ¹，1.7x/1.9x 裁片确证；数学上应为 C¹，印刷即如此），MD 照录忠实不改。样式差异：`REMARK 1.13`（I→1 拍平，已登记）；行 323 `O = O_+ ∪ O_- ∪ Γ` 用普通 O 而非 $\mathcal{O}$（同页下行即用 \mathcal{O}，字体转录不一致，对象可辨，登记不改）。页眉 running head 与印刷页码 9 未录入 Markdown。
+- 备注：p.9 页末断句接 p.10「n(y_0) which points into 𝒪_+」；本页无脚注。(1.11) 标号在印刷页左侧独立，MD tag 一致。
