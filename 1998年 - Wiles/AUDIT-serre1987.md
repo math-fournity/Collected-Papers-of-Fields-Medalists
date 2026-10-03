@@ -329,3 +329,11 @@
 - 核对：§5 开头（J-F. Mestre、p = 2/3/7 与 n°s 5.1-5.5 列表）、5.1 标题（GL₂(F₂) ≃ 𝔖₃）、K^gal/Gal(K^gal/Q) 段、ρ^K: G_Q → GL₂(F₂) 式、(N, k, ε) 判定段（D = ±2^m N、m = 0, 2 où 3、conducteur N、ε = 1、k = 2 (resp. 4)）、(3.2.4?) 预测段（F₂/F₄、(N, k, 1)）、A₃/U₂ 数值表（−23/2/23、−31/2/31、−44/2/11、−59/2/59、−76/2/19、−104/4/13、148/2/37、229/2/229、257/2/257、316/2/79）、(D = −23, −31, 257) 括注（F₄ − F₂、(3.2.6?)）。
 - 结果：FAIL。两处已依原图修复：① 正文 “le groupe symétrique 𝔖₃” 在 Markdown 写成普通斜体 $S_{3}$（300 dpi 裁片确认 Fraktur 花体，与 5.1 标题同字形），修为 $\mathfrak{S}_{3}$；② “La conjecture (3.2.4.)” 丢下标 ?，印刷为 (3.2.4_?)，修为 “(3.2.4?)”。其余文字与表格逐格吻合。
 - 备注：Markdown 表格为 markdown table 格式，表头 “D<0” 以 HTML 转义呈现，渲染正常，排版级；5.1 标题同构符号与全文 \simeq 字形一致，不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 217” 未收入 Markdown，排版级。印刷页止于 “…appartiennent à F₂.)”，PROPOSITION 10 段属印刷 p.218。
+
+## p.040（PDF p.40 / 印刷 p.218）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p040.png`（pngmono，150 dpi）。
+- 核对：Dans le cas général 句（(3.2.4?)）、PROPOSITION 10、(3.2.3?) 括注、Démonstration（𝔖₃ → GL₂(Z)、ρ₀^K: G_Q → GL₂(C)、ε_D: G_Q → 𝔖₃ →^{sgn} {±1}、Q(√D)）、情形 (i)（ε_D impair、𝔖₃ diédral、[11],[45]、F₁ poids 1 niveau |D|、thêta、E_D Eisenstein、F = F₁·E_D、f = F̃₁、Ẽ_D = 1、(2^m N, 2, 1)）、k′ 括注（m = 0、D = −N、k′ = 2）、情形 (ii)（ψ d'ordre 3、α auxiliaire、(ii₁)/(ii₂)/(ii₃)）、L'existence 括注、ρ₀′ = Ind(ψα) 句首。
+- 结果：FAIL。一处已依原图修复：Markdown 在 “D'après (ii₁), sa” 处把下标写成错误转义 “(ii$\_{1}$)”（渲染为字面反斜杠），修为 “(ii$_{1}$)”。其余文字与公式逐项吻合。
+- 备注：印刷 “f = F̃₁” 的 tilde 与 Markdown \tilde{F}_1 一致；(ii₁)/(ii₂)/(ii₃) 列表下标其余处正常，仅此引用处转义损坏；页眉 “218 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “D'après (ii₁), sa”，réduction 段属印刷 p.219。

@@ -1721,7 +1721,7 @@ Le corps $\mathbf{Q}(\sqrt{D})$ est alors un corps quadratique réel, et la repr
 
 (L'existence d'un tel caractère est facile à démontrer.)
 
-Soit $\rho_{0}^{\prime} = \operatorname{Ind}(\psi\alpha)$ la représentation de $G_{\mathbf{Q}}$ induite par le caractère $\psi\alpha$ du corps $\mathbf{Q}(\sqrt{D})$. C'est une représentation irréductible de degré 2. D'après (ii\$\_{1}\$), sa
+Soit $\rho_{0}^{\prime} = \operatorname{Ind}(\psi\alpha)$ la représentation de $G_{\mathbf{Q}}$ induite par le caractère $\psi\alpha$ du corps $\mathbf{Q}(\sqrt{D})$. C'est une représentation irréductible de degré 2. D'après (ii$_{1}$), sa
 
 réduction en caractéristique 2 est isomorphe à $\mathrm{Ind}(\psi) \simeq \rho^{K}$. D'après $(\mathrm{ii}_{2})$, son déterminant est impair, et d'après $(\mathrm{ii}_{3})$ son conducteur est de la forme $2^{M}N$, avec $M$ entier. On peut donc appliquer à $\rho_{0}^{\prime}$ l'argument utilisé dans le cas (i) pour $\rho_{0}^{K}$: cette représentation est associée à une forme parabolique $F^{\prime}$ de poids 1 et de niveau $2^{M}N$; par réduction en caractéristique 2, $F^{\prime}$ donne la forme $f$ cherchée. (Noter qu'ici $F^{\prime}$ est combinaison linéaire de fonctions thêta de formes binaires indéfinies.)
 
