@@ -385,3 +385,11 @@
 - 核对：Fixons 段（D = −3、K corps sextique、X⁶ + aX + b = 0、𝔄₆）、Mestre 七组 (a,b) 列表、[46] n° 3.3 段（w = (3)(−d) + (−1)(−1)、d discriminant、d est un carré、w = (3)(−1) + (−1)(−1) = (−1)(−3)）、obs(α) = 0、ρ: G_Q → G ⊂ GL₂(F₉)、torsion quadratique 段（[45] §6、k = 2 ou 4、l = 2 et 5）、f = Σaₙqⁿ/(N,k,1)/F₉/ρ ≃ ρ_f、ord(l) 定义句、四情形判据（ord = 1 ou 3 ⇔ a_l² = (l/3)；= 2 ⇔ a_l = 0；= 4 ⇔ a_l² = −(l/3)；= 5 ⇔ a_l⁴ = −1）、F₉ 括注。
 - 结果：FAIL。两处已依原图修复：① “de groupe de Galois 𝔄₆” 在 Markdown 写成普通斜体 $A_{6}$（同段 Gal(K^gal/Q) ≅ \mathfrak{A}_6 体例正确），修为 $\mathfrak{A}_{6}$；② “(pour l ∤ 3N)” 在 Markdown 写成 “l + 3N”（300 dpi 裁片确认 + 样不整除符，同前已登记字形），修为 l \nmid 3N。其余文字与公式逐项吻合。
 - 备注：Legendre 符号 (l/3) 与 ⇔ 记号一致；Mestre 列表七组数对逐项核对无误；页眉 “224 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 F₉ 括注，“En particulier, si l ≠ 3…” 段属印刷 p.225。
+
+## p.047（PDF p.47 / 印刷 p.225）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p047.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p047_table.png`、`audit/300dpi/serre1987_p047_peu.png`（pnggray）。
+- 核对：En particulier 段（x⁶ + ax + b ≡ 0 (mod l)、ordre 8 de F₉*、a_l = 0）、Mestre 搜索段（2^m 5^n、ramification sauvage en 5、exercice dyadique、2.5^n/2²5^n/2³5^n）、a/b/d^{1/2}/k/niveau 七行表（24/−20/2³3³5³/2/2³5³=1000；30/25/2³3³5⁴/2/⩾20000?；240/400/2²3³5⁴/2/2²5⁴=2500；240/−400/2³3³5⁴/2/2³5⁴=5000；48/−80/2³3³5³/2/2³5³=1000；432/720/2²3⁵5³/4/2²5³=500；480/−400/2³3²5⁴/2/2³5⁴=5000）、Noter le cas 段（2^m 5⁴、m ⩾ 5、N ⩾ 20000、un peu trop grand、Eichler-Selberg）、5.5 节标题（PSL₂(F₇) d'ordre 168）、(5.5.1) X⁷ − 7X + 3 = 0、W. Trinks–cf. [25]、G = {±1, ±i}·SL₂(F₇) 式。
+- 结果：PASS。表格 35 个数据格（含指数）逐格与印刷吻合，文字段落逐句吻合。
+- 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① d^{1/2} 列各行指数（如首行实为 2³3³5³ 而非 2²3³5²）与 Markdown 完全一致；② niveau “⩾ 20000?” 的问号一致；③ 印刷确为 “un peu trop grand”，Markdown “un peu” 一致。GL₂(F₄₉) 下标 49 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 225” 未收入 Markdown，排版级。印刷页止于 G 定义式，“où i est un élément…” 段属印刷 p.226。
