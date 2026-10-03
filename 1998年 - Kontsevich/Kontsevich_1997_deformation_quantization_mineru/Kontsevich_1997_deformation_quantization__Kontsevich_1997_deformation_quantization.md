@@ -1590,13 +1590,13 @@ $$
 
 where$\gamma ^ { l } \in ( \mathbf { k } [ 0 ] \cdot 1 \oplus \mathbf { m } ) ^ { 1 - l } \otimes H o m ( A ^ { \otimes ( l + 1 ) } , A )$is homogeneous component of$\left( \gamma + 1 \otimes m _ { A } \right)$
 
-It is not a trivial check that the cup-product on the Hochschild complex is compatible with diferentials, and also is commutative, associative and gauge-equivariant on the level of cohomology. Formally, we will not use this fact. The proof is a direct calculation with Hochschild cochains. Even if one replaces formulas by appropriate pictures the calculation is still quite long, about 4-5 pages of tiny drawings. Alternatively, there is a simple abstract explanation using the interpretation of the deformation theory related with the shifted Hochschild complex as a deformation theory of triangulated categories (or, better,$A _ { \infty } .$-categories, see [Ko4]). We will discuss it in more details in the sequel to the present paper.
+It is not a trivial check that the cup-product on the Hochschild complex is compatible with diferentials, and also is commutative, associative and gauge-equivariant on the level of cohomology. Formally, we will not use this fact. The proof is a direct calculation with Hochschild cochains. Even if one replaces formulas by appropriate pictures the calculation is still quite long, about 4-5 pages of tiny drawings. Alternatively, there is a simple abstract explanation using the interpretation of the deformation theory related with the shifted Hochschild complex as a deformation theory of triangulated categories (or, better,$A _ { \infty }$-categories, see [Ko4]). We will discuss it in more details in the sequel to the present paper.
 
 We define the cup-product for$D _ { p o l y } ( X )$by the restriction of formulas for the cup-product in$C ^ { \bullet } ( A , A )$
 
-## 8.2. Compatibility of  with cup-products
+## 8.2. Compatibility of$\mathcal { U }$ with cup-products
 
-Theorem. The quasi-isomorphism  constructed in section 6 maps the cup-product for$T _ { p o l y } ( X )$to the cup-product for$D _ { p o l y } ( X )$.
+Theorem. The quasi-isomorphism$\mathcal { U }$ constructed in section 6 maps the cup-product for$T _ { p o l y } ( X )$to the cup-product for$D _ { p o l y } ( X )$.
 
 Sketch of the proof: we translate the statement of the theorem to the language of graphs and integrals. The tangent map is given by integrals where one of vertices of the first type is marked. This is the vertex where we put a representative t for the tangent element$[ t ] \in H _ { \gamma }$. We put copies of$\gamma$(which is a polyvector field with values in m) into all other vertices of the first type. The rule which we just described follows directly from the Leibniz formula applied to the Taylor series for$\mathcal { U } .$
 
@@ -1604,7 +1604,7 @@ Now we are interested in the behavior of the tangent map with respect to a bilin
 
 ## 8.2.1. Pictures for the cup-product in polyvector fields
 
-We claim that the cup-product for the case$T _ { p o l y } ( X )$corresponds to pictures where two points (say, $p _ { 1 } , p _ { 2 } )$where we put representatives of elements of$H _ { \gamma }$which we want to multiply, are infinitely close points on . Precisely, it means that we integrate over preimages$P _ { \alpha }$of some point α in${ \bf R } / 2 \pi { \bf Z } \simeq C _ { 2 } \subset \overline { { C } } _ { 2 , 0 }$with respect to the forgetting map
+We claim that the cup-product for the case$T _ { p o l y } ( X )$corresponds to pictures where two points (say, $p _ { 1 } , p _ { 2 } )$where we put representatives of elements of$H _ { \gamma }$which we want to multiply, are infinitely close points on$\mathcal { H }$. Precisely, it means that we integrate over preimages$P _ { \alpha }$of some point α in${ \bf R } / 2 \pi { \bf Z } \simeq C _ { 2 } \subset \overline { { C } } _ { 2 , 0 }$with respect to the forgetting map
 
 $$
 \overline {{{C}}} _ {n, m} \longrightarrow \overline {{{C}}} _ {2, 0}.
@@ -1616,7 +1616,7 @@ $$
 P _ {\alpha} \cap \partial_ {S} (\overline {{C}} _ {n, m}), P _ {\alpha} \cap \partial_ {S _ {1}, S _ {2}} (\overline {{C}} _ {n, m})
 $$
 
-in boundary strata of$\overline { { C } } _ { n , m }$. It is easy to see that intersections$P _ { \alpha } \cap \partial _ { S _ { 1 } , S _ { 2 } } ( \overline { { C } } _ { n , m } )$are empty, and intersection $P _ { \alpha } \cap \partial _ { S } ( \overline { { C } } _ { n , m } )$is non-empty if$S \supseteq \{ 1 , 2 \}$. The picture is something like
+in boundary strata of$\overline { { C } } _ { n , m }$. It is easy to see that intersections$P _ { \alpha } \cap \partial _ { S _ { 1 } , S _ { 2 } } ( \overline { { C } } _ { n , m } )$are empty, and intersection $P _ { \alpha } \cap \partial _ { S } ( \overline { { C } } _ { n , m } )$is non-empty iff$S \supseteq \{ 1 , 2 \}$. The picture is something like
 
 ![](images/page_36_image_13.jpg)
 

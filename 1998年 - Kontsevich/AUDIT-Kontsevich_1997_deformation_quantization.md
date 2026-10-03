@@ -262,3 +262,10 @@
 - 结果：`FAIL`→1 处已修复：行 1563 `$(\Gamma(\overrightharpoon{T_{s^aff}}\overrightarrow{\longrightarrow}T[1]X)_{formal},\sigma_T)$` harpoon 装饰箭头 mangling→`$(\Gamma(\mathcal{T}_{s^aff}\longrightarrow T[1]X)_{formal},\sigma_T)$`（PNG 确凿）。print quirk 忠实保留：行 1553 `𝒟_{s^aff} a naturally quasi-isomorphic`（300dpi `_p036_a_naturally.png` 确证印刷为 a 非 are，原文笔误）；行 1563 `that that`（原文重复）。其余 PASS±：行 1551/1553/1563 附近句末缺句点/`$Q.E.D$` 缩写尾点缺失；行 1571/1579/1581 `diferential`×7/`coeficients`（ff 拍平，登记）。公式行 1548/1558/1568/1584/1588 与印刷逐符号吻合（cup-product 求和限与 γ 指数逐符号核对通过）。
 - 备注：行 1591 起（where$\gamma^l\in(\mathbf{k}[0]\cdot 1\oplus\mathbf{m})^{1-l}…$）与 §8.2（行 1597，标题 "Compatibility of 𝒰 with cup-products" 当前缺 𝒰）为印刷 p.37 内容，属下一块 p.037 审计——已预记 §8.2 标题疑点移交。
 
+## p.037（PDF p.37 / 印刷 p.37）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p037.png`（pngmono 150dpi）
+- 核对：γ^l 分次分量段、cup-product 相容性讨论段（A∞-categories、[Ko4]）、D_poly cup-product 限制段、§8.2 标题（上块移交线索①落实）、Theorem（𝒰 保 cup-product）、Sketch of the proof（marked vertex、[t]∈H_γ、Leibniz）、§8.2.1 heading、p₁/p₂ 无限接近段（𝓗、P_α preimages、R/2πZ≃C₂⊂C̄_{2,0}）、forgetting map C̄_{n,m}⟶C̄_{2,0} 式、codim 2 段与 P_α∩∂_S/∂_{S₁,S₂} 两闭包式、S⊇{1,2} iff 段、p₁p₂ circled 图（行 1621 引 page_36_image_13.jpg 存在）、no directions 段（印刷 "there is no directions" 原貌保留）（MD 行 1591–1623）。
+- 结果：`FAIL`→5 处已修复：①行 1593 `$A_{\infty}.$-categories` 杂散句点已删；②行 1597 §8.2 标题 `Compatibility of  with cup-products`→补 `$\mathcal{U}$`（移交线索证实，PNG 确凿）；③行 1599 `The quasi-isomorphism  constructed`→补 `$\mathcal{U}$`；④行 1607 `infinitely close points on . Precisely`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）；⑤行 1619 `is non-empty if$S\supseteq\{1,2\}$`→`iff`（ff 连字吞失，PNG+文本层确凿）。其余 PASS±：行 1593 `diferentials`、行 1579/1581 附近 ff 拍平（登记）；行 1591/1595 句末缺句点；行 1623 `there is no directions`（原文如此）。公式行 1610/1616 与印刷逐符号吻合。
+- 备注：行 1625 图 page_37_image_0.jpg 与行 1627 起（This figure exactly corresponds…、§8.2.2）为印刷 p.38 内容，在 p.038 核对。
+
