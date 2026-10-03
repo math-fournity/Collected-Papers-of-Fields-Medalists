@@ -214,3 +214,12 @@
 - 仲裁记录：①150dpi 初读末段 λ 下标上疑无上标 ε，600dpi（p023_lam2_600.png、p023_lam_600.png）确认两处印刷均为 **λ_i^ε u**（ε 上标清晰），MD "$\lambda_i^\epsilon u$" 正确；②600dpi（p023_Scu_600.png）确认 "telle que **S_cu** = u" 下标为小写斜体 c，与 p.022 全页 S 下标约定一致，MD 正确。
 - 差异：无。
 - 备注：交换图线性化为 array（p′↓ 与 p↓. 同行、句点保留），节点/箭头/标记逐项吻合；md 行 923 起 "Etude du terme E_0." 属印刷 p.447，留待 p.024。
+
+## p.024（PDF p.24 / 印刷 p.447）
+- PNG：audit/p024.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p024_d0u_600.png、p024_prop3_600.png（600dpi）
+- 核对：Etude du terme E_0 行；Rappelons 段（E_0^p = A^p/A^{p−1}、E_0 = Σ_p E_0^p、d_0、combinaisons linéaires … w(u) ≦ p−1）；Si u est un cube 段与展示式 d_0u = Σ_{i>p} (−1)^i(λ_i^0 u − λ_i^1 u) dans E_0^p；puisque λ_i^ε u ∈ T^{p−1} si i ≦ p；Définissons … opérations B et F 段；Bu/Fu 两定义式（含 (y_i quelconques)）；(Pour un cube u donné …) 括注（Fu, Bu 顺序、w(u) ≦ p ≦ deg. u）；propriétés 1) 2) 3)（Bλ_i^ε u = Bu、Fλ_i^ε u = λ_{i−p}^ε Fu si i > p, ε = 0, 1）；J_p = C_p(B) ⊗ C(F) 与 d_F(b ⊗ f) = (−1)^p b ⊗ df；φ: E_0^p → J_p 与 (1) φ(u) = Bu ⊗ Fu；compatibilité 段（d_F∘φ = φ∘d_0、homomorphisme permis）；§5 标题 "5. Calcul du terme E₁"；PROPOSITION 4 全文（équivalence de chaînes）；末行 ψ: J_p → E_0^p 起句（跨页）
+- 结果：PASS
+- 仲裁记录：①600dpi（p024_d0u_600.png）确认展示式下限 **i > p**、λ_i^0/λ_i^1 两上标、随句 **dans E_0^p,** 与 "puisque λ_i^ε u ∈ T^{p−1} si i ≦ p."（含 ε 上标与句点）均与 MD 一致；②600dpi（p024_prop3_600.png）确认性质 3) 印刷为 **Bλ_i^ε u = Bu, Fλ_i^ε u = λ_{i−p}^ε Fu si i > p, ε = 0, 1.**（下标 i−p 清晰），MD 逐项吻合。
+- PASS± 项（排版级，不修）：①md 行 930 展示式内 "dans" 被 mineru 拆成 "d a n s"（字母间空格）；②md 行 938 的 "(y_i quelconques)" 附于 array 之后（渲染时贴 Fu 行），印刷中与 Bu 行对齐——线性化排版差异，内容无损；③md 行 933 句尾缺印刷句点；④md 行 949 "\mathrm{si}" 直立体对印刷斜体 si。
+- 差异：无内容错误。
+- 备注：md 行 973 起 "φ∘ψ = 1 …" 与 Construction de ψ、LEMME 4 属印刷 p.448，留待 p.025。
