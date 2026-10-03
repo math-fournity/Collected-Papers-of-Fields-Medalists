@@ -211,7 +211,7 @@ $$
 Next choose a sequence $\{\varphi_l\}_{l=1}^{\infty} \subset \mathfrak{D}(\mathcal{O})^+$ with supports contained in a fixed compact subset of $\mathcal{O}$ so that $\varphi_l \to \psi_-$ and $D\varphi_l \to D\psi_-$ uniformly. For large $l$, $\varphi_l(y_0)(u(y_0) - k) > 0$ so $E_+(\varphi_l(u - k)) \neq 0$ and, by assumption, there exist $y_l \in E_+(\varphi_l(u - k))$ such that
 
 $$
-F \left(y _ {l}, u (y _ {l}), - \frac {u (y _ {l}) - k}{\varphi_ {l} (y _ {l})} D \varphi_ {l} (y _ {l})\right) \leqslant 0.\tag{1.9}
+F \left(y _ {l}, u (y _ {l}), - \frac {u (y _ {l}) - k}{\varphi (y _ {l})} D \varphi_ {l} (y _ {l})\right) \leqslant 0.\tag{1.9}
 $$
 
 Passing to a subsequence if necessary we may assume $y_{l}$ converges to a limit $y$. Clearly $y \in E_{+}(\psi_{-}(u - k))$ and then $y = y_0$ by (1.8). Sending $l$ to $\infty$ in (1.9) and using $\varphi_{l} \to \psi_{-}$ in $C^1, \psi_{-}(y_0) = \varphi(y_0), D\psi_{-}(y_0) = D\varphi(y_0)$ we conclude
