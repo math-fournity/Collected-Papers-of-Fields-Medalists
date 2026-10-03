@@ -472,3 +472,14 @@
   3. "Galois extension L of K<sup>-</sup>"→$\mathrm K^\flat$；"$\mathrm F^{\mathrm b}=\mathrm L^{\mathrm H}$"→"$\mathrm F^\flat=\mathrm L^{\mathrm H}$"（b→♭）；"=F.$and"伪'.$'→", and"；"equal.-"→".□"（p.283 Proof reducing 行）
   4. **控制字节登记**：行 1247 三处 \x03（"Let M<sup>\x03</sup>"、"contained in L<sup>\x03</sup>"、"Note that L<sup>\x03</sup>"——♯ 丢失，print M^♯/L^♯，PNG 确认）——登记待字节级修复（\x03→$^{\sharp}$，即 sup 内容替换）
 - 备注：Theorem 5.25 与 ramification 段文字与 print 一致；Definition 6.1 与 𝔪R°⊂R^+ 段行 1253/1255 属印刷 p.283 尾与 p.284 交界，其"m$\\mathbb R^\\circ$"缺 fraktur 留待 p.040 一并处理。
+## p.040（PDF p.40 / 印刷 p.284）
+- PNG：audit/p040.png（pngmono 150dpi）
+- 核对：页眉 284/PETER SCHOLZE；Lemma 6.2（R^{♭+}/ϖ^♭≅R^+/ϖ、R^{♭+}=lim_{←x↦x^p}R^+）；Proof+QED □；Theorem 6.3 (i)–(iv)（x^♭∈X^♭、U^♭⊂X^♭、O_X/O_{X^♭} sheaves、𝔪-torsion）；R^+ 非 K°-algebra 备注；outline 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. （上块边界承接）Def 6.1 后段："m$\\mathbb R^\\circ\\subset\\mathbb R^+\\subset\\mathbb R^\\circ$"→"$\\mathfrak m\\mathrm R^\\circ\\subset\\mathrm R^+\\subset\\mathrm R^circ$"（𝔪 fraktur+blackboard 系误字族，print 𝔪R°⊂R^+⊂R°）+补句点（p.283 末行，本页一并修正）
+  2. Lemma 6.2：ofperfectoid补空格、"$\\mathrm K^\\flat.$-algebras"伪'.$'→$\\mathrm K^\\flat$-algebras、"$H(\\mathbb R,\\mathbb R^+)$) maps to"（If 乱码为 H+游离右括号）→"If$(\\mathrm R,\\mathrm R^+)$maps to"；**"Also$\\mathbb R^+=\\varprojlim_{x\\mapsto x^\\rho}\\mathbb R^+$"→"Also$\\mathrm R^{\\flat+}=\\varprojlim_{x\\mapsto x^p}\\mathrm R^+$."（ρ 系 p 误读+blackboard 误字族，print R^{♭+}=lim_{←x↦x^p}R^+，PNG 确认）**（p.284 Lemma 6.2 行原图）
+  3. Proof 6.2 "last identities.-"→".□"（p.284 Proof 行）
+  4. Theorem 6.3(i)："$\\mathrm X^{\\mathrm b}.$,"伪'.$'与 \\mathrm b→$\\mathrm X^\\flat$、"$x^{\\mathrm p}∈\\mathrm X^{\\mathrm b}$"→"$x^\\flat∈\\mathrm X^\\flat$"（p 系 ♭ 误读，print x^♭∈X^♭）；(ii)"tilt$\\mathrm U^{\\mathrm p}\\subset\\mathrm X^{\\mathrm p}$"→"$\\mathrm U^\\flat\\subset\\mathrm X^\\flat$"（同上）；(iv)"is m-torsion"→"$\\mathfrak m$-torsion"（fraktur，PNG 确认）+补句点（p.284 (i)(ii)(iv) 行原图）
+  5. outline 段："$\\mathrm K^{\\circ a}{-}\\mathrm al$gebra"散字→$\\mathrm K^{\\circ a}$-algebra、ofthe→of the、"part$(\\mathrm i)_{-}$and"伪"_{-}"→"part (i), and"（p.284 Let us give 段）
+  6. proof outline 段：characteristic$\\boldsymbol p$×2→$p$（p.284 It remains 段）
+- 备注：Theorem 6.3 (iii) 与 R^+ 备注段与 print 一致；行 1277 自"as the completed direct limit ofalgebras ofthe previous form"起属印刷 p.285（其中 ofalgebras/ofthe 两处缺空格一并留给 p.041），留待 p.041。
