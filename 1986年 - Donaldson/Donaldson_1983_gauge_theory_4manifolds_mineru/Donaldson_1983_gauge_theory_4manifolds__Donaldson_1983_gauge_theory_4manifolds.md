@@ -708,7 +708,7 @@ $$
 d ^ {-} A _ {i} + \frac {1}{2} [ A _ {i}, A _ {i} ] _ {-} = 0,
 $$
 
-gives an elliptic system of equations, and for C sufficiently small the standard convergence argument applies (by the a priori inequality, Theorem 3.5 of [20] we can take  $\|F(\tilde{A}_{i})\|_{L^{p}}$ , and so  $\|A_{i}\|_{L_{p}^{p}}$ , bounded for any given p).
+gives an elliptic system of equations, and for C sufficiently small the standard convergence argument applies (by the a priori inequality, Theorem 3.5 of [20] we can take  $\|F(\tilde{A}_{i})\|_{L^{p}}$ , and so  $\|A_{i}\|_{L_{p}}$ , bounded for any given p).
 
 ## III.2
 

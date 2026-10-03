@@ -216,3 +216,13 @@
   - 印刷 quirk 登记（不改）：Proposition 12 陈述中 "a limiting $m_{\infty}$ ; and if"（分号）、显示式后 "Then" 大写、"such that $A_i$, converge"（多余逗号）、"$A_\infty$; self-dual"（分号）——均系原刊排印原样，md 忠实保留。
   - **修复**：行 703 (ii) 行两处 `$L^p$` → `$L_p$`——300dpi 放大确认印刷两个范数的 p 均在下标位（与 p.8 定义的 `L^p_k` 上标 p 风格不同，此处印刷即为 `L_p`）；同 zoom 亦确认 `A_i` 无 prime，md 原样正确。
 - 修复登记：行 703 两处 `L^p`→`L_p`（依据 `audit-redo/p018.png` + 300dpi 裁片）。
+
+### p.019（PDF p.19 / 印刷 p.297）
+
+- PNG：`audit-redo/p019.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（收敛论证句两个范数记号，结论记于本条）
+- 核对：p.18 跨页句收尾（椭圆方程组与先验不等式句）；节标题 III.2（印刷裸标题）；Theorem 13 全文；(i) 显示式 [Ã_i]→[A_∞] in 𝔐⊂𝔅；(ii) ρ_{i′}:K×SU(2)→P|_K 与 ρ*→θ；[15]/[14] 比较句；Lemma 14 全文与 I(α,i′)、I(q,i) 显示式
+- 结果：**PASS±**（含一处范数修复）。
+  - 与页图一致：`d^-A_i+\frac12[A_i,A_i]_- =0`、Theorem 13 斜体全文（`\tilde{A}_i\in\mathcal{Q}`、`\{i'\}`）、`[\tilde{A}_i]\to[A_\infty]\ in\ \mathfrak{M}\subset\mathfrak{B}`（𝔐⊂𝔅 Fraktur，Luna 本就正确；`i n` 两字母排式系导出排版瑕疵，登记不改）、`\rho_{i'}\colon K\times SU(2)\to P|_K`、`\rho_{i'}^*(\tilde{A}_{i'})\to\theta`、Lemma 14 全文、`\int_X f_i d\mu\leqslant L`、`I(\alpha,i')=\int_{B_\alpha}f_{i'}d\mu`、`I(q,i)=\int_{B_q}f_i d\mu\leqslant L`、`\{B_q\}_{q\in N}`。
+  - **修复**：行 711 第二个范数 `$\|A_{i}\|_{L_{p}^{p}}$` → `$\|A_{i}\|_{L_{p}}$`——300dpi 放大确认印刷为 `\|A_i\|_{L_p}`（下标 p，与 p.018 (ii) 行风格一致；同句第一个范数 `\|F(\tilde{A}_i)\|_{L^p}` 印刷确为上标 p，md 原样正确）。Luna 的 `L_{p}^{p}` 系两种风格杂糅的误读。
+  - 排版级伪影（登记不改）：Theorem 13/Lemma 14 斜体拍平；"diagonal argument" 等引号。
+- 修复登记：行 711 `L_{p}^{p}`→`L_{p}`（依据 `audit-redo/p019.png` + 300dpi 裁片）。
