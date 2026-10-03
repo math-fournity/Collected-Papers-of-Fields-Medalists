@@ -601,3 +601,13 @@
   5. **控制字节登记**：行 1679 "is \x0b -torsion free"（ϖ 丢失，print "is ϖ-torsion free"，hexdump 实测 69 73 20 0b 20）——\x0b Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
   6. Proof 6.18 尾 "universal property.-"→"universal property.□"（QED，print 有 tombstone）
 - 备注：print quirk "were A is a strongly noetherian Tate k-algebra"（p.295 §7 导语，print 原文即 were 非 where，pdftotext 与 PNG 双证）——MD 原本即为 "were"，忠实保留不改；行 1699–1705（Def 7.1(iii)、交换图、where j… 句）属印刷 p.296，中断 run 的两处边界修复（图路径 + "where$j$…$p$is finite étale"）将在 p.052 以 p052.png 复核；Definition 7.2 起行 1707 属印刷 p.296。
+## p.052（PDF p.52 / 印刷 p.296）
+- PNG：audit/p052.png（pngmono 150dpi）
+- 核对：页眉 296/PETER SCHOLZE；Def 7.1(iii)（交换图 U→^j W、f|U↘、W↓^p V，"where j is an open embedding and p is finite étale"）；"For locally noetherian adic spaces over k…" 段（[22] Example 1.6.6(ii)/Lemma 2.2.8）；Definition 7.2 (i)–(iii)（strongly finite étale/strongly étale，两个交换图与 (O_Y(V),O_Y⁺(V))→(O_X(U),O_X⁺(U)) display）；"From the definitions, Proposition 6.17, and Theorem 5.25…" 段（tilt f^♭ : X^♭ → Y^♭）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Def 7.1(iii)："ofx andf(x)"→"of x and f(x"（p.296 首行）；上次中断 run 的两处边界修复本页复核通过：交换图路径 `Scholze_2012_perfectoid_published/images/page_51_image_1.jpg`（文件 3470 bytes 实测存在）与 "where$j$is an open embedding and$p$is finite étale"（p052.png 逐字确认）
+  2. Definition 7.2："## Definition 7.2." 伪标题层级→正文行（print 为普通缩进行，同页 Def 7.1 版式）；(i) "(R,R⁺)␣(S,S⁺)" 缺箭头（双空格，hexdump 实测无控制字节）→$\to$；ofperfectoid/stronglyfinite/ifit isfinite/afinite 补空格（p.296 (i) 行原图）
+  3. (ii)："$\mathrm { ~ V ~ C ~ Y ~ }$"伪 C→$\mathrm { V } \subset \mathrm { Y }$（print V ⊂ Y，PNG 确认）
+  4. "is stronglyfinite étale."补空格；(iii) ofperfectoid/iffor/ofx andf(x) 补空格；第二交换图**图片引用路径断裂**：`![](images/page_51_image_10.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_51_image_10.jpg)`（文件 3.6K 实测存在）；"wherej … p is stronglyfinite étale"→"where$j$…$p$is strongly finite étale"（与首例 where 句同式）
+  5. tilt 句："the tilt$f ^ { \flat } : \mathbf { X } ^ { \flat } ␣\mathbf { Y } ^ { \flat }$"缺箭头（双空格）→$\to$（print f^♭ : X^♭ → Y^♭，PNG 确认；文本层 ♭ 全部丢失，MD 中 ♭ 完好）；"characteristic$\beta ,$"→"characteristic$p$,"（β 系 p 误读，PNG 确认）
+- 备注：两个交换图以 MinerU 图片引用承载（print 原图为手绘风格交换图）；(i) 的 R<sup>◦a</sup> HTML 上标内容正确（print R^{∘a}），按既定实践保留；行 1727（## Lemma 7.3.）属印刷 p.297，留待 p.053。

@@ -1696,7 +1696,7 @@ $$
 
 is finite étale.
 
-(iii) A morphism f :$\mathrm { X } \to \mathrm { Y }$of adic spaces over k is called étale if for any point$x \in \mathrm { X }$there are open neighborhoods U and V ofx andf(x) and a commutative diagram
+(iii) A morphism f :$\mathrm { X } \to \mathrm { Y }$of adic spaces over k is called étale if for any point$x \in \mathrm { X }$there are open neighborhoods U and V of x and f(x) and a commutative diagram
 
 ![](Scholze_2012_perfectoid_published/images/page_51_image_1.jpg)
 
@@ -1704,25 +1704,25 @@ where$j$is an open embedding and$p$is finite étale.
 
 For locally noetherian adic spaces over$k ,$this recovers the usual notions, by Example 1.6.6(ii) and Lemma 2.2.8 of [22], respectively. We will see that these notions are useful in the case of perfectoid spaces, and will not use them otherwise. However, we will temporarily need a stronger notion of étale morphisms for perfectoid spaces. After proving the almost purity theorem, we will see that there is no difference. In the following let K be a perfectoid field again.
 
-## Definition 7.2.
+Definition 7.2.
 
-(i) A morphism$( \mathrm { R } , \mathrm { R } ^ { + } )  ( \mathrm { S } , \mathrm { S } ^ { + } )$ofperfectoid affinoid K-algebras is called stronglyfinite étale ifit isfinite étale and additionally$\mathrm { S } ^ { \circ a }$is afinite étale R<sup>◦a</sup>-algebra.
+(i) A morphism$( \mathrm { R } , \mathrm { R } ^ { + } ) \to ( \mathrm { S } , \mathrm { S } ^ { + } )$of perfectoid affinoid K-algebras is called strongly finite étale if it is finite étale and additionally$\mathrm { S } ^ { \circ a }$is a finite étale R<sup>◦a</sup>-algebra.
 
-(ii) A morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces over K is called strongly finite étale if there is a cover of Y by open affinoid perfectoids$\mathrm { ~ V ~ C ~ Y ~ }$such that the preimage${ \mathrm { U } } = f ^ { - 1 } ( { \mathrm { V } } )$is affinoid perfectoid, and the associated morphism of perfectoid affinoid K-algebras
+(ii) A morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces over K is called strongly finite étale if there is a cover of Y by open affinoid perfectoids$\mathrm { V } \subset \mathrm { Y }$such that the preimage${ \mathrm { U } } = f ^ { - 1 } ( { \mathrm { V } } )$is affinoid perfectoid, and the associated morphism of perfectoid affinoid K-algebras
 
 $$
 \left(\mathcal {O} _ {\mathrm{Y}} (\mathrm{V}), \mathcal {O} _ {\mathrm{Y}} ^ {+} (\mathrm{V})\right)\rightarrow \left(\mathcal {O} _ {\mathrm{X}} (\mathrm{U}), \mathcal {O} _ {\mathrm{X}} ^ {+} (\mathrm{U})\right)
 $$
 
-is stronglyfinite étale.
+is strongly finite étale.
 
-(iii) A morphism$f : \mathrm { X } \to \mathrm { Y }$ofperfectoid spaces over K is called strongly étale iffor any point $x \in \mathrm { X }$there are open neighborhoods U and V ofx andf(x) and a commutative diagram
+(iii) A morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces over K is called strongly étale if for any point $x \in \mathrm { X }$there are open neighborhoods U and V of x and f(x) and a commutative diagram
 
-![](images/page_51_image_10.jpg)
+![](Scholze_2012_perfectoid_published/images/page_51_image_10.jpg)
 
-wherej is an open embedding and p is stronglyfinite étale.
+where$j$is an open embedding and$p$is strongly finite étale.
 
-From the definitions, Proposition 6.17, and Theorem 5.25, we see that$f : \mathrm { X } \to \mathrm { Y }$ is strongly finite étale, resp. strongly étale, if and only if the tilt$f ^ { \flat } : \mathbf { X } ^ { \flat }  \mathbf { Y } ^ { \flat }$is strongly finite étale, resp. strongly étale. Moreover, in characteristic$\beta ,$anything (finite) étale is also strongly (finite) étale.
+From the definitions, Proposition 6.17, and Theorem 5.25, we see that$f : \mathrm { X } \to \mathrm { Y }$ is strongly finite étale, resp. strongly étale, if and only if the tilt$f ^ { \flat } : \mathbf { X } ^ { \flat } \to \mathbf { Y } ^ { \flat }$is strongly finite étale, resp. strongly étale. Moreover, in characteristic$p ,$anything (finite) étale is also strongly (finite) étale.
 
 ## Lemma 7.3.
 
