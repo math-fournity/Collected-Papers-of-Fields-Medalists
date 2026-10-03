@@ -71,6 +71,16 @@
 - 结果：PASS±。MD 行 127–143 与原页逐项吻合；无 md 修复。**print quirk 忠实保留（Luna 旧登记复核维持）**：印刷原文即作「Si $\varphi': V': \to U'$」——V′ 与箭头之间多一个冒号（300dpi 确认），MD 行 141 原样保留不改正。公理标号印刷为 (H_I)/(H_II)（罗马数字，300dpi 确认，与 p.005 修复一致），MD 行 141 ($H_I$)/($H_{II}$) 相符；($VA_{II}'$) 与印刷 VA′_II（A 右上撇、II 下标）对应无误；显示式 φ : V → U , 的尾逗号与 \quad 间距均保留。差异（登记不改）：印刷斜体（Prop.2 陈述整段斜体、a fortiori、Remarque）未标。
 - 备注：Luna 旧判本页 PASS±（登记 V′ 冒号 quirk）→ 重检维持；本页 Luna 无 md 修复。
 
+## 本块收尾（p.001–p.009，2026-10-03）
+
+- 覆盖：PDF p.1–9（Numdam 封面 + 印刷 p.1–8），9/9 页逐页渲染→目检→双通道比对→落签→提交；证据图 9 张 150dpi + 8 张 300dpi 仲裁裁剪，全部存 `audit-redo/` 并随页提交。
+- 等级分布：PASS± ×8，FAIL ×1（p.005，已当场修复）。
+- 本次 md 修复 4 处（只读 diff 对基线 f4ebe12f 核清点）：①行 71 $\mathcal{H}_{\mathrm{x}}$→$\mathcal{H}_{\mathrm{X}}$；②行 73 $(\mathrm{H}_{1})$→$(\mathrm{H}_{\mathrm{I}})$；③行 77 $\mathcal{H}_{\mathrm{x}}$→$\mathcal{H}_{\mathrm{X}}$（①③依据 300dpi p005_def1-axioms）；④行 115 升「## 5.」节标题。页级 commit：8fa8be7c（①②③）、6bef7624（④）。
+- Luna 旧修复重核结论：p.002 CHOW、p.005 ℋ_V、p.006 H_{x,X}、p.007 C{z₁,…,z_n}×2、p.008 C{z₁,…,z_r}×3 全部与原页相符（各页 300dpi 复核）；Luna 漏检并本次补修：p.005 两处下标、p.008 n°5 标题漏标。
+- print quirk 登记簿（忠实保留未改）：p.002/003 小型大写 CHOW/BETTI→Chow/Betti 大小写规范化；p.005 「si elle continue」缺 est；p.006 交叉引用 (H_II)（语义应为 (H_I)）；p.009 「V′ : → U′」V′ 后冒号；p.004/005/009 显示式尾标点部分未保留；花体 ℋ/正体 H、\mathbb/\mathbf C 混排与 fraktur 拍平（p.006/007/008 登记，全文性伪影，按 SOP 不批量改）。
+- 范围声明：本块仅收尾 p.001–p.009；n° 6/7/20 疑似同类标题漏标、其余页与文末参考文献不在本块范围，留待后续页块。
+
+
 
 
 
