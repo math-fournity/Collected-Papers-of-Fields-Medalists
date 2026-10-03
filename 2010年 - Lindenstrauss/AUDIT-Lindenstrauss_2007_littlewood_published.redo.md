@@ -54,3 +54,25 @@
   single closed L-orbit）逐句与印刷吻合。
 
 ---
+
+## p.003（PDF p.3 / 印刷 p.515）
+
+- PNG：audit-redo/p003.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：Furstenberg 段落收尾、Rees 非代数测度段、Conjecture 1.2 (Littlewood (c. 1930)) 与公式 (1.1)、
+  Theorem 1.3 陈述、Corollary 1.4 陈述、过渡句。
+- 结果：**PASS±**
+- 差异列表：
+  1. 缺运行头「THE SET OF EXCEPTIONS TO LITTLEWOOD'S CONJECTURE 515」（MinerU 系统性伪影，登记不改）。
+  2. MD 第 45 行 Corollary 1.4 内一处用字面字符「µ」（U+00B5）而非 `$\mu$`（「if k is prime, µ is the
+     unique」），字形混排伪影，不误导，登记不改。
+  3. 定理头格式：印刷小型大写「THEOREM 1.3 / COROLLARY 1.4」，MD 作普通文字「Theorem 1.3. /
+     Corollary 1.4.」，排版级，全篇一致，不改。
+- print quirk 忠实保留：印刷作「come from A invariant homogeneous subspaces」（A 后无连字），
+  MD 第 27 行同为 `A invariant homogeneous subspaces`，与印刷一致，不改。
+- 其余核对：Rees 段引文串（[44]、[3, §9]、[21]、[25]、[48]）、Γ<SL(k,ℝ) 与 X=SL(k,ℝ)/Γ、
+  公式 (1.1) `liminf_{n→∞} n⟨nu⟩⟨nv⟩ = 0`、⟨w⟩=min_{n∈ℤ}|w−n| 定义、Theorem 1.3 全部条件
+  （A-invariant and ergodic、k≥3、one-parameter subgroup of A、positive entropy）与结论
+  （μ is algebraic）、Corollary 1.4（not compactly supported、if k is prime、unique SL(k,ℝ)-invariant
+  measure on X）逐项与印刷吻合。本页 MD 无需修改。
+
+---
