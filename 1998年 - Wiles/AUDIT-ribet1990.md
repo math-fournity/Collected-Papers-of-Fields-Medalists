@@ -254,3 +254,12 @@
 - 发现并当场修复（6 个记号点，依据 300 dpi 裁片）：①L1122 "$\dot{W}$"→"$\mathbf{W}$"——印刷为粗斜体 W、无点；MD 的点为 mineru 误植（字形身份错误），同时按印刷补粗体；②L1130 Aut_S(W)→Aut_S($\mathbf{W}$)；③L1132 "Take W"→"Take $\mathbf{W}$"、Aut_S(W)×3→Aut_S($\mathbf{W}$)（本页印刷 W 均粗体）。
 - 备注：L1125 行间式与 L1134 的 f 下标（S_f*/H_f*）印刷粗体，MD 一处 \mathrm{f}、一处正体 f（weight/字形风格类，登记不改）；页界：L1134 段尾 "of x in" 接 p.032 "X = K\H_f*/H*..."。
 - 结果：FAIL（6 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.032（PDF p.32 / 印刷 p.461）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:40 -0400。
+- PNG：`audit/ribet1990_p032.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Since R and **ℳ** agree"、"order of level p^{+1}"（加号上标）确证，未存档）。
+- 核对：X=K\H_f*/H*、s_p x=κxa、κ/a 唯一性；Γ=Aut_S(W)、Γ∩Q_p*={±1}、prime-to-p 部分、a=±1、□；Z/Y 比较开篇（δ: L→X⊕X、Σ(Mp)/Σ(M)、(3.3)、End(E₀,C_p)=S、End(E₀)=R）；ℳ 引入（maximal order End_L(A)）；Proposition 4.7（κ: End(E₀)→ℳ、R↔End(E₀)、S↔End(E₀,C_p)）与 Proof（(3.6) output、B∩B′、C_p 构造、V_p/T_p Tate modules、Eichler order of level p^{+1}、U/pU、E[p]=T_p/pT_p、S⊗Z_p=End(E₀,C_p)⊗Z_p）✓。
+- 发现并当场修复：①L1144 Aut_S(W)→Aut_S($\mathbf{W}$)（W 印刷粗体，p.031 同款）；②L1148 两处 "symbol M"/"orders of M"→"$\mathcal{M}$"（花体，300 dpi 确证）；③L1152 "B taken to be M"→"$\mathcal{M}$"；④L1158 "R and M agree"→"R and $\mathcal{M}$ agree"。
+- 印刷原文 quirk：L1158 印刷即 "Eichler order of level p^{+1} (or "level 1," in this local context)"——上标为加号（数学预期 p⁻¹；300 dpi 放大确证 +1 为印刷原样），MD 忠实保留不改。
+- 备注：Q_p/Z_p/T_p/V_p 印刷粗体（weight 拍平登记）；页界至 L1161 显示式，其后 L1164 起属 p.033。
+- 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
