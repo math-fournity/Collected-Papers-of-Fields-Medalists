@@ -606,7 +606,7 @@ $$
 
 is commutative.
 
-It follows from Proposition 4.4 that for any $I$ the restriction of $\psi_{1}$ to $(I^{-1}/A)^{d}$ is a structure of level $I$. We obtain a left action on $M^{d}$ of the subgroup of matrices in $GL(d, \mathfrak{A}_{f})$ with coefficients in $\hat{A}$. Since the subgroup of nonzero elements of $A$ acts trivially on $M^{d}$, we obtain an action of $GL(d, \mathfrak{A}_{f})/k^{*}$.
+It follows from Proposition 4.4 that for any $I$ the restriction of $\psi_{1}$ to $(I^{-1}/A)^{d}$ is a structure of level $I$. We obtain a left action on $M^{d}$ of the subgroup of matrices in $GL(d, \mathfrak{U}_{f})$ with coefficients in $\hat{A}$. Since the subgroup of nonzero elements of $A$ acts trivially on $M^{d}$, we obtain an action of $GL(d, \mathfrak{U}_{f})/k^{*}$.
 
 Let $I \subset A$ be an ideal satisfying the conditions of Proposition 5.3, and let $U_I$ be the kernel of the homomorphism $GL(d, \hat{A}) \to GL(d, A/I)$. Then $M_I^d = U_I \backslash M^d$. Indeed, if $J \subset I$, then the morphism
 
@@ -618,11 +618,11 @@ is a bundle with structure group $U_{I} / U_{J}$. It follows from the normality 
 
 E) Congruence relations. Recall the construction of the induced ring [4]. Let $G$ be a topological group, $H \subset G$ a closed subgroup, and $B$ a discrete ring on which the group $H$ acts continuously on the right. Consider the ring $C$ of continuous functions $f: G \to B$ such that $f(gh) = f(g) \cdot h$ for $g \in G$ and $h \in H$. This is called the induced ring; $G$ acts on it by the formula $f(g) \cdot (g') = f(gg')$. We shall say that $\operatorname{Spec} C$ is induced by the scheme $\operatorname{Spec} B$.
 
-Let $v \in \operatorname{Spec} A$, and let $M_{(\nu)}^{d}$ be the fiber of $M^{d}$ over $\nu$. To each point of $M_{(\nu)}^{d}$ there corresponds an elliptic $A$-module, to which in turn corresponds a formal $A_{\nu}$-module. Let $W \subset M_{(\nu)}^{d}$ be the set of points for which the corresponding formal $A_{\nu}$-module has height 1.
+Let $\nu \in \operatorname{Spec} A$, and let $M_{(\nu)}^{d}$ be the fiber of $M^{d}$ over $\nu$. To each point of $M_{(\nu)}^{d}$ there corresponds an elliptic $A$-module, to which in turn corresponds a formal $A_{\nu}$-module. Let $W \subset M_{(\nu)}^{d}$ be the set of points for which the corresponding formal $A_{\nu}$-module has height 1.
 
-Proposition 5.5. 1) W is an open, affine, everywhere dense  $GL(d, \mathfrak{A}_{f})$ -invariant subset.
+Proposition 5.5. 1) W is an open, affine, everywhere dense  $GL(d, \mathfrak{U}_{f})$ -invariant subset.
 
-2) Let $B \subset GL(d, k_{\nu})$ be a group of matrices $(a_{ij})$ such that $a_{i1} = 0$ for $i > 1$. Let $B'$ be the preimage of $B$ in $GL(d, \mathfrak{A}_{f})$. Then the $GL(d, \mathfrak{A}_{f})$-scheme $W$ induced by any $B'$-scheme $W^0$ has the following properties:
+2) Let $B \subset GL(d, k_{\nu})$ be a group of matrices $(a_{ij})$ such that $a_{i1} = 0$ for $i > 1$. Let $B'$ be the preimage of $B$ in $GL(d, \mathfrak{U}_{f})$. Then the $GL(d, \mathfrak{U}_{f})$-scheme $W$ induced by any $B'$-scheme $W^0$ has the following properties:
 
 a) The matrices $(a_{ij}) \in B \subset B'$ for which $|a_{11}|_{\nu} = 1$ and the lower right corner $(i, j > 1)$ coincides with the identity matrix acts trivially on $W_{\mathrm{red}}^0$.
 
@@ -636,7 +636,7 @@ acts on $W_{\mathrm{red}}^0$ like the Frobenius of the field $A_{\nu} / (\pi)$.
 
 Proof. Statement 1) is clear (the density of W follows from Proposition 5.4).
 
-2) To each point $w \in W$ corresponds an elliptic module $X$ and a homomorphism $(k_{\nu} / A_{\nu})^d \to X$ whose kernel is isomorphic to $k_{\nu} / A_{\nu}$. This defines a $GL(d, \mathfrak{A}_f)$-invariant mapping of the set $W \to GL(d, \mathfrak{A}_f) / B'$. Let $I \subset A$ be an ideal, $I \neq 0$. The mapping
+2) To each point $w \in W$ corresponds an elliptic module $X$ and a homomorphism $(k_{\nu} / A_{\nu})^d \to X$ whose kernel is isomorphic to $k_{\nu} / A_{\nu}$. This defines a $GL(d, \mathfrak{U}_f)$-invariant mapping of the set $W \to GL(d, \mathfrak{U}_f) / B'$. Let $I \subset A$ be an ideal, $I \neq 0$. The mapping
 
 $U_{I} \backslash W \rightarrow GL(d, \mathfrak{A}_{f}) / B'$ is clearly continuous. Let $W_{I}^{0}$ be the preimage in $U_{I} \backslash W$ of the image of the identity in $U_{I} \backslash GL(d, \mathfrak{A}_{f}) / B'$. We set $W^{0} = \varprojlim W_{I}^{0}$. Then $W^{0}$ is invariant with respect to $B'$, and $W$ is induced by the scheme $W^{0}$. Every morphism $W_{\text{red}}^{0} \rightarrow W_{\text{red}}^{0}$ is uniquely defined by its action on the set of places. Statements a) and b) follow from this. $\square$
 

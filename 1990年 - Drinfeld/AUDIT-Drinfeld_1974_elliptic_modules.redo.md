@@ -170,3 +170,11 @@
 - 结果：FAIL（印刷忠实性回退，𝔘/𝔄 记号 2 行 5 处）。§5D adèle 环重新定义行（MD 行 599）印刷为 Fraktur **𝔘** 与 **𝔘_f**（600dpi adeleD 裁片：U 形开口向上，与 p.561 记号段同形），MD（含 Luna 修复）作 `\mathfrak{A}`/`\mathfrak{A}_f` 系（3 处）；行 601 `GL(d,\mathfrak{A}_f)` 两处同。已 Edit 全部回退为 `\mathfrak{U}` 系。**跨页待查①就此定谳**：p.561 与 p.577 两处 adèle 环定义印刷均为 𝔘，印刷不存在 𝔄 记号；Luna 在 p.018/p.025/p.031 的 `\mathfrak{A}` 方向确认错误，后续各页逐一以页图确证后回退。
 - 重核 Luna 修复：Y' 构造句、`(cf. §4C))` 双右括号（600dpi 确认印刷双 `))`）、display 的 ↦（正文 x → Σ 用无竖杠 →，MD 分用 \mapsto/\to 与印刷一致）、`(a_i + β_iε)r^{p^i} + r^{p^d} = 0`、p^{d−h}、Corollary 各式均与页图相符。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 577" 未收；Corollary 整段印刷斜体排印（陈述样式），MD 转正体。
+
+## p.018（PDF p.18 / 印刷 p.578）
+
+- PNG：audit-redo/p018.png（pngmono 150dpi）；600dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p018_adeleF.png（行 609 GL(d,𝔘_f) ×2）、…_p018_prop55v.png（Let ν ∈ Spec A 行）、…_p018_prop55U.png（Prop 5.5 1) GL(d,𝔘_f)-invariant）、…_p018_matrix.png（行 625 GL(d,𝔘_f)-scheme + 行 639 GL(d,𝔘_f) 与 b) 矩阵右下角）、…_p018_proofUF.png（页尾 mapping of the set W → GL(d,𝔘_f)/B' 行）
+- 核对：ψ/ψ_1 交换图（(k/A)^d →^ψ Mor(S,X)、g↓、→^{ψ_1} Mor(S,X/H)）、行 609 Prop 4.4 引用与 GL(d,𝔘_f)/k^* 作用段、U_I = ker(GL(d,Â) → GL(d,A/I))、M_I^d = U_I\M^d、M_J^d ×_{Spec A}(Spec A − V(J)) bundle display、U_I/U_J 结构群、§5E Congruence relations（induced ring [4]、f(gh) = f(g)·h、f(g)·(g') = f(gg')）、M_{(ν)}^d fiber 段、Prop 5.5 1)/2)（𝔘_f-invariant、B ⊂ GL(d,k_ν)、a_i1 = 0、B' preimage、W^0）、a)（|a_11|_ν = 1、lower right corner、W_red^0）、b)（π simple element、3×3 下三角矩阵 display、Frobenius of A_ν/(π)）、Proof 开头与 2) 开头（(k_ν/A_ν)^d → X、kernel ≅ k_ν/A_ν、W → GL(d,𝔘_f)/B'、断行至 "The mapping"）。
+- 结果：FAIL（𝔘/𝔄 系 7 处 + place 记号 1 处）。① 行 609 `GL(d,\mathfrak{A}_{f})` ×2、行 623 ×1、行 625 ×2、行 639 ×2——印刷均为 Fraktur **𝔘_f**（600dpi 五张裁片逐一确证，与 p.577 §5D 定义行同形）；已 Edit 全部回退为 `\mathfrak{U}_{f}` 系。② 行 621 "Let $v \in \operatorname{Spec} A$"：印刷为斜体 **ν**（600dpi prop55v：带降部，与同句 "over ν" 同形；承接 p.016 已证的 place 记号 ν）；已 Edit 为 `$\nu$`。**跨页待查①p.018 部分完成**：本页 7 处 𝔄 全部回退 𝔘。
+- 重核 Luna 修复：交换图结构、bundle display 的 \times_{\text{Spec }A} 下标、induced ring 段各式、|a_11|_ν、W_red^0 上标 0 下标 red、矩阵 display（π/1/0/⋱/1 元素集合）均与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "578 V. G. DRINFEL'D" 未收；Prop 5.5 陈述整段斜体（印刷样式）；b) 矩阵 display 的 ⋱ 点位在印刷中跨 (2,2)–(3,2) 而 MD 置于 (3,2)，渲染结构等价（下三角单参矩阵），转写排版细节不改；a) 句 "…coincides with the identity matrix acts trivially"（印刷语法原样）。
