@@ -318,3 +318,10 @@
 - 结果：`FAIL`→3 处已修复：①行 1809 `$\ldots$. are Bernoulli` 双句点→`$\ldots$ are`；②行 1823 `$\gamma\mapsto\bar{Trace}(ad(\gamma)^{2k}$`→删幻影杠（PNG 确证 Trace 上无 bar；印刷括号不配对 `^{2k}` 原貌保留）；③行 1837 `automorphisms of g.`→`automorphisms of$\mathcal{U}\mathbf{g}$.：𝒰 丢失（PNG+文本层确凿）。print quirk 忠实保留：行 1823 `$I_{det(exp(ad\gamma))})$` 括号不配对（原文）；`Trace(ad(\gamma)^{2k}` 缺闭括号（原文）；行 1847 `prove that that`（原文重复）。其余 PASS±：行 1815/1819/1823 附近句末缺句点、`\quad\ Q.E.D.` 空距（登记）；行 1843 `Poincar´e-Birkhof-Witt`（重音+ff 拍平）。公式行 1812/1820/1828/1834/1851 与印刷逐符号吻合。
 - 备注：行 1853 起（The second space HH^•(X)…）为印刷 p.45 内容，在 p.045 核对。
 
+## p.045（PDF p.45 / 印刷 p.45）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p045.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p045_Du_entry.png`（300dpi）
+- 核对：HH^•(X) 定义段（Ext^k_Coh(X×X)(O_diag,O_diag)[−k]、A-mod-A）、Yoneda/cup-product 段、Claim（étale functorial）、Mirror Symmetry 回指段、**Bibiliography** 标题（原文拼写）与逐条参考文献 [AKSZ]–[Ko1] 共 19 条：[AKSZ]（1405-1429、hep-th/9502010）、[AGV]、[BGRT]、[BFFLS]（Frønsdal）、[De]、[DL]、[Du]（C.R. Acad. Sci. 269, série a, 437-438）、[EK]、[Fe]、[FM]、[GK]、[GV]、[GJ]、[Gi]、[GM]、[HS1]、[HS2]、[KV]、[Ki]、[Ko1]（作者/刊名/卷期页码逐字段核对）（MD 行 1853–1901）。
+- 结果：`PASS±`。无内容错误、无修复。print quirk 忠实保留：标题 `Bibiliography`（原文拼写）；行 1867 `[BGRT] , D. Bar-Natan`（原文逗号+缺首作者）；行 1875 `C. R. .Acad. Sci.`（300dpi `_p045_Du_entry.png` 确证 Acad 前杂散句点为原文排印笔误）；行 1823/1823 附近 Err 公式不配对括号（p.044 已登记）。PASS± 伪影登记：ff 拍平 — 行 1865 `Diferentiable`、行 1879 `J. Dif. Geom.`、行 1883 `diferential`、行 1897 `Campbell-Hausdorf`（印刷均 Diff./differential/Hausdorff）；重音分解 — 行 1857 `´etale`、行 1871 `Cat´egories`/`Birkh¨auser`、行 1875 `Caract´eres`/`alg\`ebres`/`r´esolubles`/`s´erie`、行 1901 `Birkh¨auser`。逐条卷期页码与印刷吻合。
+- 备注：行 1903 起（I.H.E.S. 地址、[Ko2]–[KoV] 等余下文献）为印刷 p.46 内容，属下一块 p.046 审计。
+
