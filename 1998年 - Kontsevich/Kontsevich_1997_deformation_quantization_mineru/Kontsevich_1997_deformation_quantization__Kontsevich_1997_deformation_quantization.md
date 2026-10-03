@@ -1450,7 +1450,7 @@ where$z _ { \mathrm { 0 } }$is an arbitrary point of$\mathcal { H } .$
 
 Lemma. For arbitrary angle map the integral$\underset { \mathcal { H } \backslash \{ z _ { 0 } \} } { \int } d \phi ( z , z _ { 0 } ) \wedge d \phi ( z _ { 0 } , z )$is equal to zero.
 
-Proof: We have a map$\overline { { C } } _ { 2 , 0 } { \longrightarrow } S ^ { 1 } \times S ^ { 1 } , [ ( x , y ) ] \mapsto ( \phi ( x , y ) , \phi ( y , x ) )$. We calculate the integral of the pullback of the standard volume element on two-dimensional torus. It is easy to see that the integral does not depend on the choice of map$\phi : \overline { { { C } } } _ { 2 , 0 } \mathrm { - } \varDelta S ^ { 1 }$. The reason is that the image of the boundary of the integration domain$\partial \overline { { C } } _ { 2 , 0 }$in$S ^ { 1 } \times S ^ { 1 }$cancels with the reflected copy of itself under the involution$\left( \phi _ { 1 } , \phi _ { 2 } \right) \mapsto \left( \phi _ { 2 } , \phi _ { 1 } \right)$of the torus$S ^ { 1 } \times S ^ { 1 }$. Let us assume that$\phi = \phi ^ { h }$and$z _ { 0 } = 0 + 1 \cdot i$. The integral vanishes because the involution $z \mapsto - { \overline { { z } } }$reverses the orientation of and preserves the form$d \phi ( z , z _ { 0 } ) \wedge d \phi ( z _ { 0 } , z ) . \qquad Q . E . D .$
+Proof: We have a map$\overline { { C } } _ { 2 , 0 } { \longrightarrow } S ^ { 1 } \times S ^ { 1 } , [ ( x , y ) ] \mapsto ( \phi ( x , y ) , \phi ( y , x ) )$. We calculate the integral of the pullback of the standard volume element on two-dimensional torus. It is easy to see that the integral does not depend on the choice of map$\phi : \overline { { { C } } } _ { 2 , 0 } \longrightarrow S ^ { 1 }$. The reason is that the image of the boundary of the integration domain$\partial \overline { { C } } _ { 2 , 0 }$in$S ^ { 1 } \times S ^ { 1 }$cancels with the reflected copy of itself under the involution$\left( \phi _ { 1 } , \phi _ { 2 } \right) \mapsto \left( \phi _ { 2 } , \phi _ { 1 } \right)$of the torus$S ^ { 1 } \times S ^ { 1 }$. Let us assume that$\phi = \phi ^ { h }$and$z _ { 0 } = 0 + 1 \cdot i$. The integral vanishes because the involution $z \mapsto - { \overline { { z } } }$reverses the orientation of$\mathcal { H }$ and preserves the form$d \phi ( z , z _ { 0 } ) \wedge d \phi ( z _ { 0 } , z ) . \qquad Q . E . D .$
 
 ## 7.3.2. Flat families over$\Pi T ( X ^ { c o o r } )$
 
@@ -1460,7 +1460,7 @@ $$
 \Pi T (X ^ {c o o r}) \longrightarrow \mathcal {W}.
 $$
 
-It follows from following general reasons. If G is a Lie group, then it acts freely by left translations on itself, and also on ΠTG. The quotient Q-manifold Π$\mathrm { ? } G / G$is equal to Πg where$\mathbf { g } = L i e ( G )$. Thus, we have a Q-equivariant map
+It follows from following general reasons. If G is a Lie group, then it acts freely by left translations on itself, and also on ΠTG. The quotient Q-manifold$\Pi T G / G$is equal to Πg where$\mathbf { g } = L i e ( G )$. Thus, we have a Q-equivariant map
 
 $$
 \Pi T G \longrightarrow \Pi \mathbf {g}.
@@ -1474,7 +1474,7 @@ $$
 \mathcal {T} \times \Pi T (X ^ {c o o r}) {\longrightarrow} \Pi T (X ^ {c o o r}), \mathcal {D} \times \Pi T (X ^ {c o o r}) {\longrightarrow} \Pi T (X ^ {c o o r}).
 $$
 
-Pullbacks of sections$\sigma _ { T }$and$\sigma _ { \mathcal { D } }$gives sections in the bundles above. These sections we denote again by$\sigma _ { T }$ and$\sigma _ { \mathcal { D } }$. The pullback of the morphism${ \mathcal { U } } \times i d { \boldsymbol { \omega } }$is also a morphism of flat families.
+Pullbacks of sections$\sigma _ { T }$and$\sigma _ { \mathcal { D } }$gives sections in the bundles above. These sections we denote again by$\sigma _ { T }$ and$\sigma _ { \mathcal { D } }$. The pullback of the morphism${ \mathcal { U } } \times i d _ { \mathcal { W } }$is also a morphism of flat families.
 
 ## 7.3.3. Flat families over$\Pi T ( X ^ { a f f } )$
 

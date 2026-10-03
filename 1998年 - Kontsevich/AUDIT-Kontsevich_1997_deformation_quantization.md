@@ -234,3 +234,10 @@
 - 结果：`FAIL`→6 处已修复（PNG/文本层确凿）：①行 1399 §7.3.1 标题 `Flat families over`→补 `$\mathcal{W}$`（𝒲 丢失）；②行 1401 `The first bundle over  is trivial`→补 `$\mathcal{W}$`；③行 1417 `flat families over .`→补 `$\mathcal{W}$`；④行 1419 `$id\mathcal{w}$`（小写 w 错排）→`$id_{\mathcal{W}}$`；⑤行 1425 `part$\mathcal{U}_1$of maps`→补 `$\mathcal{U}$`（𝒰 丢失）；⑥行 1425 `$T^0(\dot{\mathbf{R}}^d)$` 幻影点已删（印刷 T⁰(R^d)）。print quirk 忠实保留：行 1383 `introduced Quillen`（原文缺 by）；行 1387 `the same a formal`（原文缺 as）；行 1435 `intersting`（原文拼写）。其余 PASS±：行 1407/1413/1415/1435 句末缺句点；行 1422 `\sigma_D` 正体 vs 印刷 σ_𝒟 花体（样式登记）；行 1425 `coeficients`/`diferential`（ff 拍平）。公式行 1404/1410/1422/1432 与印刷逐符号吻合。
 - 备注：行 1437 起（𝒰₂ 二次映射 ξ↦Σ∂_i(ξ^j)∂_j(ξ^i)）为印刷 p.33 内容，在 p.033 核对。
 
+## p.033（PDF p.33 / 印刷 p.33）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p033.png`（pngmono 150dpi）
+- 核对：p₁↔p₂ 双箭头图（p.32 末 "The graph is looking as" 的配图，MD 行 1435 后无图引用，图内容以 PDF 为准——已登记为图缺失伪影）、𝒰₂ 二次映射式、weight 公式 ∫_{C_{2,0}}dφ_{(12)}dφ_{(21)}=∫_{𝓗\{z₀\}}dφ(z,z₀)∧dφ(z₀,z)、Lemma（angle map 积分为零）、Proof（C̄_{2,0}⟶S¹×S¹、involution (φ₁,φ₂)↦(φ₂,φ₁)、z↦−z̄）、§7.3.2 heading、Maurer-Cartan ΠT(X^coor)⟶𝒲 式、ΠTG/G=Πg 段与 ΠTG⟶Πg 式、pullback families 两平凡丛式、σ_𝒯/σ_𝒟 拉回段（MD 行 1437–1477）。
+- 结果：`FAIL`→4 处已修复：①行 1453 `$\phi:\overline{{C}}_{2,0}\mathrm{-}\varDelta S^1$`（箭头 mangling −Δ）→`$\longrightarrow S^1$`（PNG 确凿）；②行 1453 `reverses the orientation of and preserves`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）；③行 1463 `Q-manifold Π$\mathrm{?}G/G$`→`$\Pi TG/G$`（T 错写为 ?，PNG+文本层确凿）；④行 1477 `$\mathcal{U}\times id\boldsymbol{\omega}$`→`$\mathcal{U}\times id_{\mathcal{W}}$`（ω 应为 𝒲，PNG 确凿）。另登记：行 1435 后 p.32 配图（p₁/p₂ 图）在 MD 无引用无源图，以 PDF p.33 顶部原图为准（与 p.020 图丢失同类）。其余 PASS±：行 1469 句末缺句点（登记）；行 1453 `$z\mapsto-\overline{{z}}$` 前空格（登记）。公式行 1440/1446/1460/1466/1474 与印刷逐符号吻合。
+- 备注：行 1479 起（§7.3.3 Flat families over ΠT(X^aff)）为印刷 p.34 内容，在 p.034 核对。
+
