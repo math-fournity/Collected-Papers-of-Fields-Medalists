@@ -87,3 +87,14 @@
   - 正文：`[79]` 两处、`Hans Kramers and Gregory Wannier in 1941`、"see Frame 4" 互引、`specific heat`、`duality relation` 全部吻合；`(k+1)4^k` 圈数计数与印刷一致。
   - 残留伪影（登记不改）：MD 行 163 `critical inversetemperature`——印刷为 `critical inverse-temperature`（原印刷断行连字符在转写中丢失且未以空格替代，SOP 空格合并/去连字类）；印刷斜体（`arbitrary`、`critical inverse-temperature`、`specific heat`、`duality relation`、`assuming`）未在 MD 保留（风格级）；running foot `8 Hugo Duminil-Copin` 未入 MD。
 - 备注：页尾 (3.3) 后印刷即换页；MD 行 183 的 Figure 1 图引 `../audit/ICM2022_proceedings_Duminil-Copin_p009_Figure1.png` 指向旧 audit/ 资产——该文件存在且被 git 跟踪，链接有效，本次不改动（旧 audit/ 只读）；图与 caption 归 p.009 审。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p009.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/ICM2022_proceedings_Duminil-Copin_p009_caption_tau_300dpi.png（Figure 1 caption τ 装饰符）
+- 核对：Figure 1 图与 caption、self-dual 段（tanh(β*)=e^{−2β}、β_c=(1/2)ln(1+√2)）、Kramers-Wannier 证明段（[85] Montroll、[100] van der Waerden、(2.8) 互引）、Frame 2 标题与首段、公式 (3.4)
+- 结果：**PASS±（含 2 处修复，见下）**
+  - 公式 (3.4) 逐项吻合：`Z(N,M,τ̲,τ̄) := Σ_{σ∈{−1,1}^{S(N,M)}} exp[−βH_{S(N,M),h}(σ)] 𝕀(σ|bottom = τ̲, σ|top = τ̄),`——**print quirk 忠实保留**：h 已设 0 而指数内印刷作 `H_{S(N,M),h}`，MD 原样照录；尾逗号、`𝕀` 指示符、上下标 `\underline{\tau}/\overline{\tau}` 与印刷一致。
+  - 正文：`tanh(β*) = e^{−2β}`、`β* = β`、`β_c = ½ ln(1+√2)`、`a priori non-obvious`、`[85]`、`[100]`、`(2.8)`、`Frame 2/Frame 4` 互引全部与印刷一致；印刷 `⟦0, M⟧` 整数区间双括号在 MD 行 193 作 `\mathbb{I} 0, M \mathbb{I}`（𝕀0,M𝕀，记号近似，登记不改）。
+  - **修复 3（300dpi 仲裁：audit-redo/300dpi/…p009_caption_tau_300dpi.png 显示 caption 首个 τ 带下划线）**：MD 行 185 caption `$\tau$ and $\bar{\tau}$` → `$\underline{\tau}$ and $\bar{\tau}$`——下划线装饰承载 bottom(−1)/top(+1) 之分且与 (3.4) 记号一致，非纯排版伪影。
+  - **修复 4（本页证据：PNG 与文本层均为 "Introduce the quantity"）**：MD 行 193 `Introduce the quantit` → `Introduce the quantity`（转写丢字母 y）。
+  - 残留伪影（登记不改）：`⟦⟧`→`𝕀…𝕀` 记号近似（上行）；running foot `9 100 Years of the Ising Model` 未入 MD；Figure 1 图内字母标注（top/bottom/g）不入 MD 文本（图形元素）。
+- 备注：MD 行 199 起为 p.10 内容（(3.5) 及后续），归下一块审计。

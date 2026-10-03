@@ -182,7 +182,7 @@ $$
 
 ![](../audit/ICM2022_proceedings_Duminil-Copin_p009_Figure1.png)
 
-On the left. A picture of the low-temperature expansion on$\Lambda _ { 1 } ^ { + }$. The set$\Lambda _ { 1 } ^ { + }$is depicted in dashed gray, and$( \Lambda _ { 1 } ^ { + } ) ^ { * }$ in plain black. The edges in the dual configuration are depicted in bold. On the right. The set$\mathbb { S } ( 5 , 3 )$with the bottom and top sets depicted. In this case $\tau$ and $\bar{\tau}$ are respectively constant equal to −1 and +1.
+On the left. A picture of the low-temperature expansion on$\Lambda _ { 1 } ^ { + }$. The set$\Lambda _ { 1 } ^ { + }$is depicted in dashed gray, and$( \Lambda _ { 1 } ^ { + } ) ^ { * }$ in plain black. The edges in the dual configuration are depicted in bold. On the right. The set$\mathbb { S } ( 5 , 3 )$with the bottom and top sets depicted. In this case $\underline{\tau}$ and $\bar{\tau}$ are respectively constant equal to −1 and +1.
 
 where$\beta$and$\beta ^ { * }$are related via the formula tanh$( \beta ^ { * } ) = e ^ { - 2 \beta }$. The uniqueness implies that $\beta _ { c }$must be the self-dual point satisfying$\beta ^ { * } = \beta , \mathrm { i . e . } \beta _ { c }$must be equal to${ \frac { 1 } { 2 } } \ln ( 1 + { \sqrt { 2 } } )$. Of course, this reasoning is not a formal proof as it is a priori non-obvious that the singular point is unique.
 
@@ -190,7 +190,7 @@ The proof of Kramers and Wannier of the duality relation is also of great intere
 
 ## Frame 2: transfer matrices of the Ising model
 
-To lighten the presentation we restrict our attention to the case$h = 0$. Consider the slices$\mathbb { S } ( N , M ) : = ( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \mathbb { I } 0 , M \mathbb { I }$with no edges between the vertices of the bottom$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \{ 0 \}$(we call$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \{ M \}$the top of the slice); see Figure 1 on the right. Let$\sigma _ { | \mathrm { b o t t o m } }$and$\sigma _ { | \mathrm { t o p } }$be the restrictions of$\sigma$to the top and bottom of $\mathbb { S } ( N , M )$, considered as two elements of$\{ - 1 , 1 \} ^ { ( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } }$. Introduce the quantit
+To lighten the presentation we restrict our attention to the case$h = 0$. Consider the slices$\mathbb { S } ( N , M ) : = ( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \mathbb { I } 0 , M \mathbb { I }$with no edges between the vertices of the bottom$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \{ 0 \}$(we call$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times \{ M \}$the top of the slice); see Figure 1 on the right. Let$\sigma _ { | \mathrm { b o t t o m } }$and$\sigma _ { | \mathrm { t o p } }$be the restrictions of$\sigma$to the top and bottom of $\mathbb { S } ( N , M )$, considered as two elements of$\{ - 1 , 1 \} ^ { ( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } }$. Introduce the quantity
 
 $$
 Z (N, M, \underline {{\tau}}, \overline {{\tau}}) := \sum_ {\sigma \in \{- 1, 1 \} ^ {\mathbb {S} (N, M)}} \exp [ - \beta H _ {\mathbb {S} (N, M), h} (\sigma) ] \mathbb {I} (\sigma_ {| \text { bottom }} = \underline {{\tau}}, \sigma_ {| \text { top }} = \overline {{\tau}}),\tag{3.4}
