@@ -1456,10 +1456,12 @@ $$
 
 from which the claim follows.
 
+□
+
 Proof of Lemma 6.7. By letting K and$N$range over powers of 2, the Borel-Cantelli lemma implies that for almost all$\alpha , \beta$we have
 
 $$
-\begin{array}{l}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \int \Sigma_{0}(\alpha^{\prime},\beta^{\prime})  d\alpha^{\prime}d\beta^{\prime}\\ = 1 + \sum_{h_{0},h_{1},h_{2}\sim K} \sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2}\\ \Delta \neq 0}}(i = 0,1,2)\\ \text{measure}\big\{(\alpha^{\prime},\beta^{\prime}):  \big|h_{i}^{2}(U_{i} + V_{i}\alpha^{\prime} + W_{i}\beta^{\prime}) - h_{0}^{2}(U_{0} + V_{0}\alpha^{\prime} + W_{0}\beta^{\prime})\big| <   2^{j}\quad (i = 1,2)\big\} . \end{array}
+\begin{array}{l}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \int \Sigma_{0}(\alpha^{\prime},\beta^{\prime})  d\alpha^{\prime}d\beta^{\prime}\\ = 1 + \sum_{h_{0},h_{1},h_{2}\sim K} \sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2} (i = 0,1,2)\\ \Delta \neq 0}}\\ \text{measure}\big\{(\alpha^{\prime},\beta^{\prime}):  \big|h_{i}^{2}(U_{i} + V_{i}\alpha^{\prime} + W_{i}\beta^{\prime}) - h_{0}^{2}(U_{0} + V_{0}\alpha^{\prime} + W_{0}\beta^{\prime})\big| <   2^{j}\quad (i = 1,2)\big\} . \end{array}
 $$
 
 In light of (6.1) and (6.14), this implies

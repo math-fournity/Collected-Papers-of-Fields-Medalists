@@ -200,6 +200,12 @@
 - 核对：对角贡献段与 Û₀,Ŵ̂₀ 约化、双和 display（(Σ_{|y(Û₀+V̂₀α+Ŵ̂₀β)−τ′|<2^j, y∈ℤ} 1)² ≤ ΣΣ((2^{j+1}/|·|)²+1)）、|Û₀+V̂₀α+Ŵ̂₀β|⪰_{α,β}K⁴/N⁴、(6.16)、"This will suffice"、Lemma 6.6（m^T×c^T≠0 条件与 ≼_{α,β}2^jN⁴/K²+1）、Lemma 6.7 Σ₀ 定义与 ≼1+2^{3j}N^{12}/K³、"Inserting (6.16)" 链与 "from which we obtain" 链、"This proves the lemma."□
 - 结果：PASS±（4 处已修复）。全部公式与印刷逐项一致。**修复 4 处**：L1378 第二 substack `(0.0,0)`→`(0,0,0)`（印刷为逗号，MD 句点笔误）；L1381 损毁的 ⪰ 构造（`\stackrel{}{\underset{}{ et{}{^-}}}` 等）→`\succeq_{\alpha,\beta} K^4/N^4`（印刷正常，此处为转录乱码）；L1387 "sufice"→"suffice"（印刷双 f）；L1421 "This proves the lemma." 后补 □（印刷右缘有结束方框，MD 缺失）。残余瑕疵：无新增。
 - 备注：Luna 旧修复抽核通过——本页公式链（对角项、Lemma 6.6/6.7、两条插入链）与印刷逐式一致；乱码 ⪰ 为 Luna 链未清理的转录缺陷（本次修复）。
+
+## p.027（PDF p.27 / 印刷 p.27）
+- PNG：audit-redo/p027.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：§6.5 节标题、Lemma 6.6 证明（两结论、gcd 链、max_{h₂∼K} 求和、x₀/x′/c′ 归约、2^j/|h₂²(m₁+m₂α+m₃β)|+1、≼_{α,β}2^j|m|^{2+ε}/K²+1、□）、Lemma 6.7 证明（Borel-Cantelli 积分 display、(6.17) 2^{2j}|Δ|^{−1}、(6.18) H/G/T 定义、(6.19) gcd 比值 =H/G 与 T-bounds 行）
+- 结果：PASS±（2 处已修复）。全部公式与印刷逐项一致。**修复 2 处**：L1459 "from which the claim follows." 后补 □（印刷右缘有结束方框）；L1464 Lemma 6.7 证明 display 中 `(i=0,1,2)` 原被放在 substack 之外成为求和后的孤立因子（印刷中它是下标条件 "U_i,V_i,W_i≲N²/K² (i=0,1,2)" 的组成部分）——已移入 substack，消除结构拆乱。残余瑕疵（不误导，不改）：L1425 "Suppose mx" 与 L1477 "and W" 的个别符号在数学环境外（印刷为同一行内公式，渲染等价）；L1437 "up to ≼ 1" 的 "to" 在数学环境内带空格（`\mathrm{t o}`，渲染近拟）。
+- 备注：Luna 旧修复抽核通过——旧基线 p.27 无专项登记；本页 (i=0,1,2) 拆乱为 Luna 链未修复的结构缺陷（本次修复）。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
