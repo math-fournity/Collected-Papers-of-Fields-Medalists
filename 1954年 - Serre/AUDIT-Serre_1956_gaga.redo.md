@@ -52,6 +52,13 @@
 - 结果：PASS±。全部条目与原页吻合：Luna 旧修复「$f \in H_{x,X}$」（行 87，旧 mineru 作 H_{x,Y}）经 300dpi 复核与印刷一致；Prop.1 陈述、ℋ_X/𝒜(Y)、ℋ_Y、[18] n° 15/12/5/6、nos 34-35 均正确。**print quirk 忠实登记**：印刷原文交叉引用即作「L'axiome (H_II) signifie qu'il est possible de recouvrir X par des ouverts possédant des cartes」——300dpi 确认下标为罗马 II（两个衬线 I），语义上此处应指覆盖公理 (H_I)，属印刷原文自身引用 quirk；MD 行 79 作 (H$_{II}$) 忠实保留，不按数学预期改正。差异（登记不改）：①行 87/89 段内 MD 的 $H_{x,X}$、$H_{X}$、$H_{Y}$ 用正体 H 而同段 $\mathcal{H}_X/\mathcal{A}(Y)$ 用花体——印刷一律花体 ℋ，属 mineru 花体拍平/混排，全文性伪影，不妨碍辨识，按 SOP 不批量改；②印刷斜体（carte、induite、produit 等）未标。
 - 备注：Luna 旧判本页 FAIL（H_{x,Y}）→ 修复正确；Luna 未登记 (H_II) 交叉引用 quirk，本次补登。
 
+## p.007（PDF p.7 / 印刷 p.6）
+- PNG：audit-redo/p007.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/p007_series_300dpi.png（两处 C{z₁,…,z_n}）
+- 核对：Prop.1 证明段（ℋ_X=ℋ_U/𝒜(X)、[18] n° 16）、相干解析束例段、n° 4 标题、局部环 ℋ_x/𝔪 段、C{z₁,…,z_n} 两处、正则局部判据段（点 simple、variété analytique）、最小素理想显示式 0=∩𝔭_i。
+- 结果：PASS±。MD 行 93–107 与原页逐项吻合。Luna 旧修复复核：行 99 两处 $C\{z_{1}, \ldots, z_{n}\}$（旧 mineru 作 z_i）经 300dpi 裁剪确认与印刷一致（首下标为阿拉伯 1，末下标斜体 n）；显示式 $0 = \cap \mathfrak{p}_{i}$（含尾逗号）与印刷一致；ℋ_x=ℋ_U/𝒜(X)、[3] ths. 1 et 2、[15] chap. iv § 2、[16] 等引用均正确。差异（登记不改）：①行 99 的 $H_{x}$、$H_{x}/m$ 及 $X=C^{n}$、$C^{n}$、$C\{z\}$ 用正体 H/双线体 C，印刷为花体 ℋ、粗体 C——全文性花体/粗体拍平类伪影（同类已见于 p.006），不妨碍辨识；②行 99 商理想 "/a" 印刷为花体 𝔞，MD 作正体 a——fraktur 拍平，登记不改；③印刷斜体（algèbre locale、anneau noethérien、anneau analytique、régulier、simple、variété）未标。
+- 备注：Luna 旧判本页 FAIL（z_i 两处）→ 修复正确，重检维持 PASS±；本页无新增修复。
+
+
 
 
 
