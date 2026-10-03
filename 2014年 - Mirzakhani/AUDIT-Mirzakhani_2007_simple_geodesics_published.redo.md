@@ -75,3 +75,22 @@
 - Luna 旧修复重核：Theorem 1.2、(1.1)/(1.2) 展示式与记号当前与印刷一致。
 - 备注：页断在 ≅ 式后，p.4 起于 "On the other hand"（MD L116）；眉头缺失与空格合并通例照登。
 
+## p.004（PDF p.4 / 印刷 p.182）
+- PNG：audit-redo/p004.png（pngmono 150dpi）；仲裁裁剪：audit-redo/p004_Mod_DR_300dpi.png（300dpi）。
+- 核对：Weil–Petersson 辛形式句 $\pi^*(\omega_{wp})=d\ell\wedge d\tau$；三重积分展示式；
+  $\mathrm{Vol}(\mathcal{M}_{1,1})=2\int_0^\infty\ell f(\ell)\,d\ell=\cdots=\pi^2/6$；Calculation of V_{g,n}
+  引导与 (I)/(II) 两条；"(I): Generalized McShane's identity" 段；辅助函数 𝒟, ℛ : ℝ₊³ → ℝ₊；
+  Theorem 1.3 陈述与展示式 (1.3)；两个和的说明句；cusp 允许句（页末 "geodesic of length 0."）。
+- 结果：**PASS±**（4 处偏离已修，见下）。
+- 修复登记（本 redo）：
+  1. MD L116：印刷 $d\ell\wedge d\tau$ 均为数学斜体，MinerU 把 "dτ" 拍平为正体外文 → 并回公式；
+  2. MD L136：印刷正文 "each orbit of Mod_{g,n}"（300dpi 直证**正体**），MinerU 作 $\mathbf{Mod}$
+     （粗体）→ 改 $\mathrm{Mod}_{g,n}$（Luna 旧遗留错误修正）；
+  3. MD L136：印刷两辅助函数为花体 **𝒟**, **ℛ**（300dpi 直证），MinerU 把 𝒟 拍平为平文 "D," →
+     改 $\mathcal{D}$（ℛ 原已正确）；
+  4. MD L144：MinerU "pair ofpants" 丢空格 → "pair of pants"；同行平文 γ → $\gamma$。
+- print quirk 登记不改：无。注：本页正文 Mod 为正体而 p.1 正文为粗体，系原文自身的混用，各自如实
+  对应，不作统一。
+- Luna 旧修复重核：Theorem 1.3 与 (1.3) 展示式（\mathcal{D}/\mathcal{R}、求和限、=L₁）当前与印刷一致。
+- 备注：页界 L116–L146；(1.4) 及其后属 p.5。
+

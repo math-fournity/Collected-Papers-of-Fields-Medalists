@@ -113,7 +113,7 @@ $$
 \mathcal {M} _ {1, 1} ^ {*} \cong \left\{(\ell , \tau) | 0 \leq \ell \leq \tau \right\} / (x, 0) \sim (x, x).
 $$
 
-On the other hand, the Weil-Petersson symplectic form in Fenchel-Nielsen coordinates is given by$\pi ^ { * } ( \omega _ { w p } ) = d \ell \wedge$dτ. Therefore, we have
+On the other hand, the Weil-Petersson symplectic form in Fenchel-Nielsen coordinates is given by$\pi ^ { * } ( \omega _ { w p } ) = d \ell \wedge d \tau$. Therefore, we have
 
 $$
 \int_ {\mathcal {M} _ {1, 1}} \sum_ {\pi (Y) = X} f (\ell (Y)) d X = \int_ {\mathcal {M} _ {1, 1} ^ {*}} f (\ell (Y)) d Y = \int_ {0} ^ {\infty} f (x) \int_ {0} ^ {x} 1 d y d x.
@@ -133,7 +133,7 @@ Calculation of$V _ { g , n }$. To carry out a similar analysis for${ \mathcal { 
 
 We now turn to a more detailed account of the two main steps in the proof:
 
-(I): Generalized McShane’s identity. McShane [M] gives a version of formula (1.1) for punctured Riemann surfaces of higher genus. In our discussion, we need a further generalization to bordered Riemann surfaces with geodesic boundary components. Roughly speaking, we want to find a function defined on Teichmüller space such that the sum of its values over the elements of each orbit of$\mathbf { M o d } _ { g , n }$is a constant independent of the orbit. In Sect. 3 we introduce two auxiliary functions D,$\mathcal { R } : \mathbb { R } _ { + } ^ { 3 } \to \mathbb { R } _ { + }$related to the geometry of hyperbolic pairs of pants. A central role in our approach to volumes of moduli spaces is played by the following result (Sect. 4):
+(I): Generalized McShane’s identity. McShane [M] gives a version of formula (1.1) for punctured Riemann surfaces of higher genus. In our discussion, we need a further generalization to bordered Riemann surfaces with geodesic boundary components. Roughly speaking, we want to find a function defined on Teichmüller space such that the sum of its values over the elements of each orbit of$\mathrm { M o d } _ { g , n }$is a constant independent of the orbit. In Sect. 3 we introduce two auxiliary functions$\mathcal { D }$, $\mathcal { R } : \mathbb { R } _ { + } ^ { 3 } \to \mathbb { R } _ { + }$related to the geometry of hyperbolic pairs of pants. A central role in our approach to volumes of moduli spaces is played by the following result (Sect. 4):
 
 Theorem 1.3. For any hyperbolic surface X with n geodesic boundary components$\beta _ { 1 } , \ldots , \beta _ { n }$of lengths$L _ { 1 } , \ldots , L _ { n }$, we have
 
@@ -141,7 +141,7 @@ $$
 \sum_ {\{\gamma_ {1}, \gamma_ {2} \}} \mathcal {D} (L _ {1}, \ell_ {\gamma_ {1}} (X), \ell_ {\gamma_ {2}} (X)) + \sum_ {i = 2} ^ {n} \sum_ {\gamma} \mathcal {R} (L _ {1}, L _ {i}, \ell_ {\gamma} (X)) = L _ {1}.\tag{1.3}
 $$
 
-Here, the first sum is over all unordered pairs of simple closed geodesics $\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair ofpants with$\beta _ { 1 }$, and the second sum is over simple closed geodesics γ bounding a pair of pants with$\beta _ { 1 }$and$\beta _ { i }$.
+Here, the first sum is over all unordered pairs of simple closed geodesics $\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair of pants with$\beta _ { 1 }$, and the second sum is over simple closed geodesics$\gamma$bounding a pair of pants with$\beta _ { 1 }$and$\beta _ { i }$.
 
 In the formula above, we also allow$\beta _ { i }$to be a cusp of X, by regarding it as a geodesic of length 0.
 
