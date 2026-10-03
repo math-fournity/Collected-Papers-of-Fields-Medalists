@@ -156,3 +156,22 @@
 - Luna 旧修复重核：(1.5)、$\overline{\mathcal{M}}$ 两处带杠、各引文键当前与印刷一致。
 - 备注：页界 L228–L244；第二段致谢（Greg McShane/Wolpert 段）属 p.8。
 
+## p.008（PDF p.8 / 印刷 p.186）
+- PNG：audit-redo/p008.png（pngmono 150dpi）。
+- 核对：页顶致谢第二段（小字页脚续，McShane/Wolpert/IPM/Clay fellowship）；§2 Background material
+  节标题与首段；Teichmüller space 段（$f\circ g^{-1}:Y\to X$、$\partial S$、
+  $L=(L_\alpha)_{\alpha\in A}\in\mathbb{R}_+^{|A|}$、$\mathcal{T}(S,L)$）；$\ell_\beta(X)=L_\beta$；
+  $S_{g,n}$ 定义句；$\mathcal{T}_{g,n}(L_1,\ldots,L_n)=\mathcal{T}(S_{g,n},L_1,\ldots,L_n)$；
+  Mod(S) 定义句（"set wise fixed" 印刷原样保留）；$\mathbf{Mod}_{g,n}=\mathbf{Mod}(S_{g,n})$（粗体）；
+  $\mathcal{M}_{g,n}(L)=\mathcal{M}(S_{g,n},\ell_{\beta_i}=L_i)=\mathcal{T}_{g,n}/\operatorname{Mod}_{g,n}$；
+  cusp 约定两句展示式。
+- 结果：**PASS±**（1 处偏离已修）。
+- 修复登记（本 redo，证据=p.8 PNG + 文本层）：
+  1. MD L270：印刷 "of length $\ell_{\beta_i}=L_i$**.**"，缺句号 → 补 "."。
+- print quirk 登记不改：印刷 "set wise"（分写，通行作 setwise）按原样保留 ✔；正文
+  $\mathbf{Mod}$ 粗体与上一句正体 "Mod(S)"、display 正体 Mod 并存，系原文混用，MD 各自如实对应。
+- 结构伪影登记：页顶致谢第二段在印刷中为小字页脚续（接 p.7 脚注），MinerU 作普通正文段落，
+  位置/字号信息丢失，内容逐字一致，不补包装。
+- Luna 旧修复重核：$\mathbf{Mod}$ 粗体、display 记号当前与印刷一致。
+- 备注：页界 L246–L282；L284 起（disconnected surface）属 p.9。
+

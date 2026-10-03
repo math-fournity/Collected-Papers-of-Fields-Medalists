@@ -267,7 +267,7 @@ $$
 \mathcal {M} _ {g, n} (L) = \mathcal {M} (S _ {g, n}, \ell_ {\beta_ {i}} = L _ {i}) = \mathcal {T} _ {g, n} (L _ {1}, \dots , L _ {n}) / \operatorname{Mod} _ {g, n}
 $$
 
-is the moduli space of Riemann surfaces homeomorphic to$S _ { g , n }$with n boundary components of length$\ell _ { \beta _ { i } } = L _ { i }$
+is the moduli space of Riemann surfaces homeomorphic to$S _ { g , n }$with n boundary components of length$\ell _ { \beta _ { i } } = L _ { i }$.
 
 By convention, a geodesic of length zero is a cusp and we have
 
