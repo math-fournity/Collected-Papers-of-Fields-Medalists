@@ -483,3 +483,12 @@
   5. outline 段："$\\mathrm K^{\\circ a}{-}\\mathrm al$gebra"散字→$\\mathrm K^{\\circ a}$-algebra、ofthe→of the、"part$(\\mathrm i)_{-}$and"伪"_{-}"→"part (i), and"（p.284 Let us give 段）
   6. proof outline 段：characteristic$\\boldsymbol p$×2→$p$（p.284 It remains 段）
 - 备注：Theorem 6.3 (iii) 与 R^+ 备注段与 print 一致；行 1277 自"as the completed direct limit ofalgebras ofthe previous form"起属印刷 p.285（其中 ofalgebras/ofthe 两处缺空格一并留给 p.041），留待 p.041。
+## p.041（PDF p.41 / 印刷 p.285）
+- PNG：audit/p041.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/285；proof outline 收尾（char 0 由 char p 推出）；Proof 6.3 开头（well-defined/continuous）；preimage U(f^♯/g^♯) 段；Lemma 6.4（U(f_i/ϖ)、f_i,g∈R^{♭°}、f_n=ϖ^{♭N}）；(i) ϖ-adic completion display R°⟨(f_i^♯/g^♯)^{1/p^∞}⟩ 与 subring display；(ii) O_X(U^♯)^{∘a} display；(iii)；Proof (i) char p 段（R°⟨(f_i/g)^{1/p^∞}⟩ display、flat + ϖ-adic complete）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 5 条，以原图为准）：
+  1. outline 收尾："ofalgebras ofthe"→of algebras of the、"the result in characteristic$\beta,$"→"characteristic$p$,"（p.285 首段）
+  2. Lemma 6.4：**"$\operatorname U(\frac{f_1,\dots,f_n}{\rho})$"→"$\frac{f_1,\dots,f_n}{\varpi}$"（ρ 系 ϖ 误读，print U(f_1,…,f_n/ϖ)，PNG 确认）**；"$f_i,g\in\mathbb R^{\mathrm{bo}}$"→"$\in\mathrm R^{\flat\circ}$"（bo 系 ♭∘ 误读）；"$f_n=\varpi^{\mathrm{bN}}$"→"$\varpi^{\flat\mathrm N}$"（p.285 Lemma 行原图）
+  3. (iii)"The tilt$o f\mathcal O_X(U^\sharp)$"（of 入 math）→of 出 math+补句点；Proof 头"$Proof.-\mathrm{(i)}$(K of characteristic$p)$."→"Proof. — (i) (K of characteristic p)."、段内"characteristic$\beta,$"→"$p$,"（p.285 (iii)/Proof 行）
+  4. **控制字节登记**：行 1287 一处 \x0b（"(i) Consider the \x0b-adic completion"，print "ϖ-adic completion"，PNG 确认）；行 1315 一处 \x0b（"and \x0b-adically complete"）——登记待字节级修复（\x0b→$\varpi$）
+- 备注：R°⟨(f_i^♯/g^♯)^{1/p^∞}⟩ 两个 display 与 print 一致；行 1317 起（"We want to show that modulo ϖ…"）属印刷 p.286，留待 p.042。

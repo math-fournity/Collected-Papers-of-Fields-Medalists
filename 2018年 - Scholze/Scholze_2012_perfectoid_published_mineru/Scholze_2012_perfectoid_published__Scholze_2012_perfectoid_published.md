@@ -1274,7 +1274,7 @@ We remark that we did not assume that$\mathrm { R } ^ { + }$is a K<sup>◦</sup>
 
 Let us give an outline of the proof. First, we show that the map$\mathrm { X } \to \mathrm { X } ^ { \flat }$is continuous. Next, we prove a slightly weaker version of (ii), and give an explicit description of the perfectoid$\mathrm { K } ^ { \circ a }$-algebra associated to${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$. This will be used to prove a crucial approximation lemma, dealing with the problem that the map$g \mapsto g ^ { \sharp }$is far from being surjective. Nonetheless, it turns out that one can approximate any function$f \in \mathrm { R }$by a function of the form$g ^ { \sharp }$such that the maps$x \mapsto | f ( x ) |$and$x \mapsto \vert g ^ { \sharp } ( x ) \vert$are identical except maybe at points x where both of them are very small. It is then easy to deduce part (i), and also part (ii). We note that the same approximation lemma will be used later in the proof of the weight-monodromy conjecture for complete intersections.
 
-It remains to prove that$\mathcal { O } _ { \mathrm { X } }$is a sheaf with vanishing higher cohomology, and that the vanishing even extends to the almost integral level. The proof proceeds in several steps. First, we prove it in the case that K is of characteristic$p$and$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection of an affinoid K-algebra of tft. In that case, it is easy to deduce the result from Tate’s acyclicity theorem. Again, the direct limit over the Frobenius extends the vanishing of cohomology to the almost integral level. Next, we do the general characteristic$p$case by writing an arbitrary perfectoid affinoid K-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$as the completed direct limit ofalgebras ofthe previous form. Finally, we deduce the case where K has characteristic 0 by using the result in characteristic$\beta ,$making use of parts (i) and (ii) already proved.
+It remains to prove that$\mathcal { O } _ { \mathrm { X } }$is a sheaf with vanishing higher cohomology, and that the vanishing even extends to the almost integral level. The proof proceeds in several steps. First, we prove it in the case that K is of characteristic$p$and$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection of an affinoid K-algebra of tft. In that case, it is easy to deduce the result from Tate’s acyclicity theorem. Again, the direct limit over the Frobenius extends the vanishing of cohomology to the almost integral level. Next, we do the general characteristic$p$case by writing an arbitrary perfectoid affinoid K-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$as the completed direct limit of algebras of the previous form. Finally, we deduce the case where K has characteristic 0 by using the result in characteristic$p$, making use of parts (i) and (ii) already proved.
 
 Proof. — First, we check that the map$\mathrm { X } \to \mathrm { X } ^ { \flat }$is well-defined and continuous: To check well-definedness, we have to see that it maps valuations to valuations. This was already verified in the proof of Proposition 3.6.
 
@@ -1282,7 +1282,7 @@ Moreover, the map$\mathrm { X } \to \mathrm { X } ^ { \flat }$is continuous, bec
 
 We have the following description of$\mathcal { O } _ { \mathrm { X } }$.
 
-Lemma 6.4. — Let$\operatorname { U } = \operatorname { U } ( { \textstyle \frac { f _ { 1 } , \dots , f _ { n } } { \rho } } ) \subset \operatorname { S p a } ( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$be rational, with preimage$\mathrm { U } ^ { \sharp } \subset$ $\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$. Assume that all$f _ { i } , g \in \mathbb { R } ^ { \mathrm { b o } }$and that$f _ { n } = \varpi ^ { \mathrm { b N } }$for some$\mathrm { N } ;$this is always possible without changing the rational subspace.
+Lemma 6.4. — Let$\operatorname { U } = \operatorname { U } ( { \textstyle \frac { f _ { 1 } , \dots , f _ { n } } { \varpi } } ) \subset \operatorname { S p a } ( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$be rational, with preimage$\mathrm { U } ^ { \sharp } \subset$ $\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$. Assume that all$f _ { i } , g \in \mathrm { R } ^ { \flat \circ }$and that$f _ { n } = \varpi ^ { \flat \mathrm { N } }$for some$\mathrm { N } ;$this is always possible without changing the rational subspace.
 
 (i) Consider the  -adic completion
 
@@ -1304,9 +1304,9 @@ $$
 \mathcal {O} _ {\mathrm{X}} \big (\mathrm{U} ^ {\sharp} \big) ^ {\circ a} = \mathrm{R} ^ {\circ} \Big \langle \left(\frac {f _ {1} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}}, \ldots , \left(\frac {f _ {n} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}} \Big \rangle^ {a}.
 $$
 
-(iii) The tilt$o f { \mathcal { O } } _ { \mathrm { { X } } } ( \mathrm { { U } } ^ { \sharp } )$is given by$\mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } )$
+(iii) The tilt of${ \mathcal { O } } _ { \mathrm { { X } } } ( \mathrm { { U } } ^ { \sharp } )$is given by$\mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } )$.
 
-$P r o o f . - \mathrm { ( i ) }$(K of characteristic$p )$. Assume that K has characteristic$\beta ,$and identify $\mathrm { K } ^ { \flat } = \mathrm { K }$; the general case is dealt with below. We see from the definition that
+Proof. — (i) (K of characteristic$p )$. Assume that K has characteristic$p$, and identify $\mathrm { K } ^ { \flat } = \mathrm { K }$; the general case is dealt with below. We see from the definition that
 
 $$
 \mathrm{R} ^ {\circ} \left\langle \left(\frac {f _ {1}}{g}\right) ^ {1 / p ^ {\infty}}, \dots , \left(\frac {f _ {n}}{g}\right) ^ {1 / p ^ {\infty}} \right\rangle
