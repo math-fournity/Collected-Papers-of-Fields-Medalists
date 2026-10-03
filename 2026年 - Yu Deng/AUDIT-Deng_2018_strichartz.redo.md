@@ -194,6 +194,12 @@
 - 核对：Borel-Cantelli 积分链 display（Σ′≼_{α,β}∫Σ′dα′dβ′）、"Consquently" 段与 Σ′≼_{α,β}2^jN^{12}/K^{10}、2^{j/2}N⁶/K⁴ 反例段（K=N^{1/2}、2^j=N^{−3}、N^{5/2}、≲_{α,ε}N^{1+ε}）、"split off" 段、Proof of Lemma 6.5（2^j≥N^{−3} 归约、立方 display 三重 substack 带 (i=0,1,2)）、"collinear iff" 段、(6.14) 叉积、(6.15) 三项分裂（λ_i∈ℚ 共线项 / (U₀,V₀,W₀)^T×(U₁,V₁,W₁)^T≠0 且 Δ=0 项 / Δ≠0 项）
 - 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；print quirk 忠实保留："Consquently"（L1347，原刊拼写）。**修复 3 处**：L1355 "split of"→"split off"（印刷与 pdftotext 均为 split off；Luna 把此句记在 p.24 名下但实际印刷位置在 p.25）；L1363 "collinear if"→"collinear iff"（印刷 iff）；L1347 省略号后多余句点 `$. . .$. this`→`$. . .$ this`。残余瑕疵（不误导，不改）：L1353 "N^{1+ε}" 后缺句号。
 - 备注：Luna 旧修复抽核**发现遗留缺陷**——"split of" 与 "collinear if" 两处少 f/少 f 均在 Luna 登记类似问题（p.24 名下）后仍残留（本次修复）。
+
+## p.026（PDF p.26 / 印刷 p.26）
+- PNG：audit-redo/p026.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：对角贡献段与 Û₀,Ŵ̂₀ 约化、双和 display（(Σ_{|y(Û₀+V̂₀α+Ŵ̂₀β)−τ′|<2^j, y∈ℤ} 1)² ≤ ΣΣ((2^{j+1}/|·|)²+1)）、|Û₀+V̂₀α+Ŵ̂₀β|⪰_{α,β}K⁴/N⁴、(6.16)、"This will suffice"、Lemma 6.6（m^T×c^T≠0 条件与 ≼_{α,β}2^jN⁴/K²+1）、Lemma 6.7 Σ₀ 定义与 ≼1+2^{3j}N^{12}/K³、"Inserting (6.16)" 链与 "from which we obtain" 链、"This proves the lemma."□
+- 结果：PASS±（4 处已修复）。全部公式与印刷逐项一致。**修复 4 处**：L1378 第二 substack `(0.0,0)`→`(0,0,0)`（印刷为逗号，MD 句点笔误）；L1381 损毁的 ⪰ 构造（`\stackrel{}{\underset{}{ et{}{^-}}}` 等）→`\succeq_{\alpha,\beta} K^4/N^4`（印刷正常，此处为转录乱码）；L1387 "sufice"→"suffice"（印刷双 f）；L1421 "This proves the lemma." 后补 □（印刷右缘有结束方框，MD 缺失）。残余瑕疵：无新增。
+- 备注：Luna 旧修复抽核通过——本页公式链（对角项、Lemma 6.6/6.7、两条插入链）与印刷逐式一致；乱码 ⪰ 为 Luna 链未清理的转录缺陷（本次修复）。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。

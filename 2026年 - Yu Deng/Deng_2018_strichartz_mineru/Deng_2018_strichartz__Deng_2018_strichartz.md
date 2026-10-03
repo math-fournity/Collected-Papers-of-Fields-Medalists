@@ -1375,16 +1375,16 @@ $$
 The first term on the right-hand side includes the diagonal contribution, when the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$ are all equal. Letting$( \hat { U } _ { 0 } , \hat { V } _ { 0 } , \hat { W } _ { 0 } ) = ( U _ { 0 } , V _ { 0 } , W _ { 0 } ) / \operatorname* { g c d } ( U _ { 0 } , V _ { 0 } , W _ { 0 } )$, this first term is bounded by
 
 $$
-\begin{array}{l}\sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\sum_{\substack{|y(\hat{U}_{0} + \hat{V}_{0}\alpha +\hat{W}_{0}\beta) - \tau^{\prime}| <   2^{j}\\ (y\in \mathbb{Z})}}1\right)^{2}\\ \leq \sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0.0,0)}}\left(\frac{2^{j + 1}}{|\hat{U}_{0} + \hat{V}_{0}\alpha + \hat{W}_{0}\beta |}\right)^{2} + 1. \end{array}
+\begin{array}{l}\sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\sum_{\substack{|y(\hat{U}_{0} + \hat{V}_{0}\alpha +\hat{W}_{0}\beta) - \tau^{\prime}| <   2^{j}\\ (y\in \mathbb{Z})}}1\right)^{2}\\ \leq \sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\frac{2^{j + 1}}{|\hat{U}_{0} + \hat{V}_{0}\alpha + \hat{W}_{0}\beta |}\right)^{2} + 1. \end{array}
 $$
 
-For generic$\alpha , \beta$we have$| \hat { U } _ { 0 } + \hat { V } _ { 0 } \alpha + \hat { W } _ { 0 } \beta | \stackrel { } { \underset { } { et { } { ^ { - } } } } \alpha , \beta \stackrel { } { K ^ { 4 } } / N ^ { 4 }$and so the sum on the last line is
+For generic$\alpha , \beta$we have$| \hat { U } _ { 0 } + \hat { V } _ { 0 } \alpha + \hat { W } _ { 0 } \beta | \succeq _ { \alpha , \beta } K ^ { 4 } / N ^ { 4 }$and so the sum on the last line is
 
 $$
 \preceq_ {\alpha , \beta} \left(\frac {2 ^ {2 j} N ^ {8}}{K ^ {8}} + 1\right) \Phi (\alpha , \beta , \tau^ {\prime}).\tag{6.16}
 $$
 
-This will sufice for the first term. A variation of the same argument produces the following lemma, which is enough to treat the second term in (6.15).
+This will suffice for the first term. A variation of the same argument produces the following lemma, which is enough to treat the second term in (6.15).
 
 Lemma 6.6. For generic$\alpha , \beta , 2 ^ { j } \geq N ^ { - 3 }$and$\tau ^ { \prime } \in \mathbb { R } , K \in [ N ^ { 1 / 2 } , N ]$and$m , c \in \mathbb { Z } ^ { 3 }$with$| m | , | c | \lesssim$ $N ^ { 2 } , \operatorname* { g c d } ( m _ { 1 } , m _ { 2 } , m _ { 3 } ) = 1$and$m ^ { T } \times c ^ { T } \neq 0$, we have
 
@@ -1419,6 +1419,8 @@ $$
 $$
 
 This proves the lemma.
+
+□
 
 ## 6.5. The case$A ^ { \prime } B ^ { \prime } \ne ( C ^ { \prime } ) ^ { 2 }$, auxiliary lemmas.
 
