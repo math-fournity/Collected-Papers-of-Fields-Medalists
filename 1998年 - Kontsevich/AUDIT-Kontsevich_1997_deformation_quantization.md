@@ -332,3 +332,93 @@
 - 结果：`FAIL`→1 处已修复：地址块首行 `I.H.E.S., 35 Route de Chartres,` 被 MinerU 错位到 [Ko2] 之前（原 MD 行 1903），印刷中地址三行连续位于全部文献之后（PNG 确凿），已移位归位至 [V] 之后与后两行合并为完整地址块。print quirk 忠实保留：行 1915 `J. Stashef`（原文单 f）；行 1911 `Gauge Field theory`（原文大写 Field）；行 1909 `Z¨urich`/`Birkh¨auser`（重音分解伪影，登记）。八条文献作者/刊名/卷期页码与印刷逐字段吻合。
 - 备注：本页为全篇末页。全篇 46 页页级审计至此完成；总评与抽查覆盖声明另落签（SOP 第 7 步），篇级 AUDIT-INDEX/进度投影由 Master 集成时处理。
 
+---
+
+## 总评（closeout，2026-10-02，Wf-P12）
+
+全篇 46 页（PDF p.1–p.46 = 印刷 p.1–p.46）逐页审计完成，页级条目 p.001–p.046 共 46 条，每页一提交（024e2aa6 → 8f274651 共 46 个 audit(page) commit）。分级总账：**PASS± 4 页（p.1/3/5/45），FAIL→当页修复 42 页，纯 PASS 0 页**；累计修复 **186 处**，全部为 MinerU 提取伪影或内容错写，无一处属印刷原文 quirk 被误改。修复按五类归纳：
+
+1. **斜体/花体数学符号丢失**（约 70 处）：𝒰/𝒰_Γ×15、𝓗×9、𝒲×3、𝒯/𝒟、∞×3、𝒞/C×5、𝒰g、I_PBW、·、⊗、↦、±、−（负号×3）、∈、in、g₁/g₂/m₂ 下标、c_Γ 下标、I_PBW 后缀等——每处均以 PNG+文本层双证、疑难以 300dpi 裁剪仲裁（audit/300dpi/ 共 15 张）。
+2. **ff 连字吞失**（8 处词义改变级）：iff×7（p.11/12/13/14/19/20/22 等）、coinside/Quanization/Bibiliography/morphim/form 等原文拼写类忠实保留。
+3. **符号错写**（约 12 处）：Z_{>0}→Z_{≥0}、I_Γ→𝒰_Γ、Q²→Q₂×2、τ→𝒯、ω→𝒲、u→𝒰、−Δ 箭头、? 代 T、Π?G、η 列表重复、harpoon 箭头、i.e. 空定界符损毁、ad(g)′+sup 错排。
+4. **幻影字符**（约 25 处）：\bar{G}、\bar{Trace}、\bar G(1)、\dot{0}、\dot{X}、\dot{R}、\mathbf{\Xi}/\xi、\mathbf{\mu}、\mathbf{\psi}、\mathbf{\cdot}(Z·)、\rrangle、\overrightharpoon、幻影 7、幻影 ′、$)$、$$ 空 数学、A_\infty. 句点等。
+5. **标点损毁/粘连**（约 60 处）：双句点×14、双逗号×4、双冒号、$)$ 后杂散、缺句号/逗号/冒号、copiesof/realanalytic/ofa 粘排、P3.that 等。
+
+**print quirk 忠实保留清单**（300dpi 确证后不改）：uses in a essential way（p.1）；p.2 末式外括号不配对；j₁,…jₙ 无逗号（p.4）；权公式 i/k 混用（p.6）；Maurer- Cartan（p.9）；the set equivalence classes 缺 of（p.14）；γ•γ₁ 无下标 2、where introduce 缺 we（p.15）；It better to identify 缺 is（p.16）；L∞-morphim（p.17）；definitions form 4.5.2、L-morphisms 无 ∞、one get（p.18）；(i.e.the 粘排（p.19）；integrate of the preimage（p.38）；1/n! is the final formula（p.28）；𝒟 a naturally（p.36）；that that（p.30/36）；coinside、Quanization、a affine（p.39）；-morhism（p.24）；Bibiliography、[BGRT] , 缺首作者、C. R. .Acad. Sci.（p.45）；J. Stashef、Gauge Field theory（p.46）。
+
+**不可修复登记**（以 PDF 原图为准，不虚构重建）：p.20 顶部 6 点配置图（MD 残片 `$^2\bullet\quad^3_4$`，无源图）；p.33 顶部 p₁/p₂ 图（MD 无引用无源图）。
+
+**遗留待裁决**：无。全部上块移交线索（§8.2 标题 𝒰、\bar{G}^{(1)}×2、行 931 全角逗号）均已闭环。
+
+## 抽查覆盖声明
+
+- 逐页覆盖：46/46 页，无跳页。每页均执行 gs pngmono 150dpi 渲染 + Read 视觉核验 + pdftotext 文本层主对账（双通道），页级条目逐页落签。
+- 300dpi 仲裁：15 张裁剪存 `audit/300dpi/`（p002×2、p007×2、p008×1、p009×3、p018×2、p022×1、p028×2、p031×1、p034×1、p036×1、p045×1），全部随审计提交。
+- 文本层判定：p.1 首页 pdftotext 完整清晰 → 全程「文本层主对账 + PNG 视觉核验」双通道（文件头已登记）。
+- 修复后全文复读：本轮（closeout）对最终 MD 全文 1922 行完整重读（4 段 Read 覆盖 1–1922 行，无跳读），逐项回核 186 处修复全部在位且与对应页面证据一致；只读模式扫描（grep -F 字面匹配）确认幻影/重复字符类（全角逗号、\bar{G}、\bar{Trace}、\Xi、\xi、\rrangle、copiesof、\mathrm{?}、\dot{X}/\dot{R}、$eof、e eis）全篇 0 残留；唯一 `\bar{\mathcal{E}}`（行 285）为 p.007 已仲裁的印刷原貌（印刷确有横线），非残留错误。复读未产生新的 Markdown 修改。
+- 图证据：MD 中 22 处 `![](images/…)` 引用所涉文件均核在（mineru kit 布局）；2 张图缺失登记如上（p.20/p.33）。
+- `doc_id`: UNKNOWN（同文件头）。
+
+## 修复登记（逐页；逐处明细见对应页条目，含 PNG/300dpi 证据与依据）
+
+| 页 | 处数 | 修复内容摘要 | commit |
+|---|---|---|---|
+| p.1 | 0 | 无（PASS±） | 024e2aa6 |
+| p.2 | 1 | ∑_{m>1}→∑_{m≥1} | e3e6cd80 |
+| p.3 | 1 | e ecohomological→cohomological | 63cd17ae |
+| p.4 | 3 | 补 ×；删多余 )；删双句点 | d2a55fab |
+| p.5 | 0 | 无（PASS±） | 130964d9 |
+| p.6 | 2 | 补 ∞；删双逗号 | 0f88c461 |
+| p.7 | 4 | 删幻影 ·/ψ/\dot{}；删 γ_i. 双标点 | 1c3879ff |
+| p.8 | 2 | degree 1→−1；删双句点 | b77b3c1d |
+| p.9 | 6 | ∂̄-forms 连字符；删 X$eof；补 ◦；修 m_A 错裂+δ；删 e e；Ã 重音 | 453f358a |
+| p.10 | 4 | 补 C×3；删 f.$. 双句点 | 1fa2a4b4 |
+| p.11 | 3 | if→iff；L∞.→连字符+补 g₁/g₂；coeficien+Q²→Q₂ | ed07acbc |
+| p.12 | 10 | Q²→Q₂；双句点×2；拆词 algebra；pre-$.L×2；iff；多余句点；algebras. 句点；g₂ 下标；补 ⊗ | ccca3a7f |
+| p.13 | 11 | ℏ:: 双冒号；$$ 缺句号；morphisms 规范化×2；L-morphisms 补 ∞；L∞. 句点；i=1,2 缺句号；拆词×3；iff；ofa 缺空格×2+句点 | 5ba6980f |
+| p.14 | 6 | L∞. 句点；拆词 algebras；补 C；补闭括号；iff；degree −1 | f1e1ffcd |
+| p.15 | 3 | 全角逗号→ASCII；补 ∞；x_i→x^i+句点 | 5941ead1 |
+| p.16 | 2 | 双句点×2（$Y.$.$、$\mathcal{C}.$.$） | 83ee9ed8 |
+| p.17 | 6 | 补 𝒞×2；iff；◇→⊗；补 𝒰；删双逗号 | 02228ee1 |
+| p.18 | 5 | u,→𝒰,；补 𝒰×3；补 ∞ | 60fe51d3 |
+| p.19 | 5 | C̄_{r}→C̄_{n,m}；iff；双句点×2；补句点 | 65fefbe8 |
+| p.20 | 4 | 全角逗号→ASCII；leaves 括号；补 𝓗∪；iff | e34d5e52 |
+| p.21 | 6 | 补 {0}；补 𝓗×3；删 \breve；删双句点 | f22acc51 |
+| p.22 | 3 | Z_{>0}→Z_{≥0}；补 𝓗；删幻影 ) | 707ef10b |
+| p.23 | 6 | I_Γ→𝒰_Γ；补 𝒰_Γ；补 𝓗；§6.3 标题句点；双句点×2 | d91c6a6b |
+| p.24 | 11 | 补 𝒰×7；补 ∘/•；删杂散句点；删 [1]) 多余括号 | 24aa4bf6 |
+| p.25 | 5 | 删幻影 ′；c→c_Γ；删双句点；补 ±；补 • | 6cbcb804 |
+| p.26 | 1 | 补 ∘ | fcaae840 |
+| p.27 | 2 | 补 𝒰×2；删杂散句点 | c2993d5f |
+| p.28 | 7 | 补 𝒰×4；删 \bar G；幻影 7+逗号；"put" 引号 | fdfa2e59 |
+| p.29 | 2 | 补 ±2π；删 U_i 幻影下标 | a3eb3867 |
+| p.30 | 3 | 补 𝒰×3（P1/P3/引言） | 03a938c9 |
+| p.31 | 6 | η 列表去重；补 𝒰；删幻影 Ξ；删 \dot X；补 ∇×2 | 54073cbb |
+| p.32 | 6 | 补 𝒲×3；id_w→id_𝒲；补 𝒰；删 \dot R | 71797d7d |
+| p.33 | 4 | −Δ→⟶；补 𝓗；Π?G→ΠTG；ω→𝒲 | 2eadaf78 |
+| p.34 | 9 | 横线 mangling；τ→𝒯；删双句点；删幻影 )×2；P3 标点；补 in 𝒰_{≥2}；补 𝒯/𝒟；补 𝓗 | b0b6a166 |
+| p.35 | 3 | 补 𝓗；补 ∇×2 | 025bbae0 |
+| p.36 | 1 | harpoon 箭头 mangling 修复 | 084dcefa |
+| p.37 | 5 | §8.2 标题补 𝒰；补 𝒰；补 𝓗；iff；删 A_∞. 句点 | 5f120976 |
+| p.38 | 1 | 补 𝓗 | d61f53d8 |
+| p.39 | 8 | 补 ⊗；删双逗号；删双句点；补 ·；删幻影 μ；补 𝒰g×2；补 𝒰 | 2bc1ddc2 |
+| p.40 | 3 | i.e. 括号修复；ad(g)′+sup→ad(g)*；删 \rrangle+句点 | 2c6845e0 |
+| p.41 | 6 | 补 I_PBW；删 \bar G（移交②）；补 𝓗；删双句点×3；H. 逗号 | 3fdd6641 |
+| p.42 | 2 | 补 ↦；copiesof→copies of | 75eb8bd1 |
+| p.43 | 4 | 删幻影 ξ；Center 补 𝒰g；补冒号；补句点 | 6814d669 |
+| p.44 | 3 | 删 \bar Trace；补 𝒰g；删双句点 | c18f0728 |
+| p.45 | 0 | 无（PASS±，文献 20 条逐核） | 0959cfe1 |
+| p.46 | 1 | 地址块首行错位归位 | 8f274651 |
+| **合计** | **186** | 46 commit（024e2aa6→8f274651） | — |
+
+**勘误**：p.045 条目原记「文献 19 条」，实为 [AKSZ]–[Ko1] 共 20 条（p.46 另 8 条，全篇共 28 条），已在此更正。
+
+## 复读收据（closeout full re-read receipt）
+
+- 复读对象：修复后最终 Markdown 全文，1–1922 行完整重读（Read 4 段：1–480、481–965、966–1450、1451–1922，无跳读）。
+- `wc -l`：**1922** 行（`wc -l Kontsevich_1997_deformation_quantization__Kontsevich_1997_deformation_quantization.md`）。
+- `shasum -a 256`：**6fba421cedb1a17d179d307689f52fb84c44f61f56ec9e8443d5ad19142db63e**（复读时点；复读未再改动 MD，收尾提交后仍为此值）。
+- 回核结论：186 处修复全部在位且与对应页级证据一致；无遗漏修复；无新差异引入。残余项仅为已登记 PASS± 伪影类（ff 拍平约 120 行命中、¯h 6 行、重音分解 8 行、HTML sub/sup 15 行、若干句末标点遗漏）与 2 项图缺失登记（p.20/p.33），均已在对应页条目登记且按 SOP 默认不批量修。
+- 篇级收尾移交：AUDIT-INDEX.md / README.md / 根 AUDIT-PROGRESS.log 的进度投影与总评归档由 Master 唯一 canonical integrator 处理（Peer 不写根级）。
+
+
