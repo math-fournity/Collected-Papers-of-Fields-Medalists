@@ -453,3 +453,13 @@
   4. Prop 5.22："$\mathrm K^{\circ a}/\varpi-algebra.$,"散字+伪'.$,'→-algebra,；句尾"$K^{\circ a}/\varpi-algebra$"补句点（p.281 Prop 行原图）；Proof 头"$Proof.-\mathrm{Obviously,\ }\mathbf{\overline B}$"→"Proof. — Obviously, $\mathbf{\overline B$"、"[15].-"→".□"
   5. fully faithful 段：ofthem→of them、characteristic$\beta.$→$p$.；Prop 5.23：ofcharacteristic$\beta,$→of characteristic$p$、befinite/isfinite/uniformlyfinite补空格（p.281两段）
 - 备注：commutative diagram（array 双行）与 print 方向/≅ 标注格局一致（个别 ≅ 标签在上/下行的微差为排版伪影，内容无歧义，未改）；Remark 5.24 主体属印刷 p.282，留待 p.038。
+## p.038（PDF p.38 / 印刷 p.282）
+- PNG：audit/p038.png（pngmono 150dpi）
+- 核对：页眉 282/PETER SCHOLZE；Remark 5.24 收尾（topology 段）；Prop 5.23 证明（S_0⊂S、S_0^⊥、t_{S/R}:S⊗_R S→R; display、Y integral closure、S^{°a}=Y^a）；uniformly finite projective 段（S°→R^{°n}、R^{°n}→S°、ϖ^N e=Σx_i⊗y_i、ϖ^{N/p^m}e、εe=Σa_i⊗b_i）；s↦(t_{S/R}(s,b_i)) display；(r_1,…,r_n)↦Σa_ir_i display；unramified R^{°a}-algebra 段+QED □；extended commutative diagram
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Remark 5.24 尾："{\mathrm{-module~M}}carries"散字→-module M carries、"morphism offinitely"→of finitely（p.282 首段/上页边界行）
+  2. uniformly finite 段："$\mathbf S^\circ␣\mathbf R^{\circ n}$and"缺箭头→→、composite is multiplication by .丢ε→by$\epsilon$.（p.282 Next 段）
+  3. idempotent 段：**"${\varpi^N}_\ell$"→"$\varpi^N e$"（ℓ 系 e 误读，print ϖ^N e，PNG 确认）**；"$\mathrm{\Delta S^\circ\otimes_{R^\circ}S^\circ}$伪 Δ删；"${\bf\Phi}^N e=\sum$"→"$\varpi^N e=\sum$"（Φ 系 ϖ 误读，print ϖ^N e）；"depending on ."丢ε→on$\epsilon$；"We get the map$\mathbf S^\circ␣\mathbf R^{\circ n}$"缺箭头→→（p.282 Let e 段原图）
+  4. composite 段："multiplication by , giving"丢ε→by$\epsilon$；"desired properties.-"→".□"（p.282 两行）
+  5. extended diagram：$A_{\text{fét}}^b/R_{\text{fét}}^b$→$^\flat$（b→♭）；$K^{\flat oa}→K^{\flat\circ a}$（p.282 末 display）
+- 备注：t_{S/R} display 与 (r_1,…,r_n) display 与 print 一致；行 1237 起（"Moreover, using Theorem 4.17…"）属印刷 p.283，留待 p.039。
