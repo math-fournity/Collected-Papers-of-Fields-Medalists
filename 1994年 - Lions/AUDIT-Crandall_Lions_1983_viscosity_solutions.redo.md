@@ -71,3 +71,10 @@
 - 核对：B̄(0,h) 段与 C¹_c 收尾、We next prove、LEMMA I.5、PROOF OF LEMMA I.5（ψ_- ∈ C¹_c(𝒪)⁺ 含 ⁺、supp ψ_-\{y_0}）、(1.8)、φ_l 序列段（E_+(φ_l(u−k)) ≠ 0 与 p.6 同款印刷 0）、(1.9)、Passing to a subsequence 段、F(y_0,…)≤0 展示式、hence the result、PROOF OF THEOREM I.3（φ̂ 定义、χ 条件、φ̂(u−ψ(y_0)) 式、差商两行式）、we have + Dφ̂(y_0) 展示式
 - 结果：**PASS±**。**重核 Luna 旧修复并回退**：Luna 曾把 (1.9) 分母 `\varphi(y_l)` 改为 `\varphi_l(y_l)` 并声称 300dpi 印刷页明确为 φ_l；本次 300dpi 全式裁片 + 分母 4x 放大直证：**印刷分母为 φ(y_l)，φ 上无下标 l**（同行 y_l、行尾 Dφ_l(y_l) 的下标 l 清晰可辨，非分辨率问题），属**印刷原文级 quirk**（数学上应为 φ_l(y_l)，但印刷即如此）。按印刷忠实纪律回退该修复，恢复分母为 `\varphi (y _ {l})`；Dφ_l(y_l) 保持带下标（与印刷一致）。源级 quirk 登记：(1.9) 分母 φ(y_l)（无 l）；本页 "≠ 0" 两处与 p.6 印刷同款，照录。样式差异：`Remark 1.4`（I→1 拍平，已登记）；行 201 `## We next prove` 为 MinerU 标题标记（印刷为正文行），内容无损。其余正文、公式、(1.8) 标号与不等号均与印刷页相符。页眉 running head 与印刷页码 7 未录入 Markdown。
 - 备注：本页无脚注。p.7 页末止于 Dφ̂(y_0) 展示式；"The result now follows from Lemma I.5…" 自 p.8 起，页界正确。
+
+## p.008（PDF p.8 / 印刷 p.8）
+
+- PNG：audit-redo/p008.png（pngmono 150dpi）；仲裁裁片 300dpi×3：G(ŷ,r,p) 展示式行尾括号（2x）、页末 Ψ′ 展示式、φ̃/k̃ 字形（/tmp 中转，结论已录本条）
+- 核对：The result now follows from Lemma I.5 段、COROLLARY I.6 (CONSISTENCY) 全陈述与证明（{y_0}=E_-(φ(u−ψ_++1))、F(y_0,…)≥0 展示式）、changes of variables 引句、COROLLARY I.7 (i)(ii) 与两个 G 定义式（r/g(y)+ψ(y)、−rDg/g²+p/g+Dψ；Φ⁻¹(ŷ) 共轭式与 cotangent 说明句）、We omit the proof 段、COROLLARY I.8 与 (1.10)、PROOF OF COROLLARY I.8 首段与 φ̃/k̃ claim 展示式
+- 结果：**PASS±**。全部公式、分号体例（respectively; supersolution, solution）、(1.10) 标号与不等号均与印刷页相符。源级 quirk 登记（MD 忠实照录，不改）：(1.10) 后证明 claim 式右端因子印刷为 $\Psi'(v(x_0))$（300dpi 确证为大写 Psi 加 prime；Ψ 随后在 p.9 定义为 Φ⁻¹），MD 照录 `\Psi^{\prime}`；φ̃/k̃ 印刷为波浪号（非帽号），MD `\tilde` 一致；G(ŷ,r,p)=F(…) 行尾印刷为三个闭括号（2x 裁片确证配平），MD 结构一致。页眉作者行与印刷页码 8 未录入 Markdown。
+- 备注：p.8 页末止于 claim 展示式；"where Ψ(t) = Φ⁻¹(t)…" 自 p.9 起，页界正确。
