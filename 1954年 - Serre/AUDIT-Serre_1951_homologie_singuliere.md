@@ -168,3 +168,11 @@
   - MD 正确项：①150dpi 疑 "H^n(X, G)"，600dpi（p018_Hn_600.png）确认印刷为 **H^p(X, G)**（印刷在 "dimension n" 语境下仍写 p，print quirk，MD 忠实保留）；②150dpi 疑 T 下标为 x，600dpi（p018_Tx2_600.png）确认印刷为 **T_{u,i,0}/T_{u,i,1}**（下标 u），MD 正确。
 - 差异：无其他。
 - 备注：md 行 735 起 "où $T_{u,i,\epsilon}$ désigne l'isomorphisme…"、cup-product 段与 χ_{u,H} 路径定义属印刷 p.442，留待下一分块。
+
+## p.019（PDF p.19 / 印刷 p.442）
+- PNG：audit/p019.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p019_sum_600.png、p019_sum3_600.png（600dpi）
+- 核对：T_{u,i,ε} 说明（t → u(0, ⋯, tε, 0, ⋯, 0)、T_{u,i,0}(g) = g）；cup-product 式 (f·g)(u) = ∑_H ρ_{H,K} f(λ_K^0 u)·τ_{u,H} g(λ_H^1 u)；χ_{u,H}(t) = u(x_1, ⋯, x_{p+q})（x_i = 0 si i ∈ K, x_i = t si i ∈ H）；Comparaison avec la théorie singulière classique（L_n、∑_0^n y_i = 1、y_0 = 1 − x_1 / y_1 = x_1(1 − x_2) / ⋯ / y_n 公式组、θ_n: I^n → L_n、θ homomorphisme、isomorphismes sur、Eilenberg-MacLane en préparation）；f·g = (−1)^{pq} g·f（anticommutativité du cup-produit）；"homologie singulière"命名约定段；§2 Espaces fibrés; définition et premières propriétés 开头
+- 结果：PASS
+- 仲裁记录：150dpi 疑印刷 ∑ 下限为 i，600dpi（p019_sum3_600.png，4x）确认印刷为 **∑₀**（下限 0，与同行 "(E_r)" 类对照清晰），MD $\sum_{0}^{n}$ 正确。
+- 差异：无。
+- 备注：md 行 775 起 "Pour établir…le théorème" 的续文属印刷 p.443。
