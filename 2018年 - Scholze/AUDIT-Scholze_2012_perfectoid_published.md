@@ -492,3 +492,13 @@
   3. (iii)"The tilt$o f\mathcal O_X(U^\sharp)$"（of 入 math）→of 出 math+补句点；Proof 头"$Proof.-\mathrm{(i)}$(K of characteristic$p)$."→"Proof. — (i) (K of characteristic p)."、段内"characteristic$\beta,$"→"$p$,"（p.285 (iii)/Proof 行）
   4. **控制字节登记**：行 1287 一处 \x0b（"(i) Consider the \x0b-adic completion"，print "ϖ-adic completion"，PNG 确认）；行 1315 一处 \x0b（"and \x0b-adically complete"）——登记待字节级修复（\x0b→$\varpi$）
 - 备注：R°⟨(f_i^♯/g^♯)^{1/p^∞}⟩ 两个 display 与 print 一致；行 1317 起（"We want to show that modulo ϖ…"）属印刷 p.286，留待 p.042。
+## p.042（PDF p.42 / 印刷 p.286）
+- PNG：audit/p042.png（pngmono 150dpi）
+- 核对：页眉 286/PETER SCHOLZE；surjection display R°[T_i^{1/p^∞}]→R°[(f_i/g)^{1/p^∞}]；ideal I 段（T_i^{1/p^m}g^{1/p^m}−f_i^{1/p^m}）；/I→R°[…] display；almost isomorphism 段（inverting ϖ、ϖ^k f∈I、(ϖ^{k/p^m}f)^{p^m}∈I）；Reducing display /(I,ϖ)→⟨…⟩/ϖ；Frobenius display /(I,ϖ^{1/p})≅/(I,ϖ)；This finally shows display ⟨…⟩^a；char p 结论；(i)⇒(ii) General K 段（R_0=R°、inclusions display、ϖ^{nN} claim display、1/g^♯=ϖ^{−nN}f_n^♯/g^♯）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 4 条，以原图为准）：
+  1. "modulo$\varpi_{:}$"伪"_{:"→$\varpi$（p.286 首段）
+  2. almost isomorphism 段："Iff lies"→If f lies、"some k with$^ k f∈I$"（ϖ 丢失）→"some k with$\varpi^k f∈I$"（print ϖ^k f，PNG 确认）（p.286 右栏原图）
+  3. "From the definition of$^{\mathrm{~I~},}$"（I 乱码为上标块）→"From the definition of I,"；"characteristic$\beta.$"→"$p$."（p.286 From 段与 char p 结论行）
+  4. **控制字节登记**：行 1329 一处 \x0b（"after inverting \x0b, because this also inverts g"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
+  5. Indeed 段："$\varpi^{-\mathrm N}\frac{f_n^\sharp}{g^\sharp}$"→"$\varpi^{-n\mathrm N}\frac{f_n^\sharp}{g^\sharp}$"（print 指数 −nN，PNG 确认）；句末补句点（p.286 Indeed 行原图）
+- 备注：surjection//I/(I,ϖ)/(I,ϖ^{1/p})/⟨…⟩^a 五个 display 与 inclusions/ϖ^{nN} claim 两个 display 均与 print 一致；行 1365 起（"Now we prove (iii)…"）属印刷 p.287，留待 p.043。
