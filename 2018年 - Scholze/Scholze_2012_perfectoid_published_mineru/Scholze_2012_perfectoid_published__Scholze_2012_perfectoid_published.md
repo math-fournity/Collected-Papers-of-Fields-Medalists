@@ -1428,17 +1428,17 @@ $$
 \mathrm{R} ^ {\circ} \left\langle \left(\frac {f _ {1} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}}, \dots , \left(\frac {f _ {n} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}} \right\rangle^ {a} / \varpi \cong \mathrm{S} ^ {\circ a} / \varpi .
 $$
 
-This gives part (i), and hence part (ii), and then the latter isomorphism gives part (iii). -
+This gives part (i), and hence part (ii), and then the latter isomorphism gives part (iii).□
 
 We need an approximation lemma.
 
-Lemma 6.5. — Let$\mathrm { R } = \mathrm { K } \langle \mathrm { T } _ { 0 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } \rangle$. Let$f \in \mathrm { R } ^ { \circ }$be a homogeneous element of degree$d \in \mathbf { Z } [ \textstyle { \frac { 1 } { \rho } } ]$. Thenfor any rational number$c \geq 0$and any$\epsilon > 0$, there exists an element
+Lemma 6.5. — Let$\mathrm { R } = \mathrm { K } \langle \mathrm { T } _ { 0 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } \rangle$. Let$f \in \mathrm { R } ^ { \circ }$be a homogeneous element of degree$d \in \mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$. Then for any rational number$c \geq 0$and any$\epsilon > 0$, there exists an element
 
 $$
 g _ {c, \epsilon} \in \mathrm{R} ^ {\flat \circ} = \mathrm{K} ^ {\flat \circ} \bigl \langle \mathrm{T} _ {0} ^ {1 / p ^ {\infty}}, \ldots , \mathrm{T} _ {n} ^ {1 / p ^ {\infty}} \bigr \rangle
 $$
 
-homogeneous ofdegree d such thatfor all$x \in \mathrm { X = S p a ( R , R ^ { \circ } ) }$, we have
+homogeneous of degree d such that for all$x \in \mathrm { X = S p a ( R , R ^ { \circ } ) }$, we have
 
 $$
 \left| f (x) - g _ {c, \epsilon} ^ {\sharp} (x) \right| \leq | \varpi | ^ {1 - \epsilon} \max \bigl (\left| f (x) \right|, | \varpi | ^ {c} \bigr).
@@ -1450,7 +1450,7 @@ $$
 \max \left(\left| f (x) \right|, \left| \varpi \right| ^ {c}\right) = \max \left(\left| g _ {c, \epsilon} ^ {\sharp} (x) \right|, \left| \varpi \right| ^ {c}\right).
 $$
 
-Proof. — We fix$\epsilon > 0$, and assume$\epsilon < 1$and$\epsilon \in \mathbf { Z } [ \textstyle { \frac { 1 } { \rho } } ]$. We also fix$f .$Then we prove inductively that for any c one can find some$\epsilon ( c ) > 0$and some
+Proof. — We fix$\epsilon > 0$, and assume$\epsilon < 1$and$\epsilon \in \mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$. We also fix$f$. Then we prove inductively that for any c one can find some$\epsilon ( c ) > 0$and some
 
 $$
 g _ {c} \in \mathrm{R} ^ {\flat \circ} = \mathrm{K} ^ {\flat \circ} \bigl \langle \mathrm{T} _ {0} ^ {1 / p ^ {\infty}}, \ldots , \mathrm{T} _ {n} ^ {1 / p ^ {\infty}} \bigr \rangle
@@ -1462,7 +1462,7 @@ $$
 \left| f (x) - g _ {c} ^ {\sharp} (x) \right| \leq | \varpi | ^ {1 - \epsilon + \epsilon (c)} \max \left(\left| f (x) \right|, | \varpi | ^ {c}\right).
 $$
 
-We will need$\epsilon ( c )$, as each induction step will lose some small constant because of some almost mathematics involved. Now we argue by induction, increasing from c to$c ^ { \prime } = c + a ,$ where$0 < a < \epsilon$is some fixed rational number in$\mathbf { Z } [ \textstyle { \frac { 1 } { \rho } } ]$. The case$c = 0$is obvious: One may take$\epsilon ( 0 ) = \epsilon$. We are free to replace$\epsilon ( c )$by something smaller, so without loss of generality, we assume$\epsilon ( c ) \leq \epsilon - a$and$\epsilon ( c ) \in \mathbf { Z } [ \textstyle { \frac { 1 } { \rho } } ]$
+We will need$\epsilon ( c )$, as each induction step will lose some small constant because of some almost mathematics involved. Now we argue by induction, increasing from c to$c ^ { \prime } = c + a ,$ where$0 < a < \epsilon$is some fixed rational number in$\mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$. The case$c = 0$is obvious: One may take$\epsilon ( 0 ) = \epsilon$. We are free to replace$\epsilon ( c )$by something smaller, so without loss of generality, we assume$\epsilon ( c ) \leq \epsilon - a$and$\epsilon ( c ) \in \mathbf { Z } [ \textstyle { \frac { 1 } { p } } ]$.
 
 Let$\mathrm { \Delta X = \mathrm { S p a } ( R , R ^ { + } ) }$, where$\mathbf { R } ^ { + } = \mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } \langle \mathbf { T } _ { 0 } ^ { 1 / \rho ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / \rho ^ { \infty } } \rangle$. Let$\mathrm { U } _ { c } \subset \mathrm { X } ^ { \mathrm { p } } =$ $\mathrm { { S p a } ( R ^ { \flat } , R ^ { \flat + } ) }$be the rational subset given by$| g _ { c } ( x ) | \leq | \varpi ^ { \flat } | ^ { c }$. Its preimage$\mathrm { U } _ { c } ^ { \sharp } \subset \mathrm { X }$is given by$| f ( x ) | \leq | \varpi | ^ { c }$. The condition implies that
 

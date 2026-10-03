@@ -512,3 +512,13 @@
   4. "where$\Gamma^\flat$is the corresponding ideal"→"$\mathrm I^\flat$is the corresponding ideal"（Γ^♭ 系 I^♭ 误读，print/上文 I^♭）；Note that display 右端 "$\mathrm R^\circ\langle T_i^{1/p^\infty}\rangle/(\mathrm I,\varpi)$"→方括号 "$\mathrm R^\circ[T_i^{1/p^\infty}]/(\mathrm I,\varpi)$"（print 方括号，PNG 确认）（p.287 where/Note that 段原图）
   5. **控制字节登记**：行 1365 一处 \x0b（"pass to the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
 - 备注：Thus display（O_X(U)=R°⟨…⟩[ϖ^{-1}]）与 composite/tilt composite 两个多行 display 与 print 一致；行 1419 起（"is an isomorphism, so is the composite map…"）属印刷 p.288，留待 p.044。
+## p.044（PDF p.44 / 印刷 p.288）
+- PNG：audit/p044.png（pngmono 150dpi）
+- 核对：页眉 288/PETER SCHOLZE；composite map display（R°⟨T⟩^a/(I,ϖ)→R°⟨(f^♯/g^♯)^{1/p^∞}⟩^a/ϖ→S^{∘a}/ϖ,）；In particular display（≅S^{∘a}/ϖ）；part (i)(ii)(iii) 结论+QED □；approximation lemma 引导；Lemma 6.5（R=K⟨T_i^{1/p^∞}⟩、d∈Z[1/p]、g_{c,ε}∈R^{♭°}、|f(x)−g_{c,ε}^♯(x)|≤|ϖ|^{1−ε}max display）；Remark 6.6 display；Proof（ε(c) 归纳、g_c display、|f(x)−g_c^♯(x)|≤|ϖ|^{1−ε+ε(c)}max display、c′=c+a、ε(0)=ε、ε(c)≤ε−a）
+- 结果：**FAIL**（OCR 排版级+记号错误，已当页修复，以原图为准）：
+  1. "gives part (iii). -"→".□"（QED，print 有 tombstone）（p.288 结论行）
+  2. Lemma 6.5：**"$d∈\mathbf Z[\frac1\rho]$"→"$\frac1p$"（ρ 系 p 误读，print d∈Z[1/p]，PNG 确认）**、"Thenfor"→Then for（p.288 Lemma 行原图）
+  3. "homogeneous ofdegree d such thatfor all"→of degree/such that for（p.288 homogeneous 行）
+  4. Proof："ε∈Z[1/ρ]"→Z[1/p]；"We also fix$f .$Then"→"fix$f$. Then"（p.288 Proof 行）
+  5. Proof 尾：Z[1/ρ]→Z[1/p]×2（p.288 末段）
+- 备注：composite/In particular/Remark 6.6/|f−g_c^♯| 四个 display 与 print 逐字符一致（ε 记号在文本层完好）；行 1467 起（"Let$\Delta X=\mathrm{Spa}(R,R^+)…$"）属印刷 p.289，留待 p.045。
