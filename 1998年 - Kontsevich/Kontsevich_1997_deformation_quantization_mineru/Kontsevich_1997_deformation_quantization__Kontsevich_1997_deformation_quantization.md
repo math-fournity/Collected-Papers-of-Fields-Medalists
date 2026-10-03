@@ -1688,13 +1688,13 @@ $$
 \gamma_ {1} \gamma_ {2} \dots \gamma_ {n} \longrightarrow \frac {1}{n !} \sum_ {\sigma \in \Sigma_ {n}} \gamma_ {\sigma_ {1}} \cdot \gamma_ {\sigma_ {2}} \cdot \dots \cdot \gamma_ {\sigma_ {n}}.
 $$
 
-Analogously to arguments from above, one can see that the tangent map from polyvector fields on$\mathbf { g } ^ { * }$ to the Hochschild complex of the quantized algebra can be defined for$\hbar = 1$and for polynomial coeficients. We denote by$I _ { T }$its component which maps polynomial 0-vector fields on$\mathbf { g } ^ { * } \left( \mathrm { i . e . } \right.$. elements of$S y m ( \mathbf { g } ) )$ to 0-cochains of the Hochschild complex of the algebra$( S y m ( \mathbf { g } ) , \star )$. Thus,$I _ { T }$is an isomorphism of vector spaces
+Analogously to arguments from above, one can see that the tangent map from polyvector fields on$\mathbf { g } ^ { * }$ to the Hochschild complex of the quantized algebra can be defined for$\hbar = 1$and for polynomial coeficients. We denote by$I _ { T }$its component which maps polynomial 0-vector fields on$\mathbf { g } ^ { * }$ (i.e. elements of$S y m ( \mathbf { g } ) )$ to 0-cochains of the Hochschild complex of the algebra$( S y m ( \mathbf { g } ) , \star )$. Thus,$I _ { T }$is an isomorphism of vector spaces
 
 $$
 I _ {T}: S y m (\mathbf {g}) \longrightarrow S y m (\mathbf {g})
 $$
 
-and the restriction of$I _ { T }$to the algebra of$a d ( \mathbf { g } ) ^ { \prime }$<sup>∗</sup>-invariant polynomials on$\mathbf { g } ^ { * }$is an isomorphism of algebras
+and the restriction of$I _ { T }$to the algebra of$a d ( \mathbf { g } ) ^ { * }$-invariant polynomials on$\mathbf { g } ^ { * }$is an isomorphism of algebras
 
 $$
 \operatorname{Sym} (\mathbf {g}) ^ {\mathbf {g}} \longrightarrow \operatorname{Center} ((\operatorname{Sym} (\mathbf {g}), \star)).
@@ -1712,7 +1712,7 @@ $$
 (S y m (\mathbf {g})) ^ {\mathbf {g}} \xrightarrow {I _ {T | \dots}} C e n t e r (S y m (\mathbf {g}), \star) \xleftarrow {I _ {a l g | \dots}} C e n t e r (\mathcal {U} \mathbf {g}) \xleftarrow {I _ {P B W | \dots}} (S y m (\mathbf {g})) ^ {\mathbf {g}},
 $$
 
-where the subscript$| \dots \rrangle$. denotes the restriction to subspaces of$a d ( \mathbf { g } )$-invariants . Moreover, first two arrows are isomorphism of algebras. Thus, we proved the following
+where the subscript$| \dots$ denotes the restriction to subspaces of$a d ( \mathbf { g } )$-invariants . Moreover, first two arrows are isomorphism of algebras. Thus, we proved the following
 
 Theorem. The restriction of the map
 
