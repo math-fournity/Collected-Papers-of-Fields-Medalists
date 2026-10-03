@@ -275,4 +275,14 @@
 - 与 Luna 旧记录交叉：旧总评已登记 p.21 »Insel«/»Zunge« 保留 ✓；imprint 嵌入词中系旧审计未检出的结构缺陷。
 - 页界：本页止于「…der betref-」（次页续「fenden Insel.」），imprint 在段落后、页底，MD 顺序已按印刷恢复。
 
+### p.022（PDF p.22 / 印刷 p.178）
+
+- audited_at=2026-10-02 20:30 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p022.png`（pngmono 150dpi）；本页无需 300dpi 仲裁。
+- 核对：页眉（178 / Lars Ahlfors.）、页首续句（fenden Insel.…vollständig überdeckt wird.）、Den von den Zungen 段（μ(Δ)）、**Gleichung (A)** 标题（印刷黑体，MD 黑体丢失登记）、公式 `n(Δ)+μ(Δ)=S+O(L)`（无标点 ✓）、schreiben 段（Landauische Bezeichnungsweise、(A) 引用）、公式 `\overline{\lim} n(Δ)/S≦1.`（lim 上横线 ✓、句点在）、Wenn man das Gebiet 段（n(a)、Multiplizitäten、(A) 引用、Konstante k）、编号段 20、Als Grundfläche 段（Geschlecht Null、q≧2、Δ₁,…,Δ_q）、Ausser der 段页末断句「definieren,」。
+- 结果：PASS±。内容、公式与记号逐项与印刷一致，无修复项。保留登记（排版级）：Gleichung (A) 黑体丢失；regulär 定义句斜体丢失（系统性）。
+- Luna 旧修复重核（p.22 行「两处 𝒜 还原为 Δ」）：本页 Δ 记号全部正确，与印刷一致，维持。
+- 与 Luna 旧记录交叉：无新差异。
+- 页界：本页止于「…eine zweite Multiplizität definieren,」，次页续，衔接正确。
+
 <!-- redo-tail -->
