@@ -919,10 +919,10 @@ Since the limit is the same for every possibly subsequence the rate of convergen
 Corollary 17. There is a $\lambda_0 > 0$ such that if $A$ is a self-dual connection on $P$ with $\lambda(A) < \lambda_0$, then the minimum in Definition 15(b) is attained at a unique point $x(A)$ in $X$ and the map
 
 $$
-\begin{array}{c} p \colon \mathfrak {M} _ {\lambda_ {0}} = \big \{\big [ A \big ] \in \mathfrak {M} \big | \lambda (A) <   \lambda_ {0} \big \} \to X \times (0, \lambda_ {0}), \\ p (A) = (x (A), \lambda (A)), \end{array}
+\begin{array}{c} p \colon \mathscr{M} _ {\lambda_ {0}} = \big \{\big [ A \big ] \in \mathscr{M} \big | \lambda (A) <   \lambda_ {0} \big \} \to X \times (0, \lambda_ {0}), \\ p (A) = (x (A), \lambda (A)), \end{array}
 $$
 
-extends to a smooth map on some neighborhood of $\mathfrak{M}_{\lambda_0}$ in $\mathfrak{B}$. If $[A_t]$ is any smooth path in $\mathfrak{B}$, $A_0 \in \mathfrak{M}_{\lambda_0}$, there is a bound:
+extends to a smooth map on some neighborhood of $\mathscr{M}_{\lambda_0}$ in $\mathfrak{B}$. If $[A_t]$ is any smooth path in $\mathfrak{B}$, $A_0 \in \mathscr{M}_{\lambda_0}$, there is a bound:
 
 $$
 \left| \frac {d}{d t} p (A _ {t}) \right| \leqslant \text { const. } \lambda (A _ {0}) \left\| \frac {d}{d t} F (A _ {t}) \right\| _ {L ^ {2}},
@@ -948,7 +948,7 @@ $$
 
 where H is the Hessian corresponding to the minimum at t = 0.
 
-To conserve notation we will allow ourselves to rechoose the positive number $\lambda_0$ throughout the rest of this section, to give the space $\mathfrak{M}_{\lambda_0}$ the desired properties. In any case $\mathfrak{M} \setminus \mathfrak{M}_{\lambda_0}$ is compact by Theorem 13.
+To conserve notation we will allow ourselves to rechoose the positive number $\lambda_0$ throughout the rest of this section, to give the space $\mathscr{M}_{\lambda_0}$ the desired properties. In any case $\mathscr{M} \setminus \mathscr{M}_{\lambda_0}$ is compact by Theorem 13.
 
 Proposition 18. Let $[A] \in \mathfrak{M}_{\lambda_0}$.
 

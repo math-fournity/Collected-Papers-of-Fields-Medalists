@@ -267,3 +267,15 @@
   - **印刷 quirk 登记（不改，300dpi 确认）**：① 行 887 `[A_{i}]\in\mu`——印刷确为小写希腊 μ（语义应为 𝔐，同 p.16 μ^σ 类误植），md 忠实保留；② 行 915 "for every possibly subsequence"（possible 之排印笔误，印刷原样），md 忠实保留。
   - 排版级伪影（登记不改）：**Theorem 16.**/**Note.**/*Proof.* 粗斜体拍平。
 - 修复登记：行 897 `\mathfrak{M}`→`\mathscr{M}`（依据 `audit-redo/p023.png` + 300dpi 裁片）。
+
+### p.024（PDF p.24 / 印刷 p.302）
+
+- PNG：`audit-redo/p024.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片×3（Corollary 17 显示式与延伸句、invariant 拼写、末段 𝔐_{λ₀}/𝔐∖𝔐_{λ₀}，结论记于本条）
+- 核对：Corollary 17 全文与 p:ℳ_{λ₀}={...}→X×(0,λ₀) 两行显示式、extends 句与 bound 显示式；Proof（2λ 分离句、conformally invariant 句、|F(Â)|²_{m̂} 收敛段、Likewise 段、dλ(Â)/dt 三行显示式、Similarly 与 ‖d/dt x(Â)‖=H^{-1}{...} 显示式、Hessian 句）；rechoose λ₀ 段与 ℳ∖ℳ_{λ₀} 紧性句
+- 结果：**PASS±**（含七处草书 ℳ 误作 Fraktur 修复）。
+  - 与页图一致：`|\frac{d}{dt}p(A_t)|\leqslant\mathrm{const.}\lambda(A_0)\|\frac{d}{dt}F(A_t)\|_{L^2}`、`\frac12` 作用量句、`|F(\hat A)|^2_{\hat m}`、`f=|F(I_{0,1})|^2`、`\frac{d\lambda(\hat A)}{dt}\Big|_{t=0}=k^{-1}\int_{\mathbf{R}^4}\beta_k(0,y)\dot f_t(y)|_{t=0}d\mu_y` 三行链（⩽ const.∫|\dot f_t|dμ_y ⩽ const.‖F(Â)‖_{L²}‖d/dt F(Â_t)‖_{L²}）、`\|\frac{d}{dt}x(\hat A)\|_{t=0}=H^{-1}\{\int_{\mathbf{R}^4}[\operatorname{grad}_y\beta_k(0,y)]\dot f_t(y)|_{t=0}d\mu_y\}`、300dpi 确认 "conformally invariant" 拼写正确。
+  - **修复×7**：行 922 显示式两处、行 925 两处、行 951 三处 `\mathfrak{M}`/`\mathfrak{M}_{\lambda_0}` → `\mathscr{M}`/`\mathscr{M}_{\lambda_0}`——300dpi 裁片确认本页七处印刷均为圆弧草书 ℳ；同裁片内 `𝔅` 为角状 Fraktur 提供页内字形对照，故 `\mathfrak{B}` 不动。
+  - **印刷 quirk 登记（不改）**：① Definition 15(b) 印刷作大写 K⁻¹ 而本页 Proof 印刷作小写 k^{-1}、β_k——K/k 混用系印刷原样，md 两处均忠实；② 行 887 类 μ 字形本页无。
+  - **跨页字形张力（登记待后续页留意）**：p.018 Theorem 11 处已按 `\mathfrak{M}_{\lambda_0}` 提交（当时 300dpi 仲裁记录为下标 λ₀ 正确）；本页同记号印刷为草书 ℳ_{λ₀}。两页证据图（p018.png/p024.png）均在档；本块不对已提交页改判，III.3 后续页遇 `𝔐_{λ₀}` 一律先 300dpi 仲裁再定 Fraktur/草书。
+  - 排版级伪影（登记不改）：**Corollary 17.**/*Proof.* 粗斜体拍平；斜体陈述段拍平。
+- 修复登记：行 922 两处 `\mathfrak{M}`→`\mathscr{M}`；行 925 两处 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；行 951 三处 `\mathfrak{M}`/`\mathfrak{M}_{\lambda_0}`→`\mathscr{M}`/`\mathscr{M}_{\lambda_0}`（依据 `audit-redo/p024.png` + 300dpi 裁片×3）。
