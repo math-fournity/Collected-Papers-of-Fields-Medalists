@@ -50,3 +50,13 @@
   - PASS± 项（不修，登记）：①`Kähler-Einstein` 被编码为 `K¨ahler-Einstein`（变音符脱离元音，可辨；与 Luna 登记一致）；②行末 `$A = - K _ { X }$` 后缺句点（印刷句末有点，属下页跨行末尾，标点扁平）；③若干数学式与单词空格粘连。
 - 备注：Luna p.004 登记属实、无过度或遗漏修复。本页无数学内容错误。
 - 记录时间：2026-10-03 12:27 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.005（PDF p.5 / 印刷 p.5）
+- PNG：`audit-redo/p005.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：anti-log canonical 引入段、Theorem 1.6 全文（两条 bullet 假设 + `lct(X,B,|A|_R) ≥ t`）、Theorem 1.7 全文（含 `0 ≤ D ∼_R A`、`D ∼_Q A`、三条行间公式）、Cheltsov/Shokurov 段、Theorem 1.8 开头三条假设（重点 `A^d ≤ r` 无下标）；与 Markdown 第 153–203 行逐项比对，辅以 `pdftotext -f 5 -l 5`。
+- 结果：**PASS±**
+  - Luna 旧修复逐项复核为正确：Theorem 1.8 第二条假设为 `$A ^ { d } \leq r$` 无下标 i（印刷无下标，PNG 直接可辨）；Theorem 1.6 两条假设与 Theorem 1.8 三条假设的 bullet 均已恢复，与印刷列表一致。
+  - 阈值公式 `lct(X,B,|A|_R) ≥ t`、`lct ≤ 1`、`lct(…|A|_R)=lct(…,D)`、`lct < 1` 及 `[42, Question 1]`、`[11, Conjecture 1.12]`、`[19][18]`、`[3]`、`[13]`、`[5]` 引用均与印刷一致。
+  - PASS± 项（不修，登记）：①`different`→`diferent` 两处（第 155、169 行，ff 拍平）；②MD 第 185 行 `$i f B$` 把 if 排进数学斜体；③第 201 行 `$A ^ { d } \leq r$` 后缺印刷的逗号；④若干数学式与单词空格粘连。
+- 备注：Luna p.005 登记的 `A^d ≤ r_i→r` 与 bullet 恢复均属实且已正确落地；`diferent` 登记属实。本次重检未发现本页数学内容错误。
+- 记录时间：2026-10-03 12:33 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
