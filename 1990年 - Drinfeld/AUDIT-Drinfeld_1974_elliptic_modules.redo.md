@@ -178,3 +178,11 @@
 - 结果：FAIL（𝔘/𝔄 系 7 处 + place 记号 1 处）。① 行 609 `GL(d,\mathfrak{A}_{f})` ×2、行 623 ×1、行 625 ×2、行 639 ×2——印刷均为 Fraktur **𝔘_f**（600dpi 五张裁片逐一确证，与 p.577 §5D 定义行同形）；已 Edit 全部回退为 `\mathfrak{U}_{f}` 系。② 行 621 "Let $v \in \operatorname{Spec} A$"：印刷为斜体 **ν**（600dpi prop55v：带降部，与同句 "over ν" 同形；承接 p.016 已证的 place 记号 ν）；已 Edit 为 `$\nu$`。**跨页待查①p.018 部分完成**：本页 7 处 𝔄 全部回退 𝔘。
 - 重核 Luna 修复：交换图结构、bundle display 的 \times_{\text{Spec }A} 下标、induced ring 段各式、|a_11|_ν、W_red^0 上标 0 下标 red、矩阵 display（π/1/0/⋱/1 元素集合）均与页图相符。
 - 另记（PASS± 级伪影，不改）：页眉 "578 V. G. DRINFEL'D" 未收；Prop 5.5 陈述整段斜体（印刷样式）；b) 矩阵 display 的 ⋱ 点位在印刷中跨 (2,2)–(3,2) 而 MD 置于 (3,2)，渲染结构等价（下三角单参矩阵），转写排版细节不改；a) 句 "…coincides with the identity matrix acts trivially"（印刷语法原样）。
+
+## p.019（PDF p.19 / 印刷 p.579）
+
+- PNG：audit-redo/p019.png（pngmono 150dpi）；600dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p019_UfBprime.png（页首 GL(d,𝔘_f)/B' 行）、…_p019_Nnotsup.png（1) display 与 Ω^d 段）、…_p019_normbar.png（3) 段 "norm | |" 行与 2) 段否定符号行）
+- 核对：Prop 5.5 证明收尾（W_I^0 preimage、W^0 = lim← W_I^0、W_red^0 → W_red^0 morphism、Statements a) and b) □）、§6 标题、§6A 开头（K local nonarchimedean、O ⊂ K、π ∈ O）、1) "Analytic" analog（P_K^{d-1}、display (g;(z_1,…,z_d)) → (z_1,…,z_d)·g^{-1}、Ω^d 定义与 GL(d,K)-invariant）、2) "Homogeneous" analog [5]（S^d = GL(d,K)/GL(d,O)、metric ρ、M ⊃ N ⊃ π^k M、N ⊄ M、N ⋠ π^{k-1}M、ρ({M},{N}) = k、simplex 两条件 a) ρ(x,y) ≤ 1 b) M_i ≈ O^d、M_i ⊃ M_{i+1}、M_k ⊃ πM_1、Δ = {{M_1},…,{M_k}}、codimension d−1、S^d(R)/S^d(Q)）、3) "Topological" analog [9]（norm | |、K̄、q = |π^{-1}|、log_q ν(x) ∈ Z/(Q)、S^d(R) 等同、K^d ⊃ M_1 ⊃ ⋯ ⊃ M_k ⊃ πM_1、α_1,…,α_k ≥ 0、Σ_1^k α_i = 1、ν = max{q^{α_i+⋯+α_k}ν_i}、ρ 度量延拓、display ρ({ν_1},{ν_2}) =^def log_q{sup ν_1/ν_2 · sup ν_2/ν_1}）、λ: Ω^d → S^d(Q) mapping、Prop 6.1 1) 开头（x_1,…,x_k ∈ S^d、c ∈ Q，断行）。
+- 结果：FAIL（𝔘/𝔄 系 2 处 + 空杠对 1 处）。① 行 641 `GL(d,\mathfrak{A}_{f})` ×2——印刷为 Fraktur **𝔘_f**（600dpi UfBprime：页首行 "U_I \ W → GL(d,𝔘_f)/B' is clearly continuous…"；本页同类字形 4 处已 600dpi 定裁）；已 Edit 回退。② 行 659 "We fix a norm || on K"——600dpi normbar 确认印刷为空杠对 **| |**（与 p.567 记号段 | |_ν 同族）；已 Edit 为 `$|\ |$`。
+- 重核 Luna 修复：2) 段否定符号（600dpi normbar 第一版：印刷第二符号为 ∋ 形加斜线，与 MD `\not\ni` 同形；"M ⊃ N ⊃ π^k M" 链亦同形）忠实保留——印刷原样中 "N ⊄ M" 与 "M ⊃ N" 的语义张力系印刷 quirk，不改；simplex 段、ν = max{q^{α_i+⋯+α_k}ν_i}、ρ display、λ mapping 各式均相符。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 579" 未收；A)/1)/2)/3) 小节引导词斜体（印刷样式）。
