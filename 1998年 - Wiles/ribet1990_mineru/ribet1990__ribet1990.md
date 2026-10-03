@@ -1119,7 +1119,7 @@ induced by $(\alpha, \beta)$.
 
 The bilinear pairing on $Z$ coming from the geometry of the Cerednik-Drinfeld model $\mathcal{C}$ is the restriction to $Z$ of the diagonal pairing on $\mathbf{Z}^{\mathcal{E}}$ whose value $o(e)$ on an edge $e \in \mathbf{GL}(2, \mathbf{Q}_p)^+ \setminus (\mathcal{E}_\Delta \times X)$ is computed as follows (cf. [13], §4). Take a representative $\tilde{e}$ of $e$ in $\mathcal{E}_\Delta \times X$, and let $\Gamma \subset \mathbf{GL}(2, \mathbf{Q}_p)^+$ be the stabilizer in $\mathbf{GL}(2, \mathbf{Q}_p)^+$ of $\tilde{e}$. Then $o(e)$ is the order of the image of $\Gamma$ in $\mathbf{PGL}(2, \mathbf{Q}_p)$.
 
-Let $\dot{W}$ be a locally free rank-1 left S-module whose class in
+Let $\mathbf{W}$ be a locally free rank-1 left S-module whose class in
 
 $$
 \mathcal {E} = S _ {\mathrm{f}} ^ {*} \backslash H _ {\mathrm{f}} ^ {*} / H ^ {*}
@@ -1127,9 +1127,9 @@ $$
 
 is the edge $e$.
 
-Proposition 4.6. We have $o(e) = \frac{1}{2} \operatorname{card}(\operatorname{Aut}_S(W))$.
+Proposition 4.6. We have $o(e) = \frac{1}{2} \operatorname{card}(\operatorname{Aut}_S(\mathbf{W}))$.
 
-Proof. Choose $x = (x_v) \in H_{\mathbf{f}}^*$ so that the class of $x$ in $\mathcal{E}$ is $e$. Take $W$ to be the $S$-submodule of $H$ whose completions at the finite places $v$ of $\mathbf{Q}$ are the modules $S_v \cdot x_v$. Then $\operatorname{Aut}_S(W)$ is the stabilizer in $H^*$ of the class of $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$. If $a \in H^*$ stabilizes $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$, then we have $sx = xa$ for some $s \in S_{\mathbf{f}}^*$. Since $s$ and $a$ determine each other in this equation, $\operatorname{Aut}_S(W)$ is the stabilizer in $S_{\mathbf{f}}^*$ of $x$ in $H_{\mathbf{f}}^* / H^*$.
+Proof. Choose $x = (x_v) \in H_{\mathbf{f}}^*$ so that the class of $x$ in $\mathcal{E}$ is $e$. Take $\mathbf{W}$ to be the $S$-submodule of $H$ whose completions at the finite places $v$ of $\mathbf{Q}$ are the modules $S_v \cdot x_v$. Then $\operatorname{Aut}_S(\mathbf{W})$ is the stabilizer in $H^*$ of the class of $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$. If $a \in H^*$ stabilizes $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$, then we have $sx = xa$ for some $s \in S_{\mathbf{f}}^*$. Since $s$ and $a$ determine each other in this equation, $\operatorname{Aut}_S(\mathbf{W})$ is the stabilizer in $S_{\mathbf{f}}^*$ of $x$ in $H_{\mathbf{f}}^* / H^*$.
 
 On the other hand, the stabilizer $\Gamma$ of $\tilde{e} = (1, x)$ in $\mathbf{GL}(2, \mathbf{Q}_p)^+$ is the stabilizer of $x \in X$ under the action of $S_p^*$ on $X$. Also, projection onto the component at $p$ identifies the stabilizer in $S_f^*$ of $x$ in $H_f^* / H^*$ with the stabilizer in $S_p^*$ of $x$ in
 

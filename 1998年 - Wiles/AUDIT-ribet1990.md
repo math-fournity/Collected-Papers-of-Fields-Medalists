@@ -246,3 +246,11 @@
 - 发现并当场修复：①L1038 OCR 误植 "Eicher order"→"Eichler order"（印刷为 Eichler）；②L1044 两处 "Let V/let E"→"$\mathcal{V}$/$\mathcal{E}$"；③L1062 "from E to"→"from $\mathcal{E}$ to"；④L1072 两处 "vertices of G"→"$\mathcal{G}$"、"$V_{\Delta}$"→"$\mathcal{V}_{\Delta}$"；⑤L1078 "$V_{\Delta}$"→"$\mathcal{V}_{\Delta}$"；⑥L1090 三处 "$V_{\Delta-}/V_{\Delta+}/V_{\Delta}$"→"$\mathcal{V}_{\Delta-}/\mathcal{V}_{\Delta+}/\mathcal{V}_{\Delta}$"。均据 150 dpi 页图（花体同款）。
 - 印刷原文 quirk：L1041 印刷即 "∈M(2,**Z**)"（漏 _p 下标；300 dpi 确证）与 L1075 "PGL(2,**Z**_v)"（下标 v 为印刷笔误，预期 p；300 dpi 确证）——MD 均忠实保留不改。
 - 结果：FAIL（10 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.031（PDF p.31 / 印刷 p.460）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:28 -0400。
+- PNG：`audit/ribet1990_p031.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Let **W** be"（粗斜体无点）确证，未存档）。
+- 核对：bijection 𝒱=GL(2,Z_p)\X→GL(2,Q_p)⁺\(𝒱_{Δ−}×X)；𝒢 顶点=两 copies of 𝒱；ℰ_Δ=GL(2,Q_p)⁺/(S_p*Q*)、X→ℰ_Δ×X、S_p*\X；边 (1,x⁻¹)、顶点 (x,1)/(xm,1)→(1,x⁻¹)/(m,x⁻¹)、m⁻¹x⁻¹、□；ω: Z^ℰ→Z^𝒱×Z^𝒱、(4.4)、degree-0；Corollary 4.5（(Z^ℰ)₀→(Z^𝒱)₀×(Z^𝒱)₀、induced by (α,β)）；Cerednik-Drinfeld 模型 𝒞 的 pairing、o(e)、ẽ、Γ stabilizer、PGL(2,Q_p)；ℰ=S_f*\H_f*/H*；Proposition 4.6（o(e)=½card(Aut_S(W))）与 Proof（x=(x_v)、S_v·x_v、sx=xa、S_f* stabilizer）✓。
+- 发现并当场修复（6 个记号点，依据 300 dpi 裁片）：①L1122 "$\dot{W}$"→"$\mathbf{W}$"——印刷为粗斜体 W、无点；MD 的点为 mineru 误植（字形身份错误），同时按印刷补粗体；②L1130 Aut_S(W)→Aut_S($\mathbf{W}$)；③L1132 "Take W"→"Take $\mathbf{W}$"、Aut_S(W)×3→Aut_S($\mathbf{W}$)（本页印刷 W 均粗体）。
+- 备注：L1125 行间式与 L1134 的 f 下标（S_f*/H_f*）印刷粗体，MD 一处 \mathrm{f}、一处正体 f（weight/字形风格类，登记不改）；页界：L1134 段尾 "of x in" 接 p.032 "X = K\H_f*/H*..."。
+- 结果：FAIL（6 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
