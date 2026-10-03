@@ -225,3 +225,9 @@
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
 - 收尾只读清点：`$$` 定界行 490（偶，回滚后复核）；`\tag` 51；C0 控制字符 0；1,783 行。git diff b9c67fc5..32829b97 基础上仅叠加本回滚（净变更 = 12 处修复行），无其他行变动。MD SHA-256 以最终提交为准（见本块末次 commit）。
 - 范围声明：本块只覆盖 p.10–p.18；p.19–p.34 的重检与全篇总评、根级索引/进度由后续块与集成方负责，本文件不对其作任何结论。证据图 10 张（p010–p018 全页 + p012 300dpi 裁片）已随页提交入库。
+
+## p.028（PDF p.28 / 印刷 p.28）
+- PNG：audit-redo/p028.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p028_300dpi_delta.png ＋ pdftotext 文本层对账
+- 核对：页顶 "In particular, if Δ≠0 then it follows from this that T>0 and H>0. Observe that"、Δ 展开大式（h₂² 因子＋括号内行栈＋Q(h₀,h₁,U₀,U₁,V₀,V₁,W₀,W₁)）、"for some triple of forms Q" 与 (6.18)(6.19) 满足假设句、三重 substack 计数式 ≲ 1+N²H/K²T+M/K²+N²HM/K⁴T+M²N²/T²K⁶、M/TK²≳1 段与 N²/K²(M/TK²)²=M²N²/T²K⁶、choices、M/TK²≪1 段、(h₁²V₁−h₀²V₀)U₂+(h₀²U₀−h₁²U₁)V₂ 式（尾逗号）、U₂ (mod ξ), ξ:= (h₀²U₀−h₁²U₁)/gcd(h₁²V₁−h₀²V₀, h₀²U₀−h₁²U₁) 式（尾句号）、|ξ|∼T/H 段、(M/K²+1)(N²H/K²T+1)≲1+N²H/K²T+M/K²+N²HM/K⁴T 链（尾句号）
+- 结果：PASS±（1 处已修复）。Δ 展开式经 300dpi 仲裁（1x 裁片）确认印刷为 h₂² 后**三行**括号栈，MD 原 `\binom` 仅两行、漏第三行——**修复 1 处**：L1492 `\binom{两行}`→`\left(\begin{array}{c}三行\end{array}\right)`，补回 `(h_1^2 V_1 - h_0^2 V_0)U_2 + (h_0^2 U_0 - h_1^2 U_1)V_2`；栈内前两行、h₂² 因子与 Q(...) 实参逐项与印刷一致。计数式、假设句、ξ 残式与末端链全部逐项吻合，display 尾标点（，．）在位。print quirk 忠实保留："there is at most M/TK² choices"（is/are 原刊语法原样，MD 忠实）。残余瑕疵：无新增。
+- 备注：Luna 旧修复抽核通过——Luna 基线登记的 "U₂ 的数字误设为罗马体" 在当前 MD（L1495/L1501 等 `U_2` 均为斜体数学环境）已不存在；Δ 展开式漏行属 Luna 登记范围之外的新发现缺陷（本次修复）。

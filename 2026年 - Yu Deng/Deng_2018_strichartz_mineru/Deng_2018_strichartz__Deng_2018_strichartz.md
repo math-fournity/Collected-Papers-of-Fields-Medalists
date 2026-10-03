@@ -1489,7 +1489,7 @@ $$
 In particular, if$\Delta \neq 0$then it follows from this that$T > 0$and$H > 0$. Observe that
 
 $$
-\Delta \quad = h _ {2} ^ {2} \binom{(h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}) V _ {2} + (h _ {0} ^ {2} V _ {0} - h _ {1} ^ {2} V _ {1}) W _ {2}}{(h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}) W _ {2} + (h _ {0} ^ {2} W _ {0} - h _ {1} ^ {2} W _ {1}) U _ {2}} + Q (h _ {0}, h _ {1}, U _ {0}, U _ {1}, V _ {0}, V _ {1}, W _ {0}, W _ {1})
+\Delta \quad = h _ {2} ^ {2} \left(\begin{array}{c}(h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}) V _ {2} + (h _ {0} ^ {2} V _ {0} - h _ {1} ^ {2} V _ {1}) W _ {2} \\ (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}) W _ {2} + (h _ {0} ^ {2} W _ {0} - h _ {1} ^ {2} W _ {1}) U _ {2} \\ (h _ {1} ^ {2} V _ {1} - h _ {0} ^ {2} V _ {0}) U _ {2} + (h _ {0} ^ {2} U _ {0} - h _ {1} ^ {2} U _ {1}) V _ {2} \end{array}\right) + Q (h _ {0}, h _ {1}, U _ {0}, U _ {1}, V _ {0}, V _ {1}, W _ {0}, W _ {1})
 $$
 
 for some triple of forms Q. Suppose for a moment we are given$h _ { i } \sim K \ ( i = 0 , 1 , 2 )$and$U _ { i } , V _ { i } , W _ { i }$ $( i = 0 , 1 )$satisfying (6.18) and (6.19). One can deduce from the formula above that
