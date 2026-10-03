@@ -253,4 +253,15 @@
 - 与 Luna 旧记录交叉：Luna 修复表无 p.19 行；行 473（次页首式）为其 p.20「ρ⁺ 位置」修复对象、写法正确，本页三处系旧审计未检出项。
 - 页界：本页止于「Das Komplement von」，次页续「W in Bezug auf F…」，衔接正确。
 
+### p.020（PDF p.20 / 印刷 p.176）
+
+- audited_at=2026-10-02 20:10 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p020.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p020_formeln_300dpi.png`。
+- 核对：页眉（176 / Lars Ahlfors.）、页首续句（W in Bezug auf F zerfällt…Zerlegungsgesetz (4)）、公式 `Nϱ₀=ϱ+Σϱ(W′)+n(Γ),`（逗号在）、wo n(Γ) 段、Setzen wir N₁ 段、公式 `Nϱ₀=ϱ+Σϱ⁺(W′)−N₁+n(Γ).`（句点在、ϱ⁺ 加号在 ϱ 上）、Auf die Gebiete W′ 段（(II. 1) ✓）、公式 `Nϱ₀≧ϱ+(N−S)ϱ₀−N₁+n(Γ)−kL`（300dpi 证无句点，MD 无句点 ✓）、oder、公式 `ϱ≦Sϱ₀+N₁−n(Γ)+kL.`（句点在）、Wenn der ganze Rand Γ 段（α、N₁≦n(Γ)+α）、公式 `ϱ≦Sϱ₀+kL+α.`（句点在）、Diese Ungleichung 段（ϱ≧ϱ⁺−1，\stackrel ✓）、Metrisch-topologische Doppelungleichung 陈述（斜体整段，系统性丢失登记）、公式 (II. 2) `Sϱ₀−kL−1≦ϱ≦Sϱ₀+kL+α.`（\tag{II. 2} ✓）、Ist ϱ₀≧0 句（o/0 同形维持 0）、公式 (II. 2′) `Sϱ₀−kL≦ϱ⁺≦Sϱ₀+kL+α,`（逗号在、\tag{II. 2′} ✓、\stackrel ✓）、denn die zweite Hälfte 句。
+- 发现并修复（MD 结构化 Edit，1 处）：行 497 `\sum^{+}\varrho(W′)` → `\sum \stackrel{+}{\varrho}(W′)`——300dpi 裁片证印刷加号在 ϱ 上方（ϱ⁺），非 Σ 上方。
+- 仲裁否决（登记不改）：行 505 式（Nϱ₀≧…−kL）150dpi 疑有句点，300dpi 裁片显示无句点，MD 现状正确。
+- Luna 旧修复重核（p.20 行「还原数字 1、希腊字母 α、ρ⁺ 位置及式号 (II. 2′)」）：(II. 2′) tag ✓、α ✓、本页各 ϱ⁺ \stackrel 写法 ✓，全部与印刷一致维持；本次 \sum^{+} 残留一处系该修复未覆盖到位。
+- 结果：PASS±（加号归位后与印刷一致）。
+- 页界：本页止于「…trivial für ϱ = −1.」，衔接正确。
+
 <!-- redo-tail -->

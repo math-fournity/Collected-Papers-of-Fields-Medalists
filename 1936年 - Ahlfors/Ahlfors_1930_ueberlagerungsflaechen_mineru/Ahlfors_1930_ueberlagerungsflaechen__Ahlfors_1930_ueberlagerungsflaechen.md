@@ -490,7 +490,7 @@ wo  $n(\Gamma)$  die Anzahl der Querschnitte von F bezeichnet, die der relative 
 Setzen wir  $N_{1}$  gleich der Anzahl der einfach zusammenhängenden Gebiete  $W'$ , so wird
 
 $$
-N \varrho_ {0} = \varrho + \sum^ {+} \varrho (W ^ {\prime}) - N _ {1} + n (\Gamma).
+N \varrho_ {0} = \varrho + \sum \stackrel {+} {\varrho} (W ^ {\prime}) - N _ {1} + n (\Gamma).
 $$
 
 Auf die Gebiete $W'$ wenden wir die Ungleichung (II. 1) an, und bemerken dass die Summe ihrer mittleren Blätteranzahlen gleich $N - S$ ist. Wir erhalten also
