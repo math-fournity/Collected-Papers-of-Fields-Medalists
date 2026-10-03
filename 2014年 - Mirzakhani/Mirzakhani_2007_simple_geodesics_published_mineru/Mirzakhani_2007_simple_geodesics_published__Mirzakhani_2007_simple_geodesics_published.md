@@ -203,7 +203,7 @@ $$
 \int_ {\mathcal {M} _ {g, n} ^ {\gamma}} f \circ \ell (Y) d Y = \int_ {0} ^ {\infty} f (t) \mathrm{Vol} (\ell^ {- 1} (t)) d t,
 $$
 
-where the volume is taken with respect to the volume form induced on $\ell ^ { - 1 } ( t )$
+where the volume is taken with respect to the volume form induced on $\ell ^ { - 1 } ( t )$.
 
 The main idea for integrating over$\mathcal { M } _ { g , n } ^ { \gamma }$is that the decomposition of the surface along the simple closed curve$\gamma$gives rise to a description of $\mathcal { M } _ { g , n } ^ { \gamma }$in terms of moduli spaces corresponding to simpler surfaces. This observation leads to formulas for the integral of$f _ { \gamma }$in terms of the Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces and the function$f$as follows.
 
@@ -213,7 +213,7 @@ $$
 \begin{array}{c} \ell^ {- 1} (t) \subset \mathcal {M} _ {g, n} ^ {\gamma} \\ \Big \downarrow \\ \mathcal {M} (S _ {g, n} (\gamma), \ell_ {\gamma} = t). \end{array}
 $$
 
-We will study the$S ^ { 1 }$-action on the level set$\ell ^ { - 1 } ( t ) \subset \mathcal { M } _ { g , n } ^ { \gamma }$induced by twisting the surface along$\gamma .$. The quotient space$\ell ^ { - 1 } ( t ) / S ^ { 1 }$inherits a symplectic form from the Weil-Petersson symplectic form. On the other hand, $\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$is equipped with the Weil-Petersson symplectic form. By investigating these$S ^ { 1 }$-actions in more detail in Sect. 7 we show that
+We will study the$S ^ { 1 }$-action on the level set$\ell ^ { - 1 } ( t ) \subset \mathcal { M } _ { g , n } ^ { \gamma }$induced by twisting the surface along$\gamma$. The quotient space$\ell ^ { - 1 } ( t ) / S ^ { 1 }$inherits a symplectic form from the Weil-Petersson symplectic form. On the other hand, $\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$is equipped with the Weil-Petersson symplectic form. By investigating these$S ^ { 1 }$-actions in more detail in Sect. 7 we show that
 
 $$
 \ell^ {- 1} (t) / S ^ {1} \cong \mathcal {M} (S _ {g, n} (\gamma), \ell_ {\gamma} = t)

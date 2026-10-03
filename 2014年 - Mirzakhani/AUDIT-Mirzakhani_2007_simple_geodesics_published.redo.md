@@ -117,3 +117,19 @@
 - Luna 旧修复重核：(1.4)、𝒟 记号、$\mathcal{O}_\gamma$ 定义（\operatorname{Mod} 正体）当前与印刷一致。
 - 备注：页界 L148–L192；L194 起（defined by…）属 p.6。
 
+## p.006（PDF p.6 / 印刷 p.184）
+- PNG：audit-redo/p006.png（pngmono 150dpi）。
+- 核对：defined by ℓ(X,η)=ℓ_η(X) 句；$\int f_\gamma dX=\int f\circ\ell\,dY$；level set 句与
+  $\int f\circ\ell\,dY=\int_0^\infty f(t)\mathrm{Vol}(\ell^{-1}(t))dt$；main idea 段；$S_{g,n}(\gamma)$
+  切割段（≅、$\gamma\times(0,1)$、n+2 边界、$\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$ 定义）；
+  circle bundle 箭头图；$S^1$-action 段；$\ell^{-1}(t)/S^1\cong\mathcal{M}(S_{g,n}(\gamma),\ell_\gamma=t)$；
+  Vol 展望式；页末 "…at a point"（句跨页）。
+- 结果：**PASS±**（2 处偏离已修）。
+- 修复登记（本 redo，证据=p.6 PNG + 文本层）：
+  1. MD L206：印刷 "induced on $\ell^{-1}(t)$**.**"，缺句号 → 补 "."；
+  2. MD L216：MinerU 双句号 "along$\gamma .$. The"（印刷单句号）→ 改 "along$\gamma$. The"。
+- print quirk 登记不改：L210 "along$\gamma ;$"（math 内多余空格+分号）为 MinerU 空格类伪影，
+  语义无歧义，按通例不逐处改。
+- Luna 旧修复重核：本页公式（含箭头图 array、≅ 式、Vol 式句号）当前与印刷一致。
+- 备注：页界 L194–L228（L228 止于 "at a point"，"is in fact t/2…" 属 p.7）。
+
