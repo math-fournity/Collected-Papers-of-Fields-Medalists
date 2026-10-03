@@ -238,3 +238,26 @@ MD 修复 8 处（每处对应上表已修复项）；重做起点 MD SHA=dfee17
 - 备注：页眉 "10　G. Frey" 未入 MD，正常。本页止于 δ_E 展示式，"From those data…" 属 p.11 范围。
 
 ---
+
+## p.011（PDF p.11 / 印刷 p.11）
+- PNG：audit-redo/p011.png（pngmono 150dpi）
+- 核对：性质 i)（2-torsion $P_0=(0,0),P_1=(-A,0),P_2=(-B,0)$，$P_i\in N_E'$）；
+  性质 ii) 展示式 $v_2(j_E)=8-2v_2(A)\leq -2$、$\delta_E\equiv B \bmod \mathbb{Q}_2^{*2}$；
+  B ≡ 1 mod 4 → multiplicative mod 2 句；3∤ABC 段（$A\not\equiv B\bmod 3$、
+  $X^3+(A+B)X^2+ABX$ 有 3 个不同零点、$N_{E(3)}$ 无奇点 → good reduction mod 3）；
+  3|ABC 段（$v_3(j_E)=-v_3(\Delta)<0$、$v_3(\frac{1}{2}\cdot\frac{A^2+B^2-AB}{(A+B)(2A^2+2B^2-5AB)})=0$、
+  $Q(\sqrt{\delta_E})$ unramified in divisors of 3）；$l\neq 2,3$ 段
+  （$\gcd(AB(A-B),A^2+B^2-AB)=1$、$l|A^2\cdot B^2\cdot C^2 \Leftrightarrow v_l(j_E)<0$、
+  $v_l(\delta_E)=0$ → multiplicative mod l）；"It follows: E is a stable curve…" 引句。
+- 结果：PASS
+- 差异与处置：
+  1. 【300dpi 澄清】$v_l(\delta_E)=0$ 处印刷为 **δ**（单环带上升钩，非三角 Δ；证据
+     audit-redo/300dpi/frey1986-p011-vl-deltaE-300dpi.png），MD 忠实；
+     "$A\not\equiv B \bmod 3$" 印刷为 **≢**（三横加斜划，450% 放大确认，证据
+     audit-redo/300dpi/frey1986-p011-nequiv-300dpi.png），MD `$\not\equiv$` 忠实。
+  2. 【登记不改】`gcd(AB(A-B), A$^{2}$+B$^{2}$-AB)` 的上标以行内 $…$ 混排（MinerU 风格）：
+     内容正确，仅格式欠整。
+- 备注：页眉 "Elliptic Curves and Fermat's Equation　11" 未入 MD，正常。本页止于
+  "the conductor of E is equal to"，展示式 $N=\prod_{l|A\cdot B\cdot C} l$ 属 p.12 范围。无 MD 修改。
+
+---
