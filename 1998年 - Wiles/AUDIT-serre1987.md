@@ -409,3 +409,11 @@
 - 核对：poids k = 3 句（nˢ 2.3 et 2.4）、det ρ′ = ε·χ²、Im ρ′ = GL₂(F₇) ∪ i·GL₂(F₇) 括注、Les conjectures 段（(3³, 3, ε)、F₄₉）、ord(l) 定义句、四情形判据（4l²ε(l)/a_l = 0/l²ε(l)/2l²ε(l) dans F₇）、ε(l) = (l/3)、Effectivement 段、F = q + Σ = 9 + 3iq² − 5q⁴ − 3iq⁵ + 5q⁷ − 3iq⁸ + …、Z[i] 句、ord(l)/A_l 表（l ⩽ 37 十列逐格）、l = 17 括注（a_l² ≡ A_l² ≡ −2、l² ≡ 2、ord(l) = 3）。
 - 结果：PASS。公式、表格、复系数（3i/−3i/−15i/18i/−12i/30i）全部与印刷吻合。
 - 备注：F 展开首项印刷即作 “= 9 + 3iq² …”（q 项并入 Σ 记法），Markdown 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 227” 未收入 Markdown，排版级。印刷页止于 l = 17 括注，“Calcul de F” 段属印刷 p.228。
+
+## p.050（PDF p.50 / 印刷 p.228）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p050.png`（pngmono，150 dpi）。
+- 核对：Calcul de F 段（θ₁ = Σ q^{x²+xy+y²} = 1 + 6(q + q³ + q⁴ + 2q⁷ + q⁹ + …)、Eisenstein poids 1 niveau 3 caractère ε、θ₂ = θ₁(3z)、θ₃ = θ₁(9z)、niveaux 3² et 3³、g = q∏(1 − q^{3n})²(1 − q^{9n})² = q − 2q⁴ − q⁷ + 5q¹³ + …、y² + y = x³ − 3 conducteur 3³、gθ₁/gθ₂/gθ₃ base、T₂ 对角化）、F/F̄/G 三式（含 (1 ± i) 系数与 q ± 3iq² − 5q⁴）、CM 句、BIBLIOGRAPHIE 标题与条目 1-4（ARTIN Hamb. Abh. 8；ASH-STEVENS J. Crelle 365；ATKIN-LI Invent. Math. 48；BIRCH-KUYK Lect. Notes 476）。
+- 结果：PASS。公式、级数系数、参考文献前四条（作者/刊名/卷期/页码/年份）逐项与印刷吻合。
+- 备注：F̄ 的上横在 Markdown 为 \overline{F}，印刷为 F̄，一致；BIBLIOGRAPHIE 为 Markdown ## 标题，印刷居中标题，排版级；页眉 “228 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于条目 4，条目 5 起属印刷 p.229。
