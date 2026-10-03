@@ -54,3 +54,15 @@
 - 仲裁记录：初读 150dpi 曾疑 MD "may also have" 多出 "may"；经 pdftotext + 300dpi 裁剪双证（audit-redo/300dpi/p004-may-also.png，pdftoppm 渲染；gs 300dpi 整页对本页报 Page drawing error，故用 poppler），印刷确为 "may also have"，MD 正确，不改。
 - Luna 旧修复对印刷复核：`$\mathbf{Z}_2$-orbifold`（印刷 Z₂-orbifold ✓，旧 MinerU 误为 `Z _ { \mathrm { 2 ^ { - O r b i f o l d } } }`）、`$sl_2$`/`$sl_2's$`（印刷 sl₂/sl₂'s ✓）、`difference`（✓）、`affine`（✓）均正确。旧审计所列 `diference`/`afine`/`s l _ { 2 }` 碎片在当前 MD 已不存在。
 - 备注：度数表 MD 与印刷逐格一致（含 R² 所在行行尾印刷的 "⋯."，MD 作 `\dots .` 忠实保留）。`$sl_2’s$` 中撇号以 Unicode 右单引号置于数学内，属 MinerU 全局排版风格，不改。无修复动作。
+
+## p.005（PDF p.5 / 印刷 p.5）
+
+- PNG：audit-redo/p005.png（pngmono 150dpi，本块实渲染实读）；仲裁图 audit-redo/300dpi/p005-lambda-chain.png（pdftoppm 300dpi 裁剪）。
+- 核对：p=e^{(1,0)}, q=e^{(0,1)}；分母公式 p^{-1}Π_{m>0,n∈Z}(1−p^m q^n)^{c(mn)}=j(p)−j(q)；p^{−1}(1−p^1q^{−1}) 反对称因子（印刷即含上标 1，忠实保留）；虚根修正与单根 (1,n)、multiplicity c(n)；(1,−1) 实根 norm 2、(1,n) 虚根 norm −2n；Λ(E)=H(E)；Λ(E)=Λ⁰(E)⊖Λ¹(E)⊕Λ²(E)… 算子链；exterior powers / homology groups 交替和定义；Λ(A⊕B)=Λ(A)⊗Λ(B)；Bott/Kostant [26]。
+- 文本层通道：pdftotext 第 5 页与 PNG 一致。
+- 结果：**FAIL**（Luna 修复引入转述改写与多余公式算子；已按印刷恢复）。
+- 差异与处理（本页核心发现，归属证据：原始 MinerU 行文忠实，改写来自 Luna 修复 commit `01fe4a35`；原始 md 可于 commit `4e5d9aabe` 恢复）：
+  1. **多余公式算子**：MD 作 `\Lambda^2(E)\ominus\cdots`，印刷无 Λ²(E) 后的算子，直接接省略号（300dpi 仲裁图 audit-redo/300dpi/p005-lambda-chain.png；pdftotext 亦为 "⊕ Λ2 (E) . . ."）。已删去多余 `\ominus`。
+  2. **行文转述改写**（印刷原文 → Luna 改文，均已恢复印刷原文）：`is a virtual vector space which is the alternating sum of the exterior powers of E` → 曾被改为 `formed from the alternating sum of exterior powers of`；`and similarly H(E)` → 曾删 similarly；`For infinite dimensional Lie algebras E we need to be careful that` → 曾改为 `For infinite-dimensional Lie algebras E, we must ensure that`；`they are always differences … and so are well defined` → 曾删 always 与句尾从句 `and so are well defined`；`H_i(E) turns out to have dimension equal to the number of elements in the Weyl group of length i` → 曾改为 `has dimension equal to the number of Weyl-group elements of length i`；`first observed by Bott, and was used by Kostant` → 曾改为 `by Bott and used by Kostant`；`The sum over the homology groups can therefore be identified` → 曾改为 `Thus the sum over homology groups can be identified`。整行已用结构化 Edit 恢复为印刷原文（本页 commit）。
+- Luna 其余本页修复复核：`\Lambda^i(E)'s` 所有格碎片已修复为正常行文 ✓；`coefficients` 拼写 ✓（本页两处 coefficients 均正确）。分母公式与 c(mn) 等其余内容与印刷一致。
+- 备注：`p ^ { 1 }`（印刷 1−p¹q⁻¹ 的显式上标 1）与 `mult(α)` 记号按印刷/原始导出保留。判定依据：本页存在公式记号错误与整句级 omission（and so are well defined 从句丢失），按 SOP FAIL 定义记录；修复后 MD 已与印刷一致。
