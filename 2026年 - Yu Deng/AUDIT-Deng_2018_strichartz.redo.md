@@ -188,6 +188,12 @@
 - 核对："make no difference" 段、Lemma 6.5（Φ 定义三重 substack、≼_{α,β}2^jN⁴/K+N/K）、(6.11)、(6.12) ⪰_{α,β}ρ、optimistic bound 段（⪯_{α,β}2^j/ρ、≲_ε N^{−4+ε}、⪰_ε 2^jKN^{4−ε}、KN^{−ε}）、Σ(α,β,τ′) 定义（h²(U,V,W)≠h′²(U′,V′,W′)）、(6.13) 平方链、对角贡献段与 Σ′(α,β) 定义
 - 结果：PASS±（2 处已修复）。全部公式与印刷逐项一致。**修复 2 处**：L1287 "diference"→"difference"（印刷与 pdftotext 均为双 f；注意 Luna 在 p.24 登记的少 f quirk 指 "sufficient"，与本词无关，本词印刷拼写正确而 MD 少 f，属转录错字）；L1307 `$U,\dot{U′},\dot{V},V′,W,W′\stackrel{-}{\sim}N²/h²`→`$U,U′,V,V′,W,W′\lesssim N²/h²` 并补 K 后逗号（印刷为干净 ≲，无点无横线——Luna 基线登记的"点/横线"类缺陷在本行残留，本次清除）。残余瑕疵（不误导，不改）：L1321 "KN^{−ε}" 后缺句号。
 - 备注：Luna 旧修复抽核部分未完成——"点/横线"类缺陷在其登记后仍有一处残留于 L1307（本次修复）；其余本页无新问题。
+
+## p.025（PDF p.25 / 印刷 p.25）
+- PNG：audit-redo/p025.png（pngmono 150dpi）＋ pdftotext 文本层对账
+- 核对：Borel-Cantelli 积分链 display（Σ′≼_{α,β}∫Σ′dα′dβ′）、"Consquently" 段与 Σ′≼_{α,β}2^jN^{12}/K^{10}、2^{j/2}N⁶/K⁴ 反例段（K=N^{1/2}、2^j=N^{−3}、N^{5/2}、≲_{α,ε}N^{1+ε}）、"split off" 段、Proof of Lemma 6.5（2^j≥N^{−3} 归约、立方 display 三重 substack 带 (i=0,1,2)）、"collinear iff" 段、(6.14) 叉积、(6.15) 三项分裂（λ_i∈ℚ 共线项 / (U₀,V₀,W₀)^T×(U₁,V₁,W₁)^T≠0 且 Δ=0 项 / Δ≠0 项）
+- 结果：PASS±（3 处已修复）。全部公式与印刷逐项一致；print quirk 忠实保留："Consquently"（L1347，原刊拼写）。**修复 3 处**：L1355 "split of"→"split off"（印刷与 pdftotext 均为 split off；Luna 把此句记在 p.24 名下但实际印刷位置在 p.25）；L1363 "collinear if"→"collinear iff"（印刷 iff）；L1347 省略号后多余句点 `$. . .$. this`→`$. . .$ this`。残余瑕疵（不误导，不改）：L1353 "N^{1+ε}" 后缺句号。
+- 备注：Luna 旧修复抽核**发现遗留缺陷**——"split of" 与 "collinear if" 两处少 f/少 f 均在 Luna 登记类似问题（p.24 名下）后仍残留（本次修复）。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。

@@ -1344,7 +1344,7 @@ $$
 \begin{array}{c} \Sigma^ {\prime} (\alpha , \beta) \preceq_ {\alpha , \beta} \int \Sigma^ {\prime} (\alpha^ {\prime}, \beta^ {\prime})   d \alpha^ {\prime} d \beta^ {\prime} = \sum_ {h, h ^ {\prime} \sim K} \sum_ {h ^ {2} (U, V, W) \neq h ^ {\prime 2} (U ^ {\prime}, V ^ {\prime}, W ^ {\prime})} \\ \text {measure} \big \{(\alpha^ {\prime}, \beta^ {\prime}): \big | h ^ {2} (U + V \alpha^ {\prime} + W \beta^ {\prime}) - h ^ {\prime 2} (U ^ {\prime} + V ^ {\prime} \alpha^ {\prime} + W ^ {\prime} \beta^ {\prime}) \big | <   2 ^ {j} \big \}. \end{array}
 $$
 
-The condition$h ^ { 2 } ( U , V , W ) \neq h ^ { \prime 2 } ( U ^ { \prime } , V ^ { \prime } , W ^ { \prime } )$removes the terms for which the measure above is largest, which could otherwise have dominated the sum. But even for typical$h , h ^ { \prime } , U , U ^ { \prime } , . . .$. this measure will have size$\gtrsim 2 ^ { j } / N ^ { 2 }$. Consquently the best upper bound for$\Sigma ^ { \prime } ( \alpha , \beta )$which we could hope to prove is
+The condition$h ^ { 2 } ( U , V , W ) \neq h ^ { \prime 2 } ( U ^ { \prime } , V ^ { \prime } , W ^ { \prime } )$removes the terms for which the measure above is largest, which could otherwise have dominated the sum. But even for typical$h , h ^ { \prime } , U , U ^ { \prime } , . . .$ this measure will have size$\gtrsim 2 ^ { j } / N ^ { 2 }$. Consquently the best upper bound for$\Sigma ^ { \prime } ( \alpha , \beta )$which we could hope to prove is
 
 $$
 \Sigma^ {\prime} (\alpha , \beta) \preceq_ {\alpha , \beta} 2 ^ {j} N ^ {12} / K ^ {10}.
@@ -1352,7 +1352,7 @@ $$
 
 Via (6.13) this would lead to a bound of at best$2 ^ { j / 2 } N ^ { 6 } / K ^ { 4 }$for the sum in Lemma 6.5, which is not sufficient. For example when$K = N ^ { 1 / 2 }$and$2 ^ { j } = N ^ { - 3 }$that bound is at least$N ^ { 5 / 2 }$, while (6.11) requires a bound of$\lesssim _ { \alpha , \epsilon } N ^ { 1 + \epsilon }$
 
-The proof we give of Lemma 6.5 is nonetheless very close to the sketch above. Instead of the square in (6.13) we will take the cube of the sum we hope to bound. We will split of a kind of “diagonal contribution”, and the remaining term will be estimated by eliminating$\tau ^ { \prime }$and applying the Borel-Cantelli lemma.
+The proof we give of Lemma 6.5 is nonetheless very close to the sketch above. Instead of the square in (6.13) we will take the cube of the sum we hope to bound. We will split off a kind of “diagonal contribution”, and the remaining term will be estimated by eliminating$\tau ^ { \prime }$and applying the Borel-Cantelli lemma.
 
 Proof of Lemma 6.5. We may assume$2 ^ { j } \geq N ^ { - 3 }$, since otherwise the term$N / K$on the right hand side dominates so the case can be treated as if$2 ^ { j } \sim N ^ { - 3 }$. We take the cube:
 
@@ -1360,7 +1360,7 @@ $$
 \Phi (\alpha ,\beta ,\tau^{\prime})^{3} = \sum_{h_{0},h_{1},h_{2}\sim K}\sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2} (i = 0,1,2)\\ |U_{i} + V_{i}\alpha +W_{i}\beta -\tau^{\prime} / h_{i}^{2}| <   2^{j} / h_{i}^{2} (i = 0,1,2)\\ (U_{i},V_{i},W_{i})\neq (0,0,0) (i = 0,1,2)}}1.
 $$
 
-We split the terms according to whether the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$lie on a line through the origin, or else on a line which is not through the origin, or neither. Write $\times$ for the vector product of two column vectors. Observe that the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$are collinear if the quantity
+We split the terms according to whether the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$lie on a line through the origin, or else on a line which is not through the origin, or neither. Write $\times$ for the vector product of two column vectors. Observe that the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$are collinear iff the quantity
 
 $$
 \Delta = \left(h _ {2} ^ {2} (U _ {2}, V _ {2}, W _ {2}) - h _ {0} ^ {2} (U _ {0}, V _ {0}, W _ {0})\right) ^ {T} \times \left(h _ {1} ^ {2} (U _ {1}, V _ {1}, W _ {1}) - h _ {0} ^ {2} (U _ {0}, V _ {0}, W _ {0})\right) ^ {T}\tag{6.14}
