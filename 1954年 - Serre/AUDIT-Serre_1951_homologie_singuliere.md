@@ -223,3 +223,14 @@
 - PASS± 项（排版级，不修）：①md 行 930 展示式内 "dans" 被 mineru 拆成 "d a n s"（字母间空格）；②md 行 938 的 "(y_i quelconques)" 附于 array 之后（渲染时贴 Fu 行），印刷中与 Bu 行对齐——线性化排版差异，内容无损；③md 行 933 句尾缺印刷句点；④md 行 949 "\mathrm{si}" 直立体对印刷斜体 si。
 - 差异：无内容错误。
 - 备注：md 行 973 起 "φ∘ψ = 1 …" 与 Construction de ψ、LEMME 4 属印刷 p.448，留待 p.025。
+
+## p.025（PDF p.25 / 印刷 p.448）
+- PNG：audit/p025.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p025_lemme4_600.png、p025_lemme5_600.png、p025_disp_600.png（600dpi）
+- 核对：φ∘ψ = 1 段；Construction de ψ 行；LEMME 4 全文与条件 1–3（B·K(u,v) = u et F·K(u,v) = v；K(u, λ_i^ε v) = λ_{i+p}^ε K(u, v) (ε = 0, 1)；Si v est dégénéré…）与 "(La démonstration sera donnée au n°11)"；Posons ψ(u ⊗ v) = K(u, v) 段（filtration ≦ p − 1 d'après 1.）；La propriété 2. 段（h = ψ∘φ opérateur d'homotopie sur E_0^p）；LEMME 5 全文与条件 1–5（B·Su = Bu；Su(0, ⋯, 0, t, x₁, ⋯, x_q) = u(0, ⋯, 0, x₁, ⋯, x_q)；λ_{p+1}^0 Su = u et λ_{p+1}^1 Su = K(Bu, Fu)；Sλ_i^ε u = λ_{i+1}^ε Su；Si q > 0…）与 n°12 括注；Posons k(u) = (−1)^p Su 段与三条 "si …(Propriété …)" 判据；Calculons alors d_0ku + kd_0u 与两展示式（Σ_{i=p+1}^{n+1} (−1)^{i+p}(λ_i^0 Su − λ_i^1 Su)；kd_0u = Σ_{i=p+1}^{n+1} (−1)^{i+p}(Sλ_i^0 u − Sλ_i^1 u) = Σ_{i=p+2}^{n+1} (−1)^{i+p+1}(λ_i^0 Su − λ_i^1 Su),）；d'après la Propriété 4.
+- 结果：PASS±（已当场修复 3 处编码伪迹）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 997/998/1004 的 HTML 实体 "$i &gt; p$"、"$q &gt; 0$"（×2）：600dpi（p025_lemme5_600.png）确认印刷为数学关系号 **>**（"Pour tout i > p"、"Si q > 0"），Edit 修复为 ">"。该实体在 math 内会妨碍 LaTeX 渲染，按 SOP「妨碍使用时修复并登记」处理。
+  - 仲裁记录（MD 正确项）：①LEMME 4 条件 2 的 λ_{i+p}^ε 下标（p025_lemme4_600.png 清晰）；②LEMME 5 条件 3 的 λ_{p+1}^0/λ_{p+1}^1 与条件 4 的 Sλ_i^ε u = λ_{i+1}^ε Su（p025_lemme5_600.png）；③两展示式的求和限 i = p+1/i = p+2、上限 n+1、指数 i+p/i+p+1 与末尾逗号（p025_disp_600.png）均与 MD 逐项一致。
+- PASS± 项（登记，不修）：①md 行 993–1010 被 mineru 包裹在 `<div class="docvortex-algorithm" style="white-space: pre-wrap; …">` 内——印刷并无算法框，此为导出结构伪迹；但 pre-wrap 渲染恰好按印刷行式呈现 LEMME 5 条件与三条判据，内容完整有序，不修（与已登记的 page-footnote span 同类处理；文件内 L1682/L1686/L1690 还有三处同类 div，属后续分块页域，不在本页处置）；②md 行 1008 将印刷的两行展示式压平为同一行内联 math（内容两式俱全、逗号保留）——线性化伪迹；③md 行 1005 "(Propriété 1)." 缺印刷句末句点（印刷作 "(Propriété 1.)."）——标点级；④三条 "si…" 判据保留 4 空格缩进（依赖 ① 的 pre-wrap 呈现）。
+- 差异：无数学内容错误。
+- 备注：md 行 1012 起 "On a done/donc: d_0ku + kd_0u = …" 展示式与 Th. 1 属印刷 p.449，留待 p.026（"done/donc" 之辨待该页仲裁）。

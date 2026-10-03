@@ -994,14 +994,14 @@ LEMME 5. A tout cube $u$ de $E$, de filtration $\leq p$ et de dimension $n = p +
 1. $B \cdot Su = Bu$
 2. $Su(0, \cdots, 0, t, x_1, \cdots, x_q) = u(0, \cdots, 0, x_1, \cdots, x_q)$.
 3. $\lambda_{p+1}^0 Su = u \text{ et } \lambda_{p+1}^1 Su = K(Bu, Fu)$.
-4. Pour tout $i &gt; p$, on $a: S\lambda_i^\varepsilon u = \lambda_{i+1}^\varepsilon Su (\varepsilon = 0, 1)$.
-5. Si $q &gt; 0$, et si $u$ est dégénéré, $Su$ est dégénéré.
+4. Pour tout $i > p$, on $a: S\lambda_i^\varepsilon u = \lambda_{i+1}^\varepsilon Su (\varepsilon = 0, 1)$.
+5. Si $q > 0$, et si $u$ est dégénéré, $Su$ est dégénéré.
 (La démonstration sera donnée au n°12).
 
 Posons, pour $u \in E_0^p$: $k(u) = (-1)^p Su$.
 Cette définition est compatible avec les passages au quotient qui définissent $E_0^p$ car:
     si $w(u) \leq p - 1$, $w(Su) \leq p - 1$ (Propriété 1.)
-    si $u$ est dégénéré et si $q &gt; 0$, $Su$ est dégénéré (Propriété 5.)
+    si $u$ est dégénéré et si $q > 0$, $Su$ est dégénéré (Propriété 5.)
     si $u$ est dégénéré et si $q = 0$, $w(Su) \leq p - 1$ (Propriété 1).
 
 Calculons alors $d_0ku + kd_0u$:
