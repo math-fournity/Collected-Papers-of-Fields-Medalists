@@ -140,3 +140,11 @@
   2. D_{n+1} display（MD 行 460）：印刷为 `D_n[[y_1, …, y_n]]/(f_π(y_1) − b_1, …, f_π(y_h) − b_h)`——同一 display 内首个 y 排 **n**、第二个排 h（600dpi：n 无升部双拱、h 有升部，字形可区分）；已 Edit 首个 y_h → `y_n`。**erratum 登记**：数学上均为 y_h，display 首位误排。
 - 重核 Luna 修复：e_i (1≤i≤h)、((1/π^n)O/O)^h、P ⊂ ((1/π^n)O/O)^h、imbedding display 两处 ^h、Prop 4.4 全部陈述与 Proof 开头均与印刷相符（Luna 本页 h 系修复在独立 h 位正确；其 t 下标 h 读判有误已在本条更正）。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 573" 未收。
+
+## p.014（PDF p.14 / 印刷 p.574）
+
+- PNG：audit-redo/p014.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p014_pim.png（((1/π^m)O/O)^? 上标）、…_p014_jh.png（level-n 结构 ^{j+h} 与 display）、…_p014_dimjh.png（dimension j+h）
+- 核对：Prop 4.4 proof 收尾（tangent mapping、((1/π^m)O/O)^? → maximal ideal D_n、structure of level m）、§4C divisible O-module 定义（F/F_loc ≃ Spf R × (K/O)^j、splitting 序列）、finite height h、level-n 结构（((1/π^n)O/O)^{j+h} → Mor(Spf R, F)、epimorphism display）、Prop 4.5（G_loc height h、E_n ≃ D_n[[d_1,…,d_j]]、dimension j+h、E_m → E_n finite and flat）、Proof（Exp(Γ, Mor(Spf R, F))、[Mor(Spf R, F)]^j）、Remark（O'^* 作用、Spf E' = (Spf E)^Γ）。
+- 结果：FAIL（1 处印刷忠实性回退）。Prop 4.4 proof（MD 行 481）：印刷 `((1/π^m)O/O)^**b**`（300dpi 闭碗 b，与同页 j+h 的双拱 h 可区分），MD（含 Luna 修复）为 ^h；已 Edit 回退为 `^b`。**erratum 登记**：数学上为 h，印刷误排 b——延续 §4 的 b/h 混用（p.566/570–573 同族）。
+- 重核 Luna 修复：level-n 结构的 `^{j+h}`（散文+display）、Prop 4.5 的 `dimension j + h` 均印刷确为 h（300dpi 有升部双拱，Luna 此三处由 b 改 h 方向正确）；Exp/[Mor]^j/Remark 各式相符。
+- 另记（PASS± 级伪影，不改）：页眉 "574 V. G. DRINFEL'D" 未收。
