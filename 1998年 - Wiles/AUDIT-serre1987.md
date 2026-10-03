@@ -393,3 +393,11 @@
 - 核对：En particulier 段（x⁶ + ax + b ≡ 0 (mod l)、ordre 8 de F₉*、a_l = 0）、Mestre 搜索段（2^m 5^n、ramification sauvage en 5、exercice dyadique、2.5^n/2²5^n/2³5^n）、a/b/d^{1/2}/k/niveau 七行表（24/−20/2³3³5³/2/2³5³=1000；30/25/2³3³5⁴/2/⩾20000?；240/400/2²3³5⁴/2/2²5⁴=2500；240/−400/2³3³5⁴/2/2³5⁴=5000；48/−80/2³3³5³/2/2³5³=1000；432/720/2²3⁵5³/4/2²5³=500；480/−400/2³3²5⁴/2/2³5⁴=5000）、Noter le cas 段（2^m 5⁴、m ⩾ 5、N ⩾ 20000、un peu trop grand、Eichler-Selberg）、5.5 节标题（PSL₂(F₇) d'ordre 168）、(5.5.1) X⁷ − 7X + 3 = 0、W. Trinks–cf. [25]、G = {±1, ±i}·SL₂(F₇) 式。
 - 结果：PASS。表格 35 个数据格（含指数）逐格与印刷吻合，文字段落逐句吻合。
 - 备注：三处 150 dpi 疑点经 300 dpi 裁片全部排除——① d^{1/2} 列各行指数（如首行实为 2³3³5³ 而非 2²3³5²）与 Markdown 完全一致；② niveau “⩾ 20000?” 的问号一致；③ 印刷确为 “un peu trop grand”，Markdown “un peu” 一致。GL₂(F₄₉) 下标 49 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 225” 未收入 Markdown，排版级。印刷页止于 G 定义式，“où i est un élément…” 段属印刷 p.226。
+
+## p.048（PDF p.48 / 印刷 p.226）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p048.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p048_chi2_matrix.png`（pnggray）。
+- 核对：det G = {±1} 与 PSL₂(F₇) 句、(*) 正合列、α^K 句、ε: G_Q → {±1}、Q(√−3) 句、α 式、obs(α) ∈ Br₂(Q) 段、obs(α) = w + (−1)(−3)、[46] n° 3.3/w = (−1)(−3)、ρ: G_Q → GL₂(F₄₉)、det ρ = ε、判别式句（X⁷ − 7X + 3 与 corps K）、3^n/n = 3、惯性矩阵 soit (χ *; 0 χ^{−1}), soit (χ⁴ *; 0 χ^{−4})、produit tensoriel 段、ρ′ 惯性矩阵 (χ² *; 0 1)。
+- 结果：FAIL。两处已依原图修复：① 多项式判别式 Markdown 写成 $3^{8}7^{8}$，印刷为 **3⁶7⁸**（150 dpi 页图清晰可辨，两处判别式均为 3⁶7⁸），修为 $3^{6}7^{8}$；② ρ′ 惯性矩阵左上印刷为 χ²（300 dpi 裁片确认 chi 弯尾），Markdown 写成 x²，修为 χ²。其余逐项吻合。
+- 备注：惯性双矩阵的 χ/χ⁴/χ^{−1}/χ^{−4} 上标一致；(χ² *; 0 1) 与后文 “poids k égal à 3” 相容；页眉 “226 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 ρ′ 矩阵式，“où χ est le caractère cyclotomique” 属印刷 p.227。

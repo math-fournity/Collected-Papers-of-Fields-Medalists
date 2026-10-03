@@ -2079,7 +2079,7 @@ $$
 
 cherchée. Par construction, on a det $\rho = \varepsilon$.
 
-Ici encore, on choisit $\rho$ de telle sorte que son conducteur soit le plus petit possible. Le discriminant du polynôme $X^{7} - 7X + 3$ est $3^{8}7^{8}$ et celui du corps $K$ est $3^{6}7^{8}$. Il en résulte que le conducteur de $\rho$ peut être choisi égal à $3^{n}$, et un calcul de ramification en 3 montre que $n = 3$. D'autre part, l'étude de la ramification en 7 montre que l'action de l'inertie en 7 est:
+Ici encore, on choisit $\rho$ de telle sorte que son conducteur soit le plus petit possible. Le discriminant du polynôme $X^{7} - 7X + 3$ est $3^{6}7^{8}$ et celui du corps $K$ est $3^{6}7^{8}$. Il en résulte que le conducteur de $\rho$ peut être choisi égal à $3^{n}$, et un calcul de ramification en 3 montre que $n = 3$. D'autre part, l'étude de la ramification en 7 montre que l'action de l'inertie en 7 est:
 
 $$
 \text { soit } \left( \begin{array}{c c} \chi & * \\ 0 & \chi^ {- 1} \end{array} \right), \qquad \text { soit } \left( \begin{array}{c c} \chi^ {4} & * \\ 0 & \chi^ {- 4} \end{array} \right),
@@ -2090,7 +2090,7 @@ où $\chi$ est le caractère cyclotomique.
 En faisant le produit tensoriel de $\rho$ par $\chi$, ou $\chi^4$, on obtient une nouvelle représentation $\rho'$ où l'action de l'inertie en 7 est donnée par:
 
 $$
-\left( \begin{array}{c c} x ^ {2} & * \\ 0 & 1 \end{array} \right),
+\left( \begin{array}{c c} \chi ^ {2} & * \\ 0 & 1 \end{array} \right),
 $$
 
 ce qui conduit à un poids $k$ égal à 3, cf. $\mathfrak{n}^{\mathrm{os}}$ 2.3 et 2.4. On a
