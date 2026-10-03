@@ -92,3 +92,25 @@
 - 备注：本页是重做中发现的**Luna 误判修复点**：`\overline{T}` 系 Luna 错误登记为「忠实」的记号错误，本次按 300dpi 原页证据改正。其余内容无差异。
 - 修复登记：MD 第 299 行 `$\overline { T }$`→`$T$`；证据 `audit-redo/p008_T_300dpi.png`；随本页 redo(page) 提交。
 - 记录时间：2026-10-03 12:58 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.009（PDF p.9 / 印刷 p.9）
+- PNG：`audit-redo/p009.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：torification 段收尾（$S_i\to H_i$、$K_X+\Delta$ numerically trivial）、Sketch of Theorem 1.8 末段（`W → X`、`Y → X`、$K_{Y'}+\Omega_{Y'}$ 补式链、$m(K_X+\Omega)\sim 0$、`W → X` blowup 数有界）、Acknowledgements 全文、§2 Preliminaries 开头、§2.1 Divisors（$\phi : X \dashrightarrow Y$ **虚线**箭头、$\deg_A D$ 定义、$\deg_A D \le \deg_A A$）、volume 公式 $\operatorname{vol}(D)=\limsup_{m\to\infty} h^0(\lfloor mD\rfloor)/(m^d/d!)$；与 Markdown 第 323–343 行逐项比对，辅以 `pdftotext -f 9 -l 9`。
+- 结果：**PASS±**
+  - Luna 旧修复逐项复核为正确：`$W \to X$` 两处、`$Y \to X$` 一处实线箭头恢复；§2.1 的 `$\phi \colon X \dashrightarrow Y$` 恢复为**虚线**双有理映射箭头（印刷原页与 pdftotext `99K` 字形均为虚线 ⇢，Luna 由实线改正为虚线属实）。
+  - volume 公式、degree 定义、补式推导链、致谢人名清单（Ambro/Cheltsov/Hacon/Han/Kawamatov/Păun/Shokurov/Xu/Chen 等）均与印刷一致。
+  - PASS± 项（不修，登记）：①MD 第 325 行 `obtains$T ,$.` 与 `$\epsilon ^ { \prime } { - } \mathrm { l c } .$.` 双标点两处（印刷均为单句点）；②第 333 行 `$\mu _ { D _ { i } } D$` 后与行末 `$D _ { Y }$` 后丢句点；③第 335 行行末 `$\deg _ { A } A$` 后丢句点、`R-divisors` 断行连字丢失成 `Rdivisors`；④致谢 `Păun` 编码为 `Pˇaun`（重音符错位，Luna 已登记，仍在）；⑤`office`→`ofice`、`coefficient`→`coeficient` ff 拍平。
+- 备注：Luna p.009 登记的三处箭头修复均属实且正确落地。本次重检未发现本页数学内容错误。
+- 记录时间：2026-10-03 13:06 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+---
+
+## 本块小结（p.1–p.9 重做）
+
+- 9 页全部按「gs pngmono 150dpi 渲染 → Read 目检 → pdftotext 双通道对账 → 五点比对」完成；p.008 另作 300dpi 字形仲裁裁片。
+- 评级：**8 页 PASS±，1 页 FAIL（p.008，已当场修复并随页提交）**。
+- **修正 Luna 旧修复错误 1 处**：p.008 `\overline{T}`→`T`（Luna 曾误登记原文带上横线；300dpi 裁片 `audit-redo/p008_T_300dpi.png` 证明原文为普通斜体 T）。
+- Luna 其余旧修复（p.001–p.009 的箭头恢复、bullet 恢复、Ω/ι 删除、花体改斜体、尾随 2 删除等）逐项经原页复核均为正确，全部保留。
+- Luna 漏报已补记：p.003 两处 MinerU 标题提升（`## Example 1.3. …`、`## form a bounded family.`）与 $S^{\sim}$ 上标波浪；均为结构/排版伪影，按 SOP 登记不修。
+- print quirk 忠实保留（未改）：p.007「Replacing X with can assume it is Q-factorial.」「explanations for as to why」、p.008「Σ is reduced whose support contains」「closed point x otherwise we can cut」；p.001 目录缺号子节。
+- ff 拍平（diferent/efective/coeficient(s)/dificult/ofice 等）与零星标点/空格伪影按 SOP 记 PASS± 不批量修。
