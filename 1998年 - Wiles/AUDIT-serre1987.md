@@ -401,3 +401,11 @@
 - 核对：det G = {±1} 与 PSL₂(F₇) 句、(*) 正合列、α^K 句、ε: G_Q → {±1}、Q(√−3) 句、α 式、obs(α) ∈ Br₂(Q) 段、obs(α) = w + (−1)(−3)、[46] n° 3.3/w = (−1)(−3)、ρ: G_Q → GL₂(F₄₉)、det ρ = ε、判别式句（X⁷ − 7X + 3 与 corps K）、3^n/n = 3、惯性矩阵 soit (χ *; 0 χ^{−1}), soit (χ⁴ *; 0 χ^{−4})、produit tensoriel 段、ρ′ 惯性矩阵 (χ² *; 0 1)。
 - 结果：FAIL。两处已依原图修复：① 多项式判别式 Markdown 写成 $3^{8}7^{8}$，印刷为 **3⁶7⁸**（150 dpi 页图清晰可辨，两处判别式均为 3⁶7⁸），修为 $3^{6}7^{8}$；② ρ′ 惯性矩阵左上印刷为 χ²（300 dpi 裁片确认 chi 弯尾），Markdown 写成 x²，修为 χ²。其余逐项吻合。
 - 备注：惯性双矩阵的 χ/χ⁴/χ^{−1}/χ^{−4} 上标一致；(χ² *; 0 1) 与后文 “poids k égal à 3” 相容；页眉 “226 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 ρ′ 矩阵式，“où χ est le caractère cyclotomique” 属印刷 p.227。
+
+## p.049（PDF p.49 / 印刷 p.227）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p049.png`（pngmono，150 dpi）。
+- 核对：poids k = 3 句（nˢ 2.3 et 2.4）、det ρ′ = ε·χ²、Im ρ′ = GL₂(F₇) ∪ i·GL₂(F₇) 括注、Les conjectures 段（(3³, 3, ε)、F₄₉）、ord(l) 定义句、四情形判据（4l²ε(l)/a_l = 0/l²ε(l)/2l²ε(l) dans F₇）、ε(l) = (l/3)、Effectivement 段、F = q + Σ = 9 + 3iq² − 5q⁴ − 3iq⁵ + 5q⁷ − 3iq⁸ + …、Z[i] 句、ord(l)/A_l 表（l ⩽ 37 十列逐格）、l = 17 括注（a_l² ≡ A_l² ≡ −2、l² ≡ 2、ord(l) = 3）。
+- 结果：PASS。公式、表格、复系数（3i/−3i/−15i/18i/−12i/30i）全部与印刷吻合。
+- 备注：F 展开首项印刷即作 “= 9 + 3iq² …”（q 项并入 Σ 记法），Markdown 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 227” 未收入 Markdown，排版级。印刷页止于 l = 17 括注，“Calcul de F” 段属印刷 p.228。
