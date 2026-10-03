@@ -277,3 +277,11 @@
 - 核对：(4.8)⇒ι: Y≈Z；pairings（Z^{Σ(Mp)}、E̲=(E,C)、½card(Aut(E̲))、E̲ 专用于 pM-enhancement、E̲₀=(E₀,C_p)、W=Hom(E̲,E̲₀)、End(E̲) 为 W 的 commutant、Tate 定理 [40]、Aut(E̲)=Aut_S(W)、o(e)、Z^ℰ）；Hecke 作用（T_p、[3]、GL(2,Q_p)\(℘^unr×X)、D*、1×π、Fr⁻¹、C_{F_p}、[13] Th. 4.4、𝒢=GL(2,Q_p)⁺\(Δ×X)、w_p/τ(p)、m）；τ 在 ℰ 上（(m·1,mx)、u、umx、n=um、normalizer、矩阵 (0 −1; p 0)、w_p、ι carries τ to w_p、Z⊂Z^ℰ 取负、orientation）✓。
 - 发现并当场修复（5 个记号点；依据 300 dpi 裁片）：①L1190 括号句 "we have been employing $\underline{\mathbf{E}}$"→"$\mathbf{E}$"（印刷此处的 E 为粗体无下划线，与前句 pM-enhancement 专用符号 E̲ 区分；MD 误加下划线）；②L1190 四处 W 粗体："W=Hom(...)"→"$\mathbf{W}=..."、"commutant of W"→"of $\mathbf{W}$"、"End_S(W)"→"End_S($\mathbf{W}$)"、"Aut_S(W)"→"Aut_S($\mathbf{W}$)"。
 - 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.035（PDF p.35 / 印刷 p.464）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 19:12 -0400。
+- PNG：`audit/ribet1990_p035.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："the set **ϑ**"（vartheta）与显示式 "ϑ=⊔ᵢ₌₁^{r+1}R_r*a_i" 确证，未存档）。
+- 核对：w_p 于 X₀(Mpq)_F_q、L⊂Z^{Σ(Mp)}、τ 取负、T_p↔−w_p、(3.19)；T_r（r≠p 素）经 X 作用、K\H_f*、ζ_r 命名、T(A′)=ΠT_l(A′)、r+1/r 项；ζ_r 保两 copies、Z^ℰ 上限制；ζ_q（L⊗Z_q-stable、q²=(T′:T)、H_q=End_{L⊗Q_q}(V_q(A))、T′=g⁻¹π⁻¹T_q、Frobenius、(3.5b)、(3.8)、T_q）；ζ_r（r⊥pqM、(T′:T)=r²、ϑ=⊔R_r*a_i、ζ_r(T)=Σg⁻¹a_i⁻¹T_r(A)、Σa_i g）；段尾 "(Here the a_i are" 接下页 ✓。
+- 发现并当场修复（7 个记号点）：①L1196 "first copy of V"→"$\mathcal{V}$"；②L1200 "graph G"→"$\mathcal{G}$"；③L1202 三处 "vertices of G"→"$\mathcal{G}$"、"two copies of V"→"$\mathcal{V}$"、"$Z^{E}$"→"$\mathbf{Z}^{\mathcal{E}}$"（印刷粗体 Z 花体 ℰ 上标）；④L1212 "the set 9"→"the set $\vartheta$"（300 dpi 确证印刷为希腊 ϑ，mineru 误读为数字 9；L1215 显示式 \vartheta 本即正确）。
+- 备注：H_f*/Z_r/V_r 印刷粗体或字重（weight 类，登记不改）。
+- 结果：FAIL（7 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
