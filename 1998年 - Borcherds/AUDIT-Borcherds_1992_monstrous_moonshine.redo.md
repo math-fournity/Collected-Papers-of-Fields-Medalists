@@ -22,3 +22,14 @@
 - 文本层通道：pdftotext 首页与 PNG 一致。
 - 结果：**PASS**。
 - 备注：MD 行文/地址把印刷断行连字 `Cam-bridge` 并为 `Cambridge`（跨行连字符合并，属正确修复，非内容变更）。Luna 旧修复逐项对印刷复核：摘要 `Co_1`（印刷 Co₁ ✓）、`affine`（印刷 affine ✓）、引文 `[16,17]`（✓）均正确；旧审计所列 `Cam bridge`/`repre sentation`/`afine`/`C o _ { 1 }`/`\lceil 1 6 , 1 7 \rceil` 在当前 MD 已不存在。Theorem 1.1 在印刷页尾断于 `…q^n is`，MD 相应断句位置一致（续文归 p.002 核对）。无修复动作。
+
+## p.002（PDF p.2 / 印刷 p.2）
+
+- PNG：audit-redo/p002.png（pngmono 150dpi，本块实渲染实读）。
+- 核对：Theorem 1.1 续句（a Hauptmodul … paper [13]）、Z²-graded monster Lie algebra 段、论文组织段、Fischer-Griess 群阶 2^{46}3^{20}5^97^6 11^213^3·17·19·23·29·31·41·47·59·71、V^♮/V^♮_{-n} 记号、j(τ)−744 展开式（q^{-1}+196884q+21493760q²+…）、Thompson series 定义式、Hauptmodul 定义（SL₂(Z) 在上半平面的作用、(a b;c d)(τ)=(aτ+b)/(cτ+d)、level 1）。
+- 文本层通道：pdftotext 第 2 页与 PNG 一致。
+- 结果：**PASS±**。
+- 差异与处理：
+  1. 印刷 "on each space V_n**.** The best way…" 的句点在 MD 中缺失（`…on each space$V _ { n }$ The best way`）。以原图为准，已用 Edit 补回句点（本页 commit）。
+  2. Luna 旧修复对印刷复核：`j(\tau)-744`（印刷 j(τ)−744 ✓，旧 MinerU 误为 `j(\dot{\tau})`）、`level 1` 措辞无多余上标（✓）、`The Fischer-Griess` 分词（✓）均正确。旧审计列于本页的 `coeficient` 拼写：本页印刷确有 "the coefficient c(n)"，当前 MD 拼写 `coefficient` 正确，已修复；`dificulty`/`dificult` 两词印刷在本页未出现（属 p.3 正文），归 p.3 核对。
+- 备注：印刷 `V^♮`（moonshine 模块记号，上标 natural 号）MD 作 `\natural`，与印刷及 [16] 惯用记号一致；150dpi 下字形与 pdftotext 的怪映射（`\`）互证。印刷页首行 "The / Fischer-Griess" 为跨行排版，MD 合并为正常行文，非内容变更。
