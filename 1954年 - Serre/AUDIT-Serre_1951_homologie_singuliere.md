@@ -206,3 +206,11 @@
 - PASS± 项（print quirk 登记，不修）：印刷行 "π₁(B) **opérait** canoniquement sur H(F)"（p022_SCdisp_600.png 底缘清晰可读；按语法应为 opère）——印刷自身笔误，md 行 877 忠实保留 "opérait"，不改。
 - 差异：除上述 3 处外无。文本层对账（pdftotext -f 22 -l 22）与正文逐句一致（OCR 噪声 "Sc"、"T,,*B" 等不构成差异）。
 - 备注：mineru 将两展示式线性化为 array/cases，与印刷版式等价；md 行 885 起 "v' (Voir [5], VII et VIII)…" 属印刷 p.446，留待 p.023。
+
+## p.023（PDF p.23 / 印刷 p.446）
+- PNG：audit/p023.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p023_Scu_600.png、p023_lam_600.png、p023_lam2_600.png（600dpi）
+- 核对：跨页续句 "v′ (Voir [5], VII et VIII)；E′ … diagramme commutatif"；交换图（E′ —h→ E；p′↓ p↓.；T —v′→ B，含 p 箭头后句点）；"Comme G est connexe par arcs…S_cu = u" 段（C(u) = h∘(I × u)、u: Iⁿ → F）；Note 段（sans hypothèses de connexion、systèmes locaux sur B）；§4 标题 "4. Filtration du complexe singulier de E"；(Rappelons …) 括注；"Nous allons filtrer…" 段（suite spectrale (E_r)、Voir Th. 2、E_∞、groupe gradué associé au groupe filtré H(E)）；Définition de la filtration 行；T^p ⊂ T^{p+1} 链、T^{p,q} ⊂ Q_{p+q}(E) 定义两句、p(u(t₁, ⋯, t_{p+q})) 与 t_{p+1}, ⋯, t_{p+q}；On pose: T^p = Σ_q T^{p,q}；(Φ) 0 ≦ w(x) ≦ deg. x；lorsque x ≠ 0 est homogène；En outre 稳定段（λ_i^ε u ∈ T^p、λ_i^ε u ∈ T^{p−1}、stables、n°1 et 2 du Chap. I）
+- 结果：PASS
+- 仲裁记录：①150dpi 初读末段 λ 下标上疑无上标 ε，600dpi（p023_lam2_600.png、p023_lam_600.png）确认两处印刷均为 **λ_i^ε u**（ε 上标清晰），MD "$\lambda_i^\epsilon u$" 正确；②600dpi（p023_Scu_600.png）确认 "telle que **S_cu** = u" 下标为小写斜体 c，与 p.022 全页 S 下标约定一致，MD 正确。
+- 差异：无。
+- 备注：交换图线性化为 array（p′↓ 与 p↓. 同行、句点保留），节点/箭头/标记逐项吻合；md 行 923 起 "Etude du terme E_0." 属印刷 p.447，留待 p.024。
