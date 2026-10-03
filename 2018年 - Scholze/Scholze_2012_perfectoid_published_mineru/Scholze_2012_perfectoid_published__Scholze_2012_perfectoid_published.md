@@ -1138,7 +1138,7 @@ $$
 \varprojlim_ {\Phi} \mathrm{A} _ {*} / \varpi = \varprojlim_ {x \mapsto x ^ {\flat}} \mathrm{A} _ {*},
 $$
 
-as in the proof of Lemma$3 . 4 ( \mathrm { { i } ) }$
+as in the proof of Lemma$3 . 4 ( \mathrm { { i } ) }$.
 
 This shows that$\mathrm { A } _ { * } ^ { \flat }$is a$\varpi ^ { \flat }$-adically complete flat$\mathrm { K } ^ { \flat \circ }$-algebra. Moreover, the projection$x \mapsto x ^ { \sharp }$of$\mathrm { A } _ { * } ^ { \flat }$onto the first component$x ^ { \sharp } \in \mathrm { A } ,$induces an isomorphism
 
@@ -1146,11 +1146,11 @@ $$
 \mathrm{A} _ {*} ^ {\flat} / \varpi^ {\flat} \cong \mathrm{A} _ {*} / \varpi ,
 $$
 
-because of Lemma 5.6. Therefore$\mathrm { A } ^ { \flat }$is a perfectoid$\mathrm { K } ^ { \mathsf { b o } a }$-algebra.
+because of Lemma 5.6. Therefore$\mathrm { A } ^ { \flat }$is a perfectoid$\mathrm { K } ^ { \flat \circ a }$-algebra.
 
-To see that$\mathrm { R } ^ { \flat }$is the tilt of R, we go through all equivalences. Indeed, R has corresponding perfectoid$\mathrm { K } ^ { \circ a }$-algebra A, which reduces to the perfectoid$\mathrm { K } ^ { \circ a } / \varpi \mathrm { - a l g e b r a }$ $\mathrm { A } / \varpi$, which is the same as the perfectoid$\mathrm { K } ^ { \flat \circ a } / \varpi ^ { \flat } .$-algebra$\mathrm { A } ^ { \flat } / \varpi ^ { \flat }$, which lifts to the perfectoid$\mathrm { K } ^ { \flat \circ a }$-algebra$\mathrm { A } ^ { \flat }$, which in turn gives rise to$\mathrm { R } ^ { \flat }$-
+To see that$\mathrm { R } ^ { \flat }$is the tilt of R, we go through all equivalences. Indeed, R has corresponding perfectoid$\mathrm { K } ^ { \circ a }$-algebra A, which reduces to the perfectoid$\mathrm { K } ^ { \circ a } / \varpi$-algebra $\mathrm { A } / \varpi$, which is the same as the perfectoid$\mathrm { K } ^ { \flat \circ a } / \varpi ^ { \flat }$-algebra$\mathrm { A } ^ { \flat } / \varpi ^ { \flat }$, which lifts to the perfectoid$\mathrm { K } ^ { \flat \circ a }$-algebra$\mathrm { A } ^ { \flat }$, which in turn gives rise to$\mathrm { R } ^ { \flat }$.□
 
-Remark 5.19. — In fact, one can write down the functors in both directions. From characteristic 0 to characteristic$\beta ,$we have already given the explicit functor. The converse functor is given by${ \mathrm { R } } = { \mathrm { W } } ( { \mathrm { R } } ^ { \flat \circ } ) \otimes _ { \mathrm { W ( K ^ { \flat \circ } ) } } { \mathrm { K } }$, using the usual map$\theta : \mathrm { W } ( \mathrm { K } ^ { \flat \circ } )  \mathrm { K }$ We leave it as an exercise to the reader to give a direct proof of the theorem via this description, cf. [28]. This avoids the use of almost mathematics in the proof of the tilting equivalence. We stress however that in our proofwe never need to talk about big rings like $\operatorname { W } ( \mathbf { R } ^ { \flat \circ } )$, and that the point of view of the given proof will be useful in later arguments.
+Remark 5.19. — In fact, one can write down the functors in both directions. From characteristic 0 to characteristic$p$, we have already given the explicit functor. The converse functor is given by${ \mathrm { R } } = { \mathrm { W } } ( { \mathrm { R } } ^ { \flat \circ } ) \otimes _ { \mathrm { W ( K ^ { \flat \circ } ) } } { \mathrm { K } }$, using the usual map$\theta : \mathrm { W } ( \mathrm { K } ^ { \flat \circ } ) \to \mathrm { K }$. We leave it as an exercise to the reader to give a direct proof of the theorem via this description, cf. [28]. This avoids the use of almost mathematics in the proof of the tilting equivalence. We stress however that in our proof we never need to talk about big rings like $\operatorname { W } ( \mathbf { R } ^ { \flat \circ } )$, and that the point of view of the given proof will be useful in later arguments.
 
 Let us give a prototypical example for the tilting process.
 
@@ -1160,15 +1160,15 @@ $$
 \mathrm{R} = \mathrm{K} \big \langle \mathrm{T} _ {1} ^ {1 / p ^ {\infty}}, \ldots , \mathrm{T} _ {n} ^ {1 / p ^ {\infty}} \big \rangle = \mathrm{K} ^ {\circ} \big [ \widehat {\mathrm{T} _ {1} ^ {1 / p ^ {\infty}} , \ldots , \mathrm{T} _ {n} ^ {1 / p ^ {\infty}}} \big ] \big [ \varpi^ {- 1} \big ].
 $$
 
-Then R is a perfectoid K-algebra, and its tilt$\mathrm { R } ^ { \flat }$is given by$\mathrm { K } ^ { \flat } \langle \mathrm { T } _ { 1 } ^ { 1 / \flat ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / \flat ^ { \infty } } \rangle$
+Then R is a perfectoid K-algebra, and its tilt$\mathrm { R } ^ { \flat }$is given by$\mathrm { K } ^ { \flat } \langle \mathrm { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } \rangle$.
 
-Proof. — One checks that$\mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } [ \mathbf { T } _ { 1 } ^ { 1 / \rho ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / \rho ^ { \infty } } ] _ { : }$, which is  -adically complete and flat over$\mathrm { K } ^ { \circ }$. Moreover, it reduces to$\mathbf { R } ^ { \circ } / \varpi = \mathbf { K } ^ { \circ } / \varpi [ \boldsymbol { \mathrm { T } } _ { 1 } ^ { 1 / \boldsymbol { \beta } ^ { \infty } } , \ldots , \boldsymbol { \mathrm { T } } _ { n } ^ { 1 / \boldsymbol { \beta } ^ { \infty } } ]$, on which Frobenius is surjective. This shows that R is a perfectoid K-algebra.
+Proof. — One checks that$\mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } [ \mathbf { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, which is  -adically complete and flat over$\mathrm { K } ^ { \circ }$. Moreover, it reduces to$\mathbf { R } ^ { \circ } / \varpi = \mathbf { K } ^ { \circ } / \varpi [ \mathrm { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, on which Frobenius is surjective. This shows that R is a perfectoid K-algebra.
 
-To see that its tilt has the desired form, we only have to check that$\mathrm { R } ^ { \circ } / \varpi =$ $\mathrm { R } ^ { \flat \circ } / \varpi ^ { \flat }$, by the proof of the tilting equivalence. But this is obvious.-
+To see that its tilt has the desired form, we only have to check that$\mathrm { R } ^ { \circ } / \varpi =$ $\mathrm { R } ^ { \flat \circ } / \varpi ^ { \flat }$, by the proof of the tilting equivalence. But this is obvious.□
 
 We note that under the process of tilting, perfectoid fields are identified.
 
-Lemma 5.21. — Let R be a perfectoid K-algebra with tilt R<sup>-</sup>. Then R is a perfectoidfield if and only$i f { \bf R } ^ { \flat }$is a perfectoid field.
+Lemma 5.21. — Let R be a perfectoid K-algebra with tilt$\mathrm { R } ^ { \flat }$. Then R is a perfectoid field if and only if${ \bf R } ^ { \flat }$is a perfectoid field.
 
 Proof. — Note that R is a perfectoid field if and only if it is a nonarchimedean field, i.e. a field whose topology is induced by a rank-1-valuation. This valuation is necessarily given by the spectral norm
 

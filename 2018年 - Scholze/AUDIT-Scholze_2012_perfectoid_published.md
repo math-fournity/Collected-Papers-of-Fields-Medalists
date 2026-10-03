@@ -431,3 +431,15 @@
   6. Proof：**"because commutes"丢 _*→"because$_*$commutes"（print "_* commutes"，PNG 确认）**；"image of$\Phi:(A/\varpi)_*\to(A/\varpi)$"目标丢 _*→$(A/\varpi)_*$；"projection$(A/\varpi^{1/p})$)"游离右括号+丢 _*→$(A/\varpi^{1/p})_*$（p.279 Proof 段原图）
   7. **display "lim_{←x↦x^p}A_*"→"lim_{←x↦x^\flat}A_*"（print 转移映射为 x↦x^♭，PNG 确认）**（p.279 But display）
 - 备注：A^♭/K^{♭°a} 两个 display 与 print 逐字符一致；行 1141 起（"as in the proof of Lemma 3.4(i)"）属印刷 p.280，留待 p.036。
+## p.036（PDF p.36 / 印刷 p.280）
+- PNG：audit/p036.png（pngmono 150dpi）
+- 核对：页眉 280/PETER SCHOLZE；Lemma 3.4(i) 引用句；A^♭_* ϖ^♭-adic complete 段（A^♭_*/ϖ^♭≅A_*/ϖ display、K^{♭°a}）；tilt 验证段（K^{°a}/ϖ→K^{♭°a}/ϖ^♭→K^{♭°a}→R^♭ 链+QED □）；Remark 5.19（W(R^{♭°})⊗_{W(K^{♭°})}K、θ:W(K^{♭°})→K、[28]）；prototypical example 段；Proposition 5.20（R=K⟨T_i^{1/p^∞}⟩=K°[T̂_i^{1/p^∞}][ϖ^{-1}] display 带宽帽、tilt 为 K^♭⟨T_i^{1/p^∞}⟩）；Proof（R°=K°[T̂_i^{1/p^∞}]、reduces to R°/ϖ、tilt check+QED □）；tilting 下 perfectoid fields 段；Lemma 5.21；Proof 开头（spectral norm ‖x‖_R=inf{|t|^{-1}|t∈K^×,tx∈R°} display）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 4 条，以原图为准）：
+  1. "as in the proof of Lemma 3.4(i)"补句点（print 原有）（p.280 首行）
+  2. "$\mathrm K^{\mathsf{bo}a}$"→"$\mathrm K^{\flat\circ a}$"（p.280 Therefore 段）；tilt 验证段："$\mathrm K^{\circ a}/\varpi\mathrm{-algebra}\ \mathrm A/\varpi$"散字合并、"$\mathrm K^{\flat\circ a}/\varpi^\flat.$-algebra"伪'.$'删、链尾"$\mathrm R^\flat-$"→".□"（p.280 To see that 段原图）
+  3. Remark 5.19："characteristic$\beta,$"→"$p$,"；"$\theta:\mathrm W(\mathrm K^{\flat\circ})␣\mathrm K$"缺箭头+句末补句点；"in our proofwe"→proof we（p.280 Remark 行）
+  4. **控制字节登记**：行 1165 一处 \x0b（"which is \x0b-adically complete"，print "ϖ-adically complete"，PNG 确认）——登记待字节级修复（\x0b→$\varpi$）
+  5. Prop 5.20 后句与 Proof：**"$\mathrm T_i^{1/\flat^\infty}$"×2→"$\mathrm T_i^{1/p^\infty}$"（tilt 的 T 指数为 p^∞ 非 ♭^∞，PNG 确认）+补句点；"$\mathbf T_i^{1/\rho^\infty}$"×2→"$\mathbf T_i^{1/p^\infty}$"（ρ 系 p 误读）；"$]_{:}$"伪下标冒号删；"$\boldsymbol{\mathrm T}_i^{1/\boldsymbol\beta^\infty}$"×2→"$\mathrm T_i^{1/p^\infty}$"（β 系 p 误读）**（p.280 Prop 5.20 与 Proof 行原图）
+  6. "But this is obvious.-"→".□"（QED，print 有 tombstone）（p.280 To see that 段）
+  7. Lemma 5.21："R<sup>-</sup>"→$\mathrm R^\flat$、perfectoidfield→perfectoid field、only$if$出 math（p.280 Lemma 行）
+- 备注：Prop 5.20 display 的宽帽（K°[\widehat{T_1^{1/p^∞},…,T_n^{1/p^∞}}][ϖ^{-1}]）与 print 一致；spectral norm display 与 print 一致；行 1179 起（"on R, and it is a rank-1-valuation…"）属印刷 p.281，留待下一块。
