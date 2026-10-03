@@ -81,7 +81,7 @@ $$
 
 where the sum is over all simple closed geodesics γ on$X .$
 
-Calculation of$\mathrm { V o l } ( \mathcal { M } _ { 1 , 1 } )$. We briefly explain the relation between Mc-Shane’s identity and Weil-Petersson volumes by treating the case$g = n = 1$ Consider the space of pairs:
+Calculation of$\mathrm { V o l } ( \mathcal { M } _ { 1 , 1 } )$. We briefly explain the relation between McShane’s identity and Weil-Petersson volumes by treating the case$g = n = 1$. Consider the space of pairs:
 
 $$
 \mathcal {M} _ {1, 1} ^ {*} = \{(X, \gamma) \mid X \in \mathcal {M} _ {1, 1}, \gamma \text {   a   simple   closed   geodesic   on   } X \},
@@ -93,7 +93,7 @@ $$
 \pi : \mathcal {M} _ {1, 1} ^ {*} \to \mathcal {M} _ {1, 1}
 $$
 
-be the projection map, defined by$\pi ( X , \gamma ) = X$. Also, define$\ell : \mathcal { M } _ { 1 , 1 } ^ { * } \to$R by
+be the projection map, defined by$\pi ( X , \gamma ) = X$. Also, define$\ell : \mathcal { M } _ { 1 , 1 } ^ { * } \to \mathbb { R }$ by
 
 $$
 \ell (X, \gamma) = \ell_ {\gamma} (X).
@@ -105,9 +105,9 @@ $$
 \sum_ {\pi (Y) = X} f (\ell (Y)) = \frac {1}{2},\tag{1.2}
 $$
 
-where$f ( x ) = ( 1 + e ^ { x } ) ^ { - 1 }$
+where$f ( x ) = ( 1 + e ^ { x } ) ^ { - 1 }$.
 
-For any simple closed curve α on a hyperbolic once punctured torus, we have$\mathcal { M } _ { 1 , 1 } ^ { \ast } = \mathcal { T } _ { 1 , 1 } / \mathrm { S t a b } ( \alpha )$. Now we use the Fenchel-Nielsen coordinates for$\mathcal { T } _ { 1 , 1 }$about α; any element$( X , \gamma ) \in \mathcal { M } _ { 1 , 1 } ^ { * }$is determined by the pair$( \ell , \tau )$ the length and the twisting parameter of X around$\gamma .$. Note that we have $\phi _ { \gamma } ( \ell , \tau ) = ( \ell , \ell + \tau )$, where$\phi _ { \gamma }$denotes a right Dehn twist around$\gamma$. Hence we have
+For any simple closed curve α on a hyperbolic once punctured torus, we have$\mathcal { M } _ { 1 , 1 } ^ { \ast } = \mathcal { T } _ { 1 , 1 } / \mathrm { S t a b } ( \alpha )$. Now we use the Fenchel-Nielsen coordinates for$\mathcal { T } _ { 1 , 1 }$about α; any element$( X , \gamma ) \in \mathcal { M } _ { 1 , 1 } ^ { * }$is determined by the pair$( \ell , \tau )$, the length and the twisting parameter of X around$\gamma$. Note that we have $\phi _ { \gamma } ( \ell , \tau ) = ( \ell , \ell + \tau )$, where$\phi _ { \gamma }$denotes a right Dehn twist around$\gamma$. Hence we have
 
 $$
 \mathcal {M} _ {1, 1} ^ {*} \cong \left\{(\ell , \tau) | 0 \leq \ell \leq \tau \right\} / (x, 0) \sim (x, x).

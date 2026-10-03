@@ -54,3 +54,24 @@
 - Luna 旧修复重核：本页 Table 1 与 Theorem 陈述当前值与印刷一致，未见旧修复引入新错误。
 - 备注：行内公式前后空格合并伪影同 p.1，通例登记。
 
+## p.003（PDF p.3 / 印刷 p.181）
+- PNG：audit-redo/p003.png（pngmono 150dpi）。
+- 核对：页顶承接段（We approach… [M]）；McShane identity 引导句；Theorem 1.2 (McShane) 陈述与
+  展示式 (1.1) $\sum_\gamma(1+e^{\ell_\gamma(X)})^{-1}=1/2$ 及求和说明；Calculation of Vol(M_{1,1}) 段；
+  $\mathcal{M}_{1,1}^*$ 定义式；$\pi:\mathcal{M}_{1,1}^*\to\mathcal{M}_{1,1}$、$\ell(X,\gamma)=\ell_\gamma(X)$；
+  (1.2) 式与 $f(x)=(1+e^x)^{-1}$；$\mathcal{M}_{1,1}^*=\mathcal{T}_{1,1}/\mathrm{Stab}(\alpha)$ 段与
+  Fenchel–Nielsen 坐标句；$\mathcal{M}_{1,1}^*\cong\{(\ell,\tau)\mid 0\le\ell\le\tau\}/(x,0)\sim(x,x)$。
+- 结果：**PASS±**（5 处偏离已修，见下）。
+- 修复登记（本 redo，证据=p.3 PNG + pdftotext 文本层）：
+  1. MD L84：印刷词为 "McShane's"（原页行末换行连字符 "Mc-/Shane's"），MinerU 误留 "Mc-Shane's" →
+     改 "McShane's"；
+  2. MD L84：印刷 "the case $g=n=1$**.** Consider"，缺句号 → 补 "."；
+  3. MD L96：印刷 "define ℓ : M*₁,₁ → **ℝ** by"（PNG 黑板粗体直证），MinerU 拍平为裸 "R" →
+     改 $\mathbb{R}$；
+  4. MD L108：印刷 "$f(x)=(1+e^x)^{-1}$**.**"，缺句号 → 补 "."；
+  5. MD L110：印刷 "determined by the pair $(\ell,\tau)$**,** the length"，缺逗号 → 补 ","；
+     同行 MinerU 双句号 "around$\gamma .$. Note"（印刷单句号）→ 改 "around$\gamma$. Note"。
+- print quirk 登记不改：无（本页印刷无异常 quirk）。
+- Luna 旧修复重核：Theorem 1.2、(1.1)/(1.2) 展示式与记号当前与印刷一致。
+- 备注：页断在 ≅ 式后，p.4 起于 "On the other hand"（MD L116）；眉头缺失与空格合并通例照登。
+
