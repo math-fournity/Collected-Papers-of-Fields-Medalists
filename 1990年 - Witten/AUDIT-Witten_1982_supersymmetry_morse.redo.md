@@ -171,3 +171,25 @@
 - PNG：`audit-redo/p032.png`（pngmono 150dpi）
 - 核对：参考文献 [18]–[22] 逐条（作者/标题/刊名/卷页/年）；文末单位署名。
 - 结果：PASS±。[18] `Wess & Zumino, Nuclear Phys. B70 (1974) 39–50`、[19] `Witten, B149 (1979) 285–320`、[20] `Kaluza-Klein, B186 (1981) 412–428`、[21] `Dynamical breaking, B188 (1981) 513–555`、[22] `Constraints on supersymmetry breaking, Preprint, Princeton University, 1982, to appear in Nuclear Phys. B` 逐项与印刷页相符；[20]–[22] 作者占位线与 [3]/[7] 同式；文末 "PRINCETON UNIVERSITY" 相符。差异仅：页眉 "692 EDWARD WITTEN" 未入 md（版面信息省略）。
+
+---
+
+## 总评、覆盖声明与修复登记（redo 收口）
+
+- **覆盖声明**：32/32 页全部重检完成（4 个分块：p.1–9 / p.10–18 / p.19–27 / p.28–32），每页一提交，subject 均为 `redo(page): [Wf-R-Witten | zcode/GLM-5.3-Flash/max配置] …`。证据量：150dpi 全页图 32 张（`audit-redo/p001.png`–`p032.png`）全部逐页目检；300dpi 裁片/整页 28 件（`audit-redo/300dpi/`）用于全部内容级终裁（Hilbert/Lie 导数/ℒ 字形、脚注下标、`Z→`、`Lef(f)`、(40) 排式、[12] 作者名等）。`pdfinfo` 实测 PDF 32 页，与 `AUDIT-INDEX` 登记一致。
+- **文本层**：`pdftotext` 可用（ABBYY OCR 层），四块均按双通道主对账执行；OCR 噪声（如 "Hubert space"）不作裁决依据，印刷页图为唯一裁决源。
+- **最终分级**：32 页均为 PASS± 或 PASS（无未修复 FAIL）。6 页初检 FAIL（p.003、p.011、p.016、p.022、p.023、p.027）全部当场以结构化 Edit 修复并复核为 PASS；其余 26 页 PASS± 的系统性差异仅为 MinerU 导出不含运行页眉/页码（版面信息省略，不误导）。
+- **Luna 旧修复重核结论**：Luna 修复登记表中全部 12 项逐一对照原页复核——p.1/p.4 `𝓗`/`𝓗₀` 系列、p.2/p.10/p.11/p.13 DocVortex 碎片清除、p.7 `O(φ³)`、p.15 `t^p`、p.17/p.21/p.22 `\mathscr{L}_K`、p.20 `H_s` 第二项、p.21 `Q_s²` 补回、p.29 `H_{s,t}` 乘积、p.31 [2] 句点，均确认正确；p.27 的 `Q₅` 恢复正确但 `𝓗` 字形变体选错（`\mathcal` 应为 `\mathscr`）。**redo 新发现并修复 Luna 漏检/误修共 6 页 24 处**（见下表），全部为字形变体类（`\mathcal`/`\mathfrak` vs 印刷 script），无数学内容错误，无整段丢失。
+- **print quirk 忠实保留清单**（均经页图核验、登记不改）：p.006 "the number of A_p^{(n)} vanish"；p.009 "which correct two critical points"；p.010 脚注 3 "As V_s interpolates … via V_x"；p.013 重定义行 "|a⟩Z→|a⟩"；p.014 em-dash 拍平；p.019 (40) 势能项 `((x_{2r-1})^2 + x_{2r})^2` 与末项求和上限 `n`、"As in §3" 交叉引用；p.023 "A slight generalizations is possible"；p.025 "σ(x) + σ(x + a)" 与 "nonlinear sigma is mathematically well-defined"；p.028 (51) "Lef(f)"（前文作 t: B → B）；p.027/p.030 斜体拍平与 Tr 记号混排（排版级）。
+- **修复登记（redo）**：修复前基线 = 本文件头部所记 MD 基线 SHA `3a661655…`（含 Luna 全部旧修复的 harvest 态，commit `3429efe70`）。每页修复随该页 `redo(page)` 提交，未另开独立 `fix(md)` 提交（redo 流程为审计—修复同一页提交，页号即可溯源；原始 mineru 产出保留于历史 commit `0b0f3dd2`，Luna 修复态保留于 `3429efe70`，可全程追溯）。
+
+| PDF 页 | redo 修复 | 页提交 |
+|---|---|---|
+| 3 | `Hilbert space` 后 `\mathcal{H}` → `\mathscr{H}` ×1 | `bde4f158` |
+| 11 | (24)(25) 左端 `\bar{\mathfrak{L}}` → `\bar{\mathcal{L}}` ×2 | `351ca550` |
+| 16 | (34) 后散文 `\mathcal{L}_K` → `\mathscr{L}_K` ×1 | `2df47ec4` |
+| 22 | `I(θ)=Tr*expθ` 后 `\mathcal{L}_{K}` → `\mathscr{L}_{K}` ×1 | `9b14b5df` |
+| 23 | (46) 内 `P=2is\mathcal{L}_K` → `\mathscr{L}_K` ×1 | `d21e1dbd` |
+| 27 | `\mathcal{H}`/`\tilde{\mathcal{H}}` → `\mathscr{H}`/`\tilde{\mathscr{H}}` ×18 | `036f5c9b` |
+- **mineru doc_id**：本次重做未重跑 MinerU，导出元数据中无 doc_id 可记（UNKNOWN）；来源链以文件头所记 PDF/MD SHA 与 git 历史（`0b0f3dd2` 原始产出 → `3429efe70` Luna 修复态 → 本 redo 各页提交）为准。
+- **移交备注处置**：前块登记的 3 项移交（line 539、line 639/643）已在本轮 p.022/p.027 仲裁并修复；无未决移交项。
