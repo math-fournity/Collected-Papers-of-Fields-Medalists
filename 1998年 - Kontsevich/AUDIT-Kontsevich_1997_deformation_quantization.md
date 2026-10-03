@@ -227,3 +227,10 @@
 - 结果：`FAIL`→6 处已修复：①行 1343 P5 的 η 列表 `$\eta_2,\mathbf{\eta}_2,\mathbf{\eta}_3,\mathbf{\eta}_4,\eta_k$`→`$\eta_2,\ldots,\eta_k$`（garbled 重复，300dpi `_p031_P5_eta.png` 确证印刷为 η₂,…,η_k）；②行 1349 `of the map . Properties`→补 `$\mathcal{U}$`（𝒰 丢失，PNG+文本层确凿）；③行 1351 `d$\mathbf{\Xi}\in\mathbf{N}$` 幻影 Ξ 已删（印刷 d∈N）；④行 1369 `$X^{coor}\longrightarrow\dot{X}$` 幻影点已删（印刷 X）；⑤行 1381 `flat connection . Denote`→补 `$\nabla$`；⑥行 1381 `The connection gives a lift`→补 `$\nabla$`（∇ 丢失×2，PNG+文本层确凿）。print quirk 忠实保留：行 1359 `which will used in 7.3`（原文缺 be）；行 1375 `(se [GK])`（原文拼写）。其余 PASS±：行 1357/1359/1369/1371/1373/1375/1379 `diferential`/`difeomorphisms`/`afine`/`Diferential`/`diference`（ff 拍平）；行 1373 `infinitedimensional` 行连字丢-；行 1359/1373 句末缺句点（登记）。公式行 1347 残缺显示式（P4 式收尾逗号在 p.30 页末，MD 空显示式）登记为版式伪影。公式行 1354/1366 与印刷逐符号吻合。
 - 备注：行 1383 起（Q-equivariant bundle、superconnection [Q]）为印刷 p.32 内容，在 p.032 核对。
 
+## p.032（PDF p.32 / 印刷 p.32）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p032.png`（pngmono 150dpi）
+- 核对：Q-equivariant bundle 段（Quillen superconnection [Q]）、flat family Definition、{point} 段、apologize 段、[Ko3] 段、§7.3/§7.3.1 headings、𝒯×𝒲⟶𝒲 与 𝒟×𝒲⟶𝒲 两平凡丛式、σ_𝒯/σ_𝒟 截面段（m_T/m_D 同态）、𝒰:𝒯⟶𝒟、Lemma（𝒰×id_𝒲 是 flat families 态射）、Proof 与 (𝒰×id_𝒲)∘σ_𝒯=σ_𝒟∈Maps(𝒲,𝒟×𝒲) 式、Taylor 系数比较段（P2/P4、T⁰(R^d)=Γ(R^d,T)）、§7.3.1.1 heading、2k+m−2=k 式（MD 行 1383–1432）。
+- 结果：`FAIL`→6 处已修复（PNG/文本层确凿）：①行 1399 §7.3.1 标题 `Flat families over`→补 `$\mathcal{W}$`（𝒲 丢失）；②行 1401 `The first bundle over  is trivial`→补 `$\mathcal{W}$`；③行 1417 `flat families over .`→补 `$\mathcal{W}$`；④行 1419 `$id\mathcal{w}$`（小写 w 错排）→`$id_{\mathcal{W}}$`；⑤行 1425 `part$\mathcal{U}_1$of maps`→补 `$\mathcal{U}$`（𝒰 丢失）；⑥行 1425 `$T^0(\dot{\mathbf{R}}^d)$` 幻影点已删（印刷 T⁰(R^d)）。print quirk 忠实保留：行 1383 `introduced Quillen`（原文缺 by）；行 1387 `the same a formal`（原文缺 as）；行 1435 `intersting`（原文拼写）。其余 PASS±：行 1407/1413/1415/1435 句末缺句点；行 1422 `\sigma_D` 正体 vs 印刷 σ_𝒟 花体（样式登记）；行 1425 `coeficients`/`diferential`（ff 拍平）。公式行 1404/1410/1422/1432 与印刷逐符号吻合。
+- 备注：行 1437 起（𝒰₂ 二次映射 ξ↦Σ∂_i(ξ^j)∂_j(ξ^i)）为印刷 p.33 内容，在 p.033 核对。
+

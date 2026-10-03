@@ -1396,9 +1396,9 @@ We refer the reader to a discussion of further examples of Q-manifolds in [Ko3].
 
 Let us return to our concrete situation. We construct in this section two flat families over ΠTX (where X is a d-dimensional manifold), and a morphism between them. This will be done in several steps.
 
-## 7.3.1. Flat families over
+## 7.3.1. Flat families over$\mathcal { W }$
 
-The first bundle over  is trivial as a Q-equivariant bundle,
+The first bundle over$\mathcal { W }$ is trivial as a Q-equivariant bundle,
 
 $$
 \mathcal {T} \times \mathcal {W} \longrightarrow \mathcal {W}
@@ -1414,15 +1414,15 @@ with the section$\sigma _ { \mathcal { D } }$coming from the homomorphism$m _ { 
 
 Formulas from 6.4 give a Q-equivariant map$\mathcal { U } : \mathcal { T } \longrightarrow \mathcal { D }$
 
-Lemma. The morphism$( \mathcal { U } \times i d _ { \mathcal { W } } ) : \mathcal { T } \times \mathcal { W } \longrightarrow \mathcal { D } \times \mathcal { W }$is a morphism of flat families over .
+Lemma. The morphism$( \mathcal { U } \times i d _ { \mathcal { W } } ) : \mathcal { T } \times \mathcal { W } \longrightarrow \mathcal { D } \times \mathcal { W }$is a morphism of flat families over$\mathcal { W }$.
 
-Proof: We have to check that$( \mathcal { U } \times i d \mathcal { w } )$maps one section to another, i.e. that
+Proof: We have to check that$( \mathcal { U } \times i d _ { \mathcal { W } } )$maps one section to another, i.e. that
 
 $$
 \left(\mathcal {U} \times i d _ {\mathcal {W}}\right) \circ \sigma_ {\mathcal {T}} = \sigma_ {D} \in M a p s (\mathcal {W}, \mathcal {D} \times \mathcal {W}).
 $$
 
-We compare Taylor coeficients. The linear part$\mathcal { U } _ { 1 }$of maps a vector field (considered as a polyvector field) to itself, considered as a diferential operator (property P2). Components$\mathcal { U } _ { k } ( \xi _ { 1 } , \dots , \xi _ { k } )$for$k \geq 2 , \ \xi _ { i } \in$ $T ^ { 0 } ( { \dot { \mathbf { R } } } ^ { d } ) = \Gamma ( { \mathbf { R } } ^ { d } , T )$vanish, which is the property$\mathrm { P 4 } . \qquad Q . E . D .$
+We compare Taylor coeficients. The linear part$\mathcal { U } _ { 1 }$of$\mathcal { U }$ maps a vector field (considered as a polyvector field) to itself, considered as a diferential operator (property P2). Components$\mathcal { U } _ { k } ( \xi _ { 1 } , \dots , \xi _ { k } )$for$k \geq 2 , \ \xi _ { i } \in$ $T ^ { 0 } ( { \mathbf { R } } ^ { d } ) = \Gamma ( { \mathbf { R } } ^ { d } , T )$vanish, which is the property$\mathrm { P 4 } . \qquad Q . E . D .$
 
 ## 7.3.1.1. Proof of the property P4
 
