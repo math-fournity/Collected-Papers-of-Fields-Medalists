@@ -285,4 +285,18 @@
 - 与 Luna 旧记录交叉：无新差异。
 - 页界：本页止于「…eine zweite Multiplizität definieren,」，次页续，衔接正确。
 
+### p.023（PDF p.23 / 印刷 p.179）
+
+- audited_at=2026-10-03 19:25 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p023.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p023_gegeben_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p023_zerlegung_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 179）、页首续句（einfache Multiplizität 定义…nur für einfach zusammenhängende Gebiete Δ bilden）、p(Δ) 定义段（n(Δ)、p(Δ_ν)、Σ₁^q p(Δ_ν) 上下限 1/q、上界 qS+kL、无第二个脚注标）、Wir betrachten 段（Ω_i/Ω_z、W′、W̄、W̄₀、脚注标 ¹ 在「besitzen.」后 ✓、Hurwitzsche Relation 特征数不少于 q−2 的倍数）、Die Zerlegung 段（Σϱ(W̄)+Σϱ(Ω_i)=Σϱ(W′),、p=−Σϱ(Ω_i)=Σϱ(W̄)+N(W′)、N₁(W̄)、p=Σϱ⁺(W̄)+N(W′)−N₁(W̄)、「Nach dem was oben gezeigt wurde」措辞照排 ✓）、页末断句「Hieraus folgt dass」、脚注 ¹（»Binnenseen« 尖引号 ✓）。
+- 发现并修复（MD 结构化 Edit，3 处含 4 字形）：
+  1. 行 574 两处 `p(\Delta_v)` → `p(\Delta_{\nu})`、行 576 一处 `\Delta_{v}` → `\Delta_{\nu}`——印刷下标 v/ν 同形不可辨（p.003 已证）；全篇 `\nu` 转写 20 处为既有主流（行 45/388/390/400/403/411/431/629/659/700 等），本段 v 为 mineru 转写不一致，按转写一致性统一为 `\nu` 并留痕，非按数学预期静默改正。
+  2. 行 578 `\varrho^+(\overline{W})` → `\stackrel {+} {\varrho}(\overline{W})`——300dpi 裁片确证加号在 ϱ 上方而非上标；与 p.018/p.019/p.020 同类加号归位，沿用全篇 `\stackrel {+} {\varrho}` 惯例（行 451/474/493）。
+- 仲裁否决（登记不改）：150dpi 初读疑「gegeben.」后有上标脚注标；300dpi 裁片显示其后无任何标记（扫描尘点），MD 无标正确。
+- 保留登记（PASS± 排版级，不修）：行 572 prose 内 Δ 以裸 Unicode 转写（非 `$\Delta$`，语义同形、转写风格差异）；Rückkehrschnitt/Insel/Zunge 等斜体丢失（系统性）；页眉未收（系统性，旧审计已登记）；脚注 ¹ 在 MD 中置于 Zerlegung 段后独立小块（mineru 既有布局惯例，非页底位置）。
+- 与 Luna 旧记录交叉：旧 p.023 判 PASS±（仅页眉缺失）；本次另发现 ϱ⁺ 加号位置与 v/ν 转写不一致两项内容级问题并已修复，其余吻合。
+- 结果：PASS±（3 处修复后与印刷一致）。
+- 页界：本页止于「…Hieraus folgt dass」（MD 行 578 吻合）+ 页底脚注 ¹；「β = N(W′)…」起为 p.024 内容。
+
 <!-- redo-tail -->
