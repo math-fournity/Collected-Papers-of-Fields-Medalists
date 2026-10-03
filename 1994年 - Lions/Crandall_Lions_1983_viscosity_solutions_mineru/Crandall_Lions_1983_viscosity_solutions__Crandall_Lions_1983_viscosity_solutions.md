@@ -156,7 +156,7 @@ $$
 F _ {l} \left(y _ {l}, u _ {l} (y _ {l}), - \frac {u _ {l} (y _ {l}) - k}{\varphi (y _ {l})} D \varphi (y _ {l})\right) \leqslant 0.\tag{1.5}
 $$
 
-Now $y_{l} \in \operatorname{supp} \varphi,^{4}$ and thus there is a subsequence $y_{l'}$ convergent to some $\bar{y} \in \mathcal{O}$. Moreover $\varphi(u - k) \leqslant \lim \max(\varphi(u_{l} - k)) = \lim \varphi(y_{l})(u_{l}(y_{l}) - k) \leqslant \varphi(\bar{y})(u(\bar{y}) - k)$ so $\bar{y} \in E_{+}(\varphi(u - k))$. Letting $l \to \infty$ through the subsequence $l'$ in (1.5) and using the assumed convergence $F_{l} \to F$ we have
+Now $y_{l} \in \operatorname{supp} \varphi,^{4}$ and thus there is a subsequence $y_{l'}$ convergent to some $\bar{y} \in \mathcal{O}$. Moreover $\varphi(u - k) \leqslant \varliminf \max(\varphi(u_{l} - k)) = \varliminf \varphi(y_{l})(u_{l}(y_{l}) - k) \leqslant \varphi(\bar{y})(u(\bar{y}) - k)$ so $\bar{y} \in E_{+}(\varphi(u - k))$. Letting $l \to \infty$ through the subsequence $l'$ in (1.5) and using the assumed convergence $F_{l} \to F$ we have
 
 $$
 F \left(\bar {y}, u (\bar {y}), - \frac {u (\bar {y}) - k}{\varphi (\bar {y})} D \varphi (\bar {y})\right) \leqslant 0.
@@ -182,9 +182,9 @@ while if $u$ is a viscosity solution both (1.6) and (1.7) hold.
 
 We prepare two lemmas. A key ingredient is the following formulation of a result of L. C. Evans [11].
 
-LEMMA I.4. Let $\varphi \in C(\mathcal{O})$ be differentiable at $y_0 \in \mathcal{O}$. Then there exist functions $\psi_{+}$ and $\psi_{-}$ such that $\psi_{\pm} \in C_c^1(\mathcal{O})$, $\psi_{\pm}(y_0) = \varphi(y_0)$, $D\psi_{\pm}(y_0) = D\varphi(y_0)$ and $\psi_{+} > \varphi$, $\psi_{-} < \varphi$ on $B(y_0, r) \setminus \{y_0\}$, for some $r > 0$.
+LEMMA I.4. Let $\varphi \in C(\mathcal{O})$ be differentiable at $y_0 \in \mathcal{O}$. Then there exist functions $\psi_{+}$ and $\psi_{-}$ such that $\psi_{\pm} \in C_c^1(\mathcal{O})$, $\psi_{\pm}(y_0) = \varphi(y_0)$, $D\psi_{\pm}(y_0) = D\varphi(y_0)$ and $\psi_{+} > \varphi$, $\psi_{-} < \varphi$ on $B(y_0, r) \setminus \{y_0\}$,$^{5}$ for some $r > 0$.
 
-PROOF OF LEMMA I.4. Replacing $\varphi$ by $\hat{\varphi}(y) = \varphi(y_0 + y) - \varphi(y_0) - D\varphi(y_0) \cdot y$, we can assume $y_0 = 0$, $\varphi(0) = 0$, and $D\varphi(0) = 0$. It suffices to exhibit $\psi_+$. By assumption, $\varphi(y) = |y| \rho(y)$ where $\rho \in C(\mathcal{O})$ and $\rho(y) \to 0$ as $|y| \to 0$. Set $\bar{\rho}(r) = \sup\{\rho(y): y \in \mathcal{O} \cap B(0, r)\}$ and
+PROOF OF LEMMA I.4. Replacing $\varphi$ by $\hat{\varphi}(y) = \varphi(y_0 + y) - \varphi(y_0) - D\varphi(y_0) \cdot y$,$^{6}$ we can assume $y_0 = 0$, $\varphi(0) = 0$, and $D\varphi(0) = 0$. It suffices to exhibit $\psi_+$. By assumption, $\varphi(y) = |y| \rho(y)$ where $\rho \in C(\mathcal{O})$ and $\rho(y) \to 0$ as $|y| \to 0$. Set $\bar{\rho}(r) = \sup\{\rho(y): y \in \mathcal{O} \cap B(0, r)\}$ and
 
 $$
 \psi_ {+} (y) = \int_ {| y |} ^ {2 | y |} \bar {\rho} (s) d s + | y | ^ {2}.

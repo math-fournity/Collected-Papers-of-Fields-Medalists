@@ -57,3 +57,10 @@
 - 核对：(1.3) 超解分支（E_- ⇒ ∃y…≥ 0）、viscosity solution 双条件定义段、F≤0/−F=0 不等价段（u(x)=|x| 例）、REMARK I.4、motivation 段、I.2 节段（𝔇(Ω)⁺、∃/∀）、Lipschitz 反例（(u_x)²−1=0 on ]−1,1[、u_max/u_min、u_n′=(−1)^j、0≤u_n≤1/2n）、In contrast 引句、THEOREM I.2 全陈述
 - 结果：**PASS±**。全部公式、编号（(1.3)）与不等号方向与印刷页相符。源级 quirk 登记：**印刷原文本即误拼 "STABLILITY"**（THEOREM I.2 题头，300dpi 裁片 + 2x 放大逐字母确证 S-T-A-B-L-I-L-I-T-Y）；MD 行 151 照录 `STABLILITY` 忠实，不改正。样式差异：印刷 Roman 标签 REMARK I.4 在 MD 行 135 拍平为 `REMARK 1.4`（同页交叉引用 §I.4 保留 Roman；该 I→1 拍平为全篇样式，统一在此登记一次，后续页不再重复展开）；行 139 $\mathfrak{D}(\Omega)^{+}$ 与 p.4 行 93 $\mathcal{D}$ 同指印刷 script 𝒟（同 p.4 登记）。「not」斜体未保留，不误导。页眉 running head 与印刷页码 5 未录入 Markdown。
 - 备注：本页无脚注；PROOF OF THEOREM I.2 自 p.6 起，页界正确。
+
+## p.006（PDF p.6 / 印刷 p.6）
+
+- PNG：audit-redo/p006.png（pngmono 150dpi）；仲裁裁片 300dpi×6：lim 行、k-bar 行、页底脚注区、Lemma I.4 C¹_c 字形、行首 ≠0 字形（2x）、sup⁵/⁶ 行（/tmp 中转，结论已录本条）
+- 核对：PROOF OF THEOREM I.2 首段、(1.5)、"Now y_l ∈ supp φ,⁴…" 段、F(ȳ,…)≤0 展示式、subsolution 收尾段、d(φ) 定义段、THEOREM I.3 与 (1.6)(1.7)、two lemmas 引句、LEMMA I.4 全陈述（C¹_c(𝒪) 字形 300dpi 确证）、PROOF OF LEMMA I.4 首段、ψ_+ 积分展示式、页底脚注 ⁴⁵⁶
+- 结果：**PASS±**。重核 Luna 旧修复：① `E_+(φ(u−k))` 去 `\bar{k}` ——300dpi 裁片证实印刷 k 上无横杠，**正确**，维持；② 孤立脚注碎片（`$^{5}B(y_0,r)$`、`$^{6}a\cdot b$`、`$y_0$`、`$a,b\in R^M$`）删除并把完整脚注 ⁴⁵⁶ 按印刷顺序排列 ——300dpi 页底裁片证实恰为 ⁴⁵⁶ 三条完整脚注，**正确**，维持。源级 quirk 登记：印刷 PROOF 首段作 `E_+(φ(u_l−k)) ≠ 0`（2x 裁片确证为数字 0 而非 ∅；与定义 (1.2) 的 `≠ ∅` 不一致属原印刷差异），MD 照录 `\neq 0` 忠实，不改；(1.6) 印刷行尾为逗号、MD 为句号，平凡标点差，不误导不改。**本次修复 3 处**：①行 159 印刷两处 lim 下方有横线（liminf 记号，300dpi 双处确证），MD 拍平为 `\lim` → 改 `\varliminf`（两处）；②行 185 Lemma I.4 行内上标 ⁵ 丢失 → 补回 `$^{5}$`（300dpi 确证 `{y_0},⁵`）；③行 187 证明首行行内上标 ⁶ 丢失 → 补回 `$^{6}$`（300dpi 确证 `y,⁶`）。样式差异：`Remark 1.4`（I→1 拍平，p.5 已登记）；(1.5)(1.6)(1.7) tag 与编号位置均正确。页眉作者行与印刷页码 6 未录入 Markdown。
+- 备注：ψ_+ 积分式 ∫_{|y|}^{2|y|} ρ̄(s)ds + |y|² 与印刷一致；"Let B̄(0,h) ⊂ 𝒪" 段自 p.7 起，页界正确。
