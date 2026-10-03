@@ -1317,7 +1317,7 @@ $$
 hence
 
 $$
-\sum_ {j = 1} ^ {J} \left| \left| \mathcal {M} _ {j} f \right| \right| _ {2} ^ {2} \leqslant C \sum_ {N \in Z _ {\xi}} \left| \left| \mathcal {F} ^ {- 1} [ (w _ {N} - \mathcal {F} (\chi_ {N ^ {d}})) \mathcal {F} f \right| \right| _ {2} ^ {2} + C J ^ {1 / 2} \left| \left| f \right| \right| _ {2} ^ {2}.\tag{6.37}
+\sum_ {j = 1} ^ {J} \left| \left| \mathcal {M} _ {j} f \right| \right| _ {2} ^ {2} \leqslant C \sum_ {N \in Z _ {\varepsilon}} \left| \left| \mathcal {F} ^ {- 1} [ (w _ {N} - \mathcal {F} (\chi_ {N ^ {d}})) \mathcal {F} f \right| \right| _ {2} ^ {2} + C J ^ {1 / 2} \left| \left| f \right| \right| _ {2} ^ {2}.\tag{6.37}
 $$
 
 This first term in (6.37) is bounded by

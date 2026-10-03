@@ -183,6 +183,13 @@
 - 结果：PASS±。全部公式与文字与原页一致；Luna 对 (6.30) 外层 $L^2$ 极大范数的旧修复经原页核验正确；源级语病 “is follows” 忠实保留。(6.36) 右端范数下标经 300dpi 放大裁决为粗体 $v_4$（非 $v_s$），与 Markdown 一致、无需修复。Markdown 未保留原页运行页眉 “JEAN BOURGAIN” 与印刷页码 28。与 Luna 旧审（p.025 FAIL→修复）已修复项一致，无新差异、无修复。
 - 时间：2026-10-02 20:26 EDT 落签
 
+## p.026（PDF p.26 / 印刷 p.29）
+- actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
+- PNG：`audit-redo/p026.png`（Ghostscript `pngmono`，150dpi；原 PDF p.26）；`audit-redo/p026_6.37_300dpi.png`（原 PDF p.26 300dpi 渲染后放大裁片，裁决 (6.37) 的求和下标与括号）。
+- 核对：(6.37) 的 $\sum_{j=1}^J\|\mathcal M_jf\|_2^2$ 链（求和集 $Z_\varepsilon$、$CJ^{1/2}\|f\|_2^2$ 收尾）；“This first term in (6.37)” quirk；(6.38) 的 $\sup_\alpha[\sum_{N\in Z_\varepsilon}|w_N(\alpha)-\widehat\chi(N^d\alpha)|^2]\|f\|_2^2<C_\varepsilon\|f\|_2^2$；(6.39) 的 $C\min(|\alpha|N^d,(|\alpha|N^d)^{-1/d})$；(6.40) 的 $C_\varepsilon J^{3/4}\|f\|_2$；$N_1\ll N_2\ll\dots\ll N_J$ 句；弱混合收尾（$\frac1N\sum_{n\leq N}z^{p(n)}\xrightarrow{N\to\infty}0$、$z\in\mathbf C_1$、countable set）；§7 标题与 (7.1)；$[\mathrm B_2]$ 的 $(p>\frac{1+\sqrt5}{2})$；(7.2)；源级 “goods bounds on $L^p$” quirk；(7.3) 的 $S(\theta)=1/q\sum_{r=0}^{q-1}e^{-2\pi ip(r)\theta}$ 与 $w_N(\beta)=\int_0^1e^{-2\pi ip(Ny)\beta}dy$。文本层 + 150dpi 原页图 + 300dpi 放大裁片三通道，对 Markdown 第 1320–1374 行（现行号）。
+- 结果：FAIL（一处，已当场修复）。(6.37) 求和下标：300dpi 放大裁片显示印刷为 $Z_\varepsilon$，Markdown 误作 $Z_\xi$，已 Edit 改正。同式括号：印刷在 $\mathcal Ff$ 后即直接接右范数线、**无闭方括号**（原页排印缺 ‘]’），Markdown 逐字对应，登记为 print quirk、不补写。其余：(6.38)–(6.40)、弱混合收尾、(7.1)–(7.3) 及 “goods bounds”、“This first term” 等源级用语均与原页一致。Markdown 未保留原页运行页眉 “POINTWISE ERGODIC THEOREMS FOR ARITHMETIC SETS” 与印刷页码 29。与 Luna 旧审（p.026 PASS±）结论不同：本页存在一处 $Z_\xi/Z_\varepsilon$ 字母级内容错误（Luna 漏检），已修复。
+- 时间：2026-10-02 20:40 EDT 落签
+
 ## p.018（PDF p.18 / 印刷 p.21）
 - actor=Wf-R-P04; host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（自报UNKNOWN）
 - PNG：`audit-redo/p018.png`（Ghostscript `pngmono`，150dpi；原 PDF p.18）；`audit-redo/p018_tree_print_300dpi.png`（原页二叉分割树 300dpi 裁片）、`audit-redo/p018_tree_mineru_source.jpg`（Markdown 所引 MinerU 源图 `images/page_17_image_16.jpg` 的本篇审计副本，SHA-256=`56b9ebd4824c8c914b3e42f7fc1d81cf5d68c435138e0c786e1f40d4a2739d43`）。
