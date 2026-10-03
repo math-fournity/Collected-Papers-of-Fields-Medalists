@@ -21,3 +21,12 @@
   - MD 第 1–19 行与印刷页逐项吻合：标题、作者、dedication（`Dmitry Ioffe` 拼写正确——Luna 旧审计称其修复过 `Iofe`，当前态正确）、摘要全文、MSC `Primary 82B20; Secondary 60K35`、Keywords、页脚 `© 2022 International Mathematical Union`、`Preliminary version, to appear in Proc. Int. Cong. Math. 2022, Vol. 1.`、`DOI 10.4171/ICM2022/204`（300dpi 仲裁确认印刷即为 `ICM2022/204`，斜杠+204，非连字符）。
   - 差异（不误导）：页脚左下 ICM 会徽内的文字 "INTERNATIONAL CONGRESS OF MATHEMATICIANS 2022 JULY 6–14" 未入 MD——属图形徽标文字，非正文内容，不影响检索与语义。
 - 备注：Luna 旧审计将 p.001 判 FAIL（称 MD 缺页脚/DOI、`Iofe` 拼写错）。当前 MD 基线已含页脚与 DOI、Ioffe 拼写正确，旧修复结果与 PDF 一致；本次无新修复。
+
+## p.002（PDF p.2 / 印刷 p.2）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p002.png（pngmono 150dpi）
+- 核对：§1 全部三段（含 breakthroughs 列举与引用 [20, 86]/[48]）、§2 与 §2.1 节标题顺序、§2.1 Curie 段前半（至 "only when an external" 跨页断点）
+- 结果：**PASS±**
+  - 节标题顺序与编号（`1. Short motivation` → `2. The first twenty years: a laborious start` → `2.1. Ising model's prehistory`）与印刷一致；三段正文逐句吻合；`769.85 degrees Celsius`、引用 `[30]`、`[20, 86]`、`[48]` 数值一致。
+  - `Kadanoff's`（MD 行 27）当前拼写与印刷一致——Luna 旧修复（`Kadanof's`→`Kadanoff's`）经原页重核**成立**。
+  - 残留伪影（登记不改，SOP PASS± 默认）：MD 行 27 `diferent`、`diferential`——印刷与文本层均为 `different`、`differential`（ff 连字被拍平成单 f，OCR 伪影，非 print quirk）；`[20,86]` 印刷为 `[20, 86]`（空格合并）；印刷页脚 running foot `2 Hugo Duminil-Copin` 未入 MD。
+- 备注：ff 拍平词会妨碍精确字符串检索，按 SOP 未批量修复；如后续统一批量处理须整篇登记。
