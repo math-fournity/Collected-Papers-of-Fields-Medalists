@@ -269,3 +269,10 @@
 - 结果：`FAIL`→5 处已修复：①行 1593 `$A_{\infty}.$-categories` 杂散句点已删；②行 1597 §8.2 标题 `Compatibility of  with cup-products`→补 `$\mathcal{U}$`（移交线索证实，PNG 确凿）；③行 1599 `The quasi-isomorphism  constructed`→补 `$\mathcal{U}$`；④行 1607 `infinitely close points on . Precisely`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）；⑤行 1619 `is non-empty if$S\supseteq\{1,2\}$`→`iff`（ff 连字吞失，PNG+文本层确凿）。其余 PASS±：行 1593 `diferentials`、行 1579/1581 附近 ff 拍平（登记）；行 1591/1595 句末缺句点；行 1623 `there is no directions`（原文如此）。公式行 1610/1616 与印刷逐符号吻合。
 - 备注：行 1625 图 page_37_image_0.jpg 与行 1627 起（This figure exactly corresponds…、§8.2.2）为印刷 p.38 内容，在 p.038 核对。
 
+## p.038（PDF p.38 / 印刷 p.38）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p038.png`（pngmono 150dpi）
+- 核对：p₁p₂ circled 图（行 1625 引 page_37_image_0.jpg 存在）、This figure corresponds 段、§8.2.2 heading、D_poly cup-product 分离点段（P_{0,1}、[(0,1)]∈C̄_{0,2}⊂C̄_{2,0}、codim 2、C_T⊆P_{0,1}、6.4.2.2 回指）、双 circled regions 图（行 1633 引 page_37_image_4.jpg 存在）、§8.2.3 heading、path form 引言段（MD 行 1625–1639）。
+- 结果：`FAIL`→1 处已修复：行 1639 `configuration of two points on  to another configuration,`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）。print quirk 忠实保留：行 1631 `we integrate of the preimage`（原文介词 of）；行 1639 `a path form one`（原文 form 误于 from）。其余 PASS±：行 1627/1631 句末缺句点、`$\overline{{C}}_{2,0} .$` 句点入式（登记）。图文对应逐项吻合。
+- 备注：行 1641 图 page_38_image_0.jpg（path 图）与行 1643 起（coinside…）为印刷 p.39 内容，在 p.039 核对。
+

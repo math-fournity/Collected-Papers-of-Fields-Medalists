@@ -1636,7 +1636,7 @@ and we get exactly the cup-product in the tangent cohomology of the Hochschild c
 
 ## 8.2.3. Homotopy between two pictures
 
-Choosing a path form one (limiting) configuration of two points on  to another configuration,
+Choosing a path form one (limiting) configuration of two points on$\mathcal { H }$ to another configuration,
 
 ![](images/page_38_image_0.jpg)
 
