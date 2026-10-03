@@ -66,3 +66,15 @@
   - 记号：`σ ∈ Z²` 构型、`E(σ)`、`{x,y}`、`σ_x ≠ σ_y` 与印刷一致。
   - 残留伪影（登记不改）：MD 行 115 `diferent`×2（印刷 `different`，ff 拍平）；行 121 `ofthe`、`ofmathematical`（空格合并，印刷 "of the physics community"、"of mathematical interest"）；行 123 `dual graph1`——印刷为脚注上标 `graph¹`（上标拍平；脚注正文不在 p.6 页面，p.007 续查）；running foot `6 Hugo Duminil-Copin` 未入 MD。
 - 备注：跨页断词 "draw" 处 MD 与印刷衔接一致；无内容错误、无新修复。
+
+## p.007（PDF p.7 / 印刷 p.7）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p007.png（pngmono 150dpi）
+- 核对：p.6 跨页续段、公式 (2.8)(2.9)、无编号不等式 `⟨I(C=C)⟩ ≤ e^{−2β|∂_e C|}`、Frame 1 标题与正文两段、脚注 1（对偶图定义）
+- 结果：**PASS±（含 2 处修复，见下）**
+  - 公式逐项吻合：(2.8) `Z(G,β,0) = Σ_{σ∈{−1,1}^V} e^{−βH_{G,h}(σ)} = e^{β|E(G)|} Σ_{F∈Even(G*)} e^{−2β|F|}.`——**print quirk 忠实保留**：左端取 h=0 而指数内印刷作 `H_{G,h}`（非 `H_{G,β,0}`），MD 原样照录不改；(2.9) `⟨σ_0σ_g⟩_{Λ_n^+,β,0} = 1 − 2 Σ_{g∉C∈Even((Λ_n^+)*)} ⟨I(C=C)⟩_{Λ_n^+,β,0}.`——随机 `C`（粗体 C）与固定 `C`（斜体）在印刷与 MD 中均有区分；`Flip_C(σ)`、`∂_e C`、`R² \ {e* : e ∈ E(σ)}` 正确。
+  - Frame 1 正文：`⟨σ_0σ_g⟩_{Λ_n^+,β,0}`、`Λ_n^+`、Griffiths "ghost" vertex、`m*(β)` 极限表述与印刷一致；印刷美式拼写 "magnetization" 忠实保留；**print quirk 忠实保留**："the fact that β large renders"（印刷原句如此）。
+  - 脚注 1（对偶图 `G* = (V*, E*)` 定义、`e ↦ e*` 双射、(1/2,1/2) 平移）完整且逐句吻合；MD 以 `<small>` 段落承载，位置在 Frame 不等式之后（对应印刷页脚位置），属布局级差异不误导。
+  - **修复 1（本页证据：PNG 中 "for large values of β, see Frame 1" 为单逗号，born-digital 文本层同）**：MD 行 129 `$\beta ,$,` → `$\beta$,`（转写时重复逗号；印刷干净，非 print quirk）。
+  - **修复 2（本页证据：PNG 中 "with exactly one endpoint in C." 为单句点，文本层同）**：MD 行 143 `$C .$.` → `$C$.`（转写时重复句点；印刷干净，非 print quirk）。
+  - 残留伪影（登记不改）：行 131 `diferent`、行 135 `suficient`、行 143 `efectively`（均 ff 拍平，印刷 `different/sufficient/effectively`）；行 135 `uniformly in$n .$`、行 137 数学跨行拆分 `{ e ^ { * } : e \in$ $E ( \sigma ) \}`（排版级）；行 123 `dual graph1` 脚注上标拍平（脚注正文已入 MD 行 149）；running foot `7 100 Years of the Ising Model` 未入 MD。
+- 备注：Luna 总评登记的 p.7 "the fact that β large renders" print quirk 重核属实；本次修复仅消除双标点转写错误，未触碰任何 print quirk。

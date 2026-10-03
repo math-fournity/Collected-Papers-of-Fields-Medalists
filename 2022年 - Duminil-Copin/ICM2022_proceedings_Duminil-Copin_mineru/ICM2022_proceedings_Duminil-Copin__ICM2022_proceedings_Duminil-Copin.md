@@ -126,7 +126,7 @@ $$
 Z (G, \beta , 0) = \sum_ {\sigma \in \{- 1, 1 \} ^ {V}} e ^ {- \beta H _ {G, h} (\sigma)} = e ^ {\beta | E (G) |} \sum_ {F \in \operatorname{Even} (G ^ {*})} e ^ {- 2 \beta | F |}.\tag{2.8}
 $$
 
-This formula immediately highlights the fact that $\beta$ large renders configurations$F \in \operatorname { E v e n } ( G ^ { * } )$ with large loops unlikely. Building on this observation, Peierls was able to obtain that $m ^ { * } ( \beta ) > 0$for large values of$\beta ,$, see Frame 1 for more details.
+This formula immediately highlights the fact that $\beta$ large renders configurations$F \in \operatorname { E v e n } ( G ^ { * } )$ with large loops unlikely. Building on this observation, Peierls was able to obtain that $m ^ { * } ( \beta ) > 0$for large values of$\beta$, see Frame 1 for more details.
 
 The idea to introduce a model of “domain walls” separating the diferent phases (here pure +1 and pure −1) from each other is not restricted to the Ising model: it has been very fruitful to prove the existence of phase transitions, and Peierls’ argument is now one of the most famous and robust arguments in statistical physics.
 
@@ -140,7 +140,7 @@ $$
 \langle \sigma_ {0} \sigma_ {\mathbf {g}} \rangle_ {\Lambda_ {n} ^ {+}, \beta , 0} = 1 - 2 \sum_ {\mathbf {g} \notin C \in \mathrm{Even} ((\Lambda_ {n} ^ {+}) ^ {*})} \langle \mathbb {I} (\mathbf {C} = C) \rangle_ {\Lambda_ {n} ^ {+}, \beta , 0}.\tag{2.9}
 $$
 
-Now things become interesting. For every$C \ \not \ni \ \mathbf { g } ,$consider the configuration$\operatorname { F l i p } _ { C } ( \sigma )$ obtained from$\sigma$by flipping the values of the spins inside $C$. This efectively corresponds to removing the set$\partial _ { e } C$of edges in$E ( \sigma )$with exactly one endpoint in$C .$. Taking into account the cost of this operation leads to
+Now things become interesting. For every$C \ \not \ni \ \mathbf { g } ,$consider the configuration$\operatorname { F l i p } _ { C } ( \sigma )$ obtained from$\sigma$by flipping the values of the spins inside $C$. This efectively corresponds to removing the set$\partial _ { e } C$of edges in$E ( \sigma )$with exactly one endpoint in$C$. Taking into account the cost of this operation leads to
 
 $$
 \langle \mathbb {I} (\mathbf {C} = C) \rangle_ {\Lambda_ {n} ^ {+}, \beta , 0} \leq e ^ {- 2 \beta | \partial_ {e} C |}
