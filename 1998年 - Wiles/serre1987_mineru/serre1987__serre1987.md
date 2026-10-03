@@ -1763,9 +1763,9 @@ tion $\rho_{f}$ associée à $f$ est isomorphe à $\rho^{K}$; toutefois, une dé
 
 Le cas D > 0 est plus étonnant: on ne voit a priori aucun moyen de rattacher  $\rho^{K}$  à une quelconque forme modulaire.
 
-5.3. Exemples provenant de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{S}}_{4}$. Le groupe $\mathbf{PGL}_{2}(\mathbf{F}_{3})$ agit sur la droite projective $\mathbf{P}_{1}(\mathbf{F}_{3})$, qui a 4 points, et cela définit un isomorphisme $\mathbf{PGL}_{2}(\mathbf{F}_{3}) \simeq \mathfrak{S}_{4}$. Comme le noyau de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \to \mathbf{PGL}_{2}(\mathbf{F}_{3})$ est $\{\pm 1\}$, on en conclut que $\mathbf{GL}_{2}(\mathbf{F}_{3})$ est une extension centrale de degré 2 de $\mathfrak{S}_{4}$; en fait, c'est l'extension notée $\tilde{\mathfrak{S}}_{4}$ dans [46], n° 1.5.
+5.3. Exemples provenant de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{T}}_{4}$. Le groupe $\mathbf{PGL}_{2}(\mathbf{F}_{3})$ agit sur la droite projective $\mathbf{P}_{1}(\mathbf{F}_{3})$, qui a 4 points, et cela définit un isomorphisme $\mathbf{PGL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{T}}_{4}$. Comme le noyau de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \to \mathbf{PGL}_{2}(\mathbf{F}_{3})$ est $\{\pm 1\}$, on en conclut que $\mathbf{GL}_{2}(\mathbf{F}_{3})$ est une extension centrale de degré 2 de $\tilde{\mathfrak{T}}_{4}$; en fait, c'est l'extension notée $\tilde{\mathfrak{T}}_{4}$ dans [46], n° 1.5.
 
-Il est bien connu que $\widetilde{\mathfrak{S}}_{4}$ peut se plonger dans $\mathbf{GL}_{2}(\mathbf{Z}[\sqrt{-2}])$, et que ce plongement donne par réduction (mod 3) l'isomorphisme $\widetilde{\mathfrak{S}}_{4} \simeq \mathbf{GL}_{2}(\mathbf{F}_{3})$ ci-dessus. Ceci permet d'associer à toute représentation
+Il est bien connu que $\widetilde{\mathfrak{T}}_{4}$ peut se plonger dans $\mathbf{GL}_{2}(\mathbf{Z}[\sqrt{-2}])$, et que ce plongement donne par réduction (mod 3) l'isomorphisme $\widetilde{\mathfrak{T}}_{4} \simeq \mathbf{GL}_{2}(\mathbf{F}_{3})$ ci-dessus. Ceci permet d'associer à toute représentation
 
 $$
 \rho \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {3}),

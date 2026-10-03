@@ -345,3 +345,11 @@
 - 核对：réduction en caractéristique 2 段（Ind(ψ) ≃ ρ^K、(ii₂)/(ii₃)、2^M N、F′ poids 1、thêta indéfinies 括注）、Remarque（ρ_p: G_Q → GL₂(F̄ₚ), p ≠ 2、PGL₂(F̄ₚ)、diédral、(3.2.3?)）、5.2 节标题（SL₂(F₄) ≃ 𝔄₅）、𝔄₅/SL₂(F₄) 段、ρ^K: G_Q → GL₂(F₄) 式、det ρ^K = 1、“méthode des graphes” ([30],[31]) 句、D 定义句、数值表（−2083/2083、−2707/2707、−3203/3203、−3547/3547、−4027/4027、2³887/887、8311/8311、2²8447/8447、13613/13613、2²24077/24077）、Buhler [7] p. 136-141 与 [31] n° 4.2 句、Remarques (1) 句首（F₄/F₁₆、U₂, T₃, T₅）。
 - 结果：FAIL。两处已依原图修复：正文 “le groupe alterné 𝔄₅. Comme 𝔄₅ est isomorphe…” 在 Markdown 两处写成普通斜体 $A_{5}$（与 5.2 标题的 \mathfrak{A}_5 体例不一；同 p.039 𝔖₃ 类问题），修为 $\mathfrak{A}_{5}$。其余文字与表格逐格吻合。
 - 备注：印刷 “Ind(ψ) ≃ ρ^K” 的连接号经 300 dpi 裁片确认为 ≃，Markdown \simeq 一致（150 dpi “=” 判读排除）；表格 markdown 格式逐格一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 219” 未收入 Markdown，排版级。印刷页止于 “…que la représenta-”，Remarques (1) 余部属印刷 p.220。
+
+## p.042（PDF p.42 / 印刷 p.220）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p042.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p042_tet_glyph.png`（pnggray）。
+- 核对：Remarques (1) 余部（ρ_f ≃ ρ^K、travail considérable）、(2)（𝔄₅ 中心扩张、PGL₂(C)、Tate [45] §6、Artin conjecture、F poids 1、ρ_f ≃ ρ^K、(3.2.3?)）、D > 0 句、5.3 节标题与正文（PGL₂(F₃)/P₁(F₃)、{±1} noyau、extension centrale degré 2、[46] n° 1.5、GL₂(Z[√−2]) plongement、ρ: G_Q → GL₂(F₃)、ρ₀: G_Q → GL₂(Z[√−2]) ⊂ GL₂(C)、Langlands [26]/Tunnell [53]、3^m N₀、N₀ premier à 3）、PROPOSITION 11、ε 括注、(3.2.3?)、Remarque（N = ∏_{l≠3} l^{n(l)}、N₀ = ∏_{l≠3} l^{n₀(l)}）。
+- 结果：FAIL。六处已依原图修复：5.3 节群记号印刷为 fraktur 𝔗̃₄（300 dpi 裁片确认花体 T 带 tilde，标题与正文各处均带 tilde），Markdown 全部写成 fraktur S 系（\tilde{\mathfrak{S}}_{4}/\mathfrak{S}_{4}/\widetilde{\mathfrak{S}}_{4}），已统一修为 \tilde{\mathfrak{T}}_{4}/\widetilde{\mathfrak{T}}_{4}。其余文字与公式逐项吻合。
+- 备注：Remarques (2) 的 \mathfrak{A}_5 与印刷一致；同构号均为 ≃ 与全文一致；页眉 “220 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…l^{n₀(l)},” 式，(5.3.1) 属印刷 p.221。
