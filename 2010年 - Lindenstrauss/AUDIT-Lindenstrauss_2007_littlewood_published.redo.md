@@ -130,3 +130,24 @@
   与印刷吻合。
 
 ---
+
+## p.006（PDF p.6 / 印刷 p.518）
+
+- PNG：audit-redo/p006.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：conditional measures 段、positive entropy/δ-measure 段、Weyl chamber 附加假设段（weak\*
+  limits）、two new methods 过渡、first method [3] 段（ℝ-split、all one-parameter groups、Haar、
+  nonsplit [4]、Hausdorff dimension at most 1）、third author [20]/Host [9] 段。
+- 结果：**PASS±**
+- 差异列表（均排版级，登记不改）：
+  1. 缺运行头「518 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS」（系统性）。
+  2. 黑板体拍平：印刷「general **ℝ**-split semisimple Lie groups」与页末「Let A be an **ℝ**-split」，
+     MD 两处作 `R-split`（第 117、119 行）；MinerU 已知伪影，语义不变。
+  3. 行内数学紧排（如 `$m ,$n` 跨字合并），排版级。
+- print quirk 忠实保留：印刷作「two commuting hyperbolic automorphisms of the **three torus**」
+  （非 three-dimensional torus），MD 第 111 行同为 `the three torus`，一致。
+- 其余核对：Lyapunov exponents、δ-measure supported on a single point、if the flow along every
+  singular direction … is ergodic、entropies of μ with respect to all one-parameter groups → Haar
+  measure、Γ=SL(k,ℤ)/every discrete subgroup Γ、[4]、quantum unique ergodicity conjecture [20]、
+  Host [9] 逐句与印刷吻合。本页 MD 无需修改。
+
+---
