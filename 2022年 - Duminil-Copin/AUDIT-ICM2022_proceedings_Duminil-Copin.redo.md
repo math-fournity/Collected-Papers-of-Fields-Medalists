@@ -57,3 +57,12 @@
   - 记号：`Λ_n := [−n,n]^d ∩ Z^d`、`f(β,h) := −(1/β) lim_{n→∞} (1/|Λ_n|) ln Z(Λ_n,β,h)`、`m(β,h) := −∂/∂h f(β,h)`、`m*(β) := lim_{h↘0} m(β,h)` 全部与印刷一致；`[63]` 引用号正确；"a semi-classical version of Heisenberg model"（印刷即无 the）忠实保留。
   - 残留伪影（登记不改）：MD 行 81 `called thefree energy`、`define thefree energy`（两处空格合并，印刷为 "the free energy"）；行 101 `$m ^ { * } ( \beta ) =$ 0` 行内空格排版；running foot `5 100 Years of the Ising Model` 未入 MD。
 - 备注：Luna 总评登记的 (2.4) print quirk 经本页双通道重核属实且 MD 处置正确；无内容错误、无新修复。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p006.png（pngmono 150dpi）
+- 核对：§2.3 续段（Heisenberg 对比结尾、Tamman/Bragg-Williams/Bethe、Fowler、Peierls 三段）、§2.4 节标题、§2.4 首段与 Peierls argument 开头（至 "one may draw" 跨页断点）
+- 结果：**PASS±**
+  - 正文逐句吻合：1919/1935/1936 年份、`[19]`/`[90]` 引用号、`Gustav Tamman`、`Bragg-Williams model`、`cooperative phenomena` 正确；印刷 "a statistical mechanics's argument"（原作者笔法）忠实保留。
+  - 记号：`σ ∈ Z²` 构型、`E(σ)`、`{x,y}`、`σ_x ≠ σ_y` 与印刷一致。
+  - 残留伪影（登记不改）：MD 行 115 `diferent`×2（印刷 `different`，ff 拍平）；行 121 `ofthe`、`ofmathematical`（空格合并，印刷 "of the physics community"、"of mathematical interest"）；行 123 `dual graph1`——印刷为脚注上标 `graph¹`（上标拍平；脚注正文不在 p.6 页面，p.007 续查）；running foot `6 Hugo Duminil-Copin` 未入 MD。
+- 备注：跨页断词 "draw" 处 MD 与印刷衔接一致；无内容错误、无新修复。
