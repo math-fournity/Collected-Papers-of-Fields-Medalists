@@ -384,3 +384,15 @@
   6. **控制字节登记**：行 983（\x04，"By definition, Φ is"）、行 987（\x0b，"A_* has no ϖ-torsion"）、行 991（\x04，"Next, Φ is surjective"）——登记待字节级修复
   7. K^{°a}-Perf≅K-Perf 段"propositions.-"→".□"；Prop 5.8 Proof"bounded.-"→".□"（QED，print 有 tombstone）（p.275 两行）
 - 备注：Lemma 5.6 display 与 Proof 主体、z 构造段均与 print 一致；Prop 5.9 陈述正确；行 1003 起（Prop 5.9 证明）属印刷 p.276，留待 p.032。
+## p.032（PDF p.32 / 印刷 p.276）
+- PNG：audit/p032.png（pngmono 150dpi）
+- 核对：页眉 276/PETER SCHOLZE；Prop 5.9 证明（x^♭ powerbounded、Φ:R°/ϖ→R°/ϖ 满射、R°/ϖ^{1/p}≅R°/ϖ、successive approximation、QED □）；Theorem 5.2 收尾段；Theorem 5.10（A↦Ā=A/ϖ 等价）；cotangent complex 回顾（Quillen [29]、Illusie [23,24]、L_{S/R}∈D^{≤0}(S)、Ω¹_{S/R}、triangle display、short exact sequence display、Dold-Kan、S_• resolution、Ω¹_{S•/R}⊗_{S•}S、smooth 情形）；I²=0 变形问题设定
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 4 条，以原图为准）：
+  1. char p 段与 Prop 5.9："characteristic$\beta,$"×2→"$p$,；ofcharacteristic/set ofpowerbounded/ifand only ifR"补空格（p.276 两行）
+  2. Prop 5.9 证明："as an element x is powerbounded if and only if$\chi^{\boldsymbol\rho}$is powerbounded"→"if and only if$x^\flat$is powerbounded"（print 为 x^♭，χ/ρ 系 x/♭ 误读，PNG 确认）；"Φ:R°/ϖ␣R°/ϖ"缺箭头→→（p.276 Proof 行原图）
+  3. "$\mathrm R^\circ/\varpi^{1/\beta}$"→"$\varpi^{1/p}$"；"that R is perfect.-"→".□"（p.276 Proof 段）
+  4. **控制字节登记**：行 1007 一处 \x04（"by Proposition 5.5, \x04 induces"=Φ 丢失）——登记待字节级修复（\x04→$\Phi$）
+  5. Dold-Kan 段："resolution S_• ofthe R-algebra"→of the；"simplicial S-module Ω¹_{S•/R}⊗_{S•} S"句末补句点（p.276 Let us briefly recall 段）
+  6. smooth 段："if$\mathrm R␣\mathrm S$is a smooth morphism"缺箭头→→（p.276 Just as 段）
+  7. I²=0 段："$\mathrm{~I~C~R~}$"伪 C→$\mathrm I\subset\mathrm R$；"flat$\mathrm R_0=\mathrm R/\mathrm I\mathrm{-algebra}$$\mathrm S_0$"散字合并→"flat$\mathrm R_0=\mathrm R/\mathrm I$-algebra$\mathrm S_0$"（p.276 Specifically 段原图）
+- 备注：triangle/short exact sequence 两个 display 与 print 一致；Theorem 5.11 起行 1033 属印刷 p.277，留待 p.033。

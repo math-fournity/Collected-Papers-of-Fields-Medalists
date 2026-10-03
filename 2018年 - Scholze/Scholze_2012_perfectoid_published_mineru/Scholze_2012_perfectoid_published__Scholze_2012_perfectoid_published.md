@@ -998,13 +998,13 @@ Proposition 5.8. — Let R be a perfectoid K-algebra. Then R is reduced.
 
 Proof. — Assume$0 \neq x \in \mathbf { R }$is nilpotent. Then$\mathrm { K } x \subset \mathrm { R } ^ { \circ }$, contradicting the condition that$\mathrm { R } ^ { \circ }$is bounded.□
 
-If K has characteristic$\beta ,$being perfectoid is basically the same as being perfect.
+If K has characteristic$p$, being perfectoid is basically the same as being perfect.
 
-Proposition 5.9. — Let K be ofcharacteristic$\beta ,$and let R be a Banach K-algebra such that the set ofpowerbounded elements$\mathrm { R } ^ { \circ } \subset \mathrm { R }$is open and bounded. Then R is perfectoid ifand only ifR is perfect.
+Proposition 5.9. — Let K be of characteristic$p$, and let R be a Banach K-algebra such that the set of powerbounded elements$\mathrm { R } ^ { \circ } \subset \mathrm { R }$is open and bounded. Then R is perfectoid if and only if R is perfect.
 
-Proof. — Assume R is perfect. Then also$\mathrm { R } ^ { \circ }$is perfect, as an element x is powerbounded if and only if$\chi ^ { \boldsymbol { \rho } }$is powerbounded. In particular,$\Phi : \mathrm { R } ^ { \circ } / \varpi  \mathrm { R } ^ { \circ } / \varpi$is surjective.
+Proof. — Assume R is perfect. Then also$\mathrm { R } ^ { \circ }$is perfect, as an element x is powerbounded if and only if$x ^ { \flat }$is powerbounded. In particular,$\Phi : \mathrm { R } ^ { \circ } / \varpi \to \mathrm { R } ^ { \circ } / \varpi$is surjective.
 
-Now assume that R is perfectoid, hence by Proposition 5.5,  induces an isomorphism$\mathrm { R } ^ { \circ } / \varpi ^ { \frac { 1 } { \beta } } \cong \mathrm { R } ^ { \circ } / \varpi$. By successive approximation, we see that$\mathrm { R } ^ { \circ }$is perfect, and then that R is perfect.-
+Now assume that R is perfectoid, hence by Proposition 5.5,  induces an isomorphism$\mathrm { R } ^ { \circ } / \varpi ^ { \frac { 1 } { p } } \cong \mathrm { R } ^ { \circ } / \varpi$. By successive approximation, we see that$\mathrm { R } ^ { \circ }$is perfect, and then that R is perfect.□
 
 In order to finish the proof of Theorem 5.2, it suffices to prove the following result.
 
@@ -1024,11 +1024,11 @@ $$
 \mathrm{T} \otimes_ {\mathrm{S}} \Omega_ {\mathrm{S/R}} ^ {1} \to \Omega_ {\mathrm{T/R}} ^ {1} \to \Omega_ {\mathrm{T/S}} ^ {1} \to 0.
 $$
 
-Let us briefly recall the construction. First, one uses the Dold-Kan equivalence to reinterpret$\mathrm { D } ^ { \leq 0 } ( \mathrm { S } )$as the category of simplicial S-modules modulo weak equivalence. Now one takes a simplicial resolution$\mathrm { S } _ { \bullet }$ofthe R-algebra S by free R-algebras. Then one defines$\mathbf { L } _ { \mathrm { S / R } }$as the object of$\mathrm { D } ^ { \leq 0 } ( \mathrm { S } )$associated to the simplicial S-module$\Omega _ { \mathrm { S } _ { \bullet } / \mathrm { R } } ^ { 1 } \otimes _ { \mathrm { S } _ { \bullet } } \mathrm { S }$
+Let us briefly recall the construction. First, one uses the Dold-Kan equivalence to reinterpret$\mathrm { D } ^ { \leq 0 } ( \mathrm { S } )$as the category of simplicial S-modules modulo weak equivalence. Now one takes a simplicial resolution$\mathrm { S } _ { \bullet }$of the R-algebra S by free R-algebras. Then one defines$\mathbf { L } _ { \mathrm { S / R } }$as the object of$\mathrm { D } ^ { \leq 0 } ( \mathrm { S } )$associated to the simplicial S-module$\Omega _ { \mathrm { S } _ { \bullet } / \mathrm { R } } ^ { 1 } \otimes _ { \mathrm { S } _ { \bullet } } \mathrm { S }$.
 
-Just as under certain favorable assumptions, one can describe many deformation problems in terms of tangent or normal bundles, it turns out that in complete generality, one can describe them via the cotangent complex. In special cases, this gives back the classical results, as e.g. if$\mathrm { R }  \mathrm { S }$is a smooth morphism, then$\mathbf { L } _ { \mathrm { S / R } }$is concentrated in degree 0, and is given by the cotangent bundle.
+Just as under certain favorable assumptions, one can describe many deformation problems in terms of tangent or normal bundles, it turns out that in complete generality, one can describe them via the cotangent complex. In special cases, this gives back the classical results, as e.g. if$\mathrm { R } \to \mathrm { S }$is a smooth morphism, then$\mathbf { L } _ { \mathrm { S / R } }$is concentrated in degree 0, and is given by the cotangent bundle.
 
-Specifically, we will need the following results. Fix some ring R with an ideal$\mathrm { ~ I ~ C ~ R ~ }$ such that$\mathrm { { I } ^ { 2 } = 0 }$. Moreover, fix a flat$\mathrm { R _ { 0 } } = \mathrm { R } / \mathrm { I } \mathrm { - a l g e b r a }$$\mathrm { S } _ { 0 }$. We are interested in the obstruction towards deforming$\mathrm { S } _ { 0 }$to a flat R-algebra S.
+Specifically, we will need the following results. Fix some ring R with an ideal$\mathrm { I } \subset \mathrm { R }$ such that$\mathrm { { I } ^ { 2 } = 0 }$. Moreover, fix a flat$\mathrm { R } _ { 0 } = \mathrm { R } / \mathrm { I }$-algebra$\mathrm { S } _ { 0 }$. We are interested in the obstruction towards deforming$\mathrm { S } _ { 0 }$to a flat R-algebra S.
 
 Theorem 5.11 ([23, III.2.1.2.3], [15, Proposition 3.2.9]). — There is an obstruction class in$\mathrm { E x t ^ { 2 } ( { \bf L } _ { S _ { 0 } / R _ { 0 } } , S _ { 0 } \otimes _ { R _ { 0 } } I ) }$which vanishes precisely when there exists a flat R-algebra S such that $\mathrm { ~ S ~ } \otimes _ { \mathrm { R } } \mathrm { ~ R _ { 0 } = S _ { 0 } ~ }$. If there exists such a deformation, then the set of all isomorphism classes of such deformationsforms a torsor under$\mathrm { E x t } ^ { 1 } ( \mathbf { L } _ { \mathrm { S _ { 0 } / R _ { 0 } } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R _ { 0 } } } \mathbf { I } )$, and every deformation has automorphism group$\mathrm { H o m } ( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$
 
