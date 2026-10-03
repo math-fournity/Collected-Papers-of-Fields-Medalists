@@ -894,7 +894,7 @@ $$
 
 Define $\hat{A} = \chi_{\lambda}^{*}(A)$, and let the induced metric on $(r / \lambda)B^{4}$ be $\lambda^2\hat{m}$; so as in Theorem 13, $\hat{m}$ tends to the Euclidean metric as $\lambda \to 0$, uniformly with all its derivatives on bounded regions in $\mathbf{R}^4$.
 
-Theorem 16. (i) On each bounded region of $\mathbf{R}^4$, $\hat{A} \to I_{0,1}$, uniformly in $C^\infty$ for $[A] \in \mathfrak{M}$, as $\lambda(A) \to 0$.
+Theorem 16. (i) On each bounded region of $\mathbf{R}^4$, $\hat{A} \to I_{0,1}$, uniformly in $C^\infty$ for $[A] \in \mathscr{M}$, as $\lambda(A) \to 0$.
 
 (ii) There is a function $\delta(r)$ tending to zero as $r \to 0$ such that the curvature densities satisfy a bound:
 

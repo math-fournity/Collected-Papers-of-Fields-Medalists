@@ -256,3 +256,14 @@
   - **修复×3**：行 845 "the moduli space M"、行 848 显示式目标 `\mathfrak{M}`、行 851 "an open subset of M"——300dpi 裁片确认三处印刷均为**圆弧草书 ℳ**（同 p.008 行 297 "the moduli space ℳ" 字形；非本文 Fraktur 𝔐_{λ₀} 的角状字形）→ 分别 Edit 为 `$\mathscr{M}$`、`\mathscr{M}`、`$\mathscr{M}$`（行 848 的 Fraktur 系 Luna 误标，另两处系拍平）。后文 X×(0,λ₀)→ℳ 语境继续沿用此规则。
   - 排版级伪影（登记不改）：**Definition 15.** 粗体与斜体引言拍平；"Taubes construction" 印刷无所有格 's，md 忠实保留。
 - 修复登记：行 845 `M`→`$\mathscr{M}$`；行 848 `\mathfrak{M}`→`\mathscr{M}`；行 851 `M`→`$\mathscr{M}$`（依据 `audit-redo/p022.png` + 300dpi 三字形裁片）。
+
+### p.023（PDF p.23 / 印刷 p.301）
+
+- PNG：`audit-redo/p023.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（Theorem 16(i) 的 M 字形、行 887 的 μ、行 915 "possibly"，结论记于本条）
+- 核对：λ(A) 释义段（含 [A_i]∈μ 句）；conformal chart 段与 χ_λ:(r/λ)B⁴⊂R⁴→B(x,r)⊂X 式；Â=χ*_λ(A) 与 λ²m̂ 段；Theorem 16 (i)(ii) 全文与曲率界显示式 |F(Â(y))|⩽const.|y|^{-4+δ}；Note 段；Proof (i)（∫_{R⁴}|F(Â)|²dμ⩽8π² 式、m̂_i 收敛论证段、λ(Â_i)=1 正规化句、§I.4 引用）；possibly 句；(ii) Appendix 引导句
+- 结果：**PASS±**（含一处草书 ℳ 误作 Fraktur 修复）。
+  - 与页图一致：`\chi_\lambda\colon(r/\lambda)B^4\subset\mathbf{R}^4\to B(x,r)\subset X`、`\hat A=\chi_\lambda^*(A)`、`\lambda^2\hat m`（hat 在 m 上）、`|F(\hat A(y))|\leqslant\mathrm{const.}|y|^{-4+\delta},\ y\in\mathbf{R}^4,\ |y|\leqslant\frac12 r\lambda^{-1}`、`\int_{\mathbf{R}^4}|F(\hat A)|^2d\mu\leqslant 8\pi^2`、`\lambda(\hat A_i)=1`、`§I.4`/`§III.4` 罗马 I。
+  - **修复×1**：行 897 Theorem 16(i) `$[A]\in\mathfrak{M}$` → `$\mathscr{M}$`——300dpi 确认印刷为圆弧草书 ℳ（同 p.022 字形规则）。
+  - **印刷 quirk 登记（不改，300dpi 确认）**：① 行 887 `[A_{i}]\in\mu`——印刷确为小写希腊 μ（语义应为 𝔐，同 p.16 μ^σ 类误植），md 忠实保留；② 行 915 "for every possibly subsequence"（possible 之排印笔误，印刷原样），md 忠实保留。
+  - 排版级伪影（登记不改）：**Theorem 16.**/**Note.**/*Proof.* 粗斜体拍平。
+- 修复登记：行 897 `\mathfrak{M}`→`\mathscr{M}`（依据 `audit-redo/p023.png` + 300dpi 裁片）。
