@@ -263,3 +263,10 @@
 - 印刷原文 quirk：L1158 印刷即 "Eichler order of level p^{+1} (or "level 1," in this local context)"——上标为加号（数学预期 p⁻¹；300 dpi 放大确证 +1 为印刷原样），MD 忠实保留不改。
 - 备注：Q_p/Z_p/T_p/V_p 印刷粗体（weight 拍平登记）；页界至 L1161 显示式，其后 L1164 起属 p.033。
 - 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.033（PDF p.33 / 印刷 p.462）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:50 -0400。
+- PNG：`audit/ribet1990_p033.png`（pngmono，150 dpi）。
+- 核对：S=End(E₀,C_p) 结论；双射 ι: Σ(Mp)→ℰ、λ: Σ(M)→𝒱；T′(E)/pM·T(E) cyclic、V(E₀)=T(E₀)⊗Q、T(E)=g⁻¹T(E₀)、T′(E)=g⁻¹T′(E₀)；ℰ=S_f*\H_f*/H*、(3.3)、g⁻¹ vs g^{+1}（印刷原样 +1）、□；α,β: ℰ⇒𝒱 与 Σ(Mp)⇒Σ(M) 对照；Proposition 4.8（λα=αι、λβ=βι）与 Proof（T(F)/T′(E) cyclic of order M、m=diag(1,p) idele、M(2,Z_p)、m⁻¹T′(E₀)/mT(E₀)、x=m⁻¹g、β 兼容、α trivial、□）✓ 全部与印刷一致。
+- 备注：F̄_q、H_f* 等印刷粗体（weight 拍平登记）；两处 □ 惯例不录。
+- 结果：PASS。
