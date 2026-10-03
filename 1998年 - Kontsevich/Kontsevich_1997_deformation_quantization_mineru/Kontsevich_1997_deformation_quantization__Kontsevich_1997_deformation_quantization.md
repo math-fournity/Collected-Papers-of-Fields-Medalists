@@ -1778,11 +1778,11 @@ and the$\Lambda { \mathrm { - g r a p h } }$(which gives 0 by symmetry reasons):
 
 ![](images/page_42_image_0.jpg)
 
-The typical total picture is something like (with$m = 1 0 )$
+The typical total picture is something like (with$m = 1 0 )$:
 
 ![](images/page_42_image_2.jpg)
 
-Again, it is clear from all this that the operator$I _ { a l g } \circ I _ { P B W }$is a diferential operator with constant coeficients on$S y m ( \mathbf { g } )$, equal to the exponent of the sum of operators corresponding to individual wheels These operators are again proportional to operators associated with power series on g
+Again, it is clear from all this that the operator$I _ { a l g } \circ I _ { P B W }$is a diferential operator with constant coeficients on$S y m ( \mathbf { g } )$, equal to the exponent of the sum of operators corresponding to individual wheels. These operators are again proportional to operators associated with power series on g
 
 $$
 \gamma \longrightarrow T r a c e (a d (\gamma) ^ {n}).
@@ -1792,7 +1792,7 @@ By the same symmetry reasons as above we see that integrals corresponding to odd
 
 ## 8.3.4. Comparison with the Duflo-Kirillov isomorphism
 
-For the case of semi-simple g there is so called Harish-Chandra isomorphism between algebras$\mathbf { \xi } ( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$ and Center( g). A. Kirillov realized that there is a way to rewrite the Harish-Chandra isomorphism in a form which has sense for arbitrary finite-dimensional Lie algebra, i.e. without using the Cartan and Borel subalgebras, the Weyl group etc. Later M. Duflo (see [D]) proved that the map proposed by Kirillov is an isomorphism for all finite-dimensional Lie algebras.
+For the case of semi-simple g there is so called Harish-Chandra isomorphism between algebras$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$ and Center($\mathcal { U } \mathbf { g }$). A. Kirillov realized that there is a way to rewrite the Harish-Chandra isomorphism in a form which has sense for arbitrary finite-dimensional Lie algebra, i.e. without using the Cartan and Borel subalgebras, the Weyl group etc. Later M. Duflo (see [D]) proved that the map proposed by Kirillov is an isomorphism for all finite-dimensional Lie algebras.
 
 The explicit formula for the Duflo-Kirillov isomorphism is the following:
 

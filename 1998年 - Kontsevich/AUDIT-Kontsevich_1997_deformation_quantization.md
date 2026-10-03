@@ -304,3 +304,10 @@
 - 结果：`FAIL`→2 处已修复：①行 1757 `the polynomial γ Trace$(ad(\gamma)^n)$on g`→`the polynomial$\gamma\mapsto Trace(ad(\gamma)^n)$on g`（↦ 丢失，PNG "γ 7→ Trace" 确凿）；②行 1764 `(n\mathrm{copiesof}\gamma)`→`(n\text{ copies of }\gamma)`（粘排，PNG+文本层确凿）。其余 PASS±：行 1757 `diferential`/`coeficients`（ff 拍平）；行 1761/1767 样式差异（登记）。print quirk 忠实保留：行 1769 `(i.e. for the taking mean value`（原文 for the taking）；`is valid operation`（原文缺 a）。公式行 1764/1774 与印刷逐符号吻合。行 1779 图 page_42_image_0.jpg（Λ-graph）为印刷 p.43 顶部内容，归 p.043 核对。
 - 备注：行 1779 起图与行 1781 起（typical picture、m=10）为印刷 p.43 内容，在 p.043 核对。
 
+## p.043（PDF p.43 / 印刷 p.43）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p043.png`（pngmono 150dpi）
+- 核对：Λ-graph 图（行 1779 引 page_42_image_0.jpg，p.43 顶部印刷图对应）、typical total picture (m=10) 图（行 1783 引 page_42_image_2.jpg 存在）、I_alg∘I_PBW 微分算子段、γ⟶Trace(ad(γ)^n) 式、odd n vanish 段、§8.3.4 heading、Harish-Chandra/Duflo-Kirillov 段（[D]、Cartan/Borel/Weyl）、I_DK 公式（(Sym(g))^g≃Center(𝒰(g))、I_PBW|∘I_strange|）、I_strange 定义段与 Todd class 平方根式 γ↦exp(Σ B_{2k}/4k(2k)! Trace(ad(γ)^{2k}))（MD 行 1779–1806）。
+- 结果：`FAIL`→4 处已修复：①行 1781 `(with$m = 1 0 )$`→`(with$m = 1 0 )$:（缺冒号，PNG 确凿）；②行 1785 `individual wheels These operators`→`individual wheels. These operators`（缺句点，PNG 确凿）；③行 1795 `algebras$\mathbf{\xi}(Sym(\mathbf{g}))^\mathbf{g}$` 幻影 ξ 已删（与 p.031 Ξ 同型，PNG 确证无）；④行 1795 `and Center( g).`→`and Center($\mathcal{U}\mathbf{g}$).`（𝒰 丢失，PNG+文本层确凿）。其余 PASS±：行 1785 `diferential`/`coeficients`（ff 拍平）；行 1800 下标 bar 样式（登记）。公式行 1788/1800/1806 与印刷逐符号吻合。
+- 备注：行 1809 起（where B₂,B₄,… are Bernoulli numbers…）为印刷 p.44 内容，在 p.044 核对。
+
