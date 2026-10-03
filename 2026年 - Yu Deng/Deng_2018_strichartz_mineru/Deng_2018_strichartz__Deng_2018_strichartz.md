@@ -1284,7 +1284,7 @@ $$
 \sum_{h\leq N^{1 / 2}}\sum_{\substack{U,V,W\lesssim N^{2} / h^{2}\\ |U + V\alpha +W\beta -\tau^{\prime} / h^{2}| <   2^{j} / h^{2}\\ UV - W^{2} > 0}}h\preceq \sum_{h\lesssim N^{1 / 2}}(2^{j}N^{4} / h^{6} + 1)h\lesssim 2^{j}N^{4} + N.
 $$
 
-This is satisfactory, and it remains to treat$N ^ { 1 / 2 } \leq h \lesssim N$. Our proof does not use the full strength of the condition$U V - W ^ { 2 } > 0$but only the weaker$( U , V , W ) \neq ( 0 , 0 , 0 )$; this should heuristically make no diference in the size of the sum and we do not know any way to take advantage of the full condition$U V - W ^ { 2 } > 0$. The result which is required is then the following.
+This is satisfactory, and it remains to treat$N ^ { 1 / 2 } \leq h \lesssim N$. Our proof does not use the full strength of the condition$U V - W ^ { 2 } > 0$but only the weaker$( U , V , W ) \neq ( 0 , 0 , 0 )$; this should heuristically make no difference in the size of the sum and we do not know any way to take advantage of the full condition$U V - W ^ { 2 } > 0$. The result which is required is then the following.
 
 Lemma 6.5. Let
 
@@ -1304,7 +1304,7 @@ $$
 \sum_{\substack{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}\\ |A^{\prime} + B^{\prime}\alpha +C^{\prime}\beta -\tau^{\prime}| <   2^{j}\\ A^{\prime}B^{\prime}\neq (C^{\prime})^{2}}}\sum_{\substack{\sum_{i = 1}^{3}(k_{i}^{\prime \prime})^{2} = A^{\prime},\\ \sum_{i = 1}^{3}(\ell_{i}^{\prime \prime})^{2} = B^{\prime},\\ \sum_{i = 1}^{3}k_{i}^{\prime \prime}\ell_{i}^{\prime \prime} = C^{\prime}}}1\preceq_{\alpha ,\beta}2^{j}N^{4} + N.\tag{6.11}
 $$
 
-To motivate the proof of the lemma, we sketch some attacks on the problem based on the proof of (6.9). Imitating Lemma 6.4, one might try to show that for generic$( \alpha , \beta )$, all$h , h ^ { \prime } \sim K$ $U , \dot { U ^ { \prime } } , \dot { V } , V ^ { \prime } , W , W ^ { \prime } \stackrel { - } { \sim } N ^ { 2 } / h ^ { 2 }$, and some appropriate$\rho$we have
+To motivate the proof of the lemma, we sketch some attacks on the problem based on the proof of (6.9). Imitating Lemma 6.4, one might try to show that for generic$( \alpha , \beta )$, all$h , h ^ { \prime } \sim K$, $U , U ^ { \prime } , V , V ^ { \prime } , W , W ^ { \prime } \lesssim N ^ { 2 } / h ^ { 2 }$, and some appropriate$\rho$we have
 
 $$
 \left| h ^ {2} (U + V \alpha + W \beta) - h ^ {\prime 2} (U ^ {\prime} + V ^ {\prime} \alpha + W ^ {\prime} \beta) \right| \gtrsim_ {\alpha , \beta} \rho\tag{6.12}
