@@ -351,3 +351,10 @@
 - 发现并当场修复（13 个记号点，延续 **T** 粗体系列）：①L1498 五处 $T_{pM}$/$T_{pqM,q-old}$×2/$T_{pqM}$×2→\mathbf；②L1502 两处 "\mathfrak{m}"→"\mathbf{m}"；③L1504 "of $T_{pM}$"→"\mathbf{T}_{pM}"；④L1510 Theorem 7.3 四处（**T**_{pM}/​**T**_{pqM}/​**T̄**_{pqM}/​**T**_{pqM}）；⑤L1512 "ideal of $T_{pqM}$"→"\mathbf{T}_{pqM}"。
 - 备注：L1516 Theorem 7.5 的 **T**_{qM}/​**T**_{pqM}/​**T̄**_{pqM} MD 本即粗体正确；斜体 λ/m/R 照印刷保留。
 - 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.044（PDF p.44 / 印刷 p.473）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 21:10 -0400。
+- PNG：`audit/ribet1990_p044.png`（pngmono，150 dpi）。
+- 核对：(7.3)/(7.5) 等价性；Lemma 7.6（(T_p)²−1∈m）与 Proof（ℛ=End(S₂(Γ₀(qM))⊕S₂(Γ₀(qM)))、**T**_{pM}/​**T**_{qpM,p-old}、maximal ideal I、T_p²−1=τT_p−(p+1)、I∩**T**_{qpM,p-old}=**m**、(7.6) □）；(7.5) 证明（X、**T**_{qpM}-module、p-old/q-new、support、(4.3)/(3.12)/(5.2c)、Ψ、**T̄**_{pqM}、unit ideal）；节标题 "8. Lowering the level"；**T**=**T**_{pqM}、**T̄**、**m**；Theorem 8.1（l ⊥ qM、ρ_m finite at p、q ≢ 1 (mod l) ⇒ level qM）；Proof 开头（(6.1)、p≡1、Shimura curve、Eichler order level M、J=Pic⁰(C)、**T**/**m**[G]-module、W=J(Q̄)[**m**]）✓。
+- 发现并当场修复（22 个记号点 + 1 处括号平衡）：①L1520 "\mathfrak{m}"→"\mathbf{m}"；②L1522 七处（"subring R"→"$\mathcal{R}$"×3、"$T_{pM}$"→"\mathbf{T}_{pM}"、"$T_{qpM,p-old}$"→"\mathbf{T}_{qpM,p-old}"、"contains m"→"\mathbf{m}"）+ End( 括号不平衡补全（mineru 丢失一个右括号，印刷为 End(S₂(Γ₀(qM))⊕S₂(Γ₀(qM)))）；③L1528 "\mathfrak{m}"→"\mathbf{m}"；④L1530 九处（$T_{qpM}$×6→\mathbf、$\overline{T}_{pqM}$×2→$\overline{\mathbf{T}}$、无）；⑤L1534 六处（**T**=**T**_{pqM}、**T̄**×2、**m**×3）；⑥L1536 ρ_**m**×2；⑦L1538 "**T**/**m**[G]"；⑧L1541 显示式 "\mathfrak{m}"→"\mathbf{m}"。均据 150 dpi 页图（𝓡/​**T** 粗体同款先例 + 括号计数）。
+- 结果：FAIL（23 处记号/括号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
