@@ -80,3 +80,16 @@
   - **Luna 旧判定复核**：Luna 对 conjunction/tranversals 的 print quirk 登记经 300dpi 复核**正确**；但 Luna 修复时把本页两处 Hausdorf→Hausdorff 之外的三处句读/词入数学伪影全部漏掉，重做补齐。
   - 登记非保留伪影（不修）：页眉 "THE SET OF EXCEPTIONS… 517" 未保留；印刷花体 𝒟（set D）拍平为 MD 行 101 斜体 `D`（语义无歧义）。
   - U₁/U₂ 矩阵、[22]/[45]/[12]/[17]/[13] 引用号、×m,×n 半群记法、脚注 1 全文与印刷一致。
+
+### p.006（PDF p.6 / 印刷 p.518）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p006.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 6 -l 6 -layout`。
+- 核对：条件测度/foliations 段、positive entropy 例外段（δ-measure、three torus、[17]）、[17] 证明附加假设段（singular direction、weak* limits）、"two new methods" 过渡句、first method 段（[3]、[4]、Haar measure、dim ≤ 1）、third author 段开头（[20]、Host [9]）、页眉。
+- 结果：**PASS±**（4 处修复）
+  - **修复（Edit，溯源 p.6 PNG/文本层）**：
+    1. 行 111 `about$\mu .$. Hence`（双句点伪影）→ `about$\mu$. Hence`（印刷单句点）；
+    2. 行 113 `suficient` → `sufficient`（印刷双 f）；
+    3. 行 115 `dificulty` → `difficulty`（印刷双 f）；
+    4. 行 119 `A diferent approach` → `A different`（印刷双 f）。
+  - 登记非保留伪影（不修）：页眉 "518 MANFRED…" 未保留；印刷 ℝ-split（两处）黑体拍平为 MD `R-split`。
+  - weak<sup>∗</sup> limits 上标星保留正确；[3]/[4]/[17]/[20]/[9] 引用号与 "Hausdorff dimension at most 1" 结论与印刷一致。
