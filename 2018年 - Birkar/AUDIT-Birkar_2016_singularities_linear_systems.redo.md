@@ -31,3 +31,13 @@
   - PASS± 项（不修，登记）：`that`→`tha`（p.2 中段，丢 t）；`differential`→`diferential`、`pseudo-effective`→`pseudo-efective`（ff 拍平）；若干 `$…$` 与后续单词间空格丢失（如 `$-K_X$is`），词界仍可辨，均不改变数学陈述。
 - 备注：Luna p.002 登记的箭头丢失与 bullet 缺失两项修复均属实且已正确落地；`tha` 登记属实。本次重检未发现 Luna 漏报的本页内容差异。
 - 记录时间：2026-10-03 12:16 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.003（PDF p.3 / 印刷 p.3）
+- PNG：`audit-redo/p003.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：已知情形列表后三条（[2]/[8]/[13] 及 DCC 边界条）、Example 1.2（含 $K_{W_n}+\frac{n-2}{n}E=f^*K_{X_n}$）、Example 1.3（爆破链 $V_1\to\mathbb{P}^2$、$V_2\to V_1$、$V_n\to V_{n-1}$、$X'_n\to X_n$）、Corollary 1.4 陈述（两条 bullet + $K_X+\Delta\sim_{\mathbb{R}}0$）；与 Markdown 第 73–111 行逐项比对，辅以 `pdftotext -f 3 -l 3`。
+- 结果：**PASS±**
+  - Luna 旧修复逐项复核为正确：四处箭头（$V_1\to\mathbb{P}^2$、$V_2\to V_1$、$V_n\to V_{n-1}$、$X'_n\to X_n$ 及 $n\to\infty$、$f\colon W_n\to X_n$）均已恢复；`n ≥ 2` 为普通 `\geq` 无伪双点；[8] 后无多余 `2`；Corollary 1.4 边界为 `$\Delta$` 无伪下标，且 `K_X+Δ∼_R 0`、两条 bullet 均与印刷一致。
+  - PASS± 项（不修，登记）：①MD 第 83 行 `$n \geq 2 ,$,` 双逗点（印刷单个逗号）；②MD 第 91 行 `## Example 1.3. Consider the pair` 与第 107 行 `## form a bounded family.` 被 MinerU 提升为二级标题（印刷均为普通段落行；内容完整、不改变数学，属结构伪影——Luna p.003 登记未含此两项，本次补记）；③$S^{\sim}$：印刷为 S 上方波浪（$\tilde S$ 式），MD 写成上标波浪 `S ^ { \sim }`，记号可辨属排版扁平；④`coefficients`→`coeficients` 三处 ff 拍平；⑤数学式与正文间若干空格粘连。
+  - 公式 $K_{W_n}+\frac{n-2}{n}E=f^*K_{X_n}$、$\frac{2}{n}$-lc、$(\mathbb{P}^2,\Delta=S+T+R)$、$x_0:=S\cap T$、$x_1:=S^{\sim}\cap E_1$ 等均与印刷一致。
+- 备注：Luna p.003 登记的差异与修复全部属实；漏报的两处标题提升与上标波浪已补记。本次重检未发现本页数学内容错误。
+- 记录时间：2026-10-03 12:22 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
