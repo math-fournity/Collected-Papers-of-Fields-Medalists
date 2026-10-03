@@ -325,3 +325,10 @@
 - 结果：`PASS±`。无内容错误、无修复。print quirk 忠实保留：标题 `Bibiliography`（原文拼写）；行 1867 `[BGRT] , D. Bar-Natan`（原文逗号+缺首作者）；行 1875 `C. R. .Acad. Sci.`（300dpi `_p045_Du_entry.png` 确证 Acad 前杂散句点为原文排印笔误）；行 1823/1823 附近 Err 公式不配对括号（p.044 已登记）。PASS± 伪影登记：ff 拍平 — 行 1865 `Diferentiable`、行 1879 `J. Dif. Geom.`、行 1883 `diferential`、行 1897 `Campbell-Hausdorf`（印刷均 Diff./differential/Hausdorff）；重音分解 — 行 1857 `´etale`、行 1871 `Cat´egories`/`Birkh¨auser`、行 1875 `Caract´eres`/`alg\`ebres`/`r´esolubles`/`s´erie`、行 1901 `Birkh¨auser`。逐条卷期页码与印刷吻合。
 - 备注：行 1903 起（I.H.E.S. 地址、[Ko2]–[KoV] 等余下文献）为印刷 p.46 内容，属下一块 p.046 审计。
 
+## p.046（PDF p.46 / 印刷 p.46，末页）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p046.png`（pngmono 150dpi）
+- 核对：末页参考文献 [Ko2]–[V] 共 8 条逐字段核对：[Ko2]（Kluwer 1997, 139-156）、[Ko3]（dg-ga/9704009, Compos. Math.）、[Ko4]（Zürich ICM 1994, Birkhäuser 1995, 120-139）、[M]（Manin, Springer-Verlag 1988）、[Q]（Quillen, Topology 24, 89-95）、[SS]（Schlessinger-Stashef, J. Pure Appl. Algebra 89, 231-235）、[Su]（Sullivan, I.H.E.S. Publ. Math. 47, 269-331）、[V]（Voronov, q-alg/9701017）；作者地址块三行（I.H.E.S., 35 Route de Chartres, / Bures-sur-Yvette 91440, FRANCE / email: maxim@ihes.fr）；页码 46。收稿日期：本篇为 arXiv 预印本（q-alg/9709040v1, 29 Sep 1997，戳见 p.1 页边），无期刊收稿日期行，以作者地址块收尾，非缺漏（MD 行 1903–1923）。
+- 结果：`FAIL`→1 处已修复：地址块首行 `I.H.E.S., 35 Route de Chartres,` 被 MinerU 错位到 [Ko2] 之前（原 MD 行 1903），印刷中地址三行连续位于全部文献之后（PNG 确凿），已移位归位至 [V] 之后与后两行合并为完整地址块。print quirk 忠实保留：行 1915 `J. Stashef`（原文单 f）；行 1911 `Gauge Field theory`（原文大写 Field）；行 1909 `Z¨urich`/`Birkh¨auser`（重音分解伪影，登记）。八条文献作者/刊名/卷期页码与印刷逐字段吻合。
+- 备注：本页为全篇末页。全篇 46 页页级审计至此完成；总评与抽查覆盖声明另落签（SOP 第 7 步），篇级 AUDIT-INDEX/进度投影由 Master 集成时处理。
+

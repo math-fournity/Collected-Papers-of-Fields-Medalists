@@ -1900,8 +1900,6 @@ This statement is again a corollary of the theorem from 8.2. We will give the pr
 
 [Ko1] M. Kontsevich, Feynman diagrams and low-dimensional topology, First European Congress of Mathematics (Paris, 1992), Vol. II, Progress in Mathematics 120, Birkh¨auser (1994), 97 - 121.
 
-I.H.E.S., 35 Route de Chartres,
-
 [Ko2] M. Kontsevich, Formality Conjecture, D. Sternheimer et al. (eds.), Deformation Theory and Symplectic Geometry, Kluwer 1997, 139 - 156.
 
 [Ko3] M. Kontsevich, Rozansky-Witten invariants via formal geometry, dg-ga/9704009, to appear in Compos. Math.
@@ -1917,6 +1915,8 @@ I.H.E.S., 35 Route de Chartres,
 [Su] D. Sullivan, Infinitesimal computations in topology, I. H. E. S. Publ. Math., no. 47 (1977), 269 - 331.
 
 [V] A. Voronov, Quantizing Poisson Manifolds, q-alg/9701017.
+
+I.H.E.S., 35 Route de Chartres,
 
 Bures-sur-Yvette 91440, FRANCE
 
