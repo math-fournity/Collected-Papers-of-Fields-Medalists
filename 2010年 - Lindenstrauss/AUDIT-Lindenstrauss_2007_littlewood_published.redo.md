@@ -103,3 +103,30 @@
   transversally zero）逐项与印刷吻合。
 
 ---
+
+## p.005（PDF p.5 / 印刷 p.517）
+
+- PNG：audit-redo/p005.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：Conjecture 1.7 (Margulis, 1993) 全陈述（G、U_1、U_2、格条件、结论）、Hee Oh [33]/[32] 段、
+  §1.3 Measure rigidity 两段、脚注 1。
+- 结果：**PASS±**（2 处偏离已修复）
+- 差异列表：
+  1. **print quirk 被静默改正（已恢复）**：印刷原文（pdftotext 行 44 直证）作「Hausdorff dimension and
+     **tranversals**」（漏 s，印刷自身错拼）；MD 原作 `transversals`，属对印刷错字的静默改正。已恢复
+     为 `tranversals`（MD 第 101 行），并在此登记为 print quirk——同一句后文「transversally to the
+     orbit」印刷拼写正常，两处均按印刷原样保留。
+  2. Conjecture 1.7 结论行缺句点：印刷「…× GL(2,ℝ).」；MD 原作 `$\mathrm { G L } ( 2 , \mathbb { R } )$`
+     收尾，已补 `.`（MD 第 99 行）。
+- print quirk 忠实保留（无需修，登记）：印刷 Conjecture 1.7 结论作「up to **conjunction** in
+  GL(2,ℝ)×⋯×GL(2,ℝ)」（conjugation 之错拼，印刷原文如此）；MD 第 99 行同为 `conjunction`，
+  **与印刷一致，不改正**。
+- 其余登记（排版级意译，不误导，不改）：MD 第 101 行两处「the set 𝒟」简化为 `$D$`；
+  「Section 7 and Section 10」作「Sections 7 and 10」；「(or more precisely Theorem 10.2 which…)」
+  添加两枚逗号；脚注标记 `$\boldsymbol{lattice^1}$` 加粗拍平。
+- 其余核对：Conjecture 1.7 头（n≥2 copies of SL(2,ℝ)）、U_1/U_2 上三角/下三角 unipotent 矩阵.display
+  （含 U_2 句点、U_1 无句点）、格条件（i=1 and 2、proper connected normal N<G、Γ∩N∩U_i trivial）、
+  Hee Oh 段引文串（[33]、[32]、[33, Thm. 1.5]、§10、Theorem 10.2）、§1.3（Furstenberg problem:
+  [22],[45],[12]、Rudolph [45]、Johnson [12]、×m,×n、positive entropy→Lebesgue）、脚注 1（[33]）逐项
+  与印刷吻合。
+
+---
