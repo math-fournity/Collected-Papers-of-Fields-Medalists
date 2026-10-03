@@ -112,7 +112,7 @@ les $\mathfrak{p}_i$ désignant les idéaux premiers minimaux de $\mathcal{H}_x$
 
 Dans ce qui suit, nous aurons à considérer des variétés algébriques sur le corps C. Une telle variété sera munie de deux topologies : la topologie « usuelle », et la topologie « de Zariski ». Pour éviter les confusions, nous ferons précéder de la lettre Z les notions relatives à cette dernière topologie; par exemple, « Z-ouvert » signifiera « ouvert pour la topologie de Zariski ».
 
-5. Définition de l'espace analytique associé à une variété algébrique.
+## 5. Définition de l'espace analytique associé à une variété algébrique.
 
 La possibilité de munir toute variété algébrique d'une structure d'espace analytique résulte du lemme suivant :
 

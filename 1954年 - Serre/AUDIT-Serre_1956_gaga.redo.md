@@ -58,6 +58,14 @@
 - 结果：PASS±。MD 行 93–107 与原页逐项吻合。Luna 旧修复复核：行 99 两处 $C\{z_{1}, \ldots, z_{n}\}$（旧 mineru 作 z_i）经 300dpi 裁剪确认与印刷一致（首下标为阿拉伯 1，末下标斜体 n）；显示式 $0 = \cap \mathfrak{p}_{i}$（含尾逗号）与印刷一致；ℋ_x=ℋ_U/𝒜(X)、[3] ths. 1 et 2、[15] chap. iv § 2、[16] 等引用均正确。差异（登记不改）：①行 99 的 $H_{x}$、$H_{x}/m$ 及 $X=C^{n}$、$C^{n}$、$C\{z\}$ 用正体 H/双线体 C，印刷为花体 ℋ、粗体 C——全文性花体/粗体拍平类伪影（同类已见于 p.006），不妨碍辨识；②行 99 商理想 "/a" 印刷为花体 𝔞，MD 作正体 a——fraktur 拍平，登记不改；③印刷斜体（algèbre locale、anneau noethérien、anneau analytique、régulier、simple、variété）未标。
 - 备注：Luna 旧判本页 FAIL（z_i 两处）→ 修复正确，重检维持 PASS±；本页无新增修复。
 
+## p.008（PDF p.8 / 印刷 p.7）
+- PNG：audit-redo/p008.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/p008_series-zr_300dpi.png（C{z₁,…,z_r} 三处）
+- 核对：不可约分量段（𝔭_i=𝒜_x(X_i)、ℋ_x/𝔭_i=ℋ_{x,X_i}）、Krull 维数比对段（[14] § 4、[3] exp. VIII、[16] p. 18）、§ 2 节标题、Z-拓扑约定段、n° 5 标题、LEMME 1 a)–d)。
+- 结果：PASS±（含 1 处结构修复）。Luna 旧修复复核：行 109 三处 $\mathbb{C}\{z_{1},\dots,z_r\}$/$\mathbb{C}[[z_{1},\dots,z_r]]$（旧 mineru 作 z_i）经 300dpi 裁剪确认与印刷一致（首下标 1、末下标 r）；𝔭_i=𝒜_x(X_i)、anneau d'intégrité、[15]/[16] 引用一致；LEMME 1 四项陈述（Z-topologie moins fine、Z-localement fermé、application régulière ⟹ holomorphe、isomorphisme birégulier ⟹ isomorphisme analytique）与印刷逐词吻合。**结构修复**：行 115「5. Définition de l'espace analytique associé à une variété algébrique.」印刷为与 n° 1–4 同式的粗体节标题，MD 原为普通段落 → 已升为「## 5. …」（mineru 结构性漏标；n° 6/7/20 疑似同类，留待对应页核处）。差异（登记不改）：①行 109 的 $\mathcal{H}_{x,\mathrm{X}_i}$ 用正体 X，印刷为斜体 X_i；②C 的 \mathbb/\mathbf 混排与花体 ℋ 拍平（全文性伪影）；③印刷斜体（dimension、coïncide、Z-topologie 等词条内斜体）未标。
+- 修复登记：本页 1 处 md 结构修复（行 115 升 ## 标题），随 p.008 页级 commit 提交。
+- 备注：Luna 旧判本页 FAIL（z_i）→ 修复正确；Luna 未发现 n° 5 标题漏标，本次补修。
+
+
 
 
 
