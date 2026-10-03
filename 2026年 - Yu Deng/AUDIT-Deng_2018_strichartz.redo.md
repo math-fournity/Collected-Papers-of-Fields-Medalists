@@ -206,6 +206,20 @@
 - 核对：§6.5 节标题、Lemma 6.6 证明（两结论、gcd 链、max_{h₂∼K} 求和、x₀/x′/c′ 归约、2^j/|h₂²(m₁+m₂α+m₃β)|+1、≼_{α,β}2^j|m|^{2+ε}/K²+1、□）、Lemma 6.7 证明（Borel-Cantelli 积分 display、(6.17) 2^{2j}|Δ|^{−1}、(6.18) H/G/T 定义、(6.19) gcd 比值 =H/G 与 T-bounds 行）
 - 结果：PASS±（2 处已修复）。全部公式与印刷逐项一致。**修复 2 处**：L1459 "from which the claim follows." 后补 □（印刷右缘有结束方框）；L1464 Lemma 6.7 证明 display 中 `(i=0,1,2)` 原被放在 substack 之外成为求和后的孤立因子（印刷中它是下标条件 "U_i,V_i,W_i≲N²/K² (i=0,1,2)" 的组成部分）——已移入 substack，消除结构拆乱。残余瑕疵（不误导，不改）：L1425 "Suppose mx" 与 L1477 "and W" 的个别符号在数学环境外（印刷为同一行内公式，渲染等价）；L1437 "up to ≼ 1" 的 "to" 在数学环境内带空格（`\mathrm{t o}`，渲染近拟）。
 - 备注：Luna 旧修复抽核通过——旧基线 p.27 无专项登记；本页 (i=0,1,2) 拆乱为 Luna 链未修复的结构缺陷（本次修复）。
+
+## 本块小结（p.019–p.027 重做完成；非全篇总评）
+
+- 覆盖：PDF p.19–p.27（印刷页码同），逐页 150dpi pngmono PNG 全览＋逐页 pdftotext 文本层对账（双通道主对账），1 处升级 300dpi 仲裁（p020 Δ=(A′B′−C′)/k² 印刷错字确认）。页界：p.19 起 |S|^{p/2−1} 计数论证，p.27 止 (6.19) 与 T-bounds 行；跨页段落按印刷页界归属（"heuristically" 段跨 p.23/24、三情况 bullet 跨 p.17/18 已在前块处理）。
+- 页级结论：9 页全部 **PASS±**，0 FAIL。Theorem 5.1/6.1、Lemma 6.2–6.7、(6.1)–(6.19)、(6.16) 及各证明链与印刷逐式一致。
+- 本次净修复 **21 处**（git 净 diff 19+/13−：13 行逐行修复 + 3 处 □ 各 +2 行；每处可溯源对应页 PNG/文本层证据）：
+  - 词级/记号级（8）：L1049 β_i→β+逗号；L1111 **还原印刷错字** Δ=(A′B′−C′)/k²（原 MD 静默改正为 (C′)²）；L1287 diference→difference；L1355 split of→split off；L1363 collinear if→iff；L1387 sufice→suffice；L1378 (0.0,0)→(0,0,0)；L1307 \dot{U′}/\dot{V}/\stackrel{-}{\sim}→干净 ≲ 并补逗号。
+  - 标点/定界（2）：L1067 全角逗号→半角；L1347 省略号后多余句点。
+  - 乱码/结构（3）：L1381 损毁 ⪰ 构造→\succeq_{α,β}K⁴/N⁴；L1464 (i=0,1,2) 移回 substack；L1039 区 **误报核销**（(5.2) 闭合符被误判孤儿，经 HEAD 对照未做任何修改）。
+  - 证明结束框（3 处补 □）：Theorem 5.1 证明末（L1061）、Lemma 6.6 证明末（L1423）、Lemma 6.7 前一证明末（L1459）——印刷均有右缘空心方框而 MD 缺失（Luna 链曾把方框存为控制字符，修复时整体删除而非替换）。
+- print quirk 忠实保留："(ie i ≥ p/2," 无闭括号、Proposition (3.2) 带括号（前块）、"there are most O(N^ε)"、"Consquently"、"satisying"、L1275 原刊无逗号处（MD 添逗号已登记不改）、L1103 裸 Z、L1437 \mathrm{t o}。
+- Luna 旧修复重核：9 页抽核通过，另发现其登记后仍残留的缺陷 5 处（p.19 □ 被删、p.24 点/横线残留、p.25 split of/collinear if、p.26 乱码 ⪰、p.27 (i=0,1,2) 拆乱）及 1 处静默改正（p.20 Δ），均已按纪律处理。
+- 收尾只读清点：`$$` 定界行 490（偶）；`\tag` 51；C0 控制字符 0；HTML sub/sup 残留 0；1,789 行。MD SHA-256 = 83516511bf2493964979b79f88a8081857d2bcecab7f0fb2f633e2529d479138。git diff 40526b93..HEAD 逐行核对无计划外变更。
+- 范围声明：本块只覆盖 p.19–p.27；p.28–p.34（含参考文献逐条与收稿日期）由后续块负责，本文件不对其作任何结论。证据图 10 张（p019–p027 全页 + p020 300dpi 裁片）已随页提交入库。
 - **误判回滚登记**：p.010 初审曾把 (3.3c) 闭合 `$$`+空行+(3.3d) 开启 `$$` 误判为空 display 块删除，只读清点发现 `$$` 行数 489（奇）后当即恢复；该序列是逐式 display 的合法分隔。此误判与回滚均记录于 p.010 条目，最终 MD 不含该变更。
 - Luna 旧修复重核：9 页逐页抽样全部通过，另发现两处 Luna 登记了但未修复的遗留缺陷（p.12 bullet、p.14 带波浪 p₁），均已在本次修复；Luna 的 print quirk 保留判断（Proposition (3.2) 带括号、focuse、dedending、staisfying、these s、S_μ 无绝对值、𝕋^d 上标）经 PNG 复核全部正确。
 - print quirk 忠实保留：Proposition (3.2)（带括号）、we focuse、dedending、staisfying、restricted to these s、S_μ 无绝对值、p.12 末式 𝕋^d 与 Step 3 ‖F‖ 定义域 ℝ×𝕋^d（原刊自身 d/2 混用）、p.16 游离句点行（排印噪声，MD 合理省略）、"The cases … is zero is easier"。
