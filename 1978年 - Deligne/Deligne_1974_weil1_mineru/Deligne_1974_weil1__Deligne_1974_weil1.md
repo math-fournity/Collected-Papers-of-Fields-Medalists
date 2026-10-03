@@ -615,17 +615,17 @@ et le corollaire.
 
 (4.1) Sur C, les résultats locaux de Lefschetz sont les suivants.
 
-Soient  $D=\{z||z|<1\}$  le disque unité,  $D^{*}=D-\{0\}$ , et  $f:X\to D$  un morphisme d'espaces analytiques. On suppose que
+Soient  $D=\{z||z|<1\}$  le disque unité,  $D^{*}=D-\{o\}$ , et  $f:X\to D$  un morphisme d'espaces analytiques. On suppose que
 
 a) X est non singulier, et purement de dimension  $n+1$ ;
 
 b) $f$ est propre;
 
-c) $f$ est lisse en dehors d'un point $x$ de la fibre spéciale $\mathbf{X}_{0}=f^{-1}(0)$;
+c) $f$ est lisse en dehors d'un point $x$ de la fibre spéciale $\mathbf{X}_{0}=f^{-1}(o)$;
 
 d) en x, f présente un point quadratique non dégénéré.
 
-Soient $t \neq 0$ dans D et $X_t = f^{-1}(t)$ « la » fibre générale. Aux données précédentes, on associe :
+Soient $t \neq o$ dans D et $X_t = f^{-1}(t)$ « la » fibre générale. Aux données précédentes, on associe :
 
 α) des morphismes de spécialisation  $sp: H^{i}(X_{0}, \mathbf{Z}) \to H^{i}(X_{t}, \mathbf{Z})$  :  $X_{0}$  est un rétracte par déformation de X, et sp est la flèche composée
 
@@ -633,9 +633,9 @@ $$
 \mathrm{H} ^ {i} (\mathrm{X} _ {0}, \mathbf {Z}) \stackrel {{\sim}} {{\leftarrow}} \mathrm{H} ^ {i} (\mathrm{X}, \mathbf {Z}) \rightarrow \mathrm{H} ^ {i} (\mathrm{X} _ {t}, \mathbf {Z});
 $$
 
-β) des transformations de monodromie T: H$^{i}$(X$_{t}$, Z) → H$^{i}$(X$_{t}$, Z), qui décrivent l'effet sur les cycles singuliers de X$_{t}$ de « faire tourner t autour de 0 ». C'est encore l'action sur H$^{i}$(X$_{t}$, Z), fibre en t du système local R$^{i}$f$_{*}$Z|D\*, du générateur positif de $\pi_{1}$(D\*, t).
+β) des transformations de monodromie T: H$^{i}$(X$_{t}$, Z) → H$^{i}$(X$_{t}$, Z), qui décrivent l'effet sur les cycles singuliers de X$_{t}$ de « faire tourner t autour de o ». C'est encore l'action sur H$^{i}$(X$_{t}$, Z), fibre en t du système local R$^{i}$f$_{*}$$\underline{\mathbf{Z}}$|D\*, du générateur positif de $\pi_{1}$(D\*, t).
 
-La théorie de Lefschetz décrit $\alpha$ et $\beta$ en terme du cycle évanescent $\delta\in\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$. Ce cycle est bien défini au signe près. Pour $i\neq n$, $n+1$, on a
+La théorie de Lefschetz décrit $\alpha$) et $\beta$) en terme du cycle évanescant $\delta\in\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$. Ce cycle est bien défini au signe près. Pour $i\neq n$, $n+1$, on a
 
 $$
 \mathrm{H} ^ {i} \left(\mathrm{X} _ {0}, \mathbf {Z}\right) \stackrel {{\sim}} {{\rightarrow}} \mathrm{H} ^ {i} \left(\mathrm{X} _ {t}, \mathbf {Z}\right) \quad (i \neq n, n + 1).
@@ -644,7 +644,7 @@ $$
 Pour $i = n, n + 1$, on a une suite exacte
 
 $$
-0 \rightarrow H ^ {n} (X _ {0}, \mathbf {Z}) \rightarrow H ^ {n} (X _ {t}, \mathbf {Z}) \xrightarrow {x \mapsto (x , \delta)} \mathbf {Z} \rightarrow H ^ {n + 1} (X _ {0}, \mathbf {Z}) \rightarrow H ^ {n + 1} (X _ {t}, \mathbf {Z}) \rightarrow 0.
+o \rightarrow H ^ {n} (X _ {0}, \mathbf {Z}) \rightarrow H ^ {n} (X _ {t}, \mathbf {Z}) \xrightarrow {x \mapsto (x , \delta)} \mathbf {Z} \rightarrow H ^ {n + 1} (X _ {0}, \mathbf {Z}) \rightarrow H ^ {n + 1} (X _ {t}, \mathbf {Z}) \rightarrow o.
 $$
 
 Pour $i \neq n$, la monodromie T est l'identité. Pour $i = n$, on a
@@ -656,7 +656,7 @@ $$
 Les valeurs de ce ±, de Tδ, et de (δ, δ) sont les suivantes :
 
 $$
-\begin{array}{l l l l l} n \bmod 4 & \text {0} & \text {1} & 2 & 3 \\ \mathrm{T} x = x \pm (x, \delta) \delta & - & - & + & + \\ (\delta , \delta) & 2 & 0 & - 2 & 0 \\ \mathrm{T} \delta & - \delta & \delta & - \delta & \delta \end{array}
+\begin{array}{l l l l l} n \bmod 4 & \text {o} & \text {1} & 2 & 3 \\ \mathrm{T} x = x \pm (x, \delta) \delta & - & - & + & + \\ (\delta , \delta) & 2 & o & - 2 & o \\ \mathrm{T} \delta & - \delta & \delta & - \delta & \delta \end{array}
 $$
 
 La transformation de monodromie T respecte la forme d'intersection  $\mathrm{Tr}(x\cup y)$  sur  $\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$ . Pour n impair, c'est une transvection symplectique. Pour n pair, c'est une symétrie orthogonale.
