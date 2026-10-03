@@ -863,7 +863,7 @@ Il est clair qu'elle est subordonnée au lacet réduit au point $b$, et que $S_c
 Pour voir que $T_{\alpha} \circ T_{\beta} = T_{\alpha * \beta}$, soit $v \in \alpha, v' \in \beta$; on a $v * v' \in \alpha * \beta$. Soient $C$ et $C'$ des constructions subordonnées à $v$ et $v'$ respectivement. On définit une construction $C''$ par la formule:
 
 $$
-(C ^ {\prime \prime} u) (t, t _ {1}, \dots , t _ {n}) = \left\{ \begin{array}{l l} (C ^ {\prime} u) (2 t, t _ {1}, \dots , t _ {n}) & \text {si} t \leq 1 / 2 \\ (C (S _ {C ^ {\prime}} u)) (2 t - 1, t _ {1}, \dots , t _ {n}) & \text {si} t \geq 1 / 2. \end{array} \right.
+(C ^ {\prime \prime} u) (t, t _ {1}, \dots , t _ {n}) = \left\{ \begin{array}{l l} (C ^ {\prime} u) (2 t, t _ {1}, \dots , t _ {n}) & \text {si} t \leq 1 / 2 \\ (C (S _ {c ^ {\prime}} u)) (2 t - 1, t _ {1}, \dots , t _ {n}) & \text {si} t \geq 1 / 2. \end{array} \right.
 $$
 
 La construction  $C''$  est subordonnée au lacet  $v'' = v * v'$ . En outre:
@@ -872,7 +872,7 @@ $$
 (S _ {c ^ {\prime \prime}} u) (t _ {1}, \dots , t _ {n}) = (C (S _ {c ^ {\prime}} u)) (1, t _ {1}, \dots , t _ {n}) = (S _ {c} \circ S _ {c ^ {\prime}} u) (t _ {1}, \dots , t _ {n}).
 $$
 
-D'où $S_{c','} = S_c \circ S_{c'}$ et $T_\alpha \circ T_\beta = T_\alpha *_\beta$, cqfd.
+D'où $S_{c''} = S_c \circ S_{c'}$ et $T_\alpha \circ T_\beta = T_{\alpha* \beta}$, cqfd.
 
 Nous avons ainsi montré que $\pi_{1}(B)$ opérait canoniquement sur $H(F)$; on peut de même le faire opérer sur $H^{*}(F)$, anneau de cohomologie de $F$. Ainsi, $H(F)$ et $H^{*}(F)$ forment des systèmes locaux sur $B$.
 

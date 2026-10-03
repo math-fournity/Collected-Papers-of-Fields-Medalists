@@ -194,3 +194,15 @@
 - 仲裁记录（MD 正确项）：①150dpi 疑印刷为 "l'homologie de E, E mod. F, B"（无 F），600dpi（p021_homol_600.png）确认行首为 **F**，即 "de F, E, E mod. F, B"，MD 四项正确；②条件 2 参数表 150dpi 疑无前导 t，600dpi（p021_cond2b_600.png）确认印刷为 **(t, t_1, ⋯, t_n)**，MD 正确；③S 下标 2x 下疑为资本 C，4x（p021_Sc_600.png）确认定义行与条件行均为**小写斜体 c**（S_c），MD 一致。
 - 差异：无。
 - 备注：md 行 845 起 "nombre d'éléments de H…"、LEMME 3、PROPOSITION 2 与 (C u)(t, t_1, ⋯, t_n) 展示式属印刷 p.445。
+
+## p.022（PDF p.22 / 印刷 p.445）
+- PNG：audit/p022.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p022_SCline1_600.png、p022_SClemme_600.png、p022_SCpermis_600.png、p022_SCtoutu_600.png、p022_SCdou_600.png、p022_SCdisp_600.png、p022_SCfin_600.png、p022_cqfd_600.png（600dpi；p022_SC1/SC2/SC3_600.png 为前次中断会话遗留同页裁剪，经我复核内容后一并引用）
+- 核对：LEMME 3 全文（S_{c_1}/S_{c_2} homotopiquement équivalents）与 "(La démonstration sera donnée au n°13)"；T_α 定义段（S_c endomorphisme permis、ne dépend que de α）；PROPOSITION 2 全文（représentation de π₁(B) dans … automorphismes de H(F)）+ (Rappelons … Chap. IV, n°1) 括注；T_e = 1 与 T_α∘T_β = T_{α∗β} 两处；展示式 (Cu)(t, t₁, ⋯, t_n) = u(t₁, ⋯, t_n)；构造 C″ 分段定义（si t ≤ 1/2 / si t ≥ 1/2 两情形）；展示式 (S_{c″}u)(t₁, ⋯) = (C(S_{c′}u))(1, ⋯) = (S_c∘S_{c′}u)(⋯)；"D'où S_{c″} = S_c∘S_{c′} … cqfd"；π₁(B) opérait 段与 systèmes locaux；PROPOSITION 3 全文（groupe structural G、connexe par arcs、opère trivialement sur H(F) et H*(F)）；S_cu = u 段；Soit T 段（0 et 1 de I、v′: T → B、image réciproque，跨页断句 "par l'application"）
+- 结果：FAIL（已当场修复 3 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 866 展示式第二情形 "$C (S _ {C ^ {\prime}} u)$" 的下标大写 C′：600dpi（p022_SCdou_600.png）确认印刷为小写 **c′**，即 (C(S_{c′}u))(2t − 1, t₁, ⋯, t_n)；Edit 修复为 "$S _ {c ^ {\prime}}$"。本页印刷 S 下标全程为小写斜体 c（p022_SCline1_600.png：S_c(λ_H^ε u) = λ_H^ε(S_c u)；p022_SCpermis_600.png：S_c … S_c；p022_SC2/p022_SClemme_600.png：S_{c₁}、S_{c₂}；p022_SCdisp_600.png：S_{c″}、S_{c′}、S_c∘S_{c′}），md 行 866 为孤立大写误读。
+  - **[已修复]** md 行 875 "$S_{c','}$"（下标 c',' ）为 OCR 伪迹：600dpi（p022_cqfd_600.png、p022_SCdisp_600.png）确认印刷为 **S_{c″}**（c 加双 prime），与 md 行 872 展示式自身的 "$S _ {c ^ {\prime \prime}}$" 一致；Edit 修复为 "$S_{c''}$"。
+  - **[已修复]** md 行 875 "$T_\alpha *_\beta$"（∗ 带下标 β 且游离在 T 下标之外）：600dpi（p022_cqfd_600.png、p022_SC3_600.png）确认印刷为 **T_{α∗β}**（α、∗、β 同处 T 的下标层，β 的下伸仅为希腊 beta 自带笔形）；Edit 修复为 "$T_{\alpha* \beta}$"，与 md 行 855/863 自身写法一致。
+- PASS± 项（print quirk 登记，不修）：印刷行 "π₁(B) **opérait** canoniquement sur H(F)"（p022_SCdisp_600.png 底缘清晰可读；按语法应为 opère）——印刷自身笔误，md 行 877 忠实保留 "opérait"，不改。
+- 差异：除上述 3 处外无。文本层对账（pdftotext -f 22 -l 22）与正文逐句一致（OCR 噪声 "Sc"、"T,,*B" 等不构成差异）。
+- 备注：mineru 将两展示式线性化为 array/cases，与印刷版式等价；md 行 885 起 "v' (Voir [5], VII et VIII)…" 属印刷 p.446，留待 p.023。
