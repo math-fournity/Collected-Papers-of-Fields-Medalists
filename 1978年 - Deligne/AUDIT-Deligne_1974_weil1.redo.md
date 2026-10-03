@@ -135,3 +135,11 @@
 - 核对：(3.7) 开头与 ψ_P 式、Soit x point fermé de X 句、Zariski-dense 句、H. Weyl 引文（The classical groups, Princeton University Press, chap. VI, § 1）、𝓟′⊂𝓟、同构式 (⊗^{2k}𝓕_u)_{π_1}=(⊗^{2k}𝓕_u)_{Sp}≅Q_ℓ(−kβ)^{𝓟′}、N 句、H_c^2(U,⊗^{2k}𝓕)≅Q_ℓ(−kβ−1)^N、Puisque H_c^0=o 句、Z(U_0,⊗^{2k}𝓕_0,t)=det(1−F*t,H^1(U,⊗^{2k}𝓕))/(1−q^{kβ+1}t)^N、pôle t=1/q^{kβ+1} 句、dans C 句、α^{2k} 句、1/α^{2k/deg(x)} 极点句（600dpi 终裁：印刷指数确含斜杠 2k/deg(x)，md 正确）、两条不等式与 |α|≤q_x^{β/2+1/2k}、Faisant tendre k 句、q_x^β α^{−1} 句、q_x^{β/2}≤|α|、Ceci achève la démonstration.
 - 结果：PASS±（修复 3 处）。内容全部吻合；Luna 的标量 1/Tate twist 修复生效。修复：①Puisque 句 H_c^0(U,⊗^{2k}𝓕)=0 → =o（p014_hc0_o-14.png，小写 o）；②Z 式 det(I→1（p014_Z_det-14.png，同式分母标量 1 印刷同形，md 已正确）；③段中 det(I→1（p014_mid_det-14.png）。排除一项 150dpi 误判：α 指数 2k/deg(x) 的斜杠经 600dpi 确认存在，md 无需改。
 - 修复：md 行 502/505/508 共 3 处（详见上）。
+
+## p.015（PDF p.15 / 印刷 p.286）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-02 20:14 EDT。
+- PNG：audit-redo/p015.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p015_exact_seq_full-15.png、p015_prolong_full-15.png、p015_F_qn-15.png、p015_eq38_det-15.png、p015_det_prod-15.png（300dpi）。
+- 旧审计对照：Luna p.015 = FAIL→已修复（行列式恒等算子 I、特征多项式乘积标量 1、rank(script F)、j_!=prolongement par 0）；本次重核：「I」与「par 0」两项均方向相反。
+- 核对：Corollaire (3.8) 全段（|α|≤q^{(β+1)/2+1/2}、Z(U_0,𝓕_0,t)=det(1−F*t,H_c^1(U,𝓕))、1/α racine、|t|<q^{−β/2−1}、Soit N le rang、det(1−F_x t,𝓕)=Π_{i=1}^N(1−α_{i,x}t)、|α_{i,x}|=q_x^{β/2}、Σ 系列、|t|=q^{−β/2−1−ε}(ε>0)、=NΣq_x^{−1−ε}、droite affine q^n points（F_{q^n} 经 300dpi 确认印刷即如此，md 正确）、Σ_x q_x^{−1−ε}≤Σ_n q^n·q^{n(−1−ε)}=Σ_n q^{−nε}<∞）、Corollaire (3.9)（P^1_{F_q}/P^1、q^{(β+1)/2−1/2}≤|α|≤q^{(β+1)/2+1/2}）、suite exacte courte o→j_!𝓕→j_*𝓕→j_*𝓕/j_!𝓕→o（第三项为斜线商，md 结构正确）、(j_!=prolongement par o) s'écrit、H_c^1(U,𝓕)→H^1(P^1,j_*𝓕)→o.
+- 结果：PASS±（修复 6 处）。修复：①(3.8) 式 det(I→1；②det(1−F_x t,𝓕)=Π 式 I→1（乘积内 (1−α_{i,x}t) 印刷即 1，md 已对）；③正合列两端 0→o ×2（p015_exact_seq_full-15.png：端点为小写字母高度 o，明显低于 j_! 下标的 1；零排作 o quirk 首次见于正合列端点）；④prolongement par 0 → par o（p015_prolong_full-15.png，行文小写 o）；⑤列尾 →0. → →o.（同裁片）。排除一项疑差：F_{q^n} 经 p015_F_qn-15.png 确认印刷如此，md 正确。移交提示：Luna p.029 修复「exact sequences 中的 o 改为 0」与本页同型，该块必须重裁。
+- 修复：md 行 549/559/591/594/597 共 6 处（详见上）。

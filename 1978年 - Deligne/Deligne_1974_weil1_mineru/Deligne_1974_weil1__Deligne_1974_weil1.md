@@ -546,7 +546,7 @@ $$
 La formule (1.14.3) pour $\mathcal{F}_{0}$ se réduit à
 
 $$
-\mathbf {Z} (\mathrm{U} _ {0}, \mathcal {F} _ {0}, t) = \det (\mathrm{I} - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F})).
+\mathbf {Z} (\mathrm{U} _ {0}, \mathcal {F} _ {0}, t) = \det (1 - \mathrm{F} ^ {*} t, \mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F})).
 $$
 
 Le premier membre est une série formelle à coefficients rationnels, vu son développement en produit et l'hypothèse (iii). Le second membre est donc un polynôme à coefficients rationnels;  $1/\alpha$  en est racine. Ceci prouve déjà que  $\alpha$  est algébrique. Pour achever la démonstration, il suffit de vérifier que le produit infini qui définit  $Z(U_{0},\mathcal{F}_{0},t)$  converge
@@ -556,7 +556,7 @@ absolument (donc est non nul) pour $|t| < q^{\frac{-\beta}{2} - 1}$.
 Soit N le rang de $\mathcal{F}$, et posons
 
 $$
-\det (\mathrm{I} - \mathrm{F} _ {x} t, \mathcal {F}) = \prod_ {i = 1} ^ {\mathrm{N}} (1 - \alpha_ {i, x} t).
+\det (1 - \mathrm{F} _ {x} t, \mathcal {F}) = \prod_ {i = 1} ^ {\mathrm{N}} (1 - \alpha_ {i, x} t).
 $$
 
 D'après (3.2), $|\alpha_{i,x}| = q_x^{\beta/2}$. La convergence du produit infini Z résulte de celle de la série
@@ -588,13 +588,13 @@ $$
 Un segment de la suite longue de cohomologie définie par la suite exacte courte
 
 $$
-0 \rightarrow j _ {!} \mathcal {F} \rightarrow j _ {*} \mathcal {F} \rightarrow j _ {*} \mathcal {F} / j _ {!} \mathcal {F} \rightarrow 0
+o \rightarrow j _ {!} \mathcal {F} \rightarrow j _ {*} \mathcal {F} \rightarrow j _ {*} \mathcal {F} / j _ {!} \mathcal {F} \rightarrow o
 $$
 
-$(j_{!}=\text{prolongement par 0}) \text{s'écrit}$
+$(j_{!}=\text{prolongement par o}) \text{s'écrit}$
 
 $$
-\mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F}) \rightarrow \mathrm{H} ^ {1} (\mathbf {P} ^ {1}, j _ {*} \mathcal {F}) \rightarrow 0.
+\mathrm{H} _ {c} ^ {1} (\mathrm{U}, \mathcal {F}) \rightarrow \mathrm{H} ^ {1} (\mathbf {P} ^ {1}, j _ {*} \mathcal {F}) \rightarrow o.
 $$
 
 La valeur propre $\alpha$ apparaît donc déjà dans $\mathrm{H}_{c}^{1}(\mathrm{U},\mathcal{F})$, et est justiciable de (3.8) :
