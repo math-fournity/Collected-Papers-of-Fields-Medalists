@@ -60,3 +60,13 @@
   - PASS± 项（不修，登记）：①`different`→`diferent` 两处（第 155、169 行，ff 拍平）；②MD 第 185 行 `$i f B$` 把 if 排进数学斜体；③第 201 行 `$A ^ { d } \leq r$` 后缺印刷的逗号；④若干数学式与单词空格粘连。
 - 备注：Luna p.005 登记的 `A^d ≤ r_i→r` 与 bullet 恢复均属实且已正确落地；`diferent` 登记属实。本次重检未发现本页数学内容错误。
 - 记录时间：2026-10-03 12:33 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.006（PDF p.6 / 印刷 p.6）
+- PNG：`audit-redo/p006.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：Theorem 1.8 第四条假设（`M ≥ 0 … A − M pseudo-effective`）与结论链 `lct(X,B,|M|_R) ≥ lct(X,B,|A|_R) ≥ t`、degree 公式 `deg_A B := A^{d−1}B ≤ A^d ≤ r` 等、Theorem 1.9 全部六条假设与两条结论（含 `f : X → Z`、`M|_S ≡ 0`、`n(K_X+Λ) ∼ (n+2)M`）、Sketch of the proof of Theorem 1.1 开头三条 bullet；与 Markdown 第 205–255 行逐项比对，辅以 `pdftotext -f 6 -l 6`。
+- 结果：**PASS±**
+  - Luna 旧修复逐项复核为正确：`f : X \to Z` 箭头已恢复（原页印刷箭头）；Theorem 1.9 六条假设、两条结论及 Sketch 开头 `K_X` m-complement / `|−mK_X|` birational map / `vol(−K_X) ≤ v` 三条 bullet 均与印刷列表一致；`M − (K_X+B)` 为单负号（原页无双负号）；无尾随 `2`。
+  - 公式 `lct(X,B,|M|_R) ≥ lct(X,B,|A|_R) ≥ t`、`deg_A B`/`deg_A M` 定义式、`[5, Proposition 7.13]`、`[5, Theorems 1.2 and 1.7]`、`[5, Theorem 1.6]`、`[5, 2.18]` 均与印刷一致。
+  - PASS± 项（不修，登记）：①MD 第 247 行 `$B = 0 .$. ` 双句点（印刷单句点）；②Theorem 1.9 若干条目/结论末尾丢印刷标点（如第 229 行 `$f : X \to Z$` 后缺逗号、第 235 行 `$M | _ { S } \equiv 0$` 后缺句点、第 241/243 行行末缺句点）；③`pseudo-effective(efficiency)`→`pseudo-efective/efectivity` ff 拍平三处；④数学式与单词空格粘连。
+- 备注：Luna p.006 登记的箭头/bullet/尾随 2 差异均属实且已正确落地。本次重检未发现本页数学内容错误。
+- 记录时间：2026-10-03 12:40 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
