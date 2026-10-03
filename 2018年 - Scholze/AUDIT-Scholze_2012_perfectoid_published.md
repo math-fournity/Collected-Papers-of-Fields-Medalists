@@ -531,3 +531,15 @@
   3. **控制字节登记**：行 1479 一处 \x0b（"h lies almost in the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
   4. O_X(U_c^♯) display：**经 300dpi 仲裁（audit/300dpi/Scholze_2012_p289_OXU.png）确认为 "$\mathrm R^\circ\langle(g_c^\sharp/\varpi^c)^{1/p^\infty}\rangle^a$"（分母 ϖ^c、指数 1/p^∞），MD 原本一致未改**（150dpi 下曾疑分母为 ϖ^♯）
 - 备注：h=Σ、g_{c′}、claim、两种情形 estimate 共五个 display 与 print 逐字符一致；行 1517 起（display 之后的正文）属印刷 p.290，留待下一块。
+## p.046（PDF p.46 / 印刷 p.290）
+- PNG：audit/p046.png（pngmono 150dpi）
+- 核对：页眉 290/PETER SCHOLZE；g_{c′} 恒等式两 display（g_{c′}/(ϖ^♭)^c=…+Σ(ϖ^♭)^{1−ε+ε(c′)}(…)^i s_i；g_{c′}^♯/ϖ^c=…+Σϖ^{1−ε+ε(c′)}(…)^i r_i）；f−g_c^♯=f−g_c^♯−h=0 display+QED □；Corollary 6.7 (i)–(iii)（g_{c,ε}∈R^♭、k(x)̂ perfectoid field、X→X^♭ homeomorphism）；Proof (i)（maximal points、f=g_0^♯+ϖg_1^♯+⋯+ϖ^c g_c^♯+ϖ^{c+1}f_{c+1}、K⟨T^{1/p^∞}⟩→R display）；(ii) char p 段；(iii) 段
+- 结果：**FAIL**（OCR 排版级+记号错误，已当页修复；1 处控制字节遗留见第 6 条，以原图为准）：
+  1. "desired estimate."补 QED □（print 有 tombstone）（p.290 modulo ϖ^{c+1} 段）
+  2. Corollary 6.7 头"Corollary${\bf 6.7.\_}Let"乱码→"Corollary 6.7. — Let"；"$\mathrm{Spa}(\mathrm R^\flat,\mathrm R^{\flat}+)$"→$\mathrm R^{\flat+}$；(i)"any$c\geq 0,\epsilon>0.$,"游离'.$,、such thatfor→such that for、$g_{c,\epsilon}∈\mathbb R^\flat→\mathrm R^\flat$（p.290 Corollary 行原图）
+  3. (ii)"$x∈\mathrm X,$,"双逗号→单、residuefield→residue field、perfectoidfield→perfectoid field（p.290 (ii) 行）
+  4. Proof (i)："after increasing slightly"丢ε→"increasing$\epsilon$slightly"（print "increasing ε slightly"，PNG 确认）；"enlarging$^{c,}$"伪上标→"enlarging c, we"；"$\bar f=g_0^\sharp+…$"伪 \bar 删（print 无 bar）；"$f_{c+1}∈\mathbb R^\circ→\mathrm R^\circ$"（p.290 Proof 行原图）
+  5. sending 段："$\mathrm T_i^{1/p^m}$"→"$1/p^\infty$"、"$g_i^{1/\boldsymbol p^m}$"→"$g_i^{1/p^\infty}$"（m 系 ∞ 误读，print T_i^{1/p^∞}/g_i^{1/p^∞}）、"andf"→and f（p.290 sending 行原图）
+  6. (ii) 段："$\mathrm K^{\circ a}.$-algebra"伪'.$'→-algebra；**控制字节登记：行1557 一处 \x0b（"the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）**（p.290 (ii) 行）
+  7. (iii) 段："$\mathrm{\Delta X^\flat}$"伪 Δ→$\mathrm X^\flat$、"$\mathrm T_0.$,"→"$\mathrm T_0$"（p.290 (iii) 行）
+- 备注：g_{c′} 两个恒等式 display 与 f−g_c^♯=0 display 与 print 逐字符一致；行 1561 起（"For any subset M⊂X…"）属印刷 p.291，留待 p.047。

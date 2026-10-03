@@ -1532,31 +1532,31 @@ $$
 f - g _ {c ^ {\prime}} ^ {\sharp} = f - g _ {c} ^ {\sharp} - h = 0
 $$
 
-modulo$\varpi ^ { c + 1 }$. This gives the desired estimate.
+modulo$\varpi ^ { c + 1 }$. This gives the desired estimate.□
 
-Corollary${ \bf 6 . 7 . { \_ } } L e t \left( \mathrm { R , R ^ { + } } \right)$be a perfectoid affinoid K-algebra, with tilt$( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$, and let$\mathrm { X } = \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } ) , \mathrm { X } ^ { \flat } = \mathrm { S p a } ( \mathrm { R } ^ { \flat } , \mathrm { R } ^ { \flat } + )$
+Corollary 6.7. — Let$\left( \mathrm { R , R ^ { + } } \right)$be a perfectoid affinoid K-algebra, with tilt$( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$, and let$\mathrm { X } = \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } ) , \mathrm { X } ^ { \flat } = \mathrm { S p a } ( \mathrm { R } ^ { \flat } , \mathrm { R } ^ { \flat + } )$
 
-(i) For any$f \in \mathbf { R }$and any$c \geq 0 , \epsilon > 0 .$, there exists$g _ { c , \epsilon } \in \mathbb { R } ^ { \flat }$such thatfor all$x \in \mathrm { X }$, we have
+(i) For any$f \in \mathbf { R }$and any$c \geq 0 , \epsilon > 0 .$, there exists$g _ { c , \epsilon } \in \mathrm { R } ^ { \flat }$such that for all$x \in \mathrm { X }$, we have
 
 $$
 \left| f (x) - g _ {c, \epsilon} ^ {\sharp} (x) \right| \leq | \varpi | ^ {1 - \epsilon} \max \bigl (\left| f (x) \right|, | \varpi | ^ {c} \bigr).
 $$
 
-(ii) For any$x \in \mathrm { X } ,$, the completed residuefield$\widehat { k ( x ) }$is a perfectoidfield.
+(ii) For any$x \in \mathrm { X }$, the completed residue field$\widehat { k ( x ) }$is a perfectoid field.
 
 (iii) The morphism$\mathrm { X } \to \mathrm { X } ^ { \flat }$induces a homeomorphism, identifying rational subsets.
 
-Proof. — (i) As any maximal point of$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$is contained in$\operatorname { S p a } ( \mathrm { R } , \mathrm { R } ^ { \circ } )$, and it is enough to check the inequality at maximal points after increasing slightly, it is enough to prove this if$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$. At the expense of enlarging$^ { c , }$we may assume that$f \in \mathrm { R } ^ { \circ }$, and also assume that c is an integer. Further, we can write$\bar { f } = g _ { 0 } ^ { \sharp } + \varpi g _ { 1 } ^ { \sharp } + \cdot \cdot \cdot + \varpi ^ { c } g _ { c } ^ { \sharp } + \varpi ^ { c + 1 } f _ { c + 1 }$ for certain$g _ { 0 } , \ldots , g _ { c } \in \mathbf { R } ^ { \flat \circ }$and$f _ { c + 1 } \in \mathbb { R } ^ { \circ }$. We can assume$f _ { c + 1 } = 0$. Now we have the map
+Proof. — (i) As any maximal point of$\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$is contained in$\operatorname { S p a } ( \mathrm { R } , \mathrm { R } ^ { \circ } )$, and it is enough to check the inequality at maximal points after increasing$\epsilon$slightly, it is enough to prove this if$\mathrm { R } ^ { + } = \mathrm { R } ^ { \circ }$. At the expense of enlarging c, we may assume that$f \in \mathrm { R } ^ { \circ }$, and also assume that c is an integer. Further, we can write$f = g _ { 0 } ^ { \sharp } + \varpi g _ { 1 } ^ { \sharp } + \cdot \cdot \cdot + \varpi ^ { c } g _ { c } ^ { \sharp } + \varpi ^ { c + 1 } f _ { c + 1 }$ for certain$g _ { 0 } , \ldots , g _ { c } \in \mathbf { R } ^ { \flat \circ }$and$f _ { c + 1 } \in \mathrm { R } ^ { \circ }$. We can assume$f _ { c + 1 } = 0$. Now we have the map
 
 $$
 \mathrm{K} \big \langle \mathrm{T} _ {0} ^ {1 / p ^ {\infty}}, \dots , \mathrm{T} _ {c} ^ {1 / p ^ {\infty}} \big \rangle \rightarrow \mathrm{R}
 $$
 
-sending$\mathrm { T } _ { i } ^ { 1 / { p ^ { m } } }$to$( g _ { i } ^ { 1 / \boldsymbol { p } ^ { m } } ) ^ { \sharp }$, andf is the image of$\mathrm { T } _ { 0 } + \varpi \mathrm { T } _ { 1 } + \cdot \cdot \cdot + \varpi ^ { c } \mathrm { T } _ { c } ,$to which we may apply Lemma 6.5.
+sending$\mathrm { T } _ { i } ^ { 1 / p ^ { \infty } }$to$( g _ { i } ^ { 1 / p ^ { \infty } } ) ^ { \sharp }$, and f is the image of$\mathrm { T } _ { 0 } + \varpi \mathrm { T } _ { 1 } + \cdot \cdot \cdot + \varpi ^ { c } \mathrm { T } _ { c } ,$to which we may apply Lemma 6.5.
 
-(ii) (K of characteristic$p )$. In this case, we know that$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a }$is perfectoid for any rational subset U. It follows that the  -adic completion of$\mathcal { O } _ { \mathrm { X } , x } ^ { { o a } }$is a perfectoid$\mathrm { K } ^ { \circ a } .$ algebra, hence$\widehat { k ( x ) }$is a perfectoid K-algebra. As it is also a nonarchimedean field, the result follows.
+(ii) (K of characteristic$p )$. In this case, we know that$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a }$is perfectoid for any rational subset U. It follows that the  -adic completion of$\mathcal { O } _ { \mathrm { X } , x } ^ { { o a } }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra, hence$\widehat { k ( x ) }$is a perfectoid K-algebra. As it is also a nonarchimedean field, the result follows.
 
-(iii) First, part (i) immediately implies that any rational subset of X is the preimage of a rational subset of$\mathrm { \Delta X ^ { \flat } }$. Because X is$\mathrm { T _ { 0 } } .$, this implies that the map is injective. Now any $x \in \mathrm { X } ^ { \flat }$factors as a composite$\mathbb { R } ^ { \flat } \to { \widehat { k ( x ) } } \to \Gamma \cup \{ 0 \} . \mathbb { A } \operatorname { s } { \widehat { k ( x ) } }$is perfectoid, we may untilt to a perfectoid field over$\mathrm { K } ,$, and we may also untilt the valuation by Proposition 3.6. This shows that the map is surjective, giving part (iii). Now part (ii) follows in general with the same proof.-
+(iii) First, part (i) immediately implies that any rational subset of X is the preimage of a rational subset of$\mathrm { X } ^ { \flat }$. Because X is$\mathrm { T _ { 0 } }$, this implies that the map is injective. Now any $x \in \mathrm { X } ^ { \flat }$factors as a composite$\mathbb { R } ^ { \flat } \to { \widehat { k ( x ) } } \to \Gamma \cup \{ 0 \} . \mathbb { A } \operatorname { s } { \widehat { k ( x ) } }$is perfectoid, we may untilt to a perfectoid field over$\mathrm { K } ,$, and we may also untilt the valuation by Proposition 3.6. This shows that the map is surjective, giving part (iii). Now part (ii) follows in general with the same proof.-
 
 For any subset$\mathrm { M } \subset \mathrm { X } .$, we write$\mathrm { M } ^ { \mathrm { p } } \subset \mathrm { X } ^ { \mathrm { b } }$for the corresponding subset of$\mathrm { \mathbf { X } } ^ { \mathrm { \flat } }$.
 
