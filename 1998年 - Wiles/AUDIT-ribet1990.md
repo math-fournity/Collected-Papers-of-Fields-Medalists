@@ -310,3 +310,11 @@
 - 发现并当场修复（16 个记号点）：①L1310 "(**T**/𝔪)[G]-submodule"→"\mathbf{m}"；②L1316 两处；③L1321 显示式 H¹(J,𝒪)/mH¹(J,𝒪)；④L1324 一处；⑤L1326 一处（**T**/**m**-vector space schemes）；⑥L1336 五处（𝒱_s/𝒲_s/special fibers of 𝒱 and 𝒲/T/**m**-vector space schemes）；⑦L1338 六处（𝒱_s⊂𝒲_s、𝒲_s/𝒱_s×2、copies of 𝒱_s、𝒱_s auto Cartier-dual）；⑧L1340 两处 "D"→"$\mathcal{D}$"（300 dpi 确证花体；"denoted M" 印刷普通斜体，MD 一致不改）。均据 150 dpi 页图花体 + 300 dpi 裁片。
 - 备注：印刷编号表 "2. 𝒱=𝒲" 的序号 "2." 被 mineru 从显示式中略去（结构性微瑕，登记不改）；F_l weight 拍平照例登记；页界至 L1340，L1342 起属 p.039。
 - 结果：FAIL（16 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.039（PDF p.39 / 印刷 p.468）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 20:05 -0400。
+- PNG：`audit/ribet1990_p039.png`（pngmono，150 dpi）。
+- 核对：𝒟(J[l])≈H¹_DR(J/k)；𝒟(W[Ver])=H¹(J,𝒪)/mH¹(J,𝒪)、dimension ≤1、auto-duality of V、φ/v interchanged、common rank 0 or 1；𝒟(V[Ver]) cokernel、rank 1、V[Ver]=W[Ver]；Q=W/V、Q[Ver]=0、snake-lemma (14.6) [18]、M₁/M₂/M₃；Q=0 结论；(c) 证明（T_r≡(1+r) (mod m)、trivial+cyclotomic 直和、Cebotarev/Brauer-Nesbitt、ρ_m irreducible 矛盾、□）；Definition（ρ: G→GL(2,F)、modular of level N、ω: T→F̄、trace(ρ(Frob_r))=ω(T_r)）；m=ker(ω) 段 ✓。
+- 发现并当场修复（13 个记号点，延续 **m**/**T** 粗体与 𝒟 花体印刷裁定）：①L1342 "of D"→"of $\mathcal{D}$"；②L1351 显示式 "\mathfrak{m}"→"\mathbf{m}"（p.038 遗留的第二个 H¹ 显示式实例）；③L1354 两处 "over T/m"/"2-dimensional T/m"→"$\mathbf{T}/\mathbf{m}$"；④L1356 "over T/m"→同；⑤L1362 "m and I"→"$\mathbf{m}$ and I"；⑥L1365 显示式 "\pmod{m}"→"\pmod{\mathbf{m}}"；⑦L1368 ρ_m×3→ρ_**m**；⑧L1390 "set m=ker(ω)"→"$\mathbf{m}$"、"embeds T/m"→"$\mathbf{T}/\mathbf{m}$"、ρ_m→ρ_**m**。
+- 备注：页界——印刷 p.468 止于 "defined over subfields of"，L1392 "the field F̄..." 起属 p.040。
+- 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

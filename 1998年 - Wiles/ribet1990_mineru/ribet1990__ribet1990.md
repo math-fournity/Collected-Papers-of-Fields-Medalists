@@ -1339,7 +1339,7 @@ In particular, the assertion (5.2b) means that the inclusion  $\mathcal{V}_{s} \
 
 Let $\mathcal{D}$ be the contravariant Dieudonné-module functor of Oda [23], denoted M in [23] and on pp. 116–117 of [18]. We shall apply $\mathcal{D}$ to finite flat group schemes of type  $(l, \ldots, l)$  over  $k = F_{l}$ , thereby obtaining finite-dimensional k-vector spaces which come equipped with a Frobenius map  $\phi$  and a Verschiebung v. These are commuting k-linear maps of the vector space; the composites  $\phi v$  and  $v\phi$  are 0. Since we now consider only group schemes in characteristic l, we will write simply V and W for  $V_{s}$  and  $W_{s}$ , J for the reduction of  $J_{0}(N) \mod l$ , and so forth. Finally, we will write Frob and Ver for the Frobenius and Verschiebung endomorphisms of a group scheme over  $F_{l}$ .
 
-By general properties of D, we have a canonical isomorphism
+By general properties of $\mathcal{D}$, we have a canonical isomorphism
 
 $$
 \mathscr {D} (J [ l ]) \approx H _ {\mathrm{DR}} ^ {1} (J / k).
@@ -1348,24 +1348,24 @@ $$
 Moreover, the quotient $\mathcal{D}(J[\mathrm{Ver}])$ of $\mathcal{D}(J[l])$ corresponds to the quotient $H^{1}(J,\mathcal{O})$ of $H_{\mathrm{DR}}^{1}(J / k)$. By functoriality, we get that
 
 $$
-\mathscr {D} (W [ \text { Ver } ]) = H ^ {1} (J, \mathcal {O}) / \mathfrak {m} H ^ {1} (J, \mathcal {O}),
+\mathscr {D} (W [ \text { Ver } ]) = H ^ {1} (J, \mathcal {O}) / \mathbf {m} H ^ {1} (J, \mathcal {O}),
 $$
 
-so that  $\mathcal{D}(W[\mathrm{Ver}])$  is of dimension  $\leq1$  over T/m. On the other hand, the auto-duality of V induces an auto-duality of  $\mathcal{D}(V)$ . Under this auto-duality, the maps  $\phi$  and v of  $\mathcal{D}(V)$  are interchanged. It follows that these maps have the same rank as endomorphisms of the 2-dimensional T/m-vector space  $\mathcal{D}(V)$ . Since their composite is 0, the common rank is either 0 or 1.
+so that  $\mathcal{D}(W[\mathrm{Ver}])$  is of dimension  $\leq1$  over $\mathbf{T}/\mathbf{m}$. On the other hand, the auto-duality of V induces an auto-duality of  $\mathcal{D}(V)$ . Under this auto-duality, the maps  $\phi$  and v of  $\mathcal{D}(V)$  are interchanged. It follows that these maps have the same rank as endomorphisms of the 2-dimensional $\mathbf{T}/\mathbf{m}$-vector space  $\mathcal{D}(V)$ . Since their composite is 0, the common rank is either 0 or 1.
 
-Now  $\mathcal{D}(V[\text{Ver}])$  is the cokernel of v on  $\mathcal{D}(V)$ , so that  $\mathcal{D}(V[\text{Ver}])$  has dimension 1 or 2 over T/m. Since  $\mathcal{D}(V[\text{Ver}])$  is a quotient of  $\mathcal{D}(W[\text{Ver}])$ , which has rank at most 1, we conclude that  $\mathcal{D}(V[\text{Ver}])$  and  $\mathcal{D}(W[\text{Ver}])$  both have rank 1, and that the groups V[Ver] and W[Ver] are equal.
+Now  $\mathcal{D}(V[\text{Ver}])$  is the cokernel of v on  $\mathcal{D}(V)$ , so that  $\mathcal{D}(V[\text{Ver}])$  has dimension 1 or 2 over $\mathbf{T}/\mathbf{m}$. Since  $\mathcal{D}(V[\text{Ver}])$  is a quotient of  $\mathcal{D}(W[\text{Ver}])$ , which has rank at most 1, we conclude that  $\mathcal{D}(V[\text{Ver}])$  and  $\mathcal{D}(W[\text{Ver}])$  both have rank 1, and that the groups V[Ver] and W[Ver] are equal.
 
 Let $Q = W / V$. We claim that $Q[\text{Ver}] = 0$, i.e., that $v$ is an automorphism of $\mathcal{D}(Q)$. This follows from an easy snake-lemma argument, which is axiomatized as Lemma (14.6) in [18]. Our claim follows from that lemma on taking $M_1 = \mathcal{D}(Q)$, $M_2 = \mathcal{D}(W)$, and $M_3 = \mathcal{D}(V)$.
 
 From this claim, we are now able to conclude, as desired, that Q = 0. Indeed, were Q non-zero, we could find an inclusion  $V \subset Q$ , since Q is a successive extension of copies of V, as remarked above. This gives a contradiction, since V[Ver] is non-zero, whereas Q[Ver] is 0.
 
-To prove (c), we assume that m and I are not relatively prime. We have then
+To prove (c), we assume that $\mathbf{m}$ and I are not relatively prime. We have then
 
 $$
-T _ {r} \equiv (1 + r) \pmod {m}
+T _ {r} \equiv (1 + r) \pmod {\mathbf{m}}
 $$
 
-for almost all r. The representation  $\rho_{m}$  then has the same characteristic polynomials as the direct sum of the 1-dimensional trivial representation and the 1-dimensional cyclotomic representation. In view of the Cebotarev Density and Brauer-Nesbitt theorems, we conclude that  $\rho_{m}$  has the same semisimplification as this direct sum. This contradicts the hypothesis that  $\rho_{m}$  is irreducible. ☐
+for almost all r. The representation  $\rho_{\mathbf{m}}$  then has the same characteristic polynomials as the direct sum of the 1-dimensional trivial representation and the 1-dimensional cyclotomic representation. In view of the Cebotarev Density and Brauer-Nesbitt theorems, we conclude that  $\rho_{\mathbf{m}}$  has the same semisimplification as this direct sum. This contradicts the hypothesis that  $\rho_{\mathbf{m}}$  is irreducible. ☐
 
 Definition. Suppose that
 
@@ -1387,7 +1387,7 @@ $$
 
 for almost all prime numbers $r$.
 
-Given $\rho$ as in the definition, set $m = \ker(\omega)$ and observe that $\omega$ embeds T/m into $\overline{F}$. The semisimplifications of $\rho$ and $\rho_{m}$ are then both defined over subfields of
+Given $\rho$ as in the definition, set $\mathbf{m} = \ker(\omega)$ and observe that $\omega$ embeds $\mathbf{T}/\mathbf{m}$ into $\overline{F}$. The semisimplifications of $\rho$ and $\rho_{\mathbf{m}}$ are then both defined over subfields of
 
 the field  $\bar{F}$ . Since their traces and determinants coincide, their semisimplifications are isomorphic over  $\bar{F}$ .
 
