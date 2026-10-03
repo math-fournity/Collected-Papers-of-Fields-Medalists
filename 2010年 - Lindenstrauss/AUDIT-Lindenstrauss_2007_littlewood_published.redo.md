@@ -173,3 +173,24 @@
   行 G=SL(k,ℝ)/k≥3/X=G/Γ/A<G/k×k 对角群定义逐句与印刷吻合。本页 MD 无需修改。
 
 ---
+
+## p.008（PDF p.8 / 印刷 p.520）
+
+- PNG：audit-redo/p008.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：Σ 定义式、α^t/diag 约定、unipotent/normalized/normalizer/centralizer 定义段、foliation
+  invariance 与 expands U 定义、M_∞(Y) 与 weak\* 拓扑、ν_1∝ν_2 比例记号、球 B_ε 记号、
+  d(·,·) 度量约定、§2 标题、§2.1 起始段。
+- 结果：**PASS±**（1 处偏离已修复）
+- 差异列表：
+  1. 重复句点：MD 原作「continuous$f .$. For two Radon measures」，印刷（文本层行 23）为单句点
+     「continuous f. For two Radon」。已修复为 `continuous$f.$ For two Radon measures`
+     （MD 第 147 行）。
+  2. 缺运行头「520 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS」（系统性，不改）。
+  3. 行内紧排伪影：`normalized$b y \ g \in G$`（by 拆成 b y）、`$g \in U , \ g - \mathrm{I}_k$` 等，排版级，不改。
+- 其余核对：Σ={t∈ℝ^k: t_1+⋯+t_k=0}、(t_1,…,t_k)↦diag、α^t=diag(e^{t_1},…,e^{t_k})∈A、
+  ℝ^{k−1} flow、g−I_k 幂零、gHg^{−1}=H、N(H)/C(H)、a(Ux)=Uax、Ad(a) 特征值>1、
+  ρ↦∫_Y f(y)dρ(y)、ν_1∝ν_2 若 ν_1=Cν_2（C>0）、B_ε^Y(y)/B_ε^H(I)/B_ε^H·x、
+  right-invariant Riemannian metric、H⊂G、X=G/Γ、§2 双行标题、[17, §4]/[45]/[20, §3] 逐项
+  与印刷吻合。
+
+---

@@ -144,7 +144,7 @@ A subgroup$U < G$is unipotent if for every$g \in U , \ g - \operatorname { I } _
 
 If$U < G$is normalized by A then for every$x \in X$and$a \in A , a ( U x ) =$ $U a x$, so that the foliation of X into U orbits is invariant under the action of A. We will say that$a \in A$expands U if all eigenvalues of$\operatorname { A d } ( a )$restricted to the Lie algebra of U are greater than one.
 
-For any locally compact metric space Y let$M _ { \infty } ( Y )$denote the space of Radon measures on Y equipped with the weak<sup>∗</sup> topology, i.e. all locally finite Borel measures on$Y$with the coarsest topology for which$\textstyle \rho \mapsto \int _ { Y } f ( y ) d \rho ( y )$ is continuous for every compactly supported continuous$f .$. For two Radon measures$\nu _ { 1 }$and$\nu _ { 2 }$on$Y$we write
+For any locally compact metric space Y let$M _ { \infty } ( Y )$denote the space of Radon measures on Y equipped with the weak<sup>∗</sup> topology, i.e. all locally finite Borel measures on$Y$with the coarsest topology for which$\textstyle \rho \mapsto \int _ { Y } f ( y ) d \rho ( y )$ is continuous for every compactly supported continuous$f.$ For two Radon measures$\nu _ { 1 }$and$\nu _ { 2 }$on$Y$we write
 
 $$
 \nu_ {1} \propto \nu_ {2} \text {   if   } \nu_ {1} = C \nu_ {2} \text {   for   some   } C > 0,
