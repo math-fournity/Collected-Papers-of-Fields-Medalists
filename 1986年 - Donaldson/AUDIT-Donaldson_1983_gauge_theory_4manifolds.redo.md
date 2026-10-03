@@ -236,3 +236,13 @@
   - **修复×3（print quirk 复原）**：行 774 `\delta_{ij}+O|x|^{2}` 与行 783 `r^{2}O|y|^{2}`、`O(r^{2})` 三处——600dpi 放大确认印刷均为**窄长直边数字 0**（非大写 O；同页 §I.3 的 I 与之对照清晰），数学上应为 big-O 系原刊排印用零；Luna 曾按数学预期静默作 O，按 print quirk 忠实原则复原为 0 并在此登记。ABBYY 文本层第二通道：一行作 `0(r2)`、另一行作 `θ`（OCR 自身不定），以 600dpi 页图为准。
   - 排版级伪影（登记不改）：*Proof of Theorem 13.* 斜体拍平；行 797 末句 "diagonal argument" 印刷无引号（md 亦无，一致；与行 755 带引号用法并存系印刷原样）。
 - 修复登记：行 774 `O|x|^{2}`→`0|x|^{2}`；行 783 `r^{2}O|y|^{2}`→`r^{2}0|y|^{2}`、`O(r^{2})`→`0(r^{2})`（依据 `audit-redo/p020.png` + 600dpi 裁片）。
+
+### p.021（PDF p.21 / 印刷 p.299）
+
+- PNG：`audit-redo/p021.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（"compatability" 拼写、"(3) above" 交叉引用，结论记于本条）
+- 核对：III.2 证明收尾（连接矩阵 A_{i'}(α)→A_∞(α) 式、转移函数与 compatability 句、式(1)、g_{i'} 有界与子序列收敛段、(A_∞(α),g_∞(α,β)) 数据段、式(2)、Uhlenbeck 可去奇点段、式(3)、κ₁⋯κ_l 紧集段、ρ_{i'}:Q|_K→P|_K、归纳构造句、Tc₂ 极限式、l=0/1 分类 (i)(ii)）
+- 结果：**PASS±**（无修复，两条新 print quirk 登记）。
+  - 与页图一致：`A_{i'}(\alpha)\to A_\infty(\alpha)\ in\ C^\infty(\frac12 B_\alpha)`、式(1) 全式（含 `dg_{i'}(\alpha,\beta)g_{i'}(\alpha,\beta)^{-1}` 前置负号与 `\tag{1}`）、式(2)（含 `\lim` 与 `\tag{2}`）、式(3) `\frac{1}{8\pi^2}\int_{B_j}|F(\tilde A_i)|^2d\mu=\frac{1}{8\pi^2}\int_{B_j}Tr(F\wedge F)=-Tc_2(\tilde A_i|_{\partial B_j}),\ \mod\mathbf{Z}`（300dpi 确认粗体 **Z**）、`K\subset X\setminus\{\kappa_1,\cdots,\kappa_l\}`（300dpi 确认印刷为 kappa 字形，md `\kappa` 忠实；与本页他处 `x_j` 用字不一系印刷原样）、`\rho_{i'}\colon Q|_K\to P|_K`、`Tc_2(A_\infty|_{\partial B_j})=\lim_{i'}Tc_2(\tilde A_{i'}|_{\partial B_j})`、`[21,\ \S3]`、`A_{i'}\ in\ \mathcal{Q}`（草书 𝒬，md 本就正确）、`§I.3` 罗马 I。
+  - **印刷 quirk 登记（不改，300dpi 确认）**：① 行 805 "compatability condition"（compatibility 之排印误植，印刷连字符断词 com-/patability，md 忠实保留）；② 行 819 "strict inequality in (3) above"——数学上应指式(2)，印刷确作 (3)，系原刊交叉引用笔误，md 忠实保留。
+  - 排版级伪影（登记不改）：行 837 *either* 斜体拍平为正体。
+- 修复登记：无。
