@@ -1648,7 +1648,7 @@ $$
 p = 7 \left(\mathrm{n} ^ {\circ} 5. 5\right).
 $$
 
-5.1. Exemples provenant de  $\mathbf{GL}_{2}(\mathbf{F}_{2}) \simeq \mathfrak{S}_{3}$ . Soit K un corps cubique non abélien, et soit  $K^{gal}$  sa clôture galoisienne. Le groupe  $\operatorname{Gal}(K^{\operatorname{gal}}/\mathbf{Q})$  est isomorphe au groupe symétrique  $S_{3}$ , lui-même isomorphe à  $\mathbf{GL}_{2}(\mathbf{F}_{2})$ . On obtient ainsi une représentation
+5.1. Exemples provenant de  $\mathbf{GL}_{2}(\mathbf{F}_{2}) \simeq \mathfrak{S}_{3}$ . Soit K un corps cubique non abélien, et soit  $K^{gal}$  sa clôture galoisienne. Le groupe  $\operatorname{Gal}(K^{\operatorname{gal}}/\mathbf{Q})$  est isomorphe au groupe symétrique  $\mathfrak{S}_{3}$ , lui-même isomorphe à  $\mathbf{GL}_{2}(\mathbf{F}_{2})$ . On obtient ainsi une représentation
 
 $$
 \rho^ {K} \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {2}),
@@ -1670,7 +1670,7 @@ le caractère ε est égal à 1;
 
 le poids $k$ de $\rho^{K}$ est égal à 2 (resp. 4) si $m = 0, 2$ (resp. si $m = 3$).
 
-La conjecture (3.2.4.) prédit alors l'existence d'une forme parabolique $f$ à coefficients dans $\mathbf{F}_{2}$ (ou dans $\mathbf{F}_{4}$ si $m=0$, i.e., si $K$ est non ramifié en 2), de type $(N,k,1)$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho^{K}$ soit isomorphe à $\rho_{f}$. Le tableau suivant donne une liste de cas où ceci a été vérifié sur ordinateur:
+La conjecture (3.2.4?) prédit alors l'existence d'une forme parabolique $f$ à coefficients dans $\mathbf{F}_{2}$ (ou dans $\mathbf{F}_{4}$ si $m=0$, i.e., si $K$ est non ramifié en 2), de type $(N,k,1)$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho^{K}$ soit isomorphe à $\rho_{f}$. Le tableau suivant donne une liste de cas où ceci a été vérifié sur ordinateur:
 
 | D&lt;0 | k=poids | N=niveau | D>0 | k=poids | N=niveau |
 | --- | --- | --- | --- | --- | --- |

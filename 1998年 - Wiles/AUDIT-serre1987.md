@@ -321,3 +321,11 @@
 - 结果：PASS。公式、不等式、界（⩽ 9/5/2）、引用页码全部与印刷吻合。
 - 印刷原文 quirk：d 的定义式印刷为 Σ_{i⩾0}(g_i − 1)（300 dpi 裁片确认下标含等号；数学上 différente 的 valuation 应为 i>0，疑原文笔误），print 原文优先，Markdown 同作 i ⩾ 0 忠实保留。
 - 备注：150 dpi 阶段 “i>0” 判读经裁片排除；“3⁵”/“2⁸” Unicode 上标渲染等效，排版级；页眉 “216 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…courbes elliptiques de conducteur 2⁸.”，§5 开头属印刷 p.217。
+
+## p.039（PDF p.39 / 印刷 p.217）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p039.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p039_s3_title.png`（pnggray）。
+- 核对：§5 开头（J-F. Mestre、p = 2/3/7 与 n°s 5.1-5.5 列表）、5.1 标题（GL₂(F₂) ≃ 𝔖₃）、K^gal/Gal(K^gal/Q) 段、ρ^K: G_Q → GL₂(F₂) 式、(N, k, ε) 判定段（D = ±2^m N、m = 0, 2 où 3、conducteur N、ε = 1、k = 2 (resp. 4)）、(3.2.4?) 预测段（F₂/F₄、(N, k, 1)）、A₃/U₂ 数值表（−23/2/23、−31/2/31、−44/2/11、−59/2/59、−76/2/19、−104/4/13、148/2/37、229/2/229、257/2/257、316/2/79）、(D = −23, −31, 257) 括注（F₄ − F₂、(3.2.6?)）。
+- 结果：FAIL。两处已依原图修复：① 正文 “le groupe symétrique 𝔖₃” 在 Markdown 写成普通斜体 $S_{3}$（300 dpi 裁片确认 Fraktur 花体，与 5.1 标题同字形），修为 $\mathfrak{S}_{3}$；② “La conjecture (3.2.4.)” 丢下标 ?，印刷为 (3.2.4_?)，修为 “(3.2.4?)”。其余文字与表格逐格吻合。
+- 备注：Markdown 表格为 markdown table 格式，表头 “D<0” 以 HTML 转义呈现，渲染正常，排版级；5.1 标题同构符号与全文 \simeq 字形一致，不改；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 217” 未收入 Markdown，排版级。印刷页止于 “…appartiennent à F₂.)”，PROPOSITION 10 段属印刷 p.218。
