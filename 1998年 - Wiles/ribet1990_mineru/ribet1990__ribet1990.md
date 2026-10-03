@@ -1647,7 +1647,7 @@ not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q
 
 34. Serre, J-P.: Lettre à J-F. Mestre (13 août 1985). Contemp. Math. 67, 263–268 (1987)
 
-35. Serre, J-P.: Sur les représentations modulaires de degré 2 de Gal(Q/Q). Duke Math. J. 54, 179–230 (1987)
+35. Serre, J-P.: Sur les représentations modulaires de degré 2 de $\operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$. Duke Math. J. 54, 179–230 (1987)
 
 36. Shimizu, H.: On the zeta functions of quaternion algebras. Ann. Math. 81, 166-193 (1965)
 
@@ -1664,3 +1664,5 @@ not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q
 42. Waterhouse, W.C.: Abelian varieties over finite fields. Ann. Sci. Ec. Norm. Sup. IV. Ser. 2, 521–560 (1969)
 
 [EGA IV] Grothendieck, A.: Etude locale des schémas et des morphismes de schémas (quatrième partie). Publ. Math, Inst. Hautes Etud. Sci. 32, 5–361 (1967)
+
+Oblatum 27-IX-1988 & 20-XI-1989

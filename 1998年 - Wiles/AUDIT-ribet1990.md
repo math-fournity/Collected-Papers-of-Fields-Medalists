@@ -373,3 +373,12 @@
 - 核对：Theorem 8.2 证明收尾（*not* have q ≡ +1 (mod l).）Applying (6.1), with p replaced by q, we deduce that ρ is modular of level M.；□ 惯例不收录）；References 1–27 逐条（作者/题名/刊名缩写/卷号粗体/页码区间/年份/出版项）✓ 与印刷一致。关键歧义点 300/600 dpi 仲裁：ref 1 "A.O.L."（句点齐全）；ref 3 下标 PGL₂(k_w)（600 dpi 确证为斜体 w，非 d/ω）；ref 5 "Sup., IV. Ser. 7"（印刷 Sup. 后确有逗号，IV 罗马体非 1V）；ref 8 断词 "jacobien-nes"="jacobiennes"；ref 9 "(1958)"（150 dpi 曾疑 1938，300 dpi 确证 1958，MD 正确）；ref 10 "Sarav., Ser Math. 1"（印刷 Ser 后本无句点，MD 忠实）；ref 12 "Vol. 114.)"（印刷括内有句点）；ref 15 "Mazur, B.:"（印刷有句点）；ref 16 "277–300"（印刷有 en-dash）；ref 18/24 "Publ. Math., Inst."（印刷句点+逗号）；ref 22 "(eds.)"（印刷无重音）、"Labesse"；ref 23 "Sup. IV, Ser. 2"（印刷 IV 后逗号）——均与 MD 逐项吻合。
 - 印刷/排版 quirk 登记（不改）：①ref 1 MD 页码区间作半角连字符 "134-160"（印刷 en-dash；MD 其余条目用 en-dash，内部体例不一但不碍检索，SOP 默认不批量改）；②ref 8 "Eisenstein" 印刷弯引号、MD 直引号；③页眉 "On modular representations…/475" 与行末 □ 为 mineru 惯例不收录（同 p.002/p.023 备注）。
 - 结果：PASS±（2 处排版级伪影，无内容错误，无需修复）。
+
+## p.047（PDF p.47 / 印刷 p.476）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-03 19:25 -0400。
+- PNG：`audit/ribet1990_p047.png`（pngmono，150 dpi）。仲裁裁片：/tmp 300 dpi 两条（refs 28–42 含 [EGA IV] 与 Oblatum；另 130% 放大裁片核 [EGA IV] 标点与 Oblatum 逐字符），核验后未存档。
+- 核对：References 28–42 逐条（作者/题名/刊名缩写/卷号/页码区间/年份/出版项）✓；无编号条目 "[EGA IV] Grothendieck, A.: Etude locale des schémas et des morphismes de schémas (quatrième partie). Publ. Math, Inst. Hautes Etud. Sci. 32, 5–361 (1967)"（MD 文末原有，逐字含 "Publ. Math," 逗号 quirk ✓）；收稿日期 "Oblatum 27-IX-1988 & 20-XI-1989"；页眉 "476 / K.A. Ribet" 惯例不收录。重点仲裁：ref 32 "(eds.)."（印刷无重音、句点在括号后 ✓）；ref 35 印刷为 Gal(**Q̄**/**Q**)（粗体 Q 带上杠，300 dpi 确证）；ref 39 印刷原刊 typo "Airthmetic"（300 dpi 确证，MD 忠实保留，同 p.045 "a not a" 先例）；ref 41 "Vol. 800.)"；ref 42 "Sup. IV. Ser."（印刷此处 IV 后句点，与 p.046 ref 23 "IV," 逗号为印刷自身体例不一，MD 逐处照印 ✓）；[EGA IV] 条目印刷 "Publ. Math, Inst."（Math 后逗号无句点，异于同刊 refs 18/24 之 "Math.,"，300 dpi 放大确证，MD 原文一致）。
+- 发现并当场修复（2 处）：①ref 35 "Gal(Q/Q)" 上杠与粗体在 mineru 导出中丢失 → 补为 "$\operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$"（与文件首题名块同款记号，300 dpi 裁片为据）；②收稿日期行 "Oblatum 27-IX-1988 & 20-XI-1989" 整行缺失 → 按印刷补于 [EGA IV] 条目之后。
+- 过程勘误（登记备查）：本页初判曾误认 MD 缺失 [EGA IV] 条目——首轮分段 Read 的窗口止于次末行、且文件末行无换行符（`wc -l` 少计 1 行）导致漏读；按规范全文复读 + `git diff` 对照后确认该条目 MD 原有，本轮一度插入的重复条目已当场撤销，终态为原条目逐字保留 + 仅新增 Oblatum 行（diff 最终为 +4/−2 行）。
+- 印刷/排版 quirk 登记（不改）：①ref 30 "1987-88"、ref 36 "166-193"、ref 38 "144-222" MD 半角连字符（印刷 en-dash，同 p.046 ref 1 之类伪影）；②ref 31 印刷 "(1990) ." 句点与括号间有空格，MD 合并为 "(1990)."；③参考文献各卷号印刷为粗体、MD 通体正体（体例级拍平，全书一致，不碍检索，SOP 默认不改）。
+- 结果：FAIL（1 处记号丢失 + 1 行收稿日期缺失）→ 本页当场修复闭环，修复后与原图逐项吻合。
