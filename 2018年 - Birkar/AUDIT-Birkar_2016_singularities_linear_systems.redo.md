@@ -41,3 +41,12 @@
   - 公式 $K_{W_n}+\frac{n-2}{n}E=f^*K_{X_n}$、$\frac{2}{n}$-lc、$(\mathbb{P}^2,\Delta=S+T+R)$、$x_0:=S\cap T$、$x_1:=S^{\sim}\cap E_1$ 等均与印刷一致。
 - 备注：Luna p.003 登记的差异与修复全部属实；漏报的两处标题提升与上标波浪已补记。本次重检未发现本页数学内容错误。
 - 记录时间：2026-10-03 12:22 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.004（PDF p.4 / 印刷 p.4）
+- PNG：`audit-redo/p004.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：McKernan–Prokhorov 猜想段（含 M<sup>c</sup>Kernan 上标 c）、Jordan property 段与 Corollary 1.5 全文、Cremona group $\mathrm{Cr}_d(k):=\mathrm{Bir}(\mathbb{P}^d_k)$、Bir(X) 非 Jordan 段（[45]/[40]）、`lct(X,B,L)`、`|A|_R` 定义及四个行间公式（inf/sup 两条等价式）；与 Markdown 第 113–153 行逐项比对，辅以 `pdftotext -f 4 -l 4`。
+- 结果：**PASS±**
+  - 正文、Corollary 1.5、`[39, Theorem 1.8]`、`[41, 6.1]`、四条行间公式及 `|A|`、`|A|_Q` 句均与印刷一致；`M<sup>c</sup>Kernan` 与印刷的上标 c 排印一致（Luna 判定忠实，维持）。
+  - PASS± 项（不修，登记）：①`Kähler-Einstein` 被编码为 `K¨ahler-Einstein`（变音符脱离元音，可辨；与 Luna 登记一致）；②行末 `$A = - K _ { X }$` 后缺句点（印刷句末有点，属下页跨行末尾，标点扁平）；③若干数学式与单词空格粘连。
+- 备注：Luna p.004 登记属实、无过度或遗漏修复。本页无数学内容错误。
+- 记录时间：2026-10-03 12:27 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
