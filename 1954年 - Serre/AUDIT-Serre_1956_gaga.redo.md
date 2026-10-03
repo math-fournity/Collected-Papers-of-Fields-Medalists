@@ -1,0 +1,23 @@
+<!-- actor=Wf-R-P09; host=zcode; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN） -->
+# Serre_1956_gaga 审计重做（Luna 审计不可信 → 全量逐页重检）
+
+## 文件头
+
+- 性质：**Luna 审计重做**。用户 2026-10-02 判定此前 GPT-6 Luna（Peer-P09）对该篇的审计不可信，本 redo 按 AUDIT-SOP 逐页对照 PDF 原页全量重检；Luna 的旧修复（commit `c270a3c2c` 等）一并作为被检对象重核。
+- 裁决源：印刷原文 PDF（`1954年 - Serre/Serre_1956_gaga.pdf`）。Luna 旧 AUDIT/旧修复、pdftotext 文本层均只作线索或辅助通道，不作裁决。
+- actor=Wf-R-P09；host/model/effort=zcode / account:zai-individual-coding-plan/GLM-5.3-Flash / max（run级配置，自报UNKNOWN）。
+- PDF：`1954年 - Serre/Serre_1956_gaga.pdf`，SHA-256 `9898f985dd6932496e26450bfe0beca8655a937032f545b97cebd88d1bc8eb98`，43 页（pdfinfo：Pages: 43）。PDF p.1 为 Numdam 封面（无印刷页码），PDF p.2–43 = 印刷 p.1–42。
+- 被检 Markdown 基线：`1954年 - Serre/Serre_1956_gaga_mineru/Serre_1956_gaga__Serre_1956_gaga.md`，重做开始时 SHA-256 `f4ebe12f7a27be038319d2eb23db2f236b6dad7add13c26b9ed8d6224ed19408`（1119 行；该基线已含 Luna 旧修复）。
+- 证据图：`1954年 - Serre/audit-redo/`（pngmono 150dpi，本 redo 专用；旧 `audit/` 不动）。
+- 文本层判定（2026-10-03）：`pdftotext -f 1 -l 1` 首页返回完整封面文本（Numdam 题录、版权、数字化声明，exit 0）→ **文本层可用，采用双通道主对账**（每页 PNG 视觉检视为主、pdftotext 页文本为辅，二者不一致时以 PNG/原页为准）。
+- 日期时间：2026-10-03 12:02 EDT 起。
+- print quirk 与印刷错字忠实登记，绝不按数学预期静默改正；看不清的以 300dpi 裁剪仲裁或如实标注，绝不编造。
+
+## 页级记录（重做）
+
+## p.001（PDF p.1 / 印刷封面，无页码）
+- PNG：audit-redo/p001.png（pngmono 150dpi）
+- 核对：题录（作者/标题/卷期页码/Numdam URL）、版权与使用条款、Numdam 数字化声明、报头。
+- 结果：PASS±。MD 行 1–13 与原页逐项吻合（JEAN-PIERRE SERRE / Géométrie algébrique et géométrie analytique / tome 6 (1956), p. 1-42 / item?id=AIF_1956__6__1_0 / © …tous droits réservés / L'accès aux archives… / NUMDAM / 数字化声明三行）。差异：原页顶部灰色网点带上的字距报头「ANNALES DE L'INSTITUT FOURIER」在 MD 无对应行——期刊名已在题录与版权文字中出现，属呈现省略不误导（Luna 旧判同此，重检维持）。Luna 对本页无 md 修复。
+- 备注：本页为 born-digital Numdam 封面，pdftotext 辅助通道与 PNG 一致。
+
