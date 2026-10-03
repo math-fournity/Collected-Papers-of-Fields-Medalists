@@ -301,3 +301,12 @@
 - 发现并当场修复（20 个记号点，全部为最大理想 **m**/Hecke 代数 **T** 粗体系——延续 p.036 印刷裁定，300 dpi 裁片确证）：①L1278 "T↦(T mod m)"→"\mathbf{m}"；②L1281 显示式同款；③L1288 七处（let m/of T/ρ_m×3/attached to m/characteristic of m）；④L1290 "(T/m)[G]"→"($\mathbf{T}/\mathbf{m}$)[G]"；⑤L1293 显示式 "\mathfrak{m}"→"\mathbf{m}"；⑥L1296 三处；⑦L1298 三处；⑧L1300 三处（\mathfrak{m}×2、ρ_m）；⑨L1304 一处；⑩L1308 三处（action of T、field T/m×2）。
 - 备注：页界——印刷 p.466 止于 "This gives (a)."，MD L1310 起（To prove (b)、H⁰(X,Ω¹)、Néron model 段与编号表）属 p.038 范围（其中 L1326 "model model" 重复词与剩余 \mathfrak{m} 将在 p.038 条目处理）。
 - 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.038（PDF p.38 / 印刷 p.467）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 19:52 -0400。
+- PNG：`audit/ribet1990_p038.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："Let **𝒟** be the contravariant Dieudonné-module functor…denoted M…"（𝒟 花体、M 普通斜体）确证，未存档）。
+- 核对：To prove (b)（minimal submodule、V⊂W、X₀(N) over F_l）；H⁰(X,Ω¹)→F_l[[q]]、H⁰(X,Ω¹)[m] dimension ≤1；H¹(J,𝒪)/mH¹(J,𝒪)、pp.116–117 [18]；Néron model 段（𝒯 abelian scheme、Zariski closures 𝒱/𝒲、T[l]、e<(l−1)、[25] §3/3.3.2/3.3.6）；等价条件表 1. V=W / 2. 𝒱=𝒲 / 3. 𝒱_s=W_s；𝒱_s/𝒲_s special fibers；auto Cartier-dual 段；𝒟 Dieudonné functor（Oda [23]、(l,…,l)、φ/v、φv=vφ=0、Frob/Ver 约定）✓。
+- 印刷原文 quirk：印刷即为 "Let 𝒯 be the Néron model **model** of J over Q_l"——"model model" 重复词为原刊 typo，MD 忠实保留不改（300 dpi 页图核验）。
+- 发现并当场修复（16 个记号点）：①L1310 "(**T**/𝔪)[G]-submodule"→"\mathbf{m}"；②L1316 两处；③L1321 显示式 H¹(J,𝒪)/mH¹(J,𝒪)；④L1324 一处；⑤L1326 一处（**T**/**m**-vector space schemes）；⑥L1336 五处（𝒱_s/𝒲_s/special fibers of 𝒱 and 𝒲/T/**m**-vector space schemes）；⑦L1338 六处（𝒱_s⊂𝒲_s、𝒲_s/𝒱_s×2、copies of 𝒱_s、𝒱_s auto Cartier-dual）；⑧L1340 两处 "D"→"$\mathcal{D}$"（300 dpi 确证花体；"denoted M" 印刷普通斜体，MD 一致不改）。均据 150 dpi 页图花体 + 300 dpi 裁片。
+- 备注：印刷编号表 "2. 𝒱=𝒲" 的序号 "2." 被 mineru 从显示式中略去（结构性微瑕，登记不改）；F_l weight 拍平照例登记；页界至 L1340，L1342 起属 p.039。
+- 结果：FAIL（16 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

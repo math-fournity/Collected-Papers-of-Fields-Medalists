@@ -1307,23 +1307,23 @@ Proof. All three statements are elaborations of results of [18], with (a) and (b
 
 To prove (a), we first note that W is non-zero because the action of $\mathbf{T}$ on  $J_{0}(N)$  is faithful. Form the direct sum D of W and its Cartier dual  $\operatorname{Hom}(W, \mu_{l})$ . For all primes r prime to Nl, the characteristic polynomial of  $Frob_{r}$  acting on D, relative to the field T/$\mathbf{m}$, is then  $(x^{2} - T_{r}x + r)^{n}$ , where n is the T/$\mathbf{m}$-dimension of W. By the Cebotarev Density and Brauer-Nesbitt theorems, it follows that the semisimplification of W is  $V^{n}$ . This gives (a).
 
-To prove (b), we pick a minimal (non-zero) $(\mathbf{T} / \mathfrak{m})[G]$-submodule of $W$. By (a), this submodule is isomorphic to $V$. Hence we have an inclusion $V \subset W$, and we must prove that $V = W$. The hypothesis that $N$ and $l$ are relatively prime facilitates the consideration of $X_0(N)$ over $\mathbf{F}_l$. Let $X$ denote the curve $X_0(N)$ over $\mathbf{F}_l$. The injective $q$-expansion map
+To prove (b), we pick a minimal (non-zero) ($\mathbf{T}/\mathbf{m}$)[G]-submodule of $W$. By (a), this submodule is isomorphic to $V$. Hence we have an inclusion $V \subset W$, and we must prove that $V = W$. The hypothesis that $N$ and $l$ are relatively prime facilitates the consideration of $X_0(N)$ over $\mathbf{F}_l$. Let $X$ denote the curve $X_0(N)$ over $\mathbf{F}_l$. The injective $q$-expansion map
 
 $$
 H ^ {0} (X, \Omega^ {1}) \rightarrow \mathbf {F} _ {l} [ [ q ] ]
 $$
 
-and the arguments of ([18], Ch. II, §9) show that $H^0(X, \Omega^1)[\mathfrak{m}]$ is of $\mathbf{T} / \mathfrak{m}$-dimension $\leq 1$.
+and the arguments of ([18], Ch. II, §9) show that $H^0(X, \Omega^1)[\mathbf{m}]$ is of $\mathbf{T} / \mathbf{m}$-dimension $\leq 1$.
 
 Since $J = J_0(N)$ is the Picard variety of $X_0(N)$, we find (computing over $\mathbf{F}_l$) that
 
 $$
-H ^ {1} (J, \mathcal {O}) / \mathfrak {m} H ^ {1} (J, \mathcal {O})
+H ^ {1} (J, \mathcal {O}) / \mathbf {m} H ^ {1} (J, \mathcal {O})
 $$
 
-is of $\mathbf{T} / \mathfrak{m}$-dimension $\leq 1$. We will deduce (5.2b) from this fact, together with arguments which parallel those given on pp. 116-117 of [18].
+is of $\mathbf{T} / \mathbf{m}$-dimension $\leq 1$. We will deduce (5.2b) from this fact, together with arguments which parallel those given on pp. 116-117 of [18].
 
-Let $\mathcal{T}$ be the Néron model model of $J$ over $\mathbf{Q}_l$, so that $\mathcal{T}$ is an abelian scheme over $\mathbf{Z}_l$. Consider the Zariski closures $\mathcal{V}$ and $\mathcal{W}$ of $V$ and $W$ in $\mathcal{T}$. These are contained in the kernel $\mathcal{T}[l]$ of multiplication by $l$ on $\mathcal{T}$, a group which is finite and flat over $\mathbf{Z}_l$, since $\mathcal{T}$ is an abelian scheme. Hence $\mathcal{V}$ and $\mathcal{W}$ are finite and flat. The hypothesis that $l$ is prime to $2N$ gives in particular that $e < (l - 1)$, where $e(= 1)$ is the absolute ramification index of $\mathbf{Q}_l$. The results of [25], §3 therefore apply to show that $\mathcal{V}$ and $\mathcal{W}$ are $\mathbf{T}/\mathfrak{m}$-vector space schemes ([25], 3.3.2) and that $\mathcal{V}$ is a subgroup of $\mathcal{W}$ ([25], 3.3.6). Moreover, the quotient $\mathcal{W}/\mathcal{V}$ is finite and flat ([25], 3.3.6). Therefore, the following conditions are all equivalent:
+Let $\mathcal{T}$ be the Néron model model of $J$ over $\mathbf{Q}_l$, so that $\mathcal{T}$ is an abelian scheme over $\mathbf{Z}_l$. Consider the Zariski closures $\mathcal{V}$ and $\mathcal{W}$ of $V$ and $W$ in $\mathcal{T}$. These are contained in the kernel $\mathcal{T}[l]$ of multiplication by $l$ on $\mathcal{T}$, a group which is finite and flat over $\mathbf{Z}_l$, since $\mathcal{T}$ is an abelian scheme. Hence $\mathcal{V}$ and $\mathcal{W}$ are finite and flat. The hypothesis that $l$ is prime to $2N$ gives in particular that $e < (l - 1)$, where $e(= 1)$ is the absolute ramification index of $\mathbf{Q}_l$. The results of [25], §3 therefore apply to show that $\mathcal{V}$ and $\mathcal{W}$ are $\mathbf{T}/\mathbf{m}$-vector space schemes ([25], 3.3.2) and that $\mathcal{V}$ is a subgroup of $\mathcal{W}$ ([25], 3.3.6). Moreover, the quotient $\mathcal{W}/\mathcal{V}$ is finite and flat ([25], 3.3.6). Therefore, the following conditions are all equivalent:
 
 1. V = W,
 
@@ -1333,11 +1333,11 @@ $$
 
 3. $\mathcal{V}_{\mathrm{s}} = W_{\mathrm{s}}$
 
-Here  $V_{s}$  and  $W_{s}$  are the special fibers of V and W; they are T/m-vector space schemes over  $F_{l}$ .
+Here  $\mathcal{V}_{s}$  and  $\mathcal{W}_{s}$  are the special fibers of $\mathcal{V}$ and $\mathcal{W}$; they are $\mathbf{T}/\mathbf{m}$-vector space schemes over  $F_{l}$ .
 
-In particular, the assertion (5.2b) means that the inclusion  $V_{s} \subset W_{s}$  is an equality, i.e., that the quotient  $W_{s}/V_{s}$  is 0. We note that  $W_{s}/V_{s}$  is certainly a successive extension of copies of  $V_{s}$, and also that  $V_{s}$  is auto Cartier-dual. Indeed, these statements follow from (5.2a) and the auto-duality of V, by arguments using [25] which are analogous to those just given.
+In particular, the assertion (5.2b) means that the inclusion  $\mathcal{V}_{s} \subset \mathcal{W}_{s}$  is an equality, i.e., that the quotient  $\mathcal{W}_{s}/\mathcal{V}_{s}$  is 0. We note that  $\mathcal{W}_{s}/\mathcal{V}_{s}$  is certainly a successive extension of copies of  $\mathcal{V}_{s}$, and also that  $\mathcal{V}_{s}$  is auto Cartier-dual. Indeed, these statements follow from (5.2a) and the auto-duality of V, by arguments using [25] which are analogous to those just given.
 
-Let D be the contravariant Dieudonné-module functor of Oda [23], denoted M in [23] and on pp. 116–117 of [18]. We shall apply D to finite flat group schemes of type  $(l, \ldots, l)$  over  $k = F_{l}$ , thereby obtaining finite-dimensional k-vector spaces which come equipped with a Frobenius map  $\phi$  and a Verschiebung v. These are commuting k-linear maps of the vector space; the composites  $\phi v$  and  $v\phi$  are 0. Since we now consider only group schemes in characteristic l, we will write simply V and W for  $V_{s}$  and  $W_{s}$ , J for the reduction of  $J_{0}(N) \mod l$ , and so forth. Finally, we will write Frob and Ver for the Frobenius and Verschiebung endomorphisms of a group scheme over  $F_{l}$ .
+Let $\mathcal{D}$ be the contravariant Dieudonné-module functor of Oda [23], denoted M in [23] and on pp. 116–117 of [18]. We shall apply $\mathcal{D}$ to finite flat group schemes of type  $(l, \ldots, l)$  over  $k = F_{l}$ , thereby obtaining finite-dimensional k-vector spaces which come equipped with a Frobenius map  $\phi$  and a Verschiebung v. These are commuting k-linear maps of the vector space; the composites  $\phi v$  and  $v\phi$  are 0. Since we now consider only group schemes in characteristic l, we will write simply V and W for  $V_{s}$  and  $W_{s}$ , J for the reduction of  $J_{0}(N) \mod l$ , and so forth. Finally, we will write Frob and Ver for the Frobenius and Verschiebung endomorphisms of a group scheme over  $F_{l}$ .
 
 By general properties of D, we have a canonical isomorphism
 
