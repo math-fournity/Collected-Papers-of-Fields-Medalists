@@ -151,3 +151,25 @@
   Host [9] 逐句与印刷吻合。本页 MD 无需修改。
 
 ---
+
+## p.007（PDF p.7 / 印刷 p.519）
+
+- PNG：audit-redo/p007.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：[20] 方法补段收尾（SL(2,ℝ)×SL(2,ℝ)/Γ A-ergodic 陈述）、complementary 段（"high"/"low"
+  entropy、Theorem 2.1 预告）、[20] proof 段（Ratner [39],[38]、H-property、[28] §1.5、a priori）、
+  Ledrappier-Young [19] 段（Tomanov–Margulis [26]）、Acknowledgment 全段、Part I 标题、§2 起始段。
+- 结果：**PASS±**
+- 差异列表（均排版级，登记不改）：
+  1. 缺运行头「THE SET OF EXCEPTIONS TO LITTLEWOOD'S CONJECTURE 519」（系统性）。
+  2. 印刷斜体「*Acknowledgment.*」在 MD 作普通文字「Acknowledgment.」（第 129 行），格式伪影。
+- print quirk 忠实保留：印刷作「many one-parameter **subgroup** have positive entropy」（subgroup
+  单数配 many），MD 第 123 行同为 `many one-parameter subgroup have`，一致不改。
+- 其余核对：第 121 行（irreducible lattice、do commute、[3] not applicable）、第 125 行（unipotent
+  trajectories、[39],[38]、Section 1.5 of [28]、quasi-invariant）、第 127 行（Ledrappier-Young [19]、
+  G. Tomanov and Margulis' alternative proof of Ratner's theorem [26]）、第 129 行致谢全段（Dave
+  Morris Witte、nonisotropic tori、Barak Weiss、Sanju Velani、M. Ratner、referees、Newton Institute、
+  spring of 2000、ETH Zurich、University of Washington、Center for Dynamical Systems at the
+  Pennsylvania State University、Stanford University）、第 131 行「## Part I. Measure rigidity」与第 133
+  行 G=SL(k,ℝ)/k≥3/X=G/Γ/A<G/k×k 对角群定义逐句与印刷吻合。本页 MD 无需修改。
+
+---
