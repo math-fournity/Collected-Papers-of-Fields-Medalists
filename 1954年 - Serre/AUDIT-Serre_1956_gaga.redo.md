@@ -21,3 +21,10 @@
 - 结果：PASS±。MD 行 1–13 与原页逐项吻合（JEAN-PIERRE SERRE / Géométrie algébrique et géométrie analytique / tome 6 (1956), p. 1-42 / item?id=AIF_1956__6__1_0 / © …tous droits réservés / L'accès aux archives… / NUMDAM / 数字化声明三行）。差异：原页顶部灰色网点带上的字距报头「ANNALES DE L'INSTITUT FOURIER」在 MD 无对应行——期刊名已在题录与版权文字中出现，属呈现省略不误导（Luna 旧判同此，重检维持）。Luna 对本页无 md 修复。
 - 备注：本页为 born-digital Numdam 封面，pdftotext 辅助通道与 PNG 一致。
 
+## p.002（PDF p.2 / 印刷 p.1）
+- PNG：audit-redo/p002.png（pngmono 150dpi）；标题带仲裁裁剪 audit-redo/300dpi/p002_title_300dpi.png（300dpi）
+- 核对：文章标题与作者行、Introduction 前三段（至「de façon précise, nous」页末断句）、Chow 定理句。
+- 结果：PASS±。标题「GÉOMÉTRIE ALGÉBRIQUE ET GÉOMÉTRIE ANALYTIQUE / par Jean-Pierre SERRE.」与 MD 行 15/17 吻合——150dpi 下首词重音方向存疑，300dpi 仲裁确认为尖音 É（三处一致），MD 无误。正文两段逐词吻合（含 « de première espèce »、kählériennes、non singulière 等）。差异（均不误导）：①印刷以小型大写排「CHOW」，MD 行 23 作「Chow」（Luna 旧修复把 mineru 误识「CNow」改为「Chow」，修复本身正确；大小写规范化连同本页同型：OKA/CARTAN 在 MD 他行保留大写，此处不一致，登记不改）；②印刷斜体（algébrique/analytique/faisceaux cohérents）在 MD 未标——mineru 已知拍平；③印刷「singulière) ; 」分号前细空格被拍平为「singulière);」。
+- 备注：Luna 旧判本页 FAIL（CNow）→ 已修复，重检确认修复与原页相符。
+
+
