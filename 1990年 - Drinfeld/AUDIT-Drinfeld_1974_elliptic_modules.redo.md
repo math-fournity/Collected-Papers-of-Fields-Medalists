@@ -126,3 +126,17 @@
 - 核对：b) cocycle congruence 两式（v[(x+y)^n−…] 与 h·p/π·C_n）、§4B 设置（finite height h、n ∈ Z, n ≥ 0）、level-n 结构定义（φ: ((1/π^n)O/O)^h → m、f_{π^n}、Π_{α∈((1/π^n)O/O)^h}）、唯一结构段、Prop 4.3 三项（e_i (i=1,…,h)、O/(π)^n-模、D_m → D_n finite and flat）、Proof a)（D_0 ≃ Ô^{nr}[[t_1,…,t_{h-1}]]、0 ≤ r ≤ h、Φ_r、Π_{((1/π)O/O)^r}）、Lemma（L_r regular、e_i (i=1,…,r)、t_r,…,t_{h-1}、L_{r-1} → L_r finite and flat）、Proof 开头（θ_i = φ_{r-1}(e_i)）。
 - 结果：PASS±。全部内容项与印刷相符，本轮无需修改。300dpi 确认本页两处 `t_{h-1}` 印刷均为**双拱 h**——印刷的 b 记号混用止于 p.571，本页回到 h；Luna 本页的 h 系修复（§4B height、f_{π^n}、level-n 结构指数等）经复核方向正确、MD 与印刷一致。 display 中 φ/ϕ 字形差异系印刷两种 phi 变体，MD 分用 \phi/\varphi 忠实。
 - 另记（PASS± 级伪影，不改）：页眉 "572 V. G. DRINFEL'D" 未收。
+
+### p.012 勘误（本页落签后 600dpi 复核，随 p.013 commit 修正）
+
+- p.012 条目中"两处 `t_{h-1}` 印刷均为双拱 h"的记录**有误**：600dpi/400% 两页同倍率对照（audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p013_hb_compare.png）显示 p.572 的 D_0 basis 行与 Lemma 行的 t 下标同为**闭碗 b**（与 p.573 同款字形一致；先前 300dpi 读判 h 有误）。已补 Edit：行 421（D_0 ≃ Ô^{nr}[[t_1,…,t_{b-1}]]）与行 427（t_r,…,t_{b-1}）。p.012 判级由 PASS± 更正为 **FAIL**（2 处印刷忠实性回退，erratum：数学上均为 h−1）。
+
+## p.013（PDF p.13 / 印刷 p.573）
+
+- PNG：audit-redo/p013.png（pngmono 150dpi）；300dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p013_Lr_display.png、…_p013_trh600.png；600dpi：…_p013_hb_compare.png（t 下标 b）、…_p013_yh_bn.png（r = h）、…_p013_eih_line.png（e_i (1≤i≤h)、((1/π^n)O/O)^h）、…_p013_Dnp1_full.png（D display 全式）、…_p013_prop44_P.png（imbedding display）
+- 核对：g(x) 分式、φ_r 同态与 θ_r、L_r/(θ_1,…,θ_r,t_r,…) = Ô^{nr}/(π) display、local parameters 段、Π_{((1/π)O/O)^r}、injective 论证（Σα_iθ_i 属于平方）、Setting r = h、b) 段（e_i (1≤i≤h)、b_i）、D_{n+1} display、regular 段、Prop 4.4 陈述（P ⊂ ((1/π^n)O/O)^h、H def display、imbedding ((1/π^m)O/O)^h → ((1/π^n)O/O)^h/P）、Proof 开头。
+- 结果：FAIL（3 处）：
+  1. L_r/(θ_1,…,θ_r,t_r,…) = Ô^{nr}/(π) display（MD 行 445）与 local parameters 散文（行 447）：印刷 `t_r, …, t_{b-1}`（闭碗 b，600dpi 两页对照确认）；已 Edit 两处 t_{h-1} → `t_{b-1}`。**erratum 登记**：数学上为 h−1（同页 "Setting r = h" 印 h、e_i (1≤i≤h) 印 h、((1/π^n)O/O)^h 印 h——印刷仅在 t 下标处混用 b）。
+  2. D_{n+1} display（MD 行 460）：印刷为 `D_n[[y_1, …, y_n]]/(f_π(y_1) − b_1, …, f_π(y_h) − b_h)`——同一 display 内首个 y 排 **n**、第二个排 h（600dpi：n 无升部双拱、h 有升部，字形可区分）；已 Edit 首个 y_h → `y_n`。**erratum 登记**：数学上均为 y_h，display 首位误排。
+- 重核 Luna 修复：e_i (1≤i≤h)、((1/π^n)O/O)^h、P ⊂ ((1/π^n)O/O)^h、imbedding display 两处 ^h、Prop 4.4 全部陈述与 Proof 开头均与印刷相符（Luna 本页 h 系修复在独立 h 位正确；其 t 下标 h 读判有误已在本条更正）。
+- 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 573" 未收。

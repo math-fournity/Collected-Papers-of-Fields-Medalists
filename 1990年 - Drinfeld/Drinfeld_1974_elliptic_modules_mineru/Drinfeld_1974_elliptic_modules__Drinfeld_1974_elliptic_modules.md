@@ -418,13 +418,13 @@ Proposition 4.3. 1) The functor that associates to $R \in C$ the set of deformat
 
 3) Let $m \leq n$. The homomorphism $D_m \to D_n$ is finite and flat.
 
-Proof. a) Let $(F, f)$ be a universal deformation with basis $D_0 \simeq \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$. Let $0 \leq r \leq h$. Consider the functor $\Phi_r$ that associates to each $D_0$-algebra $R \in C$ the set of homomorphisms $\phi$ from $((1/\pi)O/O)^r$ into a maximal ideal of $R$ such that $f_\pi(x)$ is divisible by
+Proof. a) Let $(F, f)$ be a universal deformation with basis $D_0 \simeq \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$. Let $0 \leq r \leq h$. Consider the functor $\Phi_r$ that associates to each $D_0$-algebra $R \in C$ the set of homomorphisms $\phi$ from $((1/\pi)O/O)^r$ into a maximal ideal of $R$ such that $f_\pi(x)$ is divisible by
 
 $$
 \prod_ {\alpha \in \left(\frac {1}{\pi} O / O\right) ^ {r}} (x - \varphi (\alpha)).
 $$
 
-Lemma. $\Phi_r$ is represented by a ring $L_r$ having the following properties: 1) $L_r$ is a regular ring. Let $e_i (i = 1, \ldots, r)$ be a basis for $((1/\pi)O/O)^r$. Then the images of $e_i$ in $L_r$ and also $t_r, \ldots, t_{h-1}$ form a system of local parameters. 2) The homomorphism $L_{r-1} \to L_r$ is finite and flat.
+Lemma. $\Phi_r$ is represented by a ring $L_r$ having the following properties: 1) $L_r$ is a regular ring. Let $e_i (i = 1, \ldots, r)$ be a basis for $((1/\pi)O/O)^r$. Then the images of $e_i$ in $L_r$ and also $t_r, \ldots, t_{b-1}$ form a system of local parameters. 2) The homomorphism $L_{r-1} \to L_r$ is finite and flat.
 
 Proof. For $r = 0$ the lemma is true. Suppose that $r \geq 1$ and that the lemma has been proved for $\Phi_{r-1}$. Let $\phi_{r-1}: ((1/\pi)O/O)^{r-1} \to L_{r-1}$ be the homomorphism mentioned in the definition of $\Phi_{r-1}$. We set $\theta_i = \phi_{r-1}(e_i) (1 \leq i \leq r-1)$ and
 
@@ -441,10 +441,10 @@ $$
 so that the restriction of $\phi_r$ to the first summand coincides with $\phi_{r-1}$ and the restriction of $\phi_r$ to the second summand sends $1/\pi$ into $\theta_r$. Clearly, $L_r$ is finite and flat over $L_{r-1}$; furthermore,
 
 $$
-L _ {r} / \left(\theta_ {1}, \dots , \theta_ {r}, t _ {r}, \dots , t _ {h - 1}\right) = \hat {O} ^ {n r} / (\pi),
+L _ {r} / \left(\theta_ {1}, \dots , \theta_ {r}, t _ {r}, \dots , t _ {b - 1}\right) = \hat {O} ^ {n r} / (\pi),
 $$
 
-and so  $L_{r}$  is regular, and  $\theta_{1},\ldots,\theta_{r},t_{r},\ldots,t_{h-1}$  form a system of local parameters. It remains to prove that  $L_{r}$  represents  $\Phi_{r}$ . It is enough to show that  $f_{\pi}(x)$  is divisible by
+and so  $L_{r}$  is regular, and  $\theta_{1},\ldots,\theta_{r},t_{r},\ldots,t_{b-1}$  form a system of local parameters. It remains to prove that  $L_{r}$  represents  $\Phi_{r}$ . It is enough to show that  $f_{\pi}(x)$  is divisible by
 
 $$
 \prod_ {a \in \left(\frac {1}{\pi} O / O\right) ^ {r}} (x - \varphi_ {r} (a)).
@@ -457,7 +457,7 @@ Setting $r = h$, we obtain assertions 1)-3) for $n = 1$.
 b) Suppose that $n \geq 1$ and that statements 1) and 2) about $D_{n}$ have been proved. Let $e_{i}(1 \leq i \leq h)$ be a basis for $((1 / \pi^{n})O / O)^{h}$, and let $b_{i}$ be the image of $e_{i}$ in $D_{n}$. Clearly
 
 $$
-D _ {n + 1} = D _ {n} \left[ \left[ y _ {1}, \dots , y _ {h} \right] \right] / \left(f _ {\pi} \left(y _ {1}\right) - b _ {1}, \dots , f _ {\pi} \left(y _ {h}\right) - b _ {h}\right).
+D _ {n + 1} = D _ {n} \left[ \left[ y _ {1}, \dots , y _ {n} \right] \right] / \left(f _ {\pi} \left(y _ {1}\right) - b _ {1}, \dots , f _ {\pi} \left(y _ {h}\right) - b _ {h}\right).
 $$
 
 Therefore $D_{n+1}$ is regular, $(y_1, \ldots, y_h)$ is a system of local parameters in $D_{n+1}$, and the homomorphism $D_n \to D_{n+1}$ is finite and flat. □
