@@ -326,3 +326,12 @@
 - 发现并当场修复（20 个记号点，延续 **m**/**T** 印刷粗体系列）：①L1396 Theorem 5.3 七处；②L1400 五处（**T**=**T**_N、Let **m**、of **T**、k=**T**/**m**、ρ_**m**）；③L1402 ρ_**m**；④L1404 "of m"→"of $\mathbf{m}$"；⑤L1406 ρ_𝔪→ρ_**m**；⑥L1408 ρ_**m**；⑦L1416 ρ_𝔪→ρ_**m**；⑧L1418 四处（**T**/**m**[G]、J[**m**]、ρ_**m**、**T**/**m**-vector）。
 - 备注：Z_p/Q_p/F_l 印刷粗体（weight 类，登记不改）；T̲ 下划线粗体显示式 MD 本即 \underline{T} 正确。
 - 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.041（PDF p.41 / 印刷 p.470）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 20:32 -0400。
+- PNG：`audit/ribet1990_p041.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："[11], **lemme** (5.9.2), applied with G=𝒱, A=𝒯, v_η=ι, G″=𝒱^et" 确证，未存档）。
+- 页界更正：印刷 p.469 实止于 "by the ring of"（p.040 条目核对清单尾段 L1432–1446 实为本页内容，已按本页图像复核；p.040 的修复均在其真实页界 L1392–1430 内，不受影响）。
+- 核对：_pΨ/11.6.6/11.6.7、Q_K constant、inertia；Express 𝒱…𝒱^et/𝒱^0、largest unramified quotient；ι image lands in J[p]^f、prolongs u: 𝒱⁰→𝒯[p]^f、[11] lemme (5.9.2)、G″/G′、(6.2) 完成 □；(re-)introduce notation、J_s/J⁰、J₀(M)×J₀(M)、torus T、X、Φ、𝒱↪H⊂𝒯[l]、𝒱_s；T̲=Hom(X,G_m)、[11] §5.1、T̲[l]⊂H；Lemma 6.3（ρ_m not modular ⇒ 𝒱⊂T̲[l]）与 Proof（𝒱_s⊂J⁰、p-old quotient T₀、ρ_m modular of level M=N/p 矛盾、𝒱↦H↦H/T̲[l]、limited-ramification、l≥3、kernel=𝒱_s、□）；We now prove (6.1)（D=Gal(Q̄_p/Q_p)、T/m[D]-modules、V⊂T̲[m](Q̄_p)=Hom(X/mX,μ_l)）✓。
+- 发现并当场修复（24 个记号点）：①L1434 五处方案 𝒱 拍平（Express V→𝒱、V^et/V⁰×4→𝒱^et/𝒱⁰；句尾 module V 保留斜体）；②L1436 三处 V⁰→𝒱⁰ + "lemma"→"lemme"（300 dpi 确证印刷法文原样，非更正）；③L1448 ρ_𝔪→ρ_**m**、T[l]→T̲[l]（印刷下划线粗体）；④L1450 七处（𝒱_s×3、**m**/of **T**、**T**₀/of **T**、ρ_**m**×2）；⑤L1452 两处（𝒱、T̲[l]）；⑥L1458 两处（𝒱_s×2——印刷 "coincides with 𝒱_s"，MD 误作 V）；⑦L1460 两处（ρ_**m**、**T**/**m**[D]）；⑧L1463 显示式两处 "\mathfrak{m}"→"\mathbf{m}"。
+- 印刷原文 quirk："[11], lemme (5.9.2)" 法文 lemme 为印刷原样（照录法文文献用语），非拼写更正。
+- 结果：FAIL（24 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

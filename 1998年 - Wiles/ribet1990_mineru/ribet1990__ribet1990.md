@@ -1431,9 +1431,9 @@ is étale and quasi-finite, and has trivial special fiber (cf. [19]). Moreover, 
 
 integers of this field. The group $Q$ becomes a quotient of the group scheme ${}_{p}\Psi$ appearing in [11], 11.6.6. In [11], 11.6.7, the generic fiber of ${}_{p}\Psi$ is identified with the group $M/pM$, where $M$ is a certain constant group scheme. Hence $Q_{K}$ is constant, which means that the inertia group $\operatorname{Gal}(\bar{\mathbf{Q}}_p/K)$ of $\operatorname{Gal}(\bar{\mathbf{Q}}_p/\mathbf{Q}_p)$ acts trivially on $Q(\bar{\mathbf{Q}}_p)$.
 
-Express V in the usual way as an extension of an étale group scheme  $V^{et}$  by a connected group scheme  $V^{0}$ , and write  $V^{et}$  and  $V^{0}$  for the generic fibers of these finite flat group schemes over  $Z_{p}$ . Considered as a  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ -module,  $V^{et}$  is the largest unramified quotient of V because of [25], loc. cit.
+Express $\mathcal{V}$ in the usual way as an extension of an étale group scheme  $\mathcal{V}^{\mathrm{et}}$  by a connected group scheme  $\mathcal{V}^{0}$ , and write  $\mathcal{V}^{\mathrm{et}}$  and  $\mathcal{V}^{0}$  for the generic fibers of these finite flat group schemes over  $Z_{p}$ . Considered as a  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ -module,  $\mathcal{V}^{\mathrm{et}}$  is the largest unramified quotient of V because of [25], loc. cit.
 
-It follows that the image of $V^0$ under $\iota$ lands in the generic fiber $J[p]^{\mathfrak{f}}$ of $\mathcal{T}[p]^{\mathfrak{f}}$, since $Q$ is unramified. By [25], Cor. 3.3.6, the map $V^0 \to J[p]^{\mathfrak{f}}$ induced by $\iota$ prolongs uniquely to a map $u: \mathcal{V}^0 \to \mathcal{T}[p]^{\mathfrak{f}}$. We obtain the desired prolongation of $\iota$ from [11], lemma (5.9.2), applied with $G = \mathcal{V}$, $A = \mathcal{T}$, $v_{\eta} = \iota$, $G'' = \mathcal{V}^{\mathrm{et}}$, $G' = \mathcal{V}^0$, and $u = u$. This completes the proof of (6.2).
+It follows that the image of $\mathcal{V}^{0}$ under $\iota$ lands in the generic fiber $J[p]^{\mathfrak{f}}$ of $\mathcal{T}[p]^{\mathfrak{f}}$, since $Q$ is unramified. By [25], Cor. 3.3.6, the map $\mathcal{V}^{0} \to J[p]^{\mathfrak{f}}$ induced by $\iota$ prolongs uniquely to a map $u: \mathcal{V}^0 \to \mathcal{T}[p]^{\mathfrak{f}}$. We obtain the desired prolongation of $\iota$ from [11], lemme (5.9.2), applied with $G = \mathcal{V}$, $A = \mathcal{T}$, $v_{\eta} = \iota$, $G'' = \mathcal{V}^{\mathrm{et}}$, $G' = \mathcal{V}^0$, and $u = u$. This completes the proof of (6.2).
 
 We now (re-) introduce some notation which is essentially that of §3, except that $p$ will now play the role of the prime $q$ of §3. Write $J_{s}$ for the special fiber of the Néron model $J$, and $J^0$ for the connected component of 0 in $J_{s}$. Then $J^0$ is an extension of the product $J_0(M) \times J_0(M)$ by a torus $T$. Let $X$ be the character group of $T$. Let $\Phi$ be the group of components of $J_{s}$. Using the map $\mathcal{V} \to J$ of (6.2), together with the results of Raynaud [25], identify $\mathcal{V}$ with a subgroup of the largest finite flat subgroup $H$ of $\mathcal{T}[l]$. Write $\mathcal{V}_{s}$ for the special fiber of $\mathcal{V}$.
 
@@ -1445,22 +1445,22 @@ $$
 
 over  $Z_{p}$ . According to [11], §5.1, T embeds into the formal completion of T along its special fiber. This implies that  $T[l]$  is naturally a finite, flat subgroup of H.
 
-Lemma 6.3. If $\rho_{\mathfrak{m}}$ is not modular of level $N / p$, then the group $\mathcal{V}$ is a subgroup of $T[l]$.
+Lemma 6.3. If $\rho_{\mathbf{m}}$ is not modular of level $N / p$, then the group $\mathcal{V}$ is a subgroup of $\underline{T}[l]$.
 
-Proof. The group  $V_{s}$  is contained in  $J^{0}$  because of (3.12) and (5.2c). Further, if  $V_{s}$  maps non-trivially to  $J_{0}(M) \times J_{0}(M)$ , then the maximal ideal m of T arises from a maximal ideal of the p-old quotient  $T_{0}$  of T in view of (3.11). This implies that the representation  $\rho_{m}$  is modular of level M = N/p. Thus our assumption that  $\rho_{m}$  is not modular of level N/p implies that  $V_{s}$  is contained in T.
+Proof. The group  $\mathcal{V}_{s}$  is contained in  $J^{0}$  because of (3.12) and (5.2c). Further, if  $\mathcal{V}_{s}$  maps non-trivially to  $J_{0}(M) \times J_{0}(M)$ , then the maximal ideal $\mathbf{m}$ of $\mathbf{T}$ arises from a maximal ideal of the p-old quotient  $\mathbf{T}_{0}$  of $\mathbf{T}$ in view of (3.11). This implies that the representation  $\rho_{\mathbf{m}}$  is modular of level M = N/p. Thus our assumption that  $\rho_{\mathbf{m}}$  is not modular of level N/p implies that  $\mathcal{V}_{s}$  is contained in T.
 
-To prove that V is a subgroup of T[l], we consider the composite v of the two maps
+To prove that $\mathcal{V}$ is a subgroup of $\underline{T}[l]$, we consider the composite v of the two maps
 
 $$
 \mathcal {V} \rightarrow H, \quad H \rightarrow H / \underline {{T}} [ l ].
 $$
 
-The map v has a finite, flat kernel, since we are in a limited-ramification situation in case l = p. (Since  $l \geq 3$ , we have  $p \geq 3$  in case p = l.) However, the kernel of v contains  $V_{s}$  in view of what we have already proved. It follows that the kernel of v coincides with V, proving (6.3). ☐
+The map v has a finite, flat kernel, since we are in a limited-ramification situation in case l = p. (Since  $l \geq 3$ , we have  $p \geq 3$  in case p = l.) However, the kernel of v contains  $\mathcal{V}_{s}$  in view of what we have already proved. It follows that the kernel of v coincides with $\mathcal{V}_{s}$, proving (6.3). ☐
 
-We now prove (6.1). Let  $D = \operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ , thought of as a decomposition group in  $G = \operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$ . Assuming that  $\rho_{m}$  is not modular of level N/p, we obtain from (6.3) the inclusion of T/m[D]-modules
+We now prove (6.1). Let  $D = \operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ , thought of as a decomposition group in  $G = \operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$ . Assuming that  $\rho_{\mathbf{m}}$  is not modular of level N/p, we obtain from (6.3) the inclusion of $\mathbf{T}/\mathbf{m}$[D]-modules
 
 $$
-V \subset \underline {{{T}}} [ \mathfrak {m} ] (\bar {\mathbf {Q}} _ {p}) = \operatorname{Hom} (X / \mathfrak {m} X, \mu_ {l}).
+V \subset \underline {{{T}}} [ \mathbf {m} ] (\bar {\mathbf {Q}} _ {p}) = \operatorname{Hom} (X / \mathbf {m} X, \mu_ {l}).
 $$
 
 The action of D on X/mX is unramified; it is given by the Frobenius automorphism of X (coming from the fact that T is defined over  $F_{p}$ ). The Frobenius automorphism of X coincides with the Hecke operator  $T_{p}$  (3.8). This operator is an involution, the negative of the Atkin-Lehner involution  $w_{p}$ . Therefore its action on X/mX is given by either +1 or -1, since T/m is a field. It follows that the action of D on  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$  is given by the  $F_{l}$ -valued character  $\varepsilon\chi$ , where  $\varepsilon$  is an unramified quadratic character. This implies that D acts on V by  $\varepsilon\chi$ , since V is a submodule of  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$ .
