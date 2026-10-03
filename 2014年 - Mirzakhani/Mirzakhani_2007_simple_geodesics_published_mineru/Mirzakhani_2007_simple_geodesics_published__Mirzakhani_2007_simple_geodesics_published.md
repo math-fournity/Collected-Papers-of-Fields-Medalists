@@ -157,11 +157,11 @@ $$
 \mathcal {D} (x, y, y) \sim \frac {2 x}{1 + e ^ {y}}
 $$
 
-as$x \to 0$. Therefore our formula for hyperbolic surfaces of genus one with one geodesic boundary component (equation (1.4)) implies the original McShane identity (1.1) when$L \to 0$
+as$x \to 0$. Therefore our formula for hyperbolic surfaces of genus one with one geodesic boundary component (equation (1.4)) implies the original McShane identity (1.1) when$L \to 0$.
 
-(II): Integration over the moduli space. In Sect. 7, we develop a method for integrating the right hand side of the identity for the lengths of simple closed geodesics (equation (1.3)) over${ \mathcal { M } } _ { g , n } ( L )$
+(II): Integration over the moduli space. In Sect. 7, we develop a method for integrating the right hand side of the identity for the lengths of simple closed geodesics (equation (1.3)) over${ \mathcal { M } } _ { g , n } ( L )$.
 
-Let$S _ { g , n }$be a closed surface of genus g with n boundary components and$Y \in \mathcal { T } _ { g , n }$. For any simple closed curve$\gamma$on$S _ { g , n }$, let [γ ] denote the homotopy class of$\gamma .$, and let$\ell _ { \gamma } ( Y )$denote the hyperbolic length of the geodesic representative of$[ \gamma ]$on Y.
+Let$S _ { g , n }$be a closed surface of genus g with n boundary components and$Y \in \mathcal { T } _ { g , n }$. For any simple closed curve$\gamma$on$S _ { g , n }$, let [γ ] denote the homotopy class of$\gamma$, and let$\ell _ { \gamma } ( Y )$denote the hyperbolic length of the geodesic representative of$[ \gamma ]$on Y.
 
 To each simple closed curve$\gamma$on$S _ { g , n }$, we associate the set
 
@@ -169,7 +169,7 @@ $$
 \mathcal {O} _ {\gamma} = \{[ \alpha ] | \alpha \in \operatorname{Mod} _ {g, n} \cdot \gamma \}
 $$
 
-of homotopy classes of simple closed curves in the$\mathbf { M o d } _ { g , n } { \mathrm { - o r b i t } }$of$\gamma$on $X \in \mathcal { M } _ { g , n }$. For any function$f : \mathbb { R } _ { + } \to \mathbb { R } _ { + }$
+of homotopy classes of simple closed curves in the$\mathrm { M o d } _ { g , n } { \mathrm { - o r b i t } }$of$\gamma$on $X \in \mathcal { M } _ { g , n }$. For any function$f : \mathbb { R } _ { + } \to \mathbb { R } _ { + }$,
 
 $$
 f _ {\gamma} (X) = \sum_ {[ \alpha ] \in \mathcal {O} _ {\gamma}} f (\ell_ {\alpha} (X))
@@ -185,7 +185,7 @@ Our goal is to calculate the integral of$f _ { \gamma }$over$\mathcal { M } _ { 
 
 First, consider the covering space of$\mathcal { M } _ { g , n }$
 
-$\pi^\gamma:\mathcal M_{g,n}^\gamma=\{(X,\alpha)\mid X\in\mathcal M_{g,n},\ \alpha\in\mathcal O_\gamma\text{ is a geodesic on }X\}\to\mathcal M_{g,n}$ where $\pi^\gamma(X,\alpha)=X$. The hyperbolic length function descends to the function
+$\pi^\gamma:\mathcal M_{g,n}^\gamma=\{(X,\alpha)\mid X\in\mathcal M_{g,n},\ \text{and }\alpha\in\mathcal O_\gamma\text{ is a geodesic on }X\}\to\mathcal M_{g,n}$, where $\pi^\gamma(X,\alpha)=X$. The hyperbolic length function descends to the function
 
 $$
 \ell : \mathcal {M} _ {g, n} ^ {\gamma} \to \mathbb {R} _ {+}

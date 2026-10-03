@@ -94,3 +94,26 @@
 - Luna 旧修复重核：Theorem 1.3 与 (1.3) 展示式（\mathcal{D}/\mathcal{R}、求和限、=L₁）当前与印刷一致。
 - 备注：页界 L116–L146；(1.4) 及其后属 p.5。
 
+## p.005（PDF p.5 / 印刷 p.183）
+- PNG：audit-redo/p005.png（pngmono 150dpi）；仲裁裁剪：audit-redo/p005_Mod_300dpi.png（300dpi）。
+- 核对：特例句与 (1.4) $\sum_\gamma\mathcal{D}(L,\ell_\gamma(X),\ell_\gamma(X))=L$；non-peripheral 说明；
+  $\mathcal{D}(x,y,y)\sim 2x/(1+e^y)$ 与 "implies the original McShane identity (1.1) when L → 0"；
+  "(II): Integration over the moduli space" 段；$S_{g,n}$/$\mathcal{T}_{g,n}$/同调类句；
+  $\mathcal{O}_\gamma=\{[\alpha]\mid\alpha\in\mathrm{Mod}_{g,n}\cdot\gamma\}$；$\mathrm{Mod}_{g,n}$-orbit 句；
+  $f_\gamma(X)=\sum_{[\alpha]\in\mathcal{O}_\gamma}f(\ell_\alpha(X))$ 与 $f_\gamma:\mathcal{M}_{g,n}\to\mathbb{R}_+$；
+  Our goal 段；covering space 定义 $\pi^\gamma:\mathcal{M}_{g,n}^\gamma=\{(X,\alpha)\mid X\in\mathcal{M}_{g,n},$
+  and $\alpha\in\mathcal{O}_\gamma$ is a geodesic on X$\}\to\mathcal{M}_{g,n}$；页末 $\ell:\mathcal{M}_{g,n}^\gamma\to\mathbb{R}_+$。
+- 结果：**PASS±**（6 处偏离已修，见下）。
+- 修复登记（本 redo，证据=p.5 PNG + 300dpi 裁剪 + 文本层）：
+  1. MD L160：印刷 "when L → 0**.**"，缺句号 → 补 "."；
+  2. MD L162：印刷 "over $\mathcal{M}_{g,n}(L)$**.**"，缺句号 → 补 "."；
+  3. MD L164：印刷 "homotopy class of γ**,** and let"，MinerU 作 "$\gamma.$, "（多句号）→ 删多余句号；
+  4. MD L172：印刷 "$\mathrm{Mod}_{g,n}$-orbit"（300dpi 直证**正体**），MinerU 作 $\mathbf{Mod}$
+     （粗体；Luna 旧遗留）→ 改正体；
+  5. MD L172：印刷 "For any function f : ℝ₊ → ℝ₊**,**"，缺逗号 → 补 ","；
+  6. MD L188：印刷集合定义含 "**and** α ∈ 𝒪_γ is a geodesic on X}" 且 "$\to\mathcal{M}_{g,n}$**,** where"，
+     MinerU 丢 "and" 与逗号 → 补回。
+- print quirk 登记不改：无。
+- Luna 旧修复重核：(1.4)、𝒟 记号、$\mathcal{O}_\gamma$ 定义（\operatorname{Mod} 正体）当前与印刷一致。
+- 备注：页界 L148–L192；L194 起（defined by…）属 p.6。
+
