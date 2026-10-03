@@ -46,6 +46,13 @@
 - 修复登记：本页 3 处 md 修复（行 71 x→X、行 73 1→I、行 77 x→X），依据 audit-redo/300dpi/p005_def1-axioms_300dpi.png，随 p.005 页级 commit 提交；修复前 md 基线见 SHA f4ebe12f（重做起点）。
 - 备注：Luna 旧判本页 FAIL（仅 ℋ_{\backslash}→ℋ_V 一项）→ 该修复正确；但 Luna 未发现上述 x/X 与 1/I 两处下标错误，本次重检补修。
 
+## p.006（PDF p.6 / 印刷 p.5）
+- PNG：audit-redo/p006.png（pngmono 150dpi）；仲裁裁剪 audit-redo/300dpi/p006_axiome-ref_300dpi.png（公理引用下标）、audit-redo/300dpi/p006_AxY_300dpi.png（𝒜_x(Y)/ℋ_{x,X} 行）
+- 核对：carte 定义段、(H_?) 交叉引用、Y analytique 段、积空间段（φ×φ′: V×V′→U×U′）、[18] nos 34-35 句、n° 3 标题、faisceau analytique 定义（ℋ_X-modules）、𝒜_x(Y)/𝒜(Y)/商束 ℋ_X/𝒜(Y) 段、PROPOSITION 1 a) b)。
+- 结果：PASS±。全部条目与原页吻合：Luna 旧修复「$f \in H_{x,X}$」（行 87，旧 mineru 作 H_{x,Y}）经 300dpi 复核与印刷一致；Prop.1 陈述、ℋ_X/𝒜(Y)、ℋ_Y、[18] n° 15/12/5/6、nos 34-35 均正确。**print quirk 忠实登记**：印刷原文交叉引用即作「L'axiome (H_II) signifie qu'il est possible de recouvrir X par des ouverts possédant des cartes」——300dpi 确认下标为罗马 II（两个衬线 I），语义上此处应指覆盖公理 (H_I)，属印刷原文自身引用 quirk；MD 行 79 作 (H$_{II}$) 忠实保留，不按数学预期改正。差异（登记不改）：①行 87/89 段内 MD 的 $H_{x,X}$、$H_{X}$、$H_{Y}$ 用正体 H 而同段 $\mathcal{H}_X/\mathcal{A}(Y)$ 用花体——印刷一律花体 ℋ，属 mineru 花体拍平/混排，全文性伪影，不妨碍辨识，按 SOP 不批量改；②印刷斜体（carte、induite、produit 等）未标。
+- 备注：Luna 旧判本页 FAIL（H_{x,Y}）→ 修复正确；Luna 未登记 (H_II) 交叉引用 quirk，本次补登。
+
+
 
 
 
