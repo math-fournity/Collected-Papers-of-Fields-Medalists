@@ -35,3 +35,22 @@
   L29 $(\mathbb{R}_{\ge0})^n$ 与原页下标 ≥0 一致——两处旧修复正确，维持。
 - 备注：页断在 "We"（L29 末），其后内容属 p.2。
 
+## p.002（PDF p.2 / 印刷 p.180）
+- PNG：audit-redo/p002.png（pngmono 150dpi）；仲裁裁剪：audit-redo/p002_table_300dpi.png、
+  audit-redo/p002_theorem11_300dpi.png（300dpi）。
+- 核对：页顶承接句与展示式 $\mathcal{M}_{g,n}(L)=\mathcal{T}_{g,n}(L)/\mathrm{Mod}_{g,n}.$；Theorem 1.1
+  陈述与 $\operatorname{Vol}_{wp}$、求和式 $V_{g,n}(L)=\sum_{|\alpha|\le 3g-3+n}C_\alpha\cdot L^{2\alpha}$、
+  $C_\alpha>0\in\pi^{6g-6+2n-|2\alpha|}\cdot\mathbb{Q}$、多指标约定句；$V_{1,1}=L^2/24+\pi^2/6$；
+  Wolpert/[Zog] 两段；Remark 段；Table 1 全部 6 行数值。
+- 结果：**PASS±**（3 处标点偏离已修，见下）。
+- 修复登记（本 redo）：
+  1. MD L37：Theorem 1.1 印刷为 "$L_n^2$; namely"（300dpi 裁剪 + 文本层双证），MinerU 行多出逗号
+     "$L_n^2,$;" → 删多余逗号；
+  2. MD L45：印刷 "(Z≥0)^n**,** L^α=…"（文本层逗号），MinerU 丢逗号 → 补回；
+  3. MD L45：印刷句末 "αᵢ**.**"，MinerU 缺句号 → 补回。
+- print quirk 登记不改：Table 1 (0,4) 行印刷系数 **1/2**、(1,2) 行印刷 **1/192** 且第二因子为
+  **12π²+L₁²+L₂²**（300dpi 裁剪直证；通行 arXiv 版数值不同，但本印刷原文如此，即裁决源；
+  MD 与印刷一致，不动）。页顶眉头 "180 / M. Mirzakhani" MinerU 未收录（全篇通例，登记一次）。
+- Luna 旧修复重核：本页 Table 1 与 Theorem 陈述当前值与印刷一致，未见旧修复引入新错误。
+- 备注：行内公式前后空格合并伪影同 p.1，通例登记。
+

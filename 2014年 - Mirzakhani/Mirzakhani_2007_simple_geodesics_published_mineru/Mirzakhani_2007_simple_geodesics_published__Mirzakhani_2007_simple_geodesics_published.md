@@ -34,7 +34,7 @@ $$
 
 Our main result, obtained in Sect. 6, is:
 
-Theorem 1.1. The volume$V _ { g , n } ( L _ { 1 } , \ldots , L _ { n } ) = \operatorname { V o l } _ { w p } ( \mathcal { M } _ { g , n } ( L ) )$is a polynomial in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 } ,$; namely we have:
+Theorem 1.1. The volume$V _ { g , n } ( L _ { 1 } , \ldots , L _ { n } ) = \operatorname { V o l } _ { w p } ( \mathcal { M } _ { g , n } ( L ) )$is a polynomial in$L _ { 1 } ^ { 2 } , \ldots , L _ { n } ^ { 2 }$; namely we have:
 
 $$
 V_{g,n}(L) = \sum_{\substack{\alpha \\ |\alpha |\leq 3g - 3 + n}}C_{\alpha}\cdot L^{2\alpha},
@@ -42,7 +42,7 @@ $$
 
 where$C _ { \alpha } > 0$lies in$\pi ^ { 6 g - 6 + 2 n - | 2 \alpha | } \cdot \mathbb { Q } .$
 
-Here the exponent$\alpha = ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$ranges over elements in$( \mathbb { Z } _ { \geq 0 } ) ^ { n }$ $L ^ { \alpha } = L _ { 1 } ^ { \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { \alpha _ { n } }$, and$| \alpha | = \sum _ { i = 1 } ^ { n } \alpha _ { i }$
+Here the exponent$\alpha = ( \alpha _ { 1 } , \ldots , \alpha _ { n } )$ranges over elements in$( \mathbb { Z } _ { \geq 0 } ) ^ { n }$, $L ^ { \alpha } = L _ { 1 } ^ { \alpha _ { 1 } } \cdot \cdot \cdot L _ { n } ^ { \alpha _ { n } }$, and$| \alpha | = \sum _ { i = 1 } ^ { n } \alpha _ { i }$.
 
 Moreover, in Sect. 5 we give an explicit recursive formula for calculating these volumes. For example, we have:
 
