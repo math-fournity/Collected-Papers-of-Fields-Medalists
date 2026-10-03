@@ -139,3 +139,11 @@
   - 150dpi 疑 Prop 4 为 E_r^{p,q}，600dpi（p015_Erq3_600.png）确认印刷为 "(E_r) avec **E_2^{p,q}**"（同行 (E_r) 的 r 与之对照），MD $E_{2}^{p,q}$ 正确。
 - 差异：无其他。
 - 备注：md 行 619 起 "Si $\Pi$ = Z opère trivialement…"、COROLLAIRE 2、Note 与 "## CHAPITRE II" 开头属印刷 p.439；COROLLAIRE 2 中 "$\pi$ soit un groupe d'ordre fini" 的大小写待 p.016 仲裁。
+
+## p.016（PDF p.16 / 印刷 p.439）
+- PNG：audit/p016.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p016_pi2_600.png、p016_pi2b_600.png、p016_sil4_600.png（600dpi）
+- 核对：Si Π = Z 段（H_0(Π,G) = H_1(Π,G) = G、H_i(Π,G) = 0 pour i ≧ 2、Hurewicz [18]、homologie d'un cercle、E_2、d_2, d_3, ⋯ nulles、E_∞ ≅ E_2）；展示式 H_0(Π, H_i(T,k)) = H_i(T,k) et H_1(Π, H_{i−1}(T,k)) = H_{i−1}(T,k)；Puisque les coefficients…（non canoniquement）；COROLLAIRE 2 全文（π groupe d'ordre fini、caractéristique ne divise pas l'ordre de Π、H_i(X,k) = H_i(T,k)、"Japanese homomorphism"、corollaire à la Prop. 3）；Note（[6] Exp. XI, XII, XIII）；CHAPITRE II 章标题；§1 Homologie singulière cubique（Eilenberg [10]、simplexes/cubes）；Les cubes singuliers（I = (0,1)、u: I^n → X、dégénéré 定义、si et seulement si il est ponctuel）
+- 结果：PASS
+- 仲裁记录：①COROLLAIRE 2 印刷确为**小写 π**（"Supposons que π soit un groupe d'ordre fini"，p016_pi2b_600.png）而同段 "l'ordre de Π)" 用大写（p016_pi2_600.png）——印刷自身大小写混用，MD "$\pi$…$\Pi$" 忠实保留，不改；②150dpi 疑页尾为 "s'il est"，600dpi（p016_sil4_600.png）确认印刷为 "**si il** est"（两词分写），MD 忠实，不改。
+- 差异：无。
+- 备注：md 行 646 起 "On notera $Q_n(X)$…" 与 "## L'opérateur bord." 段属印刷 p.440。
