@@ -722,7 +722,7 @@ $$
 d (f \cdot g) = d f \cdot g + (- 1) ^ {p} f \cdot d g.
 $$
 
-Si $f$ et $g$ sont toutes deux nulles sur les cubes dégénérés, il en est de même de $f \cdot g$. En effet, si $u$ est un cube dégénéré, ou bien $\lambda_{\kappa}^{0} u$ est dégénéré, ou bien $\lambda_{H}^{1} u$. Si l'anneau $G$ a un élément unité, l'anneau des cochaines a un élément unité (grâce au fait qu'il n'y a pas de cubes dégénérés en dimension 0); si $G$ est associatif, il en est de même de l'anneau des cochaines.
+Si $f$ et $g$ sont toutes deux nulles sur les cubes dégénérés, il en est de même de $f \cdot g$. En effet, si $u$ est un cube dégénéré, ou bien $\lambda_{K}^{0} u$ est dégénéré, ou bien $\lambda_{H}^{1} u$. Si l'anneau $G$ a un élément unité, l'anneau des cochaines a un élément unité (grâce au fait qu'il n'y a pas de cubes dégénérés en dimension 0); si $G$ est associatif, il en est de même de l'anneau des cochaines.
 
 Ceci permet de définir l'anneau de cohomologie $H^{*}(X,G)=\sum_{n}H^{n}(X,G)$.
 

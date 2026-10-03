@@ -8,7 +8,7 @@
 - PDF SHA256=1420abbef07ec179ce1cbad72dec745b05a9f386fe1dbbeeaf98817835f9f69f
 - MD 基线 SHA256=cb13117e5f47226c41b61d39cff1b1760463ea47ea772c1b8ee6a2c6f571b6aa（mineru 原始导出 `Serre_1951_homologie_singuliere_mineru/Serre_1951_homologie_singuliere__Serre_1951_homologie_singuliere.md`）
 - 审计开始：2026-10-02 13:47
-- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。分块 2（p.010–p.018）进行中。
+- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。分块 2（p.010–p.018）已完成：PASS×2（p.012/016）、PASS±×1（p.014）、FAIL×6（p.010/011/013/015/017/018，均已当场修复）；修复 8 处（图 I λ 箭头、图 II 多余箭头、A\*n→A\*p、II→Π×2、λ^e→λ^ε×2、λ_κ→λ_K），见各页条目。
 - 文本层判定：**可用**（JSTOR OCR 文本层；首页 `pdftotext -f 1 -l 1` 成功输出封面文字，p.2–p.3 数学正文页亦能输出全部段落文本）。但 OCR 噪声明显（例：`L'int6retde`、`getodesiques`、`memoireest` 等粘连/错字），故全程采用「**文本层主对账 + PNG 视觉核验**」双通道：文本层用于定位与文字对账，凡字形、上下标、公式、记号一律以 150dpi PNG（pngmono）视觉核验为最终裁决。
 - mineru doc_id：UNKNOWN（导出目录未含 doc_id 元数据，仅 `full.md` 等产物；如需可在 `structured_content.json` 侧另行核查）
 
@@ -158,3 +158,13 @@
 - 仲裁记录（MD 正确项）：150dpi 疑 "au lieu de λ_i^ε u"（无花括号），600dpi（p017_lami2_600.png）确认印刷为 **λ_{\{i\}}^ε u**（下标花括号清晰），MD "$\lambda_{\{i\}}^{\epsilon}u$" 正确（该处 md 用 \epsilon、他处用 \varepsilon，同一字母变体，排版级不修）。
 - 差异：除上述两处 e→ε 外无。
 - 备注：md 行 703 起 "Nous noterons $C_n(X, G)$…"、cochaines 段与 "## Multiplication des cochaines." 属印刷 p.441。
+
+## p.018（PDF p.18 / 印刷 p.441）
+- PNG：audit/p018.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p018_Hn_600.png、p018_lamK2_600.png、p018_Tx2_600.png（600dpi）
+- 核对：C_n(X, G) = C_n(X) ⊗ G 与 H_n(X, G)；C^n(X, G) = Hom(C_n(X), G)、fonction nulle sur les cubes dégénérés、cobord d、H^p(X, G)；Multiplication des cochaines（f·g 定义式 (f·g)(u) = ∑_H ρ_{H,K} f(λ_K^0 u)·g(λ_H^1 u)、ρ_{H,K} = (−1)^ν 与 (i, j)、j < i 计数、d(f·g) = df·g + (−1)^p f·dg、λ_K^0/λ_H^1 引理、élément unité、anneau de cohomologie H\*(X, G) = ∑_n H^n(X, G)）；Coefficients locaux（Steenrod [30]、T_h: G_a → G_b、classe d'homotopie、transitivité、G_a 与 groupe fondamental、premier sommet x = u(0, ⋯, 0)、d(g·u) = ∑_{i=1}^n (−1)^i(T_{u,i,0}(g)·λ_i^0 u − T_{u,i,1}(g)·λ_i^1 u)）
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 725 "$\lambda_{\kappa}^{0} u$" 的下标 κ：600dpi（p018_lamK2_600.png）确认印刷为**大写 K**（λ_K^0，与同句 "K est le complémentaire de H" 一致），Edit 修复为 "\lambda_{K}^{0}"。
+  - MD 正确项：①150dpi 疑 "H^n(X, G)"，600dpi（p018_Hn_600.png）确认印刷为 **H^p(X, G)**（印刷在 "dimension n" 语境下仍写 p，print quirk，MD 忠实保留）；②150dpi 疑 T 下标为 x，600dpi（p018_Tx2_600.png）确认印刷为 **T_{u,i,0}/T_{u,i,1}**（下标 u），MD 正确。
+- 差异：无其他。
+- 备注：md 行 735 起 "où $T_{u,i,\epsilon}$ désigne l'isomorphisme…"、cup-product 段与 χ_{u,H} 路径定义属印刷 p.442，留待下一分块。
