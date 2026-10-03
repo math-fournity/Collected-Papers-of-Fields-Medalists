@@ -80,3 +80,15 @@
   - PASS± 项（不修，登记）：①MD 第 259 行 `$\mathrm { A p p l y i n g }$` 把 Applying 排成数学正体；②第 263 行 `replacing$m ,$,` 双逗点（印刷单逗号）；③第 259/261/263/277 行行末丢印刷句点；④`effective/coefficients`→`efective/coeficients` ff 拍平四处；⑤数学式与单词空格粘连。
 - 备注：Luna p.007 登记的箭头、花体 L、Ω、ι 差异与 print quirk 保留决定均属实。本次重检未发现本页数学内容错误。
 - 记录时间：2026-10-03 12:47 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.008（PDF p.8 / 印刷 p.8）
+- PNG：`audit-redo/p008.png`（pngmono 150dpi 整页）；仲裁裁片 `audit-redo/p008_T_300dpi.png`（pnggray 300dpi，y≈1560–1860 带，裁定 prime divisor T 字形）。
+- 核对：Sketch of the proof of Theorem 1.6 收尾（`X ⇢ V`、`V ⇢ X` 虚线箭头、三条 bullet 含 `\epsilon''`-lc 与 “degrees” 引号、`1/u`）、Sketch of the proof of Theorem 1.8 开头（`lct(|M|_R) ≥ lct(|A|_R)`、`ǫ′ = ǫ/2` 分数、`a(T,X,∆:=B+sN)=ǫ′`、`φ : V → X`、`Y → X`、`−(K_Y+T)` 单负号、toroidalisation/torification 两段、`X → ℙ^d`、`z=(1:0:⋯:0)`）；与 Markdown 第 279–321 行逐项比对，辅以 `pdftotext -f 8 -l 8`。
+- 结果：**FAIL（1 处，已当场修复）**
+  - **FAIL：MD 第 299 行 `There is a prime divisor$\overline { T }$on birational models of X`——印刷原文为普通斜体 `T`，无上横线。** 300dpi 裁片 `p008_T_300dpi.png` 清楚显示该行及后续各处均为不带横线的 T；`pdftotext` 文本层同为 plain T。**Luna 旧登记「原文是带上横线的T、`\overline{T}` 忠实保留」经本次 300dpi 仲裁为误判**，MinerU 原始导出引入了原页不存在的记号。修复：`\overline { T }` → `T`（以原图为准；本页修复与页条目同一提交）。
+  - Luna 其余旧修复逐项复核为正确：`X \dashrightarrow V` 与 `V \dashrightarrow X` 虚线箭头、`φ : V → X`、`Y → X`、`X → ℙ^d` 箭头均已恢复；`−(K_Y+T)` 单负号；`ε″-lc` 后无尾随 2；“degrees” 引号恢复。
+  - **print quirk 忠实保留**：印刷「a birational map X ⇢ V so that Σ is reduced whose support contains…」语法怪异（whose support 悬空），MD 原样保留；「a closed point x otherwise we can cut」无标点连排，MD 原样保留。
+  - PASS± 项（不修，登记）：①MD 第 313 行 `over$X .$,` 伪句点（印刷为逗号）；②第 315 行 `dificult`（ff 拍平）；③第 299 行 `for lct$(…)$` 把 lct 留在数学环境外；④第 279 行行末缺句点（印刷 `u = µ_T L.`）。
+- 备注：本页是重做中发现的**Luna 误判修复点**：`\overline{T}` 系 Luna 错误登记为「忠实」的记号错误，本次按 300dpi 原页证据改正。其余内容无差异。
+- 修复登记：MD 第 299 行 `$\overline { T }$`→`$T$`；证据 `audit-redo/p008_T_300dpi.png`；随本页 redo(page) 提交。
+- 记录时间：2026-10-03 12:58 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。

@@ -296,7 +296,7 @@ $$
 \operatorname{lct} (X, B, | M | _ {\mathbb {R}}) \geq \operatorname{lct} (X, B, | A | _ {\mathbb {R}}),
 $$
 
-so we only need to find a positive lower bound for lct$( X , B , | A | _ { \mathbb { R } } )$. Pick$0 \leq N \sim _ { \mathbb { R } } A$. Let s be the largest number such that$( X , B + s N )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$where$\epsilon ^ { \prime } = \frac { \epsilon } { 2 }$. It is enough to show s is bounded from below away from zero. There is a prime divisor$\overline { T }$on birational models of X with log discrepancy
+so we only need to find a positive lower bound for lct$( X , B , | A | _ { \mathbb { R } } )$. Pick$0 \leq N \sim _ { \mathbb { R } } A$. Let s be the largest number such that$( X , B + s N )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$where$\epsilon ^ { \prime } = \frac { \epsilon } { 2 }$. It is enough to show s is bounded from below away from zero. There is a prime divisor$T$on birational models of X with log discrepancy
 
 $$
 a (T, X, \Delta := B + s N) = \epsilon^ {\prime}.
