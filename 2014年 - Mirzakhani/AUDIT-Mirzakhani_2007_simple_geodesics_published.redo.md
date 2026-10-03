@@ -175,3 +175,24 @@
 - Luna 旧修复重核：$\mathbf{Mod}$ 粗体、display 记号当前与印刷一致。
 - 备注：页界 L246–L282；L284 起（disconnected surface）属 p.9。
 
+## p.009（PDF p.9 / 印刷 p.187）
+- PNG：audit-redo/p009.png（pngmono 150dpi）。
+- 核对：disconnected surface 句与 $\mathcal{M}(S,L)=\prod_{i=1}^k\mathcal{M}(S_i,L_{A_i})$ 及
+  $L_{A_i}=(L_s)_{s\in A_i}$；Weil–Petersson symplectic form 段（$\omega\in\Omega^2(M)$、(1/n!)ω∧⋯∧ω、
+  Goldman [Gol]、$\omega$/$\omega_{wp}$ 记名句）；$\mathrm{Vol}$ 乘积式；Fenchel–Nielsen coordinates 段
+  （pants decomposition、$\mathcal{P}=\{\alpha_i\}_{i=1}^k$、$k=3g-3+n$、FN 坐标组、[Bus]）；
+  $\mathcal{T}_{g,n}(L)\cong\mathbb{R}_+^{\mathcal{P}}\times\mathbb{R}^{\mathcal{P}}$；by the map 式；
+  Wolpert 引句 [Wol1]；Theorem 2.1 (Wolpert) 与 $\omega_{wp}=\sum_{i=1}^k d\ell_{\alpha_i}\wedge d\tau_{\alpha_i}$。
+- 结果：**PASS±**（5 处偏离已修，见下）。
+- 修复登记（本 redo，证据=p.9 PNG + 文本层）：
+  1. MD L290：印刷 "$L_{A_i}=(L_s)_{s\in A_i}$**.**"，缺句号 → 补 "."；
+  2. MD L298：MinerU "By work ofGoldman" 丢空格 → "of Goldman"；
+  3. MD L298：印刷 "denoted by $\omega$ or $\omega_{wp}$"，平文 ω → $\omega$；
+  4. MD L304：印刷 "For a marked hyperbolic surface **X** ∈ T_{g,n}(L)"（PNG+文本层双证为平文 X），
+     MinerU 误加音符 "$\check{X}$" → 改 "X"（本块唯一记号级错误）；
+  5. MD L304：印刷 "associated with $\mathcal{P}$,"（花体），MinerU 平文 "P" → 改 $\mathcal{P}$。
+- print quirk 登记不改：无。注意 $\mathcal{T}_{g,n}(L)\cong\mathbb{R}_+^{\mathcal{P}}\times\mathbb{R}^{\mathcal{P}}$
+  第二因子无下标 + 系印刷原样（PNG 直证），MD 与印刷一致，勿按数学预期补 ₊。
+- Luna 旧修复重核：Theorem 2.1、≅ 式、$\mathcal{P}$ 花体当前与印刷一致。
+- 备注：页界 L284–L321；L324 起（Hamiltonian circle actions）属 p.10。
+

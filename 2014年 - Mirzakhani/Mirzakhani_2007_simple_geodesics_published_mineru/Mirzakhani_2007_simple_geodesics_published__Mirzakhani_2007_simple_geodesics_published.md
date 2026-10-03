@@ -287,7 +287,7 @@ $$
 \mathcal {M} (S, L) = \prod_ {i = 1} ^ {k} \mathcal {M} (S _ {i}, L _ {A _ {i}}),
 $$
 
-where$L _ { A _ { i } } = ( L _ { s } ) _ { s \in A _ { i } }$
+where$L _ { A _ { i } } = ( L _ { s } ) _ { s \in A _ { i } }$.
 
 The Weil-Petersson symplectic form. Recall that a symplectic structure on a manifold M is a non-degenerate closed 2-form$\omega \in \Omega ^ { 2 } ( M )$. The n-fold wedge product
 
@@ -295,13 +295,13 @@ $$
 \frac {1}{n !} \omega \wedge \dots \wedge \omega
 $$
 
-never vanishes and defines a volume form on M. By work ofGoldman [Gol], the space$\mathcal { T } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$carries a natural symplectic form invariant under the action of the mapping class group. This symplectic form is called Weil-Petersson symplectic form, and denoted by ω or$\omega _ { w p }$. In this paper, we are interested in calculating the volume of the moduli space with respect to the volume form induced by the Weil-Petersson symplectic form. Note that when S is disconnected, we have
+never vanishes and defines a volume form on M. By work of Goldman [Gol], the space$\mathcal { T } _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$carries a natural symplectic form invariant under the action of the mapping class group. This symplectic form is called Weil-Petersson symplectic form, and denoted by$\omega$or$\omega _ { w p }$. In this paper, we are interested in calculating the volume of the moduli space with respect to the volume form induced by the Weil-Petersson symplectic form. Note that when S is disconnected, we have
 
 $$
 \operatorname{Vol} (\mathcal {M} (S, L)) = \prod_ {i = 1} ^ {k} \operatorname{Vol} (\mathcal {M} (S _ {i}, L _ {A _ {i}})).
 $$
 
-The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decompose the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n } , \mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where $k = 3 g - 3 + n$. For a marked hyperbolic surface$\check { X } \in \mathcal { T } _ { g , n } ( L )$, the Fenchel-Nielsen coordinates associated with P,$\{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ( X )$ $\dots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces. We have an isomorphism [Bus]
+The Fenchel-Nielsen coordinates. A pants decomposition of S is a set of disjoint simple closed curves which decompose the surface into pairs of pants. Fix a system of pants decomposition of$S _ { g , n } , \mathcal { P } = \{ \alpha _ { i } \} _ { i = 1 } ^ { k }$, where $k = 3 g - 3 + n$. For a marked hyperbolic surface$X \in \mathcal { T } _ { g , n } ( L )$, the Fenchel-Nielsen coordinates associated with$\mathcal { P }$,$\{ \ell _ { \alpha _ { 1 } } ( X ) , \ldots , \ell _ { \alpha _ { k } } ( X ) , \tau _ { \alpha _ { 1 } } ( X )$ $\dots , \tau _ { \alpha _ { k } } ( X ) \}$, consist of the set of lengths of all geodesics used in the decomposition and the set of the twisting parameters used to glue the pieces. We have an isomorphism [Bus]
 
 $$
 \mathcal {T} _ {g, n} (L) \cong \mathbb {R} _ {+} ^ {\mathcal {P}} \times \mathbb {R} ^ {\mathcal {P}}
