@@ -312,3 +312,12 @@
 - 核对：On suppose 段（e_K = ν_K(p)、indice de ramification absolu、changement de notation 括注）、Soit maintenant V 段（Ω、ρ: G_K → GL(V)、exposant du conducteur n(ρ) ⩾ 0、(G_i)_{i⩾0}）、(4.9.1) n(ρ) = Σ_{i⩾0}(g_i/g₀)dim V/V_i、g_i/V_i 句、(4.9.2) n(ρ) = dim V/V₀ + b(ρ)、b(ρ) = Σ_{i⩾1}…、invariant sauvage 句（[39] §19.3）、PROPOSITION 9（p^c、G₁、N sur Ω）、(4.9.3) b(ρ) ⩽ N e_K(c + 1/(p−1))、stricte 句、COROLLAIRE、(4.9.4) n(ρ) ⩽ N(1 + e_K c + e_K/(p−1))。
 - 结果：PASS。公式、量词（Σ 端点 i⩾0/i⩾1）、不等式方向与端点全部与印刷吻合。
 - 备注：(4.9.3) 左端 Markdown 为 b(ρ) 与印刷一致；b(ρ) 式内 \mathrm{dim} 与他处 \dim 混用，渲染等效，排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 215” 未收入 Markdown，排版级。印刷页止于 (4.9.4) 后 stricte 句，“Démonstration de la prop. 9” 属印刷 p.216。
+
+## p.038（PDF p.38 / 印刷 p.216）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p038.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p038_d_sum.png`（pnggray）。
+- 核对：Démonstration de la prop. 9（I 最大指标、dim V/V_i majoration）、(4.9.5) b(ρ) ⩽ N/g₀(g₁+⋯+g_I) ⩽ N/g₀(I + Σ_{i⩾1}(g_i−1))、[38] p. 79 exerc. 3 句、(4.9.6) I ⩽ g₀e_K/(p−1)、stricte 句、d = Σ(g_i−1) 定义（différente、[38] p. 72、Hensel [38] p. 67）、d ⩽ g₀ − 1 + g₀e_K c、(4.9.7) Σ_{i⩾1}(g_i−1) ⩽ g₀e_K c、En combinant 段、Remarque（abélien d'exposant p^h、b(ρ) ⩽ Ne_K(h + 1/(p−1))、h ⩽ c）、Application à (4.8.8)（(a) p=3/N=2/e_K=1/c⩽1/n(ρ)⩽5/conducteur 3⁵；(b) p=2/N=2/e_K=1/c⩽3/G₁ non cyclique si c=3/n(ρ)⩽9/même n(ρ)⩽8/conducteur 2⁸）。
+- 结果：PASS。公式、不等式、界（⩽ 9/5/2）、引用页码全部与印刷吻合。
+- 印刷原文 quirk：d 的定义式印刷为 Σ_{i⩾0}(g_i − 1)（300 dpi 裁片确认下标含等号；数学上 différente 的 valuation 应为 i>0，疑原文笔误），print 原文优先，Markdown 同作 i ⩾ 0 忠实保留。
+- 备注：150 dpi 阶段 “i>0” 判读经裁片排除；“3⁵”/“2⁸” Unicode 上标渲染等效，排版级；页眉 “216 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…courbes elliptiques de conducteur 2⁸.”，§5 开头属印刷 p.217。
