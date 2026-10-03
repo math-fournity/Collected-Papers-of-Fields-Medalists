@@ -44,3 +44,13 @@
   1. 印刷 "…normalized Hauptmodul for the genus 0 group SL₂(Z)**.**"（段末句点，后接 "Another example…"）在 MD 中缺失。以原图为准，已用 Edit 补回句点（本页 commit）。
   2. Luna 旧修复对印刷复核：平移矩阵 `\begin{pmatrix}1&1\\0&1\end{pmatrix}`（印刷 2×2 ✓，旧 MinerU 误为 `\binom{1}{0}1` 丢列）、`difficulty`（印刷 difficulty ✓）、`+a function`（印刷 "+ a function" ✓，旧 MinerU 误作 `\mathrm{a} function`）均正确；旧审计所列 `dificulty`/`dificult`/系数拆分（240/24/276/2048）在当前 MD 已为正常连写。
 - 备注：**print quirk 保留**：印刷原文重复 "it is not difficult **to to** work out"，MD 忠实保留，不改。印刷此处 Thompson series 记号确为 T_g(τ)（与它处 T_g(q) 不同），MD 忠实保留 `$T _ { g } ( \tau )$`。Γ₀(N) 定义中印刷竖线后 "c ≡ 0 mod N" 的 mod 为行文，MD 拆为 `$c \equiv 0$mod$N \}$`，语义一致，属全局排版风格。
+
+## p.004（PDF p.4 / 印刷 p.4）
+
+- PNG：audit-redo/p004.png（pngmono 150dpi，本块实渲染实读）。
+- 核对：Z²=Z⊕Z 分次度数表（8 列×9 行，含 R² 行行尾 "⋯." 句点；各 V₃/V₆/V₉/V₂/V₄/V₁/V₋₁ 位置）、Z₂-orbifold of a 26-dimensional torus 段、[3,16,18]/[21] 引文、generalized Kac-Moody 定义段（sl₂ per Dynkin point、sl₂'s 可粘合、Heisenberg、实根 ⟨(α,α)>0 vs 虚根 (α,α)≤0、simple roots must be real、**may also have imaginary simple roots**）、affine sl₂(R[z,z^{-1}]) Jacobi triple product、正根 (m,n),m>0,n>0 与 (1,−1)、multiplicity c(mn)、Weyl group order 2 maps (m,n)→(n,m)。
+- 文本层通道：pdftotext 第 4 页与 PNG 一致。
+- 结果：**PASS**。
+- 仲裁记录：初读 150dpi 曾疑 MD "may also have" 多出 "may"；经 pdftotext + 300dpi 裁剪双证（audit-redo/300dpi/p004-may-also.png，pdftoppm 渲染；gs 300dpi 整页对本页报 Page drawing error，故用 poppler），印刷确为 "may also have"，MD 正确，不改。
+- Luna 旧修复对印刷复核：`$\mathbf{Z}_2$-orbifold`（印刷 Z₂-orbifold ✓，旧 MinerU 误为 `Z _ { \mathrm { 2 ^ { - O r b i f o l d } } }`）、`$sl_2$`/`$sl_2's$`（印刷 sl₂/sl₂'s ✓）、`difference`（✓）、`affine`（✓）均正确。旧审计所列 `diference`/`afine`/`s l _ { 2 }` 碎片在当前 MD 已不存在。
+- 备注：度数表 MD 与印刷逐格一致（含 R² 所在行行尾印刷的 "⋯."，MD 作 `\dots .` 忠实保留）。`$sl_2’s$` 中撇号以 Unicode 右单引号置于数学内，属 MinerU 全局排版风格，不改。无修复动作。
