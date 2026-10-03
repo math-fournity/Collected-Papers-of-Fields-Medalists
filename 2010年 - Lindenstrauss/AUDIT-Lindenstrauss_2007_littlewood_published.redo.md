@@ -32,3 +32,25 @@
   印刷页吻合。本页 MD 无需修改。
 
 ---
+
+## p.002（PDF p.2 / 印刷 p.514）
+
+- PNG：audit-redo/p002.png（pngmono 150dpi）；`where n, m` 终裁裁片 300dpi（/tmp 瞬时中转，结论登记于此）。
+- 核对：跨页段落延续（unipotents groups→Ratner 段）、§1.2 节标题与段落、Conjecture 1.1 (Margulis)
+  陈述、Furstenberg 半群段落前半、运行头。
+- 结果：**PASS±**（1 处文字偏离已修复）
+- 差异列表：
+  1. MD 原作「where $n$ and $m$ are two multiplicatively independent integers」，印刷原文（300dpi 裁片
+     + pdftotext 双证）为「where *n, m* are two multi-plicatively independent integers」。已用结构化
+     Edit 修复为 `where $n, m$ are two multiplicatively independent integers`（MD 第 25 行）。
+  2. 缺运行头「514 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS」（MinerU 系统性
+     伪影，登记不改）。
+- print quirk 忠实保留：印刷原文确实拼作「**Raghunatan's** conjecture」（Raghunathan 漏 h，印刷自身
+  错拼）；MD 第 15 行同样拼 `Raghunatan's`，与印刷一致，**不改正**。印刷「one–parameter subgroups」
+  用 en-dash，MD 保留 en-dash，一致。
+- 其余核对：第 15 行后半（[41]/[42]/[40]/[43]/[28] 引文串、parabolic behavior、[8]）、第 19 行 §1.2
+  （split Cartan、Weyl chamber flow [16]）、第 21 行（k=2 Anosov、k>2 R^{k-1}-action、e.g. [16],[15]、
+  partially hyperbolic）、第 23 行 Conjecture 1.1（X=SL(k,R)/SL(k,Z)、k≥3、closed connected L>A、
+  single closed L-orbit）逐句与印刷吻合。
+
+---
