@@ -147,3 +147,14 @@
 - 仲裁记录：①COROLLAIRE 2 印刷确为**小写 π**（"Supposons que π soit un groupe d'ordre fini"，p016_pi2b_600.png）而同段 "l'ordre de Π)" 用大写（p016_pi2_600.png）——印刷自身大小写混用，MD "$\pi$…$\Pi$" 忠实保留，不改；②150dpi 疑页尾为 "s'il est"，600dpi（p016_sil4_600.png）确认印刷为 "**si il** est"（两词分写），MD 忠实，不改。
 - 差异：无。
 - 备注：md 行 646 起 "On notera $Q_n(X)$…" 与 "## L'opérateur bord." 段属印刷 p.440。
+
+## p.017（PDF p.17 / 印刷 p.440）
+- PNG：audit/p017.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p017_lamH_600.png、p017_ydot_600.png、p017_lami2_600.png（600dpi）
+- 核对：Q_n(X)/D_n(X)/Q(X)/D(X) 定义；L'opérateur bord（faces、H/K/φ_K、λ_H^ε u 定义式、y_i 规则 "si i ∈ H, ẏ_i = ε / si i ∈ K, y_i = x_{φ_K(i)}"、λ_i^ε 简记 λ_{\{i\}}^ε、λ_i^0/λ_i^1 展开式、du = ∑_{i=1}^n (−1)^i(λ_i^0 u − λ_i^1 u)、λ_i^ε∘λ_j^{ε′} = λ_{j−1}^{ε′}∘λ_i^ε (i < j)、ddu = 0、λ_n^0 u = λ_n^1 u、D(X) sous-groupe permis）；Les groupes d'homologie et cohomologie cubiques（DÉFINITION C(X) = Q(X)/D(X)、chaînes cubiques singulières、C_n(X) = Q_n(X)/D_n(X)、groupe libre/coefficients universels）
+- 结果：FAIL（已当场修复 2 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 655 "$\lambda_{H}^{e}u$" 与行 697 "$\lambda_i^e u$" 的上标 e：600dpi（p017_lamH_600.png）确认印刷为 **ε**（"lier λ_H^ε u, de dimension q"；同页定义处同行自身即有 "$\varepsilon = 0$ ou 1"），两处 Edit 修复为 "\varepsilon"。
+  - 印刷 quirk 登记（不修）：y_i 规则首行印刷为 "**ẏ_i** = ε"——y 上有实心圆点（p017_ydot_600.png，位置居中、形状规则，为印刷实物，疑原书排版失误），md 的 "\dot{y_i}" 忠实保留。
+- 仲裁记录（MD 正确项）：150dpi 疑 "au lieu de λ_i^ε u"（无花括号），600dpi（p017_lami2_600.png）确认印刷为 **λ_{\{i\}}^ε u**（下标花括号清晰），MD "$\lambda_{\{i\}}^{\epsilon}u$" 正确（该处 md 用 \epsilon、他处用 \varepsilon，同一字母变体，排版级不修）。
+- 差异：除上述两处 e→ε 外无。
+- 备注：md 行 703 起 "Nous noterons $C_n(X, G)$…"、cochaines 段与 "## Multiplication des cochaines." 属印刷 p.441。

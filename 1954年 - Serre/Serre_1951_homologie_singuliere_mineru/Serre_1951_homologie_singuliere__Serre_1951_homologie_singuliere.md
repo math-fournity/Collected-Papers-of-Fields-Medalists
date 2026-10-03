@@ -652,7 +652,7 @@ On notera $Q_{n}(X)$ le groupe libre admettant pour base l'ensemble des cubes si
 
 Soit $u$ un cube singulier de dimension $n$; nous allons définir certaines faces particulières de $u$.
 
-Soit H une partie à p éléments de l'ensemble  $\{1, \cdots, n\}$  et soit q = n - p; soit K le complémentaire de H, et  $\varphi_{K}$  l'application strictement croissante de K sur l'ensemble  $\{1, \cdots, q\}$ . Si  $\varepsilon = 0$  ou 1, nous définirons un nouveau cube singulier  $\lambda_{H}^{e}u$ , de dimension q, en posant:
+Soit H une partie à p éléments de l'ensemble  $\{1, \cdots, n\}$  et soit q = n - p; soit K le complémentaire de H, et  $\varphi_{K}$  l'application strictement croissante de K sur l'ensemble  $\{1, \cdots, q\}$ . Si  $\varepsilon = 0$  ou 1, nous définirons un nouveau cube singulier  $\lambda_{H}^{\varepsilon}u$ , de dimension q, en posant:
 
 $$
 \left(\lambda_ {H} ^ {\varepsilon} u\right) \left(x _ {1}, \dots , x _ {q}\right) = u \left(y _ {1}, \dots , y _ {n}\right)
@@ -694,7 +694,7 @@ $$
 (i <   j)
 $$
 
-entraîne que $ddu = 0$. En outre, $d$ applique $D_n(X)$ dans $D_{n-1}(X)$, car si $u$ est un cube dégénéré, $\lambda_i^e u$ l'est aussi pour $i \leq n - 1$, et $\lambda_n^0 u = \lambda_n^1 u$. Il en résulte que $D(X)$ est un sous-groupe permis du groupe différentiel $Q(X)$.
+entraîne que $ddu = 0$. En outre, $d$ applique $D_n(X)$ dans $D_{n-1}(X)$, car si $u$ est un cube dégénéré, $\lambda_i^{\varepsilon} u$ l'est aussi pour $i \leq n - 1$, et $\lambda_n^0 u = \lambda_n^1 u$. Il en résulte que $D(X)$ est un sous-groupe permis du groupe différentiel $Q(X)$.
 
 Les groupes d'homologie et cohomologie cubiques.
 
