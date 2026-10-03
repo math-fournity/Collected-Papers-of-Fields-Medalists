@@ -361,3 +361,11 @@
 - 核对：(5.3.1)（ρ(G_Q) ≃ ρ₀(G_Q) 惯性、n(l) = 1、n₀(l) = 2）、(5.3.2)、N divise N₀ 段与 (3.2.4?) 引用、Exemples tirés de courbes elliptiques 段（c₃/c₆、Néron、IV/IV* Kodaira、[41] n° 5.6、Φ_l）、ρ^E: G_Q → GL₂(F₃) 式、Exemple (5.3.3)（y² + xy = x³ + x² − 2x − 7、N₀ = 11²、N = 11、E′ y² + y = x³ − x²）、a_l ≡ a′_l (mod 3) 式、a_l/a′_l 数值表（l < 50，13 列逐格）。
 - 结果：FAIL。一处已依原图修复：“La conjecture (3.2.4.)” 丢下标 ?，印刷为 (3.2.4_?)，修为 “(3.2.4?)”。其余文字、公式与表格逐格吻合。
 - 备注：Exemple (5.3.3) 曲线标签印刷为 121_F（300 dpi 裁片确认斜体 F），Markdown $121_{F}$ 一致——150 dpi “121_B” 判读排除；“IV\*” 转义渲染为 IV*，排版级；“3, 1 1”/“1 17–119” 数字空格排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 221” 未收入 Markdown，排版级。印刷页止于 a′_l 表行，Exemple (5.3.4) 属印刷 p.222。
+
+## p.044（PDF p.44 / 印刷 p.222）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p044.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p044_54_glyph.png`（pnggray）。
+- 核对：Exemple (5.3.4)（147_I、y² + y = x³ + x² − 114x + 473、147 = 3.7²、type multiplicatif en 3、c₆ en 7、N₀ = 7²、N = 7、très ramifiée en 3、k = 4）、F = q + Σ_{n⩾2}Aₙqⁿ 展开式（q − q² − 2q³ − 7q⁴ + 16q⁵ + 2q⁶ − 7q⁷ + 15q⁸ + …）、calcul 括注、a_l ≡ A_l (mod 3) 式、a_l/A_l 数值表（l < 50，13 列逐格）、Calcul de F 段（Q(√−7)、f₁ = Σ q^{zz̄}、f₂ = (1/2)Σ z²q^{zz̄}、poids 1 et 3、Legendre mod 7）、5.4 节标题（SL₂(F₉) ≅ 𝔄̃₆）、G = {±1, ±i}·SL₂(F₉) 式、F₉* 句。
+- 结果：FAIL。一处已依原图修复：5.4 节标题印刷为 SL₂(F₉) ≅ 𝔄̃₆（300 dpi 裁片确认 fraktur A 带 tilde），Markdown 写成无 tilde 的 \mathfrak{A}_{6}，修为 \tilde{\mathfrak{A}}_{6}。其余文字、公式与表格逐格吻合。
+- 备注：147_I 下标与印刷一致（罗马 I）；表格 markdown 格式逐格一致；页眉 “222 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…dans PGL₂(F₉)”，PSL₂(F₉)/A₆ 段属印刷 p.223。

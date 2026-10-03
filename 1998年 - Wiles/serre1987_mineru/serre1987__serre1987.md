@@ -1871,7 +1871,7 @@ $$
 
 sont des formes modulaires de poids 1 et 3 respectivement, de niveau 7 et de caractère le caractère de Legendre mod 7. Leur produit $f_1 \cdot f_2$ est la forme $F$ considérée plus haut; d'où le calcul des coefficients de $F$.
 
-5.4. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{9}) \simeq \mathfrak{A}_{6}$ . Soit G le sous-groupe de  $\mathbf{GL}_{2}(\mathbf{F}_{9})$  formé des éléments de déterminant  $\pm 1$ . On a
+5.4. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{9}) \simeq \tilde{\mathfrak{A}}_{6}$ . Soit G le sous-groupe de  $\mathbf{GL}_{2}(\mathbf{F}_{9})$  formé des éléments de déterminant  $\pm 1$ . On a
 
 $$
 G = \left\{\pm 1, \pm i \right\} \cdot \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right) = \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right) \cup i \cdot \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right),
