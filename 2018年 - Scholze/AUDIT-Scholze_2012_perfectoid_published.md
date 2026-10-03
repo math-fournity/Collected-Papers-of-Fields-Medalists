@@ -564,3 +564,16 @@
   4. (iii)："$\mathrm X=\mathrm U_i\mathrm U_i$"（并集符号丢失）→"$\mathrm X=\bigcup_i\mathrm U_i$"（p.292 (iii)行原图）
   5. "H$^i(...)= 0 f o r i > 0.$"→"$\mathrm H^i(...)=0$ for$i>0$"（for散字出math）（p.292 is exact行）；Remark 6.12 annihilated by m→$\\mathfrak m$（fraktur，PNG确认）；(ii) Proof"affinoid$\\mathrm K\\cdot$-algebra"伪\\cdot→-algebra；(iii) Proof"after completion. -"→".□"（p.292四处）
 - 备注：两个 Tate 复形 display 与 print 一致；行 1627 起（Lemma 6.13）属印刷 p.293，留待 p.049。
+## p.049（PDF p.49 / 印刷 p.293）
+- PNG：audit/p049.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/293；Lemma 6.13 (i)–(iv)（filtered direct limit、Spa(R,R^+)≅lim Spa(R_i,R_i^+)、U_j preimage of U_i、quasicompact）；Proof (i)（S_I⊂R、K⟨T_i|i∈I⟩→R、S_I^+ power-bounded/integral、ϖ-adic completion of lim_Φ S_I^+、R_I=R_I^+[ϖ^{−1}]、R^+/ϖ^n=lim_I R_I^+/ϖ^n、f_1−f_2=ϖ^n g、J⊃I）；(ii)（(L,L^+) direct limit、ϖ-adic topology、Spa(L,L^+)≅lim Spa(R_i,R_i^+)）；(iii)（O_{X_j}(U_j)）；(iv)（A_i closed complement、spectral、constructible topology）+QED □；Proposition 6.14 头
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 5 条，以原图为准）：
+  1. Lemma 6.13 (i)(ii) 句末补句点×2（print 原有）；(iii)"(O_{X_i}^+(U_j))"下标 i→j（print O_{X_j}^+(U_j)）、"))"游离右括号删、"$\mathrm{\Delta T}_i$"伪Δ且 T 系 U 误读→"$\mathrm U_i$"、"$f o r j\ge i.$"for散字出math+补句点（p.293 (iii)行原图）
+  2. (iv)："${If\mathbf U}_i\subset\mathbf X_i$"→"If$\mathrm U_i\subset\mathrm X_i$"；"image ofX"×2→image of X；句末补句点（p.293 (iv)行）
+  3. Proof (i)："K⟨T_i|i∈I⟩␣R"缺箭头→→；"S_I^+⊂R^+ We caution"补句点；"$\varpi\cdot$-adic"→"$\varpi$-adic"；"$\lim_\Phi^{\tiny S_I^+}$"→"$\varprojlim_\Phi\mathrm S_I^+$"；"$(R_I,R_I^+)␣(R,R^+)$"缺箭头→→；"$\varinjlim_{\tiny}$"补下标 I；"$g∈\mathbb R^+$"→\mathrm R^+；completed direct limit of the$(R_I,R_I^+)$句末补句点（p.293 Proof (i)各行原图）
+  4. (ii)段："$\operatorname*{lim}_{}$"→$\varprojlim$（p.293 (ii)行）
+  5. (iii)段："(O_{X_i}^+(U_j))"下标 i→j（同上）（p.293 (iii)行）
+  6. (iv)段："$\mathrm U_{i:}$"伪':'删、"the$\operatorname A_j$are"补空格、"has to be zero.-"→".□"（p.293 (iv)行）
+  7. Prop 6.14 头："ofany"→of any、"${\mathrm K}\cdot-algebra, \mathrm X=…"散字→"$\mathrm K$-algebra, $\mathrm X=\mathrm{Spa}(\mathrm R,\mathrm R^+)$"、"$\mathrm X=\mathrm U_i\mathrm U_i$"（并集丢失）→"$\mathrm X=\bigcup_i\mathrm U_i$"（p.293 Prop 6.14行原图）
+  8. **控制字节登记**：行1641 一处 \x0b（"equipped with the \x0b-adic topology"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
+- 备注：°-复形 display 已在 p.048 修毕；行 1649 起（"sequence"+exact display）属印刷 p.294，留待 p.050。
