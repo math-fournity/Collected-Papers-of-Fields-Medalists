@@ -155,3 +155,10 @@
 - 核对：§5 标题、§5A Prop 5.1 两项（f_j = Σ_{i=0}^{d_j} a_{ij}τ^i、a_{d_jj}、操作元 h、hf_1 = f_2h）及证明（m²=0、hf_1 = f_2h = a_02h、τ^{d+n}、d = d_1 = d_2）、Prop 5.2 陈述与 conjugation display、存在性证明（a_n/a_d^{p^{n-d}} 两处、τ^{n-d}）、§5B elliptic A-module over S 定义、standard module remark（Σ^{d log p|a|}、L^{1-p^i}）、V(I)/X_I 段（finite flat、étale）。
 - 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复（均正确）：操作元 `h`（原矿 b）、系数比较 `τ^{d+n}`（原矿 r）、`d = d_1 = d_2`（原矿 d=d_2=d）、分母 `a_d^{p^{n-d}}` 两处（原矿 p^{n-1}）——印刷逐一确证。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 575" 未收。
+
+## p.016（PDF p.16 / 印刷 p.576）
+
+- PNG：audit-redo/p016.png（pngmono 150dpi）
+- 核对：level-I 结构定义（ψ: (I^{-1}/A)^d → Mor(S,X)、X_m、m^{-1}/A）、Remark（(I^{-1}/A)^d × S ≅ X_I）、Prop 5.3 及证明（Spec A − m、(m^{-1}/A)^d trivialization）、§5C 设置（O = A_ν、Â_ν^{nr}/ν、level ν^n）、函子表示段（V(I) ∌ ν、level Iν^n、M_{Iν^n}^d ⊗ A_ν^{nr}、F_n）、Ŷ = lim→ Y_{ν^n} 段、Prop 5.4、proof a)、b)（A = F_p[x]、ν = (x)、x ∈ ν、F_p[[x]]/F_p[x] 区分、E'_0/F'_0、交换图）、A_x^* 开头。
+- 结果：PASS±。全部内容项与印刷相符，本轮无需修改。重核 Luna 修复（均正确）：Remark target `X_I`（原矿 X_r）、level `Iν^n`（原矿 lv^n）、place `ν`（原矿 v，含 ν=(x)、x∈ν）——印刷逐一确证。
+- 另记（PASS± 级伪影，不改）：页眉 "576 V. G. DRINFEL'D" 未收。
