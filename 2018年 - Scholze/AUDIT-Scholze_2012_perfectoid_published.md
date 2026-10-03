@@ -577,3 +577,16 @@
   7. Prop 6.14 头："ofany"→of any、"${\mathrm K}\cdot-algebra, \mathrm X=…"散字→"$\mathrm K$-algebra, $\mathrm X=\mathrm{Spa}(\mathrm R,\mathrm R^+)$"、"$\mathrm X=\mathrm U_i\mathrm U_i$"（并集丢失）→"$\mathrm X=\bigcup_i\mathrm U_i$"（p.293 Prop 6.14行原图）
   8. **控制字节登记**：行1641 一处 \x0b（"equipped with the \x0b-adic topology"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
 - 备注：°-复形 display 已在 p.048 修毕；行 1649 起（"sequence"+exact display）属印刷 p.294，留待 p.050。
+## p.050（PDF p.50 / 印刷 p.294）
+- PNG：audit/p050.png（pngmono 150dpi）
+- 核对：页眉 294/PETER SCHOLZE；°a-复形 display（承接 p.049）；is exact 段；Proof（char p 段、F_p((ϖ))(ϖ^{1/p^∞})、Lemma 6.13、lim X_i、pullback、Prop 6.11）；char 0 段（tilted sequence、reduce modulo ϖ^♭、QED □）；This finishes Theorem 6.3+QED □；affinoid perfectoid spaces 段；Definition 6.15；tilting glues 段；Definition 6.16（tilt of a perfectoid space、Hom 等式）；Proposition 6.17（tilt 存在唯一、等价、topological spaces identified、affinoid perfectoid 判据）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 4 条，以原图为准）：
+  1. "is exact"段："H$^i(\mathrm X,{\mathcal O}_X^{o a})= 0 f o r i > 0$"→"$\mathrm H^i(\mathrm X,{\mathcal O}_X^{\circ a})=0$ for$i>0$."（oa→∘a、for散字出math、补句点）（p.294 is exact行原图）
+  2. Proof char p 段："completion of$\mathbf F_{\boldsymbol\phi}((\varpi))(\varpi^{1/\mathnormal p^\infty}) ;$"→"$\mathbf F_p((\varpi))(\varpi^{1/p^\infty})$;"（φ系p误读、双分号删、\\mathnormal清理）（p.294 Proof行原图）
+  3. "write X≅$\operatorname*{lim}_{\bf\Pi}\mathrm X_i$"（伪下标\\bf\\Pi）→$\varprojlim\mathrm X_i；"pullback ofa cover"→of a cover（p.294 Proof段）
+  4. **控制字节登记**：行1657 一处 \\x0b（"such as the \\x0b-adic completion of F_p…"=ϖ 丢失）——登记待字节级修复（\\x0b→$\\varpi$）
+  5. char 0 段"other statements.-"→".□"；"This finishes the proof of Theorem 6.3."补 QED □（print 有 tombstone）（p.294两行）
+  6. Def 6.15 "morphisms ofadic spaces"→of adic spaces（p.294 Def行）
+  7. Def 6.16 "tilt ofa perfectoid space"、"ifthere is afunctorial"补空格；"Hom$(\mathrm{Spa}…,\mathrm X^\flat)=\mathrm{Hom}(\mathrm{Spa}(\mathrm R,\mathrm R^+),$X)"跨 math run 的"X)"并入 math+补句点（p.294 Def 6.16行原图）
+  8. Prop 6.17："tilt$\\mathrm{{X^\\flat}}_.$,"伪'.$,'→$\\mathrm X^\\flat$, unique、ofperfectoid×2补空格、"Finally,for/affinoidperfectoid"补空格、"$\\mathrm{~U~C~X~}_\\mathfrak i$"（C系⊂、伪下标i）→$\\mathrm U\\subset\\mathrm X$、句末补句点（p.294 Prop 6.17行原图）
+- 备注：°a-复形 display 与 print 一致；行 1673 起（Proof of Prop 6.17）属印刷 p.295，留待 p.051。
