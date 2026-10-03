@@ -52,17 +52,17 @@ $$
 \Xi = \left\{(u, v) \in \mathbb {R} ^ {2}: \liminf _ {n \to \infty} n \langle n u \rangle \langle n v \rangle > 0 \right\}.
 $$
 
-Then the Hausdorff dimension dim$. \boldsymbol { H } \boldsymbol { \Xi } = 0$. In$f a c t , \Xi$is a countable union of compact sets with box dimension zero.
+Then the Hausdorff dimension$\dim _ { H } \Xi = 0$. In fact,$\Xi$is a countable union of compact sets with box dimension zero.
 
-J. W. S. Cassels and H. P. F. Swinnerton-Dyer [1] showed that (1.1) holds for any u, v which are from the same cubic number field (i.e. any field K with degree$\left[ K : \mathbb { Q } \right] = 3 )$
+J. W. S. Cassels and H. P. F. Swinnerton-Dyer [1] showed that (1.1) holds for any u, v which are from the same cubic number field (i.e. any field K with degree$\left[ K : \mathbb { Q } \right] = 3 ).$
 
-It is easy to see that for a.e. (u, v) equation (1.1) holds — indeed, for almost every u it is already true that lim in$\operatorname { f } _ { n \to \infty } n \langle n u \rangle = 0$. However, there is a set of u of Hausdorff dimension 1 for which lim in$\operatorname { f } _ { n \longrightarrow \infty } n \langle n u \rangle > 0 ;$such u are said to be badly approximable. Pollington and Velani [35] showed that for every$u \in \mathbb { R }$, the intersection of the set
+It is easy to see that for a.e. (u, v) equation (1.1) holds — indeed, for almost every u it is already true that$\liminf _ { n \to \infty } n \langle n u \rangle = 0$. However, there is a set of u of Hausdorff dimension 1 for which$\liminf _ { n \longrightarrow \infty } n \langle n u \rangle > 0;$such u are said to be badly approximable. Pollington and Velani [35] showed that for every$u \in \mathbb { R }$, the intersection of the set
 
 $$
-\{v \in \mathbb {R}: (u, v) \text {   satisfies   } (1. 1) \}\tag{1.2}
+\{v \in \mathbb {R}: (u, v) \text {   satisfies   } (1.1) \}\tag{1.2}
 $$
 
-with the set of badly approximable numbers has Hausdorff dimension one. Note that this fact is an immediate corollary of our Theorem 1.5 — indeed, Theorem 1.5 implies in particular that the complement of this set (1.2) has Hausdorff dimension zero for all u. We remark that the proof of Pollington and Velani is efective.
+with the set of badly approximable numbers has Hausdorff dimension one. Note that this fact is an immediate corollary of our Theorem 1.5 — indeed, Theorem 1.5 implies in particular that the complement of this set (1.2) has Hausdorff dimension zero for all u. We remark that the proof of Pollington and Velani is effective.
 
 Littlewood’s conjecture is a special case of a more general question. More generally, for any k linear forms$\begin{array} { r } { m _ { i } ( x _ { 1 } , x _ { 2 } , \ldots , x _ { k } ) = \sum _ { j = 1 } ^ { k } m _ { i j } x _ { j } } \end{array}$, one may consider the product
 
@@ -72,7 +72,7 @@ $$
 
 where$m = ( m _ { i j } )$denotes the$k \times k$matrix whose rows are the linear forms above. Using Theorem 1.3 we prove the following:
 
-Theorem 1.6. There is a set$\Xi _ { k } \subset \mathrm { S L } ( k , \mathbb { R } )$of Hausdorff dimension$k - 1$ so that for every$m \in \mathrm { S L } ( k , \mathbb { R } ) \setminus \Xi _ { k }$
+Theorem 1.6. There is a set$\Xi _ { k } \subset \mathrm { S L } ( k , \mathbb { R } )$of Hausdorff dimension$k - 1$ so that for every$m \in \mathrm { S L } ( k , \mathbb { R } ) \setminus \Xi _ { k }$,
 
 $$
 \inf _ {\mathbf {x} \in \mathbb {Z} ^ {k} \setminus \{\mathbf {0} \}} | f _ {m} (\mathbf {x}) | = 0.\tag{1.3}
@@ -80,7 +80,7 @@ $$
 
 Indeed, this set$\Xi _ { k }$is A-invariant, and has zero Hausdorff dimension transversally to the A-orbits.
 
-For more details, see Section 10 and Section 11. Note that (1.3) is automatically satisfied if zero is attained by$f _ { m }$evaluated on$\mathbb { Z } ^ { k } \setminus \{ 0 \}$
+For more details, see Section 10 and Section 11. Note that (1.3) is automatically satisfied if zero is attained by$f _ { m }$evaluated on$\mathbb { Z } ^ { k } \setminus \{ 0 \}$.
 
 We also want to mention another application of our results due to Hee Oh [32], which is related to the following conjecture of Margulis:
 

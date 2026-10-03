@@ -48,3 +48,21 @@
   - 印刷 "come from A invariant homogeneous subspaces"（A 后无连字符）MD 忠实保留。
   - 登记非保留伪影：页眉 "THE SET OF EXCEPTIONS TO LITTLEWOOD'S CONJECTURE 515" 未保留。
   - **Luna 旧判定复核**：Luna 登记 `diference` 为 PASS± 未修；重做口径下已修。
+
+### p.004（PDF p.4 / 印刷 p.516）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p004.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 4 -l 4 -layout` / `-raw`；300dpi 仲裁裁片 `audit-redo/300dpi/Lindenstrauss_2006_littlewood_exceptions_p004_theorem-1-5_300dpi.png`、`..._p004_theorem-1-6_300dpi.png`、`..._p004_dim-k-zoom_600dpi.png`、`..._p004_eq-1-3_300dpi.png`。
+- 核对：Theorem 1.5（Ξ 定义 + dim 结论）、Cassels–Swinnerton-Dyer [1] 段、badly approximable 段与式 (1.2)、Pollington–Velani [35] 段、线性形式 f_m 定义与乘积display、Theorem 1.6 全句与式 (1.3)、Hee Oh [32] 引出行、页眉。
+- 结果：**FAIL（以原图为准）→ 修复后复核 PASS**
+  - **FAIL 主项（redo 发现，Luna 未处理）**：Theorem 1.5 结论在 MD 中被伪影损坏为 `dim$. \boldsymbol { H } \boldsymbol { \Xi } = 0$. In$f a c t , \Xi$is…`（下标结构丢失、H/Ξ 误加粗、In fact 误入数学模式）；印刷（300dpi 裁片）为 `dim_H Ξ = 0. In fact, Ξ is…`。已修为 `Then the Hausdorff dimension$\dim _ { H } \Xi = 0$. In fact,$\Xi$is…`。
+  - **Luna 旧修复重核（关键）**：Luna 曾删除 Theorem 1.6 句尾游离 `2`（原 MinerU 输出 `…\setminus \Xi _ { k }$2`）。600dpi 终裁（`..._dim-k-zoom_600dpi.png`）确认**印刷即为 "Hausdorff dimension k−1"，k 后无上标 2**（本 PDF 为 arXiv v1 版式；pdftotext -raw 同证 "dimension k−1"，而 p.2 印刷 ℝ^{k−1} 在同一提取中显式带 2，证明文本层不丢上标），该 `2` 无印刷来源，**Luna 的删除正确**，initial suspicion（疑其为 k² 的错位上标）不成立。
+  - **其余修复（Edit，逐处溯源）**：
+    1. 行 57 段末补句点：`= 3 )` → `= 3 ).`（印刷 "[K : Q] = 3)."）；
+    2. 行 59 两处 `lim in$\operatorname { f } …$` 跨界伪影 → `$\liminf …$`（印刷 liminf）；
+    3. 行 62 `\text` 内 `(1. 1)` → `(1.1)`（印刷 (1.1)）；
+    4. 行 65 `efective` → `effective`（印刷双 f）；
+    5. 行 75 Theorem 1.6 句 `…\setminus \Xi _ { k }$` 补回印刷逗号 → `…\setminus \Xi _ { k }$,`（Luna 删 2 时原句无逗号，印刷 "…∖Ξ_k,"）；
+    6. 行 83 段末补句点（印刷 "…evaluated on Z^k∖{0}."）。
+  - **核实证真**：式 (1.3) 印刷 x、0 为粗体（300dpi 裁片 `..._eq-1-3_300dpi.png`），MD `\mathbf { x }`/`\mathbf { 0 }` 正确保留。
+  - 登记非保留伪影：页眉 "516 MANFRED EINSIEDLER, …" 未保留。
+  - 线性形式定义 Σ_{j=1}^k m_ij x_j、f_m 乘积 display、[1]/[35]/[32] 引用号与印刷一致。
