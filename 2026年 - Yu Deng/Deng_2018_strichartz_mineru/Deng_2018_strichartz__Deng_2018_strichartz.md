@@ -1576,7 +1576,7 @@ which proves the case$p = 8$of Theorem 6.1.
 
 With the same ansatz for f as in Section 5, we will prove
 
-Theorem 7.1. Generically in$( \alpha _ { i j } )$
+Theorem 7.1. Generically in$( \alpha _ { i j } )$,
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {10} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {10} \lesssim | S ^ {5} | (N ^ {6} + T N ^ {2}).
@@ -1587,7 +1587,7 @@ This implies Theorem 1.2 for$p = 10$
 Following the same argument as in Section$6 ,$we have by (6.3) that
 
 $$
-\| e^{it\widetilde{\Delta}}f\|_{L^{p}([0,T])}^{10}\lesssim \sum_{2^{j} > \frac{1}{T}}2^{-j}|S^{5}|\sup_{a,b\lesssim N,\tau \lesssim N^{2}}\sum_{\substack{A_{1},B_{1},C_{1}\lesssim N^{2}\\ |A_{1} + B_{1}\alpha +C_{1}\beta -\tau | <   2^{j}}}|\Omega_{a,b,A_{1},B_{1},C_{1}}^{5,N, + }
+\| e^{it\widetilde{\Delta}}f\|_{L^{p}([0,T])}^{10}\lesssim \sum_{2^{j} > \frac{1}{T}}2^{-j}|S^{5}|\sup_{a,b\lesssim N,\tau \lesssim N^{2}}\sum_{\substack{A_{1},B_{1},C_{1}\lesssim N^{2}\\ |A_{1} + B_{1}\alpha +C_{1}\beta -\tau | <   2^{j}}}|\Omega_{a,b,A_{1},B_{1},C_{1}}^{5,N, + }|
 $$
 
 where$\Omega _ { a , b , A _ { 1 } , B _ { 1 } , C _ { 1 } } ^ { 5 , N , + }$is the set of solutions of size less than N to
