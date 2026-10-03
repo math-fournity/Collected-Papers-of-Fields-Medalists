@@ -238,3 +238,11 @@
 - 印刷原文 quirk：页尾印刷即为 "different.-"（句号后带排印杂符连字符；300 dpi 确证），MD 忠实保留。
 - 备注：F̄_p、Z_p、Q_p、Φ 等印刷粗体，MD 正体（weight 拍平，登记不改）。
 - 结果：PASS。
+
+## p.030（PDF p.30 / 印刷 p.459）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:18 -0400。
+- PNG：`audit/ribet1990_p030.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："M(2,**Z**)" 无 _p 下标、"PGL(2,**Z**_v)" 下标 v，均为印刷原样，未存档）。
+- 核对：S⊂R Eichler order（M(2,Z_p) 显式矩阵集）；𝒱/ℰ（locally free rank-1 left R/S-modules）；𝒱=R_f*\H_f*/H*、ℰ=S_f*\H_f*/H*；α: ℰ→𝒱、β: ℰ→𝒱（Eichler order T、mRm⁻¹、diag(1,p)、(mR_f*m⁻¹)\H_f*/H*、m⁻¹ 平移）；Proposition 4.4（𝒢 边集=ℰ、顶点集=𝒱×{1,2}、(α(e),1)-(β(e),2)）与 Proof（strong approximation、𝒱_Δ=PGL(2,Q_p)/PGL(2,Z_v)=H_p*/R_p*Q*、两个 orbits、𝒱_{Δ+}=PGL(2,Q_p)⁺/PGL(2,Z_p)、GL(2,Z_p)\X=𝒱、𝒱_{Δ−} 补集、bijection 𝒱→GL(2,Q_p)⁺\(𝒱_{Δ−}×X)、m=diag(1,p)）✓。
+- 发现并当场修复：①L1038 OCR 误植 "Eicher order"→"Eichler order"（印刷为 Eichler）；②L1044 两处 "Let V/let E"→"$\mathcal{V}$/$\mathcal{E}$"；③L1062 "from E to"→"from $\mathcal{E}$ to"；④L1072 两处 "vertices of G"→"$\mathcal{G}$"、"$V_{\Delta}$"→"$\mathcal{V}_{\Delta}$"；⑤L1078 "$V_{\Delta}$"→"$\mathcal{V}_{\Delta}$"；⑥L1090 三处 "$V_{\Delta-}/V_{\Delta+}/V_{\Delta}$"→"$\mathcal{V}_{\Delta-}/\mathcal{V}_{\Delta+}/\mathcal{V}_{\Delta}$"。均据 150 dpi 页图（花体同款）。
+- 印刷原文 quirk：L1041 印刷即 "∈M(2,**Z**)"（漏 _p 下标；300 dpi 确证）与 L1075 "PGL(2,**Z**_v)"（下标 v 为印刷笔误，预期 p；300 dpi 确证）——MD 均忠实保留不改。
+- 结果：FAIL（10 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

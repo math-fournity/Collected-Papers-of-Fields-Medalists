@@ -1035,13 +1035,13 @@ $$
 
 where $\Delta$ is the well-known tree attached to $\mathbf{SL}(2)$ ([33], Ch II, §1). This graph has been described explicitly by Kurihara [16] when $M = 1$. We now study the general case, which is not qualitatively different.-
 
-Let $S \subset R$ be the Eicher order of level $Mp$ in $H$ gotten by intersecting $R$ with the evident Eichler order in $\mathbf{M}(2, \mathbf{Z}_p)$
+Let $S \subset R$ be the Eichler order of level $Mp$ in $H$ gotten by intersecting $R$ with the evident Eichler order in $\mathbf{M}(2, \mathbf{Z}_p)$
 
 $$
 \left\{\left( \begin{array}{c c} a & b \\ c & d \end{array} \right) \in \mathbf {M} (2, \mathbf {Z})   \bigg |   p \text { divides } c \right\}.
 $$
 
-Let V be the set of isomorphism classes of locally free rank-1 left R-modules, and let E be the set of isomorphism classes of locally free rank-1 left S-modules. We have canonically
+Let $\mathcal{V}$ be the set of isomorphism classes of locally free rank-1 left R-modules, and let $\mathcal{E}$ be the set of isomorphism classes of locally free rank-1 left S-modules. We have canonically
 
 $$
 \mathcal {V} = R _ {\mathbf {f}} ^ {*} \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*} \quad \mathcal {E} = S _ {\mathbf {f}} ^ {*} \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*}.
@@ -1059,7 +1059,7 @@ $$
 \beta : \mathcal {E} \rightarrow \mathcal {V}
 $$
 
-is obtained by considering the Eichler order T of H which has level M, contains S, agrees with R locally at all places except for p, and is distinct from R. The order T is given adelically as  $mRm^{-1}$ , where m is trivial except at p, where it is the diagonal matrix  $\text{diag}(1, p)$ . The analogue of  $\alpha$  for T is a map from E to the double coset space
+is obtained by considering the Eichler order T of H which has level M, contains S, agrees with R locally at all places except for p, and is distinct from R. The order T is given adelically as  $mRm^{-1}$ , where m is trivial except at p, where it is the diagonal matrix  $\text{diag}(1, p)$ . The analogue of  $\alpha$  for T is a map from $\mathcal{E}$ to the double coset space
 
 $$
 (m R _ {\mathbf {f}} ^ {*} m ^ {- 1}) \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*}.
@@ -1069,13 +1069,13 @@ We get $\beta$ by identifying this space with $\mathcal{V}$ via multiplication b
 
 Proposition 4.4. The set of edges of $\mathcal{G}$ is canonically the set $\mathcal{E}$. The set of vertices of $\mathcal{G}$ is the disjoint union $\mathcal{V} \times \{1, 2\}$ of two copies of $\mathcal{V}$. A given edge $e \in \mathcal{E}$ connects the vertex $(\alpha(e), 1)$ with the vertex $(\beta(e), 2)$.
 
-Proof. The quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus X$  is trivial because of strong approximation ((3.16) and its proof). It follows that the set of vertices of G is the quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus(\mathcal{V}_{\Delta}\times X)$ , where  $V_{\Delta}$  is the set of vertices of  $\Delta$ . We have
+Proof. The quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus X$  is trivial because of strong approximation ((3.16) and its proof). It follows that the set of vertices of $\mathcal{G}$ is the quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus(\mathcal{V}_{\Delta}\times X)$ , where  $\mathcal{V}_{\Delta}$  is the set of vertices of  $\Delta$ . We have
 
 $$
 \mathcal {V} _ {\Delta} = \mathrm{PGL} (2, \mathbf {Q} _ {p}) / \mathrm{PGL} (2, \mathbf {Z} _ {v}) = H _ {p} ^ {*} / R _ {p} ^ {*} \mathbf {Q} ^ {*}.
 $$
 
-There are two orbits of  $V_{\Delta}$  under the action of  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}$ . Consider first
+There are two orbits of  $\mathcal{V}_{\Delta}$  under the action of  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}$ . Consider first
 
 $$
 \mathcal {V} _ {\Delta +} = \mathrm{PGL} (2, \mathbf {Q} _ {p}) ^ {+} / \mathrm{PGL} (2, \mathbf {Z} _ {p}).
@@ -1087,7 +1087,7 @@ $$
 \mathbf {G L} (2, \mathbf {Z} _ {p}) \backslash X = \mathcal {V}.
 $$
 
-Secondly, let  $V_{\Delta-}$  be the complement of  $V_{\Delta+}$  in  $V_{\Delta}$  and consider
+Secondly, let  $\mathcal{V}_{\Delta-}$  be the complement of  $\mathcal{V}_{\Delta+}$  in  $\mathcal{V}_{\Delta}$  and consider
 
 $$
 \mathbf {G L} (2, \mathbf {Q} _ {p}) ^ {+} \backslash (\mathcal {V} _ {\Delta +} \times X).
