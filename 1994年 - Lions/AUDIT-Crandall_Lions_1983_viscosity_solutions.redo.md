@@ -50,3 +50,10 @@
 - 核对：续句（(with error estimates)…[9]）、节标题 I. Viscosity solutions、I.1 记号段（𝒟(𝒪)=C_c^∞(𝒪)）、(1.1)、(1.1) 说明段、X⁺/X_c 记号段、motivation 段与两个导数展示式、E_±(ψ) 定义段、DEFINITION I.1 题头、(1.2) 子解分支（E_+ ⇒ ∃y…≤ 0）
 - 结果：**PASS±**。正文、公式与 (1.2) 子解分支均与印刷页相符。源级 quirk 登记：印刷页 (1.1) 说明段印作 $P_{N+1} + H(x,t,p_1,\ldots,p_N)$，首字母为大写 P（300dpi 裁片与同行小写 p_1,…,p_N 字形对比确证）；MD 照录 `P_{N+1}` 忠实，不按数学预期改为小写。样式差异：印刷 𝒟 字形在 MD 行 93 录作 $\mathcal{D}$、行 119 录作 $\mathfrak{D}$（300dpi 证实两处印刷同形），同一粗体 R 在行 113 录 $\mathbf{R}$、行 119 录 $\mathbb{R}$；均为字体族转录差异，对象可辨，不作正文修复。页眉作者行与印刷页码 4 未录入 Markdown。
 - 备注：(1.2) 超解分支（(respectively, … (1.3)）延续到 p.5，续接点核对见下页条目。
+
+## p.005（PDF p.5 / 印刷 p.5）
+
+- PNG：audit-redo/p005.png（pngmono 150dpi）；仲裁裁片 300dpi×2：Theorem I.2 题头行与单词级 2x 放大（/tmp 中转，结论已录本条）
+- 核对：(1.3) 超解分支（E_- ⇒ ∃y…≥ 0）、viscosity solution 双条件定义段、F≤0/−F=0 不等价段（u(x)=|x| 例）、REMARK I.4、motivation 段、I.2 节段（𝔇(Ω)⁺、∃/∀）、Lipschitz 反例（(u_x)²−1=0 on ]−1,1[、u_max/u_min、u_n′=(−1)^j、0≤u_n≤1/2n）、In contrast 引句、THEOREM I.2 全陈述
+- 结果：**PASS±**。全部公式、编号（(1.3)）与不等号方向与印刷页相符。源级 quirk 登记：**印刷原文本即误拼 "STABLILITY"**（THEOREM I.2 题头，300dpi 裁片 + 2x 放大逐字母确证 S-T-A-B-L-I-L-I-T-Y）；MD 行 151 照录 `STABLILITY` 忠实，不改正。样式差异：印刷 Roman 标签 REMARK I.4 在 MD 行 135 拍平为 `REMARK 1.4`（同页交叉引用 §I.4 保留 Roman；该 I→1 拍平为全篇样式，统一在此登记一次，后续页不再重复展开）；行 139 $\mathfrak{D}(\Omega)^{+}$ 与 p.4 行 93 $\mathcal{D}$ 同指印刷 script 𝒟（同 p.4 登记）。「not」斜体未保留，不误导。页眉 running head 与印刷页码 5 未录入 Markdown。
+- 备注：本页无脚注；PROOF OF THEOREM I.2 自 p.6 起，页界正确。
