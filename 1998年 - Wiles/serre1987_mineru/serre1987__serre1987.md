@@ -1733,7 +1733,7 @@ $$
 
 à déterminant impair, et telle que l'image de $\rho_{p}(G_{\mathbf{Q}})$ dans $\mathbf{PGL}_{2}(\overline{\mathbf{F}}_{p})$ soit un groupe diédral; en particulier, la conjecture faible (3.2.3?) est vraie pour une telle représentation.
 
-5.2. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{4}) \simeq \mathfrak{A}_{5}$ . Soit K un corps de degré 5 sur Q dont la clôture galoisienne  $K^{gal}$  ait pour groupe de Galois le groupe alterné  $A_{5}$ . Comme  $A_{5}$  est isomorphe à  $\mathbf{SL}_{2}(\mathbf{F}_{4})$ , on déduit de là un homomorphisme surjectif  $G_{\mathbf{Q}} \to \mathbf{SL}_{2}(\mathbf{F}_{4})$ , d'où une représentation absolument irréductible
+5.2. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{4}) \simeq \mathfrak{A}_{5}$ . Soit K un corps de degré 5 sur Q dont la clôture galoisienne  $K^{gal}$  ait pour groupe de Galois le groupe alterné  $\mathfrak{A}_{5}$ . Comme  $\mathfrak{A}_{5}$  est isomorphe à  $\mathbf{SL}_{2}(\mathbf{F}_{4})$ , on déduit de là un homomorphisme surjectif  $G_{\mathbf{Q}} \to \mathbf{SL}_{2}(\mathbf{F}_{4})$ , d'où une représentation absolument irréductible
 
 $$
 \rho^ {K} \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {4}),

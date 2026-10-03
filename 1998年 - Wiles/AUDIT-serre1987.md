@@ -337,3 +337,11 @@
 - 核对：Dans le cas général 句（(3.2.4?)）、PROPOSITION 10、(3.2.3?) 括注、Démonstration（𝔖₃ → GL₂(Z)、ρ₀^K: G_Q → GL₂(C)、ε_D: G_Q → 𝔖₃ →^{sgn} {±1}、Q(√D)）、情形 (i)（ε_D impair、𝔖₃ diédral、[11],[45]、F₁ poids 1 niveau |D|、thêta、E_D Eisenstein、F = F₁·E_D、f = F̃₁、Ẽ_D = 1、(2^m N, 2, 1)）、k′ 括注（m = 0、D = −N、k′ = 2）、情形 (ii)（ψ d'ordre 3、α auxiliaire、(ii₁)/(ii₂)/(ii₃)）、L'existence 括注、ρ₀′ = Ind(ψα) 句首。
 - 结果：FAIL。一处已依原图修复：Markdown 在 “D'après (ii₁), sa” 处把下标写成错误转义 “(ii$\_{1}$)”（渲染为字面反斜杠），修为 “(ii$_{1}$)”。其余文字与公式逐项吻合。
 - 备注：印刷 “f = F̃₁” 的 tilde 与 Markdown \tilde{F}_1 一致；(ii₁)/(ii₂)/(ii₃) 列表下标其余处正常，仅此引用处转义损坏；页眉 “218 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “D'après (ii₁), sa”，réduction 段属印刷 p.219。
+
+## p.041（PDF p.41 / 印刷 p.219）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p041.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p041_indpsi.png`（pnggray）。
+- 核对：réduction en caractéristique 2 段（Ind(ψ) ≃ ρ^K、(ii₂)/(ii₃)、2^M N、F′ poids 1、thêta indéfinies 括注）、Remarque（ρ_p: G_Q → GL₂(F̄ₚ), p ≠ 2、PGL₂(F̄ₚ)、diédral、(3.2.3?)）、5.2 节标题（SL₂(F₄) ≃ 𝔄₅）、𝔄₅/SL₂(F₄) 段、ρ^K: G_Q → GL₂(F₄) 式、det ρ^K = 1、“méthode des graphes” ([30],[31]) 句、D 定义句、数值表（−2083/2083、−2707/2707、−3203/3203、−3547/3547、−4027/4027、2³887/887、8311/8311、2²8447/8447、13613/13613、2²24077/24077）、Buhler [7] p. 136-141 与 [31] n° 4.2 句、Remarques (1) 句首（F₄/F₁₆、U₂, T₃, T₅）。
+- 结果：FAIL。两处已依原图修复：正文 “le groupe alterné 𝔄₅. Comme 𝔄₅ est isomorphe…” 在 Markdown 两处写成普通斜体 $A_{5}$（与 5.2 标题的 \mathfrak{A}_5 体例不一；同 p.039 𝔖₃ 类问题），修为 $\mathfrak{A}_{5}$。其余文字与表格逐格吻合。
+- 备注：印刷 “Ind(ψ) ≃ ρ^K” 的连接号经 300 dpi 裁片确认为 ≃，Markdown \simeq 一致（150 dpi “=” 判读排除）；表格 markdown 格式逐格一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 219” 未收入 Markdown，排版级。印刷页止于 “…que la représenta-”，Remarques (1) 余部属印刷 p.220。
