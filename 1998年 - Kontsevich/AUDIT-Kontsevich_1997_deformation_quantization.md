@@ -276,3 +276,10 @@
 - 结果：`FAIL`→1 处已修复：行 1639 `configuration of two points on  to another configuration,`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）。print quirk 忠实保留：行 1631 `we integrate of the preimage`（原文介词 of）；行 1639 `a path form one`（原文 form 误于 from）。其余 PASS±：行 1627/1631 句末缺句点、`$\overline{{C}}_{2,0} .$` 句点入式（登记）。图文对应逐项吻合。
 - 备注：行 1641 图 page_38_image_0.jpg（path 图）与行 1643 起（coinside…）为印刷 p.39 内容，在 p.039 核对。
 
+## p.039（PDF p.39 / 印刷 p.39）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p039.png`（pngmono 150dpi）
+- 核对：path 图（行 1641 引 page_38_image_0.jpg 存在，p₁p₂→0,1）、coinside 段（原文拼写保留）、§8.3/§8.3.1 headings（Quanization 原文拼写保留）、Kirillov-Poisson bracket 段（[Ki]、{f,g}|p、⟨p,[df|p,dg|p]⟩）、Theorem（𝒰_ℏ(g) 泛包络代数）、Proof（a affine 原文、β∈g*⊗g*⊗g、Sym^k⊗Sym^l⟶Sym^m、m≤k+l、⋆ 记号）、γ₁⋆γ₂−γ₂⋆γ₁=[γ₁,γ₂] 式、I_alg:(𝒰g,·)⟶(Sym(g),⋆) 式、Corollary（(Sym(g))^g 不变多项式）、Proof（𝒰g 中心、[α,·] 微分、tangent map，MD 行 1641–1673）。
+- 结果：`FAIL`→8 处已修复：①行 1653 `$Sym^k(\mathbf{g})$$Sym^l(\mathbf{g})\longrightarrow…$` 空 $$ 丢 ⊗→补 `$\otimes$`（PNG+文本层确凿，数学内容错误）；②行 1653 `$m\leq k+l,$,` 双逗号→`$, and`；③行 1667 `$\gamma\in{\bf g}.$, where` 双句点→`$, where`；④行 1667 `where denotes the universal`→`where$\cdot$ denotes`（· 丢失，PNG 确凿）；⑤行 1671 `$\mathbf{\mu}(Sym(\mathbf{g}))^\mathbf{g}$` 幻影 μ 已删（PNG 确证无 μ）；⑥行 1673 `The center of g`→`The center of$\mathcal{U}\mathbf{g}$`（𝒰 丢失，PNG+文本层确凿）；⑦行 1673 `Hochschild complex of g endowed`→补 `$\mathcal{U}\mathbf{g}$`（𝒰 丢失）；⑧行 1673 `tangent map to  we get`→补 `$\mathcal{U}$`（𝒰 丢失）。print quirk 忠实保留：行 1643 `coinside`；行 1647 §8.3.1 标题 `Quanization`；行 1653 `on a affine space`。其余 PASS±：行 1649/1651/1669/1673 附近句末缺句点；行 1649/1653/1673 `diferentials`/`coeficients`/`afine`/`diferential`（ff 拍平）；行 1653 `¯h` 分解（登记）。公式行 1658/1664/1682/1688（后两式属 p.40）与印刷逐符号吻合。
+- 备注：行 1675 起（§8.3.2 Three isomorphisms、I_PBW、Poincar´e-Birkhof-Witt）为印刷 p.40 内容，在 p.040 核对。
+

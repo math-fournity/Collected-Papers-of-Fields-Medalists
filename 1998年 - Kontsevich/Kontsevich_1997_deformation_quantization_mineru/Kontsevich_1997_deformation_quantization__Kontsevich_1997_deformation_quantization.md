@@ -1650,7 +1650,7 @@ Let g be a finite-dimensional Lie algebra over R. The dual space to g endowed wi
 
 Theorem. The canonical quantization of the Poisson manifold$\mathbf { g } ^ { * }$is isomorphic to the family of algebras $\mathcal { U } _ { \hbar } ( \mathbf { g } )$defined as universal enveloping algebras of g endowed with the bracket$\hbar [ , ]$
 
-Proof: in 6.4 we constructed a canonical star-product on the algebra of functions on a afine space for a given Poisson structure. Thus, we have canonical star-product on$C ^ { \infty } ( \mathbf { g } ^ { * } )$. We claim that the product of any two polynomials on$\mathbf { g } ^ { * }$is a polynomial in ¯h with coeficients which are polynomials on$\mathbf { g } ^ { * }$. The reason is that the star-product is constructed using contraction of indices. Let us denote by$\beta \in \mathbf { g } ^ { * } \otimes \mathbf { g } ^ { * } \otimes \mathbf { g }$the tensor giving the Lie bracket on g. All natural operations$S y m ^ { k } ( \mathbf { g } )$$S y m ^ { l } ( \mathbf { g } ) { \longrightarrow } S y m ^ { m } ( \mathbf { g } )$which can be defined by contractions of indices with several copies of$\beta ,$exist only for$m \leq k + l ,$, and for every given m there are only finitely many ways to contract indices. Thus, it makes sense to put ¯h equal to 1 and obtain a product on$S y m ( \mathbf { g } ) = \oplus _ { k \geq 0 } S y m ^ { k } ( \mathbf { g } )$. We denote this product also by ⋆.
+Proof: in 6.4 we constructed a canonical star-product on the algebra of functions on a afine space for a given Poisson structure. Thus, we have canonical star-product on$C ^ { \infty } ( \mathbf { g } ^ { * } )$. We claim that the product of any two polynomials on$\mathbf { g } ^ { * }$is a polynomial in ¯h with coeficients which are polynomials on$\mathbf { g } ^ { * }$. The reason is that the star-product is constructed using contraction of indices. Let us denote by$\beta \in \mathbf { g } ^ { * } \otimes \mathbf { g } ^ { * } \otimes \mathbf { g }$the tensor giving the Lie bracket on g. All natural operations$S y m ^ { k } ( \mathbf { g } ) \otimes S y m ^ { l } ( \mathbf { g } ) { \longrightarrow } S y m ^ { m } ( \mathbf { g } )$which can be defined by contractions of indices with several copies of$\beta ,$exist only for$m \leq k + l$, and for every given m there are only finitely many ways to contract indices. Thus, it makes sense to put ¯h equal to 1 and obtain a product on$S y m ( \mathbf { g } ) = \oplus _ { k \geq 0 } S y m ^ { k } ( \mathbf { g } )$. We denote this product also by ⋆.
 
 It is easy to see that for$\gamma _ { 1 } , \gamma _ { 2 } \in \mathbf { g }$the following identity holds:
 
@@ -1664,13 +1664,13 @@ $$
 I _ {a l g}: (\mathcal {U} \mathbf {g}, \cdot) \longrightarrow (S y m (\mathbf {g}), \star)
 $$
 
-such that$I _ { a l g } ( \gamma ) = \gamma ~ \mathrm { f o r } ~ \gamma \in { \bf g } .$, where denotes the universal enveloping algebra of g with the standard product.
+such that$I _ { a l g } ( \gamma ) = \gamma ~ \mathrm { f o r } ~ \gamma \in { \bf g }$, where$\cdot$ denotes the universal enveloping algebra of g with the standard product.
 
 One can easily recover variable ¯h in this description and get the statement of the theorem. Q.E.D.
 
-Corollary. The center of the universal enveloping algebra is canonically isomorphic as an algebra to the algebra$\mathbf { \mu } ( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$of g-invariant polynomials on$\mathbf { g } ^ { * }$.
+Corollary. The center of the universal enveloping algebra is canonically isomorphic as an algebra to the algebra$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$of g-invariant polynomials on$\mathbf { g } ^ { * }$.
 
-Proof: The center of g is 0-th cohomology for the (local) Hochschild complex of g endowed with the standard cup-product. The algebra$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$is the 0-th cohomology of the algebra of polyvector fields on$\mathbf { g } ^ { * }$endowed with the diferential$[ \alpha , \cdot ]$where α is the Kirillov-Poisson bracket. From the theorem 8.2 we conclude that applying the tangent map to  we get an isomorphism of algebras.
+Proof: The center of$\mathcal { U } \mathbf { g }$ is 0-th cohomology for the (local) Hochschild complex of$\mathcal { U } \mathbf { g }$ endowed with the standard cup-product. The algebra$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$is the 0-th cohomology of the algebra of polyvector fields on$\mathbf { g } ^ { * }$endowed with the diferential$[ \alpha , \cdot ]$where α is the Kirillov-Poisson bracket. From the theorem 8.2 we conclude that applying the tangent map to$\mathcal { U }$ we get an isomorphism of algebras.
 
 ## 8.3.2. Three isomorphisms
 
