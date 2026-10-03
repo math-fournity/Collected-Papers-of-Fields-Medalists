@@ -1806,7 +1806,7 @@ $$
 \gamma \mapsto \exp \left(\sum_ {k \geq 1} \frac {B _ {2 k}}{4 k (2 k) !} \operatorname{Trace} \left(a d (\gamma) ^ {2 k}\right)\right)
 $$
 
-where$B _ { 2 } , B _ { 4 } , \ldots$. are Bernoulli numbers. Formally, one can write the r.h.s. as$d e t ( q ( a d ( \gamma ) ) )$where
+where$B _ { 2 } , B _ { 4 } , \ldots$ are Bernoulli numbers. Formally, one can write the r.h.s. as$d e t ( q ( a d ( \gamma ) ) )$where
 
 $$
 q (x) := \sqrt {\frac {e ^ {x / 2} - e ^ {- x / 2}}{x}}.
@@ -1820,7 +1820,7 @@ $$
 I _ {a l g} ^ {- 1} \circ I _ {T} = I _ {P B W} \circ I _ {s t r a n g e}.
 $$
 
-If it is not true then we get a non-zero series$E r r \in t ^ { 2 } \mathbf { R } [ [ t ^ { 2 } ] ]$such that the translation invariant operator on$S y m ( \mathbf { g } )$associated with$\gamma \mapsto I _ { d e t ( e x p ( a d \gamma ) ) } )$gives an automorphism of algebra$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$. Let$2 k > 0$be the degree of first non-vanishing term in the expansion of$E r r$. Then it is easy to see that the operator on $S y m ( \mathbf { g } )$associated with the polynomial$\gamma \mapsto \bar { T r a c e } ( a d ( \gamma ) ^ { 2 k }$is a derivation when restricted to$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$ One can show that it is not true using Lie algebras$\mathbf { g } = g l ( n )$for large n. Thus, we get a contradiction and proved that$E r r = 0 . \quad \ Q . E . D .$
+If it is not true then we get a non-zero series$E r r \in t ^ { 2 } \mathbf { R } [ [ t ^ { 2 } ] ]$such that the translation invariant operator on$S y m ( \mathbf { g } )$associated with$\gamma \mapsto I _ { d e t ( e x p ( a d \gamma ) ) } )$gives an automorphism of algebra$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$. Let$2 k > 0$be the degree of first non-vanishing term in the expansion of$E r r$. Then it is easy to see that the operator on $S y m ( \mathbf { g } )$associated with the polynomial$\gamma \mapsto T r a c e ( a d ( \gamma ) ^ { 2 k }$is a derivation when restricted to$( S y m ( \mathbf { g } ) ) ^ { \mathbf { g } }$ One can show that it is not true using Lie algebras$\mathbf { g } = g l ( n )$for large n. Thus, we get a contradiction and proved that$E r r = 0 . \quad \ Q . E . D .$
 
 As a remark we would like to mention that if one replaces series$q ( x )$above just by
 
@@ -1834,7 +1834,7 @@ $$
 \gamma \longrightarrow \exp (c o n s t \cdot T r a c e (a d (\gamma)))
 $$
 
-preserves the structure of Poisson algebra on$\mathbf { g } ^ { * }$. This one-parameter group also acts by automorphisms of g. It is analogous to the Tomita-Takesaki flow of weights for von Neumann factors.
+preserves the structure of Poisson algebra on$\mathbf { g } ^ { * }$. This one-parameter group also acts by automorphisms of$\mathcal { U } \mathbf { g }$. It is analogous to the Tomita-Takesaki flow of weights for von Neumann factors.
 
 ## 8.3.5. Results in rigid tensor categories
 

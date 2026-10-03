@@ -311,3 +311,10 @@
 - 结果：`FAIL`→4 处已修复：①行 1781 `(with$m = 1 0 )$`→`(with$m = 1 0 )$:（缺冒号，PNG 确凿）；②行 1785 `individual wheels These operators`→`individual wheels. These operators`（缺句点，PNG 确凿）；③行 1795 `algebras$\mathbf{\xi}(Sym(\mathbf{g}))^\mathbf{g}$` 幻影 ξ 已删（与 p.031 Ξ 同型，PNG 确证无）；④行 1795 `and Center( g).`→`and Center($\mathcal{U}\mathbf{g}$).`（𝒰 丢失，PNG+文本层确凿）。其余 PASS±：行 1785 `diferential`/`coeficients`（ff 拍平）；行 1800 下标 bar 样式（登记）。公式行 1788/1800/1806 与印刷逐符号吻合。
 - 备注：行 1809 起（where B₂,B₄,… are Bernoulli numbers…）为印刷 p.44 内容，在 p.044 核对。
 
+## p.044（PDF p.44 / 印刷 p.44）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p044.png`（pngmono 150dpi）
+- 核对：Bernoulli numbers 段、q(x):=√((e^{x/2}−e^{−x/2})/x) 式、Duflo-Kirillov 非平凡性段（[Du][Gi]）、I_alg^{-1}∘I_T=I_PBW∘I_strange 式、Err 反证段（Err∈t²R[[t²]]、Trace(ad(γ)^{2k}) derivation、g=gl(n) 反例）、(x/(1−e^{−x}))^{−1/2} remark 式、γ⟶exp(const·Trace(ad(γ))) 式与 Tomita-Takesaki 段、§8.3.5 heading（PBW 一般化、A-modules、Duflo-Kirillov morphism、[KV]/[BGRT] conjectures）、§8.4 heading 与 HT^•(X) 定义式（MD 行 1809–1851）。
+- 结果：`FAIL`→3 处已修复：①行 1809 `$\ldots$. are Bernoulli` 双句点→`$\ldots$ are`；②行 1823 `$\gamma\mapsto\bar{Trace}(ad(\gamma)^{2k}$`→删幻影杠（PNG 确证 Trace 上无 bar；印刷括号不配对 `^{2k}` 原貌保留）；③行 1837 `automorphisms of g.`→`automorphisms of$\mathcal{U}\mathbf{g}$.：𝒰 丢失（PNG+文本层确凿）。print quirk 忠实保留：行 1823 `$I_{det(exp(ad\gamma))})$` 括号不配对（原文）；`Trace(ad(\gamma)^{2k}` 缺闭括号（原文）；行 1847 `prove that that`（原文重复）。其余 PASS±：行 1815/1819/1823 附近句末缺句点、`\quad\ Q.E.D.` 空距（登记）；行 1843 `Poincar´e-Birkhof-Witt`（重音+ff 拍平）。公式行 1812/1820/1828/1834/1851 与印刷逐符号吻合。
+- 备注：行 1853 起（The second space HH^•(X)…）为印刷 p.45 内容，在 p.045 核对。
+
