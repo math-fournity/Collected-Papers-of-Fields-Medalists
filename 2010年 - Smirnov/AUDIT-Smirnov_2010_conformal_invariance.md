@@ -7,6 +7,23 @@
 - 通道判定：`pdftotext -f 1 -l 1` 首页输出完整可读（标题/作者/摘要/目录）→ **文本层可用**，全程「文本层主对账 + PNG 视觉核验」双通道。
 - 审计开始：2026-10-02 13:34 EDT
 
+## 总评（2026-10-02，p.001–p.070 全部落签后补）
+
+1. **PDF 本体**：Duminil-Copin & Smirnov "Conformal invariance of lattice models"（arXiv:1109.1549v4 讲义，70 页）印刷质量良好；70 页逐页「文本层主对账 + pngmono 150dpi PNG 视觉核验」双通道均完成，未发现数学内容级排印损坏；正文与文献表中的原文错字/quirk 已逐条登记（见各页条目与下方清单），一律忠实保留不改正。
+2. **MinerU Markdown 整文档错源（本篇唯一 FAIL 根因）**：待审 MD（SHA b4b2cd0…）实为 Arnlind–Hoppe–Huisken "Multi linear formulation of differential geometry and matrix regularizations"（33 页，mineru 3.4.4 导出，is_full_document=true），与本篇 PDF 无任何内容对应。故 70 页全部记 **FAIL（对应段整文档缺失，以原图为准）**，且未做任何 MD 修复——整文档错源不适用逐处 Edit 修复，也不允许以人工重打文本冒充 MinerU 导出。**处置建议：对本篇 PDF 重新执行 MinerU 初始导出，随后按本 AUDIT 各页条目中的逐页锚点（定理编号、公式编号 (1.1)–(8.9)、文献键、图表）重做内容级审计。**
+3. **已登记的原文错字/quirk 清单（重导出后须原样保留）**：p.1/p.46 节标题行首小写 "sub-sequential"；p.4/p.14 ∂ 下标排印偏高；p.20 "an ∂_ab^⋆"（and 脱字）；p.42 "When upon projecting"；p.45 "and and"；p.47 "is to a time-changed"；p.48 "By Theorem 4.3"（交叉引用疑误，tightness 实为 Theorem 6.1）；文献表：[Ber72] "610 pages."、[Bou26]/[Fer44]/[Isi25]/[Kir47]/[Len20]/[Lus26]/[Ons44]/[Pei36] 等句点后紧跟逗号、[Dob72] "582–60."、[Hei28] "Zür"、[Kad66] "no. 263"、[Kas61] "PhysicA"、[KW52] "Phys. Rev 88"、[Lus26] "einege"、[Nie82] "o(n)"、[PP66] "no. 292, 292"、[PW23] "Math. J. of Math."、[KO50] 无期刊项、[KT73] 单页码 "1181."、[SS05] "SLE_4"、[SW10a/b] "Arxiv"。
+4. **收稿日期**：本文为讲义，文末（p.70）仅作者单位（Université de Genève）与 email，无 Received/Accepted 栏——该项记"不适用（原文无）"。
+
+### 抽查覆盖声明
+
+- 逐页覆盖：p.001–p.070 每页一张 pngmono 150dpi PNG（audit/p001–p070.png，共 70 张）+ pdftotext -layout 文本层，逐页五点比对（题录/节标题顺序/定理编号与陈述/公式上下标/记号；文献页逐条核对 70 页文献表全部约 70 键）。
+- 300dpi 仲裁件：p.15（"cetail"→实为 detail）、p.26（"②"→实为斜体 (2)）、p.29（"9Q_δ" 确认数字 9）、p.48（"Theorem 4.3" 确认原样）共 4 处疑难字形/交叉引用，裁切件均随页 commit 入库。
+- 未逐字复核项（如实声明）：Figure 1/2 位图内容、Figure 17/18 图内公式的小号标注（p_v 权重、相图曲线细节）在 150dpi 下仅做结构与关键标注核对，未做 300dpi 全量复核；如需可另派 300dpi 图版专项。
+
+### mineru doc_id
+
+`Smirnov_2010_conformal_invariance_mineru/Smirnov_2010_conformal_invariance/structured_content.json` 的 metadata 仅有 `{"file_suffix": "pdf", "producer": {"name": "mineru", "version": "3.4.4"}}`，**无 doc_id 字段**；本篇错源导出以 MD SHA-256 `b4b2cd09c397fbcb0449c4ec8f457439a85c2a91a5d4975515fa10e0272d95b8` 为唯一凭据。
+
 ## ⚠️ 开工即发现的全局异常（阻断逐页内容对账与修复）
 
 **MinerU 导出与 PDF 是两篇不同的论文，MD 中不存在本篇任何对应段。**
