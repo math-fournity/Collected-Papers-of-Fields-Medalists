@@ -293,3 +293,11 @@
 - 发现并当场修复（14 个记号点）：①L1226/L1228 两处 "E"→"$\mathcal{E}$"（花体，同款）；②L1232 三处 "Let $T=T_N$"→"$\mathbf{T}=\mathbf{T}_{N}$"、"Let m be"→"Let $\mathbf{m}$ be"、"ideal of T"→"of $\mathbf{T}$"；③L1237 显示式两处 "\mathfrak{m}"→"\mathbf{m}"；④L1243 显示式四处 "\rho_{\mathrm{m}}"×2→"\rho_{\mathbf{m}}"、"\mathrm{mod}\,\mathrm{m}"×2→"\mathrm{mod}\,\mathbf{m}"；⑤L1246 三处 "$\rho_m$"×2→"$\rho_{\mathbf{m}}$"、"attached to m"→"to $\mathbf{m}$"；⑥L1248 "\mathfrak{m}"→"\mathbf{m}"。依据：300 dpi 两处显示式放大确证印刷的最大理想符号为粗正体 m；MD 本页 \mathfrak/\mathrm/普通 m 三种混排，统一按印刷改为 \mathbf{m}。
 - 后续页提示：p.037+ 各页同一符号请按印刷 \mathbf{m} 处理（L1281 起的 "\bmod m" 属 p.037 块范围）。
 - 结果：FAIL（14 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.037（PDF p.37 / 印刷 p.466）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 19:40 -0400。
+- PNG：`audit/ribet1990_p037.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："attached to **m**"、"det(ρ_**m**)"、"action of **T**"、"field **T**/**m**"×2 粗体确证，未存档）。
+- 核对：(10) 单射性论证、t_n=(T_n mod m)、eigenform；Théorème 6.7 应用（cusp form mod l、Σt_nq^n、K⊂C、λ|l、k↪F、Lift f、𝒪 valuation ring）；ρ_m 的 det 为 mod l cyclotomic character、self Cartier-dual；W=J₀(N)[m] 定义；Theorem 5.2（(a) semisimplification V×…×V、(b) l⊥2N ⇒ W≈V、(c) η_r=1+r−T_r 与 m 互素）与 Proof (a)（faithful、Cartier dual Hom(W,μ_l)、(x²−T_rx+r)ⁿ、Cebotarev/Brauer-Nesbitt、Vⁿ）✓。
+- 发现并当场修复（20 个记号点，全部为最大理想 **m**/Hecke 代数 **T** 粗体系——延续 p.036 印刷裁定，300 dpi 裁片确证）：①L1278 "T↦(T mod m)"→"\mathbf{m}"；②L1281 显示式同款；③L1288 七处（let m/of T/ρ_m×3/attached to m/characteristic of m）；④L1290 "(T/m)[G]"→"($\mathbf{T}/\mathbf{m}$)[G]"；⑤L1293 显示式 "\mathfrak{m}"→"\mathbf{m}"；⑥L1296 三处；⑦L1298 三处；⑧L1300 三处（\mathfrak{m}×2、ρ_m）；⑨L1304 一处；⑩L1308 三处（action of T、field T/m×2）。
+- 备注：页界——印刷 p.466 止于 "This gives (a)."，MD L1310 起（To prove (b)、H⁰(X,Ω¹)、Néron model 段与编号表）属 p.038 范围（其中 L1326 "model model" 重复词与剩余 \mathfrak{m} 将在 p.038 条目处理）。
+- 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
