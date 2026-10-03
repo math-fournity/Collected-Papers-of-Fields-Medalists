@@ -264,4 +264,15 @@
 - 结果：PASS±（加号归位后与印刷一致）。
 - 页界：本页止于「…trivial für ϱ = −1.」，衔接正确。
 
+### p.021（PDF p.21 / 印刷 p.177）
+
+- audited_at=2026-10-02 20:20 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p021.png`（pngmono 150dpi；imprint 拆分依据即本页图底部版式，无需 300dpi）。
+- 核对：节标题 II. Offene Überlagerungsflächen.、编号段 18（Spurpunkt、abzählbare Folge、W*、Ausschöpfung、umgekehrt）、Eine Folge 段（(I) und (II) 公式组引用 ✓）、regulär 定义句（斜体整段丢失登记；lim L/S = 0 的 o/0 同形维持 0）、In den folgenden 段、编号段 19、公式 `|S−S(Δ)|≦kL,`（逗号在）、gleichmässig 段（»Insel« / »Zunge« 尖引号 ✓ 忠实保留）、页末断词「betref-」、页底 imprint 行「23—34686. Acta mathematica. 65. Imprimé le 8 février 1935.」。
+- 发现并修复（MD 结构化 Edit，1 处）：**imprint 行嵌入段内词中**——MD 原为「…die Multiplizität der betref-23–34686. Acta mathematica.…」连写；印刷中段落止于页底「betref-」（断词跨页），imprint 为页底独立行。已拆分为段落断词 + 独立 imprint 行（段内移交项核销；短横形式沿用本篇 imprint 既有 MD 惯例，长划差异同前登记为排版级）。
+- 同形登记（不改）：lim L/S = o 的 o 形字符（0/o 同形，同 p.008/p.012/p.013 类）。
+- 结果：PASS±（imprint 拆分后与印刷版式一致）。
+- 与 Luna 旧记录交叉：旧总评已登记 p.21 »Insel«/»Zunge« 保留 ✓；imprint 嵌入词中系旧审计未检出的结构缺陷。
+- 页界：本页止于「…der betref-」（次页续「fenden Insel.」），imprint 在段落后、页底，MD 顺序已按印刷恢复。
+
 <!-- redo-tail -->

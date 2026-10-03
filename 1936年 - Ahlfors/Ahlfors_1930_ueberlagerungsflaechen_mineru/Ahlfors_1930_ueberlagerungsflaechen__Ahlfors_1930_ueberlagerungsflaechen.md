@@ -541,7 +541,9 @@ $$
 \left| S - S (\Delta) \right| \leq k L,
 $$
 
-gleichmäßig für alle Flächen $W$ einer ausschöpfenden Folge. Wir wollen die Grösse $S(\Delta)$ etwas näher untersuchen. Der über $\Delta$ gelegene Teil einer Fläche $W$ zerfällt in zusammenhängende Flächenteile $\Omega$ von zwei verschiedenen Arten. Entweder ist ein Flächenstück $\Omega$ relativ unberandet in bezug auf $\Delta$; dann wird $\Omega$ eine »Insel» genannt. Oder $\Omega$ besitzt einen relativen Rand, der dann natürlich Teil des relativen Randes von $W$ ist; in diesem Falle heisst $\Omega$ eine »Zunge». Der von einer Insel herrührende Teil von $S(\Delta)$ ist ganzzahlig und gleich der Blätteranzahl der Insel. Wir nennen diese Zahl die Multiplizität der betref-23–34686. Acta mathematica. 65. Imprimé le 8 février 1935.
+gleichmäßig für alle Flächen $W$ einer ausschöpfenden Folge. Wir wollen die Grösse $S(\Delta)$ etwas näher untersuchen. Der über $\Delta$ gelegene Teil einer Fläche $W$ zerfällt in zusammenhängende Flächenteile $\Omega$ von zwei verschiedenen Arten. Entweder ist ein Flächenstück $\Omega$ relativ unberandet in bezug auf $\Delta$; dann wird $\Omega$ eine »Insel» genannt. Oder $\Omega$ besitzt einen relativen Rand, der dann natürlich Teil des relativen Randes von $W$ ist; in diesem Falle heisst $\Omega$ eine »Zunge». Der von einer Insel herrührende Teil von $S(\Delta)$ ist ganzzahlig und gleich der Blätteranzahl der Insel. Wir nennen diese Zahl die Multiplizität der betref-
+
+23-34686. Acta mathematica. 65. Imprimé le 8 février 1935.
 
 fenden Insel. Rechnet man die Multiplizitäten aller Inseln zusammen, so erhält man eine Zahl $n(\Delta)$ welche angibt, wie oft $\Delta$ sozusagen vollständig überdeckt wird.
 
