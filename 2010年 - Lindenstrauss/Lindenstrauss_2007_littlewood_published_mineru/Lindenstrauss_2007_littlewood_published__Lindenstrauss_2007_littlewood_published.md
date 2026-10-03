@@ -52,11 +52,11 @@ $$
 \Xi = \left\{(u, v) \in \mathbb {R} ^ {2}: \operatorname * {l i m i n f} _ {n \to \infty} n \langle n u \rangle \langle n v \rangle > 0 \right\}.
 $$
 
-Then the Hausdorff dimension of $\Xi$ is zero. In fact, $\Xi$ is a countable union of compact sets with box dimension zero.
+Then the Hausdorff dimension $\dim _ { H } \Xi = 0$. In fact, $\Xi$ is a countable union of compact sets with box dimension zero.
 
-J. W. S. Cassels and H. P. F. Swinnerton-Dyer [1] showed that (1.1) holds for any u, v which are from the same cubic number field (i.e. any field K with degree$\left[ K : \mathbb { Q } \right] = 3 )$
+J. W. S. Cassels and H. P. F. Swinnerton-Dyer [1] showed that (1.1) holds for any u, v which are from the same cubic number field (i.e. any field K with degree$\left[ K : \mathbb { Q } \right] = 3 )$.
 
-It is easy to see that for a.e. $(u,v)$, equation (1.1) holds — indeed, for almost every $u$ it is already true that $\liminf_{n\to\infty} n\langle nu\rangle=0$. However, there is a set of $u$ of Hausdorff dimension 1 for which $\liminf_{n\to\infty} n\langle nu\rangle>0$; such $u$ are said to be badly approximable. Pollington and Velani [35] showed that for every $u\in\mathbb R$, the intersection of the set
+It is easy to see that for a.e. $(u,v)$ equation (1.1) holds — indeed, for almost every $u$ it is already true that $\liminf_{n\to\infty} n\langle nu\rangle=0$. However, there is a set of $u$ of Hausdorff dimension 1 for which $\liminf_{n\to\infty} n\langle nu\rangle>0$; such $u$ are said to be badly approximable. Pollington and Velani [35] showed that for every $u\in\mathbb R$, the intersection of the set
 
 $$
 \{v \in \mathbb {R}: (u, v) \text {   satisfies   (1.1) } \}\tag{1.2}
@@ -80,7 +80,7 @@ $$
 
 Indeed, this set$\Xi _ { k }$is A-invariant, and has zero Hausdorff dimension transversally to the A-orbits.
 
-For more details, see Section 10 and Section 11. Note that (1.3) is automatically satisfied if zero is attained by$f _ { m }$evaluated on$\mathbb { Z } ^ { k } \setminus \{ 0 \}$
+For more details, see Section 10 and Section 11. Note that (1.3) is automatically satisfied if zero is attained by$f _ { m }$evaluated on$\mathbb { Z } ^ { k } \setminus \{ 0 \}$.
 
 We also want to mention another application of our results due to Hee Oh [32], which is related to the following conjecture of Margulis:
 

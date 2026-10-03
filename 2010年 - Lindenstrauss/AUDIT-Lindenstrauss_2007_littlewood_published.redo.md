@@ -76,3 +76,30 @@
   measure on X）逐项与印刷吻合。本页 MD 无需修改。
 
 ---
+
+## p.004（PDF p.4 / 印刷 p.516）
+
+- PNG：audit-redo/p004.png（pngmono 150dpi）；「a.e. (u,v)」与「[K:ℚ]=3).」终裁裁片 300dpi
+  （/tmp 瞬时中转，结论登记于此）；双通道：pdftotext 文本层互证。
+- 核对：Theorem 1.5 陈述与 Ξ 定义、Cassels–Swinnerton-Dyer [1] 段、badly approximable 段、
+  公式 (1.2)、k 线性型 f_m 定义式、Theorem 1.6 陈述与公式 (1.3)、Hee Oh [32] 过渡句。
+- 结果：**PASS±**（4 处偏离已修复）
+- 差异列表（均已用结构化 Edit 修复）：
+  1. **Theorem 1.5 结论被意译**：MD 原作「Then the Hausdorff dimension of $\Xi$ is zero.」，印刷原文
+     为「Then the Hausdorff dimension *dim*<sub>H</sub> Ξ = 0.」（150dpi 图 + pdftotext 双证）。定理
+     陈述的符号形式不得意译，已修复为 `Then the Hausdorff dimension $\dim _ { H } \Xi = 0$.`
+     （MD 第 55 行）。
+  2. Cassels–Swinnerton-Dyer 段末缺句点：印刷「degree [K : ℚ] = 3).」；MD 原作 `= 3 )$` 收尾，
+     已补 `.`（MD 第 57 行）。
+  3. 「for a.e. $(u,v)$, equation (1.1) holds」的逗号为 MD 添加：印刷（300dpi 裁片）作
+     「for a.e. (u, v) equation (1.1) holds」，无逗号；已删（MD 第 59 行）。
+  4. §1.6 前导段末缺句点：印刷「evaluated on ℤ^k∖{0}.」；MD 原作 `$\mathbb { Z } ^ { k } \setminus \{ 0 \}$`
+     收尾，已补 `.`（MD 第 83 行）。
+- 缺运行头「516 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS」（系统性，登记不改）；
+  Theorem 1.6 行末印刷逗号（`∖ Ξ_k,` 后接展示式）MD 未保留，排版级，不改。
+- 其余核对：Ξ 定义（(u,v)∈ℝ²、liminf n⟨nu⟩⟨nv⟩>0）、(1.1) 引用、Hausdorff dimension 1 的 badly
+  approximable 集、Pollington and Velani [35]、(1.2) 集合、f_m = Π_{i=1}^k m_i、m=(m_ij) 行说明、
+  Theorem 1.6（Ξ_k ⊂ SL(k,ℝ)、维数 k−1、m ∈ SL(k,ℝ)∖Ξ_k、inf_{x∈ℤ^k∖{0}}|f_m(x)|=0、A-invariant、
+  transversally zero）逐项与印刷吻合。
+
+---
