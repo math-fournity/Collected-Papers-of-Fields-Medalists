@@ -193,3 +193,23 @@
 | 27 | `\mathcal{H}`/`\tilde{\mathcal{H}}` → `\mathscr{H}`/`\tilde{\mathscr{H}}` ×18 | `036f5c9b` |
 - **mineru doc_id**：本次重做未重跑 MinerU，导出元数据中无 doc_id 可记（UNKNOWN）；来源链以文件头所记 PDF/MD SHA 与 git 历史（`0b0f3dd2` 原始产出 → `3429efe70` Luna 修复态 → 本 redo 各页提交）为准。
 - **移交备注处置**：前块登记的 3 项移交（line 539、line 639/643）已在本轮 p.022/p.027 仲裁并修复；无未决移交项。
+
+---
+
+## 全文复读终验收据（full re-read receipt，2026-10-03）
+
+- **复读范围与结论**：修复后 Markdown 全文（`wc -l` = **761 行**，line 1 至 line 761 两段完整重读）逐行复读完毕。redo 全部修复逐项回核（见下表）与对应页图证据一致；Luna 旧修复 12 项全部在位且经原页复核正确；已登记 12 项 print quirk 全部原样保留；**未发现遗漏、未发现新差异，无需追加 Markdown 修改**（md 相对 closeout `6cf8db6d` 零 diff）。
+- **抽查覆盖声明**：本轮重检为**非抽查的全量逐页重检**——32/32 页全部覆盖（每页 150dpi 全页图逐页目检 + 五点比对），覆盖题型录（标题/作者/摘要/收稿日期/致谢脚注）、节标题顺序（§1–§5 + References）、公式 (1)–(53) 逐式（系数/指数/上下标）、记号约定（𝓗/𝓗₀/𝓛_K/ℒ 系列字形）、脚注 1–7 全文、参考文献 [1]–[22] 逐条、文末 "PRINCETON UNIVERSITY"。关键/存疑判定均升级 300dpi 裁片终裁（28 件证据）。
+- **残余伪影清点（只读脚本核验）**：residualIssues = **无**（无待修残留）。只读清点明细：(i) `docvortex-page-footnote` 容器 span ×8（lines 25/71/215/261/287/289/337/339）为 MinerU 导出的页脚注载体，各含完整脚注文本，属导出格式而非待清除伪影；(ii) `\tag{1}`–`\tag{53}` 共 53，编号连续齐全（`grep -c 'tag{'` = 53）；(iii) `\mathfrak` = 0、`\mathcal{H}` = 0、`\mathscr{H}` = 43 处、`\mathcal {L}` 仅 5 行（272/278/281/284/294，经 300dpi 裁片证实与印刷 cursive ℒ 同形，忠实保留）；(iv) 已登记 print quirks（p.006 vanish / p.009 correct / p.010 V_s / p.011 散文无杠 ℒ / p.013 Z→ / p.012 instantons 复数 / p.014 em-dash 拍平 / p.019 (40) 排式与 "As in §3" / p.023 generalizations / p.025 σ(x)+σ(x+a) 与 nonlinear sigma / p.028 Lef(f) / p.027+p.030 排版级拍平）全部原样在位。
+- **修复登记（逐处：页码/内容/依据/commit；6 行 24 处）**：
+
+| 页码 | 内容 | 依据（页图证据） | commit |
+|---|---|---|---|
+| p.003（印刷 663） | line 73 "Hilbert space" 后 `$\mathcal{H}$` → `$\mathscr{H}$` ×1 | `audit-redo/300dpi/p003_Hilbert_space.png`（script 𝓗 与 p.001 同形） | `bde4f158` |
+| p.011（印刷 671） | (24)(25) 左端 `\bar{\mathfrak{L}}` → `\bar{\mathcal{L}}` ×2（md 原 line 278/284） | `audit-redo/300dpi/p011_L24.png`、`p011_L25.png`（加杠 cursive ℒ，与 (23) `p011_L23.png` 同形） | `351ca550` |
+| p.016（印刷 676） | line 405 散文 Lie 导数 `$\mathcal{L}_K$` → `$\mathscr{L}_K$` ×1 | `audit-redo/300dpi/p016_Lie_derivative.png`（script 𝓛_K，与式 (34) 同形） | `2df47ec4` |
+| p.022（印刷 682） | line 539 `I(θ)=Tr * exp θ` 后 `\mathcal{L}_{K}` → `\mathscr{L}_{K}` ×1（"Tr * exp" 忠实保留） | `audit-redo/300dpi/p022_Itheta.png` | `9b14b5df` |
+| p.023（印刷 683） | (46) 末行 `P=2is\mathcal{L}_K` → `\mathscr{L}_K` ×1（md line 562） | `audit-redo/300dpi/p023_formula46.png` | `d21e1dbd` |
+| p.027（印刷 687） | lines 639/643 `\mathcal{H}`/`\tilde{\mathcal{H}}` → `\mathscr{H}`/`\tilde{\mathscr{H}}` ×18（replace_all，`mathcal{H}` 全文清零验证） | `audit-redo/300dpi/p027_Hdecomp.png`、`p027_Q5decomp.png` | `036f5c9b` |
+
+- **复读收据**：`wc -l` = **761**；`shasum -a 256` = `a794144c5687094a6984477d53875bf02f008b8da3faad8cf9b65e236b3c544f`；复读时刻 = 2026-10-03 15:09 EDT（`date` 实测）；复读中 Markdown 修改数 = 0；收据对应 md 状态 = 32 页 redo 完成后的最终态（基线 `3a661655…` → 终态 `a794144c…`，全程 7 行字形修复、历史可追至 `0b0f3dd2` 原始产出与 `3429efe70` Luna 态）。
