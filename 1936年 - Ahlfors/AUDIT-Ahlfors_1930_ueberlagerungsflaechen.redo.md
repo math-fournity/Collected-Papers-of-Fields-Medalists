@@ -299,4 +299,17 @@
 - 结果：PASS±（3 处修复后与印刷一致）。
 - 页界：本页止于「…Hieraus folgt dass」（MD 行 578 吻合）+ 页底脚注 ¹；「β = N(W′)…」起为 p.024 内容。
 
+### p.024（PDF p.24 / 印刷 p.180）
+
+- audited_at=2026-10-03 19:40 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p024.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p024_formel1_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p024_ungleichungB_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p024_formeln21_300dpi.png`。
+- 核对：页眉（180 / Lars Ahlfors.）、页首续句（β=N(W′)−N₁(W) 定义）、metrisch-topologischen Hauptsatz 应用段（S(W̄₀)、Gesamtlänge ≦ L）、display 式 p=Σϱ⁺(W̄)+β≧(q−2)S(W̄₀)+β−kL.、Überdeckungssatz 替换句、公式 (10) p−β≧(q−2)S−kL.（左侧编号 (10) ✓）、Ungleichung (B) 标题行、(B) 式 p=Σ₁^q p(Δ_ν)≧(q−2)S−kL,（逗号在）、gültig für q≧2.、q=2 拓扑说明段（p≧0；q=3）、编号段 21（Hurwitzsche Relation）、p(Δ)=n(Δ)−w(Δ),、wo w(Δ) 句（印刷「Verzweigungspunkte bedeutet」措辞照排 ✓）、两式 Σn(Δ_ν)−Σw(Δ_ν)≧(q−2)S−kL（无标点 ✓）与 Σ(S−n(Δ_ν))+Σw(Δ_ν)≦2S+kL.（句点在 ✓）。
+- 发现并修复（MD 结构化 Edit，4 处含 7 字形）：
+  1. 行 587 `\sum^ {+} \varrho` → `\sum \stackrel {+} {\varrho}`——300dpi 裁片确证加号在 ϱ 上方而非 Σ 上标（与 p.018/p.019/p.020 同类加号归位）。
+  2. 行 601 `(\varDelta_ {v})` → `(\Delta_{\nu})`（兼清 `\varDelta` 混写）；行 617 两处、行 623 两处 `\Delta_ {v}` → `\Delta_{\nu}`——v/ν 同形（p.003 已证），按全篇 `\nu` 主流转写统一（段内移交项核销）。
+- 保留登记（PASS± 排版级，不修）：Ungleichung (B) 印刷黑体丢失（同 p.022 Gleichung (A) 类）；同一印刷 ≧ 关系号在 MD 中混写 `\geq`（行 587/617）与 `\geqq`（行 601）——p.003 已立 \leq/\leqq 等价先例，不逐处统一；p≧0 的 o/0 同形维持 0（p.008/p.012 类）。
+- 与 Luna 旧记录交叉：旧 p.024 判 FAIL 并已修 w(𝒜)/n(𝒜_v)/w(𝒜_v) 3 处为 Δ 形——本次原页重核确认这些修复与印刷一致，维持；本次 Σ⁺ 加号错位与 6 处 v/ν 转写不一致系旧审计未检出项。
+- 结果：PASS±（4 处修复后与印刷一致）。
+- 页界：本页止于「…≦ 2S+kL.」式（MD 行 623 吻合）；「Durch Anwendung der Gleichung (A)…」起为 p.025 内容。
+
 <!-- redo-tail -->

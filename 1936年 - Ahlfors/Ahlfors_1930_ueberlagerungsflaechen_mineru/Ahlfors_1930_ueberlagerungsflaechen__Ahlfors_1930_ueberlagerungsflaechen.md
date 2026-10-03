@@ -584,7 +584,7 @@ $\beta = N(W') - N_{1}(W)$  die Anzahl derjenigen unter den Gebieten  $W'$  angi
 Wir wenden jetzt den metrisch-topologischen Hauptsatz auf sämtliche Flächen  $\overline{W}$  an. Ihre mittlere Blätteranzahlen ergeben zusammen den Wert  $S(\overline{W}_{0})$  und die relativen Ränder haben eine Gesamtlänge  $\leq L$ . Es folgt also
 
 $$
-p = \sum^ {+} \varrho (\bar {W}) + \beta \geq (q - 2) S (\bar {W} _ {0}) + \beta - k L.
+p = \sum \stackrel {+} {\varrho} (\bar {W}) + \beta \geq (q - 2) S (\bar {W} _ {0}) + \beta - k L.
 $$
 
 Durch Heranziehung des Überdeckungssatzes können wir noch  $S(\overline{W}_{0})$  durch S ersetzen und finden dann
@@ -598,7 +598,7 @@ Die nicht-negative Anzahl  $\beta$  wollen wir in diesem Zusammenhang einfach we
 Ungleichung (B)
 
 $$
-p = \sum_ {1} ^ {q} p (\varDelta_ {v}) \geqq (q - 2) S - k L,
+p = \sum_ {1} ^ {q} p (\Delta_{\nu}) \geqq (q - 2) S - k L,
 $$
 
 gültig für  $q \geq 2$ .
@@ -614,13 +614,13 @@ $$
 wo $w(\Delta)$ die Summe der Verzweigungsordnungen der zu den Inseln gehörigen Verzweigungspunkte bedeutet. Die Ungleichung (B) erhält die Form
 
 $$
-\sum_ {1} ^ {q} n \left(\Delta_ {v}\right) - \sum_ {1} ^ {q} w \left(\Delta_ {v}\right) \geq (q - 2) S - k L
+\sum_ {1} ^ {q} n \left(\Delta_{\nu}\right) - \sum_ {1} ^ {q} w \left(\Delta_{\nu}\right) \geq (q - 2) S - k L
 $$
 
 oder
 
 $$
-\sum_ {1} ^ {q} (S - n (\Delta_ {v})) + \sum_ {1} ^ {q} w (\Delta_ {v}) \leq 2 S + k L.
+\sum_ {1} ^ {q} (S - n (\Delta_{\nu})) + \sum_ {1} ^ {q} w (\Delta_{\nu}) \leq 2 S + k L.
 $$
 
 Durch Anwendung der Gleichung (A) ergibt sich noch die besonders einfache Form
