@@ -624,3 +624,15 @@
   7. Prop 7.4："$\mathrm K^\circ - a l g e b r a$"散字合并→$\mathrm K^\circ$-algebra；offinite/andfinite 补空格；**"is the -adic completion ofA."（ϖ 整体丢失，hexdump 实测为普通空格无控制字节）→"is the$\varpi$-adic completion of A."（print "ϖ-adic completion"，PNG 确认）**（p.297 Prop 行）
   8. Proof 尾 "Proposition 5.4.53."补 QED □（print 有 tombstone）
 - 备注：A[ϖ^{-1}]/Â[ϖ^{-1}] 两处 ϖ 在 MD 中完好（仅 "ϖ-adic" 一处丢失）；行 1751（"We recall that -adically complete…"）属印刷 p.298，其 ϖ 丢失留待 p.054。
+## p.054（PDF p.54 / 印刷 p.298）
+- PNG：audit/p054.png（pngmono 150dpi）
+- 核对：页眉 298/PETER SCHOLZE；"We recall that ϖ-adically complete…Henselian along (ϖ)…direct limit lim→A_i" 段；Lemma 7.5 (i)（complete flat K°-algebras filtered direct system、display A[ϖ^{-1}]_fét ≅ 2−lim→ A_i[ϖ^{-1}]_fét.、In particular R_fét ≅ 2−lim→(R_i)_fét.）；(ii)（char p、p-finite、R_fét ≅ S_fét.）；Proof（(i) finitely presented、display (lim→A_i[ϖ^{-1}])_fét ≅ 2−lim→…、lim→A_i Henselian along (ϖ)、A[ϖ^{-1}]_fét by Prop 7.4；(ii) display R_fét ≅ 2−lim→S_fét^{1/p^n}.、S^{1/p^n} 全等价于 S_fét）+ QED □；Proposition 7.6（strongly finite étale、V⊂Y、preimage affinoid perfectoid、(O_Y(V),O_Y⁺(V))→(O_X(U),O_X⁺(U)) display）；Proof 开头（Tilting…Theorem 5.25、char p、perfectoid subfield、R⁺ 为 K°-algebra；We may assume Y=V=Spa(R,R⁺)…some Y_i= 至页尾）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；3 处控制字节遗留见第 1 条，以原图为准）：
+  1. **控制字节登记**：行 1751 三处 \x0b（"We recall that \x0b -adically complete"、"Henselian along (\x0b),"×2，print 均为 ϖ，PNG 确认；hexdump 实测 20 0b 20 / 28 0b 29）——\x0b Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
+  2. 同行 "the direct limit lim$\mathbf A_i$"（下箭头丢失）→"the direct limit$\varinjlim \mathbf { A } _ { i }$"（print lim 带下划线右箭头，PNG 确认）
+  3. "## Lemma 7.5."伪标题层级→正文行；(i) afiltered/ofcompleteflat/completeflat 补空格（p.298 Lemma 行）
+  4. In particular 段："$i f \mathrm R_i$"（if 入 math）→if 出 math；afiltered/ofperfectoid/oftheir 补空格；"$2 - \operatorname* { l i m } _ { } (\mathrm R_i)_{\mathrm{fet}}$"（空下标伪 lim）→"$2 - \varinjlim (\mathrm R_i)_{\mathrm{fet}}$"（与 display 一致的下箭头 lim）+句末补句点（print "(R_i)_fét."）
+  5. (ii)："characteristic$\rho ,$"→"characteristic$p$,"（ρ 系 p 误读，PNG 确认）；topologicallyfinite 补空格；句末补句点（print "R_fét ≅ S_fét."）
+  6. Proof (ii) 后："…are all equivalent to$\mathrm { S _ { f e t } }$."补 QED □（print 有 tombstone）
+  7. Proposition 7.6 头："Proposition 7$\mathbf { \delta } . 6 . - I f f$"乱码→"Proposition 7.6. — If$f"（δ/−/Iff 系 ". 6 . — If f" 误读）；stronglyfinite/ofperfectoid/affinoidperfectoid×2 补空格；"$\mathrm { ~ V ~ C ~ Y ~ } _ { i }$"（伪 C 系 ⊂、伪下标 i）→$\mathrm { V } \subset \mathrm { Y }$（print V ⊂ Y，PNG 确认）（p.298 Prop 行原图）
+- 备注：Lemma 7.5(i) display 与 Proof 两个 display（含 2−lim→ 印刷格局与 ϖ）均与 print 逐字符一致；行 1791 段起于本页（至 "…some Y_i="），其 ": Indeed…" 以后部分属印刷 p.299，留待 p.055 复核。

@@ -1748,19 +1748,19 @@ Proposition 7.4. — Let A be a flat$\mathrm { K } ^ { \circ }$-algebra such tha
 
 Proof. — See e.g. [15], Proposition 5.4.53.□
 
-We recall that  -adically complete algebras A are Henselian along (), and that if$\mathbf { A } _ { i }$is a direct system of$\mathrm { K } ^ { \circ }$-algebras Henselian along (), then so is the direct limit lim$\mathbf { A } _ { i }$. In particular, we get the following lemma.
+We recall that  -adically complete algebras A are Henselian along (), and that if$\mathbf { A } _ { i }$is a direct system of$\mathrm { K } ^ { \circ }$-algebras Henselian along (), then so is the direct limit$\varinjlim \mathbf { A } _ { i }$. In particular, we get the following lemma.
 
-## Lemma 7.5.
+Lemma 7.5.
 
-(i) Let$\mathrm { A } _ { i }$be afiltered direct system ofcompleteflat K<sup>◦</sup>-algebras, and let A be the completion of the direct limit, which is again a completeflat K<sup>◦</sup>-algebra. Then we have an equivalence of categories
+(i) Let$\mathrm { A } _ { i }$be a filtered direct system of complete flat K<sup>◦</sup>-algebras, and let A be the completion of the direct limit, which is again a complete flat K<sup>◦</sup>-algebra. Then we have an equivalence of categories
 
 $$
 \mathrm{A} \big [ \varpi^ {- 1} \big ] _ {\text {fét}} \cong 2 - \varinjlim \mathrm{A} _ {i} \big [ \varpi^ {- 1} \big ] _ {\text {fét}}.
 $$
 
-In particular,$i f \mathrm { R } _ { i }$is afiltered direct system ofperfectoid K-algebras and R is the completion oftheir direct limit, then$\mathrm { R } _ { \mathrm { f e t } } \cong 2 - \operatorname* { l i m } _ { } ( \mathrm { R } _ { i } ) _ { \mathrm { f e t } }$
+In particular, if$\mathrm { R } _ { i }$is a filtered direct system of perfectoid K-algebras and R is the completion of their direct limit, then$\mathrm { R } _ { \mathrm { f e t } } \cong 2 - \varinjlim ( \mathrm { R } _ { i } ) _ { \mathrm { f e t } }$.
 
-(ii) Assume that K has characteristic$\rho ,$and let$( \mathrm { R } , \mathrm { R } ^ { + } )$be a p-finite perfectoid affinoid K-algebra, given as the completed perfection of the reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologicallyfinite type. Then$\mathrm { R } _ { \mathrm { f e t } } \cong \mathrm { S } _ { \mathrm { f e t } }$
+(ii) Assume that K has characteristic$p ,$and let$( \mathrm { R } , \mathrm { R } ^ { + } )$be a p-finite perfectoid affinoid K-algebra, given as the completed perfection of the reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type. Then$\mathrm { R } _ { \mathrm { f e t } } \cong \mathrm { S } _ { \mathrm { f e t } }$.
 
 Proof. — (i) Because finite étale covers, and morphisms between these, are finitely presented objects, we have
 
@@ -1776,9 +1776,9 @@ $$
 \mathrm{R} _ {\text {fét}} \cong 2 - \varinjlim \mathrm{S} _ {\text {fét}} ^ {1 / p ^ {n}}.
 $$
 
-But the categories$\mathrm { S } _ { \mathrm { f e t } } ^ { 1 / p ^ { n } }$are all equivalent to$\mathrm { S _ { f e t } }$.
+But the categories$\mathrm { S } _ { \mathrm { f e t } } ^ { 1 / p ^ { n } }$are all equivalent to$\mathrm { S _ { f e t } }$.□
 
-Proposition 7$\mathbf { \delta } . 6 . - I f f : \mathrm { X \to Y }$is a stronglyfinite étale morphism ofperfectoid spaces, then for any open affinoidperfectoid$\mathrm { ~ V ~ C ~ Y ~ } _ { i }$, its preimage U is affinoidperfectoid, and
+Proposition 7.6. — If$f : \mathrm { X \to Y }$is a strongly finite étale morphism of perfectoid spaces, then for any open affinoid perfectoid$\mathrm { V } \subset \mathrm { Y }$, its preimage U is affinoid perfectoid, and
 
 $$
 \left(\mathcal {O} _ {\mathrm{Y}} (\mathrm{V}), \mathcal {O} _ {\mathrm{Y}} ^ {+} (\mathrm{V})\right)\rightarrow \left(\mathcal {O} _ {\mathrm{X}} (\mathrm{U}), \mathcal {O} _ {\mathrm{X}} ^ {+} (\mathrm{U})\right)
