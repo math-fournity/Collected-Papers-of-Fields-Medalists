@@ -66,3 +66,17 @@
   - **核实证真**：式 (1.3) 印刷 x、0 为粗体（300dpi 裁片 `..._eq-1-3_300dpi.png`），MD `\mathbf { x }`/`\mathbf { 0 }` 正确保留。
   - 登记非保留伪影：页眉 "516 MANFRED EINSIEDLER, …" 未保留。
   - 线性形式定义 Σ_{j=1}^k m_ij x_j、f_m 乘积 display、[1]/[35]/[32] 引用号与印刷一致。
+
+### p.005（PDF p.5 / 印刷 p.517）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p005.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 5 -l 5 -layout`；300dpi 仲裁裁片 `audit-redo/300dpi/Lindenstrauss_2006_littlewood_exceptions_p005_conjunction_300dpi.png`、`..._p005_tranversals_300dpi.png`。
+- 核对：Conjecture 1.7 (Margulis, 1993) 全句、U₁/U₂ 矩阵 display、Hee Oh [33]/[32] 段、§1.3 Measure rigidity 前两段、脚注 1、页眉。
+- 结果：**PASS±**（3 处修复；2 处 print quirk 300dpi 确证保留）
+  - **修复（Edit，溯源）**：
+    1. 行 99 `$\boldsymbol { l a t t i c e ^ { 1 } }$`（整词误入粗体数学模式）→ `lattice$^ { 1 }$`（印刷为斜体正文 lattice 加脚注上标 1）；
+    2. 行 99 句末补句点（印刷 "…× GL(2,ℝ)."）；
+    3. 行 101 `true for$n \geq 3$ As explained` 补句点 → `$n \geq 3$. As explained`（印刷 "n ≥ 3. As explained"）。
+  - **print quirk 300dpi 确证忠实保留（不改）**：①印刷即 "up to **conjunction** in GL(2,ℝ)×⋯×GL(2,ℝ)"（按数学预期应为 conjugation，但印刷如此，MD 一致）；②印刷即 "regarding Hausdorff dimension and **tranversals**"（缺 s，MD 一致）。
+  - **Luna 旧判定复核**：Luna 对 conjunction/tranversals 的 print quirk 登记经 300dpi 复核**正确**；但 Luna 修复时把本页两处 Hausdorf→Hausdorff 之外的三处句读/词入数学伪影全部漏掉，重做补齐。
+  - 登记非保留伪影（不修）：页眉 "THE SET OF EXCEPTIONS… 517" 未保留；印刷花体 𝒟（set D）拍平为 MD 行 101 斜体 `D`（语义无歧义）。
+  - U₁/U₂ 矩阵、[22]/[45]/[12]/[17]/[13] 引用号、×m,×n 半群记法、脚注 1 全文与印刷一致。
