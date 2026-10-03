@@ -353,3 +353,11 @@
 - 核对：Remarques (1) 余部（ρ_f ≃ ρ^K、travail considérable）、(2)（𝔄₅ 中心扩张、PGL₂(C)、Tate [45] §6、Artin conjecture、F poids 1、ρ_f ≃ ρ^K、(3.2.3?)）、D > 0 句、5.3 节标题与正文（PGL₂(F₃)/P₁(F₃)、{±1} noyau、extension centrale degré 2、[46] n° 1.5、GL₂(Z[√−2]) plongement、ρ: G_Q → GL₂(F₃)、ρ₀: G_Q → GL₂(Z[√−2]) ⊂ GL₂(C)、Langlands [26]/Tunnell [53]、3^m N₀、N₀ premier à 3）、PROPOSITION 11、ε 括注、(3.2.3?)、Remarque（N = ∏_{l≠3} l^{n(l)}、N₀ = ∏_{l≠3} l^{n₀(l)}）。
 - 结果：FAIL。六处已依原图修复：5.3 节群记号印刷为 fraktur 𝔗̃₄（300 dpi 裁片确认花体 T 带 tilde，标题与正文各处均带 tilde），Markdown 全部写成 fraktur S 系（\tilde{\mathfrak{S}}_{4}/\mathfrak{S}_{4}/\widetilde{\mathfrak{S}}_{4}），已统一修为 \tilde{\mathfrak{T}}_{4}/\widetilde{\mathfrak{T}}_{4}。其余文字与公式逐项吻合。
 - 备注：Remarques (2) 的 \mathfrak{A}_5 与印刷一致；同构号均为 ≃ 与全文一致；页眉 “220 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。印刷页止于 “…l^{n₀(l)},” 式，(5.3.1) 属印刷 p.221。
+
+## p.043（PDF p.43 / 印刷 p.221）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p043.png`（pngmono，150 dpi）；300 dpi 仲裁裁片：`audit/300dpi/serre1987_p043_121B.png`（pnggray）。
+- 核对：(5.3.1)（ρ(G_Q) ≃ ρ₀(G_Q) 惯性、n(l) = 1、n₀(l) = 2）、(5.3.2)、N divise N₀ 段与 (3.2.4?) 引用、Exemples tirés de courbes elliptiques 段（c₃/c₆、Néron、IV/IV* Kodaira、[41] n° 5.6、Φ_l）、ρ^E: G_Q → GL₂(F₃) 式、Exemple (5.3.3)（y² + xy = x³ + x² − 2x − 7、N₀ = 11²、N = 11、E′ y² + y = x³ − x²）、a_l ≡ a′_l (mod 3) 式、a_l/a′_l 数值表（l < 50，13 列逐格）。
+- 结果：FAIL。一处已依原图修复：“La conjecture (3.2.4.)” 丢下标 ?，印刷为 (3.2.4_?)，修为 “(3.2.4?)”。其余文字、公式与表格逐格吻合。
+- 备注：Exemple (5.3.3) 曲线标签印刷为 121_F（300 dpi 裁片确认斜体 F），Markdown $121_{F}$ 一致——150 dpi “121_B” 判读排除；“IV\*” 转义渲染为 IV*，排版级；“3, 1 1”/“1 17–119” 数字空格排版级；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 221” 未收入 Markdown，排版级。印刷页止于 a′_l 表行，Exemple (5.3.4) 属印刷 p.222。

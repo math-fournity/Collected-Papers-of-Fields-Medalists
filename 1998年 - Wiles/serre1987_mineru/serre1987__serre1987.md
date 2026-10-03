@@ -1797,7 +1797,7 @@ on constate en effet que:
 
 (5.3.2) Dans tout autre cas, on a $n(l) = n_0(l)$.
 
-En particulier, $N$ divise $N_0$, et les facteurs premiers de $N$ et de $N_0$ sont les mêmes. La conjecture (3.2.4.) affirme donc (entre autres choses) que le niveau $N_0$ intervenant dans la prop. 11 peut être abaissé à $N$. Voici deux exemples où cet abaissement a bien lieu:
+En particulier, $N$ divise $N_0$, et les facteurs premiers de $N$ et de $N_0$ sont les mêmes. La conjecture (3.2.4?) affirme donc (entre autres choses) que le niveau $N_0$ intervenant dans la prop. 11 peut être abaissé à $N$. Voici deux exemples où cet abaissement a bien lieu:
 
 Exemples tirés de courbes elliptiques. Soit $E$ une courbe elliptique sur $\mathbf{Q}$. Supposons qu'il y ait un nombre premier $l > 3$ en lequel $E$ a mauvaise réduction de type $c_3$ ou $c_6$ au sens de Néron (types IV ou IV\* de Kodaira). Avec les notations de [41], n° 5.6, cela équivaut à dire que $E$ a potentiellement bonne réduction en $l$, et que le groupe $\Phi_l$ correspondant est cyclique d'ordre 3. Prenons pour $\rho$ la représentation
 
