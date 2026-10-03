@@ -29,3 +29,10 @@
 - 核对：题录（标题/作者/期刊卷期）、摘要全文、(0.1)(0.2)、Introduction 首段与第二段、页底四条脚注（收稿 1981-12-01、1980 MSC 35F20/35F25/35L60、Key words、Army/NSF 资助¹）
 - 结果：**PASS±**。正文、题录、两条模型 (0.1)(0.2) 与四条脚注均与印刷页相符。Markdown 未收录页眉「TRANSACTIONS OF THE AMERICAN MATHEMATICAL SOCIETY / Volume 277, Number 1, May 1983」、页脚版权行（©1983 AMS、ISSN/价码行）与印刷页码 1（版面元数据遗漏，不误导正文）。正文 $\mathbf{R}^N$（印刷粗体）在本页多处录为普通 $R^{N}$（如 MD 行 21、35），与后文行 51 的 $\mathbf{R}^N$ 混用；属字体族转录差异，对象可辨，不作正文修复（全篇该差异统一登记于此）。
 - 备注：pdftotext 对本页摘要有明显错映（`u, +`、`inö`），不作定字依据；MD 的 $u_t$、$\Omega$ 等以页图为准核实无误。「Cauchy problem HJ equations」（无 for）与印刷一致，照录。
+
+## p.002（PDF p.2 / 印刷 p.2）
+
+- PNG：audit-redo/p002.png（pngmono 150dpi）；仲裁裁片 300dpi：BUC(Ω),³ 行（/tmp 中转，结论已录本条）与页底脚注区
+- 核对：开头续句（the equations almost everywhere + 文献列表 Douglis[10]/Kružkov[18,19,20]/Fleming[13,14,15]/Friedman[16]/Benton[4]/Lions[22]）、(0.1) 反例 u(x) 分段式、分段线性 u 例子、min/max 封闭性段、viscosity solutions² 段、special case 段与 (0.3) 全式、页底脚注 ²、³
+- 结果：**PASS±**。正文与公式均与印刷页相符。重核 Luna 旧修复：删除独立片段 `$C_b(\Omega))$` ——300dpi 页底裁片证实印刷页只有 ²、³ 两条完整脚注，该删除**正确**，维持。新发现：MD 行 51 `n ∈ BUC(R^N), i.e.` 丢失印刷页行内上标 ³（印刷页 `BUC(R**N**),³ i.e.`，300dpi 裁片直证；行 49 的 ² 行内标记保留，此处属漏拍平）→ 本次修复：补回 `$^{3}$`。页眉作者行与印刷页码 2 未录入 Markdown（版面元数据遗漏）。
+- 备注：修复 1 处（行内脚注 ³ 标记），以 p002.png 与 300dpi 裁片为据。
