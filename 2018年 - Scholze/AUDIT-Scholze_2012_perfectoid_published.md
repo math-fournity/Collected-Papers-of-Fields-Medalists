@@ -636,3 +636,15 @@
   6. Proof (ii) 后："…are all equivalent to$\mathrm { S _ { f e t } }$."补 QED □（print 有 tombstone）
   7. Proposition 7.6 头："Proposition 7$\mathbf { \delta } . 6 . - I f f$"乱码→"Proposition 7.6. — If$f"（δ/−/Iff 系 ". 6 . — If f" 误读）；stronglyfinite/ofperfectoid/affinoidperfectoid×2 补空格；"$\mathrm { ~ V ~ C ~ Y ~ } _ { i }$"（伪 C 系 ⊂、伪下标 i）→$\mathrm { V } \subset \mathrm { Y }$（print V ⊂ Y，PNG 确认）（p.298 Prop 行原图）
 - 备注：Lemma 7.5(i) display 与 Proof 两个 display（含 2−lim→ 印刷格局与 ϖ）均与 print 逐字符一致；行 1791 段起于本页（至 "…some Y_i="），其 ": Indeed…" 以后部分属印刷 p.299，留待 p.055 复核。
+## p.055（PDF p.55 / 印刷 p.299）
+- PNG：audit/p055.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/299；上页段续（"Spa(R_i,R_i⁺): Indeed, there are finitely many rational subsets…finite level"）；"Hence by Lemma 7.3(ii)…" 段（p-finite、completed perfection、Z=Spa(S,S⁺)、[22] Example 1.6.6(ii)、Lemma 7.3(iv)）+ QED □；"Using Proposition 5.23…covers of R" 段；"The same method…" 段；Proposition 7.7（char p、étale map、x∈U⊂X、f(U)⊂V⊂Y、U⁰→V⁰ over K、U=U⁰×_{V⁰}V.）；Proof（print quirk："We may assume that X and Y affinoid perfectoid"——print 无 are）+ QED □；Corollary 7.8（open、If f:X→Y and g:Y→Z、g∘f strongly (finite) étale）；Proof（char p、[22] Prop 1.7.8/1.6.7(ii)）+ QED □；"The following theorem gives a strong form of Faltings's almost purity theorem."；Theorem 7.9 头（tilt X^♭）与 (i)（fully faithful functor、global sections）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. "Using Proposition 5.23"段："characteristic$\beta ,$"→"characteristic$p$,"（β 系 p 误读，PNG 确认）
+  2. Proposition 7.7："Let f$: \mathrm X ␣ \mathrm Y$"（f 游离 math 外+缺箭头）→"Let$f : \mathrm { X } \to \mathrm { Y }$"；ofperfectoid/ofaffinoid 补空格；"$f \mathrm { ( U ) } \subset \mathrm { V } \subset \mathrm { Y } .$,"（伪'.$'）→"$f ( \mathrm { U } ) \subset \mathrm { V } \subset \mathrm { Y }$,"；句末补句点（print "U=U⁰×_{V⁰}V."）（p.299 Prop 行原图）
+  3. Proof 尾 ".-"→".□"（QED，print 有 tombstone）；**print quirk "We may assume that X and Y affinoid perfectoid"（print 原文即无 are，pdftotext 与 PNG 双证）——MD 原样保留不改**
+  4. Corollary 7.8：ofperfectoid 补空格；"${ \cal I } f f : \mathrm { X } \to \mathrm { Y } a n d g : \mathrm { Y } \to$ Z"（\cal If 乱码+a n d g 散字 math+Z 游离）→"If$f : \mathrm { X } \to \mathrm { Y }$and$g : \mathrm { Y } \to \mathrm { Z }$"（p.299 Corollary 行原图）
+  5. Proof 7.8："characteristic$\beta .$."（β 系 p 误读+伪'.$.'）→"characteristic$p$."；"bothf and $g$to"→"both$f$and$g$to"；尾".-"→".□"（p.299 Proof 行）
+  6. Theorem 7.9 头："Theorem${ \bf 7 . 9 . { - } } L e t \left( { \bf R , R ^ { + } } \right)$"乱码→"Theorem 7.9. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$"；**"with tilt X<sup>-</sup>"→"with tilt$\mathrm { X } ^ { \flat }$"（print 为 X^♭，♭ 被误读为连字符，同 p.019 K<sup>-</sup> 型伪影）**（p.299 定理行原图）
+  7. (i)："$\mathrm { ~ U ~ C ~ X ~ } ,$, "（伪 C 系 ⊂、游离",$,"）→"$\mathrm { U } \subset \mathrm { X }$,"；"afullyfaithfulfunctorfrom"→"a fully faithful functor from"（p.299 (i) 行）
+- 备注：U⁰/V⁰ 的上标 0（pdftotext 文本层与 MinerU 一致为 0，PNG 150dpi 小字形难辨 0/∘）不作改动；行 1813 起（Theorem 7.9 (ii)）属印刷 p.300，留待 p.056。

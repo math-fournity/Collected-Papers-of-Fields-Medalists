@@ -1792,23 +1792,23 @@ We may assume$\mathrm { Y = V = S p a ( R , R ^ { + } ) }$is affinoid. Writing$(
 
 Hence by Lemma$7 . 3 ( \mathrm { i i } )$, we are reduced to the case that$( \mathrm { R } , \mathrm { R } ^ { + } )$is p-finite, given as the completed perfection of$( \mathrm { S } , \mathrm { S } ^ { + } )$. But then X is already defined as a finite étale cover of$Z = \mathrm { S p a } ( \mathrm { S } , \mathrm { S } ^ { + } )$by similar reasoning using Lemma 7.5(ii), and we conclude by using the result for locally noetherian adic spaces, cf. [22], Example 1.6.6(ii), and Lemma$7 . 3 ( \mathrm { i v } )$-
 
-Using Proposition 5.23, this shows that if K is of characteristic$\beta ,$then the finite étale covers of an affinoid perfectoid space$\mathrm { X = \mathrm { S p a } ( R , R ^ { + } ) }$are the same as the finite étale covers of R.
+Using Proposition 5.23, this shows that if K is of characteristic$p ,$then the finite étale covers of an affinoid perfectoid space$\mathrm { X = \mathrm { S p a } ( R , R ^ { + } ) }$are the same as the finite étale covers of R.
 
 The same method also proves the following proposition.
 
-Proposition 7.7. — Assume that K is of characteristic p. Let f$: \mathrm { X }  \mathrm { Y }$be an étale map ofperfectoid spaces. Then for any$x \in \mathrm { X }$, there exist affinoid perfectoid neighborhoods$x \in \mathrm { U } \subset \mathrm { X } ,$ $f \mathrm { ( U ) } \subset \mathrm { V } \subset \mathrm { Y } .$, and an étale morphism ofaffinoid noetherian adic spaces$\mathrm { U } ^ { 0 } \to \mathrm { V } ^ { 0 }$over K, such that $\mathrm { U } = \mathrm { U } ^ { 0 } \times _ { \mathrm { V } ^ { 0 } } \mathrm { V }$
+Proposition 7.7. — Assume that K is of characteristic p. Let$f : \mathrm { X } \to \mathrm { Y }$be an étale map of perfectoid spaces. Then for any$x \in \mathrm { X }$, there exist affinoid perfectoid neighborhoods$x \in \mathrm { U } \subset \mathrm { X } ,$ $f ( \mathrm { U } ) \subset \mathrm { V } \subset \mathrm { Y }$, and an étale morphism of affinoid noetherian adic spaces$\mathrm { U } ^ { 0 } \to \mathrm { V } ^ { 0 }$over K, such that $\mathrm { U } = \mathrm { U } ^ { 0 } \times _ { \mathrm { V } ^ { 0 } } \mathrm { V }$.
 
-Proof. — We may assume that X and Y affinoid perfectoid, and that X is a rational subdomain of a finite étale cover of Y. Then one reduces to the p-finite case by the same argument as above, and hence to noetherian adic spaces.-
+Proof. — We may assume that X and Y affinoid perfectoid, and that X is a rational subdomain of a finite étale cover of Y. Then one reduces to the p-finite case by the same argument as above, and hence to noetherian adic spaces.□
 
-Corollary 7.8. — Strongly étale maps ofperfectoid spaces are open.${ \cal I } f f : \mathrm { X } \to \mathrm { Y } a n d g : \mathrm { Y } \to$ Z are strongly (finite) étale morphisms of perfectoid spaces, then the composite$g \circ f$is strongly (finite) étale.
+Corollary 7.8. — Strongly étale maps of perfectoid spaces are open. If$f : \mathrm { X } \to \mathrm { Y }$and$g : \mathrm { Y } \to \mathrm { Z }$are strongly (finite) étale morphisms of perfectoid spaces, then the composite$g \circ f$is strongly (finite) étale.
 
-Proof. — We may assume that K has characteristic$\beta .$. The first part follows directly from the previous proposition and the result for locally noetherian adic spaces, cf. [22], Proposition 1.7.8. For the second part, argue as in the previous proposition for bothf and $g$to reduce to the analogous result for locally noetherian adic spaces, [22], Proposition 1.6.7(ii).-
+Proof. — We may assume that K has characteristic$p$. The first part follows directly from the previous proposition and the result for locally noetherian adic spaces, cf. [22], Proposition 1.7.8. For the second part, argue as in the previous proposition for both$f$and$g$to reduce to the analogous result for locally noetherian adic spaces, [22], Proposition 1.6.7(ii).□
 
 The following theorem gives a strong form of Faltings’s almost purity theorem.
 
-Theorem${ \bf 7 . 9 . { - } } L e t \left( { \bf R , R ^ { + } } \right)$be a perfectoid affinoid K-algebra, and let$\mathrm { X = S p a ( R , R ^ { + } ) }$ with tilt X<sup>-</sup>.
+Theorem 7.9. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be a perfectoid affinoid K-algebra, and let$\mathrm { X = S p a ( R , R ^ { + } ) }$with tilt$\mathrm { X } ^ { \flat }$.
 
-(i) For any open affinoid perfectoid subspace$\mathrm { ~ U ~ C ~ X ~ } ,$, we have afullyfaithfulfunctorfrom the category of strongly finite étale covers of U to the category of finite étale covers of${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$, given by taking global sections.
+(i) For any open affinoid perfectoid subspace$\mathrm { U } \subset \mathrm { X }$, we have a fully faithful functor from the category of strongly finite étale covers of U to the category of finite étale covers of${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$, given by taking global sections.
 
 (ii) For any U, thisfunctor is an equivalence ofcategories.
 
