@@ -103,3 +103,17 @@
   - **print quirk 忠实保留（PNG 确认印刷如此）**：①"many one-parameter subgroup have positive entropy"（印刷即 subgroup 单数）；②"measures with“low” (but positive)"（印刷 with 与 “low” 间即无空格；同段 "with “high”" 有空格）。
   - Acknowledgment 人名/机构、[39]/[38]/[28]/[19]/[26] 引用号、"Part I. Measure rigidity" 标题与 G/Γ/A 约定与印刷逐项一致。
   - 登记非保留伪影：页眉未保留。
+
+### p.008（PDF p.8 / 印刷 p.520）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p008.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 8 -l 8 -layout`。
+- 核对：Σ 定义 display、α^t = diag(e^{t_i}) 记法与 ℝ^{k−1} flow、unipotent/normalizer/centralizer 定义段、U< G 被 A 正规化段（a(Ux)=Uax、Ad(a) expands）、M_∞(Y) Radon/weak* 拓扑段、ν₁∝ν₂ display、B_ε 球记号段、右不变 Riemannian 度量段、§2 标题与 §2.1 开头、页眉。
+- 结果：**PASS±**（4 处修复）
+  - **修复（Edit，溯源 p.8 PNG/文本层）**：
+    1. 行 143 `normalized$b y \ g \in G$`（字母散入数学模式）→ `normalized by$g \in G$`；
+    2. 行 147 `continuous$f .$.`（双句点）→ `continuous$f$.`；
+    3. 行 155 `around$y \in Y ;$;`（双分号）→ `around$y \in Y ;$`；
+    4. 行 157 `metric on$G .$.`（双句点）→ `metric on$G$.`。
+  - **核实证真**：印刷 α 上标为粗体 t（α^t），MD `\alpha ^ { \mathbf { t } }` 正确；印刷即 "all locally finite Borel measures"（pdftotext 的游离 `R` 为文本层伪影，MD 无此错误）。
+  - 登记非保留伪影：页眉 "520 MANFRED…" 未保留。
+  - Σ、ν∝、B_ε^H 系列 display 与 [17]/[45]/[17, §4]/[20, §3] 引用及 §2 标题与印刷逐项一致。

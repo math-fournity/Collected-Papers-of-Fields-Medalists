@@ -140,11 +140,11 @@ $$
 
 and the Lie algebra of A via the map$( t _ { 1 } , \dots , t _ { k } ) \mapsto \mathrm { d i a g } ( t _ { 1 } , \dots , t _ { k } )$. We write $\alpha ^ { \mathbf { t } } = \mathrm { d i a g } ( e ^ { t _ { 1 } } , \ldots , e ^ { t _ { k } } ) \in A$and also$\alpha ^ { \mathbf { t } }$for the left multiplication by this element on X. This defines an$\mathbb { R } ^ { k - 1 }$flow α on$X$.
 
-A subgroup$U < G$is unipotent if for every$g \in U , \ g - \operatorname { I } _ { k }$is nilpotent; i.e., for some n,$( g - \mathrm { I } _ { k } ) ^ { n } = 0$. A group H is said to be normalized$b y \ g \in G$if $g H g ^ { - 1 } = H ;$H is normalized by$L < G$if it is normalized by every$g \in L ;$and the normalizer$N ( H )$of H is the group of all$g \in G$normalizing it. Similarly, g centralizes H if$g h = h g$for every$h \in H$, and we set$C ( H )$, the centralizer of H in$G ,$to be the group of all$g \in G$centralizing H.
+A subgroup$U < G$is unipotent if for every$g \in U , \ g - \operatorname { I } _ { k }$is nilpotent; i.e., for some n,$( g - \mathrm { I } _ { k } ) ^ { n } = 0$. A group H is said to be normalized by$g \in G$if $g H g ^ { - 1 } = H ;$H is normalized by$L < G$if it is normalized by every$g \in L ;$and the normalizer$N ( H )$of H is the group of all$g \in G$normalizing it. Similarly, g centralizes H if$g h = h g$for every$h \in H$, and we set$C ( H )$, the centralizer of H in$G ,$to be the group of all$g \in G$centralizing H.
 
 If$U < G$is normalized by A then for every$x \in X$and$a \in A , a ( U x ) =$ $U a x$, so that the foliation of X into U orbits is invariant under the action of A. We will say that$a \in A$expands U if all eigenvalues of$\operatorname { A d } ( a )$restricted to the Lie algebra of U are greater than one.
 
-For any locally compact metric space Y let$M _ { \infty } ( Y )$denote the space of Radon measures on Y equipped with the weak<sup>∗</sup> topology, i.e. all locally finite Borel measures on$Y$with the coarsest topology for which$\textstyle \rho \mapsto \int _ { Y } f ( y ) d \rho ( y )$ is continuous for every compactly supported continuous$f .$. For two Radon measures$\nu _ { 1 }$and$\nu _ { 2 }$on$Y$we write
+For any locally compact metric space Y let$M _ { \infty } ( Y )$denote the space of Radon measures on Y equipped with the weak<sup>∗</sup> topology, i.e. all locally finite Borel measures on$Y$with the coarsest topology for which$\textstyle \rho \mapsto \int _ { Y } f ( y ) d \rho ( y )$ is continuous for every compactly supported continuous$f$. For two Radon measures$\nu _ { 1 }$and$\nu _ { 2 }$on$Y$we write
 
 $$
 \nu_ {1} \propto \nu_ {2} \text { if } \nu_ {1} = C \nu_ {2} \text { for   some } C > 0,
@@ -152,9 +152,9 @@ $$
 
 and say that$\nu _ { 1 }$and$\nu _ { 2 }$are proportional.
 
-We let$B _ { \varepsilon } ^ { Y } ( y ) \ ( \mathrm { o r } \ B _ { \varepsilon } ( y )$if Y is understood) denote the ball of radius ε around$y \in Y ;$; if H is a group we set$B _ { \varepsilon } ^ { H } = B _ { \varepsilon } ^ { H } ( \operatorname { I } )$where I is identity in$H ;$ and if H acts on X and$x \in X$we let$B _ { \varepsilon } ^ { H } ( x ) = B _ { \varepsilon } ^ { H } \cdot x .$
+We let$B _ { \varepsilon } ^ { Y } ( y ) \ ( \mathrm { o r } \ B _ { \varepsilon } ( y )$if Y is understood) denote the ball of radius ε around$y \in Y ;$ if H is a group we set$B _ { \varepsilon } ^ { H } = B _ { \varepsilon } ^ { H } ( \operatorname { I } )$where I is identity in$H ;$ and if H acts on X and$x \in X$we let$B _ { \varepsilon } ^ { H } ( x ) = B _ { \varepsilon } ^ { H } \cdot x .$
 
-Let$d ( \cdot , \cdot )$be the geodesic distance induced by a right-invariant Riemannian metric on$G .$. This metric on G induces a right-invariant metric on every closed subgroup$H \subset G$, and furthermore a metric on$X = G / \Gamma$. These induced metrics we denote by the same letter.
+Let$d ( \cdot , \cdot )$be the geodesic distance induced by a right-invariant Riemannian metric on$G$. This metric on G induces a right-invariant metric on every closed subgroup$H \subset G$, and furthermore a metric on$X = G / \Gamma$. These induced metrics we denote by the same letter.
 
 ## 2. Conditional measures on A-invariant foliations, invariant measures, and shearing
 
