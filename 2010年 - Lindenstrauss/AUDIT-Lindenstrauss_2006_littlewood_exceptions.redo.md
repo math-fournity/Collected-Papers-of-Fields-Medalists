@@ -93,3 +93,13 @@
     4. 行 119 `A diferent approach` → `A different`（印刷双 f）。
   - 登记非保留伪影（不修）：页眉 "518 MANFRED…" 未保留；印刷 ℝ-split（两处）黑体拍平为 MD `R-split`。
   - weak<sup>∗</sup> limits 上标星保留正确；[3]/[4]/[17]/[20]/[9] 引用号与 "Hausdorff dimension at most 1" 结论与印刷一致。
+
+### p.007（PDF p.7 / 印刷 p.519）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p007.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 7 -l 7 -layout`。
+- 核对：third author 段后半（SL(2,ℝ)×SL(2,ℝ) Cartan、irreducible lattice、[3] 不适用）、two methods 互补段（[3]/[20]、Theorem 2.1 预告）、[20] 方法段（Ratner [39]/[38]、H-property、[28] §1.5、a priori 非 quasi-invariant）、Ledrappier-Young [19] 与 Tomanov–Margulis [26] 段、Acknowledgment 全段（Dave Morris Witte、Barak Weiss、Sanju Velani、M. Ratner、Newton Institute、ETH Zurich、Penn State、Stanford）、Part I 标题与开篇约定（G=SL(k,ℝ), k≥3）、页眉。
+- 结果：**PASS±**（1 处修复；2 处 print quirk 保留）
+  - **修复（Edit，溯源）**：行 121 `…\times \mathrm { S L } ( 2 , \mathbb { R } )$ Since` 补句点 → `$). Since`（PNG/文本层印刷 "…SL(2,ℝ). Since"）。
+  - **print quirk 忠实保留（PNG 确认印刷如此）**：①"many one-parameter subgroup have positive entropy"（印刷即 subgroup 单数）；②"measures with“low” (but positive)"（印刷 with 与 “low” 间即无空格；同段 "with “high”" 有空格）。
+  - Acknowledgment 人名/机构、[39]/[38]/[28]/[19]/[26] 引用号、"Part I. Measure rigidity" 标题与 G/Γ/A 约定与印刷逐项一致。
+  - 登记非保留伪影：页眉未保留。
