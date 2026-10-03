@@ -270,3 +270,10 @@
 - 核对：S=End(E₀,C_p) 结论；双射 ι: Σ(Mp)→ℰ、λ: Σ(M)→𝒱；T′(E)/pM·T(E) cyclic、V(E₀)=T(E₀)⊗Q、T(E)=g⁻¹T(E₀)、T′(E)=g⁻¹T′(E₀)；ℰ=S_f*\H_f*/H*、(3.3)、g⁻¹ vs g^{+1}（印刷原样 +1）、□；α,β: ℰ⇒𝒱 与 Σ(Mp)⇒Σ(M) 对照；Proposition 4.8（λα=αι、λβ=βι）与 Proof（T(F)/T′(E) cyclic of order M、m=diag(1,p) idele、M(2,Z_p)、m⁻¹T′(E₀)/mT(E₀)、x=m⁻¹g、β 兼容、α trivial、□）✓ 全部与印刷一致。
 - 备注：F̄_q、H_f* 等印刷粗体（weight 拍平登记）；两处 □ 惯例不录。
 - 结果：PASS。
+
+## p.034（PDF p.34 / 印刷 p.463）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 19:00 -0400。
+- PNG：`audit/ribet1990_p034.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi："employing **E**"（无下划线）、"commutant of ***W*** / End_S(***W***)" 粗体确证，未存档）。
+- 核对：(4.8)⇒ι: Y≈Z；pairings（Z^{Σ(Mp)}、E̲=(E,C)、½card(Aut(E̲))、E̲ 专用于 pM-enhancement、E̲₀=(E₀,C_p)、W=Hom(E̲,E̲₀)、End(E̲) 为 W 的 commutant、Tate 定理 [40]、Aut(E̲)=Aut_S(W)、o(e)、Z^ℰ）；Hecke 作用（T_p、[3]、GL(2,Q_p)\(℘^unr×X)、D*、1×π、Fr⁻¹、C_{F_p}、[13] Th. 4.4、𝒢=GL(2,Q_p)⁺\(Δ×X)、w_p/τ(p)、m）；τ 在 ℰ 上（(m·1,mx)、u、umx、n=um、normalizer、矩阵 (0 −1; p 0)、w_p、ι carries τ to w_p、Z⊂Z^ℰ 取负、orientation）✓。
+- 发现并当场修复（5 个记号点；依据 300 dpi 裁片）：①L1190 括号句 "we have been employing $\underline{\mathbf{E}}$"→"$\mathbf{E}$"（印刷此处的 E 为粗体无下划线，与前句 pM-enhancement 专用符号 E̲ 区分；MD 误加下划线）；②L1190 四处 W 粗体："W=Hom(...)"→"$\mathbf{W}=..."、"commutant of W"→"of $\mathbf{W}$"、"End_S(W)"→"End_S($\mathbf{W}$)"、"Aut_S(W)"→"Aut_S($\mathbf{W}$)"。
+- 结果：FAIL（5 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
