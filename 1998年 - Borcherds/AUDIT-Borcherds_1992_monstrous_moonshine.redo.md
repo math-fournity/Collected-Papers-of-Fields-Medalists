@@ -33,3 +33,14 @@
   1. 印刷 "on each space V_n**.** The best way…" 的句点在 MD 中缺失（`…on each space$V _ { n }$ The best way`）。以原图为准，已用 Edit 补回句点（本页 commit）。
   2. Luna 旧修复对印刷复核：`j(\tau)-744`（印刷 j(τ)−744 ✓，旧 MinerU 误为 `j(\dot{\tau})`）、`level 1` 措辞无多余上标（✓）、`The Fischer-Griess` 分词（✓）均正确。旧审计列于本页的 `coeficient` 拼写：本页印刷确有 "the coefficient c(n)"，当前 MD 拼写 `coefficient` 正确，已修复；`dificulty`/`dificult` 两词印刷在本页未出现（属 p.3 正文），归 p.3 核对。
 - 备注：印刷 `V^♮`（moonshine 模块记号，上标 natural 号）MD 作 `\natural`，与印刷及 [16] 惯用记号一致；150dpi 下字形与 pdftotext 的怪映射（`\`）互证。印刷页首行 "The / Fischer-Griess" 为跨行排版，MD 合并为正常行文，非内容变更。
+
+## p.003（PDF p.3 / 印刷 p.3）
+
+- PNG：audit-redo/p003.png（pngmono 150dpi，本块实渲染实读）。
+- 核对：平移矩阵 (1 1;0 1)∈SL₂(Z)、j(τ) 无穷积公式 (1+240Σσ₃(n)q^n)³/(qΠ(1−q^n)^24)、σ₃(n)=Σ_{d|n}d³、[30]、H/SL₂(Z) 与 Riemann sphere、genus 0 group/Hauptmodul/normalized Hauptmodul 定义、j(τ)−744=e^{−2πiτ}+0+196884e^{2πiτ}+…、Γ₀(2) 与 Γ₀(N)={…|c≡0 mod N}、T₂₋(q)=24+q^{-1}Π_{n>0}(1−q^{2n+1})^{24}=q^{-1}+276q−2048q²+…（2B, atlas [14]）、Thompson [31] 有限性、V⁺/V⁻ 与阶 2 元、"The difficulty…"、印刷 quirk "to to work out"、T_g(τ)（此处印刷用 τ）、monster Lie algebra M 的 Z²=Z⊕Z 分次与 V_{mn}/R²。
+- 文本层通道：pdftotext 第 3 页与 PNG 一致（含 "to to work out"）。
+- 结果：**PASS±**。
+- 差异与处理：
+  1. 印刷 "…normalized Hauptmodul for the genus 0 group SL₂(Z)**.**"（段末句点，后接 "Another example…"）在 MD 中缺失。以原图为准，已用 Edit 补回句点（本页 commit）。
+  2. Luna 旧修复对印刷复核：平移矩阵 `\begin{pmatrix}1&1\\0&1\end{pmatrix}`（印刷 2×2 ✓，旧 MinerU 误为 `\binom{1}{0}1` 丢列）、`difficulty`（印刷 difficulty ✓）、`+a function`（印刷 "+ a function" ✓，旧 MinerU 误作 `\mathrm{a} function`）均正确；旧审计所列 `dificulty`/`dificult`/系数拆分（240/24/276/2048）在当前 MD 已为正常连写。
+- 备注：**print quirk 保留**：印刷原文重复 "it is not difficult **to to** work out"，MD 忠实保留，不改。印刷此处 Thompson series 记号确为 T_g(τ)（与它处 T_g(q) 不同），MD 忠实保留 `$T _ { g } ( \tau )$`。Γ₀(N) 定义中印刷竖线后 "c ≡ 0 mod N" 的 mod 为行文，MD 拆为 `$c \equiv 0$mod$N \}$`，语义一致，属全局排版风格。
