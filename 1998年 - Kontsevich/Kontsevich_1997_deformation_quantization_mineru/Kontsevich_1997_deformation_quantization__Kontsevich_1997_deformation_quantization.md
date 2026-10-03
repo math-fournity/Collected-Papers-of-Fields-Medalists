@@ -1560,7 +1560,7 @@ $$
 
 is quasi-isomorphism.
 
-Using this fact, the lemma from the previous subsection, and appropriate filtrations (for spectral sequences) one sees that that the natural Q-equivariant map from the formal Q-manifold$( T _ { p o l y } ( X ) _ { f o r m a l } [ 1 ] , 0 )$ to$( \Gamma ( \overrightharpoon { T _ { s ^ { a f f } } } \overrightarrow { \longrightarrow } T [ 1 ] X ) _ { f o r m a l } , \sigma _ { T } )$(and analogous map for$D _ { p o l y } )$is a quasi-isomorphism.$Q . E . D .$
+Using this fact, the lemma from the previous subsection, and appropriate filtrations (for spectral sequences) one sees that that the natural Q-equivariant map from the formal Q-manifold$( T _ { p o l y } ( X ) _ { f o r m a l } [ 1 ] , 0 )$ to$( \Gamma ( \mathcal { T } _ { s ^ { a f f } } \longrightarrow T [ 1 ] X ) _ { f o r m a l } , \sigma _ { T } )$(and analogous map for$D _ { p o l y } )$is a quasi-isomorphism.$Q . E . D .$
 
 It follows from the lemma above and the result of 4.6.1.1 that we have a chain of quasi-isomorphisms
 

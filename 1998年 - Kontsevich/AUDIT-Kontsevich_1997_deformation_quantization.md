@@ -255,3 +255,10 @@
 - 结果：`FAIL`→3 处已修复（PNG+文本层确凿）：①行 1511 `two distinct points on . Then`→补 `$\mathcal{H}$`（𝓗 丢失）；②行 1531 `torsion-free connection  on the tangent`→补 `$\nabla$`（∇ 丢失）；③行 1531 `the exponential map for gives`→补 `$\nabla$`（∇ 丢失）。其余 PASS±：行 1527 involution 式后缺句点；行 1531 句末缺句点、`afine`（ff 拍平）；行 1535 句末缺句点；行 1541 `$Q.E.D$` 缩写尾点缺失（登记）。print quirk 忠实保留：行 1533 `an morphism`（原文冠词）。公式行 1514/1522 与印刷逐符号吻合。
 - 备注：行 1543 起（§7.3.5 Passing to global sections）为印刷 p.36 内容，在 p.036 核对。
 
+## p.036（PDF p.36 / 印刷 p.36）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p036.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p036_a_naturally.png`（300dpi）
+- 核对：§7.3.5 heading、(Γ(E⟶B)_formal,σ) 式、𝓘 Lemma（"a naturally quasi-isomorphic" print quirk 见下）、de Rham cohomology 段与 (Γ(X,E)[0],d=0)⟶(Ω*(X,jets_∞(E)),de Rham) 式、"that that" 段、𝒯_{s^aff}⟶T[1]X 式（harpoon mangling 修复）、quasi-iso 链式（⟶⟶⟵ 三箭头，MD 行 1568 与印刷逐符号吻合）、Theorem 4.6.2 proven. Q.E.D.、X^aff→X 可缩段、§8/§8.1 headings、cup-product 结构长段（𝒯_γ、H_γ、H(m)、d+[γ,·]）、Hochschild cup-product 公式两行（MD 行 1543–1588）。
+- 结果：`FAIL`→1 处已修复：行 1563 `$(\Gamma(\overrightharpoon{T_{s^aff}}\overrightarrow{\longrightarrow}T[1]X)_{formal},\sigma_T)$` harpoon 装饰箭头 mangling→`$(\Gamma(\mathcal{T}_{s^aff}\longrightarrow T[1]X)_{formal},\sigma_T)$`（PNG 确凿）。print quirk 忠实保留：行 1553 `𝒟_{s^aff} a naturally quasi-isomorphic`（300dpi `_p036_a_naturally.png` 确证印刷为 a 非 are，原文笔误）；行 1563 `that that`（原文重复）。其余 PASS±：行 1551/1553/1563 附近句末缺句点/`$Q.E.D$` 缩写尾点缺失；行 1571/1579/1581 `diferential`×7/`coeficients`（ff 拍平，登记）。公式行 1548/1558/1568/1584/1588 与印刷逐符号吻合（cup-product 求和限与 γ 指数逐符号核对通过）。
+- 备注：行 1591 起（where$\gamma^l\in(\mathbf{k}[0]\cdot 1\oplus\mathbf{m})^{1-l}…$）与 §8.2（行 1597，标题 "Compatibility of 𝒰 with cup-products" 当前缺 𝒰）为印刷 p.37 内容，属下一块 p.037 审计——已预记 §8.2 标题疑点移交。
+
