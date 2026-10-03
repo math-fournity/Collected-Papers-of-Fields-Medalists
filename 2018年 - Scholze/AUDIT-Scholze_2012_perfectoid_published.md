@@ -590,3 +590,14 @@
   7. Def 6.16 "tilt ofa perfectoid space"、"ifthere is afunctorial"补空格；"Hom$(\mathrm{Spa}…,\mathrm X^\flat)=\mathrm{Hom}(\mathrm{Spa}(\mathrm R,\mathrm R^+),$X)"跨 math run 的"X)"并入 math+补句点（p.294 Def 6.16行原图）
   8. Prop 6.17："tilt$\\mathrm{{X^\\flat}}_.$,"伪'.$,'→$\\mathrm X^\\flat$, unique、ofperfectoid×2补空格、"Finally,for/affinoidperfectoid"补空格、"$\\mathrm{~U~C~X~}_\\mathfrak i$"（C系⊂、伪下标i）→$\\mathrm U\\subset\\mathrm X$、句末补句点（p.294 Prop 6.17行原图）
 - 备注：°a-复形 display 与 print 一致；行 1673 起（Proof of Prop 6.17）属印刷 p.295，留待 p.051。
+## p.051（PDF p.51 / 印刷 p.295）
+- PNG：audit/p051.png（pngmono 150dpi，本块重渲染）
+- 核对：页眉 PERFECTOID SPACES/295；Prop 6.17 证明收尾（"formal consequence of Theorem 5.2, Theorem 6.3 and Proposition 2.19"）+ QED □；"Let us finish this section…" 段（cf. [22] Prop 1.2.2）；Proposition 6.18（X → Y ← Z fibre product 存在且为 perfectoid space）；Proof 6.18（Spa(A,A+)/Spa(B,B+)/Spa(C,C+)、W=X×_Y Z=Spa(D,D⁺)、D=A⊗_B C 完备化、wide-hat A^{∘a}⊗_{B^{∘a}}C^{∘a}、/ϖ flat、char p 归约、ϖ-torsion free、ϖ^{1/p}f^{1/p}=0 论证）+ QED □；§7 Perfectoid spaces: etale topology 节标题与导语两段；Definition 7.1 头与 (i)(ii) 及 (O_Y(V),O_Y⁺(V))→(O_X(U),O_X⁺(U)) display
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准；并验收上次中断 run 遗留的未提交边界修复）：
+  1. **中断 run 遗留修复逐项复核通过**（p051.png 对照）：Prop 6.17 证明尾 ".-"→".□"（print 有 tombstone）；Prop 6.18 头 "$- \ : I f \mathrm { X } \right. \mathrm { Y } \left. \mathrm { Z }$"→"— If X → Y ← Z"（print 双箭头格局 PNG 确认）+"ofadic"→"of adic"；Def 7.1(i) 补 "→" 删游离右括号；(ii) ofadic/calledfinite/ifthere/ofY/伪 ΔV/ofaffinoid 修正——均与 print 一致
+  2. **图片引用路径断裂第三处**（中断 run 已修，本次验证）：`![](images/page_51_image_1.jpg)`→`![](Scholze_2012_perfectoid_published/images/page_51_image_1.jpg)`，目标文件实测存在（3470 bytes）（该图内容为 (iii) 交换图，图属印刷 p.296 文段，MinerU 按 PDF 页命名 page_51）
+  3. Proof 6.18："completion of$\Nu \otimes_B \mathrm C$"（A 误为希腊 Nu）→$\mathrm A\otimes_B\mathrm C$（p.295 print "A ⊗_B C"）
+  4. 同行 "$\mathrm K^{\circ a}.$-algebra" 伪'.$'删；"characteristic$\beta .$Here"→"characteristic$p$. Here"（β 系 p 误读，PNG 确认）
+  5. **控制字节登记**：行 1679 "is \x0b -torsion free"（ϖ 丢失，print "is ϖ-torsion free"，hexdump 实测 69 73 20 0b 20）——\x0b Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
+  6. Proof 6.18 尾 "universal property.-"→"universal property.□"（QED，print 有 tombstone）
+- 备注：print quirk "were A is a strongly noetherian Tate k-algebra"（p.295 §7 导语，print 原文即 were 非 where，pdftotext 与 PNG 双证）——MD 原本即为 "were"，忠实保留不改；行 1699–1705（Def 7.1(iii)、交换图、where j… 句）属印刷 p.296，中断 run 的两处边界修复（图路径 + "where$j$…$p$is finite étale"）将在 p.052 以 p052.png 复核；Definition 7.2 起行 1707 属印刷 p.296。
