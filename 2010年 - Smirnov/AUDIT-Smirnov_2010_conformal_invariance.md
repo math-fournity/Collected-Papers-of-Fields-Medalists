@@ -459,3 +459,33 @@
 - 结果：FAIL——MD 无任何对应段（整文档错源），以原图为准。
 - 备注：参考文献 quirk 登记（忠实保留、不改）——[SS05] 标题作 "…convergence to SLE_4"（下标式排法）；[SW10a]/[SW10b] 原文作 "Arxiv preprint"（Arxiv 大写 A、小写 v）。文末无收稿日期（本文为 Clay/巴西夏季学校讲义，正文后仅作者单位与 email，无 Received/Accepted 栏）；收稿日期核对项记为"不适用（原文无）"。
 - 全篇完：p.001–p.070 共 70 页全部落签（本页为最后一页）。
+
+---
+
+## 修复后全文复读终验（2026-10-02，closeout）
+
+### 总评（收尾版）
+
+全篇 70 页（p.001–p.070）逐页审计已完成并逐页 commit（p.001 `3f2ce6e9` … p.070 `d52a51d9`）。**本篇未发生任何 Markdown 修复**：待审 MD（SHA-256 `b4b2cd09c397fbcb0449c4ec8f457439a85c2a91a5d4975515fa10e0272d95b8`）自基线起字节级未变，其为 Arnlind–Hoppe–Huisken "Multi linear formulation of differential geometry and matrix regularizations" 的 MinerU 导出（33 页，producer mineru 3.4.4），与本篇 PDF（Duminil-Copin & Smirnov 讲义，70 页）整文档错源。逐处 Edit 修复的前提是"MD 与 PDF 同篇且存在可溯源的转写差异"，本篇不满足；以人工重打文本冒充 MinerU 导出被 `REMAINING_PAPER_MARKDOWN_EDIT_V1` 与 AUDIT-SOP 禁止。因此本 closeout 的修复登记为空，终验的对象是"确认无修复发生、无新差异引入、残余伪影清点属实"。
+
+### 抽查覆盖声明（复读版）
+
+1. **全文复读**：2026-10-02 用 Read 工具完整重读 MD 全文 1743 行（wc -l 口径；两次调用覆盖第 1–900 行与第 901 行至文件末尾），逐段确认全文自第 1 行标题至末行作者单位均为 Arnlind–Hoppe–Huisken 论文，无任何 Duminil-Copin–Smirnov 讲义内容混入或残留。
+2. **只读清点**（脚本仅清点、未写回）：本篇内容键 `smirnov|duminil|ising model|Schramm|fermionic`（大小写不敏感）命中 **0** 行——证实该 MD 与本篇论文零内容交集；MinerU 伪影计 `docvortex-page-footnote` span 2 处（第 478、480 行）、`\tag` 97 处——均属错源论文（Arnlind 等）自身的导出形态，不属于本篇可修复对象。
+3. **修复一致性核对**：以 SHA 字节等同性证明本会话 8 个审计块（p.001–p.070）对 MD 引入 **0 处修改、0 处新差异**；全部页级 PNG（audit/p001–p070.png）与 4 组 300dpi 仲裁裁切件（p015/p026/p029/p048）均在各自页 commit 中入库，与 AUDIT 条目一一对应。
+
+### 修复登记
+
+**0 处（无修复）。** 逐处登记表为空：无任何「页码/内容/依据/commit」条目。原因如总评（收尾版）所述——MD 整文档错源，逐处修复不适用；对应 fix(md) commit 不存在。
+
+### 复读收据
+
+- 对象：`2010年 - Smirnov/Smirnov_2010_conformal_invariance_mineru/Smirnov_2010_conformal_invariance__Smirnov_2010_conformal_invariance.md`
+- `wc -l`：**1743** 行
+- `shasum -a 256`：**b4b2cd09c397fbcb0449c4ec8f457439a85c2a91a5d4975515fa10e0272d95b8**（与开工基线一致，字节级未变）
+- 复读方式：Read 工具全文两次调用（1–900、901–末行）+ `grep -c` 只读清点（2026-10-02）
+- 复读结论：全文重读完成；无修复可核对（0 处）；无新差异；残余伪影清单见上（属错源论文，未修、不应由本 worker 修）。
+
+### 残余问题（residualIssues）
+
+**存在一项根本残留，且超出本 worker 授权：MinerU Markdown 整文档错源未修复。** 待审 MD 是另一篇论文（Arnlind–Hoppe–Huisken，33 页）的导出，本篇（70 页）内容在 MD 中不存在，故"修复后复读"意义上的残余伪影不适用于本篇内容；错源 MD 自身的 2 处 docvortex 脚注 span 与 97 处 `\tag` 属该论文导出形态，未清点为待修项。**处置待 Master 决策：对本篇 PDF 重新执行 MinerU 初始导出，再依本 AUDIT 逐页条目锚点重做内容级审计与修复。** 此外，PDF 原文的印刷错字/quirk（清单见文件头「总评」第 3 条）均已忠实登记、按规范保留于 PDF 与未来重导出物中，不构成残余问题。
