@@ -318,3 +318,11 @@
 - 发现并当场修复（13 个记号点，延续 **m**/**T** 粗体与 𝒟 花体印刷裁定）：①L1342 "of D"→"of $\mathcal{D}$"；②L1351 显示式 "\mathfrak{m}"→"\mathbf{m}"（p.038 遗留的第二个 H¹ 显示式实例）；③L1354 两处 "over T/m"/"2-dimensional T/m"→"$\mathbf{T}/\mathbf{m}$"；④L1356 "over T/m"→同；⑤L1362 "m and I"→"$\mathbf{m}$ and I"；⑥L1365 显示式 "\pmod{m}"→"\pmod{\mathbf{m}}"；⑦L1368 ρ_m×3→ρ_**m**；⑧L1390 "set m=ker(ω)"→"$\mathbf{m}$"、"embeds T/m"→"$\mathbf{T}/\mathbf{m}$"、ρ_m→ρ_**m**。
 - 备注：页界——印刷 p.468 止于 "defined over subfields of"，L1392 "the field F̄..." 起属 p.040。
 - 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.040（PDF p.40 / 印刷 p.469）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 20:18 -0400。
+- PNG：`audit/ribet1990_p040.png`（pngmono，150 dpi）。
+- 核对：F̄ 半单化结论；Theorem 5.3（[21] 主结果：m、l odd、l²∤N、not modular of level N/l ⇒ J₀(N)[m] T/m-dim 2、V≈W）；节标题 "6. A theorem of Mazur"；**T**=**T**_N、maximal ideal **m**、k=**T**/**m**；假设 (i)(ii)(iii)；finite flat k-vector space scheme；Theorem 6.1 (Mazur [20])（p ≢ 1 (mod l) ⇒ ρ_m modular of level M=N/p）；Proof（(5.2a) inclusion V⊂J[m]、ι: V→J、𝒱 over Z_p）；Lemma 6.2 与 Proof（Néronian property、p=l、e<p−1、[25] Cor. 3.3.6、semistable、𝒯[p] flat quasi-finite、𝒯[p]^f、Q=𝒯[p]/𝒯[p]^f étale、[11] §11.6、_pΨ、11.6.6/11.6.7、Q_K constant、inertia、V^et/V^0、[11] lemma (5.9.2)、G/A/v_η/G″/G′/u、(6.2) 完成）；记号段（J_s、J⁰、J₀(M)×J₀(M)、torus T、X、Φ、H⊂𝒯[l]、𝒱_s）；T̲=Hom(X,G_m)、[11] §5.1、T[l]⊂H ✓。
+- 发现并当场修复（20 个记号点，延续 **m**/**T** 印刷粗体系列）：①L1396 Theorem 5.3 七处；②L1400 五处（**T**=**T**_N、Let **m**、of **T**、k=**T**/**m**、ρ_**m**）；③L1402 ρ_**m**；④L1404 "of m"→"of $\mathbf{m}$"；⑤L1406 ρ_𝔪→ρ_**m**；⑥L1408 ρ_**m**；⑦L1416 ρ_𝔪→ρ_**m**；⑧L1418 四处（**T**/**m**[G]、J[**m**]、ρ_**m**、**T**/**m**-vector）。
+- 备注：Z_p/Q_p/F_l 印刷粗体（weight 类，登记不改）；T̲ 下划线粗体显示式 MD 本即 \underline{T} 正确。
+- 结果：FAIL（20 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。

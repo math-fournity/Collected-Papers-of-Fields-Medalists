@@ -1393,19 +1393,19 @@ the field  $\bar{F}$ . Since their traces and determinants coincide, their semis
 
 The following complement to Theorem 5.2b is the principal result of [21].
 
-Theorem 5.3. Let m be an ideal of T for which  $\rho_{m}$  is irreducible. Suppose that the residue characteristic l of m is an odd prime which divides N. Assume further that  $l^{2}$  does not divide N and that the representation  $\rho_{m}$  is not modular of level N/l. Then the group  $J_{0}(N)[\mathfrak{m}]$  is of T/m-dimension 2. In other words, we have  $V \approx W$  in the notation of Theorem 5.2.
+Theorem 5.3. Let $\mathbf{m}$ be an ideal of $\mathbf{T}$ for which  $\rho_{\mathbf{m}}$  is irreducible. Suppose that the residue characteristic l of $\mathbf{m}$ is an odd prime which divides N. Assume further that  $l^{2}$  does not divide N and that the representation  $\rho_{\mathbf{m}}$  is not modular of level N/l. Then the group  $J_{0}(N)[\mathbf{m}]$  is of $\mathbf{T}/\mathbf{m}$-dimension 2. In other words, we have  $V \approx W$  in the notation of Theorem 5.2.
 
 ## 6. A theorem of Mazur
 
-Fix a positive integer M and a prime p not dividing M. Let  $T = T_{N}$ , where N = pM, be the Hecke ring of level N. Let m be a maximal ideal of T and set k = T/m. Let V be a k[G]-module which gives the representation  $\rho_{m}$ . Consider the following hypotheses:
+Fix a positive integer M and a prime p not dividing M. Let  $\mathbf{T} = \mathbf{T}_{N}$ , where N = pM, be the Hecke ring of level N. Let $\mathbf{m}$ be a maximal ideal of $\mathbf{T}$ and set k = $\mathbf{T}/\mathbf{m}$. Let V be a k[G]-module which gives the representation  $\rho_{\mathbf{m}}$ . Consider the following hypotheses:
 
-(i) The representation  $\rho_{m}$  is irreducible.
+(i) The representation  $\rho_{\mathbf{m}}$  is irreducible.
 
-(ii) The residue characteristic $l$ of $m$ is odd.
+(ii) The residue characteristic $l$ of $\mathbf{m}$ is odd.
 
-(iii) The representation $\rho_{\mathfrak{m}}$ is finite at $p$.
+(iii) The representation $\rho_{\mathbf{m}}$ is finite at $p$.
 
-The last hypothesis means that there is a finite flat k-vector space scheme V over  $Z_{p}$  for which the resulting representation of  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  coincides with the restriction to  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  of  $\rho_{m}$ .
+The last hypothesis means that there is a finite flat k-vector space scheme V over  $Z_{p}$  for which the resulting representation of  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  coincides with the restriction to  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  of  $\rho_{\mathbf{m}}$ .
 
 Theorem 6.1. (Mazur [20]) Assume that the above hypothesis (i), (ii), and (iii) are satisfied. Suppose further that we have
 
@@ -1413,9 +1413,9 @@ $$
 p \not \equiv 1 \pmod {l}.
 $$
 
-Then the representation $\rho_{\mathfrak{m}}$ is modular of level $M = N / p$.
+Then the representation $\rho_{\mathbf{m}}$ is modular of level $M = N / p$.
 
-Proof. According to (5.2a), we may find an inclusion of $\mathbf{T} / \mathfrak{m}[G]$-modules $V \subset J[\mathfrak{m}]$, where $J = J_0(N)$. Fix such an inclusion, and view it as a map $\iota: V \to J$. Since $\rho_{\mathfrak{m}}$ is finite, $V$ extends to a finite flat $\mathbf{T} / \mathfrak{m}$-vector space scheme $\mathcal{V}$ over $\mathbf{Z}_p$.
+Proof. According to (5.2a), we may find an inclusion of $\mathbf{T} / \mathbf{m}[G]$-modules $V \subset J[\mathbf{m}]$, where $J = J_0(N)$. Fix such an inclusion, and view it as a map $\iota: V \to J$. Since $\rho_{\mathbf{m}}$ is finite, $V$ extends to a finite flat $\mathbf{T} / \mathbf{m}$-vector space scheme $\mathcal{V}$ over $\mathbf{Z}_p$.
 
 Lemma 6.2. The map $\iota$ prolongs to a map $\mathcal{V} \to \mathcal{T}$, where $\mathcal{T}$ is the Néron model of $J_{\mathbf{Q}_p}$.
 
