@@ -1622,7 +1622,7 @@ $$
 
 by the Diophantine condition$| i + j \alpha + k \beta | \gtrsim N ^ { - 4 }$ if$i , j , k \lesssim N ^ { 2 }$, with$( i , j , k ) \neq ( 0 , 0 , 0 )$. This is more than satisfactory.
 
-Next we consider the contribution from$( \sum _ { i = 1 } ^ { 3 } \mu _ { i } ^ { 2 } ) ( \sum _ { i = 1 } ^ { 3 } \lambda _ { i } ^ { 2 } ) = ( \sum _ { i = 1 } ^ { 3 } \mu _ { i } \lambda _ { i } ) ^ { 2 } \ne 0 .$. In this case there are unique$z _ { i } , p , q$with$p , q \in \mathbb { N }$and$\operatorname* { g c d } ( p , q ) = 1$such that$\mu _ { i } = p z _ { i } , \lambda _ { i } = q z _ { i }$. These terms give a contribution of
+Next we consider the contribution from$( \sum _ { i = 1 } ^ { 3 } \mu _ { i } ^ { 2 } ) ( \sum _ { i = 1 } ^ { 3 } \lambda _ { i } ^ { 2 } ) = ( \sum _ { i = 1 } ^ { 3 } \mu _ { i } \lambda _ { i } ) ^ { 2 } \ne 0$. In this case there are unique$z _ { i } , p , q$with$p , q \in \mathbb { N }$and$\operatorname* { g c d } ( p , q ) = 1$such that$\mu _ { i } = p z _ { i } , \lambda _ { i } = q z _ { i }$. These terms give a contribution of
 
 $$
 \sum_{\substack{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}\\ |A^{\prime} + B^{\prime}\alpha +C^{\prime}\beta -\tau^{\prime}| <   2^{j}}}\sum_{\substack{mp^{2} + 5x^{2} = A^{\prime},\\ mq^{2} + 5y^{2} = B^{\prime},\\ mpq + 5xy = C^{\prime}}}\sum_{\substack{\sum_{i=1}^{3}z_{i}^{2} = m}}1\\ \lesssim (2^{j}N^{4} + 1)N\sup_{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}}|\{(m,p,q,x,y):mp^{2} + 5x^{2} = A^{\prime},mq^{2} + 5y^{2} = B^{\prime},mpq + 5xy = C^{\prime}\} |.
@@ -1655,7 +1655,7 @@ and we’re done.
 The case$k = 2$of the main result of Guo and Zhang [22] is
 
 $$
-\begin{array}{l}\int \dots \int \bigg|\sum_{\substack{0\leq \beta_{i}\leq 1\\ 0\leq \alpha_{ij}\leq 1}}\Big|\sum_{\substack{x\in \mathbb{Z}^{d}\\ |x|\leq M}}e\Big(\sum_{i,j = 1}^{d}\alpha_{ij}x_{i}x_{j} + \sum_{i = 1}^{d}\beta_{i}x_{i}\Big)\bigg|^{2s}d\alpha_{11}  d\alpha_{12}\dots d\alpha_{dd}  d\beta_{1}\dots d\beta_{d}\\ \\ \lesssim_{\epsilon}N^{\epsilon}\bigg(N^{ds} + \sum_{j = 1}^{d}N^{(2s - 1)j + d - j(j + 2)}\bigg), \end{array}
+\begin{array}{l}\int_ {\substack{0\leq \beta_{i}\leq 1\\ 0\leq \alpha_{ij}\leq 1}} \dots \int \bigg|\sum_{\substack{x\in \mathbb{Z}^{d}\\ |x|\leq M}}e\Big(\sum_{i,j = 1}^{d}\alpha_{ij}x_{i}x_{j} + \sum_{i = 1}^{d}\beta_{i}x_{i}\Big)\bigg|^{2s}d\alpha_{11}  d\alpha_{12}\dots d\alpha_{dd}  d\beta_{1}\dots d\beta_{d}\\ \\ \lesssim_{\epsilon}N^{\epsilon}\bigg(N^{ds} + \sum_{j = 1}^{d}N^{(2s - 1)j + d - j(j + 2)}\bigg), \end{array}
 $$
 
 and the right-hand side is seen to be$\lesssim N ^ { \epsilon } ( N ^ { d s } + N ^ { 2 d s - d ( d + 2 ) } )$. We sketch the argument by which (1.10) follows from this bound. More precisely, if we define
