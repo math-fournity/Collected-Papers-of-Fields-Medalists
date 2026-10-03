@@ -98,3 +98,15 @@
   - **修复 4（本页证据：PNG 与文本层均为 "Introduce the quantity"）**：MD 行 193 `Introduce the quantit` → `Introduce the quantity`（转写丢字母 y）。
   - 残留伪影（登记不改）：`⟦⟧`→`𝕀…𝕀` 记号近似（上行）；running foot `9 100 Years of the Ising Model` 未入 MD；Figure 1 图内字母标注（top/bottom/g）不入 MD 文本（图形元素）。
 - 备注：MD 行 199 起为 p.10 内容（(3.5) 及后续），归下一块审计。
+
+## 本块总评（p.1–p.9 / 46）
+
+- **结果：9/9 页 PASS±（0 PASS、0 FAIL）**；4 处 Markdown 内容级修复（p.007 两处双标点、p.009 caption τ̲ 下划线 + `quantit`→`quantity`）。修复后全 MD SHA-256：`8381cae07e621a0ad912b135da74c318a83419cbfdafcf9aeafb5d3230ac563e`（基线 `45dc4fbe…` → +4/−4 行，恰为 4 处修复，无其他改动）。
+- **双通道主对账执行情况**：`pdftotext` 首页判定文本层可用（born-digital/pdfTeX），每页均以「150dpi pngmono 页图 + pdftotext 整页文本」互证；2 处疑难升级 300dpi 仲裁（p.001 页脚 DOI、p.009 caption τ 装饰符），裁剪存 `audit-redo/300dpi/`。证据图 `audit-redo/ICM2022_proceedings_Duminil-Copin_p001–p009.png` 逐页随 commit 提交。
+- **Luna 旧修复重核结论（本次块内可及者全部成立）**：p.001 `Ioffe` 拼写与页脚/DOI 补全 ✓；p.002 `Kadanof's→Kadanoff's` ✓；p.004 定义段符号恢复（`V/E/x/y/G`）、`mode→model`、`$D r$Wolfgang→Dr. Wolfgang` ✓。Luna 旧判 FAIL 的页面在修复后均达到 PASS± 水准，本次未发现 Luna 修复引入的新错误。
+- **print quirk 忠实保留清单（登记不改，均有页图+文本层双证）**：(2.4) 指数内 `H_{G,β,h}`（p.005）；p.007 "the fact that β large renders"；(2.8) 左端 `Z(G,β,0)` 配指数内 `H_{G,h}`（p.007）；(3.4) `H_{S(N,M),h}`（p.009）；(3.3) 尾逗号、(2.5) 无句尾句号、(2.6) 尾逗号；"a statistical mechanics's argument"、"a semi-classical version of Heisenberg model"（原句如此）。
+- **残留伪影登记（SOP PASS± 类，默认不批量改）**：ff 拍平（`diferent`×3、`differential`、`eficient`、`suficient`、`efectively`）；空格合并（`ofthe`×2、`magneticfield`、`neighbourferromagnetic`、`thefree`×2、`ofmathematical`）；断行去连字（`inversetemperature`）；记号近似（`⟦0,M⟧`→`𝕀0,M𝕀`）；脚注上标拍平（`dual graph1`）；行内数学跨行拆分；running foot/斜体未入 MD；页脚 ICM 会徽文字未入 MD（p.001，图形）。其中 `[20,86]` 空格合并及 ff 拍平影响精确检索，如需统一批量处理须整篇登记后另行 fix(md)。
+- **本块新发现并修复的转写错误模式**：双标点重复（`$\beta ,$,`、`$C .$.`）与丢字母（`quantit`）——均为 MinerU/转写层错误而印刷干净，修复依据逐条可溯源到本文件对应页条目。
+- **Luna 旧审计分级差异说明**：Luna 旧账 p.1–p.9 多数判 FAIL（修复前状态）；本 redo 对修复后基线重检，等级反映当前 MD 实态。Luna 登记 `diferent`/`diferential`/`eficient` 等为非误导伪影的处置与本次一致。
+- **覆盖与盲区声明**：本块仅覆盖 PDF p.1–p.9（印刷 p.1–p.9）；p.10–p.46 及文末参考文献由后续重做块处理，本文件后续条目未审。MD 行 199 起的 3 处 `$\beta ,$,` 双逗号残留（行 375/685/763）属后续页面，未在本块处理。minerU doc_id：`middle_json.json` 无 `doc_id`/`docId` 字段（grep 实证），与 Luna 旧记录一致。
+- 收尾时间：2026-10-03（EDT，`date` 实取 12:02 开工）；本块 commits：87cdfaf2 → 232a8965（9 个 redo(page) 提交，每页一提交）+ 本收尾提交。
