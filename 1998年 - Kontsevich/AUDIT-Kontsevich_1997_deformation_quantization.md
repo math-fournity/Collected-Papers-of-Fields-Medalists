@@ -297,3 +297,10 @@
 - 结果：`FAIL`→6 处已修复：①行 1733 `$V.$.` 双句点→`$V$.`；②行 1735 Theorem `${\cal I}_{alg}\circ$I`→`$I_{alg}\circ I_{PBW}$`（I_PBW 丢失，PNG+文本层确凿）；③行 1741 `$\ldots$. and`/`$\dots$. are` 双句点×2→`$\ldots$ and`/`$\dots$ are`；④行 1757 `$\in\mathcal{H}.$ because`→`$\in\mathcal{H}$, because`（印刷逗号）；⑤行 1757 `$\bar{G}^{(1)}$`→`$G^{(1)}$`（幻影杠——上块移交线索②证实，PNG 确证印刷无 bar）；⑥行 1757 `transitively on . First of all`→补 `$\mathcal{H}$`（𝓗 丢失，PNG+文本层确凿）。其余 PASS±：行 1731/1733/1747 句末缺句点；行 1747 `diferential`（ff 拍平）；行 1755/1757 花体样式差异（登记）。
 - 备注：行 1757 下半（to the individual wheel Wh_n…）为印刷 p.42 内容，在 p.042 核对；行 1759–1789（§8.3.3.2、I_alg∘I_PBW 公式、概率分布段、wheels without axles/Λ-graph/typical picture 三图）同为 p.42。
 
+## p.042（PDF p.42 / 印刷 p.42）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p042.png`（pngmono 150dpi）
+- 核对：individual wheel 段（γ↦Trace(ad(γ)^n)、symmetry factors、odd n vanish、Q.E.D.）、§8.3.3.2 heading、I_alg∘I_PBW 公式（n copies of γ）、γ^n 生成元段、m fixed points 概率平均段（ρ(x)、C̄_{1,1}≃{−∞}⊔R⊔{+∞}、interchanging）、m-th power 结论段、wheels without axles 图（行 1775 引 page_41_image_8.jpg 存在）、Λ-graph 引言句（MD 行 1757 下半–1777）。
+- 结果：`FAIL`→2 处已修复：①行 1757 `the polynomial γ Trace$(ad(\gamma)^n)$on g`→`the polynomial$\gamma\mapsto Trace(ad(\gamma)^n)$on g`（↦ 丢失，PNG "γ 7→ Trace" 确凿）；②行 1764 `(n\mathrm{copiesof}\gamma)`→`(n\text{ copies of }\gamma)`（粘排，PNG+文本层确凿）。其余 PASS±：行 1757 `diferential`/`coeficients`（ff 拍平）；行 1761/1767 样式差异（登记）。print quirk 忠实保留：行 1769 `(i.e. for the taking mean value`（原文 for the taking）；`is valid operation`（原文缺 a）。公式行 1764/1774 与印刷逐符号吻合。行 1779 图 page_42_image_0.jpg（Λ-graph）为印刷 p.43 顶部内容，归 p.043 核对。
+- 备注：行 1779 起图与行 1781 起（typical picture、m=10）为印刷 p.43 内容，在 p.043 核对。
+

@@ -1754,14 +1754,14 @@ with identified central vertex v. The following picture shows a typical graph:
 
 ![](images/page_40_image_9.jpg)
 
-In the integration we may assume that the point corresponding to v is fixed, say that it is$i \cdot 1 + 0 \in \mathcal { H }$, because group$G ^ { ( 1 ) }$acts simply transitively on$\mathcal { H }$. First of all, the operator$S y m ( \mathbf { g } ) { \longrightarrow } S y m ( \mathbf { g } )$corresponding to the individual wheel$W h _ { n }$is the diferential operator on$\mathbf { g } ^ { * }$with constant coeficients, and it corresponds to the polynomial γ Trace$( a d ( \gamma ) ^ { n } )$on g. The operator corresponding to the joint of several wheels is the product of operators associated with individual wheels. Also, the integral corresponding to the joint is the product of integrals. Thus, with the help of symmetry factors, we get that the total operator is equal to the exponent of the sum of operators associated with wheels$W h _ { n } , \ n \geq 2$with weights equal to corresponding integrals. By the symmetry argument used several times before$( z \mapsto - { \overline { { z } } } )$, we see that integrals corresponding to wheels with odd n vanish. We proved the first statement of our theorem. Q.E.D.
+In the integration we may assume that the point corresponding to v is fixed, say that it is$i \cdot 1 + 0 \in \mathcal { H }$, because group$G ^ { ( 1 ) }$acts simply transitively on$\mathcal { H }$. First of all, the operator$S y m ( \mathbf { g } ) { \longrightarrow } S y m ( \mathbf { g } )$corresponding to the individual wheel$W h _ { n }$is the diferential operator on$\mathbf { g } ^ { * }$with constant coeficients, and it corresponds to the polynomial$\gamma \mapsto T r a c e ( a d ( \gamma ) ^ { n } )$on g. The operator corresponding to the joint of several wheels is the product of operators associated with individual wheels. Also, the integral corresponding to the joint is the product of integrals. Thus, with the help of symmetry factors, we get that the total operator is equal to the exponent of the sum of operators associated with wheels$W h _ { n } , \ n \geq 2$with weights equal to corresponding integrals. By the symmetry argument used several times before$( z \mapsto - { \overline { { z } } } )$, we see that integrals corresponding to wheels with odd n vanish. We proved the first statement of our theorem. Q.E.D.
 
 ## 8.3.3.2. Isomorphism$I _ { a l g } \circ I _ { P B W }$
 
 The second case, for the operator$I _ { a l g } \circ I _ { P B W }$, is a bit more tricky. Let us write a formula for this map:
 
 $$
-I _ {a l g} \circ I _ {P B W}: \gamma^ {n} \mapsto \gamma \star \gamma \star \gamma \dots \star \gamma (n \mathrm{copiesof} \gamma).
+I _ {a l g} \circ I _ {P B W}: \gamma^ {n} \mapsto \gamma \star \gamma \star \gamma \dots \star \gamma (n \text { copies of } \gamma).
 $$
 
 This formula defines the map unambiguously because elements$\gamma ^ { n } , \ \gamma \in { \bf g } , \ n \ge 0$generate$S y m ( \mathbf { g } )$as a vector space.
