@@ -30,3 +30,11 @@
   - `Kadanoff's`（MD 行 27）当前拼写与印刷一致——Luna 旧修复（`Kadanof's`→`Kadanoff's`）经原页重核**成立**。
   - 残留伪影（登记不改，SOP PASS± 默认）：MD 行 27 `diferent`、`diferential`——印刷与文本层均为 `different`、`differential`（ff 连字被拍平成单 f，OCR 伪影，非 print quirk）；`[20,86]` 印刷为 `[20, 86]`（空格合并）；印刷页脚 running foot `2 Hugo Duminil-Copin` 未入 MD。
 - 备注：ff 拍平词会妨碍精确字符串检索，按 SOP 未批量修复；如后续统一批量处理须整篇登记。
+
+## p.003（PDF p.3 / 印刷 p.3）
+- PNG：audit-redo/ICM2022_proceedings_Duminil-Copin_p003.png（pngmono 150dpi）
+- 核对：p.2 跨页续句（"field is applied to it…ferromagnetic phase below it"）、Curie's law/Weiss 段、Lenz 两段、Ernst Ising 段、Ising 假设两引语段、末段至 "irrespective of the tempera-" 跨页断点
+- 结果：**PASS±**
+  - 正文与印刷逐句吻合：`[101]`、`[80]`、`[70]` 引用号正确；`mean-field approximation`、`Curie-Weiss model` 术语正确；Ising 两处直接引语（"decay rapidly with distance…"、"of all the possible positions…"）逐字一致；1900/1924/1925 年份正确；页界断词 `tempera-`/`ture` 跨页衔接正确。
+  - 残留伪影（登记不改）：MD 行 35 `eficient`——印刷为 `efficient`（ff 拍平 OCR 伪影，非 print quirk）；印刷 running foot `3 100 Years of the Ising Model` 未入 MD。
+- 备注：Luna 旧审计 p.003 判 PASS± 并登记同一 `eficient` 伪影，本次重核结论一致；无内容错误、无新修复。
