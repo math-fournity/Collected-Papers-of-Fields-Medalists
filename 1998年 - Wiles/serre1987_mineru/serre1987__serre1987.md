@@ -4,6 +4,8 @@
 
 à Yuri Ivanovich Manin, pour son 50$^{e}$ anniversaire
 
+Received December 5, 1986.
+
 Le présent travail reprend, en la précisant, une conjecture faite en 1973, dont on trouvera un cas particulier dans [44], §3.
 
 Il s'agit de représentations "modulaires" (au sens de Brauer), de degré 2, du groupe de Galois $G_{\mathbf{Q}} = \operatorname{Gal}(\overline{\mathbf{Q}} / \mathbf{Q})$.
@@ -50,7 +52,7 @@ On se propose d'attacher à $\rho$ des entiers positifs $N$ et $k$, ainsi qu'un 
 
 1.2. Définition de N. L'entier N est simplement le conducteur d'Artin de  $\rho$ , défini comme en caractéristique 0 (cf. [1], [38]), à cela près que l'on se restreint aux places premières à p.
 
-De façon plus précise, soit l un nombre premier  $\neq p$ . Choisissons une extension à Q de la valuation l-adique de Q, et soient
+De façon plus précise, soit l un nombre premier  $\neq p$ . Choisissons une extension à $\overline{\mathbf{Q}}$ de la valuation l-adique de Q, et soient
 
 $$
 G _ {0} \supset G _ {1} \supset \dots \supset G _ {i} \supset \dots
@@ -162,7 +164,7 @@ $$
 \rho_ {p} \colon G _ {p} \to \mathbf {G L} (V) \simeq \mathbf {G L} _ {2} (\overline {{\mathbf {F}}} _ {p}),
 $$
 
-$\mathrm{ou} G_p = \mathrm{Gal}(\overline{\mathbf{Q}}_p / \mathbf{Q}_p)$.
+où $G_p = \mathrm{Gal}(\overline{\mathbf{Q}}_p / \mathbf{Q}_p)$.
 
 Nous noterons $I$ le groupe d'inertie de $G_{p}$, et $I_{p}$ le plus grand pro-$p$-sous-groupe de $I$ (groupe d'inertie sauvage). Le quotient $I_{t}=I/I_{p}$ est le groupe d'inertie modérée de $G_{p}$; il s'identifie à $\varprojlim$. $\mathbf{F}_{p^{n}}^{*}$, cf. [41], prop. 2. Un caractère de $I_{t}$ sera dit de niveau $n$ s'il se factorise par $\mathbf{F}_{p^{n}}^{*}$, et ne se factorise par aucun $\mathbf{F}_{p^{m}}^{*}$, où $m$ est un diviseur strict de $n$.
 
@@ -311,10 +313,10 @@ Soit $K_0 = \mathbf{Q}_{p,\mathrm{nr}}$ l'extension non ramifiée maximale de $\
 Du fait que $\beta = \alpha + 1$, on déduit que $\operatorname{Gal}(K_t / K_0) = (\mathbf{Z} / p\mathbf{Z})^*$, donc que $K_t = K_0(z)$, où $z$ est une racine primitive $p$-ième de l'unité. D'autre part, le groupe $\operatorname{Gal}(K / K_t) = \rho_p(I_p)$ est un groupe abélien élémentaire de type $(p, \ldots, p)$, représentable matriciellement par $\left( \begin{array}{cc}1 & * \\ 0 & 1 \end{array} \right)$. De plus, l'hypothèse $\beta = \alpha + 1$ entraîne que l'action par conjugaison de $\operatorname{Gal}(K_t / K_0) = (\mathbf{Z} / p\mathbf{Z})^*$ sur $\operatorname{Gal}(K / K_t)$ est l'action évidente. Utilisant la théorie de Kummer, on en déduit que $K$ peut s'écrire sous la forme
 
 $$
-K = K _ {t} \left(x _ {1} ^ {1 / p}, \dots , x _ {m} ^ {1 / p}\right), \quad \text { o   u } p ^ {m} = \left[ K: K _ {t} \right],\tag{2.4.6}
+K = K _ {t} \left(x _ {1} ^ {1 / p}, \dots , x _ {m} ^ {1 / p}\right), \quad \text {où} p ^ {m} = \left[ K: K _ {t} \right],\tag{2.4.6}
 $$
 
-les $x_{t}$ étant des éléments de $K_{0}^{*}/K_{0}^{*p}$. Si $v_{p}$ désigne la valuation de $K_{0}$, normalisée par $v_{p}(p)=1$, nous dirons que l'extension $K$ (ou la représentation $\rho_{p}$) est peu ramifiée si
+les $x_{i}$ étant des éléments de $K_{0}^{*}/K_{0}^{*p}$. Si $v_{p}$ désigne la valuation de $K_{0}$, normalisée par $v_{p}(p)=1$, nous dirons que l'extension $K$ (ou la représentation $\rho_{p}$) est peu ramifiée si
 
 $$
 v _ {p} \left(x _ {i}\right) \equiv 0 (\mathrm{mod} p) \quad \text { pour } i = 1, \dots , m,\tag{2.4.7}
@@ -376,7 +378,7 @@ $$
 \det \rho_ {p} = \varepsilon_ {p} \cdot \chi^ {k - 1},\tag{2.5.2}
 $$
 
-où $\varepsilon_{p}$ est un caractère non ramifié de $G_{p}$ à valeurs dans $\overline{\mathbf{F}}_{p}^{*}$. Dans le cas où $\rho_{p}$ provient d'une représentation globale $\rho$ de $\operatorname{Gal}(\overline{\mathbf{Q}}/\mathbf{Q})$, le caractère $\varepsilon_{p}$ n'est autre que la $p$-composante du caractère $\varepsilon$ défini au n° 1.3; on a
+où $\varepsilon_{p}$ est un caractère non ramifié de $G_{p}$ à valeurs dans $\mathbf{F}_{p}^{*}$. Dans le cas où $\rho_{p}$ provient d'une représentation globale $\rho$ de $\operatorname{Gal}(\overline{\mathbf{Q}}/\mathbf{Q})$, le caractère $\varepsilon_{p}$ n'est autre que la $p$-composante du caractère $\varepsilon$ défini au n° 1.3; on a
 
 $$
 \varepsilon_ {p} \left(\operatorname{Frob} _ {p}\right) = \varepsilon (p),\tag{2.5.3}
@@ -439,23 +441,21 @@ $$
 où $\psi, \psi'$: $I \to I_t \to \mathbf{F}_{p^2}^*$ sont les deux caractères fondamentaux de $I$ de niveau 2;
 
 $$
-\rho_ {p} | I \simeq \left( \begin{array}{c c} \chi & 0 \\ 0 & 1 \end{array} \right) o u \left( \begin{array}{c c} \chi & * \\ 0 & 1 \end{array} \right),\tag{2.8.2}
+\rho_ {p} | I \simeq \left( \begin{array}{c c} \chi & 0 \\ 0 & 1 \end{array} \right) ou \left( \begin{array}{c c} \chi & * \\ 0 & 1 \end{array} \right),\tag{2.8.2}
 $$
 
 l'action du groupe d'inertie sauvage $I_{p}$ étant, soit triviale, soit peu ramifiée.
 
-On peut donner une autre caractérisation de ce cas, en termes de schémas en groupes de type  $(p, p)$ . Pour l'énoncer, je me bornerai au cas où  $\rho_{p}$  prend ses valeurs dan  $\mathbf{GL}_{2}(\mathbf{F}_{p})$ , donc définit un schéma en groupes (étale) de type  $(p, p)$  sur le corps  $Q_{p}$  (dans le cas général, il faudrait parler de “schémas en  $F_{q}$ -vectoriels” au sens de Raynaud [35]). On peut se demander si ce schéma en groupes se prolonge en un schéma en groupes fini et plat sur  $Z_{p}$ , cf. [35]; s’il en est ainsi, je dirai (cf. [48]) que la représentation  $\rho_{p}$  est finie en p.
+On peut donner une autre caractérisation de ce cas, en termes de schémas en groupes de type  $(p, p)$ . Pour l'énoncer, je me bornerai au cas où  $\rho_{p}$  prend ses valeurs dans  $\mathbf{GL}_{2}(\mathbf{F}_{p})$ , donc définit un schéma en groupes (étale) de type  $(p, p)$  sur le corps  $Q_{p}$  (dans le cas général, il faudrait parler de “schémas en  $F_{q}$ -vectoriels” au sens de Raynaud [35]). On peut se demander si ce schéma en groupes se prolonge en un schéma en groupes fini et plat sur  $Z_{p}$ , cf. [35]; s’il en est ainsi, je dirai (cf. [48]) que la représentation  $\rho_{p}$  est finie en p.
 
 PROPOSITION 4. On a $k = 2$ si et seulement si les deux conditions suivantes sont satisfaites:
 
-(2.8.3)
-
 $$
-\det \rho_ {p} | I = \chi ;\tag{2.8.4}
+\det \rho_ {p} | I = \chi ;\tag{2.8.3}
 $$
 
 $$
-\rho_ {p} \text {   est   finie   en   } p.
+\rho_ {p} \text {   est   finie   en   } p.\tag{2.8.4}
 $$
 
 D'après le n° 2.5, la condition (2.8.3) équivaut à:
@@ -494,7 +494,7 @@ $$
 0 \rightarrow A \rightarrow J \rightarrow B \rightarrow 0,\tag{2.8.6}
 $$
 
-où A et B sont des schémas en groupes finis et plats d'ordre p. De plus, (ii) impose que l'un de ces schémas soit étale, et que l'autre soit de type multiplicatif. Il existe donc une extension finie étale R de  $Z_{p}$  sur laquelle A ou B devient isomorphe au schéma étale constant Z/pZ, et B ou A au schéma  $\mu_{p}$  des racines p-èmes de l'unité. Sur R, la suite exacte (2.8.6) devient:
+où A et B sont des schémas en groupes finis et plats d'ordre p. De plus, (ii) impose que l'un de ces schémas soit étale, et que l'autre soit de type multiplicatif. Il existe donc une extension finie étale R de  $Z_{p}$  sur laquelle A ou B devient isomorphe au schéma étale constant Z/pZ, et B ou A au schéma  $\mu_{p}$  des racines p-ièmes de l'unité. Sur R, la suite exacte (2.8.6) devient:
 
 $$
 0 \to \mathbf {Z} / p \mathbf {Z} \to J \to \mu_ {p} \to 0
@@ -518,7 +518,7 @@ Reste à prouver que $k=2$ entraîne que $\rho_{p}$ est finie en $p$. D'après l
 
 (a) Celui où $\rho_{p}|I$ est donné par les deux caractères fondamentaux $\psi$ et $\psi'$. Ce cas est traité dans Raynaud [35], th. 2.4.3.
 
-(b) Celui où $\rho_{p}|I$ est de la forme $\left( \begin{array}{cc}x & *\\ 0 & 1 \end{array} \right)$, avec action de $I_{p}$ triviale ou peu ramifiée. On fait alors une construction directe, basée sur la classification des extensions de $\mathbf{Z}/p\mathbf{Z}$ par $\mu_{p}$, cf. ci-dessus (de façon un peu plus précise, on commence par remplacer $\mathbf{Z}_{p}$ par une extension finie étale $R$ convenable, on construit l'extension en question sur $R$, et l'on descend ensuite à $\mathbf{Z}_{p}$).
+(b) Celui où $\rho_{p}|I$ est de la forme $\left( \begin{array}{cc}\chi & *\\ 0 & 1 \end{array} \right)$, avec action de $I_{p}$ triviale ou peu ramifiée. On fait alors une construction directe, basée sur la classification des extensions de $\mathbf{Z}/p\mathbf{Z}$ par $\mu_{p}$, cf. ci-dessus (de façon un peu plus précise, on commence par remplacer $\mathbf{Z}_{p}$ par une extension finie étale $R$ convenable, on construit l'extension en question sur $R$, et l'on descend ensuite à $\mathbf{Z}_{p}$).
 
 2.9. Exemple de calcul de k: points de p-division d'une courbe elliptique semi-stable. Soit E une courbe elliptique sur  $Q_{p}$ , d'invariant modulaire  $j_{E}$ , et soit  $E_{p}$  le groupe des points de p-division de E. L'action de  $G_{p}$  sur  $E_{p}$  définit une représentation
 
@@ -572,7 +572,7 @@ On constate que l'extension $K / K_{t}$ du n° 2.4 est $K = K_{t}(q_{E}^{1/p})$.
 
 $-v_{p}(j_{E})/p$ et $u=p^{pm}j_{E}$, de sorte que u est une unité p-adique et que $q_{E}$ est égal au produit de $u^{-1}$ par la puissance p-ème d'un élément de $K_{t}$. On a alors $K=K_{t}(u^{1/p})$ et l'on voit que:
 
-(a) si $u^{p - 1} \equiv 1 \pmod{p^2}$, on a $K = K_t$ et $\rho_p | I \simeq \begin{pmatrix} x & 0 \\ 0 & 1 \end{pmatrix}$;
+(a) si $u^{p - 1} \equiv 1 \pmod{p^2}$, on a $K = K_t$ et $\rho_p | I \simeq \begin{pmatrix} \chi & 0 \\ 0 & 1 \end{pmatrix}$;
 
 (b) si $u^{p-1} \not\equiv 1 \pmod{p^2}$, on a $[K: K_t] = p$ et $\rho_p | I \simeq \begin{pmatrix} \chi & * \\ 0 & 1 \end{pmatrix}$.
 
@@ -694,7 +694,7 @@ $$
 f = \sum a _ {n} q ^ {n}, \quad f \neq 0,
 $$
 
-est une fonction propre de ces opérateurs, on peut multiplier $f$ par un scalaire non nul de telle sorte que $a_1 = 1$. Une fois $f$ ainsi normalisée, on a $T_l(f) = a_l f$ pour $l + pN$ et $U_l(f) = a_l f$ pour $l|pN$: les $a_l$ sont les valeurs propres des $T_l$ et $U_l$. De plus, la série formelle de Dirichlet
+est une fonction propre de ces opérateurs, on peut multiplier $f$ par un scalaire non nul de telle sorte que $a_1 = 1$. Une fois $f$ ainsi normalisée, on a $T_l(f) = a_l f$ pour $l \nmid pN$ et $U_l(f) = a_l f$ pour $l|pN$: les $a_l$ sont les valeurs propres des $T_l$ et $U_l$. De plus, la série formelle de Dirichlet
 
 $$
 L _ {f} (s) = \sum a _ {n} n ^ {- s} \left(\text { à   coefficients   dans } \overline {{\mathbf {F}}} _ {p}\right)
@@ -708,7 +708,7 @@ $$
 
 En particulier, $f$ est déterminée par les $a_{l}$.
 
-(3.1.6) Si $f = \sum a_n q^n$ est une fonction propre des opérateurs de Hecke normalisée comme ci-dessus, il existe une forme parabolique $F = \sum A_n q^n$ de type $(N, k, \varepsilon_0)$ à coefficients dans $\overline{\mathbf{Z}}$, qui est fonction propre des $T_l(l + N)$ et des $U_l(l|N)$ et vérifie:
+(3.1.6) Si $f = \sum a_n q^n$ est une fonction propre des opérateurs de Hecke normalisée comme ci-dessus, il existe une forme parabolique $F = \sum A_n q^n$ de type $(N, k, \varepsilon_0)$ à coefficients dans $\overline{\mathbf{Z}}$, qui est fonction propre des $T_l(l \nmid N)$ et des $U_l(l|N)$ et vérifie:
 
 $$
 A _ {1} = 1; \qquad \tilde {F} = f.
@@ -770,7 +770,7 @@ La conjecture affirme que $\rho$ est alors du type $\rho_{f}$ de (3.1.7). Autrem
 
 Il convient de préciser (3.2.3?) en donnant le type $(N, k, \varepsilon)$ de $f$:
 
-(3.2.4.) La forme parabolique $f$ de (3.2.3.) peut être choisie de type $(N, k, \varepsilon)$, où $N, k$ et $\varepsilon$ sont les invariants de $\rho$ définis au §1 et au §2.
+(3.2.4?) La forme parabolique $f$ de (3.2.3?) peut être choisie de type $(N, k, \varepsilon)$, où $N, k$ et $\varepsilon$ sont les invariants de $\rho$ définis au §1 et au §2.
 
 Si $f = \sum a_{n}q^{n}$ est normalisée ($a_{1} = 1$), le fait que $\rho_{f}$ soit isomorphe à $\rho$ se traduit par les égalités
 
@@ -824,14 +824,6 @@ en parfait accord avec [27], th. 3 (iii).]
 
 (6) Au lieu de définir les formes paraboliques à coefficients dans $\overline{\mathbf{F}}_p$ par réduction à partir de la caractéristique 0, comme nous l'avons fait, nous aurions pu utiliser la définition de Katz [23], qui conduit à un espace $a$ priori plus grand,$^2$ donc donne peut-être davantage de représentations $\rho_f$. Il serait intéressant de voir si les représentations supplémentaires ainsi obtenues peuvent être irréductibles; je n'en connais aucun exemple (pour $k \geqslant 2$), mais, si cela se produisait, il y aurait lieu de modifier (3.2.4?) et (3.2.6?). Il serait également intéressant d'étudier de ce
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ La</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$p = 2$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$k + p - 1$</span></small>
-
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$p \geqslant 5,$</span></small>
-
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$ La définition de Katz jouit de la propriété agréable suivante: toute forme de poids k est aussi de poids  $k + p - 1$ . Avec la définiton adoptée ici, cet énoncé est vrai pour  $p \geqslant 5$ , mais est faux pour p = 2 ou 3.</span></small>
 
 point de vue le cas $k=1$, que nous avons exclu jusqu'ici; peut-être la définition de Katz donne-t-elle alors beaucoup plus de représentations $\rho_{f}$?
@@ -858,11 +850,11 @@ En effet, (a) entraîne que det $\rho$ est impair, donc que les valeurs propres 
 
 Soient $N$, $k$ et $\varepsilon$ les invariants de $\rho$. D'après le n° 1.3, on a $\varepsilon = 1$, et d'après la prop. 4 du n° 2.8, on a $k = 2$. La conjecture (3.2.4?) donne alors:
 
-(3.3.1.) Il existe une forme parabolique $f$ de poids 2 et de niveau $N$, à coefficients dans $\overline{\mathbf{F}}_p$, qui est fonction propre des opérateurs de Hecke et dont la représentation $\rho_f$ associée est isomorphe à $\rho$.
+(3.3.1?) Il existe une forme parabolique $f$ de poids 2 et de niveau $N$, à coefficients dans $\overline{\mathbf{F}}_p$, qui est fonction propre des opérateurs de Hecke et dont la représentation $\rho_f$ associée est isomorphe à $\rho$.
 
 D'après (3.2.6?), cette forme parabolique est à coefficients dans $\mathbf{F}_{p}$, sauf peut-être si $\rho$ est non ramifiée en $p$ (ce qui ne peut se produire que si $p = 2$). On peut reformuler (3.3.1?) en termes de la jacobienne $J_{0}(N)$ de la courbe modulaire $X_{0}(N)$ associée au groupe $\Gamma_{0}(N)$:
 
-(3.3.2.) La représentation $\rho$ intervient comme quotient de Jordan-Hölder dans la représentation de $G_{\mathbf{Q}}$ sur les points de $p$-division de $J_0(N)$.
+(3.3.2?) La représentation $\rho$ intervient comme quotient de Jordan-Hölder dans la représentation de $G_{\mathbf{Q}}$ sur les points de $p$-division de $J_0(N)$.
 
 3.4. Questions. En voici deux, l'une pour pessimistes, l'autre pour optimistes:
 
@@ -876,7 +868,7 @@ de remplacer  $GL_{2}$  par  $GL_{N}$ , ou même par un groupe réductif;
 
 de remplacer Q par d'autres corps globaux.
 
-## §4. Applications. Ces applications concern:
+## §4. Applications. Ces applications concernent:
 
 l'équation de Fermat et ses variantes (n°s 4.1 à 4.3);
 
@@ -1002,7 +994,7 @@ On va maintenant déterminer les invariants  $(N, k, \varepsilon)$  attachés à
 
 C'est là une propriété générale des courbes semi-stables, qui se vérifie immédiatement sur les modèles de Tate “$\mathbf{G}_{m}/q^{\mathbf{Z}}$”.
 
-Remarque. Vu (4.1.6), la condition “$v_{I}(\Delta)$ n'est pas divisible par $p$” est équivalente à:
+Remarque. Vu (4.1.6), la condition “$v_{l}(\Delta)$ n'est pas divisible par $p$” est équivalente à:
 
 $$
 v _ {l} (A B C) \not \equiv \left\{ \begin{array}{l l} 0 & (\mathrm{mod} p) \quad \text { si } l \neq 2 \\ 4 & (\mathrm{mod} p) \quad \text { si } l = 2. \end{array} \right.\tag{4.1.13}
@@ -1146,7 +1138,7 @@ pour lesquelles le conducteur N est égal à 30.
 
 (4) Si l'on fixe L, on peut se demander ce qui se passe pour p assez grand. Dans cette direction, Mazur m'a signalé le résultat suivant:
 
-Admettons (3.3.1$_{2}$). Soit $L$ un nombre premier $\neq 2$ qui ne soit ni un nombre de Fermat ni un nombre de Mersenne (i.e. $L$ ne peut pas s'écrire sous la forme
+Admettons (3.3.1$_{?}$). Soit $L$ un nombre premier $\neq 2$ qui ne soit ni un nombre de Fermat ni un nombre de Mersenne (i.e. $L$ ne peut pas s'écrire sous la forme
 
 $2^{n} \pm 1)$. Il existe alors une constante $C_{L}$ telle que, si $p \geqslant C_{L}$ et $\alpha \geqslant 0$, l'équation
 
@@ -1170,7 +1162,7 @@ Supposons $m > 1$. Il existe alors un nombre premier $p$ qui divise $m$, et l'on
 
 4.5. Schémas en groupes de type  $(p, p)$  sur Z. Soit p un nombre premier  $\geqslant 3$ .
 
-THÉORÈME 3. Admettons (3.3.1?), Tout schéma en groupes fini et plat sur Z, de type (p, p), est alors isomorphe à l'un des trois suivants:
+THÉORÈME 3. Admettons (3.3.1?). Tout schéma en groupes fini et plat sur Z, de type (p, p), est alors isomorphe à l'un des trois suivants:
 
 $$
 \mathbf {Z} / p \mathbf {Z} \oplus \mathbf {Z} / p \mathbf {Z}, \quad \mathbf {Z} / p \mathbf {Z} \oplus \mu_ {p}, \quad \mu_ {p} \oplus \mu_ {p}.
@@ -1277,7 +1269,7 @@ $$
 Il en résulte que l'entier algébrique $A_{l}-a_{l}$ a une image dans $\overline{\mathbf{F}}_{p}$ qui est égale à 0 pour tout $p\in P$, $p\neq l$. Comme $P$ est infini, cela entraîne
 
 $$
-A _ {l} = a _ {l} \quad \text { pour   tout } l + N.\tag{4.6.4}
+A _ {l} = a _ {l} \quad \text { pour   tout } l \nmid N.\tag{4.6.4}
 $$
 
 En particulier, les $A_{l}$ appartiennent à $\mathbf{Z}$. Ils définissent une courbe de Weil $E_{F}$ de niveau un diviseur de $N$; d'après (4.6.4), les représentations $l$-adiques attachées à $E$ et $E_{F}$ sont isomorphes, et l'on sait (Faltings [13], [14]) que cela entraîne que $E$ et $E_{F}$ sont isogènes sur $\mathbf{Q}$. D'où le th. 4.
@@ -1298,7 +1290,7 @@ Pour d'autres exemples, voir les n°s 4.7 et 4.8 ci-après.
 
 [36]) si la Q-algèbre  $K_{X} = \mathbf{Q} \otimes \operatorname{End}_{\mathbf{Q}}(X)$  est un corps de nombres algébriques totalement réel de degré n. On sait que de telles variétés apparaissent lorsqu'on décompose les jaciennes  $J_{0}(N)$  sous l'action des opérateurs de Hecke, cf. Shimura [51], §7.5. Réciproquement:
 
-THÉORÈME 5. Admettons (3.3.1). Alors toute variété abélienne X sur Q, à multiplications réelles, de dimension n, est isomorphe à un quotient de  $J_{0}(N)$ , où N est la racine n-ème du conducteur de X.
+THÉORÈME 5. Admettons (3.3.1?). Alors toute variété abélienne X sur Q, à multiplications réelles, de dimension n, est isomorphe à un quotient de  $J_{0}(N)$ , où N est la racine n-ème du conducteur de X.
 
 La démonstration est analogue à celle du th. 4 (que l'on retrouve pour n = 1). Je me bornerai à en indiquer les grandes lignes. Tout d'abord:
 
@@ -1306,7 +1298,7 @@ La démonstration est analogue à celle du th. 4 (que l'on retrouve pour n = 1).
 
 Cela est expliqué dans Ribet [36].
 
-Si $X$ a bonne réduction en $l$, on notera $a_{l}$ la trace de l'endomorphisme correspondant (dans le système $\lambda$-adique ci-dessus); c'est un entier du corps $K_{x}$.
+Si $X$ a bonne réduction en $l$, on notera $a_{l}$ la trace de l'endomorphisme correspondant (dans le système $\lambda$-adique ci-dessus); c'est un entier du corps $K_{X}$.
 
 (4.7.2) Le conducteur de $X$ est de la forme $N^n$, avec $N$ entier $\geqslant 1$.
 
@@ -1347,7 +1339,7 @@ $$
 à coefficients dans $\overline{\mathbf{F}}_{p}$, fonction propre normalisée des opérateurs de Hecke, telle que $\rho_{p}^{X} \simeq \rho_{f_{p}}$; on a en particulier
 
 $$
-a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } l + N, l \neq p.
+a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } l \nmid N, l \neq p.
 $$
 
 En relevant  $f_{p}$  en caractéristique zéro grâce à (3.1.6) on en déduit une forme parabolique de poids 2 et de niveau N:
@@ -1356,7 +1348,7 @@ $$
 F = \sum A _ {n} q ^ {n},
 $$
 
-à coefficients dans $\overline{\mathbf{Z}}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\tilde{F} = f_p$ pour tout $p \in P$, où $P$ est un ensemble infini de nombres premiers complètement décomposés dans $K_X$. Si $l + N$, on a donc
+à coefficients dans $\overline{\mathbf{Z}}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\tilde{F} = f_p$ pour tout $p \in P$, où $P$ est un ensemble infini de nombres premiers complètement décomposés dans $K_X$. Si $l \nmid N$, on a donc
 
 $$
 \tilde {A} _ {l} = a _ {l, p} = \tilde {a} _ {l} \quad \text { pour   tout } p \in P, p \neq l,
@@ -1656,7 +1648,7 @@ $$
 p = 7 \left(\mathrm{n} ^ {\circ} 5. 5\right).
 $$
 
-5.1. Exemples provenant de  $\mathbf{GL}_{2}(\mathbf{F}_{2}) \simeq \mathfrak{S}_{3}$ . Soit K un corps cubique non abélien, et soit  $K^{gal}$  sa clôture galoisienne. Le groupe  $\operatorname{Gal}(K^{\operatorname{gal}}/\mathbf{Q})$  est isomorphe au groupe symétrique  $S_{3}$ , lui-même isomorphe à  $\mathbf{GL}_{2}(\mathbf{F}_{2})$ . On obtient ainsi une représentation
+5.1. Exemples provenant de  $\mathbf{GL}_{2}(\mathbf{F}_{2}) \simeq \mathfrak{S}_{3}$ . Soit K un corps cubique non abélien, et soit  $K^{gal}$  sa clôture galoisienne. Le groupe  $\operatorname{Gal}(K^{\operatorname{gal}}/\mathbf{Q})$  est isomorphe au groupe symétrique  $\mathfrak{S}_{3}$ , lui-même isomorphe à  $\mathbf{GL}_{2}(\mathbf{F}_{2})$ . On obtient ainsi une représentation
 
 $$
 \rho^ {K} \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {2}),
@@ -1678,7 +1670,7 @@ le caractère ε est égal à 1;
 
 le poids $k$ de $\rho^{K}$ est égal à 2 (resp. 4) si $m = 0, 2$ (resp. si $m = 3$).
 
-La conjecture (3.2.4.) prédit alors l'existence d'une forme parabolique $f$ à coefficients dans $\mathbf{F}_{2}$ (ou dans $\mathbf{F}_{4}$ si $m=0$, i.e., si $K$ est non ramifié en 2), de type $(N,k,1)$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho^{K}$ soit isomorphe à $\rho_{f}$. Le tableau suivant donne une liste de cas où ceci a été vérifié sur ordinateur:
+La conjecture (3.2.4?) prédit alors l'existence d'une forme parabolique $f$ à coefficients dans $\mathbf{F}_{2}$ (ou dans $\mathbf{F}_{4}$ si $m=0$, i.e., si $K$ est non ramifié en 2), de type $(N,k,1)$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho^{K}$ soit isomorphe à $\rho_{f}$. Le tableau suivant donne une liste de cas où ceci a été vérifié sur ordinateur:
 
 | D&lt;0 | k=poids | N=niveau | D>0 | k=poids | N=niveau |
 | --- | --- | --- | --- | --- | --- |
@@ -1729,7 +1721,7 @@ Le corps $\mathbf{Q}(\sqrt{D})$ est alors un corps quadratique réel, et la repr
 
 (L'existence d'un tel caractère est facile à démontrer.)
 
-Soit $\rho_{0}^{\prime} = \operatorname{Ind}(\psi\alpha)$ la représentation de $G_{\mathbf{Q}}$ induite par le caractère $\psi\alpha$ du corps $\mathbf{Q}(\sqrt{D})$. C'est une représentation irréductible de degré 2. D'après (ii\$\_{1}\$), sa
+Soit $\rho_{0}^{\prime} = \operatorname{Ind}(\psi\alpha)$ la représentation de $G_{\mathbf{Q}}$ induite par le caractère $\psi\alpha$ du corps $\mathbf{Q}(\sqrt{D})$. C'est une représentation irréductible de degré 2. D'après (ii$_{1}$), sa
 
 réduction en caractéristique 2 est isomorphe à $\mathrm{Ind}(\psi) \simeq \rho^{K}$. D'après $(\mathrm{ii}_{2})$, son déterminant est impair, et d'après $(\mathrm{ii}_{3})$ son conducteur est de la forme $2^{M}N$, avec $M$ entier. On peut donc appliquer à $\rho_{0}^{\prime}$ l'argument utilisé dans le cas (i) pour $\rho_{0}^{K}$: cette représentation est associée à une forme parabolique $F^{\prime}$ de poids 1 et de niveau $2^{M}N$; par réduction en caractéristique 2, $F^{\prime}$ donne la forme $f$ cherchée. (Noter qu'ici $F^{\prime}$ est combinaison linéaire de fonctions thêta de formes binaires indéfinies.)
 
@@ -1741,7 +1733,7 @@ $$
 
 à déterminant impair, et telle que l'image de $\rho_{p}(G_{\mathbf{Q}})$ dans $\mathbf{PGL}_{2}(\overline{\mathbf{F}}_{p})$ soit un groupe diédral; en particulier, la conjecture faible (3.2.3?) est vraie pour une telle représentation.
 
-5.2. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{4}) \simeq \mathfrak{A}_{5}$ . Soit K un corps de degré 5 sur Q dont la clôture galoisienne  $K^{gal}$  ait pour groupe de Galois le groupe alterné  $A_{5}$ . Comme  $A_{5}$  est isomorphe à  $\mathbf{SL}_{2}(\mathbf{F}_{4})$ , on déduit de là un homomorphisme surjectif  $G_{\mathbf{Q}} \to \mathbf{SL}_{2}(\mathbf{F}_{4})$ , d'où une représentation absolument irréductible
+5.2. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{4}) \simeq \mathfrak{A}_{5}$ . Soit K un corps de degré 5 sur Q dont la clôture galoisienne  $K^{gal}$  ait pour groupe de Galois le groupe alterné  $\mathfrak{A}_{5}$ . Comme  $\mathfrak{A}_{5}$  est isomorphe à  $\mathbf{SL}_{2}(\mathbf{F}_{4})$ , on déduit de là un homomorphisme surjectif  $G_{\mathbf{Q}} \to \mathbf{SL}_{2}(\mathbf{F}_{4})$ , d'où une représentation absolument irréductible
 
 $$
 \rho^ {K} \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {4}),
@@ -1771,9 +1763,9 @@ tion $\rho_{f}$ associée à $f$ est isomorphe à $\rho^{K}$; toutefois, une dé
 
 Le cas D > 0 est plus étonnant: on ne voit a priori aucun moyen de rattacher  $\rho^{K}$  à une quelconque forme modulaire.
 
-5.3. Exemples provenant de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{S}}_{4}$. Le groupe $\mathbf{PGL}_{2}(\mathbf{F}_{3})$ agit sur la droite projective $\mathbf{P}_{1}(\mathbf{F}_{3})$, qui a 4 points, et cela définit un isomorphisme $\mathbf{PGL}_{2}(\mathbf{F}_{3}) \simeq \mathfrak{S}_{4}$. Comme le noyau de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \to \mathbf{PGL}_{2}(\mathbf{F}_{3})$ est $\{\pm 1\}$, on en conclut que $\mathbf{GL}_{2}(\mathbf{F}_{3})$ est une extension centrale de degré 2 de $\mathfrak{S}_{4}$; en fait, c'est l'extension notée $\tilde{\mathfrak{S}}_{4}$ dans [46], n° 1.5.
+5.3. Exemples provenant de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{T}}_{4}$. Le groupe $\mathbf{PGL}_{2}(\mathbf{F}_{3})$ agit sur la droite projective $\mathbf{P}_{1}(\mathbf{F}_{3})$, qui a 4 points, et cela définit un isomorphisme $\mathbf{PGL}_{2}(\mathbf{F}_{3}) \simeq \tilde{\mathfrak{T}}_{4}$. Comme le noyau de $\mathbf{GL}_{2}(\mathbf{F}_{3}) \to \mathbf{PGL}_{2}(\mathbf{F}_{3})$ est $\{\pm 1\}$, on en conclut que $\mathbf{GL}_{2}(\mathbf{F}_{3})$ est une extension centrale de degré 2 de $\tilde{\mathfrak{T}}_{4}$; en fait, c'est l'extension notée $\tilde{\mathfrak{T}}_{4}$ dans [46], n° 1.5.
 
-Il est bien connu que $\widetilde{\mathfrak{S}}_{4}$ peut se plonger dans $\mathbf{GL}_{2}(\mathbf{Z}[\sqrt{-2}])$, et que ce plongement donne par réduction (mod 3) l'isomorphisme $\widetilde{\mathfrak{S}}_{4} \simeq \mathbf{GL}_{2}(\mathbf{F}_{3})$ ci-dessus. Ceci permet d'associer à toute représentation
+Il est bien connu que $\widetilde{\mathfrak{T}}_{4}$ peut se plonger dans $\mathbf{GL}_{2}(\mathbf{Z}[\sqrt{-2}])$, et que ce plongement donne par réduction (mod 3) l'isomorphisme $\widetilde{\mathfrak{T}}_{4} \simeq \mathbf{GL}_{2}(\mathbf{F}_{3})$ ci-dessus. Ceci permet d'associer à toute représentation
 
 $$
 \rho \colon G _ {\mathbf {Q}} \to \mathbf {G L} _ {2} (\mathbf {F} _ {3}),
@@ -1805,7 +1797,7 @@ on constate en effet que:
 
 (5.3.2) Dans tout autre cas, on a $n(l) = n_0(l)$.
 
-En particulier, $N$ divise $N_0$, et les facteurs premiers de $N$ et de $N_0$ sont les mêmes. La conjecture (3.2.4.) affirme donc (entre autres choses) que le niveau $N_0$ intervenant dans la prop. 11 peut être abaissé à $N$. Voici deux exemples où cet abaissement a bien lieu:
+En particulier, $N$ divise $N_0$, et les facteurs premiers de $N$ et de $N_0$ sont les mêmes. La conjecture (3.2.4?) affirme donc (entre autres choses) que le niveau $N_0$ intervenant dans la prop. 11 peut être abaissé à $N$. Voici deux exemples où cet abaissement a bien lieu:
 
 Exemples tirés de courbes elliptiques. Soit $E$ une courbe elliptique sur $\mathbf{Q}$. Supposons qu'il y ait un nombre premier $l > 3$ en lequel $E$ a mauvaise réduction de type $c_3$ ou $c_6$ au sens de Néron (types IV ou IV\* de Kodaira). Avec les notations de [41], n° 5.6, cela équivaut à dire que $E$ a potentiellement bonne réduction en $l$, et que le groupe $\Phi_l$ correspondant est cyclique d'ordre 3. Prenons pour $\rho$ la représentation
 
@@ -1879,7 +1871,7 @@ $$
 
 sont des formes modulaires de poids 1 et 3 respectivement, de niveau 7 et de caractère le caractère de Legendre mod 7. Leur produit $f_1 \cdot f_2$ est la forme $F$ considérée plus haut; d'où le calcul des coefficients de $F$.
 
-5.4. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{9}) \simeq \mathfrak{A}_{6}$ . Soit G le sous-groupe de  $\mathbf{GL}_{2}(\mathbf{F}_{9})$  formé des éléments de déterminant  $\pm 1$ . On a
+5.4. Exemples provenant de  $\mathbf{SL}_{2}(\mathbf{F}_{9}) \simeq \tilde{\mathfrak{A}}_{6}$ . Soit G le sous-groupe de  $\mathbf{GL}_{2}(\mathbf{F}_{9})$  formé des éléments de déterminant  $\pm 1$ . On a
 
 $$
 G = \left\{\pm 1, \pm i \right\} \cdot \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right) = \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right) \cup i \cdot \mathbf {S L} _ {2} \left(\mathbf {F} _ {9}\right),
@@ -1887,7 +1879,7 @@ $$
 
 où i désigne un élément d'ordre 4 de $\mathbf{F}_{9}^{*}$. L'image de ce groupe dans $\mathbf{PGL}_{2}(\mathbf{F}_{9})$
 
-est égale à  $\mathbf{PSL}_{2}(\mathbf{F}_{9})$ , qui est isomorphe au groupe alterné  $A_{6}$ . D'où une projection  $\varphi: G \to A_{6}$ . Le couple ( $\varphi$ , det) définit un homomorphisme surjectif  $G \to A_{6} \times \{\pm 1\}$ , de noyau  $\{\pm 1\}$ . On a donc une suite exacte:
+est égale à  $\mathbf{PSL}_{2}(\mathbf{F}_{9})$ , qui est isomorphe au groupe alterné  $\mathfrak{A}_{6}$ . D'où une projection  $\varphi: G \to \mathfrak{A}_{6}$ . Le couple ( $\varphi$ , det) définit un homomorphisme surjectif  $G \to \mathfrak{A}_{6} \times \{\pm 1\}$ , de noyau  $\{\pm 1\}$ . On a donc une suite exacte:
 
 $$
 \{1 \} \rightarrow \{\pm 1 \} \rightarrow G \rightarrow \mathfrak {A} _ {6} \times \{\pm 1 \} \rightarrow \{1 \}.\tag{*}
@@ -1965,7 +1957,7 @@ $$
 X ^ {6} + a X + b = 0, \quad a, b \in \mathbf {Z},
 $$
 
-le couple  $(a, b)$  étant choisi de telle sorte que l'équation soit irréductible et de groupe de Galois  $A_{6}$ .
+le couple  $(a, b)$  étant choisi de telle sorte que l'équation soit irréductible et de groupe de Galois  $\mathfrak{A}_{6}$ .
 
 [Voici quelques choix possibles de $(a, b)$, obtenus par Mestre: $(a, b) = (24, -20)$; (30, 25); (240, 400); (240, -400); (48, -80); (432, 720); (480, -400).]
 
@@ -1993,7 +1985,7 @@ $$
 \rho \colon G _ {\mathbf {Q}} \to G \subset \mathbf {G L} _ {2} (\mathbf {F} _ {9}).
 $$
 
-Bien entendu, la représentation $\rho$ ainsi obtenue n'est pas unique: elle n'est définie qu'à torsion quadratique près. Comme dans la théorie de Tate (exposée dans [45], §6), on peut utiliser cette torsion pour rendre les invariants $k$ et $N$ de $\rho$ aussi petits que possible; en particulier, on peut choisir $\rho$ de telle sorte que $k = 2$ ou 4, et que $N$ ne soit divisible que par les facteurs premiers du discriminant $d$ qui sont $\neq 3$ (i.e., $l = 2$ et 5 dans les exemples donnés plus haut). Ceci fait, les conjectures du §3 affirment l'existence d'une forme parabolique $f = \Sigma a_{n} q^{n}$ de type $(N, k, 1)$, à coefficients dans $\mathbf{F}_{9}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho \simeq \rho_{f}$. Cette dernière relation entraîne un lien étroit entre les $a_{l}$ (pour $l + 3N$), et la décomposition de $l$ dans le corps $K$. De façon plus précise, notons ord(l) l'ordre de la substitution de Frobenius attachée à $l$ dans $\operatorname{Gal}(K^{\text{gal}} / \mathbf{Q}) \simeq \mathfrak{A}_{6}$. On doit avoir:
+Bien entendu, la représentation $\rho$ ainsi obtenue n'est pas unique: elle n'est définie qu'à torsion quadratique près. Comme dans la théorie de Tate (exposée dans [45], §6), on peut utiliser cette torsion pour rendre les invariants $k$ et $N$ de $\rho$ aussi petits que possible; en particulier, on peut choisir $\rho$ de telle sorte que $k = 2$ ou 4, et que $N$ ne soit divisible que par les facteurs premiers du discriminant $d$ qui sont $\neq 3$ (i.e., $l = 2$ et 5 dans les exemples donnés plus haut). Ceci fait, les conjectures du §3 affirment l'existence d'une forme parabolique $f = \Sigma a_{n} q^{n}$ de type $(N, k, 1)$, à coefficients dans $\mathbf{F}_{9}$, fonction propre normalisée des opérateurs de Hecke, et telle que $\rho \simeq \rho_{f}$. Cette dernière relation entraîne un lien étroit entre les $a_{l}$ (pour $l \nmid 3N$), et la décomposition de $l$ dans le corps $K$. De façon plus précise, notons ord(l) l'ordre de la substitution de Frobenius attachée à $l$ dans $\operatorname{Gal}(K^{\text{gal}} / \mathbf{Q}) \simeq \mathfrak{A}_{6}$. On doit avoir:
 
 $$
 \operatorname{ord} (l) = 1 \text {   ou   } 3 \Leftrightarrow a _ {l} ^ {2} = \left(\frac {l}{3}\right);
@@ -2087,7 +2079,7 @@ $$
 
 cherchée. Par construction, on a det $\rho = \varepsilon$.
 
-Ici encore, on choisit $\rho$ de telle sorte que son conducteur soit le plus petit possible. Le discriminant du polynôme $X^{7} - 7X + 3$ est $3^{8}7^{8}$ et celui du corps $K$ est $3^{6}7^{8}$. Il en résulte que le conducteur de $\rho$ peut être choisi égal à $3^{n}$, et un calcul de ramification en 3 montre que $n = 3$. D'autre part, l'étude de la ramification en 7 montre que l'action de l'inertie en 7 est:
+Ici encore, on choisit $\rho$ de telle sorte que son conducteur soit le plus petit possible. Le discriminant du polynôme $X^{7} - 7X + 3$ est $3^{6}7^{8}$ et celui du corps $K$ est $3^{6}7^{8}$. Il en résulte que le conducteur de $\rho$ peut être choisi égal à $3^{n}$, et un calcul de ramification en 3 montre que $n = 3$. D'autre part, l'étude de la ramification en 7 montre que l'action de l'inertie en 7 est:
 
 $$
 \text { soit } \left( \begin{array}{c c} \chi & * \\ 0 & \chi^ {- 1} \end{array} \right), \qquad \text { soit } \left( \begin{array}{c c} \chi^ {4} & * \\ 0 & \chi^ {- 4} \end{array} \right),
@@ -2098,7 +2090,7 @@ où $\chi$ est le caractère cyclotomique.
 En faisant le produit tensoriel de $\rho$ par $\chi$, ou $\chi^4$, on obtient une nouvelle représentation $\rho'$ où l'action de l'inertie en 7 est donnée par:
 
 $$
-\left( \begin{array}{c c} x ^ {2} & * \\ 0 & 1 \end{array} \right),
+\left( \begin{array}{c c} \chi ^ {2} & * \\ 0 & 1 \end{array} \right),
 $$
 
 ce qui conduit à un poids $k$ égal à 3, cf. $\mathfrak{n}^{\mathrm{os}}$ 2.3 et 2.4. On a
