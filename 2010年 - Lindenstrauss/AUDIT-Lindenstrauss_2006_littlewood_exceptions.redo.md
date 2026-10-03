@@ -37,3 +37,14 @@
   - **Luna 旧判定复核**：Luna 将上述 diferent 类仅登记未修、且未发现 `n ,$, m` 双逗号与 `k > 2 .` 逗号误码；重做按 redo 授予「MD 对印刷偏差即修」口径补齐。
   - 登记非保留伪影（不修）：页眉 "514 MANFRED EINSIEDLER, ANATOLE KATOK, AND ELON LINDENSTRAUSS" 未保留；"isomorphic to ℝ" 印刷黑体拍平为 MD 行 21 `isomorphic to R`。
   - Conjecture 1.1 陈述、[16]/[15]/[6]/[17]/[25] 引用号、ℝ^{k−1}-action 与印刷逐项吻合。
+
+### p.003（PDF p.3 / 印刷 p.515）
+
+- 证据 PNG：`audit-redo/Lindenstrauss_2006_littlewood_exceptions_p003.png`（pngmono 150dpi）；双通道辅证 `pdftotext -f 3 -l 3 -layout`。
+- 核对：Furstenberg 段后半（ℝ/ℤ 不变集）、"intrinsic difference" 段（M. Rees [44]、[3, §9]、Γ=SL(k,ℤ) 例外 [21]/[25]/[48]）、Conjecture 1.2 (Littlewood (c. 1930)) 与式 (1.1)、⟨w⟩ 最近整距离定义、Theorem 1.3 全句、Corollary 1.4 全句、页眉。
+- 结果：**PASS±**（1 处修复）
+  - **修复（Edit，溯源 p.3 PNG/文本层）**：行 27 `intrinsic diference` → `intrinsic difference`（印刷双 f，PNG 与文本层一致）。
+  - Conjecture 1.2、式 (1.1) `liminf_{n→∞} n⟨nu⟩⟨nv⟩ = 0`、⟨w⟩ 定义、Theorem 1.3（k ≥ 3、one-parameter subgroup positive entropy → algebraic）、Corollary 1.4（not compactly supported；k prime → unique SL(k,ℝ)-invariant）与印刷逐项吻合；[24, §2]、[21] 引用号一致。
+  - 印刷 "come from A invariant homogeneous subspaces"（A 后无连字符）MD 忠实保留。
+  - 登记非保留伪影：页眉 "THE SET OF EXCEPTIONS TO LITTLEWOOD'S CONJECTURE 515" 未保留。
+  - **Luna 旧判定复核**：Luna 登记 `diference` 为 PASS± 未修；重做口径下已修。
