@@ -1600,29 +1600,29 @@ $$
 0 \to \mathcal {O} _ {\mathrm{X}} (\mathrm{X}) ^ {\circ} \xrightarrow {d _ {0} ^ {\circ}} \prod_ {i} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i}) ^ {\circ} \xrightarrow {d _ {1} ^ {\circ}} \prod_ {i, j} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i} \cap \mathrm{U} _ {j}) ^ {\circ} \xrightarrow {d _ {2} ^ {\circ}} \dots .
 $$
 
-By parts$( \mathrm { i } )$and$( \ddot { \mathrm { 1 i } } )$, the quotient topology on im$d _ { i - 1 }$has$\varpi ^ { n }$im$d _ { i - 1 } ^ { \circ } , n \in \mathbf { Z } .$, as a basis of open neighborhoods of$0 ,$and the subspace topology of ker$d _ { i }$has$\varpi ^ { n } \mathrm { k e r } d _ { i } ^ { \circ } , n \in \mathbf { Z } .$, as a basis of open neighborhoods of 0. That they agree precisely amounts to saying that the cohomology group is annihilated by some power of$\varpi$.-
+By parts$( \mathrm { i } )$and$( \mathrm { i i } )$, the quotient topology on im$d _ { i - 1 }$has$\varpi ^ { n }$im$d _ { i - 1 } ^ { \circ } , n \in \mathbf { Z }$, as a basis of open neighborhoods of$0 ,$and the subspace topology of ker$d _ { i }$has$\varpi ^ { n } \mathrm { k e r } d _ { i } ^ { \circ } , n \in \mathbf { Z }$, as a basis of open neighborhoods of 0. That they agree precisely amounts to saying that the cohomology group is annihilated by some power of$\varpi$.□
 
-Proposition 6.11. — Assume that K is ofcharacteristic$\rho ,$and that$( \mathrm { R } , \mathrm { R } ^ { + } )$is p-finite, given as the completedperfection ofa reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$oftopologicallyfinite type.
+Proposition 6.11. — Assume that K is of characteristic$p$, and that$( \mathrm { R } , \mathrm { R } ^ { + } )$is p-finite, given as the completed perfection of a reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type.
 
 (i) The map${ \mathrm { X } } = { \mathrm { S p a } } ( \mathrm { R } , \mathrm { R } ^ { + } ) \cong \mathrm { Y } = { \mathrm { S p a } } ( \mathrm { S } , \mathrm { S } ^ { + } )$is a homeomorphism identifying rational subspaces.
 
-(ii) For any U ⊂ X rational, corresponding to${ \mathrm { ~ V ~ C ~ Y } } _ { 3 }$, the perfectoid affinoid K-algebra $( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$is equal to the completed perfection of$( \mathcal { O } _ { \mathrm { Y } } ( \mathrm { V } ) , \mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { V } ) )$
+(ii) For any U ⊂ X rational, corresponding to$\mathrm { V } \subset \mathrm { Y }$, the perfectoid affinoid K-algebra $( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$is equal to the completed perfection of$( \mathcal { O } _ { \mathrm { Y } } ( \mathrm { V } ) , \mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { V } ) )$.
 
-(iii) For any covering$\mathrm { X } = \mathrm { U } _ { i } \mathrm { U } _ { i }$by rational subsets, the sequence
+(iii) For any covering$\mathrm { X } = \bigcup _ { i } \mathrm { U } _ { i }$by rational subsets, the sequence
 
 $$
 0 \to \mathcal {O} _ {\mathrm{X}} (\mathrm{X}) ^ {\circ a} \to \prod_ {i} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i}) ^ {\circ a} \to \prod_ {i, j} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i} \cap \mathrm{U} _ {j}) ^ {\circ a} \to \dots
 $$
 
-is exact. In particular,$\mathcal { O } _ { \mathrm { X } }$is a sheaf, and H$^ i ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { \circ a } ) = 0 f o r i > 0 .$
+is exact. In particular,$\mathcal { O } _ { \mathrm { X } }$is a sheaf, and$\mathrm { H } ^ { i } ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { \circ a } ) = 0$ for$i > 0$.
 
-Remark 6.12. — The last assertion is equivalent to the assertion that$\mathrm { H } ^ { i } ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { + } )$is annihilated by m.
+Remark 6.12. — The last assertion is equivalent to the assertion that$\mathrm { H } ^ { i } ( \mathrm { X } , \mathcal { O } _ { \mathrm { X } } ^ { + } )$is annihilated by$\mathfrak { m }$.
 
 Proof. — (i) Going to the perfection does not change the associated adic space and rational subspaces, and going to the completion does not by Proposition 2.11.
 
-(ii) The completed perfection of$( \mathcal { O } _ { \mathrm { Y } } ( \mathrm { V } ) , \mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { V } ) )$is a perfectoid affinoid$\mathrm { K } \cdot$ algebra. It has the universal property defining$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$among all perfectoid affinoid K-algebras.
+(ii) The completed perfection of$( \mathcal { O } _ { \mathrm { Y } } ( \mathrm { V } ) , \mathcal { O } _ { \mathrm { Y } } ^ { + } ( \mathrm { V } ) )$is a perfectoid affinoid$\mathrm { K }$-algebra. It has the universal property defining$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$among all perfectoid affinoid K-algebras.
 
-(iii) Note that the corresponding sequence for Y is exact up to some$\varpi$-power. Hence after taking the perfection, it is almost exact, and stays so after completion. -
+(iii) Note that the corresponding sequence for Y is exact up to some$\varpi$-power. Hence after taking the perfection, it is almost exact, and stays so after completion.□
 
 Lemma 6.13. — Assume K is ofcharacteristic$\beta .$
 

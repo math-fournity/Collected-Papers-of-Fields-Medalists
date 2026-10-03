@@ -554,3 +554,13 @@
   5. **控制字节登记**：行1571 一处 \x0b（"is the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
   6. Prop 6.10：oftopologically→of topologically；"(ii)$\mathrm{~U~C~X~}_\mathfrak i$"（C系⊂、伪下标i）→"$\mathrm U\subset\mathrm X$,"；"(O_X(U),O_X^+(U)))"游离右括号删；(iii)"$\mathrm X=\cup\mathrm U_i$"→$\bigcup$、"byfinitely/ofthe"补空格；"power of$\cdot_\varpi$"伪\cdot删（p.291 Prop 6.10各行原图）
 - 备注：cohomology 复形 display 与 print 一致；行 1589 起（Proof of Prop 6.10）属印刷 p.292，留待 p.048。
+## p.048（PDF p.48 / 印刷 p.292）
+- PNG：audit/p048.png（pngmono 150dpi）
+- 核对：页眉 292/PETER SCHOLZE；Prop 6.10 证明（[20]/[19]/[2] BGR 引用）；Tate acyclicity display（d_0/d_1/d_2 复形）；ker d_i Banach 段；°-复形 display；ϖ^n im d_{i-1}° 基段+QED □；Proposition 6.11 (i)–(iii)（X≅Y、completed perfection、0→O_X(X)^{°a}→∏→∏_{i,j}→⋯ exact display、H^i=0）；Remark 6.12（annihilated by 𝔪）；Proof (i)(ii)(iii)+QED □
+- 结果：**FAIL**（OCR 排版级错误，已当页修复，以原图为准）：
+  1. ϖ^n 基段："By parts (i) and$(\ddot{\mathrm{1i}})$"（(ii) 乱码）→"(ii)"；"$\varpi^n$im$d_{i-1}^\circ, n\in\mathbf Z.$,"×2 伪'.$,'→", n∈\mathbf Z$,"；"of$\varpi$.-"→".□"（p.292 By parts 段原图）
+  2. Prop 6.11：ofcharacteristic$\rho,→$of characteristic$p$,（ρ系p误读）、completedperfection ofa/oftopologicallyfinite补空格（p.292 Prop行原图）
+  3. (ii)："${\mathrm{~V~C~Y~}}_3$"（C系⊂、伪下标3）→"$\mathrm V\subset\mathrm Y$,"；句末补句点（p.292 (ii)行）
+  4. (iii)："$\mathrm X=\mathrm U_i\mathrm U_i$"（并集符号丢失）→"$\mathrm X=\bigcup_i\mathrm U_i$"（p.292 (iii)行原图）
+  5. "H$^i(...)= 0 f o r i > 0.$"→"$\mathrm H^i(...)=0$ for$i>0$"（for散字出math）（p.292 is exact行）；Remark 6.12 annihilated by m→$\\mathfrak m$（fraktur，PNG确认）；(ii) Proof"affinoid$\\mathrm K\\cdot$-algebra"伪\\cdot→-algebra；(iii) Proof"after completion. -"→".□"（p.292四处）
+- 备注：两个 Tate 复形 display 与 print 一致；行 1627 起（Lemma 6.13）属印刷 p.293，留待 p.049。
