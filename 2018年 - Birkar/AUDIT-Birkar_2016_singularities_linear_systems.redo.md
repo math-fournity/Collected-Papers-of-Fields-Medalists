@@ -21,3 +21,13 @@
   - PASS± 项（不修，登记）：①摘要 `different` 被拍平为 `diferent`（ff 连字瑕疵，词义可辨）；②MD 第 41 行脚注后有孤立 `References` 行——印刷原文该行是 p.2 顶部目录续项「References 44」（pdftotext p.2 证实），MinerU 把它错位到题录区且丢页码 44，属结构伪影，不影响数学内容，不批量改；③页边 arXiv 水印（arXiv:1609.05543v2 [math.AG] 1 Dec 2020）未收录，非论文内容，不计差异。
 - 备注：Luna p.001 登记的两项差异（minimal model program、diferent）均属实；本次重检未发现其漏报本页其他内容差异。
 - 记录时间：2026-10-03 12:12 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
+
+## p.002（PDF p.2 / 印刷 p.2）
+- PNG：`audit-redo/p002.png`（pngmono 150dpi；本次重做新渲染并目检整页）。
+- 核对：目录续项（References…44）、§1 开头三段、Theorem 1.1 完整陈述（含两条 bullet 假设）、ǫ=0 反例段、已知部分情形列表前两条；与 Markdown 第 43–71 行逐项比对，辅以 `pdftotext -f 2 -l 2`。
+- 结果：**PASS±**
+  - 目录续项：印刷为「References …… 44」；MD 中该行在题录区（见 p.001 登记②）且缺页码 44，结构伪影不修。
+  - 正文、Theorem 1.1 陈述（(X,B) ǫ-lc / −(K_X+B) nef and big 两条 bullet）、两条已知情形（[22]、[27]）与印刷一致；两处 `Y → Z` 箭头（Mori fibre space structure 及 general fibre）MD 均为 `$Y \to Z$`——Luna 旧修复经原页 PNG 复核为正确，保留。
+  - PASS± 项（不修，登记）：`that`→`tha`（p.2 中段，丢 t）；`differential`→`diferential`、`pseudo-effective`→`pseudo-efective`（ff 拍平）；若干 `$…$` 与后续单词间空格丢失（如 `$-K_X$is`），词界仍可辨，均不改变数学陈述。
+- 备注：Luna p.002 登记的箭头丢失与 bullet 缺失两项修复均属实且已正确落地；`tha` 登记属实。本次重检未发现 Luna 漏报的本页内容差异。
+- 记录时间：2026-10-03 12:16 EDT；actor=`Wf-R-P13`；model=`GLM-5.3-Flash`；effort=max（run级配置，自报UNKNOWN）。
