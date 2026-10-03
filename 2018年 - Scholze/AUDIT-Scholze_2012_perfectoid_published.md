@@ -543,3 +543,14 @@
   6. (ii) 段："$\mathrm K^{\circ a}.$-algebra"伪'.$'→-algebra；**控制字节登记：行1557 一处 \x0b（"the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）**（p.290 (ii) 行）
   7. (iii) 段："$\mathrm{\Delta X^\flat}$"伪 Δ→$\mathrm X^\flat$、"$\mathrm T_0.$,"→"$\mathrm T_0$"（p.290 (iii) 行）
 - 备注：g_{c′} 两个恒等式 display 与 f−g_c^♯=0 display 与 print 逐字符一致；行 1561 起（"For any subset M⊂X…"）属印刷 p.291，留待 p.047。
+## p.047（PDF p.47 / 印刷 p.291）
+- PNG：audit/p047.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/291；Lemma 5.21 证明收尾（R^♭→k(x)̂→Γ∪{0}、untilt、QED □）；M^♭ 记号段；Corollary 6.8；Proof+QED □；parts (i)(ii) proved 段；char p 段；Definition 6.9 p-finite（R^+ 为 lim_{←Φ}S^+ 的 ϖ-adic completion、R=R^+[ϖ^{−1}]）；Proposition 6.10 (i)–(iii)（S^+=S°、reduced、cohomology 复形 display 0→O_X(X)°→∏O_X(U_i)°→∏_{i,j}→⋯ 被 ϖ 某幂零化）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 5 条，以原图为准）：
+  1. M^♭ 记号段："$\mathrm M\subset\mathrm X.$,"伪'.$,、"$\mathrm M^{\mathrm p}\subset\mathrm X^{\mathrm b}$"→"$\mathrm M^\flat\subset\mathrm X^\flat$"（p/b 系 ♭ 误读）（p.291 For any subset 行）
+  2. Corollary 6.8 头"Corollary${\bf 6.8.\mathcal-}Let"乱码→"Corollary 6.8. — Let"、"$\mathrm R^{\flat}+$"→$\mathrm R^{\flat+}$、"Thenfor/rational$\mathrm U\subset\mathrm X.$,"修正（p.291 Corollary行原图）
+  3. Proof 段：") among"游离右括号删、"$\mathrm K^{\mathrm b}\mathrm{-algebras.}-$"→"$\mathrm K^\flat$-algebras.□"（QED）（p.291 Proof行）
+  4. char p 段与 Def 6.9："characteristic$\beta,$/$\beta.$"×2→"$p$"；"completed perfection${\cal O}f(\mathrm S,\mathrm S^+)$"（of 乱码为 𝒪f）→"perfection of$(\mathrm S,\mathrm S^+)$"；"$gf\underline{\mathrm{lim}}_\Phi$"→"of$\varprojlim_\Phi$"；"$\boldsymbol\varpi^{-1}→\varpi^{-1}$"；句末补句点（p.291 Def 6.9行原图）
+  5. **控制字节登记**：行1571 一处 \x0b（"is the \x0b-adic completion"=ϖ 丢失）——登记待字节级修复（\x0b→$\varpi$）
+  6. Prop 6.10：oftopologically→of topologically；"(ii)$\mathrm{~U~C~X~}_\mathfrak i$"（C系⊂、伪下标i）→"$\mathrm U\subset\mathrm X$,"；"(O_X(U),O_X^+(U)))"游离右括号删；(iii)"$\mathrm X=\cup\mathrm U_i$"→$\bigcup$、"byfinitely/ofthe"补空格；"power of$\cdot_\varpi$"伪\cdot删（p.291 Prop 6.10各行原图）
+- 备注：cohomology 复形 display 与 print 一致；行 1589 起（Proof of Prop 6.10）属印刷 p.292，留待 p.048。

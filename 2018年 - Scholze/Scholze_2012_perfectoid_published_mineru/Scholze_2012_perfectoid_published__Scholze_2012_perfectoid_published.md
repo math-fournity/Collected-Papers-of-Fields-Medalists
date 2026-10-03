@@ -1558,33 +1558,33 @@ sending$\mathrm { T } _ { i } ^ { 1 / p ^ { \infty } }$to$( g _ { i } ^ { 1 / p 
 
 (iii) First, part (i) immediately implies that any rational subset of X is the preimage of a rational subset of$\mathrm { X } ^ { \flat }$. Because X is$\mathrm { T _ { 0 } }$, this implies that the map is injective. Now any $x \in \mathrm { X } ^ { \flat }$factors as a composite$\mathbb { R } ^ { \flat } \to { \widehat { k ( x ) } } \to \Gamma \cup \{ 0 \} . \mathbb { A } \operatorname { s } { \widehat { k ( x ) } }$is perfectoid, we may untilt to a perfectoid field over$\mathrm { K } ,$, and we may also untilt the valuation by Proposition 3.6. This shows that the map is surjective, giving part (iii). Now part (ii) follows in general with the same proof.-
 
-For any subset$\mathrm { M } \subset \mathrm { X } .$, we write$\mathrm { M } ^ { \mathrm { p } } \subset \mathrm { X } ^ { \mathrm { b } }$for the corresponding subset of$\mathrm { \mathbf { X } } ^ { \mathrm { \flat } }$.
+For any subset$\mathrm { M } \subset \mathrm { X }$, we write$\mathrm { M } ^ { \flat } \subset \mathrm { X } ^ { \flat }$for the corresponding subset of$\mathrm { \mathbf { X } } ^ { \mathrm { \flat } }$.
 
-Corollary${ \bf 6 . 8 . { \mathcal { - } } } L e t \left( { \bf R , R ^ { + } } \right)$be a perfectoid affinoid K-algebra, with tilt$( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$, and let $\mathrm { X } = \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } ) , \mathrm { X } ^ { \flat } = \mathrm { S p a } ( \mathrm { R } ^ { \flat } , \mathrm { R } ^ { \flat } + )$. Thenfor all rational$\mathrm { U } \subset \mathrm { X } .$, the pair$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$ is a perfectoid affinoid K-algebra with tilt$( \mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } ^ { \flat } ) , \mathcal { O } _ { \mathrm { X } ^ { \flat } } ^ { + } ( \mathrm { U } ^ { \flat } ) )$.
+Corollary 6.8. — Let$\left( { \bf R , R ^ { + } } \right)$be a perfectoid affinoid K-algebra, with tilt$( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$, and let $\mathrm { X } = \mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } ) , \mathrm { X } ^ { \flat } = \mathrm { S p a } ( \mathrm { R } ^ { \flat } , \mathrm { R } ^ { \flat + } )$. Then for all rational$\mathrm { U } \subset \mathrm { X }$, the pair$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$ is a perfectoid affinoid K-algebra with tilt$( \mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } ^ { \flat } ) , \mathcal { O } _ { \mathrm { X } ^ { \flat } } ^ { + } ( \mathrm { U } ^ { \flat } ) )$.
 
-Proof. — Corollary 6.7(iii) and Lemma 6.4(ii) show that$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$is a perfectoid affinoid K-algebra. It can be characterized by the universal property of Proposition 2.14 among all perfectoid affinoid K-algebras, and tilting this universal property shows that its tilt has the analogous universal property characterizing $( \mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } ^ { \flat } ) , \mathcal { O } _ { \mathrm { X } ^ { \flat } } ^ { + } ( \mathrm { U } ^ { \flat } ) )$) among all perfectoid affinoid$\mathrm { K ^ { \mathrm { b } } \mathrm { - a l g e b r a s . } }$-
+Proof. — Corollary 6.7(iii) and Lemma 6.4(ii) show that$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$is a perfectoid affinoid K-algebra. It can be characterized by the universal property of Proposition 2.14 among all perfectoid affinoid K-algebras, and tilting this universal property shows that its tilt has the analogous universal property characterizing $( \mathcal { O } _ { \mathrm { X } ^ { \flat } } ( \mathrm { U } ^ { \flat } ) , \mathcal { O } _ { \mathrm { X } ^ { \flat } } ^ { + } ( \mathrm { U } ^ { \flat } ) )$ among all perfectoid affinoid$\mathrm { K } ^ { \flat }$-algebras.□
 
 At this point, we have proved parts (i) and (ii) of Theorem 6.3.
 
-To prove the sheaf properties, we start in characteristic$\beta ,$with a certain class of perfectoid rings which are particularly easy to access.
+To prove the sheaf properties, we start in characteristic$p$, with a certain class of perfectoid rings which are particularly easy to access.
 
-Definition 6.9. — Assume K is of characteristic$\beta .$Then a perfectoid affinoid K-algebra $( \mathrm { R } , \mathrm { R } ^ { + } )$is said to be p-finite if there exists a reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type such that$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection${ \cal O } f ( \mathrm { S } , \mathrm { S } ^ { + } )$, i.e.$\mathrm { R } ^ { + }$is the  -adic completion $g f \underline { { { \mathrm { l i m } } } } _ { \Phi } \mathrm { S } ^ { + }$and$\mathbf { R } = \mathbf { R } ^ { + } [ \boldsymbol { \varpi } ^ { - 1 } ]$
+Definition 6.9. — Assume K is of characteristic$p$. Then a perfectoid affinoid K-algebra $( \mathrm { R } , \mathrm { R } ^ { + } )$is said to be p-finite if there exists a reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type such that$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection of$( \mathrm { S } , \mathrm { S } ^ { + } )$, i.e.$\mathrm { R } ^ { + }$is the  -adic completion of$\varprojlim _ { \Phi } \mathrm { S } ^ { + }$and$\mathbf { R } = \mathbf { R } ^ { + } [ \varpi ^ { - 1 } ]$.
 
 At this point, let us recall some facts about reduced affinoid K-algebras of topologically finite type.
 
-Proposition 6.10. — Let$( \mathrm { S } , \mathrm { S } ^ { + } )$be a reduced affinoid K-algebra oftopologically finite type, and let$\mathrm { X = S p a ( S , S ^ { + } ) }$.
+Proposition 6.10. — Let$( \mathrm { S } , \mathrm { S } ^ { + } )$be a reduced affinoid K-algebra of topologically finite type, and let$\mathrm { X = S p a ( S , S ^ { + } ) }$.
 
 (i) The subset$\mathrm { S } ^ { + } = \mathrm { S } ^ { \circ } \subset \mathrm { S }$is open and bounded.
 
-(ii) For any rational subset$\mathrm { ~ U ~ C ~ X ~ } _ { \mathfrak { i } }$, the affinoid K-algebra$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$) is reduced and of topologically finite type.
+(ii) For any rational subset$\mathrm { ~ U ~ \subset \mathrm { X } ~ }$, the affinoid K-algebra$( \mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) , \mathcal { O } _ { \mathrm { X } } ^ { + } ( \mathrm { U } ) )$ is reduced and of topologically finite type.
 
-(iii) For any covering$\mathrm { X } = \cup \mathrm { U } _ { i }$byfinitely many rational subsets$\mathrm { U } _ { i } \subset \mathrm { X }$, each cohomology group ofthe complex
+(iii) For any covering$\mathrm { X } = \bigcup \mathrm { U } _ { i }$by finitely many rational subsets$\mathrm { U } _ { i } \subset \mathrm { X }$, each cohomology group of the complex
 
 $$
 0 \to \mathcal {O} _ {\mathrm{X}} (\mathrm{X}) ^ {\circ} \to \prod_ {i} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i}) ^ {\circ} \to \prod_ {i, j} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i} \cap \mathrm{U} _ {j}) ^ {\circ} \to \dots
 $$
 
-is annihilated by some power of$\cdot _ { \varpi }$.
+is annihilated by some power of$\varpi$.
 
 Proof. — Using [20], Proposition 4.3 and its proof (cf. also [19, Corollary 4.3 and (4.7.1)]), one sees that all statements are readily translated into the classical language of rigid geometry, and we use results from the book of Bosch-Güntzer-Remmert [2]. Part (i) is precisely their 6.2.4 Theorem 1, and part (ii) is 7.3.2 Corollary 10.
 
