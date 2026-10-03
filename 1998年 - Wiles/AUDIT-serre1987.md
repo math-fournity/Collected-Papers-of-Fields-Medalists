@@ -425,3 +425,12 @@
 - 核对：参考文献条目 5-37 逐条（BLOCH Duke 52；BRUMER-KRAMER Duke 44；BUHLER Lect. Notes 654；CARAYOL E.N.S. 19；DELIGNE Lect. Notes 349 与 Proc. Symp. 33；DELIGNE-SERRE E.N.S. 7 = Oe. 101；DÉNES Acta Math. 88；FALTINGS Invent. 73 + Erratum 75；FALTINGS-WÜSTHOLZ Rational Points；FONTAINE Invent. 81；FREY J. Crelle 331 与 Ann. Univ. Saraviensis 1；GROTHENDIECK SGA 7 I Lect. Notes 288；HELLEGOUARCH Thèse Besançon；HURWITZ Math. Ann. 27 = Math. W. XI；JOCHNOWITZ Trans. 270 ×2；KATZ Lect. Notes 350 与 601；LAMACCHIA Comm. in Algebra 8；LANGLANDS Base Change；LI Math. Ann. 212；MAZUR I.H.E.S. 47 与 Invent. 44；MESTRE Bordeaux exposé 23 与 Taniguchi；MIYAWAKI Osaka 10；NEUMANN Math. Nach. 56；OORT-TATE E.N.S. 3；RAYNAUD Bull. S.M.F. 102；RIBET Amer. J. Math. 98；SCHOEN J. Crelle 364）。
 - 结果：PASS。33 条参考文献的作者、题名、刊名、卷期、页码、年份逐项与印刷吻合。
 - 备注：条目 12/25/27 页码区间 Markdown 用连字符 “-”、印刷为 en-dash “–”（他处多为 en-dash），排版级不改；\_\_\_\_ 破折署名与印刷 —— 一致；页眉 “SUR LES REPRÉSENTATIONS MODULAIRES… / 229” 未收入 Markdown，排版级。印刷页止于条目 37，条目 38 起属印刷 p.230。
+
+## p.052（PDF p.52 / 印刷 p.230）
+
+- actor=Wf-P43; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run 级配置，自报 UNKNOWN）；签认时间：2026-10-02 14:22 EDT。
+- PNG：`audit/serre1987_p052.png`（pngmono，150 dpi）。
+- 核对：参考文献条目 38-55 逐条（SERRE Corps Locaux；Représentations linéaires；Facteurs locaux = Oe. 87；Propriétés galoisiennes = Oe. 94；Congruences = Oe. 95；Formes modulaires zêta = Oe. 97；Valeurs propres = Oe. 104；Modular forms weight one = Oe. 110；Witt = Oe. 131；Résumé des cours；Lettre à Mestre；SERRE-TATE = Oe. 79；SETZER London 10；SHIMURA Publ. Math. Soc. Japan 11；Class fields Ann. 95；TUNNELL Bull. A.M.S. 5；VÉLU Bordeaux exposé 16；WEIL Math. Ann. 168 = Oe. Sci. [1967a]）与地址行 COLLÈGE DE FRANCE, F-75231 PARIS CEDEX 05, FRANCE.（文末页；全文收稿日期 “Received December 5, 1986.” 已在 p.001 核对并补入）。
+- 结果：PASS。18 条参考文献（38-55）与地址行逐项与印刷吻合。
+- 印刷原文 quirk：条目 38 印刷作 “3ème édition”、条目 39 印刷作 “3ème edition”（édition/edition 拼写不一致），Markdown 各自忠实保留；条目 41 印刷作 “Invent. Math. 15, (1972)”（15 后逗号加括号），Markdown 一致。
+- 备注：页眉 “230 / JEAN-PIERRE SERRE” 未收入 Markdown，排版级。本页为全文最后一页（印刷 p.230），52 页审计至此完整覆盖。
