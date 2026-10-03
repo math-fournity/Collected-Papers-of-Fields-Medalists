@@ -169,6 +169,15 @@
 - 登记不改：9.3 行尾 "for all t < T**.**" 句点印刷存在（PNG/pdftotext 双证），MD 缺失——丢标点不误导，按 SOP 默认不批量改。
 - 备注："M,or" 无空格紧连为 print quirk，MD 忠实保留；"But it is easy to see, that" 印刷原样逗号，MD 忠实保留。
 
+## p.023（PDF p.23 / 印刷 p.23）
+- PNG：audit-redo/p023.png（pngmono 150dpi）；仲裁图 audit-redo/p023_dbox_300dpi.png
+- 核对：9.4 Proof（f_t 演化、f_t+½R−½|∇f|²−f/(2(T−t))≥0、−d/dt f(γ(t),t) 链、Summing→(9.2)）、9.5 Corollary（f(q,t)≤l(q,T−t)、τ(t)=T−t）、"Proof. Use (7.13) in the form □*exp(−l)≤0."、9.6 Remark 全段（□=∂/∂t−△、□*=−∂/∂t−△−½A、(d/dt)∫uv=∫((□u)v−u(□*v))、(Here A=g^{ij}A_{ij})、u=(−4πt)^{−n/2}e^{−f}、(□f̄+f̄/t)(q,t)=o(1)、O(|pq|²+|t|)）、9.7*（[L-Y]、[H 7,8]、[E 2]）、节标题 "10 Pseudolocality theorem"、10.1 Theorem 陈述
+- 结果：FAIL（一处公式错排）——已按原图修复；两处句点缺失登记不改
+- 差异与修复：印刷 "(d/dt)∫uv = ∫((**□u**)v − u(**□\***v))"（300dpi p023_dbox_300dpi.png 终裁：□ 直接作用于 u，无 d 前缀），MD 作 "∫((\ d□)v − u(\ d□*v))"（伪影 d 且 □ 作用对象错位）→ 已改为 "∫((\Box u)v − u(\Box^* v))"。
+- 登记不改（印刷句点存在、MD 缺失，PNG/pdftotext 双证）：(a) 9.5 行尾 "τ(t) = T − t**.**"；(b) 9.6 "starting as δ-function at some point (p, 0)**.** Then"。均不误导，按 SOP 默认不批量改。
+- 备注："Proof. Use (7.13)…≤ 0." 行尾句点同属丢标点，一并登记；其余逐项一致。
+
+
 
 
 
