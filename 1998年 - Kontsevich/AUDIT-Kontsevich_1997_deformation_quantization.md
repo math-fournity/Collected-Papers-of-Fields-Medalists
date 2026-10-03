@@ -220,3 +220,10 @@
 - 结果：`FAIL`→3 处已修复（PNG+文本层确凿）：①行 1325 `properties of the quasi-isomorphism from 6.4`→补 `$\mathcal{U}$`；②行 1327 `P1) can be defined for`→`P1)$\mathcal{U}$ can be defined for`；③行 1335 `P3)  is$GL(d,\mathbf{R})$-equivariant`→`P3)$\mathcal{U}$ is…`（三处 𝒰 丢失）。其余 PASS±：行 1317 `diferential`×3（ff 拍平）；行 1293–1298 印刷中 ∫_{Ū(C)}𝓘(ω) 显示式在 MD 中后置（版式重排登记）；行 1317 `$T_{poly}(...)$` 后缺句点；行 1341 印刷页末逗号（P4 式后）MD 无对应（p.31 续行核对）。print quirk 忠实保留：行 1315 `that that`（原文重复）。公式行 1298/1306/1320/1332/1340 与印刷逐符号吻合。
 - 备注：行 1343 起（P5) for any k≥2, ξ∈gl(d,R)…）为印刷 p.31 内容，在 p.031 核对；P5 行已见 η 下标疑似重复，届时仲裁。
 
+## p.031（PDF p.31 / 印刷 p.31）
+- actor / model / effort：`Wf-P12` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`
+- PNG：`audit/p031.png`（pngmono 150dpi）；仲裁裁剪 `audit/300dpi/Kontsevich_1997_deformation_quantization_p031_P5_eta.png`（300dpi）
+- 核对：P5) 性质与 𝒰_k(m_T(ξ)⊗η₂⊗…⊗η_k)=0 式、P1-P4 使用段、𝒯/𝒟/𝒲 三 Q-流形段、§7.1 formal geometry heading（Gelfand-Kazhdan、X^coor/X^aff、G_d 主丛、Lie(G_d) 余维 d、se [GK]）、§7.2 heading、ΠTM Q-流形段（T[1]M）、flat connection ∇ 提升段与 [Q_E,Q_E]=0（MD 行 1343–1381）。
+- 结果：`FAIL`→6 处已修复：①行 1343 P5 的 η 列表 `$\eta_2,\mathbf{\eta}_2,\mathbf{\eta}_3,\mathbf{\eta}_4,\eta_k$`→`$\eta_2,\ldots,\eta_k$`（garbled 重复，300dpi `_p031_P5_eta.png` 确证印刷为 η₂,…,η_k）；②行 1349 `of the map . Properties`→补 `$\mathcal{U}$`（𝒰 丢失，PNG+文本层确凿）；③行 1351 `d$\mathbf{\Xi}\in\mathbf{N}$` 幻影 Ξ 已删（印刷 d∈N）；④行 1369 `$X^{coor}\longrightarrow\dot{X}$` 幻影点已删（印刷 X）；⑤行 1381 `flat connection . Denote`→补 `$\nabla$`；⑥行 1381 `The connection gives a lift`→补 `$\nabla$`（∇ 丢失×2，PNG+文本层确凿）。print quirk 忠实保留：行 1359 `which will used in 7.3`（原文缺 be）；行 1375 `(se [GK])`（原文拼写）。其余 PASS±：行 1357/1359/1369/1371/1373/1375/1379 `diferential`/`difeomorphisms`/`afine`/`Diferential`/`diference`（ff 拍平）；行 1373 `infinitedimensional` 行连字丢-；行 1359/1373 句末缺句点（登记）。公式行 1347 残缺显示式（P4 式收尾逗号在 p.30 页末，MD 空显示式）登记为版式伪影。公式行 1354/1366 与印刷逐符号吻合。
+- 备注：行 1383 起（Q-equivariant bundle、superconnection [Q]）为印刷 p.32 内容，在 p.032 核对。
+

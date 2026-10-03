@@ -1340,15 +1340,15 @@ $$
 \mathcal {U} _ {k} (m _ {T} (\xi_ {1}) \otimes \dots \otimes m _ {T} (\xi_ {k})) = 0
 $$
 
-P5) for any$k \ge 2 , \xi \in g l ( d , \mathbf { R } ) \subset W _ { d }$, and for any$\eta _ { 2 } , \mathbf { \eta } _ { 2 } , \mathbf { \eta } _ { 3 } , \mathbf { \eta } _ { 4 } , \eta _ { k } \in T _ { p o l y } ( \mathbf { R } _ { f o r m a l } ^ { d } )$we have
+P5) for any$k \ge 2 , \xi \in g l ( d , \mathbf { R } ) \subset W _ { d }$, and for any$\eta _ { 2 } , \ldots , \eta _ { k } \in T _ { p o l y } ( \mathbf { R } _ { f o r m a l } ^ { d } )$we have
 
 $$
 \mathcal {U} _ {k} (m _ {T} (\xi) \otimes \eta_ {2} \otimes \dots \otimes \eta_ {k}) = 0.
 $$
 
-We will construct quasi-isomorphisms from$T _ { p o l y } ( X )$to$D _ { p o l y } ( X )$for arbitrary d-dimensional manifold X using only properties P1-P4 of the map . Properties P1,P2 and P3 are evident, and the properties P4,P5 will be established later (subsections 7.3.1.1 and 7.3.3.1).
+We will construct quasi-isomorphisms from$T _ { p o l y } ( X )$to$D _ { p o l y } ( X )$for arbitrary d-dimensional manifold X using only properties P1-P4 of the map$\mathcal { U }$. Properties P1,P2 and P3 are evident, and the properties P4,P5 will be established later (subsections 7.3.1.1 and 7.3.3.1).
 
-It will be convenient to use in this section the geometric language of formal graded manifolds, instead of the algebraic language of$L _ { \infty } { \mathrm { - a l g e b r a s } }$. Let us fix the dimension d$\mathbf { \Xi } \in \mathbf { N }$. We introduce three formal graded Q-manifolds without base points:
+It will be convenient to use in this section the geometric language of formal graded manifolds, instead of the algebraic language of$L _ { \infty } { \mathrm { - a l g e b r a s } }$. Let us fix the dimension d$\in \mathbf { N }$. We introduce three formal graded Q-manifolds without base points:
 
 $$
 \mathcal {T}, \mathcal {D}, \mathcal {W}.
@@ -1366,7 +1366,7 @@ $$
 f: (\mathbf {R} _ {f o r m a l} ^ {d}, 0) \hookrightarrow (X, x).
 $$
 
-We consider$X ^ { c o o r }$as a projective limit of finite-dimensional manifolds (spaces of finite germs of coordinate systems). There is an action on$X ^ { c o o r }$of the (pro-Lie) group$G _ { d }$of formal difeomorphisms of$\mathbf { R } ^ { d }$preserving base point 0. The natural projection map$X ^ { c o o r } { \longrightarrow } \dot { X }$is a principal$G _ { d } { \mathrm { - b u n d l e } }$
+We consider$X ^ { c o o r }$as a projective limit of finite-dimensional manifolds (spaces of finite germs of coordinate systems). There is an action on$X ^ { c o o r }$of the (pro-Lie) group$G _ { d }$of formal difeomorphisms of$\mathbf { R } ^ { d }$preserving base point 0. The natural projection map$X ^ { c o o r } { \longrightarrow } X$is a principal$G _ { d } { \mathrm { - b u n d l e } }$
 
 The manifold$X ^ { a f f }$is defined as the quotient space$X ^ { c o o r } / G L ( d , \mathbf { R } )$. It can be thought as the space of formal afine structures at points of X. The main reason to introduce$X ^ { a f f }$is that fibers of the natural projection map$X ^ { a f f } { \longrightarrow } X$are contractible.
 
@@ -1378,7 +1378,7 @@ The main idea of formal geometry (se [GK]) is to replace d-dimensional manifolds
 
 Let M be a$C ^ { \infty }$-manifold (or a complex analytic manifold, or an algebraic manifold, or a projective limit of manifolds,...). Denote by ΠTM the supermanifold which is the total space of the tangent bundle of M endowed with the reversed parity. Functions on the ΠTM are diferential forms on M. The de Rham diferential$d _ { M }$on forms can be considered as an odd vector field on ΠTM with the square equal to 0. Thus, ΠTM is a Q-manifold. It seems that the accurate notation for ΠTM considered as a graded manifold should be$T [ 1 ] M$(the total space of the graded vector bundle$T _ { M } [ 1 ]$considered as a graded manifold).
 
-Let$N { \longrightarrow } M$be a bundle over a manifold M whose fibers are manifolds, or vector spaces, etc., endowed with a flat connection . Denote by E the pullback of this bundle to$B : = \Pi T M$. The connection gives a lift of the vector field$Q _ { B } : = d _ { M }$on B to the vector field$Q _ { E }$on E. This can be done for arbitrary connection, and only for flat connection the identity$[ Q _ { E } , Q _ { E } ] = 0$holds.
+Let$N { \longrightarrow } M$be a bundle over a manifold M whose fibers are manifolds, or vector spaces, etc., endowed with a flat connection$\nabla$. Denote by E the pullback of this bundle to$B : = \Pi T M$. The connection$\nabla$ gives a lift of the vector field$Q _ { B } : = d _ { M }$on B to the vector field$Q _ { E }$on E. This can be done for arbitrary connection, and only for flat connection the identity$[ Q _ { E } , Q _ { E } ] = 0$holds.
 
 A generalization of a (non-linear) bundle with a flat connection is a Q-equivariant bundle whose total space and the base are Q-manifolds. In the case of graded vector bundles over$T [ 1 ] M$this notion was introduced Quillen under the name of a superconnection (see [Q]). A generalization of the notion of a covariantly flat morphism from one bundle to another is the notion of a Q-equivariant map.
 
