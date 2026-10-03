@@ -443,3 +443,13 @@
   6. "But this is obvious.-"→".□"（QED，print 有 tombstone）（p.280 To see that 段）
   7. Lemma 5.21："R<sup>-</sup>"→$\mathrm R^\flat$、perfectoidfield→perfectoid field、only$if$出 math（p.280 Lemma 行）
 - 备注：Prop 5.20 display 的宽帽（K°[\widehat{T_1^{1/p^∞},…,T_n^{1/p^∞}}][ϖ^{-1}]）与 print 一致；spectral norm display 与 print 一致；行 1179 起（"on R, and it is a rank-1-valuation…"）属印刷 p.281，留待下一块。
+## p.037（PDF p.37 / 印刷 p.281）
+- PNG：audit/p037.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/281；Lemma 5.21 证明（‖x‖_{R^♭}=‖x^♯‖_R、R^♭=lim_{←x↦x^p}R as multiplicative monoids、ϖ^{1/p}R°、x^♭,y^♭∈R^{♭°}、x/(x^♭)^♯ invertible、QED □）；finite étale covers 段；Proposition 5.22（Ā perfectoid K^{°a}/ϖ-algebra、B̄ finite étale）；Proof+QED □；commutative diagram（R_fét←A_fét≅Ā_fét≅A^♭_fét→R^♭_fét / K-Perf←K^{°a}-Perf≅(K^{°a}/ϖ)-Perf≅K^{♭°a}-Perf≅K^♭-Perf）；fully faithful 段；Proposition 5.23；Remark 5.24 开头
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. "$\operatorname{if}\parallel\cdot\parallel_R$"（if 入 math+双竖线变体）→"if$\|\cdot\|_{\mathrm R}$"；"$\Vert\cdot\Vert_{R^\flat}$ Also"补句点；**"$\mathbb R^\flat=\varprojlim_{x\mapsto x^\flat}\mathbb R$"→"$\mathrm R^\flat=\varprojlim_{x\mapsto x^p}\mathrm R$"（blackboard 误字族+转移映射 print 为 x↦x^p，PNG 确认；与 p.279 display 的 ♭ 并存均为 print 原样）**；句末补句点（p.281 首段）
+  2. Conversely 段："$\varpi^{1/\ d p}\mathrm R^\circ$"乱码→"$\varpi^{1/p}\mathrm R^\circ$"；"$x^{\mathrm b},y^{\mathrm p}\in\mathbb R^{\mathrm{bo}}$"→"$x^\flat,y^\flat\in\mathrm R^{\flat\circ}$"（b/p/bo 系 ♭/♭/♭∘ 误读）（p.281 Conversely 段原图）
+  3. Finally 段："$x^{\mathrm b}$"→"$x^\flat$"；"also x.-"→".□"（QED）（p.281 Finally 行）
+  4. Prop 5.22："$\mathrm K^{\circ a}/\varpi-algebra.$,"散字+伪'.$,'→-algebra,；句尾"$K^{\circ a}/\varpi-algebra$"补句点（p.281 Prop 行原图）；Proof 头"$Proof.-\mathrm{Obviously,\ }\mathbf{\overline B}$"→"Proof. — Obviously, $\mathbf{\overline B$"、"[15].-"→".□"
+  5. fully faithful 段：ofthem→of them、characteristic$\beta.$→$p$.；Prop 5.23：ofcharacteristic$\beta,$→of characteristic$p$、befinite/isfinite/uniformlyfinite补空格（p.281两段）
+- 备注：commutative diagram（array 双行）与 print 方向/≅ 标注格局一致（个别 ≅ 标签在上/下行的微差为排版伪影，内容无歧义，未改）；Remark 5.24 主体属印刷 p.282，留待 p.038。
