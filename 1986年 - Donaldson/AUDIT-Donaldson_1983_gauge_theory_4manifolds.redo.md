@@ -226,3 +226,13 @@
   - **修复**：行 711 第二个范数 `$\|A_{i}\|_{L_{p}^{p}}$` → `$\|A_{i}\|_{L_{p}}$`——300dpi 放大确认印刷为 `\|A_i\|_{L_p}`（下标 p，与 p.018 (ii) 行风格一致；同句第一个范数 `\|F(\tilde{A}_i)\|_{L^p}` 印刷确为上标 p，md 原样正确）。Luna 的 `L_{p}^{p}` 系两种风格杂糅的误读。
   - 排版级伪影（登记不改）：Theorem 13/Lemma 14 斜体拍平；"diagonal argument" 等引号。
 - 修复登记：行 711 `L_{p}^{p}`→`L_{p}`（依据 `audit-redo/p019.png` + 300dpi 裁片）。
+
+### p.020（PDF p.20 / 印刷 p.298）
+
+- PNG：`audit-redo/p020.png`（pngmono 150dpi）；字形仲裁：600dpi 裁片（ds² 显示式、行内度量式与 `0(r²)` 三处 O/0 字形，结论记于本条）
+- 核对：Lemma 14 证明收尾（对角线论证句、δ-函数点集段、∫_{B_j}f_{i'}dμ>c/2 与 L⩾Σ⩾½lc 两式、l⩽2L/c 收尾）；Proof of Theorem 13 开头（测地球与测地坐标 ds² 式、伸缩映射 χ_B、诱导度量共形等价句、作用量密度 f_i 式与 §I.3 引用、Proposition 12 假设段、χ_α 图卡、共形不变推论句）
+- 结果：**PASS±**（含三处 print quirk 复原）。
+  - 与页图一致：`I(q,i')\to I(q)` 对角线论证句（引号原样）、`\int_{B_j}f_{i'}d\mu>c/2`、`L\geqslant\int_X f_{i'}d\mu\geqslant\sum_{j=1}^{l}\int_{B_j}f_{i'}d\mu\geqslant\frac12 lc`、`\chi_B\colon B^4\to B,\ y^i\to ry^i=x^i`、`f_i=|F(\tilde A_i)|^2,\ \int_X f_i d\mu=8\pi^2`、300dpi 确认 `by §I.3` 为罗马 I（沿用 p.1 规则，md 正确）、`\chi_\alpha\colon B^4\to B_\alpha`、`\chi_\alpha^*(A_{i'})`、`½B^4`。
+  - **修复×3（print quirk 复原）**：行 774 `\delta_{ij}+O|x|^{2}` 与行 783 `r^{2}O|y|^{2}`、`O(r^{2})` 三处——600dpi 放大确认印刷均为**窄长直边数字 0**（非大写 O；同页 §I.3 的 I 与之对照清晰），数学上应为 big-O 系原刊排印用零；Luna 曾按数学预期静默作 O，按 print quirk 忠实原则复原为 0 并在此登记。ABBYY 文本层第二通道：一行作 `0(r2)`、另一行作 `θ`（OCR 自身不定），以 600dpi 页图为准。
+  - 排版级伪影（登记不改）：*Proof of Theorem 13.* 斜体拍平；行 797 末句 "diagonal argument" 印刷无引号（md 亦无，一致；与行 755 带引号用法并存系印刷原样）。
+- 修复登记：行 774 `O|x|^{2}`→`0|x|^{2}`；行 783 `r^{2}O|y|^{2}`→`r^{2}0|y|^{2}`、`O(r^{2})`→`0(r^{2})`（依据 `audit-redo/p020.png` + 600dpi 裁片）。

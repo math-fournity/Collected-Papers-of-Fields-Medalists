@@ -771,7 +771,7 @@ Thus l is at most 2L/c, and in particular there are only finitely many points of
 Proof of Theorem 13. Suppose that $B \subset X$ is any geodesic ball of radius $r$. We can find a geodesic coordinate system $x^i$ in $B$ such that
 
 $$
-d s ^ {2} = \left(\delta_ {i j} + O | x | ^ {2}\right) d x ^ {i} d x ^ {j}.
+d s ^ {2} = \left(\delta_ {i j} + 0 | x | ^ {2}\right) d x ^ {i} d x ^ {j}.
 $$
 
 If we expand this by a factor $r^{-1}$ to give a map:
@@ -780,7 +780,7 @@ $$
 \chi_ {B} \colon B ^ {4} \to B, y ^ {i} \to r y ^ {i} = x ^ {i},
 $$
 
-the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}O|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $O(r^{2})$  from the Euclidean metric.
+the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}0|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $0(r^{2})$  from the Euclidean metric.
 
 Thus we may apply Lemma 14 to the sequence of action densities:
 
