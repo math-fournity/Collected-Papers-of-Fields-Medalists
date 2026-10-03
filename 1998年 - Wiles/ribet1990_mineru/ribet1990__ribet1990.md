@@ -1495,21 +1495,21 @@ $$
 T _ {q} ^ {2} - T _ {q} \tau + q = 0,
 $$
 
-Given maximal ideals  $\lambda$  of  $T_{pM}$  and m of  $T_{pqM, q-old}$ , we say that they are compatible if there is a maximal ideal of the ring  $R = R[\tau, T_q]$  which contains them both. At the same time, we identify the set of maximal ideals of  $T_{pqM, q-old}$  with a subset of the set of maximal ideals of  $T_{pqM}$ ; we say that a maximal ideal of  $T_{pqM}$  is q-old if it arises from a maximal ideal of the quotient  $T_{pqM, q-old}$ .
+Given maximal ideals  $\lambda$  of  $\mathbf{T}_{pM}$  and m of  $\mathbf{T}_{pqM, q-old}$ , we say that they are compatible if there is a maximal ideal of the ring  $R = R[\tau, T_q]$  which contains them both. At the same time, we identify the set of maximal ideals of  $\mathbf{T}_{pqM, q-old}$  with a subset of the set of maximal ideals of  $\mathbf{T}_{pqM}$ ; we say that a maximal ideal of  $\mathbf{T}_{pqM}$  is q-old if it arises from a maximal ideal of the quotient  $\mathbf{T}_{pqM, q-old}$ .
 
 By the going-up theorem of Cohen-Seidenberg, every  $\lambda$  is compatible with at least one m. At the same time, it is evident that the representations  $\rho_{\lambda}$  and  $\rho_{m}$  are isomorphic if  $\lambda$  and m are compatible. Hence every representation which is modular of level pM is modular of level pqM.
 
-Finally, suppose that $\lambda$ is $p$-new, i.e., that $\lambda$ arises from the quotient $\mathbf{T}_{pM, p\text{-new}}$ of $\mathbf{T}_{pM}$ which is associated with the Petersson-orthogonal complement of $S_2(\Gamma_0(M)) \oplus S_2(\Gamma_0(M))$ in $S_2(\Gamma_0(pM))$. Then there are maximal ideals $\mathfrak{m}$ of $\mathbf{T}_{pqM}$ which are $p$-new and which are compatible with $\lambda$. (Such $\mathfrak{m}$ are then $p$-new and $q$-old.) One sees this by working in the $p$-new subspace of $S_2(\Gamma_0(pqM))$ rather than in $S_2(\Gamma_0(pqM))$ itself.
+Finally, suppose that $\lambda$ is $p$-new, i.e., that $\lambda$ arises from the quotient $\mathbf{T}_{pM, p\text{-new}}$ of $\mathbf{T}_{pM}$ which is associated with the Petersson-orthogonal complement of $S_2(\Gamma_0(M)) \oplus S_2(\Gamma_0(M))$ in $S_2(\Gamma_0(pM))$. Then there are maximal ideals $\mathbf{m}$ of $\mathbf{T}_{pqM}$ which are $p$-new and which are compatible with $\lambda$. (Such $\mathbf{m}$ are then $p$-new and $q$-old.) One sees this by working in the $p$-new subspace of $S_2(\Gamma_0(pqM))$ rather than in $S_2(\Gamma_0(pqM))$ itself.
 
-Lemma 7.1. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $T_{pM}$ . Then there exist infinitely many prime numbers q, prime to  $pM\lambda$ , for which  $\rho_{\lambda}(\mathrm{Frob}_{q})$  has trace 0 and determinant -1.
+Lemma 7.1. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $\mathbf{T}_{pM}$ . Then there exist infinitely many prime numbers q, prime to  $pM\lambda$ , for which  $\rho_{\lambda}(\mathrm{Frob}_{q})$  has trace 0 and determinant -1.
 
 Proof. Let c be a complex conjugation in the Galois group G. The matrix  $\rho_{\lambda}(c)$  has trace 0 and determinant -1. By the Cebotarev Density Theorem, there are infinitely many q for which  $\rho_{\lambda}(\mathsf{Frob}_{q})$  is conjugate to  $\rho_{\lambda}(c)$ . Such q satisfy the given condition. □
 
 Remark 7.2. The determinant of $\rho_{\lambda}(\mathrm{Frob}_q)$ is $q$ modulo $\lambda$, i.e., $q \bmod l$, if $l$ is the residue characteristic of $\lambda$. Hence $\rho_{\lambda}(\mathrm{Frob}_q)$ has determinant $-1$ if and only if we have $q \equiv -1 \pmod{l}$.
 
-Theorem 7.3. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $T_{pM}$  which is p-new. Assume that  $\rho_{\lambda}$  is irreducible. Let q be a prime number satisfying the condition of (7.1), and let m be a p-new maximal ideal of  $T_{pqM}$  which is compatible with  $\lambda$ . Then m is pq-new; i.e., m arises from a maximal ideal of the pq-new quotient  $\bar{T}_{pqM}$  of  $T_{pqM}$ .
+Theorem 7.3. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $\mathbf{T}_{pM}$  which is p-new. Assume that  $\rho_{\lambda}$  is irreducible. Let q be a prime number satisfying the condition of (7.1), and let m be a p-new maximal ideal of  $\mathbf{T}_{pqM}$  which is compatible with  $\lambda$ . Then m is pq-new; i.e., m arises from a maximal ideal of the pq-new quotient  $\bar{\mathbf{T}}_{pqM}$  of  $\mathbf{T}_{pqM}$ .
 
-Remarks 7.4. a. The conclusion of (7.3) may seem paradoxical, since m is visibly q-old. However, it is possible for an ideal of  $T_{pqM}$  to be both q-new and q-old. This reflects the fact that newforms and oldforms may be congruent modulo l. In a terminology introduced by Mazur, m is an ideal of fusion between the q-old and the q-new subspaces of  $S_{2}(\Gamma_{0}(pqM))$ .
+Remarks 7.4. a. The conclusion of (7.3) may seem paradoxical, since m is visibly q-old. However, it is possible for an ideal of  $\mathbf{T}_{pqM}$  to be both q-new and q-old. This reflects the fact that newforms and oldforms may be congruent modulo l. In a terminology introduced by Mazur, m is an ideal of fusion between the q-old and the q-new subspaces of  $S_{2}(\Gamma_{0}(pqM))$ .
 
 b. Essentially the same information as that given by (7.3) may be obtained by the techniques of [28]. This possibility is explored in [31].
 

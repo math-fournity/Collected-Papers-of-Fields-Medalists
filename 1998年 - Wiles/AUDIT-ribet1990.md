@@ -343,3 +343,11 @@
 - 发现并当场修复（16 个记号点，延续 **m**/**T** 粗体系列）：①L1466 三处 "since T/m"→"$\mathbf{T}/\mathbf{m}$"、"$\mathsf{m}$"×2→"\mathbf{m}"（mineru 以 sans-serif m 混排，印刷为粗正体）；②L1468 "det_{T/𝔪}"→"\mathbf{m}"；③L1472 Theorem 6.4 四处；④L1474 六处（𝗆×2、T/m、ρ_**m**、Hom(X/𝗆X)、T/m[D]）；⑤L1477 显示式 "\mathfrak{m}"→"\mathbf{m}"。
 - 备注：L1484 §7 开篇 **T**_{pM}/**T**_{pqM} 系列 MD 本即粗体正确；F_l weight 拍平照例登记。
 - 结果：FAIL（16 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.043（PDF p.43 / 印刷 p.472）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 20:58 -0400。
+- PNG：`audit/ribet1990_p043.png`（pngmono，150 dpi）。
+- 核对：二次方程 T_q²−T_qτ+q=0；compatible 定义（ℛ=R[τ,T_q]——印刷斜体 R，MD 一致；**T**_{pM}/​**T**_{pqM,q-old}/​**T**_{pqM}）；going-up Cohen-Seidenberg、ρ_λ≈ρ_m；p-new/compatible 段；Lemma 7.1（infinitely many q、ρ_λ(Frob_q) trace 0 det −1）与 Proof（ρ_λ(c)、Cebotarev、□）；Remark 7.2（q mod l、q≡−1 (mod l)）；Theorem 7.3（p-new、pq-new、**T̄**_{pqM}）；Remarks 7.4 a/b（q-new and q-old、ideal of fusion、[28]/[31]）；Theorem 7.5（对称命题，**T**_{qM}/​**T**_{pqM}/​**T̄**_{pqM}）✓。
+- 发现并当场修复（13 个记号点，延续 **T** 粗体系列）：①L1498 五处 $T_{pM}$/$T_{pqM,q-old}$×2/$T_{pqM}$×2→\mathbf；②L1502 两处 "\mathfrak{m}"→"\mathbf{m}"；③L1504 "of $T_{pM}$"→"\mathbf{T}_{pM}"；④L1510 Theorem 7.3 四处（**T**_{pM}/​**T**_{pqM}/​**T̄**_{pqM}/​**T**_{pqM}）；⑤L1512 "ideal of $T_{pqM}$"→"\mathbf{T}_{pqM}"。
+- 备注：L1516 Theorem 7.5 的 **T**_{qM}/​**T**_{pqM}/​**T̄**_{pqM} MD 本即粗体正确；斜体 λ/m/R 照印刷保留。
+- 结果：FAIL（13 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
