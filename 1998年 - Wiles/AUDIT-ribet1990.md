@@ -366,3 +366,10 @@
 - 发现并当场修复（22 个记号点，延续 **m**/**T** 粗体系列）：①L1546 五处；②L1548 七处（of **T**、**m**×3、**T**-module、**T**_{qM}、ρ_**m**×2 中前两处与末处——本行共 8 处计入）；③L1550 "$\mathsf{m}$"→"\mathbf{m}"；④L1553 显示式两处；⑤L1556 三处（dim 下标、Y/**m**Y、**T**-module、**m**）；⑥L1561 显示式两处；⑦L1564 两处；⑧L1574 三处 $T_{Mp}$→\mathbf；⑨L1576 三处（**m**、**T**=**T**_{Mqp}、of **T**）。
 - 印刷原文 quirk：Theorem 8.2 条件 (i) 印刷即为 "The prime l is **a** not a divisor of M"（多一个 "a"，原刊 typo），MD 忠实保留。
 - 结果：FAIL（22 处记号错误）→ 本页当场修复闭环，修复后与原图逐项吻合。
+
+## p.046（PDF p.46 / 印刷 p.475）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-03 18:55 -0400。
+- PNG：`audit/ribet1990_p046.png`（pngmono，150 dpi；本 run 重新渲染）。仲裁裁片：/tmp 300 dpi 整页四条（题尾证明行 / refs 1–9 / refs 9–20 / refs 20–27）+ 600 dpi 单词裁片，核验后未存档（未被引用的中间渲染）。
+- 核对：Theorem 8.2 证明收尾（*not* have q ≡ +1 (mod l).）Applying (6.1), with p replaced by q, we deduce that ρ is modular of level M.；□ 惯例不收录）；References 1–27 逐条（作者/题名/刊名缩写/卷号粗体/页码区间/年份/出版项）✓ 与印刷一致。关键歧义点 300/600 dpi 仲裁：ref 1 "A.O.L."（句点齐全）；ref 3 下标 PGL₂(k_w)（600 dpi 确证为斜体 w，非 d/ω）；ref 5 "Sup., IV. Ser. 7"（印刷 Sup. 后确有逗号，IV 罗马体非 1V）；ref 8 断词 "jacobien-nes"="jacobiennes"；ref 9 "(1958)"（150 dpi 曾疑 1938，300 dpi 确证 1958，MD 正确）；ref 10 "Sarav., Ser Math. 1"（印刷 Ser 后本无句点，MD 忠实）；ref 12 "Vol. 114.)"（印刷括内有句点）；ref 15 "Mazur, B.:"（印刷有句点）；ref 16 "277–300"（印刷有 en-dash）；ref 18/24 "Publ. Math., Inst."（印刷句点+逗号）；ref 22 "(eds.)"（印刷无重音）、"Labesse"；ref 23 "Sup. IV, Ser. 2"（印刷 IV 后逗号）——均与 MD 逐项吻合。
+- 印刷/排版 quirk 登记（不改）：①ref 1 MD 页码区间作半角连字符 "134-160"（印刷 en-dash；MD 其余条目用 en-dash，内部体例不一但不碍检索，SOP 默认不批量改）；②ref 8 "Eisenstein" 印刷弯引号、MD 直引号；③页眉 "On modular representations…/475" 与行末 □ 为 mineru 惯例不收录（同 p.002/p.023 备注）。
+- 结果：PASS±（2 处排版级伪影，无内容错误，无需修复）。
