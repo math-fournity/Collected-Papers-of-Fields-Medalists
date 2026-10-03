@@ -234,3 +234,13 @@
 - PASS± 项（登记，不修）：①md 行 993–1010 被 mineru 包裹在 `<div class="docvortex-algorithm" style="white-space: pre-wrap; …">` 内——印刷并无算法框，此为导出结构伪迹；但 pre-wrap 渲染恰好按印刷行式呈现 LEMME 5 条件与三条判据，内容完整有序，不修（与已登记的 page-footnote span 同类处理；文件内 L1682/L1686/L1690 还有三处同类 div，属后续分块页域，不在本页处置）；②md 行 1008 将印刷的两行展示式压平为同一行内联 math（内容两式俱全、逗号保留）——线性化伪迹；③md 行 1005 "(Propriété 1)." 缺印刷句末句点（印刷作 "(Propriété 1.)."）——标点级；④三条 "si…" 判据保留 4 空格缩进（依赖 ① 的 pre-wrap 呈现）。
 - 差异：无数学内容错误。
 - 备注：md 行 1012 起 "On a done/donc: d_0ku + kd_0u = …" 展示式与 Th. 1 属印刷 p.449，留待 p.026（"done/donc" 之辨待该页仲裁）。
+
+## p.026（PDF p.26 / 印刷 p.449）
+- PNG：audit/p026.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p026_donc_600.png（600dpi）
+- 核对：On a donc 行；展示式 d_0ku + kd_0u = (−1)^{2p+1}(λ_{p+1}^0 Su − λ_{p+1}^1 Su) = K(Bu, Fu) − u = h(u) − u,；ce qui montre que h … achève la démonstration de la Proposition 4；Soit maintenant G un groupe abélien 段（A ⊗ G、facteurs directs、homotopiquement équivalent à C_p(B) ⊗ C(F) ⊗ G = C_p(B) ⊗ C(F, G)）；Puisque C_p(B) est un groupe libre 段；THÉORÈME 1 全文（E_1^{p,q}、chaînes singulières de dimension p、q-ème groupe d'homologie singulière）；(2) E₁ = C(B, H(F))；REMARQUE（degré filtrant = degré-base、complémentaire = degré-fibre、total）；§6 标题 "6. Calcul du terme E₂"；Nous venons de voir 段（d₁、E₂ = H(E₁)）；Soit x = b ⊗ h 段；Soit y … d₁x 计划段（ψ(y) ∈ E_0^{p,q}、z ∈ A^p、dz ∈ A^{p−1}、t ∈ C_{p−1}(B) ⊗ C_q(F, G)）；(Avant de donner … B^p u, K^p(u, v), etc.) 括注
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 1013 "\text {On a done:}"：600dpi（p026_donc_600.png）确认印刷为 **"On a donc:"**（d-o-n-c 清晰；done 非法语词），Edit 修复为 "donc"。
+  - MD 正确项：同裁剪确证展示式指数 **2p+1**、λ_{p+1}^0/λ_{p+1}^1 下标与末尾逗号，与 MD 逐项一致。
+- 差异：除上述 1 处外无。
+- 备注：本页 THÉORÈME 1 为全篇核心定理之一，陈述全文逐句核对无差；md 行 1042 起 "Ecrivons d'abord un cycle m …" 与 z、dz 两展示式属印刷 p.450，留待 p.027。

@@ -1010,7 +1010,7 @@ d'après la Propriété 4.
 </div>
 
 $$
-\begin{array}{l} \text {On a done:} \\ d _ {0} k u + k d _ {0} u = (- 1) ^ {2 p + 1} (\lambda_ {p + 1} ^ {0} S u - \lambda_ {p + 1} ^ {1} S u) = K (B u, F u) - u = h (u) - u, \end{array}
+\begin{array}{l} \text {On a donc:} \\ d _ {0} k u + k d _ {0} u = (- 1) ^ {2 p + 1} (\lambda_ {p + 1} ^ {0} S u - \lambda_ {p + 1} ^ {1} S u) = K (B u, F u) - u = h (u) - u, \end{array}
 $$
 
 ce qui montre que h est un opérateur d'homotopie et achève la démonstration de la Proposition 4.
