@@ -230,3 +230,11 @@
 - 核对：本页内容为 T̃ 形式多项式环段、Theorem 4.1、Corollary 4.2、Theorem 4.3、Cerednik-Drinfeld 摘要与 GL(2,Q_p)\(℘^unr×X)——与 p.027 扫描页（印刷 p.456）后 2/3 完全相同；对应 MD 段 L956–988。逐项复对：**T̃**/**Z**[...T_n...]、**T̃**-isomorphism Z≈Y、End_**Q**(J) faithful、trace_{**T**/**Z**}(T_n)、γ=(T_p)²−1∈**T**、0→K→(X⊕X)/γ(X⊕X)→Ψ→C→0、**T̄** cut out by **T**、GL(2,**Q**_p)\(℘^unr×X)、K\H_**f***/H* ✓（本段记号修复已于 p.027 完成，本页复核一致）。
 - 扫描件特性登记：PDF 的印刷 p.456 与 p.457 扫描页内容重叠重复（p.457 前 2/3 重摄 p.456 后 2/3）；MD（mineru 导出）仅含该内容一次（grep "formal polynomial ring"/"arising from R"/"The object of this" 各 1 处，L956/958），无重复输出、无缺文，忠实可用。
 - 结果：PASS。
+
+## p.029（PDF p.29 / 印刷 p.458）
+- actor=Wf-P42; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）；签认时间：2026-10-02 18:08 -0400。
+- PNG：`audit/ribet1990_p029.png`（pngmono，150 dpi）；仲裁裁片：/tmp（300 dpi：页尾 "different.-" 确证，未存档）。
+- 核对：Apologies 段（X/K/C 三重记号辨析）；Cerednik-Drinfeld 定理中 R 与 End(E) 之类比（F̄_p、A、L⊂End(A)、D⊂A[M] 阶 M²、L⊗Z_p-同构 ι、"standard" formal module Φ、R=End_L(A)、End_L(A)∩End_L(A/D)）；R⊗Z_p≈M(2,Z_p)、H⊗Q_p≈M(2,Q_p)；空间 X（isomorphism classes、enhancement D′、T(A′) submodule of V(A)）；T(A′)=g⁻¹T(A)、g∈(H_f)*；GL(2,Q_p)⁺、v: GL(2,Q_p)→Z/2Z、v(γ)=ord_p(det γ) (mod 2)；对偶图 𝒢=GL(2,Q_p)⁺\(Δ×X)、tree Δ、SL(2)、[33] Ch II §1、Kurihara [16]、段尾 "not qualitatively different.-" ✓。
+- 印刷原文 quirk：页尾印刷即为 "different.-"（句号后带排印杂符连字符；300 dpi 确证），MD 忠实保留。
+- 备注：F̄_p、Z_p、Q_p、Φ 等印刷粗体，MD 正体（weight 拍平，登记不改）。
+- 结果：PASS。
