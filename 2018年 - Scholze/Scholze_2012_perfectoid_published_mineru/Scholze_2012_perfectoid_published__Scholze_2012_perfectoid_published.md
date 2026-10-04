@@ -1878,9 +1878,9 @@ for any covering of an affinoid perfectoid X by finitely many étale$\mathrm { U
 
 To make use of the étale site of a perfectoid space, we have to compare the étale sites of perfectoid spaces with those of locally noetherian adic spaces. This is possible under a certain assumption, cf. Section 2.4 of [22] for an analogous result.
 
-Definition 7.14. — Let X be a perfectoid space. Further, let$\mathrm { X } _ { i } , i \in \mathrm { I } ,$be afiltered inverse system ofnoetherian adic spaces over K, and let$\varphi _ { i } : \mathrm { X } \to \mathrm { X } _ { i } , i \in \mathrm { I }$, be a map to the inverse system.
+Definition 7.14. — Let X be a perfectoid space. Further, let$\mathrm { X } _ { i } , i \in \mathrm { I } ,$be a filtered inverse system of noetherian adic spaces over K, and let$\varphi _ { i } : \mathrm { X } \to \mathrm { X } _ { i } , i \in \mathrm { I }$, be a map to the inverse system.
 
-Then we write X ∼ lim X ifthe mapping ofunderlying topological spaces$| { \mathrm { X } } | \to \varprojlim | { \mathrm { X } } _ { i } |$is a homeomorphism, andfor any$x \in \mathrm { X }$with images$x _ { i } \in \mathrm { X } _ { i } .$, the map ofresiduefield
+Then we write$\mathrm { X } \sim \varprojlim \mathrm { X } _ { i }$if the mapping of underlying topological spaces$| { \mathrm { X } } | \to \varprojlim | { \mathrm { X } } _ { i } |$is a homeomorphism, and for any$x \in \mathrm { X }$with images$x _ { i } \in \mathrm { X } _ { i }$, the map of residue fields
 
 $$
 \varinjlim k (x _ {i}) \to k (x)
@@ -1888,17 +1888,17 @@ $$
 
 has dense image.
 
-Remark 7.15. — We recall that by assumption all$\mathrm { X } _ { i }$are qcqs. If$\mathrm { \Delta X } \sim \mathrm { l i m } \mathrm { X } _ { i }$, then |X| is an inverse limit ofspectral spaces with spectral transition maps, hence spectral, and in particular qcqs again.
+Remark 7.15. — We recall that by assumption all$\mathrm { X } _ { i }$are qcqs. If$\mathrm { X } \sim \varprojlim \mathrm { X } _ { i }$, then |X| is an inverse limit of spectral spaces with spectral transition maps, hence spectral, and in particular qcqs again.
 
-Proposition 7.16. — Let the situation be as in Definition$7 . I 4 ,$and let$\mathrm { Y }  \mathrm { X } _ { i }$be an étale morphism ofnoetherian adic spaces. Then$\mathrm { Y } \times _ { \mathrm { X } _ { i } } \mathrm { X } \sim \varprojlim _ { j \geq i } \mathrm { Y } \times _ { \mathrm { X } _ { i } } \mathrm { X } _ { j }$
+Proposition 7.16. — Let the situation be as in Definition 7.14, and let$\mathrm { Y } \to \mathrm { X } _ { i }$be an étale morphism of noetherian adic spaces. Then$\mathrm { Y } \times _ { \mathrm { X } _ { i } } \mathrm { X } \sim \varprojlim _ { j \geq i } \mathrm { Y } \times _ { \mathrm { X } _ { i } } \mathrm { X } _ { j }$.
 
-Proof. — The same proof as for Remark 2.4.3 of [22] works. In particular, we note that in Definition$7 . 1 4 , { \mathrm { i f ~ } } | { \mathrm { X } } |  { \mathrm { l i m } } | { \mathrm { X } } _ { i } |$is bijective and the condition on residue fields is satisfied, then already$\mathrm { X } \sim \varprojlim _ { i } \bar { \mathrm { X } } _ { i } , \mathrm { i . e . } \ | \mathrm { X } |  \varprojlim _ { i } | \mathrm { X } _ { i } |$is a homeomorphism. To check this, assume that$\mathrm { U } \subset \mathrm { X }$is a quasicompact open subset,$x \in \mathrm { U } , y \notin \mathrm { U }$. Let$x _ { i } , y _ { i } \in \mathrm { X } _ { i }$be their images. It is enough to find some i and$\mathrm { U } _ { i } \subset \mathrm { X } _ { i }$open such that$x _ { i } \in \mathrm { U } _ { i } ,$but$y _ { i } \notin \mathrm { U } _ { i }$ If$x _ { i }$and$y _ { i }$do not have the same maximal generalization for all$i ,$this is immediate. Otherwise, the situation is easily described in terms of the residue field at this maximal generalization.-
+Proof. — The same proof as for Remark 2.4.3 of [22] works. In particular, we note that in Definition 7.14, if$| { \mathrm { X } } | \to \varprojlim | { \mathrm { X } } _ { i } |$is bijective and the condition on residue fields is satisfied, then already$\mathrm { X } \sim \varprojlim _ { i } \mathrm { X } _ { i }$, i.e.$| \mathrm { X } | \to \varprojlim _ { i } | \mathrm { X } _ { i } |$is a homeomorphism. To check this, assume that$\mathrm { U } \subset \mathrm { X }$is a quasicompact open subset,$x \in \mathrm { U } , y \notin \mathrm { U }$. Let$x _ { i } , y _ { i } \in \mathrm { X } _ { i }$be their images. It is enough to find some i and$\mathrm { U } _ { i } \subset \mathrm { X } _ { i }$open such that$x _ { i } \in \mathrm { U } _ { i } ,$but$y _ { i } \notin \mathrm { U } _ { i }$. If$x _ { i }$and$y _ { i }$do not have the same maximal generalization for all$i ,$this is immediate. Otherwise, the situation is easily described in terms of the residue field at this maximal generalization.□
 
 With this definition, we have the following analogue of Proposition 2.4.4 of [22]. We refer to SGA IV, Exposé VI, §8, for generalities concerning projective limits of fibred topoi.
 
-Theorem 7.17. — Let the situation be as in Definition 7.14. Then$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is a projective limit of the fibred topos$( \mathrm { X } _ { i , \mathrm { e t } } ^ { \sim } ) _ { i }$<sub>i</sub>.
+Theorem 7.17. — Let the situation be as in Definition 7.14. Then$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is a projective limit of the fibred topos$( \mathrm { X } _ { i , \mathrm { e t } } ^ { \sim } ) _ { i }$.
 
-Proof. — The same proof as for Proposition 2.4.4 of [22] works, except that one uses that any étale morphism factors locally as the composite of an open immersion and a finite étale map instead of appealing to Corollary 1.7.3 of [22] on the top of page 128. The latter kind ofmorphisms can be descended to a finite level because ofLemma 7.5. -
+Proof. — The same proof as for Proposition 2.4.4 of [22] works, except that one uses that any étale morphism factors locally as the composite of an open immersion and a finite étale map instead of appealing to Corollary 1.7.3 of [22] on the top of page 128. The latter kind of morphisms can be descended to a finite level because of Lemma 7.5.□
 
 As in [22], Corollary 2.4.6, this gives the following corollary.
 

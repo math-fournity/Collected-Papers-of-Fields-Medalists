@@ -674,3 +674,14 @@
   6. **控制字节登记**：行 1877 "exact up to a bounded \x0b -power"（ϖ 丢失，print "bounded ϖ-power"，PNG 确认；hexdump 实测 64 20 0b 20 2d）——\x0b Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
   7. 同段："characteristic${ p , }$"伪花括号→"characteristic$p$,"；尾"almost exact.-"→"almost exact.□"（p.301 Proof 行）
 - 备注：正合列 display 与 print 逐字符一致；行 1879（"To make use of the étale site…"）属印刷 p.302，留待 p.058。
+## p.058（PDF p.58 / 印刷 p.302）
+- PNG：audit/p058.png（pngmono 150dpi）
+- 核对：页眉 302/PETER SCHOLZE；"To make use of the étale site…" 段；Definition 7.14（filtered inverse system、φ_i : X → X_i、X ∼ lim←X_i、|X|→lim←|X_i| homeomorphism、residue fields display lim→k(x_i)→k(x) has dense image）；Remark 7.15（qcqs、spectral）；Proposition 7.16（Y→X_i étale、Y×_{X_i}X ∼ lim_{←j≥i}Y×_{X_i}X_j.）；Proof（Remark 2.4.3 of [22]、bijective⇒homeomorphism、U⊂X qc open、x∈U、y∉U、x_i∈U_i but y_i∉U_i、maximal generalization）+ QED □；"With this definition…SGA IV, Exposé VI, §8…fibred topoi." 段；Theorem 7.17（X^~_ét projective limit of (X^~_{i,ét})_i.）；Proof（Prop 2.4.4 of [22]、open immersion+finite étale、Corollary 1.7.3 of [22] page 128、Lemma 7.5）+ QED □；"As in [22], Corollary 2.4.6…" 段
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. Def 7.14：afiltered/ofnoetherian 补空格；第二段**"Then we write X ∼ lim X ifthe"（lim 丢左箭头与下标 i、散落 plain text）→"Then we write$\mathrm X \sim \varprojlim \mathrm X _ { i }$if the"**（print X ∼ lim←X_i，与同句第二处 \varprojlim 同式）；andfor/ofunderlying 补空格；"$x _ { i } \in \mathrm { X } _ { i } .$,"伪'.$,'→单逗号；"ofresiduefield"→"of residue fields"（print 复数，pdftotext 双证）（p.302 Def 行原图）
+  2. Remark 7.15：**"$\mathrm { \Delta X } \sim \mathrm { l i m } \mathrm { X } _ { i }$"（伪 Δ+lim 丢左箭头）→"$\mathrm X \sim \varprojlim \mathrm X _ { i }$"**；ofspectral 补空格（p.302 Remark 行）
+  3. Prop 7.16："Definition$7 . I 4 ,$"（I4 系 14 误读，同 p.019 2.2.I4 型）→"Definition 7.14,"；"$\mathrm Y ␣ \mathrm X _ i$"缺箭头→$\to$；ofnoetherian 补空格；句末补句点（print "…X_j."）（p.302 Prop 行原图）
+  4. Proof："Definition$7 . 1 4 , {\mathrm{if~}} |X| ␣ {\mathrm{lim}} |X_i|$"（if 入 math+缺箭头+plain lim）→"Definition 7.14, if$| { \mathrm { X } } | \to \varprojlim | { \mathrm { X } } _ { i } |$"；**"then already$\mathrm X \sim \varprojlim_i \bar{\mathrm X}_i , \mathrm{i.e.} |X| ␣ \varprojlim_i |X_i|$"（伪 \bar、i.e. 困入 math、缺箭头）→"$\mathrm X \sim \varprojlim _ { i } \mathrm X _ { i }$, i.e.$| \mathrm X | \to \varprojlim _ { i } | \mathrm X _ { i } |$is a homeomorphism"**（print 无 bar，PNG 确认）；"$y _ { i } \notin \mathrm U _ { i }$ If"句间补句点；尾"generalization.-"→".□"（QED）（p.302 Proof 行原图；∉ 两处 MD 本正确）
+  5. Theorem 7.17：句尾"$( \mathrm { X } _ { i , \mathrm { e t } } ^ { \sim } ) _ { i }$<sub>i</sub>"（math 下标 i 后又游离 HTML <sub>i</sub>，双重下标）→删 <sub>i</sub> 并补句点（print "(X^~_{i,ét})_i."）
+  6. Proof 7.17：ofmorphisms/ofLemma 补空格；尾"Lemma 7.5. -"→"Lemma 7.5.□"（QED，print 有 tombstone）
+- 备注：residue fields display（lim→k(x_i)→k(x)）与 print 一致（此处 print 为右箭头直和极限，与定义行的左箭头射影极限不同，MD 均正确）；行 1905（Corollary 7.18）属印刷 p.303，留待 p.059。
