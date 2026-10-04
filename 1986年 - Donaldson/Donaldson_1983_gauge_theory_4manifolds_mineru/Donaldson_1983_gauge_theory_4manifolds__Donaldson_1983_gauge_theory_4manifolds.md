@@ -1068,13 +1068,13 @@ and, property (1) is satisfied once $\lambda = \lambda(A)$ is sufficiently small
 
 ## III.4. The proof that $p$ is a diffeomorphism
 
-To prove that $p \colon \mathfrak{M}_{\lambda_0} \to X \times (0, \lambda_0)$ is a diffeomorphism, it suffices now to show that if we pick some point $x_0$ in $X$, then for $\lambda_0$ sufficiently small any pair $[A], [B] \in \mathfrak{M}_{\lambda_0}$ of self-dual connections with
+To prove that $p \colon \mathscr{M}_{\lambda_0} \to X \times (0, \lambda_0)$ is a diffeomorphism, it suffices now to show that if we pick some point $x_0$ in $X$, then for $\lambda_0$ sufficiently small any pair $[A], [B] \in \mathscr{M}_{\lambda_0}$ of self-dual connections with
 
 $$
 x (A) = x (B) = x _ {0}, \lambda (A) = \lambda (B) = \lambda
 $$
 
-can be joined by a short path in M (in a sense made precise below). The metric on X has always been at our choice, and there is a small saving of labour here if we suppose it to be flat in some ball  $B(x_{0}, r)$ —although this does not, of course, affect the truth of the result as one easily sees by deformation.
+can be joined by a short path in $\mathscr{M}$ (in a sense made precise below). The metric on X has always been at our choice, and there is a small saving of labour here if we suppose it to be flat in some ball  $B(x_{0}, r)$ —although this does not, of course, affect the truth of the result as one easily sees by deformation.
 
 First we note a small lemma.
 

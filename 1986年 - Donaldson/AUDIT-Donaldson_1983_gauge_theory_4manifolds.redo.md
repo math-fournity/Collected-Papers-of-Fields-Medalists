@@ -300,3 +300,14 @@
   - **印刷 quirk 登记（不改，高倍确认）**：① 行 1005 "a flow on $\mathcal{B}$"——印刷为**圆弧草书 ℬ**，与本文他处角状 Fraktur 𝔅 并存（p.024 裁片页内对照），md `\mathcal{B}` 忠实；② 行 1016 显示式印刷即为 `|F_-(f_t(A)|`——外层右括号漏排（内层 `(A)` 闭合后直接范数直杠；同页行 1034/1046 的 `‖F_-(f_t(A))‖` 双括号齐全提供对照），600dpi 确认，md `\left(f_{t}(A)\right|` 忠实；③ 行 1046 首项印刷为 `\frac{c}{dt}`（第二行 `\frac{d}{dt}` 提供页内 d 字形对照，c 系 d 之排印误植），md `\frac {c}{d t}` 忠实。
   - 排版级伪影（登记不改）：斜体陈述段拍平。
 - 修复登记：行 1005 `\mathfrak{M}`→`\mathscr{M}`；行 1007 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`；行 1016/1019/1022 `\mathfrak{L}_V`→`\mathscr{L}_V`×3（依据 `audit-redo/p026.png` + 300dpi 裁片×4 + 600dpi 裁片）。
+
+### p.027（PDF p.27 / 印刷 p.305）
+
+- PNG：`audit-redo/p027.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片（III.4 开头三处 M 字形，结论记于本条）
+- 核对：Lemma 23 证明第一段收尾（since by Proposition 18 句、|d/dt p(A_t)−d/dt p f_t(A)|⩽const.λ|ξ| 式、i.e. 句、|(dp∘α)ξ−d/dt p f_t(A)|⩽const.λ|ξ| 式、flat 度量句、|(dp∘α)ξ−ξ|⩽const.λ.|ξ| 式、property (1) satisfied 句）；节标题 III.4.（印刷带标题粗体）；III.4 开篇段（diffeomorphism 归约句、x(A)=x(B)=x₀, λ(A)=λ(B)=λ 显示式、short path in 𝔐 句、flat in B(x₀,r) 括注、small lemma 句）；Lemma 20 全文（annulus {x∈R⁴|R/2<|x|<2R} 显示式、‖F(A)‖_{C⁰}⩽K/R² 句、2RB⁴、‖F(Ã)‖_{C⁰}⩽C.‖F(A)‖_{C⁰} 式）；Proof（conformal re-scaling 句）
+- 结果：**PASS±**（含三处草书 ℳ 拍平/误作 Fraktur 修复）。
+  - 与页图一致：`\|F(A)\|_{L^4}\leqslant\text{const.}\lambda^{-1}`、`\|\frac{d}{dt}(F(A_t)-F(f_t(A)))\|_{L^2}\leqslant\text{const.}|\xi|`、两处 dp∘α 显示式、`x(A)=x(B)=x_0,\ \lambda(A)=\lambda(B)=\lambda`、`B(x_0,r)`、`\{x\in\mathbf{R}^4\mid R/2<|x|<2R\}`、`\|F(A)\|_{C^0}\leqslant K/R^2`、`2RB^4`、`\|F(\tilde A)\|_{C^0}\leqslant C.\|F(A)\|_{C^0}`、`R^{-1}`/`R^2`。
+  - **修复×3**：①② 行 1071 `p\colon\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}` 与 `[A],[B]\in\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；③ 行 1077 "a short path in M"→`in $\mathscr{M}$`（本处 Luna 拍平为普通 M）——300dpi 裁片确认三处印刷均为圆弧草书 ℳ。
+  - 行 1095 的 `![](images/page_27_image_0.jpg)` 图引用为 MinerU 导出伪影（印刷该页无插图），维持原样不删。
+  - 排版级伪影（登记不改）：**III.4.**/**Lemma 20.**/*Proof.* 粗斜体拍平。
+- 修复登记：行 1071 两处、行 1077 一处 `\mathfrak{M}`/`M`→`\mathscr{M}`（依据 `audit-redo/p027.png` + 300dpi 裁片）。
