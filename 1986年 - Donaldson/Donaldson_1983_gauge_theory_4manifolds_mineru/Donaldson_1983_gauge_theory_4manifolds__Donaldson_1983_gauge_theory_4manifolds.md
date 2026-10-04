@@ -1002,9 +1002,9 @@ $$
 V = \beta_ {r / 2} (v^ {i} + \phi x ^ {i}) \frac {\partial}{\partial x ^ {i}},
 $$
 
-where $\xi = (v^i, \phi)$. Thus $f_t = 1$ outside $B(x(A), r/2)$. Lifting to the bundle $f_t$ defines a flow on $\mathcal{B}$; set $[A_t] = q(f_t(A)) \in \mathfrak{M}$ where $q$ is Taubes' map as in Proposition 5, so $[A_t]$ is defined for sufficiently small $t$ (depending on $\lambda$).
+where $\xi = (v^i, \phi)$. Thus $f_t = 1$ outside $B(x(A), r/2)$. Lifting to the bundle $f_t$ defines a flow on $\mathcal{B}$; set $[A_t] = q(f_t(A)) \in \mathscr{M}$ where $q$ is Taubes' map as in Proposition 5, so $[A_t]$ is defined for sufficiently small $t$ (depending on $\lambda$).
 
-Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathfrak{M})_{[A]}$. $\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
+Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathscr{M})_{[A]}$. $\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
 
 $$
 \frac {d}{d t} \left| \omega - * _ {m _ {t}} \omega \right| \leqslant \text { const. } | \omega | \left| \pi \left(\frac {d m}{d t}\right) \right|,
@@ -1013,13 +1013,13 @@ $$
 where  $\pi$  is the projection onto the “trace free” part. Hence on X,
 
 $$
-\frac {d}{d t} \left| F _ {-} \left(f _ {t} (A) \right| \leqslant \text { const. } \left| F (A) \right| \left| \pi \mathfrak {L} _ {V} m \right|. \right.
+\frac {d}{d t} \left| F _ {-} \left(f _ {t} (A) \right| \leqslant \text { const. } \left| F (A) \right| \left| \pi \mathscr{L} _ {V} m \right|. \right.
 $$
 
-(All derivatives $\frac{d}{dt}$ in this proof are to be understood as being evaluated at $t = 0$; $\mathfrak{L}_V$ is the Lie derivative.) Furthermore, one easily sees that, because $x^i$ are geodesic and so $f_t$ approximately conformal,
+(All derivatives $\frac{d}{dt}$ in this proof are to be understood as being evaluated at $t = 0$; $\mathscr{L}_V$ is the Lie derivative.) Furthermore, one easily sees that, because $x^i$ are geodesic and so $f_t$ approximately conformal,
 
 $$
-\left| \pi \mathfrak {L} _ {V} m \right| \leqslant \text { const. } \rho | \xi |, \quad 0 \leqslant \rho \leqslant r / 2
+\left| \pi \mathscr{L} _ {V} m \right| \leqslant \text { const. } \rho | \xi |, \quad 0 \leqslant \rho \leqslant r / 2
 $$
 
 where the left-hand side is evaluated at $x \in X$, and $\rho = d(x, x(A))$. Scaling down the bounds of Theorem 16 with $\delta = 1$ we have

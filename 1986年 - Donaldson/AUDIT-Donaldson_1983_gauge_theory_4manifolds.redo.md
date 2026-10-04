@@ -289,3 +289,14 @@
   - **修复×8**：① 行 953 `[A]\in\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；② 行 957 第一处 `\Omega_-(\mathfrak{g})`→`\Omega^2_-(\mathfrak{g})`（300dpi 确认印刷有上标 ²，同 p.008 行 263/269 缺陷类）；③ 行 957 第二处 `\Omega_-(\mathfrak{g})`→`\Omega^2_-`（300dpi 确认印刷**无** (𝔤)，Δ on Ω²₋ 后直接接 as）；④ 行 957 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；⑤ 行 976 显示式 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；⑥ 行 984 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`；⑦ 行 987 `[A]\in\mathfrak{M}`→`\mathscr{M}`；⑧ 行 990 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`（均 300dpi 圆弧草书裁决）。
   - 排版级伪影（登记不改）：*Let*/*covering map*/*Proof.* 斜体拍平；**Proposition 18.**/**Theorem 19.** 粗体拍平。
 - 修复登记：行 953、957、976、984、987、990（详见上，共 8 处；依据 `audit-redo/p025.png` + 300dpi 裁片×3）。
+
+### p.026（PDF p.26 / 印刷 p.304）
+
+- PNG：`audit-redo/p026.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片×4 + 600dpi 终裁（ℬ/𝔅、ℳ、ℒ、P/p 指数、c/dt、括号闭合，结论记于本条）
+- 核对：α 定义句与 [A_t]=q(f_t(A))∈ℳ 段（flow on ℬ、Taubes' map、Proposition 5）；α(ξ)=d/dt[A_t]|_{t=0}∈(T𝔐)_{[A]} 句与 property (1) 检查段（m_t 路径、ω∈Λ²R⁴）；d/dt|ω−*_{m_t}ω|⩽const.|ω||π(dm/dt)| 式；"trace free" 句；d/dt|F₋(f_t(A)|⩽const.|F(A)||πℒ_V m| 式；All derivatives 括注（ℒ_V Lie derivative）；|πℒ_V m|⩽const.ρ|ξ| 式；left-hand side 句；|F(A)| 两行界式（λ^{-2} 与 λρ^{-3}）；So 段与 d/dt‖F₋(f_t(A))‖_{L^p} 积分式；which gives 段与 L²/L^{4/3} 两范数式；each bounded 句；‖d/dt(A_t−f_t(A))‖_{L²₁(A)} 三行式
+- 结果：**PASS±**（含五处草书字形修复）。
+  - 与页图一致：`f_t=1` outside `B(x(A),r/2)`、`\alpha(\xi)=\frac{d}{dt}[A_t]|_{t=0}`、`\omega\in\Lambda^2\mathbf{R}^4`、`*_{m_t}\omega`、两行界式 `\text{const}\lambda^{-2}|\xi|`/`\text{const}\lambda\rho^{-3}|\xi|`（const 后无句点，印刷原样）、积分式全部小写 p（300dpi 否决初读疑 P：`(\rho\lambda^{-2})^p`、`(\lambda\rho^{-3})^p`、`^{1/p}`、`L^p` 均小写，md 正确）、`L^2_1(A)` 下标、`+\lambda^{-1}\frac{d}{dt}\|F_-(f_t(A))\|_{L^{4/3}}`。
+  - **修复×5**：① 行 1005 `[A_t]=q(f_t(A))\in\mathfrak{M}`→`\mathscr{M}`；② 行 1007 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`；③④⑤ 行 1016/1019/1022 三处 Lie 导数 `\mathfrak{L}_V`→`\mathscr{L}_V`（300/600dpi 确认印刷为圆弧草书 ℒ，非 Fraktur 角状 L）。
+  - **印刷 quirk 登记（不改，高倍确认）**：① 行 1005 "a flow on $\mathcal{B}$"——印刷为**圆弧草书 ℬ**，与本文他处角状 Fraktur 𝔅 并存（p.024 裁片页内对照），md `\mathcal{B}` 忠实；② 行 1016 显示式印刷即为 `|F_-(f_t(A)|`——外层右括号漏排（内层 `(A)` 闭合后直接范数直杠；同页行 1034/1046 的 `‖F_-(f_t(A))‖` 双括号齐全提供对照），600dpi 确认，md `\left(f_{t}(A)\right|` 忠实；③ 行 1046 首项印刷为 `\frac{c}{dt}`（第二行 `\frac{d}{dt}` 提供页内 d 字形对照，c 系 d 之排印误植），md `\frac {c}{d t}` 忠实。
+  - 排版级伪影（登记不改）：斜体陈述段拍平。
+- 修复登记：行 1005 `\mathfrak{M}`→`\mathscr{M}`；行 1007 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`；行 1016/1019/1022 `\mathfrak{L}_V`→`\mathscr{L}_V`×3（依据 `audit-redo/p026.png` + 300dpi 裁片×4 + 600dpi 裁片）。
