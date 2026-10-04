@@ -311,3 +311,13 @@
   - 行 1095 的 `![](images/page_27_image_0.jpg)` 图引用为 MinerU 导出伪影（印刷该页无插图），维持原样不删。
   - 排版级伪影（登记不改）：**III.4.**/**Lemma 20.**/*Proof.* 粗斜体拍平。
 - 修复登记：行 1071 两处、行 1077 一处 `\mathfrak{M}`/`M`→`\mathscr{M}`（依据 `audit-redo/p027.png` + 300dpi 裁片）。
+
+### p.028（PDF p.28 / 印刷 p.306）
+
+- PNG：`audit-redo/p028.png`（pngmono 150dpi）；本页为整页插图页，无字形仲裁需求
+- 核对：整页示意图（印刷 p.306）与 md 行 1095 `![](images/page_27_image_0.jpg)` 的对应；图下正文段 "Thus once K is small enough … exponential gauge … [20, §2] … satisfies"（行 1097）；显示式 `\|A\|_{C^0}\leqslant\text{const.}\|F(A)\|_{C^0}.`（行 1100）
+- 结果：**PASS±**（无修复）。
+  - 插图核验：已 Read `mineru/Donaldson_1983_gauge_theory_4manifolds/images/page_27_image_0.jpg` 与页图对照——三层示意图完全一致（S⁴ 带影线帽 C_λ 与 "Connections A′, B′ over S⁴"；R⁴ 平面带 rλ^{-1}、λ^{-1/2} 标注与 "Connections Ã, B̂ close to the basic instanton I_{0,1}"；X 带点 W、B(x₀,r) 与 "Connections A₁, B₁ on the trivial bundle."）；图注文字在图片内、md 未抽为正文，系 MinerU 表示方式，无内容缺失。**登记**：MinerU 图片命名为零基页号（`page_27_*` 对应 PDF p.28/印刷 p.306），后续按图定位勿按名字面页号。
+  - 与页图一致："exponential gauge" 引号、`[20, §2]`、`\|A\|_{C^0}\leqslant\text{const.}\|F(A)\|_{C^0}.` 逐字吻合。
+  - 本页 md 范围为行 1095–1101；行 1103 起（Then set Ã=(1−β)A）属 p.29。
+- 修复登记：无。
