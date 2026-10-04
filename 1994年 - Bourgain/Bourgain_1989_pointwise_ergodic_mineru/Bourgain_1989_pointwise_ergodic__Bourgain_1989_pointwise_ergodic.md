@@ -1535,7 +1535,7 @@ From (7.26), (7.27), (7.28), it follows that $\rho \leqslant \mathbf{C} + \mathb
 Applying (7.24) with $\mathbf{F} = \mathbf{F}_z$ and substitution of (7.23) yields
 
 $$
-\begin{array}{r l} \left| \left| \sup _ {N} \right| \int w _ {N} (\beta) F _ {z} (\beta) \zeta (D \beta) e ^ {2 \pi i \beta q y} d \beta \right| & \bigg | \bigg | _ {\ell^ {p} (d y)} \leqslant \\ C \left| \left| \sum_ {0 \leqslant a <   q} e ^ {2 \pi i z (a / q)} \left[ \int \mathscr {F} f \left(\frac {a}{q} + \beta\right) \zeta (D \beta) e ^ {2 \pi i \beta (q y + z)} d \beta \right] \right| \right| _ {\ell^ {p} (d y)} = \\ C \left| \left| \sum_ {0 \leqslant a <   q} \mathscr {F} ^ {- 1} \left[ \mathscr {F} f \cdot \zeta \left(D \left(\cdot - \frac {a}{q}\right)\right) \right] (q y + z) \right| \right| _ {\ell^ {p} (d y)} \end{array}
+\begin{array}{r l} \left| \left| \sup _ {N} \right| \int w _ {N} (\beta) F _ {z} (\beta) \zeta (D \beta) e ^ {2 \pi i \beta a v} d \beta \right| & \bigg | \bigg | _ {\ell^ {p} (d y)} \leqslant \\ C \left| \left| \sum_ {0 \leqslant a <   q} e ^ {2 \pi i z (a / q)} \left[ \int \mathscr {F} f \left(\frac {a}{q} + \beta\right) \zeta (D \beta) e ^ {2 \pi i \beta (a v + z)} d \beta \right] \right| \right| _ {\ell^ {p} (d y)} = \\ C \left| \left| \sum_ {0 \leqslant a <   q} \mathscr {F} ^ {- 1} \left[ \mathscr {F} f \cdot \zeta \left(D \left(\cdot - \frac {a}{q}\right)\right) \right] (q y + z) \right| \right| _ {\ell^ {p} (d y)} \end{array}
 $$
 
 and summation over $z = 0, \ldots, q - 1$ gives the following estimate on (7.22)
