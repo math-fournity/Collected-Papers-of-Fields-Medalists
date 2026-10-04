@@ -1613,7 +1613,7 @@ $$
 $$
 
 $$
-+ \mathrm{C} \int_ {\mathrm{G}} [ \sum_ {k _ {0} < k < 2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) ] ^ {q - 1}.\tag{7.41}
++ \mathrm{C} \int_ {\mathrm{G}} [ \sum_ {k _ {0} < k < 2 k _ {0}} (g _ {k} * \mathrm{L} _ {k}) ] ^ {q - 1},\tag{7.41}
 $$
 
 where (7.41) is bounded by $\rho^{k - 1}$.
