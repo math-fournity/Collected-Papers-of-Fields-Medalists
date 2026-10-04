@@ -162,6 +162,14 @@
 - 修复：①`cycle évanescent`→`cycle évanescant`（行 680；p017_evanescent-17.png）；②(4.3.3) 两端 `0`→`o` ×2（行 697；p017_eq433_seq-17.png）；③删裸行「288」（原行 710；与 277/284 同类版式家具）。
 - **勘误（2026-10-03 20:20 EDT，p.019 块审计回溯发现）**：本条目修复①系与 p.016 同源的读图误判（300dpi 单倍）。600dpi×3 放大终裁（audit-redo/300dpi/p017_evanescent_word_600dpi-17.png）：罗马体下第 8 字母为带横杠的 e，与第 3 字母双层 a 迥异，印刷为「évanescent」；OCR 层同读。已回退 md 行 680 为 évanescent（erratum commit）。本页其余修复（(4.3.3) 两端 o、裸页码 288）不受影响。
 
+## p.019（PDF p.19 / 印刷 p.290）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-03 20:55 EDT。
+- PNG：audit-redo/p019.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p019_ces_lacets-19.png、p019_diagram-19.png、p019_theoreme54-19.png、p019_rfz_tight_600dpi-19.png、p019_evanescent_word_600dpi-19.png（后者已在 erratum commit 提交）。
+- 旧审计对照：Luna p.019 = PASS±，未改正文，称环路图与 PDF 原图相符；本次重核确认其图核对结论，但发现图链悬空与其未检的 3 处问题。
+- 核对：Fixons X 段、A) transverse/éclatement、B) partie finie S 与 x_s∈X_s、C) points critiques non dégénérés、(4.1) 应用句（D_s、f^{-1}(D_s)）、(5.2)（U=D−S、lacets disjoints (γ_s)、autour de s）、环路图（三环路自基点 u、两环内 ×、一环内 ×_s、标 γ_s；MinerU 图 page_18_image_6.jpg 与印刷图逐元素一致）、Ces lacets 段（π_1(U,u)、R^i f_* Z|U 无下划线、cycle évanescent δ_s∈H^n(X_u,Z)）、(5.2.1) γ_s x=x±(x,δ_s)δ_s.、Soit E 段（H^n(X_u,Q)、partie évanescente）、Proposition (5.3)（全句斜体、E^⊥、Tr(x∪y)、invariants）、Les γ_s 句、Théorème (5.4)（全句斜体、évanescents 复数、±δ_s、π₁(U,u)）、Soit X̌⊂P̌ 段至 « La variété X̌ est irré- »（跨页连字符，续 p.291）。
+- 结果：PASS±（修复 3 处）。①行 776 图链悬空 `images/page_18_image_6.jpg` → `Deligne_1974_weil1/images/page_18_image_6.jpg`（p.007 同类修复；图内容经与本页印刷环路图逐元素核对一致后修复）。②行 778 `\mathbb{R}^{i}f_{*}\mathbf{Z}|\mathbf{U}` → `\mathrm{R}^{i}…`：600dpi×3（p019_rfz_tight_600dpi-19.png）确证印刷为正体衬线 R 且 Z 无下划线（与 p.016 行 636 的 Z̲ 带下划线成对照），黑板体属字形类错误，按 Luna p.018 double-struck D→D 修复方向处置。③行 790 `±δs` → `$\pm\delta_{s}$`：MinerU 下标拉平伪影，按 p.008 dfn 下标结构恢复先例修复。**évanescant 勘误与本案**：本页行 778 单数与行 790 复数印刷均为 évanescent/évanescents（600dpi×3 p019_evanescent_word_600dpi-19.png + p019_theoreme54-19.png；OCR 层一致），md 原文正确、未改动——并据此推翻本 redo p.016/p.017 的 évanescant 修复（见各条目勘误与 erratum commit 02c470de）。登记不改：Prop (5.3)/Théorème (5.4) 印刷整句斜体、md 正文体（斜体排版投影）；(5.3) 内 π₁(U,u)/H^n(X_u,Q) 的粗体在 md 作斜体（混排不误导）；行 790 的 π₁ 用 Unicode 下标 ₁（渲染正确，保留）；页眉 290/PIERRE DELIGNE 与页脚 290 未收录（系统性版式省略）。
+- 修复：①图链补嵌套目录前缀（行 776；audit-redo/300dpi/p019_diagram-19.png + MinerU page_18_image_6.jpg 内容比对）；②`\mathbb{R}`→`\mathrm{R}`（行 778；p019_rfz_tight_600dpi-19.png）；③`±δs`→`$\pm\delta_{s}$`（行 790；p019_theoreme54-19.png）。
+
 ## p.018（PDF p.18 / 印刷 p.289）
 - 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-03 19:55 EDT。
 - PNG：audit-redo/p018.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p018_a_si_delta-18.png、p018_b_si_delta-18.png、p018_seq_ql-18.png（300dpi）；p018_ou_faisceau_600dpi-18.png（600dpi）。
