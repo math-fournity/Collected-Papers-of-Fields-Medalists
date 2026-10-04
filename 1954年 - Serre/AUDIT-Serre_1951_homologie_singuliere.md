@@ -255,3 +255,12 @@
 - PASS± 项（print quirk 登记，不修）：①印刷行 14 句末作 "on a **donc;**"（分号，按文意应为冒号；p027_donc2_600.png 清晰）——印刷自身标点笔误，md 行 1084 忠实保留 "donc;"；②行 1054 同行内 \epsilon 与 \varepsilon 混用（λ_i^{\epsilon} vs \varepsilon=0,1）——字母变体排版级；③md 行 1062–1068 把 "(i ≦ p)" 拆成独立展示式——线性化伪影。
 - 差异：除已修复 1 处外无。
 - 备注：md 行 1102 起 "Si le système local … (3′) d₁x = (db) ⊗ h" 与 PROPOSITION 5、THÉORÈME 2 属印刷 p.451，留待 p.028。
+
+## p.028（PDF p.28 / 印刷 p.451）
+- PNG：audit/p028.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p028_ref_600.png、p028_Rq_600.png、p028_Rq2_600.png、p028_disp_600.png（600dpi）
+- 核对：Si le système local … 段与 (3′) d₁x = (db) ⊗ h；PROPOSITION 5 全文（opérateur de bord naturel、coefficients locaux）；On tire tout de suite 段；THÉORÈME 2 全文（H_p(B, H_q(F, G))、système local）；(4) E₂ = H(B, H(F))；Note 段（Leray [24] n°6, b、Čech à supports compacts、[6] Exp. IX、les trois cas）；Signalons 段（sans supposer B, ni F, connexes、E mod. F、groupes d'homotopie）；§7 标题 "7. Propriétés de la suite spectrale d'homologie"；Commençons 段（R 的刻画、R_q ≅ C_q(F, G)）；Le groupe différentiel S = Σ S_p 段（E_1^{p,0} ≅ C_p(B) ⊗ H_0(F, G) = C_p(B, G)、π: A → S、p: E → B）；On peut alors 段与两行展示式 H_i(F, G) → E_∞^{0,i} → H_i(E, G) / H_i(E, G) → E_∞^{i,0} → H_i(B, G),
+- 结果：PASS
+- 仲裁记录：①150dpi 初读 Note 引用疑为 "[8]， Exp. IX"，600dpi（p028_ref_600.png）确认印刷为 **[6]**（单碗带升干字形，非双层 8），MD 行 1122 "[6]， Exp. IX" 正确——我方初读有误；②600dpi（p028_Rq2_600.png）确认 "le groupe **R_q** est isomorphe à C_q(F, G)" 下标为斜体 q（非 0），MD 正确；③600dpi（p028_disp_600.png）确认两行展示式上标 **E_∞^{0,i}** 与 **E_∞^{i,0}**，MD 逐项一致。
+- PASS± 项（排版级，不修）：md 行 1134–1140 将印刷的两行同组展示式拆为两个独立 $$ 块——线性化伪影，内容无缺损。
+- 差异：无。
+- 备注：本页含 THÉORÈME 2（Leray-Serre 经典定理），全文逐句核对无差。md 行 1142 起 "les premiers étant sur…" 属印刷 p.452，留待 p.029。
