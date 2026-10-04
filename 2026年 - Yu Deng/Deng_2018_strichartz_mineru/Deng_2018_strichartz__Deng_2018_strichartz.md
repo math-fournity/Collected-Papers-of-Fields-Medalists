@@ -836,7 +836,7 @@ $$
 \frac {\beta | p ^ {\prime} |}{N} + \frac {\gamma | p |}{\beta N} \leq \frac {\beta | n ^ {\prime} |}{N} + \frac {\gamma | n |}{\beta N} \lesssim \gamma \ll 1.
 $$
 
-(ii) The case$n \times n ^ { \prime } \ne 0 .$. In order to estimate the size of$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } } ,$we proceed in three steps.
+(ii) The case$n \times n ^ { \prime } \ne 0$. In order to estimate the size of$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } } ,$we proceed in three steps.
 
 - First freezing t, we note that the system (3.4a) to (3.4d) is overdetermined in$\left( \alpha _ { i j } \right)$, which results in a compatibility condition on$m , m ^ { \prime }$. To derive this compatibility condition, observe that solving for$\alpha _ { 1 2 }$by (3.4a) and (3.4c) or (3.4b) and (3.4d) gives, respectively,
 
