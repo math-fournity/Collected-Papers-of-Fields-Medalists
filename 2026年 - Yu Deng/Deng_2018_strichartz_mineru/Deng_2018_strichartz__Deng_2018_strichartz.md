@@ -152,7 +152,7 @@ $$
 
 The heuristic behind this conjecture, and some supporting lower bounds, are explained in section 2 below. In particular, it is seen there that the saving over the rectangular case is due to the longer refocusing time, which more closely reflects the expected behavior on a “typical” nonpositively curved manifold.
 
-We now focus on the case of dimension$d = 2 .$, in which case the above conjecture becomes:
+We now focus on the case of dimension$d = 2$, in which case the above conjecture becomes:
 
 - For$p \leq 4$, bound$\sim T ^ { \frac { 1 } { p } }$
 
@@ -262,13 +262,13 @@ $$
 \Omega (k _ {1}, \ldots , k _ {p}) = Q (k _ {1}) - Q (k _ {2}) + \dots - Q (k _ {p}).
 $$
 
-After some manipulations, matters reduce to counting weighted solutions of Diophantine inequalities. In Section 5, the decoupling theory of Bourgain and Demeter [9] leads to the proof of the conjecture for$p \geq 16$in a rather straightforward way. Alternatively, one can sum trivially over the odd numbered vectors$k _ { 1 } , k _ { 3 } , . . .$. and proceed by seeking a bound for the number of solutions to
+After some manipulations, matters reduce to counting weighted solutions of Diophantine inequalities. In Section 5, the decoupling theory of Bourgain and Demeter [9] leads to the proof of the conjecture for$p \geq 16$in a rather straightforward way. Alternatively, one can sum trivially over the odd numbered vectors$k _ { 1 } , k _ { 3 } , . . .$ and proceed by seeking a bound for the number of solutions to
 
 $$
 \left| Q \left(k _ {2}\right) + Q \left(k _ {4}\right) + \dots + Q \left(k _ {p}\right) - \beta \right| <   \delta , \quad k _ {2} + k _ {4} + \dots + k _ {p} = a, \quad k _ {i} \in \mathbb {Z} ^ {2} \cap B (0, N),\tag{1.8}
 $$
 
-which is uniform in$a , \beta .$. To recover the conjecture it is necessary, in particular, to have an optimal bound in the case$\begin{array} { r } { \delta = \frac { 1 } { N } } \end{array}$
+which is uniform in$a , \beta$. To recover the conjecture it is necessary, in particular, to have an optimal bound in the case$\begin{array} { r } { \delta = \frac { 1 } { N } } \end{array}$
 
 There is previous work on bounds for the count of integer solutions to a generic quadratic inequality, where one wants uniformity in certain parameters [7, 19, 26]. In those cases one in interested principally in lower bounds. In short, the strategy is to seek an asymptotic for the number of solutions which is valid unless the coefficients lie in a set with small measure. If the sum of this measure over all values of the parameters is finite, then by the Borel-Cantelli lemma the asymptotic holds for generic values of the coefficients.
 
@@ -320,7 +320,7 @@ $$
 
 We suggest that it may be possible to estimate$\mu _ { 1 }$and$\mu _ { 2 }$using the geometry of numbers.
 
-Finally we consider extending the proof of Theorem 1.2, as outlined in section 1.3.2, to the case $d > 2$. The problem here is easier to describe. Given a symmetric integer matrix$( A _ { i j } )$, one requires a bound for the number of solution$y ^ { ( 1 ) } , \dots , y ^ { ( d + 1 ) } ) \in (  { \mathbb { Z } } ^ { d } ) ^ { d + 1 }$with$| y ^ { ( k ) } | \lesssim N$to the system
+Finally we consider extending the proof of Theorem 1.2, as outlined in section 1.3.2, to the case $d > 2$. The problem here is easier to describe. Given a symmetric integer matrix$( A _ { i j } )$, one requires a bound for the number of solutions$y ^ { ( 1 ) } , \dots , y ^ { ( d + 1 ) } ) \in (  { \mathbb { Z } } ^ { d } ) ^ { d + 1 }$with$| y ^ { ( k ) } | \lesssim N$to the system
 
 $$
 \sum_ {k = 1} ^ {d + 1} y _ {i} ^ {(k)} y _ {j} ^ {(k)} = A _ {i j} \quad (1 \leq i \leq j \leq d)
@@ -364,17 +364,17 @@ S. M. was supported by the Engineering and Physical Sciences Research Council [E
 
 ## 2. The conjecture
 
-In order to formulate a conjecture, we examine a few particular functions$f ,$, and determine heuristically the ratio$\| e ^ { i t \tilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } / \| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) }$which they yield.
+In order to formulate a conjecture, we examine a few particular functions$f$, and determine heuristically the ratio$\| e ^ { i t \tilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } / \| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) }$which they yield.
 
 (1) If$f = 1$, we find$\| e ^ { i t \widetilde { \Delta } } f \| _ { L ^ { p } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \sim T ^ { \frac { 1 } { p } }$
 
-(2) Choose$f ( x ) = N ^ { \frac { d } { 2 } } \chi \left( N x \right)$for a smooth compactly supported function$\chi .$. Then$f$is normalized in$L ^ { 2 }$, with$\| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) } \sim 1$, and the transform$\hat { f }$has rapid decay outside the ball $B ( 0 , N )$. Furthermore, for$\begin{array} { r } { \frac { 1 } { N ^ { 2 } } \ll t \ll \frac { 1 } { N } , e ^ { i t \widetilde { \Delta } } f } \end{array}$nearly coincides with the solution of the Schrödinger equation on$\mathbb { R } ^ { d }$with initial data$f$which is mostly supported on$B ( 0 , t N )$and has size$\sim \frac { 1 } { ( t N ) ^ { d / 2 } } ;$this is because the solution to this PDE propagates at a group velocity$\lesssim N$, hence for times$\ll \frac { 1 } { N }$, the difference between the torus and the whole space is negligible. Therefore
+(2) Choose$f ( x ) = N ^ { \frac { d } { 2 } } \chi \left( N x \right)$for a smooth compactly supported function$\chi$. Then$f$is normalized in$L ^ { 2 }$, with$\| f \| _ { L ^ { 2 } (  { \mathbb { T } } ^ { d } ) } \sim 1$, and the transform$\hat { f }$has rapid decay outside the ball $B ( 0 , N )$. Furthermore, for$\begin{array} { r } { \frac { 1 } { N ^ { 2 } } \ll t \ll \frac { 1 } { N } , e ^ { i t \widetilde { \Delta } } f } \end{array}$nearly coincides with the solution of the Schrödinger equation on$\mathbb { R } ^ { d }$with initial data$f$which is mostly supported on$B ( 0 , t N )$and has size$\sim \frac { 1 } { ( t N ) ^ { d / 2 } } ;$this is because the solution to this PDE propagates at a group velocity$\lesssim N$, hence for times$\ll \frac { 1 } { N }$, the difference between the torus and the whole space is negligible. Therefore
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, 1 ] \times \mathbb {T} ^ {d})} ^ {p} \gtrsim \int_ {\frac {1}{N ^ {2}}} ^ {\frac {1}{N}} \int_ {B (0, t N)} \frac {d x d t}{(t N) ^ {d p / 2}} \gtrsim N ^ {\frac {d p}{2} - (d + 2)} \qquad \mathrm{if} p > \frac {2 (d + 2)}{d}.
 $$
 
-(3) We want to find the “refocusing time” with the same$f .$. In other words, how big should t be taken in order that$e ^ { i t \tilde { \Delta } } f$be similar to$f$itself? Or what is an “almost period” of the flow?
+(3) We want to find the “refocusing time” with the same$f$. In other words, how big should t be taken in order that$e ^ { i t \tilde { \Delta } } f$be similar to$f$itself? Or what is an “almost period” of the flow?
 
 On a rectangular torus all possible$e ^ { i t \Delta } f$are periodic with a common period, forcing the refocusing time to be$O ( 1 )$; clearly this is not the typical behaviour of a nonpositively curved manifold.
 
@@ -446,7 +446,7 @@ This is consistent with the conjecture which was heuristically derived above.
 
 ## 3. Weyl sum estimates
 
-3.1. Statement of the results. For χ a smooth, nonnegative function on$\mathbb { R } .$, equal to 1 on$B ( 0 , \scriptstyle { \frac { 1 } { 2 } } )$ and 0 on$B ( 0 , 1 ) ^ { \complement }$, we define the regularized fundamental solution
+3.1. Statement of the results. For χ a smooth, nonnegative function on$\mathbb { R }$, equal to 1 on$B ( 0 , \scriptstyle { \frac { 1 } { 2 } } )$ and 0 on$B ( 0 , 1 ) ^ { \complement }$, we define the regularized fundamental solution
 
 $$
 K _ {N} (t, x) = \sum_ {n \in \mathbb {Z} ^ {2}} \chi \left(\frac {n _ {1}}{N}\right) \chi \left(\frac {n _ {2}}{N}\right) e ^ {2 \pi i [ x \cdot n + t \sum_ {i, j} \alpha_ {i j} n _ {i} n _ {j} ]}.
@@ -486,7 +486,7 @@ $$
 
 3.2. Proof of (i) in Proposition 3.2. The first step is to apply Weyl differencing to obtain the following lemma, whose proof we postpone for the moment.
 
-Lemma 3.3. Denoting$\begin{array} { r } { L _ { j } ( n ) = \sum \alpha _ { i j } n _ { i } } \end{array}$, for any$\boldsymbol { x } \in \mathbb { T } ^ { 2 }$and$t \in \mathbb { R }$，
+Lemma 3.3. Denoting$\begin{array} { r } { L _ { j } ( n ) = \sum \alpha _ { i j } n _ { i } } \end{array}$, for any$\boldsymbol { x } \in \mathbb { T } ^ { 2 }$and$t \in \mathbb { R }$,
 
 $$
 | K _ {N} (t, x) | ^ {2} \lesssim \sum_ {r _ {1} = - 2 N} ^ {2 N} \sum_ {r _ {2} = - 2 N} ^ {2 N} \prod_ {j = 1} ^ {2} \min \left(N, \frac {1}{\| 2 t L _ {j} (r) \|}\right).
@@ -648,9 +648,9 @@ $$
 
 We now distinguish between different regimes:
 
-If$T > 1$, set$\gamma = T ^ { - 1 / 3 - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
+- If$T > 1$, set$\gamma = T ^ { - 1 / 3 - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
 
-If$T < 1$, set$\gamma = T ^ { - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
+- If$T < 1$, set$\gamma = T ^ { - \delta } N ^ { - 2 / 3 - \delta }$, for an arbitrarily small$\delta .$
 
 With these choices for$\gamma$(which ensure that$\gamma \ll 1 )$, we obtain
 
@@ -658,7 +658,7 @@ $$
 \sum_ {n, n ^ {\prime}} \sum_ {\beta , N, T} | E _ {\beta , \gamma , N, T} ^ {n, n ^ {\prime}} | <   \infty .
 $$
 
-Therefore, by Borel-Cantelli, we learn that almost surely in$( \alpha _ { i j } )$，
+Therefore, by Borel-Cantelli, we learn that almost surely in$( \alpha _ { i j } )$,
 
 $$
 M _ {1} ^ {t} M _ {2} ^ {t} \succeq \gamma (t, N).
@@ -728,7 +728,7 @@ $$
 
 We now argue as follows:
 
-For$\epsilon , \epsilon ^ { \prime }$fixed,$\nu$and$\nu ^ { \prime }$satisfy
+- For$\epsilon , \epsilon ^ { \prime }$fixed,$\nu$and$\nu ^ { \prime }$satisfy
 
 $$
 | \nu p _ {1} ^ {\prime} - \nu^ {\prime} p _ {1} - C | <   \epsilon | p _ {1} ^ {\prime} | + \epsilon^ {\prime} | p _ {1} |,
@@ -740,9 +740,9 @@ $$
 \preceq t k (\epsilon | p _ {1} ^ {\prime} | + \epsilon^ {\prime} | p _ {1} | + 1).
 $$
 
-Indeed, for each fixed value of$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 } , \nu$is determined modulo$p _ { 1 }$, and it ranges in an interval of size$\sim t | n _ { 1 } |$, leaving$\begin{array} { r } { \lesssim \frac { t | n _ { 1 } | } { | p _ { 1 } | } = t k } \end{array}$possibilities. Finally, the number of possible values for$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 }$is$\lesssim \epsilon | p _ { 1 } ^ { \prime } | + \epsilon ^ { \prime } | \stackrel { \sim } { p } _ { 1 } | + 1$
+Indeed, for each fixed value of$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 } , \nu$is determined modulo$p _ { 1 }$, and it ranges in an interval of size$\sim t | n _ { 1 } |$, leaving$\begin{array} { r } { \lesssim \frac { t | n _ { 1 } | } { | p _ { 1 } | } = t k } \end{array}$possibilities. Finally, the number of possible values for$\nu p _ { 1 } ^ { \prime } - \nu ^ { \prime } p _ { 1 }$is$\lesssim \epsilon | p _ { 1 } ^ { \prime } | + \epsilon ^ { \prime } | p _ { 1 } | + 1$
 
-Furthermore, given$\nu , \nu ^ { \prime } , \epsilon , \epsilon ^ { \prime }$, the measure of possible$\alpha _ { 1 1 }$is
+- Furthermore, given$\nu , \nu ^ { \prime } , \epsilon , \epsilon ^ { \prime }$, the measure of possible$\alpha _ { 1 1 }$is
 
 $$
 \lesssim \min \left(\frac {\epsilon}{t | n _ {1} |}, \frac {\epsilon^ {\prime}}{t | n _ {1} ^ {\prime} |}\right).
@@ -788,7 +788,7 @@ $$
 
 where$\begin{array} { r } { L _ { j } ( r ) = \sum \alpha _ { i j } r _ { i } } \end{array}$
 
-3.5. Proof of Lemma 3.4. (i) The case$n \times n ^ { \prime } = 0 .$. We argue by contradiction and start by assuming that$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } }$is not empty. Since n and$n ^ { \prime }$are aligned, they can be written
+3.5. Proof of Lemma 3.4. (i) The case$n \times n ^ { \prime } = 0$. We argue by contradiction and start by assuming that$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } }$is not empty. Since n and$n ^ { \prime }$are aligned, they can be written
 
 $$
 n = k p, \qquad n ^ {\prime} = k p ^ {\prime},
@@ -836,9 +836,9 @@ $$
 \frac {\beta | p ^ {\prime} |}{N} + \frac {\gamma | p |}{\beta N} \leq \frac {\beta | n ^ {\prime} |}{N} + \frac {\gamma | n |}{\beta N} \lesssim \gamma \ll 1.
 $$
 
-(ii) The case$n \times n ^ { \prime } \ne 0 .$. In order to estimate the size of$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } } ,$we proceed in three steps.
+(ii) The case$n \times n ^ { \prime } \ne 0$. In order to estimate the size of$E _ { \beta , \gamma , N , T } ^ { n , n ^ { \prime } } ,$we proceed in three steps.
 
-First freezing t, we note that the system (3.4a) to (3.4d) is overdetermined in$\left( \alpha _ { i j } \right)$, which results in a compatibility condition on$m , m ^ { \prime }$. To derive this compatibility condition, observe that solving for$\alpha _ { 1 2 }$by (3.4a) and (3.4c) or (3.4b) and (3.4d) gives, respectively,
+- First freezing t, we note that the system (3.4a) to (3.4d) is overdetermined in$\left( \alpha _ { i j } \right)$, which results in a compatibility condition on$m , m ^ { \prime }$. To derive this compatibility condition, observe that solving for$\alpha _ { 1 2 }$by (3.4a) and (3.4c) or (3.4b) and (3.4d) gives, respectively,
 
 $$
 \alpha_ {1 2} = \frac {1}{t (n \times n ^ {\prime})} (- n _ {1} ^ {\prime} m _ {1} + n _ {1} m _ {1} ^ {\prime}) + O \left(\frac {\gamma}{T | n \times n ^ {\prime} |}\right)
@@ -866,7 +866,7 @@ $$
 \lesssim \gamma (T N) ^ {2} \left(1 + \frac {T \gamma N \operatorname* {g c d} (n _ {2} , n _ {2} ^ {\prime})}{\beta | n _ {2} ^ {\prime} |}\right).
 $$
 
-- With t still frozen, and now m and$m ^ { \prime }$fixed, we use (3.4a) and (3.4c) to solve for$\alpha _ { 1 1 }$and $\alpha _ { 1 2 }$. This gives a set of measure$\sim \frac { \gamma } { N ^ { 2 } T ^ { 2 } } \frac { 1 } { | n \times n ^ { \prime } | }$. Next use (3.4b) to solve for$\alpha _ { 2 2 }$. This gives a set of measure$\sim \frac { \beta } { N T } \frac { 1 } { | n _ { 2 } | }$. Symmetrically, one could use (3.4d) to solve for α<sub>22</sub>, giving a set of measure$\sim \frac { \gamma } { \beta N T } \frac { 1 } { | n _ { 2 } ^ { \prime } | }$. By symmetry between the first and second coordinates, we get a bound
+- With t still frozen, and now m and$m ^ { \prime }$fixed, we use (3.4a) and (3.4c) to solve for$\alpha _ { 1 1 }$and $\alpha _ { 1 2 }$. This gives a set of measure$\sim \frac { \gamma } { N ^ { 2 } T ^ { 2 } } \frac { 1 } { | n \times n ^ { \prime } | }$. Next use (3.4b) to solve for$\alpha _ { 2 2 }$. This gives a set of measure$\sim \frac { \beta } { N T } \frac { 1 } { | n _ { 2 } | }$. Symmetrically, one could use (3.4d) to solve for$\alpha _ { 2 2 }$, giving a set of measure$\sim \frac { \gamma } { \beta N T } \frac { 1 } { | n _ { 2 } ^ { \prime } | }$. By symmetry between the first and second coordinates, we get a bound
 
 $$
 \lesssim \frac{\gamma}{N^{3}T^{3}|n\times n^{\prime}|}\min\left(\frac{\beta}{|n|},\frac{\gamma}{\beta|n^{\prime}|}\right).
@@ -958,19 +958,19 @@ $$
 
 Step 3: from level set estimates to$L ^ { p }$bounds. Recall first that$\| F \| _ { L ^ { \infty } (  { \mathbb { R } } \times  { \mathbb { T } } ^ { d } ) } \lesssim N$by the Sobolev embedding theorem. Choose next$\delta > 0$. When estimating$\left| E _ { \lambda } \right|$, three cases have to be distinguished:
 
-If$\lambda > N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } } \end{array}$(notice that$\textstyle A < { \frac { 1 } { N } } )$. The bound (4.1) becomes then
+- If$\lambda > N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } } \end{array}$(notice that$\textstyle A < { \frac { 1 } { N } } )$. The bound (4.1) becomes then
 
 $$
 | E _ {\lambda} | \preceq N ^ {\delta} \lambda^ {- 4}.
 $$
 
-If$N ^ { 2 / 3 } < \lambda < N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } , \mu = \lambda ^ { 2 } N ^ { - \delta / 4 } } \end{array}$, and appeal to (4.2) to obtain
+- If$N ^ { 2 / 3 } < \lambda < N ^ { 2 / 3 + \delta } T ^ { 1 / 12 }$, then we choose$\begin{array} { r } { A = \frac { N ^ { \delta } } { \lambda ^ { 2 } } , \mu = \lambda ^ { 2 } N ^ { - \delta / 4 } } \end{array}$, and appeal to (4.2) to obtain
 
 $$
 \left| E _ {\lambda} \right| \lesssim N ^ {\delta} \left[ \lambda^ {- 4} + N ^ {4} T \lambda^ {- 10} \right] \lesssim N ^ {4 + \delta} T \lambda^ {- 10}.
 $$
 
-Finally, if$\lambda < N ^ { 2 / 3 }$, we rely on the Chebyshev inequality and the estimate$\| F \| _ { L ^ { 4 } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \lesssim$ $T ^ { 1 / 4 }$(which follows from the$L ^ { 4 }$bound of Bourgain-Demeter [9]) to obtain
+- Finally, if$\lambda < N ^ { 2 / 3 }$, we rely on the Chebyshev inequality and the estimate$\| F \| _ { L ^ { 4 } ( [ 0 , T ] \times  { \mathbb { T } } ^ { d } ) } \lesssim$ $T ^ { 1 / 4 }$(which follows from the$L ^ { 4 }$bound of Bourgain-Demeter [9]) to obtain
 
 $$
 | E _ {\lambda} | \lesssim T \lambda^ {- 4}.
@@ -1046,7 +1046,7 @@ $$
 \begin{array}{l} \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {p} = \sum_ {A, B, C} \sum_ {(k _ {i}, \ell_ {i}) \in \Omega_ {0, 0, A, B, C} ^ {p, N}} \widehat {f} _ {k _ {1}, \ell_ {1}} \ldots \overline {{\widehat {f} _ {k _ {p} , \ell_ {p}}}} \mathbf {1} _ {S} (k _ {1}, \ell_ {1}) \ldots \mathbf {1} _ {S} (k _ {p}, \ell_ {p}) \frac {1 - e ^ {2 \pi i T (A + B \alpha + C \beta)}}{2 \pi i (A + B \alpha + C \beta)} \\ \lesssim \sum_ {2 ^ {j} > \frac {1}{T}} \sum_ {| A + B \alpha + C \beta | \lesssim 2 ^ {j}} 2 ^ {- j} \sum_ {\Omega_ {0, 0, A, B, C} ^ {p, N}} \mathbf {1} _ {S} (k _ {1} \ell_ {1}) \ldots \mathbf {1} _ {S} (k _ {p} \ell_ {p}) \\ = \sum_ {2 ^ {j} > \frac {1}{T}} \sum_ {| A + B \alpha + C \beta | \lesssim 2 ^ {j}} 2 ^ {- j} | S ^ {p} \cap \Omega_ {0, 0, A, B, C} ^ {p, N} |. \end{array}
 $$
 
-On the one hand, we can use (5.2) to bound$| S ^ { p } \cap \Omega _ { 0 , 0 , A , B , C } ^ { p , N } |$. On the other hand, by genericity of α and$\beta _ { i }$,
+On the one hand, we can use (5.2) to bound$| S ^ { p } \cap \Omega _ { 0 , 0 , A , B , C } ^ { p , N } |$. On the other hand, by genericity of α and$\beta$,
 
 $$
 \sum_ {| A + B \alpha + C \beta | <   2 ^ {j}} 1 \lesssim N ^ {4} 2 ^ {j} + 1.
@@ -1058,11 +1058,13 @@ $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {p} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {p} \preceq \sum_ {\frac {1}{T} <   2 ^ {j} \lesssim N ^ {2}} (N ^ {4} + 2 ^ {- j}) N ^ {p - 8} | S | ^ {p / 2} \preceq (N ^ {4} + T) N ^ {p - 8} | S | ^ {\frac {p}{2}}.
 $$
 
+□
+
 ## 6. The counting argument through Pall’s bound:$p = 8$
 
 With the same ansatz for$f$as in the previous section, we are going to prove the following theorem, which implies Theorem 1.2 for$p = 8$
 
-Theorem 6.1. Generically in$\left( \alpha _ { i j } \right)$，
+Theorem 6.1. Generically in$\left( \alpha _ { i j } \right)$,
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {8} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {8} \lesssim | S ^ {4} | (N ^ {4} + N T).
@@ -1096,7 +1098,7 @@ $$
 \mathrm{meas} _ {\mathbb {R} ^ {3}} (B) \geq \int_ {1} ^ {2} \mathrm{meas} _ {\mathbb {R} ^ {2}} (A _ {z})   \mathrm{d} z, \quad A _ {z} := \left\{(x, y) \in [ 1, 4 ] ^ {2}: | a \frac {x}{z} + b \frac {y}{z} + c | <   \frac {2 \varepsilon}{z}, | d \frac {x}{z} + e \frac {y}{z} + f | <   \frac {2 \varepsilon}{z} \right\},
 $$
 
-and that$z A \subset A _ { z } { \mathrm { ~ f o r ~ } } z \in [ 1 , 2 ]$, so a bound for meas<sub>R</sub>3 (B) implies the same bound for meas<sub>R</sub>2 (A).
+and that$z A \subset A _ { z } { \mathrm { ~ f o r ~ } } z \in [ 1 , 2 ]$, so a bound for$\mathrm{meas}_{\mathbb{R}^{3}}(B)$implies the same bound for$\mathrm{meas}_{\mathbb{R}^{2}}(A)$.
 
 6.1. Pall’s formula. Our technical tool will be a formula from a paper of Pall [27]. Let$A ^ { \prime } , B ^ { \prime } , C ^ { \prime } \in$ Z. We apply Pall’s formula (43) to the quadratic form$\phi ( x , y ) = A ^ { \prime } x ^ { 2 } + B ^ { \prime } y ^ { 2 } + 2 C ^ { \prime } x y$. This gives
 
@@ -1106,7 +1108,7 @@ $$
 \sum_{\substack{\sum_{i = 1}^{3}(k_{i}^{\prime \prime})^{2} = A^{\prime},\\ \sum_{i = 1}^{3}(\ell_{i}^{\prime \prime})^{2} = B^{\prime},\\ \sum_{i = 1}^{3}k_{i}^{\prime \prime}\ell_{i}^{\prime \prime} = C^{\prime}}}1 = 24\cdot 2^{\nu}\prod_{p|2k\Delta}\chi (p)
 $$
 
-where$k _ { i } ^ { \prime \prime } , \ell _ { i } ^ { \prime \prime } \in \mathbb { Z } , k = \operatorname* { g c d } ( A ^ { \prime } , B ^ { \prime } , C ^ { \prime } ) , \Delta = ( A ^ { \prime } B ^ { \prime } - (C ^ { \prime})^2 ) / k ^ { 2 }$, we let ν be the number of distinct odd prime factors of k∆ and$\chi$is defined in the comments after (43) and at the start of page 358 in [27].
+where$k _ { i } ^ { \prime \prime } , \ell _ { i } ^ { \prime \prime } \in \mathbb { Z } , k = \operatorname* { g c d } ( A ^ { \prime } , B ^ { \prime } , C ^ { \prime } ) , \Delta = ( A ^ { \prime } B ^ { \prime } - C ^ { \prime } ) / k ^ { 2 }$, we let ν be the number of distinct odd prime factors of k∆ and$\chi$is defined in the comments after (43) and at the start of page 358 in [27].
 
 For the reader’s convenience we repeat the definition of$\chi$in full here. Given a prime$p ,$let$p ^ { u _ { 1 } }$ be the largest power of$p$dividing k, let$p ^ { u _ { 2 } - u _ { 1 } }$be the largest power of$p$dividing$\Delta$and write $\begin{array} { r } { \delta _ { 1 } = \lfloor \frac { u _ { 1 } + 1 } { 2 } \rfloor } \end{array}$. If$p = 2$then$\chi ( p ) = 0$or 1 according to the cases set out in Pall’s formula (44). If $p \neq 2$we let$\phi _ { 1 } = \phi / k$and adopt the convention that, if$p \mid \Delta$, then$\begin{array} { r } { \big ( \frac { \phi _ { 1 } } { p } \big ) = \big ( \frac { \phi _ { 1 } ( x , y ) } { p } \big ) } \end{array}$for any$x , y \in \mathbb { Z }$ such that$\phi _ { 1 } ( x , y )$is prime to$p .$We further define quantities$\kappa _ { 1 }$and$\kappa _ { 2 }$by
 
@@ -1282,7 +1284,7 @@ $$
 \sum_{h\leq N^{1 / 2}}\sum_{\substack{U,V,W\lesssim N^{2} / h^{2}\\ |U + V\alpha +W\beta -\tau^{\prime} / h^{2}| <   2^{j} / h^{2}\\ UV - W^{2} > 0}}h\preceq \sum_{h\lesssim N^{1 / 2}}(2^{j}N^{4} / h^{6} + 1)h\lesssim 2^{j}N^{4} + N.
 $$
 
-This is satisfactory, and it remains to treat$N ^ { 1 / 2 } \leq h \lesssim N$. Our proof does not use the full strength of the condition$U V - W ^ { 2 } > 0$but only the weaker$( U , V , W ) \neq ( 0 , 0 , 0 )$; this should heuristically make no diference in the size of the sum and we do not know any way to take advantage of the full condition$U V - W ^ { 2 } > 0$. The result which is required is then the following.
+This is satisfactory, and it remains to treat$N ^ { 1 / 2 } \leq h \lesssim N$. Our proof does not use the full strength of the condition$U V - W ^ { 2 } > 0$but only the weaker$( U , V , W ) \neq ( 0 , 0 , 0 )$; this should heuristically make no difference in the size of the sum and we do not know any way to take advantage of the full condition$U V - W ^ { 2 } > 0$. The result which is required is then the following.
 
 Lemma 6.5. Let
 
@@ -1302,7 +1304,7 @@ $$
 \sum_{\substack{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}\\ |A^{\prime} + B^{\prime}\alpha +C^{\prime}\beta -\tau^{\prime}| <   2^{j}\\ A^{\prime}B^{\prime}\neq (C^{\prime})^{2}}}\sum_{\substack{\sum_{i = 1}^{3}(k_{i}^{\prime \prime})^{2} = A^{\prime},\\ \sum_{i = 1}^{3}(\ell_{i}^{\prime \prime})^{2} = B^{\prime},\\ \sum_{i = 1}^{3}k_{i}^{\prime \prime}\ell_{i}^{\prime \prime} = C^{\prime}}}1\preceq_{\alpha ,\beta}2^{j}N^{4} + N.\tag{6.11}
 $$
 
-To motivate the proof of the lemma, we sketch some attacks on the problem based on the proof of (6.9). Imitating Lemma 6.4, one might try to show that for generic$( \alpha , \beta )$, all$h , h ^ { \prime } \sim K$ $U , \dot { U ^ { \prime } } , \dot { V } , V ^ { \prime } , W , W ^ { \prime } \stackrel { - } { \sim } N ^ { 2 } / h ^ { 2 }$, and some appropriate$\rho$we have
+To motivate the proof of the lemma, we sketch some attacks on the problem based on the proof of (6.9). Imitating Lemma 6.4, one might try to show that for generic$( \alpha , \beta )$, all$h , h ^ { \prime } \sim K$, $U , U ^ { \prime } , V , V ^ { \prime } , W , W ^ { \prime } \lesssim N ^ { 2 } / h ^ { 2 }$, and some appropriate$\rho$we have
 
 $$
 \left| h ^ {2} (U + V \alpha + W \beta) - h ^ {\prime 2} (U ^ {\prime} + V ^ {\prime} \alpha + W ^ {\prime} \beta) \right| \gtrsim_ {\alpha , \beta} \rho\tag{6.12}
@@ -1342,7 +1344,7 @@ $$
 \begin{array}{c} \Sigma^ {\prime} (\alpha , \beta) \preceq_ {\alpha , \beta} \int \Sigma^ {\prime} (\alpha^ {\prime}, \beta^ {\prime})   d \alpha^ {\prime} d \beta^ {\prime} = \sum_ {h, h ^ {\prime} \sim K} \sum_ {h ^ {2} (U, V, W) \neq h ^ {\prime 2} (U ^ {\prime}, V ^ {\prime}, W ^ {\prime})} \\ \text {measure} \big \{(\alpha^ {\prime}, \beta^ {\prime}): \big | h ^ {2} (U + V \alpha^ {\prime} + W \beta^ {\prime}) - h ^ {\prime 2} (U ^ {\prime} + V ^ {\prime} \alpha^ {\prime} + W ^ {\prime} \beta^ {\prime}) \big | <   2 ^ {j} \big \}. \end{array}
 $$
 
-The condition$h ^ { 2 } ( U , V , W ) \neq h ^ { \prime 2 } ( U ^ { \prime } , V ^ { \prime } , W ^ { \prime } )$removes the terms for which the measure above is largest, which could otherwise have dominated the sum. But even for typical$h , h ^ { \prime } , U , U ^ { \prime } , . . .$. this measure will have size$\gtrsim 2 ^ { j } / N ^ { 2 }$. Consquently the best upper bound for$\Sigma ^ { \prime } ( \alpha , \beta )$which we could hope to prove is
+The condition$h ^ { 2 } ( U , V , W ) \neq h ^ { \prime 2 } ( U ^ { \prime } , V ^ { \prime } , W ^ { \prime } )$removes the terms for which the measure above is largest, which could otherwise have dominated the sum. But even for typical$h , h ^ { \prime } , U , U ^ { \prime } , . . .$ this measure will have size$\gtrsim 2 ^ { j } / N ^ { 2 }$. Consquently the best upper bound for$\Sigma ^ { \prime } ( \alpha , \beta )$which we could hope to prove is
 
 $$
 \Sigma^ {\prime} (\alpha , \beta) \preceq_ {\alpha , \beta} 2 ^ {j} N ^ {12} / K ^ {10}.
@@ -1350,7 +1352,7 @@ $$
 
 Via (6.13) this would lead to a bound of at best$2 ^ { j / 2 } N ^ { 6 } / K ^ { 4 }$for the sum in Lemma 6.5, which is not sufficient. For example when$K = N ^ { 1 / 2 }$and$2 ^ { j } = N ^ { - 3 }$that bound is at least$N ^ { 5 / 2 }$, while (6.11) requires a bound of$\lesssim _ { \alpha , \epsilon } N ^ { 1 + \epsilon }$
 
-The proof we give of Lemma 6.5 is nonetheless very close to the sketch above. Instead of the square in (6.13) we will take the cube of the sum we hope to bound. We will split of a kind of “diagonal contribution”, and the remaining term will be estimated by eliminating$\tau ^ { \prime }$and applying the Borel-Cantelli lemma.
+The proof we give of Lemma 6.5 is nonetheless very close to the sketch above. Instead of the square in (6.13) we will take the cube of the sum we hope to bound. We will split off a kind of “diagonal contribution”, and the remaining term will be estimated by eliminating$\tau ^ { \prime }$and applying the Borel-Cantelli lemma.
 
 Proof of Lemma 6.5. We may assume$2 ^ { j } \geq N ^ { - 3 }$, since otherwise the term$N / K$on the right hand side dominates so the case can be treated as if$2 ^ { j } \sim N ^ { - 3 }$. We take the cube:
 
@@ -1358,7 +1360,7 @@ $$
 \Phi (\alpha ,\beta ,\tau^{\prime})^{3} = \sum_{h_{0},h_{1},h_{2}\sim K}\sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2} (i = 0,1,2)\\ |U_{i} + V_{i}\alpha +W_{i}\beta -\tau^{\prime} / h_{i}^{2}| <   2^{j} / h_{i}^{2} (i = 0,1,2)\\ (U_{i},V_{i},W_{i})\neq (0,0,0) (i = 0,1,2)}}1.
 $$
 
-We split the terms according to whether the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$lie on a line through the origin, or else on a line which is not through the origin, or neither. Write $\times$ for the vector product of two column vectors. Observe that the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$are collinear if the quantity
+We split the terms according to whether the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$lie on a line through the origin, or else on a line which is not through the origin, or neither. Write $\times$ for the vector product of two column vectors. Observe that the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$are collinear iff the quantity
 
 $$
 \Delta = \left(h _ {2} ^ {2} (U _ {2}, V _ {2}, W _ {2}) - h _ {0} ^ {2} (U _ {0}, V _ {0}, W _ {0})\right) ^ {T} \times \left(h _ {1} ^ {2} (U _ {1}, V _ {1}, W _ {1}) - h _ {0} ^ {2} (U _ {0}, V _ {0}, W _ {0})\right) ^ {T}\tag{6.14}
@@ -1373,16 +1375,16 @@ $$
 The first term on the right-hand side includes the diagonal contribution, when the$h _ { i } ^ { 2 } ( U _ { i } , V _ { i } , W _ { i } )$ are all equal. Letting$( \hat { U } _ { 0 } , \hat { V } _ { 0 } , \hat { W } _ { 0 } ) = ( U _ { 0 } , V _ { 0 } , W _ { 0 } ) / \operatorname* { g c d } ( U _ { 0 } , V _ { 0 } , W _ { 0 } )$, this first term is bounded by
 
 $$
-\begin{array}{l}\sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\sum_{\substack{|y(\hat{U}_{0} + \hat{V}_{0}\alpha +\hat{W}_{0}\beta) - \tau^{\prime}| <   2^{j}\\ (y\in \mathbb{Z})}}1\right)^{2}\\ \leq \sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0.0,0)}}\left(\frac{2^{j + 1}}{|\hat{U}_{0} + \hat{V}_{0}\alpha + \hat{W}_{0}\beta |}\right)^{2} + 1. \end{array}
+\begin{array}{l}\sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\sum_{\substack{|y(\hat{U}_{0} + \hat{V}_{0}\alpha +\hat{W}_{0}\beta) - \tau^{\prime}| <   2^{j}\\ (y\in \mathbb{Z})}}1\right)^{2}\\ \leq \sum_{h_{0}\sim K}\sum_{\substack{U_{0},V_{0},W_{0}\lesssim N^{2} / K^{2}\\ \left|h_{0}^{2}(U_{0} + V_{0}\alpha +W_{0}\beta) - \tau^{\prime}\right| <   2^{j}\\ (U_{0},V_{0},W_{0})\neq (0,0,0)}}\left(\frac{2^{j + 1}}{|\hat{U}_{0} + \hat{V}_{0}\alpha + \hat{W}_{0}\beta |}\right)^{2} + 1. \end{array}
 $$
 
-For generic$\alpha , \beta$we have$| \hat { U } _ { 0 } + \hat { V } _ { 0 } \alpha + \hat { W } _ { 0 } \beta | \stackrel { } { \underset { } { et { } { ^ { - } } } } \alpha , \beta \stackrel { } { K ^ { 4 } } / N ^ { 4 }$and so the sum on the last line is
+For generic$\alpha , \beta$we have$| \hat { U } _ { 0 } + \hat { V } _ { 0 } \alpha + \hat { W } _ { 0 } \beta | \succeq _ { \alpha , \beta } K ^ { 4 } / N ^ { 4 }$and so the sum on the last line is
 
 $$
 \preceq_ {\alpha , \beta} \left(\frac {2 ^ {2 j} N ^ {8}}{K ^ {8}} + 1\right) \Phi (\alpha , \beta , \tau^ {\prime}).\tag{6.16}
 $$
 
-This will sufice for the first term. A variation of the same argument produces the following lemma, which is enough to treat the second term in (6.15).
+This will suffice for the first term. A variation of the same argument produces the following lemma, which is enough to treat the second term in (6.15).
 
 Lemma 6.6. For generic$\alpha , \beta , 2 ^ { j } \geq N ^ { - 3 }$and$\tau ^ { \prime } \in \mathbb { R } , K \in [ N ^ { 1 / 2 } , N ]$and$m , c \in \mathbb { Z } ^ { 3 }$with$| m | , | c | \lesssim$ $N ^ { 2 } , \operatorname* { g c d } ( m _ { 1 } , m _ { 2 } , m _ { 3 } ) = 1$and$m ^ { T } \times c ^ { T } \neq 0$, we have
 
@@ -1418,6 +1420,8 @@ $$
 
 This proves the lemma.
 
+□
+
 ## 6.5. The case$A ^ { \prime } B ^ { \prime } \ne ( C ^ { \prime } ) ^ { 2 }$, auxiliary lemmas.
 
 Proof of Lemma 6.6. Suppose mx$+ c \equiv 0$(mod$h _ { 2 } ^ { 2 } )$. From this we draw two conclusions. First,
@@ -1452,10 +1456,12 @@ $$
 
 from which the claim follows.
 
+□
+
 Proof of Lemma 6.7. By letting K and$N$range over powers of 2, the Borel-Cantelli lemma implies that for almost all$\alpha , \beta$we have
 
 $$
-\begin{array}{l}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \int \Sigma_{0}(\alpha^{\prime},\beta^{\prime})  d\alpha^{\prime}d\beta^{\prime}\\ = 1 + \sum_{h_{0},h_{1},h_{2}\sim K} \sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2}\\ \Delta \neq 0}}(i = 0,1,2)\\ \text{measure}\big\{(\alpha^{\prime},\beta^{\prime}):  \big|h_{i}^{2}(U_{i} + V_{i}\alpha^{\prime} + W_{i}\beta^{\prime}) - h_{0}^{2}(U_{0} + V_{0}\alpha^{\prime} + W_{0}\beta^{\prime})\big| <   2^{j}\quad (i = 1,2)\big\} . \end{array}
+\begin{array}{l}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \int \Sigma_{0}(\alpha^{\prime},\beta^{\prime})  d\alpha^{\prime}d\beta^{\prime}\\ = 1 + \sum_{h_{0},h_{1},h_{2}\sim K} \sum_{\substack{U_{i},V_{i},W_{i}\lesssim N^{2} / K^{2} (i = 0,1,2)\\ \Delta \neq 0}}\\ \text{measure}\big\{(\alpha^{\prime},\beta^{\prime}):  \big|h_{i}^{2}(U_{i} + V_{i}\alpha^{\prime} + W_{i}\beta^{\prime}) - h_{0}^{2}(U_{0} + V_{0}\alpha^{\prime} + W_{0}\beta^{\prime})\big| <   2^{j}\quad (i = 1,2)\big\} . \end{array}
 $$
 
 In light of (6.1) and (6.14), this implies
@@ -1483,7 +1489,7 @@ $$
 In particular, if$\Delta \neq 0$then it follows from this that$T > 0$and$H > 0$. Observe that
 
 $$
-\Delta \quad = h _ {2} ^ {2} \binom{(h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}) V _ {2} + (h _ {0} ^ {2} V _ {0} - h _ {1} ^ {2} V _ {1}) W _ {2}}{(h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}) W _ {2} + (h _ {0} ^ {2} W _ {0} - h _ {1} ^ {2} W _ {1}) U _ {2}} + Q (h _ {0}, h _ {1}, U _ {0}, U _ {1}, V _ {0}, V _ {1}, W _ {0}, W _ {1})
+\Delta \quad = h _ {2} ^ {2} \left(\begin{array}{c}(h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}) V _ {2} + (h _ {0} ^ {2} V _ {0} - h _ {1} ^ {2} V _ {1}) W _ {2} \\ (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}) W _ {2} + (h _ {0} ^ {2} W _ {0} - h _ {1} ^ {2} W _ {1}) U _ {2} \\ (h _ {1} ^ {2} V _ {1} - h _ {0} ^ {2} V _ {0}) U _ {2} + (h _ {0} ^ {2} U _ {0} - h _ {1} ^ {2} U _ {1}) V _ {2} \end{array}\right) + Q (h _ {0}, h _ {1}, U _ {0}, U _ {1}, V _ {0}, V _ {1}, W _ {0}, W _ {1})
 $$
 
 for some triple of forms Q. Suppose for a moment we are given$h _ { i } \sim K \ ( i = 0 , 1 , 2 )$and$U _ { i } , V _ { i } , W _ { i }$ $( i = 0 , 1 )$satisfying (6.18) and (6.19). One can deduce from the formula above that
@@ -1521,7 +1527,7 @@ $$
 Clearly the same bound holds if we permute$U , V$and W in (6.18), and also if we put $\sim$ in place of the equalities in (6.18). Inserting this into (6.17) we find
 
 $$
-\begin{array}{c}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \sum_{T,M,G,H\in 2^{\mathbb{Z}}}\sum_{\substack{h_{0},h_{2}\sim K\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}\sum_{\substack{h_{1}\sim K\\ U_{0}\lesssim N^{2} / K^{2}}}\sum_{\substack{U_{1}\lesssim N^{2} / K^{2}\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0})\gtrsim G\\ |h_{1}^{2}U_{1} - h_{0}^{2}U_{0}|\sim T}}\sum_{V_{0},W_{0}\lesssim N^{2} / K^{2}}\\ \\ \sum_{\substack{V_{1},W_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}V_{1} - h_{0}^{2}V_{0}|\lesssim T\\ |h_{1}^{2}W_{1} - h_{0}^{2}W_{0}|\lesssim T\\ \gcd (h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}V_{1} - h_{0}^{2}V_{0})\sim H\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}V_{0})\sim G\\ \frac{\gcd(h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}W_{1} - h_{0}^{2}W_{0})}{\gcd(h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}W_{0})}\gtrsim H / G}}\\ \\ \preceq 1 + \sum_{T,M,G,H\in 2^{\mathbb{Z}}}N^{2}\frac{K}{G^{1 / 2}}\left(\frac{T}{K^{2}} +1\right)\frac{N^{4}}{K ^{4}}\\ \\ \left(\frac{GT}{HK^{2}} +1\right)^{2}\left(1 + \frac{HN^{2}}{TK^{2}} +\frac{M}{K^{2}} +\frac{N^{2}HM}{K^{4}T} +\frac{M^{2}N^{2}}{T^{2}K^{6}}\right)2^{2j}M^{-1}. \end{array}
+\begin{array}{c}\Sigma_{0}(\alpha ,\beta)\preceq_{\alpha ,\beta}1 + \sum_{\substack{T,M,G,H\in 2^{\mathbb{Z}}\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}\sum_{\substack{h_{0},h_{2}\sim K\\ U_{0}\lesssim N^{2} / K^{2}}}\sum_{\substack{h_{1}\sim K\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0})\gtrsim G}}\sum_{\substack{U_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}U_{1} - h_{0}^{2}U_{0}|\sim T}}\sum_{V_{0},W_{0}\lesssim N^{2} / K^{2}}\\ \\ \sum_{\substack{V_{1},W_{1}\lesssim N^{2} / K^{2}\\ |h_{1}^{2}V_{1} - h_{0}^{2}V_{0}|\lesssim T\\ |h_{1}^{2}W_{1} - h_{0}^{2}W_{0}|\lesssim T\\ \gcd (h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}V_{1} - h_{0}^{2}V_{0})\sim H\\ \gcd (h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}V_{0})\sim G\\ \frac{\gcd(h_{1}^{2}U_{1} - h_{0}^{2}U_{0},h_{1}^{2}W_{1} - h_{0}^{2}W_{0})}{\gcd(h_{1}^{2},h_{0}^{2}U_{0},h_{0}^{2}W_{0})}\gtrsim H / G}}\\ \\ \preceq 1 + \sum_{\substack{T,M,G,H\in 2^{\mathbb{Z}}\\ 1\leq T\leq N^{2}\\ 1\leq M\leq T^{2}\\ 1\leq G\leq K^{2}\\ G\leq H\leq T}}N^{2}\frac{K}{G^{1 / 2}}\left(\frac{T}{K^{2}} +1\right)\frac{N^{4}}{K ^{4}}\\ \\ \left(\frac{GT}{HK^{2}} +1\right)^{2}\left(1 + \frac{HN^{2}}{TK^{2}} +\frac{M}{K^{2}} +\frac{N^{2}HM}{K^{4}T} +\frac{M^{2}N^{2}}{T^{2}K^{6}}\right)2^{2j}M^{-1}. \end{array}
 $$
 
 Here we will explain the bound in the summation in$( V _ { 1 } , W _ { 1 } )$; the bounds in all other summations are straightforward. First consider$V _ { 1 } ;$as$( h _ { 0 } , h _ { 1 } , U _ { 0 } , U _ { 1 } , V _ { 0 } , W _ { 0 } )$is fixed, the four gcd’s in the summation have$\preceq 1$choices, so we may assume they are fixed. Let
@@ -1530,7 +1536,7 @@ $$
 \xi = \operatorname * {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}, h _ {1} ^ {2} V _ {1} - h _ {0} ^ {2} V _ {0}) \sim H, \qquad \operatorname * {g c d} (\xi , h _ {1} ^ {2}) = \operatorname * {g c d} (h _ {1} ^ {2}, h _ {0} ^ {2} U _ {0}, h _ {0} ^ {2} V _ {0}) \sim G,
 $$
 
-then we have$h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 } \equiv 0$(mod ξ). This implies that the residue of$V _ { 1 }$modulo$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } ) \sim$ $H / G$is fixed; as also$|h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 }| \lesssim T$, the number of choices for$V _ { 1 }$will be at most$G T / H K ^ { 2 } + 1$ For$W _ { 1 }$the bound is similar, except that instead of$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } )$we have
+then we have$h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 } \equiv 0$(mod ξ). This implies that the residue of$V _ { 1 }$modulo$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } ) \sim$ $H / G$is fixed; as also$|h _ { 1 } ^ { 2 } V _ { 1 } - h _ { 0 } ^ { 2 } V _ { 0 }| \lesssim T$, the number of choices for$V _ { 1 }$will be at most$G T / H K ^ { 2 } + 1$. For$W _ { 1 }$the bound is similar, except that instead of$\xi / \operatorname* { g c d } ( \xi , h _ { 1 } ^ { 2 } )$we have
 
 $$
 \frac {\eta}{\operatorname* {g c d} (\eta , h _ {1} ^ {2})} = \frac {\operatorname* {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0} , h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0})}{\operatorname* {g c d} (h _ {1} ^ {2} , h _ {0} ^ {2} U _ {0} , h _ {0} ^ {2} W _ {0})}, \qquad \eta := \operatorname * {g c d} (h _ {1} ^ {2} U _ {1} - h _ {0} ^ {2} U _ {0}, h _ {1} ^ {2} W _ {1} - h _ {0} ^ {2} W _ {0}),
@@ -1556,7 +1562,7 @@ $$
 \left(\frac {N ^ {12}}{K ^ {9}} + \frac {N ^ {14}}{K ^ {15}}\right) 2 ^ {2 j} \lesssim \frac {N ^ {12}}{K ^ {9}} 2 ^ {2 j} \lesssim \frac {N ^ {12}}{K ^ {3}} 2 ^ {3 j}
 $$
 
-using the fact that$2 ^ { j } \geq N ^ { - 3 }$and$N ^ { 1 / 2 } \leq K \leq N$
+using the fact that$2 ^ { j } \geq N ^ { - 3 }$and$N ^ { 1 / 2 } \leq K \leq N$. □
 
 6.6. Completing the case$p = 8$. Combining (6.7) with (6.9) and (6.11) shows that
 
@@ -1570,7 +1576,7 @@ which proves the case$p = 8$of Theorem 6.1.
 
 With the same ansatz for f as in Section 5, we will prove
 
-Theorem 7.1. Generically in$( \alpha _ { i j } )$
+Theorem 7.1. Generically in$( \alpha _ { i j } )$,
 
 $$
 \| e ^ {i t \widetilde {\Delta}} f \| _ {L ^ {10} ([ 0, T ] \times \mathbb {T} ^ {2})} ^ {10} \lesssim | S ^ {5} | (N ^ {6} + T N ^ {2}).
@@ -1581,7 +1587,7 @@ This implies Theorem 1.2 for$p = 10$
 Following the same argument as in Section$6 ,$we have by (6.3) that
 
 $$
-\| e^{it\widetilde{\Delta}}f\|_{L^{p}([0,T])}^{10}\lesssim \sum_{2^{j} > \frac{1}{T}}2^{-j}|S^{5}|\sup_{a,b\lesssim N,\tau \lesssim N^{2}}\sum_{\substack{A_{1},B_{1},C_{1}\lesssim N^{2}\\ |A_{1} + B_{1}\alpha +C_{1}\beta -\tau | <   2^{j}}}|\Omega_{a,b,A_{1},B_{1},C_{1}}^{5,N, + }
+\| e^{it\widetilde{\Delta}}f\|_{L^{p}([0,T])}^{10}\lesssim \sum_{2^{j} > \frac{1}{T}}2^{-j}|S^{5}|\sup_{a,b\lesssim N,\tau \lesssim N^{2}}\sum_{\substack{A_{1},B_{1},C_{1}\lesssim N^{2}\\ |A_{1} + B_{1}\alpha +C_{1}\beta -\tau | <   2^{j}}}|\Omega_{a,b,A_{1},B_{1},C_{1}}^{5,N, + }|
 $$
 
 where$\Omega _ { a , b , A _ { 1 } , B _ { 1 } , C _ { 1 } } ^ { 5 , N , + }$is the set of solutions of size less than N to
@@ -1616,7 +1622,7 @@ $$
 
 by the Diophantine condition$| i + j \alpha + k \beta | \gtrsim N ^ { - 4 }$ if$i , j , k \lesssim N ^ { 2 }$, with$( i , j , k ) \neq ( 0 , 0 , 0 )$. This is more than satisfactory.
 
-Next we consider the contribution from$( \sum _ { i = 1 } ^ { 3 } \mu _ { i } ^ { 2 } ) ( \sum _ { i = 1 } ^ { 3 } \lambda _ { i } ^ { 2 } ) = ( \sum _ { i = 1 } ^ { 3 } \mu _ { i } \lambda _ { i } ) ^ { 2 } \ne 0 .$. In this case there are unique$z _ { i } , p , q$with$p , q \in \mathbb { N }$and$\operatorname* { g c d } ( p , q ) = 1$such that$\mu _ { i } = p z _ { i } , \lambda _ { i } = q z _ { i }$. These terms give a contribution of
+Next we consider the contribution from$( \sum _ { i = 1 } ^ { 3 } \mu _ { i } ^ { 2 } ) ( \sum _ { i = 1 } ^ { 3 } \lambda _ { i } ^ { 2 } ) = ( \sum _ { i = 1 } ^ { 3 } \mu _ { i } \lambda _ { i } ) ^ { 2 } \ne 0$. In this case there are unique$z _ { i } , p , q$with$p , q \in \mathbb { N }$and$\operatorname* { g c d } ( p , q ) = 1$such that$\mu _ { i } = p z _ { i } , \lambda _ { i } = q z _ { i }$. These terms give a contribution of
 
 $$
 \sum_{\substack{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}\\ |A^{\prime} + B^{\prime}\alpha +C^{\prime}\beta -\tau^{\prime}| <   2^{j}}}\sum_{\substack{mp^{2} + 5x^{2} = A^{\prime},\\ mq^{2} + 5y^{2} = B^{\prime},\\ mpq + 5xy = C^{\prime}}}\sum_{\substack{\sum_{i=1}^{3}z_{i}^{2} = m}}1\\ \lesssim (2^{j}N^{4} + 1)N\sup_{A^{\prime},B^{\prime},C^{\prime}\lesssim N^{2}}|\{(m,p,q,x,y):mp^{2} + 5x^{2} = A^{\prime},mq^{2} + 5y^{2} = B^{\prime},mpq + 5xy = C^{\prime}\} |.
@@ -1649,7 +1655,7 @@ and we’re done.
 The case$k = 2$of the main result of Guo and Zhang [22] is
 
 $$
-\begin{array}{l}\int \dots \int \bigg|\sum_{\substack{0\leq \beta_{i}\leq 1\\ 0\leq \alpha_{ij}\leq 1}}\Big|\sum_{\substack{x\in \mathbb{Z}^{d}\\ |x|\leq M}}e\Big(\sum_{i,j = 1}^{d}\alpha_{ij}x_{i}x_{j} + \sum_{i = 1}^{d}\beta_{i}x_{i}\Big)\bigg|^{2s}d\alpha_{11}  d\alpha_{12}\dots d\alpha_{dd}  d\beta_{1}\dots d\beta_{d}\\ \\ \lesssim_{\epsilon}N^{\epsilon}\bigg(N^{ds} + \sum_{j = 1}^{d}N^{(2s - 1)j + d - j(j + 2)}\bigg), \end{array}
+\begin{array}{l}\int_ {\substack{0\leq \beta_{i}\leq 1\\ 0\leq \alpha_{ij}\leq 1}} \dots \int \bigg|\sum_{\substack{x\in \mathbb{Z}^{d}\\ |x|\leq M}}e\Big(\sum_{i,j = 1}^{d}\alpha_{ij}x_{i}x_{j} + \sum_{i = 1}^{d}\beta_{i}x_{i}\Big)\bigg|^{2s}d\alpha_{11}  d\alpha_{12}\dots d\alpha_{dd}  d\beta_{1}\dots d\beta_{d}\\ \\ \lesssim_{\epsilon}N^{\epsilon}\bigg(N^{ds} + \sum_{j = 1}^{d}N^{(2s - 1)j + d - j(j + 2)}\bigg), \end{array}
 $$
 
 and the right-hand side is seen to be$\lesssim N ^ { \epsilon } ( N ^ { d s } + N ^ { 2 d s - d ( d + 2 ) } )$. We sketch the argument by which (1.10) follows from this bound. More precisely, if we define
@@ -1664,7 +1670,7 @@ $$
 Z (M) \lesssim_ {\epsilon} M ^ {d s + d + \epsilon} + M ^ {2 d s - d (d + 1) + \epsilon}.\tag{A.1}
 $$
 
-Indeed this follows from the result of Guo-Zhang on summing over the possible values of$\textstyle \sum _ { i = 1 } ^ { 2 s } ( - 1 ) ^ { i } x ^ { ( i ) }$ We will deduce (1.10) from this last estimate.
+Indeed this follows from the result of Guo-Zhang on summing over the possible values of$\textstyle \sum _ { i = 1 } ^ { 2 s } ( - 1 ) ^ { i } x ^ { ( i ) }$. We will deduce (1.10) from this last estimate.
 
 For generic$\left( \alpha _ { i j } \right)$we have
 
@@ -1675,7 +1681,7 @@ $$
 by estimating the measure of the set of exceptional α for which this fails, and taking the union over T, N of the form$2 ^ { k }$. For$T \geq 2$the right-hand side above is
 
 $$
-\asymp N ^ {\epsilon} T ^ {1 + \epsilon} \int_ {0 \leq \alpha_ {i j} \leq 1} \dots \int_ {x \in \mathbf {T} ^ {d}} \sup _ {x \in \mathbf {T} ^ {d}} \left| K _ {N} ^ {(d)} (1, x) \right| ^ {2 s} d \alpha_ {1 1} d \alpha_ {1 2} \dots d \alpha_ {d d},\tag{A.3}
+\asymp N ^ {\epsilon} T ^ {1 + \epsilon} \int_ {0 \leq \alpha_ {i j} \leq 1} \dots \int \sup _ {x \in \mathbf {T} ^ {d}} \left| K _ {N} ^ {(d)} (1, x) \right| ^ {2 s} d \alpha_ {1 1} d \alpha_ {1 2} \dots d \alpha_ {d d},\tag{A.3}
 $$
 
 using the fact that the last integrand is 1-periodic in each$\alpha _ { i j }$. Now, by the same argument as (3.2), we have
