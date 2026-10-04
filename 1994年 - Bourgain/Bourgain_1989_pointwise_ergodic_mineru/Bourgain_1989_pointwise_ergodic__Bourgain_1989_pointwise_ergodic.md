@@ -1515,7 +1515,7 @@ $$
 Integrating the $p$th power of the first term of (7.25) in $u \in [0,1]$ gives, by (7.16) and (7.4)
 
 $$
-\begin{array}{r l} q^{-1/p}\left\|\sup_N\left|\mathcal{F}^{-1}[w_NF\zeta(D\cdot)]\right|\right\|_{L^p} & \leqslant \\ Cq^{-1/p}\left\|\mathcal{F}^{-1}[F\zeta(D\cdot)]\right\|_{L^p} &= \\ C\left\|\int F(\beta)\zeta(D\beta)e^{2\pi i\beta qy}\,d\beta\right\|_{L^p(dy)} & \sim \left\|\int F(\beta)\zeta(D\beta)e^{2\pi iqy}\,d\beta\right\|_{\ell^p(dy)}. \end{array}\tag{7.26}
+\begin{array}{r l} q^{-1/p}\left\|\sup_N\left|\mathcal{F}^{-1}[w_NF\zeta(D\cdot)]\right|\right\|_{L^p} & \leqslant \\ Cq^{-1/p}\left\|\mathcal{F}^{-1}[F\zeta(D\cdot)]\right\|_{L^p} &= \\ C\left\|\int F(\beta)\zeta(D\beta)e^{2\pi i\beta av}\,d\beta\right\|_{L^p(dy)} & \sim \left\|\int F(\beta)\zeta(D\beta)e^{2\pi iqy}\,d\beta\right\|_{\ell^p(dy)}. \end{array}\tag{7.26}
 $$
 
 By definition of $\rho$, the $\ell^p$-norm of the second term in (7.25) is, for fixed $u \in [0, 1]$, bounded by
