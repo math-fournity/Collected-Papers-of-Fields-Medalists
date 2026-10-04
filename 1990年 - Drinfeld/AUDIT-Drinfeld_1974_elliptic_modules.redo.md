@@ -186,3 +186,11 @@
 - 结果：FAIL（𝔘/𝔄 系 2 处 + 空杠对 1 处）。① 行 641 `GL(d,\mathfrak{A}_{f})` ×2——印刷为 Fraktur **𝔘_f**（600dpi UfBprime：页首行 "U_I \ W → GL(d,𝔘_f)/B' is clearly continuous…"；本页同类字形 4 处已 600dpi 定裁）；已 Edit 回退。② 行 659 "We fix a norm || on K"——600dpi normbar 确认印刷为空杠对 **| |**（与 p.567 记号段 | |_ν 同族）；已 Edit 为 `$|\ |$`。
 - 重核 Luna 修复：2) 段否定符号（600dpi normbar 第一版：印刷第二符号为 ∋ 形加斜线，与 MD `\not\ni` 同形；"M ⊃ N ⊃ π^k M" 链亦同形）忠实保留——印刷原样中 "N ⊄ M" 与 "M ⊃ N" 的语义张力系印刷 quirk，不改；simplex 段、ν = max{q^{α_i+⋯+α_k}ν_i}、ρ display、λ mapping 各式均相符。
 - 另记（PASS± 级伪影，不改）：页眉 "ELLIPTIC MODULES 579" 未收；A)/1)/2)/3) 小节引导词斜体（印刷样式）。
+
+## p.020（PDF p.20 / 印刷 p.580）
+
+- PNG：audit-redo/p020.png（pngmono 150dpi）；600dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p020_c1c2.png（U_Δ^{c1} ⋘ U_Δ^{c2} 行）
+- 核对：Prop 6.1 1) display（X_c = {z ∈ Ω^d | Σρ(x_i, λ(z)) ⩽ c}）、1) 收尾（open affine subset、interior）与 2)（admissible open subset）、Proof 全段（ν_i norm、C_i = {y ∈ K^d | ν_i(y) = 1}、P_i ⊂ C_i finite q^{-n}-net、r_b^a rational function display、W ⊂ P_K^{d-1} intersection、Π_1^k r_{ν_i}^{u_i} (where u_i, ν_i ∈ P_i)、closed imbedding、polydisc of radius q^c）、To deduce 2) 段（φ: Max B → P_K^{d-1}、Im φ ⊂ Ω^d、t_i ∈ B、|t_i| ≤ 1、ψ = inf_{x∈Max B} |Σa_it_i(x)| display、ψ continuous、ν = max|a_i| display、ε = inf_{ν(a)=1} ψ(a)、ball center {ν} radius log_q ε □）、S̄^d barycentric subdivision 段（Δ_1 ⊃ Δ_2 ⊃ ⋯ ⊃ Δ_m）、Prop 6.2 陈述与 V_Δ^c display（ρ(y,x) ⩽ 1 − (3−c)/4^k for x ∈ Δ、Σ_{x∈Δ} ρ(y,x) ⩽ k−1+(1+c)/4^k）、U_Δ^c = λ^{-1}(V_Δ^c) 段（GL(d,K)-invariant admissible affine covering、nerve S̄^d、U_Δ^{c1} ⋘ U_Δ^{c2}）、Proof 开头（V_Δ^c covering、Let Φ ⊂ S^d simplex of dimension d−1，断行）。
+- 结果：PASS±。全部内容项与印刷相符，本轮无需修改。600dpi 确认 U_Δ 上标为 c 与 1/2 并排（与 MD `^{c1}`/`^{c2}` 渲染一致）、紧包含符为双线 ⊂（与 `\Subset` 同形）。
+- 重核 Luna 修复：本页无 Luna 记录改动项；Π_1^k r_{ν_i}^{u_i} 的上 u_i 下 ν_i（印刷自身用 ν 做下标，quirk 忠实）、ε = inf_{ν(a)=1} ψ(a) 下标 ν(a)=1 均与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "580 V. G. DRINFEL'D" 未收；Prop 6.2 陈述整段斜体（印刷样式）。
