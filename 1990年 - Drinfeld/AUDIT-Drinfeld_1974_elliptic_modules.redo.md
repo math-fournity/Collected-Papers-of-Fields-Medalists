@@ -194,3 +194,11 @@
 - 结果：PASS±。全部内容项与印刷相符，本轮无需修改。600dpi 确认 U_Δ 上标为 c 与 1/2 并排（与 MD `^{c1}`/`^{c2}` 渲染一致）、紧包含符为双线 ⊂（与 `\Subset` 同形）。
 - 重核 Luna 修复：本页无 Luna 记录改动项；Π_1^k r_{ν_i}^{u_i} 的上 u_i 下 ν_i（印刷自身用 ν 做下标，quirk 忠实）、ε = inf_{ν(a)=1} ψ(a) 下标 ν(a)=1 均与页图相符。
 - 另记（PASS± 级伪影，不改）：页眉 "580 V. G. DRINFEL'D" 未收；Prop 6.2 陈述整段斜体（印刷样式）。
+
+## p.021（PDF p.21 / 印刷 p.581）
+
+- PNG：audit-redo/p021.png（pngmono 150dpi）；600dpi 仲裁：audit-redo/300dpi/Drinfeld_1974_elliptic_modules_p021_alphad.png（Δ_2 ⊅ Δ_1 与 coordinates (α_1,…,α_2) 行）、…_p021_alpha_i.png（α_i = (3−c)/4^i for i > 1 行）
+- 核对：Prop 6.2 证明主体（distance from x to the ith point = 1 − α_i、V_Δ^c ∩ Φ(Q) ≠ ∅ ⟹ Δ ⊂ Φ、ρ(x,y) < 1、ρ(z,x) ≤ 1、ρ(y,z) < 2、Δ ∪ Φ simplex、Δ_1/Δ_2 dimensions k_1−1/k_2−1、k_2 ≤ k_1、jth point of Φ in Δ_1 − Δ_2、coordinates (α_1,…,α_2)、display α_j ≥ (3−c)/4^{k_1} and Σ_{i≠j} α_i ≥ 1 − (1+c)/4^{k_2}、Σ_1^d α_i = 1、M_k first k points、α_i = (3−c)/4^i for i > 1、∩_{k=1}^d V_{M_k}^c、α_1 ≥ α_2 ≥ ⋯ ≥ α_d、α_n ≥ (3−c)/4^n、x ∈ V_{M_n}^c □）、§6B 开头（discrete group factorization）、Prop 6.3 及证明（B^G Tate、C tensor product、G-invariant epimorphism C → B、C^G Tate、B finite over C^G □）、Prop 6.4 陈述（Max B_2 ⊂ Max B_1、open imbedding、Max B_2 ⋘ Max B_1）及证明（basis theorem [8]、φ: Max B_1 → Max K{t_1,…,t_r}、|t_i| ≤ 1 − ε、s_ij jth symmetric function in translations φ*(t_i)、identity polydisc、radius 1 − ε □）、G\Max B 段（Y = G\X、φ = ψ∘π、Z = ∪Z_i 断行）。
+- 结果：FAIL（印刷忠实性回退 1 处 + 关系符 1 处）。① Prop 6.2 证明（MD 行 713）：印刷为 "with coordinates **(α_1, …, α_2)**"（600dpi alphad 裁片：下标为 2，无升部），原矿忠实作 α_2，Luna "修复"为 α_d 违反印刷忠实；已 Edit 回退为 `$(\alpha_1, \ldots, \alpha_2)$`。**erratum 登记**：数学上应为 α_d（坐标组通篇 α_1,…,α_d，见同页后文两处 α_d），印刷此处误排下标 2，按原样保留。② 同行 "with Δ_2 ⊅ Δ_1"：600dpi 印刷为 ⊃ 带斜线、无 eq 底横（⊅）；MD（原矿即如此）作 `\not\supseteq`（⊉ 有底横）；已 Edit 为 `\not\supset`。
+- 重核 Luna 修复：display 分母 4^{k_1}/4^{k_2}、M_k 段 α_i = (3−c)/4^i（600dpi alpha_i 确认 i）、∩_{k=1}^d V_{M_k}^c、α_n ≥ (3−c)/4^n、Prop 6.3/6.4 各式（含 translations 一词印刷原样、Max K{t_1,…,t_r}、⋘ 紧包含符）均与页图相符。
+- 另记（PASS± 级伪影，不改）：页眉 "581 V. G. DRINFEL'D" 未收；Prop 6.3/6.4 陈述整段斜体（印刷样式）；"By a basis theorem [8]" 印刷原样（冠词 a 前无 the，语法 quirk）。
