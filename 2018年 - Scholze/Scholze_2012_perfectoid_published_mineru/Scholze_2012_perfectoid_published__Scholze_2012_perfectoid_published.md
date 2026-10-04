@@ -1902,41 +1902,41 @@ Proof. — The same proof as for Proposition 2.4.4 of [22] works, except that on
 
 As in [22], Corollary 2.4.6, this gives the following corollary.
 
-Corollary 7.18. — Let the situation be as in Definition 7.14, and let$\mathrm { F } _ { i }$be a sheafofabelian groups on$\mathbf { X } _ { i , \mathrm { e t } } ,$, with preimages$\mathrm { F } _ { j }$on$\mathrm { X } _ { j , \mathrm { e t } } f o r j \ge i$and F on$\mathrm { X } _ { \mathrm { e t } }$. Then the natural mapping
+Corollary 7.18. — Let the situation be as in Definition 7.14, and let$\mathrm { F } _ { i }$be a sheaf of abelian groups on$\mathbf { X } _ { i , \mathrm { e t } }$, with preimages$\mathrm { F } _ { j }$on$\mathrm { X } _ { j , \mathrm { e t } }$for$j \ge i$and F on$\mathrm { X } _ { \mathrm { e t } }$. Then the natural mapping
 
 $$
 \varinjlim \mathrm{H} ^ {n} (\mathrm{X} _ {j, \text { ét }}, \mathrm{F} _ {j}) \rightarrow \mathrm{H} ^ {n} (\mathrm{X} _ {\text { ét }}, \mathrm{F})
 $$
 
-is bijectivefor all$n \geq 0$
+is bijective for all$n \geq 0$.□
 
 In some cases, one can even say more.
 
-Corollary 7.19. — Assume that in the situation ofDefinition 7.14 all transition maps$\mathrm { X } _ { j } \to \mathrm { X } _ { i }$ induce purely inseparable extensions on completed residuefields and homeomorphisms$| \mathrm { X } _ { j } | \to | \mathrm { X } _ { i } |$. Then $\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is equivalent to$\mathrm { X } _ { i , \mathrm { e t } } ^ { \sim } { f o r }$any i.
+Corollary 7.19. — Assume that in the situation of Definition 7.14 all transition maps$\mathrm { X } _ { j } \to \mathrm { X } _ { i }$ induce purely inseparable extensions on completed residue fields and homeomorphisms$| \mathrm { X } _ { j } | \to | \mathrm { X } _ { i } |$. Then $\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is equivalent to$\mathrm { X } _ { i , \mathrm { e t } } ^ { \sim }$for any i.
 
-Proof. — Use the remark after Proposition 2.3.7 of [22].
+Proof. — Use the remark after Proposition 2.3.7 of [22].□
 
 ## 8. An example: toric varieties
 
 Let us recall the definition of a toric variety, valid over any field k.
 
-Definition 8.1. — A toric variety over$k$is a normal separated scheme X offinite type over k with an action ofa split torus$\mathrm { T } \cong \mathbf { G } _ { m } ^ { k }$on X and a point$x \in \mathrm { X } ( k )$with trivial stabilizer in T, such that the T-orbit$\mathrm { T } \cong \mathrm { T } x = \mathrm { U } \subset \mathrm { X }$of x is open and dense.
+Definition 8.1. — A toric variety over$k$is a normal separated scheme X of finite type over k with an action of a split torus$\mathrm { T } \cong \mathbf { G } _ { m } ^ { k }$on X and a point$x \in \mathrm { X } ( k )$with trivial stabilizer in T, such that the T-orbit$\mathrm { T } \cong \mathrm { T } x = \mathrm { U } \subset \mathrm { X }$of x is open and dense.
 
 We recall that toric varieties may be described in terms of fans.
 
-Definition 8.2. — Let N be afree abelian group offinite rank.
+Definition 8.2. — Let N be a free abelian group of finite rank.
 
-(i) A strongly convex polyhedral cone σ in N ⊗ R is a subset oftheform$\sigma = \mathbf { R } _ { \geq 0 } x _ { 1 } + \cdot \cdot \cdot +$ ${ \bf R } _ { \geq 0 } x _ { n } f o r$certain$x _ { 1 } , \ldots , x _ { n } \in \mathrm { N } _ { \cdot }$, subject to the condition that σ contains no line through the origin.
+(i) A strongly convex polyhedral cone σ in N ⊗ R is a subset of the form$\sigma = \mathbf { R } _ { \geq 0 } x _ { 1 } + \cdot \cdot \cdot +$ ${ \bf R } _ { \geq 0 } x _ { n }$for certain$x _ { 1 } , \ldots , x _ { n } \in \mathrm { N }$, subject to the condition that σ contains no line through the origin.
 
-(ii) Afan  in$\mathbf { N } \otimes \mathbf { \mathbf { R } }$is a nonemptyfinite collection ofstrongly convex polyhedral cones stable under takingfaces, and such that the intersection ofany two cones in$\Sigma$is aface ofboth of them.
+(ii) Afan  in$\mathbf { N } \otimes \mathbf { R }$is a nonempty finite collection of strongly convex polyhedral cones stable under taking faces, and such that the intersection of any two cones in$\Sigma$is a face of both of them.
 
-Let$\mathbf { M } = \mathrm { H o m } ( \mathrm { N } , \mathbf { Z } )$be the dual lattice. To any strongly convex polyhedral cone $\sigma \subset \mathbf { N } \otimes \mathbf { R }$, one gets the dua$\sigma ^ { \vee } \subset \operatorname { M } \otimes \mathbf { R }$, and we associate to σ the variety
+Let$\mathbf { M } = \mathrm { H o m } ( \mathrm { N } , \mathbf { Z } )$be the dual lattice. To any strongly convex polyhedral cone $\sigma \subset \mathbf { N } \otimes \mathbf { R }$, one gets the dual$\sigma ^ { \vee } \subset \mathbf { M } \otimes \mathbf { R }$, and we associate to σ the variety
 
 $$
 \mathrm{U} _ {\sigma} = \operatorname{Spec} k \left[ \sigma^ {\vee} \cap \mathrm{M} \right].
 $$
 
-We denote the function on$\mathrm { U } _ { \sigma }$corresponding to$u \in \sigma ^ { \vee } \cap \mathbf { M }$by$\chi ^ { u }$. If τ is a face of$\sigma$, then$\sigma ^ { \vee } \subset \tau ^ { \vee } ,$, inducing an open immersion$\mathrm { U } _ { \tau } \to \mathrm { U } _ { \sigma }$. These maps allow us to glue a variety$\mathrm { X } _ { \Sigma }$associated to any fan . Note that$\mathrm { T } = \mathrm { U } _ { \{ 0 \} } = \mathrm { S p e c } k [ \mathrm { M } ]$is a torus, which acts on$\mathrm { X } _ { \Sigma }$with open dense orbit$\mathrm { U } _ { \{ 0 \} } \subset \mathrm { X } _ { \Sigma }$. Also T has the base point$1 \in \mathrm { T } .$, giving a point$x \in \mathrm { X } ( k )$, making$\mathrm { X } _ { \Sigma }$a toric variety. Let us recall the classification of toric varieties.
+We denote the function on$\mathrm { U } _ { \sigma }$corresponding to$u \in \sigma ^ { \vee } \cap \mathbf { M }$by$\chi ^ { u }$. If τ is a face of$\sigma$, then$\sigma ^ { \vee } \subset \tau ^ { \vee }$, inducing an open immersion$\mathrm { U } _ { \tau } \to \mathrm { U } _ { \sigma }$. These maps allow us to glue a variety$\mathrm { X } _ { \Sigma }$associated to any fan . Note that$\mathrm { T } = \mathrm { U } _ { \{ 0 \} } = \mathrm { S p e c } k [ \mathrm { M } ]$is a torus, which acts on$\mathrm { X } _ { \Sigma }$with open dense orbit$\mathrm { U } _ { \{ 0 \} } \subset \mathrm { X } _ { \Sigma }$. Also T has the base point$1 \in \mathrm { T }$, giving a point$x \in \mathrm { X } ( k )$, making$\mathrm { X } _ { \Sigma }$a toric variety. Let us recall the classification of toric varieties.
 
 Theorem 8.3. — Any toric variety over$k$is canonically isomorphic to$\mathrm { X } _ { \Sigma } f o r$a uniquefan  in$\mathbf { X } _ { \ast } ( \mathrm { T } ) \otimes \mathbf { R }$
 
