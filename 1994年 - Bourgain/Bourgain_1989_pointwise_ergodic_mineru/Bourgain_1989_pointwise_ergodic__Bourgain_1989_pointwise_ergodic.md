@@ -1443,7 +1443,7 @@ Thus the $\ell^1 (\mathbf{Z})$-norm is bounded by $\sum_{r = 0}^{q - 1}\sum_{j\i
 Lemma 7.13. — Let $1 < q < \mathbf{D}$. Then, with the notation (7.3),
 
 $$
-\left| \left| \sum_ {0 \leqslant a <   q} S \left(\frac {a}{q}\right) \int w _ {N} \left(\alpha - \frac {a}{q}\right) \zeta \left(D \left(\alpha - \frac {a}{q}\right)\right) e ^ {2 \pi i \alpha x} d \alpha \right| \right| _ {\ell^ {1} (Z)} <   G.\tag{7.14}
+\left| \left| \sum_ {0 \leqslant a <   q} S \left(\frac {a}{q}\right) \int w _ {N} \left(\alpha - \frac {a}{q}\right) \zeta \left(D \left(\alpha - \frac {a}{q}\right)\right) e ^ {2 \pi i \alpha x} d \alpha \right| \right| _ {\ell^ {1} (Z)} <   \mathrm{C}.\tag{7.14}
 $$
 
 Proof. — Apply (7.10) with  $\mathbf{F}(\beta) = w_{\mathbf{N}}(\beta) \zeta(\mathbf{D}\beta)$ . It follows from (7.3) that  $w_{\mathbf{N}}(\beta)$  is the Fourier transform of the image measure  $v_{N}$  under the mapping  $p(Ny) : [0, 1] \to \mathbb{R}$ . Hence  $FF = v_{N} * (\mathcal{F}^{-1}[\zeta])_{D}$  and (7.12) is bounded by
