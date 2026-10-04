@@ -1670,7 +1670,7 @@ $$
 Z (M) \lesssim_ {\epsilon} M ^ {d s + d + \epsilon} + M ^ {2 d s - d (d + 1) + \epsilon}.\tag{A.1}
 $$
 
-Indeed this follows from the result of Guo-Zhang on summing over the possible values of$\textstyle \sum _ { i = 1 } ^ { 2 s } ( - 1 ) ^ { i } x ^ { ( i ) }$ We will deduce (1.10) from this last estimate.
+Indeed this follows from the result of Guo-Zhang on summing over the possible values of$\textstyle \sum _ { i = 1 } ^ { 2 s } ( - 1 ) ^ { i } x ^ { ( i ) }$. We will deduce (1.10) from this last estimate.
 
 For generic$\left( \alpha _ { i j } \right)$we have
 
@@ -1681,7 +1681,7 @@ $$
 by estimating the measure of the set of exceptional α for which this fails, and taking the union over T, N of the form$2 ^ { k }$. For$T \geq 2$the right-hand side above is
 
 $$
-\asymp N ^ {\epsilon} T ^ {1 + \epsilon} \int_ {0 \leq \alpha_ {i j} \leq 1} \dots \int_ {x \in \mathbf {T} ^ {d}} \sup _ {x \in \mathbf {T} ^ {d}} \left| K _ {N} ^ {(d)} (1, x) \right| ^ {2 s} d \alpha_ {1 1} d \alpha_ {1 2} \dots d \alpha_ {d d},\tag{A.3}
+\asymp N ^ {\epsilon} T ^ {1 + \epsilon} \int_ {0 \leq \alpha_ {i j} \leq 1} \dots \int \sup _ {x \in \mathbf {T} ^ {d}} \left| K _ {N} ^ {(d)} (1, x) \right| ^ {2 s} d \alpha_ {1 1} d \alpha_ {1 2} \dots d \alpha_ {d d},\tag{A.3}
 $$
 
 using the fact that the last integrand is 1-periodic in each$\alpha _ { i j }$. Now, by the same argument as (3.2), we have
