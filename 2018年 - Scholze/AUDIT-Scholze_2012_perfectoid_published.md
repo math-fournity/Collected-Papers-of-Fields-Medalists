@@ -662,3 +662,15 @@
   8. gluing 段："$\mathrm Y ␣ \mathrm X$"缺箭头→$\to$；"$\mathrm { B y }$Proposition"（By 入 math）→By 出 math（p.300 段行）
   9. tensoring 段："$\otimes _ { \mathbb { R } } \mathrm S$"（blackboard R 系误字族）→$\otimes _ { \mathrm { R } } \mathrm S$（print 耦合下标为正体 R）（p.300 末段）
 - 备注：两个正合列 display 与 print 逐字符一致；\widehat{k(x)}/\widehat{k(x^♭)} 三处 hat 在 MD 中完好（print 有 hat，PNG 确认）；行 1847（"(iii) This is a formal consequence…"）属印刷 p.301，留待 p.057。
+## p.057（PDF p.57 / 印刷 p.301）
+- PNG：audit/p057.png（pngmono 150dpi）
+- 核对：页眉 PERFECTOID SPACES/301；Theorem 7.9 (iii) 收尾+QED □；"We see in particular…characteristic 0" 段；Proposition 7.10+Proof+QED □；"Finally, we can define the étale site…"；Definition 7.11（X_ét、topos X^~_ét.）；"The previous results show…" 段（morphism of sites X_ét→Y_ét ×2）；"After these preparations…"；Theorem 7.12（tilt X^♭ over K^♭、X^~_ét ≅ X^♭_ét、functorial）；Proof "This is immediate."+QED □；"The almost vanishing of cohomology…Proposition 6.14…"；Proposition 7.13（U↦O_U(U) sheaf、H^i(X_ét,O_X^{∘a})=0 for i>0）；Proof（正合列 display 0→O_X(X)^{∘a}→∏_i→∏_{i,j}→⋯、étale U_i→X、char p、p-finite、bounded ϖ-power、perfection almost exact）+ QED □
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复；1 处控制字节遗留见第 6 条，以原图为准）：
+  1. (iii) 尾 ". -"→".□"；Prop 7.10 "ofLemma"→"of Lemma"、Proof 尾 ". -"→".□"（print 均有 tombstone）
+  2. Definition 7.11：句末补句点（print "denoted X^~_ét."）；"The previous results"段末句补句点（print "X_ét → Y_ét."）
+  3. Theorem 7.12："isfunctorial"→"is functorial"（其余 X^♭/K^♭/≅ MD 均正确）
+  4. Proof 尾 "This is immediate."补 QED □（print 有 tombstone）
+  5. Proposition 7.13：**"the sheaf$\mathrm { \Delta U } \mapsto …$"伪 Δ 删**（print "U ↦ O_U(U)"）；"$\mathrm { X } _ { \mathrm { e t } } ,$, and"双逗号→单；"$\mathcal O_X^{o a}$"→"$\mathcal O_X^{\circ a}$"（print 上标 ∘a）；"= 0 f o r i > 0"散字出 math→"= 0$ for$i > 0$"；"ifX/affinoidperfectoid"补空格（p.301 Prop 行原图）
+  6. **控制字节登记**：行 1877 "exact up to a bounded \x0b -power"（ϖ 丢失，print "bounded ϖ-power"，PNG 确认；hexdump 实测 64 20 0b 20 2d）——\x0b Edit 通道无法表达，登记待字节级修复（\x0b→$\varpi$）
+  7. 同段："characteristic${ p , }$"伪花括号→"characteristic$p$,"；尾"almost exact.-"→"almost exact.□"（p.301 Proof 行）
+- 备注：正合列 display 与 print 逐字符一致；行 1879（"To make use of the étale site…"）属印刷 p.302，留待 p.058。

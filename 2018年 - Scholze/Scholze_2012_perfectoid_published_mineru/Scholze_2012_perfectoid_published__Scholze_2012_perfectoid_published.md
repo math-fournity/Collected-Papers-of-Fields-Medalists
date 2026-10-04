@@ -1844,29 +1844,29 @@ $$
 
 Because S is flat over R, tensoring is exact, and the first sequence is identified with the second sequence after$\otimes _ { \mathrm { R } } \mathrm { S }$. Therefore$\mathrm { A } = \mathrm { S }$, as desired.
 
-(iii) This is a formal consequence of part (ii), Proposition 7.6 and Theorem 5.25. -
+(iii) This is a formal consequence of part (ii), Proposition 7.6 and Theorem 5.25.□
 
 We see in particular that any (finite) étale morphism of perfectoid spaces is strongly (finite) étale. Now one can also pullback étale maps between adic spaces in characteristic 0.
 
-Proposition 7.10. — Parts (iii) and (iv) ofLemma 7.3 stay true in characteristic 0.
+Proposition 7.10. — Parts (iii) and (iv) of Lemma 7.3 stay true in characteristic 0.
 
-Proof. — The same proof as for Lemma 7.3 works, using Theorem 7.9(iii). -
+Proof. — The same proof as for Lemma 7.3 works, using Theorem 7.9(iii).□
 
 Finally, we can define the étale site of a perfectoid space.
 
-Definition 7.11. — Let X be a perfectoid space. Then the étale site of X is the category$\mathrm { X } _ { \mathrm { e t } }$of perfectoid spaces which are étale over$\mathrm { X } ,$and coverings are given by topological coverings. The associated topos is denoted$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$
+Definition 7.11. — Let X be a perfectoid space. Then the étale site of X is the category$\mathrm { X } _ { \mathrm { e t } }$of perfectoid spaces which are étale over$\mathrm { X } ,$and coverings are given by topological coverings. The associated topos is denoted$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$.
 
-The previous results show that all conditions on a site are satisfied, and that a morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$. Also, a morphism$f : \mathrm { X } \to \mathrm { Y }$from a perfectoid space X to a locally noetherian adic space Y induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$
+The previous results show that all conditions on a site are satisfied, and that a morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$. Also, a morphism$f : \mathrm { X } \to \mathrm { Y }$from a perfectoid space X to a locally noetherian adic space Y induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$.
 
 After these preparations, we get the technical main result.
 
-Theorem 7.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then the tilting operation induces an isomorphism of sites$\mathrm { X } _ { \mathrm { e t } } \cong \mathrm { X } _ { \mathrm { e t } } ^ { \flat }$. This isomorphism isfunctorial in X.
+Theorem 7.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then the tilting operation induces an isomorphism of sites$\mathrm { X } _ { \mathrm { e t } } \cong \mathrm { X } _ { \mathrm { e t } } ^ { \flat }$. This isomorphism is functorial in X.
 
-Proof. — This is immediate.
+Proof. — This is immediate.□
 
 The almost vanishing of cohomology proved in Proposition 6.14 extends to the étale topology.
 
-Proposition 7.13. — For any perfectoid space X over K, the sheaf$\mathrm { \Delta U } \mapsto { \mathcal { O } } _ { \mathrm { U } } ( \mathrm { U } )$is a sheaf $\mathcal { O } _ { \mathrm { X } }$on$\mathrm { X } _ { \mathrm { e t } } ,$, and$\mathrm { H } ^ { i } ( \mathrm { X } _ { \mathrm { e t } } , \mathcal { O } _ { \mathrm { X } } ^ { o a } ) = 0 f o r i > 0$ifX is affinoidperfectoid.
+Proposition 7.13. — For any perfectoid space X over K, the sheaf$\mathrm { U } \mapsto { \mathcal { O } } _ { \mathrm { U } } ( \mathrm { U } )$is a sheaf $\mathcal { O } _ { \mathrm { X } }$on$\mathrm { X } _ { \mathrm { e t } }$, and$\mathrm { H } ^ { i } ( \mathrm { X } _ { \mathrm { e t } } , \mathcal { O } _ { \mathrm { X } } ^ { \circ a } ) = 0$ for$i > 0$if X is affinoid perfectoid.
 
 Proof. — It suffices to check exactness of
 
@@ -1874,7 +1874,7 @@ $$
 0 \to \mathcal {O} _ {\mathrm{X}} (\mathrm{X}) ^ {\circ a} \to \prod_ {i} \mathcal {O} _ {\mathrm{U} _ {i}} (\mathrm{U} _ {i}) ^ {\circ a} \to \prod_ {i, j} \mathcal {O} _ {\mathrm{U} _ {i} \times_ {\mathrm{X}} \mathrm{U} _ {j}} (\mathrm{U} _ {i} \times_ {\mathrm{X}} \mathrm{U} _ {j}) ^ {\circ a} \to \dots
 $$
 
-for any covering of an affinoid perfectoid X by finitely many étale$\mathrm { U } _ { i } \to \mathrm { X }$given as rational subsets of finite étale maps to rational subsets of X. Under tilting, this reduces to the assertion in characteristic${ p , }$and then to the assertion for p-finite$( \mathrm { R } , \mathrm { R } ^ { + } )$. In that case, one uses that the analogous sequence for noetherian adic spaces is exact up to a bounded  -power, and hence after taking the perfection almost exact.-
+for any covering of an affinoid perfectoid X by finitely many étale$\mathrm { U } _ { i } \to \mathrm { X }$given as rational subsets of finite étale maps to rational subsets of X. Under tilting, this reduces to the assertion in characteristic$p$, and then to the assertion for p-finite$( \mathrm { R } , \mathrm { R } ^ { + } )$. In that case, one uses that the analogous sequence for noetherian adic spaces is exact up to a bounded  -power, and hence after taking the perfection almost exact.□
 
 To make use of the étale site of a perfectoid space, we have to compare the étale sites of perfectoid spaces with those of locally noetherian adic spaces. This is possible under a certain assumption, cf. Section 2.4 of [22] for an analogous result.
 
