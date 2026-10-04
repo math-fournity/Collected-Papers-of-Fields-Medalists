@@ -648,3 +648,17 @@
   6. Theorem 7.9 头："Theorem${ \bf 7 . 9 . { - } } L e t \left( { \bf R , R ^ { + } } \right)$"乱码→"Theorem 7.9. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$"；**"with tilt X<sup>-</sup>"→"with tilt$\mathrm { X } ^ { \flat }$"（print 为 X^♭，♭ 被误读为连字符，同 p.019 K<sup>-</sup> 型伪影）**（p.299 定理行原图）
   7. (i)："$\mathrm { ~ U ~ C ~ X ~ } ,$, "（伪 C 系 ⊂、游离",$,"）→"$\mathrm { U } \subset \mathrm { X }$,"；"afullyfaithfulfunctorfrom"→"a fully faithful functor from"（p.299 (i) 行）
 - 备注：U⁰/V⁰ 的上标 0（pdftotext 文本层与 MinerU 一致为 0，PNG 150dpi 小字形难辨 0/∘）不作改动；行 1813 起（Theorem 7.9 (ii)）属印刷 p.300，留待 p.056。
+## p.056（PDF p.56 / 印刷 p.300）
+- PNG：audit/p056.png（pngmono 150dpi）
+- 核对：页眉 300/PETER SCHOLZE；Theorem 7.9 (ii)（equivalence of categories）(iii)（S/R finite étale cover ⇒ S perfectoid、S^{∘a} finite étale over R^{∘a}、uniformly almost finitely generated module）；Proof (i)（Prop 7.6+Thm 5.25、O_X(U)^{∘a}-algebras full subcategory）；(ii)（U=X、fix finite étale R-algebra S、V→U strongly finite étale cover、O_X(U)⊗_R S）；k(x)^ 完备化段（\widehat{k(x)} hat 在 MD 中完好）；By Theorem 3.7 段（\widehat{k(x)}_fét 与 \widehat{k(x^♭)}_fét、X^♭、x^♭）；2−lim display（下标 x∈U 两侧）；In particular 段（V^♭/U^♭、hats、tilts、Shrinking U、V→U）；cover X=⋃U_i 段（S_i=O_X(U_i)⊗_R S、S_i^+ 积分闭包、V_i=Spa(S_i,S_i^+)）；gluing 段（U′⊂U_i、Y→X、Spa(A,A⁺)、sheaf property）；正合列 display ×2（0→A→∏⊗_R S→∏⊗_R S. 与 0→R→∏→∏.）；tensoring 段（A=S, as desired）
+- 结果：**FAIL**（OCR 数学内容错误，已当页修复，以原图为准）：
+  1. (ii)："thisfunctor/ofcategories"补空格；(iii)："almostfinitely"补空格；"$\mathrm R^{\circ a} ␣ – m o d u l e .$"（en-dash 乱码+散字+伪'.$'）→$\mathrm R^{\circ a}$-module.（p.300 (ii)(iii) 行）
+  2. Proof (i)："$\mathcal O_X(\mathrm U)^{\circ a} .$-algebras"伪'.$'删；"$\mathcal O_X(\mathrm U) {\cdot} \mathrm { a l g e b r a s } .$"（·-algebras 散字乱码）→$\mathcal O_X(\mathrm U)$-algebras.（p.300 Proof 行原图）
+  3. (ii) 段："$\mathrm V ␣ \mathrm U$"缺箭头→$\to$×2（"cover V→U"与页中"étale V→U."）；句末补句点（print "over O_X(U)."）
+  4. By Theorem 3.7 段："$x ^ { \mathrm { { b } } }$"→"$x ^ { \flat }$"（b 系 ♭ 误读，同句 k(x^♭)/X^♭ 均正确，MinerU 混排）（p.300 段行）
+  5. 2−lim display：下标 "_{\text {fet}}"×2→"_{\text {fét}}"（print 带尖音符 fét，与全篇 display 一致；同 p.027/p.268 fét 修复实践）；其余（x∈U 下标、X^♭/U^♭、句点）与 print 一致
+  6. In particular 段："ofS"→"of S"、"}$resp."→"$ resp."、"ofthe"→"of the"；"$\mathrm { \Delta V ^ { \flat } }$"伪 Δ 删；句末补句点（p.300 In particular 行）
+  7. cover 段："$\mathrm X = \cup \mathrm U_i$"→$\bigcup$（print 大并集）；"$\mathrm S_i \mathrm { ; }$"（\mathrm 分号散字）→"$\mathrm S_i$; then"；句末补句点（print "V_i = Spa(S_i,S_i^+)."）
+  8. gluing 段："$\mathrm Y ␣ \mathrm X$"缺箭头→$\to$；"$\mathrm { B y }$Proposition"（By 入 math）→By 出 math（p.300 段行）
+  9. tensoring 段："$\otimes _ { \mathbb { R } } \mathrm S$"（blackboard R 系误字族）→$\otimes _ { \mathrm { R } } \mathrm S$（print 耦合下标为正体 R）（p.300 末段）
+- 备注：两个正合列 display 与 print 逐字符一致；\widehat{k(x)}/\widehat{k(x^♭)} 三处 hat 在 MD 中完好（print 有 hat，PNG 确认）；行 1847（"(iii) This is a formal consequence…"）属印刷 p.301，留待 p.057。

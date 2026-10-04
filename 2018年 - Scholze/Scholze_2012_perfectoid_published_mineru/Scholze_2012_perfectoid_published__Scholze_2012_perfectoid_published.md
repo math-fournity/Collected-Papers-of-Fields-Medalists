@@ -1810,27 +1810,27 @@ Theorem 7.9. — Let$( \mathrm { R } , \mathrm { R } ^ { + } )$be a perfectoid a
 
 (i) For any open affinoid perfectoid subspace$\mathrm { U } \subset \mathrm { X }$, we have a fully faithful functor from the category of strongly finite étale covers of U to the category of finite étale covers of${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$, given by taking global sections.
 
-(ii) For any U, thisfunctor is an equivalence ofcategories.
+(ii) For any U, this functor is an equivalence of categories.
 
-(iii) For any finite étale cover$\mathrm { S } / \mathrm { R } , \mathrm { S }$is perfectoid and$\mathrm { S } ^ { \circ a }$is finite étale over$\mathrm { R } ^ { \circ a }$. Moreover, $\mathrm { S } ^ { \circ a }$is a uniformly almostfinitely generated$\mathrm { R } ^ { \circ a }  – m o d u l e .$
+(iii) For any finite étale cover$\mathrm { S } / \mathrm { R } , \mathrm { S }$is perfectoid and$\mathrm { S } ^ { \circ a }$is finite étale over$\mathrm { R } ^ { \circ a }$. Moreover, $\mathrm { S } ^ { \circ a }$is a uniformly almost finitely generated$\mathrm { R } ^ { \circ a }$-module.
 
-Proof. — (i) By Proposition 7.6 and Theorem 5.25, the perfectoid spaces strongly finite étale over U are the same as the finite étale$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a } .$-algebras, which are a full subcategory of the finite étale$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) { \cdot } \mathrm { a l g e b r a s } .$
+Proof. — (i) By Proposition 7.6 and Theorem 5.25, the perfectoid spaces strongly finite étale over U are the same as the finite étale$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a }$-algebras, which are a full subcategory of the finite étale$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } )$-algebras.
 
-(ii) We may assume that$\mathrm { U } = \mathrm { X }$. Fix a finite étale R-algebra S. First we check that for any$x \in \mathrm { X }$, we can find an affinoid perfectoid neighborhood$x \in \mathrm { U } \subset \mathrm { X }$and a strongly finite étale cover$\mathrm { V }  \mathrm { U }$which gives via (i) the finite étale algebra$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) \otimes _ { \mathrm { R } } \mathrm { S }$over ${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$
+(ii) We may assume that$\mathrm { U } = \mathrm { X }$. Fix a finite étale R-algebra S. First we check that for any$x \in \mathrm { X }$, we can find an affinoid perfectoid neighborhood$x \in \mathrm { U } \subset \mathrm { X }$and a strongly finite étale cover$\mathrm { V } \to \mathrm { U }$which gives via (i) the finite étale algebra$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) \otimes _ { \mathrm { R } } \mathrm { S }$over ${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$.
 
 As a first step, note that we have an equivalence of categories between the direct limit of the category of finite étale${ \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } )$-algebras over all affinoid perfectoid neighborhoods U of x and the category of finite étale covers of the completion$\widehat { k ( x ) }$of the residue field at x, by Lemma 7.5(i). The latter is a perfectoid field.
 
-By Theorem 3.7, the categories$\widehat { k ( x ) } _ { \mathrm { f e t } }$and$\widehat { k ( x ^ { \flat } ) } _ { \mathrm { f e t } }$are equivalent, where$k ( x ^ { \flat } )$is the residue field of$\mathrm { X } ^ { \flat }$at the point$x ^ { \mathrm { { b } } }$corresponding to x. Combining, we see that
+By Theorem 3.7, the categories$\widehat { k ( x ) } _ { \mathrm { f e t } }$and$\widehat { k ( x ^ { \flat } ) } _ { \mathrm { f e t } }$are equivalent, where$k ( x ^ { \flat } )$is the residue field of$\mathrm { X } ^ { \flat }$at the point$x ^ { \flat }$corresponding to x. Combining, we see that
 
 $$
-2 - \varinjlim_ {x \in \mathrm{U}} \bigl (\mathcal {O} _ {\mathrm{X}} (\mathrm{U}) \bigr) _ {\text {fet}} \cong 2 - \varinjlim_ {x \in \mathrm{U}} \bigl (\mathcal {O} _ {\mathrm{X} ^ {\flat}} \bigl (\mathrm{U} ^ {\flat} \bigr) \bigr) _ {\text {fet}}.
+2 - \varinjlim_ {x \in \mathrm{U}} \bigl (\mathcal {O} _ {\mathrm{X}} (\mathrm{U}) \bigr) _ {\text {fét}} \cong 2 - \varinjlim_ {x \in \mathrm{U}} \bigl (\mathcal {O} _ {\mathrm{X} ^ {\flat}} \bigl (\mathrm{U} ^ {\flat} \bigr) \bigr) _ {\text {fét}}.
 $$
 
-In particular, we can find$\mathrm { V } ^ { \flat }$finite étale over$\mathrm { U } ^ { \flat }$for some U such that the pullbacks ofS to $\widehat { k ( x ) }$resp. ofthe global sections of$\mathrm { \Delta V ^ { \flat } }$to$\widehat { k ( x ^ { \flat } ) }$are tilts; but then, they are already identified over some smaller neighborhood. Shrinking U, we untilt to get the desired strongly finite étale$\mathrm { V }  \mathrm { U }$
+In particular, we can find$\mathrm { V } ^ { \flat }$finite étale over$\mathrm { U } ^ { \flat }$for some U such that the pullbacks of S to $\widehat { k ( x ) }$ resp. of the global sections of$\mathrm { V } ^ { \flat }$to$\widehat { k ( x ^ { \flat } ) }$are tilts; but then, they are already identified over some smaller neighborhood. Shrinking U, we untilt to get the desired strongly finite étale$\mathrm { V } \to \mathrm { U }$.
 
-This shows that there is a cover${ \mathrm { X } } = \cup { \mathrm { U } } _ { i }$by finitely many rational subsets and strongly finite étale maps$\mathrm { V } _ { i } \to \mathrm { U } _ { i }$such that the global sections of$\mathrm { V } _ { i }$are$\mathrm { S } _ { i } = { \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } _ { i } ) \otimes _ { \mathrm { R } }$ S. Let${ \mathrm { S } } _ { i } ^ { + }$be the integral closure of${ \mathcal { O } } _ { \mathrm { X } } ^ { + } ( \mathrm { U } _ { i } )$in$\mathrm { S } _ { i } \mathrm { ; }$then$\mathrm { V } _ { i } = \mathrm { S p a } ( \mathrm { S } _ { i } , \mathrm { S } _ { i } ^ { + } )$
+This shows that there is a cover${ \mathrm { X } } = \bigcup { \mathrm { U } } _ { i }$by finitely many rational subsets and strongly finite étale maps$\mathrm { V } _ { i } \to \mathrm { U } _ { i }$such that the global sections of$\mathrm { V } _ { i }$are$\mathrm { S } _ { i } = { \mathcal { O } } _ { \mathrm { X } } ( \mathrm { U } _ { i } ) \otimes _ { \mathrm { R } }$ S. Let${ \mathrm { S } } _ { i } ^ { + }$be the integral closure of${ \mathcal { O } } _ { \mathrm { X } } ^ { + } ( \mathrm { U } _ { i } )$in$\mathrm { S } _ { i }$; then$\mathrm { V } _ { i } = \mathrm { S p a } ( \mathrm { S } _ { i } , \mathrm { S } _ { i } ^ { + } )$.
 
-By Lemma 7.3(ii), the pullback of$\mathrm { V } _ { i }$to some affinoid perfectoid$\mathrm { U } ^ { \prime } \subset \mathrm { U } _ { i }$has the same description, involving$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ^ { \prime } ) \otimes _ { \mathrm { R } } \mathrm { S }$, and hence the$\mathrm { V } _ { i }$glue to some perfectoid space Y over X, and$\mathrm { Y }  \mathrm { X }$is strongly finite étale.$\mathrm { B y }$Proposition 7.6, Y is affinoid perfectoid, i.e.$\mathrm { Y = S p a ( A , A ^ { + } ) }$, with$( \mathrm { A } , \mathrm { A } ^ { + } )$an affinoid perfectoid K-algebra. It suffices to show that$\mathrm { A } = \mathrm { S }$. But the sheaf property of$\mathcal { O } _ { \mathrm { Y } }$gives us an exact sequence
+By Lemma 7.3(ii), the pullback of$\mathrm { V } _ { i }$to some affinoid perfectoid$\mathrm { U } ^ { \prime } \subset \mathrm { U } _ { i }$has the same description, involving$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ^ { \prime } ) \otimes _ { \mathrm { R } } \mathrm { S }$, and hence the$\mathrm { V } _ { i }$glue to some perfectoid space Y over X, and$\mathrm { Y } \to \mathrm { X }$is strongly finite étale. By Proposition 7.6, Y is affinoid perfectoid, i.e.$\mathrm { Y = S p a ( A , A ^ { + } ) }$, with$( \mathrm { A } , \mathrm { A } ^ { + } )$an affinoid perfectoid K-algebra. It suffices to show that$\mathrm { A } = \mathrm { S }$. But the sheaf property of$\mathcal { O } _ { \mathrm { Y } }$gives us an exact sequence
 
 $$
 0 \to \mathrm{A} \to \prod_ {i} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i}) \otimes_ {\mathrm{R}} \mathrm{S} \to \prod_ {i, j} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i} \cap \mathrm{U} _ {j}) \otimes_ {\mathrm{R}} \mathrm{S}.
@@ -1842,7 +1842,7 @@ $$
 0 \to \mathrm{R} \to \prod_ {i} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i}) \to \prod_ {i, j} \mathcal {O} _ {\mathrm{X}} (\mathrm{U} _ {i} \cap \mathrm{U} _ {j}).
 $$
 
-Because S is flat over R, tensoring is exact, and the first sequence is identified with the second sequence after$\otimes _ { \mathbb { R } } \mathrm { S }$. Therefore$\mathrm { A } = \mathrm { S }$, as desired.
+Because S is flat over R, tensoring is exact, and the first sequence is identified with the second sequence after$\otimes _ { \mathrm { R } } \mathrm { S }$. Therefore$\mathrm { A } = \mathrm { S }$, as desired.
 
 (iii) This is a formal consequence of part (ii), Proposition 7.6 and Theorem 5.25. -
 
