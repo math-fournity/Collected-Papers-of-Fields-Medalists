@@ -1081,7 +1081,7 @@ $$
 C (u) \left(t, x _ {1}, \dots , x _ {q}\right) = K ^ {p} (b, u) \left(0, \dots , 0, t \varepsilon , 0, \dots , 0, x _ {1}, \dots , x _ {q}\right).
 $$
 
-On vérifie immédiatement que l'on a bien une construction subordonnée au lacet  $v(t) = b(0, \cdots, 0, t\varepsilon, 0, \cdots, 0)$  où  $t\varepsilon$  est à la i-ème place. Si nous notons  $S_{c,b,i,e}$  l'endomorphisme de  $C(F)$  attaché à cette construction, on a donc;
+On vérifie immédiatement que l'on a bien une construction subordonnée au lacet  $v(t) = b(0, \cdots, 0, t\varepsilon, 0, \cdots, 0)$  où  $t\varepsilon$  est à la i-ème place. Si nous notons  $S_{c,b,i,\varepsilon}$  l'endomorphisme de  $C(F)$  attaché à cette construction, on a donc;
 
 $$
 S _ {c, b, i, \varepsilon} u _ {\alpha} = F ^ {p - 1} \lambda_ {i} ^ {\varepsilon} K ^ {p} (b, u _ {\alpha}),

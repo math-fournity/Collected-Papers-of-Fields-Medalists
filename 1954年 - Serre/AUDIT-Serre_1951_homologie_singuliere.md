@@ -244,3 +244,14 @@
   - MD 正确项：同裁剪确证展示式指数 **2p+1**、λ_{p+1}^0/λ_{p+1}^1 下标与末尾逗号，与 MD 逐项一致。
 - 差异：除上述 1 处外无。
 - 备注：本页 THÉORÈME 1 为全篇核心定理之一，陈述全文逐句核对无差；md 行 1042 起 "Ecrivons d'abord un cycle m …" 与 z、dz 两展示式属印刷 p.450，留待 p.027。
+
+## p.027（PDF p.27 / 印刷 p.450）
+- PNG：audit/p027.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p027_dz_600.png、p027_deux_600.png、p027_Sc_600.png、p027_Sc2_600.png、p027_Sc3_600.png、p027_Sc4_600.png、p027_donc2_600.png（600dpi）
+- 核对：Ecrivons d'abord un cycle m 段（m = Σ_α g_α u_α、y = b ⊗ m）；z = Σ_α g_α K^p(b, u_α)；dz = Σ_{α,i=1}^{n} (−1)^i g_α[λ_i^0 K^p(b, u_α) − λ_i^1 K^p(b, u_α)]；décomposer 段（Σ_{i≦p} + Σ_{i>p}、λ_i^ε K^p(b, u_α) = K^p(b, λ_{i−p}^ε u_α)、Σ_{α,i=1}^{q} g_α(−1)^i(λ_i^0 u_α − λ_i^1 u_α)、nulle dans C(E)）；dz = Σ_{α,i=1}^{p} …；filtration ≦ p − 1 与 φ^{p−1} 段（φ^{p−1}(u) = B^{p−1}u ⊗ F^{p−1}u）；B^{p−1}λ_i^ε K^p(b, u_α) et F^{p−1}λ_i^ε K^p(b, u_α) (i ≦ p)；Le premier … λ_i^ε b 段与 (F^{p−1}λ_i^ε K^p(b, u_α))(x₁, ⋯, x_q) = K^p(b, u_α)(0, ⋯, 0, ε, 0, ⋯, 0, x₁, ⋯, x_q)；où ε est à la i-ème place；construction u → C(u) 定义式 C(u)(t, x₁, ⋯, x_q) = K^p(b, u)(0, ⋯, 0, tε, ⋯)；On vérifie 段（v(t) = b(0, ⋯, 0, tε, 0, ⋯, 0)、S_{c,b,i,ε} l'endomorphisme、on a donc;）；S_{c,b,i,ε} u_α = F^{p−1}λ_i^ε K^p(b, u_α),；t = Σ_{α,i=1}^{p} (−1)^i g_α[(λ_i^0 b) ⊗ S_{c,b,i,0} u_α − (λ_i^1 b) ⊗ S_{c,b,i,1} u_α]；Notons T_{b,i,ε} 段；(3) d₁x = Σ_{i=1}^{p} (−1)^i(λ_i^0 b ⊗ T_{b,i,0}h − λ_i^1 b ⊗ T_{b,i,1}h)
+- 结果：FAIL（已当场修复 1 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 1084 "$S_{c,b,i,e}$" 的下标末位罗马字母 e：600dpi（p027_Sc4_600.png）确认印刷为希腊 **ε**（两弧开口字形），与 md 行 1087 展示式及行 1096 自身的 "$S_{c,b,i,\varepsilon}$" 一致；Edit 修复为 "$S_{c,b,i,\varepsilon}$"（同 p.017 λ^e→λ^ε 类误读）。
+- 仲裁记录（MD 正确项）：①行 1054 "l'expression Σ_{α,i=1}^{q}…" 上限 600dpi（p027_deux_600.png）确认印刷为 **q**（u_α 为 F 的 q 维立方），MD 正确；②同裁剪确认 λ_{i−p}^ε 下标 i−p；③dz 首展示式上限 n（p027_dz_600.png）；④t 展示式两 S_{c,b,i,0}/S_{c,b,i,1} 下标与 λ_i^0 b/λ_i^1 b 括号（p027_Sc_600.png）；⑤(3) 式结构与 \tag{3} 对应印刷左侧编号。
+- PASS± 项（print quirk 登记，不修）：①印刷行 14 句末作 "on a **donc;**"（分号，按文意应为冒号；p027_donc2_600.png 清晰）——印刷自身标点笔误，md 行 1084 忠实保留 "donc;"；②行 1054 同行内 \epsilon 与 \varepsilon 混用（λ_i^{\epsilon} vs \varepsilon=0,1）——字母变体排版级；③md 行 1062–1068 把 "(i ≦ p)" 拆成独立展示式——线性化伪影。
+- 差异：除已修复 1 处外无。
+- 备注：md 行 1102 起 "Si le système local … (3′) d₁x = (db) ⊗ h" 与 PROPOSITION 5、THÉORÈME 2 属印刷 p.451，留待 p.028。
