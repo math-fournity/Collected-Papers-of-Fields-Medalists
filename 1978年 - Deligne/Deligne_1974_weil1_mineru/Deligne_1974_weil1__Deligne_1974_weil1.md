@@ -635,7 +635,7 @@ $$
 
 β) des transformations de monodromie T: H$^{i}$(X$_{t}$, Z) → H$^{i}$(X$_{t}$, Z), qui décrivent l'effet sur les cycles singuliers de X$_{t}$ de « faire tourner t autour de o ». C'est encore l'action sur H$^{i}$(X$_{t}$, Z), fibre en t du système local R$^{i}$f$_{*}$$\underline{\mathbf{Z}}$|D\*, du générateur positif de $\pi_{1}$(D\*, t).
 
-La théorie de Lefschetz décrit $\alpha$) et $\beta$) en terme du cycle évanescant $\delta\in\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$. Ce cycle est bien défini au signe près. Pour $i\neq n$, $n+1$, on a
+La théorie de Lefschetz décrit $\alpha$) et $\beta$) en terme du cycle évanescent $\delta\in\mathrm{H}^{n}(\mathbf{X}_{t},\mathbf{Z})$. Ce cycle est bien défini au signe près. Pour $i\neq n$, $n+1$, on a
 
 $$
 \mathrm{H} ^ {i} \left(\mathrm{X} _ {0}, \mathbf {Z}\right) \stackrel {{\sim}} {{\rightarrow}} \mathrm{H} ^ {i} \left(\mathrm{X} _ {t}, \mathbf {Z}\right) \quad (i \neq n, n + 1).
@@ -677,7 +677,7 @@ $$
 
 Les données (4.2.1), (4.2.2) décrivent entièrement les faisceaux  $R^{i}f_{*}Q_{\ell}$  sur S.
 
-(4.3) Posons $n = 2m$ pour $n$ pair, et $n = 2m + 1$ pour $n$ impair. (4.2.1) et (4.2.2) se décrivent encore en terme d'un cycle évanescant
+(4.3) Posons $n = 2m$ pour $n$ pair, et $n = 2m + 1$ pour $n$ impair. (4.2.1) et (4.2.2) se décrivent encore en terme d'un cycle évanescent
 
 $$
 \delta \in \mathrm{H} ^ {n} (\mathrm{X} _ {\overline {{\eta}}}, \mathbf {Q} _ {\ell}) (m).\tag{4.3.1}
@@ -773,9 +773,9 @@ Pour chaque $s\in\mathbf{S}$, la théorie de Lefschetz locale (4.1) s'applique d
 
 (5.2) On pose U=D-S. Soit  $u \in U$ , et choisissons des lacets disjoints  $(\gamma_{s})_{s \in S}$  partant de u, avec  $\gamma_{s}$  tournant une fois autour de s :
 
-![](images/page_18_image_6.jpg)
+![](Deligne_1974_weil1/images/page_18_image_6.jpg)
 
-Ces lacets engendrent le groupe fondamental $\pi_{1}(\mathbf{U},u)$. Ce groupe agit sur $\mathrm{H}^{i}(\mathbf{X}_{u},\mathbf{Z})$, fibre en $u$ du système local $\mathbb{R}^{i}f_{*}\mathbf{Z}|\mathbf{U}$. D'après la théorie locale (4.1), à chaque $s\in S$ correspond un cycle évanescent $\delta_{s}\in\mathrm{H}^{n}(\mathbf{X}_{u},\mathbf{Z})$; ces cycles dépendent du choix des $\gamma_{s}$. Pour $i\neq n$, l'action de $\pi_{1}(\mathbf{U},u)$ sur $\mathrm{H}^{i}(\mathbf{X}_{u},\mathbf{Z})$ est triviale. Pour $i=n$, on a
+Ces lacets engendrent le groupe fondamental $\pi_{1}(\mathbf{U},u)$. Ce groupe agit sur $\mathrm{H}^{i}(\mathbf{X}_{u},\mathbf{Z})$, fibre en $u$ du système local $\mathrm{R}^{i}f_{*}\mathbf{Z}|\mathbf{U}$. D'après la théorie locale (4.1), à chaque $s\in S$ correspond un cycle évanescent $\delta_{s}\in\mathrm{H}^{n}(\mathbf{X}_{u},\mathbf{Z})$; ces cycles dépendent du choix des $\gamma_{s}$. Pour $i\neq n$, l'action de $\pi_{1}(\mathbf{U},u)$ sur $\mathrm{H}^{i}(\mathbf{X}_{u},\mathbf{Z})$ est triviale. Pour $i=n$, on a
 
 $$
 \gamma_ {s} x = x \pm (x, \delta_ {s}) \delta_ {s}.\tag{5.2.1}
@@ -787,7 +787,7 @@ Proposition (5.3). — E est stable sous l'action du groupe de monodromie $\pi_{
 
 Les $\gamma_{s}$ engendrant le groupe de monodromie, c'est clair sur (5.2.1).
 
-Théorème (5.4). — Les cycles évanescents ±δs (pris au signe près) sont conjugués sous l'action de π₁(U, u).
+Théorème (5.4). — Les cycles évanescents $\pm\delta_{s}$ (pris au signe près) sont conjugués sous l'action de π₁(U, u).
 
 Soit $\check{\mathbf{X}}\subset\check{\mathbf{P}}$ la variété duale de $\mathbf{X}$: c'est l'ensemble des $t\in\check{\mathbf{P}}$ tels que $\mathbf{H}_{t}$ soit tangent à $\mathbf{X}$, i.e. tels que $\mathbf{X}_{t}$ soit singulier, ou que $\mathbf{X}\subset\mathbf{H}_{t}$. La variété $\check{\mathbf{X}}$ est irré-
 
