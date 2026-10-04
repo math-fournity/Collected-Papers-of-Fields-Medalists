@@ -279,3 +279,13 @@
   - **跨页字形张力（登记待后续页留意）**：p.018 Theorem 11 处已按 `\mathfrak{M}_{\lambda_0}` 提交（当时 300dpi 仲裁记录为下标 λ₀ 正确）；本页同记号印刷为草书 ℳ_{λ₀}。两页证据图（p018.png/p024.png）均在档；本块不对已提交页改判，III.3 后续页遇 `𝔐_{λ₀}` 一律先 300dpi 仲裁再定 Fraktur/草书。
   - 排版级伪影（登记不改）：**Corollary 17.**/*Proof.* 粗斜体拍平；斜体陈述段拍平。
 - 修复登记：行 922 两处 `\mathfrak{M}`→`\mathscr{M}`；行 925 两处 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；行 951 三处 `\mathfrak{M}`/`\mathfrak{M}_{\lambda_0}`→`\mathscr{M}`/`\mathscr{M}_{\lambda_0}`（依据 `audit-redo/p024.png` + 300dpi 裁片×3）。
+
+### p.025（PDF p.25 / 印刷 p.303）
+
+- PNG：`audit-redo/p025.png`（pngmono 150dpi）；字形仲裁：300dpi 裁片×3（Prop 18 首句、(ii) 句 Ω²₋ 与 ℳ_{λ₀}、Theorem 19/Proof 的四个显示式，结论记于本条）
+- 核对：Proposition 18 (i)(ii)(iii) 全文；Proof (i)(ii)(iii)（re-statement 句、ω/ω′ 比较段含 ‖d*_Aω‖²_{L²}=μ(A) 与 ‖d*_θω′‖²_{L²}⩾μ₁‖ω′‖²_{L²}、[18, Proposition 8.8] 句、L⁴-norm 变换句、(1/|y|^{[4−δ(r)]}) 显示式）；Theorem 19 与 p 显示式、is a covering map 句；Proof 开头与 dp:(T𝔐)_{[A]}→(TX)_{x(A)}×R、§II.2 句、α:(TX)_{x(A)}×R→(T𝔐)_{[A]}、dp∘α invertible 句、式(1)（\tag{1}，III.3 节内重新编号系印刷原样）、α 定义段与 V=β_{r/2}(v^i+φx^i)∂/∂x^i 显示式
+- 结果：**PASS±**（含八处修复：6 处草书 ℳ 误作 Fraktur + 2 处 Ω²₋ 上标/伴生 (𝔤) 修复）。
+  - 与页图一致：`[A]\to\theta` in `C^\infty(X\setminus B(x(A),r))`、`\|F(A)\|_{L^4}\leqslant\mathrm{const.}\lambda(A)^{-1}`、`\omega'=(1-\beta_r)\omega`、`B(x(A),r)`、`(1/|y|^{[4-\delta(r)]})`、`p\colon\mathscr{M}_{\lambda_0}\to X\times(0,\lambda_0)`（修复后）、`(T\mathscr{M})_{[A]}`（修复后）、`§II`/`§II.2` 罗马 II、`|(dp\circ\alpha)\xi-\xi|<|\xi|` for all `\xi\in TX\times\mathbf{R}`（\tag{1}）、`\delta(r)<1`、`V=\beta_{r/2}(v^i+\phi x^i)\frac{\partial}{\partial x^i}`。
+  - **修复×8**：① 行 953 `[A]\in\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；② 行 957 第一处 `\Omega_-(\mathfrak{g})`→`\Omega^2_-(\mathfrak{g})`（300dpi 确认印刷有上标 ²，同 p.008 行 263/269 缺陷类）；③ 行 957 第二处 `\Omega_-(\mathfrak{g})`→`\Omega^2_-`（300dpi 确认印刷**无** (𝔤)，Δ on Ω²₋ 后直接接 as）；④ 行 957 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；⑤ 行 976 显示式 `\mathfrak{M}_{\lambda_0}`→`\mathscr{M}_{\lambda_0}`；⑥ 行 984 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`；⑦ 行 987 `[A]\in\mathfrak{M}`→`\mathscr{M}`；⑧ 行 990 `(T\mathfrak{M})_{[A]}`→`(T\mathscr{M})_{[A]}`（均 300dpi 圆弧草书裁决）。
+  - 排版级伪影（登记不改）：*Let*/*covering map*/*Proof.* 斜体拍平；**Proposition 18.**/**Theorem 19.** 粗体拍平。
+- 修复登记：行 953、957、976、984、987、990（详见上，共 8 处；依据 `audit-redo/p025.png` + 300dpi 裁片×3）。

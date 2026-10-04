@@ -950,11 +950,11 @@ where H is the Hessian corresponding to the minimum at t = 0.
 
 To conserve notation we will allow ourselves to rechoose the positive number $\lambda_0$ throughout the rest of this section, to give the space $\mathscr{M}_{\lambda_0}$ the desired properties. In any case $\mathscr{M} \setminus \mathscr{M}_{\lambda_0}$ is compact by Theorem 13.
 
-Proposition 18. Let $[A] \in \mathfrak{M}_{\lambda_0}$.
+Proposition 18. Let $[A] \in \mathscr{M}_{\lambda_0}$.
 
 (i) Given $r > 0$, $[A] \to \theta$ in $C^\infty(X \setminus B(x(A), r))$ as $\lambda(A) \to 0$.
 
-(ii) The first eigenvalue $\mu(A)$ of $\Delta_A$ on $\Omega_-(\mathfrak{g})$ tends to the first eigenvalue $\mu_1$ of $\Delta$ on $\Omega_-(\mathfrak{g})$ as $\lambda(A) \to 0$. Since $\mu_1 > 0$, $\mathfrak{M}_{\lambda_0}$ is a smooth 5-manifold for $\lambda_0$ sufficiently small by the discussion of §II.
+(ii) The first eigenvalue $\mu(A)$ of $\Delta_A$ on $\Omega^2_-(\mathfrak{g})$ tends to the first eigenvalue $\mu_1$ of $\Delta$ on $\Omega^2_-$ as $\lambda(A) \to 0$. Since $\mu_1 > 0$, $\mathscr{M}_{\lambda_0}$ is a smooth 5-manifold for $\lambda_0$ sufficiently small by the discussion of §II.
 
 (iii) $\| F(A)\|_{L^4}\leqslant \mathrm{const.}\lambda (A)^{-1}.$
 
@@ -973,7 +973,7 @@ to be integrable at infinity.
 Theorem 19. For sufficiently small $\lambda_0$,
 
 $$
-p \colon \mathfrak {M} _ {\lambda_ {0}} \rightarrow X \times (0, \lambda_ {0})
+p \colon \mathscr{M} _ {\lambda_ {0}} \rightarrow X \times (0, \lambda_ {0})
 $$
 
 is a covering map.
@@ -981,13 +981,13 @@ is a covering map.
 Proof. First note that Theorem 13 implies that p is a proper map, and it is easy to see that a proper local homeomorphism is a (finite) covering, so it suffices to prove that
 
 $$
-d p \colon (T \mathfrak {M}) _ {[ A ]} \rightarrow (T X) _ {x (A)} \times \mathbf {R}
+d p \colon (T \mathscr{M}) _ {[ A ]} \rightarrow (T X) _ {x (A)} \times \mathbf {R}
 $$
 
-is an isomorphism for $[A] \in \mathfrak{M}$, $\lambda(A)$ sufficiently small. By the application of the index theorem described in §II.2 we know each space is 5-dimensional, so it suffices again to exhibit a linear map:
+is an isomorphism for $[A] \in \mathscr{M}$, $\lambda(A)$ sufficiently small. By the application of the index theorem described in §II.2 we know each space is 5-dimensional, so it suffices again to exhibit a linear map:
 
 $$
-\alpha \colon (T X) _ {x (A)} \times \mathbf {R} \to (T \mathfrak {M}) _ {[ A ]}
+\alpha \colon (T X) _ {x (A)} \times \mathbf {R} \to (T \mathscr{M}) _ {[ A ]}
 $$
 
 such that $dp \circ \alpha$ is invertible, which will certainly be true if
