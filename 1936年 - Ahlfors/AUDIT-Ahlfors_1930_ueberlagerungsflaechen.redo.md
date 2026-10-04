@@ -325,4 +325,18 @@
 - 结果：PASS±（2 处修复后与印刷一致）。
 - 页界：本页止于 (B₁) 式（MD 行 659 吻合，页底留白）；「22. Wir werden jetzt zeigen…」起为 p.026 内容。
 
+### p.026（PDF p.26 / 印刷 p.182）
+
+- audited_at=2026-10-03 20:05 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p026.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p026_tag11_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p026_ref11_300dpi.png`。
+- 核对：页眉（182 / Lars Ahlfors.）、编号段 22（「zeigen dass」无逗号措辞照排 ✓）、μ_i 条件段（Δ₁,…,Δ_q、μ_i-mal、μ_i-blättrig）、Ungleichung 段（S(Δ_i)≧n(Δ_i)≧μ_i p(Δ_i)、p(Δ_i)≦(1/μ_i)S+kL、(B) 引用）、display 式 (q−2−Σ₁^q 1/μ_i)S≦kL（无标点 ✓）、mit einem neuen Wert 段（「als dass」无逗号照排 ✓）、斜体定理段（Die Fläche W* sei so beschaffen…der Bedingung）、公式 (11)（左侧标签 (11)、Σ₁^q(1−1/μ_i)>2、无标点 ✓）、genügen 斜体句、五组最小数段（(2,2,2,2,2)、(2,2,2,3)、(2,3,7)、(2,4,5)、(3,3,4)、Δ₁/Δ₂/Δ₃、(11) 引用）、Der soeben bewiesene Satz 段（Δ_i→a_i、斜体 Resultat 句页末断词「einfach zu-」）。
+- 发现并修复（MD 结构化 Edit，2 处）：
+  1. 行 677 `\tag{II}` → `\tag{11}`——300dpi 裁片确证左侧标签两字形均为短杆旧式数字 **11**（与式内 1/μ_i 分子同高，非高衬线罗马 I）；编号序列 …(9)(10)(11)(12)…（\tag 表 9→10→II→12 位置即 11）与正文「Ungleichung (11)」引用互证（p.008 I/1 同类，编号制度=纯阿拉伯序号）。
+  2. 行 682 正文引用「(II)」→「(11)」——同页 300dpi 裁片同形旧式 11。
+- 保留登记（PASS± 排版级，不修）：定理段与 genügen/Resultat 句印刷斜体丢失（系统性）；关系号 ≧/≦ 转写 \geq/\leq（p.003 先例）。
+- 与 Luna 旧记录交叉：旧 p.026 判 FAIL 并已修 3 处 `\mathrm{I}`→1——本次原页重核确认与印刷一致维持；公式标签 (II)/(11) 误转写系旧审计未检出项，本次修复。
+- 范围外交接登记（不改）：行 534（p.021 内容）正文引用「(I) und (II)」为裸编号，MD 中不存在对应 `\tag{I}`/`\tag{II}` 公式；p.021 前段已按页图判 ✓（印刷如此）。结合本页 (11) 的新证，建议全文复读阶段结合上下文再核该引用的语义指向（p.023-031 范围外，本次不动）。
+- 结果：PASS±（2 处修复后与印刷一致）。
+- 页界：本页止于「…einfach zu-」（断词跨页，MD 行 684 吻合）；次页续。
+
 <!-- redo-tail -->

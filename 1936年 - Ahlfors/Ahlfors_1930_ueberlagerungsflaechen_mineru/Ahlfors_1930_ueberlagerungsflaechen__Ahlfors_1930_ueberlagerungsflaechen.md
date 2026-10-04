@@ -674,12 +674,12 @@ mit einem neuen Wert von k. Wenn nun der linksstehende Koeffizient positiv ist, 
 Die Fläche $W^{*}$ sei so beschaffen, dass jede über dem Gebiet $\Delta_{i}$ gelegene, einfach zusammenhängende Insel wenigstens $\mu_{i}$-blättrig ist, wobei die Zahlen $\mu_{i}$ der Bedingung
 
 $$
-\sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2\tag{II}
+\sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2\tag{11}
 $$
 
 genügen. Dann gibt es keine reguläre Ausschöpfung von $W^{*}$.
 
-Es gibt fünf verschiedene Systeme von möglichst kleinen Zahlen $\mu_{i}$, die der Ungleichung (II) genügen. Sie sind folgende: $(2, 2, 2, 2, 2)$, $(2, 2, 2, 3)$, $(2, 3, 7)$, $(2, 4, 5)$ und $(3, 3, 4)$. In den drei letzten Fällen ist derjenige Sonderfall enthalten, wo es drei Gebiete $\Delta_{1}, \Delta_{2}, \Delta_{3}$ gibt, über denen gar keine Inseln liegen.
+Es gibt fünf verschiedene Systeme von möglichst kleinen Zahlen $\mu_{i}$, die der Ungleichung (11) genügen. Sie sind folgende: $(2, 2, 2, 2, 2)$, $(2, 2, 2, 3)$, $(2, 3, 7)$, $(2, 4, 5)$ und $(3, 3, 4)$. In den drei letzten Fällen ist derjenige Sonderfall enthalten, wo es drei Gebiete $\Delta_{1}, \Delta_{2}, \Delta_{3}$ gibt, über denen gar keine Inseln liegen.
 
 Der soeben bewiesene Satz bleibt wie die Ungleichung (B) gültig, wenn man die Gebiete  $\Delta_{i}$  durch Punkte  $a_{i}$  ersetzt. Wir formulieren nur das folgende, besonders anschauliche Resultat: Eine über die Kugel ausgebreitete, einfach zu-
 
