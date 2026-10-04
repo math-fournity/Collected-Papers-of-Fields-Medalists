@@ -261,3 +261,31 @@
 - 核对："References" 标题、文献 [1]–[30] 共 30 条逐条逐字（作者/题名/期刊名斜体范围/卷期年份页码/标点），重点：[1][2][20][21] Götze、[12] Gérard、[23] Müller、[3][5][8][12][16][24] Schrödinger 等重音字符，[8] ℓ² decoupling，[14] "Comm. Pure Appl. Math., 72: 801-834."，[17] "Franke, Y. I. Manin, and Y. Tschinkel"，[22] "Invent. math. 218, 1–81 (2019)."，[24] "H¹(T³)" 与 "159 (2011) 329-349"（无 no.），[25] "NLS on T³"，[27] "Canadian J. Math. 1, (1949). 344-364."，[28] "23.6 (2013) 1962-2024"，[29] "No 106 (2006)"，[30] "Bull. Amer. Math. Soc. 81 (1975), 477-478"
 - 结果：**PASS**。30 条文献与印刷逐字一致，无一处差异；本篇重做以来第二个无瑕疵页（前一为 p.021）。print quirk 忠实保留（印刷原样、MD 一致）：[22] 期刊名小写 "Invent. math." 与 "218, 1–81 (2019)" 的年置尾格式；[27] "1, (1949)." 的逗号＋句点组合；[28] "23.6" 期号连写与 "1962-2024" 无 no.；[14] "72: 801-834" 卷页格式；[24]/[25] 的 T³ 经 300dpi＋600dpi 两级仲裁确认为**斜体数学 T**（与 H¹ 同风格，非粗体、非黑板体），MD 普通斜体 `T^{3}` 忠实。残余瑕疵：无。
 - 备注：Luna 旧修复抽核通过——Luna 基线登记的 "Götze、Gérard、Müller、Schrödinger 的重音误识，Reference [3] nonlinear 漏 r" 在当前 MD（L1723/L1745/L1767 等）均已不存在；另登记 Luna 行 33 写 "References [1]–[27]" 与实际页不符（印刷 p.33 实含全部 [1]–[30]，p.34 仅有作者地址），属 Luna 页界归属笔误，不影响其修复内容。
+
+## p.034（PDF p.34 / 印刷 p.34）
+- PNG：audit-redo/p034.png（pngmono 150dpi）＋ 300dpi 仲裁裁片 audit-redo/p034_300dpi_zip.png ＋ pdftotext 文本层对账
+- 核对：四位作者地址块逐字——(Y. Deng) 与 (P. Germain) 的 "Courant Institute of Mathematical Sciences, New York University, 251 Mercer Street, New York, N.Y. 10012-1185, USA"＋Email yudeng@/pgermain@cims.nyu.edu；(L. Guth) 的 "Massachusetts Institute of Technology, Department of Mathematics, 77 Massachusetts Avenue, Cambridge, MA 02139-4307, USA"＋Email larry.guth.work@gmail.com；(S. L. Rydin Myerson) 的 "Mathematisches Institut, Georg-August-Universität Göttingen, Bunsenstraße 3-5, D-37073 Göttingen, Deutschland"＋Email myerson@goettingen.de；页其余部分为空白
+- 结果：**PASS**。四条地址与 Email 逐字一致（含 "Email address:" 斜体标签、邮编 "10012-1185" 经 300dpi 裁片确证非 1155、ß/ü 变音字符、小写 email 域名 goettingen.de）。**收稿日期核验**：印刷 p.34 无任何 "Received"/"Communicated by" 行（本 PDF 为 arXiv:1810.05630v3 版式，首页以后无编辑部信息），MD 亦无——前块预告的"收稿日期"核对项在印刷中不存在，按实登记，不视为缺失。残余瑕疵：无。
+- 备注：Luna 旧修复抽核通过——Luna 基线登记的 "Rydin Myerson 的 Universität/Göttingen/Bunsenstraße 重音字符和空格错位" 在当前 MD（L1789）均已不存在。
+
+## 本块小结（p.028–p.034 重做完成；至此 p.001–p.034 页级条目齐全）
+
+- 覆盖：PDF p.28–p.34（印刷页码同），逐页 150dpi pngmono PNG 全览＋逐页 pdftotext 文本层对账（双通道主对账，文本层可用），疑难处升级仲裁共 14 张裁片：p028 Δ 展开式（300dpi）、p029 Σ 条件归属/≼ 行/句号行/结束框（4×300dpi）、p030 Thm 7.1 行/|Ω| 端（2×300dpi）、p031 ≠0 行/Guo–Zhang 积分式（2×300dpi）、p032 x^{(i)} 行/(A.2)/(A.3)/≼_α 行（4×300dpi）、p033 文献 24/25 的 T³（300dpi＋600dpi 两级）、p034 邮编（300dpi）。
+- 页级结论：p.028–p.032 共 5 页 **PASS±**（合计修复 11 处），p.033/p.034 共 2 页 **PASS**（0 修复），0 FAIL。§6.6、§7（Theorem 7.1 与 Pall p=10 论证）、Appendix A（(A.1)–(A.3) 与 Guo–Zhang 推导链）、文献 [1]–[30]、作者地址全部与印刷逐项一致。
+- 本次净修复 **11 处**（每处可溯源对应页 PNG/裁片证据；逐页 commit 的 git diff 恰为下列各项）：
+  1. L1492（p.28）Δ 展开式 `\binom` 两行→`\left(\begin{array}{c}` 三行，补回漏掉的第三行 `(h_1^2V_1−h_0^2V_0)U_2+(h_0^2U_0−h_1^2U_1)V_2`（300dpi 确证印刷为三行括号栈）
+  2. L1530（p.29）Σ₀ 大 display 条件归属：范围条件 1≤T≤N²; 1≤M≤T²; 1≤G≤K²; G≤H≤T 从第二 Σ 归位第一个 Σ；U₀≲N²/K² 归位第二 Σ（h₀,h₂∼K）；gcd(h₁²,h₀²U₀)≳G 归位第三 Σ（h₁∼K）
+  3. L1530（p.29）≼-侧 Σ 补挂同四条范围条件
+  4. L1539（p.29）"at most$GT/HK²+1$" 后补句号
+  5. L1565（p.29）"N^{1/2}≤K≤N" 后补句号＋行尾 □（Lemma 6.7 证明结束框）
+  6. L1579（p.30）Theorem 7.1 行 "Generically in$(α_{ij})$" 后补逗号
+  7. L1590（p.30）display 末 |\Omega^{5,N,+}_{a,b,A₁,B₁,C₁}| 补闭合竖线
+  8. L1625（p.31）`\ne 0 .$.` 双句点→`\ne 0$.`
+  9. L1658（p.31）Guo–Zhang display：α,β 条件从外层 Σ 下标归位 ∫ 下标，清除多余 `\Big|`
+  10. L1673（p.32）`$x^{(i)}$` 后补句号
+  11. L1684（p.32）(A.3) 末 ∫ 删除多余 `_{x∈\mathbf{T}^d}` 下标（印刷中该下标仅属 sup）
+- print quirk 忠实保留（本块新登记，页图/裁片确认为印刷原样）："there is at most M/TK² choices"（p.28）；L^p([0,T]) 与 L^{10} 原刊自身混用、L1570 \tilde 帽宽差（p.30，同 L209 先例）；Pall 式内层条件无撇 A,B,C（p.31）；**(A.2) 被积项印为 I_s(T)**（p.32，疑原刊笔误，按纪律原样保留）；"exponenetial"、"intepret"（p.32）；[22] "Invent. math. 218, 1–81 (2019)."、[27] "1, (1949). 344-364."、[28] "23.6 (2013) 1962-2024"、[14] "72: 801-834"、[24] "159 (2011) 329-349" 无 no.（p.33）；[24]/[25] 斜体 T³（300＋600dpi 两级仲裁，非粗体非黑板体）；p.34 无收稿日期行（arXiv v3 版式即无，前块预告项落空登记）。
+- Luna 旧修复重核：p.028–p.034 登记项（罗马体 U₂、h₁²V₁ 横线、指数拆字、∼ 漏录、L^p 保留判断、Σzᵢ²=m、β 帽、if/is/get、dim V 冒号、exponenetial/intepret 保留判断、文献重音、nonlinear 漏 r、地址字符错位）逐页抽样全部确认已修复或判断正确；发现 Luna 页界笔误 1 处（其行 33 写 "References [1]–[27]"，印刷 p.33 实含 [1]–[30]）。
+- 收尾只读清点：`$$` 定界行 490（偶）；`\tag` 51；C0 控制字符 0；HTML sub/sup 残留 0；1,789 行（行数不变：11 处修复均为行内替换）。MD SHA-256 由 83516511bf2493964979b79f88a8081857d2bcecab7f0fb2f633e2529d479138 变为 e4bbb6817231e24e0f0474c5e9cfc77cfced58728e8c40bee1877a901fa99dda。中断 session 遗留的未跟踪 audit-redo/p028.png 经 cmp 与本块管线重渲染逐字节一致，直接沿用入库。
+- 范围声明：本块覆盖 p.28–p.34；至此本篇 34 页页级条目齐全（p.001–p.034）。全篇总评与全文复读收据（含根级 AUDIT-INDEX/AUDIT-PROGRESS 更新）属后续步骤，本文件在本块不对其作结论。
+- 格式登记：本文件第 223–227 行存在前块 closeout 提交带入的 p.010–p.018 块小结重复尾块（经 git log -L 核实系 19cc9b73/e0fb726e 提交内容），本块按前块内容不改原则未回改，仅在此登记；本块页级条目均追加于其后，阅读时以条目自身页号为准。
