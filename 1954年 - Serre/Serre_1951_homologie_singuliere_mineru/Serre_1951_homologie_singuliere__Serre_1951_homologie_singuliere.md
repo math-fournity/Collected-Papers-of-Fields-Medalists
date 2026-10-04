@@ -1159,12 +1159,12 @@ $$
 
 et l'on définit la transgression par passage au quotient, comme il a été expliqué au Chap. I, n°3.
 
-La deuxième définition montre en particulier que $E_{n}^{n \cdot 0}$ est l'image de $H_{n}(E \mod F, G)$ dans $H_{n}(B, G)$ par la projection. Ceci peut se traduire en disant qu'un cycle $x$ de $B$ est transgressif (c'est-à-dire appartient au domaine de définition de la transgression) si et seulement s'il existe une chaîne $y$ sur $E$, se projetant sur $x$ par $E \to B$, et telle que $dy$ soit une chaîne de $F$.
+La deuxième définition montre en particulier que $E_{n}^{n,0}$ est l'image de $H_{n}(E \mod F, G)$ dans $H_{n}(B, G)$ par la projection. Ceci peut se traduire en disant qu'un cycle $x$ de $B$ est transgressif (c'est-à-dire appartient au domaine de définition de la transgression) si et seulement s'il existe une chaîne $y$ sur $E$, se projetant sur $x$ par $E \to B$, et telle que $dy$ soit une chaîne de $F$.
 
 On peut également recopier le diagramme (I) du Chap. I, en y remplaçant $A$ par $E$, $R$ par $F$, $S$ par $B$. Nous nous bornerons à écrire le diagramme suivant:
 
 $$
-\begin{array}{c c c c c} & \Big \downarrow & E _ {n} ^ {n, 0} & \xrightarrow {d _ {n}} & E _ {n} ^ {o, n - 1} \\ H _ {n} (B, G) & \xleftarrow {p *} & H _ {n} (E \bmod . F, G) & \xrightarrow {\partial} & H _ {n - 1} (F, G) \\ \uparrow & & \uparrow & & \uparrow \\ \pi_ {n} (B) \otimes G & \longleftarrow & \pi_ {n} (E \bmod . F) \otimes G & \longrightarrow & \pi_ {n - 1} (F) \otimes G \end{array}\tag{I}
+\begin{array}{c c c c c} & & E _ {n} ^ {n, 0} & \xrightarrow {d _ {n}} & E _ {n} ^ {o, n - 1} \\ \Big \downarrow & & \Big \uparrow & & \Big \uparrow \\ H _ {n} (B, G) & \xleftarrow {p *} & H _ {n} (E \bmod . F, G) & \xrightarrow {\partial} & H _ {n - 1} (F, G) \\ \uparrow & & \uparrow & & \uparrow \\ \pi_ {n} (B) \otimes G & \longleftarrow & \pi_ {n} (E \bmod . F) \otimes G & \longrightarrow & \pi_ {n - 1} (F) \otimes G \end{array}\tag{I}
 $$
 
 (On notera que $H_{n-1}(F, G) \to E_n^{0, n-1}$ est sur, et que $E^{n, 0} \to H_n(B, G)$ est biuni-voque.)

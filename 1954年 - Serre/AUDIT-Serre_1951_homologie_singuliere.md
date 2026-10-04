@@ -264,3 +264,14 @@
 - PASS± 项（排版级，不修）：md 行 1134–1140 将印刷的两行同组展示式拆为两个独立 $$ 块——线性化伪影，内容无缺损。
 - 差异：无。
 - 备注：本页含 THÉORÈME 2（Leray-Serre 经典定理），全文逐句核对无差。md 行 1142 起 "les premiers étant sur…" 属印刷 p.452，留待 p.029。
+
+## p.029（PDF p.29 / 印刷 p.452）
+- PNG：audit/p029.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p029_image_600.png、p029_diagI_600.png、p029_notera_600.png、p029_o0_600.png、p029_o0b_600.png（600dpi）
+- 核对：les premiers étant sur 段（F → E → B）；E_∞^{0,i} = E_{i+2}^{0,i} 段与 E_∞^{i,0} = E_{i+1}^{i,0} 段；La transgression 行；D'après la Prop. 2 段与 (a)（d_n: E_n^{n,0} → E_n^{0,n−1}）、(b)（H_{n−1}(F, G) ←∂— H_n(E mod. F, G) —p*→ H_n(B, G)）；transgression 定义句；La deuxième définition 段（E_n^{n,0} est l'image de H_n(E mod. F, G)…、cycle transgressif 判据）；recopier le diagramme (I) 句；图 (I) 全部节点与箭头（肘形箭头 E_n^{n,0} → H_n(B, G)；H_n(E mod. F, G) ↑ E_n^{n,0}；H_{n−1}(F, G) ↑ E_n^{0,n−1}；H_n(B, G) ←p*— H_n(E mod. F, G) —∂→ H_{n−1}(F, G)；π 行 ↑↑↑ 与 ←—/—→）；(On notera …) 括注；Ce diagramme est commutatif 段；Comme l'homomorphisme 段（π_n(E mod. F) → π_n(B) isomorphisme sur）；Toute classe d'homologie sphérique de B est transgressive 行；Un cas particulièrement simple 段（E_n^{n,0} → H_n(B, G) 与 E_n^{0,n−1} ← H_{n−1}(F, G) isomorphismes sur）
+- 结果：FAIL（已当场修复 2 处）
+- 仲裁记录与修复：
+  - **[已修复]** md 行 1162 "$E_{n}^{n \cdot 0}$"（上标 n·0，cdot）：600dpi（p029_image_600.png）确认印刷为 **E_n^{n,0}**（逗号），Edit 修复为 "$E_{n}^{n,0}$"。
+  - **[已修复]** md 行 1167 图 (I) 线性化 array 的竖直箭头结构错误：原 md 在 E 行首列 2 放一孤立 "\Big \downarrow"（悬在 p* 箭头上方），且缺印刷中 E 行与 H 行之间的全部竖直连接。600dpi（p029_diagI_600.png）确认印刷为：①肘形箭头自 E_n^{n,0} 向左折下、箭头头部 ↓ 落入 H_n(B, G)；②H_n(E mod. F, G) ↑ E_n^{n,0}；③H_{n−1}(F, G) ↑ E_n^{o,n−1}（该升箭头呼应下行括注 "H_{n−1}(F, G) → E_n^{0,n−1} est sur"）。Edit 修复为删去孤立 ↓，并在 E 行与 H 行间插入连接行 "\Big \downarrow & & \Big \uparrow & & \Big \uparrow"（列 1 的 ↓ 代表肘形箭头落入 H_n(B, G) 的下降段；肘形的水平段在线性化 array 中不可表，登记于备注）。原 md 与本页文字（transgressive 判据、isomorphisme sur 论证）矛盾，同 p.010 图 (I) 先例判 FAIL。
+- PASS± 项（print quirk 登记，不修）：①图 (I) 右上角印刷作 **E_n^{o,n−1}**（上标首字符为小写圆 o；600dpi 放大 p029_o0_600.png，与同图 E_n^{n,0} 的瘦高 0（p029_o0b_600.png）及括注行 E_n^{0,n−1} 的 0 形成对照）——原书排版笔误（数学上应为 0），md 忠实保留 "o"，不改；②(On notera …) 行印刷作 "**E^{n,0}** → H_n(B, G)"（E 无下标 n；p029_notera_600.png 清晰，对比同行 H_n 与 E_n 均有下标）——原书笔误，md 忠实保留 "$E^{n, 0}$"，不改；③md 行 1170 "biuni-voque" 保留印刷跨行连字符——排版级；④"La transgression."、"Toute classe d'homologie sphérique…" 印刷为斜体引导句，md 作正体段落——mineru 系统性丢弃该类斜体，不误导。
+- 差异：除上述 2 处已修复外无。
+- 备注：md 行 1180 起图 (I')（H_n(B, G) —d_n→ H_{n−1}(F, G)）与 La suspension、图 (II) 属印刷 p.453，留待 p.030。
