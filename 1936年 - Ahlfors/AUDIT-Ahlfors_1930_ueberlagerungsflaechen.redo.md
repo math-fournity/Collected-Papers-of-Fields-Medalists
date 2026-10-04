@@ -350,4 +350,20 @@
 - 结果：PASS±（1 处修复后与印刷一致）。
 - 页界：本页止于页末行「…und betrachten wie」+ 页底脚注 ¹/²（MD 行 698/700/702 吻合）；「in Nr. 20 ihre über W̄₀ gelegenen Teile…」起为 p.028 内容。
 
+### p.028（PDF p.28 / 印刷 p.184）
+
+- audited_at=2026-10-03 20:57 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p028.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p028_top_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p028_cref_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p028_zsh_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p028_zsh_zoom3x.png`。
+- 核对：页眉（184 / Lars Ahlfors.）、页首续句（in Nr. 20…Teile W̄、p=Σϱ⁺(W̄)+β,、ϱ⁺(W̄)、(II, 2′) 引用——逗号分隔与 p.027 (II, 1) 同制 ✓、geschlossene Kontur 括注）、display 式 p−β≦(q−2)S+kL+1.、(10) 引用（旧式 10 ✓）、斜体定理引言（Wenn die einfach zusammenhängende, offene Fläche W*…unverzweigt und unbegrenzt）、公式 (C)（左侧标签 (C)、|p−β−(q−2)S|≦kL+1. 句点在）、Wenn man den Beweis 段（「so sieht man dass」无逗号照排 ✓、β≦1）、斜体定理引言二（Verzweigungs- und Grenzpunkte…a₁,…,a_q (q≧2)）、公式 (C′)（左侧标签 (C′)、|Σ₁^q p(a_ν)−(q−2)S|≦kL+2. 句点在）、Ist a ein 段（(C′) 引用印刷斜体 C′ 非黑体、a₁,…,a_q und a）、双式 |n(a)+Σ₁^q p(a_ν)−(q−1)S|≦kL+2,（逗号在）与 (C′) 比较句、|n(a)−S|≦2kL+4.（句点在）、Die Überdeckung der a-Stellen 句、节标题 III. Die Abbildung einer offenen Fläche.（印刷黑体）、编号段 24 起始两行（**print quirk「zusammenhänge」**、z-Ebene 斜体、页末断句「…ausschöpfenden Flächen W」）。
+- 发现并修复（MD 结构化 Edit，6 处含 9 字形）：
+  1. 行 704 `\sum_{\varrho}^{+} (\overline{W})` → `\sum \stackrel {+} {\varrho} (\overline{W})`——300dpi 裁片确证加号在 ϱ 上方，mineru 把 ϱ 误作 Σ 的下标、加号误作 Σ 的上标（ϱ⁺ 同类中最重的一处结构错位）。
+  2. 行 704 `\varrho^{+}(\overline{W})` → `\stackrel {+} {\varrho}(\overline{W})`（同页第二处加号归位）。
+  3. 行 718 两处、行 723 一处、行 726 一处、行 729 一处 `_{v}` → `_{\nu}`（Δ_v/a_v/p(a_v)）——v/ν 同形，按全篇 `\nu` 主流统一（段内移交项核销）。
+  4. 行 726 `$(\mathbf{C}^{\prime})$` → `(C')`——300dpi 裁片确证印刷引用为斜体 C′，非黑体；统一为行 732 既有纯文本引用形。
+  5. 行 742 还原印刷误植「**zusammenhänge**」——2.5x 裁片确证印刷为 z-u-s-a-m-m-e-n-h-ä-n-g-e（häng 后直接接 e，无 nd）；Luna 旧修复「zusammenhänge→zusammenhängende」违反 print quirk 忠实原则，本次撤销还原（本段第二例 Luna 方向性错误，与 p.018 zasammenhängende 同类）。
+- 保留登记（PASS± 排版级，不修）：定理引言斜体、节标题 III 黑体丢失（系统性）；(II, 2′)/(II, 1) 引用逗号制式与标签 (II. 2′)/(II. 1) 句点制式并存的印刷自身变体，逐处照排。
+- 与 Luna 旧记录交叉：旧 p.028 判 FAIL（\mathrm I→1、zusammenhänge→zusammenhängende）——①经本次原页重核与印刷一致维持；②经 2.5x 裁片判定为对印刷误植的不忠实改正，已撤销还原；Σ_{ϱ}^{+} 结构错位、5 处 v/ν、\mathbf{C} 三类系旧审计未检出项。
+- 结果：PASS±（6 处修复后与印刷一致）。
+- 页界：本页止于「…wobei die ausschöpfenden Flächen W」（MD 行 742 吻合，断句跨页）；「in eine Folge von Gebieten G…」起为 p.029 内容。
+
 <!-- redo-tail -->

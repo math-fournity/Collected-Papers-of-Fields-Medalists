@@ -701,7 +701,7 @@ Wir nehmen eine Fläche W der ausschöpfenden Folge und betrachten wie
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$  Um diesen bekannten Prozess genau zu erklären müsste man eigentlich den Begriff des topologischen Baums einführen. Wir verweisen den Leser auf die eingehende Behandlung dieser Frage in der neulich erschienenen Arbeit G. ELFVING: Über eine Klasse von Riemannschen Flächen und ihre Uniformisierung (Acta Soc. Scient. Fenn., Nov. Ser. A. t. II No. 3.).</span></small>
 
-in Nr. 20 ihre über $\overline{W}_{0}$ gelegenen Teile $\overline{W}$. Es gilt wie damals $p = \sum_{\varrho}^{+} (\overline{W}) + \beta$, und die $\varrho^{+}(\overline{W})$ können mit Hilfe von (II, $2'$) nach oben abgeschätzt werden. Unter den relativen Rändern der Flächen $\overline{W}$ kommt höchstens eine geschlossene Kontur vor (wegen des einfachen Zusammenhangs von $W$), und wir erhalten folglich
+in Nr. 20 ihre über $\overline{W}_{0}$ gelegenen Teile $\overline{W}$. Es gilt wie damals $p = \sum \stackrel {+} {\varrho} (\overline{W}) + \beta$, und die $\stackrel {+} {\varrho}(\overline{W})$ können mit Hilfe von (II, $2'$) nach oben abgeschätzt werden. Unter den relativen Rändern der Flächen $\overline{W}$ kommt höchstens eine geschlossene Kontur vor (wegen des einfachen Zusammenhangs von $W$), und wir erhalten folglich
 
 $$
 p - \beta \leq (q - 2) S + k L + 1.
@@ -715,18 +715,18 @@ $$
 \left| p - \beta - (q - 2) S \right| \leq k L + 1.\tag{C}
 $$
 
-Wenn man den Beweis durchgeht, so sieht man dass der Satz seine Richtigkeit behält, wenn die Gebiete $\Delta_{v}$ sich auf Punkte $a_{v}$ reduzieren. In diesem Falle ist $\beta \leq 1$, und man findet:
+Wenn man den Beweis durchgeht, so sieht man dass der Satz seine Richtigkeit behält, wenn die Gebiete $\Delta_{\nu}$ sich auf Punkte $a_{\nu}$ reduzieren. In diesem Falle ist $\beta \leq 1$, und man findet:
 
 Wenn sämtliche Verzweigungs- und Grenzpunkte über den endlich vielen Punkten  $a_{1}, \ldots, a_{q} (q \geq 2)$  liegen, so gilt die Beziehung
 
 $$
-\left| \sum_ {1} ^ {q} p (a _ {v}) - (q - 2) S \right| \leq k L + 2.\tag{C'}
+\left| \sum_ {1} ^ {q} p (a _ {\nu}) - (q - 2) S \right| \leq k L + 2.\tag{C'}
 $$
 
-Ist $a$ ein von allen $a_{v}$ verschiedener Wert, so können wir $(\mathbf{C}^{\prime})$ auf die Werte $a_{1},\ldots ,a_{q}$ und $a$ anwenden. Es folgt
+Ist $a$ ein von allen $a_{\nu}$ verschiedener Wert, so können wir (C') auf die Werte $a_{1},\ldots ,a_{q}$ und $a$ anwenden. Es folgt
 
 $$
-\left| n (a) + \sum_ {1} ^ {q} p (a _ {v}) - (q - 1) S \right| \leq k L + 2,
+\left| n (a) + \sum_ {1} ^ {q} p (a _ {\nu}) - (q - 1) S \right| \leq k L + 2,
 $$
 
 und wenn man diese Ungleichung mit (C') vergleicht
@@ -739,7 +739,7 @@ Die Überdeckung der a-Stellen ist also möglichst regelmässig.
 
 ## III. Die Abbildung einer offenen Fläche.
 
-24. Eine offene, einfach zusammenhängende Fläche  $W^{*}$  kann topologisch auf die komplexe z-Ebene abgebildet werden, wobei die ausschöpfenden Flächen W
+24. Eine offene, einfach zusammenhänge Fläche  $W^{*}$  kann topologisch auf die komplexe z-Ebene abgebildet werden, wobei die ausschöpfenden Flächen W
 
 in eine Folge von Gebieten G übergehen, welche schliesslich jeden endlichen Punkt der Ebene enthalten. Umgekehrt erhält man aus jeder Ausschöpfung der Ebene durch einfach zusammenhängende Gebiete G eine entsprechende Ausschöpfung der Fläche  $W^{*}$ .
 
