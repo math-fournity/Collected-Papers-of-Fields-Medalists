@@ -275,3 +275,11 @@
 - PASS± 项（print quirk 登记，不修）：①图 (I) 右上角印刷作 **E_n^{o,n−1}**（上标首字符为小写圆 o；600dpi 放大 p029_o0_600.png，与同图 E_n^{n,0} 的瘦高 0（p029_o0b_600.png）及括注行 E_n^{0,n−1} 的 0 形成对照）——原书排版笔误（数学上应为 0），md 忠实保留 "o"，不改；②(On notera …) 行印刷作 "**E^{n,0}** → H_n(B, G)"（E 无下标 n；p029_notera_600.png 清晰，对比同行 H_n 与 E_n 均有下标）——原书笔误，md 忠实保留 "$E^{n, 0}$"，不改；③md 行 1170 "biuni-voque" 保留印刷跨行连字符——排版级；④"La transgression."、"Toute classe d'homologie sphérique…" 印刷为斜体引导句，md 作正体段落——mineru 系统性丢弃该类斜体，不误导。
 - 差异：除上述 2 处已修复外无。
 - 备注：md 行 1180 起图 (I')（H_n(B, G) —d_n→ H_{n−1}(F, G)）与 La suspension、图 (II) 属印刷 p.453，留待 p.030。
+
+## p.030（PDF p.30 / 印刷 p.453）
+- PNG：audit/p030.png（pngmono 150dpi）；仲裁裁剪 audit/300dpi/p030_Iprime_600.png、p030_diagII_600.png（600dpi）
+- 核对：图 (I′)（H_n(B, G) —d_n→ H_{n−1}(F, G)；π_n(B) ⊗ G —∂→ π_{n−1}(F) ⊗ G；两竖直 ↑）；La suspension 行；Dans le cas général 段（H_{n−1}(E, G) = H_n(E, G) = 0、∂: H_n(E mod. F, G) → H_{n−1}(F, G) isomorphisme sur）；Σ = p*∘∂^{−1}；Le diagramme (I) se transforme 句；图 (II)（E_n^{n,0} —d_n→ E_n^{0,n−1}；三支箭头 ↙ ↖ ↑；H_n(B, G) ←Σ— H_{n−1}(F, G)）；Dans ce diagramme 段（d_n isomorphisme sur、E_n^{n,0} → H_n(B, G) biunivoque et a même image que Σ、H_{n−1}(F, G) → E_n^{0,n−1} sur et a même noyau que Σ）；§8 标题 "8. La suite spectrale de cohomologie"；Soit A* 段（filtration décroissante、A^{*p}）；Les A^p étant facteurs directs 段（E_0^{*p,q} ≅ Hom(E_0^{p,q}, G)、fonctions … nulles sur les cubes dégénérés）；Introduisons le groupe J_p^* 段（C^p(B, C^*(F, G)) = Hom(J_p, G)、φ^*/ψ^* transposés、ψ*∘φ* = 1、φ*∘ψ* = h*、E_1^{*p,q} ≅ C^p(B, H^q(F, G))）；末行 "On montre par un raisonnement calqué sur celui du n°6 que l'isomorphisme"（跨页断句）
+- 结果：PASS
+- 仲裁记录：①600dpi（p030_diagII_600.png）确认图 (II) 三支箭头均为**单头**：左斜 ↙（自 E_n^{n,0} 落向 H_n(B, G)）、中斜 ↖（自 H_{n−1}(F, G) 指向 E_n^{n,0}/d_n 一线）、右竖 ↑（自 H_{n−1}(F, G) 升向 E_n^{0,n−1}），MD 行 1195 "\swarrow \quad \nwarrow \quad \uparrow" 逐支吻合（p.011 的 Chap. I 图 (II) 双头误在此未重演）；②600dpi（p030_Iprime_600.png）确认图 (I′) 两行两箭头结构（d_n、∂ 标签与两 ↑），MD 一致。
+- 差异：无。
+- 备注：mineru 已知瑕疵类型"运行页眉略去"按 p.002 约定不再登记。md 行 1210 起 "$\psi^{*}$ transforme la différentielle d_1…" 属印刷 p.454，留待下一分块（p.031 起）。
