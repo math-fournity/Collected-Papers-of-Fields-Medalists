@@ -811,7 +811,7 @@ Pour $x$ dans le lieu lisse de codimension 1 de $\check{\mathbf{X}}$, soient $ch
 
 Corollaire (5.5). — L'action de $\pi_1(\mathrm{U}, u)$ sur $\mathrm{E}/(\mathrm{E} \cap \mathrm{E}^\perp)$ est absolument irréductible.
 
-Soit $\mathbf{F} \subset \mathbf{E} \otimes \mathbf{C}$ un sous-espace stable sous la monodromie. Si $\mathbf{F} \nsubseteq (\mathbf{E} \cap \mathbf{E}^{\perp}) \otimes \mathbf{C}$, il existe $x \in \mathbf{F}$ et $s \in \mathbf{S}$ tels que $(x, \delta_s) \neq 0$. On a alors
+Soit $\mathbf{F} \subset \mathbf{E} \otimes \mathbf{C}$ un sous-espace stable sous la monodromie. Si $\mathbf{F} \nsubseteq (\mathbf{E} \cap \mathbf{E}^{\perp}) \otimes \mathbf{C}$, il existe $x \in \mathbf{F}$ et $s \in \mathbf{S}$ tels que $(x, \delta_s) \neq o$. On a alors
 
 $$
 \gamma_ {s} x - x = \pm (x, \delta_ {s}) \delta_ {s} \in \mathbf {F},

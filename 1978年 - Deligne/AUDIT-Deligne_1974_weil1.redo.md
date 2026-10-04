@@ -170,6 +170,14 @@
 - 结果：PASS±（修复 3 处）。①行 776 图链悬空 `images/page_18_image_6.jpg` → `Deligne_1974_weil1/images/page_18_image_6.jpg`（p.007 同类修复；图内容经与本页印刷环路图逐元素核对一致后修复）。②行 778 `\mathbb{R}^{i}f_{*}\mathbf{Z}|\mathbf{U}` → `\mathrm{R}^{i}…`：600dpi×3（p019_rfz_tight_600dpi-19.png）确证印刷为正体衬线 R 且 Z 无下划线（与 p.016 行 636 的 Z̲ 带下划线成对照），黑板体属字形类错误，按 Luna p.018 double-struck D→D 修复方向处置。③行 790 `±δs` → `$\pm\delta_{s}$`：MinerU 下标拉平伪影，按 p.008 dfn 下标结构恢复先例修复。**évanescant 勘误与本案**：本页行 778 单数与行 790 复数印刷均为 évanescent/évanescents（600dpi×3 p019_evanescent_word_600dpi-19.png + p019_theoreme54-19.png；OCR 层一致），md 原文正确、未改动——并据此推翻本 redo p.016/p.017 的 évanescant 修复（见各条目勘误与 erratum commit 02c470de）。登记不改：Prop (5.3)/Théorème (5.4) 印刷整句斜体、md 正文体（斜体排版投影）；(5.3) 内 π₁(U,u)/H^n(X_u,Q) 的粗体在 md 作斜体（混排不误导）；行 790 的 π₁ 用 Unicode 下标 ₁（渲染正确，保留）；页眉 290/PIERRE DELIGNE 与页脚 290 未收录（系统性版式省略）。
 - 修复：①图链补嵌套目录前缀（行 776；audit-redo/300dpi/p019_diagram-19.png + MinerU page_18_image_6.jpg 内容比对）；②`\mathbb{R}`→`\mathrm{R}`（行 778；p019_rfz_tight_600dpi-19.png）；③`±δs`→`$\pm\delta_{s}$`（行 790；p019_theoreme54-19.png）。
 
+## p.020（PDF p.20 / 印刷 p.291）
+- 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-03 21:15 EDT。
+- PNG：audit-redo/p020.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p020_gamma_x-20.png、p020_f_eoplus_c-20.png、p020_x_delta_neq-20.png、p020_s_dcap_xcheck-20.png、p020_xt_xcheck-20.png（300dpi）。
+- 旧审计对照：Luna p.020 = FAIL→已修复（incidence variety 改 X×dual P；(5.4) dual 记号改 dual P/dual X；(5.6) 参数线 double-struck D 改 D）；本次重核修复后状态。
+- 核对：«ductible.» 跨页续接（p.019 «irré-»）、Soit Y⊂X×P̌ 段、g-图（X←Y、g↓、P̌）、La fibre de g 段、On retrouve 段（S=D∩X̌ 300dpi 确证 caron）、π₁(D−S,u)→π₁(P̌−X̌,u)、est surjective 段、Pour x dans le lieu lisse 全段（ch、γ_x、« En particulier, les γ_s sont conjugués entre eux »——300dpi 确证印刷即下标 s，与同句 γ_x 并存，MD 正确）、Corollaire (5.5)（整句斜体投影）、Soit F⊂E⊗C 段（两处 ⊗ 经 300dpi 确证为圈乘、⊄、(x,δ_s)≠o 小写 o）、γ_s x−x=±(x,δ_s)δ_s∈F,、et δ_s∈F 段、(5.6)、Soient P 段（(H_t)_{t∈D}、« les X_t, X̃ et le diagramme (5.1.1) »——300dpi 确证独立 X 上为波浪号 X̃（指 (5.1) 的 incidence 空间），MD \widetilde{\mathbf{X}} 正确）、A) L'axe 段（X̃）。
+- 结果：PASS±（修复 1 处）。内容全部吻合；Luna 的 incidence/dual 记号修复方向经本页上下文确认成立。零排作 o quirk 本页 1 处：(x, δ_s)≠o（p020_x_delta_neq-20.png，与括号高度比）。登记不改：Corollaire (5.5) 与 « pinceau de Lefschetz » 印刷斜体、md 正文体；π₁(U,u) 的粗体 U；行 808 句点前多一空格「`$ .`」（排版微瑕，按 p.005 残留微差异惯例登记不改）；页眉/页脚 291 与页内竖直扫描划痕未收录。
+- 修复：`$(x, \delta_s) \neq 0$`→`$(x, \delta_s) \neq o$`（行 814；p020_x_delta_neq-20.png）。
+
 ## p.018（PDF p.18 / 印刷 p.289）
 - 身份/时间：actor=Wf-R-P01; model=account:zai-individual-coding-plan/GLM-5.3-Flash; effort=max（run级配置，自报UNKNOWN）; 2026-10-03 19:55 EDT。
 - PNG：audit-redo/p018.png（pngmono 150dpi）；仲裁裁片 audit-redo/300dpi/p018_a_si_delta-18.png、p018_b_si_delta-18.png、p018_seq_ql-18.png（300dpi）；p018_ou_faisceau_600dpi-18.png（600dpi）。
