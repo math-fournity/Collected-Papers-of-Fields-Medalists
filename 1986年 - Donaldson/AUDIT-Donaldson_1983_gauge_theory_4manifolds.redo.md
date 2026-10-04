@@ -5,7 +5,7 @@
 - Host / model / effort：`zcode` / `account:zai-individual-coding-plan/GLM-5.3-Flash` / `max`（run 级配置转述；实际生效 effort **自报 UNKNOWN**，无法从 runtime 直接证明）。
 - PDF：`Donaldson_1983_gauge_theory_4manifolds.pdf`，38 页，SHA-256 `5a5201ed38b870ec1ad183b697aa505830c5a35bf03d72614a5bb1667fe65080`（本 worktree 实测）。
 - 被检 Markdown 基线：`Donaldson_1983_gauge_theory_4manifolds_mineru/Donaldson_1983_gauge_theory_4manifolds__Donaldson_1983_gauge_theory_4manifolds.md`，1,449 行，SHA-256 `a22812e11e24ebbddde35767b454a47957949df592d97b72a689568b83eb74a5`（= Luna fix 后的基线；原始 mineru 产出见历史 commit `0b0f3dd`）。
-- 开工时间：2026-10-02 14:33 EDT；本文头最后更新 2026-10-02 14:51 EDT。
+- 开工时间：2026-10-02 14:33 EDT；本文头最后更新 2026-10-03 21:09 EDT（第三块收尾）。
 - 文本层判定：`pdftotext -f 1 -l 1` 成功返回首页全文（exit 0；ABBYY FineReader OCR 层，2008 年生成）→ **文本层可用，本篇采用双通道主对账**：150dpi pngmono 页图为印刷原文裁决源，pdftotext 文本层仅作第二通道交叉定位/比对；文本层自身有 OCR quirk（如 `E₈`→`£ 8`、连字符丢失），一律以页图为准。
 - 方法：每页 `gs -q -dNOPAUSE -dBATCH -sDEVICE=pngmono -r150` 渲染 `audit-redo/p0NN.png` → Read 目检 → 与 Markdown 对应段五点比对（题录 / 节标题顺序 / 定理编号与陈述 / 公式与上下标 / 记号；文末页逐条参考文献与收稿日期）→ PASS / PASS± / FAIL 分级 → 内容错误用结构化 `Edit` 逐处修复（含修正 Luna 旧修复中的错误；print quirk 忠实登记不改）→ 本文件落签该页条目 → 仅 add 本篇路径后按 `redo(page)` 提交。
 - 纪律：PDF 原页为唯一裁决源；不写根级任何文件；不动旧 `audit/` 与旧 `AUDIT-Donaldson_1983_gauge_theory_4manifolds.md`（只读参照）；不碰其他论文目录；不 push。
@@ -25,6 +25,15 @@
 - 第二块结束时 md SHA-256：`a8387e2c773dfdd878033fdaa1a610a4db98db70e21cec198f63228773a50b48`（行 410 补删 `\right.` 之后；此前中间态 `f7d926ff…` 为补删前快照，已被本块收尾修正取代）。
 - 第二块新登记 print quirk：行 335 "principle bundle"、行 356 提位负号 `=⁻d_Agg⁻¹`、行 359 `‖b‖_{L²₃′}` 撇号、行 461 `φ|_{L⁻¹(y₁)}` 与 "dimension K"、行 477 "This position"、行 518 `Φ(ψ⁻¹X)` 大写 X、p.16 μ^σ（μ 系印刷对 𝔐 的误植，Luna 忠实保留）。⇒/↔ 混淆在本块共 4 例（行 488/499/537 及 p.13 丛对），后续页继续盯。
 - p.19 起进入 III.2–III.4 与 Appendix，References（行 ~1403 起）属后续块。
+
+## 本块进度（Wf-R-P03，第三块）
+
+- **p.19–p.28 / 38 已完成**（2026-10-03）：10 页全部 PASS±，无 FAIL。p.019 为上块遗留未提交态（条目、行 711 修复与 p019.png 均已在工作区核验一致），本块开工时先归位补提交；逐页一提交：`eeec9b49`(p.019)→`4d8af141`(p.020)→`6acef57b`(p.021)→`f4fed944`(p.022)→`4cec2d23`(p.023)→`b77f696c`(p.024)→`d11ad951`(p.025)→`4b5fe277`(p.026)→`8c9dfb68`(p.027)→`febb35db`(p.028)。
+- 本块对 md 共 30 处逐字位修复（页级分布 p.020=3、p.021=0、p.022=3、p.023=1、p.024=7、p.025=8、p.026=5、p.027=3、p.028=0），全部见各页「修复登记」；每页仅 add 本篇三路径后 `redo(page)` 提交。
+- 第三块结束时 md SHA-256：`cec20912e81d596dc2b18844da0c70eb3de3792c4580e9001462f8b759763760`。
+- 跨页系统性发现（供后续页沿用）：① **草书 ℳ 大流行**：III.3/III.4 印刷的 moduli space 几乎全为圆弧草书 ℳ（`\mathscr{M}`），本块修复 16 处 `M`/`\mathfrak{M}`（p.022×3、p.023×1、p.024×7、p.025×6、p.026×2、p.027×3，其中 p.025 一处兼含 Ω²₋ 上标）；后续页遇 `𝔐`/`M` 一律 300dpi 先仲裁再定；② **跨页字形张力待复核**：p.018 Theorem 11 处已按 `\mathfrak{M}_{\lambda_0}` 提交，而 p.024 同记号印刷为草书 ℳ_{λ₀}——建议后续块以 audit-redo/p018.png 复核一次（本块不改已提交页）；③ Lie 导数印刷为草书 ℒ（p.026 三处修复 `\mathfrak{L}`→`\mathscr{L}`）；④ "flow on ℬ"（p.26）为圆弧草书 ℬ，与 Fraktur 𝔅 并存，勿见 B 即改 Fraktur；⑤ p.008 的 Ω²₋ 上标缺陷在 p.025 再现两处。
+- 本块新登记 print quirk（均高倍确认、md 忠实保留）：compatability（p.21）、"strict inequality in (3) above" 交叉引用笔误（p.21）、`[A_i]∈μ` 印刷小写 μ（p.23）、"every possibly subsequence"（p.23）、K/k 混用（p.24）、`|F_-(f_t(A)|` 外层括号漏排（p.26）、`\frac{c}{dt}`（p.26）；另登记 MinerU 图片零基页号命名（p.28）。
+- p.29 起 III.4 收尾与 Appendix（行 1103–1403），References（行 ~1403 起）属后续块；p.028 已确认行 1095 的 images 引用即整页插图（零基页号 page_27_image_0.jpg）。
 
 ## 页级条目
 
