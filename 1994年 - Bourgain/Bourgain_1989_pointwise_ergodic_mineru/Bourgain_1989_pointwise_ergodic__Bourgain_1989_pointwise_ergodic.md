@@ -1710,7 +1710,7 @@ $$
 By the remark on the support of the Fourier transform made above, (7.50) is clearly bounded by
 
 $$
-\left| \left| \mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {2}\right) \Omega_ {2} \right] \dots \mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {q}\right) \Omega_ {q} \right] \right| \right| _ {\mathrm{L} ^ {2} (\mathrm{G})}. \sup _ {\alpha \in \Gamma} | \mathcal {F} \left(\mathrm{L} _ {k _ {1}} - \mathrm{L} _ {k _ {0}}\right) (\alpha) |.\tag{7.53}
+\left| \left| \mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {2}\right) \Omega_ {2} \right] \dots \mathcal {F} ^ {- 1} \left[ \mathcal {F} \left(g _ {q}\right) \Omega_ {q} \right] \right| \right| _ {\mathrm{L} ^ {2} (\mathrm{G})}\cdot \sup _ {\alpha \in \Gamma} | \mathcal {F} \left(\mathrm{L} _ {k _ {1}} - \mathrm{L} _ {k _ {0}}\right) (\alpha) |.\tag{7.53}
 $$
 
 Again from (7.49), the first factor in (7.53) is bounded by  $C4^{s_{2}+\cdots+s_{q}}<k_{0}^{C}$ . By definition of  $\Gamma$ , (6.10) and (6.12), one easily verifies that the second factor in (7.53) is at most
