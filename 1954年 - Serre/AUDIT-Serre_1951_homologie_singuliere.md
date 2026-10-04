@@ -8,7 +8,7 @@
 - PDF SHA256=1420abbef07ec179ce1cbad72dec745b05a9f386fe1dbbeeaf98817835f9f69f
 - MD 基线 SHA256=cb13117e5f47226c41b61d39cff1b1760463ea47ea772c1b8ee6a2c6f571b6aa（mineru 原始导出 `Serre_1951_homologie_singuliere_mineru/Serre_1951_homologie_singuliere__Serre_1951_homologie_singuliere.md`）
 - 审计开始：2026-10-02 13:47
-- 审计范围：本文件当前分块审计 p.1–p.9（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。分块 2（p.010–p.018）已完成：PASS×2（p.012/016）、PASS±×1（p.014）、FAIL×6（p.010/011/013/015/017/018，均已当场修复）；修复 8 处（图 I λ 箭头、图 II 多余箭头、A\*n→A\*p、II→Π×2、λ^e→λ^ε×2、λ_κ→λ_K），见各页条目。
+- 审计范围：分块推进（后续分块由后续 ask 延续）。分块 1（p.001–p.009）已完成：PASS×5、PASS±×3、FAIL×1（p.005，已当场修复）；修复 1 处，见 p.005 条目。分块 2（p.010–p.018）已完成：PASS×2（p.012/016）、PASS±×1（p.014）、FAIL×6（p.010/011/013/015/017/018，均已当场修复）；修复 8 处（图 I λ 箭头、图 II 多余箭头、A\*n→A\*p、II→Π×2、λ^e→λ^ε×2、λ_κ→λ_K），见各页条目。分块 3（p.019–p.021）已完成：PASS×2（p.019/021）、FAIL×1（p.020，triple 括号已修）。分块 4（p.022–p.030）已完成：PASS×4（p.023/024/028/030）、PASS±×1（p.025，&gt; 实体→>×3 已修）、FAIL×4（p.022/p.026/p.027/p.029，均已当场修复）；本块修复 10 处（S_{C'}→S_{c'}、S_{c','}→S_{c''}、T_{α*_β}→T_{α*β}、&gt;→>×3、done→donc、S_{c,b,i,e}→S_{c,b,i,ε}、E_n^{n·0}→E_n^{n,0}、图 I 竖箭头结构），print quirk 登记（opérait、on a donc;、图内 E_n^{o,n−1}、括注 E^{n,0} 无下标 n、docvortex div 包裹、展示式压平/拆分等）见各页条目。累计 30/82。
 - 文本层判定：**可用**（JSTOR OCR 文本层；首页 `pdftotext -f 1 -l 1` 成功输出封面文字，p.2–p.3 数学正文页亦能输出全部段落文本）。但 OCR 噪声明显（例：`L'int6retde`、`getodesiques`、`memoireest` 等粘连/错字），故全程采用「**文本层主对账 + PNG 视觉核验**」双通道：文本层用于定位与文字对账，凡字形、上下标、公式、记号一律以 150dpi PNG（pngmono）视觉核验为最终裁决。
 - mineru doc_id：UNKNOWN（导出目录未含 doc_id 元数据，仅 `full.md` 等产物；如需可在 `structured_content.json` 侧另行核查）
 
