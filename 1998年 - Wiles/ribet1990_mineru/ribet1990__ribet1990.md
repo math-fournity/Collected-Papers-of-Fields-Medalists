@@ -1,10 +1,18 @@
+On modular representations of Gal (.../Q) arising from modular forms.
+
+by Ribet, K.A.
+
+in Inventiones mathematicae
+
+volume 100; pp. 431 - 476
+
 Göttingen State and University Library
 
 ## Terms and Conditions
 
 The Göttingen State and University Library provides access to digitized documents strictly for noncommercial educational, research and private purposes and makes no warranty with regard to their use for other purposes. Some of our collections are protected by copyright. Publication and/or broadcast in any form (including electronic) requires prior written permission from the Göttingen State- and University Library.
 
-Each copy of any part of this document must contain these Terms and Conditions. With the usage of the library's online-systems to access or download a digitized document you accept these Terms and Conditions.
+Each copy of any part of this document must contain these Terms and Conditions.With the usage of the library's online-systems to access or download a digitized document you accept these Terms and Conditions.
 
 Reproductions of materials on the web site may not be made for or donated to other repositories, nor may they be further reproduced without written permission from the Göttingen State- and University Library.
 
@@ -12,7 +20,7 @@ For reproduction requests and permissions, please contact us. If citing material
 
 Contact:
 
-Niedersaechssische Staats- und Universitaetsbibliothek Göttingen
+Niedersaechsische Staats- und Universitaetsbibliothek Göttingen
 
 Digitalisierungszentrum
 
@@ -145,7 +153,7 @@ A variant. 471
 
 Let $p$ be a prime. Consider a curve $C$ over a $p$-adic field $K$ of characteristic 0, with residue field $k$ of characteristic $p$. Denote by $P$ the Jacobian $\operatorname{Pic}^0(C)$ of $C$. We recall in a special case some relations between the special fiber of the Néron model of $P$ and the special fibers of suitable models of $C$. These relations are based on work of [24]. They are discussed in [11], §12 and in the appendix to [18].
 
-Suppose first that C is the regular minimal model of C over the integer ring of K. Suppose that the greatest common divisor of the multiplicities of the irreducible components of  $C_{k}$  is 1. Let  $P_{k}$  be the special fiber of the Néron model of P and let  $P^{0} = (P_{k})^{0}$  be the connected component of 0 in this special fiber.
+Suppose first that $\mathcal{C}$ is the regular minimal model of $C$ over the integer ring of K. Suppose that the greatest common divisor of the multiplicities of the irreducible components of $\mathcal{C}_k$ is 1. Let  $P_{k}$  be the special fiber of the Néron model of P and let  $P^{0} = (P_{k})^{0}$  be the connected component of 0 in this special fiber.
 
 As explained in [11], §12, the results of [24] imply that there is a canonical isomorphism
 
@@ -153,21 +161,21 @@ $$
 P ^ {0} \approx \operatorname{Pic} ^ {0} (\mathcal {C} _ {k}),
 $$
 
-cf. [11], (12.1.12). Assume, moreover, that all singular points of the curve  $C_{k}$  are ordinary double points (i.e., have local equation xy = 0). Then  $P^{0}$  is a semiabelian scheme over k, i.e., an extension of an abelian variety A by a torus. More precisely, write the normalization of  $C_{k}$  as a disjoint union of non-singular curves  $D_{j}$ . The normalization map  $\cup D_{j} \to C_{k}$  induces a surjection
+cf. [11], (12.1.12). Assume, moreover, that all singular points of the curve $\mathcal{C}_k$ are ordinary double points (i.e., have local equation xy = 0). Then  $P^{0}$  is a semiabelian scheme over k, i.e., an extension of an abelian variety A by a torus. More precisely, write the normalization of $\mathcal{C}_k$ as a disjoint union of non-singular curves $\mathcal{D}_{j}$. The normalization map  $\cup \mathcal{D}_{j} \to \mathcal{C}_{k}$  induces a surjection
 
 $$
-\operatorname{Pic} ^ {0} \left(\mathscr {C} _ {k}\right)\rightarrow \prod_ {j} \operatorname{Pic} ^ {0} \left(D _ {j}\right) = A,
+\operatorname{Pic} ^ {0} \left(\mathscr {C} _ {k}\right)\rightarrow \prod_ {j} \operatorname{Pic} ^ {0} \left(\mathcal{D} _ {j}\right) = A,
 $$
 
 whose kernel T is a torus which may be described explicitly in view of [EGA IV], 21.8.5.
 
-The description, which is well known, is most compactly expressed in terms of the “dual graph” G attached to  $C_{k}$ . This is the unoriented graph with the following definition:
+The description, which is well known, is most compactly expressed in terms of the “dual graph” $\mathcal{G}$ attached to $\mathcal{C}_k$. This is the unoriented graph with the following definition:
 
 \- The set of vertices of $\mathcal{G}$ is the set $\mathcal{T}$ of irreducible components of $\mathcal{C}_k$.
 
-\- The set of edges of $\mathcal{G}$ is the set $\mathcal{I}$ of singular points of $\mathcal{C}_k$.
+\- The set of edges of $\mathcal{G}$ is the set $\mathcal{S}$ of singular points of $\mathcal{C}_k$.
 
-\- The edge corresponding to a singular point $i \in \mathcal{I}$ connects the two vertices corresponding to the two components of $\mathcal{C}_k$ which meet at $i$.
+\- The edge corresponding to a singular point $i \in \mathcal{S}$ connects the two vertices corresponding to the two components of $\mathcal{C}_k$ which meet at $i$.
 
 Proposition 2.1 (cf. [11], (12.3.7)). There is a canonical isomorphism
 
@@ -183,27 +191,27 @@ $$
 
 where $X = X(T)$ is the character group of $T$.
 
-To calculate  $H_{1}(\mathcal{G}, \mathbf{Z})$ , we first consider the bouquet G of circles obtained by collapsing to a single point all vertices of G. The map  $G \to G$  induces an inclusion
+To calculate  $H_{1}(\mathcal{G}, \mathbf{Z})$ , we first consider the bouquet $\bar{\mathcal{G}}$ of circles obtained by collapsing to a single point all vertices of $\mathcal{G}$. The map  $\mathcal{G} \to \bar{\mathcal{G}}$  induces an inclusion
 
 $$
 X = H _ {1} (\mathcal {G}, \mathbf {Z}) \rightarrow H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}).
 $$
 
-For each  $i \in I$ , choose an orientation of the corresponding edge of G, i.e., an
+For each  $i \in \mathcal{S}$ , choose an orientation of the corresponding edge of $\mathcal{G}$, i.e., an
 
-ordering  $\{j_{1}(i), j_{2}(i)\}$  of the two components which pass through i. The resulting orientation of the edges of  $\bar{G}$  determines an isomorphism
+ordering  $\{j_{1}(i), j_{2}(i)\}$  of the two components which pass through i. The resulting orientation of the edges of  $\bar{\mathcal{G}}$  determines an isomorphism
 
 $$
-H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}) \approx \mathbf {Z} ^ {\mathcal {I}}.
+H _ {1} (\bar {\mathcal {G}}, \mathbf {Z}) \approx \mathbf {Z} ^ {\mathcal {S}}.
 $$
 
 from which we deduce a non-canonical inclusion
 
 $$
-X \subset \mathbf {Z} ^ {\mathcal {I}}.\tag{1}
+X \subset \mathbf {Z} ^ {\mathcal {S}}.\tag{1}
 $$
 
-To identify $X$ with a specific subgroup of $\mathbf{Z}^{\mathcal{I}}$, we let $D$ be the group of degree-0 formal integral linear combinations of elements of $\mathcal{T}$, i.e., the kernel of the degree map
+To identify $X$ with a specific subgroup of $\mathbf{Z}^{\mathcal{S}}$, we let $D$ be the group of degree-0 formal integral linear combinations of elements of $\mathcal{T}$, i.e., the kernel of the degree map
 
 $$
 \mathbf {Z} ^ {\mathcal {T}} \rightarrow \mathbf {Z}.
@@ -212,7 +220,7 @@ $$
 Proposition 2.2. The group X corresponds to the kernel of the homomorphism
 
 $$
-\alpha \colon \mathbf {Z} ^ {\mathcal {I}} \to D
+\alpha \colon \mathbf {Z} ^ {\mathcal {S}} \to D
 $$
 
 defined by
@@ -243,35 +251,35 @@ $$
 
 [loc. cit.].
 
-This isomorphism, valid more generally when P is not necessarily a Jacobian, is complemented by the Picard-Lefschetz formula ([11], §12) in the case under consideration. To state this formula, we orient the edges of G as above, and use this orientation to embed X in  $Z^{J}$ . Further, we use the  $\Theta$ -polarization  $P \approx \text{Alb}(C)$  to obtain an isomorphism  $X \approx Y$ . Via this isomorphism, u becomes a bilinear pairing on X.
+This isomorphism, valid more generally when P is not necessarily a Jacobian, is complemented by the Picard-Lefschetz formula ([11], §12) in the case under consideration. To state this formula, we orient the edges of $\mathcal{G}$ as above, and use this orientation to embed X in $\mathbf{Z}^{\mathcal{S}}$ . Further, we use the  $\Theta$ -polarization  $P \approx \text{Alb}(C)$  to obtain an isomorphism  $X \approx Y$ . Via this isomorphism, u becomes a bilinear pairing on X.
 
-Theorem 2.3. The pairing u is the restriction to X of the standard Euclidean pairing on  $Z^{I}$ . The group  $\Phi$  is the cokernel of the map  $X \to \operatorname{Hom}(X, \mathbf{Z})$  obtained from the inclusion of X in  $Z^{I}$  and the Euclidean pairing on  $Z^{I}$ .
+Theorem 2.3. The pairing u is the restriction to X of the standard Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$. The group  $\Phi$  is the cokernel of the map  $X \to \operatorname{Hom}(X, \mathbf{Z})$  obtained from the inclusion of X in $\mathbf{Z}^{\mathcal{S}}$ and the Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$ .
 
 Proof. The first statement is Théorème 12.5 of [11]. The second statement follows from the first statement, together with the isomorphism $\Phi \approx \operatorname{coker}(u)$, which is discussed above. $\square$
 
 ## Admissible curves
 
-Next, as a variant, we relax the condition that $\mathcal{C}$ be regular, assuming instead that $\mathcal{C}$ is an admissible curve in the sense of Jordan-Livné [13], §3. This assumption implies that special fiber $\mathcal{C}_k$ of $\mathcal{C}$ has only ordinary double points as singularities; we define the sets $\mathcal{I}$ and $\mathcal{T}$ as above. Moreover, there is a collection of positive integers $e(i), i \in \mathcal{I}$, such that the special fiber of a regular minimal model for $C$ may be obtained from $\mathcal{C}_k$ by replacing each singular point $i \in \mathcal{I}$ with $e(i) > 1$ by a chain of $(e(i) - 1)$ copies of the projective line $\mathbf{P}^1$.
+Next, as a variant, we relax the condition that $\mathcal{C}$ be regular, assuming instead that $\mathcal{C}$ is an admissible curve in the sense of Jordan-Livné [13], §3. This assumption implies that special fiber $\mathcal{C}_k$ of $\mathcal{C}$ has only ordinary double points as singularities; we define the sets $\mathcal{S}$ and $\mathcal{T}$ as above. Moreover, there is a collection of positive integers $e(i), i \in \mathcal{S}$, such that the special fiber of a regular minimal model for $C$ may be obtained from $\mathcal{C}_k$ by replacing each singular point $i \in \mathcal{S}$ with $e(i) > 1$ by a chain of $(e(i) - 1)$ copies of the projective line $\mathbf{P}^1$.
 
-This construction produces a “blow-up” of  $C_{k}$  where the sets I and T are replaced by analogues  $\tilde{I}$  and  $\tilde{T}$ . There is an evident surjective map
+This construction produces a “blow-up” of $\mathcal{C}_k$ where the sets $\mathcal{S}$ and $\mathcal{T}$ are replaced by analogues $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$. There is an evident surjective map
 
 $$
-\tilde {\mathcal {I}} \rightarrow \mathcal {I}
+\tilde {\mathcal {S}} \rightarrow \mathcal {S}
 $$
 
 gotten by contracting the $\mathbf{P}^1$'s. The associated map
 
 $$
-\tau \colon \mathbf {Z} ^ {\mathcal {I}} \to \mathbf {Z} ^ {\tilde {\mathcal {I}}}
+\tau \colon \mathbf {Z} ^ {\mathcal {S}} \to \mathbf {Z} ^ {\tilde {\mathcal {S}}}
 $$
 
-which takes each  $i \in I$  to the sum of its antecedents in  $\tilde{I}$  is then an injection with torsion free cokernel. On the other hand, the set T is a subset of  $\tilde{T}$ , so that we have a natural injection
+which takes each  $i \in \mathcal{S}$  to the sum of its antecedents in  $\tilde{\mathcal{S}}$  is then an injection with torsion free cokernel. On the other hand, the set $\mathcal{T}$ is a subset of  $\tilde{\mathcal{T}}$ , so that we have a natural injection
 
 $$
 \mathbf {Z} ^ {\mathcal {T}} \rightarrow \mathbf {Z} ^ {\tilde {\mathcal {T}}}
 $$
 
-Its restriction to the subgroup D of  $Z^{T}$  gives an injection
+Its restriction to the subgroup D of  $\mathbf{Z}^{\mathcal{T}}$  gives an injection
 
 $$
 \iota \colon D \to \tilde {D},
@@ -279,47 +287,47 @@ $$
 
 where $\tilde{D}$ is the analogue of $D$ for the blow-up.
 
-The calculus introduced above computes the groups $X$ and $\Phi$ for the Néron model of $\operatorname{Pic}^0(C)$. The computation starts with the sets $\tilde{\mathcal{I}}$ and $\tilde{\mathcal{T}}$ and an ordering of two components passing through each singular point of the blow-up. For example, this ordering defines a map $\tilde{\alpha}$ analogous to the map $\alpha$ seen above, whose kernel is the group $X$.
+The calculus introduced above computes the groups $X$ and $\Phi$ for the Néron model of $\operatorname{Pic}^0(C)$. The computation starts with the sets $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$ and an ordering of two components passing through each singular point of the blow-up. For example, this ordering defines a map $\tilde{\alpha}$ analogous to the map $\alpha$ seen above, whose kernel is the group $X$.
 
-To relate $X$ and $\Phi$ to the sets $\tilde{\mathcal{I}}$ and $\tilde{\mathcal{T}}$, we first order, as above, the two components of $\mathcal{C}_k$ which pass through each singular point $i$. We then find easily a (unique) analogous ordering for the blow up in such a way that the four maps $\alpha, \tilde{\alpha}, \iota$, and $\tau$ form a commutative square. The maps $\alpha$ and $\tilde{\alpha}$ are surjective, since the curve $\mathcal{C}_k$ is connected. Letting $Y$ be the kernel of $\alpha$, we discover a commutative diagram
+To relate $X$ and $\Phi$ to the sets $\tilde{\mathcal{S}}$ and $\tilde{\mathcal{T}}$, we first order, as above, the two components of $\mathcal{C}_k$ which pass through each singular point $i$. We then find easily a (unique) analogous ordering for the blow up in such a way that the four maps $\alpha, \tilde{\alpha}, \iota$, and $\tau$ form a commutative square. The maps $\alpha$ and $\tilde{\alpha}$ are surjective, since the curve $\mathcal{C}_k$ is connected. Letting $Y$ be the kernel of $\alpha$, we discover a commutative diagram
 
 $$
-\begin{array}{c c c c c c c c c} 0 & \to & Y & \to & \mathbf {Z} ^ {\mathcal {I}} & \to & D & \to & 0 \\ & & \kappa \downarrow & & \tau \downarrow & & \iota \downarrow & & \\ 0 & \to & X & \to & \mathbf {Z} ^ {\tilde {\mathcal {I}}} & \to & \tilde {D} & \to & 0, \end{array}\tag{2}
+\begin{array}{c c c c c c c c c} 0 & \to & Y & \to & \mathbf {Z} ^ {\mathcal {S}} & \to & D & \to & 0 \\ & & \kappa \downarrow & & \tau \downarrow & & \iota \downarrow & & \\ 0 & \to & X & \to & \mathbf {Z} ^ {\tilde {\mathcal {S}}} & \to & \tilde {D} & \to & 0, \end{array}\tag{2}
 $$
 
 where the map  $\kappa$  is induced by  $\tau$  and  $\iota$ . Since  $\tau$  and  $\iota$  are injective, so is  $\kappa$ . Counting ranks, we see that the cokernel of  $\kappa$  is a torsion abelian group. On the other hand,  $\tau$  is such that its cokernel is torsion free. Since the Snake Lemma implies that the cokernel of  $\kappa$  injects into the cokernel of  $\tau$ ,  $\kappa$  is in fact an isomorphism. In other words, there is no difference between the groups X and Y, and we can continue to
 
-calculate using the recipe discussed above. (This corresponds to the fact that the dual graph of  $C_{k}$  is replaced by a homotopic graph when  $C_{k}$  is replaced by its blow-up.)
+calculate using the recipe discussed above. (This corresponds to the fact that the dual graph of $\mathcal{C}_k$ is replaced by a homotopic graph when $\mathcal{C}_k$ is replaced by its blow-up.)
 
-At the same time, we find that $\Phi$ is the cokernel of the map $y\colon Y\to\mathrm{Hom}(Y,\mathbf{Z})$ gotten from the restriction to $Y$ of the Euclidean pairing on $\mathbf{Z}^{\mathcal{I}}$. Equivalently, this pairing is gotten by restricting to $Y$ the pairing on $\mathbf{Z}^{\mathcal{I}}$ whose matrix is the diagonal matrix with entries $e(i)$. (In other words $i$ and $i'$ are paired to 0 or to $e(i)$ according as $i$ and $i'$ are distinct or equal.) In summary, the calculation of $X$ and $\Phi$ proceeds essentially as if $\mathcal{C}$ were the minimal model of $C$. The sole complication is that the pairing one uses on $\mathbf{Z}^{\mathcal{I}}$ must take the positive integers $e(i)$ into account. (See also [11], 12.10.1.)
+At the same time, we find that $\Phi$ is the cokernel of the map $y\colon Y\to\mathrm{Hom}(Y,\mathbf{Z})$ gotten from the restriction to $Y$ of the Euclidean pairing on $\mathbf{Z}^{\mathcal{S}}$. Equivalently, this pairing is gotten by restricting to $Y$ the pairing on $\mathbf{Z}^{\mathcal{S}}$ whose matrix is the diagonal matrix with entries $e(i)$. (In other words $i$ and $i'$ are paired to 0 or to $e(i)$ according as $i$ and $i'$ are distinct or equal.) In summary, the calculation of $X$ and $\Phi$ proceeds essentially as if $\mathcal{C}$ were the minimal model of $C$. The sole complication is that the pairing one uses on $\mathbf{Z}^{\mathcal{S}}$ must take the positive integers $e(i)$ into account. (See also [11], 12.10.1.)
 
-Theorem 2.4. There is a natural homomorphism $\theta: D \to \Phi$ whose cokernel is a quotient of the group $\operatorname{Hom}(\mathbf{Z}^{\mathcal{I}}, \mathbf{Z}) / \mathbf{Z}^{\mathcal{I}} \approx \oplus (\mathbf{Z}/e(i)\mathbf{Z})$, the direct sum being extended over $\mathcal{I}$.
+Theorem 2.4. There is a natural homomorphism $\theta: D \to \Phi$ whose cokernel is a quotient of the group $\operatorname{Hom}(\mathbf{Z}^{\mathcal{S}}, \mathbf{Z}) / \mathbf{Z}^{\mathcal{S}} \approx \oplus (\mathbf{Z}/e(i)\mathbf{Z})$, the direct sum being extended over $\mathcal{S}$.
 
 Proof. Start with the description of $\Phi$ as the cokernel of $\gamma$. Write $\operatorname{Hom}(Y, \mathbf{Z})$ as the quotient
 
 $$
-\operatorname{Hom} (\mathbf {Z} ^ {\mathcal {I}}, \mathbf {Z}) / Y ^ {\perp},
+\operatorname{Hom} (\mathbf {Z} ^ {\mathcal {S}}, \mathbf {Z}) / Y ^ {\perp},
 $$
 
-where  $Y^{\perp}$  is the group of linear forms on  $Z^{I}$  which vanish on Y. We obtain an isomorphism
+where  $Y^{\perp}$  is the group of linear forms on $\mathbf{Z}^{\mathcal{S}}$ which vanish on Y. We obtain an isomorphism
 
 $$
-\Phi \approx \operatorname{Hom} (\mathbf {Z} ^ {\mathcal {I}}, \mathbf {Z}) / (Y ^ {\perp} \oplus Y)
+\Phi \approx \operatorname{Hom} (\mathbf {Z} ^ {\mathcal {S}}, \mathbf {Z}) / (Y ^ {\perp} \oplus Y)
 $$
 
-in which we identify Y with its image in  $\operatorname{Hom}(\mathbf{Z}^{\mathcal{I}}, \mathbf{Z})$ . It follows that  $\Phi$  contains the subgroup
+in which we identify Y with its image in $\operatorname{Hom}(\mathbf{Z}^{\mathcal{S}}, \mathbf{Z})$. It follows that  $\Phi$  contains the subgroup
 
 $$
-\Phi_ {0} = \mathbf {Z} ^ {\mathcal {I}} / (M \oplus Y),
+\Phi_ {0} = \mathbf {Z} ^ {\mathcal {S}} / (M \oplus Y),
 $$
 
 where
 
 $$
-\boldsymbol {M} = \boldsymbol {Y} ^ {\perp} \cap \mathbf {Z} ^ {\mathcal {I}}.
+\boldsymbol {M} = \boldsymbol {Y} ^ {\perp} \cap \mathbf {Z} ^ {\mathcal {S}}.
 $$
 
-The group $\Phi/\Phi_0$ is a quotient of $\mathrm{Hom}(\mathbf{Z}^{\mathcal{I}},\mathbf{Z})/\mathbf{Z}^{\mathcal{I}}$, which is simply the direct sum of the groups $\mathbf{Z}/e(i)\mathbf{Z}$ with $i\in\mathcal{I}$. Finally, we note that $\Phi_0$ may be viewed as a quotient of $\mathbf{Z}^{\mathcal{I}}/Y$, a group which is isomorphic, via $\alpha$, to $D$. We therefore obtain the desired result by letting $\theta$ be the projection of $D$ onto $\Phi_0$. $\square$
+The group $\Phi/\Phi_0$ is a quotient of $\mathrm{Hom}(\mathbf{Z}^{\mathcal{S}},\mathbf{Z})/\mathbf{Z}^{\mathcal{S}}$, which is simply the direct sum of the groups $\mathbf{Z}/e(i)\mathbf{Z}$ with $i\in\mathcal{S}$. Finally, we note that $\Phi_0$ may be viewed as a quotient of $\mathbf{Z}^{\mathcal{S}}/Y$, a group which is isomorphic, via $\alpha$, to $D$. We therefore obtain the desired result by letting $\theta$ be the projection of $D$ onto $\Phi_0$. $\square$
 
 Remark 2.5. Theorem 2.4 was motivated by Jordan-Livné [14], who prove a related result when C is a Shimura curve. It was used in earlier versions of this article for the purpose of analyzing the prime-to-6 parts of the component groups which appear below. However, in this write-up, no essential use is made of (2.4). The result of [14] appears below in a slightly different form as Theorem 4.3.
 
@@ -327,7 +335,7 @@ Remark 2.5. Theorem 2.4 was motivated by Jordan-Livné [14], who prove a related
 
 In this paragraph, p and q are distinct prime numbers, and M is a positive integer prime to pq. We consider the mod q reduction of the modular curves  $X_{0}(qM)$  and
 
-$X_0(pqM)$. Let $C$ be the modular curve $X_0(qM)$ over $\mathbf{Q}_q$. A model $\mathcal{C}$ of the type discussed in §2 has been studied (over $\mathbf{Z}_q$) by Deligne-Rapoport [4] and by Katz-Mazur [15]. The curve $\mathcal{C}_{\mathbf{F}_q}$ has two components, each a copy of the modular curve $X_0(M)_{\mathbf{F}_q}([4],\mathrm{V},\S 1)$. More precisely, $\mathcal{C}_{\mathbf{F}_q}$ is obtained by attaching the two copies of $X_0(M)_{\mathbf{F}_q}$ at their supersingular points (those which arise from supersingular elliptic curves over $\bar{\mathbf{F}}_q$), a supersingular point $x$ on the first copy being identified with its Frobenius transform $x^{(q)}$ on the second (loc. cit. 1.18). Therefore the set $\mathcal{T}$ has two elements. The set $\mathcal{I}$ is the set $\Sigma (M)$ of $\bar{\mathbf{F}}_q$-isomorphism classes of objects $\mathbf{E} = (E,B)$, where $E$ is a supersingular elliptic curve over $\bar{\mathbf{F}}_q$ and $B$ is a cyclic subgroup of $E$ of order $M$. For each $i\in \mathcal{I}$, the elements $j_{1}(i),j_{2}(i)$ are the two distinct elements of $\mathcal{T}$. For convenience, we orient the $i\in \mathcal{I}$ so that $j_{1}(i)$ and $j_{2}(i)$ are each independent of $i$. The graph $\mathcal{G}$ in this case has precisely two vertices, and each edge connects the two distinct vertices. (No edge starts and leaves from the same vertex.) Therefore, (2.2) specializes to:
+$X_0(pqM)$. Let $C$ be the modular curve $X_0(qM)$ over $\mathbf{Q}_q$. A model $\mathcal{C}$ of the type discussed in §2 has been studied (over $\mathbf{Z}_q$) by Deligne-Rapoport [4] and by Katz-Mazur [15]. The curve $\mathcal{C}_{\mathbf{F}_q}$ has two components, each a copy of the modular curve $X_0(M)_{\mathbf{F}_q}([4],\mathrm{V},\S 1)$. More precisely, $\mathcal{C}_{\mathbf{F}_q}$ is obtained by attaching the two copies of $X_0(M)_{\mathbf{F}_q}$ at their supersingular points (those which arise from supersingular elliptic curves over $\bar{\mathbf{F}}_q$), a supersingular point $x$ on the first copy being identified with its Frobenius transform $x^{(q)}$ on the second (loc. cit. 1.18). Therefore the set $\mathcal{T}$ has two elements. The set $\mathcal{S}$ is the set $\Sigma (M)$ of $\bar{\mathbf{F}}_q$-isomorphism classes of objects $\mathbf{E} = (E,B)$, where $E$ is a supersingular elliptic curve over $\bar{\mathbf{F}}_q$ and $B$ is a cyclic subgroup of $E$ of order $M$. For each $i\in \mathcal{S}$, the elements $j_{1}(i),j_{2}(i)$ are the two distinct elements of $\mathcal{T}$. For convenience, we orient the $i\in \mathcal{S}$ so that $j_{1}(i)$ and $j_{2}(i)$ are each independent of $i$. The graph $\mathcal{G}$ in this case has precisely two vertices, and each edge connects the two distinct vertices. (No edge starts and leaves from the same vertex.) Therefore, (2.2) specializes to:
 
 Proposition 3.1. The character group $X$ in the case $C = X_0(Mq)$ is the group of degree-0 divisors on the set $\Sigma(M)$ of supersingular points of $X_0(M)_{\bar{\mathbf{F}}_q}$.
 
@@ -351,7 +359,7 @@ Proposition 3.2. The finite group $\Phi$ is an extension by the cyclic group $\t
 
 [More information about $\Phi$ is given in (3.12)-(3.14).]
 
-We next recall a description of the set  $\mathcal{I}=\Sigma(M)$  in terms of the arithmetic of the quaternion algebra H. This description is due to Deuring [6] in the case of supersingular elliptic curves with no additional level structure (i.e., when M=1). Since all supersingular elliptic curves over  $\bar{F}_{q}$  are isogenous, one can start with a fixed  $E_{0}$  and keep track of the isomorphism classes of enhanced elliptic curves gotten by isogenies from  $E_{0}$ . This problem has been studied in detail in analogous (but more complicated) problems in the theory of Shimura varieties (see for example [2, 17, 22]).
+We next recall a description of the set  $\mathcal{S}=\Sigma(M)$  in terms of the arithmetic of the quaternion algebra H. This description is due to Deuring [6] in the case of supersingular elliptic curves with no additional level structure (i.e., when M=1). Since all supersingular elliptic curves over  $\bar{F}_{q}$  are isogenous, one can start with a fixed  $E_{0}$  and keep track of the isomorphism classes of enhanced elliptic curves gotten by isogenies from  $E_{0}$ . This problem has been studied in detail in analogous (but more complicated) problems in the theory of Shimura varieties (see for example [2, 17, 22]).
 
 For each enhanced $\mathbf{E} = (E, B)$ over $\bar{\mathbf{F}}_q$, let $T(\mathbf{E})$ be the "adelic Tate module" of $E$:
 
@@ -423,9 +431,9 @@ $$
 
 i.e., an isomorphism $B \approx \operatorname{End}(E)$ which carries $S$ to $\operatorname{End}(\mathbf{E})$. Moreover, let $\mathbf{E}'$ be such an elliptic curve and let $\kappa'$ be an isomorphism $(S, B) \approx (\operatorname{End}(\mathbf{E}')$, $\operatorname{End}(E')$). Then the pair $(\mathbf{E}', \kappa')$ is isomorphic to either $(\mathbf{E}, \kappa)$ or to $(\mathbf{E}^{(q)}, \kappa^{(q)})$.
 
-[We say that  $(\mathbf{E},\kappa)$  and  $(\mathbf{E}^{\prime},\kappa^{\prime})$  are isomorphic if there is an isomorphism  $E\approx E^{\prime}$  for which the induced isomorphism  $\iota:\operatorname{End}(\mathbf{E})\approx\operatorname{End}(\mathbf{E}^{\prime})$  satisfies  $\kappa^{\prime}\iota=\kappa.$ ]
+[We say that  $(\mathbf{E},\kappa)$  and  $(\mathbf{E}^{\prime},\kappa^{\prime})$  are isomorphic if there is an isomorphism  $\mathbf{E}\approx\mathbf{E}^{\prime}$  for which the induced isomorphism  $\iota:\operatorname{End}(\mathbf{E})\approx\operatorname{End}(\mathbf{E}^{\prime})$  satisfies  $\kappa^{\prime}\iota=\kappa.$ ]
 
-Proof. Fix an enhanced supersingular elliptic curve  $E_{0}$  as before. Let
+Proof. Fix an enhanced supersingular elliptic curve  $\mathbf{E}_{0}$  as before. Let
 
 $$
 R = \operatorname{End} (\mathbf {E} _ {0}), \quad A = \operatorname{End} (E _ {0}), \quad H = R \otimes \mathbf {Q}.
@@ -445,7 +453,7 @@ $$
 
 furnishes a 1-1 correspondence between the set of isomorphism classes of pairs $(\mathbf{E},\lambda)$ and the set $H_{\mathbf{f}}^{*} / R_{\mathbf{f}}^{*}$ of "enhanced" lattices in $V(\mathbf{E}_0)$. Dividing by $\mathbf{Q}^*$, we obtain a 1-1 correspondence between $H_{\mathbf{f}}^{*} / (R_{\mathbf{f}}^{*}\mathbf{Q}^{*})$ and the set of isomorphism classes of pairs $(\mathbf{E},\kappa)$ with $\mathbf{E}$ an enhanced elliptic curve and $\kappa$ an injection $\operatorname{End}(\mathbf{E})\otimes \mathbf{Q}\to H$.
 
-Take  $g \in H_{f}^{*}$  and consider the associated pair  $(\mathbf{E}, \kappa)$ . The image of End(E) (resp. End(E)) in H is the order  $H \cap (gR_{\mathbf{f}}g^{-1})$  (resp.  $H \cap (gA_{\mathbf{f}}g^{-1})$ ). Thus  $\kappa$  maps End(E) to R and End(E) to A if and only if we have the equalities
+Take  $g \in H_{f}^{*}$  and consider the associated pair  $(\mathbf{E}, \kappa)$ . The image of End($\mathbf{E}$) (resp. End($E$)) in H is the order  $H \cap (gR_{\mathbf{f}}g^{-1})$  (resp.  $H \cap (gA_{\mathbf{f}}g^{-1})$ ). Thus  $\kappa$  maps End($\mathbf{E}$) to R and End($E$) to A if and only if we have the equalities
 
 $$
 g A _ {\mathbf {f}} g ^ {- 1} = B _ {\mathbf {f}}, \quad g R _ {\mathbf {f}} g ^ {- 1} = S _ {\mathbf {f}}.
@@ -515,7 +523,7 @@ $$
 X \approx H _ {1} (\mathcal {G}, \mathbf {Z})
 $$
 
-of (2.1). In view of the inclusion (1) of §2, it is natural to relate the actions of the $T_{n}$ on $X$ to the correspondences induced by the $T_{n}$ on the set $\mathcal{I} = \Sigma(M)$ of isomorphism classes of enhanced supersingular elliptic curves over $\overline{\mathbf{F}}_q$. Note, however, that the map $X \to \mathbf{Z}^{\mathcal{I}}$ depends on our having oriented each edge $i \in \mathcal{I}$. Our discussion must take into account any inversions introduced by the $T_{n}$.
+of (2.1). In view of the inclusion (1) of §2, it is natural to relate the actions of the $T_{n}$ on $X$ to the correspondences induced by the $T_{n}$ on the set $\mathcal{S} = \Sigma(M)$ of isomorphism classes of enhanced supersingular elliptic curves over $\overline{\mathbf{F}}_q$. Note, however, that the map $X \to \mathbf{Z}^{\mathcal{S}}$ depends on our having oriented each edge $i \in \mathcal{S}$. Our discussion must take into account any inversions introduced by the $T_{n}$.
 
 We first consider the case where n is prime to q. Then there are no inversions, as the  $T_{n}$  “preserve” each component of  $X_{0}(N)_{\mathbf{F}_{q}}$ . Moreover, the  $T_{n}$  operate on  $\Sigma(M)$  in the evident way, i.e., via the same “modular rules” which define the  $T_{n}$  over Q. For the sake of completeness, let us recall the rule for  $T_{n}$  when n is a prime number  $r \neq q$ ; we give the expression for  $T_{r}(\mathbf{E})$ , where E is an elliptic curve E which is enhanced by a cyclic subgroup of order M.
 
@@ -525,7 +533,7 @@ $$
 T _ {r} (\mathbf {E}) = \sum_ {C} \mathbf {E} / C,
 $$
 
-where the sum is taken over all subgroups C of order r in E and where E/C is the elliptic curve E/C with the evident subgroup of order M. In the case where r divides M, the enhancement of E provides E, in particular, with a subgroup D of order r. We have
+where the sum is taken over all subgroups C of order r in E and where $\mathbf{E}/C$ is the elliptic curve E/C with the evident subgroup of order M. In the case where r divides M, the enhancement of E provides E, in particular, with a subgroup D of order r. We have
 
 $$
 T _ {r} (\mathbf {E}) = \sum_ {C \neq D} \mathbf {E} / C.
@@ -549,7 +557,7 @@ $$
 
 A calculation gives the identity  $w_{q} + T_{q} = \alpha^{*}\beta_{*}$  of endomorphisms of  $J_{0}(N)$ , where  $^{*}$  and  $^{*}$  refer to Pic and Albanese functoriality, respectively. In particular,  $w_{q} + T_{q}$  factors through the map  $\beta_{*}: J_{0}(N) \to J_{0}(M)$ . Considering fibers at q of Néron models, we find that the restriction to T of  $w_{q} + T_{q}$  factors through a map  $T \to J_{0}(M)_{\mathbf{F}_{q}}$ . All such maps are 0, since T is a torus and  $J_{0}(M)$  is an abelian variety. ☐
 
-Proposition 3.8. (i) The involution $w_q$ permutes the two components of $X_0(N)_{\mathbf{F}_q}$. It acts on the set $\mathcal{I}$ of singular points of $X_0(N)_{\mathbf{F}_q}$ as the Frobenius morphism $x \mapsto x^{(q)}$. (ii) The action of $T_q$ on the character group $X$ is the restriction to $X$ of the map on $\mathbf{Z}^{\Sigma(M)}$ induced by the Frobenius automorphism of $\Sigma(M)$. This restriction is the Frobenius automorphism of $X$.
+Proposition 3.8. (i) The involution $w_q$ permutes the two components of $X_0(N)_{\mathbf{F}_q}$. It acts on the set $\mathcal{S}$ of singular points of $X_0(N)_{\mathbf{F}_q}$ as the Frobenius morphism $x \mapsto x^{(q)}$. (ii) The action of $T_q$ on the character group $X$ is the restriction to $X$ of the map on $\mathbf{Z}^{\Sigma(M)}$ induced by the Frobenius automorphism of $\Sigma(M)$. This restriction is the Frobenius automorphism of $X$.
 
 Proof. For (i), see [4], Chapter V, §1. The first statement of (ii) follows from (3.7) and (i), as $w_q$ combines the Frobenius automorphism of $\Sigma(M)$ with an inversion of the two vertices of the graph $\mathcal{G}$. The second statement of (ii) then results from the fact that the two components of $X_0(qM)_{\mathbf{F}_q}$ are rational. (Cf. [18], Appendix, §3.) □
 
@@ -563,7 +571,7 @@ $$
 S _ {0} = \alpha^ {*} (S _ {2} (\Gamma_ {0} (M))) \oplus \beta^ {*} (S _ {2} (\Gamma_ {0} (M)))
 $$
 
-of two copies of  $S_{2}(\Gamma_{0}(M))$  which occurs naturally in  $S = S_{2}(\Gamma_{0}(Mq))$ . The corresponding new space is the orthogonal complement  $S_{1}$  to  $S_{0}$  in S, relative to the Petersson inner product on S. Both  $S_{0}$  and  $S_{1}$  are T-stable subspaces of S; let  $T_{0}$  and  $T_{1}$  be the images of T in the endomorphism rings of these spaces. We say that  $T_{0}$  and  $T_{1}$  are the q-old and q-new quotients of T. The product map
+of two copies of  $S_{2}(\Gamma_{0}(M))$  which occurs naturally in  $S = S_{2}(\Gamma_{0}(Mq))$ . The corresponding new space is the orthogonal complement  $S_{1}$  to  $S_{0}$  in S, relative to the Petersson inner product on S. Both  $S_{0}$  and  $S_{1}$  are $\mathbf{T}$-stable subspaces of S; let  $\mathbf{T}_{0}$  and  $\mathbf{T}_{1}$  be the images of $\mathbf{T}$ in the endomorphism rings of these spaces. We say that  $\mathbf{T}_{0}$  and  $\mathbf{T}_{1}$  are the q-old and q-new quotients of $\mathbf{T}$. The product map
 
 $$
 \mathbf {T} \rightarrow \mathbf {T} _ {0} \times \mathbf {T} _ {1}
@@ -577,7 +585,7 @@ $$
 1 \rightarrow T \rightarrow J ^ {0} \rightarrow J _ {0} (M) \times J _ {0} (M) \rightarrow 0,\tag{5}
 $$
 
-where  $T = \operatorname{Hom}(X, \mathbf{G}_{\mathfrak{m}})$  is the torus whose character group is studied above. All endomorphisms of  $J_{0}(Mq)$  which are defined over Q extend to the Néron model of  $J_{0}(Mq)$  and operate via (5) on T and on  $J_{0}(M) \times J_{0}(M)$ . The action of T on T corresponds to the action of T on X which is discussed above. The action of T on  $J_{0}(M) \times J_{0}(M)$  is completely transparent, except for the endomorphism of  $J_{0}(M) \times J_{0}(M)$  arising from  $T_{q}$ . This endomorphism is not (necessarily) the same as that gotten by making the endomorphism  $T_{q} \in T_{M}$  act diagonally on the product. It is given by a 2-by-2 matrix of endomorphisms of  $J_{0}(M)$  which could be made explicit without difficulty. It is to be noted, in this connection, that the map  $\omega: J^{0} \to J_{0}(M) \times J_{0}(M)$  which appears above is deduced by Pic functoriality from a pair of maps  $X_{0}(M) \Rightarrow X_{0}(Mq)$  which exist naturally only in characteristic q. The map  $\omega$  is to be distinguished from the map  $J^{0} \to J_{0}(M) \times J_{0}(M)$  gotten by Albanese functoriality from the two degeneracy maps  $X_{0}(Mq) \Rightarrow X_{0}(M)$  in characteristic 0.
+where  $T = \operatorname{Hom}(X, \mathbf{G}_{\mathrm{m}})$  is the torus whose character group is studied above. All endomorphisms of  $J_{0}(Mq)$  which are defined over Q extend to the Néron model of  $J_{0}(Mq)$  and operate via (5) on T and on  $J_{0}(M) \times J_{0}(M)$ . The action of $\mathbf{T}$ on T corresponds to the action of $\mathbf{T}$ on X which is discussed above. The action of $\mathbf{T}$ on  $J_{0}(M) \times J_{0}(M)$  is completely transparent, except for the endomorphism of  $J_{0}(M) \times J_{0}(M)$  arising from  $T_{q}$ . This endomorphism is not (necessarily) the same as that gotten by making the endomorphism  $T_{q} \in \mathbf{T}_{M}$  act diagonally on the product. It is given by a 2-by-2 matrix of endomorphisms of  $J_{0}(M)$  which could be made explicit without difficulty. It is to be noted, in this connection, that the map  $\omega: J^{0} \to J_{0}(M) \times J_{0}(M)$  which appears above is deduced by Pic functoriality from a pair of maps  $X_{0}(M) \Rightarrow X_{0}(Mq)$  which exist naturally only in characteristic q. The map  $\omega$  is to be distinguished from the map  $J^{0} \to J_{0}(M) \times J_{0}(M)$  gotten by Albanese functoriality from the two degeneracy maps  $X_{0}(Mq) \Rightarrow X_{0}(M)$  in characteristic 0.
 
 Remark 3.9. The degeneracy maps $\alpha$ and $\beta$ introduced above combine to produce (by Pic functoriality) a map
 
@@ -609,11 +617,11 @@ $$
 
 (We identify the orthogonal complement $S_{1}$ to $S_{0}$ with the indicated quotient of $S$.) An element $t$ of $\mathbf{T}$ thus maps to 0 in $\mathbf{T}_{1}$ if and only if it acts as 0 on $Q$.
 
-It is clear that the abelian variety Q has purely toric reduction in characteristic q, as A has good reduction at q and the dimensions of T and Q coincide. Let U be the connected component of 0 in the fiber at q of the Néron model of Q, so that U is a torus of the same dimension as T. By a well known property of abelian varieties with purely toric reduction, the action of  $\operatorname{End}_{\mathbf{Q}}(Q)$  on U is faithful. Therefore,  $t \in T$  maps to 0 in  $T_{1}$  if and only if it acts as 0 on U.
+It is clear that the abelian variety Q has purely toric reduction in characteristic q, as A has good reduction at q and the dimensions of T and Q coincide. Let U be the connected component of 0 in the fiber at q of the Néron model of Q, so that U is a torus of the same dimension as T. By a well known property of abelian varieties with purely toric reduction, the action of  $\operatorname{End}_{\mathbf{Q}}(Q)$  on U is faithful. Therefore,  $t \in \mathbf{T}$  maps to 0 in  $\mathbf{T}_{1}$  if and only if it acts as 0 on U.
 
-The structural map $\pi: J_0(Mq) \to Q$ induces a homomorphism $J^0 \to U$. Combining this map with the inclusion of $T$ in $J^0$, we get a T-equivariant map $\pi_*: T \to U$. Choose a map $\eta: Q \to J_0(Mq)$ for which $\pi\eta$ is an isogeny from $Q$ to $Q$. We obtain in characteristic $q$ a map $\eta_*: U \to T$ for which $\pi_*\eta_*$ is an isogeny. Since $T$ and $U$ have the same dimensions, $\pi_*$ is an isogeny. Hence $t \in \mathbf{T}$ maps to 0 in $\mathbf{T}_1$ if and only if it acts as 0 on $T$.
+The structural map $\pi: J_0(Mq) \to Q$ induces a homomorphism $J^0 \to U$. Combining this map with the inclusion of $T$ in $J^0$, we get a $\mathbf{T}$-equivariant map $\pi_*: T \to U$. Choose a map $\eta: Q \to J_0(Mq)$ for which $\pi\eta$ is an isogeny from $Q$ to $Q$. We obtain in characteristic $q$ a map $\eta_*: U \to T$ for which $\pi_*\eta_*$ is an isogeny. Since $T$ and $U$ have the same dimensions, $\pi_*$ is an isogeny. Hence $t \in \mathbf{T}$ maps to 0 in $\mathbf{T}_1$ if and only if it acts as 0 on $T$.
 
-Theorem 3.11. View $J_0(M) \times J_0(M)$ as a T-module via (5). Let $t$ be an element of $\mathbf{T}$. Then $t$ acts as 0 on $J_0(M) \times J_0(M)$ if and only if $t$ is 0 in $\mathbf{T}_0$.
+Theorem 3.11. View $J_0(M) \times J_0(M)$ as a $\mathbf{T}$-module via (5). Let $t$ be an element of $\mathbf{T}$. Then $t$ acts as 0 on $J_0(M) \times J_0(M)$ if and only if $t$ is 0 in $\mathbf{T}_0$.
 
 Proof. This is similar to (3.10). With $A$ as above, $t \in \mathbf{T}$ acts as 0 on $A$ if and only if it acts as 0 on $S_0$. The inclusion of $A$ in $J_0(Mq)$ induces in characteristic $q$ a map $A \to J^0$. The composition of this map with the map $J^0 \to J_0(M) \times J_0(M)$ of (5) is an isogeny. Hence $t$ acts as 0 on $S_0$ if and only if it acts as 0 on $J_0(M) \times J_0(M)$.
 
@@ -621,7 +629,7 @@ Proof. This is similar to (3.10). With $A$ as above, $t \in \mathbf{T}$ acts as 
 
 We now study the action of the Hecke operators  $T_{n} \in \text{End}(J_{0}(qM))$  on the component group  $\Phi$  associated with the reduction of  $X_{0}(qM)$  over  $F_{q}$ . Our aim is to prove that  $\Phi$  is “Eisenstein” in the sense that  $T_{r}$  operates on  $\Phi$  by multiplication by  $1 + r$ , for almost all primes r. We do this by reducing the question to one involving supersingular elliptic curves over  $\bar{F}_{q}$ . (See [30] and [8] for more information about component groups attached to Jacobians of modular curves.)
 
-We first specialize to  $X_{0}(qM)$  the description of  $\Phi$  given in §2. Let A be the free abelian group on the set S of supersingular points of  $X_{0}(M)_{\mathbf{F}_{q}}$  and let  $X \subset A$  be the subgroup of A consisting of elements of degree 0. Thus X is the character group of the torus T associated with  $X_{0}(qM)_{\mathbf{F}_{q}}$ . Note that S is the set of isomorphism classes of pairs  $\mathbf{E} = (E, B)$ , where E is a supersingular elliptic curve over  $\bar{F}_{q}$  and B is a cyclic subgroup of E of order M. (Thus E is an “enhanced elliptic curve” in the jargon introduced above.) For each  $i \in S$ , we define  $e(i)$  as above; the  $e(i)$  furnish a diagonal pairing on A. We let
+We first specialize to  $X_{0}(qM)$  the description of  $\Phi$  given in §2. Let $\Lambda$ be the free abelian group on the set $\mathcal{S}$ of supersingular points of  $X_{0}(M)_{\mathbf{F}_{q}}$  and let  $X \subset \Lambda$  be the subgroup of $\Lambda$ consisting of elements of degree 0. Thus X is the character group of the torus T associated with  $X_{0}(qM)_{\mathbf{F}_{q}}$ . Note that $\mathcal{S}$ is the set of isomorphism classes of pairs  $\mathbf{E} = (E, B)$ , where E is a supersingular elliptic curve over  $\bar{F}_{q}$  and B is a cyclic subgroup of E of order M. (Thus E is an “enhanced elliptic curve” in the jargon introduced above.) For each  $i \in \mathcal{S}$ , we define  $e(i)$  as above; the  $e(i)$  furnish a diagonal pairing on $\Lambda$. We let
 
 $$
 \kappa \colon \Lambda \to \Lambda^ {*}
@@ -638,7 +646,7 @@ by restricting the pairing to $X$.
 The results of §2 (especially 2.3) provide us with an isomorphism
 
 $$
-\Phi \approx \operatorname{coker} (t).
+\Phi \approx \operatorname{coker} (\iota).
 $$
 
 In this model for $\Phi$, the action of $T_{n}$ on the target $X^{*} = \operatorname{Hom}(X, \mathbf{Z})$ of $\iota$ is the action $\operatorname{Hom}(T_{n}, \text{identity})$ induced by the standard action of $T_{n}$ on $X$ which we considered above. The action of $T_{n}$ on the source $X$ of $\iota$, however, is that induced by the transpose $\xi_{n} = w_{qM} T_{n} w_{qM}$ acting on $X$. This circumstance arises because the source
@@ -663,7 +671,7 @@ $$
 \mathbf {E} \mapsto \sum_ {\boldsymbol {H}} \mathbf {E} / H,
 $$
 
-where the sum runs over the  $(r+1)$  subgroups of E having order r. (The quotient E/H is simply the quotient E/H with the evident enhancement.) This action induces the functorial actions of  $T_{r}$  on the subgroup X of  $\Lambda$  and on the duals  $X^{*}$  and  $\Lambda^{*}$  of X and  $\Lambda$ . It is well known (and not hard to verify) that  $\iota$  and  $\kappa$  commute with these actions. (This fact corresponds to the relation  $T_{r} = \xi_{r}$ .) The actions of  $\eta_{r}$  on these groups are realized by subtracting the endomorphisms  $T_{r}$  and “multiplication by  $r + 1$ ” of these groups.
+where the sum runs over the  $(r+1)$  subgroups of E having order r. (The quotient $\mathbf{E}/H$ is simply the quotient E/H with the evident enhancement.) This action induces the functorial actions of  $T_{r}$  on the subgroup X of  $\Lambda$  and on the duals  $X^{*}$  and  $\Lambda^{*}$  of X and  $\Lambda$ . It is well known (and not hard to verify) that  $\iota$  and  $\kappa$  commute with these actions. (This fact corresponds to the relation  $T_{r} = \xi_{r}$ .) The actions of  $\eta_{r}$  on these groups are realized by subtracting the endomorphisms  $T_{r}$  and “multiplication by  $r + 1$ ” of these groups.
 
 We have $\Phi = X^{*} / X$, where $\iota$ is used to embed $X$ into $X^{*}$. Theorem (3.12) thus asserts that we have
 
@@ -687,7 +695,7 @@ $$
 
 from which Theorem (3.12) visibly follows. Indeed, take $\zeta \in \Lambda^{*}$. For $e = (\Lambda^{*} : \Lambda)$, we have $e\zeta \in \Lambda$. We then get $\eta_{r}(e\zeta) \in X$ because of the obvious inclusion $\eta_{r}(\Lambda) \subset X$. Assuming (6), we find that $\eta_{r}(\zeta)$ is an element of $\Lambda$ for which $e \cdot \eta_{r}(\zeta) \in X$. Since $\Lambda / X$ is the torsion-free group $\mathbf{Z}$, we have $\eta_{r}(\zeta) \in X$.
 
-To prove (6), we first express this inclusion as a concrete divisibility. Let $\{i^{*}\}$ be the basis of $\Lambda^{*}$ which is dual to the basis $\mathcal{I} = \{i\}$ of $\Lambda$. For each $i^{*}$, we must exhibit a $\lambda \in \Lambda$ such that $\eta_{r}(i^{*})(j) = \lambda \cdot j$ for each $j \in \mathcal{I}$. By the definition of the action of $\eta_{r}$ on $\Lambda^{*}$, $\eta_{r}(i^{*})(j)$ represents the coefficient of $i$ in $\eta_{r}(j)$, a number we may write
+To prove (6), we first express this inclusion as a concrete divisibility. Let $\{i^{*}\}$ be the basis of $\Lambda^{*}$ which is dual to the basis $\mathcal{S} = \{i\}$ of $\Lambda$. For each $i^{*}$, we must exhibit a $\lambda \in \Lambda$ such that $\eta_{r}(i^{*})(j) = \lambda \cdot j$ for each $j \in \mathcal{S}$. By the definition of the action of $\eta_{r}$ on $\Lambda^{*}$, $\eta_{r}(i^{*})(j)$ represents the coefficient of $i$ in $\eta_{r}(j)$, a number we may write
 
 $$
 \frac {1}{e (i)} i \cdot \eta_ {r} (j) = \frac {1}{e (i)} j \cdot \eta_ {r} (i),
@@ -703,7 +711,7 @@ $$
 
 We must show that the number of subgroups $H$ of $E$, having order $r$, for which $\mathbf{E} / H \approx \mathbf{F}$, is divisible by $e$.
 
-There is an evident operation of A on the set of such H, and it suffices to show that this action is free. To do this, we suppose that we have  $E/H \approx F$  and  $\alpha(H) = H$  with  $\alpha \in \text{Aut}(\mathbf{E})$ . We must show that we have  $\alpha \in \{\pm 1\}$ . Assuming the contrary, we observe that  $\alpha$  has order 3, 4, or 6, since  $\alpha$  may be regarded as a unit in some imaginary quadratic field. (Changing the sign of  $\alpha$  if necessary, we may assume that it has order 4 or 6.)
+There is an evident operation of A on the set of such H, and it suffices to show that this action is free. To do this, we suppose that we have  $\mathbf{E}/H \approx \mathbf{F}$  and  $\alpha(H) = H$  with  $\alpha \in \text{Aut}(\mathbf{E})$ . We must show that we have  $\alpha \in \{\pm 1\}$ . Assuming the contrary, we observe that  $\alpha$  has order 3, 4, or 6, since  $\alpha$  may be regarded as a unit in some imaginary quadratic field. (Changing the sign of  $\alpha$  if necessary, we may assume that it has order 4 or 6.)
 
 Let $R$ be the subring of $\operatorname{End}(\mathbf{E})$ generated by $\alpha$, so that $R$ is isomorphic to either the ring of Gaussian integers, or else the integer ring of $\mathbf{Q}(\sqrt{-3})$. We note that $H$ is an $R$-submodule of the free rank-1 $R / rR$-module $E[r]$. Such submodules are in 1-1 correspondence with the ideals $\wp$ of $R$ which contain $(r)$. Since $R$ is a principal ideal domain, we have $\wp = (\pi)$ for some $\pi$ dividing $r$ in $R$, and then $H$ is the kernel of $\pi' = r / \pi$ on $E$. The endomorphism $\pi'$ of $\mathbf{E}$ then induces an isomorphism $\mathbf{E} / H \approx \mathbf{E}$, contrary to our assumption that $\mathbf{E}$ and $\mathbf{F}$ are non-isomorphic.
 
@@ -741,7 +749,7 @@ $$
 \mathbf {E} _ {1} \rightarrow \mathbf {E} _ {2},
 $$
 
-where  $E_{1}$  and  $E_{2}$  are enhanced by subgroups of order M as before. (We will continue to understand that “enhanced elliptic curves” are elliptic curves which are enhanced by cyclic subgroups of order M.)
+where  $\mathbf{E}_{1}$  and  $\mathbf{E}_{2}$  are enhanced by subgroups of order M as before. (We will continue to understand that “enhanced elliptic curves” are elliptic curves which are enhanced by cyclic subgroups of order M.)
 
 There are two natural degeneracy maps
 
@@ -759,7 +767,7 @@ Theorem 3.15. The map $\delta$ is surjective.
 
 We give a proof based on two lemmas, derived from results of Eichler concerning the arithmetic of Eichler orders in quaternion algebras.
 
-Lemma 3.16. Let E be an enhanced supersingular elliptic curve over  $F_{q}$ . There is a non-zero endomorphism of E whose degree (as an endomorphism of E) is an odd power of p.
+Lemma 3.16. Let $\mathbf{E}$ be an enhanced supersingular elliptic curve over  $F_{q}$ . There is a non-zero endomorphism of $\mathbf{E}$ whose degree (as an endomorphism of E) is an odd power of p.
 
 Proof. For  $x \in R = \text{End}(\mathbf{E})$ , the degree of x as an endomorphism coincides with the reduced norm of x as an element of H. To prove (3.16) is to verify that p is the reduced norm of some element of the order  $R[p^{-1}]$  of H. This follows from [41], Cor. 5.9, page 90, since all positive rational numbers are reduced norms of elements of H ([41], Th. 4.1, page 80). ☐
 
@@ -817,7 +825,7 @@ $$
 
 on $X$. These imply that $T_{p} + w_{p} = \beta^{*}\alpha_{*}$ induces $(x, y) \mapsto (\tau x, (p + 1)x)$ on $X \oplus X$. Subtracting $w_{p}$, we obtain the desired formula for $T_{p}$ on $X \oplus X$.
 
-Consider now the subring  $T = T_{Mpq}$  of  $\text{End}(J_0(Mpq))$  generated by all  $T_n$  with  $n \geq 1$ . In our discussion of  $X_0(Mq)$ , we defined the q-old and q-new quotients of  $T_{Mq}$ . We define analogously the p-old, p-new, q-old, and q-new quotients of T. In addition, we define the pq-new quotient  $\bar{T}$  of T as follows. The space
+Consider now the subring  $\mathbf{T} = \mathbf{T}_{Mpq}$  of  $\text{End}(J_0(Mpq))$  generated by all  $T_n$  with  $n \geq 1$ . In our discussion of  $X_0(Mq)$ , we defined the q-old and q-new quotients of  $\mathbf{T}_{Mq}$ . We define analogously the p-old, p-new, q-old, and q-new quotients of $\mathbf{T}$. In addition, we define the pq-new quotient  $\bar{\mathbf{T}}$  of $\mathbf{T}$ as follows. The space
 
 $$
 S = S _ {2} (\Gamma_ {0} (M p q))
@@ -829,11 +837,11 @@ $$
 S _ {2} (\Gamma_ {0} (M q)) \oplus S _ {2} (\Gamma_ {0} (M q)), \quad S _ {2} (\Gamma_ {0} (M p)) \oplus S _ {2} (\Gamma_ {0} (M p)).
 $$
 
-Let $S_{pq-old}$ be the sum of these two subspaces (the sum is not necessarily direct), and let $S_{pq-new}$ be the orthogonal complement to $S_{pq-old}$ in $S$, with respect to the Petersson inner product. The spaces $S_{pq-old}$ and $S_{pq-new}$ are T-stable. We let $\overline{T}$ be the quotient of T cut out by $S_{pq-new}$, i.e., the image of T in $\text{End}(S_{pq-new})$.
+Let $S_{pq-old}$ be the sum of these two subspaces (the sum is not necessarily direct), and let $S_{pq-new}$ be the orthogonal complement to $S_{pq-old}$ in $S$, with respect to the Petersson inner product. The spaces $S_{pq-old}$ and $S_{pq-new}$ are $\mathbf{T}$-stable. We let $\overline{\mathbf{T}}$ be the quotient of $\mathbf{T}$ cut out by $S_{pq-new}$, i.e., the image of $\mathbf{T}$ in $\text{End}(S_{pq-new})$.
 
-Theorem 3.20. The T-module Y cuts out the pq-new quotient  $\bar{T}$  of T: an element t of T is 0 in  $\bar{T}$  if and only if it acts on Y as 0.
+Theorem 3.20. The $\mathbf{T}$-module Y cuts out the pq-new quotient  $\bar{\mathbf{T}}$  of $\mathbf{T}$: an element t of $\mathbf{T}$ is 0 in  $\bar{\mathbf{T}}$  if and only if it acts on Y as 0.
 
-Proof. Fix  $t \in T$ . As in the proof of (3.10), t is 0 in  $\bar{T}$  if and only if t acts as 0 on the “pq-new” quotient R of  $J_{0}(Mpq)$  which is obtained by dividing  $J_{0}(Mpq)$  by the image of the natural degeneracy map
+Proof. Fix  $t \in \mathbf{T}$ . As in the proof of (3.10), t is 0 in  $\bar{\mathbf{T}}$  if and only if t acts as 0 on the “pq-new” quotient R of  $J_{0}(Mpq)$  which is obtained by dividing  $J_{0}(Mpq)$  by the image of the natural degeneracy map
 
 $$
 J _ {0} (M q) \times J _ {0} (M q) \times J _ {0} (M p) \times J _ {0} (M p) \rightarrow J _ {0} (M p q).
@@ -841,7 +849,7 @@ $$
 
 This quotient has purely toric reduction in characteristic q, since it is a quotient of the q-new quotient Q of  $J_{0}(Mpq)$ , which already has purely toric reduction (cf. (3.10) and its proof). Let V be the torus  $(R_{\mathbf{F}_{q}})^{0}$ , i.e., the connected component of the fiber at q of the Néron model of R. The analogous torus for  $J_{0}(Mpq)$  is (by definition)  $\operatorname{Hom}(L, \mathbf{G}_{\mathrm{m}})$ , while the analogous torus for  $J_{0}(Mq)$  is  $\operatorname{Hom}(X, \mathbf{G}_{\mathrm{m}})$ .
 
-The quotient map $\pi\colon J_{0}(Mpq)\to R$ induces a map $\operatorname{Hom}(L,\mathbf{G}_{\mathfrak{m}})\to V$; this latter map is trivial on $\operatorname{Hom}(X,\mathbf{G}_{\mathfrak{m}})\times\operatorname{Hom}(X,\mathbf{G}_{\mathfrak{m}})$ because $\pi$ is trivial on (the image in $J_{0}(Mpq)$ of) $J_{0}(Mq)\times J_{0}(Mq)$. Hence $\pi$ induces a map $\lambda\colon\operatorname{Hom}(Y,\mathbf{G}_{\mathfrak{m}})\to V$. It is an easy task to check that the source and target of $\lambda$ are tori of the same dimension. Indeed, we have
+The quotient map $\pi\colon J_{0}(Mpq)\to R$ induces a map $\operatorname{Hom}(L,\mathbf{G}_{\mathrm{m}})\to V$; this latter map is trivial on $\operatorname{Hom}(X,\mathbf{G}_{\mathrm{m}})\times\operatorname{Hom}(X,\mathbf{G}_{\mathrm{m}})$ because $\pi$ is trivial on (the image in $J_{0}(Mpq)$ of) $J_{0}(Mq)\times J_{0}(Mq)$. Hence $\pi$ induces a map $\lambda\colon\operatorname{Hom}(Y,\mathbf{G}_{\mathrm{m}})\to V$. It is an easy task to check that the source and target of $\lambda$ are tori of the same dimension. Indeed, we have
 
 $$
 \begin{array}{c} \dim (L) = \dim J _ {0} (M p q) - 2 \dim J _ {0} (M p) \\ = \dim (S) - 2 \dim S _ {2} (\Gamma_ {0} (M p))  , \end{array}
@@ -857,9 +865,9 @@ $$
 \begin{array}{c} \dim (Y) = \dim (S) - 2 \dim S _ {2} (\Gamma_ {0} (M p)) \\ - 2 \dim S _ {2} (\Gamma_ {0} (M q)) + 4 \dim S _ {2} (\Gamma_ {0} (M)). \end{array}
 $$
 
-Also, $\dim(V) = \dim(R) = \dim(S_{pq\text{-new}})$, and the latter number agrees with the dimension of $Y$ because the intersection of $S_2(\Gamma_0(Mp)) \oplus S_2(\Gamma_0(Mp))$ and $S_2(\Gamma_0(Mq)) \oplus S_2(\Gamma_0(Mq))$ in $S$ is the direct sum of four copies of $S_2(\Gamma_0(M))$. By using the same idea as in the proof of (3.10), we find a map $\eta: V \to \operatorname{Hom}(Y, \mathbf{G}_{\mathfrak{m}})$ such that $\lambda \eta$ is an isogeny $V \to V$. It follows that $\lambda$ is an isogeny of tori. Hence $t$ acts as 0 on $Y$ if and only if $t$ acts as 0 on $V$; since $R$ has purely toric reduction, the latter condition means that $t$ acts as 0 on $R$, and the theorem is proved.
+Also, $\dim(V) = \dim(R) = \dim(S_{pq\text{-new}})$, and the latter number agrees with the dimension of $Y$ because the intersection of $S_2(\Gamma_0(Mp)) \oplus S_2(\Gamma_0(Mp))$ and $S_2(\Gamma_0(Mq)) \oplus S_2(\Gamma_0(Mq))$ in $S$ is the direct sum of four copies of $S_2(\Gamma_0(M))$. By using the same idea as in the proof of (3.10), we find a map $\eta: V \to \operatorname{Hom}(Y, \mathbf{G}_{\mathrm{m}})$ such that $\lambda \eta$ is an isogeny $V \to V$. It follows that $\lambda$ is an isogeny of tori. Hence $t$ acts as 0 on $Y$ if and only if $t$ acts as 0 on $V$; since $R$ has purely toric reduction, the latter condition means that $t$ acts as 0 on $R$, and the theorem is proved.
 
-In yet another variant, we define the q-new/p-old quotient of T to be that quotient  $T_{q-new/p-old}$  cut out by the intersection  $S_{q-new/p-old}$  in  $S = S_{2}(\Gamma_{0}(Mpq))$  of  $S_{q-new}$  and  $S_{p-old}$ .
+In yet another variant, we define the q-new/p-old quotient of $\mathbf{T}$ to be that quotient  $\mathbf{T}_{q\text{-new}/p\text{-old}}$  cut out by the intersection  $S_{q-new/p-old}$  in  $S = S_{2}(\Gamma_{0}(Mpq))$  of  $S_{q-new}$  and  $S_{p-old}$ .
 
 Theorem 3.21. The Hecke algebra $\mathbf{T}$ acts on $X \oplus X$ through its quotient $\mathbf{T}_{q\text{-new}/p\text{-old}}$, which acts faithfully on $X \oplus X$.
 
@@ -917,13 +925,13 @@ $$
 
 The cokernel of the middle vertical map is  $Y^{*}/Y$ , since  $L^{*}/(X^{*} \oplus X^{*})$  is  $Y^{*}$ . This group is finite, since the pairing on Y satisfies  $y \cdot y > 0$  for  $y \neq 0$ . Since  $L^{*}/Y$  and  $X^{*} \oplus X^{*}$  have the same rank,  $\delta^{*}$  is injective. Also, the cokernel of the first vertical map  $\sigma$  becomes  $(X \oplus X)/\mu(X \oplus X)$ , after  $\delta$  is used to identify L/Y with  $X \oplus X$ , so that  $\sigma$  is identified with  $\mu$ . An application of the snake lemma to the commutative diagram now gives the desired 4-term exact sequence. ☐
 
-Remark 3.24. The exact sequence of (3.23) is “Hecke compatible” provided that one takes the appropriate action of each Hecke operator  $T_{n}$  on the groups above. Care must be taken with two points. The first, already discussed on several occasions, is that the  $p^{th}$  Hecke operator used on  $J_{0}(qM)^{2}$  is not induced by the usual  $p^{th}$  Hecke operator  $\tau$  of  $J_{0}(qM)$, cf. (3.19). The second point is that both the Picard and Albanese actions of  $T_{n}$  on L and X intervene in the actions of  $T_{n}$  on the component groups  $\Theta$  and  $\Phi$. Namely, in the case of  $J_{0}(pqM)$, say, the correspondence  $T_{n}$  of  $X_{0}(pqM)$  induces endomorphisms  $T_{n}$  and  $\xi_{n}$  of  $J_{0}(pqM)$, by Picard and Albanese functoriality, respectively. These induce endomorphisms of L, the character group of the maximal torus in the mod q reduction of  $J_{0}(pqM)$. For simplicity, call these endomorphisms  $T_{n}$  and  $\xi_{n}$. They lead to two T-module structures on L. In the usual (Picard) structure,  $T_{n} \in T$  operates on L as  $T_{n} \in \text{End}(L)$. In the Albanese structure,  $T_{n}$  operates on L as  $\xi_{n} \in \text{End}(L)$. These two T-module structures on L in fact give isomorphic T-modules, since the Atkin-Lehner involution  $w = w_{pqM}$  of  $J_{0}(pqM)$  induces an automorphism of the abelian group L which is an intertwining operator for the two structures.
+Remark 3.24. The exact sequence of (3.23) is “Hecke compatible” provided that one takes the appropriate action of each Hecke operator  $T_{n}$  on the groups above. Care must be taken with two points. The first, already discussed on several occasions, is that the  $p^{th}$  Hecke operator used on  $J_{0}(qM)^{2}$  is not induced by the usual  $p^{th}$  Hecke operator  $\tau$  of  $J_{0}(qM)$, cf. (3.19). The second point is that both the Picard and Albanese actions of  $T_{n}$  on L and X intervene in the actions of  $T_{n}$  on the component groups  $\Theta$  and  $\Phi$. Namely, in the case of  $J_{0}(pqM)$, say, the correspondence  $T_{n}$  of  $X_{0}(pqM)$  induces endomorphisms  $T_{n}$  and  $\xi_{n}$  of  $J_{0}(pqM)$, by Picard and Albanese functoriality, respectively. These induce endomorphisms of L, the character group of the maximal torus in the mod q reduction of  $J_{0}(pqM)$. For simplicity, call these endomorphisms  $T_{n}$  and  $\xi_{n}$. They lead to two $\mathbf{T}$-module structures on L. In the usual (Picard) structure,  $T_{n} \in \mathbf{T}$  operates on L as  $T_{n} \in \text{End}(L)$. In the Albanese structure,  $T_{n}$  operates on L as  $\xi_{n} \in \text{End}(L)$. These two $\mathbf{T}$-module structures on L in fact give isomorphic $\mathbf{T}$-modules, since the Atkin-Lehner involution  $w = w_{pqM}$  of  $J_{0}(pqM)$  induces an automorphism of the abelian group L which is an intertwining operator for the two structures.
 
-As discussed above, the endomorphism of  $\Theta = L^{*}/L$  induced by  $T_{n}$  is obtained by combining the endomorphism  $(T_{n})^{*} = \operatorname{Hom}(T_{n}, \operatorname{id})$ . on  $L^{*} = \operatorname{Hom}(L, \mathbf{Z})$  with the endomorphism  $\xi_{n}$  of L. Similar remarks apply for  $\Phi$ . It follows that the exact sequence of (3.23), as constructed by the snake lemma, is an exact sequence of T-modules, provided that T acts in the evident (Picard) manner on all groups other than  $(X \oplus X)/\mu(X \oplus X)$ , and in the Albanese fashion on  $(X \oplus X)/\mu(X \oplus X)$ .
+As discussed above, the endomorphism of  $\Theta = L^{*}/L$  induced by  $T_{n}$  is obtained by combining the endomorphism  $(T_{n})^{*} = \operatorname{Hom}(T_{n}, \operatorname{id})$ . on  $L^{*} = \operatorname{Hom}(L, \mathbf{Z})$  with the endomorphism  $\xi_{n}$  of L. Similar remarks apply for  $\Phi$ . It follows that the exact sequence of (3.23), as constructed by the snake lemma, is an exact sequence of $\mathbf{T}$-modules, provided that $\mathbf{T}$ acts in the evident (Picard) manner on all groups other than  $(X \oplus X)/\mu(X \oplus X)$ , and in the Albanese fashion on  $(X \oplus X)/\mu(X \oplus X)$ .
 
-On the other hand, the Picard and Albanese T-module structures on  $(X \oplus X)/\mu(X \oplus X)$  lead to isomorphic T-modules; the intertwining operator is again that involution of  $(X \oplus X)/\mu(X \oplus X)$  which corresponds to  $w_{pqM}$ . This involution is induced by the composition of the Atkin-Lehner operator  $w_{qM} \in \text{Aut}(X)$  (acting diagonally on  $X \oplus X$ ) and the map  $(x, y) \mapsto (y, x)$  of  $X \oplus X$ .
+On the other hand, the Picard and Albanese $\mathbf{T}$-module structures on  $(X \oplus X)/\mu(X \oplus X)$  lead to isomorphic $\mathbf{T}$-modules; the intertwining operator is again that involution of  $(X \oplus X)/\mu(X \oplus X)$  which corresponds to  $w_{pqM}$ . This involution is induced by the composition of the Atkin-Lehner operator  $w_{qM} \in \text{Aut}(X)$  (acting diagonally on  $X \oplus X$ ) and the map  $(x, y) \mapsto (y, x)$  of  $X \oplus X$ .
 
-The composition commutes with  $\mu$ , since  $w_{qM}$  commutes with the  $p^{th}$  Hecke operator  $\tau$  on X. Therefore, (3.23) is correct as stated, even when  $(X\oplus X)/\mu(X\oplus X)$  is given its (more usual) Picard T-module structure. In what follows, the Picard structure will be systematically chosen.
+The composition commutes with  $\mu$ , since  $w_{qM}$  commutes with the  $p^{th}$  Hecke operator  $\tau$  on X. Therefore, (3.23) is correct as stated, even when  $(X\oplus X)/\mu(X\oplus X)$  is given its (more usual) Picard $\mathbf{T}$-module structure. In what follows, the Picard structure will be systematically chosen.
 
 Proposition 3.25. Let $\gamma = (T_p)^2 - 1 \in \mathbf{T}$. Then $\mu(X \oplus X) = \gamma(X \oplus X)$.
 
@@ -943,17 +951,17 @@ A forthcoming work of Jordan and Livné will deal with generalizations of the me
 
 Let $p$ and $q$ again be distinct primes, and let $M$ be an integer prime to $pq$. Let $B$ be an indefinite quaternion division algebra over $\mathbf{Q}$ of discriminant $pq$. (Up to isomorphism, $B$ is unique.) Let $\mathcal{O}$ be an Eichler order of level $M$ (i.e., reduced discriminant $Mpq$) in $B$. Let $\Gamma_{\infty}$ be the group of elements of $\mathcal{O}$ with (reduced) norm 1. After fixing an embedding $B \to \mathbf{M}(2, \mathbf{R})$, we obtain in particular an embedding $\Gamma_{\infty} \to \mathbf{SL}(2, \mathbf{R})$ and therefore an action of $\Gamma_{\infty}$ on the Poincaré upper half-plane $H$. Let $C$ be the standard canonical model, over $\mathbf{Q}$, of the compact Riemann surface $\Gamma_{\infty} \setminus H$, and let $J$ be the Jacobian $\operatorname{Pic}^0(C)$. The curve $C$ is furnished with Hecke correspondences $T_n$ for $n \geq 1$. In analogy with the situation in §2, we write again $T_n$ for the endomorphism of $J$ induced by $T_n$ via Pic functoriality and write $\xi_n$ for the endomorphism of $J$ induced by $T_n$ using Albanese functoriality.
 
-For simplicity, write simply C for the curve  $C_{Q_{p}}$  and J for  $J_{Q_{p}}$ . A model C for C over  $Z_{p}$  of the type we considered in §2 was constructed by Cerednik in [3]; in [7], Drinfeld gave a moduli-theoretic interpretation of Cerednik's construction. It follows, in particular, from their work that J has purely toric reduction at p. Let Z be the character group of the torus  $(J_{\mathbf{F}_{p}})^{0}$  and let  $\Psi = Z^{*}/Z$  be the group of components of  $(R_{\mathbf{F}_{p}})$ . (There is a natural bilinear pairing on Z, as discussed in §2, which embeds Z in  $Z^{*}$ .)
+For simplicity, write simply C for the curve  $C_{Q_{p}}$  and J for  $J_{Q_{p}}$ . A model $\mathcal{C}$ for C over  $Z_{p}$  of the type we considered in §2 was constructed by Cerednik in [3]; in [7], Drinfeld gave a moduli-theoretic interpretation of Cerednik's construction. It follows, in particular, from their work that J has purely toric reduction at p. Let Z be the character group of the torus  $(J_{\mathbf{F}_{p}})^{0}$  and let  $\Psi = Z^{*}/Z$  be the group of components of  $(R_{\mathbf{F}_{p}})$ . (There is a natural bilinear pairing on Z, as discussed in §2, which embeds Z in  $Z^{*}$ .)
 
 Let $\tilde{\mathbf{T}}$ be the formal polynomial ring $\mathbf{Z}[\ldots T_n\ldots ]$ generated by commuting indeterminates $T_{n}$. There are two actions of $\tilde{\mathbf{T}}$ on $J$: the "standard action," in which $T_{n}\in \tilde{\mathbf{T}}$ acts as $T_{n}$ on $J$, and the Albanese action, in which $T_{n}$ acts as $\xi_{n}$. We shall encounter both actions of $\tilde{\mathbf{T}}$ on $Z$, but only the standard action of $\tilde{\mathbf{T}}$ on $\Psi$. (In the relation $\Psi = Z^{*} / Z$, the standard action of $\tilde{\mathbf{T}}$ on $\Psi$ arises from the standard action of $\tilde{\mathbf{T}}$ on $Z^{*} = \mathrm{Hom}(Z,\mathbf{Z})$, together with the Albanese action of $\tilde{\mathbf{T}}$ on the submodule $Z$ of $Z^{*}$.)
 
-The object of this § is to relate Z and  $\Psi$  to the T-modules  $L, X \oplus X, Y, \Phi, \ldots$  of §3. (Since the Hecke operators  $T_{n}$  on  $J_{0}(Mpq)$  make T a quotient of  $\tilde{T}$ , every T-module is naturally a  $\tilde{T}$ -module.) Here is the main result:
+The object of this § is to relate Z and  $\Psi$  to the $\mathbf{T}$-modules  $L, X \oplus X, Y, \Phi, \ldots$  of §3. (Since the Hecke operators  $T_{n}$  on  $J_{0}(Mpq)$  make $\mathbf{T}$ a quotient of  $\tilde{\mathbf{T}}$ , every $\mathbf{T}$-module is naturally a  $\tilde{\mathbf{T}}$ -module.) Here is the main result:
 
 Theorem 4.1. There is a $\tilde{\mathbf{T}}$-isomorphism $Z \approx Y$ under which the bilinear pairing on $Z$ corresponds to the restriction to $Y$ of the natural pairing on $L$.
 
 In the statement of this theorem, we understand the actions of $\tilde{\mathbf{T}}$ on $Z$ and on $Y$ to be the standard (Pic) actions. As a corollary, we may deduce that $Z$ and $Y$, with the Albanese actions of $\tilde{\mathbf{T}}$, are again isomorphic. This follows from the fact that $T_{n}$ and $\xi_{n}$ are adjoint operators on $L$ (resp. $Z$) under the pairing $L \times L \to \mathbf{Z}$ of §3 (resp. the natural pairing $Z \times Z \to \mathbf{Z}$).
 
-Recall that  $\bar{T}$  is the quotient of T cut out by the space  $S_{pq-new}$  of forms on  $\Gamma_{0}(pqM)$  which are new relative to p and to q. It is also the quotient of T cut out by Y (3.20). (For the purpose of orientation, we recall that the module Y was introduced just before the statement of (3.19).) Also, since J has purely toric reduction,  $\operatorname{End}_{\mathbf{Q}}(J)$  operates faithfully on Z. Therefore, (4.1) implies:
+Recall that  $\bar{\mathbf{T}}$  is the quotient of $\mathbf{T}$ cut out by the space  $S_{pq-new}$  of forms on  $\Gamma_{0}(pqM)$  which are new relative to p and to q. It is also the quotient of $\mathbf{T}$ cut out by Y (3.20). (For the purpose of orientation, we recall that the module Y was introduced just before the statement of (3.19).) Also, since J has purely toric reduction,  $\operatorname{End}_{\mathbf{Q}}(J)$  operates faithfully on Z. Therefore, (4.1) implies:
 
 Corollary 4.2. There is a unique injection $\bar{\mathbf{T}}\to\mathrm{End}(J)$ mapping the $n^{\text{th}}$ Hecke operator in $\bar{\mathbf{T}}$ to the $n^{\text{th}}$ Hecke operator on $J$.
 
@@ -961,7 +969,7 @@ One can certainly recover classical trace identities from (4.2) by interpreting 
 
 Take again $\gamma = (T_p)^2 - 1 \in \mathbf{T}$. The following variant of the main theorem of [14] results immediately from (3.23), (3.25) and (4.1).
 
-Theorem 4.3 There is an exact sequence of T-modules
+Theorem 4.3 There is an exact sequence of $\mathbf{T}$-modules
 
 $$
 0 \rightarrow K \rightarrow (X \oplus X) / \gamma (X \oplus X) \rightarrow \Psi \rightarrow C \rightarrow 0,
@@ -969,7 +977,7 @@ $$
 
 in which $K$ and $C$ are the groups appearing in (8).
 
-[The description of $\Psi$ as a T-module is legitimate because (4.2) guarantees that $\tilde{\mathbf{T}}$ operates on $Y$ through its quotient $\bar{\mathbf{T}}$ (which is a quotient of $\mathbf{T}$).]
+[The description of $\Psi$ as a $\mathbf{T}$-module is legitimate because (4.2) guarantees that $\tilde{\mathbf{T}}$ operates on $Y$ through its quotient $\bar{\mathbf{T}}$ (which is a quotient of $\mathbf{T}$).]
 
 As a first step toward proving (4.1), we summarize the theorem of Cerednik-Drinfeld [7], §4 (cf. [13]). This result furnishes as model for $C$ over $\mathbf{Z}_p$ the scheme $\mathcal{C}$ for which the associated formal scheme over $\mathbf{Z}_p$ is the quotient
 
@@ -1027,13 +1035,13 @@ $$
 
 where $\Delta$ is the well-known tree attached to $\mathbf{SL}(2)$ ([33], Ch II, §1). This graph has been described explicitly by Kurihara [16] when $M = 1$. We now study the general case, which is not qualitatively different.-
 
-Let $S \subset R$ be the Eicher order of level $Mp$ in $H$ gotten by intersecting $R$ with the evident Eichler order in $\mathbf{M}(2, \mathbf{Z}_p)$
+Let $S \subset R$ be the Eichler order of level $Mp$ in $H$ gotten by intersecting $R$ with the evident Eichler order in $\mathbf{M}(2, \mathbf{Z}_p)$
 
 $$
 \left\{\left( \begin{array}{c c} a & b \\ c & d \end{array} \right) \in \mathbf {M} (2, \mathbf {Z})   \bigg |   p \text { divides } c \right\}.
 $$
 
-Let V be the set of isomorphism classes of locally free rank-1 left R-modules, and let E be the set of isomorphism classes of locally free rank-1 left S-modules. We have canonically
+Let $\mathcal{V}$ be the set of isomorphism classes of locally free rank-1 left R-modules, and let $\mathcal{E}$ be the set of isomorphism classes of locally free rank-1 left S-modules. We have canonically
 
 $$
 \mathcal {V} = R _ {\mathbf {f}} ^ {*} \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*} \quad \mathcal {E} = S _ {\mathbf {f}} ^ {*} \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*}.
@@ -1051,7 +1059,7 @@ $$
 \beta : \mathcal {E} \rightarrow \mathcal {V}
 $$
 
-is obtained by considering the Eichler order T of H which has level M, contains S, agrees with R locally at all places except for p, and is distinct from R. The order T is given adelically as  $mRm^{-1}$ , where m is trivial except at p, where it is the diagonal matrix  $\text{diag}(1, p)$ . The analogue of  $\alpha$  for T is a map from E to the double coset space
+is obtained by considering the Eichler order T of H which has level M, contains S, agrees with R locally at all places except for p, and is distinct from R. The order T is given adelically as  $mRm^{-1}$ , where m is trivial except at p, where it is the diagonal matrix  $\text{diag}(1, p)$ . The analogue of  $\alpha$  for T is a map from $\mathcal{E}$ to the double coset space
 
 $$
 (m R _ {\mathbf {f}} ^ {*} m ^ {- 1}) \backslash H _ {\mathbf {f}} ^ {*} / H ^ {*}.
@@ -1061,13 +1069,13 @@ We get $\beta$ by identifying this space with $\mathcal{V}$ via multiplication b
 
 Proposition 4.4. The set of edges of $\mathcal{G}$ is canonically the set $\mathcal{E}$. The set of vertices of $\mathcal{G}$ is the disjoint union $\mathcal{V} \times \{1, 2\}$ of two copies of $\mathcal{V}$. A given edge $e \in \mathcal{E}$ connects the vertex $(\alpha(e), 1)$ with the vertex $(\beta(e), 2)$.
 
-Proof. The quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus X$  is trivial because of strong approximation ((3.16) and its proof). It follows that the set of vertices of G is the quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus(\mathcal{V}_{\Delta}\times X)$ , where  $V_{\Delta}$  is the set of vertices of  $\Delta$ . We have
+Proof. The quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus X$  is trivial because of strong approximation ((3.16) and its proof). It follows that the set of vertices of $\mathcal{G}$ is the quotient  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}\setminus(\mathcal{V}_{\Delta}\times X)$ , where  $\mathcal{V}_{\Delta}$  is the set of vertices of  $\Delta$ . We have
 
 $$
 \mathcal {V} _ {\Delta} = \mathrm{PGL} (2, \mathbf {Q} _ {p}) / \mathrm{PGL} (2, \mathbf {Z} _ {v}) = H _ {p} ^ {*} / R _ {p} ^ {*} \mathbf {Q} ^ {*}.
 $$
 
-There are two orbits of  $V_{\Delta}$  under the action of  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}$ . Consider first
+There are two orbits of  $\mathcal{V}_{\Delta}$  under the action of  $\mathbf{GL}(2,\mathbf{Q}_{p})^{+}$ . Consider first
 
 $$
 \mathcal {V} _ {\Delta +} = \mathrm{PGL} (2, \mathbf {Q} _ {p}) ^ {+} / \mathrm{PGL} (2, \mathbf {Z} _ {p}).
@@ -1079,7 +1087,7 @@ $$
 \mathbf {G L} (2, \mathbf {Z} _ {p}) \backslash X = \mathcal {V}.
 $$
 
-Secondly, let  $V_{\Delta-}$  be the complement of  $V_{\Delta+}$  in  $V_{\Delta}$  and consider
+Secondly, let  $\mathcal{V}_{\Delta-}$  be the complement of  $\mathcal{V}_{\Delta+}$  in  $\mathcal{V}_{\Delta}$  and consider
 
 $$
 \mathbf {G L} (2, \mathbf {Q} _ {p}) ^ {+} \backslash (\mathcal {V} _ {\Delta +} \times X).
@@ -1111,7 +1119,7 @@ induced by $(\alpha, \beta)$.
 
 The bilinear pairing on $Z$ coming from the geometry of the Cerednik-Drinfeld model $\mathcal{C}$ is the restriction to $Z$ of the diagonal pairing on $\mathbf{Z}^{\mathcal{E}}$ whose value $o(e)$ on an edge $e \in \mathbf{GL}(2, \mathbf{Q}_p)^+ \setminus (\mathcal{E}_\Delta \times X)$ is computed as follows (cf. [13], §4). Take a representative $\tilde{e}$ of $e$ in $\mathcal{E}_\Delta \times X$, and let $\Gamma \subset \mathbf{GL}(2, \mathbf{Q}_p)^+$ be the stabilizer in $\mathbf{GL}(2, \mathbf{Q}_p)^+$ of $\tilde{e}$. Then $o(e)$ is the order of the image of $\Gamma$ in $\mathbf{PGL}(2, \mathbf{Q}_p)$.
 
-Let $\dot{W}$ be a locally free rank-1 left S-module whose class in
+Let $\mathbf{W}$ be a locally free rank-1 left S-module whose class in
 
 $$
 \mathcal {E} = S _ {\mathrm{f}} ^ {*} \backslash H _ {\mathrm{f}} ^ {*} / H ^ {*}
@@ -1119,9 +1127,9 @@ $$
 
 is the edge $e$.
 
-Proposition 4.6. We have $o(e) = \frac{1}{2} \operatorname{card}(\operatorname{Aut}_S(W))$.
+Proposition 4.6. We have $o(e) = \frac{1}{2} \operatorname{card}(\operatorname{Aut}_S(\mathbf{W}))$.
 
-Proof. Choose $x = (x_v) \in H_{\mathbf{f}}^*$ so that the class of $x$ in $\mathcal{E}$ is $e$. Take $W$ to be the $S$-submodule of $H$ whose completions at the finite places $v$ of $\mathbf{Q}$ are the modules $S_v \cdot x_v$. Then $\operatorname{Aut}_S(W)$ is the stabilizer in $H^*$ of the class of $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$. If $a \in H^*$ stabilizes $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$, then we have $sx = xa$ for some $s \in S_{\mathbf{f}}^*$. Since $s$ and $a$ determine each other in this equation, $\operatorname{Aut}_S(W)$ is the stabilizer in $S_{\mathbf{f}}^*$ of $x$ in $H_{\mathbf{f}}^* / H^*$.
+Proof. Choose $x = (x_v) \in H_{\mathbf{f}}^*$ so that the class of $x$ in $\mathcal{E}$ is $e$. Take $\mathbf{W}$ to be the $S$-submodule of $H$ whose completions at the finite places $v$ of $\mathbf{Q}$ are the modules $S_v \cdot x_v$. Then $\operatorname{Aut}_S(\mathbf{W})$ is the stabilizer in $H^*$ of the class of $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$. If $a \in H^*$ stabilizes $x$ in $S_{\mathbf{f}}^* \setminus H_{\mathbf{f}}^*$, then we have $sx = xa$ for some $s \in S_{\mathbf{f}}^*$. Since $s$ and $a$ determine each other in this equation, $\operatorname{Aut}_S(\mathbf{W})$ is the stabilizer in $S_{\mathbf{f}}^*$ of $x$ in $H_{\mathbf{f}}^* / H^*$.
 
 On the other hand, the stabilizer $\Gamma$ of $\tilde{e} = (1, x)$ in $\mathbf{GL}(2, \mathbf{Q}_p)^+$ is the stabilizer of $x \in X$ under the action of $S_p^*$ on $X$. Also, projection onto the component at $p$ identifies the stabilizer in $S_f^*$ of $x$ in $H_f^* / H^*$ with the stabilizer in $S_p^*$ of $x$ in
 
@@ -1133,21 +1141,21 @@ $$
 
 with $\kappa \in K$ and $a \in H^{*}$. We see that $a$ is determined by $s_{p}$ and $x$ (through its component at $p$), and that $\kappa$ is determined by $s_{p}, x$ and $a$. Hence this equation holds for at most one $\kappa$ (and at most one $a$), given $s_{p}$ and $x$.
 
-Therefore, $\Gamma$ is the group $\operatorname{Aut}_S(W)$. To prove the proposition, it remains to verify that $\Gamma \cap \mathbf{Q}_p^*$ is the group $\{\pm 1\}$. For this, suppose that we have $s_p x = \kappa xa$ with $s_p \in \mathbf{Z}_p^*$. Then $a$ is a rational number which agrees with $s_p$ at $p$. Also, the prime-to-$p$ part of $a$ coincides with $\kappa^{-1}$. Therefore $a$ is a unit locally at each finite place of $\mathbf{Q}$, so that $a = \pm 1$. Hence $s_p = \pm 1$.
+Therefore, $\Gamma$ is the group $\operatorname{Aut}_S(\mathbf{W})$. To prove the proposition, it remains to verify that $\Gamma \cap \mathbf{Q}_p^*$ is the group $\{\pm 1\}$. For this, suppose that we have $s_p x = \kappa xa$ with $s_p \in \mathbf{Z}_p^*$. Then $a$ is a rational number which agrees with $s_p$ at $p$. Also, the prime-to-$p$ part of $a$ coincides with $\kappa^{-1}$. Therefore $a$ is a unit locally at each finite place of $\mathbf{Q}$, so that $a = \pm 1$. Hence $s_p = \pm 1$.
 
 We now begin our comparison of the groups $Z$ and $Y$. The latter group is defined to be the kernel of a natural degeneracy map $\delta: L \to X \oplus X$, where $L$ and $X$ are the groups of degree-0 divisors on the sets $\Sigma(Mp)$ and $\Sigma(M)$ of supersingular points of $X_0(Mp)$ and $X_0(M)$ in characteristic $q$. The former has an analogous description (4.5) with $\Sigma(Mp)$ replaced by $\mathcal{E}$ and $\Sigma(M)$ by $\mathcal{V}$. Taking first $M = Mp$ and then $M = M$ in Proposition (3.3), we find that $\Sigma(Mp)$ and $\Sigma(M)$ are double-coset spaces of the type defining $\mathcal{E}$ and $\mathcal{V}$, but with the orders $S$ and $R$ replaced by orders of the form $\operatorname{End}(\mathbf{E}_0, C_p)$ and $\operatorname{End}(\mathbf{E}_0)$. Here, $\mathbf{E}_0$ is (as usual) a supersingular elliptic curve $E_0$ in characteristic $q$ which has been enhanced by a cyclic subgroup of order $M$, while $C_p$ is a cyclic subgroup of $E_0$ having order $p$. To compare the pairs $(\mathcal{E}, \mathcal{V})$ and $(\Sigma(Mp), \Sigma(M))$, we will find $\mathbf{E}_0, C_p$ such that $\operatorname{End}(\mathbf{E}_0, C_p) = S$ and $\operatorname{End}(\mathbf{E}_0) = R$.
 
-The existence of the pair  $(\mathbf{E}_{0}, C_{p})$  is given by the following proposition, which is based on (3.6) and its proof. Before stating it, we introduce the symbol M to denote the maximal order  $\operatorname{End}_{L}(A)$  of H. Thus R and S are Eichler orders of M, of levels M and pM, respectively.
+The existence of the pair  $(\mathbf{E}_{0}, C_{p})$  is given by the following proposition, which is based on (3.6) and its proof. Before stating it, we introduce the symbol $\mathcal{M}$ to denote the maximal order  $\operatorname{End}_{L}(A)$  of H. Thus R and S are Eichler orders of $\mathcal{M}$, of levels M and pM, respectively.
 
 Proposition 4.7. There is an enhanced supersingular elliptic curve $\mathbf{E}_0 = (E_0, C_M)$, a cyclic subgroup $C_p$ of $E_0$, and an isomorphism $\kappa: \operatorname{End}(E_0) \to \mathcal{M}$ such that $R$ corresponds to $\operatorname{End}(\mathbf{E}_0)$ and $S$ to $\operatorname{End}(\mathbf{E}_0, C_p)$ under $\kappa$.
 
-Proof. Let  $\mathbf{E}_{0} = (E_{0}, C_{M})$  and  $\kappa$  be the “output” of (3.6), applied with B taken to be M and  $B'$  taken to be  $\operatorname{End}_{L}(A/D)$ , so that the intersection  $B \cap B'$ , denoted S in (3.6), is R in our context. To construct  $C_{p}$ , we examine S and R locally at p, using  $\kappa$  to identify  $S \otimes Z_{p}$  and  $R \otimes Z_{p}$  with subrings of
+Proof. Let  $\mathbf{E}_{0} = (E_{0}, C_{M})$  and  $\kappa$  be the “output” of (3.6), applied with B taken to be $\mathcal{M}$ and  $B'$  taken to be  $\operatorname{End}_{L}(A/D)$ , so that the intersection  $B \cap B'$ , denoted S in (3.6), is R in our context. To construct  $C_{p}$ , we examine S and R locally at p, using  $\kappa$  to identify  $S \otimes Z_{p}$  and  $R \otimes Z_{p}$  with subrings of
 
 $$
 \operatorname{End} (E _ {0}) \otimes \mathbf {Q} _ {p} = \operatorname{End} (V _ {p}),
 $$
 
-where  $V_{p}$  is the  $Q_{p}$ -adic Tate module of  $E_{0}$ . Since R and M agree locally at p,  $R \otimes Z_{p}$  is identified with  $\operatorname{End}(T_{p})$ , where  $T_{p}$  is the  $Z_{p}$ -adic Tate module of  $E_{0}$ . The ring  $S \otimes Z_{p}$  is then an Eichler order of level  $p^{+1}$  (or “level 1,” in this local context) in the maximal order  $\operatorname{End}(T_{p})$  of  $\operatorname{End}(V_{p})$ . We have  $S \otimes Z_{p} = \operatorname{End}(T_{p}) \cap \operatorname{End}(U)$  for some lattice U in  $V_{p}$ , which is unique up to homothety. Scale U so that it is contained in  $T_{p}$ , but not in  $pT_{p}$ . The group  $T_{p}/U$  is then of order p, as is the image  $C_{p}$  of U in  $E[p] = T_{p}/pT_{p}$ . An endomorphism of  $T_{p}$  preserves  $C_{p}$  in  $T_{p}/pT_{p}$  if and only if it preserves U. Hence  $C_{p}$  has the property that
+where  $V_{p}$  is the  $Q_{p}$ -adic Tate module of  $E_{0}$ . Since R and $\mathcal{M}$ agree locally at p,  $R \otimes Z_{p}$  is identified with  $\operatorname{End}(T_{p})$ , where  $T_{p}$  is the  $Z_{p}$ -adic Tate module of  $E_{0}$ . The ring  $S \otimes Z_{p}$  is then an Eichler order of level  $p^{+1}$  (or “level 1,” in this local context) in the maximal order  $\operatorname{End}(T_{p})$  of  $\operatorname{End}(V_{p})$ . We have  $S \otimes Z_{p} = \operatorname{End}(T_{p}) \cap \operatorname{End}(U)$  for some lattice U in  $V_{p}$ , which is unique up to homothety. Scale U so that it is contained in  $T_{p}$ , but not in  $pT_{p}$ . The group  $T_{p}/U$  is then of order p, as is the image  $C_{p}$  of U in  $E[p] = T_{p}/pT_{p}$ . An endomorphism of  $T_{p}$  preserves  $C_{p}$  in  $T_{p}/pT_{p}$  if and only if it preserves U. Hence  $C_{p}$  has the property that
 
 $$
 S \otimes \mathbf {Z} _ {p} = \operatorname{End} (\mathbf {E} _ {0}, C _ {p}) \otimes \mathbf {Z} _ {p}.
@@ -1179,19 +1187,19 @@ Let $m \in H_{\mathbf{f}}^{*}$ again be the idele which is 1 locally except at $
 
 In view of (4.8), the bijection  $\iota:\Sigma(Mp)\to\mathcal{E}$  induces an isomorphism  $Y\approx Z$ , which we shall also denote  $\iota$ . To prove (4.3), we must establish that  $\iota:Y\to Z$  is compatible with the natural pairings and the action of Hecke operators on these two modules.
 
-We begin with the pairings. The module $Y$ inherits from $\mathbf{Z}^{\Sigma(Mp)}$ the diagonal pairing whose value on a pair $\underline{\mathbf{E}} = (E, C)$, where $C \subset E$ is cyclic of order $Mp$, is the integer $\frac{1}{2}\operatorname{card}(\operatorname{Aut}(\underline{\mathbf{E}}))$. (The symbol $\underline{\mathbf{E}}$ will be used for $pM$-enhancement; we have been employing $\underline{\mathbf{E}}$ to represent an elliptic curve which is enhanced by a subgroup of order $M$.) Write $\underline{\mathbf{E}}_0$ for the pair $(\mathbf{E}_0, C_p)$ appearing above, so that $S = \operatorname{End}(\underline{\mathbf{E}}_0)$, for example. As in §3, consider the locally free rank-1 left $S$-module $W = \operatorname{Hom}(\underline{\mathbf{E}}, \underline{\mathbf{E}}_0)$, whose class in $\mathcal{E}$ is just the edge $e = \iota(\underline{\mathbf{E}})$. It is known that $\operatorname{End}(\underline{\mathbf{E}})$ is the commutant of $W$, i.e., equal to the ring $\operatorname{End}_S(W)$; this may be viewed as a consequence of Tate's theorem on endomorphisms of abelian varieties over finite fields [40]. In particular, we have $\operatorname{Aut}(\underline{\mathbf{E}}) = \operatorname{Aut}_S(W)$. Hence, by (4.5) the integer $\frac{1}{2}\operatorname{card}(\operatorname{Aut}(\underline{\mathbf{E}}))$ is the number $o(e)$, which coincides with the value given to $e$ by the natural diagonal pairing on $\mathbf{Z}^{\mathcal{E}}$.
+We begin with the pairings. The module $Y$ inherits from $\mathbf{Z}^{\Sigma(Mp)}$ the diagonal pairing whose value on a pair $\underline{\mathbf{E}} = (E, C)$, where $C \subset E$ is cyclic of order $Mp$, is the integer $\frac{1}{2}\operatorname{card}(\operatorname{Aut}(\underline{\mathbf{E}}))$. (The symbol $\underline{\mathbf{E}}$ will be used for $pM$-enhancement; we have been employing $\mathbf{E}$ to represent an elliptic curve which is enhanced by a subgroup of order $M$.) Write $\underline{\mathbf{E}}_0$ for the pair $(\mathbf{E}_0, C_p)$ appearing above, so that $S = \operatorname{End}(\underline{\mathbf{E}}_0)$, for example. As in §3, consider the locally free rank-1 left $S$-module $\mathbf{W} = \operatorname{Hom}(\underline{\mathbf{E}}, \underline{\mathbf{E}}_0)$, whose class in $\mathcal{E}$ is just the edge $e = \iota(\underline{\mathbf{E}})$. It is known that $\operatorname{End}(\underline{\mathbf{E}})$ is the commutant of $\mathbf{W}$, i.e., equal to the ring $\operatorname{End}_S(\mathbf{W})$; this may be viewed as a consequence of Tate's theorem on endomorphisms of abelian varieties over finite fields [40]. In particular, we have $\operatorname{Aut}(\underline{\mathbf{E}}) = \operatorname{Aut}_S(\mathbf{W})$. Hence, by (4.5) the integer $\frac{1}{2}\operatorname{card}(\operatorname{Aut}(\underline{\mathbf{E}}))$ is the number $o(e)$, which coincides with the value given to $e$ by the natural diagonal pairing on $\mathbf{Z}^{\mathcal{E}}$.
 
 We conclude with an examination of the action of Hecke operators, beginning with the involution $T_p$ on $Z$ and $Y$. We have quoted the theorem of [3] identifying the quotient $\mathbf{GL}(2, \mathbf{Q}_p) \backslash (\wp^{\mathrm{unr}} \times X)$ as a model for $C$ over $\mathbf{Z}_p$. The scheme $\wp^{\mathrm{unr}}$ represents a functor involving formal groups. This functor is furnished with a natural action of the group $\mathbf{GL}(2, \mathbf{Q}_p) \times D^*$, where $D$ is the unique quaternion division algebra (up to isomorphism) over $\mathbf{Q}_p$. The resulting action of $\mathbf{GL}(2, \mathbf{Q}_p) \times D^*$ on $\wp^{\mathrm{unr}}$ is explicit in [7], §2. From this point of view, the involution $T_p$ of $\mathbf{GL}(2, \mathbf{Q}_p) \backslash (\wp^{\mathrm{unr}} \times X)$ is induced by the element $1 \times \pi$ of $\mathbf{GL}(2, \mathbf{Q}_p) \times D^*$, where $\pi$ is a uniformizer in $D$. This element acts on $\wp^{\mathrm{unr}}$ as $\mathrm{Fr}^{-1}$, where $\mathrm{Fr}$ is the Frobenius automorphism of $\wp^{\mathrm{unr}}$. Thus $T_p$ induces the Frobenius automorphism (an involution) of $\mathcal{C}_{\mathbf{F}_p}$. By [13], Theorem 4.4, this automorphism induces the involution of $\mathcal{G} = \mathbf{GL}(2, \mathbf{Q}_p)^+ \backslash (\Delta \times X)$ which is denoted $w_p$ in [13] and $\tau(p)$ in [16]. This involution is obtained by choosing an element $m$ of $\mathbf{GL}(2, \mathbf{Q}_p)$ which does not belong to $\mathbf{GL}(2, \mathbf{Q}_p)^+$; the resulting automorphism of $\Delta \times X$ induces an involution of $\mathcal{G}$ which is independent of the choice of $m$.
 
 In the following discussion, we denote this involution by $\tau$. We first examine the action of $\tau$ on $\mathcal{E}$, the set of edges of $\mathcal{G}$, using the notation introduced in the proof of (4.4). Take $x \in X$, and consider the image $e$ of $(1, x) \in \mathcal{E}_{\Delta} \times X$ in $\mathbf{GL}(2, \mathbf{Q}_p)^+ \setminus (\mathcal{E}_{\Delta} \times X) = \mathcal{E}$. The edge $\tau e$ is represented by $(m \cdot 1, mx)$. Choose $u \in \mathbf{GL}(2, \mathbf{Q}_p)^+$ so that $um \cdot 1 = 1$ in $\mathcal{E}_{\Delta}$. Then $\tau e$ is the class of $umx$ in $\mathcal{E}$, thought of as $S_p^* \setminus X$. It follows that $\tau$ may be viewed as the involution of $S_p^* \setminus X$ which is induced by left multiplication by $n = um$ on $X$; $n$ is easily seen to be an element of the normalizer of $S_p^*$ in $\mathbf{GL}(2, \mathbf{Q}_p)$ which does not belong to $S_p^*$, and this description of $n$ characterizes $\tau$ completely. We may take $n$ to be the matrix $\begin{pmatrix} 0 & -1 \\ p & 0 \end{pmatrix}$, which recalls the Atkin-Lehner involution $w_p$ of $\Sigma(Mp)$. Indeed, it is not hard to verify that $\iota: \Sigma(Mp) \to \mathcal{E}$ carries $\tau$ to $w_p$. The action of $\tau$ on the character group $Z \subset \mathbf{Z}^{\mathcal{E}}$, however, is the negative of the automorphism of $\mathbf{Z}^{\mathcal{E}}$ induced by this involution of $\mathcal{E}$. Indeed, the map $\tau$ on $\mathcal{G}$ changes the orientation of each edge $e \in \mathcal{E}$, as it evidently
 
-maps vertices in the first copy of V to vertices in the second copy, and vice versa.
+maps vertices in the first copy of $\mathcal{V}$ to vertices in the second copy, and vice versa.
 
 On the other hand, the Atkin-Lehner involution $w_{p}$ of $X_{0}(Mpq)_{\mathbf{F}_{q}}$ induces a map of the associated character group $L \subset \mathbf{Z}^{\Sigma(Mp)}$ which is simply the restriction to $L$ of the involution of $\mathbf{Z}^{\Sigma(Mp)}$ induced by $w_{p}$ on $\Sigma(Mp)$. This is true because $w_{p}$ preserves each of the two components of $X_{0}(Mpq)_{\mathbf{F}_{q}}$. Hence the action of $w_{p}$ on $Y \subset L$ corresponds to the negative of the action of $\tau$ on $Z$, under the isomorphism $Y \approx Z$ induced by $\iota$. Equivalently, the action of $T_{p}$ on $Z$ corresponds to the map $-w_{p}$ on $Y$. By (3.19), the map $T_{p}$ on $Z$ is carried to the map $T_{p}$ on $Y$ by the isomorphism $\iota$. This completes our discussion of $T_{p}$.
 
-The Hecke operators  $T_{r}$  with r prime,  $r \neq p$ , operate on the graph G through a transparent operation on X. This action is already visible on  $K \setminus H_{f}^{*}$ , a space of marked L-stable lattices  $T(A')$  in  $V(A)$ . To avoid confusion between Tate modules and Hecke operators, we temporarily refer to the  $r^{th}$  Hecke operator as  $\zeta_{r}$ . The operator  $\zeta_{r}$  acts on a lattice  $T(A') = \Pi T_{l}(A')$  by “modifying” the  $r^{th}$  component  $T_{r}(A')$  of the product, leaving the other factors untouched. Since  $\zeta_{r}$  is a correspondence, the “modification” in fact involves replacing  $T_{r}(A')$  by a sum of several lattices in  $V_{p}(A)$ . The sum contains  $r + 1$  terms for r prime to Mq, and r terms otherwise.
+The Hecke operators  $T_{r}$  with r prime,  $r \neq p$ , operate on the graph $\mathcal{G}$ through a transparent operation on X. This action is already visible on  $K \setminus H_{f}^{*}$ , a space of marked L-stable lattices  $T(A')$  in  $V(A)$ . To avoid confusion between Tate modules and Hecke operators, we temporarily refer to the  $r^{th}$  Hecke operator as  $\zeta_{r}$ . The operator  $\zeta_{r}$  acts on a lattice  $T(A') = \Pi T_{l}(A')$  by “modifying” the  $r^{th}$  component  $T_{r}(A')$  of the product, leaving the other factors untouched. Since  $\zeta_{r}$  is a correspondence, the “modification” in fact involves replacing  $T_{r}(A')$  by a sum of several lattices in  $V_{p}(A)$ . The sum contains  $r + 1$  terms for r prime to Mq, and r terms otherwise.
 
-Since the operators  $\zeta_{r}$  act in particular on the set of vertices of G through their action on X, the  $\zeta_{r}$  preserve the decomposition of this set as a disjoint union of two copies of V. It follows that the action of each  $\zeta_{r}$  on the lattice Z is the restriction to Z of its action on  $Z^{E}$ .
+Since the operators  $\zeta_{r}$  act in particular on the set of vertices of $\mathcal{G}$ through their action on X, the  $\zeta_{r}$  preserve the decomposition of this set as a disjoint union of two copies of $\mathcal{V}$. It follows that the action of each  $\zeta_{r}$  on the lattice Z is the restriction to Z of its action on  $\mathbf{Z}^{\mathcal{E}}$ .
 
 The operator $\zeta_q$ replaces an $L \otimes \mathbf{Z}_q$-stable lattice $T \subset V_q(A)$ by a single lattice, the unique $L \otimes \mathbf{Z}_q$-lattice $T' \supseteq T$ for which $q^2 = (T': T)$. Suppose that $T = g^{-1}T_q(A)$, with $g \in H_q^*$, where
 
@@ -1201,7 +1209,7 @@ $$
 
 Then $T' = g^{-1}\pi^{-1}T_q$ if $\pi$ is any uniformizer of the ring of integers of $H_q$. Hence the action of $\zeta_r$ on $\mathcal{E} = S_{\mathbf{f}}^* \backslash H_{\mathbf{f}}^* / H^*$ is induced by the map $x \mapsto \pi x$ on $H_{\mathbf{f}}^*$, where $\pi$ now denotes an idele which is 1 away from $q$ and a uniformizer at $q$. Identifying $\mathcal{E}$ with $\Sigma(Mp)$, we recognize this map as the Frobenius automorphism of $\Sigma(Mp)$, cf. Remark (3.5b). According to (3.8), applied with $pM$ replacing $M$, this automorphism induces the Hecke operator $T_q$ on $Y$. Hence our identification $Z \approx Y$ is compatible with the action of the $q^{\text{th}}$ Hecke operator on the two sides.
 
-We next consider the operator  $\zeta_{r}$  with r a prime number prime to pqM. A lattice  $T \subset V_{r}(A)$  is replaced by the formal sum of those lattices  $T' \supseteq T$  with the property that  $T'$  is stable by  $L \otimes Z_{r}$  and  $(T': T) = r^{2}$ . We construct these lattices (as usual) by considering the set 9 of elements of  $H_{r}^{*}$  which have reduced norm (i.e., determinant) r. We may write
+We next consider the operator  $\zeta_{r}$  with r a prime number prime to pqM. A lattice  $T \subset V_{r}(A)$  is replaced by the formal sum of those lattices  $T' \supseteq T$  with the property that  $T'$  is stable by  $L \otimes Z_{r}$  and  $(T': T) = r^{2}$ . We construct these lattices (as usual) by considering the set $\vartheta$ of elements of  $H_{r}^{*}$  which have reduced norm (i.e., determinant) r. We may write
 
 $$
 \vartheta = \coprod_ {i = 1} ^ {r + 1} R _ {r} ^ {*} a _ {i},
@@ -1215,29 +1223,29 @@ $$
 
 Thus $\zeta_r$ operates on $\mathcal{E} = S_{\mathbf{f}}^* \backslash H_{\mathbf{f}}^* / H^*$ by sending $g \in H_{\mathbf{f}}^*$ to $\Sigma a_i g$. (Here the $a_i$ are
 
-considered as ideles through the natural inclusion of  $H_{r}^{*}$  in  $H_{f}^{*}$ . Note also that  $R_{r}$  and  $S_{r}$  coincide, since the Eichler orders R and S are equal except at p.) Identifying E with  $\Sigma(Mp)$  as above, we again recognize a standard description of  $T_{r}$  in the elliptic modular case.
+considered as ideles through the natural inclusion of  $H_{r}^{*}$  in  $H_{f}^{*}$ . Note also that  $R_{r}$  and  $S_{r}$  coincide, since the Eichler orders R and S are equal except at p.) Identifying $\mathcal{E}$ with  $\Sigma(Mp)$  as above, we again recognize a standard description of  $T_{r}$  in the elliptic modular case.
 
-The final case is that where r divides M. One gets a sum of r terms, rather than a sum of  $r + 1$  terms, in interpreting  $\zeta_{r}$  on E. We omit the details.
+The final case is that where r divides M. One gets a sum of r terms, rather than a sum of  $r + 1$  terms, in interpreting  $\zeta_{r}$  on $\mathcal{E}$. We omit the details.
 
 ## 5. Modular representations
 
-Let N be a positive integer. Let  $T = T_{N}$  be the ring generated by the Hecke operators  $T_{n}(n \geq 1)$  on the space of weight-2 cusp forms on  $\Gamma_{0}(N)$ . Let m be a maximal ideal of T. The following result is a variant of [5], Th. 6.7.
+Let N be a positive integer. Let  $\mathbf{T} = \mathbf{T}_{N}$  be the ring generated by the Hecke operators  $T_{n}(n \geq 1)$  on the space of weight-2 cusp forms on  $\Gamma_{0}(N)$ . Let $\mathbf{m}$ be a maximal ideal of $\mathbf{T}$. The following result is a variant of [5], Th. 6.7.
 
 Proposition 5.1. There is a unique semisimple representation
 
 $$
-\rho_ {\mathfrak {m}} \colon G \to \mathbf {G L} (2, \mathbf {T} / \mathfrak {m}),
+\rho_ {\mathbf {m}} \colon G \to \mathbf {G L} (2, \mathbf {T} / \mathbf {m}),
 $$
 
 where $G = \operatorname{Gal}(\bar{\mathbf{Q}} / \mathbf{Q})$, satisfying
 
 $$
-\operatorname{trace} \left(\rho_ {\mathrm{m}} \left(\operatorname{Frob} _ {r}\right)\right) = T _ {r} (\mathrm{mod} \mathrm{m}), \quad \det \left(\rho_ {\mathrm{m}} \left(\operatorname{Frob} _ {r}\right)\right) = r (\mathrm{mod} \mathrm{m})
+\operatorname{trace} \left(\rho_ {\mathbf {m}} \left(\operatorname{Frob} _ {r}\right)\right) = T _ {r} (\mathrm{mod} \mathbf {m}), \quad \det \left(\rho_ {\mathbf {m}} \left(\operatorname{Frob} _ {r}\right)\right) = r (\mathrm{mod} \mathbf {m})
 $$
 
-for almost all primes r. The representation  $\rho_{m}$  is unramified at all primes r prime to mN, and the displayed relations hold for all such primes. (We say that  $\rho_{m}$  is the representation of G attached to m.)
+for almost all primes r. The representation  $\rho_{\mathbf{m}}$  is unramified at all primes r prime to mN, and the displayed relations hold for all such primes. (We say that  $\rho_{\mathbf{m}}$  is the representation of G attached to $\mathbf{m}$.)
 
-For the convenience of the reader, we explain the relation of Proposition 5.1 to Théorème 6.7 of [5], which attaches a mod $l$ representation of $\operatorname{Gal}(\overline{\mathbf{Q}} / \mathbf{Q})$ to mod $l$ modular forms which are eigenvectors for the Hecke operators $T_{n}$. Let $\mathcal{L}$ be the space of weight-2 cusp forms on $\Gamma_0(N)$ whose $q$-expansions at the standard cusp $\infty$ lie in $\mathbf{Z}[[q]]$. Then $\mathcal{L}$ and $\mathbf{T}$ are each free $\mathbf{Z}$-modules of the same rank, this rank being equal to the dimension $d$ of the complex vector space $S_2(\Gamma_0(N))$ of all weight-2 cusp forms on $\Gamma_0(N)$. Let $k$ be the residue field $\mathbf{T} / \mathfrak{m}$. The $q$-expansion map
+For the convenience of the reader, we explain the relation of Proposition 5.1 to Théorème 6.7 of [5], which attaches a mod $l$ representation of $\operatorname{Gal}(\overline{\mathbf{Q}} / \mathbf{Q})$ to mod $l$ modular forms which are eigenvectors for the Hecke operators $T_{n}$. Let $\mathcal{L}$ be the space of weight-2 cusp forms on $\Gamma_0(N)$ whose $q$-expansions at the standard cusp $\infty$ lie in $\mathbf{Z}[[q]]$. Then $\mathcal{L}$ and $\mathbf{T}$ are each free $\mathbf{Z}$-modules of the same rank, this rank being equal to the dimension $d$ of the complex vector space $S_2(\Gamma_0(N))$ of all weight-2 cusp forms on $\Gamma_0(N)$. Let $k$ be the residue field $\mathbf{T} / \mathbf{m}$. The $q$-expansion map
 
 $$
 \mathcal {L} \to \mathbf {Z} [ [ q ] ]\tag{9}
@@ -1267,55 +1275,55 @@ between $k$-vector spaces of dimension $d$. An argument borrowed from Chapter 3 
 
 Indeed, it suffices to show that (10) is injective. An element f of the kernel has zero q-expansion, since its  $n^{th}$  q-expansion coefficient is the coefficient of q in  $f|T_{n}$ . The injectivity of the q-expansion map shows that f is 0.
 
-Considering now the canonical map $T \mapsto (T \bmod m)$ in $\operatorname{Hom}_{\mathbf{Z}}(\mathbf{T}, k)$, we find a form $f \in \mathcal{L} \otimes_{\mathbf{Z}} k$ whose $q$-expansion coefficients are the elements
+Considering now the canonical map $T \mapsto (T \bmod \mathbf{m})$ in $\operatorname{Hom}_{\mathbf{Z}}(\mathbf{T}, k)$, we find a form $f \in \mathcal{L} \otimes_{\mathbf{Z}} k$ whose $q$-expansion coefficients are the elements
 
 $$
-t _ {n} = (T _ {n} \bmod m)
+t _ {n} = (T _ {n} \bmod \mathbf{m})
 $$
 
 of $k$. It is clear that $f$ is an eigenform for the Hecke operators $T_{n}$ with eigenvalues $t_{n}$.
 
 To apply Théorème 6.7 of [5] to the form $f$, we should assure ourselves that $f$ is a "cusp form mod $l$" in the sense that $\Sigma t_n q^n$ is the reduction (mod $\lambda$) of the $q$-expansion of a cusp form whose coefficients lie in a number field $K \subset \mathbf{C}$ and which are integral at a prime $\lambda | l$ of $K$. For this, choose a number field $K$ and a prime $\lambda | l$ in $K$ such that the residue field $\mathbf{F}$ of $\lambda$ contains a subfield isomorphic to $k$. Fix an embedding $k \subsetneq \mathbf{F}$, and view $f$ inside $\mathcal{L} \otimes_{\mathbf{Z}} \mathbf{F}$. Lift $f$ to an element $\tilde{f}$ of $\mathcal{L} \otimes_{\mathbf{Z}} \mathcal{O}$, where $\mathcal{O}$ is the valuation ring of $K$ at $\lambda$. The image of $\tilde{f}$ in $S_2(\Gamma_0(N))$ is then a cusp form with coefficients in $\mathcal{O}$ whose $q$-expansion mod $\lambda$ is that of $f$.
 
-Now let m be a maximal ideal of T, and let  $\rho_{m}$  be the representation of G attached to m. The condition on  $\det(\rho_{m})$ , plus the Cebotarev Density Theorem, implies that the determinant of  $\rho_{m}$  is the mod l cyclotomic character of G, where l is the residue characteristic of m. In particular,  $\rho_{m}$  is self Cartier-dual.
+Now let $\mathbf{m}$ be a maximal ideal of $\mathbf{T}$, and let  $\rho_{\mathbf{m}}$  be the representation of G attached to $\mathbf{m}$. The condition on  $\det(\rho_{\mathbf{m}})$ , plus the Cebotarev Density Theorem, implies that the determinant of  $\rho_{\mathbf{m}}$  is the mod l cyclotomic character of G, where l is the residue characteristic of $\mathbf{m}$. In particular,  $\rho_{\mathbf{m}}$  is self Cartier-dual.
 
-We consider along with  $\rho_{m}$  the (T/m)[G]-module
+We consider along with  $\rho_{\mathbf{m}}$  the ($\mathbf{T}/\mathbf{m}$)[G]-module
 
 $$
-W = J _ {0} (N) [ \mathfrak {m} ].
+W = J _ {0} (N) [ \mathbf {m} ].
 $$
 
-This “kernel of m on  $J_{0}(N)$ ” is defined to be the group of elements of  $J_{0}(N)(\bar{\mathbf{Q}})$  which are annihilated by all elements of m. Thus, if l is the residue characteristic of T/m, then W is a G-submodule of  $J_{0}(N)[l]$ .
+This “kernel of $\mathbf{m}$ on  $J_{0}(N)$ ” is defined to be the group of elements of  $J_{0}(N)(\bar{\mathbf{Q}})$  which are annihilated by all elements of $\mathbf{m}$. Thus, if l is the residue characteristic of T/$\mathbf{m}$, then W is a G-submodule of  $J_{0}(N)[l]$ .
 
-Theorem 5.2. Let m be an ideal of T such that  $\rho_{m}$  is irreducible.
+Theorem 5.2. Let $\mathbf{m}$ be an ideal of $\mathbf{T}$ such that  $\rho_{\mathbf{m}}$  is irreducible.
 
-(a) The  $(\mathbf{T}/\mathfrak{m})[G]$ -module W is non-zero. Its semisimplification is isomorphic to a product  $V \times V \times \cdots \times V$ , where V is the unique  $(\mathbf{T}/\mathfrak{m})[G]$ -module, up to isomorphism, which gives the representation  $\rho_{m}$ .
+(a) The  ($\mathbf{T}/\mathbf{m}$)[G] -module W is non-zero. Its semisimplification is isomorphic to a product  $V \times V \times \cdots \times V$ , where V is the unique  ($\mathbf{T}/\mathbf{m}$)[G] -module, up to isomorphism, which gives the representation  $\rho_{\mathbf{m}}$ .
 
 (b) Assume that $l$ is prime to $2N$. Then we have $W \approx V$. That is, the product given in (a) has only one factor.
 
-(c) Let $S$ be a finite set of prime numbers. Let $I$ be the ideal of $\mathbf{T}$ generated by the elements $\eta_r = 1 + r - T_r$, with $r$ prime and $r \notin S$. Then the ideals $\mathfrak{m}$ and $I$ are relatively prime.
+(c) Let $S$ be a finite set of prime numbers. Let $I$ be the ideal of $\mathbf{T}$ generated by the elements $\eta_r = 1 + r - T_r$, with $r$ prime and $r \notin S$. Then the ideals $\mathbf{m}$ and $I$ are relatively prime.
 
 Proof. All three statements are elaborations of results of [18], with (a) and (b) coming from [18], Chapter II, Proposition 14.2. We therefore give only a brief indication of the proofs:
 
-To prove (a), we first note that W is non-zero because the action of T on  $J_{0}(N)$  is faithful. Form the direct sum D of W and its Cartier dual  $\operatorname{Hom}(W, \mu_{l})$ . For all primes r prime to Nl, the characteristic polynomial of  $Frob_{r}$  acting on D, relative to the field T/m, is then  $(x^{2} - T_{r}x + r)^{n}$ , where n is the T/m-dimension of W. By the Cebotarev Density and Brauer-Nesbitt theorems, it follows that the semisimplification of W is  $V^{n}$ . This gives (a).
+To prove (a), we first note that W is non-zero because the action of $\mathbf{T}$ on  $J_{0}(N)$  is faithful. Form the direct sum D of W and its Cartier dual  $\operatorname{Hom}(W, \mu_{l})$ . For all primes r prime to Nl, the characteristic polynomial of  $Frob_{r}$  acting on D, relative to the field T/$\mathbf{m}$, is then  $(x^{2} - T_{r}x + r)^{n}$ , where n is the T/$\mathbf{m}$-dimension of W. By the Cebotarev Density and Brauer-Nesbitt theorems, it follows that the semisimplification of W is  $V^{n}$ . This gives (a).
 
-To prove (b), we pick a minimal (non-zero) $(\mathbf{T} / \mathfrak{m})[G]$-submodule of $W$. By (a), this submodule is isomorphic to $V$. Hence we have an inclusion $V \subset W$, and we must prove that $V = W$. The hypothesis that $N$ and $l$ are relatively prime facilitates the consideration of $X_0(N)$ over $\mathbf{F}_l$. Let $X$ denote the curve $X_0(N)$ over $\mathbf{F}_l$. The injective $q$-expansion map
+To prove (b), we pick a minimal (non-zero) ($\mathbf{T}/\mathbf{m}$)[G]-submodule of $W$. By (a), this submodule is isomorphic to $V$. Hence we have an inclusion $V \subset W$, and we must prove that $V = W$. The hypothesis that $N$ and $l$ are relatively prime facilitates the consideration of $X_0(N)$ over $\mathbf{F}_l$. Let $X$ denote the curve $X_0(N)$ over $\mathbf{F}_l$. The injective $q$-expansion map
 
 $$
 H ^ {0} (X, \Omega^ {1}) \rightarrow \mathbf {F} _ {l} [ [ q ] ]
 $$
 
-and the arguments of ([18], Ch. II, §9) show that $H^0(X, \Omega^1)[\mathfrak{m}]$ is of $\mathbf{T} / \mathfrak{m}$-dimension $\leq 1$.
+and the arguments of ([18], Ch. II, §9) show that $H^0(X, \Omega^1)[\mathbf{m}]$ is of $\mathbf{T} / \mathbf{m}$-dimension $\leq 1$.
 
 Since $J = J_0(N)$ is the Picard variety of $X_0(N)$, we find (computing over $\mathbf{F}_l$) that
 
 $$
-H ^ {1} (J, \mathcal {O}) / \mathfrak {m} H ^ {1} (J, \mathcal {O})
+H ^ {1} (J, \mathcal {O}) / \mathbf {m} H ^ {1} (J, \mathcal {O})
 $$
 
-is of $\mathbf{T} / \mathfrak{m}$-dimension $\leq 1$. We will deduce (5.2b) from this fact, together with arguments which parallel those given on pp. 116-117 of [18].
+is of $\mathbf{T} / \mathbf{m}$-dimension $\leq 1$. We will deduce (5.2b) from this fact, together with arguments which parallel those given on pp. 116-117 of [18].
 
-Let $\mathcal{T}$ be the Néron model model of $J$ over $\mathbf{Q}_l$, so that $\mathcal{T}$ is an abelian scheme over $\mathbf{Z}_l$. Consider the Zariski closures $\mathcal{V}$ and $\mathcal{W}$ of $V$ and $W$ in $\mathcal{T}$. These are contained in the kernel $\mathcal{T}[l]$ of multiplication by $l$ on $\mathcal{T}$, a group which is finite and flat over $\mathbf{Z}_l$, since $\mathcal{T}$ is an abelian scheme. Hence $\mathcal{V}$ and $\mathcal{W}$ are finite and flat. The hypothesis that $l$ is prime to $2N$ gives in particular that $e < (l - 1)$, where $e(= 1)$ is the absolute ramification index of $\mathbf{Q}_l$. The results of [25], §3 therefore apply to show that $\mathcal{V}$ and $\mathcal{W}$ are $\mathbf{T}/\mathfrak{m}$-vector space schemes ([25], 3.3.2) and that $\mathcal{V}$ is a subgroup of $\mathcal{W}$ ([25], 3.3.6). Moreover, the quotient $\mathcal{W}/\mathcal{V}$ is finite and flat ([25], 3.3.6). Therefore, the following conditions are all equivalent:
+Let $\mathcal{T}$ be the Néron model model of $J$ over $\mathbf{Q}_l$, so that $\mathcal{T}$ is an abelian scheme over $\mathbf{Z}_l$. Consider the Zariski closures $\mathcal{V}$ and $\mathcal{W}$ of $V$ and $W$ in $\mathcal{T}$. These are contained in the kernel $\mathcal{T}[l]$ of multiplication by $l$ on $\mathcal{T}$, a group which is finite and flat over $\mathbf{Z}_l$, since $\mathcal{T}$ is an abelian scheme. Hence $\mathcal{V}$ and $\mathcal{W}$ are finite and flat. The hypothesis that $l$ is prime to $2N$ gives in particular that $e < (l - 1)$, where $e(= 1)$ is the absolute ramification index of $\mathbf{Q}_l$. The results of [25], §3 therefore apply to show that $\mathcal{V}$ and $\mathcal{W}$ are $\mathbf{T}/\mathbf{m}$-vector space schemes ([25], 3.3.2) and that $\mathcal{V}$ is a subgroup of $\mathcal{W}$ ([25], 3.3.6). Moreover, the quotient $\mathcal{W}/\mathcal{V}$ is finite and flat ([25], 3.3.6). Therefore, the following conditions are all equivalent:
 
 1. V = W,
 
@@ -1325,13 +1333,13 @@ $$
 
 3. $\mathcal{V}_{\mathrm{s}} = W_{\mathrm{s}}$
 
-Here  $V_{s}$  and  $W_{s}$  are the special fibers of V and W; they are T/m-vector space schemes over  $F_{l}$ .
+Here  $\mathcal{V}_{s}$  and  $\mathcal{W}_{s}$  are the special fibers of $\mathcal{V}$ and $\mathcal{W}$; they are $\mathbf{T}/\mathbf{m}$-vector space schemes over  $F_{l}$ .
 
-In particular, the assertion (5.2b) means that the inclusion  $V_{s} \subset W_{s}$  is an equality, i.e., that the quotient  $W_{s}/V_{s}$  is 0. We note that  $W_{s}/V_{s}$  is certainly a successive extension of copies of  $V_{s}$, and also that  $V_{s}$  is auto Cartier-dual. Indeed, these statements follow from (5.2a) and the auto-duality of V, by arguments using [25] which are analogous to those just given.
+In particular, the assertion (5.2b) means that the inclusion  $\mathcal{V}_{s} \subset \mathcal{W}_{s}$  is an equality, i.e., that the quotient  $\mathcal{W}_{s}/\mathcal{V}_{s}$  is 0. We note that  $\mathcal{W}_{s}/\mathcal{V}_{s}$  is certainly a successive extension of copies of  $\mathcal{V}_{s}$, and also that  $\mathcal{V}_{s}$  is auto Cartier-dual. Indeed, these statements follow from (5.2a) and the auto-duality of V, by arguments using [25] which are analogous to those just given.
 
-Let D be the contravariant Dieudonné-module functor of Oda [23], denoted M in [23] and on pp. 116–117 of [18]. We shall apply D to finite flat group schemes of type  $(l, \ldots, l)$  over  $k = F_{l}$ , thereby obtaining finite-dimensional k-vector spaces which come equipped with a Frobenius map  $\phi$  and a Verschiebung v. These are commuting k-linear maps of the vector space; the composites  $\phi v$  and  $v\phi$  are 0. Since we now consider only group schemes in characteristic l, we will write simply V and W for  $V_{s}$  and  $W_{s}$ , J for the reduction of  $J_{0}(N) \mod l$ , and so forth. Finally, we will write Frob and Ver for the Frobenius and Verschiebung endomorphisms of a group scheme over  $F_{l}$ .
+Let $\mathcal{D}$ be the contravariant Dieudonné-module functor of Oda [23], denoted M in [23] and on pp. 116–117 of [18]. We shall apply $\mathcal{D}$ to finite flat group schemes of type  $(l, \ldots, l)$  over  $k = F_{l}$ , thereby obtaining finite-dimensional k-vector spaces which come equipped with a Frobenius map  $\phi$  and a Verschiebung v. These are commuting k-linear maps of the vector space; the composites  $\phi v$  and  $v\phi$  are 0. Since we now consider only group schemes in characteristic l, we will write simply V and W for  $V_{s}$  and  $W_{s}$ , J for the reduction of  $J_{0}(N) \mod l$ , and so forth. Finally, we will write Frob and Ver for the Frobenius and Verschiebung endomorphisms of a group scheme over  $F_{l}$ .
 
-By general properties of D, we have a canonical isomorphism
+By general properties of $\mathcal{D}$, we have a canonical isomorphism
 
 $$
 \mathscr {D} (J [ l ]) \approx H _ {\mathrm{DR}} ^ {1} (J / k).
@@ -1340,24 +1348,24 @@ $$
 Moreover, the quotient $\mathcal{D}(J[\mathrm{Ver}])$ of $\mathcal{D}(J[l])$ corresponds to the quotient $H^{1}(J,\mathcal{O})$ of $H_{\mathrm{DR}}^{1}(J / k)$. By functoriality, we get that
 
 $$
-\mathscr {D} (W [ \text { Ver } ]) = H ^ {1} (J, \mathcal {O}) / \mathfrak {m} H ^ {1} (J, \mathcal {O}),
+\mathscr {D} (W [ \text { Ver } ]) = H ^ {1} (J, \mathcal {O}) / \mathbf {m} H ^ {1} (J, \mathcal {O}),
 $$
 
-so that  $\mathcal{D}(W[\mathrm{Ver}])$  is of dimension  $\leq1$  over T/m. On the other hand, the auto-duality of V induces an auto-duality of  $\mathcal{D}(V)$ . Under this auto-duality, the maps  $\phi$  and v of  $\mathcal{D}(V)$  are interchanged. It follows that these maps have the same rank as endomorphisms of the 2-dimensional T/m-vector space  $\mathcal{D}(V)$ . Since their composite is 0, the common rank is either 0 or 1.
+so that  $\mathcal{D}(W[\mathrm{Ver}])$  is of dimension  $\leq1$  over $\mathbf{T}/\mathbf{m}$. On the other hand, the auto-duality of V induces an auto-duality of  $\mathcal{D}(V)$ . Under this auto-duality, the maps  $\phi$  and v of  $\mathcal{D}(V)$  are interchanged. It follows that these maps have the same rank as endomorphisms of the 2-dimensional $\mathbf{T}/\mathbf{m}$-vector space  $\mathcal{D}(V)$ . Since their composite is 0, the common rank is either 0 or 1.
 
-Now  $\mathcal{D}(V[\text{Ver}])$  is the cokernel of v on  $\mathcal{D}(V)$ , so that  $\mathcal{D}(V[\text{Ver}])$  has dimension 1 or 2 over T/m. Since  $\mathcal{D}(V[\text{Ver}])$  is a quotient of  $\mathcal{D}(W[\text{Ver}])$ , which has rank at most 1, we conclude that  $\mathcal{D}(V[\text{Ver}])$  and  $\mathcal{D}(W[\text{Ver}])$  both have rank 1, and that the groups V[Ver] and W[Ver] are equal.
+Now  $\mathcal{D}(V[\text{Ver}])$  is the cokernel of v on  $\mathcal{D}(V)$ , so that  $\mathcal{D}(V[\text{Ver}])$  has dimension 1 or 2 over $\mathbf{T}/\mathbf{m}$. Since  $\mathcal{D}(V[\text{Ver}])$  is a quotient of  $\mathcal{D}(W[\text{Ver}])$ , which has rank at most 1, we conclude that  $\mathcal{D}(V[\text{Ver}])$  and  $\mathcal{D}(W[\text{Ver}])$  both have rank 1, and that the groups V[Ver] and W[Ver] are equal.
 
 Let $Q = W / V$. We claim that $Q[\text{Ver}] = 0$, i.e., that $v$ is an automorphism of $\mathcal{D}(Q)$. This follows from an easy snake-lemma argument, which is axiomatized as Lemma (14.6) in [18]. Our claim follows from that lemma on taking $M_1 = \mathcal{D}(Q)$, $M_2 = \mathcal{D}(W)$, and $M_3 = \mathcal{D}(V)$.
 
 From this claim, we are now able to conclude, as desired, that Q = 0. Indeed, were Q non-zero, we could find an inclusion  $V \subset Q$ , since Q is a successive extension of copies of V, as remarked above. This gives a contradiction, since V[Ver] is non-zero, whereas Q[Ver] is 0.
 
-To prove (c), we assume that m and I are not relatively prime. We have then
+To prove (c), we assume that $\mathbf{m}$ and I are not relatively prime. We have then
 
 $$
-T _ {r} \equiv (1 + r) \pmod {m}
+T _ {r} \equiv (1 + r) \pmod {\mathbf{m}}
 $$
 
-for almost all r. The representation  $\rho_{m}$  then has the same characteristic polynomials as the direct sum of the 1-dimensional trivial representation and the 1-dimensional cyclotomic representation. In view of the Cebotarev Density and Brauer-Nesbitt theorems, we conclude that  $\rho_{m}$  has the same semisimplification as this direct sum. This contradicts the hypothesis that  $\rho_{m}$  is irreducible. ☐
+for almost all r. The representation  $\rho_{\mathbf{m}}$  then has the same characteristic polynomials as the direct sum of the 1-dimensional trivial representation and the 1-dimensional cyclotomic representation. In view of the Cebotarev Density and Brauer-Nesbitt theorems, we conclude that  $\rho_{\mathbf{m}}$  has the same semisimplification as this direct sum. This contradicts the hypothesis that  $\rho_{\mathbf{m}}$  is irreducible. ☐
 
 Definition. Suppose that
 
@@ -1379,25 +1387,25 @@ $$
 
 for almost all prime numbers $r$.
 
-Given $\rho$ as in the definition, set $m = \ker(\omega)$ and observe that $\omega$ embeds T/m into $\overline{F}$. The semisimplifications of $\rho$ and $\rho_{m}$ are then both defined over subfields of
+Given $\rho$ as in the definition, set $\mathbf{m} = \ker(\omega)$ and observe that $\omega$ embeds $\mathbf{T}/\mathbf{m}$ into $\overline{F}$. The semisimplifications of $\rho$ and $\rho_{\mathbf{m}}$ are then both defined over subfields of
 
 the field  $\bar{F}$ . Since their traces and determinants coincide, their semisimplifications are isomorphic over  $\bar{F}$ .
 
 The following complement to Theorem 5.2b is the principal result of [21].
 
-Theorem 5.3. Let m be an ideal of T for which  $\rho_{m}$  is irreducible. Suppose that the residue characteristic l of m is an odd prime which divides N. Assume further that  $l^{2}$  does not divide N and that the representation  $\rho_{m}$  is not modular of level N/l. Then the group  $J_{0}(N)[\mathfrak{m}]$  is of T/m-dimension 2. In other words, we have  $V \approx W$  in the notation of Theorem 5.2.
+Theorem 5.3. Let $\mathbf{m}$ be an ideal of $\mathbf{T}$ for which  $\rho_{\mathbf{m}}$  is irreducible. Suppose that the residue characteristic l of $\mathbf{m}$ is an odd prime which divides N. Assume further that  $l^{2}$  does not divide N and that the representation  $\rho_{\mathbf{m}}$  is not modular of level N/l. Then the group  $J_{0}(N)[\mathbf{m}]$  is of $\mathbf{T}/\mathbf{m}$-dimension 2. In other words, we have  $V \approx W$  in the notation of Theorem 5.2.
 
 ## 6. A theorem of Mazur
 
-Fix a positive integer M and a prime p not dividing M. Let  $T = T_{N}$ , where N = pM, be the Hecke ring of level N. Let m be a maximal ideal of T and set k = T/m. Let V be a k[G]-module which gives the representation  $\rho_{m}$ . Consider the following hypotheses:
+Fix a positive integer M and a prime p not dividing M. Let  $\mathbf{T} = \mathbf{T}_{N}$ , where N = pM, be the Hecke ring of level N. Let $\mathbf{m}$ be a maximal ideal of $\mathbf{T}$ and set k = $\mathbf{T}/\mathbf{m}$. Let V be a k[G]-module which gives the representation  $\rho_{\mathbf{m}}$ . Consider the following hypotheses:
 
-(i) The representation  $\rho_{m}$  is irreducible.
+(i) The representation  $\rho_{\mathbf{m}}$  is irreducible.
 
-(ii) The residue characteristic $l$ of $m$ is odd.
+(ii) The residue characteristic $l$ of $\mathbf{m}$ is odd.
 
-(iii) The representation $\rho_{\mathfrak{m}}$ is finite at $p$.
+(iii) The representation $\rho_{\mathbf{m}}$ is finite at $p$.
 
-The last hypothesis means that there is a finite flat k-vector space scheme V over  $Z_{p}$  for which the resulting representation of  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  coincides with the restriction to  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  of  $\rho_{m}$ .
+The last hypothesis means that there is a finite flat k-vector space scheme V over  $Z_{p}$  for which the resulting representation of  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  coincides with the restriction to  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$  of  $\rho_{\mathbf{m}}$ .
 
 Theorem 6.1. (Mazur [20]) Assume that the above hypothesis (i), (ii), and (iii) are satisfied. Suppose further that we have
 
@@ -1405,9 +1413,9 @@ $$
 p \not \equiv 1 \pmod {l}.
 $$
 
-Then the representation $\rho_{\mathfrak{m}}$ is modular of level $M = N / p$.
+Then the representation $\rho_{\mathbf{m}}$ is modular of level $M = N / p$.
 
-Proof. According to (5.2a), we may find an inclusion of $\mathbf{T} / \mathfrak{m}[G]$-modules $V \subset J[\mathfrak{m}]$, where $J = J_0(N)$. Fix such an inclusion, and view it as a map $\iota: V \to J$. Since $\rho_{\mathfrak{m}}$ is finite, $V$ extends to a finite flat $\mathbf{T} / \mathfrak{m}$-vector space scheme $\mathcal{V}$ over $\mathbf{Z}_p$.
+Proof. According to (5.2a), we may find an inclusion of $\mathbf{T} / \mathbf{m}[G]$-modules $V \subset J[\mathbf{m}]$, where $J = J_0(N)$. Fix such an inclusion, and view it as a map $\iota: V \to J$. Since $\rho_{\mathbf{m}}$ is finite, $V$ extends to a finite flat $\mathbf{T} / \mathbf{m}$-vector space scheme $\mathcal{V}$ over $\mathbf{Z}_p$.
 
 Lemma 6.2. The map $\iota$ prolongs to a map $\mathcal{V} \to \mathcal{T}$, where $\mathcal{T}$ is the Néron model of $J_{\mathbf{Q}_p}$.
 
@@ -1423,9 +1431,9 @@ is étale and quasi-finite, and has trivial special fiber (cf. [19]). Moreover, 
 
 integers of this field. The group $Q$ becomes a quotient of the group scheme ${}_{p}\Psi$ appearing in [11], 11.6.6. In [11], 11.6.7, the generic fiber of ${}_{p}\Psi$ is identified with the group $M/pM$, where $M$ is a certain constant group scheme. Hence $Q_{K}$ is constant, which means that the inertia group $\operatorname{Gal}(\bar{\mathbf{Q}}_p/K)$ of $\operatorname{Gal}(\bar{\mathbf{Q}}_p/\mathbf{Q}_p)$ acts trivially on $Q(\bar{\mathbf{Q}}_p)$.
 
-Express V in the usual way as an extension of an étale group scheme  $V^{et}$  by a connected group scheme  $V^{0}$ , and write  $V^{et}$  and  $V^{0}$  for the generic fibers of these finite flat group schemes over  $Z_{p}$ . Considered as a  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ -module,  $V^{et}$  is the largest unramified quotient of V because of [25], loc. cit.
+Express $\mathcal{V}$ in the usual way as an extension of an étale group scheme  $\mathcal{V}^{\mathrm{et}}$  by a connected group scheme  $\mathcal{V}^{0}$ , and write  $\mathcal{V}^{\mathrm{et}}$  and  $\mathcal{V}^{0}$  for the generic fibers of these finite flat group schemes over  $Z_{p}$ . Considered as a  $\operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ -module,  $\mathcal{V}^{\mathrm{et}}$  is the largest unramified quotient of V because of [25], loc. cit.
 
-It follows that the image of $V^0$ under $\iota$ lands in the generic fiber $J[p]^{\mathfrak{f}}$ of $\mathcal{T}[p]^{\mathfrak{f}}$, since $Q$ is unramified. By [25], Cor. 3.3.6, the map $V^0 \to J[p]^{\mathfrak{f}}$ induced by $\iota$ prolongs uniquely to a map $u: \mathcal{V}^0 \to \mathcal{T}[p]^{\mathfrak{f}}$. We obtain the desired prolongation of $\iota$ from [11], lemma (5.9.2), applied with $G = \mathcal{V}$, $A = \mathcal{T}$, $v_{\eta} = \iota$, $G'' = \mathcal{V}^{\mathrm{et}}$, $G' = \mathcal{V}^0$, and $u = u$. This completes the proof of (6.2).
+It follows that the image of $\mathcal{V}^{0}$ under $\iota$ lands in the generic fiber $J[p]^{\mathfrak{f}}$ of $\mathcal{T}[p]^{\mathfrak{f}}$, since $Q$ is unramified. By [25], Cor. 3.3.6, the map $\mathcal{V}^{0} \to J[p]^{\mathfrak{f}}$ induced by $\iota$ prolongs uniquely to a map $u: \mathcal{V}^0 \to \mathcal{T}[p]^{\mathfrak{f}}$. We obtain the desired prolongation of $\iota$ from [11], lemme (5.9.2), applied with $G = \mathcal{V}$, $A = \mathcal{T}$, $v_{\eta} = \iota$, $G'' = \mathcal{V}^{\mathrm{et}}$, $G' = \mathcal{V}^0$, and $u = u$. This completes the proof of (6.2).
 
 We now (re-) introduce some notation which is essentially that of §3, except that $p$ will now play the role of the prime $q$ of §3. Write $J_{s}$ for the special fiber of the Néron model $J$, and $J^0$ for the connected component of 0 in $J_{s}$. Then $J^0$ is an extension of the product $J_0(M) \times J_0(M)$ by a torus $T$. Let $X$ be the character group of $T$. Let $\Phi$ be the group of components of $J_{s}$. Using the map $\mathcal{V} \to J$ of (6.2), together with the results of Raynaud [25], identify $\mathcal{V}$ with a subgroup of the largest finite flat subgroup $H$ of $\mathcal{T}[l]$. Write $\mathcal{V}_{s}$ for the special fiber of $\mathcal{V}$.
 
@@ -1437,36 +1445,36 @@ $$
 
 over  $Z_{p}$ . According to [11], §5.1, T embeds into the formal completion of T along its special fiber. This implies that  $T[l]$  is naturally a finite, flat subgroup of H.
 
-Lemma 6.3. If $\rho_{\mathfrak{m}}$ is not modular of level $N / p$, then the group $\mathcal{V}$ is a subgroup of $T[l]$.
+Lemma 6.3. If $\rho_{\mathbf{m}}$ is not modular of level $N / p$, then the group $\mathcal{V}$ is a subgroup of $\underline{T}[l]$.
 
-Proof. The group  $V_{s}$  is contained in  $J^{0}$  because of (3.12) and (5.2c). Further, if  $V_{s}$  maps non-trivially to  $J_{0}(M) \times J_{0}(M)$ , then the maximal ideal m of T arises from a maximal ideal of the p-old quotient  $T_{0}$  of T in view of (3.11). This implies that the representation  $\rho_{m}$  is modular of level M = N/p. Thus our assumption that  $\rho_{m}$  is not modular of level N/p implies that  $V_{s}$  is contained in T.
+Proof. The group  $\mathcal{V}_{s}$  is contained in  $J^{0}$  because of (3.12) and (5.2c). Further, if  $\mathcal{V}_{s}$  maps non-trivially to  $J_{0}(M) \times J_{0}(M)$ , then the maximal ideal $\mathbf{m}$ of $\mathbf{T}$ arises from a maximal ideal of the p-old quotient  $\mathbf{T}_{0}$  of $\mathbf{T}$ in view of (3.11). This implies that the representation  $\rho_{\mathbf{m}}$  is modular of level M = N/p. Thus our assumption that  $\rho_{\mathbf{m}}$  is not modular of level N/p implies that  $\mathcal{V}_{s}$  is contained in T.
 
-To prove that V is a subgroup of T[l], we consider the composite v of the two maps
+To prove that $\mathcal{V}$ is a subgroup of $\underline{T}[l]$, we consider the composite v of the two maps
 
 $$
 \mathcal {V} \rightarrow H, \quad H \rightarrow H / \underline {{T}} [ l ].
 $$
 
-The map v has a finite, flat kernel, since we are in a limited-ramification situation in case l = p. (Since  $l \geq 3$ , we have  $p \geq 3$  in case p = l.) However, the kernel of v contains  $V_{s}$  in view of what we have already proved. It follows that the kernel of v coincides with V, proving (6.3). ☐
+The map v has a finite, flat kernel, since we are in a limited-ramification situation in case l = p. (Since  $l \geq 3$ , we have  $p \geq 3$  in case p = l.) However, the kernel of v contains  $\mathcal{V}_{s}$  in view of what we have already proved. It follows that the kernel of v coincides with $\mathcal{V}_{s}$, proving (6.3). ☐
 
-We now prove (6.1). Let  $D = \operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ , thought of as a decomposition group in  $G = \operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$ . Assuming that  $\rho_{m}$  is not modular of level N/p, we obtain from (6.3) the inclusion of T/m[D]-modules
+We now prove (6.1). Let  $D = \operatorname{Gal}(\bar{\mathbf{Q}}_{p}/\mathbf{Q}_{p})$ , thought of as a decomposition group in  $G = \operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$ . Assuming that  $\rho_{\mathbf{m}}$  is not modular of level N/p, we obtain from (6.3) the inclusion of $\mathbf{T}/\mathbf{m}$[D]-modules
 
 $$
-V \subset \underline {{{T}}} [ \mathfrak {m} ] (\bar {\mathbf {Q}} _ {p}) = \operatorname{Hom} (X / \mathfrak {m} X, \mu_ {l}).
+V \subset \underline {{{T}}} [ \mathbf {m} ] (\bar {\mathbf {Q}} _ {p}) = \operatorname{Hom} (X / \mathbf {m} X, \mu_ {l}).
 $$
 
-The action of D on X/mX is unramified; it is given by the Frobenius automorphism of X (coming from the fact that T is defined over  $F_{p}$ ). The Frobenius automorphism of X coincides with the Hecke operator  $T_{p}$  (3.8). This operator is an involution, the negative of the Atkin-Lehner involution  $w_{p}$ . Therefore its action on X/mX is given by either +1 or -1, since T/m is a field. It follows that the action of D on  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$  is given by the  $F_{l}$ -valued character  $\varepsilon\chi$ , where  $\varepsilon$  is an unramified quadratic character. This implies that D acts on V by  $\varepsilon\chi$ , since V is a submodule of  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$ .
+The action of D on X/mX is unramified; it is given by the Frobenius automorphism of X (coming from the fact that T is defined over  $F_{p}$ ). The Frobenius automorphism of X coincides with the Hecke operator  $T_{p}$  (3.8). This operator is an involution, the negative of the Atkin-Lehner involution  $w_{p}$ . Therefore its action on X/mX is given by either +1 or -1, since $\mathbf{T}/\mathbf{m}$ is a field. It follows that the action of D on  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$  is given by the  $F_{l}$ -valued character  $\varepsilon\chi$ , where  $\varepsilon$  is an unramified quadratic character. This implies that D acts on V by  $\varepsilon\chi$ , since V is a submodule of  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$ .
 
-In particular, the character giving the action of D on  $\det_{\mathbf{T}/\mathfrak{m}}(V)$  is  $\varepsilon^{2}\chi^{2}=\chi^{2}$ . On the other hand, the determinant of V is the cyclotomic character  $\chi$ . Comparing the two expressions for the determinant, we get that  $\chi$  is trivial, which is equivalent to the congruence  $p\equiv1\pmod{l}$ . ☐
+In particular, the character giving the action of D on  $\det_{\mathbf{T}/\mathbf{m}}(V)$  is  $\varepsilon^{2}\chi^{2}=\chi^{2}$ . On the other hand, the determinant of V is the cyclotomic character  $\chi$ . Comparing the two expressions for the determinant, we get that  $\chi$  is trivial, which is equivalent to the congruence  $p\equiv1\pmod{l}$ . ☐
 
 ## A variant
 
-Theorem 6.4. Assume that m is a maximal ideal of T which satisfies conditions (i) and (ii) above. Assume further that the residue characteristic l of m is prime to  $pM(p-1)$ . Then the T/m-vector space X/mX is of dimension  $\leq 1$ .
+Theorem 6.4. Assume that $\mathbf{m}$ is a maximal ideal of $\mathbf{T}$ which satisfies conditions (i) and (ii) above. Assume further that the residue characteristic l of $\mathbf{m}$ is prime to  $pM(p-1)$ . Then the $\mathbf{T}/\mathbf{m}$-vector space X/mX is of dimension  $\leq 1$ .
 
-Proof. Since l is prime to N = pM, (5.2b) implies that  $V = J_{0}(N)[\mathsf{m}]$  is a two-dimensional T/m-vector space which gives the representation  $\rho_{m}$ . Since  $\operatorname{Hom}(X/\mathsf{m}X, \mu_{l})$  is a subspace of V (considered as a T/m[D]-module), X/mX is of dimension  $\leq 2$ . If X/mX is of dimension 2, then we get the equality
+Proof. Since l is prime to N = pM, (5.2b) implies that  $V = J_{0}(N)[\mathbf{m}]$  is a two-dimensional $\mathbf{T}/\mathbf{m}$-vector space which gives the representation  $\rho_{\mathbf{m}}$ . Since  $\operatorname{Hom}(X/\mathbf{m}X, \mu_{l})$  is a subspace of V (considered as a $\mathbf{T}/\mathbf{m}$[D]-module), X/mX is of dimension  $\leq 2$ . If X/mX is of dimension 2, then we get the equality
 
 $$
-V = \operatorname{Hom} (X / \mathfrak {m} X, \mu_ {l}).
+V = \operatorname{Hom} (X / \mathbf {m} X, \mu_ {l}).
 $$
 
 Arguing as above, we get the congruence $p \equiv 1 \pmod{l}$. This is contrary to our assumption about $l$.
@@ -1487,21 +1495,21 @@ $$
 T _ {q} ^ {2} - T _ {q} \tau + q = 0,
 $$
 
-Given maximal ideals  $\lambda$  of  $T_{pM}$  and m of  $T_{pqM, q-old}$ , we say that they are compatible if there is a maximal ideal of the ring  $R = R[\tau, T_q]$  which contains them both. At the same time, we identify the set of maximal ideals of  $T_{pqM, q-old}$  with a subset of the set of maximal ideals of  $T_{pqM}$ ; we say that a maximal ideal of  $T_{pqM}$  is q-old if it arises from a maximal ideal of the quotient  $T_{pqM, q-old}$ .
+Given maximal ideals  $\lambda$  of  $\mathbf{T}_{pM}$  and m of  $\mathbf{T}_{pqM, q-old}$ , we say that they are compatible if there is a maximal ideal of the ring  $R = R[\tau, T_q]$  which contains them both. At the same time, we identify the set of maximal ideals of  $\mathbf{T}_{pqM, q-old}$  with a subset of the set of maximal ideals of  $\mathbf{T}_{pqM}$ ; we say that a maximal ideal of  $\mathbf{T}_{pqM}$  is q-old if it arises from a maximal ideal of the quotient  $\mathbf{T}_{pqM, q-old}$ .
 
 By the going-up theorem of Cohen-Seidenberg, every  $\lambda$  is compatible with at least one m. At the same time, it is evident that the representations  $\rho_{\lambda}$  and  $\rho_{m}$  are isomorphic if  $\lambda$  and m are compatible. Hence every representation which is modular of level pM is modular of level pqM.
 
-Finally, suppose that $\lambda$ is $p$-new, i.e., that $\lambda$ arises from the quotient $\mathbf{T}_{pM, p\text{-new}}$ of $\mathbf{T}_{pM}$ which is associated with the Petersson-orthogonal complement of $S_2(\Gamma_0(M)) \oplus S_2(\Gamma_0(M))$ in $S_2(\Gamma_0(pM))$. Then there are maximal ideals $\mathfrak{m}$ of $\mathbf{T}_{pqM}$ which are $p$-new and which are compatible with $\lambda$. (Such $\mathfrak{m}$ are then $p$-new and $q$-old.) One sees this by working in the $p$-new subspace of $S_2(\Gamma_0(pqM))$ rather than in $S_2(\Gamma_0(pqM))$ itself.
+Finally, suppose that $\lambda$ is $p$-new, i.e., that $\lambda$ arises from the quotient $\mathbf{T}_{pM, p\text{-new}}$ of $\mathbf{T}_{pM}$ which is associated with the Petersson-orthogonal complement of $S_2(\Gamma_0(M)) \oplus S_2(\Gamma_0(M))$ in $S_2(\Gamma_0(pM))$. Then there are maximal ideals $\mathbf{m}$ of $\mathbf{T}_{pqM}$ which are $p$-new and which are compatible with $\lambda$. (Such $\mathbf{m}$ are then $p$-new and $q$-old.) One sees this by working in the $p$-new subspace of $S_2(\Gamma_0(pqM))$ rather than in $S_2(\Gamma_0(pqM))$ itself.
 
-Lemma 7.1. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $T_{pM}$ . Then there exist infinitely many prime numbers q, prime to  $pM\lambda$ , for which  $\rho_{\lambda}(\mathrm{Frob}_{q})$  has trace 0 and determinant -1.
+Lemma 7.1. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $\mathbf{T}_{pM}$ . Then there exist infinitely many prime numbers q, prime to  $pM\lambda$ , for which  $\rho_{\lambda}(\mathrm{Frob}_{q})$  has trace 0 and determinant -1.
 
 Proof. Let c be a complex conjugation in the Galois group G. The matrix  $\rho_{\lambda}(c)$  has trace 0 and determinant -1. By the Cebotarev Density Theorem, there are infinitely many q for which  $\rho_{\lambda}(\mathsf{Frob}_{q})$  is conjugate to  $\rho_{\lambda}(c)$ . Such q satisfy the given condition. □
 
 Remark 7.2. The determinant of $\rho_{\lambda}(\mathrm{Frob}_q)$ is $q$ modulo $\lambda$, i.e., $q \bmod l$, if $l$ is the residue characteristic of $\lambda$. Hence $\rho_{\lambda}(\mathrm{Frob}_q)$ has determinant $-1$ if and only if we have $q \equiv -1 \pmod{l}$.
 
-Theorem 7.3. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $T_{pM}$  which is p-new. Assume that  $\rho_{\lambda}$  is irreducible. Let q be a prime number satisfying the condition of (7.1), and let m be a p-new maximal ideal of  $T_{pqM}$  which is compatible with  $\lambda$ . Then m is pq-new; i.e., m arises from a maximal ideal of the pq-new quotient  $\bar{T}_{pqM}$  of  $T_{pqM}$ .
+Theorem 7.3. Let p and M be given, and let  $\lambda$  be a maximal ideal of  $\mathbf{T}_{pM}$  which is p-new. Assume that  $\rho_{\lambda}$  is irreducible. Let q be a prime number satisfying the condition of (7.1), and let m be a p-new maximal ideal of  $\mathbf{T}_{pqM}$  which is compatible with  $\lambda$ . Then m is pq-new; i.e., m arises from a maximal ideal of the pq-new quotient  $\bar{\mathbf{T}}_{pqM}$  of  $\mathbf{T}_{pqM}$ .
 
-Remarks 7.4. a. The conclusion of (7.3) may seem paradoxical, since m is visibly q-old. However, it is possible for an ideal of  $T_{pqM}$  to be both q-new and q-old. This reflects the fact that newforms and oldforms may be congruent modulo l. In a terminology introduced by Mazur, m is an ideal of fusion between the q-old and the q-new subspaces of  $S_{2}(\Gamma_{0}(pqM))$ .
+Remarks 7.4. a. The conclusion of (7.3) may seem paradoxical, since m is visibly q-old. However, it is possible for an ideal of  $\mathbf{T}_{pqM}$  to be both q-new and q-old. This reflects the fact that newforms and oldforms may be congruent modulo l. In a terminology introduced by Mazur, m is an ideal of fusion between the q-old and the q-new subspaces of  $S_{2}(\Gamma_{0}(pqM))$ .
 
 b. Essentially the same information as that given by (7.3) may be obtained by the techniques of [28]. This possibility is explored in [31].
 
@@ -1509,51 +1517,51 @@ Theorem 7.5. Let $q$ and $M$ be given, and let $\lambda$ be a maximal ideal of $
 
 Theorems (7.3) and (7.5) are obviously equivalent: one passes between them by reversing the roles of p and q. Theorem (7.3) is needed in our application, whereas Theorem (7.5) is more convenient to prove with the notation introduced in §4. This explains why they are both stated here. To establish (7.5), we first prove:
 
-Lemma 7.6. In the situation of (7.5), one has $(T_p)^2 - 1 \in \mathfrak{m}$.
+Lemma 7.6. In the situation of (7.5), one has $(T_p)^2 - 1 \in \mathbf{m}$.
 
-Proof. Consider the (commutative) subring R of  $\operatorname{End}(S_{2}(\Gamma_{0}(qM))\oplus S_{2}(\Gamma_{0}(qM))$  which is generated by  $T_{pM}$  and by  $T_{qpM,p-old}$ . (Thus R is the ring denoted by this symbol above, but with the roles of p and q appropriately reversed.) By the definition of “compatible,” there is a maximal ideal I of R which contains m and  $\lambda$ . We have
+Proof. Consider the (commutative) subring $\mathcal{R}$ of  $\operatorname{End}(S_{2}(\Gamma_{0}(qM))\oplus S_{2}(\Gamma_{0}(qM)))$  which is generated by  $\mathbf{T}_{pM}$  and by  $\mathbf{T}_{qpM, p\text{-old}}$ . (Thus $\mathcal{R}$ is the ring denoted by this symbol above, but with the roles of p and q appropriately reversed.) By the definition of “compatible,” there is a maximal ideal I of $\mathcal{R}$ which contains $\mathbf{m}$ and  $\lambda$ . We have
 
 $$
 T _ {p} ^ {2} - 1 = \tau T _ {p} - (p + 1).
 $$
 
-Since $\tau$ and $p + 1$ are elements of $\lambda$, $T_p^2 - 1 \in I$. Since $I \cap \mathbf{T}_{qpM, p\text{-old}} = \mathfrak{m}$, we get (7.6).
+Since $\tau$ and $p + 1$ are elements of $\lambda$, $T_p^2 - 1 \in I$. Since $I \cap \mathbf{T}_{qpM, p\text{-old}} = \mathbf{m}$, we get (7.6).
 
-To prove (7.5), we consider the character group X associated with the toric part of the reduction of  $J_{0}(Mq)$  at the prime q. The group  $X \oplus X$  is then a  $T_{qpM}$ -module, and  $T_{qpM}$  acts on  $X \oplus X$  through its p-old/q-new quotient, which acts faithfully on  $X \oplus X$ , cf. (3.21). Since m is q-new and p-old, it follows that m belongs to the support of the  $T_{qpM}$ -module  $X \oplus X$ . From (7.6), we find then that m belongs to the support of the  $T_{qpM}$ -module  $(X \oplus X)/(T_{p}^{2}-1)(X \oplus X)$ . By (4.3), (3.12) and (5.2c), m belongs to the support of the  $T_{qpM}$ -module denoted  $\Psi$  in (4.3). (In invoking (5.2c), we use the hypothesis that  $\rho_{\lambda}$  is irreducible.) However,  $T_{qpM}$  acts on  $\Psi$  through its pq-new quotient  $\overline{T}_{pqM}$ . In particular, the ideal m of  $T_{qpM}$  does not generate the unit ideal of  $\overline{T}_{pqM}$ . This is what is needed to prove (7.5).
+To prove (7.5), we consider the character group X associated with the toric part of the reduction of  $J_{0}(Mq)$  at the prime q. The group  $X \oplus X$  is then a  $\mathbf{T}_{qpM}$ -module, and  $\mathbf{T}_{qpM}$  acts on  $X \oplus X$  through its p-old/q-new quotient, which acts faithfully on  $X \oplus X$ , cf. (3.21). Since m is q-new and p-old, it follows that m belongs to the support of the  $\mathbf{T}_{qpM}$ -module  $X \oplus X$ . From (7.6), we find then that m belongs to the support of the  $\mathbf{T}_{qpM}$ -module  $(X \oplus X)/(T_{p}^{2}-1)(X \oplus X)$ . By (4.3), (3.12) and (5.2c), m belongs to the support of the  $\mathbf{T}_{qpM}$ -module denoted  $\Psi$  in (4.3). (In invoking (5.2c), we use the hypothesis that  $\rho_{\lambda}$  is irreducible.) However,  $\mathbf{T}_{qpM}$  acts on  $\Psi$  through its pq-new quotient  $\overline{\mathbf{T}}_{pqM}$ . In particular, the ideal m of  $\mathbf{T}_{qpM}$  does not generate the unit ideal of  $\overline{\mathbf{T}}_{pqM}$ . This is what is needed to prove (7.5).
 
 ## 8. Lowering the level
 
-In this § we again consider two distinct primes p and q, together with a positive integer M prime to pq. We let  $T = T_{pqM}$  and let  $\bar{T}$  be its pq-new quotient. We let m be a maximal ideal of  $\bar{T}$, and let l be the residue characteristic of m. We assume that l is odd and that  $\rho_{m}$  is irreducible.
+In this § we again consider two distinct primes p and q, together with a positive integer M prime to pq. We let  $\mathbf{T} = \mathbf{T}_{pqM}$  and let  $\bar{\mathbf{T}}$  be its pq-new quotient. We let $\mathbf{m}$ be a maximal ideal of  $\bar{\mathbf{T}}$, and let l be the residue characteristic of $\mathbf{m}$. We assume that l is odd and that  $\rho_{\mathbf{m}}$  is irreducible.
 
-Theorem 8.1. Suppose that l is prime to qM and that  $\rho_{m}$  is finite at p. Assume that the prime number q does not satisfy  $q \equiv 1 \pmod{l}$ . Then  $\rho_{m}$  is modular of level qM.
+Theorem 8.1. Suppose that l is prime to qM and that  $\rho_{\mathbf{m}}$  is finite at p. Assume that the prime number q does not satisfy  $q \equiv 1 \pmod{l}$ . Then  $\rho_{\mathbf{m}}$  is modular of level qM.
 
-Proof. By (6.1), we may assume that  $p \equiv 1 \pmod{l}$ . In particular, we may (and do) assume that l is prime to pqM. Let C be the Shimura curve studied in §4: the curve associated with the group of norm-1 units in an Eichler order of level M in “the” quaternion algebra over Q of discriminant pq. Let  $J = \operatorname{Pic}^{0}(C)$  be the Jacobian of C. (We take the field of definition of C to be Q, as in §4.) Consider the T/m[G]-module
+Proof. By (6.1), we may assume that  $p \equiv 1 \pmod{l}$ . In particular, we may (and do) assume that l is prime to pqM. Let C be the Shimura curve studied in §4: the curve associated with the group of norm-1 units in an Eichler order of level M in “the” quaternion algebra over Q of discriminant pq. Let  $J = \operatorname{Pic}^{0}(C)$  be the Jacobian of C. (We take the field of definition of C to be Q, as in §4.) Consider the $\mathbf{T}/\mathbf{m}$[G]-module
 
 $$
-W = J (\bar {\mathbf {Q}}) [ \mathfrak {m} ],
+W = J (\bar {\mathbf {Q}}) [ \mathbf {m} ],
 $$
 
 cf. §5. Because of the Eichler-Shimura relations for $J$ ([37], 11.17 or [38], 2.23), the
 
-proof of (5.2a) shows that W is a successive extension of copies of the T/m[G]-module V which corresponds to the representation  $\rho_{m}$ . Since m is an ideal of  $\overline{T}$ , W is non-zero. Hence there is an embedding of T/m[G]-modules  $V \hookrightarrow W$ .
+proof of (5.2a) shows that W is a successive extension of copies of the $\mathbf{T}/\mathbf{m}$[G]-module V which corresponds to the representation  $\rho_{\mathbf{m}}$ . Since $\mathbf{m}$ is an ideal of  $\overline{\mathbf{T}}$ , W is non-zero. Hence there is an embedding of $\mathbf{T}/\mathbf{m}$[G]-modules  $V \hookrightarrow W$ .
 
-Fixing such an embedding and using the hypothesis that V is finite at p (since l and p are distinct, this hypothesis means that V is unramified at p), we identify V with a subgroup of  $J(\overline{\mathbf{F}}_{p})$ . This identification respects the natural actions of T and  $\operatorname{Frob}_{p} \in \operatorname{Gal}(\overline{\mathbf{F}}_{p}/\mathbf{F}_{p})$  on V and  $J(\overline{\mathbf{F}}_{p})$ . Let  $\Psi$  be the group of components and let Z be the character group of the torus attached to the reduction of J at p. If the image of V in  $\Psi$  is non-zero, then m belongs to the support of  $\Psi$ . By (4.3), (3.12) and (5.2c), m belongs to the support of the T-module  $X \oplus X$ , where X is again the character group arising from the bad reduction of  $J_{0}(qM)$  at q. This implies that m comes from the q-new/p-old quotient of T (3.21). It follows easily from this that  $\rho_{m}$  is isomorphic to  $\rho_{\lambda}$  for some maximal ideal  $\lambda$  of  $T_{qM}$ . Hence  $\rho_{m}$  is modular of level qM.
+Fixing such an embedding and using the hypothesis that V is finite at p (since l and p are distinct, this hypothesis means that V is unramified at p), we identify V with a subgroup of  $J(\overline{\mathbf{F}}_{p})$ . This identification respects the natural actions of $\mathbf{T}$ and  $\operatorname{Frob}_{p} \in \operatorname{Gal}(\overline{\mathbf{F}}_{p}/\mathbf{F}_{p})$  on V and  $J(\overline{\mathbf{F}}_{p})$ . Let  $\Psi$  be the group of components and let Z be the character group of the torus attached to the reduction of J at p. If the image of V in  $\Psi$  is non-zero, then $\mathbf{m}$ belongs to the support of  $\Psi$ . By (4.3), (3.12) and (5.2c), $\mathbf{m}$ belongs to the support of the $\mathbf{T}$-module  $X \oplus X$ , where X is again the character group arising from the bad reduction of  $J_{0}(qM)$  at q. This implies that $\mathbf{m}$ comes from the q-new/p-old quotient of $\mathbf{T}$ (3.21). It follows easily from this that  $\rho_{\mathbf{m}}$  is isomorphic to  $\rho_{\lambda}$  for some maximal ideal  $\lambda$  of  $\mathbf{T}_{qM}$ . Hence  $\rho_{\mathbf{m}}$  is modular of level qM.
 
-It remains to treat the case where the image of V in  $\Psi$  is zero, i.e., where V is contained in the group  $\operatorname{Hom}(Z/\mathsf{m}Z, \mu_{l})$ . We have then
+It remains to treat the case where the image of V in  $\Psi$  is zero, i.e., where V is contained in the group  $\operatorname{Hom}(Z/\mathbf{m}Z, \mu_{l})$ . We have then
 
 $$
-\dim_ {\mathbf {T} / \mathfrak {m}} (Z / \mathfrak {m} Z) \geq 2.
+\dim_ {\mathbf {T} / \mathbf {m}} (Z / \mathbf {m} Z) \geq 2.
 $$
 
-By (4.1), we have  $\dim_{\mathbf{T}/\mathfrak{m}}(Y/\mathfrak{m}Y) \geq 2$ , where Y is the T-module defined in §3 as the kernel of the surjection  $L \to (X \oplus X)$ , L being the character group of the torus arising from the reduction of  $J_{0}(pqM)$  at q. We may assume that m does not belong to the support of  $X \oplus X$ , since we have already established that the conclusion of the theorem holds if it does belong to the support of  $X \oplus X$ .
+By (4.1), we have  $\dim_{\mathbf{T}/\mathbf{m}}(Y/\mathbf{m}Y) \geq 2$ , where Y is the $\mathbf{T}$-module defined in §3 as the kernel of the surjection  $L \to (X \oplus X)$ , L being the character group of the torus arising from the reduction of  $J_{0}(pqM)$  at q. We may assume that $\mathbf{m}$ does not belong to the support of  $X \oplus X$ , since we have already established that the conclusion of the theorem holds if it does belong to the support of  $X \oplus X$ .
 
 Under this assumption, we have an isomorphism
 
 $$
-Y / \mathfrak {m} Y \approx L / \mathfrak {m} L,
+Y / \mathbf {m} Y \approx L / \mathbf {m} L,
 $$
 
-giving finally the statement  $\dim_{\mathbf{T}/\mathfrak{m}}(L/\mathfrak{m}L) \geq 2$ . We get a contradiction by applying (6.4) to the group L. (We apply the theorem with p replaced by q and M replaced by pM). ☐
+giving finally the statement  $\dim_{\mathbf{T}/\mathbf{m}}(L/\mathbf{m}L) \geq 2$ . We get a contradiction by applying (6.4) to the group L. (We apply the theorem with p replaced by q and M replaced by pM). ☐
 
 Theorem 8.2. (Main Theorem) Let $\rho: \operatorname{Gal}(\bar{\mathbf{Q}} / \mathbf{Q}) \to \operatorname{GL}(2, \mathbf{F})$ be an irreducible mod $l$ modular representation of level $Mp$, where $p$ is a prime not dividing $M$. Assume that $\rho$ is finite at $p$. Then $\rho$ is modular of level $M$ provided that at least one of the following two conditions holds:
 
@@ -1563,9 +1571,9 @@ Theorem 8.2. (Main Theorem) Let $\rho: \operatorname{Gal}(\bar{\mathbf{Q}} / \ma
 
 Proof. We have $\rho \approx \rho_{\lambda}$ for some maximal ideal $\lambda$ of $\mathbf{T}_{Mp}$. By (6.1), we know that $\rho$ is modular of level $M$ if (ii) holds. Hence we may assume that $p \equiv 1 \pmod{l}$, and in particular that $p$ and $l$ are distinct.
 
-Also, if  $\lambda$  arises from the p-old quotient of  $T_{Mp}$ , then there is nothing to prove. Hence we may assume that  $\lambda$  does not arise from the p-old quotient of  $T_{Mp}$ , which implies in particular that it does arise from the p-new quotient of  $T_{Mp}$ .
+Also, if  $\lambda$  arises from the p-old quotient of  $\mathbf{T}_{Mp}$ , then there is nothing to prove. Hence we may assume that  $\lambda$  does not arise from the p-old quotient of  $\mathbf{T}_{Mp}$ , which implies in particular that it does arise from the p-new quotient of  $\mathbf{T}_{Mp}$ .
 
-Assuming that  $\lambda$  arises from this quotient, we choose a prime number q as in (7.1) and pick a p-new maximal ideal m of  $T = T_{Mqp}$  which is compatible with  $\lambda$ . By (7.3), m is a pq-new maximal ideal of T. If (i) holds, then (8.1) applies to show that  $\rho$  is modular of level qM. (Note that we have  $q \equiv -1 \pmod{l}$ ; since l is odd, we do
+Assuming that  $\lambda$  arises from this quotient, we choose a prime number q as in (7.1) and pick a p-new maximal ideal $\mathbf{m}$ of  $\mathbf{T} = \mathbf{T}_{Mqp}$  which is compatible with  $\lambda$ . By (7.3), m is a pq-new maximal ideal of $\mathbf{T}$. If (i) holds, then (8.1) applies to show that  $\rho$  is modular of level qM. (Note that we have  $q \equiv -1 \pmod{l}$ ; since l is odd, we do
 
 not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q$, we deduce that $\rho$ is modular of level $M$.
 
@@ -1639,7 +1647,7 @@ not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q
 
 34. Serre, J-P.: Lettre à J-F. Mestre (13 août 1985). Contemp. Math. 67, 263–268 (1987)
 
-35. Serre, J-P.: Sur les représentations modulaires de degré 2 de Gal(Q/Q). Duke Math. J. 54, 179–230 (1987)
+35. Serre, J-P.: Sur les représentations modulaires de degré 2 de $\operatorname{Gal}(\bar{\mathbf{Q}}/\mathbf{Q})$. Duke Math. J. 54, 179–230 (1987)
 
 36. Shimizu, H.: On the zeta functions of quaternion algebras. Ann. Math. 81, 166-193 (1965)
 
@@ -1656,3 +1664,5 @@ not have $q \equiv +1 (\text{mod } l)$.) Applying (6.1), with $p$ replaced by $q
 42. Waterhouse, W.C.: Abelian varieties over finite fields. Ann. Sci. Ec. Norm. Sup. IV. Ser. 2, 521–560 (1969)
 
 [EGA IV] Grothendieck, A.: Etude locale des schémas et des morphismes de schémas (quatrième partie). Publ. Math, Inst. Hautes Etud. Sci. 32, 5–361 (1967)
+
+Oblatum 27-IX-1988 & 20-XI-1989
