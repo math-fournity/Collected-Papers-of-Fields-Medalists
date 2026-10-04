@@ -685,7 +685,7 @@ Der soeben bewiesene Satz bleibt wie die Ungleichung (B) gültig, wenn man die G
 
 sammenhängende Fläche, welche drei Punkte nicht überdeckt, gestattet keine reguläre Ausschöpfung.
 
-In diesem Zusammenhang wollen wir noch ein ähnliches Resultat erwähnen, das unmittelbar aus der Ungleichung (II, I) folgt. Eine offene, einfach zusammenhängende Fläche $W^{*}$ sei über eine geschlossene Fläche vom Geschlecht grösser als Eins, d. h. mit positiver Charakteristik $\varrho_{0}$, ausgebreitet. Dann gilt für jede Fläche einer ausschöpfenden Folge $\varrho_{0}S \leq kL$, woraus man schliesst, dass keine reguläre Ausschöpfung existiert.
+In diesem Zusammenhang wollen wir noch ein ähnliches Resultat erwähnen, das unmittelbar aus der Ungleichung (II, 1) folgt. Eine offene, einfach zusammenhängende Fläche $W^{*}$ sei über eine geschlossene Fläche vom Geschlecht grösser als Eins, d. h. mit positiver Charakteristik $\varrho_{0}$, ausgebreitet. Dann gilt für jede Fläche einer ausschöpfenden Folge $\varrho_{0}S \leq kL$, woraus man schliesst, dass keine reguläre Ausschöpfung existiert.
 
 Eine einfach zusammenhängende Fläche, die über eine geschlossene Grundfläche vom Geschlecht grösser als Eins ausgebreitet ist, kann nicht regulär ausgeschöpft werden.
 

@@ -339,4 +339,15 @@
 - 结果：PASS±（2 处修复后与印刷一致）。
 - 页界：本页止于「…einfach zu-」（断词跨页，MD 行 684 吻合）；次页续。
 
+### p.027（PDF p.27 / 印刷 p.183）
+
+- audited_at=2026-10-03 20:20 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p027.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p027_refII1_300dpi.png`、`audit-redo/ueberlagerungsflaechen_p027_refII1_zoom3x.png`、`audit-redo/ueberlagerungsflaechen_p027_footnote1_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 183）、页首斜体续句（…drei Punkte nicht überdeckt…keine reguläre Ausschöpfung.）、In diesem Zusammenhang 段（(II, 1) 引用、ϱ₀S≦kL、Geschlecht grösser als Eins）、斜体定理句（Eine einfach zusammenhängende Fläche…kann nicht regulär ausgeschöpft werden.）、编号段 23（unverzweigt/relativ unbegrenzt 斜体、W̄₀、脚注标 ¹ 在 bezeichnen. 后 ✓、q Querschnitte γ、Δ′/Δ″、einblättrige Inseln）、Um diese Bedingung 段（Inbegriff、「der Folgenden」大写措辞照排 ✓、schliesslich—d. h. …W—破折号 ✓）、Wenn diese Bedingung 段（Überlagerungsfläche F、脚注标 ² 在 abschliesst. 后 ✓）、页末行「Wir nehmen eine Fläche W…und betrachten wie」、脚注 ¹（W̄₀ ist das Komplementärgebiet der Gebiete Δ_ν.——300dpi 确证下标 ν）与脚注 ²（ELFVING 引文：topologischen Baums 斜体、Über eine Klasse von Riemannschen Flächen 斜体、(Acta Soc. Scient. Fenn., Nov. Ser. A. t. II No. 3.)——t. II 为罗马卷号正确保留），顺序 ¹→² 与印刷一致。
+- 发现并修复（MD 结构化 Edit，1 处）：行 688 正文引用「(II, I)」→「(II, 1)」——3x 裁片确证前两字形为高衬线罗马 **II**（显著高于后续数字）、分隔号为**逗号**（低挂带尾，非句点）、末字形为旗头短杆旧式数字 **1**；本页印刷引用用逗号分隔（与 p.012 标签 (II. 1) 的句点制式不同，属印刷自身变体，忠实按页转写）（I/1 同类，段内移交项核销）。
+- 保留登记（PASS± 排版级，不修）：定理句/unverzweigt/unbegrenzt/topologischen Baums 等斜体丢失（系统性）；Überlagerungsfläche F 的 F 斜体丢失；页眉未收（系统性）。
+- 与 Luna 旧记录交叉：旧 p.027 判 FAIL（Δ\nu 丢下标、脚注 ² 排在 ¹ 前、独立 W̄₀ 碎片）——本次原页重核确认基线中这些修复均已到位（脚注 ¹→² 顺序正确、Δ_ν 下标正确、无残留碎片），维持；(II, I) 引用末位 I/1 误转写系旧审计未检出项。
+- 结果：PASS±（1 处修复后与印刷一致）。
+- 页界：本页止于页末行「…und betrachten wie」+ 页底脚注 ¹/²（MD 行 698/700/702 吻合）；「in Nr. 20 ihre über W̄₀ gelegenen Teile…」起为 p.028 内容。
+
 <!-- redo-tail -->
