@@ -366,4 +366,15 @@
 - 结果：PASS±（6 处修复后与印刷一致）。
 - 页界：本页止于「…wobei die ausschöpfenden Flächen W」（MD 行 742 吻合，断句跨页）；「in eine Folge von Gebieten G…」起为 p.029 内容。
 
+### p.029（PDF p.29 / 印刷 p.185）
+
+- audited_at=2026-10-03 21:10 EDT；actor=Wf-R-P02；model=account:zai-individual-coding-plan/GLM-5.3-Flash；effort=max（run级配置，自报UNKNOWN）。
+- PNG：`audit-redo/ueberlagerungsflaechen_p029.png`（pngmono 150dpi）；300dpi 仲裁裁片：`audit-redo/ueberlagerungsflaechen_p029_lintegral_300dpi.png`。
+- 核对：页眉（Zur Theorie der Überlagerungsflächen. / 185）、页首续句（in eine Folge von Gebieten G…、本行印刷「zusammenhängende」拼写正确——与 p.028 的单点 quirk 对照、Ausschöpfung der Fläche W*.）、Es gebe eine Abbildung 段（positiv definite Differentialform）、ds²=E(z)dx²+2F(z)dxdy+G(z)dy²（(z=x+iy) ✓）、bestimmt wird 段（∫√(Edx²+2Fdxdy+Gdy²) 与 ∬√(EG−F²)dxdy、z-Ebene、stückweise analytische）、quasikonform 定义段、公式 (12)（左侧标签 (12)、E+G≦2K√(EG−F²)、无标点 ✓）、in jedem Punkte 段（K≧1、K=1 bedingt F=0（o/0 同形维持 0）、E=G、konform）、Es sei W_r 段（G_r、|z|≦r、I(r)/L(r)）、**L(r)=∫_{|z|=r}√(E dy²+2F dx dy+G dy²)**——300dpi 裁片独立确证印刷首项为 **E dy²**（源级印刷 quirk，按标准度量应为 E dx²；MD 忠实保留，不按数学预期改正）✓、und、I(r)=∬_{|z|≦r}√(EG−F²)dxdy.（句点在 ✓）、Aus der letzten Gleichung 段、I′(r)=∫_{|z|=r}√(EG−F²)|dz|.（句点在 ✓）、页底 imprint 行（24—34686. Acta mathematica. 65. Imprimé le 8 février 1935.）。
+- 发现并修复：无内容级修复项。
+- 保留登记（PASS± 排版级，不修）：L(r) 被积式首项印刷 quirk「E dy²」忠实保留（300dpi 独立复核，与 Luna 旧 300dpi 结论一致）；G/quasikonform/konform 等斜体丢失（系统性）；imprint 长划转写半角连字符「24-34686」（本篇 imprint 既有惯例）；页眉未收（系统性）。
+- 与 Luna 旧记录交叉：旧 p.029 判 FAIL（根号 V 误识 2 处）——基线已修为 \sqrt，本次原页重核与印刷一致维持；「E dy²」print quirk 的登记方向经本次独立 300dpi 复核确认正确。
+- 结果：PASS±（无修复项；print quirk 与排版伪影登记保留）。
+- 页界：本页止于 imprint 行（MD 行 777/780 吻合）；「Unter Anwendung der Schwarzschen Ungleichung…」起为 p.030 内容。
+
 <!-- redo-tail -->
