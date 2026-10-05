@@ -122,13 +122,13 @@ Similar results are known in log-smooth situations, cf. [12, §2b], and we refer
 
 Let us sketch the proof of the almost purity theorem. It is easy if K is of characteristic$p$. Moreover, as for perfectoid fields, it is easy to construct a fully faithful functor from the category of finite étale$\mathrm { R } ^ { \flat }$-algebras to finite étale R-algebras, and the problem becomes to show that this functor is essentially surjective. But locally on$\mathrm { X = S p a ( R , R ^ { + } ) }$, the functor is essentially surjective by the result for perfectoid fields; one deduces the general case by a gluing argument. The analytic theory of perfectoid spaces is precisely what is needed to make this localization argument.
 
-In particular, we note that Theorem 1.10 is essentially equivalent to the comparison of finite étale covers of$\mathrm { X }$and its tilt$\mathrm { X } ^ { \flat }$. Slightly stronger, one proves the following theorem. Here,$\mathrm { X } _ { \mathrm { e t } }$denotes the étale site of a perfectoid space$\mathrm { X }$, and we denote by$\mathrm { X _ { \mathrm { e t } } ^ { \sim } }$ the associated topos.
+In particular, we note that Theorem 1.10 is essentially equivalent to the comparison of finite étale covers of$\mathrm { X }$and its tilt$\mathrm { X } ^ { \flat }$. Slightly stronger, one proves the following theorem. Here,$\mathrm { X } _ { \acute { \mathrm { e t } } }$denotes the étale site of a perfectoid space$\mathrm { X }$, and we denote by$\mathrm { X _ { \acute { \mathrm { e t } } } ^ { \sim } }$ the associated topos.
 
-Theorem 1.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then tilting induces an equivalence of sites$\mathrm { X } _ { \mathrm { e t } } \cong \mathrm { X } _ { \mathrm { e t } } ^ { \flat }$.
+Theorem 1.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then tilting induces an equivalence of sites$\mathrm { X } _ { \acute { \mathrm { e t } } } \cong \mathrm { X } _ { \acute { \mathrm { e t } } } ^ { \flat }$.
 
 As a concrete application of this theorem, we have the following result. Here, we use the étale topoi of adic spaces, which are the same as the étale topoi of the corresponding rigid-analytic variety. In particular, the same theorem holds for rigid-analytic varieties.
 
-Theorem 1.13. — The étale topos$( \mathbf { P } _ { \mathrm { K } ^ { \flat } } ^ { n , \mathrm { a d } } ) _ { \mathrm { e t } } ^ { \sim }$is equivalent to the inverse limit$\varprojlim _ { \varphi } ( \mathbf { P } _ { \mathrm { K } } ^ { n , \mathrm { a d } } ) _ { \mathrm { e t } } ^ { \sim }$.
+Theorem 1.13. — The étale topos$( \mathbf { P } _ { \mathrm { K } ^ { \flat } } ^ { n , \mathrm { a d } } ) _ { \acute { \mathrm { e t } } } ^ { \sim }$is equivalent to the inverse limit$\varprojlim _ { \varphi } ( \mathbf { P } _ { \mathrm { K } } ^ { n , \mathrm { a d } } ) _ { \acute { \mathrm { e t } } } ^ { \sim }$.
 
 Here, one has to interpret the latter as the inverse limit of a fibred topos in an obvious way, and$\varphi$is the map given on coordinates by$\varphi ( x _ { 0 } : \ldots : x _ { n } ) = ( x _ { 0 } ^ { p } : \ldots : x _ { n } ^ { p } )$. The same theorem stays true for proper toric varieties without change. We note that the theorem gives rise to a projection map
 
@@ -526,7 +526,7 @@ Let us end this section by describing in more detail the fibres of the map$\math
 
 Let (R, R<sup>+</sup>) be an affinoid$k$-algebra, and let$\mathrm { X = S p a ( R , R ^ { + } ) }$. We need not assume that$\mathcal { O } _ { \mathrm { X } }$is a sheaf in the following. For any$x \in \mathrm { X }$, we let k(x) be the residue field of$\mathcal { O } _ { \mathrm { X } , x }$, and$k ( x ) ^ { + } \subset k ( x )$be the image of$\mathcal { O } _ { \mathrm { X } , x } ^ { + }$. We have the following crucial property, surprising at first sight.
 
-Proposition 2.25. — Let$\varpi \in k$be topologically nilpotent. Then the  -adic completion of $\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is equal to the  -adic completion$\widehat { k ( x ) } ^ { + }$of$k ( x ) ^ { + }$.
+Proposition 2.25. — Let$\varpi \in k$be topologically nilpotent. Then the $\varpi$-adic completion of $\mathcal { O } _ { \mathrm { X } , x } ^ { + }$is equal to the $\varpi$-adic completion$\widehat { k ( x ) } ^ { + }$of$k ( x ) ^ { + }$.
 
 Proof. — It is enough to note that kernel of the map$\mathcal { O } _ { \mathrm { X } , x } ^ { + } \to k ( x ) ^ { + }$, which is also the kernel of the map$\mathcal { O } _ { \mathrm { X } , x } \to k ( x )$, is  -divisible.□
 
@@ -550,9 +550,9 @@ Definition 3.1. — A perfectoid field is a complete nonarchimedean field K of r
 
 We note that the requirement that the valuation is nondiscrete is needed to exclude unramified extensions of$\mathbf { Q } _ { p }$. It has the following consequence.
 
-Lemma 3.2. — Let$\mid \cdot \mid : \mathrm { K } \to \Gamma \cup \{ 0 \}$be the unique rank-1-valuation on K, where$\Gamma = | \mathrm { K } ^ { \times } |$is chosen minimal. Then  is p-divisible.
+Lemma 3.2. — Let$\mid \cdot \mid : \mathrm { K } \to \Gamma \cup \{ 0 \}$be the unique rank-1-valuation on K, where$\Gamma = | \mathrm { K } ^ { \times } |$is chosen minimal. Then $\Gamma$ is p-divisible.
 
-Proof. — As$\Gamma \neq | p | ^ { \mathbf { Z } }$, the group  is generated by the set of all$| x |$for$x \in \mathrm { K }$with $| p | < | x | \leq 1$. For such$x$, choose some y such that$| x - y ^ { p } | \leq | p |$. Then$\vert y \vert ^ { p } = \vert y ^ { p } \vert = \vert x \vert$, as desired.□
+Proof. — As$\Gamma \neq | p | ^ { \mathbf { Z } }$, the group $\Gamma$ is generated by the set of all$| x |$for$x \in \mathrm { K }$with $| p | < | x | \leq 1$. For such$x$, choose some y such that$| x - y ^ { p } | \leq | p |$. Then$\vert y \vert ^ { p } = \vert y ^ { p } \vert = \vert x \vert$, as desired.□
 
 The class of perfectoid fields naturally separates into the fields of characteristic 0 and those of characteristic$p$. In characteristic$p$, a perfectoid field is the same as a complete perfect nonarchimedean field.
 
@@ -652,7 +652,7 @@ $$
 \varpi^ {\flat} = (0, \varpi_ {1}, \ldots) \in \varprojlim_ {\Phi} \mathrm{K} ^ {\circ} / \varpi ;
 $$
 
-this is possible by surjectivity of  on$\mathrm { K } ^ { \circ } / \varpi$. By the proof of part$\mathrm { ( i ) }$, we have$| ( \varpi ^ { \flat } ) ^ { \sharp } - \varpi _ { 1 } ^ { \sharp } | \leq | \varpi | ^ { 2 }$. This gives$| ( \varpi ^ { \flat } ) ^ { \sharp } | = | \varpi |$, as desired.
+this is possible by surjectivity of $\Phi$ on$\mathrm { K } ^ { \circ } / \varpi$. By the proof of part$\mathrm { ( i ) }$, we have$| ( \varpi ^ { \flat } ) ^ { \sharp } - \varpi _ { 1 } ^ { \sharp } | \leq | \varpi | ^ { 2 }$. This gives$| ( \varpi ^ { \flat } ) ^ { \sharp } | = | \varpi |$, as desired.
 
 (iii) As$x \mapsto x ^ { \sharp }$is multiplicative, it extends to a map
 
@@ -860,13 +860,13 @@ Theorem 4.16 [15, Theorem 4.1.14]. — In the situation of the definition, the m
 
 An important property is that finite étale covers lift uniquely over nilpotents.
 
-Theorem 4.17. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra. Assume that A is flat over$\mathrm { K } ^ { \circ a }$and  -adically complete, i.e.
+Theorem 4.17. — Let A be a$\mathrm { K } ^ { \circ a }$-algebra. Assume that A is flat over$\mathrm { K } ^ { \circ a }$and $\varpi$-adically complete, i.e.
 
 $$
 \mathrm{A} \cong \varprojlim \mathrm{A} / \varpi^ {n}.
 $$
 
-Then the functor$\mathbf { B } \mapsto \mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$induces an equivalence of categories$\mathrm { A } _ { \mathrm { f e t } } \cong ( \mathrm { A } / \varpi ) _ { \mathrm { f e t } }$. Any$\mathrm { \bf B } \in \mathrm { \bf A } _ { \mathrm { f e t } }$ is again flat over$\mathrm { K } ^ { \circ a }$and  -adically complete. Moreover, B is a uniformly finite projective A-module if and only if$\mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$is a uniformly finite projective A/ -module.
+Then the functor$\mathbf { B } \mapsto \mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$induces an equivalence of categories$\mathrm { A } _ { \mathrm { f e t } } \cong ( \mathrm { A } / \varpi ) _ { \mathrm { f e t } }$. Any$\mathrm { \bf B } \in \mathrm { \bf A } _ { \mathrm { f e t } }$ is again flat over$\mathrm { K } ^ { \circ a }$and  $\varpi$-adically complete. Moreover, B is a uniformly finite projective A-module if and only if$\mathbf { B } \otimes _ { \mathrm { A } } \mathrm { A } / \varpi$is a uniformly finite projective A/ -module.
 
 Proof. — The first part follows from [15], Theorem 5.3.27. The rest is easy.□
 
@@ -886,7 +886,7 @@ Definition 5.1.
 
 (i) A perfectoid K-algebra is a Banach K-algebra R such that the subset$\mathrm { R } ^ { \circ } \subset \mathrm { R }$of powerbounded elements is open and bounded, and the Frobenius morphism$\Phi : \mathrm { R } ^ { \circ } / \varpi \to \mathrm { R } ^ { \circ } / \varpi$ is surjective. Morphisms between perfectoid K-algebras are the continuous morphisms of K-algebras.
 
-(ii) A perfectoid$\mathrm { K } ^ { \circ a }$-algebra is a  -adically complete flat$\mathrm { K } ^ { \circ a }$-algebra A on which Frobenius induces an isomorphism
+(ii) A perfectoid$\mathrm { K } ^ { \circ a }$-algebra is a  $\varpi$-adically complete flat$\mathrm { K } ^ { \circ a }$-algebra A on which Frobenius induces an isomorphism
 
 $$
 \Phi : \mathrm{A} / \varpi^ {\frac {1}{p}} \cong \mathrm{A} / \varpi .
@@ -922,7 +922,7 @@ Lemma 5.3. — Let M be a$\mathrm { K } ^ { \circ a }$-module.
 
 (iii) If M is flat over$\mathrm { K } ^ { \circ a }$, then for all$x \in \mathrm { K } ^ { \circ }$, we have$( x \mathbf { M } ) _ { * } = x \mathbf { M } _ { * }$. Moreover, $\mathrm { M } _ { * } / x \mathrm { M } _ { * } \subset ( \mathrm { M } / x \mathfrak { m } \mathrm { M } ) _ { * }$, and for all$\epsilon \in { \mathfrak { m } }$the image of$( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$in$( \mathrm { M } / x \mathrm { M } ) _ { * }$is equal to$\mathrm { M } _ { * } / x \mathrm { M } _ { * }$.
 
-(iv) If M is flat over$\mathrm { K } ^ { \circ a }$, then M is  -adically complete if and only if$\mathbf { M } _ { * }$is  -adically complete.
+(iv) If M is flat over$\mathrm { K } ^ { \circ a }$, then M is  $\varpi$-adically complete if and only if$\mathbf { M } _ { * }$is  $\varpi$-adically complete.
 
 Remark 5.4. — The non-surjectivity in (iii) is due to elements as in Remark 4.8.
 
@@ -958,21 +958,21 @@ Now using that$_*$is left-exact (since right-adjoint to$\mathbf { M } \mapsto \m
 
 Then$\begin{array} { r } { m _ { 1 } = \frac { \tilde { n } } { \epsilon } \in \mathrm { M } _ { * } } \end{array}$is the desired lift of$m \in ( \mathrm { M } / x \mathrm { M } ) _ { * }$: Multiplication by$\epsilon$induces an injection$( \mathrm { M } / x \mathrm { M } ) _ { * } \to ( \mathrm { M } / x \epsilon \mathrm { M } ) _ { * }$, because <sub>∗</sub> is left-exact, and the images agree:$\tilde { n }$ maps to$\epsilon m = \tilde { m } ( \epsilon ) = n$in$( \mathrm { M } / x \epsilon \mathrm { M } )$<sub>∗</sub>.
 
-(iv) The functors$\mathrm { M } \mapsto \mathrm { M } _ { * }$and$\mathrm { N } \mapsto \mathrm { N } ^ { a }$between the category of$\mathrm { K } ^ { \circ a }$-modules and the category of K<sup>◦</sup>-modules admit left adjoints, given by$\mathrm { N } \mapsto \mathrm { N } ^ { a }$and$\mathbf { M } \mapsto \mathbf { M } _ { ! } =$ ${ \mathfrak { m } } \otimes \mathbf { M } _ { * }$, respectively, and hence commute with inverse limits. Now if M is  -adically complete, then
+(iv) The functors$\mathrm { M } \mapsto \mathrm { M } _ { * }$and$\mathrm { N } \mapsto \mathrm { N } ^ { a }$between the category of$\mathrm { K } ^ { \circ a }$-modules and the category of K<sup>◦</sup>-modules admit left adjoints, given by$\mathrm { N } \mapsto \mathrm { N } ^ { a }$and$\mathbf { M } \mapsto \mathbf { M } _ { ! } =$ ${ \mathfrak { m } } \otimes \mathbf { M } _ { * }$, respectively, and hence commute with inverse limits. Now if M is  $\varpi$-adically complete, then
 
 $$
 \mathrm{M} _ {*} = \left(\varprojlim \mathrm{M} / \varpi^ {n} \mathrm{M}\right) _ {*} = \varprojlim \left(\mathrm{M} / \varpi^ {n} \mathrm{M}\right) _ {*} = \varprojlim \mathrm{M} _ {*} / \varpi^ {n} \mathrm{M} _ {*},
 $$
 
-using part (iii) in the last equality, hence$\mathrm { M } _ { * }$is  -adically complete. Conversely, if$\mathrm { M } _ { * }$is -adically complete, then
+using part (iii) in the last equality, hence$\mathrm { M } _ { * }$is  $\varpi$-adically complete. Conversely, if$\mathrm { M } _ { * }$is $\varpi$-adically complete, then
 
 $$
 \mathrm{M} = \left(\mathrm{M} _ {*}\right) ^ {a} = \left(\varprojlim \mathrm{M} _ {*} / \varpi^ {n} \mathrm{M} _ {*}\right) ^ {a} = \varprojlim \left(\mathrm{M} _ {*} / \varpi^ {n} \mathrm{M} _ {*}\right) ^ {a} = \varprojlim \mathrm{M} / \varpi^ {n} \mathrm{M}.
 $$
 
-Proposition 5.5. — Let R be a perfectoid K-algebra. Then  induces an isomorphism $\mathrm { R } ^ { \circ } / \varpi ^ { 1 / p } \cong \mathrm { R } ^ { \circ } / \varpi$, and$\mathbf { A } = \mathbf { R } ^ { \circ a }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra.
+Proposition 5.5. — Let R be a perfectoid K-algebra. Then $\Phi$ induces an isomorphism $\mathrm { R } ^ { \circ } / \varpi ^ { 1 / p } \cong \mathrm { R } ^ { \circ } / \varpi$, and$\mathbf { A } = \mathbf { R } ^ { \circ a }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra.
 
-Proof. — By assumption,$\Phi$is surjective. Injectivity is clear: If$x \in \mathrm { R } ^ { \circ }$is such that $x ^ { p } / \varpi$is powerbounded, then$x / \varpi ^ { 1 / p }$is powerbounded. Obviously,$\mathrm { R } ^ { \circ }$is  -adically complete and flat over$\mathrm { K } ^ { \circ }$; now the previous lemma shows that$\mathrm { R } ^ { \circ a }$is  -adically complete and flat over$\mathrm { K } ^ { \circ a }$.□
+Proof. — By assumption,$\Phi$is surjective. Injectivity is clear: If$x \in \mathrm { R } ^ { \circ }$is such that $x ^ { p } / \varpi$is powerbounded, then$x / \varpi ^ { 1 / p }$is powerbounded. Obviously,$\mathrm { R } ^ { \circ }$is  $\varpi$-adically complete and flat over$\mathrm { K } ^ { \circ }$; now the previous lemma shows that$\mathrm { R } ^ { \circ a }$is  $\varpi$-adically complete and flat over$\mathrm { K } ^ { \circ a }$.□
 
 Lemma 5.6. — Let A be a perfectoid$\mathrm { K } ^ { \circ a }$-algebra, and let$\mathrm { R } = \mathrm { A } _ { * } [ \varpi ^ { - 1 } ]$. Equip R with the Banach K-algebra structure making$\mathrm { A } _ { * }$open and bounded. Then$\mathrm { A } _ { * } = \mathrm { R } ^ { \circ }$is the set ofpower-bounded elements, R is perfectoid, and
 
@@ -980,7 +980,7 @@ $$
 \Phi : \mathrm{A} _ {*} / \varpi^ {1 / p} \cong \mathrm{A} _ {*} / \varpi .
 $$
 
-Proof. — By definition,  is an isomorphism$\mathrm { A } / \varpi ^ { 1 / p } \cong \mathrm { A } / \varpi$, hence$\Phi$is an almost isomorphism$\mathrm { A } _ { * } / \varpi ^ { 1 / p } \to \mathrm { A } _ { * } / \varpi$. It is injective:$\mathrm { I f } x \in \mathrm { A } _ { * }$and$x ^ { p } \in \varpi \mathrm { A } _ { * }$, then for all$\epsilon \in { \mathfrak { m } }$ $\epsilon x \in \varpi ^ { 1 / p } \mathrm { A } _ { * }$by almost injectivity, hence$x \in ( \varpi ^ { 1 / p } \mathrm { A } ) _ { * } = \varpi ^ { 1 / p } \mathrm { A } _ { * }$.
+Proof. — By definition, $\Phi$ is an isomorphism$\mathrm { A } / \varpi ^ { 1 / p } \cong \mathrm { A } / \varpi$, hence$\Phi$is an almost isomorphism$\mathrm { A } _ { * } / \varpi ^ { 1 / p } \to \mathrm { A } _ { * } / \varpi$. It is injective:$\mathrm { I f } x \in \mathrm { A } _ { * }$and$x ^ { p } \in \varpi \mathrm { A } _ { * }$, then for all$\epsilon \in { \mathfrak { m } }$ $\epsilon x \in \varpi ^ { 1 / p } \mathrm { A } _ { * }$by almost injectivity, hence$x \in ( \varpi ^ { 1 / p } \mathrm { A } ) _ { * } = \varpi ^ { 1 / p } \mathrm { A } _ { * }$.
 
 Lemma 5.7. — Assume that$x \in \mathrm { R }$satisfies$x ^ { \flat } \in \mathrm { A } _ { * }$. Then$x \in \mathrm { A } _ { * }$.
 
@@ -988,7 +988,7 @@ Proof. — Injectivity of$\Phi$says that if$y \in \mathrm { A } _ { * }$satisfie
 
 Obviously,$\mathrm { A } _ { * }$consists of power-bounded elements. Now assume that$x \in \mathrm { R }$is power-bounded. Then$\epsilon x$is topologically nilpotent for all$\epsilon \in { \mathfrak { m } }$. In particular,$( \epsilon x ) ^ { p ^ { \mathrm { N } } } \in \mathbf { A } _ { * }$ for N sufficiently large. By the last lemma, this implies$\epsilon x \in \mathrm { A } _ { * }$. This is true for all$\epsilon \in { \mathfrak { m } }$, so that by Lemma 5.3(ii), we have$x \in \mathrm { A } _ { * }$
 
-Next,  is surjective: It is almost surjective, hence it suffices to show that the composition$\mathrm { A } _ { * } / \varpi ^ { 1 / p } \to \mathrm { A } _ { * } / \varpi \to \mathrm { A } _ { * } / \mathfrak { m }$is surjective. Let$x \in \mathrm { A } _ { * }$. By almost surjectivity,$\varpi ^ { 1 / p } x \equiv y ^ { p }$modulo$\varpi \mathrm { A } _ { * } ,$for some$y \in \mathrm { A } _ { * }$. Let$\begin{array} { r } { z = \frac { y } { \varpi ^ { 1 / p ^ { 2 } } } } \end{array}$. This implies$z ^ { p } \equiv x$modulo$\varpi ^ { ( p - 1 ) / p } \mathrm { A } _ { * }$, in particular$z ^ { p } \in \mathrm { A } _ { * }$. By the lemma, also$z \in \mathrm { A } _ { * }$. As$x \equiv z ^ { p }$modulo $\varpi ^ { ( p - 1 ) / p } \mathrm { A } _ { * } ,$in particular modulo$\mathfrak { m } \mathrm { A } _ { * } ,$this gives the desired surjectivity.
+Next, $\Phi$ is surjective: It is almost surjective, hence it suffices to show that the composition$\mathrm { A } _ { * } / \varpi ^ { 1 / p } \to \mathrm { A } _ { * } / \varpi \to \mathrm { A } _ { * } / \mathfrak { m }$is surjective. Let$x \in \mathrm { A } _ { * }$. By almost surjectivity,$\varpi ^ { 1 / p } x \equiv y ^ { p }$modulo$\varpi \mathrm { A } _ { * } ,$for some$y \in \mathrm { A } _ { * }$. Let$\begin{array} { r } { z = \frac { y } { \varpi ^ { 1 / p ^ { 2 } } } } \end{array}$. This implies$z ^ { p } \equiv x$modulo$\varpi ^ { ( p - 1 ) / p } \mathrm { A } _ { * }$, in particular$z ^ { p } \in \mathrm { A } _ { * }$. By the lemma, also$z \in \mathrm { A } _ { * }$. As$x \equiv z ^ { p }$modulo $\varpi ^ { ( p - 1 ) / p } \mathrm { A } _ { * } ,$in particular modulo$\mathfrak { m } \mathrm { A } _ { * } ,$this gives the desired surjectivity.
 
 Finally, we see that R is a Banach K-algebra such that$\mathrm { R } ^ { \circ } = \mathrm { A } _ { * }$is open and bounded, and such that$\Phi$is surjective on$\mathrm { R } ^ { \circ } / \varpi = \mathrm { A } _ { * } / \varpi$. This means that R is perfectoid, as desired.
 
@@ -1004,7 +1004,7 @@ Proposition 5.9. — Let K be of characteristic$p$, and let R be a Banach K-alge
 
 Proof. — Assume R is perfect. Then also$\mathrm { R } ^ { \circ }$is perfect, as an element x is powerbounded if and only if$x ^ { \flat }$is powerbounded. In particular,$\Phi : \mathrm { R } ^ { \circ } / \varpi \to \mathrm { R } ^ { \circ } / \varpi$is surjective.
 
-Now assume that R is perfectoid, hence by Proposition 5.5,  induces an isomorphism$\mathrm { R } ^ { \circ } / \varpi ^ { \frac { 1 } { p } } \cong \mathrm { R } ^ { \circ } / \varpi$. By successive approximation, we see that$\mathrm { R } ^ { \circ }$is perfect, and then that R is perfect.□
+Now assume that R is perfectoid, hence by Proposition 5.5, $\Phi$ induces an isomorphism$\mathrm { R } ^ { \circ } / \varpi ^ { \frac { 1 } { p } } \cong \mathrm { R } ^ { \circ } / \varpi$. By successive approximation, we see that$\mathrm { R } ^ { \circ }$is perfect, and then that R is perfect.□
 
 In order to finish the proof of Theorem 5.2, it suffices to prove the following result.
 
@@ -1034,7 +1034,7 @@ Theorem 5.11 ([23, III.2.1.2.3], [15, Proposition 3.2.9]). — There is an obstr
 
 Here, a deformation comes with the isomorphism$\mathrm { ~ S ~ } \otimes _ { \mathrm { { R } } } \mathrm { ~ R _ { 0 } ~ } \cong \mathrm { ~ S _ { 0 } ~ }$, and isomorphisms of deformations are required to act trivially on$\mathrm { S } \otimes _ { \mathrm { R } } \mathrm { R } _ { \mathrm { 0 } } = \mathrm { S } _ { \mathrm { 0 } }$.
 
-Now assume that one has two flat R-algebras S, S<sup></sup> with reduction$\mathrm { S } _ { 0 } , \mathrm { S } _ { 0 } ^ { \prime }$to$\mathrm { R _ { 0 } }$, and a morphism$f _ { 0 } : \mathrm { S } _ { 0 } \to \mathrm { S } _ { 0 } ^ { \prime }$. We are interested in the obstruction to lifting$f _ { 0 }$to a morphism $f : \mathrm { S } \to \mathrm { S } ^ { \prime }$.
+Now assume that one has two flat R-algebras S, S<sup>′</sup> with reduction$\mathrm { S } _ { 0 } , \mathrm { S } _ { 0 } ^ { \prime }$to$\mathrm { R _ { 0 } }$, and a morphism$f _ { 0 } : \mathrm { S } _ { 0 } \to \mathrm { S } _ { 0 } ^ { \prime }$. We are interested in the obstruction to lifting$f _ { 0 }$to a morphism $f : \mathrm { S } \to \mathrm { S } ^ { \prime }$.
 
 Theorem 5.12 ([23, III.2.2.2], [15, Proposition 3.2.16]). — There is an obstruction class in Ext<sup>1</sup>$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathrm { I } )$which vanishes precisely when there exists an extension of$f _ { 0 }$to$f : \mathrm { S } \to \mathrm { S } ^ { \prime }$ If there exists such a lift, then the set of all lifts forms a torsor under Hom$( \mathbf { L } _ { \mathrm { S } _ { 0 } / \mathrm { R } _ { 0 } } , \mathbf { S } _ { 0 } ^ { \prime } \otimes _ { \mathrm { R } _ { 0 } } \mathbf { I } )$.
 
@@ -1076,7 +1076,7 @@ Remark 5.15. — In fact, the cotangent complex$\mathbf { L } _ { \mathrm { B / 
 
 Corollary 5.16. — Let$\overline { { \mathrm A } }$be a perfectoid K<sup>◦a</sup>/ -algebra. Then$\mathbf { L } _ { \mathrm { \overline { { A } } / ( K ^ { \circ a } / \varpi ) } } ^ { a } \cong 0$.
 
-Proof. — This follows from the almost version of Proposition 5.13, which can be proved in the same way. Alternatively, argue with${ \bf B } = ( \overline { { \mathrm { A } } } \times \mathrm { K } ^ { \circ a } / \varpi ) _ { ! ! }$, which is a flat $\mathrm { K } ^ { \circ } / \varpi$-algebra such that$\mathbf { B } / \varpi ^ { 1 / p } \cong \mathbf { B }$via . Here, we use the functor$\mathrm { C } \mapsto \mathrm { C } _ { ! ! }$from [15], §2.2.25.□
+Proof. — This follows from the almost version of Proposition 5.13, which can be proved in the same way. Alternatively, argue with${ \bf B } = ( \overline { { \mathrm { A } } } \times \mathrm { K } ^ { \circ a } / \varpi ) _ { ! ! }$, which is a flat $\mathrm { K } ^ { \circ } / \varpi$-algebra such that$\mathbf { B } / \varpi ^ { 1 / p } \cong \mathbf { B }$via $\Phi$. Here, we use the functor$\mathrm { C } \mapsto \mathrm { C } _ { ! ! }$from [15], §2.2.25.□
 
 Now we can prove Theorem 5.10.
 
@@ -1100,7 +1100,7 @@ $$
 \overline {{\mathrm{A}}} _ {n} / \varpi^ {n - 1} \cong \overline {{\mathrm{A}}} _ {n - 1}.
 $$
 
-Let A be their inverse limit. Then A is  -adically complete with$\operatorname { A } / \varpi ^ { n } \mathrm { A } = { \overline { { \mathrm { A } } } } _ { n }$. This shows that A is perfectoid, and we get an equivalence between perfectoid$\mathrm { K } ^ { \circ a }$-algebras and perfectoid$\mathrm { K } ^ { \circ a } / \varpi$-algebras, as desired.□
+Let A be their inverse limit. Then A is  $\varpi$-adically complete with$\operatorname { A } / \varpi ^ { n } \mathrm { A } = { \overline { { \mathrm { A } } } } _ { n }$. This shows that A is perfectoid, and we get an equivalence between perfectoid$\mathrm { K } ^ { \circ a }$-algebras and perfectoid$\mathrm { K } ^ { \circ a } / \varpi$-algebras, as desired.□
 
 In particular, we also arrive at the tilting equivalence,$\mathrm { K } \text{-Perf} \cong \mathrm { K } ^ { \flat } \text{-Perf}$. We want to compare this with Fontaine’s construction. Let R be a perfectoid K-algebra, with$\mathrm { A } =$ $\mathrm { R } ^ { \circ a }$. Define
 
@@ -1162,7 +1162,7 @@ $$
 
 Then R is a perfectoid K-algebra, and its tilt$\mathrm { R } ^ { \flat }$is given by$\mathrm { K } ^ { \flat } \langle \mathrm { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } \rangle$.
 
-Proof. — One checks that$\mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } [ \mathbf { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, which is  -adically complete and flat over$\mathrm { K } ^ { \circ }$. Moreover, it reduces to$\mathbf { R } ^ { \circ } / \varpi = \mathbf { K } ^ { \circ } / \varpi [ \mathrm { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, on which Frobenius is surjective. This shows that R is a perfectoid K-algebra.
+Proof. — One checks that$\mathbf { R } ^ { \circ } = \mathbf { K } ^ { \circ } [ \mathbf { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathbf { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, which is  $\varpi$-adically complete and flat over$\mathrm { K } ^ { \circ }$. Moreover, it reduces to$\mathbf { R } ^ { \circ } / \varpi = \mathbf { K } ^ { \circ } / \varpi [ \mathrm { T } _ { 1 } ^ { 1 / p ^ { \infty } } , \ldots , \mathrm { T } _ { n } ^ { 1 / p ^ { \infty } } ]$, on which Frobenius is surjective. This shows that R is a perfectoid K-algebra.
 
 To see that its tilt has the desired form, we only have to check that$\mathrm { R } ^ { \circ } / \varpi =$ $\mathrm { R } ^ { \flat \circ } / \varpi ^ { \flat }$, by the proof of the tilting equivalence. But this is obvious.□
 
@@ -1244,7 +1244,7 @@ ProofofTheorem 3.7. — Let K be a perfectoid field with tilt$\mathrm { K } ^ { 
 
 Proof using ramification theory. — Proposition 6.6.2 (cf. its proof) and Proposition 6.6.6 of[15] show that for any finite extension L ofK, the extension$\mathrm { L } ^ { \circ a } / \mathrm { K } ^ { \circ a }$is étale. Moreover, it is finite projective by Proposition 6.3.6 of [15], giving the desired result.
 
-Proof reducing to the case where$\mathrm { K } ^ { \flat }$is algebraically closed. — Let$\mathrm { M } = \overline { { \mathrm { K } ^ { \flat } } }$be the completion of an algebraic closure of$\mathrm { K } ^ { \flat }$. Clearly, M is complete and perfect, i.e. M is perfectoid. Let M<sup></sup> be the untilt of M. Then by Lemma 5.21 and Proposition 3.8,$\mathbf { M } ^ { \sharp }$is an algebraically closed perfectoid field containing K. Any finite extension L ⊂$\overline { \mathrm { M } }$of$\mathrm { K } ^ { \flat }$gives the untilt$\mathrm { L } ^ { \sharp } \subset \mathrm { M } ^ { \sharp }$, a finite extension of K. It is easy to see that the union$\mathrm { N } = \bigcup _ { \mathrm { L } } \mathrm { L } ^ { \sharp } \subset \overline { \mathrm { M } } ^ { \sharp }$is a dense subfield. Now Krasner’s lemma implies that N is algebraically closed. Hence any finite extension F of K is contained in N; this means that there is some Galois extension L of$\mathrm { K } ^ { \flat }$ such that F is contained in L<sup></sup>. Note that L<sup></sup> is still Galois, as the functor$\mathrm { L } \mapsto \mathrm { L } ^ { \sharp }$ preserves degrees and automorphisms. In particular, F is given by some subgroup H of $\mathrm { G a l ( L ^ { \sharp } / K ) = G a l ( L / K ^ { \flat } ) }$, which gives the desired finite extension$\mathrm { F } ^ { \flat } = \mathrm { L } ^ { \mathrm { H } }$of$\mathrm { K } ^ { \flat }$that untilts to F: The equivalence of categories shows that$( { \mathrm { F } } ^ { \flat } ) ^ { \sharp } \subset ( { \mathrm { L } } ^ { \sharp } ) ^ { \mathrm { H } } = { \mathrm { F } }$, and as they have the same degree, they are equal.□
+Proof reducing to the case where$\mathrm { K } ^ { \flat }$is algebraically closed. — Let$\mathrm { M } = \overline { { \mathrm { K } ^ { \flat } } }$be the completion of an algebraic closure of$\mathrm { K } ^ { \flat }$. Clearly, M is complete and perfect, i.e. M is perfectoid. Let M<sup>♯</sup> be the untilt of M. Then by Lemma 5.21 and Proposition 3.8,$\mathbf { M } ^ { \sharp }$is an algebraically closed perfectoid field containing K. Any finite extension L ⊂$\overline { \mathrm { M } }$of$\mathrm { K } ^ { \flat }$gives the untilt$\mathrm { L } ^ { \sharp } \subset \mathrm { M } ^ { \sharp }$, a finite extension of K. It is easy to see that the union$\mathrm { N } = \bigcup _ { \mathrm { L } } \mathrm { L } ^ { \sharp } \subset \overline { \mathrm { M } } ^ { \sharp }$is a dense subfield. Now Krasner’s lemma implies that N is algebraically closed. Hence any finite extension F of K is contained in N; this means that there is some Galois extension L of$\mathrm { K } ^ { \flat }$ such that F is contained in L<sup>♯</sup>. Note that L<sup>♯</sup> is still Galois, as the functor$\mathrm { L } \mapsto \mathrm { L } ^ { \sharp }$ preserves degrees and automorphisms. In particular, F is given by some subgroup H of $\mathrm { G a l ( L ^ { \sharp } / K ) = G a l ( L / K ^ { \flat } ) }$, which gives the desired finite extension$\mathrm { F } ^ { \flat } = \mathrm { L } ^ { \mathrm { H } }$of$\mathrm { K } ^ { \flat }$that untilts to F: The equivalence of categories shows that$( { \mathrm { F } } ^ { \flat } ) ^ { \sharp } \subset ( { \mathrm { L } } ^ { \sharp } ) ^ { \mathrm { H } } = { \mathrm { F } }$, and as they have the same degree, they are equal.□
 
 ## 6. Perfectoid spaces: analytic topology
 
@@ -1284,7 +1284,7 @@ We have the following description of$\mathcal { O } _ { \mathrm { X } }$.
 
 Lemma 6.4. — Let$\operatorname { U } = \operatorname { U } ( { \textstyle \frac { f _ { 1 } , \dots , f _ { n } } { \varpi } } ) \subset \operatorname { S p a } ( \mathbf { R } ^ { \flat } , \mathbf { R } ^ { \flat + } )$be rational, with preimage$\mathrm { U } ^ { \sharp } \subset$ $\mathrm { S p a } ( \mathrm { R } , \mathrm { R } ^ { + } )$. Assume that all$f _ { i } , g \in \mathrm { R } ^ { \flat \circ }$and that$f _ { n } = \varpi ^ { \flat \mathrm { N } }$for some$\mathrm { N } ;$this is always possible without changing the rational subspace.
 
-(i) Consider the  -adic completion
+(i) Consider the $\varpi$-adic completion
 
 $$
 \mathrm{R} ^ {\circ} \left\langle \left(\frac {f _ {1} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}}, \dots , \left(\frac {f _ {n} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}} \right\rangle
@@ -1312,7 +1312,7 @@ $$
 \mathrm{R} ^ {\circ} \left\langle \left(\frac {f _ {1}}{g}\right) ^ {1 / p ^ {\infty}}, \dots , \left(\frac {f _ {n}}{g}\right) ^ {1 / p ^ {\infty}} \right\rangle
 $$
 
-is flat over$\mathrm { K } ^ { \circ }$and -adically complete.
+is flat over$\mathrm { K } ^ { \circ }$and $\varpi$-adically complete.
 
 We want to show that modulo$\varpi$, Frobenius is almost surjective with kernel almost generated by$\varpi ^ { 1 / p }$. We have a surjection
 
@@ -1362,7 +1362,7 @@ $$
 
 Indeed,$\begin{array} { r } { \frac { 1 } { g ^ { \sharp } } = \varpi ^ { - n \mathrm { N } } \frac { f _ { n } ^ { \sharp } } { g ^ { \sharp } } } \end{array}$, and any element on the left-hand side can be written as a sum of terms on the right-hand side with coefficients in$\scriptstyle { \frac { 1 } { ( g ^ { \sharp } ) ^ { n } } } \mathbf { R } ^ { \circ }$.
 
-Now we may pass to the  -adic completion and get inclusions
+Now we may pass to the $\varpi$-adic completion and get inclusions
 
 $$
 \mathrm{R} ^ {\circ} \left\{ \frac {f _ {1} ^ {\sharp}}{g ^ {\sharp}}, \dots , \frac {f _ {n} ^ {\sharp}}{g ^ {\sharp}} \right\} \subset \mathrm{R} ^ {\circ} \left\langle \left(\frac {f _ {1} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}}, \dots , \left(\frac {f _ {n} ^ {\sharp}}{g ^ {\sharp}}\right) ^ {1 / p ^ {\infty}} \right\rangle
@@ -1476,7 +1476,7 @@ $$
 \mathcal {O} _ {\mathrm{X}} \big (\mathrm{U} _ {c} ^ {\sharp} \big) ^ {\circ a} = \mathrm{R} ^ {\circ} \Bigg \langle \left(\frac {g _ {c} ^ {\sharp}}{\varpi^ {c}}\right) ^ {\frac {1}{p ^ {\infty}}} \Bigg \rangle^ {a}.
 $$
 
-But h is a homogeneous element, so that h lies almost in the  -adic completion of
+But h is a homogeneous element, so that h lies almost in the $\varpi$-adic completion of
 
 $$
 \bigoplus_ {i \in \mathbf {Z} [ \frac {1}{p} ], 0 \leq i \leq 1} \varpi^ {c + 1 - \epsilon + \epsilon (c)} \left(\frac {g _ {c} ^ {\sharp}}{\varpi^ {c}}\right) ^ {i} \mathrm{R} _ {\deg = d - d i} ^ {\circ}.
@@ -1554,7 +1554,7 @@ $$
 
 sending$\mathrm { T } _ { i } ^ { 1 / p ^ { \infty } }$to$( g _ { i } ^ { 1 / p ^ { \infty } } ) ^ { \sharp }$, and f is the image of$\mathrm { T } _ { 0 } + \varpi \mathrm { T } _ { 1 } + \cdot \cdot \cdot + \varpi ^ { c } \mathrm { T } _ { c } ,$to which we may apply Lemma 6.5.
 
-(ii) (K of characteristic$p )$. In this case, we know that$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a }$is perfectoid for any rational subset U. It follows that the  -adic completion of$\mathcal { O } _ { \mathrm { X } , x } ^ { { o a } }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra, hence$\widehat { k ( x ) }$is a perfectoid K-algebra. As it is also a nonarchimedean field, the result follows.
+(ii) (K of characteristic$p )$. In this case, we know that$\mathcal { O } _ { \mathrm { X } } ( \mathrm { U } ) ^ { \circ a }$is perfectoid for any rational subset U. It follows that the $\varpi$-adic completion of$\mathcal { O } _ { \mathrm { X } , x } ^ { { o a } }$is a perfectoid$\mathrm { K } ^ { \circ a }$-algebra, hence$\widehat { k ( x ) }$is a perfectoid K-algebra. As it is also a nonarchimedean field, the result follows.
 
 (iii) First, part (i) immediately implies that any rational subset of X is the preimage of a rational subset of$\mathrm { X } ^ { \flat }$. Because X is$\mathrm { T _ { 0 } }$, this implies that the map is injective. Now any $x \in \mathrm { X } ^ { \flat }$factors as a composite$\mathbb { R } ^ { \flat } \to { \widehat { k ( x ) } } \to \Gamma \cup \{ 0 \} . \mathbb { A } \operatorname { s } { \widehat { k ( x ) } }$is perfectoid, we may untilt to a perfectoid field over$\mathrm { K } ,$, and we may also untilt the valuation by Proposition 3.6. This shows that the map is surjective, giving part (iii). Now part (ii) follows in general with the same proof.-
 
@@ -1568,7 +1568,7 @@ At this point, we have proved parts (i) and (ii) of Theorem 6.3.
 
 To prove the sheaf properties, we start in characteristic$p$, with a certain class of perfectoid rings which are particularly easy to access.
 
-Definition 6.9. — Assume K is of characteristic$p$. Then a perfectoid affinoid K-algebra $( \mathrm { R } , \mathrm { R } ^ { + } )$is said to be p-finite if there exists a reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type such that$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection of$( \mathrm { S } , \mathrm { S } ^ { + } )$, i.e.$\mathrm { R } ^ { + }$is the  -adic completion of$\varprojlim _ { \Phi } \mathrm { S } ^ { + }$and$\mathbf { R } = \mathbf { R } ^ { + } [ \varpi ^ { - 1 } ]$.
+Definition 6.9. — Assume K is of characteristic$p$. Then a perfectoid affinoid K-algebra $( \mathrm { R } , \mathrm { R } ^ { + } )$is said to be p-finite if there exists a reduced affinoid K-algebra$( \mathrm { S } , \mathrm { S } ^ { + } )$of topologically finite type such that$( \mathrm { R } , \mathrm { R } ^ { + } )$is the completed perfection of$( \mathrm { S } , \mathrm { S } ^ { + } )$, i.e.$\mathrm { R } ^ { + }$is the $\varpi$-adic completion of$\varprojlim _ { \Phi } \mathrm { S } ^ { + }$and$\mathbf { R } = \mathbf { R } ^ { + } [ \varpi ^ { - 1 } ]$.
 
 At this point, let us recall some facts about reduced affinoid K-algebras of topologically finite type.
 
@@ -1654,7 +1654,7 @@ $$
 
 is exact. In particular,$\mathcal { O } _ { \mathrm { X } }$is a sheaf, and$\mathrm { H } ^ { i } ( \mathrm { X } , { \mathcal { O } } _ { \mathrm { X } } ^ { \circ a } ) = 0$ for$i > 0$.
 
-Proof. — Assume first that K has characteristic p. We may replace K by a perfectoid subfield, such as the -adic completion of$\mathbf { F } _ { p } ( ( \varpi ) ) ( \varpi ^ { 1 / p ^ { \infty } } )$; this ensures that for any perfectoid affinoid K-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, the ring$\mathrm { R } ^ { + }$is a$\mathrm { K ^ { \circ } - a l g e b r a }$. We note that the meaning of ’almost zero’ does not change under this substitution, as the maximal ideals are compatible. Then use Lemma 6.13 to write${ \mathrm { X } } = { \mathrm { S p a } } ( \mathrm { R } , \mathrm { R } ^ { + } ) \cong \varprojlim { \mathrm { X } } _ { i } = { \mathrm { S p a } } ( \mathrm { R } _ { i } , \mathrm { R } _ { i } ^ { + } )$ as an inverse limit, with$( \mathbf { R } _ { i } , \mathbf { R } _ { i } ^ { + } )$p-finite. Any rational subspace comes from a finite level, and a cover by finitely many rational subspaces is the pullback of a cover by finitely many rational subspaces on a finite level. Hence the almost exactness of the sequence follows by taking the completion of the direct limit of the corresponding statement for$\mathrm { X } _ { i } ,$which is given by Proposition 6.11. The rest follows as before.
+Proof. — Assume first that K has characteristic p. We may replace K by a perfectoid subfield, such as the $\varpi$-adic completion of$\mathbf { F } _ { p } ( ( \varpi ) ) ( \varpi ^ { 1 / p ^ { \infty } } )$; this ensures that for any perfectoid affinoid K-algebra$( \mathrm { R } , \mathrm { R } ^ { + } )$, the ring$\mathrm { R } ^ { + }$is a$\mathrm { K ^ { \circ } - a l g e b r a }$. We note that the meaning of ’almost zero’ does not change under this substitution, as the maximal ideals are compatible. Then use Lemma 6.13 to write${ \mathrm { X } } = { \mathrm { S p a } } ( \mathrm { R } , \mathrm { R } ^ { + } ) \cong \varprojlim { \mathrm { X } } _ { i } = { \mathrm { S p a } } ( \mathrm { R } _ { i } , \mathrm { R } _ { i } ^ { + } )$ as an inverse limit, with$( \mathbf { R } _ { i } , \mathbf { R } _ { i } ^ { + } )$p-finite. Any rational subspace comes from a finite level, and a cover by finitely many rational subspaces is the pullback of a cover by finitely many rational subspaces on a finite level. Hence the almost exactness of the sequence follows by taking the completion of the direct limit of the corresponding statement for$\mathrm { X } _ { i } ,$which is given by Proposition 6.11. The rest follows as before.
 
 In characteristic 0, first use the exactness of the tilted sequence, then reduce modulo$\varpi ^ { \flat }$(which is still exact by flatness), and then remark that this is just the original sequence reduced modulo$\varpi$. As this is exact, the original sequence is exact, by flatness and completeness. Again, we also get the other statements.□
 
@@ -1748,7 +1748,7 @@ Proposition 7.4. — Let A be a flat$\mathrm { K } ^ { \circ }$-algebra such tha
 
 Proof. — See e.g. [15], Proposition 5.4.53.□
 
-We recall that  -adically complete algebras A are Henselian along (), and that if$\mathbf { A } _ { i }$is a direct system of$\mathrm { K } ^ { \circ }$-algebras Henselian along (), then so is the direct limit$\varinjlim \mathbf { A } _ { i }$. In particular, we get the following lemma.
+We recall that  $\varpi$-adically complete algebras A are Henselian along (), and that if$\mathbf { A } _ { i }$is a direct system of$\mathrm { K } ^ { \circ }$-algebras Henselian along (), then so is the direct limit$\varinjlim \mathbf { A } _ { i }$. In particular, we get the following lemma.
 
 Lemma 7.5.
 
@@ -1854,19 +1854,19 @@ Proof. — The same proof as for Lemma 7.3 works, using Theorem 7.9(iii).□
 
 Finally, we can define the étale site of a perfectoid space.
 
-Definition 7.11. — Let X be a perfectoid space. Then the étale site of X is the category$\mathrm { X } _ { \mathrm { e t } }$of perfectoid spaces which are étale over$\mathrm { X } ,$and coverings are given by topological coverings. The associated topos is denoted$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$.
+Definition 7.11. — Let X be a perfectoid space. Then the étale site of X is the category$\mathrm { X } _ { \acute { \mathrm { e t } } }$of perfectoid spaces which are étale over$\mathrm { X } ,$and coverings are given by topological coverings. The associated topos is denoted$\mathrm { X } _ { \acute { \mathrm { e t } } } ^ { \sim }$.
 
-The previous results show that all conditions on a site are satisfied, and that a morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$. Also, a morphism$f : \mathrm { X } \to \mathrm { Y }$from a perfectoid space X to a locally noetherian adic space Y induces a morphism of sites$\mathrm { X } _ { \mathrm { e t } } \to \mathrm { Y } _ { \mathrm { e t } }$.
+The previous results show that all conditions on a site are satisfied, and that a morphism$f : \mathrm { X } \to \mathrm { Y }$of perfectoid spaces induces a morphism of sites$\mathrm { X } _ { \acute { \mathrm { e t } } } \to \mathrm { Y } _ { \acute { \mathrm { e t } } }$. Also, a morphism$f : \mathrm { X } \to \mathrm { Y }$from a perfectoid space X to a locally noetherian adic space Y induces a morphism of sites$\mathrm { X } _ { \acute { \mathrm { e t } } } \to \mathrm { Y } _ { \acute { \mathrm { e t } } }$.
 
 After these preparations, we get the technical main result.
 
-Theorem 7.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then the tilting operation induces an isomorphism of sites$\mathrm { X } _ { \mathrm { e t } } \cong \mathrm { X } _ { \mathrm { e t } } ^ { \flat }$. This isomorphism is functorial in X.
+Theorem 7.12. — Let X be a perfectoid space over K with tilt$\mathrm { X } ^ { \flat }$over$\mathrm { K } ^ { \flat }$. Then the tilting operation induces an isomorphism of sites$\mathrm { X } _ { \acute { \mathrm { e t } } } \cong \mathrm { X } _ { \acute { \mathrm { e t } } } ^ { \flat }$. This isomorphism is functorial in X.
 
 Proof. — This is immediate.□
 
 The almost vanishing of cohomology proved in Proposition 6.14 extends to the étale topology.
 
-Proposition 7.13. — For any perfectoid space X over K, the sheaf$\mathrm { U } \mapsto { \mathcal { O } } _ { \mathrm { U } } ( \mathrm { U } )$is a sheaf $\mathcal { O } _ { \mathrm { X } }$on$\mathrm { X } _ { \mathrm { e t } }$, and$\mathrm { H } ^ { i } ( \mathrm { X } _ { \mathrm { e t } } , \mathcal { O } _ { \mathrm { X } } ^ { \circ a } ) = 0$ for$i > 0$if X is affinoid perfectoid.
+Proposition 7.13. — For any perfectoid space X over K, the sheaf$\mathrm { U } \mapsto { \mathcal { O } } _ { \mathrm { U } } ( \mathrm { U } )$is a sheaf $\mathcal { O } _ { \mathrm { X } }$on$\mathrm { X } _ { \acute { \mathrm { e t } } }$, and$\mathrm { H } ^ { i } ( \mathrm { X } _ { \acute { \mathrm { e t } } } , \mathcal { O } _ { \mathrm { X } } ^ { \circ a } ) = 0$ for$i > 0$if X is affinoid perfectoid.
 
 Proof. — It suffices to check exactness of
 
@@ -1896,13 +1896,13 @@ Proof. — The same proof as for Remark 2.4.3 of [22] works. In particular, we n
 
 With this definition, we have the following analogue of Proposition 2.4.4 of [22]. We refer to SGA IV, Exposé VI, §8, for generalities concerning projective limits of fibred topoi.
 
-Theorem 7.17. — Let the situation be as in Definition 7.14. Then$\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is a projective limit of the fibred topos$( \mathrm { X } _ { i , \mathrm { e t } } ^ { \sim } ) _ { i }$.
+Theorem 7.17. — Let the situation be as in Definition 7.14. Then$\mathrm { X } _ { \acute { \mathrm { e t } } } ^ { \sim }$is a projective limit of the fibred topos$( \mathrm { X } _ { i , \acute { \mathrm { e t } } } ^ { \sim } ) _ { i }$.
 
 Proof. — The same proof as for Proposition 2.4.4 of [22] works, except that one uses that any étale morphism factors locally as the composite of an open immersion and a finite étale map instead of appealing to Corollary 1.7.3 of [22] on the top of page 128. The latter kind of morphisms can be descended to a finite level because of Lemma 7.5.□
 
 As in [22], Corollary 2.4.6, this gives the following corollary.
 
-Corollary 7.18. — Let the situation be as in Definition 7.14, and let$\mathrm { F } _ { i }$be a sheaf of abelian groups on$\mathbf { X } _ { i , \mathrm { e t } }$, with preimages$\mathrm { F } _ { j }$on$\mathrm { X } _ { j , \mathrm { e t } }$for$j \ge i$and F on$\mathrm { X } _ { \mathrm { e t } }$. Then the natural mapping
+Corollary 7.18. — Let the situation be as in Definition 7.14, and let$\mathrm { F } _ { i }$be a sheaf of abelian groups on$\mathbf { X } _ { i , \acute { \mathrm { e t } } }$, with preimages$\mathrm { F } _ { j }$on$\mathrm { X } _ { j , \acute { \mathrm { e t } } }$for$j \ge i$and F on$\mathrm { X } _ { \acute { \mathrm { e t } } }$. Then the natural mapping
 
 $$
 \varinjlim \mathrm{H} ^ {n} (\mathrm{X} _ {j, \text { ét }}, \mathrm{F} _ {j}) \rightarrow \mathrm{H} ^ {n} (\mathrm{X} _ {\text { ét }}, \mathrm{F})
@@ -1912,7 +1912,7 @@ is bijective for all$n \geq 0$.□
 
 In some cases, one can even say more.
 
-Corollary 7.19. — Assume that in the situation of Definition 7.14 all transition maps$\mathrm { X } _ { j } \to \mathrm { X } _ { i }$ induce purely inseparable extensions on completed residue fields and homeomorphisms$| \mathrm { X } _ { j } | \to | \mathrm { X } _ { i } |$. Then $\mathrm { X } _ { \mathrm { e t } } ^ { \sim }$is equivalent to$\mathrm { X } _ { i , \mathrm { e t } } ^ { \sim }$for any i.
+Corollary 7.19. — Assume that in the situation of Definition 7.14 all transition maps$\mathrm { X } _ { j } \to \mathrm { X } _ { i }$ induce purely inseparable extensions on completed residue fields and homeomorphisms$| \mathrm { X } _ { j } | \to | \mathrm { X } _ { i } |$. Then $\mathrm { X } _ { \acute { \mathrm { e t } } } ^ { \sim }$is equivalent to$\mathrm { X } _ { i , \acute { \mathrm { e t } } } ^ { \sim }$for any i.
 
 Proof. — Use the remark after Proposition 2.3.7 of [22].□
 
@@ -1936,41 +1936,41 @@ $$
 \mathrm{U} _ {\sigma} = \operatorname{Spec} k \left[ \sigma^ {\vee} \cap \mathrm{M} \right].
 $$
 
-We denote the function on$\mathrm { U } _ { \sigma }$corresponding to$u \in \sigma ^ { \vee } \cap \mathbf { M }$by$\chi ^ { u }$. If τ is a face of$\sigma$, then$\sigma ^ { \vee } \subset \tau ^ { \vee }$, inducing an open immersion$\mathrm { U } _ { \tau } \to \mathrm { U } _ { \sigma }$. These maps allow us to glue a variety$\mathrm { X } _ { \Sigma }$associated to any fan . Note that$\mathrm { T } = \mathrm { U } _ { \{ 0 \} } = \mathrm { S p e c } k [ \mathrm { M } ]$is a torus, which acts on$\mathrm { X } _ { \Sigma }$with open dense orbit$\mathrm { U } _ { \{ 0 \} } \subset \mathrm { X } _ { \Sigma }$. Also T has the base point$1 \in \mathrm { T }$, giving a point$x \in \mathrm { X } ( k )$, making$\mathrm { X } _ { \Sigma }$a toric variety. Let us recall the classification of toric varieties.
+We denote the function on$\mathrm { U } _ { \sigma }$corresponding to$u \in \sigma ^ { \vee } \cap \mathbf { M }$by$\chi ^ { u }$. If τ is a face of$\sigma$, then$\sigma ^ { \vee } \subset \tau ^ { \vee }$, inducing an open immersion$\mathrm { U } _ { \tau } \to \mathrm { U } _ { \sigma }$. These maps allow us to glue a variety$\mathrm { X } _ { \Sigma }$associated to any fan $\Sigma$. Note that$\mathrm { T } = \mathrm { U } _ { \{ 0 \} } = \mathrm { S p e c } k [ \mathrm { M } ]$is a torus, which acts on$\mathrm { X } _ { \Sigma }$with open dense orbit$\mathrm { U } _ { \{ 0 \} } \subset \mathrm { X } _ { \Sigma }$. Also T has the base point$1 \in \mathrm { T }$, giving a point$x \in \mathrm { X } ( k )$, making$\mathrm { X } _ { \Sigma }$a toric variety. Let us recall the classification of toric varieties.
 
-Theorem 8.3. — Any toric variety over$k$is canonically isomorphic to$\mathrm { X } _ { \Sigma } f o r$a uniquefan  in$\mathbf { X } _ { \ast } ( \mathrm { T } ) \otimes \mathbf { R }$
+Theorem 8.3. — Any toric variety over$k$is canonically isomorphic to$\mathrm { X } _ { \Sigma } for a unique fan $\Sigma$ in$\mathbf { X } _ { \ast } ( \mathrm { T } ) \otimes \mathbf { R }$.
 
 We also need to recall some statements about divisors on toric varieties.
 
-Definition/Proposition$8 . 4 . \mathrm { ~ - ~ } L e t \left\{ \tau _ { i } \right\} \subset \Sigma$be the 1-dimensional cones, andfix a generator $\begin{array} { r } { v _ { i } \in \tau _ { i } \cap \mathrm { N } \varrho f \tau _ { i } \cap \mathrm { N } . } \end{array}$. Each τ gives rise to$\mathbf { U } _ { \tau _ { i } } \cong \mathbf { A } ^ { 1 } \times \mathbf { G } _ { m } ^ { k - 1 }$, giving rise to a T-invariant Weil divisor $\mathrm { D } _ { i } = \mathrm { D } ( \tau _ { i } )$on$\mathrm { X } _ { \Sigma } .$, defined as the closure${ \bf { \Lambda } } _ { o f } \{ 0 \} \times { \bf { G } } _ { m } ^ { k - 1 }$
+Definition/Proposition 8.4. — Let $\{\tau_i\} \subset \Sigma$ be the 1-dimensional cones, and fix a generator $v_i \in \tau_i \cap \mathrm { N }$ of $\tau_i \cap \mathrm { N }$. Each $\tau_i$ gives rise to$\mathbf { U } _ { \tau _ { i } } \cong \mathbf { A } ^ { 1 } \times \mathbf { G } _ { m } ^ { k - 1 }$, giving rise to a T-invariant Weil divisor $\mathrm { D } _ { i } = \mathrm { D } ( \tau _ { i } )$ on $\mathrm { X } _ { \Sigma }$, defined as the closure of $\{0\} \times \mathbf { G } _ { m } ^ { k - 1 }$.
 
-A T-Weil divisor is by definition an element${ \mathfrak { o f } } \bigoplus _ { i } \mathbf { Z } \mathbf { D } _ { i }$. Every Weil divisor is equivalent to a T-Weil divisor.$\begin{array} { r } { I f \mathrm { D } = \sum a _ { i } \mathrm { D } _ { i } } \end{array}$is a T-Weil divisor, then
+A T-Weil divisor is by definition an element of $\bigoplus_i \mathbf { Z } \mathbf { D } _ { i }$. Every Weil divisor is equivalent to a T-Weil divisor. If $\mathbf { D } = \sum a _ { i } \mathbf { D } _ { i }$ is a T-Weil divisor, then
 
 $$
 \mathrm{H}^{0}\bigl (\mathrm{X}_{\Sigma},\mathcal{O}(\mathrm{D})\bigr) = \bigoplus_{\substack{u\in \mathrm{M}\\ \langle u,v_{i}\rangle \geq -a_{i}}}k\chi^{u}.
 $$
 
-Now we adapt these definitions to the world of usual adic spaces, and to the world of perfectoid spaces. Assume first that$k$is a complete nonarchimedean field, and let$\Sigma$ be a fan as above. Then we can associate to  the adic space$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$of finite type over$k$ which is glued out of
+Now we adapt these definitions to the world of usual adic spaces, and to the world of perfectoid spaces. Assume first that$k$is a complete nonarchimedean field, and let$\Sigma$ be a fan as above. Then we can associate to $\Sigma$ the adic space$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$of finite type over$k$ which is glued out of
 
 $$
 \mathcal {U} _ {\sigma} ^ {\mathrm{ad}} = \operatorname{Spa} \bigl (k \bigl \langle \sigma^ {\vee} \cap \mathrm{M} \bigr \rangle , k ^ {\circ} \bigl \langle \sigma^ {\vee} \cap \mathrm{M} \bigr \rangle \bigr).
 $$
 
-We note that this is not in general the adic space$\mathrm { X } _ { \Sigma } ^ { \mathrm { a d } }$over k associated to the variety$\mathrm { X } _ { \Sigma }$: For example, if$\mathrm { X } _ { \Sigma }$is just affine space, then$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$will be a closed unit ball. In general, let $\mathrm { X } _ { \Sigma , k ^ { \circ } }$be the toric scheme over$k ^ { \circ }$associated to . Let$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } }$be the formal completion of $\mathrm { X } _ { \Sigma , k ^ { \circ } }$along its special fibre, which is an admissible formal scheme over$k ^ { \circ }$. Then$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$is the generic fibre$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } } ^ { \mathrm { a d } }$associated to$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } }$. In particular, if$\mathrm { \Delta X _ { \Sigma } }$is proper, then$\mathrm { X } _ { \Sigma } ^ { \mathrm { a d } } = \mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$
+We note that this is not in general the adic space$\mathrm { X } _ { \Sigma } ^ { \mathrm { a d } }$over k associated to the variety$\mathrm { X } _ { \Sigma }$: For example, if$\mathrm { X } _ { \Sigma }$is just affine space, then$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$will be a closed unit ball. In general, let $\mathrm { X } _ { \Sigma , k ^ { \circ } }$be the toric scheme over $k ^ { \circ }$ associated to $\Sigma$. Let$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } }$be the formal completion of $\mathrm { X } _ { \Sigma , k ^ { \circ } }$along its special fibre, which is an admissible formal scheme over$k ^ { \circ }$. Then$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$is the generic fibre$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } } ^ { \mathrm { a d } }$associated to$\hat { \mathrm { X } } _ { \Sigma , k ^ { \circ } }$. In particular, if $\mathrm { X } _ { \Sigma }$ is proper, then $\mathrm { X } _ { \Sigma } ^ { \mathrm { a d } } = \mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$.
 
-Similarly, if K is a perfectoid field, we can associate a perfectoid space$\mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } }$over K to$\Sigma _ { i }$, which is glued out of
+Similarly, if $K$ is a perfectoid field, we can associate a perfectoid space $\mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } }$ over $K$ to $\Sigma$, which is glued out of
 
 $$
 \mathcal {U} _ {\sigma} ^ {\text { perf }} = \operatorname{Spa} \left(\mathrm{K} \left\langle \sigma^ {\vee} \cap \mathrm{M} [ p ^ {- 1} ] \right\rangle , \mathrm{K} ^ {\circ} \left\langle \sigma^ {\vee} \cap \mathrm{M} [ p ^ {- 1} ] \right\rangle\right).
 $$
 
-Note that on$\mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } } :$, we have a sheaf$\mathcal { O } ( \mathrm { D } )$for any$\mathbf { D } \in \oplus \mathbf { Z } [ \boldsymbol { p } ^ { - 1 } ] \mathbf { D } _ { i }$. Moreover, $\mathrm { H } ^ { \mathrm { 0 } } ( \mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } } , \mathcal { O } ( \mathrm { D } ) )$is the free Banach-K-vector space with basis given by$\{ \chi ^ { u } \}$, where u ranges over$u \in \mathbf { M } [ \boldsymbol { \phi } ^ { - 1 } ]$with$\left. u , v _ { i } \right. \geq - a _ { i }$
+Note that on$\mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } } :$, we have a sheaf$\mathcal { O } ( \mathrm { D } )$for any$\mathbf { D } \in \oplus \mathbf { Z } [ \boldsymbol { p } ^ { - 1 } ] \mathbf { D } _ { i }$. Moreover, $\mathrm { H } ^ { \mathrm { 0 } } ( \mathcal { X } _ { \Sigma } ^ { \mathrm { p e r f } } , \mathcal { O } ( \mathrm { D } ) )$is the free Banach-K-vector space with basis given by$\{ \chi ^ { u } \}$, where $u$ ranges over $u \in \mathbf { M } [ p ^ { - 1 } ]$ with $\langle u, v _ { i } \rangle \geq - a _ { i }$.
 
 We have the following comparison statements. Note that any toric variety$\mathrm { X } _ { \Sigma }$ comes with a map$\varphi : { \mathrm { X } } _ { \Sigma } \to { \mathrm { X } } _ { \Sigma }$induced from multiplication by$\boldsymbol { p }$on$\operatorname { M } ;$the same applies to$\mathcal { X } _ { \Sigma } ^ { \mathrm { a d } }$, etc. For clarity, we use subscripts to denote the field over which we consider the toric variety.
 
-Theorem 8.5. — Let K be a perfectoidfield with tilt$\mathrm { K } ^ { \flat }$.
+Theorem 8.5. — Let $K$ be a perfectoid field with tilt $\mathrm { K } ^ { \flat }$.
 
-(i) The perfectoid space$\mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { p e r f } }$tilts to$\mathcal { X } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { p e r f } }$
+(i) The perfectoid space $\mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { p e r f } }$ tilts to $\mathcal { X } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { p e r f } }$.
 
 (ii) The perfectoid space$\mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { p e r f } }$can be written as
 
@@ -1990,46 +1990,46 @@ $$
 \bigl (\mathcal {X} _ {\Sigma , \mathrm{K} ^ {\flat}} ^ {\mathrm{ad}} \bigr) _ {\acute {\mathrm{et}}} ^ {\sim} \cong \varprojlim_ {\varphi} \bigl (\mathcal {X} _ {\Sigma , \mathrm{K}} ^ {\mathrm{ad}} \bigr) _ {\acute {\mathrm{et}}} ^ {\sim}.
 $$
 
-(v) For any open subset$\mathrm { ~ U ~ C ~ } \mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { a d } }$with preimage$\mathrm { { V } } \subset { \mathcal { X } } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { { a d } } }$, we have a morphism ofétale topoi$\mathrm { V } _ { \mathrm { e t } } ^ { \sim }  \mathrm { U } _ { \mathrm { e t } } ^ { \sim }$, giving a commutative diagram
+(v) For any open subset$\mathrm { U } \subset \mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { a d } }$with preimage$\tilde { \mathrm { V } } \subset { \mathcal { X } } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { { a d } } }$, we have a morphism ofétale topoi$\tilde { \mathrm { V } } _ { \acute { \mathrm { e t } } } \to \tilde { \mathrm { U } } _ { \acute { \mathrm { e t } } }$, giving a commutative diagram
 
 ![](images/page_60_image_7.jpg)
 
-Proof. — This is an immediate consequence of our previous results: Part (i) can be checked on affinoid pieces, where it is an immediate generalization of Proposition 5.20. Part (ii) can be checked one affinoid pieces again, where it is easy. Then parts (iii) and (iv) follow from Theorem 7.17, Corollary 7.19 and the preservation oftopological spaces and étale topoi under tilting. Finally, part (v) follows from Proposition 7.16, using the previous arguments.-
+Proof. — This is an immediate consequence of our previous results: Part (i) can be checked on affinoid pieces, where it is an immediate generalization of Proposition 5.20. Part (ii) can be checked one affinoid pieces again, where it is easy. Then parts (iii) and (iv) follow from Theorem 7.17, Corollary 7.19 and the preservation oftopological spaces and étale topoi under tilting. Finally, part (v) follows from Proposition 7.16, using the previous arguments.□
 
 Let us denote by$\pi : \mathcal { X } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { a d } } \to \mathcal { X } _ { \Sigma , \mathrm { K } } ^ { \mathrm { a d } }$the projection, which exists on topological spaces and étale topoi. In the following, we restrict to proper smooth toric varieties for simplicity.
 
-Proposition 8.6. — Let$\mathrm { X } _ { \Sigma }$be a proper smooth toric variety. Let$\ell \neq p$be prime. Assume that K, and hence K<sup>-</sup>, is algebraically closed. Then for all$i \in \mathbf { Z } _ { \cdot }$, the projection map π induces an isomorphism
+Proposition 8.6. — Let$\mathrm { X } _ { \Sigma }$be a proper smooth toric variety. Let$\ell \neq p$be prime. Assume that K, and hence K<sup>♭</sup>, is algebraically closed. Then for all$i \in \mathbf { Z }$, the projection map π induces an isomorphism
 
 $$
 \mathrm{H} ^ {i} \big (\mathrm{X} _ {\Sigma , \mathrm{K}, \acute {\mathrm{et}}} ^ {\mathrm{ad}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big) \cong \mathrm{H} ^ {i} \big (\mathrm{X} _ {\Sigma , \mathrm{K} ^ {\flat}, \acute {\mathrm{et}}} ^ {\mathrm{ad}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big).
 $$
 
-Proof. — This follows from part$( \mathrm { i v } )$of the previous theorem combined with the observation that$\varphi : \mathrm { X _ { \Sigma , K } ^ { a d } } \to \mathrm { X _ { \Sigma , K } ^ { a d } }$induces an isomorphism on cohomology with$\mathbf { Z } / \ell ^ { m } \mathbf { Z } \mathbf { \cdot }$ coefficients. Using proper base change, this can be checked on$\mathrm { X } _ { \Sigma , \kappa }$, where κ is the residue field of K. But here,$\varphi$is purely inseparable, and hence induces an equivalence of étale topoi.-
+Proof. — This follows from part$( \mathrm { i v } )$of the previous theorem combined with the observation that$\varphi : \mathrm { X _ { \Sigma , K } ^ { a d } } \to \mathrm { X _ { \Sigma , K ^ { \flat } } ^ { a d } }$induces an isomorphism on cohomology with$\mathbf { Z } / \ell ^ { m } \mathbf { Z } \mathbf { \cdot }$ coefficients. Using proper base change, this can be checked on$\mathrm { X } _ { \Sigma , \kappa }$, where κ is the residue field of K. But here,$\varphi$is purely inseparable, and hence induces an equivalence of étale topoi.□
 
 We need the following approximation property.
 
-Proposition 8.7. — Assume that$\mathrm { X } _ { \Sigma , \mathrm { K } }$is proper smooth. Let$\mathrm { Y } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$be a hypersurface. Let $\tilde { \mathrm { Y } } \subset \mathrm { X ^ { a d } _ { \Sigma , K } } ^ { \mathrm { * } }$be a small open neighborhood ofY. Then there exists a hypersurface$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$such that $Z ^ { \mathrm { a d } } \subset \pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$. One can assume that Z is defined over a given dense subfield of$\mathrm { K } ^ { \flat }$
+Proposition 8.7. — Assume that$\mathrm { X } _ { \Sigma , \kappa }$ is proper smooth. Let$\mathrm { Y } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$ be a hypersurface. Let $\tilde { \mathrm { Y } } \subset \mathrm { X ^ { a d } _ { \Sigma , K } }$ be a small open neighborhood of Y. Then there exists a hypersurface$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$ such that $Z ^ { \mathrm { a d } } \subset \pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$. One can assume that Z is defined over a given dense subfield of$\mathrm { K } ^ { \flat }$.
 
-Proof. — Let$\mathrm { D } = \sum { a _ { i } \mathrm { D } } _ { i }$be a T-Weil divisor representing Y. Let$f \in { \bf H } ^ { 0 } ( { \bf X } _ { \Sigma , \mathrm { K } }$, O(D)) be the equation with zero locus Y. Consider the graded ring
+Proof. — Let $\mathrm { D } = \sum { a _ { i } \mathrm { D } _ { i } }$ be a T-Weil divisor representing Y. Let $f \in H ^ { 0 } ( \mathrm { X } _ { \Sigma , \mathrm { K } }$, $\mathcal { O } ( \mathrm { D } ) )$ be the equation with zero locus Y. Consider the graded ring
 
 $$
-\bigoplus_{j\in \mathbf{Z}[p^{-1}]}H^{0}\big(\mathcal{X}_{\Sigma ,K}^{\text{perf}},\mathcal{O}(jD)\big) = \bigoplus_{j\in \mathbf{Z}[p^{-1}]}\widehat{\bigoplus}_{\substack{u\in M[p^{-1}]\\ \langle u,v_{i}\rangle \geq -ja_{i}}}\mathrm{K}\chi^{u},
+\bigoplus_{j\in \mathbf{Z}[p^{-1}]}H^{0}\big(\mathcal{X}_{\Sigma ,K}^{\text{perf}},\mathcal{O}(jD)\big) = \bigoplus_{j\in \mathbf{Z}[p^{-1}]}\widehat{\bigoplus}_{\substack{u\in M[p^{-1}]\\ \langle u,v_{i}\rangle \geq -ja_{i}}}\mathbb{K}\chi^{u},
 $$
 
-and let R be its completion (with respect to the obvious$\mathrm { K } ^ { \circ }$-submodule). Here$\widehat { \oplus }$denotes the Banach space direct sum. Then as in Proposition 5.20, R is a perfectoid K-algebra whose tilt is given by the similar construction over$\mathrm { K } ^ { \flat }$. Note that D is given combinatori ally and hence transfers to$\mathrm { K } ^ { \flat }$
+and let R be its completion (with respect to the obvious$\mathrm { K } ^ { \circ }$-submodule). Here$\widehat { \oplus }$denotes the Banach space direct sum. Then as in Proposition 5.20, R is a perfectoid K-algebra whose tilt is given by the similar construction over$\mathrm { K } ^ { \flat }$. Note that D is given combinatorially and hence transfers to$\mathrm { K } ^ { \flat }$.
 
 We may assume that$\tilde { \mathrm { Y } }$is given by
 
 $$
-\tilde {\mathrm{Y}} = \left\{x \in \mathrm{X} _ {\Sigma , \mathrm{K}} ^ {\mathrm{ad}} \mid | f (x) | \leq \epsilon \right\},
+\tilde {\mathrm{Y}} = \left\{x \in \mathrm{X} _ {\Sigma , \mathrm{K}} ^ {\mathrm{ad}} \mid \left| | f ( x ) | \right| \leq \epsilon \right\},
 $$
 
-for some . In order to make sense of the inequality$| f ( x ) | \leq \epsilon .$, note that$\mathrm { X } _ { \Sigma , \mathrm { K } }$and$\mathcal { O } ( \mathrm { D } )$ have a tautological integral model over$\mathrm { K } ^ { \circ }$(by applying the toric constructions over$\mathrm { K } ^ { \circ } )$ which is enough to talk about absolute values: Trivialize the line bundle$\mathcal { O } ( \mathrm { D } )$locally on the integral model to interpretf as a function; any two different choices differ by a unit of$\mathrm { K } ^ { \circ }$, and hence give the same absolute value.
+for some $\epsilon$. In order to make sense of the inequality $| f ( x ) | \leq \epsilon$, note that$\mathrm { X } _ { \Sigma , \mathrm { K } }$ and$\mathcal { O } ( \mathrm { D } )$ have a tautological integral model over$\mathrm { K } ^ { \circ }$(by applying the toric constructions over $\mathrm { K } ^ { \circ }$), which is enough to talk about absolute values: Trivialize the line bundle $\mathcal { O } ( \mathrm { D } )$ locally on the integral model to interpret $f$ as a function; any two different choices differ by a unit of$\mathrm { K } ^ { \circ }$, and hence give the same absolute value.
 
 Now the analogue of Lemma 6.5 holds true for R, with the same proof. This implies that we can find$g \in \mathrm { H } ^ { \mathrm { 0 } } ( \mathcal { X } _ { \Sigma , \mathrm { K } ^ { \flat } } ^ { \mathrm { p e r f } } , \mathcal { O } ( \mathrm { D } ) )$such that
 
 $$
-\pi^ {- 1} (\tilde {\mathrm{Y}}) = \left\{x \in \mathcal {X} _ {\Sigma , \mathrm{K} ^ {\flat}} ^ {\text { perf }} \mid | g (x) | \leq \epsilon \right\}.
+\pi^ {- 1} (\tilde {\mathrm{Y}}) = \left\{x \in \mathcal {X} _ {\Sigma , \mathrm{K} ^ {\flat}} ^ {\text { perf }} \mid \left| | g ( x ) | \right| \leq \epsilon \right\}.
 $$
 
 Let$k \subset \mathrm { K } ^ { \flat }$be a dense subfield. Changing g slightly, we can assume that
@@ -2038,17 +2038,17 @@ $$
 g\in \bigoplus_{\substack{u\in \operatorname{M}[p^{-1}]\\ \langle u,v_{i}\rangle \geq -ja_{i}}}k\chi^{u}.
 $$
 
-Replacing g by a large p-power gives a regular function h on$\mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$, such that its zero locus$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$is contained in$\bar { \pi } ^ { - 1 } ( \tilde { \mathrm { Y } } )$, as desired.-
+Replacing g by a large p-power gives a regular function h on$\mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$, such that its zero locus$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$is contained in $\pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$, as desired.□
 
 By intersecting several hypersurfaces, one arrives at the following corollary.
 
-Corollary 8.8. — Assume that$\mathrm { X } _ { \Sigma , \mathrm { K } }$is projective and smooth. Let$\mathrm { Y } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$be a set-theoretic complete intersection, i.e. Y is set-theoretically equal to an intersection$\mathrm { Y } _ { 1 } \cap \cdots \cap \mathrm { Y } _ { c }$ofhypersurfaces $\mathrm { Y } _ { i } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$, where c is the codimension ofY. Let$\tilde { \mathrm { Y } } \subset \mathrm { X ^ { a d } _ { \Sigma , K } }$be a small open neighborhood ofY. Then there exists a closed subvariety$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$such that$Z ^ { \mathrm { a d } } \subset \pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$with dim${ \boldsymbol { Z } } = \dim { \boldsymbol { \mathrm { Y } } }$. One can assume that Z is defined over a given dense subfield ofK<sup>-</sup>.
+Corollary 8.8. — Assume that$\mathrm { X } _ { \Sigma , \kappa }$ is projective and smooth. Let$\mathrm { Y } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$be a set-theoretic complete intersection, i.e. Y is set-theoretically equal to an intersection$\mathrm { Y } _ { 1 } \cap \cdots \cap \mathrm { Y } _ { c }$ of hypersurfaces $\mathrm { Y } _ { i } \subset \mathrm { X } _ { \Sigma , \mathrm { K } }$, where c is the codimension of Y. Let$\tilde { \mathrm { Y } } \subset \mathrm { X ^ { a d } _ { \Sigma , K } }$ be a small open neighborhood of Y. Then there exists a closed subvariety$\mathrm { Z } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$such that$Z ^ { \mathrm { a d } } \subset \pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$with dim${ \boldsymbol { Z } } = \dim { \boldsymbol { \mathrm { Y } } }$. One can assume that Z is defined over a given dense subfield of K<sup>♭</sup>.
 
-Proof. — The only nontrivial point is to check that the intersection over$\mathrm { K } ^ { \flat }$will be nonempty; if the dimension was too large, one can also just cut by further hypersurfaces. For nonemptiness, choose an ample line bundle to define a notion of degree of subvarieties; then the degree of a complete intersection is determined combinatorially. As Y has positive degree, so has the corresponding complete intersection over$\mathrm { K } ^ { \flat }$, and in particular is nonempty.-
+Proof. — The only nontrivial point is to check that the intersection over$\mathrm { K } ^ { \flat }$will be nonempty; if the dimension was too large, one can also just cut by further hypersurfaces. For nonemptiness, choose an ample line bundle to define a notion of degree of subvarieties; then the degree of a complete intersection is determined combinatorially. As Y has positive degree, so has the corresponding complete intersection over$\mathrm { K } ^ { \flat }$, and in particular is nonempty.□
 
 ## 9. The weight-monodromy conjecture
 
-We first recall some facts about -adic representations ofthe absolute Galois group $\mathrm { G } _ { k } = \mathrm { G a l } ( \bar { k } / k )$of a local field k of residue characteristic${ p , }$cf. [25]. Let$q$be the cardinality of the residue field of k. Recall that the maximal pro--quotient of the inertia subgroup$\mathrm { I } _ { k } \subset \mathrm { G } _ { k }$is given by the quotient$t _ { \ell } : \mathrm { I } _ { k } \to \mathbf { Z } _ { \ell } ( 1 )$, which is the inverse limit of the homomorphisms$t _ { \ell , n } : \mathrm { I } _ { k } \to \mu _ { \ell ^ { n } }$defined by choosing a system of$\ell ^ { n } .$-th roots$\varpi ^ { 1 / \ell ^ { n } }$of a uniformizer$\varpi$of$\mathrm { ~  ~ \cdot ~ } { \boldsymbol { k } } ,$and requiring
+We first recall some facts about $\ell$-adic representations of the absolute Galois group $\mathrm { G } _ { k } = \mathrm { G a l } ( \bar { k } / k )$of a local field k of residue characteristic${ p , }$cf. [25]. Let$q$be the cardinality of the residue field of k. Recall that the maximal pro-$\ell$-quotient of the inertia subgroup$\mathrm { I } _ { k } \subset \mathrm { G } _ { k }$is given by the quotient$t _ { \ell } : \mathrm { I } _ { k } \to \mathbf { Z } _ { \ell } ( 1 )$, which is the inverse limit of the homomorphisms$t _ { \ell , n } : \mathrm { I } _ { k } \to \mu _ { \ell ^ { n } }$ defined by choosing a system of $\ell ^ { n }$-th roots $\varpi ^ { 1 / \ell ^ { n } }$ of a uniformizer $\varpi$ of $k$, and requiring
 
 $$
 \sigma \left(\varpi^ {1 / \ell^ {n}}\right) = t _ {\ell , n} (\sigma) \varpi^ {1 / \ell^ {n}}
@@ -2056,17 +2056,17 @@ $$
 
 for all$\sigma \in \mathrm { I } _ { k }$. Now recall Grothendieck’s quasi-unipotence theorem.
 
-Proposition 9.1. — Let V be a finite-dimensional$\bar { \mathbf { Q } } _ { \ell }$-representation of$\mathrm { G } _ { k } ,$given by a map $\rho : { \mathrm { G } } _ { k } \to { \mathrm { G L } } ( \mathrm { V } )$. Then there is an open subgroup$\mathrm { I } _ { 1 } \subset \mathrm { I } _ { k }$such that for all$\sigma \in \operatorname { I } _ { 1 }$, the element $\rho ( \sigma ) \in \mathrm { G L } ( \mathrm { V } )$is unipotent, and in this case there is a unique nilpotent morphism N :$\mathrm { V } \to \mathrm { V } ( - 1 )$ such thatfor all$\sigma \in \operatorname { I } _ { 1 }$
+Proposition 9.1. — Let V be a finite-dimensional$\bar { \mathbf { Q } } _ { \ell }$-representation of$\mathrm { G } _ { k } ,$given by a map $\rho : { \mathrm { G } } _ { k } \to { \mathrm { G L } } ( \mathrm { V } )$. Then there is an open subgroup$\mathrm { I } _ { 1 } \subset \mathrm { I } _ { k }$such that for all$\sigma \in \operatorname { I } _ { 1 }$, the element $\rho ( \sigma ) \in \mathrm { G L } ( \mathrm { V } )$is unipotent, and in this case there is a unique nilpotent morphism N :$\mathrm { V } \to \mathrm { V } ( - 1 )$ such that for all $\sigma \in \operatorname { I } _ { 1 }$,
 
 $$
 \rho (\sigma) = \exp \bigl (\mathrm{N} t _ {\ell} (g) \bigr).
 $$
 
-We fix an isomorphism$\mathbf { Q } _ { \ell } ( 1 ) \cong \mathbf { Q }$in order to consider N as a nilpotent endomorphism ofV. Changing the choice ofisomorphism$\mathbf { Q } _ { \ell } ( 1 ) \cong \mathbf { Q } _ { \ell }$replaces N by a scalar multiple, which will have no effect on the following discussion. From uniqueness of$\mathrm { N } ,$it follows that for any geometric Frobenius element$\Phi \in \mathrm { G } _ { k } ,$, we have$\mathrm { N } \Phi = q \Phi \mathrm { N }$
+We fix an isomorphism $\mathbf { Q } _ { \ell } ( 1 ) \cong \mathbf { Q } _ { \ell }$ in order to consider N as a nilpotent endomorphism of V. Changing the choice of isomorphism $\mathbf { Q } _ { \ell } ( 1 ) \cong \mathbf { Q } _ { \ell }$ replaces N by a scalar multiple, which will have no effect on the following discussion. From uniqueness of$\mathrm { N } ,$it follows that for any geometric Frobeniius element$\Phi \in \mathrm { G } _ { k } ,$, we have $\mathrm { N } \Phi = q \Phi \mathrm { N }$.
 
 Also recall the general monodromy filtration.
 
-Definition/Proposition 9.2. — Let V be a finite-dimensional vector space over any$~ f u e l d ,$and let$\mathrm { { N } : \mathrm { { V } \to \mathrm { { V } } } }$be a nilpotent morphism. Then there is a unique separated and exhaustive increasing filtration$\mathrm { F i l } _ { i } ^ { \mathrm { N } } \mathrm { V } \subset \mathrm { V } , i \in { \bf Z } .$called the monodromyfiltration, such that$\mathrm { N } ( \mathrm { F i l } _ { i } ^ { \mathrm { N } } \mathrm { V } ) \subset \mathrm { F i l } _ { i - 2 } ^ { \mathrm { N } } \mathrm { V }$for all $i \in \mathbf { Z }$and$\mathrm { g r } _ { i } ^ { \mathrm { N } } \mathrm { V } \cong \mathrm { g r } _ { - i } ^ { \mathrm { N } } \mathrm { V }$via N<sup>i</sup> for all$i \geq 0$
+Definition/Proposition 9.2. — Let V be a finite-dimensional vector space over any field, and let$\mathrm { { N } : \mathrm { { V } \to \mathrm { { V } } } }$ be a nilpotent morphism. Then there is a unique separated and exhaustive increasing filtration$\mathrm { F i l } _ { i } ^ { \mathrm { N } } \mathrm { V } \subset \mathrm { V } , i \in { \bf Z }$, called the monodromy filtration, such that$\mathrm { N } ( \mathrm { F i l } _ { i } ^ { \mathrm { N } } \mathrm { V } ) \subset \mathrm { F i l } _ { i - 2 } ^ { \mathrm { N } } \mathrm { V }$for all $i \in \mathbf { Z }$and$\mathrm { g r } _ { i } ^ { \mathrm { N } } \mathrm { V } \cong \mathrm { g r } _ { - i } ^ { \mathrm { N } } \mathrm { V }$via N<sup>i</sup> for all$i \geq 0$.
 
 In fact, we have the formula
 
@@ -2076,9 +2076,9 @@ $$
 
 for the monodromy filtration. Now we can formulate the weight-monodromy conjecture.
 
-Conjecture 9.3 (Deligne$\mathit { 2 9 7 } ) . \mathrm { - }$Let X be a proper smooth variety over$k ,$and let$\mathrm { V } =$ $\mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$. Then for all$j \in \mathbf { Z }$andfor any geometric Frobenius$\Phi \in \mathrm { G } _ { k } .$, all eigenvalues$\varrho f \Phi$on $\mathrm { g r } _ { j } ^ { \mathrm { N } } \mathrm { V }$are Weil numbers ofweight$i + j ,$, i.e. algebraic numbers α such that$| \alpha | = q ^ { ( i + \bar { j } ) / 2 }$for all complex absolute values.
+Conjecture 9.3 (Deligne [3]). — Let X be a proper smooth variety over$k ,$and let$\mathrm { V } =$ $\mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$. Then for all$j \in \mathbf { Z }$ and for any geometric Frobeniius $\Phi \in \mathrm { G } _ { k }$, all eigenvalues of $\Phi$ on $\mathrm { g r } _ { j } ^ { \mathrm { N } } \mathrm { V }$ are Weil numbers of weight $i + j$, i.e. algebraic numbers α such that$| \alpha | = q ^ { ( i + j ) / 2 }$ for all complex absolute values.
 
-We note that in order to prove this conjecture, one is allowed to replace k by a finite extension. Using the formalism of$\zeta -$- and L-functions, the conjecture has the following interpretation. Let K be a global field, and let$\mathbf { X } / \mathbf { K }$be a proper smooth variety. Choose some integer i. Recall that the L-function associated to the i-th -adic cohomology group $\mathrm { H } ^ { i } ( \mathrm { X } ) = \mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { \bf K } } , \bar { \bf Q } _ { \ell } )$of X is defined as a product
+We note that in order to prove this conjecture, one is allowed to replace k by a finite extension. Using the formalism of$\zeta -$- and L-functions, the conjecture has the following interpretation. Let K be a global field, and let$\mathbf { X } / \mathbf { K }$be a proper smooth variety. Choose some integer i. Recall that the L-function associated to the i-th $\ell$-adic cohomology group $\mathrm { H } ^ { i } ( \mathrm { X } ) = \mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { \bf K } } , \bar { \bf Q } _ { \ell } )$ of X is defined as a product
 
 $$
 \mathrm{L} \big (\mathrm{H} ^ {i} (\mathrm{X}), s \big) = \prod_ {v} \mathrm{L} _ {v} \big (\mathrm{H} ^ {i} (\mathrm{X}), s \big),
@@ -2090,85 +2090,85 @@ $$
 \mathrm{L} _ {v} \big (\mathrm{H} ^ {i} (\mathrm{X}), s \big) = \det \big (1 - q ^ {- s} \Phi \mid \mathrm{H} ^ {i} (\mathrm{X}) ^ {\mathrm{I} _ {k}} \big) ^ {- 1}.
 $$
 
-At primes of good reduction, the Weil conjectures imply that all poles of this expression have real part$\frac { i } { 2 } .$. Moreover, one checks in the usual way that hence the product defining $\mathrm { L } ( \mathrm { H } ^ { i } ( \mathrm { X } ) , s )$is absolutely convergent when the real part of s is greater than$\textstyle { \frac { i } { 2 } } + 1$, except possibly for finitely many factors. The weight-monodromy conjecture implies that all other local factors will not have any poles of real part greater than$\frac { i } { 2 } .$
+At primes of good reduction, the Weil conjectures imply that all poles of this expression have real part $\frac { i } { 2 }$. Moreover, one checks in the usual way that hence the product defining $\mathrm { L } ( \mathrm { H } ^ { i } ( \mathrm { X } ) , s )$ is absolutely convergent when the real part of s is greater than $\frac { i } { 2 } + 1$, except possibly for finitely many factors. The weight-monodromy conjecture implies that all other local factors will not have any poles of real part greater than$\frac { i } { 2 } .$
 
 Over equal characteristic local fields, Deligne [10] turned this argument into a proof:
 
-Theorem 9.4. — Let C be a curve over$\mathbf { F } _ { q } , x \in \mathrm { C } ( \mathbf { F } _ { q } )$, such that k is the localfield ofC at x. Let X be a proper smooth scheme over$\mathrm { ~ C ~ } \backslash \{ x \}$. Then the weight-monodromy conjecture holds truefor $\mathrm { X } _ { k } = \mathrm { X } \times _ { \mathrm { C } \backslash \{ x \} }$Spec k.
+Theorem 9.4. — Let C be a curve over$\mathbf { F } _ { q } , x \in \mathrm { C } ( \mathbf { F } _ { q } )$, such that k is the local field of C at x. Let X be a proper smooth scheme over $\mathrm { C } \backslash \{ x \}$. Then the weight-monodromy conjecture holds true for $\mathrm { X } _ { k } = \mathrm { X } \times _ { \mathrm { C } \backslash \{ x \} }$ Spec k.
 
-Let us give a briefsummary ofthe proof. Let$f : \mathrm { X } \to \mathrm { C } \setminus \{ x \}$be the proper smooth morphism. Possibly replacing C by a finite cover, we may assume that the action of$\mathrm { T } _ { k }$on $\mathrm { V } = \bar { \mathrm { H } } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$is unipotent. One considers the local system$\mathrm { R } ^ { i } f _ { \ast } \bar { \mathbf { Q } } _ { \ell }$on$\mathrm { C } \setminus \{ x \} . \ \mathrm { { B y } }$the Weil conjectures, this sheaf is pure of weight i. From the formalism of L-functions for sheaves over curves, one deduces semicontinuity ofweights, which in this situation means that on the invariants${ \mathrm { V } } ^ { \mathrm { I } _ { k } }$of$\mathrm { V } = \mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$, all occurring weights are$\leq i .$. A similar property holds true for all tensor powers of${ \mathrm { V } } ,$and for all tensor powers of the dual$\mathrm { V } ^ { \vee }$ Then one applies the following lemma from linear algebra, which applies for all local fields k.
+Let us give a brief summary of the proof. Let $f : \mathrm { X } \to \mathrm { C } \setminus \{ x \}$ be the proper smooth morphism. Possibly replacing C by a finite cover, we may assume that the action of $\mathbf { I } _ { k }$ on $\mathrm { V } = \bar { \mathrm { H } } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$ is unipotent. One considers the local system $\mathrm { R } ^ { i } f _ { \ast } \bar { \mathbf { Q } } _ { \ell }$ on $\mathrm { C } \setminus \{ x \} .$ By the Weil conjectures, this sheaf is pure of weight i. From the formalism of L-functions for sheaves over curves, one deduces semicontinuity of weights, which in this situation means that on the invariants ${ \mathrm { V } } ^ { \mathrm { I } _ { k } }$ of $\mathrm { V } = \mathrm { H } ^ { i } ( \mathrm { X } _ { \bar { k } } , \bar { \mathbf { Q } } _ { \ell } )$, all occurring weights are $\leq i .$. A similar property holds true for all tensor powers of ${ \mathrm { V } } ,$ and for all tensor powers of the dual $\mathrm { V } ^ { \vee }$. Then one applies the following lemma from linear algebra, which applies for all local fields k.
 
-Lemma 9.5. — Let V be an -adic representation$o f \mathrm { G } _ { k } .$, on which$\mathrm { I } _ { k }$acts unipotently. Then $\mathrm { g r } _ { j } ^ { \mathrm { N } } \mathrm { V }$is pure ofweight$i + j .$for$a l l j \in \mathbf { Z }$ifand only iffor all$j \geq 0$, all weights on$( \mathrm { V } ^ { \otimes j } ) ^ { \mathrm { I } _ { k } }$are at most$i j ,$, and all weights on$( ( \nabla ^ { \vee } ) ^ { \otimes j } ) ^ { \mathrm { I } _ { k } }$are at most$- i j$
+Lemma 9.5. — Let V be an $\ell$-adic representation of $\mathrm { G } _ { k }$, on which $\mathrm { I } _ { k }$ acts unipotently. Then $\mathrm { g r } _ { j } ^ { \mathrm { N } } \mathrm { V }$ is pure of weight $i + j$ for all $j \in \mathbf { Z }$ if and only if for all $j \geq 0$, all weights on $( \mathrm { V } ^ { \otimes j } ) ^ { \mathrm { I } _ { k } }$ are at most $i j$, and all weights on $( ( \mathrm { V } ^ { \vee } ) ^ { \otimes j } ) ^ { \mathrm { I } _ { k } }$ are at most $- i j$.
 
 Our main theorem is the following.
 
-Theorem 9.6. — Let k be a localfield ofcharacteristic 0. Let Y be a geometrically connected proper smooth variety over k such that Y is a set-theoretic complete intersection in a projective smooth toric variety$\mathrm { X } _ { \Sigma }$. Then the weight-monodromy conjecture is truefor Y.
+Theorem 9.6. — Let k be a local field of characteristic 0. Let Y be a geometrically connected proper smooth variety over k such that Y is a set-theoretic complete intersection in a projective smooth toric variety$\mathrm { X } _ { \Sigma }$. Then the weight-monodromy conjecture is true for Y.
 
-Proof. — Let$\varpi \in k$be a uniformizer, and let K be the completion of$k ( \varpi ^ { 1 / p ^ { \infty } } )$; then K is perfectoid. Note that after restricting to the action ofthe absolute Galois group of K, one can still see whether the weight-monodromy conjecture is true. Indeed, the extension is totally ramified, so that there are still geometric Frobenii giving the weight decomposition, and the extension is pro-p, so that one still sees the action of the pro--inertia subgroup. Let$\mathrm { K } ^ { \flat }$be its tilt. Then$\mathrm { K } ^ { \flat }$is the completed perfection of$k ^ { \prime } = \mathbf { F } _ { q } ( ( t ) )$, where $t = \varpi ^ { \flat }$. This gives an isomorphism between the absolute Galois groups of K and$k ^ { \prime }$. The notion of weights and the monodromy operator N is compatible with this isomorphism of Galois groups.
+Proof. — Let $\varpi \in k$ be a uniformizer, and let K be the completion of $k( \varpi ^ { 1 / p ^ { \infty } } )$; then K is perfectoid. Note that after restricting to the action of the absolute Galois group of K, one can still see whether the weight-monodromy conjecture is true. Indeed, the extension is totally ramified, so that there are still geometric Frobenii giving the weight decomposition, and the extension is pro-p, so that one still sees the action of the pro-$\ell$-inertia subgroup. Let $\mathrm { K } ^ { \flat }$ be its tilt. Then $\mathrm { K } ^ { \flat }$ is the completed perfection of $k ^ { \prime } = \mathbf { F } _ { q } ( ( t ) )$, where $t = \varpi ^ { \flat }$. This gives an isomorphism between the absolute Galois groups of K and $k ^ { \prime }$. The notion of weights and the monodromy operator N is compatible with this isomorphism of Galois groups.
 
-By Theorem$3 . 6 ( \mathrm { a } )$of [21], there is some open neighborhood$\tilde { \mathrm { Y } }$of$\mathrm { Y _ { K } ^ { a d } }$in${ \mathrm { X } } _ { \Sigma , \mathrm { K } } ^ { \mathrm { a d } }$ such that$\tilde { \mathrm { Y } } _ { \mathbf { c } _ { \boldsymbol { \phi } } }$and$\mathrm { Y } _ { \mathbf { C } _ { \hbar } } ^ { \mathrm { a d } }$have the same$\mathbf { Z } / \ell \mathbf { Z } .$-cohomology. By induction, they have the same$\mathbf { Z } / \ell ^ { m } \mathbf { Z } \cdot$-cohomology for all$m \geq 1$. Also recall the following comparison theorem.
+By Theorem $3 . 6 ( \mathrm { a } )$ of [21], there is some open neighborhood $\tilde { \mathrm { Y } }$ of $\mathrm { Y _ { K } ^ { a d } }$ in ${ \mathrm { X } } _ { \Sigma , \mathrm { K } } ^ { \mathrm { a d } }$ such that $\tilde { \mathrm { Y } } _ { \mathbf { c } _ { p } }$ and $\mathrm { Y } _ { \mathbf { c } _ { p } } ^ { \mathrm { a d } }$ have the same $\mathbf { Z } / \ell \mathbf { Z }$-cohomology. By induction, they have the same $\mathbf { Z } / \ell ^ { m } \mathbf { Z }$-cohomology for all $m \geq 1$. Also recall the following comparison theorem.
 
-Theorem 9.7 ([22, Theorem$3 . 8 . I J . - L e t \mathrm { X }$be an algebraic variety over an algebraically closed nonarchimedeanfield k, with associated adic space$\mathrm { X ^ { a d } }$. Then
+Theorem 9.7 ([22, Theorem $3 . 8 . 1 ] ) .$ — Let $\mathrm { X }$ be an algebraic variety over an algebraically closed nonarchimedean field k, with associated adic space $\mathrm { X ^ { a d } }$. Then
 
 $$
 \mathrm{H} ^ {i} \left(\mathrm{X} _ {\text { ét }}, \mathbf {Z} / \ell^ {m} \mathbf {Z}\right) \cong \mathrm{H} ^ {i} \left(\mathrm{X} _ {\text { ét }} ^ {\text { ad }}, \mathbf {Z} / \ell^ {m} \mathbf {Z}\right).
 $$
 
-$\mathrm { B y }$Corollary 8.8, there is some closed subvariety$\mathrm { ~ Z ~ } \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$such that${ \cal Z } ^ { \mathrm { a d } } \subset$ $\pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$and dim$\mathrm { Z } = \mathrm { d i m } \mathrm { Y }$. Moreover, we can assume that Z is defined over a global field and geometrically irreducible. Let$Z ^ { \prime }$be a projective smooth alteration of Z. We get a commutative diagram of étale topoi of adic spaces
+By Corollary 8.8, there is some closed subvariety $Z \subset \mathrm { X } _ { \Sigma , \mathrm { K } ^ { \flat } }$ such that ${ \mathrm { Z } } ^ { \mathrm { a d } } \subset \pi ^ { - 1 } ( \tilde { \mathrm { Y } } )$ and dim $\mathrm { Z } = \dim \mathrm { Y }$. Moreover, we can assume that Z is defined over a global field and geometrically irreducible. Let $Z ^ { \prime }$ be a projective smooth alteration of Z. We get a commutative diagram of étale topoi of adic spaces
 
 ![](images/page_65_image_1.jpg)
 
-There is a canonical action of the absolute Galois group$\mathrm { G } = \mathrm { G } _ { \mathrm { K } } = \mathrm { G } _ { \mathrm { K } ^ { \flat } }$on this diagram such that all morphisms are G-equivariant. Using the comparison theorem, this induces a G-equivariant map
+There is a canonical action of the absolute Galois group $\mathrm { G } = \mathrm { G } _ { \mathrm { K } } = \mathrm { G } _ { \mathrm { K } ^ { \flat } }$ on this diagram such that all morphisms are G-equivariant. Using the comparison theorem, this induces a G-equivariant map
 
 $$
-f ^ {*}: \mathrm{H} ^ {i} \big (\mathrm{Y} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big) = \mathrm{H} ^ {i} \big (\tilde {\mathrm{Y}} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big) \to \mathrm{H} ^ {i} \big (\mathrm{Z} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}} ^ {\prime}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big),
+f ^ {*}: \mathrm{H} ^ {i} \big (\mathrm{Y} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big) = \mathrm{H} ^ {i} \big (\tilde {\mathrm{Y}} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big) \to \mathrm{H} ^ {i} \big (\mathrm{Z} _ {\mathbf {c} _ {p} ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \mathbf {Z} / \ell^ {m} \mathbf {Z} \big),
 $$
 
 compatible with the cup product. In order to check compatibility with the cup product, use the following lemma.
 
-Lemma$9 . 8 . \mathrm { ~ - ~ } L e t f : \mathrm { T } _ { 1 }  \mathrm { T } _ { 2 }$be any morphism of sites. Let A be any ring, and let 0$x \in \mathrm { H } ^ { i } ( \mathrm { T } _ { 2 } , \mathrm { A } ) , \beta \in \mathrm { H } ^ { j } ( \mathrm { T } _ { 2 } , \mathrm { A } )$. Then
+Lemma $9 . 8 .$ — Let $f : \mathrm { T } _ { 1 } \to \mathrm { T } _ { 2 }$ be any morphism of sites. Let A be any ring, and let $\alpha \in \mathrm { H } ^ { i } ( \mathrm { T } _ { 2 } , \mathrm { A } ), \beta \in \mathrm { H } ^ { j } ( \mathrm { T } _ { 2 } , \mathrm { A } )$. Then
 
 $$
 \left(f ^ {*} \alpha\right) \cup \left(f ^ {*} \beta\right) = f ^ {*} (\alpha \cup \beta) \in \mathrm{H} ^ {i + j} \left(\mathrm{T} _ {1}, \mathrm{A}\right).
 $$
 
-Proof. — Note thatf induces a functor between the derived categories ofsheaves of A-modules on$\mathrm { T _ { 2 } }$and$\mathrm { T } _ { 1 }$. Interpreting α as a morphism$\mathrm { A } \to \mathrm { A } [ i ]$and$\beta$as a morphism $\mathrm { A } [ i ]  \mathrm { A } [ i + j ]$, the cup product corresponds to composition of morphisms.$\operatorname { A s } f$is a functor, we get the conclusion.-
+Proof. — Note that $f$ induces a functor between the derived categories of sheaves of A-modules on $\mathrm { T _ { 2 } }$ and $\mathrm { T } _ { 1 }$. Interpreting α as a morphism $\mathrm { A } \to \mathrm { A } [ i ]$ and $\beta$ as a morphism $\mathrm { A } [ i ] \to \mathrm { A } [ i + j ]$, the cup product corresponds to composition of morphisms. As $f$ is a functor, we get the conclusion. □
 
-Note that for the map from$\mathrm { Y } _ { \mathbf { C } _ { \boldsymbol { \rho } , \mathrm { e t } } } ^ { \mathrm { a d } }$to$\tilde { \mathrm { Y } } _ { \mathbf { c } _ { p } , \mathrm { e t } } ,$, the functor goes the other way, and a priori one knows compatibility of the cup product in the other direction. However, as the map on cohomology is an isomorphism, one can also go the other way.
+Note that for the map from $\mathrm { Y } _ { \mathbf { c } _ { p } , \acute {\mathrm{et}} } ^ { \mathrm { a d } }$ to $\tilde { \mathrm { Y } } _ { \mathbf { c } _ { p } , \acute {\mathrm{et}} }$, the functor goes the other way, and a priori one knows compatibility of the cup product in the other direction. However, as the map on cohomology is an isomorphism, one can also go the other way.
 
-Formally taking the inverse limit and tensoring with$\bar { \bf Q } _ { \ell }$, it follows that we get a G-equivariant map
+Formally taking the inverse limit and tensoring with $\bar { \bf Q } _ { \ell }$, it follows that we get a G-equivariant map
 
 $$
 \mathrm{H} ^ {i} (\mathrm{Y} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \bar {\mathbf {Q}} _ {\ell}) \to \mathrm{H} ^ {i} \big (\mathrm{Z} _ {\mathbf {c} _ {p} ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \bar {\mathbf {Q}} _ {\ell} \big).
 $$
 
-Lemma 9.9. — For$i = 2$dim${ \mathrm { Y } } ,$this is an isomorphism.
+Lemma 9.9. — For $i = 2 \dim Y$, this is an isomorphism.
 
 Proof. — For all m, we have a commutative diagram
 
 $$
-\begin{array}{c c} \mathrm{H} ^ {2   \dim Y} (\mathrm{X} _ {\Sigma , \mathbf {C} _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \xleftarrow {\cong} & \mathrm{H} ^ {2   \dim Y} (\mathrm{X} _ {\Sigma , \mathbf {C} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \\ \Big \downarrow & \Big \downarrow \\ \mathrm{H} ^ {2   \dim Y} (\pi^ {- 1} (\tilde {\mathrm{Y}}) _ {\mathbf {C} _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \xleftarrow {} & \mathrm{H} ^ {2   \dim Y} (\tilde {\mathrm{Y}} _ {\mathbf {C} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \\ \Big \downarrow & \Big \downarrow \cong \\ \mathrm{H} ^ {2   \dim Y} (\mathrm{Z} _ {\mathbf {C} _ {p} ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) & \mathrm{H} ^ {2   \dim Y} (\mathrm{Y} _ {\mathbf {C} _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \end{array}
+\begin{array}{c c} \mathrm{H} ^ {2 \dim Y} (\mathrm{X} _ {\Sigma , \mathbf { c } _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \xleftarrow {\cong} & \mathrm{H} ^ {2 \dim Y} (\mathrm{X} _ {\Sigma , \mathbf { c } _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \\ \Big \downarrow & \Big \downarrow \\ \mathrm{H} ^ {2 \dim Y} (\pi^ {- 1} (\tilde {\mathrm{Y}}) _ {\mathbf { c } _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \xleftarrow {} & \mathrm{H} ^ {2 \dim Y} (\tilde {\mathrm{Y}} _ {\mathbf { c } _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \\ \Big \downarrow & \Big \downarrow \cong \\ \mathrm{H} ^ {2 \dim Y} (\mathrm{Z} _ {\mathbf { c } _ {p} ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) & \mathrm{H} ^ {2 \dim Y} (\mathrm{Y} _ {\mathbf { c } _ {p}, \acute {\mathrm{et}}}, \mathbf {Z} / \ell^ {m} \mathbf {Z}) \end{array}
 $$
 
-The isomorphism in the top row is from Proposition 8.6. We can pass to the inverse limit over m and tensor with$\bar { \mathbf { Q } } _ { \ell }$. If
+The isomorphism in the top row is from Proposition 8.6. We can pass to the inverse limit over m and tensor with $\bar { \mathbf { Q } } _ { \ell }$. If
 
 $$
-\mathrm{H} ^ {2 \dim \mathrm{Y}} (\mathrm{Y} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \bar {\mathbf {Q}} _ {\ell}) \to \mathrm{H} ^ {2 \dim \mathrm{Y}} \big (\mathrm{Z} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}} ^ {\prime}, \bar {\mathbf {Q}} _ {\ell} \big).
+\mathrm{H} ^ {2 \dim Y} (\mathrm{Y} _ {\mathbf {c} _ {p}, \acute {\mathrm{et}}}, \bar {\mathbf {Q}} _ {\ell}) \to \mathrm{H} ^ {2 \dim Y} \big (\mathrm{Z} _ {\mathbf { c } _ { p } ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \bar {\mathbf {Q}} _ {\ell} \big).
 $$
 
 is not an isomorphism, it is the zero map, and hence the diagram implies that the restriction map
 
 $$
-\mathrm{H} ^ {2 \dim \mathrm{Y}} (\mathrm{X} _ {\Sigma , \mathbf {C} _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \bar {\mathbf {Q}} _ {\ell}) \to \mathrm{H} ^ {2 \dim \mathrm{Y}} \big (Z _ {\mathbf {C} _ {p} ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \bar {\mathbf {Q}} _ {\ell} \big)
+\mathrm{H} ^ {2 \dim Y} (\mathrm{X} _ {\Sigma , \mathbf { c } _ {p} ^ {\flat}, \acute {\mathrm{et}}}, \bar {\mathbf {Q}} _ {\ell}) \to \mathrm{H} ^ {2 \dim Y} \big (\mathrm{Z} _ {\mathbf { c } _ { p } ^ {\flat}, \acute {\mathrm{et}}} ^ {\prime}, \bar {\mathbf {Q}} _ {\ell} \big)
 $$
 
-is the zero map as well. But the dim Y-th power of the first Chern class of an ample line bundle on$\mathrm { X } _ { \Sigma , \mathbf { C } _ { \boldsymbol { \mu } } ^ { \flat } }$will have nonzero image in$\mathrm { H } ^ { 2 \mathrm { d i m Y } } ( \mathrm { Z } _ { \mathbf { c } _ { p } ^ { \flat } , \vec { \mathrm { e t } } } ^ { \prime } , \bar { \mathbf { Q } } _ { \ell } )$-
+is the zero map as well. But the dim Y-th power of the first Chern class of an ample line bundle on $\mathrm { X } _ { \Sigma , \mathbf { c } _ { p } ^ { \flat } }$ will have nonzero image in $\mathrm { H } ^ { 2 \dim Y } ( \mathrm { Z } _ { \mathbf { c } _ { p } ^ { \flat } , \acute { \mathrm { e t } } } ^ { \prime } , \bar { \mathbf { Q } } _ { \ell } )$. □
 
-Now Poincaré duality implies that$\mathrm { H } ^ { i } ( \mathrm { Y } _ { \mathbf { C } _ { p } , \mathrm { \bar { e t } } } , \bar { \mathbf { Q } } _ { \ell } )$is a direct summand of$\mathrm { H } ^ { i } ( Z _ { \mathbf { c } _ { \rho } ^ { \flat } , \vec { \operatorname { e t } } } ^ { \prime } ,$ $\bar { \bf Q } _ { \ell } )$. By Deligne’s theorem, H$( Z _ { \mathbf { c } _ { p } ^ { \flat } , \flat } ^ { \prime } , \bar { \mathbf { Q } } _ { \ell } )$satisfies the weight-monodromy conjecture, and hence so does its direct summand$\mathrm { H } ^ { i } ( \mathrm { Y } _ { \mathbf { C } _ { p } , \mathrm { \bar { e t } } } , \bar { \mathbf { Q } } _ { \ell } )$-
+Now Poincaré duality implies that $\mathrm { H } ^ { i } ( \mathrm { Y } _ { \mathbf { c } _ { p } , \acute { \mathrm { e t } } } , \bar { \mathbf { Q } } _ { \ell } )$is a direct summand of $\mathrm { H } ^ { i } ( \mathrm { Z } _ { \mathbf { c } _ { p } ^ { \flat } , \acute { \mathrm { e t } } } ^ { \prime } , \bar { \mathbf { Q } } _ { \ell } )$. By Deligne’s theorem, $\mathrm { H } ^ { i } ( \mathrm { Z } _ { \mathbf { c } _ { p } ^ { \flat } , \acute { \mathrm { e t } } } ^ { \prime } , \bar { \mathbf { Q } } _ { \ell } )$ satisfies the weight-monodromy conjecture, and hence so does its direct summand $\mathrm { H } ^ { i } ( \mathrm { Y } _ { \mathbf { c } _ { p } , \acute { \mathrm { e t } } } , \bar { \mathbf { Q } } _ { \ell } )$. □
 
 ## Acknowledgements
 
-First, I want to express my deep gratitude to my advisor M. Rapoport, who suggested that I should think about the weight-monodromy conjecture, and in particular suggested that it might be possible to reduce it to the case of equal characteristic after a highly ramified base change. Next, I want to thank Gerd Faltings for a crucial remark on a first version ofthis paper. Moreover, I wish to thank all participants ofthe ARGOS seminar on perfectoid spaces at the University ofBonn in the summer term 2011, for working through an early version of this manuscript and the large number of suggestions for improvements. The same applies to Lorenzo Ramero, whom I also want to thank for his very careful reading of the manuscript. Moreover, I thank Roland Huber for answering my questions on adic spaces. Further thanks go to Ahmed Abbes, Bhargav Bhatt, Pierre Colmez, Laurent Fargues, Jean-Marc Fontaine, Ofer Gabber, Luc Illusie, Adrian Iovita, Kiran Kedlaya, Gerard Laumon, Ruochuan Liu, Wieslawa Niziol, Arthur Ogus, Martin Olsson, Bernd Sturmfels and Jared Weinstein for helpful discussions. Finally, I want to heartily thank the organizers of the CAGA lecture series at the IHES for their invitation. This work is the author’s PhD thesis at the University of Bonn, which was supported by the Hausdorff Center for Mathematics, and the thesis was finished while the author was a Clay Research Fellow. He wants to thank both institutions for their support. Moreover, parts of it were written while visiting Harvard University, the Université Paris-Sud at Orsay, and the IHES, and the author wants to thank these institutions for their hospitality.
+First, I want to express my deep gratitude to my advisor M. Rapoport, who suggested that I should think about the weight-monodromy conjecture, and in particular suggested that it might be possible to reduce it to the case of equal characteristic after a highly ramified base change. Next, I want to thank Gerd Faltings for a crucial remark on a first version of this paper. Moreover, I wish to thank all participants of the ARGOS seminar on perfectoid spaces at the University of Bonn in the summer term 2011, for working through an early version of this manuscript and the large number of suggestions for improvements. The same applies to Lorenzo Ramero, whom I also want to thank for his very careful reading of the manuscript. Moreover, I thank Roland Huber for answering my questions on adic spaces. Further thanks go to Ahmed Abbes, Bhargav Bhatt, Pierre Colmez, Laurent Fargues, Jean-Marc Fontaine, Ofer Gabber, Luc Illusie, Adrian Iovita, Kiran Kedlaya, Gerard Laumon, Ruochuan Liu, Wieslawa Niziol, Arthur Ogus, Martin Olsson, Bernd Sturmfels and Jared Weinstein for helpful discussions. Finally, I want to heartily thank the organizers of the CAGA lecture series at the IHES for their invitation. This work is the author’s PhD thesis at the University of Bonn, which was supported by the Hausdorff Center for Mathematics, and the thesis was finished while the author was a Clay Research Fellow. He wants to thank both institutions for their support. Moreover, parts of it were written while visiting Harvard University, the Université Paris-Sud at Orsay, and the IHES, and the author wants to thank these institutions for their hospitality.
 
 ## REFERENCES
 
@@ -2186,27 +2186,27 @@ First, I want to express my deep gratitude to my advisor M. Rapoport, who sugges
 
 7. J.-F. DAT, Théorie de Lubin-Tate non-abélienne et représentations elliptiques, Invent. Math., 169 (2007), 75–152.
 
-8. A.J. deJ<sub>ONG</sub>, Smoothness, semi-stability and alterations, Inst. Hautes Études Sci. Publ. Math., 83 (1996), 51–93.
+8. A. J. de JONG, Smoothness, semi-stability and alterations, Inst. Hautes Études Sci. Publ. Math., 83 (1996), 51–93.
 
-9. P. D , Théorie de Hodge. I, in Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 1, pp. 425–430, Gauthier-Villars, Paris, 1971.
+9. P. DELIGNE, Théorie de Hodge. I, in Actes du Congrès International des Mathématiciens (Nice, 1970), Tome 1, pp. 425–430, Gauthier-Villars, Paris, 1971.
 
-10. P. D<sub>ELIGNE</sub>, La conjecture de Weil. II, Inst. Hautes Études Sci. Publ. Math., 52 (1980), 137–252.
+10. P. DELIGNE, La conjecture de Weil. II, Inst. Hautes Études Sci. Publ. Math., 52 (1980), 137–252.
 
 11. G. FALTINGS, p-adic Hodge theory, J. Amer. Math. Soc., 1 (1988), 255–299.
 
 12. G. FALTINGS, Cohomologies p-adiques et applications arithmétiques, II, in Almost étale extensions. Astérisque, vol. 279, pp. 185–270, 2002.
 
-13. J.-M. F and J.-P. W , Extensions algébrique et corps des normes des extensions APF des corps locaux, C. R. Acad, Sci, Paris Sér, A-B. 288 (1979), A441−A444
+13. J.-M. FONTAINE and J.-P. WINTENBERGER, Extensions algébrique et corps des normes des extensions APF des corps locaux, C. R. Acad. Sci. Paris Sér. A-B, 288 (1979), A441−A444.
 
-14. O. GABBER and L. RAMERO, Foundations of almost ring theory, http://math.univ-lille1.fr/\~ramero/hodge.pdf.
+14. O. GABBER and L. RAMERO, Foundations of almost ring theory, http://math.univ-lille1.fr/~ramero/hodge.pdf.
 
 15. O. GABBER and L. RAMERO, Almost Ring Theory, Lecture Notes in Mathematics, vol. 1800, Springer, Berlin, 2003.
 
-16. M. HARRIS and R. TAYLOR, The Geometry and Cohomology ofsome Simple Shimura Varieties, Annals of Mathematics Studies, vol. 151, Princeton University Press, Princeton, 2001. With an appendix by Vladimir G. Berkovich.
+16. M. HARRIS and R. TAYLOR, The Geometry and Cohomology of some Simple Shimura Varieties, Annals of Mathematics Studies, vol. 151, Princeton University Press, Princeton, 2001. With an appendix by Vladimir G. Berkovich.
 
 17. E. HELLMANN, On arithmetic families of filtered ϕ-modules and crystalline representations, arXiv:1010.4577, 2011.
 
-18. M. H , Prime ideal structure in commutative rings, Trans. Amer. Math. Soc., 142 (1969), 43–60.
+18. M. HOCHSTER, Prime ideal structure in commutative rings, Trans. Amer. Math. Soc., 142 (1969), 43–60.
 
 19. R. HUBER, Continuous valuations, Math. Z., 212 (1993), 455–477.
 
@@ -2214,7 +2214,7 @@ First, I want to express my deep gratitude to my advisor M. Rapoport, who sugges
 
 21. R. HUBER, A finiteness result for direct image sheaves on the étale site of rigid analytic varieties, J. Algebraic Geom., 7 (1998), 359–403.
 
-22. R. H<sub>UBER</sub>, Étale cohomology of rigid analytic varieties and adic spaces, Aspects of Mathematics, vol. E30, Vieweg, Braunschweig, 1996.
+22. R. HUBER, Étale cohomology of rigid analytic varieties and adic spaces, Aspects of Mathematics, vol. E30, Vieweg, Braunschweig, 1996.
 
 23. L. ILLUSIE, Complexe cotangent et déformations. I, Lecture Notes in Mathematics, vol. 239, Springer, Berlin, 1971.
 
@@ -2226,24 +2226,28 @@ First, I want to express my deep gratitude to my advisor M. Rapoport, who sugges
 
 27. T. ITO, Weight-monodromy conjecture over equal characteristic local fields, Amer. J. Math., 127 (2005), 647–658.
 
-28. K. KEDLAYA and R. LIU, Relative p-adic Hodge theory, I: Foundations, http://math.mit.edu/\~kedlaya/papers/relative-padic-Hodge1.pdf.
+28. K. KEDLAYA and R. LIU, Relative p-adic Hodge theory, I: Foundations, http://math.mit.edu/~kedlaya/papers/relative-padic-Hodge1.pdf.
 
-29. D. QUILLEN, On the (co-) homology ofcommutative rings, in Applications ofCategoricalAlgebra, Proc. Sympos. Pure Math, vol. XVII, pp. 65–87, Am. Math. Soc., Providence, 1970.
+29. D. QUILLEN, On the (co-) homology of commutative rings, in Applications of Categorical Algebra, Proc. Sympos. Pure Math, vol. XVII, pp. 65–87, Am. Math. Soc., Providence, 1970.
 
 30. M. RAPOPORT and Th. ZINK, Über die lokale Zetafunktion von Shimuravarietäten. Monodromiefiltration und verschwindende Zyklen in ungleicher Charakteristik, Invent. Math., 68 (1982), 21–101.
 
 31. P. SCHOLZE, p-adic Hodge theory for rigid-analytic varieties, arXiv:1205.3463, 2012.
 
-32. S. W. SHIN, Galois representations arising from some compact Shimura varieties, Ann. ofMath. (2), 173 (2011), 1645–1741.
+32. S. W. SHIN, Galois representations arising from some compact Shimura varieties, Ann. of Math. (2), 173 (2011), 1645–1741.
 
-33. J. T , Rigid analytic spaces, Invent. Math., 12 (1971), 257–289.
+33. J. TATE, Rigid analytic spaces, Invent. Math., 12 (1971), 257–289.
 
-34. R. TAYLOR and T. YOSHIDA, Compatibility oflocal and global Langlands correspondences,J. Amer. Math. Soc., 20 (2007), 467–493.
+34. R. TAYLOR and T. YOSHIDA, Compatibility of local and global Langlands correspondences, J. Amer. Math. Soc., 20 (2007), 467–493.
 
-35. T. TERASOMA, Monodromy weight filtration is independent of , arXiv:math/9802051, 1998.
+35. T. TERASOMA, Monodromy weight filtration is independent of $\ell$, arXiv:math/9802051, 1998.
+
+P. S.
 
 Mathematisches Institut, Universität Bonn, 53115 Bonn, Germany scholze@math.uni-bonn.de
 
-## P. S.
+Manuscrit reçu le 11 décembre 2011
 
-Manuscrit reçu le 11 décembre 2011 Manuscrit accepté le 17juillet 2012 publié en ligne le 10 août 2012.
+Manuscript accepté le 17 juillet 2012
+
+publié en ligne le 10 août 2012.
