@@ -1756,7 +1756,7 @@ $$
 and with previous notation, let
 
 $$
-\Omega_ {k, s ^ {\prime}} = \sum_ {0 \leqslant a < Q _ {s ^ {\prime}}} S \left(\frac {a}{Q _ {s ^ {\prime}}}\right) w _ {2 ^ {k}} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right) \zeta \left(Q _ {s ^ {\prime}} ^ {2} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right)\right)\tag{7.59}
+\Omega_ {k, s ^ {\prime}} = \sum_ {0 \leqslant a < Q _ {s ^ {\prime}}} S \left(\frac {a}{Q _ {s ^ {\prime}}}\right) w _ {2k} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right) \zeta \left(Q _ {s ^ {\prime}} ^ {2} \left(\alpha - \frac {a}{Q _ {s ^ {\prime}}}\right)\right)\tag{7.59}
 $$
 
 for $s' \leqslant s, k \in \mathcal{K}_s$.
@@ -1764,7 +1764,7 @@ for $s' \leqslant s, k \in \mathcal{K}_s$.
 It follows from (6.15), (6.11), (6.13) that for $s' \leqslant s$, $k \in \mathcal{K}_s$
 
 $$
-\left| \mathcal {F} [ \mathrm{K} _ {2 ^ {k}} ] (\alpha) - \Omega_ {k, s ^ {\prime}} (\alpha) \right| <   2 ^ {- \delta^ {\prime} s ^ {\prime}}\tag{7.60}
+\left| \mathcal {F} [ \mathrm{K} _ {2k} ] (\alpha) - \Omega_ {k, s ^ {\prime}} (\alpha) \right| <   2 ^ {- s ^ {\prime} s ^ {\prime}}\tag{7.60}
 $$
 
 and by (7.13)
@@ -1782,13 +1782,13 @@ $$
 For $k\in \mathcal{K}_s$ , write
 
 $$
-\begin{array}{r l} f * \mathrm{K} _ {2 ^ {k}} & = \mathcal {F} ^ {- 1} [ \Omega_ {k, 1} \mathcal {F} f ] + \mathcal {F} ^ {- 1} [ (\Omega_ {k, 2} - \Omega_ {k, 1} ] \mathcal {F} f ] + \dots \\ & \quad + \mathcal {F} ^ {- 1} [ (\Omega_ {k, s} - \Omega_ {k, s - 1}) \mathcal {F} f ] + [ (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] ], \end{array}
+\begin{array}{r l} f * \mathrm{K} _ {2k} & = \mathcal {F} ^ {- 1} [ \Omega_ {k, 1} \mathcal {F} f ] + \mathcal {F} ^ {- 1} [ (\Omega_ {k, 2} - \Omega_ {k, 1} ] \mathcal {F} f ] + \dots \\ & \quad + \mathcal {F} ^ {- 1} [ (\Omega_ {k, s} - \Omega_ {k, s - 1}) \mathcal {F} f ] + [ (f * \mathrm{K} _ {2k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] ], \end{array}
 $$
 
 so that
 
 $$
-\begin{array}{r l} \sup _ {k} \left| f * \mathrm{K} _ {2 ^ {k}} \right| & \leqslant \sum_ {s ^ {\prime}} \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] \right| \\ & \quad + \sum_ {s} \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right|. \end{array}\tag{7.63}
+\begin{array}{r l} \sup _ {k} \left| f * \mathrm{K} _ {2k} \right| & \leqslant \sum_ {s ^ {\prime}} \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \mathcal {F} ^ {- 1} [ (\Omega_ {k, s ^ {\prime}} - \Omega_ {k, s ^ {\prime} - 1}) \mathcal {F} f ] \right| \\ & \quad + \sum_ {s} \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right|. \end{array}\tag{7.63}
 $$
 
 By (7.62)
@@ -1800,13 +1800,13 @@ $$
 while by (7.33) and (7.62) also
 
 $$
-\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right| \right\| _ {p _ {0}} \leqslant \mathrm{C}. s \left\| f \right\| _ {p _ {0}}.\tag{7.65}
+\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s} \mathcal {F} f ] \right| \right\| _ {p _ {0}} \leqslant \mathrm{C}. s \left\| f \right\| _ {p _ {0}}.\tag{7.65}
 $$
 
 Our purpose is to interpolate (7.64), (7.65) with better  $\ell^{2}$ -estimates. Using (6.15), estimate
 
 $$
-\begin{array}{l} \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| (f * K _ {2 ^ {k}}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} \leqslant \\ C \sum _ {k \geqslant 4 ^ {s ^ {\prime}}} 2 ^ {- k \delta_ {1}} + \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \sum _ {0 \leqslant r \leqslant s ^ {\prime}} \mathcal {F} ^ {- 1} [ \psi _ {r, 2 ^ {k}} \mathcal {F} f ] - \mathcal {F} ^ {- 1} [ \Omega _ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} + \\ \sum _ {r > s ^ {\prime}} \left\| \sup _ {k} \left| \mathcal {F} ^ {- 1} [ \psi _ {r, 2 ^ {k}} \mathcal {F} f ] \right| \right\| _ {2}, \end{array}\tag{7.66}
+\begin{array}{l} \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| (f * K _ {2k}) - \mathcal {F} ^ {- 1} [ \Omega_ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} \leqslant \\ C \sum _ {k \geqslant 4 ^ {s ^ {\prime}}} 2 ^ {- k \delta_ {1}} + \left\| \sup _ {k \geqslant 4 ^ {s ^ {\prime}}} \left| \sum _ {0 \leqslant r \leqslant s ^ {\prime}} \mathcal {F} ^ {- 1} [ \psi _ {r, 2k} \mathcal {F} f ] - \mathcal {F} ^ {- 1} [ \Omega _ {k, s ^ {\prime}} \mathcal {F} f ] \right| \right\| _ {2} + \\ \sum _ {r > s ^ {\prime}} \left\| \sup _ {k} \left| \mathcal {F} ^ {- 1} [ \psi _ {r, 2k} \mathcal {F} f ] \right| \right\| _ {2}, \end{array}\tag{7.66}
 $$
 
 where $\psi_{r,\mathbf{N}}$ is given by (6.7).
@@ -1826,7 +1826,7 @@ $$
 There is a uniform estimate on (7.67) for $k \geqslant 4^{s'}$ by
 
 $$
-\mathrm{C}. 4 ^ {s ^ {\prime}}. \sup _ {| \beta | > \mathbf {Q} _ {s ^ {\prime}} ^ {- 2}} | w _ {2 ^ {k}} (\beta) | <   \mathrm{C} 2 ^ {- k / 2}\tag{7.69}
+\mathrm{C}. 4 ^ {s ^ {\prime}}. \sup _ {| \beta | > \mathbf {Q} _ {s ^ {\prime}} ^ {- 2}} | w _ {2k} (\beta) | <   \mathrm{C} 2 ^ {- k / 2}\tag{7.69}
 $$
 
 in view of (6.13) and (7.57). Thus (7.67) contributes to the maximal function for at most  $C2^{-s'}$ .
@@ -1842,13 +1842,13 @@ $$
 while
 
 $$
-\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2 ^ {k}}) - \mathscr {F} ^ {- 1} \left[ \Omega_ {k,s} \mathscr{F} f \right] \right| \right\| _ {2} \leqslant \mathrm{C}. 2 ^ {- \delta^ {\prime} s} \left\| f \right\| _ {2}.\tag{7.71}
+\left\| \sup _ {k \in \mathcal {K} _ {s}} \left| (f * \mathrm{K} _ {2k}) - \mathscr {F} ^ {- 1} \left[ \Omega_ {k,s} \mathscr{F} f \right] \right| \right\| _ {2} \leqslant \mathrm{C}. 2 ^ {- \delta^ {\prime} s} \left\| f \right\| _ {2}.\tag{7.71}
 $$
 
 Interpolating (7.64), (7.70) at $p_0 < p < 2$ yields the corresponding $\ell^p$-inequality with constant $C.2^{-\delta_p s'}$. Similarly when interpolating (7.65), (7.71), and $\ell^p$-estimate $C.2^{-\delta_p s}$ is found. Here $\delta_p > 0$ depends on $p > 1$. Substitution of these bounds in (7.63) yields
 
 $$
-\left\| \sup _ {k} \left| f * \mathrm{K} _ {2 ^ {k}} \right| \right\| _ {p} \leqslant \mathrm{C} \sum_ {s ^ {\prime}} 2 ^ {- \delta_ {p} s ^ {\prime}} + \mathrm{C} \sum_ {s} 2 ^ {- \delta_ {p} s} <   \mathrm{C},
+\left\| \sup _ {k} \left| f * \mathrm{K} _ {2k} \right| \right\| _ {p} \leqslant \mathrm{C} \sum_ {s ^ {\prime}} 2 ^ {- \delta_ {p} s ^ {\prime}} + \mathrm{C} \sum_ {s} 2 ^ {- \delta_ {p} s} <   \mathrm{C},
 $$
 
 completing the proof of (7.2).
