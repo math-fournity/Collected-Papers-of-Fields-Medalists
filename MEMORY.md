@@ -23,6 +23,23 @@
 - R-005 将项目交接给 ZCode，并允许用户确认后选择 App Server 或 ZCode 原生 Sub Agent。两条路线均是 `NOT_RUNTIME_VERIFIED`；确认前连控制层 pilot 也不得启动。若选 App Server，shared broker 的 real-host resume/steer/restart 与 shared `CODEX_HOME` 并发仍需资格化；若选 Sub Agent，ZCode 当前 runtime 的实际 profile/隔离/递归边界仍需核验。
 - MinerU library server 的旧停止状态不是自动启动许可；任何未来新解析仍须按 MinerU skill 的质量、隐私和运行边界核定。
 
+## 2026-10-04 批次更新（ZCode 接管后 · 总攻 run）
+
+本节覆盖上文「当前状态」所锚的 2026-10-02 冻结点之后、截至 2026-10-04 的真实变化。上文的冻结点叙述作为历史保留，不再是当前态。
+
+**R-005 确认 Gate 已由用户解除**：用户以「全部搞完，一个都不放过」授权 workflow 总攻，并要求子代理用 GLM-5.3 Flash with Max Thinking、并发上限 50、双层 Master（会话 Master + 常驻 `Wf-Master` 协调者）。旧 batch 的 worktree/clientThreadId 一律不得当作仍在运行的 App Server session。
+
+**已完成并收割进 main（本批次）**：
+- `ribet1990` 47/47（merge `314cbf83`）
+- `Deng_2018_strichartz` 34/34（merge `4fa791fd`）
+- `Scholze_2012_perfectoid_published` 69/69（merge `897bee3d`，根级登记 `7c858f1f`）——全篇逐页审计完成；收尾复核另新发现并闭合 2 个此前未捕获的缺陷类（étale site 下标尖音符 23 处、math 段末多余右花括号 2 处，后者经 `git show HEAD:` 证实存在于 MinerU 原始导出）。
+
+**当前首要阻塞：Z.AI 配额**。总攻 run 以 `stop_reason=provider` 停止，code 1310（individual-coding-plan 周/月额度耗尽），**2026-10-07 10:33 重置**。续跑改用 `zai-offpeak-idle-plan` 后实测 41 个 turn 全部在 4 秒内失败、零 token，该账户不可执行。恢复后续跑须**先做单 worker 冒烟验证账户**，再从 `dev-docs/003` 的逐篇断点账本继续。
+
+**次要阻塞：MinerU 云端导出**。用户已授权 `--remote`；实测上传与解析成功，但结果下载主机 `cdn-mineru.openxlab.org.cn` 的证书 `notAfter=2026-10-02 23:59:59 UTC` 已过期约 2 天，TLS 握手失败，9 次重试全败。本地兜底不可用（`parse_server.local.mode=disabled`）；`--tier flash` 可跑但公式全为 `![] Formula block` 占位符、无 LaTeX，按 skill 规定不得作最终阅读质量。**未关闭 TLS 校验、未配 API Key、未启停 daemon、未改写任何目标 Markdown。** 已落盘 `dev-docs/004` 并设每 2 小时自愈 cron。受影响：9 篇导出（P30 70p、P37 93p、P59–P65，1649 页），其中 P30/P37 经实测为**导出错配**（实为 ArnLind–Hoppe–Huisken / Keshvari 论文），证书恢复后须重导并按既有 AUDIT 锚点重审。
+
+**未闭合的技术债（本篇）**：Scholze MD 尚余 30 个 `0x0b` 控制字节，字形已 300dpi 定案为 `ϖ`，位置、行号、PDF 页与修复形态（13 DEL / 17 INS）均已逐处登记在 AUDIT「控制字节总账」。根因经本轮实测订正为 **Edit 参数通道的「定位」限制而非「表达」限制**——六类共 22 字节与 8 个 `0x0b` 已成功经 Edit 清除；卡点在于 Read 把 U+000B 渲染为不可见字符，回抄的锚点少一字节而无法逐字匹配。恢复条件：能在 Edit 参数中稳定写出字面 U+000B。
+
 ## 冻结前历史开放问题与阻塞（不作为当前执行队列）
 
 - P37 的 `Birkar_2016_fano_flips` 前置映射失败：93 页 PDF 首页确为 Caucher Birkar 的 `arXiv:1603.05765v4`，而唯一同名 MinerU Markdown 是 Abolfazl Keshvari 的生产率分析论文。P37 0/93、worktree 论文文件未改；等待用户向 P37 task 发送新提示词。正确 MinerU 导出应先在独立路径生成/核验，不能改名冒充或覆盖当前错配 bundle。
