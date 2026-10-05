@@ -1730,7 +1730,7 @@ which is obviously satisfied for  $D < 2^{\delta k_{0}}$ .
 By definition of  $N_{r}$  and since  $k_{1}<k_{2}$ ,
 
 $$
-(7. 5 3) \leqslant k _ {0} ^ {\mathrm{C}} [ \mathbf {D} 2 ^ {- \mathbf {M} d} + 2 ^ {- \frac {1}{2} \mathbf {M} k _ {0}} ].\tag{7.56}
+(7.53) \ll k _ {0} ^ {\mathrm{C}} [ \mathbf {D} 2 ^ {- \mathbf {M} d} + 2 ^ {- \frac {1}{2} \mathbf {M} k _ {0}} ].\tag{7.56}
 $$
 
 Collecting estimates (7.52) and (7.56), the left number of (7.42) is bounded by
