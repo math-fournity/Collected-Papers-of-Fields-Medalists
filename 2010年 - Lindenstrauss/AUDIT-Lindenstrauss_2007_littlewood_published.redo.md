@@ -194,3 +194,28 @@
   与印刷吻合。
 
 ---
+
+## p.009（PDF p.9 / 印刷 p.521）
+
+- PNG：audit-redo/p009.png（pngmono 150dpi）；双通道：pdftotext 文本层互证。
+- 核对：conditional measures 系统引入句、性质 (1)–(7) 全部陈述、normalization 段（B_1^U=1）、
+  atomic/trivial 段（Poincaré recurrence、A-ergodic 二择一、[26, §9]/[17]）、positive entropy 收尾段、
+  脚注 2 全文。
+- 结果：**PASS±**（4 处标点偏离已修复）
+- 差异列表（均已用结构化 Edit 修复）：
+  1. 性质 (3)：印刷「∝ (μ_{ux,U})u**, **where …」为逗号，MD 原作 `u .$ where`（句点替代逗号）；
+     且行末「map v ↦ vu**.**」句点缺失。已修复为 `( \mu _ { u x , U } ) u$, where … $v \mapsto v u$.`
+     （MD 第 169 行）。
+  2. 性质 (4) 行末缺句点：印刷「α^t(μ_{x,U})α^{−t}.」；已补 `.`（MD 第 171 行）。
+  3. 性质 (5) 行末缺句点：印刷「whenever x, α^t x ∈ X′.」；已补 `.`（MD 第 175 行）。
+  4. 缺运行头「THE SET OF EXCEPTIONS TO LITTLEWOOD'S CONJECTURE 521」（系统性，不改）。
+- 排版级伪影（登记不改）：`Poincar´e`（重音分解，第 179 行）；性质 (6) 用字面「µ」而非 `$\mu$`；
+  (7) 中 `\mathsf{h}_\mu` 替代印刷斜体 h_μ。
+- print quirk 备注：印刷行 15「µx,U (B1U ) = 1」正常；印刷 (2) B_ε^U 与 MD 一致。MD 第 187 行
+  的性质 (8) 属印刷 p.522 内容，留待 p.010 块核对。
+- 其余核对：(1) measurable、(2) μ_{x,U}(B_ε^U)>0、normalization 段、atomic→identity I_k∈U→trivial、
+  Poincaré recurrence/unstable manifolds、A-ergodic ⇒ trivial a.s. or nonatomic a.s.、
+  (7) stable manifold/h_μ(α^t)/nonatomic a.e.、脚注 2（[20] conventions、[17]、[13]、not a Radon
+  measure on X）逐项与印刷吻合。
+
+---
