@@ -12,7 +12,7 @@ Article numérisé dans le cadre du programme
 Numérisation de documents anciens mathématiques
 http://www.numdam.org/
 
-# GEOMÉTRIE ALGÉBRIQUE ET GÉOMÉTRIE ANALYTIQUE
+# GÉOMÉTRIE ALGÉBRIQUE ET GÉOMÉTRIE ANALYTIQUE
 
 par Jean-Pierre SERRE.
 
@@ -150,7 +150,7 @@ Les propriétés suivantes résultent immédiatement de la définition de  $X^{h
 
 Si X et Y sont deux variétés algébriques, on a  $(\mathbf{X} \times \mathbf{Y})^{h} = \mathbf{X}^{h} \times \mathbf{Y}^{h}$ . Si Y est un sous-ensemble Z-localement fermé dans X, alors  $Y^{h}$  est un sous-ensemble analytique de  $X^{h}$ ; de plus, la structure analytique de  $Y^{h}$  coïncide avec la structure analytique induite sur Y par  $X^{h}$ . Enfin, si  $f: X \to Y$  est une application régulière d'une variété algébrique X dans une variété algébrique Y, f est aussi une application holomorphe de  $X^{h}$  dans  $Y^{h}$ .
 
-6. Relations entre l'anneau local d'un point et l'anneau des fonctions holomorphes en ce point.
+## 6. Relations entre l'anneau local d'un point et l'anneau des fonctions holomorphes en ce point.
 
 Soit X une variété algébrique, et soit x un point de X. Nous nous proposons de comparer l'anneau local  $O_{x}$  des fonctions régulières sur X au point x avec l'anneau local  $H_{x}$  des fonctions holomorphes sur  $X^{h}$  au voisinage de x.
 
@@ -174,12 +174,12 @@ Mais l'idéal $\mathfrak{J}_x(\mathbf{Y})$ est intersection d'idéaux premiers, 
 Passons au cas général. La question étant locale, on peut supposer que X est une sous-variété d'un espace affine que nous désignerons par U. Par définition, on a :
 
 $$
-\mathcal {O} _ {x} = \mathcal {O} _ {x, \mathrm{U}} / \mathfrak {I} _ {x} (\mathrm{X}, \mathrm{U}) \quad \text { et } \quad \mathcal {H} _ {x} = \mathcal {H} _ {x, \mathrm{U}} / \mathfrak {I} _ {x} (\mathrm{X}, \mathrm{U}).
+\mathcal {O} _ {x} = \mathcal {O} _ {x, \mathrm{U}} / \mathfrak {J} _ {x} (\mathrm{X}, \mathrm{U}) \quad \text { et } \quad \mathcal {H} _ {x} = \mathcal {H} _ {x, \mathrm{U}} / \mathfrak {I} _ {x} (\mathrm{X}, \mathrm{U}).
 $$
 
-L'application $\theta: \mathcal{O}_x \to \mathcal{H}_x$ est obtenue par passage au quotient à partir de l'application $\theta: \mathcal{O}_{x,\mathrm{U}} \to \mathcal{H}_{x,\mathrm{U}}$, et, d'après ce qui précède, nous savons que $\hat{\theta}: \hat{\mathcal{O}}_{x,\mathrm{U}} \to \hat{\mathcal{H}}_{x,\mathrm{U}}$ est bijectif, et que $\mathcal{A}_x(\mathrm{X}, \mathrm{U}) = \theta (\mathfrak{I}_x(\mathrm{X}, \mathrm{U}))$. $\mathcal{H}_{x,\mathrm{U}}$. La proposition 3 en résulte immédiatement, en appliquant la proposition 29 de l'Annexe. Quant à la proposition 4, elle résulte de ce que $\mathcal{A}_x(\mathrm{Y})$ est l'image
+L'application $\theta: \mathcal{O}_x \to \mathcal{H}_x$ est obtenue par passage au quotient à partir de l'application $\theta: \mathcal{O}_{x,\mathrm{U}} \to \mathcal{H}_{x,\mathrm{U}}$, et, d'après ce qui précède, nous savons que $\hat{\theta}: \hat{\mathcal{O}}_{x,\mathrm{U}} \to \hat{\mathcal{H}}_{x,\mathrm{U}}$ est bijectif, et que $\mathcal{A}_x(\mathrm{X}, \mathrm{U}) = \theta (\mathfrak{J}_x(\mathrm{X}, \mathrm{U}))$. $\mathcal{H}_{x,\mathrm{U}}$. La proposition 3 en résulte immédiatement, en appliquant la proposition 29 de l'Annexe. Quant à la proposition 4, elle résulte de ce que $\mathcal{A}_x(\mathrm{Y})$ est l'image
 
-canonique de l'idéal $\mathcal{A}_{x}(\mathbf{Y},\mathbf{U})$, lequel est engendré par $\theta(\mathfrak{I}_{x}(\mathbf{Y},\mathbf{U}))$, d'après ce qui précède.
+canonique de l'idéal $\mathcal{A}_{x}(\mathbf{Y},\mathbf{U})$, lequel est engendré par $\theta(\mathfrak{J}_{x}(\mathbf{Y},\mathbf{U}))$, d'après ce qui précède.
 
 La proposition 3 montre en particulier que $\theta: \mathcal{O}_x \to \mathcal{H}_x$ est injectif ce qui nous permettra d'identifier $\mathcal{O}_x$ au sous-anneau $\theta(\mathcal{O}_x)$ de $\mathcal{H}_x$. Compte tenu de cette identification, on a :
 
@@ -193,7 +193,7 @@ Compte tenu des résultats énoncés au n° 4, on obtient le résultat suivant (
 
 COROLLAIRE 3. — Si X est une variété algébrique irréductible de dimension r, l'espace analytique  $X^{h}$  est de dimension analytique r en chacun de ses points.
 
-7. Relations entre la topologie usuelle et la topologie de Zariski d'une variété algébrique.
+## 7. Relations entre la topologie usuelle et la topologie de Zariski d'une variété algébrique.
 
 PROPOSITION 5. — Soient X une variété algébrique, et U une partie de X. Si U est Z-ouverte et Z-dense dans X, alors U est dense dans X.
 
