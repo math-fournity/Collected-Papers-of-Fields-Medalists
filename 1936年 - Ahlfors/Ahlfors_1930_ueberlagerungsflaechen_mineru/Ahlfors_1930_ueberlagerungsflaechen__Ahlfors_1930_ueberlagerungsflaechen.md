@@ -320,7 +320,7 @@ Es soll zunächst kurz erklärt werden, wie man zu dieser Formulierung kommt. Au
 
 Wir bemerken schliesslich, dass der Satz trivial ist für $\varrho_{0} \leq 0$. Wir brauchen also nur solche Grundflächen zu betrachten, deren Charakteristik $\varrho_{0}$ positiv ist.
 
-12. Wir beginnen unseren Beweis mit dem Fall einer schlichtartigen Grundfläche. $W_0$ besitze $q > 2$ geschlossene Konturen, die sich eventuell auf Punkte reduzieren können; dann gilt $\varrho_0 = q - 2$. Durch $q$ punktfremde Querschnitte $\gamma_1, \ldots, \gamma_q$ mit endlicher Länge zerlegt man die Grundfläche in zwei einfach zusammenhängende Teile $\Delta'$ und $\Delta''$. Die Wahl dieser Querschnitte soll natürlich ein für alle Mal festgelegt werden, und darf nicht von der Überlagerungsfläche $W$ abhängen.
+12. Wir beginnen unseren Beweis mit dem Fall einer schlichtartigen Grundfläche. $W_0$ besitze $q > 2$ geschlossene Konturen, die sich eventuell auf Punkte reduzieren können; dann gilt $\varrho_0 = q - 2$. Durch $q$ punktfremde Querschnitte $\gamma_1, \ldots, \gamma_q$ mit endlicher Länge zerlegt man die Grundfläche in zwei einfach zusammenhängende Teile $\mathcal{A}'$ und $\mathcal{A}''$. Die Wahl dieser Querschnitte soll natürlich ein für alle Mal festgelegt werden, und darf nicht von der Überlagerungsfläche $W$ abhängen.
 
 Die Überlagerungsfläche W ist definiert mit Hilfe einer gewissen Dreiecksteilung der Grundfläche. Wir nehmen an, dass es eine gewisse Unterteilung dieser Teilung gibt, in welcher die Querschnitte  $\gamma_{1}, \ldots, \gamma_{q}$  aus lauter Kanten bestehen. Ferner wird vorausgesetzt, dass W keine über diesen Querschnitten gelegenen Verzweigungspunkte besitzt. Diese Annahmen bedeuten keine Einschränkung, denn jede Fläche kann durch eine beliebig kleine Deformation, welche den Zusammenhang unverändert lässt und eine beliebig kleine Änderung von S und L verursacht, in eine Fläche verwandelt werden, die diesen Voraussetzungen genügt.
 
@@ -357,7 +357,7 @@ Damit ist die ganze Klasseneinteilung vollzogen. Zur besseren Orientierung geben
 $$
 \begin{array}{c c c c}
 (\Omega_1)\dots(\Omega_p) & \multicolumn{2}{c}{(\Omega')} & (\Omega^*)\\
-(\sigma_1)\dots(\sigma_p) & (\sigma') & (\sigma'') & (\sigma^*)
+(\sigma_1)\dots(\sigma_p) & \multicolumn{2}{c}{\overbrace{(\sigma')\;(\sigma'')}} & (\sigma^*)
 \end{array}
 $$
 
@@ -385,9 +385,9 @@ $$
 \varrho \geq \frac {q - 2}{q} \left(n (\sigma^ {*}) + \frac {1}{2} n (\sigma^ {\prime})\right) \geq \frac {q - 2}{q} n (\sigma^ {*}).\tag{8}
 $$
 
-Es gilt jetzt die Anzahl $n(\sigma^{*})$ nach unten abzuschätzen. Jeder Querschnitt $\sigma$ liegt über einer der Kurven $\gamma_{\nu}$; $\lambda(\sigma)$ bezeichne die Länge des Querschnitts dividiert durch die Länge dieser Kurve. Ferner setzen wir $\lambda^{*}=\Sigma\lambda(\sigma^{*})$, $\lambda^{\prime}=\Sigma\lambda(\sigma^{\prime})$, $\lambda^{\prime\prime}=\Sigma\lambda(\sigma^{\prime\prime})$ und endlich $\lambda_{a}$ gleich der entsprechenden Summe erstreckt über alle Querschnitte der abgesonderten Klassen ($\sigma_{n}$). Es ist zunächst $n(\sigma^{*})\geq\lambda^{*}$, denn jedes $\lambda(\sigma)$ ist höchstens gleich 1. Weiter gilt definitionsgemäss $\sum_{1}^{q}s(\gamma_{\nu})=\lambda^{*}+\lambda^{\prime}+\lambda^{\prime\prime}+\lambda_{a}$. Nach dem Überdeckungssatz ist andererseits
+Es gilt jetzt die Anzahl $n(\sigma^{*})$ nach unten abzuschätzen. Jeder Querschnitt $\sigma$ liegt über einer der Kurven $\gamma_{\mu}$; $\lambda(\sigma)$ bezeichne die Länge des Querschnitts dividiert durch die Länge dieser Kurve. Ferner setzen wir $\lambda^{*}=\Sigma\lambda(\sigma^{*})$, $\lambda^{\prime}=\Sigma\lambda(\sigma^{\prime})$, $\lambda^{\prime\prime}=\Sigma\lambda(\sigma^{\prime\prime})$ und endlich $\lambda_{a}$ gleich der entsprechenden Summe erstreckt über alle Querschnitte der abgesonderten Klassen ($\sigma_{n}$). Es ist zunächst $n(\sigma^{*})\geq\lambda^{*}$, denn jedes $\lambda(\sigma)$ ist höchstens gleich 1. Weiter gilt definitionsgemäss $\sum_{i=1}^{q}s(\nu_{i})=\lambda^{*}+\lambda^{\prime}+\lambda^{\prime\prime}+\lambda_{a}$. Nach dem Überdeckungssatz ist andererseits
 
-$\sum_{1}^{q}s(\gamma_{\nu}) \geqq qS - kL$ und wir erhalten aus (8)
+$\sum_{i=1}^{q}s(\nu_{i}) \geqq qS - kL$ und wir erhalten aus (8)
 
 $$
 \varrho \geq (q - 2) S - k L - (\lambda^ {\prime} + \lambda^ {\prime \prime} + \lambda_ {a}).
@@ -397,15 +397,15 @@ Um den Beweis zu vollenden brauchen wir nur noch zu zeigen, dass $\lambda' + \la
 
 stante. Dieses genügt auch in dem Falle, wo die Klassen  $(\sigma_{n})$  sämtliche Querschnitte umfassen. Man schliesst nämlich dann mit Hilfe des Überdeckungssatzes, dass S selbst kleiner als eine Konstante mal L wird, und die Ungleichung (II. 1) ist erfüllt für einen gewissen Wert der Konstante k.
 
-15. Die Zuendeführung des Beweises geschieht durch eine neue Anwendung des Überdeckungssatzes. Wir betrachten als Grundflächen die von den Kurven $\gamma_{\nu}$ begrenzten Teilgebiete $\Delta'$ und $\Delta''$, und bestimmen eine feste Zahl $k$ mit folgender Eigenschaft: Wenn $\Omega$ eine beliebige Überlagerungsfläche von $\Delta'$ oder $\Delta''$ ist und $s(\gamma_{\nu})$ ihre mittlere Blätteranzahl über $\gamma_{\nu}$, so soll für jedes Kurvenpaar $\gamma_{\mu}, \gamma_{\nu}$ die Ungleichung
+15. Die Zuendeführung des Beweises geschieht durch eine neue Anwendung des Überdeckungssatzes. Wir betrachten als Grundflächen die von den Kurven $\gamma_{\nu}$ begrenzten Teilgebiete $\mathcal{A}'$ und $\mathcal{A}''$, und bestimmen eine feste Zahl $k$ mit folgender Eigenschaft: Wenn $\Omega$ eine beliebige Überlagerungsfläche von $\mathcal{A}'$ oder $\mathcal{A}''$ ist und $s(\gamma_{\nu})$ ihre mittlere Blätteranzahl über $\gamma_{\nu}$, so soll für jedes Kurvenpaar $\gamma_{\mu}, \gamma_{\nu}$ die Ungleichung
 
 $$
 \left| s \left(\gamma_ {\mu}\right) - s \left(\gamma_ {\nu}\right) \right| \leq \frac {q - 2}{q - 1} k L (\Omega)
 $$
 
-erfüllt sein, wobei $L(\Omega)$ die Länge des relativen Randes von $\Omega$ in Bezug auf $\Delta'$ bzw. $\Delta''$ bezeichnet.
+erfüllt sein, wobei $L(\Omega)$ die Länge des relativen Randes von $\Omega$ in Bezug auf $\mathcal{A}'$ bzw. $\mathcal{A}''$ bezeichnet.
 
-Für Ω wählen wir eines der Gebiete Ω$_{n}$. Der entsprechende Querschnitt σ$_{n}$ liege z. B. über γ$_{1}$. Dann gilt für ν = 2, ..., q
+Für Ω wählen wir eines der Gebiete $\Omega_{n}$. Der entsprechende Querschnitt $\sigma_{n}$ liege z. B. über $\gamma_{1}$. Dann gilt für ν = 2, ..., q
 
 $$
 \lambda (\sigma_ {n}) \leq s (\gamma_ {1}) \leq s (\gamma_ {\nu}) + \frac {q - 2}{q - 1} k L (\Omega_ {n}).
@@ -495,17 +495,17 @@ $$
 
 Auf die Gebiete $W'$ wenden wir die Ungleichung (II. 1) an, und bemerken dass die Summe ihrer mittleren Blätteranzahlen gleich $N - S$ ist. Wir erhalten also
 
-oder
-
 $$
 N \varrho_ {0} \geq \varrho + (N - S) \varrho_ {0} - N _ {1} + n (\Gamma) - k L
 $$
+
+oder
 
 $$
 \varrho \leq S \varrho_ {0} + N _ {1} - n (\Gamma) + k L.
 $$
 
-Wenn der ganze Rand $\Gamma$ aus lauter Querschnitten besteht, so zerfällt $F'$ in höchstens $n(\Gamma)+1$ Teilgebiete, wovon eines mit $W$ identisch ist. In diesem Falle ist also $N_{1}\leq n(\Gamma)$. Für jeden Rückkehrschnitt kann die Anzahl $N_{1}$ höchstens um eine Einheit zunehmen. Wenn die Anzahl der zu $\Gamma$ gehörigen geschlossenen Konturen mit $\alpha$ bezeichnet wird, so erhalten wir folglich $N_{1}\leq n(\Gamma)+\alpha$, woraus
+Wenn der ganze Rand $\Gamma$ aus lauter Querschnitten besteht, so zerfällt $F$ in höchstens $n(\Gamma)+1$ Teilgebiete, wovon eines mit $W$ identisch ist. In diesem Falle ist also $N_{1}\leq n(\Gamma)$. Für jeden Rückkehrschnitt kann die Anzahl $N_{1}$ höchstens um eine Einheit zunehmen. Wenn die Anzahl der zu $\Gamma$ gehörigen geschlossenen Konturen mit $\alpha$ bezeichnet wird, so erhalten wir folglich $N_{1}\leq n(\Gamma)+\alpha$, woraus
 
 $$
 \varrho \leq S \varrho_ {0} + k L + \alpha .
@@ -535,49 +535,49 @@ Eine Folge von endlichen Flächen, welche die offene Fläche $W^{*}$ definiert, 
 
 In den folgenden Untersuchungen spielt die Frage nach der Existenz einer regulären Ausschöpfung eine hervorragende Rolle.
 
-19. Wenn $\Delta$ ein beliebiges Teilgebiet von $W_{0}$ ist, so gilt nach dem Überdeckungssatz
+19. Wenn $\mathcal{A}$ ein beliebiges Teilgebiet von $W_{0}$ ist, so gilt nach dem Überdeckungssatz
 
 $$
-\left| S - S (\Delta) \right| \leq k L,
+\left| S - S (\mathcal{A}) \right| \leq k L,
 $$
 
-gleichmäßig für alle Flächen $W$ einer ausschöpfenden Folge. Wir wollen die Grösse $S(\Delta)$ etwas näher untersuchen. Der über $\Delta$ gelegene Teil einer Fläche $W$ zerfällt in zusammenhängende Flächenteile $\Omega$ von zwei verschiedenen Arten. Entweder ist ein Flächenstück $\Omega$ relativ unberandet in bezug auf $\Delta$; dann wird $\Omega$ eine »Insel» genannt. Oder $\Omega$ besitzt einen relativen Rand, der dann natürlich Teil des relativen Randes von $W$ ist; in diesem Falle heisst $\Omega$ eine »Zunge». Der von einer Insel herrührende Teil von $S(\Delta)$ ist ganzzahlig und gleich der Blätteranzahl der Insel. Wir nennen diese Zahl die Multiplizität der betref-
+gleichmässig für alle Flächen $W$ einer ausschöpfenden Folge. Wir wollen die Grösse $S(\mathcal{A})$ etwas näher untersuchen. Der über $\mathcal{A}$ gelegene Teil einer Fläche $W$ zerfällt in zusammenhängende Flächenteile $\Omega$ von zwei verschiedenen Arten. Entweder ist ein Flächenstück $\Omega$ relativ unberandet in bezug auf $\mathcal{A}$; dann wird $\Omega$ eine »Insel» genannt. Oder $\Omega$ besitzt einen relativen Rand, der dann natürlich Teil des relativen Randes von $W$ ist; in diesem Falle heisst $\Omega$ eine »Zunge». Der von einer Insel herrührende Teil von $S(\mathcal{A})$ ist ganzzahlig und gleich der Blätteranzahl der Insel. Wir nennen diese Zahl die Multiplizität der betref-
 
 23-34686. Acta mathematica. 65. Imprimé le 8 février 1935.
 
-fenden Insel. Rechnet man die Multiplizitäten aller Inseln zusammen, so erhält man eine Zahl $n(\Delta)$ welche angibt, wie oft $\Delta$ sozusagen vollständig überdeckt wird.
+fenden Insel. Rechnet man die Multiplizitäten aller Inseln zusammen, so erhält man eine Zahl $n(\mathcal{A})$ welche angibt, wie oft $\mathcal{A}$ sozusagen vollständig überdeckt wird.
 
-Den von den Zungen herrührenden Teil von $S(\Delta)$ bezeichnen wir mit $\mu(\Delta)$. Den Überdeckungssatz können wir dann in der Form der
+Den von den Zungen herrührenden Teil von $S(\mathcal{A})$ bezeichnen wir mit $\mu(\mathcal{A})$. Den Überdeckungssatz können wir dann in der Form der
 
 Gleichung (A)
 
 $$
-n (\Delta) + \mu (\Delta) = S + O (L)
+n (\mathcal{A}) + \mu (\mathcal{A}) = S + O (L)
 $$
 
 schreiben. Die Landausche Bezeichnungsweise gibt an, dass das letzte Glied dem absoluten Betrag nach kleiner ist als $L$ multipliziert mit einer Konstante. Diese Abschätzung wird besonders bedeutungsvoll, wenn wir die Gleichung (A) auf eine regulär ausschöpfende Folge anwenden. Für eine derartige Ausschöpfung folgt z. B.
 
 $$
-\overline {{\lim}} \frac {n (\Delta)}{S} \leq 1.
+\overline {{\lim}} \frac {n (\mathcal{A})}{S} \leq 1.
 $$
 
-Wenn man das Gebiet $\Delta$ durch ein Teilgebiet ersetzt, so wird $n(\Delta)$ unverändert oder grösser. Lässt man $\Delta$ sich auf einen Punkt $a$ zusammenziehen, so wird $n(\Delta)$ schliesslich gleich der Anzahl $n(a)$ der über $a$ gelegenen inneren Punkte von $W$, vorausgesetzt dass die Verzweigungspunkte bei der Berechnung dieser Anzahl mit ihren Multiplizitäten gezählt werden. Man muss aber beachten, dass die Gleichung (A) bei diesem Grenzübergang ihre Geltung verliert, denn die Konstante $k$ kann über alle Grenzen wachsen.
+Wenn man das Gebiet $\mathcal{A}$ durch ein Teilgebiet ersetzt, so wird $n(\mathcal{A})$ unverändert oder grösser. Lässt man $\mathcal{A}$ sich auf einen Punkt $a$ zusammenziehen, so wird $n(\mathcal{A})$ schliesslich gleich der Anzahl $n(a)$ der über $a$ gelegenen inneren Punkte von $W$, vorausgesetzt dass die Verzweigungspunkte bei der Berechnung dieser Anzahl mit ihren Multiplizitäten gezählt werden. Man muss aber beachten, dass die Gleichung (A) bei diesem Grenzübergang ihre Geltung verliert, denn die Konstante $k$ kann über alle Grenzen wachsen.
 
 20. Wir wollen jetzt die bisherige Allgemeinheit verlassen, indem wir einen besonders wichtigen Spezialfall ins Auge fassen. Die Betrachtungen sind jedoch die ganze Zeit solcher Art, dass sie ohne Mühe auch in allgemeineren Fällen durchgeführt werden können.
 
-Als Grundfläche $W_0$ wählen wir eine geschlossene Fläche vom Geschlecht Null; es ist keine Einschränkung, wenn wir für $W_0$ z. B. eine Kugel nehmen. Weiter setzen wir voraus, dass die über $W_0$ ausgebreitete offene Überlagerungsfläche $W^*$ einfach zusammenhängend ist, d. h. es soll eine Ausschöpfung durch lauter einfach zusammenhängende Flächen $W$ geben. Auf $W_0$ betrachten wir eine Anzahl von $q \geq 2$ ausserhalb einander liegenden, einfach zusammenhängenden Gebieten $\Delta_1, \ldots, \Delta_q$. Die folgenden Untersuchungen beziehen sich auf die Überdeckung dieser Gebiete.
+Als Grundfläche $W_0$ wählen wir eine geschlossene Fläche vom Geschlecht Null; es ist keine Einschränkung, wenn wir für $W_0$ z. B. eine Kugel nehmen. Weiter setzen wir voraus, dass die über $W_0$ ausgebreitete offene Überlagerungsfläche $W^*$ einfach zusammenhängend ist, d. h. es soll eine Ausschöpfung durch lauter einfach zusammenhängende Flächen $W$ geben. Auf $W_0$ betrachten wir eine Anzahl von $q \geq 2$ ausserhalb einander liegenden, einfach zusammenhängenden Gebieten $\mathcal{A}_1, \ldots, \mathcal{A}_q$. Die folgenden Untersuchungen beziehen sich auf die Überdeckung dieser Gebiete.
 
-Ausser der oben eingeführten, gewöhnlichen Multiplizität einer Insel, die einem Gebiet  $\Delta$  entspricht, wollen wir noch eine zweite Multiplizität definieren,
+Ausser der oben eingeführten, gewöhnlichen Multiplizität einer Insel, die einem Gebiet  $\mathcal{A}$  entspricht, wollen wir noch eine zweite Multiplizität definieren,
 
-die wir als einfache Multiplizität der Insel bezeichnen. Diese einfache Multiplizität soll gleich der mit umgekehrtem Vorzeichen genommenen Charakteristik der betreffenden Insel sein. Also ist die einfache Multiplizität höchstens gleich 1, sie kann aber auch Null oder negativ sein. Sie ist 1 bei jeder einfach zusammenhängenden Insel, und diesen Fall können wir als den normalen betrachten, vorausgesetzt dass wir die einfachen Multiplizitäten nur für einfach zusammenhängende Gebiete Δ bilden.
+die wir als einfache Multiplizität der Insel bezeichnen. Diese einfache Multiplizität soll gleich der mit umgekehrtem Vorzeichen genommenen Charakteristik der betreffenden Insel sein. Also ist die einfache Multiplizität höchstens gleich 1, sie kann aber auch Null oder negativ sein. Sie ist 1 bei jeder einfach zusammenhängenden Insel, und diesen Fall können wir als den normalen betrachten, vorausgesetzt dass wir die einfachen Multiplizitäten nur für einfach zusammenhängende Gebiete $\mathcal{A}$ bilden.
 
-Die Summe aller einfachen Multiplizitäten, die zu den über einem Gebiet $\Delta$ gelegenen Inseln gehören, bezeichnen wir mit $p(\Delta)$. Sie ist höchstens gleich der Anzahl der Inseln, und also sicher kleiner oder gleich $n(\Delta)$. Wir bilden die Grössen $p(\Delta_{\nu})$ für eine Fläche $W$ der $W^*$ ausschöpfenden Folge und bezeichnen die Summe $\sum_{1}^{q} p(\Delta_{\nu})$ kurz mit $p$. Eine obere Schranke für $p$ ist durch $qS + kL$ gegeben. Es handelt sich darum, auch eine untere Abschätzung für dieselbe Summe zu finden.
+Die Summe aller einfachen Multiplizitäten, die zu den über einem Gebiet $\mathcal{A}$ gelegenen Inseln gehören, bezeichnen wir mit $p(\mathcal{A})$. Sie ist höchstens gleich der Anzahl der Inseln, und also sicher kleiner oder gleich $n(\mathcal{A})$. Wir bilden die Grössen $p(\mathcal{A}_{\nu})$ für eine Fläche $W$ der $W^*$ ausschöpfenden Folge und bezeichnen die Summe $\sum_{1}^{q} p(\mathcal{A}_{\nu})$ kurz mit $p$. Eine obere Schranke für $p$ ist durch $qS + kL$ gegeben. Es handelt sich darum, auch eine untere Abschätzung für dieselbe Summe zu finden.
 
-Wir betrachten sämtliche über den Gebieten $\Delta_{1},\ldots,\Delta_{q}$ gelegene Flächenstücke $\Omega$, bezeichnen die Inseln mit $\Omega_{i}$ und die Zungen mit $\Omega_{z}$. Aus $W$ entfernen wir zunächst alle $\Omega_{z}$; dadurch zerfällt $W$ in lauter einfach zusammenhängende Restgebiete $W'$. Aus den Gebieten $W'$ entfernen wir jetzt noch alle Inseln $\Omega_{i}$. Dann können die übriggebliebenen Gebiete $\overline{W}$ als Überlagerungsflächen des $q$-fach zusammenhängenden Komplementärgebiets $\overline{W}_{0}$ der Gebiete $\Delta_{\nu}$ aufgefasst werden. Die Gebiete $\overline{W}$ sind von zwei wesentlich verschiedenen Arten: die Gebiete der ersten Art sind relativ unberandet in bezug auf $\overline{W}_{0}$, während die Gebiete der zweiten Art einen relativen Rand besitzen.$^{1}$ Die Gebiete $\overline{W}$ sind sicher mehrfach zusammenhängend, denn sie besitzen nach der Hurwitzschen Relation eine Charakteristik, die wenigstens gleich einem Vielfachen von $q-2$ ist und folglich nicht negativ sein kann.
+Wir betrachten sämtliche über den Gebieten $\mathcal{A}_{1},\ldots,\mathcal{A}_{q}$ gelegene Flächenstücke $\Omega$, bezeichnen die Inseln mit $\Omega_{i}$ und die Zungen mit $\Omega_{z}$. Aus $W$ entfernen wir zunächst alle $\Omega_{z}$; dadurch zerfällt $W$ in lauter einfach zusammenhängende Restgebiete $W'$. Aus den Gebieten $W'$ entfernen wir jetzt noch alle Inseln $\Omega_{i}$. Dann können die übriggebliebenen Gebiete $\overline{W}$ als Überlagerungsflächen des $q$-fach zusammenhängenden Komplementärgebiets $\overline{W}_{0}$ der Gebiete $\mathcal{A}_{\nu}$ aufgefasst werden. Die Gebiete $\overline{W}$ sind von zwei wesentlich verschiedenen Arten: die Gebiete der ersten Art sind relativ unberandet in bezug auf $\overline{W}_{0}$, während die Gebiete der zweiten Art einen relativen Rand besitzen.$^{1}$ Die Gebiete $\overline{W}$ sind sicher mehrfach zusammenhängend, denn sie besitzen nach der Hurwitzschen Relation eine Charakteristik, die wenigstens gleich einem Vielfachen von $q-2$ ist und folglich nicht negativ sein kann.
 
 Die Zerlegung der Gebiete $W'$ in die Teile $\Omega_i$ und $\overline{W}$ erfolgt mit Hilfe von lauter Rückkehrschnitten. Es gilt folglich $\sum \varrho(\overline{W}) + \sum \varrho(\Omega_i) = \sum \varrho(W')$, woraus $p = -\sum \varrho(\Omega_i) = \sum \varrho(\overline{W}) + N(W')$, wenn $N(W')$ die Anzahl der Gebiete $W'$ bezeichnet. Setzen wir $N_1(\overline{W})$ gleich der Anzahl der einfach zusammenhängenden $\overline{W}$, so erhalten wir noch $p = \sum \stackrel {+} {\varrho}(\overline{W}) + N(W') - N_1(\overline{W})$. Nach dem was oben gezeigt wurde, sind die einfach zusammenhängenden $\overline{W}$ von der zweiten Art und offenbar mit einem $W'$ identisch. Hieraus folgt dass
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Die Gebiete der ersten Art könnten zweckmäßig als »Binnenseen« bezeichnet werden.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Die Gebiete der ersten Art könnten zweckmässig als »Binnenseen« bezeichnet werden.</span></small>
 
 $\beta = N(W') - N_{1}(W)$  die Anzahl derjenigen unter den Gebieten  $W'$  angibt, welche wenigstens eine Insel enthalten.
 
@@ -598,62 +598,62 @@ Die nicht-negative Anzahl  $\beta$  wollen wir in diesem Zusammenhang einfach we
 Ungleichung (B)
 
 $$
-p = \sum_ {1} ^ {q} p (\Delta_{\nu}) \geqq (q - 2) S - k L,
+p = \sum_ {1} ^ {q} p (\mathcal{A}_{\nu}) \geqq (q - 2) S - k L,
 $$
 
 gültig für  $q \geq 2$ .
 
 Wenn $q = 2$ ist, so sieht man durch eine rein topologische Betrachtung ein, dass sogar $p \geq 0$ gilt. Die eigentliche Bedeutung unserer Ungleichung fängt also erst mit $q = 3$ an.
 
-21. Wenn man auf alle Inseln, die einem einfach zusammenhängenden Gebiet  $\Delta$  entsprechen, die Hurwitzsche Relation anwendet, so ergibt sich
+21. Wenn man auf alle Inseln, die einem einfach zusammenhängenden Gebiet  $\mathcal{A}$  entsprechen, die Hurwitzsche Relation anwendet, so ergibt sich
 
 $$
-p (\Delta) = n (\Delta) - w (\Delta),
+p (\mathcal{A}) = n (\mathcal{A}) - w (\mathcal{A}),
 $$
 
-wo $w(\Delta)$ die Summe der Verzweigungsordnungen der zu den Inseln gehörigen Verzweigungspunkte bedeutet. Die Ungleichung (B) erhält die Form
+wo $w(\mathcal{A})$ die Summe der Verzweigungsordnungen der zu den Inseln gehörigen Verzweigungspunkte bedeutet. Die Ungleichung (B) erhält die Form
 
 $$
-\sum_ {1} ^ {q} n \left(\Delta_{\nu}\right) - \sum_ {1} ^ {q} w \left(\Delta_{\nu}\right) \geq (q - 2) S - k L
+\sum_ {1} ^ {q} n \left(\mathcal{A}_{\nu}\right) - \sum_ {1} ^ {q} w \left(\mathcal{A}_{\nu}\right) \geq (q - 2) S - k L
 $$
 
 oder
 
 $$
-\sum_ {1} ^ {q} (S - n (\Delta_{\nu})) + \sum_ {1} ^ {q} w (\Delta_{\nu}) \leq 2 S + k L.
+\sum_ {1} ^ {q} (S - n (\mathcal{A}_{\nu})) + \sum_ {1} ^ {q} w (\mathcal{A}_{\nu}) \leq 2 S + k L.
 $$
 
 Durch Anwendung der Gleichung (A) ergibt sich noch die besonders einfache Form
 
 $$
-\sum_ {1} ^ {q} \mu (\Delta_ {\nu}) + \sum_ {1} ^ {q} w (\Delta_ {\nu}) \leq 2 S + k L.\tag{B'}
+\sum_ {1} ^ {q} \mu (\mathcal{A}_{\nu}) + \sum_ {1} ^ {q} w (\mathcal{A}_{\nu}) \leq 2 S + k L.\tag{B'}
 $$
 
-Wenn es eine reguläre Ausschöpfung existiert, so liegt es nahe folgende Begriffe einzuführen: Unter dem Defekt $\delta(\Delta)$ und dem Verzweigungsindex $\varepsilon(\Delta)$ eines Gebiets $\Delta$ verstehen wir die kleinsten Zahlen, für welche eine reguläre Ausschöpfung existiert mit
+Wenn es eine reguläre Ausschöpfung existiert, so liegt es nahe folgende Begriffe einzuführen: Unter dem Defekt $\delta(\mathcal{A})$ und dem Verzweigungsindex $\varepsilon(\mathcal{A})$ eines Gebiets $\mathcal{A}$ verstehen wir die kleinsten Zahlen, für welche eine reguläre Ausschöpfung existiert mit
 
 $$
-\lim \frac {\mu (\Delta)}{S} = \delta (\Delta)
+\lim \frac {\mu (\mathcal{A})}{S} = \delta (\mathcal{A})
 $$
 
 und
 
 $$
-\lim \frac {w (\Delta)}{S} = \varepsilon (\Delta).
+\lim \frac {w (\mathcal{A})}{S} = \varepsilon (\mathcal{A}).
 $$
 
 Nach dieser Definition liegt der Defekt zwischen 0 und 1 oder fällt mit einer dieser Grenzen zusammen, und der Verzweigungsindex ist jedenfalls grösser oder gleich Null. Aus (B') folgt die
 
-Defektrelation. — Für eine beliebige Anzahl von ausserhalb einander gelegenen, einfach zusammenhängenden Gebieten  $\Delta$  gilt
+Defektrelation. — Für eine beliebige Anzahl von ausserhalb einander gelegenen, einfach zusammenhängenden Gebieten  $\mathcal{A}$  gilt
 
 $$
-\sum \delta (\Delta) + \sum \varepsilon (\Delta) \leq 2,
+\sum \delta (\mathcal{A}) + \sum \varepsilon (\mathcal{A}) \leq 2,
 $$
 
 d. h. die Summe sämtlicher Defekte und Verzweigungsindizes ist höchstens gleich 2.
 
 Wir erinnern daran, dass der ganze Defektbegriff und folglich auch die Gültigkeit der Defektrelation wesentlich auf der Annahme beruht, dass eine reguläre Ausschöpfung existiert.
 
-Schliesslich wollen wir noch diejenige Ungleichung aufstellen, die aus (B) entsteht, wenn sämtliche Gebiete $\Delta_{\nu}$ sich auf Punkte reduzieren. Wir betrachten $q$ Punkte $a_{1},\ldots,a_{q}$ und wählen die Gebiete $\Delta_{\nu}$ so, dass sie je einen Punkt $a_{\nu}$ enthalten. Es sei $p(a_{\nu})$ die mit einfachen Multiplizitäten gezählte Anzahl der über $a_{\nu}$ gelegenen inneren Punkte von $W$. Dann ist offenbar $p(a_{\nu})\geqq p(\Delta_{\nu})$ und wir finden
+Schliesslich wollen wir noch diejenige Ungleichung aufstellen, die aus (B) entsteht, wenn sämtliche Gebiete $\mathcal{A}_{\nu}$ sich auf Punkte reduzieren. Wir betrachten $q$ Punkte $a_{1},\ldots,a_{q}$ und wählen die Gebiete $\mathcal{A}_{\nu}$ so, dass sie je einen Punkt $a_{\nu}$ enthalten. Es sei $p(a_{\nu})$ die mit einfachen Multiplizitäten gezählte Anzahl der über $a_{\nu}$ gelegenen inneren Punkte von $W$. Dann ist offenbar $p(a_{\nu})\geqq p(\mathcal{A}_{\nu})$ und wir finden
 
 $$
 \sum_ {1} ^ {q} p (a _ {\nu}) \geqq (q - 2) S - k L.\tag{B_1}
@@ -661,9 +661,9 @@ $$
 
 22. Wir werden jetzt zeigen dass es möglich ist, aus der Ungleichung (B) eine notwendige Bedingung für die Existenz einer regulären Ausschöpfung abzulesen.
 
-Wir betrachten die Gebiete $\Delta_{1},\ldots,\Delta_{q}$ und nehmen an, es gehöre zu jedem Gebiet $\Delta_{i}$ eine ganze positive Zahl $\mu_{i}$ mit folgender Eigenschaft: Für eine beliebige Fläche $W$ der ausschöpfenden Folge ist die gewöhnliche Multiplizität von jeder Insel, die über dem Gebiet $\Delta_{i}$ liegt, wenigstens $\mu_{i}$-mal so gross wie die einfache Multiplizität der Insel. Wenn die Insel mehrfach zusammenhängend ist, so ist die Bedingung immer erfüllt. Für eine einfach zusammenhängende Insel besagt sie, dass die Insel wenigstens $\mu_{i}$-blättrig sein soll.
+Wir betrachten die Gebiete $\mathcal{A}_{1},\ldots,\mathcal{A}_{q}$ und nehmen an, es gehöre zu jedem Gebiet $\mathcal{A}_{i}$ eine ganze positive Zahl $\mu_{i}$ mit folgender Eigenschaft: Für eine beliebige Fläche $W$ der ausschöpfenden Folge ist die gewöhnliche Multiplizität von jeder Insel, die über dem Gebiet $\mathcal{A}_{i}$ liegt, wenigstens $\mu_{i}$-mal so gross wie die einfache Multiplizität der Insel. Wenn die Insel mehrfach zusammenhängend ist, so ist die Bedingung immer erfüllt. Für eine einfach zusammenhängende Insel besagt sie, dass die Insel wenigstens $\mu_{i}$-blättrig sein soll.
 
-Unter dieser Voraussetzung gilt für jedes Gebiet $\Delta_{i}$ die Ungleichung $S(\Delta_{i}) \geq n(\Delta_{i}) \geq \mu_{i} p(\Delta_{i})$, woraus folgt $p(\Delta_{i}) \leq \frac{1}{\mu_{i}} S + kL$. Wenn wir dieses in (B) einsetzen, so wird
+Unter dieser Voraussetzung gilt für jedes Gebiet $\mathcal{A}_{i}$ die Ungleichung $S(\mathcal{A}_{i}) \geq n(\mathcal{A}_{i}) \geq \mu_{i} p(\mathcal{A}_{i})$, woraus folgt $p(\mathcal{A}_{i}) \leq \frac{1}{\mu_{i}} S + kL$. Wenn wir dieses in (B) einsetzen, so wird
 
 $$
 \left(q - 2 - \sum_ {1} ^ {q} \frac {1}{\mu_ {i}}\right) S \leq k L
@@ -671,7 +671,7 @@ $$
 
 mit einem neuen Wert von k. Wenn nun der linksstehende Koeffizient positiv ist, so können wir schliessen, dass bei jeder Ausschöpfung S kleiner als L multipliziert mit einer festen Konstante bleibt. Das heisst aber nichts anderes als dass es keine reguläre Ausschöpfung gibt.
 
-Die Fläche $W^{*}$ sei so beschaffen, dass jede über dem Gebiet $\Delta_{i}$ gelegene, einfach zusammenhängende Insel wenigstens $\mu_{i}$-blättrig ist, wobei die Zahlen $\mu_{i}$ der Bedingung
+Die Fläche $W^{*}$ sei so beschaffen, dass jede über dem Gebiet $\mathcal{A}_{i}$ gelegene, einfach zusammenhängende Insel wenigstens $\mu_{i}$-blättrig ist, wobei die Zahlen $\mu_{i}$ der Bedingung
 
 $$
 \sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2\tag{11}
@@ -679,9 +679,9 @@ $$
 
 genügen. Dann gibt es keine reguläre Ausschöpfung von $W^{*}$.
 
-Es gibt fünf verschiedene Systeme von möglichst kleinen Zahlen $\mu_{i}$, die der Ungleichung (11) genügen. Sie sind folgende: $(2, 2, 2, 2, 2)$, $(2, 2, 2, 3)$, $(2, 3, 7)$, $(2, 4, 5)$ und $(3, 3, 4)$. In den drei letzten Fällen ist derjenige Sonderfall enthalten, wo es drei Gebiete $\Delta_{1}, \Delta_{2}, \Delta_{3}$ gibt, über denen gar keine Inseln liegen.
+Es gibt fünf verschiedene Systeme von möglichst kleinen Zahlen $\mu_{i}$, die der Ungleichung (11) genügen. Sie sind folgende: $(2, 2, 2, 2, 2)$, $(2, 2, 2, 3)$, $(2, 3, 7)$, $(2, 4, 5)$ und $(3, 3, 4)$. In den drei letzten Fällen ist derjenige Sonderfall enthalten, wo es drei Gebiete $\mathcal{A}_{1}, \mathcal{A}_{2}, \mathcal{A}_{3}$ gibt, über denen gar keine Inseln liegen.
 
-Der soeben bewiesene Satz bleibt wie die Ungleichung (B) gültig, wenn man die Gebiete  $\Delta_{i}$  durch Punkte  $a_{i}$  ersetzt. Wir formulieren nur das folgende, besonders anschauliche Resultat: Eine über die Kugel ausgebreitete, einfach zu-
+Der soeben bewiesene Satz bleibt wie die Ungleichung (B) gültig, wenn man die Gebiete  $\mathcal{A}_{i}$  durch Punkte  $a_{i}$  ersetzt. Wir formulieren nur das folgende, besonders anschauliche Resultat: Eine über die Kugel ausgebreitete, einfach zu-
 
 sammenhängende Fläche, welche drei Punkte nicht überdeckt, gestattet keine reguläre Ausschöpfung.
 
@@ -689,15 +689,15 @@ In diesem Zusammenhang wollen wir noch ein ähnliches Resultat erwähnen, das un
 
 Eine einfach zusammenhängende Fläche, die über eine geschlossene Grundfläche vom Geschlecht grösser als Eins ausgebreitet ist, kann nicht regulär ausgeschöpft werden.
 
-23. Wir betrachten jetzt eine besonders einfache Art von offenen Flächen $W^{*}$, die wir als unverzweigt und relativ unbegrenzt über $\overline{W}_{0}$ bezeichnen.$^{1}$ Dieselbe Eigenschaft wird ausgedrückt, wenn wir die Fläche $\overline{W}_{0}$ durch $q$ Querschnitte $\gamma$ in zwei einfach zusammenhängende Teilgebiete $\Delta'$ und $\Delta''$ zerlegen, und dann verlangen, dass $W^{*}$ aus lauter einblättrigen Inseln über $\Delta'$ und $\Delta''$ bestehen soll.
+23. Wir betrachten jetzt eine besonders einfache Art von offenen Flächen $W^{*}$, die wir als unverzweigt und relativ unbegrenzt über $\overline{W}_{0}$ bezeichnen.$^{1}$ Dieselbe Eigenschaft wird ausgedrückt, wenn wir die Fläche $\overline{W}_{0}$ durch $q$ Querschnitte $\gamma$ in zwei einfach zusammenhängende Teilgebiete $\mathcal{A}'$ und $\mathcal{A}''$ zerlegen, und dann verlangen, dass $W^{*}$ aus lauter einblättrigen Inseln über $\mathcal{A}'$ und $\mathcal{A}''$ bestehen soll.
 
-Um diese Bedingung klarzumachen, definieren wir einen Punkt auf $W^*$ als den Inbegriff aller Punkte der ausschöpfenden Flächen $W$, die sich bei der topologischen Abbildung einer Fläche auf ein Teilgebiet der Folgenden entsprechen. Alsdann wird gefordert, dass jeder Punkt, dessen Spur im Innern von $\overline{W}_0$ liegt, schliesslich — d. h. auf einer genügend umfassenden Fläche $W$ — zu einer Insel über $\Delta'$ oder $\Delta''$ gehört, eventuell als Randpunkt derselben, und dass diese Insel einblättrig ist.
+Um diese Bedingung klarzumachen, definieren wir einen Punkt auf $W^*$ als den Inbegriff aller Punkte der ausschöpfenden Flächen $W$, die sich bei der topologischen Abbildung einer Fläche auf ein Teilgebiet der Folgenden entsprechen. Alsdann wird gefordert, dass jeder Punkt, dessen Spur im Innern von $\overline{W}_0$ liegt, schliesslich — d. h. auf einer genügend umfassenden Fläche $W$ — zu einer Insel über $\mathcal{A}'$ oder $\mathcal{A}''$ gehört, eventuell als Randpunkt derselben, und dass diese Insel einblättrig ist.
 
 Wenn diese Bedingung erfüllt ist, so können wir jedes über  $\overline{W}_{0}$  gelegene Teilgebiet  $\overline{W}$  von  $W^{*}$  in eine endliche, unverzweigte und relativ unberandete Überlagerungsfläche F von  $\overline{W}_{0}$  einschliessen. Eine solche Fläche F wird konstruiert, indem man zunächst so viele Inseln auf  $W^{*}$  auswählt, dass sie zusammen das Gebiet  $\overline{W}$  enthalten, und die aus ihnen gebildete Fläche durch symmetrische Wiederholung abschliesst. $^{2}$
 
 Wir nehmen eine Fläche W der ausschöpfenden Folge und betrachten wie
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  $\overline{W}_{0}$ ist das Komplementärgebiet der Gebiete $\Delta_{\nu}$.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  $\overline{W}_{0}$ ist das Komplementärgebiet der Gebiete $\mathcal{A}_{\nu}$.</span></small>
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{2}$  Um diesen bekannten Prozess genau zu erklären müsste man eigentlich den Begriff des topologischen Baums einführen. Wir verweisen den Leser auf die eingehende Behandlung dieser Frage in der neulich erschienenen Arbeit G. ELFVING: Über eine Klasse von Riemannschen Flächen und ihre Uniformisierung (Acta Soc. Scient. Fenn., Nov. Ser. A. t. II No. 3.).</span></small>
 
@@ -709,13 +709,13 @@ $$
 
 Wird diese Ungleichung mit (10) verbunden, so folgt:
 
-Wenn die einfach zusammenhängende, offene Fläche $W^{*}$ ausserhalb der Gebiete $\Delta_{1},\ldots,\Delta_{q}$ ($q\geq2$) unverzweigt und unbegrenzt ist, so gilt
+Wenn die einfach zusammenhängende, offene Fläche $W^{*}$ ausserhalb der Gebiete $\mathcal{A}_{1},\ldots,\mathcal{A}_{q}$ ($q\geq2$) unverzweigt und unbegrenzt ist, so gilt
 
 $$
 \left| p - \beta - (q - 2) S \right| \leq k L + 1.\tag{C}
 $$
 
-Wenn man den Beweis durchgeht, so sieht man dass der Satz seine Richtigkeit behält, wenn die Gebiete $\Delta_{\nu}$ sich auf Punkte $a_{\nu}$ reduzieren. In diesem Falle ist $\beta \leq 1$, und man findet:
+Wenn man den Beweis durchgeht, so sieht man dass der Satz seine Richtigkeit behält, wenn die Gebiete $\mathcal{A}_{\nu}$ sich auf Punkte $a_{\nu}$ reduzieren. In diesem Falle ist $\beta \leq 1$, und man findet:
 
 Wenn sämtliche Verzweigungs- und Grenzpunkte über den endlich vielen Punkten  $a_{1}, \ldots, a_{q} (q \geq 2)$  liegen, so gilt die Beziehung
 
@@ -805,7 +805,7 @@ $$
 
 Diese Ungleichung $^{1}$ enthält eine möglichst scharfe Aussage über das gegenseitige Verhalten der Funktionen $I(r)$ und $L(r)$. Durch Integration können verschiedene Folgerungen gezogen werden.
 
-$^{1}$  Die Integration zwischen den Grenzen  $r_{0}$  und r ergibt
+$1^{\circ}$  Die Integration zwischen den Grenzen  $r_{0}$  und r ergibt
 
 $$
 \log \frac {r}{r _ {0}} <   4 \pi K \int_ {r _ {0}} ^ {r} \frac {d I (r)}{L (r) ^ {2}}.
@@ -819,7 +819,7 @@ $$
 
 divergieren muss.
 
-$2^{\circ}$ Es sei $\Phi(t)$ eine Funktion, für welche das Integral $\int_{0}^{\infty}\frac{dt}{\Phi(t)}$ konvergiert.
+$2^{\circ}$ Es sei $\Phi(t)$ eine Funktion, für welche das Integral $\int^{\infty}\frac{dt}{\Phi(t)}$ konvergiert.
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Im Falle einer konformen Abbildung erhält man die Ungleichung</span></small>
 
@@ -853,7 +853,7 @@ Man findet also die Abschätzung $I(r) = O\left(\frac{1}{R - r}\right)$.
 
 Abbildungssatz. — Wenn es eine konforme oder quasikonforme Abbildung der Fläche  $W^{*}$  auf die ganze Ebene gibt, dann gibt es auch eine reguläre Ausschöpfung von  $W^{*}$ .
 
-Allgemeiner gibt es sogar eine Ausschöpfung, bei welcher $L < V\Phi(S)$ gilt, vorausgesetzt dass das Integral $\int_{0}^{\infty}\frac{dt}{\Phi(t)}$ konvergiert.
+Allgemeiner gibt es sogar eine Ausschöpfung, bei welcher $L < V\Phi(S)$ gilt, vorausgesetzt dass das Integral $\int^{\infty}\frac{dt}{\Phi(t)}$ konvergiert.
 
 Die Existenz einer regulären Ausschöpfung ist dargelegt auch wenn man weiss, dass die Fläche $W^{*}$ auf einen endlichen Kreis $|z| < R$ konform oder quasikonform abgebildet werden kann, und dass dabei $\lim (R - r) I(r) = \infty$ gilt.
 
@@ -863,7 +863,7 @@ Wir wollen noch einige Worte über den Zusammenhang der obigen Ergebnisse mit de
 
 Der Abbildungssatz zeigt, dass ein Zusammenhang zwischen dem Typenproblem und den isoperimetrischen Eigenschaften einer Riemannschen Fläche existiert. Wir verstehen allgemein unter einer isoperimetrischen Eigenschaft eine Ungleichung der Form  $L \geq P(I)$ , welche für jedes einfach zusammenhängende Teilgebiet der Fläche erfüllt ist, wenn L die Länge seines relativen Randes und I seinen Inhalt bezeichnen. Aus dem Abbildungssatz wird folgendes Kriterium erhalten:
 
-Auf der Fläche $W^{*}$ gelte die isoperimetrische Ungleichung $L > P(I)$, wobei $P(I)$ eine Funktion sein soll, für welche das Integral $\int_{0}^{\infty} \frac{dt}{P(t)^2}$ konvergiert. Es ist dann unmöglich, die Fläche $W^{*}$ konform auf die ganze endliche Ebene abzubilden.
+Auf der Fläche $W^{*}$ gelte die isoperimetrische Ungleichung $L > P(I)$, wobei $P(I)$ eine Funktion sein soll, für welche das Integral $\int^{\infty} \frac{dt}{P(t)^2}$ konvergiert. Es ist dann unmöglich, die Fläche $W^{*}$ konform auf die ganze endliche Ebene abzubilden.
 
 ## IV. Anwendung auf die Theorie der meromorphen Funktionen.
 
@@ -885,24 +885,24 @@ $$
 L (r) = \int_ {0} ^ {2 \pi} \frac {\left| f ^ {\prime} (z) \right|}{1 + \left| f (z) \right| ^ {2}} r d \varphi .
 $$
 
-Wählen wir jetzt auf der Riemannschen Kugel ein beliebiges Gebiet $\Delta$, so können wir die Gleichung (A) aufstellen und in der Form
+Wählen wir jetzt auf der Riemannschen Kugel ein beliebiges Gebiet $\mathcal{A}$, so können wir die Gleichung (A) aufstellen und in der Form
 
 $$
-n (r, \Delta) + \mu (r, \Delta) = S (r) + O (L (r))\tag{a}
+n (r, \mathcal{A}) + \mu (r, \mathcal{A}) = S (r) + O (L (r))\tag{a}
 $$
 
 schreiben, wo die Bezeichnung kaum eine Erklärung benötigt. Für das Restglied verfügt man über alle Abschätzungen, die in Nr. 24 erhalten wurden.
 
-Ebenso erhalten wir für ein System von $q$ ausserhalb einander gelegenen, einfach zusammenhängenden Gebieten $\Delta_{1},\ldots,\Delta_{q}$ aus (B) die Ungleichung
+Ebenso erhalten wir für ein System von $q$ ausserhalb einander gelegenen, einfach zusammenhängenden Gebieten $\mathcal{A}_{1},\ldots,\mathcal{A}_{q}$ aus (B) die Ungleichung
 
 $$
-p (r) = \sum_ {1} ^ {q} p (r, \Delta_ {v}) \geqslant (q - 2) S (r) - k L (r),\tag{b}
+p (r) = \sum_ {1} ^ {q} p (r, \mathcal{A}_ {\nu}) \geqslant (q - 2) S (r) - k L (r),\tag{b}
 $$
 
 und aus  $(\mathrm{B}_{1})$  die entsprechende Ungleichung
 
 $$
-\sum_ {1} ^ {q} p (r, a _ {v}) \geq (q - 2) S (r) - k L (r).\tag{b1}
+\sum_ {1} ^ {q} p (r, a _ {\nu}) \geq (q - 2) S (r) - k L (r).\tag{b1}
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$W_{r}$</span></small>
@@ -915,7 +915,7 @@ $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Um  $W_{r}$  als Überlagerungsfläche der Kugel zu erkennen, müssen wir eine Dreiecksteilung der beiden Flächen angeben, bei welcher jedem Dreieck auf  $W_{r}$  ein bestimmtes Spurdreieck entspricht. Wir ziehen auf der Kugel die Bildkurve des Kreises  $|z| = r$ . Diese Kurve zerlegt die Kugel in endlich viele Gebiete; wenn man diese Gebiete in Dreiecke teilt und dafür sorgt, dass die für  $|z| < r$  mehrfach angenommenen Werte unter den Eckpunkten vorkommen, so erhält man eine Dreiecksteilung der verlangten Art.</span></small>
 
-Wir betrachten schliesslich den Fall, wo die Funktion $f(z)$ keinen ausserhalb der Gebiete $\Delta_{v}$ gelegenen Wert mehrfach annimmt und auch nicht als asymptotischen Wert besitzt. Dann sieht man leicht, dass die entsprechende Riemannsche Fläche $W^{*}$ unverzweigt und unbegrenzt über das Komplementargebiet der Gebiete $\Delta_{v}$ ist. Wir können also die Ungleichung (C) anwenden und erhalten
+Wir betrachten schliesslich den Fall, wo die Funktion $f(z)$ keinen ausserhalb der Gebiete $\mathcal{A}_{\nu}$ gelegenen Wert mehrfach annimmt und auch nicht als asymptotischen Wert besitzt. Dann sieht man leicht, dass die entsprechende Riemannsche Fläche $W^{*}$ unverzweigt und unbegrenzt über das Komplementargebiet der Gebiete $\mathcal{A}_{\nu}$ ist. Wir können also die Ungleichung (C) anwenden und erhalten
 
 $$
 p (r) - \beta (r) = (q - 2) S (r) + O (L (r) + 1).\tag{c}
@@ -924,14 +924,14 @@ $$
 Wenn alle mehrfach angenommenen und asymptotischen Werte zu den endlich vielen Werten $a_{1},\ldots,a_{q}$ gehören, so gilt nach $(C^{\prime})$
 
 $$
-\sum_ {1} ^ {q} p (a _ {v}) = (q - 2) S (r) + O (L (r) + 1).\tag{c'}
+\sum_ {1} ^ {q} p (a _ {\nu}) = (q - 2) S (r) + O (L (r) + 1).\tag{c'}
 $$
 
 Diese Beziehung ist vollständig neu und zeigt das ausserordentlich reguläre Verhalten der Funktionen der betrachteten Funktionsklasse.
 
 27. Aus der in Nr. 22 aufgestellten Bedingung für die Nicht-Existenz einer regulären Ausschöpfung folgt unmittelbar der sogenannte
 
-Scheibensatz. $^{1}$  — Wenn alle über den Gebieten  $\Delta_{i}$  ( $i=1,\ldots,q$ ) gelegenen, einfach zusammenhängenden Inseln der Fläche  $W^{*}$  wenigstens  $\mu_{i}$ -blättrig sind, und wenn die Zahlen  $\mu_{i}$  der Bedingung
+Scheibensatz. $^{1}$  — Wenn alle über den Gebieten  $\mathcal{A}_{i}$  ( $i=1,\ldots,q$ ) gelegenen, einfach zusammenhängenden Inseln der Fläche  $W^{*}$  wenigstens  $\mu_{i}$ -blättrig sind, und wenn die Zahlen  $\mu_{i}$  der Bedingung
 
 $$
 \sum_ {1} ^ {q} \left(1 - \frac {1}{\mu_ {i}}\right) > 2
@@ -1005,7 +1005,7 @@ wo das Restglied  $h(r, a)$  der Bedingung
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$a = f(0)$</span></small>
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Für  $a = f(o)$  wird diese Definition in bekannter Weise abgeändert.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  Für  $a = f(\infty)$  wird diese Definition in bekannter Weise abgeändert.</span></small>
 
 Zur Theorie der Überlagerungsflächen.
 
@@ -1023,19 +1023,19 @@ $$
 
 wo  $S(r)$  dieselbe Bedeutung wie vorhin hat.
 
-Integriert man statt über die ganze Kugel nur über ein Teilgebiet $A$, so erhält man in ganz derselben Weise
+Integriert man statt über die ganze Kugel nur über ein Teilgebiet $\mathcal{A}$, so erhält man in ganz derselben Weise
 
 $$
-T (r) = \int_ {0} ^ {r} S (r, \Delta) \frac {d r}{r} + O (1).
+T (r) = \int_ {0} ^ {r} S (r, \mathcal{A}) \frac {d r}{r} + O (1).
 $$
 
 Setzt man nun
 
 $$
-S (r) - S (r, \Delta) = x (r),
+S (r) - S (r, \mathcal{A}) = x (r),
 $$
 
-so ergibt sich durch Vergleich.
+so ergibt sich durch Vergleich
 
 $$
 \int_ {0} ^ {r} x (r) \frac {d r}{r} = O (1),
@@ -1060,19 +1060,19 @@ ausserhalb der Ausnahmeintervalle, eine Abschätzung, die gleichfalls keine Folg
 Ganz ähnlich steht es mit dem zweiten Hauptsatz von NEVANLINNA. Nach diesem Satze gilt die Ungleichung
 
 $$
-\sum_ {1} ^ {q} N (r, a _ {v}) - N _ {1} (r) \geq (q - 2) T (r) - O (\log r + \log T (r)),\tag{17}
+\sum_ {1} ^ {q} N (r, a _ {\nu}) - N _ {1} (r) \geq (q - 2) T (r) - O (\log r + \log T (r)),\tag{17}
 $$
 
 wo  $N_{1}(r)$  die aus den mehrfachen Stellen herrührende Anzahlfunktion bedeutet, ausser wenn r zu gewissen Ausnahmeintervallen gehört. Etwas ungenauer ist die Formulierung
 
 $$
-\sum_ {1} ^ {q} \overline {{{N}}} (r, a _ {v}) \geqslant (q - 2) T (r) - O (\log r + \log T (r)),\tag{17'}
+\sum_ {1} ^ {q} \overline {{{N}}} (r, a _ {\nu}) \geqslant (q - 2) T (r) - O (\log r + \log T (r)),\tag{17'}
 $$
 
-in welcher  $\overline{N}(r, a_{v})$  diejenige Anzahlfunktion bezeichnet, die man erhält, wenn man die  $a_{v}$ -Stellen mit einfacher Multiplizität zählt. Es gilt mit anderen Worten
+in welcher  $\overline{N}(r, a_{\nu})$  diejenige Anzahlfunktion bezeichnet, die man erhält, wenn man die  $a_{\nu}$ -Stellen mit einfacher Multiplizität zählt. Es gilt mit anderen Worten
 
 $$
-\overline {{{N}}} (r, a _ {v}) = \int_ {0} ^ {r} p (r, a) \frac {d r}{r},
+\overline {{{N}}} (r, a _ {\nu}) = \int_ {0} ^ {r} p (r, a) \frac {d r}{r},
 $$
 
 woraus folgt dass (17') nur eine integrierte Form von (b₁) (S. 189) darstellt.
@@ -1080,7 +1080,7 @@ woraus folgt dass (17') nur eine integrierte Form von (b₁) (S. 189) darstellt.
 Wenn wir
 
 $$
-\sum_ {1} ^ {q} p (r, a _ {v}) = (q - 2) S (r) - \lambda (r)
+\sum_ {1} ^ {q} p (r, a _ {\nu}) = (q - 2) S (r) - \lambda (r)
 $$
 
 schreiben, so gilt nach NEVANLINNA
@@ -1095,6 +1095,6 @@ $$
 \lambda (r) \leq k L (r) <   S (r) ^ {\frac {1}{2} + \varepsilon},
 $$
 
-alles mit gewissen Ausnahmeintervallen. Zufolge der Mittelbildung ist die NE-VANLINNASche Abschätzung schärfer, aber sie gibt andererseits keine Auskunft über das unintegrierte Restglied $\lambda(r)$.
+alles mit gewissen Ausnahmeintervallen. Zufolge der Mittelbildung ist die NEVANLINNASche Abschätzung schärfer, aber sie gibt andererseits keine Auskunft über das unintegrierte Restglied $\lambda(r)$.
 
 Das Ergebnis unseres Vergleichs ist also, dass die hier entwickelte, auf geometrischer Grundlage fussende Theorie zwar nicht die originalen Formeln von NEVANLINNA liefert, aber anstelle dieselben in wichtiger Weise komplettiert.
