@@ -70,11 +70,11 @@ Let $B$ have characteristic $p$. Every endomorphism of the additive group over $
 
 Let $O$ be a ring, $B$ an algebra over $O$, and $\gamma: O \to B$ the natural homomorphism. Definition. A formal $O$-module over $B$ is a pair $(F, f)$, where $F$ is a formal group over $B$, and $f$ is a homomorphism from $O$ to End $F$ such that $D \circ f = \gamma$.
 
-Example.  $F(x, y) = x + y$  and  $f_{a}(x) = ax$  for  $a \in O$  (we write  $f_{a}$  instead of  $f(a)$ ). This module is called additive.
+Example.  $F(x, y) = x + y$  and  $f_{\alpha}(x) = \alpha x$  for  $\alpha \in O$  (we write  $f_{\alpha}$  instead of  $f(\alpha)$ ). This module is called additive.
 
-The germ of a formal O-module over B mod deg n is a pair  $(F, f)$ , where  $F \in B[[x, y]]/(x, y)^{n}$  and  $f_{a} \in B[[x]]/(x^{n})$ , and all relations between F and f which arise from the definition of a formal module are satisfied mod deg n.
+The germ of a formal O-module over B mod deg n is a pair  $(F, f)$ , where  $F \in B[[x, y]]/(x, y)^{n}$  and  $f_{\alpha} \in B[[x]]/(x^{n})$ , and all relations between F and f which arise from the definition of a formal module are satisfied mod deg n.
 
-We consider the following functor from the category of O-algebras to the category of sets:  $B \mapsto$  set of formal O-modules over B. We can clearly represent this functor by some algebra  $\Lambda_{O}$ . (The generators of  $\Lambda_{O}$  are the “indeterminate coefficients” of the series F and  $f_{a}$ , and the relations between them are those which are required for  $(F, f)$  to be a formal O-module.)
+We consider the following functor from the category of O-algebras to the category of sets:  $B \mapsto$  set of formal O-modules over B. We can clearly represent this functor by some algebra  $\Lambda_{O}$ . (The generators of  $\Lambda_{O}$  are the “indeterminate coefficients” of the series F and  $f_{\alpha}$ , and the relations between them are those which are required for  $(F, f)$  to be a formal O-module.)
 
 $\Lambda_{O}$ has a natural gradation. It is easy to check that the set of germs of formal O-modules over B mod $\deg(n+1)$ is canonically isomorphic to the set of O-module homomorphisms $\bigoplus_{k=0}^{n-1}\Lambda_{O}^{k}\stackrel{\psi}{\rightarrow}B$ such that $\psi(ab)=\psi(a)\psi(b)$ and $\psi(1)=1$. Elements of the form ab, where $a\in\Lambda_{O}, b\in\Lambda_{O}, \deg a>1$ and $\deg b>1$, generate a homogeneous ideal. We denote by $\widetilde{\Lambda_{O}}$ the factor of $\Lambda_{O}$ by this ideal.
 
@@ -116,7 +116,7 @@ Proposition 1.2. 1) If $O$ is a field, then every formal $O$-module is isomorphi
 
 2) If $O$ is infinite, then there exists a unique isomorphism with an additive module, whose derivative at zero equals 1. In this case $\Lambda_O \simeq O[c_1, c_2, \ldots]$, where $\deg c_i = i$.
 
-Proof. The case of characteristic zero is well known (cf. [7]). Let $\operatorname{char} O = p$, let $B$ be an algebra over $O$, and let $(F, f)$ be a formal $O$-module over $B$. Then multiplication by $p$ in $F$ is zero; therefore (cf. [7]) $F$ is isomorphic to an additive group. We can assume that $F$ is additive. Let $f: O \to B\{\{\tau\}\}$ have the form $f(a) \equiv a + \phi(a)\tau^k (\bmod \tau^{k+1})$. We shall prove that there exists an $s \in B$ such that $(1 + s\tau^k)f(a)(1 + s\tau^k)^{-1} \equiv a (\bmod \tau^{k+1})$ for all $a \in O$. Indeed, since $f$ is a homomorphism then $\phi(a + b) = \phi(a) + \phi(b)$ and $\phi(a \circ b) = a\phi(b) + b^{p^k}\phi(a)$, and so $(b^{p^k} - b)\phi(a) = (a^{p^k} - a)\phi(b)$. If $O \subset \mathbf{F}_{p^k}$, then the existence and uniqueness of $s$ is clear ($s = \phi(a)/(a^{p^k} - a)$, where $a \in O$, $a \notin \mathbf{F}_{p^k}$). If $O \subset \mathbf{F}_{p^k}$, then $\phi$ is differentiation; therefore $\phi = 0$.
+Proof. The case of characteristic zero is well known (cf. [7]). Let $\operatorname{char} O = p$, let $B$ be an algebra over $O$, and let $(F, f)$ be a formal $O$-module over $B$. Then multiplication by $p$ in $F$ is zero; therefore (cf. [7]) $F$ is isomorphic to an additive group. We can assume that $F$ is additive. Let $f: O \to B\{\{\tau\}\}$ have the form $f(a) \equiv a + \phi(a)\tau^k (\bmod \tau^{k+1})$. We shall prove that there exists an $s \in B$ such that $(1 + s\tau^k)f(a)(1 + s\tau^k)^{-1} \equiv a (\bmod \tau^{k+1})$ for all $a \in O$. Indeed, since $f$ is a homomorphism then $\phi(a + b) = \phi(a) + \phi(b)$ and $\phi(a \circ b) = a\phi(b) + b^{p^k}\phi(a)$, and so $(b^{p^k} - b)\phi(a) = (a^{p^k} - a)\phi(b)$. If $O \subset \mathbf{F}_{p^{k'}}$, then the existence and uniqueness of $s$ is clear ($s = \phi(a)/(a^{p^k} - a)$, where $a \in O$, $a \notin \mathbf{F}_{p^k}$). If $O \subset \mathbf{F}_{p^{k'}}$, then $\phi$ is differentiation; therefore $\phi = 0$.
 
 C) Computation of $\Lambda_{O}$, when $O$ is the ring of integers of a local nonarchimedean field. From now on, $O$ will be the ring of integers of a local nonarchimedean field $K$, $\pi$ will be a prime element of $O$, $p$ the characteristic of $O / (\pi)$ and $q$ the order of $O / (\pi)$.
 
@@ -126,13 +126,13 @@ Proposition 1.3. $\widetilde{\Lambda}_O^{n - 1}\simeq O$ . More precisely:
 
 2) If $n = q^k$, then $h(a) = (a^n - a)u / \pi$ and $\alpha = pu / \pi$, where $u$ is a generator of $\widetilde{\Lambda}_O^{n-1}$.
 
-Proof. 1) If $n$ is not a power of $p$, then $h(a)$ can be expressed through $a$ by
+Proof. 1) If $n$ is not a power of $p$, then $h(a)$ can be expressed through $\alpha$ by
 
 using formula (1). If $n$ is a power of $p$, but not a power of $q$, then there exists $a \in O$ such that $a^n - a \notin (\pi)$: from (3) it follows that $(a^n - a)h(b) = (b^n - b)h(a)$; $\alpha$ can be determined from (2).
 
 2) Let $n$ be a power of $q$. There exists an epimorphism $\widetilde{\Lambda}_O^{n-1} \to O$ sending $h(a)$ to $(a^n - a)/\pi$, and $\alpha \mapsto f/\pi$. It remains to prove that $\widetilde{\Lambda}_O^{n-1}$ is generated by $h(\pi)$. Let $M = \widetilde{\Lambda}_O^{n-1}/\{h(\pi)\}$. If $x \in \widetilde{\Lambda}_O^{n-1}$, then we denote by $\overline{x}$ the image of $x$ in $M$. Since
 
-$h(\pi^b) = \pi h(b) = \pi^{n}h(b)$, then $\overline{h}(\pi b) = 0$ for any $b \in O$. In particular, $\overline{h}(p) = 0$. But $h(p) = (p^{n-1} - 1)\alpha$, and so $\overline{\alpha} = 0$. Then $M$ is an $O/(\pi)$-module, and $\overline{h} \colon O/(\pi) \to M$ is differentiation. Therefore $\overline{h} = 0$, i.e. $M = 0$.
+$\overline{h}(\pi^b) = \overline{\pi h}(b) = \overline{\pi^n h}(b)$, then $\overline{h}(\pi b) = 0$ for any $b \in O$. In particular, $\overline{h}(p) = 0$. But $h(p) = (p^{n-1} - 1)\alpha$, and so $\overline{\alpha} = 0$. Then $M$ is an $O/(\pi)$-module, and $\overline{h} \colon O/(\pi) \to M$ is differentiation. Therefore $\overline{h} = 0$, i.e. $M = 0$.
 
 Proposition 1.4. $\Lambda_O \simeq O[g_1, g_2, \ldots]$, $\deg g_i = i$.
 
@@ -202,7 +202,7 @@ Proposition 1.6. 1) There exist modules of arbitrary height.
 
 3) A formal O-module of height $h$ is isomorphic to the additive module mod $\deg q^h$.
 
-Proof. 1) We consider a homomorphism $\lambda: \Lambda_0 \simeq O[g_1, g_2, \ldots] \to E$ such that $\lambda(g_{q^b - 1}) \neq 0$ and $\lambda(g_i) = 0$ for $i < q^b - 1$. To this corresponds a formal $O$-module over $E$ of height $b$.
+Proof. 1) We consider a homomorphism $\lambda: \Lambda_O \simeq O[g_1, g_2, \ldots] \to E$ such that $\lambda(g_{q^b - 1}) \neq 0$ and $\lambda(g_i) = 0$ for $i < q^b - 1$. To this corresponds a formal $O$-module over $E$ of height $h$.
 
 2) This follows from the fact that the height of the composition of homomorphisms equals the sum of their heights.
 
@@ -216,9 +216,9 @@ Proof. A formal O-module  $(F, f)$  will be called normal if the following condi
 
 1) $f_{\pi}(x) = x^{q^h}$,
 
-2) $F \in \mathbf{F}_{q^h}[[x, y]], f_a \in \mathbf{F}_{q^h}[[x]$ for $a \in O$,
+2) $F \in \mathbf{F}_{q^h}[[x, y]], f_\alpha \in \mathbf{F}_{q^h}[[x]]$ for $\alpha \in O$,
 
-3) $F(x, y) \equiv x + y \mod \deg q^h$; $f_{a}(x) \equiv ax \mod \deg q^h$.
+3) $F(x, y) \equiv x + y \mod \deg q^h$; $f_{\alpha}(x) \equiv \alpha x \mod \deg q^h$.
 
 a) Every formal $O$-module over $E$ of height $h$ is isomorphic to a normal one. Indeed, as in [7], by means of a change of variables we will have $f_{\pi}(x) \equiv x^{q^h}$. Then conditions 1) and 2) will be satisfied. By Proposition 1.6 we perform a change of variables with coefficients from $\mathbf{F}_{q^h}$, after which condition 3) is satisfied (and, as before, conditions 1) and 2)).
 
@@ -264,7 +264,7 @@ Proof. Every divisible torsion $A$-module is isomorphic to $\bigoplus_{\nu \in \
 
 Corollary. The rank of an elliptic A-module is a natural number.
 
-Remark. Since $K\{\tau\} \subset K\{\{\tau\}\}$, every elliptic $A$-module over $K$ defines a formal $A$-module over $K$. If $K$ has general characteristic, then every formal $A$-module over $K$ uniquely extends to a formal $k$-module. If “char” $K = v \in \operatorname{Spec} A$, then every formal $A$-module over $K$ is uniquely extended from an $A_v$-module. The height of the formal $A_v$-module corresponding to the elliptic $A$-module is equal to $d - j_v$.
+Remark. Since $K\{\tau\} \subset K\{\{\tau\}\}$, every elliptic $A$-module over $K$ defines a formal $A$-module over $K$. If $K$ has general characteristic, then every formal $A$-module over $K$ uniquely extends to a formal $k$-module. If “char” $K = \nu \in \operatorname{Spec} A$, then every formal $A$-module over $K$ is uniquely extended from an $A_\nu$-module. The height of the formal $A_\nu$-module corresponding to the elliptic $A$-module is equal to $d - j_\nu$.
 
 C) Isogenies. Let $\phi: A \to K\{\tau\}$ and $\psi: A \to K\{\tau\}$ be elliptic $A$-modules over $K$. A homomorphism from $\phi$ to $\psi$ is an element $\alpha \in K\{\tau\}$ such that $\alpha \phi(a) = \psi(a)\alpha$ for $a \in A$. A nonzero homomorphism is called an isogeny.
 
@@ -278,13 +278,13 @@ Proposition 2.3. Let $\phi$ be an elliptic $A$-module. For a finite group subsch
 
 a) if $K$ has general "characteristic", then $H$ must be reduced;
 
-b) if $\nu = \text{"char"}\,K \in \operatorname{Spec} A$ and $q$ is the order of the residue field of $\nu$, then $H_{\mathrm{loc}} = \operatorname{Spec} K[t]/(t^{q^b})$, where $H_{\mathrm{loc}}$ is the connected component of $H$.
+b) if $\nu = \text{"char"}\,K \in \operatorname{Spec} A$ and $q$ is the order of the residue field of $\nu$, then $H_{\mathrm{loc}} = \operatorname{Spec} K[t]/(t^{q^h})$, where $H_{\mathrm{loc}}$ is the connected component of $H$.
 
 Proof. An additive group is obtained by factoring the additive group by $H$. Let $u \in K\{\tau\}$ be a homomorphism whose kernel is $H$. Since $H$ is invariant with respect to $A$, there exists a unique homomorphism $\psi: A \to K\{\tau\}$ such that $u\phi(a) = \psi(a)u$ for $a \in A$. Clearly $\psi \neq \epsilon \circ i$, and $D(\psi(a)) = [i(a)]^n$, where $n$ is the order of $H_{\mathrm{loc}}$. Therefore, for $\psi$ to be an elliptic module, it is necessary and sufficient that $i(a^n) = i(a)$ for $a \in A$.
 
 Corollary. Any isogeny can be multiplied by another isogeny to an endomorphism which is multiplication by  $a \in A$ ,  $a \neq 0$ .
 
-Proposition 2.4. Let X and Y be elliptic A-modules of rank d over K. Then $\operatorname{Hom}(X, Y)$ is a projective A-module of finite dimension (not exceeding $d^2$). If $v \in \operatorname{Spec} A$, $v \neq$ "char" K, then the homomorphism $\operatorname{Hom}(X, Y) \otimes_A A_v \to \operatorname{Hom}_{A_v}(T_v X, T_v Y)$ is injective (here $T_v X$ is the v-component of the torsion submodule of K), and its cokernel is torsion-free.
+Proposition 2.4. Let X and Y be elliptic A-modules of rank d over K. Then $\operatorname{Hom}(X, Y)$ is a projective A-module of finite dimension (not exceeding $d^2$). If $\nu \in \operatorname{Spec} A$, $\nu \neq$ "char" K, then the homomorphism $\operatorname{Hom}(X, Y) \otimes_A A_\nu \to \operatorname{Hom}_{A_\nu}(T_\nu X, T_\nu Y)$ is injective (here $T_\nu X$ is the $\nu$-component of the torsion submodule of K), and its cokernel is torsion-free.
 
 Proof (cf. [2]). 1) $\operatorname{Hom}(X, Y)$ is a torsion-free $A$-module. If $u, w \in \operatorname{Hom}(X, Y)$, then
 
@@ -303,7 +303,7 @@ Proposition 3.1. The category of elliptic modules of rank d over L is isomorphic
 Proof. 1) Let $L$ be a lattice of dimension $d$ over $L$. We set
 
 $$
-f(z) = z\prod_{\substack{a\in \Gamma \\ a\neq 0}}\left(1 - \frac{z}{a}\right).
+f(z) = z\prod_{\substack{\alpha\in \Gamma \\ \alpha\neq 0}}\left(1 - \frac{z}{\alpha}\right).
 $$
 
 (This product clearly converges uniformly in every circle, since $f$ is an entire function.) First we prove the following lemma.
@@ -314,7 +314,7 @@ Proof. Clearly $g(z + w) - g(z) - g(w) = 0$ for $z \in \Delta$ or $w \in \Delta$
 
 Since $\Gamma$ is the union of an increasing sequence of finite subgroups, we see that $f(z + w) = f(z) + f(w)$. Clearly $f$ induces a group isomorphism $\overline{L} / \Gamma \simeq \overline{L}$. Since $\Gamma$ is an $A$-module, the structure of an $A$-module passes over from $\overline{L} / \Gamma$ to $\overline{L}$. If $a \in A$ and $a \neq 0$ then $f(az)$ and $\prod_{\beta \in (1/a)\Gamma / \Gamma}(f(z) - f(\beta))$ are analytic functions of $z$ with the same divisors. Therefore $f(az) = P_a(f(z))$, where $P_a$ is a polynomial of degree $|a|^d$.
 
-2) Let $\phi$ be an elliptic $A$-module of rank $d$ over $L$. There is a corresponding formal $k$-module over $L$ (cf. the remark at the end of §2B). According to Proposition 1.2, there exists a unique $f = 1 + \sum_{1}^{\infty} b_i \tau^i \in L \{\{\tau\}\}$ such that $fa = \phi(a)f$ for $a \in A$. We shall prove that the formal homomorphism $f$ is an analytic homomorphism. Let $a \in A$, $|a| > 1$ and $\phi(a) = a + \sum_{1}^{s} a_j r^j$. Let $i > s$. From the identity $fa = \phi(a)f$ we obtain
+2) Let $\phi$ be an elliptic $A$-module of rank $d$ over $L$. There is a corresponding formal $k$-module over $L$ (cf. the remark at the end of §2B). According to Proposition 1.2, there exists a unique $f = 1 + \sum_{1}^{\infty} b_i \tau^i \in L \{\{\tau\}\}$ such that $fa = \phi(a)f$ for $a \in A$. We shall prove that the formal homomorphism $f$ is an analytic homomorphism. Let $a \in A$, $|a| > 1$ and $\phi(a) = a + \sum_{1}^{s} a_j \tau^j$. Let $i > s$. From the identity $fa = \phi(a)f$ we obtain
 
 $$
 (a ^ {p ^ {i}} - a) b _ {i} = \sum_ {j = 1} ^ {s} a _ {j} b _ {i - j} ^ {p ^ {j}}.
@@ -338,11 +338,11 @@ Proof. Let $m \subset R$ be a maximal ideal. It suffices to consider the case wh
 
 Deformations $(F_{1}, f_{1})$ and $(F_{2}, f_{2})$ of the module $(G, g)$ are called isomorphic if there exists an isomorphism $(F_{1}, f_{1}) \cong (F_{2}, f_{2})$ inducing the identity automorphism on $(G, g)$. (If $(G, g)$ has finite height, then such an isomorphism is unique.)
 
-Proposition 4.2. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}$ of finite height $h$. The functor that associates to $R \in C$ the set of deformations of the module $(G, g)$ up to isomorphism is represented by the algebra $\hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$.
+Proposition 4.2. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}$ of finite height $h$. The functor that associates to $R \in C$ the set of deformations of the module $(G, g)$ up to isomorphism is represented by the algebra $\hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$.
 
-Proof. Let $O[g_1, g_2, \ldots] = \Lambda_O \to \hat{O}^{nr} / (\pi)$ be the homomorphism corresponding to $(G, g)$. We can assume that under this homomorphism $g_i \to 0$ for $i < q^b - 1$. Let
+Proof. Let $O[g_1, g_2, \ldots] = \Lambda_O \to \hat{O}^{nr} / (\pi)$ be the homomorphism corresponding to $(G, g)$. We can assume that under this homomorphism $g_i \to 0$ for $i < q^h - 1$. Let
 
-$(F^0, f^0)$ be a deformation of $(G, g)$ with basis $\hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$ such that the corresponding homomorphism $\Lambda_O \to \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$ sends $g_i$ into $t_i$ for $1 \leq i \leq b-1$ and $g_j$ into zero for $j < q^b - 1$, $j \neq q^i - 1$. We shall show that $(F^0, f^0)$ is a universal deformation.
+$(F^0, f^0)$ be a deformation of $(G, g)$ with basis $\hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$ such that the corresponding homomorphism $\Lambda_O \to \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$ sends $g_i$ into $t_i$ for $1 \leq i \leq h-1$ and $g_j$ into zero for $j < q^h - 1$, $j \neq q^i - 1$. We shall show that $(F^0, f^0)$ is a universal deformation.
 
 Let $M$ be a vector space over $\hat{O}^{nr}/(\pi)$. A 2-dimensional cocycle of the module $(G, g)$ with coefficients in $M$ is a set $\{\Delta \in M[[x, y]], \delta_a \in M[[x]] \text{ for } a \in O\}$ such that
 
@@ -372,7 +372,7 @@ Lemma. 1) The exists a one-to-one correspondence between formal O-modules $(F^{\
 
 Proof. If $(F', f') \equiv (F'', f'') \mod m^r$, then the isomorphism of the deformations $(F', f')$ and $(F'', f'')$ is the identity mod $m^r$ (by Proposition 4.1). The remaining assertions can be verified directly. $\square$
 
-Let $\phi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ be a homomorphism such that $\phi(F^0, f^0) \equiv (F, f) \mod m^r$. For the proof of the proposition it suffices to show the existence and uniqueness of a homomorphism $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ such that $\psi \equiv \phi \mod m^r$ and $\psi_*(F^0, f^0) \approx (F, f)$. Let $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]] \to R$ be a homomorphism such that $\psi(t_i) = \phi(t_i) + \epsilon_i, \epsilon_i \in m^r$. Then the difference between the cocycles corresponding to $\phi_*(F^0, f^0)$ and $\psi_*(F^0, f^0)$ has the form $\Sigma_{i=1}^{b-1} \epsilon_i(\Delta_i, \delta_i)$, where $(\Delta_i, \delta_i)$ is a cocycle with coefficients in $\hat{O}^{nr}/(\pi)$ (which depends neither on $\epsilon_i$ nor on $r$). Then
+Let $\phi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ be a homomorphism such that $\phi(F^0, f^0) \equiv (F, f) \mod m^r$. For the proof of the proposition it suffices to show the existence and uniqueness of a homomorphism $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ such that $\psi \equiv \phi \mod m^r$ and $\psi_*(F^0, f^0) \approx (F, f)$. Let $\psi: \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]] \to R$ be a homomorphism such that $\psi(t_i) = \phi(t_i) + \epsilon_i, \epsilon_i \in m^r$. Then the difference between the cocycles corresponding to $\phi_*(F^0, f^0)$ and $\psi_*(F^0, f^0)$ has the form $\Sigma_{i=1}^{h-1} \epsilon_i(\Delta_i, \delta_i)$, where $(\Delta_i, \delta_i)$ is a cocycle with coefficients in $\hat{O}^{nr}/(\pi)$ (which depends neither on $\epsilon_i$ nor on $r$). Then
 
 $$
 \left(\Delta_ {i}, \delta_ {i}\right) \equiv 0 \bmod \deg q ^ {i}, \left(\Delta_ {i}, \delta_ {i}\right) \not \equiv 0 \bmod \deg \left(q ^ {i} + 1\right).
@@ -406,25 +406,25 @@ $$
 
 B) Deformations of arbitrary level. Let $R \in C$, and let $m \subset R$ be a maximal ideal. The assignment of a formal $O$-module $(F, f)$ over $R$ turns $m$ into an $O$-module. Let the reduction of $(F, f)$ modulo $m$ have finite height $h$. Let $n \in \mathbf{Z}$, $n \geq 0$.
 
-Definition. A structure of level $n$ on a formal $O$-module $(F, f)$ is an $O$-module homomorphism $\phi: ((1 / \pi^n)O / O)^h \to m$ such that $f_{\pi^n}(x)$ is divisible by
+Definition. A structure of level $n$ on a formal $O$-module $(F, f)$ is an $O$-module homomorphism $\phi: ((1 / \pi^n)O / O)^h \to m$ such that $f_{\pi}(x)$ is divisible by
 
 $$
-\prod_ {\alpha \in \left(\frac {1}{\pi^n} O / O\right) ^ {h}} (x - \varphi (\alpha)).
+\prod_ {\alpha \in \left(\frac {1}{\pi} O / O\right) ^ {h}} (x - \varphi (\alpha)).
 $$
 
-For $n \geq 1$ it follows that $f_{\pi^n}(x)$ and $\prod_{\alpha \in ((1 / \pi^n)O/O)^h}(x - \phi(\alpha))$ divide each other. In the case $R = \hat{O}^{nr}/(\pi)$ there exists exactly one structure of level $n$. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}/(\pi)$ of finite height $h$. A deformation of the module $(G, g)$ with structure of level $n$ will be called a deformation of level $n$.
+For $n \geq 1$ it follows that $f_{\pi}(x)$ and $\prod_{\alpha \in ((1 / \pi)O/O)^h}(x - \phi(\alpha))$ divide each other. In the case $R = \hat{O}^{nr}/(\pi)$ there exists exactly one structure of level $n$. Let $(G, g)$ be a formal $O$-module over $\hat{O}^{nr}/(\pi)$ of finite height $h$. A deformation of the module $(G, g)$ with structure of level $n$ will be called a deformation of level $n$.
 
 Proposition 4.3. 1) The functor that associates to $R \in C$ the set of deformations of level $n$ of the module $(G, g)$ up to isomorphism is represented by some ring $D_n$. 2) $D_n$ is a regular ring. Let $n \geq 1$, and let $e_i$ ($i = 1, \ldots, h$) be a basis for $((1/\pi^n)O/O)^h$ as an $O/(\pi)^n$-module. The images of $e_i$ in $D_n$ under the universal deformation of level $n$ form a system of local parameters.
 
 3) Let $m \leq n$. The homomorphism $D_m \to D_n$ is finite and flat.
 
-Proof. a) Let $(F, f)$ be a universal deformation with basis $D_0 \simeq \hat{O}^{nr}[[t_1, \ldots, t_{b-1}]]$. Let $0 \leq r \leq h$. Consider the functor $\Phi_r$ that associates to each $D_0$-algebra $R \in C$ the set of homomorphisms $\phi$ from $((1/\pi)O/O)^r$ into a maximal ideal of $R$ such that $f_\pi(x)$ is divisible by
+Proof. a) Let $(F, f)$ be a universal deformation with basis $D_0 \simeq \hat{O}^{nr}[[t_1, \ldots, t_{h-1}]]$. Let $0 \leq r \leq h$. Consider the functor $\Phi_r$ that associates to each $D_0$-algebra $R \in C$ the set of homomorphisms $\phi$ from $((1/\pi)O/O)^r$ into a maximal ideal of $R$ such that $f_\pi(x)$ is divisible by
 
 $$
 \prod_ {\alpha \in \left(\frac {1}{\pi} O / O\right) ^ {r}} (x - \varphi (\alpha)).
 $$
 
-Lemma. $\Phi_r$ is represented by a ring $L_r$ having the following properties: 1) $L_r$ is a regular ring. Let $e_i (i = 1, \ldots, r)$ be a basis for $((1/\pi)O/O)^r$. Then the images of $e_i$ in $L_r$ and also $t_r, \ldots, t_{b-1}$ form a system of local parameters. 2) The homomorphism $L_{r-1} \to L_r$ is finite and flat.
+Lemma. $\Phi_r$ is represented by a ring $L_r$ having the following properties: 1) $L_r$ is a regular ring. Let $e_i (i = 1, \ldots, r)$ be a basis for $((1/\pi)O/O)^r$. Then the images of $e_i$ in $L_r$ and also $t_r, \ldots, t_{h-1}$ form a system of local parameters. 2) The homomorphism $L_{r-1} \to L_r$ is finite and flat.
 
 Proof. For $r = 0$ the lemma is true. Suppose that $r \geq 1$ and that the lemma has been proved for $\Phi_{r-1}$. Let $\phi_{r-1}: ((1/\pi)O/O)^{r-1} \to L_{r-1}$ be the homomorphism mentioned in the definition of $\Phi_{r-1}$. We set $\theta_i = \phi_{r-1}(e_i) (1 \leq i \leq r-1)$ and
 
@@ -441,13 +441,13 @@ $$
 so that the restriction of $\phi_r$ to the first summand coincides with $\phi_{r-1}$ and the restriction of $\phi_r$ to the second summand sends $1/\pi$ into $\theta_r$. Clearly, $L_r$ is finite and flat over $L_{r-1}$; furthermore,
 
 $$
-L _ {r} / \left(\theta_ {1}, \dots , \theta_ {r}, t _ {r}, \dots , t _ {b - 1}\right) = \hat {O} ^ {n r} / (\pi),
+L _ {r} / \left(\theta_ {1}, \dots , \theta_ {r}, t _ {r}, \dots , t _ {h - 1}\right) = \hat {O} ^ {n r} / (\pi),
 $$
 
-and so  $L_{r}$  is regular, and  $\theta_{1},\ldots,\theta_{r},t_{r},\ldots,t_{b-1}$  form a system of local parameters. It remains to prove that  $L_{r}$  represents  $\Phi_{r}$ . It is enough to show that  $f_{\pi}(x)$  is divisible by
+and so  $L_{r}$  is regular, and  $\theta_{1},\ldots,\theta_{r},t_{r},\ldots,t_{h-1}$  form a system of local parameters. It remains to prove that  $L_{r}$  represents  $\Phi_{r}$ . It is enough to show that  $f_{\pi}(x)$  is divisible by
 
 $$
-\prod_ {a \in \left(\frac {1}{\pi} O / O\right) ^ {r}} (x - \varphi_ {r} (a)).
+\prod_ {\alpha \in \left(\frac {1}{\pi} O / O\right) ^ {r}} (x - \varphi_ {r} (\alpha)).
 $$
 
 Indeed, $f_{\pi}(x)$ is divisible by $x - \phi_r(\alpha)$ for $\alpha \in ((1 / \pi)O / O)^r$. Since $L_r$ is regular, it remains to show that $\phi_r$ is injective. Indeed, if $\phi_r(\Sigma_1^r\alpha_i e_i) = 0$, then $\Sigma \alpha_i\theta_i$ belongs to the square of the maximal ideal of $L_r$, and so $\alpha_i \in (\pi)$.
@@ -478,7 +478,7 @@ is an imbedding, then the corresponding homomorphism from  $((1/\pi^{m})O/O)^{h}
 
 Proof. It is enough to consider the case $R = D_n$ (cf. Proposition 4.3). Clearly $H$ is the minimal closed subscheme in $\operatorname{Spf} R[[x]]$ containing $\operatorname{Spf} R[[x]] / (x - \phi(\alpha))$ for all $\alpha \in P$. Since $F(\phi(\alpha), \phi(\beta)) = \phi(\alpha + \beta)$ and $\operatorname{Spf} R[[x]] / (x - \phi(\alpha + \beta))$ is contained in $H$
 
-for $\alpha, \beta \in P$, it follows that $H$ is invariant under addition. Similarly it is proved that $H$ is invariant under the action of $O$. Since $\phi(\alpha) \neq 0$ for $\alpha \neq 0$, the homomorphism from $F$ to $G$ induces a nonzero tangent mapping. Since $D_n$ has no divisors of zero, $G$ is a formal $O$-module. Since the homomorphism from $((1/\pi^m)O/O)^b$ into the maximal ideal $D_n$ is injective, and $D_n$ is regular, it follows that this homomorphism is a structure of level $m$.
+for $\alpha, \beta \in P$, it follows that $H$ is invariant under addition. Similarly it is proved that $H$ is invariant under the action of $O$. Since $\phi(\alpha) \neq 0$ for $\alpha \neq 0$, the homomorphism from $F$ to $G$ induces a nonzero tangent mapping. Since $D_n$ has no divisors of zero, $G$ is a formal $O$-module. Since the homomorphism from $((1/\pi^m)O/O)^h$ into the maximal ideal $D_n$ is injective, and $D_n$ is regular, it follows that this homomorphism is a structure of level $m$.
 
 C) Deformations of divisible modules. In this section, a formal group will be a group object in the category of formal schemes. (For example, a discrete group is a formal group.) Let $R \in C$. A divisible O-module over $R$ is a formal group $F$ over $R$ together with a homomorphism $f \colon O \to \operatorname{End} F$ such that $F_{\text{loc}}$ is a formal O-module, and
 
@@ -514,7 +514,9 @@ Remark. Let $O'$ be the integral closure of $O$ in a finite extension of $K$. By
 
 A) Endomorphisms of the additive group.
 
-Proposition 5.1. Let $B$ be a ring of characteristic $p$ with $\operatorname{Spec} B$ connected. Let $f_1, f_2 \in B\{\tau\}$, $f_j = \sum_{i=0}^{d_j} a_{ij}\tau^i$, $d_1 > 0$, $a_{d_jj}$ invertible for $j = 1, 2$. Let $h \in B\{\tau\}$ and $hf_1 = f_2h$. If $d_1 \neq d_2$, then $h = 0$.
+Proposition 5.1. Let $B$ be a ring of characteristic $p$ with $\operatorname{Spec} B$ connected. Let $f_1, f_2 \in B\{\tau\}$, $f_j = \sum_{i=0}^{d_j} a_{ij}\tau^i$, $d_1 > 0$, $a_{d_jj}$ invertible for $j = 1, 2$. Let $h \in B\{\tau\}$ and $hf_1 = f_2h$.
+
+1) If $d_1 \neq d_2$, then $h = 0$.
 
 2) If $d_1 = d_2$ and $h \neq 0$, then $h$ has the form $\sum_{i=0}^{d_3} h_i \tau^i$, and $h_{d_3}$ is invertible.
 
@@ -522,12 +524,12 @@ Proof. It suffices to consider the case when B is a local Artinian ring. We proc
 
 1) Assume that the coefficients of $h$ are nilpotent. (This is also true if $d_1 \neq d_2$). We shall show that $h = 0$. Let $M \subset B$ be an ideal such that $m^2 = 0$ and $h = \sum_0^n h_i \tau^i$, $h_i \in m$. Then $hf_1 = f_2h = a_{02}h$. Since $d_1 > 0$, we have $h_n = 0$.
 
-2) Let $d = d_1 = d_2$ and $h = \sum_{0}^{n} h_i \tau^i$; let $m \subset B$ be an ideal, $m^2 = 0$, $h_n \in m$. Equating the coefficients for $\tau^{d + n}$, we obtain $h_n = 0$.
+2) Let $d = d_2 = d$ and $h = \sum_{0}^{n} h_i \tau^i$; let $m \subset B$ be an ideal, $m^2 = 0$, $h_n \in m$. Equating the coefficients for $\tau^{d + n}$, we obtain $h_n = 0$. □
 
 Proposition 5.2. Let $B$ be a ring, char $B = p$. Let $f = \sum_{0}^{n} a_i \tau^i \in B\{\tau\}$, and let $d > 0$, with $a_d$ invertible and $a_i$ nilpotent for $i > d$. Then there exists a unique element of the form $1 + \sum_{1}^{m} \alpha_j \tau^j \in B\{\tau\}$ such that the $\alpha_j$ are nilpotent and
 
 $$
-\left(1 + \sum_ {j} \alpha_ {j} \tau^ {j}\right) f \left(1 + \sum_ {j} \alpha_ {j} \tau^ {j}\right) ^ {- 1}
+\left(1 + \sum_ {i} \alpha_ {i} \tau^ {i}\right) f \left(1 + \sum_ {i} \alpha_ {j} \tau^ {i}\right) ^ {- 1}
 $$
 
 has degree d.
@@ -537,7 +539,7 @@ Proof. The uniqueness follows from Proposition 5.1.
 Let $m \subset B$ be an ideal, $m^2 = 0$, $a_i \in m$ for $i > d$, and $n > d$. Then the degree of
 
 $$
-\left(1 - \frac {a _ {n}}{a _ {d} ^ {p ^ {n - d}}} \tau^ {n - d}\right) f \left(1 - \frac {a _ {n}}{a _ {d} ^ {p ^ {n - d}}} \tau^ {n - d}\right) ^ {- 1}
+\left(1 - \frac {a _ {n}}{a _ {d} ^ {p ^ {n - 1}}} \tau^ {n - d}\right) f \left(1 - \frac {a _ {n}}{a _ {d} ^ {p ^ {n - 1}}} \tau^ {n - d}\right) ^ {- 1}
 $$
 
 is less than n. From this follows the existence. □
@@ -552,15 +554,15 @@ Let $I \subset A$ be an ideal. We denote by $V(I)$ the set of simple ideals cont
 
 Definition. A structure of level $I$ on $X$ is a homomorphism of $A$-modules $\psi: (I^{-1}/A)^{d} \to \operatorname{Mor}(S, X)$ such that, for any $m \in V(I)$, $X_{m}$ as a divisor coincides with the sum of the divisors $\psi(\alpha)$, $\alpha \in m^{-1}/A$.
 
-Remark. If the image of $S$ in $\operatorname{Spec} A$ does not intersect $V(I)$, then a structure of level $I$ is an isomorphism $(I^{-1} / A)^d \times S \cong X_I$.
+Remark. If the image of $S$ in $\operatorname{Spec} A$ does not intersect $V(I)$, then a structure of level $I$ is an isomorphism $(I^{-1} / A)^d \times S \stackrel{\sim}{\to} X_I$.
 
 Proposition 5.3. Let $I \subset A$ be an ideal such that $I \neq 0$ and $V(I)$ contains more than one element. The functor that associates to the scheme $S$ over $A$ the set of elliptic $A$-modules of rank $d$ with structure of level $I$ up to isomorphism is represented by a scheme $M_I^d$ of finite type over $A$.
 
-Proof. Let $m \in V(I)$. It is enough to prove that the restriction of our functor to the category of schemes over $\operatorname{Spec} A - m$ is representable. Indeed, if $S$ is a scheme over $\operatorname{Spec} A - m$ and $X$ is an elliptic $A$-module of rank $d$ over $S$ with structure of level $I$, then a choice of nonzero elements $(m^{-1}/A)^d$ defines a trivialization of the bundle $X$.
+Proof. Let $m \in V(I)$. It is enough to prove that the restriction of our functor to the category of schemes over $\operatorname{Spec} A - m$ is representable. Indeed, if $S$ is a scheme over $\operatorname{Spec} A - m$ and $X$ is an elliptic $A$-module of rank $d$ over $S$ with structure of level $I$, then a choice of nonzero elements $(m^{-1}/A)^d$ defines a trivialization of the bundle $X$. □
 
 C) Deformations of elliptic modules. Let $V \in \operatorname{Spec} A$ and $O = A_{\nu}$. The definition of the category $C$ was given in §4. Let $X$ be an elliptic module of rank $d$ over $\hat{A}_{\nu}^{nr} / \nu$ with structure of level $\nu^n$.
 
-We consider the functor that associates to $R \in C$ the set of deformations of level $\nu^n$ of the module $X$ with basis $R$ up to isomorphism. This functor can be represented in the following way: Let $I \subset A$ be nonzero ideal, $V(I) \not\supseteq \nu$, $I \neq A$. We lift in any way the structure of level $\nu^n$ on $X$ to a structure of level $I\nu^n$. Let $y$ be the corresponding point in $M_{I\nu^n}^d \otimes A_\nu^{nr}$, and $F_n$ its completion at a local ring. Then $F_n$ represents our functor.
+We consider the functor that associates to $R \in C$ the set of deformations of level $\nu^n$ of the module $X$ with basis $R$ up to isomorphism. This functor can be represented in the following way: Let $I \subset A$ be nonzero ideal, $V(I) \not\ni \nu$, $I \neq A$. We lift in any way the structure of level $\nu^n$ on $X$ to a structure of level $I\nu^n$. Let $y$ be the corresponding point in $M_{I\nu^n}^d \otimes A_\nu^{nr}$, and $F_n$ its completion at a local ring. Then $F_n$ represents our functor.
 
 Let $R \in C$, and let $Y$ be an elliptic module over $R$. Then $\hat{Y} = \varinjlim Y_{\nu^n}$ is a divisible $A_{\nu}$-module. A structure of level $\nu^n$ on $Y$ defines a structure of level $n$ on $\hat{Y}$. Thus there is a homomorphism $E_n \to F_n$, where $E_n$ was defined in §4C).
 
@@ -596,9 +598,9 @@ and so $\sum_{i=h}^{d-1} \beta_i r^{p^i} = 0$. Since $r$ can assume $p^{d-h}$ di
 
 Corollary. Suppose the conditions of Proposition 5.3 are satisfied. Then $M_I^d$ is a smooth $d$-dimensional manifold. The morphism $M_I^d \to \operatorname{Spec} A$ is smooth over $\operatorname{Spec} A - V(I)$. If $J \subset I$, then the morphism $M_J^d \to M_I^d$ is finite and flat.
 
-D) Group actions. We set $M^d = \varprojlim M_I^d$. Let $\mathfrak{U}$ be the ring of adèles of $k$, and let $\mathfrak{U}_f$ be the ring of adèles without the component at $\infty$. (Thus $\mathfrak{U} = \mathfrak{U}_f \times k_\infty$ and $\hat{A} = \varprojlim A / I$.)
+D) Group actions. We set $M^d = \varprojlim M_I^d$. Let $\mathfrak{A}$ be the ring of adèles of $k$, and let $\mathfrak{A}_f$ be the ring of adèles without the component at $\infty$. (Thus $\mathfrak{A} = \mathfrak{A}_f \times k_\infty$ and $\hat{A} = \varprojlim A / I$.)
 
-We define an action of the group $GL(d, \mathfrak{U}_f) / k^*$ on $M^d$. Let $S$ be a scheme over $A$, and let $X$ be an elliptic module over $S$ of rank $d$ together with a homomorphism $\psi: (k/A)^d \to \text{Mor}(S, X)$ such that for any nonzero ideal $I \subset A$ the restriction of $\psi$ to $(I^{-1}/A)^d$ is a structure of level $I$. Let $g \in GL(d, \mathfrak{U}_f)$ be a matrix with coefficients in $\hat{A}$. We can regard $g$ as an endomorphism of $(k/A)^d$. Its kernel $P$ is finite. It follows from Proposition 4.4 that the divisor $H \subset P$, which is equal to the sum of the divisors $\psi(\alpha), \alpha \in P$, is an $A$-invariant group subscheme, and $X/H$ is an elliptic $A$-module. We define $\psi_1: (k/A)^d \to \text{Mor}(S, X/H)$ so the diagram
+We define an action of the group $GL(d, \mathfrak{A}_f) / k^*$ on $M^d$. Let $S$ be a scheme over $A$, and let $X$ be an elliptic module over $S$ of rank $d$ together with a homomorphism $\psi: (k/A)^d \to \text{Mor}(S, X)$ such that for any nonzero ideal $I \subset A$ the restriction of $\psi$ to $(I^{-1}/A)^d$ is a structure of level $I$. Let $g \in GL(d, \mathfrak{A}_f)$ be a matrix with coefficients in $\hat{A}$. We can regard $g$ as an endomorphism of $(k/A)^d$. Its kernel $P$ is finite. It follows from Proposition 4.4 that the divisor $H \subset P$, which is equal to the sum of the divisors $\psi(\alpha), \alpha \in P$, is an $A$-invariant group subscheme, and $X/H$ is an elliptic $A$-module. We define $\psi_1: (k/A)^d \to \text{Mor}(S, X/H)$ so the diagram
 
 $$
 \begin{array}{c} (k / A) ^ {d} \xrightarrow {\psi} \operatorname{Mor} (S, X) \\ g \downarrow \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \downarrow \\ (k / A) ^ {d} \xrightarrow {\psi_ {1}} \operatorname{Mor} (S, X / H) \end{array}
@@ -606,7 +608,7 @@ $$
 
 is commutative.
 
-It follows from Proposition 4.4 that for any $I$ the restriction of $\psi_{1}$ to $(I^{-1}/A)^{d}$ is a structure of level $I$. We obtain a left action on $M^{d}$ of the subgroup of matrices in $GL(d, \mathfrak{U}_{f})$ with coefficients in $\hat{A}$. Since the subgroup of nonzero elements of $A$ acts trivially on $M^{d}$, we obtain an action of $GL(d, \mathfrak{U}_{f})/k^{*}$.
+It follows from Proposition 4.4 that for any $I$ the restriction of $\psi_{1}$ to $(I^{-1}/A)^{d}$ is a structure of level $I$. We obtain a left action on $M^{d}$ of the subgroup of matrices in $GL(d, \mathfrak{A}_{f})$ with coefficients in $\hat{A}$. Since the subgroup of nonzero elements of $A$ acts trivially on $M^{d}$, we obtain an action of $GL(d, \mathfrak{A}_{f})/k^{*}$.
 
 Let $I \subset A$ be an ideal satisfying the conditions of Proposition 5.3, and let $U_I$ be the kernel of the homomorphism $GL(d, \hat{A}) \to GL(d, A/I)$. Then $M_I^d = U_I \backslash M^d$. Indeed, if $J \subset I$, then the morphism
 
@@ -614,15 +616,15 @@ $$
 M _ {J} ^ {d} \times_ {\text { Spec } A} (\text { Spec } A - V (J)) \rightarrow M _ {I} ^ {d} \times_ {\text { Spec } A} (\text { Spec } A - V (J))
 $$
 
-is a bundle with structure group $U_{I} / U_{J}$. It follows from the normality of $M_{I}^{d}$ that $M_{I}^{d} = U_{I} \backslash M^{d}$.
+is a bundle with structure group $U_{I} / U_{J}$. It follows from the normality of $M_{I}^{d}$ that $M_{I}^{d} = U_{I} \backslash M_{I}^{d}$.
 
 E) Congruence relations. Recall the construction of the induced ring [4]. Let $G$ be a topological group, $H \subset G$ a closed subgroup, and $B$ a discrete ring on which the group $H$ acts continuously on the right. Consider the ring $C$ of continuous functions $f: G \to B$ such that $f(gh) = f(g) \cdot h$ for $g \in G$ and $h \in H$. This is called the induced ring; $G$ acts on it by the formula $f(g) \cdot (g') = f(gg')$. We shall say that $\operatorname{Spec} C$ is induced by the scheme $\operatorname{Spec} B$.
 
 Let $\nu \in \operatorname{Spec} A$, and let $M_{(\nu)}^{d}$ be the fiber of $M^{d}$ over $\nu$. To each point of $M_{(\nu)}^{d}$ there corresponds an elliptic $A$-module, to which in turn corresponds a formal $A_{\nu}$-module. Let $W \subset M_{(\nu)}^{d}$ be the set of points for which the corresponding formal $A_{\nu}$-module has height 1.
 
-Proposition 5.5. 1) W is an open, affine, everywhere dense  $GL(d, \mathfrak{U}_{f})$ -invariant subset.
+Proposition 5.5. 1) W is an open, affine, everywhere dense  $GL(d, \mathfrak{A}_{f})$ -invariant subset.
 
-2) Let $B \subset GL(d, k_{\nu})$ be a group of matrices $(a_{ij})$ such that $a_{i1} = 0$ for $i > 1$. Let $B'$ be the preimage of $B$ in $GL(d, \mathfrak{U}_{f})$. Then the $GL(d, \mathfrak{U}_{f})$-scheme $W$ induced by any $B'$-scheme $W^0$ has the following properties:
+2) Let $B \subset GL(d, k_{\nu})$ be a group of matrices $(a_{ij})$ such that $a_{i1} = 0$ for $i > 1$. Let $B'$ be the preimage of $B$ in $GL(d, \mathfrak{A}_{f})$. Then the $GL(d, \mathfrak{A}_{f})$-scheme $W$ induced by any $B'$-scheme $W^0$ has the following properties:
 
 a) The matrices $(a_{ij}) \in B \subset B'$ for which $|a_{11}|_{\nu} = 1$ and the lower right corner $(i, j > 1)$ coincides with the identity matrix acts trivially on $W_{\mathrm{red}}^0$.
 
@@ -636,15 +638,15 @@ acts on $W_{\mathrm{red}}^0$ like the Frobenius of the field $A_{\nu} / (\pi)$.
 
 Proof. Statement 1) is clear (the density of W follows from Proposition 5.4).
 
-2) To each point $w \in W$ corresponds an elliptic module $X$ and a homomorphism $(k_{\nu} / A_{\nu})^d \to X$ whose kernel is isomorphic to $k_{\nu} / A_{\nu}$. This defines a $GL(d, \mathfrak{U}_f)$-invariant mapping of the set $W \to GL(d, \mathfrak{U}_f) / B'$. Let $I \subset A$ be an ideal, $I \neq 0$. The mapping
+2) To each point $w \in W$ corresponds an elliptic module $X$ and a homomorphism $(k_{\nu} / A_{\nu})^d \to X$ whose kernel is isomorphic to $k_{\nu} / A_{\nu}$. This defines a $GL(d, \mathfrak{A}_f)$-invariant mapping of the set $W \to GL(d, \mathfrak{A}_f) / B'$. Let $I \subset A$ be an ideal, $I \neq 0$. The mapping
 
-$U_{I} \backslash W \rightarrow GL(d, \mathfrak{U}_{f}) / B'$ is clearly continuous. Let $W_{I}^{0}$ be the preimage in $U_{I} \backslash W$ of the image of the identity in $U_{I} \backslash GL(d, \mathfrak{U}_{f}) / B'$. We set $W^{0} = \varprojlim W_{I}^{0}$. Then $W^{0}$ is invariant with respect to $B'$, and $W$ is induced by the scheme $W^{0}$. Every morphism $W_{\text{red}}^{0} \rightarrow W_{\text{red}}^{0}$ is uniquely defined by its action on the set of places. Statements a) and b) follow from this. $\square$
+$U_{I} \backslash W \rightarrow GL(d, \mathfrak{A}_{f}) / B'$ is clearly continuous. Let $W_{I}^{0}$ be the preimage in $U_{I} \backslash W$ of the image of the identity in $U_{I} \backslash GL(d, \mathfrak{A}_{f}) / B'$. We set $W^{0} = \varprojlim W_{I}^{0}$. Then $W^{0}$ is invariant with respect to $B'$, and $W$ is induced by the scheme $W^{0}$. Every morphism $W_{\text{red}}^{0} \rightarrow W_{\text{red}}^{0}$ is uniquely defined by its action on the set of places. Statements a) and b) follow from this. $\square$
 
 ## §6. Uniformization of modular manifolds
 
 A) Three analogs of the upper half-plane. Let $K$ be a local nonarchimedean field, $O \subset K$ its ring of integers, and $\pi \in O$ a prime element. Let $d$ be a natural number.
 
-1) “Analytic” analog. Let  $P_{K}^{d-1}$  be projective space, considered as a rigid analytic space. The group  $GL(d, K)$  acts on  $P_{K}^{d-1}$  according to the formula
+1) “Analytic” analog. Let  $\mathbf{P}_{K}^{d-1}$  be projective space, considered as a rigid analytic space. The group  $GL(d, K)$  acts on  $\mathbf{P}_{K}^{d-1}$  according to the formula
 
 $$
 (g; (z _ {1}, \dots , z _ {d})) \rightarrow (z _ {1}, \dots , z _ {d}) \cdot g ^ {- 1}.
@@ -652,7 +654,7 @@ $$
 
 Let $\Omega^d$ be a set of points of $\mathbf{P}_K^{d - 1}$ not lying in any hyperplane defined over $K$. The set $\Omega^d$ is a $GL(d,K)$-invariant subset of $\mathbf{P}_K^{d - 1}$.
 
-2) “Homogeneous” analog [5]. Let $S^d = GL(d, K)/GL(d, O)$. The group $GL(d, K)$ acts on the left on $K^d$, and so the elements of $S^d$ can be interpreted as similarity classes of free $d$-dimensional $O$-submodules in $K^d$. We introduce a metric $\rho$ on $S^d$. Let $M \subset K^d$, $N \subset K^d$, $M \approx N \approx O^d$, $M \supset N \supset \pi^k M$, $N \not\subset M$ and $N \not\ni \pi^{k-1} M$. Let $\{M\}$ and $\{N\}$ be the corresponding elements of $S^d$. We set $\rho(\{M\}, \{N\}) = k$.
+2) “Homogeneous” analog [5]. Let $S^d = GL(d, K)/GL(d, O)$. The group $GL(d, K)$ acts on the left on $K^d$, and so the elements of $S^d$ can be interpreted as similarity classes of free $d$-dimensional $O$-submodules in $K^d$. We introduce a metric $\rho$ on $S^d$. Let $M \subset K^d$, $N \subset K^d$, $M \approx N \approx O^d$, $M \supset N \supset \pi^k M$, $N \not\subset M$ and $N \not\supset \pi^{k-1} M$. Let $\{M\}$ and $\{N\}$ be the corresponding elements of $S^d$. We set $\rho(\{M\}, \{N\}) = k$.
 
 A simplex is a subset $\Delta \subset S^d$ that satisfies one of the following equivalent conditions: a) $\rho(x, y) \leq 1$ for $x, y \in \Delta$; b) there exist submodules $M_i \subset K^d$ ($1 \leq i \leq k$) such that $M_i \approx O^d$, $M_i \supset M_{i+1}$ for $i < k$, $M_k \supset \pi M_1$, and $\Delta = \{\{M_1\}, \ldots, \{M_k\}\}$. Thus $S^d$ is a simplicial scheme of codimension $d-1$. The corresponding polyhedron is denoted $S^d(\mathbf{R})$, and the set of points of $S^d(\mathbf{R})$ with rational barycentric coordinates is denoted $S^d(\mathbf{Q})$.
 
@@ -694,7 +696,7 @@ $$
 \nu \left(a _ {1}, \dots , a _ {d}\right) = \max _ {1 \leqslant i \leqslant d} | a _ {i} |,
 $$
 
-and let $\{\nu\}$ be the corresponding element of $S^d$, and $\epsilon = \inf_{\nu(a) = 1} \psi(a)$. Clearly $\operatorname{Im}(\lambda \circ \phi)$ is contained in a ball with center $\{\nu\}$ and radius $\log_q \epsilon$.
+and let $\{\nu\}$ be the corresponding element of $S^d$, and $\epsilon = \inf_{\nu(a) = 1} \psi(a)$. Clearly $\operatorname{Im}(\lambda \circ \phi)$ is contained in a ball with center $\{\nu\}$ and radius $\log_q \epsilon$. □
 
 Let $\overline{S}^d$ be the barycentric subdivision of $S^d$ (i.e. the points of $\overline{S}^d$ are the simplices of $S^d$; if $\Delta_1, \ldots, \Delta_m$ are simplices of $S^d$ such that $\Delta_1 \supset \Delta_2 \supset \ldots \supset \Delta_m$, then $\{\Delta_1, \ldots, \Delta_m\}$ is a simplex of $\overline{S}^d$.
 
@@ -704,7 +706,7 @@ $$
 V _ {\Delta} ^ {c} = \left\{y \in S ^ {d} (\mathbf {Q}) \middle| \rho (y, x) \leqslant 1 - \frac {3 - c}{4 ^ {k}} \text{ for } x \in \Delta , \sum_ {x \in \Delta} \rho (y, x) \leqslant k - 1 + \frac {1 + c}{4 ^ {k}} \right\},
 $$
 
-$U_{\Delta}^{c} = \lambda^{-1}(V_{\Delta}^{c})$. The sets $U_{\Delta}^{c}$ generate a GL(d, K)-invariant admissible affine covering of $\Omega^{d}$ with nerve $\overline{S}^{d}$. If $c_{1} < c_{2}$, then $U_{\Delta}^{c1} \Subset U_{\Delta}^{c2}$.
+$U_{\Delta}^{c} = \lambda^{-1}(V_{\Delta}^{c})$. The sets $U_{\Delta}^{c}$ generate a GL(d, K)-invariant admissible affine covering of $\Omega^{d}$ with nerve $\overline{S}^{d}$. If $c_{1} < c_{2}$, then $U_{\Delta}^{c1} \subset U_{\Delta}^{c2}$.
 
 Proof. We shall show that the sets $V_{\Delta}^{c}$ form a covering of $S^{d}(\mathbf{Q})$ with nerve $\overline{S}^d$. (This is sufficient by Proposition 6.1.)
 
@@ -718,17 +720,17 @@ $$
 
 This verifies the condition $\sum_{i=1}^{d}\alpha_i = 1$.
 
-Denote by $M_k$ the set of the first $k$ points of the simplex $\Phi$. Clearly a point of $\Phi(\mathbf{Q})$ with coordinates $(\alpha_1, \ldots, \alpha_d)$, where $\alpha_i = (3 - c)/4^i$ for $i > 1$, will lie in $\bigcap_{k=1}^{d} V_{M_k}^c$. It remains to show that the sets $V_\Delta^c$ cover $S^d(\mathbf{Q})$. Let $x \in \Phi(\mathbf{Q})$ have coordinates $(\alpha_1, \ldots, \alpha_d)$, $\alpha_1 \geq \alpha_2 \geq \cdots \geq \alpha_d$. There exists $n \geq 1$ such that $\alpha_n \geq (3 - c)/4^n$ and $\alpha_i < (3 - c)/4^n$ for $i > n$. Then $x \in V_{M_n}^c$.
+Denote by $M_k$ the set of the first $k$ points of the simplex $\Phi$. Clearly a point of $\Phi(\mathbf{Q})$ with coordinates $(\alpha_1, \ldots, \alpha_d)$, where $\alpha_i = (3 - c)/4^i$ for $i > 1$, will lie in $\bigcap_{k=1}^{d} V_{M_k}^c$. It remains to show that the sets $V_\Delta^c$ cover $S^d(\mathbf{Q})$. Let $x \in \Phi(\mathbf{Q})$ have coordinates $(\alpha_1, \ldots, \alpha_d)$, $\alpha_1 \geq \alpha_2 \geq \cdots \geq \alpha_d$. There exists $n \geq 1$ such that $\alpha_n \geq (3 - c)/4^n$ and $\alpha_i < (3 - c)/4^n$ for $i > n$. Then $x \in V_{M_n}^c$. □
 
 B) Factorization of rigid analytic spaces by the action of a discrete group. Let K be a field which is complete with respect to a nonarchimedean absolute value.
 
 Proposition 6.3. Let B be a Tate algebra over K, and let the finite group G act on B. Then  $B^{G}$  is a Tate algebra and B is finite over  $B^{G}$ .
 
-Proof. We represent $B$ as a factor of the algebra of convergent power series $R$. Let $C$ be a tensor product of copies of $R$ which correspond to elements of $G$. Then $G$ acts on $C$, and there exists a $G$-invariant epimorphism $C \to B$. It is easy to check that $C^G$ is a Tate algebra and $C$ is finite over $C^G$. Therefore $B$ is finite over $C^G$, and $B^G$ is finite over $C^G$. It follows from this that $B^G$ is a Tate algebra and $B$ is finite over $B^G$.
+Proof. We represent $B$ as a factor of the algebra of convergent power series $R$. Let $C$ be a tensor product of copies of $R$ which correspond to elements of $G$. Then $G$ acts on $C$, and there exists a $G$-invariant epimorphism $C \to B$. It is easy to check that $C^G$ is a Tate algebra and $C$ is finite over $C^G$. Therefore $B$ is finite over $C^G$, and $B^G$ is finite over $C^G$. It follows from this that $B^G$ is a Tate algebra and $B$ is finite over $B^G$. □
 
-Proposition 6.4. Let $B_1$ and $B_2$ be Tate algebras, and $\operatorname{Max} B_2 \subset \operatorname{Max} B_1$ an open affine subset. Let the finite group $G$ act on $B_1$, with $\operatorname{Max} B_2$ invariant with respect to $G$. Then the morphism $\operatorname{Max} B_2^G \to \operatorname{Max} B_1^G$ is an open imbedding. If $\operatorname{Max} B_2 \Subset \operatorname{Max} B_1$, then $\operatorname{Max} B_2^G \Subset \operatorname{Max} B_1^G$.
+Proposition 6.4. Let $B_1$ and $B_2$ be Tate algebras, and $\operatorname{Max} B_2 \subset \operatorname{Max} B_1$ an open affine subset. Let the finite group $G$ act on $B_1$, with $\operatorname{Max} B_2$ invariant with respect to $G$. Then the morphism $\operatorname{Max} B_2^G \to \operatorname{Max} B_1^G$ is an open imbedding. If $\operatorname{Max} B_2 \subset \operatorname{Max} B_1$, then $\operatorname{Max} B_2^G \subset \operatorname{Max} B_1^G$.
 
-Proof. Clearly the morphism $\operatorname{Max} B_2^G \to \operatorname{Max} B_1^G$ induces a one-to-one correspondence between sets of points and isomorphisms of complete local rings. By a basis theorem [8] this morphism is an open imbedding. If $\operatorname{Max} B_2 \Subset \operatorname{Max} B_1$, then there exists a closed imbedding $\phi: \operatorname{Max} B_1 \to \operatorname{Max} K\{t_1, \ldots, t_r\}$ such that $\phi(\operatorname{Max} B_2)$ is contained in the set $|t_i| \leq 1 - \epsilon$, $\epsilon > 0$. Let $s_{ij}$ be the $j$th symmetric function in translations $\phi^*(t_i)$ by elements of $G$. The functions $s_{ij}$ define a finite morphism from $\operatorname{Max} B_1^G$ into the identity polydisc which sends $\operatorname{Max} B_2^G$ into the polydisc of radius $1 - \epsilon$.
+Proof. Clearly the morphism $\operatorname{Max} B_2^G \to \operatorname{Max} B_1^G$ induces a one-to-one correspondence between sets of points and isomorphisms of complete local rings. By a basis theorem [8] this morphism is an open imbedding. If $\operatorname{Max} B_2 \subset \operatorname{Max} B_1$, then there exists a closed imbedding $\phi: \operatorname{Max} B_1 \to \operatorname{Max} K\{t_1, \ldots, t_r\}$ such that $\phi(\operatorname{Max} B_2)$ is contained in the set $|t_i| \leq 1 - \epsilon$, $\epsilon > 0$. Let $s_{ij}$ be the $j$th symmetric function in translations $\phi^*(t_i)$ by elements of $G$. The functions $s_{ij}$ define a finite morphism from $\operatorname{Max} B_1^G$ into the identity polydisc which sends $\operatorname{Max} B_2^G$ into the polydisc of radius $1 - \epsilon$. □
 
 If $B$ is a Tate algebra under the action of a finite group $G$, we shall write $G \backslash \text{Max } B$ in place of $\text{Max } B^G$. Let $X$ be an affine analytic space under the action of the finite group $G$, let $Y = G \backslash X$, and let $Z$ be a separable space. Let $\phi: X \to Z$ be a morphism invariant under the action of $G$. Then there exists a unique morphism $\psi: Y \to Z$ such that $\phi = \psi \circ \pi$, where $\pi: X \to Y$ is the projection. Indeed, let $Z = \bigcup Z_i$
 
@@ -748,7 +750,7 @@ In the situation described by the definition, let $Y = \Gamma \backslash X$, and
 
 C) Uniformization of modular manifolds. In this subsection $K = k_{\infty}$. If the ideal $I \subset A$ satisfies the conditions of Proposition 5.3, we set $\mathfrak{M}_I^d = (M_I^d \otimes k_{\infty})_{an}$. Indeed, as is clear from the proof of Proposition 5.3, the manifold $\mathfrak{M}_I^d$ makes sense for any nonzero ideal $I, I \neq A$.
 
-Let $\widetilde{\Omega}_{d} = GL(d, k) \backslash (\Omega^{d} \times GL(d, \mathfrak{U}_{f}))$. (Here $GL(d, \mathfrak{U}_{f})$ is considered as a discrete set.) We introduce a left action of the group $GL(d, \mathfrak{U}_{f}) / K^{*}$ on $\widetilde{\Omega}_{d}$. Also, $\Omega^{d}$ is an open-closed subset of $\widetilde{\Omega}^{d}$. In the same way we define $\widetilde{S}^{d}, \widetilde{S}^{d}(\mathbf{R})$, etc.
+Let $\widetilde{\Omega}_{d} = GL(d, k) \backslash (\Omega^{d} \times GL(d, \mathfrak{A}_{f}))$. (Here $GL(d, \mathfrak{A}_{f})$ is considered as a discrete set.) We introduce a left action of the group $GL(d, \mathfrak{A}_{f}) / K^{*}$ on $\widetilde{\Omega}_{d}$. Also, $\Omega^{d}$ is an open-closed subset of $\widetilde{\Omega}^{d}$. In the same way we define $\widetilde{S}^{d}, \widetilde{S}^{d}(\mathbf{R})$, etc.
 
 A projective $A$-module $P$ of dimension $d$ together with a norm $\nu$ on $P \otimes_A k_\infty$ will be called a metrized $A$-module of dimension $d$. Metrized $A$-modules $(P_1, \nu_1)$ and $(P_2, \nu_2)$ will be called similar if there exists an isomorphism $f: P_1 \xrightarrow{\sim} P_2$ such that $\nu_1$ and $f^*(\nu_2)$ are proportional. Let $I \subset A$ be an ideal, $I \neq A, I \neq 0$. A structure of level $I$ on a $d$-dimensional metrized $A$-module $(P, \nu)$ is an isomorphism $\psi: (I^{-1}/A)^d \simeq I^{-1}P/P$. Clearly the set of similarity classes of $d$-dimensional metrized $A$-modules with structure of level $I$ can be identified with $U_I \backslash \widetilde{S}^d(\mathbf{R})$.
 
@@ -764,11 +766,11 @@ Proposition 6.6. Let $I \subset A$ be an ideal, $I \neq 0$, $I \neq A$. Then $U_
 
 Proof. a) In §3 we essentially obtained the identity $\mathfrak{M}_I^d (\overline{k}_{\infty}) = U_I\backslash \widetilde{\Omega}^d (\overline{k}_{\infty})$ consistent with the projections and the action of $GL(d,\mathfrak{A}_f)$. (That is, a point of $\Omega^d$ with coordinates $(z_1,\ldots ,z_d)$ corresponds to the lattice $\sum_{i=1}^{d} A z_i$ with the natural structure of level $I$.) It is easy to check that the mapping $\widetilde{\Omega}^d (\overline{k}_\infty)\to \mathfrak{M}_I^d (\overline{k}_\infty)$ induces a morphism $\widetilde{\Omega}^d\to \mathfrak{M}_I^d$. Since this morphism is invariant with respect to $U_{I}$, there is a corresponding morphism $\phi \colon U_I\backslash \widetilde{\Omega}^d\to \mathfrak{M}_I^d$.
 
-b) Let $x \in U_I \backslash \widetilde{\Omega}^d$, $y = \phi(x)$, and let $O_x$ and $O_y$ be the completions of the local rings of the manifolds $U_I \backslash \widetilde{\Omega}^d$ and $\mathfrak{M}_I^d$ at the points $x$ and $y$. We shall prove that $\phi^* \colon O_y \to O_x$ is an isomorphism. Let $m_y \subset O_y$ be a maximal ideal, and let $n$ be a natural number. There is an elliptic $A$-module $X$ with structure of level $I$ over the ring $O_y / m_y^n$. Let $f \in O_y / m_y^n[[z]]$ be a formal isomorphism from the additive $A$-module into $X$ (cf. Proposition 1.2). Just as in §3, it can be verified that $f$ is an entire function. Let $O_y^{nr}$ be a maximal unramified extension of $O_y$, and let $\Gamma$ be the set of zeros of $f$ in the ring $O_y^{nr} / m_y^n$. Then $\Gamma$ is an $A$-module, the homomorphism $\Gamma \to O_y^{nr} / m_y$ is injective, and its image is a lattice. In this way we obtain a homomorphism $O_x \to O_y^{nr} / m_y^n$ that is invariant with respect to $\text{Gal}(O_y^{nr} / O_y)$. Thus there is constructed a homomorphism $\psi \colon O_x \to O_y$ such that $\phi^* \psi = \text{id}$. Since $\mathfrak{M}_I^d$ and $U_I \backslash \widetilde{\Omega}^d$ are smooth manifolds of the same dimension (cf. Proposition 5.4), it follows that $\phi^*$ is an isomorphism.
+b) Let $x \in U_I \backslash \widetilde{\Omega}^d$, $y = \phi(x)$, and let $O_x$ and $O_y$ be the completions of the local rings of the manifolds $U_I \backslash \widetilde{\Omega}^d$ and $\mathfrak{M}_I^d$ at the points $x$ and $y$. We shall prove that $\phi^* \colon O_y \to O_x$ is an isomorphism. Let $m_y \subset O_y$ be a maximal ideal, and let $n$ be a natural number. There is an elliptic $A$-module $X$ with structure of level $I$ over the ring $O_y / m_y^n$. Let $f \in O_y / m_y^n[[z]]$ be a formal isomorphism from the additive $A$-module into $X$ (cf. Proposition 1.2). Just as in §3, it can be verified that $f$ is an entire function. Let $O_y^{nr}$ be a maximal unramified extension of $O_y$, and let $\Gamma'$ be the set of zeros of $f$ in the ring $O_y^{nr} / m_y^n$. Then $\Gamma'$ is an $A$-module, the homomorphism $\Gamma' \to O_y^{nr} / m_y^{n}$ is injective, and its image is a lattice. In this way we obtain a homomorphism $O_x \to O_y^{nr} / m_y^n$ that is invariant with respect to $\text{Gal}(O_y^{nr} / O_y)$. Thus there is constructed a homomorphism $\psi \colon O_x \to O_y$ such that $\phi^* \psi = \text{id}$. Since $\mathfrak{M}_I^d$ and $U_I \backslash \widetilde{\Omega}^d$ are smooth manifolds of the same dimension (cf. Proposition 5.4), it follows that $\phi^*$ is an isomorphism.
 
 Lemma. Let $\Sigma \subset \mathfrak{M}_I^d$ be an affine open subset. Then the image of $\Sigma$ in $U_I \setminus \widetilde{S}^d(\mathbf{Q})$ is bounded.
 
-Proof. It suffices to consider the case $I = (\beta)$ with $|\beta| > 1$. Let $x, y \in (I^{-1} / A)^d$, $x \neq 0$, $y \neq 0$, let $f_{x,y}$ be the function on $\mathfrak{M}_I^d$ equal to the quotient of the images of $x$ and $y$ in the universal elliptic $A$-module; and let $c = \sup_{x,y} \sup_{\Sigma} |f_{x,y}|$. To each element of $\Sigma(\overline{k}_{\infty})$ there corresponds a $d$-dimensional lattice $\Gamma \subset \overline{k}_{\infty}$ together with an isomorphism $\psi: (I^{-1} / A)^d \mathfrak{S} I^{-1}\Gamma / \Gamma$. Let $f(z) = z\Pi_{\alpha \in \Gamma}(1 - z / \alpha)$. Let $\overline{\psi}(x)$ be the smallest (in modulus) element in the class of $\psi(x)$, and let $u$ be the smallest (in modulus) element of $\Gamma$, $u \neq 0$. Then
+Proof. It suffices to consider the case $I = (\beta)$ with $|\beta| > 1$. Let $x, y \in (I^{-1} / A)^d$, $x \neq 0$, $y \neq 0$, let $f_{x,y}$ be the function on $\mathfrak{M}_I^d$ equal to the quotient of the images of $x$ and $y$ in the universal elliptic $A$-module; and let $c = \sup_{x,y} \sup_{\Sigma} |f_{x,y}|$. To each element of $\Sigma(\overline{k}_{\infty})$ there corresponds a $d$-dimensional lattice $\Gamma \subset \overline{k}_{\infty}$ together with an isomorphism $\psi: (I^{-1} / A)^d \cong I^{-1}\Gamma / \Gamma$. Let $f(z) = z\Pi_{\alpha \in \Gamma}(1 - z / \alpha)$. Let $\overline{\psi}(x)$ be the smallest (in modulus) element in the class of $\psi(x)$, and let $u$ be the smallest (in modulus) element of $\Gamma$, $u \neq 0$. Then
 
 $$
 \left| f (\psi (x)) \right| \geqslant \left| \psi (x) \right|, \left| f \left(\frac {u}{\beta}\right) \right| = \left| \frac {u}{\beta} \right| = \inf _ {x \neq 0} \overline {{{{\psi}}}} (x).
@@ -792,13 +794,13 @@ $$
 w \left(\sum a _ {i} \tau^ {i}\right) = -\inf _ {i > 0} \left\{\frac {1}{p ^ {i} - 1} \nu (a _ {i}) \right\}.
 $$
 
-Let $y_1, \ldots, y_k$ be generators of the ring $A$, and let $r = \inf_{1 \leq j \leq k} w(\phi(y_j))$. If $K'$ is a finite extension of $K$ such that $r \cdot e(K'/K) \in \mathbf{Z}$ (where $e(K'/K)$ is the index of ramification), then $\phi$ has stable reduction over $K'$.
+Let $y_1, \ldots, y_k$ be generators of the ring $A$, and let $r = \inf_{1 \leq j \leq k} w(\phi(y_j))$. If $K'$ is a finite extension of $K$ such that $r \cdot e(K'/K) \in \mathbf{Z}$ (where $e(K'/K)$ is the index of ramification), then $\phi$ has stable reduction over $K'$. □
 
 Remark. For modules of rank 1 the concepts of stable and good reduction coincide.
 
 Let $X$ be an elliptic $A$-module over $K$. By a lattice in $X$ we mean a projective Gal $(K^s / K)$-invariant $A$-submodule of finite type $\Gamma \subset X(K^s)$ such that a finite number of elements of $\Gamma$ are contained in every disc.
 
-Proposition 7.2. The isomorphism classes of elliptic modules of rank d over K are in one-to-one correspondence with the isomorphism classes of pairs  $(X, \Gamma)$ , where X is an elliptic A-module over K of rank $d_{1}$  $(d_{1} \leq d)$  with potentially good reduction, and  $\Gamma$  is a lattice in X of dimension  $d - d_{1}$ .
+Proposition 7.2. The isomorphism classes of elliptic modules of rank d over K are in one-to-one correspondence with the isomorphism classes of pairs  $(X, \Gamma)$ , where X is an elliptic A-module over K of rank $d$  $(d_{1} \leq d)$  with potentially good reduction, and  $\Gamma$  is a lattice in X of dimension  $d - d_{1}$ .
 
 Proof. 1) Just as in §3, one can construct an elliptic $A$-module of rank $d$ for the pair $(X, \Gamma)$.
 
@@ -820,7 +822,7 @@ $$
 
 for $i > s$. Let $c_{i} = \sup_{j \geq 1} |a_{j}|$. Since $a_{i} \to 0$, we have $c_{i} \leq \max_{1 \leq j \leq s} c_{i-j}$ for $i > s$. Let $d_{i} = c_{i}^{p^{-i}}$. Then $d_{i} \leq \max_{1 \leq j \leq s} d_{i-j}^{p^k}$, $d_{i} < 1$ for $i > s$, and so $d_{i} \to 0$.
 
-Let $\Gamma$ be the kernel of the homomorphism $u$. Clearly, $\Gamma \subset K^s$. If $\gamma \in \Gamma$, $\gamma \neq 0$, then $|\gamma| > 1$. Let $a \in A$, $|a|_{\infty} > 1$, be such that the image of $a$ in $O$ is not zero. We set $f = \psi(a)$. Clearly $f^{-1}(\Gamma) / \Gamma \simeq [A/(a)]^{d_1}$, and the kernel of the homomorphism $f^{-1}(\Gamma) / \Gamma \to \Gamma / f(\Gamma)$ is isomorphic to $[A/(a)]^{d_1}$. Therefore $\Gamma / f(\Gamma) \simeq [A/(a)]^{d - d_1}$. If $z \in K^s$, $|z| > 1$, then $|f(z)| = |z|^{|a|^d_1}$. It follows from this that $\Gamma$ is a lattice of dimension $d - d_1$.
+Let $\Gamma$ be the kernel of the homomorphism $u$. Clearly, $\Gamma \subset K^s$. If $\gamma \in \Gamma$, $\gamma \neq 0$, then $|\gamma| > 1$. Let $a \in A$, $|a|_{\infty} > 1$, be such that the image of $a$ in $O$ is not zero. We set $f = \psi(a)$. Clearly $f^{-1}(\Gamma) / \Gamma \simeq [A/(a)]^{d_1}$, and the kernel of the homomorphism $f^{-1}(\Gamma) / \Gamma \to \Gamma / f(\Gamma)$ is isomorphic to $[A/(a)]^{d_1}$. Therefore $\Gamma / f(\Gamma) \simeq [A/(a)]^{d - d_1}$. If $z \in K^s$, $|z| > 1$, then $|f(z)| = |z|^{|a|_{\infty}^{d_1}}$. It follows from this that $\Gamma$ is a lattice of dimension $d - d_1$.
 
 3) Thus we have obtained a one-to-one correspondence between the isomorphism classes of elliptic $A$-modules of rank $d$ over $K$ having stable reduction, and the isomorphism classes of pairs $(X, \Gamma)$, where $X$ is an elliptic $A$-module over $K$ of rank $d_1$ ($d_1 \leq d$) with good reduction, and $\Gamma$ is a lattice in $X$ of dimension $d - d_1$. It remains only to apply Galois descent.
 
@@ -840,13 +842,13 @@ The functor that associates to the scheme $S$ over $A$ the set of isomorphism cl
 
 The group $B$, consisting of matrices of the form $\begin{pmatrix} x & y \\ 0 & 1 \end{pmatrix}$ with $x \in \mathfrak{A}_f^*$ and $y \in \mathfrak{A}_f$, acts on $N^1$. Let $I \subset A$ be an ideal satisfying the conditions of Proposition 5.3.
 
-Let $V_{I}$ be the group of matrices $\begin{pmatrix}x & y \\ 0 & 1\end{pmatrix}$, where $x, y \in \hat{A}$, $x \equiv 1 \mod I$, $y \equiv 0 \mod I$ and $N_{I}^{1} \stackrel{\text{def}}{=} V_{I} \backslash N^{1}$. It is easy to check that the morphism $N_{I}^{1} \to M_{I}^{1}$ is smooth. Let $\widetilde{N}_{I}^{1}$ be the completion of $N_{I}^{1}$ along an infinitely distant section. (We shall consider $\widetilde{N}_{I}^{1}$ as a scheme and not as a formal scheme.) Let $\hat{N}_{I}^{1} \subset \widetilde{N}_{I}^{1}$ be the complement at the infinitely distant section, and let $\widetilde{N}^{1} = \varprojlim \widetilde{N}_{I}^{1}$ and $\hat{N}^{1} = \varprojlim \hat{N}_{I}^{1}$. Let $\widetilde{M}^{2}$ and $\hat{M}^{2}$ be the schemes induces by the schemes $\widetilde{N}^{1}$ and $\hat{N}^{1}$ with respect to the imbedding $B \subset GL(2, \mathfrak{A}) / k^{*}$.
+Let $V_{I}$ be the group of matrices $\begin{pmatrix}x & y \\ 0 & 1\end{pmatrix}$, where $x, y \in \hat{A}$, $x \equiv 1 \mod I$, $y \equiv 0 \mod I$ and $N_{I}^{1} \stackrel{\text{def}}{=} V_{I} \backslash N^{1}$. It is easy to check that the morphism $N_{I}^{1} \to M_{I}^{1}$ is smooth. Let $\widetilde{N}_{I}^{1}$ be the completion of $N_{I}^{1}$ along an infinitely distant section. (We shall consider $\widetilde{N}_{I}^{1}$ as a scheme and not as a formal scheme.) Let $\hat{N}_{I}^{1} \subset \widetilde{N}_{I}^{1}$ be the complement at the infinitely distant section, and let $\widetilde{N}^{1} = \varprojlim \widetilde{N}_{I}^{1}$ and $\hat{N}^{1} = \varprojlim \hat{N}_{I}^{1}$. Let $\widetilde{M}^{2}$ and $\hat{M}^{2}$ be the schemes induces by the schemes $\widetilde{N}^{1}$ and $\hat{N}^{1}$ with respect to the imbedding $B \subset GL(2, \mathfrak{A}_{f}) / k^{*}$.
 
-Let $I \subset A$ be an ideal satisfying the conditions of Proposition 5.3, and let $M_I^2 = U_I \backslash \widetilde{M}^2$ and $\hat{M}_I^2 = U_I \backslash M^2$. Let $O$ be a complete discrete normed ring over $A$ with field of fractions $K$.
+Let $I \subset A$ be an ideal satisfying the conditions of Proposition 5.3, and let $\widetilde{M}_I^2 = U_I \backslash \widetilde{M}^2$ and $\hat{M}_I^2 = U_I \backslash \hat{M}^2$. Let $O$ be a complete discrete normed ring over $A$ with field of fractions $K$.
 
 Proposition 9.1. 1) The morphism $\operatorname{Spec} K \to M_I^2$ extends to a morphism $\operatorname{Spec} O \to M_I^2$ if and only if the corresponding elliptic module over $K$ has potentially good reduction.
 
-2) There exists a unique $GL(2, \mathfrak{A}_I)$-invariant morphism $s \colon \hat{M}^2 \to M^2$ that induces a one-to-one mapping from the set of those morphisms $\operatorname{Spec} O \to \widetilde{M}_I^2$ such that the pre-image of $\hat{M}_I^2$ is $\operatorname{Spec} K$ into the set of those morphisms $\operatorname{Spec} K \to M_I^2$ which do not extend to morphisms $\operatorname{Spec} O \to M_I^2$.
+2) There exists a unique $GL(2, \mathfrak{A}_f)$-invariant morphism $s \colon \hat{M}^2 \to M^2$ that induces a one-to-one mapping from the set of those morphisms $\operatorname{Spec} O \to \widetilde{M}_I^2$ such that the pre-image of $\widetilde{M}_I^2$ is $\operatorname{Spec} K$ into the set of those morphisms $\operatorname{Spec} K \to M_I^2$ which do not extend to morphisms $\operatorname{Spec} O \to M_I^2$.
 
 Proof. Assertion 1) is clear. Let a morphism $\operatorname{Spec} K \to M_I^2$ not extend to a morphism $\operatorname{Spec} O \to M_I^2$. To this morphism corresponds an elliptic $A$-module over $K$ of rank 2, having potentially bad reduction, with structure of level $I$. This is the same (cf. Proposition 7.2) as an elliptic $A$-module $X$ over $K$ of rank 1 together with a one-dimensional lattice $\Gamma$ in $X$ such that $\operatorname{Gal}(K^s / K)$ acts on $I^{-1}\Gamma / \Gamma$ trivially and an epimorphism $(I^{-1}/A)^2 \to I^{-1}\Gamma / \Gamma$. (By definition, $I^{-1}\Gamma$ is the set of points of $X(K^s)$ that fall in $\Gamma$ under “multiplication” by any element $a \in I$.) Every automorphism of the $A$-module $I^{-1}\Gamma$ which is trivial on $I^{-1}\Gamma / \Gamma$ is the identity. Therefore $I^{-1}\Gamma \subset X(K)$. The bijection 2) is thus constructed. It is easy to check that it induced by a morphism $\hat{M}^2 \to M^2$.
 
@@ -884,17 +886,17 @@ $$
 
 The category of quasicoherent  $O_{X}$ -modules is equivalent to the category of A[y]-modules.
 
-Proof. 1) Let $M$ be a module over $A[y]$. We set $H^0(U, \widetilde{M}) = H^0(U, O_X) \otimes_{A[y]} M$. $\widetilde{M}$ is a quasicoherent sheaf, and $M \mapsto \widetilde{M}$ is a functor. It remains to prove that the functorial homomorphisms $M \to H^0(X, \widetilde{M})$ and $H^0(X, F) \to F$ (where $F$ is a quasicoherent sheaf) are isomorphisms.
+Proof. 1) Let $M$ be a module over $A[y]$. We set $H^0(U, \widetilde{M}) = H^0(U, O_X) \otimes_{A[y]} M$. $\widetilde{M}$ is a quasicoherent sheaf, and $M \mapsto \widetilde{M}$ is a functor. It remains to prove that the functorial homomorphisms $M \to H^0(X, \widetilde{M})$ and $H^0(X, \widetilde{F}) \to F$ (where $F$ is a quasicoherent sheaf) are isomorphisms.
 
 2) $0 \to A[y] \to A[y, y^{-1}] \times A[[y]] \to A((y)) \to 0$ is an exact sequence of flat $A[y]$-modules. Therefore $H^0(X, \widetilde{M}) = M$ and $H^1(X, \widetilde{M}) = 0$.
 
-3) The restriction of the homomorphism $H^0(X, F) \stackrel{\sim}{\to} F$ on $\{2, 3\}$ is an isomorphism.
+3) The restriction of the homomorphism $H^0(X, \widetilde{F}) \stackrel{\sim}{\to} F$ on $\{2, 3\}$ is an isomorphism.
 
-4) If $\operatorname{Supp} F \subset \{1\}$, then $H^0(X, F) \cong F$.
+4) If $\operatorname{Supp} F \subset \{1\}$, then $H^0(X, \widetilde{F}) \cong F$.
 
-5) If $H^0(X, F) = 0$, then $F = 0$. (This follows from 3) and 4.)
+5) If $H^0(X, \widetilde{F}) = 0$, then $\widetilde{F} = 0$. (This follows from 3) and 4.)
 
-6) Let $0 \to G_1 \to H^0(X, F) \to F \to G_2 \to 0$ be an exact sequence. Then $H^0(X, G_1) = 0$, and so $G_1 = 0$. Since $H^1(X, H^0(X, F)) = 0$, we have $H^0(X, G_2) = 0$. Therefore $G_2 = 0$.
+6) Let $0 \to G_1 \to H^0(X, \widetilde{F}) \to \widetilde{F} \to G_2 \to 0$ be an exact sequence. Then $H_0(X, G_1) = 0$, and so $G_1 = 0$. Since $H^1(X, H^0(X, \widetilde{F})) = 0$, we have $H^0(X, G_2) = 0$. Therefore $G_2 = 0$.
 
 It remains to check that $\sigma$ is an isomorphism. It is easy to check that $\deg \phi = \deg \pi$. (It is necessary to use the Corollary to Proposition 9.1.) It follows from Proposition 9.1 that the fibers of $\sigma$ consist of one point (and not necessarily reduced). On the other hand, one can check that the restriction of $\sigma$ to each connected component of $\hat{M}_I^2$ is a closed imbedding.
 
