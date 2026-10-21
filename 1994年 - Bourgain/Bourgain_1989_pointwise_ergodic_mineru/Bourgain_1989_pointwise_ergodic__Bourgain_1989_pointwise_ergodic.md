@@ -1870,10 +1870,10 @@ $$
 where $[y]$ stands for the integer part of $y$. Here we let $f$ be of class $\mathbf{L}^{\infty}(\Omega, \mu)$. In proving the a.s. convergence of (8.2), one may assume at least one of the coefficients $b_{1}, \ldots, b_{d}$ irrational. Otherwise, if $b_{j} = (a_{j}/q) (1 \leqslant j \leqslant q)$, write $n = mq + r (0 \leqslant r < q)$ and
 
 $$
-\mathrm{A} _ {\mathbf {N}} f = \frac {1}{q} \sum_ {0 \leqslant r <   q} \frac {1}{\mathrm{N} q ^ {- 1}} \sum_ {m \leqslant \mathrm{N} q ^ {- 1}} \mathrm{T} ^ {p _ {1} (m)} (\mathrm{T} ^ {[ p (r) ]} f)
+\mathrm{A} _ {\mathbf {N}} f = \frac {1}{q} \sum_ {0 \leqslant r <   q} \frac {1}{\mathrm{N} q ^ {- 1}} \sum_ {m \leqslant \mathrm{N} q ^ {- 1}} \mathrm{T} ^ {p _ {j} (m)} (\mathrm{T} ^ {[ p (r) ]} f)
 $$
 
-where $p_1(m) = p(mq + r) - p(r)$ has integer coefficients. The a.s. convergence of the $A_N f$ is thus implied by Theorem 1 of this paper.
+where $p_j(m) = p(mq + r) - p(r)$ has integer coefficients. The a.s. convergence of the $A_N f$ is thus implied by Theorem 1 of this paper.
 
 Assuming that $b_{1}, \ldots, b_{d}$ are not all rational, the sequence
 
@@ -1978,13 +1978,13 @@ $$
 Hence, by (8.8)
 
 $$
-\begin{array}{r l} \left| \right| \sup _ {N \in Z _ {1}} | \mathcal {F} ^ {- 1} [ (\sum_ {s \geqslant 0} \psi_ {s, N}) \mathcal {F} f ] | | _ {2} \\ & \leqslant C \sum_ {s \geqslant 0} \sum_ {k \in Z} \frac {1}{1 + \varepsilon^ {2} k ^ {2}} s ^ {2} 2 ^ {- \delta^ {\prime} s} \| f \| _ {2} \leqslant C \| f \| _ {2} \end{array}
+\begin{array}{r l} \left\| \right\| \sup _ {N \in Z _ {1}} | \mathcal {F} ^ {- 1} [ (\sum_ {s \geqslant 0} \psi_ {s, N}) \mathcal {F} f ] \| \| _ {2} \\ & \leqslant C \sum_ {s \geqslant 0} \sum_ {k \in Z} \frac {1}{1 + \varepsilon^ {2} k ^ {2}} s ^ {2} 2 ^ {- \delta^ {\prime} s} \| f \| _ {2} \leqslant C \| f \| _ {2} \end{array}
 $$
 
 yielding the maximal inequality
 
 $$
-\left| \right| \sup | \widetilde {\mathrm{A}} _ {\mathrm{N}} f | \left| \right| _ {2} \leqslant \mathrm{C} _ {\varepsilon} \left| \right| f \left| \right| _ {2}.\tag{8.16}
+\left\| \right\| \sup | \widetilde {\mathrm{A}} _ {\mathrm{N}} f | \left\| \right\| _ {2} \leqslant \mathrm{C} _ {\varepsilon} \left\| \right\| f \left\| \right\| _ {2}.\tag{8.16}
 $$
 
 With this information, the proof of a maximal variational inequality (6.31) is essentially identical to the argument given in section 6 and will therefore not be elaborated here.
