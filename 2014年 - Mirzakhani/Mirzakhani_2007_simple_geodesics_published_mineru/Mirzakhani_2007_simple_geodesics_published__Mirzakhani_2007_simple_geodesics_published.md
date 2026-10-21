@@ -321,13 +321,13 @@ $$
 \omega_ {w p} = \sum_ {i = 1} ^ {k} d \ell_ {\alpha_ {i}} \wedge d \tau_ {\alpha_ {i}}.
 $$
 
-Hamiltonian circle actions. Let$( M , \omega )$be a symplectic manifold$( M , \omega )$ Then for any smooth function$H : M \to \mathbb { R }$, the vector field$X _ { H }$determined by
+Hamiltonian circle actions. Let$(\mathcal{M},\omega)$be a symplectic manifold$(\mathcal{M},\omega)$. Then for any smooth function$H : \mathcal{M} \to \mathbb{R}$, the vector field$X _ { H }$determined by
 
 $$
 \omega (X _ {H},.) = d H (.)
 $$
 
-is called the Hamiltonian vectorfield associated to H. Let$\psi _ { t }$be the integral ofthe vector field$X _ { H }$. Here we are interested in the case where$X _ { H }$generates an$S ^ { 1 }$action on$M ;$; in this case,$\psi _ { 1 } = \mathrm { i d } ,$. The Hamiltonian function H in this case is called the moment map of the action. See [McD] for more details.
+is called the Hamiltonian vector field associated to H. Let$\psi _ { t }$be the integral of the vector field$X _ { H }$. Here we are interested in the case where$X _ { H }$generates an$S ^ { 1 }$action on$\mathcal{M}$; in this case,$\psi _ { 1 } = \mathrm { i d } ,$. The Hamiltonian function H in this case is called the moment map of the action. See [McD] for more details.
 
 Twisting. Given a simple closed geodesic α on$X \in \mathcal { T } _ { g , n } ( L )$and$t \in \mathbb { R }$, one can deform X as follows. Cut the surface along α, turn the left hand side of α in the positive direction by distance t and reglue back. Let us denote the new surface by$\mathrm { t w } _ { \alpha } ^ { t } ( X )$. As t varies, the resulting continuous path in Teichmüller space is the Fenchel-Nielsen deformation of X along α. For $t = \ell _ { \alpha } ( X )$, we have
 
@@ -387,21 +387,21 @@ $$
 \operatorname{Stab} (A) = \left\{h \in \operatorname{Mod} _ {g, n} \mid h \cdot A = A \right\} \subset \operatorname{Mod} _ {g, n}.
 $$
 
-Given a multicurve$\begin{array} { r } { \gamma = \sum _ { i = 1 } ^ { k } c _ { i } \gamma _ { i } } \end{array}$, we define the symmetry group of$\gamma .$, $\operatorname { S y m } ( \gamma )$, by
+Given a multicurve$\begin{array} { r } { \gamma = \sum _ { i = 1 } ^ { k } c _ { i } \gamma _ { i } } \end{array}$, we define the symmetry group of$\gamma$, $\operatorname { S y m } ( \gamma )$, by
 
 $$
 \operatorname{Sym} (\gamma) = \operatorname{Stab} (\gamma) / \cap_ {i = 1} ^ {k} \operatorname{Stab} (\gamma_ {i}).
 $$
 
-If$\alpha$is a connected simple closed curve, then$| \mathrm { S y m } ( \alpha ) | = 1 . \mathrm { I f } \alpha = \gamma _ { 1 } \cup \gamma _ { 2 }$ then
+If$\alpha$is a connected simple closed curve, then$| \mathrm { S y m } ( \alpha ) | = 1$. If $\alpha = \gamma _ { 1 } \cup \gamma _ { 2 }$ then
 
 $$
 | \operatorname{Sym} (\gamma_ {1} + \gamma_ {2}) | = 2
 $$
 
-if and only if$S _ { g , n } ( \gamma _ { 1 } )$is homeomorphic to$S _ { g , n } ( \gamma _ { 2 } )$. Here we consider the homeomorphisms which fix each boundary component of$\partial ( S _ { g , n } )$setwise, and send$\gamma _ { 1 }$to$\gamma _ { 2 }$
+if and only if$S _ { g , n } ( \gamma _ { 1 } )$is homeomorphic to$S _ { g , n } ( \gamma _ { 2 } )$. Here we consider the homeomorphisms which fix each boundary component of$\partial ( S _ { g , n } )$setwise, and send$\gamma _ { 1 }$to$\gamma _ { 2 }$.
 
-We remark that the condition$| \operatorname { S y m } ( \gamma ) | \neq 1$for$\textstyle \gamma = \sum _ { i = 1 } ^ { k } c _ { i } \gamma _ { i }$imposes a nontrivial condition on the$c _ { i } ^ { \prime } \mathbf { s } ;$for example if$| \operatorname { S y m } ( { \overline { { \gamma ) } } } | = k !$then$c _ { 1 } =$ $c _ { 2 } = . . . = c _ { k }$
+We remark that the condition$| \operatorname { S y m } ( \gamma ) | \neq 1$for$\textstyle \gamma = \sum _ { i = 1 } ^ { k } c _ { i } \gamma _ { i }$imposes a nontrivial condition on the$c _ { i } ^ { \prime } \mathbf { s } ;$for example if$| \operatorname { S y m } ( \gamma ) | = k !$then$c _ { 1 } =$ $c _ { 2 } = . . . = c _ { k }$
 
 In this paper, we are mostly interested in the case where$\gamma = \gamma _ { 1 } + \gamma _ { 2 }$ bounds a pair of pants with a boundary component of$S _ { g , n }$. In this case, it is easy to check that$| \operatorname { S y m } ( \gamma _ { 1 } + \gamma _ { 2 } ) | = 2$if and only if either$S _ { g , n } ( \gamma )$is connected or
 
@@ -421,15 +421,15 @@ $$
 \begin{array}{c} f _ {\gamma}: \mathcal {M} _ {g, n} \to \mathbb {R} _ {+} \\ X \to \sum_ {\alpha \in \mathcal {O} _ {\gamma}} f (\ell_ {\alpha} (X)), \end{array}
 $$
 
-where$f : \mathbb { R } \to \mathbb { R } _ { + }$
+where$f : \mathbb { R } \to \mathbb { R } _ { + }$.
 
-As an example, for$f = \chi [ 0 , L )$, the characteristic function of$[ 0 , L )$ $f _ { \gamma } ( X )$is equal to the number of elements of$\mathcal { O } _ { \gamma }$of length less than L on X.
+As an example, for$f = \chi_{ [ 0 , L ) }$, the characteristic function of$[ 0 , L )$, $f _ { \gamma } ( X )$is equal to the number of elements of$\mathcal { O } _ { \gamma }$of length less than L on X.
 
 ## 3. Geometry of pairs of pants
 
 In this section we study infinite simple geodesic rays on a hyperbolic pair of pants. For background on hyperbolic geometry, see [Bus].
 
-A pair ofpants is an oriented compact surface homeomorphic to$S _ { 0 , 3 }$ a surface of genus 0 with three boundary components.
+A pair of pants is an oriented compact surface homeomorphic to$S _ { 0 , 3 }$, a surface of genus 0 with three boundary components.
 
 Let$\mathcal { C } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$be the unique hyperbolic pair of pants with geodesic boundary curves$( \beta _ { i } ) _ { i = 1 } ^ { 3 }$such that$\ell _ { \beta _ { i } } ( \mathcal { C } ) = x _ { i } , i = 1 , 2 , 3$. We also allow the degenerate case in which one or more of the lengths vanish.
 
@@ -441,7 +441,7 @@ On the other hand, we can construct$\mathcal { C } ( x _ { 1 } , x _ { 2 } , x _
 
 Fig. 2
 
-Complete geodesics on hyperbolic a pair of pants. A hyperbolic pair of pants contains$5$complete geodesics disjoint from$\beta _ { 2 } , \beta _ { 3 }$and orthogonal to$\beta _ { 1 }$. More precisely, two of these geodesics meet$\beta _ { 1 }$respectively at$y _ { 1 }$ and$y _ { 2 }$and spiral around$\beta _ { 3 }$, the other two meet$\beta _ { 1 }$respectively at$z _ { 1 }$ and$z _ { 2 }$and spiral around$\beta _ { 2 }$. There is also a unique common geodesic perpendicular from$\beta _ { 1 }$to itself meeting$\beta _ { 1 }$perpendicularly at two points, $w _ { 1 }$and$w _ { 2 }$. Note that we have$\sigma ( w _ { 1 } ) = w _ { 2 } , \sigma ( z _ { 1 } ) = z _ { 2 }$, and$\sigma ( y _ { 1 } ) = y _ { 2 }$ See Fig. 2.
+Complete geodesics on hyperbolic a pair of pants. A hyperbolic pair of pants contains$5$complete geodesics disjoint from$\beta _ { 2 } , \beta _ { 3 }$and orthogonal to$\beta _ { 1 }$. More precisely, two of these geodesics meet$\beta _ { 1 }$respectively at$y _ { 1 }$ and$y _ { 2 }$and spiral around$\beta _ { 3 }$, the other two meet$\beta _ { 1 }$respectively at$z _ { 1 }$ and$z _ { 2 }$and spiral around$\beta _ { 2 }$. There is also a unique common geodesic perpendicular from$\beta _ { 1 }$to itself meeting$\beta _ { 1 }$perpendicularly at two points, $w _ { 1 }$and$w _ { 2 }$. Note that we have$\sigma ( w _ { 1 } ) = w _ { 2 } , \sigma ( z _ { 1 } ) = z _ { 2 }$, and$\sigma ( y _ { 1 } ) = y _ { 2 }$. See Fig. 2.
 
 Definitions. Define$\mathcal { R } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$to be the geodesic length of$( y _ { 1 } , y _ { 2 } )$, the interval between$y _ { 1 }$and$y _ { 2 }$on$\beta _ { 1 }$containing both$w _ { 1 }$and$w _ { 2 }$. In the universal cover of$\mathcal { C } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$
 
@@ -449,9 +449,9 @@ $$
 x _ {1} - \mathcal {R} (x _ {1}, x _ {2}, x _ {3})
 $$
 
-is equal to the geodesic length of the projection of$\beta _ { 3 }$on$\beta _ { 1 }$. See Fig. 3. Note that this length does not depend on the choice of the lift of C in H.
+is equal to the geodesic length of the projection of$\beta _ { 3 }$on$\beta _ { 1 }$. See Fig. 3. Note that this length does not depend on the choice of the lift of$\mathcal{C}$in$\mathbb{H}$.
 
-Also, define$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$to be the sum of the geodesic length of$( y _ { 1 } , z _ { 1 } )$ and$( y _ { 2 } , z _ { 2 } )$. Here$( y _ { i } , z _ { i } )$is the interval between$y _ { i }$and$z _ { i }$containing$w _ { i }$ on$\beta _ { 1 } . S 0$the function$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$is twice the geodesic distance between two geodesics perpendicular to$\beta _ { 1 }$spiraling around$\beta _ { 2 }$and$\beta _ { 3 }$. Equivalently, in the universal cover of$\mathcal { C } , \mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$equals 2 times the distance between the projection of$\beta _ { 2 }$and$\beta _ { 3 }$on$\beta _ { 1 }$
+Also, define$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$to be the sum of the geodesic length of$( y _ { 1 } , z _ { 1 } )$ and$( y _ { 2 } , z _ { 2 } )$. Here$( y _ { i } , z _ { i } )$is the interval between$y _ { i }$and$z _ { i }$containing$w _ { i }$ on$\beta _ { 1 }$. So the function$\mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$is twice the geodesic distance between two geodesics perpendicular to$\beta _ { 1 }$spiraling around$\beta _ { 2 }$and$\beta _ { 3 }$. Equivalently, in the universal cover of$\mathcal { C } , \mathcal { D } ( x _ { 1 } , x _ { 2 } , x _ { 3 } )$equals 2 times the distance between the projection of$\beta _ { 2 }$and$\beta _ { 3 }$on$\beta _ { 1 }$.
 
 Define the function$H : \mathbb { R } ^ { 2 } \to \mathbb { R }$by
 
@@ -461,7 +461,7 @@ $$
 
 ![](images/page_13_image_0.jpg)
 
-Basic properties of D and$\mathcal { R }$. It can be easily checked that the functions $\mathcal { D }$and R satisfy
+Basic properties of$\mathcal{D}$and$\mathcal{R}$. It can be easily checked that the functions$\mathcal{D}$and$\mathcal{R}$satisfy
 
 $$
 \mathcal {D} (x _ {1}, x _ {2}, x _ {3}) = \mathcal {D} (x _ {1}, x _ {3}, x _ {2}),
@@ -475,7 +475,7 @@ $$
 
 Moreover, one can explicitly calculate these functions and show that:
 
-Lemma 3.1. Thefunctions$\mathcal { D }$and R are given by
+Lemma 3.1. The functions$\mathcal{D}$and$\mathcal{R}$are given by
 
 $$
 \mathcal {D} (x, y, z) = 2 \log \left(\frac {e ^ {\frac {x}{2}} + e ^ {\frac {y + z}{2}}}{e ^ {\frac {- x}{2}} + e ^ {\frac {y + z}{2}}}\right),\tag{3.1}
@@ -523,7 +523,7 @@ which implies equation (3.2).
 
 See [LM] for a different proof of the preceding lemma.
 
-Next lemma will allow us to simplify integrals involving functions D and R:
+Next lemma will allow us to simplify integrals involving functions$\mathcal{D}$and$\mathcal{R}$:
 
 Lemma 3.2. The functions$\mathcal { D } , \mathcal { R } : \mathbb { R } _ { + } \to \mathbb { R } _ { + }$satisfy the following equations:
 
@@ -551,7 +551,7 @@ $$
 
 Therefore, equation (3.3) implies equation (3.4).
 
-Asymptotic behavior of D and R. Functions D and$\mathcal { R }$are continuous on $\mathbb { R } _ { + } ^ { 3 } . \mathrm { ~ A s ~ } 0 \mathrm { ~ < ~ } \mathcal { D } ( x , y , z ) \mathrm { ~ \le ~ } x$and$0 < \mathcal { R } ( x , y , z ) \leq x .$, both$D ( x , y , z )$and $\mathcal { R } ( x , y , z )$go to zero when$x \to 0$. Using Lemma 3.2, it is easy to verify that
+Asymptotic behavior of$\mathcal{D}$and$\mathcal{R}$. Functions$\mathcal{D}$and$\mathcal{R}$are continuous on $\mathbb { R } _ { + } ^ { 3 } . \mathrm { ~ A s ~ } 0 \mathrm { ~ < ~ } \mathcal { D } ( x , y , z ) \mathrm { ~ \le ~ } x$and$0 < \mathcal { R } ( x , y , z ) \leq x .$, both$\mathcal{D} ( x , y , z )$and $\mathcal { R } ( x , y , z )$go to zero when$x \to 0$. Using Lemma 3.2, it is easy to verify that
 
 $$
 \mathcal {D} (x, y, z) \sim x H (y + z, x) \sim \frac {2 x}{1 + e ^ {\frac {y + z}{2}}},\tag{3.5}
@@ -581,9 +581,9 @@ y, z → ∞.
 
 In this section, we discuss an identity for the lengths of certain types of simple closed geodesics on bordered hyperbolic Riemann surfaces with geodesic boundary components.
 
-Embedded pairs ofpants. We say three isotopy classes ofconnected simple closed curves,$\alpha _ { 1 } , \alpha _ { 2 }$, and$\alpha _ { 3 }$on$S _ { g , n }$, bound a pair of pants if there exists an embedded pair of pants$\Sigma \subset S _ { g , n }$such that$\partial \Sigma = \{ \alpha _ { 1 } , \alpha _ { 2 } , \alpha _ { 3 } \}$. Here$\alpha _ { i }$ may be a boundary component, and a closed geodesic of length 0 is a cusp.
+Embedded pairs of pants. We say three isotopy classes of connected simple closed curves,$\alpha _ { 1 } , \alpha _ { 2 }$, and$\alpha _ { 3 }$on$S _ { g , n }$, bound a pair of pants if there exists an embedded pair of pants$\Sigma \subset S _ { g , n }$such that$\partial \Sigma = \{ \alpha _ { 1 } , \alpha _ { 2 } , \alpha _ { 3 } \}$. Here$\alpha _ { i }$ may be a boundary component, and a closed geodesic of length 0 is a cusp.
 
-The statement of Theorem 1.3 motivates the following definitions. For $1 \leq i \leq n$, let$\mathcal { F } _ { i }$denote the set of unordered pairs of isotopy classes of non-peripheral simple closed curves$\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair of pants with$\beta _ { i }$ Similarly, for$1 \leq i \neq j \leq n$, let$\mathcal { F } _ { i , j }$denote the set of isotopy classes of simple closed curves γ bounding a pair of pants containing$\beta _ { i }$and$\beta _ { j }$
+The statement of Theorem 1.3 motivates the following definitions. For $1 \leq i \leq n$, let$\mathcal { F } _ { i }$denote the set of unordered pairs of isotopy classes of non-peripheral simple closed curves$\{ \gamma _ { 1 } , \gamma _ { 2 } \}$bounding a pair of pants with$\beta _ { i }$. Similarly, for$1 \leq i \neq j \leq n$, let$\mathcal { F } _ { i , j }$denote the set of isotopy classes of simple closed curves γ bounding a pair of pants containing$\beta _ { i }$and$\beta _ { j }$.
 
 An identity for lengths of simple closed geodesics. First we state an identity for lengths of simple closed geodesics on hyperbolic punctured surfaces due to G. McShane [M]:
 
@@ -629,9 +629,9 @@ Later we show that [M]:
 
 Theorem 4.5. Each$E _ { i }$is homeomorphic to the Cantor set union countably many isolated points.
 
-Characterization of boundary and isolated points in$E _ { i }$. In this part we will give a characterization of boundary and isolated points in$E _ { i }$. We say a lamination$\gamma$spirals to a lamination$\Omega ( \gamma )$iff$\Omega ( \gamma )$is in the closure of$\gamma$ It can be easily checked that when$\gamma$is a ray,$\Omega ( \gamma )$is actually a minimal lamination [CEG]. Note that for$x \in E _ { i }$, the corresponding simple geodesic ray,$\gamma _ { x }$falls into exactly one of the following two classes.
+Characterization of boundary and isolated points in$E _ { i }$. In this part we will give a characterization of boundary and isolated points in$E _ { i }$. We say a lamination$\gamma$spirals to a lamination$\Omega ( \gamma )$iff$\Omega ( \gamma )$is in the closure of$\gamma$. It can be easily checked that when$\gamma$is a ray,$\Omega ( \gamma )$is actually a minimal lamination [CEG]. Note that for$x \in E _ { i }$, the corresponding simple geodesic ray,$\gamma _ { x }$falls into exactly one of the following two classes.
 
-1. The other end spirals into a compact minimal lamination inside the surface, which will be denoted by$\Omega ( \gamma _ { x } )$
+1. The other end spirals into a compact minimal lamination inside the surface, which will be denoted by$\Omega ( \gamma _ { x } )$.
 
 2. The other end also approaches a (not necessarily distinct) boundary component$\beta _ { i }$; either the ray$\gamma _ { x }$meets$\beta _ { i }$perpendicularly or spirals around it.
 
@@ -643,7 +643,7 @@ a) If the other end of$\gamma _ { x }$approaches a boundary component, then the 
 
 b)$\Omega ( \gamma _ { x } )$is a simple closed curve inside the surface, then the point x is a boundary point of$E _ { i }$.
 
-c)$\Omega ( \gamma _ { x } )$is not a simple closed curve, then x is neither a boundary point nor an isolated point in$E _ { i }$
+c)$\Omega ( \gamma _ { x } )$is not a simple closed curve, then x is neither a boundary point nor an isolated point in$E _ { i }$.
 
 Simple arcs in embedded pairs of pants. There is a one-to-one correspondence between simple common perpendiculars between two (not necessarily distinct) boundary components$\beta _ { 1 }$and$\beta _ { j }$of$X$, and embedded pairs of pants containing$\beta _ { 1 }$and$\beta _ { j }$as follows.
 
@@ -655,9 +655,9 @@ As shown in Fig. 4, if$\gamma$is a simple arc joining two boundary components of
 
 Fig. 4
 
-ProofofTheorem$4 . 6 ( a )$. Let$x _ { 1 } \in E _ { 1 }$be such that the other end of$\gamma _ { x _ { 1 } }$goes up to$\beta _ { 1 }$, and let$x _ { 2 } \in { \beta } _ { 1 }$be the other end of$\gamma _ { x _ { 1 } } ;$; so we have$\gamma _ { x _ { 1 } } \cap \beta _ { 1 } =$ $\{ x _ { 1 } , x _ { 2 } \}$. One can easily modify the argument for other cases. Let Σ denote the pair of pants containing$\gamma _ { x _ { 1 } }$such that$\partial \Sigma = \{ \beta _ { 1 } , \alpha _ { 1 } , \alpha _ { 2 } \}$, and both$\alpha _ { 1 }$ and$\alpha _ { 2 }$are non-peripheral simple closed curves.
+Proof of Theorem$4 . 6 ( a )$. Let$x _ { 1 } \in E _ { 1 }$be such that the other end of$\gamma _ { x _ { 1 } }$goes up to$\beta _ { 1 }$, and let$x _ { 2 } \in { \beta } _ { 1 }$be the other end of$\gamma _ { x _ { 1 } } ;$ so we have$\gamma _ { x _ { 1 } } \cap \beta _ { 1 } =$ $\{ x _ { 1 } , x _ { 2 } \}$. One can easily modify the argument for other cases. Let Σ denote the pair of pants containing$\gamma _ { x _ { 1 } }$such that$\partial \Sigma = \{ \beta _ { 1 } , \alpha _ { 1 } , \alpha _ { 2 } \}$, and both$\alpha _ { 1 }$ and$\alpha _ { 2 }$are non-peripheral simple closed curves.
 
-There are exactly four infinite geodesic rays in Σ meeting$\beta _ { 1 }$perpendicularly at one point (as in Fig. 1). Let$\gamma _ { y _ { i } }$and$\gamma _ { z _ { i } }$be the ones spiraling around$\alpha _ { i }$for$i = 1 , 2$such that$x _ { 1 } \in E _ { 1 } \cap ( y _ { 1 } , y _ { 2 } )$and$x _ { 2 } \in E _ { 1 } \cap ( z _ { 1 } , z _ { 2 } )$ We claim that
+There are exactly four infinite geodesic rays in Σ meeting$\beta _ { 1 }$perpendicularly at one point (as in Fig. 1). Let$\gamma _ { y _ { i } }$and$\gamma _ { z _ { i } }$be the ones spiraling around$\alpha _ { i }$for$i = 1 , 2$such that$x _ { 1 } \in E _ { 1 } \cap ( y _ { 1 } , y _ { 2 } )$and$x _ { 2 } \in E _ { 1 } \cap ( z _ { 1 } , z _ { 2 } )$. We claim that
 
 $$
 E _ {1} \cap (y _ {1}, y _ {2}) = x _ {1},
@@ -669,17 +669,17 @@ $$
 E _ {1} \cap (z _ {1}, z _ {2}) = x _ {2}.
 $$
 
-Assume$\gamma _ { z }$is a simple geodesic ray such that$z \not \in \{ x _ { 1 } , x _ { 2 } , y _ { 1 } , y _ { 2 } , z _ { 1 } , z _ { 2 } \}$ Then$\gamma _ { z }$must leave$\Sigma$and hence it meets$\alpha _ { 1 } \cup \alpha _ { 2 }$. Without loss of generality, we can assume that$\gamma _ { z }$meets$\alpha _ { 1 }$first. In the universal cover of this pair of pants, as shown in Fig. 5, let$\tilde { \beta }$, joining$s _ { 1 }$and$\infty$, be a lift of$\beta _ { 1 }$. Also, let $\tilde { \alpha } _ { 1 }$, joining$r _ { 1 }$and$r _ { 2 }$, be the outermost lift of$\alpha _ { 1 }$meeting$\tilde { \gamma } _ { z }$. Consider$\psi _ { 1 }$ and$\psi _ { 2 }$, two geodesics perpendicular to$\tilde { \beta }$at$a _ { 1 }$and$a _ { 2 }$, and passing through the two endpoints of$\tilde { \alpha } _ { 1 }$. And let$\eta _ { 1 }$(resp.$\eta _ { 2 } )$be the piecewise geodesic path going from$\tilde { z }$to h along$\tilde { \gamma } _ { z }$and from h to$r _ { 1 }$(resp.$r _ { 2 } )$along$\tilde { \alpha } _ { 1 }$. As both $\alpha _ { 1 }$and$\gamma _ { z }$are simple on$X$, the projection of$\eta _ { 1 }$and$\eta _ { 2 }$are simple rays on the surface. On the other hand, since$\tilde { \alpha } _ { 1 }$is the outermost lift of$\alpha _ { 1 }$meeting $\gamma _ { z }$, the projections of$\eta _ { 1 }$and$\eta _ { 2 }$are disjoint from both$\alpha _ { 1 }$and$\alpha _ { 2 }$. Therefore, the projections are infinite simple geodesic rays on the pair of pants$\Sigma$
+Assume$\gamma _ { z }$is a simple geodesic ray such that$z \not \in \{ x _ { 1 } , x _ { 2 } , y _ { 1 } , y _ { 2 } , z _ { 1 } , z _ { 2 } \}$. Then$\gamma _ { z }$must leave$\Sigma$and hence it meets$\alpha _ { 1 } \cup \alpha _ { 2 }$. Without loss of generality, we can assume that$\gamma _ { z }$meets$\alpha _ { 1 }$first. In the universal cover of this pair of pants, as shown in Fig. 5, let$\tilde { \beta }$, joining$s _ { 1 }$and$\infty$, be a lift of$\beta _ { 1 }$. Also, let $\tilde { \alpha } _ { 1 }$, joining$r _ { 1 }$and$r _ { 2 }$, be the outermost lift of$\alpha _ { 1 }$meeting$\tilde { \gamma } _ { z }$. Consider$\psi _ { 1 }$ and$\psi _ { 2 }$, two geodesics perpendicular to$\tilde { \beta }$at$a _ { 1 }$and$a _ { 2 }$, and passing through the two endpoints of$\tilde { \alpha } _ { 1 }$. And let$\eta _ { 1 }$(resp.$\eta _ { 2 } )$be the piecewise geodesic path going from$\tilde { z }$to h along$\tilde { \gamma } _ { z }$and from h to$r _ { 1 }$(resp.$r _ { 2 } )$along$\tilde { \alpha } _ { 1 }$. As both $\alpha _ { 1 }$and$\gamma _ { z }$are simple on$X$, the projection of$\eta _ { 1 }$and$\eta _ { 2 }$are simple rays on the surface. On the other hand, since$\tilde { \alpha } _ { 1 }$is the outermost lift of$\alpha _ { 1 }$meeting $\gamma _ { z }$, the projections of$\eta _ { 1 }$and$\eta _ { 2 }$are disjoint from both$\alpha _ { 1 }$and$\alpha _ { 2 }$. Therefore, the projections are infinite simple geodesic rays on the pair of pants$\Sigma$.
 
 Furthermore,$\eta _ { 1 }$(resp.$\eta _ { 2 } )$is homotopic to$\psi _ { 1 }$(resp.$\psi _ { 2 } )$. This shows that the projections of$\psi _ { 1 }$and$\psi _ { 2 }$are complete simple geodesics on$\Sigma$. Since both$\psi _ { 1 }$and$\psi _ { 2 }$are asymptotic to a lift of$\alpha _ { 1 }$, their images spiral to$\alpha _ { 1 }$ Therefore$a _ { 1 }$and$a _ { 2 }$are actually pre-images of$z _ { 1 }$and$y _ { 1 }$. Also, for any $x \in [ a _ { 1 } , a _ { 2 } ]$the curve$\gamma _ { x }$meets$\alpha .$Therefore, we have$z \in [ y _ { 1 } , z _ { 1 } ]$
 
 ![](images/page_18_chart_8.jpg)
 
-Next, assume that$\gamma _ { x }$spirals into a compact minimal lamination$\Omega ( \gamma _ { x } )$ The proof of part (b) is exactly the same as the proof of the corresponding statement for punctured surfaces in [M].
+Next, assume that$\gamma _ { x }$spirals into a compact minimal lamination$\Omega ( \gamma _ { x } )$. The proof of part (b) is exactly the same as the proof of the corresponding statement for punctured surfaces in [M].
 
 To prove part (c) of Theorem 4.6, we construct a sequence$\{ x _ { j } \} \subset E _ { i }$ getting close to x. So we need to approximate$\gamma _ { x }$with simple complete geodesics$\gamma _ { x _ { j } }$, and understand when the point$x _ { j }$lies on the right (left) side of x on$\beta _ { i }$.
 
-Quasi-geodesics. Let$d ( x , y )$denote the hyperbolic distance between two points x,$y \in \mathbb { H } .$. Let$\alpha ( t )$be a path parameterized by arclength in the upper half plane H. We say α is a quasi-geodesic if there exists$k > 0$such that
+Quasi-geodesics. Let$d ( x , y )$denote the hyperbolic distance between two points x,$y \in \mathbb { H } .$. Let$\alpha ( t )$be a path parameterized by arclength in the upper half plane$\mathbb{H}$. We say α is a quasi-geodesic if there exists$k > 0$such that
 
 $$
 d (\alpha (s), \alpha (t)) > k | s - t |
@@ -687,7 +687,7 @@ $$
 
 for all s and t. Recall that any quasi-geodesic is a bounded distance away from a unique geodesic. If L is much bigger than$\theta$then any$( L , \theta )$polygon path α of segments of length at least L and bends at most$\theta < \pi$is a quasi-geodesic. See [CEG] for more details.
 
-Now assume that$\tilde { \gamma }$is a geodesic perpendicular to a fixed geodesic$\tilde { \beta }$ in H such that$\tilde { \gamma } \cap \tilde { \beta } = \{ x \}$. Let$\tilde { \alpha }$be an$( L , \theta )$polygon path such that$\tilde { \alpha }$ and$\tilde { \beta }$also meet at x, and the straightening of$\tilde { \alpha }$meets$\tilde { \gamma }$in$x _ { \alpha }$. Then as $(L,\theta)\to(\infty,0)$the distance from$x _ { \alpha }$to x tends to zero. Moreover, if the bending angles are all positive (negative), then$x _ { \alpha }$is on the right (left) side of x on$\tilde { \beta }$. See Fig. 6.
+Now assume that$\tilde { \gamma }$is a geodesic perpendicular to a fixed geodesic$\tilde { \beta }$ in$\mathbb{H}$such that$\tilde { \gamma } \cap \tilde { \beta } = \{ x \}$. Let$\tilde { \alpha }$be an$( L , \theta )$polygon path such that$\tilde { \alpha }$ and$\tilde { \beta }$also meet at x, and the straightening of$\tilde { \alpha }$meets$\tilde { \gamma }$in$x _ { \alpha }$. Then as $(L,\theta)\to(\infty,0)$the distance from$x _ { \alpha }$to x tends to zero. Moreover, if the bending angles are all positive (negative), then$x _ { \alpha }$is on the right (left) side of x on$\tilde { \beta }$. See Fig. 6.
 
 ![](images/page_19_image_7.jpg)
 
@@ -705,7 +705,9 @@ $$
 c (0) = \alpha (t _ {0}), \quad c (1) = \alpha (t _ {1}),
 $$
 
-where$t _ { 0 } < t _ { 1 } \in \mathbb { R }$. We say that$( \alpha , t _ { 0 } , t _ { 1 } , c )$is an -good geodesic arc iff $\ell ( c ) \leq \epsilon .$
+where$t _ { 0 } < t _ { 1 } \in \mathbb { R }$. We say that$( \alpha , t _ { 0 } , t _ { 1 } , c )$is an$\epsilon$-good geodesic arc iff
+
+• $\ell ( c ) \leq \epsilon ,$
 
 • The arc c is almost perpendicular to α, that is
 
@@ -729,7 +731,7 @@ $$
 
 is the same as (different from) the orientation of the underlying surface. Note that positivity only depends on the image of α. In particular, it is independent of the parameterization of the path α.
 
-II): Complete simple geodesics. Fix$x \in \beta _ { i }$. Let$( \alpha , t _ { 0 } , t _ { 1 } , c )$be an -good geodesic segment such that
+II): Complete simple geodesics. Fix$x \in \beta _ { i }$. Let$( \alpha , t _ { 0 } , t _ { 1 } , c )$be an$\epsilon$-good geodesic segment such that
 
 $$
 \alpha \cap \gamma_ {x} = \emptyset , \quad \gamma_ {x} \cap c [ 0, 1 ] \neq \emptyset ,
@@ -743,7 +745,7 @@ $$
 
 Let$\psi ( \alpha , t _ { 0 } , t _ { 1 } , c )$denote the simple closed curve which goes along c from $\alpha ( t _ { 1 } )$to$\alpha ( t _ { 0 } )$, and then goes back to$\alpha ( t _ { 1 } )$along α. One can construct a complete simple curve, η, which starts at x, goes along$\gamma ( t )$for$t \ \leq \ t _ { 2 } .$ and then spirals around$\psi ( \alpha , t _ { 0 } , t _ { 1 } , c )$. It is easy to check that, possibly by changing the direction of$\alpha , \eta$will be a quasi-geodesic and consequently lie within a bounded distance of a unique complete simple geodesic. More precisely, we have:
 
-## Lemma 4.7. Assume that
+Lemma 4.7. Assume that
 
 $$
 c \cap \{\gamma_ {x} (t) \mid 0 \leq t <   t _ {2} \} = \emptyset .
@@ -755,19 +757,19 @@ $$
 d (y, x) <   \epsilon .
 $$
 
-Furthermore, y lies on the right$( l e f t )$side of x if and only$i f \left( \alpha , t _ { 0 } , t _ { 1 } , c \right)$is positive (negative).
+Furthermore, y lies on the right (left) side of x if and only if $\left( \alpha , t _ { 0 } , t _ { 1 } , c \right)$is positive (negative).
 
 Now we can prove that if$\Omega ( \gamma _ { x } )$is not a simple closed curve, then x is not a boundary point of$E _ { i }$.
 
-Sketch of the proof of Theorem$4 . 6 ( c )$. Let$\lambda = \Omega ( \gamma _ { x } )$. The proof has two steps. First we show that if λ is not a simple closed curve, then one can find positive -good geodesic segments inside λ. This allows one to construct complete simple geodesics approximating$\gamma _ { x }$in the second step.
+Sketch of the proof of Theorem$4 . 6 ( c )$. Let$\lambda = \Omega ( \gamma _ { x } )$. The proof has two steps. First we show that if λ is not a simple closed curve, then one can find positive$\epsilon$-good geodesic segments inside λ. This allows one to construct complete simple geodesics approximating$\gamma _ { x }$in the second step.
 
-1. Given$y \in \lambda ,$, let$\phi _ { y }$denote the arc length parameterization of the leaf of λ such that$\phi _ { y } ( 0 ) = y$. We claim that for any ,$L > 0$there exist$0 < t ,$ a transverse arc c, and$y \in c \cap \lambda$such that:
+1. Given$y \in \lambda ,$, let$\phi _ { y }$denote the arc length parameterization of the leaf of λ such that$\phi _ { y } ( 0 ) = y$. We claim that for any$\epsilon$,$L > 0$there exist$0 < t ,$ a transverse arc c, and$y \in c \cap \lambda$such that:
 
-$( \phi _ { y } , 0 , t , c )$is a positive -good geodesic segment,
+• $( \phi _ { y } , 0 , t , c )$is a positive$\epsilon$-good geodesic segment,
 
 $L \leq | t |$, and
 
-• the points$y = \phi _ { y } ( 0 )$and$\phi _ { y } ( t )$are not boundary points in$\lambda \cap c$
+• the points$y = \phi _ { y } ( 0 )$and$\phi _ { y } ( t )$are not boundary points in$\lambda \cap c$.
 
 To prove the claim, choose a transverse almost perpendicular arc$c _ { 1 }$ such that$\lambda \cap c _ { 1 } \neq \varnothing$. Since λ is not a simple closed curve,$\lambda \cap c _ { 1 }$is an uncountable set with only countably many boundary points [HP]. Therefore one can choose$x _ { 0 } \in \lambda \cap c _ { 1 }$so that$\phi _ { x _ { 0 } } \cap c _ { 1 }$does not contain any boundary points of$\lambda \cap c _ { 1 }$. Let$\phi = \phi _ { x _ { 0 } }$. Choose a small transverse subarc$c : [ - r , + r ] \to X , \ r > 0 , \ c ( 0 ) = x _ { 0 }$such that for$\phi ( a ) \ \neq$ $\phi ( b ) \in c [ - r , r ]$, we have$| a - b | > L$. Without loss of generality, we can assume that the orientation of the pair
 
@@ -789,13 +791,13 @@ $$
 t _ {2} = \inf \{t > t _ {1} \mid \phi (t) \in c (x _ {1}, 0) \}.
 $$
 
-As in Fig. 8, at least one of$( \phi , 0 , t _ { 1 } , c ) , ( \phi , t _ { 1 } , t _ { 2 } , c )$and$( \phi , 0 , t _ { 2 } , c )$is a positive -good geodesic segment. Also, we have
+As in Fig. 8, at least one of$( \phi , 0 , t _ { 1 } , c ) , ( \phi , t _ { 1 } , t _ { 2 } , c )$and$( \phi , 0 , t _ { 2 } , c )$is a positive$\epsilon$-good geodesic segment. Also, we have
 
 $$
 \min \{| t _ {1} - t _ {2} |, t _ {1}, t _ {2} \} \geq L.
 $$
 
-2. Now let$( \alpha , t _ { 1 } , t _ { 2 } , c )$be an -good geodesic segment in λ such that $\alpha ( t _ { i } ) = c ( r _ { i } )$, and$\alpha ( t _ { 1 } )$is not a boundary point of$\lambda \cap c$
+2. Now let$( \alpha , t _ { 1 } , t _ { 2 } , c )$be an$\epsilon$-good geodesic segment in λ such that $\alpha ( t _ { i } ) = c ( r _ { i } )$, and$\alpha ( t _ { 1 } )$is not a boundary point of$\lambda \cap c$.
 
 As$\gamma _ { x }$spirals to$\lambda , \gamma _ { x } \cap c [ r _ { 1 } , r _ { 2 } ]$is non-empty. Let
 
@@ -805,7 +807,7 @@ $$
 
 Now Lemma 4.7 implies the result.
 
-A similar argument shows that one can find a sequence of complete simple geodesics approximating$\gamma _ { x }$from one side if$\Omega ( \gamma _ { x } )$is a non-peripheral simple closed curve. Hence in this case by the proof of part (a), x is a boundary point of$E _ { i }$
+A similar argument shows that one can find a sequence of complete simple geodesics approximating$\gamma _ { x }$from one side if$\Omega ( \gamma _ { x } )$is a non-peripheral simple closed curve. Hence in this case by the proof of part (a), x is a boundary point of$E _ { i }$.
 
 As a result, the set of non-isolated points of$E _ { i }$is topologically homeomorphic to the Cantor set.
 
@@ -871,7 +873,7 @@ $$
 
 In this section we state a recursive formula for$V _ { g , n } ( L )$, the Weil-Petersson volume of$\mathcal { M } _ { g , n } ( L )$. The proof is given later in Sect. 8.
 
-Observe that the volume function$V _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$is a symmetric function in$L _ { 1 } , \ldots , L _ { n }$. Given a set A of positive numbers$A = \{ a _ { 1 } , \ldots , a _ { n } \}$ define$V _ { g , n } ( A )$by
+Observe that the volume function$V _ { g , n } ( L _ { 1 } , \ldots , L _ { n } )$is a symmetric function in$L _ { 1 } , \ldots , L _ { n }$. Given a set A of positive numbers$A = \{ a _ { 1 } , \ldots , a _ { n } \}$, define$V _ { g , n } ( A )$by
 
 $$
 V _ {g, n} (A) = V _ {g, n} \left(a _ {1}, \dots , a _ {n}\right).
@@ -896,7 +898,7 @@ The first equation holds since the moduli space$\mathcal { M } _ { 0 , 3 } ( L _
 • For$L = ( L _ { 1 } , \ldots , L _ { n } )$, let$\widehat { L } = ( L _ { 2 } , \ldots , L _ { n } )$. When$( g , n ) \neq ( 1 , 1 ) , ( 0 , 3 )$, the volume$V _ { g , n } ( L ) = \operatorname { V o l } ( \mathcal { M } _ { g , n } ( L ) )$satisfies
 
 $$
-\frac {\partial}{\partial L _ {1}} L _ {1} V _ {g, n} (L) = \mathcal {A} _ {g, n} ^ {c o n} (L _ {1}, \widehat {L}) + \mathcal {A} _ {g, n} ^ {d c o n} (L _ {1}, \widehat {L}) + \mathcal {B} _ {g, n} (L _ {1}, \widehat {L}),\tag{5.1}
+\frac {\partial}{\partial L _ {1}} L _ {1} V _ {g, n} (L) = \mathcal {A} _ {g, n} ^ {c o n} (L _ {1}, \widehat {L}) + \mathcal {A} _ {g, n} ^ {i c o n} (L _ {1}, \widehat {L}) + \mathcal {B} _ {g, n} (L _ {1}, \widehat {L}),\tag{5.1}
 $$
 
 where we have
@@ -937,7 +939,7 @@ $$
 m (g, n) = \delta (g - 1) \times \delta (n - 1).
 $$
 
-So$m ( g , n ) = 0$unless$g = 1$and$n = 1$
+So$m ( g , n ) = 0$unless$g = 1$and$n = 1$.
 
 I): Definition of$\widehat { \mathcal { A } } _ { g , n } ^ { c o n }$. Define$\widehat { \mathcal { A } } _ { g , n } ^ { c o n } : \mathbb { R } _ { + } ^ { n + 2 } \to \mathbb { R } _ { + }$by
 
