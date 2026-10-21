@@ -28,7 +28,7 @@ There is an intrinsic difference regarding the classification of invariant measu
 
 While Conjecture 1.1 is a special case of the general question about the structure of invariant measures for higher rank hyperbolic homogeneous actions, it is of particular interest in view of number theoretic consequences. In particular, it implies the following well-known and long-standing conjecture of Littlewood [24, §2]:
 
-Conjecture 1.2 (Littlewood (c. 1930)). For every$u , v \in \mathbb { R }$
+Conjecture 1.2 (Littlewood (c. 1930)). For every$u , v \in \mathbb { R }$,
 
 $$
 \liminf _ {n \to \infty} n \langle n u \rangle \langle n v \rangle = 0,\tag{1.1}
@@ -158,21 +158,21 @@ Let$d ( \cdot , \cdot )$be the geodesic distance induced by a right-invariant Ri
 
 ## 2. Conditional measures on A-invariant foliations, invariant measures, and shearing
 
-2.1. Conditional measures. A basic construction, which was introduced in the context of measure rigidity in [17] (and in a sense is already used implicitly in [45]), is the restriction of probability or even Radon measures on a foliated space to the leaves of this foliation. A discussion can be found in$[ 1 7 , \ S 4 ]$, and a fairly general construction is presented in [20, §3]. Below we consider special cases of this general construction, summarizing its main properties.
+2.1. Conditional measures. A basic construction, which was introduced in the context of measure rigidity in [17] (and in a sense is already used implicitly in [45]), is the restriction of probability or even Radon measures on a foliated space to the leaves of this foliation. A discussion can be found in [17, §4], and a fairly general construction is presented in [20, §3]. Below we consider special cases of this general construction, summarizing its main properties.
 
 Let$\mu$be an A-invariant probability measure on X. For any unipotent subgroup$U \ < \ G$normalized by A, one has a system$\{ \mu _ { x , U } \} _ { x \in X }$of Radon measures on U and a co-null set$X ^ { \prime } \subset X$with the following properties<sup>2</sup>:
 
 (1) The map$x \mapsto \mu _ { x , U }$is measurable.
 
-(2) For every$\varepsilon > 0$and$x \in X ^ { \prime } , \mu _ { x , U } ( B _ { \varepsilon } ^ { U } ) > 0$
+(2) For every$\varepsilon > 0$and$x \in X ^ { \prime } , \mu _ { x , U } ( B _ { \varepsilon } ^ { U } ) > 0.$
 
-(3) For every$x \in X ^ { \prime }$and$u \in U$with$u x \in X ^ { \prime }$, we have that$\mu _ { x , U } \propto ( \mu _ { u x , U } ) u .$ where$( \mu _ { u x , U } ) u$denotes the push forward of the measure$\mu _ { u x , U }$under the map$v \mapsto v u$
+(3) For every$x \in X ^ { \prime }$and$u \in U$with$u x \in X ^ { \prime }$, we have that$\mu _ { x , U } \propto ( \mu _ { u x , U } ) u ,$ where$( \mu _ { u x , U } ) u$denotes the push forward of the measure$\mu _ { u x , U }$under the map$v \mapsto v u.$
 
-(4) For every$\mathbf { t } \in \Sigma$, and x,$\alpha ^ { \mathbf { t } } x \in X ^ { \prime } , \mu _ { \alpha ^ { \mathbf { t } } x , U } \propto \alpha ^ { \mathbf { t } } ( \mu _ { x , U } ) \alpha ^ { - \mathbf { t } }$
+(4) For every$\mathbf { t } \in \Sigma$, and x,$\alpha ^ { \mathbf { t } } x \in X ^ { \prime } , \mu _ { \alpha ^ { \mathbf { t } } x , U } \propto \alpha ^ { \mathbf { t } } ( \mu _ { x , U } ) \alpha ^ { - \mathbf { t } }.$
 
 In general, there is no canonical way to normalize the measures$\mu _ { x , U } ;$we fix a specific normalization by requiring that$\mu _ { x , U } ( B _ { 1 } ^ { U } ) = 1$for every$x \in X ^ { \prime }$. This implies the next crucial property.
 
-(5) If$U \subset C ( \alpha ^ { \mathbf { t } } ) = \{ g \in G : g \alpha ^ { \mathbf { t } } = \alpha ^ { \mathbf { t } } g \}$commutes with$\alpha ^ { \mathbf { t } }$, then$\mu _ { \alpha ^ { \mathbf { t } } x , U } =$ $\mu _ { x , U }$whenever$x , \alpha ^ { \mathbf { t } } x \in X ^ { \prime }$
+(5) If$U \subset C ( \alpha ^ { \mathbf { t } } ) = \{ g \in G : g \alpha ^ { \mathbf { t } } = \alpha ^ { \mathbf { t } } g \}$commutes with$\alpha ^ { \mathbf { t } }$, then$\mu _ { \alpha ^ { \mathbf { t } } x , U } =$ $\mu _ { x , U }$whenever$x , \alpha ^ { \mathbf { t } } x \in X ^ { \prime }.$
 
 (6) µ is U-invariant if, and only if,$\mu _ { x , U }$is a Haar measure on U a.e. (see e.g. [17] or the slightly more general [20, Prop. 4.3]).
 
