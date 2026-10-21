@@ -34,7 +34,7 @@ $$
 2 m E _ {8} + n \left( \begin{array}{c c} 0 & 1 \\ 1 & 0 \end{array} \right)
 $$
 
-can be smoothed. In particular when m = 1: the form for n = 3 is realised by, for example, a smooth quartic surface in  $CP^{3}$ , while the form for n = 0 cannot, according to the theorem, come from a smooth simply connected 4-manifold. It is not yet clear whether the methods which we use here can be extended to the intermediate cases.
+can be smoothed. In particular when m = 1; the form for n = 3 is realised by, for example, a smooth quartic surface in  $CP^{3}$ , while the form for n = 0 cannot, according to the theorem, come from a smooth simply connected 4-manifold. It is not yet clear whether the methods which we use here can be extended to the intermediate cases.
 
 In another direction, the fundamental group does not seem to play a very important role in these methods, and one could hope to extend the result a long way here. It will appear that the present proof works under the weaker, but rather strange, hypothesis that there be no nontrivial representations of  $\pi_{1}(X)$  in  $SU(2)$ .
 
@@ -228,7 +228,7 @@ then there is a bundle automorphism $g \colon B^4 \setminus \{0\} \to SU(2)$ suc
 
 Hence we may recover a self-dual connection on P (up to isomorphism) from an instanton on  $R^{4}$  with total action  $8\pi^{2}$ .
 
-According to the classification, established in [2] for example, the equivalence classes of self-dual connection on $P \downarrow S^4$ form a single orbit under the conformal group. There is a single $SO(5)$ invariant class (coming from the natural connection on the fibration $S^7 \downarrow S^4$), hence the set of these equivalence classes is parametrised by a moduli space $\mathfrak{M}(S^4) = SO(5,1)^+ /SO(5) = B^5$, the open 5-ball. Interpreted as instantons on $\mathbf{R}^4$ these connections can be specified by a “centre” in $\mathbf{R}^4$, about which they have $SO(4)$ symmetry, and a scale which we can measure, for example, by the radius of the ball about the centre containing action $4\pi^2$ (i.e., one half of the total). Then the conformal
+According to the classification, established in [2] for example, the equivalence classes of self-dual connection on $P \downarrow S^4$ form a single orbit under the conformal group. There is a single $SO(5)^{S^4}$ invariant class (coming from the natural connection on the fibration $S^7 \downarrow S^4$), hence the set of these equivalence classes is parametrised by a moduli space $\mathfrak{M}(S^4) = SO(5,1)^+ /SO(5) = B^5$, the open 5-ball. Interpreted as instantons on $\mathbf{R}^4$ these connections can be specified by a “centre” in $\mathbf{R}^4$, about which they have $SO(4)$ symmetry, and a scale which we can measure, for example, by the radius of the ball about the centre containing action $4\pi^2$ (i.e., one half of the total). Then the conformal
 
 group acts by translations on the centres and dilations  $x \rightarrow \alpha.x$  on the radii. Using quaternionic notation:  $R^{4} \cong H$ ,  $su(2) \cong ImH$ , the instanton  $I_{0,\lambda}$  with centre 0 and radius  $\lambda$  can be given by the explicit connection matrix:
 
@@ -272,7 +272,7 @@ then there is a self-dual connection $A_0 + d_{A_0}^* u = A_0 + a = q(A_0)$ with
 
 (ii) $\| a\|_{L^2}\leqslant C.\| F_-(A_0)\|_{L^{4 / 3}}.$
 
-The construction is $\mathcal{G}$-invariant, and $q(A_0)$ varies smoothly with $A_0$.
+The construction is $\mathfrak{g}$-invariant, and $q(A_0)$ varies smoothly with $A_0$.
 
 Given any point of X and  $\lambda > 0$ , Taubes applies this to a connection  $A_{0}$  constructed to have most of its curvature in a ball of radius  $\lambda$  around that point. The hypothesis  $\mathcal{H}_{-}^{2}(X) = 0$  means that the 1st eigenvalue of  $\Delta$  on  $\Omega_{-}^{2}$  is positive and ensures that  $\mu(A_{0})$  is bounded away from zero as  $\lambda \to 0$ .
 
@@ -286,15 +286,15 @@ $$
 \left\| s \right\| _ {L _ {1} ^ {2} (A)} ^ {2} = \left\| \nabla_ {A} s \right\| _ {L ^ {2}} ^ {2} + \left\| s \right\| _ {L ^ {2}} ^ {2} = \int_ {X} \left(\left| \nabla_ {A} s \right| ^ {2} + | s | ^ {2}\right) d \mu .
 $$
 
-Moreover it is convenient in this §II to widen the definition of $\mathcal{Q}$ to allow $A$ differing from a smooth connection by an element of $L_3^2 (\Omega^1 (\mathfrak{g}))$. This differentiability is high enough not to make any essential differences in the properties discussed in §I (and also the norms $\| \|_{L_k^2 (A)}$ are defined for $k\leqslant 3$) but allows us to work in Banach spaces.
+Moreover it is convenient in this §II to widen the definition of $\mathfrak{A}$ to allow $A$ differing from a smooth connection by an element of $L_3^{2/3} (\Omega^1 (\mathfrak{g}))$. This differentiability is high enough not to make any essential differences in the properties discussed in §I (and also the norms $\| \|_{L_k^2 (A)}$ are defined for $k\leqslant 3$) but allows us to work in Banach spaces.
 
 We define the moduli space  $\mathfrak{M}(X)$  to be the set of equivalence classes of self-dual connections on P, that is to say a subset of the quotient space:
 
 $$
-\mathfrak {B} = \mathcal{Q} / \mathfrak{g},
+\mathfrak {B} = \mathfrak{A} / \mathfrak{g},
 $$
 
-and use the notation  $p: \mathcal{Q} \to \mathfrak{B}, A \to [A]$ . The techniques which we use here to study the moduli space $\mathscr{M}$ are essentially those of [2], but we emphasise the role of the ambient space $\mathfrak{B}$ rather more.
+and use the notation  $p: \mathfrak{A} \to \mathfrak{B}, A \to [A]$ . The techniques which we use here to study the moduli space $\mathfrak{M}$ are essentially those of [2], but we emphasise the role of the ambient space $\mathfrak{B}$ rather more.
 
 We discuss first the reducible connections on P. These may be understood from various different points of view. If we pick a base point in X, a connection gives, by parallel transport, a representation of the space of loops in X into  $SU(2)$ . The connection is reducible if this representation takes values in some proper subgroup of  $SU(2)$ . Since P is topologically nontrivial, the only possibility is that this subgroup be a copy of  $S^{1}$ . Alternatively a connection is reducible if there is a decomposition
 
@@ -316,7 +316,7 @@ $$
 
 of §I.2. (The factor  $\frac{1}{2}$  appearing since we have a choice of L,  $L^{-1}$ .) Hence by Proposition 3 and the remark at the end of §I.5, there is a unique self-dual connection on P, up to equivalence, for each of these  $n(Q)$  reductions.
 
-If A is a reducible connection on P corresponding to a splitting  $E = L \oplus L^{-1}$ , then for any  $e^{i\theta} \in S^{1}$  the element  $\gamma$  of the group of automorphisms $\mathcal{G}$ corresponding to a constant rotation of L by  $e^{i\theta}$  and  $L^{-1}$  by  $e^{-i\theta}$  is a covariant constant;  $d_{A}\gamma = 0$ . Hence  $\gamma$  fixes A in $\mathcal{Q}$, and moreover the action of  $\gamma$  on bundle-valued forms commutes with all the differential operators associated with A. In particular the stabiliser  $\Gamma_{A} \cong S^{1}$  of A in $\mathcal{Q}$ acts on the harmonic sub-spaces  $H_{A}^{1}, H_{A}^{2}$  of the $\mathfrak{g}$ valued forms. The bundle $\mathfrak{g}$ splits naturally into the direct sum of a trivial line bundle and the complex line bundle  $L^{2}$ . It will become important to note that since
+If A is a reducible connection on P corresponding to a splitting  $E = L \oplus L^{-1}$ , then for any  $e^{i\theta} \in S^{1}$  the element  $\gamma$  of the group of automorphisms $\mathfrak{G}$ corresponding to a constant rotation of L by  $e^{i\theta}$  and  $L^{-1}$  by  $e^{-i\theta}$  is a covariant constant;  $d_{A}\gamma = 0$ . Hence  $\gamma$  fixes A in $\mathfrak{G}$, and moreover the action of  $\gamma$  on bundle-valued forms commutes with all the differential operators associated with A. In particular the stabiliser  $\Gamma_{A} \cong S^{1}$  of A in $\mathfrak{G}$ acts on the harmonic sub-spaces  $H_{A}^{1}, H_{A}^{2}$  of the $\mathfrak{g}$ valued forms. The bundle $\mathfrak{g}$ splits naturally into the direct sum of a trivial line bundle and the complex line bundle  $L^{2}$ . It will become important to note that since
 
 $$
 H ^ {1} (X; \mathbf {R}) = \mathcal{H} _ {-} ^ {2} (X) = 0,
@@ -324,7 +324,7 @@ $$
 
 the harmonic spaces $H_A^1$, $H_A^2$ are contained entirely within the complex part $\Omega^p (L^2)$, acted on by $\Gamma_A$ in the obvious way.
 
-Conversely, if a connection A has a nontrivial stabiliser  $\Gamma_{A}$  in $\mathcal{G}$, then it is reducible. Similarly a connection is reducible if and only if the harmonic space  $H_{A}^{0}$  of covariant constant sections of $\mathfrak{g}$ is not zero, and this is then one dimensional.
+Conversely, if a connection A has a nontrivial stabiliser  $\Gamma_{A}$  in $\mathfrak{G}$, then it is reducible. Similarly a connection is reducible if and only if the harmonic space  $H_{A}^{0}$  of covariant constant sections of $\mathfrak{g}$ is not zero, and this is then one dimensional.
 
 Theorem 6. (i) $\mathfrak{B}$ is a Hausdorff space, and the open subset  $\mathfrak{B}^{*}$  of equivalence classes of irreducible connections forms a Banach manifold, with charts constructed from “slices”:
 
@@ -332,19 +332,19 @@ $$
 T _ {A, \varepsilon} = \left\{A + a \mid d _ {A} ^ {*} a = 0, \| a \| _ {L _ {3} ^ {2}} <   \varepsilon \right\}. (\varepsilon \text {   sufficiently   small }).
 $$
 
-Moreover $p: p^{-1}(\mathfrak{B}^*) \to \mathfrak{B}^*$ is a principle $\mathcal{G}/\pm 1$ bundle.
+Moreover $p: p^{-1}(\mathfrak{B}^*) \to \mathfrak{B}^*$ is a principle $\mathfrak{G}/\pm 1$ bundle.
 
 (ii) If $A$ is reducible, then $\Gamma_A$ acts on $T_{A,\varepsilon}$ and the map $T_{A,\varepsilon}/\Gamma_A \to \mathfrak{B}$ is a homeomorphism to a neighborhood of $[A]$ in $\mathfrak{B}$, smooth off the fixed point set of $\Gamma_A$.
 
 Proof. Results of this type are now standard [2], [13], so we shall be brief.
 
-First, the groups $\mathcal{G}$, $\mathcal{G} / \pm 1$ are Lie groups in the $L_4^2$ topology and have Lie algebra $L_4^2 (\Omega^0 (\mathfrak{g}))$; moreover they act smoothly on $\mathcal{Q}$. Second, we may always reduce the problem to a local one in the following sense: if $A \in \mathcal{Q}$, and $\varepsilon$ is sufficiently small, then any $g \in \mathcal{G}$ for which there is an $A + a$ with $\|a\|_{L_3^2}$, $\|g(A + a) - A\|_{L_3^2}$ both less than $\varepsilon$ may be factored as:
+First, the groups $\mathfrak{G}$, $\mathfrak{G} / \pm 1$ are Lie groups in the $L_4^2$ topology and have Lie algebra $L_4^2 (\Omega^0 (\mathfrak{g}))$; moreover they act smoothly on $\mathfrak{A}$. Second, we may always reduce the problem to a local one in the following sense: if $A \in \mathfrak{A}$, and $\varepsilon$ is sufficiently small, then any $g \in \mathfrak{G}$ for which there is an $A + a$ with $\|a\|_{L_2^3}$, $\|g(A + a) - A\|_{L_2^3}$ both less than $\varepsilon$ may be factored as:
 
 $$
 g = \gamma \tilde {g} \text {   with   } \gamma \in \Gamma_ {A}, \| \tilde {g} - 1 \| _ {L _ {4} ^ {2}} \leqslant \text { const   } \varepsilon .
 $$
 
-To see this, consider $\mathcal{G}$ as a subset of $L_4^2 (\Omega^0 (\mathfrak{g}\otimes \mathbf{C}))$ and write $g = g_{1} + g_{2}$, $g_{1}\in H_{A}^{0},g_{2}\in H_{A}^{0\perp}$ (⊥ with respect to $L^2$ inner product). Then $d_{A}g_{1} = 0$ and
+To see this, consider $\mathfrak{G}$ as a subset of $L_4^2 (\Omega^0 (\mathfrak{g}\otimes \mathbf{C}))$ and write $g = g_{1} + g_{2}$, $g_{1}\in H_{A}^{0},g_{2}\in H_{A}^{0\perp}$ (⊥ with respect to $L^2$ inner product). Then $d_{A}g_{1} = 0$ and
 
 $$
 \left\| d _ {A} g _ {2} \right\| _ {L _ {k} ^ {2}} \geqslant \text { const. } \left\| g _ {2} \right\| _ {L _ {k + 1} ^ {2}}, \quad k = 0, 1, 2, 3,
@@ -353,23 +353,23 @@ $$
 so that
 
 $$
-\begin{array}{c} b = g (A + a) - A = ^ {-} d _ {A} g g ^ {- 1} + g a g ^ {- 1}, \\ d _ {A} g _ {2} = d _ {A} g = b g - g a. \end{array}
+\begin{array}{c} b = \mathfrak {g} (A + a) - A = ^ {-} d _ {A} \mathfrak {g} \mathfrak {g} ^ {- 1} + \mathfrak {g} a \mathfrak {g} ^ {- 1}, \\ d _ {A} \mathfrak {g} _ {2} = d _ {A} \mathfrak {g} = b \mathfrak {g} - \mathfrak {g} a. \end{array}
 $$
 
-Thus from $\| b\|_{L_3^2'}\| a\|_{L_3^2} < \varepsilon$ we deduce in turn that $\| g_2\|_{L_k^2} < \mathrm{const.}\varepsilon$ for $k = 1,2,3,4$, so that the constant component $g_1$ differs from an element $\gamma \in \Gamma_A$ by $O(\varepsilon)$. Then write
+Thus from $\| b\|_{L_2^3'}\| a\|_{L_2^3} < \varepsilon$ we deduce in turn that $\| \mathfrak {g} _ {2}\|_{L_k^2} < \mathrm{const.}\varepsilon$ for $k = 1,2,3,4$, so that the constant component $g_1$ differs from an element $\gamma \in \Gamma_A$ by $O(\varepsilon)$. Then write
 
 $$
 \begin{array}{r l} g & = g _ {1} + g _ {2} = \gamma + (g _ {1} - \gamma + g _ {2}) \\ & = \gamma (1 + \gamma^ {- 1} \{g _ {1} - \gamma + g _ {2} \}) = \gamma \tilde {g}. \end{array}
 $$
 
-By the same argument, if $A, B \in \mathcal{Q}$, then for small enough $\varepsilon$ any $g \in \mathcal{G}$ moving an element within $\varepsilon$ of $A$ to an element within $\varepsilon$ of $B$ can be factored into an automorphism sending $A$ to $B$ and an automorphism close to 1, so $\mathfrak{B}$ is Hausdorff in the quotient topology.
+By the same argument, if $A, B \in \mathfrak{G}$, then for small enough $\varepsilon$ any $g \in \mathfrak{G}$ moving an element within $\varepsilon$ of $A$ to an element within $\varepsilon$ of $B$ can be factored into an automorphism sending $A$ to $B$ and an automorphism close to 1, so $\mathfrak{B}$ is Hausdorff in the quotient topology.
 
 Now the proof is standard calculus.
 
-(i) The set $\mathfrak{B}^* \subset \mathfrak{B}$ representing irreducible connections is open since the condition $H_A^0 = 0$ is an open condition ("semi-continuity of cohomology"), and $\mathcal{G} / \pm 1$ acts freely on $p^{-1}(\mathfrak{B}^*)$. The smooth map
+(i) The set $\mathfrak{B}^* \subset \mathfrak{B}$ representing irreducible connections is open since the condition $H_A^0 = 0$ is an open condition ("semi-continuity of cohomology"), and $\mathfrak{G} / \pm 1$ acts freely on $p^{-1}(\mathfrak{B}^*)$. The smooth map
 
 $$
-S \colon T _ {A, \varepsilon} \times \mathcal {G} / \pm 1 \rightarrow \mathcal {Q}, \quad S (A + a, g) = g (A + a)
+S \colon T _ {A, \varepsilon} \times \mathfrak {G} / \pm 1 \rightarrow \mathfrak {A}, \quad S (A + a, g) = \mathfrak {g} (A + a)
 $$
 
 has derivative at $a = 0, g = 1$:
@@ -383,10 +383,10 @@ which is an isomorphism since $\operatorname{Ker} d_A = H_A^0 = 0$ and $\Omega^1
 (ii) This time DS is surjective but has Kernel  $H_{A}^{0}$ . Thus the restriction
 
 $$
-S \colon T _ {A, \varepsilon} \times \exp \left(H _ {A} ^ {0 \perp}\right)\rightarrow \mathscr {Q}
+S \colon T _ {A, \varepsilon} \times \exp \left(H _ {A} ^ {0 \perp}\right)\rightarrow \mathfrak{A}
 $$
 
-$(H_{A}^{0\perp}$ the complement in the $L^{2}$ inner product) is a local diffeomorphism. Similarly, since multiplication $\Gamma_{A} \times \exp(H_{A}^{0\perp}) \to \mathcal{G}$ has derivative 1 at the identity there is a unique splitting of $g \in \mathcal{G}$ close to 1 as $g = \gamma \tilde{g}, \gamma \in \Gamma_{A}, \tilde{g} \in \exp(H_{A}^{0\perp})$. So in this case a neighborhood of [A] in $\mathfrak{B}$ is homeomorphic to $T_{A,\varepsilon}/\Gamma_{A}$, and $p: T_{A,\varepsilon} \to \mathfrak{B}^{*}$ is clearly smooth off the fixed point set of $\Gamma_{A}$.
+$(H_{A}^{0\perp}$ the complement in the $L^{2}$ inner product) is a local diffeomorphism. Similarly, since multiplication $\Gamma_{A} \times \exp(H_{A}^{0\perp}) \to \mathfrak{G}$ has derivative 1 at the identity there is a unique splitting of $g \in \mathfrak{G}$ close to 1 as $g = \gamma \tilde{g}, \gamma \in \Gamma_{A}, \tilde{\mathfrak{g}} \in \exp(H_{A}^{0\perp})$. So in this case a neighborhood of [A] in $\mathfrak{B}$ is homeomorphic to $T_{A,\varepsilon}/\Gamma_{A}$, and $p: T_{A,\varepsilon} \to \mathfrak{B}^{*}$ is clearly smooth off the fixed point set of $\Gamma_{A}$.
 
 We see then that in the local model of a neighborhood of a reducible connection in $\mathfrak{B}$:
 
@@ -398,7 +398,7 @@ the component  $\operatorname{Ker} d^{*} \subset \Omega_{X}^{1}$  corresponds to
 
 ## II.2. Local properties of the moduli space
 
-If $A \in \mathcal{Q}$ is self-dual the self-dual connections within the slice $T_{A,\varepsilon}$ are given by the set $Z(\Phi)$ of zeros of the map
+If $A \in \mathfrak{A}$ is self-dual the self-dual connections within the slice $T_{A,\varepsilon}$ are given by the set $Z(\Phi)$ of zeros of the map
 
 $$
 \begin{array}{c}T _ {A, \varepsilon} = \left\{A + a \mid d _ {A} ^ {*} a = 0, \| a \| _ {L _ {3} ^ {2}} <   \varepsilon \right\} \stackrel {\Phi} {\rightarrow} L _ {2} ^ {2} \big (\Omega_ {-} ^ {2} (\mathfrak {g}) \big),\\\Phi (A + a) = F _ {-} (A + a) = d _ {A} ^ {-} a + \frac {1}{2} [ a, a ].\end{array}
@@ -407,7 +407,7 @@ $$
 The essential fact which we use is that the derivative of $\Phi$:
 
 $$
-(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right)\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
+(D \Phi) _ {A} \colon \left(\operatorname{Ker} d _ {A} ^ {*} \subset L _ {3} ^ {2} \left(\Omega^ {1} (\mathfrak {g})\right)\right) \stackrel {{d _ {A} ^ {-}}} {{\rightarrow}} L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right)
 $$
 
 is a Fredholm operator (recall that a bounded linear map is Fredholm if it has finite dimensional kernel and cokernel and a closed range). This is an immediate consequence of the ellipticity of the differential operator:  $d_{A}^{*} + d_{A}^{-}$ since it is well known that elliptic operators over compact manifolds are
@@ -418,7 +418,7 @@ $$
 \begin{array}{r l}\operatorname{Index} (D \Phi) _ {A}&= \dim \operatorname{Ker} (D \Phi) _ {A} - \dim \operatorname{coker} (D \Phi) _ {A}\\&= \operatorname{index} \left(d _ {A} ^ {*} + d _ {A} ^ {-}: \Omega^ {1} (\mathfrak {g}) \rightarrow \Omega^ {0} (\mathfrak {g}) \oplus \Omega_ {-} ^ {2} (\mathfrak {g})\right) + \dim H _ {A} ^ {0}.\end{array}
 $$
 
-The index of  $d_{A}^{*} + d_{A}^{-}$  is independent of  $A \in \mathcal{Q}$  and can be computed by the Atiyah-Singer index theorem in terms of the original data X, P to be [2]:
+The index of  $d_{A}^{*} + d_{A}^{-}$  is independent of  $A \in \mathfrak{A}$  and can be computed by the Atiyah-Singer index theorem in terms of the original data X, P to be [2]:
 
 $$
 \operatorname{index} \left(d _ {A} ^ {*} + d _ {A} ^ {-}\right) = 8 \left| c _ {2} (P) \right| - \frac {3}{2} (\chi (X) - \tau (X)) = 5,
@@ -482,21 +482,21 @@ Thus just as  $H_{A}^{0}$  detects the reducibility of a connection, the vanishi
 
 For the proof of the main theorem used in §I.2 we have to establish the existence of a smooth 5-dimensional space with only finitely many explicitly known singularities. If the harmonic space $H_A^2$ vanishes for all self-dual $A$, then the moduli space $\mathfrak{M}$ would have this property, but in general we know very little about these spaces, so we argue that one may find a perturbation $\sigma$ of the self duality equations such that the corresponding zero set $\mathfrak{M}^\sigma$ has generic form.
 
-This is the formal setting for the perturbation: the group $\mathcal{G} / \pm 1$ acts on the Banach spaces
+This is the formal setting for the perturbation: the group $\mathfrak{G} / \pm 1$ acts on the Banach spaces
 
 $$
-L _ {3} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right) \Rightarrow L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
+L _ {3} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right) \hookrightarrow L _ {2} ^ {2} \left(\Omega_ {-} ^ {2} (\mathfrak {g})\right).
 $$
 
-So we get a pair of bundles, $\mathscr{E}^3 \Rightarrow \mathscr{E}^2$ say, over the manifold $\mathfrak{B}^*$, associated to the principal bundle $p^{-1}(\mathfrak{B}^*)$; and the anti-self dual component of the curvature induces a canonical section $\Phi$ of $\mathscr{E}^2$. The allowable perturbations $\sigma$ are to
+So we get a pair of bundles, $\mathcal{E}^3 \hookrightarrow \mathcal{E}^2$ say, over the manifold $\mathfrak{B}^*$, associated to the principal bundle $p^{-1}(\mathfrak{B}^*)$; and the anti-self dual component of the curvature induces a canonical section $\Phi$ of $\mathcal{E}^2$. The allowable perturbations $\sigma$ are to
 
-be smooth sections of $\mathscr{E}^3$: the “uniform norm” $\| \sigma(A) \|_{L_3^2(A)}$ in the fibre over $[A] \in \mathfrak{B}^*$ is well defined as is the “covariant derivative” $(\nabla \sigma)_A$, a linear map
+be smooth sections of $\mathcal{E}^3$: the “uniform norm” $\| \sigma(A) \|_{L_3^2(A)}$ in the fibre over $[A] \in \mathfrak{B}^*$ is well defined as is the “covariant derivative” $(\nabla \sigma)_A$, a linear map
 
 $$
-(\nabla \sigma) _ {[ A ]}: \operatorname{Ker} d _ {A} ^ {*} \cong (T \mathfrak {B} ^ {*}) _ {[ A ]} \rightarrow \mathscr{E} _ {A} ^ {3} \cong L _ {3} ^ {2} (\Omega_ {-} ^ {2} (\mathfrak {g})),
+(\nabla \sigma) _ {[ A ]}: \operatorname{Ker} d _ {A} ^ {*} \cong (T \mathfrak {B} ^ {*}) _ {[ A ]} \rightarrow \mathcal{E} _ {A} ^ {3} \cong L _ {3} ^ {2} (\Omega_ {-} ^ {2} (\mathfrak {g})),
 $$
 
-(in effect the slices $T_{A,\varepsilon}$ define a connection on $\mathscr{E}^k$). If we interpret $\sigma$ as a section of $\mathscr{E}^2$, $\nabla(\Phi + \sigma)$ is Fredholm and of the same index as $\nabla\Phi$, since $\nabla\sigma$ factors through $L_3^2$, and $L_3^2 \Rightarrow L_2^2$ is compact.
+(in effect the slices $T_{A,\varepsilon}$ define a connection on $\mathcal{E}^k$). If we interpret $\sigma$ as a section of $\mathcal{E}^2$, $\nabla(\Phi + \sigma)$ is Fredholm and of the same index as $\nabla\Phi$, since $\nabla\sigma$ factors through $L_3^2$, and $L_3^2 \hookrightarrow L_2^2$ is compact.
 
 All of this makes sense over the whole of $\mathfrak{B}$ provided that $\sigma$ is defined in a $T_{A,\varepsilon}$ with the appropriate $\Gamma_A$ symmetry. We give such $\sigma$ the topology of uniform convergence of $\| \sigma \|_{L_3^2 (A)}$ and convergence of $\nabla \sigma$ in operator norm, uniformly on compact sets.
 
@@ -528,13 +528,13 @@ equal to $\Phi$ outside a small neighborhood of $[A]$.
 
 Doing this for each of the  $n(Q)$  reducible self-dual connections we can pass without loss of generality to the case when the compact set K is contained in  $\mathfrak{B}^{*}$  since all our subsequent perturbations will be supported in  $\mathfrak{B}^{*}$ . It is convenient then to prove
 
-Lemma 9. If $V \subset \subset U \subset \mathfrak{B}^*$ are open sets with $U$ covered by finitely many slices $T_{A,\varepsilon}$, then the set $G$ of "good perturbations" $\sigma$, supported in $U$ and such that the zero set $\overline{V} \cap Z(\Phi + \sigma)$ is cut out transυersally (i.e., $(\nabla(\Phi + \sigma))$ is onto for all $[A] \in \overline{V} \cap Z(\Phi + \sigma)$) is open and dense.
+Lemma 9. If $V \subset \subset U \subset \mathfrak{B}^*$ are open sets with $U$ covered by finitely many slices $T_{A,\varepsilon}$, then the set $G$ of "good perturbations" $\sigma$, supported in $U$ and such that the zero set $\overline{V} \cap Z(\Phi + \sigma)$ is cut out transversally (i.e., $(\nabla(\Phi + \sigma))$ is onto for all $[A] \in \overline{V} \cap Z(\Phi + \sigma)$) is open and dense.
 
 Given Lemma 9 we can find three open sets  $K \subset U_{1} \subset \subset U_{2} \subset \subset U_{3}$ , each covered by finitely many slices  $T_{A,\varepsilon}$ , since K is compact. The set of good perturbations over  $U_{1}$  supported in  $U_{2}$  is open and dense, and by applying
 
 Lemma 9 to $(U_2\backslash \overline{U}_1)\subset U_3\backslash \overline{U}_1$ and the fact that $\Phi$ is already good outside $U_{1}$, we can find the required small perturbation $\sigma$ such that $\mathfrak{M}^{\sigma} = Z(\Phi +\sigma)$ is a smooth 5-manifold with $n(Q)$ singular points, equal to $\mathfrak{M}$ outside a compact set.
 
-Proof of Lemma 9. If $\sigma$ is any perturbation bounded in $\| \|_{L_3^2}$ and $0 \leqslant R < \infty$, then the set of $[A]$ in $\overline{V}$ such that $\| (\Phi + \sigma)(A)\|_{L_3^2(A)} \leqslant R$ is compact (for in each of the slices $T_{A,\epsilon}$ covering$^1$$U$ an $L_4^2$ bound on $\Phi + \sigma$ gives an $L_3^2$ bound on $(d_A^- + d_A^*)a$ and so an $L_4^2$ bound on $a$ by ellipticity, and $L_4^2 \Rightarrow L_3^2$ is compact).
+Proof of Lemma 9. If $\sigma$ is any perturbation bounded in $\| \|_{L_3^2}$ and $0 \leqslant R < \infty$, then the set of $[A]$ in $\overline{V}$ such that $\| (\Phi + \sigma)(A)\|_{L_3^2(A)} \leqslant R$ is compact (for in each of the slices $T_{A,\epsilon}$ covering$^1$$U$ an $L_3^2$ bound on $\Phi + \sigma$ gives an $L_3^2$ bound on $(d_A^- + d_A^*)a$ and so an $L_4^2$ bound on $a$ by ellipticity, and $L_4^2 \hookrightarrow L_3^2$ is compact).
 
 That G is open, in the topology we defined, follows almost immediately from this and the fact that the set of surjective operators on a Banach space is open in operator norm.
 
@@ -560,7 +560,7 @@ $$
 \operatorname{ind} \left\{L _ {t} \right\} \in K O (T),
 $$
 
-<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  We ought here to suppose that the slices  $T_{A,\varepsilon}$  are centred on smooth connections A—this is possible since the smooth connections are dense in $\mathcal{Q}$.</span></small>
+<small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{1}$  We ought here to suppose that the slices  $T_{A,\varepsilon}$  are centred on smooth connections A—this is possible since the smooth connections are dense in $\mathfrak{A}$.</span></small>
 
 which has the property that if $\dim \operatorname{Ker} L_t$ is constant for $t$ in some closed subset $S \subset T - \text{so that } \operatorname{Ker}\{L_t\}$, $\operatorname{coKer}\{L_t\}$ form vector bundles over $S -$
 
@@ -568,13 +568,13 @@ $$
 \operatorname{ind} \left\{L _ {t} \right\} \mid_ {S} = \operatorname{Ker} \left\{L _ {t} \right\} - \operatorname{CoKer} \left\{L _ {t} \right\} \in K O (S).\tag{*}
 $$
 
-(The numerical index used previously is then the image of this $KO$ index under the augmentation: $KO(T) \to \mathbf{Z}$.) Since the reducible connections are a nuisance here, we choose a base point $x_0 \in X$ and form the restricted gauge group $\mathcal{G}_0 \subset \mathcal{G}$ of automorphisms equal to the identity on $P_{x_0}$, Then $\mathcal{G}_0$ acts freely on $\mathcal{Q}$, so we get bundles
+(The numerical index used previously is then the image of this $KO$ index under the augmentation: $KO(T) \to \mathbf{Z}$.) Since the reducible connections are a nuisance here, we choose a base point $x_0 \in X$ and form the restricted gauge group $\mathfrak{G}_0 \subset \mathfrak{G}$ of automorphisms equal to the identity on $P_{x_0}$. Then $\mathfrak{G}_0$ acts freely on $\mathfrak{A}$, so we get bundles
 
 $$
 \tilde {V} = \widetilde {(T ^ {*} X) \otimes \mathfrak {g}}, \quad \tilde {W} = \widetilde {\mathfrak {g} \oplus \lambda^ {2} (T ^ {*} X) \otimes \mathfrak {g}},
 $$
 
-over the product $\mathcal{Q} / \mathcal{G}_0\times X = \hat{\mathfrak{B}}\times X$ , and a family of operators:
+over the product $\mathfrak{B} / \mathfrak{G}_0\times X = \hat{\mathfrak{B}}\times X$ , and a family of operators:
 
 $$
 L _ {[ A ]} = d _ {A} ^ {*} + d _ {A} ^ {-} + (\nabla \sigma) _ {A} \colon \Gamma (\tilde {V} _ {[ A ]}) \rightarrow \Gamma (\tilde {W} _ {[ A ]}).
@@ -648,11 +648,11 @@ $$
 w _ {1} \left(\operatorname{ind} \left\{d ^ {*} + d ^ {-} \right\} (M, 2, k)\right)
 $$
 
-is the restriction of $w_{1}(\mathrm{ind}\{d^{*} + d^{-}\}(M,3,k)) \in H^{1}(\hat{\mathfrak{B}}(M,3,k),\mathbf{Z}/2)$ to $H^{1}(\hat{\mathfrak{B}}(M,2,k);\mathbf{Z}/2)$.
+is the restriction of $w_{1}(\mathrm{ind}\{d^{*} + d^{-}\}(M,3,k)) \in H^{1}(\hat{\mathfrak{B}}(M,3,k);\mathbf{Z}/2)$ to $H^{1}(\hat{\mathfrak{B}}(M,2,k);\mathbf{Z}/2)$.
 
-Then we claim that $\hat{\mathfrak{B}}(M, n, k)$ is simply connected for $n \geqslant 3$; this will obviously complete the proof of the lemma. $\mathcal{G}_0 = \mathcal{G}_0(M, n, k)$ acts freely on the contractible affine space of connections so $\pi_1(\hat{\mathfrak{B}}(M, n, k))$ is isomorphic to the set of connected components of $\mathcal{G}_0(M, n, k)$.
+Then we claim that $\hat{\mathfrak{B}}(M, n, k)$ is simply connected for $n \geqslant 3$; this will obviously complete the proof of the lemma. $\mathfrak{G}_0 = \mathfrak{G}_0(M, n, k)$ acts freely on the contractible affine space of connections so $\pi_1(\hat{\mathfrak{B}}(M, n, k))$ is isomorphic to the set of connected components of $\mathfrak{G}_0(M, n, k)$.
 
-The 4-manifold M is simply connected so it is, homotopically, a wedge of 2-spheres with a 4-cell attached [12]. The bundle  $P_{k}$  is trivial over the 2-skeleton and, since  $\pi_{2}(SU(n)) = 0$ , any element of  $\mathcal{G}_{0}$  can be deformed to be the identity on a neighborhood of the 2-skeleton. Thus collapsing the 2-skeleton, we may reduce to the case when  $M = S^{4}$ . Similarly  $P_{k}$  is trivial on the complement of a point, so we may reduce to the case when k = 0 and the bundle is trivial. Then the components of  $\mathcal{G}_{0}(S^{4}, n, 0)$  are the homotopy groups
+The 4-manifold M is simply connected so it is, homotopically, a wedge of 2-spheres with a 4-cell attached [12]. The bundle  $P_{k}$  is trivial over the 2-skeleton and, since  $\pi_{2}(SU(n)) = 0$ , any element of  $\mathfrak{G}_{0}$  can be deformed to be the identity on a neighborhood of the 2-skeleton. Thus collapsing the 2-skeleton, we may reduce to the case when  $M = S^{4}$ . Similarly  $P_{k}$  is trivial on the complement of a point, so we may reduce to the case when k = 0 and the bundle is trivial. Then the components of  $\mathfrak{G}_{0}(S^{4}, n, 0)$  are the homotopy groups
 
 $$
 \pi_ {4} (S U (n)),
@@ -694,13 +694,13 @@ $$
 \int_ {B ^ {4}} \left| F \big (\tilde {A} _ {i} \big) \right| ^ {2} d \mu \leqslant C
 $$
 
-Then there is a subsequence $\{i'\} \subset \{i\}$, and $A_i$ equivalent to $\tilde{A}_i$ such that $A_i$, converge in $C^\infty$ on the half sized ball $\frac{1}{2} B^4 = \{X \in \mathbb{R}^4 || X| < \frac{1}{2}\}$ to a limiting connection $A_\infty$; self-dual with respect to the metric $m_\infty$.
+Then there is a subsequence $\{i'\} \subset \{i\}$, and $A_{i'}$ equivalent to $\tilde{A}_i$ such that $A_{i'}$, converge in $C^\infty$ on the half sized ball $\frac{1}{2} B^4 = \{X \in \mathbb{R}^4 || X| < \frac{1}{2}\}$ to a limiting connection $A_\infty$, self-dual with respect to the metric $m_\infty$.
 
 This proposition follows from Theorem 1.3 of [21]. Identifying in the usual way a connection on the trivial bundle with a matrix of 1-forms, we may suppose by that result that the $A_{i}$ are chosen to satisfy:
 
-(i)  $d^{*}A_{i}=0,$
+(i)  $d^{*}\tilde{A}_{i}=0,$
 
-(ii) $\| A_i\|_{L_p}\leqslant \mathrm{const.}\| F(\tilde{A}_i)\|_{L_p},$ for any $p\geqslant 2$
+(ii) $\| A_i\|_{L^p}\leqslant \mathrm{const.}\| F(\tilde{A}_i)\|_{L^p},$ for any $p\geqslant 2$.
 
 Just as in §II the constraint (i), together with the self-duality condition,
 
@@ -708,18 +708,18 @@ $$
 d ^ {-} A _ {i} + \frac {1}{2} [ A _ {i}, A _ {i} ] _ {-} = 0,
 $$
 
-gives an elliptic system of equations, and for C sufficiently small the standard convergence argument applies (by the a priori inequality, Theorem 3.5 of [20] we can take  $\|F(\tilde{A}_{i})\|_{L^{p}}$ , and so  $\|A_{i}\|_{L_{p}}$ , bounded for any given p).
+gives an elliptic system of equations, and for C sufficiently small the standard convergence argument applies (by the a priori inequality, Theorem 3.5 of [20] we can take  $\|F(\tilde{A}_{i})\|_{L^{p}}$ , and so  $\|A_{i}\|_{L^{p}}$ , bounded for any given p).
 
 ## III.2
 
 The local result of §III.1 above allows us to prove the following theorem for a sequence of connections defined over $X$.
 
-Theorem 13. Let $\tilde{A}_i \in \mathcal{Q}$ be a sequence of self-dual connections on the bundle $P$ over $X$. Then there is a subsequence $\{i'\}$ such that either one of the following holds.
+Theorem 13. Let $\tilde{A}_i \in \mathfrak{A}$ be a sequence of self-dual connections on the bundle $P$ over $X$. Then there is a subsequence $\{i'\}$ such that either one of the following holds.
 
-(i) Each $\tilde{A}_{i'}$ is equivalent to an $A_{i'} \in \mathcal{Q}$, converging in $C^\infty$ to a self-dual connection $A_\infty$ on $P$; hence
+(i) Each $\tilde{A}_{i'}$ is equivalent to an $A_{i'} \in \mathfrak{A}$, converging in $C^\infty$ to a self-dual connection $A_\infty$ on $P$; hence
 
 $$
-\left[ \tilde {A} _ {i} \right]\rightarrow \left[ A _ {\infty} \right] \quad i n \mathfrak {M} \subset \mathfrak {B}.
+\left[ \tilde {A} _ {i} \right]\rightarrow \left[ A _ {\infty} \right] \quad in \mathfrak{M} \subset \mathfrak {B}.
 $$
 
 (ii) There are a point $x \in X$ and on the complement $K$ of any geodesic ball about $x$ bundle isomorphisms
@@ -728,7 +728,7 @@ $$
 \rho_ {i ^ {\prime}} \colon K \times S U (2) \rightarrow P | _ {K}
 $$
 
-such that $\rho_{i'}^*(\tilde{A}_{i'}) \to \theta$ (the product connection) in $C^\infty(K)$.
+such that $\rho_{i'}^{*}(\tilde{A}_{i'}) \to \theta$ (the product connection) in $C^\infty(K)$.
 
 There is considerable overlap in this theorem with the results of [15], one may compare also [14]. We prove a combinatorial lemma first.
 
@@ -746,7 +746,7 @@ $$
 
 is eventually less than $C$.
 
-Proof of Lemma 14. X has a countable base of neighborhoods  $\{B_{q}\}_{q\in N}$  made up of small geodesic balls, and for each q we have
+Proof of Lemma 14. X has a countable base of neighborhoods  $\{B_{q}\}_{q\in \mathbb{N}}$  made up of small geodesic balls, and for each q we have
 
 $$
 I (q, i) = \int_ {B _ {q}} f _ {i} d \mu \leqslant L.
@@ -754,7 +754,7 @@ $$
 
 Thus we may find, for each fixed q, a subsequence  $i'$  such that  $I(q, i')$  converges, and by a “diagonal argument” we can arrange that this happens for all q simultaneously:  $I(q, i') \to I(q)$  say. That is just the standard fact that some subsequence of the  $f_i$  converge in the sense of distributions.
 
-Suppose that  $x_{1},\cdots,x_{l}$  are points of X each of which lies in no ball  $B_{q}$  with  $I(q)\leqslant c/2$  (i.e., the limiting distribution “contains  $\delta$ -functions” at the points  $x_{j}$ ). Then we may choose disjoint balls  $B_{j}$  containing  $x_{j}$  and satisfying
+Suppose that  $x_{1},\cdots,x_{l}$  are points of X each of which lies in no ball  $B_{q}$  with  $I(q)\leqslant c/2$  (i.e., the limiting distribution “contains  $\delta$-functions” at the points  $x_{j}$ ). Then we may choose disjoint balls  $B_{j}$  containing  $x_{j}$  and satisfying
 
 $$
 \int_ {B _ {j}} f _ {i ^ {\prime}} d \mu > c / 2 \quad \text { for   all   large   enough } i ^ {\prime};
@@ -780,7 +780,7 @@ $$
 \chi_ {B} \colon B ^ {4} \to B, y ^ {i} \to r y ^ {i} = x ^ {i},
 $$
 
-the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}0|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $0(r^{2})$  from the Euclidean metric.
+the induced metric on  $B^{4}$  is  $r^{2}(\delta_{ij} + r^{2}0|y|^{2})dy^{i}dy^{j}$ , which is conformally equivalent to a metric differing, with all its derivatives, by  $O(r^{2})$  from the Euclidean metric.
 
 Thus we may apply Lemma 14 to the sequence of action densities:
 
@@ -794,7 +794,7 @@ $$
 \chi_ {\alpha} \colon B ^ {4} \to B _ {\alpha}.
 $$
 
-Because of the conformal invariance of the Yang-Mills action we may apply Proposition 12 to deduce that for each $\alpha$ some subsequence of the $\chi_{\alpha}^{*}(A_{i'})$ converge after suitable bundle automorphism on $\frac{1}{2} B^4$ (all ensuing subsequences will be suppressed in the notation), and by a diagonal argument we may suppose this is true for all $\alpha$ simultaneously.
+Because of the conformal invariance of the Yang-Mills action we may apply Proposition 12 to deduce that for each $\alpha$ some subsequence of the $\chi_{\alpha}^{*}(\tilde{A}_{i'})$ converge after suitable bundle automorphism on $\frac{1}{2} B^4$ (all ensuing subsequences will be suppressed in the notation), and by a diagonal argument we may suppose this is true for all $\alpha$ simultaneously.
 
 Thus in terms of local representations for the connections  $\tilde{A}_{i'}$  over the cover  $\frac{1}{2}B$  we have connection matrices
 
@@ -819,10 +819,10 @@ $$
 The bundle $Q|_{B_j \setminus \{x_j\}}$ is topologically trivial, so by Uhlenbeck's Removability of Singularities Theorem (Proposition 4) the connection $A_\infty$ and the bundle $Q$ extend over all of $X$. Thus there is strict inequality in (3) above (by the definition of $x_j$ in Lemma 14). On the other hand, all connections are self-dual, so
 
 $$
-\frac {1}{8 \pi^ {2}} \int_ {B _ {j}} | F (\tilde {A} _ {i}) | ^ {2} d \mu = \frac {1}{8 \pi^ {2}} \int_ {B _ {j}} T r (F \wedge F) = - T c _ {2} (\tilde {A} _ {i} | _ {\partial B _ {j}}), \mod \mathbf {Z}.\tag{3}
+\frac {1}{8 \pi^ {2}} \int_ {B _ {j}} | F (\tilde {A} _ {i}) | ^ {2} d \mu = \frac {1}{8 \pi^ {2}} \int_ {B _ {j}} T r (F \wedge F) = - T c _ {2} (\tilde {A} _ {i} | _ {B _ {j}}), \mod \mathbf {Z}.\tag{3}
 $$
 
-Finally given any compact  $K \subset X \setminus \{\kappa_{1}, \cdots, \kappa_{l}\}$  we may construct bundle isomorphisms
+Finally given any compact  $K \subset X \setminus \{x_{1}, \cdots, x_{l}\}$  we may construct bundle isomorphisms
 
 $$
 \rho_ {i ^ {\prime}} \colon Q | _ {K} \rightarrow P | _ {K}
@@ -831,24 +831,24 @@ $$
 such that $\rho_{i'}^{*}(\tilde{A}_{i'}) \to A_{\infty}$ in $C^{\infty}(K)$, by induction on the number of balls $\frac{1}{2} B_{\alpha}$ covering $K$ just as in [21, §3]. In particular,
 
 $$
-T c _ {2} \left(A _ {\infty} \mid_ {\partial B _ {j}}\right) = \lim _ {i ^ {\prime}} T c _ {2} \left(\tilde {A} _ {i ^ {\prime}} \mid_ {\partial B _ {j}}\right),
+T c _ {2} \left(A _ {\infty} \mid_ {B _ {j}}\right) = \lim _ {i ^ {\prime}} T c _ {2} \left(\tilde {A} _ {i ^ {\prime}} \mid_ {B _ {j}}\right),
 $$
 
 so from (2), (3) $l = 0$ or 1 and we have either one of the following:
 
-(i) When $l = 0$, $Q \cong P$; so we find the convergent sequence $A_{i'}$ in $\mathcal{Q}$.
+(i) When $l = 0$, $Q \cong P$; so we find the convergent sequence $A_{i'}$ in $\mathfrak{p}$.
 
 (ii) When $l = 1$, $Q$ is trivial; so $A_{\infty} \cong \theta$ by the discussion of §I.3, and we find the required bundle maps over each $K$.
 
 ## III.3
 
-Theorem 13 shows that one needs to consider connections with curvature concentrated in small balls in order to compactify the moduli space $\mathscr{M}$ (just as for the case  $X = S^{4}$  in §I.4). Taubes constructs self-dual connections of this type depending upon a point in X and a scale  $\lambda_{0} > \lambda > 0$ ; thus he constructs a map:
+Theorem 13 shows that one needs to consider connections with curvature concentrated in small balls in order to compactify the moduli space $\mathfrak{M}$ (just as for the case  $X = S^{4}$  in §I.4). Taubes constructs self-dual connections of this type depending upon a point in X and a scale  $\lambda_{0} > \lambda > 0$ ; thus he constructs a map:
 
 $$
-X \times (0, \lambda_ {0}) \rightarrow \mathscr{M},
+X \times (0, \lambda_ {0}) \rightarrow \mathfrak{M},
 $$
 
-and one can prove directly [19] that this map is a diffeomorphism to its image. However, we find it easier here to define a map p from an open subset of $\mathscr{M}$ representing these concentrated solutions to  $X \times (0, \lambda_{0})$ —thus approximately inverse to Taubes construction. The definition of any such map is bound to be rather arbitrary; the one we choose is slightly complicated but suits our later needs.
+and one can prove directly [19] that this map is a diffeomorphism to its image. However, we find it easier here to define a map p from an open subset of $\mathfrak{M}$ representing these concentrated solutions to  $X \times (0, \lambda_{0})$ —thus approximately inverse to Taubes construction. The definition of any such map is bound to be rather arbitrary; the one we choose is slightly complicated but suits our later needs.
 
 We could define the “radius” and position of a self-dual connection by taking the smallest ball which contains one half of the total action, just as for the instantons. However, we will “smooth” this definition in the following way.
 
@@ -872,7 +872,7 @@ $$
 
 has, as one can very easily see, the following properties:
 
-(i) $\partial R_{I} / \partial s\neq 0$ , so by the implicit function theorem and the fact that $R_{I}$ is monotone there is a smooth function $s(x)$ on $\mathbf{R}^4$ such that $R_{I}(x,s(x)) = 4\pi^{2}$
+(i) $\partial R_{I} / \partial s\neq 0$ , so by the implicit function theorem and the fact that $R_{I}$ is monotone there is a smooth function $s(x)$ on $\mathbf{R}^4$ such that $R_{I}(x,s(x)) = 4\pi^{2}$.
 
 (ii) $s(x)$ (which is rotationally symmetric) has a unique nondegenerate minimum at 0 with minimum value $K$ say.
 
@@ -894,7 +894,7 @@ $$
 
 Define $\hat{A} = \chi_{\lambda}^{*}(A)$, and let the induced metric on $(r / \lambda)B^{4}$ be $\lambda^2\hat{m}$; so as in Theorem 13, $\hat{m}$ tends to the Euclidean metric as $\lambda \to 0$, uniformly with all its derivatives on bounded regions in $\mathbf{R}^4$.
 
-Theorem 16. (i) On each bounded region of $\mathbf{R}^4$, $\hat{A} \to I_{0,1}$, uniformly in $C^\infty$ for $[A] \in \mathscr{M}$, as $\lambda(A) \to 0$.
+Theorem 16. (i) On each bounded region of $\mathbf{R}^4$, $\hat{A} \to I_{0,1}$, uniformly in $C^\infty$ for $[A] \in \mathfrak{M}$, as $\lambda(A) \to 0$.
 
 (ii) There is a function $\delta(r)$ tending to zero as $r \to 0$ such that the curvature densities satisfy a bound:
 
@@ -919,10 +919,10 @@ Since the limit is the same for every possibly subsequence the rate of convergen
 Corollary 17. There is a $\lambda_0 > 0$ such that if $A$ is a self-dual connection on $P$ with $\lambda(A) < \lambda_0$, then the minimum in Definition 15(b) is attained at a unique point $x(A)$ in $X$ and the map
 
 $$
-\begin{array}{c} p \colon \mathscr{M} _ {\lambda_ {0}} = \big \{\big [ A \big ] \in \mathscr{M} \big | \lambda (A) <   \lambda_ {0} \big \} \to X \times (0, \lambda_ {0}), \\ p (A) = (x (A), \lambda (A)), \end{array}
+\begin{array}{c} p \colon \mathfrak{M} _ {\lambda_ {0}} = \big \{\big [ A \big ] \in \mathfrak{M} \big | \lambda (A) <   \lambda_ {0} \big \} \to X \times (0, \lambda_ {0}), \\ p (A) = (x (A), \lambda (A)), \end{array}
 $$
 
-extends to a smooth map on some neighborhood of $\mathscr{M}_{\lambda_0}$ in $\mathfrak{B}$. If $[A_t]$ is any smooth path in $\mathfrak{B}$, $A_0 \in \mathscr{M}_{\lambda_0}$, there is a bound:
+extends to a smooth map on some neighborhood of $\mathfrak{M}_{\lambda_0}$ in $\mathfrak{B}$. If $[A_t]$ is any smooth path in $\mathfrak{B}$, $A_0 \in \mathfrak{M}_{\lambda_0}$, there is a bound:
 
 $$
 \left| \frac {d}{d t} p (A _ {t}) \right| \leqslant \text { const. } \lambda (A _ {0}) \left\| \frac {d}{d t} F (A _ {t}) \right\| _ {L ^ {2}},
@@ -932,7 +932,7 @@ both derivatives being evaluated at $t = 0$.
 
 Proof. Any two minima must be separated by a distance of at most  $2\lambda$ , since the ball of radius  $\lambda$  about each contains more than  $\frac{1}{2}$  of the total action. Since the question is also conformally invariant, we may change scale and pass to  $\hat{A}$ .
 
-The curvature densities  $|F(\hat{A})|_{\hat{m}}^{2}$  converge uniformly on bounded regions of  $R^{4}$  to the instanton action density  $f=|F(I_{0,1})|^{2}$  as  $\lambda(A)\to0$ . So by the openness of the two properties of  $R_{I}$  noted before Definition 15 there will be a unique minimum corresponding to  $\hat{A}$  for sufficiently small  $\lambda$ , and the position of a nondegenerate minimum varies smoothly with parameters, so the map p defined above is smooth.
+The curvature densities  $|F(\hat{A})|_{\hat{m}}^{2}$  converge uniformly on bounded regions of  $\mathbf{R}^{4}$  to the instanton action density  $f=|F(I_{0,1})|^{2}$  as  $\lambda(A)\to0$ . So by the openness of the two properties of  $R_{I}$  noted before Definition 15 there will be a unique minimum corresponding to  $\hat{A}$  for sufficiently small  $\lambda$ , and the position of a nondegenerate minimum varies smoothly with parameters, so the map p defined above is smooth.
 
 Likewise for the second part; the statement is again scale invariant, so we may pass to the corresponding path  $\hat{A}_{t}, f_{t} = |F(\hat{A}_{t})|^{2}$ . Thus
 
@@ -948,13 +948,13 @@ $$
 
 where H is the Hessian corresponding to the minimum at t = 0.
 
-To conserve notation we will allow ourselves to rechoose the positive number $\lambda_0$ throughout the rest of this section, to give the space $\mathscr{M}_{\lambda_0}$ the desired properties. In any case $\mathscr{M} \setminus \mathscr{M}_{\lambda_0}$ is compact by Theorem 13.
+To conserve notation we will allow ourselves to rechoose the positive number $\lambda_0$ throughout the rest of this section, to give the space $\mathfrak{M}_{\lambda_0}$ the desired properties. In any case $\mathfrak{M} \setminus \mathfrak{M}_{\lambda_0}$ is compact by Theorem 13.
 
-Proposition 18. Let $[A] \in \mathscr{M}_{\lambda_0}$.
+Proposition 18. Let $[A] \in \mathfrak{M}_{\lambda_0}$.
 
 (i) Given $r > 0$, $[A] \to \theta$ in $C^\infty(X \setminus B(x(A), r))$ as $\lambda(A) \to 0$.
 
-(ii) The first eigenvalue $\mu(A)$ of $\Delta_A$ on $\Omega^2_-(\mathfrak{g})$ tends to the first eigenvalue $\mu_1$ of $\Delta$ on $\Omega^2_-$ as $\lambda(A) \to 0$. Since $\mu_1 > 0$, $\mathscr{M}_{\lambda_0}$ is a smooth 5-manifold for $\lambda_0$ sufficiently small by the discussion of §II.
+(ii) The first eigenvalue $\mu(A)$ of $\Delta_A$ on $\Omega^2_-(\mathfrak{g})$ tends to the first eigenvalue $\mu_1$ of $\Delta$ on $\Omega^2_-$ as $\lambda(A) \to 0$. Since $\mu_1 > 0$, $\mathfrak{M}_{\lambda_0}$ is a smooth 5-manifold for $\lambda_0$ sufficiently small by the discussion of §II.
 
 (iii) $\| F(A)\|_{L^4}\leqslant \mathrm{const.}\lambda (A)^{-1}.$
 
@@ -962,7 +962,7 @@ Proof. (i) is just a re-statement of Theorem 13, alternative (ii), with uniformi
 
 (ii) If $\omega$ is the first (normalised) eigenfunction of $\Delta_A$, then $\|d_A^*\omega\|_{L^2}^2 = \mu(A)$, and we compare $\omega$ with $\omega' = (1 - \beta_r)\omega$ where $\beta_r$ is supported in $B(x(A), r)$, equal to 1 in the half-sized ball. Since $\|d_\theta^*\omega'\|_{L^2}^2 \geqslant \mu_1\|\omega'\|_{L^2}^2$, and $A \to \theta$ on supp $\omega'$ by (i) above, we deduce the result by taking $r$ sufficiently small. This goes precisely as [18, Proposition 8.8], so we omit the details.
 
-(iii) The  $L^{4}$ -norm on 2-forms transforms by a factor  $\lambda^{-1}$  under a scale change of  $\lambda$ , so it plainly suffices to show  $\|F(\hat{A})\|_{L^{4}}$  bounded; but this follows from Theorem 16 (ii) once r, and so  $\delta(r)$ , is taken small enough for
+(iii) The $L^{4}$-norm on 2-forms transforms by a factor  $\lambda^{-1}$  under a scale change of  $\lambda$ , so it plainly suffices to show  $\|F(\hat{A})\|_{L^{4}}$  bounded; but this follows from Theorem 16 (ii) once r, and so  $\delta(r)$ , is taken small enough for
 
 $$
 \left(1 / | y | ^ {[ 4 - \delta (r) ]}\right)
@@ -973,7 +973,7 @@ to be integrable at infinity.
 Theorem 19. For sufficiently small $\lambda_0$,
 
 $$
-p \colon \mathscr{M} _ {\lambda_ {0}} \rightarrow X \times (0, \lambda_ {0})
+p \colon \mathfrak{M} _ {\lambda_ {0}} \rightarrow X \times (0, \lambda_ {0})
 $$
 
 is a covering map.
@@ -981,13 +981,13 @@ is a covering map.
 Proof. First note that Theorem 13 implies that p is a proper map, and it is easy to see that a proper local homeomorphism is a (finite) covering, so it suffices to prove that
 
 $$
-d p \colon (T \mathscr{M}) _ {[ A ]} \rightarrow (T X) _ {x (A)} \times \mathbf {R}
+d p \colon (T \mathfrak{M}) _ {[ A ]} \rightarrow (T X) _ {x (A)} \times \mathbf {R}
 $$
 
-is an isomorphism for $[A] \in \mathscr{M}$, $\lambda(A)$ sufficiently small. By the application of the index theorem described in §II.2 we know each space is 5-dimensional, so it suffices again to exhibit a linear map:
+is an isomorphism for $[A] \in \mathfrak{M}$, $\lambda(A)$ sufficiently small. By the application of the index theorem described in §II.2 we know each space is 5-dimensional, so it suffices again to exhibit a linear map:
 
 $$
-\alpha \colon (T X) _ {x (A)} \times \mathbf {R} \to (T \mathscr{M}) _ {[ A ]}
+\alpha \colon (T X) _ {x (A)} \times \mathbf {R} \to (T \mathfrak{M}) _ {[ A ]}
 $$
 
 such that $dp \circ \alpha$ is invertible, which will certainly be true if
@@ -1002,9 +1002,9 @@ $$
 V = \beta_ {r / 2} (v^ {i} + \phi x ^ {i}) \frac {\partial}{\partial x ^ {i}},
 $$
 
-where $\xi = (v^i, \phi)$. Thus $f_t = 1$ outside $B(x(A), r/2)$. Lifting to the bundle $f_t$ defines a flow on $\mathcal{B}$; set $[A_t] = q(f_t(A)) \in \mathscr{M}$ where $q$ is Taubes' map as in Proposition 5, so $[A_t]$ is defined for sufficiently small $t$ (depending on $\lambda$).
+where $\xi = (v^i, \phi)$. Thus $f_t = 1$ outside $B(x(A), r/2)$. Lifting to the bundle $f_t$ defines a flow on $\mathfrak{B}$; set $[A_t] = q(f_t(A)) \in \mathfrak{M}$ where $q$ is Taubes' map as in Proposition 5, so $[A_t]$ is defined for sufficiently small $t$ (depending on $\lambda$).
 
-Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathscr{M})_{[A]}$. $\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
+Then put $\alpha(\xi) = \frac{d}{dt}[A_t] |_{t=0} \in (T\mathfrak{M})_{[A]}$. $\alpha$ is plainly linear since the whole process varies smoothly with $\xi$. To check property (1): observe first that if $m_t$ is a path of Euclidean structures on $\mathbf{R}^4$ with $m_0$ the standard one, then for $\omega \in \Lambda^2\mathbf{R}^4$,
 
 $$
 \frac {d}{d t} \left| \omega - * _ {m _ {t}} \omega \right| \leqslant \text { const. } | \omega | \left| \pi \left(\frac {d m}{d t}\right) \right|,
@@ -1013,13 +1013,13 @@ $$
 where  $\pi$  is the projection onto the “trace free” part. Hence on X,
 
 $$
-\frac {d}{d t} \left| F _ {-} \left(f _ {t} (A) \right| \leqslant \text { const. } \left| F (A) \right| \left| \pi \mathscr{L} _ {V} m \right|. \right.
+\frac {d}{d t} \left| F _ {-} \left(f _ {t} (A) \right) \right| \leqslant \text { const. } \left| F (A) \right| \left| \pi \mathfrak{L} _ {v} m \right|.
 $$
 
-(All derivatives $\frac{d}{dt}$ in this proof are to be understood as being evaluated at $t = 0$; $\mathscr{L}_V$ is the Lie derivative.) Furthermore, one easily sees that, because $x^i$ are geodesic and so $f_t$ approximately conformal,
+(All derivatives $\frac{d}{dt}$ in this proof are to be understood as being evaluated at $t = 0$; $\mathfrak{L}_v$ is the Lie derivative.) Furthermore, one easily sees that, because $x^i$ are geodesic and so $f_t$ approximately conformal,
 
 $$
-\left| \pi \mathscr{L} _ {V} m \right| \leqslant \text { const. } \rho | \xi |, \quad 0 \leqslant \rho \leqslant r / 2
+\left| \pi \mathfrak{L} _ {v} m \right| \leqslant \text { const. } \rho | \xi |, \quad 0 \leqslant \rho \leqslant r / 2
 $$
 
 where the left-hand side is evaluated at $x \in X$, and $\rho = d(x, x(A))$. Scaling down the bounds of Theorem 16 with $\delta = 1$ we have
@@ -1068,13 +1068,13 @@ and, property (1) is satisfied once $\lambda = \lambda(A)$ is sufficiently small
 
 ## III.4. The proof that $p$ is a diffeomorphism
 
-To prove that $p \colon \mathscr{M}_{\lambda_0} \to X \times (0, \lambda_0)$ is a diffeomorphism, it suffices now to show that if we pick some point $x_0$ in $X$, then for $\lambda_0$ sufficiently small any pair $[A], [B] \in \mathscr{M}_{\lambda_0}$ of self-dual connections with
+To prove that $p \colon \mathfrak{M}_{\lambda_0} \to X \times (0, \lambda_0)$ is a diffeomorphism, it suffices now to show that if we pick some point $x_0$ in $X$, then for $\lambda_0$ sufficiently small any pair $[A], [B] \in \mathfrak{M}_{\lambda_0}$ of self-dual connections with
 
 $$
 x (A) = x (B) = x _ {0}, \lambda (A) = \lambda (B) = \lambda
 $$
 
-can be joined by a short path in $\mathscr{M}$ (in a sense made precise below). The metric on X has always been at our choice, and there is a small saving of labour here if we suppose it to be flat in some ball  $B(x_{0}, r)$ —although this does not, of course, affect the truth of the result as one easily sees by deformation.
+can be joined by a short path in $\mathfrak{M}$ (in a sense made precise below). The metric on X has always been at our choice, and there is a small saving of labour here if we suppose it to be flat in some ball  $B(x_{0}, r)$ —although this does not, of course, affect the truth of the result as one easily sees by deformation.
 
 First we note a small lemma.
 
@@ -1119,13 +1119,13 @@ since in this case we may take $\delta = 0$ in Theorem 16. Thus we may conformal
 Theorem 21. (i) If $A_{1}$ be the restriction of the connection $A$ to $X \setminus B(x_0, \sqrt{\lambda})$, then after a suitable bundle automorphism
 
 $$
-\left\| A _ {1} - \theta \right\| _ {L _ {1} ^ {p} (\theta)} \leqslant \text { const. } \lambda^ {2 / p}, \quad p > 1.
+\left\| A _ {1} - \theta \right\| _ {L ^ {p} (\theta)} \leqslant \text { const. } \lambda^ {2 / p}, \quad p > 1.
 $$
 
 (ii) Similarly, after a suitable bundle automorphism,
 
 $$
-\left\| A ^ {\prime} - I _ {0, 1} ^ {\prime} \right\| _ {L _ {1} ^ {p} (I _ {0, 1} ^ {\prime})} \leqslant \text { const. } \lambda^ {4 / p}, \quad p \geqslant 2.
+\left\| A ^ {\prime} - I _ {0, 1} ^ {\prime} \right\| _ {L ^ {p} (I _ {0, 1} ^ {\prime})} \leqslant \text { const. } \lambda^ {4 / p}, \quad p \geqslant 2.
 $$
 
 Proof. (i) By Theorem 16 (ii), scaled down:
@@ -1174,7 +1174,7 @@ $$
 
 where $s =$ Scalar curvature of $S^4 > 0$.
 
-So this time we get $\| A' - I_{y,\nu}'\|_{L_p} \leqslant \text{const.} \lambda^{4/p}$ for some $y, \nu$. Now in general, if $A, A + a$ are connections, then
+So this time we get $\| A' - I_{y,v}'\|_{L^p} \leqslant \text{const.} \lambda^{4/p}$ for some $y, v$. Now in general, if $A, A + a$ are connections, then
 
 $$
 F (A + a) = F (A) + d _ {A} a + \frac {1}{2} [ a, a ]
@@ -1189,18 +1189,18 @@ $$
 and in dimension 4, $L_1^2 (A)\hookrightarrow L^4$ with embedding constant independent of $A$ [18, Lemma 5.2]. Thus in our case,
 
 $$
-\left\| F (A ^ {\prime}) - F \big (I _ {y, \nu} ^ {\prime} \big) \right\| _ {L ^ {2}} \leqslant \mathrm{const.} \lambda^ {2},
+\left\| F (A ^ {\prime}) - F \big (I _ {y, v} ^ {\prime} \big) \right\| _ {L ^ {2}} \leqslant \mathrm{const.} \lambda^ {2},
 $$
 
-from which one easily sees, by the normalisation $\lambda(\hat{A}) = 1$, $x(\hat{A}) = 0$, that $|y| + |\nu - 1| \leqslant \text{const.}\lambda^2$, so
+from which one easily sees, by the normalisation $\lambda(\hat{A}) = 1$, $x(\hat{A}) = 0$, that $|y| + |v - 1| \leqslant \text{const.}\lambda^2$, so
 
 $$
-\left\| A ^ {\prime} - I _ {0, 1} ^ {\prime} \right\| _ {L _ {1} ^ {p} (A ^ {\prime})} \leqslant \text { const. } \lambda^ {4 / p}, p \geqslant 2.
+\left\| A ^ {\prime} - I _ {0, 1} ^ {\prime} \right\| _ {L ^ {p} (A ^ {\prime})} \leqslant \text { const. } \lambda^ {4 / p}, p \geqslant 2.
 $$
 
 The bounds (i), (ii) of Theorem 21 will also, of course, be satisfied by the connection B. Thus to complete the proof of Theorem 11 we have to use these to show that A and B can be joined, after suitable bundle automorphism, by a path in Q which is short enough to project onto the moduli space. This is slightly easier to write down if we use a small modification of Proposition 5.
 
-Proposition 22. Let A be any self-dual connection on P, there are constants C, ε, depending only upon the first eigenvalue μ(A) and the metric on X, such that if b ∈ Ω¹(g) and
+Proposition 22. Let A be any self-dual connection on P, there are constants C, ε, depending only upon the first eigenvalue μ(A) and the metric on X, such that if b ∈ Ω¹(\mathfrak{g}) and
 
 $$
 \delta (A, b) = \left\| \nabla_ {A} b \right\| _ {L ^ {2}} + \left\| b \right\| _ {L ^ {2}} \left\| F (A) \right\| _ {L ^ {4}} <   \varepsilon ,
@@ -1230,7 +1230,7 @@ $$
 
 So, if $\lambda$ is much less than $\lambda_0$, $A(t)$ stays in $\mathfrak{M}_{\lambda_0}$, and $x(A(t))$ is close to $x_0$. Hence $[A]$, $[B]$ are in the same local component of the covering and so equal.
 
-On the other hand  $M_{\lambda_{0}}$  is not empty. By Taubes construction there are self-dual connections on X with  $\lambda(A)$  arbitrarily small, which one may see by estimating the curvature density of the solutions in [18], in the manner above.
+On the other hand  $\mathfrak{M}_{\lambda_0}$  is not empty. By Taubes construction there are self-dual connections on X with  $\lambda(A)$  arbitrarily small, which one may see by estimating the curvature density of the solutions in [18], in the manner above.
 
 Proof of Lemma 23. We proceed in three stages, corresponding to the three regions $X \setminus B(x_0, \sqrt{\lambda})$, $B(x_0, 2\sqrt{\lambda})$ and $W = B(x_0, 2\sqrt{\lambda}) \setminus B(x_0, \sqrt{\lambda})$.
 
@@ -1430,13 +1430,13 @@ If, more generally, the metric  $\hat{m}$  is curved, then we can work the same 
 
 [13] T. Parker, Gauge theories on 4-dimensional Riemannian manifolds, Comm. Math. Phys. 85 (1982) 563–602.
 
-[14] J. Saks & K. K. Uhlenbeck, On the existence of minimal immersions of 2-spheres, Ann. of Math. 113 (1982) 1-24.
+[14] J. Saks & K. K. Uhlenbeck, On the existence of minimal immersions of 2-spheres, Ann. of Math. 113 (1982) 1–24.
 
 [15] S. Sedlacek, A direct method for minimising the Yang-Mills functional, Comm. Math. Phys. 86 (1982) 515–528.
 
 [16] J. P. Serre, A course in arithmetic, Springer, Berlin, 1973.
 
-[17] S. Smale, An infinite dimensional version of Sard's theorem, Amer. J. Math. 87 (1965) 861-866.
+[17] S. Smale, An infinite dimensional version of Sard's theorem, Amer. J. Math. 87 (1965) 861–866.
 
 [18] C. H. Taubes, Self-dual connections on non-self-dual 4-manifolds, J. Differential Geometry 17 (1982) 139–170.
 
