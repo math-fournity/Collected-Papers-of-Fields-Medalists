@@ -204,7 +204,7 @@ $$
 
 One immediately finds that$Z ( N , M , \underline { { \tau } } , \overline { { \tau } } ) = V _ { N } ^ { M } ( \underline { { \tau } } , \overline { { \tau } } )$. Other quantities of the model may be written in terms of transfer matrices: for instance the partition function of the model on the $d$-dimensional torus$( \mathbb { Z } / N \mathbb { Z } ) ^ { d }$becomes the trace of$V _ { N } ^ { N }$
 
-One important aspect of those transfer matrices$V _ { N }$is that certain questions on the behaviour of the model are rephrased as spectral questions on the transfer matrix. For instance, by letting $M$ and then $N$ go to infinity, one observes that the asymptotic behaviour of the partition function on$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times ( \mathbb { Z } / M \mathbb { Z } )$, and therefore the value of the free energy, are connected to the asymptotic behaviour of the leading eigenvalue of$V _ { N }$as $M$ tends to infinity. This can very well be an intractable problem, but in some cases it is not.
+One important aspect of those transfer matrices$V _ { N }$is that certain questions on the behaviour of the model are rephrased as spectral questions on the transfer matrix. For instance, by letting $M$ and then $N$ go to infinity, one observes that the asymptotic behaviour of the partition function on$( \mathbb { Z } / N \mathbb { Z } ) ^ { d - 1 } \times ( \mathbb { Z } / M \mathbb { Z } )$, and therefore the value of the free energy, are connected to the asymptotic behaviour of the leading eigenvalue of$V _ { N }$as $N$ tends to infinity. This can very well be an intractable problem, but in some cases it is not.
 
 ## 3.2. Onsager’s result
 
@@ -236,29 +236,29 @@ $$
 
 In the forties and fifties, these successes were considered by physicists as a mathematical curiosity rather than a truly crucial advance. Yet, they had a revolutionary impact on theoretical physics for multiple reasons: First, the level of sophistication of the mathematical tools used in the proofs is without any common measure with what was previously used in such kinds of problems, and these techniques created whole new types of mathematical physics. Second, the behaviour of the model did not correspond to previous mean-field approximations, thus invalidating rigorously the Curie-Weiss or Landau theories and open-ing a new era in statistical mechanics. Third, the results had many direct applications for the Ising model itself: for instance the specific heat$C ( \beta )$can easily be shown to blow up logarithmically as$\beta$approaches$\scriptstyle { \frac { 1 } { 2 } } \log ( 1 + { \sqrt { 2 } } )$, thus confirming rigorously that this value is the critical point of the system (the logarithmic blow up is one example of non mean-field behaviour).
 
-Numerous alternatives have been proposed to the approach of Onsager-Kaufman-Yang, often referred to as the algebraic method. As a joke, Baxter and Enting named their 1978 paper [10], introducing a solution to the 2D Ising model involving the notion of startriangle transformation, the "399th solution of the Ising model". This count is, of course, overestimated, but one can list a large number of alternative strategies.
+Numerous alternatives have been proposed to the approach of Onsager-Kaufman-Yang, often referred to as the algebraic method. As a joke, Baxter and Enting named their 1978 paper [10], introducing a solution to the 2D Ising model involving the notion of star-triangle transformation, the "399th solution of the Ising model". This count is, of course, overestimated, but one can list a large number of alternative strategies.
 
 The first such strategy is called the combinatorial approach and is referring to an original argument of Kac and Ward [71] rewriting the partition function of the model in terms of the square root of the determinants of so-called Kac-Ward’s matrices using a combinatorial expansion ofthe partition function generalising the van der Waerden high-temperature expansion [100]. The advantage of such an approach is that it does not rely on transfer matrices, and therefore is applicable to every finite planar graph, even with arbitrary nearest-neighbour coupling constants. Unfortunately, the original argument was not entirely rigorous and one had to wait until 1999 [33] to finally obtain a mathematical derivation ofthis approach. Nowadays, the method is very well understood and especially useful in relation to discrete holomorphicity and higher genus graphs, see [29] and references therein for a more complete account.
 
-The (nowadays) most classical method is probably the Pfafian method. It came as an attempt to go around the substantial dificulties to make the combinatorial approach rigorous. Due to Hurst and Green [66], Kasteleyn [75], and Fisher [46], the strategy consists in writing the Ising partition function on a finite planar graph $G$ in terms of the dimer (a dimer configuration is a subset of edges which covers every vertex exactly once) partition function on a related graph $K(G)$ (the precise definition of the graph depends on the implementation of the Pfafian method). It is then possible to relate the partition function to a skew-symmetric adjacency matrix and express the partition as a Pfafian, hence the name of the method. This strategy has been the basis of a number of more refined results about the model, in particular the computation of the spin-spin correlations of the model at and away from criticality. For the deepest and most impressive results, we recommend that the reader takes a look at the two books of McCoy-Wu [83] and Palmer [89].
+The (nowadays) most classical method is probably the Pfaffian method. It came as an attempt to go around the substantial difficulties to make the combinatorial approach rigorous. Due to Hurst and Green [66], Kasteleyn [75], and Fisher [46], the strategy consists in writing the Ising partition function on a finite planar graph $G$ in terms of the dimer (a dimer configuration is a subset of edges which covers every vertex exactly once) partition function on a related graph $K(G)$ (the precise definition of the graph depends on the implementation of the Pfaffian method). It is then possible to relate the partition function to a skew-symmetric adjacency matrix and express the partition as a Pfaffian, hence the name of the method. This strategy has been the basis of a number of more refined results about the model, in particular the computation of the spin-spin correlations of the model at and away from criticality. For the deepest and most impressive results, we recommend that the reader takes a look at the two books of McCoy-Wu [83] and Palmer [89].
 
-Another approach of importance was proposed by Schultz-Mattis-Lieb in [95] to tackle the cases for which a transfer matrix can be used. In this paper, they connected the transfer matrix with the exponential of a quantum hamiltonian. This connection to 1D quantum spin chains has been very fruitful and understood in a number of alternative ways since then. As a byproduct, the authors were able to express the partition function as a Grassmann "Gaussian" integral. The advantage of this way of writing the partition function is that the Pfafians emerge naturally. This approach is at the basis of renormalisation schemes in two dimensions; see Section 8.3.
+Another approach of importance was proposed by Schultz-Mattis-Lieb in [95] to tackle the cases for which a transfer matrix can be used. In this paper, they connected the transfer matrix with the exponential of a quantum hamiltonian. This connection to 1D quantum spin chains has been very fruitful and understood in a number of alternative ways since then. As a byproduct, the authors were able to express the partition function as a Grassmann "Gaussian" integral. The advantage of this way of writing the partition function is that the Pfaffians emerge naturally. This approach is at the basis of renormalisation schemes in two dimensions; see Section 8.3.
 
-Yet another approach dealing with the context in which transfer matrices can be applied is worth mentioning, as it is by far the most generalisable to other models. It is based on the commutation of the transfer matrices attached to the model with diferent critical parameters. Pioneered by Rodney Baxter, this approach consists in using the so-called Yang-Baxter equation. The advantage is that the same strategy can be applied to a very large variety of integrable systems, such as the six-vertex model, to cite only one example. We refer to [9] and references therein for more details.
+Yet another approach dealing with the context in which transfer matrices can be applied is worth mentioning, as it is by far the most generalisable to other models. It is based on the commutation of the transfer matrices attached to the model with different critical parameters. Pioneered by Rodney Baxter, this approach consists in using the so-called Yang-Baxter equation. The advantage is that the same strategy can be applied to a very large variety of integrable systems, such as the six-vertex model, to cite only one example. We refer to [9] and references therein for more details.
 
 ## 4. The fifties and sixties: the Ising model becomes a laboratory for understanding critical phenomena
 
 The fifties and sixties were probably the decades during which the Ising model became an "unavoidable" model. The realisation that having a tractable model of statistical physics could be a useful explanatory but also predicting tool became more and more obvious. The Ising model, with Onsager’s solution, was a prime example of a model with such qualities.
 
-The model therefore developed tremendously in the postwar era in theoretical physics as well as in a rapidly growing field called mathematical physics. The latter gathered more and more physicists that were interested in rigorous aspects of the objects they studied, and mathematicians willing to study problems that were naturally emerging from physical modelling. The Ising model ofered a wonderful playground for such scientists, and the number of papers mentioning the model started to be counted in the hundreds.
+The model therefore developed tremendously in the postwar era in theoretical physics as well as in a rapidly growing field called mathematical physics. The latter gathered more and more physicists that were interested in rigorous aspects of the objects they studied, and mathematicians willing to study problems that were naturally emerging from physical modelling. The Ising model offered a wonderful playground for such scientists, and the number of papers mentioning the model started to be counted in the hundreds.
 
 ## 4.1. Progress in mathematical physics: from perturbative regions of the phase diagram to the vicinity of the critical point
 
-During this period, the newly developing community of mathematical physicists recognised that the study of phase transitions, and in particular of the critical phase (when$\beta$ is equal to$\beta _ { c } )$, was a vast field of its own. While the previous developments mostly concerned values of$\beta$and ℎ that were far from the critical regime (Peierls’ argument [90] or Baker’s use of Padé approximant [8] for instance), the situation changed drastically around the fifties. The interest in the intermediate values of$\beta$became stronger and stronger. Onsager’s solution ofers a precise understanding of the critical behaviour of the 2D Ising model, yet it has clear downsides related to the relative fragility of the integrability of the system. As a consequence, mathematical physicists started using the Ising model not only as a solvable system, but more generally as a good mathematical model that one should not reduce to its integrability aspects. New rigorous techniques emerged during this period to try to understand the vicinity of the critical point for non-integrable cases, for instance in higher dimensions.
+During this period, the newly developing community of mathematical physicists recognised that the study of phase transitions, and in particular of the critical phase (when$\beta$ is equal to$\beta _ { c } )$, was a vast field of its own. While the previous developments mostly concerned values of$\beta$and ℎ that were far from the critical regime (Peierls’ argument [90] or Baker’s use of Padé approximant [8] for instance), the situation changed drastically around the fifties. The interest in the intermediate values of$\beta$became stronger and stronger. Onsager’s solution offers a precise understanding of the critical behaviour of the 2D Ising model, yet it has clear downsides related to the relative fragility of the integrability of the system. As a consequence, mathematical physicists started using the Ising model not only as a solvable system, but more generally as a good mathematical model that one should not reduce to its integrability aspects. New rigorous techniques emerged during this period to try to understand the vicinity of the critical point for non-integrable cases, for instance in higher dimensions.
 
 ## 4.1.1. Correlation inequalities
 
-It is natural to ask which monotonicity properties are satisfied by the system, in par ticular by the spin-spin correlations$\langle \sigma _ { A } \rangle _ { G , \beta , h }$where$\sigma _ { A } : = \Pi _ { x \in A } \sigma _ { x }$, when the parameter vary (for instance,$G , \beta$or ℎ).
+It is natural to ask which monotonicity properties are satisfied by the system, in particular by the spin-spin correlations$\langle \sigma _ { A } \rangle _ { G , \beta , h }$where$\sigma _ { A } : = \Pi _ { x \in A } \sigma _ { x }$, when the parameters vary (for instance,$G , \beta$or ℎ).
 
 To tackle such questions, mathematical physicists started proving what we now call correlation inequalities using combinatorial arguments. Among the first such examples are Griffiths’ inequalities [57]: for every$\beta , h \ge 0$and every $A,B \subset V$
 
@@ -294,7 +294,7 @@ $$
 \langle \sigma_ {0} \sigma_ {x + y} \rangle \leq \langle \sigma_ {0} \sigma_ {x} \rangle .\tag{4.5}
 $$
 
-$\mathrm { F K G } ^ { \prime } \mathrm { s }$inequality [47]: for any increasing functions$f , g : \{ - 1 , 1 \} ^ { V } \to \mathbb { R }$
+• $\mathrm { F K G } ^ { \prime } \mathrm { s }$inequality [47]: for any increasing functions$f , g : \{ - 1 , 1 \} ^ { V } \to \mathbb { R }$
 
 $$
 \langle f g \rangle \geq \langle f \rangle \langle g \rangle .\tag{4.6}
@@ -306,11 +306,11 @@ This far from exhaustive list, which we did not discuss in detail, is intended t
 
 While studying the whole phase diagram is a Herculean task that was far beyond the techniques developed at the time, a beautiful development enabled mathematical physicists to understand the case$h \neq 0$
 
-The twin papers [81], referred to as the Lee-Yang theory, relate the regularity properties of the free energy (and therefore the location of singular points corresponding to places where a phase transition occurs) to the locus of the complex zeroes of the partition function $Z ( G , \beta , h )$when seen as a function of$h \in \mathbb { C }$. Beyond the result itself, the philosophy consisting in studying the complex zeroes of the partition function had a resounding efect on the field of mathematical physics. This can be put in parallel with the analysis of zeroes of the Riemann zeta function: one learns something about prime numbers by studying the zeroes of a generating-type function associated with them.
+The twin papers [81], referred to as the Lee-Yang theory, relate the regularity properties of the free energy (and therefore the location of singular points corresponding to places where a phase transition occurs) to the locus of the complex zeroes of the partition function $Z ( G , \beta , h )$when seen as a function of$h \in \mathbb { C }$. Beyond the result itself, the philosophy consisting in studying the complex zeroes of the partition function had a resounding effect on the field of mathematical physics. This can be put in parallel with the analysis of zeroes of the Riemann zeta function: one learns something about prime numbers by studying the zeroes of a generating-type function associated with them.
 
-The result of Lee and Yang is not restricted to the n.n.f. Ising model on$G \subset \mathbb { Z } ^ { d }$, but the latter gives an important application of it. In our context, let$Z ( G , \beta , \mathbf { h } ) \in \mathbb { C }$(for $\mathbf { h } = ( \mathbf { h } _ { x } : x \in V ) \in \mathbb { C } ^ { V } )$be the partition function defined as in (2.3) with the diference that the magnetic field is allowed to vary with the vertex, i.e. that the$\textstyle \sum _ { x \in V } h \sigma _ { x }$term of the Hamiltonian in (2.2) is replaced by$\textstyle \sum _ { x \in V } \mathbf { h } _ { x } \sigma _ { x }$. The result states that for this model, the zeroes of the function h$\mapsto Z ( G , \beta , \mathbf { h } )$are satisfying$\mathbf { R e } ( \mathbf { h } _ { x } ) = 0$for every$x \in V .$
+The result of Lee and Yang is not restricted to the n.n.f. Ising model on$G \subset \mathbb { Z } ^ { d }$, but the latter gives an important application of it. In our context, let$Z ( G , \beta , \mathbf { h } ) \in \mathbb { C }$(for $\mathbf { h } = ( \mathbf { h } _ { x } : x \in V ) \in \mathbb { C } ^ { V } )$be the partition function defined as in (2.3) with the difference that the magnetic field is allowed to vary with the vertex, i.e. that the$\textstyle \sum _ { x \in V } h \sigma _ { x }$term of the Hamiltonian in (2.2) is replaced by$\textstyle \sum _ { x \in V } \mathbf { h } _ { x } \sigma _ { x }$. The result states that for this model, the zeroes of the function h$\mapsto Z ( G , \beta , \mathbf { h } )$are satisfying$\mathrm { R e } ( \mathbf { h } _ { x } ) = 0$for every$x \in V .$
 
-As a consequence of this theorem, the free energy$f ( \beta , h )$(which we recall from (2.5) is expressed in terms of the limit of the logarithm of partition functions) is analytic as soon as$h \neq 0$. Other consequences follow, such as exponential decay of so-called truncated correlations of the system, as well as analyticity of the other thermodynamical quantities when the magnetic field is non-zero. Roughly put, the Lee-Yang theory enables to understand in full detail the part of the phase diagram corresponding to non-zero magnetic field
+As a consequence of this theorem, the free energy$f ( \beta , h )$(which we recall from (2.5) is expressed in terms of the limit of the logarithm of partition functions) is analytic as soon as$h \neq 0$. Other consequences follow, such as exponential decay of so-called truncated correlations of the system, as well as analyticity of the other thermodynamical quantities when the magnetic field is non-zero. Roughly put, the Lee-Yang theory enables to understand in full detail the part of the phase diagram corresponding to non-zero magnetic field.
 
 ## 4.2. Revolutionary progress on the physics front
 
@@ -326,39 +326,39 @@ $$
 
 (notice that$\boldsymbol{\beta}$and$\beta$have nothing to do with each other), where$o ( 1 )$is a quantity tending to 0 as$\beta$tends to$\beta _ { c }$, ℎ tends to 0, or |x| tends to infinity, respectively. In fact, a whole family of such exponents, denoted by$\boldsymbol{\alpha}, \boldsymbol{\beta}, \boldsymbol{\gamma}, \boldsymbol{\delta}, \boldsymbol{\eta}, \boldsymbol{\nu}$(for the most classical ones) can be defined for each model. Understanding the phase transition boils down to, among other things, deriving those exponents.
 
-Dealing with such exponents, one may naturally wonder how many degrees of freedom truly exist in statistical physics models. For instance, could some of these critical exponents be connected via direct relations that would transcend the precise definition of each model? In the sixties, physicists such as Essam, Fisher, and Widom himself, to cite only those three (see [42, 45, 102] for some early works on the subject), started unraveling system atic connections between the exponents, thus hinting towards the fact that only two degrees of freedom exist and that exponents are related by so-called scaling relations
+Dealing with such exponents, one may naturally wonder how many degrees of freedom truly exist in statistical physics models. For instance, could some of these critical exponents be connected via direct relations that would transcend the precise definition of each model? In the sixties, physicists such as Essam, Fisher, and Widom himself, to cite only those three (see [42, 45, 102] for some early works on the subject), started unraveling systematic connections between the exponents, thus hinting towards the fact that only two degrees of freedom exist and that exponents are related by so-called scaling relations
 
 $$
 \boldsymbol{\nu} d = 2 - \boldsymbol{\alpha} = 2 \boldsymbol{\beta} + \boldsymbol{\gamma} = \boldsymbol{\beta} (\boldsymbol{\delta} + 1) = \boldsymbol{\gamma} \frac {\boldsymbol{\delta} + 1}{\boldsymbol{\delta} - 1} \quad 2 - \boldsymbol{\eta} = \frac {\boldsymbol{\gamma}}{\boldsymbol{\nu}} = d \frac {\boldsymbol{\delta} - 1}{\boldsymbol{\delta} + 1}.\tag{4.8}
 $$
 
-The scaling relations apply in a context which is far more general than just the Ising model (see for instance [38] for a proof in the case of a large family of two-dimensional percolation models). In the course of discovering these diferent scaling relations, the Ising model in two and three dimensions played the important role of a sanity check. While other experimental systems were used as testing grounds, the Ising model was the only example of a theoretical system which did not exhibit mean-field behaviour (and therefore was not too “trivial”) and for which such exponents were available, either rigorously thanks to the exact solution in 2D, or approximately thanks to Baker’s use of Padé approximant [8] in 3D.
+The scaling relations apply in a context which is far more general than just the Ising model (see for instance [38] for a proof in the case of a large family of two-dimensional percolation models). In the course of discovering these different scaling relations, the Ising model in two and three dimensions played the important role of a sanity check. While other experimental systems were used as testing grounds, the Ising model was the only example of a theoretical system which did not exhibit mean-field behaviour (and therefore was not too “trivial”) and for which such exponents were available, either rigorously thanks to the exact solution in 2D, or approximately thanks to Baker’s use of Padé approximant [8] in 3D.
 
-To conclude this section, let us mention an important quantity, called the correlation length$\xi ( \beta )$of the system, that plays an important role in the scaling hypothesis (it corresponds to the exponent $\nu$). We consider the case$\beta < \beta _ { c }$but a similar notion can be introduced for$\beta > \beta _ { c }$, with analogous interpretations.
+To conclude this section, let us mention an important quantity, called the correlation length$\xi ( \beta )$of the system, that plays an important role in the scaling hypothesis (it corresponds to the exponent $\boldsymbol{\nu}$). We consider the case$\beta < \beta _ { c }$but a similar notion can be introduced for$\beta > \beta _ { c }$, with analogous interpretations.
 
-When considering, say, spin-spin correlations at criticality, one expects an algebraic decay as mentioned in (4.7). Yet, when$\beta < \beta _ { c }$, the scaling hypothesis cannot hold uniformly in$| x |$and such a decay does not occur. In fact, it was found in many systems that spin-spin correlations decay exponentially fast (see Section 7.1 for more details) and the inverse-rate of decay is the correlation length$\xi ( \beta )$. This correlation length has an interesting interpretation: it is the smallest scale at which the system with$\beta < \beta _ { c }$is off-critical, meaning that when looking at a system with a size which is much smaller than$\xi ( \beta )$, the diference between the system and a critical system will be invisible to the physicist’s eye, while on the contrary when the size is much larger than$\xi ( \beta )$, the model looks similar to the case of$\beta \ll \beta _ { c }$. In other words, when approaching the critical point, a system becomes more and more “critical”. By how much this is true depends on the size of the system, and the correlation length separates between the sizes at which the system looks critical, and the sizes at which it looks clearly non critical.
+When considering, say, spin-spin correlations at criticality, one expects an algebraic decay as mentioned in (4.7). Yet, when$\beta < \beta _ { c }$, the scaling hypothesis cannot hold uniformly in$| x |$and such a decay does not occur. In fact, it was found in many systems that spin-spin correlations decay exponentially fast (see Section 7.1 for more details) and the inverse-rate of decay is the correlation length$\xi ( \beta )$. This correlation length has an interesting interpretation: it is the smallest scale at which the system with$\beta < \beta _ { c }$is off-critical, meaning that when looking at a system with a size which is much smaller than$\xi ( \beta )$, the difference between the system and a critical system will be invisible to the physicist’s eye, while on the contrary when the size is much larger than$\xi ( \beta )$, the model looks similar to the case of$\beta \ll \beta _ { c }$. In other words, when approaching the critical point, a system becomes more and more “critical”. By how much this is true depends on the size of the system, and the correlation length separates between the sizes at which the system looks critical, and the sizes at which it looks clearly non critical.
 
 ## 4.2.2. Kadanoff’s block-spin renormalisation and universality
 
-While Widom’s scaling hypothesis provides compelling evidence that critical exponents exist, the underlying justification of the hypothesis itself remained slightly superficial until Russian physicist Leo Kadanoff provided an illuminating argument for it. In his famous 1966 paper [72], Kadanoff suggested that the block-spin renormalisation transformation – i.e. replacing a block of neighbouring sites by one site having a spin equal to the dominant spin in the block – corresponds to appropriately changing the scale and the parameter$\beta$and ℎ of the model. Assuming that iterating this procedure somehow converges suggests that the asymptotic properties of the system are described by a fixed point of a renormalisation map. As a result, one ends up with the scale invariance of the model. This argument, inspired by the study of the Ising model, turned out to be the basis of the monumental theory of the renormalisation group (RG) that was put in a general framework a few years later by Kenneth Wilson [104].
+While Widom’s scaling hypothesis provides compelling evidence that critical exponents exist, the underlying justification of the hypothesis itself remained slightly superficial until Russian physicist Leo Kadanoff provided an illuminating argument for it. In his famous 1966 paper [72], Kadanoff suggested that the block-spin renormalisation transformation – i.e. replacing a block of neighbouring sites by one site having a spin equal to the dominant spin in the block – corresponds to appropriately changing the scale and the parameters$\beta$and ℎ of the model. Assuming that iterating this procedure somehow converges suggests that the asymptotic properties of the system are described by a fixed point of a renormalisation map. As a result, one ends up with the scale invariance of the model. This argument, inspired by the study of the Ising model, turned out to be the basis of the monumental theory of the renormalisation group (RG) that was put in a general framework a few years later by Kenneth Wilson [104].
 
-The block-spin argument of Kadanoff achieved much more than a physical justification of the scaling hypothesis. Assuming uniqueness of the fixed point also implies that the renormalisation of Ising models defined on diferent $d$-dimensional lattices should converge to the same fixed point, and therefore share the same critical exponents. This was already partially realised in 2D by observing the Ising model on the square, hexagonal, and triangular lattices (they are all exactly solvable) as well as in 3D by approximations using series expansions [34], but the renormalisation argument suggests that the few examples of equalities between exponents are, in fact, the illustration of a much more general phenomenon.
+The block-spin argument of Kadanoff achieved much more than a physical justification of the scaling hypothesis. Assuming uniqueness of the fixed point also implies that the renormalisation of Ising models defined on different $d$-dimensional lattices should converge to the same fixed point, and therefore share the same critical exponents. This was already partially realised in 2D by observing the Ising model on the square, hexagonal, and triangular lattices (they are all exactly solvable) as well as in 3D by approximations using series expansions [34], but the renormalisation argument suggests that the few examples of equalities between exponents are, in fact, the illustration of a much more general phenomenon.
 
 What is now known as the universality hypothesis was explicitly formulated in parallel by Robert B. Griffiths and Kadanoff in 1971 [58,73]. Roughly speaking, it states that the critical properties of a physical system only depend on
 
 • the lattice dimension $d$;
 
-• the symmetry of the space of possible spins (Z/2Z symmetry for Ising);
+• the symmetry of the space of possible spins ($\mathbb { Z }/2\mathbb { Z }$ symmetry for Ising);
 
-• the speed of decay of coupling constants (this is only relevant when the$J _ { x , y }$are allowed to decay polynomially with$\| x - y \|$, which is not the case in this text).
+• the speed of decay of coupling constants (this is only relevant when the $\boldsymbol { J } _ { x , y }$ are allowed to decay polynomially with $\| x - y \|$, which is not the case in this text).
 
-This realisation of universality is fundamental to the relevance of statistical physics as a whole. To borrow from Kadanoff’s wording: “Why study a simplified model like the Ising model? The strategy ofstudyingphysical questions by using highly simplified models is made rewarding by a characteristic ofphysical systems called “universality”, in that many systems may show the very same qualitativefeatures, and sometimes even the same quantitative ones. To study a given qualitativefeature, it often pays to lookfor the simplest possible example.”
+This realisation of universality is fundamental to the relevance of statistical physics as a whole. To borrow from Kadanoff’s wording: “Why study a simplified model like the Ising model? The strategy of studying physical questions by using highly simplified models is made rewarding by a characteristic of physical systems called “universality”, in that many systems may show the very same qualitative features, and sometimes even the same quantitative ones. To study a given qualitative feature, it often pays to look for the simplest possible example.”
 
-To summarise Section 4, by the end of the sixties it became clear to mathematical physicists and theoretical physicists that the Ising model was one of the most striking examples of a simple physical system which was rich enough to grasp a large variety of phenomena falling in the range of statistical physics. Results on the Ising model started to play a role similar to experimental results in the sense that they could corroborate$^ { \mathrm { o r , } }$on the contrary, invalidate the embryo of a theory. It is fair to say that the importance of the model was never argued upon later on and that it was finally recognised as one of the centerpieces of modern statistical physics.
+To summarise Section 4, by the end of the sixties it became clear to mathematical physicists and theoretical physicists that the Ising model was one of the most striking examples of a simple physical system which was rich enough to grasp a large variety of phenomena falling in the range of statistical physics. Results on the Ising model started to play a role similar to experimental results in the sense that they could corroborate or, on the contrary, invalidate the embryo of a theory. It is fair to say that the importance of the model was never argued upon later on and that it was finally recognised as one of the centerpieces of modern statistical physics.
 
 ## 5. The sixties and seventies: emergence of the probabilistic interpretation
 
-Physicists and mathematical physicists think of the quantity$\langle \cdot \rangle _ { G , \beta , h }$as a form attributing to each function$X : \{ - 1 , 1 \} ^ { V } \to \mathbb { R }$(resp. C) a value in$\mathbb { R }$(resp. C). In the late sixties and seventies, the rise of probabilistic methods led to an alternative interpretation of the Ising model in which$\langle \cdot \rangle _ { G , \beta , h }$is now understood as (dual to) a probability measure$\mu _ { G , \beta , h }$. As a consequence of this reinterpretation, it becomes natural to ask what the properties of a randomly chosen spin configuration are, and what the possible measures on the infinite lattice that can be obtained as limits of measures in finite volume are.
+Physicists and mathematical physicists think of the quantity$\langle \cdot \rangle _ { G , \beta , h }$as a form attributing to each function$X : \{ - 1 , 1 \} ^ { V } \to \mathbb { R }$(resp. $\mathbb { C }$) a value in$\mathbb { R }$(resp. $\mathbb { C }$). In the late sixties and seventies, the rise of probabilistic methods led to an alternative interpretation of the Ising model in which$\langle \cdot \rangle _ { G , \beta , h }$is now understood as (dual to) a probability measure$\mu _ { G , \beta , h }$. As a consequence of this reinterpretation, it becomes natural to ask what the properties of a randomly chosen spin configuration are, and what the possible measures on the infinite lattice that can be obtained as limits of measures in finite volume are.
 
 ## 5.1. The random geometry of the spin configuration
 
@@ -372,11 +372,11 @@ Then, quantities like$\langle \sigma _ { A } \rangle _ { G , \beta , h }$can be 
 
 Let us assume for a moment that$h = 0$and interpret the phase transition in terms of probability. The structure of the probability measure is such that configurations have greater probability if they have more pairs of neighbours with a similar spin. In this interpretation, the larger$\beta$is the more important it is that neighbours have the same spins. In particular, in the limit as$\beta$tends to infinity, one ends up with one of the two configurations where all spins are the same. It becomes then natural to expect that for$\beta$large, typical configurations have an excess of one spin compared to the other. On the other hand, when$\beta$is very small, how much the measure takes the agreements into account is fairly limited, and one may expect that spins behave roughly independently, at least at large distance of each other.
 
-The interpretation in terms of random variables opens new uncharted territories: one can interpret probabilistically natural thermodynamical quantities such as magnetisation (which corresponds to the expectation ofthe spin at a vertex) or surface tension. It also opens a way to new problems, such as dynamics on the space ofspin configurations or large deviations (for instance for an Ising model at an inverse-temperature$\beta ,$, but with an excess of +1 spins in a region and of −1 spins in another); see Frame 3.
+The interpretation in terms of random variables opens new uncharted territories: one can interpret probabilistically natural thermodynamical quantities such as magnetisation (which corresponds to the expectation of the spin at a vertex) or surface tension. It also opens a way to new problems, such as dynamics on the space of spin configurations or large deviations (for instance for an Ising model at an inverse-temperature$\beta$, but with an excess of +1 spins in a region and of −1 spins in another); see Frame 3.
 
 ## Frame 3: sampling the Ising model – Glauber dynamics
 
-The probabilistic interpretation naturally raises the question of sampling ran dom configurations according to$\mu _ { G , \beta , 0 }$(set$h = 0$for simplicity). A classical method consists in expressing the measure as the invariant measure of a Markovian dynamics $( \sigma ( t ) : t \geq 0 ) \in ( \{ - 1 , 1 \} ^ { V } ) ^ { \mathbb { R } _ { + } }$, called the Glauber dynamics and defined as follows: attach an exponential clock to each vertex of $G$. Each time a clock rings, say at time $t$ at$x \in V$,
+The probabilistic interpretation naturally raises the question of sampling random configurations according to$\mu _ { G , \beta , 0 }$(set$h = 0$for simplicity). A classical method consists in expressing the measure as the invariant measure of a Markovian dynamics $( \sigma ( t ) : t \geq 0 ) \in ( \{ - 1 , 1 \} ^ { V } ) ^ { \mathbb { R } _ { + } }$, called the Glauber dynamics and defined as follows: attach an exponential clock to each vertex of $G$. Each time a clock rings, say at time $t$ at$x \in V$,
 
 • If$\begin{array} { r } { \sigma _ { x } ( t ) \sum _ { y : \{ x , y \} \in E } \sigma _ { y } ( t ) < 0 , } \end{array}$, switch the value of the spin at $x$,
 
@@ -384,13 +384,13 @@ The probabilistic interpretation naturally raises the question of sampling ran d
 
 Since$\mu _ { G , \beta , 0 }$is the only invariant measure for this dynamics, the limit as $t$ tends to infinity, irrespectively of the initial value$\sigma ( 0 )$, is sampled according to$\mu _ { G , \beta , h } .$
 
-This dynamics was named after the American physicist Roy J. Glauber. Alternative choices of dynamics are obtained by changing the jump probabilities. In Figure 2, three simulations of the Ising model are shown respectively below (on the left), at (in the middle) and above (on the right)$\beta _ { c }$
+This dynamics was named after the American physicist Roy J. Glauber. Alternative choices of dynamics are obtained by changing the jump probabilities. In Figure 2, three simulations of the Ising model are shown respectively below (on the left), at (in the middle) and above (on the right)$\beta _ { c }$.
 
 ## 5.2. Boundary conditions and the Gibbs formalism
 
-An important output ofthe probabilistic interpretation ofthe model is that it becomes natural to condition on spins in a subset of $V$. More precisely, let$W \subset V$and let $H$ be the graph with vertex-set $W$ and edge-set induced by the edges of the graph $G$. Let$\tau \in \{ - 1 , 1 \} ^ { V }$be a spin configuration on $G$. One may ask what is the law of the spins in $W$ when conditioning $\sigma$outside $W$ to be equal to $\tau$, i.e. what is$\mu _ { G , \beta , h } [ \cdot | \sigma _ { x } = \tau _ { x } , \forall x \notin W ] ?$
+An important output of the probabilistic interpretation of the model is that it becomes natural to condition on spins in a subset of $V$. More precisely, let$W \subset V$and let $H$ be the graph with vertex-set $W$ and edge-set induced by the edges of the graph $G$. Let$\tau \in \{ - 1 , 1 \} ^ { V }$be a spin configuration on $G$. One may ask what is the law of the spins in $W$ when conditioning $\sigma$outside $W$ to be equal to $\tau$, i.e. what is$\mu _ { G , \beta , h } [ \cdot | \sigma _ { x } = \tau _ { x } , \forall x \notin W ] ?$
 
-The answer to this question is best cast when introducing the notion of boundary conditions. For a subgraph $G$ of$\mathbb { Z } ^ { d }$and a configuration$\tau \in \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } }$, introduce the measur $\mu _ { G , \beta , h } ^ { \tau }$with $G$ boundary conditions defined like$\mu _ { G , \beta , h }$except that$H _ { G , h }$is replaced by
+The answer to this question is best cast when introducing the notion of boundary conditions. For a subgraph $G$ of$\mathbb { Z } ^ { d }$and a configuration$\tau \in \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } }$, introduce the measure $\mu _ { G , \beta , h } ^ { \tau }$with $\tau$ boundary conditions defined like$\mu _ { G , \beta , h }$except that$H _ { G , h }$is replaced by
 
 $$
 H _ {G, h} ^ {\tau} (\sigma) := H _ {G, h} (\sigma) - \sum_ {\{x, y \} \in E (\mathbb {Z} ^ {d}): x \in V, y \notin V} \sigma_ {x} \tau_ {y}.\tag{5.2}
@@ -406,7 +406,7 @@ $$
 
 In words, when conditioning the Ising model on$G$to coincide with a given configuration outside $W$, one gets the measure in $H$ with the corresponding boundary condition.
 
-This property ofers a natural consistency relation between measures$\mu _ { G , \beta , h } ^ { \tau }$for varying $\tau$ and $G$. As a byproduct, one is naturally led to postulate that any reasonable infinitevolume version of Ising measures should satisfy the same consistency relation. One therefore ends up with the following notion: a measure$\mu$on$( \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } } , \mathfrak { F } _ { \mathbb { Z } ^ { d } } )$is called a Gibbs measure of the Ising model with parameters$\beta$and ℎ if it satisfies the Dobrushin-Lanford-Ruelle (DLR) property: for every finite$V \subset \mathbb { Z } ^ { d }$and$\tau \in \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } }$
+This property offers a natural consistency relation between measures$\mu _ { G , \beta , h } ^ { \tau }$for varying $\tau$ and $G$. As a byproduct, one is naturally led to postulate that any reasonable infinite-volume version of Ising measures should satisfy the same consistency relation. One therefore ends up with the following notion: a measure$\mu$on$( \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } } , \mathfrak { F } _ { \mathbb { Z } ^ { d } } )$is called a Gibbs measure of the Ising model with parameters$\beta$and ℎ if it satisfies the Dobrushin-Lanford-Ruelle (DLR) property: for every finite$V \subset \mathbb { Z } ^ { d }$and$\tau \in \{ - 1 , 1 \} ^ { \mathbb { Z } ^ { d } }$
 
 $$
 \mu [ \cdot | \mathfrak {F} _ {\mathbb {Z} ^ {d} \backslash V} ] = \mu_ {G, \beta , h} ^ {\tau} [ \cdot ] \text {   on   } E _ {\tau} \mu \text {-almost   surely },\tag{5.4}
@@ -416,9 +416,9 @@ where
 
 •$G$is the graph induced by the vertex-set$V ;$
 
-•$E _ { \tau }$is the event that$\sigma$and $\tau$ agree on the exterior boundary of$G \mathrm { : }$;
+•$E _ { \tau }$is the event that$\sigma$and $\tau$ agree on the exterior boundary of $G$;
 
-${ \mathfrak { F } } _ { \mathbb { Z } ^ { d } \backslash V }$is the $\sigma$-algebra generated by the random variables$( \sigma _ { x } : x \notin V )$
+• ${ \mathfrak { F } } _ { \mathbb { Z } ^ { d } \backslash V }$is the $\sigma$-algebra generated by the random variables$( \sigma _ { x } : x \notin V )$.
 
 The notion of Gibbs measure is not restricted to the Ising model (see [52] for a book on the subject), but the classification of such Gibbs measures has been the object of intense study in the specific case of the Ising model, with a very successful outcome.
 
@@ -426,21 +426,21 @@ The first question that one may ask is the existence of Gibbs measures. At least
 
 In general, the set of possible Gibbs measures on$\mathbb { Z } ^ { d }$is a non-empty simplex whose extremal measures are called extremal states. One can therefore try to classify such extremal Gibbs measures.
 
-Some cases are quite simple to treat: for$h \neq 0$or$h = 0$and$\beta < \beta _ { c }$the simplex is reduced to a singleton, i.e. there exists a unique Gibbs measure. When$h = 0$and$\beta =$ $\beta _ { c }$, it was recently proved that this is also the case [5]. On the contrary, when$h = 0$and $\beta > \beta _ { c }$, things are more interesting. It was realised very early on that there may be more extremal states than the two obvious$\mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - } ,$, but examples that were found did not exhibit translation invariance. The most important such specimen was provided by Russian mathematical physicist Roland Dobrushin [31], who explained that in three dimensions, the measure$\mu _ { \beta , 0 } ^ { \mathrm { d o b r } }$obtained by taking the limit of measures$\mu _ { [ - n , n ] ^ { 3 } , \beta , 0 } ^ { \tau } ,$, where $\tau$ is all plus on the upper half-space, and all minus on the lower half-space, was not translation invariant in the vertical direction at high values of$\beta .$. The existence of these Dobrushin states is related to a very deep and still mysterious (at least on a mathematical level) phenomenon in 3D statistical physics often referred to as the roughening phase transition.
+Some cases are quite simple to treat: for$h \neq 0$or$h = 0$and$\beta < \beta _ { c }$the simplex is reduced to a singleton, i.e. there exists a unique Gibbs measure. When$h = 0$and$\beta =$ $\beta _ { c }$, it was recently proved that this is also the case [5]. On the contrary, when$h = 0$and $\beta > \beta _ { c }$, things are more interesting. It was realised very early on that there may be more extremal states than the two obvious$\mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$, but examples that were found did not exhibit translation invariance. The most important such specimen was provided by Russian mathematical physicist Roland Dobrushin [31], who explained that in three dimensions, the measure$\mu _ { \beta , 0 } ^ { \mathrm { d o b r } }$obtained by taking the limit of measures$\mu _ { [ - n , n ] ^ { 3 } , \beta , 0 } ^ { \tau }$, where $\tau$ is all plus on the upper half-space, and all minus on the lower half-space, was not translation invariant in the vertical direction at high values of $\beta$.. The existence of these Dobrushin states is related to a very deep and still mysterious (at least on a mathematical level) phenomenon in 3D statistical physics often referred to as the roughening phase transition.
 
-Leaving non-translation invariant measures aside, many eforts were made to prove that every translation invariant Gibbs state is a convex combination o$\dot { \mu } _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$. The first result in this direction proved a stronger statement that draws a direct link with the previous paragraph. In two dimensions, Aizenman [1] and Higuchi [64] proved in the eighties that every Gibbs state, not only translation invariant ones, is a mixture of$\mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$. In particular, $\begin{array} { r } { { \mu _ { \beta , 0 } } = \frac { 1 } { 2 } \mu _ { \beta , 0 } ^ { + } + \frac { 1 } { 2 } \mu _ { \beta , 0 } ^ { - } } \end{array}$. In higher dimensions, it took twenty more years to obtain the result for every translation invariant Gibbs measure. We refer to the historical proof of Bodineau [18] and to the recent generalisation of Raoufi [92].
+Leaving non-translation invariant measures aside, many efforts were made to prove that every translation invariant Gibbs state is a convex combination of $\mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$. The first result in this direction proved a stronger statement that draws a direct link with the previous paragraph. In two dimensions, Aizenman [1] and Higuchi [64] proved in the eighties that every Gibbs state, not only translation invariant ones, is a mixture of$\mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$. In particular, $\begin{array} { r } { { \mu _ { \beta , 0 } } = \frac { 1 } { 2 } \mu _ { \beta , 0 } ^ { + } + \frac { 1 } { 2 } \mu _ { \beta , 0 } ^ { - } } \end{array}$. In higher dimensions, it took twenty more years to obtain the result for every translation invariant Gibbs measure. We refer to the historical proof of Bodineau [18] and to the recent generalisation of Raoufi [92].
 
 ![](../audit/ICM2022_proceedings_Duminil-Copin_p020_Figure2.png)
 
 Figure 2
 
-On the left. Simulations at three diferent temperatures$( \beta < \beta _ { c } , \beta = \beta _ { c }$, and$\beta > \beta _ { c } )$) of the Ising model with plus boundary conditions on the top and minus boundary conditions on the bottom. Pluses are in gray and minuse in black. Credit: S. Smirnov. On the right. An example of a bubble of minuses in an environment of pluses at $\beta > \beta _ { c }$. Credit: Y. Velenik.
+On the left. Simulations at three different temperatures$( \beta < \beta _ { c } , \beta = \beta _ { c }$, and$\beta > \beta _ { c } )$ of the Ising model with plus boundary conditions on the top and minus boundary conditions on the bottom. Pluses are in gray and minuses in black. Credit: S. Smirnov. On the right. An example of a bubble of minuses in an environment of pluses at $\beta > \beta _ { c }$. Credit: Y. Velenik.
 
 ## 5.3. Phase coexistence and Wulff shape
 
-The classification of Gibbs states naturally raises the question of the coexistence of diferent so-called phases. When$h = 0$and$\beta > \beta _ { c } , \mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$are not equal: they correspond to two extremal states, sometimes referred to as the plus and minus phases. Now, what happens when one tries to “mix” the two states? For instance, how does it look if one asks that part of the space is in one state, and the other part is in the other one?
+The classification of Gibbs states naturally raises the question of the coexistence of different so-called phases. When$h = 0$and$\beta > \beta _ { c } , \mu _ { \beta , 0 } ^ { + }$and$\mu _ { \beta , 0 } ^ { - }$are not equal: they correspond to two extremal states, sometimes referred to as the plus and minus phases. Now, what happens when one tries to “mix” the two states? For instance, how does it look if one asks that part of the space is in one state, and the other part is in the other one?
 
-In 2D, an interface is created between the two phases (see Figure 2 for simulations at diferent temperatures). While it is not obvious to define such an object in general, let us consider the simple example of the Ising model on a finite box$[ - n , n ] ^ { 2 }$of the triangular lattice with plus spins on the part of the boundary above the $x$-axis, and minus spins on the rest of the boundary. In this case, one can draw a unique interface going from$( - n , 0 )$to $(n, 0)$ winding between pluses and minuses. It was understood heuristically early on that above criticality this interface should have the same fluctuations as Brownian motions, but it took decades to turn this intuition into a rigorous proof, first in the large$\beta$regime and then in the whole$\beta > \beta _ { c }$regime; see [56] and references therein. The techniques involved also enabled mathematicians to understand precise asymptotics of spin-spin correlations in the non-critical regimes. The theory, known under the coined name of Ornstein-Zernike theory, is now an area of intense research and spans over a large variety of statistical physics models. We refer to [23] for details on the Ising case.
+In 2D, an interface is created between the two phases (see Figure 2 for simulations at different temperatures). While it is not obvious to define such an object in general, let us consider the simple example of the Ising model on a finite box$[ - n , n ] ^ { 2 }$of the triangular lattice with plus spins on the part of the boundary above the $x$-axis, and minus spins on the rest of the boundary. In this case, one can draw a unique interface going from$( - n , 0 )$to $(n, 0)$ winding between pluses and minuses. It was understood heuristically early on that above criticality this interface should have the same fluctuations as Brownian motions, but it took decades to turn this intuition into a rigorous proof, first in the large$\beta$regime and then in the whole$\beta > \beta _ { c }$regime; see [56] and references therein. The techniques involved also enabled mathematicians to understand precise asymptotics of spin-spin correlations in the non-critical regimes. The theory, known under the coined name of Ornstein-Zernike theory, is now an area of intense research and spans over a large variety of statistical physics models. We refer to [23] for details on the Ising case.
 
 When conditioning on the neighbourhood of the origin to be in a plus phase inside a minus phase, one ends up with a “bubble” (see Figure 2 on the right) converging when taking larger and larger volume to the so-called Wulff shape. In 2D, this bubble was analysed in detail, see the book [32] and the article [67]. In 3D, the story is even more complex. The boundary between the plus and minus phases is a kind of two-dimensional surface. The study of this object is quite intricate, and the fluctuations of the surface are still widely open. We refer to [15,17,24] and references therein.
 
@@ -450,7 +450,7 @@ When conditioning on the neighbourhood of the origin to be in a plus phase insid
 
 Quantum field theories with local interaction are central in most subfields of theoretical physics, from high energy to condensed matter physics. The mathematical challenge of the proper formulation of this concept led to the program of constructive quantum field theory (CQFT). A path towards that goal was charted through the proposal to define quantum fields satisfying Wightman axioms [103] using the Osterwalder-Schrader theorem [88], in which case the construction boils down to producing relevant random distributions defined over the corresponding Euclidean space that meet a number of conditions such as suitable analyticity, permutation symmetry, Euclidean covariance, and reflection-positivity.
 
-Finding these Euclideanfields boils down to constructing probability averages over random distributions $\Phi(x)$ of the form
+Finding these Euclidean fields boils down to constructing probability averages over random distributions $\Phi(x)$ of the form
 
 $$
 \langle F (\Phi) \rangle \approx \frac {1}{\mathrm{norm}} \int F (\Phi) \exp [ - H (\Phi) ] \prod_ {x \in \mathbb {R} ^ {d}} d \Phi (x),\tag{6.1}
@@ -460,7 +460,7 @@ where
 
 • $F(\Phi)$ is a smeared average of the form $T_f(\Phi) := \int_{\mathbb{R}^d} f(x)\Phi(x)\,dx$ associated with continuous functions of compact support $f$.
 
-• $H(\Phi)$ is a Hamiltonian $H(\Phi) \approx (\Phi,A\Phi) + \int_{\mathbb{R}^d} P(\Phi(x))\,dx$ with $(\Phi,A\Phi)$ a positive definite and reflection-positive (see Section 6.2) quadratic form, and$P ( \Phi ( x ) )$ an even polynomial whose terms of order$\Phi ( x ) ^ { 2 k }$are interpreted heuristically as representing $k$-particle interactions.
+• $H(\Phi)$ is a Hamiltonian $H(\Phi) :\approx (\Phi,A\Phi) + \int_{\mathbb{R}^d} P(\Phi(x))\,dx$ with $(\Phi,A\Phi)$ a positive definite and reflection-positive (see Section 6.2) quadratic form, and$P ( \Phi ( x ) )$ an even polynomial whose terms of order$\Phi ( x ) ^ { 2 k }$are interpreted heuristically as representing $k$-particle interactions.
 
 By linearity, the expectation values of products of such variables can be rewritten as
 
@@ -468,7 +468,7 @@ $$
 \left\langle \prod_ {j = 1} ^ {n} T _ {f _ {j}} (\Phi) \right\rangle := \int_ {(\mathbb {R} ^ {d}) ^ {n}} S _ {n} (x _ {1}, \dots , x _ {n}) \prod_ {j = 1} ^ {n} f _ {j} (x _ {j}) d x _ {1} \dots d x _ {n},\tag{6.2}
 $$
 
-where the$S _ { n } ( x _ { 1 } , \ldots , x _ { n } )$are the Schwingerfunctions of the corresponding Euclidean field theory which can be interpreted heuristically as pointwise correlations$\langle \prod _ { j = 1 } ^ { n } \Phi ( x _ { j } ) \rangle$. Interpreting (6.1) raises a number of problems of varying dificulty.
+where the$S _ { n } ( x _ { 1 } , \ldots , x _ { n } )$are the Schwinger functions of the corresponding Euclidean field theory which can be interpreted heuristically as pointwise correlations$\langle \prod _ { j = 1 } ^ { n } \Phi ( x _ { j } ) \rangle$. Interpreting (6.1) raises a number of problems of varying difficulty.
 
 The simplest example of Euclidean fields are the reflection-positive (see Section 6.2 again) Gaussian fields, for which $H(\Phi)$ contains only quadratic terms. Gaussian fields are alternatively characterised by $2n$-point Schwinger functions satisfying Wick’s law:
 
@@ -478,12 +478,12 @@ $$
 
 The field theoretical interpretation of (6.3) is the absence of interaction. Due to that and to their algebraically simple structure, such fields are referred to as trivial.
 
-The next level of dificulty is to add the next lowest order even term, i.e.$\lambda \Phi ^ { 4 }$for $\lambda > 0$. Note that, if it exists at all, the corresponding field is a random distribution so making sense of this fourth power is not straightforward. The heuristic RG approach to the problem by Wilson [104] indicates that in low enough dimensions, the problem could be tackled through a renormalisation procedure. The CQFT program has successfully yielded non-trivial scalar field theories over$\mathbb { R } ^ { 2 }$[55] and$\mathbb { R } ^ { 3 }$[44,54], and is still a lively field of mathematical physics.
+The next level of difficulty is to add the next lowest order even term, i.e.$\lambda \Phi ^ { 4 }$for $\lambda > 0$. Note that, if it exists at all, the corresponding field is a random distribution so making sense of this fourth power is not straightforward. The heuristic RG approach to the problem by Wilson [104] indicates that in low enough dimensions, the problem could be tackled through a renormalisation procedure. The CQFT program has successfully yielded non-trivial scalar field theories over$\mathbb { R } ^ { 2 }$[55] and$\mathbb { R } ^ { 3 }$[44,54], and is still a lively field of mathematical physics.
 
-A natural example aimed at constructing a$\Phi _ { d } ^ { 4 }$functional integral is to regularise it with a pair of cutofs: at a short distance (ultraviolet) scale and a large distance (infrared) scale. A lattice version of that is the restriction of Φ(·) to the vertices of a finite graph$\Lambda _ { R } ^ { ( a ) } : =$ $( a \mathbb { Z } ) ^ { d } \cap [ - R , R ] ^ { d }$, where $a$ and $R$ play respectively the roles of the ultraviolet and infrared cutofs. For the corresponding finite collection ofvariables$( \phi _ { x } : x \in \Lambda _ { R } ^ { ( a ) } )$, the Hamiltonian is then interpreted in terms of a Riemann-sum style discrete analog of the integral expressions, leading to the following statistical-mechanics Gibbs equilibrium state average
+A natural example aimed at constructing a$\Phi _ { d } ^ { 4 }$functional integral is to regularise it with a pair of cutoffs: at a short distance (ultraviolet) scale and a large distance (infrared) scale. A lattice version of that is the restriction of Φ(·) to the vertices of a finite graph$\Lambda _ { R } ^ { ( a ) } : =$ $( a \mathbb { Z } ) ^ { d } \cap [ - R , R ] ^ { d }$, where $a$ and $R$ play respectively the roles of the ultraviolet and infrared cutoffs. For the corresponding finite collection of variables$( \phi _ { x } : x \in \Lambda _ { R } ^ { ( a ) } )$, the Hamiltonian is then interpreted in terms of a Riemann-sum style discrete analog of the integral expressions, leading to the following statistical-mechanics Gibbs equilibrium state average
 
 $$
-\langle F (\phi) \rangle = \frac {1}{\text { norm }} \int_ {\mathbb {R} ^ {\Lambda_ {R} ^ {(a)}}} F (\phi) \exp [ - H (\phi) ] \prod_ {x \in \Lambda_ {R} ^ {(a)}} d \rho (\phi_ {x}),\tag{6.4}
+\langle F (\phi) \rangle = \frac {1}{\text { norm }} \int_ {\mathbb {R} _ {R} ^ {(a)}} F (\phi) \exp [ - H (\phi) ] \prod_ {x \in \Lambda_ {R} ^ {(a)}} d \rho (\phi_ {x}),\tag{6.4}
 $$
 
 with a Hamiltonian$H ( \phi )$and an a-priori measure$\rho$of the form
@@ -494,7 +494,7 @@ $$
 
 where$d \phi _ { x }$is the Lebesgue measure on R. This is called the$\phi ^ { 4 }$lattice model.
 
-The cutofs are removed through the limit$R ~ { \nearrow }$∞ followed by$a \searrow 0$. Parameters may be added to adjust in the process the spin-spin correlations$\langle \phi _ { x _ { 1 } } \ldots \phi _ { x _ { n } } \rangle$in such a way that they stabilise to the Schwinger functions$S _ { n } ( x _ { 1 } , \ldots , x _ { n } )$in the continuum limit scale.
+The cutoffs are removed through the limit$R ~ { \nearrow }$∞ followed by$a \searrow 0$. Parameters may be added to adjust in the process the spin-spin correlations$\langle \phi _ { x _ { 1 } } \ldots \phi _ { x _ { n } } \rangle$in such a way that they stabilise to the Schwinger functions$S _ { n } ( x _ { 1 } , \ldots , x _ { n } )$in the continuum limit scale.
 
 The Ising model can be thought of as a limiting case of a$\phi ^ { 4 }$lattice model as it is obtained by letting$\lambda = b / 2$tend to infinity (the limit of the measures$\rho$then forces the spins$\phi _ { x }$to take the values ±1). Actually, the discrete approximations of the$\phi ^ { 4 }$functional integral and the Gibbs states of an Ising model are always connected. This relation is based on a construction which was initiated by Griffiths to obtain the Lee-Yang theorem for the$\phi ^ { 4 }$ lattice models, and was advanced further by Griffiths and Simon [60]. A probability measure on$\rho ( d \phi )$on R is said to belong to the Griffiths-Simon class if the expectation values with respect to$\rho$can be represented as an Ising model on the complete graph with well-chosen coupling constants, or as a limit of such models (satisfying some mild tail conditions). The $\phi ^ { 4 }$lattice model belongs to the Griffiths-Simon class. For this reason, most techniques that are at our disposal for the Ising model apply to the Griffiths-Simon class. This makes the Ising model an object of major interest when working on CQFT. The developments of the model have therefore been deeply connected to CQFT in the eighties, and we now discuss some examples of such interactions.
 
@@ -508,17 +508,17 @@ $$
 \langle f \vartheta g \rangle = \langle g \vartheta f \rangle \quad \text { and } \quad \langle f \vartheta f \rangle \geq 0,\tag{6.6}
 $$
 
-or, in other words, that$f , g \mapsto \langle f \vartheta g \rangle$is a positive semi-definite symmetric bilinear form. The archetypical examples of reflection positive measures are the Ising n.n.f. measures$\langle \cdot \rangle _ { \mathbb { T } _ { L } , \beta , 0 } .$ but many other examples exist, including some Ising models with long-range interactions.
+or, in other words, that$f , g \mapsto \langle f \vartheta g \rangle$is a positive semi-definite symmetric bilinear form. The archetypical examples of reflection positive measures are the Ising n.n.f. measures$\langle \cdot \rangle _ { \mathbb { T } _ { L } , \beta , 0 } ,$ but many other examples exist, including some Ising models with long-range interactions.
 
 Reflection positivity has two important implications, namely gaussian domination leading to the infrared bound, and the chessboard estimate. By lack of space, and since most of the applications of reflection positivity to the specific example of the Ising model rely on the infrared bound, let us focus on it and gaussian domination.
 
-Gaussian domination is a statement linking the partition function of the Ising model with magnetic field to the partition function of the model without it. Formally, it states that for every function $h:V\to\mathbb{R}$, $Z _ { L } ( \mathbf { h } ) \leq Z _ { L } ( 0 )$, where
+Gaussian domination is a statement linking the partition function of the Ising model with magnetic field to the partition function of the model without it. Formally, it states that for every function $\mathbf { h }:V\to\mathbb{R}$, $Z _ { L } ( \mathbf { h } ) \leq Z _ { L } ( 0 )$, where
 
 $$
 Z _ {L} (\mathbf {h}) := \sum_ {\sigma \in \{- 1, 1 \} ^ {V}} \exp \left[ - \beta \sum_ {\{x, y \} \in E (\mathbb {T} _ {L})} \left(\sigma_ {x} - \sigma_ {y} + \mathbf {h} _ {x} - \mathbf {h} _ {y}\right) ^ {2} \right].\tag{6.7}
 $$
 
-Gaussian domination can be proved via reflection positivity through the two hyperplanes mentioned above to show that for each h, a symmetric version of h with respect to a hyperplane has a larger value of$Z _ { L } ( \cdot )$. Gaussian domination immediately implies a Fourier version of the infrared bound by using a second-order expansion of$Z _ { L } ( \mathbf { h } )$near 0: for $d>2$and every $( a _ { x } ) \in \mathbb { C } ^ { \mathbb { T } _ { L } }$summing to zero,
+Gaussian domination can be proved via reflection positivity through the two hyperplanes mentioned above to show that for each $\mathbf { h }$, a symmetric version of $\mathbf { h }$ with respect to a hyperplane has a larger value of$Z _ { L } ( \cdot )$. Gaussian domination immediately implies a Fourier version of the infrared bound by using a second-order expansion of$Z _ { L } ( \mathbf { h } )$near 0: for $d>2$and every $( a _ { x } ) \in \mathbb { C } ^ { \mathbb { T } _ { L } }$summing to zero,
 
 $$
 \sum_ {x, y \in \mathbb {T} _ {L}} a _ {x} \overline {{a}} _ {y} \langle \sigma_ {x} \sigma_ {y} \rangle_ {\mathbb {T} _ {L}, \beta , 0} \leq \frac {2}{\beta} \sum_ {x, y \in \mathbb {T} _ {L}} a _ {x} \overline {{a}} _ {y} G (x, y),\tag{6.8}
@@ -532,7 +532,7 @@ $$
 \langle \sigma_ {x} \sigma_ {y} \rangle_ {\beta , 0} - m ^ {*} (\beta) ^ {2} \leq \frac {C}{\beta} G (x, y) \leq \frac {C ^ {\prime}}{\| x - y \| _ {2} ^ {d - 2}}.\tag{6.9}
 $$
 
-This is particularly interesting when$\beta$approaches$\beta _ { c }$from below, as it implies that the spin spin correlations decay algebraically fast at$\beta _ { c }$, with an exponent at least$d - 2$
+This is particularly interesting when$\beta$approaches$\beta _ { c }$from below, as it implies that the spin-spin correlations decay algebraically fast at$\beta _ { c }$, with an exponent at least$d - 2$.
 
 ## 6.3. The random current revolution
 
@@ -550,7 +550,7 @@ $$
 w _ {\beta} (\mathbf {n}) := \prod_ {\{x, y \} \in E} \frac {\beta^ {\mathbf {n} _ {\{x , y \}}}}{\mathbf {n} _ {\{x , y \}} !} \quad \text { and } \quad \Delta_ {x} (\mathbf {n}) := \sum_ {y \in V: \{x, y \} \in E} \mathbf {n} _ {\{x, y \}}.\tag{6.11}
 $$
 
-Now, the involutions on spin configurations switching the spins at a vertex immediately imply that the sum on$\sigma$on the right-hand side is either equal to$2 ^ { | V | }$if$\Delta _ { x } ( \mathbf { n } )$is even for all$x \in V$ or 0 otherwise (this seems like a very elementary observation, but it bears at the heart of it the$+ / -$symmetry of the space of possible spins).
+Now, the involutions on spin configurations switching the spins at a vertex immediately imply that the sum on$\sigma$on the right-hand side is either equal to$2 ^ { | V | }$if$\Delta _ { x } ( \mathbf { n } )$is even for all$x \in V$, or 0 otherwise (this seems like a very elementary observation, but it bears at the heart of it the$+ / -$symmetry of the space of possible spins).
 
 Call a function from$E$to$\mathbb { Z } _ { + }$a current. A source of the current will be a vertex $x$ with$\Delta _ { x } ( \mathbf { n } )$odd. The set of sources will be denoted by$\partial \mathbf { n }$. The previous discussion and the notation lead to the identity
 
@@ -558,9 +558,9 @@ $$
 Z (G, \beta , 0) = 2 ^ {| V |} \sum_ {\partial \mathbf {n} = \emptyset} w _ {\beta} (\mathbf {n}),\tag{6.12}
 $$
 
-where from now on we omit to specify that we consider currents when using the notation n.
+where from now on we omit to specify that we consider currents when using the notation $\mathbf { n }$.
 
-A current n with$\partial \mathbf { n } = A$can be interpreted as the occupation time of a collection of paths pairing vertices of $A$ and loops – or equivalently the number of times the collection of paths and loops goes through an edge. The decomposition into loops and paths is not unique, nonetheless it remains interesting to interpret currents in terms of them
+A current $\mathbf { n }$ with$\partial \mathbf { n } = A$can be interpreted as the occupation time of a collection of paths pairing vertices of $A$ and loops – or equivalently the number of times the collection of paths and loops goes through an edge. The decomposition into loops and paths is not unique, nonetheless it remains interesting to interpret currents in terms of them.
 
 Proceeding in a similar fashion with the numerator of the spin-spin correlations, we get that
 
@@ -580,13 +580,13 @@ $$
 
 which resembles the low-temperature expansion, except that it is on $G$ instead of$G ^ { * }$and that it is valid for arbitrary graphs and not only planar ones. In particular, one may easily deduce the Kramers-Wannier duality between the low and high temperature expansions at temperatures$\beta$and$\beta ^ { * }$satisfying tanh$( \beta ) = e ^ { - 2 \beta ^ { * } }$in the case of the square lattice.
 
-One application of currents (or alternatively high-temperature expansion) is obtained by considering a mapping from currents with${ \partial \bf n } = \{ x , y \}$to currents with $\partial \mathbf { n } = \boldsymbol { \emptyset }$setting the current on a path from $x$ to $y$ of odd current (such a path necessarily exists) to 0. This many-to-one mapping (one has to keep track of the path and the value of the current on it to reconstruct the preimage) increases drastically the weight of the current as soon as$\beta \ll 1$, which shows that the spin-spin correlations$\langle \sigma _ { x } \sigma _ { y } \rangle _ { G , \beta , 0 }$are decaying exponentially fast in this regime. This implies in particular that$\beta _ { c } > 0$
+One application of currents (or alternatively high-temperature expansion) is obtained by considering a mapping from currents with$\partial \mathbf { n } = \{ x , y \}$to currents with $\partial \mathbf { n } = \boldsymbol { \emptyset }$setting the current on a path from $x$ to $y$ of odd current (such a path necessarily exists) to 0. This many-to-one mapping (one has to keep track of the path and the value of the current on it to reconstruct the preimage) increases drastically the weight of the current as soon as$\beta \ll 1$, which shows that the spin-spin correlations$\langle \sigma _ { x } \sigma _ { y } \rangle _ { G , \beta , 0 }$are decaying exponentially fast in this regime. This implies in particular that$\beta _ { c } > 0$.
 
 A key observation of Aizenman is that the so-called switching lemma, see Frame 5, pertaining to combinatorial properties of the random current model, could be used to reinterpret spin-spin correlations as well as many other properties in terms ofprobabilities involving multiple independent currents. This lemma completely changed the point of view on currents, as it transforms them from a combinatorial type object into a probabilistic one. In particular, intuitions coming from probabilistic models such as random walks and percolation was later used to prove new theorems on the Ising model; see Sections 6.4, 6.6, and 7.1.
 
 ## Frame 5: the switching lemma for random currents
 
-Write$\mathbf { n } \in \mathcal { F } _ { A }$if there exists$\mathbf { k } \leq \mathbf { n }$with$\partial \mathbf { k } = A$. Note that if$A = \{ x , y \}$, this is equivalent to the existence of a path from $x$ to $y$ which is made of edges with a positive current. Recall that $A\Delta B$ denotes the symmetric diference of the sets $A$ and $B$. With this notation, the switching lemma [59] states that for every$F : \mathbb { Z } _ { + } ^ { E } \to \mathbb { R }$and every two sets of vertices $A,B \subset V$,
+Write$\mathbf { n } \in \mathcal { F } _ { A }$if there exists$\mathbf { k } \leq \mathbf { n }$with$\partial \mathbf { k } = A$. Note that if$A = \{ x , y \}$, this is equivalent to the existence of a path from $x$ to $y$ which is made of edges with a positive current. Recall that $A\Delta B$ denotes the symmetric difference of the sets $A$ and $B$. With this notation, the switching lemma [59] states that for every$F : \mathbb { Z } _ { + } ^ { E } \to \mathbb { R }$and every two sets of vertices $A,B \subset V$,
 
 $$
 \sum_{\substack{\partial \mathbf{n}_{1} = A\\ \partial \mathbf{n}_{2} = B}}w(\mathbf{n}_{1})w(\mathbf{n}_{2})F(\mathbf{n}_{1} + \mathbf{n}_{2}) = \sum_{\substack{\partial \mathbf{n}_{1} = A\Delta B\\ \partial \mathbf{n}_{2} = \emptyset}}w(\mathbf{n}_{1})w(\mathbf{n}_{2})F(\mathbf{n}_{1} + \mathbf{n}_{2})\mathbb{I}(\mathbf{n}_{1} + \mathbf{n}_{2}\in \mathcal{F}_{B}).\tag{6.15}
@@ -594,13 +594,13 @@ $$
 
 The name of the lemma is fairly self-explanatory, as it consists, when considering sums of two currents, of a recipe to switch the sources from the second one to the first one. The proof is a very entertaining combinatorial problem that is left to the reader.
 
-A direct application (to illustrate the strength of the lemma) is the case$A = B$ which gives immediately that
+A direct application (to illustrate the strength of the lemma) is the case$A = B$, which gives immediately that
 
 $$
 \langle \sigma_ {A} \rangle_ {G, \beta , 0} ^ {2} = \mathbb {P} _ {G} ^ {\emptyset} \otimes \mathbb {P} _ {G} ^ {\emptyset} [ \mathbf {n} _ {1} + \mathbf {n} _ {2} \in \mathcal {F} _ {A} ],\tag{6.16}
 $$
 
-where$\mathbb { P } _ { G } ^ { B }$is the measure on currents n on $G$ with$\partial \mathbf { n } = B$attributing to each such n a probability that is proportional to$w ( \mathbf { n } )$, and$\otimes$denotes the product for probability measures. In words, one may interpret the square ofspin-spin correlations$\langle \sigma _ { A } \rangle _ { G , \beta , 0 }$as the probability, for the sum of two independent random currents, of pairing the elements of $A$ by paths of positive current. One may also try as an exercise to recover Griffiths inequalities from the switching lemma.
+where$\mathbb { P } _ { G } ^ { B }$is the measure on currents$\mathbf { n }$ on $G$ with$\partial \mathbf { n } = B$attributing to each such$\mathbf { n }$ a probability that is proportional to$w ( \mathbf { n } )$, and$\otimes$denotes the product for probability measures. In words, one may interpret the square ofspin-spin correlations$\langle \sigma _ { A } \rangle _ { G , \beta , 0 }$as the probability, for the sum of two independent random currents, of pairing the elements of $A$ by paths of positive current. One may also try as an exercise to recover Griffiths' inequalities from the switching lemma.
 
 ## 6.4. Triviality in dimension $d>4$
 
@@ -631,18 +631,14 @@ $$
 A simple exercise involving the switching lemma shows that
 
 $$
-U _ {4} ^ {\beta} (x _ {1}, \ldots , x _ {4}) = - 2 \langle \sigma_ {x _ {1}} \sigma_ {x _ {2}} \rangle \langle \sigma_ {x _ {3}} \sigma_ {x _ {4}} \rangle \mathbb {P} ^ {\{x _ {1}, x _ {2} \}} \otimes \mathbb {P} ^ {\{x _ {3}, x _ {4} \}} [ x _ {1}, \ldots , x _ {4}
+U _ {4} ^ {\beta} (x _ {1}, \ldots , x _ {4}) = - 2 \langle \sigma_ {x _ {1}} \sigma_ {x _ {2}} \rangle \langle \sigma_ {x _ {3}} \sigma_ {x _ {4}} \rangle \mathbb {P} ^ {\{x _ {1}, x _ {2} \}} \otimes \mathbb {P} ^ {\{x _ {3}, x _ {4} \}} [ x _ {1}, \ldots , x _ {4} \text { all connected in } \mathbf {n} _ {1} + \mathbf {n} _ {2} ],\tag{6.20}
 $$
 
-$$
-\left. \mathbf {n} _ {1} + \mathbf {n} _ {2} \right]\tag{6.20}
-$$
+where connected in$\mathbf { n } _ { 1 } + \mathbf { n } _ { 2 }$means being connected by a path of edges with$\mathbf { n } _ { 1 } + \mathbf { n } _ { 2 }$not equal to zero. If one remembers that one can think of a current with sources$x _ { 1 }$and$x _ { 2 }$as a path connecting the two vertices together with a collection of loops, one can reinterpret the right-hand side of the previous identity at the light of so-called random walks (a random walker traces his way through the vertices of a graph by picking its next steps at random among neighbours of where it currently stands – this Markov process is one of the most fundamental objects of probability theory). It is a classical result that two random walks connecting two pairs of points that are at a mutual distance of order $L$ intersect with a probability bounded away from 0 as $L$ tends to infinity in dimensions$d < 4$, and tending to zero in dimension $d \ge 4$.
 
-where connected in$\mathbf { n } _ { 1 } + \mathbf { n } _ { 2 }$means being connected by a path of edges with$\mathbf { n } _ { 1 } + \mathbf { n } _ { 2 }$not equal to zero. If one remembers that one can think of a current with sources$x _ { 1 }$and$x _ { 2 }$as a path connecting the two vertices together with a collection of loops, one can reinterpret the right-hand side of the previous identity at the light of so-called random walks (a random walker traces his way through the vertices ofa graph by picking its next steps at random among neighbours of where it currently stands – this Markov process is one of the most fundamental objects of probability theory). It is a classical result that two random walks connecting two pairs of points that are at a mutual distance of order $L$ intersect with a probability bounded away from 0 as $L$ tends to infinity in dimensions$d < 4 .$, and tending to zero in dimension $d \ge 4$
+At this stage, it is totally unclear why the paths linking the points$x _ { 1 }$and$x _ { 2 }$in$\mathbf { n } _ { 1 }$, and $x _ { 3 }$and$x _ { 4 }$in$\mathbf { n } _ { 2 }$, would behave as random walks. It is also unclear what would be the impact of the additional loops. Still, it is tempting to think that if an analogy with random walks was valid, then it would single out dimensions$d \ge 4$as being dimensions for which$U _ { 4 } ^ { \beta }$becomes much smaller than products of two-point correlations or, in other words, for which Wick’s law would become asymptotically valid, thus hinting at triviality.
 
-At this stage, it is totally unclear why the paths linking the points$x _ { 1 }$and$x _ { 2 }$in${ \bf n } _ { 1 }$, and $x _ { 3 }$and$x _ { 4 }$in${ \bf n } _ { 2 }$, would behave as random walks. It is also unclear what would be the impact of the additional loops. Still, it is tempting to think that if an analogy with random walks was valid, then it would single out dimensions$d \ge 4$as being dimensions for which$U _ { 4 } ^ { \beta }$becomes much smaller than products of two-point correlations or, in other words, for which Wick’s law would become asymptotically valid, thus hinting at triviality.
-
-When the dimension is strictly larger than 4, the story for random walks becomes even simpler, as the expected number of intersections is also tending to zero with $L$. Using the infrared bound to estimate the spin-spin correlations of the Ising model, one may go around the dificulty of proving a random walk type behaviour for currents to show that the intersection probability is tending to 0.
+When the dimension is strictly larger than 4, the story for random walks becomes even simpler, as the expected number of intersections is also tending to zero with $L$. Using the infrared bound to estimate the spin-spin correlations of the Ising model, one may go around the difficulty of proving a random walk type behaviour for currents to show that the intersection probability is tending to 0.
 
 Making the argument work for currents in dimension 4 is more subtle because, contrarily to larger dimensions, the expected number of intersections does not tend to 0 when $L$ tends to infinity. Hence, in order to prove that the intersection probability goes to 0, one inevitably has to go deeper in the understanding of the analogy between currents and random walks.
 
@@ -662,7 +658,7 @@ The level of sophistication of these techniques is quite astonishing, and the pr
 
 While renormalisation techniques provided impressive rigorous results in dimension 4, they remained as we mentioned perturbative, meaning that they required that the lattice$\phi ^ { 4 }$ model one starts from has a small$\phi ^ { 4 }$term. Yet, if one would like to construct a non-trivial 4D quantum field theory, one would definitely try to start with a strongly coupled$\phi ^ { 4 }$lattice model (meaning with a$\phi ^ { 4 }$terms which is not a priori small), for instance working with the Ising model which in some sense can be thought of as the model with the strongest possible coupling, thus excluding existing renormalisation group techniques.
 
-This asks for another approach, and this is probably why one had to wait for forty years to finally obtain a proof of the triviality of the 4D Ising and$\phi ^ { 4 }$lattice models, which states [4] that there exists$c > 0$such that for the n.n.f.$\phi ^ { 4 }$lattice model on${ \mathbb { Z } } ^ { 4 }$with parameters $b , \lambda .$, and a compactly supported continuous function$f ,$, there exists$C _ { f } > 0$such that for every$\beta \leq \beta _ { c } = \beta _ { c } ( b , \lambda )$, every$L \le \xi ( \beta )$, and every$z > 0$7
+This asks for another approach, and this is probably why one had to wait for forty years to finally obtain a proof of the triviality of the 4D Ising and$\phi ^ { 4 }$lattice models, which states [4] that there exists$c > 0$such that for the n.n.f.$\phi ^ { 4 }$lattice model on${ \mathbb { Z } } ^ { 4 }$with parameters $b , \lambda$, and a compactly supported continuous function$f$, there exists$C _ { f } > 0$such that for every$\beta \leq \beta _ { c } = \beta _ { c } ( b , \lambda )$, every$L \le \xi ( \beta )$, and every$z > 0$
 
 $$
 \left| \left\langle \exp [ z T _ {f, L} (\varphi) - \frac {z ^ {2}}{2} \langle T _ {f, L} (\varphi) ^ {2} \rangle_ {\beta} ] \right\rangle_ {\beta} - 1 \right| \leq \frac {C _ {f} z ^ {4}}{(\log L) ^ {c}}.\tag{6.21}
@@ -672,17 +668,17 @@ The strategy of the proof uses a more delicate probabilistic perspective on the 
 
 ## 7. The last fifty years: Ising model and percolation
 
-Percolation theory gathers under its umbrella a variety of random graphs systems. A configuration on$G = ( V , E )$is an element$\omega = ( \omega _ { e } : e \in E ) \in \{ 0 , 1 \} ^ { E }$which is interpreted as a subgraph with vertex-set $V$ and edge-set$\{ e \in E : \omega _ { e } = 1 \}$. Then, diferent percolation models can be defined by considering diferent measures on$\{ 0 , 1 \} ^ { E }$. Historically, the original model, called Bernoulli percolation, is defined in such a way that the$\omega _ { e }$are independent Bernoulli random variables. It was introduced to understand the behaviour ofliquid in a porous medium. Nevertheless, the theory of non-Bernoulli models has been found to be related to a variety of other models of statistical physics explaining various physical phenomena.
+Percolation theory gathers under its umbrella a variety of random graphs systems. A configuration on$G = ( V , E )$is an element$\omega = ( \omega _ { e } : e \in E ) \in \{ 0 , 1 \} ^ { E }$which is interpreted as a subgraph with vertex-set $V$ and edge-set$\{ e \in E : \omega _ { e } = 1 \}$. Then, different percolation models can be defined by considering different measures on$\{ 0 , 1 \} ^ { E }$. Historically, the original model, called Bernoulli percolation, is defined in such a way that the$\omega _ { e }$are independent Bernoulli random variables. It was introduced to understand the behaviour of liquid in a porous medium. Nevertheless, the theory of non-Bernoulli models has been found to be related to a variety of other models of statistical physics explaining various physical phenomena.
 
 As often, the Ising model has played an essential role in the development of percolation theory, and conversely certain advances in percolation theory have been fundamental to our understanding of the Ising model. Sometimes, the link between the two models is simply an analogy between their behaviours, but sometimes the connection is much more direct. For instance, spin-spin correlations can be rewritten in terms of a percolation model, in which case we speak of the percolation model as being a graphical representation of the Ising model. We now propose to discuss some examples of these links between the Ising model and percolation.
 
 ## 7.1. Percolation interpretation of random currents
 
-We have seen one example ofa graphical representation in Frame 5 where the squares of spin-spin correlations get rephrased as connectivity properties of the sum of two currents.
+We have seen one example of a graphical representation in Frame 5 where the squares of spin-spin correlations get rephrased as connectivity properties of the sum of two currents.
 
 One may easily define a percolation model out of the pair of currents above by saying that for an edge$\{ x , y \} , \omega _ { \{ x , y \} } = 1 \mathrm { i f } ( \mathbf { n } _ { 1 } + \mathbf { n } _ { 2 } ) _ { \{ x , y \} } > 0$. Then, the square of the spin-spin correlations between two points becomes the probability, for this percolation model, that $x$ and $y$ are connected in$\omega .$
 
-The best illustration of how intuition from percolation or the Ising model can drive developments on the other model is provided by an important result on the Ising model in the regime$\beta < \beta _ { c }$. This result from 1987, due to Aizenman, Barsky and Fernandez [3] (see [39] for an alternative argument), states that correlations of the n.n.f. Ising model decay exponentially fast as soon as$\beta < \beta _ { c }$in the sense that for each such$\beta ,$, there exists$\tau > 0$such that for every $x , y \in \mathbb { Z } ^ { d }$,
+The best illustration of how intuition from percolation or the Ising model can drive developments on the other model is provided by an important result on the Ising model in the regime$\beta < \beta _ { c }$. This result from 1987, due to Aizenman, Barsky and Fernandez [3] (see [39] for an alternative argument), states that correlations of the n.n.f. Ising model decay exponentially fast as soon as$\beta < \beta _ { c }$in the sense that for each such$\beta$, there exists$\tau > 0$such that for every $x , y \in \mathbb { Z } ^ { d }$,
 
 $$
 \langle \sigma_ {x} \sigma_ {y} \rangle_ {\beta , 0} \leq \exp (- \tau \| x - y \|).\tag{7.1}
@@ -690,15 +686,15 @@ $$
 
 We say that the phase transition is sharp: there is no intermediate phase$( \beta _ { \mathrm { { e x p } } } , \beta _ { c } )$in the Ising model in which spin-spin correlations would decay polynomially. Let us mention that a similar exponential decay was obtained recently for truncated correlations$\langle \sigma _ { x } \sigma _ { y } \rangle _ { \beta , 0 } -$ $m ^ { * } ( \beta ) ^ { 2 }$when$\beta > \beta _ { c }$, see [36].
 
-This theorem is of fundamental importance for the following reason. Perturbative results, which are combinatorial in nature, are valid under the assumption that certain quantities decay exponentially fast, and in fact with a rate of decay which is suficiently large. While this hypothesis is important to apply the techniques, it happens to be of little relevance from a physical point of view. In fact, one expects that most of the phenomenology remains unchanged as long as spin-spin correlations decay exponentially fast. As a consequence, (7.1) can be thought of as a bottleneck in the understanding of the phase$\beta < \beta _ { c }$: as soon as it is obtained, a number of important results can be derived from it. As an example, the results on fluctuations of interfaces and Ornstein-Zernike estimates were proved to hold in the whole regime$\beta < \beta _ { c }$. The result also provides meaning to the correlation length$\xi ( \beta )$mentioned in Section 4.1, as it proves that it is finite as soon as$\beta < \beta _ { c }$
+This theorem is of fundamental importance for the following reason. Perturbative results, which are combinatorial in nature, are valid under the assumption that certain quantities decay exponentially fast, and in fact with a rate of decay which is sufficiently large. While this hypothesis is important to apply the techniques, it happens to be of little relevance from a physical point of view. In fact, one expects that most of the phenomenology remains unchanged as long as spin-spin correlations decay exponentially fast. As a consequence, (7.1) can be thought of as a bottleneck in the understanding of the phase$\beta < \beta _ { c }$: as soon as it is obtained, a number of important results can be derived from it. As an example, the results on fluctuations of interfaces and Ornstein-Zernike estimates were proved to hold in the whole regime$\beta < \beta _ { c }$. The result also provides meaning to the correlation length$\xi ( \beta )$mentioned in Section 4.1, as it proves that it is finite as soon as$\beta < \beta _ { c }$.
 
-Let us now comment on the proof. The argument relies on a fruitful idea consisting in deriving diferential inequalities between thermodynamical quantities of the Ising model. The archetypical example of such diferential inequalities are given, for the problem at hand, by (recall that the magnetisation$m = m ( \beta , h )$is a function of$\beta$and ℎ)
+Let us now comment on the proof. The argument relies on a fruitful idea consisting in deriving differential inequalities between thermodynamical quantities of the Ising model. The archetypical example of such differential inequalities are given, for the problem at hand, by (recall that the magnetisation$m = m ( \beta , h )$is a function of$\beta$and $h$)
 
 $$
 m \leq \tanh (\beta h) \frac {\partial}{\partial (\beta h)} m + m ^ {2} \left(\beta \frac {\partial}{\partial \beta} m + m\right) \quad \text { and } \quad m \frac {\partial}{\partial \beta} m \geq c.\tag{7.2}
 $$
 
-The interesting feature here is that similar diferential inequalities appear when studying Bernoulli percolation. In fact, a number of results were obtained in parallel during the eighties, where each result for Ising had its pendant for Bernoulli percolation, and vice versa. As an example, critical exponents for$d > 4$were obtained by Aizenman and Fernandez [7] using diferential inequalities that can be adapted to Bernoulli percolation. These techniques are useful to transform qualitative results (e.g. a quantity tends to 0) to quantitative ones (e.g. exponentially fast). We do not resist mentioning one of them: for$h = 0$and$\beta < \beta _ { c }$,
+The interesting feature here is that similar differential inequalities appear when studying Bernoulli percolation. In fact, a number of results were obtained in parallel during the eighties, where each result for Ising had its pendant for Bernoulli percolation, and vice versa. As an example, critical exponents for$d > 4$were obtained by Aizenman and Fernandez [7] using differential inequalities that can be adapted to Bernoulli percolation. These techniques are useful to transform qualitative results (e.g. a quantity tends to 0) to quantitative ones (e.g. exponentially fast). We do not resist mentioning one of them: for$h = 0$and$\beta < \beta _ { c }$,
 
 $$
 \left(1 - \frac {B}{\chi}\right) \frac {2 d \chi^ {2}}{1 + B} \leq \frac {\partial}{\partial \beta} \chi \leq 2 d \chi^ {2},\tag{7.3}
@@ -712,7 +708,7 @@ $$
 
 Since the Infrared Bound implies that$B ( \beta )$remains bounded uniformly in$\beta < \beta _ { c }$as soon as$d > 4 , \chi ( \beta )$must blow up like$1 / | \beta - \beta _ { c } |$as$\beta$approaches$\beta _ { c }$from below.
 
-Another striking instance of how fruitful the connection between percolation models and the Ising model was for the development of both models is the following continuity resul of the phase transition of the 3D Ising model, due to [5], stating that the n.n.f. Ising model satisfies$m ^ { * } ( \beta _ { c } ) = 0$for every$d \ge 3$
+Another striking instance of how fruitful the connection between percolation models and the Ising model was for the development of both models is the following continuity result of the phase transition of the 3D Ising model, due to [5], stating that the n.n.f. Ising model satisfies$m ^ { * } ( \beta _ { c } ) = 0$for every$d \ge 3$.
 
 The argument relies on percolation methods applied to the double random current representation of an argument of Burton and Keane proving the uniqueness of the infinite connected component of percolation. The whole argument can be improved and extended to study all translation-invariant Gibbs measures, obtaining the classification result already mentioned in Section 5.2.
 
@@ -724,7 +720,7 @@ $$
 \phi_ {G, p, q} [ \{\omega \} ] := \frac {1}{Z (G , p , q)} p ^ {| \omega |} (1 - p) ^ {| E | - | \omega |} q ^ {k (\omega)},\tag{7.5}
 $$
 
-where$p \in [ 0 , 1 ]$and$q > 0$are the parameters of the model, called respectively the edgeweight and the cluster-weight,$\begin{array} { r } { | \omega | : = \sum _ { e \in E } \omega _ { e } } \end{array}$is interpreted as the number of edges in $\omega$, and$k ( \omega )$is the number of connected components of $\omega$.
+where$p \in [ 0 , 1 ]$and$q > 0$are the parameters of the model, called respectively the edge-weight and the cluster-weight,$\begin{array} { r } { | \omega | : = \sum _ { e \in E } \omega _ { e } } \end{array}$is interpreted as the number of edges in $\omega$, and$k ( \omega )$is the number of connected components of $\omega$.
 
 When$q = 1$, one ends up with the classical Bernoulli percolation model in which the$\omega _ { e }$are independent. When$q \neq 1$, the state of edges is no longer independent and one ends up with a dependent percolation model whose study is central in modern probability theory. From now on, we focus on the case$q = 2$, which we call the FK Ising model. We confine our discussion to two features of this percolation model, namely its link to the Ising model, and the FKG inequality.
 
@@ -732,9 +728,9 @@ Let us start with the former, which provides a recipe to obtain the Ising model 
 
 • choosing for every connected component $C$ of $\omega$ a spin$\sigma _ { C }$uniformly between −1 and +1, and independently of the other connected components.
 
-• defining$\sigma _ { x } = \sigma _ { C }$for every C and every$x \in C$
+• defining$\sigma _ { x } = \sigma _ { C }$for every C and every$x \in C$.
 
-Then,$\sigma$has the law of the Ising model on $G$ with parameter$\textstyle { \beta = { \frac { 1 } { 2 } } \log [ 1 / ( 1 - p ) ] }$and$h = 0$ This coupling, due to Fortuin and Kasteleyn and often referred to as the Edwards-Sokal coupling due to the paper [40], enables to express correlation functions of the Ising model in terms of FK Ising. For instance, by decomposing on the events that $x$ is connected to $y$ or not
+Then,$\sigma$has the law of the Ising model on $G$ with parameter$\textstyle { \beta = { \frac { 1 } { 2 } } \log [ 1 / ( 1 - p ) ] }$and$h = 0$. This coupling, due to Fortuin and Kasteleyn and often referred to as the Edwards-Sokal coupling due to the paper [40], enables to express correlation functions of the Ising model in terms of FK Ising. For instance, by decomposing on the events that $x$ is connected to $y$ or not
 
 ![](../audit/ICM2022_proceedings_Duminil-Copin_p032_Figure3.png)
 
@@ -742,7 +738,7 @@ Figure 3
 
 The Edwards-Sokal coupling, with on the left a picture of the FK Ising configuration (bold edges are those with $\omega _ { e } = 1 )$, in the middle, spins are attached to each cluster (one example in black and others in grey), and on the right, the spins without the FK Ising configuration.
 
-in $G$, one easily gets that
+in $\omega$, one easily gets that
 
 $$
 \langle \sigma_ {x} \sigma_ {y} \rangle_ {G, \beta , 0} = \phi_ {G, 1 - e ^ {- 2 \beta}, 2} [ x \text {   connected   to   } y \text {   in   } \omega ].\tag{7.6}
@@ -754,13 +750,13 @@ $$
 \phi_ {G, p, q} [ f g ] \geq \phi_ {G, p, q} [ f ] \phi_ {G, p, q} [ g ].\tag{7.7}
 $$
 
-This inequality is often used for indicator functions of increasing events (i.e. events for which the indicator function is an increasing function), in which case the inequality states that increasing events are positively correlated. Another manifestation of the monotonicity prop erties is the monotonicity in$p \mathrm { : }$for every increasing function$f : \{ 0 , 1 \} ^ { E } \to \mathbb { R }$and$p ^ { \prime } \geq p$,
+This inequality is often used for indicator functions of increasing events (i.e. events for which the indicator function is an increasing function), in which case the inequality states that increasing events are positively correlated. Another manifestation of the monotonicity properties is the monotonicity in$p \mathrm { : }$for every increasing function$f : \{ 0 , 1 \} ^ { E } \to \mathbb { R }$and$p ^ { \prime } \geq p$,
 
 $$
 \phi_ {G, p ^ {\prime}, q} [ f ] \geq \phi_ {G, p, q} [ f ].\tag{7.8}
 $$
 
-These monotonicity properties are particularly useful. The second one applied to FK Ising and the indicator function of$\mathcal { F } _ { A }$implies that$\langle \sigma _ { A } \rangle _ { G , \beta , 0 }$is increasing in$\beta ,$, and the first one applied to indicator functions of$\mathcal { F } _ { A }$and$\mathcal { F } _ { B }$implies the second Griffiths inequality $\langle \sigma _ { A } \sigma _ { B } \rangle _ { G , \beta , 0 } \geq \langle \sigma _ { A } \rangle _ { G , \beta , 0 } \langle \sigma _ { B } \rangle _ { G , \beta , 0 } .$
+These monotonicity properties are particularly useful. The second one applied to FK Ising and the indicator function of$\mathcal { F } _ { A }$implies that$\langle \sigma _ { A } \rangle _ { G , \beta , 0 }$is increasing in$\beta$, and the first one applied to indicator functions of$\mathcal { F } _ { A }$and$\mathcal { F } _ { B }$implies the second Griffiths inequality $\langle \sigma _ { A } \sigma _ { B } \rangle _ { G , \beta , 0 } \geq \langle \sigma _ { A } \rangle _ { G , \beta , 0 } \langle \sigma _ { B } \rangle _ { G , \beta , 0 } .$
 
 ## 7.3. The broader impact of the Ising model on dependent percolation models
 
@@ -774,13 +770,13 @@ For all these reasons, the FK Ising became the entrance gate to a new realm of r
 
 One important feature of critical dependent percolation models in two dimensions is that they satisfy the box-crossing property (BCP), and its connected notion the Russo-Seymour-Welsh theory (RSW). More precisely, if for a rectangle $R$, the event Cross($R$) corresponds to the existence of a path in $\omega$ between the left and right sides of $R$, the properties (BCP) and (RSW) for a percolation model on${ \mathbb { Z } } ^ { 2 }$with measure$\mathbb { P }$are the following:
 
-• (BCP) for all$\rho > 0$, there exists$c > 0$such that for every$n \geq 1$
+• (BCP) for all$\rho > 0$, there exists$c > 0$such that for every$n \geq 1$,
 
 $$
 c \leq \mathbb {P} [ \operatorname{Cross} ([ 0, \rho n ] \times [ 0, n ]) | \omega_ {| [ - n, (\rho + 1) n ] \times [ - n, 2 n ] ^ {c}} ] \leq 1 - c \text {   almost   surely. }\tag{7.9}
 $$
 
-• (RSW) for all$\rho > 0$, there exists$C > 0$such that for every$n \geq 1$
+• (RSW) for all$\rho > 0$, there exists$C > 0$such that for every$n \geq 1$,
 
 $$
 \mathbb {P} [ \mathrm{Cross} ([ 0, \rho n ] \times [ 0, n ]) ] \geq \mathbb {P} [ \mathrm{Cross} ([ 0, n ] \times [ 0, \rho n ]) ] ^ {C}.\tag{7.10}
@@ -796,7 +792,7 @@ As mentioned before, Kadanoff used his block-spin renormalisation to predict tha
 
 From a mathematical perspective, the notion of conformal invariance of a model is not straightforward to define. A number of interpretations of the limit of large scale properties – called the scaling limit – can be taken, and we mention a few now.
 
-For clarity of the exposition, we focus on the critical Ising model on$\mathbb { Z } ^ { d }$and its rescaled versions$a \mathbb { Z } ^ { d }$for$a > 0$. We drop the subscript referring to$\beta$and ℎ as they are fixed to be equal to$\beta _ { c }$and 0 respectively. Consider a simply connected domain$\Omega \subset \mathbb { R } ^ { d }$
+For clarity of the exposition, we focus on the critical Ising model on$\mathbb { Z } ^ { d }$and its rescaled versions$a \mathbb { Z } ^ { d }$for$a > 0$. We drop the subscript referring to$\beta$and $h$ as they are fixed to be equal to$\beta _ { c }$and 0 respectively. Consider a simply connected domain$\Omega \subsetneq \mathbb { R } ^ { d }$.
 
 (Spins) The most natural approach is to consider the spin-spin correlations defined for every $a > 0$and$x _ { 1 } , \ldots , x _ { n } \in \Omega$by
 
@@ -804,7 +800,7 @@ $$
 S _ {\Omega} ^ {(a)} (x _ {1}, \ldots , x _ {n}) := \langle \sigma_ {[ x _ {1} ] _ {a}} \ldots \sigma_ {[ x _ {n} ] _ {a}} \rangle_ {a \mathbb {Z} ^ {d} \cap \Omega},\tag{8.1}
 $$
 
-where$[ x ] _ { a }$is the vertex of$a \mathbb { Z } ^ { d } \cap \Omega$closest to $x$. These Schwinger functions already appeared as the key players in CQFT. One is then interested in the limit as $a$ tends to 0 of these properly renormalised quantities. If the limit exists, we call it$S _ { \Omega } ( x _ { 1 } , \ldots , x _ { n } )$
+where$[ x ] _ { a }$is the vertex of$a \mathbb { Z } ^ { d } \cap \Omega$closest to $x$. These Schwinger functions already appeared as the key players in CQFT. One is then interested in the limit as $a$ tends to 0 of these properly renormalised quantities. If the limit exists, we call it$S _ { \Omega } ( x _ { 1 } , \ldots , x _ { n } )$.
 
 (Energies) Another object of interest is the energy-energy correlations. For$a > 0$and $x _ { 1 } , \ldots , x _ { n } \in \Omega$, one considers at the quantities
 
@@ -812,13 +808,13 @@ $$
 T _ {\Omega} ^ {(a)} (x _ {1}, \dots , x _ {n}) := \left\langle \varepsilon_ {(x _ {1}) _ {a}} \dots \varepsilon_ {(x _ {n}) _ {a}} \right\rangle_ {a \mathbb {Z} ^ {d} \cap \Omega},\tag{8.2}
 $$
 
-where$\varepsilon _ { \{ u , v \} } : = \sigma _ { u } \sigma _ { v } - \langle \sigma _ { u } \sigma _ { v } \rangle _ { a \mathbb { Z } ^ { d } }$and$( x ) _ { a }$is the edge closest to $x$. The quantity$\varepsilon _ { x }$is called the energy. One is again interested in the limit$T _ { \Omega } ( x _ { 1 } , \ldots . . , x _ { n } )$as $a$ tends to 0 of these properly rescaled quantities.
+where$\varepsilon _ { \{ u , v \} } : = \sigma _ { u } \sigma _ { v } - \langle \sigma _ { u } \sigma _ { v } \rangle _ { a \mathbb { Z } ^ { d } }$and$( x ) _ { a }$is the edge closest to $x$. The quantity$\varepsilon _ { x }$is called the energy. One is again interested in the limit$T _ { \Omega } ( x _ { 1 } , \ldots , x _ { n } )$as $a$ tends to 0 of these properly rescaled quantities.
 
 (Geometry of interfaces) In two dimensions, another direction was proposed in the nineties. It consists in considering the low-temperature representation, i.e. the interfaces between plus and minus spins. In a domain$\Omega ,$it creates a family of non-intersecting loops together with arcs from boundary to boundary. Let${ \mathfrak { C } } _ { \Omega }$be the set of such collections of loops and arcs. The set${ \mathfrak { C } } _ { \Omega }$can be turned into a metric space by attaching a distance$d _ { \Omega }$which, heuristically, states that two configurations are close to each other when the large loops and arcs are close to each other. Let us call$C _ { \Omega } ^ { ( a ) }$the random variable obtained by considering the low-temperature expansion of a critical Ising model configuration in$a \mathbb { Z } ^ { d } \cap \Omega$. Here, we are interested in the limit of$C _ { \Omega } ^ { ( a ) }$as a random object.
 
-Now, what do we mean by conformal invariance? Roughly speaking, we mean that certain quantities of the model are conformally covariant/invariant. With the definitions above, it would for instance mean that there exists a way of renormalising the$S _ { \Omega } ^ { ( a ) } ( x _ { 1 } , \ldots \ldots , x _ { n } )$ and$T _ { \Omega } ^ { ( a ) } ( x _ { 1 } , \dots , x _ { n } )$in such a way that they converge to quantities$S _ { \Omega } ( x _ { 1 } , \dots , x _ { n } )$and
+Now, what do we mean by conformal invariance? Roughly speaking, we mean that certain quantities of the model are conformally covariant/invariant. With the definitions above, it would for instance mean that there exists a way of renormalising the$S _ { \Omega } ^ { ( a ) } ( x _ { 1 } , \ldots , x _ { n } )$ and$T _ { \Omega } ^ { ( a ) } ( x _ { 1 } , \dots , x _ { n } )$in such a way that they converge to quantities$S _ { \Omega } ( x _ { 1 } , \dots , x _ { n } )$and
 
-$T _ { \Omega } ( x _ { 1 } , \dots , x _ { n } )$that satisfy that there exist$\Delta _ { \sigma } , \Delta _ { \varepsilon }$such that for every conformal (i.e. holomorphic and one-to-one) map$f : \Omega \to f ( \Omega )$, we have
+$T _ { \Omega } ( x _ { 1 } , \dots , x _ { n } )$that satisfy that there exist$\boldsymbol {\Delta} _ { \sigma } , \boldsymbol {\Delta} _ { \varepsilon }$such that for every conformal (i.e. holomorphic and one-to-one) map$f : \Omega \to f ( \Omega )$, we have
 
 $$
 S _ {f (\Omega)} (f (x _ {1}), \ldots , f (x _ {n})) = | f ^ {\prime} (x _ {1}) | ^ {- \Delta_ {\sigma}} \dots | f ^ {\prime} (x _ {n}) | ^ {- \Delta_ {\sigma}} S _ {\Omega} (x _ {1}, \ldots , x _ {n}),\tag{8.3}
@@ -828,27 +824,27 @@ $$
 T _ {f (\Omega)} (f (x _ {1}), \ldots , f (x _ {n})) = | f ^ {\prime} (x _ {1}) | ^ {- \Delta_ {\varepsilon}} \dots | f ^ {\prime} (x _ {n}) | ^ {- \Delta_ {\varepsilon}} T _ {\Omega} (x _ {1}, \ldots , x _ {n}).\tag{8.4}
 $$
 
-For the geometry of interfaces, the situation is even simpler as one means that the family of loops and arcs${ C } _ { \Omega } ^ { ( a ) }$converges to a limit$C _ { \Omega }$as $a$ tends to 0 and that this limit satisfies that $C _ { f ( \Omega ) }$and$f ( C _ { \Omega } )$have the same law for every conformal map$f : \Omega \to f ( \Omega )$).
+For the geometry of interfaces, the situation is even simpler as one means that the family of loops and arcs${ C } _ { \Omega } ^ { ( a ) }$converges to a limit$C _ { \Omega }$as $a$ tends to 0 and that this limit satisfies that $C _ { f ( \Omega ) }$and$f ( C _ { \Omega } )$have the same law for every conformal map$f : \Omega \to f ( \Omega )$.
 
 ## 8.2. Conformal invariance of the 2D Ising model
 
 Around fifteen years ago, Smirnov [99] and Chelkak and Smirnov [28] obtained a major breakthrough towards proving conformal invariance of 2D Ising model. This fundamental proof, that we discuss below, opened the way to a very deep understanding of the scaling limit of the model.
 
-A few years later, Chelkak-Izyurov-Hongler [27] proved conformal covariance of the spin-spin correlations (with$\Delta _ { \sigma } = 1 / 8 )$. It was later proved in [22] that the quantities $S _ { \Omega } ( x _ { 1 } , \ldots , x _ { n } )$are the Schwinger functions of a random distribution, that can be understood as the spin-field that physicists sometimes refer to. In the same spirit, conformal covariance of the energy-energy correlations was proved in [65] (with$\Delta _ { \varepsilon } = 1 )$). In this case, one may prove that the correlations are not the Schwinger functions of a random distribution. Turning to interfaces, the following result was the culmination of the theory: the arcs in$C _ { \Omega }$are given by the so-called free arc ensemble of parameter 3 and the loops by conformal loop ensembles of parameter 3 in the simply connected domains obtained as the complements of the arcs (see [13,14]). In particular, the scaling limit is conformally invariant. This body of work uses the ideas from [28, 99] together with the theory of the Schramm-Loewner evolution and its consequences.
+A few years later, Chelkak-Izyurov-Hongler [27] proved conformal covariance of the spin-spin correlations (with$\boldsymbol {\Delta} _ { \sigma } = 1 / 8 )$. It was later proved in [22] that the quantities $S _ { \Omega } ( x _ { 1 } , \ldots , x _ { n } )$are the Schwinger functions of a random distribution, that can be understood as the spin-field that physicists sometimes refer to. In the same spirit, conformal covariance of the energy-energy correlations was proved in [65] (with$\boldsymbol {\Delta} _ { \varepsilon } = 1 )$ In this case, one may prove that the correlations are not the Schwinger functions of a random distribution. Turning to interfaces, the following result was the culmination of the theory: the arcs in$C _ { \Omega }$are given by the so-called free arc ensemble of parameter 3 and the loops by conformal loop ensembles of parameter 3 in the simply connected domains obtained as the complements of the arcs (see [13,14]). In particular, the scaling limit is conformally invariant. This body of work uses the ideas from [28, 99] together with the theory of the Schramm-Loewner evolution and its consequences.
 
-As mentioned above, an important breakthrough came from the works [28,99] where conformal covariance of so-calledfermionic observables$f _ { \Omega } ^ { ( a ) }$is proved. Those observables are linear combinations of order-disorder operators (see Frame 6) considered by Kadanoff and Ceva in [74], see also [26] for several connections to other classical objects.
+As mentioned above, an important breakthrough came from the works [28,99] where conformal covariance of so-called fermionic observables$f _ { \Omega } ^ { ( a ) }$is proved. Those observables are linear combinations of order-disorder operators (see Frame 6) considered by Kadanoff and Ceva in [74], see also [26] for several connections to other classical objects.
 
 ## Frame 6: Fermionic observable
 
-Consider a simply connected domain$\Omega \subset \mathbb { C }$and for$a > 0$, let $\Omega$ be the largest connected component of$a \mathbb { Z } ^ { 2 } \cap \Omega$. Consider $n$ vertices$x _ { 1 } , \ldots , x _ { n }$of $\Omega$, and $n$ faces $f _ { 1 } , \ldots , f _ { n }$of $\Omega$ such that$f _ { i }$is bordered by$x _ { i }$for every$1 \leq i \leq n$. Choose $n$ disjoint cuts $\ell _ { 1 } , \ldots , \ell _ { n }$, i.e. families of dual edges$( e _ { i } ^ { * } ( j ) )$forming self-avoiding paths in the dual from the unbounded face to the center of$f _ { i }$. Define the disorder operator$\mu _ { \ell }$for a cut ℓ as the observable that efectively switches the coupling constants of the edges$e _ { i } ( j )$ associated with the$e _ { i } ^ { * } ( j )$in the cut (it can be written as a product of terms of the form $\exp [ - 2 \beta \sigma _ { x } \sigma _ { y } ]$over edges appearing in the family of edges$\{ e _ { i } ( j ) : i , j \} )$). Then, the order-disorder correlations are given by the formula
+Consider a simply connected domain$\Omega \subset \mathbb { C }$and for$a > 0$, let $\mathbf { \Omega }$ be the largest connected component of$a \mathbb { Z } ^ { 2 } \cap \Omega$. Consider $n$ vertices$x _ { 1 } , \ldots , x _ { n }$of $\mathbf { \Omega }$, and $n$ faces $f _ { 1 } , \ldots , f _ { n }$of $\mathbf { \Omega }$ such that$f _ { i }$is bordered by$x _ { i }$for every$1 \leq i \leq n$. Choose $n$ disjoint cuts $\ell _ { 1 } , \ldots , \ell _ { n }$, i.e. families of dual edges$( e _ { i } ^ { * } ( j ) )$forming self-avoiding paths in the dual from the unbounded face to the center of$f _ { i }$. Define the disorder operator$\mu _ { \ell }$for a cut ℓ as the observable that effectively switches the coupling constants of the edges$e _ { i } ( j )$ associated with the$e _ { i } ^ { * } ( j )$in the cut (it can be written as a product of terms of the form $\exp [ - 2 \beta \sigma _ { x } \sigma _ { y } ]$over edges appearing in the family of edges$\{ e _ { i } ( j ) : i , j \} )$. Then, the order-disorder correlations are given by the formula
 
 $$
-F _ {\Omega} ^ {(a)} (x _ {1}, f _ {1}, \ldots , x _ {n}, f _ {n}) := \langle \sigma_ {x _ {1}} \mu_ {\ell_ {1}} \ldots \sigma_ {x _ {n}} \mu_ {\ell_ {n}} \rangle_ {\Omega}.\tag{8.5}
+F _ {\Omega} ^ {(a)} (x _ {1}, f _ {1}, \ldots , x _ {n}, f _ {n}) := \langle \sigma_ {x _ {1}} \mu_ {\ell_ {1}} \ldots \sigma_ {x _ {n}} \mu_ {\ell_ {n}} \rangle_ {\mathbf { \Omega }}.\tag{8.5}
 $$
 
 Let us mention that these quantities can be expressed in terms of correlations of Grassmann variables in the Schultz-Mattis-Lieb representation [95].
 
-Smirnov introduced a fermionic observable$f _ { \Omega } ^ { ( a ) }$defined at centers of edges $\{ x , y \}$of $\Omega$ that can be written as a linear combination (with complex coeficients) of the$F _ { \Omega } ^ { ( a ) }$with$x _ { 1 }$equal to $x$ or $y$, and$f _ { 1 }$to one of the two faces bordered by$\{ x , y \}$. The details of the definition are unimportant here and the take-home message is that Chelkak and Smirnov proved that the limit (as $a$ tends to 0) of these fermionic observables is conformally covariant.
+Smirnov introduced a fermionic observable$f _ { \Omega } ^ { ( a ) }$defined at centers of edges $\{ x , y \}$of $\mathbf { \Omega }$ that can be written as a linear combination (with complex coefficients) of the$F _ { \Omega } ^ { ( a ) }$with$x _ { 1 }$equal to $x$ or $y$, and$f _ { 1 }$to one of the two faces bordered by$\{ x , y \}$. The details of the definition are unimportant here and the take-home message is that Chelkak and Smirnov proved that the limit (as $a$ tends to 0) of these fermionic observables is conformally covariant.
 
 The conformal covariance of the fermionic observable should be understood as the first brick among the conformal covariance results of spin-spin, energy-energy correlations, and even of the conformal invariance of interfaces. Let us mention that these results require substantial additional ideas compared to [28,99]. In fact, conformal covariance/invariance of virtually all quantities one may be interested in the 2D Ising model can be recovered today.
 
@@ -876,11 +872,11 @@ The first impressive progress can be found in the work of Chelkak and Smirnov th
 
 In recent developments, Chelkak generalised the conformal invariance result to a wider class of Ising models, namely those defined on planar locally-finite doubly periodic weighted graphs$( G , J )$, i.e. weighted graphs which are invariant under the action of some lattice$\Lambda \approx \mathbb { Z } \oplus \mathbb { Z }$(in such case$G / \Lambda$is a finite graph embedded in the torus). For such models, Chelkak proved in [25] that there exists an embedding in the plane, called an $s$-embedding, with the property that the scaling limit of the critical model defined on this embedding is conformally invariant.
 
-This result is a strong indication of universality for planar graphs. Now what happens beyond planar graphs? The universality conjecture asserts that the scaling limit depends on the large scale geometry of the graph (for instance a planar Euclidean geometry). In particular, one may consider the graph obtained with the vertex-set${ \mathbb { Z } } ^ { 2 }$and edge-set given by pairs ofvertices at a distance at most $R$ ofeach other. This model, called thefinite-range model on${ \mathbb { Z } } ^ { 2 }$, should have a behaviour that is similar to the nearest-neighbour case as it is “almost planar”. The additional dificulty is that non-planarity immediately breaks the integrability of the system. The universality of such Ising models has been investigated in two diferent directions.
+This result is a strong indication of universality for planar graphs. Now what happens beyond planar graphs? The universality conjecture asserts that the scaling limit depends on the large scale geometry of the graph (for instance a planar Euclidean geometry). In particular, one may consider the graph obtained with the vertex-set${ \mathbb { Z } } ^ { 2 }$and edge-set given by pairs of vertices at a distance at most $R$ of each other. This model, called the finite-range model on${ \mathbb { Z } } ^ { 2 }$, should have a behaviour that is similar to the nearest-neighbour case as it is “almost planar”. The additional difficulty is that non-planarity immediately breaks the integrability of the system. The universality of such Ising models has been investigated in two different directions.
 
-First, one may consider finite-range models that are perturbations of the nearestneighbour integrable case, meaning that non-nearest neighbour interactions are very weak, i.e. that$J _ { x , y }$is small when$1 < \| x - y \| _ { 2 } \leq R$. Using the Schultz-Mattis-Lieb Grassmann representation [95] of the nearest neighbour case, one may express the partition function and more generally the energy-energy and spin-spin correlations in terms of Grassmann variables, and therefore at the end in terms ofthe nearest-neighbour model. Using an elaborate multi-scale analysis and studying the renormalisation of parameters induced by this multi-scale analysis, Giuliani-Greenblatt-Mastropietro derived in [53] the large-scale behaviour of energy-energy correlations in the full plane. While the previously mentioned renormalisation schemes in dimension 4 were enabled by the fact that the model is a small perturbation of the discrete GFF (which is a gaussian process), the two-dimensional case relies on a similar connection, this time to the n.n.f. Ising model on${ \mathbb { Z } } ^ { 2 }$(which has a Grassmannian structure). As a consequence, the strategy sufers from the same limitations as the 4D case in the sense that it is restricted to small perturbations of the n.n.f. Ising model on${ \mathbb { Z } } ^ { 2 }$
+First, one may consider finite-range models that are perturbations of the nearest-neighbour integrable case, meaning that non-nearest neighbour interactions are very weak, i.e. that$J _ { x , y }$is small when$1 < \| x - y \| _ { 2 } \leq R$. Using the Schultz-Mattis-Lieb Grassmann representation [95] of the nearest neighbour case, one may express the partition function and more generally the energy-energy and spin-spin correlations in terms of Grassmann variables, and therefore at the end in terms of the nearest-neighbour model. Using an elaborate multi-scale analysis and studying the renormalisation of parameters induced by this multi-scale analysis, Giuliani-Greenblatt-Mastropietro derived in [53] the large-scale behaviour of energy-energy correlations in the full plane. While the previously mentioned renormalisation schemes in dimension 4 were enabled by the fact that the model is a small perturbation of the discrete GFF (which is a gaussian process), the two-dimensional case relies on a similar connection, this time to the n.n.f. Ising model on${ \mathbb { Z } } ^ { 2 }$(which has a Grassmannian structure). As a consequence, the strategy suffers from the same limitations as the 4D case in the sense that it is restricted to small perturbations of the n.n.f. Ising model on${ \mathbb { Z } } ^ { 2 }$
 
-A totally diferent approach explaining the emergence of planarity in finite range Ising models was proposed in [6] based on the random current representation. The underlying idea relies on the fact that thanks to the switching lemma, intersection properties of random currents with sources are related to the structure of $n$-point correlations in the model. Yet, the intersection properties of long paths on the graph induced by${ \mathbb { Z } } ^ { 2 }$and the edges between vertices at a distance $R$ of each other resemble the ones that can be obtained for planar graphs. As an example of a possible application, one can obtain that spin-spin correlations on the boundary of a domain Ω have a Pfafian structure, a result which is specific to the universality class of the 2D Ising model. More precisely, for any collection of points$x _ { 1 } = ( k _ { 1 } , 0 ) , \ldots , x _ { 2 n } =$ $( k _ { 2 n } , 0 )$satisfying$k _ { 1 } < k _ { 2 } < \cdots < k _ { 2 n }$on the boundary of the upper half-plane H$: = \mathbb { Z } \times \mathbb { Z } _ { + }$
+A totally different approach explaining the emergence of planarity in finite range Ising models was proposed in [6] based on the random current representation. The underlying idea relies on the fact that thanks to the switching lemma, intersection properties of random currents with sources are related to the structure of $n$-point correlations in the model. Yet, the intersection properties of long paths on the graph induced by${ \mathbb { Z } } ^ { 2 }$and the edges between vertices at a distance $R$ of each other resemble the ones that can be obtained for planar graphs. As an example of a possible application, one can obtain that spin-spin correlations on the boundary of a domain Ω have a Pfafian structure, a result which is specific to the universality class of the 2D Ising model. More precisely, for any collection of points$x _ { 1 } = ( k _ { 1 } , 0 ) , \ldots , x _ { 2 n } =$ $( k _ { 2 n } , 0 )$satisfying$k _ { 1 } < k _ { 2 } < \cdots < k _ { 2 n }$on the boundary of the upper half-plane $\mathbb { H } := \mathbb { Z } \times \mathbb { Z } _ { + }$,
 
 $$
 \langle \sigma_ {x _ {1}} \dots \sigma_ {x _ {2 n}} \rangle_ {\mathbb {H}, \beta_ {c}} = \operatorname{Pfaff} _ {n} \left(\left[ \langle \sigma_ {x _ {i}} \sigma_ {x _ {j}} \rangle_ {\mathbb {H}, \beta_ {c}} \right] _ {1 \leq i <   j \leq 2 n}\right) [ 1 + o (1) ],\tag{8.7}
@@ -888,7 +884,7 @@ $$
 
 where$o ( 1 )$is a function of the points$x _ { 1 } , \ldots , x _ { 2 n }$which tends to zero for configuration sequences with min$\{ | x _ { i } - x _ { j } | : 1 \le i < j \le 2 n \}$tending to infinity.
 
-This is, to the author’s knowledge, the first property witnessing the 2D Ising universality class that can be obtained in a level of generality that is not restricted to planar graphs and their perturbations. Also, the proof relies on the key properties of the Ising model that one would like to use: the ± spin symmetry (entering the story through the use of the random current representation) and the large scale planarity of the underlying graph (which for finite range models on${ \mathbb { Z } } ^ { 2 }$is the reason behind the “almost” intersection properties of long paths). The trade-of is that full conformal invariance of this family of models is still out of reach.
+This is, to the author’s knowledge, the first property witnessing the 2D Ising universality class that can be obtained in a level of generality that is not restricted to planar graphs and their perturbations. Also, the proof relies on the key properties of the Ising model that one would like to use: the ± spin symmetry (entering the story through the use of the random current representation) and the large scale planarity of the underlying graph (which for finite range models on${ \mathbb { Z } } ^ { 2 }$is the reason behind the “almost” intersection properties of long paths). The trade-off is that full conformal invariance of this family of models is still out of reach.
 
 ## 8.4. Conformal bootstrap in 3D Ising model
 
@@ -896,23 +892,23 @@ At this point, we already mentioned that the 1D Ising model was trivially solved
 
 In recent years, a striking progress has been made on the physics side using the so-called conformal bootstrap. A conformal field theory (CFT) is characterised by the correlation functions ⟨−−⟩ of an infinite number of local operators${ \mathcal { A } } ( x )$, which in the case of Ising should be understood as the objects obtained by taking the limit of random variables defined in terms of spins next to a given position of space. For example, the scaling limit of spin and energy observables$\sigma _ { x }$and$\varepsilon _ { \{ x , y \} } = \sigma _ { x } \sigma _ { y } - \langle \sigma _ { x } \sigma _ { y } \rangle$give such local operators in the case of Ising, but one may think of more complicated ones, such as the scaling limit of (products of) the gradient$\sigma _ { x + y } - \sigma _ { x }$of the spins.
 
-Conformal invariance already forces huge constraints on the correlations of operators in the theory. Oversimplifying slightly, for scalar local operators there must exist expo nents$\Delta \mathcal { A }$and coeficients$f _ { \mathcal { A B C } }$such that
+Conformal invariance already forces huge constraints on the correlations of operators in the theory. Oversimplifying slightly, for scalar local operators there must exist exponents$\boldsymbol {\Delta} _ {\mathcal { A } }$and coefficients$f _ { \mathcal { A B C } }$such that
 
 $$
 \langle \mathcal {A} (x) \mathcal {A} (y) \rangle = \frac {1}{\| x - y \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {A}}}},\tag{8.8}
 $$
 
 $$
-\langle \mathcal {A} (x) \mathcal {B} (y) \mathcal {C} (z) \rangle = \frac {f _ {\mathcal {A B C}}}{\| x - y \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {A}} + \boldsymbol {\Delta} _ {\mathcal {B}} - \boldsymbol {\Delta} _ {C}} \| y - z \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {B}} + \boldsymbol {\Delta} _ {C} - \boldsymbol {\Delta} _ {\mathcal {A}}} \| z - x \| _ {2} ^ {\boldsymbol {\Delta} _ {C} + \boldsymbol {\Delta} _ {\mathcal {A}} - \boldsymbol {\Delta} _ {\mathcal {B}}}}\tag{8.9}
+\langle \mathcal {A} (x) \mathcal {B} (y) \mathcal {C} (z) \rangle = \frac {f _ {\mathcal {A B C}}}{\| x - y \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {A}} + \boldsymbol {\Delta} _ {\mathcal {B}} - \boldsymbol {\Delta} _ {\mathcal {C}}} \| y - z \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {B}} + \boldsymbol {\Delta} _ {\mathcal {C}} - \boldsymbol {\Delta} _ {\mathcal {A}}} \| z - x \| _ {2} ^ {\boldsymbol {\Delta} _ {\mathcal {C}} + \boldsymbol {\Delta} _ {\mathcal {A}} - \boldsymbol {\Delta} _ {\mathcal {B}}}}\tag{8.9}
 $$
 
-(in (8.8), we adopted without loss ofgenerality the normalization of A that makes the constant in the numerator equal to 1). The exponents and coeficients depend a priori on the CFT, but a striking feature is that there exists a way, called the conformal block decomposition, to express multi-point correlations of local operators in terms of three-point functions by gluing points together using the so-called operator product expansion. This theoretically shows that all the information in a CFT can be encoded in terms of the$\Delta \mathcal { A }$and the$f _ { \mathcal { A B C } }$. Of course, determining these coeficients is very dificult.
+(in (8.8), we adopted without loss of generality the normalization of $\mathcal { A }$ that makes the constant in the numerator equal to 1). The exponents and coefficients depend a priori on the CFT, but a striking feature is that there exists a way, called the conformal block decomposition, to express multi-point correlations of local operators in terms of three-point functions by gluing points together using the so-called operator product expansion. This theoretically shows that all the information in a CFT can be encoded in terms of the$\Delta _ {\mathcal { A } }$and the$f _ { \mathcal { A B C } }$. Of course, determining these coefficients is very difficult.
 
-While in 2D this was done in the eighties, the analogous question remains widely open in 3D. Nevertheless, one can proceed in a slightly diferent way by asking which choices of these quantities can lead to a consistent CFT. This approach, called the conformal bootstrap, was shown to be amazingly powerful in 3D. The underlying idea is that one is facing an infinite family of consistency relations coming from diferent ways of applying the conformal block decomposition (which is not unique). For instance, one may start with $\langle \mathcal { A } ( x _ { 1 } ) \mathcal { A } ( x _ { 2 } ) \mathcal { A } ( x _ { 3 } ) \mathcal { A } ( x _ { 4 } ) \rangle$and proceed by gluing first$x _ { 1 }$and$x _ { 2 }$or, on the contrary,$x _ { 3 }$and$x _ { 4 }$. This leads to two decompositions of the same object as a linear combination (with positive coeficients in the Ising case) of known objects called the conformal blocks. Equalling these two decompositions, one ends up with constraints on the possible exponents.
+While in 2D this was done in the eighties, the analogous question remains widely open in 3D. Nevertheless, one can proceed in a slightly different way by asking which choices of these quantities can lead to a consistent CFT. This approach, called the conformal bootstrap, was shown to be amazingly powerful in 3D. The underlying idea is that one is facing an infinite family of consistency relations coming from different ways of applying the conformal block decomposition (which is not unique). For instance, one may start with $\langle \mathcal { A } ( x _ { 1 } ) \mathcal { A } ( x _ { 2 } ) \mathcal { A } ( x _ { 3 } ) \mathcal { A } ( x _ { 4 } ) \rangle$and proceed by gluing first$x _ { 1 }$and$x _ { 2 }$or, on the contrary,$x _ { 3 }$and$x _ { 4 }$. This leads to two decompositions of the same object as a linear combination (with positive coefficients in the Ising case) of known objects called the conformal blocks. Equalling these two decompositions, one ends up with constraints on the possible exponents.
 
-There is a priori no reason to be able to determine the critical exponents as the unique values satisfying a (finite) number of constraints thus obtained. Indeed, the set of possible values may not shrink when considering more and more conditions, but it happens that in the case of the Ising model, the region of the plane for possible critical exponents$( \Delta _ { \sigma } , \Delta _ { \varepsilon } )$for the spin and energy local operators can be reduced drastically, to a point where estimates – namely$\left( \Delta _ { \sigma } , \Delta _ { \varepsilon } \right) = \left( 0 . 5 1 8 1 4 8 9 ( 1 0 ) , 1 . 4 1 2 6 2 5 ( 1 0 ) \right)$– using this bootstrap technique become way better than Monte-Carlo simulations. We refer to [41,78,93] for some of the original papers and [97] for a review ofthe most recent progress in this very exciting area ofmodern theoretical physics.
+There is a priori no reason to be able to determine the critical exponents as the unique values satisfying a (finite) number of constraints thus obtained. Indeed, the set of possible values may not shrink when considering more and more conditions, but it happens that in the case of the Ising model, the region of the plane for possible critical exponents$( \boldsymbol {\Delta} _ { \sigma } , \boldsymbol {\Delta} _ { \varepsilon } )$for the spin and energy local operators can be reduced drastically, to a point where estimates – namely$\left( \boldsymbol {\Delta} _ { \sigma } , \boldsymbol {\Delta} _ { \varepsilon } \right) = \left( 0 . 5 1 8 1 4 8 9 ( 1 0 ) , 1 . 4 1 2 6 2 5 ( 1 0 ) \right)$– using this bootstrap technique become way better than Monte-Carlo simulations. We refer to [41,78,93] for some of the original papers and [97] for a review of the most recent progress in this very exciting area of modern theoretical physics.
 
-Let us conclude that even if one may use conformal bootstrap to exactly identify the critical exponents, this would leave the question of proving that the critical 3D Ising model indeed converges to a CFT widely open. In some sense, getting suficient information on the possible scaling limits and proving that these scaling limits indeed exist are two almost entirely disjoint questions even though, of course, one may hope that information on the former question would help answer the latter.
+Let us conclude that even if one may use conformal bootstrap to exactly identify the critical exponents, this would leave the question of proving that the critical 3D Ising model indeed converges to a CFT widely open. In some sense, getting sufficient information on the possible scaling limits and proving that these scaling limits indeed exist are two almost entirely disjoint questions even though, of course, one may hope that information on the former question would help answer the latter.
 
 ## 9. A tail to this story
 
@@ -930,25 +926,25 @@ This work has received funding from the European Research Council (ERC) under th
 
 ## References
 
-[1]M. Aizenman. Translation invariance and instability of phase coexistence in the two dimensional Ising system. Commun. Math. Phys. 73 (1980), no. 1, 83–94.
+[1] M. Aizenman. Translation invariance and instability of phase coexistence in the two dimensional Ising system. Commun. Math. Phys. 73 (1980), no. 1, 83–94.
 
-[2]M. Aizenman. Geometric analysis of$\varphi ^ { 4 }$fields and Ising models. I, II, Commun. Math. Phys. 86 (1982), no. 1, 1–48.
+[2] M. Aizenman. Geometric analysis of $\varphi ^ { 4 }$ fields and Ising models. I, II, Commun. Math. Phys. 86 (1982), no. 1, 1–48.
 
-[3]M. Aizenman, D.J. Barsky, and R. Fernández. The phase transition in a general class of Ising-type models is sharp, J. Statist. Phys. 47 (1987), no. 3–4, 343–374.
+[3] M. Aizenman, D.J. Barsky, and R. Fernández. The phase transition in a general class of Ising-type models is sharp, J. Statist. Phys. 47 (1987), no. 3–4, 343–374.
 
-[4]M. Aizenman and H. Duminil-Copin. Marginal triviality of the scaling limits of critical 4D Ising and$\phi _ { 4 } ^ { 4 }$models. Ann. Math. 194 (2021), no. 1, 163–235.
+[4] M. Aizenman and H. Duminil-Copin. Marginal triviality of the scaling limits of critical 4D Ising and $\phi _ { 4 } ^ { 4 }$ models. Ann. Math. 194 (2021), no. 1, 163–235.
 
-[5]M. Aizenman, H. Duminil-Copin, and V. Sidoravicius. Random Currents and Continuity of Ising Model’s Spontaneous Magnetization, Commun. Math. Phys 334 (2015), 719–742.
+[5] M. Aizenman, H. Duminil-Copin, and V. Sidoravicius. Random Currents and Continuity of Ising Model’s Spontaneous Magnetization, Commun. Math. Phys 334 (2015), 719–742.
 
-[6]M. Aizenman, H. Duminil-Copin, V. Tassion, and S. Warzel. Emergent planarity in two-dimensional Ising models with finite-range interactions. Invent. Math. 216 (2019), no. 3, 661–743.
+[6] M. Aizenman, H. Duminil-Copin, V. Tassion, and S. Warzel. Emergent planarity in two-dimensional Ising models with finite-range interactions. Invent. Math. 216 (2019), no. 3, 661–743.
 
-[7]M. Aizenman and R. Fernández. On the critical behavior of the magnetization in high-dimensional Ising models, J. Statist. Phys. 44 (1986), no. 3–4, 393–454.
+[7] M. Aizenman and R. Fernández. On the critical behavior of the magnetization in high-dimensional Ising models, J. Statist. Phys. 44 (1986), no. 3–4, 393–454.
 
-[8]J.R. Baker and A. George. Application of the Padé approximant method to the investigation of some magnetic properties of the Ising model. Phys. Rev. 124 (1961), no. 3, 768.
+[8] J.R. Baker and A. George. Application of the Padé approximant method to the investigation of some magnetic properties of the Ising model. Phys. Rev. 124 (1961), no. 3, 768.
 
-[9]R.J. Baxter. Exactly solved models in statistical mechanics. Academic Press Inc. London, 1989. Reprint of the 1982 original.
+[9] R.J. Baxter. Exactly solved models in statistical mechanics. Academic Press Inc. London, 1989. Reprint of the 1982 original.
 
-[10] R.J. Baxter and I.G. Enting. 399th solution of the Ising model. J. ofPhys. A: Math. and Gen. 11 (1978), no. 12, 2463.
+[10] R.J. Baxter and I.G. Enting. 399th solution of the Ising model. J. of Phys. A: Math. and Gen. 11 (1978), no. 12, 2463.
 
 [11] R. Bauerschmidt, D.C. Brydges, and G. Slade. Scaling limits and critical behaviour of the 4-dimensional $n$-component $|\phi ^ { 4 }|$ spin model. J. Stat. Phys. 157 (2014), 692–742.
 
@@ -966,7 +962,7 @@ This work has received funding from the European Research Council (ERC) under th
 
 [18] T. Bodineau. Translation invariant Gibbs states for the Ising model. Prob. Th. Rel. Fields 135 (2006), no. 2, 153–168.
 
-[19]W. Bragg and E. Williams. The effect of thermal agitation on atomic arrangement in alloys. (–II) Proc. of the Royal Soc. of London. 145 (1934), no. 855, 699–730 – 151 (1935), no. 874, 540–566.
+[19] W. Bragg and E. Williams. The effect of thermal agitation on atomic arrangement in alloys. (–II) Proc. of the Royal Soc. of London. 145 (1934), no. 855, 699–730 – 151 (1935), no. 874, 540–566.
 
 [20] S.G. Brush. History of the Lenz-Ising model. Rev. Mod. Phys. 39 (1967), no. 4, 883.
 
@@ -982,7 +978,7 @@ This work has received funding from the European Research Council (ERC) under th
 
 [26] D. Chelkak, D. Cimasoni, and A. Kassel. Revisiting the combinatorics of the 2D Ising model. Ann. IHP D 4 (2017), no. 3, 309–385.
 
-[27] D. Chelkak, C. Hongler, and K. Izyurov. Conformal invariance of spin correla tions in the planar Ising model. Ann. ofMath. (2) 181 (2015), no. 3, 1087–1138.
+[27] D. Chelkak, C. Hongler, and K. Izyurov. Conformal invariance of spin correlations in the planar Ising model. Ann. of Math. (2) 181 (2015), no. 3, 1087–1138.
 
 [28] D. Chelkak, and S. Smirnov. Universality in the 2D Ising model and conformal invariance of fermionic observables. Invent. Math. 189 (2012), no. 3, 515–580.
 
@@ -994,13 +990,13 @@ This work has received funding from the European Research Council (ERC) under th
 
 [32] R.L. Dobrushin, R. Kotecký, and S. Shlosman. Wulff construction: a global shape from local interaction. Providence: American Math. Society. 104 (1992), x+204.
 
-[33]N.P. Dolbilin, ,Y.M. Zinov’ev, A.S. Mishchenko, M.A. Shtan’ko, and M.I. Shtogrin. The two-dimensional Ising model and the Kac-Ward determinant. Izvestiya: Math 63 (1999), no. 4, 707.
+[33] N.P. Dolbilin, ,Y.M. Zinov’ev, A.S. Mishchenko, M.A. Shtan’ko, and M.I. Shtogrin. The two-dimensional Ising model and the Kac-Ward determinant. Izvestiya: Math. 63 (1999), no. 4, 707.
 
 [34] C. Domb and M.F. Sykes. On the susceptibility of a ferromagnetic above the Curie point. Proc. Royal Soc. London. Series A. Mathematical and Physical Sciences 240 (1957), no. 1221, 214–228.
 
-[35]H. Duminil-Copin. Random currents expansion of the Ising model. arXiv:1607.06933 (2016).
+[35] H. Duminil-Copin. Random currents expansion of the Ising model. arXiv:1607.06933 (2016).
 
-[36] H. Duminil-Copin, S. Goswami, and A. Raoufi. Exponential decay of truncated correlations for the Ising model in any dimension for all but the critical tempera ture. Commun. Math. Phys. 374 (2020), no. 2, 891–921.
+[36] H. Duminil-Copin, S. Goswami, and A. Raoufi. Exponential decay of truncated correlations for the Ising model in any dimension for all but the critical temperature. Commun. Math. Phys. 374 (2020), no. 2, 891–921.
 
 [37] H. Duminil-Copin, C. Hongler, and P. Nolin. Connection probabilities and RSW-type bounds for the two-dimensional FK Ising model. Comm. Pure Appl. Math. 64 (2011), no. 9, 1165–1198.
 
@@ -1010,33 +1006,33 @@ This work has received funding from the European Research Council (ERC) under th
 
 [40] R.G. Edwards, and A.D. Sokal. Generalization of the Fortuin-Kasteleyn-Swendsen-Wang representation and monte carlo algorithm. Phys. Rev. D 38 (1988), no. 6, 2009.
 
-[41]S. El-Showk, M.F. Paulos, D. Poland, V.S. Rychkov, D. Simmons-Duffin, and A. Vichi. Solving the 3D Ising model with the conformal bootstrap. Phys. Rev D 86 (2012), no. 2, 025022.
+[41] S. El-Showk, M.F. Paulos, D. Poland, V.S. Rychkov, D. Simmons-Duffin, and A. Vichi. Solving the 3D Ising model with the conformal bootstrap. Phys. Rev. D 86 (2012), no. 2, 025022.
 
 [42] J.W. Essam and M.E. Fisher. Padé approximant studies of the lattice gas and Ising ferromagnet below the critical point. J. Chem. Phys. 38 (1963), no. 4, 802–812.
 
-[43] J. Feldman, J. Magnen, V. Rivasseau, and R. Sénéor. Construction and Borel Summability of Infrared$\Phi _ { 4 } ^ { 4 }$by a Phase Space Expansion. Commun. Math. Phys. 109 (1987), 437–480.
+[43] J. Feldman, J. Magnen, V. Rivasseau, and R. Sénéor. Construction and Borel Summability of Infrared $\Phi _ { 4 } ^ { 4 }$ by a Phase Space Expansion. Commun. Math. Phys. 109 (1987), 437–480.
 
-[44] J.S. Feldman and K. Osterwalder. The Wightman axioms and the mass gap for weakly coupled$\phi _ { 3 } ^ { 4 }$quantum field theories. Ann. Phys. 97 (1976), no. 1, 80–135.
+[44] J.S. Feldman and K. Osterwalder. The Wightman axioms and the mass gap for weakly coupled $\phi _ { 3 } ^ { 4 }$ quantum field theories. Ann. Phys. 97 (1976), no. 1, 80–135.
 
-[45]M.E. Fisher. Correlation functions and the critical region of simple fluids. J Math. Phys. 5 (1964), no. 7, 944–962.
+[45] M.E. Fisher. Correlation functions and the critical region of simple fluids. J. Math. Phys. 5 (1964), no. 7, 944–962.
 
-[46]M.E. Fisher. On the dimer solution of planar Ising models. J. Math. Phys. 7 (1963) 1776.
+[46] M.E. Fisher. On the dimer solution of planar Ising models. J. Math. Phys. 7 (1963) 1776.
 
 [47] C.M. Fortuin and P.W. Kasteleyn. On the random-cluster model. I. Introduction and relation to other models. Physica 57 (1972), 536–564.
 
 [48] S. Friedli and Y. Velenik. Statistical mechanics of lattice systems: a concrete mathematical introduction. Cambridge University Press (2017).
 
-[49] J. Fröhlich. On the triviality of$\lambda \phi _ { d } ^ { 4 }$theories and the approach to the critical point in$d ( - ) > 4$dimensions. Nuclear Physics B 200 (1982), no. 2, 281–296.
+[49] J. Fröhlich. On the triviality of $\lambda \phi _ { d } ^ { 4 }$ theories and the approach to the critical point in $d ( - ) > 4$ dimensions. Nuclear Physics B 200 (1982), no. 2, 281–296.
 
 [50] J. Fröhlich, B. Simon, and T. Spencer. Infrared bounds, phase transitions and continuous symmetry breaking. Commun. Math. Phys. 50 (1976), no. 1, 79–95.
 
-[51] K. Gawedzki and A. Kupiainen. Massless Lattice$\Phi _ { 4 } ^ { 4 }$Theory: Rigorous Control of a Renormalizable Asymptotically Free Model, Commun. Math. Phys. 99 (1985), 197–252.
+[51] K. Gawedzki and A. Kupiainen. Massless Lattice $\Phi _ { 4 } ^ { 4 }$ Theory: Rigorous Control of a Renormalizable Asymptotically Free Model, Commun. Math. Phys. 99 (1985), 197–252.
 
 [52] H.O. Georgii. Gibbs measures and phase transitions, volume 9 of de Gruyter Studies in Mathematics. Walter de Gruyter and Co., Berlin, second edition, 2011.
 
 [53] A. Giuliani, R.L. Greenblatt, and V. Mastropietro. The scaling limit of the energy correlations in non-integrable Ising models. J. Math. Phys. 53 (2012), no. 9, 095214.
 
-[54] J. Glimm and A. Jaffe. Positivity of the$\phi _ { 3 } ^ { 4 }$hamiltonian. Fortschritte der Physik. 21 (1973), no. 7, 327–376.
+[54] J. Glimm and A. Jaffe. Positivity of the $\phi _ { 3 } ^ { 4 }$ hamiltonian. Fortschritte der Physik. 21 (1973), no. 7, 327–376.
 
 [55] J. Glimm and A. Jaffe. Quantum physics: a functional integral point of view. Springer Science & Business Media (2012).
 
@@ -1048,11 +1044,11 @@ This work has received funding from the European Research Council (ERC) under th
 
 [59] R.B. Griffiths, C.A. Hurst, and S. Sherman. Concavity of magnetization of an Ising ferromagnet in a positive external field. J. Math. Phys. 11 (1970), 790–795.
 
-[60] R.B. Griffiths and B. Simon, The$( \Phi _ { 2 } ) ^ { 4 }$Field Theory as a Classical Ising Model, Commun. Math. Phys. 33 (1973), 145–164.
+[60] R.B. Griffiths and B. Simon, The $( \Phi _ { 2 } ) ^ { 4 }$ Field Theory as a Classical Ising Model, Commun. Math. Phys. 33 (1973), 145–164.
 
-[61] F. Guerra, L. Rosen and B. Simon, The$P ( \phi ) ^ { 2 }$Euclidean Quantum Field Theory as Classical Statistical Mechanics, Ann. of Math. 101 (1975), 111–189.
+[61] F. Guerra, L. Rosen and B. Simon, The $P ( \phi ) ^ { 2 }$ Euclidean Quantum Field Theory as Classical Statistical Mechanics, Ann. of Math. 101 (1975), 111–189.
 
-[62] T. Hara and H. Tasaki. A Rigorous Control of Logarithmic Corrections in Four-Dimensional$( \phi _ { 4 } ) ^ { 4 }$Spin Systems. II. Critical Behaviour of Susceptibility and Correlation Length, J. Stat. Phys. 47 (1987), no. 1/2, 99–121.
+[62] T. Hara and H. Tasaki. A Rigorous Control of Logarithmic Corrections in Four-Dimensional $( \phi _ { 4 } ) ^ { 4 }$ Spin Systems. II. Critical Behaviour of Susceptibility and Correlation Length, J. Stat. Phys. 47 (1987), no. 1/2, 99–121.
 
 [63] W. Heisenberg. Zur Theorie des Ferromagnetismus. Zeitsch. für Physik, 49 (1928), no. 9, 619–636.
 
@@ -1074,15 +1070,15 @@ This work has received funding from the European Research Council (ERC) under th
 
 [72] L.P. Kadanoff. Scaling laws for Ising models near $T_c$. Physics Physique Fizika 2 (1966), no. 6, 263.
 
-[73]L.P. Kadanoff. Critical behaviour. Universality and scaling. In Critical phenomena Ed. M.S. Green. Proceedings of the International School ‘Enrico Fermi’ 51. Italian Physical Society, 100–107. New York: Academic Press.
+[73] L.P. Kadanoff. Critical behaviour. Universality and scaling. In Critical phenomena Ed. M.S. Green. Proceedings of the International School ‘Enrico Fermi’ 51. Italian Physical Society, 100–107. New York: Academic Press.
 
-[74] L.P. Kadanoff and H. Ceva. Determination of an operator algebra for the twodimensional Ising model. Phys. Rev. B 3 (1971), no. 11, 3918.
+[74] L.P. Kadanoff and H. Ceva. Determination of an operator algebra for the two-dimensional Ising model. Phys. Rev. B 3 (1971), no. 11, 3918.
 
 [75] P.W. Kasteleyn. The statistics of dimers on a lattice. Physica 27 (1961) 1209 – Dimer statistics and phase transitions. J. Math. Phys. 4 (1963) 287.
 
 [76] B. Kaufman and L. Onsager. Crystal statistics. III. Short-range order in a binary Ising lattice. Phys. Rev. 76 (1949), no. 8, 1244.
 
-[77]G. Kirchhoff. Ueber die Auflösung der Gleichungen, auf welche man bei der Untersuchung der linearen Vertheilung galvanischer Ströme geflührt wird. Ann der Physik. 148 (1847), no. 12, 497–508.
+[77] G. Kirchhoff. Ueber die Auflösung der Gleichungen, auf welche man bei der Untersuchung der linearen Vertheilung galvanischer Ströme geflührt wird. Ann. der Physik. 148 (1847), no. 12, 497–508.
 
 [78] F. Kos, D. Poland, and D. Simmons-Duffin. Bootstrapping mixed correlators in the 3D Ising model. J. High Energy Phys. (2014), 1411, 109.
 
@@ -1090,7 +1086,7 @@ This work has received funding from the European Research Council (ERC) under th
 
 [80] W. Lenz. Beitrag zum Verständnis der magnetischen Eigenschaften in festen Körpern. Phys. Zeitschr. 21 (1920), 613–615.
 
-[81] T.D. Lee and C.N. Yang. Statistical theory of equations of state and phase tran sitions. I. Theory of condensation. II. Lattice gas and Ising model. Phys. Rev. 87 (1952), no. 3, 404, 410.
+[81] T.D. Lee and C.N. Yang. Statistical theory of equations of state and phase transitions. I. Theory of condensation. II. Lattice gas and Ising model. Phys. Rev. 87 (1952), no. 3, 404, 410.
 
 [82] E.H. Lieb. A refinement of Simon’s correlation inequality. Commun. Math. Phys.. 77 (1980), no. 2, 127–135.
 
@@ -1100,7 +1096,7 @@ This work has received funding from the European Research Council (ERC) under th
 
 [85] E.W. Montroll. Statistical mechanics of nearest neighbour systems. J. of Chem. Phys. 9 (1941), no. 9, 706–721.
 
-[86]M. Niss. History of the Lenz-Ising model 1920–1950: from ferromagnetic to cooperative phenomena. 1950–1965: from irrelevance to relevance. 1965–1971: the role of a simple model in understanding critical phenomena. Archive for history of exact sciences. 59 (2005), no. 3, 267-318. 63 (2009), no. 3, 267-318 243-287. 65 (2011), no. 6, 625-658.
+[86] M. Niss. History of the Lenz-Ising model 1920–1950: from ferromagnetic to cooperative phenomena. 1950–1965: from irrelevance to relevance. 1965–1971: the role of a simple model in understanding critical phenomena. Archive for history of exact sciences. 59 (2005), no. 3, 267-318. 63 (2009), no. 3, 267-318 243-287. 65 (2011), no. 6, 625-658.
 
 [87] L. Onsager. Crystal statistics. I. A two-dimensional model with an order-disorder transition. Phys. Rev.. 65 (1944), no. 3-4, 117.
 
@@ -1118,7 +1114,7 @@ This work has received funding from the European Research Council (ERC) under th
 
 [94] S. El-Showk, M.F. Paulos, D. Poland, V.S. Rychkov, D. Simmons-Duffin, and A. Vichi. Solving the 3d Ising model with the conformal bootstrap. Phys. Rev. D, 86 (2012), no. 2.
 
-[95]T.D. Schultz, D.C. Mattis, and E.H. Lieb. Two-dimensional Ising model as a soluble problem of many fermions. Rev. Mod. Phys. 36 (1964), no. 3, 856.
+[95] T.D. Schultz, D.C. Mattis, and E.H. Lieb. Two-dimensional Ising model as a soluble problem of many fermions. Rev. Mod. Phys. 36 (1964), no. 3, 856.
 
 [96] P.D. Seymour and D.J.A. Welsh. Percolation probabilities on the square lattice. Ann. Discrete Math. 3 (1978), 227–245.
 
