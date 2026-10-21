@@ -284,7 +284,7 @@ $$
 F (y, \Phi^ {- 1} (v), (\Phi^ {- 1}) ^ {\prime} (v) D v) = 0.\tag{1.10}
 $$
 
-PROOF OF COROLLARY I.8. We treat the subsolution case. Let $u$ be a viscosity subsolution of $F = 0$. We claim that, if $x_0 \in E_+(\varphi(v - k))$ (with $\varphi \in \mathfrak{D}(\Omega)^+$, $k \in \mathbf{R}$) then there exists $\tilde{\varphi} \in C_c^1(\Omega)^+$, $\tilde{k} \in \mathbf{R}$ such that
+PROOF OF COROLLARY I.8. We treat the subsolution case. Let $u$ be a viscosity subsolution of $F = 0$. We claim that, if $x_0 \in E_+(\varphi(v - k))$ (with $\varphi \in \mathfrak{D}(\mathcal{O})^+$, $k \in \mathbf{R}$) then there exists $\tilde{\varphi} \in C_c^1(\mathcal{O})^+$, $\tilde{k} \in \mathbf{R}$ such that
 
 $$
 x _ {0} \in E _ {+} (\tilde {\varphi} (u - \tilde {k})), \quad - \frac {u (x _ {0}) - \tilde {k}}{\tilde {\varphi} (x _ {0})} D \tilde {\varphi} (x _ {0}) = - \Psi^ {\prime} (v (x _ {0})) \frac {v (x _ {0}) - k}{\varphi (x _ {0})} D \varphi (x _ {0}),
@@ -304,7 +304,7 @@ $$
 \begin{array}{l} u (x) \leqslant \Psi \left(v (x _ {0}) - \left(\frac {v (x _ {0}) - k}{\varphi (x _ {0})}\right) D \varphi (x _ {0}) \cdot (x - x _ {0}) + | x - x _ {0} | \varepsilon (| x - x _ {0} |)\right) \\ \leqslant \tilde {u} (x) = u (x _ {0}) - \Psi^ {\prime} (v (x _ {0})) \left(\frac {v (x _ {0}) - k}{\varphi (x _ {0})}\right) D \varphi (x _ {0}) \cdot | x - x _ {0} | \\ + | x - x _ {0} | \tilde {\varepsilon} (| x - x _ {0} |) \end{array}
 $$
 
-for $|x - x_0|$ small enough and $\tilde{\varepsilon} \in C(\mathbf{R}_+ , \mathbf{R}^M)$, $\tilde{\varepsilon}(t) \to 0$ as $t \to 0 +$. But the right-hand member $\tilde{u}$ of the above inequality is a continuous function differentiable at $x_0$ and therefore by Lemma I.4 we may find $\tilde{k}$ and $\tilde{\varphi} \in C_c^1(\Omega)^+$ such that: $u(x_0) - \tilde{k} > 0$; $x_0 \in E_+ (\tilde{\varphi}(\tilde{u} - \tilde{k}))$;
+for $|x - x_0|$ small enough and $\tilde{\varepsilon} \in C(\mathbf{R}_+ , \mathbf{R}^M)$, $\tilde{\varepsilon}(t) \to 0$ as $t \to 0 +$. But the right-hand member $\tilde{u}$ of the above inequality is a continuous function differentiable at $x_0$ and therefore by Lemma I.4 we may find $\tilde{k}$ and $\tilde{\varphi} \in C_c^1(\mathcal{O})^+$ such that: $u(x_0) - \tilde{k} > 0$; $x_0 \in E_+ (\tilde{\varphi}(\tilde{u} - \tilde{k}))$;
 
 $$
 - D \tilde {\varphi} (x _ {0}) \frac {u (x _ {0}) - \tilde {k}}{\tilde {\varphi} (x _ {0})} = - \Psi^ {\prime} (v (x _ {0})) \frac {v (x _ {0}) - k}{\varphi (x _ {0})} D \varphi (x _ {0}); \quad \operatorname{supp} \tilde {\varphi} \subset B (x _ {0}, h),
@@ -320,9 +320,9 @@ and thus $x_0 \in E_+$ ($\tilde{\varphi}(u - \tilde{k})$).
 
 REMARK 1.13. We pause here to consider the case in which $\mathcal{O}$ is not an open subset of $\mathbf{R}^N$. Indeed, in later sections we will want to use some of the above results when $\mathcal{O}$ has the form $\mathcal{O} = \Omega \times (]0,T])$. We claim that all we have done is correct in general if one interprets the definitions appropriately. This means: $\mathcal{D}(\mathcal{O}), C^1(\mathcal{O})$, etc., should denote restrictions of functions in $\mathcal{D}(\mathbf{R}^N)$, $C^1(\mathbf{R}^N)$, etc. to $\mathcal{O}$ (where, in the case of $\mathcal{D}(\mathcal{O})$, $\{x \in \mathcal{O}: u(x) \neq 0\}$ lies in a compact subset of $\mathcal{O}$, etc.). The other point is the notion of “differentiable”. We will say $\varphi \in C(\mathcal{O})$ is differentiable at $y_0 \in \mathcal{O}$ and $D\varphi(y_0) = z$ if there is an extension of $\varphi$ to $\tilde{\varphi} \in C(\mathbf{R}^N)$ such that $D\tilde{\varphi}(y_0) = z$ and moreover, for any extension of $\varphi$ to $\tilde{\varphi} \in C(\mathbf{R}^N)$ differentiable at $y_0$, $D\tilde{\varphi}(y_0) = z$. (In the case where $\mathcal{O}$ has some boundary which is sufficiently smooth, e.g. $\mathcal{O} = \Omega \times ]0,T]$, all notions coincide.) The reader can think through these claims.
 
-I.3. Piecewise smooth viscosity solutions. In this section we consider piecewise  $C^{1}$  functions and determine conditions on the discontinuities of their derivatives equivalent to being viscosity solutions of F = 0. Consider the situation in which  $O = O_{+} \cup O_{-} \cup \Gamma$  is divided into two open parts  $O_{+}$  and  $O_{-}$  by a surface  $\Gamma$ . The unit normal to
+I.3. Piecewise smooth viscosity solutions. In this section we consider piecewise  $C^{1}$  functions and determine conditions on the discontinuities of their derivatives equivalent to being viscosity solutions of F = 0. Consider the situation in which  $\mathcal{O} = \mathcal{O}_{+} \cup \mathcal{O}_{-} \cup \Gamma$  is divided into two open parts  $\mathcal{O}_{+}$  and  $\mathcal{O}_{-}$  by a surface  $\Gamma$ . The unit normal to
 
-$\Gamma$ at $y_0 \in \Gamma$ is denoted by $\vec{n}(y_0)$ which points into $\mathcal{O}_+$. A function $u \in C(\mathcal{O})$ is given as $u_+$ in $\mathcal{O}_+ \cup \Gamma$ and $u_-$ in $\mathcal{O}_- \cup \Gamma$. We assume $\Gamma$ is of class $C^1$ and so may be represented by a relation of the typical form $y_1 = f(y_2, \ldots, y_m)$ near $y_0 \in \Gamma$, where $f \in C^1$. We assume $u \in C(\mathcal{O})$ and $u_± \in C^1(\mathcal{O}_± \cup \Gamma)$. When is $u$ a viscosity solution of $F = 0$ in $\mathcal{O}$? We will use the following observations.
+$\Gamma$ at $y_0 \in \Gamma$ is denoted by $\bar{n}(y_0)$ which points into $\mathcal{O}_+$. A function $u \in C(\mathcal{O})$ is given as $u_+$ in $\mathcal{O}_+ \cup \Gamma$ and $u_-$ in $\mathcal{O}_- \cup \Gamma$. We assume $\Gamma$ is of class $C^1$ and so may be represented by a relation of the typical form $y_1 = f(y_2, \ldots, y_m)$ near $y_0 \in \Gamma$, where $f \in C^1$. We assume $u \in C(\mathcal{O})$ and $u_± \in C^1(\mathcal{O}_± \cup \Gamma)$. When is $u$ a viscosity solution of $F = 0$ in $\mathcal{O}$? We will use the following observations.
 
 PROPOSITION I.9. (i) If $u$ is a viscosity solution of $F = 0$ in $\mathfrak{O}$ and $\mathfrak{O}'$ is an open subset of $\mathfrak{O}$ then $u|_{\mathfrak{O}'}^7$ is a viscosity solution of $F = 0$ in $\mathfrak{O}'$.
 
@@ -339,19 +339,19 @@ $$
 by the opening remarks of this section. It remains to consider  $y_{0} \in \Gamma$ . Let
 
 $$
-T _ {y _ {0}} = \left\{\tau \in \mathbf {R} ^ {M}: \vec {n} (y _ {0}) \cdot \tau = 0 \right\}
+T _ {y _ {0}} = \left\{\tau \in \mathbf {R} ^ {M}: \bar {n} (y _ {0}) \cdot \tau = 0 \right\}
 $$
 
 be the tangent space to $\Gamma$ to $y_0$ and $p_T$, $p_N = I - p_T$ be the orthogonal projections on $T_{y_0}$, $\operatorname{span}\{\bar{n}(y_0)\}$, i.e. $p_N y = (\bar{n}(y_0) \cdot y) \bar{n}(y_0)$. Since $u_+$, $u_-$ agree on $\Gamma$, $p_T Du_+(y_0) = p_T Du_-(y_0)$. When $y_0 \in E_+(\varphi(u-k)) \cap \Gamma$ we clearly have $T_{y_0} \ni \tau \to \Phi(\tau) = \varphi(y_0 + \tau)(u(y_0 + \tau) - k)$ satisfies $D_T \Phi(0) = 0$,
 
 $$
-\begin{array}{l} \lim _ {\alpha \downarrow 0} \frac {\varphi (y _ {0} + \alpha \vec {n}) (u _ {+} (y _ {0} + \alpha \vec {n}) - k) - \varphi (y _ {0}) (u (y _ {0}) - k)}{\alpha} \leqslant 0, \\ \lim _ {\alpha \uparrow 0} \frac {\varphi (y _ {0} + \alpha \vec {n}) (u _ {-} (y _ {0} + \alpha \vec {n}) - k) - \varphi (y _ {0}) (u (y _ {0}) - k)}{\alpha} \geqslant 0. \end{array}
+\begin{array}{l} \lim _ {\alpha \downarrow 0} \frac {\varphi (y _ {0} + \alpha \bar {n}) (u _ {+} (y _ {0} + \alpha \bar {n}) - k) - \varphi (y _ {0}) (u (y _ {0}) - k)}{\alpha} \leqslant 0, \\ \lim _ {\alpha \uparrow 0} \frac {\varphi (y _ {0} + \alpha \bar {n}) (u _ {-} (y _ {0} + \alpha \bar {n}) - k) - \varphi (y _ {0}) (u (y _ {0}) - k)}{\alpha} \geqslant 0. \end{array}
 $$
 
 These relations amount to
 
 $$
-\begin{array}{l} - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} p _ {T} D \varphi (y _ {0}) = p _ {T} D u _ {+} (y _ {0}) = p _ {T} D u _ {-} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \vec {n} (y _ {0}) \geqslant D u _ {+} (y _ {0}) \cdot \vec {n} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \vec {n} (y _ {0}) \leqslant D u _ {-} (y _ {0}) \cdot \vec {n} (y _ {0}). \end{array}
+\begin{array}{l} - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} p _ {T} D \varphi (y _ {0}) = p _ {T} D u _ {+} (y _ {0}) = p _ {T} D u _ {-} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \bar {n} (y _ {0}) \geqslant D u _ {+} (y _ {0}) \cdot \bar {n} (y _ {0}), \\ - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) \cdot \bar {n} (y _ {0}) \leqslant D u _ {-} (y _ {0}) \cdot \bar {n} (y _ {0}). \end{array}
 $$
 
 <small><span class="docvortex-page-footnote" data-block-type="page_footnote" style="color:#6b7280">$^{7}u|_{\mathfrak{O}'}$ means the restriction of $u$ to $\mathfrak{O}'$.</span></small>
@@ -359,35 +359,35 @@ $$
 Hence
 
 $$
-\left\{ \begin{array}{l} - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) = p _ {T} D u _ {-} (y _ {0}) + \xi \vec {n} (y _ {0}) \\ \text {for some} \xi \in \left[ D u _ {+} (y _ {0}) \cdot \vec {n} (y _ {0}), D u _ {-} (y _ {0}) \cdot \vec {n} (y _ {0}) \right]. \end{array} \right.
+\left\{ \begin{array}{l} - \frac {u (y _ {0}) - k}{\varphi (y _ {0})} D \varphi (y _ {0}) = p _ {T} D u _ {-} (y _ {0}) + \xi \bar {n} (y _ {0}) \\ \text {for some} \xi \in \left[ D u _ {+} (y _ {0}) \cdot \bar {n} (y _ {0}), D u _ {-} (y _ {0}) \cdot \bar {n} (y _ {0}) \right]. \end{array} \right.
 $$
 
 We conclude that the condition
 
 $$
-\left\{ \begin{array}{l} \forall y _ {0} \in \Gamma , \forall \xi \in \left[ D u _ {+} (y _ {0}) \cdot \vec {n} (y _ {0}), D u _ {-} (y _ {0}) \cdot \vec {n} (y _ {0}) \right], \\ F (y _ {0}, u (y _ {0}), p _ {T} D u _ {\pm} (y _ {0}) + \xi \vec {n} (y _ {0})) \leqslant 0 \end{array} \right.\tag{1.14}
+\left\{ \begin{array}{l} \forall y _ {0} \in \Gamma , \forall \xi \in \left[ D u _ {+} (y _ {0}) \cdot \bar {n} (y _ {0}), D u _ {-} (y _ {0}) \cdot \bar {n} (y _ {0}) \right], \\ F (y _ {0}, u (y _ {0}), p _ {T} D u _ {\pm} (y _ {0}) + \xi \bar {n} (y _ {0})) \leqslant 0 \end{array} \right.\tag{1.14}
 $$
 
 implies $u$ is a viscosity subsolution of $F = 0$. Similarly
 
 $$
-\left\{ \begin{array}{l} \forall y _ {0} \in \Gamma , \forall \xi \in \left[ D u _ {-} (y _ {0}) \cdot \vec {n} (y _ {0}), D u _ {+} (y _ {0}) \cdot \vec {n} (y _ {0}) \right], \\ F (y _ {0}, u (y _ {0}), p _ {T} D u _ {\pm} (y _ {0}) + \xi \vec {n} (y _ {0})) \geqslant 0 \end{array} \right.\tag{1.15}
+\left\{ \begin{array}{l} \forall y _ {0} \in \Gamma , \forall \xi \in \left[ D u _ {-} (y _ {0}) \cdot \bar {n} (y _ {0}), D u _ {+} (y _ {0}) \cdot \bar {n} (y _ {0}) \right], \\ F (y _ {0}, u (y _ {0}), p _ {T} D u _ {\pm} (y _ {0}) + \xi \bar {n} (y _ {0})) \geqslant 0 \end{array} \right.\tag{1.15}
 $$
 
-implies u is a viscosity supersolution of F = 0. Note that if, e.g.,  $Du_{-}(y_{0}) \cdot \vec{n}(y_{0}) > Du_{+}(y_{0}) \cdot \vec{n}(y_{0})$  then (1.15) is an empty condition, etc. In fact, (1.14), (1.15) are necessary as well as sufficient. We prove
+implies u is a viscosity supersolution of F = 0. Note that if, e.g.,  $Du_{-}(y_{0}) \cdot \bar{n}(y_{0}) > Du_{+}(y_{0}) \cdot \bar{n}(y_{0})$  then (1.15) is an empty condition, etc. In fact, (1.14), (1.15) are necessary as well as sufficient. We prove
 
 THEOREM I.10. Let $\mathcal{O},\mathcal{O}_{+},\mathcal{O}_{-},\Gamma ,u,u_{\pm}$ be as above. Then $u$ is a viscosity solution of $F = 0$ in $\mathcal{O}$ if and only if $u_{\pm}$ are classical solutions in $\mathcal{O}_{\pm}$ and (1.14) and (1.15) hold.
 
-PROOF. The sufficiency has been shown. We consider the necessity. First let $\xi = Du_{+}(y_0)\cdot \vec{n} (y_0) = Du_{-}(y_0)\cdot \vec{n} (y_0)$. In this case $u$ is differentiable at $y_{0}$ and $Du(y_0) = p_T Du_{\pm}(y_0) + \xi \vec{n} (y_0)$. By Theorem I.2 we have
+PROOF. The sufficiency has been shown. We consider the necessity. First let $\xi = Du_{+}(y_0)\cdot \bar{n} (y_0) = Du_{-}(y_0)\cdot \bar{n} (y_0)$. In this case $u$ is differentiable at $y_{0}$ and $Du(y_0) = p_T Du_{\pm}(y_0) + \xi \bar{n} (y_0)$. By Theorem I.2 we have
 
 $$
 F \left(y _ {0}, u \left(y _ {0}\right), D u \left(y _ {0}\right)\right) = F \left(y _ {0}, u \left(y _ {0}\right), p _ {T} D u _ {\pm} \left(y _ {0}\right) + \xi \bar {n} \left(y _ {0}\right)\right) = 0
 $$
 
-so (1.14) and (1.15) hold. Next assume that $Du_{-}(y_0) \cdot \vec{n}(y_0) > \xi > Du_{+}(y_0) \cdot \vec{n}(y_0)$. We claim that then there is a $\psi \in C^1(\mathcal{O})$ such that $\psi(y_0) = u(y_0), \psi > u$ in a deleted neighborhood of $y_0$ and $D\psi(y_0) = p_T Du_{\pm}(y_0) + \xi \vec{n}(y_0)$. If this is so, choose $\varphi \in \mathfrak{D}(\mathcal{O}), 0 \leqslant \varphi \leqslant 1, \varphi(y_0) = 1$ and $\varphi(y) < 1$ for $y \neq y_0$ so that $1 > \varphi(\psi - u) \geqslant 0$. Then $\{y_0\} = E_{+}(\varphi(u - \psi + 1))$ and by Theorem I.3
+so (1.14) and (1.15) hold. Next assume that $Du_{-}(y_0) \cdot \bar{n}(y_0) > \xi > Du_{+}(y_0) \cdot \bar{n}(y_0)$. We claim that then there is a $\psi \in C^1(\mathcal{O})$ such that $\psi(y_0) = u(y_0), \psi > u$ in a deleted neighborhood of $y_0$ and $D\psi(y_0) = p_T Du_{\pm}(y_0) + \xi \bar{n}(y_0)$. If this is so, choose $\varphi \in \mathfrak{D}(\mathcal{O}), 0 \leqslant \varphi \leqslant 1, \varphi(y_0) = 1$ and $\varphi(y) < 1$ for $y \neq y_0$ so that $1 > \varphi(\psi - u) \geqslant 0$. Then $\{y_0\} = E_{+}(\varphi(u - \psi + 1))$ and by Theorem I.3
 
 $$
-F \left(y _ {0}, u \left(y _ {0}\right), D \psi \left(y _ {0}\right)\right) = F \left(y _ {0}, u \left(y _ {0}\right), p _ {T} D u _ {\pm} \left(y _ {0}\right) + \xi \vec {n} \left(y _ {0}\right)\right) \leqslant 0,
+F \left(y _ {0}, u \left(y _ {0}\right), D \psi \left(y _ {0}\right)\right) = F \left(y _ {0}, u \left(y _ {0}\right), p _ {T} D u _ {\pm} \left(y _ {0}\right) + \xi \bar {n} \left(y _ {0}\right)\right) \leqslant 0,
 $$
 
 so we have (1.14). The case in which (1.14) is an empty requirement is similar. It remains to exhibit  $\psi$ . By Proposition I.9 and Corollary I.7 we may localize and change variables. Hence assume  $y_{0}=0$  and  $\Gamma$  is  $y_{1}=0$ . We have
@@ -406,15 +406,15 @@ $$
 \frac {\partial u _ {+}}{\partial y _ {1}} (0, 0, \dots , 0) <   \xi <   \frac {\partial u _ {-}}{\partial y _ {1}} (0, 0, \dots , 0).
 $$
 
-Let $\psi_0(y_2,\ldots,y_m)\geqslant u_{\pm}(0,y_2,\ldots,y_m)$ with strict inequality if $(y_2,\ldots,y_m)\neq(0,\ldots,0)$ in some neighborhood of $(0,\ldots,0)$. We have $\psi_0(0,\ldots,0)=u_{\pm}(0,0,\ldots,0)$ and $\partial\psi_0(0,\ldots,0)/\partial y_i=\partial u_{\pm}(0,\ldots,0)/\partial y_i$ for $i=2,\ldots,m$. $\psi_0$ exists by Lemma I.4. Then set $\psi(y_1,\ldots,y_m)=\psi_0(y_2,\ldots,y_m)+\xi y_1$. Clearly, $\psi$ has the desired properties and the proof is complete.
+Let $\psi_0(y_2,\ldots,y_m)\geqslant u_{\pm}(0,y_2,\ldots,y_m)$ with strict inequality if $(y_2,\ldots,y_m)\neq(0,\ldots,0)$ in some neighborhood of $(0,\ldots,0)$, $\psi_0(0,\ldots,0)=u_{\pm}(0,0,\ldots,0)$, $\partial\psi_0(0,\ldots,0)/\partial y_i=\partial u_{\pm}(0,\ldots,0)/\partial y_i$ for $i=2,\ldots,m$. $\psi_0$ exists by Lemma I.4. Then set $\psi(y_1,\ldots,y_m)=\psi_0(y_2,\ldots,y_m)+\xi y_1$. Clearly, $\psi$ has the desired properties and the proof is complete.
 
-To illustrate this result, consider the example solution $u = 0$ for $|x| \geqslant t \geqslant 0$, $u = -t + |x|$ if $|x| \leqslant t$ of $u_t + (u_x)^2 = 0$ in the introduction. Let $\Gamma$ be $x = 0$, $\vec{n}(0, t) = (1, 0)$. Then $F((x, t), u, (p_1, p_2)) = p_2 + (p_1)^2$, $u_+ = -t + x$ and $u_- = -t - x$ in the appropriate domains. We have
+To illustrate this result, consider the example solution $u = 0$ for $|x| \geqslant t \geqslant 0$, $u = -t + |x|$ if $|x| \leqslant t$ of $u_t + (u_x)^2 = 0$ in the introduction. Let $\Gamma$ be $x = 0$, $\bar{n}(0, t) = (1, 0)$. Then $F((x, t), u, (p_1, p_2)) = p_2 + (p_1)^2$, $u_+ = -t + x$ and $u_- = -t - x$ in the appropriate domains. We have
 
 $$
-\left\{ \begin{array}{l} p _ {T} D u _ {\pm} (0, t) = (0, 1), \\ D u _ {+} (0, t) \cdot \vec {n} (0, t) = 1 > - 1 = D u _ {-} (0, t) \cdot \vec {n} (0, t), \end{array} \right.
+\left\{ \begin{array}{l} p _ {T} D u _ {\pm} (0, t) = (0, 1), \\ D u _ {+} (0, t) \cdot \bar {n} (0, t) = 1 > - 1 = D u _ {-} (0, t) \cdot \bar {n} (0, t), \end{array} \right.
 $$
 
-but $F(p_T u_{\pm}(0, t) + \xi \vec{n}(0, t)) = -1 + \xi^2 < 0$ for $-1 < \xi < 1$ so (1.15) fails.
+but $F(p_T u_{\pm}(0, t) + \xi \bar{n}(0, t)) = -1 + \xi^2 < 0$ for $-1 < \xi < 1$ so (1.15) fails.
 
 We remark that the conditions (1.14) and (1.15) were anticipated by Oleinik [24] in a special case. Moreover, an alternative way to obtain these results is given in §I.5.
 
@@ -492,16 +492,16 @@ It remains to show that  $(1.23)$  implies  $(1.24)$ . However, this amounts to 
 
 The next result is concerned with more general directional derivatives.
 
-THEOREM I.14. Let $\pmb{\nu}\colon\mathcal{O}\to\mathbb{R}^{M}$ be continuously differentiable. Denote by $Y(\tau,y_{0})$ the solution of
+THEOREM I.14. Let $\pmb{v}\colon\mathcal{O}\to\mathbb{R}^{M}$ be continuously differentiable. Denote by $Y(\tau,y_{0})$ the solution of
 
 $$
-\left\{ \begin{array}{l} \frac {d Y}{d \tau} = \nu (Y), \\ Y (0, y _ {0}) = y _ {0}, \end{array} \right.\tag{1.26}
+\left\{ \begin{array}{l} \frac {d Y}{d \tau} = v (Y), \\ Y (0, y _ {0}) = y _ {0}, \end{array} \right.\tag{1.26}
 $$
 
 which is defined on a maximal interval of existence $I_{y_0}$. (By assumption $Y(I_{y_0}, y_0) \subset \mathcal{O}$.) Let $u, g \in C(\mathcal{O})$ and $u$ be a viscosity solution of
 
 $$
-(D u) \cdot \nu \leqslant g \quad \text{in } \mathcal {O}.\tag{1.27}
+(D u) \cdot v \leqslant g \quad \text{in } \mathcal {O}.\tag{1.27}
 $$
 
 Then for $y_0 \in \mathcal{O}$, $s, t \in I_{y_0}$ and $s \leqslant t$ one has
@@ -510,19 +510,19 @@ $$
 u \big (Y (t, y _ {0}) \big) - u \big (Y (s, y _ {0}) \big) \leqslant \int_ {s} ^ {t} g \big (Y (\tau , y _ {0}) \big) d \tau .\tag{1.28}
 $$
 
-PROOF. If  $\nu(y_{0})=0$ , then  $Y(\tau,y_{0})\equiv y_{0}$  and there is nothing to show. If  $\nu(y_{0})\neq0$ , we may rotate coordinates so that  $\nu(y_{0})=(\nu_{1}(y_{0}),0,\ldots,0)$ . Without loss of generality we also assume  $y_{0}=0$ . Consider the change of variables  $\Phi$  defined near  $y_{0}=0$  by
+PROOF. If  $v(y_{0})=0$ , then  $Y(\tau,y_{0})\equiv y_{0}$  and there is nothing to show. If  $v(y_{0})\neq0$ , we may rotate coordinates so that  $v(y_{0})=(v_{1}(y_{0}),0,\ldots,0)$ . Without loss of generality we also assume  $y_{0}=0$ . Consider the change of variables  $\Phi$  defined near  $y_{0}=0$  by
 
 $$
 \Phi \left(y _ {1}, \dots , y _ {m}\right) = \left(\hat {y} _ {1}, \dots , \hat {y} _ {m}\right) \Leftrightarrow \left(y _ {1}, \dots , y _ {m}\right) = Y \left(\hat {y} _ {1}, \left(0, \hat {y} _ {2}, \dots , \hat {y} _ {m}\right)\right).
 $$
 
-Then, with the notation of Corollary I.7 and $H(y, r, p) = p \cdot \nu(y) - g(y)$, we have
+Then, with the notation of Corollary I.7 and $H(y, r, p) = p \cdot v(y) - g(y)$, we have
 
 $$
-\begin{array}{c} G (\hat {y}, r, p) = p D \Phi \big (\Phi^ {- 1} (\hat {y}) \big) \cdot \nu \big (\Phi^ {- 1} (\hat {y}) \big) - g \big (\Phi^ {- 1} (\hat {y}) \big) \\ = p _ {1} - g \big (\Phi^ {- 1} (\hat {y}) \big). \end{array}
+\begin{array}{c} G (\hat {y}, r, p) = p D \Phi \big (\Phi^ {- 1} (\hat {y}) \big) \cdot v \big (\Phi^ {- 1} (\hat {y}) \big) - g \big (\Phi^ {- 1} (\hat {y}) \big) \\ = p _ {1} - g \big (\Phi^ {- 1} (\hat {y}) \big). \end{array}
 $$
 
-(Of course, this is merely the statement that $\partial/\partial\hat{y}_{1}=\nu\cdot(\partial/\partial y_{1},\ldots,\partial/\partial y_{m})$.) Thus, by Corollary I.7, $u(\Phi^{-1}(\hat{y}))$ is a viscosity solution of
+(Of course, this is merely the statement that $\partial/\partial\hat{y}_{1}=v\cdot(\partial/\partial y_{1},\ldots,\partial/\partial y_{m})$.) Thus, by Corollary I.7, $u(\Phi^{-1}(\hat{y}))$ is a viscosity solution of
 
 $$
 \frac {\partial}{\partial \hat {y} _ {1}} u \leqslant g (\Phi^ {- 1} (\hat {y})).
@@ -601,7 +601,7 @@ we may majorize it near $y_0$ by a $\tilde{\psi} \in C^1(\mathcal{O})$ which agr
 REMARK 1.31. By Lemma I.4 we may equally well characterize the pairs $(y_0, a)$ for which (1.30) has a solution by the condition
 
 $$
-\lim _ {y \rightarrow y _ {0}} \frac {\max \left\{u (y) - \left(u \left(y _ {0}\right) + a \cdot \left(y - y _ {0}\right)\right) , 0 \right\}}{| y - y _ {0} |} = 0.
+\lim _ {y^{\prime} \rightarrow y _ {0}} \frac {\max \left\{u (y) - \left(u \left(y _ {0}\right) + a \cdot \left(y - y _ {0}\right)\right) , 0 \right\}}{| y - y _ {0} |} = 0.
 $$
 
 COROLLARY I.17. Let $u \in C(\mathcal{O})$. Then
@@ -752,7 +752,7 @@ $$
 
 Since $n \in \mathrm{BUC}(\mathbb{R}^N)$, we have $\rho_n(\alpha) \to 0$ as $\alpha \to 0$ and the result follows.
 
-Case 2. The general case. Let $\varphi \in \mathfrak{D}(\mathbf{R}^N)^+$ be as above: $0 \leqslant \varphi \leqslant 1$, $\varphi(0) = 1$ and $\operatorname{supp} \varphi \subset B(0, \dot{\alpha})$. We are first going to prove, via a truncation argument, that
+Case 2. The general case. Let $\varphi \in \mathfrak{D}(\mathbf{R}^N)^+$ be as above: $0 \leqslant \varphi \leqslant 1$, $\varphi(0) = 1$ and $\operatorname{supp} \varphi \subset B(0, \alpha)$. We are first going to prove, via a truncation argument, that
 
 $$
 M = \sup _ {x, y \in \mathbf {R} ^ {N}} \varphi (x - y) (u (x) - v (y)) \leqslant \| (n - m) ^ {+} \| _ {L ^ {\infty} (\mathbb {R} ^ {N})} + \rho_ {n} (\alpha)\tag{2.12}
@@ -792,7 +792,7 @@ $$
 \begin{array}{l} M _ {\varepsilon} = \varphi (x _ {\varepsilon} - y _ {\varepsilon}) \left(e ^ {- \varepsilon | x _ {\varepsilon} | ^ {2}} u (x _ {\varepsilon}) - e ^ {- \varepsilon | y _ {\varepsilon} | ^ {2}} v (y _ {\varepsilon})\right) \\ \leqslant \varphi (x _ {\varepsilon} - y _ {\varepsilon}) \left(u (x _ {\varepsilon}) - e ^ {\varepsilon (| x _ {\varepsilon} | ^ {2} - | y _ {\varepsilon} | ^ {2})} v (y _ {\varepsilon})\right) \\ \leqslant \varphi (x _ {\varepsilon} - y _ {\varepsilon}) \left(u (x _ {\varepsilon}) - v (y _ {\varepsilon}) + \left(1 - e ^ {\varepsilon (| x _ {\varepsilon} | ^ {2} - | y _ {\varepsilon} | ^ {2})}\right) v (y _ {\varepsilon})\right) \\ \leqslant M + | 1 - e ^ {\varepsilon (| x _ {\varepsilon} | ^ {2} - | y _ {\varepsilon} | ^ {2})} | | v (y _ {\varepsilon}) |. \end{array}\tag{2.14}
 $$
 
-However, $|\varepsilon (|x_{\varepsilon}|^2 - |y_{\varepsilon}|^2)| = \varepsilon |(x_{\varepsilon} - y_{\varepsilon}, x_{\varepsilon} + y_{\varepsilon})| \leqslant \sqrt{\varepsilon} 2\alpha C$ by (2.13). Therefore, by the above, $\varliminf_{\varepsilon \downarrow 0} M_{\varepsilon} \leqslant M$ and we have $M_{\varepsilon} \to M$ as $\varepsilon \downarrow 0$.
+However, $|\varepsilon (|x_{\varepsilon}|^2 - |y_{\varepsilon}|^2)| = \varepsilon |(x_{\varepsilon} - y_{\varepsilon}, x_{\varepsilon} + y_{\varepsilon})| \leqslant \sqrt{\varepsilon} 2\alpha C$ by (2.13). Therefore, by the above, $\lim_{\varepsilon \downarrow 0} M_{\varepsilon} \leqslant M$ and we have $M_{\varepsilon} \to M$ as $\varepsilon \downarrow 0$.
 
 We next prove (2.12). By
 
@@ -842,10 +842,10 @@ $$
 \left\{ \begin{array}{l} \text { For   each } R > 0 \text { there   is   a   continuous   nondecreasing   function } \\ \gamma_ {R} \colon [ 0, 2 R ] \to \mathbf {R} \text { such   that } \gamma_ {R} (0) = 0 \text { and } \\ \big (H (x, r, p) - H (x, s, p) \big) \geqslant \gamma_ {R} (r - s) \\ \text { for } x \in \mathbf {R} ^ {N}, p \in \mathbf {R} ^ {N}, - R \leqslant s \leqslant r \leqslant R. \end{array} \right.\tag{2.20}
 $$
 
-We will need to restrict the nature of the joint continuity of $H$. The condition (2.21)
+We will need to restrict the nature of the joint continuity of $H$. The condition
 
 $$
-\lim _ {\varepsilon \downarrow 0} \sup \left\{\left| H (x, r, p) - H (y, r, p) \right|: | x - y | (1 + | p |) \leqslant \varepsilon , | r | \leqslant R \right\} = 0
+\lim _ {\varepsilon \downarrow 0} \sup \left\{\left| H (x, r, p) - H (y, r, p) \right|: | x - y | (1 + | p |) \leqslant \varepsilon , | r | \leqslant R \right\} = 0\tag{2.21}
 $$
 
 $$
@@ -923,7 +923,7 @@ Then (2.25) implies $\gamma(M) \leqslant \|m^{+}\|_{L^{\infty}(\mathbf{R}^{N})} 
 To establish case (ii) we will prove that $\varphi$ can be chosen so that $\lim_{\varepsilon \downarrow 0}|x_{\varepsilon} - y_{\varepsilon}| < \alpha \kappa (\alpha)$ for some $\kappa (\cdot)$ satisfying $\kappa (0 + ) = 0$. Then for $\varepsilon$ small, $|x_{\varepsilon} - y_{\varepsilon}||\lambda_{\varepsilon} + \delta_{\varepsilon}|\leqslant K\kappa (\alpha)$ and the result follows as above. Assume $v\in \mathrm{BUC}(\mathbb{R}^N)$ and let $\rho_v$ be the modulus of continuity of $v$. Recalling the proof of Theorem I.1 we have
 
 $$
-\begin{array}{l} \sup (u (x) - v (x)) \leqslant \sup \varphi \left(\frac {x - y}{\alpha}\right) (u (x) - v (y)) \leqslant \lim _ {\varepsilon \downarrow 0} M _ {\varepsilon} \\ \leqslant \underset {\varepsilon \downarrow 0} {\lim} \varphi \left(\frac {x _ {\varepsilon} - y _ {\varepsilon}}{\alpha}\right) \left((u (x _ {\varepsilon}) - v (y _ {\varepsilon})) + \| v \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} | \exp (2 \alpha C \sqrt {\varepsilon}) - 1 |\right) \\ \leqslant \underset {\varepsilon \downarrow 0} {\lim} \varphi \left(\frac {x _ {\varepsilon} - y _ {\varepsilon}}{\alpha}\right) \left((u (x _ {\varepsilon}) - v (x _ {\varepsilon})) + \rho_ {v} (\alpha) + \| v \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} | \exp (2 \alpha C \sqrt {\varepsilon}) - 1 |\right). \end{array}
+\begin{array}{l} \sup (u (x) - v (x)) \leqslant \sup \varphi \left(\frac {x - y}{\alpha}\right) (u (x) - v (y)) \leqslant \varliminf _ {\varepsilon \downarrow 0} M _ {\varepsilon} \\ \leqslant \underset {\varepsilon \downarrow 0} {\varliminf} \varphi \left(\frac {x _ {\varepsilon} - y _ {\varepsilon}}{\alpha}\right) \left((u (x _ {\varepsilon}) - v (y _ {\varepsilon})) + \| v \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} | \exp (2 \alpha C \sqrt {\varepsilon}) - 1 |\right) \\ \leqslant \underset {\varepsilon \downarrow 0} {\varliminf} \varphi \left(\frac {x _ {\varepsilon} - y _ {\varepsilon}}{\alpha}\right) \left((u (x _ {\varepsilon}) - v (x _ {\varepsilon})) + \rho_ {v} (\alpha) + \| v \| _ {L ^ {\infty} (\mathbf {R} ^ {N})} | \exp (2 \alpha C \sqrt {\varepsilon}) - 1 |\right). \end{array}
 $$
 
 Without loss of generality we assume  $M_{0}=\sup(u(x)-v(x))>0$ . The above inequality then implies, with new constants  $c_{1}, c_{2}$  independent of small  $\alpha$  and  $\varepsilon$ ,
@@ -1058,7 +1058,7 @@ $$
 x _ {\alpha}, y _ {\alpha} \in \overline {{{\Omega}}}, \quad \varphi_ {\alpha} (x _ {\alpha} - y _ {\alpha}) (u (x _ {\alpha}) - v (y _ {\alpha})) = M _ {\alpha}.
 $$
 
-From (3.4) and the choice of $\varphi_{\alpha}$ we deduce $|x_{\alpha} - y_{\alpha}| \leqslant \alpha \delta(\alpha)$ where $\delta(0+) = 0$ as in the proof of Theorem II.2(ii). Finally, as $\alpha \downarrow 0$ all limit points of $x_{\alpha}, y_{\alpha}$ lie in $E_{+}((u - v)) \subset \Omega$. Therefore, there is a compact $K \subset \Omega$ such that $x_{\alpha}, y_{\alpha} \in K$ for $\alpha$ small. It follows that $\varphi_{\alpha}(\cdot - y_{\alpha}), \varphi_{\alpha}(x_{\alpha} - \cdot) \in \mathfrak{D}(\Omega)^{+}$ for small $\alpha$. From the assumptions we conclude
+From (3.4) and the choice of $\varphi_{\alpha}$ we deduce $|x_{\alpha} - y_{\alpha}| \leqslant \alpha \delta(\alpha)$ where $\delta(0+) = 0$ as in the proof of Theorem II.2(ii). Finally, as $\alpha \downarrow 0$ all limit points of $x_{\alpha}, y_{\alpha}$ lie in $E_{+}((u - v)) \subset \overline{\Omega}$. Therefore, there is a compact $K \subset \Omega$ such that $x_{\alpha}, y_{\alpha} \in K$ for $\alpha$ small. It follows that $\varphi_{\alpha}(\cdot - y_{\alpha}), \varphi_{\alpha}(x_{\alpha} - \cdot) \in \mathfrak{D}(\Omega)^{+}$ for small $\alpha$. From the assumptions we conclude
 
 $$
 H \left(x _ {\alpha}, u (x _ {\alpha}), - (u (x _ {\alpha}) - v (y _ {\alpha})) \frac {(D \varphi_ {\alpha}) (x _ {\alpha} - y _ {\alpha})}{\varphi_ {\alpha} (x _ {\alpha} - y _ {\alpha})}\right) \leqslant 0,
@@ -1150,10 +1150,10 @@ $$
 
 On the other hand, if we let $u(x) = \frac{1}{3} - \frac{1}{3} |x|^3$ for $|x| \geqslant t_0$ and $u(x) = \frac{1}{3} |x|^3$ for $|x| \leqslant t_0$, where $t_0 = 2^{-1/3}$, $u$ is a solution of the same equation which is also $C^1$ except at $\pm t_0$ where the discontinuity of $u'$ is such that $u$ is still a viscosity solution. Therefore in this example we have two different viscosity solutions.
 
-As remarked in the introduction, all the above uniqueness results are new. No uniqueness criteria (even for generalized solutions in  $W^{1,\infty}(\Omega)$ ) are known except in the case of a convex Hamiltonian. In the convex case, A. Douglas [10] and S. N. Kružkov [18] have introduced the class of semiconcave functions, that is functions u such that  $\partial^{2}u/\partial\chi^{2}\leqslant C_{\delta}$  in  $\mathcal{D}'(\Omega_{\delta})$  for all  $\delta>0$  and for all  $\chi:|\chi|=1$  with  $\dot{\Omega}_{\delta}$  defined in (3.5) and  $\chi$  denoting an arbitrary direction. Uniqueness in this class is proved by the above authors. P. L. Lions [22] (see also [23]) extends these results to the class of functions satisfying
+As remarked in the introduction, all the above uniqueness results are new. No uniqueness criteria (even for generalized solutions in  $W^{1,\infty}(\Omega)$ ) are known except in the case of a convex Hamiltonian. In the convex case, A. Douglas [10] and S. N. Kružkov [18] have introduced the class of semiconcave functions, that is functions u such that  $\partial^{2}u/\partial\chi^{2}\leqslant C_{\delta}$  in  $\mathfrak{D}'(\Omega_{\delta})$  for all  $\delta>0$  and for all  $\chi:|\chi|=1$  with  $\dot{\Omega}_{\delta}$  defined in (3.5) and  $\chi$  denoting an arbitrary direction. Uniqueness in this class is proved by the above authors. P. L. Lions [22] (see also [23]) extends these results to the class of functions satisfying
 
 $$
-\Delta u \leqslant C _ {\delta} \quad \text { in } \mathcal {D} ^ {\prime} (\Omega_ {\delta}) \text { for   all } \delta > 0.
+\Delta u \leqslant C _ {\delta} \quad \text { in } \mathfrak {D} ^ {\prime} (\Omega_ {\delta}) \text { for   all } \delta > 0.
 $$
 
 All these results require convex Hamiltonians and some degree of regularity of the solutions.
@@ -1432,18 +1432,16 @@ We will freely use the assertions of §I concerning viscosity subsolutions, etc.
 
 V.2. Uniqueness of solutions of the Cauchy problem. We first formulate the various assumptions we will use in what follows:
 
-(5.7)
-
 $$
-\left\{ \begin{array}{l} H \in C (\overline {{\Omega}} \times [ 0, T ] \times \mathbf {R} \times \mathbf {R} ^ {N}) \text {   is   uniformly   continuous   in } \\ \overline {{\Omega}} \times [ 0, T ] \times [ - R, R ] \times B (0, R) \text {   for   each   } R > 0. \end{array} \right.\tag{5.8}
+\left\{ \begin{array}{l} H \in C (\overline {{\Omega}} \times [ 0, T ] \times \mathbf {R} \times \mathbf {R} ^ {N}) \text {   is   uniformly   continuous   in } \\ \overline {{\Omega}} \times [ 0, T ] \times [ - R, R ] \times B (0, R) \text {   for   each   } R > 0. \end{array} \right.\tag{5.7}
 $$
 
 $$
-\left\{ \begin{array}{l} \text { For } R > 0 \text { there   is   a } \gamma_ {R} \in R \text { such   that } \\ H (x, t, r, p) - H (x, t, s, p) \geqslant \gamma_ {R} (r - s) \text { for } x \in \Omega , - R \leqslant s \leqslant r \leqslant R, \\ 0 \leqslant t \leqslant T \text { and } p \in \mathbf {R} ^ {n}. \end{array} \right.\tag{5.9}
+\left\{ \begin{array}{l} \text { For } R > 0 \text { there   is   a } \gamma_ {R} \in R \text { such   that } \\ H (x, t, r, p) - H (x, t, s, p) \geqslant \gamma_ {R} (r - s) \text { for } x \in \Omega , - R \leqslant s \leqslant r \leqslant R, \\ 0 \leqslant t \leqslant T \text { and } p \in \mathbf {R} ^ {n}. \end{array} \right.\tag{5.8}
 $$
 
 $$
-\lim _ {\alpha \downarrow 0} \sup \left\{\left| H (x, t, s, p) - H (y, t, s, p) \right|: | x - y | (1 + | p |) \leqslant \alpha , \right.
+\lim _ {\alpha \downarrow 0} \sup \left\{\left| H (x, t, s, p) - H (y, t, s, p) \right|: | x - y | (1 + | p |) \leqslant \alpha , \right.\tag{5.9}
 $$
 
 $$
@@ -1500,7 +1498,7 @@ $$
 
 and
 
-(5.13) $\Omega = \mathbf{R}^N$ and $u(x,t),v(x,t)\to 0$ as $|x|\rightarrow \infty$ uniformly for $0\leqslant t\leqslant T$
+(5.13) $\Omega = \mathbf{R}^N$ and $u(x,t),v(x,t)\to 0$ as $|x|\rightarrow \infty$ uniformly for $0\leqslant t\leqslant T$.
 
 We will write $H$ in place of $\overline{H}$ above. Now choose $\varphi_{\alpha}(x) = \varphi(x / \alpha), \psi_{\alpha}(t) = \psi(t / \alpha)$ where $\varphi \in \mathfrak{D}(\mathbf{R}^N)^+$, $\varphi(0) = 1, \psi(0) = 1, 0 \leqslant \varphi, \psi \leqslant 1$, $\operatorname{supp} \varphi \subset B(0,1)$, $\operatorname{supp} \psi \subset [-1,1]$. (In the case of $(x,t)$ dependence of $H$ we would require $\varphi(x) = 1 - |x|^2$, $\psi(t) = 1 - t^2$ near $x = 0, t = 0$.) Set
 
@@ -1508,7 +1506,7 @@ $$
 m _ {0} (t) = \max _ {x \in \mathbf {R} ^ {N}} \bigl (u (x, t) - v (x, t) \bigr).\tag{5.14}
 $$
 
-Finally, let $\eta \in \mathfrak{D}(]0, T[)^+$ and assume
+Finally, let $\eta \in \mathfrak{D}([0, T])^+$ and assume
 
 $$
 E _ {+} \left(\eta (m _ {0} - k): ] 0, T [\right) \neq \varnothing .\tag{5.15}
@@ -1568,7 +1566,7 @@ $$
 \begin{array}{l} - \frac {\eta^ {\prime} (t _ {0})}{\eta (t _ {0})} (u (x _ {0}, t _ {0}) - v (x _ {0}, t _ {0}) - k) + \gamma (u (x _ {0}, t _ {0}) - v (x _ {0}, t _ {0})) \\ \leqslant \| g (\cdot , t _ {0}) ^ {-} \| _ {L ^ {\infty} (\mathbb {R} ^ {N})}. \end{array}\tag{5.20}
 $$
 
-We also claim that  $m_{0}(t_{0}) = u(x_{0}, t_{0}) - v(x_{0}, t_{0})$ , which is in fact clear. Let us review the outcome of the above that we need. If  $m_{0}$  is given by (5.14),  $\eta \in \mathcal{D}(]0, t[)$ , and (5.15) holds, we have produced  $t_{0} \in E_{+} (\eta(m_{0}(t) - k))$  such that (5.20) holds, which is
+We also claim that  $m_{0}(t_{0}) = u(x_{0}, t_{0}) - v(x_{0}, t_{0})$ , which is in fact clear. Let us review the outcome of the above that we need. If  $m_{0}$  is given by (5.14),  $\eta \in \mathcal{D}([0, t])$ , and (5.15) holds, we have produced  $t_{0} \in E_{+} (\eta(m_{0}(t) - k))$  such that (5.20) holds, which is
 
 $$
 - \frac {\eta^ {\prime} (t _ {0})}{\eta (t _ {0})} (m _ {0} (t _ {0}) - k) + \gamma m _ {0} (t _ {0}) \leqslant \| g (\cdot , t _ {0}) ^ {-} \| _ {L ^ {\infty} (\mathbf {R} ^ {N})}.
@@ -1942,7 +1940,7 @@ In the case in which H is independent of  $(x, u)$  and  $\Omega = R^{N}$ , this
 
 4. S. H. Benton, The Hamilton-Jacobi equation: A global approach, Academic Press, New York, 1977.
 
-5. J. M. Bony, Principe du maximum dans les espaces de Sobolev, C. R. Acad. Sci. Paris Sér. A-B 265 (1967), 333-336.
+5. J. M. Bony, Principe du maximum dans les espaces de Sobolev, C. R. Acad. Sci. Paris Sér. A–B 265 (1967), 333–336.
 
 6. E. D. Conway and E. Hopf, Hamilton's theory and generalized solutions of the Hamilton-Jacobi equation, J. Math. Mech. 13 (1964), 939–986.
 
@@ -1952,7 +1950,7 @@ In the case in which H is independent of  $(x, u)$  and  $\Omega = R^{N}$ , this
 
 9. \_\_\_\_, Two approximations of solutions of Hamilton-Jacobi equations (to appear).
 
-10. A. Douglas, The continuous dependence of generalized solutions of nonlinear partial differential equations upon initial data, Comm. Pure Appl. Math. 14 (1961), 267-284.
+10. A. Douglis, The continuous dependence of generalized solutions of nonlinear partial differential equations upon initial data, Comm. Pure Appl. Math. 14 (1961), 267–284.
 
 11. L. C. Evans, On solving certain nonlinear partial differential equations by accretive operator methods, Israel J. Math. 86 (1980), 225–247.
 
@@ -1970,7 +1968,7 @@ In the case in which H is independent of  $(x, u)$  and  $\Omega = R^{N}$ , this
 
 18. S. N. Kružkov, Generalized solution of the Hamilton-Jacobi equations of Eikonal type. I, Math. USSR-Sb. 27 (1975), 406–446.
 
-19. \_\_\_\_, Generalized solutions of nonlinear first order equations and certain quasilinear parabolic equations, Vestnik Moscow. Univ. Ser. I Mat. Meh. 6 (1964), 67–74. (Russian)
+19. \_\_\_\_, Generalized solutions of nonlinear first order equations and certain quasilinear parabolic equations, Vestnik Moscov. Univ. Ser. I Mat. Meh. 6 (1964), 67–74. (Russian)
 
 20. \_\_\_\_, Generalized solutions of first order nonlinear equations in several independent variables. I, Mat. Sb. 70 (112) (1966), 394–415; II, Mat. Sb. (N. S.) 72 (114) (1967), 93–116. (Russian)
 
@@ -1984,7 +1982,7 @@ In the case in which H is independent of  $(x, u)$  and  $\Omega = R^{N}$ , this
 
 25. M. B. Tamburro, The evolution operator approach to the Hamilton-Jacobi equations, Israel J. Math. 26 (1977), 232–264.
 
-26. A. I. Vol'pert, The spaces BV and quasilinear equations, Math. USSR-Sb. 2 (1967), 225-267.
+26. A. I. Vol'pert, The spaces BV and quasilinear equations, Math. USSR-Sb. 2 (1967), 225–267.
 
 27. M. G. Crandall, P. L. Lions and L. C. Evans, Some properties of viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. (to appear).
 
