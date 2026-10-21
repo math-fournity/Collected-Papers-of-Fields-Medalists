@@ -322,17 +322,17 @@ $$
 
 and it maps$S _ { i }$onto$H _ { i }$where$H _ { 1 } , \ldots , H _ { d }$are the coordinate hyperplanes passing through z. Since Supp ∆ does not contain any stratum of$( X , \Lambda )$apart from$x ,$it is not hard to reduce the problem to a similar problem on$\mathbb { P } ^ { d }$. From now on we assume$X = \mathbb { P } ^ { d }$and that $S _ { i }$are the coordinate hyperplanes. The point of this reduction is that now$( X , \Lambda )$is not only toroidal but actually toric, and$- ( K _ { X } + \Lambda )$is ample. In particular, we can modify$\Delta$ so that$K _ { X } + \Delta$is numerically trivial.
 
-Let$W \to X$be the sequence of blowups which obtains$T ,$. Since the blowups are toric, W is a toric variety. If$Y \to X$is the birational morphism contracting$T$only, as before, then $Y$is also a toric variety. Moreover, if$K _ { Y } + \Delta _ { Y }$is the pullback of$K _ { X } + \Delta$, then$( Y , \Delta _ { Y } )$ is$\epsilon ^ { \prime } -$lc and$K _ { Y } + \Delta _ { Y }$is numerically trivial. Running MMP on$- K _ { Y }$we get another toric variety$Y ^ { \prime }$which is Fano and$\epsilon ^ { \prime } { - } \mathrm { l c } .$. By the toric version of 1.1 [9],$Y ^ { \prime }$belongs to a bounded family. From this we can produce a klt m-complement$K _ { Y ^ { \prime } } + \Omega _ { Y ^ { \prime } }$for some bounded$m \in \mathbb { N }$ which induces a klt m-complement$K _ { Y } + \Omega _ { Y }$which in turn gives a klt m-complement $K _ { X } + \Omega$. In particular,$( X , \Omega )$belongs to a bounded family as$m ( K _ { X } + \Omega ) \sim 0$. This implies that$( X , \Omega + u \Lambda )$is klt for some$u > 0$bounded from below away from zero. Finally an easy calculation shows that the multiplicity of$T$in the pullback of$\Lambda$on W is bounded from above which in turn implies the number of blowups in$W \to X$is bounded as required.
+Let$W \to X$be the sequence of blowups which obtains $T$.. Since the blowups are toric, W is a toric variety. If$Y \to X$is the birational morphism contracting$T$only, as before, then $Y$is also a toric variety. Moreover, if$K _ { Y } + \Delta _ { Y }$is the pullback of$K _ { X } + \Delta$, then$( Y , \Delta _ { Y } )$ is$\epsilon ^ { \prime } -$lc and$K _ { Y } + \Delta _ { Y }$is numerically trivial. Running MMP on$- K _ { Y }$we get another toric variety$Y ^ { \prime }$which is Fano and$\epsilon ^ { \prime } { - } \mathrm { l c }.$ By the toric version of 1.1 [9],$Y ^ { \prime }$belongs to a bounded family. From this we can produce a klt m-complement$K _ { Y ^ { \prime } } + \Omega _ { Y ^ { \prime } }$for some bounded$m \in \mathbb { N }$ which induces a klt m-complement$K _ { Y } + \Omega _ { Y }$which in turn gives a klt m-complement $K _ { X } + \Omega$. In particular,$( X , \Omega )$belongs to a bounded family as$m ( K _ { X } + \Omega ) \sim 0$. This implies that$( X , \Omega + u \Lambda )$is klt for some$u > 0$bounded from below away from zero. Finally an easy calculation shows that the multiplicity of$T$in the pullback of$\Lambda$on W is bounded from above which in turn implies the number of blowups in$W \to X$is bounded as required.
 
-Acknowledgements. I would like to thank Florin Ambro, Ivan Cheltsov, Christopher Hacon, Jingjun Han, Yujiro Kawamata, Mihai Pˇaun, Vyacheslav Shokurov, and Yanning Xu as well as the referees for their valuable comments. Thanks to Jungkai A. Chen and the National Taiwan University ofice of the National Center for Theoretical Sciences for hosting a workshop on this paper and [5] and thanks to the participants for their comments. It is likely that I am forgetting other people who have given me helpful comments on the paper in the last few years: I would like to thank those as well.
+Acknowledgements. I would like to thank Florin Ambro, Ivan Cheltsov, Christopher Hacon, Jingjun Han, Yujiro Kawamata, Mihai Păun, Vyacheslav Shokurov, and Yanning Xu as well as the referees for their valuable comments. Thanks to Jungkai A. Chen and the National Taiwan University office of the National Center for Theoretical Sciences for hosting a workshop on this paper and [5] and thanks to the participants for their comments. It is likely that I am forgetting other people who have given me helpful comments on the paper in the last few years: I would like to thank those as well.
 
 ## 2. Preliminaries
 
 All the varieties in this paper are defined over an algebraically closed field k of characteristic zero unless stated otherwise.
 
-2.1. Divisors. Let X be a normal variety and$D = \sum d _ { i } D _ { i }$be an R-divisor where$D _ { i }$are the distinct irreducible components of D. We sometimes denote the coeficient$d _ { i }$by$\mu _ { D _ { i } } D$ Let Y also be a normal variety and$\phi \colon X \dashrightarrow Y$be a birational map whose inverse does not contract any divisor. We often denote$\phi _ { * } D$by$D _ { Y }$
+2.1. Divisors. Let X be a normal variety and$D = \sum d _ { i } D _ { i }$be an R-divisor where$D _ { i }$are the distinct irreducible components of D. We sometimes denote the coefficient$d _ { i }$by $\mu _ { D _ { i } } D$. Let Y also be a normal variety and$\phi \colon X \dashrightarrow Y$be a birational map whose inverse does not contract any divisor. We often denote$\phi _ { * } D$by $D _ { Y }$.
 
-Now let X be a normal projective variety of dimension d and$A , D$be R-Cartier Rdivisors. We define the degree of D with respect to A to be the intersection number $\deg _ { A } D : = A ^ { d - 1 } D$when$d > 1$and$\deg _ { A } D : = \deg D { \mathrm { ~ i f ~ } } d = 1$where deg D denotes the usual degree of divisors on curves. If$A - D$is pseudo-efective, then one easily sees that $\deg _ { A } D \leq \deg _ { A } A$
+Now let X be a normal projective variety of dimension d and$A , D$be R-Cartier Rdivisors. We define the degree of D with respect to A to be the intersection number $\deg _ { A } D : = A ^ { d - 1 } D$when$d > 1$and$\deg _ { A } D : = \deg D { \mathrm { ~ i f ~ } } d = 1$where deg D denotes the usual degree of divisors on curves. If$A - D$is pseudo-effective, then one easily sees that $\deg _ { A } D \leq \deg _ { A } A$.
 
 We can similarly define$\deg _ { A } D$even if D is not R-Cartier, for example, when A is an ample Q-divisor because in this case we can express$A ^ { d - 1 }$as a 1-cycle in the smooth locus of$X$.
 
@@ -342,7 +342,7 @@ $$
 \operatorname{vol} (D) = \limsup _ {m \to \infty} \frac {h ^ {0} (\lfloor m D \rfloor)}{m ^ {d} / d !}.
 $$
 
-2.2. Pairs and singularities. A sub-pair$( X , B )$consists of a normal quasi-projective variety X and an R-divisor B with coeficients in$( - \infty , 1 ]$such that$K _ { X } + B$is R-Cartier. If$B \geq 0$, we call B a boundary and call$( X , B )$a pair.
+2.2. Pairs and singularities. A sub-pair$( X , B )$consists of a normal quasi-projective variety X and an R-divisor B with coefficients in$( - \infty , 1 ]$such that$K _ { X } + B$is R-Cartier. If$B \geq 0$, we call B a boundary and call$( X , B )$a pair.
 
 Let φ:$W \to X$be a log resolution of a sub-pair$( X , B )$. Let$K _ { W } + B _ { W }$be the pullback of $K _ { X } + B$. The log discrepancy of a prime divisor D on W with respect to$( X , B )$is defined as
 
@@ -350,9 +350,9 @@ $$
 a (D, X, B) := 1 - \mu_ {D} B _ {W}.
 $$
 
-We say$( X , B )$is sub-lc (resp. sub-klt) (resp. sub-ǫ-lc) if$a ( D , X , B )$is$\geq 0$ (resp. $> 0$) (resp. $\geq \epsilon$) for every D. This means that every coefficient of$B _ { W }$is$\leq 1$ (resp. $< 1$) (resp. $\leq 1 - \epsilon$). If$( X , B )$is a pair, we remove the sub and just say it is lc (resp. klt) (resp. ǫ-lc). Note that since$a ( D , X , B ) = 1$for most prime divisors, we necessarily have$\epsilon \leq 1$
+We say$( X , B )$is sub-lc (resp. sub-klt) (resp. sub-ǫ-lc) if$a ( D , X , B )$is$\geq 0$ (resp. $> 0$) (resp. $\geq \epsilon$) for every D. This means that every coefficient of$B _ { W }$is$\leq 1$ (resp. $< 1$) (resp. $\leq 1 - \epsilon$). If$( X , B )$is a pair, we remove the sub and just say it is lc (resp. klt) (resp. ǫ-lc). Note that since$a ( D , X , B ) = 1$for most prime divisors, we necessarily have$\epsilon \leq 1$.
 
-Let (X, B) be a pair. An non-klt place of$( X , B )$is a prime divisor D over X, that${ \mathrm { i s } } ,$on birational models of X such that$a ( D , X , B ) \leq 0$. A non-klt centre is the image on X of a non-klt place. When (X, B) is lc, a non-klt place and a non-klt centre are also sometimes referred to as an lc place and an lc centre, respectively.
+Let (X, B) be a pair. An non-klt place of$( X , B )$is a prime divisor D over X, that is, on birational models of X such that$a ( D , X , B ) \leq 0$. A non-klt centre is the image on X of a non-klt place. When (X, B) is lc, a non-klt place and a non-klt centre are also sometimes referred to as an lc place and an lc centre, respectively.
 
 A log smooth pair is a pair (X, B) where X is smooth and Supp B has simple normal crossing singularities. Assume (X, B) is log smooth and assume$\begin{array} { r } { B = \sum _ { 1 } ^ { r } B _ { i } } \end{array}$is reduced where$B _ { i }$are the irreducible components. A stratum of$( X , B )$is an irreducible component of$\cap _ { i \in I } B _ { i }$for some$I \subseteq \{ 1 , \ldots , r \}$. Since B is reduced, a stratum is nothing but an lc centre of (X, B) or X itself.
 
@@ -362,15 +362,15 @@ $$
 a (D, X, \Delta) = t a (D, X, B) + (1 - t) a (D, X, B ^ {\prime})
 $$
 
-for any prime divisor D over X. In particular, if$( X , B )$is sub-ǫ-lc and$( X , B ^ { \prime } )$is sub-ǫ′-lc, then$( X , \Delta )$is sub-(t \epsilon + ( 1 - t ) \epsilon ^ { \prime })-lc
+for any prime divisor D over X. In particular, if$( X , B )$is sub-ǫ-lc and$( X , B ^ { \prime } )$is sub-ǫ′-lc, then$( X , \Delta )$is sub-(t \epsilon + ( 1 - t ) \epsilon ^ { \prime })-lc.
 
 We leave the proof to the reader.
 
 2.4. Fano pairs. A pair (X, B) is called Fano (resp. weak Fano) if it is lc and −$( K _ { X } + B )$ is ample (resp. nef and big). When$B = 0$we just say X is Fano (resp. weak Fano). A variety X is of Fano type if (X, B) is klt weak Fano for some B. By [7], a Fano type variety is a Mori dream space, so we can run an MMP on any R-Cartier R-divisor on X and it terminates.
 
-2.5. Minimal models, Mori fibre spaces, and MMP. Let$X \to Z$be a projective morphism of normal varieties and D be an R-Cartier R-divisor on X. Let Y be a normal variety projective over Z and$\phi \colon X \dashrightarrow Y / Z$be a birational map whose inverse does not contract any divisor. Assume$D _ { Y } : = \phi _ { * } D$is also R-Cartier and that there is a common resolution $g \colon W \to X$and$h \colon W \to Y$such that$E : = g ^ { * } D - h ^ { * } D _ { Y }$is efective and exceptional/Y, and Supp$g _ { * } E$contains all the exceptional divisors of φ.
+2.5. Minimal models, Mori fibre spaces, and MMP. Let$X \to Z$be a projective morphism of normal varieties and D be an R-Cartier R-divisor on X. Let Y be a normal variety projective over Z and$\phi \colon X \dashrightarrow Y / Z$be a birational map whose inverse does not contract any divisor. Assume$D _ { Y } : = \phi _ { * } D$is also R-Cartier and that there is a common resolution $g \colon W \to X$and$h \colon W \to Y$such that$E : = g ^ { * } D - h ^ { * } D _ { Y }$is effective and exceptional/Y, and Supp$g _ { * } E$contains all the exceptional divisors of φ.
 
-Under the above assumptions we call Y a minimal model of D over Z if D is nef/Z. On the other hand, we call Y a Mori fibre space of D over Z if there is an extremal contraction $Y \to T / Z$with$- D _ { Y }$ample/T and dim$Y > \dim T$
+Under the above assumptions we call Y a minimal model of D over Z if$D _ { Y }$is nef/Z. On the other hand, we call Y a Mori fibre space of D over Z if there is an extremal contraction $Y \to T / Z$with$- D _ { Y }$ample/T and dim$Y > \dim T$.
 
 If one can run a minimal model program (MMP) on D over Z which terminates with a model$Y$, then Y is either a minimal model or a Mori fibre space of D over Z. If X is a Mori dream space, eg if X is of Fano type over Z, then such an MMP always exists by [7].
 
@@ -392,7 +392,7 @@ $$
 a (T, X, B) = a (T, X, \Gamma) = 0
 $$
 
-and such that$( X , \Gamma )$has no lc place other than$T .$. Replacing C with$( 1 - t ) B + t C$for a suficiently small real number$t > 0 .$, we can assume that$a ( T , X , C ) \leq 1$, by Lemma 2.3. If$T$is not exceptional over X, let$Y \to X$be a small Q-factorialisation. But if T is exceptional over$X ,$, let$Y \to X$be the birational contraction from Q-factorial Y which extracts$T$but no other divisor. Let$K _ { Y } + C _ { Y }$be the pullback of$K _ { X } + C$. Then$( Y , C _ { Y } )$ is klt.
+and such that$( X , \Gamma )$has no lc place other than $T$. Replacing C with$( 1 - t ) B + t C$for a sufficiently small real number$t > 0$, we can assume that$a ( T , X , C ) \leq 1$, by Lemma 2.3. If$T$is not exceptional over X, let$Y \to X$be a small Q-factorialisation. But if T is exceptional over$X ,$, let$Y \to X$be the birational contraction from Q-factorial Y which extracts$T$but no other divisor. Let$K _ { Y } + C _ { Y }$be the pullback of$K _ { X } + C$. Then$( Y , C _ { Y } )$ is klt.
 
 Run an MMP on$- ( K _ { Y } + T )$over X and let$Y ^ { \prime }$be the resulting model; we can run such an MMP as$Y$is of Fano type over X. Next let$Y ^ { \prime } \to Y ^ { \prime \prime } / X$be the contraction defined by $- ( K _ { Y ^ { \prime } } + T ^ { \prime } )$. It turns out that$T$is not contracted over$Y ^ { \prime \prime }$: indeed, otherwise$( Y ^ { \prime \prime } , 0 )$would be lc but not klt because$K _ { Y ^ { \prime } } + T ^ { \prime } \sim _ { \mathbb { Q } } 0 / Y ^ { \prime \prime }$, and this contradicts the fact that$( Y ^ { \prime \prime } , C _ { Y ^ { \prime \prime } } )$is klt. Now replace$Y , T$with$Y ^ { \prime \prime } , T ^ { \prime \prime }$where$T ^ { \prime \prime }$is the pushdown of$T$to$Y ^ { \prime \prime }$. By construction, $- ( K _ { Y } + T )$is ample over X. Moreover, if$K _ { Y } + \Gamma _ { Y }$is the pullback of$K _ { X } + \Gamma$, then$( Y , \Gamma _ { Y } )$ is plt because$a ( D , Y , \Gamma _ { Y } ) > 0$for every prime divisor D over X other than T. So$( Y , T )$is plt and$Y \to X$is the desired morphism.
 
@@ -414,33 +414,33 @@ $$
 (X, B + C + H + G).
 $$
 
-Moreover, replacing C with$( 1 - t ) B + t C$for a suficiently small real number$t > 0$we can assume that the coeficients of$B _ { W } - C _ { W }$are suficiently close to 0.
+Moreover, replacing C with$( 1 - t ) B + t C$for a sufficiently small real number$t > 0$we can assume that the coefficients of$B _ { W } - C _ { W }$are sufficiently close to 0.
 
-Let E be the sum of the components of$B _ { W }$with coeficient 1. Since$( X , B )$is not klt, $E \neq 0$. First assume that E and$G _ { W }$have no common component. Then we can pick a small real number$a > 0$and find
+Let E be the sum of the components of$B _ { W }$with coefficient 1. Since$( X , B )$is not klt, $E \neq 0$. First assume that E and$G _ { W }$have no common component. Then we can pick a small real number$a > 0$and find
 
 $$
 \Gamma_ {W} \sim_ {\mathbb {R}} B _ {W} + a H _ {W} + a G _ {W}
 $$
 
-so that$( W , \Gamma _ { W } )$is sub-lc,$( W , \mathrm { S u p p } \Gamma _ { W } )$is log smooth,$\mu _ { T } \Gamma _ { W } = 1$for some component $T$of$E$, all the other coeficients of$\Gamma _ { W }$are$< 1$, and$\Gamma : = \psi _ { * } \Gamma _ { W }$is efective. Since $K _ { Y } + \Gamma _ { Y } \sim _ { \mathbb { R } } 0 / X$, the pair$( X , \Gamma )$is lc with the unique lc place$T .$. So we are done in this case.
+so that$( W , \Gamma _ { W } )$is sub-lc,$( W , \mathrm { S u p p } \Gamma _ { W } )$is log smooth,$\mu _ { T } \Gamma _ { W } = 1$for some component $T$of$E$, all the other coefficients of$\Gamma _ { W }$are$< 1$, and$\Gamma : = \psi _ { * } \Gamma _ { W }$is effective. Since $K _ { Y } + \Gamma _ { Y } \sim _ { \mathbb { R } } 0 / X$, the pair$( X , \Gamma )$is lc with the unique lc place $T$. So we are done in this case.
 
-Now assume$G _ { W }$and E have common components. Recall that the coeficient$\mu _ { T } C _ { W }$of each component$T$of$E$is suficiently close to 1. Let$a > 0$be the largest real number such that$( W , C _ { W } + a G _ { W } )$is sub-lc. Then we can assume that each component of$C _ { W } + a G _ { W }$ with coeficient 1 is a component of$E .$Thus we can find
+Now assume$G _ { W }$and E have common components. Recall that the coefficient$\mu _ { T } C _ { W }$of each component$T$of$E$is sufficiently close to 1. Let$a > 0$be the largest real number such that$( W , C _ { W } + a G _ { W } )$is sub-lc. Then we can assume that each component of$C _ { W } + a G _ { W }$ with coefficient 1 is a component of$E .$Thus we can find
 
 $$
 \Gamma_ {W} \sim_ {\mathbb {R}} C _ {W} + a H _ {W} + a G _ {W}
 $$
 
-so that$( W , \Gamma _ { W } )$is sub-lc,$( W , \mathrm { S u p p } \Gamma _ { W } )$is log smooth,$\mu _ { T } \Gamma _ { W } = 1$for some component $T$of$E$, all the other coeficients of$\Gamma _ { W }$are$< 1$, and$\Gamma : = \psi _ { * } \Gamma _ { W }$is efective. Since $K _ { Y } + \Gamma _ { Y } \sim _ { \mathbb { R } } 0 / X$, the pair$( X , \Gamma )$is lc with the unique lc place$T$. So we are again done.
+so that$( W , \Gamma _ { W } )$is sub-lc,$( W , \mathrm { S u p p } \Gamma _ { W } )$is log smooth,$\mu _ { T } \Gamma _ { W } = 1$for some component $T$of$E$, all the other coefficients of$\Gamma _ { W }$are$< 1$, and$\Gamma : = \psi _ { * } \Gamma _ { W }$is effective. Since $K _ { Y } + \Gamma _ { Y } \sim _ { \mathbb { R } } 0 / X$, the pair$( X , \Gamma )$is lc with the unique lc place$T$. So we are again done.
 
 2.8. Bounded families of pairs. We say a set$\mathcal { Q }$of normal projective varieties is birationally bounded (resp. bounded) if there exist finitely many projective morphisms$V ^ { i } \to T ^ { i }$ of varieties such that for each$X \in \mathcal { Q }$there exist an i, a closed point$t \in T ^ { i }$, and a birational isomorphism (resp. isomorphism) $\phi : V _ { t } ^ { i } \dashrightarrow X$where$V _ { t } ^ { i }$is the fibre of$V ^ { i } \to T ^ { i }$over$t .$
 
-Next we will define boundedness for couples. A couple$( X , S )$consists of a normal projective variety X and a divisor S on X whose coeficients are all equal to 1, i.e. S is a reduced divisor. We use the term couple instead of pair because$K _ { X } + S$is not assumed to be Q-Cartier and$( X , S )$is not assumed to have good singularities.
+Next we will define boundedness for couples. A couple$( X , S )$consists of a normal projective variety X and a divisor S on X whose coefficients are all equal to 1, i.e. S is a reduced divisor. We use the term couple instead of pair because$K _ { X } + S$is not assumed to be Q-Cartier and$( X , S )$is not assumed to have good singularities.
 
 We say that a set P of couples is birationally bounded if there exist finitely many projective morphisms$V ^ { i } \to T ^ { i }$of varieties and reduced divisors$C ^ { i }$on$V ^ { i }$such that for each $( X , S ) \in { \mathcal { P } }$there exist an$i ,$a closed point$t \in T ^ { i }$, and a birational isomorphism$\phi \colon V _ { t } ^ { i } \dashrightarrow X$ such that$( V _ { t } ^ { i } , C _ { t } ^ { i } )$is a couple and$E \leq C _ { t } ^ { i }$where$V _ { t } ^ { i }$and$C _ { t } ^ { i }$are the fibres over t of the morphisms$V ^ { i } \to T ^ { i }$and$C ^ { i } \to T ^ { i }$, respectively, and$E$is the sum of the birational transform of S and the reduced exceptional divisor of$\phi .$. We say$\mathcal { P }$is bounded if we can choose$\phi$to be an isomorphism.
 
-A set R of projective pairs$( X , B )$is said to be log birationally bounded (resp. log bounded) if the set of the corresponding couples (X, Supp B) is birationally bounded (resp. bounded). Note that this does not put any condition on the coeficients of$B$, eg we are not requiring the coeficients of B to be in a finite set.
+A set R of projective pairs$( X , B )$is said to be log birationally bounded (resp. log bounded) if the set of the corresponding couples (X, Supp B) is birationally bounded (resp. bounded). Note that this does not put any condition on the coefficients of$B$, eg we are not requiring the coefficients of B to be in a finite set.
 
-2.9. Efective birationality and birational boundedness. In the next few subsections, we recall some of the main results of [5] which are needed in this paper.
+2.9. Effective birationality and birational boundedness. In the next few subsections, we recall some of the main results of [5] which are needed in this paper.
 
 Theorem 2.10 ([5, Theorem 1.2]). Let d be a natural number and ǫ be a positive real number. Then there is a natural number m depending only on d and ǫ such that if X is any ǫ-lc weak Fano variety of dimension$d ,$then$\vert - m K _ { X } \vert$defines a birational map.
 
@@ -454,24 +454,24 @@ In fact the proof of the theorem shows that (X, 0) is log bounded.
 
 • $n ( K _ { X } + B ^ { + } ) \sim 0$, and
 
-• $n B ^ { + } \geq n T + \lfloor ( n + 1 ) \Delta \rfloor$
+• $n B ^ { + } \geq n T + \lfloor ( n + 1 ) \Delta \rfloor$.
 
-Theorem 2.13 ([5, Theorem 1.7]). Let d be a natural number and$\Re \subset [ 0 , 1 ]$be a finite set of rational numbers. Then there exists a natural number n depending only on d and R satisfying the following. Assume$( X , B )$is a projective pair such that
+Theorem 2.13 ([5, Theorem 1.7]). Let d be a natural number and$\mathbb { R} \subset [ 0 , 1 ]$be a finite set of rational numbers. Then there exists a natural number n depending only on d and$\mathbb { R }$ satisfying the following. Assume$( X , B )$is a projective pair such that
 
 • $( X , B )$is lc of dimension d,
 
-• $B \in \Phi ( \Re )$, that is, the coeficients of B are in$\Phi ( { \mathfrak { R } } )$，
+• $B \in \Phi ( \mathbb { R } )$, that is, the coefficients of B are in$\Phi ( \mathbb { R } )$,
 
 • X is of Fano type, and
 
 • $- ( K _ { X } + B )$is nef.
 
-Then there is an n-complement$K _ { X } + B ^ { + }$of$K _ { X } + B$such that$B ^ { + } \geq B$. Moreover, the complement is also an mn-complement for any$m \in \mathbb { N }$
+Then there is an n-complement$K _ { X } + B ^ { + }$of$K _ { X } + B$such that$B ^ { + } \geq B$. Moreover, the complement is also an mn-complement for any$m \in \mathbb { N }$.
 
 In the theorem
 
 $$
-\Phi (\mathfrak {R}) := \left\{1 - \frac {r}{m} \mid r \in \mathfrak {R}, m \in \mathbb {N} \right\}.
+\Phi (\mathbb {R}) := \left\{1 - \frac {r}{m} \mid r \in \mathbb {R}, m \in \mathbb {N} \right\}.
 $$
 
 2.14. From bounds on lc thresholds to boundedness of varieties. The following result connects lc thresholds and boundedness of Fano varieties, and it is one of the main ingredients of the proof of Theorem 1.1.
@@ -502,9 +502,9 @@ $$
 \dots \rightarrow X _ {i + 1} \rightarrow X _ {i} \rightarrow \dots \rightarrow X _ {0} = X
 $$
 
-be a (finite or infinite) sequence of smooth blowups, that is, each$X _ { i + 1 } \to X _ { i }$is the blowup along a smooth subvariety$C _ { i }$of codimension$\geq 2$. If the sequence is finite, say$X _ { p } \to X _ { p - 1 }$ is the last blowup, the length of the sequence is$p .$We denote the exceptional divisor of $X _ { i + 1 } \to X _ { i }$by$E _ { i + 1 }$
+be a (finite or infinite) sequence of smooth blowups, that is, each$X _ { i + 1 } \to X _ { i }$is the blowup along a smooth subvariety$C _ { i }$of codimension$\geq 2$. If the sequence is finite, say$X _ { p } \to X _ { p - 1 }$ is the last blowup, the length of the sequence is$p .$We denote the exceptional divisor of $X _ { i + 1 } \to X _ { i }$by$E _ { i + 1 }$.
 
-(2) Let Λ be a reduced divisor such that$( X , \Lambda )$is log smooth. We say a sequence as in (1) is toroidal with respect to$( X , \Lambda )$, if for each i, the centre$C _ { i }$is a stratum of$( X _ { i } , \Lambda _ { i } )$ where$K _ { X _ { i } } + \Lambda _ { i }$is the pullback of$K _ { X } + \Lambda$(cf. [24]). This is equivalent to saying that the exceptional divisor of each blowup in the sequence is an lc place of$( X , \Lambda )$
+(2) Let Λ be a reduced divisor such that$( X , \Lambda )$is log smooth. We say a sequence as in (1) is toroidal with respect to$( X , \Lambda )$, if for each i, the centre$C _ { i }$is a stratum of$( X _ { i } , \Lambda _ { i } )$ where$K _ { X _ { i } } + \Lambda _ { i }$is the pullback of$K _ { X } + \Lambda$(cf. [24]). This is equivalent to saying that the exceptional divisor of each blowup in the sequence is an lc place of$( X , \Lambda )$.
 
 Lemma 2.17. Under the above notation, assume we have a finite sequence of smooth blowups of length$p ,$toroidal with respect to$( X , \Lambda )$, and let
 
@@ -512,47 +512,47 @@ $$
 \phi \colon X _ {p} \to X _ {0} = X
 $$
 
-be the induced morphism. Suppose$C _ { i } \subset E _ { i }$for each$0 < i < p$. Then$\mu _ { E _ { p } } \phi ^ { * } \Lambda \geq p + 1$
+be the induced morphism. Suppose$C _ { i } \subset E _ { i }$for each$0 < i < p$. Then$\mu _ { E _ { p } } \phi ^ { * } \Lambda \geq p + 1$.
 
-Proof. If$0 \leq i < p ,$then$C _ { i }$is contained in at least two components of$\Lambda _ { i }$because$C _ { i }$is an lc centre of$( X _ { i } , \Lambda _ { i } )$of codimension$\geq 2$. When$i > 0 ,$, one of these components is$E _ { i }$ by assumption. Let$\phi _ { i }$denote$X _ { i } \to X _ { 0 }$. Then by the equality$\Lambda _ { i } = \mathrm { S u p p } \phi _ { i } ^ { * } \Lambda$and by induction on i we have
+Proof. If$0 \leq i < p ,$then$C _ { i }$is contained in at least two components of$\Lambda _ { i }$because$C _ { i }$is an lc centre of$( X _ { i } , \Lambda _ { i } )$of codimension$\geq 2$. When$i > 0 ,$, one of these components is$E _ { i }$, by assumption. Let$\phi _ { i }$denote$X _ { i } \to X _ { 0 }$. Then by the equality$\Lambda _ { i } = \mathrm { S u p p } \phi _ { i } ^ { * } \Lambda$and by induction on i we have
 
 $$
 \mu_ {E _ {i + 1}} \phi_ {i + 1} ^ {*} \Lambda \geq \mu_ {E _ {i}} \phi_ {i} ^ {*} \Lambda + 1 \geq i + 2.
 $$
 
-(3) Consider a sequence of blowups as in (1) (so this is not necessarily toroidal). Let $T$be a prime divisor over$X$, that is, on birational models of$X$. Assume that for each $i , C _ { i }$is the centre of$T$on$X _ { i }$. We then call the sequence a sequence of centre blowups associated to$T .$By [28, Lemma 2.45], such a sequence cannot be infinite, that is, after finitely many centre blowups,$T$is obtained, i.e. there is$p$such that$T$is the exceptional divisor of$X _ { p } \to X _ { p - 1 }$(here we think of$T$birationally; if$T$is fixed on some model, then we should say the exceptional divisor is the birational transform of T). In this case, we say $T$is obtained by the sequence of centre blowups$X _ { p } \to X _ { p - 1 } \to \cdots \to X _ { 0 } = X$
+(3) Consider a sequence of blowups as in (1) (so this is not necessarily toroidal). Let $T$be a prime divisor over$X$, that is, on birational models of$X$. Assume that for each $i , C _ { i }$is the centre of$T$on$X _ { i }$. We then call the sequence a sequence of centre blowups associated to$T .$By [28, Lemma 2.45], such a sequence cannot be infinite, that is, after finitely many centre blowups,$T$is obtained, i.e. there is$p$such that$T$is the exceptional divisor of$X _ { p } \to X _ { p - 1 }$(here we think of$T$birationally; if$T$is fixed on some model, then we should say the exceptional divisor is the birational transform of T). In this case, we say $T$is obtained by the sequence of centre blowups$X _ { p } \to X _ { p - 1 } \to \cdots \to X _ { 0 } = X$.
 
-2.18. Analytic pairs and analytic neighbourhoods of algebraic singularities. For convenience we will recall certain analytic notions shortly. We will use these mainly to compare analytic neighbourhoods of algebraic singularities and this involves only elementary aspects of the analytic theory. Strictly speaking we can replace these by purely algebraic constructions, eg formal varieties and formal neighbourhoods, but we prefer the analytic language as it is more straightforward. When we have an algebraic object A defined over C, eg a variety, a morphism, etc, we denote the associated analytic object by$A ^ { \mathrm { a n } }$
+2.18. Analytic pairs and analytic neighbourhoods of algebraic singularities. For convenience we will recall certain analytic notions shortly. We will use these mainly to compare analytic neighbourhoods of algebraic singularities and this involves only elementary aspects of the analytic theory. Strictly speaking we can replace these by purely algebraic constructions, eg formal varieties and formal neighbourhoods, but we prefer the analytic language as it is more straightforward. When we have an algebraic object A defined over C, eg a variety, a morphism, etc, we denote the associated analytic object by$A ^ { \mathrm { a n } }$.
 
-(1) An analytic pair$( U , G )$consists of a normal complex analytic variety U and an Rdivisor$G$with finitely many components and with coeficients in [0, 1] such that$K _ { U } + G$ is R-Cartier. Log discrepancies and notions of lc, klt, ǫ-lc singularities can be defined for such pairs just as in 2.2 using log resolutions. In this paper, we will only need analytic pairs (U, G) which are derived from algebraic pairs with U being smooth.
+(1) An analytic pair$( U , G )$consists of a normal complex analytic variety U and an Rdivisor$G$with finitely many components and with coefficients in [0, 1] such that$K _ { U } + G$ is R-Cartier. Log discrepancies and notions of lc, klt, ǫ-lc singularities can be defined for such pairs just as in 2.2 using log resolutions. In this paper, we will only need analytic pairs (U, G) which are derived from algebraic pairs with U being smooth.
 
-Two analytic pairs$( U , G )$and$( U ^ { \prime } , G ^ { \prime } )$are analytically isomorphic if there is an analytic isomorphism, that is, a biholomorphic map$\nu \colon U \to U ^ { \prime }$such that$\nu _ { * } G = G ^ { \prime }$
+Two analytic pairs$( U , G )$and$( U ^ { \prime } , G ^ { \prime } )$are analytically isomorphic if there is an analytic isomorphism, that is, a biholomorphic map$\nu \colon U \to U ^ { \prime }$such that$\nu _ { * } G = G ^ { \prime }$.
 
-(2) Let (X, B) be an algebraic pair over C (that is, a pair as in 2.2), let$x \in X$be a closed point, and let$U$be an analytic neighbourhood of x in the associated analytic variety$X ^ { \mathrm { a n } }$. Take a log resolution$\phi \colon W \to X$and let V be the inverse image of$U$under $\phi ^ { \mathrm { a n } } \colon W ^ { \mathrm { a n } } \to X ^ { \mathrm { a n } }$. Then$\phi ^ { \mathrm { a n } } | _ { V }$is an analytic log resolution of$( U , B ^ { \mathrm { a n } } | _ { U } )$. In particular, if $( U , B ^ { \mathrm { a n } } | _ { U } )$is ǫ-lc in the analytic sense, then$( X , B )$is ǫ-lc in some algebraic neighbourhood of x. Conversely, it is clear that if$( X , B )$is ǫ-lc in some algebraic neighbourhood of$x ,$, then we can choose U so that$( U , B ^ { \mathrm { a n } } | _ { U } )$is ǫ-lc in the analytic sense.
+(2) Let (X, B) be an algebraic pair over C (that is, a pair as in 2.2), let$x \in X$be a closed point, and let$U$be an analytic neighbourhood of x in the associated analytic variety$X ^ { \mathrm { a n } }$. Take a log resolution$\phi \colon W \to X$and let V be the inverse image of$U$under $\phi ^ { \mathrm { a n } } \colon W ^ { \mathrm { a n } } \to X ^ { \mathrm { a n } }$. Then$\phi ^ { \mathrm { a n } } | _ { V }$is an analytic log resolution of$( U , B ^ { \mathrm { a n } } | _ { U } )$. In particular, if $( U , B ^ { \mathrm { a n } } | _ { U } )$is ǫ-lc in the analytic sense, then$( X , B )$is ǫ-lc in some algebraic neighbourhood of x. Conversely, it is clear that if$( X , B )$is ǫ-lc in some algebraic neighbourhood of$x$, then we can choose U so that$( U , B ^ { \mathrm { a n } } | _ { U } )$is ǫ-lc in the analytic sense.
 
-(3) Now let$( X , B )$and$( X ^ { \prime } , B ^ { \prime } )$be algebraic pairs over$\mathbb { C } ,$let$x \in X$and$x ^ { \prime } \in X ^ { \prime }$ be closed points, and let U and$U ^ { \prime }$be analytic neighbourhoods of x and$x ^ { \prime } ,$, respectively. Assume that$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( U ^ { \prime } , B ^ { \prime \mathrm { a n } } | _ { U ^ { \prime } } )$are analytically isomorphic. Then$( X , B )$is$\epsilon \mathrm { - }$ lc in some algebraic neighbourhood of x if and only if$( X ^ { \prime } , B ^ { \prime } )$is ǫ-lc in some algebraic neighbourhood of$x ^ { \prime }$. Note that it may well happen that$( X , B )$and$( X ^ { \prime } , B ^ { \prime } )$are not algebraically isomorphic in any algebraic neighbourhoods of$x$and$x ^ { \prime }$. For example, the two pairs$\left( \mathbb { P } ^ { 2 } , B \right)$and$\left( \mathbb { P } ^ { 2 } , B ^ { \prime } \right)$have isomorphic analytic neighbourhoods where B is an irreducible curve with a node at x but$B ^ { \prime }$is the union of two lines intersecting at$x ^ { \prime }$.
+(3) Now let$( X , B )$and$( X ^ { \prime } , B ^ { \prime } )$be algebraic pairs over$\mathbb { C } ,$let$x \in X$and$x ^ { \prime } \in X ^ { \prime }$ be closed points, and let U and$U ^ { \prime }$be analytic neighbourhoods of x and$x ^ { \prime }$, respectively. Assume that$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( U ^ { \prime } , B ^ { \prime \mathrm { a n } } | _ { U ^ { \prime } } )$are analytically isomorphic. Then$( X , B )$is$\epsilon \mathrm { - }$ lc in some algebraic neighbourhood of x if and only if$( X ^ { \prime } , B ^ { \prime } )$is ǫ-lc in some algebraic neighbourhood of$x ^ { \prime }$. Note that it may well happen that$( X , B )$and$( X ^ { \prime } , B ^ { \prime } )$are not algebraically isomorphic in any algebraic neighbourhoods of$x$and$x ^ { \prime }$. For example, the two pairs$\left( \mathbb { P } ^ { 2 } , B \right)$and$\left( \mathbb { P } ^ { 2 } , B ^ { \prime } \right)$have isomorphic analytic neighbourhoods where B is an irreducible curve with a node at x but$B ^ { \prime }$is the union of two lines intersecting at$x ^ { \prime }$.
 
-2.19. Etale morphisms. <sup>´</sup> We look at singularities of images of a pair under a finite morphism which is ´etale at some point.
+2.19. Étale morphisms. We look at singularities of images of a pair under a finite morphism which is étale at some point.
 
-Lemma 2.20. Let$\left( { \cal X } , { \cal B } = \sum b _ { j } B _ { j } \right)$be a pair over$\mathbb { C } , \pi \colon X \to Z$be a finite morphism, $x \in X$a closed point, and$z = \pi ( x )$. Assume
+Lemma 2.20. Let$\left( X , B = \sum b _ { j } B _ { j } \right)$be a pair over$\mathbb { C } , \pi \colon X \to Z$be a finite morphism, $x \in X$a closed point, and$z = \pi ( x )$. Assume
 
 • X and Z are smooth near x and z, respectively,
 
-• π is ´etale at x,
+• π is étale at x,
 
 • Supp B does not contain any point of$\pi ^ { - 1 } \{ z \}$except possibly x, and
 
-• $\begin{array} { r } { C : = \pi ( B ) : = \sum b _ { j } \pi ( B _ { j } ) } \end{array}$
+• $\begin{array} { r } { C : = \pi ( B ) : = \sum b _ { j } \pi ( B _ { j } ) } \end{array}$.
 
-Then$( X , B )$is ǫ-lc near x if and only if$( Z , C )$is ǫ-lc near z. More precisely, there exist analytic neighbourhoods U and V of x and z, respectively, such that$\pi ^ { \mathrm { a n } } | _ { U }$induces an analytic isomorphism between$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$
+Then$( X , B )$is ǫ-lc near x if and only if$( Z , C )$is ǫ-lc near z. More precisely, there exist analytic neighbourhoods U and V of x and z, respectively, such that$\pi ^ { \mathrm { a n } } | _ { U }$induces an analytic isomorphism between$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$.
 
 We leave the proof of this lemma and the next lemma to the reader.
 
-Note that in the previous lemma, C may not even be a boundary away from$z ,$that is, it may have components not passing through z but with coeficients larger than 1.
+Note that in the previous lemma, C may not even be a boundary away from$z ,$that is, it may have components not passing through z but with coefficients larger than 1.
 
-The next lemma is useful for showing that a morphism is ´etale at a point.
+The next lemma is useful for showing that a morphism is étale at a point.
 
-Lemma 2.21. Let$\pi \colon X \to Z$be a finite morphism between varieties of dimension$d , x \in X$ a closed point, and$z = \pi ( x )$. Assume X and Z are smooth at x and z, respectively. Assume $t _ { 1 } , \ldots , t _ { d }$are local parameters at z and that$\pi ^ { * } t _ { 1 } , \ldots , \pi ^ { * } t _ { d }$are local parameters at x. Then π is ´etale at x.
+Lemma 2.21. Let$\pi \colon X \to Z$be a finite morphism between varieties of dimension$d , x \in X$ a closed point, and$z = \pi ( x )$. Assume X and Z are smooth at x and z, respectively. Assume $t _ { 1 } , \ldots , t _ { d }$are local parameters at z and that$\pi ^ { * } t _ { 1 } , \ldots , \pi ^ { * } t _ { d }$are local parameters at x. Then π is étale at x.
 
 2.22. Toric varieties and toric MMP. We will reduce Theorem 1.8 to the case when $X = \mathbb { P } ^ { d }$. To deal with this case we need some elementary toric geometry. All we need can be found in [12]. Let X be a (normal) Q-factorial projective toric variety. Then X is a Mori dream space, meaning we can run an MMP on any Q-divisor D which terminates with a minimal model or a Mori fibre space of D. Moreover, the MMP is toric, that is, all the contractions and varieties in the process are toric. If we have a projective toric morphism $X \to Z$to a toric variety, then we can run an MMP on D over Z which terminates with a minimal model or a Mori fibre space of D over Z. See [12, §15.5] for proofs.
 
@@ -564,9 +564,9 @@ Lemma 2.24. Let d, r be natural numbers and ǫ be a positive real number. Then t
 
 • $( X , B )$is a projective ǫ-lc pair of dimension d, and
 
-• A is a very ample divisor on X with$A ^ { d } \leq r$
+• A is a very ample divisor on X with$A ^ { d } \leq r$.
 
-Then there is a projective small birational morphism$\phi \colon Y \to X$and a very ample divisor A on Y such that
+Then there is a projective small birational morphism$\phi \colon Y \to X$and a very ample divisor$A _ { Y }$on Y such that
 
 • Y is normal,
 
@@ -578,17 +578,17 @@ Then there is a projective small birational morphism$\phi \colon Y \to X$and a v
 
 Proof. Since A is very ample and$A ^ { d } \leq r$, X belongs to a bounded set of projective varieties. Then there exist finitely many projective morphisms$V ^ { i } \to T ^ { i }$of quasi-projective varieties such that each X in the lemma is isomorphic to the fibre of$V ^ { i } \to T ^ { i }$over some closed point$t \in T ^ { i }$for some i. We can also assume that there is a divisor$A _ { V } ^ { i }$on$V ^ { i }$which is very ample over$T ^ { i }$and such that$A \sim A _ { V } ^ { i } | _ { X }$. For the rest of the proof we fix i and write $V = V ^ { i } , T = T ^ { i } , A _ { V } = A _ { V } ^ { i }$. We will shrink$V , T$when convenient.
 
-Let$W \to V$be a log resolution. Let Σ be the reduced exceptional divisor of$W \to V$ Let$\Gamma _ { W } = ( 1 - \textstyle { \frac { \epsilon } { 2 } } ) \Sigma$. Run an MMP on$K _ { W } + \Gamma _ { W }$over V and let$( U , \Gamma _ { U } )$be the resulting log minimal model of$( W , \Gamma _ { W } )$over V. Shrinking$W , U , V , T$we can assume that the following holds: if$t \in T$is a closed point and if$Y , X$are the fibres of$U \to T$and$V \to T$over$t ,$ respectively, then
+Let$W \to V$be a log resolution. Let Σ be the reduced exceptional divisor of$W \to V$. Let$\Gamma _ { W } = ( 1 - \textstyle { \frac { \epsilon } { 2 } } ) \Sigma$. Run an MMP on$K _ { W } + \Gamma _ { W }$over V and let$( U , \Gamma _ { U } )$be the resulting log minimal model of$( W , \Gamma _ { W } )$over V. Shrinking$W , U , V , T$we can assume that the following holds: if$t \in T$is a closed point and if$Y , X$are the fibres of$U \to T$and$V \to T$over$t ,$ respectively, then
 
 • Y is normal,
 
-• $K _ { Y } \sim _ { \mathbb { Q } } K _ { U } | _ { Y } .$
+• $K _ { Y } \sim _ { \mathbb { Q } } K _ { U } | _ { Y }$,
 
 • $\Gamma _ { U }$does not contain$Y .$
 
-• support of$\Gamma _ { Y } : = \Gamma _ { U } | _ { Y }$coincides with the reduced exceptional divisor of$Y \to X$，
+• support of$\Gamma _ { Y } : = \Gamma _ { U } | _ { Y }$coincides with the reduced exceptional divisor of$Y \to X$,
 
-• and each non-zero coeficient of$\Gamma _ { Y }$is equal to$1 - \textstyle { \frac { \epsilon } { 2 } }$
+• and each non-zero coefficient of$\Gamma _ { Y }$is equal to$1 - \textstyle { \frac { \epsilon } { 2 } }$.
 
 Now let$( X , B )$be as in the lemma. We can assume X is isomorphic to the fibre of $V \to T$over some closed point t. Let Y be the fibre of$U \to T$over t and let$\phi \colon Y \to X$be the induced birational morphism. We show that$\phi$is a small morphism. Let$K _ { Y } + B _ { Y } =$ $\phi ^ { * } ( K _ { X } + B )$. Then
 
@@ -596,13 +596,13 @@ $$
 B _ {Y} - \Gamma_ {Y} = (K _ {Y} + B _ {Y}) - (K _ {Y} + \Gamma_ {Y}) \equiv - (K _ {Y} + \Gamma_ {Y}) / X
 $$
 
-is anti-nef over X. Moreover,$\phi _ { * } ( B _ { Y } - \Gamma _ { Y } ) = B \ge 0$. Thus by the negativity lemma, $B _ { Y } - \Gamma _ { Y } \geq 0$. However,$( X , B )$is ǫ-lc, so each coeficient of$B _ { Y } { \mathrm { ~ i s ~ } } \leq 1 - \epsilon$but by the previous paragraph each non-zero coeficient of$\Gamma _ { Y }$is$\geq 1 - \frac { \epsilon } { 2 }$. This is possible only if $\Gamma _ { Y } = 0$. Therefore,$\phi$is a small morphism as Supp Γ<sub>Y</sub> contains every divisor contracted by $\phi .$Moreover, since U is Q-factorial,$K _ { Y } \sim _ { \mathbb { Q } } K _ { U } | _ { Y }$is Q-Cartier.
+is anti-nef over X. Moreover,$\phi _ { * } ( B _ { Y } - \Gamma _ { Y } ) = B \ge 0$. Thus by the negativity lemma, $B _ { Y } - \Gamma _ { Y } \geq 0$. However,$( X , B )$is ǫ-lc, so each coefficient of$B _ { Y } { \mathrm { ~ i s ~ } } \leq 1 - \epsilon$but by the previous paragraph each non-zero coefficient of$\Gamma _ { Y }$is$\geq 1 - \frac { \epsilon } { 2 }$. This is possible only if $\Gamma _ { Y } = 0$. Therefore,$\phi$is a small morphism as Supp Γ<sub>Y</sub> contains every divisor contracted by $\phi .$Moreover, since U is Q-factorial,$K _ { Y } \sim _ { \mathbb { Q } } K _ { U } | _ { Y }$is Q-Cartier.
 
 Pick a divisor A<sub>U</sub> on U which is very ample over T. Let$A _ { Y } = A _ { U } | _ { Y }$. Then$A _ { Y }$is very ample on$Y$and$A _ { Y } ^ { d } \leq l$for some fixed natural number l. We can assume that$A _ { U } - \psi ^ { * } A _ { V }$ is ample over$T$where ψ is the morphism$U \to V$. This ensures that$A _ { Y } - \phi ^ { * } A$is ample.
 
 ## 2.25. Semi-ample divisors.
 
-Lemma 2.26. Assume$Y \to X$is a contraction of normal projective varieties, C is a nef R-divisor on Y and A is the pullback of an ample R-divisor on X. If C is semi-ample over X, then$C + a A$is semi-ample (globally) for any real number$a > 0$
+Lemma 2.26. Assume$Y \to X$is a contraction of normal projective varieties, C is a nef R-divisor on Y and A is the pullback of an ample R-divisor on X. If C is semi-ample over X, then$C + a A$is semi-ample (globally) for any real number$a > 0$.
 
 Proof. Since C is semi-ample over X, it defines a contraction$\phi \colon Y \to Z / X$to a normal projective variety. Replacing$Y$with$Z$and replacing$C , A$with$\phi _ { * } C , \phi _ { * } A$, respectively, we can assume$C$is ample over X. Pick$a > 0$. Now$C + b A$is ample for some$b \gg a$because A is the pullback of an ample divisor on X. Since C is globally nef,
 
@@ -622,9 +622,9 @@ Proposition 3.1. Let d be a natural number and ǫ be a positive real number. Ass
 
 • X has Picard number one, and
 
-• $0 \leq L \sim _ { \mathbb { R } } - K _ { X }$
+• $0 \leq L \sim _ { \mathbb { R } } - K _ { X }$.
 
-Then each coeficient of L is less than or equal to$v .$
+Then each coefficient of L is less than or equal to$v .$
 
 Proof. Step 1. In this step we do some preparations. Pick a component$T$of L. Since X has Picard number one,$L \sim _ { \mathbb { R } } u T$for some$u \geq \mu _ { T } L$. Thus we may replace L, hence assume $L = u T$. We need to show u is bounded from above. By Theorem 2.13, there is a natural number n depending only on d such that$K _ { X }$has an n-complement$K _ { X } + \Omega$. Moreover, by Theorems 2.10 and 2.11 in dimension d, and 1.1 in lower dimension, replacing n depending only on$d , \epsilon ,$we can assume$\vert - n K _ { X } \vert$defines a birational map and that$\operatorname { v o l } ( - K _ { X } )$is bounded from above.
 
@@ -632,9 +632,9 @@ Step 2. In this step we show that$( X , \Omega )$is log birationally bounded. In
 
 • Supp Λ contains the exceptional divisor of$V \dashrightarrow X$and the birational transform of $\operatorname { S u p p } \Omega ;$
 
-• for a common resolution$\phi \colon W \to X$and$\psi \colon W \to V$, each coeficient of$\psi _ { * } \phi ^ { * } \Omega$is at most c.
+• for a common resolution$\phi \colon W \to X$and$\psi \colon W \to V$, each coefficient of$\psi _ { * } \phi ^ { * } \Omega$is at most c.
 
-Enlarging Λ we can also assume that$H \leq \Lambda$for some very ample divisor$H \geq 0$
+Enlarging Λ we can also assume that$H \leq \Lambda$for some very ample divisor$H \geq 0$.
 
 Step 3. Let B be a boundary such that$( X , B )$is ǫ-lc and$K _ { X } + B \sim _ { \mathbb { R } } 0$. Let
 
@@ -660,9 +660,9 @@ $$
 a (T, V, \Lambda) \leq a (T, V, \Omega_ {V}) \leq 1.
 $$
 
-Step$\it 4 .$In this step we show that the coeficients of$B _ { V }$are bounded from below. Assume D is a component of$B _ { V }$with negative coeficient. Let$K _ { V } + \Gamma _ { V } = \psi _ { * } \phi ^ { * } K _ { X }$. Then$\Gamma _ { V } +$ $\psi _ { * } \phi ^ { * } B = B _ { V }$, hence$\mu _ { D } \Gamma _ { V } \leq \mu _ { D } B _ { V } ,$so it is enough to bound$\mu _ { D } \Gamma _ { V }$from below. Now $K _ { V } + \Gamma _ { V } \equiv - \psi _ { * } \phi ^ { * } \Omega$, hence$\mathrm { d e g } _ { H } ( K _ { V } + \Gamma _ { V } )$is bounded from below, by Step 2. Thus $\deg _ { H } \Gamma _ { V }$is bounded from below because$\deg _ { H } K _ { V }$belongs to a fixed finite set as$( V , \Lambda ) \in \mathcal { P }$ and$H \leq \Lambda$
+Step 4. In this step we show that the coefficients of$B _ { V }$are bounded from below. Assume D is a component of$B _ { V }$with negative coefficient. Let$K _ { V } + \Gamma _ { V } = \psi _ { * } \phi ^ { * } K _ { X }$. Then$\Gamma _ { V } +$ $\psi _ { * } \phi ^ { * } B = B _ { V }$, hence$\mu _ { D } \Gamma _ { V } \leq \mu _ { D } B _ { V } ,$so it is enough to bound$\mu _ { D } \Gamma _ { V }$from below. Now $K _ { V } + \Gamma _ { V } \equiv - \psi _ { * } \phi ^ { * } \Omega$, hence$\mathrm { d e g } _ { H } ( K _ { V } + \Gamma _ { V } )$is bounded from below, by Step 2. Thus $\deg _ { H } \Gamma _ { V }$is bounded from below because$\deg _ { H } K _ { V }$belongs to a fixed finite set as$( V , \Lambda ) \in \mathcal { P }$ and$H \leq \Lambda$.
 
-Write$\Gamma _ { V } = I - J$where$I , J$are efective divisors with no common components. Since $I \leq \Lambda , \deg _ { H } I \leq \deg _ { H } \Lambda$which shows$\deg _ { H } I$is bounded from above, hence$\deg _ { H } J$is bounded from above too. Therefore, the coeficients of J are bounded from above which in turn shows the coeficient of D in$\Gamma _ { V }$is bounded from below as required. Note that this also implies the coeficients of$\Omega _ { V }$are bounded from below.
+Write$\Gamma _ { V } = I - J$where$I , J$are effective divisors with no common components. Since $I \leq \Lambda , \deg _ { H } I \leq \deg _ { H } \Lambda$which shows$\deg _ { H } I$is bounded from above, hence$\deg _ { H } J$is bounded from above too. Therefore, the coefficients of J are bounded from above which in turn shows the coefficient of D in$\Gamma _ { V }$is bounded from below as required. Note that this also implies the coefficients of$\Omega _ { V }$are bounded from below.
 
 Step 5. In this step we introduce a boundary$\Delta$. By the previous step, there exists $\alpha \in ( 0 , 1 )$depending only on$d ,$ǫ such that
 
@@ -684,19 +684,19 @@ $$
 
 is ample too. In addition, there is a bounded natural number r such that$( l H ) ^ { d } \leq r .$
 
-Step 6. In this step we finish the proof by applying Theorem 1.8. Let$M = \psi _ { * } \phi ^ { * } u T$ Since$\Omega \equiv - K _ { X } \equiv u T$, the degree $\deg _ { H } M = \deg _ { H } ( \psi _ { * } \phi ^ { * } \Omega )$is bounded from above, by Step 2, which implies the coeficients of M are bounded from above. In particular, we may assume$T$is exceptional over$V ,$otherwise u would be bounded. Thus M is exceptional over X, hence its support is inside Λ. So perhaps after replacing l we can assume$l H - M$ is ample.
+Step 6. In this step we finish the proof by applying Theorem 1.8. Let$M = \psi _ { * } \phi ^ { * } u T$. Since$\Omega \equiv - K _ { X } \equiv u T$, the degree $\deg _ { H } M = \deg _ { H } ( \psi _ { * } \phi ^ { * } \Omega )$is bounded from above, by Step 2, which implies the coefficients of M are bounded from above. In particular, we may assume$T$is exceptional over$V ,$otherwise u would be bounded. Thus M is exceptional over X, hence its support is inside Λ. So perhaps after replacing l we can assume$l H - M$ is ample.
 
-On the other hand, since T is ample,$\phi ^ { * } u T \leq \psi ^ { * } M$, by the negativity lemma, hence the coeficient of the birational transform of$T$in$\psi ^ { * } M$is at least u. Therefore,$\begin{array} { r } { ( V , \Delta + \frac { 1 } { u } M ) } \end{array}$is not klt as
+On the other hand, since T is ample,$\phi ^ { * } u T \leq \psi ^ { * } M$, by the negativity lemma, hence the coefficient of the birational transform of$T$in$\psi ^ { * } M$is at least u. Therefore,$\begin{array} { r } { ( V , \Delta + \frac { 1 } { u } M ) } \end{array}$is not klt as
 
 $$
 a (T, V, \Delta + \frac {1}{u} M) \leq a (T, V, \Delta) - 1 \leq 0.
 $$
 
-Now by Theorem 1.8, there is a positive number t depending only on$d , \epsilon ^ { \prime } , r$such that $( V , \Delta + t M )$is klt. Therefore,$\textstyle t < { \frac { 1 } { u } }$, hence$\begin{array} { r } { u < v : = \frac { 1 } { t } } \end{array}$
+Now by Theorem 1.8, there is a positive number t depending only on$d , \epsilon ^ { \prime } , r$such that $( V , \Delta + t M )$is klt. Therefore,$\textstyle t < { \frac { 1 } { u } }$, hence$\begin{array} { r } { u < v : = \frac { 1 } { t } } \end{array}$.
 
 Lemma 3.2. Assume that Theorem 1.8 holds in dimension$\leq d$and that Theorem 1.1 holds in dimension$\leq d - 1$. Then Theorem 1.6 holds in dimension$d .$
 
-Proof. Pick$\epsilon ^ { \prime } \in ( 0 , \epsilon )$. Let$( X , B )$and$A = - ( K _ { X } + B )$be as in Theorem 1.6 in dimension d and pick$L \in | A | _ { \mathbb { R } }$. Let s be the largest number such that$( X , B + s L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$. It is enough to show s is bounded from below away from zero. In particular, we may assume$s < 1$
+Proof. Pick$\epsilon ^ { \prime } \in ( 0 , \epsilon )$. Let$( X , B )$and$A = - ( K _ { X } + B )$be as in Theorem 1.6 in dimension d and pick$L \in | A | _ { \mathbb { R } }$. Let s be the largest number such that$( X , B + s L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$. It is enough to show s is bounded from below away from zero. In particular, we may assume$s < 1$.
 
 Replacing X with a Q-factorialisation, we can assume X is Q-factorial. There is a prime divisor$T$over$X$, that is, on birational models of X, with log discrepancy
 
@@ -712,7 +712,7 @@ $$
 
 hence µ<sub>T</sub>s$L _ { Y } \geq \epsilon - \epsilon ^ { \prime } .$
 
-Since$s < 1$
+Since$s < 1$,
 
 $$
 - (K _ {X} + B + s L) = A - s L \sim_ {\mathbb {R}} (1 - s) A
@@ -724,7 +724,7 @@ $$
 - \left(K _ {Y ^ {\prime}} + B _ {Y ^ {\prime}} + s L _ {Y ^ {\prime}}\right) \sim_ {\mathbb {R}} (1 - s) L _ {Y ^ {\prime}} \geq 0.
 $$
 
-Moreover,$( Y ^ { \prime } , B _ { Y ^ { \prime } } + s L _ { Y ^ { \prime } } )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$because$( Y , B _ { Y } + s L _ { Y } )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$and $- ( K _ { Y } + B _ { Y } + s L _ { Y } )$ is semi-ample. If dim$Z ^ { \prime } > 0$, then restricting to a general fibre of$Y ^ { \prime } \to Z ^ { \prime }$and applying Theorem 1.6 in lower dimension by induction (or applying Theorem 1.1) shows that the coeficients of the horizontal$/ Z ^ { \prime }$components of$( 1 - s ) L _ { Y ^ { \prime } }$are bounded from above. In particular,$\mu _ { T ^ { \prime } } ( 1 - s ) L _ { Y ^ { \prime } }$is bounded from above. Thus from the inequality
+Moreover,$( Y ^ { \prime } , B _ { Y ^ { \prime } } + s L _ { Y ^ { \prime } } )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$because$( Y , B _ { Y } + s L _ { Y } )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$and $- ( K _ { Y } + B _ { Y } + s L _ { Y } )$ is semi-ample. If dim$Z ^ { \prime } > 0$, then restricting to a general fibre of$Y ^ { \prime } \to Z ^ { \prime }$and applying Theorem 1.6 in lower dimension by induction (or applying Theorem 1.1) shows that the coefficients of the horizontal$/ Z ^ { \prime }$components of$( 1 - s ) L _ { Y ^ { \prime } }$are bounded from above. In particular,$\mu _ { T ^ { \prime } } ( 1 - s ) L _ { Y ^ { \prime } }$is bounded from above. Thus from the inequality
 
 $$
 \mu_ {T ^ {\prime}} (1 - s) L _ {Y ^ {\prime}} \geq \frac {(1 - s) (\epsilon - \epsilon^ {\prime})}{s},
@@ -738,9 +738,9 @@ $$
 
 so by Proposition 3.1,$\mu _ { T ^ { \prime } } ( 1 - s ) L _ { Y ^ { \prime } }$is bounded from above which again gives a lower bound for s as before.
 
-Next we treat Theorem 1.7. As mentioned in the introduction, the theorem and its proof are independent of the rest of this paper when lct$( X , B , | A | _ { \mathbb { R } } ) < 1$
+Next we treat Theorem 1.7. As mentioned in the introduction, the theorem and its proof are independent of the rest of this paper when lct$( X , B , | A | _ { \mathbb { R } } ) < 1$.
 
-Lemma 3.3. Assume Theorem 1.8 holds in dimension d. Then Theorem 1.7 holds in dimension d when lct$( X , B , | A | _ { \mathbb { R } } ) = 1$
+Lemma 3.3. Assume Theorem 1.8 holds in dimension d. Then Theorem 1.7 holds in dimension d when lct$( X , B , | A | _ { \mathbb { R } } ) = 1$.
 
 Proof. By definition of the lc threshold, there exists a sequence of R-divisors
 
@@ -748,13 +748,13 @@ $$
 0 \leq L _ {i} \sim_ {\mathbb {R}} A = - (K _ {X} + B)
 $$
 
-such that the numbers$t _ { i } : = \operatorname { l c t } ( X , B , L _ { i } )$form a decreasing sequence with lim$t _ { i } = 1$
+such that the numbers$t _ { i } : = \operatorname { l c t } ( X , B , L _ { i } )$form a decreasing sequence with lim$t _ { i } = 1$.
 
-Assume$( X , B )$is not exceptional, that is, assume there is$0 \leq L \sim _ { \mathbb { R } }$A such that$( X , B +$ $L )$is not klt. Thus lct$( X , B , L ) \leq 1$. Since lct$( X , B , \vert A \vert _ { \mathbb { R } } ) = 1$, we deduce lct$( X , B , L ) = 1$ and that$( X , B + L )$is lc but not klt. If B is a Q-boundary, then using approximation, we can replace L so that$0 \leq L \sim _ { \mathbb { Q } } A .$, so we are done in this case by taking$D = L$
+Assume$( X , B )$is not exceptional, that is, assume there is$0 \leq L \sim _ { \mathbb { R } }$A such that$( X , B +$ $L )$is not klt. Thus lct$( X , B , L ) \leq 1$. Since lct$( X , B , \vert A \vert _ { \mathbb { R } } ) = 1$, we deduce lct$( X , B , L ) = 1$ and that$( X , B + L )$is lc but not klt. If B is a Q-boundary, then using approximation, we can replace L so that$0 \leq L \sim _ { \mathbb { Q } } A$, so we are done in this case by taking$D = L$.
 
-Now assume$( X , B )$is exceptional, that is, for any$0 \leq L \sim _ { \mathbb { R } } A$the pair$( X , B + L )$is klt. We will derive a contradiction. By [5, Lemma$7 . 2 ]$, there is$\epsilon > 0$such that$( X , B { + } L _ { i } )$is ǫ-lc for every i. Then by Theorem 1.8 in dimension$d ,$there is$s > 0$such that$\left( X , B + L _ { i } + s L _ { i } \right)$ is klt, for every i. But then$1 + s < t _ { i }$for every i which contradicts lim$t _ { i } = 1$
+Now assume$( X , B )$is exceptional, that is, for any$0 \leq L \sim _ { \mathbb { R } } A$the pair$( X , B + L )$is klt. We will derive a contradiction. By [5, Lemma$7 . 2 ]$, there is$\epsilon > 0$such that$( X , B { + } L _ { i } )$is ǫ-lc for every i. Then by Theorem 1.8 in dimension$d ,$there is$s > 0$such that$\left( X , B + L _ { i } + s L _ { i } \right)$ is klt, for every i. But then$1 + s < t _ { i }$for every i which contradicts lim$t _ { i } = 1$.
 
-Proposition 3.4. Theorem 1.7 holds when lct$( X , B , | A | _ { \mathbb { R } } ) < 1$
+Proposition 3.4. Theorem 1.7 holds when lct$( X , B , | A | _ { \mathbb { R } } ) < 1$.
 
 Proof. Step 1. From here to the end of Step 4 we find$D \in | A | _ { \mathbb { R } }$such that
 
@@ -778,13 +778,13 @@ $$
 
 If$t = t _ { i }$for some$i ,$then put$D = L _ { i }$. So for now assume$t \neq t _ { i }$for every i.
 
-Step 2. In this step we choose elements$H _ { i } \in | A | _ { \mathbb { R } }$and define birational contractions $X _ { i } ^ { \prime } \to X$with respect to some lc places of$( X , B + t _ { i } L _ { i } )$. Pick$H _ { i } \in | A | _ { \mathbb { R } }$so that$( X , B + H _ { i } )$ is klt and$\left( { { X , B + t _ { i } } { L _ { i } } + H _ { i } } \right)$is lc, for any$i ,$and such that the coeficients of the$H _ { i }$belong to a fixed DCC set. Existence of the DCC set follows from the fact that A is semi-ample: indeed,$A \sim _ { \mathbb { R } } \sum \alpha _ { j } G _ { j }$where$G _ { j }$are base point free Cartier divisors and$\alpha _ { j } > 0 ;$so to find the$H _ { i }$we only need to move the$G _ { j }$appropriately. Note that
+Step 2. In this step we choose elements$H _ { i } \in | A | _ { \mathbb { R } }$and define birational contractions $X _ { i } ^ { \prime } \to X$with respect to some lc places of$( X , B + t _ { i } L _ { i } )$. Pick$H _ { i } \in | A | _ { \mathbb { R } }$so that$( X , B + H _ { i } )$ is klt and$\left( { { X , B + t _ { i } } { L _ { i } } + H _ { i } } \right)$is lc, for any$i ,$and such that the coefficients of the$H _ { i }$belong to a fixed DCC set. Existence of the DCC set follows from the fact that A is semi-ample: indeed,$A \sim _ { \mathbb { R } } \sum \alpha _ { j } G _ { j }$where$G _ { j }$are base point free Cartier divisors and$\alpha _ { j } > 0 ;$so to find the$H _ { i }$we only need to move the$G _ { j }$appropriately. Note that
 
 $$
 K _ {X} + B + t _ {i} L _ {i} + (1 - t _ {i}) H _ {i} \sim_ {\mathbb {R}} 0.
 $$
 
-Let$T _ { i } ^ { \prime }$be an lc place of$( X , B + t _ { i } L _ { i } )$. If$T _ { i } ^ { \prime }$is not exceptional over X, we let$\phi _ { i } \colon X _ { i } ^ { \prime } \to X$ to be the identity morphism, but if$T _ { i } ^ { \prime }$is exceptional over X, we let$\phi _ { i } \colon X _ { i } ^ { \prime } \to X$be the extremal birational contraction which extracts$T _ { i } ^ { \prime } .$. Let$B _ { i } ^ { \prime } , L _ { i } ^ { \prime } , H _ { i } ^ { \prime }$be the birational transforms of$B , L _ { i } , H _ { i }$Then$H _ { i } ^ { \prime } = \phi _ { i } ^ { * } H _ { i }$because$H _ { i }$cannot contain any lc centre of $( X , B + t _ { i } L _ { i } )$. Moreover,
+Let$T _ { i } ^ { \prime }$be an lc place of$( X , B + t _ { i } L _ { i } )$. If$T _ { i } ^ { \prime }$is not exceptional over X, we let$\phi _ { i } \colon X _ { i } ^ { \prime } \to X$ to be the identity morphism, but if$T _ { i } ^ { \prime }$is exceptional over X, we let$\phi _ { i } \colon X _ { i } ^ { \prime } \to X$be the extremal birational contraction which extracts$T _ { i } ^ { \prime } .$. Let$B _ { i } ^ { \prime } , L _ { i } ^ { \prime } , H _ { i } ^ { \prime }$be the birational transforms of$B , L _ { i } , H _ { i }$. Then$H _ { i } ^ { \prime } = \phi _ { i } ^ { * } H _ { i }$because$H _ { i }$cannot contain any lc centre of $( X , B + t _ { i } L _ { i } )$. Moreover,
 
 $$
 K _ {X _ {i} ^ {\prime}} + T _ {i} ^ {\prime} + B _ {i} ^ {\prime} + t _ {i} L _ {i} ^ {\prime} + (1 - t _ {i}) H _ {i} ^ {\prime} = \phi_ {i} ^ {*} (K _ {X} + B + t _ {i} L _ {i} + (1 - t _ {i}) H _ {i}) \sim_ {\mathbb {R}} 0.
@@ -796,13 +796,13 @@ $$
 - (K _ {X _ {i} ^ {\prime}} + T _ {i} ^ {\prime} + B _ {i} ^ {\prime} + (1 - t) H _ {i} ^ {\prime})
 $$
 
-and study the outcome. Note that here we have used t rather than$t _ { i } .$. By [5, 2.13(7)],$X _ { i } ^ { \prime }$ is of Fano$\mathrm { t y p e } .$, so we can indeed run such an MMP. Let$X _ { i } ^ { \prime \prime }$be the resulting model of the MMP. Then
+and study the outcome. Note that here we have used t rather than$t _ { i } .$. By [5, 2.13(7)],$X _ { i } ^ { \prime }$ is of Fano$\mathrm { t y p e }$, so we can indeed run such an MMP. Let$X _ { i } ^ { \prime \prime }$be the resulting model of the MMP. Then
 
 $$
 \left(X _ {i} ^ {\prime \prime}, T _ {i} ^ {\prime \prime} + B _ {i} ^ {\prime \prime} + t _ {i} L _ {i} ^ {\prime \prime} + \left(1 - t _ {i}\right) H _ {i} ^ {\prime \prime}\right)
 $$
 
-is lc, and the coeficients of$T _ { i } ^ { \prime \prime } + B _ { i } ^ { \prime \prime }$and$H _ { i } ^ { \prime \prime }$belong to a fixed DCC set independent of i. Since the numbers$1 - t _ { i }$form an increasing sequence approaching$1 - t .$, by the ACC for lc thresholds [13], we can assume
+is lc, and the coefficients of$T _ { i } ^ { \prime \prime } + B _ { i } ^ { \prime \prime }$and$H _ { i } ^ { \prime \prime }$belong to a fixed DCC set independent of i. Since the numbers$1 - t _ { i }$form an increasing sequence approaching$1 - t .$, by the ACC for lc thresholds [13], we can assume
 
 $$
 (X _ {i} ^ {\prime \prime}, T _ {i} ^ {\prime \prime} + B _ {i} ^ {\prime \prime} + (1 - t) H _ {i} ^ {\prime \prime})
@@ -830,7 +830,7 @@ $$
 
 is anti-nef over$Z _ { i } ^ { \prime \prime }$. This contradicts [13, Theorem 1.5] by restricting to the general fibres of$X _ { i } ^ { \prime \prime } \to Z _ { i } ^ { \prime \prime }$. Thus replacing the sequence with a subsequence, we can assume the MMP ends with a minimal model$X _ { i } ^ { \prime \prime }$, for every i.
 
-Step$\it 4 .$In this step we find the desired$D \in | A | _ { \mathbb { R } }$such that lct$( X , B , D ) = t$. Fix i. Since
+Step 4. In this step we find the desired$D \in | A | _ { \mathbb { R } }$such that lct$( X , B , D ) = t$. Fix i. Since
 
 $$
 - (K _ {X _ {i} ^ {\prime \prime}} + T _ {i} ^ {\prime \prime} + B _ {i} ^ {\prime \prime} + (1 - t) H _ {i} ^ {\prime \prime})
@@ -896,17 +896,17 @@ Proposition 4.1. Theorem 1.9 holds under the additional assumption that there is
 
 • (X, Γ) is plt with$S = \lfloor \Gamma \rfloor$, and
 
-• $\alpha M - ( K _ { X } + \Gamma )$is ample for some real number$\alpha > 0$
+• $\alpha M - ( K _ { X } + \Gamma )$is ample for some real number$\alpha > 0$.
 
-Proof. Step 1. In this step we reduce to the case when$\alpha \in ( 0 , 2 )$and when$B - \Gamma$has small (positive or negative) coeficients. Since$M - \left( K _ { X } + B \right)$is nef and big and$\alpha M - ( K _ { X } + \Gamma )$ is ample,
+Proof. Step 1. In this step we reduce to the case when$\alpha \in ( 0 , 2 )$and when$B - \Gamma$has small (positive or negative) coefficients. Since$M - \left( K _ { X } + B \right)$is nef and big and$\alpha M - ( K _ { X } + \Gamma )$ is ample,
 
 $$
 \begin{array}{c} (1 - t + t \alpha) M - (K _ {X} + (1 - t) B + t \Gamma) = (1 - t + t \alpha) M - (1 - t) (K _ {X} + B) - t (K _ {X} + \Gamma) \\ = (1 - t) (M - (K _ {X} + B)) + t (\alpha M - (K _ {X} + \Gamma)) \end{array}
 $$
 
-is ample for any$t \in ( 0 , 1 )$. Thus replacing Γ with$( 1 - t ) B + t \Gamma$for some suficiently small real number$t > 0$, we can replace α by some rational number in (0, 2). Note that since $( X , B )$is lc and since S is a non-klt centre of this pair, we have$S \le \lfloor B \rfloor$and the above change of Γ preserves the plt property of$( X , \Gamma )$and the condition$S = \left\lfloor \Gamma \right\rfloor$
+is ample for any$t \in ( 0 , 1 )$. Thus replacing Γ with$( 1 - t ) B + t \Gamma$for some sufficiently small real number$t > 0$, we can replace α by some rational number in (0, 2). Note that since $( X , B )$is lc and since S is a non-klt centre of this pair, we have$S \le \lfloor B \rfloor$and the above change of Γ preserves the plt property of$( X , \Gamma )$and the condition$S = \left\lfloor \Gamma \right\rfloor$.
 
-It is also clear that if we choose t small enough then we can ensure that$B - \Gamma$has suficiently small positive or negative coeficients (we will use this in steps below).
+It is also clear that if we choose t small enough then we can ensure that$B - \Gamma$has sufficiently small positive or negative coefficients (we will use this in steps below).
 
 Step 2. In this step we consider bounded complements on S. Since$( X , \Gamma )$is plt, S is normal. Define
 
@@ -914,7 +914,7 @@ $$
 K _ {S} + B _ {S} = (K _ {X} + B) | _ {S}
 $$
 
-by adjunction. Then$( S , B _ { S } )$is lc and the coeficients of$B _ { S }$belong to$\Phi ( \mathfrak { S } )$for some finite set${ \mathfrak { S } } \subset [ 0 , 1 ]$of rational numbers depending only on p [37, Proposition 3.8][5, Lemma 3.3] where
+by adjunction. Then$( S , B _ { S } )$is lc and the coefficients of$B _ { S }$belong to$\Phi ( \mathfrak { S } )$for some finite set${ \mathfrak { S } } \subset [ 0 , 1 ]$of rational numbers depending only on p [37, Proposition 3.8][5, Lemma 3.3] where
 
 $$
 \Phi (\mathfrak {S}) = \{1 - \frac {s}{l} \mid s \in \mathfrak {S}, l \in \mathbb {N} \}.
@@ -948,7 +948,7 @@ $$
 N := M - (K _ {X} + B)
 $$
 
-and let$K _ { X ^ { \prime } } + B ^ { \prime } , M ^ { \prime } , N ^ { \prime }$be the pullbacks of$K _ { X } + B , M , N$, respectively. Let$E ^ { \prime }$be the sum of the components of$B ^ { \prime }$which have coeficient 1, and let$\Delta ^ { \prime } = B ^ { \prime } - E ^ { \prime }$. Define
+and let$K _ { X ^ { \prime } } + B ^ { \prime } , M ^ { \prime } , N ^ { \prime }$be the pullbacks of$K _ { X } + B , M , N$, respectively. Let$E ^ { \prime }$be the sum of the components of$B ^ { \prime }$which have coefficient 1, and let$\Delta ^ { \prime } = B ^ { \prime } - E ^ { \prime }$. Define
 
 $$
 L ^ {\prime} := (n + 2) M ^ {\prime} - n K _ {X ^ {\prime}} - n E ^ {\prime} - \left\lfloor (n + 1) \Delta^ {\prime} \right\rfloor
@@ -966,9 +966,9 @@ $$
 K _ {X ^ {\prime}} + \Gamma^ {\prime} = \phi^ {*} (K _ {X} + \Gamma).
 $$
 
-Then we can assume that$B ^ { \prime } - \Gamma ^ { \prime } = \phi ^ { * } ( B - \Gamma )$has suficiently small (positive or negative) coeficients by Step 1. The coeficient of$S ^ { \prime }$in both$B ^ { \prime }$and$\Gamma ^ { \prime }$is 1 but its coeficient in$\Delta ^ { \prime }$is 0.
+Then we can assume that$B ^ { \prime } - \Gamma ^ { \prime } = \phi ^ { * } ( B - \Gamma )$has sufficiently small (positive or negative) coefficients by Step 1. The coefficient of$S ^ { \prime }$in both$B ^ { \prime }$and$\Gamma ^ { \prime }$is 1 but its coefficient in$\Delta ^ { \prime }$is 0.
 
-Step$\it 4 .$In this step we introduce a boundary$\Theta ^ { \prime }$and study related divisors. Let$P ^ { \prime }$be the unique integral divisor so that
+Step 4. In this step we introduce a boundary$\Theta ^ { \prime }$and study related divisors. Let$P ^ { \prime }$be the unique integral divisor so that
 
 $$
 \Theta^ {\prime} := \Gamma^ {\prime} + n \Delta^ {\prime} - \left\lfloor (n + 1) \Delta^ {\prime} \right\rfloor + P ^ {\prime}
@@ -988,21 +988,21 @@ $$
 
 where$\langle { ( n + 1 ) \Delta ^ { \prime } } \rangle$is the fractional part of$( n + 1 ) \Delta ^ { \prime } .$
 
-We claim that$P ^ { \prime } \ge 0$. Pick a component$D ^ { \prime }$of$P ^ { \prime }$. By the above,$D ^ { \prime } \neq S ^ { \prime }$. If$D ^ { \prime }$is a component of$E ^ { \prime }$, then$D ^ { \prime }$is not a component of$\Delta ^ { \prime }$and$\mu _ { D ^ { \prime } } \Gamma ^ { \prime } \in ( 0 , 1 )$as$B ^ { \prime } - \Gamma ^ { \prime }$has small coeficients and$\mu _ { D ^ { \prime } } B ^ { \prime } = 1$, hence$\mu _ { D ^ { \prime } } P ^ { \prime } = 0 ;$; on the other hand, if$D ^ { \prime }$is not a component of$E ^ { \prime }$, then the absolute value of
+We claim that$P ^ { \prime } \ge 0$. Pick a component$D ^ { \prime }$of$P ^ { \prime }$. By the above,$D ^ { \prime } \neq S ^ { \prime }$. If$D ^ { \prime }$is a component of$E ^ { \prime }$, then$D ^ { \prime }$is not a component of$\Delta ^ { \prime }$and$\mu _ { D ^ { \prime } } \Gamma ^ { \prime } \in ( 0 , 1 )$as$B ^ { \prime } - \Gamma ^ { \prime }$has small coefficients and$\mu _ { D ^ { \prime } } B ^ { \prime } = 1$, hence$\mu _ { D ^ { \prime } } P ^ { \prime } = 0$; on the other hand, if$D ^ { \prime }$is not a component of$E ^ { \prime }$, then the absolute value of
 
 $$
 \mu_ {D ^ {\prime}} (\Gamma^ {\prime} - \Delta^ {\prime}) = \mu_ {D ^ {\prime}} (\Gamma^ {\prime} - B ^ {\prime})
 $$
 
-is suficiently small and
+is sufficiently small and
 
 $$
 \mu_ {S ^ {\prime}} \langle (n + 1) \Delta^ {\prime} \rangle \in [ 0, 1),
 $$
 
-hence$\mu _ { D ^ { \prime } } P ^ { \prime } = 0$or$\mu _ { D ^ { \prime } } P ^ { \prime } = 1$, so in any case$\mu _ { D ^ { \prime } } P ^ { \prime } \geq 0$
+hence$\mu _ { D ^ { \prime } } P ^ { \prime } = 0$or$\mu _ { D ^ { \prime } } P ^ { \prime } = 1$, so in any case$\mu _ { D ^ { \prime } } P ^ { \prime } \geq 0$.
 
-We show$P ^ { \prime }$is exceptiona$1 / X$. Assume$D ^ { \prime }$is a component of$P ^ { \prime }$which is not exceptional/X and let$D$be its pushdown. Since$S ^ { \prime }$is not a component of$P ^ { \prime }$$D ^ { \prime } \neq S ^ { \prime }$. Let$E , \Delta$be the pushdowns of$E ^ { \prime } , \Delta ^ { \prime }$. Since nB and$n E$are integral,$\mu _ { D } n \Delta$is integral, hence
+We show$P ^ { \prime }$is exceptional$/ X$. Assume$D ^ { \prime }$is a component of$P ^ { \prime }$which is not exceptional/X and let$D$be its pushdown. Since$S ^ { \prime }$is not a component of$P ^ { \prime }$, $D ^ { \prime } \neq S ^ { \prime }$. Let$E , \Delta$be the pushdowns of$E ^ { \prime } , \Delta ^ { \prime }$. Since nB and$n E$are integral,$\mu _ { D } n \Delta$is integral, hence
 
 $$
 \mu_ {D} \left\lfloor (n + 1) \Delta \right\rfloor = \mu_ {D} n \Delta .
@@ -1054,13 +1054,13 @@ $$
 
 is surjective.
 
-Step 6. In this step we introduce an efective divisor$G _ { S ^ { \prime } } \sim ( L ^ { \prime } + P ^ { \prime } ) | _ { S ^ { \prime } }$. Recall the n-complement$K _ { S } + B _ { S } ^ { + }$from Step 2. Let$R _ { S } : = B _ { S } ^ { + } - B _ { S }$which satisfies
+Step 6. In this step we introduce an effective divisor$G _ { S ^ { \prime } } \sim ( L ^ { \prime } + P ^ { \prime } ) | _ { S ^ { \prime } }$. Recall the n-complement$K _ { S } + B _ { S } ^ { + }$from Step 2. Let$R _ { S } : = B _ { S } ^ { + } - B _ { S }$which satisfies
 
 $$
 - n (K _ {S} + B _ {S}) = - n (K _ {S} + B _ {S} ^ {+} + B _ {S} - B _ {S} ^ {+}) \sim - n (B _ {S} - B _ {S} ^ {+}) = n R _ {S} \geq 0.
 $$
 
-Let$R _ { S ^ { \prime } }$be the pullback of$R _ { S }$. Since$M ^ { \prime }$is Cartier and since$S ^ { \prime }$is a component of$B ^ { \prime }$with coeficient 1, the divisor
+Let$R _ { S ^ { \prime } }$be the pullback of$R _ { S }$. Since$M ^ { \prime }$is Cartier and since$S ^ { \prime }$is a component of$B ^ { \prime }$with coefficient 1, the divisor
 
 $$
 N ^ {\prime} | _ {S ^ {\prime}} = (M ^ {\prime} - (K _ {X ^ {\prime}} + B ^ {\prime})) | _ {S ^ {\prime}}
@@ -1086,15 +1086,15 @@ $$
 
 since$\Delta ^ { \prime }$and$S ^ { \prime }$intersect transversally.
 
-We show$G _ { S ^ { \prime } } \geq 0$. Assume$C ^ { \prime }$is a component of$G _ { S ^ { \prime } }$with negative coeficient. Then since$R _ { S ^ { \prime } }$and$P _ { S ^ { \prime } }$are efective, there is a component$D ^ { \prime }$of$\Delta ^ { \prime }$such that$C ^ { \prime }$is a component of$D ^ { \prime } \vert _ { S ^ { \prime } }$. But
+We show$G _ { S ^ { \prime } } \geq 0$. Assume$C ^ { \prime }$is a component of$G _ { S ^ { \prime } }$with negative coefficient. Then since$R _ { S ^ { \prime } }$and$P _ { S ^ { \prime } }$are effective, there is a component$D ^ { \prime }$of$\Delta ^ { \prime }$such that$C ^ { \prime }$is a component of$D ^ { \prime } \vert _ { S ^ { \prime } }$. But
 
 $$
 \mu_ {C ^ {\prime}} (n \Delta_ {S ^ {\prime}} - \lfloor (n + 1) \Delta_ {S ^ {\prime}} \rfloor) = \mu_ {C ^ {\prime}} (- \Delta_ {S ^ {\prime}} + \langle (n + 1) \Delta_ {S ^ {\prime}} \rangle) \geq - \mu_ {C ^ {\prime}} \Delta_ {S ^ {\prime}} = - \mu_ {D ^ {\prime}} \Delta^ {\prime} > - 1
 $$
 
-which gives$\mu _ { C ^ { \prime } } G _ { S ^ { \prime } } > - 1$and this in turn implies$\mu _ { C ^ { \prime } } G _ { S ^ { \prime } } \geq 0$because$G _ { S ^ { \prime } }$is integral, a contradiction. Therefore$G _ { S ^ { \prime } } \geq 0$, and by Step 5,$L ^ { \prime } + P ^ { \prime } \sim G ^ { \prime }$for some efective divisor$G ^ { \prime }$ whose support does not contain$S ^ { \prime }$and$G ^ { \prime } | _ { S ^ { \prime } } = G _ { S ^ { \prime } }$
+which gives$\mu _ { C ^ { \prime } } G _ { S ^ { \prime } } > - 1$and this in turn implies$\mu _ { C ^ { \prime } } G _ { S ^ { \prime } } \geq 0$because$G _ { S ^ { \prime } }$is integral, a contradiction. Therefore$G _ { S ^ { \prime } } \geq 0$, and by Step 5,$L ^ { \prime } + P ^ { \prime } \sim G ^ { \prime }$for some effective divisor$G ^ { \prime }$ whose support does not contain$S ^ { \prime }$and$G ^ { \prime } | _ { S ^ { \prime } } = G _ { S ^ { \prime } }$.
 
-Step 7. In this step we introduce Λ and show that it satisfies the properties listed in the theorem. Let$L , P , G$be the pushdowns to X of$L ^ { \prime } , P ^ { \prime } , G ^ { \prime }$. By the definition of$L ^ { \prime } ,$, by the previous step, and by the exceptionality of$P ^ { \prime } { } _ { ; }$, we have
+Step 7. In this step we introduce Λ and show that it satisfies the properties listed in the theorem. Let$L , P , G$be the pushdowns to X of$L ^ { \prime } , P ^ { \prime } , G ^ { \prime }$. By the definition of$L ^ { \prime }$, by the previous step, and by the exceptionality of$P ^ { \prime }$, we have
 
 $$
 (n + 2) M - n K _ {X} - n E - \left\lfloor (n + 1) \Delta \right\rfloor = L = \mathcal { L } + P \sim G \geq 0.
@@ -1132,7 +1132,7 @@ $$
 
 which means$R _ { S ^ { \prime } } = R ^ { \prime } | _ { S ^ { \prime } }$, hence$R _ { S }$and$R | _ { S }$both pull back to$R _ { S ^ { \prime } }$which implies$R _ { S } = R { \mid } _ { S }$ as required.
 
-Assume now that$( X , B ^ { + } )$is not lc over$z = f ( S )$. By the previous paragraph,$( X , B ^ { + } )$ is lc near$S$and S is a non-klt centre of this pair. On the other hand,$( X , \Gamma )$is plt with $\lfloor \Gamma \rfloor = S$, so if$u > 0$is suficiently small, then
+Assume now that$( X , B ^ { + } )$is not lc over$z = f ( S )$. By the previous paragraph,$( X , B ^ { + } )$ is lc near$S$and S is a non-klt centre of this pair. On the other hand,$( X , \Gamma )$is plt with $\lfloor \Gamma \rfloor = S$, so if$u > 0$is sufficiently small, then
 
 $$
 (X, (1 - u) B ^ {+} + u \Gamma)
@@ -1156,7 +1156,7 @@ $$
 
 is ample over$Z .$Therefore,$( X , B ^ { + } )$is lc over z.
 
-Proof. (of Theorem 1.9) Step 1. In this step we take a Q-factorialisation of X and consider the contraction defined by$a M - ( K _ { X } + B )$for some$a > 1$. Replacing$( X , B )$with a Qfactorial dlt model, we can assume X is Q-factorial and that S is a component of$\lfloor B \rfloor$. All the assumptions of the theorem are preserved. The Fano type property is preserved by a relative version of$[ 5 , 2 . 1 3 ( 7 ) ] ~ \mathrm { a s } - ( K _ { X } + B )$is nef over$Z .$
+Proof. (of Theorem 1.9) Step 1. In this step we take a Q-factorialisation of X and consider the contraction defined by$a M - ( K _ { X } + B )$for some$a > 1$. Replacing$( X , B )$with a Q-factorial dlt model, we can assume X is Q-factorial and that S is a component of$\lfloor B \rfloor$. All the assumptions of the theorem are preserved. The Fano type property is preserved by a relative version of$[ 5 , 2 . 1 3 ( 7 ) ] ~ \mathrm { a s } - ( K _ { X } + B )$is nef over$Z .$
 
 By assumption, M is the pullback of an ample divisor on$Z .$Moreover,$M - \left( K _ { X } + B \right)$ is nef and big, hence in particular it is semi-ample over$Z$since X is of Fano type over $Z .$Thus by Lemma 2.26, if$a > 1$is a real number, then$a M - ( K _ { X } + B )$is semi-ample globally, so it defines a birational contraction$X \to U$which is simply the contraction over $Z$defined by$M - \left( K _ { X } + B \right)$: indeed, for any curve C on$X$
 
@@ -1164,7 +1164,7 @@ $$
 (a M - (K _ {X} + B)) \cdot C = 0 \text {   iff   } (M - (K _ {X} + B)) \cdot C = 0 \text {   and   } M \cdot C = 0.
 $$
 
-In particular,$X \to U$is birational as$a M - ( K _ { X } + B )$is big, the induced map$U \ - \to \ Z$is a morphism and$K _ { X } + B \sim _ { \mathbb { Q } } 0 / U$
+In particular,$X \to U$is birational as$a M - ( K _ { X } + B )$is big, the induced map$U \dashrightarrow Z$is a morphism and$K _ { X } + B \sim _ { \mathbb { Q } } 0 / U$.
 
 Step 2. In this step we make some further modifications of$( X , B )$using the MMP. Since $X$is of Fano type over$Z ,$it is also of Fano type over U. Run an MMP over U on$- ( K _ { X } + S )$ and let$X ^ { \prime }$be the resulting model. The MMP does not contract S as
 
@@ -1186,7 +1186,7 @@ $$
 
 Note that$M ^ { \prime }$is Cartier as the Cartier property of M is preserved by the MMP, by the cone theorem. Thus replacing X with$X ^ { \prime }$, we can assume$- ( K _ { X } + S )$is semi-ample over U defining a contraction$X \to V / U$. Moreover, every non-klt centre of$( X , S )$is contained in S because$( X , 0 )$is klt as X is Q-factorial and of Fano type over$Z .$
 
-We claim that S is not contracted over$V { : }$otherwise since$K _ { X } + S \sim _ { \mathbb { Q } } 0 / V$, the pair $( V , 0 )$would be lc but not klt and this is a contradiction because there is a boundary Θ such that$( V , \Theta )$is klt as$V$is of Fano type over$Z .$
+We claim that S is not contracted over$V$: otherwise since$K _ { X } + S \sim _ { \mathbb { Q } } 0 / V$, the pair $( V , 0 )$would be lc but not klt and this is a contradiction because there is a boundary Θ such that$( V , \Theta )$is klt as$V$is of Fano type over$Z .$
 
 Note that the pushdown of M to V is Cartier, again by the cone theorem. Replacing X with V , we can then assume that$- ( K _ { X } + S )$is ample over$U$. The Q-factorial property of X maybe lost but we do not need it any more.
 
@@ -1196,9 +1196,9 @@ $$
 \Delta = (1 - b) B + b S
 $$
 
-for a suficiently small real number$b > 0$(depending on a). Then$( X , \Delta )$is lc and$S$is a non-klt centre of this pair. Moreover, every non-klt place of$( X , \Delta )$is a non-klt place of both$( X , B )$and$( X , S )$, in particular, every non-klt centre of$( X , \Delta )$is also a non-klt centre of (X, S), hence such centres are contained in S and they are mapped to z.
+for a sufficiently small real number$b > 0$(depending on a). Then$( X , \Delta )$is lc and$S$is a non-klt centre of this pair. Moreover, every non-klt place of$( X , \Delta )$is a non-klt place of both$( X , B )$and$( X , S )$, in particular, every non-klt centre of$( X , \Delta )$is also a non-klt centre of (X, S), hence such centres are contained in S and they are mapped to z.
 
-On the other hand, since$a M - ( K _ { X } + B )$is the pullback of an ample divisor on$U$and $a M - ( K _ { X } + S )$is ample over$U _ { : }$, we see that
+On the other hand, since$a M - ( K _ { X } + B )$is the pullback of an ample divisor on$U$and $a M - ( K _ { X } + S )$is ample over$U$, we see that
 
 $$
 \begin{array}{c} a M - (K _ {X} + \Delta) = a M - (K _ {X} + (1 - b) B + b S) \\ = a M - (1 - b) (K _ {X} + B) - b (K _ {X} + S) \\ = (1 - b) (a M - (K _ {X} + B)) + b (a M - (K _ {X} + S)) \end{array}
@@ -1206,7 +1206,7 @@ $$
 
 is globally ample.
 
-Step$\it 4 .$In this step we produce a plt pair and apply Proposition 4.1 to finish the proof. By Lemma 2.7 applied to$( X , \Delta )$, there exist a prime divisor$T$over X and a projective birational morphism$Y \to X$such that
+Step 4. In this step we produce a plt pair and apply Proposition 4.1 to finish the proof. By Lemma 2.7 applied to$( X , \Delta )$, there exist a prime divisor$T$over X and a projective birational morphism$Y \to X$such that
 
 • either$Y \to X$is small or it contracts$T$but no other divisors,
 
@@ -1216,7 +1216,7 @@ Step$\it 4 .$In this step we produce a plt pair and apply Proposition 4.1 to fin
 
 • $a ( T , X , \Delta ) = 0$.
 
-In particular,$T$is mapped to z, by Step 3, as it is an lc place of$( X , S )$. Moreover, since $\Delta \leq B$
+In particular,$T$is mapped to z, by Step 3, as it is an lc place of$( X , S )$. Moreover, since $\Delta \leq B$,
 
 $$
 a (T, X, B) = 0.
@@ -1228,7 +1228,7 @@ $$
 \Gamma_ {Y} = (1 - v) \Delta_ {Y} + v T
 $$
 
-for some suficiently small$v > 0$. Let$M _ { Y }$be the pullback of M. Let$\alpha = ( 1 - v ) a$. Since $a M - ( K _ { X } + \Delta )$is ample and since$- ( K _ { Y } + T )$is ample over$X$
+for some sufficiently small$v > 0$. Let$M _ { Y }$be the pullback of M. Let$\alpha = ( 1 - v ) a$. Since $a M - ( K _ { X } + \Delta )$is ample and since$- ( K _ { Y } + T )$is ample over$X$,
 
 $$
 \begin{array}{c} \alpha M _ {Y} - (K _ {Y} + \Gamma_ {Y}) = (1 - v) a M _ {Y} - (K _ {Y} + (1 - v) \Delta_ {Y} + v T) \\ = (1 - v) a M _ {Y} - (1 - v) (K _ {Y} + \Delta_ {Y}) - v (K _ {Y} + T) \\ = (1 - v) (a M _ {Y} - (K _ {Y} + \Delta_ {Y})) - v (K _ {Y} + T) \end{array}
@@ -1236,7 +1236,7 @@ $$
 
 is ample. Moreover,$( Y , \Gamma _ { Y } )$is plt and$T = \lfloor \Gamma _ { Y } \rfloor$maps to z.
 
-Let$K _ { Y } + B _ { Y }$be the pullback of$K _ { X } + B$. By definition of$\Delta , T$is an lc place of $( X , B )$, hence it appears in$B _ { Y }$with coeficient 1. Now we can replace$( X , B ) , M , S$with $( Y , B _ { Y } ) , M _ { Y } , T$and apply Proposition 4.1.
+Let$K _ { Y } + B _ { Y }$be the pullback of$K _ { X } + B$. By definition of$\Delta , T$is an lc place of $( X , B )$, hence it appears in$B _ { Y }$with coefficient 1. Now we can replace$( X , B ) , M , S$with $( Y , B _ { Y } ) , M _ { Y } , T$and apply Proposition 4.1.
 
 ## 5. Singularities of divisors with bounded degree
 
@@ -1246,7 +1246,7 @@ In this section, we make necessary preparations for the proof of Theorem 1.8. Th
 
 Proposition 5.2. Let$\left( X , \Lambda = \textstyle \sum _ { 1 } ^ { d } S _ { i } \right)$be a projective log smooth pair of dimension d where Λ is reduced. Let$\begin{array} { r } { B = \sum b _ { j } B _ { j } \geq 0 } \end{array}$be an R-divisor. Assume
 
-• $x \in \cap _ { 1 } ^ { d } S _ { i }$
+• $x \in \cap _ { 1 } ^ { d } S _ { i }$,
 
 • $\operatorname { S u p p } B$contains no stratum of$( X , \Lambda )$except possibly x, and
 
@@ -1260,21 +1260,21 @@ $$
 
 such that
 
-• $\pi ( x ) = z : = ( 1 : 0 : \cdot \cdot : 0 )$
+• $\pi ( x ) = z : = ( 1 : 0 : \cdots : 0 )$,
 
 • $\pi ( S _ { i } ) = H _ { i }$where$H _ { i }$is the hyperplane defined by$t _ { i }$,
 
-• π is ´etale over a neighbourhood$o f z$,
+• π is étale over a neighbourhood of z,
 
 • $\operatorname { S u p p } B$contains no point of$\pi ^ { - 1 } \{ z \}$except possibly x, and
 
-• $\deg \pi = A ^ { d }$and$\deg _ { H _ { i } } C \leq \deg _ { A } B$, where$C = \sum b _ { j } \pi ( B _ { j } )$
+• $\deg \pi = A ^ { d }$and$\deg _ { H _ { i } } C \leq \deg _ { A } B$where$C = \sum b _ { j } \pi ( B _ { j } )$.
 
-Proof. Since$A - S _ { i }$is very ample for each i, taking general divisors$D _ { i } \in | A - S _ { i } |$we can make sure$( X , \textstyle \sum _ { 1 } ^ { d } R _ { i } )$is log smooth where$R _ { i } : = D _ { i } + S _ { i } \sim A$. Moreover, we can assume that Supp B contains no stratum of$( X , \Sigma _ { 1 } ^ { d } R _ { i } )$other than x: since$D _ { 1 }$is general, it is not a component of$B .$, and if$I \neq x$is a stratum of$( X , \Lambda )$, then$D _ { 1 } | _ { I }$has no common component with$| B | _ { I } ;$this ensures Supp B does not contain any stratum of$( X , \Lambda + D _ { 1 } )$other than$x ;$ repeating this process proves the claim.
+Proof. Since$A - S _ { i }$is very ample for each i, taking general divisors$D _ { i } \in | A - S _ { i } |$we can make sure$( X , \textstyle \sum _ { 1 } ^ { d } R _ { i } )$is log smooth where$R _ { i } : = D _ { i } + S _ { i } \sim A$. Moreover, we can assume that Supp B contains no stratum of$( X , \sum _ { 1 } ^ { d } R _ { i } )$other than x: since$D _ { 1 }$is general, it is not a component of$B .$, and if$I \neq x$is a stratum of$( X , \Lambda )$, then$D _ { 1 } | _ { I }$has no common component with$| B | _ { I } ;$this ensures Supp B does not contain any stratum of$( X , \Lambda + D _ { 1 } )$other than$x ;$ repeating this process proves the claim.
 
 Now each$R _ { i }$is the zero divisor of some global section$\alpha _ { i }$of${ \mathcal { O } } _ { X } ( A )$. Choose another global section$\alpha _ { 0 }$so that if$R _ { 0 }$is the zero divisor of$\alpha _ { 0 }$, then$( X , \textstyle \sum _ { 0 } ^ { d } R _ { i } )$is still log smooth, and that$\cap _ { 0 } ^ { d } R _ { i }$is empty. The sections$\alpha _ { 0 } , \ldots , \alpha _ { d }$have no common vanishing point, so they define a morphism$\pi \colon X \to \mathbb { P } ^ { d }$so that${ \mathcal { O } } _ { X } ( A ) \simeq \pi ^ { * } { \mathcal { O } } _ { \mathbb { P } ^ { d } } ( 1 )$and the global section$t _ { i }$of $\mathcal { O } _ { \mathbb { P } ^ { d } } ( 1 )$pulls back to$\alpha _ { i }$, for each$0 \leq i \leq d .$. In particular, since A is ample, π does not contract any curve, hence π is a surjective finite morphism.
 
-Since$t _ { i }$pulls back to$\alpha _ { i }$, the zero divisor of$t _ { i }$pulls back to the zero divisor of$\alpha _ { i } .$that is,$\pi ^ { * } H _ { i } = R _ { i }$. Thus$\pi ( R _ { i } ) = H _ { i }$which in turn gives$\pi ( S _ { i } ) = H _ { i }$. Moreover, since
+Since$t _ { i }$pulls back to$\alpha _ { i }$, the zero divisor of$t _ { i }$pulls back to the zero divisor of$\alpha _ { i }$, that is,$\pi ^ { * } H _ { i } = R _ { i }$. Thus$\pi ( R _ { i } ) = H _ { i }$which in turn gives$\pi ( S _ { i } ) = H _ { i }$. Moreover, since
 
 $$
 z := (1: 0: \dots : 0) = \bigcap_ {1} ^ {d} H _ {i},
@@ -1286,7 +1286,7 @@ $$
 \pi^ {- 1} \{z \} = \bigcap_ {1} ^ {d} \pi^ {- 1} H _ {i} = \bigcap_ {1} ^ {d} R _ {i}
 $$
 
-which shows$\pi ( x ) = z$as$x \in \bigcap _ { 1 } ^ { d } S _ { i } \subseteq \bigcap _ { 1 } ^ { d } R _ { i }$
+which shows$\pi ( x ) = z$as$x \in \bigcap _ { 1 } ^ { d } S _ { i } \subseteq \bigcap _ { 1 } ^ { d } R _ { i }$.
 
 The rest of the proof is elementary which uses 2.21 among other things and we leave it to the reader.
 
@@ -1296,15 +1296,15 @@ Lemma 5.4. Let d, r be natural numbers. Then there is a positive real number t d
 
 • $X$is a smooth projective variety of dimension$d ,$
 
-• $A$is a very ample divisor on X with$A ^ { d } \leq r$
+• $A$is a very ample divisor on X with$A ^ { d } \leq r$,
 
-• $L \geq 0$is an R-divisor on X with$\deg _ { A } L \leq r$
+• $L \geq 0$is an R-divisor on X with$\deg _ { A } L \leq r$.
 
 Then$( X , t L )$is klt.
 
 Proof. The assumptions imply that the multiplicity$\mu _ { x } L$is bounded from above, for each closed point$x \in X$. Thus taking t small enough we have$\mu _ { x } t L < 1$. Now applying [29, Proposition 9.5.13] we deduce that$( X , t L )$is klt. It is also easy to prove the lemma using induction on dimension and inversion of adjunction.
 
-It is not hard to extend the lemma and prove Theorem 1.8 when$( X , \operatorname { S u p p } B )$belongs to some bounded family of pairs [5, Proposition 4.2]. The general case of the theorem however requires a lot more work and the main reason is that we have no control over the support of B. Much of the dificulties already appear in the case$X = \mathbb { P } ^ { d }$
+It is not hard to extend the lemma and prove Theorem 1.8 when$( X , \operatorname { S u p p } B )$belongs to some bounded family of pairs [5, Proposition 4.2]. The general case of the theorem however requires a lot more work and the main reason is that we have no control over the support of B. Much of the difficulties already appear in the case$X = \mathbb { P } ^ { d }$.
 
 In the next key result, we bound the number of blowups in the centre blowup sequence associated to certain lc places.
 
@@ -1312,15 +1312,15 @@ Proposition 5.5. Let d, r be natural numbers and ǫ be a positive real number. T
 
 • $( X , B )$is a projective ǫ-lc pair of dimension$d ,$
 
-• A is a very ample divisor on X with$A ^ { d } \leq r$
+• A is a very ample divisor on X with$A ^ { d } \leq r$,
 
 • $( X , \Lambda )$is log smooth where$\Lambda \geq 0$is reduced,
 
-• $\deg _ { A } B \leq r$and$\deg _ { A } \Lambda \leq r$
+• $\deg _ { A } B \leq r$and$\deg _ { A } \Lambda \leq r$,
 
-• x is a zero-dimensional stratum of$( X , \Lambda )$
+• x is a zero-dimensional stratum of$( X , \Lambda )$,
 
-• Supp B does not contain any stratum$o f \left( X , \Lambda \right)$except possibly x,
+• Supp B does not contain any stratum of $\left( X , \Lambda \right)$except possibly x,
 
 • T is an lc place of (X, Λ) with centre x, and
 
@@ -1328,25 +1328,25 @@ Proposition 5.5. Let d, r be natural numbers and ǫ be a positive real number. T
 
 Then T can be obtained by a sequence of centre blowups, toroidal with respect to$( X , \Lambda )$, of length at most p.
 
-Proof. We will prove the proposition over C. Over other fields we can either apply the Lefschetz principle or simply use formal neighbourhoods instead of analytic neighbourhoods in the arguments below.
+Proof. We will prove the proposition over ℂ. Over other fields we can either apply the Lefschetz principle or simply use formal neighbourhoods instead of analytic neighbourhoods in the arguments below.
 
-Step 1. From here until the end of Step 3, we will relate the problem to a similar problem on the projective space$\mathbb { P } ^ { d }$. In this step we consider a finite morphism to$\mathbb { P } ^ { d }$ Removing the components of Λ not passing through$x ,$we can assume$\Lambda = \textstyle \sum _ { 1 } ^ { d } S _ { i }$where $S _ { i }$are the irreducible components. Since$\deg _ { A } \Lambda \leq r , ( X , \Lambda )$belongs to a bounded family of pairs depending only on$d , r .$. Thus replacing A with a bounded multiple and replacing r accordingly, we can assume$A - S _ { i }$is very ample for each i. Writing$B = \sum b _ { j } B _ { j }$where $B _ { j }$are the distinct irreducible components, by Proposition 5.2, there is a finite morphism
+Step 1. From here until the end of Step 3, we will relate the problem to a similar problem on the projective space$\mathbb { P } ^ { d }$. In this step we consider a finite morphism to$\mathbb { P } ^ { d }$. Removing the components of Λ not passing through$x ,$we can assume$\Lambda = \textstyle \sum _ { 1 } ^ { d } S _ { i }$where $S _ { i }$are the irreducible components. Since$\deg _ { A } \Lambda \leq r , ( X , \Lambda )$belongs to a bounded family of pairs depending only on$d , r .$. Thus replacing A with a bounded multiple and replacing r accordingly, we can assume$A - S _ { i }$is very ample for each i. Writing$B = \sum b _ { j } B _ { j }$where $B _ { j }$are the distinct irreducible components, by Proposition 5.2, there is a finite morphism
 
 $$
 \pi \colon X \to \mathbb {P} ^ {d} = \mathrm{Proj} \mathbb {C} [ t _ {0}, \ldots , t _ {d} ]
 $$
 
-mapping x to the origin$z = ( 1 : 0 : \cdots : 0 )$and mapping$S _ { i }$onto the hyperplane$H _ { i }$ defined by$t _ { i }$. Moreover, π is ´etale over z, Supp B contains no point of$\pi ^ { - 1 } \{ z \}$other than $x ,$deg$\pi = A ^ { d }$, and$\deg _ { H _ { i } } C \leq \deg _ { A } B \leq r$where$\begin{array} { r } { C = \sum b _ { j } \pi ( B _ { j } ) } \end{array}$. In addition, by the proof of$5 . 2 , \pi ^ { * } H _ { i }$coincides with$S _ { i }$near x.
+mapping x to the origin$z = ( 1 : 0 : \cdots : 0 )$and mapping$S _ { i }$onto the hyperplane$H _ { i }$ defined by$t _ { i }$. Moreover, π is étale over z, Supp B contains no point of$\pi ^ { - 1 } \{ z \}$other than $x ,$deg$\pi = A ^ { d }$, and$\deg _ { H _ { i } } C \leq \deg _ { A } B \leq r$where$\begin{array} { r } { C = \sum b _ { j } \pi ( B _ { j } ) } \end{array}$. In addition, by the proof of 5.2, $\pi ^ { * } H _ { i }$coincides with$S _ { i }$near x.
 
-Step 2. In this step we consider the centre blowup sequence of T and the induced sequence associated to$\mathbb { P } ^ { d }$. By Lemma 2.20, there exist analytic neighbourhoods U and V of x and z, respectively, such that$\pi ^ { \mathrm { a n } } | _ { U }$induces an analytic isomorphism between the analytic pairs $( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$. In particular,$( \mathbb { P } ^ { d } , C )$is ǫ-lc near z. Let$\begin{array} { r } { \Theta : = \sum _ { 1 } ^ { d } H _ { i } } \end{array}$. Since $\pi ^ { * } H _ { i }$coincides with$S _ { i }$near x, we also have an analytic isomorphism between$( U , \Lambda ^ { \mathrm { a n } } | _ { U } )$and $( V , \Theta ^ { \mathrm { a n } } | _ { V } )$. Moreover, each stratum of$( \mathbb { P } ^ { d } , \Theta )$passes through z and each one is the image of a stratum of$( X , \Lambda )$passing through x. Thus Supp C does not contain any stratum of $( \mathbb { P } ^ { d } , \Theta )$, except possibly z: indeed, if Supp C contains a stratum I, then there is a stratum J of$( X , \Lambda )$passing through x which maps onto I; by the above analytic isomorphisms, $J ^ { \mathrm { a n } } | _ { U } \subseteq \mathrm { S u p p } B ^ { \mathrm { a n } } | _ { U }$which implies$J \subseteq \operatorname { S u p p } B$, hence$J = x$and$I = z$
+Step 2. In this step we consider the centre blowup sequence of T and the induced sequence associated to$\mathbb { P } ^ { d }$. By Lemma 2.20, there exist analytic neighbourhoods U and V of x and z, respectively, such that$\pi ^ { \mathrm { a n } } | _ { U }$induces an analytic isomorphism between the analytic pairs $( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$. In particular,$( \mathbb { P } ^ { d } , C )$is ǫ-lc near z. Let$\begin{array} { r } { \Theta : = \sum _ { 1 } ^ { d } H _ { i } } \end{array}$. Since $\pi ^ { * } H _ { i }$coincides with$S _ { i }$near x, we also have an analytic isomorphism between$( U , \Lambda ^ { \mathrm { a n } } | _ { U } )$and $( V , \Theta ^ { \mathrm { a n } } | _ { V } )$. Moreover, each stratum of$( \mathbb { P } ^ { d } , \Theta )$passes through z and each one is the image of a stratum of$( X , \Lambda )$passing through x. Thus Supp C does not contain any stratum of $( \mathbb { P } ^ { d } , \Theta )$, except possibly z: indeed, if Supp C contains a stratum I, then there is a stratum J of$( X , \Lambda )$passing through x which maps onto I; by the above analytic isomorphisms, $J ^ { \mathrm { a n } } | _ { U } \subseteq \mathrm { S u p p } B ^ { \mathrm { a n } } | _ { U }$which implies$J \subseteq \operatorname { S u p p } B$, hence$J = x$and$I = z$.
 
-The centre of T on X, that is x, is an lc centre and a stratum of$( X , \Lambda )$. Let$X _ { 1 }  X _ { 0 } = X$ be the blowup of X along this centre. Let$K _ { X _ { 1 } } + \Lambda _ { 1 }$be the pullback of$K _ { X } + \Lambda$. Then $( X _ { 1 } , \Lambda _ { 1 } )$is log smooth with$\Lambda _ { 1 }$reduced and containing the exceptional divisor of the blowup. Moreover, the centre of T on$X _ { 1 }$is an lc centre of$( X _ { 1 } , \Lambda _ { 1 } )$, hence a stratum of$( X _ { 1 } , \Lambda _ { 1 } )$ We blowup$X _ { 1 }$along the centre of$T$and so on. Thus we get a sequence
+The centre of T on X, that is x, is an lc centre and a stratum of$( X , \Lambda )$. Let$X _ { 1 } \to X _ { 0 } = X$ be the blowup of X along this centre. Let$K _ { X _ { 1 } } + \Lambda _ { 1 }$be the pullback of$K _ { X } + \Lambda$. Then $( X _ { 1 } , \Lambda _ { 1 } )$is log smooth with$\Lambda _ { 1 }$reduced and containing the exceptional divisor of the blowup. Moreover, the centre of T on$X _ { 1 }$is an lc centre of$( X _ { 1 } , \Lambda _ { 1 } )$, hence a stratum of$( X _ { 1 } , \Lambda _ { 1 } )$. We blowup$X _ { 1 }$along the centre of$T$and so on. Thus we get a sequence
 
 $$
 Y = X _ {l} \rightarrow \dots \rightarrow X _ {0} = X
 $$
 
-of centre blowups obtaining$T$as the exceptional divisor of the last blowup (2.16 (3)). The sequence is toroidal with respect to$( X , \Lambda )$
+of centre blowups obtaining$T$as the exceptional divisor of the last blowup (2.16 (3)). The sequence is toroidal with respect to$( X , \Lambda )$.
 
 Since the above sequence starts with blowing up x, and since$( U , \Lambda ^ { \mathrm { a n } } | _ { U } )$and$( V , \Theta ^ { \mathrm { a n } } | _ { V } )$ are analytically isomorphic, the sequence corresponds to a sequence of blowups
 
@@ -1354,7 +1354,7 @@ $$
 W = Z _ {l} \rightarrow \dots \rightarrow Z _ {0} = \mathbb {P} ^ {d}
 $$
 
-which is the sequence of centre blowups of$R ,$, the exceptional divisor of$Z _ { l } \to Z _ { l - 1 }$. The latter sequence starts with blowing up z and it is toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, hence $a ( R , \mathbb { P } ^ { d } , \Theta ) = 0$. On the other hand, since$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$are analytically isomorphic, we get
+which is the sequence of centre blowups of$R$, the exceptional divisor of$Z _ { l } \to Z _ { l - 1 }$. The latter sequence starts with blowing up z and it is toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, hence $a ( R , \mathbb { P } ^ { d } , \Theta ) = 0$. On the other hand, since$( U , B ^ { \mathrm { a n } } | _ { U } )$and$( V , C ^ { \mathrm { a n } } | _ { V } )$are analytically isomorphic, we get
 
 $$
 a (R, \mathbb {P} ^ {d}, C) = a (T, X, B) \leq 1.
@@ -1370,7 +1370,7 @@ $$
 
 This proves the existence of t.
 
-Step$\it 4 .$Letting$\begin{array} { r } { \epsilon ^ { \prime } = \frac { t } { 2 } \epsilon . } \end{array}$, in this step we construct a boundary$\Delta$such that$( \mathbb { P } ^ { d } , \Delta )$is$\epsilon ^ { \prime } { - } \mathrm { l c } .$ $K _ { \mathbb { P } ^ { d } } \mathrm { + } \Delta \sim _ { \mathbb { R } } 0$, and$a ( R , \mathbb { P } ^ { d } , \Delta ) \leq 1$. We start with an auxiliary boundary$D = ( 1 - \textstyle \frac { t } { 2 } ) \Theta + \frac { t } { 2 } C$ We will show that$( \mathbb { P } ^ { d } , D )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$. Let E be a prime divisor over$\mathbb { P } ^ { d }$and let I be its centre on$\mathbb { P } ^ { d }$. If I passes through$z ,$then by Lemma 2.3,
+Step 4. Letting$\begin{array} { r } { \epsilon ^ { \prime } = \frac { t } { 2 } \epsilon , } \end{array}$, in this step we construct a boundary$\Delta$such that$( \mathbb { P } ^ { d } , \Delta )$is$\epsilon ^ { \prime } { - } \mathrm { l c } .$ $K _ { \mathbb { P } ^ { d } } \mathrm { + } \Delta \sim _ { \mathbb { R } } 0$, and$a ( R , \mathbb { P } ^ { d } , \Delta ) \leq 1$. We start with an auxiliary boundary$D = ( 1 - \textstyle \frac { t } { 2 } ) \Theta + \frac { t } { 2 } C$. We will show that$( \mathbb { P } ^ { d } , D )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$. Let E be a prime divisor over$\mathbb { P } ^ { d }$and let I be its centre on$\mathbb { P } ^ { d }$. If I passes through$z ,$then by Lemma 2.3,
 
 $$
 a (E, \mathbb {P} ^ {d}, D) = (1 - \frac {t}{2}) a (E, \mathbb {P} ^ {d}, \Theta) + \frac {t}{2} a (E, \mathbb {P} ^ {d}, C) \geq \frac {t}{2} \epsilon = \epsilon^ {\prime}
@@ -1382,7 +1382,7 @@ $$
 a (E, \mathbb {P} ^ {d}, D) \geq a (E, \mathbb {P} ^ {d}, \Theta + \frac {t}{2} C) = \frac {1}{2} a (E, \mathbb {P} ^ {d}, \Theta + t C) + \frac {1}{2} a (E, \mathbb {P} ^ {d}, \Theta) \geq \frac {1}{2} \geq \epsilon^ {\prime}
 $$
 
-because$( \mathbb { P } ^ { d } , \Theta + t C )$is lc near I, by Step 3, and because$a ( E , \mathbb { P } ^ { d } , \Theta ) \geq 1$as$E$is not an lc place of$( \mathbb { P } ^ { d } , \Theta )$. Therefore, we have proved$( \mathbb { P } ^ { d } , D )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$
+because$( \mathbb { P } ^ { d } , \Theta + t C )$is lc near I, by Step 3, and because$a ( E , \mathbb { P } ^ { d } , \Theta ) \geq 1$as$E$is not an lc place of$( \mathbb { P } ^ { d } , \Theta )$. Therefore, we have proved$( \mathbb { P } ^ { d } , D )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$.
 
 By Step 2,
 
@@ -1404,7 +1404,7 @@ $$
 
 Therefore, there is a boundary$\Delta \geq D$so that$( \mathbb { P } ^ { d } , \Delta )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$, $K _ { \mathbb { P } ^ { d } } + \Delta \sim _ { \mathbb { R } } 0$, and$a ( R , \mathbb { P } ^ { d } , \Delta ) \leq 1$.
 
-Step 5. In this step we show that there is a bounded number$n \in \mathbb { N }$such that$K _ { \mathbb { P } ^ { d } }$has a klt n-complement$K _ { \mathbb { P } ^ { d } } + \Omega$with$a ( R , \mathbb { P } ^ { d } , \Omega ) \leq 1$. Since$W \to \mathbb { P } ^ { d }$is a sequence of blowups toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, it is a sequence of toric blowups and$W$is a toric variety. Let ψ :$W ^ { \prime } \to \mathbb { P } ^ { d }$be the weighted blowup given by$R ,$that is, ψ is an extremal birational contraction contracting a single prime divisor which is the birational transform of R. Let $K _ { W ^ { \prime } } { + } \Delta _ { W ^ { \prime } }$be the pullback of$K _ { \mathbb { P } ^ { d } } + \Delta$. Then$\Delta _ { W ^ { \prime } }$is efective as$a ( R , \mathbb { P } ^ { d } , \Delta ) \leq 1$. Moreover, $- K _ { W ^ { \prime } }$is big by construction.
+Step 5. In this step we show that there is a bounded number$n \in \mathbb { N }$such that$K _ { \mathbb { P } ^ { d } }$has a klt n-complement$K _ { \mathbb { P } ^ { d } } + \Omega$with$a ( R , \mathbb { P } ^ { d } , \Omega ) \leq 1$. Since$W \to \mathbb { P } ^ { d }$is a sequence of blowups toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, it is a sequence of toric blowups and$W$is a toric variety. Let ψ :$W ^ { \prime } \to \mathbb { P } ^ { d }$be the weighted blowup given by$R ,$that is, ψ is an extremal birational contraction contracting a single prime divisor which is the birational transform of R. Let $K _ { W ^ { \prime } } { + } \Delta _ { W ^ { \prime } }$be the pullback of$K _ { \mathbb { P } ^ { d } } + \Delta$. Then$\Delta _ { W ^ { \prime } }$is effective as$a ( R , \mathbb { P } ^ { d } , \Delta ) \leq 1$. Moreover, $- K _ { W ^ { \prime } }$is big by construction.
 
 Now run an MMP on$- K _ { W ^ { \prime } } ,$and let$W ^ { \prime \prime }$be the resulting model. Then$W ^ { \prime \prime }$is a toric variety, and$- K _ { W ^ { \prime \prime } }$is nef and big. Thus$- K _ { W ^ { \prime \prime } }$defines a contraction$W ^ { \prime \prime } \to W ^ { \prime \prime \prime }$to a toric Fano variety. Moreover, since$( W ^ { \prime } , \Delta _ { W ^ { \prime } } )$is ǫ<sup>′</sup>-lc,$( W ^ { \prime \prime \prime } , \Delta _ { W ^ { \prime \prime \prime } } )$is ǫ<sup>′</sup>-lc too. Thus$W ^ { \prime \prime \prime }$is an $\epsilon ^ { \prime } { - } \mathrm { l c }$toric Fano variety. Now by [9],$W ^ { \prime \prime \prime }$belongs to a bounded family of varieties depending only on$d , \epsilon ^ { \prime }$. Therefore, there is a natural number$n > 1$depending only on$d , \epsilon ^ { \prime }$such that$\vert - n K _ { W ^ { \prime \prime \prime } } \vert$is base point free, in particular,$K _ { W ^ { \prime \prime \prime } }$has an n-complement$K _ { W ^ { \prime \prime \prime } } + \Omega _ { W ^ { \prime \prime \prime } }$ which is klt. This gives an n-complement$K _ { W ^ { \prime \prime } } + \Omega _ { W ^ { \prime \prime } }$of$K _ { W ^ { \prime \prime } }$which in turn gives an n-complement$K _ { W ^ { \prime } } + \Omega _ { W ^ { \prime } }$of$K _ { W ^ { \prime } }$because$W ^ { \prime } \dashrightarrow W ^ { \prime \prime }$is an MMP on$- K _ { W ^ { \prime } }$. Then we get an n-complement$K _ { \mathbb { P } ^ { d } } + \Omega$of$K _ { \mathbb { P } ^ { d } }$which is klt. By construction,
 
@@ -1412,7 +1412,7 @@ $$
 a (R, \mathbb {P} ^ {d}, \Omega) = a (R, W ^ {\prime}, \Omega_ {W ^ {\prime}}) \leq 1.
 $$
 
-Step 6. In this step we finish the proof by applying Lemma 2.17. Since nΩ is integral and $\deg _ { H _ { i } } \Omega = d + 1$, the pair$( \mathbb { P } ^ { d } , \operatorname { S u p p } ( \Omega + \Theta ) )$belongs to a bounded family of pairs depending only on$d , n$. Therefore, there is a positive real number u depending only on$d , n$such that $( \mathbb { P } ^ { d } , \Omega + u \Theta )$is lc. Since$\Omega _ { W ^ { \prime } } \geq 0$, we deduce that the coeficient of the birational transform of R in$\psi ^ { * } \Theta$is at most$\textstyle { \frac { 1 } { u } }$which in turn implies$\begin{array} { r } { \mu _ { R } \phi ^ { * } \Theta \le \frac { 1 } { u } } \end{array}$where$\phi$denotes$W \to \mathbb { P } ^ { d }$. On the other hand, since$W \to \mathbb { P } ^ { d }$is a sequence of centre blowups of R which is toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, we have$l + 1 \le \mu _ { R } \phi ^ { * } \Theta$, by Lemma 2.17. Therefore,$\begin{array} { r } { l \le p : = \lfloor \frac { 1 } { u } - 1 \rfloor } \end{array}$
+Step 6. In this step we finish the proof by applying Lemma 2.17. Since nΩ is integral and $\deg _ { H _ { i } } \Omega = d + 1$, the pair$( \mathbb { P } ^ { d } , \operatorname { S u p p } ( \Omega + \Theta ) )$belongs to a bounded family of pairs depending only on$d , n$. Therefore, there is a positive real number u depending only on$d , n$such that $( \mathbb { P } ^ { d } , \Omega + u \Theta )$is lc. Since$\Omega _ { W ^ { \prime } } \geq 0$, we deduce that the coefficient of the birational transform of R in$\psi ^ { * } \Theta$is at most$\textstyle { \frac { 1 } { u } }$which in turn implies$\begin{array} { r } { \mu _ { R } \phi ^ { * } \Theta \le \frac { 1 } { u } } \end{array}$where$\phi$denotes$W \to \mathbb { P } ^ { d }$. On the other hand, since$W \to \mathbb { P } ^ { d }$is a sequence of centre blowups of R which is toroidal with respect to$( \mathbb { P } ^ { d } , \Theta )$, we have$l + 1 \le \mu _ { R } \phi ^ { * } \Theta$, by Lemma 2.17. Therefore,$\begin{array} { r } { l \le p : = \lfloor \frac { 1 } { u } - 1 \rfloor } \end{array}$.
 
 5.6. Bound on multiplicity at an lc place. The next result bounds the multiplicity of divisors at lc places of a pair under suitable assumptions. An example of such boundedness is the boundedness of$\mu _ { R } \phi ^ { * } \Theta$that we obtained in Step 6 of the previous proof.
 
@@ -1432,15 +1432,15 @@ $$
 A - B, A - \Lambda, \text{and } A - L
 $$
 
-are all ample (in particular, we are assuming$B , \Lambda , L$are all$\mathbb { R } \mathrm { - } C a r t i e r )$，
+are all ample (in particular, we are assuming$B , \Lambda , L$are all$\mathbb { R } \mathrm { - } C a r t i e r )$,
 
 • $( X , \Lambda )$is lc near a point x (not necessarily closed),
 
 •$T$is an lc place of$( X , \Lambda )$with centre the closure of x, and
 
-• $a ( T , X , B ) \leq 1$
+• $a ( T , X , B ) \leq 1$.
 
-Then for any resolution$\nu \colon U \to X$so that T is a divisor on$U$, we have$\mu _ { T } \nu ^ { * } L \leq q$
+Then for any resolution$\nu \colon U \to X$so that T is a divisor on$U$, we have$\mu _ { T } \nu ^ { * } L \leq q$.
 
 We first treat a special case of the proposition.
 
@@ -1458,11 +1458,11 @@ $$
 K _ {H} + B _ {H} = (K _ {X} + B + H) | _ {H} \text { and } K _ {H} + \Lambda_ {H} = (K _ {X} + \Lambda + H) | _ {H}.
 $$
 
-Now take a log resolution φ:$W \to X$on which T is a divisor and let$G = \phi ^ { * } H$. Pick a component S of$G \cap T$and let R be its image on X. Then R is contained in$H \cap C$. In fact, considering the map$T \to C$and taking into account the generality of H, we can assume that R is a component of$H \cap C$
+Now take a log resolution φ:$W \to X$on which T is a divisor and let$G = \phi ^ { * } H$. Pick a component S of$G \cap T$and let R be its image on X. Then R is contained in$H \cap C$. In fact, considering the map$T \to C$and taking into account the generality of H, we can assume that R is a component of$H \cap C$.
 
 Now we have:
 
-• $( H , B _ { H } )$is a projective ǫ-lc pair of dimension$d - 1$
+• $( H , B _ { H } )$is a projective ǫ-lc pair of dimension$d - 1$,
 
 • $A _ { H }$is a very ample divisor on H with$A _ { H } ^ { d - 1 } \leq r ,$
 
@@ -1498,7 +1498,7 @@ $$
 
 respectively, and that$\mu _ { T } \Lambda _ { W } = 1$while$\mu _ { T } B _ { W } \geq 0 .$
 
-Denote the induced contraction$G \to H$by σ. Since we are assuming that Proposition 5.7 holds in dimension$d - 1$, the coeficient of S in$\sigma ^ { * } ( L _ { H } ) = ( \phi ^ { * } L ) | _ { G }$is bounded from above which implies the coeficient of$T$in$\phi ^ { * } L$is bounded from above too. Finally note that$\mu _ { T } \phi ^ { * } L = \mu _ { T } \nu ^ { * } L$for any resolution$\nu \colon U \to X$on which T is a divisor.
+Denote the induced contraction$G \to H$by σ. Since we are assuming that Proposition 5.7 holds in dimension$d - 1$, the coefficient of S in$\sigma ^ { * } ( L _ { H } ) = ( \phi ^ { * } L ) | _ { G }$is bounded from above which implies the coefficient of$T$in$\phi ^ { * } L$is bounded from above too. Finally note that$\mu _ { T } \phi ^ { * } L = \mu _ { T } \nu ^ { * } L$for any resolution$\nu \colon U \to X$on which T is a divisor.
 
 Lemma 5.9. Assume that Proposition 5.7 holds in dimension$d - 1$. Then the proposition holds in dimension d when$( X , \Lambda )$is log smooth and Λ is reduced.
 
@@ -1530,13 +1530,13 @@ $$
 A ^ {\prime} - B ^ {\prime \prime}, A ^ {\prime} - \Lambda^ {\prime \prime}, A ^ {\prime} - L ^ {\prime}
 $$
 
-are all ample, by definition of$B ^ { \prime \prime } , \Lambda ^ { \prime \prime }$
+are all ample, by definition of$B ^ { \prime \prime } , \Lambda ^ { \prime \prime }$.
 
-Note that each stratum of$( X ^ { \prime } , \Lambda ^ { \prime \prime } )$is the birational transform of a stratum of$( X , \Lambda )$ Now replacing$X , B , A , \Lambda , L , \epsilon$with$X ^ { \prime } , B ^ { \prime \prime } , A ^ { \prime } , \Lambda ^ { \prime \prime } , L ^ { \prime } , \epsilon ^ { \prime } .$, and replacing r appropriately, we can remove one of the zero-dimensional strata of$( X , \Lambda )$other than x. Repeating this process a bounded number of times, we get to the situation in which$( X , \Lambda )$has no zerodimensional stratum other than x.
+Note that each stratum of$( X ^ { \prime } , \Lambda ^ { \prime \prime } )$is the birational transform of a stratum of$( X , \Lambda )$. Now replacing$X , B , A , \Lambda , L , \epsilon$with$X ^ { \prime } , B ^ { \prime \prime } , A ^ { \prime } , \Lambda ^ { \prime \prime } , L ^ { \prime } , \epsilon ^ { \prime }$, and replacing r appropriately, we can remove one of the zero-dimensional strata of$( X , \Lambda )$other than x. Repeating this process a bounded number of times, we get to the situation in which$( X , \Lambda )$has no zerodimensional stratum other than x.
 
 Step 2. In this step we find a positive real number t depending only on$d , r , \epsilon$such that $( X , B + t B )$is$\epsilon/2$-lc outside finitely many closed points. Let H be a general element of$| A |$ and let$A _ { H } = A | _ { H } , B _ { H } = B | _ { H }$, and$L _ { H } = L | _ { H }$. Then
 
-• $( H , B _ { H } )$is a projective ǫ-lc pair of dimension$d - 1$
+• $( H , B _ { H } )$is a projective ǫ-lc pair of dimension$d - 1$,
 
 • $A _ { H }$is a very ample divisor on H with$A _ { H } ^ { d - 1 } \leq r ,$and
 
@@ -1548,7 +1548,7 @@ $$
 K _ {X} + B + t B = \frac {1}{2} (K _ {X} + B) + \frac {1}{2} (K _ {X} + B + 2 t B)
 $$
 
-and because$( X , B )$is$\epsilon { - } \mathrm { l c }$
+and because$( X , B )$is$\epsilon { - } \mathrm { l c }$.
 
 Step 3. In this step we take a resolution and introduce a boundary$\Gamma _ { V }$. Let$\psi \colon V \to X$ be a log resolution of$( X , B )$on which T is a divisor. Define a boundary
 
@@ -1556,7 +1556,7 @@ $$
 \Gamma_ {V} = (1 + t) B ^ {\sim} + (1 - \frac {\epsilon}{4}) \sum E _ {i} + (1 - a) T
 $$
 
-where$E _ { i }$are the exceptional divisors of ψ other than T,$a = a ( T , X , B )$, and ∼ denotes birational transform. Let$a _ { i } = a ( E _ { i } , X , B )$. Since$( X , B )$is ǫ-lc and since$\mu _ { T } \Gamma _ { V } = 1 - a$we have
+where$E _ { i }$are the exceptional divisors of ψ other than T,$a = a ( T , X , B )$, and ∼ denotes birational transform. Let$a _ { i } = a ( E _ { i } , X , B )$. Since$( X , B )$is ǫ-lc and since$\mu _ { T } \Gamma _ { V } = 1 - a$, we have
 
 $$
 \begin{array}{c} K _ {V} + \Gamma_ {V} = K _ {V} + B ^ {\sim} + \sum (1 - a _ {i}) E _ {i} + (1 - a) T + t B ^ {\sim} + \sum (a _ {i} - \frac {\epsilon}{4}) E _ {i} \\ = \psi^ {*} (K _ {X} + B) + t B ^ {\sim} + F \end{array}
@@ -1568,7 +1568,7 @@ $$
 F := \sum (a _ {i} - \frac {\epsilon}{4}) E _ {i}
 $$
 
-is efective and exceptional over X and its support does not contain T. On the other hand, if
+is effective and exceptional over X and its support does not contain T. On the other hand, if
 
 $$
 a ^ {\prime} = a (T, X, B + t B) \text { and } a _ {i} ^ {\prime} = a (E _ {i}, X, B + t B),
@@ -1586,9 +1586,9 @@ $$
 G := \sum (a _ {i} ^ {\prime} - \frac {\epsilon}{4}) E _ {i} + (a ^ {\prime} - a) T
 $$
 
-is exceptional over X. Moreover, if the image of$E _ { i }$on X is positive-dimensional for some $i ,$then$E _ { i }$is a component of$G$with positive coeficient because$( X , B + t B )$is$\epsilon/2$-lc outside finitely many closed points.
+is exceptional over X. Moreover, if the image of$E _ { i }$on X is positive-dimensional for some $i ,$then$E _ { i }$is a component of$G$with positive coefficient because$( X , B + t B )$is$\epsilon/2$-lc outside finitely many closed points.
 
-Step 4. In this step we run an MMP on$K _ { V } + \Gamma _ { V }$over X and study its outcome. By construction,$( V , \Gamma _ { V } )$is klt. Run an MMP on$K _ { V } + \Gamma _ { V }$over X, let$Y$be the resulting model, and$\pi \colon Y \to X$the corresponding morphism. Since$K _ { V } + \Gamma _ { V } \equiv G / X$and G is exceptional/X, the MMP contracts every component of G with positive coeficient, by the negativity lemma. Thus$\pi$is an isomorphism over the complement of finitely many closed points: indeed, by the last sentence of the previous step every$E _ { i }$with positive-dimensional centre on X is a component of G with positive coeficient so these are all contracted; also note that X is smooth by assumption so it is Q-factorial, hence the claim. Moreover, since
+Step 4. In this step we run an MMP on$K _ { V } + \Gamma _ { V }$over X and study its outcome. By construction,$( V , \Gamma _ { V } )$is klt. Run an MMP on$K _ { V } + \Gamma _ { V }$over X, let$Y$be the resulting model, and$\pi \colon Y \to X$the corresponding morphism. Since$K _ { V } + \Gamma _ { V } \equiv G / X$and G is exceptional/X, the MMP contracts every component of G with positive coefficient, by the negativity lemma. Thus$\pi$is an isomorphism over the complement of finitely many closed points: indeed, by the last sentence of the previous step every$E _ { i }$with positive-dimensional centre on X is a component of G with positive coefficient so these are all contracted; also note that X is smooth by assumption so it is Q-factorial, hence the claim. Moreover, since
 
 $$
 K _ {V} + \Gamma_ {V} \equiv t B ^ {\sim} + F / X
@@ -1602,7 +1602,7 @@ $$
 0 \leq D _ {Y} \sim_ {\mathbb {R}} \frac {1}{t} (K _ {Y} + \Gamma_ {Y} + 3 d A _ {Y})
 $$
 
-with coeficients$\leq 1 - \epsilon$. By Step 3,
+with coefficients$\leq 1 - \epsilon$. By Step 3,
 
 $$
 K _ {Y} + \Gamma_ {Y} = \pi^ {*} (K _ {X} + B) + t B _ {Y} ^ {\sim} + F _ {Y},
@@ -1626,7 +1626,7 @@ $$
 H \sim_ {\mathbb {R}} \frac {1}{t} (K _ {X} + B + 3 d A).
 $$
 
-Letting D be the pushdown of$D _ { Y }$to$X$, we get$D = H + B ,$
+Letting D be the pushdown of$D _ { Y }$to$X$, we get$D = H + B$.
 
 Step 6. In this step replacing B with D we reduce the proposition to the situation in which Supp B does not contain any stratum of$( X , \Lambda )$other than x. First we show that $( X , D )$is ǫ-lc. Write
 
@@ -1646,7 +1646,7 @@ $$
 (Y, R _ {Y} + D _ {Y} - \frac {1}{t} F _ {Y})
 $$
 
-is sub-ǫ-lc because$D _ { Y }$is general semi-ample with coeficients$\leq 1 - \epsilon$and$F _ { Y } \geq 0$. Therefore, $( X , D )$is ǫ-lc. Moreover, since$T$is not a component of$B _ { Y } ^ { \sim } + F _ { Y } + D _ { Y }$
+is sub-ǫ-lc because$D _ { Y }$is general semi-ample with coefficients$\leq 1 - \epsilon$and$F _ { Y } \geq 0$. Therefore, $( X , D )$is ǫ-lc. Moreover, since$T$is not a component of$B _ { Y } ^ { \sim } + F _ { Y } + D _ { Y }$,
 
 $$
 \begin{array}{c} a (T, X, D) = 1 - \mu_ {T} (R _ {Y} + D _ {Y} - \frac {1}{t} F _ {Y}) = 1 - \mu_ {T} R _ {Y} \\ = 1 - \mu_ {T} (B ^ {\sim} + R _ {Y}) = a (T, X, B) \leq 1. \end{array}
@@ -1658,7 +1658,7 @@ $$
 D \sim_ {\mathbb {R}} \frac {1}{t} (K _ {X} + B + 3 d A) + B,
 $$
 
-there is a natural number m depending only on$d , r , t ,$so depending only on$d , r , \epsilon .$such that
+there is a natural number m depending only on$d , r , t ,$so depending only on$d , r , \epsilon ,$such that
 
 $$
 3 m A - D \sim_ {\mathbb {R}} \left(m A - \frac {1}{t} K _ {X}\right) + \left(m A - \frac {3 d}{t} A\right) + \left(m A - \frac {1 + t}{t} B\right)
@@ -1674,7 +1674,7 @@ $$
 \nu \colon U = X _ {l} \to \dots \to X _ {0} = X,
 $$
 
-toroidal with respect to$( X , \Lambda )$, and of length$l \leq p$
+toroidal with respect to$( X , \Lambda )$, and of length$l \leq p$.
 
 Since$( X , \Lambda )$belongs to a bounded family of pairs, one can show inductively that all the $X _ { i }$are bounded. Moreover, we can assume that there is a very ample divisor J on U such that$J ^ { d }$is bounded from above depending only on$d , r , \epsilon$and that$J - \nu ^ { * } A$is ample. In particular, since$\nu ^ { * } A - \nu ^ { * } L$is nef,$J - \nu ^ { * } L$is ample. Therefore, there is a natural number q depending only on$d , r , \epsilon$such that
 
@@ -1684,11 +1684,11 @@ $$
 
 Thus$\mu _ { T } \nu ^ { * } L \leq q$if we replace ν with any other resolution on which$T$is a divisor.
 
-Proof. (of Proposition 5.7) Applying induction on dimension we can assume that the proposition holds in dimension$\leq d - 1$. Let$X , B , A , L , \Lambda ,$x be as in the proposition in dimension d. Replacing A we can assume it is efective and that$A - \left( K _ { X } + B \right)$is ample (we use the latter below). Since$A - \Lambda$is ample, deg$_ { A } \Lambda < A ^ { d } \leq r$. Thus since$n \Lambda$is integral, the couple $( X , { \mathrm { S u p p } } ( \Lambda + A ) )$belongs to a bounded family of couples$\mathcal { P }$depending only on$d , r , n$. Then there exists a log bounded family Q of log smooth pairs depending only on$d , r ,$n such that there exist a log resolution$\phi \colon W \to X$of$( X , \Lambda )$and a very ample divisor$A _ { W } \geq 0$so that
+Proof. (of Proposition 5.7) Applying induction on dimension we can assume that the proposition holds in dimension$\leq d - 1$. Let$X , B , A , L , \Lambda ,$x be as in the proposition in dimension d. Replacing A we can assume it is effective and that$A - \left( K _ { X } + B \right)$is ample (we use the latter below). Since$A - \Lambda$is ample, deg$_ { A } \Lambda < A ^ { d } \leq r$. Thus since$n \Lambda$is integral, the couple $( X , { \mathrm { S u p p } } ( \Lambda + A ) )$belongs to a bounded family of couples$\mathcal { P }$depending only on$d , r , n$. Then there exists a log bounded family Q of log smooth pairs depending only on$d , r ,$n such that there exist a log resolution$\phi \colon W \to X$of$( X , \Lambda )$and a very ample divisor$A _ { W } \geq 0$so that
 
-• if$\Theta _ { W }$is the sum of the exceptional divisors of$\phi$and the support of the birational transform of$\Lambda ,$then$( W , \Theta _ { W } + A _ { W } )$belongs to$\mathcal { Q } .$
+• if$\Theta _ { W }$is the sum of the exceptional divisors of$\phi$and the support of the birational transform of$\Lambda ,$then$( W , \Theta _ { W } + A _ { W } )$belongs to$\mathcal { Q }$,
 
-$A _ { W } - \Theta _ { W }$and$A _ { W } - \phi ^ { * } A$are ample.
+• $A _ { W } - \Theta _ { W }$and$A _ { W } - \phi ^ { * } A$are ample.
 
 In particular, this means that$A _ { W } ^ { d }$is bounded from above.
 
@@ -1700,7 +1700,7 @@ $$
 
 which shows that$T$is an lc place of$( W , \Theta _ { W } )$. Moreover, if C is the centre of$T$on$W$and if w is its generic point, then$\Lambda _ { W } = \Theta _ { W }$near w.
 
-Let$K _ { W } + B _ { W }$be the pullback of$K _ { X } + B$. We claim that the coeficients of$B _ { W }$are bounded from below. Writing$K _ { W } + J _ { W } = \phi ^ { * } K _ { X }$, we see that$J _ { W } \le B _ { W }$, so it is enough to show that the coeficients of$J _ { W }$are bounded from below. Note that since both$K _ { X } + B$and B are R-Cartier by assumption,$K _ { X }$is$\mathbb { Q } \mathrm { { - } C a r t i e r }$, so$\phi ^ { * } K _ { X }$makes sense. Since$( X , { \mathrm { S u p p } } \Lambda )$ belongs to bounded family of couples, we can indeed choose$\phi$so that the coeficients of$J _ { W }$ belong to a fixed finite set, hence in particular they are bounded from below.
+Let$K _ { W } + B _ { W }$be the pullback of$K _ { X } + B$. We claim that the coefficients of$B _ { W }$are bounded from below. Writing$K _ { W } + J _ { W } = \phi ^ { * } K _ { X }$, we see that$J _ { W } \le B _ { W }$, so it is enough to show that the coefficients of$J _ { W }$are bounded from below. Note that since both$K _ { X } + B$and B are R-Cartier by assumption,$K _ { X }$is$\mathbb { Q } \mathrm { { - } C a r t i e r }$, so$\phi ^ { * } K _ { X }$makes sense. Since$( X , { \mathrm { S u p p } } \Lambda )$ belongs to bounded family of couples, we can indeed choose$\phi$so that the coefficients of$J _ { W }$ belong to a fixed finite set, hence in particular they are bounded from below.
 
 Now there is a fixed$\alpha \in ( 0 , 1 )$such that
 
@@ -1708,9 +1708,9 @@ $$
 \Delta_ {W} := \alpha B _ {W} + (1 - \alpha) \Theta_ {W} \geq 0
 $$
 
-because the coeficients of$B _ { W }$are bounded from below and each exceptional$/ X$prime divisor has coeficient 1 in$\Theta _ { W }$
+because the coefficients of$B _ { W }$are bounded from below and each exceptional$/ X$prime divisor has coefficient 1 in$\Theta _ { W }$.
 
-Let$\delta = \alpha \epsilon$. Since$( W , B _ { W } )$is sub-ǫ-lc and$( W , \Theta _ { W } )$is lc, the pair$( W , \Delta _ { W } )$is$\delta { \mathrm { - l c } } .$by Lemma 2.3. Moreover, since
+Let$\delta = \alpha \epsilon$. Since$( W , B _ { W } )$is sub-ǫ-lc and$( W , \Theta _ { W } )$is lc, the pair$( W , \Delta _ { W } )$is$\delta { \mathrm { - l c } } ,$by Lemma 2.3. Moreover, since
 
 $$
 a (T, W, \Theta_ {W}) = 0,
@@ -1742,9 +1742,9 @@ Proposition 5.11. Let$d , r$be natural numbers and ǫ be a positive real number.
 
 • $L \geq 0$is an R-divisor on X,
 
-• $A - B$and$A - L$are ample (so we are assuming that B and L are$\mathbb { R } \mathrm { - } C a r t i e r )$
+• $A - B$and$A - L$are ample (so we are assuming that B and L are$\mathbb { R } \mathrm { - } C a r t i e r )$,
 
-• $( X , B + t L )$is ǫ<sup>′</sup>-lc for some$t \in ( 0 , r )$
+• $( X , B + t L )$is ǫ<sup>′</sup>-lc for some$t \in ( 0 , r )$,
 
 • we have
 
@@ -1764,9 +1764,9 @@ Then there is a Q-Cartier Q-divisor$\Lambda \geq 0$such that
 
 • $( X , \Lambda )$is lc near x, and
 
-• T is an lc place of$( X , \Lambda )$
+• T is an lc place of$( X , \Lambda )$.
 
-Proof. We can assume that$d > 1$as the proposition holds trivially in dimension one. On the other hand, by the ACC for lc thresholds [13], there exists a real number$\epsilon ^ { \prime } \in ( 0 , \epsilon )$ depending only on$d ,$so that if$( Y , ( 1 - \epsilon ^ { \prime } ) S )$is a klt pair of dimension d where$S$is reduced and Q-Cartier, then$( Y , S )$is lc. Let$X , B , A , L , T , t$t be as in the proposition with$\epsilon ^ { \prime }$as in the previous sentence.
+Proof. We can assume that$d > 1$as the proposition holds trivially in dimension one. On the other hand, by the ACC for lc thresholds [13], there exists a real number$\epsilon ^ { \prime } \in ( 0 , \epsilon )$ depending only on$d ,$so that if$( Y , ( 1 - \epsilon ^ { \prime } ) S )$is a klt pair of dimension d where$S$is reduced and Q-Cartier, then$( Y , S )$is lc. Let$X , B , A , L , T , t$ be as in the proposition with$\epsilon ^ { \prime }$as in the previous sentence.
 
 Step 1. In this step we find a positive real number v depending only on$d , r , \epsilon$such that
 
@@ -1784,11 +1784,11 @@ is ample, so replacing A with$( r + 1 ) A$and replacing r accordingly we can ass
 
 Let H be a general element of |A| and let$A _ { H } = A | _ { H } , B _ { H } = B | _ { H }$, and$L _ { H } = L | _ { H }$. Then
 
-$( H , B _ { H } + t L _ { H } )$is a projective ǫ<sup>′</sup>-lc pair of dimension$d - 1$
+• $( H , B _ { H } + t L _ { H } )$is a projective ǫ<sup>′</sup>-lc pair of dimension$d - 1$,
 
-$A _ { H }$is a very ample divisor on H with$A _ { H } ^ { d - 1 } \leq r$, and
+• $A _ { H }$is a very ample divisor on H with$A _ { H } ^ { d - 1 } \leq r$, and
 
-$A _ { H } - B _ { H } - t L _ { H }$is ample.
+• $A _ { H } - B _ { H } - t L _ { H }$is ample.
 
 Thus since we are assuming Theorem 1.8 in dimension$\leq d - 1$, we find a positive real number v depending only on$d , r , \epsilon ^ { \prime }$such that
 
@@ -1802,7 +1802,7 @@ $$
 (X, H + B + t L + 2 v (B + t L))
 $$
 
-is plt in a neighbourhood of$H$by inversion of adjunction [28, Theorem 5.50]. Therefore,
+is plt in a neighbourhood of$H$, by inversion of adjunction [28, Theorem 5.50]. Therefore,
 
 $$
 (X, B + t L + 2 v (B + t L))
@@ -1820,7 +1820,7 @@ $$
 K _ {X} + B + t L + v (B + t L) = \frac {1}{2} (K _ {X} + B + t L) + \frac {1}{2} (K _ {X} + B + t L + 2 v (B + t L))
 $$
 
-and because$( X , B + t L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$
+and because$( X , B + t L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$.
 
 Step 2. In this step we take a log resolution$W \to X$and define a boundary Γ<sub>W</sub> and study some of its properties. Let ψ :$W \to X$be a log resolution of$( X , B + t L )$so that$T$ is a divisor on$W$. Define a boundary
 
@@ -1852,7 +1852,7 @@ $$
 F := \sum (c _ {i} - \frac {\epsilon^ {\prime}}{4}) E _ {i}
 $$
 
-is exceptional over X and its support does not contain T. Moreover, since$( X , B + t L )$is $\epsilon ^ { \prime } { - } \mathrm { l c } ,$we have$c _ { i } \geq \epsilon ^ { \prime }$for every$i ,$so$F$is efective.
+is exceptional over X and its support does not contain T. Moreover, since$( X , B + t L )$is $\epsilon ^ { \prime } { - } \mathrm { l c } ,$we have$c _ { i } \geq \epsilon ^ { \prime }$for every$i ,$so$F$is effective.
 
 On the other hand, letting
 
@@ -1884,9 +1884,9 @@ $$
 (X, (1 + v) (B + t L))
 $$
 
-is$\frac { \epsilon ^ { \prime } } { 2 } \mathrm { - l c }$outside finitely many closed points, if the image of$E _ { i }$on X is positive-dimensional for some$i ,$then$\begin{array} { r } { c _ { i } ^ { \prime } \geq \frac { \epsilon ^ { \prime } } { 2 } } \end{array}$so$E _ { i }$is a component of G with positive coeficient.
+is$\frac { \epsilon ^ { \prime } } { 2 } \mathrm { - l c }$outside finitely many closed points, if the image of$E _ { i }$on X is positive-dimensional for some$i ,$then$\begin{array} { r } { c _ { i } ^ { \prime } \geq \frac { \epsilon ^ { \prime } } { 2 } } \end{array}$so$E _ { i }$is a component of G with positive coefficient.
 
-Step 3. In this step we run an MMP on$K _ { W } + \Gamma _ { W }$over X and argue that it does not contract$T$. By construction,$( W , \Gamma _ { W } )$is klt; here we are using the fact that the coeficients of$( 1 + v ) ( B ^ { \sim } + t L ^ { \sim } )$are less than 1 because
+Step 3. In this step we run an MMP on$K _ { W } + \Gamma _ { W }$over X and argue that it does not contract$T$. By construction,$( W , \Gamma _ { W } )$is klt; here we are using the fact that the coefficients of$( 1 + v ) ( B ^ { \sim } + t L ^ { \sim } )$are less than 1 because
 
 $$
 (X, (1 + v) (B + t L))
@@ -1894,7 +1894,7 @@ $$
 
 is$\frac { \epsilon ^ { \prime } } { 2 } -$lc outside finitely many closed points.
 
-Run an MMP on$K _ { W } + \Gamma _ { W }$over$X$and let$Y ^ { \prime }$be the resulting model. Since$K _ { W } + \Gamma _ { W } \equiv$ $G / X$and since$G$is exceptional over X by Step 2, applying the negativity lemma shows that the MMP contracts every component of$G$with positive coeficient. In particular, every$E _ { i }$with positive-dimensional image on$X$is contracted, by Step 2. Thus the induced morphism$Y ^ { \prime } \to X$is a small morphism over the complement of finitely many closed points. On the other hand, by Step 2,
+Run an MMP on$K _ { W } + \Gamma _ { W }$over$X$and let$Y ^ { \prime }$be the resulting model. Since$K _ { W } + \Gamma _ { W } \equiv$ $G / X$and since$G$is exceptional over X by Step 2, applying the negativity lemma shows that the MMP contracts every component of$G$with positive coefficient. In particular, every$E _ { i }$with positive-dimensional image on$X$is contracted, by Step 2. Thus the induced morphism$Y ^ { \prime } \to X$is a small morphism over the complement of finitely many closed points. On the other hand, by Step 2,
 
 $$
 K _ {W} + \Gamma_ {W} \equiv v (B ^ {\sim} + t L ^ {\sim}) + F / X
@@ -1914,13 +1914,13 @@ $$
 K _ {X} + (1 + v) (B + t L) + 2 d A.
 $$
 
-Step$\it 4 .$In this step we consider a model$Y$on which$- T _ { Y }$is ample over X. Since $( X , B + t L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$and
+Step 4. In this step we consider a model$Y$on which$- T _ { Y }$is ample over X. Since $( X , B + t L )$is$\epsilon ^ { \prime } { - } \mathrm { l c }$and
 
 $$
 a (T, X, B + t L) = \epsilon^ {\prime} <   1,
 $$
 
-there is a birational contraction$Y ^ { \prime \prime } \to X$extracting$T$but no other divisor where$Y ^ { \prime \prime }$is normal and Q-factorial. We denote the centre of$T$on$Y ^ { \prime \prime }$by$T _ { Y ^ { \prime \prime } }$. Then$Y ^ { \prime \prime }$is of Fano type over$X ,$so there is an ample model Y of$- T _ { Y ^ { \prime \prime } }$over$X { \mathrm { : } }$: that${ \mathrm { i s } } ,$we run an MMP on$- T _ { Y ^ { \prime \prime } }$ to get a semi-ample over$X$divisor and then take the associated contraction to get$Y$. The induced birational morphism$\phi \colon Y \to X$contracts$T _ { Y }$but no other divisors and any curve contracted by$\phi$is inside$T _ { Y } { \mathrm { ~ a s ~ } } - T _ { Y }$is ample over$X .$. In particular, since$T _ { Y }$is mapped to $x ,$φ is an isomorphism over the complement of x in$X$. By construction, the induced map $Y \dashrightarrow Y ^ { \prime }$does not contract any divisor.
+there is a birational contraction$Y ^ { \prime \prime } \to X$extracting$T$but no other divisor where$Y ^ { \prime \prime }$is normal and Q-factorial. We denote the centre of$T$on$Y ^ { \prime \prime }$by$T _ { Y ^ { \prime \prime } }$. Then$Y ^ { \prime \prime }$is of Fano type over$X ,$so there is an ample model Y of$- T _ { Y ^ { \prime \prime } }$over$X$: that is, we run an MMP on$- T _ { Y ^ { \prime \prime } }$ to get a semi-ample over$X$divisor and then take the associated contraction to get$Y$. The induced birational morphism$\phi \colon Y \to X$contracts$T _ { Y }$but no other divisors and any curve contracted by$\phi$is inside$T _ { Y } { \mathrm { ~ a s ~ } } - T _ { Y }$is ample over$X$. In particular, since$T _ { Y }$is mapped to $x ,$φ is an isomorphism over the complement of x in$X$. By construction, the induced map $Y \dashrightarrow Y ^ { \prime }$does not contract any divisor.
 
 Step 5. In this step we show that$K _ { Y } + \Gamma _ { Y } + 3 d A _ { Y }$is ample where$K _ { Y } + \Gamma _ { Y } , A _ { Y }$are the pushdowns of$K _ { Y ^ { \prime } } + \Gamma _ { Y ^ { \prime } } , A _ { Y ^ { \prime } }$. First note that, by Step 2,
 
@@ -1976,7 +1976,7 @@ $$
 
 Therefore,$K _ { Y } + \Gamma _ { Y } + 2 d A _ { Y }$is nef globally while being ample over$X$. Since$A _ { Y }$is the pullback of the ample divisor$A ,$it follows that$K _ { Y } + \Gamma _ { Y } + 3 d A _ { Y }$is ample.
 
-Step$\it 6 .$In this step we show that there is a natural number l depending only on$d , r , \epsilon$ such that
+Step 6. In this step we show that there is a natural number l depending only on$d , r , \epsilon$ such that
 
 $$
 l A _ {Y} - (K _ {Y} + (1 - \epsilon^ {\prime}) T _ {Y})
@@ -1991,7 +1991,7 @@ $$
 we have
 
 $$
-K _ {Y} + B _ {\widetilde {Y}} ^ {\sim} + t L _ {\widetilde {Y}} ^ {\sim} + (1 - \epsilon^ {\prime}) T _ {Y} = \phi^ {*} (K _ {X} + B + t L),
+K _ {Y} + B _ { Y } ^ {\sim} + t L _ { Y } ^ {\sim} + (1 - \epsilon^ {\prime}) T _ {Y} = \phi^ {*} (K _ {X} + B + t L),
 $$
 
 where$B _ { Y } ^ { \sim } , L _ { Y } ^ { \sim }$are the pushdowns of$B ^ { \sim } , L ^ { \sim }$. Hence for any l we have
@@ -2018,7 +2018,7 @@ $$
 (l - \frac {3 d}{v}) A _ {Y} - (1 + \frac {1}{v}) \phi^ {*} (K _ {X} + B + t L) = \phi^ {*} ((l - \frac {3 d}{v}) A - (1 + \frac {1}{v}) (K _ {X} + B + t L))
 $$
 
-is nef where we also used the assumption$t \leq r$and that$v , \beta$depend only on$d , r , \epsilon .$. On the other hand, by Step 2 and the fact that$F$is contracted over$Y$
+is nef where we also used the assumption$t \leq r$and that$v , \beta$depend only on$d , r , \epsilon$. On the other hand, by Step 2 and the fact that$F$is contracted over$Y$,
 
 $$
 K _ {Y} + \Gamma_ {Y} = \phi^ {*} (K _ {X} + B + t L) + v (B _ {Y} ^ {\sim} + t L _ {Y} ^ {\sim}),
@@ -2092,7 +2092,7 @@ $$
 l A _ {Y} + \alpha (B _ {Y} ^ {\sim} + t L _ {Y} ^ {\sim})
 $$
 
-is ample if l is large enough depending only on$d , r , \epsilon$remembering from Step 5 that $K _ { Y } + \Gamma _ { Y } + 3 d A _ { Y }$is ample. Therefore, taking l large enough and then replacing it with$3 l$ we can assume$l A _ { Y } - ( K _ { Y } + T _ { Y } )$is ample.
+is ample if l is large enough depending only on$d , r , \epsilon$remembering from Step 5 that $K _ { Y } + \Gamma _ { Y } + 3 d A _ { Y }$is ample. Therefore, taking l large enough and then replacing it with$3 l$, we can assume$l A _ { Y } - ( K _ { Y } + T _ { Y } )$is ample.
 
 Step 8. In this step we finish the proof by applying Theorem 1.9. The pair$( Y , ( 1 - \epsilon ^ { \prime } ) T _ { Y } )$ is klt because$( X , B + t L )$is klt and
 
@@ -2118,13 +2118,13 @@ $$
 a (T, X, \Lambda) = a (T, Y, \Lambda_ {Y}) = a (T _ {Y}, Y, \Lambda_ {Y}) = 0,
 $$
 
-so$T$is an lc place of$( X , \Lambda )$
+so$T$is an lc place of$( X , \Lambda )$.
 
 ## 6. Proof of main results
 
 We apply induction on dimension to prove Theorems 1.1, 1.6, and 1.8, so assume they all hold in dimension$\leq d - 1$. It is easy to verify them in dimension one. Recall that we proved Theorem 1.9 in Section 4.
 
-Proof. (of Theorem 1.8) Step 1. In this step we make some simple reductions. Since$A - B$ and$A - M$are pseudo-efective, replacing A with 2A we can assume$A - B$and$A - M$are big. In particular,$A \sim _ { \mathbb { R } } M + N$for some$N \geq 0$. Thus
+Proof. (of Theorem 1.8) Step 1. In this step we make some simple reductions. Since$A - B$ and$A - M$are pseudo-effective, replacing A with 2A we can assume$A - B$and$A - M$are big. In particular,$A \sim _ { \mathbb { R } } M + N$for some$N \geq 0$. Thus
 
 $$
 \operatorname{lct} (X, B, | M | _ {\mathbb {R}}) \geq \operatorname{lct} (X, B, | M + N | _ {\mathbb {R}}) = \operatorname{lct} (X, B, | A | _ {\mathbb {R}}),
@@ -2136,9 +2136,7 @@ Step 2. In this step we reduce the theorem to the case when$K _ { X }$is Q-Carti
 
 •$Y$is normal and$K _ { Y }$is Q-Cartier,
 
-• $A _ { Y } ^ { d } \leq l$, and
-
-• $A _ { Y } - \phi ^ { * } A$is ample.
+• $A _ { Y } ^ { d } \leq l$ and$A _ { Y } - \phi ^ { * } A$is ample.
 
 Let$K _ { Y } + B _ { Y } = \phi ^ { * } ( K _ { X } + B )$. Then
 
@@ -2160,9 +2158,9 @@ $$
 \operatorname{lct} (X, B, | A | _ {\mathbb {R}}) = \frac {1}{2} \operatorname{lct} (X, B, | C | _ {\mathbb {R}})
 $$
 
-because if$N \in | A | _ { \mathbb { R } }$, then$L : = { \textstyle { \frac { 1 } { 2 } } } N \in | C | _ { \mathbb { R } }$and$( X , B + t N )$is lc if and only if$( X , B + 2 t L )$ is lc where$t \in \mathbb { R }$. Thus it is enough to find a positive lower bound for lct$( X , B , | C | _ { \mathbb { R } } )$
+because if$N \in | A | _ { \mathbb { R } }$, then$L : = { \textstyle { \frac { 1 } { 2 } } } N \in | C | _ { \mathbb { R } }$and$( X , B + t N )$is lc if and only if$( X , B + 2 t L )$ is lc where$t \in \mathbb { R }$. Thus it is enough to find a positive lower bound for lct$( X , B , | C | _ { \mathbb { R } } )$.
 
-Let$n , m , \epsilon ^ { \prime }$be the numbers given by Proposition 5.11 for the data$d , r , \epsilon .$Note that since $K _ { X } + B$and$K _ { X }$are both R-Cartier, B is R-Cartier. Also note that$A - C$is ample by definition of C. Pick$L \in | C | _ { \mathbb { R } }$. Let t be the largest real number such that$( X , B + t L )$is $\epsilon ^ { \prime } { - } \mathrm { l c }$. It is enough to find a positive lower bound for t. In particular, we can assume$t < 1$
+Let$n , m , \epsilon ^ { \prime }$be the numbers given by Proposition 5.11 for the data$d , r , \epsilon .$Note that since $K _ { X } + B$and$K _ { X }$are both R-Cartier, B is R-Cartier. Also note that$A - C$is ample by definition of C. Pick$L \in | C | _ { \mathbb { R } }$. Let t be the largest real number such that$( X , B + t L )$is $\epsilon ^ { \prime } { - } \mathrm { l c }$. It is enough to find a positive lower bound for t. In particular, we can assume$t < 1$.
 
 By definition of$t ,$there is a prime divisor$T$on birational models of X such that
 
@@ -2172,7 +2170,7 @@ $$
 
 Let x be the generic point of the centre of$T$on$X$.
 
-Step$\it 4 .$In this step we reduce to the case when x is a closed point. Assume x is not a closed point. Then cutting by general elements of$| A |$and applying induction (see Step 1 of the proof of Proposition 5.7 for similar arguments), there is a positive real number v depending only on$d , r , \epsilon$such that$( X , B + v L )$is lc outside finitely many closed points, in particular, it is lc near x. Then
+Step 4. In this step we reduce to the case when x is a closed point. Assume x is not a closed point. Then cutting by general elements of$| A |$and applying induction (see Step 1 of the proof of Proposition 5.7 for similar arguments), there is a positive real number v depending only on$d , r , \epsilon$such that$( X , B + v L )$is lc outside finitely many closed points, in particular, it is lc near x. Then
 
 $$
 (X, B + (1 - \frac {\epsilon^ {\prime}}{\epsilon}) v L)
@@ -2194,7 +2192,7 @@ Step 5. In this step we show that t is bounded from below away from zero by appl
 
 • $( X , \Lambda )$is lc near$x ,$and
 
-• T is an lc place of$( X , \Lambda )$
+• T is an lc place of$( X , \Lambda )$.
 
 Replacing$A , C , L , t$with 2mA, 2mC, 2m$L , { \frac { t } { 2 m } }$, respectively, and replacing r accordingly, we can assume$A - B - t L$and$A - \Lambda$are ample. Applying Proposition 5.7 to$( X , B + t L )$, there is a natural number$q$depending only on$d , r , n , \epsilon ^ { \prime }$such that if$\nu \colon U \to X$is a resolution so that$T$is a divisor on$U .$, then$\mu _ { T } \nu ^ { * } L \leq q$. Pick such a resolution.
 
@@ -2206,7 +2204,7 @@ $$
 
 we have$\mu _ { T } \nu ^ { * } t L \geq \epsilon - \epsilon ^ { \prime }$which implies$\begin{array} { r } { t \geq \frac { \epsilon - \epsilon ^ { \prime } } { q } } \end{array}$, hence t is bounded from below as required.
 
-Step 6. In this step we finish the proof of the theorem. It remains to treat the case when $A - B$may not be ample. We will show that after replacing A with a bounded multiple, $A - B$becomes ample. As mentioned in Step 1, we can assume$A - B$is big. We can then find$0 \leq P \sim _ { \mathbb { R } } A - B$. By Steps 1-5 above, more precisely, by applying the theorem in the case when the boundary is zero, we find a positive real number s depending only on$d , r ,$ǫ such that$( X , s P )$is klt. Thus$K _ { X } + s P + 3 d A$is ample by boundedness of length of extremal rays. On the other hand, we can assume that$A - K _ { X }$is ample, hence$s P + ( 3 d + 1 ) .$A is ample which means that letting$\textstyle e = { \bigl \lceil } { \frac { 3 d + 1 } { s } } { \bigr \rceil }$, P + eA is ample.
+Step 6. In this step we finish the proof of the theorem. It remains to treat the case when $A - B$may not be ample. We will show that after replacing A with a bounded multiple, $A - B$becomes ample. As mentioned in Step 1, we can assume$A - B$is big. We can then find$0 \leq P \sim _ { \mathbb { R } } A - B$. By Steps 1-5 above, more precisely, by applying the theorem in the case when the boundary is zero, we find a positive real number s depending only on$d , r ,$ǫ such that$( X , s P )$is klt. Thus$K _ { X } + s P + 3 d A$is ample by boundedness of length of extremal rays. On the other hand, we can assume that$A - K _ { X }$is ample, hence$s P + ( 3 d + 1 )A$ is ample which means that letting$\textstyle e = { \bigl \lceil } { \frac { 3 d + 1 } { s } } { \bigr \rceil }$, P + eA is ample.
 
 By assumption,$P \sim _ { \mathbb { R } } A - B ,$so$( e + 1 ) A - B$is ample. Therefore, replacing A with $( e + 1 ) A$, we are reduced to the case when$A - B$is ample.
 
@@ -2216,9 +2214,9 @@ Proof. (of Theorem 1.7) This follows by combining Theorem 1.8, Lemma 3.3, and Pr
 
 Proof. (of Theorem 1.6) This follows from Theorem 1.8 in dimension$\leq d .$, Theorem 1.1 in dimension$\leq d - 1$, and Lemma 3.2.
 
-Proof. (of Theorem 1.1) Let$X ^ { \prime }$be a small Q-factorialisation of X. Then$X ^ { \prime }$is of Fano type. Run an MMP on$- K _ { X ^ { \prime } }$and let$X ^ { \prime \prime }$be the resulting model. Then$X ^ { \prime \prime }$is an ǫ-lc weak Fano variety because we can find$\Delta \ge B$so that$( X , \Delta )$is ǫ-lc and$K _ { X } + \Delta \sim _ { \mathbb { R } } 0$which gives$\Delta ^ { \prime \prime }$so that$( X ^ { \prime \prime } , \Delta ^ { \prime \prime } )$is ǫ-lc. It is enough to show such$X ^ { \prime \prime }$form a bounded family because then there is a bounded natural number n such that$K _ { X ^ { \prime \prime } }$has a klt n-complement $K _ { X ^ { \prime \prime } } + \Omega ^ { \prime \prime }$which gives a klt n-complement$K _ { X ^ { \prime } } + \Omega ^ { \prime } \ [ 5 , 6 . 1 ( 3 ) ]$and this in turn gives a klt n-complement$K _ { X } + \Omega$of$K _ { X }$, hence we can apply [15]. Replacing X with$X ^ { \prime \prime }$we can then assume$B = 0$
+Proof. (of Theorem 1.1) Let$X ^ { \prime }$be a small Q-factorialisation of X. Then$X ^ { \prime }$is of Fano type. Run an MMP on$- K _ { X ^ { \prime } }$and let$X ^ { \prime \prime }$be the resulting model. Then$X ^ { \prime \prime }$is an ǫ-lc weak Fano variety because we can find$\Delta \ge B$so that$( X , \Delta )$is ǫ-lc and$K _ { X } + \Delta \sim _ { \mathbb { R } } 0$which gives$\Delta ^ { \prime \prime }$so that$( X ^ { \prime \prime } , \Delta ^ { \prime \prime } )$is ǫ-lc. It is enough to show such$X ^ { \prime \prime }$form a bounded family because then there is a bounded natural number n such that$K _ { X ^ { \prime \prime } }$has a klt n-complement $K _ { X ^ { \prime \prime } } + \Omega ^ { \prime \prime }$which gives a klt n-complement$K _ { X ^ { \prime } } + \Omega ^ { \prime } \ [ 5 , 6 . 1 ( 3 ) ]$and this in turn gives a klt n-complement$K _ { X } + \Omega$of$K _ { X }$, hence we can apply [15]. Replacing X with$X ^ { \prime \prime }$we can then assume$B = 0$.
 
-By Theorems 2.10 and 2.13, there is a natural number m depending only on$d , \epsilon$such that$\vert - m K _ { X } \vert$defines a birational map and such that$K _ { X }$has an m-complement. Moreover, by Theorem 1.1 in dimension$\leq d - 1$and by Theorem 2.11, there is a natural number v depending only on$d , \epsilon$such that $\operatorname { vol } ( - K _ { X } ) \leq v$
+By Theorems 2.10 and 2.13, there is a natural number m depending only on$d , \epsilon$such that$\vert - m K _ { X } \vert$defines a birational map and such that$K _ { X }$has an m-complement. Moreover, by Theorem 1.1 in dimension$\leq d - 1$and by Theorem 2.11, there is a natural number v depending only on$d , \epsilon$such that $\operatorname { vol } ( - K _ { X } ) \leq v$.
 
 On the other hand, by Theorem 1.6, there is a positive real number t depending only on$d , \epsilon$ such that if$0 \leq N \sim _ { \mathbb { R } } - K _ { X }$then$( X , t N )$is klt. Thus letting$\begin{array} { r } { t _ { l } = \frac { t } { l } } \end{array}$for$l \in \mathbb N$, we deduce that for any$0 \le L \sim - l K _ { X }$, the pair$( X , t _ { l } L )$is klt. Now boundedness of such X follows from Theorem 2.15.
 
@@ -2240,7 +2238,7 @@ $$
 - (K _ {X} + D) \sim_ {\mathbb {R}} \Delta - D \sim_ {\mathbb {R}} A
 $$
 
-is ample. Since$( X , \Delta )$is$\epsilon { \mathrm { - l c } } ,$choosing α to be suficiently small we can ensure that$( X , \Gamma )$ is$\frac { \epsilon } { 2 } { - } \mathrm { l c }$. Now apply Theorem 1.1.
+is ample. Since$( X , \Delta )$is$\epsilon { \mathrm { - l c } } ,$choosing α to be sufficiently small we can ensure that$( X , \Gamma )$ is$\frac { \epsilon } { 2 } { - } \mathrm { l c }$. Now apply Theorem 1.1.
 
 Proof. (of Corollary 1.5) This follows from Theorem 1.1 and [39, Theorem 1.8].
 
@@ -2264,7 +2262,7 @@ Proof. (of Corollary 1.5) This follows from Theorem 1.1 and [39, Theorem 1.8].
 
 [9] A. Borisov, L. Borisov; Singular toric Fano varieties. Acad. Sci. USSR Sb. Math. 75 (1993), no. 1, 277–283.
 
-[10] F. Campana, Une version g´eom´etrique g´en´eralis´ee du th´eor\`eme du produit de Nadel [A generalized geometric version of the Nadel product theorem], Bull. Soc. Math. France 119 (1991), no. 4, 479–493 (French).
+[10] F. Campana, Une version géométrique généralisée du théorème du produit de Nadel [A generalized geometric version of the Nadel product theorem], Bull. Soc. Math. France 119 (1991), no. 4, 479–493 (French).
 
 [11] I. Cheltsov, C. Shramov; Log canonical thresholds of smooth Fano threefolds. Russian Mathematical Surveys 63 (2008), 859-958. Appendix by J.-P. Demailly; On Tian’s invariant and log canonical thresholds.
 
@@ -2290,17 +2288,17 @@ Proof. (of Corollary 1.5) This follows from Theorem 1.1 and [39, Theorem 1.8].
 
 [22] Y. Kawamata; Boundedness of Q-Fano threefolds. Proceedings of the International Conference on Algebra, Part 3 (Novosibirsk, 1989), 439–445, Contemp. Math., 131, Part 3, Amer. Math. Soc., Providence, RI, 1992.
 
-[23] K. S. Kedlaya; More ´etale covers of afine spaces in positive characteristic. Journal of Algebraic Geometry 14 (2005), 187-192.
+[23] K. S. Kedlaya; More étale covers of affine spaces in positive characteristic. Journal of Algebraic Geometry 14 (2005), 187-192.
 
-[24] J. Koll´ar; Partial resolution by toroidal blow-ups. Tunis. J. Math. 1 (2019), no. 1, 3-12.
+[24] J. Kollár; Partial resolution by toroidal blow-ups. Tunis. J. Math. 1 (2019), no. 1, 3-12.
 
-[25] J. Koll´ar ´et al.; Flips and abundance for algebraic threefolds, Ast´erisque No. 211 (1992).
+[25] J. Kollár ét al.; Flips and abundance for algebraic threefolds, Astérisque No. 211 (1992).
 
-[26] J. Koll´ar; Y. Miyaoka; S. Mori; Rationally connectedness and boundedness of Fano manifolds. J. Di. Geom. 36 (1992), 765-769.
+[26] J. Kollár; Y. Miyaoka; S. Mori; Rationally connectedness and boundedness of Fano manifolds. J. Di. Geom. 36 (1992), 765-769.
 
-[27] J. Koll´ar; Y. Miyaoka; S. Mori; H. Takagi; Boundedness of canonical Q-Fano 3-folds. Proc. Japan Acad. Ser. A Math. Sci. 76 (2000), no. 5, 73–77.
+[27] J. Kollár; Y. Miyaoka; S. Mori; H. Takagi; Boundedness of canonical Q-Fano 3-folds. Proc. Japan Acad. Ser. A Math. Sci. 76 (2000), no. 5, 73–77.
 
-[28] J. Koll´ar and S. Mori, Birational geometry of algebraic varieties, Cambridge Tracts in Math. 134, Cambridge Univ. Press, 1998.
+[28] J. Kollár and S. Mori, Birational geometry of algebraic varieties, Cambridge Tracts in Math. 134, Cambridge Univ. Press, 1998.
 
 [29] R. Lazarsfeld; Positivity in algebraic geometry II. Springer (2004).
 
@@ -2328,7 +2326,7 @@ Proof. (of Corollary 1.5) This follows from Theorem 1.1 and [39, Theorem 1.8].
 
 [41] J.-P. Serre; A Minkowski-style bound for the orders of the finite subgroups of the Cremona group of rank 2 over an arbitrary field. Mosc. Math. J., 9 (2009):193-208.
 
-[42] G. Tian; On a set of polarized K¨ahler metrics on algebraic manifolds. J. Diferential Geom. 32 (1990), 99-130.
+[42] G. Tian; On a set of polarized Kähler metrics on algebraic manifolds. J. Differential Geom. 32 (1990), 99-130.
 
 [43] E. Viehweg; Quasi-Projective Moduli of Polarized Manifolds. Springer-Verlag, Berlin, 1995
 
